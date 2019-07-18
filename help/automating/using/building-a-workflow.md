@@ -1,0 +1,108 @@
+---
+title: Workflow erstellen
+seo-title: Workflow erstellen
+description: Workflow erstellen
+seo-description: In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei der Erstellung eines neuen Workflows.
+page-status-flag: nie aktiviert
+uuid: 11374 f 64-8 d 44-40 da -937 b -09 f 419250 f 4 c
+contentOwner: sauviat
+products: SG_ CAMPAIGN/STANDARD
+audience: wird automatisiert
+content-type: Referenz
+topic-tags: workflow-general-operation
+discoiquuid: c 26 fcb 0 e -19 d 5-4 bd 5-b 7 d 6-2 d 22 ce 92 ad 90
+context-tags: workflow, wizard; workflow, main
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+
+---
+
+
+# Workflow erstellen{#building-a-workflow}
+
+In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei der Erstellung eines neuen Workflows:
+
+* Workflow erstellen
+* Aktivitäten hinzufügen und verbinden
+* Aktivitäten konfigurieren
+
+## Workflow erstellen {#creating-a-workflow}
+
+Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
+
+Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+
+1. Im Rahmen der Workflow-Erstellung ist zunächst die Workflow-Vorlage auszuwählen, die Sie verwenden möchten.
+
+   ![](assets/workflow_creation_1.png)
+
+   >[!NOTE]
+   >
+   >Für jede Aktivität werden mehrere Standardtypen angeboten. Diese erlauben es, je nach Bedarf gewisse Parameter im Voraus zu konfigurieren. Weiterführende Informationen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
+
+1. Konfigurieren Sie die allgemeinen Workflow-Eigenschaften.
+
+   ![](assets/workflow_creation_2.png)
+
+   Benennen Sie den Workflow im Feld **Titel** und passen Sie gegebenenfalls die Kennung an. Titel und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfänger nicht sichtbar.
+
+   >[!NOTE]
+   >
+   >Wenn Sie einen Workflow von der Marketingaktivitätenliste ausgehend erstellen, können Sie ihn einer bereits existierenden Kampagne zuordnen. Fügen Sie bei Bedarf eine Beschreibung hinzu.
+
+   Fügen Sie bei Bedarf eine Beschreibung hinzu. Diese ist im Kampagneninhalt sichtbar.
+
+   Um die Suche und Fehlerbehebung zu vereinfachen, empfiehlt Adobe, Ihre Workflows mit eigenen Namen und Titeln zu versehen: Erläutern Sie im Beschreibungsfeld des Workflows kurz den jeweiligen Prozess, damit dessen Zweck für den Benutzer leicht ersichtlich ist.
+
+1. Nach Bestätigung der Aktivitätserstellung werden Sie zum entsprechenden Dashboard weitergeleitet. Lesen Sie diesbezüglich auch den Abschnitt [Workflow-Oberfläche](../../automating/using/workflow-interface.md).
+
+**Verwandtes Thema:**
+
+Video [Creating a workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+
+## Aktivitäten hinzufügen und verbinden {#adding-and-linking-activities}
+
+Definieren Sie jetzt die verschiedenen Aktivitäten und verbinden Sie sie in einem Diagramm.
+
+>[!NOTE]
+>
+>Sollte die Palette nicht angezeigt werden, können Sie sie durch Auswahl der ersten Schaltfläche links in der Symbolleiste einblenden.
+
+In den einzelnen Bereichen der Palette werden die Aktivitäten nach Kategorie geordnet angezeigt.
+
+* Der erste Bereich enthält Zielgruppenbestimmungsaktivitäten.
+* Der zweite Bereich enthält die Steuerungsaktivitäten, die in erster Linie der Koordination der anderen Aktivitäten dienen.
+* Der dritte Bereich enthält Aktivitäten, mit denen Nachrichten auf unterschiedlichen Kanälen gesendet werden können. Aktivitäten in diesem Bereich können abhängig von den in Ihrer Instanz aktivierten Kanälen variieren.
+* Der vierte Bereich enthält Dateibearbeitungs- und -verwaltungsaktivitäten.
+
+So erstellen Sie das Diagramm:
+
+1. Fügen Sie eine Aktivität hinzu, indem Sie sie aus der Palette in das Diagramm ziehen und dort ablegen.
+
+   Beispielsweise können Sie zuerst einen **Beginn** und anschließend einen **E-Mail-Versand** in das Diagramm ziehen.
+
+1. Verbinden Sie die beiden Aktivitäten, indem Sie die Transition des **Beginns** über den **E-Mail-Versand** ziehen und ablegen.
+
+   >[!NOTE]
+   >
+   >Zwei Aktivitäten werden automatisch miteinander verbunden, wenn Sie die zweite Aktivität direkt am Ende der Transition der ersten Aktivität platzieren.
+
+1. Fügen Sie weitere benötigte Aktivitäten hinzu und verbinden Sie sie, um den Workflow abzuschließen.
+
+   >[!NOTE]
+   >
+   >Sie können auch vorhandene Aktivitäten mit Copy &amp; Paste duplizieren. Dadurch bleiben die ursprünglich definierten Einstellungen unverändert. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Duplizieren von Workflow-Aktivitäten](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+
+## Aktivitäten konfigurieren {#configuring-activities}
+
+Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Daten nur korrekt, wenn sie konfiguriert werden. Jede Aktivität enthält mehrere Tabs zur Verwaltung mehrerer Konfigurationen und aktivitätsspezifischer Optionen, wie zum Beispiel ausgehender Transitionen, Titel usw.
+
+1. Vergewissern Sie sich, dass alle Aktivitäten korrekt miteinander verbunden sind. Manche Aktivitäten zeigen nur dann die korrekten Konfigurationsoptionen an, wenn sie die Struktur oder Art der eingehenden Daten erkennen.
+1. Wählen Sie eine Aktivität per Doppelklick aus oder selektieren Sie sie und wählen Sie dann **[!UICONTROL Bearbeiten]aus, um das entsprechende Konfigurationsfenster zu öffnen.**
+1. Bearbeiten Sie den Titel der Aktivität.
+1. Definieren Sie alle Optionen, die Sie zur Verarbeitung der Daten benötigen. Die möglichen Optionen für jede Aktivität erfahren Sie im jeweiligen Abschnitt dieser Dokumentation.
+1. Speichern Sie die Aktivität und wiederholen Sie das Verfahren für jede Aktivität im Workflow.
+1. Speichern Sie den Workflow.
+
