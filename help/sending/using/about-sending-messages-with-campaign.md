@@ -1,0 +1,46 @@
+---
+title: Über den Versand mit Campaign
+seo-title: Über den Versand mit Campaign
+description: Über den Versand mit Campaign
+seo-description: Hier erfahren Sie über die erforderlichen Schritte zum Testen und Senden einer Nachricht.
+page-status-flag: nie aktiviert
+uuid: 58666444-6 e 7 c -4049-b 2 d 2-8 b 26 eabf 5 a 82
+contentOwner: sauviat
+products: SG_ CAMPAIGN/STANDARD
+audience: wird gesendet
+content-type: Referenz
+topic-tags: about-sending-messages-with-campaign
+discoiquuid: ae 2 eba 1 c -24 ad -4839-afa 9-5 a 2975570 d 9 b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+
+---
+
+
+# Über den Versand mit Campaign{#about-sending-messages-with-campaign}
+
+Nach erfolgter Zielgruppenbestimmung und Inhaltserstellung ist Ihr Versand zu testen und zu validieren, bevor die Nachrichten an die Hauptzielgruppe gesendet werden. Gehen Sie wie folgt vor:
+
+* Sehen Sie sich Ihren Versand unter Verwendung eines Testprofils in der Vorschau an.
+* Terminieren Sie den Versand: Legen Sie fest, wann die Nachricht gesendet werden soll.
+* Bereiten Sie den Versand vor: In diesem Schritt werden die zu sendenden Nachrichten analysiert und vorbereitet. Bei der Nachrichtenvorbereitung wird die Zielgruppe, die Personalisierung und die Gültigkeit der Nachricht analysiert. Fehler, die bei diesem Schritt erkannt werden, müssen vor dem weiteren Vorgehen korrigiert werden. Sie können die Nachrichtenvorbereitung beliebig oft starten.
+
+   >[!NOTE]
+   >
+   >Sie können globale, kanalübergreifende Ermüdungsregeln festlegen, mit denen Profile, die bereits zu oft angesprochen wurden, automatisch von Kampagnen ausgeschlossen werden. Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md).
+
+* Testversand: Starten Sie einen Testversand, um Ihre Nachrichtenkonfiguration zu überprüfen.
+* Prüfen Sie die Darstellung Ihrer Sendungen: Stellen Sie sicher, dass Ihre Nachricht in unterschiedlichen Webclients, Webmails und Geräten optimal dargestellt wird (dringend empfohlen).
+* Senden Sie die Nachricht: Wenn die Nachricht sendebereit ist, können Sie den Versand starten. Öffnen Sie Protokolle und Berichte, um die Zustellung Ihrer Nachricht zu verfolgen und die Wirkung Ihrer Kampagne zu messen. Adobe Campaign verfügt auch über ein E-Mail-Warnsystem, über das Sie von erfolgreichen und fehlgeschlagenen Sendungen informiert werden.
+
+**Verwandte Themen**:
+
+* [Über die Planung von Sendungen](../../sending/using/about-scheduling-messages.md)
+* [Versandvorbereitung](../../sending/using/preparing-the-send.md)
+* [Testprofile verwalten und Testsendungen durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [E-Mail-Rendering](../../sending/using/email-rendering.md)
+* [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
+
