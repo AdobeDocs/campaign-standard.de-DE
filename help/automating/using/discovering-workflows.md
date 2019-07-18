@@ -1,0 +1,43 @@
+---
+title: Workflows
+seo-title: Workflows
+description: Workflows
+seo-description: Adobe Campaign verfügt über eine weitreichende grafische Umgebung, in der Prozesse konzipiert und automatisiert werden können.
+page-status-flag: nie aktiviert
+uuid: 7 c 1 e 8 cea -90 d 0-491 f-ab 8 f -6 cd 69 f 8 a 6 c 3 b
+contentOwner: sauviat
+products: SG_ CAMPAIGN/STANDARD
+audience: wird automatisiert
+content-type: Referenz
+topic-tags: about-workflows-and-data-management
+discoiquuid: 40503917-7 a 53-4 d 99-96 a 4-57 aa 9 e 98 ec 87
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+
+---
+
+
+# Workflows{#discovering-workflows}
+
+Adobe Campaign bietet eine [grafische Oberfläche](../../automating/using/workflow-interface.md), die den Entwurf [komplexer Arbeitsabläufe](../../automating/using/workflow-operating-principles.md) ermöglicht. Diese umfassen die Segmentierung von Zielgruppen, die Ausführung von Kampagnen, den Umgang mit Dateien, Validierungsprozesse etc. Die Grundsätze und Best Practices werden in [diesem Abschnitt](../../automating/using/building-a-workflow.md) beschrieben.
+
+Erstellen Sie zum Beispiel einen Workflow, um eine Datei von einem Server herunterzuladen, sie zu entkomprimieren und die Datensätze in die Adobe-Campaign-Datenbank zu importieren.
+
+Oder fordern Sie andere Benutzer auf, Aufgaben auszuführen oder zu validieren. Auf diese Weise ist es möglich, anderen Benutzern Aufgaben wie Inhaltsgestaltung, Zielgruppenbestimmung und Validierung von Testsendungen zuzuweisen, bevor eine Nachricht an die Empfänger verschickt wird.
+
+Workflows können in **unterschiedlichsten Kontexten** zum Einsatz kommen:
+
+* Zielgruppenbestimmung für Audiences oder zum Versand von Nachrichten.. Weiterführende Informationen dazu finden Sie im Abschnitt [Kanalaktivitäten](../../automating/using/about-channel-activities.md) und [Zielgruppenbestimmungsaktivitäten](../../automating/using/about-targeting-activities.md).
+* Daten-Management (ETL) zum Bearbeiten von Daten. Weiterführende Informationen dazu finden Sie im Abschnitt [Datenverwaltungsaktivitäten](../../automating/using/about-data-management-activities.md).
+* Import von Daten in die Campaign-Datenbank. Weiterführende Informationen dazu finden Sie im Abschnitt [Datenimport und -export](../../automating/using/about-data-import-and-export.md).
+* Technische Prozesse wie Datenbankbereinigung (Cleanup), Abruf von Trackinginformationen etc. Weiterführende Informationen zu technischen Workflows finden Sie in [diesem Abschnitt](../../administration/using/technical-workflows.md).
+
+Workflows sind auch in der Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+
+**Verwandte Themen:**
+
+* [Arbeitsabläufe für den Arbeitsablauf](../../automating/using/workflow-operating-principles.md)
+* [Über den Datenimport und -export](../../automating/using/about-data-import-and-export.md)
+
