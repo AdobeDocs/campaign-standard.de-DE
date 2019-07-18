@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ Es wurde eine neue Seite zu Einschränkungen der Einstiegsseite hinzugefügt. [m
 
 Ein Anwendungsfall wurde hinzugefügt, das dazu führte, dass ein Profil mithilfe eines Composite-Identifizierungsschlüssels aufgerufen wurde. [mehr dazu](../../developing/using/uc-calling-resource-id-key.md)
 
-Es wurde eine Empfehlung zur Verwendung wiederkehrender Lieferungen ohne Aggreagationsdauer hinzugefügt, wenn ein Worterlauf mit Parametern aufgerufen wird. [mehr dazu](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Es wurde eine Empfehlung zur Verwendung wiederkehrender Lieferungen ohne Aggregationszeitraum hinzugefügt, wenn ein Workflow mit Parametern aufgerufen wird. [mehr dazu](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+Der Abschnitt zum Speichern von E-Email-Inhalten als Fragment im E-Mail-Designer wurde aktualisiert. [mehr dazu](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## 19.2 - Version Mai 2019 {#release-19-2---may-2019}
 
