@@ -1,0 +1,334 @@
+---
+title: Ereignis-Transaktionsnachrichten
+seo-title: Ereignis-Transaktionsnachrichten
+description: Ereignis-Transaktionsnachrichten
+seo-description: Hier erfahren Sie, wie Sie eine Ereignis-Transaktionsnachricht erstellen und publizieren.
+page-status-flag: nie aktiviert
+uuid: d 747 feb 5-58 fb -4 e 12-a 176-404 f 0 eca 5391
+contentOwner: sauviat
+products: SG_ CAMPAIGN/STANDARD
+audience: Kanäle
+content-type: Referenz
+topic-tags: Transaktionsnachrichten
+discoiquuid: 4 f 6317 a 1-9 dfe -4714-bc 1 c -393629 d 855 cd
+context-tags: Deliverytransactionaltemplate, overview
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+
+---
+
+
+# Ereignis-Transaktionsnachrichten{#event-transactional-messages}
+
+Sie können Ereignis-Transaktionsnachrichten senden, die auf der Basis eines Ereignisses ausgewählt werden. Diese Art von Transaktionsnachrichten enthält keine Profilinformationen: Die Versandzielgruppe wird durch Daten definiert, die im Ereignis selbst enthalten sind.
+
+Nach der Erstellung und Publikation des gewünschten Ereignisses ("Stehen gelassener Warenkorb" wie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) beschrieben) wird die entsprechende Transaktionsnachricht automatisch erstellt.
+
+Die Konfigurationsschritte finden Sie im Abschnitt [Ereignis konfigurieren, um eine Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
+
+Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Nachricht personalisiert, getestet und dann publiziert werden.
+
+>[!NOTE]
+>
+>To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. Ereignis-Transaktionsnachrichten enthalten keine Profilinformationen, weshalb sie nicht mit Ermüdungsregeln kompatibel sind (auch nicht, wenn sie mit Profilen angereichert werden). Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md#choosing-the-channel).
+
+## Testprofil in einer Transaktionsnachricht definieren {#defining-a-test-profile-in-a-transactional-message}
+
+Konfigurieren Sie ein entsprechendes Testprofil, mit dem Sie zum Zweck der Validierung eine Vorschau Ihrer Nachricht sowie einen Testversand erzeugen können.
+
+### Testprofil in einer Transaktionsnachricht erstellen {#creating-a-test-profile-within-the-transactional-----------message}
+
+1. To access the message that you created, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Transactional messages]**.
+
+   ![](assets/message-center_4.png)
+
+1. Erstellen Sie ein Testprofil, das mit Ihrem Ereignis verknüpft wird.
+
+   ![](assets/message-center_test-profile.png)
+
+1. Geben Sie im Bereich **[!UICONTROL Für die Personalisierung verwendete Ereignisdaten]die zu übermittelnden Daten im JSON-Format an.** Bei den angegebenen Daten handelt es sich um den Inhalt, der in der Vorschau verwendet und dem Testprofil im Testversand übermittelt wird.
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >Sie können auch die Information von der Profiltabelle eingeben. Siehe [Inhalt der Transaktionsnachricht anreichern](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+
+1. Nach seiner Erstellung ist das Testprofil in der Transaktionsnachricht vorausgefüllt. Verwenden Sie die Kachel **[!UICONTROL Testprofile]der Nachricht, um Ihre Testversand-Zielgruppe zu überprüfen.**
+
+   ![](assets/message-center_5.png)
+
+### Testprofil außerhalb einer Transaktionsnachricht erstellen {#creating-a-test-profile-outside-the-transactional-----------message}
+
+Sie haben außerdem die Möglichkeit, ausgehend vom Menü **[!UICONTROL Testprofile]ein neues Testprofil zu erstellen bzw. ein bereits existierendes zu verwenden.**
+
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles &amp; audiences]** &gt; **[!UICONTROL Test profiles]**.
+1. Wählen Sie auf der Seite Ihres gewünschten Testprofils im Abschnitt **[!UICONTROL Ereignis]das Ereignis aus, das Sie erstellt haben.** Im vorliegenden Beispiel handelt es sich um "Stehen gelassener Warenkorb (EVTcartAbandonment)".
+1. Geben Sie im Tab **[!UICONTROL Ereignisdaten]im Texteditor die zu übermittelnden Daten im JSON-Format an.**
+
+   ![](assets/message-center_3.png)
+
+1. Speichern Sie Ihre Änderungen.
+
+Jetzt können Sie auf die von Ihnen erstellte Nachricht zugreifen und das aktualisierte Testprofil auswählen.
+
+**Verwandte Themen:**
+
+* [Verwaltung von Testprofilen](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Audiences bestimmen](../../audiences/using/creating-audiences.md)
+
+## Transaktionsnachricht personalisieren {#personalizing-a-transactional-message}
+
+Gehen Sie folgendermaßen vor, um für eine Transaktionsnachricht eine Personalisierung einzurichten:
+
+1. Öffnen Sie mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]der Nachricht, um den Betreff und den Inhalt anzupassen.** Im vorliegenden Beispiel haben wir eine HTML-Vorlage mit Bildern, dem Stylesheet sowie einer HTML-Datei importiert. Weiterführende Informationen zum Import von HTML-Vorlagen finden Sie im Abschnitt [Existierenden Inhalt laden](../../designing/using/selecting-an-existing-content.md).
+
+   ![](assets/message-center_6.png)
+
+1. Ergänzen Sie den Inhalt Ihrer Nachricht. Im vorliegenden Beispiel haben wir drei Personalisierungsfelder hinzugefügt: Name, zuletzt hinzugefügter Artikel und Gesamtbetrag des Warenkorbs. Bei dem Link zum stehen gelassenen Warenkorb handelt es sich um einen Link auf eine externe URL, die den Kunden zu seinem Warenkorb weiterleitet. Diese Konfiguration wird außerhalb von Adobe Campaign vorgenommen.
+
+   Fügen Sie die bei der Ereigniserstellung (siehe [Ereignis konfigurieren, um eine Transaktions-Push-Nachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)) definierten Felder an den entsprechenden Stellen in den Nachrichteninhalt ein. You can find the fields by selecting **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+
+   ![](assets/message-center_7.png)
+
+1. Fügen Sie dann zur Anreicherung Ihres Nachrichteninhalts die gewünschten Felder hinzu, indem Sie diese in der Tabelle auswählen, mit der Sie Ihr Ereignis verknüpft haben. Wählen Sie für unser Beispiel in der **[!UICONTROL Profile]**-Tabelle das **Anrede (Grußformel)]-Feld aus.[!UICONTROL **
+
+   ![](assets/message-center_7-enrichment.png)
+
+   Weiterführende Informationen zur Verwendung von Personalisierungsfeldern finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/inserting-a-personalization-field.md).
+
+   ![](assets/message-center_8.png)
+
+1. Erzeugen Sie die Vorschau Ihrer Nachricht unter Verwendung des für dieses Ereignis konfigurierten Testprofils.
+
+   Weiterführende Informationen zur Vorschauerzeugung finden Sie im Abschnitt [Vorschau der Nachricht erzeugen](../../sending/using/preparing-the-send.md).
+
+   ![](assets/message-center_9.png)
+
+   Die Vorschau zeigt, dass die Personalisierungsfelder wie gewünscht die im Testprofil angegebenen Informationen wiedergeben. Weiterführende Informationen hierzu finden Sie im Abschnitt [Testprofil in einer Transaktionsnachricht definieren](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+
+## Produktlisten in Transaktionsnachrichten verwenden {#using-product-listings-in-a-transactional-message}
+
+Sie können Produktlisten erstellen, die eine oder mehrere Datenkollektionen im Inhalt einer Transaktions-E-Mail referenzieren. Beispielsweise können Sie bei einem abgebrochenen Einkauf eine E-Mail versenden, in der alle Produkte samt Bild, Preis und Link aufgelistet sind, die sich beim Verlassen der Website im Warenkorb des Benutzers befanden.
+
+>[!CAUTION]
+>
+>Produktlisten sind nur während der Bearbeitung von Transaktions-E-Mails in der Benutzeroberfläche von [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) verfügbar.
+
+Um eine Liste mit Produkten aus einem abgebrochenen Einkauf in eine Transaktionsnachricht einzufügen, folgen Sie den unten stehenden Schritten.
+
+Sie können sich die erforderlichen Schritte zur Konfiguration von Produktlisten in einer Transaktions-E-Mail auch in Videos ansehen. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+
+>[!NOTE]
+>
+>Adobe Campaign unterstützt keine verschachtelten Produktlisten, was bedeutet, dass Sie keine Produktliste in eine andere einfügen können.
+
+### Produktliste definieren {#defining-a-product-listing}
+
+Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, müssen Sie zuerst auf Ereignisebene die Liste der Produkte und die Felder für jedes Produkt der Liste definieren, die angezeigt werden sollen. Weiterführende Informationen dazu finden Sie im Abschnitt [Datenkollektionen definieren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+
+1. Wählen Sie in der Transaktionsnachricht den jeweiligen **[!UICONTROL Inhaltsbaustein]aus, um den E-Mail-Inhalt zu ändern.**
+1. Fügen Sie mit Drag &amp; Drop eine Strukturkomponente in den Arbeitsbereich ein. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+
+   Wählen Sie beispielsweise den einspaltigen Aufbau aus und fügen Sie eine Textkomponente, eine Bildkomponente und eine Schaltflächen-Komponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+
+1. Wählen Sie die soeben erstellte Strukturkomponente und danach in der Symbolleiste das Symbol zum **[!UICONTROL Aktivieren einer Produktliste]aus.**
+
+   ![](assets/message-center_loop_create.png)
+
+   Die Strukturkomponente wird durch einen orangen Rahmen hervorgehoben und die Einstellungsoptionen für **[!UICONTROL Produktliste]werden auf der linken Seite geöffnet.**
+
+   ![](assets/message-center_loop_palette.png)
+
+1. Wählen Sie aus, wie die Elemente der Kollektion dargestellt werden sollen:
+
+   * **[!UICONTROL Zeile]**: horizontal, also alle Elemente einer Reihe untereinander.
+   * **[!UICONTROL Spalte]**: vertikal, also alle Elemente in einer Reihe nebeneinander.
+   >[!NOTE]
+   >
+   >The **[!UICONTROL Column]** option is only available when using a multicolumn structure component ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** and **[!UICONTROL 4:4 column]** ). Füllen Sie bei der Bearbeitung der Produktliste nur die erste Spalte aus. Die anderen Spalten werden nicht berücksichtigt. Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+
+1. Wählen Sie die Datenkollektion aus, die Sie erstellt haben, als Sie das mit der Transaktionsnachricht in Verbindung stehende Ereignis konfiguriert haben. You can find it under the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]** node.
+
+   ![](assets/message-center_loop_selection.png)
+
+   Weiterführende Informationen zur Konfiguration des Ereignisses finden Sie im Abschnitt [Datenkollektionen definieren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL 1. Element]das Element aus, das auf der in der E-Mail dargestellten Liste als Erstes erscheinen soll.**
+
+   Wenn Sie z. B. "2" auswählen, wird das erste Element der Kollektion nicht in der E-Mail angezeigt. Die Produktliste beginnt in diesem Fall mit dem zweiten Element.
+
+1. Wählen Sie die Höchstzahl der Elemente aus, die in der Liste angezeigt werden sollen.
+
+   >[!NOTE]
+   >
+   >If you want the elements of your list to be displayed vertically ( **[!UICONTROL Column]** ), the maximum number of items is limited according to the selected structure component (2, 3 or 4 columns). Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+
+### Produktliste befüllen {#populating-the-product-listing}
+
+Gehen Sie folgendermaßen vor, um eine Liste mit Produkten darzustellen, die von dem Ereignis stammen, das mit der Transaktions-E-Mail verknüpft ist.
+
+Weiterführende Informationen zur Erstellung einer Kollektion und der entsprechenden Felder bei der Konfiguration des Ereignisses finden Sie unter [Datenkollektionen definieren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+
+1. Wählen Sie die zuvor eingefügte Bildkomponente und dann **[!UICONTROL Personalisierung aktivieren]aus. Wählen Sie danach das Stiftsymbol im Einstellungsbereich aus.**
+
+   ![](assets/message-center_loop_image.png)
+
+1. Wählen Sie im sich öffnenden Fenster **** Bildquellen-URL] die Option **[!UICONTROL Personalisierungsfeld hinzufügen]aus.[!UICONTROL **
+
+   From the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the image field that you defined (here **[!UICONTROL Product image]** ). Wählen Sie **[!UICONTROL Speichern aus]**.
+
+   ![](assets/message-center_loop_product-image.png)
+
+   Das von Ihnen ausgewählte Personalisierungsfeld wird jetzt im Einstellungsbereich angezeigt.
+
+1. Wählen Sie in der dedizierten Symbolleiste an der gewünschten Position **[!UICONTROL Personalisierungsfeld einfügen]aus.**
+
+   ![](assets/message-center_loop_product.png)
+
+1. From the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the field that you created (here **[!UICONTROL Product name]** ). Wählen Sie **[!UICONTROL Bestätigen]**.
+
+   ![](assets/message-center_loop_product_node.png)
+
+   Das von Ihnen ausgewählte Personalisierungsfeld wird jetzt an der gewünschten Position im E-Mail-Inhalt dargestellt.
+
+1. Gehen Sie beim Einfügen des Preises analog vor.
+1. Wählen Sie den Text und dann in der dedizierten Symbolleiste **[!UICONTROL Link einfügen]aus.**
+
+   ![](assets/message-center_loop_link_insert.png)
+
+1. Wählen Sie im sich öffnenden Fenster **** Link einfügen] die Option **[!UICONTROL Personalisierungsfeld hinzufügen]aus.[!UICONTROL **
+
+   From the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the URL field that you created (here **[!UICONTROL Product URL]** ). Wählen Sie **[!UICONTROL Speichern aus]**.
+
+   >[!CAUTION]
+   >
+   >Achten Sie aus Sicherheitsgründen darauf, dass Sie das Personalisierungsfeld in einen Link einfügen, der mit einem statischen Domain-Namen beginnt.
+
+   ![](assets/message-center_loop_link_select.png)
+
+   Das von Ihnen ausgewählte Personalisierungsfeld wird jetzt im Einstellungsbereich angezeigt.
+
+1. Wählen Sie die Strukturkomponente aus, auf die die Produktliste angewendet wird, und wählen Sie danach **[!UICONTROL Fallback zeigen]aus, um den Standardinhalt zu definieren.**
+
+   ![](assets/message-center_loop_fallback_show.png)
+
+1. Ziehen Sie eine oder mehrere Inhaltskomponenten in den Arbeitsbereich und bearbeiten Sie sie nach Bedarf.
+
+   ![](assets/message-center_loop_fallback.png)
+
+   Der Fallback-Inhalt wird angezeigt, wenn die Kollektion beim Auslösen des Triggers leer ist. Das ist beispielsweise dann der Fall, wenn ein Kunde nichts im Warenkorb liegen hat.
+
+1. Bearbeiten Sie im Einstellungsbereich den Stil der Produktliste. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/editing-email-styles.md).
+1. Sehen Sie sich die E-Mail in der Vorschau an, indem Sie ein Testprofil verwenden, das mit dem entsprechenden Transaktionsereignis verknüpft ist und für das Sie Kollektionsdaten definiert haben. Fügen Sie für das Testprofil, das Sie verwenden möchten, beispielsweise die folgenden Informationen zum Abschnitt **[!UICONTROL Ereignisdaten]hinzu:**
+
+   ![](assets/message-center_loop_test-profile_payload.png)
+
+   Weiterführende Informationen zur Definition eines Testprofils in einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+
+## Transaktionsnachricht testen {#testing-a-transactional-message}
+
+Nach Speicherung der Transaktionsnachricht können Sie nun einen Test senden.
+
+![](assets/message-center_10.png)
+
+Lesen Sie diesbezüglich auch den Abschnitt [Testversand erzeugen](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+
+## Transaktionsnachricht publizieren {#publishing-a-transactional-message}
+
+Nach Validierung der Transaktionsnachricht kann diese publiziert werden.
+
+![](assets/message-center_12.png)
+
+Bei jeder Auslösung des Ereignisses "Stehen gelassener Warenkorb" wird nun automatisch eine Nachricht hinzugefügt, die die Anrede und den Namen des Empfängers, die URL des Warenkorbs, den zuletzt hinzugefügten Artikel bzw. eine Produktliste, falls eine Produktliste definiert wurde, sowie den Gesamtbetrag des Warenkorbs enthält.
+
+Über die Schaltfläche **[!UICONTROL Berichte]können Sie auf Statistiken zur entsprechenden Transaktionsnachricht zugreifen.** Siehe [Berichte](../../reporting/using/about-dynamic-reports.md).
+
+![](assets/message-center_13.png)
+
+## Publikation einer Transaktionsnachricht aussetzen {#suspending-a-transactional-message-publication}
+
+Sie haben die Möglichkeit, die Publikation Ihrer Transaktionsnachricht mittels der Verwendung der Schaltfläche **[!UICONTROL Aussetzen]zeitweise zu unterbinden, um beispielsweise die in der Nachricht enthaltenen Daten abzuändern.** Die Ereignisse werden so nicht länger verarbeitet, sondern stattdessen in einer Warteschlange der Adobe-Campaign-Datenbank aufbewahrt.
+
+Die sich in der Warteschlange befindlichen Ereignisse werden für einen Zeitraum aufbewahrt, der in der REST-API (siehe die [REST-API-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) oder im Trigger-Ereignis festgelegt ist, wenn Sie den Triggers Core Service (siehe [Campaign und Experience Cloud Triggers verwenden](../../integrating/using/about-adobe-experience-cloud-triggers.md)) nutzen.
+
+![](assets/message-center_pause.png)
+
+When clicking **[!UICONTROL Resume]**, all of the queued events (provided that they are not expired) are processed. Diese Nachrichten beinhalten nun die während der Aussetzung der Vorlagenpublikation vorgenommenen Änderungen.
+
+## Transaktionsnachricht depublizieren {#unpublishing-a-transactional-message}
+
+Mithilfe der **[!UICONTROL Depublizieren]-Schaltfläche lässt sich die Publikation der Transaktionsnachricht abbrechen und außerdem die Publikation des entsprechenden Ereignisses, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.** Selbst wenn das Ereignis auf Ihrer Webseite ausgelöst wird, werden die entsprechenden Nachrichten nun nicht mehr gesendet und auch nicht in der Datenbank gespeichert.
+
+![](assets/message-center_unpublish-template.png)
+
+>[!NOTE]
+>
+>Zur erneuten Publikation der Nachricht müssen Sie zunächst zur entsprechenden Ereigniskonfiguration zurückkehren und diese veröffentlichen, bevor Sie die Nachricht veröffentlichen. Weiterführende Informationen dazu finden Sie unter [Transaktionsnachricht publizieren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+
+Wenn Sie eine ausgesetzte Transaktionsnachricht depublizieren, müssen Sie ggf. bis zu 24 Stunden warten, bevor Sie sie erneut publizieren können. In dieser Zeit können alle in die Warteschlange gesendeten Ereignisse durch den **[!UICONTROL Datenbankbereinigung]-Workflow (cleanup) entfernt werden.** Die Vorgehensweise zum Aussetzen einer Nachricht wird im Abschnitt [Publikation einer Transaktionsnachricht aussetzen](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) beschrieben.
+
+The **[!UICONTROL Database cleanup]** workflow, which runs every day at 4am, is accessible through **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]**.
+
+## Transaktionsnachricht löschen {#deleting-a-transactional-message}
+
+![](assets/message-center_delete-template.png)
+
+Sie können eine Transaktionsnachricht löschen, auch wenn sie schon publiziert wurde, indem Sie sie auswählen und die Schaltfläche **[!UICONTROL Element löschen]auswählen.** Transaktionsnachrichten können jedoch nur unter gewissen Voraussetzungen gelöscht werden:
+
+* **Transaktionsnachrichten**: Um eine Transaktionsnachricht zu löschen, sollte sie depubliziert und nicht ausgesetzt sein.
+
+   Wenn die Transaktionsnachricht depubliziert ist, muss auch die Ereigniskonfiguration depubliziert sein, damit die Transaktionsnachricht erfolgreich gelöscht werden kann, außer eine andere Transaktionsnachricht ist mit dem entsprechenden Ereignis verknüpft. Weiterführende Informationen zum Depublizieren einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+
+   >[!CAUTION]
+   >
+   >Durch das Löschen einer Transaktionsnachricht, über die bereits Benachrichtigungen versendet wurden, werden auch ihre Versand- und Trackinglogs gelöscht.
+
+* **Transaktionsnachrichten von einer vordefinierten Ereignisvorlage (interne Transaktionsnachrichten)**: Um eine interne Transaktionsnachricht zu löschen, sollte sie depubliziert und nicht ausgesetzt sein.
+
+   Außerdem sollte es sich nicht um die einzige Transaktionsnachricht des Ereignisses handeln. Ansonsten müssen andere Nachrichten mit dem entsprechenden Ereignis verknüpft werden.
+
+## Transaktionsnachricht erneut versenden {#transactional-message-retry-process}
+
+Vorläufig nicht zugestellte Transaktionsnachrichten werden so lange automatisch erneut versendet, bis ihre Gültigkeit abgelaufen ist. Weiterführende Informationen zur Versandlaufzeit finden Sie in Abschnitt [Parameter für den Gültigkeitszeitraum](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+
+Wenn eine Transaktionsnachricht nicht gesendet werden kann, gibt es zwei Systeme, durch die erneute Zustellversuche unternommen werden.
+
+* Auf der Ebene der Transaktionsnachrichten kann eine Transaktionsnachricht fehlschlagen, bevor das Ereignis einem Ausführungsversand zugewiesen wurde, d. h. zwischen dem Ereignisempfang und der Versandvorbereitung. Siehe [Wiederholungsverfahren bei der Ereignisverarbeitung](../../channels/using/event-transactional-messages.md#event-processing-retry-process).
+* Auf der Ebene des Versandverfahrens kann die Transaktionsnachricht nach der Zuweisung des Ereignisses zu einem Ausführungsversand wegen eines temporären Fehlers fehlschlagen. Siehe [Wiederholungsverfahren beim Nachrichtenversand](../../channels/using/event-transactional-messages.md#message-sending-retry-process).
+
+### Wiederholungsverfahren bei der Ereignisverarbeitung {#event-processing-retry-process}
+
+Wenn ein Ereignis keinem Ausführungsversand zugewiesen werden kann, wird die Ereignisverarbeitung verschoben. Wiederholungen werden dann durchgeführt, bis das Ereignis einem neuen Ausführungsversand zugewiesen wird.
+
+>[!NOTE]
+>
+>Ein verschobenes Ereignis wird nicht in den Versandlogs für Transaktionsnachrichten angezeigt, weil das Ereignis noch keinem Ausführungsversand zugeordnet ist.
+
+Beispielsweise kann es sein, dass das Ereignis keinem Ausführungsversand zugewiesen werden konnte, weil der Inhalt nicht korrekt war, es ein Problem mit den Zugriffsrechten oder dem Branding gab oder ein Fehler beim Anwenden von Typologieregeln erkannt wurde. In diesem Fall können Sie die Nachricht vorläufig anhalten, bearbeiten, um den Fehler zu beheben, und erneut publizieren. Das Wiederholungssystem weist die Nachricht daraufhin einem neuen Ausführungsversand zu.
+
+### Wiederholungsverfahren beim Nachrichtenversand {#message-sending-retry-process}
+
+Nachdem das Ereignis einem Ausführungsversand zugewiesen wurde, kann die Transaktionsnachricht aufgrund eines temporären Fehlers fehlschlagen, z. B. falls das Postfach des Empfängers voll ist. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+
+Wenn einer Ausführung von Ausführung ein Transaktionsereignis zugewiesen wurde, wird dieses Ereignis später verschoben und später erneut versucht. Wenn sie erneut versucht wird, wird sie einer neuen Ausführungsbereitstellung zugewiesen.
+
+>[!NOTE]
+>
+>Wenn ein Ereignis einem Ausführungsversand zugewiesen wird, wird es nur dieses eine Mal in den Versandlogs dieses Ausführungsversands angezeigt. Die fehlgeschlagenen Sendungen werden im Tab **[!UICONTROL Liste der Ausführungen]der Transaktionsnachricht angezeigt.**
+
+### Einschränkungen {#limitations}
+
+**Aktualisierung der Versandlogs**
+
+Wenn einer Ausführung von Ausführung ein Transaktionsereignis zugewiesen wurde, wird dieses Ereignis verschoben und einige Minuten später erneut versucht. Wenn sie erneut versucht wird, wird sie einer neuen Ausführungsbereitstellung zugewiesen.
+
+Die gesendeten Protokolle der neuen Ausführungsbereitstellung werden jedoch nicht sofort aktualisiert (das Update wird über einen geplanten Arbeitsablauf durchgeführt). Das bedeutet, dass die Nachricht im Status **[!UICONTROL Ausstehend]sein könnte, selbst wenn das Transaktionsereignis vom neuen Ausführungsversand verarbeitet worden ist.**
+
+**Fehlgeschlagener Ausführungsversand**
+
+Ein Ausführungsversand kann nicht angehalten werden. Wenn jedoch ein aktueller Ausführungsversand fehlschlägt, wird ein neuer erstellt, sobald ein neues Ereignis empfangen wird, und alle neuen Ereignisse werden von diesem neuen Ausführungsversand verarbeitet. Vom fehlgeschlagenen Ausführungsversand werden keine neuen Ereignisse verarbeitet.
+
+Wenn manche, einem Ausführungsversand bereits zugewiesenen Ereignisse verschoben wurden und dieser Ausführungsversand fehlschlägt, weist das Wiederholungssystem dem neuen Ausführungsversand nicht die verschobenen Ereignisse zu. Diese Ereignisse gehen verloren.
