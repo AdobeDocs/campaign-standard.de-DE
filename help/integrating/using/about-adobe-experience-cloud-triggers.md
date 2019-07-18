@@ -1,0 +1,65 @@
+---
+title: Über Adobe Experience Cloud Triggers
+seo-title: Über Adobe Experience Cloud Triggers
+description: Über Adobe Experience Cloud Triggers
+seo-description: Durch das Verfolgen bestimmter Verhaltensmuster Ihrer Kunden durch Adobe Analytics können Sie ihnen personalisierte E-Mails in Adobe Campaign senden.
+page-status-flag: nie aktiviert
+uuid: 0 aa 4 bd 6 e -1 bb 5-4 d 0 b -913 b-eca 93 f 050 acd
+contentOwner: sauviat
+products: SG_ CAMPAIGN/STANDARD
+audience: wird integriert
+content-type: Referenz
+topic-tags: working-with-campaign-and-trigger
+discoiquuid: e 526 b 205-2 d 01-4 a 8 b -9685-ba 1 d 9 a 1 f 459 f
+context-tags: trigger, overview; trigger, main
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+
+---
+
+
+# Über Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}
+
+Durch die Integration von Adobe Campaign mit dem Experience Cloud Activation Core Service **[!UICONTROL Triggers]können Sie Ihren Kunden personalisierte E-Mails senden, die auf bestimmte Verhaltensweisen abgestimmt sind, die auf Ihrer Webseite mithilfe von Adobe Analytics (innerhalb von 15 Minuten) ermittelt wurden.**
+
+In Adobe Experience Cloud werden die verschiedenen Trigger definiert, also jene Verhaltensweisen von Kunden, die Sie verfolgen möchten. Dabei kann es sich beispielsweise um Kunden handeln, die ihren Besuch auf Ihrer Website abgebrochen haben, auf Ihrer Website gesucht, aber nichts gekauft haben oder sogar Kunden, deren Sitzung abgelaufen ist. Bei der Erstellung von Triggern bestimmen Sie die Trigger-Bedingung sowie die Daten, die im Falle der Auslösung des Ereignisses an Adobe Campaign gesendet werden (pload).
+
+In Adobe Campaign werden der zuvor erstellte Trigger ausgewählt, die Ereignisdaten mit Datamart-Daten angereichert und eine mit diesem Trigger verknüpfte Transaktionsnachrichtenvorlage definiert. Bricht zum Beispiel ein Kunde seinen Besuch auf Ihrer Website ab, wird ein Ereignis an Adobe Campaign gesendet, das dort zur Erstellung einer Remarketing-E-Mail führt, die innerhalb von 15 Minuten an den Kunden gesendet wird.
+
+**Verwandte Themen:**
+
+* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zur Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html).
+* Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) an.
+* Erfahren Sie mehr in unseren zwei [Anwendungsbeispielen zur Abbruchsauslösung](../../integrating/using/abandonment-triggers-use-cases.md).
+
+## Die Verwendung von Triggern {#triggers-user-process}
+
+>[!CAUTION]
+>
+>Vor der Durchführung der wichtigsten Schritte durch den Benutzer muss die Funktion konfiguriert werden. Weiterführende Informationen dazu finden Sie in den Abschnitten [Funktion aktivieren](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality), [Lösungen und Dienste konfigurieren](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services) und [In Campaign einen gemappten Trigger erstellen](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign).
+
+Gehen Sie in Adobe Campaign wie folgt vor:
+
+1. Erstellen Sie ein mit einem bereits vorhandenen Trigger in Adobe Experience Cloud verknüpftes Trigger-Ereignis.
+1. Publizieren Sie das Trigger-Ereignis.
+1. Definieren Sie den Inhalt der Transaktionsnachrichtenvorlage.
+1. Testen Sie die Vorlage (Testprofil erstellen und Testversand senden).
+1. Publizieren Sie die Transaktionsnachrichtenvorlage.
+
+Vollständige Anwendungsbeispiele werden in [diesem Abschnitt](../../integrating/using/abandonment-triggers-use-cases.md) erläutert.
+
+## Wichtige Hinweise {#important-notes}
+
+Beachten Sie bei der Verwendung der Triggers-Campaign-Integration Folgendes:
+
+* Push-Benachrichtigungen werden von Triggern nicht unterstützt. Nur E-Mails und SMS werden unterstützt.
+* Sie können Trigger mit über Analytics erfassten Metadaten anreichern, wie z. B. E-Mail-Kennung, Seitenname etc.
+* Sie können einen Trigger mit einem in Campaign Standard gespeicherten Profil abstimmen und die Felder des Profils zur Personalisierung der Nachricht verwenden.
+* Sobald ein Trigger empfangen wird, wird dieser verarbeitet, abgestimmt und gesendet. Je nach der Menge der empfangenen Trigger und der Anzahl der in der Vorlage verwendeten Personalisierungsfelder dauert dieser Vorgang 5 bis 15 Minuten.
+
+>[!NOTE]
+>
+>Weiterführende Informationen zu Best Practices und technische Einschränkungen finden Sie im Abschnitt [Best Practices und Einschränkungen bei der Verwendung von Triggers](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations).
+
