@@ -4,7 +4,7 @@ seo-title: Aufrufen einer Ressource mit einem Identifikationsschlüssel aus zwei
 description: Aufrufen einer Ressource mit einem Identifikationsschlüssel aus zwei Feldern
 seo-description: Hier erfahren Sie, wie Sie eine Ressource mit einem aus zwei Feldern bestehenden Identifizierungsschlüssel aufrufen.
 translation-type: tm+mt
-source-git-commit: b46579e3bf270b26986e107be9d8e07a39841b38
+source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
 
 ---
 
@@ -23,16 +23,16 @@ Die Hauptschritte für diesen Nutzungsfall sind:
 
 Verwandte Themen:
 
-* [Ressource erstellen oder erweitern](help/developing/using/creating-or-extending-the-resource.md)
-* [Identifizierungsschlüssel definieren](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Ressource erstellen oder erweitern](../../developing/using/creating-or-extending-the-resource.md)
+* [Identifizierungsschlüssel definieren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Kampagnenstandard REST apis](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Schritt 1: Identifizierungsschlüssel konfigurieren
 
 >[!NOTE]
-> Global concepts when configuring identification keys are detailed in [this section](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. Bevor Sie den Identifizierungsschlüssel konfigurieren, stellen Sie sicher, dass die Ressource mit den gewünschten Feldern erweitert wurde und dass sie veröffentlicht wurde. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](help/developing/using/creating-or-extending-the-resource.md).
+1. Bevor Sie den Identifizierungsschlüssel konfigurieren, stellen Sie sicher, dass die Ressource mit den gewünschten Feldern erweitert wurde und dass sie veröffentlicht wurde. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
 
@@ -47,14 +47,14 @@ Verwandte Themen:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](help/developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../developing/using/configuring-the-screen-definition.md).
 
 1. Sie können nun die Filterdefinition konfigurieren, um die Ressource mit dem Identifizierungsschlüssel aufzurufen.
 
 ## Schritt 2: Filterdefinition konfigurieren
 
 >[!NOTE]
-> Global concepts when configuring filter definitions are detailed in [this section](help/developing/using/configuring-filter-definition.md).
+> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
 1. In the **[UICONTROL Filter definition]** tab, click **[UICONTROL Add an element]**, then enter the filter definition's label and ID.
 
@@ -87,7 +87,7 @@ Verwandte Themen:
 
 Sobald der Identifizierungsschlüssel und die Filterdefinition konfiguriert wurden, können Sie die Ressource verwenden, um die Ressource entweder aus der Kampagnenstandardoberfläche oder aus REST-apis aufzurufen.
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](help/automating/using/query.md)). Der Filter ist dann im linken Fensterbereich verfügbar.
+To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). Der Filter ist dann im linken Fensterbereich verfügbar.
 
 ![](assets/uc_idkey9.png)
 
