@@ -1,0 +1,131 @@
+---
+title: Folgenachrichten
+seo-title: Folgenachrichten
+description: Folgenachrichten
+seo-description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen und publizieren.
+page-status-flag: nie aktiviert
+uuid: d 2 a 17 da 2-e 935-420 a -8531-78 ed 6 a 1 fe 68 b
+contentOwner: sauviat
+products: SG_ CAMPAIGN/STANDARD
+audience: Kanäle
+content-type: Referenz
+topic-tags: Transaktionsnachrichten
+discoiquuid: 9615 e 369-754 f -4 f 6 a-a 1 b 1-14462 f 946666
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+
+---
+
+
+# Folgenachrichten{#follow-up-messages}
+
+Sie haben die Möglichkeit, Folgenachrichten an Kunden zu senden, die zuvor eine spezifische Transaktionsnachricht erhalten haben. Hierzu müssen Sie einen auf das entsprechende Ereignis abzielenden Workflow erstellen.
+
+Greifen wir hierfür das im Abschnitt [Funktionsweise von Transaktionsnachrichten](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) beschriebene Beispiel wieder auf: eine E-Mail-Benachrichtigung, die an Besucher Ihrer Webseite gesendet wird, die Artikel in ihrem Warenkorb hinzugefügt, aber die Webseite verlassen haben, ohne den Kauf abzuschließen.
+
+Sie möchten eine höfliche Erinnerung an alle Kunden senden, die vor drei Tagen die Benachrichtigung über einen stehen gelassenen Warenkorb erhalten, aber nicht geöffnet haben.
+
+Jeder betroffene Kunde erhält eine Folgenachricht, die auf den gleichen Daten basiert, die schon in der ersten gesendeten E-Mail verwendet wurden.
+
+## Zugriff auf die Folgenachrichten {#accessing-the-follow-up-messages}
+
+Nach der Erstellung und Publikation des gewünschten Ereignisses (im vorliegenden [Beispiel](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) "Stehen gelassener Warenkorb") werden die entsprechende Transaktionsnachricht und Folgenachricht automatisch erstellt.
+
+Die Konfigurationsschritte finden Sie im Abschnitt [Ereignis konfigurieren, um eine Profil-Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
+
+Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorlage notwendig. Allerdings kann die bei der Publikation des Ereignisses erstellte [Transaktionsnachricht](../../channels/using/event-transactional-messages.md) nicht als Vorlage verwendet werden. Hierfür müssen Sie eine spezifische Versandvorlage für Folgenachrichten erstellen, die diesen Ereignistyp und die Verwendung als Vorlage in Workflows unterstützt.
+
+So greifen Sie auf diese Vorlage zu:
+
+1. Wählen Sie oben links das **[!UICONTROL Adobe-Campaign]-Logo aus.**
+1. Select **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]**.
+1. Aktivieren Sie im linken Bereich die Option **[!UICONTROL Folgenachrichten].**
+
+   ![](assets/message-center_follow-up-search.png)
+
+Nur die Folgenachrichten werden angezeigt.
+
+>[!NOTE]
+>
+>To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+
+## Folgenachrichten senden {#sending-a-follow-up-message}
+
+Nachdem Sie die Folgenachrichten-Versandvorlage erstellt haben, können Sie sie in einem Workflow zum Versenden einer Folgenachricht verwenden.
+
+1. Gehen Sie in die Liste der Marketingaktivitäten und erstellen Sie einen neuen Workflow.
+
+   Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Ziehen Sie eine **[!UICONTROL Planung]-Aktivität in den Workflow und öffnen Sie sie.** Wählen Sie für die Ausführungshäufigkeit einmal pro Tag aus.
+
+   Weiterführende Informationen zur Aktivität "Planung" finden Sie im Abschnitt [Planung](../../automating/using/scheduler.md).
+
+1. Ziehen Sie eine **[!UICONTROL Abfrage]in den Workflow-Arbeitsbereich und öffnen Sie sie.**
+
+   Weiterführende Informationen zu dieser Aktivität finden Sie im Abschnitt [Abfrage](../../automating/using/query.md).
+
+1. Damit sich Ihre Abfrage auf eine andere als die Profil-Ressource bezieht, gehen Sie in den **[!UICONTROL Eigenschaften]**-Tab der Aktivität und wählen Sie die entsprechende **Ressource]aus der Dropdown-Liste aus.[!UICONTROL **
+
+   ![](assets/message-center_follow-up-query-properties.png)
+
+   >[!NOTE]
+   >
+   >Die Standardkonfiguration der Aktivität sieht die Suche nach Profilen vor.
+
+1. Wählen Sie das Ereignis aus, auf das Ihr Workflow abzielen soll, sodass Sie ausschließlich auf zu diesem Ereignis gehörende Daten zugreifen.
+
+   ![](assets/message-center_follow-up-query-resource.png)
+
+1. Gehen Sie in den **[!UICONTROL Zielgruppe]**-Tab der Aktivität und ziehen Sie das Element **[!UICONTROL Versandlogs (logs)]aus dem Bereich** E-Mail] in den Arbeitsbereich.**[!UICONTROL **
+
+   ![](assets/message-center_follow-up-delivery-logs.png)
+
+   Wählen Sie **[!UICONTROL Existiert]aus, um alle Kunden in Ihre Zielgruppe miteinzubeziehen, die die E-Mail erhalten haben.**
+
+   ![](assets/message-center_follow-up-delivery-logs-exists.png)
+
+1. Ziehen Sie das Element **[!UICONTROL Trackinglogs (tracking)]** aus der Palette in den Arbeitsbereich und wählen Sie **Existiert nicht]aus, um alle Kunden in Ihre Zielgruppe miteinzubeziehen, die die E-Mail nicht geöffnet haben.[!UICONTROL **
+
+   ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
+
+1. Ziehen Sie das Ereignis, für das Sie eine Zielgruppe bestimmen, (in diesem Beispiel **Stehen gelassener Warenkorb**) vom Bereich **[!UICONTROL E-Mail]in den Arbeitsbereich.** Definieren Sie dann eine Regel, um alle Nachrichten einzuschließen, die vor drei Tagen gesendet wurden.
+
+   ![](assets/message-center_follow-up-created.png)
+
+   Dadurch sind alle Empfänger in der Zielgruppe enthalten, die die Transaktionsnachricht drei Tage vor der Ausführung des Workflows erhalten und noch nicht geöffnet haben.
+
+   Speichern Sie die Abfrage mithilfe der Schaltfläche **[!UICONTROL Bestätigen].**
+
+1. Ziehen Sie einen **E-Mail-Versand** in den Workflow-Arbeitsbereich.
+
+   Weiterführende Informationen zu dieser Aktivität finden Sie im Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
+
+   ![](assets/message-center_follow-up-workflow.png)
+
+   Sie können alternativ auch einen [SMS-Versand](../../automating/using/sms-delivery.md) oder die Aktivität [Mobile-App-Versand](../../automating/using/push-notification-delivery.md) verwenden. Stellen Sie in diesem Fall sicher, dass Sie, während Sie Ihre Ereigniskonfiguration vornehmen, den Kanal **[!UICONTROL Mobiltelefon (SMS)]** oder **Mobile App]auswählen.[!UICONTROL ** Siehe [Ereignis erstellen](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+
+1. Öffnen Sie die Aktivität **E-Mail-Versand.** Aktivieren Sie im Erstellungsassistenten die Option **[!UICONTROL Folgenachrichten]und wählen Sie die Folgenachrichten-Vorlage aus, die nach der Publikation des Ereignisses erstellt wurde.**
+
+   ![](assets/message-center_follow-up-template.png)
+
+1. Sie können den Inhalt Ihres Ereignisses im Inhalt der Folgenachricht übernehmen, indem Sie Personalisierungsfelder hinzufügen.
+
+   ![](assets/message-center_follow-up-content.png)
+
+1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**. Siehe [Transaktionsnachricht personalisieren](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+
+   ![](assets/message-center_follow-up-personalization.png)
+
+   Das bedeutet, dass Sie denselben Inhalt, der beim ersten Versand des Ereignisses benutzt wurde, einschließlich angereicherter Daten für die Erstellung einer höflichen personalisierten Erinnerung verwenden können.
+
+1. Speichern Sie die Aktivität und starten Sie den Workflow.
+
+Nach dem Start des Workflows erhalten alle Kunden, die drei Tage zuvor Ihre Benachrichtigung über den stehen gelassenen Warenkorb empfangen, aber nicht geöffnet haben, eine auf denselben Daten basierende Folgenachricht.
+
+>[!NOTE]
+>
+>Wenn Sie die Zielgruppendimension **[!UICONTROL Profil]bei der Erstellung der Ereigniskonfiguration ausgewählt haben, wird für die Folgenachricht ebenfalls die Adobe-Campaign-Marketing-Datenbank verwendet.** Siehe [Profil-Transaktionsnachrichten](../../channels/using/profile-transactional-messages.md).
+
