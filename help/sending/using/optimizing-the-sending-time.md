@@ -1,0 +1,50 @@
+---
+title: Versandzeitpunkt optimieren
+seo-title: Versandzeitpunkt optimieren
+description: Versandzeitpunkt optimieren
+seo-description: Hier erfahren Sie, wie Sie den Versandzeitpunkt festlegen und die Öffnungsrate Ihrer Nachrichten verbessern.
+page-status-flag: nie aktiviert
+uuid: c 2 c 13934-9819-4 e 18-b 5 c 7-60915 c 907 f 37
+contentOwner: sauviat
+products: SG_ CAMPAIGN/STANDARD
+audience: wird gesendet
+content-type: Referenz
+topic-tags: sheduling-messages
+discoiquuid: 609355 f 6-9003-41 b 9-9981-ea 787419 fbf 5
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+
+---
+
+
+# Versandzeitpunkt optimieren{#optimizing-the-sending-time}
+
+Um die Öffnungsrate Ihrer Nachrichten zu erhöhen, können Sie für jeden Empfänger manuell einen Versandzeitpunkt festlegen. Jedes Profil erhält dann die Nachricht zum spezifizierten Zeitpunkt.
+
+Der Versandzeitpunkt kann auf Versandebene oder mit einem Workflow definiert werden.
+
+Je nach der Auslastung des Servers und der Anzahl der weiteren Zustellversuche wird versucht, E-Mail-Nachrichten zu dem für jeden Empfänger festgelegten Zeitpunkt zu versenden.
+
+* Die weiteren Zustellversuche hängen vom ISP und Ihrer Reputation ab. Wenn die Nachricht nicht beim ersten Versuch akzeptiert wird, werden möglicherweise mehrere weitere Zustellversuche unternommen. Näheres wird in Abschnitt [Liste der E-Mail-Kanal-Parameter](../../administration/using/configuring-email-channel.md) beschrieben.
+* Wegen unzureichender Bandbreite können Verzögerungen beim Empfang der E-Mails auftreten.
+
+Den tatsächlichen Versandzeitpunkt an jeden Empfänger finden Sie in den [Versandlogs](../../sending/using/monitoring-a-delivery.md#sending-logs).
+
+Mehrere Optionen sind verfügbar:
+
+* **[!UICONTROL Keine Optimierung]**: Der Versandzeitpunkt basiert auf der Zeitzone des Benutzers.
+
+   Wenn Ihre Zeitzone beispielsweise GMT+1 ist und Sie 9 Uhr in das Feld **[!UICONTROL Versandstart am]eingeben, erhält ein Empfänger in der Zeitzone GMT+3 die Nachricht um 11 Uhr Ortszeit.**
+
+* **[!UICONTROL Gemäß der Zeitzone des Empfängers senden]**: Alle Empfänger erhalten die Nachricht unter Berücksichtigung ihrer Zeitzone.
+
+   Wenn Sie beispielsweise 9 Uhr in das Feld **[!UICONTROL Versandstart am]eingeben, erhält ein Empfänger in der Zeitzone GMT+3 die Nachricht um 9 Uhr Ortszeit.**
+
+   Siehe [Nachrichten in der Zeitzone des Empfängers senden](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+
+* **[!UICONTROL An dem durch die Formel definierten Datum senden]**: Jeder Empfänger erhält die Nachricht zu einem mit der speziellen Formel konfigurierten Zeitpunkt.
+
+   Siehe [Versanddatum berechnen](../../sending/using/computing-the-sending-date.md).
+
