@@ -15,7 +15,7 @@ context-tags: schedule, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e3a627376a91eb394aea90b1d94c7958ad77fd40
+source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
 
 ---
 
@@ -45,10 +45,10 @@ Je Workflow-Zweig darf zudem nur eine **[!UICONTROL Planung]verwendet werden. Au
 1. Definieren Sie die **[!UICONTROL Ausführungsfrequenz]**:
 
    * **[!UICONTROL Einmal]** - der Workflow wird nur einmal ausgeführt.
-   * **[!UICONTROL Mehrmals pro Tag]** - der Workflow wird wiederholt zu bestimmten Zeiten am Tag ausgeführt. Sie können Ausführungen zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
+   * **[!UICONTROL Mehrmals pro Tag]** - der Workflow wird wiederholt zu bestimmten Zeiten am Tag ausgeführt.
    * **[!UICONTROL Täglich]** - der Workflow wird jeden Tag einmal zu einem bestimmten Zeitpunkt ausgeführt.
-   * **[!UICONTROL Wöchentlich]**: der Workflow zu einem bestimmten Zeitpunkt an einem oder mehreren Tagen einer Woche ausgeführt wird.
-   * **[!UICONTROL Monatlich]** - der Workflow wird wiederholt zu bestimmten Zeiten im Monat ausgeführt. Sie können Monate auswählen, wenn der Arbeitsablauf ausgeführt werden muss. Sie können auch am angegebenen Wochentag des Monats ausführen, z. B. am zweiten Dienstag des Monats.
+   * **[!UICONTROL Wöchentlich]** - der Workflow wird wiederholt zu bestimmten Zeiten in der Woche ausgeführt.
+   * **[!UICONTROL Monatlich]** - der Workflow wird wiederholt zu bestimmten Zeiten im Monat ausgeführt.
    * **[!UICONTROL Jährlich]** - der Workflow wird wiederholt zu bestimmten Zeiten im Jahr ausgeführt.
 
 1. Definieren Sie die Ausführungsdetails. Je nach gewählter Frequenz sind verschiedene Parameter (Uhrzeit, Ausführungsintervall, bestimmte Tage etc.) zu konfigurieren.
@@ -62,8 +62,6 @@ Je Workflow-Zweig darf zudem nur eine **[!UICONTROL Planung]verwendet werden. Au
    * **[!UICONTROL Nie]** - der Workflow wird auf Dauer in den angegebenen Intervallen ausgeführt.
    * **[!UICONTROL Nach einer bestimmten Anzahl an Ausführungen]** - der Workflow wird **X** Mal in den angegebenen Intervallen ausgeführt, wobei X gleich dem im Feld **[!UICONTROL Ausführungsanzahl]angegebenen Wert ist.**
    * **[!UICONTROL Bei Erreichen eines bestimmten Datums]** - der Workflow wird in den angegebenen Intervallen ausgeführt, bis das im Feld "Bis zum" angegebene Datum erreicht ist.
-
-1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
 
 1. Wählen Sie im Tab **[!UICONTROL Ausführungsoptionen]** im Feld **Zeitzone]aus, in welcher Zeitzone Ihre Planung ausgeführt werden soll.[!UICONTROL ** Dadurch können Sie Ihren Workflow in einer bestimmten Zeitzone starten. Andernfalls wird der Workflow standardmäßig in der Server-Zeitzone ausgeführt.
 
