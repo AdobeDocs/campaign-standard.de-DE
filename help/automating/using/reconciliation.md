@@ -86,6 +86,7 @@ Der Workflow besteht aus folgenden Aktivitäten:
    * Transaktionsdatum
    * E-Mail-Adresse des Kunden
    * Artikelnummer des gekauften Produkts
+
    ```
    date;client;product
    2015-05-19 09:00:00;mail1@email.com;ZZ1
