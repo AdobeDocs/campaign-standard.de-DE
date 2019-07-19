@@ -4,7 +4,7 @@ seo-title: Aufrufen einer Ressource mit einem Composite-Identifizierungsschlüss
 description: Aufrufen einer Ressource mit einem Composite-Identifizierungsschlüssel
 seo-description: Hier erfahren Sie, wie Sie eine Ressource mit einem Composite-Identifizierungsschlüssel aufrufen.
 translation-type: tm+mt
-source-git-commit: 8aea0483bcb1b104e5bd2b13426a1ac590c8efaf
+source-git-commit: b9bc9163cc02efea8549a21fa947956dc9d3824a
 
 ---
 
@@ -94,13 +94,13 @@ To use the filter definition from the interface, use a **[!UICONTROL Query]** ac
 Verwenden Sie die unten stehende Syntax, um die Filterdefinition aus Kampagnenstandard-REST-apis zu verwenden:
 
 ```
-GET /profileAndServicesExt/&lt;resourceName&gt;&lt;filterName&gt;?&lt;param1_parameter&gt;=&lt;value&gt;&&lt;param2_parameter&gt;=&lt;value&gt;
+GET /profileAndServicesExt/<resourceName><filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
 ```
 
 In unserem Fall lautet die Syntax, um ein Profil aus der Kategorie "Frühjahr" und mit der CRM-ID" 123456" abzurufen:
 
 ```
-GET https://mc.adobe.io/&lt;ORGANIZATION&gt;/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
+GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
 For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
