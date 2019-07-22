@@ -14,7 +14,7 @@ discoiquuid: 766 bd 57-c 5 f 1-4 f 56-ac 84-e 5 a 04 d 3819 ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
 
 ---
 
@@ -58,7 +58,7 @@ Dashboards werden verwendet, um die Empfänger der Benachrichtigungen zu verwalt
 
 >[!NOTE]
 >
->Um Dashboards und Warnungsbedingungen öffnen und konfigurieren zu können, müssen Sie über Administratorrechte verfügen oder der Sicherheitsgruppe **Versand-Supervisoren** angehören. Standardbenutzer können nicht auf Dashboards in Adobe Campaign zugreifen, sondern haben nur die Möglichkeit, Warnnachrichten zu empfangen. Weiterführende Informationen zu Benutzern und zur Sicherheit in Adobe Campaign finden Sie in den Abschnitten [Typen von Benutzern](../../administration/using/types-of-users.md) und [Über Sicherheitsgruppen](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>Um Dashboards und Warnungsbedingungen öffnen und konfigurieren zu können, müssen Sie über Administratorrechte verfügen oder der Sicherheitsgruppe **Versand-Supervisoren** angehören. Standardbenutzer können nicht auf Dashboards in Adobe Campaign zugreifen, sondern haben nur die Möglichkeit, Warnnachrichten zu empfangen. Weiterführende Informationen zu Benutzern und zur Sicherheit in Adobe Campaign finden Sie in den Abschnitten [Typen von Benutzern](../../administration/using/users-management.md) und [Über Sicherheitsgruppen](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 In der Adobe Campaign-Benutzeroberfläche haben Sie folgende Möglichkeiten:
 
@@ -182,7 +182,7 @@ Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard
 
 **Verwandtes Thema:**
 
-[Ressource hinzufügen oder erweitern](../../developing/using/key-steps-of-adding-a-resource.md)
+[Ressource hinzufügen oder erweitern](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Versandwarnungsparameter {#delivery-alerting-parameters}
 
