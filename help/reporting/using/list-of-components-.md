@@ -14,7 +14,7 @@ discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -83,7 +83,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
   </tr> 
   <tr> 
    <td> Profile<br /> </td> 
-   <td> Fasst native und benutzerdefinierte Profilfelder zusammen, die während der Profil-Ressourcenerweiterung erstellt wurden. Weiterführende Informationen dazu finden Sie auf dieser <a href="../../developing/using/key-steps-of-adding-a-resource.md">Seite</a> und in diesem <a href="../../reporting/using/creating-a-custom-profile-dimension.md">Beispiel</a>.<br /> Beachten Sie, dass Daten für diese Dimension abgerufen werden, sobald die mit dem Profilfeld verknüpfte benutzerdefinierte Ressource veröffentlicht wird.<br /> </td> 
+   <td> Fasst native und benutzerdefinierte Profilfelder zusammen, die während der Profil-Ressourcenerweiterung erstellt wurden. Weiterführende Informationen dazu finden Sie auf dieser <a href="../../developing/using/key-steps-to-add-a-resource.md">Seite</a> und in diesem <a href="../../reporting/using/creating-a-custom-profile-dimension.md">Beispiel</a>.<br /> Beachten Sie, dass Daten für diese Dimension abgerufen werden, sobald die mit dem Profilfeld verknüpfte benutzerdefinierte Ressource veröffentlicht wird.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-Plattform<br /> </td> 
