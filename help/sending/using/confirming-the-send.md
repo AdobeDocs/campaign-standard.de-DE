@@ -15,7 +15,7 @@ context-tags: Bereitstellung, Bereitstellung, zurück
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 ---
 
@@ -43,6 +43,10 @@ Die Versandverarbeitung ist in Gang.
 >[!NOTE]
 >
 >Wenn die Nachricht terminiert wurde, wird sie gesendet, sobald der Zeitpunkt erreicht wurde. Weiterführende Informationen zum Terminieren von Nachrichten finden Sie in [diesem Abschnitt](../../sending/using/about-scheduling-messages.md).
+
+Wenn Sie eine wiederkehrende Bereitstellung ohne Aggregationszeitraum verwenden, können Sie die Bestätigung anfordern, bevor die Auslieferung gesendet wird. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
 
 Die Kachel **[!UICONTROL Freigabe]zeigt den Verarbeitungsfortschritt an.**
 
