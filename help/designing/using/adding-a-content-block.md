@@ -14,7 +14,7 @@ discoiquuid: 3 ffda 143-f 42 a -4 cf 9-b 43 c-e 53 d 24549025
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
 
@@ -91,6 +91,10 @@ Gehen Sie wie folgt vor, um einen Inhaltsbaustein zu erstellen:
 1. Geben Sie den Inhalt des bzw. der Inhaltsbausteine an und bestätigen Sie die Angaben mithilfe der Schaltfläche **[!UICONTROL Erstellen].**
 
 Der Inhaltsbaustein kann nun im Inhaltseditor einer Nachricht oder einer Landingpage verwendet werden.
+
+>[!CAUTION]
+>
+>When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. In HTML werden die Leerzeichen auf dem Bildschirm angezeigt und wirken sich daher auf Ihr Inhaltslayout aus.
 
 ## Über Zielgruppendimensionen {#about-targeting-dimension}
 
