@@ -14,7 +14,7 @@ discoiquuid: 45 ddf 7 b 7-98 f 7-4 fdd-bb 4 a -49 ec 8490 e 877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -27,7 +27,7 @@ Ein dynamisches Bild kann während der Bearbeitung einer E-Mail hinzugefügt wer
 
 Bevor Sie auf das Bild in Adobe Campaign zugreifen, müssen Sie die folgenden Schritte in Adobe Target durchführen:
 
-* [Umleitungsangebote](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), in denen die URL der zu verwendenden Bilder anzugeben ist;
+* [Umleitungsangebote](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in denen die URL der zu verwendenden Bilder anzugeben ist;
 * [Zielgruppen](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html), die die durch Ihre Aktivität anzusprechenden Kontakte enthalten;
 * Aktivität vom Typ [formularbasierter Experience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html), in der eine Rawbox auszuwählen und entsprechend der Anzahl erstellter Umleitungsangebote Erlebnisse zu definieren sind. Für jedes Erlebnis ist eins der erstellten Umleitungsangebote auszuwählen.
 * Erstellen Sie Segmente mit Informationen von Adobe Campaign, um Erlebnisse zu spezifizieren. Wenn Sie in den Angebotsauswahlregeln Daten aus Adobe Campaign verwenden möchten, müssen diese in der Adobe-Target-Rawbox angegeben werden.
