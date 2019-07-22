@@ -14,7 +14,7 @@ discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -277,7 +277,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Klicken<br /> </td> 
-   <td> Anzahl der Interaktionen der Benutzer mit der Push-Benachrichtigung, z. B. Klicks auf die Benachrichtigung oder die Schaltfläche.<br /> </td> 
+   <td> Anzahl der Wiedergaben einer Push-Benachrichtigung an das Gerät und durch Klicken auf den Benutzer. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klickrate<br /> </td> 
@@ -293,7 +293,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Impressionen<br /> </td> 
-   <td> Gesamtzahl der Push-Benachrichtigungen, die von Empfängern aufgerufen wurden.<br /> </td> 
+   <td> Anzahl der Wiedergaben einer Push-Benachrichtigung an das Gerät, die im Benachrichtigungszentrum unverändert gelassen werden. In den meisten Fällen sollte die Impressionsnummer der bereitgestellten Zahl ähnlich sein. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verarbeitet/gesendet<br /> </td> 
@@ -301,7 +301,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Öffnungen<br /> </td> 
-   <td> Gesamtzahl der Anwendungsstarts, wenn Benutzer die Push-Benachrichtigung öffnen.<br /> </td> 
+   <td> Gesamtanzahl der an das Gerät übermittelten Push-Benachrichtigungen und angeklickte Benutzer, die die App geöffnet haben. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
   </tr> 
   <tr> 
    <td> Öffnungsrate<br /> </td> 
