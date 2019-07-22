@@ -15,7 +15,7 @@ context-tags: workflow, overview; workflow, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
 
 ---
 
@@ -28,7 +28,7 @@ Workflows werden grundsätzlich manuell gestartet, können jedoch anschließend 
 
 >[!CAUTION]
 >
->Wir empfehlen, nicht mehr als fünf Workflows gleichzeitig auszuführen. Wenn zu viele Workflows gleichzeitig ausgeführt werden, könnte das System nicht mehr über genügend Ressourcen verfügen und instabil werden. Wir empfehlen auch, die Workflows auf einen möglichst langen Zeitraum zu verteilen.
+> Adobe empfiehlt seinen Kunden, bei der Durchführung von Workflows Prioritäten festzulegen und bis zu 20 gleichzeitige Workflows auszuführen, um ständig die Maximalleistung Ihrer Instanz auszunutzen. Es können auch mehr als 20 gleichzeitige Workflows geplant werden. Diese werden standardmäßig nacheinander ausgeführt. Sie können die Standardeinstellungen für die maximale Anzahl gleichzeitiger Ausführungen anpassen, indem Sie ein Ticket an die Kundenunterstützung senden.
 
 Bei Aktionen bezüglich der Ausführung des Workflows (Start, Stopp, Pause etc.) handelt es sich um **asynchrone** Prozesse, d. h. der jeweilige Befehl wird gespeichert und erst dann ausgeführt, wenn ein Server verfügbar ist.
 
