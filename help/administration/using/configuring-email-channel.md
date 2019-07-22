@@ -15,7 +15,7 @@ context-tags: Extaccountemail, overview; Emailconfig, main; Ruleset, overview; B
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -143,7 +143,7 @@ Dieser Abschnitt behandelt die Liste von Parametern, die in den Eigenschaften ei
 
 >[!NOTE]
 >
->Manche Parameter sind ausschließlich über die Vorlagen verfügbar. Die Parameter, auf die Sie zugreifen können, [hängen von Ihrer Zugriffsberechtigung ab](../../administration/using/types-of-users.md).
+>Manche Parameter sind ausschließlich über die Vorlagen verfügbar. Die Parameter, auf die Sie zugreifen können, [hängen von Ihrer Zugriffsberechtigung ab](../../administration/using/users-management.md).
 
 Zur Änderung der Eigenschaften einer E-Mail bzw. einer E-Mail-Vorlage verwenden Sie die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten].**
 
@@ -250,7 +250,10 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
    >
    >Typologies, which can be accessed via the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
 
-* **[!UICONTROL Titel bei der Versandanalyse berechnen]**: Bei Aktivierung dieser Option wird der E-Mail-Titel im Zuge der Nachrichtenvorbereitung berechnet.
+* **[!UICONTROL Die Beschriftung während der Vorbereitung der Bereitstellung berechnen]**: ermöglicht es Ihnen, den Beschriftungswert der E-Email während der Nachrichtenvorbereitung mithilfe von Personalisierungsfeldern, Inhaltsblöcken und dynamischen Text zu berechnen.
+
+   Es ist außerdem möglich, die Bereitstellungsbeschriftung mit Ereignisvariablen zu personalisieren, die in der externen Signalaktivität des Workflows deklariert wurden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md).
+
 * **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Bei dieser Option werden in der Vorbereitungsphase SQL-Abfragelogs im Protokoll gespeichert.
 
 ### Liste der E-Mail-SMTP-Parameter {#list-of-email-smtp-parameters}
