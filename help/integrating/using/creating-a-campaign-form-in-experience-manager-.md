@@ -14,7 +14,7 @@ discoiquuid: 4 a 8 b 5807-87 dd -4 db 4-bd 67-890 f 0 adae 932
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -25,7 +25,7 @@ Sie können "Formular"-Seiten auf Ihren AEM-Websites erstellen und die Felder di
 
 Gehen Sie zur Erstellung eines Adobe Campaign-Formulars auf Ihrer AEM-Seite wie folgt vor:
 
-1. Erstellen Sie auf Ihrer AEM-Site eine neue Seite basierend auf der Vorlage** Adobe Campaign Profile**.
+1. Erstellen Sie auf Ihrer AEM-Website ausgehend von der Vorlage **Adobe Campaign-Profil** eine neue Seite.
 
    ![](assets/aem_content_forms.png)
 
