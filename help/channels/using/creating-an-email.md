@@ -14,7 +14,7 @@ discoiquuid: b 27 e 0170-e 73 f -4782-8568-02927 fb 374 f 4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
 
@@ -62,7 +62,9 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
    >
    >Um Ihre E-Mail speichern zu können, müssen Sie zunächst den Inhalt bearbeiten. Wenn Sie jetzt **[!UICONTROL Abbrechen]auswählen, wird der Assistent nicht zu Ende geführt und Ihre E-Mail wird nicht erstellt.**
 
-   Daraufhin wird das Dashboard der E-Mail angezeigt. Lesen Sie diesbezüglich auch den Abschnitt [Nachrichten validieren](../../sending/using/preparing-the-send.md).
+   Daraufhin wird das Dashboard der E-Mail angezeigt. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+
+   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. Sie können beispielsweise die E-Mail so konfigurieren, dass die Beschriftung während der Bereitstellungsvorbereitung berechnet wird. Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
