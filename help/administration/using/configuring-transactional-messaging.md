@@ -14,7 +14,7 @@ discoiquuid: 3 f 968556-e 774-43 dc-a 0 b 8-7188 d 7665 fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -99,7 +99,7 @@ Diese Informationen können auch in neuen Ressourcen gespeichert werden. In dies
 
 ![](assets/message-center_usecaseschema.png)
 
-Weiterführende Informationen zur Erstellung und Publikation von Ressourcen finden Sie auf [dieser Seite](../../developing/using/key-steps-of-adding-a-resource.md).
+Weiterführende Informationen zur Erstellung und Publikation von Ressourcen finden Sie auf [dieser Seite](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. Wählen Sie im Bereich **[!UICONTROL Anreicherung]** die Schaltfläche **Element erstellen]aus.[!UICONTROL **
 
@@ -307,7 +307,7 @@ Da wir unsere Kunden anhand ihrer CRM-ID identifizieren möchten, muss die Resso
 
 Ebenso muss eine benutzerdefinierte Ressource für Käufe erstellt und publiziert und mit der Ressource **[!UICONTROL Profil]verknüpft werden.** Auf diese Weise werden Sie in der Lage sein, Informationen aus dieser Ressource zur Anreicherung des Nachrichteninhalts abzurufen.
 
-Weiterführende Informationen zur Erstellung und Publikation von Ressourcen finden Sie auf [dieser Seite](../../developing/using/key-steps-of-adding-a-resource.md).
+Weiterführende Informationen zur Erstellung und Publikation von Ressourcen finden Sie auf [dieser Seite](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. Erstellen Sie ein neues Ereignis unter Verwendung des Kanals **[!UICONTROL E-Mail]** und der Zielgruppendimension **[!UICONTROL Profil](siehe[Ereignis erstellen](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).**
 1. Definieren Sie die Attribute, die zur Personalisierung der Transaktionsnachricht verfügbar sein sollen. Fügen Sie in unserem Fall die Felder "CRM ID" und "Produktkennung" hinzu (siehe [Ereignisattribute definieren](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
