@@ -15,7 +15,7 @@ context-tags: Bereitstellung, Auslöser, zurück; Deliverycreation, Assistent
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90b478d1d58b67e763b8b6685c12530a5b5ee9c3
+source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
 
 ---
 
@@ -36,6 +36,8 @@ In Adobe Campaign sind drei Arten von In-App-Nachrichten verfügbar:
 * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]**: Mit diesem Nachrichtentyp können Sie alle bekannten oder anonymen Benutzer einer Mobile App auswählen, von denen ein mobiles Profil in Campaign existiert. Dieser Nachrichtentyp kann nur mit nicht-personenbezogenen und nicht-sensiblen Attributen personalisiert werden und benötigt auch keinen sicheren Handshake zwischen dem Mobile SDK und dem In-App-Messaging-Dienst von Adobe Campaign.
 
    Weiterführende Informationen zur Verwendung personenbezogener und sensibler Daten finden Sie im Abschnitt [Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+
+![](assets/diagram_inapp.png)
 
 ## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
