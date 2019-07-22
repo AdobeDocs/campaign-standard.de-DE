@@ -15,7 +15,7 @@ context-tags: delivery, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ Das Dashboard einer Nachricht enthält einen Arbeitsbereich mit verschiedenen Ka
 Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 
 * **[!UICONTROL Zusammenfassung ein-/ausblenden]**: blendet zusammenfassende Informationen zur Nachricht ein oder aus.
-* **[!UICONTROL Eigenschaften bearbeiten]**: bietet Zugriff auf den Eigenschaftenbildschirm der Nachricht, der u. a. die Bearbeitung der erweiterten Parameter ermöglicht.
+* **[!UICONTROL Eigenschaften bearbeiten]**[: bietet Zugriff auf den Eigenschaftenbildschirm der Nachricht, der u. a. die Bearbeitung der erweiterten Parameter ermöglicht](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Berichte]**: bietet Zugriff auf Berichte zur Nachricht.
 
 **Verwandte Themen:**
