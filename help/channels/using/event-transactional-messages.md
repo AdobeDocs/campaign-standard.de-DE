@@ -15,7 +15,7 @@ context-tags: Deliverytransactionaltemplate, overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
 
 ---
 
@@ -313,8 +313,6 @@ Beispielsweise kann es sein, dass das Ereignis keinem Ausführungsversand zugewi
 
 Nachdem das Ereignis einem Ausführungsversand zugewiesen wurde, kann die Transaktionsnachricht aufgrund eines temporären Fehlers fehlschlagen, z. B. falls das Postfach des Empfängers voll ist. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Wenn einer Ausführung von Ausführung ein Transaktionsereignis zugewiesen wurde, wird dieses Ereignis später verschoben und später erneut versucht. Wenn sie erneut versucht wird, wird sie einer neuen Ausführungsbereitstellung zugewiesen.
-
 >[!NOTE]
 >
 >Wenn ein Ereignis einem Ausführungsversand zugewiesen wird, wird es nur dieses eine Mal in den Versandlogs dieses Ausführungsversands angezeigt. Die fehlgeschlagenen Sendungen werden im Tab **[!UICONTROL Liste der Ausführungen]der Transaktionsnachricht angezeigt.**
@@ -323,9 +321,7 @@ Wenn einer Ausführung von Ausführung ein Transaktionsereignis zugewiesen wurde
 
 **Aktualisierung der Versandlogs**
 
-Wenn einer Ausführung von Ausführung ein Transaktionsereignis zugewiesen wurde, wird dieses Ereignis verschoben und einige Minuten später erneut versucht. Wenn sie erneut versucht wird, wird sie einer neuen Ausführungsbereitstellung zugewiesen.
-
-Die gesendeten Protokolle der neuen Ausführungsbereitstellung werden jedoch nicht sofort aktualisiert (das Update wird über einen geplanten Arbeitsablauf durchgeführt). Das bedeutet, dass die Nachricht im Status **[!UICONTROL Ausstehend]sein könnte, selbst wenn das Transaktionsereignis vom neuen Ausführungsversand verarbeitet worden ist.**
+Im Wiederholungsvorgang werden die Versandlogs des neuen Ausführungsversands nicht sofort aktualisiert (die Aktualisierung erfolgt über einen zeitversetzten Workflow). Das bedeutet, dass die Nachricht im Status **[!UICONTROL Ausstehend]sein könnte, selbst wenn das Transaktionsereignis vom neuen Ausführungsversand verarbeitet worden ist.**
 
 **Fehlgeschlagener Ausführungsversand**
 
