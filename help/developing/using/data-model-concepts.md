@@ -15,14 +15,14 @@ context-tags: Cusresource, overview; Eventcusresource, overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c880b265cf83cb76b2cdbe3cbdd77182adb71bb1
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
 
 # Datenmodelle{#data-model-concepts}
 
-Adobe Campaign enthält ein vordefiniertes Datenmodell. Dieses Datenmodell kann von [Administratoren](../../administration/using/types-of-users.md#functional-administrators) mit neuen Ressourcen oder Erweiterungen vorhandener Ressourcen abgeändert werden.
+Adobe Campaign enthält ein vordefiniertes Datenmodell. Dieses Datenmodell kann von [Administratoren](../../administration/using/users-management.md#functional-administrators) mit neuen Ressourcen oder Erweiterungen vorhandener Ressourcen abgeändert werden.
 
 >[!CAUTION]
 >
