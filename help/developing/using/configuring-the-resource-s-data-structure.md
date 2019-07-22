@@ -15,7 +15,7 @@ context-tags: Cusresource, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
 
 ---
 
@@ -44,6 +44,7 @@ Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die 
    >[!NOTE]
    >
    >Falls kein **[!UICONTROL Titel]angegeben wird, wird dieser automatisch ausgehend von der Kennung vergeben.**
+   >Es wird empfohlen, maximal 30 Zeichen zu verwenden.
 
    ![](assets/schema_extension_4.png)
 
@@ -81,7 +82,11 @@ Jede Ressource muss mindestens einen Schlüssel zu ihrer eindeutigen Identifizie
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Element erstellen], um einen Schlüssel zu erstellen.**
 
-   Die Felder **[!UICONTROL Titel]** und **Kennung]sind standardmäßig vorausgefüllt, können jedoch angepasst werden.[!UICONTROL **
+   **[!UICONTROL Die]** Felder "Beschriftung" und **[!UICONTROL " ID]** " sind standardmäßig ausgefüllt, können jedoch bearbeitet werden.
+
+   >[!NOTE]
+   >
+   >Es wird empfohlen, maximal 30 Zeichen zu verwenden.
 
 1. Um die Elemente dieses Schlüssels zu definieren, wählen Sie **[!UICONTROL Element erstellen]und danach die für diese Ressource erstellten Felder aus.**
 
@@ -102,6 +107,11 @@ Die Definition von Indexen wird empfohlen, ist aber nicht zwingend erforderlich.
    ![](assets/schema_extension_26.png)
 
 1. Die Felder **[!UICONTROL Titel]** und **Kennung]sind standardmäßig vorausgefüllt, können jedoch angepasst werden.[!UICONTROL **
+
+   >[!NOTE]
+   >
+   >Es wird empfohlen, maximal 30 Zeichen zu verwenden.
+
 1. Wählen Sie aus den für die Ressource erstellten Feldern die aus, aus denen sich der Index zusammensetzen soll.
 
    ![](assets/schema_extension_27.png)
@@ -135,6 +145,10 @@ Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
    ![](assets/schema_extension_29.png)
 
 1. Im Bildschirm **[!UICONTROL Neue Relation]** sind die Felder **[!UICONTROL Titel]und** Kennung] standardmäßig vorausgefüllt, sie können jedoch angepasst werden.**[!UICONTROL **
+
+   >[!NOTE]
+   >
+   >Es wird empfohlen, maximal 30 Zeichen zu verwenden.
 
    >[!CAUTION]
    >
@@ -242,6 +256,11 @@ Im Bildschirm der benutzerdefinierten Ressource werden im Bereich der **[!UICONT
    ![](assets/schema_extension_30.png)
 
 1. Ändern Sie bei Bedarf Titel und Kennung der Ressource.
+
+   >[!NOTE]
+   >
+   >Es wird empfohlen, maximal 30 Zeichen zu verwenden.
+
 1. Beschränken Sie hier gegebenenfalls die Verwendung dieser Ressource auf gewisse Organisationseinheiten. Nur Benutzer in berechtigten Einheiten dürfen dann diese Ressource in der Anwendung verwenden.
 1. Speichern Sie die Änderungen.
 
