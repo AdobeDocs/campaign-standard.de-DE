@@ -14,7 +14,7 @@ discoiquuid: 1676 da 91-55 e 3-414 f-bcd 3-bb bb 0804 b 682 bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c3b44a97af080ea7a1c28c7b7573d690d4df308
+source-git-commit: 267e30c603baf67020aadefad578f91b40dc042d
 
 ---
 
@@ -200,6 +200,10 @@ Jetzt sind in der Liste der Personalisierungsfelder die deklarierten Ereignisvar
 >Diese Aktion kann in jeder Aktivität ausgeführt werden, in der ein Segmentcode definiert werden kann, z. B. die Aktivität **[!UICONTROL Abfrage]** oder **Segmentierung[!UICONTROL .]**
 
 ![](assets/extsignal_activities_segment.png)
+
+**Versandbeschriftung**: Definieren Sie die Bereitstellungsbeschriftung basierend auf Ereignisvariablen.
+
+![](assets/extsignal_activities_label.png)
 
 ## Anwendungsbeispiel {#use-case}
 
