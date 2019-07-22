@@ -15,7 +15,7 @@ context-tags: typology, overview; Typologyrule, main; Typologyrule, Übersicht
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -85,10 +85,6 @@ In der Kategorie **[!UICONTROL Zielgruppen-Kontext]** können Sie entsprechend d
 By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
-
->[!NOTE]
->
->Da sich der Inhalt von Kontrollregeln nicht bearbeiten lässt, bietet sich vornehmlich die Verwendung von Filterregeln an.
 
 ## Ausführungsreihenfolge von Typologieregeln {#typology-rules-execution-order}
 
