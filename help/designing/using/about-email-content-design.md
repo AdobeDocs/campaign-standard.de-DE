@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
 
 ---
 
@@ -365,7 +365,10 @@ Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Weiterführende Informa
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Sie können eine Komponente auch verbergen. Durch Aktivierung dieser Option wird die entsprechende Komponente auf dem Bildschirm eines Mobilgeräts verborgen.
+1. Sie können eine Komponente ausblenden, wenn sie auf einem Mobilgerät angezeigt wird. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+Sie können diese Komponente auch auf Desktopgeräten ausblenden, was bedeutet, dass sie nur auf Mobilgeräten angezeigt wird. To do this, select **[!UICONTROL Show only on mobile devices]**.
+Mit dieser Option können Sie beispielsweise ein bestimmtes Bild auf Mobilgeräten und ein anderes Bild auf Desktopgeräten anzeigen.
+Sie können diese Option entweder über die Mobil- oder Desktop-Ansicht festlegen.
 
    ![](assets/email_designer_mobile_hide.png)
 
