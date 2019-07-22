@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 830292bd6f5bbd143ad0c674aaac67b67abc5665
+source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
 
 ---
 
@@ -26,6 +26,117 @@ Suchen Sie eine bestimmte Version von Adobe Campaign Standard aus dem Jahr
 Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicken Sie auf eine Version, um sich den Inhalt anzusehen. In der [Releaseplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) können Sie sehen, wann die nächste Version veröffentlicht wird.
 
 Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-updates.md) für Adobe Campaign Standard an. Ältere Versionshinweise finden Sie auf diesen Seiten: [Versionshinweise 2018](../../rn/using/release-notes-2018.md), [Versionshinweise 2017](../../rn/using/release-notes-2017.md), [Versionshinweise 2015–2016](../../rn/using/release-notes-2015-2016.md). Sehen Sie sich auch die Liste der [eingestellten und entfernten Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) an.
+
+## 19.3 - Version Juli 2019 {#release-19-3---july-2019}
+
+### Neue Funktionen? {#what-s-new-3}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Funktion<br /> </th> 
+   <th> Beschreibung<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> External API Activity (Public Beta)<br /> </td> 
+   <td> <p>Zur tieferen Personalisierung ermöglicht die externe API-Aktivität Ihnen, Daten aus externen Systemen über einen REST-API-Aufruf in einen Workflow zu übertragen. Die REST-Endpunkte können ein Kundenverwaltungssystem, Adobe I/O Runtime oder Adobe Experience Cloud REST Endpunkt (z. B. Datenplattform, Target, Analytics, Kampagne) sein.</p><p>Diese Funktion befindet sich derzeit in öffentlicher Hand.</p><p>Lesen Sie für weiterführende Informationen das <a href="../../automating/using/external-api.md">entsprechende Handbuch</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Report on workflow segment<br /> </td> 
+   <td> <p>Mit dieser Funktion können Marketingexperten ihre Bereitstellungsleistung nach Segmentcode aufschlüsseln. Wenn Sie einen Workflow erstellen und eine Segmentierungsaktivität verwenden, um der Auslieferungspopulation Segmente zuzuweisen, können diese Segmente nun dieselbe Auslieferung durchführen. Auf diese Weise können Sie die Statistiken zum Öffnen/Klicken auf Grundlage mehrerer Segmente innerhalb einer einzelnen Auslieferung anzeigen.</p><p>Lesen Sie für weiterführende Informationen das <a href="../../reporting/using/creating-a-report-workflow-segment.md">entsprechende Handbuch</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Verbesserungen bei der Sicherheit {#security-enhancements-2}
+
+* Es wurde ein Sicherheitsproblem behoben, durch das DOS-Angriffe (DOS) auf ungültige Anforderungen zum Abrufen von Bildern verhindert wurden. (CAMP-33454)
+
+### Verbesserungen bei Email Designer {#email-designer-enhancements-3}
+
+* Es wurde ein Problem behoben, durch das einer HTML-Vorlage jedes Mal, wenn eine Komponente hinzugefügt wurde, zusätzliche HTML-Stiltags hinzugefügt wurden. Dies konnte die Größe der Vorlage drastisch erhöhen. (CAMP-34694)
+* Es wurde ein Problem behoben, durch das einige rechts obere Symbolleistenmenüoptionen nicht verfügbar waren. (CAMP-34577)
+* Es wurde ein Problem behoben, das auftrat, wenn der Inhaltsblock der Mirror Page in einen E-Email-Inhalt eingefügt wurde. (CAMP-34779)
+* Es wurde ein Problem behoben, das bei der Verwendung von JSPP-Code in einer E-Email auftrat und es schwierig machte, den Inhalt zu bearbeiten. (CAMP-34574)
+* Es wurde ein Problem behoben, durch das Bilder oben abgeschnitten wurden, wenn ein Hyperlink hinzugefügt wurde. (CAMP-34382)
+* Es wurde ein Problem beim Anzeigen des E-Mail-Designers mit Firefox behoben. (CAMP-34364)
+* Es wurden verschiedene Probleme behoben, die beim Definieren dynamischer Inhalte in einer E-Email im erweiterten Modus aufgetreten sind. (CAMP -34351, CAMP -34333, CAMP -34331)
+* Es wurden verschiedene Probleme behoben, die beim Regeleditor für dynamische Inhalte aufgetreten sind (CAMP -44304, CAMP -34303).
+* Es wurde ein Problem behoben, durch das das Link-Feld nicht im Bereich "E-Mail-Designer-Einstellungen" angezeigt wurde (CAMP -33749).
+* Es wurde ein Problem mit dem youtube-Symbol behoben, das in E-Emails übergrößen wurde. (CAMP-33726)
+* Es wurde ein Sicherheitsproblem behoben, durch das der bearbeitbare Seiteninhalt bearbeitbar war. (CAMP-33691)
+* Es wurde ein Problem behoben, durch das die HTML-Ausgabe bei Verwendung des Größer-als-Zeichen in dynamischen Inhalten abgeschnitten wurde. (CAMP-33688)
+* Es wurde ein Problem behoben, das beim Bearbeiten der Option "Rückgängig" beim Bearbeiten von Text im E-Mail-Designer auftrat. (CAMP-32565)
+* Es wurde ein Problem behoben, durch das zusätzliche Tags beim Rückgängigmachen der Stile statt beim Entfernen von Stilen erstellt wurden. (CAMP-32359)
+* Es ist jetzt möglich, zu definieren, ob jedes in einer E-Mail verwendete Bild nur auf Desktopgeräten oder nur auf Mobilgeräten angezeigt wird.
+* Es ist jetzt möglich, die Breite und Höhe einer Social-Content-Komponente festzulegen.
+* Es wurde ein Fehler behoben, der verhinderte, dass dynamische Inhalte nach dem Löschen dieser dynamischen Inhalte entfernt wurden.
+* Es wurde ein Fehler behoben, der dazu führte, dass der Betreff einer E-Mail nach der Änderung nicht aktualisiert wurde.
+* Ein Problem wurde behoben, das eine n: n Spaltenstruktur wird einmal ausgewählt, sobald sie in der Arbeitsfläche abgelegt wurde.
+* Es wurde ein Problem behoben, durch das die Miniaturansicht der Nachricht im E-Mail-Dashboard verschwommen angezeigt wurde.
+* Es wurde ein Problem behoben, durch das der Hintergrund für E-Emails, die in Outlook empfangen wurden, nicht richtig angezeigt wurde.
+* Es wurden einige Sortierungsprobleme auf der Homepage von E-Mail Designer behoben.
+* Es wurde ein Problem behoben, das beim Duplizieren von Varianten bei Verwendung dynamischer Inhalte auftrat.
+* Einige unerwünschte Felder wurden aus dem Bereich "E-Mail-Designer-Einstellungen" entfernt.
+
+### Sonstige Verbesserungen {#other-improvements-3}
+
+* Durch die Integration mit Adobe Experience Platform Location Services ist Adobe Campaign jetzt kompatibel, um standortbasierte Marketingmeldungen über das Experience Platform SDK an die Abonnenten Ihrer mobilen Anwendung zu senden. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* Die Berichterstellungsfunktion wurde verbessert. Um diese Funktion nutzen zu können, müssen Sie die Vereinbarung zur Nutzungsnutzung für dynamische Berichte akzeptieren. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* In Workflows wurde eine neue Option hinzugefügt, um die nächsten zehn Ausführungen eines Arbeitsablaufs in der Vorschau anzuzeigen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/scheduler.md).
+* In der Planer-Aktivität können Sie mit einer neuen Option einen bestimmten Tag einer bestimmten Woche für monatliche Auslieferungen auswählen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/scheduler.md).
+* Beim Erstellen wiederkehrender Lieferungen ohne Aggregationszeitraum ermöglicht das Bereitstellungs-Dashboard jetzt die Bestätigung der Bestätigung, bevor die Auslieferung gesendet wird. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/confirming-the-send.md).
+* Sie können jetzt die Beschriftung einer Auslieferung mit Ereignisvariablen personalisieren, die in der externen Signalaktivität des Workflows deklariert wurden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* Die GDPR-Löschabfrage wurde verbessert, um eine bessere Leistung zu erzielen. (CAMP-33504)
+* Die Option "ftp" wurde aus der Konfigurationsoberfläche für die externe Kontokonfiguration entfernt. (CAMP-34472)
+
+### Sonstige Änderungen {#other-changes-2}
+
+* In der Benutzeroberfläche der Auslieferungseigenschaften wurde eine Warnung hinzugefügt. Es gibt an, dass die Lieferungen auf der Grundlage ihres Aggregationszeitraums vorbereitet und gelöst werden, um den Arbeitsablauf mehrmals pro Tag aufzurufen. Sie sollten sicherstellen, dass sie keinen Punkt haben. (CAMP-34393)
+* In benutzerdefinierten Ressourcenkonfigurationsbildschirmen wurde eine Warnung hinzugefügt. Es wird empfohlen, für benutzerdefinierte Ressourcen-IDs maximal 30 Zeichen zu verwenden. Dies gilt auch für benutzerdefinierte Ressourcenfelder, Schlüssel, Indizes und Links.
+* Beim Versuch, eine Transaktionsnachricht zu löschen, die von einer Einstiegsseite als Bestätigungsmeldung verwendet wird, wird nun eine Nachricht angezeigt.
+* In Workflows wird jetzt eine Warnung angezeigt, wenn eine Aktivität länger als 6 Stunden ausgeführt wurde. Dies gilt nicht für Push-Benachrichtigungen, Bereitstellung, Signal-, Start-, Ende-, Fork-, UND-, Zeitplan- und Wait-Aktivitäten.
+* In Workflows wird jetzt eine Warnung angezeigt, wenn Sie die maximale Anzahl von Workflows erreichen, die gleichzeitig ausgeführt werden.
+* Arbeitsabläufe, die für mehr als sieben Tage in Pause oder Fehlgeschlagen waren, werden nun gestoppt, um weniger Speicherplatz zu belegen. Die Bereinigungsaufgabe wird in den Workflow-Protokollen angezeigt.
+* Bei Verwendung einer "Übertragungsdatei" -Aktivität wird jetzt ein Fehler protokolliert, wenn die Dateigröße den verfügbaren Speicherplatz überschreitet.
+* Die Aktion "Zur Ziel-URL umleiten" kann nicht mehr für die sekundäre Schaltfläche in-App-Nachrichten ausgewählt werden.
+
+### Korrekturen {#patches-3}
+
+* Es wurde ein Fehler behoben, der dazu führte, dass GDPR-Zugriffsanforderungen fehlschlugen.
+* Es wurde ein Problem behoben, durch das Auslöser verworfen werden konnten, wenn mehrere Auslöser für ein eindeutiges Profil empfangen wurden.
+* Es wurde ein Problem behoben, das zu einer fehlerhaften Fehlermeldung zur benutzerdefinierten Ressourcenveröffentlichung nach der Anmeldung führen konnte.
+* Es wurde ein Problem behoben, durch das beim Erstellen oder Erweitern einer benutzerdefinierten Ressource eine leere Seite angezeigt wurde.
+* Es wurde ein Problem behoben, durch das eine Zielgruppe mit appsubscriptionrcp nicht als Targeting-Dimension für das Targeting bei einer mobilen Bereitstellung verfügbar war.
+* Es wurde ein Fehler behoben, der verhinderte, dass keine E-Mail-Adressen der harten Absprünge in Quarantäne gestellt wurden. (CAMP-24587)
+* Es wurde ein Problem behoben, das auftrat, wenn eine Typologie hinzugefügt und anschließend gelöscht wurde, bevor die Typologie gespeichert wurde. (CAMP-32789)
+* Es wurde ein Problem behoben, durch das Einstiegsseiteninhalte beim Deaktivieren dynamischer Inhalte nicht angezeigt wurden. (CAMP-32924)
+* Es wurde ein Problem mit wiederkehrenden Auslieferungen behoben, das bei der Verwendung der Personalisierung für die Attribute einer Master-Auslieferung auftrat. (CAMP-32983)
+* Es wurde ein Problem in Workflows behoben, durch das Ergebnisse aus einem Übergang mit eingehenden SMS-Nachrichtendaten nicht gelesen werden konnten. (CAMP-33134)
+* Es wurde ein Problem in Workflows behoben, das beim Kombinieren von Gabeseiten und Ausschlussaktivitäten zur Erstellung von Zielgruppen auftrat. (CAMP-33401)
+* Es wurde ein Fehler behoben, der dazu führte, dass Seiteninhalte nicht angezeigt wurden und keine Bestätigungen für wiederkehrende Lieferungen gesendet wurden. (CAMP-33413)
+* Es wurde ein Fehler behoben, der zu einem Fehler führte, wenn eine Union-Aktivität zwischen Profilen und Zielgruppen verwendet wurde. Dieses Problem wurde durch eine Inkompatibilität der Identifizierungsschlüssel in Eingabeübergängen verursacht. (CAMP-33713)
+* Es wurde ein Fehler in den Test-Aktivitäten behoben, der verhinderte, dass der Ausdruck "reccount" die korrekte Syntax beim Doppelklick verwendet. (CAMP-33756)
+* Es wurde ein Problem behoben, das zu einer Fehlermeldung führte, wenn beim Öffnen des technischen Arbeitsablaufs für die Rechnungsstellung eine Fehlermeldung geöffnet wurde. (CAMP-34313)
+* Es wurde ein Problem in Einstiegsseiten behoben, das beim Konfigurieren von Kontrollkästchen-Feldern mit Abonnements auftrat. (CAMP-34369)
+* Es wurde ein Problem behoben, das auftrat, wenn eine Liste konfiguriert und das Symbol "Symbol" hinzugefügt wurde. (CAMP-34585)
+* Es wurde ein Problem behoben, durch das die Verwendung des|" und " %"-Symbole als Datums- oder Uhrzeittrennzeichen in den Aktivitäten des Ladens von Datei-Workflows. (CAMP-34706)
+* Es wurde ein Problem behoben, das in Workflows auftrat, wenn eine Aktivität hinzugefügt wurde, der Arbeitsablauf gespeichert wurde und anschließend die Schaltfläche "Zurück" des Browsers gedrückt wurde. Die neu hinzugefügte Aktivität wurde aus der Arbeitsfläche entfernt. (CAMP-34788)
+* Es wurde ein Problem behoben, das bei der Verwendung von Sichtbarkeitsbedingungen mit Kontrollkästchen in Einstiegsseiten auftrat. (CAMP-34802)
+* Es wurde ein Fehler in der Anreicherungsaktivität behoben, der verhinderte, dass Felder auf der Registerkarte "Zusätzliche Daten" angezeigt wurden, wenn die Filterdimension auf Tracking-Protokolle und die Zieldimension auf Profil eingestellt war.
+* Es wurde ein Fehler behoben, der zu einer Fehlermeldung führte, wenn eine Ressource "workflowtemplate" exportiert wurde.
+* Es wurde ein Problem beim Erstellen eines neuen Profils behoben, das verhinderte, dass das Feld "Land/Region" gespeichert wurde, wenn es im Dialogfeld ausgewählt wurde.
+* Es wurden verschiedene Probleme behoben, die bei Verwendung der Direct Mail-Importvorlage (updatequarantinesdeliverylogsdirectmail) auftraten.
+* Es wurde ein Problem mit der Integration von Assets on Demand behoben.
+* Es wurde ein Problem behoben, das beim Einzoomen in der Zeitschienenansicht auftrat. (CAMP-33628)
+* Es wurde ein Problem behoben, durch das Proofs nicht sofort für E-Mail-Nachrichten mit geplanten Datum und Uhrzeit gesendet werden konnten. (CAMP-33723)
+* Es wurde ein Fehler im Zusammenhang mit Transaktionsmessaging behoben, der Fehlerprotokolle verursachte, wenn ein Benutzer abgemeldet wurde. (CAMP-31698)
+* Es wurde ein Fehler behoben, der beim Planen einer E-Mail in bestimmten Umgebungen auftrat.
+* Es wurde ein Fehler behoben, der dazu führte, dass der Arbeitsablauf für die Bereitstellung von Bereitstellungen aktualisieren fehlschlug.
+* Es wurde ein Sicherheitsproblem behoben, das den E-Mail-Inhalt beschädigte, wenn der Betreff mehrere Zeilen enthielt.
+
 
 ## 19.2.7 - Version Juli 2019 {#release-19-2-7---july-2019}
 
