@@ -14,7 +14,7 @@ discoiquuid: 305 cadde -6424-4 c 6 f-b 11 b -1 e 8 bdbad 6 ef 1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -58,3 +58,6 @@ Mögliche Werte:
 
    Wenn für eine Überprüfung die Nachrichtenpersonalisierung abgeschlossen sein muss, wählen Sie diese Phase aus.
 
+>[!NOTE]
+>
+>Aus Sicherheitsgründen kann der Inhalt der Steuerungsregeln nicht geändert werden. The **[!UICONTROL Code]** field is read-only.
