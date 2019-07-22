@@ -14,7 +14,7 @@ discoiquuid: 2 a 14500 f -5 ede -4131-8 b 1 a-b 7 fd 65 b 7 e 3 aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d148014d1b90712e78b8af17d7ddee2659329ed
+source-git-commit: b9799c40bd7b6422409456db2c4f694f486b42f8
 
 ---
 
@@ -75,7 +75,7 @@ Für den Versand von Push-Benachrichtigungen müssen folgende Voraussetzungen ge
 
 1. Definieren Sie die Daten, die Sie über die Abonnenten Ihrer App abrufen möchten. Die Abonnenten der Mobile App, deren Profil in der Datenbank von Adobe Campaign gespeichert ist, werden entsprechend den von Ihnen definierten Kriterien abgeglichen.
 
-   Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication) .
+   Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
 
 1. Stellen Sie sicher, dass die Einrichtung erfolgreich abgeschlossen wurde. Starten Sie zu diesem Zweck Ihre Mobile App auf Ihrem Gerät und melden Sie sich an. Aktivieren Sie dabei den Empfang von Benachrichtigungen.
 1. Then, in Adobe Campaign's advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**.
