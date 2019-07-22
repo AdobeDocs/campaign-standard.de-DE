@@ -14,7 +14,7 @@ discoiquuid: 5 f 7607 a 1-5 f 71-4 d 66-9688-3 e 5 a 1774 f 1 b 4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -40,3 +40,4 @@ Im Bereich **[!UICONTROL Targeting]stehen folgende Aktivitäten zur Verfügung:*
 * [Deduplizierung](../../automating/using/deduplication.md)
 * [Anreicherung](../../automating/using/enrichment.md)
 
+**[!UICONTROL Mit Targeting]** -Aktivitäten können **Sie Segmentcodes** für ihre ausgehenden Übergänge definieren. Anschließend können Sie Berichte basierend auf diesen Segmentcodes erstellen, um die Effizienz Ihrer Maketing-Kampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
