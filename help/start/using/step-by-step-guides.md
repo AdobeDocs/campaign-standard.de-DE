@@ -14,7 +14,7 @@ discoiquuid: d 7088 c 18-7 daf -4 c 30-b 633-2 f 19496 b 1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -40,7 +40,7 @@ Lernen Sie Adobe Campaign besser kennen, indem Sie sich die folgenden Anwendungs
 
 * [Die wichtigsten Schritte zur Erstellung einer E-Mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch): Lesen Sie, wie Sie eine neue E-Mail erstellen.
 * [Experience Cloud Triggers mit Adobe Campaign verwenden](../../integrating/using/abandonment-triggers-use-cases.md): Senden Sie Ihren Kunden personalisierte E-Mails auf der Basis bestimmter Verhaltensmuster, die von Adobe Analytics auf Ihrer Website getrackt wurden.
-* [Ressource hinzufügen oder erweitern](../../developing/using/key-steps-of-adding-a-resource.md): Lernen Sie, neue Ressourcen zu erstellen oder vorhandene Ressourcen zu erweitern.
+* [Ressource hinzufügen oder erweitern](../../developing/using/key-steps-to-add-a-resource.md): Lernen Sie, neue Ressourcen zu erstellen oder vorhandene Ressourcen zu erweitern.
 * [Workflow-Vorlage importieren](../../automating/using/importing-data.md#example--import-workflow-template): Verwenden Sie eine Importvorlage, um regelmäßig Dateien mit derselben Struktur zu importieren.
 * [Anmeldung mit zweifacher Bestätigung einrichten](../../channels/using/setting-up-a-double-opt-in-process.md): Erfahren Sie, wie Sie eine mit einer Landingpage verknüpfte E-Mail senden, um eine Anmeldung durch einen Kunden zu bestätigen.
 * [E-Mail personalisieren](../../designing/using/example--email-personalization.md): Personalisieren Sie eine E-Mail entsprechend dem Alter des Kunden.
