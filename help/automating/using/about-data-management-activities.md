@@ -14,7 +14,7 @@ discoiquuid: 332 bd 6 be -6 ca 3-4 d 38-b 608-8 a 66 c 156 d 080
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -36,3 +36,4 @@ Im Bereich **[!UICONTROL Daten-Management (ETL)]werden die folgenden Aktivitäte
 * [Dateiextraktion](../../automating/using/extract-file.md)
 * [An-/Abmeldedienst](../../automating/using/subscription-services.md)
 
+**[!UICONTROL Mithilfe von Data Management-Aktivitäten (ETL)]** können **Sie Segmentcodes** für ihre ausgehenden Übergänge definieren. Anschließend können Sie Berichte basierend auf diesen Segmentcodes erstellen, um die Effizienz Ihrer Maketing-Kampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
