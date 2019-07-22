@@ -14,7 +14,7 @@ discoiquuid: a 425 cd 59-edfd -42 c 5-a 6 bd -38773 c 353 ff 0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -37,7 +37,7 @@ Die erste Tabelle **Push notification Engagement Summary** (Zusammenfassung der 
 
 * **[!UICONTROL Verarbeitet/gesendet]**: Gesamtzahl der gesendeten Push-Benachrichtigungen
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Push-Benachrichtigungen in Bezug auf die Gesamtzahl der gesendeten Push-Benachrichtigungen
-* **[!UICONTROL Impressions]**: Gesamtzahl der Push-Benachrichtigungen, die von Empfängern aufgerufen wurden
+* **[!UICONTROL Impressionen]**: Anzahl der Wiedergaben einer Push-Benachrichtigung an das Gerät, die im Benachrichtigungszentrum unverändert gelassen werden. In den meisten Fällen sollte die Impressionsnummer der bereitgestellten Zahl ähnlich sein. Dadurch wird sichergestellt, dass das Gerät die Meldung erhalten und diese Informationen an den Server zurückgegeben hat.
 * **[!UICONTROL Unique impressions]**: Anzahl der Impressionen eines Empfängers
 * **[!UICONTROL Durchklickrate]**: Prozentsatz der Benutzer, die mit der Push-Benachrichtigung interagiert haben
 * **[!UICONTROL Öffnungsrate]**: Prozentsatz der geöffneten Push-Benachrichtigungen
@@ -48,8 +48,8 @@ Die zweite Tabelle **Push notification Clicks &amp; opens** (Klicks &amp; Öffnu
 
 * **[!UICONTROL Impressions]**: Gesamtzahl der Push-Benachrichtigungen, die von Empfängern aufgerufen wurden
 * **[!UICONTROL Unique impressions]**: Anzahl der Impressionen eines Empfängers
-* **[!UICONTROL Klicks]**: Anzahl der Interaktionen der Benutzer mit der Push-Benachrichtigung, z. B. Klicks auf die Benachrichtigung oder die Schaltfläche
+* **[!UICONTROL Klicken]** Sie auf: Anzahl der Wiedergaben einer Push-Benachrichtigung an das Gerät und durch Klicken auf den Benutzer. Der Benutzer wollte die Benachrichtigung entweder anzeigen, die dann zur Push-Öffnung verschoben wird, oder sie wird geschlossen.
 * **[!UICONTROL Einzelklicks]**: Anzahl der Interaktionen eines einzelnen Benutzers mit der Push-Benachrichtigung, z. B. Klicks auf die Benachrichtigung oder die Schaltfläche
-* **[!UICONTROL Öffnungen]**: Gesamtzahl der Anwendungsstarts, wenn Benutzer die Push-Benachrichtigung öffnen
+* **[!UICONTROL Öffnen]**: Gesamtanzahl der an das Gerät übermittelten Push-Benachrichtigungen und angeklickte Benutzer, die die App geöffnet haben. Dies ähnelt dem Push-Klick, außer dass ein Push geöffnet wird, wenn die Benachrichtigung geschlossen wurde.
 * **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
 
