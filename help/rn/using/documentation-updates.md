@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -26,6 +26,16 @@ Hier erhalten Sie Informationen über Dokumentationsaktualisierungen für Adobe 
 Auf dieser Seite finden Sie eine nach Version geordnete Übersicht neuer Funktionen und aktueller Änderungen in der Dokumentation für Adobe Campaign Standard.
 
 Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-notes.md).
+
+## 19.3 - Version Juli 30 {#release-19-3---july-2019}
+
+### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-19}
+
+### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-17}
+
+Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. Es gibt an, dass die Lieferungen basierend auf ihrem Aggregationszeitraum vorbereitet werden und dass Sie, wenn Sie den Arbeitsablauf mehrmals pro Tag aufrufen möchten, sicherstellen, dass sie keinen Punkt haben.
+
+Es wurden Informationen hinzugefügt, wie Sie die Beschriftung einer Auslieferung mit Ereignisvariablen personalisieren, die in der externen Signalaktivität des Workflows deklariert wurden. [mehr dazu](../../developing/using/uc-calling-resource-id-key.md)
 
 ## July 2019 {#release-july-2019}
 
@@ -201,7 +211,7 @@ Der Abschnitt zur Konfiguration einer Mobile App mit Adobe Experience Platform S
 
 Videos wurden aktualisiert und [hierher](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) verschoben.
 
-Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../../administration/using/types-of-users.md)
+Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
 ## 18.9 - Version September 2018 {#release-18-9---september-2018}
 
@@ -461,7 +471,7 @@ Neues Video zu dynamischen Berichten – [mehr dazu](../../start/using/how-to-vi
 
 Empfehlungen für das S3-Konto wurden hinzugefügt – [mehr dazu](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-Der Abschnitt über die unterschiedlichen Benutzertypen wurde aktualisiert – [mehr dazu](../../administration/using/types-of-users.md)
+Der Abschnitt über die unterschiedlichen Benutzertypen wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
 Der Abschnitt über die Personalisierung von Bildquellen wurde aktualisiert – [mehr dazu](../../designing/using/personalizing-an-image-source.md)
 
@@ -551,7 +561,7 @@ Integration von Dreamweaver verfügbar – [mehr dazu](https://helpx.adobe.com/c
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-14}
 
-Ein Abschnitt zu den unterschiedlichen Typen von Adobe Campaign-Benutzern wurde hinzugefügt – [mehr dazu](../../administration/using/types-of-users.md)
+Ein Abschnitt zu den unterschiedlichen Typen von Adobe Campaign-Benutzern wurde hinzugefügt – [mehr dazu](../../administration/using/users-management.md)
 
 Das Workflow-Handbuch wurde umstrukturiert und erweitert. Dies ermöglicht das einfache Auffinden von Informationen zum [Erstellen](../../automating/using/building-a-workflow.md) und [Ausführen](../../automating/using/executing-a-workflow.md) eines Workflows, zur [Zielgruppenauswahl](../../automating/using/targeting-data.md) und [Verwaltung](../../automating/using/targeting-data.md#enriching-data) Ihrer Daten, zum [Import](../../automating/using/importing-data.md) von Daten und [zur Nutzung von Workflow-Daten](../../automating/using/using-workflow-data.md) für die Aktualisierung der Datenbank oder für den Versand.
 
