@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>Zur tieferen Personalisierung ermöglicht die externe API-Aktivität Ihnen, Daten aus externen Systemen über einen REST-API-Aufruf in einen Workflow zu übertragen. Die REST-Endpunkte können ein Kundenverwaltungssystem, Adobe I/O Runtime oder Adobe Experience Cloud REST Endpunkt (z. B. Datenplattform, Target, Analytics, Kampagne) sein.</p><p>Diese Funktion befindet sich derzeit in öffentlicher Hand.</p><p>Lesen Sie für weiterführende Informationen das <a href="../../automating/using/external-api.md">entsprechende Handbuch</a>.</p></td> 
+   <td> <p>Zur tieferen Personalisierung ermöglicht die externe API-Aktivität Ihnen, Daten aus externen Systemen über einen REST-API-Aufruf in einen Workflow zu übertragen. Die REST-Endpunkte können ein Kundenverwaltungssystem, Adobe I/O Runtime oder Adobe Experience Cloud REST Endpunkt (z. B. Datenplattform, Target, Analytics, Kampagne) sein.</p><p>Diese Funktion befindet sich derzeit in öffentlicher Hand.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>Mit dieser Funktion können Marketingexperten ihre Bereitstellungsleistung nach Segmentcode aufschlüsseln. Wenn Sie einen Workflow erstellen und eine Segmentierungsaktivität verwenden, um der Auslieferungspopulation Segmente zuzuweisen, können diese Segmente nun dieselbe Auslieferung durchführen. Auf diese Weise können Sie die Statistiken zum Öffnen/Klicken auf Grundlage mehrerer Segmente innerhalb einer einzelnen Auslieferung anzeigen.</p><p>Lesen Sie für weiterführende Informationen das <a href="../../reporting/using/creating-a-report-workflow-segment.md">entsprechende Handbuch</a>.</p></td> 
+   <td> <p>Mit dieser Funktion können Marketingexperten ihre Bereitstellungsleistung nach Segmentcode aufschlüsseln. Wenn Sie einen Workflow erstellen und eine Segmentierungsaktivität verwenden, um der Auslieferungspopulation Segmente zuzuweisen, können diese Segmente nun dieselbe Auslieferung durchführen. Auf diese Weise können Sie die Statistiken zum Öffnen/Klicken auf Grundlage mehrerer Segmente innerhalb einer einzelnen Auslieferung anzeigen.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,8 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Es wurde ein Problem behoben, durch das die HTML-Ausgabe bei Verwendung des Größer-als-Zeichen in dynamischen Inhalten abgeschnitten wurde. (CAMP-33688)
 * Es wurde ein Problem behoben, das beim Bearbeiten der Option "Rückgängig" beim Bearbeiten von Text im E-Mail-Designer auftrat. (CAMP-32565)
 * Es wurde ein Problem behoben, durch das zusätzliche Tags beim Rückgängigmachen der Stile statt beim Entfernen von Stilen erstellt wurden. (CAMP-32359)
-* Es ist jetzt möglich, zu definieren, ob jedes in einer E-Mail verwendete Bild nur auf Desktopgeräten oder nur auf Mobilgeräten angezeigt wird.
-* Es ist jetzt möglich, die Breite und Höhe einer Social-Content-Komponente festzulegen.
+* Sie können jetzt definieren, ob jede Komponente, die in einer E-Mail verwendet wird, nur auf Desktopgeräten oder nur auf Mobilgeräten angezeigt wird.
+* Sie können nun die Breite und Höhe einer Social-Content-Komponente festlegen.
 * Es wurde ein Fehler behoben, der verhinderte, dass dynamische Inhalte nach dem Löschen dieser dynamischen Inhalte entfernt wurden.
 * Es wurde ein Fehler behoben, der dazu führte, dass der Betreff einer E-Mail nach der Änderung nicht aktualisiert wurde.
 * Ein Problem wurde behoben, das eine n: n Spaltenstruktur wird einmal ausgewählt, sobald sie in der Arbeitsfläche abgelegt wurde.
@@ -91,6 +91,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Sie können jetzt die Beschriftung einer Auslieferung mit Ereignisvariablen personalisieren, die in der externen Signalaktivität des Workflows deklariert wurden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * Die GDPR-Löschabfrage wurde verbessert, um eine bessere Leistung zu erzielen. (CAMP-33504)
 * Die Option "ftp" wurde aus der Konfigurationsoberfläche für die externe Kontokonfiguration entfernt. (CAMP-34472)
+* Sie können jetzt die Option "SMTP-Testmodus" für jede E-Email aktivieren und deaktivieren. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 ### Sonstige Änderungen {#other-changes-2}
 
@@ -123,7 +124,6 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Es wurde ein Problem in Einstiegsseiten behoben, das beim Konfigurieren von Kontrollkästchen-Feldern mit Abonnements auftrat. (CAMP-34369)
 * Es wurde ein Problem behoben, das auftrat, wenn eine Liste konfiguriert und das Symbol "Symbol" hinzugefügt wurde. (CAMP-34585)
 * Es wurde ein Problem behoben, durch das die Verwendung des|" und " %"-Symbole als Datums- oder Uhrzeittrennzeichen in den Aktivitäten des Ladens von Datei-Workflows. (CAMP-34706)
-* Es wurde ein Problem behoben, das in Workflows auftrat, wenn eine Aktivität hinzugefügt wurde, der Arbeitsablauf gespeichert wurde und anschließend die Schaltfläche "Zurück" des Browsers gedrückt wurde. Die neu hinzugefügte Aktivität wurde aus der Arbeitsfläche entfernt. (CAMP-34788)
 * Es wurde ein Problem behoben, das bei der Verwendung von Sichtbarkeitsbedingungen mit Kontrollkästchen in Einstiegsseiten auftrat. (CAMP-34802)
 * Es wurde ein Fehler in der Anreicherungsaktivität behoben, der verhinderte, dass Felder auf der Registerkarte "Zusätzliche Daten" angezeigt wurden, wenn die Filterdimension auf Tracking-Protokolle und die Zieldimension auf Profil eingestellt war.
 * Es wurde ein Fehler behoben, der zu einer Fehlermeldung führte, wenn eine Ressource "workflowtemplate" exportiert wurde.
