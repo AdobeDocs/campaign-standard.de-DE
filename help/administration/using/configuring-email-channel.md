@@ -15,7 +15,7 @@ context-tags: Extaccountemail, overview; Emailconfig, main; Ruleset, overview; B
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
 
 ---
 
@@ -177,8 +177,6 @@ Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im 
 
 Die Anzahl weiterer Versuche kann global geändert werden (kontaktieren Sie Ihren technischen Administrator von Adobe) oder einzeln für jeden Versand oder jede Versandvorlage.
 
-Mit der Option **[!UICONTROL SMTP-Versand testen]können Sie den Nachrichtenversand per SMTP testen.** Die Nachrichten werden verarbeitet, bis eine Verbindung mit dem SMTP-Server hergestellt wurde, sie werden aber nicht gesendet. Weiterführende Informationen zur SMTP-Konfiguration finden Sie im Abschnitt [Liste der E-Mail-SMTP-Parameter](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
-
 #### Parameter für E-Mail-Format {#email-format-parameters}
 
 Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei Optionen zur Verfügung:
@@ -191,6 +189,24 @@ Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei
    >Diese Option umfasst beide Versionen der Nachricht. Dies hat Auswirkungen auf den Versanddurchsatz, da die Nachricht dadurch größer wird.
 
 * **Alle Nachrichten im Textformat senden**: Die Nachricht wird im Textformat gesendet. Das HTML-Format wird nicht gesendet und lediglich für die Mirrorseite verwendet, wenn der Empfänger auf den Link in der Nachricht klickt.
+
+#### SMTP-Testmodus {#smtp-test-mode}
+
+The **[!UICONTROL Enable SMTP test mode]** option allows you to test sending emails via an SMTP connection without actually sending messages.
+Die Nachrichten werden verarbeitet, bis die Verbindung mit dem SMTP-Server erreicht wird, sie werden jedoch nicht gesendet.
+
+![](assets/smtp-test-mode.png)
+
+Diese Option steht für E-Mails und E-Mail-Vorlagen zur Verfügung.
+
+Wenn Sie die Option "SMTP-Testmodus" für eine E-Email-Vorlage aktivieren, können alle aus dieser Vorlage erstellten E-Email-Nachrichten aktiviert werden.
+
+>[!CAUTION]
+>
+>Wenn diese Option für eine E-Mail aktiviert ist, werden keine Nachrichten gesendet, bis sie deaktiviert sind.
+>Eine Warnung wird im Dashboard E-Mail oder E-Mail-Vorlage angezeigt.
+
+Weiterführende Informationen zur SMTP-Konfiguration finden Sie im Abschnitt [Liste der E-Mail-SMTP-Parameter](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
 
 ### Parameter für den Gültigkeitszeitraum {#validity-period-parameters}
 
