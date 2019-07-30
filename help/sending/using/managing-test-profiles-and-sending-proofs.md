@@ -15,7 +15,7 @@ context-tags: Seedmember, overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ Senden Sie so viele Testsendungen wie nötig sind, um zu einer endgültigen Vers
 **Verwandtes Thema:**
 
 Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+In diesem Abschnitt wird beschrieben, wie Sie Proofs mit echten Kundendaten senden, auf die über einen Workflow zugegriffen werden kann, im Gegensatz zum Einsatz gefälschter Testprofildaten. Auf diese Weise können Sie überprüfen, ob die im Arbeitsablauf verwendeten Variablen genau sind und eine Ansicht der Nachricht erhalten, die Ihre Empfänger erhalten.
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   Dieses Testprofil wird Teil der Zielgruppe.
+
+   >[!NOTE]
+   >
+   >Wenn Sie ein Testprofil als Überfüllung verwenden, werden die entsprechenden zusätzlichen Daten für alle angehängten Felder in einer Meldung zufällig aus einem echten Zielprofil ausgewählt und dem Erfassungstestprofil zugewiesen.
+
+1. Greifen Sie auf die Liste der Marketingaktivitäten zu und erstellen Sie einen Testarbeitsablauf.
+
+   Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Ziehen Sie eine **[!UICONTROL Abfrage]in den Workflow-Arbeitsbereich und öffnen Sie sie.**
+
+   Weiterführende Informationen zu dieser Aktivität finden Sie im Abschnitt [Abfrage](../../automating/using/query.md).
+
+1. Fügen Sie zusätzliche Daten aus einer verknüpften Tabelle hinzu. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. Ziehen Sie einen **E-Mail-Versand** in den Workflow-Arbeitsbereich und öffnen Sie ihn.
+
+   Weiterführende Informationen zu dieser Aktivität finden Sie im Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
+
+1. Wählen Sie aus dem Dashboard der E-Mail das Testprofil mit der von Ihnen erstellten Überfüllungsnutzung aus.
+
+1. Fügen Sie Ihren E-Email-Content-Personalisierungsfeldern die zusätzlichen Daten hinzu, die Sie in der Abfrageaktivität definiert haben.
+
+1. Speichern Sie die E-Mail und starten Sie den Workflow.
+
+Während der Nachrichtenvorbereitung enthält die Zielanzahl das Testprofil, das Sie ausgewählt haben.
+Sobald die Nachricht gesendet wird, werden zusätzliche Daten durch Daten aus einem echten Profil ersetzt.
+
+>[!NOTE]
+>
+>Es werden nur zusätzliche Daten ersetzt. Für das Testprofil werden keine echten Profildaten wie Vorname oder Nachname verwendet.
