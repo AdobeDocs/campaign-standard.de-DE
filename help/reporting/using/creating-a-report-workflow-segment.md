@@ -14,7 +14,7 @@ discoiquuid: b 6 d 3 de 63-3 add -4881-8917-04 a 6 f 8 b 6 be 4 d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36e04227f300d28d2c48da440ddab3ccf9281168
+source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
 
 ---
 
@@ -58,7 +58,7 @@ Note that segment codes will be collected as soon as you enable the segment code
 
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
 
-[!NOTE]
+>[!NOTE]
 >Wenn der Eingabeübergang der E-Email-Auslieferung leer ist, wird der Segmentcode vom vorherigen Übergang standardmäßig hinzugefügt.
 
 Zunächst müssen Sie einen Workflow mit unterschiedlichen Zielgruppen erstellen. Hier möchten wir eine E-Mail senden, die je nach Alter unserer Zielgruppe personalisiert wird: eine Lieferung für 20 bis 30 Jahre alte Profile und eine andere für Profile zwischen 30 und 40 Jahren.
