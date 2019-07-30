@@ -12,7 +12,7 @@ context-tags: Externalapi, workflow, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1444a636f401ed9c34295aaca1a2b3271d6700a4
+source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
 
 ---
 
@@ -25,16 +25,29 @@ source-git-commit: 1444a636f401ed9c34295aaca1a2b3271d6700a4
 
 The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via a **REST API** call.
 
-The REST endpoints can be a Customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+The REST endpoints can be a customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) instance or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+
+>[!CAUTION]
+>
+>Diese Funktion befindet sich derzeit in öffentlicher Hand. Sie müssen die Nutzungsvereinbarung akzeptieren, bevor Sie mit der Verwendung der externen API-Aktivität beginnen. Beachten Sie, dass diese öffentliche Beta-Funktion von Adobe noch nicht kommerziell veröffentlicht wurde und von Adobe Client Care nicht unterstützt wird. Es kann Fehler und möglicherweise auch andere veröffentlichte Funktionen enthalten.
 
 Die Hauptmerkmale dieser Aktivität sind:
 
-* 5 MB HTTP-Antwortdatengrößenbeschränkung
+* Möglichkeit zur Übergabe von Daten in einem JSON-Format an einen REST-API-Endpunkt von Drittherstellern
+* Möglichkeit, eine JSON-Antwort zurückzuerhalten, sie den Ausgabetabellen zuzuordnen und nachzuverfolgen an andere Workflow-Aktivitäten.
 * Fehlerverwaltung mit ausgehender spezifischer Umstellung
+
+Für diese Aktivität wurden folgende Schutzzeichen eingerichtet:
+
+* 5 MB HTTP-Antwortdatengrößenbeschränkung
 * Anfrage-Timeout beträgt 60 Sekunden
 * HTTP-Weiterleitungen sind nicht zulässig.
 * Nicht-HTTPS-Urls werden abgelehnt
 * " Akzeptieren: application/json "request header and" Content-Type: application/json "response header are allowed
+
+>[!CAUTION]
+>
+>Beachten Sie, dass die Aktivität zum Abrufen von kampagnenübergreifenden Daten (aktuellste Angebote, aktuelle Werte usw.) konzipiert ist. nicht zum Abrufen bestimmter Informationen für die einzelnen Profile, da dadurch große Datenmengen übertragen werden können. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
 
 ## Konfiguration {#configuration}
 
@@ -61,7 +74,7 @@ This tab lets you define the sample **JSON structure** returned by the API Call.
 
 ![](assets/externalAPI-outbound.png)
 
-The JSON structure pattern is: **{“data”:[{“key”:“value”}, {“key”:“value”},...]}**
+The JSON structure pattern is: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 The sample JSON definition must have the **following characteristics**:
 
@@ -86,9 +99,9 @@ This tab lets you control **general properties** on the external API activity li
 
 ### Spaltendefinition
 
-    &gt; [! HINWEIS]
-    &gt;
-    &gt; Diese Registerkarte wird angezeigt, wenn das**-Antwortdatenformat** abgeschlossen und in der Registerkarte Ausgehende Zuordnung überprüft wird.
+>[!NOTE]
+>
+>This tab appears when the **response data format** is completed and validated in Outbound Mapping tab.
 
 The **Column definition** tab allows you to precisely specify the data structure of each column in order to import data that does not contain any errors and make it match the types that are already present in the Adobe Campaign database for future operations.
 
@@ -109,6 +122,109 @@ This tab lets you activate the **outbound transition** and its label. This speci
 Diese Registerkarte ist in den meisten Workflow-Aktivitäten verfügbar. For more information, consult the [Activity properties](../../automating/using/executing-a-workflow.md#activity-properties) section.
 
 ![](assets/externalAPI-options.png)
+
+## Problembehebung
+
+Dieser neuen Workflow-Aktivität wurden zwei Arten von Protokollmeldungen hinzugefügt: Informationen und Fehler. Sie können Ihnen helfen, potenzielle Probleme zu beheben.
+
+### Information
+
+Diese Protokollmeldungen dienen zum Protokollieren von Informationen zu nützlichen Checkpoints während der Ausführung der Workflow-Aktivität. Insbesondere werden die folgenden Protokollmeldungen verwendet, um den ersten Versuch sowie einen Wiederholungsversuch des ersten Versuchs für den Zugriff auf die API zu protokollieren.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Message format<br /> </th> 
+   <th> Beispiel<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> API-URL ' % s'aufrufen.</td> 
+   <td> <p>Invoking APL's https://example.com/api/v1/web-coupon?count=2'.</p></td> 
+  </tr> 
+  <tr> 
+   <td> API-URL ' % s'erneut versucht, vorheriger Versuch fehlgeschlagen (' % s ').</td> 
+   <td> <p>API-URL ' https://example.com/api/v1/web-coupon?count=2', vorheriger Versuch fehlgeschlagen (' HTTP - 401 ').</p></td>
+  </tr> 
+  <tr> 
+   <td> Inhalt von ' % s ' (% s/% s) übertragen.</td> 
+   <td> <p>Übertragen von Inhalten von ' https://example.com/api/v1/web-coupon?count=2' (1234/1234).</p></td> 
+  </tr>
+ </tbody> 
+</table>
+
+### Fehler
+
+Diese Protokollmeldungen dienen zum Protokollieren von Informationen zu unerwarteten Fehlerbedingungen, die letztendlich dazu führen können, dass die Workflow-Aktivität fehlschlägt.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Code - Message format<br /> </th> 
+   <th> Beispiel<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> WKF -560250 - API-Anforderungshandbuch überschritten (Limit: ' % d ').</td> 
+   <td> <p>API-Anforderungshandbuch überschritten (Limit: ' 5242880 ').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560239 - API-Antwort überschritten (Limit: ' % d ').</td> 
+   <td> <p>API-Antwort überschritten (Limit: 5242880 ').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560245 - API-URL konnte nicht analysiert werden (Fehler: ' % d ').</td> 
+   <td> <p>API-URL konnte nicht analysiert werden (Fehler: " -2010" ).</p>
+   <p> Hinweis: Dieser Fehler wird protokolliert, wenn die API-URL die Validierungsregeln fehlschlägt.</p></td>
+  </tr> 
+  <tr>
+   <td> WKF -560244 - API-URL-Host darf nicht als "localhost" oder als IP-Adressenliteral (URL-Host: ' % s ').</td> 
+   <td> <p>API-URL-Host darf nicht "localhost" oder" IP-Adressliteral" (URL-Host: ' localhost ').</p>
+    <p>API-URL-Host darf nicht "localhost" oder" IP-Adressliteral" (URL-Host: ' 192.168.0.5 ').</p>
+    <p>API-URL-Host darf nicht "localhost" oder" IP-Adressliteral" (URL-Host: ' [2001]').</p></td>
+  </tr> 
+  <tr> 
+   <td> WKF -560238 - API-URL muss eine sichere URL (HTTPS) sein (angeforderte URL: ' % s ').</td> 
+   <td> <p>API-URL muss eine sichere URL (HTTPS) sein (angeforderte URL: ' https://example.com/api/v1/web-coupon?count=2').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560249 - Anforderungs-JSON konnte nicht erstellt werden. Fehler beim Hinzufügen von ' % s '.</td> 
+   <td> <p>JSON-Datei für Anforderungsanfrage konnte nicht erstellt werden. Fehler beim Hinzufügen von'params '.</p>
+    <p>JSON-Datei für Anforderungsanfrage konnte nicht erstellt werden. Fehler beim Hinzufügen von'Daten '.</p></td>
+  </tr> 
+  <tr> 
+   <td> WKF -560246 - HTTP-Header-Schlüssel ist fehlerhaft (Kopfzeilenschlüssel: ' % s ').</td> 
+   <td> <p>HTTP-Header-Schlüssel ist fehlerhaft (Kopfzeilenschlüssel: ' % s ').</p>
+   <p> Hinweis: Dieser Fehler wird protokolliert, wenn der benutzerdefinierte Header-Schlüssel die Überprüfung nach [RFC] fehlschlägt (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+  </tr>
+ <tr> 
+   <td> WKF -560248 - HTTP-Header-Schlüssel ist nicht zulässig (Kopfzeilenschlüssel: ' % s ').</td> 
+   <td> <p>HTTP-Header-Schlüssel ist nicht zulässig (Kopfzeilenschlüssel: ' Accept ').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560247 - AHTTP-Header-Wert ist fehlerhaft (Kopfzeilenwert: ' % s ').</td> 
+   <td> <p>HTTP-Header-Wert ist ungültig (Kopfzeilenwert: ' % s '). </p>
+    <p>Hinweis: Dieser Fehler wird protokolliert, wenn der benutzerdefinierte Header-Wert die Überprüfung nach [RFC] fehlschlägt (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560240 - JSON-Nutzlast hat die Eigenschaft ' % s '.</td> 
+   <td> <p>JSON-Nutzlast hat ungültige Eigenschaft'blah '.</p></td>
+  </tr> 
+  <tr>
+   <td> WKF -560241 - Fehlerhaft formatierte JSON- oder unzulässige Formate.</td> 
+   <td> <p>Ungültige JSON oder falsches Format</p>
+   <p>Hinweis: Diese Meldung gilt nur für die Analyse des Antwortkörpers aus der externen API und wird protokolliert, wenn versucht wird, zu überprüfen, ob der Antwortkörper dem von dieser Aktivität vorgeschriebenen JSON-Format entspricht.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF -560246 - Aktivität fehlgeschlagen (Grund: ' % s ').</td> 
+   <td> <p>Wenn Aktivität aufgrund der HTTP 401-Fehlerantwort fehlschlägt, fehlgeschlagen (Grund: ' HTTP - 401 ')</p>
+        <p>Wenn Aktivität aufgrund eines fehlgeschlagenen internen Aufrufs fehlschlägt - Aktivität fehlgeschlagen (Grund: ' Irc - -nn ').</p>
+        <p>Wenn die Aktivität aufgrund einer ungültigen Kopfzeile des Inhaltstyps fehlschlägt. - Aktivität fehlgeschlagen (Grund: " Content-Type - application/html" ).</p></td> 
+  </tr>
+ </tbody> 
+</table>
 
 <!--
 ## Example: Managing coupons with External API Activity
