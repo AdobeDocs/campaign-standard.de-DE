@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
+source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
 
 ---
 
@@ -128,6 +128,26 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 * Sie können Inhalt einer in Email Designer bearbeiteten E-Mail nicht direkt als Fragment speichern Stattdessen müssen Sie den entsprechenden HTML-Code kopieren und in ein neues Fragment einfügen. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhalt als ein Fragment speichern](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Bei der Bearbeitung von Stilen sind nur die Web Fonts verfügbar, die von den meisten E-Mail-Clients offiziell unterstützt werden.
 * Stile lassen sich nicht als Thema zur künftigen Wiederverwendung speichern. Doch der CSS-Stil kann in einer Inhaltsvorlage oder einer E-Mail gespeichert werden. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/editing-email-styles.md).
+
+### Email Designer updates {#email-designer-updates}
+
+Der E-Mail-Designer wird ständig verbessert. Wenn Sie einen E-Mail-Inhalt von Grund auf von einer vordefinierten Vorlage aus erstellt haben oder Fragmente erstellt haben, erhalten Sie beim nächsten Öffnen Ihres Inhalts möglicherweise folgende Aktualisierungsmeldung:
+
+![](assets/email_designer_fragment-patch-message.png)
+
+Adobe empfiehlt, Ihren Inhalt auf die neueste Version zu aktualisieren, um Probleme wie CSS-Kollision zu vermeiden. Click **[!UICONTROL Update now]**.
+
+Wenn beim Aktualisieren des Inhalts ein Fehler auftritt, überprüfen Sie Ihren HTML und beheben Sie ihn, bevor Sie dieses Update erneut ausführen.
+
+Beachten Sie bei Fragmenten Folgendes:
+
+* Wenn Sie ein Fragment zu einer neuen E-Mail oder Vorlage hinzufügen möchten und diese Meldung erhalten, müssen Sie dieses Fragment zuerst aktualisieren.
+
+* Wenn Sie mehrere Fragmente haben, müssen Sie jedes Fragment aktualisieren, das Sie in einem E-Mail-Inhalt verwenden möchten.
+
+* Um Auswirkungen auf Ihre aktuellen E-Mail-Nachrichten zu vermeiden, da einige davon sich möglicherweise auf der Vorbereitung befinden oder in einer bestimmten Kampagne, in der Sie keine Änderung vornehmen möchten, können Sie sich entscheiden, einige Fragmente nicht zu aktualisieren.
+
+* Sie können weiterhin E-Mails senden, bei denen ein nicht aktualisiertes Fragment bereits verwendet wird, das Fragment jedoch nicht bearbeitbar ist.
 
 ## Neuen E-Mail-Inhalt gestalten {#designing-an-email-content-from-scratch}
 
