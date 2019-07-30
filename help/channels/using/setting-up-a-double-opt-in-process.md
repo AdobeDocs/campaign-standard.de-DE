@@ -14,7 +14,7 @@ discoiquuid: 1 a 24504 e -7 f 9 d -4297-b 39 e-c 5 f 085 b 0 f 388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 6dd0c32259d942a0fb790f345cd13800a57e814a
 
 ---
 
@@ -105,6 +105,7 @@ Erstellen Sie eine eigene [Typologieregel](../../administration/using/about-typo
 1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
 1. Duplizieren Sie die Standardtypologie **[!UICONTROL Transaktionsnachricht zum Profil (mcTypologyProfile)]**.
 1. Bearbeiten Sie danach die neue Typologie und geben Sie den Titel **TYPOLOGY_PROFILE** ein.
+1. Remove the **blacklisted address** rule.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
 
 Diese Typologie kann jetzt mit der Bestätigungs-E-Mail verknüpft werden.
