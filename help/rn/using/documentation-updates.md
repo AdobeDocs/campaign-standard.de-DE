@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
 
 ---
 
@@ -27,9 +27,13 @@ Auf dieser Seite finden Sie eine nach Version geordnete Übersicht neuer Funktio
 
 Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-notes.md).
 
-## 19.3 - Version Juli 30 {#release-19-3---july-2019}
+## 19.3 - Version Juli 2019 {#release-19-3---july-2019}
 
 ### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-19}
+
+External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+
+Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-17}
 
@@ -37,7 +41,27 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 Es wurden Informationen hinzugefügt, wie Sie die Beschriftung einer Auslieferung mit Ereignisvariablen personalisieren, die in der externen Signalaktivität des Workflows deklariert wurden. [mehr dazu](../../developing/using/uc-calling-resource-id-key.md)
 
-## July 2019 {#release-july-2019}
+Es wurde ein neuer Abschnitt hinzugefügt, in dem erläutert wird, wie Sie einen Benutzer in Adobe Campaign Standard erstellen. [mehr dazu](../../administration/using/users-management.md)
+
+Für dynamische Berichte wurde eine Fehlerbehebung hinzugefügt. [mehr dazu](../../reporting/using/troubleshooting.md)
+
+Ein Diagramm mit der Erklärung, wie verschiedene In-App-Vorlagen persönliche Informationen verarbeiten, wurde hinzugefügt. [mehr dazu](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
+Der Abschnitt zum Speichern von E-Email-Inhalten als Fragment im E-Mail-Designer wurde aktualisiert. [mehr dazu](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+Es wurde eine Warnung hinzugefügt, wie zusätzliche Leerzeichen das Layout eines E-Mail-Inhalts beeinflussen können. [mehr dazu](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
+Ein neuer Abschnitt zum E-Mail-Designer wurde hinzugefügt. [mehr dazu](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+Ein neuer Abschnitt zum Senden von Proofs mit echten Kundendaten wurde hinzugefügt. [mehr dazu](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
+Es wurde ein neuer Abschnitt über bewährte Verfahren zum Arbeitsablauf hinzugefügt. [mehr dazu](../../automating/using/best-practices-workflows.md)
+
+Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Es wurde eine Warnung in der benutzerdefinierten Ressourcendokumentation hinzugefügt. Es wird empfohlen, für benutzerdefinierte Ressourcen-IDs maximal 30 Zeichen zu verwenden. Dies gilt auch für benutzerdefinierte Ressourcenfelder, Schlüssel, Indizes und Links. [mehr dazu](../../developing/using/creating-or-extending-the-resource.md)
+
+## Documentation updates - July 2019 {#doc-updates-2019}
 
 Es wurde eine neue Seite zu Einschränkungen der Einstiegsseite hinzugefügt. [mehr dazu](../../channels/using/landing-page-limitations.md)
 
@@ -45,7 +69,9 @@ Ein Anwendungsfall wurde hinzugefügt, das dazu führte, dass ein Profil mithilf
 
 Es wurde eine Empfehlung zur Verwendung wiederkehrender Lieferungen ohne Aggregationszeitraum hinzugefügt, wenn ein Workflow mit Parametern aufgerufen wird. [mehr dazu](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Der Abschnitt zum Speichern von E-Email-Inhalten als Fragment im E-Mail-Designer wurde aktualisiert. [mehr dazu](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Es wurde eine Warnung in der benutzerdefinierten Ressourcendokumentation hinzugefügt. Es wird empfohlen, für benutzerdefinierte Ressourcen-IDs maximal 30 Zeichen zu verwenden. Dies gilt auch für benutzerdefinierte Ressourcenfelder, Schlüssel, Indizes und Links. [mehr dazu](../../developing/using/creating-or-extending-the-resource.md)
 
 ## 19.2 - Version Mai 2019 {#release-19-2---may-2019}
 
@@ -170,8 +196,6 @@ Zur neuen Option wurden Informationen in der Abfrage-Aktivität ([mehr dazu](../
 Im Abschnitt zur Daten-Update-Aktivität wurden Informationen hinzugefügt, in der das neue Batch-Größe-Feld beschrieben wird, mit dem die maximale Batch-Größe der hochzuladenden Daten definiert werden kann – [mehr dazu](../../automating/using/update-data.md#configuration)
 
 Im Abschnitt zur Dateiextraktions-Aktivität wurde eine Beschreibung einer neuen Option hinzugefügt, mit der der Dateierstellungsprozess deaktiviert werden kann, wenn die ausgehende Transition leer ist – [mehr dazu](../../automating/using/extract-file.md#configuration)
-
-Eine neue Technote wurde hinzugefügt, in der beschrieben wird, wie die Profiles &amp; Services Ext API aktualisiert wird – [mehr dazu](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
 
 ## 19.0 - Version Januar 2019 {#release-19-0---january-2019}
 
