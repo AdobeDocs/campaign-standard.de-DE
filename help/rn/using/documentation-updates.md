@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -59,7 +59,7 @@ Es wurde eine Warnung hinzugefügt, wie zusätzliche Leerzeichen das Layout eine
 
 Ein neuer Abschnitt zum E-Mail-Designer wurde hinzugefügt. [mehr dazu](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-Ein neuer Abschnitt zum Senden von Proofs mit echten Kundendaten wurde hinzugefügt. [mehr dazu](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 Es wurde ein neuer Abschnitt über bewährte Verfahren zum Arbeitsablauf hinzugefügt. [mehr dazu](../../automating/using/best-practices-workflows.md)
 
