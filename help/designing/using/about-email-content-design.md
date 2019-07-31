@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
+source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
 
 ---
 
@@ -133,7 +133,7 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 
 Der E-Mail-Designer wird ständig verbessert. Wenn Sie einen E-Mail-Inhalt von Grund auf von einer vordefinierten Vorlage aus erstellt haben oder Fragmente erstellt haben, erhalten Sie beim nächsten Öffnen Ihres Inhalts möglicherweise folgende Aktualisierungsmeldung:
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 Adobe empfiehlt, Ihren Inhalt auf die neueste Version zu aktualisieren, um Probleme wie CSS-Kollision zu vermeiden. Click **[!UICONTROL Update now]**.
 
