@@ -12,7 +12,7 @@ context-tags: Externalapi, workflow, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ Diese Protokollmeldungen dienen zum Protokollieren von Informationen zu unerwart
   <tr> 
    <td> WKF -560246 - HTTP-Header-Schlüssel ist fehlerhaft (Kopfzeilenschlüssel: ' % s ').</td> 
    <td> <p>HTTP-Header-Schlüssel ist fehlerhaft (Kopfzeilenschlüssel: ' % s ').</p>
-   <p> Hinweis: Dieser Fehler wird protokolliert, wenn der benutzerdefinierte Header-Schlüssel die Überprüfung nach [RFC] fehlschlägt (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF -560248 - HTTP-Header-Schlüssel ist nicht zulässig (Kopfzeilenschlüssel: ' % s ').</td> 
@@ -206,7 +206,7 @@ Diese Protokollmeldungen dienen zum Protokollieren von Informationen zu unerwart
   <tr> 
    <td> WKF -560247 - AHTTP-Header-Wert ist fehlerhaft (Kopfzeilenwert: ' % s ').</td> 
    <td> <p>HTTP-Header-Wert ist ungültig (Kopfzeilenwert: ' % s '). </p>
-    <p>Hinweis: Dieser Fehler wird protokolliert, wenn der benutzerdefinierte Header-Wert die Überprüfung nach [RFC] fehlschlägt (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF -560240 - JSON-Nutzlast hat die Eigenschaft ' % s '.</td> 
