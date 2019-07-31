@@ -15,7 +15,7 @@ context-tags: Seedmember, overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -129,41 +129,41 @@ Senden Sie so viele Testsendungen wie nötig sind, um zu einer endgültigen Vers
 
 Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
-## Sending proofs using additional data {#sending-proofs-using-additional-data}
+<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
 
-In diesem Abschnitt wird beschrieben, wie Sie Proofs mit echten Kundendaten senden, auf die über einen Workflow zugegriffen werden kann, im Gegensatz zum Einsatz gefälschter Testprofildaten. Auf diese Weise können Sie überprüfen, ob die im Arbeitsablauf verwendeten Variablen genau sind und eine Ansicht der Nachricht erhalten, die Ihre Empfänger erhalten.
+This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
 
-1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
-   Dieses Testprofil wird Teil der Zielgruppe.
+    This test profile becomes part of the targeted audience.
 
    >[!NOTE]
    >
-   >Wenn Sie ein Testprofil als Überfüllung verwenden, werden die entsprechenden zusätzlichen Daten für alle angehängten Felder in einer Meldung zufällig aus einem echten Zielprofil ausgewählt und dem Erfassungstestprofil zugewiesen.
+   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
 
-1. Greifen Sie auf die Liste der Marketingaktivitäten zu und erstellen Sie einen Testarbeitsablauf.
+1. Access the marketing activity list and create a test workflow.
 
-   Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. Ziehen Sie eine **[!UICONTROL Abfrage]in den Workflow-Arbeitsbereich und öffnen Sie sie.**
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
 
-   Weiterführende Informationen zu dieser Aktivität finden Sie im Abschnitt [Abfrage](../../automating/using/query.md).
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
 
-1. Fügen Sie zusätzliche Daten aus einer verknüpften Tabelle hinzu. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
 
-1. Ziehen Sie einen **E-Mail-Versand** in den Workflow-Arbeitsbereich und öffnen Sie ihn.
+1. Drag and drop an **Email delivery** activity into your workflow and open it.
 
-   Weiterführende Informationen zu dieser Aktivität finden Sie im Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
 
-1. Wählen Sie aus dem Dashboard der E-Mail das Testprofil mit der von Ihnen erstellten Überfüllungsnutzung aus.
+1. From the email message dashboard, select the test profile with trap usage that you created.
 
-1. Fügen Sie Ihren E-Email-Content-Personalisierungsfeldern die zusätzlichen Daten hinzu, die Sie in der Abfrageaktivität definiert haben.
+1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
 
-1. Speichern Sie die E-Mail und starten Sie den Workflow.
+1. Save the email and start the workflow.
 
-Während der Nachrichtenvorbereitung enthält die Zielanzahl das Testprofil, das Sie ausgewählt haben.
-Sobald die Nachricht gesendet wird, werden zusätzliche Daten durch Daten aus einem echten Profil ersetzt.
+During message preparation, the target count includes the test profile that you selected.
+Once the message is sent, additional data is replaced by data from a real profile.
 
 >[!NOTE]
->
->Es werden nur zusätzliche Daten ersetzt. Für das Testprofil werden keine echten Profildaten wie Vorname oder Nachname verwendet.
+   >
+   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
