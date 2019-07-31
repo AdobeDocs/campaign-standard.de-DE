@@ -14,7 +14,7 @@ discoiquuid: a 0 a 8 a 725-8 ede -4626-9798-b 86924 b 58 beb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -49,7 +49,7 @@ Es ist empfehlenswert, einen Workflow mit einer **[!UICONTROL Ende]-Aktivität a
 
 ## Beispiel {#example}
 
-Unten stehende Abbildung zeigt einen komplexen Workflow mit einem **[!UICONTROL Start]** und mehreren **Ende]-Aktivitäten.[!UICONTROL ** Die Option **[!UICONTROL Alle laufenden Aufgaben anhalten]** wurde beim ersten **Ende]aktiviert.[!UICONTROL ** Dies bedeutet, dass nach Abschluss dieser Aufgabe der gesamte Workflow gestoppt wird. Das gleiche Ergebnis kann mit der Schaltfläche ![](assets/stop_darkgrey-24px.png) erzielt werden (siehe den Abschnitt[Symbolleiste](../../automating/using/workflow-interface.md#action-bar)).
+Unten stehende Abbildung zeigt einen komplexen Workflow mit einem **[!UICONTROL Start]** und mehreren **Ende]-Aktivitäten.[!UICONTROL ** Die Option **[!UICONTROL Alle laufenden Aufgaben anhalten]** wurde beim ersten **Ende]aktiviert.[!UICONTROL ** Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section).
 
 ![](assets/wkf_start_end_example.png)
 
