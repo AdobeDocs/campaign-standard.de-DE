@@ -15,7 +15,7 @@ context-tags: versöhnung, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -86,7 +86,6 @@ Der Workflow besteht aus folgenden Aktivitäten:
    * Transaktionsdatum
    * E-Mail-Adresse des Kunden
    * Artikelnummer des gekauften Produkts
-
    ```
    date;client;product
    2015-05-19 09:00:00;mail1@email.com;ZZ1
