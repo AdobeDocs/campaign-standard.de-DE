@@ -15,7 +15,7 @@ context-tags: workflow, main; Workflow, Übersicht
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -26,8 +26,8 @@ Im Rahmen von Programmen und Kampagnen dienen Workflows der Automatisierung von 
 
 Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 
-* [Palette](../../automating/using/workflow-interface.md#palette) mit den verfügbaren Aktivitäten;
-* [Arbeitsbereich](../../automating/using/workflow-interface.md#workspace), in dem Aktivitäten angeordnet und konfiguriert werden;
+* [Palette](../../automating/using/workflow-interface.md#palette) mit den verfügbaren Aktivitäten;.
+* [Workspace](../../automating/using/workflow-interface.md#workspace), in dem die Aktivitäten konfiguriert und organisiert sind.
 * [Symbolleiste](../../automating/using/workflow-interface.md#action-bar) mit Schaltflächen, die die Interaktion mit dem Workflow und seinen Komponenten ermöglichen.
 * [Quick Actions](../../automating/using/workflow-interface.md#quick-actions), die um eine ausgewählte Aktivität herum angezeigt werden und den Schnellzugriff auf diverse Aktionen ermöglichen.
 
