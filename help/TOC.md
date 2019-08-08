@@ -1,14 +1,15 @@
 ---
-product: Adobe Campaign Standard
+product: adobe campaign
+sub-product: adobe campaign standard
 audience: Endbenutzer
 user-guide-title: Adobe Campaign Standard-Hilfe
 translation-type: tm+mt
-source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
+source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
 
 ---
 
 
-# Adobe Campaign Standard Help {#using}
+# Adobe Campaign Standard-Hilfe {#using}
 
 + [Produktdokumentation](campaign-standard-home.md)
 + Versionshinweise  {#release-notes}
@@ -62,7 +63,7 @@ source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identifizieren von Opt-out-Profilen bei einem Versand](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-+ Communication channels {#communication-channels}
++ Kommunikationskanäle {#communication-channels}
    + Über Kommunikationskanäle {#about-communication-channels}
       + [Kommunikationskanäle](channels/using/discovering-communication-channels.md)
       + [Die wichtigsten Schritte im Nachrichtenversand](channels/using/key-steps-to-send-a-message.md)
@@ -107,7 +108,7 @@ source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
       + [Landingpage freigeben](channels/using/sharing-a-landing-page.md)
       + [Datenspeicherung und -abstimmung](channels/using/data-storage-and-reconciliation.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
-+ Designing content {#designing-content}
++ Entwerfen von Inhalten {#designing-content}
    + Über die Inhaltserstellung {#about-content-design}
       + [Inhaltserstellung in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
       + [Best Practices bei der Inhaltserstellung](designing/using/content-design-best-practices.md)
@@ -149,7 +150,7 @@ source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
       + [Link einfügen](designing/using/inserting-a-link.md)
       + [URLs personalisieren](designing/using/personalizing-urls.md)
       + [Über getrackte URLs](designing/using/about-tracked-urls.md)
-+ Testing and Sending {#testing-and-sending}
++ Testen und Senden {#testing-and-sending}
    + [Über den Versand mit Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
       + [Vorschau der Nachricht erzeugen](sending/using/previewing-messages.md)
@@ -289,7 +290,7 @@ source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
       + [Logs exportieren](automating/using/exporting-logs.md)
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
-+ Developing {#developing}
++ Entwickeln {#developing}
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Datenmodelle](developing/using/data-model-concepts.md)
       + [Status der Ressourcen](developing/using/resource-statuses.md)
@@ -311,7 +312,7 @@ source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
    + Anwendungsbeispiele: Ressourcenerweiterung {#use-cases--extending-resources}
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)
-+ Administrating {#administrating}
++ Verwalten {#administrating}
    + [Über die Verwaltung von Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Benutzer und Sicherheit {#users-and-security}
       + [Über die Zugriffsverwaltung](administration/using/about-access-management.md)
