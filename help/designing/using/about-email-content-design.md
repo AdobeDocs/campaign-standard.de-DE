@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
+source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 
 ---
 
@@ -129,13 +129,13 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 * Bei der Bearbeitung von Stilen sind nur die Web Fonts verfügbar, die von den meisten E-Mail-Clients offiziell unterstützt werden.
 * Stile lassen sich nicht als Thema zur künftigen Wiederverwendung speichern. Doch der CSS-Stil kann in einer Inhaltsvorlage oder einer E-Mail gespeichert werden. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/editing-email-styles.md).
 
-### Email Designer updates {#email-designer-updates}
+### Updates für E-Mail-Designer {#email-designer-updates}
 
 Der E-Mail-Designer wird ständig verbessert. Wenn Sie einen E-Mail-Inhalt von Grund auf von einer vordefinierten Vorlage aus erstellt haben oder Fragmente erstellt haben, erhalten Sie beim nächsten Öffnen Ihres Inhalts möglicherweise folgende Aktualisierungsmeldung:
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe empfiehlt, Ihren Inhalt auf die neueste Version zu aktualisieren, um Probleme wie CSS-Kollision zu vermeiden. Click **[!UICONTROL Update now]**.
+Adobe empfiehlt, Ihren Inhalt auf die neueste Version zu aktualisieren, um Probleme wie CSS-Kollision zu vermeiden. Klicken Sie auf **[!UICONTROL Jetzt aktualisieren]**.
 
 Wenn beim Aktualisieren des Inhalts ein Fehler auftritt, überprüfen Sie Ihren HTML und beheben Sie ihn, bevor Sie dieses Update erneut ausführen.
 
@@ -145,9 +145,11 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Wenn Sie mehrere Fragmente haben, müssen Sie jedes Fragment aktualisieren, das Sie in einem E-Mail-Inhalt verwenden möchten.
 
-* Um Auswirkungen auf Ihre aktuellen E-Mail-Nachrichten zu vermeiden, da einige davon sich möglicherweise auf der Vorbereitung befinden oder in einer bestimmten Kampagne, in der Sie keine Änderung vornehmen möchten, können Sie sich entscheiden, einige Fragmente nicht zu aktualisieren.
+* Um Auswirkungen auf die aktuellen E-Mail-Nachrichten zu vermeiden, die noch nicht vorbereitet sind, können Sie bestimmte Fragmente nicht aktualisieren.
 
 * Sie können weiterhin E-Mails senden, bei denen ein nicht aktualisiertes Fragment bereits verwendet wird, das Fragment jedoch nicht bearbeitbar ist.
+
+* Die Aktualisierung von Fragmenten in E-Mails, die bereits vorbereitet sind, hat keine Auswirkungen auf diese E-Mails.
 
 ## Neuen E-Mail-Inhalt gestalten {#designing-an-email-content-from-scratch}
 
@@ -385,8 +387,8 @@ Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Weiterführende Informa
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Sie können eine Komponente ausblenden, wenn sie auf einem Mobilgerät angezeigt wird. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
-Sie können diese Komponente auch auf Desktopgeräten ausblenden, was bedeutet, dass sie nur auf Mobilgeräten angezeigt wird. To do this, select **[!UICONTROL Show only on mobile devices]**.
+1. Sie können eine Komponente ausblenden, wenn sie auf einem Mobilgerät angezeigt wird. Wählen Sie dazu **[!UICONTROL die Option Nur auf Desktopgeräten]** anzeigen aus den **[!UICONTROL Anzeigeoptionen]**.
+Sie können diese Komponente auch auf Desktopgeräten ausblenden, was bedeutet, dass sie nur auf Mobilgeräten angezeigt wird. Wählen Sie dazu **[!UICONTROL nur auf Mobilgeräten anzeigen]**.
 Mit dieser Option können Sie beispielsweise ein bestimmtes Bild auf Mobilgeräten und ein anderes Bild auf Desktopgeräten anzeigen.
 Sie können diese Option entweder über die Mobil- oder Desktop-Ansicht festlegen.
 
@@ -551,30 +553,30 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
   <tr> 
    <td> <strong>Vorteile</strong><br /> </td> 
    <td> 
-     - Easy email building through drag-and-drop experience<br/>
-     - Functionalities similar to legacy content editor<br/>
-     - Reusable content with fragments
+     - Einfache E-Email-Erstellung durch Drag &amp; Drop-Erlebnis<br/>
+ - Funktionen ähneln Ähnlichem Content Editor<br/>
+ - wiederverwendbarer Inhalt mit Fragmenten
   </td> 
    <td> 
-     - Reusing assets from website in emails<br/>
-     - Leveraging the power of Experience Manager in email contents
+     - Wiederverwenden von Assets aus der Website in E-Emails<br/>
+ - Nutzen der Power von Experience Manager in E-Email-Inhalten
     </td> 
    <td> 
-    - Capability for a developer to directly code an email<br/>
-    - Bi-directional synchronization<br/>
-    - Editing offline in Dreamweaver and synchronizing later<br/>
-    - Uploading images to Adobe Campaign through Dreamweaver
+    - Fähigkeit eines Entwicklers, eine E-Email<br/>
+ direkt zu kodieren - bidirektionale Synchronisierung<br/>
+ - Offline in Dreamweaver bearbeiten und später
+ synchronisieren<br/>- Bilder in Adobe Campaign über Dreamweaver hochladen
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Einschränkungen</strong><br /> </td> 
    <td> 
-     - No conditional content within fragments<br/>
-     - Using Experience Manager fragments not possible
+     - Kein bedingter Inhalt in Fragmenten<br/>
+ - Verwenden von Experience Manager-Fragmenten nicht möglich
   </td> 
    <td> 
-     - Advanced personalization difficult to implement<br/>
-     - Need to send tests in Adobe Campaign
+     - Erweiterte Personalisierung schwer implementiert<br/>
+ - Tests müssen in Adobe Campaign gesendet werden
   </td> 
    <td> Dynamische Inhalte nicht unterstützt<br /> </td> 
   </tr> 
