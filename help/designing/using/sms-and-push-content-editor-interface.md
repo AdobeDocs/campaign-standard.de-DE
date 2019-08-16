@@ -3,18 +3,18 @@ title: Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigung
 seo-title: Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen
 description: Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen
 seo-description: Hier erhalten Sie Informationen zur Verwendung der verschiedenen Bereiche des Editors bei der Bearbeitung des Inhalts Ihrer SMS-Nachrichten und Push-Benachrichtigungen.
-page-status-flag: nie aktiviert
-uuid: 4 af 5 d 247-555 b -45 c 5-95 a 7-cb 27 f 356 b 5 a 0
+page-status-flag: never-activated
+uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: editing-sms-and-push-content
-discoiquuid: 4 e 214 eb 9-d 299-4095-b 786-8 d 1 de 9 b 1 c 8 a 2
-context-tags: Bereitstellung, smscontent, zurück
+discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
+context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c880b265cf83cb76b2cdbe3cbdd77182adb71bb1
 
 ---
@@ -27,7 +27,7 @@ Der Inhaltseditor für SMS und Push-Benachrichtigungen besteht aus zwei Bereiche
 1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Hier haben Sie die Möglichkeit, Personalisierungsfelder einzufügen, bedingte Texte hinzuzufügen und SMS-Inhalt in der Vorschau anzusehen. Siehe auch den Abschnitt [Symbolleiste des Inhaltseditors für SMS und Push-Benachrichtigungen](../../designing/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar).
 1. Im **Arbeitsbereich** des Bildschirms können Sie Text direkt eingeben und auswählen, wo eine Personalisierung eingefügt werden soll. Siehe auch den Abschnitt [Bearbeitungsmodi von Inhalten von SMS und Push-Benachrichtigungen](../../designing/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes).
 
-## Symbolleiste des Inhaltseditors für SMS und Push-Benachrichtigungen {#sms-and-push-content-editor-action-bar}
+## Symbolleiste des Inhaltseditors für SMS und Push-Benachrichtigungen  {#sms-and-push-content-editor-action-bar}
 
 Die Symbolleiste enthält Schaltflächen, die die Bearbeitung des angezeigten Inhalts ermöglichen.
 
