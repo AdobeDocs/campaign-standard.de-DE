@@ -3,18 +3,18 @@ title: Bounces
 seo-title: Bounces
 description: Bounces
 seo-description: Über die Bounces im vordefinierten Bericht erhalten Sie Informationen zum Status Ihrer versendeten Kampagnen und über etwaige Versandfehler.
-page-status-flag: nie aktiviert
-uuid: 90087311-4236-4 df 9-ae 7 d -4 a 15 c 00 c 70 ab
+page-status-flag: never-activated
+uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 5 ae 561 b 4-03 cf -4541-87 ff -47 f 1027 d 53 b 8
-context-tags: Bouncereport, main; Campaigncirculationreport, main; Programcirculationreport, main
+discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
+context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
