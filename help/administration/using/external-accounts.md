@@ -3,18 +3,18 @@ title: Externe Konten
 seo-title: Externe Konten
 description: Externe Konten
 seo-description: Konfigurieren Sie externe Konten, um Verbindungen mit externen Systemen wie SFTP-Servern herzustellen.
-page-status-flag: nie aktiviert
-uuid: 5 d 2 e 2 e 3 d -5 d 1 f -4466-97 e 5-842 c 50390146
+page-status-flag: never-activated
+uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: application-settings
-discoiquuid: d 5 c 6 a 3 d 4-f 767-46 c 1-a 8 c 0-3 b 9 dc 52 dcea 8
+discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
-context-tags: Extaccount, main; Extaccount, overview
-translation-type: tm+mt
+context-tags: extAccount,main;extAccount,overview
+translation-type: ht
 source-git-commit: 0fcedd464ae2074e7eda793bbf20cc53ce04f324
 
 ---
@@ -38,7 +38,7 @@ Die folgenden externen Konten können eingerichtet werden:
 >
 >Adobe verwendet auch andere Typen von externen Konten während des Produktbereitstellungsprozesses. Ab Campaign Standard 17.9 können externe FTP-Konten zwar definiert, aber nicht mehr in neuen Workflow-Aktivitäten verwendet werden. Wenn Sie bereits eine Verbindung eingerichtet hatten, ist sie nach wie vor aktiviert.
 
-Externe Konten können von Administratoren im Menü **[!UICONTROL Administration &gt; Anwendungskonfiguration &gt; Externe Konten]konfiguriert werden.**
+Externe Konten können von Administratoren im Menü **[!UICONTROL Administration &gt; Anwendungskonfiguration &gt; Externe Konten]** konfiguriert werden.
 
 ## Externes Konto erstellen {#creating-an-external-account}
 
@@ -46,7 +46,7 @@ Adobe Campaign enthält eine Reihe vordefinierter externer Konten. Sie können a
 
 Externe Konten werden von technischen Prozessen, wie technischen Workflows oder Kampagnen-Workflows, verwendet. Bei der Einrichtung eines Dateitransfers in einem Workflow oder bei einem Datenaustausch mit einer anderen Anwendung (Adobe Target, Experience Manager etc.) müssen Sie ein externes Konto auswählen.
 
-1. Wählen Sie die **[!UICONTROL Erstellen]-Schaltfläche aus.**
+1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
 1. Geben Sie einen Titel ein. Der Titel und die Kennung werden verwendet, wenn Sie in Workflows externe Konten auswählen möchten.
 1. Wählen Sie den Kontotyp aus, den Sie erstellen möchten.
 1. Konfigurieren Sie den Zugriff auf das Konto, indem Sie die Zugangsdaten, die Server-Adresse, die Port-Nummer und/oder gegebenenfalls die Schlüssel spezifizieren.
@@ -57,7 +57,7 @@ Externe Konten werden von technischen Prozessen, wie technischen Workflows oder 
 
 Das externe Konto wurde erstellt und ist nun in der Liste der Konten sichtbar. Es steht jetzt für Ihre Daten-/Dateitransfers oder Routing-Konfigurationen in Workflow-Aktivitäten und Versandeigenschaften bereit.
 
-## Externes SFTP-Konto {#sftp-external-account}
+## Externes SFTP-Konto  {#sftp-external-account}
 
 Unterschiedliche Typen externer Konten erfordern die Angabe unterschiedlicher Informationen.
 
@@ -67,7 +67,7 @@ Geben Sie für ein externes SFTP-Konto die folgenden Details an:
 * Port-Nummer, z. B. **22**
 * SFTP-Server-Zugangsdaten: Kontoname und Passwort, die zur Verbindung mit dem Server verwendet werden
 
-### Empfehlungen für von Adobe gehostete SFTP-Server {#adobe-hosted-sftp-server-recommendations}
+### Empfehlungen für von Adobe gehostete SFTP-Server  {#adobe-hosted-sftp-server-recommendations}
 
 Wenn Dateien und Daten für ETL-Zwecke verwaltet werden, werden diese Dateien auf einem von Adobe bereitgestellten gehosteten SFTP-Server gespeichert. Dieser SFTP-Server ist ein vorübergehender Speicherplatz, auf dem Sie die Aufbewahrung und Löschung von Dateien selbst kontrollieren können.
 
@@ -86,12 +86,12 @@ Um solche Probleme zu vermeiden, empfiehlt Adobe, die unten stehenden Best Pract
 
 Beachten Sie außerdem, dass die öffentlichen IPs, mit denen Sie die SFTP-Verbindung aufbauen, in der Campaign-Instanz auf der Whitelist stehen müssen. Wenn Sie IP-Adressen auf eine Whitelist setzen lassen möchten, senden Sie ein [Support-Ticket](https://support.neolane.net) und stellen Sie den öffentlichen Schlüssel zur Authentifizierung bereit.
 
-SFTP-Server können über die Systemsteuerung verwaltet werden. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
+SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://helpx.adobe.com/de/campaign/kb/control-panel-sftp.html).
 
 >[!NOTE]
 >
->Die Systemsteuerung ist nur für Administratoren verfügbar, die auf AWS gehostet werden.
-Check if your instance is hosted on AWS [here](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID).
+>Das Control Panel ist nur für Admin-Benutzer von Kunden verfügbar, die auf AWS gehostet werden.
+Überprüfen Sie [hier](https://helpx.adobe.com/de/campaign/kb/control-panel-faq.html#IMSOrgID), ob Ihre Instanz auf AWS gehostet wird.
 
 ## Externes Amazon-S3-Konto {#amazon-s3-external-account}
 
@@ -101,21 +101,21 @@ Das Amazon-S3-Server-Feld sollte folgendermaßen ausgefüllt werden:
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-Um Ihre Datei in S3 im verschlüsselten Modus zu speichern, aktivieren Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen].**
+Um Ihre Datei in S3 im verschlüsselten Modus zu speichern, aktivieren Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen]**.
 
 ![](assets/external_accounts_2.png)
 
 Die nötigen Informationen werden normalerweise vom Anbieter des Servers bereitgestellt, mit dem Sie eine Verbindung herstellen möchten.
 
-Spezifizieren Sie die mit Ihrem Endpunkt verknüpfte **[!UICONTROL AWS-Region].** Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) .
+Spezifizieren Sie die mit Ihrem Endpunkt verknüpfte **[!UICONTROL AWS-Region]**. Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
 
 ### Empfehlungen für das Amazon-S3-Konto {#amazon-s3-account-recommendations}
 
 Wir empfehlen zum Einrichten des Amazon-S3-Kontos folgende Vorgehensweise:
 
 * Erstellen Sie eine restriktive Bucket-Richtlinie, um den Zugriff auf S3-Buckets zu beschränken. Die Bucket-Richtlinie kann während der Erstellung eines Buckets konfiguriert werden. Weiterführende Informationen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* Aktivieren Sie bei der Erstellung eines externen Kontos die Verschlüsselung bei der Speicherung sensibler Daten im S3-Bucket, indem Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen]aktivieren.**
-* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
+* Aktivieren Sie bei der Erstellung eines externen Kontos die Verschlüsselung bei der Speicherung sensibler Daten im S3-Bucket, indem Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen]** aktivieren.
+* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](.http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
 
 ## Externes Adobe-Experience-Manager-Konto {#adobe-experience-manager-external-account}
 
@@ -128,7 +128,7 @@ Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informa
 * Server: Geben Sie die URL des Adobe-Experience-Manager-Servers an. z. B. **http://aem.domain.com:4502**.
 * Zugangsdaten zum AEM-Konto: Verwenden Sie das Konto, über das auf die Adobe-Experience-Manager-Instanz zugegriffen wird. Es sollte ein Konto sein, das Teil der campaign-remote-Gruppe in Adobe Experience Manager ist.
 
-## Externes Google-reCAPTCHA-Konto {#google-recaptcha-external-account}
+## Externes Google-reCAPTCHA-Konto  {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
@@ -140,12 +140,12 @@ Damit Sie Google reCAPTCHA V3 zu Ihrer Landingpage hinzufügen können, müssen 
 
 Geben Sie für ein externes Google-reCAPTCHA-V3-Konto die folgenden Details an:
 
-* Einen **[!UICONTROL Titel]** und eine **ID]für Ihr externes Konto[!UICONTROL **
+* Einen **[!UICONTROL Titel]** und eine **[!UICONTROL ID]** für Ihr externes Konto
 * **[!UICONTROL Typ]**: Google reCAPTCHA
 * Ihren **[!UICONTROL Site-Schlüssel]** und Ihr **[!UICONTROL Site-Geheimnis]**
-* Einen **[!UICONTROL Schwellenwert]zwischen 0 und 1**
+* Einen **[!UICONTROL Schwellenwert]** zwischen 0 und 1
 
-   Der **[!UICONTROL Schwellenwert]0,0 bedeutet, dass es sich wahrscheinlich um einen Bot handelt, 1,0 dagegen weist auf eine menschliche Interaktion hin.** Verwenden Sie den Standard-Schwellenwert von 0,5.
+   Der **[!UICONTROL Schwellenwert]** 0,0 bedeutet, dass es sich wahrscheinlich um einen Bot handelt, 1,0 dagegen weist auf eine menschliche Interaktion hin. Verwenden Sie den Standard-Schwellenwert von 0,5.
 
 ![](assets/external_accounts_3.png)
 
