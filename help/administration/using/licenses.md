@@ -3,17 +3,17 @@ title: Lizenzen
 seo-title: Lizenzen
 description: Lizenzen
 seo-description: Hier erfahren Sie Wissenswertes zu auf Ihrer Instanz installierten Lizenzen.
-page-status-flag: nie aktiviert
-uuid: fea 2 ea 2 b-e-e 36-4 fe 4-9 db 2-7 ba 25 ec 8 fb 3 b
+page-status-flag: never-activated
+uuid: fea2ea2b-e036-4fe4-9db2-7ba25ec8fb3b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: users-and-security
-discoiquuid: b 0056 f 83-610 e -4 fdc -95 cd-bb 5 ed 9 f 5 c 483
+discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ---
@@ -21,17 +21,17 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 # Lizenzen{#licenses}
 
-Im Fenster **[!UICONTROL Lizenzen]finden Sie die auf Ihrer Instanz installierten Lizenzen sowie entsprechende Details, wie z. B. die Build-Nummer und die Versionsnummer sowie Informationen darüber, ob die Vereinbarung akzeptiert wurde und durch wen.**
+Im Fenster **[!UICONTROL Lizenzen]** finden Sie die auf Ihrer Instanz installierten Lizenzen sowie entsprechende Details, wie z. B. die Build-Nummer und die Versionsnummer sowie Informationen darüber, ob die Vereinbarung akzeptiert wurde und durch wen.
 
 ![](assets/license_1.png)
 
 Mit der Veröffentlichung eines neuen Builds oder einer neuen Funktion kann sich die Lizenzvereinbarung ändern. Diese muss dann von einem funktionalen Administrator der Instanz akzeptiert werden.
 
-Wenn sich ein Standardbenutzer einloggt, erscheint das folgende Fenster. Vonseiten des Standardbenutzers ist keine Aktion erforderlich. Standardbenutzer können Adobe Campaign weiterhin verwenden, indem sie die Schaltfläche **[!UICONTROL OK]auswählen.**
+Wenn sich ein Standardbenutzer einloggt, erscheint das folgende Fenster. Vonseiten des Standardbenutzers ist keine Aktion erforderlich. Standardbenutzer können Adobe Campaign weiterhin verwenden, indem sie die Schaltfläche **[!UICONTROL OK]** auswählen.
 
 ![](assets/license_2.png)
 
-An administrator has to read and confirm the new terms of agreement in the following 30 days of the build installation by checking **[!UICONTROL I accept the terms from the license agreement]** and clicking **[!UICONTROL Confirm]**.
+Ein Administrator muss die neue Vereinbarung innerhalb von 30 Tagen ab der Build-Installation lesen und bestätigen, indem er die Option **[!UICONTROL Ich akzeptiere die Bestimmungen der Lizenzvereinbarung]** aktiviert und **[!UICONTROL Bestätigen]** auswählt.
 
 ![](assets/license_3.png)
 
