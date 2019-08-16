@@ -3,17 +3,17 @@ title: Benutzeroberfläche für die Berichterstellung
 seo-title: Benutzeroberfläche für die Berichterstellung
 description: Benutzeroberfläche für die Berichterstellung
 seo-description: Hier erhalten Sie Informationen zur Benutzeroberfläche von dynamischen Berichten und zur Navigation durch die verschiedenen Tabs und Menüs.
-page-status-flag: nie aktiviert
-uuid: da 6 bcf 7 a -1 d 77-4 d 00-a 3 ba-d 84214592417
+page-status-flag: never-activated
+uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
-discoiquuid: 14 d 86 b 4 f -2782-48 ec -8968-393 a 6 de 4 f 853
+discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
 ---
@@ -50,7 +50,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 
-## Tabs {#tabs}
+## Tabs  {#tabs}
 
 In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
@@ -74,7 +74,7 @@ Die Symbolleiste befindet sich über Ihrem Arbeitsbereich. Sie besteht aus versc
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 
-### Projekt-Tab {#project-tab}
+### Projekt-Tab  {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -95,7 +95,7 @@ Im Tab **Bearbeiten** haben Sie folgende Möglichkeiten:
 * **Rückgängig**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
 * **Alle löschen**: Löscht alle Bedienfelder in Ihrem Dashboard.
 
-### Einfügen-Tab {#insert-tab}
+### Einfügen-Tab  {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -106,44 +106,44 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * **Neue Zeile**: Fügt ein neues Liniendiagramm zu Ihrem Dashboard hinzu.
 * **Neuer Balken**: Fügt ein neues Balkendiagramm zu Ihrem Dashboard hinzu.
 
-### Freigabe-Tab {#share-tab}
+### Freigabe-Tab  {#share-tab}
 
 ![](assets/tab_share_1.png)
 
-Im Tab **[!UICONTROL Freigabe]können Sie Adobe-Campaign-Benutzern Berichte mit einmaligen oder wiederkehrenden E-Mails senden.** Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang.
+Im Tab **[!UICONTROL Freigabe]** können Sie Adobe-Campaign-Benutzern Berichte mit einmaligen oder wiederkehrenden E-Mails senden. Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang.
 
 * **[!UICONTROL Bericht jetzt senden]**: Senden Sie Ihren Bericht an eine Liste ausgewählter Empfänger mit einer einmaligen E-Mail.
 
-   1. Bei Bedarf können Sie im Fenster **[!UICONTROL Bericht senden]eine Beschreibung hinzufügen.**
+   1. Bei Bedarf können Sie im Fenster **[!UICONTROL Bericht senden]** eine Beschreibung hinzufügen.
 
       ![](assets/tab_share_4.png)
 
    1. Die Definition der jeweiligen Empfänger Ihrer E-Mail erfolgt über das entsprechende Feld durch die Auswahl aus der Dropdown-Liste oder die Eingabe der jeweiligen E-Mail-Adressen.
-   1. Aktivieren Sie **[!UICONTROL Planungsoptionen anzeigen], wenn Sie wiederkehrende E-Mails senden möchten.** Dies ist auch durch die Auswahl von **[!UICONTROL Bericht senden]** im Tab **Freigabe]möglich.[!UICONTROL **
+   1. Aktivieren Sie **[!UICONTROL Planungsoptionen anzeigen]**, wenn Sie wiederkehrende E-Mails senden möchten. Dies ist auch durch die Auswahl von **[!UICONTROL Bericht senden]** im Tab **[!UICONTROL Freigabe]** möglich.
    1. Klicken Sie auf **[!UICONTROL Jetzt senden]**. Ihre Empfänger erhalten dann eine E-Mail mit Ihrem Bericht im Anhang.
 
 * **[!UICONTROL Bericht senden]**: Terminieren Sie Ihren Bericht und senden Sie wiederkehrende E-Mails an Empfänger.
 
-   1. Bei Bedarf können Sie im Fenster **[!UICONTROL Bericht senden]eine Beschreibung hinzufügen.**
+   1. Bei Bedarf können Sie im Fenster **[!UICONTROL Bericht senden]** eine Beschreibung hinzufügen.
    1. Die Definition der jeweiligen Empfänger Ihrer E-Mail erfolgt über das entsprechende Feld durch die Auswahl aus der Dropdown-Liste oder die Eingabe der jeweiligen E-Mail-Adressen.
 
       ![](assets/tab_share_5.png)
 
-   1. Durch die Auswahl des Start- und Enddatums in den Feldern **[!UICONTROL Start am]** und **Endet am]konfigurieren Sie die Gültigkeit Ihrer E-Mail.[!UICONTROL **
+   1. Durch die Auswahl des Start- und Enddatums in den Feldern **[!UICONTROL Start am]** und **[!UICONTROL Endet am]** konfigurieren Sie die Gültigkeit Ihrer E-Mail.
    1. Wählen Sie außerdem die Sendehäufigkeit der E-Mail.
 
       ![](assets/tab_share_2.png)
 
-   1. Click **[!UICONTROL Send on schedule]**, your recipients will receive your recurring email depending on the chosen frequency.
+   1. Wählen Sie **[!UICONTROL Planmäßig senden]** aus. Die Empfänger erhalten die wiederkehrende E-Mail entsprechend der ausgewählten Häufigkeit.
 
 * **[!UICONTROL Terminierte Berichte]**: Suchen und konfigurieren Sie alle Ihre terminierten Berichte.
 
-   1. Im Fenster **[!UICONTROL Terminierte Berichte]finden Sie alle Berichte, die mit wiederkehrenden E-Mails gesendet werden.**
+   1. Im Fenster **[!UICONTROL Terminierte Berichte]** finden Sie alle Berichte, die mit wiederkehrenden E-Mails gesendet werden.
 
       ![](assets/tab_share_3.png)
 
    1. Wenn Sie einen terminierten Bericht löschen möchten, wählen Sie den jeweiligen Bericht und danach **[!UICONTROL Auswahl löschen aus]**.
    1. Um terminierte Berichte zu konfigurieren oder zu überprüfen, klicken Sie direkt auf den Bericht, den Sie ändern möchten.
-   1. Das Fenster **[!UICONTROL Terminierten Bericht bearbeiten]wird geöffnet, wo Sie die Empfänger oder die Häufigkeit Ihrer E-Mail-Sendungen nach Bedarf ändern können.**
+   1. Das Fenster **[!UICONTROL Terminierten Bericht bearbeiten]** wird geöffnet, wo Sie die Empfänger oder die Häufigkeit Ihrer E-Mail-Sendungen nach Bedarf ändern können.
 
 Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang direkt in ihrer Inbox. Wenn Benutzer keine wiederkehrenden E-Mails mehr erhalten möchten, können Sie einen in jeder wiederkehrenden E-Mail verfügbaren Abmelde-Link verwenden.
