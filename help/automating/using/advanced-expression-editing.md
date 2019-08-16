@@ -3,18 +3,18 @@ title: Ausdrucksbearbeitung
 seo-title: Ausdrucksbearbeitung
 description: Ausdrucksbearbeitung
 seo-description: Mit dem Abfrageeditor-Assistenten können Sie erweiterte Ausdrücke definieren.
-page-status-flag: nie aktiviert
-uuid: a 635 f 999-27 ce -41 e 0-a 88 c -8 a 3882 e 31 efe
+page-status-flag: never-activated
+uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: filtering-data
-discoiquuid: 4375153 c -0621-4 d 4 c-bfcc -66 d 157 f 04 f 6 c
-context-tags: Queryfilter, overview; Zielgruppe, Hauptgruppe
+discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
+context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ---
@@ -32,14 +32,14 @@ Es ist auch möglich, bei der Bearbeitung von Ausdrücken Ereignisvariablen zu v
 
 Die Ausdrucksbearbeitung findet in folgenden Fällen Verwendung:
 
-* bei der Erstellung von Abfragen mithilfe der beim Hinzufügen einer Regel verfügbaren Option **[!UICONTROL Erweiterter Modus];**
+* bei der Erstellung von Abfragen mithilfe der beim Hinzufügen einer Regel verfügbaren Option **[!UICONTROL Erweiterter Modus]**;
 
    ![](assets/expression_editor_2.png)
 
 * beim Bearbeiten eines Ausdrucks in einem Workflow; beispielsweise beim Hinzufügen von Zusatzdaten in eine Aktivität;
 * bei der Erstellung einer Sichtbarkeitsbedingung im HTML-Content-Editor. In diesem Fall handelt es sich um JavaScript-Ausdrücke. Die Verwendung der klassischen fortgeschrittenen Funktionen ist hier nicht möglich.
 
-## Ausdruck bearbeiten {#edit-an-expression}
+## Ausdruck bearbeiten  {#edit-an-expression}
 
 Durch die Bearbeitung erweiterter Ausdrücke können Sie manuell Ausdrücke definieren, die Ihren spezifischen Bedürfnissen entsprechen.
 
@@ -67,7 +67,7 @@ Durch die Bearbeitung eines Ausdrucks können Sie den Audiences-Ausdruck persona
 * [Syntax von Ausdrücken](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 
-## Syntax von Ausdrücken {#expression-syntax}
+## Syntax von Ausdrücken  {#expression-syntax}
 
 ### Standardsyntax {#standard-syntax}
 
@@ -95,7 +95,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 In diesem Beispiel werden die Profile ausgegeben, bei denen das Erstellungsdatum mit dem aktuellen Jahr und Monat übereinstimmt.
 
-### JavaScript-Syntax {#javascript-syntax}
+### JavaScript-Syntax  {#javascript-syntax}
 
 Bei der Definition von Sichtbarkeitsbedingungen in einem Textblock des HTML-Inhaltseditiors sind Ausdrücke mit JavaScript-Syntax zu verwenden.
 
@@ -111,7 +111,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
-   * **[!UICONTROL &amp; &amp;]**: Zwei Bedingungen sind verschneidet.
+   * **[!UICONTROL &amp;&amp;]**: erstellt die Schnittmenge aus zwei Bedingungen;
    * **[!UICONTROL ||]**: vereinigt die aus zwei Bedingungen resultierenden Elemente.
 
 Beispiel:
@@ -122,7 +122,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 In diesem Beispiel werden die Profile ausgegeben, die über 21 Jahre alt sind und deren Vorname angegeben ist (das Feld **firstName** enthält mindestens ein Zeichen).
 
-## Vergleichsoperatoren {#comparison-operators}
+## Vergleichsoperatoren  {#comparison-operators}
 
 Bei manchen Regeln können Sie über den Abfrageeditor einen Wert auswählen.
 
