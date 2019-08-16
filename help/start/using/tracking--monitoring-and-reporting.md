@@ -3,17 +3,17 @@ title: Tracking, Monitoring und Reporting
 seo-title: Tracking, Monitoring und Reporting
 description: Tracking, Monitoring und Reporting
 seo-description: Hier erhalten Sie Informationen darüber, wie Sie Nachrichten verfolgen und das Verhalten Ihrer Kunden verstehen können, indem Sie deren Profile mit Daten anreichern. Durch die Verwendung der Reporting- und Analyse-Tools in Adobe Campaign können Sie jede neue Kampagne optimal nutzen.
-page-status-flag: nie aktiviert
-uuid: 09592947-e 65 f -4 be 4-b 39 f -1 e 0 c 9 f 6 d 014 b
+page-status-flag: never-activated
+uuid: 09592947-e65f-4be4-b39f-1e0c9f6d014b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: fc 9 b 08 e 8-74 e 5-45 f 6-b 484-90 f 6 b 3161030
+discoiquuid: fc9b08e8-74e5-45f6-b484-90f6b3161030
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
