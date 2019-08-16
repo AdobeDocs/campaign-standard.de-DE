@@ -3,17 +3,17 @@ title: Über die Integration von Campaign mit Audience Manager oder People Core 
 seo-title: Über die Integration von Campaign mit Audience Manager oder People Core Service
 description: Über die Integration von Campaign mit Audience Manager oder People Core Service
 seo-description: Durch die Integration von Audience Manager/People Core Service können Sie in den unterschiedlichen Adobe Experience Cloud-Lösungen Audiences oder Segmente freigeben.
-page-status-flag: nie aktiviert
-uuid: 39 e 3 c 78 e-cccd -4823-afe 9-abc 7 f 8 aef 034
+page-status-flag: never-activated
+uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird integriert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: bf 718329-f 181-46 f 7-80 a 2-b 525 a 8 dee 46 d
+discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,8 +23,8 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 Adobe Campaign erlaubt die lösungsübergreifende Nutzung von Audiences/Segmenten in Adobe Experience Cloud. Konkret bietet die Integration von **Adobe Campaign** und **People Core Service** (auch **Profiles &amp; Audiences Core Service** genannt) oder Adobe Audience Manager folgende Möglichkeiten:
 
-* Import von Zielgruppen/Segmenten aus den verschiedenen Adobe Experience Cloud-Lösungen in Adobe Campaign. Der Import von Zielgruppen erfolgt in Adobe Campaign ausgehend vom Menü **[!UICONTROL Audiences].**
-* Export von Audiences als freigegebene Zielgruppen/Segmente. Diese Zielgruppen können dann in den anderen von Ihnen verwendeten Adobe Experience Cloud-Lösungen genutzt werden. Der Export von Audiences erfolgt innerhalb eines Workflows mithilfe der Aktivität **[!UICONTROL Audience-Speicherung], welche sich an eine Zielgruppenbestimmung anschließt.**
+* Import von Zielgruppen/Segmenten aus den verschiedenen Adobe Experience Cloud-Lösungen in Adobe Campaign. Der Import von Zielgruppen erfolgt in Adobe Campaign ausgehend vom Menü **[!UICONTROL Audiences]**.
+* Export von Audiences als freigegebene Zielgruppen/Segmente. Diese Zielgruppen können dann in den anderen von Ihnen verwendeten Adobe Experience Cloud-Lösungen genutzt werden. Der Export von Audiences erfolgt innerhalb eines Workflows mithilfe der Aktivität **[!UICONTROL Audience-Speicherung]**, welche sich an eine Zielgruppenbestimmung anschließt.
 
 Die Integration unterstützt zwei Typen von Adobe Experience Cloud-Kennungen:
 
