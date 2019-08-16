@@ -3,17 +3,17 @@ title: Anmeldungen verfolgen
 seo-title: Anmeldungen verfolgen
 description: Anmeldungen verfolgen
 seo-description: Hier erfahren Sie, wie Sie Ihre Abonnenten tracken und den Erfolg Ihrer Dienste mithilfe von Dashboards und Berichten messen.
-page-status-flag: nie aktiviert
-uuid: b 0 d 8 eb 80-fa 51-4518-a 5 e 6-56 de 4046 f 6 ff
+page-status-flag: never-activated
+uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Zielgruppen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 36750524-eb 54-47 e 8-aa 1 b-ae 0 b 94 f 58 cb 1
+discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -30,7 +30,7 @@ Zur Verfolgung des An- und Abmeldeverhaltens bieten sich Ihnen verschiedene Opti
 * Öffnen Sie einen Bericht zur An- und Abmeldeentwicklung im Bereich **Bericht** des Dienstes. Siehe [Dienst- Berichte](../../audiences/using/monitoring-subscriptions.md#service-reports).
 * Öffnen Sie im Bereich **Profil** die Liste der Dienste, für die sich eine Person angemeldet hat. Siehe [Ereignisverlauf eines Profils](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
 
-## Dienst-Dashboard {#service-dashboard}
+## Dienst-Dashboard  {#service-dashboard}
 
 Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Dienst angemeldet sind:
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Di
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Abonnementverläufe {#subscription-history}
+## Abonnementverläufe  {#subscription-history}
 
 Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Dienst- Berichte {#service-reports}
+## Dienst- Berichte  {#service-reports}
 
 Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeigen:
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeige
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Ereignisverlauf eines Profils {#history-of-events-linked-to-a-profile}
+## Ereignisverlauf eines Profils  {#history-of-events-linked-to-a-profile}
 
 Um festzustellen, für welche Dienste sich ein Kontakt angemeldet hat, können Sie die Liste im Marketingverlauf des entsprechenden Profils zu Rate ziehen. Näheres hierzu finden Sie im Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md).
 
