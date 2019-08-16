@@ -3,17 +3,17 @@ title: Struktur und Stil von Landingpages verwalten
 seo-title: Struktur und Stil von Landingpages verwalten
 description: Struktur und Stil von Landingpages verwalten
 seo-description: Hier erfahren Sie, wie Sie die unterschiedlichen Elemente des HTML-Inhalts und den Stil einer Landingpage verwalten.
-page-status-flag: nie aktiviert
-uuid: 4 f 74097 e -3 d 62-461 f-b 0 d 3-402 be 20 f 6 ad 2
+page-status-flag: never-activated
+uuid: 4f74097e-3d62-461f-b0d3-402be20f6ad2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: editing-landing-page-content
-discoiquuid: 18041 bc 7-e 1 d 0-416 e -9 bae -1 a 18 ff 949 fa 9
+discoiquuid: 18041bc7-e1d0-416e-9bae-1a18ff949fa9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ## Bausteine im Inhaltseditor verwalten {#managing-blocks-in-the-content-editor}
 
-The different HTML content elements are displayed in the landing page as blocks, corresponding to the **&lt;div&gt;** **&lt;/div&gt;** tag.
+Die verschiedenen Elemente des HTML-Inhalts werden auf der Landingpage in Form von Blöcken angezeigt, welche in HTML dem **&lt;div&gt;** **&lt;/div&gt;**-Tag entsprechen.
 
 Zur Bearbeitung eines Blocks ist dieser zu markieren. Dies wird durch eine blaue Umrandung angezeigt.
 
@@ -45,7 +45,7 @@ Die für ein Blockelement (Link, Personalisierungsfeld, Inhaltsbaustein etc.) de
 
 ![](assets/des_lp_content_4.png)
 
-## Rahmen und Hintergrund im Inhaltseditor hinzufügen {#adding-a-border-and-a-background-in-the-content-editor}
+## Rahmen und Hintergrund im Inhaltseditor hinzufügen  {#adding-a-border-and-a-background-in-the-content-editor}
 
 Es besteht die Möglichkeit, verschiedene **Hintergrundfarben** aus der Farbpalette für die einzelnen Blöcke auszuwählen. Die Farbe wird jeweils auf den gesamten Block angewendet.
 
@@ -55,7 +55,7 @@ Außerdem können die einzelnen Blöcke mit verschiedenen **Rahmen** versehen we
 
 ![](assets/des_lp_content_6.png)
 
-## Textstil im Inhaltseditor ändern {#changing-the-text-style-in-the-content-editor}
+## Textstil im Inhaltseditor ändern  {#changing-the-text-style-in-the-content-editor}
 
 Um einen Textstil zu ändern, muss sich der Cursor innerhalb eines Textblocks befinden.
 
