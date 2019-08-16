@@ -3,18 +3,18 @@ title: In-App-Nachricht anpassen
 seo-title: In-App-Nachricht anpassen
 description: In-App-Nachricht anpassen
 seo-description: Hier erfahren Sie, wie Sie Ihre In-App-Nachrichten mithilfe verschiedener Optionen anpassen können.
-page-status-flag: nie aktiviert
-uuid: 1 d 9 c 08 ed -4 de 5-440 d-bf 51-4 a 437 eec 67 d 5
+page-status-flag: never-activated
+uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
-topic-tags: In-App-Nachrichten
-discoiquuid: c 9 c 3 e 033-e 319-447 b -8 d 87-ff 7 dd 4941876
-context-tags: Bereitstellung, inappcontent, zurück
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
+discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
+context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 ---
@@ -40,7 +40,7 @@ In Adobe Campaign stehen Ihnen zur Anpassung von In-App-Nachrichten bei deren Er
 
 ### Layout {#layout}
 
-In der Dropdown-Liste **[!UICONTROL Layout]können Sie je nach Anforderungen aus vier Optionen wählen:**
+In der Dropdown-Liste **[!UICONTROL Layout]** können Sie je nach Anforderungen aus vier Optionen wählen:
 
 * **[!UICONTROL Ganze Seite]**: Mit dieser Einstellung ist der gesamte Bildschirm ausgefüllt.
 
@@ -62,24 +62,24 @@ In der Dropdown-Liste **[!UICONTROL Layout]können Sie je nach Anforderungen aus
 
    Sie unterstützt nur Ton, Text und Ziel. Weiterführende Informationen zur lokalen Benachrichtigung finden Sie in [Nachricht vom Typ "Lokale Benachrichtigung" anpassen](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
 
-Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors auf verschiedenen Geräten, wie Smartphones und Tablets, unterschiedlichen Plattformen, z. B. Android oder iOS, und in unterschiedlichen Ausrichtungen, wie Hoch- oder Querformat, angesehen werden. 
+Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors auf verschiedenen Geräten, wie Smartphones und Tablets, unterschiedlichen Plattformen, z. B. Android oder iOS, und in unterschiedlichen Ausrichtungen, wie Hoch- oder Querformat, angesehen werden.
 
 ![](assets/inapp_customize_4.png)
 
-### Medien {#media}
+### Medien  {#media}
 
-Über die Dropdown-Liste **[!UICONTROL Medien]können Sie Medien zu Ihrer In-App-Nachricht hinzufügen, um das Erlebnis für den Endnutzer attraktiv zu gestalten.**
+Über die Dropdown-Liste **[!UICONTROL Medien]** können Sie Medien zu Ihrer In-App-Nachricht hinzufügen, um das Erlebnis für den Endnutzer attraktiv zu gestalten.
 
-1. Wählen Sie für den **[!UICONTROL Medientyp]Bild oder Video aus.**
-1. Geben Sie für den Medientyp **[!UICONTROL Bild]** auf der Basis der unterstützten Formate im Feld **Medien-URL]Ihre URL ein.[!UICONTROL **
+1. Wählen Sie für den **[!UICONTROL Medientyp]** Bild oder Video aus.
+1. Geben Sie für den Medientyp **[!UICONTROL Bild]** auf der Basis der unterstützten Formate im Feld **[!UICONTROL Medien-URL]** Ihre URL ein.
 
-   Sie können bei Bedarf auch den Pfad zu einem **[!UICONTROL verbundenen Bild]eingeben, das verwendet werden soll, wenn das Gerät offline ist.**
+   Sie können bei Bedarf auch den Pfad zu einem **[!UICONTROL verbundenen Bild]** eingeben, das verwendet werden soll, wenn das Gerät offline ist.
 
    ![](assets/inapp_customize_5.png)
 
-1. Geben Sie für den Medientyp **[!UICONTROL Video]** im Feld **Medien-URL]Ihre URL ein.[!UICONTROL **
+1. Geben Sie für den Medientyp **[!UICONTROL Video]** im Feld **[!UICONTROL Medien-URL]** Ihre URL ein.
 
-   Geben Sie dann ein, welches **[!UICONTROL Videobild]verwendet werden soll, während das Video heruntergeladen wird oder bis der Benutzer auf die Wiedergabe-Schaltfläche tippt.**
+   Geben Sie dann ein, welches **[!UICONTROL Videobild]** verwendet werden soll, während das Video heruntergeladen wird oder bis der Benutzer auf die Wiedergabe-Schaltfläche tippt.
 
    ![](assets/inapp_customize_6.png)
 
@@ -87,12 +87,12 @@ Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors 
 
 Sie können bei Bedarf zu Ihrer In-App-Nachricht auch einen Nachrichtentitel und Inhalt hinzufügen. Um Ihre In-App-Nachricht besser zu personalisieren, können Sie zu Ihrem Inhalt unterschiedliche Personalisierungsfelder, Inhaltsbausteine und dynamischen Text hinzufügen.
 
-1. Fügen Sie in der **[!UICONTROL Text]**-Dropdown-Liste im Feld **Nachrichtentitel]einen Titel hinzu.[!UICONTROL **
+1. Fügen Sie in der **[!UICONTROL Text]**-Dropdown-Liste im Feld **[!UICONTROL Nachrichtentitel]** einen Titel hinzu.
 
    ![](assets/inapp_customize_9.png)
 
-1. Fügen Sie im Feld **[!UICONTROL Nachrichteninhalt]Inhalt hinzu.**
-1. Um den Text weiter zu personalisieren, klicken Sie auf das Symbol ![, über das Sie Personalisierungsfelder hinzufügen können.](assets/edit_darkgrey-24px.png)
+1. Fügen Sie im Feld **[!UICONTROL Nachrichteninhalt]** Inhalt hinzu.
+1. Um den Text weiter zu personalisieren, klicken Sie auf das Symbol ![](assets/edit_darkgrey-24px.png), über das Sie Personalisierungsfelder hinzufügen können.
 
    ![](assets/inapp_customize_8.png)
 
@@ -106,65 +106,65 @@ Sie können bei Bedarf zu Ihrer In-App-Nachricht auch einen Nachrichtentitel und
 
    ![](assets/inapp_customize_11.png)
 
-### Schaltflächen {#buttons}
+### Schaltflächen  {#buttons}
 
 Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
-1. Geben Sie in der Dropdown-Liste **[!UICONTROL Schaltflächen]** in der Kategorie **Primär]den Text Ihrer ersten Schaltfläche ein.[!UICONTROL **
+1. Geben Sie in der Dropdown-Liste **[!UICONTROL Schaltflächen]** in der Kategorie **[!UICONTROL Primär]** den Text Ihrer ersten Schaltfläche ein.
 
    ![](assets/inapp_customize_12.png)
 
-1. Wählen Sie aus, welche der zwei Aktionen mit Ihrer primären Schaltfläche verbunden werden soll: **[!UICONTROL Beenden]** und **Weiterleiten[!UICONTROL .]**
-1. Geben Sie bei Bedarf in der Kategorie **[!UICONTROL Sekundär]Text für eine zweite Schaltfläche in Ihrer In-App-Nachricht ein.**
+1. Wählen Sie aus, welche der zwei Aktionen mit Ihrer primären Schaltfläche verbunden werden soll: **[!UICONTROL Beenden]** und **[!UICONTROL Weiterleiten]**.
+1. Geben Sie bei Bedarf in der Kategorie **[!UICONTROL Sekundär]** Text für eine zweite Schaltfläche in Ihrer In-App-Nachricht ein.
 1. Wählen Sie die mit der zweiten Schaltfläche verbundene Aktion aus.
-1. Wenn Sie die Aktion **[!UICONTROL Weiterleiten]** auswählen, geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **Ziel-URL]ein.[!UICONTROL **
+1. Wenn Sie die Aktion **[!UICONTROL Weiterleiten]** auswählen, geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein.
 
    ![](assets/inapp_customize_13.png)
 
-1. Geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein, wenn Sie die Aktion **Weiterleiten]auswählen.[!UICONTROL **
+1. Geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein, wenn Sie die Aktion **[!UICONTROL Weiterleiten]** auswählen.
 1. Überprüfen Sie den Inhalt Ihrer Nachricht im Vorschaufenster oder durch Anklicken der Vorschau-Schaltfläche.
 
    Weiterführende Informationen dazu finden Sie auf der Seite [Vorschau einer In-App-Nachricht erstellen](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
-### Einstellungen {#settings}
+### Einstellungen  {#settings}
 
-1. Wählen Sie in der Kategorie **[!UICONTROL Einstellungen]eine helle oder dunkle Hintergrundfarbe aus.**
-1. Wählen Sie über die Option **[!UICONTROL Schließen-Schaltfläche zeigen]aus, ob eine Schließen-Schaltfläche angezeigt werden soll, mit der Benutzer die In-App-Nachricht entfernen können.**
-1. Wählen Sie mit der Option **[!UICONTROL Schaltflächenausrichtung]die horizontale oder vertikale Ausrichtung der Schaltfläche aus.**
+1. Wählen Sie in der Kategorie **[!UICONTROL Einstellungen]** eine helle oder dunkle Hintergrundfarbe aus.
+1. Wählen Sie über die Option **[!UICONTROL Schließen-Schaltfläche zeigen]** aus, ob eine Schließen-Schaltfläche angezeigt werden soll, mit der Benutzer die In-App-Nachricht entfernen können.
+1. Wählen Sie mit der Option **[!UICONTROL Schaltflächenausrichtung]** die horizontale oder vertikale Ausrichtung der Schaltfläche aus.
 1. Wählen Sie aus, ob Ihre In-App-Nachricht nach ein paar Sekunden automatisch entfernt wird oder nicht.
 
    ![](assets/inapp_customize_7.png)
 
-## Nachricht vom Typ "Lokale Benachrichtigung" anpassen {#customizing-a-local-notification-message-type}
+## Nachricht vom Typ "Lokale Benachrichtigung" anpassen  {#customizing-a-local-notification-message-type}
 
-Lokale Benachrichtigungen können nur von einer App zu einer bestimmten Zeit und abhängig von einem Ereignis ausgelöst werden. Mit lokalen Benachrichtigungen werden Benutzer über Prozesse in der App informiert, auch wenn kein Internetzugang vorhanden ist. 
+Lokale Benachrichtigungen können nur von einer App zu einer bestimmten Zeit und abhängig von einem Ereignis ausgelöst werden. Mit lokalen Benachrichtigungen werden Benutzer über Prozesse in der App informiert, auch wenn kein Internetzugang vorhanden ist.
 
 So passen Sie lokale Benachrichtigungen an:
 
-1. Wählen Sie auf der **[!UICONTROL Inhalt]**-Seite die Option **[!UICONTROL Lokale Benachrichtigung]in der Kategorie** Layout ****
+1. Wählen Sie auf der **[!UICONTROL Inhalt]**-Seite die Option **[!UICONTROL Lokale Benachrichtigung]** in der Kategorie **[!UICONTROL Layout]**
 
    ![](assets/inapp_customize_17.png)
 
-1. Under the **[!UICONTROL Text]** category, type down your **[!UICONTROL Message title]** and **[!UICONTROL Message content]**.
+1. Geben Sie unter der Kategorie **[!UICONTROL Text]** den **[!UICONTROL Nachrichtentitel]** und den **[!UICONTROL Nachrichteninhalt]** ein.
 
    ![](assets/inapp_customize_18.png)
 
-1. Wählen Sie in der Kategorie **[!UICONTROL Erweiterte Optionen]** im Feld **Zum Anzeigen warten]aus, wie lange Ihre lokale Benachrichtigung in Sekunden auf dem Bildschirm angezeigt werden soll, nachdem das Ereignis ausgelöst wurde.[!UICONTROL **
-1. Geben Sie im Feld **[!UICONTROL Ton]den Namen der Tondatei ein (ohne Erweiterung), die bei Erhalt einer lokalen Benachrichtigung vom Mobilgerät abgespielt werden soll.**
+1. Wählen Sie in der Kategorie **[!UICONTROL Erweiterte Optionen]** im Feld **[!UICONTROL Zum Anzeigen warten]** aus, wie lange Ihre lokale Benachrichtigung in Sekunden auf dem Bildschirm angezeigt werden soll, nachdem das Ereignis ausgelöst wurde.
+1. Geben Sie im Feld **[!UICONTROL Ton]** den Namen der Tondatei ein (ohne Erweiterung), die bei Erhalt einer lokalen Benachrichtigung vom Mobilgerät abgespielt werden soll.
 
    Die Tondatei wird bei der Zustellung der Benachrichtigung abgespielt, wenn die Datei im Package der Mobile App definiert ist. Andernfalls wird der Standardton des Geräts verwendet.
 
    ![](assets/inapp_customize_19.png)
 
-1. Geben Sie im Feld **[!UICONTROL Deeplink-URL]ein Ziel an, zu dem Ihre Benutzer weitergeleitet werden sollen, wenn sie mit Ihrer lokalen Benachrichtigung interagieren.**
-1. Wenn Sie benutzerdefinierte Daten in der Payload in Form eines Schlüssel-Wert-Paares senden möchten, fügen Sie benutzerdefinierte Felder zu Ihrer lokalen Benachrichtigung hinzu. Wählen Sie in der Kategorie **[!UICONTROL Benutzerdefinierte Felder]** die Schaltfläche **Element erstellen]aus.[!UICONTROL **
-1. Geben Sie Ihre **[!UICONTROL Schlüssel]** und danach die mit jedem Schlüssel verknüpften **Werte]ein.[!UICONTROL **
+1. Geben Sie im Feld **[!UICONTROL Deeplink-URL]** ein Ziel an, zu dem Ihre Benutzer weitergeleitet werden sollen, wenn sie mit Ihrer lokalen Benachrichtigung interagieren.
+1. Wenn Sie benutzerdefinierte Daten in der Payload in Form eines Schlüssel-Wert-Paares senden möchten, fügen Sie benutzerdefinierte Felder zu Ihrer lokalen Benachrichtigung hinzu. Wählen Sie in der Kategorie **[!UICONTROL Benutzerdefinierte Felder]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
+1. Geben Sie Ihre **[!UICONTROL Schlüssel]** und danach die mit jedem Schlüssel verknüpften **[!UICONTROL Werte]** ein.
 
    Beachten Sie, dass die Handhabung und der Zweck von benutzerdefinierten Feldern von der Mobile App abhängen.
 
-1. Füllen Sie in der Kategorie **[!UICONTROL Apple-Optionen]** die **Kategorie]-Felder aus, um eine Kategorie-ID für benutzerdefinierte Aktionen hinzuzufügen, sofern eine in Ihrer mobilen Apple-Anwendung verfügbar ist.[!UICONTROL **
+1. Füllen Sie in der Kategorie **[!UICONTROL Apple-Optionen]** die **[!UICONTROL Kategorie]**-Felder aus, um eine Kategorie-ID für benutzerdefinierte Aktionen hinzuzufügen, sofern eine in Ihrer mobilen Apple-Anwendung verfügbar ist.
 
 ## Benutzerdefinierte HTML-Nachricht anpassen {#customizing-with-a-custom-html-message}
 
@@ -172,7 +172,7 @@ So passen Sie lokale Benachrichtigungen an:
 >
 >Benutzerdefinierte HTML-Nachrichten unterstützen nicht die Personalisierung von Inhalten.
 
-Im Modus **[!UICONTROL Benutzerdefinierte Nachricht]können Sie eine vorkonfigurierte HTML-Nachricht direkt importieren.**
+Im Modus **[!UICONTROL Benutzerdefinierte Nachricht]** können Sie eine vorkonfigurierte HTML-Nachricht direkt importieren.
 
 Das ist per Drag &amp; Drop oder durch die Auswahl der Datei auf dem Computer möglich.
 
@@ -190,11 +190,11 @@ Nach dem Import Ihrer HTML-Datei können Sie sich im Vorschau-Fenster eine Vorsc
 
 Bevor Sie eine In-App-Nachricht senden, können Sie sie an Testprofilen testen, um zu sehen, wie die Nachricht beim Empfang dargestellt wird.
 
-1. Wählen Sie die **[!UICONTROL Vorschau]-Schaltfläche aus.**
+1. Wählen Sie die **[!UICONTROL Vorschau]**-Schaltfläche aus.
 
    ![](assets/inapp_sending_2.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Testprofil auswählen]und danach eines Ihrer Testprofile aus, um mit der Vorschau des Versands zu beginnen.** Weiterführende Informationen zu Testprofilen erhalten Sie in [diesem Abschnitt](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. Wählen Sie die Schaltfläche **[!UICONTROL Testprofil auswählen]** und danach eines Ihrer Testprofile aus, um mit der Vorschau des Versands zu beginnen. Weiterführende Informationen zu Testprofilen erhalten Sie in [diesem Abschnitt](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 1. Sehen Sie sich Ihre Nachricht auf verschiedenen Geräten an, wie Android-Geräten, iPhones und Tablets. Sie können dabei auch feststellen, ob in Ihre Personalisierungsfelder die richtigen Daten geladen werden.
 
    ![](assets/inapp_sending_3.png)
