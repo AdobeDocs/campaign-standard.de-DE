@@ -3,18 +3,18 @@ title: Fehler und Bounces
 seo-title: Fehler und Bounces
 description: Fehler und Bounces
 seo-description: 'Im vordefinierten Bericht über Fehler und Bounces erhalten Sie Informationen zu Fehlern, die während des Versands aufgetreten sind. '
-page-status-flag: nie aktiviert
-uuid: b 70 ae 9 ec-b 659-42 bf-b 663-73615307005 b
+page-status-flag: never-activated
+uuid: b70ae9ec-b659-42bf-b663-73615307005b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 3567 f 9 f 9-ef 57-441 c -8844-198 bbf 662 c 9 d
-context-tags: Deliverynondeliperformlesbouncesreport, main; Campaignnondeliperformlesbouncesreport, main; Programnondeliperformlesbouncesreport, main
+discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
+context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
@@ -22,11 +22,11 @@ source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 # Fehler und Bounces{#non-deliverables-and-bounces}
 
-Der Bericht **[!UICONTROL Fehler und Bounces]enthält Informationen zu allen beim Versand aufgetretenen Fehlern.**
+Der Bericht **[!UICONTROL Fehler und Bounces]** enthält Informationen zu allen beim Versand aufgetretenen Fehlern.
 
 ![](assets/delivery_reports_7.png)
 
-Die Tabelle **[!UICONTROL Übersicht]enthält die verfügbaren Daten zu Fehlern, die bei jedem Versand aufgetreten sein könnten, z. B.:**
+Die Tabelle **[!UICONTROL Übersicht]** enthält die verfügbaren Daten zu Fehlern, die bei jedem Versand aufgetreten sein könnten, z. B.:
 
 * **Verarbeitet/gesendet**: die Anzahl an gesendeten E-Mails.
 * **Zugestellt**: die Anzahl an zugestellten E-Mails.
