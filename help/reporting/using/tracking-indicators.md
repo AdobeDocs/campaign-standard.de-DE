@@ -3,18 +3,18 @@ title: Trackingindikatoren
 seo-title: Trackingindikatoren
 description: Trackingindikatoren
 seo-description: Im vordefinierten Bericht über die Trackingindikatoren erfahren Sie über das Verhalten Ihrer Kunden beim Empfang von E-Mail-Nachrichten.
-page-status-flag: nie aktiviert
-uuid: b 2 df 8846-4 caf -45 e 6-a 8 ff-ee 37655383 c 2
+page-status-flag: never-activated
+uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 64 abc 885-2 aec -423 f-bf 5 b -5 a 623 a 16 ca 6 d
-context-tags: Deliverytrackingberichte, main; Campaigntrackingreport, main; Programtrackingreport, main
+discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
+context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 # Trackingindikatoren{#tracking-indicators}
 
-Der Bericht **[!UICONTROL Trackingindikatoren]enthält die wichtigsten Indikatoren zum Tracking des Verhaltens nach dem Empfang einer E-Mail-Nachricht.**
+Der Bericht **[!UICONTROL Trackingindikatoren]** enthält die wichtigsten Indikatoren zum Tracking des Verhaltens nach dem Empfang einer E-Mail-Nachricht.
 
 >[!NOTE]
 >
