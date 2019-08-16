@@ -3,17 +3,17 @@ title: Über Profile und Audiences
 seo-title: Über Profile und Audiences
 description: Über Profile und Audiences
 seo-description: '"Hier erhalten Sie Informationen über die Verwaltung von Profilen und Audiences in Adobe Campaign: Bestimmen Sie Zielgruppen, wählen Sie Audiences aus, filtern Sie Empfänger, erfassen Sie Daten und aktualisieren Sie Profile."'
-page-status-flag: nie aktiviert
-uuid: f 4 cb 6 c 38-c 8 d 1-44 ec -93 f 0-d 0 f 5 f 30 a 3 d 9 a
+page-status-flag: never-activated
+uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Zielgruppen
-content-type: Referenz
-topic-tags: about-profile-and-audiences
-discoiquuid: fb 436 b 17-1 fc 3-4 fc 3-94 b 9-f 09 f 8 aaf 699
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: about-profiles-and-audiences
+discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -45,7 +45,7 @@ Mit integrierten Kundenprofilen und benutzerdefinierten Segmenten können Sie Ku
 
 Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe-Campaign-Kunden, die Daten von Personen erfassen, die in der EU wohnhaft sind. Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können.
 
-In diesem [Handbuch](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) erfahren Sie mehr zu den Tools und Funktionen von Adobe Campaign, die Ihnen helfen, die DSGVO gesetzeskonform umzusetzen.
+In diesem [Handbuch](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html) erfahren Sie mehr zu den Tools und Funktionen von Adobe Campaign, die Ihnen helfen, die DSGVO gesetzeskonform umzusetzen.
 
 **Verwandte Themen:**
 
