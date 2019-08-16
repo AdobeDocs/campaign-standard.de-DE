@@ -3,17 +3,17 @@ title: Dynamische Inhalte in einer Landingpage definieren
 seo-title: Dynamische Inhalte in einer Landingpage definieren
 description: Dynamische Inhalte in einer Landingpage definieren
 seo-description: Mit diesen Schritten können Sie in einer Landingpage unterschiedliche Inhalte anzeigen, die in Abhängigkeit von im Ausdruckseditor definierten Bedingungen dynamisch geändert werden.
-page-status-flag: nie aktiviert
-uuid: 64 a 8 ddd 2-8 bb 0-44 ef-bae 9-b 6 b 77 a 84 ca 8 b
+page-status-flag: never-activated
+uuid: 64a8ddd2-8bb0-44ef-bae9-b6b77a84ca8b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
-topic-tags: define-conditional-content
-discoiquuid: 00 e 5 ed 81-d 3 d 1-4211-8352-71805 a 7042 c 9
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: defining-conditional-content
+discoiquuid: 00e5ed81-d3d1-4211-8352-71805a7042c9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -35,7 +35,7 @@ Die nächsten Schritte zur Definition von dynamischem Inhalt für Landingpages e
 >
 >Die rote Umrandung einer Variante eines Elements zeigt an, dass für diese noch kein Ausdruck definiert wurde.
 
-## Dynamischen Inhalt in einer Landingpage in der Vorschau ansehen {#previewing-dynamic-content-in-a-landing-page}
+## Dynamischen Inhalt in einer Landingpage in der Vorschau ansehen  {#previewing-dynamic-content-in-a-landing-page}
 
 Sie haben die Möglichkeit, zwischen den verschiedenen dynamischen Inhalten eines Bausteins zu wechseln. Gehen Sie wie folgt vor:
 
@@ -51,7 +51,7 @@ Sie haben die Möglichkeit, zwischen den verschiedenen dynamischen Inhalten eine
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. Um alle für einen Baustein definierten Bedingungen zu löschen, markieren Sie diesen und klicken Sie erneut auf das Symbol **[!UICONTROL Dynamischen Inhalt deaktivieren].**
+1. Um alle für einen Baustein definierten Bedingungen zu löschen, markieren Sie diesen und klicken Sie erneut auf das Symbol **[!UICONTROL Dynamischen Inhalt deaktivieren]**.
 1. Wählen Sie den beizubehaltenden dynamischen Inhalt aus.
 
    ![](assets/dynamic_content_lp_5.png)
