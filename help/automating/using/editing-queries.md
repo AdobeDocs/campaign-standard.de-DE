@@ -3,18 +3,18 @@ title: Abfrageeditor
 seo-title: Abfrageeditor
 description: Abfrageeditor
 seo-description: Hiermit können Sie über vordefinierte Filter und Regeln eine Population erstellen.
-page-status-flag: nie aktiviert
-uuid: a 49 c 7739-a 96 c -45 cb -9 ac 5-1 ce 299161 a 97
+page-status-flag: never-activated
+uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: filtering-data
-discoiquuid: 84306 a 1 e -0 d 9 f -44 cc -88 a 7-36 d 7 e 5 b 4 da 1 f
-context-tags: Queryfilter, overview; Zielgruppe, Hauptgruppe
+discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
+context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ---
@@ -30,17 +30,17 @@ Mit dieser Funktion können Sie eine Population mithilfe von Filtern und Regeln 
 
 Der Abfrageeditor kommt in verschiedenen Funktionen zum Einsatz:
 
-* Erstellung von **Audiences****,**
+* Erstellung von  **Audiences**,****
 * Definition von **E-Mail-Zielgruppen**,
 * Definition von Populationen in **Workflow-Aktivitäten**.
 
-## Benutzeroberfläche des Abfrageeditors {#query-editor-interface}
+## Benutzeroberfläche des Abfrageeditors  {#query-editor-interface}
 
 Die Benutzeroberfläche des Abfrageeditors enthält eine **Palette** und einen **Arbeitsbereich**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette {#palette}
+### Palette  {#palette}
 
 Die Palette befindet sich auf der linken Seite des Tools und ist in zwei Tabs unterteilt, die wiederum aus mehreren, in thematische Blöcke aufgeteilten Elementen bestehen. Diese Tabs sind:
 
@@ -54,13 +54,13 @@ Die in den Tabs enthaltenen Elemente müssen im Arbeitsbereich platziert werden,
 * Definition von einfachen Regeln für frei wählbare Felder,
 * Definition von erweiterten Regeln zur Anwendung von Funktionen auf gewisse Felder.
 
-### Arbeitsbereich {#workspace}
+### Arbeitsbereich  {#workspace}
 
 Der Arbeitsbereich ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln, Audiences und Filter konfigurieren und kombinieren können, die aus der Palette hier abgelegt werden.
 
 Wenn Sie ein Element aus der Palette in den Arbeitsbereich ziehen, öffnet sich ein neues Fenster, mit dem sich [Abfragen erstellen](../../automating/using/editing-queries.md#creating-queries) lassen.
 
-## Abfragen erstellen {#creating-queries}
+## Abfragen erstellen  {#creating-queries}
 
 Mit dem Abfrageeditor können Sie eine Audience oder ein Testprofil in einer Nachricht oder eine Population in einem Workflow definieren und eine Audience vom Typ "Abfrage" erstellen.
 
@@ -89,7 +89,7 @@ Abfragen können während der Versanderstellung im **[!UICONTROL Audience]**-Fen
 
       Die Angabe einer Unterbedingung ist nicht zwingend erforderlich.
 
-      Sie können beispielsweise nur den Operator **[!UICONTROL Existiert]für die Trackinglogs von Profilen auswählen und die Regel validieren.** Auf diese Weise gibt die Regel all die Profile aus, für die Trackinglogs existieren.
+      Sie können beispielsweise nur den Operator **[!UICONTROL Existiert]** für die Trackinglogs von Profilen auswählen und die Regel validieren. Auf diese Weise gibt die Regel all die Profile aus, für die Trackinglogs existieren.
 
       ![](assets/query_editor_audience_definition6.png)
 
@@ -104,9 +104,9 @@ Abfragen können während der Versanderstellung im **[!UICONTROL Audience]**-Fen
 
    * **[!UICONTROL UND]** bildet die Schnittmenge aus zwei Kriterien. Nur Elemente, die beiden Kriterien entsprechen, werden berücksichtigt.
    * **[!UICONTROL ODER]** bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die wenigstens einem der Kriterien entsprechen, werden berücksichtigt.
-   * **[!UICONTROL Ausschlusskriterien EXCEPT]**: schließt die dem ersten Kriterium entsprechenden Elemente aus, wenn sie auch dem zweiten Kriterium entsprechen.
+   * Ausschlusskriterien **[!UICONTROL EXCEPT]**: schließt die dem ersten Kriterium entsprechenden Elemente aus, wenn sie auch dem zweiten Kriterium entsprechen.
 
-1. Mithilfe der Schaltflächen ![](assets/count.png) und ![ in der Symbolleiste können Sie jetzt die Anzahl der in der Ergebnismenge Ihrer Abfrage enthaltenen Datensätze berechnen bzw. eine Vorschau davon anzeigen.](assets/preview.png)
+1. Mithilfe der Schaltflächen ![](assets/count.png) und ![](assets/preview.png) in der Symbolleiste können Sie jetzt die Anzahl der in der Ergebnismenge Ihrer Abfrage enthaltenen Datensätze berechnen bzw. eine Vorschau davon anzeigen.
 
    ![](assets/query_editor_combining_rules.png)
 
