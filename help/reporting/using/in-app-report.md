@@ -3,17 +3,17 @@ title: In-App-Bericht
 seo-title: In-App-Bericht
 description: In-App-Bericht
 seo-description: Im vordefinierten Bericht über In-App-Nachrichten erfahren Sie über die Wirkung Ihrer In-App-Nachrichten.
-page-status-flag: nie aktiviert
-uuid: 802 dc 606-a 314-46 dd-b 361-b 746 b 0772303
+page-status-flag: never-activated
+uuid: 802dc606-a314-46dd-b361-b746b0772303
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 3 f 17 c 2 ad -8 ba 3-4795-93 ed -288 b 2 bcee 72
+discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
 >[!CAUTION]
 >
->Bitte beachten Sie, dass Sie die Metrik **[!UICONTROL Nachrichtentyp]in die Tabellen ziehen müssen, um Ihre Daten nach Versandtyp (in diesem Fall In-App-Nachrichten) aufzuschlüsseln.**
+>Bitte beachten Sie, dass Sie die Metrik **[!UICONTROL Nachrichtentyp]** in die Tabellen ziehen müssen, um Ihre Daten nach Versandtyp (in diesem Fall In-App-Nachrichten) aufzuschlüsseln.
 
 Der **In-App**-Bericht liefert Details zu In-App-Sendungen.
 
