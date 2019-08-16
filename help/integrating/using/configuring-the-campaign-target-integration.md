@@ -3,17 +3,17 @@ title: Integration von Campaign mit Target konfigurieren
 seo-title: Integration von Campaign mit Target konfigurieren
 description: Integration von Campaign mit Target konfigurieren
 seo-description: Hier erfahren Sie, wie Sie die Adobe-Target-Integration konfigurieren müssen, um dynamischen Inhalt in Adobe Campaign verwenden zu können.
-page-status-flag: nie aktiviert
-uuid: 0 df 7701 c-dc 26-4 c 30-9 af 9-ebf 92815 d 90 c
+page-status-flag: never-activated
+uuid: 0df5701c-dc26-4c30-9af9-ebf92815d90c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird integriert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: f 7 fb 2084-dd 6 f -4 aa 2-940 f-e 48713146635
+discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
 
 ---
@@ -31,7 +31,7 @@ Für dieses Verfahren sind die folgenden Elemente erforderlich:
 * Mandant für Adobe Target,
 * Adobe-Target-Rawbox für Adobe Campaign.
 
-1. From the advanced menu, via the Adobe Campaign logo in the top left corner, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
+1. Wählen Sie im erweiterten Menü über das Adobe-Campaign-Logo oben links im Bildschirm die Schaltflächen **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Optionen]**.
 1. Um die Server- und Mandantenoptionen für Adobe Target zu konfigurieren, füllen Sie die folgenden Felder aus:
 
    * **[!UICONTROL TNT_TenantName]**, Name des Mandanten für Adobe Target. Dieser Wert entspricht dem Adobe-Target-**[!UICONTROL Client-Namen]**.
