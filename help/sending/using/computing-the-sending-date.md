@@ -3,17 +3,17 @@ title: Versanddatum berechnen
 seo-title: Versanddatum berechnen
 description: Versanddatum berechnen
 seo-description: Hier erfahren Sie, wie Sie eine Nachricht an einem bestimmten Datum und zu einer bestimmten Uhrzeit senden.
-page-status-flag: nie aktiviert
-uuid: fbbb 37 a 0-7257-4407-a 4 c 9-f 76 bf 44460 d 4
+page-status-flag: never-activated
+uuid: fbbb37a0-7257-4407-a4c9-f76bf04460d4
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird gesendet
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 02 a 87 cc 6-c 40 c -44 fe-bb 4 e-b 88870 a 4859 b
+discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28abc1e8aa31f3e0c7f09926f34a977d4c491fd8
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 28abc1e8aa31f3e0c7f09926f34a977d4c491fd8
 
 Sie können eine Formel definieren, um die Nachricht an jeden Empfänger an einem bestimmten Datum und zu einer bestimmten Uhrzeit zu senden.
 
-## Datumsformel anpassen {#customizing-date-formula}
+## Datumsformel anpassen  {#customizing-date-formula}
 
 Die Optimierung des Versandzeitpunkts ist beispielsweise während der Anlaufphase Ihrer Marketingaktivitäten nützlich.
 
@@ -39,11 +39,11 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
 1. Gehen Sie in die Liste der Marketingaktivitäten und erstellen Sie einen neuen Workflow. Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
 1. Ziehen Sie eine **Abfrage** in den Workflow-Arbeitsbereich und öffnen Sie sie. Siehe den Abschnitt [Abfrage](../../automating/using/query.md).
-1. Wählen Sie eine Audience aus, z. B. alle Ihre Gold-Kunden und klicken Sie auf **[!UICONTROL Bestätigen], um die Abfrage zu speichern.**
+1. Wählen Sie eine Audience aus, z. B. alle Ihre Gold-Kunden und klicken Sie auf **[!UICONTROL Bestätigen]**, um die Abfrage zu speichern.
 1. Ziehen Sie eine **Segmentierung** in den Workflow-Arbeitsbereich und öffnen Sie sie. Siehe den Abschnitt [Segmentierung](../../automating/using/segmentation.md).
 1. Definieren Sie fünf Segmente. Gehen Sie für jedes Segment folgendermaßen vor:
 
-   * Füllen Sie das Feld **[!UICONTROL Segmentcode]aus: Geben Sie manuell den gewünschten Zeitpunkt für den Versand der Nachricht ein.**
+   * Füllen Sie das Feld **[!UICONTROL Segmentcode]** aus: Geben Sie manuell den gewünschten Zeitpunkt für den Versand der Nachricht ein.
 
       Beispiel: Sie möchten den ersten Teilversand am 1. Juni um 10 Uhr (GMT+1) durchführen. Verwenden Sie dazu das folgende Format: **JJJJ-MM-TT hh:mm:ss+tz**.
 
@@ -54,11 +54,11 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
       Definieren Sie die nächsten Teilsendungen für die restlichen Segmente folgendermaßen:
 
       * **2017-06-03 10:00:00+01**
-      * **2017-06-04 10:00:00+01**
+      * **04.06.2017 10:00:00+01**
       * **05.06.2017 10:00:00+01**
-   * Wählen Sie die Option **[!UICONTROL Segmentpopulation begrenzen]aus.**
+   * Wählen Sie die Option **[!UICONTROL Segmentpopulation begrenzen]** aus.
 
-      Wählen Sie im Tab **[!UICONTROL Begrenzung]** die Option **Zufällige Auswahl]aus und geben Sie für jedes Segment den gewünschten Prozentsatz ein: 10 für die erste Teilsendung, 15 für die zweite etc.[!UICONTROL **
+      Wählen Sie im Tab **[!UICONTROL Begrenzung]** die Option **[!UICONTROL Zufällige Auswahl]** aus und geben Sie für jedes Segment den gewünschten Prozentsatz ein: 10 für die erste Teilsendung, 15 für die zweite etc.
 
       ![](assets/send-time_opt_segment_limitation.png)
 
@@ -68,26 +68,26 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
    ![](assets/send-time_opt_segment_dates.png)
 
 1. Ziehen Sie einen **E-Mail-Versand** in den Workflow-Arbeitsbereich und öffnen Sie ihn. Siehe den Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
-1. Click the **[!UICONTROL Schedule]** section in the email dashboard and select **[!UICONTROL Messages to be sent automatically on the date specified below]**.
-1. Definieren Sie im Feld **[!UICONTROL Versandstart am]ein Kontaktdatum.**
+1. Wählen Sie den Bereich **[!UICONTROL Planung]** im E-Mail-Dashboard und danach **[!UICONTROL Nachrichten werden automatisch am unten spezifizierten Datum gesendet]** aus.
+1. Definieren Sie im Feld **[!UICONTROL Versandstart am]** ein Kontaktdatum.
 1. Wählen Sie aus der Sedezeitoptimierungs-Dropdown-Liste **[!UICONTROL Versand zu einem durch eine Formel festgelegten Zeitpunkt aus]**.
-1. Wählen Sie die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** im Feld **Benutzerdefinierte Datumsformel]aus.[!UICONTROL **
+1. Wählen Sie die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** im Feld **[!UICONTROL Benutzerdefinierte Datumsformel]** aus.
 
    ![](assets/send-time_opt_formula_define.png)
 
-1. Erstellen Sie mit der Funktion **[!UICONTROL ToDateTime]** und dem Feld **Segmentcode]den folgenden Ausdruck.[!UICONTROL ** Sie können den Ausdruck auch direkt eingeben, aber achten Sie darauf, korrekte Syntax und Rechtschreibung zu verwenden.
+1. Erstellen Sie mit der Funktion **[!UICONTROL ToDateTime]** und dem Feld **[!UICONTROL Segmentcode]** den folgenden Ausdruck. Sie können den Ausdruck auch direkt eingeben. Achten Sie jedoch dabei auf die korrekte Syntax und Schreibweise.
 
    ```
    ToDateTime([targetData/@segmentCode])
    ```
 
-   Die Funktion **[!UICONTROL ToDateTime]wandelt den Segmentcode von einem Textstring in einen Datums- und Uhrzeit-Wert um.**
+   Die Funktion **[!UICONTROL ToDateTime]** wandelt den Segmentcode von einem Textstring in einen Datums- und Uhrzeit-Wert um.
 
    Bestätigen Sie den Ausdruck, um zum vorherigen Bildschirm zurückzukehren.
 
    ![](assets/send-time_opt_formula_define_segment.png)
 
-   Im Fenster **[!UICONTROL Planung]wird die benutzerdefinierte Datumsformel folgendermaßen dargestellt:**
+   Im Fenster **[!UICONTROL Planung]** wird die benutzerdefinierte Datumsformel folgendermaßen dargestellt:
 
    ```
    ToDateTime([targetData/@segmentCode])
@@ -103,7 +103,7 @@ Der Versand wird auf fünf Tage verteilt an alle Empfänger gesendet.
 >
 >Achten Sie bei der Validierung des Versands darauf, dass alle Daten in der Zukunft liegen. Ansonsten werden die Nachrichten unmittelbar nach der Validierung gesendet.
 
-## Ausdruck verwenden {#using-an-expression}
+## Ausdruck verwenden  {#using-an-expression}
 
 Die Versandzeitoptimierung ist auch für Callcenter-Kampagnen hilfreich. Damit können Sie gewährleisten, dass nicht alle Nachrichten zur selben Zeit beim Empfänger eintreffen. Dadurch kann Ihr Unternehmen die Anzahl der Anrufe entsprechend seiner Kapazität steuern.
 
@@ -115,7 +115,7 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
 1. Gehen Sie in die Liste der Marketingaktivitäten und erstellen Sie einen neuen Workflow. Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
 1. Ziehen Sie eine **Abfrage** in den Workflow-Arbeitsbereich und öffnen Sie sie. Siehe den Abschnitt [Abfrage](../../automating/using/query.md).
-1. Wählen Sie eine Audience aus, z. B. 35 Profile, und klicken Sie auf **[!UICONTROL Bestätigen], um die Abfrage zu speichern.**
+1. Wählen Sie eine Audience aus, z. B. 35 Profile, und klicken Sie auf **[!UICONTROL Bestätigen]**, um die Abfrage zu speichern.
 1. Ziehen Sie eine **Segmentierung** in den Workflow-Arbeitsbereich und öffnen Sie sie. Siehe den Abschnitt [Segmentierung](../../automating/using/segmentation.md).
 1. Definieren Sie vier Segmente. Gehen Sie für jedes Segment folgendermaßen vor:
 
@@ -129,8 +129,8 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
       >
       >Das Kontaktdatum wird später im Workflow in der E-Mail-Versand-Aktivität definiert.
 
-   * Wählen Sie die Option **[!UICONTROL Segmentpopulation begrenzen]aus.**
-   * Wählen Sie im Tab **[!UICONTROL Begrenzung]** die Option **[!UICONTROL Zufällige Auswahl]aus und geben Sie für jedes Segment den gewünschten Prozentsatz ein:** 25 **.**
+   * Wählen Sie die Option **[!UICONTROL Segmentpopulation begrenzen]** aus.
+   * Wählen Sie im Tab **[!UICONTROL Begrenzung]** die Option **[!UICONTROL Zufällige Auswahl]** aus und geben Sie für jedes Segment den gewünschten Prozentsatz ein: **25**.
 
 
 1. Wählen Sie **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** aus und danach **[!UICONTROL Bestätigen]**.
@@ -138,29 +138,29 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
    ![](assets/send-time_opt_segment.png)
 
 1. Ziehen Sie einen **E-Mail-Versand** in den Workflow-Arbeitsbereich und öffnen Sie ihn. Siehe den Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
-1. Wählen Sie im E-Mail-Dashboard den Bereich **[!UICONTROL Planung]aus.**
+1. Wählen Sie im E-Mail-Dashboard den Bereich **[!UICONTROL Planung]** aus.
 1. Wählen Sie **[!UICONTROL Nachrichtenversand am unten angegebenen Datum aus]**.
-1. Definieren Sie im Feld **[!UICONTROL Versandstart am]ein Kontaktdatum.**
+1. Definieren Sie im Feld **[!UICONTROL Versandstart am]** ein Kontaktdatum.
 
    Wählen Sie für dieses Beispiel den 25. Mai, 8 Uhr aus.
 
-1. Wählen Sie aus der Sedezeitoptimierungs-Dropdown-Liste **[!UICONTROL Versand zu einem durch eine Formel festgelegten Zeitpunkt]** aus und klicken Sie auf die Schaltfläche **Ausdruck bearbeiten[!UICONTROL .]**
+1. Wählen Sie aus der Sedezeitoptimierungs-Dropdown-Liste **[!UICONTROL Versand zu einem durch eine Formel festgelegten Zeitpunkt]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**.
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. In the **[!UICONTROL Expression editor]**, set the date and the segment codes to compute the data for each customer.
+1. Definieren Sie im **[!UICONTROL Ausdruckseditor]** das Datum und die Segmentcodes, um für jeden Kunden das Datum zu berechnen.
 
    Wählen Sie in der Funktionsliste die Option **[!UICONTROL AddHours aus]**.
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   In the available fields, select **[!UICONTROL Current delivery]** &gt; **[!UICONTROL Delivery scheduling]** &gt; **[!UICONTROL Contact date]**.
+   Wählen Sie in den verfügbaren Feldern **[!UICONTROL Aktueller Versand]** &gt; **[!UICONTROL Versandauslösung]** &gt; **[!UICONTROL Kontaktdatum]** aus.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
-   Dadurch können Sie das im Feld **[!UICONTROL Versandstart am]spezifizierte Datum und die Uhrzeit abrufen.**
+   Dadurch können Sie das im Feld **[!UICONTROL Versandstart am]** spezifizierte Datum und die Uhrzeit abrufen.
 
-   Wählen Sie in der Funktionsliste die Option **[!UICONTROL ToInteger aus]**. In the available fields, select **[!UICONTROL Additional data]** &gt; **[!UICONTROL Segment code]**.
+   Wählen Sie in der Funktionsliste die Option **[!UICONTROL ToInteger aus]**. Wählen Sie in den verfügbaren Feldern **[!UICONTROL Zusatzdaten]** &gt; **[!UICONTROL Segmentcode]** aus.
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 
