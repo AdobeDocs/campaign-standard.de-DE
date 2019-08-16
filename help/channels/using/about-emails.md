@@ -3,18 +3,18 @@ title: Über E-Mails
 seo-title: Über E-Mails
 description: Über E-Mails
 seo-description: Hier erhalten Sie Informationen zu den unterschiedlichen Arten von E-Mails, die Sie mit Adobe Campaign versenden können.
-page-status-flag: nie aktiviert
-uuid: 1650 cad 5-afc 0-4215-9 fb 4-7 f 8 ad 5 f 504 df
+page-status-flag: never-activated
+uuid: 1650cad5-afc0-4215-9fb4-7f8ad5f504df
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
-topic-tags: E-Email-Nachrichten
-discoiquuid: 521463 aa-dec 0-4 f 4 b -8 b 71-93 a 4572 e 2 b 33
-context-tags: Deliverycreation, Assistent
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: email-messages
+discoiquuid: 521463aa-dec0-4f4b-8b71-93a4572e2b33
+context-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
 
 ---
@@ -31,4 +31,4 @@ Verschiedene Typen von E-Mails können gesendet werden:
 * A/B-Test-E-Mails: Damit können Sie bis zu drei Versionen einer E-Mail testen.
 * Transaktions-E-Mails: einzelne E-Mails, die auf der Basis des Kundenverhaltens ausgelöst werden.
 
-Weiterführende Informationen zu Best Practices beim Erstellen und Versenden von E-Mails erhalten Sie im Handbuch [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Weiterführende Informationen zu Best Practices beim Erstellen und Versenden von E-Mails erhalten Sie im Handbuch [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
