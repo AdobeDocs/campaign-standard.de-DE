@@ -3,17 +3,17 @@ title: Ermüdungsregeln
 seo-title: Ermüdungsregeln
 description: Ermüdungsregeln
 seo-description: Anhand von Ermüdungsregeln können Sie verhindern, dass einzelne Profile zu häufig angesprochen werden.
-page-status-flag: nie aktiviert
-uuid: fa 5 e 3 ded -36 c 2-4 f 16-b 97 a -119 b 85 adf 679
+page-status-flag: never-activated
+uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 4337 a 80 b -0 fb 9-4 a 37-bce 3-fe 2121 a 66586
+discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ---
@@ -37,11 +37,11 @@ Verwandte Themen:
 * [Typologien verwalten](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Typologieregeln](../../administration/using/about-typology-rules.md#typology-rules)
 
-## Ermüdungsregel erstellen {#creating-a-fatigue-rule}
+## Ermüdungsregel erstellen  {#creating-a-fatigue-rule}
 
-Um eine Typologieregel vom Typ **[!UICONTROL Ermüdung]zu erstellen und zu konfigurieren, gehen Sie folgendermaßen vor:**
+Um eine Typologieregel vom Typ **[!UICONTROL Ermüdung]** zu erstellen und zu konfigurieren, gehen Sie folgendermaßen vor:
 
-1. Click the Adobe Campaign logo, in the top left corner of the interface, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
+1. Der Zugriff auf das entsprechende Menü erfolgt über das Adobe-Campaign-Logo oben links am Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Typologien]** &gt; **[!UICONTROL Typologieregeln]**.
 
    ![](assets/fatigue4.png)
 
@@ -49,29 +49,29 @@ Um eine Typologieregel vom Typ **[!UICONTROL Ermüdung]zu erstellen und zu konfi
 
    ![](assets/fatigue.png)
 
-1. In the **[!UICONTROL Rule type]** field, select **[!UICONTROL Fatigue]**.
+1. Wählen Sie im Feld **[!UICONTROL Regeltyp]** die Option **[!UICONTROL Ermüdung]** aus.
 
    ![](assets/fatigue3.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Kanal]aus, auf welchen Kanal die Regel angewendet werden soll.** Sie können entweder einen einzelnen Kanal (E-Mail, SMS, Briefpost, Mobile App) oder **[!UICONTROL Alle Kanäle auswählen]**. Siehe [Kanal auswählen](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. Wählen Sie im Feld **[!UICONTROL Kanal]** aus, auf welchen Kanal die Regel angewendet werden soll. Sie können entweder einen einzelnen Kanal (E-Mail, SMS, Briefpost, Mobile App) oder **[!UICONTROL Alle Kanäle auswählen]**. Siehe [Kanal auswählen](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
    ![](assets/fatigue5.png)
 
-1. Definieren Sie im Tab **[!UICONTROL Allgemein]die Methode zur Berechnung der maximalen Anzahl an Nachrichten pro Profil.** Sie können entweder eine konstante oder variable Schwelle auswählen. Sie können auch die Schwelle für Profile und Sendungen präzisieren. Lesen Sie diesbezüglich auch den Abschnitt [Schwelle definieren](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. Definieren Sie im Tab **[!UICONTROL Allgemein]** die Methode zur Berechnung der maximalen Anzahl an Nachrichten pro Profil. Sie können entweder eine konstante oder variable Schwelle auswählen. Sie können auch die Schwelle für Profile und Sendungen präzisieren. Lesen Sie diesbezüglich auch den Abschnitt [Schwelle definieren](../../administration/using/fatigue-rules.md#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
-1. Wählen Sie einen **[!UICONTROL beweglichen Zeitraum]aus, in dem die Typologieregel gelten soll.** Lesen Sie diesbezüglich auch den Abschnitt [Beweglichen Zeitraum festlegen](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. Wählen Sie einen **[!UICONTROL beweglichen Zeitraum]** aus, in dem die Typologieregel gelten soll. Lesen Sie diesbezüglich auch den Abschnitt [Beweglichen Zeitraum festlegen](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
 
    ![](assets/fatigue6.png)
 
    In diesem Beispiel (siehe vorherige Screenshots) möchten wir eine Höchstzahl von vier Nachrichten in einem beweglichen Zeitraum von 15 Tagen versenden.
 
-1. Im Tab **[!UICONTROL Anwendungskriterien]können Sie festlegen, ob diese Regel je nach Nachricht für alle Sendungen gelten oder die Anwendbarkeit der Regel einschränkt werden soll.** Die Regel wird nur ausgeführt, wenn die Anwendungsbedingung erfüllt ist. Sie können die Regel beispielsweise nur auf Nachrichten anwenden, deren Titel mit einem bestimmten Wort oder einer Kennung beginnt, die bestimmte Buchstaben enthalten. Siehe [Anwendbarkeit einer Filterregel einschränken](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
+1. Im Tab **[!UICONTROL Anwendungskriterien]** können Sie festlegen, ob diese Regel je nach Nachricht für alle Sendungen gelten oder die Anwendbarkeit der Regel einschränkt werden soll. Die Regel wird nur ausgeführt, wenn die Anwendungsbedingung erfüllt ist. Sie können die Regel beispielsweise nur auf Nachrichten anwenden, deren Titel mit einem bestimmten Wort oder einer Kennung beginnt, die bestimmte Buchstaben enthalten. Siehe [Anwendbarkeit einer Filterregel einschränken](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
 
    ![](assets/fatigue20.png)
 
-1. Wählen Sie den Tab **[!UICONTROL Typologien]aus und verknüpfen Sie Ihre Typologieregel mit der für Ihre Sendungen verwendeten Typologie.** Siehe [Typologien verwalten](../../administration/using/about-typology-rules.md#managing-typologies) und [Typologieregeln](../../administration/using/about-typology-rules.md#typology-rules).
+1. Wählen Sie den Tab **[!UICONTROL Typologien]** aus und verknüpfen Sie Ihre Typologieregel mit der für Ihre Sendungen verwendeten Typologie. Siehe [Typologien verwalten](../../administration/using/about-typology-rules.md#managing-typologies) und [Typologieregeln](../../administration/using/about-typology-rules.md#typology-rules).
 
    ![](assets/fatigue12.png)
 
@@ -87,9 +87,9 @@ Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie 
 >
 >Damit Ermüdungsregeln funktionieren, müssen Sie ein Kontaktdatum für den Versand festlegen. Wenn Sie Nachrichten sofort senden möchten, wird die Ermüdungsregel nicht angewendet.
 
-## Kanal auswählen {#choosing-the-channel}
+## Kanal auswählen  {#choosing-the-channel}
 
-Ermüdungsregeln sind für mehrere Kanäle verfügbar. Den Kanal können Sie in den Einstellungen der Typologieregel im Feld **[!UICONTROL Kanal]definieren.** Zur Auswahl stehen entweder ein einzelner Kanal oder **[!UICONTROL Alle Kanäle]**.
+Ermüdungsregeln sind für mehrere Kanäle verfügbar. Den Kanal können Sie in den Einstellungen der Typologieregel im Feld **[!UICONTROL Kanal]** definieren. Zur Auswahl stehen entweder ein einzelner Kanal oder **[!UICONTROL Alle Kanäle]**.
 
 ![](assets/fatigue5.png)
 
@@ -114,7 +114,7 @@ Ermüdungsregeln sind mit allen Versandtypen kompatibel: einmalige Sendungen, wi
 
 **Transaktionsnachrichten** kommen zum Versand von Dienstnachrichten zur Anwendung. In diesem Fall wird die Zielgruppe über Ereignisse (rtEvent) bestimmt. Aber auch der Versand von Marketing-Nachrichten ist möglich, bei denen die Zielgruppe Profile enthält. Dies ist beispielsweise bei Remarketing-Nachrichten der Fall. Ermüdungsregeln sind nur mit Marketing-Nachrichten kompatibel (Zielgruppenbestimmung durch Profile). Ereignis-Transaktionsnachrichten enthalten keine Profilinformationen, weshalb sie nicht mit Ermüdungsregeln kompatibel sind (auch nicht, wenn sie mit Profilen angereichert werden). Durch die Unterstützung von Marketing-Nachrichten durch Transaktionsnachrichten können Sie **auf alle Kanäle eine Ermüdungsregel anwenden, auch auf Marketing-Transaktionsnachrichten**.
 
-## Schwelle definieren {#defining-the-threshold}
+## Schwelle definieren  {#defining-the-threshold}
 
 In jeder Ermüdungsregel wird eine Schwelle definiert, also eine maximale Nachrichtenanzahl, die in einem gewissen Zeitraum an ein Profil gesendet werden kann. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
 
@@ -130,48 +130,48 @@ Die Schwelle ist standardmäßig konstant. Die von der Regel erlaubte maximale N
 
 **Variable Schwelle verwenden**
 
-Um eine variable Schwelle zu definieren, wählen Sie im Feld **** Schwellentyp] den Wert **[!UICONTROL Empfängerabhängig]aus.[!UICONTROL **
+Um eine variable Schwelle zu definieren, wählen Sie im Feld **[!UICONTROL Schwellentyp]** den Wert **[!UICONTROL Empfängerabhängig]** aus.
 
 ![](assets/fatigue15.png)
 
 Dann haben Sie zwei Möglichkeiten:
 
-* Wählen Sie ein Profilfeld aus: Die Schwelle ändert sich für jedes Profil entsprechend dem ausgewählten Feld. Wenn Sie beispielsweise die Profil-Ressource durch das Feld 'Kommunikationshäufigkeit' erweitert haben, wählen Sie das Feld mithilfe der Schaltfläche rechts vom Feld **[!UICONTROL Schwellenformel]und danach Ihr Feld aus.** Für jedes Profil übernimmt die Schwelle den im Feld 'Kommunikationshäufigkeit‘ angegebenen Wert.
+* Wählen Sie ein Profilfeld aus: Die Schwelle ändert sich für jedes Profil entsprechend dem ausgewählten Feld. Wenn Sie beispielsweise die Profil-Ressource durch das Feld 'Kommunikationshäufigkeit' erweitert haben, wählen Sie das Feld mithilfe der Schaltfläche rechts vom Feld **[!UICONTROL Schwellenformel]** und danach Ihr Feld aus. Für jedes Profil übernimmt die Schwelle den im Feld 'Kommunikationshäufigkeit‘ angegebenen Wert.
 
    ![](assets/fatigue21.png)
 
-* Definieren Sie eine Formel: Verwenden Sie die zweite Schaltfläche rechts neben dem Feld **[!UICONTROL Schwellenformel], um eine erweiterte Schwellenformel zu definieren.** Sie können beispielsweise die Anzahl der genehmigten Nachrichten entsprechend dem Segment indexieren, zu dem das Profil gehört. Dies bedeutet, dass ein Profil, das zum Segment 'Web' gehört, mehr Nachrichten erhalten kann als andere Profile. Mit einer Formel vom Typ **[!UICONTROL Iif (@origin='Web', 5, 3)]wird der Versand von fünf Nachrichten an Profile des Web-Segments und an drei anderer Segmente genehmigt.**
+* Definieren Sie eine Formel: Verwenden Sie die zweite Schaltfläche rechts neben dem Feld **[!UICONTROL Schwellenformel]**, um eine erweiterte Schwellenformel zu definieren. Sie können beispielsweise die Anzahl der genehmigten Nachrichten entsprechend dem Segment indexieren, zu dem das Profil gehört. Dies bedeutet, dass ein Profil, das zum Segment 'Web' gehört, mehr Nachrichten erhalten kann als andere Profile. Mit einer Formel vom Typ **[!UICONTROL Iif (@origin='Web', 5, 3)]** wird der Versand von fünf Nachrichten an Profile des Web-Segments und an drei anderer Segmente genehmigt.
 
    ![](assets/fatigue14.png)
 
 **Schwelle für Profile und Sendungen präzisieren**
 
-Standardmäßig werden bei der Schwellenberechnung alle Nachrichten berücksichtigt. Markieren Sie die Option **[!UICONTROL Schwelle für Profile und Sendungen präzisieren], um bei der Versandvorbereitung die zu zählenden Profile und Sendungen zu filtern.**
+Standardmäßig werden bei der Schwellenberechnung alle Nachrichten berücksichtigt. Markieren Sie die Option **[!UICONTROL Schwelle für Profile und Sendungen präzisieren]**, um bei der Versandvorbereitung die zu zählenden Profile und Sendungen zu filtern.
 
 Im folgenden Beispiel werden nur männliche Profile und nur Sendungen mit einem Titel gezählt, der mit **Newsletter** beginnt.
 
 ![](assets/fatigue13.png)
 
-Das Präzisieren der Schwelle für Sendungen funktioniert anders als die Beschränkung der Anwendbarkeit der gesamten Regel (Tab **[!UICONTROL Anwendungskriterien]):**
+Das Präzisieren der Schwelle für Sendungen funktioniert anders als die Beschränkung der Anwendbarkeit der gesamten Regel (Tab **[!UICONTROL Anwendungskriterien]**):
 
 * **[!UICONTROL Anwendungskriterien]**: Hier legen Sie fest, ob die Regel gemäß bestimmten Kriterien ausgeführt werden soll oder nicht. Wenn beispielsweise Ihre Anwendungsbedingung 'Titel beginnt mit Newsletter' lautet, wird die Regel nur auf Sendungen angewendet, auf die diese Bedingung zutrifft. Wenn der Titel des Versands mit 'Promotion' beginnt, wird die Regel gar nicht ausgeführt.
 * **[!UICONTROL Schwelle für Profile und Sendungen präzisieren &gt; Zu zählende Sendungen]**: Alle Sendungen, die diese Typologieregel verwenden, führen die Regel aus, doch Sie entscheiden, welche der ausgeführten und geplanten Sendungen gezählt werden sollen. Wenn beispielsweise Ihre Beschränkung ‚Titel beginnt mit Newsletter‘ lautet, wird die Regel ausgeführt, selbst wenn der Versandtitel mit 'Promo‘ beginnt. Gezählt wird die Anzahl der Sendungen im ausgewählten beweglichen Zeitraum, deren Titel mit 'Newsletter‘ beginnt.
 
-## Beweglichen Zeitraum festlegen {#setting-the-sliding-period}
+## Beweglichen Zeitraum festlegen  {#setting-the-sliding-period}
 
-Die Ermüdungsregeln werden für bewegliche Zeiträume von n Tagen bestimmt. Der Zeitraum wird im Bereich **[!UICONTROL Beweglicher Zeitraum]konfiguriert, z. B. 2 Wochen, 7 Tage oder 5 Stunden.**
+Die Ermüdungsregeln werden für bewegliche Zeiträume von n Tagen bestimmt. Der Zeitraum wird im Bereich **[!UICONTROL Beweglicher Zeitraum]** konfiguriert, z. B. 2 Wochen, 7 Tage oder 5 Stunden.
 
 ![](assets/fatigue6.png)
 
 Bei der Ausführung der Regel werden sowohl vergangene als auch geplante Sendungen berücksichtigt. Damit wird sichergestellt, dass in einem bestimmten beweglichen Zeitraum die Schwelle nie überschritten wird.
 
-For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date ** and 48 hours **after the contact date**. Der ausgewählte Zeitraum wird demnach verdoppelt, damit sowohl künftige als auch vorhergegangene Sendungen einbezogen werden können.
+Wenn Sie beispielsweise einen Zeitraum von 48 Stunden definieren, werden vom System 48 Stunden **vor dem Kontaktdatum ** und 48 Stunden **nach dem Kontaktdatum** berücksichtigt. Der ausgewählte Zeitraum wird demnach verdoppelt, damit sowohl künftige als auch vorhergegangene Sendungen einbezogen werden können.
 
 Um die berücksichtigten Sendungen auf einen Zeitraum von zwei Wochen zu beschränken, geben Sie im Bereich **Beweglicher Zeitraum** die Option **Tag** und **7** oder 1 Woche ein. In dieser Berechnung werden Sendungen berücksichtigt, die bis zu sieben Tage vor dem Verfügbarkeitsdatum und bis zu sieben Tage nach dem in der Regel festgelegten Verfügbarkeitsdatum durchgeführt werden.
 
-## Ermüdungsergebnisse ansehen {#viewing-the-fatigue-results}
+## Ermüdungsergebnisse ansehen  {#viewing-the-fatigue-results}
 
-Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie bereits eine bestimmte Anzahl an Sendungen erhalten haben. Der Zugriff auf die Durchführungsergebnisse der Ermüdungsregel ist über die Schaltfläche rechts unten in der **[!UICONTROL Freigabe]-Kachel möglich.**
+Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie bereits eine bestimmte Anzahl an Sendungen erhalten haben. Der Zugriff auf die Durchführungsergebnisse der Ermüdungsregel ist über die Schaltfläche rechts unten in der **[!UICONTROL Freigabe]**-Kachel möglich.
 
 ![](assets/fatigue22.png)
 
@@ -189,11 +189,11 @@ In drei Tabs werden die Durchführungsergebnisse der Ermüdungsregel, einschlie�
 
    ![](assets/fatigue19.png)
 
-## Bericht mit der Zusammenfassung zu Ermüdungsregeln ansehen {#viewing-the-fatigue-rule-summary-report}
+## Bericht mit der Zusammenfassung zu Ermüdungsregeln ansehen  {#viewing-the-fatigue-rule-summary-report}
 
 In Adobe Campaign ist ein Bericht zu Ermüdungsregeln verfügbar, dem Sie entnehmen können, wie die Regeln auf Ihre Kampagnen angewendet werden. Dadurch erfahren Sie, wie Ihre Kampagnen einander beeinflussen und welche Anpassungen Sie vornehmen können.
 
-Der Bericht mit der **[!UICONTROL Zusammenfassung zu Ermüdungsregeln]** kann in der rechten oberen Ecke eines Programms, einer Kampagne oder einer Nachricht über die Schaltfläche **Berichte]geöffnet werden.[!UICONTROL **
+Der Bericht mit der **[!UICONTROL Zusammenfassung zu Ermüdungsregeln]** kann in der rechten oberen Ecke eines Programms, einer Kampagne oder einer Nachricht über die Schaltfläche **[!UICONTROL Berichte]** geöffnet werden.
 
 ![](assets/fatigue27.png)
 
@@ -204,7 +204,7 @@ Das Kreisdiagramm bietet für den ausgewählten Zeitraum die folgenden Informati
 * **[!UICONTROL Gesamtzahl der Zielkontakte]**: die gesamte Zielgruppe vor der Nachrichtenvorbereitung
 * **[!UICONTROL Ausgeschlossen]**: die Gesamtzahl der Ausschlüsse wegen der Anwendung der Ermüdungsregel
 * **[!UICONTROL Sonstige Ausschlüsse]**: die Gesamtzahl der Ausschlüsse wegen anderer Typologieregeln
-* **[!UICONTROL Bereitstellen]**: die Gesamtanzahl der Nachrichten, die nach der Nachrichtenvorbereitung bereitgestellt werden sollen ( **[!UICONTROL "To Delivery]** = **[!UICONTROL Total Targeted]** - **[!UICONTROL Excluded - Excluded]** - **[!UICONTROL Other Exclusions]** " )
+* **[!UICONTROL Zu senden]**: die Gesamtzahl der nach der Nachrichtenvorbereitung zu sendenden Nachrichten (**[!UICONTROL Zu senden]** = **[!UICONTROL Gesamtzahl der Zielkontakte]** - **[!UICONTROL Ausgeschlossen]** - **[!UICONTROL Sonstige Ausschlüsse]**).
 
 Rechts neben dem Diagramm finden Sie die Anzahl der Ausschlüsse aufgeschlüsselt nach Ermüdungsregeln.
 
@@ -218,7 +218,7 @@ In der Tabelle am unteren Seitenrand werden alle im ausgewählten Zeitraum durch
 >
 >Die angezeigten Daten beziehen sich kontextuell nicht auf das Programm, die Nachricht oder die Kampagne, von denen auf den Bericht zugegriffen wird. In diesem Bericht werden alle Ermüdungsregeln und Sendungen für alle Organisationseinheiten angezeigt. Dadurch erhalten Sie einen umfassenden Überblick über alle Sendungen und können analysieren, wie Ihre Kampagnen durch andere beeinflusst werden.
 
-## Beispiele {#examples}
+## Beispiele  {#examples}
 
 Es gibt viele Möglichkeiten zur Verwendung der Ermüdungsfunktion. Hier sind einige Beispiele:
 
@@ -256,20 +256,20 @@ Im Folgenden finden Sie ein Beispiel mit einer schrittweisen Anleitung zur Erste
 
 In diesem Anwendungsbeispiel möchten wir eine Typologieregel erstellen, die die Anzahl der wöchentlich gesendeten Nachrichten an Premium-Profile auf 2 und an Standard-Profile ebenfalls auf 2 begrenzt.
 
-Um Kunden und Interessenten zu identifizieren, haben wir die Profil-Ressource mit dem Feld **[!UICONTROL Status]erweitert, das 0 für Premium-Profile und 1 für Standard-Profile enthält.**
+Um Kunden und Interessenten zu identifizieren, haben wir die Profil-Ressource mit dem Feld **[!UICONTROL Status]** erweitert, das 0 für Premium-Profile und 1 für Standard-Profile enthält.
 
 Befolgen Sie die nachstehenden Schritte, um die Regel zu konfigurieren:
 
 1. Erstellen Sie eine neue Typologieregel vom Typ **Ermüdung**.
-1. Im Bereich **[!UICONTROL Schwelle]möchten wir eine Formel zur Berechnung der Schwelle für jedes Profil erstellen.** Wählen Sie im Feld **Schwellentyp** den Wert **[!UICONTROL Empfängerabhängig]aus und verwenden Sie dann die zweite Schaltfläche rechts vom Feld** Schwellenformel **.**
+1. Im Bereich **[!UICONTROL Schwelle]** möchten wir eine Formel zur Berechnung der Schwelle für jedes Profil erstellen. Wählen Sie im Feld **[!UICONTROL Schwellentyp**] den Wert **[!UICONTROL Empfängerabhängig]** aus und verwenden Sie dann die zweite Schaltfläche rechts vom Feld [!UICONTROL **Schwellenformel]**.
 
    ![](assets/fatigue7.png)
 
-1. Wählen Sie in der **[!UICONTROL Funktionsliste]** im Knoten **Sonstige]mit einem Doppelklick die Funktion** Iif **aus.[!UICONTROL **
+1. Wählen Sie in der **[!UICONTROL Funktionsliste]** im Knoten **[!UICONTROL Sonstige]** mit einem Doppelklick die Funktion **Iif** aus.
 
    ![](assets/fatigue8.png)
 
-1. Wählen Sie anschließend den **Status** des Profils im Abschnitt **[!UICONTROL Verfügbare Felder]aus.**
+1. Wählen Sie anschließend den **Status** des Profils im Abschnitt **[!UICONTROL Verfügbare Felder]** aus.
 
    ![](assets/fatigue9.png)
 
@@ -279,12 +279,12 @@ Befolgen Sie die nachstehenden Schritte, um die Regel zu konfigurieren:
 
    Diese Formel ordnet einem Status gleich 0 den Wert 2 und jedem anderen Status den Wert 4 zu.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen], um die Formel zu bestätigen.**
-1. Wählen Sie einen **[!UICONTROL beweglichen Zeitraum]aus, in dem die Regel gelten soll: Wählen Sie für unser Beispiel sieben Tage aus, um die berücksichtigten Sendungen auf einen Zeitraum von zwei Wochen zu beschränken.**
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]**, um die Formel zu bestätigen.
+1. Wählen Sie einen **[!UICONTROL beweglichen Zeitraum]** aus, in dem die Regel gelten soll: Wählen Sie für unser Beispiel sieben Tage aus, um die berücksichtigten Sendungen auf einen Zeitraum von zwei Wochen zu beschränken.
 
    ![](assets/fatigue11.png)
 
-1. Fügen Sie die Regel einer Typologie hinzu, um sie bei Sendungen anwenden zu können. Wählen Sie dazu den Tab **[!UICONTROL Typologien]**, die Option **Element erstellen]und danach die für Ihre Sendungen verwendete Typologie aus.[!UICONTROL **
+1. Fügen Sie die Regel einer Typologie hinzu, um sie bei Sendungen anwenden zu können. Wählen Sie dazu den Tab **[!UICONTROL Typologien]**, die Option **[!UICONTROL Element erstellen]** und danach die für Ihre Sendungen verwendete Typologie aus.
 
    ![](assets/fatigue12.png)
 
