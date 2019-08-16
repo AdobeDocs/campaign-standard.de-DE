@@ -3,18 +3,18 @@ title: Über die Inhaltserstellung für SMS und Push-Benachrichtigungen
 seo-title: Über die Inhaltserstellung für SMS und Push-Benachrichtigungen
 description: Über die Inhaltserstellung für SMS und Push-Benachrichtigungen
 seo-description: Hier erhalten Sie Informationen zum Editor, mit dem Sie den Inhalt von SMS und Push-Benachrichtigungen in Adobe Campaign ändern können.
-page-status-flag: nie aktiviert
-uuid: 99277 e 46-e 4 f 7-49 a 9-ba 27-b 878780 f 90 da
+page-status-flag: never-activated
+uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: editing-sms-and-push-content
-discoiquuid: 6 e 21 db 35-daf 9-4 edb -977 a -6 ef 606 db 0 e 4 d
-context-tags: Bereitstellung, smscontent, zurück
+discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
+context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c880b265cf83cb76b2cdbe3cbdd77182adb71bb1
 
 ---
@@ -33,11 +33,11 @@ In den folgenden Abschnitten werden die für Marketingaktivitäten am häufigste
 
 Um auf den Inhaltseditor für SMS und Push-Benachrichtigungen zuzugreifen, gehen Sie wie folgt vor:
 
-* Wählen Sie im Dashboard einer SMS die Kachel **[!UICONTROL Inhalt]aus.**
+* Wählen Sie im Dashboard einer SMS die Kachel **[!UICONTROL Inhalt]** aus.
 
    ![](assets/des_sms_content.png)
 
-* Wählen Sie im Dashboard einer Push-Benachrichtigung neben dem Feld **[!UICONTROL Nachrichtentext]das Stiftsymbol aus.**
+* Wählen Sie im Dashboard einer Push-Benachrichtigung neben dem Feld **[!UICONTROL Nachrichtentext]** das Stiftsymbol aus.
 
    ![](assets/des_push_body.png)
 
