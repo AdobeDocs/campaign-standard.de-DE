@@ -3,17 +3,17 @@ title: Listenexport
 seo-title: Listenexport
 description: Listenexport
 seo-description: 'In Adobe Campaign lassen sich die als Listen dargestellten Daten direkt von einem Übersichtsbildschirm in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. '
-page-status-flag: nie aktiviert
-uuid: c 64 fe 706-bd 6 e -4746-958 e-f 94226 f 4 e 2 cb
+page-status-flag: never-activated
+uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
-topic-tags: import-and-exporting-data
-discoiquuid: 12 c 874 da -435 f -44 b 6-a 3 c 8-873301 e 177 cc
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: importing-and-exporting-data
+discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
 
 ---
@@ -21,24 +21,24 @@ source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
 
 # Listenexport{#exporting-lists}
 
-In Adobe Campaign lassen sich Inhalte von Listen direkt in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. Durch das Exportieren einer Liste in eine Datei wird im Menü **[!UICONTROL Export-Audits]ein Protokolleintrag erstellt.** Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
+In Adobe Campaign lassen sich Inhalte von Listen direkt in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. Durch das Exportieren einer Liste in eine Datei wird im Menü **[!UICONTROL Export-Audits]** ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
 
-Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit** definiert wurden. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** menu.
+Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit** definiert wurden. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Optionen]** verwaltet werden.
 
-Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-Ansicht aufweisen, vorausgesetzt der Benutzer verfügt über die Benutzerrolle **[!UICONTROL EXPORT (export)].**
+Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-Ansicht aufweisen, vorausgesetzt der Benutzer verfügt über die Benutzerrolle **[!UICONTROL EXPORT (export)]**.
 
-1. Gehen Sie in einen beliebigen Bildschirm vom Typ **Liste**, For example, the test profile overview screen ( **[!UICONTROL Profiles &amp; audiences]** &gt; **[!UICONTROL Test profiles]** ).
+1. Gehen Sie in einen beliebigen Bildschirm vom Typ **Liste**, beispielsweise die Testprofil-Übersicht (**[!UICONTROL Profile &amp; Audiences]** &gt; **[!UICONTROL Testprofile]**).
 1. Stellen Sie sicher, dass der Bildschirm sich im Anzeigemodus **Liste** befindet.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Ordnen Sie die Spalten der Liste mithilfe der Schaltfläche **[!UICONTROL Liste konfigurieren]oben rechts so an, wie sie exportiert werden sollen.** Neben den so ausgewählten Spalten wird auch der Primärschlüssel der Ressource exportiert.
+1. Ordnen Sie die Spalten der Liste mithilfe der Schaltfläche **[!UICONTROL Liste konfigurieren]** oben rechts so an, wie sie exportiert werden sollen. Neben den so ausgewählten Spalten wird auch der Primärschlüssel der Ressource exportiert.
 1. Bei Bedarf können die Daten gefiltert werden. Verwenden Sie die Schaltfläche links oben, um das Suchemenü einzublenden.
 
    Wenn der Export ausgehend von einer Liste mit Ressourcen verschiedenen Typs konfiguriert wird, ist diese zunächst zu filtern, sodass nur ein Ressourcentyp angezeigt wird.
 
 1. Bei Bedarf können die Spalten sortiert werden.
-1. Select the export button ![](assets/exportlistbutton.png).
+1. Verwenden Sie dann die Schaltfläche ![](assets/exportlistbutton.png), um den Export zu starten.
 
    Ein Popup zur Bestätigung erscheint. Sobald Sie den Export bestätigt haben, wird die Datei automatisch auf Ihr Gerät geladen.
 
@@ -77,5 +77,5 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
-* Video [Configuring list](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
+* Video [Configuring list](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
 
