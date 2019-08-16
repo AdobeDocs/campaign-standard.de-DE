@@ -3,17 +3,17 @@ title: An den Absender zurücksenden
 seo-title: An den Absender zurücksenden
 description: An den Absender zurücksenden
 seo-description: Hier erfahren Sie, wie Sie sich vom Vorhandensein einer falschen Anschrift informieren lassen und diese von der künftigen Kommunikation ausschließen können.
-page-status-flag: nie aktiviert
-uuid: 11981 c 2 f -0 b 7 f -4166-9 daa-ec 6 a 6 b 4 d 367 7
+page-status-flag: never-activated
+uuid: 11981c2f-0b7f-4166-9daa-ec6a6b4d5367
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
-topic-tags: Direktnachricht
-discoiquuid: 5 f 20 ff 3 f -8242-4735-8 c 60-c 77610 edff 52
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: direct-mail
+discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
 
 ---
