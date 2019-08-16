@@ -3,18 +3,18 @@ title: Dienst erstellen
 seo-title: Dienst erstellen
 description: Dienst erstellen
 seo-description: Hier erfahren Sie, wie Sie Ihren ersten Dienst erstellen und ihn so konfigurieren, dass Sie E-Mail-Bestätigungen an Ihre Abonnenten senden können.
-page-status-flag: nie aktiviert
-uuid: 0 d 95 d 852-0 f 22-4 b 7 b-b 301-8 fb 4844 c 3 ca 2
+page-status-flag: never-activated
+uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Zielgruppen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 6 b 7788 fe-fa 6 c -472 a -97 db -765595 ce 1589
-context-tags: service, Assistent; service, main
+discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
+context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
 
 ---
@@ -30,7 +30,7 @@ So konfigurieren Sie einen Dienst:
 
    Eine Standard-Dienstvorlage steht zur Verfügung. Diese Vorlage ist so vorkonfiguriert, dass sie Standard-Landingpages und -Bestätigungs-E-Mails enthält. Sie haben jedoch die Möglichkeit der Erstellung anderer Vorlagen, wenn Sie spezielle Parameter angeben möchten. Weiterführende Informationen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
 
-1. Gehen Sie mithilfe der Schaltfläche ![ in die **Eigenschaften des Dienstes** und konfigurieren Sie die Bestätigungsnachrichten, die bei Anmeldungen oder Abmeldungen versendet werden sollen.](assets/edit_darkgrey-24px.png)
+1. Gehen Sie mithilfe der Schaltfläche ![](assets/edit_darkgrey-24px.png) in die **Eigenschaften des Dienstes** und konfigurieren Sie die Bestätigungsnachrichten, die bei Anmeldungen oder Abmeldungen versendet werden sollen.
 
    ![](assets/lp_service_parameters.png)
 
@@ -38,7 +38,7 @@ So konfigurieren Sie einen Dienst:
 
    * **[!UICONTROL Keine Nachricht]**: Mit diesem Modus können Sie einen Dienst ohne Bestätigungsnachricht erstellen.
    * **[!UICONTROL Standardnachricht]**: Bei diesem Modus wird die standardmäßige Bestätigungs-Transaktionsnachricht für An- oder Abmeldungen verwendet. Die Standard-Bestätigungsnachrichten sind allgemein gehalten und für alle Dienste identisch, die den Standardmodus verwenden.
-   * **[!UICONTROL Benutzerdefinierte Nachricht]**: In diesem Modus können Sie benutzerdefinierte Bestätigungsnachrichten verwenden, die für jeden Dienst anders sind. Wählen Sie hierfür die Option **[!UICONTROL Benutzerdefinierte Konfiguration des Anmeldeereignisses]aus. Diese Konfiguration ist mit einer bestimmten Transaktionsnachrichtenvorlage verknüpft.** Weiterführende Informationen zur Konfiguration von Transaktionsereignissen und -nachrichten finden Sie in [Transaktionsnachrichten](../../channels/using/about-transactional-messaging.md).
+   * **[!UICONTROL Benutzerdefinierte Nachricht]**: In diesem Modus können Sie benutzerdefinierte Bestätigungsnachrichten verwenden, die für jeden Dienst anders sind. Wählen Sie hierfür die Option **[!UICONTROL Benutzerdefinierte Konfiguration des Anmeldeereignisses]** aus. Diese Konfiguration ist mit einer bestimmten Transaktionsnachrichtenvorlage verknüpft. Weiterführende Informationen zur Konfiguration von Transaktionsereignissen und -nachrichten finden Sie in [Transaktionsnachrichten](../../channels/using/about-transactional-messaging.md).
 
 1. Speichern Sie den Dienst. Dieser kann nun verwendet werden.
 
@@ -46,7 +46,7 @@ Nachdem ein Dienst erstellt wurde, können Sie damit beginnen, ihn zu bewerben.
 
 **Verwandte Themen:**
 
-* Video [Managing a service and subscriptions](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
+* Video [Managing a service and subscriptions](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
 * [Dienst bewerben](../../audiences/using/promoting-a-service.md)
 * [Erstellen einer Audience aus Abonnenten](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Formular einem Dienst zuordnen](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
