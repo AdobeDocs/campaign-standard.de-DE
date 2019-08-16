@@ -115,7 +115,7 @@ Wir empfehlen zum Einrichten des Amazon-S3-Kontos folgende Vorgehensweise:
 
 * Erstellen Sie eine restriktive Bucket-Richtlinie, um den Zugriff auf S3-Buckets zu beschränken. Die Bucket-Richtlinie kann während der Erstellung eines Buckets konfiguriert werden. Weiterführende Informationen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Aktivieren Sie bei der Erstellung eines externen Kontos die Verschlüsselung bei der Speicherung sensibler Daten im S3-Bucket, indem Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen]** aktivieren.
-* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](.http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
 
 ## Externes Adobe-Experience-Manager-Konto {#adobe-experience-manager-external-account}
 
