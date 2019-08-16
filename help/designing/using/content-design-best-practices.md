@@ -3,17 +3,17 @@ title: Best Practices bei der Inhaltserstellung
 seo-title: Best Practices bei der Inhaltserstellung
 description: Best Practices bei der Inhaltserstellung
 seo-description: Beachten Sie die folgenden Hinweise, um eine optimale Funktionsweise des Editors zu gewährleisten.
-page-status-flag: nie aktiviert
-uuid: ad 74 f 49 d -999 f -4140-89 b 0-d 1 ead 6642 d 89
+page-status-flag: never-activated
+uuid: ad74f49d-999f-4140-89b0-d1ead8642d89
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: about-content-design
-discoiquuid: d 33 f 5 f 14-a 4 e 3-4327-bd 16-eb 3135 a 32076
+discoiquuid: d33f5f14-a4e3-4327-bd16-eb3135a32076
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -42,4 +42,4 @@ Bitte beachten Sie folgende Hinweise, um eine optimale Funktionsweise des Editor
 
       Eine offizielle Liste aller möglichen 'type'-Attribute ist unter folgender Adresse abrufbar: [http://www.w3schools.com/tags/att_input_type.asp](http://www.w3schools.com/tags/att_input_type.asp).
 
-Weitere Empfehlungen zur Erstellung und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Weitere Empfehlungen zum Erstellen und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand mit Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
