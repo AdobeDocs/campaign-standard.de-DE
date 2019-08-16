@@ -3,17 +3,17 @@ title: Bedienfelder hinzufügen
 seo-title: Bedienfelder hinzufügen
 description: Bedienfelder hinzufügen
 seo-description: Dynamische Berichte ermöglichen es Ihnen, ein Bedienfeld hinzuzufügen, um Ihre Daten entsprechend dem ausgewählten Zeitraum zu filtern.
-page-status-flag: nie aktiviert
-uuid: 8 e 76 e 837-5 efc -4250-8192-dee 1 a 0 bd 62 fe
+page-status-flag: never-activated
+uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
-topic-tags: anpassen-Berichte
-discoiquuid: f 4 e 1 e 676-5 ca 2-4 a 58-96 d 7-d 378 ff 803710
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
+discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
 ---
@@ -37,7 +37,7 @@ In diesen Bedienfeldern können Sie nach Bedarf Ihre Berichte erstellen. Sie kö
 
 Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
-## Freiformtabelle hinzufügen {#adding-a-freeform-table}
+## Freiformtabelle hinzufügen  {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **Komponente** analysiert werden.
 
@@ -53,7 +53,7 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Ziehen Sie bei Bedarf **[!UICONTROL Segmente]** vom Tab **Komponenten]in die Symbolleiste, um Ihren Bericht nach der Altersgruppe Ihres Empfängers zu filtern.[!UICONTROL **
+1. Ziehen Sie bei Bedarf **[!UICONTROL Segmente]** vom Tab **[!UICONTROL Komponenten]** in die Symbolleiste, um Ihren Bericht nach der Altersgruppe Ihres Empfängers zu filtern.
 
    ![](assets/dynamic_report_panel_3.png)
 
@@ -65,15 +65,15 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   Die **[!UICONTROL Spalteneinstellungen]beinhalten folgende Optionen:**
+   Die **[!UICONTROL Spalteneinstellungen]** beinhalten folgende Optionen:
 
    * **[!UICONTROL Anzahl]**: Ermöglicht das Anzeigen oder Verbergen der Anzahl der Zusammenfassungen in der Spalte
    * **[!UICONTROL Prozent]**: Ermöglicht das Anzeigen oder Verbergen der Prozente in der Spalte
    * **[!UICONTROL Null als keinen Wert auffassen]**: Ermöglicht es, den Wert Null anzuzeigen oder zu verbergen.
    * **[!UICONTROL Hintergrund]**: Ermöglicht das Anzeigen oder Verbergen des Fortschrittsbalkens in Zellen
-   * **[!UICONTROL Wiederholungsversuche einbeziehen]**: Ermöglicht das Einbeziehen von weiteren Zustellversuchen in das Ergebnis. This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Wiederholungsversuche einbeziehen]**: Ermöglicht das Einbeziehen von weiteren Zustellversuchen in das Ergebnis. Dies ist nur für **[!UICONTROL Gesendet]** und **[!UICONTROL Bounces + Fehler]** verfügbar.
 
-1. Wählen Sie eine oder mehrere Zeilen aus und danach das Symbol **Visualisieren.** Die ausgewählten Zeilen werden daraufhin grafisch dargestellt.
+1. Wählen Sie eine oder mehrere Zeilen aus und danach das Symbol **Visualisieren**. Die ausgewählten Zeilen werden daraufhin grafisch dargestellt.
 
    ![](assets/dynamic_report_freeform_5.png)
 
