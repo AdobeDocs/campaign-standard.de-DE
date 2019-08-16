@@ -3,18 +3,18 @@ title: Test
 seo-title: Test
 description: Test
 seo-description: Die Test-Aktivität ermöglicht eine Transition auf der Basis eines Testergebnisses.
-page-status-flag: nie aktiviert
-uuid: 1562 ec 7 a -253 a -4 f 4 f-b 66 a-c 2948 b 57775 a
+page-status-flag: never-activated
+uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: execution-activities
-discoiquuid: 2650 bf 1 f -0 bce -4049-a 226-2369 f 6666 b 95
-context-tags: längste, Haupt
+discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
+context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ![](assets/test.png)
 
-Die **[!UICONTROL Test]-Aktivität ermöglicht eine Transition auf der Basis eines Testergebnisses.**
+Die **[!UICONTROL Test]**-Aktivität ermöglicht eine Transition auf der Basis eines Testergebnisses.
 
 ## Anwendungskontext {#context-of-use}
 
@@ -36,20 +36,20 @@ Wenn keine Bedingung erfüllt wird und die Option **Use default transition** akt
 
 ![](assets/wkf_test_activity_example.png)
 
-Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereignisvariablen, die in der Workflow-Aktivität **[!UICONTROL Externes Signal]deklariert wurden.**
+Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereignisvariablen, die in der Workflow-Aktivität **[!UICONTROL Externes Signal]** deklariert wurden.
 
 **Verwandte Themen:**
 
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 * [Workflow mit externen Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-## Konfiguration {#configuration}
+## Konfiguration  {#configuration}
 
-1. Ziehen Sie eine **[!UICONTROL Test]-Aktivität in den Workflow-Arbeitsbereich.**
+1. Ziehen Sie eine **[!UICONTROL Test]**-Aktivität in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
 1. Definieren Sie die Attribute einer jeden Bedingung:
 
-   Zur Bearbeitung des Felds **[!UICONTROL Bedingung]stehen zwei Schaltflächen zur Verfügung, mit denen Ereignisvariablen aufgerufen und Ausdrücke durch die Kombination von Variablen und Funktionen bearbeitet werden können:**
+   Zur Bearbeitung des Felds **[!UICONTROL Bedingung]** stehen zwei Schaltflächen zur Verfügung, mit denen Ereignisvariablen aufgerufen und Ausdrücke durch die Kombination von Variablen und Funktionen bearbeitet werden können:
 
    * ![](assets/extsignal_picker.png): Wählen Sie die Ereignisvariable unter den im Workflow verfügbaren Variablen aus (siehe [Workflow mit externen Parametern anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)).
 
