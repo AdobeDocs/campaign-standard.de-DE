@@ -3,17 +3,17 @@ title: Listen anpassen
 seo-title: Listen anpassen
 description: Listen anpassen
 seo-description: '"Hier erfahren Sie, wie Sie in Adobe Campaign Standard die Anzeige anpassen und bei Bildschirmen des Typs Liste vorgehen, um Elemente zu sortieren, zu filtern, zu löschen oder zu duplizieren. Bildschirme vom Typ Liste ermöglichen die Anzeige der Elemente einer oder mehrerer Ressourcen."'
-page-status-flag: nie aktiviert
-uuid: 3350583 c -91 ca -4 ea 5-ac 14-6 b 6 f 11 c 4 a 64 a
+page-status-flag: never-activated
+uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
-topic-tags: discover, Oberfläche
-discoiquuid: 4 ba 4 f 766-fdee -4 ff 0-8 fe 4-0612 ed 2 b 69 a 4
+content-type: reference
+topic-tags: discovering-the-interface
+discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ---
@@ -42,7 +42,7 @@ Es besteht die Möglichkeit, Spalten einer Liste anzuzeigen oder auszublenden. G
 
    ![](assets/export_list_mode_switch.png)
 
-1. Verwenden Sie die Schaltfläche ![ der Symbolleiste, um auf das Fenster zur Listenkonfiguration zuzugreifen.](assets/columnsettings.png)
+1. Verwenden Sie die Schaltfläche ![](assets/columnsettings.png) der Symbolleiste, um auf das Fenster zur Listenkonfiguration zuzugreifen.
 
    ![](assets/list_configuration1.png)
 
@@ -56,8 +56,8 @@ Es besteht die Möglichkeit, Spalten einer Liste anzuzeigen oder auszublenden. G
    * **[!UICONTROL ASC]**: Die Spalte wird in aufsteigender Reihenfolge sortiert.
    * **[!UICONTROL DESC]**: Die Spalte wird in absteigender Reihenfolge sortiert.
 
-1. Löschen Sie die Spalten, die nicht angezeigt werden sollten, indem Sie die Kästchen der zu löschenden Spalten markieren. Bestätigen Sie dann mit der Schaltfläche ![ in der Symbolleiste den Löschvorgang.](assets/delete.png)
-1. Abschließend können Sie die Reihenfolge der Spaltenanzeige bestimmen, indem Sie die Spalte, deren Platzierung geändert werden soll, markieren. Verwenden Sie dann zum Verschieben der Spalten die Pfeile ![](assets/arrowdown.png) und ![.](assets/arrowup.png)
+1. Löschen Sie die Spalten, die nicht angezeigt werden sollten, indem Sie die Kästchen der zu löschenden Spalten markieren. Bestätigen Sie dann mit der Schaltfläche ![](assets/delete.png) in der Symbolleiste den Löschvorgang.
+1. Abschließend können Sie die Reihenfolge der Spaltenanzeige bestimmen, indem Sie die Spalte, deren Platzierung geändert werden soll, markieren. Verwenden Sie dann zum Verschieben der Spalten die Pfeile ![](assets/arrowdown.png) und ![](assets/arrowup.png).
 1. Bestätigen Sie die Listenkonfiguration mithilfe der Schaltfläche **[!UICONTROL OK]**.
 
 Ihre Liste wird nun Ihrer Konfiguration entsprechend angezeigt.
