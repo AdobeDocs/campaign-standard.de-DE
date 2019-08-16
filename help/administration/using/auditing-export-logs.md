@@ -3,17 +3,17 @@ title: Log-Exporte überprüfen
 seo-title: Log-Exporte überprüfen
 description: Log-Exporte überprüfen
 seo-description: Administratoren können die aus Adobe Campaign vorgenommenen Exporte verfolgen.
-page-status-flag: nie aktiviert
-uuid: 2 a 93485 e-f 6 b 9-4 b 01-b 3 a 1-c 91 f 2739 d 188
+page-status-flag: never-activated
+uuid: 2a93485e-f6b9-4b01-b3a1-c91f2739d188
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: users-and-security
-discoiquuid: 1033 d 0 ce-a 400-47 ad-afda-bcf 7419 c 94 c 7
+discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 
 ---
@@ -21,9 +21,9 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 
 # Log-Exporte überprüfen{#auditing-export-logs}
 
-From **[!UICONTROL Administration]** &gt; **[!UICONTROL Users &amp; Security]** &gt; **[!UICONTROL Export audits]**, administrators can view a list of all the following exports, including their date and the user who performed the export:
+In **[!UICONTROL Administration]** &gt; **[!UICONTROL Benutzer &amp; Sicherheit]** &gt; **[!UICONTROL Export-Audits]** können sich Administratoren eine Liste der folgenden Exporte anzeigen lassen, einschließlich des Datums und des Benutzers, der den Export vorgenommen hat:
 
-* Mit der Aktivität **[!UICONTROL Dateiübertragung]in einem Workflow durchgeführter Datei-Upload**
+* Mit der Aktivität **[!UICONTROL Dateiübertragung]** in einem Workflow durchgeführter Datei-Upload
 * Listenexport aus einer Liste oder Unterliste
 * Von einem Versand-Dashboard einer Briefpost-Nachricht heruntergeladene Datei
 
