@@ -3,17 +3,17 @@ title: Filterregeln
 seo-title: Filterregeln
 description: Filterregeln
 seo-description: Mithilfe von Filterregeln können Sie die Zielgruppe Ihrer Nachrichten eingrenzen.
-page-status-flag: nie aktiviert
-uuid: ed 3 eea 62-3 a 47-4318-ae 22-d 82 aa 857448 f
+page-status-flag: never-activated
+uuid: ed3eea62-3a47-4318-ae22-d82aa857448f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 7 ddaf 36 c -74 e 6-4501-b 3 eb -3 d 03 f 005 aaa 6
+discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -25,25 +25,25 @@ Mit Filterregeln können Sie einen Teil der Nachrichten-Zielgruppe anhand von in
 
 Sie können beispielsweise Newsletter-Anmeldungen so filtern, dass Abonnenten unter 18 Jahren keine Nachricht erhalten.
 
-## Filterregel erstellen {#creating-a-filtering-rule}
+## Filterregel erstellen  {#creating-a-filtering-rule}
 
 1. Erstellen Sie eine **Filter**-Typologieregel, die auf alle Kommunikationskanäle angewendet werden kann.
 
    ![](assets/typology_create-rule.png)
 
-1. Wählen Sie im Tab **[!UICONTROL Filterbedingungen]** in der Kategorie **Anmeldung]die Abonnements aus.[!UICONTROL **
+1. Wählen Sie im Tab **[!UICONTROL Filterbedingungen]** in der Kategorie **[!UICONTROL Anmeldung]** die Abonnements aus.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Ziehen Sie im **[!UICONTROL Explorer]**-Tab des Abfrageeditors den **Abonnent]-Knoten per Drag-and-Drop in den Arbeitsbereich des Bildschirms.[!UICONTROL **
+1. Ziehen Sie im **[!UICONTROL Explorer]**-Tab des Abfrageeditors den **[!UICONTROL Abonnent]**-Knoten per Drag-and-Drop in den Arbeitsbereich des Bildschirms.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Wählen Sie das Feld **[!UICONTROL Alter]und definieren Sie die Filterbedingungen so, dass das Mindestalter der Abonnenten 18 Jahre beträgt.**
+1. Wählen Sie das Feld **[!UICONTROL Alter]** und definieren Sie die Filterbedingungen so, dass das Mindestalter der Abonnenten 18 Jahre beträgt.
 
    ![](assets/typology_create-rule-age.png)
 
-1. Verknüpfen Sie diese Regel im **[!UICONTROL Typologien]-Tab mit einer Typologie.**
+1. Verknüpfen Sie diese Regel im **[!UICONTROL Typologien]**-Tab mit einer Typologie.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -53,15 +53,15 @@ Sie können beispielsweise Newsletter-Anmeldungen so filtern, dass Abonnenten un
 
    >[!NOTE]
    >
-   >To access the delivery templates, select **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** in the navigation menu, which can be accessed via the Adobe Campaign logo.
+   >Um auf die Versandvorlagen zuzugreifen, verwenden Sie das Adobe Campaign-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen]**.
 
 Wenn diese Regel in einer Nachricht verwendet wird, werden minderjährige Abonnenten automatisch ausgeschlossen.
 
-## Anwendbarkeit einer Filterregel einschränken {#restricting-the-applicability-of-a-filtering-rule}
+## Anwendbarkeit einer Filterregel einschränken  {#restricting-the-applicability-of-a-filtering-rule}
 
 Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht einschränken.
 
-1. Deaktivieren Sie hierfür im Tab **[!UICONTROL Anwendungskriterien]** der Typologieregel die Option **Regel auf alle Sendungen anwenden], die standardmäßig aktiviert ist.[!UICONTROL **
+1. Deaktivieren Sie hierfür im Tab **[!UICONTROL Anwendungskriterien]** der Typologieregel die Option **[!UICONTROL Regel auf alle Sendungen anwenden]**, die standardmäßig aktiviert ist.
 
    ![](assets/typology_limit.png)
 
@@ -71,9 +71,9 @@ Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht e
 
 In diesem Fall wird die Regel nur auf die Nachrichten angewendet, die den definierten Kriterien entsprechen.
 
-## Standardmäßige Ausschlussregeln für Zustellbarkeit {#default-deliverability-exclusion-rules}
+## Standardmäßige Ausschlussregeln für Zustellbarkeit  {#default-deliverability-exclusion-rules}
 
-Two filtering rules are available by default: **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ). Während der E-Mail-Analyse vergleichen diese Regeln die E-Mail-Adressen der Empfänger mit den unzulässigen Adressen oder Domain-Namen aus einer verschlüsselten globalen Unterdrückungsliste, die in der Zustellbarkeitsinstanz verwaltet wird. Im Falle einer Übereinstimmung wird die Nachricht nicht an den jeweiligen Empfänger gesendet.
+Standardmäßig sind zwei Filterregeln verfügbar: **[!UICONTROL Ausschluss der Adressen]** (**[!UICONTROL addressExclusions]**) und **[!UICONTROL Ausschluss der Domains]** (**[!UICONTROL domainExclusions]**). Während der E-Mail-Analyse vergleichen diese Regeln die E-Mail-Adressen der Empfänger mit den unzulässigen Adressen oder Domain-Namen aus einer verschlüsselten globalen Unterdrückungsliste, die in der Zustellbarkeitsinstanz verwaltet wird. Im Falle einer Übereinstimmung wird die Nachricht nicht an den jeweiligen Empfänger gesendet.
 
 Auf diese Weise soll Blacklisting aufgrund von schädlichen Aktivitäten, insbesondere durch die Verwendung von Spamtraps, vermieden werden. Wenn beispielsweise für die Anmeldung über ein Webformular eine Spamtrap verwendet wird, wird automatisch eine Bestätigungs-E-Mail an diese Spamtrap gesendet. Als Folge davon wird Ihre Adresse automatisch auf die Blacklist gesetzt.
 
