@@ -3,18 +3,18 @@ title: Verteilung nach Domain
 seo-title: Verteilung nach Domain
 description: Verteilung nach Domain
 seo-description: Im vordefinierten Bericht über die Verteilung nach Domain erhalten Sie Leistungsdaten Ihrer Sendungen aufgeschlüsselt nach der Domain Ihrer Kunden.
-page-status-flag: nie aktiviert
-uuid: 75 a 64 c 81-325 b -422 f-b 6 ef-deb 6 6 eec 7 f 7 b
+page-status-flag: never-activated
+uuid: 75a64c81-325b-422f-b6ef-deb06eec7f7b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 2 ce 174 f 9-5 d 7 d -48 b 9-9235-6 bf 3 e 238 ff 37
-context-tags: Deliverydomainbreakdownreport, main; Campaigndomainbreakdownreport, main; Programdomainbreakdownreport, main
+discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
+context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
@@ -41,5 +41,5 @@ Die zweite Tabelle **Trackingstatistiken** enthält die verfügbaren Daten bezü
 * **Klicken**: Die Anzahl der Klicks auf einen Inhalt in einem Versand.
 * **Abgemeldet**: Gesamtanzahl der Klicks auf den Abmelde-Link.
 * **Mirrorseite**: Die Anzahl der Klicks auf die Mirrorseite.
-* **Auf Blacklist**: Die Anzahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben (siehe [Blacklists in Campaign verwenden)](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **Auf Blacklist**: Die Anzahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben (siehe [Blacklists in Campaign verwenden](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 
