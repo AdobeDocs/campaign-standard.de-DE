@@ -3,17 +3,17 @@ title: Über die Konfiguration von Kanälen
 seo-title: Über die Konfiguration von Kanälen
 description: Über die Konfiguration von Kanälen
 seo-description: '"Jeder Kanal muss konfiguriert werden: technische Konfiguration, Nachrichteneigenschaften und Vorlagen."'
-page-status-flag: nie aktiviert
-uuid: 667 b 1 c 4 b -4 c 79-4 c 52-9 d 0 a-ef 71993 e 50 a 2
+page-status-flag: never-activated
+uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406 c 955 a-b 2 d 2-4099-9918-95 f 5 fa 966067
+discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -30,6 +30,6 @@ Es gibt folgende Möglichkeiten für die Konfiguration:
 * Nachrichteneigenschaften: Bei der Erstellung einer neuen Nachricht können Sie die Eigenschaften gemäß Ihren Bedürfnissen anpassen.
 * Für manche Kanäle sind zusätzliche optionale Konfigurationsmöglichkeiten verfügbar, wie zum Beispiel E-Mail-BCC.
 
-Das Menü **[!UICONTROL Kanäle]enthält die technischen Parameter in Bezug auf die verschiedenen Anwendungskanäle (E-Mail, SMS) sowie die Typologie- und Quarantäneverwaltung.**
+Das Menü **[!UICONTROL Kanäle]** enthält die technischen Parameter in Bezug auf die verschiedenen Anwendungskanäle (E-Mail, SMS) sowie die Typologie- und Quarantäneverwaltung.
 
-Administrators can access these configurations in the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** menu.
+Administratoren können auf diese Konfigurationen über das Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** zugreifen.
