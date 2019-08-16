@@ -3,17 +3,17 @@ title: Link einfügen
 seo-title: Link einfügen
 description: Link einfügen
 seo-description: Hier erfahren Sie, wie Sie E-Mails oder Landingpages personalisieren, indem Sie Links in die HTML-Inhaltselemente einfügen.
-page-status-flag: nie aktiviert
-uuid: 2137 e 42 f -37 ac -40 fd -9 f 76-6 daf 31 c 899 f 1
+page-status-flag: never-activated
+uuid: 2137e42f-37ac-40fd-9f76-6daf31c899f1
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: managing-links
-discoiquuid: f 3 fb 0 e 3 b-b 9 dc -4 feb -955 d-b 125 d 7 b 074 ac
+discoiquuid: f3fb0e3b-b9dc-4feb-955d-b125d7b074ac
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -29,7 +29,7 @@ Alle Elemente einer Seite können mit Links belegt werden: Bilder, Wörter, Wort
 >
 >Auf den unten stehenden Bildern sehen Sie, wie Sie einen Link mit [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) einfügen können.
 
-1. Wählen Sie zuerst ein Element aus und danach in der dedizierten Symbolleiste die Option **[!UICONTROL Link einfügen].**
+1. Wählen Sie zuerst ein Element aus und danach in der dedizierten Symbolleiste die Option **[!UICONTROL Link einfügen]**.
 
    ![](assets/des_insert_link.png)
 
