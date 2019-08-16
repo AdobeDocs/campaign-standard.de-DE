@@ -3,17 +3,17 @@ title: Versandvorbereitung
 seo-title: Versandvorbereitung
 description: Versandvorbereitung
 seo-description: Hier erfahren Sie, wie Sie einen Versand vorbereiten.
-page-status-flag: nie aktiviert
-uuid: 1038 dae 2-164 c -4579-9294-bdf 2 a 4 eb 12 d 6
+page-status-flag: never-activated
+uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird gesendet
-content-type: Referenz
-topic-tags: prepare-and-testing-messages
-discoiquuid: 003 abc 3-7 f 07-471 f-ab 2 f -1 d 352 d 22 c 26 f
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
+discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -27,7 +27,7 @@ In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für
 
    ![](assets/preparing_delivery_2.png)
 
-1. In der Kachel **[!UICONTROL Freigabe]werden zunächst der Vorbereitungsfortschritt und dann das Ergebnis der Vorbereitung angezeigt: die Anzahl der in der Zielgruppe enthaltenen Kontakte und zu sendenden Nachrichten etc.**
+1. In der Kachel **[!UICONTROL Freigabe]** werden zunächst der Vorbereitungsfortschritt und dann das Ergebnis der Vorbereitung angezeigt: die Anzahl der in der Zielgruppe enthaltenen Kontakte und zu sendenden Nachrichten etc.
 
    Abhängig von der Größe der Ziel-Population kann dieser Vorgang einige Zeit in Anspruch nehmen.
 
@@ -39,7 +39,7 @@ In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für
 
    ![](assets/preparing_delivery_6.png)
 
-1. Ihre Nachricht wird automatisch während der Versandvorbereitung gespeichert. Wenn Sie nach dem Vorbereitungsschritt den Zeitplan Ihrer Nachricht ändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Vorbereiten]erneut aus, damit diese Änderungen wirksam werden.** Weiterführende Informationen zur Planung einer Nachricht finden Sie auf [dieser Seite](../../sending/using/about-scheduling-messages.md).
+1. Ihre Nachricht wird automatisch während der Versandvorbereitung gespeichert. Wenn Sie nach dem Vorbereitungsschritt den Zeitplan Ihrer Nachricht ändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Vorbereiten]** erneut aus, damit diese Änderungen wirksam werden. Weiterführende Informationen zur Planung einer Nachricht finden Sie auf [dieser Seite](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -47,7 +47,7 @@ In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für
 
    ![](assets/preparing_delivery_4.png)
 
-1. Das Fenster **[!UICONTROL Freigabe]wird geöffnet. Korrigieren Sie etwaige Fehler und starten Sie die Vorbereitung erneut.**
+1. Das Fenster **[!UICONTROL Freigabe]** wird geöffnet. Korrigieren Sie etwaige Fehler und starten Sie die Vorbereitung erneut.
 
    Der letzte Logeintrag zeigt eventuelle Fehler und deren Anzahl an. Ein spezifisches Symbol verdeutlicht den Fehlertyp: Ein gelbes Symbol kennzeichnet beispielsweise einen nicht blockierenden Verarbeitungsfehler, während ein rotes Symbol einen Fehler bezeichnet, der den Versand der Nachrichten verhindert.
 
