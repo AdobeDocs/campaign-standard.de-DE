@@ -3,17 +3,17 @@ title: Campaign-Nachrichten mit POI-Daten personalisieren
 seo-title: Campaign-Nachrichten mit POI-Daten personalisieren
 description: Campaign-Nachrichten mit POI-Daten personalisieren
 seo-description: Hier erfahren Sie, wie Sie durch die Integration von POI-Daten eine personalisierte Nachricht entsprechend dem Standort Ihrer Abonnenten erstellen.
-page-status-flag: nie aktiviert
-uuid: d 74 c 3 e 55-f 130-441 b-bc 2 a -6 ddcd 5 d 9784
+page-status-flag: never-activated
+uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird integriert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: a 1736 ba 3-5121-4 d 01-bf 04-ebb 7 e 701 e 2 e 0
+discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
 
 ---
@@ -30,24 +30,24 @@ Die Reaktionszeit beträgt mindestens 10 Minuten.
 Im Folgenden wird beschrieben, wie Sie Abonnenten, die innerhalb der letzten zwei Wochen Ihr Geschäft in Boston besucht haben, eine E-Mail senden können:
 
 1. Erstellen Sie eine E-Mail-Marketing-Aktivität.
-1. Ziehen Sie beim Bestimmen der Versand-Audience das Element **[!UICONTROL App-Abonnements]in den Arbeitsbereich.**
+1. Ziehen Sie beim Bestimmen der Versand-Audience das Element **[!UICONTROL App-Abonnements]** in den Arbeitsbereich.
 
    ![](assets/poi_subscriptions_app.png)
 
    Die Verwaltung von Audiences ist im Abschnitt [Audiences bestimmen](../../audiences/using/creating-audiences.md) beschrieben.
 
-1. Ziehen Sie im Fenster **[!UICONTROL Regel hinzufügen - Profil/App-Abonnements]** das Element **POI-Standortmitgliedschaft]in den Arbeitsbereich.[!UICONTROL **
+1. Ziehen Sie im Fenster **[!UICONTROL Regel hinzufügen - Profil/App-Abonnements]** das Element **[!UICONTROL POI-Standortmitgliedschaft]** in den Arbeitsbereich.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. Geben Sie im Fenster **[!UICONTROL Regel hinzufügen - POI-Standortmitgliedschaft]den Titel des POI ein, den Sie verwenden möchten.**
+1. Geben Sie im Fenster **[!UICONTROL Regel hinzufügen - POI-Standortmitgliedschaft]** den Titel des POI ein, den Sie verwenden möchten.
 
    ![](assets/poi_location_subscription.png)
 
-1. In the **[!UICONTROL Filter type]** field, select **[!UICONTROL Relative]**.
-1. Markieren Sie die Option **[!UICONTROL In den letzten Tagen]** und geben Sie im entsprechenden Feld **15]ein.[!UICONTROL **
+1. Wählen Sie im Feld **[!UICONTROL Filtertyp]** die Option **[!UICONTROL Relativ]** aus.
+1. Markieren Sie die Option **[!UICONTROL In den letzten Tagen]** und geben Sie im entsprechenden Feld **[!UICONTROL 15]** ein.
 1. Geben Sie an, wie oft der Benutzer den POI besucht haben muss.
-1. Klicken Sie auf **[!UICONTROL Validieren], um Ihre Audience zu speichern.**
+1. Klicken Sie auf **[!UICONTROL Validieren]**, um Ihre Audience zu speichern.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
