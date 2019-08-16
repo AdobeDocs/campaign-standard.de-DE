@@ -3,18 +3,18 @@ title: Push-Benachrichtigung vorbereiten und senden
 seo-title: Push-Benachrichtigung vorbereiten und senden
 description: Push-Benachrichtigung vorbereiten und senden
 seo-description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen Push-Benachrichtigungs-Versand mit Adobe Campaign erstellen können.
-page-status-flag: nie aktiviert
-uuid: 01997725-ca 0 a -420 c -9 e 81-5 ea 801652 f 87
+page-status-flag: never-activated
+uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: push-notifications
-discoiquuid: ec 930 cd 4-6365-4 e 54-babe -9 dc 2 eed 041 fc
-context-tags: Bereitstellung, mobileappcontent, zurück
+discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 ---
@@ -45,7 +45,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    Weiterführende Informationen zu Vorlagen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
 
-1. Geben Sie die Eigenschaften der Push-Benachrichtigung ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]die entsprechende Mobile App aus.**
+1. Geben Sie die Eigenschaften der Push-Benachrichtigung ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]** die entsprechende Mobile App aus.
 
    Bitte beachten Sie, dass in der Dropdown-Liste sowohl SDK V4- als auch Experience Platform SDK-Anwendungen enthalten sind.
 
@@ -59,28 +59,28 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    ![](assets/push_notif_audience.png)
 
-1. Sie können jetzt Ihre Push-Benachrichtigung anpassen. First, choose the message style: **[!UICONTROL Alert/Message/Badge]** or **[!UICONTROL Silent push]**. Die Typen von Push-Benachrichtigungen werden im Abschnitt [Über Push-Benachrichtigungen](../../channels/using/about-push-notifications.md) beschrieben.
+1. Sie können jetzt Ihre Push-Benachrichtigung anpassen. Wählen Sie zuerst den Nachrichtenstil aus: **[!UICONTROL Alert/Message/Badge]** oder **[!UICONTROL Stilles Pushen]**. Die Typen von Push-Benachrichtigungen werden im Abschnitt [Über Push-Benachrichtigungen](../../channels/using/about-push-notifications.md) beschrieben.
 
    Bearbeiten Sie den Inhalt Ihrer Push-Benachrichtigung und definieren Sie die erweiterten Optionen. Siehe [Push-Benachrichtigung anpassen](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/push_notif_content.png)
 
-   Der Push-Benachrichtigungs-Inhalt und die Optionen, die hier konfiguriert werden, werden in Form von Payload an Ihr Mobile App übertragen. Die Struktur der Payload wird in der Technote [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) beschrieben.
+   Der Push-Benachrichtigungs-Inhalt und die Optionen, die hier konfiguriert werden, werden in Form von Payload an Ihr Mobile App übertragen. Die Struktur der Payload wird in der Technote [Understanding ACS push notifications payload structure](https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) beschrieben.
 
 1. Wählen Sie **[!UICONTROL Erstellen aus]**.
 
    ![](assets/push_notif_content_2.png)
 
-1. Vor dem Versand der Benachrichtigung können Sie diese mit Testprofilen testen und überprüfen, wie die Benachrichtigung in der Inbox der Empfänger dargestellt wird. Wählen Sie in der Versandzusammenfassung **[!UICONTROL Audiences]** und danach den Tab **Testprofile]aus.[!UICONTROL **
+1. Vor dem Versand der Benachrichtigung können Sie diese mit Testprofilen testen und überprüfen, wie die Benachrichtigung in der Inbox der Empfänger dargestellt wird. Wählen Sie in der Versandzusammenfassung **[!UICONTROL Audiences]** und danach den Tab **[!UICONTROL Testprofile]** aus.
 
    Weiterführende Informationen zum Senden von Testnachrichten finden Sie in [Testprofile](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-1. Wählen Sie Ihre Testprofile und danach **[!UICONTROL Vorschau]aus, um die Benachrichtigung anzuzeigen: Der Inhalt wird mit den Daten des jeweiligen Testprofils personalisiert.**
+1. Wählen Sie Ihre Testprofile und danach **[!UICONTROL Vorschau]** aus, um die Benachrichtigung anzuzeigen: Der Inhalt wird mit den Daten des jeweiligen Testprofils personalisiert.
 1. Überprüfen Sie das Layout der Push-Benachrichtigung auf unterschiedlichen Geräten: Wählen Sie iPhone, Android-Smartphone, iPad oder Android-Tablet aus, um sich die jeweilige Darstellung in der Vorschau anzusehen.
 
    ![](assets/push_notif_preview.png)
 
-1. Die **[!UICONTROL Geschätzte Payload-Größe]ist eine ungefähre Schätzung auf der Basis von Testprofildaten.** Die tatsächliche Payload-Größe kann davon abweichen. Die maximale Größe einer Nachricht beträgt 4 KB.
+1. Die **[!UICONTROL Geschätzte Payload-Größe]** ist eine ungefähre Schätzung auf der Basis von Testprofildaten. Die tatsächliche Payload-Größe kann davon abweichen. Die maximale Größe einer Nachricht beträgt 4 KB.
 
    >[!CAUTION]
    >
@@ -90,7 +90,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
 Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign gesendet werden, indem die Kriterien der Audience definiert werden. Beispielsweise besteht die unten ausgewählte Audience aus vier Mobile-App-Abonnenten.
 
-1. Wählen Sie **[!UICONTROL Vorbereiten]aus, um die Zielgruppe zu berechnen und die Benachrichtigungen zu erstellen.**
+1. Wählen Sie **[!UICONTROL Vorbereiten]** aus, um die Zielgruppe zu berechnen und die Benachrichtigungen zu erstellen.
 
    ![](assets/push_send_1.png)
 
@@ -98,24 +98,24 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
    ![](assets/push_send_2.png)
 
-1. Im Tab **[!UICONTROL Ausschlusslogs]befinden sich die Liste aller vom Versand an die Zielgruppe ausgeschlossenen Nachrichten sowie der Ausschlussgrund.**
+1. Im Tab **[!UICONTROL Ausschlusslogs]** befinden sich die Liste aller vom Versand an die Zielgruppe ausgeschlossenen Nachrichten sowie der Ausschlussgrund.
 
    In unserem Beispiel sehen wir, dass einer unserer Mobile-App-Abonnenten ausgeschlossen wurde, weil seine Adresse auf der Blacklist steht, und die anderen Abonnenten, weil ihr Profil eine Dublette war.
 
    ![](assets/push_send_5.png)
 
-1. Wählen Sie den Tab **[!UICONTROL Ausschlussgründe]aus, um die Anzahl der ausgeschlossenen Nachrichten anzuzeigen.**
+1. Wählen Sie den Tab **[!UICONTROL Ausschlussgründe]** aus, um die Anzahl der ausgeschlossenen Nachrichten anzuzeigen.
 
    ![](assets/push_send_7.png)
 
-1. Wählen Sie dann **[!UICONTROL Bestätigen]aus, um mit dem Versand der Push-Benachrichtigungen zu beginnen.**
+1. Wählen Sie dann **[!UICONTROL Bestätigen]** aus, um mit dem Versand der Push-Benachrichtigungen zu beginnen.
 1. Prüfen Sie den Status Ihres Versands über das Nachrichten-Dashboard und die entsprechenden Protokolle. Weiterführende Informationen dazu finden Sie unter [Nachrichten versenden](../../sending/using/confirming-the-send.md) und [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-   In diesem Beispiel wird im Nachrichten-Dashboard angezeigt, dass Adobe Campaign versucht hat, zwei Push-Benachrichtigungen zu senden: eine wurde erfolgreich zugestellt und die andere ist fehlgeschlagen. Wenn Sie feststellen möchten, warum der Versand Fehler enthält, wählen Sie die Schaltfläche ![](assets/lp_link_properties.png) am unteren Rand des Fensters **Freigabe]aus.[!UICONTROL **
+   In diesem Beispiel wird im Nachrichten-Dashboard angezeigt, dass Adobe Campaign versucht hat, zwei Push-Benachrichtigungen zu senden: eine wurde erfolgreich zugestellt und die andere ist fehlgeschlagen. Wenn Sie feststellen möchten, warum der Versand Fehler enthält, wählen Sie die Schaltfläche ![](assets/lp_link_properties.png) am unteren Rand des Fensters **[!UICONTROL Freigabe]** aus.
 
    ![](assets/push_send_4.png)
 
-1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **Versandlogs]aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen.[!UICONTROL ** Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird folglich auf die Blacklist gesetzt und von weiteren Sendungen ausgeschlossen.
+1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird folglich auf die Blacklist gesetzt und von weiteren Sendungen ausgeschlossen.
 
    >[!NOTE]
    >
