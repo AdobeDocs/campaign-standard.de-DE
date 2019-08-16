@@ -3,17 +3,17 @@ title: Mehrsprachige Vorlage erstellen
 seo-title: Mehrsprachige Vorlage erstellen
 description: Mehrsprachige Vorlage erstellen
 seo-description: Hier erhalten Sie Informationen über die Definition und Ausführung mehrsprachiger E-Mail- und SMS-Sendungen im Rahmen eines einzigen Versands in der bevorzugten Sprache Ihrer automatisch segmentierten Kunden. Zusätzlich können Sie Leistungsberichte zu jedem Versand aufgeschlüsselt nach Sprachen und Personen erstellen.
-page-status-flag: nie aktiviert
-uuid: 7 a 2 cd 5 f 7-c 0 fc -4825-a 770-a 62816 c 66 b 3 f
+page-status-flag: never-activated
+uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
+content-type: reference
 topic-tags: managing-templates
-discoiquuid: 064 c 5 c 4 a-f 779-4 bab-adf 3-51 c 92 eb 4518 f
+discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -41,14 +41,14 @@ Führen Sie zur Erstellung einer SMS- oder E-Mail-Vorlage die folgenden Schritte
 
    >[!NOTE]
    >
-   >Sie können auch eine vorhandene Standardvorlage in eine mehrsprachige Vorlage umwandeln, indem Sie in den Vorlageneigenschaften die Schaltfläche **[!UICONTROL Inhaltsvariante initialisieren]auswählen.**
+   >Sie können auch eine vorhandene Standardvorlage in eine mehrsprachige Vorlage umwandeln, indem Sie in den Vorlageneigenschaften die Schaltfläche **[!UICONTROL Inhaltsvariante initialisieren]** auswählen.
 
 1. Passen Sie in den Eigenschaften Titel, Tracking etc. an.
 1. Ändern Sie die Anzahl der gewünschten Varianten durch Anklicken der Variantenkachel. Das Variantenfenster öffnet sich.
 
    ![](assets/multi_template_variants.png)
 
-   Dort können Sie Varianten hinzufügen oder entfernen. Um eine Variante hinzuzufügen, füllen Sie das Fenster **[!UICONTROL Neue Inhaltsvariante]aus.**
+   Dort können Sie Varianten hinzufügen oder entfernen. Um eine Variante hinzuzufügen, füllen Sie das Fenster **[!UICONTROL Neue Inhaltsvariante]** aus.
 
    ![](assets/multi_template_newvariant.png)
 
