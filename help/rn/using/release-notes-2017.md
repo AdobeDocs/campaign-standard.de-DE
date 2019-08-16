@@ -3,17 +3,17 @@ title: Versionshinweise 2017
 seo-title: Versionshinweise 2017
 description: Versionshinweise 2017
 seo-description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard von 2017 und aufgelistet.
-page-status-flag: nie aktiviert
-uuid: d 73 f 8186-e 309-441 b -969 d -71 d 0 a 1 c 33 cf 4
+page-status-flag: never-activated
+uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: Referenz
+content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1 cfd 9 b 3 b -9 b 3 e -4587-9 c 46-b 6 fb 21316564
+discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -27,7 +27,7 @@ Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicke
 
 Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-updates.md) für Adobe Campaign Standard an. Neuere Versionshinweise finden Sie auf dieser [Seite](../../rn/using/release-notes.md).
 
-## 17.10 - Version Oktober 2017 {#release-17-10---october-2017}
+## 17.10 - Version Oktober 2017  {#release-17-10---october-2017}
 
 ### Neue Funktionen {#new-capabilities}
 
@@ -50,7 +50,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches}
+### Korrekturen  {#patches}
 
 #### Plattform {#platform}
 
@@ -60,7 +60,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt tritt bei der Darstellung und Filterung von Marketing-Aktivitäten kein Fehler mehr auf.
 * Fehlerkorrektur – Felder mit dem Abonnement-Datum werden jetzt mit einem POST-Rest-API-Aufruf aktualisiert.
 
-#### E-Mails, SMS und Briefpost {#emails--sms-messages-and-direct-mail}
+#### E-Mails, SMS und Briefpost  {#emails--sms-messages-and-direct-mail}
 
 * Fehlerkorrektur – eine Audience vom Typ Liste kann jetzt in einer Nachricht ausgewählt werden, ohne dass die Vorbereitung fehlschlägt.
 * In der mehrsprachigen E-Mail-Versandfunktion wurden fehlende Sprachen hinzugefügt.
@@ -76,7 +76,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Jetzt kann ein Profil aus der Adobe Campaign-Datenbank erstellt oder aktualisiert werden, indem die Benutzerdaten von Mobile Apps abgestimmt werden.
 * Adobe Campaign priorisiert jetzt die Verarbeitung von Transaktions-Push-Benachrichtigungen gegenüber Standard-Push-Benachrichtigungen.
 
-#### Berichte {#reports}
+#### Berichte  {#reports}
 
 * Fehlerkorrektur – der Prozentsatz der Klicks wird jetzt im E-Mail-Inhalt angezeigt.
 * Fehlerkorrektur – die Blacklist-Metrik wird jetzt als Bounce und nicht mehr als Hardbounce gezählt.
@@ -84,20 +84,20 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Profile werden jetzt nicht mehr in der falschen Altersgruppe gezählt.
 * Die Formeln für Softbounces und Hardbounces wurden geändert.
 
-#### Workflows {#workflows}
+#### Workflows  {#workflows}
 
-* Fehlerkorrektur – in der Aktivität **[!UICONTROL Datei laden]tritt kein Fehler mehr auf, nachdem in der Aktivität manuell Spalten hinzugefügt und entfernt wurden.**
-* Der technische Workflow **[!UICONTROL deliverabilityUpdate]ist jetzt so festgelegt, dass er um 2 Uhr Serverzeit durchgeführt wird.**
+* Fehlerkorrektur – in der Aktivität **[!UICONTROL Datei laden]** tritt kein Fehler mehr auf, nachdem in der Aktivität manuell Spalten hinzugefügt und entfernt wurden.
+* Der technische Workflow **[!UICONTROL deliverabilityUpdate]** ist jetzt so festgelegt, dass er um 2 Uhr Serverzeit durchgeführt wird.
 * Fehlerkorrektur – aus Sicherheitsgründen kann jetzt kein Listenexport mehr durchgeführt werden, wenn der Benutzer nicht über die Export-Benutzerrolle verfügt.
-* Fehlerkorrektur – Bei der Aktivität **[!UICONTROL Abstimmung]tritt kein Fehler mehr auf.**
-* Fehlerkorrektur – bei der Verwendung von Platzhaltern in der Aktivität **[!UICONTROL Dateiübertragung]tritt kein Fehler mehr auf.**
+* Fehlerkorrektur – Bei der Aktivität **[!UICONTROL Abstimmung]** tritt kein Fehler mehr auf.
+* Fehlerkorrektur – bei der Verwendung von Platzhaltern in der Aktivität **[!UICONTROL Dateiübertragung]** tritt kein Fehler mehr auf.
 
 #### Profile und Audiences {#profiles-and-audiences}
 
 * Fehlerkorrektur – jetzt werden die Bedingungen von Abfragen immer berücksichtigt, sodass kein falsches Ergebnis mehr auftritt.
 * Fehlerkorrektur – auf Profile kann jetzt auch dann zugegriffen werden, wenn sie in der Zielgruppe einer Nachricht waren, die zwar vorbereitet, aber nie gesendet wurde und abgelaufen ist.
 
-#### Integrationen {#integrations}
+#### Integrationen  {#integrations}
 
 * Fehlerkorrektur – Datenquellen, die für Trigger erstellt wurden, können jetzt richtig angezeigt und ausgewählt werden.
 
@@ -106,7 +106,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – in Bildschirmen des Typs Liste werden jetzt keine Zeilen für benutzerdefinierte Ressourcen mehr angezeigt, die keine Daten enthalten.
 * Fehlerkorrektur – boolesche Felder mit dem Wert 'False' werden jetzt in benutzerdefinierten Ressourcen angezeigt.
 
-## 17.9 - Version September 2017 {#release-17-9---september-2017}
+## 17.9 - Version September 2017  {#release-17-9---september-2017}
 
 ### Neue Funktionen {#new-capabilities-1}
 
@@ -133,14 +133,14 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-1}
+### Korrekturen  {#patches-1}
 
 #### Plattform {#platform-1}
 
 * Kunden, die keinen eindeutigen Schlüssel zur Identifizierung ihrer eigenen Datensätze verwenden, müssen in der Lage sein, eine Kennung von Adobe Campaign Standard abzurufen. Diese Kennung (**ACS ID**) kann einerseits exportiert, andererseits aber auch als Abstimmschlüssel bei der Datenaktualisierung verwendet werden. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * Das FTP-Protokoll wird nicht weiterverwendet. Verwenden Sie stattdessen SFTP. Damit vorhandene Implementierungen nicht blockiert werden, funktionieren Konfigurationen auf FTP wie bisher, doch für neue Aktivitäten wird die Option nicht mehr angezeigt.
 
-#### E-Mails, SMS und Briefpost {#emails--sms-messages-and-direct-mail-1}
+#### E-Mails, SMS und Briefpost  {#emails--sms-messages-and-direct-mail-1}
 
 * Jetzt ist es möglich, neue Warnungsbedingungen für Benachrichtigungen zu Versandwarnungen zu erstellen. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Die Benachrichtigungen zu Versandwarnungen haben ein neues Design und das Versandwarnungs-Dashboard wurde verbessert.
@@ -164,21 +164,21 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Die [Metriken für dynamische Berichte](../../reporting/using/indicator-calculation.md) und die [Kampagnen-KPIs](../../sending/using/confirming-the-send.md) (dargestellt im Dashboard gesendeter Nachrichten) wurden für größere Kohärenz angepasst.
 * Fehlerkorrektur – Pipelines stürzen auf Debian 7 jetzt nicht mehr ab.
 
-#### Workflows {#workflows-1}
+#### Workflows  {#workflows-1}
 
 * Fehlerkorrektur – Jetzt tritt bei der Aufbewahrung von importierten Dateien kein Fehler mehr auf.
 
-#### Integrationen {#integrations-1}
+#### Integrationen  {#integrations-1}
 
 * eVars und Ereignisse werden jetzt bei der Integration von Analytics und Campaign unterstützt.
 * Wenn eine E-Mail mit dem Inhalt des stehengelassenen Warenkorbs gesendet wird, ist der Payload-Parameter für die aus dem Warenkorb entfernten Elemente jetzt optional.
 
-#### Profile und Audiences {#profiles-and-audiences-1}
+#### Profile und Audiences  {#profiles-and-audiences-1}
 
 * Adobe Campaign erstellt jetzt einen Bericht, in dem die Anzahl der aktiven Profile angegeben wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../audiences/using/active-profiles.md).
 * Fehlerkorrektur – Profile können jetzt über die API "Profile und Dienste" einen Dienst abonnieren.
 
-## 17.7 - Version Juli 2017 {#release-17-7---july-2017}
+## 17.7 - Version Juli 2017  {#release-17-7---july-2017}
 
 ### Neue Funktionen {#new-capabilities-2}
 
@@ -217,21 +217,21 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-2}
+### Korrekturen  {#patches-2}
 
 #### Allgemein {#general}
 
-* Fehlerkorrektur – jetzt ist der Export von Listen nur mehr durch bestimmte Benutzer möglich. Nur Benutzer mit der Rolle **[!UICONTROL Export]sind dazu berechtigt.**
+* Fehlerkorrektur – jetzt ist der Export von Listen nur mehr durch bestimmte Benutzer möglich. Nur Benutzer mit der Rolle **[!UICONTROL Export]** sind dazu berechtigt.
 
 #### E-Mails, SMS und Briefpost {#emails--sms-messages-and-direct-mail-2}
 
 * Fehlerkorrektur – im Workflow **updateDeliveryExecInfo** wird der Indikator **Zu senden** bei SMS-Sendungen nicht mehr auf 0 gestellt.
 * In der Option **Erweiterte Parameter** der Versandvorlagen-Eigenschaften werden in der Dropdown-Liste **Routing** nur externe Konten angezeigt, die dem Nachrichtentyp der Vorlage entsprechen. Beispielsweise werden in einer E-Mail-Versandvorlage nur externe E-Mail-Konten angezeigt.
-* Fehlerkorrektur – in Testprofilen ist es nun möglich, **[!UICONTROL Text]als bevorzugtes E-Mail-Format auszuwählen.**
+* Fehlerkorrektur – in Testprofilen ist es nun möglich, **[!UICONTROL Text]** als bevorzugtes E-Mail-Format auszuwählen.
 * Fehlerkorrektur – bei der Auswahl der Standardzeitzone im Planungsbildschirm eines Versands tritt kein Javascript-Fehler mehr auf.
 * Fehlerkorrektur – Fallen werden jetzt in den Versandlogs angezeigt.
 * Im Bildschirm für die Vorlagenauswahl des Versanderstellungsassistenten werden jetzt Vorlagen für Folgenachrichten und A/B-Tests standardmäßig verborgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/creating-an-email.md).
-* Fehlerkorrektur – jetzt ist der Versand von Nachrichten nur mehr durch bestimmte Benutzer möglich. Nur Benutzer mit der Rolle **[!UICONTROL Sendungen starten]sind dazu berechtigt.** Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/confirming-the-send.md).
+* Fehlerkorrektur – jetzt ist der Versand von Nachrichten nur mehr durch bestimmte Benutzer möglich. Nur Benutzer mit der Rolle **[!UICONTROL Sendungen starten]** sind dazu berechtigt. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/confirming-the-send.md).
 
 #### Push-Benachrichtigungen {#push-notifications-1}
 
@@ -240,21 +240,21 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Push-Benachrichtigungen werden jetzt auf iOS-Geräten angezeigt, wenn die Push-Benachrichtigung nur einen Titel (und nichts im Nachrichten-Textkörper) enthält.
 * Fehlerkorrektur – URLs von Medienanhängen in einem Versand werden jetzt nicht mehr getrackt. Dies verhinderte die Integration von Videos und Bildern in den Versand. Das Tracking von URLs des Typs mediaAttachmentURL ist jetzt für Push-Benachrichtigungen standardmäßig deaktiviert.
 
-#### Berichte {#reports-2}
+#### Berichte  {#reports-2}
 
 * Fehlerkorrektur – Werte werden jetzt in Grafiken und Tabellen nicht mehr unterschiedlich angezeigt.
 * Fehlerkorrektur – Push-Benachrichtigungswerte werden nicht mehr als E-Mail-Werte angezeigt.
 * Fehlerkorrektur – Werte werden jetzt nicht mehr als unbekannt angezeigt, wenn ein Versand außerhalb einer Kampagne erstellt wurde.
 * Fehlerkorrektur – SMS-Berichtsdaten werden nicht mehr als Mobile App-Daten angezeigt.
 
-#### Workflows {#workflows-2}
+#### Workflows  {#workflows-2}
 
 * Workflow-Logs können jetzt gefiltert werden (Zeitraum und Textsuche). Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/executing-a-workflow.md#monitoring).
 * Im Versand-Workflow ist jetzt eine Option verfügbar, mit der die Bestätigung vor dem Senden deaktiviert werden kann.
 * Fehlerkorrektur – Im Erstellungsassistenten eines wiederkehrenden Versands kann jetzt eine Outbound-Transition eingestellt werden.
 * Fehlerkorrektur – jetzt kann eine Workflow-Abfrageaktivität auf der Basis eines benutzerdefinierten Ressourcenfeldes mit einer Auflistung verwendet werden, die zahlreiche Werte aufweist.
 
-## 17.5 - Version Mai 2017 {#release-17-5---may-2017}
+## 17.5 - Version Mai 2017  {#release-17-5---may-2017}
 
 ### Neue Funktionen {#new-capabilities-3}
 
@@ -277,31 +277,31 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-3}
+### Korrekturen  {#patches-3}
 
 #### Aktualisierung der Benutzeroberfläche {#interface-updates}
 
-* In the top bar, the **[!UICONTROL Timeline]** link has been removed and replaced with a link to **[!UICONTROL Programs &amp; Campaigns]** .
+* In der Navigationsleiste wurde der Link **[!UICONTROL Planung]** entfernt und durch den Link **[!UICONTROL Programme &amp; Kampagnen]** ersetzt.
 
 #### E-Mails und SMS-Nachrichten {#emails-and-sms-messages}
 
-* Fehlerkorrektur – der Versandstatus **[!UICONTROL Weitere Zustellversuche in Gang]wird nun in der richtigen Farbe, blau und nicht grau, angezeigt.** Die Farbe war grau statt blau.
+* Fehlerkorrektur – der Versandstatus **[!UICONTROL Weitere Zustellversuche in Gang]** wird nun in der richtigen Farbe, blau und nicht grau, angezeigt. Die Farbe war grau statt blau.
 
-#### Workflows {#workflows-3}
+#### Workflows  {#workflows-3}
 
-* Fehlerkorrektur - jetzt tritt kein Fehler mehr auf, wenn die in der Aktivität **[!UICONTROL Dateiübertragung]auszuführende Aktion geändert wird.**
+* Fehlerkorrektur - jetzt tritt kein Fehler mehr auf, wenn die in der Aktivität **[!UICONTROL Dateiübertragung]** auszuführende Aktion geändert wird.
 
 #### Berichte {#reports-3}
 
-* Die Indikatorberechnungen für **[!UICONTROL Spam]** und **Spam-Rate]wurden geändert.[!UICONTROL **
-* Die **[!UICONTROL Bounce]-Metriken wurden verbessert und liefern jetzt genauere Ergebnisse.**
+* Die Indikatorberechnungen für **[!UICONTROL Spam]** und **[!UICONTROL Spam-Rate]** wurden geändert.
+* Die **[!UICONTROL Bounce]**-Metriken wurden verbessert und liefern jetzt genauere Ergebnisse.
 
 #### Push-Benachrichtigungen {#push-notifications-2}
 
 * Fehlerkorrektur – jetzt kann ein Push-Ereignis im Marketingverlauf eines Profils ausgewählt werden.
 * Die Verwendung von Push-Benachrichtigungen in Workflows wurde verbessert.
 
-## 17.4 - Version April 2017 {#release-17-4---april-2017}
+## 17.4 - Version April 2017  {#release-17-4---april-2017}
 
 ### Neue Funktionen {#new-capabilities-4}
 
@@ -331,18 +331,18 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver verfügbar<br /> </td> 
-   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Integrationserweiterung von Adobe Campaign, die hier heruntergeladen werden kann: <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Weiterführende Informationen finden Sie in diesem <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a>.<br /> </td> 
+   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Integrationserweiterung von Adobe Campaign, die hier heruntergeladen werden kann: <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Weiterführende Informationen finden Sie in diesem <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Korrekturen {#patches-4}
+### Korrekturen  {#patches-4}
 
 #### Plattform {#platform-2}
 
 * Fehlerkorrektur – ein Problem bezüglich des Speicherbedarfs wurde beseitigt.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-1}
+#### E-Mails und SMS-Nachrichten  {#emails-and-sms-messages-1}
 
 * Fehlerkorrektur – Inhalt kann jetzt ordnungsgemäß mit den letzten Änderungen bei der Vorschau einer Nachricht synchronisiert werden.
 * Fehlerkorrektur – eine MX- oder Domain-E-Mail-Verarbeitungsregel kann jetzt erstellt oder gelöscht werden.
@@ -351,42 +351,42 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn die getrackten URLs eines Versands angezeigt werden sollen, aber keine URLs im Inhalt vorhanden sind.
 * Fehlerkorrektur – die Größenattribute eines Bildes werden jetzt korrekt in der gesendeten Nachricht angewendet.
 
-#### Transaktionsnachrichten {#transactional-messages-1}
+#### Transaktionsnachrichten  {#transactional-messages-1}
 
 * Das rtEventHistoId-Feld wird in einer Transaktionsnachrichtenvorlage nicht mehr als Personalisierungsfeld angezeigt.
 
-#### Landingpages {#landing-pages}
+#### Landingpages  {#landing-pages}
 
-* Der Filter **[!UICONTROL Nach E-Mail]in Landingpages wurde optimiert, um neue Abonnenten mit Datenbankprofilen abzustimmen.**
+* Der Filter **[!UICONTROL Nach E-Mail]** in Landingpages wurde optimiert, um neue Abonnenten mit Datenbankprofilen abzustimmen.
 * Fehlerkorrektur – jetzt werden nicht mehr freie Texteingaben anstelle von Kontrollkästchen angezeigt, wenn booleschen Felder zur Konfiguration eines Formulars verwendet werden.
 * Fehlerkorrektur – jetzt kann eine Miniaturansicht von Landingpages erstellt werden.
 
-#### Workflows {#workflows-4}
+#### Workflows  {#workflows-4}
 
-* Fehlerkorrektur – bei der Bearbeitung der Aktivitäten **[!UICONTROL Ende]** oder **Externes Signal]tritt kein Anzeigefehler mehr auf (Fehler betraf nur Safari).[!UICONTROL **
-* Die Fehlermeldung bei der Bearbeitung der Aktivität **[!UICONTROL Audience lesen]mit einer fehlerhaften Audience wurde verbessert.**
+* Fehlerkorrektur – bei der Bearbeitung der Aktivitäten **[!UICONTROL Ende]** oder **[!UICONTROL Externes Signal]** tritt kein Anzeigefehler mehr auf (Fehler betraf nur Safari).
+* Die Fehlermeldung bei der Bearbeitung der Aktivität **[!UICONTROL Audience lesen]** mit einer fehlerhaften Audience wurde verbessert.
 * Fehlerkorrektur – jetzt entsteht kein SQL-Fehler mehr, wenn eine Abonnementaktivität ausgeführt wird.
 
-#### Integrationen {#integrations-2}
+#### Integrationen  {#integrations-2}
 
 * POI-Daten: Fehlerkorrektur – bei der Zählung von Standortabonnenten tritt kein Fehler mehr auf.
 
-#### Audiences und Abfragen {#audiences-and-queries}
+#### Audiences und Abfragen  {#audiences-and-queries}
 
 * Fehlerkorrektur – Summen- und Durchschnitts-Aggregate für eine Kollektion können jetzt im Abfrageeditor verwendet werden.
 * Fehlerkorrektur – der Abfrageeditor kann jetzt nach der Änderung der Filterressource erneut geladen werden.
 
-#### Berichte {#reports-4}
+#### Berichte  {#reports-4}
 
 * Fehlerkorrektur – die Metriken zur Öffnungsrate werden jetzt korrekt berechnet, wenn in einer Tabelle mehrere Zeilen ausgewählt werden.
 * Fehlerkorrektur – jetzt werden Metriken nicht mehr nur als ganze Zahlen dargestellt. Sie können auch als Dezimalzahlen dargestellt werden.
 
-#### Push-Benachrichtigungen {#push-notifications-3}
+#### Push-Benachrichtigungen  {#push-notifications-3}
 
 * Fehlerkorrektur – jetzt wird eine Fehlermeldung angezeigt, wenn eine Android-Anwendung mit einer Mobile App verknüpft wird, die nicht auf MCPNS erstellt wurde.
 * Fehlerkorrektur – Benutzer können jetzt stillen Benachrichtigungen keine Töne mehr hinzufügen.
 
-## 17.2 - Version März 2017 {#release-17-2---march-2017}
+## 17.2 - Version März 2017  {#release-17-2---march-2017}
 
 ### Neue Funktionen {#new-capabilities-5}
 
@@ -404,11 +404,11 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell Versandzeitpunkt optimieren<br /> </td> 
-   <td> Sie können jetzt manuell einen benutzerdefinierten Sendezeitpunkt pro Empfänger - auf Bereitstellungsebene oder einen Workflow festlegen. <br /> Dazu sind zwei neue Optionen verfügbar: <br /> 
+   <td> Sie können jetzt manuell für jeden Empfänger einen Versandzeitpunkt festlegen – auf Versandebene oder mit einem Workflow. <br /> Dazu sind zwei neue Optionen verfügbar: <br /> 
     <ul> 
      <li> Alle Empfänger erhalten die Nachricht unter Berücksichtigung ihrer jeweiligen Zeitzone. </li> 
      <li> Jeder Empfänger erhält die Nachricht zu einem in einer Formel festgelegten berechneten Zeitpunkt. </li> 
@@ -448,26 +448,26 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-5}
+### Korrekturen  {#patches-5}
 
 #### Allgemein {#general-1}
 
 * Jetzt können beim Export von Versandlogs Profildaten hinzugefügt werden.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-2}
+#### E-Mails und SMS-Nachrichten  {#emails-and-sms-messages-2}
 
-* Fehlerkorrektur – jetzt kann die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]deaktiviert werden, wenn die Markierung entfernt und der Versand gespeichert wird.**
+* Fehlerkorrektur – jetzt kann die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** deaktiviert werden, wenn die Markierung entfernt und der Versand gespeichert wird.
 * Fehlerkorrektur – die Depublikation von Transaktions-E-Mails wird nicht mehr verhindert.
 * Fehlerkorrektur – Inhalt kann jetzt ordnungsgemäß mit den letzten Änderungen vor der Vorschau eines Versands synchronisiert werden.
 
-#### Landingpages {#landing-pages-1}
+#### Landingpages  {#landing-pages-1}
 
 * Fehlerkorrektur – ein Benutzer kann jetzt Bearbeitungen durchführen, wenn er in den Inhaltsbereich einer Landingpage klickt.
 
-#### Workflows {#workflows-5}
+#### Workflows  {#workflows-5}
 
-* Fehlerkorrektur – der Inhalt der Zurückweisungs-Transition der Aktivität **[!UICONTROL Datei laden]kann jetzt gelesen werden.**
-* Fehlerkorrektur – vertauschte Spalten werden jetzt bei der Konfiguration der Aktivität **[!UICONTROL Datei laden]berücksichtigt.**
+* Fehlerkorrektur – der Inhalt der Zurückweisungs-Transition der Aktivität **[!UICONTROL Datei laden]** kann jetzt gelesen werden.
+* Fehlerkorrektur – vertauschte Spalten werden jetzt bei der Konfiguration der Aktivität **[!UICONTROL Datei laden]** berücksichtigt.
 
 ## 17.1 - Version Januar 2017 {#release-17-1---january-2017}
 
@@ -511,37 +511,37 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-6}
+### Korrekturen  {#patches-6}
 
 #### Allgemein {#general-2}
 
-* Die Optionen zur **[!UICONTROL Zugriffsberechtigung]sind jetzt wieder in den Eigenschaften der Landingpage verfügbar.**
+* Die Optionen zur **[!UICONTROL Zugriffsberechtigung]** sind jetzt wieder in den Eigenschaften der Landingpage verfügbar.
 * Fehlerkorrektur – kein altes Bild wird mehr anstelle des gewünschten Bildes gerendert. Dieser Fehler ist aufgetreten, wenn das Ausgangsbild in der Inhaltserstellung eines Versands oder einer Landingpage aktualisiert worden war.
 * Fehlerkorrektur – in einem bestehenden externen SFTP-Konto können jetzt alle Felder bearbeitet werden.
 * Fehlerkorrektur – mehrere Probleme mit der Benutzeroberfläche wurden behoben. Beispielsweise können jetzt problemlos Profilattribute bearbeitet und Änderungen gespeichert werden.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-3}
+#### E-Mails und SMS-Nachrichten  {#emails-and-sms-messages-3}
 
 * Fehlerkorrektur – bei Versandvorlagen mit HTML-Inhalt, der ein Tag enthält,
 
 #### Push-Benachrichtigungen {#push-notifications-4}
 
 * Fehlerkorrektur – von Anwendungen können jetzt Postbacks an den Adobe Campaign-Server gesendet werden.
-* Fehlerkorrektur – für Android sind jetzt die Funktionen **[!UICONTROL Ton abspielen]** und **Benutzerdefinierte Felder]verfügbar.[!UICONTROL **
+* Fehlerkorrektur – für Android sind jetzt die Funktionen **[!UICONTROL Ton abspielen]** und **[!UICONTROL Benutzerdefinierte Felder]** verfügbar.
 * Fehlerkorrektur – jetzt wird kein zusätzliches Maskierungszeichen mehr an für Emojis verwendete Unicode-Zeichen angefügt.
 * Wenn der Anmeldetoken eines Abonnenten auf die Blacklist gesetzt wird, wird der entsprechende Status in der Abonnentenliste der Anwendung in Adobe Campaign jetzt unverzüglich aktualisiert.
 
-#### Workflows {#workflows-6}
+#### Workflows  {#workflows-6}
 
 * Fehlerkorrektur – die Vorschau auf Abfragen bezüglich Ereignisressourcen (z. B. rtEvent) ist jetzt möglich.
-* Die von einer **[!UICONTROL Datei-laden]-Aktivität erstellte Zurückweisungsdatei kann jetzt in ihrer ausgehenden Transition abgerufen und in der nächsten Aktivität verarbeitet werden.** Beispielsweise kann die Zurückweisungsdatei über einen SFTP-Server mit **[!UICONTROL Dateiübertragung hochgeladen werden]** .
-* Fehlerkorrektur – die Population eines Segments kann jetzt eingeschränkt werden, wenn **[!UICONTROL Temporäre Ressource]** im Tab **[!UICONTROL Allgemein]** im Bereich **Segmentierung[!UICONTROL ausgewählt ist]** .
+* Die von einer **[!UICONTROL Datei-laden]**-Aktivität erstellte Zurückweisungsdatei kann jetzt in ihrer ausgehenden Transition abgerufen und in der nächsten Aktivität verarbeitet werden. Beispielsweise kann die Zurückweisungsdatei über einen SFTP-Server mit **[!UICONTROL Dateiübertragung hochgeladen werden]** .
+* Fehlerkorrektur – die Population eines Segments kann jetzt eingeschränkt werden, wenn **[!UICONTROL Temporäre Ressource]** im Tab **[!UICONTROL Allgemein]** im Bereich **[!UICONTROL Segmentierung]** ausgewählt ist .
 * **[!UICONTROL Die Aktivitäten von Planung]** können jetzt nicht mehr so eingestellt werden, dass ein Workflow häufiger als einmal alle 10 Minuten ausgelöst wird.
-* Fehlerkorrektur – jetzt funktioniert **[!UICONTROL Nur gemeinsame Zusatzdaten verwenden]** in der Aktivität **Vereinigung]einwandfrei.[!UICONTROL **
+* Fehlerkorrektur – jetzt funktioniert **[!UICONTROL Nur gemeinsame Zusatzdaten verwenden]** in der Aktivität **[!UICONTROL Vereinigung]** einwandfrei.
 
 #### Integrationen {#integrations-3}
 
 * Fehlerkorrektur – bei der Freigabe einer Ereignisauslösung in Adobe Campaign kommt es zu keinen Problemen mehr. Dieser Fehler trat auf, wenn die Metadaten "Wahrscheinlichkeit eines erneuten Besuchs innerhalb von 30 Tagen" zur Abbruchsauslösung in Adobe Marketing Cloud hinzugefügt wurden.
 * Fehlerkorrektur – der technische Workflow löscht jetzt nicht mehr das Zieldimensionsfeld, wenn Audiences von People Core Service importiert werden. Darauf folgende Abfragen konnten keine importierten Audiences abrufen.
-* Fehlerkorrektur – durch die Aktivität **[!UICONTROL Audience-Speicherung]** eines Workflows wird kein Fehler mehr erzeugt, wenn die Option **In der Adobe Marketing Cloud freigeben]aktiviert ist.[!UICONTROL **
+* Fehlerkorrektur – durch die Aktivität **[!UICONTROL Audience-Speicherung]** eines Workflows wird kein Fehler mehr erzeugt, wenn die Option **[!UICONTROL In der Adobe Marketing Cloud freigeben]** aktiviert ist.
 
