@@ -3,17 +3,17 @@ title: Über die Benutzeroberfläche
 seo-title: Über die Benutzeroberfläche
 description: Über die Benutzeroberfläche
 seo-description: Der Arbeitsbereich von Campaign bietet die benutzerfreundliche Adobe-Experience-Cloud-Oberfläche.
-page-status-flag: nie aktiviert
-uuid: ed 9 e 631 c -5 ad 1-49 f 1-be 1 e-b 710 bc 64 dc 91
+page-status-flag: never-activated
+uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
-topic-tags: discover, Oberfläche
-discoiquuid: 5227 ca 05-3856-4 e 54-aec 6-14444 d 6534 e 3
+content-type: reference
+topic-tags: discovering-the-interface
+discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
