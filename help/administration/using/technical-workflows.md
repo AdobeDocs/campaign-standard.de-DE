@@ -3,17 +3,17 @@ title: Technische Workflows
 seo-title: Technische Workflows
 description: Technische Workflows
 seo-description: Technische Workflows sind vordefinierte Workflows für im Hintergrund ablaufende technische Prozesse in Adobe Campaign. Sie gewährleisten das korrekte Funktionieren der Plattform.
-page-status-flag: nie aktiviert
-uuid: 6 e 763 dc 1-e 1 d 3-4 d 94-bc 0 b-ef 5 b 1703 d 8 e 5
+page-status-flag: never-activated
+uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: application-settings
-discoiquuid: e 9 f 147 bd -6 a 5 b -4 b 82-b 9 bb -311 e 38 e 22 c 62
+discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2541b6dadd005c74d6bb737a0e3692e63a5b85db
 
 ---
@@ -25,7 +25,7 @@ Die technischen Workflows sind standardmäßig in Adobe Campaign enthalten. Tech
 
 Hierbei kann es sich beispielsweise um die Wartung der Datenbank, den Abruf von Trackinginformationen oder die Einrichtung von geplanten Versandvorgängen handeln. Der Zugriff auf technische Workflows erfolgt über das Adobe-Campaign-Logo oben links im Bildschirm.
 
-Funktionale Administratoren können auf technische Workflows über das Menü **[!UICONTROL Administration &gt; Anwendungskonfiguration &gt; Workflows]zugreifen.**
+Funktionale Administratoren können auf technische Workflows über das Menü **[!UICONTROL Administration &gt; Anwendungskonfiguration &gt; Workflows]** zugreifen.
 
 >[!NOTE]
 >
