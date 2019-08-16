@@ -3,17 +3,17 @@ title: Push-Benachrichtigungen für Transaktionen
 seo-title: Push-Benachrichtigungen für Transaktionen
 description: Push-Benachrichtigungen für Transaktionen
 seo-description: Hier erfahren Sie, wie Sie eine Transaktions-Push-Benachrichtigungen erstellen und publizieren.
-page-status-flag: nie aktiviert
-uuid: ef 31 c 1 b 6-9 ef 8-42 e 3-b 49 d -72 f 9 eac 8 ea 32
+page-status-flag: never-activated
+uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
-topic-tags: Transaktionsnachrichten
-discoiquuid: e 645 d 4 b 9-001 f -47 d 9-8 a 0 f-b 4696 c 75 c 5 d 3
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
+discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
 
 ---
@@ -40,7 +40,7 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+>Um auf Transaktionsnachrichten zugreifen zu können, müssen Sie entweder über Administratorrechte verfügen oder der Sicherheitsgruppe **[!UICONTROL Message Center Agents]** (mcExec) angehören.
 
 ## Transaktions-Push-Benachrichtigungen, bei denen die Zielgruppenbestimmung durch ein Ereignis erfolgt {#transactional-push-notifications-targeting-an-event}
 
@@ -58,13 +58,13 @@ Das Unternehmen sendet eine einzige Transaktions-Push-Benachrichtigung pro Benut
 
    ![](assets/message-center_push_message.png)
 
-1. Öffnen Sie nun mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]der Nachricht, um den Titel und den Hauptteil anzupassen.**
+1. Öffnen Sie nun mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]** der Nachricht, um den Titel und den Hauptteil anzupassen.
 
    Sie können Personalisierungsfelder einfügen, um die von Ihnen während der Ereigniserstellung definierten Elemente hinzuzufügen.
 
    ![](assets/message-center_push_content.png)
 
-   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   Wählen Sie dazu das Stiftsymbol neben einem Objekt und **[!UICONTROL Personalisierungsfeld einfügen]** aus und verwenden Sie dann die Schaltflächen **[!UICONTROL Transaktionsereignis]** &gt; **[!UICONTROL Ereignis-Kontext]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -93,7 +93,7 @@ Wenn der Anmeldetoken existiert, erhält der entsprechende Benutzer eine Transak
 
 "Hallo, Jane Green, das Boarding hat soeben begonnen! Bitte gehen Sie zu Flugsteig B18."
 
-## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt {#transactional-push-notifications-targeting-a-profile}
+## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt  {#transactional-push-notifications-targeting-a-profile}
 
 Sie können eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile senden, die Ihre Mobile App abonniert haben. Dieser Versand kann [Personalisierungsfelder](../../designing/using/inserting-a-personalization-field.md) enthalten, wie beispielsweise den Vornamen des Empfängers.
 
@@ -101,13 +101,13 @@ In diesem Fall muss das Ereignis einige Felder enthalten, die die Abstimmung mit
 
 Bei der Zielgruppenbestimmung durch Profile wird pro Mobile App und Gerät eine einzige Transaktions-Push-Benachrichtigung versendet. Wenn sich beispielsweise ein Adobe-Campaign-Benutzer für zwei Anwendungen angemeldet hat, erhält er zwei Benachrichtigungen. Wenn sich ein Benutzer für dieselbe Anwendung mit zwei unterschiedlichen Geräten angemeldet hat, erhält er auf jedes Gerät eine Benachrichtigung.
 
-Die Mobile Apps, für die sich ein Profil angemeldet hat, werden im Tab **[!UICONTROL Mobile-App-Anmeldungen]dieses Profils aufgelistet.** Um diesen Tab zu öffnen, wählen Sie ein Profil und danach rechts die Schaltfläche **[!UICONTROL Profileigenschaften bearbeiten]aus.**
+Die Mobile Apps, für die sich ein Profil angemeldet hat, werden im Tab **[!UICONTROL Mobile-App-Anmeldungen]** dieses Profils aufgelistet. Um diesen Tab zu öffnen, wählen Sie ein Profil und danach rechts die Schaltfläche **[!UICONTROL Profileigenschaften bearbeiten]** aus.
 
 ![](assets/push_notif_subscriptions.png)
 
 Weitere Informationen zum Öffnen und Bearbeiten von Profilen finden Sie unter [Profile](../../audiences/using/creating-profiles.md).
 
-### Transaktions-Push-Benachrichtigungen senden, bei denen die Zielgruppenbestimmung durch ein Profil erfolgt {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Transaktions-Push-Benachrichtigungen senden, bei denen die Zielgruppenbestimmung durch ein Profil erfolgt  {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Beispiel: Eine Fluglinie möchte allen Adobe-Campaign-Benutzern, die sich für ihre Mobile App angemeldet haben, eine letzte Aufforderung zum Boarding senden.
 
@@ -115,7 +115,7 @@ Beispiel: Eine Fluglinie möchte allen Adobe-Campaign-Benutzern, die sich für i
 
    ![](assets/message-center_push_message_profile.png)
 
-1. Öffnen Sie nun mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]der Nachricht, um den Titel und den Hauptteil anzupassen.**
+1. Öffnen Sie nun mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]** der Nachricht, um den Titel und den Hauptteil anzupassen.
 
    Im Gegensatz zu auf Echtzeit-Ereignissen basierenden Konfigurationen haben Sie direkten Zugriff auf alle Profilinformationen, um die Nachricht zu personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/inserting-a-personalization-field.md).
 
