@@ -3,17 +3,17 @@ title: Benutzeroberfläche des Inhaltseditors für Landingpages
 seo-title: Benutzeroberfläche des Inhaltseditors für Landingpages
 description: Benutzeroberfläche des Inhaltseditors für Landingpages
 seo-description: Hier erfahren Sie, wie Sie den Inhalt der Landingpage mit den unterschiedlichen Bereichen des Editors, wie z. B. der Symbolleiste, bearbeiten können.
-page-status-flag: nie aktiviert
-uuid: 53729 a 68-eed 2-4 c 5 d-bc 14-02 c 80 e 897 c 44
+page-status-flag: never-activated
+uuid: 53729a68-eed2-4c5d-bc14-02c80e897c44
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: editing-landing-page-content
-discoiquuid: 08 e 2 bbda-e 409-467 f-b 462-d 74256 dc 6 ebc
+discoiquuid: 08e2bbda-e409-467f-b462-d74256dc6ebc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76c3d473f6cc7e825fdabadeec2405cb5c13abd1
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 76c3d473f6cc7e825fdabadeec2405cb5c13abd1
 
 # Benutzeroberfläche des Inhaltseditors für Landingpages{#landing-page-content-editor-interface}
 
-Mit dem Landingpage-Inhaltseditor können Sie mühelos Inhalte in Adobe Campaign definieren, ändern und personalisieren. Um ihn zu öffnen, klicken Sie in den **[!UICONTROL Inhaltsbaustein]in einem Landingpage-Dashboard.**
+Mit dem Landingpage-Inhaltseditor können Sie mühelos Inhalte in Adobe Campaign definieren, ändern und personalisieren. Um ihn zu öffnen, klicken Sie in den **[!UICONTROL Inhaltsbaustein]** in einem Landingpage-Dashboard.
 
 Der Inhaltseditor besteht aus drei Bereichen. In diesen Bereichen können Sie den Inhalt ansehen und bearbeiten.
 
@@ -31,7 +31,7 @@ Der Inhaltseditor besteht aus drei Bereichen. In diesen Bereichen können Sie de
 1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Sie können eine Vorlage auswählen und den Anzeigemodus wechseln. Siehe [Symbolleiste des Inhaltseditors für Landingpages](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
 1. Im **Hauptarbeitsbereich** ermöglicht eine kontextabhängige Symbolleiste die direkte Bearbeitung des Inhalts. Sie können beispielsweise ein Bild mit einem Link belegen, die Schriftart anpassen, ein Feld löschen etc. Siehe [Symbolleiste des Inhaltseditors für Landingpages](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
 
-## Symbolleiste des Inhaltseditors für Landingpages {#landing-page-editor-action-bar}
+## Symbolleiste des Inhaltseditors für Landingpages  {#landing-page-editor-action-bar}
 
 Die Symbolleiste enthält Schaltflächen, die die Bearbeitung des angezeigten Inhalts ermöglichen.
 
@@ -80,7 +80,7 @@ Die Symbolleiste enthält Schaltflächen, die die Bearbeitung des angezeigten In
  </tbody> 
 </table>
 
-## Symbolleiste des Inhaltseditors für Landingpages {#landing-page-editor-toolbar}
+## Symbolleiste des Inhaltseditors für Landingpages  {#landing-page-editor-toolbar}
 
 Die dedizierte Symbolleiste ist ein **kontextuelles Element** der Editor-Oberfläche. Je nach markiertem Bereich sind unterschiedliche Schaltflächen verfügbar. Sie enthält Aktionsschaltflächen sowie Schaltflächen zur Anpassung des Textstils. Alle Änderungen beziehen sich somit jeweils nur auf das ausgewählte Element. Wenn Sie beispielsweise einen Block markieren, können Sie diesen löschen oder duplizieren. Wenn Sie Text innerhalb eines Blocks markieren, können Sie ihn in einen Link verwandeln oder die Formatierung anpassen.
 
