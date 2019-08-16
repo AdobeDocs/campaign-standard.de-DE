@@ -3,18 +3,18 @@ title: Über Landingpages
 seo-title: Über Landingpages
 description: Über Landingpages
 seo-description: Hier erfahren Sie über Landingpages bei Campaign und deren Lebenszyklus.
-page-status-flag: nie aktiviert
-uuid: b 316 bf 47-7 d 98-46 fa-ab 4 f -67 ff 50 de 8095
+page-status-flag: never-activated
+uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: landing-pages
-discoiquuid: ca 8 d 1698-6 e 8 a -4 f 5 a-b 17-74 a 152 e 14286
-context-tags: Landingpage, Wizard; Landingpage, overview; Landingpage, main
+discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
+context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a0fe48630748472047d417df97cfd74d178d6ab
 
 ---
@@ -43,7 +43,7 @@ Adobe empfiehlt, eigene Vorlagen durch das Duplizieren nativer Vorlagen zu erste
 
 >[!NOTE]
 >
->To access landing page templates, click the Adobe Campaign logo on the upper left corner and select **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**.
+>Um auf Landingpage-Vorlagen zuzugreifen, wählen Sie das Adobe Campaign-Logo in der linken oberen Ecke aus und danach **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen]** &gt; **[!UICONTROL Landingpage-Vorlagen]**.
 
 Ein vollständiger Landingpage-Lebenszyklus umfasst die folgenden Phasen:
 
@@ -58,5 +58,5 @@ Nach der Erstellung und Publikation einer Landingpage können Sie diese auf eine
 
 **Verwandte Themen:**
 
-* Video [Creating a landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* Video [Creating a landing page](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
 * [Über eine Landingpage zu einem Dienst anmelden](../../audiences/using/creating-a-service.md)
