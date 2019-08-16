@@ -3,17 +3,17 @@ title: Über die Integration von Campaign mit Analytics
 seo-title: Über die Integration von Campaign mit Analytics
 description: Über die Integration von Campaign mit Analytics
 seo-description: Sie können jetzt die in Adobe Campaign Standard erfassten KPI-Daten in Adobe Analytics verwenden, um E-Mail-Marketing-Metriken von Adobe Campaign zu messen.
-page-status-flag: nie aktiviert
-uuid: 7 a 351 e 1 d -50 cb -4 ec 5-8 b 66-318 b 797 af 77 f
+page-status-flag: never-activated
+uuid: 7a351e1d-50cb-4ec5-8b66-318b797af77f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird integriert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-analytics
-discoiquuid: 2 ea 51543-fe 4 d -462 b-b 47 e -9 ccaa 1 d 68 dfa
+discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 ---
@@ -38,5 +38,5 @@ Eine Integration zwischen dem Core Service **Triggers** von Adobe Analytics mit 
 
 * [Campaign-Dimensionen und -Metriken in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [Reporting](../../reporting/using/about-dynamic-reports.md)
-* [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html)-Handbuch
+* [Adobe-Analytics](https://marketing.adobe.com/resources/help/de_DE/reference/adobe-campaign.html)-Handbuch
 
