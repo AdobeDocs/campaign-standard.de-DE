@@ -3,17 +3,17 @@ title: Vorlagen verwenden
 seo-title: Vorlagen verwenden
 description: Vorlagen verwenden
 seo-description: Hier erhalten Sie Informationen zur Verwendung vorhandener Vorlagen.
-page-status-flag: nie aktiviert
-uuid: 733383 ac -1271-4621-83 a 4-db 9 bc 5 ad 74 a 4
+page-status-flag: never-activated
+uuid: 733383ac-1271-4621-83a4-db9bc5ad74a4
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
+content-type: reference
 topic-tags: managing-templates
-discoiquuid: 66 e 4 a 473-0 dc 0-4 aa 8-ad 8 b -511 f 4588 a 1 b 0
+discoiquuid: 66e4a473-0dc0-4aa8-ad8b-511f4588a1b0
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
