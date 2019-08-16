@@ -3,17 +3,17 @@ title: Indikatorberechnung
 seo-title: Indikatorberechnung
 description: Indikatorberechnung
 seo-description: Hier erhalten Sie Informationen über die Ergebnisse Ihrer Berichte mit einer Liste mit Metrik-Formeln.
-page-status-flag: nie aktiviert
-uuid: dfbc 9 d 7 e -62 db -4 e 77-bb 8 e -0 ac 826 ec 7333
+page-status-flag: never-activated
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
-discoiquuid: 45 b 11631-6 b 32-4074-8 c 8 d-affd 06407810
+discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand {#email-delivery}
+## E-Mail-Versand  {#email-delivery}
 
 <table> 
  <thead> 
@@ -230,7 +230,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand {#push-notification-delivery}
+## Push-Benachrichtigungsversand  {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -304,7 +304,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## In-App-Versand {#in-app-delivery}
+## In-App-Versand  {#in-app-delivery}
 
 <table> 
  <thead> 
