@@ -3,18 +3,18 @@ title: Programme und Kampagnen
 seo-title: Programme und Kampagnen
 description: Programme und Kampagnen
 seo-description: Programme und Kampagnen in Adobe Campaign ermöglichen die Zusammenfassung und Abstimmung der ihnen zugeordneten Marketingaktivitäten. Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messen.
-page-status-flag: nie aktiviert
-uuid: fe 2812 a 8-196 f -4 aba-a 739-fbbfffd 754 cb
+page-status-flag: never-activated
+uuid: fe2812a8-196f-4aba-a739-fbbfffd754cb
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
-topic-tags: Marketing-Pläne
-discoiquuid: 21 b 84028-d 1 a 7-4 ad 6-891 a -862 a 94565514
-context-tags: campaign, overview; Campaignexplorer, main
+content-type: reference
+topic-tags: marketing-plans
+discoiquuid: 21b84028-d1a7-4ad6-891a-862a94565514
+context-tags: campaign,overview;campaignExplorer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
 
 ---
@@ -40,19 +40,19 @@ Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messe
 * [Planung](../../start/using/timeline.md)
 * [Über dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Programme erstellen {#creating-a-program}
+## Programme erstellen  {#creating-a-program}
 
 Ein Programm ist die höchste Organisationsebene Es kann Unterprogramme, Kampagnen, Workflows und Landingpages enthalten.
 
-1. Wählen Sie auf der Adobe-Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]aus.**
-1. Wählen Sie die **[!UICONTROL Erstellen]-Schaltfläche aus.**
-1. Wählen Sie im **[!UICONTROL Erstellmodus]-Bildschirm unter den verfügbaren Vorlagen den gewünschten Programmtyp aus.**
+1. Wählen Sie auf der Adobe-Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]** aus.
+1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
+1. Wählen Sie im **[!UICONTROL Erstellmodus]**-Bildschirm unter den verfügbaren Vorlagen den gewünschten Programmtyp aus.
 
    ![](assets/programs_and_campaigns_2.png)
 
-   The program types available are based on templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Program templates]** section. Weiterführende Informationen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
+   Die verschiedenen Programmtypen entsprechen den im Menü **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen &gt;]** &gt; **[!UICONTROL Programmvorlagen]** definierten Vorlagen. Weiterführende Informationen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
 
-1. Geben Sie dann im **[!UICONTROL Eigenschaften]-Bildschirm den Titel und die Kennung des Programms ein.**
+1. Geben Sie dann im **[!UICONTROL Eigenschaften]**-Bildschirm den Titel und die Kennung des Programms ein.
 
    ![](assets/programs_and_campaigns_3.png)
 
@@ -60,34 +60,34 @@ Ein Programm ist die höchste Organisationsebene Es kann Unterprogramme, Kampagn
 
    Sie haben die Möglichkeit, das Programm einem übergeordneten Programm zuzuordnen. Wählen Sie dieses unter den bereits existierenden Programmen aus.
 
-1. Wählen Sie **[!UICONTROL Erstellen]aus, um die Erstellung des Programms zu bestätigen.**
+1. Wählen Sie **[!UICONTROL Erstellen]** aus, um die Erstellung des Programms zu bestätigen.
 
-Das Programm wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen], um Unterprogramme, Kampagnen, Workflows oder Landingpages hinzuzufügen.**
+Das Programm wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]**, um Unterprogramme, Kampagnen, Workflows oder Landingpages hinzuzufügen.
 
 >[!NOTE]
 >
 >Programme können auch in der Liste der Marketingaktivitäten erstellt werden.
 
-## Kampagnen erstellen {#creating-a-campaign}
+## Kampagnen erstellen  {#creating-a-campaign}
 
 Zu Programmen und Unterprogrammen können Kampagnen hinzugefügt werden. Kampagnen können Marketingaktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows und Landingpages enthalten.
 
-1. Wählen Sie auf der Adobe-Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]aus und greifen Sie auf ein Programm oder Unterprogramm zu.**
-1. Click on the **[!UICONTROL Create]** button and select **[!UICONTROL Campaign]**.
-1. Wählen Sie im **[!UICONTROL Erstellmodus]-Bildschirm den gewünschten Kampagnentyp aus.**
+1. Wählen Sie auf der Adobe-Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]** aus und greifen Sie auf ein Programm oder Unterprogramm zu.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]** und wählen Sie danach **[!UICONTROL Kampagne]** aus.
+1. Wählen Sie im **[!UICONTROL Erstellmodus]**-Bildschirm den gewünschten Kampagnentyp aus.
 
    ![](assets/programs_and_campaigns_7.png)
 
-   The campaign types available are based on templates defined in **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Campaign templates]**. Weiterführende Informationen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
+   Die verschiedenen Kampagnentypen entsprechen den im Menü **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen]** &gt; **[!UICONTROL Kampagnenvorlagen]** definierten Vorlagen. Weiterführende Informationen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
 
-1. Geben Sie dann im **[!UICONTROL Eigenschaften]-Bildschirm den Titel und die Kennung der Kampagne ein.**
+1. Geben Sie dann im **[!UICONTROL Eigenschaften]**-Bildschirm den Titel und die Kennung der Kampagne ein.
 1. Definieren Sie ein Anfangs- und Enddatum für Ihre Kampagne. Diese Daten gelten nur für die Kampagne selbst.
 
    ![](assets/programs_and_campaigns_8.png)
 
-1. Wählen Sie **[!UICONTROL Erstellen]aus, um die Erstellung der Kampagne zu bestätigen.**
+1. Wählen Sie **[!UICONTROL Erstellen]** aus, um die Erstellung der Kampagne zu bestätigen.
 
-Die Kampagne wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen], um Ihrer Kampagne Marketingaktivitäten hinzuzufügen.**
+Die Kampagne wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]**, um Ihrer Kampagne Marketingaktivitäten hinzuzufügen.
 
 >[!NOTE]
 >
@@ -95,13 +95,13 @@ Die Kampagne wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 
 Kampagnen können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. Über das Eigenschaften-Fenster der Kampagne können Sie die Marketingaktivität mit einem Elternprogramm oder Unterprogramm verknüpfen.
 
-## Symbole und Status von Programmen und Kampagnen {#programs-and-campaigns-icons-and-statuses}
+## Symbole und Status von Programmen und Kampagnen  {#programs-and-campaigns-icons-and-statuses}
 
 Jedem Programm und jeder Kampagne der Liste ist eine Miniaturansicht beigefügt sowie ein Symbol, dessen Farbe den Ausführungsstatus anzeigt. Dieser Status hängt von dem für das Programm oder die Kampagne definierten Gültigkeitszeitraum ab.
 
-* Grau: Das Startdatum des Programms/der Kampagne wurde noch nicht erreicht - Status **[!UICONTROL In Bearbeitung].**
-* Blau: Das Programm/die Kampagne befindet sich innerhalb seiner/ihrer definierten Gültigkeit - Status **[!UICONTROL Gestartet].**
-* Grün: Das Programm/die Kampagne hat sein/ihr Enddatum überschritten - Status **[!UICONTROL Abgeschlossen.]** Standardmäßig entspricht das Gültigkeitsstartdatum automatisch dem aktuellen Datum, und das Enddatum wird in Bezug auf das Startdatum berechnet (**T+186 Tage**). Bei Bedarf können Sie diese Daten in den Eigenschaften des Programms bzw. der Kampagne anpassen.
+* Grau: Das Startdatum des Programms/der Kampagne wurde noch nicht erreicht - Status **[!UICONTROL In Bearbeitung]**.
+* Blau: Das Programm/die Kampagne befindet sich innerhalb seiner/ihrer definierten Gültigkeit - Status **[!UICONTROL Gestartet]**.
+* Grün: Das Programm/die Kampagne hat sein/ihr Enddatum überschritten - Status **[!UICONTROL Abgeschlossen]**. Standardmäßig entspricht das Gültigkeitsstartdatum automatisch dem aktuellen Datum, und das Enddatum wird in Bezug auf das Startdatum berechnet (**T+186 Tage**). Bei Bedarf können Sie diese Daten in den Eigenschaften des Programms bzw. der Kampagne anpassen.
 
 ![](assets/programs_and_campaigns.png)
 
