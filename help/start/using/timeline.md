@@ -3,18 +3,18 @@ title: Planung
 seo-title: Planung
 description: Planung
 seo-description: Hier erfahren Sie, wie Sie über die Benutzeroberfläche von Adobe Campaign Standard aktive Programme und ihren Inhalt visualisieren.
-page-status-flag: nie aktiviert
-uuid: ffa 0 a 63 a -2 e 77-45 c 0-8 e 60-212 f 7 aaeb 447
+page-status-flag: never-activated
+uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
-topic-tags: Marketing-Pläne
-discoiquuid: 53 e 3 db 10-5 fed -4 fc 3-b 41 e -5226 f 1 e 05246
-context-tags: Campaigncalendar, main
+content-type: reference
+topic-tags: marketing-plans
+discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
+context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 # Planung{#timeline}
 
-Die **[!UICONTROL Planung]zeigt laufende Programme und ihren Inhalt in einer zeitlichen Übersicht an.**
+Die **[!UICONTROL Planung]** zeigt laufende Programme und ihren Inhalt in einer zeitlichen Übersicht an.
 
 Klicken Sie auf der Startseite auf die entsprechende Karte, um darauf zuzugreifen.
 
@@ -34,7 +34,7 @@ Jedes Programm wird durch einen Balken repräsentiert, der eine Miniaturansicht 
 
 Das aktuelle Datum wird durch eine blaue senkrechte Linie symbolisiert, welche sich standardmäßig in der Mitte des Arbeitsbereichs befindet. Es besteht die Möglichkeit, den Arbeitsbereich nach rechts oder links zu verschieben, um andere Zeitabschnitte anzuzeigen.
 
-Die Schaltflächen ![](assets/timeline_zoom_in.png) und ![ ermöglichen die Vergrößerung bzw. Verkleinung des sichtbaren Ausschnitts der Planung. ](assets/timeline_zoom_out.png) So zoomt die Schaltfläche ![](assets/timeline_zoom_in.png) bis hin zu einer Anzeige von Tagen in den angezeigten Zeitraum hinein, während die Schaltfläche ![ herauszoomt, um einen größeren Zeitraum anzuzeigen.](assets/timeline_zoom_out.png)
+Die Schaltflächen ![](assets/timeline_zoom_in.png) und ![](assets/timeline_zoom_out.png) ermöglichen die Vergrößerung bzw. Verkleinung des sichtbaren Ausschnitts der Planung. So zoomt die Schaltfläche ![](assets/timeline_zoom_in.png) bis hin zu einer Anzeige von Tagen in den angezeigten Zeitraum hinein, während die Schaltfläche ![](assets/timeline_zoom_out.png) herauszoomt, um einen größeren Zeitraum anzuzeigen.
 
 Klicken Sie auf den Pfeil rechts im Programmbalken, um seine untergeordneten Elemente anzuzeigen. Ein Programm kann Unterprogramme, Kampagnen und Landingpages enthalten. Die Anzeige von Kampagnen lässt sich auf die gleiche Weise erzeugen. Eine Kampagne kann E-Mails, SMS und Landingpages enthalten.
 
