@@ -3,17 +3,17 @@ title: Kommunikationskanäle
 seo-title: Kommunikationskanäle
 description: Kommunikationskanäle
 seo-description: Hier erfahren Sie, wie Sie personalisierte Nachrichten auf unterschiedlichen Kanälen senden und kanalübergreifende Kampagnen erstellen können, um Empfänger gezielter anzusprechen.
-page-status-flag: nie aktiviert
-uuid: 5 d 61 d 8 df -8256-4 f 28-8 dd 3-e 791891 e 312 f
+page-status-flag: never-activated
+uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 5214 becf -005 b -42 ac -97 d 2-2 bce 5 ba 2 ecb 5
+discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -43,5 +43,5 @@ Im Fall einer E-Mail-Vorlage kann der funktionale Administrator, der für die Ko
 
 **Verwandte Themen**:
 
-* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
+* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_Deliverability.html)
 
