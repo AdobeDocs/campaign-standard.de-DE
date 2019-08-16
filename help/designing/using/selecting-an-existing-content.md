@@ -3,17 +3,17 @@ title: Existierenden Inhalt auswählen
 seo-title: Existierenden Inhalt auswählen
 description: Existierenden Inhalt auswählen
 seo-description: Hier erfahren Sie, wie Sie bei der Erstellung einer E-Mail oder Landingpage existierenden Inhalt aus einer anderen Quelle laden können.
-page-status-flag: nie aktiviert
-uuid: 6 f 06 cf 24-1761-4 f 58-904 f-f 1 ae 84 e 13696
+page-status-flag: never-activated
+uuid: 6f06cf24-1761-4f58-904f-f1ae84e13696
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: loading-content
-discoiquuid: 9 d 785 d 1 d -5 fba -41 fb-b 92 a -3 c 501033380 d
+discoiquuid: 9d785d1d-5fba-41fb-b92a-3c501033380d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -30,16 +30,16 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 >In den unten stehenden Bildern sehen Sie, wie Sie existierenden Inhalt mit [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) laden können.
 
 1. Öffnen Sie nach der Erstellung der E-Mail oder Landingpage deren Inhalt.
-1. Wählen Sie das Startseiten-Symbol aus, um die Startseite von **[!UICONTROL Email Designer]zu öffnen.**
+1. Wählen Sie das Startseiten-Symbol aus, um die Startseite von **[!UICONTROL Email Designer]** zu öffnen.
 
    ![](assets/des_loading_1.png)
 
 1. Wählen Sie die Quelle des Inhalts aus, den Sie laden möchten:
 
-   * [Inhaltsvorlagen](../../start/using/about-templates.md#content-templates): Wählen Sie den Tab **[!UICONTROL Vorlagen]aus.**
-   * [Neu erstellten Inhalt](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch): Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]aus.**
-   * [Inhalte von Ihrem Computer als ZIP- oder HTML-Datei](../../designing/using/importing-content-from-a-file.md): Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]aus.**
-   * [Inhalte von einer vorhandenen URL](../../designing/using/importing-content-from-a-url.md) (nur für E-Mails): Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]aus.**
+   * [Inhaltsvorlagen](../../start/using/about-templates.md#content-templates): Wählen Sie den Tab **[!UICONTROL Vorlagen]** aus.
+   * [Neu erstellten Inhalt](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch): Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]** aus.
+   * [Inhalte von Ihrem Computer als ZIP- oder HTML-Datei](../../designing/using/importing-content-from-a-file.md): Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]** aus.
+   * [Inhalte von einer vorhandenen URL](../../designing/using/importing-content-from-a-url.md) (nur für E-Mails): Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]** aus.
    ![](assets/des_loading_2.png)
 
 1. Laden Sie den Inhalt. Bei der Auswahl eines neuen Inhalts wird der aktuelle Inhalt automatisch ersetzt.
