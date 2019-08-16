@@ -3,17 +3,17 @@ title: Benutzerdefinierte Profildimension erstellen
 seo-title: Benutzerdefinierte Profildimension erstellen
 description: Benutzerdefinierte Profildimension erstellen
 seo-description: Hier erfahren Sie, wie Sie eine benutzerdefinierte Profildimension auf der Basis von benutzerdefinierten Profildaten erstellen können.
-page-status-flag: nie aktiviert
-uuid: f 75 e 005 b -5328-4 c 98-9 e 78-51 d 54 fd 0 e 246
+page-status-flag: never-activated
+uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
-topic-tags: anpassen-Berichte
-discoiquuid: b 6 d 3 de 63-3 add -4881-8917-04 a 6 f 8 b 6 be 4 d
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
+discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
 ---
@@ -30,7 +30,7 @@ In diesem Beispiel erstellen wir das benutzerdefinierte Profilfeld **Treueprogra
 * [Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## Schritt 1: Erstellen Sie ein neues Profilfeld. {#step-1--create-a-new-profile-field}
+## Schritt 1: Erstellen Sie ein neues Profilfeld.  {#step-1--create-a-new-profile-field}
 
 Zunächst muss das neue Profilfeld **Treueprogramm** erstellt werden, mit dem unseren Empfängern eine Treuestufe zugewiesen wird: Gold, Silber oder Bronze.
 
@@ -40,15 +40,15 @@ Zunächst muss das neue Profilfeld **Treueprogramm** erstellt werden, mit dem un
 
 Gehen Sie dabei folgendermaßen vor:
 
-1. From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** then the **[!UICONTROL Profile (profile)]** custom resource.
+1. Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Entwicklung]** &gt; **[!UICONTROL Benutzerdefinierte Ressourcen]** und dann die benutzerdefinierte Ressource **[!UICONTROL Profil (profile)]** aus.
 
    ![](assets/custom_profile_1.png)
 
-1. Wählen Sie im Tab **[!UICONTROL Datenstruktur]** in der Kategorie **[!UICONTROL Felder]die Schaltfläche** Feld hinzufügen] aus.**[!UICONTROL **
+1. Wählen Sie im Tab **[!UICONTROL Datenstruktur]** in der Kategorie **[!UICONTROL Felder]** die Schaltfläche **[!UICONTROL Feld hinzufügen]** aus.
 
    ![](assets/custom_profile_2.png)
 
-1. Enter the **[!UICONTROL Label]**, **[!UICONTROL ID]** and select the custom resource **[!UICONTROL Type]**. In unserem Beispiel haben wir **[!UICONTROL Text]ausgewählt, da die Empfänger die Wahl zwischen Gold, Silber und Bronze haben werden.**
+1. Geben Sie den **[!UICONTROL Titel]** und die **[!UICONTROL Kennung]** ein und wählen Sie die benutzerdefinierte Ressource **[!UICONTROL Typ]** aus. In unserem Beispiel haben wir **[!UICONTROL Text]** ausgewählt, da die Empfänger die Wahl zwischen Gold, Silber und Bronze haben werden.
 
    ![](assets/custom_profile_3.png)
 
@@ -60,26 +60,26 @@ Gehen Sie dabei folgendermaßen vor:
 
    ![](assets/custom_profile_13.png)
 
-1. Geben Sie **[!UICONTROL Titel]** und **[!UICONTROL Wert]** ein und wählen Sie dann **Hinzufügen[!UICONTROL aus]**. Für unser Beispiel müssen die Werte "Gold", "Silber" und "Bronze" erstellt werden. Wählen Sie zum Abschluss **[!UICONTROL Bestätigen]aus.**
+1. Geben Sie **[!UICONTROL Titel]** und **[!UICONTROL Wert]** ein und wählen Sie dann **[!UICONTROL Hinzufügen]** aus. Für unser Beispiel müssen die Werte "Gold", "Silber" und "Bronze" erstellt werden. Wählen Sie zum Abschluss **[!UICONTROL Bestätigen]** aus.
 
    ![](assets/custom_profile_14.png)
 
-1. Wählen Sie den Tab **[!UICONTROL Bildschirmdefinition]aus.** Aktivieren Sie in der Dropdown-Liste **[!UICONTROL Konfiguration des Detailbildschirms]** die Option **Abschnitt mit Personalisierungsfeldern hinzufügen], um in unserem Profil einen neuen Bereich zu erstellen.[!UICONTROL **
+1. Wählen Sie den Tab **[!UICONTROL Bildschirmdefinition]** aus. Aktivieren Sie in der Dropdown-Liste **[!UICONTROL Konfiguration des Detailbildschirms]** die Option **[!UICONTROL Abschnitt mit Personalisierungsfeldern hinzufügen]**, um in unserem Profil einen neuen Bereich zu erstellen.
 
    ![](assets/custom_profile_4.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Element hinzufügen]aus, um den neuen Bereich zu erstellen.** Select the **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** or **[!UICONTROL List]**, then the field to add in this new section.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Element hinzufügen]** aus, um den neuen Bereich zu erstellen. Wählen Sie den **[!UICONTROL Typ]**: **[!UICONTROL Eingabefeld]**, **[!UICONTROL Wert]** oder **[!UICONTROL Liste]** und danach das in diesem neuen Bereich hinzuzufügende Feld.
 
    ![](assets/custom_profile_5.png)
 
 1. Sie können auch einen Titel zu Ihrem Bereich hinzufügen, indem Sie ihn im Feld **[!UICONTROL Titel des Abschnitts anpassen, in dem die Felder angezeigt werden eingeben]**.
 
-   Wählen Sie **[!UICONTROL Speichern], wenn die Konfiguration abgeschlossen ist.**
+   Wählen Sie **[!UICONTROL Speichern]**, wenn die Konfiguration abgeschlossen ist.
 
    ![](assets/custom_profile_6.png)
 
-1. From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** to start publishing your custom resource.
-1. Wählen Sie **[!UICONTROL Publikation vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **Publizieren[!UICONTROL .]**
+1. Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Entwicklung]** &gt; **[!UICONTROL Publikation]**, um Ihre benutzerdefinierte Ressource zu publizieren.
+1. Wählen Sie **[!UICONTROL Publikation vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **[!UICONTROL Publizieren]**.
 
    ![](assets/custom_profile_7.png)
 
@@ -87,35 +87,35 @@ Ihr neues Profilfeld kann jetzt verwendet und von Empfängern ausgewählt werden
 
 ![](assets/custom_profile_8.png)
 
-## Schritt 2: Erweitern Sie die Versandlogs mit dem Profilfeld. {#step-2--extend-the-sending-logs-with-the-profile-field}
+## Schritt 2: Erweitern Sie die Versandlogs mit dem Profilfeld.  {#step-2--extend-the-sending-logs-with-the-profile-field}
 
 Nach der Erstellung des Profilfeldes müssen die Versandlogs mit unserem Profilfeld erweitert werden, um die zugehörige benutzerdefinierte Profildimension in dynamischen Berichten zu verwenden.
 
-Bevor das Log mit unserem Profilfeld erweitert werden kann, muss das PII-Fenster akzeptiert worden sein, um Zugriff auf den Tab **[!UICONTROL Erweiterung der Versandlogs]zu erhalten.** Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+Bevor das Log mit unserem Profilfeld erweitert werden kann, muss das PII-Fenster akzeptiert worden sein, um Zugriff auf den Tab **[!UICONTROL Erweiterung der Versandlogs]** zu erhalten. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 >[!NOTE]
 >
 >Die Erweiterung von Logs mit Profilfeldern muss durch einen Administrator erfolgen.
 
-1. From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** then the **[!UICONTROL Profile (profile)]** custom resource.
-1. Öffnen Sie die Dropdown-Liste **[!UICONTROL Erweiterung der Versandlogs].**
-1. Wählen Sie die Schaltfläche **[!UICONTROL Element erstellen]aus.**
+1. Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Entwicklung]** &gt; **[!UICONTROL Benutzerdefinierte Ressourcen]** und dann die benutzerdefinierte Ressource **[!UICONTROL Profil (profile)]** aus.
+1. Öffnen Sie die Dropdown-Liste **[!UICONTROL Erweiterung der Versandlogs]**.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Element erstellen]** aus.
 
    ![](assets/custom_profile_9.png)
 
 1. Wählen Sie das zuvor von Ihnen erstellte Feld und danach **[!UICONTROL Bestätigen aus]**.
-1. Aktivieren Sie die Option **[!UICONTROL Dieses Feld in dynamischen Berichten als neue Dimension hinzufügen], um Ihre benutzerdefinierte Profildimension zu erstellen.**
+1. Aktivieren Sie die Option **[!UICONTROL Dieses Feld in dynamischen Berichten als neue Dimension hinzufügen]**, um Ihre benutzerdefinierte Profildimension zu erstellen.
 
    ![](assets/custom_profile_10.png)
 
    Diese Option ist nur verfügbar, wenn zuvor das PII-Fenster akzeptiert wurde. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-1. Wählen Sie **[!UICONTROL Hinzufügen]aus und speichern Sie danach Ihre benutzerdefinierte Ressource.**
+1. Wählen Sie **[!UICONTROL Hinzufügen]** aus und speichern Sie danach Ihre benutzerdefinierte Ressource.
 1. Da die benutzerdefinierte Ressource verändert wurde, müssen wir sie publizieren, um die neuen Änderungen zu implementieren.
 
-   From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** to start publishing your custom resource.
+   Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Entwicklung]** &gt; **[!UICONTROL Publikation]**, um Ihre benutzerdefinierte Ressource zu publizieren.
 
-1. Wählen Sie **[!UICONTROL Publikation vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **Publizieren[!UICONTROL .]**
+1. Wählen Sie **[!UICONTROL Publikation vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **[!UICONTROL Publizieren]**.
 
    ![](assets/custom_profile_7.png)
 
@@ -123,18 +123,18 @@ Ihr benutzerdefiniertes Profil ist jetzt als benutzerdefinierte Profildimension 
 
 Nachdem Ihr Profilfeld erstellt und die Versandlogs damit erweitert wurden, können Sie für Ihre Nachrichten Zielgruppen auswählen.
 
-## Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen. {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.  {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 Nachdem Ihr Profilfeld publiziert wurde, können Sie den Versand starten. In diesem Beispiel möchten wir jeden Empfänger, der am Treueprogramm teilnimmt, eine Nachricht senden.
 
-1. Wählen Sie im Tab **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **E-Mail[!UICONTROL aus]**.
-1. Wählen Sie einen **[!UICONTROL E-Mail-Typ]aus und geben Sie dann die Eigenschaften Ihrer E-Mail ein.**
-1. Um Teilnehmer am Treueprogramm auszuwählen, ziehen Sie die Aktivität **[!UICONTROL Profile (Attribute)]in den Arbeitsbereich.**
-1. Wählen Sie das zuvor von Ihnen erstellte Feld aus der Dropdown-Liste **[!UICONTROL Feld]aus.**
+1. Wählen Sie im Tab **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL E-Mail]** aus.
+1. Wählen Sie einen **[!UICONTROL E-Mail-Typ]** aus und geben Sie dann die Eigenschaften Ihrer E-Mail ein.
+1. Um Teilnehmer am Treueprogramm auszuwählen, ziehen Sie die Aktivität **[!UICONTROL Profile (Attribute)]** in den Arbeitsbereich.
+1. Wählen Sie das zuvor von Ihnen erstellte Feld aus der Dropdown-Liste **[!UICONTROL Feld]** aus.
 
    ![](assets/custom_profile_16.png)
 
-1. Select your **[!UICONTROL Filter conditions]**. Hier möchten wir Empfänger ansprechen, die an einem der drei Stufen des Treueprogramms teilnehmen.
+1. Wählen Sie die gewünschten **[!UICONTROL Filterbedingungen]** aus. Hier möchten wir Empfänger ansprechen, die an einem der drei Stufen des Treueprogramms teilnehmen.
 
    ![](assets/custom_profile_17.png)
 
@@ -147,19 +147,19 @@ Nachdem Ihr Profilfeld publiziert wurde, können Sie den Versand starten. In die
 
 Nachdem Ihre E-Mail an die ausgewählten Empfänger gesendet wurde, können Sie Ihre Daten filtern und die Wirkung des Versands in Berichten überprüfen.
 
-## Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern. {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.  {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
-Nach dem Versand Ihrer Nachricht können Sie die Berichte mithilfe Ihrer benutzerdefinierten Profildimension in der Tabelle **[!UICONTROL Profil]aufschlüsseln.**
+Nach dem Versand Ihrer Nachricht können Sie die Berichte mithilfe Ihrer benutzerdefinierten Profildimension in der Tabelle **[!UICONTROL Profil]** aufschlüsseln.
 
-1. Wählen Sie im Tab **[!UICONTROL Berichte]** einen vordefinierten Bericht oder die Schaltfläche **Erstellen], um einen neuen Bericht zu erstellen.[!UICONTROL **
+1. Wählen Sie im Tab **[!UICONTROL Berichte]** einen vordefinierten Bericht oder die Schaltfläche **[!UICONTROL Erstellen]**, um einen neuen Bericht zu erstellen.
 
    ![](assets/custom_profile_18.png)
 
-1. Wählen Sie in der Kategorie **[!UICONTROL Dimensionen]** die Option **[!UICONTROL Profil]aus und ziehen Sie die benutzerdefinierte Profildimension** Treueprogramm **in Ihre Freiformtabelle.**
+1. Wählen Sie in der Kategorie **[!UICONTROL Dimensionen]** die Option **[!UICONTROL Profil]** aus und ziehen Sie die benutzerdefinierte Profildimension **Treueprogramm** in Ihre Freiformtabelle.
 
    ![](assets/custom_profile_19.png)
 
-1. Ziehen Sie die Metriken **[!UICONTROL Verarbeitet/gesendet]** und **Öffnungen]in den Arbeitsbereich, um mit der Filterung Ihrer Daten zu beginnen.[!UICONTROL **
+1. Ziehen Sie die Metriken **[!UICONTROL Verarbeitet/gesendet]** und **[!UICONTROL Öffnungen]** in den Arbeitsbereich, um mit der Filterung Ihrer Daten zu beginnen.
 
    ![](assets/custom_profile_20.png)
 
