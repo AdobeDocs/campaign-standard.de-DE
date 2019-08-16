@@ -3,18 +3,18 @@ title: Über die Planung von Sendungen
 seo-title: Über die Planung von Sendungen
 description: Über die Planung von Sendungen
 seo-description: Hier erfahren Sie, wie Sie den Nachrichtenversand zeitlich planen können.
-page-status-flag: nie aktiviert
-uuid: 286 fceee -65 a 9-4 cb 9-b 205-9 ce 5 d 246765 c
+page-status-flag: never-activated
+uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird gesendet
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9 c 7 fd 670-bba 9-4 f 3 c -8 cb 1-87397 a 1 acd 27
-context-tags: Bereitstellung, Zeitplan, zurück
+discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
+context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
 
 ---
@@ -26,23 +26,23 @@ source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
 >
 >Wenn Sie den Zeitplan eines Versands ändern, müssen Sie den Versand erneut vorbereiten, indem Sie auf die Schaltfläche **Vorbereiten** und danach auf **Bestätigen** klicken.
 
-Der Zeitpunkt des Nachrichtenversands (E-Mails, SMS-Nachrichten oder Push-Benachrichtigungen) wird im Nachrichten-Dashboard in der Kachel **[!UICONTROL Planung]definiert.**
+Der Zeitpunkt des Nachrichtenversands (E-Mails, SMS-Nachrichten oder Push-Benachrichtigungen) wird im Nachrichten-Dashboard in der Kachel **[!UICONTROL Planung]** definiert.
 
 ![](assets/delivery_dashboard.png)
 
-Unter **[!UICONTROL Planung]können Sie Versandoptionen für E-Mails, SMS-Nachrichten oder Push-Benachrichtigungen festlegen:**
+Unter **[!UICONTROL Planung]** können Sie Versandoptionen für E-Mails, SMS-Nachrichten oder Push-Benachrichtigungen festlegen:
 
 * **[!UICONTROL Nachrichten werden unmittelbar bei Bestätigung gesendet]**: Nachrichten werden gesendet, sobald der Versand bestätigt wurde. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
 
    ![](assets/delivery_planning_1.png)
 
-* **[!UICONTROL Nachrichtenversand am unten angegebenen Datum:]** Nachrichten werden an einem späteren Datum gesendet. Geben Sie das gewünschte **Kontaktdatum** im Feld **Versandstart am** an.
+* **[!UICONTROL Nachrichtenversand am unten angegebenen Datum]**: Nachrichten werden an einem späteren Datum gesendet. Geben Sie das gewünschte **Kontaktdatum** im Feld **Versandstart am** an.
 
    Sie können den Versand vorbereiten und bestätigen, die Nachrichten werden aber erst zum ausgewählten Zeitpunkt gesendet. Informationen zur Vorbereitung und Validierung des Versands finden Sie in den Abschnitten [Versandvorbereitung](../../sending/using/preparing-the-send.md) und [Versand bestätigen](../../sending/using/confirming-the-send.md).
 
-   Mithilfe der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]können Sie die für den Versand zu berücksichtigende Zeitzone anpassen.** Wenn Sie beispielsweise im Feld **[!UICONTROL Start des Versands von]** 9:00 Uhr eingeben und in der Dropdown-Liste **Zeitzone des Kontaktdatums]Brüssel, Kopenhagen, Madrid, Paris (GMT+1) auswählen, erhalten alle Empfänger die Nachricht um 9:00 Uhr Pariser Zeit.[!UICONTROL ** Folglich erhält ein Empfänger in Moskau (GMT+3) die Nachricht um 11:00 Uhr Moskauer Zeit.
+   Mithilfe der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** können Sie die für den Versand zu berücksichtigende Zeitzone anpassen. Wenn Sie beispielsweise im Feld **[!UICONTROL Start des Versands von]** 9:00 Uhr eingeben und in der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** Brüssel, Kopenhagen, Madrid, Paris (GMT+1) auswählen, erhalten alle Empfänger die Nachricht um 9:00 Uhr Pariser Zeit. Folglich erhält ein Empfänger in Moskau (GMT+3) die Nachricht um 11:00 Uhr Moskauer Zeit.
 
-   Aktivieren Sie die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen], wenn Sie den tatsächlichen Versand der Nachrichten von einer manuellen Bestätigung abhängig machen möchten.** Standardmäßig ist diese Option aktiviert.
+   Aktivieren Sie die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]**, wenn Sie den tatsächlichen Versand der Nachrichten von einer manuellen Bestätigung abhängig machen möchten. Standardmäßig ist diese Option aktiviert.
 
    ![](assets/delivery_planning.png)
 
