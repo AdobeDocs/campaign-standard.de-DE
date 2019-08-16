@@ -3,17 +3,17 @@ title: Über die API-Erweiterung
 seo-title: Über die API-Erweiterung
 description: Über die API-Erweiterung
 seo-description: null
-page-status-flag: nie aktiviert
-uuid: c 7 b 9 c 171-0409-4707-9 d 45-3 fa 72 aee 8008
+page-status-flag: never-activated
+uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird entwickelt
-content-type: Referenz
-topic-tags: use-case—extending-the-api
-discoiquuid: 304 e 7779-42 d 2-430 a -9704-8 c 599 a 4 eb 1 da
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 In diesem Anwendungsbeispiel wird die Anzeige der erweiterten Felder für die benutzerdefinierte Ressource Profile in der öffentlichen Profile-API dargelegt. Nehmen wir das Beispiel eines Kundenprofils, das man zeitnah mit einem durch ein Fakturierungssystem erzeugten Angebotscode aktualisieren möchte.
 
-Um die API publizieren zu können, muss Ihnen die Benutzerrolle **[!UICONTROL DATA MODEL]zugeschrieben sein.**
+Um die API publizieren zu können, muss Ihnen die Benutzerrolle **[!UICONTROL DATA MODEL]** zugeschrieben sein.
 
 * Erweiterung der benutzerdefinierten Ressource Profile
 * Publizieren der Erweiterung
@@ -32,5 +32,5 @@ Um die API publizieren zu können, muss Ihnen die Benutzerrolle **[!UICONTROL DA
 **Verwandte Themen:**
 
 * [Über benutzerdefinierte Ressourcen](../../developing/using/data-model-concepts.md)
-* [API-Handbuch](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [API-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
