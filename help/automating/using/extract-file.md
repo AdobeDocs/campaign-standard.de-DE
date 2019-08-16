@@ -3,18 +3,18 @@ title: Dateiextraktion
 seo-title: Dateiextraktion
 description: Dateiextraktion
 seo-description: Die Dateiextraktionsaktivität erlaubt den Export von in Adobe Campaign enthaltenen Daten in Form von externen Dateien.
-page-status-flag: nie aktiviert
-uuid: 631 f 0 fbd -9 e 8 d -4 f 77-a 338-fcb 7 f 4 fc 1774
+page-status-flag: never-activated
+uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: data-management-activities
-discoiquuid: a 06509 f 9-4731-4187-b 43 d -3 bfa 361284 d 3
-context-tags: Fileexport, main
+discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
+context-tags: fileExport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
 
 ![](assets/export.png)
 
-Die Aktivität **[!UICONTROL Dateiextraktion]erlaubt den Export von in Adobe Campaign enthaltenen Daten in Form von externen Dateien.**
+Die Aktivität **[!UICONTROL Dateiextraktion]** erlaubt den Export von in Adobe Campaign enthaltenen Daten in Form von externen Dateien.
 
 ## Anwendungskontext {#context-of-use}
 
@@ -34,11 +34,11 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
 
 >[!CAUTION]
 >
->Die Aktivität **[!UICONTROL Dateiextraktion]** kann nur im Anschluss an eine **Abfrage]-Aktivität verwendet werden.[!UICONTROL **
+>Die Aktivität **[!UICONTROL Dateiextraktion]** kann nur im Anschluss an eine **[!UICONTROL Abfrage]**-Aktivität verwendet werden.
 
 ## Konfiguration {#configuration}
 
-1. Ziehen Sie eine **[!UICONTROL Dateiextraktion]in den Workflow-Arbeitsbereich.**
+1. Ziehen Sie eine **[!UICONTROL Dateiextraktion]** in den Workflow-Arbeitsbereich.
 
    ![](assets/wkf_data_export1.png)
 
@@ -47,10 +47,10 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
 
    >[!NOTE]
    >
-   >Sie können den Dateinamen mit der in diesem Feld befindlichen Funktion **[!UICONTROL formatDate]spezifizieren.**
+   >Sie können den Dateinamen mit der in diesem Feld befindlichen Funktion **[!UICONTROL formatDate]** spezifizieren.
 
-1. Sie können die Ausgabedatei bei Bedarf komprimieren, indem Sie im Feld **[!UICONTROL Anschlussvorgangsetappe hinzufügen]** die Option **Komprimierung]auswählen.[!UICONTROL ** Die Ausgabedatei wird in eine GZIP-Datei (.gz) komprimiert.
-1. Fügen Sie mithilfe der Schaltflächen ![](assets/add_darkgrey-24px.png) oder **Element hinzufügen]eine Ausgabespalte hinzu.[!UICONTROL **
+1. Sie können die Ausgabedatei bei Bedarf komprimieren, indem Sie im Feld **[!UICONTROL Anschlussvorgangsetappe hinzufügen]** die Option **[!UICONTROL Komprimierung]** auswählen. Die Ausgabedatei wird in eine GZIP-Datei (.gz) komprimiert.
+1. Fügen Sie mithilfe der Schaltflächen ![](assets/add_darkgrey-24px.png) oder **[!UICONTROL Element hinzufügen]** eine Ausgabespalte hinzu.
 
    ![](assets/wkf_data_export2.png)
 
@@ -67,20 +67,20 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
 
    Wenn Sie Profile exportieren, um sie in einem externen Tool zu verwenden, empfehlen wir auch den Export einer eindeutigen Kennung. Nicht alle Profile verfügen standardmäßig über eine eindeutige Kennung. Dies hängt von der Weise ab, wie sie zur Datenbank hinzugefügt werden. Weiterführende Informationen finden Sie im Abschnitt [Eindeutige Kennung für Profile erstellen](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-1. Klicken Sie auf den **[!UICONTROL Dateistruktur]-Tab, um das Ausgabe-, Datums- und Zahlenformat der zu exportierenden Datei zu konfigurieren.**
+1. Klicken Sie auf den **[!UICONTROL Dateistruktur]**-Tab, um das Ausgabe-, Datums- und Zahlenformat der zu exportierenden Datei zu konfigurieren.
 
-   Wenn Sie Auflistungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Auflistungen exportieren.]** Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
+   Wenn Sie Auflistungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Auflistungen exportieren]**. Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
 
-1. Wählen Sie im Tab **[!UICONTROL Eigenschaften]** die Option **Keine Datei erstellen, wenn die eingehende Transition leer ist]aus, um zu verhindern, dass leere Dateien erstellt und auf SFTP-Server hochgeladen werden, wenn die eingehende Transition leer ist.[!UICONTROL **
+1. Wählen Sie im Tab **[!UICONTROL Eigenschaften]** die Option **[!UICONTROL Keine Datei erstellen, wenn die eingehende Transition leer ist]** aus, um zu verhindern, dass leere Dateien erstellt und auf SFTP-Server hochgeladen werden, wenn die eingehende Transition leer ist.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
 ## Beispiel {#example}
 
-Im folgenden Beispiel wird die Konfiguration einer auf eine **[!UICONTROL Abfrage]** folgenden **Dateiextraktion]erläutert.[!UICONTROL **
+Im folgenden Beispiel wird die Konfiguration einer auf eine **[!UICONTROL Abfrage]** folgenden **[!UICONTROL Dateiextraktion]** erläutert.
 
 Ziel dieses Workflows ist es, eine Profilliste in eine externe Datei zu exportieren, um die Daten außerhalb von Adobe Campaign verwenden zu können.
 
-1. Platzieren Sie eine **[!UICONTROL Dateiextraktion]** im Anschluss an eine **Abfrage]im Workflow-Arbeitsbereich.[!UICONTROL **
+1. Platzieren Sie eine **[!UICONTROL Dateiextraktion]** im Anschluss an eine **[!UICONTROL Abfrage]** im Workflow-Arbeitsbereich.
 
    Im vorliegenden Beispiel werden alle Profile im Alter von 18 bis 30 Jahren aus der Datenbank abgefragt.
 
@@ -92,7 +92,7 @@ Ziel dieses Workflows ist es, eine Profilliste in eine externe Datei zu exportie
 
    ![](assets/wkf_data_export6.png)
 
-1. Gehen Sie in den **[!UICONTROL Dateistruktur]-Tab und definieren Sie folgende Elemente:**
+1. Gehen Sie in den **[!UICONTROL Dateistruktur]**-Tab und definieren Sie folgende Elemente:
 
    * CSV als Ausgabeformat,
 
@@ -103,8 +103,8 @@ Ziel dieses Workflows ist es, eine Profilliste in eine externe Datei zu exportie
       ![](assets/wkf_data_export9.png)
 
 1. Validieren Sie die Aktivität.
-1. Platzieren Sie nun im Anschluss an die **[!UICONTROL Dateiextraktion]** eine **Dateiübertragung], um die Extraktionsdatei mittels eines externen Kontos abrufen zu können.[!UICONTROL **
-1. Öffnen Sie die Aktivität und wählen Sie die Aktion **[!UICONTROL Datei-Upload]aus.**
+1. Platzieren Sie nun im Anschluss an die **[!UICONTROL Dateiextraktion]** eine **[!UICONTROL Dateiübertragung]**, um die Extraktionsdatei mittels eines externen Kontos abrufen zu können.
+1. Öffnen Sie die Aktivität und wählen Sie die Aktion **[!UICONTROL Datei-Upload]** aus.
 
    ![](assets/wkf_data_export11.png)
 
