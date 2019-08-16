@@ -3,17 +3,17 @@ title: Interne Benachrichtigungen senden
 seo-title: Interne Benachrichtigungen senden
 description: Interne Benachrichtigungen senden
 seo-description: Erfahren Sie, wie Sie Adobe Campaign-Benutzern in Echtzeit Systembenachrichtigungen senden können.
-page-status-flag: nie aktiviert
-uuid: f 196 f 025-dbb 9-4268-9 d 7 d-ff 626994 b 447
+page-status-flag: never-activated
+uuid: f196f025-dbb9-4268-9d7d-ff626994b447
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: application-settings
-discoiquuid: 4 d 51229 a -745 a -4 f 24-b 1 c 2-22 fa 203 b 499 c
+discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
 
 ---
