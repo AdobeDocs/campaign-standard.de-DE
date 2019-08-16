@@ -3,17 +3,17 @@ title: Workflows
 seo-title: Workflows
 description: Workflows
 seo-description: Adobe Campaign verfügt über eine weitreichende grafische Umgebung, in der Prozesse konzipiert und automatisiert werden können.
-page-status-flag: nie aktiviert
-uuid: 7 c 1 e 8 cea -90 d 0-491 f-ab 8 f -6 cd 69 f 8 a 6 c 3 b
+page-status-flag: never-activated
+uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 40503917-7 a 53-4 d 99-96 a 4-57 aa 9 e 98 ec 87
+discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
 
 ---
@@ -38,6 +38,6 @@ Workflows sind auch in der Adobe Campaign Standard API verfügbar. Weiterführen
 
 **Verwandte Themen:**
 
-* [Arbeitsabläufe für den Arbeitsablauf](../../automating/using/workflow-operating-principles.md)
+* [Funktionsweise von Workflows](../../automating/using/workflow-operating-principles.md)
 * [Über den Datenimport und -export](../../automating/using/about-data-import-and-export.md)
 
