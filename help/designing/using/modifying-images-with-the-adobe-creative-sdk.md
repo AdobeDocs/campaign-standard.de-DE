@@ -3,17 +3,17 @@ title: Bilder mit Adobe Creative SDK bearbeiten
 seo-title: Bilder mit Adobe Creative SDK bearbeiten
 description: Bilder mit Adobe Creative SDK bearbeiten
 seo-description: Ermöglicht die Nutzung der umfassenden Funktionen des Adobe Creative SDK, um Bilder direkt im Inhaltseditor zu bearbeiten.
-page-status-flag: nie aktiviert
-uuid: 5 da 5 f 9 be -8576-45 e 7-933 b -82129 a 1 a 43 e 7
+page-status-flag: never-activated
+uuid: 5da5f9be-8576-45e7-933b-82129a1a43e7
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: using-images
-discoiquuid: 2 d 6193 cc -2 e 5 c -4 d 7 f -980 d -7924 beec 59 c 9
+discoiquuid: 2d6193cc-2e5c-4d7f-980d-7924beec59c9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -36,7 +36,7 @@ Um Bilder mit Adobe Creative SDK zu bearbeiten, gehen Sie folgendermaßen vor:
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. Klicken Sie nach Abschluss der Änderungen auf **[!UICONTROL Speichern.]** Das aktualisierte Bild wird auf dem Adobe-Campaign-Server gespeichert und kann nun verwendet werden.
+1. Klicken Sie nach Abschluss der Änderungen auf **[!UICONTROL Speichern]**. Das aktualisierte Bild wird auf dem Adobe-Campaign-Server gespeichert und kann nun verwendet werden.
 
 >[!NOTE]
 >
