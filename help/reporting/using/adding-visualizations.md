@@ -3,17 +3,17 @@ title: Visualisierungen hinzufügen
 seo-title: Visualisierungen hinzufügen
 description: Visualisierungen hinzufügen
 seo-description: Dynamische Berichte bieten mehrere Möglichkeiten von Visualisierungen, mit denen eine grafische Darstellung zu Ihrem Bericht hinzugefügt werden kann.
-page-status-flag: nie aktiviert
-uuid: f 4 d 851 c 1-8 ef 8-4295-a 7 bc-eb 9608 fbc 497
+page-status-flag: never-activated
+uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
-topic-tags: anpassen-Berichte
-discoiquuid: 6170342 b -7 e 16-4 cc 5-81 a 0-fa 0 bef 8569 a 8
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
+discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 Im Tab **Visualisierungen** können Sie per Drag &amp; Drop Visualisierungselemente wie Bereich, Kreis und Diagramm auswählen. Durch diese Elemente können Sie Ihre Daten unterschiedlich grafisch darstellen.
 
-1. Ziehen Sie im Tab **[!UICONTROL Visualisierungen]ein Visualisierungselement in ein Bedienfeld.**
+1. Ziehen Sie im Tab **[!UICONTROL Visualisierungen]** ein Visualisierungselement in ein Bedienfeld.
 
    ![](assets/dynamic_report_visualization_1.png)
 
@@ -32,7 +32,7 @@ Im Tab **Visualisierungen** können Sie per Drag &amp; Drop Visualisierungseleme
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Mit der Schaltfläche für die **[!UICONTROL Darstellungseinstellungen]können Sie die Art des Diagramms oder dessen Inhalt ändern, z. B.:**
+1. Mit der Schaltfläche für die **[!UICONTROL Darstellungseinstellungen]** können Sie die Art des Diagramms oder dessen Inhalt ändern, z. B.:
 
    * **Prozentsatz**: Zeigt die Werte in Prozenten an.
    * **Y-Achse bei null verankern**: Erzwingt für die y-Achse den Wert null, selbst wenn deren Werte über null liegen.
