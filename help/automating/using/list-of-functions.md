@@ -3,17 +3,17 @@ title: Funktionsliste
 seo-title: Funktionsliste
 description: Funktionsliste
 seo-description: Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden.
-page-status-flag: nie aktiviert
-uuid: fd 50 fc 99-1 e 7 a -479 b-beb 7-1 f 246 b 419 d 46
+page-status-flag: never-activated
+uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: filtering-data
-discoiquuid: 3 cdbe 962-1 c 59-4 cd 8-b 29 e -36 aa 2562 fac 6
+discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ## Über Funktionen {#about-functions}
 
-Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden. Auf diese können Sie in der Palette über das Element **[!UICONTROL Ausdruck]zugreifen.** Weiterführende Hinweise hierzu finden Sie in einem [gesonderten Abschnitt](../../automating/using/advanced-expression-editing.md).
+Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden. Auf diese können Sie in der Palette über das Element **[!UICONTROL Ausdruck]** zugreifen. Weiterführende Hinweise hierzu finden Sie in einem [gesonderten Abschnitt](../../automating/using/advanced-expression-editing.md).
 
 Ziehen Sie das Element in den Workflow-Arbeitsbereich und geben Sie die gewünschte Funktion manuell ein. Unten stehend finden Sie eine Liste der kompatiblen Funktionen.
 
@@ -37,7 +37,7 @@ Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Fu
 * String-Funktionen,
 * Sortierungs-Funktionen
 
-## Datum-Funktionen {#dates}
+## Datum-Funktionen  {#dates}
 
 Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 
@@ -281,7 +281,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
  </tbody> 
 </table>
 
-## Geomarketing {#geomarketing}
+## Geomarketing  {#geomarketing}
 
 Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
 
@@ -300,7 +300,7 @@ Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
  </tbody> 
 </table>
 
-## Numerisch {#numerical}
+## Numerisch  {#numerical}
 
 Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
@@ -384,7 +384,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
  </tbody> 
 </table>
 
-## Sonstige {#others}
+## Sonstige  {#others}
 
 In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 
@@ -483,7 +483,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  </tbody> 
 </table>
 
-## String {#string}
+## String  {#string}
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
@@ -669,7 +669,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
 ## Aggregate {#aggregates}
 
-Aggregatfunktionen stehen ausschließlich bei der [Hinzufügung von Zusatzdaten](../../automating/using/query.md#enriching-data) ausgehend von einer **[!UICONTROL Abfrage]-Aktivität in einem Workflow zur Verfügung.**
+Aggregatfunktionen stehen ausschließlich bei der [Hinzufügung von Zusatzdaten](../../automating/using/query.md#enriching-data) ausgehend von einer **[!UICONTROL Abfrage]**-Aktivität in einem Workflow zur Verfügung.
 
 Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe von Werten.
 
@@ -718,7 +718,7 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
  </tbody> 
 </table>
 
-## Darstellung {#representation}
+## Darstellung  {#representation}
 
 Die Darstellungsfunktionen dienen der Ordnung von Werten.
 
