@@ -14,8 +14,8 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0fcedd464ae2074e7eda793bbf20cc53ce04f324
+translation-type: tm+mt
+source-git-commit: 4fe36a1747aca69e8857cf415593086781947a47
 
 ---
 
@@ -84,7 +84,7 @@ Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im 
 
       >[!NOTE]
       >
-      >Der Pfad muss relativ zum Speicherort des Adobe-Campaign-Servers angegeben werden. Die Dateien befinden sich im Verzeichnis **sftp&lt;yourinstancename&gt;/ **. Darüber hinaus können dem Speicherort übergeordnete Verzeichnisse nicht durchsucht werden. Beispiel: **user&lt;yourinstancename&gt;/my_recipients.csv** ist korrekt. **../hello/my_recipients.csv** ist inkorrekt. **//myserver/hello/myrecipients.csv** ist inkorrekt.
+      >Der Pfad muss relativ zum Speicherort des Adobe-Campaign-Servers angegeben werden. Die Dateien befinden sich im Verzeichnis **sftp&lt;yourinstancename&gt;/**. Darüber hinaus können dem Speicherort übergeordnete Verzeichnisse nicht durchsucht werden. Beispiel: **user&lt;yourinstancename&gt;/my_recipients.csv** ist korrekt. **../hello/my_recipients.csv** ist inkorrekt. **//myserver/hello/myrecipients.csv** ist inkorrekt.
    Wählen Sie das gewünschte Protokoll aus und machen Sie die erforderlichen Angaben.
 
    Mit der Option **[!UICONTROL Dynamischen Dateipfad verwenden]**, die für jedes Protokoll verfügbar ist, können Sie einen Standardausdruck und Ereignisvariablen verwenden, um den Namen der zu übertragenden Datei zu personalisieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
