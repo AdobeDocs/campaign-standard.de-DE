@@ -3,25 +3,25 @@ title: SMS-Bericht
 seo-title: SMS-Bericht
 description: SMS-Bericht
 seo-description: 'Im vordefinierten Bericht über SMS erfahren Sie über die Wirkung Ihrer SMS-Sendungen. '
-page-status-flag: nie aktiviert
-uuid: af 672 a 56-f 304-4 ea 9-99 b 1-e 9886 a 6 e 1823
+page-status-flag: never-activated
+uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: list-of-reports
-discoiquuid: a 9 afbb 76-d 2 b 3-44 c 7-b 97 a -1694501 aa 913
+discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
 
 ---
 
 
 # SMS-Bericht{#sms-report}
 
-Der Bericht** SMS** enthält Details zu SMS-Auslieferungen, wie z. B. Versandte und Absprungraten.
+Der Bericht **SMS** bietet Informationen zu SMS-Sendungen, wie die Anzahl der zugestellten Nachrichten und die Bounces.
 
 ![](assets/dynamic_report_sms.png)
 
