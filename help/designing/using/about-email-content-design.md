@@ -3,18 +3,18 @@ title: Über die Inhaltserstellung in E-Mails
 seo-title: Über die Inhaltserstellung in E-Mails
 description: Über die Inhaltserstellung in E-Mails
 seo-description: Hier erhalten Sie Informationen über Email Designer, mit dem Inhalte für E-Mails erstellt werden können.
-page-status-flag: nie aktiviert
-uuid: 571 ffc 01-6 e 41-4501-9094-2 f 812 b 041 a 10
+page-status-flag: never-activated
+uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
+discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
+source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
 
 ---
 
@@ -39,7 +39,7 @@ Weiterführende Informationen zu den wichtigsten Marketingaktivitäten finden Si
 
 Lesen Sie diesbezüglich auch die [allgemeinen Best Practices für die Gestaltung von Inhalten](../../designing/using/content-design-best-practices.md).
 
-## Über Email Designer {#about-the-email-designer}
+## Über Email Designer  {#about-the-email-designer}
 
 Email Designer ermöglicht die Erstellung von E-Mail-Inhalten und Vorlagen für E-Mail-Inhalte. Der Editor ist kompatibel mit einfachen E-Mails, Transaktions-E-Mails, A/B-Test-E-Mails, mehrsprachigen E-Mails und wiederkehrenden E-Mails.
 
@@ -47,27 +47,27 @@ In diesen [Videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-desig
 
 ### Startseite von Email Designer {#email-designer-home-page}
 
-Bei der [Erstellung einer E-Mail](../../channels/using/creating-an-email.md) wird bei der Auswahl des E-Mail-Inhalts automatisch die Startseite von **[!UICONTROL Email Designer]angezeigt.**
+Bei der [Erstellung einer E-Mail](../../channels/using/creating-an-email.md) wird bei der Auswahl des E-Mail-Inhalts automatisch die Startseite von **[!UICONTROL Email Designer]** angezeigt.
 
 ![](assets/email_designer_home_page.png)
 
-Im Tab **[!UICONTROL Eigenschaften]können Sie die Details der E-Mail bearbeiten, wie z. B. den Titel, die E-Mail-Adresse und den Namen des Absenders sowie den Betreff der E-Mail.** Auf diesen Tab können Sie auch durch Auswahl des E-Mail-Titels am oberen Bildschirmrand zugreifen.
+Im Tab **[!UICONTROL Eigenschaften]** können Sie die Details der E-Mail bearbeiten, wie z. B. den Titel, die E-Mail-Adresse und den Namen des Absenders sowie den Betreff der E-Mail. Auf diesen Tab können Sie auch durch Auswahl des E-Mail-Titels am oberen Bildschirmrand zugreifen.
 
 ![](assets/email_designer_home_properties.png)
 
-Im Tab **[!UICONTROL Vorlagen]können Sie aus nativen HTML-Inhalten oder Ihren bereits erstellten Vorlagen auswählen, was die Erstellung der E-Mail beschleunigt.** Siehe auch [Inhaltsvorlagen](../../start/using/about-templates.md#content-templates).
+Im Tab **[!UICONTROL Vorlagen]** können Sie aus nativen HTML-Inhalten oder Ihren bereits erstellten Vorlagen auswählen, was die Erstellung der E-Mail beschleunigt. Siehe auch [Inhaltsvorlagen](../../start/using/about-templates.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-Im Tab **[!UICONTROL Lernen &amp; Unterstützung]können Sie auf entsprechende Handbücher und Tutorials zugreifen.**
+Im Tab **[!UICONTROL Lernen &amp; Unterstützung]** können Sie auf entsprechende Handbücher und Tutorials zugreifen.
 
 ![](assets/email_designer_home_support.png)
 
 Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email Designer auch wählen, wie Sie Ihren Inhalt erstellen möchten:
 
-* Wählen Sie die Schaltfläche **[!UICONTROL Erstellen], um ganz neuen Inhalt zu erstellen.** Siehe auch [Neuen E-Mail-Inhalt gestalten](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-* Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]aus, um eine Datei von Ihrem Computer zu laden.** Siehe auch [Inhalt aus einer Datei importieren](../../designing/using/importing-content-from-a-file.md).
-* Wählen Sie die Schaltfläche **[!UICONTROL Import von URL], um vorhandenen Inhalt von einer URL abzurufen.** Siehe auch [Inhalt aus einer URL importieren](../../designing/using/importing-content-from-a-url.md).
+* Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]**, um ganz neuen Inhalt zu erstellen. Siehe auch [Neuen E-Mail-Inhalt gestalten](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+* Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]** aus, um eine Datei von Ihrem Computer zu laden. Siehe auch [Inhalt aus einer Datei importieren](../../designing/using/importing-content-from-a-file.md).
+* Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]**, um vorhandenen Inhalt von einer URL abzurufen. Siehe auch [Inhalt aus einer URL importieren](../../designing/using/importing-content-from-a-url.md).
 
 ### Benutzeroberfläche von Email Designer {#email-designer-interface}
 
@@ -89,7 +89,7 @@ In der **Symbolleiste** (4) sind weitere allgemeine Optionen und Einstellungen v
 
 In der **dedizierten Symbolleiste** der Editor-Oberfläche sind je nach markiertem Bereich unterschiedliche Schaltflächen verfügbar. Sie enthält Aktionsschaltflächen sowie Schaltflächen zur Anpassung des Textstils. Alle Änderungen beziehen sich somit jeweils nur auf das ausgewählte Element.
 
-### Allgemeine Empfehlungen für die Verwendung von Email Designer {#general-recommendations-for-using-the-email-designer}
+### Allgemeine Empfehlungen für die Verwendung von Email Designer  {#general-recommendations-for-using-the-email-designer}
 
 Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen, empfehlen wir folgende Vorgehensweise:
 
@@ -103,7 +103,7 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
 Lesen Sie diesbezüglich auch die [allgemeinen Best Practices für die Gestaltung von Inhalten](../../designing/using/content-design-best-practices.md).
 
-### Kompatibilitätsmodus von Email Designer {#email-designer-compatibility-mode}
+### Kompatibilitätsmodus von Email Designer  {#email-designer-compatibility-mode}
 
 Beim Hochladen von Inhalt muss dieser ein bestimmtes Tagging aufweisen, um vollständig kompatibel und im WYSIWYG-Editor von Email Designer bearbeitbar zu sein.
 
@@ -122,10 +122,9 @@ Sonstige Änderungen, wie etwa das Hinzufügen neuer Bereiche zu Ihrer E-Mail od
 
 Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine mit Email Designer kompatible E-Mail finden Sie in [diesem Abschnitt](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents).
 
-### Einschränkungen in Email Designer {#email-designer-limitations}
+### Einschränkungen in Email Designer  {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/defining-the-email-structure.md#about-fragments).
-* Sie können Inhalt einer in Email Designer bearbeiteten E-Mail nicht direkt als Fragment speichern Stattdessen müssen Sie den entsprechenden HTML-Code kopieren und in ein neues Fragment einfügen. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhalt als ein Fragment speichern](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Bei der Bearbeitung von Stilen sind nur die Web Fonts verfügbar, die von den meisten E-Mail-Clients offiziell unterstützt werden.
 * Stile lassen sich nicht als Thema zur künftigen Wiederverwendung speichern. Doch der CSS-Stil kann in einer Inhaltsvorlage oder einer E-Mail gespeichert werden. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/editing-email-styles.md).
 
@@ -179,7 +178,7 @@ Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
 * [E-Mail-Rendering](../../sending/using/email-rendering.md)
 
-## E-Mail aus vorhandenem Inhalt erstellen {#designing-an-email-using-existing-contents}
+## E-Mail aus vorhandenem Inhalt erstellen  {#designing-an-email-using-existing-contents}
 
 In diesem Abschnitt wird erklärt, wie Sie eine vorhandene E-Mail in eine mit Email Designer kompatible E-Mail konvertieren können.
 
@@ -193,26 +192,26 @@ Bei der Erstellung von Inhalt mit Email Designer haben Sie drei Möglichkeiten:
 * Ein HTML-Design [unter Verwendung von Fragmenten und Komponenten](../../designing/using/about-email-content-design.md#using-fragments-and-components) neu erstellen
 * [Konvertieren einer E-Mail mit HTML-Inhalt](../../designing/using/about-email-content-design.md#converting-an-html-content) in modularen Email Designer-Inhalt
 
-### Erstellen von Inhalt aus einer nativen Vorlage {#building-content-from-an-out-of-the-box-template}
+### Erstellen von Inhalt aus einer nativen Vorlage  {#building-content-from-an-out-of-the-box-template}
 
 1. Erstellen Sie eine E-Mail und öffnen Sie ihren Inhalt. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mails erstellen](../../channels/using/creating-an-email.md).
-1. Wählen Sie das Startseiten-Symbol aus, um die Startseite von **[!UICONTROL Email Designer]zu öffnen.**
-1. Wählen Sie den Tab **[!UICONTROL Vorlagen]aus.**
+1. Wählen Sie das Startseiten-Symbol aus, um die Startseite von **[!UICONTROL Email Designer]** zu öffnen.
+1. Wählen Sie den Tab **[!UICONTROL Vorlagen]** aus.
 1. Wählen Sie eine native HTML-Vorlage aus.
 
    Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen von Elementen. Beispielsweise haben die Vorlagen vom Typ "Feather" Ränder, die Vorlagen vom Typ "Astro" haben dagegen keine. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](../../start/using/about-templates.md#content-templates).
 
-1. Sie können diese Elemente zu mehreren E-Mail-Varianten kombinieren. Beispielsweise können Sie einen Teil einer E-Mail duplizieren, indem Sie eine Strukturkomponente markieren und in der dedizierten Symbolleiste **[!UICONTROL Duplizieren]auswählen.**
+1. Sie können diese Elemente zu mehreren E-Mail-Varianten kombinieren. Beispielsweise können Sie einen Teil einer E-Mail duplizieren, indem Sie eine Strukturkomponente markieren und in der dedizierten Symbolleiste **[!UICONTROL Duplizieren]** auswählen.
 1. Sie können die Elemente mit den blauen Pfeilen auf der linken Seite verschieben, indem Sie eine Strukturkomponente unter oder über eine andere ziehen. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 1. Sie können Komponenten auch verschieben und so die Anordnung in jedem Strukturelement ändern. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
 1. Sie können den Inhalt jedes Elements nach Bedarf ändern: Bilder, Text, Links.
 1. Sie können auch die Stiloptionen beliebig auf Ihren Inhalt anpassen. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/editing-email-styles.md).
 
-### Verwendung von Fragmenten und Komponenten {#using-fragments-and-components}
+### Verwendung von Fragmenten und Komponenten  {#using-fragments-and-components}
 
 Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten, empfiehlt Adobe, eine neue Nachricht zu erstellen und den Inhalt aus der existierenden E-Mail in Fragmente und Komponenten hinzuzufügen.
 
-Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den HTML-Code mithilfe der **[!UICONTROL HTML]-Inhaltskomponente aus der Original-E-Mail kopieren und einfügen.** Nur Benutzer, die mit HTML vertraut sind, sollten diese Schritte ausführen.
+Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den HTML-Code mithilfe der **[!UICONTROL HTML]**-Inhaltskomponente aus der Original-E-Mail kopieren und einfügen. Nur Benutzer, die mit HTML vertraut sind, sollten diese Schritte ausführen.
 
 Weiter unten finden Sie ein Beispiel dafür.
 
@@ -236,7 +235,7 @@ Erstellen Sie mit Email Designer für jeden wiederverwendbaren Bereich ein Fragm
 
 Gehen Sie dazu wie folgt vor:
 
-1. In Adobe Campaign, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** and create a fragment for your header. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsfragment erstellen](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+1. Gehen Sie in Adobe Campaign zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]** und erstellen Sie ein Fragment für die Kopfzeile. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsfragment erstellen](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 1. Fügen Sie beliebig viele Strukturkomponenten zu diesem Fragment hinzu.
 
    ![](assets/des_loading_compatible_fragment_1.png)
@@ -256,7 +255,7 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/des_loading_compatible_fragment_4.png)
 
-   Wenn Sie HTML-Kenntnisse haben, können Sie den HTML-Code mit der **[!UICONTROL HTML]-Inhaltskomponente aus der Original-Fußzeile kopieren und einfügen.** Weiterführende Informationen dazu finden Sie im Abschnitt [Über Inhaltskomponenten](../../designing/using/defining-the-email-structure.md#about-content-components).
+   Wenn Sie HTML-Kenntnisse haben, können Sie den HTML-Code mit der **[!UICONTROL HTML]**-Inhaltskomponente aus der Original-Fußzeile kopieren und einfügen. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Inhaltskomponenten](../../designing/using/defining-the-email-structure.md#about-content-components).
 
    ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -272,11 +271,11 @@ Sie können jetzt mit Email Designer eine E-Mail-Vorlage erstellen. Mit Inhaltsk
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Wenn Sie HTML-Kenntnisse besitzen, empfiehlt Adobe **[!UICONTROL HTML]-Komponenten für komplexe Elemente der ursprünglichen E-Mail zu verwenden und diese zu kopieren und einzufügen.** Use other components such as **[!UICONTROL Button]**, **[!UICONTROL Image]** or **[!UICONTROL Text]** for the rest of the content. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Inhaltskomponenten](../../designing/using/defining-the-email-structure.md#about-content-components).
+   Wenn Sie HTML-Kenntnisse besitzen, empfiehlt Adobe **[!UICONTROL HTML]**-Komponenten für komplexe Elemente der ursprünglichen E-Mail zu verwenden und diese zu kopieren und einzufügen. Für den restlichen Inhalt können Sie andere Komponenten wie **[!UICONTROL Schaltfläche]**, **[!UICONTROL Bild]** oder **[!UICONTROL Text]** verwenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Inhaltskomponenten](../../designing/using/defining-the-email-structure.md#about-content-components).
 
    >[!NOTE]
    >
-   >Mit der **[!UICONTROL HTML]-Komponente können Komponenten erstellt werden, die beschränkte Bearbeitungsmöglichkeiten bieten.** Wählen Sie diese Komponente nur aus, wenn Sie mit der Handhabung von HTML-Code vertraut sind.
+   >Mit der **[!UICONTROL HTML]**-Komponente können Komponenten erstellt werden, die beschränkte Bearbeitungsmöglichkeiten bieten. Wählen Sie diese Komponente nur aus, wenn Sie mit der Handhabung von HTML-Code vertraut sind.
 
 1. Passen Sie die Inhaltskomponenten so an, dass sie der ursprünglichen E-Mail möglichst ähnlich sind.
 
@@ -300,7 +299,7 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 * [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)
 
-### HTML-Inhalt konvertieren {#converting-an-html-content}
+### HTML-Inhalt konvertieren  {#converting-an-html-content}
 
 In diesem Anwendungsbeispiel erfahren Sie, wie Sie eine HTML-E-Mail rasch in Email Designer-Komponenten konvertieren können.
 
@@ -360,7 +359,7 @@ Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Desig
 
    >[!NOTE]
    >
-   >Verändern Sie das von Email Designer erzeugte CSS nicht: `<style acrite-template-css="true">` und `<style acrite-custom-styles="" type="text/css">`. Fügen Sie anschließend Ihren Stil hinzu.
+   >Verändern Sie das von Email Designer erzeugte CSS nicht: `<style acrite-template-css="true">`  und `<style acrite-custom-styles="" type="text/css">`. Fügen Sie anschließend Ihren Stil hinzu.
 
 1. Kehren Sie zur mobilen Ansicht zurück und prüfen Sie, ob Ihr Inhalt korrekt angezeigt wird, und speichern Sie Ihre Änderungen.
 
@@ -371,7 +370,7 @@ Sie können das responsive Design einer E-Mail anpassen, indem Sie alle Stilopti
 Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Weiterführende Informationen zu den Stileinstellungen von Email Designer finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/editing-email-styles.md).
 
 1. Erstellen Sie eine E-Mail und bearbeiten Sie den Inhalt. Weiterführende Informationen dazu finden Sie im Abschnitt [Neuen E-Mail-Inhalt gestalten](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-1. Öffnen Sie mit der Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]die Mobile-Ansicht.**
+1. Öffnen Sie mit der Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]** die Mobile-Ansicht.
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -394,13 +393,13 @@ Sie können diese Option entweder über die Mobil- oder Desktop-Ansicht festlege
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Wählen Sie nochmals die Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]aus, um zur Desktop-Ansicht zu wechseln.** Die soeben vorgenommenen Stiländerungen sind in dieser Version nicht vorhanden.
+1. Wählen Sie nochmals die Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]** aus, um zur Desktop-Ansicht zu wechseln. Die soeben vorgenommenen Stiländerungen sind in dieser Version nicht vorhanden.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >Die einzige Ausnahme sind die Einstellungen für **[!UICONTROL Inline-Stile].** Inline-Stil-Einstellungen werden auch von der standardmäßigen Desktop-Ansicht übernommen.
+   >Die einzige Ausnahme sind die Einstellungen für **[!UICONTROL Inline-Stile]**. Inline-Stil-Einstellungen werden auch von der standardmäßigen Desktop-Ansicht übernommen.
 
 1. Andere Änderungen an der Struktur oder am Inhalt der E-Mail, wie zum Beispiel Textänderungen, der Upload eines neuen Bildes, das Hinzufügen einer neuen Komponente etc. werden auch in der Standardansicht angezeigt.
 
@@ -408,7 +407,7 @@ Sie können diese Option entweder über die Mobil- oder Desktop-Ansicht festlege
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Wählen Sie nochmals die Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]aus, um zur Desktop-Ansicht zu wechseln.** Die Änderungen wurden übernommen.
+   Wählen Sie nochmals die Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]** aus, um zur Desktop-Ansicht zu wechseln. Die Änderungen wurden übernommen.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -422,19 +421,19 @@ Sie können diese Option entweder über die Mobil- oder Desktop-Ansicht festlege
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Wechseln Sie nochmals zur Mobile-Ansicht und deaktivieren Sie die Einstellung **[!UICONTROL Hintergrundfarbe].**
+1. Wechseln Sie nochmals zur Mobile-Ansicht und deaktivieren Sie die Einstellung **[!UICONTROL Hintergrundfarbe]**.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    Die in der Desktop-Ansicht ausgewählte Hintergrundfarbe wird jetzt angewendet: Die Schaltfläche wird grau (nicht farblos) dargestellt.
 
-   Die einzige Ausnahme ist die Einstellung für die **[!UICONTROL Randfarbe].** Wenn diese in der Mobile-Ansicht deaktiviert ist, wird kein Rahmen mehr hinzugefügt, selbst wenn in der Desktop-Ansicht eine Randfarbe definiert wird.
+   Die einzige Ausnahme ist die Einstellung für die **[!UICONTROL Randfarbe]**. Wenn diese in der Mobile-Ansicht deaktiviert ist, wird kein Rahmen mehr hinzugefügt, selbst wenn in der Desktop-Ansicht eine Randfarbe definiert wird.
 
-## Text- und HTML-Modus {#plain-text-and-html-modes}
+## Text- und HTML-Modus  {#plain-text-and-html-modes}
 
 ### Textversion der E-Mail erstellen {#generating-a-text-version-of-the-email}
 
-Standardmäßig wird eine **[!UICONTROL reine Textversion]** Ihrer E-Mail automatisch erzeugt und mit der **bearbeiteten]Version synchronisiert.[!UICONTROL **
+Standardmäßig wird eine **[!UICONTROL reine Textversion]** Ihrer E-Mail automatisch erzeugt und mit der **[!UICONTROL bearbeiteten]** Version synchronisiert.
 
 Auch die zur HTML-Version hinzugefügten Personalisierungsfelder und Inhaltsbausteine werden mit der Textversion synchronisiert.
 
@@ -442,7 +441,7 @@ Auch die zur HTML-Version hinzugefügten Personalisierungsfelder und Inhaltsbaus
 >
 >Um Inhaltsbausteine in der Textversion verwenden zu können, dürfen sie keinen HTML-Code enthalten.
 
-Um eine Textversion zu erhalten, die anders ist als die HTML-Version, deaktivieren Sie die Synchronisation, indem Sie den Schalter **[!UICONTROL Mit HTML synchronisieren]** in der **Nur Text]-Ansicht Ihrer E-Mail auswählen.[!UICONTROL **
+Um eine Textversion zu erhalten, die anders ist als die HTML-Version, deaktivieren Sie die Synchronisation, indem Sie den Schalter **[!UICONTROL Mit HTML synchronisieren]** in der **[!UICONTROL Nur Text]**-Ansicht Ihrer E-Mail auswählen.
 
 ![](assets/email_designer_textversion.png)
 
@@ -450,7 +449,7 @@ Sie können dann die Textversion nach Bedarf bearbeiten.
 
 >[!NOTE]
 >
->Wenn Sie die **[!UICONTROL Nur Text]**-Version bei deaktivierter Synchronisation bearbeiten, werden das nächste Mal, wenn Sie die Option **Mit HTML synchronisieren]aktivieren, alle Änderungen, die Sie in der Textversion vorgenommen haben, durch die HTML-Version ersetzt.[!UICONTROL ** Die Änderungen, die Sie in der **[!UICONTROL Nur Text]**-Ansicht vorgenommen haben, werden in der **HTML]-Ansicht nicht dargestellt.[!UICONTROL **
+>Wenn Sie die **[!UICONTROL Nur Text]**-Version bei deaktivierter Synchronisation bearbeiten, werden das nächste Mal, wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** aktivieren, alle Änderungen, die Sie in der Textversion vorgenommen haben, durch die HTML-Version ersetzt. Die Änderungen, die Sie in der **[!UICONTROL Nur Text]**-Ansicht vorgenommen haben, werden in der **[!UICONTROL HTML]**-Ansicht nicht dargestellt.
 
 ### Die Inhaltsquelle einer E-Mail in HTML bearbeiten {#editing-an-email-content-source-in-html}
 
@@ -458,17 +457,17 @@ Für fortgeschrittene Benutzer und zur Fehlerbehebung kann der E-Mail-Inhalt dir
 
 Es gibt zwei Möglichkeiten, die HTML-Version der E-Mail zu bearbeiten:
 
-* Select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of the entire email.
+* Wählen Sie **[!UICONTROL Bearbeiten]** &gt; **[!UICONTROL HTML]** aus, um die HTML-Version der gesamten E-Mail aufzurufen.
 
    ![](assets/email_designer_html1.png)
 
-* Wählen Sie in der WYSIWYG-Benutzeroberfläche ein Element aus und danach das Symbol **[!UICONTROL Quellcode].**
+* Wählen Sie in der WYSIWYG-Benutzeroberfläche ein Element aus und danach das Symbol **[!UICONTROL Quellcode]**.
 
-   Nur der Quellcode des ausgewählten Elements wird angezeigt. Sie können den Quellcode bearbeiten, wenn das ausgewählte Element eine **[!UICONTROL HTML]-Inhaltskomponente ist.** Andere Komponenten sind schreibgeschützt, können aber in der vollständigen HTML-Version der E-Mail bearbeitet werden.
+   Nur der Quellcode des ausgewählten Elements wird angezeigt. Sie können den Quellcode bearbeiten, wenn das ausgewählte Element eine **[!UICONTROL HTML]**-Inhaltskomponente ist. Andere Komponenten sind schreibgeschützt, können aber in der vollständigen HTML-Version der E-Mail bearbeitet werden.
 
    ![](assets/email_designer_html2.png)
 
-Wenn Sie den HTML-Code ändern, könnte es sein, dass Ihre E-Mails nicht mehr responsiv sind. Deshalb sollten Sie diese Funktion unbedingt unter Verwendung der Schaltfläche **[!UICONTROL Vorschau]testen.** Siehe [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md).
+Wenn Sie den HTML-Code ändern, könnte es sein, dass Ihre E-Mails nicht mehr responsiv sind. Deshalb sollten Sie diese Funktion unbedingt unter Verwendung der Schaltfläche **[!UICONTROL Vorschau]** testen. Siehe [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md).
 
 ## Inhaltserstellung durch Adobe-Campaign-Integrationen {#design-through-adobe-campaign-integrations}
 
@@ -494,7 +493,7 @@ Diese Funktion wird im Detail im [Dreamweaver-Handbuch](https://helpx.adobe.com/
 
 Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-Nachrichten in Adobe Campaign Standard verwendet werden. In [diesem Dokument](../../integrating/using/integrating-with-experience-manager.md) erfahren Sie mehr dazu.
 
-### Funktionen zur E-Mail-Erstellung im Vergleich {#email-design-options-comparison}
+### Funktionen zur E-Mail-Erstellung im Vergleich  {#email-design-options-comparison}
 
 Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der folgenden Tabelle werden die wichtigsten Funktionen, Vorteile und Beschränkungen aufgeführt.
 
@@ -553,30 +552,30 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
   <tr> 
    <td> <strong>Vorteile</strong><br /> </td> 
    <td> 
-     - Einfache E-Email-Erstellung durch Drag &amp; Drop-Erlebnis<br/>
- - Funktionen ähneln Ähnlichem Content Editor<br/>
- - wiederverwendbarer Inhalt mit Fragmenten
+     - Einfache Erstellung von E-Mails dank Drag &amp; Drop<br/>
+     - Funktionen sind ähnlich dem alten Inhaltseditor<br/>
+     - Wiederverwendbare Inhalte mit Fragmenten
   </td> 
    <td> 
-     - Wiederverwenden von Assets aus der Website in E-Emails<br/>
- - Nutzen der Power von Experience Manager in E-Email-Inhalten
+     - Assets von der Website können in E-Mails wiederverwendet werden<br/>
+     - Nutzung der Funktionen von Experience Manager in E-Mail-Inhalten
     </td> 
    <td> 
-    - Fähigkeit eines Entwicklers, eine E-Email<br/>
- direkt zu kodieren - bidirektionale Synchronisierung<br/>
- - Offline in Dreamweaver bearbeiten und später
- synchronisieren<br/>- Bilder in Adobe Campaign über Dreamweaver hochladen
+    - Entwickler können selbst Code für eine E-Mail schreiben<br/>
+    - Bidirektionale Synchronisation<br/>
+    - In Dreamweaver offline bearbeiten und später synchronisieren<br/>
+    - Bilder über Dreamweaver zu Adobe Campaign hochladen
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Einschränkungen</strong><br /> </td> 
    <td> 
-     - Kein bedingter Inhalt in Fragmenten<br/>
- - Verwenden von Experience Manager-Fragmenten nicht möglich
+     - Kein bedingter Inhalt innerhalb von Fragmenten<br/>
+     - Verwendung von Experience Manager-Fragmenten nicht möglich
   </td> 
    <td> 
-     - Erweiterte Personalisierung schwer implementiert<br/>
- - Tests müssen in Adobe Campaign gesendet werden
+     - Erweiterte Personalisierung schwierig zu implementieren<br/>
+     - In Adobe Campaign müssen Tests gesendet werden
   </td> 
    <td> Dynamische Inhalte nicht unterstützt<br /> </td> 
   </tr> 
