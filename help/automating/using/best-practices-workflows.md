@@ -3,23 +3,23 @@ title: Best Practices für Workflows
 seo-title: Best Practices für Workflows
 description: Best Practices für Workflows
 seo-description: Erfahren Sie, wie Best Practices für Ihre Arbeitsabläufe angewendet werden.
-page-status-flag: nie aktiviert
-uuid: ff 02 b 74 e -53 e 8-49 c 6-bf 8 e -0 c 729 eaa 7 d 25
+page-status-flag: never-activated
+uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
-context-tags: workflow, overview; workflow, main
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
+source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ---
 
 
-# Workflow best practices{#workflow-best-practices}
+# Best Practices für den Arbeitsablauf{#workflow-best-practices}
 
 Mit Adobe Campaign können Sie alle Arten von Arbeitsabläufen einrichten, um einen umfangreichen Umfang an Aufgaben durchzuführen. Beim Entwerfen und Ausführen Ihrer Arbeitsabläufe müssen Sie jedoch sehr vorsichtig sein, da eine schlechte Implementierung zu schlechten Leistungen, Fehlern und Plattformproblemen führen kann. Sie finden eine Liste der Best Practices und Tipps zur Fehlerbehebung.
 
@@ -27,7 +27,7 @@ Mit Adobe Campaign können Sie alle Arten von Arbeitsabläufen einrichten, um ei
 >
 >Workflow-Design und -ausführung müssen von einem Adobe Campaign Advanced User durchgeführt werden.
 
-## Naming{#naming}
+## Benennen{#naming}
 
 Um Workflow-Fehlerbehebung zu vereinfachen, empfiehlt Adobe, Ihre Arbeitsabläufe explizit zu benennen und zu beschriften. Füllen Sie das Beschreibungsfeld des Workflows aus, um den zu erstellenden Prozess zusammenzufassen, damit der Operator sie leicht verstehen kann.
 Wenn der Arbeitsablauf Teil eines Prozesses ist, der mehrere Workflows umfasst, können Sie Zahlen verwenden, wenn Sie eine Beschriftung eingeben, um sie klar zu ordnen.
@@ -40,9 +40,9 @@ Beispiel:
 * 010 - Exportieren - Versandprotokolle exportieren
 * 011 - Exportieren - Exportrackingprotokolle
 
-## Duplicating workflows{#duplicating-workflows}
+## Duplizieren von Workflows{#duplicating-workflows}
 
-Sie können Workflows duplizieren. In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. Nach der Duplizierung werden Änderungen des Workflows nicht in die Kopie des Workflows übernommen. Die Kopie des Workflows kann bearbeitet werden.
+Sie können Workflows duplizieren. Bewegen Sie den Mauszeiger in **[!UICONTROL den Marketingaktivitäten]**&#x200B;über den Workflow und klicken **[!UICONTROL Sie auf Element duplizieren]**. Nach der Duplizierung werden Änderungen des Workflows nicht in die Kopie des Workflows übernommen. Die Kopie des Workflows kann bearbeitet werden.
 
 ![](assets/duplicating_workflow.png)
 
@@ -66,13 +66,13 @@ Arbeitsabläufe, die für mehr als sieben Tage in Pause oder Fehlgeschlagen ware
 
 Ein Workflow mit nicht unterstützten Übergängen kann weiterhin ausgeführt werden: Dadurch wird eine Warnmeldung generiert und der Arbeitsablauf wird angehalten, sobald er den Übergang erreicht, aber kein Fehler generiert wird. Sie können einen Workflow auch ohne fertiggelegtes Design starten und es dann abschließen.
 
-For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
+Weitere Informationen finden Sie [unter Arbeitsabläufe ausführen](../../automating/using//executing-a-workflow.md).
 
 ## Aktivität{#activity}
 
 ### Workflow-Design
 
-To ensure that the workflow ends properly, use an **[!UICONTROL End activity]**. Vermeiden Sie den letzten Übergang eines Arbeitsablaufs selbst.
+Um sicherzustellen, dass der Workflow ordnungsgemäß beendet wird, verwenden Sie eine **[!UICONTROL Endaktivität]**. Vermeiden Sie den letzten Übergang eines Arbeitsablaufs selbst.
 
 To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
 
@@ -83,11 +83,11 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 ![](assets/keep_interim_best_practices.png)
 
 
-### Labelling activities{#activity-labeling}
+### Beschriftungsaktivitäten{#activity-labeling}
 
 Bei der Entwicklung Ihres Arbeitsablaufs wird für jede Aktivität ein Name generiert, wie für alle Adobe Campaign-Objekte. Obwohl der Name einer Aktivität durch das Tool erzeugt wird und nicht bearbeitet werden kann, empfehlen wir, sie bei der Konfiguration mit einem expliziten Namen zu versehen.
 
-### Duplicating activities{#activity-duplicating}
+### Duplizieren von Aktivitäten{#activity-duplicating}
 
 Zum Duplizieren vorhandener Aktivitäten können Sie Kopieren und Einfügen verwenden. Dadurch bleiben die ursprünglich definierten Einstellungen unverändert. For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
 
@@ -95,45 +95,64 @@ Zum Duplizieren vorhandener Aktivitäten können Sie Kopieren und Einfügen verw
 
 When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. Wenn dieselbe Verzweigung eines Workflows mehrere Zeitplaner enthält (verknüpft miteinander verknüpft), wird die Anzahl der auszuführenden Aufgaben exponentiell multipliziert, wodurch die Datenbank erheblich überlastet würde.
 
-You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
+Sie können die nächsten zehn Ausführungen Ihrer Arbeitsabläufe in der Vorschau anzeigen, indem Sie auf **[!UICONTROL "Vorschau" klicken]**.
 
 ![](assets/preview_scheduler.png)
 
-For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
+Weitere Informationen finden Sie in [der Scheduler-Aktivität](../../automating/using/scheduler.md).
 
-## Calling workflow with parameters{#workflow-with-parameters}
+## Aufruf des Arbeitsablaufs mit Parametern{#workflow-with-parameters}
 
 Achten Sie darauf, dass der Name und die Anzahl der Parameter mit den beim Aufruf des Workflows definierten übereinstimmen (siehe [Parameter beim Aufruf des Workflows definieren](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Die Typen der Parameter müssen ebenfalls mit den erwarteten Werten konsistent sein.
 
 Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
 
-For more information, see [Calling a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Weitere Informationen finden Sie unter [Aufrufen eines Workflows mit externen Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Exporting packages{#exporting-packages}
+## Exportieren von Paketen{#exporting-packages}
 
 Um Pakete zu exportieren, dürfen die exportierten Ressourcen keine Standard-IDs enthalten. Daher müssen die IDs der exportierbaren Ressourcen durch einen anderen Namen von den Vorlagen geändert werden, die als Standard von Adobe Campaign Standard bereitgestellt werden.
-For more information, see [Managing packages](../../automating/using/managing-packages.md).
+Weitere Informationen finden Sie unter [Verwalten von Paketen](../../automating/using/managing-packages.md).
 
 ## Listenexport{#exporting-lists}
 
 Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
-For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
+Weitere Informationen finden Sie unter [Exportieren von Listen](../../automating/using/exporting-lists.md).
 
 ## Problembehebung{#workflow-troubleshooting}
 
 Adobe Campaign bietet verschiedene Protokolle, um Ihre Arbeitsablaufprobleme besser zu verstehen.
 
-### Using workflow logs{#using-workflow-logs}
+### Workflow-Protokolle verwenden{#using-workflow-logs}
 
-Sie können auf Workflow-Protokolle zugreifen, um die Ausführung Ihrer Aktivitäten zu überwachen. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
-For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+Sie können auf Workflow-Protokolle zugreifen, um die Ausführung Ihrer Aktivitäten zu überwachen. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler. Die Registerkarte "Protokolle" enthält den Verlauf der Ausführung aller oder bestimmter Aktivitäten.
+Der Aufgaben-Tab zeigt die Ausführungsabfolge der Aktivitäten. Klicken Sie auf eine Aufgabe, um weitere Informationen zu einer Aktivität abzurufen.
+Weitere Informationen finden Sie unter [Workflow-Ausführung überwachen](../../automating/using/executing-a-workflow.md#monitoring).
 
-### Using delivery logs{#using-delivery-logs}
+#### Troubleshooting data management activities{#troubleshooting-data-management-activities}
+
+Sie können SQL-Abfragen auf der Registerkarte "Protokoll" analysieren.
+
+1. Klicken Sie im Workflow-Arbeitsbereich auf Eigenschaften **bearbeiten**.
+1. Überprüfen Sie unter **Allgemein** &gt; **Ausführung** die Abfragen **"SQL speichern" im Protokoll** und **führen Sie in den Suchoptionen** die Option" Ausführen" durch und klicken Sie auf **Bestätigen**.
+
+**So sehen Sie SQL-Abfragen im Protokoll:**
+1. Klicken **Sie auf Protokoll und Aufgaben**.
+1. Öffnen Sie **auf der** Registerkarte "Protokoll" das **Suchfeld** .
+1. Check **Display SQL logs only**.
+
+Die Abfrage wird in der **Spalte "Meldung** " der Protokolle angezeigt.
+
+### Verwenden von Bereitstellungsprotokollen{#using-delivery-logs}
 
 Mit Bereitstellungsprotokollen können Sie den Erfolg Ihrer Auslieferung überwachen. Ausschluss-Protokolle geben während der Vorbereitung des sendenden Vorgangs ausgeschlossene Meldungen zurück. Beim Senden von Protokollen wird der Status der Auslieferung für jedes Profil angegeben.
-For more information, refer to [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md).
+Weitere Informationen finden Sie [unter Auslieferungsfehler verstehen](../../sending/using/understanding-delivery-failures.md).
 
-### Using delivery alerting{#delivery-alerting}
+### Verwenden der Versandbenachrichtigung{#delivery-alerting}
 
 Bei der Funktion Versandwarnungen handelt es sich um ein Warnungsmanagementsystem, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.
-For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+Weitere Informationen finden Sie unter [Versandbenachrichtigung](../../sending/using/receiving-alerts-when-failures-happen.md).
+
+**Verwandte Themen:**
+
+* [Fehlerverwaltung](../../automating/using/executing-a-workflow.md#error-management)
