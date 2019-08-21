@@ -14,7 +14,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ Weitere Informationen finden Sie unter [Verwalten von Paketen](../../automating/
 
 ## Listenexport{#exporting-lists}
 
-Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
+Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. This option can be managed by the functional administrator, under **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
 Weitere Informationen finden Sie unter [Exportieren von Listen](../../automating/using/exporting-lists.md).
 
 ## Problembehebung{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Weitere Informationen finden Sie unter [Workflow-Ausführung überwachen](../../
 
 Sie können SQL-Abfragen auf der Registerkarte "Protokoll" analysieren.
 
-1. Klicken Sie im Workflow-Arbeitsbereich auf Eigenschaften **bearbeiten**.
-1. Überprüfen Sie unter **Allgemein** &gt; **Ausführung** die Abfragen **"SQL speichern" im Protokoll** und **führen Sie in den Suchoptionen** die Option" Ausführen" durch und klicken Sie auf **Bestätigen**.
+1. Klicken Sie im Workflow-Arbeitsbereich auf Eigenschaften **[!UICONTROL bearbeiten]**.
+1. Überprüfen Sie unter **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Ausführung]** die Abfragen **[!UICONTROL "SQL speichern" im Protokoll]** und **[!UICONTROL führen Sie in den Suchoptionen]** die Option" Ausführen" durch und klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 **So sehen Sie SQL-Abfragen im Protokoll:**
-1. Klicken **Sie auf Protokoll und Aufgaben**.
-1. Öffnen Sie **auf der** Registerkarte "Protokoll" das **Suchfeld** .
-1. Check **Display SQL logs only**.
+1. Klicken **[!UICONTROL Sie auf Protokoll und Aufgaben]**.
+1. Öffnen Sie auf der Registerkarte **[!UICONTROL "Protokolle]** " das **[!UICONTROL Suchfeld]** .
+1. Check **[!UICONTROL Display SQL logs only]**.
 
-Die Abfrage wird in der **Spalte "Meldung** " der Protokolle angezeigt.
+Die Abfrage wird in der **[!UICONTROL Spalte "Meldung]** " der Protokolle angezeigt.
 
 ### Verwenden von Bereitstellungsprotokollen{#using-delivery-logs}
 
