@@ -3,18 +3,18 @@ title: Betreffzeile einer E-Mail personalisieren
 seo-title: Betreffzeile einer E-Mail personalisieren
 description: Betreffzeile einer E-Mail personalisieren
 seo-description: Sie können den Betreff einer E-Mail personalisieren, verschiedene Betreffzeilen ausprobieren und eine jeweilige Einschätzung der Öffnungsrate erhalten.
-page-status-flag: nie aktiviert
-uuid: 445 b 5 f 4 b -8 e 2 c -4 f 8 e-bce 7-0 e 9 b 40 a 44932
+page-status-flag: never-activated
+uuid: 345b5f4b-8e2c-4f8e-bce7-0e9b40a44932
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
-topic-tags: personalize-content
-discoiquuid: f 7 a 5 e 935-54 cf -422 e -8459-27221409 a 200
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: personalizing-content
+discoiquuid: f7a5e935-54cf-422e-8459-27221409a200
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -29,7 +29,7 @@ Die Betreffzeile ist für die Vorbereitung und den Versand einer Nachricht unbed
 >
 >Wenn die Betreffzeile leer ist, wird ein Warnhinweis im Nachrichten-Dashboard und in Email Designer angezeigt.
 
-Um den E-Mail-Betreff zu konfigurieren, öffnen Sie auf der Startseite von Email Designer den Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol) und füllen Sie den Bereich **Betreff]aus.[!UICONTROL **
+Um den E-Mail-Betreff zu konfigurieren, öffnen Sie auf der Startseite von Email Designer den Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol) und füllen Sie den Bereich **[!UICONTROL Betreff]** aus.
 
 ![](assets/email_designer_subject.png)
 
@@ -57,7 +57,7 @@ Gehen Sie zum Testen Ihrer Betreffzeile wie folgt vor:
 
 1. Erstellen Sie eine neue oder öffnen Sie eine bereits existierende E-Mail.
 1. Gehen Sie in den Inhalt und geben Sie den Betreff der E-Mail im entsprechenden Eingabefeld ein.
-1. Greifen Sie mithilfe der Schaltfläche **[!UICONTROL Betreff testen]** auf das Fenster **Betreffzeile testen]zu.[!UICONTROL ** Der Betreff lässt sich in diesem Fenster noch anpassen.
+1. Greifen Sie mithilfe der Schaltfläche **[!UICONTROL Betreff testen]** auf das Fenster **[!UICONTROL Betreffzeile testen]** zu. Der Betreff lässt sich in diesem Fenster noch anpassen.
 1. Wählen Sie das passende Modell aus, das für die Voraussage der Öffnungsrate berücksichtigt werden soll. Es stehen mehrere Modelle zur Verfügung, die jeweils einer speziellen Branche entsprechen.
 1. Verwenden Sie zum **[!UICONTROL Testen der Betreffzeile die gleichnamige Schaltfläche]**.
 
@@ -80,14 +80,14 @@ Bei der Analyse werden mehrere Indikatoren berechnet und es werden eine Reihe vo
 
 ![](assets/predictive_subject_line_example.png)
 
-### Modelle importieren {#importing-models}
+### Modelle importieren  {#importing-models}
 
 Auf Ihrem Adobe-Campaign-Server laufen Modelle nicht standardmäßig. Für den Erhalt eines Modells und die Aktivierung der Funktion gibt es zwei Möglichkeiten:
 
 * Sie können ein lokales lernfähiges Modell mithilfe von Daten aus Ihren bisherigen E-Mail-Nachrichten trainieren:
 
    * Wenn Sie bereits Adobe Campaign verwenden, wird das lokale Modell automatisch von in der Vergangenheit von Ihnen gesendeten Nachrichten lernen.
-   * Neue Adobe-Campaign-Nutzer können aus ihrem alten System/ESP eine CSV-Datei mit den folgenden vier Spalten extrahieren: Datum, Betreff, Gesendet, Öffnungen. To do that, go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** and follow the instructions provided on the successive screens. Importieren Sie nach Hochladen der Betreffs ein lokales Modell, wie weiter unten beschrieben. Das lokale Modell wird automatisch mit den hochgeladenen Daten trainiert.
+   * Neue Adobe-Campaign-Nutzer können aus ihrem alten System/ESP eine CSV-Datei mit den folgenden vier Spalten extrahieren: Datum, Betreff, Gesendet, Öffnungen. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL E-Mail]** &gt; **[!UICONTROL Betreffzeilenimport]** auf das entsprechende Menü zu und führen Sie die Schritte auf den daraufhin angezeigten Bildschirmen aus. Importieren Sie nach Hochladen der Betreffs ein lokales Modell, wie weiter unten beschrieben. Das lokale Modell wird automatisch mit den hochgeladenen Daten trainiert.
    * Wenn Sie als neuer Adobe-Campaign-Nutzer keinen Zugang zu einer CSV-Datei wie der oben beschriebenen haben, können Sie entweder ein vortrainiertes Modell verwenden oder solange warten, bis Sie in Ihrem System über ausreichend Versanddaten verfügen, mit deren Hilfe ein lokales lernfähiges Modell trainiert werden kann. Das System bestimmt automatisch, ob Ihr aktueller Datensatz ausreichend Daten zur Erkennung von Mustern und zum Training des lernfähigen Modells enthält.
 
       >[!NOTE]
@@ -95,7 +95,7 @@ Auf Ihrem Adobe-Campaign-Server laufen Modelle nicht standardmäßig. Für den E
       >Es gibt keine bestimmte Anzahl erforderlicher Betreffzeilen zum Trainieren Ihres eigenen Modells. Um es trainieren zu können, müssen die Betreffzeilen unterschiedlich lauten und dürfen keine Dubletten haben. Sind nicht genügend Daten vorhanden, die verarbeitet werden können, ist das System nicht in der Lage, das lernfähige Modell zu trainieren. Ihre Instanz darf nur ein trainiertes Modell enthalten.
    Laden Sie zum Training eines lokalen lernfähigen Modells [hier](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) das Modell subjectLineTraining.xml herunter und verwenden Sie die Funktion [Package-Import](../../automating/using/managing-packages.md), um es in Ihre Adobe-Campaign-Instanz hochzuladen. Das Training des lernfähigen Modells wird automatisch von einem technischen Workflow übernommen.
 
-   The first time you want to train a model, an administrator can force the **[!UICONTROL SubjectLine Training workflow]** to start from the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** menu.
+   Wenn es das erste Mal ist, dass Sie ein Modell-Training vornehmen möchten, kann ein Administrator im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Workflows]** den Start des Workflows **[!UICONTROL SubjectLine Training]** (Betreff-Training-Workflow) erzwingen.
 
    Nach dem Hochladen und Training eines lernfähigen Modells wird die Funktion automatisch aktiviert und neben dem für die Betreffzeile Ihrer Nachrichten vorgesehenen Feld wird eine neue Option angezeigt.
 
@@ -116,3 +116,6 @@ Folgende gebrauchsfertige Modelle stehen zur Verfügung:
 * Medizinbranche: subjectInsightMedical.xml
 * Trainierbares Modell: subjectLineTraining.xml
 
+**Verwandtes Thema:**
+
+* [Optimieren von Betreffzeilen mit Adobe Sensei](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
