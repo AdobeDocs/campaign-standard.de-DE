@@ -13,8 +13,8 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+translation-type: tm+mt
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -47,3 +47,6 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
 1. Planen Sie den Versand mit der Option **[!UICONTROL Versand nach Bestätigung]**.
 1. Nachdem Ihre E-Mail gesendet wurde, können Sie Protokolle und Berichte aufrufen, um den Erfolg Ihrer Kampagne zu messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../../reporting/using/about-dynamic-reports.md).
 
+**Verwandtes Thema:**
+
+* [Erreichen mehrsprachiger Zielgruppen mit einem Workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
