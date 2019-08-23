@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
+source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
 
 ---
 
@@ -30,6 +30,8 @@ Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-note
 ## Aktualisierungen der Dokumentation - August 2019 {#doc-updates-august-2019}
 
 Im Abschnitt Arbeitsablauf-Fehlerbehebung für die Anzeige von SQL-Abfragen auf der Registerkarte "Protokoll" wurde ein Verfahren hinzugefügt. [mehr dazu](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
+Es wurde ein neuer Hilfeartikel mit Informationen zu Subdomänen und Zertifikaten-Management in der Systemsteuerung hinzugefügt. [mehr dazu](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
 
 ## 19.3 - Version Juli 2019 {#release-19-3---july-2019}
 
