@@ -14,7 +14,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -36,6 +36,7 @@ Verwandte Themen:
 * [Vorbereitung](../../administration/using/configuring-email-channel.md#preparation)
 * [Typologien verwalten](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Typologieregeln](../../administration/using/about-typology-rules.md#typology-rules)
+* [Optimierungshäufigkeit zur Vermeidung von Kontaktaufnahme](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Ermüdungsregel erstellen  {#creating-a-fatigue-rule}
 
