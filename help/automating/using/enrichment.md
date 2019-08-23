@@ -14,8 +14,8 @@ discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -137,4 +137,8 @@ Der Workflow setzt sich aus folgenden Aktivitäten zusammen:
 * Die Aktivität **[!UICONTROL E-Mail-Versand]**, in der mithilfe der in der **[!UICONTROL Anreicherung]** definierten Zusatzdaten die zwei letzten vom Profil getätigten Käufe dynamisch abgerufen werden. Beim Hinzufügen eines Personalisierungsfeldes finden Sie die Zusatzdaten im Knoten **Zusatzdaten (TargetData)**.
 
    ![](assets/enrichment_example_workflow10.png)
+
+**Verwandtes Thema:**
+
+* [Kundenprofile mit externen Daten anreichern](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 
