@@ -13,8 +13,8 @@ topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+translation-type: tm+mt
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -167,3 +167,6 @@ Nach dem Versand Ihrer Nachricht können Sie die Berichte mithilfe Ihrer benutze
 
    ![](assets/custom_profile_21.png)
 
+**Verwandtes Thema:**
+
+* [Verwenden benutzerdefinierter Profildaten zur Erstellung aussagekräftiger Berichte](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
