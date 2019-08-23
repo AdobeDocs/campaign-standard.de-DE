@@ -3,18 +3,18 @@ title: E-Mail-Struktur definieren
 seo-title: E-Mail-Struktur definieren
 description: E-Mail-Struktur definieren
 seo-description: Hier erfahren Sie, wie Sie mit Email Designer in Campaign E-Mails gestalten und Inhaltskomponenten einfügen können.
-page-status-flag: nie aktiviert
-uuid: 6 ec 63 f 65-1425-4 c 28-84 e 8-b 09574458 db 3
+page-status-flag: never-activated
+uuid: 6ec63f65-1425-4c28-84e8-b09574458db3
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
+discoiquuid: 207fdf6d-165a-41af-ad53-ba97d3403b62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
+source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
 ---
 
@@ -44,7 +44,7 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 1. Mehrere Strukturkomponenten bestehend aus einer oder mehreren Spalten sind verfügbar.
 
-   Wählen Sie die Komponente **[!UICONTROL n:n Spalte]aus, um die Anzahl der Spalten zu definieren (3 bis 10).** Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
+   Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -54,13 +54,13 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 Sobald die Struktur definiert ist, können Sie Inhaltsfragmente und Komponenten zu Ihrer E-Mail hinzufügen.
 
-## Fragmente und Inhaltskomponenten hinzufügen {#adding-fragments-and-content-components}
+## Fragmente und Inhaltskomponenten hinzufügen  {#adding-fragments-and-content-components}
 
 Mit Email Designer können Sie nach dem Hinzufügen von Strukturkomponenten zu Ihrer E-Mail deren Inhalt definieren. Zu diesem Zweck müssen Sie in jede Strukturkomponente Elemente einfügen.
 
 Sie können dazu zwei Kategorien von Inhaltselementen verwenden: **Fragmente** und **Inhaltskomponenten**.
 
-### Über Fragmente {#about-fragments}
+### Über Fragmente  {#about-fragments}
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails referenziert werden kann.
 
@@ -78,7 +78,7 @@ Um ein Fragment in einer E-Mail zu entsperren, wählen Sie zuerst das Fragment a
 
 Dieses Fragment wird dann zu einer unabhängigen Komponente, die nicht mehr mit dem ursprünglichen Fragment verknüpft ist. Es kann dann wie jede andere Inhaltskomponente bearbeitet werden. Siehe [Über Inhaltskomponenten](../../designing/using/defining-the-email-structure.md#about-content-components).
 
-### Über Inhaltskomponenten {#about-content-components}
+### Über Inhaltskomponenten  {#about-content-components}
 
 Inhaltskomponenten sind leere Komponenten, die nach dem Einfügen in eine E-Mail bearbeitet werden können.
 
@@ -88,7 +88,7 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
 
 * **[!UICONTROL Schaltfläche]**
 
-   Wenn Sie mehrere Schaltflächen benötigen, müssen Sie nicht jede einzelne neu erstellen, sondern können die Komponente **[!UICONTROL Schaltfläche]in der dedizierten Symbolleiste duplizieren.**
+   Wenn Sie mehrere Schaltflächen benötigen, müssen Sie nicht jede einzelne neu erstellen, sondern können die Komponente **[!UICONTROL Schaltfläche]** in der dedizierten Symbolleiste duplizieren.
 
    Sie können auch Schaltflächen in Fragmenten speichern, die nochmals verwendet werden können. Weiterführende Informationen dazu finden Sie in den Abschnitten [Inhaltsfragment erstellen](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) und [Inhalt als Fragment speichern](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
@@ -99,11 +99,11 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
 * **[!UICONTROL Divisor]**
 * **[!UICONTROL HTML]**
 
-   Verwenden Sie diese Komponente, um die unterschiedlichen Teile Ihrer existierenden HTML-Datei zu kopieren und einzufügen. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
+   Verwenden Sie diese Komponente, um die verschiedenen Teile Ihres vorhandenen HTML-Codes zu kopieren. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
 
    >[!NOTE]
    >
-   >Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im     **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
+   >Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im  **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
 
 * **[!UICONTROL Bild]**
 * **[!UICONTROL Sozial]**
@@ -111,12 +111,12 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
 
 #### Karussellkomponente verwenden {#using-the-carousel-component}
 
-1. Ziehen Sie die Komponente **[!UICONTROL Karussell]in eine Strukturkomponente.**
+1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
 1. Durchsuchen Sie Ihre Festplatte nach Bildern.
 
    ![](assets/des_carousel_browse.png)
 
-1. Wählen Sie in den **[!UICONTROL Einstellungen]die Anzahl der gewünschten Miniaturansichten für das Karussell aus.**
+1. Wählen Sie in den **[!UICONTROL Einstellungen]** die Anzahl der gewünschten Miniaturansichten für das Karussell aus.
 1. Wählen Sie ein Fallback-Bild von Ihrer Festplatte aus.
 
    ![](assets/des_carousel_fallback.png)
@@ -127,7 +127,7 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
    >
    >Die Karussell-Komponente ist mit den folgenden E-Mail-Plattformen kompatibel: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad und iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox und Safari).
 
-1. Wählen Sie **[!UICONTROL Fallback-Ansicht]aus, um das Fallback-Bild in Email Designer zu zeigen.**
+1. Wählen Sie **[!UICONTROL Fallback-Ansicht]** aus, um das Fallback-Bild in Email Designer zu zeigen.
 
 ### Elemente in eine E-Mail einfügen {#inserting-elements-into-an-email}
 
@@ -161,19 +161,19 @@ Nachdem Inhalt in die E-Mail-Struktur geladen wurde, können Sie den Stil jedes 
 >
 >Änderungen eines Fragments werden automatisch mit den E-Mails synchronisiert, in denen das Fragment verwendet wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Fragmente](../../designing/using/defining-the-email-structure.md#about-fragments).
 
-### Inhaltsfragment erstellen {#creating-a-content-fragment}
+### Inhaltsfragment erstellen  {#creating-a-content-fragment}
 
 Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer oder in mehreren E-Mails verwenden.
 
-1. Go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** and click **[!UICONTROL Create]**.
-1. Wählen Sie den Titel der E-Mail aus, um auf den Tab **[!UICONTROL Eigenschaften]in Email Designer zuzugreifen.**
+1. Gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen &amp; Fragmente]** und wählen Sie **[!UICONTROL Erstellen]** aus.
+1. Wählen Sie den Titel der E-Mail aus, um auf den Tab **[!UICONTROL Eigenschaften]** in Email Designer zuzugreifen.
 1. Geben Sie einen charakteristischen Titel an und wählen Sie die folgenden Parameter aus, damit Sie das Fragment später zur Verwendung in neuen E-Mails wiederfinden.
 
-   * Da Fragmente nur mit E-Mails kompatibel sind, wählen Sie aus der Dropdown-Liste **** Inhaltstyp] die Option **[!UICONTROL Versand]aus.[!UICONTROL **
-   * Wählen Sie aus der Dropdown-Liste **** HTML-Typ] die Option **[!UICONTROL Fragment]aus, um diesen Inhalt als Fragment in Ihren E-Mails verwenden zu können.[!UICONTROL **
+   * Da Fragmente nur mit E-Mails kompatibel sind, wählen Sie aus der Dropdown-Liste **[!UICONTROL Inhaltstyp**] die Option **[!UICONTROL Versand]** aus.
+   * Wählen Sie aus der Dropdown-Liste **[!UICONTROL HTML-Typ]** die Option **[!UICONTROL Fragment]** aus, um diesen Inhalt als Fragment in Ihren E-Mails verwenden zu können.
    ![](assets/email_designer_createfragment.png)
 
-1. Bei Bedarf können Sie ein Bild als Miniaturansicht für dieses Fragment festlegen. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]aus.**
+1. Bei Bedarf können Sie ein Bild als Miniaturansicht für dieses Fragment festlegen. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** l aus.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
@@ -183,13 +183,13 @@ Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer ode
 1. Fügen Sie eine Strukturkomponente und eine Inhaltskomponente hinzu, die Sie nach Bedarf anpassen können.
 1. Speichern Sie das Fragment nach der Bearbeitung.
 
-Das Fragment kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Es wird in der Palette im Bereich **[!UICONTROL Fragmente]angezeigt.**
+Das Fragment kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Es wird in der Palette im Bereich **[!UICONTROL Fragmente]** angezeigt.
 
 >[!NOTE]
 >
 >Sie können nur dann Personalisierungsfelder in einem Fragment einfügen, wenn es in einer E-Mail verwendet wird. Zu diesem Zweck muss dieses Fragment entsperrt werden. Siehe [Über Fragmente](../../designing/using/defining-the-email-structure.md#about-fragments).
 
-### Inhalt als ein Fragment speichern {#saving-content-as-a-fragment}
+### Inhalt als ein Fragment speichern  {#saving-content-as-a-fragment}
 
 Wenn Sie eine E-Email mit dem E-Mail-Designer bearbeiten, können Sie einen Teil dieser E-Email direkt als Fragment speichern.
 
@@ -197,7 +197,7 @@ Wenn Sie eine E-Email mit dem E-Mail-Designer bearbeiten, können Sie einen Teil
 >
 >Sie können eine Struktur, die Personalisierungsfelder, dynamische Inhalte oder ein anderes Fragment enthält, nicht als Fragment speichern.
 
-1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
+1. Wenn Sie eine E-Email im E-Mail-Designer bearbeiten, wählen **[!UICONTROL Sie in der Hauptsymbolleiste "Als Fragment]** speichern" .
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -209,13 +209,13 @@ Wenn Sie eine E-Email mit dem E-Mail-Designer bearbeiten, können Sie einen Teil
    >
    >Sie können nur Strukturen auswählen, die einander nebeneinander liegen.
 
-1. Wählen Sie **[!UICONTROL Erstellen aus]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
-1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
+1. Fügen Sie bei Bedarf eine Beschriftung und eine Beschreibung hinzu und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. To find the fragment that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]**.
+1. Um das soeben erstellte Fragment zu finden, gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und Fragmente]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
