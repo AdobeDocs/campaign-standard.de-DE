@@ -13,8 +13,8 @@ topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+translation-type: tm+mt
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -49,6 +49,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * [Bedienfelder hinzufügen](../../reporting/using/adding-panels.md)
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
+* [Automatisierte Freigabe von Berichten per E-Mail](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Tabs  {#tabs}
 
@@ -147,3 +148,7 @@ Im Tab **[!UICONTROL Freigabe]** können Sie Adobe-Campaign-Benutzern Berichte m
    1. Das Fenster **[!UICONTROL Terminierten Bericht bearbeiten]** wird geöffnet, wo Sie die Empfänger oder die Häufigkeit Ihrer E-Mail-Sendungen nach Bedarf ändern können.
 
 Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang direkt in ihrer Inbox. Wenn Benutzer keine wiederkehrenden E-Mails mehr erhalten möchten, können Sie einen in jeder wiederkehrenden E-Mail verfügbaren Abmelde-Link verwenden.
+
+**Verwandtes Thema:**
+
+* [Automatisierte Freigabe von Berichten per E-Mail](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
