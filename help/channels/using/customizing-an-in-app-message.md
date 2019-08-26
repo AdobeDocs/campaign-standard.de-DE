@@ -14,8 +14,8 @@ discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+translation-type: tm+mt
+source-git-commit: 43183a3adc35da3dac807a888f1b694fbb9a623c
 
 ---
 
@@ -152,7 +152,7 @@ So passen Sie lokale Benachrichtigungen an:
    ![](assets/inapp_customize_18.png)
 
 1. Wählen Sie in der Kategorie **[!UICONTROL Erweiterte Optionen]** im Feld **[!UICONTROL Zum Anzeigen warten]** aus, wie lange Ihre lokale Benachrichtigung in Sekunden auf dem Bildschirm angezeigt werden soll, nachdem das Ereignis ausgelöst wurde.
-1. Geben Sie im Feld **[!UICONTROL Ton]** den Namen der Tondatei ein (ohne Erweiterung), die bei Erhalt einer lokalen Benachrichtigung vom Mobilgerät abgespielt werden soll.
+1. In the **[!UICONTROL Sound]** field, enter the filename of the sound file, with the extension, to be played by the mobile device when the local notification is received.
 
    Die Tondatei wird bei der Zustellung der Benachrichtigung abgespielt, wenn die Datei im Package der Mobile App definiert ist. Andernfalls wird der Standardton des Geräts verwendet.
 
