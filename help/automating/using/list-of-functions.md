@@ -13,8 +13,8 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 83be3f22f3508248f2a4666080a7207998093dc3
 
 ---
 
@@ -459,11 +459,6 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
    <td> <strong>SetBit</strong><br /> </td> 
    <td> Setzt das Flag im Wert<br /> </td> 
    <td> SetBit(&lt;Kennung&gt;, &lt;Flag&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>SetVar</strong><br /> </td> 
-   <td> Definiert eine Variable<br /> </td> 
-   <td> SetVar(&lt;Variable&gt;, &lt;Ausdruck&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
