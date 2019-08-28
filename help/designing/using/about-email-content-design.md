@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -128,27 +128,27 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 * Bei der Bearbeitung von Stilen sind nur die Web Fonts verfügbar, die von den meisten E-Mail-Clients offiziell unterstützt werden.
 * Stile lassen sich nicht als Thema zur künftigen Wiederverwendung speichern. Doch der CSS-Stil kann in einer Inhaltsvorlage oder einer E-Mail gespeichert werden. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/editing-email-styles.md).
 
-### Updates für E-Mail-Designer {#email-designer-updates}
+### Email Designer Update {#email-designer-updates}
 
-Der E-Mail-Designer wird ständig verbessert. Wenn Sie einen E-Mail-Inhalt von Grund auf von einer vordefinierten Vorlage aus erstellt haben oder Fragmente erstellt haben, erhalten Sie beim nächsten Öffnen Ihres Inhalts möglicherweise folgende Aktualisierungsmeldung:
+Der Email-Designer wird ständig verbessert. Wenn Sie einen E-Mail-Gehalt von Null, von einer außerbilanziellen Vorlage oder von Fragmenten schaffen, können Sie das nächste Mal die folgende Nachricht erhalten:
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe empfiehlt, Ihren Inhalt auf die neueste Version zu aktualisieren, um Probleme wie CSS-Kollision zu vermeiden. Klicken Sie auf **[!UICONTROL Jetzt aktualisieren]**.
+Adobe empfiehlt, Ihren Inhalt auf die jüngste Version zu aktualisieren, um Probleme wie CSS-Kollisionsfragen zu vermeiden. Click **[!UICONTROL Update jetzt]**.
 
-Wenn beim Aktualisieren des Inhalts ein Fehler auftritt, überprüfen Sie Ihren HTML und beheben Sie ihn, bevor Sie dieses Update erneut ausführen.
+Falls bei der Aktualisierung der Inhalte ein Fehler auftritt, muss Sie Ihre HTML überprüfen und sie reparieren, bevor sie erneut aktualisiert werden.
 
-Beachten Sie bei Fragmenten Folgendes:
+Wenn es um Fragmente geht, bitte Folgendes beachten:
 
-* Wenn Sie ein Fragment zu einer neuen E-Mail oder Vorlage hinzufügen möchten und diese Meldung erhalten, müssen Sie dieses Fragment zuerst aktualisieren.
+* Wenn Sie eine neue E-Mail oder ein neues Muster hinzufügen wollen, und wenn Sie diese Botschaft erhalten, müssen Sie dieses Fragment zuerst aktualisieren.
 
-* Wenn Sie mehrere Fragmente haben, müssen Sie jedes Fragment aktualisieren, das Sie in einem E-Mail-Inhalt verwenden möchten.
+* Wenn Sie mehrere Fragmente haben, müssen Sie jedes Fragment aktualisieren, das Sie in einem E-Mail-Inhalt verwenden wollen.
 
-* Um Auswirkungen auf die aktuellen E-Mail-Nachrichten zu vermeiden, die noch nicht vorbereitet sind, können Sie bestimmte Fragmente nicht aktualisieren.
+* Um Auswirkungen auf die aktuellen E-Mail-Nachrichten zu vermeiden, die noch nicht vorbereitet sind, können Sie sich entscheiden, einige Fragmente nicht zu aktualisieren.
 
-* Sie können weiterhin E-Mails senden, bei denen ein nicht aktualisiertes Fragment bereits verwendet wird, das Fragment jedoch nicht bearbeitbar ist.
+* Sie können immer noch E-Mails senden, wo ein nicht aktualisiertes Fragment bereits verwendet wird, aber dieses Fragment ist nicht veraltet.
 
-* Die Aktualisierung von Fragmenten in E-Mails, die bereits vorbereitet sind, hat keine Auswirkungen auf diese E-Mails.
+* Die Aktualisierung der in E-Mails verwendeten Fragmente hat keine Auswirkungen auf diese E-Mails.
 
 ## Neuen E-Mail-Inhalt gestalten {#designing-an-email-content-from-scratch}
 
@@ -177,7 +177,7 @@ Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v
 * [Versandplanung](../../sending/using/about-scheduling-messages.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
 * [E-Mail-Rendering](../../sending/using/email-rendering.md)
-* [Erstellen personalisierter E-Emails ohne HTML-Kenntnisse](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
+* [Aufbau personalisierter E-Emails ohne Notwendigkeit von HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## E-Mail aus vorhandenem Inhalt erstellen  {#designing-an-email-using-existing-contents}
 
@@ -387,10 +387,10 @@ Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Weiterführende Informa
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Sie können eine Komponente ausblenden, wenn sie auf einem Mobilgerät angezeigt wird. Wählen Sie dazu **[!UICONTROL die Option Nur auf Desktopgeräten]** anzeigen aus den **[!UICONTROL Anzeigeoptionen]**.
-Sie können diese Komponente auch auf Desktopgeräten ausblenden, was bedeutet, dass sie nur auf Mobilgeräten angezeigt wird. Wählen Sie dazu **[!UICONTROL nur auf Mobilgeräten anzeigen]**.
-Mit dieser Option können Sie beispielsweise ein bestimmtes Bild auf Mobilgeräten und ein anderes Bild auf Desktopgeräten anzeigen.
-Sie können diese Option entweder über die Mobil- oder Desktop-Ansicht festlegen.
+1. Sie können eine Komponente verstecken, wenn sie auf einem mobilen Gerät angezeigt werden. Zu diesem Zweck **[!UICONTROL darf man nur auf Desktop-Geräten]** aus den **[!UICONTROL Display-Optionen wählen]**.
+Sie können auch diese Komponente auf Desktop-Geräten verstecken, was bedeutet, dass sie nur auf mobilen Geräten angezeigt wird. Zu diesem Zweck **[!UICONTROL nur auf mobilen Geräten auswählen]**.
+So können Sie beispielsweise ein spezielles Bild auf mobilen Geräten und ein anderes Bild auf Desktop-Geräten anzeigen.
+Sie können diese Option entweder vom mobilen oder Desktop-Standpunkt festlegen.
 
    ![](assets/email_designer_mobile_hide.png)
 
@@ -429,6 +429,10 @@ Sie können diese Option entweder über die Mobil- oder Desktop-Ansicht festlege
    Die in der Desktop-Ansicht ausgewählte Hintergrundfarbe wird jetzt angewendet: Die Schaltfläche wird grau (nicht farblos) dargestellt.
 
    Die einzige Ausnahme ist die Einstellung für die **[!UICONTROL Randfarbe]**. Wenn diese in der Mobile-Ansicht deaktiviert ist, wird kein Rahmen mehr hinzugefügt, selbst wenn in der Desktop-Ansicht eine Randfarbe definiert wird.
+
+>[!NOTE]
+>
+>Die mobile Sicht [ist nicht in Bruchstücke verfügbar.](../../designing/using/defining-the-email-structure.md#about-fragments)
 
 ## Text- und HTML-Modus  {#plain-text-and-html-modes}
 
