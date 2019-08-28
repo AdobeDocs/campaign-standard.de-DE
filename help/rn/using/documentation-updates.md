@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
+source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
 
 ---
 
@@ -29,61 +29,65 @@ Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-note
 
 ## Aktualisierungen der Dokumentation - August 2019 {#doc-updates-august-2019}
 
-Im Abschnitt Arbeitsablauf-Fehlerbehebung für die Anzeige von SQL-Abfragen auf der Registerkarte "Protokoll" wurde ein Verfahren hinzugefügt. [mehr dazu](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+Es wurde ein Verfahren in den Abschnitt über Arbeitsstörungen aufgenommen, in dem es um die Darstellung von SQL-Anfragen im Log-Labor ging. [mehr dazu](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Es wurde ein neuer Hilfeartikel mit Informationen zu Subdomänen und Zertifikaten-Management in der Systemsteuerung hinzugefügt. [mehr dazu](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+Es wurde ein neuer Help-Artikel hinzugefügt, der Informationen über Unterbereiche und Bescheinigungen über Bescheinigungen innerhalb der Kontrollgruppe enthält. [mehr dazu](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
+Der Abschnitt, in dem die Mustertexte und Fragmente beschrieben sind, wurde aktualisiert. [mehr dazu](../../start/using/about-templates.md#content-templates)
+
+Ein neuer Abschnitt über die Einsparung von E-Email-Inhalten im Email-Designer wurde hinzugefügt. [mehr dazu](../../start/using/about-templates.md#saving-content-as-template)
 
 ## 19.3 - Version Juli 2019 {#release-19-3---july-2019}
 
 ### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-19}
 
-Externe API-Aktivität (öffentliche Beta-Version) - [Mehr lesen](../../automating/using/external-api.md)
+Externe API-Tätigkeit (öffentliche Beta) - [Lesen Sie mehr](../../automating/using/external-api.md)
 
-Bericht über Workflow-Segment - [Mehr lesen](../../reporting/using/creating-a-report-workflow-segment.md)
+Bericht über den Arbeitsfluss - [Lesen Sie mehr](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-17}
 
-Campaign Standard Implementation Guide ist jetzt live.[mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+Die Kampagne zur Umsetzung der Kampagne ist nun live.[mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Über die Connector-Implementierung und -nutzung von Microsoft Dynamics 365 wurden neue Hilfeartikel erstellt. Beachten Sie, dass diese Funktion derzeit nur eingeschränkt verfügbar ist.[mehr dazu](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Über Microsoft Dynamics 365-Connector-Implementierung und -nutzung wurden neue Hilfsmittel geschaffen. Dieses Merkmal befindet sich derzeit in beschränkter Verfügbarkeit.[mehr dazu](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-Im [Abschnitt "Aufrufen eines Arbeitsablaufs mit Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md) " über die Bereitstellungsvorbereitung und deren Aggregationszeitraum wurde ein Hinweis hinzugefügt.
+In der Anzeige [wurde ein Arbeitsverhältnis mit Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md) für die Liefervorbereitung und deren Aggregationszeitraum hinzugefügt.
 
-Es wurden Informationen hinzugefügt, wie Sie die Beschriftung einer Auslieferung mit Ereignisvariablen personalisieren, die in der externen Signalaktivität des Workflows deklariert wurden. [mehr dazu](../../automating/using/external-signal.md)
+Es wurden Informationen darüber hinzugefügt, wie ein Lieferschild mit Ereignisvariablen zu personalisieren ist, die bei der externen Signaltätigkeit des Arbeitnehmers angegeben wurden. [mehr dazu](../../automating/using/external-signal.md)
 
-Es wurde ein neuer Abschnitt hinzugefügt, in dem erläutert wird, wie Sie einen Benutzer in Adobe Campaign Standard erstellen. [mehr dazu](../../administration/using/users-management.md)
+Ein neuer Abschnitt wurde hinzugefügt, in dem erläutert wird, wie ein Nutzer in Adobe Campaign Standard geschaffen werden kann. [mehr dazu](../../administration/using/users-management.md)
 
-Ein neuer Artikel ist jetzt mit Tipps verfügbar, um Marketingkampagnen zu vereinfachen, einschließlich Links zur Produktdokumentation und zu Videos.[mehr dazu](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
+Ein neuer Artikel steht jetzt mit Tips zur Vereinfachung der Marketingkampagnen zur Verfügung, darunter Links zu Produktunterlagen und Bildvideos.[mehr dazu](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
-Für dynamische Berichte wurde eine Fehlerbehebung hinzugefügt. [mehr dazu](../../reporting/using/troubleshooting.md)
+Für Dynamic Reporting wurde ein Problem hinzugefügt. [mehr dazu](../../reporting/using/troubleshooting.md)
 
-Ein Diagramm mit der Erklärung, wie verschiedene In-App-Vorlagen persönliche Informationen verarbeiten, wurde hinzugefügt. [mehr dazu](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Ein Diagramm, in dem erläutert wird, wie die verschiedenen In-App-Template personenbezogene Informationen bearbeiten, wurde hinzugefügt. [mehr dazu](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-Der Abschnitt zum Speichern von E-Email-Inhalten als Fragment im E-Mail-Designer wurde aktualisiert. [mehr dazu](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+Der Abschnitt über die Einsparung von E-Email als Fragment im Email-Designer wurde aktualisiert. [mehr dazu](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
-Es wurde eine Warnung hinzugefügt, wie zusätzliche Leerzeichen das Layout eines E-Mail-Inhalts beeinflussen können. [mehr dazu](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+Es wurde eine Warnung darüber hinzugefügt, wie zusätzliche weiße Räume die Gestaltung eines E-Mail-Inhalts beeinflussen können. [mehr dazu](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
 
-Ein neuer Abschnitt zum E-Mail-Designer wurde hinzugefügt. [mehr dazu](../../designing/using/about-email-content-design.md#email-designer-updates)
+Ein neuer Abschnitt über E-Mail-Designer wurde hinzugefügt. [mehr dazu](../../designing/using/about-email-content-design.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
-Es wurde ein neuer Abschnitt über bewährte Verfahren zum Arbeitsablauf hinzugefügt. [mehr dazu](../../automating/using/best-practices-workflows.md)
+Ein neuer Abschnitt über den Arbeitsfluss wurde hinzugefügt. [mehr dazu](../../automating/using/best-practices-workflows.md)
 
 Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Es wurde eine Warnung in der benutzerdefinierten Ressourcendokumentation hinzugefügt. Es wird empfohlen, für benutzerdefinierte Ressourcen-IDs maximal 30 Zeichen zu verwenden. Dies gilt auch für benutzerdefinierte Ressourcenfelder, Schlüssel, Indizes und Links. [mehr dazu](../../developing/using/creating-or-extending-the-resource.md)
+Eine Warnung in den Zollunterlagen. Wir empfehlen, maximal 30 Zeichen für Zollzwecke zu verwenden. Dies gilt auch für Zollfelder, Schlüssel, Indizes und Verbindungen. [mehr dazu](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Aktualisierungen der Dokumentation - Juli 2019 {#doc-updates-2019}
 
-Es wurde eine neue Seite zu Einschränkungen der Einstiegsseite hinzugefügt. [mehr dazu](../../channels/using/landing-page-limitations.md)
+Eine neue Seite auf Landeseitenbegrenzungen. [mehr dazu](../../channels/using/landing-page-limitations.md)
 
-Ein Anwendungsfall wurde hinzugefügt, das dazu führte, dass ein Profil mithilfe eines Composite-Identifizierungsschlüssels aufgerufen wurde. [mehr dazu](../../developing/using/uc-calling-resource-id-key.md)
+Es wurde ein Verfahren zur Verwendung eines Profils mit einem Verbundschlüssel hinzugefügt. [mehr dazu](../../developing/using/uc-calling-resource-id-key.md)
 
-Es wurde eine Empfehlung zur Verwendung wiederkehrender Lieferungen ohne Aggregationszeitraum hinzugefügt, wenn ein Workflow mit Parametern aufgerufen wird. [mehr dazu](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Es wurde eine Empfehlung in Bezug auf die Verwendung wiederkehrender Lieferungen ohne Aggregationszeit gegeben, wenn ein Arbeitsverhältnis mit Parametern angegeben wird. [mehr dazu](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Es wurde eine Warnung in der benutzerdefinierten Ressourcendokumentation hinzugefügt. Es wird empfohlen, für benutzerdefinierte Ressourcen-IDs maximal 30 Zeichen zu verwenden. Dies gilt auch für benutzerdefinierte Ressourcenfelder, Schlüssel, Indizes und Links. [mehr dazu](../../developing/using/creating-or-extending-the-resource.md)
+Eine Warnung in den Zollunterlagen. Wir empfehlen, maximal 30 Zeichen für Zollzwecke zu verwenden. Dies gilt auch für Zollfelder, Schlüssel, Indizes und Verbindungen. [mehr dazu](../../developing/using/creating-or-extending-the-resource.md)
 
 ## 19.2 - Version Mai 2019 {#release-19-2---may-2019}
 
