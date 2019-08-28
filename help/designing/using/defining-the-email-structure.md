@@ -14,7 +14,7 @@ discoiquuid: 207fdf6d-165a-41af-ad53-ba97d3403b62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -99,7 +99,7 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
 * **[!UICONTROL Divisor]**
 * **[!UICONTROL HTML]**
 
-   Verwenden Sie diese Komponente, um die verschiedenen Teile Ihres vorhandenen HTML-Codes zu kopieren. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
+   Diese Komponente wird verwendet, um die verschiedenen Teile Ihrer bestehenden HTML zu kopieren. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
 
    >[!NOTE]
    >
@@ -167,10 +167,10 @@ Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer ode
 
 1. Gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen &amp; Fragmente]** und wählen Sie **[!UICONTROL Erstellen]** aus.
 1. Wählen Sie den Titel der E-Mail aus, um auf den Tab **[!UICONTROL Eigenschaften]** in Email Designer zuzugreifen.
-1. Geben Sie einen charakteristischen Titel an und wählen Sie die folgenden Parameter aus, damit Sie das Fragment später zur Verwendung in neuen E-Mails wiederfinden.
+1. Geben Sie ein erkennbares Etikett an und wählen Sie die folgenden Parameter aus, um den Fragment bei der Bearbeitung von E-Mail-Inhalten zu finden:
 
    * Da Fragmente nur mit E-Mails kompatibel sind, wählen Sie aus der Dropdown-Liste **[!UICONTROL Inhaltstyp**] die Option **[!UICONTROL Versand]** aus.
-   * Wählen Sie aus der Dropdown-Liste **[!UICONTROL HTML-Typ]** die Option **[!UICONTROL Fragment]** aus, um diesen Inhalt als Fragment in Ihren E-Mails verwenden zu können.
+   * **[!UICONTROL Fragment]** aus der **[!UICONTROL HTML-Baumusterliste]** wählen, um diesen Inhalt als Bruchstücke verwenden zu können.
    ![](assets/email_designer_createfragment.png)
 
 1. Bei Bedarf können Sie ein Bild als Miniaturansicht für dieses Fragment festlegen. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** l aus.
@@ -179,49 +179,59 @@ Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer ode
 
    Diese Miniaturansicht wird neben dem Titel des Fragments angezeigt, wenn eine E-Mail bearbeitet wird.
 
-1. Speichern Sie Ihre Änderungen, um zum Hauptarbeitsbereich zurückzukehren.
-1. Fügen Sie eine Strukturkomponente und eine Inhaltskomponente hinzu, die Sie nach Bedarf anpassen können.
+1. Schließ die **[!UICONTROL Immobilien]** ab, um in den Hauptarbeitsraum zurückzukehren.
+1. Bauelemente und Inhaltsbestandteile hinzufügen, die Sie je nach Bedarf anpassen können.
+
+   >[!NOTE]
+   >
+   >Fragmente können keine Personalisierungsfelder, dynamische Inhalte oder ein anderes Fragment umfassen.
+   >Die [mobile Sicht](../../designing/using/about-email-content-design.md#switching-to-mobile-view) ist nicht in Bruchstücke verfügbar.
+
 1. Speichern Sie das Fragment nach der Bearbeitung.
 
-Das Fragment kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Es wird in der Palette im Bereich **[!UICONTROL Fragmente]** angezeigt.
+Dieses Fragment kann jetzt in jeder E-Email mit dem Email-Designer verwendet werden. Es wird in der Palette im Bereich **[!UICONTROL Fragmente]** angezeigt.
 
 >[!NOTE]
 >
->Sie können nur dann Personalisierungsfelder in einem Fragment einfügen, wenn es in einer E-Mail verwendet wird. Zu diesem Zweck muss dieses Fragment entsperrt werden. Siehe [Über Fragmente](../../designing/using/defining-the-email-structure.md#about-fragments).
+>Sie dürfen keine Personalisierungsfelder in einen Bruchstücke einfügen, es sei denn, sie werden in einer E-Mail verwendet und nicht verschlossen. Siehe [Über Fragmente](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ### Inhalt als ein Fragment speichern  {#saving-content-as-a-fragment}
 
-Wenn Sie eine E-Email mit dem E-Mail-Designer bearbeiten, können Sie einen Teil dieser E-Email direkt als Fragment speichern.
+Wenn Sie eine E-Email mit dem Email konstruieren, können Sie einen Teil dieser E-Email direkt als Fragment retten.
 
->[!CAUTION]
->
->Sie können eine Struktur, die Personalisierungsfelder, dynamische Inhalte oder ein anderes Fragment enthält, nicht als Fragment speichern.
+* Sie können eine Struktur, die Personalisierungsfelder, dynamische Inhalte oder ein anderes Fragment enthält, nicht als Fragment sparen.
+* Sie können nur Strukturen wählen, die miteinander verbunden sind.
+<!--* You cannot select an empty structure.-->
 
-1. Wenn Sie eine E-Email im E-Mail-Designer bearbeiten, wählen **[!UICONTROL Sie in der Hauptsymbolleiste "Als Fragment]** speichern" .
+1. Bei der Editierung einer E-Email im Email-Designer **[!UICONTROL ist Save als Bruchstücke]** von der Haupttoolbar auszuwählen.
 
    ![](assets/email_designer_save-as-fragment.png)
 
-1. Wählen Sie aus der Arbeitsfläche die Strukturen aus, die das Fragment zusammenstellen.
+1. Aus dem Arbeitsraum wählen Sie die Strukturen, die das Fragment ausmachen.
 
    ![](assets/email_designer_save-as-fragment_select.png)
 
    >[!NOTE]
    >
-   >Sie können nur Strukturen auswählen, die einander nebeneinander liegen.
+   >Stellen Sie sicher, dass Sie Strukturen wählen, die nebeneinander liegen und keine Personalisierungsfelder, dynamische Inhalte oder ein anderes Fragment umfassen.
+   <!--You cannot select an empty structure.-->
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
-1. Fügen Sie bei Bedarf eine Beschriftung und eine Beschreibung hinzu und klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Bitte geben Sie ein Etikett und eine Beschreibung an, wenn **[!UICONTROL Sie gebraucht]** werden.
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. Um das soeben erstellte Fragment zu finden, gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und Fragmente]**.
+1. Um das Fragment zu finden, das Sie gerade geschaffen haben, gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsmuster und Fragmente]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. Um Ihr neues Fragment zu verwenden, öffnen Sie alle E-Mail-Inhalte und wählen Sie es aus der Liste der Fragmente aus.
+1. Um das neue Fragment zu nutzen, jeden E-Mail-Inhalt zu öffnen und ihn aus der Bruchstückliste auszuwählen.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+>[!NOTE]
+>Die [mobile Sicht](../../designing/using/about-email-content-design.md#switching-to-mobile-view) ist nicht in Bruchstücke verfügbar. Wenn Sie eine E-Mail-Sicht machen wollen, tun Sie es, bevor Sie Ihren Inhalt als Bruchstücke retten.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
