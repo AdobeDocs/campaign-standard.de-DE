@@ -15,7 +15,7 @@ context-tags: 'Arbeitsfluss, Verwendung, Abfrage, Segmentierung, Lieferung '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -45,11 +45,7 @@ Anmerkung: Um alle Menschen zu erreichen, die in Boston eingetroffen sind, ist e
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 1. In Liste **[!UICONTROL der outbound segmente]****[!UICONTROL einfügen Sie ein Element]** und ![](assets/edit_darkgrey-24px.png) klicken Sie darauf, ein Segment in der zweiten Stadt zu schaffen. Hier Chicago.
 1. Standort und **[!UICONTROL Fallort Ort]** und Auswahl **[!UICONTROL der Stadt]** mit dem Betreiber **[!UICONTROL in]** **[!UICONTROL Chicago]** .
-
->[!NOTE]
->
->Um alle Menschen, die in Chicago eingereist sind, zu erreichen, ist es nicht möglich, die Sache unkritisch zu machen.
-
+1. Um alle Menschen, die in Chicago eingereist sind, zu erreichen, ist es nicht möglich, die Sache unkritisch zu machen.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 
 ## Creating an email delivery{#creating-an-email-delivery}
