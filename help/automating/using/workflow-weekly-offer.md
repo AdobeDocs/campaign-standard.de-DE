@@ -15,7 +15,7 @@ context-tags: workflow, use-case, search, delivery, schedule
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -37,14 +37,13 @@ Sie können jeden Dienstag eine E-Email an alle Kunden für Sonderangebote schic
 1. Wählen Sie eine **[!UICONTROL Zeit]** und **[!UICONTROL eine Wiederholungsfrequenz]** für Ihre Lieferungen.
 1. In Tagen **[!UICONTROL der Woche wird]****[!UICONTROL Dienstag ausgewählt]**.
 1. Geben Sie einen **[!UICONTROL Start]** und einen **[!UICONTROL Abfahrungsparameter]** für Ihren Arbeitsablauf.
+1. Validieren Sie die Aktivität und speichern Sie den Workflow.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >Um Ihren Arbeitsablauf in einer bestimmten **[!UICONTROL Zeitzone]** zu beginnen, wird in der **[!UICONTROL Ausführungsoption]** die Zeitzone für Ihren Zeitplan im Zeitzone eingerichtet.
-
-1. Validieren Sie die Aktivität und speichern Sie den Workflow.
 
 ## Creating a Query activity{#creating-a-query-activity}
 
