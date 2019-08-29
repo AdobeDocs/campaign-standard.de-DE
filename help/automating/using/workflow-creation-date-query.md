@@ -15,7 +15,7 @@ context-tags: Arbeitsfluss, Einsatz-case, Abfrage
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ Sie können per E-Mail am Jahrestag der Profilerstellung des Kunden ein Angebot 
 1. In **[!UICONTROL Ausführungsfrequenz]** ist **[!UICONTROL täglich zu wählen]**.
 1. Wählen Sie eine **[!UICONTROL Zeit]** und die **[!UICONTROL Wiederholungshäufigkeit]** für Ihren Arbeitsablauf.
 1. Wählen Sie ein **[!UICONTROL Startdatum]** und **[!UICONTROL einen Zeitabschnitt]** für Ihren Arbeitsablauf.
+1. Validieren Sie die Aktivität und speichern Sie den Workflow.
 
 >[!NOTE]
 >
 >Um Ihren Arbeitsablauf in einer bestimmten Zeitzone zu beginnen, wird in der **[!UICONTROL Ausführungsoption]** die Zeitzone für Ihren Zeitplan im **[!UICONTROL Zeitzone]** eingerichtet.
 
 ![](assets/time_zone.png)
-
-1. Validieren Sie die Aktivität und speichern Sie den Workflow.
 
 ## Creating a Query activity {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ Wählen Sie **[!UICONTROL Bestätigen]**.
 1. Auf dem **[!UICONTROL Query]** -Redakteur die erste Frage auswählen und duplizieren.
 1. Mach das Duplikat frei.
 1. Tritt **[!UICONTROL Tag]** für **[!UICONTROL Monat]** an.
-Sie sollten damit enden:
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 
 ![](assets/month_rule.png)
+
+Sie sollten damit enden:
+
+``` Month(@created) = Month(GetDate()) ```
 
 Die endgültigen Abfrageanzeigen sind:
 
