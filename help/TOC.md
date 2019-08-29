@@ -1,15 +1,15 @@
 ---
-product: adobe campaign
-sub-product: adobe campaign standard
-audience: Endbenutzer
-user-guide-title: Adobe Campaign Standard-Hilfe
+product: Adobe-Kampagne
+sub-product: Wahlkampfstandard
+audience: end-user
+user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
+source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 
 ---
 
 
-# Adobe Campaign Standard-Hilfe {#using}
+# Adobe Campaign Standard – Hilfe {#using}
 
 + [Produktdokumentation](campaign-standard-home.md)
 + Versionshinweise  {#release-notes}
@@ -18,7 +18,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
    + [Versionshinweise 2017](rn/using/release-notes-2017.md)
    + [Versionshinweise 2015–2016](rn/using/release-notes-2015-2016.md)
    + [Aktualisierungen der Dokumentation](rn/using/documentation-updates.md)
-+ Getting started {#getting-started}
++ Erste Schritte{#getting-started}
    + Über Adobe Campaign {#about-adobe-campaign}
       + [Kampagnenverwaltung](start/using/campaign-orchestration.md)
       + [Segmentierung und Targeting](start/using/segmentation-and-targeting.md)
@@ -63,7 +63,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identifizieren von Opt-out-Profilen bei einem Versand](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-+ Kommunikationskanäle {#communication-channels}
++ Kommunikationskanäle{#communication-channels}
    + Über Kommunikationskanäle {#about-communication-channels}
       + [Kommunikationskanäle](channels/using/discovering-communication-channels.md)
       + [Die wichtigsten Schritte im Nachrichtenversand](channels/using/key-steps-to-send-a-message.md)
@@ -103,12 +103,12 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Folgenachrichten](channels/using/follow-up-messages.md)
    + Landingpages {#landing-pages}
       + [Über Landingpages](channels/using/about-landing-pages.md)
-      + [Einschränkungen der Einstiegsseite](channels/using/landing-page-limitations.md)
+      + [Einschränkungen bei Landingpages](channels/using/landing-page-limitations.md)
       + [Landingpage erstellen](channels/using/designing-a-landing-page.md)
       + [Landingpage freigeben](channels/using/sharing-a-landing-page.md)
       + [Datenspeicherung und -abstimmung](channels/using/data-storage-and-reconciliation.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
-+ Entwerfen von Inhalten {#designing-content}
++ Inhalte erstellen{#designing-content}
    + Über die Inhaltserstellung {#about-content-design}
       + [Inhaltserstellung in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
       + [Best Practices bei der Inhaltserstellung](designing/using/content-design-best-practices.md)
@@ -198,8 +198,8 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Visualisierungen hinzufügen](reporting/using/adding-visualizations.md)
       + [Komponenten hinzufügen](reporting/using/adding-components.md)
       + [Benutzerdefinierte Profildimension erstellen](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Erstellen eines Berichts basierend auf Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
-+ Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
+      + [Erstellung eines Berichts auf der Grundlage von Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
++ Integration mit Adobe Cloud {#integrating-with-adobe-cloud}
    + [Über Campaign-Integrationen](integrating/using/about-campaign-integrations.md)
    + Verwenden von Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
       + [Integration mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
@@ -228,7 +228,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
       + [Trigger testen](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
-+ Managing processes and data {#managing-processes-and-data}
++ Prozesse und Daten verwalten {#managing-processes-and-data}
    + Über Workflows und die Datenverwaltung {#about-workflows-and-data-management}
       + [Workflow-Daten und-Prozesse](automating/using/workflow-data-and-processes.md)
       + [Workflows](automating/using/discovering-workflows.md)
@@ -241,7 +241,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Workflow-Daten verwenden](automating/using/using-workflow-data.md)
       + [Workflow ausführen](automating/using/executing-a-workflow.md)
       + [Workflow mit externen Parametern aufrufen](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [Best Practices für den Arbeitsablauf](automating/using/best-practices-workflows.md)
+      + [Workflow best practices](automating/using/best-practices-workflows.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
       + [Über Zielgruppenbestimmungsaktivitäten](automating/using/about-targeting-activities.md)
       + [Abfrage](automating/using/query.md)
@@ -290,20 +290,26 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Logs exportieren](automating/using/exporting-logs.md)
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
-+ Entwickeln {#developing}
+   + Verwendung von Fällen: Workflows {#workflow-use-case}
+      + [Schaffung von Lieferungen mit Ergänzung](automating/using/workflow-created-query-with-complement.md)
+      + [Schaffung von Lieferungen am Erstellungsdatum](automating/using/workflow-creation-date-query.md)
+      + [Schaffung einer wöchentlichen Lieferung](automating/using/workflow-weekly-offer.md)
+      + [Schaffung einer Segmentierung am Standort](automating/using/workflow-segmentation-location.md)
+      + [Neuausrichtung von Nichtöffnern](automating/using/workflow-cross-channel-retargeting.md)
++ Entwickeln{#developing}
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Datenmodelle](developing/using/data-model-concepts.md)
       + [Status der Ressourcen](developing/using/resource-statuses.md)
       + [Änderungen an Datenmodellen verfolgen](developing/using/monitoring-data-model-changes.md)
    + Ressource hinzufügen oder erweitern {#adding-or-extending-a-resource}
-      + [Wichtige Schritte zum Hinzufügen einer Ressource](developing/using/key-steps-to-add-a-resource.md)
+      + [Wichtige Schritte zur Aufstockung einer Ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Ressource erstellen oder erweitern](developing/using/creating-or-extending-the-resource.md)
       + [Datenstruktur der Ressource konfigurieren](developing/using/configuring-the-resource-s-data-structure.md)
       + [Bildschirmdefinition konfigurieren](developing/using/configuring-the-screen-definition.md)
       + [Filterdefinition konfigurieren](developing/using/configuring-filter-definition.md)
       + [Datenbankstruktur aktualisieren](developing/using/updating-the-database-structure.md)
       + [Ressourcen löschen](developing/using/deleting-a-resource.md)
-      + [Aufrufen einer Ressource mit einem Composite-Identifizierungsschlüssel](developing/using/uc-calling-resource-id-key.md)
+      + [Eine Ressource unter Verwendung eines Verbundschlüssels für die Identifizierung](developing/using/uc-calling-resource-id-key.md)
    + Anwendungsbeispiel: API erweitern {#use-case--extending-the-api}
       + [Über die API-Erweiterung](developing/using/about-extending-the-api.md)
       + [Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
@@ -312,11 +318,11 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
    + Anwendungsbeispiele: Ressourcenerweiterung {#use-cases--extending-resources}
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)
-+ Verwalten {#administrating}
++ Verwalten{#administrating}
    + [Über die Verwaltung von Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Benutzer und Sicherheit {#users-and-security}
       + [Über die Zugriffsverwaltung](administration/using/about-access-management.md)
-      + [Benutzerverwaltung](administration/using/users-management.md)
+      + [Nutzermanagement](administration/using/users-management.md)
       + [Organisationseinheiten](administration/using/organizational-units.md)
       + [Liste der Rollen](administration/using/list-of-roles.md)
       + [Gruppen und Benutzer verwalten](administration/using/managing-groups-and-users.md)
