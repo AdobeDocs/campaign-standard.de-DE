@@ -15,7 +15,7 @@ context-tags: workflow, use-case, segmentierung
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ Sie können eine E-Mail an Kunden senden: einer für die kunden, die vor weniger
 1. Hover über das Segment klicken dann ![](assets/edit_darkgrey-24px.png) auf Zielkunden, die dieses Jahr in der Datenbank hinzugefügt werden.
 1. Abbremsung und **[!UICONTROL Fallprofile und]** Auswählen **[!UICONTROL mit]** dem Filtertyp **[!UICONTROL Relative]**.
 1. Die **[!UICONTROL Genauigkeit]** des **[!UICONTROL Jahres ändern]** und **[!UICONTROL dieses Jahr auswählen]**.
-
->[!NOTE]
->
->Um die Struktur der Regel zu beachten, klicken **[!UICONTROL Sie auf Advanced Mode]**.
-
 1. Klicken **[!UICONTROL Sie bitte]** zweimal.
 1. Bei **[!UICONTROL fortgeschrittenen Optionen]** ist es möglich **[!UICONTROL , die Generierung zu ergänzen,]** um ein Segment zu schaffen, das die verbleibenden Empfänger betrifft.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
+
+>[!NOTE]
+>
+>Um die Struktur der Regel zu beachten, klicken **[!UICONTROL Sie auf Advanced Mode]**.
 
 ## Creating an Email delivery {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ Sie können eine E-Mail an Kunden senden: einer für die kunden, die vor weniger
 1. Um das Layout Ihrer E-Email zu schaffen, klicken Sie **[!UICONTROL auf Email Designer]**.
 1. Elemente einfügen oder ein bestehendes Muster auswählen.
 1. Personalisieren Sie Ihre E-Email mit spezifischen Angeboten.
-
-Weitere Informationen sind [der Konzeption einer E-Mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)zu entnehmen.
-
 1. Klick **[!UICONTROL , um]** deine Layout zu überprüfen.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
+
+Weitere Informationen sind [der Konzeption einer E-Mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)zu entnehmen.
 
 **Verwandte Themen:**
 
