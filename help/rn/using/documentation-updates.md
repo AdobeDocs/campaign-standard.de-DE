@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
+source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
 
 ---
 
@@ -28,6 +28,8 @@ Auf dieser Seite finden Sie eine nach Version geordnete Übersicht neuer Funktio
 Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-notes.md).
 
 ## Aktualisierungen der Dokumentation - August 2019 {#doc-updates-august-2019}
+
+Ein neuer Abschnitt mit Fällen von Arbeitsströmen, die sich auf Anfragen konzentrieren, wurde hinzugefügt. [mehr dazu](../../automating/using/workflow-created-query-with-complement.md)
 
 Es wurde ein Verfahren in den Abschnitt über Arbeitsstörungen aufgenommen, in dem es um die Darstellung von SQL-Anfragen im Log-Labor ging. [mehr dazu](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
