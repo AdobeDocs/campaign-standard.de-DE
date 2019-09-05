@@ -3,17 +3,17 @@ title: E-Mails erstellen
 seo-title: E-Mails erstellen
 description: E-Mails erstellen
 seo-description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen E-Mail-Versand mit Adobe Campaign erstellen können.
-page-status-flag: nie aktiviert
-uuid: 74 c 7 ef 35-82 c 0-4 bc 4-b 1 f 6-8 e 74 fdcaea 3 c
+page-status-flag: never-activated
+uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
-topic-tags: E-Email-Nachrichten
-discoiquuid: b 27 e 0170-e 73 f -4782-8568-02927 fb 374 f 4
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: email-messages
+discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 # E-Mails erstellen{#creating-an-email}
 
-Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/marketing-activities.md#creating-a-marketing-activity), ausgehend von der [Adobe-Campaign-Startseite](../../start/using/interface-description.md#home-page) oder in der [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities). In Workflows lassen sich ebenfalls E-Mails zum einmaligen oder zum wiederkehrenden Versand erstellen.
+Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/marketing-activities.md#creating-a-marketing-activity), ausgehend von der [Adobe Campaign-Startseite](../../start/using/interface-description.md#home-page) oder in der [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities). In Workflows lassen sich ebenfalls E-Mails zum einmaligen oder zum wiederkehrenden Versand erstellen.
 
 1. Erstellen Sie eine neue Marketingaktivität vom Typ E-Mail und wählen Sie die E-Mail-Vorlage aus, die Sie verwenden möchten.
 
@@ -31,7 +31,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
    >[!NOTE]
    >
-   >Vorlagen für Folgenachrichten und A/B-Tests werden standardmäßig verborgen. Aktivieren Sie die Optionen auf der linken Seite (seitliches Fenster **[!UICONTROL Filter]), um sie anzuzeigen.**
+   >Vorlagen für Folgenachrichten und A/B-Tests werden standardmäßig verborgen. Aktivieren Sie die Optionen auf der linken Seite (seitliches Fenster **[!UICONTROL Filter]**), um sie anzuzeigen.
 
 1. Geben Sie die allgemeinen E-Mail-Eigenschaften an. Benennen Sie die Aktivität im Feld **Titel** und passen Sie gegebenenfalls die Kennung an. Titel und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfänger nicht sichtbar.
 
@@ -45,7 +45,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 1. Definieren Sie die Zielgruppe Ihrer Nachricht auf der Basis Ihrer betrieblichen Bedingungen. Siehe [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
 
-   Sie können auch die Testprofile definieren, die die Nachricht überprüfen. Siehe [Verwaltung von Testprofilen](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+   Außerdem können Sie die Testprofile zur Validierung der Nachricht definieren. Siehe [Verwaltung von Testprofilen](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
    ![](assets/email_creation_3.png)
 
@@ -60,11 +60,11 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
    >[!NOTE]
    >
-   >Um Ihre E-Mail speichern zu können, müssen Sie zunächst den Inhalt bearbeiten. Wenn Sie jetzt **[!UICONTROL Abbrechen]auswählen, wird der Assistent nicht zu Ende geführt und Ihre E-Mail wird nicht erstellt.**
+   >Um Ihre E-Mail speichern zu können, müssen Sie zunächst den Inhalt bearbeiten. Wenn Sie jetzt **[!UICONTROL Abbrechen]** auswählen, wird der Assistent nicht zu Ende geführt und Ihre E-Mail wird nicht erstellt.
 
-   Daraufhin wird das Dashboard der E-Mail angezeigt. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+   Daraufhin wird das Dashboard der E-Mail angezeigt. Dort können Sie Ihre Nachricht überprüfen und [den Versand vorbereiten](../../sending/using/preparing-the-send.md).
 
-   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. Sie können beispielsweise die E-Mail so konfigurieren, dass die Beschriftung während der Bereitstellungsvorbereitung berechnet wird. Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   Mit der Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** in der rechten oberen Ecke können Sie die Eigenschaften der E-Mail bearbeiten. Sie können beispielsweise die E-Mail so konfigurieren, dass ihr Titel zum Zeitpunkt der Versandvorbereitung berechnet wird. Die verfügbaren Parameter werden in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#list-of-email-properties) aufgeführt.
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -92,8 +92,8 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 **Verwandte Themen**:
 
-* Video [E-Mails erstellen](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
-* Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)
-* Video zur [Integration von Adobe Campaign und Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+* Video [Creating an email](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+* Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GettingStartedEmail.html)
+* Video [Adobe Campaign and Dreamweaver integration](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [Integration mit Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
