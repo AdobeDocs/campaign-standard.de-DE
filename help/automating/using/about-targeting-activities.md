@@ -3,17 +3,17 @@ title: Über Zielgruppenbestimmungsaktivitäten
 seo-title: Über Zielgruppenbestimmungsaktivitäten
 description: Über Zielgruppenbestimmungsaktivitäten
 seo-description: Die Zielgruppenbestimmungsaktivitäten können über die linke Bildschirmseite geöffnet werden.
-page-status-flag: nie aktiviert
-uuid: a 6 cbc 331-1 ae 3-428 e-b 2 c 9-893454 b 32 ae 2
+page-status-flag: never-activated
+uuid: a6cbc431-1ae3-428e-b2c9-893454b32ae2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 5 f 7607 a 1-5 f 71-4 d 66-9688-3 e 5 a 1774 f 1 b 4
+discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
@@ -21,13 +21,13 @@ source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 # Über Zielgruppenbestimmungsaktivitäten{#about-targeting-activities}
 
-Öffnen Sie vom Menü auf der linken Bildschirmseite den Bereich **[!UICONTROL Zielgruppenbestimmung].**
+Öffnen Sie vom Menü auf der linken Bildschirmseite den Bereich **[!UICONTROL Zielgruppenbestimmung]**.
 
 Diese Aktivitäten dienen der Erstellung von Zielgruppen und der Verwendung bzw. Filterung von Populationen. Sie können damit eine oder mehrere Zielpopulationen definieren, welche im Anschluss durch die Aktivitäten Schnittmenge, Vereinigung und Ausschluss gesplittet oder zusammengefasst werden können.
 
 ![](assets/wkf_targeting_activities.png)
 
-Im Bereich **[!UICONTROL Targeting]stehen folgende Aktivitäten zur Verfügung:**
+Im Bereich **[!UICONTROL Targeting]** stehen folgende Aktivitäten zur Verfügung:
 
 * [Abfrage](../../automating/using/query.md)
 * [Inkrementelle Abfrage](../../automating/using/incremental-query.md)
@@ -40,4 +40,4 @@ Im Bereich **[!UICONTROL Targeting]stehen folgende Aktivitäten zur Verfügung:*
 * [Deduplizierung](../../automating/using/deduplication.md)
 * [Anreicherung](../../automating/using/enrichment.md)
 
-**[!UICONTROL Mit Targeting]** -Aktivitäten können **Sie Segmentcodes** für ihre ausgehenden Übergänge definieren. Anschließend können Sie Berichte basierend auf diesen Segmentcodes erstellen, um die Effizienz Ihrer Maketing-Kampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
+Mit **[!UICONTROL Targeting]**-Aktivitäten können Sie **Segmentcodes** für die ausgehenden Transitionen definieren. Anschließend können Sie auf diesen Segmentcodes basierende Berichte erstellen, um die Effizienz Ihrer Marketingkampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
