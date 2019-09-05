@@ -3,18 +3,18 @@ title: Marketingaktivitäten
 seo-title: Marketingaktivitäten
 description: Marketingaktivitäten
 seo-description: '"Hier erfahren Sie, wie Sie Ihre Marketing-Aktivitäten erstellen und verwalten können. Dazu zählen Kampagnen, Sendungen von E-Mails, SMS und Push-Benachrichtigungen sowie Landingpages und Workflows. Sie können einfach eine neue Aktivität erstellen, eine vorhandene bearbeiten und deren Status und Gültigkeit einsehen."'
-page-status-flag: nie aktiviert
-uuid: 5 d 45 a 935-6 d 03-4 b 27-aabd -7 c 47 c 11241 ba
+page-status-flag: never-activated
+uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
-topic-tags: Marketing-Pläne
-discoiquuid: 3 ba 165 e 1-420 f -4 d 6 f-b 339-467 b 066 b 42 d 0
-context-tags: Aktivität, Übersicht
+content-type: reference
+topic-tags: marketing-plans
+discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
+context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
 
 ---
@@ -28,21 +28,21 @@ Marketingaktivitäten können entweder ausgehend von ihnen übergeordneten Progr
 
 Die Marketingaktivitätenliste enthält alle existierenden Aktivitäten, unabhängig von den Programmen oder Kampagnen, in denen sie erstellt wurden. Programme, Kampagnen, Sendungen (E-Mails, SMS und Push-Benachrichtigungen), Landingpages und Workflows werden ohne Berücksichtigung hierarchischer Strukturen gelistet.
 
-Wählen Sie den Link **[!UICONTROL Marketingaktivitäten]aus der Symbolleiste am oberen Bildschirmrand aus, um auf die Liste der Marketingaktivitäten zuzugreifen.**
+Wählen Sie den Link **[!UICONTROL Marketingaktivitäten]** aus der Symbolleiste am oberen Bildschirmrand aus, um auf die Liste der Marketingaktivitäten zuzugreifen.
 
 >[!NOTE]
 >
->Auf die Liste kann ebenfalls von der Startseite ausgehend unter Verwendung der **[!UICONTROL Marketingaktivitäten]-Karte zugegriffen werden.**
+>Auf die Liste kann ebenfalls von der Startseite ausgehend unter Verwendung der **[!UICONTROL Marketingaktivitäten]**-Karte zugegriffen werden.
 
 ![](assets/marketing_activities_1.png)
 
-Das **[!UICONTROL Suche]-Menü erlaubt die Filterung der angezeigten Elemente nach unterschiedlichen Kriterien: nach Name (Titel und Kennung), Datum, Status oder Aktivitätstyp.** Standardmäßig sind alle Aktivitätstypen, Programme ausgenommen, ausgewählt.
+Das **[!UICONTROL Suche]**-Menü erlaubt die Filterung der angezeigten Elemente nach unterschiedlichen Kriterien: nach Name (Titel und Kennung), Datum, Status oder Aktivitätstyp. Standardmäßig sind alle Aktivitätstypen, Programme ausgenommen, ausgewählt.
 
 Wählen Sie in der Liste eine Aktivität aus, um auf ihren Inhalt zugreifen zu können.
 
-Mit der Schaltfläche **[!UICONTROL Erstellen]kann eine neue Aktivität erstellt werden.** Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
-## Symbole und Status von Marketingaktivitäten {#marketing-activity-icons-and-statuses}
+## Symbole und Status von Marketingaktivitäten   {#marketing-activity-icons-and-statuses}
 
 Im Arbeitsbereich wird jeder Aktivitätstyp durch ein repräsentatives Symbol dargestellt:
 
@@ -57,11 +57,11 @@ Im Arbeitsbereich wird jeder Aktivitätstyp durch ein repräsentatives Symbol da
 
 Die Farbe des Symbols zeigt den Ausführungsstatus der Aktivität in Abhängigkeit von ihrer definierten Gültigkeit und ihres Status an.
 
-* Grau: Startdatum der Aktivität ist noch nicht erreicht - Status **[!UICONTROL In Bearbeitung].**
-* Blau: Aktivität läuft - Status **[!UICONTROL Gestartet].**
-* Grün: Aktivität ist abgeschlossen - Status **[!UICONTROL Abgeschlossen].**
-* Gelb: Aktivität hat einen Warnhinweis ausgelöst - Status **[!UICONTROL Warnhinweis].**
-* Rot: Aktivität hat einen Fehler ausgelöst - Status **[!UICONTROL Mit Fehlern].**
+* Grau: Startdatum der Aktivität ist noch nicht erreicht - Status **[!UICONTROL In Bearbeitung]**.
+* Blau: Aktivität läuft - Status **[!UICONTROL Gestartet]**.
+* Grün: Aktivität ist abgeschlossen - Status **[!UICONTROL Abgeschlossen]**.
+* Gelb: Aktivität hat einen Warnhinweis ausgelöst - Status **[!UICONTROL Warnhinweis]**.
+* Rot: Aktivität hat einen Fehler ausgelöst - Status **[!UICONTROL Mit Fehlern]**.
 
 ## Marketingaktivitäten erstellen {#creating-a-marketing-activity}
 
@@ -75,7 +75,7 @@ Ausgehend von einem Programm lassen sich weitere Programme, Kampagnen, Workflows
 
 Weiterführende Informationen zu Programmen und Kampagnen finden Sie im Abschnitt [Programme und Kampagnen](../../start/using/programs-and-campaigns.md).
 
-1. Gehen Sie zur Erstellung einer neuen Marketingaktivität in das Dashboard eines Programms oder einer Kampagne und fügen Sie mithilfe der Schaltfläche **[!UICONTROL Erstellen]ein Element hinzu.**
+1. Gehen Sie zur Erstellung einer neuen Marketingaktivität in das Dashboard eines Programms oder einer Kampagne und fügen Sie mithilfe der Schaltfläche **[!UICONTROL Erstellen]** ein Element hinzu.
 
    ![](assets/marketing_activiy_creation_1.png)
 
