@@ -3,17 +3,17 @@ title: Warnungen bei Zustellproblemen erhalten
 seo-title: Warnungen bei Zustellproblemen erhalten
 description: Warnungen bei Zustellproblemen erhalten
 seo-description: Hier erfahren Sie, wie Versandwarnungen verwendet werden.
-page-status-flag: nie aktiviert
-uuid: a 3 ab 733 a-e 3 db -4 adc-b 930-cd 4064 b 6 dc 1 c
+page-status-flag: never-activated
+uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird gesendet
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 766 bd 57-c 5 f 1-4 f 56-ac 84-e 5 a 04 d 3819 ec
+discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
 
 ---
@@ -45,8 +45,8 @@ Diese Warnungen können entsprechend den Warnungsbedingungen angepasst werden, d
 
 Die gesendeten Benachrichtigungen enthalten folgende Elemente:
 
-* Eine **[!UICONTROL Zusammenfassung]bestehend aus der Anzahl der Sendungen, die den von Ihnen definierten Bedingungen entsprechen, und dem Titel/der Farbe, den bzw. die Sie für jede Bedingung ausgewählt haben.**
-* Den Bereich **[!UICONTROL Details], in dem alle für das entsprechende Dashboard definierten Versandbedingungen sowie alle Sendungen für jede Bedingung aufgeführt werden.**
+* Eine **[!UICONTROL Zusammenfassung]** bestehend aus der Anzahl der Sendungen, die den von Ihnen definierten Bedingungen entsprechen, und dem Titel/der Farbe, den bzw. die Sie für jede Bedingung ausgewählt haben.
+* Den Bereich **[!UICONTROL Details]**, in dem alle für das entsprechende Dashboard definierten Versandbedingungen sowie alle Sendungen für jede Bedingung aufgeführt werden.
 
 ![](assets/delivery-alerting_notification.png)
 
@@ -71,7 +71,7 @@ In der Adobe Campaign-Benutzeroberfläche haben Sie folgende Möglichkeiten:
 
 * Öffnen Sie den Verlauf aller gesendeten Warnungen für jedes Dashboard.
 
-   Bei der Auswahl eines Dashboards wird standardmäßig die zuletzt gesendete Warnung für dieses Dashboard angezeigt. Alle gesendeten Warnungen sind auf der linken Bildschirmseite aufgelistet. Wählen Sie ein Objekt in der **[!UICONTROL Verlauf]-Liste aus, um die entsprechenden Warnungen zu öffnen.**
+   Bei der Auswahl eines Dashboards wird standardmäßig die zuletzt gesendete Warnung für dieses Dashboard angezeigt. Alle gesendeten Warnungen sind auf der linken Bildschirmseite aufgelistet. Wählen Sie ein Objekt in der **[!UICONTROL Verlauf]**-Liste aus, um die entsprechenden Warnungen zu öffnen.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -79,26 +79,26 @@ In der Adobe Campaign-Benutzeroberfläche haben Sie folgende Möglichkeiten:
 
 Wenn Sie Benachrichtigungen, die auf bestimmten Bedingungen basieren, an unterschiedliche Benutzergruppen senden möchten, benötigen Sie mehrere Dashboards. Gehen Sie wie folgt vor, um ein neues Dashboard zu erstellen:
 
-1. Go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**.
+1. Gehen Sie zu **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Versandwarnung]**.
 1. Wählen Sie **[!UICONTROL Versandwarnungs-Dashboards]** und danach **[!UICONTROL Erstellen]**.
-1. Aktivieren Sie die Option **[!UICONTROL Aktiviert], um das aktuelle Dashboard zu aktivieren.**
+1. Aktivieren Sie die Option **[!UICONTROL Aktiviert]**, um das aktuelle Dashboard zu aktivieren.
 
    Ist diese Option deaktiviert, werden mit diesem Dashboard verknüpfte Benachrichtigungen nicht mehr gesendet. Standardmäßig ist diese Option deaktiviert.
 
    ![](assets/delivery-alerting_dashboard_general.png)
 
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Warnungsgruppe]die Empfängergruppe aus, die Sie benachrichtigen möchten.** Zum Ändern oder Erstellen einer Gruppe lesen Sie den Abschnitt [Sicherheitsgruppe erstellen und Benutzer zuordnen](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
-1. Wählen Sie im Bereich **[!UICONTROL Versandwarnungsbedingungen]** die Option **Element erstellen], um Bedingungen hinzuzufügen.[!UICONTROL ** Siehe [Über Warnungsbedingungen](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-1. Benutzen Sie die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten.]** Definieren Sie im Tab **[!UICONTROL Bedingungsparameter], wie die Bedingungen angewendet werden sollen.** Siehe [Bedingungsparameter](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
-1. Speichern Sie das Dashboard mithilfe der Schaltfläche **[!UICONTROL Erstellen].**
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Warnungsgruppe]** die Empfängergruppe aus, die Sie benachrichtigen möchten. Zum Ändern oder Erstellen einer Gruppe lesen Sie den Abschnitt [Sicherheitsgruppe erstellen und Benutzer zuordnen](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
+1. Wählen Sie im Bereich **[!UICONTROL Versandwarnungsbedingungen]** die Option **[!UICONTROL Element erstellen]**, um Bedingungen hinzuzufügen. Siehe [Über Warnungsbedingungen](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
+1. Benutzen Sie die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]**. Definieren Sie im Tab **[!UICONTROL Bedingungsparameter]**, wie die Bedingungen angewendet werden sollen. Siehe [Bedingungsparameter](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+1. Speichern Sie das Dashboard mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
 
 Immer wenn jetzt ein Versand die von Ihnen in diesem Dashboard definierten Bedingungen erfüllt, wird eine Warnung an die angegebene Benutzergruppe gesendet.
 
-## Versandwarnungsbedingungen {#delivery-alerting-criteria}
+## Versandwarnungsbedingungen   {#delivery-alerting-criteria}
 
 ### Über Warnungsbedingungen {#about-alerting-criteria}
 
-To access the delivery alerting criteria, go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]** and select **[!UICONTROL Delivery alerting criteria]**.
+Um auf die Versandwarnungsbedingungen zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Versandwarnung]** und wählen Sie **[!UICONTROL Versandwarnungsbedingungen]** aus.
 
 ![](assets/delivery-alerting_criteria.png)
 
@@ -106,23 +106,23 @@ Die folgenden Bedingungen stehen in den Versandwarnungs-Dashboards zur Verfügun
 
 * **[!UICONTROL Versandfehler]**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status einen Fehler anzeigt.
 * **[!UICONTROL Sendungen mit fehlgeschlagener Vorbereitung]**: Alle in einem bestimmten Zeitraum geänderten Sendungen, deren Vorbereitung (Zielgruppenberechnung und Inhaltsvorbereitung) fehlgeschlagen ist. Weiterführende Informationen dazu finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Bereitstellung mit fehlerhaftem Fehlerverhältnis für Softbounces]**: Alle in einem definierten Bereich geplanten Lieferungen mit einem Status mindestens in **[!UICONTROL Bearbeitung]**, wobei ein Softbounce-Fehlerverhältnis größer als ein definierter Prozentsatz ist.
-* **[!UICONTROL Bereitstellung mit fehlerhaftem Fehlerverhältnis für harte Absprünge: Alle in einem definierten Bereich eingeplanten Lieferungen mit einem Status mindestens in]** Bearbeitung **[!UICONTROL , wobei ein harter Absprungfehler größer als ein definierter Prozentsatz ist.]**
-* **[!UICONTROL Sendungen mit lange ausstehendem Start]**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status **[!UICONTROL Start ausstehend]** die definierte Dauer überschreitet. **Start ausstehend]bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.[!UICONTROL **
+* **[!UICONTROL Versand mit zu hoher Softbounce-Fehlerrate]**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status zumindest **[!UICONTROL Gestartet]** lautet und deren Softbounce-Fehlerrate über dem festgelegten Prozentsatz liegt.
+* **[!UICONTROL Versand mit zu hoher Hardbounce-Fehlerrate]**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status zumindest **[!UICONTROL Gestartet]** lautet und deren Hardbounce-Fehlerrate über dem festgelegten Prozentsatz liegt.
+* **[!UICONTROL Sendungen mit lange ausstehendem Start]**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status **[!UICONTROL Start ausstehend]** die definierte Dauer überschreitet. **[!UICONTROL Start ausstehend]** bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.
 * **[!UICONTROL Sendungen mit geringem Durchsatz]**: Alle Sendungen, deren Start länger als die definierte Dauer zurückliegt, die einen niedrigeren als den definierten Prozentsatz an verarbeiteten Nachrichten aufweisen und deren Durchsatz unter einem definierten Wert liegt.
-* **[!UICONTROL Gestartete Sendungen]**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status **[!UICONTROL Gestartet]lautet.**
+* **[!UICONTROL Gestartete Sendungen]**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status **[!UICONTROL Gestartet]** lautet.
 
 >[!NOTE]
 >
->Alle Parameter, die für die oben aufgeführten Bedingungen gelten, weisen Standardwerte auf. Diese Werte können im Tab **[!UICONTROL Bedingungsparameter]des Versandwarnungs-Dashboards geändert werden.** Siehe [Bedingungsparameter](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+>Alle Parameter, die für die oben aufgeführten Bedingungen gelten, weisen Standardwerte auf. Diese Werte können im Tab **[!UICONTROL Bedingungsparameter]** des Versandwarnungs-Dashboards geändert werden. Siehe [Bedingungsparameter](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
 
-In der Liste **[!UICONTROL Versandwarnungsbedingungen]können Sie ein Objekt auswählen, um auf dessen Details zuzugreifen.**
+In der Liste **[!UICONTROL Versandwarnungsbedingungen]** können Sie ein Objekt auswählen, um auf dessen Details zuzugreifen.
 
 ![](assets/delivery-alerting_criteria_definition.png)
 
 Für jede Bedingung können Sie folgende Einstellungen festlegen:
 
-* **[!UICONTROL Indikatoren zum Hinzufügen in Warnungen]**: Dies sind die Spalten im Bereich **[!UICONTROL Details]einer Benachrichtigung bei Sendungen, die der ausgewählten Bedingung entsprechen.**
+* **[!UICONTROL Indikatoren zum Hinzufügen in Warnungen]**: Dies sind die Spalten im Bereich **[!UICONTROL Details]** einer Benachrichtigung bei Sendungen, die der ausgewählten Bedingung entsprechen.
 
    ![](assets/delivery-alerting_notification_colums.png)
 
@@ -140,26 +140,26 @@ Für jede Bedingung können Sie folgende Einstellungen festlegen:
 * [Häufigkeit der Versandwarnungen](../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency)
 * [Symbole und Status von Marketingaktivitäten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Versandwarnungsbedingung erstellen {#creating-a-delivery-alerting-criterion}
+### Versandwarnungsbedingung erstellen   {#creating-a-delivery-alerting-criterion}
 
 Sie können nach Bedarf neue Versandwarnungsbedingungen erstellen.
 
-Beispielsweise können Sie eine neue Bedingung erstellen, mit der eine Benachrichtigung gesendet wird, in der alle Sendungen mit dem Status **[!UICONTROL Abgeschlossen]aufgelistet werden.**
+Beispielsweise können Sie eine neue Bedingung erstellen, mit der eine Benachrichtigung gesendet wird, in der alle Sendungen mit dem Status **[!UICONTROL Abgeschlossen]** aufgelistet werden.
 
-Dazu müssen Sie zunächst die Ressource **Versand** erweitern und einen neuen Filter hinzufügen, der es Ihnen ermöglicht, nur die Sendungen mit dem Status **[!UICONTROL Abgeschlossen]auszuwählen.**
+Dazu müssen Sie zunächst die Ressource **Versand** erweitern und einen neuen Filter hinzufügen, der es Ihnen ermöglicht, nur die Sendungen mit dem Status **[!UICONTROL Abgeschlossen]** auszuwählen.
 
 1. Gehen Sie zu **Adobe Campaign** &gt; **Administration** &gt; **Entwicklung** &gt; **Benutzerdefinierte Ressourcen** und wählen Sie **[!UICONTROL Erstellen aus]**.
-1. Wählen Sie dann **[!UICONTROL Existierende Ressource erweitern]** und aus der Dropdown-Liste die Ressource **[!UICONTROL Versand]aus. Wählen Sie abschließend** Erstellen] aus, um die Ressource zu bearbeiten.**[!UICONTROL **
+1. Wählen Sie dann **[!UICONTROL Existierende Ressource erweitern]** und aus der Dropdown-Liste die Ressource **[!UICONTROL Versand]** aus. Wählen Sie abschließend **[!UICONTROL Erstellen]** aus, um die Ressource zu bearbeiten.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
 
    Weiterführende Informationen zu einer bestehenden Ressource finden Sie im Abschnitt [Ressource definieren](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Öffnen Sie in der Ressource **[!UICONTROL Versand]** den Tab **[!UICONTROL Filterdefinition]und wählen Sie** Element hinzufügen] aus, um einen Filter zu erstellen.**[!UICONTROL **
+1. Öffnen Sie in der Ressource **[!UICONTROL Versand]** den Tab **[!UICONTROL Filterdefinition]** und wählen Sie **[!UICONTROL Element hinzufügen]** aus, um einen Filter zu erstellen.
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. Bearbeiten Sie die neue Filterdefinition: Ziehen Sie im Fenster **[!UICONTROL Filterdefinition]** das Element **[!UICONTROL Status]in den Arbeitsbereich und wählen Sie** Abgeschlossen] als Filterbedingung aus.**[!UICONTROL **
+1. Bearbeiten Sie die neue Filterdefinition: Ziehen Sie im Fenster **[!UICONTROL Filterdefinition]** das Element **[!UICONTROL Status]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Abgeschlossen]** als Filterbedingung aus.
 
    ![](assets/delivery-alerting_filter-status.png)
 
@@ -169,8 +169,8 @@ Dazu müssen Sie zunächst die Ressource **Versand** erweitern und einen neuen F
 
    Der Filter wird erstellt und kann jetzt in einer neuen Versandwarnungsbedingung ausgewählt werden.
 
-1. Go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**, select **[!UICONTROL Delivery alerting criteria]** and click **[!UICONTROL Create]**.
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Von dieser Bedingung angewendeter Versandfilter]den soeben erstellten Filter aus.**
+1. Gehen Sie zu **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Versandwarnung]**, wählen Sie **[!UICONTROL Versandwarnungsbedingungen]** und dann **[!UICONTROL Erstellen]** aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Von dieser Bedingung angewendeter Versandfilter]** den soeben erstellten Filter aus.
 
    ![](assets/delivery-alerting_cus-filter.png)
 
@@ -184,7 +184,7 @@ Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard
 
 [Ressource hinzufügen oder erweitern](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Versandwarnungsparameter {#delivery-alerting-parameters}
+## Versandwarnungsparameter   {#delivery-alerting-parameters}
 
 ### Bedingungsparameter {#criteria-parameters}
 
@@ -205,23 +205,23 @@ Im Tab **[!UICONTROL Bedingungsparameter]** eines [Versandwarnungs-Dashboards](.
 
    Weiterführende Informationen zu Hardbounce-Fehlern finden Sie in den Abschnitten [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) und [Liste der Versandfehlertypen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Mindestens erforderliche Zeit für Versand im Status 'Start ausstehend' (in Minuten)]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Status **[!UICONTROL Start ausstehend]** die in diesem Feld definierte Dauer übersteigt. **Start ausstehend]bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.[!UICONTROL **
-* **[!UICONTROL Mindestdauer (in Minuten) für die Berechnung des Durchsatzes]**: Nur Sendungen, deren Dauer länger ist als der spezifizierte Wert (mit Status **[!UICONTROL Gestartet]**), werden für die Bedingung **Sendungen mit geringem Durchsatz]berücksichtigt.[!UICONTROL **
-* **[!UICONTROL Maximaler Prozentsatz verarbeiteter Nachrichten zur Berechnung des Durchsatzes]**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der unter dem definierten Wert liegt, werden für die Bedingung **[!UICONTROL Sendungen mit geringem Durchsatz]berücksichtigt.**
-* **[!UICONTROL Erwarteter Mindestdurchsatz (in gesendeten Nachrichten pro Stunde)]**: Nur Sendungen mit einem Durchsatz, der unter dem festgelegten Wert liegt, werden für die Bedingung **[!UICONTROL Sendungen mit geringem Durchsatz]berücksichtigt.**
+* **[!UICONTROL Mindestens erforderliche Zeit für Versand im Status 'Start ausstehend' (in Minuten)]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Status **[!UICONTROL Start ausstehend]** die in diesem Feld definierte Dauer übersteigt. **[!UICONTROL Start ausstehend]** bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.
+* **[!UICONTROL Mindestdauer (in Minuten) für die Berechnung des Durchsatzes]**: Nur Sendungen, deren Dauer länger ist als der spezifizierte Wert (mit Status **[!UICONTROL Gestartet]**), werden für die Bedingung **[!UICONTROL Sendungen mit geringem Durchsatz]** berücksichtigt.
+* **[!UICONTROL Maximaler Prozentsatz verarbeiteter Nachrichten zur Berechnung des Durchsatzes]**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der unter dem definierten Wert liegt, werden für die Bedingung **[!UICONTROL Sendungen mit geringem Durchsatz]** berücksichtigt.
+* **[!UICONTROL Erwarteter Mindestdurchsatz (in gesendeten Nachrichten pro Stunde)]**: Nur Sendungen mit einem Durchsatz, der unter dem festgelegten Wert liegt, werden für die Bedingung **[!UICONTROL Sendungen mit geringem Durchsatz]** berücksichtigt.
 * **[!UICONTROL Für Versandbedingung 'Gestartet' erforderliche Mindest-Verarbeitungsrate]**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der über dem festgelegten Wert liegt, werden berücksichtigt.
 
 ### Häufigkeit der Versandwarnungen {#alerting-frequency}
 
-Die Option **[!UICONTROL Häufigkeit der Versandwarnungen]ermöglicht die Definition des zeitlichen Abstands zwischen zwei Warnungen.** Standardmäßig ist dieser Zeitraum auf 10 Minuten festgelegt.
+Die Option **[!UICONTROL Häufigkeit der Versandwarnungen]** ermöglicht die Definition des zeitlichen Abstands zwischen zwei Warnungen. Standardmäßig ist dieser Zeitraum auf 10 Minuten festgelegt.
 
-You can change this setting through the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** menu.
+Sie können diese Einstellung im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Optionen]** ändern.
 
 >[!NOTE]
 >
 >Diese Option gilt für alle in Adobe Campaign definierten Dashboards. Es ist nicht möglich, für jedes Dashboard eine eigene Häufigkeit festzulegen.
 
-## Gründe für Versandwarnungen {#delivery-alerting-reasons}
+## Gründe für Versandwarnungen   {#delivery-alerting-reasons}
 
 Mit der Funktion **Versandwarnung** von Adobe Campaign sind alle Benutzer von Adobe Campaign automatisch über den Ausführungsstatus des Versands über E-Mails und Dashboards informiert.
 
@@ -229,7 +229,7 @@ Hier sind einige Tipps, was Sie tun können, wenn Sie eine Benachrichtigung zu V
 
 Prüfen Sie zuerst den Tab **Protokoll** des Versands, um alle mit dem Versand und den Testsendungen verbundenen Informationen anzuzeigen. Eventuelle Fehler oder Warnmeldungen werden durch rote und gelbe Symbole hervorgehoben. Ein rotes Symbol weist auf einen kritischen Fehler hin, der den Start des Versands verhindert.
 
-Um Informationen zu jedem Vorfall eines Versands anzuzeigen, wählen Sie den Tab **[!UICONTROL Versandlogs]aus.** Hier finden Sie die Liste der gesendeten Nachrichten sowie deren Status. There you can check the delivery status for each recipient ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). Lesen Sie diesbezüglich auch den Abschnitt [Versandlogs](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Um Informationen zu jedem Vorfall eines Versands anzuzeigen, wählen Sie den Tab **[!UICONTROL Versandlogs]** aus. Hier finden Sie die Liste der gesendeten Nachrichten sowie deren Status. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen (**[!UICONTROL Gesendet]**, **[!UICONTROL Ausstehend]**, **[!UICONTROL Fehlgeschlagen]** etc.). Lesen Sie diesbezüglich auch den Abschnitt [Versandlogs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigungen in Bezug auf die für einen Versand erfüllten Bedingungen.
 
@@ -249,13 +249,13 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
    * Der Versand übersteigt das Größenlimit.
    Weiterführende Informationen dazu finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md). Diese Fehler werden jedoch normalerweise während der Nachrichtenanalyse erkannt. Näheres dazu finden Sie unter [Kontrollregeln](../../administration/using/control-rules.md).
 
-* Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Softbounce-Fehlerrate]sind:**
+* Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Softbounce-Fehlerrate]** sind:
 
    * Der Server des Empfängers ist ausgefallen.
    * Das Postfach des Empfängers ist voll.
-   Weitere Informationen erhalten Sie in den Tabs **[!UICONTROL Ausschlusslogs]** und **Ausschlussgründe]des Versandlogs.[!UICONTROL ** Siehe [Ausschlusslogs](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+   Weitere Informationen erhalten Sie in den Tabs **[!UICONTROL Ausschlusslogs]** und **[!UICONTROL Ausschlussgründe]** des Versandlogs. Siehe [Ausschlusslogs](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Hardbounce-Fehlerrate]sind:**
+   Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Hardbounce-Fehlerrate]** sind:
 
    * Der Empfänger steht auf der Blacklist, was bedeutet, dass er nicht mehr kontaktiert werden möchte.
    * Die E-Mail-Adresse des Empfängers existiert nicht.
@@ -265,7 +265,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 
    * Erstellen Sie Filter-Typologieregeln, um einen Teil der Zielgruppe während der Versandanalyse auszuschließen, wie etwa Empfänger in Quarantäne. Näheres dazu finden Sie unter [Filterregel erstellen](../../administration/using/filtering-rules.md).
    * Aktualisieren Sie regelmäßig Ihre Kundendatenbank, um eine gute Quarantäneverwaltung zu gewährleisten. Näheres dazu erfahren Sie unter [Über Quarantänen](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. Näheres dazu finden Sie im Handbuch von Adobe Campaign v7 im Abschnitt [Verwalten der Zustellbarkeit](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html). Wenden Sie sich außerdem an Ihren Adobe-Campaign-Administrator um Hilfe.
+   * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. Näheres dazu finden Sie im Handbuch von Adobe Campaign v7 im Abschnitt [Verwalten der Zustellbarkeit](http://docs.campaign.adobe.com/doc/AC/getting_started/DE/deliverability.html). Ersuchen Sie außerdem Ihren Adobe-Campaign-Administrator um Hilfe.
 
 
 
