@@ -3,18 +3,18 @@ title: E-Mail-Kanal konfigurieren
 seo-title: E-Mail-Kanal konfigurieren
 description: E-Mail-Kanal konfigurieren
 seo-description: Hier erfahren Sie, wie Sie den E-Mail-Kanal konfigurieren.
-page-status-flag: nie aktiviert
-uuid: 9 fddb 655-b 445-41 f 3-9 b 02-5 d 356 fc 88 aa 1
+page-status-flag: never-activated
+uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 3752 d 41 f -8 c 59-4 path-b 30 f-e 98 e 09 cd 74 a 8
-context-tags: Extaccountemail, overview; Emailconfig, main; Ruleset, overview; Bereitstellung, Eigenschaften, öffnen
+discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
+context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
 
 ---
@@ -30,7 +30,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
 * **Header-Parameter für ausgehende E-Mails**
 
-   In diesem Bereich können Sie **[!UICONTROL Zulässige Masken]für die Absender- und Fehleradressen definieren.** Bei Angabe von mehr als einer Maske sind die Masken durch Kommata zu trennen. Hierbei handelt es sich um eine optionale Konfiguration. Wenn diese Felder ausgefüllt sind, prüft Adobe Campaign im Zuge der Nachrichtenvorbereitung, dass die in der E-Mail angegebenen Adressen gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten. Absenderadressen sind auf dem Versandserver zu konfigurieren.
+   In diesem Bereich können Sie **[!UICONTROL Zulässige Masken]** für die Absender- und Fehleradressen definieren. Bei Angabe von mehr als einer Maske sind die Masken durch Kommata zu trennen. Hierbei handelt es sich um eine optionale Konfiguration. Wenn diese Felder ausgefüllt sind, prüft Adobe Campaign im Zuge der Nachrichtenvorbereitung, dass die in der E-Mail angegebenen Adressen gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten. Absenderadressen sind auf dem Versandserver zu konfigurieren.
 
 * **Zustellbarkeit**
 
@@ -38,39 +38,39 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
 * **Versandparameter**
 
-   Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts. Im Feld **[!UICONTROL Dauer des Nachrichtenversands]lässt sich die Dauer festlegen, innerhalb derer Nachrichten verschickt werden können.**
+   Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts. Im Feld **[!UICONTROL Dauer des Nachrichtenversands]** lässt sich die Dauer festlegen, innerhalb derer Nachrichten verschickt werden können.
 
-   Das Feld **[!UICONTROL Gültigkeit der Online-Ressourcen]wird für Ressourcen verwendet, die online verfügbar sind, insbesondere für Mirrorseiten und Bilder.** Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
+   Das Feld **[!UICONTROL Gültigkeit der Online-Ressourcen]** wird für Ressourcen verwendet, die online verfügbar sind, insbesondere für Mirrorseiten und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 
 * **Weitere Zustellversuche**
 
    Nachrichten, die vorläufig nicht zugestellt werden können, werden automatisch für einen erneuten Versuch vorgesehen. Geben Sie in diesem Bereich an, wie viele weitere Zustellversuche am ersten Tag nach dem Versandstart unternommen werden sollen (**Anzahl weiterer Versuche**), sowie die minimale Zeitspanne zwischen zwei Versuchen (**Versuchsintervall**).
 
-   Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im Abstand von mindestens einer Stunde vorgesehen. An den folgenden Tagen und bis zum Ablauf der Versandgültigkeit, die im Bereich **[!UICONTROL Versandparameter]angegeben wird, wird jeweils ein Zustellversuch unternommen.**
+   Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im Abstand von mindestens einer Stunde vorgesehen. An den folgenden Tagen und bis zum Ablauf der Versandgültigkeit, die im Bereich **[!UICONTROL Versandparameter]** angegeben wird, wird jeweils ein Zustellversuch unternommen.
 
 * **Quarantäne-Parameter der E-Mails**
 
-   Geben Sie im Feld **[!UICONTROL Intervall zwischen zwei signifikanten Fehlern]einen Wert an, um die Wartezeit zu definieren, bevor der Fehlerzähler im Fall eines Fehlschlagens um einen Wert erhöht wird.** Standardwert: **"1d"** für 1 Tag.
+   Geben Sie im Feld **[!UICONTROL Intervall zwischen zwei signifikanten Fehlern]** einen Wert an, um die Wartezeit zu definieren, bevor der Fehlerzähler im Fall eines Fehlschlagens um einen Wert erhöht wird. Standardwert: **"1d"** für 1 Tag.
 
-   Wenn der Wert **[!UICONTROL Maximale Anzahl an Fehlern vor der Quarantäne]erreicht ist, wird die E-Mail-Adresse unter Quarantäne gestellt.** Standardwert: **"5"**: Die Adresse wird beim sechsten Fehler unter Quarantäne gestellt. Dies bedeutet, dass der Kontakt automatisch von den nächsten Sendungen ausgeschlossen wird.
+   Wenn der Wert **[!UICONTROL Maximale Anzahl an Fehlern vor der Quarantäne]** erreicht ist, wird die E-Mail-Adresse unter Quarantäne gestellt. Standardwert: **"5"**: Die Adresse wird beim sechsten Fehler unter Quarantäne gestellt. Dies bedeutet, dass der Kontakt automatisch von den nächsten Sendungen ausgeschlossen wird.
 
 **Verwandtes Thema**:
 
 [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 
-## E-Mail-Routing-Konten {#email-routing-accounts}
+## E-Mail-Routing-Konten   {#email-routing-accounts}
 
-Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]wird standardmäßig bereitgestellt.** Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
+Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
 ![](assets/channels_2.png)
 
-Dabei ist der Kontotyp mit **[!UICONTROL Routing]**, der Kanal mit **[!UICONTROL E-Mail]** und der Versandmodus mit **Gebündelter Versand[!UICONTROL zu konfigurieren]**.
+Dabei ist der Kontotyp mit **[!UICONTROL Routing]**, der Kanal mit **[!UICONTROL E-Mail]** und der Versandmodus mit **[!UICONTROL Gebündelter Versand]** zu konfigurieren.
 
 **Verwandtes Thema**:
 
 [Externe Konten](../../administration/using/external-accounts.md)
 
-## Regeln zum Umgang mit E-Mails {#email-processing-rules}
+## Regeln zum Umgang mit E-Mails   {#email-processing-rules}
 
 In den Regeln sind die von Remote-Servern potenziell zurückgegebenen Strings enthalten, die die Qualifizierung der Fehler in **Hardbounce**, **Softbounce** oder **Ignoriert** erlauben.
 
@@ -137,7 +137,7 @@ Folgende Parameter stehen für jede einzelne Regel zur Verfügung:
 
 
 
-## Liste der E-Mail-Eigenschaften {#list-of-email-properties}
+## Liste der E-Mail-Eigenschaften   {#list-of-email-properties}
 
 Dieser Abschnitt behandelt die Liste von Parametern, die in den Eigenschaften einer E-Mail oder einer [E-Mail-Vorlage](../../start/using/about-templates.md) verfügbar sind.
 
@@ -145,13 +145,13 @@ Dieser Abschnitt behandelt die Liste von Parametern, die in den Eigenschaften ei
 >
 >Manche Parameter sind ausschließlich über die Vorlagen verfügbar. Die Parameter, auf die Sie zugreifen können, [hängen von Ihrer Zugriffsberechtigung ab](../../administration/using/users-management.md).
 
-Zur Änderung der Eigenschaften einer E-Mail bzw. einer E-Mail-Vorlage verwenden Sie die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten].**
+Zur Änderung der Eigenschaften einer E-Mail bzw. einer E-Mail-Vorlage verwenden Sie die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]**.
 
 ![](assets/delivery_options_1.png)
 
 ### Allgemeine Parameter {#general-parameters}
 
-Identifizieren Sie am oberen Rand des E-Mail-Parameter-Fensters die E-Mail unter Verwendung der Felder **[!UICONTROL Titel]** und **ID[!UICONTROL .]** Diese Informationen erscheinen in der Benutzeroberfläche, sind aber für die Empfänger nicht sichtbar.
+Identifizieren Sie am oberen Rand des E-Mail-Parameter-Fensters die E-Mail unter Verwendung der Felder **[!UICONTROL Titel]** und **[!UICONTROL ID]**. Diese Informationen erscheinen in der Benutzeroberfläche, sind aber für die Empfänger nicht sichtbar.
 
 ![](assets/delivery_options_2.png)
 
@@ -159,15 +159,15 @@ Identifizieren Sie am oberen Rand des E-Mail-Parameter-Fensters die E-Mail unter
 >
 >Die Kennung muss eindeutig sein.
 
-Das Feld **[!UICONTROL Marke]dient der Auswahl der dem Versand zugeordneten Marke.** Weiterführende Informationen zur Verwendung und Konfiguration von Marken finden Sie im Abschnitt [Marken](../../administration/using/branding.md).
+Das Feld **[!UICONTROL Marke]** dient der Auswahl der dem Versand zugeordneten Marke. Weiterführende Informationen zur Verwendung und Konfiguration von Marken finden Sie im Abschnitt [Marken](../../administration/using/branding.md).
 
-Im Feld **[!UICONTROL Kampagne]kann die der E-Mail übergeordnete Kampagne eingetragen werden.**
+Im Feld **[!UICONTROL Kampagne]** kann die der E-Mail übergeordnete Kampagne eingetragen werden.
 
-Außerdem kann man im entsprechenden Feld eine **[!UICONTROL Beschreibung]hinzufügen und das Bild ändern, das auf der E-Mail-Karte innerhalb der Listen angezeigt wird.**
+Außerdem kann man im entsprechenden Feld eine **[!UICONTROL Beschreibung]** hinzufügen und das Bild ändern, das auf der E-Mail-Karte innerhalb der Listen angezeigt wird.
 
 ### Versandparameter {#sending-parameters}
 
-Der Bereich **[!UICONTROL Senden]ist nur für E-Mail-Vorlagen verfügbar.** Darin sind die folgenden Parameter enthalten:
+Der Bereich **[!UICONTROL Senden]** ist nur für E-Mail-Vorlagen verfügbar. Darin sind die folgenden Parameter enthalten:
 
 #### Parameter für weitere Zustellversuche {#retries-parameters}
 
@@ -177,7 +177,7 @@ Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im 
 
 Die Anzahl weiterer Versuche kann global geändert werden (kontaktieren Sie Ihren technischen Administrator von Adobe) oder einzeln für jeden Versand oder jede Versandvorlage.
 
-#### Parameter für E-Mail-Format {#email-format-parameters}
+#### Parameter für E-Mail-Format   {#email-format-parameters}
 
 Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei Optionen zur Verfügung:
 
@@ -192,27 +192,27 @@ Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei
 
 #### SMTP-Testmodus {#smtp-test-mode}
 
-The **[!UICONTROL Enable SMTP test mode]** option allows you to test sending emails via an SMTP connection without actually sending messages.
-Die Nachrichten werden verarbeitet, bis die Verbindung mit dem SMTP-Server erreicht wird, sie werden jedoch nicht gesendet.
+Mit der Option **[!UICONTROL SMTP-Testmodus aktivieren]** können Sie den Versand von E-Mails über eine SMTP-Verbindung testen, ohne tatsächlich Nachrichten zu senden.
+Die Nachrichten werden verarbeitet, bis eine Verbindung mit dem SMTP-Server hergestellt wurde, sie werden aber nicht gesendet.
 
 ![](assets/smtp-test-mode.png)
 
 Diese Option steht für E-Mails und E-Mail-Vorlagen zur Verfügung.
 
-Wenn Sie die Option "SMTP-Testmodus" für eine E-Email-Vorlage aktivieren, können alle aus dieser Vorlage erstellten E-Email-Nachrichten aktiviert werden.
+Wenn Sie die SMTP-Testmodus-Option für eine E-Mail-Vorlage aktivieren, ist diese Option in allen mit dieser Vorlage erstellten E-Mail-Nachrichten aktiviert.
 
 >[!CAUTION]
 >
->Wenn diese Option für eine E-Mail aktiviert ist, werden keine Nachrichten gesendet, bis sie deaktiviert sind.
->Eine Warnung wird im Dashboard E-Mail oder E-Mail-Vorlage angezeigt.
+>Wenn diese Option für eine E-Mail aktiviert ist, werden keine Nachrichten gesendet, bis sie deaktiviert wird.
+>Im Dashboard der E-Mail oder E-Mail-Vorlage wird ein Warnhinweis angezeigt.
 
 Weiterführende Informationen zur SMTP-Konfiguration finden Sie im Abschnitt [Liste der E-Mail-SMTP-Parameter](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
 
-### Parameter für den Gültigkeitszeitraum {#validity-period-parameters}
+### Parameter für den Gültigkeitszeitraum   {#validity-period-parameters}
 
-Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]sind folgende Parameter verfügbar:**
+Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]** sind folgende Parameter verfügbar:
 
-* **[!UICONTROL Gültigkeit explizit festlegen]**: Wenn diese Option nicht angekreuzt ist, müssen die Felder **[!UICONTROL Versandlaufzeit]** und **Ressourcen-Gültigkeit]mit einer Dauer versehen werden.[!UICONTROL ** Kreuzen Sie diese Option an, wenn Sie Datum und Uhrzeit genau festlegen möchten.
+* **[!UICONTROL Gültigkeit explizit festlegen]**: Wenn diese Option nicht angekreuzt ist, müssen die Felder **[!UICONTROL Versandlaufzeit]** und **[!UICONTROL Ressourcen-Gültigkeit]** mit einer Dauer versehen werden. Kreuzen Sie diese Option an, wenn Sie Datum und Uhrzeit genau festlegen möchten.
 * **[!UICONTROL Versandlaufzeit]**: Nachrichten werden von Adobe Campaign ab dem Datum des Versandstarts versendet. In diesem Feld lässt sich die Dauer festlegen, innerhalb derer Nachrichten verschickt werden können.
 * **[!UICONTROL Ressourcen-Gültigkeit]**: An dieser Stelle wird die Gültigkeit der Online-Ressourcen (vor allem Mirrorseite und Bilder) festgelegt. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 * **[!UICONTROL Verwaltung der Mirrorseite]**: Bei der Mirrorseite handelt es sich um eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Sie hat den gleichen Inhalt wie die E-Mail. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde. Die Erzeugung der Seite lässt sich in diesem Feld konfigurieren:
@@ -228,27 +228,27 @@ Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]sind folgende Parameter verfügb
 
 >[!NOTE]
 >
->Die Parameter **[!UICONTROL Gültigkeit explizit festlegen]** und **Versandlaufzeit]gelten nicht für Transaktionsnachrichten.[!UICONTROL ** Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
+>Die Parameter **[!UICONTROL Gültigkeit explizit festlegen]** und **[!UICONTROL Versandlaufzeit]** gelten nicht für Transaktionsnachrichten. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
 
-### Trackingparameter {#tracking-parameters}
+### Trackingparameter   {#tracking-parameters}
 
-Im Abschnitt **[!UICONTROL Tracking]sind folgende Parameter verfügbar:**
+Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
-* **[!UICONTROL Tracking aktivieren]**: Aktivierung/Deaktivierung des Trackings der in den Nachrichten enthaltenen URLs. Über das Symbol **[!UICONTROL Links]in der Symbolleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten.** Siehe [Über getrackte URLs](../../designing/using/about-tracked-urls.md).
+* **[!UICONTROL Tracking aktivieren]**: Aktivierung/Deaktivierung des Trackings der in den Nachrichten enthaltenen URLs. Über das Symbol **[!UICONTROL Links]** in der Symbolleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/about-tracked-urls.md).
 * **[!UICONTROL Ablaufdatum des Trackings]**: Festlegung der Dauer, für die das URL-Tracking aktiv sein soll.
 * **[!UICONTROL Ersatz-URL für abgelaufene URLs]**: Hier kann die URL für eine Webseite eingetragen werden, die nach dem Ablauf des Trackings angezeigt wird.
 
 ### Erweiterte Parameter {#advanced-parameters}
 
-Der Abschnitt **[!UICONTROL Erweiterte Parameter]enthält folgende Informationen:**
+Der Abschnitt **[!UICONTROL Erweiterte Parameter]** enthält folgende Informationen:
 
 Angaben zum E-Mail-Header (Antwortadresse und Text der Antwortadresse). Diese Informationen können personalisiert werden. Öffnen Sie mithilfe der Schaltfläche rechts des entsprechenden Eingabefelds das Auswahlfenster und fügen Sie die gewünschten Personalisierungsfelder ein. Weiterführende Informationen zur Verwendung der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/inserting-a-personalization-field.md).
 
-#### Zielgruppen-Kontext {#target-context}
+#### Zielgruppen-Kontext   {#target-context}
 
 Im Zielgruppen-Kontext werden die für die Zielgruppenbestimmung (im Bildschirm zur Audience-Erstellung) und die Personalisierung (Definition von Personalisierungsfeldern, im HTML-Inhaltseditor) der E-Mail verwendeten Tabellen angegeben.
 
-#### Routing {#routing}
+#### Routing   {#routing}
 
 In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf ein externes Konto verwiesen. Dies kann zum Beispiel von Nutzen sein, wenn Sie ein externes Konto mit speziellen Branding-Einstellungen verwenden möchten.
 
@@ -256,7 +256,7 @@ In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf 
 >
 >Zu den externen Konten gelangen Sie über das Menü **Administration** &gt; **Anwendungskonfiguration** &gt; **Externe Konten**.
 
-#### Vorbereitung {#preparation}
+#### Vorbereitung   {#preparation}
 
 Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../../sending/using/preparing-the-send.md) beschrieben.
 
@@ -264,37 +264,37 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
 
    >[!NOTE]
    >
-   >Typologies, which can be accessed via the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
+   >Die Typologien, zu denen Sie über das Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Typologien]** gelangen, werden im Abschnitt [Typologien](../../administration/using/about-typology-rules.md) beschrieben.
 
-* **[!UICONTROL Die Beschriftung während der Vorbereitung der Bereitstellung berechnen]**: ermöglicht es Ihnen, den Beschriftungswert der E-Email während der Nachrichtenvorbereitung mithilfe von Personalisierungsfeldern, Inhaltsblöcken und dynamischen Text zu berechnen.
+* **[!UICONTROL Label-Berechnung während der Bereitstellungsvorbereitung]**: ermöglicht die Berechnung des Titel-Werts der E-Mail während der Nachrichtenvorbereitung mithilfe von Personalisierungsfeldern, Inhaltsbausteinen und dynamischem Text.
 
-   Es ist außerdem möglich, die Bereitstellungsbeschriftung mit Ereignisvariablen zu personalisieren, die in der externen Signalaktivität des Workflows deklariert wurden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md).
+   Sie können auch den Versandtitel mit Ereignisvariablen personalisieren, die in der Aktivität "Externes Signal" des Workflows deklariert wurden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Bei dieser Option werden in der Vorbereitungsphase SQL-Abfragelogs im Protokoll gespeichert.
 
 ### Liste der E-Mail-SMTP-Parameter {#list-of-email-smtp-parameters}
 
-Im Abschnitt **[!UICONTROL SMTP]sind folgende Parameter verfügbar:**
+Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
 
-* **[!UICONTROL Zeichenkodierung]**: Aktivieren Sie die Option **[!UICONTROL Kodierung erzwingen], wenn Sie die Nachrichtenkodierung erzwingen möchten, und wählen Sie dann die gewünschte Kodierungsmethode aus.**
-* **[!UICONTROL Absprungmeldungen]**: standardmäßig werden die Absprungmeldungen im Infofeld der Plattform empfangen (definiert in " **[!UICONTROL Administration]** «&gt; **[!UICONTROL " Kanäle]** «&gt; **[!UICONTROL "E-Mail]** " &gt;" **[!UICONTROL Konfiguration"]** ). Um eine bestimmte Fehleradresse für eine E-Mail zu definieren, geben Sie die jeweilige Adresse im Feld **[!UICONTROL Fehleradresse]ein.**
+* **[!UICONTROL Zeichenkodierung]**: Aktivieren Sie die Option **[!UICONTROL Kodierung erzwingen]**, wenn Sie die Nachrichtenkodierung erzwingen möchten, und wählen Sie dann die gewünschte Kodierungsmethode aus.
+* **[!UICONTROL Bounce Messages]**: Bounce Messages werden standardmäßig in der Fehler-Inbox der Plattform empfangen (definiert unter **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL E-Mail]** &gt; **[!UICONTROL Konfiguration]**). Um eine bestimmte Fehleradresse für eine E-Mail zu definieren, geben Sie die jeweilige Adresse im Feld **[!UICONTROL Fehleradresse]** ein.
 * **[!UICONTROL Zusätzliche SMTP-Header]**: Mit dieser Option können Sie Ihren Nachrichten zusätzliche SMTP-Header hinzufügen. Das im Feld **[!UICONTROL Header]** eingegebene Skript muss pro Zeile auf einen einzelnen Header (im Format **Name:Wert**) verweisen. Werte werden bei Bedarf automatisch verschlüsselt.
 
    >[!CAUTION]
    >
    >Das Hinzufügen zusätzlicher SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Skripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-### Liste der Parameter für Zugriffsberechtigung {#list-of-access-authorization-parameters}
+### Liste der Parameter für Zugriffsberechtigung   {#list-of-access-authorization-parameters}
 
-Im Abschnitt **[!UICONTROL Zugriffsberechtigungen]sind folgende Parameter verfügbar:**
+Im Abschnitt **[!UICONTROL Zugriffsberechtigungen]** sind folgende Parameter verfügbar:
 
-* Das Feld **[!UICONTROL Organisationseinheit]ermöglicht es, den Zugang für diese E-Mail auf bestimmte Nutzer zu begrenzen.** Die der spezifizierten Einheit oder den übergeordneten Einheiten zugeteilten Nutzer haben Lese- und Schreibzugriff auf diese E-Mail. Der Zugriff der den untergeordneten Einheiten zugeteilten Nutzer auf diese E-Mail ist schreibgeschützt.
+* Das Feld **[!UICONTROL Organisationseinheit]** ermöglicht es, den Zugang für diese E-Mail auf bestimmte Nutzer zu begrenzen. Die der spezifizierten Einheit oder den übergeordneten Einheiten zugeteilten Nutzer haben Lese- und Schreibzugriff auf diese E-Mail. Der Zugriff der den untergeordneten Einheiten zugeteilten Nutzer auf diese E-Mail ist schreibgeschützt.
 
    >[!NOTE]
    >
    >Zur Konfiguration von Organisationseinheiten gehen Sie in das Menü **Administration** &gt; **Benutzer &amp; Sicherheit**.
 
-* The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** and **[!UICONTROL Last modified]** fields are automatically completed.
+* Die Felder **[!UICONTROL Erstellt von]**, **[!UICONTROL Erstellt am]**, **[!UICONTROL Geändert von]** und **[!UICONTROL Geändert am]** werden automatisch ausgefüllt.
 
 ## E-Mails archivieren {#archiving-emails}
 
@@ -304,7 +304,7 @@ Adobe Campaign selbst ermöglicht zwar nicht die Verwaltung von archivierten Dat
 
 Wenn diese Funktion in der Versandvorlage aktiviert wird, können Sie eine exakte Kopie der gesendeten Nachrichten an eine von Ihnen bestimmte BCC-E-Mail-Adresse senden (unsichtbar für die Nachrichtenempfänger).
 
-### Empfehlungen und Einschränkungen {#recommendations-and-limitations}
+### Empfehlungen und Einschränkungen   {#recommendations-and-limitations}
 
 * Hierbei handelt es sich um eine optionale Funktion. Bitte prüfen Sie Ihren Lizenzvertrag und kontaktieren Sie den Ansprechpartner für Ihr Konto, um diese Funktion zu aktivieren.
 * Sie können nur eine einzige BCC-E-Mail-Adresse verwenden.
@@ -312,20 +312,20 @@ Wenn diese Funktion in der Versandvorlage aktiviert wird, können Sie eine exakt
 * Aus Datenschutzgründen müssen BCC-E-Mails von einem Archivierungssystem bearbeitet werden, in dem personenbezogene Daten (PII, Personally Identifiable Information) sicher aufbewahrt werden.
 * Bei der Erstellung einer neuen Versandvorlage ist E-Mail-BCC nicht standardmäßig aktiviert, selbst wenn diese Option erworben wurde. Sie muss manuell in jeder Versandvorlage aktiviert werden, in der sie verwendet werden soll.
 
-### E-Mail-Archivierung aktivieren {#activating-email-archiving}
+### E-Mail-Archivierung aktivieren   {#activating-email-archiving}
 
 E-Mail-BCC wird in der [E-Mail-Vorlage](../../start/using/about-templates.md) über die folgende Option aktiviert:
 
 1. Gehen Sie in den Knoten **Ressourcen** &gt; **Vorlagen** &gt; **Versandvorlagen**.
-1. Duplizieren Sie die Standardvorlage **[!UICONTROL Per E-Mail versenden].**
+1. Duplizieren Sie die Standardvorlage **[!UICONTROL Per E-Mail versenden]**.
 1. Wählen Sie die duplizierte Vorlage aus.
-1. Bearbeiten Sie mithilfe der Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]die Eigenschaften Ihrer Vorlage.**
-1. Maximieren Sie den Abschnitt **[!UICONTROL Senden].**
-1. Aktivieren Sie die Option **[!UICONTROL E-Mails archivieren], um eine Kopie aller gesendeten, auf dieser Vorlage basierenden Nachrichten aufzubewahren.**
+1. Bearbeiten Sie mithilfe der Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** die Eigenschaften Ihrer Vorlage.
+1. Maximieren Sie den Abschnitt **[!UICONTROL Senden]**.
+1. Aktivieren Sie die Option **[!UICONTROL E-Mails archivieren]**, um eine Kopie aller gesendeten, auf dieser Vorlage basierenden Nachrichten aufzubewahren.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Wenn die an eine BCC-Adresse gesendeten E-Mails geöffnet und angeklickt werden, wird dies in **[!UICONTROL Gesamtöffnungen]** und **Klicks]der Versandanalyse berücksichtigt, was zu falschen Berechnungen führen könnte.[!UICONTROL **
+>Wenn die an eine BCC-Adresse gesendeten E-Mails geöffnet und angeklickt werden, wird dies in **[!UICONTROL Gesamtöffnungen]** und **[!UICONTROL Klicks]** der Versandanalyse berücksichtigt, was zu falschen Berechnungen führen könnte.
 
