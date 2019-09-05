@@ -3,17 +3,17 @@ title: Schrittweise Anleitungen
 seo-title: Schrittweise Anleitungen
 description: Schrittweise Anleitungen
 seo-description: Lernen Sie durch einfache schrittweise Anleitungen Adobe Campaign kennen und erleben Sie die Vorteile dieser Lösung.
-page-status-flag: nie aktiviert
-uuid: 8 d 6 d 5 f 62-e 564-4 b 5 b -86 ef -2 b 7 ac 5 f 8 ab 62
+page-status-flag: never-activated
+uuid: 8d6d5f62-e564-4b5b-86ef-2b7ac5f8ab62
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
-topic-tags: Übungen
-discoiquuid: d 7088 c 18-7 daf -4 c 30-b 633-2 f 19496 b 1143
+content-type: reference
+topic-tags: tutorials
+discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
@@ -23,15 +23,15 @@ source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 Unsere intuitiven Handbücher bieten Ihnen einen einfachen Einstieg in Adobe Campaign.
 
-* [Erstellen einer personalisierten E-Mail](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html): zum Erstellen und Senden personalisierter E-Mails an eine Audience.
-* [Erstellen einer Anmeldemöglichkeit für einen Dienst](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html): zum Erstellen eines Abonnements für einen Newsletter mithilfe einer Landingpage.
-* [Erstellen einer Landingpage](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html): zum Verwalten von Landingpage-Vorlagen und Erstellen neuer Landingpages, die sofort verwendet werden können.
-* [Exportieren und Importieren eines Packages von benutzerdefinierten Ressourcen](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html): Export und Import eines Packages mit benutzerdefinierten Ressourcen von einer Entwicklungsumgebung in eine Produktionsumgebung.
-* [Erstellen eines kanalübergreifenden Nachrichten-Workflow](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html): zum Erstellen eines Workflows durch die Segmentierung einer Population und den Versand einer E-Mail und einer SMS.
-* [Erstellen einer E-Mail mit Experience Manager und Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): zum Erstellen eines E-Mail-Inhalts in Adobe Experience Manager und dessen Verwendung in einer E-Mail in Adobe Campaign Standard.
-* [Versand mit Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html): Es enthält Best Practices für den Versand mit Adobe Campaign, von der Erstellung von Nachrichten über die Zielgruppenbestimmung bis zum Senden und Verfolgen von Nachrichten.
-* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html): Erfahren Sie Begriffe und Best Practices im Zusammenhang mit der Zustellbarkeit sowie Informationen zu den Werkzeugen zur Versandoptimierung von Adobe Campaign.
-* [Datenschutz-Grundverordnung](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): Hier finden Sie die von Adobe Campaign bereitgestellten Tools und Funktionen sowie Best Practices, die Ihnen helfen, die DSGVO einzuhalten.
+* [Erstellen einer personalisierten E-Mail](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GettingStartedEmail.html): zum Erstellen und Senden personalisierter E-Mails an eine bestimmte Zielgruppe.
+* [Erstellen einer Anmeldemöglichkeit für einen Dienst](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GettingStartedLandingPages.html): zum Erstellen eines Abonnements für einen Newsletter mithilfe einer Landingpage.
+* [Erstellen einer Landingpage](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_CreateLandingPage.html): zum Verwalten von Landingpage-Vorlagen und Erstellen neuer Landingpages, die sofort verwendet werden können.
+* [Exportieren und Importieren eines Pakets mit benutzerdefinierten Ressourcen](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_ImportExport.html): Export und Import eines Pakets mit benutzerdefinierten Ressourcen von einer Entwicklungsumgebung in eine Produktionsumgebung.
+* [Erstellen eines kanalübergreifenden Nachrichten-Workflows](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_WorkflowSegmentation.html): zum Erstellen eines Workflows durch die Segmentierung einer Population und den Versand einer E-Mail und einer SMS.
+* [Erstellen einer E-Mail mit Experience Manager und Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_AEM.html): zum Erstellen eines E-Mail-Inhalts in Adobe Experience Manager und dessen Verwendung in einer E-Mail in Adobe Campaign Standard.
+* [Versand mit Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html): Best Practices für den Versand mit Adobe Campaign, von der Erstellung von Nachrichten über die Zielgruppenbestimmung bis zum Senden und Verfolgen von Nachrichten.
+* [Optimieren der Zustellbarkeit](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_Deliverability.html): Begriffe und Best Practices im Zusammenhang mit der Zustellbarkeit sowie Informationen zu den Werkzeugen zur Versandoptimierung von Adobe Campaign.
+* [Datenschutz-Grundverordnung](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html): Hier finden Sie die von Adobe Campaign bereitgestellten Tools und Funktionen sowie Best Practices, die Ihnen helfen, die DSGVO einzuhalten.
 
 Lernen Sie Adobe Campaign besser kennen, indem Sie sich die folgenden Anwendungsbeispiele durchlesen:
 
