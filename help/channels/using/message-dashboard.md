@@ -3,18 +3,18 @@ title: Nachrichten-Dashboards
 seo-title: Nachrichten-Dashboards
 description: Nachrichten-Dashboards
 seo-description: Hier erfahren Sie, woraus das Nachrichten-Dashboard besteht, einschließlich der Symbolleiste und der unterschiedlichen Kacheln.
-page-status-flag: nie aktiviert
-uuid: 9 bb 44 ee 8-2 cf 6-43 ce -94 a 4-367 f 4 e 669713
+page-status-flag: never-activated
+uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 90 a 78742-697 f -46 da -8 c 54-108048 e 57 b 67
-context-tags: delivery, main
+discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
+context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
@@ -26,7 +26,7 @@ Das Dashboard einer Nachricht enthält einen Arbeitsbereich mit verschiedenen Ka
 
 ![](assets/delivery_dashboard_2.png)
 
-## Graue Leiste {#gray-bar}
+## Graue Leiste   {#gray-bar}
 
 Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 
@@ -39,7 +39,7 @@ Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 * [Kanäle konfigurieren](../../administration/using/about-channel-configuration.md)
 * [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Symbolleiste {#action-bar}
+## Symbolleiste   {#action-bar}
 
 Die Symbolleiste enthält verschiedene Schaltflächen, die die Bearbeitung der Nachricht ermöglichen.
 
@@ -51,7 +51,7 @@ Je nach angegebenen Parametern und Bearbeitungsfortschritt stehen gewisse Schalt
 
    Weiterführende Informationen zu Testsendungen finden Sie im Abschnitt [Testprofile verwalten und Testsendungen durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-* **[!UICONTROL Einen Test senden]**: ermöglicht die Auswahl des zu verwendenden Genehmigungsmodus: **[!UICONTROL E-Email-Wiedergabe]**, **[!UICONTROL Proof]** oder beides. Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* **[!UICONTROL Testen]**: ermöglicht u. a. die Auswahl des Validierungsmodus (**[!UICONTROL Testversand]** und/oder **[!UICONTROL E-Mail-Rendering]** bei E-Mails). Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
 
    Die Schaltfläche ist nur dann aktiv, wenn mindestens ein Testprofil definiert wurde.
 
@@ -59,15 +59,15 @@ Je nach angegebenen Parametern und Bearbeitungsfortschritt stehen gewisse Schalt
    >
    >Bei einem SMS-Versand ist nur der **[!UICONTROL Testversand verfügbar]**.
 
-* **[!UICONTROL Versand vorbereiten]**: startet die Versandvorbereitung. Die Kachel **[!UICONTROL Freigabe]erscheint und zeigt das Ergebnis der Vorbereitung an.** Diese Schaltfläche erscheint nur, wenn die Zielgruppe angegeben wurde. Mithilfe der Schaltfläche "Vorbereitung stoppen" kann die Vorbereitung jederzeit unterbrochen werden.
+* **[!UICONTROL Versand vorbereiten]**: startet die Versandvorbereitung. Die Kachel **[!UICONTROL Freigabe]** erscheint und zeigt das Ergebnis der Vorbereitung an. Diese Schaltfläche erscheint nur, wenn die Zielgruppe angegeben wurde. Mithilfe der Schaltfläche "Vorbereitung stoppen" kann die Vorbereitung jederzeit unterbrochen werden.
 
    Weiterführende Informationen zur Nachrichtenvorbereitung finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Versand bestätigen]**: löst den endgültigen Versand der Nachricht aus. In der Kachel **[!UICONTROL Freigabe]erscheint nun das Versandergebnis.** Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. Der Versand kann mithilfe der Schaltflächen **Versand anhalten** oder **[!UICONTROL Aussetzen]jederzeit unterbrochen werden.**
+* **[!UICONTROL Versand bestätigen]**: löst den endgültigen Versand der Nachricht aus. In der Kachel **[!UICONTROL Freigabe]** erscheint nun das Versandergebnis. Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. Der Versand kann mithilfe der Schaltflächen **Versand anhalten** oder **[!UICONTROL Aussetzen]** jederzeit unterbrochen werden.
 
    Lesen Sie diesbezüglich auch den Abschnitt [Nachrichten senden](../../sending/using/confirming-the-send.md).
 
-## Bausteine {#blocks}
+## Bausteine   {#blocks}
 
 Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel, um auf die entsprechenden Versandparameter zugreifen zu können:
 
