@@ -3,17 +3,17 @@ title: Problembehebung
 seo-title: Problembehebung
 description: Problembehebung
 seo-description: Hier finden Sie häufig gestellte Fragen zu dynamischen Berichten.
-page-status-flag: nie aktiviert
-uuid: a 84 a 18 bd -4 e 33-466 e-a 6 ce-d 7008 fe 12746
-contentOwner: gezählt
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
-topic-tags: Fehlerbehebung
-discoiquuid: bbb 41 c 38-12 c 1-4625-85 d 5-69627 e 2 f 4 b 39
+page-status-flag: never-activated
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
+contentOwner: beneat
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: troubleshooting
+discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
 
 ---
@@ -23,17 +23,17 @@ source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
 
 In diesem Abschnitt finden Sie häufig gestellte Fragen zu dynamischen Berichten.
 
-## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows {#unique-open-clicks-no-match}
+## Bei Einzelöffnungen und Einzelklicks entspricht die Zahl in der Aggregat-Zeile nicht der Zahl in den einzelnen Zeilen. {#unique-open-clicks-no-match}
 
-Dies ist ein erwartetes Verhalten.
-Wir können das folgende Beispiel verwenden, um dieses Verhalten zu erläutern.
+Dies ist zu erwarten.
+Im folgenden Beispiel möchten wir dieses Verhalten erläutern.
 
-Eine E-Email wird an Profile P 1 und P 2 gesendet.
+Eine E-Mail wird an Profil P1 und P2 gesendet.
 
-P 1 öffnet die E-Mail am ersten Tag zweimal und dann am zweiten Tag.
+P1 öffnet die E-Mail am ersten Tag zweimal und dann am zweiten Tag dreimal.
 
-P 2 öffnet die E-Email einmal am ersten Tag und öffnet sie nicht in den folgenden Tagen erneut.
-Im Folgenden finden Sie eine visuelle Darstellung der Interaktion der Profile mit der gesendeten E-Mail:
+P2 öffnet die E-Mail am ersten Tag einmal und an den folgenden Tagen nicht mehr.
+Im Folgenden finden Sie eine Darstellung der Interaktion der Profile mit der gesendeten E-Mail:
 
 <table> 
  <thead> 
@@ -45,21 +45,21 @@ Im Folgenden finden Sie eine visuelle Darstellung der Interaktion der Profile mi
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> Tag 1<br /> </td> 
    <td align="center"> 2 + 1 = 3<br /> </td> 
    <td align="center"> 1 + 1 = 2<br /> </td> 
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> Tag 2<br /> </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
   </tr>
  </tbody> 
 </table>
 
-To understand the overall number of unique opens, we need to sum up the row counts of **[!UICONTROL Unique Opens]** which gives us the value 3. Da die E-Email jedoch nur auf 2 Profile ausgerichtet wurde, sollte die offene Rate 150% anzeigen.
+Um die Gesamtzahl der Einzelöffnungen zu erhalten, müssen wir die Zeilenanzahl der **[!UICONTROL Einzelöffnungen]** addieren, was 3 ergibt. Da für die E-Mail aber nur 2 Profile ausgewählt wurden, sollte die Öffnungsrate 150 % betragen.
 
-To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique Opens]** is maintained to be the number of unique broadlogs that were opened. In diesem Fall, wenn P 1 die E-Email am Tag 1 und Tag 2 geöffnet hat, ist seine einzigartige Öffnung weiterhin 1.
+Um keinen Prozentsatz von mehr als 100 zu erhalten, wird zur Definition von **[!UICONTROL Einzelöffnungen]** die Anzahl der eindeutigen Broadlogs herangezogen, die geöffnet wurden. In diesem Fall haben die Einzelöffnungen von P1 den Wert 1, auch wenn P1 die E-Mail an Tag 1 und Tag 2 geöffnet hat.
 
 Dies ergibt die folgende Tabelle:
 
@@ -73,12 +73,12 @@ Dies ergibt die folgende Tabelle:
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> Tag 1<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> Tag 2<br /> </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td> 
   </tr> 
@@ -87,35 +87,35 @@ Dies ergibt die folgende Tabelle:
 
 >[!NOTE]
 >
->Eindeutige Zahlen basieren auf einer HLL-basierten Skizze. Dies kann bei großen Zahlen zu leichten Ungenauigkeiten führen.
+>Einzelzählungen basieren auf einem HLL-basierten Sketch. Dies kann bei großen Zahlen zu leichten Ungenauigkeiten führen.
 
-## Open counts do not match the Database count {#open-counts-no-match-database}
+## Die Anzahl der Öffnungen stimmt nicht mit der Anzahl in der Datenbank überein. {#open-counts-no-match-database}
 
-This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **[!UICONTROL Open]** action.
+Der Grund dafür kann darin liegen, dass bei dynamischen Berichten heuristische Modelle verwendet werden, um Öffnungen zu tracken, selbst wenn die Aktion **[!UICONTROL Öffnungen]** nicht getrackt werden kann.
 
-For example, if a user has disabled images on their client and click on a link in the email, the **[!UICONTROL Open]** may not be tracked by the database but the **[!UICONTROL Click]** will.
+Wenn beispielsweise ein Benutzer die Bilder in seinem Client deaktiviert hat und auf einen Link in der E-Mail klickt, kann es vorkommen, dass die **[!UICONTROL Öffnung]** nicht von der Datenbank getrackt wird, der **[!UICONTROL Klick]** aber schon.
 
-Therefore, the **[!UICONTROL Open]** tracking logs counts may not have the same count in the database.
+Deshalb kann es vorkommen, dass die Anzahl in den Trackinglogs für **[!UICONTROL Öffnungen]** nicht mit der in der Datenbank übereinstimmt.
 
-Such occurrences are added as **"an email click implies an email open"**.
+Solche Ereignisse werden hinzugefügt, da **ein E-Mail-Klick auf eine E-Mail-Öffnung hinweist**.
 
 >[!NOTE]
 >
->Da eindeutige Zähler auf einer HLL-basierten Skizze basieren, können kleinere Inkonsistenzen zwischen den Zählungen aufgetreten sein.
+>Da Einzelzählungen auf einem HLL-basierten Sketch basieren, können zwischen den Zahlen kleine Unterschiede auftreten.
 
-## Wie werden wiederkehrende/Transaktionslieferungen berechnet?
+## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet?
 
-Bei wiederkehrenden und Transaktionsbasierten Lieferungen werden die Zählungen sowohl der übergeordneten als auch der untergeordneten Auslieferung zugeordnet.
+Bei wiederkehrenden Sendungen und dem Versand von Transaktionsnachrichten werden die Zahlen sowohl den über- als auch den untergeordneten Sendungen zugeordnet.
 
-We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
+Nehmen Sie zum Beispiel einen wiederkehrenden Versand mit der Bezeichnung **R1**, der täglich an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt wird.
 
-Nehmen wir an, dass nur eine Person alle untergeordneten Lieferungen mehrmals geöffnet hat. In this case, the individual recurring child deliveries will show the **[!UICONTROL Open]** count as 1 for each.
+Nehmen wir an, dass nur eine einzige Person alle untergeordneten Sendungen mehrmals geöffnet hat. In diesem Fall wird für die einzelnen wiederkehrenden untergeordneten Sendungen als Anzahl der **[!UICONTROL Öffnungen]** 1 angezeigt.
 
-However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **[!UICONTROL Unique open]** as 1.
+Da jedoch dieselbe Person auf alle Sendungen geklickt hat, wird für den übergeordneten wiederkehrenden Versand unter **[!UICONTROL Einzelöffnungen]** ebenfalls 1 angezeigt.
 
-After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique counts** is changed from **Number of unique persons interacting with the delivery** to **Number of unique messages interacted**.
+Ab Adobe Campaign Standard-Version 19.2.1 lautet die Definition von **Einzelzählungen** nicht mehr **die Anzahl der einzelnen Personen, die mit einem Versand interagieren**, sondern **die Anzahl der einzelnen Nachrichten, mit denen interagiert wurde**.
 
-Vor der Adobe Campaign Standard 19.2.1-Version wurden folgende Berichte angezeigt:
+Vor der Adobe Campaign Standard-Version 19.2.1 sahen Berichte folgendermaßen aus:
 
 <table> 
  <thead> 
@@ -159,7 +159,7 @@ Vor der Adobe Campaign Standard 19.2.1-Version wurden folgende Berichte angezeig
  </tbody> 
 </table>
 
-Nach der Adobe Campaign Standard 19.2.1-Version sehen die Berichte wie folgt aus:
+Ab Adobe Campaign Standard-Version 19.2.1 sehen die Berichte wie folgt aus:
 
 <table> 
  <thead> 
@@ -203,16 +203,16 @@ Nach der Adobe Campaign Standard 19.2.1-Version sehen die Berichte wie folgt aus
  </tbody> 
 </table>
 
-## What is the colors' signification in my reports' table? {#reports-color-signification}
+## Was bedeuten die Farben in der Tabelle meiner Berichte? {#reports-color-signification}
 
-In Ihren Berichten angezeigte Farben werden randomisiert und können nicht personalisiert werden. Sie stellen eine Fortschrittsleiste dar und werden angezeigt, damit Sie den in Ihren Berichten erreichten Höchstwert besser hervorheben können.
+Die Farben in Ihren Berichten sind zufällig gewählt und können nicht personalisiert werden. Sie stellen einen Fortschrittsbalken dar und sollen Ihnen helfen, den in den Berichten erzielten Höchstwert besser zu erkennen.
 
-Im folgenden Beispiel hat die Zelle die gleiche Farbe, da ihr Wert 100% beträgt.
+Im folgenden Beispiel hat die Zelle die gleiche Farbe, da ihr Wert 100 % beträgt.
 
 ![](assets/troubleshooting_1.png)
 
-If you change the **Conditional formatting** to custom, when the value reaches the upper limit the cell will get greener. Wenn es jedoch den unteren Grenzwert erreicht, wird er erreicht.
+Wenn Sie die **bedingte Formatierung** in benutzerdefinierte Formatierung ändern, wird die Zelle grüner, wenn der Wert den oberen Grenzwert erreicht. Wenn er umgekehrt jedoch den unteren Grenzwert erreicht, wird er röter.
 
-For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
+Hier legen wir beispielsweise die **Obergrenze** mit 500 und die **Untergrenze** mit 0 fest.
 
 ![](assets/troubleshooting_2.png)
