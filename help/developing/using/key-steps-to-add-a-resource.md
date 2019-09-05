@@ -3,23 +3,23 @@ title: Die wichtigsten Schritte zum Hinzufügen einer Ressource
 seo-title: Die wichtigsten Schritte zum Hinzufügen einer Ressource
 description: Die wichtigsten Schritte zum Hinzufügen einer Ressource
 seo-description: Hier erfahren Sie, wie Sie vorgehen müssen, um eine Ressource im Datenmodell von Adobe Campaign hinzuzufügen.
-page-status-flag: nie aktiviert
-uuid: b 8 a 32659-17 ec -4 e 3 e -92 f 2-0 a 0 d 6 aaf 2629
+page-status-flag: never-activated
+uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird entwickelt
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 7 e 130 e 62-3 f 6 e -41 cc -8108-e 64127 d 8 d 6 ec
+discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8348a9c262b5aab17ddfd1c9e69705687919e94
 
 ---
 
 
-# Key steps to add a resource{#key-steps-to-add-a-resource}
+# Schritte zum Hinzufügen einer Ressource{#key-steps-to-add-a-resource}
 
 Zur Erstellung einer neuen Ressource oder zur Erweiterung einer existierenden Ressource sind die folgenden Schritte erforderlich:
 
