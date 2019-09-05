@@ -3,17 +3,17 @@ title: 'Liste von Komponenten '
 seo-title: 'Liste von Komponenten '
 description: 'Liste von Komponenten '
 seo-description: Hier finden Sie die Liste der in dynamischen Berichten enthaltenen Komponenten sowie ihre Definitionen.
-page-status-flag: nie aktiviert
-uuid: a 2403806-8 df 4-4 bb 1-bac 2-2689 dc 584 ae 0
+page-status-flag: never-activated
+uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
-discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
+discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
@@ -132,11 +132,11 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken {#metrics}
+## Metriken   {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS   {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -257,7 +257,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen   {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -277,7 +277,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Klicken<br /> </td> 
-   <td> Anzahl der Wiedergaben einer Push-Benachrichtigung an das Gerät und durch Klicken auf den Benutzer. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
+   <td> Gibt an, wie oft eine Push-Benachrichtigung an das Gerät geschickt und vom Benutzer angeklickt wurde. Der Benutzer hat die Benachrichtigung entweder angesehen oder verworfen. Wenn er sie angesehen hat, wird sie beim Push-Öffnungstracking berücksichtigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klickrate<br /> </td> 
@@ -293,7 +293,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Impressionen<br /> </td> 
-   <td> Anzahl der Wiedergaben einer Push-Benachrichtigung an das Gerät, die im Benachrichtigungszentrum unverändert gelassen werden. In den meisten Fällen sollte die Impressionsnummer der bereitgestellten Zahl ähnlich sein. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
+   <td> Gibt an, wie oft eine Push-Benachrichtigung an das Gerät gesendet und in der Benachrichtigungszentrale unverändert gelassen wurde. In den meisten Fällen sollte die Anzahl der Impressionen in etwa der Anzahl der Sendungen entsprechen. Dadurch wird sichergestellt, dass das Gerät die Nachricht erhalten und diese Informationen an den Server zurückgegeben hat.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verarbeitet/gesendet<br /> </td> 
@@ -301,7 +301,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Öffnungen<br /> </td> 
-   <td> Gesamtanzahl der an das Gerät übermittelten Push-Benachrichtigungen und angeklickte Benutzer, die die App geöffnet haben. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
+   <td> Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und vom Benutzer angeklickt wurden, sodass die App geöffnet wurde. Dies ist ähnlich der Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.<br /> </td> 
   </tr> 
   <tr> 
    <td> Öffnungsrate<br /> </td> 
@@ -322,7 +322,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten {#in-app-metrics}
+### Metriken zu In-App-Nachrichten   {#in-app-metrics}
 
 <table> 
  <thead> 
