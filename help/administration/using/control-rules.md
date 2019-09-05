@@ -3,17 +3,17 @@ title: Kontrollregeln
 seo-title: Kontrollregeln
 description: Kontrollregeln
 seo-description: Hier erfahren Sie, wie Sie mithilfe von Kontrollregeln die Qualitätsprüfung für Ihre Nachrichten verbessern.
-page-status-flag: nie aktiviert
-uuid: 33 a 1 c 90 c -534 e -4 fe 1-982 c-f 4 e 1858 d 4 d 2 d
+page-status-flag: never-activated
+uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 305 cadde -6424-4 c 6 f-b 11 b -1 e 8 bdbad 6 ef 1
+discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
@@ -34,7 +34,7 @@ In Adobe Campaign ist eine Reihe von nativen Regeln verfügbar, die folgende Sta
 * **[!UICONTROL Prüfung der Teilen-Links zu den sozialen Netzwerken]** (E-Mail): überprüft, wenn im Inhalt ein Link zum Teilen in sozialen Netzwerken (ViralLinks) enthalten ist, ob der dann nötige Mirrorseiten-Link ebenfalls enthalten ist.
 * **[!UICONTROL A/B-Test]**: extrahiert die Test-Population für einen Versand mit A/B-Test.
 
-Sie können die Phase im Lebenszyklus des Versands auswählen, in der die Regel angewendet werden soll. Wählen Sie den gewünschten Wert in der Typologieregel in der Dropdown-Liste des **[!UICONTROL Phase]-Felds aus.**
+Sie können die Phase im Lebenszyklus des Versands auswählen, in der die Regel angewendet werden soll. Wählen Sie den gewünschten Wert in der Typologieregel in der Dropdown-Liste des **[!UICONTROL Phase]**-Felds aus.
 
 ![](assets/typology_phase.png)
 
@@ -60,4 +60,4 @@ Mögliche Werte:
 
 >[!NOTE]
 >
->Aus Sicherheitsgründen kann der Inhalt der Steuerungsregeln nicht geändert werden. The **[!UICONTROL Code]** field is read-only.
+>Aus Sicherheitsgründen kann der Inhalt der Kontrollregeln nicht geändert werden. Das **[!UICONTROL Code]**-Feld ist schreibgeschützt.
