@@ -3,17 +3,17 @@ title: Anwendungsbeispiele zur Abbruchsauslösung
 seo-title: Anwendungsbeispiele zur Abbruchsauslösung
 description: Anwendungsbeispiele zur Abbruchsauslösung
 seo-description: Anhand dieser Anwendungsbeispiele erfahren Sie, wie Sie die Integration von Experience Cloud Triggers verwenden können.
-page-status-flag: nie aktiviert
-uuid: 9 e 236165-afd 5-4155-9151-c 1941 dc 0 af 99
+page-status-flag: never-activated
+uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird integriert
-content-type: Referenz
-topic-tags: working-with-campaign-and-trigger
-discoiquuid: 1 b 9 aeec 5-70 bb -4 d 72-a 3 e 9-12342 abf 08 f 7
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-triggers
+discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
@@ -30,7 +30,7 @@ In diesem Abschnitt finden Sie zwei Anwendungsbeispiele für die Integration von
 >
 >Die in diesem Abschnitt beschriebenen Anwendungsbeispiele verwenden die Experience-Cloud-Visitor-ID. Sie können dafür auch die Experience Cloud Declared ID verwenden. Hash- und verschlüsselte Declared IDs werden auch unterstützt. Sie können E-Mails/SMS an ein Profil senden, das nicht in Campaign vorhanden ist, indem Sie die verschlüsselte E-Mail-Adresse/Mobiltelefonnummer direkt entschlüsseln. In diesem Fall kann jedoch keine Personalisierung verwendet werden, die Profildaten verwendet.
 
-## Voraussetzungen: {#pre-requisites}
+## Voraussetzungen:   {#pre-requisites}
 
 Damit Sie diese Anwendungsbeispiele umsetzen können, benötigen Sie Zugriff auf folgende Lösungen/Core Services:
 
@@ -48,13 +48,13 @@ Weiterführende Informationen dazu finden Sie im Abschnitt [Lösungen und Dienst
 
 In diesem Anwendungsbeispiel erstellen wir einen einfachen Trigger, der jedes Mal ausgelöst wird, wenn ein Kunde einen Besuch auf der Website abbricht. Wir gehen in diesem Beispiel davon aus, dass DTM auf Ihrem System bereits Daten erfasst und zu Adobe Analytics sendet und Sie bereits alle Ereignisse erstellt haben.
 
-### Experience Cloud-Trigger erstellen {#creating-an-experience-cloud-trigger}
+### Experience Cloud-Trigger erstellen   {#creating-an-experience-cloud-trigger}
 
-1. Wählen Sie im Menü von Experience Cloud Activation Core Service die Option **[!UICONTROL Manage Triggers].**
+1. Wählen Sie im Menü von Experience Cloud Activation Core Service die Option **[!UICONTROL Manage Triggers]**.
 
    ![](assets/trigger_uc_browse_1.png)
 
-1. Wählen Sie einen Trigger-Typ aus (in unserem Fall **[!UICONTROL Abbruch]).**
+1. Wählen Sie einen Trigger-Typ aus (in unserem Fall **[!UICONTROL Abbruch]**).
 
    ![](assets/trigger_uc_browse_2.png)
 
@@ -62,22 +62,22 @@ In diesem Anwendungsbeispiel erstellen wir einen einfachen Trigger, der jedes Ma
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Trigger in Adobe Campaign verwenden {#using-the-trigger-in-adobe-campaign}
+### Trigger in Adobe Campaign verwenden   {#using-the-trigger-in-adobe-campaign}
 
 Lassen Sie uns jetzt den erstellten Experience Cloud Trigger in Adobe Campaign verwenden.
 
 Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience Cloud erstellten verknüpft ist.
 
-1. To create the Trigger in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Experience Cloud triggers]**.
+1. Um den Trigger in Adobe Campaign zu erstellen, verwenden Sie das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** &gt; **[!UICONTROL Transaktionsnachrichten]** &gt; **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
 1. Wählen Sie **[!UICONTROL Erstellen aus]**.
-1. Select the Trigger you created earlier and click **[!UICONTROL Next]**.
+1. Wählen Sie den zuvor erstellten Trigger und danach **[!UICONTROL Weiter]** aus.
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. Select the **[!UICONTROL Email]** channel and the **[!UICONTROL Real-time event]** targeting dimension and click **[!UICONTROL Create]**.
+1. Wählen Sie den Kanal **[!UICONTROL E-Mail]** und die Zielgruppendimension **[!UICONTROL Echtzeit-Ereignis]** und danach **[!UICONTROL Erstellen]** aus.
 
    ![](assets/trigger_uc_browse_6bis.png)
 
@@ -85,7 +85,7 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. To display the message template, click the **[!UICONTROL More]** button, on the top right, then click **[!UICONTROL Trigger Transactional Template]** .
+1. Um die Nachrichtenvorlage anzuzeigen, wählen Sie rechts oben die Schaltfläche **[!UICONTROL Mehr]** und danach **[!UICONTROL Trigger-Transaktionsvorlage]** aus.
 
 1. Personalisieren Sie den Inhalt und die Absenderdetails.
 
@@ -95,7 +95,7 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_0.png)
 
-### Das Szenario {#running-the-scenario}
+### Das Szenario   {#running-the-scenario}
 
 1. Am Beginn dieses Anwendungsbeispiels steht eine E-Mail, die mit Adobe Campaign an Ihre Audience gesendet wurde.
 
@@ -121,22 +121,22 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_14.png)
 
-## Trigger für abgebrochene Suche {#search-abandonment-trigger}
+## Trigger für abgebrochene Suche   {#search-abandonment-trigger}
 
 In diesem Anwendungsbeispiel erstellen wir einen Trigger, um Besucher nochmals anzusprechen, die unsere Reisebuchungs-Website besucht, nach einem Reiseziel gesucht, keine passenden Ergebnisse gefunden und schließlich keine Buchung vorgenommen haben. Im Allgemeinen ist dieser Vorgang identisch zum vorherigen Anwendungsbeispiel (siehe [Trigger für abgebrochene Suche](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)). Hier widmen wir uns aber intensiver der Frage, wie die Remarketing-E-Mail-Nachricht personalisiert werden kann.
 
-### Experience Cloud-Trigger erstellen {#creating-an-experience-cloud-trigger-1}
+### Experience Cloud-Trigger erstellen   {#creating-an-experience-cloud-trigger-1}
 
 Folgen Sie zur Erstellung des Experience-Cloud-Triggers der im vorherigen Anwendungsbeispiel beschriebenen Anleitung. Siehe [Experience Cloud-Trigger erstellen](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger). Der wesentliche Unterschied liegt in der Trigger-Definition.
 
 ![](assets/trigger_uc_search_1.png)
 
-Mit dem Bereich **[!UICONTROL Metadaten einschließen]können Sie die von Analytics erfassten Daten an die Trigger-Payload weiterleiten.** In diesem Fall erstellen wir eine benutzerdefinierte eVar (z. B. eVar 3), um den vom Besucher eingegebenen Suchbegriff zu erfassen. Dieser Begriff wird dann in der an denselben Besucher gesendeten Transaktions-E-Mail verwendet.
+Mit dem Bereich **[!UICONTROL Metadaten einschließen]** können Sie die von Analytics erfassten Daten an die Trigger-Payload weiterleiten. In diesem Fall erstellen wir eine benutzerdefinierte eVar (z. B. eVar 3), um den vom Besucher eingegebenen Suchbegriff zu erfassen. Dieser Begriff wird dann in der an denselben Besucher gesendeten Transaktions-E-Mail verwendet.
 
-### Trigger in Adobe Campaign verwenden {#using-the-trigger-in-adobe-campaign-1}
+### Trigger in Adobe Campaign verwenden   {#using-the-trigger-in-adobe-campaign-1}
 
 1. Folgen Sie der im vorherigen Anwendungsbeispiel beschriebenen Anleitung, um den Trigger in Adobe Campaign zu erstellen. Siehe [Trigger in Adobe Campaign verwenden](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign). Der wesentliche Unterschied besteht darin, wie wir in Adobe Campaign die an die Trigger-Payload übermittelten Metadaten verwenden.
-1. Klicken Sie im Suchabbruch-Trigger, den Sie in Adobe Campaign erstellt haben, auf das Symbol **[!UICONTROL Ereignisinhalt und -anreicherung], um sich die Payload anzusehen, die an Adobe Campaign übermittelt werden.**
+1. Klicken Sie im Suchabbruch-Trigger, den Sie in Adobe Campaign erstellt haben, auf das Symbol **[!UICONTROL Ereignisinhalt und -anreicherung]**, um sich die Payload anzusehen, die an Adobe Campaign übermittelt werden.
 
    ![](assets/trigger_uc_search_2.png)
 
@@ -152,7 +152,7 @@ Mit dem Bereich **[!UICONTROL Metadaten einschließen]können Sie die von Analyt
 
    ![](assets/trigger_uc_search_5.png)
 
-### Das Szenario {#running-the-scenario-1}
+### Das Szenario   {#running-the-scenario-1}
 
 1. Der Besucher geht zur Reisebuchungs-Website und sucht nach einem Reiseziel. In unserem Fall möchte der Besucher nach Japan reisen, findet aber kein passendes Angebot. Dies ist unsere Chance, diesen Besucher nochmals anzusprechen und ihm eine andere Reise anzubieten.
 
