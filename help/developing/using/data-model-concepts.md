@@ -3,18 +3,18 @@ title: Datenmodelle
 seo-title: Datenmodelle
 description: Datenmodelle
 seo-description: Hier erfahren Sie über die Datenmodelle von Adobe Campaign und deren Änderungsmöglichkeiten.
-page-status-flag: nie aktiviert
-uuid: cacd 563 f -6936-4 b 3 e -83 e 3-5 d 4 ae 31 d 44 e 8
+page-status-flag: never-activated
+uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird entwickelt
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 4 e 0468 da -3052-4 ce 5-8174-45 aba 1 f 5 c 4 ed
-context-tags: Cusresource, overview; Eventcusresource, overview
+discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
+context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
@@ -28,7 +28,7 @@ Adobe Campaign enthält ein vordefiniertes Datenmodell. Dieses Datenmodell kann 
 >
 >Die Erstellung und Änderung von Ressourcen sind heikle Aufgaben, die nur von erfahrenen Benutzern durchgeführt werden können.
 
-The **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** menu, accessed via the Adobe Campaign logo, allows you to manage your **custom resources**, **publish** them, and **access the diagnostic tools**.
+Das über das Adobe-Campaign-Logo verfügbare Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Entwicklung]** dient der Verwaltung von **benutzerdefinierten Ressourcen**, ihrer **Publikation** und dem **Zugriff auf Monitoring-Tools**.
 
 Die von Adobe Campaign verwendeten Daten werden mithilfe verschiedener Ressourcen beschrieben.
 
