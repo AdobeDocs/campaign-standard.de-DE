@@ -3,18 +3,18 @@ title: Testprofile verwalten und Testsendungen durchführen
 seo-title: Testprofile verwalten und Testsendungen durchführen
 description: Testprofile verwalten und Testsendungen durchführen
 seo-description: Hier erfahren Sie, wie Sie Testprofile und Testsendungen verwalten.
-page-status-flag: nie aktiviert
-uuid: eb 4 d 893 b -3724-4 b 15-9312-1 ec 74784368 d
+page-status-flag: never-activated
+uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird gesendet
-content-type: Referenz
-topic-tags: prepare-and-testing-messages
-discoiquuid: 37320 ec 5-196 c -4260-8156-98932 da 3 e 4 a 5
-context-tags: Seedmember, overview
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
+discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
+context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
@@ -40,7 +40,7 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
 ![](assets/test_profile.png)
 
-## Verwaltung von Testprofilen {#managing-test-profiles}
+## Verwaltung von Testprofilen   {#managing-test-profiles}
 
 ### Testprofile erstellen {#creating-test-profiles}
 
@@ -60,20 +60,20 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
    ![](assets/test_profile_creation_4.png)
 
-1. Enter the contact channels **[!UICONTROL Email, Telephone, Mobile, Mobile app]**, as well as the test profile address if necessary.
+1. Geben Sie die verschiedenen Kontaktkanäle (**[!UICONTROL E-Mail, Telefon, Mobiltelefon, Mobile App]**) sowie bei Bedarf die Adresse des Testprofils an.
 
    >[!NOTE]
    >
    >Sie können ein bevorzugtes E-Mail-Format definieren: **[!UICONTROL Text]** oder **[!UICONTROL HTML]**.
 
 1. Geben Sie einen Ereignistyp sowie die Ereignisdaten an, wenn Sie dieses Testprofil dazu verwenden möchten, die Personalisierung einer Transaktionsnachricht zu testen.
-1. Speichern Sie das Testprofil mithilfe der Schaltfläche **[!UICONTROL Erstellen].**
+1. Speichern Sie das Testprofil mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
 
 Das Testprofil wurde der Liste der Profile hinzugefügt.
 
 **Verwandtes Thema:**
 
-Video [Creating a test profile](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
+Video [Creating a test profile](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
 
 ### Testprofile bearbeiten {#editing-test-profiles}
 
@@ -84,7 +84,7 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Testprofil zu bearbeiten b
 
    ![](assets/test_profile_edit.png)
 
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Speichern]**, falls Sie Änderungen vorgenommen haben. Andernfalls können Sie oben im Bildschirm den Namen des Testprofils anklicken und dann in der sich öffnenden Dropdown-Liste **Testprofile]auswählen, um zur Übersicht der Testprofile zurückzukehren.[!UICONTROL **
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Speichern]**, falls Sie Änderungen vorgenommen haben. Andernfalls können Sie oben im Bildschirm den Namen des Testprofils anklicken und dann in der sich öffnenden Dropdown-Liste **[!UICONTROL Testprofile]** auswählen, um zur Übersicht der Testprofile zurückzukehren.
 
 ## Testversand durchführen {#sending-proofs}
 
@@ -96,7 +96,7 @@ Um Testsendungen vornehmen zu können, muss die Audience Ihrer Nachricht mindest
 
 Gehen Sie in einer Nachricht wie folgt vor, um einen Test zu senden:
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Test senden].**
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Test senden]**.
 
    ![](assets/bat_select.png)
 
@@ -113,21 +113,21 @@ Gehen Sie in einer Nachricht wie folgt vor, um einen Test zu senden:
 
    ![](assets/bat_select2.png)
 
-1. Abgeschickte Testsendungen können mithilfe der Dropdown-Liste **[!UICONTROL Testsendungen]aufgerufen werden.**
+1. Abgeschickte Testsendungen können mithilfe der Dropdown-Liste **[!UICONTROL Testsendungen]** aufgerufen werden.
 
    ![](assets/bat_view.png)
 
-1. Wählen Sie einen Testversand aus, um seine Zusammenfassung anzuzeigen. Wenn Sie sich bei der Auswahl des Testversands einer E-Mail für die Option **E-Mail-Rendering** entschieden haben, können Sie über das Symbol **[!UICONTROL Zugriff auf das E-Mail-Rendering]rechts vom Testversandtitel auf das Ergebnis zugreifen.** Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
+1. Wählen Sie einen Testversand aus, um seine Zusammenfassung anzuzeigen. Wenn Sie sich bei der Auswahl des Testversands einer E-Mail für die Option **E-Mail-Rendering** entschieden haben, können Sie über das Symbol **[!UICONTROL Zugriff auf das E-Mail-Rendering]** rechts vom Testversandtitel auf das Ergebnis zugreifen. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-Nach Prüfung des Testversands durch die Testprofile sind gegebenenfalls Änderungen im Versandinhalt und seiner Form vorzunehmen. Nach jeder Änderung ist der Versand erneut vorzubereiten. Es empfiehlt sich außerdem, einen neuen Testversand zu erzeugen. Alle neuen Tests können ebenfalls mithilfe der Schaltfläche **[!UICONTROL Testsendungen anzeigen]aufgerufen werden.**
+Nach Prüfung des Testversands durch die Testprofile sind gegebenenfalls Änderungen im Versandinhalt und seiner Form vorzunehmen. Nach jeder Änderung ist der Versand erneut vorzubereiten. Es empfiehlt sich außerdem, einen neuen Testversand zu erzeugen. Alle neuen Tests können ebenfalls mithilfe der Schaltfläche **[!UICONTROL Testsendungen anzeigen]** aufgerufen werden.
 
 Senden Sie so viele Testsendungen wie nötig sind, um zu einer endgültigen Version des Nachrichteninhalts zu gelangen. Danach können Sie den Versand an die Hauptzielgruppe senden und den Validierungszyklus beenden.
 
 **Verwandtes Thema:**
 
-Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
 <!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
 
