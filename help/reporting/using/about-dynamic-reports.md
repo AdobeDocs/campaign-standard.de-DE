@@ -3,17 +3,17 @@ title: Über dynamische Berichte
 seo-title: Über dynamische Berichte
 description: Über dynamische Berichte
 seo-description: Mit dynamischen Berichten können Sie Variablen und Dimensionen in Ihre Freiformumgebung ziehen und die Wirkung Ihrer Kampagnen analysieren.
-page-status-flag: nie aktiviert
-uuid: a 84 a 18 bd -4 e 33-466 e-a 6 ce-d 7008 fe 12746
+page-status-flag: never-activated
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb 41 c 38-12 c 1-4625-85 d 5-69627 e 2 f 4 b 39
+discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ![](assets/dynamic_report_intro.png)
 
-Die dynamische Berichterstellung bietet vollständig anpassbare und Echtzeitberichte. Er fügt Zugriff auf Profildaten hinzu, wodurch demografische Analysen nach Profildimensionen wie Geschlecht, Ort und Alter zusätzlich zu den Funktionsdaten der Funktion "Geöffnet" und" Klicks" aktiviert werden können. Mit der Drag &amp; Drop-Oberfläche können Sie Daten untersuchen, bestimmen, wie Ihre E-Mail-Kampagnen gegenüber Ihren wichtigsten Kundensegmenten durchgeführt wurden, und ihre Auswirkungen auf die Empfänger messen.
+Die dynamische Berichterstellung ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte. Durch sie kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. Mit der Drag &amp; Drop-Funktion können Sie Daten analysieren sowie feststellen, wie Ihre E-Mail-Kampagnen bei Ihren wichtigsten Kundensegmenten angekommen sind, und ihre Wirkung auf die Empfänger messen.
 
 Dank dem Drag &amp; Drop-Menü und den anpassbaren Grafiken können Sie mit dieser Funktion Dimensionen, Messwerte und Zeitspannen beliebig kombinieren und so dynamische Berichte mit unbegrenzten Verteilungs- und Vergleichsmöglichkeiten erstellen.
 
@@ -36,13 +36,13 @@ Dank dem Drag &amp; Drop-Menü und den anpassbaren Grafiken können Sie mit dies
 
 * [Verfügbare Berichte](../../reporting/using/defining-the-report-period.md)
 * [Organisationseinheiten](../../administration/using/organizational-units.md)
-* Video [Dynamic reports](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html)
+* Video [Dynamic reports](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html)
 
 ## Zugriff auf dynamische Berichte {#accessing-dynamic-reports}
 
 Der Zugriff auf Berichte erfolgt:
 
-* Über die Startseite durch die Auswahl des Tabs **[!UICONTROL Berichte]** in der Symbolleiste am oberen Bildschirmrand oder die Karte **Berichte], um Berichte zu allen Sendungen anzuzeigen.[!UICONTROL **
+* Über die Startseite durch die Auswahl des Tabs **[!UICONTROL Berichte]** in der Symbolleiste am oberen Bildschirmrand oder die Karte **[!UICONTROL Berichte]**, um Berichte zu allen Sendungen anzuzeigen.
 
    ![](assets/campaign_reports_access.png)
 
@@ -82,9 +82,9 @@ Drei Optionen sind verfügbar:
 * **[!UICONTROL Annehmen]**: Wenn Sie die Nutzervereinbarung akzeptieren, gestatten Sie Adobe Campaign, die personenbezogenen Daten Ihres Kunden zu erfassen und in die USA zu transferieren.
 * **[!UICONTROL Ablehnen]**: Wenn Sie die Nutzervereinbarung ablehnen, erscheinen die Profildimensionen nicht in Ihren Berichten und die personenbezogenen Daten Ihrer Kunden werden weder erfasst noch transferiert.
 
-This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
+Diese Entscheidung ist nicht endgültig. Sie können sie jederzeit ändern durch die Auswahl von **[!UICONTROL Transfer von personenbezogenen Daten in die USA ermöglichen, um Reporting zu Profildaten zu verwenden]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungseinstellungen]** &gt; **[!UICONTROL Optionen]**.
 
-Der Wert kann jederzeit geändert werden. The value -1 corresponds to **[!UICONTROL Ask me later]**, 1 **[!UICONTROL Accept]** and 0 **[!UICONTROL Decline]**.
+Der Wert kann jederzeit geändert werden. Der Wert -1 bedeutet **[!UICONTROL Später fragen]**, 1 bedeutet **[!UICONTROL Akzeptieren]** und 0 bedeutet **[!UICONTROL Ablehnen]**.
 
 ![](assets/pii_window_2.png)
 
