@@ -1,56 +1,56 @@
 ---
-title: Einschränkungen der Einstiegsseite
-seo-title: Einschränkungen der Einstiegsseite
-description: Einschränkungen der Einstiegsseite
+title: Einschränkungen bei Landingpages
+seo-title: Einschränkungen bei Landingpages
+description: Einschränkungen bei Landingpages
 seo-description: Hier erfahren Sie über Landingpages bei Campaign und deren Lebenszyklus.
-page-status-flag: nie aktiviert
-uuid: b 316 bf 47-7 d 98-46 fa-ab 4 f -67 ff 50 de 8095
+page-status-flag: never-activated
+uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: landing-pages
-discoiquuid: ca 8 d 1698-6 e 8 a -4 f 5 a-b 17-74 a 152 e 14286
-context-tags: Landingpage, Wizard; Landingpage, overview; Landingpage, main
+discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
+context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5dbb89eca363f252d0c69126878d4f79320e0f19
 
 ---
 
 
-# Landing page limitations{#landing-page-limitations}
+# Einschränkungen bei Landingpages{#landing-page-limitations}
 
 **Schreiben und Aktualisieren von Daten**
 
-* Landing pages are limited to **[!UICONTROL Profile]** and **[!UICONTROL Subscription]** resources only. Record can be saved and updated from **[!UICONTROL Profile]** and a subscription/unsubscription to a **[!UICONTROL Service]**.
-To learn more on resources configuration, see [Configuring the resource's data structure](../../developing/using/configuring-the-resource-s-data-structure.md).
+* Landingpages sind auf **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]** und über die Anmeldung zu/Abmeldung von einem **[!UICONTROL Dienst]** möglich.
+Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!CAUTION]
 >
->A landing page cannot display or update data from any other resource than **[!UICONTROL Profile]** and **[!UICONTROL Subscription]**.
+>Die Ansicht oder Aktualisierung von auf einer Landingpage eingegebenen Daten ist über keine andere Ressource als **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]** möglich.
 
-**Vorausladen**
+**Vorausfüllen**
 
-* Die Einstiegsseite kann keine Datensatzliste automatisch anzeigen, es kann keine Dienste aufgelistet werden, die bereits abonnent sind. For more information on services, refer to this [page](../../audiences/using/creating-a-service.md).
+* Auf einer Landingpage ist keine automatische Anzeige von Daten möglich. Außerdem können keine Dienste angezeigt werden, für die Profile bereits ein Abonnement besitzen. Weiterführende Informationen zu Diensten finden Sie auf dieser [Seite](../../audiences/using/creating-a-service.md).
 
-* Auf die Einstiegsseite mit einem vorausgefüllten Formular (Daten werden bereits mit der Seite geladen) kann nur über eine Adobe Campaign-E-Email zugegriffen werden. Es ist nicht möglich, auf ein solches Formular von einer Website aus zuzugreifen.
+* Der Zugriff auf eine Landingpage mit einem vorausgefüllten Formular (Daten werden bereits mit der Seite geladen) kann ausschließlich über eine Adobe Campaign-E-Mail erfolgen. Über eine Seite einer Website ist der Zugriff auf ein derartiges Formular nicht möglich.
 
 **Abstimmung**
 
-* Das Abstimmungsverhalten lautet: sobald eine Übereinstimmung gefunden wird, wird der Aussöhnungsprozess beendet. Dies bedeutet, dass die Abstimmung nur für einen Profildatensatz durchgeführt werden kann und nicht für mehrere Datensätze, wenn Duplikate vorhanden sind.
+* Das Abstimmungsverhalten sieht folgendermaßen aus: Sobald eine Übereinstimmung gefunden wird, endet der Abstimmungsprozess. Dies bedeutet, dass die Abstimmung nur für einen Profildatensatz durchgeführt werden kann und nicht für mehrere Datensätze, falls Duplikate vorhanden sind.
 
-Sie möchten beispielsweise die folgende Akquise-Landingpage an Ihre Profile senden, um Ihre Kampagnendatenbank mit den Mobiltelefonnummern Ihrer Profile zu aktualisieren.
+Sie möchten beispielsweise die folgende Akquise-Landingpage an Ihre Profile senden, um Ihre Campaign-Datenbank mit den Mobiltelefonnummern der Profile zu aktualisieren.
 
 ![](assets/landing_page_limitation_1.png)
 
-Wenn ein Profil Ihre Landingpage mit neuen Informationen füllt, aber bereits ein dupliziertes Profil aufweist, wird das passende Profil mit dem frühesten Erstellungsdatum aktualisiert, da Profile je nach Erstellungsdatum priorisiert werden.
+Wenn eines Ihrer Profile auf Ihrer Landingpage neue Daten eingibt, aber bereits ein dupliziertes Profil vorhanden ist, wird das passende Profil mit dem frühesten Erstellungsdatum aktualisiert, da Profile nach ihrem Erstellungsdatum priorisiert werden.
 
-Hier wurde nur das erste Profil aktualisiert, da es der älteste Eintrag war.
+Hier wurde nur das erste Profil aktualisiert, da dessen Eintrag früher erfolgte.
 
 ![](assets/landing_page_limitation_2.png)
 
-**Testen der Einstiegsseite**
+**Testen der Landingpage**
 
-* Einstiegsseiten funktionieren nur in Profilen und keine Testprofile, das bedeutet, dass Einstiegsseiten nicht als Teil eines E-Mail-Tests getestet werden können.
+* Landingpages funktionieren nur mit Profilen, nicht aber mit Testprofilen, weshalb Landingpages nicht im Zuge eines E-Mail-Testversands getestet werden können.
