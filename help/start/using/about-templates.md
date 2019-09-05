@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -54,19 +54,19 @@ Vorlagen werden im Menü **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen
 
 ## Inhaltsvorlagen  {#content-templates}
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). Von dort können Sie Anlandeinhalte, E-Mail-Inhalte und Fragmente verwalten.
+The HTML content templates are accessible from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). Von dort können Sie Anlandeinhalte, E-Mail-Formblätter und auch Fragmente verwalten.
 
 ![](assets/content_templates_list.png)
 
-Die Template aus außerscharbenem Feld werden nur gelesen. Um bearbeitet werden zu können, müssen sie zuerst dupliziert werden.
+Die Template aus außerscharbenem Feld werden nur gelesen. Um einer von ihnen zu begegnen, müssen Sie zuerst das gewünschte Muster duplizieren.
 
 Sie können neue Muster oder Fragmente schaffen und Ihren eigenen Inhalt definieren. Für mehr dazu siehe [ein Inhaltsmuster](../../start/using/about-templates.md#creating-a-content-template) und [ein Inhaltsfragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-Wenn man Inhalte mit dem Email-Designer vertreibt, kann man auch Inhalte herstellen, indem man Ihren Inhalt als Fragment oder Vorlage rettet. Mehr dazu: [Sparen Sie Inhalte als Muster](../../start/using/about-templates.md#saving-content-as-template) und [Sparen Sie Inhalte als Fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+Wenn man Inhalte mit dem Email-Designer vertreibt, kann man auch Inhalte herstellen, indem man Ihren Inhalt als Fragment oder als Vorlage rettet. Mehr dazu: [Sparen Sie Inhalte als Muster](../../start/using/about-templates.md#saving-content-as-template) und [Sparen Sie Inhalte als Fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
 ### Verformungen aus dem Feld-Mail-Postmail {#email-content-templates}
 
-You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+You can manage the HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
 
 In den Template für die Außerdienststellung werden achtzehn mobile optimierte Gliederungen und vier von Behance-Künstlern entworfene Verhaltensmuster in der besten Schicht erfasst. Diese decken die häufigsten Anwendungsfälle ab, wie Willkommensnachrichten für Kunden, Newsletter und Re-Engagement-E-Mails. In diese Vorlagen können Sie Ihre eigenen Markeninhalte einfügen und müssen dadurch E-Mails nicht von Grund auf neu erstellen.
 
