@@ -3,17 +3,17 @@ title: Inhaltsbausteine
 seo-title: Inhaltsbausteine
 description: Inhaltsbausteine
 seo-description: Hier erfahren Sie, welche vordefinierten dynamischen Inhaltsbausteine Sie zur Personalisierung Ihrer Nachrichten verwenden können und wie Sie benutzerdefinierte Inhaltsbausteine erstellen.
-page-status-flag: nie aktiviert
-uuid: 08153 ea 0-42 fb -4 c 0 b -8 d 4 b -9407540748 d 6
+page-status-flag: never-activated
+uuid: 08153ea0-42fb-4c0b-8d4b-9407540748d6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: entwerfen
-content-type: Referenz
-topic-tags: personalize-content
-discoiquuid: 3 ffda 143-f 42 a -4 cf 9-b 43 c-e 53 d 24549025
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: personalizing-content
+discoiquuid: 3ffda143-f42a-4cf9-b43c-e53d24549025
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaign bietet eine Reihe von vorkonfigurierten Inhaltsbausteinen. Diese 
 
 So fügen Sie einen Inhaltsbaustein hinzu:
 
-1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert content block]**. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/about-email-content-design.md#email-designer-interface).
+1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Inhaltsbaustein einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/about-email-content-design.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
@@ -67,8 +67,8 @@ Sie haben die Möglichkeit, weitere Inhaltsbausteine zu erstellen, die in Nachri
 
 Gehen Sie wie folgt vor, um einen Inhaltsbaustein zu erstellen:
 
-1. Greifen Sie über das erweiterte Menü und die Schaltflächen **[!UICONTROL Ressourcen &gt; Inhaltsbausteine]auf die Liste der Inhaltsbausteine zu.**
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]oder duplizieren Sie einen bereits existierenden Inhaltsbaustein.**
+1. Greifen Sie über das erweiterte Menü und die Schaltflächen **[!UICONTROL Ressourcen &gt; Inhaltsbausteine]** auf die Liste der Inhaltsbausteine zu.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]** oder duplizieren Sie einen bereits existierenden Inhaltsbaustein.
 
    ![](assets/content_bloc_01.png)
 
@@ -80,29 +80,29 @@ Gehen Sie wie folgt vor, um einen Inhaltsbaustein zu erstellen:
    * **[!UICONTROL Landingpage:]** Der Inhaltsbaustein kann nur in einer Landingpage verwendet werden.
    ![](assets/content_bloc_02.png)
 
-1. You can select a **[!UICONTROL Targeting dimension]**. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Zielgruppendimensionen](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
+1. Sie können eine **[!UICONTROL Zielgruppendimension]** auswählen. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Zielgruppendimensionen](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
-1. Wählen Sie gegebenenfalls die Option **[!UICONTROL Formatabhängig]aus, um zwei verschiedene Bausteine zu definieren: einen für E-Mails im HTML-Format und einen für E-Mails im Textformat.** Im unteren Teil des Editors werden in diesem Fall zwei Tabs (HTML und Text) angezeigt, um den jeweiligen Inhalt zu definieren.
+1. Wählen Sie gegebenenfalls die Option **[!UICONTROL Formatabhängig]** aus, um zwei verschiedene Bausteine zu definieren: einen für E-Mails im HTML-Format und einen für E-Mails im Textformat. Im unteren Teil des Editors werden in diesem Fall zwei Tabs (HTML und Text) angezeigt, um den jeweiligen Inhalt zu definieren.
 
    ![](assets/content_bloc_03.png)
 
-1. Geben Sie den Inhalt des bzw. der Inhaltsbausteine an und bestätigen Sie die Angaben mithilfe der Schaltfläche **[!UICONTROL Erstellen].**
+1. Geben Sie den Inhalt des bzw. der Inhaltsbausteine an und bestätigen Sie die Angaben mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
 
 Der Inhaltsbaustein kann nun im Inhaltseditor einer Nachricht oder einer Landingpage verwendet werden.
 
 >[!CAUTION]
 >
->When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. In HTML werden die Leerzeichen auf dem Bildschirm angezeigt und wirken sich daher auf Ihr Inhaltslayout aus.
+>Achten Sie darauf, dass beim Bearbeiten des Inhalts eines Bausteins keine zusätzlichen Leerzeichen zwischen dem Anfang und dem Ende Ihrer *if*-Anweisungen vorhanden sind. In HTML werden die Leerzeichen auf dem Bildschirm angezeigt und wirken sich daher auf die Darstellung des Inhalts aus.
 
-## Über Zielgruppendimensionen {#about-targeting-dimension}
+## Über Zielgruppendimensionen   {#about-targeting-dimension}
 
 Mit der Zielgruppendimension können Sie festlegen, in welchem Nachrichtentyp Sie den Inhaltsbaustein verwenden können. Auf diese Weise wird verhindert, dass in einer Nachricht unpassende Bausteine verwendet werden, die zu Fehlern führen könnten.
 
 Beim Bearbeiten einer Nachricht können Sie nur Inhaltsbausteine mit einer Zielgruppendimension auswählen, die mit der Zielgruppendimension der Nachricht kompatibel ist.
 
-Beispielsweise ist die Zielgruppendimension des Bausteins **[!UICONTROL Abmelde-Link]** **[!UICONTROL Profile], da diese Zielgruppendimension Personalisierungsfelder speziell für die Ressource** Profile **enthält.** Therefore, you cannot use an **[!UICONTROL Unsubscription link]** block in an [event transactional message](../../channels/using/event-transactional-messages.md), because the targeting dimension of that type of message is **[!UICONTROL Real-time events]**. Sie können aber den Baustein **Abmelde-Link** in einer [Profil-Transaktionsnachricht](../../channels/using/profile-transactional-messages.md) verwenden, weil die Zielgruppendimension dieses Nachrichtentyps **Profile** lautet. Der Baustein **[!UICONTROL Link zur Mirrorseite]hat keine Zielgruppendimension, deshalb kann er in jeder beliebigen Nachricht verwendet werden.**
+Beispielsweise ist die Zielgruppendimension des Bausteins **[!UICONTROL Abmelde-Link]** **[!UICONTROL Profile]**, da diese Zielgruppendimension Personalisierungsfelder speziell für die Ressource **[!UICONTROL Profile]** enthält. Folglich kann der Baustein **[!UICONTROL Abmelde-Link]** nicht in einer [Ereignis-Transaktionsnachricht](../../channels/using/event-transactional-messages.md) verwendet werden, weil die Zielgruppendimension dieses Nachrichtentyps **[!UICONTROL Echtzeit-Ereignisse]** lautet. Sie können aber den Baustein **Abmelde-Link** in einer [Profil-Transaktionsnachricht](../../channels/using/profile-transactional-messages.md) verwenden, weil die Zielgruppendimension dieses Nachrichtentyps **Profile** lautet. Der Baustein **[!UICONTROL Link zur Mirrorseite]** hat keine Zielgruppendimension, deshalb kann er in jeder beliebigen Nachricht verwendet werden.
 
 Wenn Sie dieses Feld leer lassen, ist der Inhaltsbaustein unabhängig von der Zielgruppendimension mit allen Nachrichten kompatibel. Wenn Sie eine Zielgruppendimension festlegen, ist dieser Baustein nur mit Nachrichten kompatibel, die dieselbe Zielgruppendimension aufweisen.
 
