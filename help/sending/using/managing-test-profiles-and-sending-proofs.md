@@ -14,8 +14,8 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
+translation-type: tm+mt
+source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
 
@@ -35,8 +35,8 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
    Die Funktion **E-Mail-Rendering** ist schreibgeschützt. Testprofile mit diesem Verwendungszweck sind ausschließlich nativ in Adobe Campaign enthalten.
 
-* **Falle** - in diesem Fall wird die Nachricht gleichermaßen an das Testprofil wie an die Hauptzielgruppe gesendet. Ziel ist es, insbesondere zu überwachen, ob Ihre Kundendatei für unlautere Zwecke verwendet wird.
-* **Vorschau** - durch Auswahl eines Testprofils lässt sich die korrekte Umsetzung von Personalisierungselementen innerhalb einer Nachricht prüfen.
+* Als **Falle**: die Nachricht wird an das Prüfprofil gesandt, ebenso wie sie an das Hauptziel gesandt wird. Sehen Sie die [Fallen](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)aus.
+* **Vorschau** - durch Auswahl eines Testprofils lässt sich die korrekte Umsetzung von Personalisierungselementen innerhalb einer Nachricht prüfen. Siehe [Vorschau der Nachricht erzeugen](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
@@ -73,7 +73,7 @@ Das Testprofil wurde der Liste der Profile hinzugefügt.
 
 **Verwandtes Thema:**
 
-Video [Creating a test profile](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
+Video [Creating a test profile](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
 
 ### Testprofile bearbeiten {#editing-test-profiles}
 
@@ -127,43 +127,48 @@ Senden Sie so viele Testsendungen wie nötig sind, um zu einer endgültigen Vers
 
 **Verwandtes Thema:**
 
-Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
-<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
+## Verwendung von Fallen {#using-traps}
 
-This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
+Bei Verwendung von Fallen wird die Meldung an das Testprofil genau so geschickt, wie es an das Hauptziel geschickt wird, um festzustellen, ob Ihre Kundendatei betrügerisch verwendet wird.
 
-1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+Fallen waren ursprünglich für Direktsendungen konzipiert. Sie erlauben es Ihnen,
+* Überprüfen Sie, dass Ihr Direktpostanbieter die Mitteilung tatsächlich übermittelt.
+* Erhalten Sie die Post gleichzeitig und unter den gleichen Bedingungen wie Ihre Kunden.
+* Führen Sie eine genaue Kopie der versandten Post.
+* Überprüfen Sie, dass Ihre Klientenliste von Ihrem Direktpostanbieter nicht missbraucht wird. Wenn eine andere Mitteilung an Ihre Adresse geschickt wird, kann Ihre Klientenakte ohne Ihr Wissen verwendet worden sein. Deshalb sollte die Anschrift des Prüfprofils nur dazu verwendet werden.
 
-    This test profile becomes part of the targeted audience.
+Weitere Informationen über die Zugabe von Fallen an ein Direktes Publikum finden [Sie in den Nachprüfungs- und Tonnare-Profilen](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-   >[!NOTE]
-   >
-   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
+Für die anderen Kommunikationskanäle können Sie Ihren Hauptzielen mit Fallprofilen hinzufügen, um
+* Überprüfen Sie, dass Ihre Nachricht erfolgreich geschickt wurde.
+* Nimm eine genaue Kopie deiner Nachricht.
+* Gleis, wenn es geschickt und empfangen wurde.
 
-1. Access the marketing activity list and create a test workflow.
-
-   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
-
-   The Query activity is presented in the [Query](../../automating/using/query.md) section.
-
-1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
-
-1. Drag and drop an **Email delivery** activity into your workflow and open it.
-
-   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
-
-1. From the email message dashboard, select the test profile with trap usage that you created.
-
-1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
-
-1. Save the email and start the workflow.
-
-During message preparation, the target count includes the test profile that you selected.
-Once the message is sent, additional data is replaced by data from a real profile.
+Um ein Testprofil als Falle zu benutzen, muss es in das Publikum Ihrer Botschaft aufgenommen werden.
 
 >[!NOTE]
+>
+>Im Gegensatz zu Prüfprofilen, die für [Nachweise](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) oder [E-Mail-Tierkörperbeseitigung](../../sending/using/email-rendering.md)verwendet werden, wird die Meldung gleichzeitig an das Hauptziel und die als Fallen verwendeten Prüfprofile übermittelt.
+
+Bei der Definition des Zuschauers der Botschaft:
+
+1. Von den **[!UICONTROL Prüfprofilen ist ein]** Prüfprofil auszuwählen. Sorgen Sie dafür, **[!UICONTROL dass sie Falle als]** vorgesehene Verwendung hat.
+
+   ![](assets/trap_select.png)
+
+1. Sobald Ihr Nachrichtengehalt fertig ist, klicken Sie den **[!UICONTROL Knopf.]** Siehe [Versandvorbereitung](../../sending/using/preparing-the-send.md).
+   >[!NOTE]
    >
-   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
+   >Sorgen Sie dafür, dass Sie ein Hauptziel gewählt haben. Andernfalls kann Ihre Botschaft nicht übermittelt werden.
+
+1. Wählen Sie die **[!UICONTROL Bestätigen]**-Schaltfläche aus. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
+
+   ![](assets/trap_confirm.png)
+
+Die Meldung wird an das Hauptziel und das Prüfprofil gesandt.
+
+>[!NOTE]
+>
+>Bei Verwendung eines Prüfprofils als Falle für angereicherte Felder in einer Nachricht werden die entsprechenden zusätzlichen Daten zufällig von einem tatsächlichen Zielprofil ausgewählt und dem Untersuchungsprofil der Tonnare zugeordnet. Weitere Informationen zur Anreicherung [](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file)finden Sie hier.
