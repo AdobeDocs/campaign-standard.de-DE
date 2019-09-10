@@ -15,7 +15,7 @@ context-tags: workflow, use-case, segmentierung
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Sie können eine E-Mail an Kunden senden: einer für die kunden, die vor weniger
 1. Bei **[!UICONTROL Abschlagsabzügen und]****[!UICONTROL Abschlagsprofilen Profile und]** Auswählen **[!UICONTROL nicht mehr per E-Email]** mit dem Wert **[!UICONTROL Nr]**.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 
+![](assets/wf-complement-query.png)
+
 ## Schaffen eine Segmentierung {#create-a-segmentation-activity}
 
 1. Bei **[!UICONTROL Tätigkeiten]** &gt; **[!UICONTROL Zielstreben]**, Abschleppung und Absturz einer **[!UICONTROL Segmentierung]** .
@@ -46,6 +48,8 @@ Sie können eine E-Mail an Kunden senden: einer für die kunden, die vor weniger
 1. Bei **[!UICONTROL fortgeschrittenen Optionen]** ist es möglich **[!UICONTROL , die Generierung zu ergänzen,]** um ein Segment zu schaffen, das die verbleibenden Empfänger betrifft.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
+
+![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
@@ -65,6 +69,8 @@ Sie können eine E-Mail an Kunden senden: einer für die kunden, die vor weniger
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
 
 Weitere Informationen sind [der Konzeption einer E-Mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)zu entnehmen.
+
+![](assets/wf-deliveries-with-a-complement.png)
 
 **Verwandte Themen:**
 
