@@ -14,8 +14,8 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 Die Aktivität **[!UICONTROL Datei laden]** erlaubt den Import von strukturierten Dateidaten, um diese in Adobe Campaign verwenden zu können. Die importierten Daten werden nur vorübergehend gespeichert und erfordern die Verwendung einer weiteren Workflow-Aktivität, um definitiv in die Adobe-Campaign-Datenbank integriert zu werden.
 
-## Anwendungskontext  {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert. Bei der zu ladenden Datei kann es sich z. B. um eine Kontaktliste handeln.
 
@@ -152,11 +152,13 @@ Verschiedene Optionen zum Umgang mit den Spaltenwerten stehen zur Auswahl:
    * **[!UICONTROL NULL in entsprechendes Feld einfügen]**: Leere Werte sind zulässig. Der Wert NULL wird eingefügt.
    * **[!UICONTROL Fehler erzeugen]**: Erzeugt im Fall eines Leerwerts einen Fehler.
 
-## Beispiel {#example}
+## Beispiel 1: Aktualisierung der Datenbank {#example-1-update-the-database}
 
 Die Ladeaktivität dient in erster Linie der Strukturierung von Daten, die mithilfe der Dateiübertragung in die bereits in der Datenbank vorhandenen Daten integriert werden sollen.
 
 Das folgende Beispiel zeigt das Laden einer Datei, die mithilfe einer Dateiübertragung abgerufen wurde. Im Anschluss erlauben die enthaltenen Daten die Aktualisierung der Datenbank. Dieser Workflow dient der Profilanreicherung der Adobe-Campaign-Datenbank oder der Aktualisierung bereits existierender Profile anhand aus der importierten Datei stammender Daten.
+
+![](assets/load_file_workflow_ex1.png)
 
 1. Ziehen Sie eine **[!UICONTROL Dateiübertragung]** in den Workflow-Arbeitsbereich und konfigurieren Sie sie dahingehend, dass die gewünschte Datei abgerufen wird.
 1. Schließen Sie eine **[!UICONTROL Datei laden]**-Aktivität an die Aktivität **[!UICONTROL Dateiübertragung]** an.
@@ -169,3 +171,55 @@ Das folgende Beispiel zeigt das Laden einer Datei, die mithilfe einer Dateiüber
 1. Schließen Sie nun ein **[!UICONTROL Daten-Update]** an die **[!UICONTROL Datei laden]**-Aktivität an und konfigurieren Sie es. Lesen Sie diesbezüglich auch den Abschnitt [Daten-Update](../../automating/using/update-data.md).
 
 Starten Sie den Workflow. Die gewünschte Datei wird geladen, die Daten werden extrahiert und die Adobe-Campaign-Datenbank wird angereichert.
+
+## Beispiel 2: Versendung einer E-Mail mit angereicherten Feldern {#example-2-email-with-enriched-fields}
+
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+
+Die Ladatdatei ermöglicht auch, eine E-Mail mit zusätzlichen Daten aus einem externen Datei im selben Arbeitsfluss zu senden.
+
+Das nachstehende Beispiel zeigt, wie eine E-Mail mittels zusätzlicher Daten aus einem externen Datei durch die Belastungsdatei übermittelt werden kann. In diesem Beispiel enthält die externe Datei eine Liste von Profilen mit ihrer zugehörigen Kontonummer. Sie wollen diese Daten einführen, um jedes Profil mit ihrer Kontonummer zu senden.
+
+![](assets/load_file_workflow_ex2.png)
+
+1. Ziehen Sie eine **[!UICONTROL Query]** -Aktivität in Ihren Arbeitsfluss und öffnen Sie ihn, um das Hauptziel zu definieren.
+
+   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
+
+1. Stell eine **[!UICONTROL Lastdatei]** vor, um bestimmte Daten einem Profil zuzuweisen. In diesem Beispiel ist eine Datei mit Kontonummern mit einigen Profilen der Datenbank zu erstellen.
+
+   ![](assets/load_file_activity.png)
+
+1. Ziehen Sie eine **[!UICONTROL Anreicherungsaktivität]** in Ihren Arbeitsablauf ein und verbinden Sie die Belastungs- und Verstelltätigkeiten an sie.
+
+1. In den **[!UICONTROL fortgeschrittenen Beziehungen]** zur Anreicherung der Anreicherung sind die **[!UICONTROL 0 oder 1 Kardinalität zu wählen]** und die für die Aussöhnung zu verwendenden Felder festzulegen. Hier verwenden wir den letzten Namen, um die Daten mit den Datenprofilen in Einklang zu bringen.
+
+   ![](assets/load_file_enrichment_relation.png)
+
+1. In der **[!UICONTROL Zusätzlichen Datenbank]** sind die Elemente auszuwählen, die Sie in Ihrer E-Email verwenden wollen. Hier wählen Sie Kontonummer (Spalte aus der Datei, die Sie durch die Ladatsaktivität abgerufen haben).
+
+   ![](assets/load_file_enrichment_select_element.png)
+
+   <!--![](assets/load_file_enrichment_additional_data.png)-->
+
+   For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
+
+1. Ziehen Sie eine **[!UICONTROL Segmentierung]** in Ihren Arbeitsfluss und öffnen Sie sie, um das Hauptziel zu präzisieren.
+
+   ![](assets/load_file_segmentation.png)
+
+   For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
+
+1. Ziehen Sie einen **[!UICONTROL E-Mail-Versand]in den Workflow-Arbeitsbereich und öffnen Sie ihn.**
+
+   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
+
+1. Ein Personalisierungsfeld hinzufügen und die zusätzlichen Daten, die in der Anreicherungsaktivität (hier Kontonummer) definiert sind, aus den **[!UICONTROL Zusatzdaten (targetdata)]** angeben. Dies ermöglicht dynamisch die Kontonummer jedes Profils im E-Mail-Gehalt.
+
+   ![](assets/load_file_perso_field.png)
+
+1. Sparen Sie die E-Mail und beginnen Sie den Arbeitsfluss.
+
+Die E-Mail wird an das Ziel geschickt. Jedes Profil erhält die E-Mail mit der entsprechenden Kontonummer.
+
+![](assets/load_file_email.png)
