@@ -15,7 +15,7 @@ context-tags: 'Arbeitsfluss, Einsatz-Case, Abfrage, Abwarten, Lieferung '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Sie können eine E-Mail an Kunden schicken und dann an diejenigen, die die Post 
 1. Bei **[!UICONTROL Abschlagsabzügen und]****[!UICONTROL Abschlagsprofilen Profile und]** Auswählen **[!UICONTROL nicht mehr per E-Email]** mit dem Wert **[!UICONTROL Nr]**.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 
+![](assets/wf-complement-query.png)
+
 ## Creating an email delivery{#creating-an-email-delivery}
 
 1. Stell eine**[!UICONTROL E-Mail-Lieferung]nach jedem Segment vor.
@@ -44,7 +46,6 @@ Sie können eine E-Mail an Kunden schicken und dann an diejenigen, die die Post 
 1. Wählen **[!UICONTROL Sie einen freien Übergang ohne die Bevölkerung]** und klicken **[!UICONTROL Sie als Nächstes]**.
 1. Wählen Sie eine E-Email-Vorlage und klicken Sie **[!UICONTROL als Nächstes]**.
 1. Geben Sie die E-Email-Eigenschaften und klicken **[!UICONTROL Sie.]**
-1. Gib das E-Email **-Mail-Angebot**.
 1. Um das Layout Ihrer E-Email zu schaffen, klicken Sie auf **[!UICONTROL den Email Designer]**.
 1. Elemente einfügen oder ein bestehendes Muster auswählen.
 1. Personalisierung Ihrer E-Email mit spezifischen Angeboten für jeden Ort. Für weitere Informationen ist eine E-Email zu [erstellen](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
@@ -76,6 +77,8 @@ Sie können eine E-Mail an Kunden schicken und dann an diejenigen, die die Post 
 Weitere Informationen sind [der Planung eines SMS](../../channels/using/creating-an-sms-message.md)zu entnehmen.
 1. Klick **[!UICONTROL , um]** deine Layout zu überprüfen.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **Verwandte Themen:**
 
