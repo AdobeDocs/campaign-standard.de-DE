@@ -14,8 +14,8 @@ discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -100,3 +100,4 @@ Das folgende Beispiel zeigt einen Geburtstags-Workflow. Jeden Tag wird eine SMS 
 
    ![](assets/wkf_sms_example_4.png)
 
+Ein weiteres Beispiel für SMS-Lieferung in einem Arbeitsfluss: [Siehe Use Case: Neuausrichtung der Arbeitsströme, die eine neue Lieferung an Nicht-Öffner bewirken](../../automating/using/workflow-cross-channel-retargeting.md).
