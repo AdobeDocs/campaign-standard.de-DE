@@ -1,10 +1,10 @@
 ---
-product: Adobe-Kampagne
-sub-product: Wahlkampfstandard
+product: Adobe Campaign
+sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
 
 ---
 
@@ -12,8 +12,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 # Adobe Campaign Standard – Hilfe {#using}
 
 + [Produktdokumentation](campaign-standard-home.md)
-+ Versionshinweise  {#release-notes}
-   + [Versionshinweise  ](rn/using/release-notes.md)
++ Versionshinweise {#release-notes}
+   + [Versionshinweise](rn/using/release-notes.md)
    + [Versionshinweise 2018](rn/using/release-notes-2018.md)
    + [Versionshinweise 2017](rn/using/release-notes-2017.md)
    + [Versionshinweise 2015–2016](rn/using/release-notes-2015-2016.md)
@@ -84,6 +84,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Push-Benachrichtigung vorbereiten und senden](channels/using/preparing-and-sending-a-push-notification.md)
       + [Push-Benachrichtigung anpassen](channels/using/customizing-a-push-notification.md)
       + [Mehrsprachige Push-Benachrichtigungen erstellen](channels/using/creating-a-multilingual-push-notification.md)
+      + [Erstellung und Aktualisierung von Profilinformationen auf der Grundlage mobiler Anwendungsdaten](channels/using/updating-profile-with-mobile-app-data.md)
    + In-App-Messaging {#in-app-messaging}
       + [Über In-App-Messaging](channels/using/about-in-app-messaging.md)
       + [In-App-Nachricht vorbereiten und senden](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -198,7 +199,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Visualisierungen hinzufügen](reporting/using/adding-visualizations.md)
       + [Komponenten hinzufügen](reporting/using/adding-components.md)
       + [Benutzerdefinierte Profildimension erstellen](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Erstellung eines Berichts auf der Grundlage von Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
+      + [Erstellen eines Berichts auf der Basis von Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
 + Integration mit Adobe Cloud {#integrating-with-adobe-cloud}
    + [Über Campaign-Integrationen](integrating/using/about-campaign-integrations.md)
    + Verwenden von Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
@@ -241,7 +242,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Workflow-Daten verwenden](automating/using/using-workflow-data.md)
       + [Workflow ausführen](automating/using/executing-a-workflow.md)
       + [Workflow mit externen Parametern aufrufen](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [Workflow best practices](automating/using/best-practices-workflows.md)
+      + [Best Practices bei Workflows](automating/using/best-practices-workflows.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
       + [Über Zielgruppenbestimmungsaktivitäten](automating/using/about-targeting-activities.md)
       + [Abfrage](automating/using/query.md)
@@ -302,14 +303,14 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Status der Ressourcen](developing/using/resource-statuses.md)
       + [Änderungen an Datenmodellen verfolgen](developing/using/monitoring-data-model-changes.md)
    + Ressource hinzufügen oder erweitern {#adding-or-extending-a-resource}
-      + [Wichtige Schritte zur Aufstockung einer Ressource](developing/using/key-steps-to-add-a-resource.md)
+      + [Schritte zum Hinzufügen einer Ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Ressource erstellen oder erweitern](developing/using/creating-or-extending-the-resource.md)
       + [Datenstruktur der Ressource konfigurieren](developing/using/configuring-the-resource-s-data-structure.md)
       + [Bildschirmdefinition konfigurieren](developing/using/configuring-the-screen-definition.md)
       + [Filterdefinition konfigurieren](developing/using/configuring-filter-definition.md)
       + [Datenbankstruktur aktualisieren](developing/using/updating-the-database-structure.md)
       + [Ressourcen löschen](developing/using/deleting-a-resource.md)
-      + [Eine Ressource unter Verwendung eines Verbundschlüssels für die Identifizierung](developing/using/uc-calling-resource-id-key.md)
+      + [Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel](developing/using/uc-calling-resource-id-key.md)
    + Anwendungsbeispiel: API erweitern {#use-case--extending-the-api}
       + [Über die API-Erweiterung](developing/using/about-extending-the-api.md)
       + [Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
@@ -322,7 +323,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
    + [Über die Verwaltung von Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Benutzer und Sicherheit {#users-and-security}
       + [Über die Zugriffsverwaltung](administration/using/about-access-management.md)
-      + [Nutzermanagement](administration/using/users-management.md)
+      + [Benutzerverwaltung](administration/using/users-management.md)
       + [Organisationseinheiten](administration/using/organizational-units.md)
       + [Liste der Rollen](administration/using/list-of-roles.md)
       + [Gruppen und Benutzer verwalten](administration/using/managing-groups-and-users.md)
