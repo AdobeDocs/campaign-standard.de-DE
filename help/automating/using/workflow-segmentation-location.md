@@ -15,7 +15,7 @@ context-tags: 'Arbeitsfluss, Verwendung, Abfrage, Segmentierung, Lieferung '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -35,6 +35,8 @@ Sie können eine E-Mail an Kunden mit Angeboten in ihren lokalen Geschäften sch
 1. Bei **[!UICONTROL Abzügen]**, Abbremsungen **[!UICONTROL und Abschlagsprofilen ist]** die E **[!UICONTROL -Email]** mit dem Betreiber **[!UICONTROL nicht leer]**.
 1. Bei **[!UICONTROL Abschlagsabzügen und]****[!UICONTROL Abschlagsprofilen Profile und]** Auswahl der Felder **[!UICONTROL nicht mehr per E-Email]** mit dem Wert **[!UICONTROL Nr]**.
 1. Klicken **[!UICONTROL Sie bitte]** zweimal.
+
+![](assets/wf-complement-query.png)
 
 ## Creating a Segmentation activity{#creating-a-segmentation-activity}
 
@@ -63,6 +65,8 @@ Weitere Informationen sind [der Konzeption einer E-Mail](../../designing/using/a
 
 1. Klick **[!UICONTROL , um]** deine Layout zu überprüfen.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
+
+![](assets/wf-segmentation-location.png)
 
 **Verwandte Themen:**
 
