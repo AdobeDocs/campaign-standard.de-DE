@@ -14,8 +14,8 @@ discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
 
@@ -38,8 +38,10 @@ Für jedes Zielgruppenprofil wird eine neue Zeile der Extraktionsdatei hinzugef�
 
 ## Test- und Fallen-Profile hinzufügen  {#adding-test-and-trap-profiles}
 
-Fügen Sie Testprofile hinzu, sodass Sie Ihre Datei mit einer kleinen Anzahl von Profilen testen können. Dadurch können Sie rasch eine Beispieldatei erstellen, um ihren Aufbau zu testen und zu validieren, bevor Sie die eigentliche Datei vorbereiten. Lesen Sie diesbezüglich den Abschnitt [Testprofile verwalten und Testsendungen durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Fügen Sie Testprofile hinzu, sodass Sie Ihre Datei mit einer kleinen Anzahl von Profilen testen können. Dadurch können Sie rasch eine Beispieldatei erstellen, um ihren Aufbau zu testen und zu validieren, bevor Sie die eigentliche Datei vorbereiten. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-Die Verwendung von Fallen ist für den Briefpost-Versand besonders wichtig. Beispielsweise können Sie damit sicherstellen, dass Ihr Briefpost-Dienstleister selbst die Nachricht aussendet und Ihre Kundenliste nicht an andere Dienstleister weitergibt.
+Die Verwendung von Fallen ist für den Briefpost-Versand besonders wichtig. Sie können überprüfen, ob Ihr Direktpostanbieter die Mitteilung tatsächlich übermittelt und Ihre Klienten nicht an einen anderen Anbieter schicken wird. Sehen Sie die [Fallen](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)aus.
 
-Für den Briefpost-Versand werden Fallen während der Extraktion hinzugefügt und im Ausgabedokument unter die restlichen Informationen gemischt. Standardmäßig werden sie in der Sortierreihenfolge der Ausgabedatei eingefügt, Sie können sie aber auch am Ende oder Anfang der Datei einfügen (Tab **[!UICONTROL Fallen-Einfüge-Modus]**).
+Für den Briefpost-Versand werden Fallen während der Extraktion hinzugefügt und im Ausgabedokument unter die restlichen Informationen gemischt. Sie werden in die Sortierreihenfolge der Outputdatei aufgenommen, aber Sie können sie am Ende oder Anfang des Datei einfügen. Bei der Definition des Zuschauerpublikums die gewünschte Option aus der Hab **[!UICONTROL der Tonnare]** auswählen.
+
+![](assets/direct_mail_trap_insertion_mode.png)
