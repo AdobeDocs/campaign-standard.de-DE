@@ -14,8 +14,8 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+translation-type: tm+mt
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -60,7 +60,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
 **Verwandtes Thema:**
 
-Video [Creating a workflow](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+Video [Creating a workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
 
 ## Aktivitäten hinzufügen und verbinden {#adding-and-linking-activities}
 
@@ -99,6 +99,13 @@ Nach der Verknüpfung Ihrer Workflow-Aktivitäten können Sie die Transitionen z
 
 Darüber hinaus können Sie mit den Aktivitäten **[!UICONTROL Targeting]** und **[!UICONTROL Daten-Management (ETL)]** **Segmentcodes** für die ausgehenden Transitionen definieren. Anschließend können Sie Berichte basierend auf diesen Segmentcodes erstellen, um die Effizienz Ihrer Marketingkampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
 
+**Arbeitsströme im Arbeitsablauf:**
+
+* [Anwendungsfall: Schaffung einer einmaligen E-Mail-Zustellung](../../automating/using/workflow-weekly-offer.md)
+* [Anwendungsfall: Schaffung einer Liefersegmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
+* [Anwendungsfall: Schaffung von Lieferungen mit Ergänzung](../../automating/using/workflow-created-query-with-complement.md)
+* [Anwendungsfall: Neuausrichtung der Arbeitsabläufe, die eine neue Lieferung an Nichtöffnungs-](../../automating/using/workflow-cross-channel-retargeting.md)
+
 ## Aktivitäten konfigurieren {#configuring-activities}
 
 Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Daten nur korrekt, wenn sie konfiguriert werden. Jede Aktivität enthält mehrere Tabs zur Verwaltung mehrerer Konfigurationen und aktivitätsspezifischer Optionen, wie zum Beispiel ausgehender Transitionen, Titel usw.
@@ -109,4 +116,3 @@ Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Dat
 1. Definieren Sie alle Optionen, die Sie zur Verarbeitung der Daten benötigen. Die möglichen Optionen für jede Aktivität erfahren Sie im jeweiligen Abschnitt dieser Dokumentation.
 1. Speichern Sie die Aktivität und wiederholen Sie das Verfahren für jede Aktivität im Workflow.
 1. Speichern Sie den Workflow.
-
