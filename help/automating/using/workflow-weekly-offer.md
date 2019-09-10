@@ -15,7 +15,7 @@ context-tags: workflow, use-case, search, delivery, schedule
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -53,6 +53,8 @@ Sie können jeden Dienstag eine E-Email an alle Kunden für Sonderangebote schic
 1. Bei **[!UICONTROL Abgrenzungen]** &gt; **[!UICONTROL Allgemeine]** Profile hinzufügen und nicht **[!UICONTROL mehr per E-Email]** mit dem Wert **[!UICONTROL Nr]**.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 
+![](assets/wf-complement-query.png)
+
 ## Creating an Email delivery{#creating-an-email-delivery}
 
 1. Bei **[!UICONTROL Tätigkeiten]** &gt; **[!UICONTROL Kanäle]**, Schleppen und Abstürzen einer **[!UICONTROL E-Mail-Lieferung]**.
@@ -70,6 +72,6 @@ Weitere Informationen sind [der Konzeption einer E-Mail](../../designing/using/a
 **Verwandte Themen:**
 
 * [Sporttätigkeit](../..//automating/using/query.md)
-* [Flugplantätigkeit](../..//automating/using/scheduler.md)
+* [Aktivität "Planung"](../..//automating/using/scheduler.md)
 * [E-Mail-Versand](../..//automating/using/email-delivery.md)
 * [E-Mail-Kanal](../..//channels/using/creating-an-email.md)
