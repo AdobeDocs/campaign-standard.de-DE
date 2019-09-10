@@ -14,8 +14,8 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -106,3 +106,9 @@ Das folgende Beispiel zeigt einen Geburtstags-Workflow. Jeden Tag wird eine E-Ma
 
    ![](assets/wkf_delivery_example_4.png)
 
+**Verwandte Themen**
+
+* [Anwendungsfall: Schaffung einer einmaligen E-Mail-Zustellung](../../automating/using/workflow-weekly-offer.md)
+* [Anwendungsfall: Schaffung einer Liefersegmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
+* [Anwendungsfall: Schaffung von Lieferungen mit Ergänzung](../../automating/using/workflow-created-query-with-complement.md)
+* [Anwendungsfall: Neuausrichtung der Arbeitsabläufe, die eine neue Lieferung an Nichtöffnungs-](../../automating/using/workflow-cross-channel-retargeting.md)
