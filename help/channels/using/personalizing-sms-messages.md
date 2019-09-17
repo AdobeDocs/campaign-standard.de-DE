@@ -3,26 +3,26 @@ title: SMS personalisieren
 seo-title: SMS personalisieren
 description: SMS personalisieren
 seo-description: Hier erhalten Sie Informationen zu Transliterationsoptionen bei der Personalisierung von SMS-Nachrichten.
-page-status-flag: nie aktiviert
-uuid: 123 fe 70 c-c 279-40 a 3-88 b 6-6 bfb 2453 ec 83
+page-status-flag: never-activated
+uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: sms-messages
-discoiquuid: 7 c 64785 c-e 3 c 2-4 caa-a 547-002990 aae 3 f 9
-delivercontext-tags: Deliverycreation, Wizard; delivery, smscontent, back; Bereitstellung, smscontent, zurück
+discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
+delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
 # SMS personalisieren{#personalizing-sms-messages}
 
-Die Personalisierung von SMS erfolgt analog zu der von [E-Mail-Inhalten](../../designing/using/inserting-a-personalization-field.md). Beachten Sie jedoch die Transliterations-Optionen, die u. U. einen Einfluss auf den verwendeten Zeichensatz und somit auf die Anzahl an gesendeten SMS haben können. Lesen Sie diesbezüglich auch den Abschnitt [Transliteration und Länge von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+Die Personalisierung von SMS erfolgt analog zu der von [E-Mail-Inhalten](../../designing/using/personalization.md#inserting-a-personalization-field). Beachten Sie jedoch die Transliterations-Optionen, die u. U. einen Einfluss auf den verwendeten Zeichensatz und somit auf die Anzahl an gesendeten SMS haben können. Lesen Sie diesbezüglich auch den Abschnitt [Transliteration und Länge von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 Das folgende Beispiel zeigt einen SMS-Inhalt mit Personalisierungsfeldern, welche je nachdem, ob die Transliteration aktiviert wird oder nicht, die Verwendung eines unterschiedlichen Zeichensatzes auslösen, was wiederum die Anzahl an zu sendenden SMS beeinflusst.
 
@@ -38,3 +38,6 @@ Das folgende Beispiel zeigt einen SMS-Inhalt mit Personalisierungsfeldern, welch
 >
 >Der Algorithmus, der automatisch den besten Zeichensatz auswählt, wird auf jede Nachricht einzeln angewendet. Dies bedeutet, dass nur die personalisierten Nachrichten, die nicht dem GSM-Alphabet entsprechen, in Unicode gesendet werden.
 
+## SMS-Absender {#sms-sender}
+
+Sie haben die Möglichkeit, den Namen des Absenders von SMS zu personalisieren. Lesen Sie diesbezüglich auch den Abschnitt [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
