@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
+source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 ---
 
@@ -79,12 +79,15 @@ source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
       + [SMS erstellen](channels/using/creating-an-sms-message.md)
       + [SMS personalisieren](channels/using/personalizing-sms-messages.md)
       + [Eingehende SMS verwalten](channels/using/managing-incoming-sms.md)
+      + [Über die Inhaltserstellung für SMS und Push-Benachrichtigungen](channels/using/about-sms-and-push-content-design.md)
+      + [Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen](channels/using/sms-and-push-content-editor-interface.md)
+      + [Dynamische Texte definieren](channels/using/defining-dynamic-text.md)
    + Push-Benachrichtigungen {#push-notifications}
       + [Über Push-Benachrichtigungen](channels/using/about-push-notifications.md)
       + [Push-Benachrichtigung vorbereiten und senden](channels/using/preparing-and-sending-a-push-notification.md)
       + [Push-Benachrichtigung anpassen](channels/using/customizing-a-push-notification.md)
       + [Mehrsprachige Push-Benachrichtigungen erstellen](channels/using/creating-a-multilingual-push-notification.md)
-      + [Erstellung und Aktualisierung von Profilinformationen auf der Grundlage mobiler Anwendungsdaten](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Erstellen und Aktualisieren von Profilinformationen auf der Grundlage mobiler Anwendungsdaten](channels/using/updating-profile-with-mobile-app-data.md)
    + In-App-Messaging {#in-app-messaging}
       + [Über In-App-Messaging](channels/using/about-in-app-messaging.md)
       + [In-App-Nachricht vorbereiten und senden](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -109,48 +112,25 @@ source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
       + [Landingpage freigeben](channels/using/sharing-a-landing-page.md)
       + [Datenspeicherung und -abstimmung](channels/using/data-storage-and-reconciliation.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
-+ Inhalte erstellen{#designing-content}
-   + Über die Inhaltserstellung {#about-content-design}
-      + [Inhaltserstellung in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
-      + [Best Practices bei der Inhaltserstellung](designing/using/content-design-best-practices.md)
-   + E-Mail-Inhalt bearbeiten {#editing-email-content}
-      + [Über die Inhaltserstellung in E-Mails](designing/using/about-email-content-design.md)
-      + [E-Mail-Struktur definieren](designing/using/defining-the-email-structure.md)
-      + [E-Mail-Stile bearbeiten](designing/using/editing-email-styles.md)
-   + Inhalt der Landingpage bearbeiten {#editing-landing-page-content}
-      + [Über die Inhaltserstellung von Landingpages](designing/using/about-landing-page-content-design.md)
-      + [Benutzeroberfläche des Inhaltseditors für Landingpages](designing/using/landing-page-content-editor-interface.md)
-      + [Struktur und Stil von Landingpages verwalten](designing/using/managing-landing-page-structure-and-style.md)
-      + [Landingpage über die Dateneigenschaften ändern](designing/using/changing-a-landing-page-form-data-properties.md)
-   + Inhalte von SMS und Push-Benachrichtigungen bearbeiten {#editing-sms-and-push-content}
-      + [Über die Inhaltserstellung für SMS und Push-Benachrichtigungen](designing/using/about-sms-and-push-content-design.md)
-      + [Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen](designing/using/sms-and-push-content-editor-interface.md)
-   + Inhalt laden {#loading-content}
-      + [Existierenden Inhalt auswählen](designing/using/selecting-an-existing-content.md)
-      + [Inhalt aus einer Datei importieren](designing/using/importing-content-from-a-file.md)
-      + [Inhalt aus einer URL importieren](designing/using/importing-content-from-a-url.md)
-      + [Existierenden Inhalt mit Email Designer bearbeiten](designing/using/editing-existing-contents-with-the-email-designer.md)
-   + Verwendung von Bildern {#using-images}
-      + [Bilder einfügen](designing/using/inserting-images.md)
-      + [Bildeigenschaften konfigurieren](designing/using/setting-up-image-properties.md)
-      + [Bilder mit Adobe Creative SDK bearbeiten](designing/using/modifying-images-with-the-adobe-creative-sdk.md)
-      + [Bildquellen personalisieren](designing/using/personalizing-an-image-source.md)
-   + Personalisieren von Inhalten {#personalizing-content}
-      + [Über die Personalisierung](designing/using/about-personalization.md)
-      + [Personalisierungsfeld einfügen](designing/using/inserting-a-personalization-field.md)
-      + [Inhaltsbausteine](designing/using/adding-a-content-block.md)
-      + [Personalisierung für den Absender einrichten](designing/using/personalizing-the-sender.md)
-      + [Betreffzeile einer E-Mail personalisieren](designing/using/personalizing-the-subject-line-of-an-email.md)
-      + [Beispiel: E-Mail-Personalisierung](designing/using/example--email-personalization.md)
-   + Bedingten Inhalt definieren {#defining-conditional-content}
-      + [Sichtbarkeitsbedingung definieren](designing/using/defining-a-visibility-condition.md)
-      + [Dynamische Inhalte in einer E-Mail definieren](designing/using/defining-dynamic-content-in-an-email.md)
-      + [Dynamische Inhalte in einer Landingpage definieren](designing/using/defining-dynamic-content-in-a-landing-page.md)
-      + [Dynamische Texte definieren](designing/using/defining-dynamic-text.md)
-   + Links verwalten {#managing-links}
-      + [Link einfügen](designing/using/inserting-a-link.md)
-      + [URLs personalisieren](designing/using/personalizing-urls.md)
-      + [Über getrackte URLs](designing/using/about-tracked-urls.md)
+      + [Über die Inhaltserstellung von Landingpages](channels/using/about-landing-page-content-design.md)
+      + [Benutzeroberfläche des Inhaltseditors für Landingpages](channels/using/landing-page-content-editor-interface.md)
+      + [Struktur und Stil von Landingpages verwalten](channels/using/managing-landing-page-structure-and-style.md)
+      + [Landingpage über die Dateneigenschaften ändern](channels/using/changing-a-landing-page-form-data-properties.md)
+      + [Dynamische Inhalte in einer Landingpage definieren](channels/using/defining-dynamic-content-in-a-landing-page.md)
++ E-Mail-Inhalt gestalten {#designing-content}
+   + [Kampagnen-E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
+   + [Schnellstart](designing/using/quick-start.md)
+   + [Verwendung und Empfehlungen](designing/using/overview.md)
+   + [Definieren der Betreffzeile und des Absenders](designing/using/subject-line.md)
+   + [Entwerfen von E-Mails von Grund auf](designing/using/designing-from-scratch.md)
+   + [Entwerfen von E-Mails mit vorhandenen Inhalten](designing/using/using-existing-content.md)
+   + [Entwerfen von E-Mails mit wiederverwendbaren Inhalten](designing/using/using-reusable-content.md)
+   + [E-Mail-Design mit mehreren Lösungen](designing/using/using-integrations.md)
+   + [Personalisierung ](designing/using/personalization.md)
+   + [Text- und HTML-Modus  ](designing/using/plain-text-html-modes.md)
+   + [Stile verwalten](designing/using/styles.md)
+   + [Bilder verwalten](designing/using/images.md)
+   + [Links verwalten](designing/using/links.md)
 + Testen und Senden {#testing-and-sending}
    + [Über den Versand mit Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
@@ -291,12 +271,12 @@ source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
       + [Logs exportieren](automating/using/exporting-logs.md)
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
-   + Verwendung von Fällen: Workflows {#workflow-use-case}
-      + [Schaffung von Lieferungen mit Ergänzung](automating/using/workflow-created-query-with-complement.md)
-      + [Schaffung von Lieferungen am Erstellungsdatum](automating/using/workflow-creation-date-query.md)
-      + [Schaffung einer wöchentlichen Lieferung](automating/using/workflow-weekly-offer.md)
-      + [Schaffung einer Segmentierung am Standort](automating/using/workflow-segmentation-location.md)
-      + [Neuausrichtung von Nichtöffnern](automating/using/workflow-cross-channel-retargeting.md)
+   + Anwendungsfälle: Workflows {#workflow-use-case}
+      + [Erstellung ergänzender Lieferungen](automating/using/workflow-created-query-with-complement.md)
+      + [Erstellen von Lieferungen am Erstellungsdatum](automating/using/workflow-creation-date-query.md)
+      + [Erstellen einer wöchentlichen Lieferung](automating/using/workflow-weekly-offer.md)
+      + [Erstellen einer Segmentierung am Standort](automating/using/workflow-segmentation-location.md)
+      + [Retargeting Non-Openers](automating/using/workflow-cross-channel-retargeting.md)
 + Entwickeln{#developing}
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Datenmodelle](developing/using/data-model-concepts.md)
