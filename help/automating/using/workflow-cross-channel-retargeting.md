@@ -1,8 +1,8 @@
 ---
-title: '" Workflow use-case: Neuausrichtung von Nichtöffnern "'
-seo-title: '" Workflow use-case: Neuausrichtung von Nichtöffnern "'
-description: '" Workflow use-case: Neuausrichtung von Nichtöffnern "'
-seo-description: '" Workflow use-case: Neuausrichtung von Nichtöffnern "'
+title: '"Workflow-Anwendungsfall: Retargeting non-openers"'
+seo-title: '"Workflow-Anwendungsfall: Retargeting non-openers"'
+description: '"Workflow-Anwendungsfall: Retargeting non-openers"'
+seo-description: '"Workflow-Anwendungsfall: Retargeting non-openers"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -11,71 +11,71 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: 'Arbeitsfluss, Einsatz-Case, Abfrage, Abwarten, Lieferung '
+context-tags: 'Workflow, Anwendungsfall, Abfrage, Warten, Lieferung '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
+source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# Einsatz von Workflow: Neuausrichtung der Arbeitsabläufe, die eine neue Lieferung an Nichtöffnungs-{#retargeting-delivery-to-non-openers}
+# Workflow-Anwendungsfall: Nachverlagerung des Arbeitsablaufs, der eine neue Zustellung an Nicht-Offener sendet{#retargeting-delivery-to-non-openers}
 
-Sie können eine E-Mail an Kunden schicken und dann an diejenigen, die die Post nicht geöffnet haben.
+Sie können eine E-Mail an Kunden senden und dann eine SMS an diejenigen, die nicht geöffnet haben.
 
 1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. Wählen **[!UICONTROL Sie New Workflow]** als Workflow und klicken **[!UICONTROL Sie als Nächstes]**.
-1. Geben Sie die Eigenschaften des Arbeitslaufs und Klicken **[!UICONTROL .]**
+1. Wählen Sie **[!UICONTROL Neuer Workflow]** als Workflowtyp aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Geben Sie die Eigenschaften des Workflows ein, und klicken Sie auf **[!UICONTROL Erstellen]**.
 
 ## Creating a query activity{#creating-a-query-activity}
 
-1. Bei **[!UICONTROL Tätigkeiten]** &gt; **[!UICONTROL Zielstreben]**, Abschleppung und Absturz einer **[!UICONTROL Query-Aktivität]**![](assets/query.png).
-1. Verdoppeln Sie die Aktivität auf.
-1. Bei **[!UICONTROL Abzügen]**, Abbremsungen **[!UICONTROL und Abschlagsprofilen ist]** die **[!UICONTROL E-Email]** **[!UICONTROL nicht leer]**.
-1. Bei **[!UICONTROL Abschlagsabzügen und]****[!UICONTROL Abschlagsprofilen Profile und]** Auswählen **[!UICONTROL nicht mehr per E-Email]** mit dem Wert **[!UICONTROL Nr]**.
+1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]** ziehen und löschen Sie eine **[!UICONTROL Abfrageaktivität]**![](assets/query.png).
+1. Doppelklicken Sie auf die Aktivität.
+1. Ziehen Sie in **[!UICONTROL Tastenkombinationen]** die **[!UICONTROL Profile]** , und wählen Sie **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL ist nicht leer]**.
+1. Ziehen Sie in **[!UICONTROL Tastenkombinationen]** die **[!UICONTROL Profile]** , und wählen Sie **[!UICONTROL keinen Kontakt mehr per E-Mail]** mit dem Wert **[!UICONTROL nein]**.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 
 ![](assets/wf-complement-query.png)
 
 ## Creating an email delivery{#creating-an-email-delivery}
 
-1. Stell eine**[!UICONTROL E-Mail-Lieferung]nach jedem Segment vor.
-1. Klicken Sie die Tätigkeit und wählen ![](assets/edit_darkgrey-24px.png) Sie sich zum Edit aus.
-1. Wählen **[!UICONTROL Sie einfache E-Email]** und Klicken **[!UICONTROL Sie.]**
-1. Wählen **[!UICONTROL Sie einen freien Übergang ohne die Bevölkerung]** und klicken **[!UICONTROL Sie als Nächstes]**.
-1. Wählen Sie eine E-Email-Vorlage und klicken Sie **[!UICONTROL als Nächstes]**.
-1. Geben Sie die E-Email-Eigenschaften und klicken **[!UICONTROL Sie.]**
-1. Um das Layout Ihrer E-Email zu schaffen, klicken Sie auf **[!UICONTROL den Email Designer]**.
-1. Elemente einfügen oder ein bestehendes Muster auswählen.
-1. Personalisierung Ihrer E-Email mit spezifischen Angeboten für jeden Ort. Für weitere Informationen ist eine E-Email zu [erstellen](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-1. Klick **[!UICONTROL , um]** deine Layout zu überprüfen.
+1. Ziehen Sie nach jedem Segment eine **[!UICONTROL E-Mail-Zustellung]** ab und lassen Sie sie fallen.
+1. Klicken Sie auf die Aktivität und wählen Sie ![](assets/edit_darkgrey-24px.png) zu bearbeiten.
+1. Wählen Sie **[!UICONTROL Einfache E-Mail]** aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wählen Sie **[!UICONTROL Einen Übergang zum Ausland ohne Population]** hinzufügen aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wählen Sie eine E-Mail-Vorlage aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Geben Sie die E-Mail-Eigenschaften ein und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Um das Layout Ihrer E-Mail zu erstellen, klicken Sie auf **[!UICONTROL Verwenden des E-Mail-Designers]**.
+1. Fügen Sie Elemente ein oder wählen Sie eine vorhandene Vorlage aus.
+1. Personalisieren Sie Ihre E-Mail mit spezifischen Angeboten für jeden Speicherort.Weitere Informationen finden Sie unter [Entwerfen einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Klicken Sie auf **[!UICONTROL Vorschau]** , um Ihr Layout zu überprüfen.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
 
-## Gezielte Einstellung von Nichtöffnern in einer Abfragetätigkeit{#targeting-non-openers-in-a-query-activity}
+## Targeting von Nicht-Openern in einer Abfrageaktivität{#targeting-non-openers-in-a-query-activity}
 
-1. Bei **[!UICONTROL Tätigkeiten]** &gt; **[!UICONTROL Hinrichtung]**, Hinrichtung und Absturz einer **[!UICONTROL Warteaktivität]**![](assets/wait.png).
-1. In **[!UICONTROL Laufzeit]**, klicken ![](assets/duration-icon.png) Sie einen Tag.
-1. Bei **[!UICONTROL Tätigkeiten]** &gt; **[!UICONTROL Zielstreben]**, Abschleppung und Absturz einer **[!UICONTROL Query-Aktivität]**![](assets/query.png).
-1. Verdoppeln Sie die Aktivität auf.
-1. Bei **[!UICONTROL Abzugshindernissen]****[!UICONTROL und Abschlagsbohrungen]** und bei dem Bediener **[!UICONTROL gibt]** es eine Ablenkung.
-1. Bei **[!UICONTROL Abgrenzungen]**&gt; **[!UICONTROL Die Lieferung]**, die Abschleppung **[!UICONTROL und die Abnahme]** bei dem Betreiber **[!UICONTROL sind gleich]** und wählen die Lieferung als Wert aus.
-1. Bei **[!UICONTROL Absendern]**&gt; **[!UICONTROL Lieferung]**, Bremsung und **[!UICONTROL Fallart]** und Prüfung **[!UICONTROL offen]** als Wert.
-1. Wählen Sie den Betreiber so aus, als ob es sich um Regeln **** handelt.
+1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Ausführung]** ziehen und ziehen Sie eine **[!UICONTROL Warteaktivität]** ab ![](assets/wait.png).
+1. Klicken Sie in **[!UICONTROL Laufzeit]** auf einen Tag ![](assets/duration-icon.png) und wählen Sie einen Tag aus.
+1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]** ziehen und löschen Sie eine **[!UICONTROL Abfrageaktivität]**![](assets/query.png).
+1. Doppelklicken Sie auf die Aktivität.
+1. In **[!UICONTROL Tastenkombinationen]** können Sie **[!UICONTROL Tracking Logs]** per Drag &amp; Drop und mit dem Operator **[!UICONTROL existieren]**.
+1. Bei **[!UICONTROL Tastenkombinationen]**&gt; **[!UICONTROL Lieferung]** ist die Drag &amp; Drop- **[!UICONTROL Lieferung]** mit dem Bediener gleich **** und wählen Sie die Lieferung als Wert aus.
+1. In **[!UICONTROL Tastenkombinationen]**&gt; **[!UICONTROL Lieferung]**, ziehen Sie den **[!UICONTROL Typ]** , und wählen Sie **[!UICONTROL Öffnen]** als Wert.
+1. Wählen Sie den Operator zwischen Regeln wie **[!UICONTROL ausgenommen]** aus.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 
-## Schaffung einer SMS-Lieferung{#creating-a-sms-delivery}
+## Erstellen einer SMS-Lieferung{#creating-a-sms-delivery}
 
-1. Ziehen Sie eine SMS-Lieferung nach jedem Segment ab.
-1. Klicken Sie die Tätigkeit und wählen ![](assets/edit_darkgrey-24px.png) Sie sich zum Edit aus.
-1. Wählen **[!UICONTROL Sie einfache SMS]** und Klicken **[!UICONTROL .]**
-1. Wählen Sie ein SMS-Muster und klicken Sie **[!UICONTROL als Nächstes]**.
-1. Geben Sie die SMS-Eigenschaften und klicken **[!UICONTROL Sie als Nächstes]**.
-1. Um Ihre SMS zu schaffen, klicken Sie auf **[!UICONTROL Email Designer]**.
-1. Elemente einfügen oder ein bestehendes Muster auswählen.
-1. Personalisieren Sie Ihre SMS mit spezifischen Angeboten für jeden Ort.
-Weitere Informationen sind [der Planung eines SMS](../../channels/using/creating-an-sms-message.md)zu entnehmen.
-1. Klick **[!UICONTROL , um]** deine Layout zu überprüfen.
+1. Ziehen Sie eine SMS-Zustellung nach jedem Segment ab.
+1. Klicken Sie auf die Aktivität und wählen Sie ![](assets/edit_darkgrey-24px.png) zu bearbeiten.
+1. Wählen Sie **[!UICONTROL Einfache sms]** aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wählen Sie eine sms-Vorlage aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Geben Sie die sms-Eigenschaften ein, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Um das Layout Ihrer SMS zu erstellen, klicken Sie auf **[!UICONTROL E-Mail-Designer]**.
+1. Fügen Sie Elemente ein oder wählen Sie eine vorhandene Vorlage aus.
+1. Personalisieren Sie Ihre SMS mit spezifischen Angeboten für jeden Standort.
+Weitere Informationen finden Sie unter [Entwerfen eines SMS](../../channels/using/creating-an-sms-message.md).
+1. Klicken Sie auf **[!UICONTROL Vorschau]** , um Ihr Layout zu überprüfen.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
 
 ![](assets/wf-retargeting-non-openers.png)
