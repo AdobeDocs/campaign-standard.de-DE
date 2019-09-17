@@ -14,8 +14,8 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+translation-type: tm+mt
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
@@ -53,7 +53,7 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefo
 
    ![](assets/sms_creation_3.png)
 
-1. Fügen Sie Ihrer SMS Inhalt hinzu. Sie können den Inhalt auch definieren, indem Sie nach Abschluss der SMS-Erstellung den Bereich **[!UICONTROL Inhalt]** des Versand-Dashboards auswählen. Siehe [Über die SMS-Inhaltserstellung](../../designing/using/about-sms-and-push-content-design.md).
+1. Fügen Sie Ihrer SMS Inhalt hinzu. Sie können den Inhalt auch definieren, indem Sie nach Abschluss der SMS-Erstellung den Bereich **[!UICONTROL Inhalt]** des Versand-Dashboards auswählen. Siehe [Über die SMS-Inhaltserstellung](../../channels/using/about-sms-and-push-content-design.md).
 
    Die Verwendung von Personalisierungsfeldern oder bedingten Texten im SMS-Inhalt kann dazu führen, dass die Nachrichtenlänge je nach Empfänger variiert und dass u. U. nicht von GSM unterstützte Zeichen eingefügt werden. Die Nachrichtenlänge kann daher erst nach erfolgter Personalisierung korrekt eingeschätzt werden. Siehe [SMS personalisieren](../../channels/using/personalizing-sms-messages.md).
 
@@ -80,7 +80,7 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 
 **Verwandte Themen:**
 
-* [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../designing/using/about-sms-and-push-content-design.md)
+* [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../channels/using/about-sms-and-push-content-design.md)
 * [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md)
-* Video [Create an SMS delivery](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
+* [Create an SMS delivery](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) (Video)
 
