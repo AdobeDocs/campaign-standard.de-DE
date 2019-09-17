@@ -13,8 +13,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 267e30c603baf67020aadefad578f91b40dc042d
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -51,7 +51,7 @@ Um einen Workflow mit Parametern aufzurufen, müssen Sie diese zunächst in der 
 
 ## Parameter beim Aufruf des Workflows definieren   {#defining-the-parameters-when-calling-the-workflow}
 
-In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workflows definieren können. Weiterführende Informationen zur Durchführung dieses Vorgangs mit einem API-Aufruf finden Sie in der [REST-APIs-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workflows definieren können. Weiterführende Informationen zur Durchführung dieses Vorgang mit einem API-Aufruf finden Sie in der [REST-APIs-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 Vor der Definition der Parameter müssen folgende Voraussetzungen gegeben sein:
 
@@ -189,7 +189,7 @@ Jetzt sind in der Liste der Personalisierungsfelder die deklarierten Ereignisvar
 
 * Personalisieren Sie den Versand: Bei der Auswahl eines Personalisierungsfeldes zur Konfiguration eines Versands sind Ereignisvariablen im Element **[!UICONTROL Workflow-Parameter]** verfügbar. Sie können sie für ein beliebiges Personalisierungsfeld verwenden, z. B. zur Definition des Betreffs oder des Absenders.
 
-   Die Versandpersonalisierung wird im Detail in [diesem Abschnitt](../../designing/using/about-personalization.md) beschrieben.
+   Die Versandpersonalisierung wird im Detail in [diesem Abschnitt](../../designing/using/personalization.md) beschrieben.
 
    ![](assets/extsignal_activities_perso.png)
 
