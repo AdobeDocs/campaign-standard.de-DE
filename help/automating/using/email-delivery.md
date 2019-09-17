@@ -15,7 +15,7 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -62,7 +62,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 
 1. Wählen Sie einen E-Mail-Typ aus. Die verschiedenen E-Mail-Typen entsprechen Vorlagen, die im Menü **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen]** &gt; **[!UICONTROL Versandvorlagen]** definiert sind.
 1. Geben Sie die allgemeinen Eigenschaften der E-Mail an und ordnen Sie sie gegebenenfalls einer existierenden Kampagne zu. Der Titel der Versandaktivität des Workflows wird mit dem Titel der E-Mail aktualisiert.
-1. Erstellen Sie den E-Mail-Inhalt. Weiterführende Informationen hierzu finden Sie im Abschnitt [Inhaltseditor](../../designing/using/about-email-content-design.md).
+1. Erstellen Sie den E-Mail-Inhalt. Weiterführende Informationen hierzu finden Sie im Abschnitt [Inhaltseditor](../../designing/using/overview.md).
 1. Die **[!UICONTROL E-Mail-Versandaktivität]** verfügt standardmäßig über keinerlei ausgehende Transition. Sie haben jedoch die Möglichkeit, eine ausgehende Transition zu erzeugen, indem Sie unter Verwendung der in den Quick Actions der Aktivität verfügbaren Schaltfläche ![](assets/dlv_activity_params-24px.png) die erweiterten Optionen öffnen und im **[!UICONTROL Allgemein]**-Tab eine der folgenden Optionen aktivieren:****
 
    * **[!UICONTROL Ausgehende Transition ohne Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die exakt dieselbe Population enthält wie die eingehende Transition.
@@ -108,7 +108,7 @@ Das folgende Beispiel zeigt einen Geburtstags-Workflow. Jeden Tag wird eine E-Ma
 
 **Verwandte Themen**
 
-* [Anwendungsfall: Schaffung einer einmaligen E-Mail-Zustellung](../../automating/using/workflow-weekly-offer.md)
-* [Anwendungsfall: Schaffung einer Liefersegmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
-* [Anwendungsfall: Schaffung von Lieferungen mit Ergänzung](../../automating/using/workflow-created-query-with-complement.md)
-* [Anwendungsfall: Neuausrichtung der Arbeitsabläufe, die eine neue Lieferung an Nichtöffnungs-](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Anwendungsfall: Erstellen Sie einmal wöchentlich eine E-Mail-Zustellung](../../automating/using/workflow-weekly-offer.md)
+* [Anwendungsfall: Erstellen einer am Standort segmentierten Lieferung](../../automating/using/workflow-segmentation-location.md)
+* [Anwendungsfall:Erstellung ergänzender Lieferungen](../../automating/using/workflow-created-query-with-complement.md)
+* [Anwendungsfall: Nachverlagerung des Arbeitsablaufs, der eine neue Zustellung an Nicht-Offener sendet](../../automating/using/workflow-cross-channel-retargeting.md)
