@@ -14,8 +14,8 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -234,7 +234,7 @@ Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]** sind folgende Parameter verf�
 
 Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
-* **[!UICONTROL Tracking aktivieren]**: Aktivierung/Deaktivierung des Trackings der in den Nachrichten enthaltenen URLs. Über das Symbol **[!UICONTROL Links]** in der Symbolleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/about-tracked-urls.md).
+* **[!UICONTROL Tracking aktivieren]**: Aktivierung/Deaktivierung des Trackings der in den Nachrichten enthaltenen URLs. Über das Symbol **[!UICONTROL Links]** in der Symbolleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Ablaufdatum des Trackings]**: Festlegung der Dauer, für die das URL-Tracking aktiv sein soll.
 * **[!UICONTROL Ersatz-URL für abgelaufene URLs]**: Hier kann die URL für eine Webseite eingetragen werden, die nach dem Ablauf des Trackings angezeigt wird.
 
@@ -242,7 +242,7 @@ Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
 Der Abschnitt **[!UICONTROL Erweiterte Parameter]** enthält folgende Informationen:
 
-Angaben zum E-Mail-Header (Antwortadresse und Text der Antwortadresse). Diese Informationen können personalisiert werden. Öffnen Sie mithilfe der Schaltfläche rechts des entsprechenden Eingabefelds das Auswahlfenster und fügen Sie die gewünschten Personalisierungsfelder ein. Weiterführende Informationen zur Verwendung der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/inserting-a-personalization-field.md).
+Angaben zum E-Mail-Header (Antwortadresse und Text der Antwortadresse). Diese Informationen können personalisiert werden. Öffnen Sie mithilfe der Schaltfläche rechts des entsprechenden Eingabefelds das Auswahlfenster und fügen Sie die gewünschten Personalisierungsfelder ein. Weiterführende Informationen zur Verwendung der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
 
 #### Zielgruppen-Kontext   {#target-context}
 
