@@ -13,8 +13,8 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ---
 
@@ -98,8 +98,8 @@ Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen
 Über das Symbol **[!UICONTROL Ressourcen]** gelangen Sie zu folgenden Funktionen:
 
 * **[!UICONTROL Vorlagen]** mit Untermenüs zu jedem Vorlagentyp - siehe Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
-* **[!UICONTROL Inhaltsbausteine]** - siehe Abschnitt [Inhaltsbausteine](../../designing/using/adding-a-content-block.md).
-* **[!UICONTROL Inhaltsvorlagen und -fragmente]** - siehe Abschnitt [Inhaltsvorlage](../../start/using/about-templates.md#content-templates).
+* **[!UICONTROL Inhaltsbausteine]** - siehe Abschnitt [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
+* **[!UICONTROL Inhaltsvorlagen und -fragmente]** - siehe Abschnitt [Inhaltsvorlage](../../designing/using/using-reusable-content.md#content-templates).
 
 ### Administration {#administration}
 
