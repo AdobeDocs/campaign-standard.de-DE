@@ -14,8 +14,8 @@ discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
@@ -30,7 +30,7 @@ Er zeigt den (HTML- und/oder Text-) Inhalt der Nachricht sowie den Prozentsatz d
 
 ![](assets/delivery_reports_10.png)
 
-Wenn Sie für Ihren Versand dynamischen Inhalt erstellt haben, können Sie die Prozentsätze für jede von Ihnen definierte Bedingung einsehen. Weiterführende Informationen zum Einfügen von bedingtem Inhalt in einen Versand finden Sie im Abschnitt [Dynamische Inhalte definieren](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+Wenn Sie für Ihren Versand dynamischen Inhalt erstellt haben, können Sie die Prozentsätze für jede von Ihnen definierte Bedingung einsehen. Weiterführende Informationen zum Einfügen von bedingtem Inhalt in einen Versand finden Sie im Abschnitt [Dynamische Inhalte definieren](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
 
 Nehmen wir zum Beispiel an, Sie hätten einen Versand mit den folgenden Bedingungen erstellt:
 
