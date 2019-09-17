@@ -3,19 +3,19 @@ title: Landingpage erstellen
 seo-title: Landingpage erstellen
 description: Landingpage erstellen
 seo-description: Mit diesen Schritten können Sie den Inhalt einer Landingpage erstellen und mit einem Dienst verknüpfen.
-page-status-flag: nie aktiviert
-uuid: de 6 fe 190-835 c -40 fd -8101-a 809 b 430 b 423
+page-status-flag: never-activated
+uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: landing-pages
-discoiquuid: bd 77 d 6 f 0-3143-4030-a 91 b -988 a 2 bebc 534
-context-tags: Landingpage, main
+discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
+context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
@@ -34,37 +34,37 @@ Bei der Erstellung einer Landingpage müssen folgende Inhalte definiert werden:
 
 Mithilfe des Schalters unter der Symbolleiste können Sie jede dieser Seiten anzeigen und konfigurieren.
 
-Der Inhalt dieser Seiten wird im Campaign-Inhaltseditor erstellt. Lesen Sie diesbezüglich auch den Abschnitt [Inhaltserstellung](../../designing/using/about-landing-page-content-design.md).
+Der Inhalt dieser Seiten wird im Campaign-Inhaltseditor erstellt. Lesen Sie diesbezüglich auch den Abschnitt [Inhaltserstellung](../../channels/using/about-landing-page-content-design.md).
 
-## Mapping der Formularfelder {#mapping-form-fields}
+## Mapping der Formularfelder  {#mapping-form-fields}
 
 Über Eingabefelder können Daten in der Campaign-Datenbank gespeichert bzw. dort aktualisiert werden. Dazu müssen Sie Blöcken wie Eingabe- oder Auswahlfeldern Datenbankfelder zuordnen. Gehen Sie wie folgt vor:
 
 1. Wählen Sie in der Landingpage einen Block aus.
-1. Füllen Sie in der Palette die **[!UICONTROL Formulardaten]aus.**
+1. Füllen Sie in der Palette die **[!UICONTROL Formulardaten]** aus.
 
    ![](assets/editing_lp_content_4.png)
 
-1. Geben Sie bei **[!UICONTROL Feld]das Datenbankfeld an, das dem Formularfeld zugeordnet werden soll.**
+1. Geben Sie bei **[!UICONTROL Feld]** das Datenbankfeld an, das dem Formularfeld zugeordnet werden soll.
 
-   Wenn ein Formularfeld als **[!UICONTROL Pflichtfeld]gekennzeichnet ist, kann ein Benutzer das Formular nur absenden, nachdem das Feld ausgefüllt wurde.** Wenn ein Pflichtfeld nicht ausgefüllt wurde, erscheint eine Fehlermeldung bei der Validierung der Seite.
+   Wenn ein Formularfeld als **[!UICONTROL Pflichtfeld]** gekennzeichnet ist, kann ein Benutzer das Formular nur absenden, nachdem das Feld ausgefüllt wurde. Wenn ein Pflichtfeld nicht ausgefüllt wurde, erscheint eine Fehlermeldung bei der Validierung der Seite.
 
    >[!NOTE]
    >
    >Landingpages können nur mit **Profilen** gemappt werden.
 
-1. Define the field type by choosing, for example **[!UICONTROL Text]**, **[!UICONTROL Number]**,or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
+1. Im Feld **[!UICONTROL HTML-Typ des Felds]** können Sie darüber hinaus angeben, ob es sich beispielsweise um **[!UICONTROL Text]**, **[!UICONTROL Zahl]** oder **[!UICONTROL Datum]** etc. handelt.
 
 >[!NOTE]
 >
 >Die Standardfelder der nativen Landingpages sind bereits ausgefüllt. Sie können sie nach Bedarf ändern.
 
-## Formular übermitteln {#submitting-the-form}
+## Formular übermitteln  {#submitting-the-form}
 
 Sie können festlegen, was passieren soll, wenn der Besucher die Bestätigungsschaltfläche drückt. Gehen Sie wie folgt vor:
 
 1. Wählen Sie die Bestätigungsschaltfläche der Landingpage aus.
-1. Wählen Sie eine Aktion in der Dropdown-Liste im linken Bereich. Possible actions are: **[!UICONTROL Refresh]** (to refresh the page) and **[!UICONTROL Next page]** (to display the confirmation page).
+1. Wählen Sie eine Aktion in der Dropdown-Liste im linken Bereich. Diese Aktionen sind verfügbar: **[!UICONTROL Aktualisieren]** (die Seite wird aktualisiert) und **[!UICONTROL Weiter]** (die Bestätigungsseite wird angezeigt).
 
    ![](assets/editing_lp_content_5.png)
 
@@ -76,7 +76,7 @@ Zusätzlich können Sie den Titel der Schaltfläche ändern oder einen Link konf
 
    ![](assets/lp_link_custom.png)
 
-## Formular mit einem Dienst verknüpfen {#linking-a-form-to-a-service}
+## Formular mit einem Dienst verknüpfen  {#linking-a-form-to-a-service}
 
 Sie können ein Formular mit einem Dienst verknüpfen, sodass sich Profile beim Besuch der Landingpage für einen spezifischen Dienst anmelden können, wenn sie auf die Senden-Schaltfläche des Formulars klicken.
 
@@ -84,39 +84,39 @@ In den Zuordnungsparametern wird die auszuführende Aktion definiert, je nachdem
 
 Gehen Sie folgendermaßen vor, um den Dienst auszuwählen, der verknüpft werden soll:
 
-1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **Vorgang]auf.[!UICONTROL **
+1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Vorgang]** auf.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Spezifische Aktionen]die Option****Anmeldung[!UICONTROL .]**
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Anmeldung]**.
 
    ![](assets/lp_parameters_5.png)
 
-1. Wählen Sie **[!UICONTROL Spezifischer Dienst]aus, um die Landingpage mit einem einzelnen Dienst zu verknüpfen.** Diese Option ist nicht zu verwenden, wenn die Landingpage für verschiedene Dienste genutzt werden soll.
+1. Wählen Sie **[!UICONTROL Spezifischer Dienst]** aus, um die Landingpage mit einem einzelnen Dienst zu verknüpfen. Diese Option ist nicht zu verwenden, wenn die Landingpage für verschiedene Dienste genutzt werden soll.
 
-   Verwenden Sie in diesem Fall die Option **[!UICONTROL In der URL angegebener Dienst.]** Die Landingpage muss in den Parametern der jeweiligen Dienste referenziert werden.
+   Verwenden Sie in diesem Fall die Option **[!UICONTROL In der URL angegebener Dienst]**. Die Landingpage muss in den Parametern der jeweiligen Dienste referenziert werden.
 
-### Versand einer Landingpage bestätigen {#confirm-a-landing-page-submission}
+### Versand einer Landingpage bestätigen  {#confirm-a-landing-page-submission}
 
 Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie wie folgt vor:
 
-1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **Vorgang]auf.[!UICONTROL **
+1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Vorgang]** auf.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Wählen Sie unter dem Abschnitt **[!UICONTROL Spezifische Aktionen]** die Option **Absendung einer Nachricht auslösen]aus, um den automatischen Versand einer Nachricht auszulösen, z. B. einer Anmeldebestätigung.[!UICONTROL ** Wählen Sie anschließend eine E-Mail-Versandvorlage aus.
+1. Wählen Sie unter dem Abschnitt **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Absendung einer Nachricht auslösen]** aus, um den automatischen Versand einer Nachricht auszulösen, z. B. einer Anmeldebestätigung. Wählen Sie anschließend eine E-Mail-Versandvorlage aus.
 
    Beachten Sie, dass Sie in diesem Bildschirm keine Bestätigungsnachricht auswählen sollten, falls bereits eine Bestätigungsnachricht auf Dienstebene konfiguriert ist, damit nicht mehrere Bestätigungsnachrichten gesendet werden. Lesen Sie diesbezüglich auch den Abschnitt [Dienst erstellen](../../audiences/using/creating-a-service.md).
 
-1. Erstellen Sie **[!UICONTROL Zusatzdaten], um das Speichern von Zusatzdaten beim Senden des Formular auf der Landingpage zu ermöglichen.** Die Zusatzdaten sind für den Besucher nicht sichtbar. Nur konstante Werte werden berücksichtigt.
+1. Erstellen Sie **[!UICONTROL Zusatzdaten]**, um das Speichern von Zusatzdaten beim Senden des Formular auf der Landingpage zu ermöglichen. Die Zusatzdaten sind für den Besucher nicht sichtbar. Nur konstante Werte werden berücksichtigt.
 
    ![](assets/lp_parameters_6.png)
 
-## Berechtigungen einrichten und Daten vorausfüllen {#setting-permissions-and-pre-loading-data}
+## Berechtigungen einrichten und Daten vorausfüllen  {#setting-permissions-and-pre-loading-data}
 
 Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen. In diesem Fall können Sie ihre Daten auf der Landingpage schon vorab ausfüllen. Gehen Sie wie folgt vor:
 
-1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **Zugriff &amp; Ladung]auf.[!UICONTROL **
+1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Zugriff &amp; Ladung]** auf.
 
    ![](assets/lp_edit_properties_button.png)
 
@@ -128,8 +128,8 @@ Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besu
 
 Außerdem haben Sie folgende Möglichkeiten:
 
-* Mithilfe der URL-Parameter können Sie über die Option **[!UICONTROL Besucheridentifizierung über URL-Parameter zulassen]die Besucher identifizieren. Wählen Sie dann den Ladeschlüssel aus und mappen Sie die Filterparameter mit den entsprechenden URL-Parametern.**
-* Gewähren Sie allen Besuchern Zugriff auf die Landingpage, indem Sie die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]auswählen.**
+* Mithilfe der URL-Parameter können Sie über die Option **[!UICONTROL Besucheridentifizierung über URL-Parameter zulassen]** die Besucher identifizieren. Wählen Sie dann den Ladeschlüssel aus und mappen Sie die Filterparameter mit den entsprechenden URL-Parametern.
+* Gewähren Sie allen Besuchern Zugriff auf die Landingpage, indem Sie die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]** auswählen.
 
 ## Google reCAPTCHA einrichten {#setting-google-recaptcha}
 
@@ -137,12 +137,12 @@ Sie können Google reCAPTCHA V3 auf Ihrer Landingpage einrichten, um sie vor Spa
 
 Nachdem Ihr externes Konto für Google reCAPTCHA V3 eingerichtet wurde, können Sie es zu Ihrer Landingpage hinzufügen:
 
-1. Öffnen Sie vor dem Publizieren Ihrer Landingpage die Seiteneigenschaften über das Symbol ![ im Landingpage-Dashboard.](assets/edit_darkgrey-24px.png)
+1. Öffnen Sie vor dem Publizieren Ihrer Landingpage die Seiteneigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard.
 
    ![](assets/lp_parameters_google3.png)
 
-1. Öffnen Sie das Menü **[!UICONTROL Zugriff &amp; Laden].**
-1. Aktivieren Sie die Option **[!UICONTROL reCAPTCHA verwenden, um die Website vor Spam und Missbrauch zu schützen].**
+1. Öffnen Sie das Menü **[!UICONTROL Zugriff &amp; Laden]**.
+1. Aktivieren Sie die Option **[!UICONTROL reCAPTCHA verwenden, um die Website vor Spam und Missbrauch zu schützen]**.
 1. Wählen Sie das zuvor erstellte externe Google reCAPTCHA-Konto aus.
 
    ![](assets/lp_parameters_google.png)
