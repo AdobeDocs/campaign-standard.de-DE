@@ -14,8 +14,8 @@ discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
@@ -32,7 +32,7 @@ Der Bildschirm für die Definition von **[!UICONTROL Inhalt]** ist nur für den 
 
 ## Extraktion definieren {#defining-the-extraction}
 
-1. Definieren Sie zunächst den Namen der Extraktionsdatei. Klicken Sie auf die Schaltfläche rechts neben dem Feld **[!UICONTROL Ausgabedatei]** und geben Sie den gewünschten Titel ein. Sie können Personalisierungsfelder, Inhaltsbausteine und dynamischen Text verwenden (siehe [Inhalte erstellen](../../designing/using/example--email-personalization.md)). Beispielsweise können Sie den Titel mit der Versandkennung oder dem Extraktionsdatum versehen.
+1. Definieren Sie zunächst den Namen der Extraktionsdatei. Klicken Sie auf die Schaltfläche rechts neben dem Feld **[!UICONTROL Ausgabedatei]** und geben Sie den gewünschten Titel ein. Sie können Personalisierungsfelder, Inhaltsbausteine und dynamischen Text verwenden (siehe [Inhalte erstellen](../../designing/using/personalization.md#example-email-personalization)). Beispielsweise können Sie den Titel mit der Versandkennung oder dem Extraktionsdatum versehen.
 
    ![](assets/direct_mail_12.png)
 
@@ -66,7 +66,7 @@ Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der E
 
 ![](assets/direct_mail_7.png)
 
-So können Sie beispielsweise bei Briefpost die Absenderinformationen im Header der Datei einfügen. Footer und Header können mit den für den Versand verfügbaren Informationen personalisiert werden. Lesen Sie diesbezüglich den Abschnitt [Inhalte erstellen](../../designing/using/example--email-personalization.md).
+So können Sie beispielsweise bei Briefpost die Absenderinformationen im Header der Datei einfügen. Footer und Header können mit den für den Versand verfügbaren Informationen personalisiert werden. Lesen Sie diesbezüglich den Abschnitt [Inhalte erstellen](../../designing/using/personalization.md#example-email-personalization).
 
 Die Absenderadresse wird im Bereich **[!UICONTROL Senden]** der Briefposteigenschaften oder auf Vorlagenebene definiert.
 
