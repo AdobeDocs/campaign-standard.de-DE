@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 ---
 
@@ -139,7 +139,7 @@ Nachdem Ihr Profilfeld publiziert wurde, können Sie den Versand starten. In die
    ![](assets/custom_profile_17.png)
 
 1. Wählen Sie nach der Definition des Filters **[!UICONTROL Bestätigen]** und danach **[!UICONTROL Weiter]**.
-1. Definieren und personalisieren Sie den Nachrichteninhalt, den Absendernamen und den Betreff. Weiterführende Informationen zur Erstellung von E-Mails finden Sie auf dieser [Seite](../../designing/using/about-email-content-design.md#about-the-email-designer).
+1. Definieren und personalisieren Sie den Nachrichteninhalt, den Absendernamen und den Betreff. Weiterführende Informationen zur Erstellung von E-Mails finden Sie auf dieser [Seite](../../designing/using/overview.md).
 
    Wählen Sie dann **[!UICONTROL Erstellen aus]**.
 
@@ -169,4 +169,4 @@ Nach dem Versand Ihrer Nachricht können Sie die Berichte mithilfe Ihrer benutze
 
 **Verwandtes Thema:**
 
-* [Verwenden benutzerdefinierter Profildaten zur Erstellung aussagekräftiger Berichte](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Verwenden benutzerdefinierter Profildaten zum Erstellen von aufschlussreichen Berichten](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
