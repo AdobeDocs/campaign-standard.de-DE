@@ -14,8 +14,8 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -39,7 +39,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    Standardmäßig haben Sie die Wahl zwischen zwei Vorlagen:
 
-   * **[!UICONTROL Push-Benachrichtigungen an Campaign-Profile senden]**: Verwenden Sie diese Vorlage, um die Adobe Campaign-CRM-Profile auszuwählen, die sich bei Ihrer Mobile App angemeldet und ausdrücklich um die Zusendung von Push-Benachrichtigungen ersucht haben. Sie können [Personalisierungsfelder](../../designing/using/inserting-a-personalization-field.md) in Ihre Push-Benachrichtigung einfügen, wie etwa den Vornamen des Empfängers.
+   * **[!UICONTROL Push-Benachrichtigungen an Campaign-Profile senden]**: Verwenden Sie diese Vorlage, um die Adobe Campaign-CRM-Profile auszuwählen, die sich bei Ihrer Mobile App angemeldet und ausdrücklich um die Zusendung von Push-Benachrichtigungen ersucht haben. Sie können [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) in Ihre Push-Benachrichtigung einfügen, wie etwa den Vornamen des Empfängers.
    * **[!UICONTROL Push-Benachrichtigung an App-Abonnenten senden]**: Mit dieser Vorlage können Sie eine Push-Benachrichtigung an alle bekannten und anonymen Benutzer einer Mobile App senden, die Benachrichtigungen von Ihrer App erhalten möchten. Sie können diese Nachrichten mit Daten personalisieren, die von Ihrer Mobile App stammen.
    Es stehen auch mehrsprachige Vorlagen zur Auswahl. Weiterführende Informationen dazu finden Sie unter [Mehrsprachige Push-Benachrichtigungen erstellen](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -65,7 +65,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    ![](assets/push_notif_content.png)
 
-   Der Push-Benachrichtigungs-Inhalt und die Optionen, die hier konfiguriert werden, werden in Form von Payload an Ihr Mobile App übertragen. Die Struktur der Payload wird in der Technote [Understanding ACS push notifications payload structure](https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) beschrieben.
+   Der Push-Benachrichtigungs-Inhalt und die Optionen, die hier konfiguriert werden, werden in Form von Payload an Ihr Mobile App übertragen. Die Struktur der Payload wird in der Technote [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) beschrieben.
 
 1. Wählen Sie **[!UICONTROL Erstellen aus]**.
 
