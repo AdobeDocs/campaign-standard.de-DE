@@ -13,8 +13,8 @@ topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
+translation-type: tm+mt
+source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
 
 ---
 
@@ -49,11 +49,11 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
    ![](assets/email_creation_3.png)
 
-1. Definieren und personalisieren Sie mithilfe von [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) den Nachrichteninhalt, den Namen des Absenders und den Betreff. Weiterführende Informationen dazu finden Sie im Abschnitt [Über die Inhaltserstellung in E-Mails](../../designing/using/about-email-content-design.md).
+1. Definieren und personalisieren Sie mithilfe von [Email Designer](../../designing/using/overview.md) den Nachrichteninhalt, den Namen des Absenders und den Betreff. Weiterführende Informationen dazu finden Sie im Abschnitt [Über die Inhaltserstellung in E-Mails](../../designing/using/overview.md).
 
    ![](assets/email_creation_4.png)
 
-   Die können Ihre Nachricht mit einer vordefinierten Inhaltsvorlage gestalten oder Dreamweaver oder Adobe Experience Manager verwenden. Sie können auch für Sie vorbereitete Inhalte hochladen oder einen vorhandenen Inhalt aus einer URL importieren. Siehe [Existierenden Inhalt auswählen](../../designing/using/selecting-an-existing-content.md).
+   Die können Ihre Nachricht mit einer vordefinierten Inhaltsvorlage gestalten oder Dreamweaver oder Adobe Experience Manager verwenden. Sie können auch für Sie vorbereitete Inhalte hochladen oder einen vorhandenen Inhalt aus einer URL importieren. Siehe [Existierenden Inhalt auswählen](../../designing/using/using-existing-content.md).
 
 1. Sehen Sie sich Ihre Nachricht in der Vorschau an. Siehe [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md).
 1. Validieren Sie die Erstellung der E-Mail.
@@ -92,8 +92,8 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 **Verwandte Themen**:
 
-* Video [Creating an email](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
-* Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GettingStartedEmail.html)
-* Video [Adobe Campaign and Dreamweaver integration](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+* [E-Mails erstellen](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) Video
+* Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)
+* Video zur [Integration von Adobe Campaign und Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [Integration mit Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
