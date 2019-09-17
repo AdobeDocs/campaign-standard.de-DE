@@ -14,8 +14,8 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -66,7 +66,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 
 1. Wählen Sie einen Briefpost-Typ aus. Die verschiedenen Briefpost-Typen entsprechen Vorlagen, die im Menü **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen]** &gt; **[!UICONTROL Versandvorlagen]** definiert sind.
 1. Geben Sie die allgemeinen Eigenschaften der Briefpost an. und ordnen Sie sie gegebenenfalls einer existierenden Kampagne zu. Der Titel der Versandaktivität des Workflows wird mit dem Titel der Briefpost aktualisiert.
-1. Erstellen Sie den Briefpost-Inhalt. Weiterführende Informationen hierzu finden Sie im Abschnitt [Inhaltseditor](../../designing/using/about-personalization.md).
+1. Erstellen Sie den Briefpost-Inhalt. Weiterführende Informationen hierzu finden Sie im Abschnitt [Inhaltseditor](../../designing/using/personalization.md).
 1. Der **[!UICONTROL Briefpost-Versand]** verfügt standardmäßig über keinerlei ausgehende Transitionen. Sie haben jedoch die Möglichkeit, dem **[!UICONTROL Briefpost-Versand]** eine ausgehende Transition hinzuzufügen. Öffnen Sie hierzu mithilfe der Schaltfläche ![](assets/dlv_activity_params-24px.png) aus den Quick Actions der Aktivität die erweiterten Optionen und aktivieren Sie im Tab **[!UICONTROL Allgemein]** eine der folgenden Optionen:
 
    * **[!UICONTROL Ausgehende Transition ohne Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die exakt dieselbe Population enthält wie die eingehende Transition. Diese Transition enthält die Datei, die von der Briefpost-Aktivität erstellt wurde, sowie die ursprüngliche Population, die von der Briefpost-Aktivität erhalten wurde.
