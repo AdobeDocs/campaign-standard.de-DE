@@ -14,8 +14,8 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
+translation-type: tm+mt
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
@@ -76,5 +76,5 @@ Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel
 * **[!UICONTROL Freigabe]**: gibt Auskunft über den Fortschritt der Vorbereitung oder des Versands der Nachricht. Mithilfe der Schaltfläche unten rechts in der Kachel lässt sich das Analyse- und Versandprotokoll anzeigen. Diese Kachel erscheint erst nach abgeschlossener Versandvorbereitung. Weiterführende Informationen dazu finden Sie im Abschnitt [Versand bestätigen](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: dient der Bestimmung der Hauptzielgruppe der Nachricht sowie der Testprofile. Siehe [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Versandplanung]**: dient der Bestimmung des Versanddatums der Nachricht. Siehe [Über die Versandplanung](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Inhalt]**: dient der Erstellung des Nachrichteninhalts und seiner Vorschau. Siehe [Inhalte erstellen](../../designing/using/designing-content-in-adobe-campaign.md).
+* **[!UICONTROL Inhalt]**: erlaubt es Ihnen, den Inhalt der Nachricht zu definieren und eine Vorschau darauf anzuzeigen. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
