@@ -13,8 +13,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -25,7 +25,7 @@ Es gibt verschiedene Möglichkeiten, um Abonnements für einen Dienst anzubieten
 
 Mit Campaign können Sie einen Dienst folgendermaßen bewerben:
 
-* [Einfügen von Anmelde-Links für und Abmelde-Links von Diensten in E-Mails](../../designing/using/inserting-a-link.md)
+* [Einfügen von Anmelde-Links für und Abmelde-Links von Diensten in E-Mails](../../designing/using/links.md#inserting-a-link)
 * Einfügen von Links in E-Mails, die zu einer An- oder Abmelde-Landingpage weiterleiten: In diesem Fall muss der Dienst direkt in den Landingpage-Parametern angegeben werden.
 * Durch Einbettung einer An- oder Abmelde-Landingpage in eine Webseite: Die Landingpage-URLs müssen verschlüsselte Parameter wie den zugeordneten Dienst und die Kennung des die Seite aufrufenden Profils enthalten. Diese Kennung kann in den Landingpage-Parametern definiert werden.
 
