@@ -1,8 +1,8 @@
 ---
-title: '" Workflow use-case: Segmentierung am Standort "'
-seo-title: '" Workflow use-case: Segmentierung am Standort "'
-description: '" Workflow use-case: Segmentierung am Standort "'
-seo-description: '" Workflow use-case: Segmentierung am Standort "'
+title: '"Workflow-Anwendungsfall: Segmentierung am Standort"'
+seo-title: '"Workflow-Anwendungsfall: Segmentierung am Standort"'
+description: '"Workflow-Anwendungsfall: Segmentierung am Standort"'
+seo-description: '"Workflow-Anwendungsfall: Segmentierung am Standort"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -11,65 +11,65 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: 'Arbeitsfluss, Verwendung, Abfrage, Segmentierung, Lieferung '
+context-tags: 'Workflow, Anwendungsfall, Abfrage, Segmentierung, Lieferung '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
 
 ---
 
 
-# Einsatz von Workflow: Segmentierung am Standort {#segmentation-on-location}
+# Workflow-Anwendungsfall: Standortabgrenzung {#segmentation-on-location}
 
-Sie können eine E-Mail an Kunden mit Angeboten in ihren lokalen Geschäften schicken.
+Sie können eine zielgerichtete E-Mail an Kunden mit Angeboten in ihren lokalen Geschäften schicken.
 
 1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. Wählen **[!UICONTROL Sie New Workflow]** als Workflow und klicken **[!UICONTROL Sie als Nächstes]**.
-1. Geben Sie die Eigenschaften des Arbeitslaufs und Klicken **[!UICONTROL .]**
+1. Wählen Sie **[!UICONTROL Neuer Workflow]** als Workflowtyp aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Geben Sie die Eigenschaften des Workflows ein, und klicken Sie auf **[!UICONTROL Erstellen]**.
 
-## Auswahl der Empfänger durch E-Mail{#selecting-recipients-contactable-via-email}
+## Auswählen der Empfänger per E-Mail{#selecting-recipients-contactable-via-email}
 
-1. Bei **[!UICONTROL Tätigkeiten]** &gt; **[!UICONTROL Zielstreben]**, Abschleppung und Absturz einer **[!UICONTROL Query-Aktivität]**![](assets/query.png).
-1. Verdoppeln Sie die Aktivität auf.
-1. Bei **[!UICONTROL Abzügen]**, Abbremsungen **[!UICONTROL und Abschlagsprofilen ist]** die E **[!UICONTROL -Email]** mit dem Betreiber **[!UICONTROL nicht leer]**.
-1. Bei **[!UICONTROL Abschlagsabzügen und]****[!UICONTROL Abschlagsprofilen Profile und]** Auswahl der Felder **[!UICONTROL nicht mehr per E-Email]** mit dem Wert **[!UICONTROL Nr]**.
-1. Klicken **[!UICONTROL Sie bitte]** zweimal.
+1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]** ziehen und löschen Sie eine **[!UICONTROL Abfrageaktivität]**![](assets/query.png).
+1. Doppelklicken Sie auf die Aktivität.
+1. Ziehen Sie in **[!UICONTROL Tastenkombinationen]** die **[!UICONTROL Profile]** , und wählen Sie das Feld **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL ist nicht leer]**.
+1. Ziehen Sie in **[!UICONTROL Tastenkombinationen]** die **[!UICONTROL Profile]** , und wählen Sie das Feld **[!UICONTROL nicht mehr per E-Mail]** mit dem Wert **[!UICONTROL nein]**.
+1. Klicken Sie auf **[!UICONTROL Zweimal bestätigen]** .
 
 ![](assets/wf-complement-query.png)
 
 ## Creating a Segmentation activity{#creating-a-segmentation-activity}
 
-1. Ziehen Sie eine **[!UICONTROL Segmentation]** und verdoppeln Sie sie.
-1. Klicken auf Segmente, dann offener Übergang zur Zielgruppe in der ersten Stadt. Hier ist Boston.
-1. Standort und **[!UICONTROL Fallort und]** Auswahl **[!UICONTROL der Stadt]** mit dem Betreiber **[!UICONTROL und]** dem Wert **[!UICONTROL Boston]**.
-Anmerkung: Um alle Menschen zu erreichen, die in Boston eingetroffen sind, ist es nicht möglich, die fallempfindliche Option zu ignorieren.
+1. Ziehen Sie eine **[!UICONTROL Segmentierungsaktivität]** ab und doppelklicken Sie darauf.
+1. Klicken Sie auf Segment und öffnen Sie dann den Übergang zu Zielgruppen in der ersten Stadt. Hier Boston.
+1. Ziehen und Ablegen von **[!UICONTROL Standort]** und wählen Sie **[!UICONTROL Stadt]** mit dem Operator **[!UICONTROL entspricht]** und den Wert **[!UICONTROL Boston]**.
+Hinweis: Um alle Personen zu erreichen, die in Boston eintrafen, deaktivieren Sie die Option für die Groß- und Kleinschreibung, ohne Rücksicht auf den Fall.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
-1. In Liste **[!UICONTROL der outbound segmente]****[!UICONTROL einfügen Sie ein Element]** und ![](assets/edit_darkgrey-24px.png) klicken Sie darauf, ein Segment in der zweiten Stadt zu schaffen. Hier Chicago.
-1. Standort und **[!UICONTROL Fallort Ort]** und Auswahl **[!UICONTROL der Stadt]** mit dem Betreiber **[!UICONTROL in]** **[!UICONTROL Chicago]** .
-1. Um alle Menschen, die in Chicago eingereist sind, zu erreichen, ist es nicht möglich, die Sache unkritisch zu machen.
+1. Klicken Sie in der **[!UICONTROL Liste der ausgehenden Segmente]** auf **[!UICONTROL Element]** hinzufügen, und klicken Sie auf ![](assets/edit_darkgrey-24px.png) , um ein Segment zu erstellen, das auf Personen in der zweiten Stadt zugeschnitten ist. Hier Chicago.
+1. Ziehen und Ablegen **[!UICONTROL Location]** und wählen Sie **[!UICONTROL City]** mit dem Operator **[!UICONTROL gleicht]** und geben Sie **[!UICONTROL Chicago]** in Wert ein.
+1. Um alle Personen zu erreichen, die Chicago betraten, deaktivieren Sie die Option Groß-/Kleinschreibung, ohne den Fall zu berücksichtigen.
 1. Wählen Sie **[!UICONTROL Bestätigen]**.
 
 ## Creating an email delivery{#creating-an-email-delivery}
 
-1. Bei **[!UICONTROL Tätigkeiten]** &gt; **[!UICONTROL Kanäle]**, Abschleppung und Absturz einer **[!UICONTROL E-Mail nach]** jedem Segment.
-1. Klicken Sie die Tätigkeit und wählen ![](assets/edit_darkgrey-24px.png) Sie sich zum Edit aus.
-1. Wählen **[!UICONTROL Sie einfache E-Email]** und Klicken **[!UICONTROL Sie.]**
-1. Wählen Sie eine E-Email-Vorlage und klicken Sie **[!UICONTROL als Nächstes]**.
-1. Geben Sie die E-Email-Eigenschaften und klicken **[!UICONTROL Sie.]**
-1. Um das Layout Ihrer E-Email zu schaffen, klicken Sie **[!UICONTROL auf Email Designer]**.
-1. Elemente einfügen oder ein bestehendes Muster auswählen.
-1. Personalisieren Sie Ihre E-Email mit spezifischen Angeboten.
+1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Channels]** ziehen Sie nach jedem Segment eine **[!UICONTROL E-Mail-Zustellung]** , und lassen Sie diese abbrechen.
+1. Klicken Sie auf die Aktivität und wählen Sie ![](assets/edit_darkgrey-24px.png) zu bearbeiten.
+1. Wählen Sie **[!UICONTROL Einfache E-Mail]** aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wählen Sie eine E-Mail-Vorlage aus, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Geben Sie die E-Mail-Eigenschaften ein und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Um das Layout Ihrer E-Mail zu erstellen, klicken Sie auf **[!UICONTROL E-Mail-Designer]**.
+1. Fügen Sie Elemente ein oder wählen Sie eine vorhandene Vorlage aus.
+1. Personalisieren Sie Ihre E-Mail mit spezifischen Angeboten für jeden Standort.
 
-Weitere Informationen sind [der Konzeption einer E-Mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)zu entnehmen.
+Weitere Informationen finden Sie unter [Entwerfen einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Klick **[!UICONTROL , um]** deine Layout zu überprüfen.
+1. Klicken Sie auf **[!UICONTROL Vorschau]** , um Ihr Layout zu überprüfen.
 1. Wählen Sie **[!UICONTROL Speichern aus]**.
 
 ![](assets/wf-segmentation-location.png)
 
 **Verwandte Themen:**
 
-* [Sporttätigkeit](../../automating/using/query.md)
-* [Segmentierung](../../automating/using/segmentation.md)
+* [Abfrageaktivität](../../automating/using/query.md)
+* [Segmenttätigkeit](../../automating/using/segmentation.md)
 * [E-Mail-Versand](../../automating/using/email-delivery.md)
