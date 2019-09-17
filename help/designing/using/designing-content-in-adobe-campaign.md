@@ -13,27 +13,33 @@ topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 ---
 
 
-# Inhaltserstellung in Adobe Campaign{#designing-content-in-adobe-campaign}
+# Kampagnen-E-Mail-Designer{#designing-content-in-adobe-campaign}
 
-Nachdem Sie eine Nachricht oder Landingpage in Adobe Campaign erstellt haben, müssen Sie den entsprechenden Inhalt definieren.
+Sobald Sie eine E-Mail in Adobe Campaign erstellt haben, müssen Sie deren Inhalt definieren.
 
-* Weiterführende Informationen zur Bearbeitung von E-Mail-Inhalten und zur Verwendung des in Adobe Campaign verfügbaren Email Designer finden Sie im Abschnitt [Über die Inhaltserstellung in E-Mails](../../designing/using/about-email-content-design.md).
-* Weiterführende Informationen zur Bearbeitung von Inhalten der Landingpage finden Sie im Abschnitt [Über die Inhaltserstellung von Landingpages](../../designing/using/about-landing-page-content-design.md).
-* Weiterführende Informationen zur Bearbeitung von SMS- oder Push-Benachrichtigungs-Inhalten finden Sie im Abschnitt [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../designing/using/about-sms-and-push-content-design.md).
+<!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage eine vordefinierte Vorlage zu verwenden oder existierenden Inhalt aus einer anderen Quelle zu laden. Siehe [Existierenden Inhalt auswählen](../../designing/using/selecting-an-existing-content.md).
+* Informationen zum Erstellen von E-Mail-Inhalten finden Sie unter [Schnellstart](../../designing/using/quick-start.md).
+* Eine Übersicht über den E-Mail-Designer finden Sie unter [Verwenden des E-Mail-Designers](../../designing/using/overview.md).
+* Weitere Informationen zum Thema Bauinhalte:
+   * Sehen Sie von Grund auf [Entwerfen von E-Mails](../../designing/using/designing-from-scratch.md).
+   * Verwenden vorhandener Inhalte finden Sie unter [Entwerfen mit vorhandenen Inhalten](../../designing/using/using-existing-content.md).
+   * Informationen zur Integration finden Sie unter [Entwerfen mithilfe von Adobe Campaign-Integrationen](../../designing/using/using-integrations.md).
+* Weitere Informationen zu Personalisierung finden Sie unter [Personalisierung](../../designing/using/personalization.md).
 
-Sie können die Wirksamkeit Ihrer Marketingkampagnen verbessern, indem Sie Ihre Inhalte personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/inserting-a-personalization-field.md) und [Inhaltsbausteine](../../designing/using/adding-a-content-block.md).
+Beim Erstellen einer E-Mail können Sie entweder eine vordefinierte Vorlage verwenden oder einen vorhandenen Inhalt aus einer anderen Quelle laden. Siehe [Existierenden Inhalt auswählen](../../designing/using/using-existing-content.md#selecting-an-existing-content).
 
-Zusätzlich können Sie dynamische Inhalte definieren, die je nach Profil angepasst werden. Siehe [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/defining-dynamic-content-in-an-email.md) und [Dynamische Inhalte in einer Landingpage definieren](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+Sie können die Wirksamkeit Ihrer Marketingkampagnen verbessern, indem Sie Ihre Inhalte personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field) und [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 
-Sie haben auch die Möglichkeit, Ihre Nachrichten und Landingpages mit Links und Bildern zu versehen. Siehe [Link einfügen](../../designing/using/inserting-a-link.md) und [Bilder einfügen](../../designing/using/inserting-images.md).
+Zusätzlich können Sie dynamische Inhalte definieren, die je nach Profil angepasst werden. Siehe [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) und [Dynamische Inhalte in einer Landingpage definieren](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
+
+Sie haben auch die Möglichkeit, Ihre Nachrichten und Landingpages mit Links und Bildern zu versehen. Siehe [Link einfügen](../../designing/using/links.md#inserting-a-link) und [Bilder einfügen](../../designing/using/images.md#inserting-images).
 
 **Verwandte Themen**:
 
@@ -41,4 +47,3 @@ Sie haben auch die Möglichkeit, Ihre Nachrichten und Landingpages mit Links und
 * [Landingpage erstellen](../../channels/using/designing-a-landing-page.md)
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
 * [Push-Benachrichtigung erstellen und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
-
