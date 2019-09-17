@@ -14,8 +14,8 @@ discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -59,7 +59,7 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
       Der Test muss mindestens eine Stunde dauern, damit die Trackingdaten gesammelt und korrekt für die Auswahl der Gewinnervariante berücksichtigt werden können.
    ![](assets/ab_parameters.png)
 
-1. Gehen Sie nach der Definition der A/B-Test-Parameter zur nächsten Etappe des Assistenten über und definieren Sie den E-Mail-Inhalt. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Bedienen Sie sich des Karussels, um zwischen den verschiedenen Varianten hin und her zu wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/about-email-content-design.md).
+1. Gehen Sie nach der Definition der A/B-Test-Parameter zur nächsten Etappe des Assistenten über und definieren Sie den E-Mail-Inhalt. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Bedienen Sie sich des Karussels, um zwischen den verschiedenen Varianten hin und her zu wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/overview.md).
 
    ![](assets/create_ab_testing2.png)
 
@@ -89,7 +89,7 @@ Ihre E-Mail ist jetzt definiert und kann gesendet werden. Sie können Protokolle
 
 **Verwandtes Thema**:
 
-Video [Creating an email](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+[E-Mails erstellen](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) Video
 
 ## Über A/B-Test-Indikatoren {#about-a-b-test-indicators}
 
