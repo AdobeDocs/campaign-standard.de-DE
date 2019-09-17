@@ -13,8 +13,8 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
 
 ---
 
@@ -45,12 +45,12 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Inhaltserstellung: Import aus einer URL<br /> </td> 
-   <td> Durch den Import aus einer URL können Sie rasch auf Kreativinhalte auf einer Website zugreifen, um E-Mails zu erstellen. Zusätzlich können Sie Ihre Kreativprozesse optimieren, indem Sie Dritten ermöglichen, Inhalte direkt über eine URL zu teilen. Importierte Inhalte können flexibel als Teil eines Einzelversands oder auf Vorlagenebene verwendet werden, was eine konsistente Präsentation der Marke in allen Kampagnen ermöglicht, egal ob es sich um auf Workflows basierte Nachrichten oder um Transaktionsnachrichten handelt oder ob sie A/B-Tests oder multivariate Tests beinhalten. Beim Import aus einer URL werden alle Links automatisch umgewandelt und getrackt, damit die E-Mail-Leistung mithilfe dynamischer Berichte überwacht werden kann.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/importing-content-from-a-url.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch den Import aus einer URL können Sie rasch auf Kreativinhalte auf einer Website zugreifen, um E-Mails zu erstellen. Zusätzlich können Sie Ihre Kreativprozesse optimieren, indem Sie Dritten ermöglichen, Inhalte direkt über eine URL zu teilen. Importierte Inhalte können flexibel als Teil eines Einzelversands oder auf Vorlagenebene verwendet werden, was eine konsistente Präsentation der Marke in allen Kampagnen ermöglicht, egal ob es sich um auf Workflows basierte Nachrichten oder um Transaktionsnachrichten handelt oder ob sie A/B-Tests oder multivariate Tests beinhalten. Beim Import aus einer URL werden alle Links automatisch umgewandelt und getrackt, damit die E-Mail-Leistung mithilfe dynamischer Berichte überwacht werden kann.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Korrekturen  {#patches}
+### Korrekturen {#patches}
 
 #### Plattform {#platform}
 
@@ -120,7 +120,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> Bibliothek für E-Mail-Vorlagen<br /> </td> 
-   <td> Neu: 18 neue responsive Vorlagen in zwei attraktiven Motiven namens Astro und Feather. Diese anpassbaren Vorlagen sind branchenunabhängig und können sofort verwendet werden. Die Vorlagen enthalten Inhalte für eine Vielzahl von Nutzungsszenarien und ermöglichen Ihnen damit, E-Mail-Marketingkampagnen rascher, effizienter und attraktiver zu konzipieren und durchzuführen.<br /> Lesen Sie für weiterführende Informationen das <a href="../../start/using/about-templates.md#content-templates">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Neu: 18 neue responsive Vorlagen in zwei attraktiven Motiven namens Astro und Feather. Diese anpassbaren Vorlagen sind branchenunabhängig und können sofort verwendet werden. Die Vorlagen enthalten Inhalte für eine Vielzahl von Nutzungsszenarien und ermöglichen Ihnen damit, E-Mail-Marketingkampagnen rascher, effizienter und attraktiver zu konzipieren und durchzuführen.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/using-reusable-content.md#content-templates">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dynamische Berichterstellung mit Profildaten<br /> </td> 
@@ -133,7 +133,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen  {#patches-1}
+### Korrekturen {#patches-1}
 
 #### Plattform {#platform-1}
 
@@ -315,7 +315,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> Verbesserte Bildbearbeitungsfunktionen mit Creative SDK<br /> </td> 
-   <td> Sie können jetzt Bilder mit den zahlreichen Funktionen des Adobe Creative SDK direkt im Inhaltseditor während der Bearbeitung von E-Mails oder Landingpages bearbeiten.<br /> Für diese Funktion ist kein Kauf zusätzlicher Creative-Cloud-Lösungen erforderlich.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/modifying-images-with-the-adobe-creative-sdk.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Sie können jetzt Bilder mit den zahlreichen Funktionen des Adobe Creative SDK direkt im Inhaltseditor während der Bearbeitung von E-Mails oder Landingpages bearbeiten.<br /> Für diese Funktion ist kein Kauf zusätzlicher Creative-Cloud-Lösungen erforderlich.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-Benachrichtigungen für Transaktionen<br /> </td> 
@@ -331,12 +331,12 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver verfügbar<br /> </td> 
-   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Integrationserweiterung von Adobe Campaign, die hier heruntergeladen werden kann: <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Weiterführende Informationen finden Sie in diesem <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a>.<br /> </td> 
+   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Integrationserweiterung von Adobe Campaign, die hier heruntergeladen werden kann: <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Weiterführende Informationen finden Sie in diesem <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Korrekturen  {#patches-4}
+### Korrekturen {#patches-4}
 
 #### Plattform {#platform-2}
 
@@ -404,7 +404,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell Versandzeitpunkt optimieren<br /> </td> 
