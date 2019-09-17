@@ -14,8 +14,8 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
+translation-type: tm+mt
+source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
 
@@ -83,7 +83,7 @@ Jetzt können Sie auf die von Ihnen erstellte Nachricht zugreifen und das aktual
 
 Gehen Sie folgendermaßen vor, um für eine Transaktionsnachricht eine Personalisierung einzurichten:
 
-1. Öffnen Sie mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]** der Nachricht, um den Betreff und den Inhalt anzupassen. Im vorliegenden Beispiel haben wir eine HTML-Vorlage mit Bildern, dem Stylesheet sowie einer HTML-Datei importiert. Weiterführende Informationen zum Import von HTML-Vorlagen finden Sie im Abschnitt [Existierenden Inhalt laden](../../designing/using/selecting-an-existing-content.md).
+1. Öffnen Sie mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]** der Nachricht, um den Betreff und den Inhalt anzupassen. Im vorliegenden Beispiel haben wir eine HTML-Vorlage mit Bildern, dem Stylesheet sowie einer HTML-Datei importiert. Weiterführende Informationen zum Import von HTML-Vorlagen finden Sie im Abschnitt [Existierenden Inhalt laden](../../designing/using/using-existing-content.md).
 
    ![](assets/message-center_6.png)
 
@@ -97,7 +97,7 @@ Gehen Sie folgendermaßen vor, um für eine Transaktionsnachricht eine Personali
 
    ![](assets/message-center_7-enrichment.png)
 
-   Weiterführende Informationen zur Verwendung von Personalisierungsfeldern finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/inserting-a-personalization-field.md).
+   Weiterführende Informationen zur Verwendung von Personalisierungsfeldern finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/message-center_8.png)
 
@@ -115,11 +115,11 @@ Sie können Produktlisten erstellen, die eine oder mehrere Datenkollektionen im 
 
 >[!CAUTION]
 >
->Produktlisten sind nur während der Bearbeitung von Transaktions-E-Mails in der Benutzeroberfläche von [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) verfügbar.
+>Produktlisten sind nur während der Bearbeitung von Transaktions-E-Mails in der Benutzeroberfläche von [Email Designer](../../designing/using/overview.md#email-designer) verfügbar.
 
 Um eine Liste mit Produkten aus einem abgebrochenen Einkauf in eine Transaktionsnachricht einzufügen, folgen Sie den unten stehenden Schritten.
 
-Sie können sich die erforderlichen Schritte zur Konfiguration von Produktlisten in einer Transaktions-E-Mail auch in Videos ansehen. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+Sie können sich die erforderlichen Schritte zur Konfiguration von Produktlisten in einer Transaktions-E-Mail auch in Videos ansehen. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
 
 >[!NOTE]
 >
@@ -130,9 +130,9 @@ Sie können sich die erforderlichen Schritte zur Konfiguration von Produktlisten
 Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, müssen Sie zuerst auf Ereignisebene die Liste der Produkte und die Felder für jedes Produkt der Liste definieren, die angezeigt werden sollen. Weiterführende Informationen dazu finden Sie im Abschnitt [Datenkollektionen definieren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
 1. Wählen Sie in der Transaktionsnachricht den jeweiligen **[!UICONTROL Inhaltsbaustein]** aus, um den E-Mail-Inhalt zu ändern.
-1. Fügen Sie mit Drag &amp; Drop eine Strukturkomponente in den Arbeitsbereich ein. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Fügen Sie mit Drag &amp; Drop eine Strukturkomponente in den Arbeitsbereich ein. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Wählen Sie beispielsweise den einspaltigen Aufbau aus und fügen Sie eine Textkomponente, eine Bildkomponente und eine Schaltflächen-Komponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+   Wählen Sie beispielsweise den einspaltigen Aufbau aus und fügen Sie eine Textkomponente, eine Bildkomponente und eine Schaltflächen-Komponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Wählen Sie die soeben erstellte Strukturkomponente und danach in der Symbolleiste das Symbol zum **[!UICONTROL Aktivieren einer Produktliste]** aus.
 
@@ -148,7 +148,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
    * **[!UICONTROL Spalte]**: vertikal, also alle Elemente in einer Reihe nebeneinander.
    >[!NOTE]
    >
-   >Die Option **[!UICONTROL Spalte]** ist nur verfügbar, wenn eine mehrspaltige Strukturkomponente verwendet wird (**[!UICONTROL 2-2-Spalte]**, **[!UICONTROL 3-3-Spalte]** und **[!UICONTROL 4-4-Spalte]**). Füllen Sie bei der Bearbeitung der Produktliste nur die erste Spalte aus. Die anderen Spalten werden nicht berücksichtigt. Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   >Die Option **[!UICONTROL Spalte]** ist nur verfügbar, wenn eine mehrspaltige Strukturkomponente verwendet wird (**[!UICONTROL 2-2-Spalte]**, **[!UICONTROL 3-3-Spalte]** und **[!UICONTROL 4-4-Spalte]**). Füllen Sie bei der Bearbeitung der Produktliste nur die erste Spalte aus. Die anderen Spalten werden nicht berücksichtigt. Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Wählen Sie die Datenkollektion aus, die Sie erstellt haben, als Sie das mit der Transaktionsnachricht in Verbindung stehende Ereignis konfiguriert haben. Sie finden sie im Knoten **[!UICONTROL Kontext]** &gt; **[!UICONTROL Echtzeit-Ereignis]** &gt; **[!UICONTROL Ereignis-Kontext]**.
 
@@ -164,7 +164,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
 
    >[!NOTE]
    >
-   >Wenn die Elemente in Ihrer Liste senkrecht dargestellt werden sollen (**[!UICONTROL Spalte]**), entspricht die Höchstzahl der Elemente der ausgewählten Strukturkomponente (2, 3 oder 4 Spalten). Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   >Wenn die Elemente in Ihrer Liste senkrecht dargestellt werden sollen (**[!UICONTROL Spalte]**), entspricht die Höchstzahl der Elemente der ausgewählten Strukturkomponente (2, 3 oder 4 Spalten). Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ### Produktliste befüllen   {#populating-the-product-listing}
 
@@ -221,7 +221,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
    Der Fallback-Inhalt wird angezeigt, wenn die Kollektion beim Auslösen des Triggers leer ist. Das ist beispielsweise dann der Fall, wenn ein Kunde nichts im Warenkorb liegen hat.
 
-1. Bearbeiten Sie im Einstellungsbereich den Stil der Produktliste. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/editing-email-styles.md).
+1. Bearbeiten Sie im Einstellungsbereich den Stil der Produktliste. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/styles.md).
 1. Sehen Sie sich die E-Mail in der Vorschau an, indem Sie ein Testprofil verwenden, das mit dem entsprechenden Transaktionsereignis verknüpft ist und für das Sie Kollektionsdaten definiert haben. Fügen Sie für das Testprofil, das Sie verwenden möchten, beispielsweise die folgenden Informationen zum Abschnitt **[!UICONTROL Ereignisdaten]** hinzu:
 
    ![](assets/message-center_loop_test-profile_payload.png)
