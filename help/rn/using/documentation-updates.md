@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 815a0aba5a31346e3cd8dcaf0c24ee311da81ed1
+source-git-commit: b4f9d8ec6c5fc8dec8e4ad16930a183cda665a15
 
 ---
 
@@ -27,25 +27,29 @@ Auf dieser Seite finden Sie eine nach Version geordnete Übersicht neuer Funktio
 
 Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-notes.md).
 
-## Aktualisierungen der Dokumentation - September 2019 {#doc-updates-september-2019}
+## Dokumentationsaktualisierungen - September 2019 {#doc-updates-september-2019}
 
-Im Abschnitt Push wurde ein neuer Abschnitt darüber hinzugefügt, wie Profilinformationen auf der Grundlage von mobilen Anwendungsdaten erstellt und aktualisiert werden können. [mehr dazu](../../channels/using/updating-profile-with-mobile-app-data.md)
+Im Abschnitt Push-Benachrichtigungen wurde ein neuer Abschnitt hinzugefügt, in dem es um das Erstellen und Aktualisieren von Profilinformationen auf der Grundlage von Abonnementdaten für mobile Anwendungen geht. [mehr dazu](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-Ein neues Beispiel, das zeigt, wie eine E-Mail mit zusätzlichen Daten übermittelt werden kann, die aus einer Ladatsaktivität stammen, wurde hinzugefügt. [mehr dazu](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+Es wurde ein neues Beispiel hinzugefügt, in dem beschrieben wird, wie eine E-Mail mit zusätzlichen Daten gesendet wird, die aus einer Ladedateiaktivität abgerufen wurden. [mehr dazu](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-Ein neuer Abschnitt über die Verwendung von Fallen wurde hinzugefügt. [mehr dazu](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
+Ein neuer Abschnitt über die Verwendung von Traps wurde hinzugefügt. [mehr dazu](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
 
-## Aktualisierungen der Dokumentation - August 2019 {#doc-updates-august-2019}
+Auf der Seite zur Konfiguration einer mobilen Anwendung mithilfe von Adobe Experience Platform SDKs wurde eine Anmerkung zur Option **Launch_URL_Campaign** hinzugefügt. [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-Ein neuer Abschnitt mit Fällen von Arbeitsströmen, die sich auf Anfragen konzentrieren, wurde hinzugefügt. [mehr dazu](../../automating/using/workflow-created-query-with-complement.md)
+Der E-Mail-Designer-Leitfaden wurde überarbeitet. [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Es wurde ein Verfahren in den Abschnitt über Arbeitsstörungen aufgenommen, in dem es um die Darstellung von SQL-Anfragen im Log-Labor ging. [mehr dazu](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+## Dokumentationsaktualisierungen - August 2019 {#doc-updates-august-2019}
 
-Es wurde ein neuer Help-Artikel hinzugefügt, der Informationen über Unterbereiche und Bescheinigungen über Bescheinigungen innerhalb der Kontrollgruppe enthält. [mehr dazu](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+Ein neuer Abschnitt mit Anwendungsfällen für Workflows, die sich auf Abfragen konzentrieren, wurde hinzugefügt. [mehr dazu](../../automating/using/workflow-created-query-with-complement.md)
 
-Der Abschnitt, in dem die Mustertexte und Fragmente beschrieben sind, wurde aktualisiert. [mehr dazu](../../start/using/about-templates.md#content-templates)
+Im Abschnitt zur Fehlerbehebung für den Workflow wurde eine Prozedur hinzugefügt, wie SQL-Abfragen auf der Registerkarte Protokoll angezeigt werden. [mehr dazu](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Ein neuer Abschnitt über die Einsparung von E-Email-Inhalten im Email-Designer wurde hinzugefügt. [mehr dazu](../../start/using/about-templates.md#saving-content-as-template)
+Es wurde ein neuer Hilfeartikel mit Informationen über Subdomänen und Zertifikate-Management innerhalb der Systemsteuerung hinzugefügt. [mehr dazu](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
+Der Abschnitt, in dem die Inhaltsvorlagen und Fragmente beschrieben werden, wurde aktualisiert. [mehr dazu](../../designing/using/using-reusable-content.md#content-templates)
+
+Im E-Mail-Designer wurde ein neuer Abschnitt zum Speichern von E-Mail-Inhalten als Vorlage hinzugefügt. [mehr dazu](../../start/using/about-templates.md#saving-content-as-template)
 
 ## 19.3 - Version Juli 2019 {#release-19-3---july-2019}
 
@@ -73,11 +77,11 @@ Für dynamische Berichte wurde ein Abschnitt zur Fehlerbehebung hinzugefügt. �
 
 Ein Diagramm mit einer Erklärung, wie unterschiedliche In-App-Vorlagen personenbezogene Daten handhaben, wurde hinzugefügt. – [mehr dazu](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-Der Abschnitt zum Speichern von E-Mail-Inhalt als Fragment in Email Designer wurde aktualisiert. – [mehr dazu](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+Der Abschnitt zum Speichern von E-Mail-Inhalt als Fragment in Email Designer wurde aktualisiert. – [mehr dazu](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
-Ein Warnhinweis wurde hinzugefügt, in dem erklärt wird, wie sich zusätzliche Leerzeichen auf das Layout eines E-Mail-Inhalts auswirken können – [mehr dazu](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+Ein Warnhinweis wurde hinzugefügt, in dem erklärt wird, wie sich zusätzliche Leerzeichen auf das Layout eines E-Mail-Inhalts auswirken können – [mehr dazu](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Ein neuer Abschnitt zu empfohlenen Updates von Email Designer wurde hinzugefügt – [mehr dazu](../../designing/using/about-email-content-design.md#email-designer-updates)
+Ein neuer Abschnitt zu empfohlenen Updates von Email Designer wurde hinzugefügt – [mehr dazu](../../designing/using/overview.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -145,11 +149,11 @@ Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die
 
 Die Liste der Funktionen für Workflows wurde aktualisiert – [mehr dazu](../../automating/using/list-of-functions.md)
 
-Das Kapitel über die Inhaltserstellung wurde aktualisiert und enthält jetzt einen neuen Abschnitt mit einer genauen Beschreibung der unterschiedlichen Methoden zur Erstellung einer E-Mail mit dem Email Designer unter Verwendung vorhandener Inhalte – [mehr dazu](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents)
+Das Kapitel über die Inhaltserstellung wurde aktualisiert und enthält jetzt einen neuen Abschnitt mit einer genauen Beschreibung der unterschiedlichen Methoden zur Erstellung einer E-Mail mit dem Email Designer unter Verwendung vorhandener Inhalte – [mehr dazu](../../designing/using/using-existing-content.md)
 
-Ein neuer Abschnitt zum Speichern von E-Mail-Inhalt als Fragment im Email Designer wurde hinzugefügt – [mehr dazu](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+Ein neuer Abschnitt zum Speichern von E-Mail-Inhalt als Fragment im Email Designer wurde hinzugefügt – [mehr dazu](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
-Der Abschnitt zur Link-Verwaltung wurde mit zusätzlichen Informationen zur Verwaltung getrackter URLs im Email Designer ergänzt – [mehr dazu](../../designing/using/inserting-a-link.md)
+Der Abschnitt zur Link-Verwaltung wurde mit zusätzlichen Informationen zur Verwaltung getrackter URLs im Email Designer ergänzt – [mehr dazu](../../designing/using/links.md#inserting-a-link)
 
 Ein neuer Abschnitt wurde hinzugefügt, in dem der Wiederholungsvorgang bei Transaktionsnachrichten beschrieben wird – [mehr dazu](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
 
@@ -165,7 +169,7 @@ Das Erste-Schritte-Handbuch wurde erweitert und neu strukturiert – [mehr dazu]
 
 Die Seite mit veralteten und entfernten Funktionen wurde aktualisiert – [mehr dazu](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-Der Abschnitt zur Dreamweaver-Integration wurde aktualisiert und verbessert – [mehr dazu](../../designing/using/about-email-content-design.md#editing-content-in-dreamweaver)
+Der Abschnitt zur Dreamweaver-Integration wurde aktualisiert und verbessert – [mehr dazu](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
 ## 19.1 - Version Februar 2019 {#release-19-1---february-2019}
 
@@ -181,13 +185,13 @@ Workflow-Verbesserungen – mehr dazu [hier](../../automating/using/workflow-int
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-1}
 
-Eine neue Einführung zur Erstellung von E-Mail-Inhalten und andere Verbesserungen bei Email Designer wurden zum Abschnitt zur Bearbeitung von E-Mail-Inhalten hinzugefügt – [mehr dazu](../../designing/using/about-email-content-design.md#email-designer-home-page)
+Eine neue Einführung zur Erstellung von E-Mail-Inhalten und andere Verbesserungen bei Email Designer wurden zum Abschnitt zur Bearbeitung von E-Mail-Inhalten hinzugefügt – [mehr dazu](../../designing/using/overview.md#email-designer-home-page)
 
 Ein neuer Abschnitt zu Beschränkungen bei Transaktionsnachrichten wurde hinzugefügt – [mehr dazu](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
-Ein neuer Abschnitt wurde hinzugefügt, in dem die unterschiedlichen Möglichkeiten zum Erstellen von E-Mails in Adobe Campaign verglichen werden – [mehr dazu](../../designing/using/about-email-content-design.md#email-design-options-comparison)
+Ein neuer Abschnitt wurde hinzugefügt, in dem die unterschiedlichen Möglichkeiten zum Erstellen von E-Mails in Adobe Campaign verglichen werden – [mehr dazu](../../designing/using/using-integrations.md#email-design-options-comparison)
 
-Der Abschnitt zur Erstellung von benutzerdefinierten Inhaltsbausteinen wurde durch Informationen zu Zielgruppendimensionen ergänzt – [mehr dazu](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+Der Abschnitt zur Erstellung von benutzerdefinierten Inhaltsbausteinen wurde durch Informationen zu Zielgruppendimensionen ergänzt – [mehr dazu](../../designing/using/personalization.md#creating-custom-content-blocks)
 
 Eine Warnung wurde hinzugefügt, die Benutzer darauf hinweist, dass Email Designer nicht Internet Explorer 11 unterstützt – [mehr dazu](../../start/using/compatible-browsers.md)
 
@@ -227,17 +231,17 @@ Im Abschnitt zur Dateiextraktions-Aktivität wurde eine Beschreibung einer neuen
 
 ### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-2}
 
-Allgemeine Verfügbarkeit von Email Designer – [mehr dazu](../../designing/using/about-email-content-design.md)
+Allgemeine Verfügbarkeit von Email Designer – [mehr dazu](../../designing/using/overview.md)
 
 Produktlisten in Transaktions-E-Mails – [mehr dazu](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-Mobile-Ansicht in Email Designer – [mehr dazu](../../designing/using/about-email-content-design.md#switching-to-mobile-view)
+Mobile-Ansicht in Email Designer – [mehr dazu](../../designing/using/styles.md#switching-to-mobile-view)
 
 Verbesserung von In-App-Messaging (Beta) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-2}
 
-Das Handbuch zur Inhaltserstellung wurde aktualisiert und enthält jetzt Informationen zur allgemeinen Verfügbarkeit von Email Designer und der Einstellung des Legacy-E-Mail-Inhaltseditors – [mehr dazu](../../designing/using/about-email-content-design.md)
+Das Handbuch zur Inhaltserstellung wurde aktualisiert und enthält jetzt Informationen zur allgemeinen Verfügbarkeit von Email Designer und der Einstellung des Legacy-E-Mail-Inhaltseditors – [mehr dazu](../../designing/using/overview.md)
 
 Die Dokumentation zum [In-App Messaging](../../channels/using/about-in-app-messaging.md) und zu [Push-Benachrichtigungen](../../channels/using/about-push-notifications.md) wurde aktualisiert.
 
@@ -249,7 +253,7 @@ Informationen zur neuen Option der Datenladeaktivität wurden hinzugefügt. Dami
 
 Informationen zum neuen Feld in der Daten-Update-Aktivität wurden hinzugefügt. Diese Option ermöglicht jetzt die Konfiguration der maximalen Batch-Größe für hochzuladende Daten – [mehr dazu](../../automating/using/update-data.md)
 
-Die Dokumentation zum [Import von Inhalt aus einer URL](../../designing/using/importing-content-from-a-url.md) wurde um Informationen zum Email Designer erweitert.
+Die Dokumentation zum [Import von Inhalt aus einer URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) wurde um Informationen zum Email Designer erweitert.
 
 Microsoft Edge (neueste Version) wurde zur Liste kompatibler Browser für Computer hinzugefügt – [mehr dazu](../../start/using/compatible-browsers.md)
 
@@ -285,7 +289,7 @@ Aktualisierter Abschnitt zu nativen Berichten über Push-Benachrichtigungen – 
 
 [Versand mit hoher Priorität](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) und [Typologiefilter](../../administration/using/about-typology-rules.md#typology-rules) für Abonnenten mobiler Apps.
 
-Automatischer Import von Inhalten von einer URL während der Nachrichtenvorbereitung – [mehr dazu](../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+Automatischer Import von Inhalten von einer URL während der Nachrichtenvorbereitung – [mehr dazu](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-4}
 
@@ -293,11 +297,11 @@ Eine neue Technote zum SMS-Schnittstellenprotokoll und dessen Konfiguration wurd
 
 Die Dokumentation zur Integration von Experience Manager mit Adobe Campaign wurde aktualisiert – [mehr dazu](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-Das Handbuch zur Inhaltserstellung wurde neu strukturiert, um die Funktionsweise der beiden Editoren zu veranschaulichen, mit denen E-Mail-Content erstellt werden kann – [mehr dazu](../../designing/using/about-email-content-design.md)
+Das Handbuch zur Inhaltserstellung wurde neu strukturiert, um die Funktionsweise der beiden Editoren zu veranschaulichen, mit denen E-Mail-Content erstellt werden kann – [mehr dazu](../../designing/using/overview.md)
 
-Hier erfahren Sie, wie Sie mit Creative SDK die Bearbeitung externer Inhalte ermöglichen können, indem Sie aus vorhandenen E-Mails Fragmente erstellen – [mehr dazu](../../designing/using/about-email-content-design.md#using-fragments-and-components)
+Hier erfahren Sie, wie Sie mit Creative SDK die Bearbeitung externer Inhalte ermöglichen können, indem Sie aus vorhandenen E-Mails Fragmente erstellen – [mehr dazu](../../designing/using/designing-from-scratch.md)
 
-In diesem [Abschnitt](../../designing/using/editing-existing-contents-with-the-email-designer.md) ist jetzt eine Liste der HTML-Attribute zur Gewährleistung der Kompatibilität mit Creative Designer verfügbar.
+In diesem [Abschnitt](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer) ist jetzt eine Liste der HTML-Attribute zur Gewährleistung der Kompatibilität mit Creative Designer verfügbar.
 
 Informationen zur Standardsprache bei einer mehrsprachigen Vorlage wurden hinzugefügt – [mehr dazu](../../start/using/creating-a-multilingual-template.md)
 
@@ -355,7 +359,7 @@ Best Practices für die Verwendung der von Adobe gehosteten SFTP-Server – [meh
 
 Die Liste der unterstützten Analytics-Lösungen/Core Services für die Integration mit Triggers wurde aktualisiert – [mehr dazu](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert – [mehr dazu](../../designing/using/about-email-content-design.md)
+Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert – [mehr dazu](../../designing/using/overview.md)
 
 ## 18.3 - Version März 2018   {#release-18-3---march-2018}
 
@@ -363,7 +367,7 @@ Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert �
 
 EU-Datenschutz-Grundverordnung (DSGVO) – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Creative Designer für E-Mails – [mehr dazu](../../designing/using/about-email-content-design.md#about-the-email-designer)
+Creative Designer für E-Mails – [mehr dazu](../../designing/using/overview.md)
 
 Mehrsprachige Push-Benachrichtigungen – [mehr dazu](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -467,7 +471,7 @@ Die Anleitungen zur Konfiguration der Integration mit Audience Manager oder Peop
 
 Ermüdungsverwaltung – [mehr dazu](../../administration/using/fatigue-rules.md)
 
-Inhaltserstellung: Import aus einer URL – [mehr dazu](../../designing/using/importing-content-from-a-url.md)
+Inhaltserstellung: Import aus einer URL – [mehr dazu](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-10}
 
@@ -505,7 +509,7 @@ Informationen zum Filtern mit einzelnen und mehreren Filtern in der API hinzugef
 
 ### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-11}
 
-Bibliothek mit E-Mail-Vorlagen – [mehr dazu](../../start/using/about-templates.md#content-templates)
+Bibliothek mit E-Mail-Vorlagen – [mehr dazu](../../designing/using/using-reusable-content.md#content-templates)
 
 Dynamische Berichte mit Profildaten – [mehr dazu](../../reporting/using/about-dynamic-reports.md)
 
@@ -523,7 +527,7 @@ Empfehlungen für das S3-Konto wurden hinzugefügt – [mehr dazu](../../adminis
 
 Der Abschnitt über die unterschiedlichen Benutzertypen wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
-Der Abschnitt über die Personalisierung von Bildquellen wurde aktualisiert – [mehr dazu](../../designing/using/personalizing-an-image-source.md)
+Der Abschnitt über die Personalisierung von Bildquellen wurde aktualisiert – [mehr dazu](../../designing/using/personalization.md#personalizing-an-image-source)
 
 Eine Dokumentation zu Berichten über aktive Profile wurde hinzugefügt – [mehr dazu](../../audiences/using/active-profiles.md)
 
@@ -599,7 +603,7 @@ Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind,
 
 ### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-14}
 
-Verbesserte Bildbearbeitungsfähigkeiten mit dem Creative SDK – [mehr dazu](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
+Verbesserte Bildbearbeitungsfähigkeiten mit dem Creative SDK – [mehr dazu](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
 Transaktions-Push-Benachrichtigungen – [mehr dazu](../../channels/using/transactional-push-notifications.md)
 
@@ -621,7 +625,7 @@ Ein neuer Abschnitt zur Konfiguration von Adobe Mobile Services wurde hinzugefü
 
 Die Abschnitte zur Mobile-App-Konfiguration und -Implementierung wurden aktualisiert, einschließlich detaillierter Schritte zum Einrichten und Senden von Push-Benachrichtigungen – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-Der Abschnitt zum Arbeiten mit Bildern in Campaign wurde aktualisiert – [mehr dazu](../../designing/using/setting-up-image-properties.md)
+Der Abschnitt zum Arbeiten mit Bildern in Campaign wurde aktualisiert – [mehr dazu](../../designing/using/images.md#setting-up-image-properties)
 
 Die Integration mit Adobe Analytics for Mobile (Point of Interest) wurde aktualisiert, einschließlich Konfigurationsschritten und Anwendungsbeispielen – [mehr dazu](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -691,7 +695,7 @@ Anwendungsbeispiel für Multibranding – [mehr dazu](../../administration/using
 
 Informationen zu E-Mail-Versandparametern und SMTP wurden hinzugefügt – [mehr dazu](../../administration/using/configuring-email-channel.md#email-channel-parameters)
 
-Neue Betreffzeilen-Benutzeroberfläche zum Importieren von Daten – [mehr dazu](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
+Neue Betreffzeilen-Benutzeroberfläche zum Importieren von Daten – [mehr dazu](../../designing/using/subject-line.md#predictive-subject-line)
 
 Erstellen von Push-Benachrichtigungen in einem Workflow – [mehr dazu](../../automating/using/push-notification-delivery.md)
 
@@ -709,7 +713,7 @@ Der Versand von Push-Benachrichtigungen wurde zur Planung hinzugefügt – [mehr
 
 ### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-17}
 
-Prädiktive Betreffzeile in E-Mails – [mehr dazu](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
+Prädiktive Betreffzeile in E-Mails – [mehr dazu](../../designing/using/subject-line.md#predictive-subject-line)
 
 SMS-Transaktionsnachrichten – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
