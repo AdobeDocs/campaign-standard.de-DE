@@ -3,18 +3,18 @@ title: Campaign und Assets Core Service verwenden
 seo-title: Campaign und Assets Core Service verwenden
 description: Campaign und Assets Core Service verwenden
 seo-description: Dank der Integration von Assets Core Service können Sie alle innerhalb von Adobe Experience Cloud geteilten Ressourcen in Ihren Nachrichten und Landingpages in Adobe Campaign verwenden.
-page-status-flag: nie aktiviert
-uuid: 264 a 1260-33 d 6-412 b-b 2 c 8-0 d 57 ca 10 d 025
+page-status-flag: never-activated
+uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird integriert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-discoiquuid: e 6 fefe 10-afd 5-4628-8 d 9 b -69 eeb 38070 eb
+discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
@@ -25,7 +25,7 @@ Die Integration von Assets Core Service bzw. Assets On Demand (je nach Konfigura
 
 Freigegebene Assets der Adobe Experience Cloud können in E-Mails und Landingpages wie nachfolgend beschrieben eingesetzt werden:
 
-1. Markieren Sie im Inhaltseditor einer E-Mail oder einer Landingpage einen Bild-Block und wählen Sie über das Kontextmenü die Option **[!UICONTROL Freigegebenes Bild aus Adobe Experience Cloud]aus.**
+1. Markieren Sie im Inhaltseditor einer E-Mail oder einer Landingpage einen Bild-Block und wählen Sie über das Kontextmenü die Option **[!UICONTROL Freigegebenes Bild aus Adobe Experience Cloud]** aus.
 
    ![](assets/dam_insert_image_dce.png)
 
@@ -38,5 +38,5 @@ Das entsprechende Bild wird nun eingefügt. Der Versand kann nach Bedarf persona
 **Verwandte Themen:**
 
 * [Assets und Freigabe](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)
-* [Inhaltseditor](../../designing/using/example--email-personalization.md)
+* [Inhaltseditor](../../designing/using/personalization.md#example-email-personalization)
 
