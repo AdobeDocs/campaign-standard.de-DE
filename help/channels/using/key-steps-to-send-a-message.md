@@ -13,21 +13,21 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
 # Die wichtigsten Schritte im Nachrichtenversand{#key-steps-to-send-a-message}
 
-Empfehlungen zur Durchführung des Versands finden Sie in [Best Practices beim Versand](http://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
+Empfehlungen zur Durchführung des Versands finden Sie in [Best Practices beim Versand](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 Das Erstellen und Senden von Nachrichten umfasst die folgenden Schritte:
 
 1. Erstellen Sie die Marketingaktivität **[!UICONTROL E-Mail]**, eine **[!UICONTROL SMS]**, eine **[!UICONTROL Briefpost]** oder eine **[!UICONTROL Push-Benachrichtigung]**. Siehe [E-Mail erstellen](../../channels/using/creating-an-email.md), [SMS erstellen](../../channels/using/creating-an-sms-message.md), [Briefpost-Versand erstellen](../../channels/using/creating-the-direct-mail.md) und [Push-Benachrichtigung erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
 1. Wählen Sie die Audiences aus, an die die Nachricht gesendet werden soll. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
-1. Erstellen Sie den Inhalt und die Personalisierungselemente der Nachricht. Weiterführende Informationen zum E-Mail-Inhalt oder zu Inhalten für andere Kanäle finden Sie im Abschnitt [Inhaltseditor](../../designing/using/about-email-content-design.md).
+1. Erstellen Sie den Inhalt und die Personalisierungselemente der Nachricht. Weiterführende Informationen zum E-Mail-Inhalt oder zu Inhalten für andere Kanäle finden Sie im Abschnitt [Inhaltseditor](../../designing/using/overview.md).
 1. Bereiten Sie den Versand vor, um die Zielgruppe zu berechnen und den Nachrichteninhalt zu erzeugen. Weiterführende Informationen dazu finden Sie im Abschnitt [Nachrichten validieren](../../sending/using/preparing-the-send.md).
 
    >[!NOTE]
