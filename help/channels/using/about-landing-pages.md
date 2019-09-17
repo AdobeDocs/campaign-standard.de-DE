@@ -14,8 +14,8 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5a0fe48630748472047d417df97cfd74d178d6ab
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -54,9 +54,9 @@ Ein vollständiger Landingpage-Lebenszyklus umfasst die folgenden Phasen:
 
 ![](assets/lp_livecycle.png)
 
-Nach der Erstellung und Publikation einer Landingpage können Sie diese auf einer Webseite zugänglich machen oder einen [direkten Link auf die Landingpage in eine E-Mail einfügen](../../designing/using/inserting-a-link.md).
+Nach der Erstellung und Publikation einer Landingpage können Sie diese auf einer Webseite zugänglich machen oder einen [direkten Link auf die Landingpage in eine E-Mail einfügen](../../designing/using/links.md#inserting-a-link).
 
 **Verwandte Themen:**
 
-* Video [Creating a landing page](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* Video [Creating a landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
 * [Über eine Landingpage zu einem Dienst anmelden](../../audiences/using/creating-a-service.md)
