@@ -13,8 +13,8 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
@@ -66,6 +66,6 @@ Die E-Mail mit dem Angebot eines 10 %-Rabatts wird an Abonnenten gesendet, die:
 **Verwandte Themen:**
 
 * [E-Mails erstellen](../../channels/using/creating-an-email.md)
-* [Inhalte erstellen](../../designing/using/example--email-personalization.md)
+* [Inhalte erstellen](../../designing/using/personalization.md#example-email-personalization)
 * [Nachrichten senden](../../sending/using/confirming-the-send.md)
 
