@@ -13,8 +13,8 @@ topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -94,7 +94,7 @@ Zunächst müssen Sie einen Workflow mit unterschiedlichen Zielgruppen erstellen
 
    ![](assets/report_segment_3.png)
 
-1. Personalisieren Sie Ihre Sendungen entsprechend den unterschiedlichen Zielgruppen. Weiterführende Informationen zur Erstellung von E-Mails finden Sie auf dieser [Seite](../../designing/using/about-email-content-design.md).
+1. Personalisieren Sie Ihre Sendungen entsprechend den unterschiedlichen Zielgruppen. Weiterführende Informationen zur Erstellung von E-Mails finden Sie auf dieser [Seite](../../designing/using/overview.md).
 
 1. Speichern Sie den Workflow.
 
