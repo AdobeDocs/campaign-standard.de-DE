@@ -14,7 +14,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -39,7 +39,7 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
    Fügen Sie bei Bedarf Varianten mit der Schaltfläche **[!UICONTROL Element hinzufügen]** hinzu. **[!UICONTROL Die Variante Standard]** darf nicht gelöscht werden. Mit der Auswahl **[!UICONTROL Standard]**, [wird die bevorzugte Sprache des Profils ](../../audiences/using/creating-profiles.md) für die Auswahl der Variante herangezogen. Sie können für die Variante **[!UICONTROL Standard]** auch eine beliebige andere Sprache auswählen.
 
 1. Bestätigen Sie die Erstellung der E-Mail: Daraufhin wird das Dashboard der E-Mail angezeigt.
-1. Definieren Sie den E-Mail-Inhalt für jede Variante. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Über die Dropdown-Liste können Sie zwischen den verschiedenen Varianten hin und her wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/about-email-content-design.md).
+1. Definieren Sie den E-Mail-Inhalt für jede Variante. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Über die Dropdown-Liste können Sie zwischen den verschiedenen Varianten hin und her wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/overview.md).
 
    ![](assets/multi_selectcontent.png)
 
@@ -49,4 +49,4 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
 
 **Verwandtes Thema:**
 
-* [Erreichen mehrsprachiger Zielgruppen mit einem Workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [mehrsprachiges Publikum mit einem Workflow erreichen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
