@@ -13,8 +13,8 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 
 ---
 
@@ -178,7 +178,7 @@ Ihre Landingpage kann jetzt verwendet werden. Um die Profile zu aktualisieren, e
 
    ![](assets/schema_extension_uc3.png)
 
-1. Erstellen und gestalten Sie Ihre E-Mail nach Bedarf. Weiterführende Informationen zur Personalisierung von E-Mails finden Sie auf dieser [Seite](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Erstellen und gestalten Sie Ihre E-Mail nach Bedarf. Weiterführende Informationen zur Personalisierung von E-Mails finden Sie auf dieser [Seite](../../designing/using/quick-start.md).
 1. Fügen Sie zu Ihrer E-Mail eine Schaltfläche hinzu, mit der Profile zu Ihrer Landingpage weitergeleitet werden.
 1. Wählen Sie die hinzugefügte Schaltfläche aus und klicken Sie danach auf der linken Seite in den ![](assets/schema_extension_uc7.png)**[!UICONTROL Link]**-Bereich.
 
