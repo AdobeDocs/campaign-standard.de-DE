@@ -13,8 +13,8 @@ topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -95,7 +95,7 @@ Wenn der Anmeldetoken existiert, erhält der entsprechende Benutzer eine Transak
 
 ## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt  {#transactional-push-notifications-targeting-a-profile}
 
-Sie können eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile senden, die Ihre Mobile App abonniert haben. Dieser Versand kann [Personalisierungsfelder](../../designing/using/inserting-a-personalization-field.md) enthalten, wie beispielsweise den Vornamen des Empfängers.
+Sie können eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile senden, die Ihre Mobile App abonniert haben. Dieser Versand kann [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) enthalten, wie beispielsweise den Vornamen des Empfängers.
 
 In diesem Fall muss das Ereignis einige Felder enthalten, die die Abstimmung mit einem Profil in der Adobe-Campaign-Datenbank ermöglichen.
 
@@ -117,7 +117,7 @@ Beispiel: Eine Fluglinie möchte allen Adobe-Campaign-Benutzern, die sich für i
 
 1. Öffnen Sie nun mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]** der Nachricht, um den Titel und den Hauptteil anzupassen.
 
-   Im Gegensatz zu auf Echtzeit-Ereignissen basierenden Konfigurationen haben Sie direkten Zugriff auf alle Profilinformationen, um die Nachricht zu personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/inserting-a-personalization-field.md).
+   Im Gegensatz zu auf Echtzeit-Ereignissen basierenden Konfigurationen haben Sie direkten Zugriff auf alle Profilinformationen, um die Nachricht zu personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/message-center_push_content_profile.png)
 
