@@ -13,8 +13,8 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d93c2600299a8d2ec3672b3d82222f423878034c
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -88,7 +88,7 @@ Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ 
 **Profilbasierte Transaktionsnachrichten**:
 
 * Die Personalisierungsinformationen können von den im Ereignis enthaltenen Daten oder von den abgestimmten Profildaten stammen. Siehe [Profil-Transaktionsnachrichten](../../channels/using/profile-transactional-messages.md).
-* Sie können in einer Profil-Transaktionsnachricht die **Abmelde-Link**-Inhaltsbausteine verwenden. Siehe [Inhaltsbausteine](../../designing/using/adding-a-content-block.md).
+* Sie können in einer Profil-Transaktionsnachricht die **Abmelde-Link**-Inhaltsbausteine verwenden. Siehe [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 * Ermüdungsregeln sind mit Profil-Transaktionsnachrichten kompatibel. Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md).
 
 Beachten Sie, dass Produktlisten nur in Nachrichten von Transaktions-E-Mails verfügbar sind. Siehe [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
