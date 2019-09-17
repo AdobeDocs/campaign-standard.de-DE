@@ -13,8 +13,8 @@ topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -30,7 +30,7 @@ Eine Möglichkeit besteht darin, Besucher von Webtracking betroffenen Seiten zur
 Adobe Campaign verwendet zwei Arten von Cookies:
 
 * Sitzungs-Cookie (nlid). Er enthält die Kennung der an den Kontakt gesendeten E-Mail (broadlogId) und die Kennung der Nachrichtenvorlage (deliveryId). Er wird gesetzt, sobald der Kontakt eine in einer mit Adobe Campaign gesendeten E-Mail enthaltene URL anklickt, und ermöglicht, das Webverhalten des Kontakts zu verfolgen. Dieser Sitzungs-Cookie wird automatisch mit Schließen des Browsers gelöscht. Der Kontakt hat die Möglichkeit, das Setzen des Cookies zu verbieten, indem er seine Browser-Einstellungen dementsprechend ändert.
-* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Lösungen der Experience Cloud bei Webseitenbesuchen interagiert. Weiterführende Informationen zu diesem Cookie finden Sie hier: [https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html).
+* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Lösungen der Experience Cloud bei Webseitenbesuchen interagiert. Weiterführende Informationen zu diesem Cookie finden Sie hier: [https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
 
 Tracking-Informationen sind für jeden Kontakt in Ihrer Datenbank in **[!UICONTROL integrierten Kundenprofilen verfügbar]**. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../audiences/using/integrated-customer-profile.md).
 
@@ -61,7 +61,7 @@ Die möglichen Werte in der Spalte **[!UICONTROL Typ]** sind:
 >
 >Für den Kanal **Push-Benachrichtigung** werden nur Klicks auf Mobile-App-Benachrichtigungen getrackt. In diesem Fall lautet der Wert **[!UICONTROL Klick auf Mobile-App-Benachrichtigung]**.
 
-Weiterführende Informationen zum Einfügen von Tracking-Links finden Sie auf [dieser Seite](../../designing/using/inserting-a-link.md).
+Weiterführende Informationen zum Einfügen von Tracking-Links finden Sie auf [dieser Seite](../../designing/using/links.md#inserting-a-link).
 
 ## Getrackte URLs {#tracked-urls}
 
@@ -69,4 +69,4 @@ Der Tab **[!UICONTROL Getrackte URLs]** gibt Auskunft über die in der gesendete
 
 ![](assets/sending_delivery6.png)
 
-Weiterführende Informationen zu Tracking-Links finden Sie in [diesem Abschnitt](../../designing/using/about-tracked-urls.md).
+Weiterführende Informationen zu Tracking-Links finden Sie in [diesem Abschnitt](../../designing/using/links.md#about-tracked-urls).
