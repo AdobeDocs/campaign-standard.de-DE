@@ -13,7 +13,7 @@ topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50620788c05b76cc2f69c19c26f968ca15a02048
 
 ---
@@ -46,7 +46,7 @@ Wenn Sie eine Ressource erstellen oder erweitern möchten, gehen Sie wie folgt v
 
       >[!NOTE]
       >
-      >Wir empfehlen, maximal 30 Zeichen zu verwenden.
+      >Es wird empfohlen, maximal 30 Zeichen zu verwenden.
 
    * **[!UICONTROL Existierende Ressource erweitern]**: Wählen Sie die zu erweiternde Ressource aus.
 
