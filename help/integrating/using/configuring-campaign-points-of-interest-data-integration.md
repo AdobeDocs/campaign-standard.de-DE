@@ -13,7 +13,7 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
 
 ---
@@ -21,32 +21,32 @@ source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
 
 # Integration von Campaign-POI-Daten konfigurieren{#configuring-campaign-points-of-interest-data-integration}
 
-## Konfigurieren der Campaign-Points of Interest-Datenintegration mit Adobe Experience Platform sdks {#configuring-campaign-poi-aep-sdk}
+## Integration von Campaign-POI-Daten mit Adobe Experience Platform SDKs konfigurieren{#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
->Ihre Mobilanwendung sollte bereits mit Adobe Experience Platform SDK in Adobe Campaign Standard konfiguriert werden. Ausführliche Anweisungen finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+>Ihre Mobile App sollte bereits mit dem Adobe Experience Platform SDK in Adobe Campaign Standard konfiguriert sein. Die genauen Schritte hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
 
 Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Administrator** in der Adobe-Campaign-Benutzeroberfläche konfiguriert werden.
 
-Um Adobe Experience Platform Location Services mit mobilen Anwendungen zu verwenden, die mit Adobe Experience Platform SDK konfiguriert sind, müssen Sie:
+Um Adobe Experience Platform Location Services mit Mobile Apps zu verwenden, die mit dem Adobe Experience Platform SDK konfiguriert wurden, gehen Sie folgendermaßen vor:
 
-1. Fügen Sie **[!UICONTROL die Erweiterungen "Orte]** und **[!UICONTROL Orte überwachen]** " Ihrer mobilen App-Konfiguration in Adobe Experience Platform Launch hinzu. Richten Sie in Adobe Campaign Ihre Mobile App ein. Weitere Informationen [finden Sie unter "Speicherorte installieren" in Adobe Experience Platform Starten](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) und [Installieren der Place Monitor-Erweiterung in Experience Platform starten](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
+1. Fügen Sie die Erweiterungen **[!UICONTROL Places]** und **[!UICONTROL Places Monitor]** zu Ihrer Mobile-App-Konfiguration in Adobe Experience Platform Launch hinzu. Richten Sie in Adobe Campaign Ihre Mobile App ein. Weiterführende Informationen dazu finden Sie im Abschnitt zur [Installation der Places-Erweiterung in Adobe Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) und zur [Installation der Places Monitor-Erweiterung in Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
 
-1. Sobald Ihre Erweiterungen eingerichtet wurden, erstellen Sie in **[!UICONTROL Adobe Experience Platform Launch]** Datenelemente, um Daten aus diesen Erweiterungen abzurufen. Auf dieser [Seite](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) können Sie Ihre Datenelemente erstellen.
+1. Erstellen Sie nach dem Einrichten der Erweiterungen Datenelemente in **[!UICONTROL Adobe Experience Platform Launch]**, um Daten aus diesen Erweiterungen abzurufen. Eine Anleitung zur Erstellung von Datenelementen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
 
-1. Anschließend müssen Sie in **[!UICONTROL Adobe Experience Platform Launch]** Regeln für die Unterstützung mobiler Anwendungsfälle zwischen Poi und Adobe Campaign erstellen.\
-   Diese Regel wird ausgelöst, wenn ein Benutzer einen gepunkteten **[!UICONTROL Zielpunkt eingibt]**. Auf dieser [Seite](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) können Sie Ihre Regel erstellen.
+1. Anschließend müssen Sie in **[!UICONTROL Adobe Experience Platform Launch]** Regeln für mobile Anwendungsfälle zwischen POI und Adobe Campaign erstellen.\
+   Eine Regel wird ausgelöst, wenn ein Benutzer einen durch Geofencing gekennzeichneten **[!UICONTROL Point of Interest]** betritt. Weiterführende Informationen zum Erstellen von Regeln finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#Locationpostback).
 
-1. Definieren Sie Ihre **[!UICONTROL Zielpunkte]** an Orten. Siehe [Erstellen eines Zielpunkts](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
+1. Definieren Sie Ihre **[!UICONTROL Points of Interest]** in Places. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Erstellen eines Point of Interest](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
 
 1. Stellen Sie sicher, dass Sie auf die Mobile App und die erfassten Standortdaten in Adobe Campaign Zugriff haben. Siehe [Auf Mobile Apps zugreifen, mit denen Standortdaten erfasst werden](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) und [Erfasste Standortdaten abrufen](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
 
-## Konfigurieren von Campaign-Points of Interest-Datenintegration mit SDK V 4 {#configuring-campaign-poi-sdkv4}
+## Die Integration von POI-Daten in Campaign mithilfe von SDK V4 konfigurieren{#configuring-campaign-poi-sdkv4}
 
 Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Administrator** in der Adobe-Campaign-Benutzeroberfläche konfiguriert werden.
 
-Um die Point of Interest-Datenfunktion mit mobilen Anwendungen zu verwenden, die mit SDK V 4 konfiguriert sind, müssen Sie Folgendes tun:
+Um die POI-Daten-Funktion mit Mobile Apps zu verwenden, die mit SDK V4 konfiguriert wurden, gehen Sie folgendermaßen vor:
 
 1. Zunächst benötigen Sie Zugriff auf Adobe Analytics for Mobile. Wenn Sie weitere Informationen benötigen, überprüfen Sie Ihr Lizenzabkommen oder kontaktieren Sie Ihren Adobe-Kundenbetreuer.
 1. Richten Sie in Adobe Campaign Ihre Mobile App ein. Siehe [Mobile App in Campaign einrichten](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
@@ -60,7 +60,7 @@ Um die Point of Interest-Datenfunktion mit mobilen Anwendungen zu verwenden, die
 1. Definieren Sie die Daten, die Sie von den Abonnenten Ihrer Mobile App erfassen möchten. Siehe [POI-Daten von Abonnenten erfassen](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data).
 1. Stellen Sie sicher, dass Sie auf die Mobile App und die erfassten Standortdaten in Adobe Campaign Zugriff haben. Siehe [Auf Mobile Apps zugreifen, mit denen Standortdaten erfasst werden](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) und [Erfasste Standortdaten abrufen](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
 
-### Einrichten einer mobilen App in Adobe Campaign mit SDK V 4 {#setting-up-a-mobile-app-in-campaign}
+### Eine Mobile App in Adobe Campaign mit SDK V4 einrichten{#setting-up-a-mobile-app-in-campaign}
 
 Um POI-Daten mit Adobe Campaign erfassen zu können, müssen Sie die Mobile App konfigurieren, von der Adobe Campaign Daten erhält.
 
@@ -79,7 +79,7 @@ Sie können diese Werte jetzt in Adobe Mobile Services verwenden, um die Konfigu
 
 ![](assets/poi_mobile_app_properties.png)
 
-### Configuring a V4 mobile app in Adobe Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}
+### Eine Mobile App mit V4 in Adobe Mobile Services konfigurieren {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 Um die von Adobe Mobile Services erfassten Daten an Adobe Campaign zu senden, müssen Sie in der Mobile-Services-Benutzeroberfläche Postbacks konfigurieren.
 
@@ -166,13 +166,13 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
 
 >[!NOTE]
 >
->Weitere Informationen zur Konfiguration von Postbacks finden Sie im [Adobe-Mobile-Services-Handbuch](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html).
+>Weitere Informationen zur Konfiguration von Postbacks finden Sie im [Adobe Mobile Services-Handbuch](https://marketing.adobe.com/resources/help/de_DE/mobile/signals_.html).
 
 ### SDK in Mobile Apps integrieren {#integrating-the-sdk-into-a-mobile-application}
 
 Mit dem Mobile-Core-Service-SDK (Software Developer Kit) kann eine Mobile App in Adobe Campaign integriert werden.
 
-Dieser Schritt wird auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) beschrieben.
+Dieser Schritt wird auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
 ### POI in Adobe Mobile Services definieren {#defining-points-of-interest-in-adobe-mobile-services}
 
@@ -181,17 +181,17 @@ So definieren Sie POI zum Erfassen von Standortdaten:
 1. Gehen Sie zur Adobe-Mobile-Services-Benutzeroberfläche.
 1. Fügen Sie Ihre Anwendung hinzu.
 
-   Weitere Informationen zur Verwaltung von Anwendungen in Mobile Services finden Sie im [Adobe-Mobile-Services-Handbuch](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html).
+   Weitere Informationen zur Verwaltung von Anwendungen in Mobile Services finden Sie im [Adobe Mobile Services-Handbuch](https://marketing.adobe.com/resources/help/de_DE/mobile/t_new_app.html).
 
 1. Definieren Sie die POI.
 
-   Weitere Informationen zur Verwaltung von POI finden Sie im [Adobe Mobile Services-Handbuch](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html).
+   Weitere Informationen zur Verwaltung von POI finden Sie im [Adobe Mobile Services-Handbuch](https://marketing.adobe.com/resources/help/de_DE/mobile/t_manage_points.html).
 
 ### POI-Daten von Abonnenten erfassen {#collecting-subscribers--points-of-interest-data}
 
 Eine spezielle benutzerdefinierte Ressource ermöglicht es Ihnen, die Daten zu definieren, die Sie in Bezug auf die Abonnenten Ihrer App abrufen möchten.
 
-Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) beschrieben.
+Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
 
 ## Auf Mobile Apps zugreifen, mit denen Standortdaten erfasst werden {#accessing-mobile-apps-used-to-collect-location-data}
@@ -199,14 +199,14 @@ Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](htt
 Um die in Adobe Campaign erfolgreich erstellten Anwendungen zu öffnen, gehen Sie folgendermaßen vor:
 
 1. Wählen Sie oben links das **[!UICONTROL Adobe-Campaign]**-Logo aus.
-1. Wählen **[!UICONTROL Sie Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Mobile App (SDK v 4)]** oder **[!UICONTROL Mobile App (AEP SDK)]** abhängig vom SDK.
+1. Wählen Sie je nach dem SDK **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Mobile App (SDK v4)]** oder **[!UICONTROL Mobile App (AEP SDK)]** aus.
 1. Wählen Sie eine Mobile App aus der Liste aus, um ihre Eigenschaften anzuzeigen.
 
    ![](assets/poi_mobile_app_subscribers.png)
 
-Eine Liste der Abonnenten der Anwendung wird auch auf der Registerkarte **[!UICONTROL "Mobilanwendungs-Abonnenten]** " angezeigt. Die Abonnenten sind alle Benutzer, die die Anwendung auf ihrem Mobilgerät installiert haben. Die Profile in der Adobe-Campaign-Datenbank werden mit einem Anmeldetoken identifiziert.
+Eine Liste der Abonnenten der App wird auch im Tab **[!UICONTROL Abonnenten der Mobile App]** angezeigt. Die Abonnenten sind alle Benutzer, die die Anwendung auf ihrem Mobilgerät installiert haben. Die Profile in der Adobe-Campaign-Datenbank werden mit einem Anmeldetoken identifiziert.
 
-## Erfasste Standortdaten abrufen  {#accessing-collected-location-data}
+## Erfasste Standortdaten abrufen     {#accessing-collected-location-data}
 
 Nach dem Einrichten werden die erfassten POI-Daten im Tab **[!UICONTROL Orte]** eines jeden Profils aufgeführt. So greifen Sie auf die Liste zu:
 
