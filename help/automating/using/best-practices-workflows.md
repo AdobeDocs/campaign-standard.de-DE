@@ -2,7 +2,7 @@
 title: Best Practices für Workflows
 seo-title: Best Practices für Workflows
 description: Best Practices für Workflows
-seo-description: Erfahren Sie, wie Best Practices für Ihre Arbeitsabläufe angewendet werden.
+seo-description: Hier erfahren Sie, welche Best Practices bei Workflows anzuwenden sind.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -13,146 +13,146 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
 
-# Best Practices für den Arbeitsablauf{#workflow-best-practices}
+# Best Practices für Workflows{#workflow-best-practices}
 
-Mit Adobe Campaign können Sie alle Arten von Arbeitsabläufen einrichten, um einen umfangreichen Umfang an Aufgaben durchzuführen. Beim Entwerfen und Ausführen Ihrer Arbeitsabläufe müssen Sie jedoch sehr vorsichtig sein, da eine schlechte Implementierung zu schlechten Leistungen, Fehlern und Plattformproblemen führen kann. Sie finden eine Liste der Best Practices und Tipps zur Fehlerbehebung.
+Mit Adobe Campaign können Sie zahlreiche Workflows einrichten und damit eine Fülle von Aufgaben ausführen. Doch beim Erstellen und Ausführen von Workflows ist große Vorsicht geboten, da eine nicht ordnungsgemäße Implementierung zu unzureichenden Leistungen, Fehlern und Plattformproblemen führen kann. Unten finden Sie deshalb eine Liste mit Best Practices sowie Tipps zur Fehlerbehebung.
 
 >[!NOTE]
 >
->Workflow-Design und -ausführung müssen von einem Adobe Campaign Advanced User durchgeführt werden.
+>Die Erstellung und Ausführung von Workflows muss durch einen erfahrenen Adobe Campaign-Benutzer erfolgen.
 
-## Benennen{#naming}
+## Benennung{#naming}
 
-Um Workflow-Fehlerbehebung zu vereinfachen, empfiehlt Adobe, Ihre Arbeitsabläufe explizit zu benennen und zu beschriften. Füllen Sie das Beschreibungsfeld des Workflows aus, um den zu erstellenden Prozess zusammenzufassen, damit der Operator sie leicht verstehen kann.
-Wenn der Arbeitsablauf Teil eines Prozesses ist, der mehrere Workflows umfasst, können Sie Zahlen verwenden, wenn Sie eine Beschriftung eingeben, um sie klar zu ordnen.
+Um die Fehlerbehebung bei Workflows zu vereinfachen, empfiehlt Adobe, die Workflows mit Titeln und Namen zu versehen. Beschreiben Sie im entsprechenden Feld des Workflows kurz, woraus der Prozess besteht, damit er für den Benutzer leicht verständlich ist.
+Wenn der Workflow Teil eines Prozesses ist, der mehrere Workflows umfasst, können Sie diese der Reihe nach mit Zahlen kennzeichnen.
 
 Beispiel:
 
 * 001 - Importieren - Empfänger importieren
-* 002 - Importieren - Importieren von Verkäufen
+* 002 - Importieren - Verkäufe importieren
 * 003 - Importieren - Verkaufsdetails importieren
-* 010 - Exportieren - Versandprotokolle exportieren
-* 011 - Exportieren - Exportrackingprotokolle
+* 010 - Exportieren - Versandlogs exportieren
+* 011 - Exportieren - Trackinglogs exportieren
 
-## Duplizieren von Workflows{#duplicating-workflows}
+## Workflows duplizieren{#duplicating-workflows}
 
-Sie können Workflows duplizieren. Bewegen Sie den Mauszeiger in **[!UICONTROL den Marketingaktivitäten]**&#x200B;über den Workflow und klicken **[!UICONTROL Sie auf Element duplizieren]**. Nach der Duplizierung werden Änderungen des Workflows nicht in die Kopie des Workflows übernommen. Die Kopie des Workflows kann bearbeitet werden.
+Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketingaktivitäten]** den Mauszeiger über den jeweiligen Workflow und wählen Sie **[!UICONTROL Element duplizieren]** aus. Nach dem Duplizieren werden Änderungen des Workflows nicht in die Kopie des Workflows übernommen. Die Kopie des Workflows kann bearbeitet werden.
 
 ![](assets/duplicating_workflow.png)
 
 ## Ausführung{#execution}
 
-### Anzahl der Workflows
+### Anzahl von Workflows
 
-Standardmäßig wird empfohlen, nicht mehr als 20 aktive Workflows gleichzeitig auszuführen. Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, um die Leistung nicht zu beeinträchtigen. Entsprechend empfiehlt Adobe, Ihre Workflow-Ausnutzung im Laufe der Zeit zu verteilen.
-In bestimmten Kontexten müssen Sie möglicherweise mehr als 20 Workflows ausführen. Es gilt nicht für Workflows, die auf eine geplante Ausführung warten. Falls ja, müssen Sie die Anwendungsfälle mit einem Kampagnenexperten überprüfen und den Adobe-Kundendienst kontaktieren, um den Grenzwert zu erhöhen.
+Standardmäßig wird empfohlen, nicht mehr als 20 Workflows gleichzeitig auszuführen. Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, damit die Gesamtleistung nicht beeinträchtigt wird. Adobe empfiehlt ebenso, die Ausführung von Workflows zeitlich zu verteilen.
+In bestimmten Situationen müssen Sie möglicherweise mehr als 20 Workflows ausführen. Dies gilt nicht für Workflows, die auf eine geplante Ausführung warten. Besprechen Sie die Anwendungsfälle bei Bedarf mit einem Campaign-Experten und kontaktieren Sie die Adobe-Kundenunterstützung, um das Limit zu erhöhen.
 
 ### Häufigkeit
 
-Ein Arbeitsablauf kann nicht automatisch mehr als einmal alle zehn Minuten ausgeführt werden.
-Das Ausführungsintervall der Aktivität kann nicht weniger als 10 Minuten betragen. Wenn die Wiederholungshäufigkeit auf 0 gesetzt ist (auch als Standardwert), wird diese Option nicht berücksichtigt und der Workflow wird gemäß der Ausführungshäufigkeit ausgeführt.
+Ein Workflow kann automatisch maximal alle zehn Minuten ausgeführt werden.
+Das Ausführungsintervall der Aktivität kann nicht weniger als 10 Minuten betragen. Wenn das Ausführungsintervall den Standardwert (= 0) aufweist, wird nur die Ausführungsfrequenz berücksichtigt.
 
-### Angehaltene Arbeitsabläufe
+### Ausgesetzte Workflows
 
-Arbeitsabläufe, die für mehr als sieben Tage in Pause oder Fehlgeschlagen waren, werden gestoppt, um weniger Speicherplatz zu belegen. Die Bereinigungsaufgabe wird in den Workflow-Protokollen angezeigt.
+Workflows, die für mehr als sieben Tage ausgesetzt oder fehlgeschlagen waren, werden gestoppt, um weniger Speicherplatz zu belegen. Die Bereinigungsaufgabe wird in den Workflow-Logs angezeigt.
 
-### Übergänge
+### Transitionen
 
-Ein Workflow mit nicht unterstützten Übergängen kann weiterhin ausgeführt werden: Dadurch wird eine Warnmeldung generiert und der Arbeitsablauf wird angehalten, sobald er den Übergang erreicht, aber kein Fehler generiert wird. Sie können einen Workflow auch ohne fertiggelegtes Design starten und es dann abschließen.
+Auch mit schwebenden Transitionen kann ein Workflow ausgeführt werden. Bei der Ausführung wird einen Warnhinweis erzeugt und der Workflow wird bei Aktivierung einer derartigen Transition ausgesetzt. Es wird jedoch kein Fehler erzeugt. Auf diese Weise ist es möglich, einen Workflow zu starten, auch wenn seine Konzeption noch nicht vollständig abgeschlossen ist, und ihn nach und nach zu vervollständigen.
 
-Weitere Informationen finden Sie [unter Arbeitsabläufe ausführen](../../automating/using//executing-a-workflow.md).
+Weiterführende Informationen finden Sie im Abschnitt zum [Ausführen von Workflows](../../automating/using//executing-a-workflow.md).
 
 ## Aktivität{#activity}
 
-### Workflow-Design
+### Workflow-Erstellung
 
-Um sicherzustellen, dass der Workflow ordnungsgemäß beendet wird, verwenden Sie eine **[!UICONTROL Endaktivität]**. Vermeiden Sie den letzten Übergang eines Arbeitsablaufs selbst.
+Um sicherzustellen, dass der Workflow ordnungsgemäß beendet wird, verwenden Sie die Aktivität **[!UICONTROL Ende]**. Beenden Sie den Workflow nicht mit einer Transition.
 
-To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
+Um zur Detailansicht der Transitionen zu gelangen, aktivieren Sie im Abschnitt zur Ausführung der Workflow-Eigenschaften die Option **[!UICONTROL Zwischenergebnis festhalten]**.
 
 >[!CAUTION]
 >
->Diese Option belegt viel Speicherplatz und hilft Ihnen dabei, einen Workflow zu erstellen und eine ordnungsgemäße Konfiguration und ein Verhalten sicherzustellen. Aktivieren Sie sie nicht bei Produktionsinstanzen.
+>Diese Option belegt viel Speicherplatz. Sie hilft Ihnen aber bei der Erstellung eines Workflows, dessen Konfiguration und Verhalten fehlerfrei sind. Aktivieren Sie sie nicht bei Produktionsinstanzen.
 
 ![](assets/keep_interim_best_practices.png)
 
 
-### Beschriftungsaktivitäten{#activity-labeling}
+### Aktivitäten benennen{#activity-labeling}
 
-Bei der Entwicklung Ihres Arbeitsablaufs wird für jede Aktivität ein Name generiert, wie für alle Adobe Campaign-Objekte. Obwohl der Name einer Aktivität durch das Tool erzeugt wird und nicht bearbeitet werden kann, empfehlen wir, sie bei der Konfiguration mit einem expliziten Namen zu versehen.
+Bei der Erstellung eines Workflows wird für jede Aktivität ein Name generiert ebenso wie für alle Adobe Campaign-Objekte. Während der Name einer Aktivität durch das Tool erzeugt wird und nicht bearbeitet werden kann, ist es empfehlenswert, die Aktivität bei deren Konfiguration mit einem speziellen Namen zu versehen.
 
-### Duplizieren von Aktivitäten{#activity-duplicating}
+### Aktivitäten duplizieren{#activity-duplicating}
 
-Zum Duplizieren vorhandener Aktivitäten können Sie Kopieren und Einfügen verwenden. Dadurch bleiben die ursprünglich definierten Einstellungen unverändert. For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
+Zum Duplizieren vorhandener Aktivitäten können Sie Copy &amp; Paste verwenden. Dadurch bleiben die ursprünglich definierten Einstellungen unverändert. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Duplizieren von Workflow-Aktivitäten](../../automating/using/workflow-interface.md).
 
-### Scheduler activity{#acheduler-activity}
+### Aktivität "Planung"{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. Wenn dieselbe Verzweigung eines Workflows mehrere Zeitplaner enthält (verknüpft miteinander verknüpft), wird die Anzahl der auszuführenden Aufgaben exponentiell multipliziert, wodurch die Datenbank erheblich überlastet würde.
+Pro Workflow-Verzweigung darf nur eine einzige **[!UICONTROL Planung]** verwendet werden. Wenn dieselbe Verzweigung eines Workflows mehrere Planungen enthält, die miteinander verknüpft sind, steigt die Anzahl der auszuführenden Aufgaben exponentiell an, wodurch die Datenbank überlastet würde.
 
-Sie können die nächsten zehn Ausführungen Ihrer Arbeitsabläufe in der Vorschau anzeigen, indem Sie auf **[!UICONTROL "Vorschau" klicken]**.
+Sie können die jeweils nächsten zehn Ausführungen Ihrer Workflows in der Vorschau anzeigen, indem Sie **[!UICONTROL Vorschau der nächsten Ausführungen]** auswählen.
 
 ![](assets/preview_scheduler.png)
 
-Weitere Informationen finden Sie in [der Scheduler-Aktivität](../../automating/using/scheduler.md).
+Weiterführende Informationen dazu finden Sie in der [Planungsaktivität](../../automating/using/scheduler.md).
 
-## Aufruf des Arbeitsablaufs mit Parametern{#workflow-with-parameters}
+## Workflow mit Parametern abrufen{#workflow-with-parameters}
 
-Achten Sie darauf, dass der Name und die Anzahl der Parameter mit den beim Aufruf des Workflows definierten übereinstimmen (siehe [Parameter beim Aufruf des Workflows definieren](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Die Typen der Parameter müssen ebenfalls mit den erwarteten Werten konsistent sein.
+Achten Sie darauf, dass der Name und die Anzahl der Parameter mit den beim Aufruf des Workflows definierten übereinstimmen (siehe [Parameter beim Aufruf des Workflows definieren](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
 
-Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
+Stellen Sie sicher, dass alle Parameter in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurden. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
 
-Weitere Informationen finden Sie unter [Aufrufen eines Workflows mit externen Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Weiterführende Informationen dazu finden Sie unter [Workflow mit externen Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Exportieren von Paketen{#exporting-packages}
+## Packages exportieren{#exporting-packages}
 
-Um Pakete zu exportieren, dürfen die exportierten Ressourcen keine Standard-IDs enthalten. Daher müssen die IDs der exportierbaren Ressourcen durch einen anderen Namen von den Vorlagen geändert werden, die als Standard von Adobe Campaign Standard bereitgestellt werden.
-Weitere Informationen finden Sie unter [Verwalten von Paketen](../../automating/using/managing-packages.md).
+Um Packages zu exportieren, dürfen die exportierten Ressourcen keine Standardkennungen enthalten. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe Campaign Standard unterscheiden.
+Weiterführende Informationen dazu finden Sie unter [Package-Verwaltung](../../automating/using/managing-packages.md).
 
 ## Listenexport{#exporting-lists}
 
-Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. This option can be managed by the functional administrator, under **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
-Weitere Informationen finden Sie unter [Exportieren von Listen](../../automating/using/exporting-lists.md).
+Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. Die Verwaltung dieser Option erfolgt durch den funktionalen Administrator im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Optionen]**.
+Weiterführende Informationen dazu finden Sie unter [Listenexport](../../automating/using/exporting-lists.md).
 
 ## Problembehebung{#workflow-troubleshooting}
 
-Adobe Campaign bietet verschiedene Protokolle, um Ihre Arbeitsablaufprobleme besser zu verstehen.
+Adobe Campaign verfügt über unterschiedliche Protokolle, mit deren Hilfe Sie Workflow-Probleme lösen können.
 
-### Workflow-Protokolle verwenden{#using-workflow-logs}
+### Workflow-Logs{#using-workflow-logs}
 
-Sie können auf Workflow-Protokolle zugreifen, um die Ausführung Ihrer Aktivitäten zu überwachen. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler. Die Registerkarte "Protokolle" enthält den Verlauf der Ausführung aller oder bestimmter Aktivitäten.
-Der Aufgaben-Tab zeigt die Ausführungsabfolge der Aktivitäten. Klicken Sie auf eine Aufgabe, um weitere Informationen zu einer Aktivität abzurufen.
-Weitere Informationen finden Sie unter [Workflow-Ausführung überwachen](../../automating/using/executing-a-workflow.md#monitoring).
+Mithilfe von Workflow-Logs können Sie die Ausführung Ihrer Aktivitäten überwachen. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler. Im Protokoll-Tab finden Sie frühere (ausgewählte) Aktivitäten.
+Der Aufgaben-Tab zeigt die Ausführungsabfolge der Aktivitäten. Um mehr Informationen über eine Aktivität zu erhalten, wählen Sie eine Aufgabe aus.
+Weiterführende Informationen dazu finden Sie unter [Workflow-Ausführung überwachen](../../automating/using/executing-a-workflow.md#monitoring).
 
-#### Troubleshooting data management activities{#troubleshooting-data-management-activities}
+#### Fehlerbehebung bei Datenverwaltungsaktivitäten{#troubleshooting-data-management-activities}
 
-Sie können SQL-Abfragen auf der Registerkarte "Protokoll" analysieren.
+Sie können SQL-Anfragen im Protokoll-Tab analysieren.
 
-1. Klicken Sie im Workflow-Arbeitsbereich auf Eigenschaften **[!UICONTROL bearbeiten]**.
-1. Überprüfen Sie unter **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Ausführung]** die Abfragen **[!UICONTROL "SQL speichern" im Protokoll]** und **[!UICONTROL führen Sie in den Suchoptionen]** die Option" Ausführen" durch und klicken Sie auf **[!UICONTROL Bestätigen]**.
+1. Wählen Sie im Workflow-Arbeitsbereich **[!UICONTROL Eigenschaften bearbeiten]** aus.
+1. Aktivieren Sie unter **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Ausführung]** die Optionen **[!UICONTROL SQL-Abfragen im Protokoll speichern]** und **[!UICONTROL In der Engine ausführen]** und wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-**So sehen Sie SQL-Abfragen im Protokoll:**
-1. Klicken **[!UICONTROL Sie auf Protokoll und Aufgaben]**.
-1. Öffnen Sie auf der Registerkarte **[!UICONTROL "Protokolle]** " das **[!UICONTROL Suchfeld]** .
-1. Check **[!UICONTROL Display SQL logs only]**.
+**So können Sie sich SQL-Anfragen im Protokoll ansehen:**
+1. Wählen Sie **[!UICONTROL Protokoll und Aufgaben]** aus.
+1. Öffnen Sie im Tab **[!UICONTROL Logs]** das Fenster **[!UICONTROL Suche]**.
+1. Aktivieren Sie die Option **[!UICONTROL Nur SQL-Protokolle anzeigen]**.
 
-Die Abfrage wird in der **[!UICONTROL Spalte "Meldung]** " der Protokolle angezeigt.
+Die Abfrage wird in der Spalte **[!UICONTROL Nachricht]** der Protokolle angezeigt.
 
-### Verwenden von Bereitstellungsprotokollen{#using-delivery-logs}
+### Versandlogs{#using-delivery-logs}
 
-Mit Bereitstellungsprotokollen können Sie den Erfolg Ihrer Auslieferung überwachen. Ausschluss-Protokolle geben während der Vorbereitung des sendenden Vorgangs ausgeschlossene Meldungen zurück. Beim Senden von Protokollen wird der Status der Auslieferung für jedes Profil angegeben.
-Weitere Informationen finden Sie [unter Auslieferungsfehler verstehen](../../sending/using/understanding-delivery-failures.md).
+Mit Versandlogs können Sie feststellen, wie erfolgreich Ihre Sendungen sind. Ausschlusslogs enthalten während der Vorbereitung des Versands ausgeschlossene Nachrichten. Versandlogs beinhalten außerdem für jedes Profil den Versandstatus.
+Weiterführende Informationen dazu finden Sie unter [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md).
 
-### Verwenden der Versandbenachrichtigung{#delivery-alerting}
+### Versandwarnung verwenden{#delivery-alerting}
 
 Bei der Funktion Versandwarnungen handelt es sich um ein Warnungsmanagementsystem, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.
-Weitere Informationen finden Sie unter [Versandbenachrichtigung](../../sending/using/receiving-alerts-when-failures-happen.md).
+Weiterführende Informationen dazu finden Sie unter [Versandwarnung](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 **Verwandte Themen:**
 
-* [Fehlerverwaltung](../../automating/using/executing-a-workflow.md#error-management)
+* [Umgang mit Fehlern](../../automating/using/executing-a-workflow.md#error-management)
