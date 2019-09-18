@@ -14,7 +14,7 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
 
 ---
@@ -32,7 +32,7 @@ In diesem Zusammenhang können im Tab **[!UICONTROL Datenstruktur]** folgende El
 * [Relationen](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 * [Versandlogs](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-## Felder zu einer Ressource hinzufügen  {#adding-fields-to-a-resource}
+## Felder zu einer Ressource hinzufügen     {#adding-fields-to-a-resource}
 
 Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die nicht im vordefinierten Datenmodell enthalten sind.
 
@@ -66,13 +66,13 @@ Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die 
    Diese Felder erscheinen in den Daten und Metadaten, die nach Aktualisierung der Datenbank angezeigt werden können. Weiterführende Informationen finden Sie im Abschnitt [Datenbankstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
 
 1. Aktivieren Sie das Feld **[!UICONTROL Automatisches ID-Feld hinzufügen]**, um automatisch eine Kennung zu erstellen. Bitte beachten Sie, dass vorhandene Entitäten leer bleiben.
-1. Wenn Sie die Art der Anzeige des Namens der Ressourcenelemente in Listen und im Erstellungsassistenten anpassen möchten, aktivieren Sie die Option **[!UICONTROL Ressourcentitel personalisieren.]** Wählen Sie eines der für diese Ressource erstellten Felder aus.
+1. Wenn Sie die Art der Anzeige des Namens der Ressourcenelemente in Listen und im Erstellungsassistenten anpassen möchten, aktivieren Sie die Option **[!UICONTROL Ressourcentitel personalisieren]**. Wählen Sie eines der für diese Ressource erstellten Felder aus.
 
    ![](assets/schema_extension_18.png)
 
 Die Felder Ihrer Ressource sind jetzt definiert.
 
-## Identifizierungsschlüssel definieren  {#defining-identification-keys}
+## Identifizierungsschlüssel definieren     {#defining-identification-keys}
 
 Jede Ressource muss mindestens einen Schlüssel zu ihrer eindeutigen Identifizierung aufweisen. Sie können beispielsweise einen Schlüssel definieren, der besagt, dass zwei Produkte in einer Verkaufstabelle nicht dieselbe ID aufweisen können.
 
@@ -82,7 +82,7 @@ Jede Ressource muss mindestens einen Schlüssel zu ihrer eindeutigen Identifizie
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Element erstellen]**, um einen Schlüssel zu erstellen.
 
-   **[!UICONTROL Die]** Felder "Beschriftung" und **[!UICONTROL " ID]** " sind standardmäßig ausgefüllt, können jedoch bearbeitet werden.
+   Die Felder **[!UICONTROL Titel]** und **[!UICONTROL Kennung]** sind standardmäßig vorausgefüllt, können jedoch angepasst werden.
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Jede Ressource muss mindestens einen Schlüssel zu ihrer eindeutigen Identifizie
 
 Ihre Identifizierungsschlüssel für die Ressource werden jetzt erstellt.
 
-## Indexe definieren  {#defining-indexes}
+## Indexe definieren     {#defining-indexes}
 
 Indexe können eines oder mehrere Felder der Ressource referenzieren. Indexe ermöglichen es, Datensätze in der Datenbank zu sortieren, um sie leichter auffindbar zu machen. Auf diese Weise werden die SQL-Abfragen optimiert.
 
@@ -200,7 +200,7 @@ In diesem Beispiel möchten wir eine Relation zwischen der neuen Ressource **Bes
 
    Sie können Ihre neue Ressource jetzt publizieren.
 
-Durch Hinzufügen dieser Relation wird der Tab **Bestellung** zum Detailbildschirm der Profile hinzugefügt und ist über das Menü **[!UICONTROL Profile &amp; Audiences]** &gt; **[!UICONTROL Profile]** abrufbar. Bitte beachten Sie, dass dies speziell für die **[!UICONTROL Profile]-Ressource gilt.**
+Durch Hinzufügen dieser Relation wird der Tab **Bestellung** zum Detailbildschirm der Profile hinzugefügt und ist über das Menü **[!UICONTROL Profile &amp; Audiences]** &gt; **[!UICONTROL Profile]** abrufbar. Bitte beachten Sie, dass dies speziell für die **[!UICONTROL Profile]**-Ressource gilt.
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -245,7 +245,7 @@ Weiterführende Informationen zu dynamischen Berichten finden Sie in der [Liste 
 >
 >Die Anzahl der an dynamische Berichte gesendeten Felder ist auf 20 begrenzt.
 
-## Eigenschaften einer Ressource bearbeiten  {#editing-resource-properties}
+## Eigenschaften einer Ressource bearbeiten     {#editing-resource-properties}
 
 Im Bildschirm der benutzerdefinierten Ressource werden im Bereich der **[!UICONTROL Zusammenfassung]** der Typ und der Status der neu erstellten Ressource angezeigt. Sie können den Zugriff auf die Ressource und ihre allgemeinen Eigenschaften bearbeiten.
 
