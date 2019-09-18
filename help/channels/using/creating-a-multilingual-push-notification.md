@@ -13,7 +13,7 @@ topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
@@ -35,7 +35,7 @@ Gehen Sie folgendermaßen vor, um mehrsprachige Inhaltsvarianten für Ihre Push-
 * [Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
 * [Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.  {#step-1--upload-multilingual-content-variant}
+## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.    {#step-1--upload-multilingual-content-variant}
 
 Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst die Inhaltsvarianten in einer mehrsprachigen Versandvorlage hochgeladen und der Versand erstellt werden.
 
@@ -60,7 +60,7 @@ Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst d
 
 1. Ziehen Sie Ihre Datei in das Fenster **[!UICONTROL Inhaltsvarianten verwalten]** oder wählen Sie eine Datei auf Ihrem Computer aus.
 
-   Die Datei muss im UTF-8-Format kodiert sein und ein bestimmtes Layout aufweisen, das Sie sich durch Auswahl der Option **[!UICONTROL Download der Beispielsdatei]** ansehen können. Achten Sie außerdem auf die Verwendung der richtigen Syntax für die Sprachen. Weiterführende Informationen zum Dateiformat und zu den unterstützten Sprachen finden Sie in dieser [Technote](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+   Die Datei muss im UTF-8-Format kodiert sein und ein bestimmtes Layout aufweisen, das Sie sich durch Auswahl der Option **[!UICONTROL Download der Beispielsdatei]** ansehen können. Achten Sie außerdem auf die Verwendung der richtigen Syntax für die Sprachen. Weiterführende Informationen zum Dateiformat und zu den unterstützten Sprachen finden Sie in dieser [Technote](http://helpx.adobe.com/de/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
@@ -81,7 +81,7 @@ Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst d
 
 Jetzt können Sie mit der Personalisierung Ihrer mehrsprachigen Push-Benachrichtigung beginnen.
 
-## Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.  {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.    {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Nach dem Hochladen der Datei mit den Inhaltsvarianten können Sie sich jetzt die verschiedenen Varianten über den Push-Benachrichtigungsversand in der Vorschau ansehen.
 
@@ -109,7 +109,7 @@ Zusätzlich zu den von der Datei hochgeladenen Varianten können Sie auch weiter
 
 Ihre mehrsprachige Push-Benachrichtigung kann jetzt gesendet werden.
 
-## Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.  {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.    {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Ihre mehrsprachigen Push-Benachrichtigungen mit Inhaltsvarianten sind jetzt bereit zum Versenden.
 
@@ -133,4 +133,4 @@ Jetzt können Sie die Wirkung Ihres mehrsprachigen Push-Benachrichtigungs-Versan
 
 * [Bericht zu Push-Benachrichtigungen](../../reporting/using/push-notification-report.md)
 * [Push-Benachrichtigungen in einem Workflow versenden](../../automating/using/push-notification-delivery.md)
-* [Erreichen mehrsprachiger Zielgruppen mit einem Workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Mehrere Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
