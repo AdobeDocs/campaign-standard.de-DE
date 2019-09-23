@@ -2,7 +2,7 @@
 title: Definieren der Betreffzeile und des Absenders einer E-Mail
 seo-title: Definieren der Betreffzeile und des Absenders einer E-Mail
 description: Definieren der Betreffzeile und des Absenders einer E-Mail
-seo-description: Entdecken Sie, wie Sie im E-Mail-Designer die Betreffzeile und den Absender einer E-Mail definieren.
+seo-description: Erfahren Sie, wie Sie die Betreffzeile und den Absender einer E-Mail im E-Mail-Designer definieren.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
+source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
 
 ---
 
@@ -55,9 +55,9 @@ Diese Funktion ist standardmäßig deaktiviert. Sie wird beim Import des ersten 
 >
 >Diese Funktion ist ausschließlich für E-Mail-Nachrichten und Datenbanken mit englischen Inhalten verfügbar. Das trainierte Modell riskiert inkonsistent zu sein und fehlerhafte Ergebnisse zu erzeugen, wenn Ihre Instanz E-Mails beinhaltet, deren Inhalt in anderen Sprachen gehalten ist. Die Option zum Testen von Betreffs ist nur dann sichtbar, wenn in Ihrer Instanz bereits ein Modell verfügbar ist.
 
-**Ähnliches Thema**
+**Verwandtes Thema**
 
-* [Testen einer Subjektlinie](../../sending/using/testing-subject-line-email.md)
+* [Testen einer Betreffzeile](../../sending/using/testing-subject-line-email.md)
 
 ## E-Mail-Absender {#email-sender}
 
@@ -71,7 +71,7 @@ Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu defin
 
    Sie haben die Möglichkeit, den Absendernamen je nach Zielgruppe zu personalisieren. Sie können Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die Symbole unter dem Absendernamen auswählen.
 
-* Das Feld **[!UICONTROL Von (E-Mail)]** kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. Lesen Sie diesbezüglich auch den Abschnitt [Liste der erweiterten E-Mail-Parameter](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* Das Feld **[!UICONTROL Von (E-Mail)]** kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. For more information, see [List of email advanced parameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
