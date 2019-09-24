@@ -1,8 +1,8 @@
 ---
-title: Testen der Betreffzeile einer E-Mail
-seo-title: Testen der Betreffzeile einer E-Mail
-description: Testen der Betreffzeile einer E-Mail
-seo-description: Entdecken Sie, wie Sie die Betreffzeile einer E-Mail im E-Mail-Designer definieren.
+title: Betreffzeile einer E-Mail testen
+seo-title: Betreffzeile einer E-Mail testen
+description: Betreffzeile einer E-Mail testen
+seo-description: Erfahren Sie, wie Sie die Betreffzeile einer E-Mail im Email Designer definieren.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
 
 ---
@@ -47,7 +47,7 @@ Bei der Analyse werden mehrere Indikatoren berechnet und es werden eine Reihe vo
 
 ![](assets/predictive_subject_line_example.png)
 
-## Modelle importieren  {#importing-models}
+## Modelle importieren     {#importing-models}
 
 Auf Ihrem Adobe-Campaign-Server laufen Modelle nicht standardmäßig. Für den Erhalt eines Modells und die Aktivierung der Funktion gibt es zwei Möglichkeiten:
 
