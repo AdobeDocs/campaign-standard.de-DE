@@ -3,7 +3,7 @@ product: Adobe Campaign
 sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 ---
@@ -87,7 +87,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Push-Benachrichtigung vorbereiten und senden](channels/using/preparing-and-sending-a-push-notification.md)
       + [Push-Benachrichtigung anpassen](channels/using/customizing-a-push-notification.md)
       + [Mehrsprachige Push-Benachrichtigungen erstellen](channels/using/creating-a-multilingual-push-notification.md)
-      + [Erstellen und Aktualisieren von Profilinformationen auf der Grundlage mobiler Anwendungsdaten](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Profilinformationen basierend auf Mobile App-Daten erstellen und aktualisieren](channels/using/updating-profile-with-mobile-app-data.md)
    + In-App-Messaging {#in-app-messaging}
       + [Über In-App-Messaging](channels/using/about-in-app-messaging.md)
       + [In-App-Nachricht vorbereiten und senden](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -118,16 +118,16 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Landingpage über die Dateneigenschaften ändern](channels/using/changing-a-landing-page-form-data-properties.md)
       + [Dynamische Inhalte in einer Landingpage definieren](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + E-Mail-Inhalt gestalten {#designing-content}
-   + [Kampagnen-E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
+   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
    + [Schnellstart](designing/using/quick-start.md)
-   + [Verwendung und Empfehlungen](designing/using/overview.md)
-   + [Definieren der Betreffzeile und des Absenders](designing/using/subject-line.md)
-   + [Entwerfen von E-Mails von Grund auf](designing/using/designing-from-scratch.md)
-   + [Entwerfen von E-Mails mit vorhandenen Inhalten](designing/using/using-existing-content.md)
-   + [Entwerfen von E-Mails mit wiederverwendbaren Inhalten](designing/using/using-reusable-content.md)
-   + [E-Mail-Design mit mehreren Lösungen](designing/using/using-integrations.md)
+   + [Nutzung und Empfehlungen](designing/using/overview.md)
+   + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
+   + [E-Mails von Grund auf neu erstellen](designing/using/designing-from-scratch.md)
+   + [E-Mail aus vorhandenem Inhalt erstellen](designing/using/using-existing-content.md)
+   + [E-Mails aus wiederverwendbarem Inhalt erstellen](designing/using/using-reusable-content.md)
+   + [E-Mails mit mehreren Lösungen erstellen](designing/using/using-integrations.md)
    + [Personalisierung ](designing/using/personalization.md)
-   + [Text- und HTML-Modus  ](designing/using/plain-text-html-modes.md)
+   + [Text- und HTML-Modus](designing/using/plain-text-html-modes.md)
    + [Stile verwalten](designing/using/styles.md)
    + [Bilder verwalten](designing/using/images.md)
    + [Links verwalten](designing/using/links.md)
@@ -272,11 +272,11 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
    + Anwendungsfälle: Workflows {#workflow-use-case}
-      + [Erstellung ergänzender Lieferungen](automating/using/workflow-created-query-with-complement.md)
-      + [Erstellen von Lieferungen am Erstellungsdatum](automating/using/workflow-creation-date-query.md)
-      + [Erstellen einer wöchentlichen Lieferung](automating/using/workflow-weekly-offer.md)
-      + [Erstellen einer Segmentierung am Standort](automating/using/workflow-segmentation-location.md)
-      + [Retargeting Non-Openers](automating/using/workflow-cross-channel-retargeting.md)
+      + [Sendungen mit einem Komplement erstellen](automating/using/workflow-created-query-with-complement.md)
+      + [Sendungen am Erstellungsdatum erstellen](automating/using/workflow-creation-date-query.md)
+      + [Wöchentlichen Versand erstellen](automating/using/workflow-weekly-offer.md)
+      + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
+      + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
 + Entwickeln{#developing}
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Datenmodelle](developing/using/data-model-concepts.md)
