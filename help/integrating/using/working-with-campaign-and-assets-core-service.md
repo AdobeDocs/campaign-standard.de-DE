@@ -13,7 +13,7 @@ topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
@@ -37,6 +37,6 @@ Das entsprechende Bild wird nun eingefügt. Der Versand kann nach Bedarf persona
 
 **Verwandte Themen:**
 
-* [Assets und Freigabe](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)
+* [Assets und Freigabe](https://marketing.adobe.com/resources/help/de_DE/mcloud/experience-cloud-assets.html)
 * [Inhaltseditor](../../designing/using/personalization.md#example-email-personalization)
 
