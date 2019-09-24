@@ -206,7 +206,7 @@ Um die in Adobe Campaign erfolgreich erstellten Anwendungen zu öffnen, gehen Si
 
 Eine Liste der Abonnenten der App wird auch im Tab **[!UICONTROL Abonnenten der Mobile App]** angezeigt. Die Abonnenten sind alle Benutzer, die die Anwendung auf ihrem Mobilgerät installiert haben. Die Profile in der Adobe-Campaign-Datenbank werden mit einem Anmeldetoken identifiziert.
 
-## Erfasste Standortdaten abrufen     {#accessing-collected-location-data}
+## Erfasste Standortdaten abrufen      {#accessing-collected-location-data}
 
 Nach dem Einrichten werden die erfassten POI-Daten im Tab **[!UICONTROL Orte]** eines jeden Profils aufgeführt. So greifen Sie auf die Liste zu:
 
