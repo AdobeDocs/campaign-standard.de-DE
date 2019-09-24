@@ -3,7 +3,7 @@ title: Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen
 seo-title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 seo-description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
 
 Es kann vorkommen, dass Sie für eine Ressource einen Identifikationsschlüssel definieren müssen, der aus zwei Feldern besteht. Nach der Konfiguration des Identifizierungsschlüssels müssen Sie eine Filterdefinition konfigurieren, um die Ressource mit diesem Identifizierungsschlüssel entweder über die Campaign Standard-Benutzeroberfläche oder über APIs aufrufen zu können.
 
-In unserem Beispiel wurde die Ressource **Profil** mit den benutzerdefinierten Feldern **"CRM ID"** und **"Kategorie“** erweitert. Wir erstellen zuerst einen Identifizierungsschlüssel für die Ressource "Profil" bestehend aus diesen beiden Feldern. Anschließend konfigurieren wir eine Filterdefinition, damit wir mithilfe des Identifizierungsschlüssels auf die Ressource "Profil" zugreifen können.
+In unserem Beispiel wurde die Ressource **Profil** mit den benutzerdefinierten Feldern **"CRM ID"** und **"Kategorie"** erweitert. Wir erstellen zuerst einen Identifizierungsschlüssel für die Ressource "Profil" bestehend aus diesen beiden Feldern. Anschließend konfigurieren wir eine Filterdefinition, damit wir mithilfe des Identifizierungsschlüssels auf die Ressource "Profil" zugreifen können.
 
-Die wichtigsten Schritte für diesen Anwendungsfall sind:
+Dies sind die Schritte für diesen Anwendungsfall:
 
-1. Konfigurieren des Identifizierungsschlüssels für die Ressource "Profil“ auf der Basis der beiden Felder.
+1. Konfigurieren des Identifizierungsschlüssels für die Ressource "Profil" auf der Basis der beiden Felder.
 1. Konfigurieren der Filterdefinition, um die Ressource "Profil" mit dem Identifizierungsschlüssel aufrufen zu können.
 1. Aufrufen der Ressource "Profil" über die Benutzeroberfläche oder APIs.
 
@@ -98,12 +98,12 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->Um einen Kundenfilter aufzurufen, verwenden Sie das Präfix "by", gefolgt vom Filternamen, der bei der Konfiguration der Filterdefinition in [Schritt 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)definiert ist.
+>Um einen Kundenfilter aufzurufen, verwenden Sie das Präfix "by", gefolgt vom Filternamen, der beim Konfigurieren der Filterdefinition in [Schritt 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)festgelegt wurde.
 
-In unserem Fall wäre die Syntax, um ein Profil aus der Kategorie "Frühjahr" mit der CRM-ID "123456" abzurufen, wie folgt:
+In unserem Fall lautet die Syntax zum Abrufen eines Profils aus der Kategorie "spring" mit der CRM-ID "123456":
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Campaign Standard-REST-APIs](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
