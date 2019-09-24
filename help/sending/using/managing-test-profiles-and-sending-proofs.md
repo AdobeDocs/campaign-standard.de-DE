@@ -14,7 +14,7 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
@@ -35,12 +35,12 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
    Die Funktion **E-Mail-Rendering** ist schreibgeschützt. Testprofile mit diesem Verwendungszweck sind ausschließlich nativ in Adobe Campaign enthalten.
 
-* Als **Falle**: die Nachricht wird an das Prüfprofil gesandt, ebenso wie sie an das Hauptziel gesandt wird. Sehen Sie die [Fallen](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)aus.
-* **Vorschau** - durch Auswahl eines Testprofils lässt sich die korrekte Umsetzung von Personalisierungselementen innerhalb einer Nachricht prüfen. Siehe [Vorschau der Nachricht erzeugen](/help/sending/using/previewing-messages.md).
+* Als **Falle**: Die Nachricht wird auf dieselbe Weise an das Testprofil gesendet wie an die Hauptzielgruppe. Siehe [Verwenden von Fallen](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+* **Vorschau** einer Nachricht: Durch Auswahl eines Testprofils lässt sich die korrekte Umsetzung von Personalisierungselementen innerhalb einer Nachricht prüfen. Siehe [Vorschau der Nachricht erzeugen](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
-## Verwaltung von Testprofilen   {#managing-test-profiles}
+## Verwaltung von Testprofilen    {#managing-test-profiles}
 
 ### Testprofile erstellen {#creating-test-profiles}
 
@@ -73,7 +73,7 @@ Das Testprofil wurde der Liste der Profile hinzugefügt.
 
 **Verwandtes Thema:**
 
-Video [Creating a test profile](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
+Video [Creating a test profile](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
 
 ### Testprofile bearbeiten {#editing-test-profiles}
 
@@ -127,48 +127,48 @@ Senden Sie so viele Testsendungen wie nötig sind, um zu einer endgültigen Vers
 
 **Verwandtes Thema:**
 
-Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
-## Verwendung von Fallen {#using-traps}
+## Verwenden von Fallen {#using-traps}
 
-Bei Verwendung von Fallen wird die Meldung an das Testprofil genau so geschickt, wie es an das Hauptziel geschickt wird, um festzustellen, ob Ihre Kundendatei betrügerisch verwendet wird.
+Bei der Verwendung von Fallen wird die Nachricht gleichermaßen an das Testprofil wie an die Hauptzielgruppe gesendet. Das Ziel dabei ist insbesondere, zu überwachen, ob Ihre Kundendatei für unlautere Zwecke verwendet wird.
 
-Fallen waren ursprünglich für Direktsendungen konzipiert. Sie erlauben es Ihnen,
-* Überprüfen Sie, dass Ihr Direktpostanbieter die Mitteilung tatsächlich übermittelt.
-* Erhalten Sie die Post gleichzeitig und unter den gleichen Bedingungen wie Ihre Kunden.
-* Führen Sie eine genaue Kopie der versandten Post.
-* Überprüfen Sie, dass Ihre Klientenliste von Ihrem Direktpostanbieter nicht missbraucht wird. Wenn eine andere Mitteilung an Ihre Adresse geschickt wird, kann Ihre Klientenakte ohne Ihr Wissen verwendet worden sein. Deshalb sollte die Anschrift des Prüfprofils nur dazu verwendet werden.
+Fallen wurden ursprünglich für den Briefpostversand entwickelt. Sie ermöglichen Ihnen Folgendes:
+* Sie können überprüfen, ob Ihr Briefpost-Anbieter die Nachricht tatsächlich sendet.
+* Sie erhalten die Post zur gleichen Zeit und im selben Zustand wie Ihre Kunden.
+* Sie können sich eine exakte Kopie der gesendeten Nachricht aufbewahren.
+* Sie können sich vergewissern, dass Ihre Kundenliste nicht von Ihrem Briefpost-Anbieter missbraucht wird. Wenn eine andere Nachricht an die Adresse Ihres Testprofils gesendet wird, wurde Ihre Kundendatei möglicherweise ohne Ihr Wissen verwendet. Deshalb sollte die Adresse des Testprofils nur zu diesem Zweck verwendet werden.
 
-Weitere Informationen über die Zugabe von Fallen an ein Direktes Publikum finden [Sie in den Nachprüfungs- und Tonnare-Profilen](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+Weiterführende Informationen zum Hinzufügen von Fallen zur Zielgruppe eines Briefpostversands finden Sie unter [Test- und Fallen-Profile hinzufügen](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-Für die anderen Kommunikationskanäle können Sie Ihren Hauptzielen mit Fallprofilen hinzufügen, um
-* Überprüfen Sie, dass Ihre Nachricht erfolgreich geschickt wurde.
-* Nimm eine genaue Kopie deiner Nachricht.
-* Gleis, wenn es geschickt und empfangen wurde.
+Wenn Sie Ihrer Hauptzielgruppe bei den anderen Kommunikationskanälen Fallen-Testprofile hinzufügen, haben Sie folgende Möglichkeiten:
+* Sie können überprüfen, ob Ihre Nachricht erfolgreich gesendet wurde.
+* Sie können eine exakte Kopie Ihrer Nachricht erhalten und aufbewahren.
+* Sie können verfolgen, wann die Nachricht gesendet und empfangen wurde.
 
-Um ein Testprofil als Falle zu benutzen, muss es in das Publikum Ihrer Botschaft aufgenommen werden.
+Um ein Testprofil als Falle zu verwenden, muss es in der Zielgruppe Ihrer Nachricht enthalten sein.
 
 >[!NOTE]
 >
->Im Gegensatz zu Prüfprofilen, die für [Nachweise](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) oder [E-Mail-Tierkörperbeseitigung](../../sending/using/email-rendering.md)verwendet werden, wird die Meldung gleichzeitig an das Hauptziel und die als Fallen verwendeten Prüfprofile übermittelt.
+>Im Gegensatz zu Testprofilen, die für [Testsendungen](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) oder zum [E-Mail-Rendering](../../sending/using/email-rendering.md) verwendet werden, erfolgt der Nachrichtenversand an die Hauptzielgruppe und die Testprofile, die als Fallen verwendet werden, gleichzeitig.
 
-Bei der Definition des Zuschauers der Botschaft:
+Gehen Sie beim Definieren der Zielgruppe einer Nachricht folgendermaßen vor:
 
-1. Von den **[!UICONTROL Prüfprofilen ist ein]** Prüfprofil auszuwählen. Sorgen Sie dafür, **[!UICONTROL dass sie Falle als]** vorgesehene Verwendung hat.
+1. Wählen Sie im Tab **[!UICONTROL Testprofile]** ein Testprofil aus. Vergewissern Sie sich, dass als Verwendungszweck **[!UICONTROL Falle]** ausgewählt ist.
 
    ![](assets/trap_select.png)
 
-1. Sobald Ihr Nachrichtengehalt fertig ist, klicken Sie den **[!UICONTROL Knopf.]** Siehe [Versandvorbereitung](../../sending/using/preparing-the-send.md).
+1. Wenn der Nachrichteninhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Vorbereiten]**. Siehe [Versandvorbereitung](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
-   >Sorgen Sie dafür, dass Sie ein Hauptziel gewählt haben. Andernfalls kann Ihre Botschaft nicht übermittelt werden.
+   >Stellen Sie sicher, dass Sie eine Hauptzielgruppe ausgewählt haben. Andernfalls kann Ihre Nachricht nicht gesendet werden.
 
-1. Wählen Sie die **[!UICONTROL Bestätigen]**-Schaltfläche aus. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
+1. Wählen Sie die Schaltfläche **[!UICONTROL Bestätigen]** aus. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
-Die Meldung wird an das Hauptziel und das Prüfprofil gesandt.
+Die Nachricht wird an die Hauptzielgruppe und an das Testprofil gesendet.
 
 >[!NOTE]
 >
->Bei Verwendung eines Prüfprofils als Falle für angereicherte Felder in einer Nachricht werden die entsprechenden zusätzlichen Daten zufällig von einem tatsächlichen Zielprofil ausgewählt und dem Untersuchungsprofil der Tonnare zugeordnet. Weitere Informationen zur Anreicherung [](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file)finden Sie hier.
+>Bei Verwendung eines Testprofils als Falle werden die entsprechenden zusätzlichen Daten für alle angereicherten Felder in einer Nachricht nach dem Zufallsprinzip aus einem echten Zielgruppenprofil ausgewählt und dem Fallen-Testprofil zugewiesen. Weiterführende Informationen zur Anreicherung finden Sie in [diesem Beispiel](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
