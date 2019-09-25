@@ -3,8 +3,8 @@ product: Adobe Campaign
 sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
-translation-type: ht
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+translation-type: tm+mt
+source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
 
 ---
 
@@ -129,8 +129,8 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
    + [Personalisierung ](designing/using/personalization.md)
    + [Text- und HTML-Modus](designing/using/plain-text-html-modes.md)
    + [Stile verwalten](designing/using/styles.md)
-   + [Bilder verwalten](designing/using/images.md)
    + [Links verwalten](designing/using/links.md)
+   + [Bilder verwalten](designing/using/images.md)
 + Testen und Senden {#testing-and-sending}
    + [Über den Versand mit Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
