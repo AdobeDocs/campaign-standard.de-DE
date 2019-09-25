@@ -21,7 +21,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 # Versionshinweise{#release-notes}
 
-Suchen Sie eine bestimmte Version von Adobe Campaign Standard aus dem Jahr
+Suchen Sie eine bestimmte Version von Adobe Campaign Standard?
 
 Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicken Sie auf eine Version, um sich den Inhalt anzusehen. In der [Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) können Sie sehen, wann die nächste Version veröffentlicht wird.
 
