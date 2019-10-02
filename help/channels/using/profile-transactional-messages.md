@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -38,14 +38,14 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 >
 >Um auf Transaktionsnachrichten zugreifen zu können, müssen Sie entweder über Administratorrechte verfügen oder der Sicherheitsgruppe **[!UICONTROL Message Center Agents]** (mcExec) angehören. Ermüdungsregeln sind mit Profil-Transaktionsnachrichten kompatibel. Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md).
 
-## Profil-Transaktionsnachricht senden  {#sending-a-profile-transactional-message}
+## Profil-Transaktionsnachricht senden   {#sending-a-profile-transactional-message}
 
 Die Schritte für das Erstellen, Personalisieren und Publizieren einer Profil-Transaktionsnachricht sind mit denen einer Ereignis-Transaktionsnachricht identisch. Siehe [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 
 Die Unterschiede sind unten aufgeführt.
 
 1. Rufen Sie die erstellte Transaktionsnachricht auf, um sie zu bearbeiten.
-1. Klicken Sie in der Transaktionsnachricht auf den Bereich **[!UICONTROL Inhalt]**. Anstelle der Transaktionsvorlage können Sie auch die Standard-E-Mail-Vorlage auswählen, die auf die Ressource **[!UICONTROL Profil ausgerichtet ist]**.
+1. Klicken Sie in der Transaktionsnachricht auf den Bereich **[!UICONTROL Inhalt]**. In addition to the transactional template, you can also choose any email template targeting **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
@@ -59,7 +59,7 @@ Die Unterschiede sind unten aufgeführt.
 
 1. Speichern Sie Ihre Änderungen und publizieren Sie die Nachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Versand einer Profil-Transaktionsnachricht verfolgen  {#monitoring-a-profile-transactional-message-delivery}
+## Versand einer Profil-Transaktionsnachricht verfolgen   {#monitoring-a-profile-transactional-message-delivery}
 
 Nachdem die Nachricht publiziert wurde und Ihre Webseiten-Integration abgeschlossen ist, kann der Versand verfolgt werden.
 
