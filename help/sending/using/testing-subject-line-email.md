@@ -13,14 +13,14 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
+translation-type: tm+mt
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
 # Betreff testen {#testing-a-subject}
 
-Gehen Sie zum Testen Ihrer Betreffzeile wie folgt vor:
+To test your subject line, follow the steps below:
 
 1. Erstellen Sie eine neue oder öffnen Sie eine bereits existierende E-Mail.
 1. Gehen Sie in den Inhalt und geben Sie den Betreff der E-Mail im entsprechenden Eingabefeld ein.
