@@ -14,8 +14,8 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+translation-type: tm+mt
+source-git-commit: 32a11ad57eee6bc0b7ab693fbaa55811f36f94dc
 
 ---
 
@@ -26,19 +26,26 @@ Um Anmeldungen verwalten zu können, müssen Sie zunächst einen Dienst erstelle
 
 So konfigurieren Sie einen Dienst:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm auf das erweiterte Menü **Profile &amp; Audiences** &gt; **Dienste** zu und fügen Sie einen neuen Dienst hinzu oder öffnen Sie einen bestehenden. Bei Erstellung eines neuen Dienstes führt der Assistent Sie Schritt für Schritt durch die Konfiguration.
+1. From the advanced menu **[!UICONTROL Profiles &amp; audiences]** &gt; **[!UICONTROL Services]** via the Adobe Campaign logo, add a new service or select an existing service. Bei Erstellung eines neuen Dienstes führt der Assistent Sie Schritt für Schritt durch die Konfiguration.
 
    Eine Standard-Dienstvorlage steht zur Verfügung. Diese Vorlage ist so vorkonfiguriert, dass sie Standard-Landingpages und -Bestätigungs-E-Mails enthält. Sie haben jedoch die Möglichkeit der Erstellung anderer Vorlagen, wenn Sie spezielle Parameter angeben möchten. Weiterführende Informationen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
 
-1. Gehen Sie mithilfe der Schaltfläche ![](assets/edit_darkgrey-24px.png) in die **Eigenschaften des Dienstes** und konfigurieren Sie die Bestätigungsnachrichten, die bei Anmeldungen oder Abmeldungen versendet werden sollen.
+1. Gehen Sie mithilfe der Schaltfläche **in die**![Eigenschaften des Dienstes](assets/edit_darkgrey-24px.png) und konfigurieren Sie die Bestätigungsnachrichten, die bei Anmeldungen oder Abmeldungen versendet werden sollen.
 
    ![](assets/lp_service_parameters.png)
+
+1. Füllen Sie das Feld **[!UICONTROL Dienstbezeichnung]** aus. Die Dienstbezeichnung ist bei Verwendung einer benutzerdefinierten Bestätigungsmeldung obligatorisch.
 
 1. Wählen Sie eine Bestätigungsnachrichtenvorlage für An- und Abmeldungen aus. Drei Modi sind verfügbar:
 
    * **[!UICONTROL Keine Nachricht]**: Mit diesem Modus können Sie einen Dienst ohne Bestätigungsnachricht erstellen.
    * **[!UICONTROL Standardnachricht]**: Bei diesem Modus wird die standardmäßige Bestätigungs-Transaktionsnachricht für An- oder Abmeldungen verwendet. Die Standard-Bestätigungsnachrichten sind allgemein gehalten und für alle Dienste identisch, die den Standardmodus verwenden.
-   * **[!UICONTROL Benutzerdefinierte Nachricht]**: In diesem Modus können Sie benutzerdefinierte Bestätigungsnachrichten verwenden, die für jeden Dienst anders sind. Wählen Sie hierfür die Option **[!UICONTROL Benutzerdefinierte Konfiguration des Anmeldeereignisses]** aus. Diese Konfiguration ist mit einer bestimmten Transaktionsnachrichtenvorlage verknüpft. Weiterführende Informationen zur Konfiguration von Transaktionsereignissen und -nachrichten finden Sie in [Transaktionsnachrichten](../../channels/using/about-transactional-messaging.md).
+
+      >[HINWEIS]
+      >
+      >Sie können eine Standardnachricht ändern, indem Sie im Abschnitt " **[!UICONTROL Diensteigenschaften]** "auf ihre Beschriftung klicken oder sie in der Transaktionsmeldungsliste von Adobe Campaign auswählen, nachdem Sie das Feld "Interne Transaktionsmeldungen **[!UICONTROL anzeigen"aktiviert haben]** .
+
+   * **[!UICONTROL Benutzerdefinierte Nachricht]**: In diesem Modus können Sie benutzerdefinierte Bestätigungsnachrichten verwenden, die für jeden Dienst anders sind. Wählen Sie hierfür die Option **[!UICONTROL Benutzerdefinierte Konfiguration des Anmeldeereignisses]** aus. Diese Konfiguration ist mit einer bestimmten Transaktionsnachrichtenvorlage verknüpft.[](../../channels/using/about-transactional-messaging.md) Weitere Informationen finden Sie unter [Bestätigen des Abonnements für einen Dienst](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Speichern Sie den Dienst. Dieser kann nun verwendet werden.
 
@@ -46,7 +53,7 @@ Nachdem ein Dienst erstellt wurde, können Sie damit beginnen, ihn zu bewerben.
 
 **Verwandte Themen:**
 
-* Video [Managing a service and subscriptions](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
+* Video [Managing a service and subscriptions](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
 * [Dienst bewerben](../../audiences/using/promoting-a-service.md)
 * [Erstellen einer Audience aus Abonnenten](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Formular einem Dienst zuordnen](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
