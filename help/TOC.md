@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
+source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
 
 ---
 
@@ -59,6 +59,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [Dienst erstellen](audiences/using/creating-a-service.md)
       + [Dienst bewerben](audiences/using/promoting-a-service.md)
       + [Anmeldungen verfolgen](audiences/using/monitoring-subscriptions.md)
+      + [Bestätigung des Abonnements für einen Dienst](audiences/using/confirming-subscription-to-a-service.md)
    + Funktionsweise des Opt-in- und Opt-out-Verfahrens {#understanding-opt-in-and-opt-out-processes}
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -137,6 +138,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [Vorschau der Nachricht erzeugen](sending/using/previewing-messages.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
       + [Testprofile verwalten und Testsendungen durchführen](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
    + Versand planen {#sheduling-messages}
       + [Über die Planung von Sendungen](sending/using/about-scheduling-messages.md)
