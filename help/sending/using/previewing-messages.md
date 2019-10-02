@@ -13,8 +13,8 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+translation-type: tm+mt
+source-git-commit: fba337604c678bad17cb03796aeb24d14549605c
 
 ---
 
@@ -34,6 +34,9 @@ Nachdem Sie Testprofile im **[!UICONTROL Audience]**-Fenster hinzugefügt haben,
    ![](assets/sending_anti-spam_analysis.png)
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL Profil wechseln]**, um das Testprofil auszuwählen, an dem die Personalisierungselemente getestet werden sollen.
+
+   ![](assets/sending_test-profile.png)
+
 1. Um den **[!UICONTROL Vorschau]**-Modus zu beenden, wählen Sie im Bildschirm links oben die Schaltfläche **[!UICONTROL Bearbeiten]** aus.
 
    ![](assets/sending_preview_edit.png)
