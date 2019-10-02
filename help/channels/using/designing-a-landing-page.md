@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: aeb0e7bc6765b23042fafd34fb360d4e3046adcd
 
 ---
 
@@ -36,7 +36,7 @@ Mithilfe des Schalters unter der Symbolleiste können Sie jede dieser Seiten anz
 
 Der Inhalt dieser Seiten wird im Campaign-Inhaltseditor erstellt. Lesen Sie diesbezüglich auch den Abschnitt [Inhaltserstellung](../../channels/using/about-landing-page-content-design.md).
 
-## Mapping der Formularfelder  {#mapping-form-fields}
+## Mapping der Formularfelder   {#mapping-form-fields}
 
 Über Eingabefelder können Daten in der Campaign-Datenbank gespeichert bzw. dort aktualisiert werden. Dazu müssen Sie Blöcken wie Eingabe- oder Auswahlfeldern Datenbankfelder zuordnen. Gehen Sie wie folgt vor:
 
@@ -59,7 +59,7 @@ Der Inhalt dieser Seiten wird im Campaign-Inhaltseditor erstellt. Lesen Sie dies
 >
 >Die Standardfelder der nativen Landingpages sind bereits ausgefüllt. Sie können sie nach Bedarf ändern.
 
-## Formular übermitteln  {#submitting-the-form}
+## Formular übermitteln   {#submitting-the-form}
 
 Sie können festlegen, was passieren soll, wenn der Besucher die Bestätigungsschaltfläche drückt. Gehen Sie wie folgt vor:
 
@@ -76,7 +76,7 @@ Zusätzlich können Sie den Titel der Schaltfläche ändern oder einen Link konf
 
    ![](assets/lp_link_custom.png)
 
-## Formular mit einem Dienst verknüpfen  {#linking-a-form-to-a-service}
+## Formular mit einem Dienst verknüpfen   {#linking-a-form-to-a-service}
 
 Sie können ein Formular mit einem Dienst verknüpfen, sodass sich Profile beim Besuch der Landingpage für einen spezifischen Dienst anmelden können, wenn sie auf die Senden-Schaltfläche des Formulars klicken.
 
@@ -96,7 +96,7 @@ Gehen Sie folgendermaßen vor, um den Dienst auszuwählen, der verknüpft werden
 
    Verwenden Sie in diesem Fall die Option **[!UICONTROL In der URL angegebener Dienst]**. Die Landingpage muss in den Parametern der jeweiligen Dienste referenziert werden.
 
-### Versand einer Landingpage bestätigen  {#confirm-a-landing-page-submission}
+### Versand einer Landingpage bestätigen   {#confirm-a-landing-page-submission}
 
 Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie wie folgt vor:
 
@@ -112,7 +112,7 @@ Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch eine
 
    ![](assets/lp_parameters_6.png)
 
-## Berechtigungen einrichten und Daten vorausfüllen  {#setting-permissions-and-pre-loading-data}
+## Berechtigungen einrichten und Daten vorausfüllen   {#setting-permissions-and-pre-loading-data}
 
 Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen. In diesem Fall können Sie ihre Daten auf der Landingpage schon vorab ausfüllen. Gehen Sie wie folgt vor:
 
