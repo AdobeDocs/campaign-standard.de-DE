@@ -2,7 +2,7 @@
 title: 'Erstellen und Verwenden wiederverwendbarer Inhalte '
 seo-title: Erstellen und Verwenden wiederverwendbarer Inhalte
 description: Erstellen und Verwenden wiederverwendbarer Inhalte
-seo-description: Starten Sie die Erstellung wiederverwendbarer E-Mail-Inhalte mit dem E-Mail-Designer.
+seo-description: Beginnen Sie in Email Designer mit dem Erstellen wiederverwendbarer E-Mail-Inhalte.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,69 +13,69 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
 
 # Erstellen und Verwenden wiederverwendbarer Inhalte {#using-reusable-content}
 
-Erfahren Sie, wie Sie die Ausgabe von E-Mail-Inhalten beherrschen. Mit dem Email Designer können Sie Vorlagen und Fragmente mit Ihren eigenen vordefinierten Inhalten erstellen und für die folgenden Auslieferungen wiederverwenden.
+Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email Designer können Sie Vorlagen und Fragmente mit eigenen vordefinierten Inhalten erstellen und diese in künftigen E-Mails wiederverwenden.
 
-## Entwerfen mit Vorlagen {#designing-templates}
+## Erstellen mit Vorlagen {#designing-templates}
 
 >[!NOTE]
 >
-> In Adobe Campaign Standard können Sie verschiedene Arten von Vorlagen erstellen, auf die über das Menü **Ressourcen** &gt; **Vorlagen** zugegriffen werden kann. Die im E-Mail-Designer verwendeten Vorlagen sind Content-Vorlagen. Weitere Informationen finden Sie unter [Info zu Vorlagen](../../start/using/about-templates.md).
+> In Adobe Campaign Standard können Sie verschiedene Arten von Vorlagen erstellen, auf die Sie über das Menü **Ressourcen** &gt; **Vorlagen** zugreifen können. In Email Designer werden Inhaltsvorlagen verwendet. Weitere Informationen finden Sie unter [Über Vorlagen](../../start/using/about-templates.md).
 
-### Inhaltsvorlagen  {#content-templates}
+### Inhaltsvorlagen     {#content-templates}
 
 Sie können HTML-Inhalte verwenden, die im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) verfügbar sind. Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen von Elementen. Beispielsweise haben die Vorlagen vom Typ "Feather" Ränder, die Vorlagen vom Typ "Astro" haben dagegen keine. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/template_content.png)
 
-Informationen zum Erstellen einer E-Mail aus einer nicht sofort verwendbaren Vorlage finden Sie unter [E-Mail-Designer](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template).
+Informationen zum Erstellen einer E-Mail aus einer vordefinierten Vorlage finden Sie unter [Email Designer](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template).
 
-### Creating a content template {#creating-a-content-template}
+### Inhaltsvorlage erstellen {#creating-a-content-template}
 
-Sie können eigene Content-Vorlagen erstellen, um sie so oft wie nötig zu verwenden.
+Sie können eigene Inhaltsvorlagen erstellen und beliebig oft verwenden.
 
-Im folgenden Beispiel wird das Erstellen einer E-Mail-Inhaltsvorlage veranschaulicht.
+Das folgende Beispiel zeigt, wie eine E-Mail-Inhaltsvorlage erstellt wird.
 
 1. Gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen &amp; Fragmente]** und wählen Sie **[!UICONTROL Erstellen]** aus.
 1. Wählen Sie den Titel der E-Mail aus, um auf den Tab **[!UICONTROL Eigenschaften]** in Email Designer zuzugreifen.
-1. Geben Sie ein erkennbares Etikett an, und wählen Sie die folgenden Parameter aus, um diese Vorlage in E-Mails verwenden zu können:
+1. Geben Sie einen charakteristischen Titel an und wählen Sie die folgenden Parameter aus, damit Sie diese Vorlage in E-Mails verwenden können.
 
-   * Wählen Sie in der Dropdown-Liste **[!UICONTROL Inhaltstyp]** die Option **[!UICONTROL Shared]** oder **[!UICONTROL Delivery]** aus.
-   * Wählen Sie **[!UICONTROL Vorlage]** aus der Dropdown-Liste **[!UICONTROL HTML-Typ]** .
+   * Wählen Sie **[!UICONTROL Freigegeben]** oder **[!UICONTROL Versand]** in der Dropdownliste **[!UICONTROL Content-Typ]** aus.
+   * Wählen Sie **[!UICONTROL Vorlage]** in der Dropdownliste **[!UICONTROL HTML-Typ]** aus.
    ![](assets/email_designer_create-template.png)
 
-1. Bei Bedarf können Sie ein Bild festlegen, das als Miniaturansicht für die Vorlage verwendet wird. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** l aus.
+1. Bei Bedarf können Sie ein Bild als Miniaturansicht für diese Vorlage festlegen. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** aus.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Diese Miniaturansicht wird auf der **[!UICONTROL Registerkarte Vorlagen]** der Homepage des [E-Mail-Designers](../../designing/using/overview.md#about-the-email-designer) angezeigt.
+   Diese Miniaturansicht wird im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md#about-the-email-designer) angezeigt.
 
-1. Schließen Sie die Registerkarte **[!UICONTROL Eigenschaften]** , um zum Hauptarbeitsbereich zurückzukehren.
-1. Fügen Sie Strukturkomponenten und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
+1. Schließen Sie den Tab **[!UICONTROL Eigenschaften]**, um zum Hauptarbeitsbereich zurückzukehren.
+1. Fügen Sie Struktur- und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
    >[!NOTE]
    >
-   > Sie können keine Personalisierungsfelder oder bedingten Inhalte in eine Inhaltsvorlage einfügen.
-1. Nach der Bearbeitung speichern Sie Ihre Vorlage.
+   > Sie können keine Personalisierungsfelder oder situationsbedingten Inhalt in eine Inhaltsvorlage einfügen.
+1. Speichern Sie die Vorlage nach der Bearbeitung.
 
-Diese Vorlage kann nun in allen E-Mails verwendet werden, die mit dem E-Mail-Designer erstellt wurden. Wählen Sie diese Option auf der **[!UICONTROL Registerkarte Vorlagen]** der Homepage des [E-Mail-Designers](../../designing/using/overview.md#about-the-email-designer) aus.
+Diese Vorlage kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Wählen Sie sie im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md#about-the-email-designer) aus.
 
 ![](assets/content_template_new.png)
 
-### Speichern von Inhalten als Vorlage {#saving-content-as-template}
+### Inhalt als Vorlage speichern {#saving-content-as-template}
 
-Beim Bearbeiten einer E-Mail mit dem E-Mail-Designer können Sie den Inhalt dieser E-Mail direkt als Vorlage speichern.
+Bei der Bearbeitung einer E-Mail mit Email Designer können Sie den Inhalt dieser E-Mail direkt als Vorlage speichern.
 
 <!--[!CAUTION]
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. Wählen Sie in der Hauptleiste des E-Mail-Designers die Option **[!UICONTROL Als Vorlage]** speichern aus.
+1. Wählen Sie in der Symbolleiste von Email Designer **[!UICONTROL Als Vorlage speichern]** aus.
 
    ![](assets/email_designer_save-as-template.png)
 
@@ -83,9 +83,9 @@ Beim Bearbeiten einer E-Mail mit dem E-Mail-Designer können Sie den Inhalt dies
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. To find the template that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]**.
+1. Um die soeben erstellte Vorlage zu finden, gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]**.
 
-1. Um die neue Vorlage zu verwenden, wählen Sie sie auf der Homepage des **E-Mail-Designers[!UICONTROL auf der Registerkarte Vorlagen]** [](../../designing/using/overview.md#about-the-email-designer)aus.
+1. Um Ihre neue Vorlage zu verwenden, wählen Sie sie im Tab **[!UICONTROL Vorlagen]** in der Startseite von [Email Designer](../../designing/using/overview.md#about-the-email-designer) aus.
 
    ![](assets/content_template_new.png)
 
@@ -127,10 +127,10 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 * [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## Über Fragmente   {#about-fragments}
+## Über Fragmente      {#about-fragments}
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails referenziert werden kann.
-Sie finden sie in der Schnittstelle unter **Ressourcen** &gt; **Inhaltsfragmente und Vorlagen**.
+Fragmente finden Sie in der Benutzeroberfläche unter **Ressourcen** &gt; **Inhaltsfragmente und Vorlagen**.
 
 So nutzen Sie Fragmente in Email Designer optimal:
 
@@ -146,7 +146,7 @@ Um ein Fragment in einer E-Mail zu entsperren, wählen Sie zuerst das Fragment a
 
 Dieses Fragment wird dann zu einer unabhängigen Komponente, die nicht mehr mit dem ursprünglichen Fragment verknüpft ist. Es kann dann wie jede andere Inhaltskomponente bearbeitet werden. Siehe [Über Inhaltskomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 
-### Inserting fragments into an email {#inserting-elements-into-an-email}
+### Einfügen von Fragmenten in eine E-Mail {#inserting-elements-into-an-email}
 
 Um den Inhalt Ihrer E-Mail zu definieren, können Sie Inhaltselemente in die zuvor platzierten Strukturkomponenten einfügen. Siehe auch den Abschnitt [E-Mail-Struktur bearbeiten](../../designing/using/designing-from-scratch.md#defining-the-email-structure)
 
@@ -178,16 +178,16 @@ Nachdem Inhalt in die E-Mail-Struktur geladen wurde, können Sie den Stil jedes 
 >
 >Änderungen eines Fragments werden automatisch mit den E-Mails synchronisiert, in denen das Fragment verwendet wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Fragmente](../../designing/using/using-reusable-content.md#about-fragments).
 
-### Inhaltsfragment erstellen   {#creating-a-content-fragment}
+### Inhaltsfragment erstellen      {#creating-a-content-fragment}
 
 Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer oder in mehreren E-Mails verwenden.
 
 1. Gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen &amp; Fragmente]** und wählen Sie **[!UICONTROL Erstellen]** aus.
 1. Wählen Sie den Titel der E-Mail aus, um auf den Tab **[!UICONTROL Eigenschaften]** in Email Designer zuzugreifen.
-1. Geben Sie ein erkennbares Etikett an, und wählen Sie die folgenden Parameter aus, um das Fragment bei der Bearbeitung von E-Mail-Inhalten zu finden:
+1. Geben Sie einen charakteristischen Titel an und wählen Sie die folgenden Parameter aus, damit Sie das Fragment später bei der Bearbeitung des E-Mail-Inhalts wiederfinden.
 
-   * Da Fragmente nur mit E-Mails kompatibel sind, wählen Sie aus der Dropdown-Liste **[!UICONTROL Inhaltstyp**] die Option **[!UICONTROL Versand]** aus.
-   * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment.
+   * Da Fragmente nur mit E-Mails kompatibel sind, wählen Sie aus der Dropdownliste **[!UICONTROL Inhaltstyp**] die Option **[!UICONTROL Versand]** aus.
+   * Wählen Sie aus der Dropdownliste **[!UICONTROL HTML-Typ]** die Option **[!UICONTROL Fragment]** aus, um diesen Inhalt als Fragment verwenden zu können.
    ![](assets/email_designer_createfragment.png)
 
 1. Bei Bedarf können Sie ein Bild als Miniaturansicht für dieses Fragment festlegen. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** l aus.
@@ -196,23 +196,23 @@ Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer ode
 
    Diese Miniaturansicht wird neben dem Titel des Fragments angezeigt, wenn eine E-Mail bearbeitet wird.
 
-1. Schließen Sie die Registerkarte **[!UICONTROL Eigenschaften]** , um zum Hauptarbeitsbereich zurückzukehren.
-1. Fügen Sie Strukturkomponenten und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
+1. Schließen Sie den Tab **[!UICONTROL Eigenschaften]**, um zum Hauptarbeitsbereich zurückzukehren.
+1. Fügen Sie Struktur- und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
 
    >[!NOTE]
    >
-   >Zu Fragmenten können keine Personalisierungsfelder, dynamische Inhalte oder ein anderes Fragment gehören.
-   >Die [mobile Ansicht](../../designing/using/styles.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar.
+   >Fragmente können keine Personalisierungsfelder, dynamischen Inhalte oder andere Fragmente enthalten.
+   >Die [Mobile-Ansicht](../../designing/using/styles.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar.
 
 1. Speichern Sie das Fragment nach der Bearbeitung.
 
-Dieses Fragment kann nun in allen E-Mails verwendet werden, die mit dem E-Mail-Designer erstellt wurden. Es wird in der Palette im Bereich **[!UICONTROL Fragmente]** angezeigt.
+Dieses Fragment kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Es wird in der Palette im Bereich **[!UICONTROL Fragmente]** angezeigt.
 
 >[!NOTE]
 >
->Sie können keine Personalisierungsfelder in ein Fragment einfügen, es sei denn, es wird in einer E-Mail verwendet und entsperrt. Siehe [Über Fragmente](../../designing/using/using-reusable-content.md#about-fragments).
+>Sie können nur dann Personalisierungsfelder in einem Fragment einfügen, wenn es in einer E-Mail verwendet wird und gesperrt ist. Siehe [Über Fragmente](../../designing/using/using-reusable-content.md#about-fragments).
 
-### Inhalt als ein Fragment speichern   {#saving-content-as-a-fragment}
+### Inhalt als ein Fragment speichern      {#saving-content-as-a-fragment}
 
 Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Teil dieser E-Mail als Fragment speichern.
 
@@ -230,7 +230,7 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Tei
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass Sie Strukturen auswählen, die nebeneinander liegen und keine Personalisierungsfelder, dynamischen Inhalte oder ein anderes Fragment enthalten.
+   >Achten Sie dabei darauf, dass die ausgewählten Strukturen nebeneinander liegen und keine Personalisierungsfelder, dynamischen Inhalte oder ein anderes Fragment enthalten.
    <!--You cannot select an empty structure.-->
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus.
@@ -243,12 +243,12 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Tei
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. Um das neue Fragment zu verwenden, öffnen Sie alle E-Mail-Inhalte und wählen Sie es aus der Fragment-Liste aus.
+1. Um das neue Fragment zu verwenden, öffnen Sie einen beliebigen E-Mail-Inhalt und wählen Sie es aus der Liste der Fragmente aus.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->Die [mobile Ansicht](../../designing/using/styles.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar. Wenn Sie eine E-Mail-Ansicht für mobile Geräte bearbeiten möchten, tun Sie dies, bevor Sie Ihre Inhalte als Fragment speichern.
+>Die [Mobile-Ansicht](../../designing/using/styles.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar. Wenn Sie die Mobile-Ansicht einer E-Mail bearbeiten möchten, tun Sie das, bevor Sie Ihren Inhalt als Fragment speichern.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -266,7 +266,7 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Paste the HTML that you copied where appropriate.
 1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 
-## Erstellen von wiederverwendbaren Headern und Fußzeilen mithilfe von Fragmenten {#header-footer-fragments}
+## Erstellen wiederverwendbarer Kopf- und Fußzeilen aus Fragmenten {#header-footer-fragments}
 
 Erstellen Sie mit Email Designer für jeden wiederverwendbaren Bereich ein Fragment. Für unser Beispiel brauchen wir zwei Fragmente: eines für die Kopfzeile und eines für die Fußzeile. Kopieren Sie dann die entsprechenden Teile aus dem existierenden Inhalt in diese Fragmente.
 
