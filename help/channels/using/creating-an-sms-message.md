@@ -14,7 +14,7 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
@@ -28,8 +28,8 @@ Informationen zu erweiterten SMS-Parametern finden Sie im Abschnitt [SMS-Konfigu
 
 Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefone senden zu können:
 
-* ein externes Konto vom Typ **[!UICONTROL Routing]**, das für den Kanal **[!UICONTROL Mobiltelefon (SMS)]** mit dem Versandmodus **[!UICONTROL Gebündelter Versand]** konfiguriert wurde. Lesen Sie diesbezüglich auch den Abschnitt [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
-* eine Versandvorlage, die auf das externe Konto Bezug nimmt.
+* Ein externes Konto vom Typ **[!UICONTROL Routing]**, das für den Kanal **[!UICONTROL Mobiltelefon (SMS)]** mit dem Versandmodus **[!UICONTROL Gebündelter Versand]** konfiguriert wurde Lesen Sie diesbezüglich auch den Abschnitt [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* Eine Versandvorlage, die auf das externe Konto Bezug nimmt
 
 1. Erstellen Sie einen SMS-Versand. Ein Versand kann über die Adobe-Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketingaktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
 
@@ -82,5 +82,5 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 
 * [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../channels/using/about-sms-and-push-content-design.md)
 * [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md)
-* [Create an SMS delivery](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) (Video)
+* Video [Create an SMS delivery](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
 
