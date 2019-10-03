@@ -14,7 +14,7 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
@@ -26,7 +26,7 @@ Das Dashboard einer Nachricht enthält einen Arbeitsbereich mit verschiedenen Ka
 
 ![](assets/delivery_dashboard_2.png)
 
-## Graue Leiste   {#gray-bar}
+## Graue Leiste    {#gray-bar}
 
 Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 
@@ -39,7 +39,7 @@ Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 * [Kanäle konfigurieren](../../administration/using/about-channel-configuration.md)
 * [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Symbolleiste   {#action-bar}
+## Symbolleiste    {#action-bar}
 
 Die Symbolleiste enthält verschiedene Schaltflächen, die die Bearbeitung der Nachricht ermöglichen.
 
@@ -67,7 +67,7 @@ Je nach angegebenen Parametern und Bearbeitungsfortschritt stehen gewisse Schalt
 
    Lesen Sie diesbezüglich auch den Abschnitt [Nachrichten senden](../../sending/using/confirming-the-send.md).
 
-## Bausteine   {#blocks}
+## Bausteine    {#blocks}
 
 Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel, um auf die entsprechenden Versandparameter zugreifen zu können:
 
@@ -76,5 +76,5 @@ Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel
 * **[!UICONTROL Freigabe]**: gibt Auskunft über den Fortschritt der Vorbereitung oder des Versands der Nachricht. Mithilfe der Schaltfläche unten rechts in der Kachel lässt sich das Analyse- und Versandprotokoll anzeigen. Diese Kachel erscheint erst nach abgeschlossener Versandvorbereitung. Weiterführende Informationen dazu finden Sie im Abschnitt [Versand bestätigen](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: dient der Bestimmung der Hauptzielgruppe der Nachricht sowie der Testprofile. Siehe [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Versandplanung]**: dient der Bestimmung des Versanddatums der Nachricht. Siehe [Über die Versandplanung](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Inhalt]**: erlaubt es Ihnen, den Inhalt der Nachricht zu definieren und eine Vorschau darauf anzuzeigen. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Inhalt]**: dient der Definition und Vorschau des Nachrichteninhalts. Siehe [Wichtigste Schritte im Nachrichtenversand](../../channels/using/key-steps-to-send-a-message.md).
 
