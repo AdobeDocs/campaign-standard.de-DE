@@ -1,8 +1,8 @@
 ---
-title: Links verwalten
-seo-title: Links verwalten
-description: 'Links verwalten '
-seo-description: Erfahren Sie, wie Sie Links mit dem E-Mail-Designer verwalten.
+title: Verwalten von Links
+seo-title: Verwalten von Links
+description: 'Verwalten von Links '
+seo-description: Erfahren Sie, wie Sie Links mit Email Designer verwalten.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ---
@@ -95,8 +95,8 @@ Die URL, die Kategorie, der Titel und der Trackingtyp eines jeden Links können 
 
 Für jede getrackte URL können Sie einen der folgenden Tracking-Modi auswählen:
 
-* **Getrackt**: aktiviert das Tracking dieser URL.
-* **Mirrorseite**: diese URL wird als Mirrorseite behandelt.
+* **Getrackt**: Aktiviert das Tracking dieser URL.
+* **Mirrorseite**: Diese URL wird als Mirrorseite behandelt.
 * **Nie**: Das Tracking dieser URL wird nie aktiviert. Diese Einstellung wird gespeichert. Wenn die URL künftig in einer Nachricht erscheint, ist ihr Tracking automatisch deaktiviert.
 * **Opt-out**: Diese URL wird als Opt-out-URL behandelt.
 
