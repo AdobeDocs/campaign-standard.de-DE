@@ -2,7 +2,7 @@
 title: 'Personalisierung '
 seo-title: 'Personalisierung '
 description: 'Personalisierung '
-seo-description: Entdecken Sie, wie Sie eine E-Mail im E-Mail-Designer personalisieren.
+seo-description: Erfahren Sie, wie Sie eine E-Mail in Email Designer personalisieren.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,13 +13,13 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Personalisierung  {#personalization}
+# Personalisierung   {#personalization}
 
 Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachrichten in Adobe Campaign zu personalisieren. Diese Personalisierungsmöglichkeiten können abhängig von den jeweiligen Profilen kombiniert werden. Im Allgemeinen bietet Adobe Campaign folgende Möglichkeiten:
 
@@ -27,11 +27,11 @@ Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachr
 * Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 * Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](../../designing/using/personalization.md#personalizing-the-sender).
 * Betreff einer E-Mail personalisieren. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Bedingte Inhalte erstellen. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
-Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu definieren, gehen Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol). Weitere Informationen hierzu finden Sie unter [Definieren des Absenders einer E-Mail](../../designing/using/subject-line.md#email-sender)
+Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu definieren, gehen Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol). Weitere Informationen hierzu finden Sie unter [Definieren des Absenders einer E-Mail](../../designing/using/subject-line.md#email-sender).
 
 Sie können den Absendernamen ändern, indem Sie **Name des Absenders** auswählen. Geben Sie nun den gewünschten Absendernamen ein.
 
@@ -164,7 +164,7 @@ Der Inhaltsbaustein kann nun im Inhaltseditor einer Nachricht oder einer Landing
 >
 >Achten Sie darauf, dass beim Bearbeiten des Inhalts eines Bausteins keine zusätzlichen Leerzeichen zwischen dem Anfang und dem Ende Ihrer *if*-Anweisungen vorhanden sind. In HTML werden die Leerzeichen auf dem Bildschirm angezeigt und wirken sich daher auf die Darstellung des Inhalts aus.
 
-### Über Zielgruppendimensionen   {#about-targeting-dimension}
+### Über Zielgruppendimensionen    {#about-targeting-dimension}
 
 Mit der Zielgruppendimension können Sie festlegen, in welchem Nachrichtentyp Sie den Inhaltsbaustein verwenden können. Auf diese Weise wird verhindert, dass in einer Nachricht unpassende Bausteine verwendet werden, die zu Fehlern führen könnten.
 
@@ -288,7 +288,7 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
 * [Testversand durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
 * [Ausdrucksbearbeitung](../../automating/using/editing-queries.md#about-query-editor)
 
-### Prioritätsstufe  {#order-of-priority}
+### Prioritätsstufe   {#order-of-priority}
 
 Bei der Definition eines dynamischen Inhalts im Ausdruckseditor wird folgende Priorität verwendet:
 
@@ -364,7 +364,7 @@ Gehen Sie wie folgt vor:
 
 Die dynamischen Inhalte für die Illustrationen wurden korrekt konfiguriert.
 
-### Text konfigurieren  {#configuring-text}
+### Text konfigurieren   {#configuring-text}
 
 Gehen Sie wie folgt vor:
 
@@ -394,7 +394,7 @@ Gehen Sie wie folgt vor:
 
 Die Personalisierungsfelder wurden korrekt in den ausgewählten dynamischen Inhalt eingefügt.
 
-### Vorschau der E-Mail erzeugen  {#previewing-emails}
+### Vorschau der E-Mail erzeugen   {#previewing-emails}
 
 Anhand der Vorschau kann geprüft werden, ob die Personalisierungsfelder und die dynamischen Inhalte korrekt konfiguriert wurden, bevor die **[!UICONTROL Testsendungen erzeugt werden]**. Bei der Vorschau können verschiedene Testprofile ausgewählt werden, die den verschiedenen Zielgruppen der E-Mail entsprechen.
 
