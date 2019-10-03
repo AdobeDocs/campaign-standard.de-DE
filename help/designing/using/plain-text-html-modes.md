@@ -1,8 +1,8 @@
 ---
-title: 'Text- und HTML-Modus  '
-seo-title: 'Text- und HTML-Modus  '
-description: 'Text- und HTML-Modus  '
-seo-description: Entdecken Sie die einfachen Text- und HTML-Modi.
+title: 'Text- und HTML-Modus    '
+seo-title: 'Text- und HTML-Modus    '
+description: 'Text- und HTML-Modus    '
+seo-description: Entdecken Sie den Plain Text- und den HTML-Modus
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,13 +13,13 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2045c69398902a8e942e20c70287d7f3e9570837
 
 ---
 
 
-# Text- und HTML-Modus   {#plain-text-and-html-modes}
+# Text- und HTML-Modus      {#plain-text-and-html-modes}
 
 ## Textversion der E-Mail erstellen {#generating-a-text-version-of-the-email}
 
