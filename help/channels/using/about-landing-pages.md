@@ -14,7 +14,7 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -58,5 +58,5 @@ Nach der Erstellung und Publikation einer Landingpage können Sie diese auf eine
 
 **Verwandte Themen:**
 
-* Video [Creating a landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* Video [Creating a landing page](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
 * [Über eine Landingpage zu einem Dienst anmelden](../../audiences/using/creating-a-service.md)
