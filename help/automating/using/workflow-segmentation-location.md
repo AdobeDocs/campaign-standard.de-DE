@@ -1,8 +1,8 @@
 ---
-title: '"Workflow-Anwendungsfall: Segmentierung am Standort"'
-seo-title: '"Workflow-Anwendungsfall: Segmentierung am Standort"'
-description: '"Workflow-Anwendungsfall: Segmentierung am Standort"'
-seo-description: '"Workflow-Anwendungsfall: Segmentierung am Standort"'
+title: '"Workflow-Anwendungsfall: Segmentierung nach Standort"'
+seo-title: '"Workflow-Anwendungsfall: Segmentierung nach Standort"'
+description: '"Workflow-Anwendungsfall: Segmentierung nach Standort"'
+seo-description: '"Workflow-Anwendungsfall: Segmentierung nach Standort"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -11,65 +11,65 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: 'Workflow, Anwendungsfall, Abfrage, Segmentierung, Lieferung '
+context-tags: 'workflow,use-case,query,segmentation,delivery '
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
 
 ---
 
 
-# Workflow-Anwendungsfall: Standortabgrenzung {#segmentation-on-location}
+# Workflow-Anwendungsfall: Segmentierung nach Standort {#segmentation-on-location}
 
-Sie können eine zielgerichtete E-Mail an Kunden mit Angeboten in ihren lokalen Geschäften schicken.
+Sie können Kunden eine E-Mail mit Angeboten in lokalen Geschäften schicken.
 
-1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. Wählen Sie **[!UICONTROL Neuer Workflow]** als Workflowtyp aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Geben Sie die Eigenschaften des Workflows ein, und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie dazu in **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
+1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
+1. Geben Sie die Eigenschaften des Workflows ein und wählen Sie **[!UICONTROL Erstellen]** aus.
 
-## Auswählen der Empfänger per E-Mail{#selecting-recipients-contactable-via-email}
+## Auswählen von Empfängern, die per E-Mail kontaktiert werden können{#selecting-recipients-contactable-via-email}
 
-1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]** ziehen und löschen Sie eine **[!UICONTROL Abfrageaktivität]**![](assets/query.png).
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]** eine **[!UICONTROL Abfrageaktivität]**![](assets/query.png) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
-1. Ziehen Sie in **[!UICONTROL Tastenkombinationen]** die **[!UICONTROL Profile]** , und wählen Sie das Feld **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL ist nicht leer]**.
-1. Ziehen Sie in **[!UICONTROL Tastenkombinationen]** die **[!UICONTROL Profile]** , und wählen Sie das Feld **[!UICONTROL nicht mehr per E-Mail]** mit dem Wert **[!UICONTROL nein]**.
-1. Klicken Sie auf **[!UICONTROL Zweimal bestätigen]** .
+1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie das Feld **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL Ist nicht leer]** aus.
+1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie das Feld **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
+1. Wählen Sie zweimal **[!UICONTROL Bestätigen]** aus.
 
 ![](assets/wf-complement-query.png)
 
-## Creating a Segmentation activity{#creating-a-segmentation-activity}
+## Segmentierungsaktivität erstellen{#creating-a-segmentation-activity}.
 
-1. Ziehen Sie eine **[!UICONTROL Segmentierungsaktivität]** ab und doppelklicken Sie darauf.
-1. Klicken Sie auf Segment und öffnen Sie dann den Übergang zu Zielgruppen in der ersten Stadt. Hier Boston.
-1. Ziehen und Ablegen von **[!UICONTROL Standort]** und wählen Sie **[!UICONTROL Stadt]** mit dem Operator **[!UICONTROL entspricht]** und den Wert **[!UICONTROL Boston]**.
-Hinweis: Um alle Personen zu erreichen, die in Boston eintrafen, deaktivieren Sie die Option für die Groß- und Kleinschreibung, ohne Rücksicht auf den Fall.
-1. Wählen Sie **[!UICONTROL Bestätigen]**.
-1. Klicken Sie in der **[!UICONTROL Liste der ausgehenden Segmente]** auf **[!UICONTROL Element]** hinzufügen, und klicken Sie auf ![](assets/edit_darkgrey-24px.png) , um ein Segment zu erstellen, das auf Personen in der zweiten Stadt zugeschnitten ist. Hier Chicago.
-1. Ziehen und Ablegen **[!UICONTROL Location]** und wählen Sie **[!UICONTROL City]** mit dem Operator **[!UICONTROL gleicht]** und geben Sie **[!UICONTROL Chicago]** in Wert ein.
-1. Um alle Personen zu erreichen, die Chicago betraten, deaktivieren Sie die Option Groß-/Kleinschreibung, ohne den Fall zu berücksichtigen.
-1. Wählen Sie **[!UICONTROL Bestätigen]**.
+1. Ziehen Sie eine **[!UICONTROL Segmentierungsaktivität]** in den Arbeitsbereich und doppelklicken Sie darauf.
+1. Wählen Sie ein Segment aus und öffnen Sie danach eine Transition, um Personen in der ersten Stadt auszuwählen. In unserem Fall ist das Boston.
+1. Ziehen Sie **[!UICONTROL Standort]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Stadt]** mit dem Operator **[!UICONTROL Gleich]** und dem Wert **[!UICONTROL Boston]** aus.
+Hinweis: Um auch alle Personen auszuwählen, die "boston" eingegeben haben, deaktivieren Sie die Option "Von Schreibweise abhängig".
+1. Wählen Sie **[!UICONTROL Bestätigen]** aus
+1. Wählen Sie in **[!UICONTROL Liste der ausgehenden Segmente]** die Option **[!UICONTROL Element hinzufügen]** und danach ![](assets/edit_darkgrey-24px.png) aus, um ein Segment mit Personen der zweiten Stadt zu erstellen. In unserem Beispiel ist das Chicago.
+1. Ziehen Sie **[!UICONTROL Standort]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Stadt]** mit dem Operator **[!UICONTROL Gleich]** aus und geben Sie als Wert **[!UICONTROL Boston]** ein.
+1. Um auch alle Personen auszuwählen, die "chicago" eingegeben haben, deaktivieren Sie die Option "Von Schreibweise abhängig".
+1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-## Creating an email delivery{#creating-an-email-delivery}
+## E-Mail-Versand erstellen{#creating-an-email-delivery}.
 
-1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Channels]** ziehen Sie nach jedem Segment eine **[!UICONTROL E-Mail-Zustellung]** , und lassen Sie diese abbrechen.
-1. Klicken Sie auf die Aktivität und wählen Sie ![](assets/edit_darkgrey-24px.png) zu bearbeiten.
-1. Wählen Sie **[!UICONTROL Einfache E-Mail]** aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Wählen Sie eine E-Mail-Vorlage aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Geben Sie die E-Mail-Eigenschaften ein und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Um das Layout Ihrer E-Mail zu erstellen, klicken Sie auf **[!UICONTROL E-Mail-Designer]**.
-1. Fügen Sie Elemente ein oder wählen Sie eine vorhandene Vorlage aus.
-1. Personalisieren Sie Ihre E-Mail mit spezifischen Angeboten für jeden Standort.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Kanäle]** hinter jedes Segment einen **[!UICONTROL E-Mail-Versand]**.
+1. Wählen Sie die Aktivität und danach ![](assets/edit_darkgrey-24px.png) aus, um die Bearbeitung zu ermöglichen.
+1. Wählen Sie **[!UICONTROL Einfache E-Mail]** und danach **[!UICONTROL Weiter]** aus.
+1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.
+1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
+1. Um das Layout Ihrer E-Mail zu erstellen, wählen Sie **[!UICONTROL Email Designer]** aus.
+1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
+1. Personalisieren Sie Ihre E-Mail je nach Ort mit spezifischen Angeboten.
 
-Weitere Informationen finden Sie unter [Entwerfen einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]** , um Ihr Layout zu überprüfen.
-1. Wählen Sie **[!UICONTROL Speichern aus]**.
+1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ![](assets/wf-segmentation-location.png)
 
 **Verwandte Themen:**
 
 * [Abfrageaktivität](../../automating/using/query.md)
-* [Segmenttätigkeit](../../automating/using/segmentation.md)
+* Aktivität [Segmentierung](../../automating/using/segmentation.md)
 * [E-Mail-Versand](../../automating/using/email-delivery.md)
