@@ -13,7 +13,7 @@ topic-tags: managing-subscriptions
 discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
