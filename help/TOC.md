@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
+source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [Dienst erstellen](audiences/using/creating-a-service.md)
       + [Dienst bewerben](audiences/using/promoting-a-service.md)
       + [Anmeldungen verfolgen](audiences/using/monitoring-subscriptions.md)
-      + [Bestätigung des Abonnements für einen Dienst](audiences/using/confirming-subscription-to-a-service.md)
+      + [Confirming subscription to a service](audiences/using/confirming-subscription-to-a-service.md)
    + Funktionsweise des Opt-in- und Opt-out-Verfahrens {#understanding-opt-in-and-opt-out-processes}
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -129,7 +129,7 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
    + [E-Mails mit mehreren Lösungen erstellen](designing/using/using-integrations.md)
    + [Personalisierung ](designing/using/personalization.md)
    + [Text- und HTML-Modus](designing/using/plain-text-html-modes.md)
-   + [Stile verwalten](designing/using/styles.md)
+   + [Managing email styles](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
 + Testen und Senden {#testing-and-sending}
