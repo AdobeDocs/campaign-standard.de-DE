@@ -1,8 +1,8 @@
 ---
-title: 'Entwerfen von E-Mails über die Integration von Adobe Kampagne '
-seo-title: 'Entwerfen von E-Mails über die Integration von Adobe Kampagne  '
-description: 'Entwerfen von E-Mails über die Integration von Adobe Kampagne '
-seo-description: Entdecken Sie, wie Sie E-Mails mithilfe der Integration von Adobe Kampagne im E-Mail-Designer gestalten.
+title: 'Erstellen von E-Mails mit Adobe Campaign-Integrationen '
+seo-title: 'Erstellen von E-Mails mit Adobe Campaign-Integrationen  '
+description: 'Erstellen von E-Mails mit Adobe Campaign-Integrationen '
+seo-description: Erfahren Sie, wie Sie in Email Designer E-Mails mithilfe von Adobe Campaign-Integrationen erstellen.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,12 +13,12 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 ---
 
-# E-Mail-Design mit mehreren Lösungen {#multi-solution-email-design}
+# E-Mail-Entwurf mit mehreren Lösungen {#multi-solution-email-design}
 
 ## Inhalt in Dreamweaver bearbeiten {#editing-content-in-dreamweaver}
 
@@ -28,7 +28,7 @@ Durch die Integration von Adobe Campaign Standard mit Dreamweaver kann E-Mail-In
 
    Wenn eine Änderung an einem Produkt vorgenommen wird, wird sie auch vom anderen in Echtzeit übernommen. Wenn Sie die Textfarbe in Dreamweaver verändern möchten, ist diese Änderung unmittelbar in Campaign zu sehen. Wenn Sie Code in Dreamweaver oder Campaign auswählen, ist diese Auswahl in diesen beiden Produkten identisch, da die Zeilennummern übereinstimmen. Dies ist sehr hilfreich, wenn Sie nach einer bestimmten Stelle im Code suchen.
 
-* **Upload lokaler Bilder auf Adobe Campaign durch Dreamweaver**
+* **Hochladen lokaler Bilder in Adobe Campaign über Dreamweaver**
 
    Bei der Erstellung oder Bearbeitung einer E-Mail in Dreamweaver können Sie einfach ein auf Ihrem Desktop oder lokalen PC ausgewähltes Bild verwenden. Dreamweaver hat schon immer diese Möglichkeit geboten. Jetzt wird aber die lokale Datei unmittelbar zum Adobe Campaign-Server hochgeladen, wenn Dreamweaver und Campaign verbunden sind, ohne dass Bilder manuell hochgeladen werden müssen, wenn sich der Inhalt ändert. Zusätzlich wird damit sichergestellt, dass immer die aktuellen Bilder in Campaign vorhanden sind.
 
@@ -36,13 +36,13 @@ Durch die Integration von Adobe Campaign Standard mit Dreamweaver kann E-Mail-In
 
    E-Mail-Entwickler müssen jetzt nicht mehr Text wie `[[FIRSTNAME_PLACEHOLDER]]` hinzufügen und auch nicht die Syntax Ihrer Datenmodell-Tabellen nachsehen. Die Campaign-Symbolleiste in Dreamweaver stellt eine direkte Verbindung zum Datenmodell Ihrer Campaign-Instanz her. Das bedeutet, dass Sie beliebige Personalisierungsdaten von z. B. Vorname zu Adresse ziehen können. Auch direkt in Campaign erstellte Inhaltsbausteine können direkt zu Dreamweaver gezogen werden.
 
-Diese Funktion wird im Detail im [Dreamweaver-Handbuch](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html) beschrieben. Auch ein [Video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) ist zur Veranschaulichung verfügbar.
+Diese Funktion wird im Detail in der [Dreamweaver-Dokumentation](https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html) beschrieben. Auch ein [Video](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) ist zur Veranschaulichung verfügbar.
 
 ## Inhalt in Adobe Experience Manager bearbeiten {#editing-content-in-experience-manager}
 
 Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-Nachrichten in Adobe Campaign Standard verwendet werden. In [diesem Dokument](../../integrating/using/integrating-with-experience-manager.md) erfahren Sie mehr dazu.
 
-## Funktionen zur E-Mail-Erstellung im Vergleich   {#email-design-options-comparison}
+## Funktionen zur E-Mail-Erstellung im Vergleich      {#email-design-options-comparison}
 
 Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der folgenden Tabelle werden die wichtigsten Funktionen, Vorteile und Beschränkungen aufgeführt.
 
@@ -138,7 +138,7 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
    <td> <strong>Weitere Informationen</strong><br /> </td> 
    <td> Siehe auch <a href="../../designing/using/overview.md">Über Email Designer</a><br /> </td> 
    <td> Siehe auch <a href="../../integrating/using/integrating-with-experience-manager.md">Integration mit Experience Manager</a><br /> </td> 
-   <td> Siehe auch <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver und Campaign</a> und dieses <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a><br />. </td> 
+   <td> Siehe auch <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver und Campaign</a> und dieses <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Video</a><br />. </td> 
   </tr> 
  </tbody> 
 </table>
