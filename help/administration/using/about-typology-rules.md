@@ -56,7 +56,7 @@ Ihre Typologie kann nun verwendet werden. Sie können sie über die Nachrichtene
 >
 >Mit dem Feld **[!UICONTROL IP-Affinität]** können Sie die Affinitäten Ihrer Konfiguration entsprechend verwalten. Diese sind in der Konfigurationsdatei der Instanz definiert. Wenn Sie die Affinitäten verwenden möchten, wenden Sie sich an Ihren Administrator.
 
-## Typologieregeln   {#typology-rules}
+## Typologieregeln    {#typology-rules}
 
 Typologieregeln sind Unternehmensregeln, die während der Vorbereitung der Nachricht angewendet werden. Mithilfe dieser Regeln wird geprüft, ob eine Nachricht gültig ist und Ihre Qualitätskriterien erfüllt. Zudem wird festgestellt, ob jedes Mitglied der Ziel-Audience berechtigt ist, die jeweilige Nachricht zu erhalten.
 
@@ -86,7 +86,7 @@ Standardmäßig werden für die Filterung **[!UICONTROL Profile]** herangezogen.
 
 ![](assets/typology_rule-order_2.png)
 
-## Ausführungsreihenfolge von Typologieregeln   {#typology-rules-execution-order}
+## Ausführungsreihenfolge von Typologieregeln    {#typology-rules-execution-order}
 
 Die Typologieregeln werden in der Reihenfolge ausgeführt, die während der Zielgruppenbestimmung, Analyse und Nachrichtenpersonalisierung festgelegt wird.
 
