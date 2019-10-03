@@ -73,7 +73,7 @@ Dies sind ihre Hauptaufgaben:
 * [Daten-Packages exportieren und importieren](../../automating/using/managing-packages.md): Austausch von Ressourcen zwischen unterschiedlichen Adobe-Campaign-Instanzen mithilfe strukturierter XML-Dateien
 * [Logs exportieren](../../automating/using/exporting-logs.md) und [Importvorlagen definieren](../../automating/using/defining-import-templates.md)
 
-### Benutzer mit fortgeschrittenen Kenntnissen   {#advanced-users}
+### Benutzer mit fortgeschrittenen Kenntnissen    {#advanced-users}
 
 Diese Benutzer sind Marketing-Experten, die Adobe Campaign auf eine vorwiegend technische Art verwenden. Sie konfigurieren alle Elemente, die Marketer für den Versand und die Überwachung von Nachrichten verwenden.
 
@@ -87,14 +87,14 @@ Dies sind ihre Hauptaufgaben:
 * [Fortgeschrittene Bearbeitung von Ausdrücken](../../automating/using/editing-queries.md#about-query-editor): Einsatz fortgeschrittener Funktionen zur Bearbeitung für Abfragen verwendeter Werte (Datumsangaben, Strings, numerische Felder, Sortierung usw.)
 * [Listen exportieren](../../automating/using/exporting-lists.md) und [Daten mithilfe von Importvorlagen importieren](../../automating/using/importing-data-with-import-templates.md)
 
-### Benutzer mit Grundkenntnissen   {#basic-users}
+### Benutzer mit Grundkenntnissen    {#basic-users}
 
 Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntnissen können Marketer Kampagnen personalisieren, versenden und überwachen, ohne sich über die technischen Feinheiten den Kopf zerbrechen zu müssen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Sendungen vorbereiten]**, **[!UICONTROL Workflow]** und **[!UICONTROL Sendungen starten]** zugewiesen werden. Diese Rollen sind in der vordefinierten Sicherheitsgruppe **[!UICONTROL Standardbenutzer]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
 Dies sind ihre Hauptaufgaben:
 
 * [Programme und Kampagnen verwalten](../../start/using/programs-and-campaigns.md): Erstellen von Marketingkampagnen einschließlich unterschiedlicher Arten von Aktivitäten (E-Mails, SMS, Push-Benachrichtigungen, Workflows, Landingpages)
-* [Profile verwalten](../../audiences/using/about-profiles.md) und [testen](../../sending/using/managing-test-profiles-and-sending-proofs.md): Verwalten und Testen von Versandempfängern Fügen Sie Informationen wie den Vornamen, Nachnamen, Kontaktinformationen, Abonnements, E-Mails usw. hinzu.
+* [Profile verwalten](../../audiences/using/about-profiles.md) und [testen](../../sending/using/managing-test-profiles-and-sending-proofs.md): Verwalten und Testen von Versandempfängern; fügen Sie Informationen wie den Vornamen, Nachnamen, Kontaktinformationen, Abonnements, E-Mails usw. hinzu.
 * [Nachrichten erstellen und senden](../../sending/using/confirming-the-send.md): Erstellen der Nachricht, Auswahl der Audience, Definition des Nachrichteninhalts und der Personalisierungsobjekte, Durchführen von Testsendungen und Senden der endgültigen Nachricht an die Audience
 * [Landingpages erstellen und publizieren](../../channels/using/about-landing-pages.md): Erstellen und Verwalten von diversen Diensten, die Sie Ihren Kunden anbieten möchten, z. B. Formulare zur An- oder Abmeldung für ein Abonnement
 * [Kampagnen-Workflows erstellen und ausführen](../../automating/using/building-a-workflow.md): Automatisierung der Kampagnen-Prozesse mithilfe von Workflows
