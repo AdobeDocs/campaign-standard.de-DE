@@ -14,7 +14,7 @@ discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -66,7 +66,7 @@ Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors 
 
 ![](assets/inapp_customize_4.png)
 
-### Medien  {#media}
+### Medien     {#media}
 
 Über die Dropdown-Liste **[!UICONTROL Medien]** können Sie Medien zu Ihrer In-App-Nachricht hinzufügen, um das Erlebnis für den Endnutzer attraktiv zu gestalten.
 
@@ -106,7 +106,7 @@ Sie können bei Bedarf zu Ihrer In-App-Nachricht auch einen Nachrichtentitel und
 
    ![](assets/inapp_customize_11.png)
 
-### Schaltflächen  {#buttons}
+### Schaltflächen     {#buttons}
 
 Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
@@ -128,7 +128,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
    ![](assets/inapp_customize_11.png)
 
-### Einstellungen  {#settings}
+### Einstellungen     {#settings}
 
 1. Wählen Sie in der Kategorie **[!UICONTROL Einstellungen]** eine helle oder dunkle Hintergrundfarbe aus.
 1. Wählen Sie über die Option **[!UICONTROL Schließen-Schaltfläche zeigen]** aus, ob eine Schließen-Schaltfläche angezeigt werden soll, mit der Benutzer die In-App-Nachricht entfernen können.
@@ -137,7 +137,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
    ![](assets/inapp_customize_7.png)
 
-## Nachricht vom Typ "Lokale Benachrichtigung" anpassen  {#customizing-a-local-notification-message-type}
+## Nachricht vom Typ "Lokale Benachrichtigung" anpassen     {#customizing-a-local-notification-message-type}
 
 Lokale Benachrichtigungen können nur von einer App zu einer bestimmten Zeit und abhängig von einem Ereignis ausgelöst werden. Mit lokalen Benachrichtigungen werden Benutzer über Prozesse in der App informiert, auch wenn kein Internetzugang vorhanden ist.
 
@@ -152,7 +152,7 @@ So passen Sie lokale Benachrichtigungen an:
    ![](assets/inapp_customize_18.png)
 
 1. Wählen Sie in der Kategorie **[!UICONTROL Erweiterte Optionen]** im Feld **[!UICONTROL Zum Anzeigen warten]** aus, wie lange Ihre lokale Benachrichtigung in Sekunden auf dem Bildschirm angezeigt werden soll, nachdem das Ereignis ausgelöst wurde.
-1. In the **[!UICONTROL Sound]** field, enter the filename of the sound file, with the extension, to be played by the mobile device when the local notification is received.
+1. Geben Sie im Feld **[!UICONTROL Ton]** den Namen der Tondatei ein (mit Erweiterung), die bei Erhalt einer lokalen Benachrichtigung vom Mobilgerät abgespielt werden soll.
 
    Die Tondatei wird bei der Zustellung der Benachrichtigung abgespielt, wenn die Datei im Package der Mobile App definiert ist. Andernfalls wird der Standardton des Geräts verwendet.
 
