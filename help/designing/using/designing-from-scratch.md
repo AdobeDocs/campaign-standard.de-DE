@@ -1,8 +1,8 @@
 ---
-title: 'Entwerfen von E-Mails von Grund auf '
-seo-title: 'Entwerfen von E-Mails von Grund auf '
-description: 'Entwerfen von E-Mails von Grund auf '
-seo-description: Entdecken Sie, wie E-Mails aus kratzigen E-Mail-Inhalten im E-Mail-Designer gestaltet werden.
+title: 'Erstellen neuer E-Mails '
+seo-title: 'Erstellen neuer E-Mails '
+description: 'Erstellen neuer E-Mails '
+seo-description: Erfahren Sie, wie Sie in Email Designer E-Mails aus neuen E-Mail-Inhalten erstellen.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,17 +13,17 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
 
 ---
 
 
-# Entwerfen von E-Mails von Grund auf {#designing-an-email-content-from-scratch}
+# Erstellen neuer E-Mails {#designing-an-email-content-from-scratch}
 
-Erfahren Sie, wie Sie die Ausgabe von E-Mail-Inhalten beherrschen. Mit dem Email Designer können Sie E-Mails und Vorlagen erstellen, die mit oder ohne Ihren eigenen vordefinierten Inhalt beginnen.
+Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email Designer können Sie E-Mails und Vorlagen mit oder ohne eigene vordefinierte Inhalte erstellen.
 
-## Wichtige Schritte zum Erstellen Ihrer E-Mail {#key-steps-to-create-your-email}
+## Wichtige Schritte bei der Erstellung von E-Mails {#key-steps-to-create-your-email}
 
 Dies sind die wichtigsten Schritte zum Erstellen und Gestalten eines neuen E-Mail-Inhalts mithilfe von Email Designer:
 
@@ -42,7 +42,7 @@ Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v
 >
 >Wenn Sie keinen völlig neuen E-Mail-Inhalt erstellen möchten, können Sie auch die nativen Inhaltsvorlagen verwenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
 
-### Defining Email Structure {#defining-the-email-structure}
+### Definieren der E-Mail-Struktur {#defining-the-email-structure}
 
 Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
 
@@ -93,19 +93,19 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
 
 - **[!UICONTROL Text]**
 
-   Verwenden Sie diese Komponente, um Text in Ihrer E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe des Textes in den **[!UICONTROL Komponenteneinstellungen]** einstellen.
+   Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe des Textes in den **[!UICONTROL Komponenteneinstellungen]** anpassen.
 
 - **[!UICONTROL Divisor]**
 
-   Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. Sie können in den **[!UICONTROL Komponenteneinstellungen]** Farbe, Stil und Größe der Bruchlinie auswählen.
+   Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe der Trennlinie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
 
 - **[!UICONTROL HTML]**
 
-   Verwenden Sie diese Komponente, um die verschiedenen Teile des vorhandenen HTML-Codes zu kopieren. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
+   Verwenden Sie diese Komponente, um die unterschiedlichen Teile Ihrer existierenden HTML-Datei zu kopieren und einzufügen. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
 
    >[!NOTE]
    >
-   >Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im   **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
+   >Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im      **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
 
    Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten, empfiehlt Adobe, eine neue Nachricht zu erstellen und den Inhalt aus der existierenden E-Mail in Fragmente und Komponenten hinzuzufügen.
 
@@ -117,7 +117,7 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
    >
    >Der neue Inhalt ist keine exakte Kopie der ursprünglichen E-Mail, aber mithilfe der unten stehenden Schritte können Sie eine Nachricht erstellen, die dem Original möglichst ähnelt.
 
-   **Bevor Sie Inhalte kopieren**
+   **Vor dem Kopieren des Inhalts**
 
    1. Stellen Sie fest, welche Bereiche Ihrer ursprünglichen E-Mail Sie in späteren E-Mails wiederverwenden möchten.
    1. Speichern Sie alle Bilder und Assets, die Sie verwenden möchten.
@@ -127,17 +127,17 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
 
    Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen.
 
-   Legen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein, und geben Sie den Videolink in die **[!UICONTROL Komponenteneinstellungen]** ein.
+   Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und geben Sie den Videolink in die **[!UICONTROL Komponenteneinstellungen]** ein.
 
 - **[!UICONTROL Bild]**
 
    Verwenden Sie diese Komponente, um ein Bild in Ihre E-Mail einzufügen.
 
-   Legen Sie die Bildkomponente in eine Strukturkomponente ein, und klicken Sie auf Durchsuchen, um eine Bilddatei von Ihrem Computer hochzuladen.
+   Fügen Sie die Bildkomponente in eine Strukturkomponente ein und klicken Sie auf „Durchsuchen“, um die gewünschte Bilddatei aus Ihrem Dateisystem hochzuladen.
 
 - **[!UICONTROL Sozial]**
 
-   Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihrer E-Mail einzufügen. In den **[!UICONTROL Komponenteneinstellungen]** können Sie auswählen, welche Links angezeigt werden sollen und in welcher Größe das Symbol angezeigt werden soll.
+   Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail einzufügen. Die anzuzeigenden Links und die Größe ihrer Symbole können Sie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
 
 - **[!UICONTROL Karussell]**
 
