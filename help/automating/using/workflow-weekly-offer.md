@@ -1,8 +1,8 @@
 ---
-title: '"Workflow-Anwendungsfall: Schaffung einer wöchentlichen Lieferung"'
-seo-title: '"Workflow-Anwendungsfall: Schaffung einer wöchentlichen Lieferung"'
-description: '"Workflow-Anwendungsfall: Schaffung einer wöchentlichen Lieferung"'
-seo-description: '"Workflow-Anwendungsfall: Schaffung einer wöchentlichen Lieferung"'
+title: '"Workflow-Anwendungsfall: Erstellen eines wöchentlichen Versands"'
+seo-title: '"Workflow-Anwendungsfall: Erstellen eines wöchentlichen Versands"'
+description: '"Workflow-Anwendungsfall: Erstellen eines wöchentlichen Versands"'
+seo-description: '"Workflow-Anwendungsfall: Erstellen eines wöchentlichen Versands"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -11,67 +11,67 @@ audience: automating
 content-type: reference
 topic-tags: 'execution-activities '
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: Workflow, Anwendungsfall, Abfrage, Lieferung, Scheduler
+context-tags: workflow,use-case,query,delivery,scheduler
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# Worflow-Anwendungsfall: Erstellen Sie jeden Dienstag eine E-Mail{#creating-email-every-tuesday}
+# Workflow-Anwendungsfall: Erstellen eines E-Mail-Versands, der jeden Dienstag ausgeführt wird{#creating-email-every-tuesday}
 
-Sie können jeden Dienstag eine E-Mail an alle Kunden für Sonderangebote schicken.
+Sie haben die Möglichkeit, beispielsweise jeden Dienstag allen Kunden eine E-Mail mit speziellen Angeboten zu senden.
 
-1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. Wählen Sie **[!UICONTROL Neuer Workflow]** als Workflowtyp aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Geben Sie die Eigenschaften des Workflows ein, und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie dazu in **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
+1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
+1. Geben Sie die Eigenschaften des Workflows ein und wählen Sie **[!UICONTROL Erstellen]** aus.
 
-## Creating a Scheduler activity{#creating-a-scheduler-activity}
+## Planungsaktivität erstellen{#creating-a-scheduler-activity}
 
-1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Ausführung]** ziehen Sie eine **[!UICONTROL Scheduler-Aktivität]** per Drag &amp; Drop.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Ausführung]** eine **[!UICONTROL Planungsaktivität]** in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
-1. Konfigurieren Sie die Ausführung Ihrer Lieferung.
-1. Wählen Sie in der **[!UICONTROL Ausführungsfrequenz]** die Option **[!UICONTROL wöchentlich]** aus.
-1. Wählen Sie eine **[!UICONTROL Zeit]** und eine **[!UICONTROL Wiederholungshäufigkeit]** für Ihre Lieferungen.
-1. Wählen Sie in **[!UICONTROL Wochentagen]** den **[!UICONTROL Dienstag]** aus.
-1. Geben Sie einen **[!UICONTROL Start]** - und einen **[!UICONTROL Ablaufparameter]** für den Workflow an.
-1. Validieren Sie die Aktivität und speichern Sie den Workflow.
+1. Konfigurieren Sie Ihren Versand.
+1. Wählen Sie in **[!UICONTROL Ausführungsfrequenz]** die Option **[!UICONTROL Wöchentlich]** aus.
+1. Wählen Sie eine **[!UICONTROL Zeit]** und das **[!UICONTROL Ausführungsintervall]** für Ihre Sendungen aus.
+1. Wählen Sie in **[!UICONTROL Wochentage]****[!UICONTROL Dienstag]** aus.
+1. Geben Sie für Ihren Workflow einen **[!UICONTROL Start]** und einen **[!UICONTROL Gültigkeitsparameter]** ein.
+1. Bestätigen Sie die Aktivität und speichern Sie den Workflow.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
->Um den Workflow in einer bestimmten **[!UICONTROL Zeitzone]** zu starten, legen Sie im Register **[!UICONTROL Ausführungsoptionen]** die Zeitzone für Ihren Scheduler im Feld Zeitzone fest.
+>Um Ihren Workflow in einer bestimmten Zeitzone auszuführen, richten Sie in den **[!UICONTROL Ausführungsoptionen]** die Zeitzone für Ihren Zeitplan im Feld **[!UICONTROL Zeitzone]** ein.
 
-## Creating a Query activity{#creating-a-query-activity}
+## Abfrageaktivität erstellen{#creating-a-query-activity}.
 
-1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Zielsetzung]**, um Empfänger auszuwählen, ziehen und löschen Sie eine **[!UICONTROL Abfrage]** Aktivität und doppelklicken Sie darauf.
-1. Bei **[!UICONTROL Tastenkombinationen]** &gt; **[!UICONTROL Profil]** ziehen und ziehen Sie **[!UICONTROL E-Mail]**.
-1. Als Operator **[!UICONTROL ist Select nicht leer]** .
-1. Fügen Sie in **[!UICONTROL Tastenkombinationen]** &gt; **[!UICONTROL Allgemein]** Profile hinzu und wählen Sie **[!UICONTROL keinen Kontakt mehr per E-Mail]** mit dem Wert **[!UICONTROL Nein]** aus.
-1. Wählen Sie **[!UICONTROL Bestätigen]**.
+1. Um Empfänger auszuwählen, ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]** eine **[!UICONTROL Abfrageaktivität]** und doppelklicken Sie darauf.
+1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** &gt; **[!UICONTROL Profil]** die Option **[!UICONTROL E-Mail]** in den Arbeitsbereich.
+1. Wählen Sie als Operator **[!UICONTROL Ist nicht leer]** aus.
+1. Fügen Sie in **[!UICONTROL Verknüpfungen]** &gt; **[!UICONTROL Allgemein]** Profile hinzu und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
+1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
 ![](assets/wf-complement-query.png)
 
-## Creating an Email delivery{#creating-an-email-delivery}
+## E-Mail-Versand erstellen{#creating-an-email-delivery}.
 
-1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Kanäle]** ziehen und löschen Sie eine **[!UICONTROL E-Mail-Auslieferung]**.
-1. Klicken Sie auf die Aktivität und wählen Sie ![](assets/edit_darkgrey-24px.png) zu bearbeiten.
-1. Wählen Sie **[!UICONTROL E-Mail]** wiederherstellen aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Wählen Sie eine E-Mail-Vorlage aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Geben Sie die E-Mail-Eigenschaften ein und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Um das Layout Ihrer E-Mail zu erstellen, klicken Sie auf **[!UICONTROL E-Mail-Designer]** verwenden.
-1. Fügen Sie Elemente ein oder wählen Sie eine vorhandene Vorlage aus.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Kanäle]** einen **[!UICONTROL E-Mail-Versand]** in den Arbeitsbereich.
+1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
+1. Wählen Sie **[!UICONTROL Wiederkehrende E-Mail]** und danach **[!UICONTROL Weiter]** aus.
+1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.
+1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
+1. Um das Layout Ihrer E-Mail zu definieren, wählen Sie **[!UICONTROL Email Designer]** aus.
+1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
 1. Personalisieren Sie Ihre E-Mail mit Feldern und Links.
-1. Wählen Sie **[!UICONTROL Speichern aus]**.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-Weitere Informationen finden Sie unter [Entwerfen einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 **Verwandte Themen:**
 
 * [Abfrageaktivität](../..//automating/using/query.md)
-* [Aktivität "Planung"](../..//automating/using/scheduler.md)
+* [Planungsaktivität](../..//automating/using/scheduler.md)
 * [E-Mail-Versand](../..//automating/using/email-delivery.md)
 * [E-Mail-Kanal](../..//channels/using/creating-an-email.md)
