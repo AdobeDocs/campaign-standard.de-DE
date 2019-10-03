@@ -35,7 +35,7 @@ Gehen Sie folgendermaßen vor, um mehrsprachige Inhaltsvarianten für Ihre Push-
 * [Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
 * [Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.    {#step-1--upload-multilingual-content-variant}
+## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.     {#step-1--upload-multilingual-content-variant}
 
 Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst die Inhaltsvarianten in einer mehrsprachigen Versandvorlage hochgeladen und der Versand erstellt werden.
 
@@ -81,7 +81,7 @@ Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst d
 
 Jetzt können Sie mit der Personalisierung Ihrer mehrsprachigen Push-Benachrichtigung beginnen.
 
-## Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.    {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.     {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Nach dem Hochladen der Datei mit den Inhaltsvarianten können Sie sich jetzt die verschiedenen Varianten über den Push-Benachrichtigungsversand in der Vorschau ansehen.
 
@@ -109,7 +109,7 @@ Zusätzlich zu den von der Datei hochgeladenen Varianten können Sie auch weiter
 
 Ihre mehrsprachige Push-Benachrichtigung kann jetzt gesendet werden.
 
-## Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.    {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.     {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Ihre mehrsprachigen Push-Benachrichtigungen mit Inhaltsvarianten sind jetzt bereit zum Versenden.
 
