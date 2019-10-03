@@ -2,7 +2,7 @@
 title: Definieren der Betreffzeile und des Absenders einer E-Mail
 seo-title: Definieren der Betreffzeile und des Absenders einer E-Mail
 description: Definieren der Betreffzeile und des Absenders einer E-Mail
-seo-description: Erfahren Sie, wie Sie die Betreffzeile und den Absender einer E-Mail im E-Mail-Designer definieren.
+seo-description: Erfahren Sie, wie Sie in Email Designer die Betreffzeile und den Absender einer E-Mail definieren.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
+source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
 
 ---
 
@@ -31,9 +31,9 @@ Um den E-Mail-Betreff zu konfigurieren, öffnen Sie auf der Startseite von Email
 
 **So definieren Sie die Betreffzeile einer E-Mail**:
 
-1. E-Mail erstellen.
-1. Schließen Sie die Homepage.
-1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
+1. Erstellen Sie eine E-Mail.
+1. Schließen Sie die Startseite.
+1. Klicken Sie auf der Startseite von Email Designer, die über das Home-Symbol aufgerufen wird, auf die Registerkarte **[!UICONTROL Eigenschaften]** und füllen Sie den Bereich **[!UICONTROL Betreff]** aus.
 
 ![](assets/email_designer_subject.png)
 
@@ -57,7 +57,7 @@ Diese Funktion ist standardmäßig deaktiviert. Sie wird beim Import des ersten 
 
 **Verwandtes Thema**
 
-* [Testen einer Betreffzeile](../../sending/using/testing-subject-line-email.md)
+* [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
 
 ## E-Mail-Absender {#email-sender}
 
