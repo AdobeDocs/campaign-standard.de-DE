@@ -2,7 +2,7 @@
 title: Email Designer verwenden
 seo-title: Email Designer verwenden
 description: Email Designer verwenden
-seo-description: Entdecken Sie den E-Mail-Designer und wie er E-Mail-Design-Inhalte ermöglicht.
+seo-description: Entdecken Sie Email Designer und wie Sie mit diesem E-Mail-Inhaltsentwürfe erstellen.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 # Email Designer verwenden {#email-designer}
 
-## Übersicht zum E-Mail-Designer {#about-the-email-designer}
+## Übersicht über Email Designer{#about-the-email-designer}
 
 Email Designer ermöglicht die Erstellung von E-Mail-Inhalten und Vorlagen für E-Mail-Inhalte. Der Editor ist kompatibel mit einfachen E-Mails, Transaktions-E-Mails, A/B-Test-E-Mails, mehrsprachigen E-Mails und wiederkehrenden E-Mails.
 
-In diesen [Videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können.
+In diesen [Videos](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können.
 
 ### Startseite von Email Designer {#email-designer-home-page}
 
@@ -73,13 +73,13 @@ In der **dedizierten Symbolleiste** der Editor-Oberfläche sind je nach markiert
 
 ### Terminologie {#terminology}
 
-**Vorlagen**: Vorlagen sind Strukturen von E-Mails, die Sie für mehrere Lieferungen erstellen und wiederverwenden können.
+**Vorlagen**: Vorlagen sind E-Mail-Strukturen, die Sie vorbereiten und in mehreren E-Mails wiederverwenden können.
 
-**Fragmente**: Ein Fragment ist eine wiederverwendbare Komponente, auf die in einer oder mehreren E-Mails verwiesen werden kann.
+**Fragmente**: Ein Fragment ist eine Komponente, die Sie in mehreren E-Mails wiederverwenden können.
 
-**Strukturkomponenten**: Strukturelle Elemente, die das Layout der E-Mail definieren
+**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können.
 
-**Inhaltskomponenten**: Inhaltskomponenten sind rohe, leere Komponenten, die Sie bearbeiten können, wenn sie einmal in einer E-Mail.
+**Inhaltskomponenten**: Inhaltskomponenten sind rohe, noch leere Komponenten, die Sie in E-Mails einfügen und dort bearbeiten können.
 
 ### Best Practices bei der Inhaltserstellung {#content-design-best-practices}
 
@@ -89,7 +89,7 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
    Siehe auch den Abschnitt zum [Hinzufügen von Inline-Styling-Attributen](../../designing/using/styles.md#adding-inline-styling-attributes).
 
-* Wenn Sie ZIP-Dateien mit Ihrem HTML-Inhalt importieren, verwenden Sie reguläre CSS. SCSS-Stylesheets werden nicht unterstützt.
+* Verwenden Sie zum Importieren von ZIP-Dateien mit HTML-Inhalten reguläres CSS. SCSS-Stylesheets werden nicht unterstützt.
 
 * Die einfache Erstellung und Wiederverwendung von Inhaltsfragmenten hilft Ihnen, Ihre Marketingkampagnen konsistent zu halten und damit Ihr Branding zu stärken.
 
@@ -99,9 +99,9 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
    Sehen Sie sich Ihre Nachrichten in der Vorschau an, bevor Sie sie senden. Adobe Campaign ermöglicht es Ihnen, mithilfe von Litmus das E-Mail-Rendering zu testen. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
 
-Weitere Empfehlungen zur Erstellung und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Weitere Empfehlungen zum Erstellen und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand mit Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
 
-### Einschränkungen in Email Designer   {#email-designer-limitations}
+### Einschränkungen in Email Designer      {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/using-reusable-content.md#about-fragments).
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
