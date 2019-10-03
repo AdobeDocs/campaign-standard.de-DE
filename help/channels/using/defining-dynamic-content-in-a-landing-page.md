@@ -13,7 +13,7 @@ topic-tags: defining-conditional-content
 discoiquuid: 00e5ed81-d3d1-4211-8352-71805a7042c9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -35,7 +35,7 @@ Die nächsten Schritte zur Definition von dynamischem Inhalt für Landingpages e
 >
 >Die rote Umrandung einer Variante eines Elements zeigt an, dass für diese noch kein Ausdruck definiert wurde.
 
-## Dynamischen Inhalt in einer Landingpage in der Vorschau ansehen  {#previewing-dynamic-content-in-a-landing-page}
+## Dynamischen Inhalt in einer Landingpage in der Vorschau ansehen   {#previewing-dynamic-content-in-a-landing-page}
 
 Sie haben die Möglichkeit, zwischen den verschiedenen dynamischen Inhalten eines Bausteins zu wechseln. Gehen Sie wie folgt vor:
 
