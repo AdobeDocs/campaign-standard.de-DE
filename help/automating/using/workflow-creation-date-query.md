@@ -1,8 +1,8 @@
 ---
-title: '"Workflow-Anwendungsfall: Erstellen von Lieferungen am Erstellungsdatum des Profils"'
-seo-title: '"Workflow-Anwendungsfall: Erstellen von Lieferungen am Erstellungsdatum des Profils"'
-description: '"Workflow-Anwendungsfall: Erstellen von Lieferungen am Erstellungsdatum des Profils"'
-seo-description: '"Workflow-Anwendungsfall: Erstellen von Lieferungen am Erstellungsdatum des Profils"'
+title: '"Workflow-Anwendungsfall: Sendungen am Erstellungsdatum des Profils durchführen"'
+seo-title: '"Workflow-Anwendungsfall: Sendungen am Erstellungsdatum des Profils durchführen"'
+description: '"Workflow-Anwendungsfall: Sendungen am Erstellungsdatum des Profils durchführen"'
+seo-description: '"Workflow-Anwendungsfall: Sendungen am Erstellungsdatum des Profils durchführen"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -11,96 +11,96 @@ audience: automating
 content-type: reference
 topic-tags: 'execution-activities '
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: Workflow, Anwendungsfall, Abfrage
+context-tags: workflow,use-case,query
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# Workflow-Anwendungsfall: Erstellen von Auslieferungen am Erstellungsdatum der Profile {#creation-date-query}
+# Workflow-Anwendungsfall: Sendungen am Erstellungsdatum des Profils durchführen {#creation-date-query}
 
-Sie können ein Angebot per E-Mail zum Jahrestag der Erstellung des Kundenprofils senden.
+Sie können am Jahrestag der Profilerstellung eines Kunden diesem ein Angebot per E-Mail senden.
 
-1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. Wählen Sie **[!UICONTROL Neuer Workflow]** als Workflowtyp aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Geben Sie die Eigenschaften des Workflows ein, und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie dazu in **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
+1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
+1. Geben Sie die Eigenschaften des Workflows ein und wählen Sie **[!UICONTROL Erstellen]** aus.
 
-## Creating a Scheduler activity {#creating-a-scheduler-activity}
+## Planungsaktivität erstellen {#creating-a-scheduler-activity}
 
-1. Bei **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Ausführung]** ziehen Sie eine **[!UICONTROL Scheduler-Aktivität]** per Drag &amp; Drop.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Ausführung]** eine **[!UICONTROL Planungsaktivität]** in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
-1. Konfigurieren Sie die Ausführung Ihrer Lieferung.
-1. Wählen Sie in der **[!UICONTROL Ausführungsfrequenz]****[!UICONTROL Täglich]** aus.
-1. Wählen Sie für den Workflow eine **[!UICONTROL Zeit]** und die **[!UICONTROL Wiederholungshäufigkeit]** der Ausführung aus.
-1. Wählen Sie ein **[!UICONTROL Start]** - und **[!UICONTROL Ablaufdatum]** für Ihren Workflow aus.
-1. Validieren Sie die Aktivität und speichern Sie den Workflow.
+1. Konfigurieren Sie Ihren Versand.
+1. Wählen Sie in **[!UICONTROL Ausführungsfrequenz]** die Option **[!UICONTROL Täglich]** aus.
+1. Wählen Sie eine **[!UICONTROL Zeit]** und das **[!UICONTROL Ausführungsintervall]** für Ihren Workflow aus.
+1. Wählen Sie ein **[!UICONTROL Anfangsdatum]** und die **[!UICONTROL Gültigkeit]** für Ihren Workflow aus.
+1. Bestätigen Sie die Aktivität und speichern Sie den Workflow.
 
 >[!NOTE]
 >
->Um den Workflow in einer bestimmten Zeitzone zu starten, legen Sie im Register **[!UICONTROL Ausführungsoptionen]** die Zeitzone für Ihren Scheduler im Feld **[!UICONTROL Zeitzone]** fest.
+>Um Ihren Workflow mit einer bestimmten Zeitzone zu verbinden, richten Sie im Tab **[!UICONTROL Ausführungsoptionen]** im Feld **[!UICONTROL Zeitzone]** die Zeitzone für Ihren Zeitplan ein.
 
 ![](assets/time_zone.png)
 
-## Creating a Query activity {#creating-a-query-activity}
+## Abfrageaktivität erstellen {#creating-a-query-activity}.
 
-1. Um die Empfänger auszuwählen, ziehen Sie eine **[!UICONTROL Abfrageaktivität]** und doppelklicken Sie darauf.
-1. Fügen Sie **[!UICONTROL Profile]** hinzu und wählen Sie **[!UICONTROL keinen Kontakt mehr per E-Mail]** mit dem Wert **[!UICONTROL nein]**.
+1. Um Empfänger auszuwählen, ziehen Sie eine **[!UICONTROL Abfrageaktivität]** in den Arbeitsbereich und doppelklicken Sie darauf.
+1. Fügen Sie **[!UICONTROL Profile]** hinzu und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
 
-### Retrivieren von Profilen am Tag der Ausführung {#retriving-profiles-created-on-the-same-day}
+### Profile abrufen, die am Versandtag erstellt wurden {#retriving-profiles-created-on-the-same-day}
 
-1. Ziehen Sie in **[!UICONTROL Profil]** das **[!UICONTROL erstellte]** Feld, und ziehen Sie es ab. und klicken Sie auf **[!UICONTROL Erweiterten Modus]**.
+1. Ziehen Sie in **[!UICONTROL Profil]** das Feld **[!UICONTROL Erstellt]** in den Arbeitsbereich. Wählen Sie **[!UICONTROL Erweiterter Modus]** aus.
    ![](assets/advanced_mode.png)
-1. Doppelklicken Sie in der **[!UICONTROL Liste der Funktionen]** auf **[!UICONTROL Tag]** vom Knoten **[!UICONTROL Datum]**.
+1. Doppelklicken Sie in der **[!UICONTROL Funktionsliste]** im Knoten **[!UICONTROL Datum]** auf **[!UICONTROL Tag]**.
 1. Fügen Sie dann das Feld **[!UICONTROL Erstellt]** als Argument ein.
-1. Wählen Sie **[!UICONTROL gleich (=)]** als Operator aus.
-1. Wählen Sie für Wert **[!UICONTROL Tag]** aus dem Knoten **[!UICONTROL Datum]** in der **[!UICONTROL Liste der Funktionen]**.
-1. Legen Sie die **[!UICONTROL GetDate()]**-Funktion als Argument ein.
+1. Wählen Sie als Operator **[!UICONTROL Gleich (=)]** aus.
+1. Wählen Sie für den Wert in der **[!UICONTROL Funktionsliste]** im Knoten **[!UICONTROL Datum]** die Option **[!UICONTROL Tag]** aus.
+1. Fügen Sie die Funktion **[!UICONTROL GetDate()]** als Argument ein.
 
-Sie haben die Profile abgerufen, deren Erstellungstag dem aktuellen Tag entspricht.
+Somit haben Sie die Profile abgerufen, deren Erstellungsdatum mit dem aktuellen Datum identisch ist.
 
-Am Ende sollten Sie Folgendes haben:
+Das Ergebnis sollte folgendermaßen aussehen:
 
 ```Day(@created) = Day(GetDate())```
 
 ![](assets/day_creation_query.png)
 
-Wählen Sie **[!UICONTROL Bestätigen]**.
+Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-### Retrivieren von Profilen, die am selben Monat erstellt wurden wie der Monat der Ausführung{#retriving-profiles-created-on-the-same-month}
+### Profile abrufen, die im Versandmonat erstellt wurden {#retriving-profiles-created-on-the-same-month}
 
-1. Wählen Sie im **[!UICONTROL Abfrage]** -Editor die erste Abfrage aus, und doppelten Sie sie.
+1. Wählen Sie im **[!UICONTROL Abfrageeditor]** die erste Abfrage aus und duplizieren Sie sie.
 1. Öffnen Sie das Duplikat.
-1. Ersetzen Sie **[!UICONTROL Tag]** durch **[!UICONTROL Monat]** in der Abfrage.
-1. Wählen Sie **[!UICONTROL Bestätigen]**.
+1. Ersetzen Sie in der Abfrage **[!UICONTROL Tag]** durch **[!UICONTROL Monat]**.
+1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
 ![](assets/month_rule.png)
 
-Am Ende sollten Sie Folgendes feststellen:
+Das Ergebnis sollte folgendermaßen aussehen:
 
 ``` Month(@created) = Month(GetDate()) ```
 
-Die letzte Abfrage wird angezeigt:
+Die endgültige Abfrage sieht folgendermaßen aus:
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
 ![](assets/expression_editor_1.png)
 
-## Creating an Email delivery{#creating-an-email-delivery}
+## E-Mail-Versand erstellen{#creating-an-email-delivery}.
 
-1. Ziehen Sie eine E-Mail-Zustellung ab.
-1. Klicken Sie auf die Aktivität und wählen Sie ![](assets/edit_darkgrey-24px.png) zu bearbeiten.
-1. Wählen Sie **[!UICONTROL E-Mail]** wiederherstellen aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Wählen Sie eine E-Mail-Vorlage aus, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Geben Sie die E-Mail-Eigenschaften ein und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Um das Layout Ihrer E-Mail zu erstellen, klicken Sie auf **[!UICONTROL E-Mail-Designer]**.
-1. Fügen Sie Elemente ein oder wählen Sie eine vorhandene Vorlage aus.
+1. Ziehen Sie einen E-Mail-Versand in den Arbeitsbereich.
+1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
+1. Wählen Sie **[!UICONTROL Wiederkehrende E-Mail]** und danach **[!UICONTROL Weiter]** aus.
+1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.
+1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
+1. Um das Layout Ihrer E-Mail zu erstellen, wählen Sie **[!UICONTROL Email Designer]** aus.
+1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
 1. Personalisieren Sie Ihre E-Mail mit Feldern und Links.
-Weitere Informationen finden Sie unter [Entwerfen einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Klicken Sie auf **[!UICONTROL Vorschau]** , um Ihr Layout zu überprüfen.
-1. Wählen Sie **[!UICONTROL Speichern aus]**.
+Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 **Verwandte Themen:**
 
