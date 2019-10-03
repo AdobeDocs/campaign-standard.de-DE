@@ -26,21 +26,21 @@ Im Rahmen von Programmen und Kampagnen dienen Workflows der Automatisierung von 
 
 Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 
-* [Palette](../../automating/using/workflow-interface.md#palette) mit den verfügbaren Aktivitäten;.
-* [Arbeitsbereich](../../automating/using/workflow-interface.md#workspace), in dem Aktivitäten angeordnet und konfiguriert werden.
-* [Symbolleiste](../../automating/using/workflow-interface.md#action-bar) mit Schaltflächen, die die Interaktion mit dem Workflow und seinen Komponenten ermöglichen.
-* [Quick Actions](../../automating/using/workflow-interface.md#quick-actions), die um eine ausgewählte Aktivität herum angezeigt werden und den Schnellzugriff auf diverse Aktionen ermöglichen.
+* [Palette](../../automating/using/workflow-interface.md#palette) mit den verfügbaren Aktivitäten
+* [Arbeitsbereich](../../automating/using/workflow-interface.md#workspace), in dem Aktivitäten angeordnet und konfiguriert werden
+* [Symbolleiste](../../automating/using/workflow-interface.md#action-bar) mit Schaltflächen, die die Interaktion mit dem Workflow und seinen Komponenten ermöglichen
+* [Quick Actions](../../automating/using/workflow-interface.md#quick-actions), die um eine ausgewählte Aktivität herum angezeigt werden und den Schnellzugriff auf diverse Aktionen ermöglichen
 
 ![](assets/wkf_overview.png)
 
-## Palette   {#palette}
+## Palette    {#palette}
 
 Die Palette befindet sich auf der linken Bildschirmseite. Die verfügbaren Aktivitäten sind verschiedenen Kategorien zugeordnet:
 
-* [Zielgruppenbestimmung](../../automating/using/about-targeting-activities.md) - Aktivitäten, die der Erstellung von Zielgruppen und der Verwendung bzw. Filterung von Populationen dienen.
-* [Ausführung](../../automating/using/about-execution-activities.md) - Aktivitäten, die der Organisation und Ausführung von Workflows dienen.
-* [Kanäle](../../automating/using/about-channel-activities.md) - Aktivitäten, die die verschiedenen Kommunikationskanäle repräsentieren.
-* [Data Management (ETL)](../../automating/using/about-data-management-activities.md) - Aktivitäten, die dem Umgang mit Daten dienen.
+* [Zielgruppenbestimmung](../../automating/using/about-targeting-activities.md) - Aktivitäten, die der Erstellung von Zielgruppen und der Verwendung bzw. Filterung von Populationen dienen
+* [Ausführung](../../automating/using/about-execution-activities.md) - Aktivitäten, die der Organisation und Ausführung von Workflows dienen
+* [Kanäle](../../automating/using/about-channel-activities.md) - Aktivitäten, die die verschiedenen Kommunikationskanäle repräsentieren
+* [Data Management (ETL)](../../automating/using/about-data-management-activities.md) - Aktivitäten, die dem Umgang mit Daten dienen
 
 Ziehen Sie die für Ihren Workflow erforderlichen Aktivitäten aus der Palette an die gewünschte Stelle im Arbeitsbereich.
 
@@ -48,7 +48,7 @@ Jede Aktivität muss separat konfiguriert werden, bevor Sie den Workflow starten
 
 ![](assets/workflow_palette.png)
 
-## Arbeitsbereich   {#workspace}
+## Arbeitsbereich    {#workspace}
 
 Die zentrale Fläche im Editor bildet den Arbeitsbereich des Workflows. Hier werden die verwendeten Aktivitäten abgelegt, mithilfe von Transitionen in Beziehung gesetzt und konfiguriert.
 
