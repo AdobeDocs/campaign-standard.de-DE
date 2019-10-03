@@ -34,7 +34,7 @@ Die REST-Endpunkte können ein Customer Management System, die Plattform [Adobe 
 Die Hauptmerkmale dieser Aktivität sind:
 
 * Möglichkeit zur Übertragung von Daten im JSON-Format an einen REST-API-Endpunkt eines Drittanbieters
-* Möglichkeit, eine JSON-Antwort zu erhalten, sie mit Ausgabetabellen zu mappen und an nachfolgende Workflow-Aktivitäten zu übermitteln.
+* Möglichkeit, eine JSON-Antwort zu erhalten, sie mit Ausgabetabellen zu mappen und an nachfolgende Workflow-Aktivitäten zu übermitteln
 * Fehlermanagement mit einer speziellen ausgehenden Transition
 
 Für diese Aktivität wurden folgende Limits festgelegt:
