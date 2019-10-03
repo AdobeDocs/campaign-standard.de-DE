@@ -14,7 +14,7 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -65,7 +65,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    ![](assets/push_notif_content.png)
 
-   Der Push-Benachrichtigungs-Inhalt und die Optionen, die hier konfiguriert werden, werden in Form von Payload an Ihr Mobile App übertragen. Die Struktur der Payload wird in der Technote [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) beschrieben.
+   Der Push-Benachrichtigungs-Inhalt und die Optionen, die hier konfiguriert werden, werden in Form von Payload an Ihr Mobile App übertragen. Die Struktur der Payload wird in der Technote [Understanding ACS push notifications payload structure](https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) beschrieben.
 
 1. Wählen Sie **[!UICONTROL Erstellen aus]**.
 
