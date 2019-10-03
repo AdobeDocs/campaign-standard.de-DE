@@ -13,7 +13,7 @@ topic-tags: editing-landing-page-content
 discoiquuid: 18041bc7-e1d0-416e-9bae-1a18ff949fa9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
@@ -45,7 +45,7 @@ Die für ein Blockelement (Link, Personalisierungsfeld, Inhaltsbaustein etc.) de
 
 ![](assets/des_lp_content_4.png)
 
-## Rahmen und Hintergrund im Inhaltseditor hinzufügen  {#adding-a-border-and-a-background-in-the-content-editor}
+## Rahmen und Hintergrund im Inhaltseditor hinzufügen   {#adding-a-border-and-a-background-in-the-content-editor}
 
 Es besteht die Möglichkeit, verschiedene **Hintergrundfarben** aus der Farbpalette für die einzelnen Blöcke auszuwählen. Die Farbe wird jeweils auf den gesamten Block angewendet.
 
@@ -55,7 +55,7 @@ Außerdem können die einzelnen Blöcke mit verschiedenen **Rahmen** versehen we
 
 ![](assets/des_lp_content_6.png)
 
-## Textstil im Inhaltseditor ändern  {#changing-the-text-style-in-the-content-editor}
+## Textstil im Inhaltseditor ändern   {#changing-the-text-style-in-the-content-editor}
 
 Um einen Textstil zu ändern, muss sich der Cursor innerhalb eines Textblocks befinden.
 
@@ -69,7 +69,7 @@ Die Textausrichtung kann mit einer der drei Schaltflächen in der Palette links 
 
 Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Siehe [diesen Abschnitt](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
 
-## Bilder in eine Landingpage einfügen  {#inserting-images-in-a-landing-page}
+## Bilder in eine Landingpage einfügen   {#inserting-images-in-a-landing-page}
 
 1. Wählen Sie im Inhalt der Landingpage einen Baustein aus, der ein Bild enthält.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Einfügen]**.
@@ -80,7 +80,7 @@ Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribu
 
    ![](assets/des_insert_images_lp_2.png)
 
-1. Datei auswählen.
+1. Wählen Sie eine Datei aus.
 
    ![](assets/des_insert_images_lp_3.png)
 
