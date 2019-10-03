@@ -14,7 +14,7 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
@@ -28,7 +28,7 @@ In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei
 * Aktivitäten hinzufügen und verbinden
 * Aktivitäten konfigurieren
 
-## Workflow erstellen   {#creating-a-workflow}
+## Workflow erstellen    {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
 
@@ -60,7 +60,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
 **Verwandtes Thema:**
 
-Video [Creating a workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+Video [Creating a workflow](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
 
 ## Aktivitäten hinzufügen und verbinden {#adding-and-linking-activities}
 
@@ -99,12 +99,12 @@ Nach der Verknüpfung Ihrer Workflow-Aktivitäten können Sie die Transitionen z
 
 Darüber hinaus können Sie mit den Aktivitäten **[!UICONTROL Targeting]** und **[!UICONTROL Daten-Management (ETL)]** **Segmentcodes** für die ausgehenden Transitionen definieren. Anschließend können Sie Berichte basierend auf diesen Segmentcodes erstellen, um die Effizienz Ihrer Marketingkampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
 
-**Arbeitsströme im Arbeitsablauf:**
+**Anwendungsfälle für Workflows:**
 
-* [Anwendungsfall: Schaffung einer einmaligen E-Mail-Zustellung](../../automating/using/workflow-weekly-offer.md)
-* [Anwendungsfall: Schaffung einer Liefersegmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
-* [Anwendungsfall: Schaffung von Lieferungen mit Ergänzung](../../automating/using/workflow-created-query-with-complement.md)
-* [Anwendungsfall: Neuausrichtung der Arbeitsabläufe, die eine neue Lieferung an Nichtöffnungs-](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Anwendungsfall: Erstellung einer einmaligen E-Mail-Versendung pro Woche](../../automating/using/workflow-weekly-offer.md)
+* [Anwendungsfall: Erstellung einer Standort-segmentierten Versendung](../../automating/using/workflow-segmentation-location.md)
+* [Anwendungsfall: Erstellen von Versendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
+* [Anwendungsfall: Retargeting-Workflow für eine erneute Versendung an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Aktivitäten konfigurieren {#configuring-activities}
 
