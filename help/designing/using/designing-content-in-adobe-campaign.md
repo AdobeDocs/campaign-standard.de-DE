@@ -13,27 +13,27 @@ topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 ---
 
 
-# Kampagnen-E-Mail-Designer{#designing-content-in-adobe-campaign}
+# Campaign Email Designer{#designing-content-in-adobe-campaign}
 
-Sobald Sie eine E-Mail in Adobe Campaign erstellt haben, müssen Sie deren Inhalt definieren.
+Nach der Erstellung einer E-Mail in Adobe Campaign müssen Sie deren Inhalt definieren.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* Informationen zum Erstellen von E-Mail-Inhalten finden Sie unter [Schnellstart](../../designing/using/quick-start.md).
-* Eine Übersicht über den E-Mail-Designer finden Sie unter [Verwenden des E-Mail-Designers](../../designing/using/overview.md).
-* Weitere Informationen zum Thema Bauinhalte:
-   * Sehen Sie von Grund auf [Entwerfen von E-Mails](../../designing/using/designing-from-scratch.md).
-   * Verwenden vorhandener Inhalte finden Sie unter [Entwerfen mit vorhandenen Inhalten](../../designing/using/using-existing-content.md).
-   * Informationen zur Integration finden Sie unter [Entwerfen mithilfe von Adobe Campaign-Integrationen](../../designing/using/using-integrations.md).
-* Weitere Informationen zu Personalisierung finden Sie unter [Personalisierung](../../designing/using/personalization.md).
+* Informationen zum Erstellen von E-Mail-Inhalten finden Sie in der [Kurzanleitung](../../designing/using/quick-start.md).
+* Eine Übersicht über Email Designer finden Sie unter [Verwenden von Email Designer](../../designing/using/overview.md).
+* Weitere Informationen zum Erstellen von Inhalten:
+   * Wenn Sie E-Mails von Grund auf neu erstellen möchten, lesen Sie [Erstellen neuer E-Mails](../../designing/using/designing-from-scratch.md).
+   * Wenn Sie vorhandene Inhalte verwenden möchten, lesen Sie [Erstellen aus vorhandenen Inhalten](../../designing/using/using-existing-content.md).
+   * Wenn Sie Integrationen verwenden möchten, lesen Sie [Erstellen von E-Mails mit Adobe Campaign-Integrationen](../../designing/using/using-integrations.md).
+* Wenn Sie Ihre E-Mails personalisieren möchten, lesen Sie [Personalisierung](../../designing/using/personalization.md).
 
-Beim Erstellen einer E-Mail können Sie entweder eine vordefinierte Vorlage verwenden oder einen vorhandenen Inhalt aus einer anderen Quelle laden. Siehe [Existierenden Inhalt auswählen](../../designing/using/using-existing-content.md#selecting-an-existing-content).
+Zur Erstellung Ihrer E-Mails können Sie auch vordefinierte Vorlagen wählen oder vorhandene Inhalte aus anderen Quellen laden. Siehe [Auswahl vorhandener Inhalte](../../designing/using/using-existing-content.md#selecting-an-existing-content).
 
 Sie können die Wirksamkeit Ihrer Marketingkampagnen verbessern, indem Sie Ihre Inhalte personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field) und [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 
