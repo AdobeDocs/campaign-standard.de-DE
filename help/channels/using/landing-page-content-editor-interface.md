@@ -13,7 +13,7 @@ topic-tags: editing-landing-page-content
 discoiquuid: 08e2bbda-e409-467f-b462-d74256dc6ebc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
 
 ---
@@ -31,7 +31,7 @@ Der Inhaltseditor besteht aus drei Bereichen. In diesen Bereichen können Sie de
 1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Sie können eine Vorlage auswählen und den Anzeigemodus wechseln. Siehe [Symbolleiste des Inhaltseditors für Landingpages](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
 1. Im **Hauptarbeitsbereich** ermöglicht eine kontextabhängige Symbolleiste die direkte Bearbeitung des Inhalts. Sie können beispielsweise ein Bild mit einem Link belegen, die Schriftart anpassen, ein Feld löschen etc. Siehe [Symbolleiste des Inhaltseditors für Landingpages](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
 
-## Symbolleiste des Inhaltseditors für Landingpages  {#landing-page-editor-action-bar}
+## Symbolleiste des Inhaltseditors für Landingpages   {#landing-page-editor-action-bar}
 
 Die Symbolleiste enthält Schaltflächen, die die Bearbeitung des angezeigten Inhalts ermöglichen.
 
@@ -80,7 +80,7 @@ Die Symbolleiste enthält Schaltflächen, die die Bearbeitung des angezeigten In
  </tbody> 
 </table>
 
-## Symbolleiste des Inhaltseditors für Landingpages  {#landing-page-editor-toolbar}
+## Symbolleiste des Inhaltseditors für Landingpages   {#landing-page-editor-toolbar}
 
 Die dedizierte Symbolleiste ist ein **kontextuelles Element** der Editor-Oberfläche. Je nach markiertem Bereich sind unterschiedliche Schaltflächen verfügbar. Sie enthält Aktionsschaltflächen sowie Schaltflächen zur Anpassung des Textstils. Alle Änderungen beziehen sich somit jeweils nur auf das ausgewählte Element. Wenn Sie beispielsweise einen Block markieren, können Sie diesen löschen oder duplizieren. Wenn Sie Text innerhalb eines Blocks markieren, können Sie ihn in einen Link verwandeln oder die Formatierung anpassen.
 
