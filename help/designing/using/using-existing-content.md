@@ -1,8 +1,8 @@
 ---
-title: 'Entwerfen von E-Mails mit vorhandenen Inhalten '
-seo-title: 'Entwerfen von E-Mails mit vorhandenen Inhalten '
-description: 'Entwerfen von E-Mails mit vorhandenen Inhalten '
-seo-description: Entdecken Sie, wie E-Mails mithilfe vorhandener E-Mail-Inhalte im E-Mail-Designer gestaltet werden.
+title: 'Erstellen von E-Mails aus vorhandenen Inhalten '
+seo-title: 'Erstellen von E-Mails aus vorhandenen Inhalten '
+description: 'Erstellen von E-Mails aus vorhandenen Inhalten '
+seo-description: Erfahren Sie, wie Sie in Email Designer E-Mails aus vorhandenen Inhalten erstellen.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,12 +13,12 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
 
-# Entwerfen mit vorhandenen Inhalten {#designing-using-existing-content}
+# Erstellen aus vorhandenen Inhalten {#designing-using-existing-content}
 
 ## Existierenden Inhalt auswählen{#selecting-an-existing-content}
 
@@ -108,7 +108,7 @@ Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 
 **Verwandtes Thema:**
 
-Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
 ### Während der Vorbereitung Inhalt von einer URL automatisch abrufen {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -168,9 +168,9 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 * [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTML-Inhalt konvertieren   {#converting-an-html-content}
+## HTML-Inhalt konvertieren      {#converting-an-html-content}
 
-Wenn Sie ein Framework aus modularen Vorlagen und Fragmenten erstellen möchten, die zur Wiederverwendung in mehreren E-Mails kombiniert werden können, sollten Sie Ihre E-Mail-HTML in eine E-Mail-Designer-Vorlage konvertieren.
+Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, die Sie in Ihren E-Mails wiederverwenden und kombinieren können, empfiehlt es sich, Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen zu konvertieren.
 
 In diesem Anwendungsbeispiel erfahren Sie, wie Sie eine HTML-E-Mail rasch in Email Designer-Komponenten konvertieren können.
 
@@ -230,6 +230,6 @@ Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Desig
 
    >[!NOTE]
    >
-   >Verändern Sie das von Email Designer erzeugte CSS nicht: `<style acrite-template-css="true">`   und `<style acrite-custom-styles="" type="text/css">`. Fügen Sie anschließend Ihren Stil hinzu.
+   >Verändern Sie das von Email Designer erzeugte CSS nicht: `<style acrite-template-css="true">`      und `<style acrite-custom-styles="" type="text/css">`. Fügen Sie anschließend Ihren Stil hinzu.
 
 1. Kehren Sie zur mobilen Ansicht zurück und prüfen Sie, ob Ihr Inhalt korrekt angezeigt wird, und speichern Sie Ihre Änderungen.
