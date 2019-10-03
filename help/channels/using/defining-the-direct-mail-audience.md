@@ -14,7 +14,7 @@ discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
@@ -26,7 +26,7 @@ Sie können die Audience entweder im Erstellungsassistenten oder durch Klicken i
 
 ![](assets/direct_mail_15.png)
 
-## Hauptzielgruppe definieren  {#defining-the-main-target}
+## Hauptzielgruppe definieren   {#defining-the-main-target}
 
 Bei Briefpost werden die Zielgruppenprofile in die Extraktionsdatei eingefügt, die Sie an Ihren Briefpost-Dienstleister senden.
 
@@ -36,12 +36,12 @@ Für jedes Zielgruppenprofil wird eine neue Zeile der Extraktionsdatei hinzugef�
 >
 >Achten Sie darauf, dass Ihre Profile eine Anschrift enthalten, da diese Information für den Briefpost-Dienstleister wesentlich ist. Beachten Sie außerdem, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist. Siehe [Empfehlungen](../../channels/using/about-direct-mail.md#recommendations).
 
-## Test- und Fallen-Profile hinzufügen  {#adding-test-and-trap-profiles}
+## Hinzufügen von Test- und Trap-Profilen  {#adding-test-and-trap-profiles}
 
-Fügen Sie Testprofile hinzu, sodass Sie Ihre Datei mit einer kleinen Anzahl von Profilen testen können. Dadurch können Sie rasch eine Beispieldatei erstellen, um ihren Aufbau zu testen und zu validieren, bevor Sie die eigentliche Datei vorbereiten. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Fügen Sie Testprofile hinzu, sodass Sie Ihre Datei mit einer kleinen Anzahl von Profilen testen können. Dadurch können Sie rasch eine Beispieldatei erstellen, um ihren Aufbau zu testen und zu validieren, bevor Sie die eigentliche Datei vorbereiten. Siehe [Verwalten von Testprofilen und Senden von Testsendungen](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-Die Verwendung von Fallen ist für den Briefpost-Versand besonders wichtig. Sie können überprüfen, ob Ihr Direktpostanbieter die Mitteilung tatsächlich übermittelt und Ihre Klienten nicht an einen anderen Anbieter schicken wird. Sehen Sie die [Fallen](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)aus.
+Die Verwendung von Traps (Fallen) ist für den Briefpost-Versand besonders wichtig. Sie können damit überprüfen, ob Ihr Direkt-Mail-Anbieter die Kommunikation tatsächlich versendet, und Sie stellen sicher, dass er Ihre Kundenliste an keinen anderen Provider weiterleitet. Siehe [Verwenden von Traps](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
-Für den Briefpost-Versand werden Fallen während der Extraktion hinzugefügt und im Ausgabedokument unter die restlichen Informationen gemischt. Sie werden in die Sortierreihenfolge der Outputdatei aufgenommen, aber Sie können sie am Ende oder Anfang des Datei einfügen. Bei der Definition des Zuschauerpublikums die gewünschte Option aus der Hab **[!UICONTROL der Tonnare]** auswählen.
+Für den Briefpost-Versand werden Traps während der Extraktion hinzugefügt und im Ausgabedokument unter die restlichen Informationen gemischt. Standardmäßig werden Trap-Ausgaben in die Sortierreihenfolge der Ausgabedatei eingefügt. Sie können jedoch auch angeben, dass sie am Anfang oder Ende der Datei aufgeführt werden. Wählen Sie beim Definieren der Zielgruppe die gewünschte Option auf der Registerkarte **[!UICONTROL Trap-Einfügemodus]**.
 
 ![](assets/direct_mail_trap_insertion_mode.png)
