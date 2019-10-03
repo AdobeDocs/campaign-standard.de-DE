@@ -14,7 +14,7 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -58,7 +58,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
 [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 
-## E-Mail-Routing-Konten   {#email-routing-accounts}
+## E-Mail-Routing-Konten    {#email-routing-accounts}
 
 Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
@@ -70,7 +70,7 @@ Dabei ist der Kontotyp mit **[!UICONTROL Routing]**, der Kanal mit **[!UICONTROL
 
 [Externe Konten](../../administration/using/external-accounts.md)
 
-## Regeln zum Umgang mit E-Mails   {#email-processing-rules}
+## Regeln zum Umgang mit E-Mails    {#email-processing-rules}
 
 In den Regeln sind die von Remote-Servern potenziell zurückgegebenen Strings enthalten, die die Qualifizierung der Fehler in **Hardbounce**, **Softbounce** oder **Ignoriert** erlauben.
 
@@ -125,9 +125,9 @@ Folgende Parameter stehen für jede einzelne Regel zur Verfügung:
    Wenn nicht anders angegeben, wird die Regel für alle Kennungen angewendet.
 
 * **[!UICONTROL Freigegeben]**: Diese Option ermöglicht die Angabe, ob die Obergrenze an Nachrichten pro Stunde und an zulässigen Verbindungen für alle der Regel zugeordneten MX angewendet wird oder nicht.
-* **[!UICONTROL Maximale Verbindungsanzahl]**: maximale Anzahl an simultanen Verbindungen mit einem MX von einer Adresse ausgehend.
-* **Maximale Nachrichtenanzahl**: maximale Anzahl an Nachrichten, die von einer Verbindung aus gesendet werden können. Bei der Übersteigung der zulässigen Höchstwerte wird die Verbindung geschlossen und eine neue hergestellt.
-* **[!UICONTROL Nachrichten pro Stunde]**: maximale Anzahl an Nachrichten, die pro Stunde ausgehend von einer Adresse an einen MX gesendet werden können.
+* **[!UICONTROL Maximale Verbindungsanzahl]**: Maximale Anzahl an simultanen Verbindungen mit einem MX von einer Adresse ausgehend.
+* **Maximale Nachrichtenanzahl**: Maximale Anzahl an Nachrichten, die von einer Verbindung aus gesendet werden können. Bei der Übersteigung der zulässigen Höchstwerte wird die Verbindung geschlossen und eine neue hergestellt.
+* **[!UICONTROL Nachrichten pro Stunde]**: Maximale Anzahl an Nachrichten, die pro Stunde ausgehend von einer Adresse an einen MX gesendet werden können.
 
 >[!CAUTION]
 >
@@ -137,7 +137,7 @@ Folgende Parameter stehen für jede einzelne Regel zur Verfügung:
 
 
 
-## Liste der E-Mail-Eigenschaften   {#list-of-email-properties}
+## Liste der E-Mail-Eigenschaften    {#list-of-email-properties}
 
 Dieser Abschnitt behandelt die Liste von Parametern, die in den Eigenschaften einer E-Mail oder einer [E-Mail-Vorlage](../../start/using/about-templates.md) verfügbar sind.
 
@@ -177,7 +177,7 @@ Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im 
 
 Die Anzahl weiterer Versuche kann global geändert werden (kontaktieren Sie Ihren technischen Administrator von Adobe) oder einzeln für jeden Versand oder jede Versandvorlage.
 
-#### Parameter für E-Mail-Format   {#email-format-parameters}
+#### Parameter für E-Mail-Format    {#email-format-parameters}
 
 Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei Optionen zur Verfügung:
 
@@ -208,7 +208,7 @@ Wenn Sie die SMTP-Testmodus-Option für eine E-Mail-Vorlage aktivieren, ist dies
 
 Weiterführende Informationen zur SMTP-Konfiguration finden Sie im Abschnitt [Liste der E-Mail-SMTP-Parameter](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
 
-### Parameter für den Gültigkeitszeitraum   {#validity-period-parameters}
+### Parameter für den Gültigkeitszeitraum    {#validity-period-parameters}
 
 Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]** sind folgende Parameter verfügbar:
 
@@ -230,7 +230,7 @@ Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]** sind folgende Parameter verf�
 >
 >Die Parameter **[!UICONTROL Gültigkeit explizit festlegen]** und **[!UICONTROL Versandlaufzeit]** gelten nicht für Transaktionsnachrichten. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
 
-### Trackingparameter   {#tracking-parameters}
+### Trackingparameter    {#tracking-parameters}
 
 Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
@@ -244,11 +244,11 @@ Der Abschnitt **[!UICONTROL Erweiterte Parameter]** enthält folgende Informatio
 
 Angaben zum E-Mail-Header (Antwortadresse und Text der Antwortadresse). Diese Informationen können personalisiert werden. Öffnen Sie mithilfe der Schaltfläche rechts des entsprechenden Eingabefelds das Auswahlfenster und fügen Sie die gewünschten Personalisierungsfelder ein. Weiterführende Informationen zur Verwendung der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-#### Zielgruppen-Kontext   {#target-context}
+#### Zielgruppen-Kontext    {#target-context}
 
 Im Zielgruppen-Kontext werden die für die Zielgruppenbestimmung (im Bildschirm zur Audience-Erstellung) und die Personalisierung (Definition von Personalisierungsfeldern, im HTML-Inhaltseditor) der E-Mail verwendeten Tabellen angegeben.
 
-#### Routing   {#routing}
+#### Routing    {#routing}
 
 In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf ein externes Konto verwiesen. Dies kann zum Beispiel von Nutzen sein, wenn Sie ein externes Konto mit speziellen Branding-Einstellungen verwenden möchten.
 
@@ -256,7 +256,7 @@ In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf 
 >
 >Zu den externen Konten gelangen Sie über das Menü **Administration** &gt; **Anwendungskonfiguration** &gt; **Externe Konten**.
 
-#### Vorbereitung   {#preparation}
+#### Vorbereitung    {#preparation}
 
 Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../../sending/using/preparing-the-send.md) beschrieben.
 
@@ -266,7 +266,7 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
    >
    >Die Typologien, zu denen Sie über das Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Typologien]** gelangen, werden im Abschnitt [Typologien](../../administration/using/about-typology-rules.md) beschrieben.
 
-* **[!UICONTROL Label-Berechnung während der Bereitstellungsvorbereitung]**: ermöglicht die Berechnung des Titel-Werts der E-Mail während der Nachrichtenvorbereitung mithilfe von Personalisierungsfeldern, Inhaltsbausteinen und dynamischem Text.
+* **[!UICONTROL Label-Berechnung während der Bereitstellungsvorbereitung]**: Ermöglicht die Berechnung des Titel-Werts der E-Mail während der Nachrichtenvorbereitung mithilfe von Personalisierungsfeldern, Inhaltsbausteinen und dynamischem Text.
 
    Sie können auch den Versandtitel mit Ereignisvariablen personalisieren, die in der Aktivität "Externes Signal" des Workflows deklariert wurden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -284,7 +284,7 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
    >
    >Das Hinzufügen zusätzlicher SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Skripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-### Liste der Parameter für Zugriffsberechtigung   {#list-of-access-authorization-parameters}
+### Liste der Parameter für Zugriffsberechtigung    {#list-of-access-authorization-parameters}
 
 Im Abschnitt **[!UICONTROL Zugriffsberechtigungen]** sind folgende Parameter verfügbar:
 
@@ -304,7 +304,7 @@ Adobe Campaign selbst ermöglicht zwar nicht die Verwaltung von archivierten Dat
 
 Wenn diese Funktion in der Versandvorlage aktiviert wird, können Sie eine exakte Kopie der gesendeten Nachrichten an eine von Ihnen bestimmte BCC-E-Mail-Adresse senden (unsichtbar für die Nachrichtenempfänger).
 
-### Empfehlungen und Einschränkungen   {#recommendations-and-limitations}
+### Empfehlungen und Einschränkungen    {#recommendations-and-limitations}
 
 * Hierbei handelt es sich um eine optionale Funktion. Bitte prüfen Sie Ihren Lizenzvertrag und kontaktieren Sie den Ansprechpartner für Ihr Konto, um diese Funktion zu aktivieren.
 * Sie können nur eine einzige BCC-E-Mail-Adresse verwenden.
@@ -312,7 +312,7 @@ Wenn diese Funktion in der Versandvorlage aktiviert wird, können Sie eine exakt
 * Aus Datenschutzgründen müssen BCC-E-Mails von einem Archivierungssystem bearbeitet werden, in dem personenbezogene Daten (PII, Personally Identifiable Information) sicher aufbewahrt werden.
 * Bei der Erstellung einer neuen Versandvorlage ist E-Mail-BCC nicht standardmäßig aktiviert, selbst wenn diese Option erworben wurde. Sie muss manuell in jeder Versandvorlage aktiviert werden, in der sie verwendet werden soll.
 
-### E-Mail-Archivierung aktivieren   {#activating-email-archiving}
+### E-Mail-Archivierung aktivieren    {#activating-email-archiving}
 
 E-Mail-BCC wird in der [E-Mail-Vorlage](../../start/using/about-templates.md) über die folgende Option aktiviert:
 
