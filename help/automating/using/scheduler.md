@@ -38,7 +38,7 @@ Je Workflow-Zweig darf zudem nur eine **[!UICONTROL Planung]** verwendet werden.
 >
 >Das **[!UICONTROL Ausführungsintervall]** der Aktivität kann nicht weniger als 10 Minuten betragen. Dies bedeutet, dass kein Workflow automatisch öfter als einmal alle 10 Minuten durchgeführt werden kann.
 
-## Konfiguration   {#configuration}
+## Konfiguration    {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Planung]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
