@@ -1,11 +1,11 @@
 ---
-title: Erstellung und Aktualisierung von Profilinformationen auf der Grundlage mobiler Anwendungsdaten
-seo-title: Erstellung und Aktualisierung von Profilinformationen auf der Grundlage mobiler Anwendungsdaten
-description: Erstellung und Aktualisierung von Profilinformationen auf der Grundlage mobiler Anwendungsdaten
-seo-description: Lernen, wie Profile auf der Grundlage mobiler Anwendungsdaten erstellt und aktualisiert werden können.
+title: Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten
+seo-title: Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten
+description: Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten
+seo-description: Erfahren Sie, wie Sie Profilinformationen auf Basis der von einer Mobile App erfassten Daten erstellen und aktualisieren.
 page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: Lemaitre
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
@@ -14,120 +14,120 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 64c7de127285ca56b6af398b0a0c3f1470756fe4
 
 ---
 
 
-# Erstellung und Aktualisierung von Profilinformationen auf der Grundlage mobiler Anwendungsdaten
+# Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten
 
 ## Übersicht
 
-Diese Seite beschreibt die Schritte zur Entwicklung eines Arbeitsflusses, durch den Profildaten nach einem mobilen Antrag erstellt bzw. aktualisiert werden, und zwar auf planmäßigen Basis.
+Auf dieser Seite erfahren Sie, wie Sie einen Workflow entwickeln, durch den Profildaten erstellt bzw. aktualisiert werden, sobald eine Mobile App die von ihr erfassten PII-Daten auf regelmäßiger Basis überträgt.
 
-* **PII** steht für "persönlich identifizierbare Informationen «. Es kann sich um Daten handeln, auch Informationen, die nicht in der Profiltabelle aus Ihrer Wahldatenbank aufgeführt sind, beispielsweise Analytics für mobile [Interessenspunkte](../../integrating/using/about-campaign-points-of-interest-data-integration.md). Die PII wird vom mobilen App Entwicker, in der Regel mit einem Marketer, definiert.
-* **PII ist** eine HTTP-POST-Operation für einen Rest API in Adobe Campaign Standard von einem mobilen App.
+* **PII** steht für „persönlich identifizierbare bzw. personenbezogene Informationen“. PII können beliebige Daten sein, auch Informationen, die normalerweise nicht in der Profiltabelle Ihrer Adobe Campaign-Datenbank enthalten sind, z. B. Analytics for Mobile-[POIs](../../integrating/using/about-campaign-points-of-interest-data-integration.md). Die PII wird vom Mobile-App-Entwickler definiert, in der Regel gemeinsam mit einem Marketing-Experten.
+* **Collect PII** (PII erfassen) ist eine HTTP-POST-Operation, die von einer Mobile App initiiert und an eine Rest-API in Adobe Campaign Standard übergeben wird.
 
-Ziel dieses Gebrauchs ist die Erstellung oder Aktualisierung eines Wahlstandardprofils, wenn die von einem mobilen Antrag zurückkehrenden PII-Daten profilbezogene Daten enthalten.
+Ziel dieses Anwendungsfalls ist die Erstellung oder Aktualisierung eines Campaign Standard-Profils, wenn die von einer Mobile App zurückgegebenen PII-Daten profilrelevante Daten enthalten.
 
 ## Voraussetzungen
 
-Es gibt mehrere Konfigurationsschritte, um die Push-Meldungen im Wahlstandard zu ermöglichen, bevor Profile auf der Grundlage von mobilen App-Abonnements erstellt oder aktualisiert werden können:
+Zur Aktivierung von Push-Benachrichtigungen in Campaign Standard müssen mehrere Konfigurationsschritte ausgeführt werden. Erst danach können Profile auf Basis der Abonnementdaten einer Mobile App erstellt oder aktualisiert werden:
 
-1. [Einführung eines mobilen Antrags](../../administration/using/configuring-a-mobile-application.md)
-1. [Integration des Adobe Mobile SDK mit Ihrer mobilen Anwendung](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html).
-1. [Configure Adobe Kampagne zur Meldung von Push-Meldungen](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+1. [Erstellen einer Mobile App](../../administration/using/configuring-a-mobile-application.md)
+1. [Integrieren des Adobe Mobile SDK mit der Mobile App](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+1. [Konfigurieren von Adobe Campaign für das Senden von Push-Benachrichtigungen](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-## Schritt 1 - Erweiterung des Profilvermögens für Push-Meldungen/Abonnements
+## Schritt 1: Erweitern der Profilressource für Push-Benachrichtigungen/Abonnements
 
-Um das Profil-Ressourcenprofil mit PII-Daten schaffen oder aktualisieren zu können, müssen Sie zunächst das Profil auf den gewünschten Feldern erweitern. Gehen Sie wie folgt vor:
+Um in der Profilressource PII-Daten eintragen oder aktualisieren zu können, müssen Sie die gewünschten Felder zunächst zur Profilressource hinzufügen. Gehen Sie wie folgt vor:
 
-* Angabe der PII-Felder, die von der mobilen Anwendung übermittelt werden.
-* Angabe des Felds zur Nutzung zwecks Verknüpfung der PII-Daten mit den Profildaten.
+* Ermitteln Sie, welche PII-Felder von der Mobile App übertragen werden.
+* Ermitteln Sie, welches Feld zur Verknüpfung der PII-Daten mit den Profildaten abgeglichen werden soll.
 
 ![](assets/update_profile1.png)
 
-In diesem Beispiel spiegeln die **[!UICONTROL Felder]** die PII-Daten wider, die der Mobile Antrag übermittelt hat. Der **[!UICONTROL Link zu Profilprofilen]** zeigt das Feld an, das genutzt wird, um die PII mit den Profildaten zu assoziieren, wo **cuse-CusEmail** -Karten an **@ e Post vergeben** werden.
+In diesem Beispiel zeigt der Abschnitt **[!UICONTROL Felder]** die von der Mobile App übertragenen PII-Daten. Im Abschnitt **[!UICONTROL Profilrelation]** ist das Feld angegeben, das zum Abgleich der PII-Daten mit den Profildaten verwendet wird. **cusEmail** wird hier mit **@email** abgeglichen.
 
-Die Kartierung für Profildaten während der Erweiterung der **[!UICONTROL Abonnements auf eine]** Anwendungsressource ist READ-ONLY. Es wird für die Versöhnung verwendet. Das Profil muss mit den erforderlichen Daten in das System eingegeben werden, um das Profil mit den PII-Daten zu vereinbaren. In unserem Fall muss eine E-Email-Adresse für das Profil einer E-Email aus der Sammlung PII entsprechen, um die Aussöhnung zu erreichen:
+Die Zuordnung der Profildaten ist während der Erweiterung der Ressource **[!UICONTROL App-Abonnements]** schreibgeschützt. Sie wird lediglich für den Abgleich verwendet. Um das Profil abgleichen zu können, muss es mit den erforderlichen Daten in das System eingetragen werden. In diesem Fall muss eine E-Mail-Adresse im Profil mit einer E-Mail-Adresse aus der „Collect PII“ übereinstimmen, damit die Abgleichung erfolgt:
 
-* PII wird von einem mobilen App für einen Nutzer empfangen, bei dem der Vorname‚Jane, Nachname‚Doe'lautet, und E-Mail-Adresse janedoe@doe.com.
-* Unabhängig davon müssen die Profile-Daten existieren (z. B. müssen die Daten manuell eingegeben oder bereits aus einer anderen Ressource stammen), wenn die E-Mail-Adresse des Profils janedoe@doe.com ist.
+* Von einer Mobile App wird „Collect PII“ für einen Benutzer empfangen, dessen Vorname „Jane“, Nachname „Doe“ und E-Mail-Adresse „janedoe@doe.com“ lauten.
+* Die Profildaten mit der E-Mail-Adresse „janedoe@doe.com“ müssen bereits separat vorhanden sein (d. h., die Daten müssen entweder manuell eingegeben oder aus einer anderen Ressource übernommen worden sein).
 
 **Verwandte Themen:**
 
-* [App-Abonnements-Ressource erweitern](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
-* [Schaffung oder Erweiterung einer vorhandenen Ressource](../../developing/using/key-steps-to-add-a-resource.md).
+* [App-Abonnements-Ressource erweitern](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [Erstellen oder Erweitern einer vorhandenen Ressource](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Schritt 2 - Schaffung des Arbeitsflusses
+## Schritt 2: Erstellen des Workflows
 
-Mithilfe eines Arbeitsflusses im Wahlstandard kann ein Verwalter Daten zwischen den Daten des appct (Subscriber) und dem Profil oder den Empfängerdaten eindeutig identifizieren und synchronisieren. Während eine workflow-basierte Aktualisierung die Profildaten in Echtzeit nicht synchronisiert, sollte sie keine unzulässigen Datenbanken oder Overhead verursachen.
+Mittels eines Workflows kann ein Administrator in Campaign Standard die AppSubscription- bzw. Abonnentendaten und die Profil- bzw. Empfängerdaten eindeutig identifizieren und miteinander synchronisieren. Eine Workflow-basierte Aktualisierung synchronisiert die Profildaten zwar nicht in Echtzeit, jedoch entstehen dadurch in der Regel auch keine Datenbanksperren oder Overheads.
 
-Die wichtigsten Schritte zur Schaffung des Arbeitsflusses sind:
+Dies sind die wichtigsten Schritte der Workflow-Erstellung:
 
-1. **[!UICONTROL Eine Aufsuchung]** oder **[!UICONTROL zusätzliche Aufsuchung]** vornehmen, um eine Liste der letzten Abonnements zu erhalten.
-1. Eine **[!UICONTROL Versöhnungsmaßnahme]** zur Karte der PII-Daten mit dem Profil verwenden.
-1. Lassen Sie mich einige Nachprüfungsverfahren hinzufügen.
-1. Aktualisierung der **[!UICONTROL aktualisierten Daten]** zur Aktualisierung oder Erstellung des Profils mit den PII-Daten.
+1. Abrufen einer Liste der neuesten Abonnements mit der Aktivität **[!UICONTROL Abfragen]** oder **[!UICONTROL Inkrementell abfragen]**
+1. Zuordnen der PII-Daten zum Profil durch die Aktivität **[!UICONTROL Abgleichen]**
+1. Hinzufügen eines Prüfprozesses
+1. Erstellen oder Aktualisieren der PII-Daten im Profil durch die Aktivität **[!UICONTROL Daten aktualisieren]**
 
-Bei diesen Arbeitsströmen werden folgende Anforderungen angenommen:
+In diesem Workflow wird von folgenden Voraussetzungen ausgegangen:
 
-* Alle/alle Felder, die verlängert wurden, sollten zur Erstellung/Aktualisierung des Profilstabs verfügbar sein.
-* Das Profil kann auf Felder ausgedehnt werden, die nicht nativ unterstützt werden (z. B.T-Shirt-Größe).
-* Ein Feld aus dem appsubscrisubscritisch, das leer ist, sollte nicht in der Profiltabelle aktualisiert werden.
-* Jedes Protokoll, das im appstellentisch aktualisiert wurde, sollte in den nächsten Arbeitsablauf aufgenommen werden.
+* Alle erweiterten Felder zur Erstellung bzw. Aktualisierung der Profiltabelle sind verfügbar.
+* Die Profiltabelle kann erweitert werden, um auch Felder zu unterstützen, die nativ nicht unterstützt werden (z. B. „T-Shirt-Größe“).
+* Leere Felder der AppSubscription-Tabelle werden in der Profiltabelle nicht aktualisiert.
+* Jeder Datensatz, der in der AppSubscription-Tabelle aktualisiert wurde, wird der nächsten Workflow-Ausführung hinzugefügt.
 
-Um den Arbeitsfluss zu gestalten, folgen die folgenden Schritte:
+Gehen Sie zur Erstellung des Workflows wie folgt vor:
 
-1. Drag und Absenkung der folgenden Tätigkeiten in den Arbeitsraum:
+1. Ziehen Sie die folgenden Aktivitäten in den Arbeitsbereich und verknüpfen Sie sie miteinander:
    1. **[!UICONTROL Starten]**
-   1. **[!UICONTROL Planung]**
-   1. **[!UICONTROL Inkrementelle Abfrage]**
+   1. **[!UICONTROL Planen]**
+   1. **[!UICONTROL Inkrementell abfragen]**
    1. **[!UICONTROL Daten aktualisieren]**
    ![](assets/update_profile0.png)
 
-1. Configure the **[!UICONTROL Scheduler]** activity. Im **[!UICONTROL Allgemeinen]** Labor ist die **[!UICONTROL Ausführungsfrequenz]** (z. B. "Daily"), die **[!UICONTROL Zeit]** (z. B. "1.00.00 Uhr") und **[!UICONTROL der Start]** (z. B. das heutige Datum) festzulegen.
+1. Konfigurieren Sie die Aktivität **[!UICONTROL Planen]**. Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Ausführungsfrequenz]** (z. B. „Täglich“), die **[!UICONTROL Zeit]** (z. B. „1:00:00 Uhr“) und den **[!UICONTROL Start]** (z. B. das heutige Datum) fest.
 
    ![](assets/update_profile2.png)
 
-1. Die **[!UICONTROL zusätzliche Abfragetätigkeit]** konfigurieren lassen.
-   1. In der **[!UICONTROL Eigenschaft]** "Immobilien «klicken Sie die **[!UICONTROL Auswahl eines Elements]** des **[!UICONTROL Ressourcenfelds]** und wählen Sie die **[!UICONTROL Abonnements eines Antrags aus (nms: Apponptionrcp: Apponptionrcpdetail)]** Element.
+1. Konfigurieren Sie die Aktivität **[!UICONTROL Inkrementell abfragen]**.
+   1. Klicken Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** im Feld **[!UICONTROL Ressource]** auf das Symbol **[!UICONTROL Element auswählen]** und wählen Sie das Element **[!UICONTROL App-Abonnements (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** aus.
 
       ![](assets/update_profile3.png)
 
-   1. In **[!UICONTROL der Target]** -Tab ist der **[!UICONTROL mobile Anwendungsfilter]** abzuziehen und dann einen mobilen Anwendungsname auszuwählen.
+   1. Ziehen Sie auf der Registerkarte **[!UICONTROL Target]** den Filter **[!UICONTROL Mobile App]** und wählen Sie den Namen einer Mobile App aus.
 
       ![](assets/update_profile4.png)
 
-   1. In der **[!UICONTROL verarbeiteten]** Datentransformation ist **[!UICONTROL ein Datumsfeld zu wählen]**, dann das **[!UICONTROL letzte modifizierte]** Feld (lastmodifizierfeld) als **[!UICONTROL Pfad zum Datumsfeld hinzuzufügen]**.
+   1. Wählen Sie auf der Registerkarte **[!UICONTROL Verarbeitete Daten]** die Option **[!UICONTROL Datenfeld verwenden]** aus und fügen Sie das Feld **[!UICONTROL Zuletzt geändert (lastModified)]** als **[!UICONTROL Pfad zum Datenfeld]** hinzu.
 
       ![](assets/update_profile5.png)
 
-1. Konfiguriert die **[!UICONTROL Aktualisierung]** der Daten.
-   1. In **[!UICONTROL der Identifizierungseinrichtung]** ist sicherzustellen, dass die **[!UICONTROL Dimension für die Aktualisierung]** der Felder auf "Profile (Profil)" gesetzt wird und dann die **[!UICONTROL "Base Element]** Taste «, um ein Feld als Versöhnungskriterien hinzuzufügen.
+1. Konfigurieren Sie die Aktivität **[!UICONTROL Daten aktualisieren]**.
+   1. Vergewissern Sie sich auf der Registerkarte **[!UICONTROL Identifizierung]**, dass das Feld **[!UICONTROL Zu aktualisierende Dimension]** auf „Profile (profile)“ gesetzt ist, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld als Abgleichkriterium hinzuzufügen.
 
       ![](assets/update_profile_createelement.png)
 
-   1. Im Feld **[!UICONTROL "Source «]** ist ein Feld aus dem appsubscrsiptionrcp-Tisch als Versöhnungsfeld auszuwählen. Es kann die E-Email, crmid, marketingcloudid usw. sein. In diesem Fall werden wir das Feld "E Mail (cuse CusEmail)" nutzen.
-   1. Im **[!UICONTROL Bestimmungsbereich]** ist ein Feld aus der Profiltabelle auszuwählen, um die Daten vom appsubscriptionrα Tisch zu vereinbaren. Es kann die E-Email des Profils oder ein erweitertes Feld wie crmid, marketingcloudid usw. sein. In diesem Fall müssen wir das Feld "E Mail (E Email)" auswählen, um es mit dem Feld "E Mail (cuse CusEmail)" vom appsubscriptionrrtgs-Tisch zu Karten zu Karten zu Karten.
+   1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abgleichfeld aus. Sie können hier z. B. das Feld „email“, „crmId“ oder „marketingCloudId“ des Profils auswählen. In diesem Beispiel verwenden wir das Feld „E-Mail (cusEmail)“.
+   1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgeglichen werden sollen. Dies kann das E-Mail-Feld des Profils oder ein beliebiges erweitertes Feld wie „crmId“ oder „marketingCloudId“ sein. In diesem Beispiel wählen Sie das Feld „E-Mail (email)“ aus, um es dem Feld „E-Mail (cusEmail)“ der Tabelle „appSubscriptionRcp“ zuzuordnen.
 
       ![](assets/update_profile7.png)
 
-   1. In der **[!UICONTROL Felder zur Aktualisierung]** der Klippe klicken Sie die **[!UICONTROL "Base Element]** Taste «, dann Karten, die aus dem appsubscriptionrrtgs-Tisch (**[!UICONTROL Quelle]** -Feld) mit den Feldern, die Sie im Profiltisch aktualisieren möchten (**[!UICONTROL Field Field]** ), aufzeichnen.
-   1. In **[!UICONTROL der aktivierten Umgebung]** ist anzugeben, ob das entsprechende Feld in der Profiltabelle nur aktualisiert wird, wenn das Ausgangsfeld einen Wert enthält. Zu diesem Zweck wird das Feld aus der Liste ausgewählt und dann hinzugefügt. "= "Ausdrucksfeld (wenn das Quellenfeld `[target/@cusEmail]` im Expressredakteur ist, sicher zu sein `[target/@cusEmail] != ''"`).
+   1. Klicken Sie auf der Registerkarte **[!UICONTROL Zu aktualisierende Felder]** auf die Schaltfläche **[!UICONTROL Element erstellen]** und ordnen Sie die Felder aus der Tabelle „appSubscriptionRcp“ (Feld **[!UICONTROL Quelle]**) den Feldern zu, die Sie in der Profiltabelle (Feld **[!UICONTROL Ziel]**) aktualisieren möchten.
+   1. Fügen Sie dem Feld **[!UICONTROL Aktiviert wenn]** einen Ausdruck hinzu, der sicherstellt, dass das entsprechende Feld in der Profiltabelle nur aktualisiert wird, wenn das Quellfeld einen Wert enthält. Wählen Sie dazu das Feld in der Liste aus und fügen Sie den Ausdruck "!=''" hinzu (wenn das Quellfeld `[target/@cusEmail]` lautet, geben Sie im Ausdruckseditor `[target/@cusEmail] != ''"` ein).
 
       ![](assets/update_profile8.png)
 
       >[!NOTE]
       >
-      >In diesem Fall führt der Workflow ein UPSIS durch, da es sich jedoch auf eine Inkrementelle-Datenbank stützt, wird es nur eingefügt. Die Änderung der Query kann Auswirkungen auf die eingefügten oder aktualisierten Daten haben.
-      >Darüber hinaus werden in den Feldern zur Aktualisierung von Klipp und Fach festgelegt, welche Felder unter bestimmten Bedingungen eingefügt oder aktualisiert werden. Diese Einstellungen können für jeden Antrag oder Kunden einmalig sein. Bei der Konfiguration dieser Einstellungen Vorsicht walten lassen, da es unbeabsichtigte Folgen geben kann, da die Aktualisierung des Profils auf der Grundlage von apponptionrcp-Daten die persönliche Information der Nutzer ohne Validierung ändern kann.
+      >In diesem Fall führt der Workflow ein UPSERT aus. Da sich dieses UPSERT jedoch auf eine inkrementelle Abfrage bezieht, werden die Daten nur eingefügt. Eine Änderung der Abfrage kann sich auf die eingefügten oder aktualisierten Daten auswirken.
+      >Darüber hinaus bestimmen auch die Einstellungen auf der Registerkarte „Zu aktualisierende Felder“, welche Felder unter bestimmten Bedingungen eingefügt oder aktualisiert werden. Diese Einstellungen sind oft anwendungs- oder kundenspezifisch. Konfigurieren Sie diese Einstellungen mit größter Sorgfalt, da sie andernfalls unbeabsichtigte Folgen haben können. Durch die Aktualisierung der Profildatensätze auf Basis der appSubscriptionRcp-Daten können sich persönliche Benutzerdaten ohne Validierung ändern.
 
-   1. Wenn alle Felder zur Aufnahme/Aktualisierung des Profils hinzugefügt wurden, bestätigen Sie **[!UICONTROL bitte]**.
+   1. Klicken Sie auf **[!UICONTROL Bestätigen]**, wenn Sie alle im Profil einzufügenden bzw. zu aktualisierenden Felder hinzugefügt haben.
 
       ![](assets/update_profile9.png)
 
-1. Sparen Sie den Arbeitsfluss und klicken Sie mit Beginn des Workflow.
+1. Speichern Sie den Workflow und klicken Sie dann auf „Start“, um den Workflow-Prozess zu starten.
 
    ![](assets/update_profile10.png)
