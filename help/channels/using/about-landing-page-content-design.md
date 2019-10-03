@@ -13,7 +13,7 @@ topic-tags: editing-landing-page-content
 discoiquuid: 212720d2-5d57-4e7a-bb72-10512050e78c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
@@ -41,7 +41,7 @@ Lesen Sie diesbezüglich auch die [allgemeinen Best Practices für die Gestaltun
 >
 >Wenn Ihre Instanz vor der Adobe-Campaign-Standard-Version 19.0 installiert wurde, haben Sie noch Zugriff auf den Legacy-E-Mail-Inhaltseditor. Die Benutzeroberfläche, Verwendung und Konfiguration entsprechen größtenteils der für Landingpages geltenden unten stehenden Beschreibung. Es kann jedoch sein, dass nicht alle Funktionen im Legacy-E-Mail-Inhaltseditor verfügbar oder auf dem aktuellen Stand sind, da er ab der Version 19.0 eingestellt wird. Wenn Sie Ihren E-Mail-Inhalt rasch auf einer Drag &amp; Drop-Benutzeroberfläche mithilfe einer Fülle von Funktionen bearbeiten möchten, verwenden Sie [Email Designer](../../designing/using/overview.md).
 
-## Best Practices für die Gestaltung von Landungsseiten {#landing-pages-best-practices-design}
+## Best Practices für den Entwurf von Landingpages{#landing-pages-best-practices-design}
 
 * Bei der Bearbeitung von **Inhalt der Landingpage**:
 
