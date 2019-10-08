@@ -3,18 +3,18 @@ title: Segmentierung und Targeting
 seo-title: Segmentierung und Targeting
 description: Segmentierung und Targeting
 seo-description: '"Hier erfahren Sie über Profile, Targeting und Audiences in Campaign. Sie finden Informationen zum Erstellen von Audiences, zum Importieren von Kontakten, zur Verwendung von Audiences in Experience Cloud-Lösungen und zum Vermeiden von Marketing-Müdigkeit."'
-page-status-flag: nie aktiviert
-uuid: 71 f 53808-0309-49 f 6-a 4 ee -4446 eac 9758 a
+page-status-flag: never-activated
+uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: Referenz
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: d 8 c 8 a 318-9433-4 aec-b 378-fd 0 beb 50 e 9 fb
+discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -31,7 +31,7 @@ Mit der Kundenprofil-Funktion werden alle Kundendaten an einem zentralen Ort zus
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfassung über [Landingpages](../../channels/using/about-landing-pages.md), manuelle oder [automatische Importmechanismen](../../automating/using/about-data-import-and-export.md), die [direkte Eingabe](../../audiences/using/creating-profiles.md) über die Adobe Campaign-Benutzeroberfläche, im Bulk-Modus über [Campaign APIs](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfassung über [Landingpages](../../channels/using/about-landing-pages.md), manuelle oder [automatische Importmechanismen](../../automating/using/about-data-import-and-export.md), die [direkte Eingabe](../../audiences/using/creating-profiles.md) über die Adobe Campaign-Benutzeroberfläche, im Bulk-Modus über [Campaign APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 **Verwandte Themen:**
 
@@ -39,7 +39,7 @@ Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfa
 * Wenn Sie die Anzahl **aktiver Profile** in Ihrem Unternehmen erfahren möchten, gehen Sie zu [diesem Abschnitt](../../audiences/using/active-profiles.md).
 * Hier erfahren Sie, wie Sie mithilfe von [Workflow-Targeting-Funktionen](../../automating/using/about-targeting-activities.md) Ihre Daten anpassen und komplexe Datenverwaltungsaufgaben durchführen, wie z. B. Berechnungen, Aggregate, Deduplizierung und Verbindungen.
 
-## Audiences {#audiences}
+## Audiences  {#audiences}
 
 Adobe Campaign vereint fortschrittliche Analyse- und Zielgruppenbestimmungsfunktionen, damit Sie relevante und effiziente Nachrichten versenden und mit Kunden effektiv interagieren können. Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, die verfügbare Informationen, das Verhalten, die Sprache, die Einstellungen und den Marketingverlauf Ihrer Kontakte berücksichtigen, um Ihre unterschiedlichen Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern oder auf einer unbegrenzten Anzahl von Kriterien basierende Zielgruppen erstellen.
 
