@@ -13,8 +13,8 @@ topic-tags: campaign-standard-releases
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -879,7 +879,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Digital Content Editor - Dynamische Inhalte<br /> </td> 
-   <td> Die Bedieneroberfläche zur Verwaltung dynamischer Inhalte wurde verbessert. Pfeile ermöglichen es nun, direkt im Nachrichtenkörper von einem dynamischen Inhalt zum nächsten zu wechseln.<br /> Weiterführende Informationen finden Sie im <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">entsprechenden Handbuch</a>.<br /> </td> 
+   <td> Die Bedieneroberfläche zur Verwaltung dynamischer Inhalte wurde verbessert. Pfeile ermöglichen es nun, direkt im Nachrichtenkörper von einem dynamischen Inhalt zum nächsten zu wechseln.<br /> Weiterführende Informationen finden Sie im <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">entsprechenden Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Digital Content Editor - Dynamische Texte<br /> </td> 
@@ -963,7 +963,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Inhaltseditor: dynamische Inhalte<br /> </td> 
-   <td> Es besteht die Möglichkeit, multiple Inhalte zu erstellen, die in Abhängigkeit von mithilfe des Ausdruckseditors definierten Bedingungen den Benutzern dynamisch angezeigt werden.<br /> Weiterführende Informationen finden Sie im <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">entsprechenden Handbuch</a>.<br /> </td> 
+   <td> Es besteht die Möglichkeit, multiple Inhalte zu erstellen, die in Abhängigkeit von mithilfe des Ausdruckseditors definierten Bedingungen den Benutzern dynamisch angezeigt werden.<br /> Weiterführende Informationen finden Sie im <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">entsprechenden Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> E-Mail<br /> </td> 
@@ -1057,7 +1057,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Digital Content Editor: <strong>Blockmarkierung</strong><br /> </td> 
-   <td> Bei der Markierung von Blöcken im HTML-Inhaltseditor wird nun im unteren Abschnitt des Arbeitsbereichs eine Breadcrumb-Leiste angezeigt, welche die präzise Auswahl bestimmter Elemente erleichtert.<br /> Weiterführende Informationen finden Sie im <a href="../../channels/using/managing-landing-page-structure-and-style.md">entsprechenden Handbuch</a>.<br /> </td> 
+   <td> Bei der Markierung von Blöcken im HTML-Inhaltseditor wird nun im unteren Abschnitt des Arbeitsbereichs eine Breadcrumb-Leiste angezeigt, welche die präzise Auswahl bestimmter Elemente erleichtert.<br /> Weiterführende Informationen finden Sie im <a href="../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style">entsprechenden Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
