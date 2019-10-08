@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -29,9 +29,13 @@ Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-note
 
 ## Aktualisierungen der Dokumentation - Oktober 2019 {#doc-updates-october-2019}
 
-A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [mehr dazu](../../audiences/using/confirming-subscription-to-a-service.md)
+Ein neuer Abschnitt zu den Campaign Standard-Einstellungen wurde hinzugefügt. [mehr dazu](../../administration/using/about-campaign-standard-settings.md)
+
+Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie eine automatische benutzerdefinierte Bestätigungs-E-Mail an Profile gesendet wird, die einen bestimmten Dienst abonnieren. [mehr dazu](../../audiences/using/confirming-subscription-to-a-service.md)
 
 Der Abschnitt "Transaktionsnachrichten"wurde mit den neuesten UI-Aktualisierungen einschließlich der Bearbeitung von Inhalten mit dem E-Mail-Designer geändert. [mehr dazu](../../channels/using/event-transactional-messages.md)
+
+Das Kapitel Einstiegsseiten wurde neu organisiert. Es wurde auch um einen neuen Abschnitt erweitert, in dem die Schritte zum Einrichten einer Einstiegsseite beschrieben werden. [mehr dazu](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
 ## Aktualisierungen der Dokumentation – September 2019 {#doc-updates-september-2019}
 
@@ -99,7 +103,7 @@ Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinz
 
 ## Dokumentationsaktualisierungen – Juli 2019 {#doc-updates-2019}
 
-Eine neue Seite zu Einschränkungen bei Landingpages wurde hinzugefügt – [mehr dazu](../../channels/using/landing-page-limitations.md)
+Eine neue Seite zu Einschränkungen bei Landingpages wurde hinzugefügt – [mehr dazu](../../channels/using/about-landing-pages.md#landing-page-limitations)
 
 Ein Anwendungsbeispiel wurde hinzugefügt, das zeigt, wie ein Profil mithilfe eines zusammengesetzten Identifizierungsschlüssels aufgerufen werden kann. – [mehr dazu](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -137,7 +141,7 @@ Ein Abschnitt zu Aktualisierungen und Wartungsverfahren wurde hinzugefügt – [
 
 Informationen zur neuen Sortieroption in der Aktivität **Dateitransfer** wurden hinzugefügt – [mehr dazu](../../automating/using/transfer-file.md)
 
-Die [REST-APIs-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) wurde aktualisiert:
+Die [REST-APIs-Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) wurde aktualisiert:
 
 * Ein neuer Abschnitt wurde hinzugefügt mit allgemeinen Informationen zur Verwendung von Campaign Standard-REST-APIs.
 * Eine Kollektion vordefinierter API-Anfragen für häufige Anwendungsfälle wurde bereitgestellt.
@@ -317,7 +321,7 @@ Ab Version 18.7 enthält das Handbuch für Benutzer &amp; Sicherheit nicht mehr 
 
 ### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-5}
 
-Die API-Dokumentation wurde mit Informationen zur API **Verlauf** aktualisiert. Ein Anwendungsbeispiel wurde hinzugefügt, in dem erläutert wird, wie die Mirrorseite für eine an ein Profil gesendete Nachricht abgerufen werden kann – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+Die API-Dokumentation wurde mit Informationen zur API **Verlauf** aktualisiert. Ein Anwendungsbeispiel wurde hinzugefügt, in dem erläutert wird, wie die Mirrorseite für eine an ein Profil gesendete Nachricht abgerufen werden kann – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-5}
 
@@ -331,7 +335,7 @@ Die Definition der Benutzerrolle "Sendungen vorbereiten" wurde aktualisiert – 
 
 Im Abfrageaktivität-Abschnitt wurde ein Beispiel hinzugefügt, in dem erläutert wird, wie Profile ausgewählt werden können, die einen bestimmten Link in einem Versand angeklickt haben – [mehr dazu](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-In der API-Dokumentation wurde ein Abschnitt zu **benutzerdefinierten Filtern** hinzugefügt – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+In der API-Dokumentation wurde ein Abschnitt zu **benutzerdefinierten Filtern** hinzugefügt – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## 18.5 - Version Mai 2018 {#release-18-5---may-2018}
 
@@ -381,7 +385,7 @@ Verwendung benutzerdefinierter Ressourcen in Transaktionsnachrichten – [mehr d
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version      {#other-documentation-updates-coming-with-the-release-7}
 
-Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfragen – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfragen – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
 
 Informationen zur Einrichtung von Opt-out-Landingpages wurden hinzugefügt, über die sich Empfänger auf die Blacklist setzen lassen können – [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -455,7 +459,7 @@ Verbesserungen bei Push-Benachrichtigungen – mehr dazu [hier](../../channels/u
 
 Zeitzonenoptimierte Sendungen – [mehr dazu](../../automating/using/scheduler.md)
 
-Aktivierung der API-Signal-Aktivität – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+Aktivierung der API-Signal-Aktivität – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-9}
 
@@ -505,11 +509,11 @@ Der [Abschnitt](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 
 
 In der SMS-Dokumentation wurde der Abschnitt zu [automatischen SMS-Antworten](../../channels/using/managing-incoming-sms.md#managing-stop-sms) genauer erklärt.
 
-Neuer Abschnitt zum Workflow-Management über die API – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+Neuer Abschnitt zum Workflow-Management über die API – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
 
-Neuer Abschnitt zu Primärschlüsseln und zur Verwendung einer Kennung als Schlüssel in der API – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+Neuer Abschnitt zu Primärschlüsseln und zur Verwendung einer Kennung als Schlüssel in der API – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
 
-Informationen zum Filtern mit einzelnen und mehreren Filtern in der API hinzugefügt – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+Informationen zum Filtern mit einzelnen und mehreren Filtern in der API hinzugefügt – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## 17.9 - Version September 2017 {#release-17-9---september-2017}
 
@@ -659,7 +663,7 @@ Verknüpfte Ressourcen in REST APIs – [mehr dazu](../../developing/using/updat
 
 Triggers-Integration: zwei Anwendungsbeispiele wurden hinzugefügt – [mehr dazu](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Die API-Dokumentation für Entwickler wurde durch neue Informationen und Code-Snippets ergänzt und ist jetzt benutzerfreundlicher – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+Die API-Dokumentation für Entwickler wurde durch neue Informationen und Code-Snippets ergänzt und ist jetzt benutzerfreundlicher – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-audience.md) und [Externes Signal](../../automating/using/external-signal.md) wurden Beispiele hinzugefügt.
 
@@ -669,7 +673,7 @@ Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-
 
 Protokollexport für externe Berichterstattung – [mehr dazu](../../automating/using/exporting-logs.md)
 
-Transaktionsnachrichten-API – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+Transaktionsnachrichten-API – [mehr dazu](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 Marketing-Funktionen für Transaktionsnachrichten – [mehr dazu](../../channels/using/profile-transactional-messages.md)
 
@@ -693,7 +697,7 @@ Neue Startseite für die Dokumentation und neues Aussehen
 
 Zum besseren Verständnis von Benutzerberechtigung wurde ein Anwendungsbeispiel hinzugefügt. Weiterführende Informationen finden Sie auch in der [Benutzerberechtigungsmatrix](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-Nutzung von APIs: Ein [Anwendungsbeispiel für API-Erweiterungen](../../developing/using/about-extending-the-api.md) wurde hinzugefügt. Lesen Sie auch entsprechende Informationen in der [API-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Nutzung von APIs: Ein [Anwendungsbeispiel für API-Erweiterungen](../../developing/using/about-extending-the-api.md) wurde hinzugefügt. Lesen Sie auch entsprechende Informationen in der [API-Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 Fehlermeldungen in Campaign: die vollständige Liste der Fehlermeldungen in Campaign v6 und Standard sowie Filteroptionen nach Version und Sprache – [mehr dazu](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
