@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 Sie können Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen versenden, bei denen Sie folgende Möglichkeiten haben:
 
-* Marketing-Typologieregeln anwenden, wie **[!UICONTROL Adresse auf der Blacklist]** oder [Ermüdungsregeln](../../administration/using/fatigue-rules.md).
+* Marketing-Typologieregeln anwenden, wie **[!UICONTROL Adresse auf der Blacklist]** oder [Ermüdungsregeln](../../administration/using/fatigue-rules.md)
 * einen Abmelde-Link in die Nachricht einfügen
 * die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen
 * Die Transaktionsnachrichten für die Customer Journey nutzen
@@ -36,7 +36,9 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 
 >[!NOTE]
 >
->Um auf Transaktionsnachrichten zugreifen zu können, müssen Sie entweder über Administratorrechte verfügen oder der Sicherheitsgruppe **[!UICONTROL Message Center Agents]** (mcExec) angehören. Ermüdungsregeln sind mit Profil-Transaktionsnachrichten kompatibel. Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md).
+>Für den Zugriff auf Transaktionsmeldungen müssen Sie zur Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** gehören.
+>
+>Ermüdungsregeln sind mit Profil-Transaktionsnachrichten kompatibel. Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md).
 
 ## Profil-Transaktionsnachricht senden   {#sending-a-profile-transactional-message}
 
