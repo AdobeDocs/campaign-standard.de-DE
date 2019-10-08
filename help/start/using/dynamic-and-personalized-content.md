@@ -13,8 +13,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -29,7 +29,7 @@ Personalisierte Nachrichten sind wichtig, wenn Sie relevante Inhalte versenden, 
 * [Vordefinierte Personalisierungsbausteine](../../designing/using/personalization.md#adding-a-content-block) einfügen
 * [Absender](../../designing/using/subject-line.md) einer E-Mail oder einer SMS personalisieren
 * [Betreffzeile](../../designing/using/subject-line.md) einer E-Mail personalisieren oder Funktionen der [prädiktiven Betreffzeile](../../designing/using/subject-line.md#predictive-subject-line) verwenden, um sie zu optimieren
-* [Bedingten Inhalt in einer E-Mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) oder [auf einer Landingpage](../../channels/using/defining-dynamic-content-in-a-landing-page.md) erstellen
+* [Bedingten Inhalt in einer E-Mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) oder [auf einer Landingpage](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) erstellen
 * [Dynamischen Text](../../channels/using/defining-dynamic-text.md) in eine SMS oder eine Push-Benachrichtigung einfügen
 
 ![](assets/delivery_content_43.png)
