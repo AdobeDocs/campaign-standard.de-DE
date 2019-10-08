@@ -1,7 +1,7 @@
 ---
-title: Confirming subscription to a service
+title: Bestätigung des Abonnements für einen Dienst
 seo-title: Bestätigung des Abonnements für einen Dienst
-description: Confirming subscription to a service
+description: Bestätigung des Abonnements für einen Dienst
 seo-description: Führen Sie die folgenden Schritte aus, um eine Bestätigungsmeldung für Profile einzurichten, die einen Dienst in Adobe Campaign abonnieren.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
+source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 ---
 
@@ -33,7 +33,7 @@ Wenn Sie die Standardnachricht verwenden, können Sie deren Inhalt mit folgenden
 
 Um eine bestimmte Bestätigungs-E-Mail für einen bestimmten Dienst zu senden, können Sie eine benutzerdefinierte Nachricht erstellen, in der Sie auch Personalisierungsfelder aus anderen Ressourcen nutzen können. Dazu müssen Sie eine Transaktionsmeldung erstellen und konfigurieren. Diese Meldung kann referenziert werden:
 * Vom Dienst selbst. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Bestätigungsmeldung von einem Dienst](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
-* From a subscription landing page. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Bestätigungsmeldung von einer Einstiegsseite](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page).
+* Von einer Abonnement-Landingpage. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Bestätigungsmeldung von einer Einstiegsseite](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page).
 
 ## Konfigurieren der Bestätigungsmeldung eines Dienstes {#configuring-confirmation-message-from-service}
 
@@ -51,67 +51,67 @@ Die Schritte zum Erstellen der Bestätigungs-E-Mail werden nachfolgend beschrieb
 
 #### Ereignis erstellen    {#create-the-event-1}
 
-The confirmation email is a transactional message as it reacts to an event: the subscription to a service. Diese Meldung wird gesendet, um das Abonnement für Ihren Newsletter zu bestätigen.
+Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis reagiert: das Abonnement eines Dienstes. Diese Meldung wird gesendet, um das Abonnement für Ihren Newsletter zu bestätigen.
 
 1. Create an event from the **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo.
 1. Geben Sie eine Bezeichnung ein, wählen Sie eine Targeting-Dimension und klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   The configuration steps are presented in the Configuring transactional messaging section.[](../../administration/using/configuring-transactional-messaging.md)
+   Die Konfigurationsschritte werden im Abschnitt [Konfigurieren von Transaktionsnachrichten](../../administration/using/configuring-transactional-messaging.md) beschrieben.
 
 1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add **[!UICONTROL publicLabel]** to the data structure in order to enable reconciliation.
 
    ![](assets/confirmation_publicLabel-field.png)
 
-   >[HINWEIS]
+   >[!NOTE]
    >
-   >The **[!UICONTROL publicLabel]** field is mandatory. Wenn Sie sie nicht zur Ereignisdatenstruktur hinzufügen, kann Adobe Campaign keine Abstimmung mit dem Dienst durchführen. When subscribing to a service, this field will be filled with the Service label of the corresponding service.****
+   >The **[!UICONTROL publicLabel]** field is mandatory. Wenn Sie sie nicht zur Ereignisdatenstruktur hinzufügen, kann Adobe Campaign keine Abstimmung mit dem Dienst durchführen. Beim Abonnieren eines Dienstes wird dieses Feld mit der **[!UICONTROL Dienstbezeichnung]** des entsprechenden Dienstes ausgefüllt.
 
 1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the **[!UICONTROL Service]** target resource.
 
    ![](assets/confirmation_enrichment-service.png)
 
-1. In the Join definition section, map the publicLabel field of the Service resource with the publicLabel field of the event configuration.****************
+1. Ordnen Sie im Abschnitt **[!UICONTROL Verbindungsdefinition]** das Feld **[!UICONTROL publicLabel]** der **[!UICONTROL Dienstressource dem Feld]** publicLabel **** der Ereigniskonfiguration zu.
 
    ![](assets/confirmation_publicLabel-join.png)
 
-   >[HINWEIS]
+   >[!NOTE]
    >
    >Auf diese Weise können Sie Personalisierungsfelder aus der **[!UICONTROL Dienstressource]** in der Transaktionsmeldung verwenden.
 
-1. Save the event configuration and click Publish to publish the event.****
+1. Speichern Sie die Ereigniskonfiguration und klicken Sie auf **[!UICONTROL Veröffentlichen]** , um das Ereignis zu veröffentlichen.
 
 Das Ereignis ist somit fertig eingerichtet. Sie können nun die transaktionelle E-Mail-Nachricht entwerfen.
 
 #### Bestätigungsnachricht erstellen    {#design-the-confirmation-message-1}
 
-The confirmation email is a transactional message based on the event that you just published.
+Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben veröffentlichten Ereignis basiert.
 
 1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Option **[!UICONTROL Marketingpläne]** &gt; **[!UICONTROL Transaktionsnachrichten]** und nochmals **[!UICONTROL Transaktionsnachrichten]**.
-1. Select the transactional email corresponding to the event that you just published.
+1. Wählen Sie die Transaktionsemail für das Ereignis aus, das Sie gerade veröffentlicht haben.
 
-1. Click the Content section and select an email template. **** For more on editing a transactional message content, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
-1. As you have direct access to all fields from the **[!UICONTROL Service]** resource, you can select any field from the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event (rtEvent)]** &gt; **[!UICONTROL Event context (ctx)]** &gt;**[!UICONTROL Service]** node to personalize your content.
+1. Klicken Sie auf den Abschnitt **[!UICONTROL Inhalt]** und wählen Sie eine E-Mail-Vorlage aus. Weitere Informationen zum Bearbeiten von Transaktionsnachrichten finden Sie unter [Ereignistransaktionsmeldungen](../../channels/using/event-transactional-messages.md).
+1. Da Sie direkten Zugriff auf alle Felder aus der **[!UICONTROL Dienstressource]** haben, können Sie ein beliebiges Feld aus dem Knoten **[!UICONTROL Kontext]** &gt; **[!UICONTROL Echtzeit-Ereignis (rtEvent)]** &gt; **[!UICONTROL Ereigniskontext (ctx)]** &gt;**[!UICONTROL Dienst]** auswählen, um Ihren Inhalt zu personalisieren.
 
    ![](assets/confirmation_personalization-service.png)
 
-   For more on personalizing a transactional message, see this section.[](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)
+   Weitere Informationen zum Personalisieren einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
 1. Zeigen Sie eine Vorschau Ihrer Nachricht mit einem Testprofil an. Weiterführende Informationen hierzu finden Sie im Abschnitt [Testprofil in einer Transaktionsnachricht definieren](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
 
 1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]** , um den Inhalt zu speichern.
 1. Veröffentlichen Sie die Transaktionsnachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-### Step 2: Create and configure the service {#step-2--create-and-configure-the-service-1}
+### Schritt 2: Dienst erstellen und konfigurieren {#step-2--create-and-configure-the-service-1}
 
-1. From the advanced menu **Profiles &amp; audiences** &gt; **Services** via the Adobe Campaign logo, create a service.
-1. Go to the Service properties section, accessed via the  button in the service dashboard.****![](assets/edit_darkgrey-24px.png)
-1. Fill in the Service label field.****
+1. Erstellen Sie im erweiterten Menü **Profiles &amp; audiences** &gt; **Services** über das Adobe Campaign-Logo einen Dienst.
+1. Gehen Sie zum Abschnitt **[!UICONTROL Diensteigenschaften]** , auf den Sie über die Schaltfläche im Dienst-Dashboard ![](assets/edit_darkgrey-24px.png) zugreifen können.
+1. Füllen Sie das Feld **[!UICONTROL Dienstbezeichnung]** aus.
 
    ![](assets/confirmation_service-label.png)
 
-   >[HINWEIS]
+   >[!NOTE]
    >
-   >You must fill in this field to enable reconciliation with the transactional message.
+   >Sie müssen dieses Feld ausfüllen, um die Versöhnung mit der Transaktionsnachricht zu aktivieren.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Bestätigungsmeldungen]** die Option **[!UICONTROL Benutzerspezifische Nachricht]**: In diesem Modus können Sie auf eine bestimmte Bestätigungsmeldung für Profile verweisen, die Ihren Dienst abonnieren.
 1. Wählen Sie die Konfiguration **[!UICONTROL des]** benutzerspezifischen Abonnementereignisses aus, die der von Ihnen erstellten Transaktionsnachricht zugeordnet ist.
@@ -120,7 +120,11 @@ The confirmation email is a transactional message based on the event that you ju
 
 1. Click **[!UICONTROL Confirm]** and save the service.
 
-Jedes Mal, wenn ein Profil diesen Dienst abonniert, erhält er die von Ihnen definierte Transaktionsmeldung mit personalisierten Feldern, die dem ausgewählten Dienst zugeordnet sind. Eine Nachricht wird nur gesendet, wenn der Benutzer das erste Mal registriert.
+Jedes Mal, wenn ein Profil diesen Dienst abonniert, erhält er die von Ihnen definierte Transaktionsmeldung mit personalisierten Feldern, die dem ausgewählten Dienst zugeordnet sind.
+
+>[!NOTE]
+>
+>Eine Nachricht wird nur gesendet, wenn der Benutzer das erste Mal registriert.
 
 ## Konfigurieren der Bestätigungsmeldung von einer Einstiegsseite {#configuring-confirmation-message-from-landing-page}
 
@@ -147,7 +151,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
 
    ![](assets/confirmation_serviceName-field.png)
 
-   >[HINWEIS]
+   >[!NOTE]
    >
    >The **[!UICONTROL serviceName]** field is mandatory. Wenn Sie sie nicht zur Ereignisdatenstruktur hinzufügen, kann Adobe Campaign keine Abstimmung mit dem abonnierten Dienst durchführen.
 
@@ -156,7 +160,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
 
    ![](assets/confirmation_serviceName-join.png)
 
-   >[HINWEIS]
+   >[!NOTE]
    >
    >Auf diese Weise können Sie Personalisierungsfelder aus der [!UICONTROL Dienstressource] in der Transaktionsmeldung verwenden.
 
@@ -175,7 +179,7 @@ Die Schritte zum Entwerfen der Transaktionsnachricht werden in diesem [Abschnitt
 
 Erstellen Sie eine Abonnement-Landingpage, die auf Ihrer Website veröffentlicht wird.
 
-To create and configure this landing page, follow the steps below:
+Gehen Sie wie folgt vor, um diese Einstiegsseite zu erstellen und zu konfigurieren:
 
 1. Design a [new landing page](../../channels/using/about-landing-pages.md) based on the **[!UICONTROL Subscription]** template.
 1. Bearbeiten Sie die Eigenschaften der Einstiegsseite. Wählen Sie im Abschnitt " **[!UICONTROL Auftrag]** "&gt; " **[!UICONTROL Spezifische Aktionen]** "die Option " **[!UICONTROL Spezifischer Dienst]** "und wählen Sie den soeben erstellten Dienst aus der Dropdownliste.
@@ -190,8 +194,8 @@ To create and configure this landing page, follow the steps below:
 
 1. [Testen und publizieren](../../channels/using/sharing-a-landing-page.md) Sie die Landingpage.
 
-Now each time a profile subscribes to your newsletter by submitting the landing page, he receives the confirmation message that you defined with personalized fields mapped to the service.
+Jedes Mal, wenn ein Profil Ihren Newsletter abonniert, indem er die Einstiegsseite eingibt, erhält er die Bestätigungsmeldung, die Sie mit personalisierten Feldern definiert haben, die dem Dienst zugeordnet sind.
 
->[HINWEIS]
+>[!NOTE]
 >
 >Eine Nachricht wird jedes Mal gesendet, wenn die Einstiegsseite gesendet wird, auch wenn das Profil bereits abonniert ist.
