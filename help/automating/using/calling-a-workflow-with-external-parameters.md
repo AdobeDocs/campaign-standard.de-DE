@@ -13,8 +13,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -51,7 +51,7 @@ Um einen Workflow mit Parametern aufzurufen, müssen Sie diese zunächst in der 
 
 ## Parameter beim Aufruf des Workflows definieren    {#defining-the-parameters-when-calling-the-workflow}
 
-In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workflows definieren können. Weiterführende Informationen zur Durchführung dieses Vorgangs mit einem API-Aufruf finden Sie in der [REST-APIs-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workflows definieren können. Weiterführende Informationen zur Durchführung dieses Vorgang mit einem API-Aufruf finden Sie in der [REST-APIs-Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 Vor der Definition der Parameter müssen folgende Voraussetzungen gegeben sein:
 
@@ -225,7 +225,7 @@ Vor dem Konfigurieren des Workflows müssen Workflow 1 und 2 jeweils mit der Akt
 
 ### Schritt 1: API-Aufruf konfigurieren    {#step-1--configuring-the-api-call}
 
-Führen Sie einen API-Aufruf aus, um Workflow 1 mit Parametern auszulösen. Weiterführende Informationen zur Syntax des API-Aufrufs finden Sie in der [Dokumentation zu Campaign Standard-REST-APIs](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Führen Sie einen API-Aufruf aus, um Workflow 1 mit Parametern auszulösen. Weiterführende Informationen zur Syntax des API-Aufrufs finden Sie in der [Dokumentation zu Campaign Standard-REST-APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 In diesem Beispiel soll der Workflow mit den unten stehenden Parametern aufgerufen werden:
 
