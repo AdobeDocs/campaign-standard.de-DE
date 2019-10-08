@@ -14,8 +14,8 @@ discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -26,7 +26,7 @@ Die Adobe-Campaign-Plattform ermöglicht die Verwaltung von Kontakten über den 
 
 >[!NOTE]
 >
->Profile sind auch über die Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles).
+>Profile sind auch über die Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles).
 
 ![](assets/marketing_history.png)
 
