@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Dienst erstellen](audiences/using/creating-a-service.md)
       + [Dienst bewerben](audiences/using/promoting-a-service.md)
       + [Anmeldungen verfolgen](audiences/using/monitoring-subscriptions.md)
-      + [Confirming subscription to a service](audiences/using/confirming-subscription-to-a-service.md)
+      + [Bestätigung des Abonnements für einen Dienst](audiences/using/confirming-subscription-to-a-service.md)
    + Funktionsweise des Opt-in- und Opt-out-Verfahrens {#understanding-opt-in-and-opt-out-processes}
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -108,18 +108,14 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Folgenachrichten](channels/using/follow-up-messages.md)
    + Landingpages {#landing-pages}
       + [Über Landingpages](channels/using/about-landing-pages.md)
-      + [Einschränkungen bei Landingpages](channels/using/landing-page-limitations.md)
+      + [Wichtigste Schritte zum Einrichten einer Einstiegsseite](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [Einstiegsseitenvorlagen](channels/using/landing-page-templates.md)
       + [Landingpage erstellen](channels/using/designing-a-landing-page.md)
+      + [Verwalten von Landingpage-Formulardaten](channels/using/managing-landing-page-form-data.md)
       + [Landingpage freigeben](channels/using/sharing-a-landing-page.md)
-      + [Datenspeicherung und -abstimmung](channels/using/data-storage-and-reconciliation.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
-      + [Über die Inhaltserstellung von Landingpages](channels/using/about-landing-page-content-design.md)
-      + [Benutzeroberfläche des Inhaltseditors für Landingpages](channels/using/landing-page-content-editor-interface.md)
-      + [Struktur und Stil von Landingpages verwalten](channels/using/managing-landing-page-structure-and-style.md)
-      + [Landingpage über die Dateneigenschaften ändern](channels/using/changing-a-landing-page-form-data-properties.md)
-      + [Dynamische Inhalte in einer Landingpage definieren](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + E-Mail-Inhalt gestalten {#designing-content}
-   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
+   + [Campaign EmailDesigner](designing/using/designing-content-in-adobe-campaign.md)
    + [Schnellstart](designing/using/quick-start.md)
    + [Nutzung und Empfehlungen](designing/using/overview.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
@@ -129,7 +125,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
    + [E-Mails mit mehreren Lösungen erstellen](designing/using/using-integrations.md)
    + [Personalisierung ](designing/using/personalization.md)
    + [Text- und HTML-Modus](designing/using/plain-text-html-modes.md)
-   + [Managing email styles](designing/using/styles.md)
+   + [Verwalten von E-Mail-Stilen](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
 + Testen und Senden {#testing-and-sending}
@@ -323,6 +319,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Ermüdungsregeln](administration/using/fatigue-rules.md)
       + [Kontrollregeln](administration/using/control-rules.md)
    + Anwendungskonfiguration {#application-settings}
+      + [Einstellungen für Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Externe Konten](administration/using/external-accounts.md)
       + [Zielgruppen-Mappings in Campaign](administration/using/target-mappings-in-campaign.md)
       + [Technische Workflows](administration/using/technical-workflows.md)
