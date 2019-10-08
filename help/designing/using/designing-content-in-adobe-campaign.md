@@ -13,8 +13,8 @@ topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+translation-type: tm+mt
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,7 +37,7 @@ Zur Erstellung Ihrer E-Mails können Sie auch vordefinierte Vorlagen wählen ode
 
 Sie können die Wirksamkeit Ihrer Marketingkampagnen verbessern, indem Sie Ihre Inhalte personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field) und [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 
-Zusätzlich können Sie dynamische Inhalte definieren, die je nach Profil angepasst werden. Siehe [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) und [Dynamische Inhalte in einer Landingpage definieren](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
+Zusätzlich können Sie dynamische Inhalte definieren, die je nach Profil angepasst werden. Siehe [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) und [Dynamische Inhalte in einer Landingpage definieren](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
 
 Sie haben auch die Möglichkeit, Ihre Nachrichten und Landingpages mit Links und Bildern zu versehen. Siehe [Link einfügen](../../designing/using/links.md#inserting-a-link) und [Bilder einfügen](../../designing/using/images.md#inserting-images).
 
