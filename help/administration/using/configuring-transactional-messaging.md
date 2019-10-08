@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -186,7 +186,7 @@ Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Erei
 
 In dem in Abschnitt [Funktionsweise von Transaktionsnachrichten](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) beschriebenen Beispiel wird ein Ereignis vom Typ "Stehen gelassener Warenkorb" ausgelöst, wenn ein Besucher Ihre Webseite verlassen hat, ohne den Kauf der Artikel in seinem Warenkorb abzuschließen. Zu diesem Zweck muss der Web-Entwickler Ihrer Seite die Adobe Campaign Standard REST-API verwenden.
 
-Weiterführende Informationen dazu finden Sie im Abschnitt [REST-API-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
+Weiterführende Informationen dazu finden Sie im Abschnitt [REST-API-Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
 
 ## Konfigurationen für Transaktionsereignisse {#transactional-event-specific-configurations}
 
