@@ -14,8 +14,8 @@ discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -32,7 +32,7 @@ Mit der Aktivität **[!UICONTROL Externes Signal]** wird ein Workflow ausgelöst
 
 Mit der Aktivität **[!UICONTROL Externes Signal]** können unterschiedliche Prozesse organisiert und geplant werden, die Teil derselben Customer Journey in unterschiedlichen Workflows sind. Dadurch kann ein Workflow durch einen anderen aktiviert werden, wodurch komplexere Customer Journeys unterstützt werden. Dies ermöglicht wiederum eine bessere Überwachung der Prozesse und eine raschere Reaktion im Fall von Problemen.
 
-Die Aktivität **[!UICONTROL Externes Signal]** ist die erste Aktivität eines Workflows. Sie kann durch die **[!UICONTROL Ende]**-Aktivität eines anderen Workflows oder einen REST-API-Aufruf ausgelöst werden (mehr dazu finden Sie in der [API-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)).
+Die Aktivität **[!UICONTROL Externes Signal]** ist die erste Aktivität eines Workflows. Sie kann durch die **[!UICONTROL Ende]**-Aktivität eines anderen Workflows oder einen REST-API-Aufruf ausgelöst werden (mehr dazu finden Sie in der [API-Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)).
 
 Nach dem Aufruf können externe Parameter definiert und in den Workflow-Ereignisvariablen verfügbar gemacht werden. Der Vorgang zum Aufrufen eines Workflows mit externen Parametern wird in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md) beschrieben.
 
@@ -58,7 +58,7 @@ Bei der Konfiguration eines externes Signals muss zuerst die Aktivität **[!UICO
 
    >[!NOTE]
    >
-   >Wenn Sie den Ziel-Workflow in einem anderen Workflow auslösen möchten, gehen Sie folgendermaßen vor. Weiterführende Informationen zum Auslösen des Ziel-Workflows über einen REST-API-Aufruf finden Sie in der [API-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity).
+   >Wenn Sie den Ziel-Workflow in einem anderen Workflow auslösen möchten, gehen Sie folgendermaßen vor. Weiterführende Informationen zum Auslösen des Ziel-Workflows über einen REST-API-Aufruf finden Sie in der [API-Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity).
 
 1. Öffnen Sie den Ursprungs-Workflow und wählen Sie eine **[!UICONTROL Ende]**-Aktivität aus. Wenn keine **[!UICONTROL Ende]**-Aktivität verfügbar ist, fügen Sie eine nach der letzten Aktivität eines Workflow-Zweigs hinzu.
 
