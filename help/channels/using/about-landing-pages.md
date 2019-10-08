@@ -14,8 +14,8 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
 
 ---
 
@@ -24,26 +24,14 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Campaign bietet eine Landingpage-Funktion an. Landingpages sind Webformulare, mit denen Sie Informationen zu Ihren Audiences erfassen, Abonnements für einen Dienst anbieten, Daten darstellen und Ihre Datenbank erweitern können. Landingpages können außerdem zur Akquise oder Aktualisierung bestehender Profile verwendet werden.
 
->[!CAUTION]
->
->Landingpages ermöglichen ausschließlich die Aktualisierung von Profilen.
+Weitere Informationen zu den erforderlichen Schritten zum Einrichten einer Einstiegsseite finden Sie in [diesem Abschnitt](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
-Campaign ist mit einer Reihe nativer Landingpage-Vorlagen ausgestattet:
+**Verwandte Themen:**
 
-* **[!UICONTROL Akquise]**: Dies ist die Standardvorlage für Landingpages, mit der Sie Daten in der Campaign-Datenbank erfassen und aktualisieren können.
-* **[!UICONTROL Anmeldung]**: Mit dieser Vorlage können Sie Abonnements für einen Dienst anbieten.
-* **[!UICONTROL Abmeldung]**: Mit dieser Vorlage können Sie eine Verbindung zwischen einer gesendeten E-Mail und Abonnenten eines Dienstes herstellen, sodass sich diese von diesem Dienst abmelden können.
-* **[!UICONTROL Blacklist]**: Verwenden Sie diese Vorlage, wenn ein Kontakt nicht mehr von Campaign kontaktiert werden möchte. Weiterführende Informationen zum Blacklisting erfahren Sie im Abschnitt [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* [Video](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) zum Erstellen eines Einstiegsseitentrags
+* [Verwenden einer Einstiegsseite zum Abonnieren eines Dienstes](../../audiences/using/creating-a-service.md)
 
-Diese Vorlagen werden bei der Erstellung einer neuen Landingpage standardmäßig vorgeschlagen.
-
-![](assets/lp_creation_1.png)
-
-Adobe empfiehlt, eigene Vorlagen durch das Duplizieren nativer Vorlagen zu erstellen. Manche Parameter können nur in Landingpage-Vorlagen festgelegt und nicht direkt in Landingpages geändert werden.
-
->[!NOTE]
->
->Um auf Landingpage-Vorlagen zuzugreifen, wählen Sie das Adobe Campaign-Logo in der linken oberen Ecke aus und danach **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen]** &gt; **[!UICONTROL Landingpage-Vorlagen]**.
+## Lebenszyklus von Einstiegsseiten {#landing-pages-life-cycle}
 
 Ein vollständiger Landingpage-Lebenszyklus umfasst die folgenden Phasen:
 
@@ -56,7 +44,39 @@ Ein vollständiger Landingpage-Lebenszyklus umfasst die folgenden Phasen:
 
 Nach der Erstellung und Publikation einer Landingpage können Sie diese auf einer Webseite zugänglich machen oder einen [direkten Link auf die Landingpage in eine E-Mail einfügen](../../designing/using/links.md#inserting-a-link).
 
-**Verwandte Themen:**
+## Einschränkungen bei Landingpages{#landing-page-limitations}
 
-* Video [Creating a landing page](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
-* [Über eine Landingpage zu einem Dienst anmelden](../../audiences/using/creating-a-service.md)
+Im folgenden Abschnitt werden die Einschränkungen aufgelistet, die Sie beachten sollten, bevor Sie mit der Einrichtung der Einstiegsseiten beginnen.
+
+**Daten schreiben und aktualisieren**
+
+* Landingpages sind auf **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]** und über die Anmeldung zu/Abmeldung von einem **[!UICONTROL Dienst]** möglich.
+Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
+
+>[!CAUTION]
+>
+>Die Ansicht oder Aktualisierung von auf einer Landingpage eingegebenen Daten ist über keine andere Ressource als **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]** möglich.
+
+**Vorausfüllen**
+
+* Auf einer Landingpage ist keine automatische Anzeige von Daten möglich. Außerdem können keine Dienste angezeigt werden, für die Profile bereits ein Abonnement besitzen. Weiterführende Informationen zu Diensten finden Sie auf dieser [Seite](../../audiences/using/creating-a-service.md).
+
+* Der Zugriff auf eine Landingpage mit einem vorausgefüllten Formular (Daten werden bereits mit der Seite geladen) kann ausschließlich über eine Adobe Campaign-E-Mail erfolgen. Über eine Seite einer Website ist der Zugriff auf ein derartiges Formular nicht möglich.
+
+**Abstimmung**
+
+* Das Abstimmungsverhalten sieht folgendermaßen aus: Sobald eine Übereinstimmung gefunden wird, endet der Abstimmungsprozess. Dies bedeutet, dass die Abstimmung nur für einen Profildatensatz durchgeführt werden kann und nicht für mehrere Datensätze, falls Duplikate vorhanden sind.
+
+Sie möchten beispielsweise die folgende Akquise-Landingpage an Ihre Profile senden, um Ihre Campaign-Datenbank mit den Mobiltelefonnummern der Profile zu aktualisieren.
+
+![](assets/landing_page_limitation_1.png)
+
+Wenn eines Ihrer Profile auf Ihrer Landingpage neue Daten eingibt, aber bereits ein dupliziertes Profil vorhanden ist, wird das passende Profil mit dem frühesten Erstellungsdatum aktualisiert, da Profile nach ihrem Erstellungsdatum priorisiert werden.
+
+Hier wurde nur das erste Profil aktualisiert, da dessen Eintrag früher erfolgte.
+
+![](assets/landing_page_limitation_2.png)
+
+**Einstiegsseiten testen**
+
+* Landingpages funktionieren nur mit Profilen, nicht aber mit Testprofilen, weshalb Landingpages nicht im Zuge eines E-Mail-Testversands getestet werden können.
