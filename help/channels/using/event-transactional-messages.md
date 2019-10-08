@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 
 >[!NOTE]
 >
->Um auf Transaktionsnachrichten zugreifen zu können, müssen Sie entweder über Administratorrechte verfügen oder der Sicherheitsgruppe **[!UICONTROL Message Center Agents]** (mcExec) angehören. Ereignis-Transaktionsnachrichten enthalten keine Profilinformationen, weshalb sie nicht mit Ermüdungsregeln kompatibel sind (auch nicht, wenn sie mit Profilen angereichert werden). Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Für den Zugriff auf Transaktionsmeldungen müssen Sie zur Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** gehören.
+>
+>Ereignis-Transaktionsnachrichten enthalten keine Profilinformationen, weshalb sie nicht mit Ermüdungsregeln kompatibel sind (auch nicht, wenn sie mit Profilen angereichert werden). Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
 ## Testprofil in einer Transaktionsnachricht definieren    {#defining-a-test-profile-in-a-transactional-message}
 
@@ -109,7 +111,7 @@ Gehen Sie folgendermaßen vor, um für eine Transaktionsnachricht eine Personali
 
 1. Erzeugen Sie die Vorschau Ihrer Nachricht unter Verwendung des für dieses Ereignis konfigurierten Testprofils.
 
-   Weiterführende Informationen zur Vorschauerzeugung finden Sie im Abschnitt [Vorschau der Nachricht erzeugen](../../sending/using/preparing-the-send.md).
+   Weiterführende Informationen zur Vorschauerzeugung finden Sie im Abschnitt [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md).
 
    ![](assets/message-center_9.png)
 
@@ -258,7 +260,7 @@ Bei jeder Auslösung des Ereignisses "Stehen gelassener Warenkorb" wird nun auto
 
 Sie haben die Möglichkeit, die Publikation Ihrer Transaktionsnachricht mittels der Verwendung der Schaltfläche **[!UICONTROL Aussetzen]** zeitweise zu unterbinden, um beispielsweise die in der Nachricht enthaltenen Daten abzuändern. Die Ereignisse werden so nicht länger verarbeitet, sondern stattdessen in einer Warteschlange der Adobe-Campaign-Datenbank aufbewahrt.
 
-Die sich in der Warteschlange befindlichen Ereignisse werden für einen Zeitraum aufbewahrt, der in der REST-API (siehe die [REST-API-Dokumentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) oder im Trigger-Ereignis festgelegt ist, wenn Sie den Triggers Core Service (siehe [Campaign und Experience Cloud Triggers verwenden](../../integrating/using/about-adobe-experience-cloud-triggers.md)) nutzen.
+Die sich in der Warteschlange befindlichen Ereignisse werden für einen Zeitraum aufbewahrt, der in der REST-API (siehe die [REST-API-Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) oder im Trigger-Ereignis festgelegt ist, wenn Sie den Triggers Core Service (siehe [Campaign und Experience Cloud Triggers verwenden](../../integrating/using/about-adobe-experience-cloud-triggers.md)) nutzen.
 
 ![](assets/message-center_pause.png)
 
