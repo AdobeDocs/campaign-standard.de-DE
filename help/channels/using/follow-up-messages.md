@@ -14,7 +14,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -49,7 +49,7 @@ Nur die Folgenachrichten werden angezeigt.
 
 >[!NOTE]
 >
->Um auf Transaktionsnachrichten zugreifen zu können, müssen Sie entweder über Administratorrechte verfügen oder der Sicherheitsgruppe **[!UICONTROL Message Center Agents]** (mcExec) angehören.
+>Für den Zugriff auf Transaktionsmeldungen müssen Sie zur Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** gehören.
 
 ## Folgenachrichten senden {#sending-a-follow-up-message}
 
