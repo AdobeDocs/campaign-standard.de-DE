@@ -14,8 +14,8 @@ discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -41,5 +41,5 @@ Klicken Sie auf ein Ereignis in der Liste, um es zu öffnen. Dort können Sie au
 
 >[!NOTE]
 >
->Der Marketingverlauf kann auch über die Adobe Campaign Standard API aufgerufen werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history).
+>Der Marketingverlauf kann auch über die Adobe Campaign Standard API aufgerufen werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history).
 
