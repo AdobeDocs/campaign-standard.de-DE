@@ -15,7 +15,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
+source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
 
 ---
 
@@ -41,7 +41,7 @@ So konfigurieren Sie einen Dienst:
    * **[!UICONTROL Keine Nachricht]**: Mit diesem Modus können Sie einen Dienst ohne Bestätigungsnachricht erstellen.
    * **[!UICONTROL Standardnachricht]**: Bei diesem Modus wird die standardmäßige Bestätigungs-Transaktionsnachricht für An- oder Abmeldungen verwendet. Die Standard-Bestätigungsnachrichten sind allgemein gehalten und für alle Dienste identisch, die den Standardmodus verwenden.
 
-      >[HINWEIS]
+      >[!NOTE]
       >
       >Sie können eine Standardnachricht ändern, indem Sie im Abschnitt " **[!UICONTROL Diensteigenschaften]** "auf ihre Beschriftung klicken oder sie in der Transaktionsmeldungsliste von Adobe Campaign auswählen, nachdem Sie das Feld "Interne Transaktionsmeldungen **[!UICONTROL anzeigen"aktiviert haben]** .
 
