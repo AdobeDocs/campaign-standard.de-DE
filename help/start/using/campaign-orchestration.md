@@ -13,8 +13,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 80dffe691855a22f1a337df5fb4bda58c8bcc4a0
+translation-type: tm+mt
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,7 +37,7 @@ Die wichtigsten Schritte bei der Erstellung und Koordinierung einer Marketingkam
 
 * **Vorbereitung** – In dieser Anfangsphase kann der Benutzer den Zweck und das Ziel der Kampagne formulieren, d. h. den Marketingplan entwickeln, die Zielgruppe identifizieren, den Inhalt und den Erstellungsmodus, das erwartete Ergebnis und das dafür verantwortliche Personal definieren.
 * **Zielgruppenbestimmung** – In diesem Arbeitsschritt kann der Benutzer den Datenerfassungsmodus, die Struktur, die Segmentierung, Audiences, Testadressen, Tests, Filterbedingungen etc. bestimmen. Auch An- und Abmeldemöglichkeiten werden in dieser Phase eingerichtet. Siehe [Profile und Audiences](../../audiences/using/about-profiles.md).
-* **Erstellen von Nachrichten und Inhalten** – In dieser Phase wird der [Kommunikationskanal](../../channels/using/discovering-communication-channels.md) ausgewählt. Sie können auch [Landingpages](../../channels/using/about-landing-page-content-design.md) erstellen, um Profile zu erfassen oder zu aktualisieren und Ihre Datenbank zu erweitern. Siehe [E-Mails erstellen](../../channels/using/creating-an-email.md), [SMS erstellen](../../channels/using/creating-an-sms-message.md), [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md), [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md), [Briefpost-Versand erstellen](../../channels/using/creating-the-direct-mail.md).
+* **Erstellen von Nachrichten und Inhalten** – In dieser Phase wird der [Kommunikationskanal](../../channels/using/discovering-communication-channels.md) ausgewählt. Sie können auch [Landingpages](../../channels/using/about-landing-pages.md) erstellen, um Profile zu erfassen oder zu aktualisieren und Ihre Datenbank zu erweitern. Siehe [E-Mails erstellen](../../channels/using/creating-an-email.md), [SMS erstellen](../../channels/using/creating-an-sms-message.md), [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md), [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md), [Briefpost-Versand erstellen](../../channels/using/creating-the-direct-mail.md).
 * **Test und Versand** – die Ausführungsphase umfasst die Validierung von Inhalt und Zielgruppe (mittels Vorschau und Testsendungen) sowie den eigentlichen Versand der Nachrichten. Siehe [Test und Versand](../../sending/using/about-sending-messages-with-campaign.md).
 * **Monitoring und Berichterstellung** – Im Anschluss an die Ausführung der Kampagne und den Versand der verschiedenen Nachrichten dient diese Phase dem Abruf der Versandstatus, der Trackinginformationen sowie der Analysedaten. Die Kampagnen und Sendungen betreffenden Berichte werden erzeugt, um den Erfolg der Kampagne bzw. das Empfängerverhalten zu verfolgen. See [Reporting-Tools](../../reporting/using/about-dynamic-reports.md).
 * **Automatisierung** – In dieser Phase erfolgt die Definition zusätzlicher Faktoren wie der Implementierungsmethoden für Import- und Exportmechanismen, der Datenverwaltung und der Aktualisierungsmodi, der Identifizierung von Personalisierungsdaten etc. Siehe [Workflows und Datenmanagement](../../automating/using/workflow-data-and-processes.md).
