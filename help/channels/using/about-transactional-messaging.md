@@ -13,8 +13,8 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -46,7 +46,7 @@ Der Nachrichtentyp wird bei der Konfiguration des Ereignisses definiert, das ein
 >
 >In Adobe Campaign hat die Verarbeitung von Transaktionsnachrichten Priorität vor allen anderen Sendungen.
 
-Transaktionsnachrichten sind auch in der Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+Transaktionsnachrichten sind auch in der Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
 
 ## Funktionsweise von Transaktionsnachrichten {#transactional-messaging-operating-principle}
 
@@ -63,6 +63,10 @@ Gehen Sie hierzu wie folgt vor:
 Nachdem all diese Etappen durchlaufen sind, erhält ein Webseitenbesucher, sobald er die Seite verlässt, ohne die Artikel in seinem Warenkorb bestellt zu haben, automatisch eine Benachrichtigungs-E-Mail.
 
 ## Einschränkungen bei Transaktionsnachrichten {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>Für den Zugriff auf Transaktionsmeldungen benötigen Sie Administratorrechte.
 
 ### Gestaltung und Publikation {#design-and-publication}
 
@@ -95,13 +99,13 @@ Beachten Sie, dass Produktlisten nur in Nachrichten von Transaktions-E-Mails ver
 
 ### Berechtigungen und Branding   {#permissions-and-branding}
 
-Beim [Branding](../../administration/using/branding.md) bieten Transaktionsnachrichten weniger Flexibilität als Standardnachrichten. Adobe empfiehlt, alle in Transaktionsnachrichten verwendeten Marken mit der Organisationseinheit **[!UICONTROL Alle]** zu verknüpfen. Weiterführende Informationen dazu finden Sie in der unten stehenden Erläuterung.
+Beim [Branding](../../administration/using/branding.md) bieten Transaktionsnachrichten weniger Flexibilität als Standardnachrichten. Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md). Weiterführende Informationen dazu finden Sie in der unten stehenden Erläuterung.
 
 Bei der Bearbeitung einer Transaktionsnachricht können Sie sie mit einer Marke verknüpfen, um einige Parameter automatisch einzufügen, wie z. B. den Markennamen oder das Markenlogo. In den Eigenschaften der Transaktionsnachricht ist standardmäßig die **[!UICONTROL Standardmarke]** ausgewählt.
 
 ![](assets/message-center_branding.png)
 
-Um auf die Transaktionsnachrichten zugreifen zu können, müssen Sie Teil der Sicherheitsgruppe **[!UICONTROL Message Center Agents]** (mcExec) sein, die mit der [Organisationseinheit](../../administration/using/organizational-units.md) **[!UICONTROL Message Center]** verknüpft ist. Deshalb müssen alle in einer Transaktionsnachricht verwendeten Objekte (einschließlich der Marke) in der Organisationseinheit **[!UICONTROL Message Center]** sichtbar sein, d. h. diese Objekte müssen sich in der Organisationseinheit **[!UICONTROL Message Center]** oder **[!UICONTROL Alle]** befinden.
+All objects (including branding) used in a transactional message must be visible from the **[!UICONTROL Message Center]** organizational unit, meaning that these objects must be in the **[!UICONTROL Message Center]** or **[!UICONTROL All]** organizational units.
 
 Wenn aber die in den Nachrichteneigenschaften ausgewählte Marke mit einer anderen Organisationseinheit als **[!UICONTROL Message Center]** or **[!UICONTROL Alle]** verknüpft ist, tritt ein Fehler auf und die Transaktionsnachricht kann nicht gesendet werden.
 
