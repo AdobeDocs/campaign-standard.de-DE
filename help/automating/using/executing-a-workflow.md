@@ -14,8 +14,8 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -60,7 +60,7 @@ Bei einer geöffneten Transition kann ihr **[!UICONTROL Titel]** geändert oder 
 
 Mit der REST API können Sie einen Workflow **starten**, **aussetzen**, wieder **aufnehmen** und **anhalten**.
 
-Weiterführende Informationen und Beispiele von REST-Aufrufen finden Sie in der [API-Dokumentation.](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+Weiterführende Informationen und Beispiele von REST-Aufrufen finden Sie in der [API-Dokumentation.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
 
 ## Workflow-Lebenszyklen {#life-cycle}
 
