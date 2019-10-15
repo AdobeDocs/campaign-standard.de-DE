@@ -14,8 +14,8 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 12134f388c6406b1b7c5821a1ae49c2332ae33cb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
 
 In Adobe Campaign stehen Ihnen zur Anpassung von Push-Benachrichtigungen bei deren Erstellung eine Reihe erweiterter Optionen zur Verfügung.
 
-Erfahrene Benutzer können bezüglich der Konfiguration von Mobile Apps in Adobe Campaign folgende Technote zu Rate ziehen: [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+Erfahrene Benutzer können bezüglich der Konfiguration von Mobile Apps in Adobe Campaign folgende TechNote zu Rate ziehen: [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
 
 ![](assets/push_notif_advanced.png)
 
@@ -108,6 +108,30 @@ Gehen Sie folgendermaßen vor, um eine Kategorie zu einer Push-Benachrichtigung 
 
 Abhängig von der Aktion der Benutzer wird die Anwendung benachrichtigt, sodass etwaige damit verbundene Aufgaben ausgeführt werden.
 
+## Ablaufdatum hinzufügen {#add-expiration-date}
+
+>[!NOTE]
+>
+>Diese Änderungen gelten nur ab Version 19.4 von Campaign Standard.
+
+Wenn Sie ein Ablaufdatum für Ihre Push-Benachrichtigung festlegen, können Sie ein bestimmtes Ablaufdatum festlegen, an dem die Nachricht nicht mehr von Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) oder Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)) gesendet wird.
+
+So fügen Sie Ihrer Push-Benachrichtigung ein Ablaufdatum hinzu:
+
+1. Aktivieren Sie die Option **[!UICONTROL Läuft ab-Meldung]** .
+
+   >[!NOTE]
+   >
+   >Durch Auswahl der Option **[!UICONTROL Läuft ab-Meldung]** wird die Dauer automatisch auf 0 eingestellt. Wenn Sie den Wert nicht ändern, versuchen sowohl APNS als auch FCM, die Nachricht sofort zu senden. Wenn die Meldung fehlschlägt, wird sie nicht erneut gesendet.
+
+1. Wählen Sie im Feld **[!UICONTROL Dauer]** die Gültigkeit Ihrer Push-Benachrichtigung aus.
+
+   ![](assets/push_expiration.png)
+
+1. Wenn der Benutzer die Push-Benachrichtigung nach dem Senden nicht sofort erhalten hat, weil das Telefon nicht eingeschaltet ist oder kein Signal hat, wird der Push-Vorgang weiterhin innerhalb des Zeitfensters für das Ablaufdatum gesendet.
+
+Wenn die Push-Benachrichtigung nicht vor dem Ablaufdatum gesendet wurde, wird sie verworfen.
+
 ## Benutzerdefinierte Felder hinzufügen  {#add-custom-fields}
 
 Mit benutzerdefinierten Feldern können Sie benutzerdefinierte Daten in der Payload in Form eines Schlüssel-/Werte-Paares übermitteln. Mit dieser Option haben Sie die Möglichkeit, neben den vordefinierten Schlüsseln auch Zusatzdaten an die Anwendung zu senden.
@@ -135,7 +159,7 @@ Gehen Sie folgendermaßen vor, um Rich-Media-Inhalte in Push-Benachrichtigungen 
 1. Öffnen Sie die Push-Benachrichtigung und greifen Sie auf den Bereich **[!UICONTROL Erweiterte Optionen]** zu.
 1. Geben Sie für jedes Format – iOS und Android – die URL Ihrer Datei in das Feld **[!UICONTROL URL für Rich-Media-Daten]** ein.
 
-   Unter iOS 10 oder höher können Sie Bild-, GIF-, Audio- und Videodateien einfügen. Bei früheren iOS-Versionen wird die Push-Benachrichtigung ohne Rich-Inhalte angezeigt. Eine detaillierte Anleitung zum Anzeigen von Bildern in einer Push-Benachrichtigung in Adobe Campaign auf einem iOS-Gerät finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/display-image-push.html).
+   Unter iOS 10 oder höher können Sie Bild-, GIF-, Audio- und Videodateien einfügen. Bei früheren iOS-Versionen wird die Push-Benachrichtigung ohne Rich-Inhalte angezeigt. Eine detaillierte Anleitung zum Anzeigen von Bildern in einer Push-Benachrichtigung in Adobe Campaign auf einem iOS-Gerät finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/display-image-push.html).
 
    Unter Android können Sie nur Bilder einfügen.
 
@@ -151,7 +175,7 @@ Gehen Sie folgendermaßen vor, um Rich-Media-Inhalte in Push-Benachrichtigungen 
 
 Für iOS 10 oder höher sind zwei zusätzliche Optionen im Bereich **[!UICONTROL Erweiterte Optionen]** für Push-Benachrichtigungen verfügbar: **[!UICONTROL Veränderlicher Inhalt]** und **[!UICONTROL Inhalt verfügbar]**.
 
-Wenn die Option **[!UICONTROL Veränderlicher Inhalt]** aktiviert ist und/oder eine URL für Rich-Media-Daten hinzugefügt wird, wird das Flag für veränderlichen Inhalt in der Push-Payload gesendet. Dadurch kann der Inhalt der Push-Benachrichtigung durch eine im iOS SDK enthaltene Erweiterung verändert werden. Weiterführende Informationen dazu finden Sie in der [Dokumentation für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).
+Wenn die Option **[!UICONTROL Veränderlicher Inhalt]** aktiviert ist und/oder eine URL für Rich-Media-Daten hinzugefügt wird, wird das Flag für veränderlichen Inhalt in der Push-Payload gesendet. Dadurch kann der Inhalt der Push-Benachrichtigung durch eine im iOS SDK enthaltene Erweiterung verändert werden. Weiterführende Informationen dazu finden Sie im [Handbuch für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).
 
 Danach können Sie mithilfe Ihrer Mobile-App-Erweiterungen den Inhalt oder die Darstellung von Push-Benachrichtigungen, die über Adobe Campaign gesendet werden, weiter verändern. Mit dieser Option haben Sie beispielsweise folgende Möglichkeiten:
 
@@ -160,13 +184,13 @@ Danach können Sie mithilfe Ihrer Mobile-App-Erweiterungen den Inhalt oder die D
 * Den Text oder Titel einer Benachrichtigung ändern
 * Eine Thread-Id zur einer Benachrichtigung hinzufügen
 
-Wenn **[!UICONTROL Inhalt verfügbar]** aktiviert ist, wird das Inhalt-verfügbar-Flag in der Push-Payload gesendet. Dadurch wird die App sofort beim Empfang der Push-Benachrichtigung aktiviert, wodurch die App auf die Payload-Daten zugreifen kann. Dies ist möglich, auch wenn die App im Hintergrund läuft und ohne dass der Benutzer eingreifen muss (z. B. durch Antippen der Push-Benachrichtigung). Dies ist jedoch nicht möglich, wenn die App nicht läuft. Weiterführende Informationen dazu finden Sie in der [Dokumentation für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
+Wenn **[!UICONTROL Inhalt verfügbar]** aktiviert ist, wird das Inhalt-verfügbar-Flag in der Push-Payload gesendet. Dadurch wird die App sofort beim Empfang der Push-Benachrichtigung aktiviert, wodurch die App auf die Payload-Daten zugreifen kann. Dies ist möglich, auch wenn die App im Hintergrund läuft und ohne dass der Benutzer eingreifen muss (z. B. durch Antippen der Push-Benachrichtigung). Dies ist jedoch nicht möglich, wenn die App nicht läuft. Weiterführende Informationen dazu finden Sie im [Handbuch für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
 
 ## Verhalten von Benachrichtigungen für Android ändern {#change-the-notification-behavior-for-android}
 
 Geben Sie für Android im Feld **URL für Rich-Media-Daten** die URL Ihrer Datei ein. Im Gegensatz zur iOS-Version können Sie unter Android nur Bilddateien, nicht aber GIF-, Audio- oder Videodateien einfügen.
 
-Mit der Option **[!UICONTROL Hohe Priorität]** können Sie für eine Push-Benachrichtigung hohe oder normale Priorität festlegen. Weiterführende Informationen zur Priorität von Nachrichten finden Sie in der [Dokumentation für Google-Entwickler](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).
+Mit der Option **[!UICONTROL Hohe Priorität]** können Sie für eine Push-Benachrichtigung hohe oder normale Priorität festlegen. Weiterführende Informationen zur Priorität von Nachrichten finden Sie im [Handbuch für Google-Entwickler](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).
 
 ![](assets/push_notif_advanced_11.png)
 
