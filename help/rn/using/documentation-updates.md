@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
 
 ---
 
@@ -26,6 +26,24 @@ Hier erhalten Sie Informationen über Dokumentationsaktualisierungen für Adobe 
 Auf dieser Seite finden Sie eine nach Version geordnete Übersicht neuer Funktionen und aktueller Änderungen in der Dokumentation für Adobe Campaign Standard.
 
 Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-notes.md).
+
+## 19.4 - Version Oktober 2019  {#release-19-4---october-2019}
+
+### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-20}
+
+California Consumer Privacy Act (CCPA) - [Weitere Informationen](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Microsoft Dynamics 365-Integration (GA) - [Weitere Informationen](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-18}
+
+Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Der Leitfaden für die ersten Schritte des GDPR wurde verbessert und erweitert. Es handelt sich jetzt um eine Dokumentation zum Schutz der Privatsphäre einschließlich GDPR und CCPA. [mehr dazu](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+
+Es wurde ein neues Diagramm mit dem Veröffentlichungsprozess für Transaktionsnachrichten hinzugefügt. [mehr dazu](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+Der Leitfaden zu Best Practices für die Auslieferung wurde aktualisiert. [mehr dazu](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## Aktualisierungen der Dokumentation - Oktober 2019 {#doc-updates-october-2019}
 
