@@ -14,8 +14,8 @@ discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 ---
 
@@ -35,6 +35,7 @@ In Adobe Campaign stehen Ihnen zur Anpassung von In-App-Nachrichten bei deren Er
 
 * [In-App-Nachricht senden](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Berichte zum In-App-Nachrichtenversand](../../reporting/using/in-app-report.md)
+* [Implementieren der Verfolgung lokaler Benachrichtigungen](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## Mit einer Nachrichtenvorlage anpassen {#customizing-with-a-message-template}
 
@@ -140,6 +141,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 ## Nachricht vom Typ "Lokale Benachrichtigung" anpassen     {#customizing-a-local-notification-message-type}
 
 Lokale Benachrichtigungen können nur von einer App zu einer bestimmten Zeit und abhängig von einem Ereignis ausgelöst werden. Mit lokalen Benachrichtigungen werden Benutzer über Prozesse in der App informiert, auch wenn kein Internetzugang vorhanden ist.
+Auf dieser [Seite](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)erfahren Sie, wie Sie lokale Benachrichtigungen verfolgen.
 
 So passen Sie lokale Benachrichtigungen an:
 
