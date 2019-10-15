@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
 
 ---
 
@@ -61,6 +61,14 @@ Gehen Sie hierzu wie folgt vor:
 1. Außerdem muss dieses Ereignis über die Firmenwebseite unter Verwendung einer Adobe Campaign Standard REST-API gesendet werden, damit ersteres ausgelöst wird, wenn ein Kunde seinen Warenkorb stehen lässt. Siehe [Webseiten-Integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 Nachdem all diese Etappen durchlaufen sind, erhält ein Webseitenbesucher, sobald er die Seite verlässt, ohne die Artikel in seinem Warenkorb bestellt zu haben, automatisch eine Benachrichtigungs-E-Mail.
+
+## Veröffentlichungsprozess für Transaktionsnachrichten {#transactional-messaging-pub-process}
+
+Die nachstehende Tabelle zeigt den Prozess der Veröffentlichung von Transaktionsnachrichten.
+
+![](assets/message-center_pub-process.png)
+
+Weitere Informationen zu den Schritten zur Ereigniskonfiguration finden Sie unter Konfiguration[von ](../../administration/using/configuring-transactional-messaging.md)Transaktionsnachrichten.
 
 ## Einschränkungen bei Transaktionsnachrichten {#transactional-messaging-limitations}
 
