@@ -13,8 +13,8 @@ topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+translation-type: tm+mt
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
@@ -33,7 +33,7 @@ Mit Komponenten können Sie Ihren Berichten unterschiedliche Dimensionen, Messwe
 
    * **Dimensionen**: Hier erhalten Sie Informationen vom Versandlog, wie Details zum Browser oder zur Domain des Benutzers oder darüber, wie erfolgreich ein Versand war.
    * **Metriken**: Hier erhalten Sie Details zum Status einer Nachricht, z. B. ob eine Nachricht zugestellt und von einem Benutzer geöffnet wurde.
-   * **[!UICONTROL Segmente]**: Hiermit können Daten nach der Altersgruppe des Empfängers gefiltert werden. **[!UICONTROL Segmente]** können per Drag-and-drop direkt in eine Freiformtabelle oder in die Symbolleiste des Bedienfelds verschoben werden.
+   * **[!UICONTROL Segmente]**: Hiermit können Daten nach der Altersgruppe des Empfängers gefiltert werden. **[!UICONTROL Segmente]** können per Drag-and-drop direkt in eine Freiformtabelle oder in die Symbolleiste des Bedienfelds verschoben werden. Ab Version 19.4 wird der **[!UICONTROL Ausschlussnachweis]** bereits standardmäßig ausgewählt, kann aber bei Bedarf geändert werden.
 
       Diese Kategorie ist erst verfügbar, nachdem der Administrator die Nutzungsbedingungen der auf dem Bildschirm angezeigten Nutzungsvereinbarung zur dynamischen Berichterstattung (Dynamic Reporting Usage Agreement) bestätigt hat. Wenn der Administrator die Vereinbarung ablehnt, sind die Segmente im Tab **[!UICONTROL Komponenten]** nicht sichtbar und die entsprechenden Daten werden nicht erfasst.
 
