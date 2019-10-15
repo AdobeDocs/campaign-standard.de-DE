@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch eine
 
 ## Berechtigungen einrichten und Daten vorausfüllen   {#setting-permissions-and-pre-loading-data}
 
-Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen. In diesem Fall können Sie ihre Daten auf der Landingpage schon vorab ausfüllen. Gehen Sie wie folgt vor:
+Der Zugriff auf eine Einstiegsseite kann auf identifizierte Besucher beschränkt werden, die beispielsweise von einem Link in einer von Campaign gesendeten Nachricht kommen, oder auf eine bestimmte Organisationseinheit.
+Bei identifizierten Besuchern können Sie deren Daten im Voraus auf die Einstiegsseite laden. Gehen Sie wie folgt vor:
 
 1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Zugriff &amp; Ladung]** auf.
 
@@ -384,6 +385,26 @@ Außerdem haben Sie folgende Möglichkeiten:
 
 * Mithilfe der URL-Parameter können Sie über die Option **[!UICONTROL Besucheridentifizierung über URL-Parameter zulassen]** die Besucher identifizieren. Wählen Sie dann den Ladeschlüssel aus und mappen Sie die Filterparameter mit den entsprechenden URL-Parametern.
 * Gewähren Sie allen Besuchern Zugriff auf die Landingpage, indem Sie die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]** auswählen.
+
+Einstiegsseiten können auch mit einer Organisationseinheit verknüpft werden. Dadurch wird der Zugriff der Benutzer auf die verschiedenen Einstiegsseiten definiert. So weisen Sie eine Organisationseinheit zu:
+
+1. Greifen Sie über das Symbol Eigenschaften **[!UICONTROL bearbeiten auf Ihre Eigenschaften]** zu.
+
+   ![](assets/lp_parameters_google3.png)
+
+1. Blenden Sie die **[!UICONTROL Zugriffsberechtigung]** aus.
+
+1. Klicken Sie auf das Dropdownmenü und wählen Sie Ihre Organisationseinheit aus. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
+
+   ![](assets/lp_org_unit_2.png)
+
+1. The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Access authorization]** and **[!UICONTROL Last modified]** fields are automatically completed.
+
+1. Wählen Sie **[!UICONTROL Bestätigen]** und danach **[!UICONTROL Speichern]**.
+
+Auf Ihre Einstiegsseite können Sie nun nur noch von Benutzern innerhalb der ausgewählten Organisationseinheit zugreifen und verwalten.
+
+![](assets/lp_org_unit_3.png)
 
 ## Google reCAPTCHA einrichten {#setting-google-recaptcha}
 
