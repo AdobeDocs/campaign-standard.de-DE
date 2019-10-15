@@ -14,8 +14,8 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
+translation-type: tm+mt
+source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
 ---
 
@@ -97,7 +97,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
       ![](assets/wkf_file_loading1.png)
 
 1. Sollte die Datei, deren Daten Sie laden möchten, in einer GZIP-Datei (.gz) komprimiert sein, wählen Sie im Feld **[!UICONTROL Vorab-Bearbeitungsetappe hinzufügen]** die Option **[!UICONTROL Datei-Dekomprimierung]** aus. Dadurch lässt sich die Datei dekomprimieren, bevor Sie mit dem Laden der Daten fortfahren. Diese Option steht nur zur Verfügung, wenn die Datei mit der in die Aktivität eingehenden Transition übermittelt wird.
-1. Mit der Option **[!UICONTROL Zurückweisungen in einer Datei speichern]** können Sie eine Datei herunterladen, die während des Imports aufgetretene Fehler enthält, und auf eine Anschlussvorgangsetappe anwenden.
+1. Mit der Option **[!UICONTROL Zurückweisungen in einer Datei speichern]** können Sie eine Datei herunterladen, die während des Imports aufgetretene Fehler enthält, und auf eine Anschlussvorgangsetappe anwenden. Wenn die Option aktiviert ist, wird der ausgehende Übergang in "Ablehnen"umbenannt.
 
    >[!NOTE]
    >
@@ -106,6 +106,8 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
    ![](assets/wkf_file_loading_keeprejects.png)
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
+
+Wenn nach dem Ausführen des Workflows ein Fehler bei der Aktivität auftritt, lesen Sie die Protokolle, um weitere Details zu den Werten zu erhalten, die in der Datei falsch sind. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
 
 ## Spaltenformat   {#column-format}
 
