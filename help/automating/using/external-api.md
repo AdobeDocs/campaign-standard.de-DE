@@ -11,8 +11,8 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+translation-type: tm+mt
+source-git-commit: 597396beb733c8f0b739720e951d2a42f5645af6
 
 ---
 
@@ -26,6 +26,10 @@ source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 Mit der Aktivität **[!UICONTROL Externe API]** können Daten aus einem **externen System** über einen **REST-API**-Aufruf in den Workflow integriert werden.
 
 Die REST-Endpunkte können ein Customer Management System, die Plattform [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) oder ein Experience Cloud REST-Endpunkt (Data Platform, Target, Analytics, Campaign usw.) sein.
+
+>[!NOTE]
+>
+>Aus Sicherheitsgründen wird die Verwendung von JSSPs in Campaign Standard nicht unterstützt. Wenn Sie Code ausführen müssen, können Sie eine Adobe-E/A-Laufzeitinstanz über die externe API-Aktivität aufrufen.
 
 >[!CAUTION]
 >
