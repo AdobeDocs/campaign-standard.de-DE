@@ -13,8 +13,8 @@ topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+translation-type: tm+mt
+source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
 
 ---
 
@@ -36,7 +36,7 @@ Dank dem Drag &amp; Drop-Menü und den anpassbaren Grafiken können Sie mit dies
 
 * [Verfügbare Berichte](../../reporting/using/defining-the-report-period.md)
 * [Organisationseinheiten](../../administration/using/organizational-units.md)
-* Video [Dynamic reports](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html)
+* Video [Dynamic reports](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html)
 
 ## Zugriff auf dynamische Berichte {#accessing-dynamic-reports}
 
@@ -63,28 +63,36 @@ Es gibt zwei Kategorien von dynamischen Berichten:
 
 ![](assets/dynamic_report_overview.png)
 
-
 ## Nutzungsvereinbarung zur dynamischen Berichterstattung {#dynamic-reporting-usage-agreement}
 
-Mithilfe dynamischer Berichte können Sie auf Profildaten basierende Berichte nach Profildimensionen filtern.
+>[!NOTE]
+>
+>Diese Änderungen gelten nur ab Version 19.4 von Campaign Standard.
 
-Sie müssen erst die Nutzungsvereinbarung zur dynamischen Berichterstattung akzeptieren, bevor Sie die Profildimensionen in Ihren Berichten anzeigen und verwenden können. Standardmäßig kann diese Vereinbarung nur durch Benutzer mit Administratorrechten sichtbar gemacht und akzeptiert oder abgelehnt werden.
-
-Diese Vereinbarung ermöglicht den Transfer und die Speicherung folgender Profildaten in den USA: Stadt, Land/Region, Bundesland, Geschlecht und Alterssegmente.
-
-Wenn Sie diese Vereinbarung akzeptieren, werden alle europäischen und nicht-europäischen Daten in die USA übertragen.
-
-![](assets/pii_window.png)
+Der Zweck der Vereinbarung über die Verwendung dynamischer Berichte besteht darin, als Popup-Zustimmung für die Datenverarbeitung zu fungieren. Standardmäßig kann diese Vereinbarung nur durch Benutzer mit Administratorrechten sichtbar gemacht und akzeptiert oder abgelehnt werden.
 
 Drei Optionen sind verfügbar:
 
 * **[!UICONTROL Später fragen]**: Mit dieser Auswahl wird die Nutzervereinbarung erst wieder in 24 Stunden angezeigt.
-* **[!UICONTROL Annehmen]**: Wenn Sie die Nutzervereinbarung akzeptieren, gestatten Sie Adobe Campaign, die personenbezogenen Daten Ihres Kunden zu erfassen und in die USA zu transferieren.
-* **[!UICONTROL Ablehnen]**: Wenn Sie die Nutzervereinbarung ablehnen, erscheinen die Profildimensionen nicht in Ihren Berichten und die personenbezogenen Daten Ihrer Kunden werden weder erfasst noch transferiert.
+* **[!UICONTROL Akzeptieren]**: Indem Sie diese Vereinbarung akzeptieren, autorisieren Sie Adobe Campaign, die persönlichen ID-Informationen Ihrer Kunden zu erfassen und sie an das Berichterstellungs- oder Rechenzentrum zu übertragen.
+* **[!UICONTROL Ablehnen]**: Wenn Sie die Nutzervereinbarung ablehnen, erscheinen die Profildimensionen nicht in Ihren Berichten und die personenbezogenen Daten Ihrer Kunden werden weder erfasst noch transferiert. Beachten Sie, dass in diesem Fall die externe ID noch erfasst und zur Identifizierung der Endbenutzer verwendet wird.
+
+Die nachstehende Tabelle zeigt, was nach der Annahme mit dieser Vereinbarung je nach Region geschieht.
+
+|  | Dynamische Berichterstellung | Microsoft Dynamics 365 Connector |
+|---|---|---|
+| Amerika und APAC (Asien/Pazifik) | **Funktion verfügbar**. <br>Alle sofort einsetzbaren (d.h. Stadt, Land/Region, Bundesland, Geschlecht und Segmente auf der Grundlage des Alters) und benutzerspezifische Profildaten, die in das US-Berichtszentrum gesendet werden. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Funktion verfügbar**. <br>Alle vordefinierten und benutzerdefinierten Profilfelder und Ereignisfelder von Adobe Campaign Standard werden im US-Rechenzentrum verarbeitet. |
+| EMEA (Europe Middle East &amp; Africa) | **Funktion verfügbar**. <br>Alle vordefinierten (d.h. Stadt, Land/Region, Bundesland, Geschlecht und Segmente auf der Grundlage des Alters) und benutzerspezifische Profilinformationen, die in das EMEA-Berichtszentrum gesendet werden. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Funktion verfügbar.** Im Rechenzentrum von EMEA werden <br>alle vordefinierten und benutzerdefinierten Profilfelder und Ereignisfelder von Adobe Campaign Standard verarbeitet. **[!UICONTROL Steuerungsdaten]** , die Adobe-I/O-Registrierungsdaten und IDs von Kundenereignissen enthalten, die im US-Rechenzentrum gesendet und gespeichert werden. |
+
+Die nachstehende Tabelle zeigt an, was nach dem Ablehnen dieser Vereinbarung je nach Region geschieht. Beachten Sie, dass Berichte zu Auslieferungen und Microsoft Dynamics 365-Integration auch dann verfügbar sein werden, wenn Sie diese Vereinbarung ablehnen.
+
+| Region | Dynamische Berichterstellung | Microsoft Dynamics 365 Connector |
+|---|---|---|
+| Amerika und APAC (Asien/Pazifik) | **Funktion verfügbar**. <br> Keine standardmäßigen und benutzerspezifischen Profilinformationen werden mit Ausnahme von ExternalID in das US-Berichterstellungszentrum gesendet. | **Funktion verfügbar**. <br>Es werden keine vordefinierten oder benutzerdefinierten Profilfelder an das US-Rechenzentrum gesendet, mit Ausnahme der externen ID und Empfänger-ID. <br>Alle Ereignisfelder in Adobe Campaign Standard, die im US-Rechenzentrum verarbeitet werden, mit Ausnahme von Segmentcode und Spiegelseite-ID. |
+| EMEA (Europe Middle East &amp; Africa) | **Funktion verfügbar**. <br>Keine standardmäßigen und benutzerspezifischen Profilinformationen wurden mit Ausnahme von ExternalID in das EMEA-Berichterstellungszentrum gesendet. | **Funktion verfügbar.** Es werden <br>keine vordefinierten oder benutzerdefinierten Profilfelder an das EMEA-Rechenzentrum gesendet, mit Ausnahme der externen ID und Empfänger-ID. <br>Alle Adobe Campaign Standard-Ereignisfelder, die im EMEA-Rechenzentrum verarbeitet werden, mit Ausnahme von Segmentcode und Spiegelseite-ID. |
 
 Diese Entscheidung ist nicht endgültig. Sie können sie jederzeit ändern durch die Auswahl von **[!UICONTROL Transfer von personenbezogenen Daten in die USA ermöglichen, um Reporting zu Profildaten zu verwenden]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungseinstellungen]** &gt; **[!UICONTROL Optionen]**.
 
-Der Wert kann jederzeit geändert werden. Der Wert -1 bedeutet **[!UICONTROL Später fragen]**, 1 bedeutet **[!UICONTROL Akzeptieren]** und 0 bedeutet **[!UICONTROL Ablehnen]**.
+Der Wert kann jederzeit geändert werden. The value 1 corresponds to **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** and 3 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)
-
