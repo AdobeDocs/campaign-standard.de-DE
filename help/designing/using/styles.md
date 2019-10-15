@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+translation-type: tm+mt
+source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 
 ---
 
@@ -172,6 +172,30 @@ Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Struktur
 1. Gehen Sie analog mit den anderen Ausrichtungs- und Abstandseinstellungen der Spalten vor.
 
    ![](assets/des_adjusting_columns.png)
+
+1. Speichern Sie Ihre Änderungen.
+
+### Stillinks {#about-styling-links}
+
+Sie können einen Link unterstreichen und dessen Farbe und Ziel im E-Mail-Designer auswählen.
+
+1. Wählen Sie in einer Komponente, in die ein Link eingefügt wird, den Beschriftungstext des Links aus.
+
+1. Markieren Sie in den Komponenteneinstellungen den Link **[!UICONTROL Unterstreichen]** , um den Beschriftungstext Ihres Links zu unterstreichen.
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. Um auszuwählen, in welchem Browserkontext Ihr Link geöffnet wird, wählen Sie ein **[!UICONTROL Ziel]** aus.
+
+   ![](assets/stylelinks-target.png)
+
+1. Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link Farbe]**.
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. Wählen Sie die gewünschte Farbe aus.
+
+   ![](assets/stylelinks-colorchanged.png)
 
 1. Speichern Sie Ihre Änderungen.
 
