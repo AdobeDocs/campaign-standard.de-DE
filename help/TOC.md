@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 9512ddb0b23b862b1a9b0ca5ee6e51436011bf66
 
 ---
 
@@ -115,7 +115,7 @@ source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
       + [Landingpage freigeben](channels/using/sharing-a-landing-page.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
 + E-Mail-Inhalt gestalten {#designing-content}
-   + [Campaign EmailDesigner](designing/using/designing-content-in-adobe-campaign.md)
+   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
    + [Schnellstart](designing/using/quick-start.md)
    + [Nutzung und Empfehlungen](designing/using/overview.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
