@@ -13,8 +13,8 @@ topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
+translation-type: tm+mt
+source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
 
 ---
 
@@ -211,8 +211,18 @@ Im folgenden Beispiel hat die Zelle die gleiche Farbe, da ihr Wert 100 % beträ
 
 ![](assets/troubleshooting_1.png)
 
-Wenn Sie die **bedingte Formatierung** in benutzerdefinierte Formatierung ändern, wird die Zelle grüner, wenn der Wert den oberen Grenzwert erreicht. Wenn er umgekehrt jedoch den unteren Grenzwert erreicht, wird er röter.
+Wenn Sie die **[!UICONTROL bedingte Formatierung]in benutzerdefinierte Formatierung ändern, wird die Zelle grüner, wenn der Wert den oberen Grenzwert erreicht.** Wenn er umgekehrt jedoch den unteren Grenzwert erreicht, wird er röter.
 
-Hier legen wir beispielsweise die **Obergrenze** mit 500 und die **Untergrenze** mit 0 fest.
+For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONTROL Lower limit**] to 0.
 
 ![](assets/troubleshooting_2.png)
+
+## Warum wird der Wert "K/A"in meinen Berichten angezeigt?
+
+![](assets/troubleshooting_3.png)
+
+Der Wert **K/A** kann manchmal in Ihren dynamischen Berichten erscheinen. Dies kann aus zwei Gründen angezeigt werden:
+
+* Die Lieferung wurde gelöscht und wird hier als **K/A** angezeigt, um keine Diskrepanz in den Ergebnissen zu verursachen.
+* Wenn Sie die Dimension " **[!UICONTROL Transaktionsbereitstellung]** "in Ihre Berichte ziehen und dort ablegen, wird der Wert **K/A** möglicherweise als Ergebnis angezeigt. Dies geschieht, weil der dynamische Bericht jede Auslieferung abruft, auch wenn sie nicht transaktional sind.
+Dies kann auch passieren, wenn Sie die Dimension " **[!UICONTROL Auslieferung]** "in Ihren Bericht ziehen und dort ablegen. In diesem Fall stellt der **N/A** -Wert jedoch Transaktionslieferungen dar.
