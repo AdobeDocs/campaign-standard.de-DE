@@ -13,8 +13,8 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+translation-type: tm+mt
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
@@ -60,6 +60,10 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
   <tr> 
    <td> Gerät<br /> </td> 
    <td> Gerät, auf dem die E-Mail/SMS/Push-Benachrichtigung geöffnet/angesehen/angeklickt wurde.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Grund des Fehlschlagens<br /> </td> 
+   <td> Fehlertypen, die zu Absprüngen bei jeder Lieferung führten, z.B. unbekannte Benutzer, ungültige Domäne oder Postfach vollständig.<br /> </td> 
   </tr> 
   <tr> 
    <td> Geschlecht<br /> </td> 
@@ -377,6 +381,10 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 
 ## Segmente {#segments}
 
+>[!NOTE]
+>
+>Standardmäßig ist das Segment zum **[!UICONTROL Ausschließen des Protests]** bereits zum Filtern Ihrer Berichte ausgewählt, kann aber bei Bedarf geändert werden.
+
 In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwendet werden, sowie ihre Definitionen.
 
 <table> 
@@ -450,6 +458,10 @@ In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwend
   <tr> 
    <td> Alle Besuche<br /> </td> 
    <td> Jeder Empfänger<br /> </td> 
+  </tr> 
+    <tr> 
+   <td> Nachweis ausschließen<br /> </td> 
+   <td> Ausschließen von Beweisstücken aus Ihren Berichten (nur ab Version 19.4)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
