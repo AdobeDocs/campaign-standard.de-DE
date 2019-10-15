@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+translation-type: tm+mt
+source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ---
 
@@ -199,9 +199,12 @@ Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer ode
 1. Schließen Sie den Tab **[!UICONTROL Eigenschaften]**, um zum Hauptarbeitsbereich zurückzukehren.
 1. Fügen Sie Struktur- und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Fragmente können keine Personalisierungsfelder, dynamischen Inhalte oder andere Fragmente enthalten.
+   >
+   >Vermeiden Sie das Speichern als Fragmentinhalt mit leeren Strukturkomponenten. Sobald das &gt;Fragment eingefügt wurde, kann es nicht mehr bearbeitet werden.
+   >
    >Die [Mobile-Ansicht](../../designing/using/styles.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar.
 
 1. Speichern Sie das Fragment nach der Bearbeitung.
