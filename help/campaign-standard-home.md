@@ -5,7 +5,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
+source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
 
 ## Neue Funktionen
 
-* **[E-Mail-Designer](channels/using/event-transactional-messages.md)**<br/>Verwenden Sie den E-Mail-Designer in Ihren Transaktionsnachrichten.
+* **[Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
 
-* **[Workflow-Segmente](reporting/using/creating-a-report-workflow-segment.md)**<br/>Erstellen Sie einen Bericht basierend auf Workflow-Segmenten.
+* **[Best Practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>für die Bereitstellung Erfahren Sie mehr über Best Practices im Zusammenhang mit dem Lieferdesign und dem Senden.
 
-* **[Anwendungsfälle für neue Arbeitsabläufe](automating/using/workflow-created-query-with-complement.md)**<br/>Lesen Sie unsere Anwendungsfälle für Workflow-Abfragen.
+* **[E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Lesen Sie die neu organisierte Dokumentation zum E-Mail-Designer.
 
-* **[Dateiaktivität](automating/using/load-file.md)**<br/>laden Verwenden Sie die Aktivität Datei laden, um eine E-Mail mit zusätzlichen Daten zu senden.
+* **[Einstiegsseiten](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>Weitere Informationen zum Einrichten einer Einstiegsseite.
 
 [Klicken Sie hier für weitere Updates](rn/using/documentation-updates.md)
 
