@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
+source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
 
 ---
 
@@ -44,6 +44,8 @@ Der Leitfaden für die ersten Schritte des GDPR wurde verbessert und erweitert. 
 Es wurde ein neues Diagramm mit dem Veröffentlichungsprozess für Transaktionsnachrichten hinzugefügt. [mehr dazu](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
 Der Leitfaden zu Best Practices für die Auslieferung wurde aktualisiert. [mehr dazu](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+Ein neuer Abschnitt wurde hinzugefügt. Es bietet eine Übersicht über die verschiedenen Methoden, mit denen Sie die Campaign Standard-Datenbank bereichern können. [mehr dazu](../../start/using/enriching-campaign-database.md)
 
 ## Aktualisierungen der Dokumentation - Oktober 2019 {#doc-updates-october-2019}
 
