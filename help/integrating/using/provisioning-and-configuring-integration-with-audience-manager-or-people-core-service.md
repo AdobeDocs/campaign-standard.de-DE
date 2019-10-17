@@ -14,7 +14,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 90bb41ae78fe6fbcca0bd359c169adde4efd4b1b
 
 ---
 
@@ -41,7 +41,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
   </tr> 
   <tr> 
    <td> <strong>Kennung der IMS-Organisation</strong><br /> </td> 
-   <td> Ihre IMS-Organisationskennung. <br> Sie finden Ihre IMS-Organisations-ID in der Experience Cloud im Menü **Administration*. Es wird auch bereitgestellt, wenn Sie zum ersten Mal eine Verbindung zur Adobe Experience Cloud herstellen. </td> 
+   <td> Ihre IMS-Organisationskennung. <br> Ihre IMS-Organisationskennung finden Sie in Experience Cloud im Menü Administration. Die Kennung wird auch bei Ihrer erstmaligen Verbindung mit Adobe Experience Cloud bereitgestellt. </td> 
   </tr> 
   <tr> 
    <td> <strong>Umgebung:</strong><br /> </td> 
