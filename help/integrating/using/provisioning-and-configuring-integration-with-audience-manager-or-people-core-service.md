@@ -13,8 +13,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
 
 ---
 
@@ -41,7 +41,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
   </tr> 
   <tr> 
    <td> <strong>Kennung der IMS-Organisation</strong><br /> </td> 
-   <td> Ihre IMS-Organisationskennung* </td> 
+   <td> Ihre IMS-Organisationskennung. <br> Sie finden Ihre IMS-Organisations-ID in der Experience Cloud im Menü **Administration*. Es wird auch bereitgestellt, wenn Sie zum ersten Mal eine Verbindung zur Adobe Experience Cloud herstellen. </td> 
   </tr> 
   <tr> 
    <td> <strong>Umgebung:</strong><br /> </td> 
@@ -62,7 +62,15 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
  </tbody> 
 </table>
 
-* Sie finden Ihre IMS-Organisationskennung in Experience Cloud im Menü **Administration**. Sie wird auch bei der Anmeldung bei Adobe Experience Cloud bereitgestellt.
+* Die **[!UICONTROL deklarierte ID]** funktioniert bei jeder Integration freigegebener Zielgruppen. Beachten Sie, dass sich die Verwendung der **[!UICONTROL deklarierten ID]** je nach Lösung ändern kann, wenn Sie den Hauptdienst "Personen"verwenden:
+
+* Wenn Zielgruppen über den Hauptdienst "Personen"von Adobe Campaign an Adobe Target freigegeben werden, kann die **[!UICONTROL deklarierte ID]** bereitgestellt werden.
+* Wenn Zielgruppen über den Hauptdienst "Personen"von Adobe Campaign in Ad Cloud freigegeben werden, können Sie die Bereitstellung **[!UICONTROL deklarierter ID]** nicht für die historische Aufstockung von Zielgruppen verwenden. Beim Erstellen von Zielgruppen ist auch mit einer gewissen Latenz zu rechnen.
+* Wenn Zielgruppen über den People Core Service von Adobe Analytics an Adobe Campaign freigegeben werden, werden Segmente nicht mit der **[!UICONTROL deklarierten ID]** in Adobe Campaign ausgefüllt.
+
+Wenn Sie Adobe Audience Manager anstelle des People Core Service verwenden, funktioniert die **[!UICONTROL deklarierte ID]** in allen Szenarien.
+
+Sie können eine Anforderung für die Bereitstellung **[!UICONTROL deklarierter ID]** an folgende Adresse aufrufen: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Die Integration mit Adobe Campaign konfigurieren  {#configuring-the-integration-in-adobe-campaign}
 
@@ -130,10 +138,10 @@ So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 
 Für die Konfiguration der Integration mit People Core Service oder Audience Manager muss auch der Campaign Tracking Server konfiguriert werden.
 
-Stellen Sie sicher, dass der Campaign Tracking Server auf der Domain (CNAME) registriert ist. Mehr Informationen zur Delegation von Domänennamen finden Sie in [diesem Artikel](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
+Stellen Sie sicher, dass der Campaign Tracking Server auf der Domain (CNAME) registriert ist. Mehr Informationen zur Delegation von Domain-Namen finden Sie in [diesem Artikel](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
 
 ### Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst.{#step-4--configure-the-visitor-id-service}
 
-Falls Ihr Visitor-ID-Dienst nie in Ihren Web-Eigenschaften oder Webseiten konfiguriert wurde, finden Sie im folgenden [Dokument](https://marketing.adobe.com/resources/help/de_DE/mcvid/mcvid-setup-aam-analytics.html) oder im folgenden [Video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) nähere Informationen zum Konfigurieren Ihres Dienstes.
+Falls Ihr Visitor-ID-Dienst nie in Ihren Web-Parametern und Webseiten konfiguriert wurde, finden Sie im folgenden [Dokument](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) oder im folgenden [Video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) nähere Informationen dazu.
 
 Die Konfiguration und Einrichtung sind jetzt abgeschlossen. Die Integration kann somit zum Import und Export von Audiences und Segmenten verwendet werden.
