@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
+source-git-commit: a206521e458620c7b452f403353fec482fe18dee
 
 ---
 
@@ -27,7 +27,7 @@ Zusätzliche Ressourcen:
 
 * [Planung der Kampagnenversion](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Neueste Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md)
-* [Veraltete und entfernte Funktionen](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [Veraltete und entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 * [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Frühere Versionshinweise: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
