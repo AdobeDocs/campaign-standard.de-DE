@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
 
 ---
 
@@ -45,7 +45,7 @@ Es wurde ein neues Diagramm mit dem Veröffentlichungsprozess für Transaktionsn
 
 Der Leitfaden zu Best Practices für die Auslieferung wurde aktualisiert. [mehr dazu](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-Ein neuer Abschnitt wurde hinzugefügt. Es bietet eine Übersicht über die verschiedenen Methoden, mit denen Sie die Campaign Standard-Datenbank bereichern können. [mehr dazu](../../start/using/enriching-campaign-database.md)
+<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
 
 ## Aktualisierungen der Dokumentation - Oktober 2019 {#doc-updates-october-2019}
 
