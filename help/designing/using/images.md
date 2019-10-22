@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+translation-type: tm+mt
+source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
 
 ---
 
@@ -31,7 +31,7 @@ Je nach Konfiguration sind die folgenden Arten von Bildern verfügbar:
 * Freigegebene Bilder aus Adobe Experience Cloud – siehe [Campaign und Assets Core Service verwenden](../../integrating/using/working-with-campaign-and-assets-core-service.md)/Assets On Demand
 * Dynamische Bilder von Adobe Target – siehe [Campaign und Target verwenden](../../integrating/using/about-campaign-target-integration.md)
 
-Sie können Bilder mit Adobe Creative SDK ändern, vorausgesetzt dieses ist aktiviert. Siehe [Bilder mit Adobe Creative SDK bearbeiten](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk).
+Sie können Bilder mit Adobe Creative SDK ändern, vorausgesetzt dieses ist aktiviert. Siehe [Bilder mit Adobe Creative SDK bearbeiten](images.md#modifying-images-with-the-adobe-creative-sdk).
 
 >[!CAUTION]
 >
