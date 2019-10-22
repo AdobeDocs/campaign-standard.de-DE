@@ -14,8 +14,8 @@ discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
@@ -43,6 +43,7 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS an Mobiltelefone senden zu
 
 * [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md)
 * [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [SMS-Bericht](../../reporting/using/sms-report.md)
 
 ## SMS-Versandvorlage {#sms-delivery-template}
 
