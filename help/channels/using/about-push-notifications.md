@@ -3,19 +3,19 @@ title: Über Push-Benachrichtigungen
 seo-title: Über Push-Benachrichtigungen
 description: Über Push-Benachrichtigungen
 seo-description: Hier erhalten Sie die wichtigsten Informationen zum Push-Benachrichtigungskanal in Adobe Campaign.
-page-status-flag: nie aktiviert
-uuid: 961 aaeb 5-6948-4 fd 2-b 8 d 7-de 4510 c 10566
+page-status-flag: never-activated
+uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Kanäle
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23 b 4212 e-e 878-4922-be 20-50 fb 7 fa 88 ae 8
-context-tags: Mobileapp, overview
+discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
+context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 80e65c3fedc5452105c296144a683948daa69150
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
@@ -36,9 +36,9 @@ Diese Ressource muss erweitert werden, damit die gewünschten, vom Mobilgerät a
 
 In Adobe Campaign sind zwei Arten von Push-Benachrichtigungen verfügbar:
 
-* **[!UICONTROL Mit Benachrichtigungen vom Typ Warnung/Nachricht und Badge]** können Sie standardmäßige textbasierte Nachrichten mit zusätzlichem Inhalt versenden (Ton, Badge, Deeplink etc.), die Sie im Abschnitt **[!UICONTROL Erweiterte Optionen]definieren können.**
+* **[!UICONTROL Mit Benachrichtigungen vom Typ Warnung/Nachricht und Badge]** können Sie standardmäßige textbasierte Nachrichten mit zusätzlichem Inhalt versenden (Ton, Badge, Deeplink etc.), die Sie im Abschnitt **[!UICONTROL Erweiterte Optionen]** definieren können.
 
-   Diese Benachrichtigungstyp ermöglicht es Ihnen, einen Titel und eine Nachricht hinzuzufügen, in denen Sie Personalisierungsfelder verwenden können. Zum Personalisieren der Nachricht muss die Vorlage **[!UICONTROL Push-Benachrichtigungs-Versand (bezogen auf Profile)]ausgewählt sein.**
+   Diese Benachrichtigungstyp ermöglicht es Ihnen, einen Titel und eine Nachricht hinzuzufügen, in denen Sie Personalisierungsfelder verwenden können. Zum Personalisieren der Nachricht muss die Vorlage **[!UICONTROL Push-Benachrichtigungs-Versand (bezogen auf Profile)]** ausgewählt sein.
 
 * **[!UICONTROL Benachrichtigungen vom Typ Stilles Pushen]** werden verwendet, um die Anwendung still zu informieren, ohne dass der Benutzer eine Nachricht oder einen Inhalt erhält. Ein typisches Anwendungsbeispiel für diese Art von Nachricht wäre, die Anwendung darauf hinzuweisen, dass auf dem Server Inhalt zum Herunterladen bereitsteht.
 
@@ -54,20 +54,20 @@ Erfahrene Benutzer, die diese Konfigurationen definieren möchten, finden weiter
 
 * [Push-Benachrichtigung vorbereiten und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Mehrsprachige Push-Benachrichtigungen erstellen](../../channels/using/creating-a-multilingual-push-notification.md)
-* [Push-Benachrichtigungen in einem Workflow versenden](../../automating/using/push-notification-delivery.md)
-* [Push- und In-App-häufig gestellte Fragen](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Bericht zu Push-Benachrichtigungen](../../reporting/using/push-notification-report.md)
+* [Häufig gestellte Fragen zu Push und In-App](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 
 ## Voraussetzungen {#prerequisites}
 
 >[!NOTE]
->Um die Funktion für Push-Benachrichtigungen aus Kampagne nutzen zu können, müssen Sie ein gültiges Push-Zertifikat im PEM-Format ohne Kennwörter bereitstellen.
-Wenn Sie über ein gültiges p 12-Zertifikat verfügen, können Sie es mithilfe von Online-Ressourcen einfach in eine. pem-Datei konvertieren.
+>Um die Funktion für Push-Benachrichtigungen in Campaign zu nutzen, benötigen Sie ein gültiges Push-Zertifikat im PEM-Format ohne Passwörter.
+Wenn Sie über ein gültiges p12-Zertifikat verfügen, können Sie es mithilfe von Online-Ressourcen einfach in eine PEM-Datei konvertieren.
 
 Um mit dem Versand von Push-Benachrichtigungen zu beginnen, müssen Sie zuerst Ihre Mobile App mithilfe von SDK V4 konfigurieren: Sie können Ihre Mobile App mithilfe von Experience Platform SDKs konfigurieren. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 Vor dem Versand Ihrer Push-Benachrichtigungen sollten Sie auf Folgendes achten:
 
-1. Stellen Sie sicher, dass Sie auf den **[!UICONTROL Mobile App]-Kanal in Adobe Campaign zugreifen können.**
+1. Stellen Sie sicher, dass Sie auf den **[!UICONTROL Mobile App]**-Kanal in Adobe Campaign zugreifen können.
 1. Konfigurieren Sie Ihre Mobile App:
 
    * Adobe Campaign
