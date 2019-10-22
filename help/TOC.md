@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
+source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
 
 ---
 
@@ -136,7 +136,7 @@ source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
       + [Testprofile verwalten und Testsendungen durchführen](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
-   + Versand planen {#sheduling-messages}
+   + Versandplanung {#scheduling-messages}
       + [Über die Planung von Sendungen](sending/using/about-scheduling-messages.md)
       + [Versandzeitpunkt optimieren](sending/using/optimizing-the-sending-time.md)
       + [Nachrichten in der Zeitzone des Empfängers senden](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
