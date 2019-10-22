@@ -13,8 +13,8 @@ topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
@@ -27,11 +27,11 @@ Sie können damit auch kanalübergreifende Kampagnen erstellen, um Ihre Zielgrup
 
 In Adobe Campaign stehen Ihnen vier Nachrichtenkanäle zur Verfügung:
 
-* E-Mail, siehe Abschnitt [E-Mails erstellen](../../channels/using/creating-an-email.md)
-* SMS, siehe Abschnitt [SMS erstellen](../../channels/using/creating-an-sms-message.md)
-* Push-Benachrichtigungen, siehe Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md)
+* E-Mail, siehe Abschnitt [E-Mails erstellen](../../channels/using/about-emails.md)
+* SMS, siehe Abschnitt [SMS erstellen](../../channels/using/about-sms-messages.md)
+* Push-Benachrichtigungen, siehe Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/about-push-notifications.md)
 * In-App-Nachrichten, siehe Abschnitt [Über In-App-Messaging](../../channels/using/about-in-app-messaging.md).
-* Briefpost, siehe Abschnitt [Briefpost-Versand erstellen](../../channels/using/creating-the-direct-mail.md)
+* Briefpost, siehe Abschnitt [Briefpost-Versand erstellen](../../channels/using/about-direct-mail.md)
 
 Alle Marketing-Aktivitäten basieren auf Vorlagen. In Vorlagen können Sie häufig verwendete Eigenschaften konfigurieren, sodass Sie Zeit sparen und Ihre Kommunikationsstrategie konsistent gestalten können.
 
@@ -43,5 +43,5 @@ Im Fall einer E-Mail-Vorlage kann der funktionale Administrator, der für die Ko
 
 **Verwandte Themen**:
 
-* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_Deliverability.html)
+* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
 
