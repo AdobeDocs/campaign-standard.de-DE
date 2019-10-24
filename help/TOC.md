@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
+source-git-commit: cceab9f275a0e40804c548d127c54030b75b7cbc
 
 ---
 
@@ -25,7 +25,6 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Dynamische und personalisierte Inhalte](start/using/dynamic-and-personalized-content.md)
       + [Tracking, Monitoring und Reporting](start/using/tracking--monitoring-and-reporting.md)
       + [Integration mit Adobe-Lösungen](start/using/integrating-with-adobe-solutions.md)
-      + [Aktivieren der Kampagnendatenbank](start/using/enriching-campaign-database.md)
    + Benutzeroberfläche {#discovering-the-interface}
       + [Über die Benutzeroberfläche](start/using/about-the-interface.md)
       + [Benutzeroberfläche](start/using/interface-description.md)
@@ -60,7 +59,7 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Dienst erstellen](audiences/using/creating-a-service.md)
       + [Dienst bewerben](audiences/using/promoting-a-service.md)
       + [Anmeldungen verfolgen](audiences/using/monitoring-subscriptions.md)
-      + [Bestätigung des Abonnements für einen Dienst](audiences/using/confirming-subscription-to-a-service.md)
+      + [Abonnement eines Dienstes bestätigen](audiences/using/confirming-subscription-to-a-service.md)
    + Funktionsweise des Opt-in- und Opt-out-Verfahrens {#understanding-opt-in-and-opt-out-processes}
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -109,14 +108,14 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Folgenachrichten](channels/using/follow-up-messages.md)
    + Landingpages {#landing-pages}
       + [Über Landingpages](channels/using/about-landing-pages.md)
-      + [Wichtigste Schritte zum Einrichten einer Einstiegsseite](channels/using/main-steps-to-set-up-a-landing-page.md)
-      + [Einstiegsseitenvorlagen](channels/using/landing-page-templates.md)
+      + [Wichtigste Schritte zum Einrichten einer Landingpage](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [Über Landingpage-Vorlagen](channels/using/landing-page-templates.md)
       + [Landingpage erstellen](channels/using/designing-a-landing-page.md)
-      + [Verwalten von Landingpage-Formulardaten](channels/using/managing-landing-page-form-data.md)
+      + [Daten von Landingpage-Formularen verwalten](channels/using/managing-landing-page-form-data.md)
       + [Landingpage freigeben](channels/using/sharing-a-landing-page.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
 + E-Mail-Inhalt gestalten {#designing-content}
-   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
+   + [Campaign E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
    + [Schnellstart](designing/using/quick-start.md)
    + [Nutzung und Empfehlungen](designing/using/overview.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
@@ -126,7 +125,7 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
    + [E-Mails mit mehreren Lösungen erstellen](designing/using/using-integrations.md)
    + [Personalisierung ](designing/using/personalization.md)
    + [Text- und HTML-Modus](designing/using/plain-text-html-modes.md)
-   + [Verwalten von E-Mail-Stilen](designing/using/styles.md)
+   + [E-Mail-Stile verwalten](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
 + Testen und Senden {#testing-and-sending}
@@ -320,7 +319,7 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Ermüdungsregeln](administration/using/fatigue-rules.md)
       + [Kontrollregeln](administration/using/control-rules.md)
    + Anwendungskonfiguration {#application-settings}
-      + [Einstellungen für Campaign Standard](administration/using/about-campaign-standard-settings.md)
+      + [Über Campaign Standard-Einstellungen](administration/using/about-campaign-standard-settings.md)
       + [Externe Konten](administration/using/external-accounts.md)
       + [Zielgruppen-Mappings in Campaign](administration/using/target-mappings-in-campaign.md)
       + [Technische Workflows](administration/using/technical-workflows.md)
