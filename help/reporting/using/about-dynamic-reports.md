@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cceab9f275a0e40804c548d127c54030b75b7cbc
+source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
 
 ---
 
@@ -88,8 +88,8 @@ Die nachstehende Tabelle zeigt an, was nach dem Ablehnen dieser Vereinbarung je 
 
 | Region | Dynamische Berichterstellung | Microsoft Dynamics 365 Connector |
 |---|---|---|
-| Amerika und APAC (Asien/Pazifik) | **Funktion verfügbar**. <br> Keine standardmäßigen und benutzerspezifischen Profilinformationen werden mit Ausnahme von ExternalID in das US-Berichterstellungszentrum gesendet. | **Funktion verfügbar**. <br>Es werden keine vordefinierten oder benutzerdefinierten Profilfelder an das US-Rechenzentrum gesendet, mit Ausnahme der externen ID und Empfänger-ID. <br>Alle Ereignisfelder in Adobe Campaign Standard, die im US-Rechenzentrum verarbeitet werden, mit Ausnahme von Segmentcode und Spiegelseite-ID. |
-| EMEA (Europe Middle East &amp; Africa) | **Funktion verfügbar**. <br>Keine standardmäßigen und benutzerspezifischen Profilinformationen wurden mit Ausnahme von ExternalID in das EMEA-Berichterstellungszentrum gesendet. | **Funktion verfügbar.** Es werden <br>keine vordefinierten oder benutzerdefinierten Profilfelder an das EMEA-Rechenzentrum gesendet, mit Ausnahme der externen ID und Empfänger-ID. <br>Alle Adobe Campaign Standard-Ereignisfelder, die im EMEA-Rechenzentrum verarbeitet werden, mit Ausnahme von Segmentcode und Spiegelseite-ID.  <br>**[!UICONTROL Steuerungsdaten]** , die Adobe-I/O-Registrierungsdaten und IDs von Kundenereignissen enthalten, die im US-Rechenzentrum gesendet und gespeichert werden. |
+| Amerika und APAC (Asien/Pazifik) | **Funktion verfügbar**. <br> Keine standardmäßigen und benutzerspezifischen Profilinformationen werden mit Ausnahme von ExternalID in das US-Berichterstellungszentrum gesendet. | **Funktion verfügbar**. <br>Es werden keine vordefinierten oder benutzerdefinierten Profilfelder an das US-Rechenzentrum gesendet, mit Ausnahme der externen ID und Empfänger-ID. <br>Alle Ereignisfelder in Adobe Campaign Standard, die im US-Rechenzentrum verarbeitet werden, mit Ausnahme der Spiegelseite-ID. |
+| EMEA (Europe Middle East &amp; Africa) | **Funktion verfügbar**. <br>Keine standardmäßigen und benutzerspezifischen Profilinformationen wurden mit Ausnahme von ExternalID in das EMEA-Berichterstellungszentrum gesendet. | **Funktion verfügbar.** Es werden <br>keine vordefinierten oder benutzerdefinierten Profilfelder an das EMEA-Rechenzentrum gesendet, mit Ausnahme der externen ID und Empfänger-ID. <br>Alle Ereignisfelder von Adobe Campaign Standard, die im EMEA-Rechenzentrum verarbeitet werden, mit Ausnahme der Spiegelseite-ID.  <br>**[!UICONTROL Steuerungsdaten]** , die Adobe-I/O-Registrierungsdaten und IDs von Kundenereignissen enthalten, die im US-Rechenzentrum gesendet und gespeichert werden. |
 
 Diese Entscheidung ist nicht endgültig. Sie können sie jederzeit ändern durch die Auswahl von **[!UICONTROL Transfer von personenbezogenen Daten in die USA ermöglichen, um Reporting zu Profildaten zu verwenden]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungseinstellungen]** &gt; **[!UICONTROL Optionen]**.
 
