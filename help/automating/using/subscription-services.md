@@ -3,19 +3,19 @@ title: An-/Abmeldedienst
 seo-title: An-/Abmeldedienst
 description: An-/Abmeldedienst
 seo-description: Mithilfe der An-/Abmeldedienst-Aktivität lassen sich Profile gesammelt für Dienste an- bzw. von Diensten abmelden.
-page-status-flag: nie aktiviert
-uuid: 56637024-15 ab -4145-9 c 48-3 fbd 27 ab 8 af 8
+page-status-flag: never-activated
+uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 74 a 6 df 0 e-fd 5-4404-a 42 c -9 a 7406512717
-context-tags: Setofservice, workflow, main
+discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
+context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ![](assets/wf_subscription.png)
 
-Mithilfe der Aktivität **[!UICONTROL An-/Abmeldedienst]lassen sich Profile gesammelt für Dienste an- bzw. von Diensten abmelden.**
+Mithilfe der Aktivität **[!UICONTROL An-/Abmeldedienst]** lassen sich Profile gesammelt für Dienste an- bzw. von Diensten abmelden.
 
 >[!CAUTION]
 >
@@ -34,41 +34,41 @@ Mithilfe der Aktivität **[!UICONTROL An-/Abmeldedienst]lassen sich Profile gesa
 
 ## Anwendungskontext {#context-of-use}
 
-Bei der Aktivität **[!UICONTROL An-/Abmeldedienst]handelt es sich um die einzige Funktionalität in Adobe Campaign, die es gestattet, mehrere Profile gleichzeitig und in einer einzigen Aktion für einen Dienst an- bzw. von einem Dienst abzumelden.**
+Bei der Aktivität **[!UICONTROL An-/Abmeldedienst]** handelt es sich um die einzige Funktionalität in Adobe Campaign, die es gestattet, mehrere Profile gleichzeitig und in einer einzigen Aktion für einen Dienst an- bzw. von einem Dienst abzumelden.
 
 Sie können diese Aktivität beispielsweise im Anschluss an eine Zielgruppenbestimmung oder den Import einer Datei mit identifizierten Daten verwenden.
 
 Wenn dies in den entsprechenden Spalten der Datei spezifiziert wird, können Sie mithilfe dieser Aktivität auch die gewünschte Aktion auswählen (anmelden oder abmelden) sowie den Dienst, auf den sich die Aktion bezieht.
 
-## Konfiguration {#configuration}
+## Konfiguration  {#configuration}
 
-1. Ziehen Sie einen **[!UICONTROL An-/Abmeldedienst]in den Workflow-Arbeitsbereich.**
+1. Ziehen Sie einen **[!UICONTROL An-/Abmeldedienst]** in den Workflow-Arbeitsbereich.
 1. Schließen Sie ihn nach weiteren Zielgruppenbestimmungs-Aktivitäten an, wie beispielsweise nach einer Abfrage oder einer auf einen Import folgenden Abstimmung.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
-1. Wählen Sie mit einer der folgenden Optionen den **[!UICONTROL Dienst]aus, für den Sie An- bzw. Abmeldungen vornehmen möchten:**
+1. Wählen Sie mit einer der folgenden Optionen den **[!UICONTROL Dienst]** aus, für den Sie An- bzw. Abmeldungen vornehmen möchten:
 
    * **[!UICONTROL Wählen Sie einen spezifischen Dienst aus]**: Wählen Sie manuell einen Dienst aus.
-   * **[!UICONTROL Wählen Sie Dienste aus der eingehenden Transition aus]**: Der Dienst ist in der eingehenden Transition spezifiziert. Beispielsweise können Sie eine Datei importieren, in der der zu verwaltende Dienst für jede Zeile spezifiziert wird. Wenn Sie diese Option wählen, muss zuvor eine Verknüpfung zwischen den Daten und der Ressource **Dienst** erstellt worden sein, wie in [diesem Beispiel](../../automating/using/subscription-services.md#example--updating-multiple-subscription-statuses-from-a-file) erläutert wird.
+   * **[!UICONTROL Wählen Sie Dienste aus der eingehenden Transition aus]**: Der Dienst ist in der eingehenden Transition spezifiziert. Beispielsweise können Sie eine Datei importieren, in der der zu verwaltende Dienst für jede Zeile spezifiziert wird. Wenn Sie diese Option wählen, muss zuvor eine Verknüpfung zwischen den Daten und der Ressource **Dienst** erstellt worden sein, wie in [diesem Beispiel](#example--updating-multiple-subscription-statuses-from-a-file) erläutert wird.
 
       Der Dienst, bei dem der Vorgang ausgeführt werden soll, wird dann für jeden Datensatz dynamisch ausgewählt.
 
-1. Wählen Sie den auszuführenden **[!UICONTROL Kampagnentyp]mit einer der folgenden Optionen aus:**
+1. Wählen Sie den auszuführenden **[!UICONTROL Kampagnentyp]** mit einer der folgenden Optionen aus:
 
-   * **[!UICONTROL Einen spezifischen Kampagnentyp auswählen]**: Wählen Sie manuell aus, ob Sie Profile **[!UICONTROL anmelden]** oder **abmelden]möchten.[!UICONTROL **
+   * **[!UICONTROL Einen spezifischen Kampagnentyp auswählen]**: Wählen Sie manuell aus, ob Sie Profile **[!UICONTROL anmelden]** oder **[!UICONTROL abmelden]** möchten.
    * **[!UICONTROL Kampagnentyp aus dem Pfad einer eingehender Transition auswählen]**: Wählen Sie die Spalte der eingehenden Daten aus, in der für jeden Datensatz der auszuführende Vorgang spezifiziert ist.
 
       In dieser Spalte muss der Vorgang als "Boolesch" oder "Integer" angegeben werden. Mit **0** melden Sie einen Datensatz ab und mit **1** melden Sie ihn an.
 
-      Falls die in einer importierten Datei enthaltenen Werte nicht den obigen Anforderungen entsprechen, können Sie die Option [Neukodifizierung der Werte](../../automating/using/load-file.md#column-format) in der Aktivität **[!UICONTROL Datei laden]verwenden.**
+      Falls die in einer importierten Datei enthaltenen Werte nicht den obigen Anforderungen entsprechen, können Sie die Option [Neukodifizierung der Werte](../../automating/using/load-file.md#column-format) in der Aktivität **[!UICONTROL Datei laden]** verwenden.
 
 1. Wenn die eingehenden Daten eine Spalte enthalten, die dem Abonnementdatum des Profils für den Dienst entspricht, wählen Sie sie aus. Sie können sie leer lassen. In diesem Fall wird aber kein Abonnementdatum bei der Durchführung des Workflows eingerichtet.
-1. Definieren Sie den Ursprung des Abonnements. Sie können dazu den Wert eines der Felder der eingehenden Daten oder eine beliebige Konstante verwenden, indem Sie die Option **[!UICONTROL Konstante als Ursprung festlegen]aktivieren.** Sie können diese Option auch leer lassen. In diesem Fall wird aber kein Ursprung bei der Durchführung des Workflows festgelegt.
+1. Definieren Sie den Ursprung des Abonnements. Sie können dazu den Wert eines der Felder der eingehenden Daten oder eine beliebige Konstante verwenden, indem Sie die Option **[!UICONTROL Konstante als Ursprung festlegen]** aktivieren. Sie können diese Option auch leer lassen. In diesem Fall wird aber kein Ursprung bei der Durchführung des Workflows festgelegt.
 1. Sie können bei Bedarf eine ausgehende Transition erzeugen. In diesem Fall sind die Daten der ausgehenden Transition mit denen der eingehenden Transition identisch.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
    Ihr Workflow kann nun ausgeführt werden. Nach der Ausführung können Sie die an- bzw. abgemeldeten Profile in der Detailansicht des Dienstes einsehen.
 
-## Beispiel: Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## Beispiel: Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden  {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 In diesem Beispiel wird dargestellt, wie man eine Datei mit Profilen importiert, um diese für einen existierenden Dienst anzumelden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile identifiziert werden können. Um sicherzustellen, dass sich keine Dubletten in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
 
@@ -76,7 +76,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Datei laden]-Aktivität zum Laden der Profildatei und zur Definition der Struktur der importierten Spalten.**
+* **[!UICONTROL Datei laden]**-Aktivität zum Laden der Profildatei und zur Definition der Struktur der importierten Spalten.
 
    In unserem Beispiel weist die geladene Datei das .csv-Format auf und enthält folgende Daten:
 
@@ -95,7 +95,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
    ![](assets/subscription_activity_example2.png)
 
-* Mit der Aktivität **[!UICONTROL Abstimmung]werden die Daten der Datei als der Profildimension der Adobe-Campaign-Datenbank zugehörig identifiziert.** Der Tab **[!UICONTROL Identifizierung]ist als einziger bereits konfiguriert.** Durch ihn lassen sich die Daten der Datei über die E-Mail-Adresse der Profile identifizieren.
+* Mit der Aktivität **[!UICONTROL Abstimmung]** werden die Daten der Datei als der Profildimension der Adobe-Campaign-Datenbank zugehörig identifiziert. Der Tab **[!UICONTROL Identifizierung]** ist als einziger bereits konfiguriert. Durch ihn lassen sich die Daten der Datei über die E-Mail-Adresse der Profile identifizieren.
 
    ![](assets/subscription_activity_example3.png)
 
@@ -103,7 +103,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
    ![](assets/subscription_activity_example5.png)
 
-* Mit einer **[!UICONTROL An-/Abmeldedienst]-Aktivität können Sie den Dienst auswählen, für den die Profile angemeldet sein müssen, sowie das dem Abonnementdatum entsprechende Feld und den Ursprung des Abonnements.**
+* Mit einer **[!UICONTROL An-/Abmeldedienst]**-Aktivität können Sie den Dienst auswählen, für den die Profile angemeldet sein müssen, sowie das dem Abonnementdatum entsprechende Feld und den Ursprung des Abonnements.
 
    ![](assets/subscription_activity_example4.png)
 
@@ -115,7 +115,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Datei laden]-Aktivität zum Laden der Profildatei und zur Definition der Struktur der importierten Spalten.**
+* **[!UICONTROL Datei laden]**-Aktivität zum Laden der Profildatei und zur Definition der Struktur der importierten Spalten.
 
    In unserem Beispiel weist die geladene Datei das .csv-Format auf und enthält folgende Daten:
 
@@ -138,13 +138,13 @@ Der Workflow stellt sich folgendermaßen dar:
 
    ![](assets/subscription_example_remapping.png)
 
-   Wenn in Ihrer Datei der Vorgang bereits mit "0" und "1" spezifiziert ist, müssen Sie diese Werte nicht erneut kodifizieren. Achten Sie nur darauf, dass die Spalte im Tab **[!UICONTROL Spaltendefinition]als** Boolesch **oder** Integer **verarbeitet wird.**
+   Wenn in Ihrer Datei der Vorgang bereits mit "0" und "1" spezifiziert ist, müssen Sie diese Werte nicht erneut kodifizieren. Achten Sie nur darauf, dass die Spalte im Tab **[!UICONTROL Spaltendefinition]** als **Boolesch** oder **Integer** verarbeitet wird.
 
-* Mit der Aktivität **[!UICONTROL Abstimmung]werden die Daten der Datei als der Profildimension der Adobe-Campaign-Datenbank zugehörig identifiziert.** Im Tab **[!UICONTROL Identifizierung]** wird das **email-**-Feld der Datei dem email-Feld der Profil-Ressource zugeordnet.****
+* Mit der Aktivität **[!UICONTROL Abstimmung]** werden die Daten der Datei als der Profildimension der Adobe-Campaign-Datenbank zugehörig identifiziert. Im Tab **[!UICONTROL Identifizierung]** wird das **email-**-Feld der Datei dem **email**-Feld der Profil-Ressource zugeordnet.
 
    ![](assets/subscription_activity_example3.png)
 
-   Im Tab **[!UICONTROL Relationen]** wird eine Verknüpfung mit der Dienst-Ressource erstellt, damit das **service-** Feld der Datei erkannt wird. In unserem Beispiel werden die Werte mit dem name-Feld der Dienst-Ressource abgestimmt.****
+   Im Tab **[!UICONTROL Relationen]** wird eine Verknüpfung mit der Dienst-Ressource erstellt, damit das **service-** Feld der Datei erkannt wird. In unserem Beispiel werden die Werte mit dem **name**-Feld der Dienst-Ressource abgestimmt.
 
    ![](assets/subscription_example_service_relation.png)
 
@@ -152,9 +152,9 @@ Der Workflow stellt sich folgendermaßen dar:
 
    ![](assets/subscription_activity_example5.png)
 
-* Mit der Aktivität **[!UICONTROL An-/Abmeldedienst]** werden die zu aktualisierenden, von der Transition stammenden Dienste über die in der Aktivität **Abstimmung]erstellte Verknüpfung identifiziert.[!UICONTROL **
+* Mit der Aktivität **[!UICONTROL An-/Abmeldedienst]** werden die zu aktualisierenden, von der Transition stammenden Dienste über die in der Aktivität **[!UICONTROL Abstimmung]** erstellte Verknüpfung identifiziert.
 
-   Der **[!UICONTROL Kampagnentyp]** wird über das **operation**-Feld der Datei identifiziert. Hier können nur die Felder "Boolesch" oder "Integer" ausgewählt werden. Wenn die Spalte Ihrer Datei, die den auszuführenden Vorgang enthält, nicht in der Liste erscheint, vergewissern Sie sich, dass Sie Ihr Spaltenformat in der Aktivität **[!UICONTROL Datei laden]richtig eingerichtet haben, wie zuvor in diesem Beispiel erläutert.**
+   Der **[!UICONTROL Kampagnentyp]** wird über das **operation**-Feld der Datei identifiziert. Hier können nur die Felder "Boolesch" oder "Integer" ausgewählt werden. Wenn die Spalte Ihrer Datei, die den auszuführenden Vorgang enthält, nicht in der Liste erscheint, vergewissern Sie sich, dass Sie Ihr Spaltenformat in der Aktivität **[!UICONTROL Datei laden]** richtig eingerichtet haben, wie zuvor in diesem Beispiel erläutert.
 
    ![](assets/subscription_activity_example_from_file.png)
 
