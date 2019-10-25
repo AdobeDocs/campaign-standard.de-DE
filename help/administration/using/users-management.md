@@ -13,8 +13,8 @@ topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -27,7 +27,7 @@ In Adobe Campaign können Sie Ihren Benutzern verschiedene Rollen zuweisen und d
 
 In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweiligen Berechtigungen genauer beschrieben: [Benutzerrollen](../../administration/using/list-of-roles.md) und [Berechtigungen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weiterführende Informationen dazu finden Sie in der Dokumentation zu [Admin Console](https://helpx.adobe.com/de/enterprise/using/users.html)
+Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weiterführende Informationen dazu finden Sie im [Handbuch zur Admin Console](https://helpx.adobe.com/enterprise/using/users.html).
 
 Der Zugriff auf die Adobe-Campaign-Benutzer erfolgt über das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration &gt; Benutzer &amp; Sicherheit &gt; Benutzer]**.
 
@@ -37,7 +37,7 @@ Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie v
 
 **Verwandte Themen:**
 
-* Video [Managing user permissions](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html)
+* Video [Managing user permissions](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
 * [Liste der Berechtigungen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -49,9 +49,9 @@ In diesem Abschnitt werden die wichtigsten Typen von Adobe-Campaign-Benutzern er
 
 Vielmehr beschäftigen wir uns mit den drei wichtigsten Benutzertypen entsprechend ihrem Aufgabenbereich in Adobe Campaign:
 
-* [Funktionale Administratoren](../../administration/using/users-management.md#functional-administrators): Dies sind die technisch ausgerichteten Benutzer in Ihrem Unternehmen.
-* [Benutzer mit fortgeschrittenen Kenntnissen](../../administration/using/users-management.md#advanced-users): Sie richten alle Elemente ein, die Marketer für den Versand und die Überwachung von Nachrichten benötigen.
-* [Benutzer mit Grundkenntnissen](../../administration/using/users-management.md#basic-users): Dies sind die Marketer, die Kampagnen personalisieren, versenden und überwachen.
+* [Funktionale Administratoren](#functional-administrators): Dies sind die technisch ausgerichteten Benutzer in Ihrem Unternehmen.
+* [Benutzer mit fortgeschrittenen Kenntnissen](#advanced-users): Sie richten alle Elemente ein, die Marketer für den Versand und die Überwachung von Nachrichten benötigen.
+* [Benutzer mit Grundkenntnissen](#basic-users): Dies sind die Marketer, die Kampagnen personalisieren, versenden und überwachen.
 
 >[!NOTE]
 >
