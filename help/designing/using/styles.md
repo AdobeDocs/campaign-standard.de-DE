@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
+source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
 
 ---
 
@@ -49,16 +49,16 @@ Um eine Spalte auszuwählen, können Sie auch folgendermaßen vorgehen:
 1. Wählen Sie eine Strukturkomponente (direkt in der E-Mail oder unter Verwendung des Strukturbaums in der linken **Palette**).
 1. Wählen Sie in der **dedizierten Symbolleiste** die Option **[!UICONTROL Spalte auswählen]**, um die gewünschte Spalte auszuwählen.
 
-In [diesem Abschnitt](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
+In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
 
 ### Einstellungen des Stils anpassen   {#adjusting-style-settings}
 
-1. Wählen Sie in Ihrer E-Mail ein Element aus. Weiterführende Informationen dazu finden Sie unter [Element auswählen](../../designing/using/styles.md#selecting-an-element).
+1. Wählen Sie in Ihrer E-Mail ein Element aus. Weiterführende Informationen dazu finden Sie unter [Element auswählen](#selecting-an-element).
 1. Passen Sie die Einstellungen nach Bedarf an. Für jedes ausgewählte Element sind unterschiedliche Einstellungen verfügbar.
 
-   Sie können beispielsweise Hintergründe einfügen, Größen ändern, die horizontale oder senkrechte Ausrichtung ändern, Farben verwalten sowie [Abstände und Spannen](../../designing/using/styles.md#selecting-an-element) hinzufügen.
+   Sie können beispielsweise Hintergründe einfügen, Größen ändern, die horizontale oder senkrechte Ausrichtung ändern, Farben verwalten sowie [Abstände und Spannen](#selecting-an-element) hinzufügen.
 
-   Verwenden Sie dazu die im Bereich **[!UICONTROL Einstellungen]** angezeigten Optionen oder [fügen Sie Inline-Styling-Attribute hinzu](../../designing/using/styles.md#adding-inline-styling-attributes).
+   Verwenden Sie dazu die im Bereich **[!UICONTROL Einstellungen]** angezeigten Optionen oder [fügen Sie Inline-Styling-Attribute hinzu](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -220,7 +220,7 @@ Der Stil wird auf das ausgewählte Element angewendet. Wenn für die untergeordn
 
 Sie können das responsive Design einer E-Mail anpassen, indem Sie alle Stiloptionen für die Darstellung auf Mobilgeräten einzeln bearbeiten. So können Sie beispielsweise für die mobile Version Ihrer E-Mail die Spannen und Abstände verändern sowie kleinere oder größere Schriftgrade verwenden, die Schaltflächen ändern oder unterschiedliche Hintergrundfarben auswählen.
 
-Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Weiterführende Informationen zu den Stileinstellungen von Email Designer finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/styles.md).
+Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Weiterführende Informationen zu den Stileinstellungen von Email Designer finden Sie im Abschnitt [E-Mail-Stile bearbeiten](#editing-email-styles).
 
 1. Erstellen Sie eine E-Mail und bearbeiten Sie den Inhalt. Weiterführende Informationen dazu finden Sie im Abschnitt [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Öffnen Sie mit der Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]** die Mobile-Ansicht.
