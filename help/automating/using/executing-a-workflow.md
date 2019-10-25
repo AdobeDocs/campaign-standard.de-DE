@@ -15,7 +15,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ Nach dem Start kann ein Workflow zwei weitere Status aufweisen:
 
 * **Fehlerhaft** (rot)
 
-   Bei der Ausführung des Workflows ist ein Fehler aufgetreten. Die Ausführung wurde angehalten und ein Eingreifen des Benutzers ist erforderlich. Mithilfe der Schaltfläche ![](assets/printpreview_darkgrey-24px.png) gelangen Sie in das Workflow-Protokoll, dem Sie die Fehlerursache entnehmen können (siehe [Monitoring](../../automating/using/executing-a-workflow.md#monitoring)).
+   Bei der Ausführung des Workflows ist ein Fehler aufgetreten. Die Ausführung wurde angehalten und ein Eingreifen des Benutzers ist erforderlich. Mithilfe der Schaltfläche ![](assets/printpreview_darkgrey-24px.png) gelangen Sie in das Workflow-Protokoll, dem Sie die Fehlerursache entnehmen können (siehe [Monitoring](#monitoring)).
 
 Die Liste der Marketingaktivitäten ermöglicht die Anzeige aller Workflows inklusive ihrer Status. Weiterführende Informationen dazu finden Sie im Abschnitt [Marketingaktivitäten verwalten](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -146,7 +146,7 @@ Die Schaltfläche ![](assets/checkdisable.png) deaktiviert die markierten Aktivi
 
 Über die Schaltfläche ![](assets/printpreview_darkgrey-24px.png) können Sie auf das Protokoll und die Aufgaben des Workflows zugreifen.
 
-Der Workflow-Verlauf wird für die in den Ausführungseigenschaften eines Workflows angegebene Dauer gespeichert (siehe [Eigenschaften des Workflows](../../automating/using/executing-a-workflow.md#workflow-properties)). Innerhalb dieser Dauer werden alle Logs gespeichert, auch wenn der Workflow neu gestartet wurde. Wenn Sie die Logs einer früheren Ausführung nicht beibehalten möchten, können Sie den Verlauf unter Verwendung der Schaltfläche ![](assets/delete_darkgrey-24px.png) bereinigen.
+Der Workflow-Verlauf wird für die in den Ausführungseigenschaften eines Workflows angegebene Dauer gespeichert (siehe [Eigenschaften des Workflows](#workflow-properties)). Innerhalb dieser Dauer werden alle Logs gespeichert, auch wenn der Workflow neu gestartet wurde. Wenn Sie die Logs einer früheren Ausführung nicht beibehalten möchten, können Sie den Verlauf unter Verwendung der Schaltfläche ![](assets/delete_darkgrey-24px.png) bereinigen.
 
 Der **[!UICONTROL Protokoll]**-Tab enthält den Ausführungsverlauf aller oder aller markierten Aktivitäten. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
 
@@ -174,9 +174,9 @@ In diesem Fall wird die fehlerhafte Aufgabe abgebrochen. Dieser Modus ist insbes
 
 >[!NOTE]
 >
->Es besteht die Möglichkeit, diese Vorgehensweise innerhalb eines Workflows nur für bestimmte Aktivitäten zu konfigurieren. Wählen Sie hierzu die gewünschte Aktivität aus, öffnen Sie sie mithilfe der Quick Action ![](assets/edit_darkgrey-24px.png). und wählen Sie im Bereich **Ausführungsoptionen** den gewünschten Umgang mit Fehlern aus. Siehe [Ausführungsoptionen von Aktivitäten](../../automating/using/executing-a-workflow.md#activity-execution-options).
+>Es besteht die Möglichkeit, diese Vorgehensweise innerhalb eines Workflows nur für bestimmte Aktivitäten zu konfigurieren. Wählen Sie hierzu die gewünschte Aktivität aus, öffnen Sie sie mithilfe der Quick Action ![](assets/edit_darkgrey-24px.png). und wählen Sie im Bereich **Ausführungsoptionen** den gewünschten Umgang mit Fehlern aus. Siehe [Ausführungsoptionen von Aktivitäten](#activity-execution-options).
 
-Im Bereich **[!UICONTROL Ausführung]** der Workflow-Eigenschaften kann die Anzahl an **[!UICONTROL Folgefehlern]** bestimmt werden, die zulässig sind, bevor die Ausführung des Workflows automatisch ausgesetzt wird. Solange diese Anzahl nicht erreicht ist, werden die fehlerhaften Elemente ignoriert und die anderen Workflow-Zweige regulär ausgeführt. Sobald diese Anzahl erreicht ist, wird der Workflow ausgesetzt und die Workflow-Supervisoren werden automatisch benachrichtigt (E-Mail und In-App-Benachrichtigung). Siehe [Eigenschaften des Workflows](../../automating/using/executing-a-workflow.md#workflow-properties) und [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+Im Bereich **[!UICONTROL Ausführung]** der Workflow-Eigenschaften kann die Anzahl an **[!UICONTROL Folgefehlern]** bestimmt werden, die zulässig sind, bevor die Ausführung des Workflows automatisch ausgesetzt wird. Solange diese Anzahl nicht erreicht ist, werden die fehlerhaften Elemente ignoriert und die anderen Workflow-Zweige regulär ausgeführt. Sobald diese Anzahl erreicht ist, wird der Workflow ausgesetzt und die Workflow-Supervisoren werden automatisch benachrichtigt (E-Mail und In-App-Benachrichtigung). Siehe [Eigenschaften des Workflows](#workflow-properties) und [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 Die Supervisoren werden ebenfalls in den Ausführungseigenschaften des Workflows bestimmt.
 
