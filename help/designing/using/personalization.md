@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachrichten in Adobe Campaign zu personalisieren. Diese Personalisierungsmöglichkeiten können abhängig von den jeweiligen Profilen kombiniert werden. Im Allgemeinen bietet Adobe Campaign folgende Möglichkeiten:
 
-* Dynamische Personalisierungsfelder einfügen. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
-* Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
-* Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](../../designing/using/personalization.md#personalizing-the-sender).
+* Dynamische Personalisierungsfelder einfügen. Siehe [Personalisierungsfelder einfügen](#inserting-a-personalization-field).
+* Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](#adding-a-content-block).
+* Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](#personalizing-the-sender).
 * Betreff einer E-Mail personalisieren. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email).
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
@@ -148,7 +148,7 @@ Gehen Sie wie folgt vor, um einen Inhaltsbaustein zu erstellen:
    * **[!UICONTROL Landingpage:]** Der Inhaltsbaustein kann nur in einer Landingpage verwendet werden.
    ![](assets/content_bloc_02.png)
 
-1. Sie können eine **[!UICONTROL Zielgruppendimension]** auswählen. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Zielgruppendimensionen](../../designing/using/personalization.md#about-targeting-dimension).
+1. Sie können eine **[!UICONTROL Zielgruppendimension]** auswählen. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Zielgruppendimensionen](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -178,9 +178,9 @@ Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourc
 
 **Verwandte Themen:**
 
-* [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block)
-* [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Personalisierungsfeld einfügen](#inserting-a-personalization-field)
+* [Inhaltsbausteine](#adding-a-content-block)
+* [Dynamische Inhalte in einer E-Mail definieren](#defining-dynamic-content-in-an-email)
 
 ## Bildquellen personalisieren{#personalizing-an-image-source}
 
@@ -228,7 +228,7 @@ Derartige Bedingungen nehmen die Syntax von XTK-Ausdrücken an (z. B. **context
 
 Es besteht die Möglichkeit, für eine E-Mail multiple Inhalte zu erstellen, die in Abhängigkeit von mithilfe des Ausdruckseditors definierten Bedingungen den Empfängern dynamisch angezeigt werden. So kann beispielsweise jedem Profil je nach seiner Altersgruppe ein abweichender Inhalt angezeigt werden.
 
-Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtbarkeitsbedingungen](../../designing/using/personalization.md#defining-a-visibility-condition).
+Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtbarkeitsbedingungen](#defining-a-visibility-condition).
 
 1. Wählen Sie ein Fragment, eine Komponente oder ein Element aus. Wählen Sie für dieses Beispiel ein Bild aus.
 1. Wählen Sie in der dedizierten Symbolleiste das Symbol für **[!UICONTROL dynamischen Inhalt]** aus.
@@ -261,7 +261,7 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
 
    ![](assets/dynamic_content_7.png)
 
-   Die Inhalte werden in der Reihenfolge ihrer Priorität von oben nach unten in der Palette angezeigt. Weiterführende Informationen zu Prioritäten finden Sie in [diesem Abschnitt](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+   Die Inhalte werden in der Reihenfolge ihrer Priorität von oben nach unten in der Palette angezeigt. Weiterführende Informationen zu Prioritäten finden Sie in [diesem Abschnitt](#defining-dynamic-content-in-an-email).
 
 1. Laden Sie ein neues Bild für die soeben definierte Variante hoch.
 
@@ -318,13 +318,13 @@ Gehen Sie bei der E-Mail-Erstellung wie folgt vor:
 
    ![](assets/delivery_content_43.png)
 
-   Weiterführende Informationen zum Hinzufügen und Konfigurieren von dynamischen Inhalten finden Sie im Abschnitt [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+   Weiterführende Informationen zum Hinzufügen und Konfigurieren von dynamischen Inhalten finden Sie im Abschnitt [Dynamische Inhalte in einer E-Mail definieren](#defining-dynamic-content-in-an-email).
 
 * Aktivieren Sie für den Text den dynamischen Inhalt und fügen Sie Personalisierungsfelder ein. Abhängig von der Altersgruppe des Profils beginnt die E-Mail entweder mit dem Vornamen oder dem Titel und dem Nachnamen des Profils.
 
    ![](assets/delivery_content_44.png)
 
-   Weiterführende Informationen zum Hinzufügen und Konfigurieren der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
+   Weiterführende Informationen zum Hinzufügen und Konfigurieren der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](#inserting-a-personalization-field).
 
 ### Illustrationen konfigurieren {#configuring-images}
 
@@ -371,7 +371,7 @@ Gehen Sie wie folgt vor:
 **Für die Zielgruppe 18 bis 27 Jahre:**
 
 1. Markieren Sie die anzupassende Strukturkomponente und fügen Sie einen dynamischen Inhalt hinzu.
-1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](../../designing/using/personalization.md#configuring-images).
+1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
 1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der dedizierten Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
 
    ![](assets/delivery_content_53.png)
@@ -385,7 +385,7 @@ Gehen Sie wie folgt vor:
 **Für die Zielgruppe über 27 Jahre:**
 
 1. Markieren Sie die anzupassende Strukturkomponente und fügen Sie einen dynamischen Inhalt hinzu.
-1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](../../designing/using/personalization.md#configuring-images).
+1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
 1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der dedizierten Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
 1. Markieren Sie in der sich öffnenden Liste das **[!UICONTROL Anrede]**-Feld.
 1. Gehen Sie analog vor, um das Feld **[!UICONTROL Nachname]** hinzuzufügen.
