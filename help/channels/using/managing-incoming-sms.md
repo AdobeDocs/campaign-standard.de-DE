@@ -14,8 +14,8 @@ discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
 delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -62,7 +62,7 @@ Gehen Sie dabei folgendermaßen vor:
 
 Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt Ihrer Nachrichten abgemeldet und unter Quarantäne gestellt. Die unter Quarantäne gestellten Empfänger sind in der Tabelle **[!UICONTROL Adressen]** aufgeführt, die über das Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Quarantänen]** abrufbar ist. Weiterführende Informationen zu Quarantänen finden Sie in diesem [Abschnitt](../../sending/using/understanding-quarantine-management.md).
 
-Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
+Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#storing-incoming-sms).
 
 ## Eingehende SMS speichern  {#storing-incoming-sms}
 
