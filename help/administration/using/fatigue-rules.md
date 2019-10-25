@@ -13,8 +13,8 @@ topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -36,7 +36,7 @@ Verwandte Themen:
 * [Vorbereitung](../../administration/using/configuring-email-channel.md#preparation)
 * [Typologien verwalten](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Typologieregeln](../../administration/using/about-typology-rules.md#typology-rules)
-* [Optimieren der Nachrichtenhäufigkeit zum Verhindern von Kontaktermüdung](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Optimieren der Kommunikationsfrequenz zur Vermeidung von Kontaktmüdigkeit](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Ermüdungsregel erstellen     {#creating-a-fatigue-rule}
 
@@ -54,15 +54,15 @@ Um eine Typologieregel vom Typ **[!UICONTROL Ermüdung]** zu erstellen und zu ko
 
    ![](assets/fatigue3.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Kanal]** aus, auf welchen Kanal die Regel angewendet werden soll. Sie können entweder einen einzelnen Kanal (E-Mail, SMS, Briefpost, Mobile App) oder **[!UICONTROL Alle Kanäle auswählen]**. Siehe [Kanal auswählen](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. Wählen Sie im Feld **[!UICONTROL Kanal]** aus, auf welchen Kanal die Regel angewendet werden soll. Sie können entweder einen einzelnen Kanal (E-Mail, SMS, Briefpost, Mobile App) oder **[!UICONTROL Alle Kanäle auswählen]**. Siehe [Kanal auswählen](#choosing-the-channel).
 
    ![](assets/fatigue5.png)
 
-1. Definieren Sie im Tab **[!UICONTROL Allgemein]** die Methode zur Berechnung der maximalen Anzahl an Nachrichten pro Profil. Sie können entweder eine konstante oder variable Schwelle auswählen. Sie können auch die Schwelle für Profile und Sendungen präzisieren. Lesen Sie diesbezüglich auch den Abschnitt [Schwelle definieren](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. Definieren Sie im Tab **[!UICONTROL Allgemein]** die Methode zur Berechnung der maximalen Anzahl an Nachrichten pro Profil. Sie können entweder eine konstante oder variable Schwelle auswählen. Sie können auch die Schwelle für Profile und Sendungen präzisieren. Lesen Sie diesbezüglich auch den Abschnitt [Schwelle definieren](#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
-1. Wählen Sie einen **[!UICONTROL beweglichen Zeitraum]** aus, in dem die Typologieregel gelten soll. Lesen Sie diesbezüglich auch den Abschnitt [Beweglichen Zeitraum festlegen](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. Wählen Sie einen **[!UICONTROL beweglichen Zeitraum]** aus, in dem die Typologieregel gelten soll. Lesen Sie diesbezüglich auch den Abschnitt [Beweglichen Zeitraum festlegen](#setting-the-sliding-period).
 
    ![](assets/fatigue6.png)
 
@@ -80,7 +80,7 @@ Um eine Typologieregel vom Typ **[!UICONTROL Ermüdung]** zu erstellen und zu ko
    >
    >Die Typologie kann auf Ebene der Versandvorlage festgelegt werden, um sie automatisch auf alle mit der jeweiligen Vorlage erstellten Sendungen anzuwenden.
 
-Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie bereits eine bestimmte Anzahl an Sendungen erhalten haben. Die Ausführungsergebnisse der Ermüdungsregel finden Sie in den Versandlogs. Siehe [Ermüdungsergebnisse ansehen](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results).
+Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie bereits eine bestimmte Anzahl an Sendungen erhalten haben. Die Ausführungsergebnisse der Ermüdungsregel finden Sie in den Versandlogs. Siehe [Ermüdungsergebnisse ansehen](#viewing-the-fatigue-results).
 
 ![](assets/fatigue16.png)
 
