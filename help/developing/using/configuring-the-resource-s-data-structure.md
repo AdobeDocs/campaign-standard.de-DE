@@ -14,8 +14,8 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,11 +26,11 @@ Im Anschluss an die Erstellung einer neuen benutzerdefinierten Ressource ist der
 
 In diesem Zusammenhang können im Tab **[!UICONTROL Datenstruktur]** folgende Elemente hinzugefügt werden:
 
-* [Felder](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)
-* [Identifizierungsschlüssel](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Indexe](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)
-* [Relationen](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
-* [Versandlogs](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
+* [Felder](#adding-fields-to-a-resource)
+* [Identifizierungsschlüssel](#defining-identification-keys)
+* [Indexe](#defining-indexes)
+* [Relationen](#defining-links-with-other-resources)
+* [Versandlogs](#defining-sending-logs-extension)
 
 ## Felder zu einer Ressource hinzufügen      {#adding-fields-to-a-resource}
 
