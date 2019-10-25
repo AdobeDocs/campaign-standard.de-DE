@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,7 +31,7 @@ Beispielsweise können Sie im Fall einer E-Mail-Vorlage den HTML-Inhalt, die Aud
 
 ![](assets/template_1.png)
 
-Für jede Art von Marketingaktivitäten stehen eine oder mehrere Out-of-the-Box-Vorlagen mit minimaler Konfiguration zur Verfügung. Diese vordefinierten Vorlagen können nicht geändert oder gelöscht werden.
+Für jede Marketing-Aktivität sind standardmäßig eine oder mehrere minimal konfigurierte Vorlagen in der Anwendung enthalten. Diese vordefinierten Vorlagen können nicht geändert oder gelöscht werden.
 
 Für folgende Marketingaktivitäten stehen Vorlagen zur Verfügung:
 
@@ -52,23 +52,23 @@ Vorlagen werden im Menü **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen
 >
 >Passen Sie bei Bedarf in Ihren E-Mail- oder Landingpage-Vorlagen auch die zu verwendende Marke an. Weiterführende Informationen finden Sie im Abschnitt [Marken](../../administration/using/branding.md).
 
-## Inhaltsvorlagen  {#content-templates}
+## Inhaltsvorlagen    {#content-templates}
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). Von dort aus können Sie Vorlagen für die Landung von Seiteninhalten, E-Mail-Content-Vorlagen und Fragmente verwalten.
+Der Zugriff auf die HTML-Inhaltsvorlagen erfolgt über das Fenster **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]** in [Erweitertes Menü](../../start/using/interface-description.md#advanced-menu). Dort können Sie Landingpage-Inhaltsvorlagen, E-Mail-Inhaltsvorlagen und Fragmente verwalten.
 
 ![](assets/content_templates_list.png)
 
-Die externen Content-Vorlagen sind schreibgeschützt. Um eine davon zu bearbeiten, müssen Sie zunächst die gewünschte Vorlage duplizieren.
+Die nativen Inhaltsvorlagen sind schreibgeschützt. Um bearbeitet werden zu können, müssen sie zuerst dupliziert werden.
 
-Sie können neue Vorlagen oder Fragmente erstellen und eigene Inhalte definieren. Weitere Informationen hierzu finden Sie unter [Erstellen einer Inhaltsvorlage](../../start/using/about-templates.md#creating-a-content-template) und [Erstellen eines Inhaltsfragments](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+Sie können auch neue Vorlagen oder Fragmente erstellen und eigene Inhalte definieren. Weiterführende Informationen dazu finden Sie in den Abschnitten zum [Erstellen einer Inhaltsvorlage](#creating-a-content-template) und zum [Erstellen eines Inhaltsfragments](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-Beim Bearbeiten von Inhalten mit dem E-Mail-Designer können Sie auch Content-Vorlagen erstellen, indem Sie den Inhalt als Fragment oder Vorlage speichern. Weitere Informationen hierzu finden Sie unter [Speichern von Inhalten als Vorlage](../../start/using/about-templates.md#saving-content-as-template) und [Speichern von Inhalten als Fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+Beim Bearbeiten von Inhalten mit dem E-Mail-Designer können Sie auch Inhaltsvorlagen erstellen, indem Sie den Inhalt als Fragment oder Vorlage speichern. Weiterführende Informationen dazu finden Sie in den Abschnitten zum [Speichern von Inhalt als Vorlage](#saving-content-as-template) und zum [Speichern von Inhalt als Fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-### Vorlagen für E-Mail-Inhalte außerhalb der Box {#email-content-templates}
+### Native E-Mail-Inhaltsvorlagen {#email-content-templates}
 
 You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md) home page.
 
-Die Out-of-the-box E-Mail-Content-Vorlagen beinhalten achtzehn mobile optimierte Layouts und vier erstklassige reaktionsschnelle Vorlagen, die von Behance-Künstlern entwickelt wurden. Diese decken die häufigsten Anwendungsfälle ab, wie Willkommensnachrichten für Kunden, Newsletter und Re-Engagement-E-Mails. In diese Vorlagen können Sie Ihre eigenen Markeninhalte einfügen und müssen dadurch E-Mails nicht von Grund auf neu erstellen.
+Die nativen E-Mail-Inhaltsvorlagen enthalten 18 für Mobilgeräte optimierte Layouts und vier von Behance-Künstlern erstellte responsive Vorlagen. Diese decken die häufigsten Anwendungsfälle ab, wie Willkommensnachrichten für Kunden, Newsletter und Re-Engagement-E-Mails. In diese Vorlagen können Sie Ihre eigenen Markeninhalte einfügen und müssen dadurch E-Mails nicht von Grund auf neu erstellen.
 
 ![](assets/content_templates.png)
 
@@ -77,46 +77,46 @@ Die Out-of-the-box E-Mail-Content-Vorlagen beinhalten achtzehn mobile optimierte
 * [In diesem Video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html) erfahren Sie, wie Sie Inhaltsvorlagen personalisieren können.
 * Weiterführende Informationen zum Bearbeiten von Inhalten finden Sie im Abschnitt [Über die Inhaltserstellung in E-Mails](../../designing/using/overview.md).
 
-### Creating a content template {#creating-a-content-template}
+### Inhaltsvorlage erstellen {#creating-a-content-template}
 
-Sie können eigene Content-Vorlagen erstellen, um sie so oft wie nötig zu verwenden.
+Sie können eigene Inhaltsvorlagen erstellen und beliebig oft verwenden.
 
-Im folgenden Beispiel wird das Erstellen einer E-Mail-Inhaltsvorlage veranschaulicht.
+Das folgende Beispiel zeigt, wie eine E-Mail-Inhaltsvorlage erstellt wird.
 
 1. Gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen &amp; Fragmente]** und wählen Sie **[!UICONTROL Erstellen]** aus.
 1. Wählen Sie den Titel der E-Mail aus, um auf den Tab **[!UICONTROL Eigenschaften]** in Email Designer zuzugreifen.
-1. Geben Sie ein erkennbares Etikett an, und wählen Sie die folgenden Parameter aus, um diese Vorlage in E-Mails verwenden zu können:
+1. Geben Sie einen charakteristischen Titel an und wählen Sie die folgenden Parameter aus, damit Sie diese Vorlage in E-Mails verwenden können.
 
-   * Wählen Sie in der Dropdown-Liste **[!UICONTROL Inhaltstyp]** die Option **[!UICONTROL Shared]** oder **[!UICONTROL Delivery]** aus.
-   * Wählen Sie **[!UICONTROL Vorlage]** aus der Dropdown-Liste **[!UICONTROL HTML-Typ]** .
+   * Wählen Sie **[!UICONTROL Freigegeben]** oder **[!UICONTROL Versand]** in der Dropdownliste **[!UICONTROL Content-Typ]** aus.
+   * Wählen Sie **[!UICONTROL Vorlage]** in der Dropdownliste **[!UICONTROL HTML-Typ]** aus.
    ![](assets/email_designer_create-template.png)
 
-1. Bei Bedarf können Sie ein Bild festlegen, das als Miniaturansicht für die Vorlage verwendet wird. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** l aus.
+1. Bei Bedarf können Sie ein Bild als Miniaturansicht für diese Vorlage festlegen. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** aus.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Diese Miniaturansicht wird auf der **[!UICONTROL Registerkarte Vorlagen]** der Homepage des [E-Mail-Designers](../../designing/using/overview.md) angezeigt.
+   Diese Miniaturansicht wird im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) angezeigt.
 
-1. Schließen Sie die Registerkarte **[!UICONTROL Eigenschaften]** , um zum Hauptarbeitsbereich zurückzukehren.
-1. Fügen Sie Strukturkomponenten und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
+1. Schließen Sie den Tab **[!UICONTROL Eigenschaften]**, um zum Hauptarbeitsbereich zurückzukehren.
+1. Fügen Sie Struktur- und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
    >[!NOTE]
    >
-   > Sie können keine Personalisierungsfelder oder bedingten Inhalte in eine Inhaltsvorlage einfügen.
-1. Nach der Bearbeitung speichern Sie Ihre Vorlage.
+   > Sie können keine Personalisierungsfelder oder situationsbedingten Inhalt in eine Inhaltsvorlage einfügen.
+1. Speichern Sie die Vorlage nach der Bearbeitung.
 
-Diese Vorlage kann nun in allen E-Mails verwendet werden, die mit dem E-Mail-Designer erstellt wurden. Wählen Sie diese Option auf der **[!UICONTROL Registerkarte Vorlagen]** der Homepage des [E-Mail-Designers](../../designing/using/overview.md) aus.
+Diese Vorlage kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Wählen Sie sie im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) aus.
 
 ![](assets/content_template_new.png)
 
-### Speichern von Inhalten als Vorlage {#saving-content-as-template}
+### Inhalt als Vorlage speichern {#saving-content-as-template}
 
-Beim Bearbeiten einer E-Mail mit dem E-Mail-Designer können Sie den Inhalt dieser E-Mail direkt als Vorlage speichern.
+Bei der Bearbeitung einer E-Mail mit Email Designer können Sie den Inhalt dieser E-Mail direkt als Vorlage speichern.
 
 <!--[!CAUTION]
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. Wählen Sie in der Hauptleiste des E-Mail-Designers die Option **[!UICONTROL Als Vorlage]** speichern aus.
+1. Wählen Sie in der Symbolleiste von Email Designer **[!UICONTROL Als Vorlage speichern]** aus.
 
    ![](assets/email_designer_save-as-template.png)
 
@@ -124,9 +124,9 @@ Beim Bearbeiten einer E-Mail mit dem E-Mail-Designer können Sie den Inhalt dies
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. To find the template that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]**.
+1. Um die soeben erstellte Vorlage zu finden, gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]**.
 
-1. Um die neue Vorlage zu verwenden, wählen Sie sie auf der Homepage des **E-Mail-Designers[!UICONTROL auf der Registerkarte Vorlagen]** [](../../designing/using/overview.md)aus.
+1. Um Ihre neue Vorlage zu verwenden, wählen Sie sie im Tab **[!UICONTROL Vorlagen]** in der Startseite von [Email Designer](../../designing/using/overview.md) aus.
 
    ![](assets/content_template_new.png)
 
