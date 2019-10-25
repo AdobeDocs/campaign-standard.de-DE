@@ -3,18 +3,18 @@ title: Ursachen von fehlgeschlagenen Sendungen
 seo-title: Ursachen von fehlgeschlagenen Sendungen
 description: Ursachen von fehlgeschlagenen Sendungen
 seo-description: Hier erfahren Sie, wie Sie Zustellprobleme in Campaign vermeiden können.
-page-status-flag: nie aktiviert
-uuid: 2735 aa 05-7 b 6 f -47 c 9-98 c 4-a 15 cc 33 be 39 d
+page-status-flag: never-activated
+uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird gesendet
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 38452841-4 cd 4-4 f 92-a 5 c 3-1 dfdd 54 ff 6 f 4
+discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ## Über fehlgeschlagene Sendungen {#about-delivery-failures}
 
-Wenn eine Lieferung nicht an ein Profil gesendet werden kann, sendet der Remote-Server automatisch eine Fehlermeldung, die von der Adobe Campaign-Plattform abgerufen und qualifiziert wird, um zu bestimmen, ob die E-Email-Adresse oder die Telefonnummer quarantänisiert werden soll. Siehe [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+Wenn einem Profil eine Nachricht nicht zugestellt werden kann, sendet der Remote-Server automatisch eine Fehlermeldung, die von der Adobe-Campaign-Plattform erfasst und qualifiziert wird, um festzustellen, ob die E-Mail-Adresse oder Telefonnummer unter Quarantäne gestellt werden soll. Siehe [Bounce-Message-Qualifizierung](#bounce-mail-qualification).
 
 >[!NOTE]
 >
@@ -38,15 +38,15 @@ Mitteilungen können während der Versandvorbereitung auch ausgeschlossen werden
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 * [Blacklists in Campaign verwenden](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Fehlgeschlagene Sendungen für eine Nachricht identifizieren {#identifying-delivery-failures-for-a-message}
+## Fehlgeschlagene Sendungen für eine Nachricht identifizieren  {#identifying-delivery-failures-for-a-message}
 
-Nachdem eine Nachricht gesendet wurde, können Sie im Tab **[!UICONTROL Versandlogs]** (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#sending-logs)) den Versandstatus für jedes Profil sowie den damit verbundenen Fehlschlagstyp und die Ursache einsehen (siehe [Typen und Ursachen für fehlgeschlagene Sendungen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
+Nachdem eine Nachricht gesendet wurde, können Sie im Tab **[!UICONTROL Versandlogs]** (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#sending-logs)) den Versandstatus für jedes Profil sowie den damit verbundenen Fehlschlagstyp und die Ursache einsehen (siehe [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons)).
 
 ![](assets/sending_logs.png)
 
 Es steht auch ein entsprechender Bericht zur Verfügung. Dieser Bericht zeigt die Gesamtheit aller Statistiken zu bei Sendungen aufgetretenen Hard- und Softbounces und der automatischen Bounce-Verarbeitung. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/bounce-summary.md).
 
-## Typen und Ursachen für fehlgeschlagene Sendungen {#delivery-failure-types-and-reasons}
+## Typen und Ursachen für fehlgeschlagene Sendungen  {#delivery-failure-types-and-reasons}
 
 Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
 
@@ -72,28 +72,28 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 * **[!UICONTROL Fehler ignoriert]**: Die Adresse ist auf der Whitelist und erhält E-Mail-Sendungen.
 * **[!UICONTROL Adresse auf der Blacklist]**: Zum Zeitpunkt des Versands war die Adresse auf der Blacklist.
-* **[!UICONTROL Konto deaktiviert]** (Softbounce/Hardbounce): Wenn das Konto längere Zeit nicht abgefragt wird, kann es vom Internetanbieter geschlossen werden, was den Versand an diese Empfängeradresse unmöglich macht. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]zugewiesen und der Zustellversuch wird wiederholt.** Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt.
+* **[!UICONTROL Konto deaktiviert]** (Softbounce/Hardbounce): Wenn das Konto längere Zeit nicht abgefragt wird, kann es vom Internetanbieter geschlossen werden, was den Versand an diese Empfängeradresse unmöglich macht. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]** zugewiesen und der Zustellversuch wird wiederholt. Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt.
 * **[!UICONTROL Nicht angemeldet]**: Mobiltelefon des Profils war bei Versand der Nachricht ausgeschaltet oder verfügte über keinen Netzempfang.
 * **[!UICONTROL Ungültige Domain]** (Softbounce): Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt.
 * **[!UICONTROL Text zu lang]**: Die Zeichenzahl der SMS-Nachricht übersteigt das Limit. Weiterführende Informationen dazu finden Sie im Abschnitt [Kodierung, Länge und Tansliteration von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 * **[!UICONTROL Zeichen wird in der Kodierung nicht unterstützt]**: Die SMS enthält mindestens ein Zeichen, das in der Kodierung nicht unterstützt wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Zeichensatztabelle - GSM-Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
 
-## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand {#retries-after-a-delivery-temporary-failure}
+## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand  {#retries-after-a-delivery-temporary-failure}
 
-Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
 Gehen Sie zur Änderung der Versandlaufzeit in die erweiterten Eigenschaften des Versands oder seiner Vorlage und geben Sie im entsprechenden Feld die gewünschte Dauer ein. Weiterführende Informationen zu den erweiterten Versandeigenschaften finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 Standardmäßig sind innerhalb der ersten 24 Stunden fünf Versuche im Abstand von mindestens einer Stunde vorgesehen, an den vier folgenden Tagen je ein Versuch. Die Anzahl weiterer Versuche kann global geändert werden (kontaktieren Sie Ihren technischen Administrator von Adobe) oder für jeden Versand oder jede Versandvorlage (siehe [diesen Abschnitt](../../administration/using/configuring-email-channel.md#sending-parameters)).
 
-## Synchrone und asynchrone Fehler {#synchronous-and-asynchronous-errors}
+## Synchrone und asynchrone Fehler  {#synchronous-and-asynchronous-errors}
 
 Ein Versand kann sofort fehlschlagen (synchroner Fehler) oder zu einem späteren Zeitpunkt nach dem Versand (asynchroner Fehler).
 
 * **Synchroner Fehler**: Der vom Adobe-Campaign-Server angesprochene Remote-Server hat sofort eine Fehlermeldung zurückgegeben. Die Nachricht kann nicht an den Server des Profils gesendet werden.
-* **Asynchroner Fehler: Eine Bounce Message oder ein Statusbericht (SR) wird vom Remote-Server verzögert zurückgesendet.** Asynchrone Fehler können bis zu eine Woche nach einem Versand auftreten.
+* **Asynchroner Fehler**: Eine Bounce Message oder ein Statusbericht (SR) wird vom Remote-Server verzögert zurückgesendet. Asynchrone Fehler können bis zu eine Woche nach einem Versand auftreten.
 
-## Bounce-Message-Qualifizierung {#bounce-mail-qualification}
+## Bounce-Message-Qualifizierung  {#bounce-mail-qualification}
 
 Adobe Campaign ruft Fehlermeldungen von fehlgeschlagenen Sendungen (auch "Bounces" genannt) ab und qualifiziert sie mithilfe des inMail-Prozesses, um die Liste der E-Mail-Verwaltungsregeln anzureichern.
 
