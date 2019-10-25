@@ -15,7 +15,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,8 +26,8 @@ In Adobe Campaign stehen Ihnen zur Anpassung von In-App-Nachrichten bei deren Er
 
 Über den In-App-Inhaltseditor können Sie zwischen zwei In-App-Nachrichtenmodi auswählen:
 
-* [Nachrichtenvorlage](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template): Mit dieser Vorlage können Sie zu Ihrer In-App-Nachricht beliebig Bilder, Videos und Aktionsschaltflächen hinzufügen.
-* [Benutzerdefinierte Nachricht](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message): Mit dieser Vorlage können Sie eine benutzerdefinierte HTML-Datei importieren.
+* [Nachrichtenvorlage](#customizing-with-a-message-template): Mit dieser Vorlage können Sie zu Ihrer In-App-Nachricht beliebig Bilder, Videos und Aktionsschaltflächen hinzufügen.
+* [Benutzerdefinierte Nachricht](#customizing-with-a-custom-html-message): Mit dieser Vorlage können Sie eine benutzerdefinierte HTML-Datei importieren.
 
 ![](assets/inapp_customize_1.png)
 
@@ -61,7 +61,7 @@ In der Dropdown-Liste **[!UICONTROL Layout]** können Sie je nach Anforderungen 
 
 * **[!UICONTROL Lokale Benachrichtigung]**: Dieser Layouttyp wird als Bannernachricht angezeigt.
 
-   Sie unterstützt nur Ton, Text und Ziel. Weiterführende Informationen zur lokalen Benachrichtigung finden Sie in [Nachricht vom Typ "Lokale Benachrichtigung" anpassen](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
+   Sie unterstützt nur Ton, Text und Ziel. Weiterführende Informationen zur lokalen Benachrichtigung finden Sie in [Nachricht vom Typ "Lokale Benachrichtigung" anpassen](#customizing-a-local-notification-message-type).
 
 Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors auf verschiedenen Geräten, wie Smartphones und Tablets, unterschiedlichen Plattformen, z. B. Android oder iOS, und in unterschiedlichen Ausrichtungen, wie Hoch- oder Querformat, angesehen werden.
 
@@ -125,7 +125,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 1. Geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein, wenn Sie die Aktion **[!UICONTROL Weiterleiten]** auswählen.
 1. Überprüfen Sie den Inhalt Ihrer Nachricht im Vorschaufenster oder durch Anklicken der Vorschau-Schaltfläche.
 
-   Weiterführende Informationen dazu finden Sie auf der Seite [Vorschau einer In-App-Nachricht erstellen](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message).
+   Weiterführende Informationen dazu finden Sie auf der Seite [Vorschau einer In-App-Nachricht erstellen](#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
