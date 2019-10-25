@@ -14,8 +14,8 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -40,7 +40,7 @@ Das **[!UICONTROL Suche]**-Menü erlaubt die Filterung der angezeigten Elemente 
 
 Wählen Sie in der Liste eine Aktivität aus, um auf ihren Inhalt zugreifen zu können.
 
-Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](#creating-a-marketing-activity).
 
 ## Symbole und Status von Marketingaktivitäten    {#marketing-activity-icons-and-statuses}
 
