@@ -14,8 +14,8 @@ discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,12 +30,12 @@ In Adobe Campaign sind drei Arten von In-App-Nachrichten verfügbar:
 
 * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)]**: Mit diesem Nachrichtentyp können Sie Adobe-Campaign-Profile (CRM-Profile) auswählen, die sich für Ihre Mobile App angemeldet haben. Dieser Nachrichtentyp kann mit allen in Adobe Campaign verfügbaren Profilattributen personalisiert werden, erfordert aber einen sicheren Handshake zwischen dem Mobile SDK und dem In-App-Messaging-Dienst von Campaign, um sicherzustellen, dass Nachrichten mit personenbezogenen und sensiblen Informationen nur von autorisierten Benutzern verwendet werden.
 
-   Um diesen Nachrichtentyp mit den Geräten der Benutzer herunterzuladen, muss das Mobile SDK Verknüpfungsfelder zur Verknüpfung eines mobilen Profils mit einem CRM-Profil in Adobe Campaign senden. Weiterführende Informationen zu SDK-APIs zur Unterstützung von In-App-Nachrichten finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
+   Um diesen Nachrichtentyp mit den Geräten der Benutzer herunterzuladen, muss das Mobile SDK Verknüpfungsfelder zur Verknüpfung eines mobilen Profils mit einem CRM-Profil in Adobe Campaign senden. Weiterführende Informationen zu SDK APIs zur Unterstützung von In-App-Nachrichten finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
 
 * **[!UICONTROL Alle Nutzer einer Mobile App auswählen (inAppBroadcast)]**: Mit diesem Nachrichtentyp können Sie Nachrichten an alle (aktuelle oder künftige) Benutzer Ihrer Mobile App senden, selbst wenn in Adobe Campaign kein Profil existiert. Bei der Anpassung der Nachrichten ist daher keine Personalisierung möglich, da das Benutzerprofil in Adobe Campaign möglicherweise gar nicht existiert.
 * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]**: Mit diesem Nachrichtentyp können Sie alle bekannten oder anonymen Benutzer einer Mobile App auswählen, von denen ein mobiles Profil in Campaign existiert. Dieser Nachrichtentyp kann nur mit nicht-personenbezogenen und nicht-sensiblen Attributen personalisiert werden und benötigt auch keinen sicheren Handshake zwischen dem Mobile SDK und dem In-App-Messaging-Dienst von Adobe Campaign.
 
-   Weiterführende Informationen zur Verwendung personenbezogener und sensibler Daten finden Sie im Abschnitt [Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+   Weiterführende Informationen zur Verwendung personenbezogener und sensibler Daten finden Sie im Abschnitt [Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden](#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
@@ -97,11 +97,11 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    * **[!UICONTROL Mobile-App-Ereignisse]**: Benutzerdefinierte Ereignisse, die in Ihre Mobile App implementiert sind.
 
-      Weiterführende Informationen zum Erstellen von Ereignissen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
+      Weiterführende Informationen zum Erstellen von Ereignissen finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
    * **[!UICONTROL Life-Cycle-Ereignisse]**: Native Life-Cycle-Ereignisse, die von Adobe Mobile SDK unterstützt werden.
 
-      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://marketing.adobe.com/resources/help/de_DE/mobile/android/metrics.html).
+      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
 
    * **[!UICONTROL Analytics-Ereignisse]**: Je nach der Konfiguration Ihrer Mobile App werden die folgenden drei Kategorien unterstützt: Adobe Analytics, Kontextdaten oder Ansichtsstatus.
 
@@ -126,7 +126,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    ![](assets/inapp_creating_5.png)
 
-1. Bearbeiten Sie den Inhalt Ihrer Nachricht und definieren Sie die erweiterten Optionen. Siehe [In-App-Nachricht anpassen](https://helpx.adobe.com/de/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Bearbeiten Sie den Inhalt Ihrer Nachricht und definieren Sie die erweiterten Optionen. Siehe [In-App-Nachricht anpassen](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
