@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
+source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
 
 ---
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365-Integration (GA) - [Weitere Informationen](https://helpx.
 
 Die Liste der Fehlermeldungen für Campaign Standard und Campaign Classic wurde aktualisiert. [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Der Leitfaden für die ersten Schritte des GDPR wurde verbessert und erweitert. Es handelt sich jetzt um eine Dokumentation zum Schutz der Privatsphäre einschließlich GDPR und CCPA. [mehr dazu](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+Der Leitfaden für die ersten Schritte des GDPR wurde verbessert und erweitert. Es handelt sich jetzt um eine Dokumentation zum Schutz der Privatsphäre einschließlich GDPR und CCPA. [mehr dazu](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 Es wurde ein neues Diagramm mit dem Veröffentlichungsprozess für Transaktionsnachrichten hinzugefügt. [mehr dazu](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
