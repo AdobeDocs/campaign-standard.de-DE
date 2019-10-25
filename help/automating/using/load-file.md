@@ -15,7 +15,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
+source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
 
 ---
 
@@ -84,7 +84,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
    Es besteht beispielsweise die Möglichkeit, Spaltentitel und Datentyp (String, Ganze Zahl, Datum etc.) anzupassen bzw. den Umgang mit Fehlern zu bestimmen.
 
-   Weiterführende Informationen hierzu finden Sie im Abschnitt [Spaltenformat](../../automating/using/load-file.md#column-format).
+   Weiterführende Informationen hierzu finden Sie im Abschnitt [Spaltenformat](#column-format).
 
    ![](assets/wkf_file_loading4.png)
 
@@ -176,7 +176,7 @@ Starten Sie den Workflow. Die gewünschte Datei wird geladen, die Daten werden e
 
 ## Beispiel 2: Versand einer E-Mail mit erweiterten Feldern {#example-2-email-with-enriched-fields}
 
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
 Die Aktivität „Datei laden“ ermöglicht das Senden einer erweiterten E-Mail mit zusätzlichen Daten aus einer externen Datei im gleichen Workflow.
 
