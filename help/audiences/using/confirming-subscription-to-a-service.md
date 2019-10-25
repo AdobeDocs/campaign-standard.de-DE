@@ -1,7 +1,7 @@
 ---
-title: Bestätigung des Abonnements für einen Dienst
-seo-title: Bestätigung des Abonnements für einen Dienst
-description: Bestätigung des Abonnements für einen Dienst
+title: Abonnement eines Dienstes bestätigen
+seo-title: Abonnement eines Dienstes bestätigen
+description: Abonnement eines Dienstes bestätigen
 seo-description: Führen Sie die folgenden Schritte aus, um eine Bestätigungsmeldung für Profile einzurichten, die einen Dienst in Adobe Campaign abonnieren.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
@@ -14,12 +14,12 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Bestätigung des Abonnements für einen Dienst{#confirming-subscription-to-a-service}
+# Abonnement eines Dienstes bestätigen{#confirming-subscription-to-a-service}
 
 ## Informationen zum Senden der Abonnementbestätigung {#sending-subscription-confirmation}
 
@@ -32,8 +32,8 @@ Wenn Sie die Standardnachricht verwenden, können Sie deren Inhalt mit folgenden
 * Diese Meldung ist für alle Dienste identisch, die den Standardmodus verwenden.
 
 Um eine bestimmte Bestätigungs-E-Mail für einen bestimmten Dienst zu senden, können Sie eine benutzerdefinierte Nachricht erstellen, in der Sie auch Personalisierungsfelder aus anderen Ressourcen nutzen können. Dazu müssen Sie eine Transaktionsmeldung erstellen und konfigurieren. Diese Meldung kann referenziert werden:
-* Vom Dienst selbst. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Bestätigungsmeldung von einem Dienst](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
-* Von einer Abonnement-Landingpage. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Bestätigungsmeldung von einer Einstiegsseite](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page).
+* Vom Dienst selbst. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Bestätigungsmeldung von einem Dienst](#configuring-confirmation-message-from-service).
+* Von einer Abonnement-Landingpage. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Bestätigungsmeldung von einer Einstiegsseite](#configuring-confirmation-message-from-landing-page).
 
 ## Konfigurieren der Bestätigungsmeldung eines Dienstes {#configuring-confirmation-message-from-service}
 
@@ -166,7 +166,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
 
 #### Bestätigungsnachricht erstellen    {#design-the-confirmation-message-2}
 
-Die Schritte zum Entwerfen der Transaktionsnachricht werden in diesem [Abschnitt](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1)beschrieben.
+Die Schritte zum Entwerfen der Transaktionsnachricht werden in diesem [Abschnitt](#design-the-confirmation-message-1)beschrieben.
 
 ### Schritt 2: Dienst erstellen und konfigurieren {#step-2--create-and-configure-the-service-2}
 
