@@ -14,8 +14,8 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Der Inhaltseditor für SMS und Push-Benachrichtigungen besteht aus zwei Bereichen, mit denen eine Nachricht angezeigt und bearbeitet werden kann.
 
-1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Hier haben Sie die Möglichkeit, Personalisierungsfelder einzufügen, bedingte Texte hinzuzufügen und SMS-Inhalt in der Vorschau anzusehen. Siehe auch den Abschnitt [Symbolleiste des Inhaltseditors für SMS und Push-Benachrichtigungen](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar).
-1. Im **Arbeitsbereich** des Bildschirms können Sie Text direkt eingeben und auswählen, wo eine Personalisierung eingefügt werden soll. Siehe auch den Abschnitt [Bearbeitungsmodi von Inhalten von SMS und Push-Benachrichtigungen](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes).
+1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Hier haben Sie die Möglichkeit, Personalisierungsfelder einzufügen, bedingte Texte hinzuzufügen und SMS-Inhalt in der Vorschau anzusehen. Siehe auch den Abschnitt [Symbolleiste des Inhaltseditors für SMS und Push-Benachrichtigungen](#sms-and-push-content-editor-action-bar).
+1. Im **Arbeitsbereich** des Bildschirms können Sie Text direkt eingeben und auswählen, wo eine Personalisierung eingefügt werden soll. Siehe auch den Abschnitt [Bearbeitungsmodi von Inhalten von SMS und Push-Benachrichtigungen](#sms-and-push-content-edition-modes).
 
 ## Symbolleiste des Inhaltseditors für SMS und Push-Benachrichtigungen   {#sms-and-push-content-editor-action-bar}
 
