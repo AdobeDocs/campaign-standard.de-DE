@@ -14,7 +14,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,9 +31,9 @@ Diese Funktion verwendet je nach Auswahl der Versandvorlage für Push-Benachrich
 
 Gehen Sie folgendermaßen vor, um mehrsprachige Inhaltsvarianten für Ihre Push-Benachrichtigungen zu verwenden:
 
-* [Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
-* [Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.](#step-1--upload-multilingual-content-variant)
+* [Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.     {#step-1--upload-multilingual-content-variant}
 
