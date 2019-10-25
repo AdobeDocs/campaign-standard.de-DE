@@ -14,7 +14,7 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,8 +23,8 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 In diesem Abschnitt finden Sie zwei Anwendungsbeispiele für die Integration von Adobe Campaign mit Experience Cloud Triggers: In diesem Abschnitt finden Sie zwei Anwendungsbeispiele:
 
-* [Trigger für abgebrochene Suche](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger): Senden Sie eine Nachricht an Kunden, die ihren Besuch auf Ihrer Website abgebrochen haben.
-* [Trigger für abgebrochene Suche](../../integrating/using/abandonment-triggers-use-cases.md#search-abandonment-trigger): Kontaktieren Sie Besucher, die Ihre Website durchsucht, aber nichts gekauft haben.
+* [Trigger für abgebrochene Suche](#browse-abandonment-trigger): Senden Sie eine Nachricht an Kunden, die ihren Besuch auf Ihrer Website abgebrochen haben.
+* [Trigger für abgebrochene Suche](#search-abandonment-trigger): Kontaktieren Sie Besucher, die Ihre Website durchsucht, aber nichts gekauft haben.
 
 >[!NOTE]
 >
@@ -123,11 +123,11 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
 ## Trigger für abgebrochene Suche   {#search-abandonment-trigger}
 
-In diesem Anwendungsbeispiel erstellen wir einen Trigger, um Besucher nochmals anzusprechen, die unsere Reisebuchungs-Website besucht, nach einem Reiseziel gesucht, keine passenden Ergebnisse gefunden und schließlich keine Buchung vorgenommen haben. Im Allgemeinen ist dieser Vorgang identisch zum vorherigen Anwendungsbeispiel (siehe [Trigger für abgebrochene Suche](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)). Hier widmen wir uns aber intensiver der Frage, wie die Remarketing-E-Mail-Nachricht personalisiert werden kann.
+In diesem Anwendungsbeispiel erstellen wir einen Trigger, um Besucher nochmals anzusprechen, die unsere Reisebuchungs-Website besucht, nach einem Reiseziel gesucht, keine passenden Ergebnisse gefunden und schließlich keine Buchung vorgenommen haben. Im Allgemeinen ist dieser Vorgang identisch zum vorherigen Anwendungsbeispiel (siehe [Trigger für abgebrochene Suche](#browse-abandonment-trigger)). Hier widmen wir uns aber intensiver der Frage, wie die Remarketing-E-Mail-Nachricht personalisiert werden kann.
 
 ### Experience Cloud-Trigger erstellen   {#creating-an-experience-cloud-trigger-1}
 
-Folgen Sie zur Erstellung des Experience-Cloud-Triggers der im vorherigen Anwendungsbeispiel beschriebenen Anleitung. Siehe [Experience Cloud-Trigger erstellen](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger). Der wesentliche Unterschied liegt in der Trigger-Definition.
+Folgen Sie zur Erstellung des Experience-Cloud-Triggers der im vorherigen Anwendungsbeispiel beschriebenen Anleitung. Siehe [Experience Cloud-Trigger erstellen](#creating-an-experience-cloud-trigger). Der wesentliche Unterschied liegt in der Trigger-Definition.
 
 ![](assets/trigger_uc_search_1.png)
 
@@ -135,7 +135,7 @@ Mit dem Bereich **[!UICONTROL Metadaten einschließen]** können Sie die von Ana
 
 ### Trigger in Adobe Campaign verwenden   {#using-the-trigger-in-adobe-campaign-1}
 
-1. Folgen Sie der im vorherigen Anwendungsbeispiel beschriebenen Anleitung, um den Trigger in Adobe Campaign zu erstellen. Siehe [Trigger in Adobe Campaign verwenden](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign). Der wesentliche Unterschied besteht darin, wie wir in Adobe Campaign die an die Trigger-Payload übermittelten Metadaten verwenden.
+1. Folgen Sie der im vorherigen Anwendungsbeispiel beschriebenen Anleitung, um den Trigger in Adobe Campaign zu erstellen. Siehe [Trigger in Adobe Campaign verwenden](#using-the-trigger-in-adobe-campaign). Der wesentliche Unterschied besteht darin, wie wir in Adobe Campaign die an die Trigger-Payload übermittelten Metadaten verwenden.
 1. Klicken Sie im Suchabbruch-Trigger, den Sie in Adobe Campaign erstellt haben, auf das Symbol **[!UICONTROL Ereignisinhalt und -anreicherung]**, um sich die Payload anzusehen, die an Adobe Campaign übermittelt werden.
 
    ![](assets/trigger_uc_search_2.png)
