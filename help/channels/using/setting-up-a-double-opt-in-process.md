@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -59,7 +59,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Dadurch wird das Blacklist-Feld entfernt, sodass E-Mails gesendet werden können. Später werden wir sehen, dass die ursprüngliche Einstellung des Felds für die Landingpage vor der Bestätigung **Wahr** war, was den Versand von E-Mails an nicht bestätigte Profile verhindert hat. Weiterführende Informationen dazu finden Sie unter [Schritt 3: Akquise-Landingpage erstellen](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page).
+   Dadurch wird das Blacklist-Feld entfernt, sodass E-Mails gesendet werden können. Später werden wir sehen, dass die ursprüngliche Einstellung des Felds für die Landingpage vor der Bestätigung **Wahr** war, was den Versand von E-Mails an nicht bestätigte Profile verhindert hat. Weiterführende Informationen dazu finden Sie unter [Schritt 3: Akquise-Landingpage erstellen](#step-3--create-the-acquisition-landing-page).
 
 1. Passen Sie den Inhalt der Landingpage an: Sie können personalisierte Daten anzeigen und den Titel der Bestätigungs-Schaltfläche beispielsweise in ‘Klicken Sie hier, um Ihre Anmeldung zu bestätigen’ ändern.
 
@@ -93,10 +93,10 @@ Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/a
 
    Wenn Sie Dienste verwenden müssen, fügen Sie die **[!UICONTROL Dienstziel]** -Ressource hinzu und ordnen Sie sie dem Feld **[!UICONTROL serviceName]** zu. Weitere Informationen finden Sie unter .
 
-1. Wählen Sie in der Dropdown-Liste für die **[!UICONTROL Zielgruppen-Anreicherung]** die Option **[!UICONTROL Profil]**.
+1. Wählen Sie in der Dropdown-Liste für die **[!UICONTROL Zielgruppen-Anreicherung]** die Option **[!UICONTROL Profile]**.
 1. Wählen Sie **[!UICONTROL Publizieren]**, um das Ereignis zu veröffentlichen.
 
-Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die E-Mail-Vorlage erstellen. Diese Vorlage muss einen Link zur zuvor erstellten Landingpage **CONFIRMATION** aufweisen. Weiterführende Informationen dazu finden Sie im Abschnitt [Bestätigungsnachricht erstellen](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message).
+Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die E-Mail-Vorlage erstellen. Diese Vorlage muss einen Link zur zuvor erstellten Landingpage **CONFIRMATION** aufweisen. Weiterführende Informationen dazu finden Sie im Abschnitt [Bestätigungsnachricht erstellen](#design-the-confirmation-message).
 
 ### Typologieregel erstellen {#create-the-typology-rule}
 
@@ -136,9 +136,9 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    und wählen Sie den Wert **Wahr** aus.
 
-   Dies ist nötig, damit Besucher, die ihre Anmeldung noch nicht bestätigt haben, auf die Blacklist gesetzt werden und keine Nachrichten erhalten. Durch die Bestätigung der CONFIRMATION-Landingpage erhält dieses Feld den Wert **Falsch**. Weiterführende Informationen dazu finden Sie unter [Schritt 1: Bestätigungs-Landingpage erstellen](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page).
+   Dies ist nötig, damit Besucher, die ihre Anmeldung noch nicht bestätigt haben, auf die Blacklist gesetzt werden und keine Nachrichten erhalten. Durch die Bestätigung der CONFIRMATION-Landingpage erhält dieses Feld den Wert **Falsch**. Weiterführende Informationen dazu finden Sie unter [Schritt 1: Bestätigungs-Landingpage erstellen](#step-1--create-the-confirmation-landing-page).
 
-1. Wählen Sie im Bereich **[!UICONTROL Job]** &gt; **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Absendung einer Nachricht auslösen]**.
+1. Wählen Sie im Bereich **[!UICONTROL Vorgang]** &gt; **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Absendung einer Nachricht auslösen]**.
 1. Wählen Sie in der dazugehörigen Dropdown-Liste die von Ihnen erstellte Transaktionsnachrichtenvorlage **CONFIRM** aus.
 
    ![](assets/optin_acquisition_startoption.png)
