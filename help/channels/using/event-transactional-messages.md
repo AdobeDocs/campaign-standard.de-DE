@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ Gehen Sie folgendermaßen vor, um für eine Transaktionsnachricht eine Personali
 
    ![](assets/message-center_9.png)
 
-   Die Vorschau zeigt, dass die Personalisierungsfelder wie gewünscht die im Testprofil angegebenen Informationen wiedergeben. Weiterführende Informationen hierzu finden Sie im Abschnitt [Testprofil in einer Transaktionsnachricht definieren](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   Die Vorschau zeigt, dass die Personalisierungsfelder wie gewünscht die im Testprofil angegebenen Informationen wiedergeben. Weiterführende Informationen hierzu finden Sie im Abschnitt [Testprofil in einer Transaktionsnachricht definieren](#defining-a-test-profile-in-a-transactional-message).
 
 ## Produktlisten in Transaktionsnachrichten verwenden    {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Weiterführende Informationen zur Definition eines Testprofils in einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   Weiterführende Informationen zur Definition eines Testprofils in einer Transaktionsnachricht finden Sie in [diesem Abschnitt](#defining-a-test-profile-in-a-transactional-message).
 
 ## Transaktionsnachricht testen {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publik
 
 >[!NOTE]
 >
->Zur erneuten Publikation der Nachricht müssen Sie zunächst zur entsprechenden Ereigniskonfiguration zurückkehren und diese veröffentlichen, bevor Sie die Nachricht veröffentlichen. Weiterführende Informationen dazu finden Sie unter [Transaktionsnachricht publizieren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+>Zur erneuten Publikation der Nachricht müssen Sie zunächst zur entsprechenden Ereigniskonfiguration zurückkehren und diese veröffentlichen, bevor Sie die Nachricht veröffentlichen. Weiterführende Informationen dazu finden Sie unter [Transaktionsnachricht publizieren](#publishing-a-transactional-message).
 
-Wenn Sie eine ausgesetzte Transaktionsnachricht depublizieren, müssen Sie ggf. bis zu 24 Stunden warten, bevor Sie sie erneut publizieren können. In dieser Zeit können alle in die Warteschlange gesendeten Ereignisse durch den **[!UICONTROL Datenbankbereinigung]**-Workflow (cleanup) entfernt werden. Die Vorgehensweise zum Aussetzen einer Nachricht wird im Abschnitt [Publikation einer Transaktionsnachricht aussetzen](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) beschrieben.
+Wenn Sie eine ausgesetzte Transaktionsnachricht depublizieren, müssen Sie ggf. bis zu 24 Stunden warten, bevor Sie sie erneut publizieren können. In dieser Zeit können alle in die Warteschlange gesendeten Ereignisse durch den **[!UICONTROL Datenbankbereinigung]**-Workflow (cleanup) entfernt werden. Die Vorgehensweise zum Aussetzen einer Nachricht wird im Abschnitt [Publikation einer Transaktionsnachricht aussetzen](#suspending-a-transactional-message-publication) beschrieben.
 
 Auf den Workflow **[!UICONTROL Datenbankbereinigung]**, der standardmäßig jeden Tag um 4 Uhr gestartet wird, kann über das Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungsparameter]** &gt; **[!UICONTROL Workflows]** zugegriffen werden.
 
@@ -288,7 +288,7 @@ Sie können eine Transaktionsnachricht löschen, auch wenn sie schon publiziert 
 
 * **Transaktionsnachrichten**: Um eine Transaktionsnachricht zu löschen, sollte sie depubliziert und nicht ausgesetzt sein.
 
-   Wenn die Transaktionsnachricht depubliziert ist, muss auch die Ereigniskonfiguration depubliziert sein, damit die Transaktionsnachricht erfolgreich gelöscht werden kann, außer eine andere Transaktionsnachricht ist mit dem entsprechenden Ereignis verknüpft. Weiterführende Informationen zum Depublizieren einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+   Wenn die Transaktionsnachricht depubliziert ist, muss auch die Ereigniskonfiguration depubliziert sein, damit die Transaktionsnachricht erfolgreich gelöscht werden kann, außer eine andere Transaktionsnachricht ist mit dem entsprechenden Ereignis verknüpft. Weiterführende Informationen zum Depublizieren einer Transaktionsnachricht finden Sie in [diesem Abschnitt](#unpublishing-a-transactional-message).
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ Vorläufig nicht zugestellte Transaktionsnachrichten werden so lange automatisch
 
 Wenn eine Transaktionsnachricht nicht gesendet werden kann, gibt es zwei Systeme, durch die erneute Zustellversuche unternommen werden.
 
-* Auf der Ebene der Transaktionsnachrichten kann eine Transaktionsnachricht fehlschlagen, bevor das Ereignis einem Ausführungsversand zugewiesen wurde, d. h. zwischen dem Ereignisempfang und der Versandvorbereitung. Siehe [Wiederholungsverfahren bei der Ereignisverarbeitung](../../channels/using/event-transactional-messages.md#event-processing-retry-process).
-* Auf der Ebene des Versandverfahrens kann die Transaktionsnachricht nach der Zuweisung des Ereignisses zu einem Ausführungsversand wegen eines temporären Fehlers fehlschlagen. Siehe [Wiederholungsverfahren beim Nachrichtenversand](../../channels/using/event-transactional-messages.md#message-sending-retry-process).
+* Auf der Ebene der Transaktionsnachrichten kann eine Transaktionsnachricht fehlschlagen, bevor das Ereignis einem Ausführungsversand zugewiesen wurde, d. h. zwischen dem Ereignisempfang und der Versandvorbereitung. Siehe [Wiederholungsverfahren bei der Ereignisverarbeitung](#event-processing-retry-process).
+* Auf der Ebene des Versandverfahrens kann die Transaktionsnachricht nach der Zuweisung des Ereignisses zu einem Ausführungsversand wegen eines temporären Fehlers fehlschlagen. Siehe [Wiederholungsverfahren beim Nachrichtenversand](#message-sending-retry-process).
 
 ### Wiederholungsverfahren bei der Ereignisverarbeitung    {#event-processing-retry-process}
 
