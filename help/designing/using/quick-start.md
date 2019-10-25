@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
+source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
 
 ---
 
@@ -24,14 +24,14 @@ Email Designer bietet vier Möglichkeiten zum Erstellen von E-Mails.
 
 Sie können eine E-Mail von Grund auf neu erstellen:
 
-* Sie können die E-Mail von Grund auf neu von einer leeren Arbeitsfläche erstellen. Hierzu fügen Sie Struktur- und Inhaltskomponenten hinzu und personalisieren deren Inhalt. Die E-Mail ist dann rasch versendet. Die Stilelemente können Sie auch vollständig verwalten. Weitere Informationen finden Sie in der [Kurzanleitung](../../designing/using/quick-start.md#from-scratch-email) oder in der [vollständigen Dokumentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Sie können die E-Mail von Grund auf neu von einer leeren Arbeitsfläche erstellen. Hierzu fügen Sie Struktur- und Inhaltskomponenten hinzu und personalisieren deren Inhalt. Die E-Mail ist dann rasch versendet. Die Stilelemente können Sie auch vollständig verwalten. Weitere Informationen finden Sie in der [Kurzanleitung](#from-scratch-email) oder in der [vollständigen Dokumentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-* Sie können eine E-Mail aus einer vordefinierten Vorlage erstellen. Hierzu wählen Sie die Vorlage aus und erstellen daraus Ihren neuen E-Mail-Inhalt. [Mehr dazu](quick-start.md#building-content-from-an-out-of-the-box-template)
+* Sie können eine E-Mail aus einer vordefinierten Vorlage erstellen. Hierzu wählen Sie die Vorlage aus und erstellen daraus Ihren neuen E-Mail-Inhalt. [Mehr dazu](#building-content-from-an-out-of-the-box-template)
 
 Sie können eine E-Mail auch aus vorhandenem Inhalt erstellen.
 
-* Hierzu konvertieren Sie bestehenden HTML-Inhalt, der extern oder im Legacy-Editor erstellt wurde. [Mehr dazu](quick-start.md#converting-an-html-content)
-* Im Kompatibilitätsmodus können Sie vorhandenen HTML-Inhalt sofort importieren. [Mehr dazu](quick-start.md#compatibility-mode)
+* Hierzu konvertieren Sie bestehenden HTML-Inhalt, der extern oder im Legacy-Editor erstellt wurde. [Mehr dazu](#converting-an-html-content)
+* Im Kompatibilitätsmodus können Sie vorhandenen HTML-Inhalt sofort importieren. [Mehr dazu](#compatibility-mode)
 
 ## Ohne vorhandenen Inhalt {#without-existing-content}
 
