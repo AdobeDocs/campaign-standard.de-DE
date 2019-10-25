@@ -13,8 +13,8 @@ topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ Berichte können auch auf der Basis von benutzerdefinierten Profildaten erstellt
 
 In diesem Beispiel erstellen wir das benutzerdefinierte Profilfeld **Treueprogramme**, das in drei Stufen unterteilt ist: Gold, Silber und Bronze. Dieses benutzerdefinierte Profil wird dann erweitert, damit es als eine benutzerdefinierte Profildimension in dynamischen Berichten verwendet werden kann.
 
-* [Schritt 1: Erstellen Sie ein neues Profilfeld.](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
-* [Schritt 2: Erweitern Sie die Versandlogs mit dem Profilfeld.](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [Schritt 1: Erstellen Sie ein neues Profilfeld.](#step-1--create-a-new-profile-field)
+* [Schritt 2: Erweitern Sie die Versandlogs mit dem Profilfeld.](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Schritt 1: Erstellen Sie ein neues Profilfeld.     {#step-1--create-a-new-profile-field}
 
@@ -169,4 +169,4 @@ Nach dem Versand Ihrer Nachricht können Sie die Berichte mithilfe Ihrer benutze
 
 **Verwandtes Thema:**
 
-* [Benutzerdefinierte Profildaten zum Erstellen von Berichten verwenden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Verwenden benutzerdefinierter Profildaten zur Erstellung aufschlussreicher Berichte](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
