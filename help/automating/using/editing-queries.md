@@ -15,7 +15,7 @@ context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -58,7 +58,7 @@ Die in den Tabs enthaltenen Elemente müssen im Arbeitsbereich platziert werden,
 
 Der Arbeitsbereich ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln, Audiences und Filter konfigurieren und kombinieren können, die aus der Palette hier abgelegt werden.
 
-Wenn Sie ein Element aus der Palette in den Arbeitsbereich ziehen, öffnet sich ein neues Fenster, mit dem sich [Abfragen erstellen](../../automating/using/editing-queries.md#creating-queries) lassen.
+Wenn Sie ein Element aus der Palette in den Arbeitsbereich ziehen, öffnet sich ein neues Fenster, mit dem sich [Abfragen erstellen](#creating-queries) lassen.
 
 ## Abfragen erstellen  {#creating-queries}
 
@@ -118,7 +118,7 @@ Ihre Abfragen wurden jetzt erstellt und definiert. Dadurch können Sie eine Popu
 
 * [Erweiterte Funktionen](../../automating/using/advanced-expression-editing.md)
 * [Filter definieren](../../developing/using/configuring-filter-definition.md)
-* [Anwendungsfall: Schaffung einer einmaligen E-Mail-Zustellung](../../automating/using/workflow-weekly-offer.md)
-* [Anwendungsfall: Schaffung einer Liefersegmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
-* [Anwendungsfall: Schaffung von Lieferungen mit Ergänzung](../../automating/using/workflow-created-query-with-complement.md)
-* [Anwendungsfall: Neuausrichtung der Arbeitsabläufe, die eine neue Lieferung an Nichtöffnungs-](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Anwendungsfall: Erstellung einer einmaligen E-Mail-Versendung pro Woche](../../automating/using/workflow-weekly-offer.md)
+* [Anwendungsfall: Erstellung einer Standort-segmentierten Versendung](../../automating/using/workflow-segmentation-location.md)
+* [Anwendungsfall: Erstellen von Versendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
+* [Anwendungsfall: Retargeting-Workflow für eine erneute Versendung an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
