@@ -13,8 +13,8 @@ topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -62,9 +62,9 @@ Dashboards werden verwendet, um die Empfänger der Benachrichtigungen zu verwalt
 
 In der Adobe Campaign-Benutzeroberfläche haben Sie folgende Möglichkeiten:
 
-* Versandwarnungs-Dashboards erstellen und verwalten. Siehe [Versandwarnungs-Dashboard erstellen](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard).
-* Versandwarnungsbedingungen für jedes Dashboard definieren und verwalten. Beispielsweise können Sie Warnungen für Sendungen mit fehlgeschlagener Vorbereitung oder Sendungen mit geringem Durchsatz erstellen. Siehe [Über Warnungsbedingungen](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-* Die Bedingungsparameter für jedes Dashboard ändern. Siehe [Bedingungsparameter](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+* Versandwarnungs-Dashboards erstellen und verwalten. Siehe [Versandwarnungs-Dashboard erstellen](#creating-a-delivery-alerting-dashboard).
+* Versandwarnungsbedingungen für jedes Dashboard definieren und verwalten. Beispielsweise können Sie Warnungen für Sendungen mit fehlgeschlagener Vorbereitung oder Sendungen mit geringem Durchsatz erstellen. Siehe [Über Warnungsbedingungen](#about-alerting-criteria).
+* Die Bedingungsparameter für jedes Dashboard ändern. Siehe [Bedingungsparameter](#criteria-parameters).
 * Für jedes Dashboard eine Empfängergruppe definieren.
 
    Beispiel: Sie möchten die Benutzer mit Administratorrechten nur über fehlgeschlagene Sendungen informieren. Sie möchten aber auch, dass Mitarbeiter der Marketingabteilung von den Sendungen mit zu hoher Softbounce-Fehlerrate informiert werden. Sie müssen daher zwei unterschiedliche Dashboards erstellen und die Bedingungen für jede Empfängergruppe definieren.
@@ -88,8 +88,8 @@ Wenn Sie Benachrichtigungen, die auf bestimmten Bedingungen basieren, an untersc
    ![](assets/delivery-alerting_dashboard_general.png)
 
 1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Warnungsgruppe]** die Empfängergruppe aus, die Sie benachrichtigen möchten. Zum Ändern oder Erstellen einer Gruppe lesen Sie den Abschnitt [Sicherheitsgruppe erstellen und Benutzer zuordnen](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
-1. Wählen Sie im Bereich **[!UICONTROL Versandwarnungsbedingungen]** die Option **[!UICONTROL Element erstellen]**, um Bedingungen hinzuzufügen. Siehe [Über Warnungsbedingungen](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-1. Benutzen Sie die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]**. Definieren Sie im Tab **[!UICONTROL Bedingungsparameter]**, wie die Bedingungen angewendet werden sollen. Siehe [Bedingungsparameter](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+1. Wählen Sie im Bereich **[!UICONTROL Versandwarnungsbedingungen]** die Option **[!UICONTROL Element erstellen]**, um Bedingungen hinzuzufügen. Siehe [Über Warnungsbedingungen](#about-alerting-criteria).
+1. Benutzen Sie die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]**. Definieren Sie im Tab **[!UICONTROL Bedingungsparameter]**, wie die Bedingungen angewendet werden sollen. Siehe [Bedingungsparameter](#criteria-parameters).
 1. Speichern Sie das Dashboard mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
 
 Immer wenn jetzt ein Versand die von Ihnen in diesem Dashboard definierten Bedingungen erfüllt, wird eine Warnung an die angegebene Benutzergruppe gesendet.
@@ -114,7 +114,7 @@ Die folgenden Bedingungen stehen in den Versandwarnungs-Dashboards zur Verfügun
 
 >[!NOTE]
 >
->Alle Parameter, die für die oben aufgeführten Bedingungen gelten, weisen Standardwerte auf. Diese Werte können im Tab **[!UICONTROL Bedingungsparameter]** des Versandwarnungs-Dashboards geändert werden. Siehe [Bedingungsparameter](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+>Alle Parameter, die für die oben aufgeführten Bedingungen gelten, weisen Standardwerte auf. Diese Werte können im Tab **[!UICONTROL Bedingungsparameter]** des Versandwarnungs-Dashboards geändert werden. Siehe [Bedingungsparameter](#criteria-parameters).
 
 In der Liste **[!UICONTROL Versandwarnungsbedingungen]** können Sie ein Objekt auswählen, um auf dessen Details zuzugreifen.
 
@@ -137,7 +137,7 @@ Für jede Bedingung können Sie folgende Einstellungen festlegen:
 **Verwandte Themen:**
 
 * [Versandlogs](../../sending/using/monitoring-a-delivery.md#sending-logs)
-* [Häufigkeit der Versandwarnungen](../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency)
+* [Häufigkeit der Versandwarnungen](#alerting-frequency)
 * [Symbole und Status von Marketingaktivitäten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Versandwarnungsbedingung erstellen    {#creating-a-delivery-alerting-criterion}
@@ -174,9 +174,9 @@ Dazu müssen Sie zunächst die Ressource **Versand** erweitern und einen neuen F
 
    ![](assets/delivery-alerting_cus-filter.png)
 
-   Die Einstellungen Ihrer Bedingung können auf dieselbe Weise definiert werden wie die der Standardbedingungen. Siehe [Über Warnungsbedingungen](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
+   Die Einstellungen Ihrer Bedingung können auf dieselbe Weise definiert werden wie die der Standardbedingungen. Siehe [Über Warnungsbedingungen](#about-alerting-criteria).
 
-Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard sowie zu anderen Bedingungen hinzugefügt werden. Siehe [Über Versandwarnungs-Dashboards](../../sending/using/receiving-alerts-when-failures-happen.md#about-delivery-alerting-dashboards).
+Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard sowie zu anderen Bedingungen hinzugefügt werden. Siehe [Über Versandwarnungs-Dashboards](#about-delivery-alerting-dashboards).
 
 ![](assets/delivery-alerting_new-criterion.png)
 
@@ -188,7 +188,7 @@ Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard
 
 ### Bedingungsparameter {#criteria-parameters}
 
-Im Tab **[!UICONTROL Bedingungsparameter]** eines [Versandwarnungs-Dashboards](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard) können Sie die in diesem Dashboard ausgewählten Bedingungen festlegen.
+Im Tab **[!UICONTROL Bedingungsparameter]** eines [Versandwarnungs-Dashboards](#creating-a-delivery-alerting-dashboard) können Sie die in diesem Dashboard ausgewählten Bedingungen festlegen.
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
@@ -265,7 +265,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 
    * Erstellen Sie Filter-Typologieregeln, um einen Teil der Zielgruppe während der Versandanalyse auszuschließen, wie etwa Empfänger in Quarantäne. Näheres dazu finden Sie unter [Filterregel erstellen](../../administration/using/filtering-rules.md).
    * Aktualisieren Sie regelmäßig Ihre Kundendatenbank, um eine gute Quarantäneverwaltung zu gewährleisten. Näheres dazu erfahren Sie unter [Über Quarantänen](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. Näheres dazu finden Sie im Handbuch von Adobe Campaign v7 im Abschnitt [Verwalten der Zustellbarkeit](http://docs.campaign.adobe.com/doc/AC/getting_started/DE/deliverability.html). Ersuchen Sie außerdem Ihren Adobe-Campaign-Administrator um Hilfe.
+   * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. Näheres dazu finden Sie im Handbuch von Adobe Campaign v7 im Abschnitt [Verwalten der Zustellbarkeit](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html). Wenden Sie sich außerdem an Ihren Adobe-Campaign-Administrator um Hilfe.
 
 
 
