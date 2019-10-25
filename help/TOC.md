@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -154,7 +154,7 @@ source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
    + Über Reporting {#about-reporting}
       + [Über dynamische Berichte](reporting/using/about-dynamic-reports.md)
       + [Benutzeroberfläche für die Berichterstellung](reporting/using/reporting-interface.md)
-      + [Liste von Komponenten ](reporting/using/list-of-components-.md)
+      + [Liste von Komponenten](reporting/using/list-of-components-.md)
       + [Indikatorberechnung](reporting/using/indicator-calculation.md)
       + [Problembehebung](reporting/using/troubleshooting.md)
    + Liste von Berichten {#list-of-reports}
