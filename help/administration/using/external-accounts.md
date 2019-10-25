@@ -14,8 +14,8 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: ht
-source-git-commit: 0fcedd464ae2074e7eda793bbf20cc53ce04f324
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,11 +28,11 @@ Mit diesen externen Konten ist es möglich, in Campaign-Workflows auf Daten zuzu
 
 Die folgenden externen Konten können eingerichtet werden:
 
-* SFTP. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/external-accounts.md#sftp-external-account).
-* Amazon Storage Service (S3). Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/external-accounts.md#amazon-s3-external-account).
-* Adobe Experience Manager: Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/external-accounts.md#adobe-experience-manager-external-account).
+* SFTP. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#sftp-external-account).
+* Amazon Storage Service (S3). Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#amazon-s3-external-account).
+* Adobe Experience Manager: Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#adobe-experience-manager-external-account).
 * Adobe Analytics. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/external-accounts.md#google-recaptcha-external-account).
+* Google reCAPTCHA. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#google-recaptcha-external-account).
 
 >[!NOTE]
 >
@@ -86,12 +86,12 @@ Um solche Probleme zu vermeiden, empfiehlt Adobe, die unten stehenden Best Pract
 
 Beachten Sie außerdem, dass die öffentlichen IPs, mit denen Sie die SFTP-Verbindung aufbauen, in der Campaign-Instanz auf der Whitelist stehen müssen. Wenn Sie IP-Adressen auf eine Whitelist setzen lassen möchten, senden Sie ein [Support-Ticket](https://support.neolane.net) und stellen Sie den öffentlichen Schlüssel zur Authentifizierung bereit.
 
-SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://helpx.adobe.com/de/campaign/kb/control-panel-sftp.html).
+SFTP-Server können über das Control Panel verwaltet werden. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
 
 >[!NOTE]
 >
 >Das Control Panel ist nur für Admin-Benutzer von Kunden verfügbar, die auf AWS gehostet werden.
-Überprüfen Sie [hier](https://helpx.adobe.com/de/campaign/kb/control-panel-faq.html#IMSOrgID), ob Ihre Instanz auf AWS gehostet wird.
+Überprüfen Sie, ob Ihre Instanz auf AWS [hier](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID)gehostet wird.
 
 ## Externes Amazon-S3-Konto {#amazon-s3-external-account}
 
@@ -107,7 +107,7 @@ Um Ihre Datei in S3 im verschlüsselten Modus zu speichern, aktivieren Sie die O
 
 Die nötigen Informationen werden normalerweise vom Anbieter des Servers bereitgestellt, mit dem Sie eine Verbindung herstellen möchten.
 
-Spezifizieren Sie die mit Ihrem Endpunkt verknüpfte **[!UICONTROL AWS-Region]**. Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
+Spezifizieren Sie die mit Ihrem Endpunkt verknüpfte **[!UICONTROL AWS-Region]**. Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) .
 
 ### Empfehlungen für das Amazon-S3-Konto {#amazon-s3-account-recommendations}
 
@@ -115,7 +115,7 @@ Wir empfehlen zum Einrichten des Amazon-S3-Kontos folgende Vorgehensweise:
 
 * Erstellen Sie eine restriktive Bucket-Richtlinie, um den Zugriff auf S3-Buckets zu beschränken. Die Bucket-Richtlinie kann während der Erstellung eines Buckets konfiguriert werden. Weiterführende Informationen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Aktivieren Sie bei der Erstellung eines externen Kontos die Verschlüsselung bei der Speicherung sensibler Daten im S3-Bucket, indem Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen]** aktivieren.
-* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Externes Adobe-Experience-Manager-Konto {#adobe-experience-manager-external-account}
 
