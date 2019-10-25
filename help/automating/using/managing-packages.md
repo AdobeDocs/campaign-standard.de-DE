@@ -14,8 +14,8 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,7 +32,7 @@ Die einzelnen Elemente der Export- oder Importliste werden standardmäßig in ab
 
 ![](assets/packages_1.png)
 
-Klicken Sie zur Anzeige und Bearbeitung des Inhalts eines Elements auf dessen Titel. Lesen Sie diesbezüglich auch die Abschnitte [Package exportieren](../../automating/using/managing-packages.md#exporting-a-package) und [Package importieren](../../automating/using/managing-packages.md#importing-a-package).
+Klicken Sie zur Anzeige und Bearbeitung des Inhalts eines Elements auf dessen Titel. Lesen Sie diesbezüglich auch die Abschnitte [Package exportieren](#exporting-a-package) und [Package importieren](#importing-a-package).
 
 ## Package-Exporte  {#package-exports}
 
@@ -46,7 +46,7 @@ Klicken Sie zur Anzeige und Bearbeitung des Inhalts eines Elements auf dessen Ti
 >
 >Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe-Campaign-Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert "SDM" bzw. "sdm" enthält. Wenn Sie versuchen, Packages zu exportieren, die Standard-Kennungen enthalten, wird beispielsweise folgender Fehler angezeigt: "Die Entität vom Typ 'Marken (Branding)' verwendet eine Standard-Kennung ('BRD1'), die beim Package-Import einen Konflikt auslösen könnte. Ändern Sie die Kennung und wiederholen Sie den Vorgang."
 
-Der Package-Export wird im Abschnitt [Package exportieren](../../automating/using/managing-packages.md#exporting-a-package) beschrieben.
+Der Package-Export wird im Abschnitt [Package exportieren](#exporting-a-package) beschrieben.
 
 * Das **[!UICONTROL Plattform]**-Package enthält alle Ressourcen, die im Zuge der technischen Konfiguration hinzugefügt werden: benutzerdefinierte Ressourcen, benutzerdefinierte Ressourcensets, Triggers und Anwendungsoptionen vom Typ **[!UICONTROL System]**.
 * Das **[!UICONTROL Administration]**-Package enthält alle Objekte, die im Zuge der anwendungsbezogenen Konfiguration hinzugefügt werden: z. B. Kampagnenvorlagen, Inhaltsvorlagen, Versandvorlagen, Landingpage-Vorlagen, Programmvorlagen und Workflow-Vorlagen.
@@ -55,7 +55,7 @@ Der Package-Export wird im Abschnitt [Package exportieren](../../automating/usin
 
 >[!NOTE]
 >
->Der Inhalt dieser beiden Packages kann nicht verändert werden. Diese Packages enthalten immer die aktuellsten Daten. Sie können [Ihre eigenen Packages erstellen](../../automating/using/managing-packages.md#creating-a-package), um bestimmte Elemente zu exportieren.
+>Der Inhalt dieser beiden Packages kann nicht verändert werden. Diese Packages enthalten immer die aktuellsten Daten. Sie können [Ihre eigenen Packages erstellen](#creating-a-package), um bestimmte Elemente zu exportieren.
 
 ### Package-Erstellung  {#creating-a-package}
 
@@ -142,7 +142,7 @@ In der **[!UICONTROL Ausführungslogs]**-Ansicht werden alle Importetappen angez
 
 ### Package importieren  {#importing-a-package}
 
-Ein Administrator kann ein zuvor aus einer Adobe-Campaign-Instanz exportiertes Package manuell importieren. Weiterführende Informationen finden Sie im Abschnitt [Package-Exporte](../../automating/using/managing-packages.md#package-exports).
+Ein Administrator kann ein zuvor aus einer Adobe-Campaign-Instanz exportiertes Package manuell importieren. Weiterführende Informationen finden Sie im Abschnitt [Package-Exporte](#package-exports).
 
 Der manuelle Package-Import erfolgt in zwei Schritten: Eine Datei muss zunächst hochgeladen werden, bevor ihr Inhalt importiert werden kann.
 
