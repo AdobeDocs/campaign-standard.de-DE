@@ -14,8 +14,8 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -46,7 +46,7 @@ Standardmäßig sind mehrere Typologien in der Anwendung vorhanden. Sie können 
 1. Definieren Sie den Typ der Typologie. Typologien können entweder Standard- oder Filtertypologien sein.
 1. Fügen Sie die gewünschten Typologieregeln mithilfe der Schaltfläche **[!UICONTROL Element hinzufügen]** hinzu oder entfernen Sie diejenigen, die Sie nicht verwenden möchten.
 
-   Sie können die Reihenfolge ändern, in der die Regeln für eine bestimmte Typologie angewendet werden. Verschieben Sie hierfür die Elemente auf dem Bildschirm in die gewünschte Reihenfolge. Dabei werden die Nummern für die Ausführungsreihenfolge automatisch neu berechnet. Der Regelanwendungsmodus wird im Abschnitt [Ausführungsreihenfolge von Typologieregeln](../../administration/using/about-typology-rules.md#typology-rules-execution-order) erläutert.
+   Sie können die Reihenfolge ändern, in der die Regeln für eine bestimmte Typologie angewendet werden. Verschieben Sie hierfür die Elemente auf dem Bildschirm in die gewünschte Reihenfolge. Dabei werden die Nummern für die Ausführungsreihenfolge automatisch neu berechnet. Der Regelanwendungsmodus wird im Abschnitt [Ausführungsreihenfolge von Typologieregeln](#typology-rules-execution-order) erläutert.
 
    Die in diesem Bildschirm angezeigten Regeln sind schreibgeschützt.
 
@@ -72,7 +72,7 @@ Eine Typologieregel kann auf nur einen Kanal oder auf alle Kanäle angewendet we
 
 ![](assets/typology_channel.png)
 
-In den **[!UICONTROL Eigenschaften]** einer Typologieregel können Sie deren Ausführungsreihenfolge festlegen. Wenn mehrere Regeln angewendet werden müssen, wird durch die Ausführungsreihenfolge jeder Regel bestimmt, welche zuerst ausgeführt wird. Lesen Sie diesbezüglich auch den Abschnitt [Ausführungsreihenfolge von Typologieregeln](../../administration/using/about-typology-rules.md#typology-rules-execution-order).
+In den **[!UICONTROL Eigenschaften]** einer Typologieregel können Sie deren Ausführungsreihenfolge festlegen. Wenn mehrere Regeln angewendet werden müssen, wird durch die Ausführungsreihenfolge jeder Regel bestimmt, welche zuerst ausgeführt wird. Lesen Sie diesbezüglich auch den Abschnitt [Ausführungsreihenfolge von Typologieregeln](#typology-rules-execution-order).
 
 ![](assets/typology_rule-active.png)
 
