@@ -13,8 +13,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ In der Benutzeroberfläche von Adobe Campaign können Sie Ihre Abonnenten tracke
 
 Zur Verfolgung des An- und Abmeldeverhaltens bieten sich Ihnen verschiedene Optionen.
 
-* Sehen Sie sich die Liste der Personen im Dienst-Dashboard an, die Ihren Dienst abonniert haben. Siehe [Dienst-Dashboard](../../audiences/using/monitoring-subscriptions.md#service-dashboard).
-* Sehen Sie sich den Verlauf der An- und Abmeldungen im Tab **Abonnement-Verlauf** im Dienst-Dashboard an. Siehe [Abonnementverlauf](../../audiences/using/monitoring-subscriptions.md#subscription-history).
-* Öffnen Sie einen Bericht zur An- und Abmeldeentwicklung im Bereich **Bericht** des Dienstes. Siehe [Dienst- Berichte](../../audiences/using/monitoring-subscriptions.md#service-reports).
-* Öffnen Sie im Bereich **Profil** die Liste der Dienste, für die sich eine Person angemeldet hat. Siehe [Ereignisverlauf eines Profils](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
+* Sehen Sie sich die Liste der Personen im Dienst-Dashboard an, die Ihren Dienst abonniert haben. Siehe [Dienst-Dashboard](#service-dashboard).
+* Sehen Sie sich den Verlauf der An- und Abmeldungen im Tab **Abonnement-Verlauf** im Dienst-Dashboard an. Siehe [Abonnementverlauf](#subscription-history).
+* Öffnen Sie einen Bericht zur An- und Abmeldeentwicklung im Bereich **Bericht** des Dienstes. Siehe [Dienst- Berichte](#service-reports).
+* Öffnen Sie im Bereich **Profil** die Liste der Dienste, für die sich eine Person angemeldet hat. Siehe [Ereignisverlauf eines Profils](#history-of-events-linked-to-a-profile).
 
 ## Dienst-Dashboard  {#service-dashboard}
 
