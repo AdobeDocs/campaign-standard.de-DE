@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+translation-type: tm+mt
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -63,7 +63,7 @@ Sie können auch nach der Erstellung des Links diesen noch im Einstellungsfenste
 
 ![](assets/des_link_edit.png)
 
-Bei der Bearbeitung einer E-Mail mit [Email Designer](../../designing/using/overview.md) können Sie die von Ihnen erstellten Links in der Tabelle, die alle in der E-Mail enthaltenen URLs aufführt, einfach öffnen und bearbeiten. Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs. Weiterführende Informationen darüber, wie Sie diese Liste öffnen, finden Sie im Abschnitt [Über getrackte URLs](../../designing/using/links.md#about-tracked-urls).
+Bei der Bearbeitung einer E-Mail mit [Email Designer](../../designing/using/overview.md) können Sie die von Ihnen erstellten Links in der Tabelle, die alle in der E-Mail enthaltenen URLs aufführt, einfach öffnen und bearbeiten. Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs. Weiterführende Informationen darüber, wie Sie diese Liste öffnen, finden Sie im Abschnitt [Über getrackte URLs](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
