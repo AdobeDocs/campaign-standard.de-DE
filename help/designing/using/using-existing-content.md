@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+translation-type: tm+mt
+source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
 
 ---
 
@@ -39,8 +39,8 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 
    * [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates): Wählen Sie den Tab **[!UICONTROL Vorlagen]** aus.
    * [Neu erstellten Inhalt](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch): Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]** aus.
-   * [Inhalte von Ihrem Computer als ZIP- oder HTML-Datei](../../designing/using/using-existing-content.md#importing-content-from-a-file): Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]** aus.
-   * [Inhalte von einer vorhandenen URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) (nur für E-Mails): Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]** aus.
+   * [Inhalte von Ihrem Computer als ZIP- oder HTML-Datei](#importing-content-from-a-file): Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]** aus.
+   * [Inhalte von einer vorhandenen URL](#importing-content-from-a-url) (nur für E-Mails): Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]** aus.
    ![](assets/des_loading_2.png)
 
 1. Laden Sie den Inhalt. Bei der Auswahl eines neuen Inhalts wird der aktuelle Inhalt automatisch ersetzt.
@@ -49,7 +49,7 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 
    >[!NOTE]
    >
-   >[Email Designer](../../designing/using/overview.md) nutzt spezielles Tagging. Standardmäßiger HTML-Inhalt, der in Campaign geladen wird, muss diesem Tagging entsprechen, um mit Email Designer vollständig kompatibel und bearbeitbar zu sein. Ist dies nicht der Fall, wird der Inhalt im [Kompatibilitätsmodus](../../designing/using/using-existing-content.md#compatibility-mode) geladen. Weiterführende Informationen dazu, wie Sie existierenden Inhalt kompatibel machen, finden Sie in [diesem Abschnitt](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
+   >[Email Designer](../../designing/using/overview.md) nutzt spezielles Tagging. Standardmäßiger HTML-Inhalt, der in Campaign geladen wird, muss diesem Tagging entsprechen, um mit Email Designer vollständig kompatibel und bearbeitbar zu sein. Ist dies nicht der Fall, wird der Inhalt im [Kompatibilitätsmodus](#compatibility-mode) geladen. Weiterführende Informationen dazu, wie Sie existierenden Inhalt kompatibel machen, finden Sie in [diesem Abschnitt](#editing-existing-contents-with-the-email-designer).
 
 **Verwandte Themen:**
 
@@ -60,7 +60,7 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 
 Um die Bearbeitungsmöglichkeiten von [Email Designer](../../designing/using/overview.md) vollständig nutzen zu können, muss Ihre hochgeladene HTML-Datei bestimmte Tags enthalten, damit sie mit dem WYSIWYG-Editor kompatibel ist.
 
-Wenn die gesamte HTML-Datei oder Teile davon diese Tags nicht besitzt, wird der Inhalt im [Kompatibilitätsmodus](../../designing/using/using-existing-content.md#compatibility-mode) geladen.
+Wenn die gesamte HTML-Datei oder Teile davon diese Tags nicht besitzt, wird der Inhalt im [Kompatibilitätsmodus](#compatibility-mode) geladen.
 
 Wenn Sie bestehenden externen Inhalt in Email Designer bearbeiten möchten, lesen Sie den Abschnitt zum [Erstellen von E-Mails unter Verwendung von vorhandenem Inhalt](../../designing/using/using-existing-content.md).
 
@@ -108,7 +108,7 @@ Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 
 **Verwandtes Thema:**
 
-Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
 ### Während der Vorbereitung Inhalt von einer URL automatisch abrufen {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
