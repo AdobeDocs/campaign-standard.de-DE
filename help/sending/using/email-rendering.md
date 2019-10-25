@@ -13,8 +13,8 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -62,7 +62,7 @@ Nachdem Sie Ihren E-Mail-Versand erstellt und seinen Inhalt sowie die Zielpopula
 
    ![](assets/email_rendering_04.png)
 
-Der E-Mail-Rendering-Bericht wird angezeigt. Siehe [Beschreibung des E-Mail-Rendering-Berichts](../../sending/using/email-rendering.md#email-rendering-report-description).
+Der E-Mail-Rendering-Bericht wird angezeigt. Siehe [Beschreibung des E-Mail-Rendering-Berichts](#email-rendering-report-description).
 
 **Verwandte Themen**:
 
