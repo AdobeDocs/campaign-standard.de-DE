@@ -14,8 +14,8 @@ discoiquuid: 2448b126-66b8-4608-aa6c-8028fb1902a4
 context-tags: deploy,main;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -47,7 +47,7 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
 
 1. Starten Sie die Analyse mithilfe der Schaltfläche **[!UICONTROL Publikation vorbereiten]**. Beachten Sie, dass Aktualisierungen großer Tabellen nur dann vorgenommen werden sollten, wenn auf der Instanz nicht übermäßig viele Workflows ausgeführt werden.
 
-   Weiterführende Informationen zu Aktionen bei der Profiles &amp; Services API finden Sie im Abschnitt [Ressource mit API-Erweiterung publizieren](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+   Weiterführende Informationen zu Aktionen bei der Profiles &amp; Services API finden Sie im Abschnitt [Ressource mit API-Erweiterung publizieren](#publishing-a-resource-with-api-extension).
 
    ![](assets/schema_extension_13.png)
 
