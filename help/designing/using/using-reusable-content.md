@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email De
 
 ### Inhaltsvorlagen     {#content-templates}
 
-Sie können HTML-Inhalte verwenden, die im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) verfügbar sind. Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen von Elementen. Beispielsweise haben die Vorlagen vom Typ "Feather" Ränder, die Vorlagen vom Typ "Astro" haben dagegen keine. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
+Sie können HTML-Inhalte verwenden, die im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) verfügbar sind. Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen von Elementen. Beispielsweise haben die Vorlagen vom Typ "Feather" Ränder, die Vorlagen vom Typ "Astro" haben dagegen keine. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](#content-templates).
 
 ![](assets/template_content.png)
 
@@ -93,7 +93,7 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie den Inhalt diese
 
 Sie können jetzt mit Email Designer eine E-Mail-Vorlage erstellen. Mit Inhaltskomponenten können Sie die unterschiedlichen Bereiche der E-Mail gestalten und die Einstellungen so anpassen, dass das Ergebnis möglichst dem ursprünglichen Newsletter entspricht. Fügen Sie schließlich die soeben von Ihnen erstellten Fragmente ein.
 
-1. Erstellen Sie mit Email Designer eine Vorlage. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
+1. Erstellen Sie mit Email Designer eine Vorlage. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](#content-templates).
 1. Fügen Sie mehrere Strukturkomponenten in die Vorlage ein, die der Kopfzeile, Fußzeile und dem Textkörper Ihrer E-Mail entsprechen. Weiterführende Informationen zum Hinzufügen von Strukturkomponenten finden Sie im Abschnitt [Die E-Mail-Struktur mit Email Designer bearbeiten](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie so viele Inhaltskomponenten ein, wie Sie für die Erstellung Ihres Newsletters benötigen. Diesen Inhalt werden Sie in Ihrer E-Mail jeden Monat aktualisieren können.
 
@@ -134,8 +134,8 @@ Fragmente finden Sie in der Benutzeroberfläche unter **Ressourcen** &gt; **Inha
 
 So nutzen Sie Fragmente in Email Designer optimal:
 
-* Eigene Fragmente erstellen: Siehe [Inhaltsfragment erstellen](../../designing/using/using-reusable-content.md#creating-a-content-fragment) und [Inhalt als Fragment speichern](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
-* Diese können beliebig oft in E-Mails verwendet werden. Siehe [Elemente in eine E-Mail einfügen](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email).
+* Eigene Fragmente erstellen: Siehe [Inhaltsfragment erstellen](#creating-a-content-fragment) und [Inhalt als Fragment speichern](#saving-content-as-a-fragment).
+* Diese können beliebig oft in E-Mails verwendet werden. Siehe [Elemente in eine E-Mail einfügen](#inserting-elements-into-an-email).
 * Wenn Sie ein Fragment bearbeiten, werden die Änderungen synchronisiert und automatisch in alle E-Mails eingefügt, die dieses Fragment enthalten (vorausgesetzt die E-Mails wurden noch nicht vorbereitet oder gesendet).
 
 Wenn Fragmente zu einer E-Mail hinzugefügt werden, sind sie standardmäßig gesperrt. Wenn Sie ein Fragment für eine bestimmte E-Mail ändern möchten, können Sie die Synchronisation mit dem ursprünglichen Fragment aufheben, indem Sie es in der E-Mail, in der es verwendet wird, entsperren. Danach werden die Änderungen nicht mehr synchronisiert.
@@ -150,7 +150,7 @@ Dieses Fragment wird dann zu einer unabhängigen Komponente, die nicht mehr mit 
 
 Um den Inhalt Ihrer E-Mail zu definieren, können Sie Inhaltselemente in die zuvor platzierten Strukturkomponenten einfügen. Siehe auch den Abschnitt [E-Mail-Struktur bearbeiten](../../designing/using/designing-from-scratch.md#defining-the-email-structure)
 
-1. Öffnen Sie die Inhaltselemente durch Auswahl des Zeichens **+** auf der linken Seite. Wählen Sie [Fragmente](../../designing/using/using-reusable-content.md#about-fragments) oder [Inhaltskomponenten](../../designing/using/designing-from-scratch.md#about-content-components) aus.
+1. Öffnen Sie die Inhaltselemente durch Auswahl des Zeichens **+** auf der linken Seite. Wählen Sie [Fragmente](#about-fragments) oder [Inhaltskomponenten](../../designing/using/designing-from-scratch.md#about-content-components) aus.
 1. Wenn Sie bereits den Titel oder einen Teil des Titels des Fragments kennen, das Sie hinzufügen möchten, können Sie danach suchen.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -167,7 +167,7 @@ Um den Inhalt Ihrer E-Mail zu definieren, können Sie Inhaltselemente in die zuv
 
    >[!NOTE]
    >
-   >Fragmente sind beim Hinzufügen zu einer E-Mail standardmäßig gesperrt. Wenn Sie ein Fragment für eine E-Mail verändern möchten, können Sie die Synchronisation mit dem ursprünglichen Fragment unterbrechen oder die gewünschten Änderungen direkt im Fragment vornehmen. Siehe [Über Fragmente](../../designing/using/using-reusable-content.md#about-fragments).
+   >Fragmente sind beim Hinzufügen zu einer E-Mail standardmäßig gesperrt. Wenn Sie ein Fragment für eine E-Mail verändern möchten, können Sie die Synchronisation mit dem ursprünglichen Fragment unterbrechen oder die gewünschten Änderungen direkt im Fragment vornehmen. Siehe [Über Fragmente](#about-fragments).
 
 1. Wiederholen Sie diese Schritte für alle Elemente, die Sie zur E-Mail hinzufügen möchten.
 1. Speichern Sie Ihre E-Mail.
@@ -176,7 +176,7 @@ Nachdem Inhalt in die E-Mail-Struktur geladen wurde, können Sie den Stil jedes 
 
 >[!NOTE]
 >
->Änderungen eines Fragments werden automatisch mit den E-Mails synchronisiert, in denen das Fragment verwendet wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Fragmente](../../designing/using/using-reusable-content.md#about-fragments).
+>Änderungen eines Fragments werden automatisch mit den E-Mails synchronisiert, in denen das Fragment verwendet wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Fragmente](#about-fragments).
 
 ### Inhaltsfragment erstellen      {#creating-a-content-fragment}
 
@@ -213,7 +213,7 @@ Dieses Fragment kann jetzt in jeder mit Email Designer erstellten E-Mail verwend
 
 >[!NOTE]
 >
->Sie können nur dann Personalisierungsfelder in einem Fragment einfügen, wenn es in einer E-Mail verwendet wird und gesperrt ist. Siehe [Über Fragmente](../../designing/using/using-reusable-content.md#about-fragments).
+>Sie können nur dann Personalisierungsfelder in einem Fragment einfügen, wenn es in einer E-Mail verwendet wird und gesperrt ist. Siehe [Über Fragmente](#about-fragments).
 
 ### Inhalt als ein Fragment speichern      {#saving-content-as-a-fragment}
 
@@ -275,7 +275,7 @@ Erstellen Sie mit Email Designer für jeden wiederverwendbaren Bereich ein Fragm
 
 Gehen Sie dazu wie folgt vor:
 
-1. Gehen Sie in Adobe Campaign zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]** und erstellen Sie ein Fragment für die Kopfzeile. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsfragment erstellen](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+1. Gehen Sie in Adobe Campaign zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]** und erstellen Sie ein Fragment für die Kopfzeile. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsfragment erstellen](#creating-a-content-fragment).
 1. Fügen Sie beliebig viele Strukturkomponenten zu diesem Fragment hinzu.
 
 ![](assets/des_loading_compatible_fragment_1.png)
