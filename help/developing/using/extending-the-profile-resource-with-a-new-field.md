@@ -13,8 +13,8 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -29,10 +29,10 @@ In unserem Beispiel wird gezeigt, wie die Profile unter Verwendung einer Landing
 
 Gehen Sie dazu wie folgt vor:
 
-* [Schritt 1: Profil-Ressource erweitern](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [Schritt 2: Testprofil erweitern](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [Schritt 3: Benutzerdefinierte Ressource publizieren](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [Schritt 4: Profile mit einem Workflow aktualisieren und auswählen](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [Schritt 1: Profil-Ressource erweitern](#step-1--extend-the-profile-resource)
+* [Schritt 2: Testprofil erweitern](#step-2--extend-the-test-profile)
+* [Schritt 3: Benutzerdefinierte Ressource publizieren](#step-3--publish-your-custom-resource)
+* [Schritt 4: Profile mit einem Workflow aktualisieren und auswählen](#step-4--update-and-target-profiles-with-a-workflow)
 
 Das folgende Feld wird dann zu unseren Profilen hinzugefügt und kann für einen Versand ausgewählt werden:
 
