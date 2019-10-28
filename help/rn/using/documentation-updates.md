@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ Es wurde ein neues Diagramm mit dem Veröffentlichungsprozess für Transaktionsn
 
 Der Leitfaden zu Best Practices für die Auslieferung wurde aktualisiert. [mehr dazu](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+Ein neuer Abschnitt wurde hinzugefügt. Es bietet eine Übersicht über die verschiedenen Methoden, mit denen Sie die Campaign Standard-Datenbank bereichern können. [mehr dazu](../../start/using/enriching-campaign-database.md)
+
+Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Links mit dem E-Mail-Designer formatieren. [mehr dazu](../../designing/using/styles.md#about-styling-links)
 
 ## Aktualisierungen der Dokumentation - Oktober 2019 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie eine aut
 Der Abschnitt "Transaktionsnachrichten"wurde mit den neuesten UI-Aktualisierungen einschließlich der Bearbeitung von Inhalten mit dem E-Mail-Designer geändert. [mehr dazu](../../channels/using/event-transactional-messages.md)
 
 Das Kapitel Einstiegsseiten wurde neu organisiert. Es wurde auch um einen neuen Abschnitt erweitert, in dem die Schritte zum Einrichten einer Einstiegsseite beschrieben werden. [mehr dazu](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+Die Seite zur Integration von Audience Manager wurde aktualisiert, um **deklarierte ID** -Änderungen widerzuspiegeln. [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Aktualisierungen der Dokumentation – September 2019 {#doc-updates-september-2019}
 
