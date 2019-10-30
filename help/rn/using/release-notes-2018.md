@@ -13,7 +13,7 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
@@ -27,7 +27,7 @@ Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicke
 
 Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-updates.md) für Adobe Campaign Standard an. Neuere Versionshinweise finden Sie auf dieser [Seite](../../rn/using/release-notes.md).
 
-## 18.9 - Version September 2018 {#release-18-9---september-2018}
+## Version 18.9 - September 2018 {#release-18-9---september-2018}
 
 ### Neue Funktionen? {#what-s-new-}
 
@@ -45,21 +45,21 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Integration von Adobe Launch für Mobile Apps (Beta)<br /> </td> 
-   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Neuheiten   {#improvements}
+### Neuheiten    {#improvements}
 
 * Adobe Campaign Standard unterstützt jetzt Version 4 der Amazon S3 API.
 
-### Sonstige Änderungen   {#other-changes}
+### Sonstige Änderungen    {#other-changes}
 
 * In den Broadlogs wird jetzt zwischen der maximalen Anzahl der Verbindungen und der maximalen Anzahl der Nachrichten pro Stunde unterschieden. Wenn das Limit erreicht wurde, wird jetzt der Grund für den beschränkten Durchsatz angegeben. Zuvor wurde in beiden Fällen dieselbe Mitteilung angezeigt (‘quota met’).
 * Bei der Konfiguration einer Mobile App in Campaign ist es jetzt für den Benutzer ersichtlich, ob das iOS-Zertifikat und der Android-Server-Schlüssel erfolgreich hochgeladen wurden und wie ihr Ablaufdatum lautet.
 
-   Weiterführende Informationen finden Sie im entsprechenden Handbuch zur Konfiguration einer Mobile App mit [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) und [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Weiterführende Informationen finden Sie im entsprechenden Handbuch zur Konfiguration einer Mobile App mit [SDK V4](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) und [SDK V5](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
 
 * Benutzer einer bestimmten Mobile App können nun direkt als Zielgruppe ausgewählt werden, indem Sie die entsprechende Mobile App bei der Definition der Campaign-Eigenschaften auswählen. Diese Funktion ist für sowohl den Push- als auch den In-App-Messaging-Kanal verfügbar.
 
@@ -69,7 +69,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 
    Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../designing/using/personalization.md#adding-a-content-block).
 
-### Korrekturen   {#patches}
+### Korrekturen    {#patches}
 
 * Fehlerkorrektur – Jetzt stimmt die Loganzahl am E-Mail-Dashboard und in der E-Mail-Versandzusammenfassung für Transaktions-E-Mails überein. (CAMP-28237
 * Fehlerkorrektur – In Workflows wird jetzt keine Fehlermeldung mehr angezeigt, wenn eine Datei mit einer Dateitransferaktivität importiert wird. (CAMP-27435)
@@ -92,7 +92,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Jetzt wird der Fehler angezeigt, wenn der Workflow **Datenbankbereinigung** fehlschlägt. (CAMP-26876)
 * Fehlerkorrektur – Jetzt können benutzerdefinierte Felder bei der Definition einer Push-Benachrichtigung gelöscht werden. (CAMP-25588)
 
-## 18.7 - Version Juli 2018   {#release-18-7---july-2018}
+## Version 18.7 - Juli 2018  {#release-18-7---july-2018}
 
 ### Neue Funktionen? {#what-s-new--1}
 
@@ -122,17 +122,17 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Benutzerverwaltung<br /> </td> 
-   <td> Ab Version 18.7 steht die Funktion der geografischen Einheiten nicht mehr für neue Campaign Standard-Instanzen sowie bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden, zur Verfügung.<br /> Weiterführende Informationen finden Sie auf dieser <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.<br /> </td> 
+   <td> Ab Version 18.7 steht die Funktion der geografischen Einheiten nicht mehr für neue Campaign Standard-Instanzen sowie bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden, zur Verfügung.<br /> Weiterführende Informationen finden Sie auf dieser <a href="https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Neuheiten {#improvements-1}
 
-* Die Integration von Adobe Campaign mit Adobe Target ermöglicht jetzt die Verwendung der [Berechtigungsfunktion](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) von Target. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
+* Die Integration von Adobe Campaign mit Adobe Target ermöglicht jetzt die Verwendung der [Berechtigungsfunktion](https://marketing.adobe.com/resources/help/de_DE/target/target/properties-overview.html) von Target. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
 * Benutzerdefinierte Ressourcen, die über eine owncopy-Relation mit der Profilressource verbunden sind, werden jetzt von DSGVO-Zugriffs- bzw. Löschanfragen berücksichtigt. Für einfache Relationen mit Kardinalität 1 und Kollektionsrelationen mit Kardinalität N muss in der benutzerdefinierten Ressource die Option "Beim Löschen/Duplizieren des Ziel-Datensatzes werden auch die von der Relation referenzierten Datensätze gelöscht/dupliziert" ausgewählt werden. Für einfache Relationen mit Kardinalität 0 oder 1 muss die Option "Beim Löschen/Duplizieren des Datensatzes wird auch der von der Relation referenzierte Ziel-Datensatz gelöscht/dupliziert" ausgewählt werden.
 
-### Sonstige Änderungen   {#other-changes-1}
+### Sonstige Änderungen    {#other-changes-1}
 
 * Das Zeitlimit für die Berichtfreigabe wurde von einer auf vier Minuten erhöht, um Zeitüberschreitungsfehler zu vermeiden.
 * Beim Bearbeiten des Inhalts einer E-Mail wird automatisch der neue Creative Designer geöffnet. Bei Bedarf können Sie jederzeit nach dem Speichern Ihrer Änderungen zum Standard-Inhaltseditor wechseln. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../designing/using/overview.md).
@@ -155,7 +155,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt werden in Creative Designer keine unerwünschten farbigen Schriften und Formatierungen mehr verursacht, wenn Text mit integrierten Stilelementen in einen Link umgewandelt oder dieser Link bearbeitet wird. (CAMP-26001)
 * Fehlerkorrektur – jetzt werden im Klick-Bericht die Prozentsätze für alle Bedingungen in Sendungen angezeigt, die dynamischen Content enthalten. Zuvor wurden nur die Klicks auf die Standardvariante angezeigt.
 
-## 18.6 - Version Juni 2018   {#release-18-6---june-2018}
+## Version 18.6 - Juni 2018  {#release-18-6---june-2018}
 
 ### Neuheiten {#improvements-2}
 
@@ -163,7 +163,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Der technische Workflow **[!UICONTROL Datenbankbereinigung]** wurde optimiert, um eine bessere Leistung der Datenbanksicherung zu gewährleisten.
 * Creative Designer für E-Mail ist jetzt auch in Französisch und Deutsch verfügbar.
 
-### Sonstige Änderungen   {#other-changes-2}
+### Sonstige Änderungen    {#other-changes-2}
 
 * Bei gesendeten Nachrichten wurde im Fenster **[!UICONTROL Freigabe]** die Schaltfläche **[!UICONTROL Statistiken berechnen]** hinzugefügt. Damit können Sie die aktuellen KPIs abrufen, z. B. wenn die Ergebnisse des Versands zu langsam aktualisiert werden oder nicht berücksichtigt wurden. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../sending/using/confirming-the-send.md).
 * Funktionale Administratoren können jetzt im nativen technischen Workflow **Zustellbarkeit** die Anzahl aufeinanderfolgender Fehler definieren, die in der JavaScript-Aktivität **Regel-Update** ignoriert werden sollen. Standardmäßig beträgt der Feldwert 0, was bedeutet, dass alle Fehler ignoriert werden.
@@ -174,7 +174,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Benutzer mit der Benutzerrolle **[!UICONTROL Versandvorbereitung]** können jetzt Testsendungen durchführen. (CAMP-24313)
 * Die Option **TLS über SMPP aktivieren** wurde zum externen Konto **SMS-Routing durch SMPP** hinzugefügt. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
-### Korrekturen   {#patches-2}
+### Korrekturen    {#patches-2}
 
 * Fehlerkorrektur – E-Mails können jetzt gesendet werden, wenn sie ein dynamisches Bild von Adobe Target enthalten (CAMP-24848).
 * Fehlerkorrektur – die technischen Workflows **[!UICONTROL Datenschutzanfrage/Datenlöschung]** werden jetzt abgeschlossen, wenn eine der Anfragen fehlschlägt.
@@ -193,7 +193,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt werden internationale Daten auch in auf Kontoebene erstellten dynamischen Berichten korrekt angezeigt.
 * Jetzt kann ein Dienst ohne Anmelde- oder Abmeldebestätigungsnachricht erstellt werden.
 
-## 18.5 - Version Mai 2018   {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018  {#release-18-5---may-2018}
 
 ### Neue Funktionen? {#what-s-new--2}
 
@@ -207,7 +207,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> DSGVO: Core Service-Integration<br /> </td> 
-   <td> Durch die Integration von Privacy Core Service können Sie DSGVO-Abfragen in einer Umgebung mit mehreren Lösungen über nur einen einzigen JSON API-Aufruf automatisieren. <br /> DSGVO-Abfragen, die von Privacy Core Service an alle Experience Cloud-Lösungen gesendet werden, werden jetzt von Campaign automatisch verarbeitet. <br /> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch die Integration von Privacy Core Service können Sie DSGVO-Abfragen in einer Umgebung mit mehreren Lösungen über nur einen einzigen JSON API-Aufruf automatisieren. <br /> DSGVO-Abfragen, die von Privacy Core Service an alle Experience Cloud-Lösungen gesendet werden, werden jetzt von Campaign automatisch verarbeitet. <br /> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verbesserung bei Push-Benachrichtigungen – detailliertes Versand-Feedback<br /> </td> 
@@ -223,16 +223,16 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Dynamische Berichterstellung mit benutzerdefinierten Profildaten<br /> </td> 
-   <td> Diese Funktion ermöglicht die Erstellung und Verwaltung von Berichten auf der Basis benutzerdefinierter Profildaten, die während der Profil-Ressourcenerweiterung generiert wurden. Sie können Berichte nach Profilattributen wie beispielsweise dem Treueprogramm oder dem bevorzugten Kanal aufschlüsseln.<br /> Lesen Sie für weiterführende Informationen das <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Diese Funktion ermöglicht die Erstellung und Verwaltung von Berichten auf der Basis benutzerdefinierter Profildaten, die während der Profil-Ressourcenerweiterung generiert wurden. Sie können Berichte nach Profilattributen wie beispielsweise dem Treueprogramm oder dem bevorzugten Kanal aufschlüsseln.<br /> Weitere Informationen finden Sie im <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">entsprechenden Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Neuheiten   {#improvements-3}
+### Neuheiten    {#improvements-3}
 
 * Speicherverbrauch und CPU-Auslastung der Anwendung wurden verbessert.
 
-### Sonstige Änderungen   {#other-changes-3}
+### Sonstige Änderungen    {#other-changes-3}
 
 * Die Workflow-Aktivität "Audience lesen" kann jetzt Experience Cloud-Audiences lesen. Zuvor konnte diese Aktivität nur Audiences vom Typ Abfrage und Liste lesen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/read-audience.md). (CAMP-23623)
 * Die Kennung der freigegebenen Standard-Datenquelle ist jetzt schreibgeschützt und kann nicht mehr geändert werden. Eine Änderung dieser Kennung könnte Probleme verursachen, wenn Audiences gemeinsam mit Experience Cloud verwendet werden.
@@ -248,7 +248,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Bei der Verwendung einer Segmentierungsaktivität mit einem Zusatzdaten-Link (targetData) werden Sie jetzt über eine Nachricht darauf hingewiesen, dass die Daten außerhalb des Workflows nicht verfügbar sind. Diese Nachricht wird angezeigt, wenn in der Segmentierungsaktivität die Zählungs- oder Vorschau-Schaltfläche ausgewählt wird. (CAMP-23651)
 * Der von Workflows verbrauchte Speicherplatz wurde optimiert: (CAMP-21979): Die von der Aktivität "Datei laden" verarbeiteten Dateien werden jetzt standardmäßig gelöscht. Es gibt aber auch eine Option, mit der die Speicherung bei Bedarf möglich ist. Wenn ein Workflow gelöscht wird, wird sein Ordner im Verzeichnis auf dem Server automatisch unterdrückt.
 
-### Korrekturen   {#patches-3}
+### Korrekturen    {#patches-3}
 
 * Fehlerkorrektur – jetzt weisen alle Roh-Berichtereignisse damit verknüpfte Tracking-Ereignisse auf, da das Feld eventDate jetzt ordnungsgemäß befüllt wird.
 * Fehlerkorrektur – personalisierte Felder werden jetzt im Vorschaufenster eines Push-Benachrichtigungsversands angezeigt.
@@ -265,7 +265,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Creative Designer kann jetzt geladen werden. (CAMP-24573)
 * Fehlerkorrektur – jetzt werden im E-Mail-Betreff keine Zeichen mehr nach den Personalisierungsfeldern entfernt. (CAMP-24113)
 
-## 18.4 - Version April 2018   {#release-18-4---april-2018}
+## Version 18.4 - April 2018  {#release-18-4---april-2018}
 
 ### Korrekturen {#patches-4}
 
@@ -273,25 +273,25 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 
 * Fehlerkorrektur – DSGVO-Zugriff- oder Löschanfragen können jetzt korrekt verarbeitet werden. Dieser Fehler trat in seltenen Fällen auf, wenn die extrahierten Daten eines der folgenden Zeichen enthielten: &amp; &lt; &gt; " '.
 
-#### E-Mails, SMS und Briefpost   {#emails--sms-messages-and-direct-mail}
+#### E-Mails, SMS und Briefpost    {#emails--sms-messages-and-direct-mail}
 
 * Fehlerkorrektur – KPIs werden jetzt nicht mehr mit falschen Werten überschrieben, wenn die Broadlog-Synchronisation über eine Stunde dauert.
 
-#### Workflows   {#workflows}
+#### Workflows    {#workflows}
 
 * Die Speicherverwaltung und Workflow-Leistung wurden verbessert.
 
-#### Reporting   {#reporting}
+#### Reporting    {#reporting}
 
 * Mit dem KPI-Freigabe-Workflow werden jetzt die Zustellungswerte für die letzten zwei Monate anstatt der letzten sechs Monate abgerufen. Fehlerkorrektur – im externen KPI-Freigabe-Konto wird kein verkürztes Datum mehr angezeigt.
 * Fehlerkorrektur – jetzt werden alle Nachrichten in den Metriken **Gesendet**, **Zugestellt** und **Bounce** berücksichtigt.
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn der gewählte Zeitraum im Bericht der **Versandzusammenfassung** zu lang war.
 
-#### Benutzerdefinierte Ressourcen   {#custom-resources}
+#### Benutzerdefinierte Ressourcen    {#custom-resources}
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr bei der Vorbereitung der benutzerdefinierten Ressource auf.
 
-## 18.3 - Version März 2018   {#release-18-3---march-2018}
+## Version 18.3 - März 2018  {#release-18-3---march-2018}
 
 ### Neue Funktionen {#new-capabilities}
 
@@ -309,7 +309,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
     <ul> 
      <li> Recht auf Zugriff: Das Datensubjekt hat das Recht, eine Kopie seiner personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, zu erhalten. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
      <li> Recht auf Löschung: Das Datensubjekt hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
-    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer für E-Mail (Beta)<br /> </td> 
@@ -343,7 +343,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt können auch mehr als 5.000 Datensätze aus einer Liste exportiert werden.
 * Fehlerkorrektur – Daten können jetzt in Dateien exportiert werden, deren Name eine Personalisierungsfeld-Variable enthält.
 
-#### E-Mails, SMS und Briefpost   {#emails--sms-messages-and-direct-mail-1}
+#### E-Mails, SMS und Briefpost    {#emails--sms-messages-and-direct-mail-1}
 
 * Fehlerkorrektur – Multipart-SMS sind jetzt nicht mehr abgeschnitten, da die Größe der Teile nun in Byte anstelle von Zeichen berechnet wird.
 * Eine Option wurde hinzugefügt, mit der die KPIs **[!UICONTROL Zugestellt]** oder **[!UICONTROL Bounces + Fehler]** in Echtzeit nach dem Versand aktualisiert werden können. Sie werden direkt anhand des im Provider übermittelten SR (Status Report) neu berechnet.
@@ -356,19 +356,19 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt kann der Gewinner einer A/B-Test-E-Mail automatisch ausgewählt werden, sodass die E-Mail gesendet werden kann. Dieser Fehler konnte auftreten, wenn der Versand im Status **[!UICONTROL retryInProgress]** war.
 * Fehlerkorrektur – jetzt tritt keine Fehlermeldung mehr auf, wenn die Parameter einer A/B-Test-E-Mail erneut geöffnet werden.
 
-#### Audiences &amp; Abfragen   {#audiences-e-queries}
+#### Audiences &amp; Abfragen    {#audiences-e-queries}
 
 * Fehlerkorrektur – jetzt können Sie auf Daten zugreifen und Abfragen für Empfänger einrichten, die von Adobe Campaign Classic in Standard repliziert wurden.
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn nach Auswahl der Schaltfläche **Zählung** oder **Vorschau** im Abfrageeditor ein Filtertyp-Feld verwendet wird.
 
-#### Workflows   {#workflows-1}
+#### Workflows    {#workflows-1}
 
 * Der Workflow **Rechnungsstellung (Billing)** wurde optimiert, um die Versandvorbereitungsphase zu verkürzen.
 * Fehlerkorrektur – Populationsdaten werden jetzt auch dann in der ausgehenden Transition angezeigt, wenn eine wiederkehrende Versandaktivität verwendet wird.
 * Fehlerkorrektur – in der ausgehenden Transition von **Daten-Update-Aktivitäten** werden Datensätze zu Zurückweisungen jetzt korrekt angezeigt.
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr beim technischen Workflow **deliverabilityUpdate** auf.
 
-#### Integrationen   {#integrations}
+#### Integrationen    {#integrations}
 
 * Fehlerkorrektur – jetzt werden internationale Zeichen korrekt an Adobe Analytics gesendet.
 * Assets werden jetzt schneller geladen, wenn versucht wird, ein Bild aus der Asset-Bibliothek von Experience Cloud in eine Nachricht einzufügen.
@@ -376,12 +376,12 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Sie können jetzt von der Detailansicht einer Datenquelle direkt auf ihren Workflow zugreifen und den Status des Workflows überprüfen.
 * Sie können jetzt das Triggers-Schema direkt aktualisieren, wenn Sie ein Trigger-Ereignis definieren oder bearbeiten. Durch diese Änderung müssen Sie den Trigger nicht mehr depublizieren und einen neuen erstellen.
 
-#### Transaktionsnachrichten   {#transactional-messages}
+#### Transaktionsnachrichten    {#transactional-messages}
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr mit der Transaktionsnachrichtenvorlage auf, wenn die Versandressource erweitert wird.
 * Jetzt können Transaktionsnachrichten gelöscht werden.
 
-## 18.2 - Version Februar 2018   {#release-18-2---february-2018}
+## Version 18.2 - Februar 2018  {#release-18-2---february-2018}
 
 ### Neue Funktionen {#new-capabilities-1}
 
@@ -435,7 +435,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** bleibt jetzt nicht mehr aktiviert, nachdem sie bei der Definition der Planung eines in einem Workflow erstellten Versands deaktiviert wurde.
 * Das automatische Löschen von Dubletten (DISTINCT-Klausel) kann jetzt in **[!UICONTROL Abfrage]**-Aktivitäten mit einer neuen Option im Tab **[!UICONTROL Zusatzdaten]** deaktiviert werden. Die Deaktivierung dieser Option wird zur Leistungsverbesserung empfohlen, wenn zahlreiche (über 100) zusätzliche Elemente definiert werden.
 
-#### Integrationen   {#integrations-1}
+#### Integrationen    {#integrations-1}
 
 * Der **[!UICONTROL Data sources]** Konfigurationsbildschirm wurde verbessert.
 
@@ -445,7 +445,7 @@ Wir raten von der Nutzung von Internet Explorer Version 11 ab, da Anzeigeproblem
 
 Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign-Benutzeroberfläche verwendet werden. Diese werden in Version 18.3 korrigiert.
 
-## 18.1 - Version Januar 2018   {#release-18-1---january-2018}
+## Version 18.1 - Januar 2018  {#release-18-1---january-2018}
 
 ### Neue Funktionen {#new-capabilities-2}
 
@@ -473,7 +473,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
      <li> Bilder oder andere Mediendateien herunterladen und als Anhänge zu einer Benachrichtigung hinzufügen </li> 
      <li> Den Text oder Titel einer Benachrichtigung ändern </li> 
      <li> Eine Thread-Id zur einer Benachrichtigung hinzufügen </li> 
-    </ul> Weiterführende Informationen zu den Funktionen "Inhalt verfügbar" und "Veränderlicher Inhalt" finden Sie im <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">entsprechenden Handbuch</a>.<br /> <strong>Achtung:</strong> Damit Kunden diese Aktualisierungen der Push-Benachrichtigungen nutzen können, müssen sie ihre Mobile Apps aktualisieren. Weiterführende Informationen finden Sie in <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">dieser Technote</a>.<br /> </td> 
+    </ul> Weiterführende Informationen zu den Funktionen "Inhalt verfügbar" und "Veränderlicher Inhalt" finden Sie im <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">entsprechenden Handbuch</a>.<br /> <strong>Achtung:</strong> Damit Kunden diese Aktualisierungen der Push-Benachrichtigungen nutzen können, müssen sie ihre Mobile Apps aktualisieren. Weiterführende Informationen finden Sie in <a href="https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">dieser Technote</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Zeitzonenoptimierte Sendungen<br /> </td> 
@@ -493,7 +493,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
 * Die Profilsuche wurde optimiert, um die Leistung zu verbessern.
 * Die interne Kennung von Standard-Sicherheitsgruppen ermöglicht jetzt Standardbenutzern nur mehr schreibgeschützten Zugriff.
 
-#### E-Mails, SMS und Briefpost   {#emails--sms-messages-and-direct-mail-3}
+#### E-Mails, SMS und Briefpost    {#emails--sms-messages-and-direct-mail-3}
 
 * Fehlerkorrektur – jetzt tritt kein Anzeigeproblem mehr auf, wenn Emojis in den Inhalt von Sendungen eingefügt werden.
 * Fehlerkorrektur – Benutzer können jetzt nicht mehr auf Versandlogs zugreifen, wenn der Versand noch in Bearbeitung ist.
@@ -502,7 +502,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
 * SMS: Dienste sind jetzt mit einem Ereignis anstatt einer Transaktionsvorlage verknüpft.
 * SMS: Das standardmäßige SMTP-Verbindungs-Timeout wurde auf 30 Sekunden reduziert.
 
-#### Push-Benachrichtigungen   {#push-notifications-1}
+#### Push-Benachrichtigungen    {#push-notifications-1}
 
 * Fehlerkorrektur – Sendungen von Push-Benachrichtigungen können jetzt angehalten werden.
 * In den erweiterten Optionen von Push-Benachrichtigungen wurde eine Option hinzugefügt, mit der Apps durch Push-Benachrichtigungen aktiviert werden können.
@@ -511,7 +511,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
 
    Alle Kanäle
 
-#### Berichte   {#reports-1}
+#### Berichte    {#reports-1}
 
 * Fehlerkorrektur – jetzt werden keine Raten mehr von über 100 % dargestellt.
 * Fehlerkorrektur – jetzt können Benutzer Berichte im CSV-Format herunterladen.
@@ -522,7 +522,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
 * Fehlerkorrektur – bei der Verwendung von Zusatzdaten in einer Abfrage und beim Hinzufügen von Alias mit Leerzeichen werden nicht-alphanumerische Zeichen jetzt durch "_" ersetzt.
 * Fehlerkorrektur – der technische Workflow zur Berechnung von KPIs wird nicht mehr standardmäßig angehalten.
 
-#### Profile und Audiences   {#profiles-and-audiences}
+#### Profile und Audiences    {#profiles-and-audiences}
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn in einer Audience-Abfrage mehrere Filter hinzugefügt werden.
 * Fehlerkorrektur – jetzt tritt kein Anzeigeproblem mehr auf, wenn ein Profilbild geändert wird.
