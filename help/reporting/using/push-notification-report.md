@@ -1,8 +1,6 @@
 ---
 title: Bericht zu Push-Benachrichtigungen
-seo-title: Bericht zu Push-Benachrichtigungen
-description: Bericht zu Push-Benachrichtigungen
-seo-description: Im vordefinierten Bericht über Push-Benachrichtigungen erfahren Sie über die Wirkung Ihrer Push-Benachrichtigung.
+description: Im vordefinierten Bericht über Push-Benachrichtigungen erfahren Sie über die Wirkung Ihrer Push-Benachrichtigung.
 page-status-flag: never-activated
 uuid: 5b121a37-1c09-4749-a409-6989978ddc4c
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,7 +25,7 @@ source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 Der Bericht zu **Push-Benachrichtigungen** liefert Details zur Marketing-Performance von Push-Benachrichtigungen in Adobe Campaign. Dieser native Bericht zeigt, wie Benutzer mit Push-Benachrichtigungen, Mobile Apps und Sendungen interagieren.
 
-Die Mobile App muss entsprechend konfiguriert werden, um Push-Benachrichtigungen zu tracken. Weiterführende Informationen dazu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/push-tracking.html).
+Die Mobile App muss entsprechend konfiguriert werden, um Push-Benachrichtigungen zu tracken. Weiterführende Informationen dazu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/push-tracking.html).
 
 ![](assets/dynamic_report_push.png)
 
