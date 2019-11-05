@@ -1,8 +1,6 @@
 ---
 title: Triggers in Experience Cloud konfigurieren
-seo-title: Triggers in Experience Cloud konfigurieren
-description: Triggers in Experience Cloud konfigurieren
-seo-description: 'Hier erfahren Sie, wie Sie die Integration von Adobe Experience Cloud Triggers konfigurieren müssen, um auf der Basis des bisherigen Kundenverhaltens personalisierte Sendungen durchzuführen. '
+description: 'Hier erfahren Sie, wie Sie die Integration von Adobe Experience Cloud Triggers konfigurieren müssen, um auf der Basis des bisherigen Kundenverhaltens personalisierte Sendungen durchzuführen. '
 page-status-flag: never-activated
 uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
