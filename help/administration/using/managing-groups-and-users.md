@@ -1,21 +1,19 @@
 ---
 title: Gruppen und Benutzer verwalten
-seo-title: Gruppen und Benutzer verwalten
-description: Gruppen und Benutzer verwalten
-seo-description: Hier erfahren Sie, wie Sie Sicherheitsgruppen erstellen und Benutzer verwalten können.
-page-status-flag: nie aktiviert
-uuid: b 3 a 3 a 2 e 3-9 d 69-4231-b 724-8 f 37419 f 7 a 61
+description: Hier erfahren Sie, wie Sie Sicherheitsgruppen erstellen und Benutzer verwalten können.
+page-status-flag: never-activated
+uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Administration
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
 topic-tags: users-and-security
-discoiquuid: 12 f 896 ab-ee 79-4 d 96-976 d-cf 44643491 b 4
-context-tags: user, overview; user, main; security, overview; Sicherheit, Hauptfach
+discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
+context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,7 +38,7 @@ Standardmäßige Sicherheitsgruppen sind:
 
 Ein Benutzer, der keiner Sicherheitsgruppe zugeordnet wurde, hat keinen Zugriff auf Adobe Campaign.
 
-Wenn Sie den Zugriff eines Benutzers beschränken möchten, fügen Sie ihn nicht der Standardbenutzergruppe (Campaign Standard users) hinzu, da diese der Organisationseinheit **[!UICONTROL Alle]zugeordnet ist.**
+Wenn Sie den Zugriff eines Benutzers beschränken möchten, fügen Sie ihn nicht der Standardbenutzergruppe (Campaign Standard users) hinzu, da diese der Organisationseinheit **[!UICONTROL Alle]** zugeordnet ist.
 
 ## Sicherheitsgruppe erstellen und Benutzer zuordnen {#creating-a-security-group-and-assigning-users}
 
@@ -64,12 +62,12 @@ Weisen Sie zunächst eine der vorhandenen Sicherheitsgruppen Ihren Benutzern zu:
 
    ![](assets/manage_security_group_2.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Benutzer hinzufügen]aus und geben Sie die E-Mail-Adresse Ihres Benutzers ein.**
-1. Wählen Sie im Tab **[!UICONTROL Produkte zuweisen]** Ihre Instanz aus und dann in der Dropdown-Liste die vordefinierte Sicherheitsgruppe "Administrator".**** Dadurch erhält der Benutzer Zugriff auf die Administratormenüs und kann die nächsten Sicherheitsgruppen erstellen.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Benutzer hinzufügen]** aus und geben Sie die E-Mail-Adresse Ihres Benutzers ein.
+1. Wählen Sie im Tab **[!UICONTROL Produkte zuweisen]** Ihre Instanz aus und dann in der Dropdown-Liste die vordefinierte Sicherheitsgruppe **[!UICONTROL Administrator]**. Dadurch erhält der Benutzer Zugriff auf die Administratormenüs und kann die nächsten Sicherheitsgruppen erstellen.
 
    ![](assets/ootb_security_group_2.png)
 
-1. Wählen Sie **[!UICONTROL Speichern]** aus und gehen Sie analog vor, um Ihrem neuen Benutzer die vordefinierte Sicherheitsgruppe mit Standardbenutzern zuzuweisen.****
+1. Wählen Sie **[!UICONTROL Speichern]** aus und gehen Sie analog vor, um Ihrem neuen Benutzer die vordefinierte Sicherheitsgruppe mit **[!UICONTROL Standardbenutzern]** zuzuweisen.
 
    ![](assets/ootb_security_group_3.png)
 
@@ -80,7 +78,7 @@ Sobald Ihre beiden Benutzer mit den vordefinierten **[!UICONTROL Administrator]*
 
    ![](assets/create_security_1.png)
 
-1. Geben Sie den **[!UICONTROL Profilnamen]** ein und halten Sie sich dabei genau an die folgende Syntax: **[!UICONTROL Campaign Standard- Name der Instanz - Kennung der Sicherheitsgruppe]**. Wählen Sie dann **Fertig[!UICONTROL aus]**.
+1. Geben Sie den **[!UICONTROL Profilnamen]** ein und halten Sie sich dabei genau an die folgende Syntax: **[!UICONTROL Campaign Standard- Name der Instanz - Kennung der Sicherheitsgruppe]**. Wählen Sie dann **]Fertig[!UICONTROL ** aus.
 
    Die ausgewählte Kennung wird dann bei der Erstellung der Sicherheitsgruppe in Adobe Campaign verwendet.
 
@@ -91,17 +89,17 @@ Sobald Ihre beiden Benutzer mit den vordefinierten **[!UICONTROL Administrator]*
    ![](assets/manage_security_group_1.png)
 
 1. Gehen Sie bei der Erstellung der **Geometrixx Clothes**-Sicherheitsgruppe analog vor.
-1. Weisen Sie die Sicherheitsgruppe Ihrem Benutzer zu, indem Sie den Tab **[!UICONTROL Benutzer]auswählen.**
+1. Weisen Sie die Sicherheitsgruppe Ihrem Benutzer zu, indem Sie den Tab **[!UICONTROL Benutzer]** auswählen.
 
    ![](assets/manage_security_group_2.png)
 
-1. Wählen Sie den zuvor erstellen Benutzer und danach das Symbol ![](assets/managing_security_group_10.png) in der Kategorie **Produkte]aus.[!UICONTROL **
+1. Wählen Sie den zuvor erstellen Benutzer und danach das Symbol ![](assets/managing_security_group_10.png) in der Kategorie **[!UICONTROL Produkte]** aus.
 
-   Wählen Sie **[!UICONTROL Zugewiesene Produkte direkt bearbeiten]aus, um Ihrem Benutzer eine neue Sicherheitsgruppe zuzuweisen.**
+   Wählen Sie **[!UICONTROL Zugewiesene Produkte direkt bearbeiten]** aus, um Ihrem Benutzer eine neue Sicherheitsgruppe zuzuweisen.
 
    ![](assets/manage_security_group_8.png)
 
-1. Wählen Sie im Tab **[!UICONTROL Produkte zuweisen]Ihre Instanz und dann in der Dropdown-Liste die zuvor erstellte Sicherheitsgruppe "Geometrixx" aus, um sie dem Administrator-Benutzer zuzuweisen.**
+1. Wählen Sie im Tab **[!UICONTROL Produkte zuweisen]** Ihre Instanz und dann in der Dropdown-Liste die zuvor erstellte Sicherheitsgruppe "Geometrixx" aus, um sie dem Administrator-Benutzer zuzuweisen.
 
    Wählen Sie **[!UICONTROL Speichern aus]**.
 
@@ -126,11 +124,11 @@ Der Administrator-Benutzer muss die Sicherheitsgruppen erstellen, die für die Z
 
    Die Kennung muss mit der in der Admin Console verwendeten identisch sein.
 
-1. Weisen Sie im Feld **[!UICONTROL Benutzerzugriff]eine Organisationseinheit zu.** In unserem Beispiel wird der Geometrixx-Sicherheitsgruppe die Organisationseinheit **[!UICONTROL Alle]zugewiesen.**
+1. Weisen Sie im Feld **[!UICONTROL Benutzerzugriff]** eine Organisationseinheit zu. In unserem Beispiel wird der Geometrixx-Sicherheitsgruppe die Organisationseinheit **[!UICONTROL Alle]** zugewiesen.
 
    ![](assets/manage_security_group_6.png)
 
-1. Sie können Ihrer Sicherheitsgruppe auch Rollen zuweisen. In unserem Beispiel ist dieser Schritt nicht nötig, da die vordefinierten Sicherheitsgruppen **[!UICONTROL Administrator]** und **Standardbenutzer]verwendet werden, um Rollen zuzuweisen.[!UICONTROL **
+1. Sie können Ihrer Sicherheitsgruppe auch Rollen zuweisen. In unserem Beispiel ist dieser Schritt nicht nötig, da die vordefinierten Sicherheitsgruppen **[!UICONTROL Administrator]** und **[!UICONTROL Standardbenutzer]** verwendet werden, um Rollen zuzuweisen.
 1. Gehen Sie bei der Erstellung der letzten Sicherheitsgruppe "Geometrixx Clothes" analog vor und weisen Sie die Organisationseinheit "Geometrixx Clothes" zu.
 
    ![](assets/manage_security_group_7.png)
