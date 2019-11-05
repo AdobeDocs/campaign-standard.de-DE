@@ -1,8 +1,6 @@
 ---
 title: Filterdefinition konfigurieren
-seo-title: Filterdefinition konfigurieren
-description: Filterdefinition konfigurieren
-seo-description: Hier erfahren Sie mehr über die Filterfunktion zur Verwaltung großer Datenmengen.
+description: Hier erfahren Sie mehr über die Filterfunktion zur Verwaltung großer Datenmengen.
 page-status-flag: never-activated
 uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
