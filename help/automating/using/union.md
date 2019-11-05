@@ -1,8 +1,6 @@
 ---
 title: Vereinigung
-seo-title: Vereinigung
-description: Vereinigung
-seo-description: Eine Vereinigung dient der Zusammenfassung der Ergebnisse mehrerer Aktivitäten in einer Zielgruppe.
+description: Eine Vereinigung dient der Zusammenfassung der Ergebnisse mehrerer Aktivitäten in einer Zielgruppe.
 page-status-flag: never-activated
 uuid: fafc3ce9-2212-4403-8754-cfbb28ba6e26
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
 context-tags: union,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -52,7 +50,7 @@ Eine **[!UICONTROL Vereinigung]** wird insbesondere im Rahmen einer Segmentierun
 1. Bei Bedarf können Sie unter Verwendung von [Transitionen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) auf erweiterte Optionen zur berechneten Population zugreifen.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel  {#example}
+## Beispiel {#example}
 
 Unten stehende Abbildung zeigt die Vereinigung von zwei Abfrageaktivitäten, die alle Profile der Adobe-Campaign-Datenbank abrufen, die zwischen 18 und 27 bzw. 34 und 40 Jahre alt sind. Das Ergebnis enthält alle Profile aus den beiden Abfragen bzw. die im vorangehenden Schritt definierte Anzahl.
 
