@@ -1,8 +1,6 @@
 ---
 title: Über die Integration von Campaign-POI-Daten
-seo-title: Über die Integration von Campaign-POI-Daten
-description: Über die Integration von Campaign-POI-Daten
-seo-description: Durch die Integration mit Adobe Campaign können Sie Ihren Mobile-App-Abonnenten anhand der von ihnen erfassten POI-Daten standortbasierte Marketing-Nachrichten senden.
+description: Durch die Integration mit Adobe Campaign können Sie Ihren Mobile-App-Abonnenten anhand der von ihnen erfassten POI-Daten standortbasierte Marketing-Nachrichten senden.
 page-status-flag: never-activated
 uuid: 1e6840c8-0472-4da2-85ed-f9a65147555a
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -23,7 +21,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 Zusätzlich zum Tracken der Online-Anwesenheit von Kunden können Sie auch Informationen zu ihrem physischen Standort nutzen. Durch die Integration mit Adobe Analytics for Mobile können Sie Abonnenten Ihrer Mobile App mit Adobe Campaign standortbasierte Marketing-Nachrichten senden.
 
-Ein POI wird durch einen Breitengrad, einen Längengrad, einen Radius sowie einen Titel bestimmt. Die entsprechende Definition finden Sie in der [Adobe-Mobile-Services](https://marketing.adobe.com/resources/help/de_DE/mobile/home.html)-Benutzeroberfläche.
+Ein POI wird durch einen Breitengrad, einen Längengrad, einen Radius sowie einen Titel bestimmt. Die entsprechende Definition finden Sie in der [Adobe-Mobile-Services](https://marketing.adobe.com/resources/help/en_US/mobile/home.html)-Benutzeroberfläche.
 
 Wenn ein Abonnent Ihre Mobile App öffnet und sein Standort mit einem POI übereinstimmt, erfasst Adobe Campaign die Daten mithilfe des Experience Cloud Mobile SDK. Sie können dann auf der Basis dieser Informationen personalisierte Nachrichten versenden (z. B. E-Mails, Push-Benachrichtigungen, SMS).
 
