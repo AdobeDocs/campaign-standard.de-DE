@@ -1,8 +1,6 @@
 ---
 title: Über den Versand mit Campaign
-seo-title: Über den Versand mit Campaign
-description: Über den Versand mit Campaign
-seo-description: Hier erfahren Sie über die erforderlichen Schritte zum Testen und Senden einer Nachricht.
+description: Hier erfahren Sie über die erforderlichen Schritte zum Testen und Senden einer Nachricht.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -42,5 +40,5 @@ Nach erfolgter Zielgruppenbestimmung und Inhaltserstellung ist Ihr Versand zu te
 * [Testprofile verwalten und Testsendungen durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [E-Mail-Rendering](../../sending/using/email-rendering.md)
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_Deliverability.html)
+* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
 
