@@ -1,8 +1,6 @@
 ---
 title: Versanddatum berechnen
-seo-title: Versanddatum berechnen
-description: Versanddatum berechnen
-seo-description: Hier erfahren Sie, wie Sie eine Nachricht an einem bestimmten Datum und zu einer bestimmten Uhrzeit senden.
+description: Hier erfahren Sie, wie Sie eine Nachricht an einem bestimmten Datum und zu einer bestimmten Uhrzeit senden.
 page-status-flag: never-activated
 uuid: fbbb37a0-7257-4407-a4c9-f76bf04460d4
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 28abc1e8aa31f3e0c7f09926f34a977d4c491fd8
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
