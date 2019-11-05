@@ -1,8 +1,6 @@
 ---
 title: Warten
-seo-title: Warten
-description: Warten
-seo-description: Die Warten-Aktivität ermöglicht das zeitweise Aussetzen der Ausführung eines Teils eines Workflows.
+description: Die Warten-Aktivität ermöglicht das zeitweise Aussetzen der Ausführung eines Teils eines Workflows.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: wait,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -44,7 +42,7 @@ Die **[!UICONTROL Warten]**-Aktivität ermöglicht es, einen bestimmten Zeitraum
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel  {#example}
+## Beispiel {#example}
 
 Das folgende Beispiel erläutert die **[!UICONTROL Warten]**-Aktivität anhand eines typischen Fallbeispiels. Darin wird eine E-Mail mit einer Einladung zu einem Ereignis verschickt. 24 Stunden nach dem Versand werden die E-Mail-Versandlogs analysiert und eine Erinnerungs-E-Mail an die Personen gesendet, die die erste E-Mail erhalten, sich aber nicht angemeldet haben.
 
