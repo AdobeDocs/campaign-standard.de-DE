@@ -1,8 +1,6 @@
 ---
 title: Campaign und Assets Core Service verwenden
-seo-title: Campaign und Assets Core Service verwenden
-description: Campaign und Assets Core Service verwenden
-seo-description: Dank der Integration von Assets Core Service können Sie alle innerhalb von Adobe Experience Cloud geteilten Ressourcen in Ihren Nachrichten und Landingpages in Adobe Campaign verwenden.
+description: Dank der Integration von Assets Core Service können Sie alle innerhalb von Adobe Experience Cloud geteilten Ressourcen in Ihren Nachrichten und Landingpages in Adobe Campaign verwenden.
 page-status-flag: never-activated
 uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -37,6 +35,6 @@ Das entsprechende Bild wird nun eingefügt. Der Versand kann nach Bedarf persona
 
 **Verwandte Themen:**
 
-* [Assets und Freigabe](https://marketing.adobe.com/resources/help/de_DE/mcloud/experience-cloud-assets.html)
+* [Assets und Freigabe](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)
 * [Inhaltseditor](../../designing/using/personalization.md#example-email-personalization)
 
