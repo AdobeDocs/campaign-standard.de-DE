@@ -1,8 +1,6 @@
 ---
 title: Definieren der Betreffzeile und des Absenders einer E-Mail
-seo-title: Definieren der Betreffzeile und des Absenders einer E-Mail
-description: Definieren der Betreffzeile und des Absenders einer E-Mail
-seo-description: Erfahren Sie, wie Sie in Email Designer die Betreffzeile und den Absender einer E-Mail definieren.
+description: Erfahren Sie, wie Sie in Email Designer die Betreffzeile und den Absender einer E-Mail definieren.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
