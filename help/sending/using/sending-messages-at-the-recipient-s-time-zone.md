@@ -1,8 +1,6 @@
 ---
 title: Nachrichten in der Zeitzone des Empfängers senden
-seo-title: Nachrichten in der Zeitzone des Empfängers senden
-description: Nachrichten in der Zeitzone des Empfängers senden
-seo-description: Hier erfahren Sie, wie Sie Nachrichten in der Zeitzone des Empfängers senden.
+description: Hier erfahren Sie, wie Sie Nachrichten in der Zeitzone des Empfängers senden.
 page-status-flag: never-activated
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
