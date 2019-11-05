@@ -1,8 +1,6 @@
 ---
 title: Bedienfelder hinzufügen
-seo-title: Bedienfelder hinzufügen
-description: Bedienfelder hinzufügen
-seo-description: Dynamische Berichte ermöglichen es Ihnen, ein Bedienfeld hinzuzufügen, um Ihre Daten entsprechend dem ausgewählten Zeitraum zu filtern.
+description: Dynamische Berichte ermöglichen es Ihnen, ein Bedienfeld hinzuzufügen, um Ihre Daten entsprechend dem ausgewählten Zeitraum zu filtern.
 page-status-flag: never-activated
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -53,7 +51,7 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Ziehen Sie bei Bedarf **[!UICONTROL Segmente]** vom Tab **[!UICONTROL Komponenten]** in die Symbolleiste, um Ihren Bericht nach der Altersgruppe Ihres Empfängers zu filtern.
+1. Ab Version 19.4 von Campaign wird der **[!UICONTROL Ausschlussnachweis]** bereits standardmäßig ausgewählt. Bei Bedarf können Sie das Segment ändern, indem Sie eines der **[!UICONTROL Segmente]** aus der Registerkarte " **[!UICONTROL Komponenten]** "in die obere Leiste ziehen.
 
    ![](assets/dynamic_report_panel_3.png)
 
