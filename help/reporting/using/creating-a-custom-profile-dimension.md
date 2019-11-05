@@ -1,8 +1,6 @@
 ---
 title: Benutzerdefinierte Profildimension erstellen
-seo-title: Benutzerdefinierte Profildimension erstellen
-description: Benutzerdefinierte Profildimension erstellen
-seo-description: Hier erfahren Sie, wie Sie eine benutzerdefinierte Profildimension auf der Basis von benutzerdefinierten Profildaten erstellen können.
+description: Hier erfahren Sie, wie Sie eine benutzerdefinierte Profildimension auf der Basis von benutzerdefinierten Profildaten erstellen können.
 page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
