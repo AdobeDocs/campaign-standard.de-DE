@@ -1,8 +1,6 @@
 ---
 title: E-Mail-Versand
-seo-title: E-Mail-Versand
-description: E-Mail-Versand
-seo-description: Die E-Mail-Versandaktivität ermöglicht den Versand von einmaligen oder wiederkehrenden E-Mails innerhalb eines Workflows.
+description: Die E-Mail-Versandaktivität ermöglicht den Versand von einmaligen oder wiederkehrenden E-Mails innerhalb eines Workflows.
 page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
