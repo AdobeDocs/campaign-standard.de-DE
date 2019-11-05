@@ -1,8 +1,6 @@
 ---
 title: Nachrichten tracken
-seo-title: Nachrichten tracken
-description: Nachrichten tracken
-seo-description: Hier erfahren Sie, wie Sie das Verhalten von Versandempfängern tracken können.
+description: Hier erfahren Sie, wie Sie das Verhalten von Versandempfängern tracken können.
 page-status-flag: never-activated
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ Eine Möglichkeit besteht darin, Besucher von Webtracking betroffenen Seiten zur
 Adobe Campaign verwendet zwei Arten von Cookies:
 
 * Sitzungs-Cookie (nlid). Er enthält die Kennung der an den Kontakt gesendeten E-Mail (broadlogId) und die Kennung der Nachrichtenvorlage (deliveryId). Er wird gesetzt, sobald der Kontakt eine in einer mit Adobe Campaign gesendeten E-Mail enthaltene URL anklickt, und ermöglicht, das Webverhalten des Kontakts zu verfolgen. Dieser Sitzungs-Cookie wird automatisch mit Schließen des Browsers gelöscht. Der Kontakt hat die Möglichkeit, das Setzen des Cookies zu verbieten, indem er seine Browser-Einstellungen dementsprechend ändert.
-* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Lösungen der Experience Cloud bei Webseitenbesuchen interagiert. Weiterführende Informationen zu diesem Cookie finden Sie hier: [https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html).
+* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Lösungen der Experience Cloud bei Webseitenbesuchen interagiert. Weiterführende Informationen zu diesem Cookie finden Sie hier: [https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
 
 Tracking-Informationen sind für jeden Kontakt in Ihrer Datenbank in **[!UICONTROL integrierten Kundenprofilen verfügbar]**. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../audiences/using/integrated-customer-profile.md).
 
