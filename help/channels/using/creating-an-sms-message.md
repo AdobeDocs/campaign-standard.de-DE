@@ -1,8 +1,6 @@
 ---
 title: SMS erstellen
-seo-title: SMS erstellen
-description: SMS erstellen
-seo-description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen SMS-Versand mit Adobe Campaign erstellen können.
+description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen SMS-Versand mit Adobe Campaign erstellen können.
 page-status-flag: never-activated
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -82,5 +80,5 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 
 * [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../channels/using/about-sms-and-push-content-design.md)
 * [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md)
-* Video [Create an SMS delivery](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
+* [Create an SMS delivery](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) (Video)
 
