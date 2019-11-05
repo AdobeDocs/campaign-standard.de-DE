@@ -1,8 +1,6 @@
 ---
 title: Erstellen eines Berichts auf der Basis von Workflow-Segmenten
-seo-title: Erstellen eines Berichts auf der Basis von Workflow-Segmenten
-description: Erstellen eines Berichts auf der Basis von Workflow-Segmenten
-seo-description: Hier erfahren Sie, wie Sie den Erfolg Ihres Versands anhand der Workflow-Segmente in Ihren Berichten überprüfen.
+description: Hier erfahren Sie, wie Sie den Erfolg Ihres Versands anhand der Workflow-Segmente in Ihren Berichten überprüfen.
 page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: beneat
@@ -13,8 +11,8 @@ topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
