@@ -1,8 +1,6 @@
 ---
 title: Profil-Transaktionsnachrichten
-seo-title: Profil-Transaktionsnachrichten
-description: Profil-Transaktionsnachrichten
-seo-description: Hier erfahren Sie, wie Sie eine Profil-Transaktionsnachricht erstellen und publizieren können.
+description: Hier erfahren Sie, wie Sie eine Profil-Transaktionsnachricht erstellen und publizieren können.
 page-status-flag: never-activated
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
