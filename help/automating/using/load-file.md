@@ -1,8 +1,6 @@
 ---
 title: Datei laden
-seo-title: Datei laden
-description: Datei laden
-seo-description: Die Datei-Lade-Aktivität erlaubt den Import von strukturierten Dateidaten, um diese in Adobe Campaign verwenden zu können.
+description: Die Datei-Lade-Aktivität erlaubt den Import von strukturierten Dateidaten, um diese in Adobe Campaign verwenden zu können.
 page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
