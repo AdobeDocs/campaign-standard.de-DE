@@ -1,8 +1,6 @@
 ---
 title: Benutzeroberfläche für die Berichterstellung
-seo-title: Benutzeroberfläche für die Berichterstellung
-description: Benutzeroberfläche für die Berichterstellung
-seo-description: Hier erhalten Sie Informationen zur Benutzeroberfläche von dynamischen Berichten und zur Navigation durch die verschiedenen Tabs und Menüs.
+description: Hier erhalten Sie Informationen zur Benutzeroberfläche von dynamischen Berichten und zur Navigation durch die verschiedenen Tabs und Menüs.
 page-status-flag: never-activated
 uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -49,7 +47,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * [Bedienfelder hinzufügen](../../reporting/using/adding-panels.md)
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
-* [Automatische Weitergabe von Berichten per E-Mail an Interessierte](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Automatisches Freigeben von Berichten per E-Mail an Interessenvertreter](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Tabs     {#tabs}
 
@@ -151,4 +149,4 @@ Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang di
 
 **Verwandtes Thema:**
 
-* [Automatische Weitergabe von Berichten per E-Mail an Interessierte](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Automatisches Freigeben von Berichten per E-Mail an Interessenvertreter](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
