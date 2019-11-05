@@ -1,8 +1,6 @@
 ---
 title: Integration mit Audience Manager oder People Core Service bereitstellen und konfigurieren
-seo-title: Integration mit Audience Manager oder People Core Service bereitstellen und konfigurieren
-description: Integration mit Audience Manager oder People Core Service bereitstellen und konfigurieren
-seo-description: 'Hier erfahren Sie, wie Sie die Integration von Audience Manager/People Core Service konfigurieren können, um Audiences oder Segmente in den unterschiedlichen Adobe Experience Cloud-Lösungen freizugeben. '
+description: 'Hier erfahren Sie, wie Sie die Integration von Audience Manager/People Core Service konfigurieren können, um Audiences oder Segmente in den unterschiedlichen Adobe Experience Cloud-Lösungen freizugeben. '
 page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -70,7 +68,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
 
 Wenn Sie Adobe Audience Manager anstelle des People Core Service verwenden, funktioniert die **[!UICONTROL deklarierte ID]** in allen Szenarien.
 
-Sie können eine Anforderung für die Bereitstellung **[!UICONTROL deklarierter ID]** an folgende Adresse aufrufen: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
+Die Bereitstellung einer **[!UICONTROL Declared ID]** können Sie unter folgender Adresse anfordern: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Die Integration mit Adobe Campaign konfigurieren  {#configuring-the-integration-in-adobe-campaign}
 
