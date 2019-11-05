@@ -1,8 +1,6 @@
 ---
 title: Ressource erstellen oder erweitern
-seo-title: Ressource erstellen oder erweitern
-description: Ressource erstellen oder erweitern
-seo-description: Hier erfahren Sie, wie Sie eine neue Ressource definieren.
+description: Hier erfahren Sie, wie Sie eine neue Ressource definieren.
 page-status-flag: never-activated
 uuid: 7c26b63d-9587-472b-804f-cde5c45dfb3c
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 50620788c05b76cc2f69c19c26f968ca15a02048
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
