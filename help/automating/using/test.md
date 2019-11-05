@@ -1,8 +1,6 @@
 ---
 title: Test
-seo-title: Test
-description: Test
-seo-description: Die Test-Aktivität ermöglicht eine Transition auf der Basis eines Testergebnisses.
+description: Die Test-Aktivität ermöglicht eine Transition auf der Basis eines Testergebnisses.
 page-status-flag: never-activated
 uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
