@@ -1,20 +1,18 @@
 ---
 title: Über die Integration von Campaign mit Target
-seo-title: Über die Integration von Campaign mit Target
-description: Über die Integration von Campaign mit Target
-seo-description: Durch die Integration von Adobe Target können Sie in Adobe Target erstellte dynamische Bilder in Adobe-Campaign-Nachrichten einfügen.
-page-status-flag: nie aktiviert
-uuid: eb 43 f 054-9 c 00-4 ca 4-acdd-e 2306937 af 3 c
+description: Durch die Integration von Adobe Target können Sie in Adobe Target erstellte dynamische Bilder in Adobe-Campaign-Nachrichten einfügen.
+page-status-flag: never-activated
+uuid: eb43f054-9c00-4ca4-acdd-e2306937af3c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird integriert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: a 416 fae 1-3812-4404-844 e-ed 6 d 6 df 0 dcf 5
+discoiquuid: a416fae1-3812-4404-844e-ed6d6df0dcf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
