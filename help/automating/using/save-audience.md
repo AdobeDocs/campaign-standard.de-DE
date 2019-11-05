@@ -1,8 +1,6 @@
 ---
 title: Audience-Speicherung
-seo-title: Audience-Speicherung
-description: Audience-Speicherung
-seo-description: Mithilfe der Audience-Speicherung können existierende Audiences aktualisiert oder neue erstellt werden. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
+description: Mithilfe der Audience-Speicherung können existierende Audiences aktualisiert oder neue erstellt werden. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
 page-status-flag: never-activated
 uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -78,7 +76,7 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel  {#example}
+## Beispiel {#example}
 
 Das vorliegende Beispiel zeigt einen Workflow zur regelmäßigen Aktualisierung einer Audience, die aus einer Zielguppenbestimmung hervorgeht.
 
