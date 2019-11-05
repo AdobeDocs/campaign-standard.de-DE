@@ -1,8 +1,6 @@
 ---
 title: Workflow-Oberfläche
-seo-title: Workflow-Oberfläche
-description: Workflow-Oberfläche
-seo-description: Hier erhalten Sie Informationen über die Benutzeroberfläche und die Optionen zum Erstellen, Bearbeiten und Ausführen von Workflows.
+description: Hier erhalten Sie Informationen über die Benutzeroberfläche und die Optionen zum Erstellen, Bearbeiten und Ausführen von Workflows.
 page-status-flag: never-activated
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: workflow,main;workflow,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
