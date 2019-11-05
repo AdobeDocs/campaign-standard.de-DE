@@ -1,20 +1,18 @@
 ---
 title: Berichtszeitraum definieren
-seo-title: Berichtszeitraum definieren
-description: Berichtszeitraum definieren
-seo-description: Mit dem Berichtszeitraum Ihres Berichts können Sie Ihre Daten entsprechend dem ausgewählten Zeitraum filtern.
-page-status-flag: nie aktiviert
-uuid: 8 dfd 1 ae 6-a 5 a 0-4900-bd 6 f -7815749 d 0 b 60
+description: Mit dem Berichtszeitraum Ihres Berichts können Sie Ihre Daten entsprechend dem ausgewählten Zeitraum filtern.
+page-status-flag: never-activated
+uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 8 ff 74630-860 c -4 f 1 c -9 aa 7-21 c 3326 e 47 da
+discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
