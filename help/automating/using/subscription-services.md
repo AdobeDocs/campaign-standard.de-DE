@@ -1,8 +1,6 @@
 ---
 title: An-/Abmeldedienst
-seo-title: An-/Abmeldedienst
-description: An-/Abmeldedienst
-seo-description: Mithilfe der An-/Abmeldedienst-Aktivität lassen sich Profile gesammelt für Dienste an- bzw. von Diensten abmelden.
+description: Mithilfe der An-/Abmeldedienst-Aktivität lassen sich Profile gesammelt für Dienste an- bzw. von Diensten abmelden.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
