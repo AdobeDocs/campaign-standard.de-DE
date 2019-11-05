@@ -1,8 +1,6 @@
 ---
 title: Workflow erstellen
-seo-title: Workflow erstellen
-description: Workflow erstellen
-seo-description: In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei der Erstellung eines neuen Workflows.
+description: In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei der Erstellung eines neuen Workflows.
 page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -60,7 +58,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
 **Verwandtes Thema:**
 
-Video [Creating a workflow](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+Video [Creating a workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
 
 ## Aktivitäten hinzufügen und verbinden {#adding-and-linking-activities}
 
