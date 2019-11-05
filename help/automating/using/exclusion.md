@@ -1,8 +1,6 @@
 ---
 title: Ausschluss
-seo-title: Ausschluss
-description: Ausschluss
-seo-description: Ein Ausschluss ermöglicht es, bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
+description: Ein Ausschluss ermöglicht es, bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
 page-status-flag: never-activated
 uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
