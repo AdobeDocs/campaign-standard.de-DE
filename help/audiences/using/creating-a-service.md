@@ -1,8 +1,6 @@
 ---
 title: Dienst erstellen
-seo-title: Dienst erstellen
-description: Dienst erstellen
-seo-description: Hier erfahren Sie, wie Sie Ihren ersten Dienst erstellen und ihn so konfigurieren, dass Sie E-Mail-Bestätigungen an Ihre Abonnenten senden können.
+description: Hier erfahren Sie, wie Sie Ihren ersten Dienst erstellen und ihn so konfigurieren, dass Sie E-Mail-Bestätigungen an Ihre Abonnenten senden können.
 page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
