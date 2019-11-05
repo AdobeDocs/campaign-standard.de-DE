@@ -1,8 +1,6 @@
 ---
 title: Ausdrucksbearbeitung
-seo-title: Ausdrucksbearbeitung
-description: Ausdrucksbearbeitung
-seo-description: Mit dem Abfrageeditor-Assistenten können Sie erweiterte Ausdrücke definieren.
+description: Mit dem Abfrageeditor-Assistenten können Sie erweiterte Ausdrücke definieren.
 page-status-flag: never-activated
 uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
