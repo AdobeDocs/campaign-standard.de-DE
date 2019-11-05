@@ -1,8 +1,6 @@
 ---
 title: Versanddurchsatz
-seo-title: Versanddurchsatz
-description: Versanddurchsatz
-seo-description: Im vordefinierten Bericht über den Versanddurchsatz können Sie sich über die Wirkung Ihres Versands informieren.
+description: Im vordefinierten Bericht über den Versanddurchsatz können Sie sich über die Wirkung Ihres Versands informieren.
 page-status-flag: never-activated
 uuid: 51888b63-f507-43ea-8faf-5b3c00eb1800
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
