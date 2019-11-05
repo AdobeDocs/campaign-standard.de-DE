@@ -1,21 +1,19 @@
 ---
 title: Segmentierung
-seo-title: Segmentierung
-description: Segmentierung
-seo-description: Mit der Segmentierung lassen sich von einer durch frühere Aktivitäten berechneten Population ausgehend ein oder mehrere Segmente erstellen.
-page-status-flag: nie aktiviert
-uuid: 77796 f 18-cad 5-4 e 7 a -9 d 7 b -4 ed 0 dd 8943 bf
+description: Mit der Segmentierung lassen sich von einer durch frühere Aktivitäten berechneten Population ausgehend ein oder mehrere Segmente erstellen.
+page-status-flag: never-activated
+uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird automatisiert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 0 ccd 9 d 02-772 e -406 b -874 a -5381 dd 0 c 8709
-context-tags: Segmentierung, Haupt
+discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
+context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,31 +24,31 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ![](assets/segmentation.png)
 
-Mit der **[!UICONTROL Segmentierung]lassen sich von einer durch frühere Aktivitäten berechneten Population ausgehend ein oder mehrere Segment(e) erstellen.** Diese können bei Abschluss der Aktivität in einer einzigen oder verschiedenen Transition(en) verarbeitet werden.
+Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Aktivitäten berechneten Population ausgehend ein oder mehrere Segment(e) erstellen. Diese können bei Abschluss der Aktivität in einer einzigen oder verschiedenen Transition(en) verarbeitet werden.
 
 >[!NOTE]
 >
 >Ein Mitglied der eingehenden Population kann standardmäßig nur einem einzigen Segment angehören. Die Anwendung der Filter erfolgt in der Reihenfolge der Segmente in der Aktivität.
 
-## Anwendungskontext {#context-of-use}
+## Anwendungskontext  {#context-of-use}
 
-The **[!UICONTROL Segmentation]** activity is generally placed after targeting activities (query, intersection, union, exclusion, etc.) in order to define the standard population based on which the segments are formed.
+Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss etc.), sodass die Segmente auf der Basis der vorher bestimmten Standardpopulation erstellt werden können.
 
 ## Konfiguration {#configuration}
 
-1. Ziehen Sie per Drag &amp; Drop eine **[!UICONTROL Segmentierung]in Ihren Workflow.**
+1. Ziehen Sie per Drag &amp; Drop eine **[!UICONTROL Segmentierung]** in Ihren Workflow.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
-1. Wählen Sie den **[!UICONTROL Ressourcentyp]aus, den Sie segmentieren möchten:**
+1. Wählen Sie den **[!UICONTROL Ressourcentyp]** aus, den Sie segmentieren möchten:
 
-   * **[!UICONTROL Datenbank-Ressource]**, wenn sich die Segmentierung auf bereits in der Datenbank existierende Daten bezieht. Wählen Sie die **[!UICONTROL Filterdimension]entsprechend den Daten aus, die Sie segmentieren möchten.** Standardmäßig bezieht sich die Segmentierung auf **Profile**.
-   * **[!UICONTROL Temporäre Ressource]**, wenn sich die Segmentierung auf temporäre Daten des Workflows bezieht: Wählen Sie die **[!UICONTROL Zielmenge]mit den zu segmentierenden Daten aus.** Dieser Fall kann im Anschluss an einen Dateiimport auftreten oder wenn die Daten der Datenbank angereichert wurden.
+   * **[!UICONTROL Datenbank-Ressource]**, wenn sich die Segmentierung auf bereits in der Datenbank existierende Daten bezieht. Wählen Sie die **[!UICONTROL Filterdimension]** entsprechend den Daten aus, die Sie segmentieren möchten. Standardmäßig bezieht sich die Segmentierung auf **Profile**.
+   * **[!UICONTROL Temporäre Ressource]**, wenn sich die Segmentierung auf temporäre Daten des Workflows bezieht: Wählen Sie die **[!UICONTROL Zielmenge]** mit den zu segmentierenden Daten aus. Dieser Fall kann im Anschluss an einen Dateiimport auftreten oder wenn die Daten der Datenbank angereichert wurden.
 
 1. Wählen Sie den gewünschten Typ der ausgehenden Transition aus:
 
    * **[!UICONTROL Pro Segment eine Transition erzeugen]**: Am Ende der Aktivität wird für jedes konfigurierte Segment eine ausgehende Transition hinzugefügt.
    * **[!UICONTROL Alle Segmente in derselben Transition erzeugen]**: Alle konfigurierten Segmente werden in ein und derselben ausgehenden Transition zusammengefasst. Geben Sie den Titel der Transition an. Die Mitglieder jedes Segments behalten den Segmentcode, der Ihnen zugewiesen worden ist.
 
-1. Fügen Sie mithilfe der Schaltflächen ![](assets/add_darkgrey-24px.png) oder **Element hinzufügen]ein Segment hinzu und geben Sie dessen allgemeine Eigenschaften an:[!UICONTROL **
+1. Fügen Sie mithilfe der Schaltflächen ![](assets/add_darkgrey-24px.png) oder **[!UICONTROL Element hinzufügen]** ein Segment hinzu und geben Sie dessen allgemeine Eigenschaften an:
 
    * **[!UICONTROL Aktivieren Sie die Transition nicht, wenn die Population leer ist]**: Das Segment wird nur aktiviert, wenn Daten abgerufen werden.
    * **[!UICONTROL Ursprüngliche Population filtern (Abfrage)]**: ermöglicht das Filtern der Population des Segments.
@@ -58,21 +56,21 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
    * **[!UICONTROL Segment-Population filtern und begrenzen]**: Mithilfe dieser Funktion kann die Population des Segments gefiltert und in ihrer Größe begrenzt werden.
    * **[!UICONTROL Titel]**: Titel des Segments.
    * **[!UICONTROL Segmentcode]**: der Population des Segments zugewiesene Code. Der Segmentcode kann mit einem Standardausdruck und Ereignisvariablen personalisiert werden (siehe [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
-   * **[!UICONTROL Segment von der Population ausschließen]**: Hierdurch lässt sich das bestimmte Segment aus der Ausgabepopulation der Aktivität ausschließen. Diese Möglichkeit besteht nur, wenn die Option **[!UICONTROL Alle Segmente in derselben Transition erzeugen]ausgewählt wurde.**
+   * **[!UICONTROL Segment von der Population ausschließen]**: Hierdurch lässt sich das bestimmte Segment aus der Ausgabepopulation der Aktivität ausschließen. Diese Möglichkeit besteht nur, wenn die Option **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** ausgewählt wurde.
    ![](assets/wkf_segment_new_segment.png)
 
-1. Greifen Sie auf die Konfigurationsparameter zu, To do this, check the relevant box in the activity's segment list, then select ![](assets/wkf_segment_parameters_24px.png).
-1. Wenn Sie die Option zum Filtern der Ursprungspopulation angekreuzt haben, öffnen Sie den **[!UICONTROL Filter]-Tab und bestimmen Sie die Population Ihres Segments.** Die Filter basieren auf der in Etappe 4 ausgewählten Filterdimension. Weiterführende Informationen zum Filtern von Populationen finden Sie im Abschnitt [Abfrage-Bearbeitung](../../automating/using/editing-queries.md).
+1. Greifen Sie auf die Konfigurationsparameter zu, indem Sie in der Segmentliste der Aktivität das entsprechende Kästchen ankreuzen und mithilfe der Schaltfläche ![](assets/wkf_segment_parameters_24px.png) die Detailansicht öffnen.
+1. Wenn Sie die Option zum Filtern der Ursprungspopulation angekreuzt haben, öffnen Sie den **[!UICONTROL Filter]**-Tab und bestimmen Sie die Population Ihres Segments. Die Filter basieren auf der in Etappe 4 ausgewählten Filterdimension. Weiterführende Informationen zum Filtern von Populationen finden Sie im Abschnitt [Abfrage-Bearbeitung](../../automating/using/editing-queries.md).
 
    Wenn sich die Segmentierung auf eine temporäre Ressource bezieht, sind Zählung und Vorschau der Population in diesem Tab nicht verfügbar.
 
-1. Wenn Sie die Option zur Reduzierung der Segmentgröße angekreuzt haben, öffnen Sie den Tab **[!UICONTROL Begrenzung].**
+1. Wenn Sie die Option zur Reduzierung der Segmentgröße angekreuzt haben, öffnen Sie den Tab **[!UICONTROL Begrenzung]**.
 
-   Wählen Sie zunächst den **[!UICONTROL Begrenzungstyp]aus, den Sie anwenden möchten.**
+   Wählen Sie zunächst den **[!UICONTROL Begrenzungstyp]** aus, den Sie anwenden möchten.
 
-   * **[!UICONTROL Zufallsauswahl]**: Die Auswahl der Population des Segments ist willkürlich und berücksichtigt ggf. die im **[!UICONTROL Filter]-Tab vorgenommene Konfiguration.**
-   * **[!UICONTROL Geordnete Auswahl]**: Die Population des Segments wird sortiert und die ersten X Elemente werden ausgewählt. Sie müssen folglich die zu berücksichtigenden Spalten sowie die Art der anzuwendenden Sortierung definieren. Wenn Sie z. B. das Feld **Alter** als Sortierungsspalte wählen, dabei eine **[!UICONTROL Absteigende Sortierung]anwenden und anschließend 100 als Höchstgrenze festsetzen, werden lediglich die Profile der 100 ältesten Personen ausgewählt.**
-   Legen Sie anschließend die **[!UICONTROL maximale Größe]des Segments fest.**
+   * **[!UICONTROL Zufallsauswahl]**: Die Auswahl der Population des Segments ist willkürlich und berücksichtigt ggf. die im **[!UICONTROL Filter]**-Tab vorgenommene Konfiguration.
+   * **[!UICONTROL Geordnete Auswahl]**: Die Population des Segments wird sortiert und die ersten X Elemente werden ausgewählt. Sie müssen folglich die zu berücksichtigenden Spalten sowie die Art der anzuwendenden Sortierung definieren. Wenn Sie z. B. das Feld **Alter** als Sortierungsspalte wählen, dabei eine **[!UICONTROL Absteigende Sortierung]** anwenden und anschließend 100 als Höchstgrenze festsetzen, werden lediglich die Profile der 100 ältesten Personen ausgewählt.
+   Legen Sie anschließend die **[!UICONTROL maximale Größe]** des Segments fest.
 
    * **[!UICONTROL Größe (in % der Ursprungspopulation)]**: Bestimmen Sie mithilfe eines Prozentsatzes der Ursprungspopulation der Aktivität die Größe des Segments.
    * **[!UICONTROL Maximale Größe]**: Bestimmen Sie eine maximale Anzahl an Mitgliedern für die Segmentpopulation.
@@ -81,16 +79,16 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
 
       >[!NOTE]
       >
-      >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]auf 10, die Population mit dem Geschlecht** Weiblich] auf 30 Personen begrenzen. **[!UICONTROL ** Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
+      >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]** auf 10, die Population mit dem Geschlecht **[!UICONTROL Weiblich]** auf 30 Personen begrenzen. Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validieren Sie die Konfiguration Ihres Segments.
 1. Fügen Sie so viele Segmente wie nötig hinzu, indem Sie die Etappen 6 bis 10 dieser Prozedur erneut durchlaufen.
-1. Passen Sie bei Bedarf die Parameter des **[!UICONTROL Erweiterte Optionen]-Tabs der Aktivität an:**
+1. Passen Sie bei Bedarf die Parameter des **[!UICONTROL Erweiterte Optionen]**-Tabs der Aktivität an:
 
-   * Aktivieren Sie die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen], wenn Ihnen an der Möglichkeit liegt, dass ein Mitglied der Eingangspopulation mehreren Segmenten angehören kann.** Die Ausgabepopulation der Aktivität kann in diesem Fall die Eingangspopulation übersteigen.
-   * Aktivieren Sie die Option **[!UICONTROL Alle Segmentcodes konkatenieren], wenn die Eingangspopulation bereits über einen Segmentcode verfügt und Sie diesen beibehalten möchten.** Der innerhalb der Aktivität zugewiesene Segmentcode wird dem ursprünglichen Segmentcode hinzugefügt.
-   * Aktivieren Sie die Option **[!UICONTROL Komplement erzeugen], wenn Sie die verbleibende Population nutzen möchten.**
+   * Aktivieren Sie die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]**, wenn Ihnen an der Möglichkeit liegt, dass ein Mitglied der Eingangspopulation mehreren Segmenten angehören kann. Die Ausgabepopulation der Aktivität kann in diesem Fall die Eingangspopulation übersteigen.
+   * Aktivieren Sie die Option **[!UICONTROL Alle Segmentcodes konkatenieren]**, wenn die Eingangspopulation bereits über einen Segmentcode verfügt und Sie diesen beibehalten möchten. Der innerhalb der Aktivität zugewiesene Segmentcode wird dem ursprünglichen Segmentcode hinzugefügt.
+   * Aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population nutzen möchten.
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
@@ -102,9 +100,9 @@ Das folgende Beispiel zeigt eine auf der Altersklasse beruhende Segmentierung vo
 
 Der Workflow ist wie folgt gestaltet:
 
-* Mittels einer **[!UICONTROL Planung]-Aktivität wird das Ausführungsdatum des Workflows bestimmt.** Siehe Abschnitt [Planung](../../automating/using/scheduler.md).
-* Mittels einer **[!UICONTROL Abfrage]-Aktivität werden Profile ausgewählt, in denen Geburtsdatum und E-Mail-Adresse angegeben sind.** Siehe Abschnitt [Abfrage](../../automating/using/query.md).
-* Mittels einer **[!UICONTROL Segmentierung]werden drei auf verschiedene ausgehende Transitionen verteilte Segmente erstellt: 18-25 Jahre, 26-32 Jahre und älter als 32 Jahre.** Die Auswahl der in den jeweiligen Segmenten enthaltenen Profile geschieht wie folgt:
+* Mittels einer **[!UICONTROL Planung]**-Aktivität wird das Ausführungsdatum des Workflows bestimmt. Siehe Abschnitt [Planung](../../automating/using/scheduler.md).
+* Mittels einer **[!UICONTROL Abfrage]**-Aktivität werden Profile ausgewählt, in denen Geburtsdatum und E-Mail-Adresse angegeben sind. Siehe Abschnitt [Abfrage](../../automating/using/query.md).
+* Mittels einer **[!UICONTROL Segmentierung]** werden drei auf verschiedene ausgehende Transitionen verteilte Segmente erstellt: 18-25 Jahre, 26-32 Jahre und älter als 32 Jahre. Die Auswahl der in den jeweiligen Segmenten enthaltenen Profile geschieht wie folgt:
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -112,9 +110,9 @@ Der Workflow ist wie folgt gestaltet:
 
       ![](assets/wkf_segment_new_segment.png)
 
-   * Begrenzung der Segmentgröße durch eine **[!UICONTROL Zufallsauswahl]**, die mit der Beschränkung **Maximale Größe]von 100 einhergeht.[!UICONTROL **
+   * Begrenzung der Segmentgröße durch eine **[!UICONTROL Zufallsauswahl]**, die mit der Beschränkung **[!UICONTROL Maximale Größe]** von 100 einhergeht.
 
       ![](assets/wkf_segment_example_1.png)
 
-* Mittels der an die ausgehenden Transitionen angeschlossenen **[!UICONTROL E-Mail-Versand]-Aktivitäten lässt sich für jedes Segment ein spezifischer Inhalt erstellen.** Lesen Sie diesbezüglich auch den Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
+* Mittels der an die ausgehenden Transitionen angeschlossenen **[!UICONTROL E-Mail-Versand]**-Aktivitäten lässt sich für jedes Segment ein spezifischer Inhalt erstellen. Lesen Sie diesbezüglich auch den Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
 
