@@ -1,8 +1,6 @@
 ---
 title: Zielgruppendaten
-seo-title: Zielgruppendaten
-description: Zielgruppendaten
-seo-description: Hier erhalten Sie Informationen darüber, wie Sie die gewünschten Daten abfragen und auswählen können.
+description: Hier erhalten Sie Informationen darüber, wie Sie die gewünschten Daten abfragen und auswählen können.
 page-status-flag: never-activated
 uuid: 0645d6e5-6a7e-4917-874a-7e7725f06abd
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 382ea74e-1662-4c64-96d7-676040586913
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
