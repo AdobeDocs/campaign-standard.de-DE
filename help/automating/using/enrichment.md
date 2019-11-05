@@ -1,8 +1,6 @@
 ---
 title: Anreicherung
-seo-title: Anreicherung
-description: Anreicherung
-seo-description: Die Anreicherungsaktivität ist eine erweiterte Aktivität, mit der Zusatzdaten definierte werden können, die in Ihrem Workflow verarbeitet werden.
+description: Die Anreicherungsaktivität ist eine erweiterte Aktivität, mit der Zusatzdaten definierte werden können, die in Ihrem Workflow verarbeitet werden.
 page-status-flag: never-activated
 uuid: 8c1693ef-1312-422c-b05d-263553113f8f
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -140,5 +138,5 @@ Der Workflow setzt sich aus folgenden Aktivitäten zusammen:
 
 **Verwandtes Thema:**
 
-* [Kundenprofile mit externen Daten anreichern](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [Kundenprofile mit externen Daten verbessern](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 
