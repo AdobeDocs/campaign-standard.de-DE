@@ -1,8 +1,6 @@
 ---
 title: Dynamische und personalisierte Inhalte
-seo-title: Dynamische und personalisierte Inhalte
-description: Dynamische und personalisierte Inhalte
-seo-description: In Adobe Campaign können Sie mit Ihren Kundeneinstellungen und Daten personalisierte Kampagnen per E-Mail, SMS, Push-Benachrichtigung, In-App-Nachrichten oder Briefpost durchführen.
+description: In Adobe Campaign können Sie mit Ihren Kundeneinstellungen und Daten personalisierte Kampagnen per E-Mail, SMS, Push-Benachrichtigung, In-App-Nachrichten oder Briefpost durchführen.
 page-status-flag: never-activated
 uuid: a36a581e-25d4-426d-865a-c646519c961d
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
