@@ -1,8 +1,6 @@
 ---
 title: Klicks
-seo-title: Klicks
-description: Klicks
-seo-description: Im vordefinierten Bericht über Klicks erfahren Sie, welche Links Ihre Kunden im Versand angeklickt haben.
+description: Im vordefinierten Bericht über Klicks erfahren Sie, welche Links Ihre Kunden im Versand angeklickt haben.
 page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
