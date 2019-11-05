@@ -1,8 +1,6 @@
 ---
 title: Abonnement eines Dienstes bestätigen
-seo-title: Abonnement eines Dienstes bestätigen
-description: Abonnement eines Dienstes bestätigen
-seo-description: Führen Sie die folgenden Schritte aus, um eine Bestätigungsmeldung für Profile einzurichten, die einen Dienst in Adobe Campaign abonnieren.
+description: Führen Sie die folgenden Schritte aus, um eine Bestätigungsmeldung für Profile einzurichten, die einen Dienst in Adobe Campaign abonnieren.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -198,4 +196,4 @@ Jedes Mal, wenn ein Profil Ihren Newsletter abonniert, indem er die Einstiegssei
 
 >[!NOTE]
 >
->Eine Nachricht wird jedes Mal gesendet, wenn die Einstiegsseite gesendet wird, auch wenn das Profil bereits abonniert ist.
+>Eine Nachricht wird jedes Mal gesendet, wenn die Einstiegsseite gesendet wird, auch wenn das Profil bereits abonniert ist
