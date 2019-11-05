@@ -1,8 +1,6 @@
 ---
 title: Über Briefpost
-seo-title: Über Briefpost
-description: Über Briefpost
-seo-description: Hier erhalten Sie die wichtigsten Informationen zum Briefpost-Kanal in Adobe Campaign.
+description: Hier erhalten Sie die wichtigsten Informationen zum Briefpost-Kanal in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
