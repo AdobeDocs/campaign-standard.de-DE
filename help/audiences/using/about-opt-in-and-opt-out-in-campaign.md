@@ -1,8 +1,6 @@
 ---
 title: Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign
-seo-title: Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign
-description: Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign
-seo-description: Wird ein Profil durch Opt-out auf die Blacklist gesetzt, werden keinerlei Nachrichten mehr an dieses gesendet, auch nicht über einzelne Kanäle.
+description: Wird ein Profil durch Opt-out auf die Blacklist gesetzt, werden keinerlei Nachrichten mehr an dieses gesendet, auch nicht über einzelne Kanäle.
 page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
