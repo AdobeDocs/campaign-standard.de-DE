@@ -1,8 +1,6 @@
 ---
 title: Über Profile
-seo-title: Über Profile
-description: Über Profile
-seo-description: Kontakte werden als Profile in der Campaign-Datenbank gespeichert und während ihres gesamten Lebenszyklus aktualisiert.
+description: Kontakte werden als Profile in der Campaign-Datenbank gespeichert und während ihres gesamten Lebenszyklus aktualisiert.
 page-status-flag: never-activated
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
