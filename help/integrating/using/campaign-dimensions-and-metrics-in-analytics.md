@@ -1,20 +1,18 @@
 ---
 title: Campaign-Dimensionen und -Metriken in Analytics
-seo-title: Campaign-Dimensionen und -Metriken in Analytics
-description: Campaign-Dimensionen und -Metriken in Analytics
-seo-description: Hier erhalten Sie Informationen über die in Adobe Analytics verfügbaren Dimensionen, mit denen Ihre E-Mail-Sendungen in Adobe Campaign verfolgt werden können.
-page-status-flag: nie aktiviert
-uuid: effa 1028-66 b 2-4 bef-b 5 e 4-7319 dbb 23 d 5 d
+description: Hier erhalten Sie Informationen über die in Adobe Analytics verfügbaren Dimensionen, mit denen Ihre E-Mail-Sendungen in Adobe Campaign verfolgt werden können.
+page-status-flag: never-activated
+uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird integriert
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-analytics
-discoiquuid: eb 3639 f 5-7246-46 c 4-8 ddb-da 9413 b 40 c 32
+discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -23,7 +21,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 Durch die Integration mit Adobe Analytics in Adobe Campaign können Sie jetzt die Wirkung Ihrer E-Mail-Sendungen direkt in Adobe Analytics verfolgen.
 
-Unten finden Sie die in Analytics verfügbaren **[!UICONTROL Campaign-Dimensionen]:**
+Unten finden Sie die in Analytics verfügbaren **[!UICONTROL Campaign-Dimensionen]**:
 
 <table> 
  <thead> 
@@ -60,7 +58,7 @@ Unten finden Sie die in Analytics verfügbaren **[!UICONTROL Campaign-Dimensione
  </tbody> 
 </table>
 
-Unten finden Sie die in Analytics verfügbaren **[!UICONTROL Campaign-Metriken]:**
+Unten finden Sie die in Analytics verfügbaren **[!UICONTROL Campaign-Metriken]**:
 
 <table> 
  <thead> 
