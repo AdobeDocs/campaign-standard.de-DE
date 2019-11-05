@@ -1,27 +1,25 @@
 ---
 title: Änderungen an Datenmodellen verfolgen
-seo-title: Änderungen an Datenmodellen verfolgen
-description: Änderungen an Datenmodellen verfolgen
-seo-description: Hier erfahren Sie, wie Sie eine Diagnose des Adobe-Campaign-Datenmodells erstellen können.
-page-status-flag: nie aktiviert
-uuid: 994 f 1 e 5-107 d -4348-a 197-87 a 95853 fca 6
+description: Hier erfahren Sie, wie Sie eine Diagnose des Adobe-Campaign-Datenmodells erstellen können.
+page-status-flag: never-activated
+uuid: 994f1e85-107d-4348-a197-87a95853fca6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird entwickelt
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: c 6375 a 92-339 f -4123-bc 69-b 0 da 1 tauf 777
+discoiquuid: c6375a92-339f-4123-bc69-b0da1deaf577
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # Änderungen an Datenmodellen verfolgen{#monitoring-data-model-changes}
 
-Das Menü **[!UICONTROL Monitoring]erlaubt den Zugriff auf verschiedene, von der Anwendung erzeugte technische Objekte und deren Analyse.**
+Das Menü **[!UICONTROL Monitoring]** erlaubt den Zugriff auf verschiedene, von der Anwendung erzeugte technische Objekte und deren Analyse.
 
 >[!NOTE]
 >
