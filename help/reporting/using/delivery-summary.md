@@ -1,28 +1,26 @@
 ---
 title: Versandzusammenfassung
-seo-title: Versandzusammenfassung
-description: Versandzusammenfassung
-seo-description: Im vordefinierten Bericht über die Versandzusammenfassung finden Sie Ihre Versandstatistiken, wie etwa die Anzahl der gesendeten Nachrichten, Bounces und Öffnungen.
-page-status-flag: nie aktiviert
-uuid: 9 f 64 a 430-8 fee -4 c 4 c -96 e 6-2913 f 4 d 6 b 831
+description: Im vordefinierten Bericht über die Versandzusammenfassung finden Sie Ihre Versandstatistiken, wie etwa die Anzahl der gesendeten Nachrichten, Bounces und Öffnungen.
+page-status-flag: never-activated
+uuid: 9f64a430-8fee-4c4c-96e6-2913f4d6b831
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: Berichterstellung
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 536067 df-d 16 d -472 a -850 a -5 fb 7 c 609 d 60 a
-context-tags: Deliverycirculationreport, main; Campaigncirculationreport, main; Programcirculationreport, main
+discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
+context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # Versandzusammenfassung{#delivery-summary}
 
-Der Bericht **[!UICONTROL Versandzusammenfassung]bietet einen Überblick über die wichtigsten Informationen zu einer oder mehreren E-Mails.**
+Der Bericht **[!UICONTROL Versandzusammenfassung]** bietet einen Überblick über die wichtigsten Informationen zu einer oder mehreren E-Mails.
 
 ![](assets/campaign_reports_1.png)
 
