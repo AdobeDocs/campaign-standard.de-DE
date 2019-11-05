@@ -1,8 +1,6 @@
 ---
 title: Über Zielgruppenbestimmungsaktivitäten
-seo-title: Über Zielgruppenbestimmungsaktivitäten
-description: Über Zielgruppenbestimmungsaktivitäten
-seo-description: Die Zielgruppenbestimmungsaktivitäten können über die linke Bildschirmseite geöffnet werden.
+description: Die Zielgruppenbestimmungsaktivitäten können über die linke Bildschirmseite geöffnet werden.
 page-status-flag: never-activated
 uuid: a6cbc431-1ae3-428e-b2c9-893454b32ae2
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: targeting-activities
 discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
