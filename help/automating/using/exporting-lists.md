@@ -1,8 +1,6 @@
 ---
 title: Listenexport
-seo-title: Listenexport
-description: Listenexport
-seo-description: 'In Adobe Campaign lassen sich die als Listen dargestellten Daten direkt von einem Übersichtsbildschirm in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. '
+description: 'In Adobe Campaign lassen sich die als Listen dargestellten Daten direkt von einem Übersichtsbildschirm in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. '
 page-status-flag: never-activated
 uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -77,5 +75,5 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
-* Video [Configuring list](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
+* Video [Configuring list](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
 
