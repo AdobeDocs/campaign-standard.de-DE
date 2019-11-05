@@ -1,8 +1,6 @@
 ---
 title: Über die Inhaltserstellung für SMS und Push-Benachrichtigungen
-seo-title: Über die Inhaltserstellung für SMS und Push-Benachrichtigungen
-description: Über die Inhaltserstellung für SMS und Push-Benachrichtigungen
-seo-description: Hier erhalten Sie Informationen zum Editor, mit dem Sie den Inhalt von SMS und Push-Benachrichtigungen in Adobe Campaign ändern können.
+description: Hier erhalten Sie Informationen zum Editor, mit dem Sie den Inhalt von SMS und Push-Benachrichtigungen in Adobe Campaign ändern können.
 page-status-flag: never-activated
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
