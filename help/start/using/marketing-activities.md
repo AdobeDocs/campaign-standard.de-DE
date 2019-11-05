@@ -1,8 +1,6 @@
 ---
 title: Marketingaktivitäten
-seo-title: Marketingaktivitäten
-description: Marketingaktivitäten
-seo-description: '"Hier erfahren Sie, wie Sie Ihre Marketing-Aktivitäten erstellen und verwalten können. Dazu zählen Kampagnen, Sendungen von E-Mails, SMS und Push-Benachrichtigungen sowie Landingpages und Workflows. Sie können einfach eine neue Aktivität erstellen, eine vorhandene bearbeiten und deren Status und Gültigkeit einsehen."'
+description: '"Hier erfahren Sie, wie Sie Ihre Marketing-Aktivitäten erstellen und verwalten können. Dazu zählen Kampagnen, Sendungen von E-Mails, SMS und Push-Benachrichtigungen sowie Landingpages und Workflows. Sie können einfach eine neue Aktivität erstellen, eine vorhandene bearbeiten und deren Status und Gültigkeit einsehen."'
 page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
