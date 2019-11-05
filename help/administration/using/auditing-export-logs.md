@@ -1,8 +1,6 @@
 ---
 title: Log-Exporte überprüfen
-seo-title: Log-Exporte überprüfen
-description: Log-Exporte überprüfen
-seo-description: Administratoren können die aus Adobe Campaign vorgenommenen Exporte verfolgen.
+description: Administratoren können die aus Adobe Campaign vorgenommenen Exporte verfolgen.
 page-status-flag: never-activated
 uuid: 2a93485e-f6b9-4b01-b3a1-c91f2739d188
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: users-and-security
 discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
