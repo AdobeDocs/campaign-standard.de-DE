@@ -1,8 +1,6 @@
 ---
 title: Versandzeitpunkt optimieren
-seo-title: Versandzeitpunkt optimieren
-description: Versandzeitpunkt optimieren
-seo-description: Hier erfahren Sie, wie Sie den Versandzeitpunkt festlegen und die Öffnungsrate Ihrer Nachrichten verbessern.
+description: Hier erfahren Sie, wie Sie den Versandzeitpunkt festlegen und die Öffnungsrate Ihrer Nachrichten verbessern.
 page-status-flag: never-activated
 uuid: c2c13934-9819-4e18-b5c7-60915c907f37
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: sheduling-messages
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
