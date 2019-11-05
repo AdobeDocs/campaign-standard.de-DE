@@ -1,8 +1,6 @@
 ---
 title: Workflow mit externen Parametern aufrufen
-seo-title: Workflow mit externen Parametern aufrufen
-description: Workflow mit externen Parametern aufrufen
-seo-description: In diesem Abschnitt wird beschrieben, wie ein Workflow mi externen Parametern aufgerufen wird.
+description: In diesem Abschnitt wird beschrieben, wie ein Workflow mi externen Parametern aufgerufen wird.
 page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
