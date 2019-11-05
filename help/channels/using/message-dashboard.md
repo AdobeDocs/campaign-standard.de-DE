@@ -1,8 +1,6 @@
 ---
 title: Nachrichten-Dashboards
-seo-title: Nachrichten-Dashboards
-description: Nachrichten-Dashboards
-seo-description: Hier erfahren Sie, woraus das Nachrichten-Dashboard besteht, einschließlich der Symbolleiste und der unterschiedlichen Kacheln.
+description: Hier erfahren Sie, woraus das Nachrichten-Dashboard besteht, einschließlich der Symbolleiste und der unterschiedlichen Kacheln.
 page-status-flag: never-activated
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
