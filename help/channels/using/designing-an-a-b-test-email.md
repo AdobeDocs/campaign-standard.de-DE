@@ -1,8 +1,6 @@
 ---
 title: A/B-Tests durchführen
-seo-title: A/B-Tests durchführen
-description: A/B-Tests durchführen
-seo-description: Hier erhalten Sie Informationen über A/B-Tests. Führen Sie diese Schritte aus, um ausgehend von einem A/B-Test in Adobe Campaign eine E-Mail zu erstellen.
+description: Hier erhalten Sie Informationen über A/B-Tests. Führen Sie diese Schritte aus, um ausgehend von einem A/B-Test in Adobe Campaign eine E-Mail zu erstellen.
 page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -89,7 +87,7 @@ Ihre E-Mail ist jetzt definiert und kann gesendet werden. Sie können Protokolle
 
 **Verwandtes Thema**:
 
-Video [Creating an email](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+[E-Mails erstellen](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
 
 ## Über A/B-Test-Indikatoren {#about-a-b-test-indicators}
 
