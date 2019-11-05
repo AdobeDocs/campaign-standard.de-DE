@@ -1,8 +1,6 @@
 ---
 title: Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten
-seo-title: Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten
-description: Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten
-seo-description: Erfahren Sie, wie Sie Profilinformationen auf Basis der von einer Mobile App erfassten Daten erstellen und aktualisieren.
+description: Erfahren Sie, wie Sie Profilinformationen auf Basis der von einer Mobile App erfassten Daten erstellen und aktualisieren.
 page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: lemaitre
@@ -14,8 +12,8 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 64c7de127285ca56b6af398b0a0c3f1470756fe4
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -36,8 +34,8 @@ Ziel dieses Anwendungsfalls ist die Erstellung oder Aktualisierung eines Campaig
 Zur Aktivierung von Push-Benachrichtigungen in Campaign Standard müssen mehrere Konfigurationsschritte ausgeführt werden. Erst danach können Profile auf Basis der Abonnementdaten einer Mobile App erstellt oder aktualisiert werden:
 
 1. [Erstellen einer Mobile App](../../administration/using/configuring-a-mobile-application.md)
-1. [Integrieren des Adobe Mobile SDK mit der Mobile App](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
-1. [Konfigurieren von Adobe Campaign für das Senden von Push-Benachrichtigungen](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+1. [Integrieren Sie das Adobe Mobile SDK mit Ihrer mobilen Anwendung](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html).
+1. [Konfigurieren Sie Adobe Campaign, um Push-Benachrichtigungen](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)zu senden.
 
 ## Schritt 1: Erweitern der Profilressource für Push-Benachrichtigungen/Abonnements
 
