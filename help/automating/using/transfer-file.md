@@ -1,8 +1,6 @@
 ---
 title: Dateiübertragung
-seo-title: Dateiübertragung
-description: Dateiübertragung
-seo-description: Die Dateiübertragungsaktivität ermöglicht den Empfang und Versand von Dateien. Ferner können Sie damit die Präsenz von Dateien testen und die in Adobe Campaign vorhandenen Dateien auflisten.
+description: Die Dateiübertragungsaktivität ermöglicht den Empfang und Versand von Dateien. Ferner können Sie damit die Präsenz von Dateien testen und die in Adobe Campaign vorhandenen Dateien auflisten.
 page-status-flag: never-activated
 uuid: a2f18118-b681-4310-aee0-9e82179d2032
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4fe36a1747aca69e8857cf415593086781947a47
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
