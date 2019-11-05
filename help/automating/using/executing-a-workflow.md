@@ -1,8 +1,6 @@
 ---
 title: Workflow ausführen
-seo-title: Workflow ausführen
-description: Workflow ausführen
-seo-description: Hier erfahren Sie, wie Sie einen Workflow ausführen und überwachen können.
+description: Hier erfahren Sie, wie Sie einen Workflow ausführen und überwachen können.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
