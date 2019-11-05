@@ -1,8 +1,6 @@
 ---
 title: In-App-Bericht
-seo-title: In-App-Bericht
-description: In-App-Bericht
-seo-description: Im vordefinierten Bericht über In-App-Nachrichten erfahren Sie über die Wirkung Ihrer In-App-Nachrichten.
+description: Im vordefinierten Bericht über In-App-Nachrichten erfahren Sie über die Wirkung Ihrer In-App-Nachrichten.
 page-status-flag: never-activated
 uuid: 802dc606-a314-46dd-b361-b746b0772303
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
