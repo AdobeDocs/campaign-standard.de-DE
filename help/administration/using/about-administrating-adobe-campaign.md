@@ -1,8 +1,6 @@
 ---
 title: Über die Verwaltung von Adobe Campaign
-seo-title: Über die Verwaltung von Adobe Campaign
-description: Über die Verwaltung von Adobe Campaign
-seo-description: Adobe Campaign bietet Ihnen ein umfassendes Set von Tools zur Administration der Anwendung. Hier erfahren Sie, wie Sie Benutzer verwalten und Kanäle konfigurieren können.
+description: Adobe Campaign bietet Ihnen ein umfassendes Set von Tools zur Administration der Anwendung. Hier erfahren Sie, wie Sie Benutzer verwalten und Kanäle konfigurieren können.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -50,5 +48,5 @@ Folgende Menüs stehen zur Verfügung:
 * [Instanzenkonfiguration](../../administration/using/branding.md) - erlaubt die Definition verschiedener Marken und ihrer Parameter (Logo, Trackingverwaltung, Domain der Landingpage-URLs etc.).
 * [Freigabe](../../automating/using/managing-packages.md) - bietet Zugriff auf die Package-Exporte und -Importe.
 * [Kundenmetriken](../../audiences/using/active-profiles.md): Adobe Campaign erstellt einen Bericht, in dem die Anzahl der aktiven Profile dargestellt wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung.
-* [Datenschutz-Tools](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html): In diesem Menü können Sie einen DSGVO-konformen Zugriff erstellen sowie Abfragen löschen und ihre Entwicklung verfolgen.
+* [Datenschutz-Tools](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): In diesem Menü können Sie einen DSGVO-konformen Zugriff erstellen sowie Abfragen löschen und ihre Entwicklung verfolgen.
 
