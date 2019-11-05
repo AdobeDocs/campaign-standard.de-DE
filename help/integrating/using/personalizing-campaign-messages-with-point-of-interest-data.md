@@ -1,8 +1,6 @@
 ---
 title: Campaign-Nachrichten mit POI-Daten personalisieren
-seo-title: Campaign-Nachrichten mit POI-Daten personalisieren
-description: Campaign-Nachrichten mit POI-Daten personalisieren
-seo-description: Hier erfahren Sie, wie Sie durch die Integration von POI-Daten eine personalisierte Nachricht entsprechend dem Standort Ihrer Abonnenten erstellen.
+description: Hier erfahren Sie, wie Sie durch die Integration von POI-Daten eine personalisierte Nachricht entsprechend dem Standort Ihrer Abonnenten erstellen.
 page-status-flag: never-activated
 uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
