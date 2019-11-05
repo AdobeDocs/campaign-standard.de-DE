@@ -1,8 +1,6 @@
 ---
 title: Über Adobe Experience Cloud Triggers
-seo-title: Über Adobe Experience Cloud Triggers
-description: Über Adobe Experience Cloud Triggers
-seo-description: Durch das Verfolgen bestimmter Verhaltensmuster Ihrer Kunden durch Adobe Analytics können Sie ihnen personalisierte E-Mails in Adobe Campaign senden.
+description: Durch das Verfolgen bestimmter Verhaltensmuster Ihrer Kunden durch Adobe Analytics können Sie ihnen personalisierte E-Mails in Adobe Campaign senden.
 page-status-flag: never-activated
 uuid: 0aa4bd6e-1bb5-4d0b-913b-eca93f050acd
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ In Adobe Campaign werden der zuvor erstellte Trigger ausgewählt, die Ereignisda
 
 **Verwandte Themen:**
 
-* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zur Adobe Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/triggers.html).
+* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zur Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html).
 * Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) an.
 * Erfahren Sie mehr in unseren zwei [Anwendungsbeispielen zur Abbruchsauslösung](../../integrating/using/abandonment-triggers-use-cases.md).
 
