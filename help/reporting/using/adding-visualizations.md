@@ -1,8 +1,6 @@
 ---
 title: Visualisierungen hinzufügen
-seo-title: Visualisierungen hinzufügen
-description: Visualisierungen hinzufügen
-seo-description: Dynamische Berichte bieten mehrere Möglichkeiten von Visualisierungen, mit denen eine grafische Darstellung zu Ihrem Bericht hinzugefügt werden kann.
+description: Dynamische Berichte bieten mehrere Möglichkeiten von Visualisierungen, mit denen eine grafische Darstellung zu Ihrem Bericht hinzugefügt werden kann.
 page-status-flag: never-activated
 uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: customizing-reports
 discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
