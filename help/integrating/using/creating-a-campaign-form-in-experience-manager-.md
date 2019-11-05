@@ -1,8 +1,6 @@
 ---
 title: 'Campaign-Formular in Adobe Experience Manager erstellen '
-seo-title: 'Campaign-Formular in Adobe Experience Manager erstellen '
-description: 'Campaign-Formular in Adobe Experience Manager erstellen '
-seo-description: Durch die Integration von Adobe Experience Manager können Sie Formulare direkt in AEM einrichten, um Profile zu erstellen und zu aktualisieren oder Abonnements zu verwalten.
+description: Durch die Integration von Adobe Experience Manager können Sie Formulare direkt in AEM einrichten, um Profile zu erstellen und zu aktualisieren oder Abonnements zu verwalten.
 page-status-flag: never-activated
 uuid: 43057f81-d47d-4b96-b150-217c289cd608
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 4a8b5807-87dd-4db4-bd67-890f0adae932
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -42,4 +40,4 @@ Gehen Sie zur Erstellung eines Adobe Campaign-Formulars auf Ihrer AEM-Seite wie
 1. Bearbeiten Sie den Formularinhalt, indem Sie verschiedene Felder und Komponenten hinzufügen, die Sie den Feldern der Adobe-Campaign-Datenbank zuordnen können.
 1. Testen und publizieren Sie das Formular, damit sich über Ihre AEM-Seite darauf zugreifen lässt.
 
-Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](https://helpx.adobe.com/de/experience-manager/6-2/sites/authoring/using/adobe-campaign-forms.html).
+Weitere Informationen finden Sie im [entsprechenden Handbuch](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/adobe-campaign-forms.html).
