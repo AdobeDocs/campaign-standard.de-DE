@@ -1,8 +1,6 @@
 ---
 title: Landingpage erstellen
-seo-title: Landingpage erstellen
-description: Landingpage erstellen
-seo-description: Mit diesen Schritten können Sie den Inhalt einer Landingpage erstellen und mit einem Dienst verknüpfen.
+description: Mit diesen Schritten können Sie den Inhalt einer Landingpage erstellen und mit einem Dienst verknüpfen.
 page-status-flag: never-activated
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
