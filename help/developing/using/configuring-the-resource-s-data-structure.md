@@ -1,8 +1,6 @@
 ---
 title: Datenstruktur der Ressource konfigurieren
-seo-title: Datenstruktur der Ressource konfigurieren
-description: Datenstruktur der Ressource konfigurieren
-seo-description: Hier erfahren Sie, wie Sie die Datenstruktur konfigurieren.
+description: Hier erfahren Sie, wie Sie die Datenstruktur konfigurieren.
 page-status-flag: never-activated
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
