@@ -1,21 +1,19 @@
 ---
 title: Bildschirmdefinition konfigurieren
-seo-title: Bildschirmdefinition konfigurieren
-description: Bildschirmdefinition konfigurieren
-seo-description: Hier erfahren Sie, wie Sie auf der Basis der Ressource-Datenstruktur neue Adobe-Campaign-Bildschirme definieren.
-page-status-flag: nie aktiviert
-uuid: 40848197-b 1 a 0-4018-bfc 3-7 df 64 fb 33307
+description: Hier erfahren Sie, wie Sie auf der Basis der Ressource-Datenstruktur neue Adobe-Campaign-Bildschirme definieren.
+page-status-flag: never-activated
+uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: wird entwickelt
-content-type: Referenz
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 9 dabb 328-ac 0 c -49 fd -8996-8 d 56341 ee 7 ac
-context-tags: Cusresource, main
+discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
+context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b3291f7c0cbede6a3180ad4a4ab8a365720f5031
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,51 +24,51 @@ Bei der Erstellung einer Ressource oder beim Hinzufügen neuer Felder zu einer e
 
 Dieser Schritt ist nicht zwingend erforderlich, da dennoch Daten in Ihre Ressource geladen werden können und Sie darauf über Workflows, Audiences und REST-API zugreifen können.
 
-Im Tab **[!UICONTROL Bildschirmdefinition]haben Sie folgende Möglichkeiten:**
+Im Tab **[!UICONTROL Bildschirmdefinition]** haben Sie folgende Möglichkeiten:
 
 * Hinzufügung eines Eintrags im Navigationsmenü, um Zugriff auf die benutzerdefinierte Ressource zu geben;
 * Anpassung der Anzeige der Liste mit den einzelnen Elementen der benutzerdefinierten Ressource;
 * Konfiguration des Detailbildschirms der einzelnen Elemente der Ressource.
 
-## Zugriff vom Navigationsmenü aus einrichten {#enabling-access-from-the-navigation-menu}
+## Zugriff vom Navigationsmenü aus einrichten  {#enabling-access-from-the-navigation-menu}
 
 Wenn Sie für Ihre Ressource einen eigenen Bildschirm einrichten möchten, können Sie einen vom Navigationsmenü aus verfügbar machen.
 
-1. Öffnen Sie im Tab **[!UICONTROL Bildschirmdefinition]** der Ressource den Bereich **Navigation[!UICONTROL .]**
-1. Aktivieren Sie die Option **[!UICONTROL Eintrag im Abschnitt 'Benutzerdefinierte Daten' hinzufügen], wenn Sie den Zugriff auf die Ressource im Navigationsmenü ermöglichen möchten.**
+1. Öffnen Sie im Tab **[!UICONTROL Bildschirmdefinition]** der Ressource den Bereich **[!UICONTROL Navigation]**.
+1. Aktivieren Sie die Option **[!UICONTROL Eintrag im Abschnitt 'Benutzerdefinierte Daten' hinzufügen]**, wenn Sie den Zugriff auf die Ressource im Navigationsmenü ermöglichen möchten.
 
    ![](assets/schema_extension_19.png)
 
-Die Ressource erscheint dann als Untereintrag des Abschnitts **[!UICONTROL Benutzerdefinierte Daten].**
+Die Ressource erscheint dann als Untereintrag des Abschnitts **[!UICONTROL Benutzerdefinierte Daten]**.
 
 ## Standard-Listenkonfiguration definieren {#defining-the-default-list-configuration}
 
-Im Bereich **[!UICONTROL Listenkonfiguration]des Bildschirms können Sie die Spalten und Informationen definieren, die standardmäßig im Überblick einer Ressource dargestellt werden.**
+Im Bereich **[!UICONTROL Listenkonfiguration]** des Bildschirms können Sie die Spalten und Informationen definieren, die standardmäßig im Überblick einer Ressource dargestellt werden.
 
-1. Aktivieren Sie die Option **[!UICONTROL Listenkonfiguration anpassen], um die Anzeige der Spalten der Ressource zu definieren.**
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Element erstellen], um aus den zuvor erstellten Feldern die auszuwählen, die in der Liste angezeigt werden sollen.**
+1. Aktivieren Sie die Option **[!UICONTROL Listenkonfiguration anpassen]**, um die Anzeige der Spalten der Ressource zu definieren.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Element erstellen]**, um aus den zuvor erstellten Feldern die auszuwählen, die in der Liste angezeigt werden sollen.
 1. Die hinzugefügten Felder erscheinen in der Liste. Spaltentitel und -breite können angepasst werden.
 
    ![](assets/schema_extension_20.png)
 
-1. Aktivieren Sie im Bereich **[!UICONTROL Einfache Suche]** die Option **Bei der Suche berücksichtigte Felder definieren], um die Felder anzugeben, die bei der Suche berücksichtigt werden sollen.[!UICONTROL **
+1. Aktivieren Sie im Bereich **[!UICONTROL Einfache Suche]** die Option **[!UICONTROL Bei der Suche berücksichtigte Felder definieren]**, um die Felder anzugeben, die bei der Suche berücksichtigt werden sollen.
 
    >[!CAUTION]
    >
    >Diese Konfiguration ersetzt die bei der Standardsuche berücksichtigten Felder.
 
-1. Aktivieren Sie im Bereich **[!UICONTROL Erweiterte Filter]** die Option **Felder zur Suche hinzufügen], um das einfache Suchfeld durch weitere Felder zu ergänzen.[!UICONTROL ** Wenn Sie beispielsweise das Feld "Datum" aus den zuvor erstellten Feldern auswählen, hat der Benutzer die Möglichkeit, die Datensätze ausschließlich nach dem Datum zu filtern.
+1. Aktivieren Sie im Bereich **[!UICONTROL Erweiterte Filter]** die Option **[!UICONTROL Felder zur Suche hinzufügen]**, um das einfache Suchfeld durch weitere Felder zu ergänzen. Wenn Sie beispielsweise das Feld "Datum" aus den zuvor erstellten Feldern auswählen, hat der Benutzer die Möglichkeit, die Datensätze ausschließlich nach dem Datum zu filtern.
 1. Die Reihenfolge der Felder kann für beide Suchoptionen angepasst werden.
-1. Bei der erweiterten Suche besteht die Möglichkeit, Felder vom Typ "Relation zu einer verknüpften Ressource" hinzuzufügen. Diese Filter erscheinen im Menü **[!UICONTROL Suche]des erzeugten Bildschirms.**
+1. Bei der erweiterten Suche besteht die Möglichkeit, Felder vom Typ "Relation zu einer verknüpften Ressource" hinzuzufügen. Diese Filter erscheinen im Menü **[!UICONTROL Suche]** des erzeugten Bildschirms.
 
 Der Übersichtsbildschirm der Ressource ist somit definiert.
 
-## Konfiguration des Detailbildschirms definieren {#defining-the-detail-screen-configuration}
+## Konfiguration des Detailbildschirms definieren  {#defining-the-detail-screen-configuration}
 
-In der Bildschirmdefinition können Sie im Bereich **[!UICONTROL Konfiguration des Detailbildschirms]die Spalten und Informationen definieren, die im Detailbildschirm eines jeden Elements der Ressource dargestellt werden sollen.**
+In der Bildschirmdefinition können Sie im Bereich **[!UICONTROL Konfiguration des Detailbildschirms]** die Spalten und Informationen definieren, die im Detailbildschirm eines jeden Elements der Ressource dargestellt werden sollen.
 
-1. Erweitern Sie den Bereich **[!UICONTROL Konfiguration des Detailbildschirms]** und aktivieren Sie die Option **Detailbildschirm definieren], um den Bildschirm entsprechend den Elementen der Ressource zu konfigurieren.[!UICONTROL ** Wenn Sie diese Option nicht aktivieren, steht für die Elemente der Ressource keine Detailansicht zur Verfügung.
-1. Sie haben die Möglichkeit, alle Felder Ihrer benutzerdefinierten Ressource durch die Verwendung einer einzigen Schaltfläche hinzuzufügen. Wählen Sie dazu das Symbol ![](assets/addallfieldsicon.png) oder die Schaltfläche **Element hinzufügen]aus.[!UICONTROL **
+1. Erweitern Sie den Bereich **[!UICONTROL Konfiguration des Detailbildschirms]** und aktivieren Sie die Option **[!UICONTROL Detailbildschirm definieren]**, um den Bildschirm entsprechend den Elementen der Ressource zu konfigurieren. Wenn Sie diese Option nicht aktivieren, steht für die Elemente der Ressource keine Detailansicht zur Verfügung.
+1. Sie haben die Möglichkeit, alle Felder Ihrer benutzerdefinierten Ressource durch die Verwendung einer einzigen Schaltfläche hinzuzufügen. Wählen Sie dazu das Symbol ![](assets/addallfieldsicon.png) oder die Schaltfläche **[!UICONTROL Element hinzufügen]** aus.
 1. Wählen Sie aus den für die Ressource erstellten Elementen eins aus und geben Sie den Feldtyp an:
 
    * **[!UICONTROL Eingabefeld]**: Es handelt sich um ein editierbares Feld.
@@ -83,7 +81,7 @@ In der Bildschirmdefinition können Sie im Bereich **[!UICONTROL Konfiguration d
 
    ![](assets/schema_extension_22.png)
 
-1. Sie können beliebig viele **[!UICONTROL Trennzeichen]hinzufügen, um Ihre Elemente in unterschiedliche Kategorien zu unterteilen.**
+1. Sie können beliebig viele **[!UICONTROL Trennzeichen]** hinzufügen, um Ihre Elemente in unterschiedliche Kategorien zu unterteilen.
 
    Damit können Sie Ihr Fenster übersichtlicher gestalten.
 
@@ -91,7 +89,7 @@ In der Bildschirmdefinition können Sie im Bereich **[!UICONTROL Konfiguration d
 
 Der Detailbildschirm der Ressource ist somit konfiguriert.
 
-## Aktionen zur Datenbearbeitung {#actions-on-data-section}
+## Aktionen zur Datenbearbeitung  {#actions-on-data-section}
 
 An dieser Stelle kann eine dedizierte Symbolleiste für den Bildschirm der benutzerdefinierten Ressource definiert werden. Dabei stehen drei Optionen zur Verfügung:
 
