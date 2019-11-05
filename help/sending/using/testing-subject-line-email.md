@@ -1,8 +1,6 @@
 ---
 title: Betreffzeile einer E-Mail testen
-seo-title: Betreffzeile einer E-Mail testen
-description: Betreffzeile einer E-Mail testen
-seo-description: Erfahren Sie, wie Sie die Betreffzeile einer E-Mail im Email Designer definieren.
+description: Erfahren Sie, wie Sie die Betreffzeile einer E-Mail im Email Designer definieren.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,13 +12,13 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 # Betreffzeile einer E-Mail testen {#testing-a-subject}
 
-To test your subject line, follow the steps below:
+Gehen Sie wie folgt vor, um die Betreffzeile zu testen:
 
 1. Erstellen Sie eine neue oder öffnen Sie eine bereits existierende E-Mail.
 1. Gehen Sie in den Inhalt und geben Sie den Betreff der E-Mail im entsprechenden Eingabefeld ein.
