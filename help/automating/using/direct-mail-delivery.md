@@ -1,8 +1,6 @@
 ---
 title: Briefpost-Versand
-seo-title: Briefpost-Versand
-description: Briefpost-Versand
-seo-description: Die Aktivität für den Briefpostversand ermöglicht den Versand von einmaligen oder wiederkehrenden Briefpostsendungen innerhalb eines Workflows.
+description: Die Aktivität für den Briefpostversand ermöglicht den Versand von einmaligen oder wiederkehrenden Briefpostsendungen innerhalb eines Workflows.
 page-status-flag: never-activated
 uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
