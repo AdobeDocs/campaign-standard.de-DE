@@ -1,8 +1,6 @@
 ---
 title: Integration von Campaign mit Target konfigurieren
-seo-title: Integration von Campaign mit Target konfigurieren
-description: Integration von Campaign mit Target konfigurieren
-seo-description: Hier erfahren Sie, wie Sie die Adobe-Target-Integration konfigurieren müssen, um dynamischen Inhalt in Adobe Campaign verwenden zu können.
+description: Hier erfahren Sie, wie Sie die Adobe-Target-Integration konfigurieren müssen, um dynamischen Inhalt in Adobe Campaign verwenden zu können.
 page-status-flag: never-activated
 uuid: 0df5701c-dc26-4c30-9af9-ebf92815d90c
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-campaign-and-target
 discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
