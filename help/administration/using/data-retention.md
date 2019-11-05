@@ -1,8 +1,6 @@
 ---
 title: Datenbeibehaltung
-seo-title: Datenbeibehaltung
-description: Datenbeibehaltung
-seo-description: null
+description: null
 page-status-flag: never-activated
 uuid: d90852b4-e9f3-4187-bbea-e748d16d1590
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: application-settings
 discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
