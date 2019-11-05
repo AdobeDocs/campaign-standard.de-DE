@@ -1,8 +1,6 @@
 ---
 title: Testprofile verwalten und Testsendungen durchführen
-seo-title: Testprofile verwalten und Testsendungen durchführen
-description: Testprofile verwalten und Testsendungen durchführen
-seo-description: Hier erfahren Sie, wie Sie Testprofile und Testsendungen verwalten.
+description: Hier erfahren Sie, wie Sie Testprofile und Testsendungen verwalten.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
