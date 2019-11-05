@@ -1,8 +1,6 @@
 ---
 title: Warnungen bei Zustellproblemen erhalten
-seo-title: Warnungen bei Zustellproblemen erhalten
-description: Warnungen bei Zustellproblemen erhalten
-seo-description: Hier erfahren Sie, wie Versandwarnungen verwendet werden.
+description: Hier erfahren Sie, wie Versandwarnungen verwendet werden.
 page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
