@@ -1,8 +1,6 @@
 ---
 title: Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen
-seo-title: Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen
-description: Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen
-seo-description: Hier erhalten Sie Informationen zur Verwendung der verschiedenen Bereiche des Editors bei der Bearbeitung des Inhalts Ihrer SMS-Nachrichten und Push-Benachrichtigungen.
+description: Hier erhalten Sie Informationen zur Verwendung der verschiedenen Bereiche des Editors bei der Bearbeitung des Inhalts Ihrer SMS-Nachrichten und Push-Benachrichtigungen.
 page-status-flag: never-activated
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
