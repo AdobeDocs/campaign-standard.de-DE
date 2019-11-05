@@ -1,8 +1,6 @@
 ---
 title: Package-Verwaltung
-seo-title: Package-Verwaltung
-description: Package-Verwaltung
-seo-description: Administratoren können Packages definieren, mit denen der Austausch von Ressourcen zwischen verschiedenen Adobe-Campaign-Instanzen über strukturierte XML-Dateien ermöglicht wird.
+description: Administratoren können Packages definieren, mit denen der Austausch von Ressourcen zwischen verschiedenen Adobe-Campaign-Instanzen über strukturierte XML-Dateien ermöglicht wird.
 page-status-flag: never-activated
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
