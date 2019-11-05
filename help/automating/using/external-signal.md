@@ -1,8 +1,6 @@
 ---
 title: Externes Signal
-seo-title: Externes Signal
-description: Externes Signal
-seo-description: Mit dieser Aktivität wird ein Workflow ausgelöst, wenn in einem anderen Workflow gewisse Bedingungen erfüllt werden.
+description: Mit dieser Aktivität wird ein Workflow ausgelöst, wenn in einem anderen Workflow gewisse Bedingungen erfüllt werden.
 page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
