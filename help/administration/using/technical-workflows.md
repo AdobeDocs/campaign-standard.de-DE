@@ -1,8 +1,6 @@
 ---
 title: Technische Workflows
-seo-title: Technische Workflows
-description: Technische Workflows
-seo-description: Technische Workflows sind vordefinierte Workflows für im Hintergrund ablaufende technische Prozesse in Adobe Campaign. Sie gewährleisten das korrekte Funktionieren der Plattform.
+description: Technische Workflows sind vordefinierte Workflows für im Hintergrund ablaufende technische Prozesse in Adobe Campaign. Sie gewährleisten das korrekte Funktionieren der Plattform.
 page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2541b6dadd005c74d6bb737a0e3692e63a5b85db
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
