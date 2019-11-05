@@ -1,8 +1,6 @@
 ---
 title: Mehrsprachige E-Mail erstellen
-seo-title: Mehrsprachige E-Mail erstellen
-description: Mehrsprachige E-Mail erstellen
-seo-description: Führen Sie diese Schritte aus, um eine mehrsprachige E-Mail an Empfänger mit unterschiedlichen bevorzugten Sprachen zu senden.
+description: Führen Sie diese Schritte aus, um eine mehrsprachige E-Mail an Empfänger mit unterschiedlichen bevorzugten Sprachen zu senden.
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -49,4 +47,4 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
 
 **Verwandtes Thema:**
 
-* [Mehrere Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Erreichen mehrsprachiger Zielgruppen mit einem Workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
