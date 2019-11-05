@@ -1,8 +1,6 @@
 ---
 title: Kontrollregeln
-seo-title: Kontrollregeln
-description: Kontrollregeln
-seo-description: Hier erfahren Sie, wie Sie mithilfe von Kontrollregeln die Qualitätsprüfung für Ihre Nachrichten verbessern.
+description: Hier erfahren Sie, wie Sie mithilfe von Kontrollregeln die Qualitätsprüfung für Ihre Nachrichten verbessern.
 page-status-flag: never-activated
 uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
