@@ -1,8 +1,6 @@
 ---
 title: Über die Zugriffsverwaltung
-seo-title: Über die Zugriffsverwaltung
-description: Über die Zugriffsverwaltung
-seo-description: Sie können Adobe-Campaign-Benutzer mithilfe von Rollen, Gruppen und Organisationseinheiten verwalten.
+description: Sie können Adobe-Campaign-Benutzer mithilfe von Rollen, Gruppen und Organisationseinheiten verwalten.
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 52547aedf10cfaf8e4edf0b496d6bf108e8c41f6
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,17 +24,17 @@ Adobe Campaign ermöglicht die Definition und Verwaltung von Genehmigungen, die 
 * **Organisationseinheiten**: ermöglichen ein hierarchisches Genehmigungsmodell für verschiedene Plattformobjekte (E-Mails, Workflows, Vorlagen, Benutzer, Profile etc.). Lesen Sie diesbezüglich auch den Abschnitt [Organisationseinheiten](../../administration/using/organizational-units.md).
 * **Benutzerrollen**: Gesamtheit an Einzelrechten zur Definition von Berechtigungen für Benutzer und Benutzergruppen. Lesen Sie diesbezüglich auch den Abschnitt [Liste der Rollen](../../administration/using/list-of-roles.md).
 
-   Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ansicht der Benutzeroberfläche und definieren ihren Zugriff auf die unterschiedlichen Funktionen. Weiterführende Informationen hierzu finden Sie in der [Tabelle mit Berechtigungen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ansicht der Benutzeroberfläche und definieren ihren Zugriff auf die unterschiedlichen Funktionen. For more on this, refer to the [Authorizations table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 >[!CAUTION]
 >
->Bitte beachten Sie, dass geografische Einheiten nicht weiterverwendet werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
+>Bitte beachten Sie, dass geografische Einheiten nicht weiterverwendet werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
 Rollen, Gruppen und Organisationseinheiten können vom funktionalen Administrator der Plattform über das Menü **[!UICONTROL Administration &gt; Benutzer &amp; Sicherheit]** verwaltet werden.
 
 ![](assets/user_management_1.png)
 
-Die Verwaltung von Benutzern erfolgt über die Admin Console. Näheres hierzu finden Sie im Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) oder in der [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
+Die Verwaltung von Benutzern erfolgt über die Admin Console. Näheres hierzu finden Sie im Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) oder der [Dokumentation zur Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
 ![](assets/user_management_6.png)
 
