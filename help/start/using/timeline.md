@@ -1,8 +1,6 @@
 ---
 title: Planung
-seo-title: Planung
-description: Planung
-seo-description: Hier erfahren Sie, wie Sie über die Benutzeroberfläche von Adobe Campaign Standard aktive Programme und ihren Inhalt visualisieren.
+description: Hier erfahren Sie, wie Sie über die Benutzeroberfläche von Adobe Campaign Standard aktive Programme und ihren Inhalt visualisieren.
 page-status-flag: never-activated
 uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
