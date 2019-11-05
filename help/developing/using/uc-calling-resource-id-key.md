@@ -1,10 +1,8 @@
 ---
-title: Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen
-seo-title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
-description: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
-seo-description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
+title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
+description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
