@@ -1,8 +1,6 @@
 ---
 title: Verzweigung
-seo-title: Verzweigung
-description: Verzweigung
-seo-description: Eine Verzweigung erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten.
+description: Eine Verzweigung erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten.
 page-status-flag: never-activated
 uuid: e4eaf69b-84ee-4f79-8b80-99284697cd2c
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
 context-tags: fork,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,7 +38,7 @@ Die **[!UICONTROL Verzweigung]** ermöglicht insbesondere die unabhängige Ausf�
 1. Definieren Sie die Anzahl an ausgehenden Transitionen. Dies kann durch die Erstellung neuer bzw. Duplizierung oder Löschung bestehender Transitionen erfolgen. Benennen Sie gegebenenfalls die Transitionen.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel  {#example}
+## Beispiel {#example}
 
 Unten stehende Abbildung zeigt die Schnittmenge aus zwei Abfragen. Gesucht werden alle Profile der Adobe-Campaign-Datenbank, die weiblichen Geschlechts sind und die in Berlin leben. Die Verzweigung ermöglicht es dann, mehrere Aktivitäten parallel zu starten: einerseits eine Audience-Speicherung, um die berechnete Population zwischenzuspeichern, und andererseits eine Segmentierung, die es ermöglicht, den Empfängern in den verschiedenen Segmenten eine E-Mail mit segmentspezifischen Inhalten zu senden. Die erste E-Mail richtet sich an alle Berlinerinnen zwischen 18 und 40 Jahren und die zweite an alle Berlinerinnen über 40 Jahre.
 
