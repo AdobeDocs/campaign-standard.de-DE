@@ -1,8 +1,6 @@
 ---
 title: Folgenachrichten
-seo-title: Folgenachrichten
-description: Folgenachrichten
-seo-description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen und publizieren.
+description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen und publizieren.
 page-status-flag: never-activated
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
