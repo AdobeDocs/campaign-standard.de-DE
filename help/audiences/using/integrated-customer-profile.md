@@ -1,8 +1,6 @@
 ---
 title: Integriertes Kundenprofil
-seo-title: Integriertes Kundenprofil
-description: Integriertes Kundenprofil
-seo-description: '"Sie können alle Kundeninteraktionen in einer gemeinsamen Übersicht verfolgen: Das integrierte Kundenprofil von Adobe Campaign wird während des gesamten Lebenszyklus eines Kunden aktualisiert."'
+description: '"Sie können alle Kundeninteraktionen in einer gemeinsamen Übersicht verfolgen: Das integrierte Kundenprofil von Adobe Campaign wird während des gesamten Lebenszyklus eines Kunden aktualisiert."'
 page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
