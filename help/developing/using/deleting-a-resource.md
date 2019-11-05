@@ -1,8 +1,6 @@
 ---
 title: Ressourcen löschen
-seo-title: Ressourcen löschen
-description: Ressourcen löschen
-seo-description: 'Hier erfahren Sie, wie Sie eine Ressource löschen können. '
+description: 'Hier erfahren Sie, wie Sie eine Ressource löschen können. '
 page-status-flag: never-activated
 uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
