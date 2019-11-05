@@ -1,8 +1,6 @@
 ---
 title: Integration von Campaign-POI-Daten konfigurieren
-seo-title: Integration von Campaign-POI-Daten konfigurieren
-description: Integration von Campaign-POI-Daten konfigurieren
-seo-description: Hier erfahren Sie, wie Sie die POI-Daten-Funktion in Adobe Campaign konfigurieren, um Ihren Abonnenten je nach ihrem Standort personalisierte Nachrichten zu senden.
+description: Hier erfahren Sie, wie Sie die POI-Daten-Funktion in Adobe Campaign konfigurieren, um Ihren Abonnenten je nach ihrem Standort personalisierte Nachrichten zu senden.
 page-status-flag: never-activated
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
