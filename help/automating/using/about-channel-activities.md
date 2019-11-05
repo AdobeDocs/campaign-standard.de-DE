@@ -1,8 +1,6 @@
 ---
 title: Über Kanalaktivitäten
-seo-title: Über Kanalaktivitäten
-description: Über Kanalaktivitäten
-seo-description: Die Kanalaktivitäten können über die linke Bildschirmseite geöffnet werden.
+description: Die Kanalaktivitäten können über die linke Bildschirmseite geöffnet werden.
 page-status-flag: never-activated
 uuid: 900e0580-2e56-4aaf-b584-58d8e9a408cf
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: channel-activities
 discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
