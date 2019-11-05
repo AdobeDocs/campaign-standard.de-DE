@@ -1,8 +1,6 @@
 ---
 title: Profile bearbeiten
-seo-title: Profile bearbeiten
-description: Profile bearbeiten
-seo-description: Hier erfahren Sie, wie Sie vorhandene Profile bearbeiten und auf Kontaktinformationen, bevorzugte Kanäle, Trackinglogs, Abonnements etc. zugreifen.
+description: Hier erfahren Sie, wie Sie vorhandene Profile bearbeiten und auf Kontaktinformationen, bevorzugte Kanäle, Trackinglogs, Abonnements etc. zugreifen.
 page-status-flag: never-activated
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
