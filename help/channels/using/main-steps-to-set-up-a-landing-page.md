@@ -1,8 +1,6 @@
 ---
-title: Wichtigste Schritte zum Einrichten einer Einstiegsseite
-seo-title: Wichtigste Schritte zum Einrichten einer Einstiegsseite
-description: Wichtigste Schritte zum Einrichten einer Einstiegsseite
-seo-description: Erfahren Sie, wie Sie die Einstiegsseite einrichten.
+title: Wichtigste Schritte zum Einrichten einer Landingpage
+description: Erfahren Sie, wie Sie die Einstiegsseite einrichten.
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f100f6b041c6dbb298113b4ecc7830951714131
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Wichtigste Schritte zum Einrichten einer Einstiegsseite {#main-steps-create-a-landing-page}
+# Wichtigste Schritte zum Einrichten einer Landingpage {#main-steps-create-a-landing-page}
 
 ## Erstellen von Einstiegsseiten
 
