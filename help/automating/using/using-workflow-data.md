@@ -1,8 +1,6 @@
 ---
 title: Workflow-Daten verwenden
-seo-title: Workflow-Daten verwenden
-description: Workflow-Daten verwenden
-seo-description: Hier erfahren Sie, wie Sie die von Ihnen importierten oder ausgewählten Daten nutzen können.
+description: Hier erfahren Sie, wie Sie die von Ihnen importierten oder ausgewählten Daten nutzen können.
 page-status-flag: never-activated
 uuid: 3dd66aeb-3a26-4214-b6a0-242c2b7fbc49
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 90b250f1-f32d-4256-83ea-4c0627628610
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
