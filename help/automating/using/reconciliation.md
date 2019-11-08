@@ -67,7 +67,7 @@ Die Aktivität **[!UICONTROL Abstimmung]** kann beispielsweise auf eine Datenlad
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel 1: Definition der Relation    {#example-1--relation-definition}
+## Beispiel 1: Definition der Relation     {#example-1--relation-definition}
 
 Das folgende Beispiel zeigt einen Workflow zur Aktualisierung der Datenbankdaten anhand von in einer Datei enthaltenen, den Verkauf betreffenden Daten. Die Verkaufsinformationen enthalten Daten, die Elemente anderer Dimensionen wie z. B. die E-Mail von Kunden oder Artikelnummern referenzieren.
 
@@ -113,7 +113,7 @@ Der Workflow besteht aus folgenden Aktivitäten:
 
    ![](assets/reconciliation_example4.png)
 
-## Beispiel 2: Identifizierung    {#example-2--identification}
+## Beispiel 2: Identifizierung     {#example-2--identification}
 
 Das folgende Beispiel zeigt einen Workflow zur Erstellung einer Profil-Audience, die direkt von einer importierten Datei mit neuen Kunden ausgeht. Er setzt sich aus folgenden Aktivitäten zusammen:
 
