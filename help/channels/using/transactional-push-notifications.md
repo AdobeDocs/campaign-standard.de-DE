@@ -38,7 +38,7 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 
 >[!NOTE]
 >
->Für den Zugriff auf Transaktionsmeldungen müssen Sie zur Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** gehören.
+>Sie können nur dann auf Transaktionsmeldungen zugreifen, wenn Sie der Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** angehören.
 
 ## Transaktions-Push-Benachrichtigungen, bei denen die Zielgruppenbestimmung durch ein Ereignis erfolgt {#transactional-push-notifications-targeting-an-event}
 
@@ -62,7 +62,7 @@ Das Unternehmen sendet eine einzige Transaktions-Push-Benachrichtigung pro Benut
 
    ![](assets/message-center_push_content.png)
 
-   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**.
+   Wählen Sie dazu das Stiftsymbol neben einem Objekt und **[!UICONTROL Personalisierungsfeld einfügen]** aus und danach **[!UICONTROL Kontext]** &gt; **[!UICONTROL Echtzeit-Ereignis]** &gt; **[!UICONTROL Ereigniskontext]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -91,7 +91,7 @@ Wenn der Anmeldetoken existiert, erhält der entsprechende Benutzer eine Transak
 
 "Hallo, Jane Green, das Boarding hat soeben begonnen! Bitte gehen Sie zu Flugsteig B18."
 
-## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt   {#transactional-push-notifications-targeting-a-profile}
+## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt    {#transactional-push-notifications-targeting-a-profile}
 
 Sie können eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile senden, die Ihre Mobile App abonniert haben. Dieser Versand kann [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) enthalten, wie beispielsweise den Vornamen des Empfängers.
 
@@ -105,7 +105,7 @@ Die Mobile Apps, für die sich ein Profil angemeldet hat, werden im Tab **[!UICO
 
 Weitere Informationen zum Öffnen und Bearbeiten von Profilen finden Sie unter [Profile](../../audiences/using/creating-profiles.md).
 
-### Transaktions-Push-Benachrichtigungen senden, bei denen die Zielgruppenbestimmung durch ein Profil erfolgt   {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Transaktions-Push-Benachrichtigungen senden, bei denen die Zielgruppenbestimmung durch ein Profil erfolgt    {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Beispiel: Eine Fluglinie möchte allen Adobe-Campaign-Benutzern, die sich für ihre Mobile App angemeldet haben, eine letzte Aufforderung zum Boarding senden.
 
