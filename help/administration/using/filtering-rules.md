@@ -23,7 +23,7 @@ Mit Filterregeln können Sie einen Teil der Nachrichten-Zielgruppe anhand von in
 
 Sie können beispielsweise Newsletter-Anmeldungen so filtern, dass Abonnenten unter 18 Jahren keine Nachricht erhalten.
 
-## Filterregel erstellen  {#creating-a-filtering-rule}
+## Filterregel erstellen   {#creating-a-filtering-rule}
 
 1. Erstellen Sie eine **Filter**-Typologieregel, die auf alle Kommunikationskanäle angewendet werden kann.
 
@@ -55,7 +55,7 @@ Sie können beispielsweise Newsletter-Anmeldungen so filtern, dass Abonnenten un
 
 Wenn diese Regel in einer Nachricht verwendet wird, werden minderjährige Abonnenten automatisch ausgeschlossen.
 
-## Anwendbarkeit einer Filterregel einschränken  {#restricting-the-applicability-of-a-filtering-rule}
+## Anwendbarkeit einer Filterregel einschränken   {#restricting-the-applicability-of-a-filtering-rule}
 
 Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht einschränken.
 
@@ -69,7 +69,7 @@ Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht e
 
 In diesem Fall wird die Regel nur auf die Nachrichten angewendet, die den definierten Kriterien entsprechen.
 
-## Standardmäßige Ausschlussregeln für Zustellbarkeit  {#default-deliverability-exclusion-rules}
+## Standardmäßige Ausschlussregeln für Zustellbarkeit   {#default-deliverability-exclusion-rules}
 
 Standardmäßig sind zwei Filterregeln verfügbar: **[!UICONTROL Ausschluss der Adressen]** (**[!UICONTROL addressExclusions]**) und **[!UICONTROL Ausschluss der Domains]** (**[!UICONTROL domainExclusions]**). Während der E-Mail-Analyse vergleichen diese Regeln die E-Mail-Adressen der Empfänger mit den unzulässigen Adressen oder Domain-Namen aus einer verschlüsselten globalen Unterdrückungsliste, die in der Zustellbarkeitsinstanz verwaltet wird. Im Falle einer Übereinstimmung wird die Nachricht nicht an den jeweiligen Empfänger gesendet.
 
