@@ -30,7 +30,7 @@ Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für di
 
 Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
-## Anwendungskontext   {#context-of-use}
+## Anwendungskontext    {#context-of-use}
 
 Eine **[!UICONTROL Inkrementelle Abfrage]** muss mit einer **[!UICONTROL Planung]** einhergehen, um die Häufigkeit der Ausführung des Workflows und damit der Abfrage zu definieren.
 
@@ -41,7 +41,7 @@ Der für diese Aktivität spezifische Tab **[!UICONTROL Verarbeitete Daten]** er
 * Segmentierung von Populationen, um beispielsweise Zielgruppen und Audiences zu definieren
 * Export von Daten
 
-## Konfiguration   {#configuration}
+## Konfiguration    {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Inkrementelle Abfrage]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png).
@@ -69,7 +69,7 @@ Der für diese Aktivität spezifische Tab **[!UICONTROL Verarbeitete Daten]** er
 
 Aus einer **[!UICONTROL Inkrementellen Abfrage hervorgehende Daten lassen sich auf die gleiche Weise anreichern wie Daten, die aus einer einfachen Abfrage stammen]**. Lesen Sie diesbezüglich auch den Abschnitt [Daten anreichern](../../automating/using/query.md#enriching-data).
 
-## Beispiel: inkrementelle Abfrage bezüglich Dienst-Abonnenten   {#example--incremental-query-on-subscribers-to-a-service}
+## Beispiel: inkrementelle Abfrage bezüglich Dienst-Abonnenten    {#example--incremental-query-on-subscribers-to-a-service}
 
 Im folgenden Beispiel wird die Konfiguration der Aktivität **[!UICONTROL Inkrementelle Abfrage]** illustriert, die der Filterung der Profile der Adobe-Campaign-Datenbank dient, die Abonnenten des Diensts **Running-Newsletter** sind, um diesen eine Willkommens-E-Mail mit einem Sonderangebotscode zu senden.
 
@@ -95,7 +95,7 @@ Der Workflow besteht aus folgenden Aktivitäten:
 
 Starten Sie nun die Ausführung des Workflows. Jede Woche erhalten neue Abonnenten die Willkommens-E-Mail mit dem Sonderangebotscode.
 
-## Beispiel: Inkrementelle Abfrage bei Versandlogs   {#example--incremental-query-on-delivery-logs}
+## Beispiel: Inkrementelle Abfrage bei Versandlogs    {#example--incremental-query-on-delivery-logs}
 
 Mit der Aktivität **[!UICONTROL Inkrementelle Abfrage]** können Sie regelmäßig neue Logs in Dateien exportieren. Diese Funktion kann verwendet werden, wenn Sie beispielsweise Ihre Log-Daten in externen Berichterstattungs- oder Business Intelligence Tools verwenden möchten.
 
