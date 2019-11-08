@@ -26,7 +26,7 @@ Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 * Import einer Profilliste von einer Datei über einen [Workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * Datenerhebung online über [Landingpages](../../channels/using/about-landing-pages.md)
 * Im Bulk-Modus über die [REST-API](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-* Profile von [Microsoft Dynamics synchronisieren](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* Synchronisieren von Profilen in [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * Direkte Dateneingabe über die Benutzeroberfläche, wie unten beschrieben
 
 Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzeroberfläche erstellen können. Gehen Sie dazu folgendermaßen vor:
@@ -57,7 +57,7 @@ Das Profil wurde der Liste hinzugefügt.
 
 >[!NOTE]
 >
->Die Erstellung von Profilen ist auch mithilfe der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles).
+>Die Erstellung von Profilen ist auch mithilfe der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
 
 Profile können nach Organisationseinheiten partitioniert werden. Informationen zum Hinzufügen der Organisationsfelder zu Profilen finden Sie im Abschnitt [Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
 
@@ -67,6 +67,6 @@ Profile können nach Organisationseinheiten partitioniert werden. Informationen 
 
 **Verwandte Themen:**
 
-* [Anleitung zu Einstiegsseiten](../../channels/using/about-landing-pages.md)
+* [Über Landingpages](../../channels/using/about-landing-pages.md)
 * [Profilimport](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
