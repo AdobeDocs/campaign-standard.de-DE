@@ -61,7 +61,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
   </tr> 
   <tr> 
    <td> Grund des Fehlschlagens<br /> </td> 
-   <td> Fehlertypen, die zu Absprüngen bei jeder Lieferung führten, z.B. unbekannte Benutzer, ungültige Domäne oder Postfach vollständig.<br /> </td> 
+   <td> Fehlertypen, die bei jedem Versand zu Bounces führten, z. B. unbekannte Nutzer, ungültige Domain oder Postfach voll.<br /> </td> 
   </tr> 
   <tr> 
    <td> Geschlecht<br /> </td> 
@@ -134,11 +134,11 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken    {#metrics}
+## Metriken     {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS    {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS     {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -259,7 +259,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen    {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen     {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -324,7 +324,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten    {#in-app-metrics}
+### Metriken zu In-App-Nachrichten     {#in-app-metrics}
 
 <table> 
  <thead> 
@@ -381,7 +381,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 
 >[!NOTE]
 >
->Standardmäßig ist das Segment zum **[!UICONTROL Ausschließen des Protests]** bereits zum Filtern Ihrer Berichte ausgewählt, kann aber bei Bedarf geändert werden.
+>Standardmäßig ist das Segment **[!UICONTROL Testversand ausschließen]** bereits ausgewählt, um Ihre Berichte zu filtern. Diese Auswahl kann jedoch bei Bedarf geändert werden.
 
 In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwendet werden, sowie ihre Definitionen.
 
@@ -458,8 +458,8 @@ In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwend
    <td> Jeder Empfänger<br /> </td> 
   </tr> 
     <tr> 
-   <td> Nachweis ausschließen<br /> </td> 
-   <td> Ausschließen von Beweisstücken aus Ihren Berichten (nur ab Version 19.4)<br /> </td> 
+   <td> Testversand ausschließen<br /> </td> 
+   <td> Testsendungen aus Berichten ausschließen (ab Campaign-Version 19.4)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
