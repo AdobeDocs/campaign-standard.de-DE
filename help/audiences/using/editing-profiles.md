@@ -37,14 +37,14 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Profil zu bearbeiten bzw. 
    >
    >Mit Ausnahme des Bereichs **[!UICONTROL Rückverfolgung]** können Sie nur die Informationen im Tab **[!UICONTROL Allgemein]** ändern.
 
-Die Bearbeitung von Profilen ist auch mit der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles).
+Die Bearbeitung von Profilen ist auch mit der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
 
 Verwandtes Thema:
 
 * [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md)
 * [In der Zeitzone des Empfängers senden](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Allgemeine Profildaten  {#general-profile-data}
+## Allgemeine Profildaten   {#general-profile-data}
 
 Der Tab **[!UICONTROL Allgemein]** enthält die folgenden Informationen zum Profil:
 
@@ -55,13 +55,13 @@ Der Tab **[!UICONTROL Allgemein]** enthält die folgenden Informationen zum Prof
 
 ![](assets/profile_creation4.png)
 
-## Versand- und Trackinglogs  {#sending-and-tracking-logs}
+## Versand- und Trackinglogs   {#sending-and-tracking-logs}
 
 In den Tabs **[!UICONTROL Versandlogs]** und **[!UICONTROL Trackinglogs]** sind alle Sendungen an das Profil sowie alle zugehörigen Trackingdaten enthalten.
 
 Weiterführende Informationen zu Versand- und Trackinglogs finden Sie in den Abschnitten [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs) und [Nachrichten tracken](../../sending/using/tracking-messages.md).
 
-## Abonnements  {#subscriptions}
+## Abonnements   {#subscriptions}
 
 Die Abonnements des Kontakts werden im entsprechenden Tab aufgeführt. Weiterführende Informationen zum Abonnement eines Dienstes finden Sie in [diesem Abschnitt](../../audiences/using/about-subscriptions.md).
 
