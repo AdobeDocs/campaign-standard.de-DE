@@ -69,7 +69,7 @@ Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu defin
 
    Sie haben die Möglichkeit, den Absendernamen je nach Zielgruppe zu personalisieren. Sie können Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die Symbole unter dem Absendernamen auswählen.
 
-* Das Feld **[!UICONTROL Von (E-Mail)]** kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. For more information, see [List of email advanced parameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* Das Feld **[!UICONTROL Von (E-Mail)]** kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. Lesen Sie diesbezüglich auch den Abschnitt [Liste der erweiterten E-Mail-Parameter](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
