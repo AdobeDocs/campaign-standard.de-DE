@@ -59,7 +59,7 @@ Mithilfe der Schaltfläche **[!UICONTROL Trigger in Experience Cloud anzeigen]**
 
 Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsvorlage erzeugt. Diese Vorlage muss nun bearbeitet und publiziert werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen bearbeiten](../../start/using/about-templates.md).
 
-## Transaktionsnachrichtenvorlage bearbeiten  {#editing-the-transactional-message-template}
+## Transaktionsnachrichtenvorlage bearbeiten   {#editing-the-transactional-message-template}
 
 Im Zuge der Erstellung und Publikation des Trigger-Ereignisses wird die entsprechende Transaktionsvorlage automatisch erstellt. Lesen Sie diesbezüglich auch den Abschnitt [In Campaign einen gemappten Trigger erstellen](#creating-a-mapped-trigger-in-campaign).
 
