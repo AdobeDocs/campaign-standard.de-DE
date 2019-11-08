@@ -27,7 +27,7 @@ Die REST-Endpunkte können ein Customer Management System, die Plattform [Adobe 
 
 >[!NOTE]
 >
->Aus Sicherheitsgründen wird die Verwendung von JSSPs in Campaign Standard nicht unterstützt. Wenn Sie Code ausführen müssen, können Sie eine Adobe-E/A-Laufzeitinstanz über die externe API-Aktivität aufrufen.
+>Aus Sicherheitsgründen wird die Verwendung von JSSPs in Campaign Standard nicht unterstützt. Wenn Sie Code ausführen müssen, können Sie eine Adobe I/O Runtime-Instanz über eine externe API-Aktivität aufrufen.
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Dieser Tab ist in den meisten Workflow-Aktivitäten verfügbar. Lesen Sie für w
 
 ![](assets/externalAPI-options.png)
 
-## Fehlerbehebung
+## Problembehebung
 
 Zu dieser neuen Workflow-Aktivität wurden zwei Arten von Lognachrichten hinzugefügt: Informationen und Fehler. Diese können Ihnen helfen, potenzielle Probleme zu beheben.
 
