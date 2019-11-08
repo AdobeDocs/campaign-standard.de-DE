@@ -1,6 +1,6 @@
 ---
-title: Über Campaign Standard-Einstellungen
-description: Über Campaign Standard-Einstellungen
+title: Über Einstellungen in Campaign Standard
+description: Über Einstellungen in Campaign Standard
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
@@ -18,18 +18,18 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ---
 
 
-# Über Campaign Standard-Einstellungen{#about-campaign-standard-settings}
+# Über Einstellungen in Campaign Standard{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standard enthält verschiedene Anwendungselemente, die entsprechend Ihren Anforderungen konfiguriert werden können. Sie können beispielsweise:
+[!DNL Campaign] Standard enthält verschiedene Anwendungselemente, die entsprechend Ihren Anforderungen konfiguriert werden können. Sie haben u. a. folgende Möglichkeiten:
 
-* Einrichtung externer Konten,
-* Konfigurieren Sie Zielzuordnungen, um die technischen Einstellungen zu verwalten, die zum Senden von Zustellungen erforderlich sind.
-* Richten Sie interne Benachrichtigungen innerhalb der Anwendung ein usw.
+* Externe Konten einrichten
+* Zielgruppen-Mappings konfigurieren, um die technischen Einstellungen zum Senden von Nachrichten vorzunehmen
+* Interne Benachrichtigungen innerhalb der Anwendung einrichten usw.
 
-Diese Einstellungen sind im Menü **[!UICONTROL Administration]** / **[!UICONTROL Anwendungseinstellungen]** verfügbar.
+Diese Einstellungen sind im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** verfügbar.
 
-Darüber hinaus stehen Ihnen im Menü " **[!UICONTROL Optionen]** "technische Optionen zur Verfügung, mit denen Sie die Anwendung genauer konfigurieren können. Einige von ihnen sind bei der Installation von Campaign integriert, andere können bei Bedarf manuell hinzugefügt werden (die verfügbaren Optionen variieren je nach den mit Ihrer Instanz installierten Paketen).
+Darüber hinaus stehen Ihnen im Menü **[!UICONTROL Optionen]** technische Auswahlmöglichkeiten zur Verfügung, mit denen Sie die Anwendung genauer konfigurieren können. Einige von ihnen sind native Optionen und werden automatisch gemeinsam mit Campaign installiert, andere können bei Bedarf manuell hinzugefügt werden (die verfügbaren Optionen variieren je nach den mit Ihrer Instanz installierten Packages).
 
 >[!CAUTION]
 >
->Diese Optionen sind bereits bei der Installation von Campaign konfiguriert und sollten nur von fortgeschrittenen Benutzern geändert werden. Wenden Sie sich bei Fragen oder Anfragen an Ihren Adobe-Kontakt.
+>Diese Optionen sind bei der Installation von Campaign bereits konfiguriert und sollten nur von fortgeschrittenen Benutzern geändert werden. Wenden Sie sich bei Fragen oder Wünschen an Ihren Adobe-Kontakt.
