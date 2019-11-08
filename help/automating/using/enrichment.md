@@ -34,7 +34,7 @@ Diese Aktivität verfügt über mehr erweiterte Anreicherungsfunktionen als die 
 
 Mit der Aktivität **[!UICONTROL Anreicherung]** können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen. Die Anreicherungsaktivität ermöglicht die Kombination von Daten aus mehreren Datensätzen oder die Erstellung von Relationen zu einer temporären Ressource.
 
-## Konfiguration     {#configuration}
+## Konfiguration      {#configuration}
 
 So konfigurieren Sie die Aktivität **[!UICONTROL Anreicherung]**:
 
@@ -138,5 +138,5 @@ Der Workflow setzt sich aus folgenden Aktivitäten zusammen:
 
 **Verwandtes Thema:**
 
-* [Kundenprofile mit externen Daten verbessern](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [Kundenprofile mit externen Daten anreichern](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 
