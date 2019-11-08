@@ -32,7 +32,7 @@ Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvaria
 
 ![](assets/extsignal_process.png)
 
-## Parameter in der Aktivität "Externes Signal" deklarieren    {#declaring-the-parameters-in-the-external-signal-activity}
+## Parameter in der Aktivität "Externes Signal" deklarieren     {#declaring-the-parameters-in-the-external-signal-activity}
 
 Um einen Workflow mit Parametern aufzurufen, müssen Sie diese zunächst in der Aktivität **[!UICONTROL Externes Signal]** deklarieren.
 
@@ -47,7 +47,7 @@ Um einen Workflow mit Parametern aufzurufen, müssen Sie diese zunächst in der 
 
 1. Schließen Sie nach der Deklaration der Parameter die Konfiguration des Workflows ab und führen Sie ihn aus.
 
-## Parameter beim Aufruf des Workflows definieren    {#defining-the-parameters-when-calling-the-workflow}
+## Parameter beim Aufruf des Workflows definieren     {#defining-the-parameters-when-calling-the-workflow}
 
 In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workflows definieren können. Weiterführende Informationen zur Durchführung dieses Vorgang mit einem API-Aufruf finden Sie in der [REST-APIs-Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
@@ -72,7 +72,7 @@ Gehen Sie zur Konfiguration der **[!UICONTROL Ende]**-Aktivität folgendermaßen
 
 1. Bestätigen Sie nach der Definition der Parameter die Aktivität und speichern Sie Ihren Workflow.
 
-## Ereignisvariablen überwachen    {#monitoring-the-events-variables}
+## Ereignisvariablen überwachen     {#monitoring-the-events-variables}
 
 Es ist möglich, die im Workflow verfügbaren Ereignisvariablen zu überwachen, einschließlich der deklarierten externen Parameter. Gehen Sie dazu wie folgt vor:
 
@@ -85,7 +85,7 @@ Es ist möglich, die im Workflow verfügbaren Ereignisvariablen zu überwachen, 
 
    ![](assets/extsignal_monitoring_3.png)
 
-## Workflow mit externen Parametern anpassen    {#customizing-a-workflow-with-external-parameters}
+## Workflow mit externen Parametern anpassen     {#customizing-a-workflow-with-external-parameters}
 
 Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen aufgenommen und können zur Anpassung der Workflow-Aktivitäten verwendet werden.
 
@@ -93,7 +93,7 @@ So kann mit ihnen beispielsweise definiert werden, welche Audience in der Aktivi
 
 Die Aktivitäten, die mit Ereignisvariablen angepasst werden können, finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
-### Verwendung von Ereignisvariablen    {#using-events-variables}
+### Verwendung von Ereignisvariablen     {#using-events-variables}
 
 Ereignisvariablen werden innerhalb eines Ausdrucks verwendet, der die **[Standardsyntax berücksichtigen muss](../../automating/using/advanced-expression-editing.md#standard-syntax)**.
 
@@ -128,7 +128,7 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
 * [Standardsyntax](../../automating/using/advanced-expression-editing.md#standard-syntax)
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 
-### Aktivitäten mit Ereignisvariablen anpassen    {#customizing-activities-with-events-variables}
+### Aktivitäten mit Ereignisvariablen anpassen     {#customizing-activities-with-events-variables}
 
 Die im folgenden Abschnitt aufgelisteten Aktivitäten können mit Ereignisvariablen angepasst werden. Weiterführende Informationen zum Aufruf einer Variablen in einer Aktivität finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md#using-events-variables).
 
@@ -221,7 +221,7 @@ Führen Sie dazu folgende Aktionen aus:
 
 Vor dem Konfigurieren des Workflows müssen Workflow 1 und 2 jeweils mit der Aktivität **[!UICONTROL Externes Signal]** erstellt werden. Auf diese Weise können Sie diese Signalaktivitäten auswählen, wenn Sie die Workflows aufrufen.
 
-### Schritt 1: API-Aufruf konfigurieren    {#step-1--configuring-the-api-call}
+### Schritt 1: API-Aufruf konfigurieren     {#step-1--configuring-the-api-call}
 
 Führen Sie einen API-Aufruf aus, um Workflow 1 mit Parametern auszulösen. Weiterführende Informationen zur Syntax des API-Aufrufs finden Sie in der [Dokumentation zu Campaign Standard-REST-APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
@@ -246,7 +246,7 @@ In diesem Beispiel soll der Workflow mit den unten stehenden Parametern aufgeruf
 -d } 
 ```
 
-### Schritt 2: Workflow 1 konfigurieren    {#step-2--configuring-workflow-1}
+### Schritt 2: Workflow 1 konfigurieren     {#step-2--configuring-workflow-1}
 
 Workflow 1 wird folgendermaßen erstellt:
 
@@ -317,7 +317,7 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
 Workflow 1 ist somit konfiguriert. Erstellen Sie jetzt Workflow 2. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
 
-### Schritt 3: Workflow 2 konfigurieren    {#step-3--configuring-workflow-2}
+### Schritt 3: Workflow 2 konfigurieren     {#step-3--configuring-workflow-2}
 
 Workflow 2 wird folgendermaßen erstellt:
 
@@ -374,6 +374,6 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc14.png)
 
-### Workflows ausführen    {#executing-the-workflows}
+### Workflows ausführen     {#executing-the-workflows}
 
 Nach dem Erstellen der Workflows können diese ausgeführt werden. Achten Sie darauf, dass die beiden Workflows gestartet werden, bevor der API-Aufruf ausgeführt wird.
