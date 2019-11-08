@@ -27,7 +27,7 @@ Sie möchten eine höfliche Erinnerung an alle Kunden senden, die vor drei Tagen
 
 Jeder betroffene Kunde erhält eine Folgenachricht, die auf den gleichen Daten basiert, die schon in der ersten gesendeten E-Mail verwendet wurden.
 
-## Zugriff auf die Folgenachrichten  {#accessing-the-follow-up-messages}
+## Zugriff auf die Folgenachrichten   {#accessing-the-follow-up-messages}
 
 Nach der Erstellung und Publikation des gewünschten Ereignisses (im vorliegenden [Beispiel](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) "Stehen gelassener Warenkorb") werden die entsprechende Transaktionsnachricht und Folgenachricht automatisch erstellt.
 
@@ -47,7 +47,7 @@ Nur die Folgenachrichten werden angezeigt.
 
 >[!NOTE]
 >
->Für den Zugriff auf Transaktionsmeldungen müssen Sie zur Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** gehören.
+>Sie können nur dann auf Transaktionsmeldungen zugreifen, wenn Sie der Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** angehören.
 
 ## Folgenachrichten senden {#sending-a-follow-up-message}
 
@@ -113,7 +113,7 @@ Nachdem Sie die Folgenachrichten-Versandvorlage erstellt haben, können Sie sie 
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**. Siehe [Transaktionsnachricht personalisieren](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+1. Die von Ihnen bei der Erstellung des Ereignisses definierten Felder finden Sie durch die Auswahl von **[!UICONTROL Kontext]** &gt; **[!UICONTROL Echtzeit-Ereignis]** &gt; **[!UICONTROL Ereigniskontext]**. Siehe [Transaktionsnachricht personalisieren](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
