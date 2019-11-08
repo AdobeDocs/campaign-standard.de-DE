@@ -48,7 +48,7 @@ Die Aktivität **[!UICONTROL Lesen der Audience]** ist eine einfachere Version d
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel: Eine Audience vom Typ Datei mit der Datenbank abstimmen  {#example--reconcile-a-file-audience-with-the-database}
+## Beispiel: Eine Audience vom Typ Datei mit der Datenbank abstimmen   {#example--reconcile-a-file-audience-with-the-database}
 
 In diesem Beispiel wird gezeigt, wie die Aktivität **[!UICONTROL Lesen der Audience]** verwendet werden kann, um eine direkt von einem Dateiimport erstellte Audience abzustimmen.
 
@@ -86,7 +86,7 @@ Der Abstimmungs-Workflow läuft folgendermaßen ab:
 * In der Aktivität [Abstimmung](../../automating/using/reconciliation.md) werden die eingehenden Daten im Tab **[!UICONTROL Identifizierung]** als Profile identifiziert. Beispielsweise kann das **E-Mail**-Feld als Abstimmungskriterium verwendet werden.
 * Durch die Aktivität [Daten-Update](../../automating/using/update-data.md) werden die eingehenden Daten eingefügt und die Profil-Ressource der Datenbank entsprechend aktualisiert. Da die Daten bereits als Profile identifiziert wurden, können Sie die Option **[!UICONTROL Über die Zielgruppendimension]** und danach **[!UICONTROL Profile]** im Tab **[!UICONTROL Identifizierung]** der Aktivität auswählen. Fügen Sie danach einfach die Liste der Felder hinzu, die im jeweiligen Tab zu aktualisieren sind.
 
-## Beispiel: Vereinigung von zwei eingeschränkten Audiences  {#example--union-on-two-refined-audiences}
+## Beispiel: Vereinigung von zwei eingeschränkten Audiences   {#example--union-on-two-refined-audiences}
 
 In diesem Beispiel werden im Workflow zwei **[!UICONTROL Lesen der Audience]**-Aktivitäten vereint. Ziel dieses Workflows ist es, eine E-Mail an Gold- oder Silber-Mitglieder zu senden, die zwischen 18 und 30 Jahre alt sind.
 
