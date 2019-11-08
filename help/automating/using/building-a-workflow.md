@@ -26,7 +26,7 @@ In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei
 * Aktivitäten hinzufügen und verbinden
 * Aktivitäten konfigurieren
 
-## Workflow erstellen    {#creating-a-workflow}
+## Workflow erstellen     {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
 
