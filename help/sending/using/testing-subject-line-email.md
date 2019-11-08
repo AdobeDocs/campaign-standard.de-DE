@@ -18,7 +18,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Betreffzeile einer E-Mail testen {#testing-a-subject}
 
-Gehen Sie wie folgt vor, um die Betreffzeile zu testen:
+So testen Sie die Betreffzeile:
 
 1. Erstellen Sie eine neue oder öffnen Sie eine bereits existierende E-Mail.
 1. Gehen Sie in den Inhalt und geben Sie den Betreff der E-Mail im entsprechenden Eingabefeld ein.
@@ -45,7 +45,7 @@ Bei der Analyse werden mehrere Indikatoren berechnet und es werden eine Reihe vo
 
 ![](assets/predictive_subject_line_example.png)
 
-## Modelle importieren     {#importing-models}
+## Modelle importieren      {#importing-models}
 
 Auf Ihrem Adobe-Campaign-Server laufen Modelle nicht standardmäßig. Für den Erhalt eines Modells und die Aktivierung der Funktion gibt es zwei Möglichkeiten:
 
