@@ -1,5 +1,5 @@
 ---
-title: Fehlerbehebung
+title: Problembehebung
 description: Hier finden Sie häufig gestellte Fragen zu dynamischen Berichten.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -209,18 +209,18 @@ Im folgenden Beispiel hat die Zelle die gleiche Farbe, da ihr Wert 100 % beträ
 
 ![](assets/troubleshooting_1.png)
 
-Wenn Sie die **[!UICONTROL bedingte Formatierung]in benutzerdefinierte Formatierung ändern, wird die Zelle grüner, wenn der Wert den oberen Grenzwert erreicht.** Wenn er umgekehrt jedoch den unteren Grenzwert erreicht, wird er röter.
+Wenn Sie die **[!UICONTROL bedingte Formatierung]** in benutzerdefinierte Formatierung ändern, wird die Zelle grüner, wenn der Wert den oberen Grenzwert erreicht. Wenn er umgekehrt jedoch den unteren Grenzwert erreicht, wird sie röter.
 
-For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONTROL Lower limit**] to 0.
+Hier legen wir beispielsweise die **[!UICONTROL Obergrenze]** mit 500 und die **[!UICONTROL Untergrenze**] mit 0 fest.
 
 ![](assets/troubleshooting_2.png)
 
-## Warum wird der Wert "K/A"in meinen Berichten angezeigt?
+## Warum wird der Wert "K. A." in meinen Berichten angezeigt?
 
 ![](assets/troubleshooting_3.png)
 
-Der Wert **K/A** kann manchmal in Ihren dynamischen Berichten erscheinen. Dies kann aus zwei Gründen angezeigt werden:
+Der Wert **K. A.** wird manchmal in Ihren dynamischen Berichten angegeben. Dafür gibt es zwei Gründe:
 
-* Die Lieferung wurde gelöscht und wird hier als **K/A** angezeigt, um keine Diskrepanz in den Ergebnissen zu verursachen.
-* Wenn Sie die Dimension " **[!UICONTROL Transaktionsbereitstellung]** "in Ihre Berichte ziehen und dort ablegen, wird der Wert **K/A** möglicherweise als Ergebnis angezeigt. Dies geschieht, weil der dynamische Bericht jede Auslieferung abruft, auch wenn sie nicht transaktional sind.
-Dies kann auch passieren, wenn Sie die Dimension " **[!UICONTROL Auslieferung]** "in Ihren Bericht ziehen und dort ablegen. In diesem Fall stellt der **N/A** -Wert jedoch Transaktionslieferungen dar.
+* Der Versand wurde gelöscht und wird hier als **K. A.** angegeben, sodass keine Diskrepanz in den Ergebnissen verursacht wird.
+* Wenn Sie die Dimension **[!UICONTROL Versand von Transaktionsnachrichten]** per Drag-and-Drop in Ihre Berichte ziehen, wird als Ergebnis möglicherweise der Wert **K. A.** angezeigt. Dies geschieht, weil der dynamische Bericht alle Sendungen abruft, auch wenn sie keine Transaktionsnachrichten sind.
+Dies kann auch passieren, wenn Sie die Dimension **[!UICONTROL Versand]** in Ihren Bericht ziehen. In diesem Fall stellt der Wert **K. A.** jedoch den Versand von Transaktionsnachrichten dar.
