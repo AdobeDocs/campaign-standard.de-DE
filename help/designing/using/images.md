@@ -35,7 +35,7 @@ Sie können Bilder mit Adobe Creative SDK ändern, vorausgesetzt dieses ist akti
 >
 >Wenn Sie ein Bild direkt durch Bearbeiten der HTML-Version der E-Mail hinzufügen möchten, dürfen Sie keine **externen Dateien in einem &lt;script&gt;-Tag** der HTML-Seite aufrufen. Der Adobe-Campaign-Server erlaubt keinen Import derartiger Dateien.
 
-### Bilder in eine E-Mail einfügen   {#inserting-images-in-an-email}
+### Bilder in eine E-Mail einfügen    {#inserting-images-in-an-email}
 
 1. Fügen Sie eine Strukturkomponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie innerhalb dieser Strukturkomponente eine Inhaltskomponente des Typs **[!UICONTROL Bild]** hinzu.
