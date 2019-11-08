@@ -23,7 +23,7 @@ Verwandte Themen:
 
 * [Ressource erstellen oder erweitern](../../developing/using/creating-or-extending-the-resource.md)
 * [Identifizierungsschlüssel definieren ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Campaign Standard-REST-APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Schritt 1: Identifizierungsschlüssel konfigurieren{#step-1-configure-the-identification-key}
 
@@ -104,4 +104,4 @@ In unserem Fall lautet die Syntax zum Abrufen eines Profils aus der Kategorie "s
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-For more details, refer to [Campaign Standard REST APIs documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Campaign Standard-REST-APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
