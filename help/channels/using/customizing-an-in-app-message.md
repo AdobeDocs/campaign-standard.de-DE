@@ -33,7 +33,7 @@ In Adobe Campaign stehen Ihnen zur Anpassung von In-App-Nachrichten bei deren Er
 
 * [In-App-Nachricht senden](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Berichte zum In-App-Nachrichtenversand](../../reporting/using/in-app-report.md)
-* [Implementieren der Verfolgung lokaler Benachrichtigungen](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [Lokales Benachrichtigungs-Tracking implementieren](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## Mit einer Nachrichtenvorlage anpassen {#customizing-with-a-message-template}
 
@@ -65,7 +65,7 @@ Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors 
 
 ![](assets/inapp_customize_4.png)
 
-### Medien     {#media}
+### Medien      {#media}
 
 Über die Dropdown-Liste **[!UICONTROL Medien]** können Sie Medien zu Ihrer In-App-Nachricht hinzufügen, um das Erlebnis für den Endnutzer attraktiv zu gestalten.
 
@@ -105,7 +105,7 @@ Sie können bei Bedarf zu Ihrer In-App-Nachricht auch einen Nachrichtentitel und
 
    ![](assets/inapp_customize_11.png)
 
-### Schaltflächen     {#buttons}
+### Schaltflächen      {#buttons}
 
 Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
@@ -127,7 +127,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
    ![](assets/inapp_customize_11.png)
 
-### Einstellungen     {#settings}
+### Einstellungen      {#settings}
 
 1. Wählen Sie in der Kategorie **[!UICONTROL Einstellungen]** eine helle oder dunkle Hintergrundfarbe aus.
 1. Wählen Sie über die Option **[!UICONTROL Schließen-Schaltfläche zeigen]** aus, ob eine Schließen-Schaltfläche angezeigt werden soll, mit der Benutzer die In-App-Nachricht entfernen können.
@@ -136,10 +136,10 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
    ![](assets/inapp_customize_7.png)
 
-## Nachricht vom Typ "Lokale Benachrichtigung" anpassen     {#customizing-a-local-notification-message-type}
+## Nachricht vom Typ "Lokale Benachrichtigung" anpassen      {#customizing-a-local-notification-message-type}
 
 Lokale Benachrichtigungen können nur von einer App zu einer bestimmten Zeit und abhängig von einem Ereignis ausgelöst werden. Mit lokalen Benachrichtigungen werden Benutzer über Prozesse in der App informiert, auch wenn kein Internetzugang vorhanden ist.
-Auf dieser [Seite](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)erfahren Sie, wie Sie lokale Benachrichtigungen verfolgen.
+Auf dieser [Seite](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html) erfahren Sie, wie Sie lokale Benachrichtigungen tracken.
 
 So passen Sie lokale Benachrichtigungen an:
 
