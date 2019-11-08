@@ -35,7 +35,7 @@ In diesen Bedienfeldern können Sie nach Bedarf Ihre Berichte erstellen. Sie kö
 
 Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
-## Freiformtabelle hinzufügen  {#adding-a-freeform-table}
+## Freiformtabelle hinzufügen   {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **Komponente** analysiert werden.
 
@@ -51,7 +51,7 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Ab Version 19.4 von Campaign wird der **[!UICONTROL Ausschlussnachweis]** bereits standardmäßig ausgewählt. Bei Bedarf können Sie das Segment ändern, indem Sie eines der **[!UICONTROL Segmente]** aus der Registerkarte " **[!UICONTROL Komponenten]** "in die obere Leiste ziehen.
+1. Ab der Campaign-Version 19.4 ist die Option **[!UICONTROL Testversand ausschließen]** standardmäßig ausgewählt. Bei Bedarf können Sie diese Auswahl ändern, indem Sie eines der **[!UICONTROL Segmente]** aus dem Tab **[!UICONTROL Komponenten]** in die Symbolleiste ziehen.
 
    ![](assets/dynamic_report_panel_3.png)
 
