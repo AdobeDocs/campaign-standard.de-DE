@@ -24,7 +24,7 @@ Die Adobe-Campaign-Plattform ermöglicht die Verwaltung von Kontakten über den 
 
 >[!NOTE]
 >
->Profile sind auch über die Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles).
+>Profile sind auch über die Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) .
 
 ![](assets/marketing_history.png)
 
