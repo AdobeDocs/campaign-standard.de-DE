@@ -40,7 +40,7 @@ Diese Funktion wird im Detail im [Dreamweaver-Handbuch](https://helpx.adobe.com/
 
 Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-Nachrichten in Adobe Campaign Standard verwendet werden. In [diesem Dokument](../../integrating/using/integrating-with-experience-manager.md) erfahren Sie mehr dazu.
 
-## Funktionen zur E-Mail-Erstellung im Vergleich      {#email-design-options-comparison}
+## Funktionen zur E-Mail-Erstellung im Vergleich       {#email-design-options-comparison}
 
 Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der folgenden Tabelle werden die wichtigsten Funktionen, Vorteile und Beschränkungen aufgeführt.
 
