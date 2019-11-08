@@ -1,6 +1,6 @@
 ---
 title: Landingpage-Vorlagen
-description: Weitere Informationen finden Sie unter Vorlagen für Einstiegsseiten.
+description: Hier finden Sie weitere Informationen zu Landingpage-Vorlagen.
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
