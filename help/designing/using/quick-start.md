@@ -107,7 +107,7 @@ Sie können das Design Ihrer E-Mail anpassen, beispielsweise den Abstand einer K
 
 Sie können Ihre E-Mail nun speichern und senden.
 
-### Erstellen von Inhalt aus einer vordefinierten Vorlage  {#building-content-from-an-out-of-the-box-template}
+### Erstellen von Inhalt aus einer vordefinierten Vorlage   {#building-content-from-an-out-of-the-box-template}
 
 Ihre E-Mails können Sie auch aus vordefinierten Vorlagen erstellen und diese personalisieren. Hier bieten sich zum Beispiel Willkommensnachrichten für Neukunden, Newsletter und Wiedereinstellungs-E-Mails an.
 
@@ -127,7 +127,7 @@ Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen vo
 
 Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, um sie in künftigen E-Mails wiederzuverwenden und zu kombinieren, sollten Sie Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen konvertieren.
 
-### Konvertieren von HTML-Inhalt  {#converting-an-html-content}
+### Konvertieren von HTML-Inhalt   {#converting-an-html-content}
 
 In diesem Anwendungsbeispiel erfahren Sie, wie Sie eine HTML-E-Mail rasch in Email Designer-Komponenten konvertieren können.
 
