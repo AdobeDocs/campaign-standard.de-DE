@@ -38,7 +38,7 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
 ![](assets/test_profile.png)
 
-## Verwaltung von Testprofilen    {#managing-test-profiles}
+## Verwaltung von Testprofilen     {#managing-test-profiles}
 
 ### Testprofile erstellen {#creating-test-profiles}
 
