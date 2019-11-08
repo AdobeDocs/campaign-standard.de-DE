@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Die Bereitstellung und Konfiguration von Audience Manager und People Core in Adobe Campaign erfolgt in zwei Schritten: [Zunächst wird ein Antrag an Adobe übermittelt](#submitting-request-to-adobe), dann [wird die Integration mit Adobe Campaign konfiguriert](#configuring-the-integration-in-adobe-campaign).
 
-## Antrag an Adobe übermitteln  {#submitting-request-to-adobe}
+## Antrag an Adobe übermitteln   {#submitting-request-to-adobe}
 
 Durch die Integration von Audience Manager (AAM) oder People Core Service können Sie Audiences oder Segmente in Adobe Campaign importieren und exportieren.
 
@@ -39,7 +39,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
   </tr> 
   <tr> 
    <td> <strong>Kennung der IMS-Organisation</strong><br /> </td> 
-   <td> Ihre IMS-Organisationskennung. <br> Ihre IMS-Organisationskennung finden Sie in Experience Cloud im Menü Administration. Die Kennung wird auch bei Ihrer erstmaligen Verbindung mit Adobe Experience Cloud bereitgestellt. </td> 
+   <td> Ihre IMS-Organisationskennung. <br> Ihre IMS-Organisationskennung finden Sie in Experience Cloud im Menü "Administration". Die Kennung wird auch bei Ihrer erstmaligen Verbindung mit Adobe Experience Cloud bereitgestellt. </td> 
   </tr> 
   <tr> 
    <td> <strong>Umgebung:</strong><br /> </td> 
@@ -60,17 +60,17 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
  </tbody> 
 </table>
 
-* Die **[!UICONTROL deklarierte ID]** funktioniert bei jeder Integration freigegebener Zielgruppen. Beachten Sie, dass sich die Verwendung der **[!UICONTROL deklarierten ID]** je nach Lösung ändern kann, wenn Sie den Hauptdienst "Personen"verwenden:
+* Die **[!UICONTROL Declared ID]** funktioniert für jede Integration mit freigegebenen Zielgruppen. Beachten Sie, dass sich bei der Verwendung des People Core Service die Nutzung der **[!UICONTROL Declared ID]** je nach Lösung ändern kann:
 
-* Wenn Zielgruppen über den Hauptdienst "Personen"von Adobe Campaign an Adobe Target freigegeben werden, kann die **[!UICONTROL deklarierte ID]** bereitgestellt werden.
-* Wenn Zielgruppen über den Hauptdienst "Personen"von Adobe Campaign in Ad Cloud freigegeben werden, können Sie die Bereitstellung **[!UICONTROL deklarierter ID]** nicht für die historische Aufstockung von Zielgruppen verwenden. Beim Erstellen von Zielgruppen ist auch mit einer gewissen Latenz zu rechnen.
-* Wenn Zielgruppen über den People Core Service von Adobe Analytics an Adobe Campaign freigegeben werden, werden Segmente nicht mit der **[!UICONTROL deklarierten ID]** in Adobe Campaign ausgefüllt.
+* Wenn Audiences über People Core Service von Adobe Campaign für Adobe Target freigegeben werden, kann die **[!UICONTROL Declared ID]** bereitgestellt werden.
+* Wenn Audiences über People Core Service von Adobe Campaign für Ad Cloud freigegeben werden, können Sie die Bereitstellung der **[!UICONTROL Declared ID]** nicht zur früheren Aufstockung von Audiences verwenden. Beim Erstellen von Audiences ist außerdem mit einer gewissen Latenz zu rechnen.
+* Wenn Audiences über People Core Service von Adobe Analytics für Adobe Campaign freigegeben werden, werden Segmente in Adobe Campaign nicht mit der **[!UICONTROL Declared ID]** befüllt.
 
-Wenn Sie Adobe Audience Manager anstelle des People Core Service verwenden, funktioniert die **[!UICONTROL deklarierte ID]** in allen Szenarien.
+Wenn Sie Adobe Audience Manager anstelle von People Core Service verwenden, funktioniert die **[!UICONTROL Declared ID]** in allen Szenarien.
 
-Die Bereitstellung einer **[!UICONTROL Declared ID]** können Sie unter folgender Adresse anfordern: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
+Sie können eine Anforderung zur Bereitstellung der **[!UICONTROL Declared ID]** an folgende Adresse richten: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
-## Die Integration mit Adobe Campaign konfigurieren  {#configuring-the-integration-in-adobe-campaign}
+## Die Integration mit Adobe Campaign konfigurieren   {#configuring-the-integration-in-adobe-campaign}
 
 Nach Übermittlung dieses Antrags wird dieser von Adobe bearbeitet. Sie werden ersucht, Informationen bereitzustellen, und darauf hingewiesen, dass Sie die Konfiguration abschließen müssen:
 
@@ -79,7 +79,7 @@ Nach Übermittlung dieses Antrags wird dieser von Adobe bearbeitet. Sie werden e
 * [Schritt 3: Konfigurieren Sie den Campaign Tracking Server.](#step-3--configure-campaign-tracking-server)
 * [Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst.](#step-4--configure-the-visitor-id-service)
 
-### Schritt 1: Konfigurieren bzw. überprüfen Sie die externen Konten in Adobe Campaign.  {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Schritt 1: Konfigurieren bzw. überprüfen Sie die externen Konten in Adobe Campaign.   {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Zunächst müssen die externen Konten in Adobe Campaign konfiguriert bzw. überprüft werden. Diese Konten sollten von Adobe konfiguriert und die erforderlichen Informationen sollten Ihnen übermittelt worden sein.
 
@@ -96,7 +96,7 @@ Gehen Sie dabei folgendermaßen vor:
 
 Ihre externen Konten sind für diese Integration somit konfiguriert.
 
-### Schritt 2: Konfigurieren Sie die Datenquellen.  {#step-2--configure-the-data-sources}
+### Schritt 2: Konfigurieren Sie die Datenquellen.   {#step-2--configure-the-data-sources}
 
 In Audience Manager werden diese zwei Datenquellen erstellt: Adobe Campaign (MID) und Adobe Campaign (DeclaredId). Diese beiden Datenquellen sind gleichzeitig auch in Adobe Campaign verfügbar:
 
@@ -132,7 +132,7 @@ So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 >
 >Das Feld **[!UICONTROL AAM Destination ID]** muss nicht ausgefüllt werden, wenn Sie die freigegebene Datenquelle für die [Campaign-Triggers-Integration](../../integrating/using/configuring-triggers-in-experience-cloud.md) konfigurieren. **[!UICONTROL Die Priorität]** muss nur bei der Konfiguration der Triggers-Campaign-Integration definiert werden. Mit der Priorität wird angegeben, welche Datenquelle als Erste konfiguriert wird. Als Priorität kann jede beliebige Zahl, wie 1 oder 100, eingegeben werden. Je höher die Priorität ist, desto höher ist auch die Präferenz bei der Abstimmung.
 
-### Schritt 3: Konfigurieren Sie den Campaign Tracking Server.  {#step-3--configure-campaign-tracking-server}
+### Schritt 3: Konfigurieren Sie den Campaign Tracking Server.   {#step-3--configure-campaign-tracking-server}
 
 Für die Konfiguration der Integration mit People Core Service oder Audience Manager muss auch der Campaign Tracking Server konfiguriert werden.
 
