@@ -32,7 +32,7 @@ Sie können die in einer Datei enthaltenen Daten erfassen und verarbeiten und/od
 
 Eine sorgfältige Arbeitsweise und die Befolgung der unten stehenden einfachen Regeln helfen Ihnen, die Datenbank konsistent zu halten und gängige Fehler bei der Datenbankaktualisierung oder beim Datenexport zu vermeiden.
 
-### Importvorlagen verwenden    {#using-import-templates}
+### Importvorlagen verwenden     {#using-import-templates}
 
 Import-Workflows sollten die folgenden Aktivitäten beinhalten: **[!UICONTROL Datei laden]**, **[!UICONTROL Abstimmung]**, **[!UICONTROL Segmentierung]**, **[!UICONTROL Deduplizierung]**, **[!UICONTROL Daten-Update]**.
 
@@ -48,7 +48,7 @@ Ein Beispiel für eine allgemeine Workflow-Vorlage zum Datenimport finden Sie in
 >
 >Sie können auch [Importvorlagen](../../automating/using/importing-data-with-import-templates.md) verwenden. Dies sind von einem Administrator definierte Workflow-Vorlagen, die nach ihrer Aktivierung nur mehr die Möglichkeit bieten, die Datei zu spezifizieren, die die Importdaten enthält.
 
-### Dateiformate mit einfach strukturierten Daten verwenden    {#using-flat-file-formats}
+### Dateiformate mit einfach strukturierten Daten verwenden     {#using-flat-file-formats}
 
 Das effizienteste Format für Importe sind flache Dateien, die im Bulk-Modus auf Datenbankebene importiert werden können.
 
@@ -69,7 +69,7 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-### Komprimierung verwenden    {#using-compression}
+### Komprimierung verwenden     {#using-compression}
 
 Verwenden Sie für Importe und Exporte möglichst ZIP-Dateien. GZIP wird standardmäßig unterstützt. Beim Import von Dateien können Sie über die Workflow-Aktivität **[!UICONTROL Datei laden]** eine Vorab-Bearbeitung hinzufügen. Bei der Datenextraktion können Sie über die Workflow-Aktivität **[!UICONTROL Dateiextraktion]** einen Anschlussvorgang hinzufügen.
 
@@ -79,7 +79,7 @@ Regelmäßige Importe müssen im Deltamodus durchgeführt werden. Damit wird gew
 
 Vollständige Importe sollten nur für das erstmalige Laden verwendet werden.
 
-### Konsistenz gewährleisten    {#maintaining-consistency}
+### Konsistenz gewährleisten     {#maintaining-consistency}
 
 Um die Konsistenz der Adobe-Campaign-Datenbank zu gewährleisten, befolgen Sie die unten stehenden Grundsätze:
 
@@ -89,7 +89,7 @@ Um die Konsistenz der Adobe-Campaign-Datenbank zu gewährleisten, befolgen Sie d
 * **Importieren Sie verknüpfte Dateien in der richtigen Reihenfolge**. Wenn der Import aus mehreren miteinander verbundenen Dateien besteht, sollte im Workflow darauf geachtet werden, dass die Dateien in der richtigen Reihenfolge importiert werden. Wenn der Import einer Datei fehlschlägt, werden auch die anderen nicht importiert.
 * Achten Sie beim Datenimport auf die **Deduplizierung**, die Abstimmung und die Gewährleistung der Konsistenz.
 
-## Beispiel: Import-Workflow-Vorlage    {#example--import-workflow-template}
+## Beispiel: Import-Workflow-Vorlage     {#example--import-workflow-template}
 
 Für den regelmäßigen Import von Dateien derselben Struktur empfiehlt sich die Verwendung einer Importvorlage.
 
