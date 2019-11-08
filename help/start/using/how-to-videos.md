@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Entdecken Sie die wichtigsten Funktionen, indem Sie sich unsere [Campaign Standard-Videos](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) ansehen.
 
-* [Creating an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html): zur Erstellung einer E-Mail in der Startseite von Adobe Campaign.
+* [Creating an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html): zur Erstellung einer E-Mail auf der Startseite von Adobe Campaign.
 * [Creating a landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html): zur Erstellung und Bearbeitung einer Landingpage in Adobe Campaign.
 * [Adobe Campaign and Dreamweaver integration](https://docs.campaign.adobe.com/doc/standard/en/Videos/ACS_Dreamweaver.mp4): zur Verwendung von Adobe Campaign Standard und Dreamweaver.
 * [Creating a workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html): zur Erstellung und Bearbeitung eines Workflows in Adobe Campaign.
