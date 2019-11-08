@@ -29,4 +29,4 @@ Jeder Dienst ist mit folgenden Mechanismen ausgestattet:
 * Vorhandensein von **Mechanismen zur Bestätigung** von An- und/oder Abmeldung.
 * Verfolgung des **Verlaufs** von An- und Abmeldungen.
 
-Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions).
+Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
