@@ -53,7 +53,7 @@ Ihre Versand mit dem dynamischen Bild kann jetzt durchgeführt werden. Die Ergeb
 
 **Verwandte Themen:**
 
-* [Adobe-Target-Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
+* [Adobe Target-Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
 * [Über die Inhaltserstellung in E-Mails](../../designing/using/overview.md)
 * Video [Personalize Email Images in Real-Time](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)
 
