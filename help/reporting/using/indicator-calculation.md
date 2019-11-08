@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand  {#email-delivery}
+## E-Mail-Versand   {#email-delivery}
 
 <table> 
  <thead> 
@@ -228,7 +228,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand  {#push-notification-delivery}
+## Push-Benachrichtigungsversand   {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -302,7 +302,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## In-App-Versand  {#in-app-delivery}
+## In-App-Versand   {#in-app-delivery}
 
 <table> 
  <thead> 
