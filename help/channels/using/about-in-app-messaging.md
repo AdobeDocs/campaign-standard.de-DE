@@ -30,7 +30,7 @@ Um In-App-Nachrichten mithilfe des Experience Platform SDK über Mobile Apps sen
 
 1. Sie benötigen in Adobe Campaign Zugriff auf den **[!UICONTROL In-App]**-Kanal. Wenn Sie keinen Zugriff auf diesen Kanal haben, kontaktieren Sie das für Ihr Konto zuständige Team.
 
-1. Um Anwendungsfälle für mobile Geräte in Adobe Campaign Standard mit einer Experience Cloud SDK-Anwendung zu nutzen, muss eine mobile App im Adobe Experience Platform Launch erstellt und in Adobe Campaign Standard konfiguriert werden. Eine schrittweise Anleitung finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. Um Anwendungsfälle für mobile Geräte in Adobe Campaign Standard mit einer Experience Cloud SDK-Anwendung zu nutzen, muss eine mobile App im Adobe Experience Platform Launch erstellt und in Adobe Campaign Standard konfiguriert werden. For the step-by-step guide, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 1. Nach der Konfiguration können Sie jetzt Ihre In-App-Nachricht vorbereiten. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
