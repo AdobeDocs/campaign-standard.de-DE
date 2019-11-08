@@ -33,7 +33,7 @@ Gehen Sie folgendermaßen vor, um mehrsprachige Inhaltsvarianten für Ihre Push-
 * [Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
 * [Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.     {#step-1--upload-multilingual-content-variant}
+## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.      {#step-1--upload-multilingual-content-variant}
 
 Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst die Inhaltsvarianten in einer mehrsprachigen Versandvorlage hochgeladen und der Versand erstellt werden.
 
@@ -55,7 +55,7 @@ Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst d
    Die hinzugefügten Abfragen hängen von der ausgewählten Vorlage ab: Wenn Sie die Vorlage **[!UICONTROL Mehrsprachige Push-Benachrichtigungen an Campaign-Profile senden]** auswählen, können Sie bekannte Empfänger Ihrer Mobile App abrufen. Wenn Sie jedoch die Vorlage **[!UICONTROL Mehrsprachige Push-Benachrichtigung an App-Abonnenten senden]** auswählen, können Sie alle angemeldeten Abonnenten einer bestimmten App abfragen.
    >[!NOTE]
    >
-   >Wenn Sie Zielgruppen mit bestimmten Sprachen auswählen, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten.
+   >Wenn Sie Audiences mit unterschiedlichen Sprachen auswählen, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten.
 
    ![](assets/push_notif_audience.png)
 
@@ -82,7 +82,7 @@ Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst d
 
 Jetzt können Sie mit der Personalisierung Ihrer mehrsprachigen Push-Benachrichtigung beginnen.
 
-## Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.     {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.      {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Nach dem Hochladen der Datei mit den Inhaltsvarianten können Sie sich jetzt die verschiedenen Varianten über den Push-Benachrichtigungsversand in der Vorschau ansehen.
 
@@ -110,7 +110,7 @@ Zusätzlich zu den von der Datei hochgeladenen Varianten können Sie auch weiter
 
 Ihre mehrsprachige Push-Benachrichtigung kann jetzt gesendet werden.
 
-## Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.     {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.      {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Ihre mehrsprachigen Push-Benachrichtigungen mit Inhaltsvarianten sind jetzt bereit zum Versenden.
 
@@ -134,4 +134,4 @@ Jetzt können Sie die Wirkung Ihres mehrsprachigen Push-Benachrichtigungs-Versan
 
 * [Bericht zu Push-Benachrichtigungen](../../reporting/using/push-notification-report.md)
 * [Push-Benachrichtigungen in einem Workflow versenden](../../automating/using/push-notification-delivery.md)
-* [Erreichen mehrsprachiger Zielgruppen mit einem Workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
