@@ -28,16 +28,16 @@ In Adobe Campaign stehen Ihnen vier Nachrichtenkanäle zur Verfügung:
 * E-Mail, siehe Abschnitt [E-Mails erstellen](../../channels/using/about-emails.md)
 * SMS, siehe Abschnitt [SMS erstellen](../../channels/using/about-sms-messages.md)
 * Push-Benachrichtigungen, siehe Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/about-push-notifications.md)
-* In-App-Nachrichten, siehe Abschnitt [Über In-App-Messaging](../../channels/using/about-in-app-messaging.md).
+* In-App-Nachrichten, siehe Abschnitt [Über In-App-Messaging](../../channels/using/about-in-app-messaging.md)
 * Briefpost, siehe Abschnitt [Briefpost-Versand erstellen](../../channels/using/about-direct-mail.md)
 
 Alle Marketing-Aktivitäten basieren auf Vorlagen. In Vorlagen können Sie häufig verwendete Eigenschaften konfigurieren, sodass Sie Zeit sparen und Ihre Kommunikationsstrategie konsistent gestalten können.
 
 Im Fall einer E-Mail-Vorlage kann der funktionale Administrator, der für die Konfiguration der Vorlagen verantwortlich ist, Folgendes definieren:
 
-* Standardparameter - Audience, Planung, Inhalt;
-* Erweiterte Parameter - Versand, Gültigkeit, Tracking etc.;
-* Zielgruppen- und Personalisierungsparameter (im Zielgruppen-Kontext).
+* Standardparameter - Audience, Planung, Inhalt
+* Erweiterte Parameter - Versand, Gültigkeit, Tracking etc.
+* Zielgruppen- und Personalisierungsparameter (im Zielgruppen-Kontext)
 
 **Verwandte Themen**:
 
