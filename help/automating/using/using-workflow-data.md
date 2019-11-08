@@ -29,6 +29,6 @@ Nach Identifizierung und Aufbereitung der Daten können diese in folgenden Konte
 Nach der Definition eines Profilziels können Sie mehrere Aktivitäten verwenden, um Sendungen zu erstellen und durchzuführen:
 
 * Die **[!UICONTROL E-Mail-Versandaktivität]** ermöglicht den Versand von E-Mails innerhalb eines Workflows. Dabei kann es sich um eine **Einmalige E-Mail** handeln, die nur einmal gesendet wird, oder um eine **Wiederkehrende E-Mail**.
-* Die **[!UICONTROL SMS-Versandaktivität]** ermöglicht den Versand von SMS innerhalb eines Workflows. Bei **einmaligen Versandaktionen** handelt es sich um Standard-SMS, die nur einmal gesendet werden.****
+* Die **[!UICONTROL SMS-Versandaktivität]** ermöglicht den Versand von SMS innerhalb eines Workflows. Bei **einmaligen Versandaktionen** handelt es sich um Standard-SMS, die nur **einmal** gesendet werden.
 * Der **[!UICONTROL Mobile-App-Versand]** ermöglicht das Konfigurieren des Versands von Push-Benachrichtigungen innerhalb eines Workflows. Diese Benachrichtigung kann **einmalig** sein oder **wiederkehrend**.
 
