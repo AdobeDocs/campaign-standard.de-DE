@@ -32,13 +32,13 @@ Standardberechtigungen sind:
 * **[!UICONTROL Data Model]**: Berechtigt zur Durchführung von Publikationen und zur Erstellung von benutzerdefinierten Ressourcen.
 * **[!UICONTROL Export]**: Berechtigt zum Export von Daten.
 * **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Dazu muss die Rolle **[!UICONTROL Allgemeiner Import]** mit der **[!UICONTROL Workflow]**-Rolle verknüpft werden.
-* **[!UICONTROL Lieferungen]** vorbereiten: Recht zum Erstellen, Ändern, Vorbereiten und Löschen von Auslieferungen. Benutzer mit dieser Rolle können die Bereitstellung vorbereiten, aber nicht senden.
-* **[!UICONTROL Auslieferungen]** starten: Berechtigung zum Erstellen, Ändern, Vorbereiten, Senden und Löschen von Auslieferungen.
-* **[!UICONTROL Arbeitsablauf]**: Berechtigung zum Erstellen, Ändern, Starten und Löschen von Workflows. Benutzer mit dieser Rolle können keine Bereitstellung auch in einem Workflow senden.
+* **[!UICONTROL Sendungen vorbereiten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten und Löschen von Sendungen. Benutzer mit dieser Rolle können einen Versand vorbereiten, aber nicht durchführen.
+* **[!UICONTROL Sendungen starten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten, Senden und Löschen von Sendungen.
+* **[!UICONTROL Workflow]**: Berechtigung zum Erstellen, Ändern, Starten und Löschen von Workflows. Benutzer mit dieser Rolle können auch in einem Workflow keine Sendungen durchführen.
 
 >[!CAUTION]
 >
->Die **[!UICONTROL Rollen "Auslieferbarkeit]**", " **[!UICONTROL Befehlsausführung]**", " **[!UICONTROL Export]**", " **[!UICONTROL Dateizugriff]** "und " **[!UICONTROL Nachrichtencenter"sind nur für Adobe-Administratoren gültig, wenn sie intern verwendet werden]** . Sie sollten keinem Benutzer gewährt werden.
+>Die Rollen **[!UICONTROL Zustellbarkeit]**, **[!UICONTROL Befehlsausführung]**, **[!UICONTROL Export]**, **[!UICONTROL Zugriff auf Daten]** und **[!UICONTROL Message Center Push]** sind nur für die interne Nutzung durch Adobe-Administratoren vorgesehen. Diese Rollen sollten Benutzern nicht gewährt werden.
 
 **Verwandte Themen:**
 
