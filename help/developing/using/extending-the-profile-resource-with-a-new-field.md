@@ -42,7 +42,7 @@ Verwandte Themen:
 * [Verwaltung von Profilen](../../audiences/using/about-profiles.md)
 * [Verwaltung von Testprofilen](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
 
-## Schritt 1: Profil-Ressource erweitern   {#step-1--extend-the-profile-resource}
+## Schritt 1: Profil-Ressource erweitern    {#step-1--extend-the-profile-resource}
 
 Um das neue Feld **Interessen** für unsere Profile zu erstellen, müssen Sie zunächst die native Ressource **[!UICONTROL Profile (profile)]** erweitern.
 
@@ -96,7 +96,7 @@ Ihr Feld wird daraufhin konfiguriert. Jetzt wird es auf das Testprofil erweitert
 >
 >Wenn Sie die Testprofil-Ressource nicht erweitern müssen, können Sie mit dem Schritt zum Publizieren fortfahren.
 
-## Schritt 2: Testprofil erweitern   {#step-2--extend-the-test-profile}
+## Schritt 2: Testprofil erweitern    {#step-2--extend-the-test-profile}
 
 Um zu überprüfen, ob das neu erstellte Feld korrekt konfiguriert ist, können Sie es testen, indem Sie Ihre Nachricht an Testprofile senden. Zunächst muss das neue Feld auch auf die Testprofile übertragen werden.
 
@@ -121,7 +121,7 @@ Um zu überprüfen, ob das neu erstellte Feld korrekt konfiguriert ist, können 
 
 Ihr neues Feld ist jetzt sowohl in den Profilen als auch in den Testprofilen verfügbar. Damit es korrekt konfiguriert wird, müssen Sie Ihre benutzerdefinierte Ressource publizieren.
 
-## Schritt 3: Benutzerdefinierte Ressource publizieren   {#step-3--publish-your-custom-resource}
+## Schritt 3: Benutzerdefinierte Ressource publizieren    {#step-3--publish-your-custom-resource}
 
 Zur Übernahme der Änderungen der Ressourcen und deren Verwendung muss die Datenbank aktualisiert werden.
 
@@ -145,7 +145,7 @@ Zur Übernahme der Änderungen der Ressourcen und deren Verwendung muss die Date
 
 Ihr neues Ressourcenfeld kann jetzt verwendet und beispielsweise bei einem Versand ausgewählt werden.
 
-## Schritt 4: Profile mit einem Workflow aktualisieren und auswählen   {#step-4--update-and-target-profiles-with-a-workflow}
+## Schritt 4: Profile mit einem Workflow aktualisieren und auswählen    {#step-4--update-and-target-profiles-with-a-workflow}
 
 Um Profile mit Daten aus dem neuen benutzerdefinierten Feld zu aktualisieren, können Sie eine Landingpage mithilfe der Vorlage **[!UICONTROL Profilakquise]** erstellen. Weiterführende Informationen zu Landingpages finden Sie auf dieser [Seite](../../channels/using/about-landing-pages.md).
 
