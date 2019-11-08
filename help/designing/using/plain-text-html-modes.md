@@ -1,5 +1,5 @@
 ---
-title: 'Text- und HTML-Modus    '
+title: Text- und HTML-Modus
 description: Entdecken Sie den Plain Text- und den HTML-Modus
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -17,7 +17,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ---
 
 
-# Text- und HTML-Modus      {#plain-text-and-html-modes}
+# Text- und HTML-Modus  {#plain-text-and-html-modes}
 
 ## Textversion der E-Mail erstellen {#generating-a-text-version-of-the-email}
 
