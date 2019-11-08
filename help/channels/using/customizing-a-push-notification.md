@@ -48,7 +48,7 @@ Benutzer werden durch den Ton auf den Empfang einer Push-Benachrichtigung hingew
 
 Der Benutzer erhält die Push-Benachrichtigung und den Ton nur, wenn sein Telefon nicht stummgeschaltet ist.
 
-## Badge-Wert aktualisieren  {#refresh-the-badge-value}
+## Badge-Wert aktualisieren   {#refresh-the-badge-value}
 
 Mit einem Badge wird die Anzahl der neuen ungelesenen Nachrichten direkt auf dem App-Symbol angezeigt. Der Badge-Wert verschwindet, sobald der Benutzer den neuen Inhalt in der Anwendung öffnet oder liest.
 
@@ -68,7 +68,7 @@ Wenn eine Benachrichtigung auf einem Gerät empfangen wird, kann der Badge-Wert 
 
    ![](assets/push_notif_advanced_1.png)
 
-## Deeplink hinzufügen  {#add-a-deeplink}
+## Deeplink hinzufügen   {#add-a-deeplink}
 
 Mit einem Deeplink gelangen Benutzer direkt zu Inhalten, die in der Anwendung enthalten sind (anstatt eine Webseite zu öffnen).
 
@@ -85,7 +85,7 @@ Gehen Sie folgendermaßen vor, um einen Deeplink zu einer Push-Benachrichtigung 
 
    ![](assets/push_notif_advanced_4.png)
 
-## Aktion definieren  {#define-an-action}
+## Aktion definieren   {#define-an-action}
 
 Sie können eine Kategorie-Kennung hinzufügen, sofern eine in der Mobile App verfügbar ist, und dann Aktionsschaltflächen anzeigen. Mit diesen Benachrichtigungen können Benutzer rascher unterschiedliche Aufgaben ausführen, ohne die Anwendung öffnen oder darin navigieren zu müssen.
 
@@ -110,27 +110,27 @@ Abhängig von der Aktion der Benutzer wird die Anwendung benachrichtigt, sodass 
 
 >[!NOTE]
 >
->Diese Änderungen gelten nur ab Version 19.4 von Campaign Standard.
+>Diese Änderungen gelten erst ab der Campaign Standard-Version 19.4.
 
-Wenn Sie ein Ablaufdatum für Ihre Push-Benachrichtigung festlegen, können Sie ein bestimmtes Ablaufdatum festlegen, an dem die Nachricht nicht mehr von Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) oder Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)) gesendet wird.
+Durch das Festlegen eines Ablaufdatums für eine Push-Benachrichtigung wird diese Nachricht von Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) oder Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)) nach diesem Datum nicht mehr gesendet.
 
 So fügen Sie Ihrer Push-Benachrichtigung ein Ablaufdatum hinzu:
 
-1. Aktivieren Sie die Option **[!UICONTROL Läuft ab-Meldung]** .
+1. Aktivieren Sie die Option für den **[!UICONTROL Ablauf der Nachricht]**.
 
    >[!NOTE]
    >
-   >Durch Auswahl der Option **[!UICONTROL Läuft ab-Meldung]** wird die Dauer automatisch auf 0 eingestellt. Wenn Sie den Wert nicht ändern, versuchen sowohl APNS als auch FCM, die Nachricht sofort zu senden. Wenn die Meldung fehlschlägt, wird sie nicht erneut gesendet.
+   >Durch die Auswahl dieser Option **** wird die Dauer automatisch auf 0 eingestellt. Wenn Sie den Wert nicht ändern, versuchen sowohl APNS als auch FCM, die Nachricht sofort zu senden. Wenn der Versand fehlschlägt, wird die Nachricht nicht erneut gesendet.
 
-1. Wählen Sie im Feld **[!UICONTROL Dauer]** die Gültigkeit Ihrer Push-Benachrichtigung aus.
+1. Wählen Sie im Feld **[!UICONTROL Dauer]** die Gültigkeitsdauer Ihrer Push-Benachrichtigung aus.
 
    ![](assets/push_expiration.png)
 
-1. Wenn der Benutzer die Push-Benachrichtigung nach dem Senden nicht sofort erhalten hat, weil das Telefon nicht eingeschaltet ist oder kein Signal hat, wird der Push-Vorgang weiterhin innerhalb des Zeitfensters für das Ablaufdatum gesendet.
+1. Wenn der Benutzer die Push-Benachrichtigung nach dem Senden nicht sofort erhalten hat, weil das Telefon nicht eingeschaltet war oder er keinen Empfang hatte, wird die Push-Benachrichtigung dennoch innerhalb der Gültigkeitsdauer gesendet.
 
-Wenn die Push-Benachrichtigung nicht vor dem Ablaufdatum gesendet wurde, wird sie verworfen.
+Wenn die Push-Benachrichtigung aber nicht vor dem Ende der Gültigkeitsdauer gesendet werden kann, wird sie verworfen.
 
-## Benutzerdefinierte Felder hinzufügen  {#add-custom-fields}
+## Benutzerdefinierte Felder hinzufügen   {#add-custom-fields}
 
 Mit benutzerdefinierten Feldern können Sie benutzerdefinierte Daten in der Payload in Form eines Schlüssel-/Werte-Paares übermitteln. Mit dieser Option haben Sie die Möglichkeit, neben den vordefinierten Schlüsseln auch Zusatzdaten an die Anwendung zu senden.
 
@@ -167,7 +167,7 @@ Gehen Sie folgendermaßen vor, um Rich-Media-Inhalte in Push-Benachrichtigungen 
 
    ![](assets/push_notif_advanced_2.png)
 
-## Verhalten von Benachrichtigungen für iOS ändern  {#change-the-notification-behavior-for-ios}
+## Verhalten von Benachrichtigungen für iOS ändern   {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
