@@ -47,4 +47,4 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
 
 **Verwandtes Thema:**
 
-* [Erreichen mehrsprachiger Zielgruppen mit einem Workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
