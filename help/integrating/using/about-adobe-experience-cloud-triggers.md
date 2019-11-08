@@ -28,11 +28,11 @@ In Adobe Campaign werden der zuvor erstellte Trigger ausgewählt, die Ereignisda
 
 **Verwandte Themen:**
 
-* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zur Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html).
+* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zu Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html).
 * Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) an.
 * Erfahren Sie mehr in unseren zwei [Anwendungsbeispielen zur Abbruchsauslösung](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Die Verwendung von Triggern  {#triggers-user-process}
+## Die Verwendung von Triggern   {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ Gehen Sie in Adobe Campaign wie folgt vor:
 
 Vollständige Anwendungsbeispiele werden in [diesem Abschnitt](../../integrating/using/abandonment-triggers-use-cases.md) erläutert.
 
-## Wichtige Hinweise  {#important-notes}
+## Wichtige Hinweise   {#important-notes}
 
 Beachten Sie bei der Verwendung der Triggers-Campaign-Integration Folgendes:
 
