@@ -60,19 +60,19 @@ Gehen Sie hierzu wie folgt vor:
 
 Nachdem all diese Etappen durchlaufen sind, erhält ein Webseitenbesucher, sobald er die Seite verlässt, ohne die Artikel in seinem Warenkorb bestellt zu haben, automatisch eine Benachrichtigungs-E-Mail.
 
-## Veröffentlichungsprozess für Transaktionsnachrichten {#transactional-messaging-pub-process}
+## Publikationsprozess bei Transaktionsnachrichten {#transactional-messaging-pub-process}
 
-Die nachstehende Tabelle zeigt den Prozess der Veröffentlichung von Transaktionsnachrichten.
+Die nachstehende Tabelle zeigt den Publikationsprozess bei Transaktionsnachrichten.
 
 ![](assets/message-center_pub-process.png)
 
-Weitere Informationen zu den Schritten zur Ereigniskonfiguration finden Sie unter Konfiguration[von ](../../administration/using/configuring-transactional-messaging.md)Transaktionsnachrichten.
+Weiterführende Informationen zu den Schritten der Ereigniskonfiguration finden Sie unter [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md).
 
 ## Einschränkungen bei Transaktionsnachrichten {#transactional-messaging-limitations}
 
 >[!NOTE]
 >
->Für den Zugriff auf Transaktionsmeldungen benötigen Sie Administratorrechte.
+>Für den Zugriff auf Transaktionsnachrichten benötigen Sie Administratorrechte.
 
 ### Gestaltung und Publikation {#design-and-publication}
 
@@ -84,7 +84,7 @@ Bei der Gestaltung und Publikation von Transaktionsnachrichten können manche Sc
 * Es ist nicht möglich, eine Publikation rückgängig zu machen, Sie können aber ein Ereignis depublizieren: Dadurch wird der Zugriff auf das Ereignis und die damit verknüpften Transaktionsnachrichten gesperrt. Siehe [Ereignis depublizieren](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * Die einzige Transaktionsnachricht, die mit einem Ereignis verknüpft werden kann, ist die Nachricht, die automatisch beim Publizieren dieses Ereignisses erstellt wird. Siehe [Vorschau erstellen und Ereignis publizieren](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
 
-### Personalisierung   {#personalization}
+### Personalisierung    {#personalization}
 
 Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ der Transaktionsnachricht ab. Unten finden Sie die Spezifikationen:
 
@@ -103,15 +103,15 @@ Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ 
 
 Beachten Sie, dass Produktlisten nur in Nachrichten von Transaktions-E-Mails verfügbar sind. Siehe [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
-### Berechtigungen und Branding   {#permissions-and-branding}
+### Berechtigungen und Branding    {#permissions-and-branding}
 
-Beim [Branding](../../administration/using/branding.md) bieten Transaktionsnachrichten weniger Flexibilität als Standardnachrichten. Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md). Weiterführende Informationen dazu finden Sie in der unten stehenden Erläuterung.
+Beim [Branding](../../administration/using/branding.md) bieten Transaktionsnachrichten weniger Flexibilität als Standardnachrichten. Adobe empfiehlt, alle in Transaktionsnachrichten verwendeten Marken mit der Organisationseinheit **[!UICONTROL Alle]** [ zu verknüpfen](../../administration/using/organizational-units.md). Weiterführende Informationen dazu finden Sie in der unten stehenden Erläuterung.
 
 Bei der Bearbeitung einer Transaktionsnachricht können Sie sie mit einer Marke verknüpfen, um einige Parameter automatisch einzufügen, wie z. B. den Markennamen oder das Markenlogo. In den Eigenschaften der Transaktionsnachricht ist standardmäßig die **[!UICONTROL Standardmarke]** ausgewählt.
 
 ![](assets/message-center_branding.png)
 
-All objects (including branding) used in a transactional message must be visible from the **[!UICONTROL Message Center]** organizational unit, meaning that these objects must be in the **[!UICONTROL Message Center]** or **[!UICONTROL All]** organizational units.
+Alle in einer Transaktionsnachricht verwendeten Objekte (einschließlich der Marke) müssen in der Organisationseinheit **[!UICONTROL Message Center]** sichtbar sein, d. h. diese Objekte müssen sich in der Organisationseinheit **[!UICONTROL Message Center]** oder **[!UICONTROL Alle]** befinden.
 
 Wenn aber die in den Nachrichteneigenschaften ausgewählte Marke mit einer anderen Organisationseinheit als **[!UICONTROL Message Center]** or **[!UICONTROL Alle]** verknüpft ist, tritt ein Fehler auf und die Transaktionsnachricht kann nicht gesendet werden.
 
