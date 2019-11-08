@@ -34,18 +34,18 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 
 >[!NOTE]
 >
->Für den Zugriff auf Transaktionsmeldungen müssen Sie zur Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** gehören.
+>Sie können nur dann auf Transaktionsmeldungen zugreifen, wenn Sie der Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** angehören.
 >
 >Ermüdungsregeln sind mit Profil-Transaktionsnachrichten kompatibel. Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md).
 
-## Profil-Transaktionsnachricht senden   {#sending-a-profile-transactional-message}
+## Profil-Transaktionsnachricht senden    {#sending-a-profile-transactional-message}
 
 Die Schritte für das Erstellen, Personalisieren und Publizieren einer Profil-Transaktionsnachricht sind mit denen einer Ereignis-Transaktionsnachricht identisch. Siehe [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 
 Die Unterschiede sind unten aufgeführt.
 
 1. Rufen Sie die erstellte Transaktionsnachricht auf, um sie zu bearbeiten.
-1. Klicken Sie in der Transaktionsnachricht auf den Bereich **[!UICONTROL Inhalt]**. In addition to the transactional template, you can also choose any email template targeting **[!UICONTROL Profile]**.
+1. Klicken Sie in der Transaktionsnachricht auf den Bereich **[!UICONTROL Inhalt]**. Anstelle der Transaktionsvorlage können Sie auch eine beliebige E-Mail-Vorlage auswählen, die auf die Ressource **[!UICONTROL Profil]** ausgerichtet ist.
 
    ![](assets/message-center_marketing_templates.png)
 
@@ -59,7 +59,7 @@ Die Unterschiede sind unten aufgeführt.
 
 1. Speichern Sie Ihre Änderungen und publizieren Sie die Nachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Versand einer Profil-Transaktionsnachricht verfolgen   {#monitoring-a-profile-transactional-message-delivery}
+## Versand einer Profil-Transaktionsnachricht verfolgen    {#monitoring-a-profile-transactional-message-delivery}
 
 Nachdem die Nachricht publiziert wurde und Ihre Webseiten-Integration abgeschlossen ist, kann der Versand verfolgt werden.
 
