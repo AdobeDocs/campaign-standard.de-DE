@@ -24,7 +24,7 @@ Das Dashboard einer Nachricht enthält einen Arbeitsbereich mit verschiedenen Ka
 
 ![](assets/delivery_dashboard_2.png)
 
-## Graue Leiste    {#gray-bar}
+## Graue Leiste     {#gray-bar}
 
 Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 
@@ -37,7 +37,7 @@ Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 * [Kanäle konfigurieren](../../administration/using/about-channel-configuration.md)
 * [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Symbolleiste    {#action-bar}
+## Symbolleiste     {#action-bar}
 
 Die Symbolleiste enthält verschiedene Schaltflächen, die die Bearbeitung der Nachricht ermöglichen.
 
@@ -65,7 +65,7 @@ Je nach angegebenen Parametern und Bearbeitungsfortschritt stehen gewisse Schalt
 
    Lesen Sie diesbezüglich auch den Abschnitt [Nachrichten senden](../../sending/using/confirming-the-send.md).
 
-## Bausteine    {#blocks}
+## Bausteine     {#blocks}
 
 Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel, um auf die entsprechenden Versandparameter zugreifen zu können:
 
