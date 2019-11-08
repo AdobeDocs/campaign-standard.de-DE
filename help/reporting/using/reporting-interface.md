@@ -47,9 +47,9 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * [Bedienfelder hinzufügen](../../reporting/using/adding-panels.md)
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
-* [Automatisches Freigeben von Berichten per E-Mail an Interessenvertreter](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## Tabs     {#tabs}
+## Tabs      {#tabs}
 
 In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
@@ -73,7 +73,7 @@ Die Symbolleiste befindet sich über Ihrem Arbeitsbereich. Sie besteht aus versc
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 
-### Projekt-Tab     {#project-tab}
+### Projekt-Tab      {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -94,7 +94,7 @@ Im Tab **Bearbeiten** haben Sie folgende Möglichkeiten:
 * **Rückgängig**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
 * **Alle löschen**: Löscht alle Bedienfelder in Ihrem Dashboard.
 
-### Einfügen-Tab     {#insert-tab}
+### Einfügen-Tab      {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -105,7 +105,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * **Neue Zeile**: Fügt ein neues Liniendiagramm zu Ihrem Dashboard hinzu.
 * **Neuer Balken**: Fügt ein neues Balkendiagramm zu Ihrem Dashboard hinzu.
 
-### Freigabe-Tab     {#share-tab}
+### Freigabe-Tab      {#share-tab}
 
 ![](assets/tab_share_1.png)
 
@@ -149,4 +149,4 @@ Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang di
 
 **Verwandtes Thema:**
 
-* [Automatisches Freigeben von Berichten per E-Mail an Interessenvertreter](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
