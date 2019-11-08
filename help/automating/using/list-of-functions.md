@@ -35,7 +35,7 @@ Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Fu
 * String-Funktionen
 * Sortierungs-Funktionen
 
-## Datum-Funktionen     {#dates}
+## Datum-Funktionen      {#dates}
 
 Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 
@@ -279,7 +279,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
  </tbody> 
 </table>
 
-## Geomarketing     {#geomarketing}
+## Geomarketing      {#geomarketing}
 
 Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
 
@@ -298,7 +298,7 @@ Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
  </tbody> 
 </table>
 
-## Numerisch     {#numerical}
+## Numerisch      {#numerical}
 
 Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
@@ -382,7 +382,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
  </tbody> 
 </table>
 
-## Sonstige     {#others}
+## Sonstige      {#others}
 
 In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 
@@ -476,7 +476,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  </tbody> 
 </table>
 
-## String     {#string}
+## String      {#string}
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
@@ -711,7 +711,7 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
  </tbody> 
 </table>
 
-## Darstellung     {#representation}
+## Darstellung      {#representation}
 
 Die Darstellungsfunktionen dienen der Ordnung von Werten.
 
