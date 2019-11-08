@@ -37,7 +37,7 @@ In Adobe Campaign sind drei Arten von In-App-Nachrichten verfügbar:
 
 ![](assets/diagram_inapp.png)
 
-## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden    {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden     {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 In Adobe Campaign sind Attribute zu mobilen Profilen, die von Mobilgeräten gesendet werden, in der Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** gespeichert. Dort können die Daten definiert werden, die über die Abonnenten Ihrer Apps gesammelt werden sollen.
 
@@ -97,7 +97,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
       Weiterführende Informationen zum Erstellen von Ereignissen finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-   * **[!UICONTROL Life-Cycle-Ereignisse]**: Native Life-Cycle-Ereignisse, die von Adobe Mobile SDK unterstützt werden.
+   * **[!UICONTROL Life-Cycle-Ereignisse]**: Native Life-Cycle-Ereignisse, die vom Adobe Mobile SDK unterstützt werden.
 
       Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
 
