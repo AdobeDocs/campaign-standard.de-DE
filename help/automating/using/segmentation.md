@@ -30,7 +30,7 @@ Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Akti
 >
 >Ein Mitglied der eingehenden Population kann standardmäßig nur einem einzigen Segment angehören. Die Anwendung der Filter erfolgt in der Reihenfolge der Segmente in der Aktivität.
 
-## Anwendungskontext  {#context-of-use}
+## Anwendungskontext   {#context-of-use}
 
 Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss etc.), sodass die Segmente auf der Basis der vorher bestimmten Standardpopulation erstellt werden können.
 
