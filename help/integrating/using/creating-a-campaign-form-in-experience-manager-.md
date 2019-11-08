@@ -40,4 +40,4 @@ Gehen Sie zur Erstellung eines Adobe Campaign-Formulars auf Ihrer AEM-Seite wie
 1. Bearbeiten Sie den Formularinhalt, indem Sie verschiedene Felder und Komponenten hinzufügen, die Sie den Feldern der Adobe-Campaign-Datenbank zuordnen können.
 1. Testen und publizieren Sie das Formular, damit sich über Ihre AEM-Seite darauf zugreifen lässt.
 
-Weitere Informationen finden Sie im [entsprechenden Handbuch](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/adobe-campaign-forms.html).
+Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/adobe-campaign-forms.html).
