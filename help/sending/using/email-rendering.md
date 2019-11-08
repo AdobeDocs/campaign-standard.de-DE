@@ -68,7 +68,7 @@ Der E-Mail-Rendering-Bericht wird angezeigt. Siehe [Beschreibung des E-Mail-Rend
 * [Testprofile verwalten und Testsendungen durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Abfrageeditor](../../automating/using/editing-queries.md#about-query-editor)
 
-## Beschreibung des E-Mail-Rendering-Berichts  {#email-rendering-report-description}
+## Beschreibung des E-Mail-Rendering-Berichts   {#email-rendering-report-description}
 
 Dieser Bericht enthält Informationen zum E-Mail-Rendering, d. h. zur Darstellung der E-Mail in der Inbox des Empfängers. E-Mail-Renderings können unterschiedlich aussehen, je nachdem ob die E-Mail in einem Browser, auf einem Mobilgerät oder über eine E-Mail-Anwendung geöffnet wird.
 
