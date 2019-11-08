@@ -22,14 +22,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Campaign bietet eine Landingpage-Funktion an. Landingpages sind Webformulare, mit denen Sie Informationen zu Ihren Audiences erfassen, Abonnements für einen Dienst anbieten, Daten darstellen und Ihre Datenbank erweitern können. Landingpages können außerdem zur Akquise oder Aktualisierung bestehender Profile verwendet werden.
 
-Weitere Informationen zu den erforderlichen Schritten zum Einrichten einer Einstiegsseite finden Sie in [diesem Abschnitt](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+Weitere Informationen zu den erforderlichen Schritten zum Einrichten einer Landingpage finden Sie in [diesem Abschnitt](../../channels/using/main-steps-to-set-up-a-landing-page.md).
 
 **Verwandte Themen:**
 
-* [Video](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) zum Erstellen eines Einstiegsseitentrags
-* [Verwenden einer Einstiegsseite zum Abonnieren eines Dienstes](../../audiences/using/creating-a-service.md)
+* [Anleitungsvideo zum Erstellen einer Landingpage](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* [Über eine Landingpage bei einem Dienst anmelden](../../audiences/using/creating-a-service.md)
 
-## Lebenszyklus von Einstiegsseiten {#landing-pages-life-cycle}
+## Lebenszyklus von Landingpages{#landing-pages-life-cycle}
 
 Ein vollständiger Landingpage-Lebenszyklus umfasst die folgenden Phasen:
 
@@ -44,9 +44,9 @@ Nach der Erstellung und Publikation einer Landingpage können Sie diese auf eine
 
 ## Einschränkungen bei Landingpages{#landing-page-limitations}
 
-Im folgenden Abschnitt werden die Einschränkungen aufgelistet, die Sie beachten sollten, bevor Sie mit der Einrichtung der Einstiegsseiten beginnen.
+Im folgenden Abschnitt finden Sie die Einschränkungen, die Sie kennen sollten, bevor Sie mit dem Einrichten von Landingpages beginnen.
 
-**Daten schreiben und aktualisieren**
+**Schreiben und Aktualisieren von Daten**
 
 * Landingpages sind auf **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]** und über die Anmeldung zu/Abmeldung von einem **[!UICONTROL Dienst]** möglich.
 Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
@@ -75,6 +75,6 @@ Hier wurde nur das erste Profil aktualisiert, da dessen Eintrag früher erfolgte
 
 ![](assets/landing_page_limitation_2.png)
 
-**Einstiegsseiten testen**
+**Testen von Landingpages**
 
 * Landingpages funktionieren nur mit Profilen, nicht aber mit Testprofilen, weshalb Landingpages nicht im Zuge eines E-Mail-Testversands getestet werden können.
