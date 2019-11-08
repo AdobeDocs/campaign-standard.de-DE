@@ -55,7 +55,7 @@ Externe Konten werden von technischen Prozessen, wie technischen Workflows oder 
 
 Das externe Konto wurde erstellt und ist nun in der Liste der Konten sichtbar. Es steht jetzt für Ihre Daten-/Dateitransfers oder Routing-Konfigurationen in Workflow-Aktivitäten und Versandeigenschaften bereit.
 
-## Externes SFTP-Konto  {#sftp-external-account}
+## Externes SFTP-Konto   {#sftp-external-account}
 
 Unterschiedliche Typen externer Konten erfordern die Angabe unterschiedlicher Informationen.
 
@@ -65,7 +65,7 @@ Geben Sie für ein externes SFTP-Konto die folgenden Details an:
 * Port-Nummer, z. B. **22**
 * SFTP-Server-Zugangsdaten: Kontoname und Passwort, die zur Verbindung mit dem Server verwendet werden
 
-### Empfehlungen für von Adobe gehostete SFTP-Server  {#adobe-hosted-sftp-server-recommendations}
+### Empfehlungen für von Adobe gehostete SFTP-Server   {#adobe-hosted-sftp-server-recommendations}
 
 Wenn Dateien und Daten für ETL-Zwecke verwaltet werden, werden diese Dateien auf einem von Adobe bereitgestellten gehosteten SFTP-Server gespeichert. Dieser SFTP-Server ist ein vorübergehender Speicherplatz, auf dem Sie die Aufbewahrung und Löschung von Dateien selbst kontrollieren können.
 
@@ -84,12 +84,12 @@ Um solche Probleme zu vermeiden, empfiehlt Adobe, die unten stehenden Best Pract
 
 Beachten Sie außerdem, dass die öffentlichen IPs, mit denen Sie die SFTP-Verbindung aufbauen, in der Campaign-Instanz auf der Whitelist stehen müssen. Wenn Sie IP-Adressen auf eine Whitelist setzen lassen möchten, senden Sie ein [Support-Ticket](https://support.neolane.net) und stellen Sie den öffentlichen Schlüssel zur Authentifizierung bereit.
 
-SFTP-Server können über das Control Panel verwaltet werden. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
+SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
 
 >[!NOTE]
 >
 >Das Control Panel ist nur für Admin-Benutzer von Kunden verfügbar, die auf AWS gehostet werden.
-Überprüfen Sie, ob Ihre Instanz auf AWS [hier](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID)gehostet wird.
+Überprüfen Sie [hier](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID), ob Ihre Instanz auf AWS gehostet wird.
 
 ## Externes Amazon-S3-Konto {#amazon-s3-external-account}
 
@@ -105,7 +105,7 @@ Um Ihre Datei in S3 im verschlüsselten Modus zu speichern, aktivieren Sie die O
 
 Die nötigen Informationen werden normalerweise vom Anbieter des Servers bereitgestellt, mit dem Sie eine Verbindung herstellen möchten.
 
-Spezifizieren Sie die mit Ihrem Endpunkt verknüpfte **[!UICONTROL AWS-Region]**. Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) .
+Spezifizieren Sie die mit Ihrem Endpunkt verknüpfte **[!UICONTROL AWS-Region]**. Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
 
 ### Empfehlungen für das Amazon-S3-Konto {#amazon-s3-account-recommendations}
 
@@ -126,7 +126,7 @@ Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informa
 * Server: Geben Sie die URL des Adobe-Experience-Manager-Servers an. z. B. **http://aem.domain.com:4502**.
 * Zugangsdaten zum AEM-Konto: Verwenden Sie das Konto, über das auf die Adobe-Experience-Manager-Instanz zugegriffen wird. Es sollte ein Konto sein, das Teil der campaign-remote-Gruppe in Adobe Experience Manager ist.
 
-## Externes Google-reCAPTCHA-Konto  {#google-recaptcha-external-account}
+## Externes Google-reCAPTCHA-Konto   {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
