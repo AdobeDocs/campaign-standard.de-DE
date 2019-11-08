@@ -35,7 +35,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
 
 >[!NOTE]
 >
->Adobe Campaign Standard kann auch eine Verbindung zu Microsoft Dynamics 365 herstellen: Diese Integration ermöglicht die Synchronisierung aller verfügbaren Kontaktdaten im CRM-System, sodass alle relevanten Kontaktdaten für Kampagnenaktivitäten verfügbar sind. For more on this integration, refer to [Working with Campaign and Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+>Adobe Campaign Standard kann auch eine Verbindung zu Microsoft Dynamics 365 herstellen: Diese Integration ermöglicht die Synchronisierung aller verfügbaren Kontaktdaten im CRM-System, sodass alle relevanten Kontaktdaten für Kampagnenaktivitäten verfügbar sind. Weiterführende Informationen dazu finden Sie im Abschnitt zur [Verwendung von Campaign und Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
 
 <table> 
