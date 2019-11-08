@@ -29,7 +29,7 @@ Mit der Kundenprofil-Funktion werden alle Kundendaten an einem zentralen Ort zus
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfassung über [Landingpages](../../channels/using/about-landing-pages.md), manuelle oder [automatische Importmechanismen](../../automating/using/about-data-import-and-export.md), die [direkte Eingabe](../../audiences/using/creating-profiles.md) über die Adobe Campaign-Benutzeroberfläche, im Bulk-Modus über [Campaign APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfassung über [Landingpages](../../channels/using/about-landing-pages.md), manuelle oder [automatische Importmechanismen](../../automating/using/about-data-import-and-export.md), die [direkte Eingabe](../../audiences/using/creating-profiles.md) über die Adobe Campaign-Benutzeroberfläche, im Bulk-Modus über [Campaign-APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 **Verwandte Themen:**
 
@@ -37,7 +37,7 @@ Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfa
 * Wenn Sie die Anzahl **aktiver Profile** in Ihrem Unternehmen erfahren möchten, gehen Sie zu [diesem Abschnitt](../../audiences/using/active-profiles.md).
 * Hier erfahren Sie, wie Sie mithilfe von [Workflow-Targeting-Funktionen](../../automating/using/about-targeting-activities.md) Ihre Daten anpassen und komplexe Datenverwaltungsaufgaben durchführen, wie z. B. Berechnungen, Aggregate, Deduplizierung und Verbindungen.
 
-## Audiences  {#audiences}
+## Audiences   {#audiences}
 
 Adobe Campaign vereint fortschrittliche Analyse- und Zielgruppenbestimmungsfunktionen, damit Sie relevante und effiziente Nachrichten versenden und mit Kunden effektiv interagieren können. Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, die verfügbare Informationen, das Verhalten, die Sprache, die Einstellungen und den Marketingverlauf Ihrer Kontakte berücksichtigen, um Ihre unterschiedlichen Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern oder auf einer unbegrenzten Anzahl von Kriterien basierende Zielgruppen erstellen.
 
