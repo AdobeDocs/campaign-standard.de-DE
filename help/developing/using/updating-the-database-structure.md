@@ -26,7 +26,7 @@ Damit Ihre Änderungen am Datenmodell wirksam werden und Sie sie verwenden könn
 >
 >Benutzerdefinierte Ressourcen werden im Zuge der automatischen Aktualisierungen durch Adobe automatisch aktualisiert.
 
-## Benutzerdefinierte Ressource publizieren  {#publishing-a-custom-resource}
+## Benutzerdefinierte Ressource publizieren   {#publishing-a-custom-resource}
 
 Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert werden.
 
@@ -70,7 +70,7 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
 
    ![](assets/schema_extension_31.png)
 
-## Ressource mit API-Erweiterung publizieren  {#publishing-a-resource-with-api-extension}
+## Ressource mit API-Erweiterung publizieren   {#publishing-a-resource-with-api-extension}
 
 In folgenden Fällen können Sie die Profiles &amp; Services API erstellen:
 
@@ -103,4 +103,4 @@ Bei der Differenzanalyse handelt es sich um einen notwendigen Schritt, da währe
 >
 >Bei dieser Publikation wird die API **[!UICONTROL profilesAndServicesExt]**, Die API **[!UICONTROL profilesAndServices]** wird nicht aktualisiert.
 
-Lesen Sie für weiterführende Informationen zur Adobe-Campaign-API die entsprechende Adobe-Campaign-Dokumentation auf [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).
+Lesen Sie für weiterführende Informationen zur Adobe Campaign-API die entsprechende Adobe Campaign-Dokumentation auf [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).
