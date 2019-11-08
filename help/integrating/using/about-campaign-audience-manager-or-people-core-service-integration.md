@@ -27,7 +27,7 @@ Adobe Campaign erlaubt die lösungsübergreifende Nutzung von Audiences/Segmente
 Die Integration unterstützt zwei Typen von Adobe Experience Cloud-Kennungen:
 
 * **Visitor ID**: Dieser Kennungstyp ermöglicht die Abstimmung von Adobe Experience Cloud-Besuchern mit Profilen aus Adobe Campaign.
-* **Declared ID**: Dieser Kennungstyp ermöglicht die Abstimmung beliebiger Datentypen mit Adobe-Campaign-Profilen. Diese Integration unterstützt reguläre Declared IDs, Declared IDs mit Hash-Kennung und verschlüsselte Declared IDs. Weitere Informationen zur Gültigkeit der **[!UICONTROL deklarierten ID]** finden Sie auf dieser [Seite](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
+* **Declared ID**: Dieser Kennungstyp ermöglicht die Abstimmung beliebiger Datentypen mit Adobe-Campaign-Profilen. Diese Integration unterstützt reguläre Declared IDs, Declared IDs mit Hash-Kennung und verschlüsselte Declared IDs. Weiterführende Informationen zur Gültigkeit der **[!UICONTROL Declared ID]** finden Sie auf dieser [Seite](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
 
    Durch die Sicherheitsfunktion können verschlüsselte Daten in Datenquellen (z. B. PII) unter Verwendung der Declared ID und der Spezifikation des Verschlüsselungsalgorithmus freigegeben werden.
 
