@@ -31,7 +31,7 @@ Mit Komponenten können Sie Ihren Berichten unterschiedliche Dimensionen, Messwe
 
    * **Dimensionen**: Hier erhalten Sie Informationen vom Versandlog, wie Details zum Browser oder zur Domain des Benutzers oder darüber, wie erfolgreich ein Versand war.
    * **Metriken**: Hier erhalten Sie Details zum Status einer Nachricht, z. B. ob eine Nachricht zugestellt und von einem Benutzer geöffnet wurde.
-   * **[!UICONTROL Segmente]**: Hiermit können Daten nach der Altersgruppe des Empfängers gefiltert werden. **[!UICONTROL Segmente]** können per Drag-and-drop direkt in eine Freiformtabelle oder in die Symbolleiste des Bedienfelds verschoben werden. Ab Version 19.4 wird der **[!UICONTROL Ausschlussnachweis]** bereits standardmäßig ausgewählt, kann aber bei Bedarf geändert werden.
+   * **[!UICONTROL Segmente]**: Hiermit können Daten nach der Altersgruppe des Empfängers gefiltert werden. **[!UICONTROL Segmente]** können per Drag-and-Drop direkt in eine Freiformtabelle oder in die Symbolleiste des Bedienfelds verschoben werden. Ab der Campaign-Version 19.4 ist die Option **[!UICONTROL Testversand ausschließen]** standardmäßig ausgewählt, kann aber bei Bedarf geändert werden.
 
       Diese Kategorie ist erst verfügbar, nachdem der Administrator die Nutzungsbedingungen der auf dem Bildschirm angezeigten Nutzungsvereinbarung zur dynamischen Berichterstattung (Dynamic Reporting Usage Agreement) bestätigt hat. Wenn der Administrator die Vereinbarung ablehnt, sind die Segmente im Tab **[!UICONTROL Komponenten]** nicht sichtbar und die entsprechenden Daten werden nicht erfasst.
 
