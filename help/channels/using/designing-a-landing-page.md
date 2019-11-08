@@ -20,30 +20,30 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Landingpage erstellen{#designing-a-landing-page}
 
-## Inhaltsentwurf für Einstiegsseiten {#about-content-design}
+## Über die Inhaltserstellung für Landingpages{#about-content-design}
 
 Landingpages werden auf dieselbe Weise erstellt wie [Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 
-Beim Entwerfen einer Einstiegsseite müssen Sie den Inhalt der Seite selbst, die Bestätigungsseite und die Fehlerseite definieren. Mithilfe des Schalters unter der Symbolleiste können Sie jede dieser Seiten anzeigen und konfigurieren.
+Zur Erstellung einer Landingpage müssen Sie den Inhalt der Seite selbst, der Bestätigungsseite und der Fehlerseite definieren. Mithilfe des Schalters unter der Symbolleiste können Sie jede dieser Seiten anzeigen und konfigurieren.
 
-Der Inhalt von Einstiegsseiten wird über den Kampagnen-Inhaltseditor erstellt.
+Der Inhalt der Landingpages wird im Campaign-Inhaltseditor erstellt.
 
 >[!NOTE]
 >
 >Wenn Ihre Instanz vor der Adobe-Campaign-Standard-Version 19.0 installiert wurde, haben Sie noch Zugriff auf den Legacy-E-Mail-Inhaltseditor. Die Benutzeroberfläche, Verwendung und Konfiguration entsprechen größtenteils der für Landingpages geltenden unten stehenden Beschreibung. Es kann jedoch sein, dass nicht alle Funktionen im Legacy-E-Mail-Inhaltseditor verfügbar oder auf dem aktuellen Stand sind, da er ab der Version 19.0 eingestellt wird. Wenn Sie Ihren E-Mail-Inhalt rasch auf einer Drag &amp; Drop-Benutzeroberfläche mithilfe einer Fülle von Funktionen bearbeiten möchten, verwenden Sie [Email Designer](../../designing/using/overview.md).
 
-Diese Seite beschreibt die Besonderheiten des Inhalts-Editors der Einstiegsseite. Weitere Informationen zu den Aktionen, die einer oder mehreren Marketingaktivitäten gemein sind, finden Sie in den folgenden Abschnitten des Handbuchs zum **Entwerfen von E-Mail-Inhalten** :
+Auf dieser Seite erfahren Sie die wichtigsten Informationen zum Inhaltseditor für Landingpages: Weiterführende Informationen zu den Aktionen, die häufig bei Marketingaktivitäten eingesetzt werden, finden Sie in den folgenden Abschnitten des Handbuchs zum **Entwerfen von E-Mail-Inhalten**:
 
 * [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 * [Link einfügen](../../designing/using/links.md#inserting-a-link).
 * [Bilder einfügen](../../designing/using/images.md).
-* [Allgemeine Best Practices für das Inhaltsdesign](../../designing/using/overview.md#content-design-best-practices).
+* [Allgemeine Best Practices bei der Inhaltserstellung](../../designing/using/overview.md#content-design-best-practices).
 
 >[!NOTE]
->If you have a landing page that is already predefined in HTML format, you can import it directly using the **[!UICONTROL Change content]** button.
+>Sollten Sie bereits über eine vordefinierte Landingpage im HTML-Format verfügen, können Sie sie direkt mittels der Schaltfläche **[!UICONTROL Inhalt ändern]** importieren.
 >
->Bevor Sie eine HTML-Seite in Adobe Campaign importieren, stellen Sie sicher, dass sie in den verschiedenen Browsern korrekt geöffnet und angezeigt wird. Wenn die HTML-Seite JavaScript-Elemente enthält, müssen diese außerhalb des Editors fehlerfrei ausführbar sein. Vermeiden Sie im Allgemeinen die Verwendung von Scripts in Nachrichten, um die korrekte Verarbeitung durch E-Mail-Clients zu gewährleisten.
+>Bevor Sie in Adobe Campaign eine HTML-Seite importieren, ist sicherzustellen, dass sie in unterschiedlichen Browsern korrekt geöffnet und angezeigt werden kann. Wenn die HTML-Seite JavaScript-Elemente enthält, müssen diese außerhalb des Editors fehlerfrei ausführbar sein. Vermeiden Sie im Allgemeinen die Verwendung von Scripts in Nachrichten, um die korrekte Verarbeitung durch E-Mail-Clients zu gewährleisten.
 
 ## Benutzeroberfläche des Inhaltseditors für Landingpages{#landing-page-content-editor-interface}
 
@@ -57,7 +57,7 @@ Der Inhaltseditor besteht aus drei Bereichen. In diesen Bereichen können Sie de
 1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Sie können eine Vorlage auswählen und den Anzeigemodus wechseln.
 1. Im **Hauptarbeitsbereich** ermöglicht eine kontextabhängige Symbolleiste die direkte Bearbeitung des Inhalts. Sie können beispielsweise ein Bild mit einem Link belegen, die Schriftart anpassen, ein Feld löschen etc.
 
-The **action bar** contains different buttons that allow you to interact with the content that is being created.
+Die **Symbolleiste** enthält Schaltflächen, die die Bearbeitung des angezeigten Inhalts ermöglichen.
 
 ![](assets/des_lp_content_9.png)
 
@@ -104,7 +104,7 @@ The **action bar** contains different buttons that allow you to interact with th
  </tbody> 
 </table>
 
-The **toolbar** is a contextual element of the editor interface that offers various functionalities depending on the zone selected. Sie enthält Aktionsschaltflächen sowie Schaltflächen zur Anpassung des Textstils. Alle Änderungen beziehen sich somit jeweils nur auf das ausgewählte Element. Wenn Sie beispielsweise einen Block markieren, können Sie diesen löschen oder duplizieren. Wenn Sie Text innerhalb eines Blocks markieren, können Sie ihn in einen Link verwandeln oder die Formatierung anpassen.
+Die dedizierte **Symbolleiste** ist ein kontextuelles Element der Editor-Oberfläche. Je nach markiertem Bereich sind unterschiedliche Schaltflächen verfügbar. Sie enthält Aktionsschaltflächen sowie Schaltflächen zur Anpassung des Textstils. Alle Änderungen beziehen sich somit jeweils nur auf das ausgewählte Element. Wenn Sie beispielsweise einen Block markieren, können Sie diesen löschen oder duplizieren. Wenn Sie Text innerhalb eines Blocks markieren, können Sie ihn in einen Link verwandeln oder die Formatierung anpassen.
 
 ![](assets/delivery_content_17.png)
 
@@ -243,7 +243,7 @@ The **toolbar** is a contextual element of the editor interface that offers vari
 
 ### Bausteine im Inhaltseditor verwalten {#managing-blocks-in-the-content-editor}
 
-Die verschiedenen Elemente des HTML-Inhalts werden auf der Landingpage in Form von Blöcken angezeigt, welche in HTML dem **&lt;div&gt;** **&lt;/div&gt;**-Tag entsprechen. Zur Bearbeitung eines Blocks ist dieser zu markieren. Dies wird durch eine blaue Umrandung angezeigt.
+Die verschiedenen Elemente des HTML-Inhalts werden auf der Landingpage in Form von Blöcken angezeigt, die in HTML dem **&lt;div&gt;** **&lt;/div&gt;**-Tag entsprechen. Zur Bearbeitung eines Blocks ist dieser zu markieren. Dies wird durch eine blaue Umrandung angezeigt.
 
 ![](assets/des_lp_content_1.png)
 
@@ -263,7 +263,7 @@ Die für ein Blockelement (Link, Personalisierungsfeld, Inhaltsbaustein etc.) de
 
 ![](assets/des_lp_content_4.png)
 
-### Rahmen und Hintergrund im Inhaltseditor hinzufügen   {#adding-a-border-and-a-background-in-the-content-editor}
+### Rahmen und Hintergrund im Inhaltseditor hinzufügen    {#adding-a-border-and-a-background-in-the-content-editor}
 
 Es besteht die Möglichkeit, verschiedene **Hintergrundfarben** aus der Farbpalette für die einzelnen Blöcke auszuwählen. Die Farbe wird jeweils auf den gesamten Block angewendet.
 
@@ -273,7 +273,7 @@ Außerdem können die einzelnen Blöcke mit verschiedenen **Rahmen** versehen we
 
 ![](assets/des_lp_content_6.png)
 
-### Textstil im Inhaltseditor ändern   {#changing-the-text-style-in-the-content-editor}
+### Textstil im Inhaltseditor ändern    {#changing-the-text-style-in-the-content-editor}
 
 Um einen Textstil zu ändern, muss sich der Cursor innerhalb eines Textblocks befinden.
 
@@ -287,7 +287,7 @@ Die Textausrichtung kann mit einer der drei Schaltflächen in der Palette links 
 
 Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Siehe [diesen Abschnitt](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Bilder in eine Landingpage einfügen   {#inserting-images-in-a-landing-page}
+### Bilder in eine Landingpage einfügen    {#inserting-images-in-a-landing-page}
 
 1. Wählen Sie im Inhalt der Landingpage einen Baustein aus, der ein Bild enthält.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Einfügen]**.
@@ -348,7 +348,7 @@ In der Palette:
 
 ![](assets/dynamic_content_lp_4.png)
 
-## Versand einer Landingpage bestätigen   {#confirm-a-landing-page-submission}
+## Versand einer Landingpage bestätigen    {#confirm-a-landing-page-submission}
 
 Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie wie folgt vor:
 
@@ -364,10 +364,10 @@ Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch eine
 
    ![](assets/lp_parameters_6.png)
 
-## Berechtigungen einrichten und Daten vorausfüllen   {#setting-permissions-and-pre-loading-data}
+## Berechtigungen einrichten und Daten vorausfüllen    {#setting-permissions-and-pre-loading-data}
 
-Der Zugriff auf eine Einstiegsseite kann auf identifizierte Besucher beschränkt werden, die beispielsweise von einem Link in einer von Campaign gesendeten Nachricht kommen, oder auf eine bestimmte Organisationseinheit.
-Bei identifizierten Besuchern können Sie deren Daten im Voraus auf die Einstiegsseite laden. Gehen Sie wie folgt vor:
+Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen oder zu einer bestimmten Organisationseinheit gehören.
+Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage geladen werden. Gehen Sie wie folgt vor:
 
 1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Zugriff &amp; Ladung]** auf.
 
@@ -384,23 +384,23 @@ Außerdem haben Sie folgende Möglichkeiten:
 * Mithilfe der URL-Parameter können Sie über die Option **[!UICONTROL Besucheridentifizierung über URL-Parameter zulassen]** die Besucher identifizieren. Wählen Sie dann den Ladeschlüssel aus und mappen Sie die Filterparameter mit den entsprechenden URL-Parametern.
 * Gewähren Sie allen Besuchern Zugriff auf die Landingpage, indem Sie die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]** auswählen.
 
-Einstiegsseiten können auch mit einer Organisationseinheit verknüpft werden. Dadurch wird der Zugriff der Benutzer auf die verschiedenen Einstiegsseiten definiert. So weisen Sie eine Organisationseinheit zu:
+Landingpages können auch mit einer Organisationseinheit verknüpft werden. Dadurch wird wird festgelegt, auf welche Landingpage ein Benutzer Zugriff hat. So weisen Sie eine Organisationseinheit zu:
 
-1. Greifen Sie über das Symbol Eigenschaften **[!UICONTROL bearbeiten auf Ihre Eigenschaften]** zu.
+1. Greifen Sie über das Symbol **[!UICONTROL Eigenschaften]** auf die Landingpage-Eigenschaften zu.
 
    ![](assets/lp_parameters_google3.png)
 
-1. Blenden Sie die **[!UICONTROL Zugriffsberechtigung]** aus.
+1. Erweitern Sie die **[!UICONTROL Zugriffsberechtigung]**.
 
-1. Klicken Sie auf das Dropdownmenü und wählen Sie Ihre Organisationseinheit aus. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
+1. Klicken Sie auf das Dropdown-Menü und wählen Sie Ihre Organisationseinheit aus. Weiterführende Informationen zum Erstellen einer Organisationseinheit finden Sie auf dieser [Seite](../../administration/using/organizational-units.md).
 
    ![](assets/lp_org_unit_2.png)
 
-1. The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Access authorization]** and **[!UICONTROL Last modified]** fields are automatically completed.
+1. Die Felder **[!UICONTROL Erstellt von]**, **[!UICONTROL Erstellt am]**, **[!UICONTROL Zugriffsberechtigung]** und **[!UICONTROL Zuletzt geändert]** werden automatisch ausgefüllt.
 
 1. Wählen Sie **[!UICONTROL Bestätigen]** und danach **[!UICONTROL Speichern]**.
 
-Auf Ihre Einstiegsseite können Sie nun nur noch von Benutzern innerhalb der ausgewählten Organisationseinheit zugreifen und verwalten.
+Der Zugriff auf und die Verwaltung Ihrer Landingpage ist jetzt nur noch durch Benutzer innerhalb der ausgewählten Organisationseinheit möglich.
 
 ![](assets/lp_org_unit_3.png)
 
