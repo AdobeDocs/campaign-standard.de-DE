@@ -30,7 +30,7 @@ Ein **[!UICONTROL Daten-Update]** ermöglicht eine gebündelte Aktualisierung de
 
 Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwendet, um die neuen Daten in die Adobe-Campaign-Datenbank zu integrieren. Die Art der Datenbankaktualisierung kann über verschiedene Optionen definiert werden.
 
-## Konfiguration  {#configuration}
+## Konfiguration   {#configuration}
 
 1. Ziehen Sie ein **[!UICONTROL Daten-Update]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
