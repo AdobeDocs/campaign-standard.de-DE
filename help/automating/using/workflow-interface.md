@@ -31,7 +31,7 @@ Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 
 ![](assets/wkf_overview.png)
 
-## Palette    {#palette}
+## Palette     {#palette}
 
 Die Palette befindet sich auf der linken Bildschirmseite. Die verfügbaren Aktivitäten sind verschiedenen Kategorien zugeordnet:
 
@@ -46,7 +46,7 @@ Jede Aktivität muss separat konfiguriert werden, bevor Sie den Workflow starten
 
 ![](assets/workflow_palette.png)
 
-## Arbeitsbereich    {#workspace}
+## Arbeitsbereich     {#workspace}
 
 Die zentrale Fläche im Editor bildet den Arbeitsbereich des Workflows. Hier werden die verwendeten Aktivitäten abgelegt, mithilfe von Transitionen in Beziehung gesetzt und konfiguriert.
 
