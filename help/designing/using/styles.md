@@ -25,7 +25,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]** angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
 
-### Element auswählen   {#selecting-an-element}
+### Element auswählen    {#selecting-an-element}
 
 Um ein Element in der Benutzeroberfläche von Email Designer auszuwählen, können Sie entweder:
 
@@ -49,7 +49,7 @@ Um eine Spalte auszuwählen, können Sie auch folgendermaßen vorgehen:
 
 In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
 
-### Einstellungen des Stils anpassen   {#adjusting-style-settings}
+### Einstellungen des Stils anpassen    {#adjusting-style-settings}
 
 1. Wählen Sie in Ihrer E-Mail ein Element aus. Weiterführende Informationen dazu finden Sie unter [Element auswählen](#selecting-an-element).
 1. Passen Sie die Einstellungen nach Bedarf an. Für jedes ausgewählte Element sind unterschiedliche Einstellungen verfügbar.
@@ -62,7 +62,7 @@ In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden
 
 1. Speichern Sie Ihren Inhalt.
 
-### Über Abstände und Spannen   {#about-padding-and-margin}
+### Über Abstände und Spannen    {#about-padding-and-margin}
 
 In der Benutzeroberfläche von Email Designer können Sie rasch Abstände und Spannen anpassen.
 
@@ -88,7 +88,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 
 ![](assets/des_padding_lock_icon.png)
 
-### Über die Ausrichtung   {#about-alignment}
+### Über die Ausrichtung    {#about-alignment}
 
 * **Textausrichtung**: Platzieren Sie den Cursor auf einem Text und richten Sie ihn über die dedizierte Symbolleiste aus.
 
@@ -102,7 +102,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 
    ![](assets/des_set_vertical_alignment.png)
 
-### Über den Hintergrund   {#about-backgrounds}
+### Über den Hintergrund    {#about-backgrounds}
 
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
 
@@ -173,25 +173,25 @@ Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Struktur
 
 1. Speichern Sie Ihre Änderungen.
 
-### Stillinks {#about-styling-links}
+### Über die Gestaltung von Links {#about-styling-links}
 
 >[!NOTE]
 >
->Diese Funktion steht ab Version 19.4 von Campaign Standard zur Verfügung.
+>Diese Funktion steht ab Campaign Standard-Version 19.4 zur Verfügung.
 
-Sie können einen Link unterstreichen und dessen Farbe und Ziel im E-Mail-Designer auswählen.
+Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Ziel auswählen.
 
-1. Wählen Sie in einer Komponente, in die ein Link eingefügt wird, den Beschriftungstext des Links aus.
+1. Wählen Sie in einer Komponente, die einen Link enthält, den Titeltext des Links aus.
 
-1. Markieren Sie in den Komponenteneinstellungen den Link **[!UICONTROL Unterstreichen]** , um den Beschriftungstext Ihres Links zu unterstreichen.
+1. Aktivieren Sie in den Komponenteneinstellungen die Option **[!UICONTROL Unterstrichener Link]**, um den Titeltext Ihres Links zu unterstreichen.
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Um auszuwählen, in welchem Browserkontext Ihr Link geöffnet wird, wählen Sie ein **[!UICONTROL Ziel]** aus.
+1. Wählen Sie ein **[!UICONTROL Ziel]** aus, um festzulegen, in welchem Browserkontext Ihr Link geöffnet wird.
 
    ![](assets/stylelinks-target.png)
 
-1. Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link Farbe]**.
+1. Wenn Sie die Farbe Ihres Links ändern möchten, klicken Sie auf **[!UICONTROL Linkfarbe]**.
 
    ![](assets/stylelinks-colorpicker.png)
 
@@ -201,7 +201,7 @@ Sie können einen Link unterstreichen und dessen Farbe und Ziel im E-Mail-Design
 
 1. Speichern Sie Ihre Änderungen.
 
-### Inline-Styling-Attribute hinzufügen   {#adding-inline-styling-attributes}
+### Inline-Styling-Attribute hinzufügen    {#adding-inline-styling-attributes}
 
 Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen und im seitlichen Fenster seine Einstellungen anzeigen, können Sie seine Inline-Attribute und deren Werte ändern.
 
