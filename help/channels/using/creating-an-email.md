@@ -90,7 +90,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 **Verwandte Themen**:
 
-* [E-Mails erstellen](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
+* Video [E-Mails erstellen](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
 * Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)
 * Video zur [Integration von Adobe Campaign und Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [Integration mit Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
