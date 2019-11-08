@@ -27,7 +27,7 @@ Die aktivierten Optionen im Bereich **[!UICONTROL Kein Kontakt mehr (Blacklist)]
 
 ![](assets/optin_landingpage_3.png)
 
-## Opt-in- und Opt-out-Landingpages einrichten  {#setting-up-opt-in-and-opt-out-landing-pages}
+## Opt-in- und Opt-out-Landingpages einrichten   {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Um Empfängern die Möglichkeit zu geben, sich an- oder abzumelden, müssen Sie eine **[!UICONTROL Profilakquise]**-Landingpage erstellen und veröffentlichen. Empfänger können dann entsprechend ihren Anforderungen die gewünschten Kanäle auswählen. Gehen Sie dazu wie folgt vor:
 
