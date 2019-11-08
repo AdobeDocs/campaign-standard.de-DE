@@ -29,4 +29,4 @@ Mit Adobe Target können verschiedene Datentypen zum Einsatz kommen:
 * Segmente im Zusammenhang mit der Visitor ID in Adobe Target, wenn die verwendeten Daten keinen rechtlichen Beschränkungen unterliegen;
 * Daten aus Adobe Target (user agent, IP address, Daten bezüglich der Geolokalisierung).
 
-Weiterführende Informationen über die Integration von Adobe Campaign mit Adobe Target finden Sie im [Adobe-Target-Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html).
+Weiterführende Informationen über die Integration von Adobe Campaign und Adobe Target finden Sie im [Adobe Target-Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html).
