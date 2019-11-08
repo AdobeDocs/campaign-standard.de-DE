@@ -37,7 +37,7 @@ Vergewissern Sie sich zunächst, dass Sie über folgende Elemente verfügen:
 * Adobe-Experience-Manager-**Publishing**-Instanz zur Veröffentlichung der Inhalte,
 * Adobe-Campaign-Instanz.
 
-## Umsetzung  {#use-case}
+## Umsetzung   {#use-case}
 
 So erstellen Sie E-Mail-Inhalt in Adobe Experience Manager:
 
@@ -46,7 +46,7 @@ So erstellen Sie E-Mail-Inhalt in Adobe Experience Manager:
 1. Bearbeiten Sie den Inhalt, indem Sie beispielsweise Text, Bilder oder Personalisierungselemente einfügen.
 1. Validieren Sie den Inhalt.
 
-Weitere Informationen finden Sie im [entsprechenden Handbuch](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html).
+Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html).
 
 ![](assets/aem_content.png)
 
@@ -57,7 +57,7 @@ So rufen Sie den Inhalt in Adobe Campaign ab:
 
 ![](assets/aem_linked_content.png)
 
-## Konfiguration  {#configuration}
+## Konfiguration   {#configuration}
 
 Um die kombinierte Nutzung von Adobe Campaign und Adobe Experience Manager zu ermöglichen, ist zunächst eine Konfiguration beider Lösungen erforderlich.
 
