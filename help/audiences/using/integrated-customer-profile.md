@@ -39,5 +39,5 @@ Klicken Sie auf ein Ereignis in der Liste, um es zu öffnen. Dort können Sie au
 
 >[!NOTE]
 >
->Der Marketingverlauf kann auch über die Adobe Campaign Standard API aufgerufen werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history).
+>Der Marketingverlauf kann auch über die Adobe Campaign Standard API aufgerufen werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
 
