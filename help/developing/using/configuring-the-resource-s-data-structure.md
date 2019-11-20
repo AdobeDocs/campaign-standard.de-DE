@@ -12,7 +12,7 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -30,7 +30,7 @@ In diesem Zusammenhang können im Tab **[!UICONTROL Datenstruktur]** folgende El
 * [Relationen](#defining-links-with-other-resources)
 * [Versandlogs](#defining-sending-logs-extension)
 
-## Felder zu einer Ressource hinzufügen       {#adding-fields-to-a-resource}
+## Felder zu einer Ressource hinzufügen {#adding-fields-to-a-resource}
 
 Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die nicht im vordefinierten Datenmodell enthalten sind.
 
@@ -70,7 +70,7 @@ Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die 
 
 Die Felder Ihrer Ressource sind jetzt definiert.
 
-## Identifizierungsschlüssel definieren       {#defining-identification-keys}
+## Identifizierungsschlüssel definieren {#defining-identification-keys}
 
 Jede Ressource muss mindestens einen Schlüssel zu ihrer eindeutigen Identifizierung aufweisen. Sie können beispielsweise einen Schlüssel definieren, der besagt, dass zwei Produkte in einer Verkaufstabelle nicht dieselbe ID aufweisen können.
 
@@ -94,7 +94,7 @@ Jede Ressource muss mindestens einen Schlüssel zu ihrer eindeutigen Identifizie
 
 Ihre Identifizierungsschlüssel für die Ressource werden jetzt erstellt.
 
-## Indexe definieren       {#defining-indexes}
+## Indexe definieren {#defining-indexes}
 
 Indexe können eines oder mehrere Felder der Ressource referenzieren. Indexe ermöglichen es, Datensätze in der Datenbank zu sortieren, um sie leichter auffindbar zu machen. Auf diese Weise werden die SQL-Abfragen optimiert.
 
@@ -243,7 +243,7 @@ Weiterführende Informationen zu dynamischen Berichten finden Sie in der [Liste 
 >
 >Die Anzahl der an dynamische Berichte gesendeten Felder ist auf 20 begrenzt.
 
-## Eigenschaften einer Ressource bearbeiten       {#editing-resource-properties}
+## Eigenschaften einer Ressource bearbeiten {#editing-resource-properties}
 
 Im Bildschirm der benutzerdefinierten Ressource werden im Bereich der **[!UICONTROL Zusammenfassung]** der Typ und der Status der neu erstellten Ressource angezeigt. Sie können den Zugriff auf die Ressource und ihre allgemeinen Eigenschaften bearbeiten.
 
@@ -288,3 +288,4 @@ Daten, die in einer anderen Anwendung (z. B. einem CRM) verarbeitet bzw. aktuali
 >[!NOTE]
 >
 >Das Feld **[!UICONTROL ACS-ID]** wird nicht für Profile oder Elemente aktualisiert, die vor der Aktivierung der Option erstellt wurden. Nur neue Datensätze erhalten eine ACS ID. Dieses Feld ist schreibgeschützt. Es kann nicht geändert werden.
+
