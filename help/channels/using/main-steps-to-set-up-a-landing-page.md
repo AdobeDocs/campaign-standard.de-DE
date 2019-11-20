@@ -12,7 +12,7 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -40,7 +40,7 @@ Weiterführende Informationen zu Landingpage-Vorlagen finden Sie in [diesem Absc
 
 ![](assets/lp-steps1.png)
 
-##  Landingpage erstellen und konfigurieren {#create-and-configure-the-landing-page}
+## Landingpage erstellen und konfigurieren {#create-and-configure-the-landing-page}
 
 Erstellen Sie ausgehend von der im vorangehenden Schritt definierten Vorlage eine neue Landingpage innerhalb des Programms oder der Kampagne Ihrer Wahl.
 
