@@ -12,7 +12,7 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -54,7 +54,7 @@ Standardmäßig können nur die Details der letzten Transition des Workflows abg
 
 Bei einer geöffneten Transition kann ihr **[!UICONTROL Titel]** geändert oder derselben ein **[!UICONTROL Segment-Code]** zugewiesen werden. Bearbeiten Sie hierzu die entsprechenden Felder und validieren Sie Ihre Änderungen.
 
-## Workflow mit der REST API steuern     {#controlling-a-workflow-from-the-rest-api}
+## Workflow mit der REST API steuern {#controlling-a-workflow-from-the-rest-api}
 
 Mit der REST API können Sie einen Workflow **starten**, **aussetzen**, wieder **aufnehmen** und **anhalten**.
 
@@ -90,7 +90,7 @@ Die Liste der Marketingaktivitäten ermöglicht die Anzeige aller Workflows inkl
 
 ![](assets/wkf_execution_3.png)
 
-## Ausführungsbefehle     {#execution-commands}
+## Ausführungsbefehle {#execution-commands}
 
 Die Schaltflächen der Symbolleiste dienen dazu, die Workflow-Ausführung zu starten, zu verfolgen und eventuell anzupassen. Siehe den Abschnitt [Symbolleiste](../../automating/using/workflow-interface.md#action-bar).
 
@@ -140,7 +140,7 @@ Die Schaltfläche ![](assets/checkdisable.png) deaktiviert die markierten Aktivi
 >
 >Auf die der Bearbeitung einer bestimmten Aktivität dienenden Aktionen kann auch über die Quick Actions zugegriffen werden, die bei der Markierung einer Aktivität angezeigt werden.
 
-## Monitoring     {#monitoring}
+## Monitoring {#monitoring}
 
 Über die Schaltfläche ![](assets/printpreview_darkgrey-24px.png) können Sie auf das Protokoll und die Aufgaben des Workflows zugreifen.
 
@@ -160,7 +160,7 @@ In beiden Listen:
 * ermöglicht die Schaltfläche **[!UICONTROL Liste konfigurieren]** die Auswahl der anzuzeigenden Informationen, die Bestimmung der Spaltenreihenfolge sowie die Sortierung.
 * Mithilfe von Filtern können Sie Informationen schneller auffinden. Über das Suchfeld können Sie nach einem bestimmten Text in den Namen der Workflow-Aktivitäten (Beispiel: "Abfrage") und Protokollen suchen.
 
-## Umgang mit Fehlern     {#error-management}
+## Umgang mit Fehlern {#error-management}
 
 Wenn ein Fehler auftritt, wird der Workflow ausgesetzt und die bei Fehlerauftritt ausgeführte Aktivität blinkt rot.
 
@@ -178,7 +178,7 @@ Im Bereich **[!UICONTROL Ausführung]** der Workflow-Eigenschaften kann die Anza
 
 Die Supervisoren werden ebenfalls in den Ausführungseigenschaften des Workflows bestimmt.
 
-## Ausführungseigenschaften     {#workflow-properties}
+## Workflow-Eigenschaften {#workflow-properties}
 
 Sie haben die Möglichkeit, die globalen Ausführungseigenschaften eines Workflows anzupassen. Verwenden Sie hierzu die Schaltfläche ![](assets/edit_darkgrey-24px.png), um auf die Eigenschaften des Workflows zuzugreifen und öffnen Sie den Bereich **[!UICONTROL Ausführung]**.
 
@@ -206,13 +206,13 @@ Im Feld **[!UICONTROL Bei Fehler]** lassen sich mögliche Reaktionen bei Auftret
 
 ![](assets/wkf_execution_6.png)
 
-## Aktivitätseigenschaften     {#activity-properties}
+## Aktivitätseigenschaften {#activity-properties}
 
 ### Allgemeine Eigenschaften einer Aktivität {#general-properties-of-an-activity}
 
 Jede Aktivität verfügt über einen **[!UICONTROL Eigenschaften]**-Tab. In diesem Tabs lassen sich die allgemeinen Parameter der Aktivität, insbesondere Titel und Kennung anpassen. Die Konfiguration dieses Tabs is optional.
 
-### Verwaltung ausgehender Transitionen von Aktivitäten     {#managing-an-activity-s-outbound-transitions}
+### Verwaltung ausgehender Transitionen von Aktivitäten {#managing-an-activity-s-outbound-transitions}
 
 Standardmäßig verfügen bestimmte Aktivitäten nicht über ausgehende Transitionen. Sie haben jedoch die Möglichkeit, diese in den Tabs **[!UICONTROL Transitionen]** oder **[!UICONTROL Eigenschaften]** der Aktivität hinzuzufügen, um Ihre Population im selben Workflow mithilfe angeschlossener Aktivitäten weiter zu bearbeiten.
 
@@ -225,7 +225,7 @@ Je nach Aktivität lassen sich verschiedene Arten ausgehender Transitionen hinzu
 
 Es besteht die Möglichkeit für die aus der Aktivität ausgehende Transition einen **[!UICONTROL Segmentcode]** anzugeben. Der Segmentcode ermöglicht es, die Herkunft von Teilmengen der Zielpopulation zu identifizieren, und kann im weiteren Verlauf für die Nachrichtenpersonalisierung verwendet werden.
 
-### Ausführungsoptionen von Aktivitäten     {#activity-execution-options}
+### Ausführungsoptionen von Aktivitäten {#activity-execution-options}
 
 In einer Workflow-Aktivität erlaubt Ihnen der Tab **[!UICONTROL Ausführungsoptionen]** im Eigenschaften-Bildschirm insbesondere die Definition des Ausführungsmodus sowie des Verhaltens beim Auftritt von Fehlern.
 
