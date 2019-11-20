@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -27,7 +27,7 @@ Auf diese Weise profitieren Sie gleichermaßen von den fortgeschrittenen Funktio
 >
 >Für aus Adobe Experience Manager importierte Inhalte können keine A/B-Tests durchgeführt werden.
 
-Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3 und 6.4 kompatibel. Im Folgenden finden Sie eine Übersicht der möglichen Aktionen. Weiterführende Informationen finden Sie in den Abschnitten [Konfiguration](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html) und [Vorgehensweise](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/campaign.html).
+Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3 und 6.4 kompatibel. Im Folgenden finden Sie eine Übersicht der möglichen Aktionen. Weiterführende Informationen finden Sie in den Abschnitten [Konfiguration](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/campaignstandard.html) und [Vorgehensweise](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/campaign.html).
 
 ## Voraussetzungen {#prerequisites}
 
@@ -37,7 +37,7 @@ Vergewissern Sie sich zunächst, dass Sie über folgende Elemente verfügen:
 * Adobe-Experience-Manager-**Publishing**-Instanz zur Veröffentlichung der Inhalte,
 * Adobe-Campaign-Instanz.
 
-## Umsetzung   {#use-case}
+## Umsetzung {#use-case}
 
 So erstellen Sie E-Mail-Inhalt in Adobe Experience Manager:
 
@@ -57,7 +57,7 @@ So rufen Sie den Inhalt in Adobe Campaign ab:
 
 ![](assets/aem_linked_content.png)
 
-## Konfiguration   {#configuration}
+## Konfiguration {#configuration}
 
 Um die kombinierte Nutzung von Adobe Campaign und Adobe Experience Manager zu ermöglichen, ist zunächst eine Konfiguration beider Lösungen erforderlich.
 
