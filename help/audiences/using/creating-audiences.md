@@ -12,7 +12,7 @@ discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -77,7 +77,7 @@ Gehen Sie zur Erstellung einer Audience vom Typ **Liste** wie folgt vor:
 
    ![](assets/audiences_list_4.png)
 
-## Audiences vom Typ Datei erstellen   {#creating-file-audiences}
+## Audiences vom Typ Datei erstellen {#creating-file-audiences}
 
 In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Datei** mithilfe eines Dateiimports in einem Workflow beschrieben. Audiences lassen sich des Weiteren im Anschluss an eine Zielgruppenbestimmung in einem [Workflow](../../automating/using/discovering-workflows.md) oder im **[!UICONTROL Audiences]**-Menü mithilfe einer Abfrage erstellen.
 
@@ -99,7 +99,7 @@ Gehen Sie zur Erstellung einer Audience vom Typ **Datei** wie folgt vor:
 
    ![](assets/audience_files_3.png)
 
-## Erstellen von Experience Cloud-Audiences   {#creating-experience-cloud-audiences}
+## Erstellen von Experience Cloud-Audiences {#creating-experience-cloud-audiences}
 
 Adobe Campaign ermöglicht die gemeinsame Nutzung von Audiences mit Adobe Experience Cloud. Eine Audience vom Typ **Experience Cloud** wird direkt von People Core Service in Adobe Campaign mit dem technischen Workflow **[!UICONTROL Freigegebene Zielgruppe importieren]** importiert.
 
@@ -124,7 +124,7 @@ Die Vorgehensweise zur Änderung von Audiences hängt vom jeweiligen Typ ab:
 * Um eine Audience vom Typ **Liste** oder vom Typ **Datei** zu ändern, öffnen Sie den Workflow, von dem aus sie erstellt wurde, und ändern Sie die Aktivität **[!UICONTROL Audience-Speicherung]** ab. Starten Sie den Workflow, damit die Änderungen für die Audience übernommen werden.
 * Weiterführende Informationen dazu, wie Sie Audiences vom Typ **Experience Cloud** bearbeiten, finden Sie im Abschnitt [Importieren/Exportieren von Audiences mit People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
-## Audiences löschen   {#deleting-audiences}
+## Audiences löschen {#deleting-audiences}
 
 Es gibt zwei Möglichkeiten, um eine oder mehrere Audiences zu löschen. Die erste Möglichkeit besteht darin, zu Ihrer Audience ein Ablaufdatum hinzuzufügen.
 
