@@ -12,7 +12,7 @@ discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -36,12 +36,12 @@ Deshalb ist es ratsam sicherzustellen, dass Deduplizierungen nur eine einzige ei
 
 ![](assets/dedup_bonnepratique.png)
 
-## Konfiguration   {#configuration}
+## Konfiguration {#configuration}
 
 Zur Konfiguration einer Deduplizierung müssen Sie ihren Titel, Deduplizierungsmethode und -kriterien sowie die das Ergebnis betreffenden Optionen angeben.
 
 1. Ziehen Sie eine **[!UICONTROL Deduplizierung]** in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
 
    ![](assets/deduplication_1.png)
 
@@ -77,7 +77,7 @@ Zur Konfiguration einer Deduplizierung müssen Sie ihren Titel, Deduplizierungsm
 1. Bei Bedarf können Sie unter Verwendung von [Transitionen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) auf erweiterte Optionen zur Ausgabepopulation zugreifen.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel 1: Dubletten vor einem Versand identifizieren   {#example-1--identifying-duplicates-before-a-delivery}
+## Beispiel 1: Dubletten vor einem Versand identifizieren {#example-1--identifying-duplicates-before-a-delivery}
 
 Das folgende Beispiel zeigt eine Deduplizierung, mithilfe derer die Dubletten einer Zielgruppe vor dem Versand einer E-Mail ausgeschlossen werden können. Dadurch lässt sich vermeiden, eine Information mehrmals an ein und dasselbe Profil zu schicken.
 
@@ -100,7 +100,7 @@ Der Workflow setzt sich folgendermaßen zusammen:
 * **[!UICONTROL E-Mail-Versand]**, der im Anschluss an die ausgehende Haupttransition der Deduplizierung platziert wird. Die Konfiguration von E-Mail-Sendungen wird im Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md) beschrieben.
 * **[!UICONTROL Audience-Speicherung]**, die im Anschluss an die komplementäre Transition der Deduplizierung platziert wird, um die Dubletten in einer **Dubletten**-Audience zu speichern. Diese Audience kann in der Folge wiederverwendet werden, um ihre Mitglieder direkt von jeglichem E-Mail-Versand auszuschließen.
 
-## Beispiel 2: Daten einer importierten Datei deduplizieren   {#example-2--deduplicating-the-data-from-an-imported-file}
+## Beispiel 2: Daten einer importierten Datei deduplizieren {#example-2--deduplicating-the-data-from-an-imported-file}
 
 In diesem Beispiel wird gezeigt, wie sich Daten einer importierten Datei vor dem Laden in die Datenbank deduplizieren lassen. Mithilfe dieses Prozesses lässt sich die Qualität der in die Datenbank geladenen Daten verbessern.
 
