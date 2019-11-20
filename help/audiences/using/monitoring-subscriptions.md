@@ -11,7 +11,7 @@ topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -28,7 +28,7 @@ Zur Verfolgung des An- und Abmeldeverhaltens bieten sich Ihnen verschiedene Opti
 * Öffnen Sie einen Bericht zur An- und Abmeldeentwicklung im Bereich **Bericht** des Dienstes. Siehe [Dienst- Berichte](#service-reports).
 * Öffnen Sie im Bereich **Profil** die Liste der Dienste, für die sich eine Person angemeldet hat. Siehe [Ereignisverlauf eines Profils](#history-of-events-linked-to-a-profile).
 
-## Dienst-Dashboard   {#service-dashboard}
+## Dienst-Dashboard {#service-dashboard}
 
 Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Dienst angemeldet sind:
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Di
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Abonnementverläufe   {#subscription-history}
+## Abonnementverläufe {#subscription-history}
 
 Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Dienst- Berichte   {#service-reports}
+## Dienst-Berichte {#service-reports}
 
 Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeigen:
 
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeige
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Ereignisverlauf eines Profils   {#history-of-events-linked-to-a-profile}
+## Ereignisverlauf eines Profils {#history-of-events-linked-to-a-profile}
 
 Um festzustellen, für welche Dienste sich ein Kontakt angemeldet hat, können Sie die Liste im Marketingverlauf des entsprechenden Profils zu Rate ziehen. Näheres hierzu finden Sie im Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md).
 
