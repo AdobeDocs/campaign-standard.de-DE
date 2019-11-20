@@ -11,7 +11,7 @@ topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -39,7 +39,7 @@ Mit integrierten Kundenprofilen und benutzerdefinierten Segmenten können Sie Ku
 
 >[!CAUTION]
 >
->Beachten Sie dabei aber stets [die Nutzungsbedingungen von Adobe Campaign](http://www.adobe.com/legal/terms/aup.html).
+>Beachten Sie dabei aber stets [die Nutzungsbedingungen von Adobe Campaign](http://www.adobe.com/de/legal/terms/aup.html).
 
 Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe-Campaign-Kunden, die Daten von Personen erfassen, die in der EU wohnhaft sind. Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können.
 
