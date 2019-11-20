@@ -11,7 +11,7 @@ topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -91,7 +91,7 @@ Wenn der Anmeldetoken existiert, erhält der entsprechende Benutzer eine Transak
 
 "Hallo, Jane Green, das Boarding hat soeben begonnen! Bitte gehen Sie zu Flugsteig B18."
 
-## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt    {#transactional-push-notifications-targeting-a-profile}
+## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt {#transactional-push-notifications-targeting-a-profile}
 
 Sie können eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile senden, die Ihre Mobile App abonniert haben. Dieser Versand kann [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) enthalten, wie beispielsweise den Vornamen des Empfängers.
 
@@ -105,7 +105,7 @@ Die Mobile Apps, für die sich ein Profil angemeldet hat, werden im Tab **[!UICO
 
 Weitere Informationen zum Öffnen und Bearbeiten von Profilen finden Sie unter [Profile](../../audiences/using/creating-profiles.md).
 
-### Transaktions-Push-Benachrichtigungen senden, bei denen die Zielgruppenbestimmung durch ein Profil erfolgt    {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Transaktions-Push-Benachrichtigungen senden, bei denen die Zielgruppenbestimmung durch ein Profil erfolgt {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Beispiel: Eine Fluglinie möchte allen Adobe-Campaign-Benutzern, die sich für ihre Mobile App angemeldet haben, eine letzte Aufforderung zum Boarding senden.
 
