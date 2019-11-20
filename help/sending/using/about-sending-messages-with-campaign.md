@@ -11,7 +11,7 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -40,5 +40,5 @@ Nach erfolgter Zielgruppenbestimmung und Inhaltserstellung ist Ihr Versand zu te
 * [Testprofile verwalten und Testsendungen durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [E-Mail-Rendering](../../sending/using/email-rendering.md)
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
+* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_Deliverability.html)
 
