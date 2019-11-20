@@ -11,7 +11,7 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -75,5 +75,5 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
-* Video [Configuring list](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
+* Video [Configuring list](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
 
