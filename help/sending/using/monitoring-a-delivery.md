@@ -12,7 +12,7 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -45,7 +45,7 @@ Es gibt mehrere Möglichkeiten, einen Versand zu beobachten und seine Wirkung zu
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Versandlogs   {#delivery-logs}
+## Versandlogs {#delivery-logs}
 
 ### Versandlogs {#sending-logs}
 
