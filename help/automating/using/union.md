@@ -12,7 +12,7 @@ discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
 context-tags: union,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -30,7 +30,7 @@ Eine **[!UICONTROL Vereinigung]** dient der Zusammenfassung der Ergebnisse mehre
 >
 >Dabei müssen die Mengen nicht zwingend homogen sein.
 
-## Anwendungskontext   {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 Eine **[!UICONTROL Vereinigung]** wird insbesondere im Rahmen einer Segmentierung, einer Audience-Erstellung oder der Zielgruppenbestimmung verwendet, um die Populationen der eingehenden Transitionen zusammenzuführen.
 
@@ -38,7 +38,7 @@ Eine **[!UICONTROL Vereinigung]** wird insbesondere im Rahmen einer Segmentierun
 
 1. Ziehen Sie eine **[!UICONTROL Vereinigung]** in den Workflow-Arbeitsbereich.
 1. Schließen Sie sie an Aktivitäten wie beispielsweise Abfragen an.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
 1. Wählen Sie nun den **[!UICONTROL Abstimmtyp]**, um den Umgang mit aus der Konfrontation der eingehenden Populationen resultierenden Dubletten zu definieren:
 
    * **[!UICONTROL Nur die Schlüssel]** - Standardmodus; die Aktivität behält nur einen der Datensätze bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Datensätze denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
