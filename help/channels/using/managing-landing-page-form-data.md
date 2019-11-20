@@ -12,7 +12,7 @@ discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -29,7 +29,7 @@ Inhaltsblöcken wie beispielsweise Eingabefeldern, Radiobuttons oder Checkboxes 
 * Wählen Sie aus der Dropdown-Liste **Feld** das Datenbankfeld aus, das dem Formularfeld zugeordnet werden soll.
 * Wenn die Option **Pflichtfeld** aktiviert ist, kann der Nutzer das Formular nicht absenden, ohne dieses Feld ausgefüllt zu haben. In diesem Fall wird eine Fehlermeldung angezeigt.
 
-## Mapping der Formularfelder    {#mapping-form-fields}
+## Mapping der Formularfelder {#mapping-form-fields}
 
 Über Eingabefelder können Daten in der Campaign-Datenbank gespeichert bzw. dort aktualisiert werden. Dazu müssen Sie Blöcken wie Eingabe- oder Auswahlfeldern Datenbankfelder zuordnen. Gehen Sie wie folgt vor:
 
@@ -52,7 +52,7 @@ Inhaltsblöcken wie beispielsweise Eingabefeldern, Radiobuttons oder Checkboxes 
 >
 >Die Standardfelder der nativen Landingpages sind bereits ausgefüllt. Sie können sie nach Bedarf ändern.
 
-## Formular mit einem Dienst verknüpfen    {#linking-a-form-to-a-service}
+## Formular mit einem Dienst verknüpfen {#linking-a-form-to-a-service}
 
 Sie können ein Formular mit einem Dienst verknüpfen, sodass sich Profile beim Besuch der Landingpage für einen spezifischen Dienst anmelden können, wenn sie auf die Senden-Schaltfläche des Formulars klicken.
 
