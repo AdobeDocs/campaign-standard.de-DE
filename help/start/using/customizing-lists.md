@@ -11,7 +11,7 @@ topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -44,7 +44,7 @@ Es besteht die Möglichkeit, Spalten einer Liste anzuzeigen oder auszublenden. G
 
    ![](assets/list_configuration1.png)
 
-1. Fügen Sie die anzuzeigenden Spalten hinzu, indem Sie sie in der Liste links im Bildschirm markieren und dann mithilfe der Schaltfläche ![ der Symbolleiste nach rechts kopieren.](assets/arrowright.png)
+1. Fügen Sie die anzuzeigenden Spalten hinzu, indem Sie sie in der Liste links im Bildschirm markieren und dann mithilfe der Schaltfläche ![](assets/arrowright.png) der Symbolleiste nach rechts kopieren.
 
    Die verfügbaren Spalten hängen von der der Liste zugrunde liegenden Ressource ab.
 
