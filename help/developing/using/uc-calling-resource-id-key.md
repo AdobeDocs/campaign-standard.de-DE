@@ -1,7 +1,7 @@
 ---
 title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -40,7 +40,7 @@ Verwandte Themen:
 
    ![](assets/uc_idkey2.png)
 
-1. Fügen Sie die beiden benutzerdefinierten Felder "CRM ID" und "Kategorie“ hinzu und wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Fügen Sie die beiden benutzerdefinierten Felder "CRM ID" und "Kategorie" hinzu und wählen Sie **[!UICONTROL Bestätigen]** aus.
 
    ![](assets/uc_idkey3.png)
 
