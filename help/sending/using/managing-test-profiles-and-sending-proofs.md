@@ -12,7 +12,7 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -38,7 +38,7 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
 ![](assets/test_profile.png)
 
-## Verwaltung von Testprofilen     {#managing-test-profiles}
+## Verwaltung von Testprofilen {#managing-test-profiles}
 
 ### Testprofile erstellen {#creating-test-profiles}
 
@@ -71,7 +71,7 @@ Das Testprofil wurde der Liste der Profile hinzugefügt.
 
 **Verwandtes Thema:**
 
-Video [Creating a test profile](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
+Video [Creating a test profile](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
 
 ### Testprofile bearbeiten {#editing-test-profiles}
 
@@ -125,7 +125,7 @@ Senden Sie so viele Testsendungen wie nötig sind, um zu einer endgültigen Vers
 
 **Verwandtes Thema:**
 
-Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+Video [Sending a test, preparing and sending an email](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
 ## Verwenden von Fallen {#using-traps}
 
