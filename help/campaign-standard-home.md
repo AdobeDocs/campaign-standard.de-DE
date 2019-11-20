@@ -3,7 +3,7 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
@@ -15,10 +15,10 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ## Neue Funktionen
 
-* **[Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+* **[Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html)**<br/>
 Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
 
-* **[Best Practices im Versand](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
+* **[Best Practices im Versand](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)**<br/>
 Erfahren Sie mehr über Best Practices bei der Erstellung und beim Versand von Nachrichten.
 
 * **[E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
@@ -70,14 +70,14 @@ Weitere Informationen zum Einrichten einer Landingpage.
 
 * [Versionshinweise](rn/using/release-notes.md)
 
-* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Control Panel](https://helpx.adobe.com/de/campaign/kb/control-panel.html)
 
 * [Anleitungsvideos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [Handbuch zur Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [Handbuch zur Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html)
 
-* [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html)
 
-* [Technische Hinweise](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
+* [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html)
 
-* [Implementierungshandbuch zu Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+* [Implementierungshandbuch zu Adobe Campaign Standard](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html)
