@@ -11,7 +11,7 @@ topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -50,7 +50,7 @@ Vorlagen werden im Menü **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen
 >
 >Passen Sie bei Bedarf in Ihren E-Mail- oder Landingpage-Vorlagen auch die zu verwendende Marke an. Weiterführende Informationen finden Sie im Abschnitt [Marken](../../administration/using/branding.md).
 
-## Inhaltsvorlagen     {#content-templates}
+## Inhaltsvorlagen {#content-templates}
 
 Der Zugriff auf die HTML-Inhaltsvorlagen erfolgt über das Fenster **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]** in [Erweitertes Menü](../../start/using/interface-description.md#advanced-menu). Dort können Sie Landingpage-Inhaltsvorlagen, E-Mail-Inhaltsvorlagen und Fragmente verwalten.
 
@@ -72,7 +72,7 @@ Die nativen E-Mail-Inhaltsvorlagen enthalten 18 für Mobilgeräte optimierte Lay
 
 **Verwandte Themen:**
 
-* [In diesem Video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html) erfahren Sie, wie Sie Inhaltsvorlagen personalisieren können.
+* [In diesem Video](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html) erfahren Sie, wie Sie Inhaltsvorlagen personalisieren können.
 * Weiterführende Informationen zum Bearbeiten von Inhalten finden Sie im Abschnitt [Über die Inhaltserstellung in E-Mails](../../designing/using/overview.md).
 
 ### Inhaltsvorlage erstellen {#creating-a-content-template}
