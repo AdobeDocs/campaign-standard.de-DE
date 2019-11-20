@@ -11,7 +11,7 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Wichtigste Schritte im Nachrichtenversand{#key-steps-to-send-a-message}
 
-Empfehlungen zur Durchführung des Versands finden Sie in [Best Practices beim Versand](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Empfehlungen zur Durchführung des Versands finden Sie in [Best Practices beim Versand](http://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
 
 Das Erstellen und Senden von Nachrichten umfasst die folgenden Schritte:
 
