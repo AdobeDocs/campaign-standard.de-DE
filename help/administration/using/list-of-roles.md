@@ -12,7 +12,7 @@ discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 # Liste der Rollen{#list-of-roles}
 
-Adobe Campaign bietet standardmäßig eine Auswahl an Benutzerrollen zur Definition von Einzelberechtigungen für Benutzer und Benutzergruppen. Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ansicht der Benutzeroberfläche und definieren ihren Zugriff auf die unterschiedlichen Funktionen. Weiterführende Informationen hierzu finden Sie in der Tabelle mit [ Rollen und Berechtigungen](/help/administration/using/assets/acs_rights.pdf).
+Adobe Campaign bietet standardmäßig eine Auswahl an Benutzerrollen zur Definition von Einzelberechtigungen für Benutzer und Benutzergruppen. Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ansicht der Benutzeroberfläche und definieren ihren Zugriff auf die unterschiedlichen Funktionen. Weiterführende Informationen hierzu finden Sie in der Tabelle mit [Rollen und Berechtigungen](/help/administration/using/assets/acs_rights.pdf).
 
 ![](assets/user_management_3.png)
 
