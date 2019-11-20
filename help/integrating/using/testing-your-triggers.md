@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -35,9 +35,9 @@ Folgen Sie dazu den Schritten im Abschnitt [In Campaign einen gemappten Trigger 
 
 Wenn sich der Trigger erstellen lässt, fahren Sie mit dem nächsten Schritt fort. Wenn nicht, bedeutet dies, dass die Verbindung zum Trigger-Ziel fehlgeschlagen ist. Überprüfen Sie, ob Triggers in Experience Cloud (Activation Services) bereitgestellt wurde. Ist dies nicht der Fall, kontaktieren Sie bitte Ihren Adobe-Kundenbetreuer oder Professional Services-Partner. Die folgenden Informationen werden benötigt:
 
-* Marketing Cloud-Unternehmensname
+* Experience Cloud-Unternehmensname
 * Kennung der IMS-Organisation
-* Analytics-Unternehmensanmeldung (kann identisch mit dem Marketing Cloud-Unternehmensnamen sein)
+* Analytics-Unternehmensanmeldung (kann identisch mit dem Experience Cloud-Unternehmensnamen sein)
 
 **Versuchen Sie, den Trigger zu publizieren.**
 
