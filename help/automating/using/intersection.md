@@ -11,7 +11,7 @@ topic-tags: targeting-activities
 discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -33,7 +33,7 @@ Die **[!UICONTROL Schnittmenge]** wird insbesondere verwendet, um die Population
 
 1. Ziehen Sie eine **[!UICONTROL Schnittmenge]** in den Workflow-Arbeitsbereich.
 1. Schließen Sie sie an Aktivitäten wie beispielsweise Abfragen an.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
 1. Wählen Sie nun den **[!UICONTROL Abstimmtyp]**:
 
    * **[!UICONTROL Nur die Schlüssel]** - Standardmodus; die Aktivität behält die Elemente der eingehenden Transitionen bei, die denselben Schlüssel aufweisen.
