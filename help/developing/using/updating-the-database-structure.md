@@ -12,7 +12,7 @@ discoiquuid: 2448b126-66b8-4608-aa6c-8028fb1902a4
 context-tags: deploy,main;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -26,7 +26,7 @@ Damit Ihre Änderungen am Datenmodell wirksam werden und Sie sie verwenden könn
 >
 >Benutzerdefinierte Ressourcen werden im Zuge der automatischen Aktualisierungen durch Adobe automatisch aktualisiert.
 
-## Benutzerdefinierte Ressource publizieren   {#publishing-a-custom-resource}
+## Benutzerdefinierte Ressource publizieren {#publishing-a-custom-resource}
 
 Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert werden.
 
@@ -70,7 +70,7 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
 
    ![](assets/schema_extension_31.png)
 
-## Ressource mit API-Erweiterung publizieren   {#publishing-a-resource-with-api-extension}
+## Ressource mit API-Erweiterung publizieren {#publishing-a-resource-with-api-extension}
 
 In folgenden Fällen können Sie die Profiles &amp; Services API erstellen:
 
