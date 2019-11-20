@@ -12,7 +12,7 @@ discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -30,7 +30,7 @@ Im Tab **[!UICONTROL Bildschirmdefinition]** haben Sie folgende Möglichkeiten:
 * Anpassung der Anzeige der Liste mit den einzelnen Elementen der benutzerdefinierten Ressource;
 * Konfiguration des Detailbildschirms der einzelnen Elemente der Ressource.
 
-## Zugriff vom Navigationsmenü aus einrichten   {#enabling-access-from-the-navigation-menu}
+## Zugriff vom Navigationsmenü aus einrichten {#enabling-access-from-the-navigation-menu}
 
 Wenn Sie für Ihre Ressource einen eigenen Bildschirm einrichten möchten, können Sie einen vom Navigationsmenü aus verfügbar machen.
 
@@ -63,7 +63,7 @@ Im Bereich **[!UICONTROL Listenkonfiguration]** des Bildschirms können Sie die 
 
 Der Übersichtsbildschirm der Ressource ist somit definiert.
 
-## Konfiguration des Detailbildschirms definieren   {#defining-the-detail-screen-configuration}
+## Konfiguration des Detailbildschirms definieren {#defining-the-detail-screen-configuration}
 
 In der Bildschirmdefinition können Sie im Bereich **[!UICONTROL Konfiguration des Detailbildschirms]** die Spalten und Informationen definieren, die im Detailbildschirm eines jeden Elements der Ressource dargestellt werden sollen.
 
@@ -89,7 +89,7 @@ In der Bildschirmdefinition können Sie im Bereich **[!UICONTROL Konfiguration d
 
 Der Detailbildschirm der Ressource ist somit konfiguriert.
 
-## Aktionen zur Datenbearbeitung   {#actions-on-data-section}
+## Aktionen zur Datenbearbeitung {#actions-on-data-section}
 
 An dieser Stelle kann eine dedizierte Symbolleiste für den Bildschirm der benutzerdefinierten Ressource definiert werden. Dabei stehen drei Optionen zur Verfügung:
 
