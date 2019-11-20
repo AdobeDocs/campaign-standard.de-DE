@@ -11,7 +11,7 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -35,7 +35,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 Diese Schritte müssen in Adobe Campaign in einer bestimmten Reihenfolge ausgeführt werden, damit alle Parameter ordnungsgemäß aktiviert werden.
 
-## Schritt 1: Bestätigungs-Landingpage erstellen     {#step-1--create-the-confirmation-landing-page}
+## Schritt 1: Bestätigungs-Landingpage erstellen {#step-1--create-the-confirmation-landing-page}
 
 Um eine Anmeldung mit zweifacher Bestätigung einzurichten, muss zunächst die Bestätigungs-Landingpage erstellt werden: Diese Seite wird angezeigt, wenn ein Besucher die Bestätigungs-E-Mail anklickt, um sich zu registrieren.
 
@@ -69,13 +69,13 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
 1. [Testen und publizieren](../../channels/using/sharing-a-landing-page.md) Sie die Landingpage.
 
-## Schritt 2: Bestätigungs-E-Mail erstellen     {#step-2--create-the-confirmation-email}
+## Schritt 2: Bestätigungs-E-Mail erstellen {#step-2--create-the-confirmation-email}
 
 Nachdem die Bestätigungs-Landingpage fertig ist, kann die Bestätigungs-E-Mail erstellt werden. Diese E-Mail wird automatisch jedem Besucher gesendet, der die Akquise-Landingpage bestätigt. Diese Bestätigung wird als Ereignis erachtet und die E-Mail gilt als Transaktionsnachricht, die mit einer bestimmten Typologieregel verknüpft ist, wodurch Abmeldungen gehandhabt werden können.
 
 Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Führen Sie sie aus, bevor Sie die Akquise-Landingpage erstellen, da diese auf die E-Mail-Vorlage verweist.
 
-### Ereignis erstellen     {#create-the-event}
+### Ereignis erstellen {#create-the-event}
 
 Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/about-transactional-messaging.md), da sie auf ein Ereignis reagiert, nämlich die Bestätigung des Formulars. Erstellen Sie zuerst das Ereignis und danach die Vorlage der Transaktionsnachricht.
 
@@ -108,7 +108,7 @@ Erstellen Sie eine eigene [Typologieregel](../../administration/using/about-typo
 
 Diese Typologie kann jetzt mit der Bestätigungs-E-Mail verknüpft werden.
 
-### Bestätigungsnachricht erstellen     {#design-the-confirmation-message}
+### Bestätigungsnachricht erstellen {#design-the-confirmation-message}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf einem zuvor erstellen Ereignis basiert. Führen Sie die folgenden Schritte aus, um eine solche Nachricht zu erstellen:
 
@@ -121,7 +121,7 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf einem zuvor ers
 1. Bearbeiten Sie die Eigenschaften der E-Mail-Vorlage. Wählen Sie im Bereich **[!UICONTROL Erweiterte Parameter]** &gt; **[!UICONTROL Vorbereitung]** die zuvor erstellte Typologie **TYPOLOGY_PROFILE**.
 1. Speichern und publizieren Sie die Transaktionsnachricht.
 
-## Schritt 3: Akquise-Landingpage erstellen     {#step-3--create-the-acquisition-landing-page}
+## Schritt 3: Akquise-Landingpage erstellen {#step-3--create-the-acquisition-landing-page}
 
 Erstellen Sie die ursprüngliche Akquise-Landingpage. Sie enthält ein Anmeldeformular, das daraufhin auf Ihrer Website veröffentlicht wird.
 
