@@ -11,7 +11,7 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -29,4 +29,4 @@ Jeder Dienst ist mit folgenden Mechanismen ausgestattet:
 * Vorhandensein von **Mechanismen zur Bestätigung** von An- und/oder Abmeldung.
 * Verfolgung des **Verlaufs** von An- und Abmeldungen.
 
-Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werden. Weiterführende Informationen finden Sie in der [entsprechenden Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions).
