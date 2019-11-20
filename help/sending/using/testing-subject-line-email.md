@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -45,7 +45,7 @@ Bei der Analyse werden mehrere Indikatoren berechnet und es werden eine Reihe vo
 
 ![](assets/predictive_subject_line_example.png)
 
-## Modelle importieren      {#importing-models}
+## Modelle importieren {#importing-models}
 
 Auf Ihrem Adobe-Campaign-Server laufen Modelle nicht standardmäßig. Für den Erhalt eines Modells und die Aktivierung der Funktion gibt es zwei Möglichkeiten:
 
