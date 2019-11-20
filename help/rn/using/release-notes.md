@@ -11,7 +11,7 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -23,10 +23,10 @@ Alle Versionen 2019 einschließlich ihrer neuen Funktionen und Patches sind auf 
 
 Zusätzliche Ressourcen:
 
-* [Release-Planung für Campaign](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [Release-Planung für Campaign](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html)
 * [Neueste Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md)
-* [Eingestellte und entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Eingestellte und entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Control Panel](https://helpx.adobe.com/de/campaign/kb/control-panel.html)
 * Frühere Versionshinweise: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015–2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Version 19.4 - Oktober 2019 {#release-19-4---october-2019}
@@ -46,9 +46,9 @@ Zusätzliche Ressourcen:
    <td> <p>Der CCPA ist das neue Datenschutzgesetz des US-Bundesstaates Kalifornien, das am 01. Januar 2020 in Kraft tritt und in dem die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Der CCPA gilt für Adobe Campaign-Kunden, die Daten von Personen ("Datensubjekten") erfassen, die in Kalifornien wohnhaft sind.</p>
    <p>Zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) stellen wir daher weitere Funktionen bereit, mit deren Hilfe Sie CCPA-konformes Verhalten sicherstellen können:</p>
    <ul>
-    <li>Recht auf Zugriff und Recht auf Löschung: Dazu nutzen wir die Funktionen, die wir analog dazu für die DSGVO ergänzt haben – <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Mehr dazu</a> </li>
-    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Eingestellte und entfernte Funktionen</a>.</p></li>
-    <li>Ein Feld für die <strong>Abmeldung gemäß CCPA</strong> wurde zur Profilressource hinzugefügt, über das Adobe Campaign-Benutzer nachverfolgen können, ob ein Kunde die Weitergabe seiner personenbezogenen Daten untersagt hat. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Mehr dazu</a>.</li>
+    <li>Recht auf Zugriff und Recht auf Löschung: Dazu nutzen wir die Funktionen, die wir analog dazu für die DSGVO ergänzt haben – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">Mehr dazu</a> </li>
+    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html">Eingestellte und entfernte Funktionen</a>.</p></li>
+    <li>Ein Feld für die <strong>Abmeldung gemäß CCPA</strong> wurde zur Profilressource hinzugefügt, über das Adobe Campaign-Benutzer nachverfolgen können, ob ein Kunde die Weitergabe seiner personenbezogenen Daten untersagt hat. <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa">Mehr dazu</a>.</li>
   </ul>
     <p>Weitere Informationen finden Sie in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">diesem Video</a>.</p>
 </td> 
@@ -57,7 +57,7 @@ Zusätzliche Ressourcen:
    <td> Integration mit Microsoft Dynamics 365 (GA)<br /> </td> 
    <td> 
     <p>Die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 ist ab sofort verfügbar. Sie können nun die Datensätze Ihrer Kontakte und benutzerdefinierten Entitäten von Dynamics 365 auf Campaign übertragen und E-Mail-Ereignisdaten von Campaign zurück an Dynamics 365 übermitteln, um eine bessere Abstimmung von Vertrieb und Marketing zu erzielen.</p>
-    <p>Weitere Informationen dazu, wie Sie diese Integration einrichten, finden Sie im <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">entsprechenden Handbuch</a> und in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">diesem Video</a>.</p>
+    <p>Weitere Informationen dazu, wie Sie diese Integration einrichten, finden Sie im <a href="https://helpx.adobe.com/de/campaign/kb/acs-ms-dynamics.html">entsprechenden Handbuch</a> und in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">diesem Video</a>.</p>
   </td>
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Zusätzliche Ressourcen:
 * Fehlerkorrektur – Problematische Größen von Schaltflächen in Vorlagen und Fragmenten wurden angepasst.
 * Fehlerkorrektur – Beim Einfügen von Bildern in Schaltflächenkomponenten tritt nun kein Problem mehr mit der Bildgröße auf.
 
-### Sonstige Änderungen    {#other-changes-3}
+### Sonstige Änderungen {#other-changes-3}
 
 * Der standardmäßig für die Anzeige von Versand-KPIs verwendete Zeitraum auf der Seite "Dynamische Berichte" wurde so angepasst, dass keine Diskrepanzen in den Berichtsergebnissen mehr auftreten. (CAMP-35148)
 * Logs enthalten im Falle eines abgelaufenen Anwendungszertifikats nun eine entsprechende Fehlermeldung.
@@ -150,7 +150,7 @@ Zusätzliche Ressourcen:
 
 ### Neue Funktionen? {#what-s-new-4}
 
-Für Admin-Benutzer wurde eine neue Funktion hinzugefügt, durch die sie benachrichtigt werden, bevor die SSL-Zertifikate für ihre Domänen ihre Gültigkeit verlieren. Weitere Informationen finden Sie im [entsprechenden Handbuch](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
+Für Admin-Benutzer wurde eine neue Funktion hinzugefügt, durch die sie benachrichtigt werden, bevor die SSL-Zertifikate für ihre Domänen ihre Gültigkeit verlieren. Weitere Informationen finden Sie im [entsprechenden Handbuch](https://helpx.adobe.com/de/campaign/kb/control-panel-subdomains-certificates.html).
 
 Darüber hinaus können die Admin-Benutzer jetzt SSH-Schlüssel löschen, die für den Zugriff auf SFTP-Server hinzugefügt wurden.
 
@@ -222,7 +222,7 @@ Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS
 * Die "ftp"-Option wurde aus der Konfigurationsoberfläche für externe Konten entfernt. (CAMP-34472)
 * Sie können jetzt die SMTP-Testmodus-Option für jede E-Mail aktivieren und deaktivieren. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
-### Sonstige Änderungen       {#other-changes-2}
+### Sonstige Änderungen {#other-changes-2}
 
 * In der Benutzeroberfläche für Versandeigenschaften wurde ein Warnhinweis hinzugefügt. Er weist darauf hin, dass die Sendungen auf der Grundlage ihres Aggregat-Zeitraums vorbereitet werden und kein Zeitraum angegeben werden darf, wenn der Workflow mehrmals täglich aufgerufen werden soll. (CAMP-34393)
 * In Konfigurationsfenstern benutzerdefinierter Ressourcen wurde ein Warnhinweis hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder, Schlüssel, Indizes und Links benutzerdefinierter Ressourcen.
@@ -315,7 +315,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>Mit dem Control Panel können Sie Administratoraufgaben effizienter erledigen. So ermöglicht es Ihnen, die Serverkapazität zu überwachen und die Einstellungen der Instanzen zu verwalten (u. a. der SFTP-Server).</p><p>Weiterführende Informationen finden Sie im <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">ausführlichen Handbuch</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">diesem Video</a>.</p></td> 
+   <td> <p>Mit dem Control Panel können Sie Administratoraufgaben effizienter erledigen. So ermöglicht es Ihnen, die Serverkapazität zu überwachen und die Einstellungen der Instanzen zu verwalten (u. a. der SFTP-Server).</p><p>Weiterführende Informationen finden Sie im <a href="https://helpx.adobe.com/de/campaign/kb/control-panel.html">ausführlichen Handbuch</a> und in <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-control-panel-video-use.html">diesem Video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokale Benachrichtigungen<br /> </td> 
@@ -323,7 +323,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
   </tr> 
   <tr> 
    <td> Verbesserung bei Workflows – Hinzufügen einer Payload zur Aktivität "Externes Signal"<br /> </td> 
-   <td> <p>Starten Sie Workflows nun mit Payloads, wenn zuvor definierte Bedingungen eines anderen Workflows oder eines REST-API-Aufrufs erfüllt sind. Letzteres ermöglicht Ihnen die Integration mit Ihren externen Systemen. Gleichzeitig stellen wir die neue <strong>Test</strong>-Aktivität zur Verfügung, mit der diese Funktion getestet werden kann.</p><p>Weiterführende Informationen finden Sie in der <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">diesem Video</a>.</p></td> 
+   <td> <p>Starten Sie Workflows nun mit Payloads, wenn zuvor definierte Bedingungen eines anderen Workflows oder eines REST-API-Aufrufs erfüllt sind. Letzteres ermöglicht Ihnen die Integration mit Ihren externen Systemen. Gleichzeitig stellen wir die neue <strong>Test</strong>-Aktivität zur Verfügung, mit der diese Funktion getestet werden kann.</p><p>Weiterführende Informationen finden Sie in der <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">diesem Video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Verbesserung bei Landingpages – Google reCAPTCHA<br /> </td> 
@@ -336,7 +336,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
 
 * Fehlerkorrektur – Ein potenzielles Sicherheitsproblem mit Clickjacking im Reporting-Arbeitsbereich wurde behoben.
 
-### Verbesserungen bei E-Mail-Designer       {#email-designer-enhancements}
+### Verbesserungen bei Email Designer {#email-designer-enhancements}
 
 * Fehlerkorrektur – Bei der Verwendung duplizierter Fragmente in E-Mail-Designer tritt kein Fehler mehr auf. (CAMP-33193)
 * Fehlerkorrektur – Jetzt werden bei der Verwendung von Inline-Elementen in der E-Mail-Designer-Benutzeroberfläche keine unerwünschten Leerzeichen mehr erzeugt. (CAMP-32163)
@@ -356,7 +356,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
 * Fehlerkorrektur – Farben mit RGB-Werten können jetzt in der Farbauswahl definiert werden.
 * Fehlerkorrektur – Die Mirrorseite ist jetzt responsiv, wenn die E-Mail auf einem Mobiltelefon empfangen wird.
 
-### Verbesserungen bei Transaktionsnachrichten       {#transactional-messaging-enhancements}
+### Verbesserungen bei Transaktionsnachrichten {#transactional-messaging-enhancements}
 
 Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um seine Funktionsweise und Leistung zu optimieren.
 
@@ -368,9 +368,9 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Beim Import eines Packages mit einer Ereigniskonfiguration und der zugehörigen Transaktionsnachricht tritt jetzt kein Fehler mehr auf. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
 * Fehlerkorrektur – Jetzt werden keine Kollektionsdaten mehr aus den Testprofilen gelöscht, die für eine Transaktionsnachricht mit Produktlisten erstellt wurden.
 
-### Sonstige Änderungen       {#other-changes}
+### Sonstige Änderungen {#other-changes}
 
-* Zum externen SMS-Konto wurde eine neue Option hinzugefügt. Hiermit kann die maximale Anzahl der für den SMS-Versand verantwortlichen MTA-Prozesse beschränkt werden, um die Anzahl der parallelen Verbindungen besser steuern zu können. Weiterführende Informationen dazu finden Sie in der Technote zum [SMS-Schnittstellenprotokoll und dessen Konfiguration](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+* Zum externen SMS-Konto wurde eine neue Option hinzugefügt. Hiermit kann die maximale Anzahl der für den SMS-Versand verantwortlichen MTA-Prozesse beschränkt werden, um die Anzahl der parallelen Verbindungen besser steuern zu können. Weiterführende Informationen dazu finden Sie in der Technote zum [SMS-Schnittstellenprotokoll und dessen Konfiguration](https://helpx.adobe.com/de/campaign/kb/sms-connector-protocol-and-settings.html).
 * Wird jetzt eine Ressource mit einer API-Erweiterung publiziert, deren API zuvor bereits publiziert wurde, wird diese API jedes Mal automatisch aktualisiert, wenn sie erneut publiziert wird. Früher musste diese Aktion manuell durchgeführt werden. Wurde die API nicht aktualisiert, konnte ein Fehler in den Profil- oder Service-Ressourcen dieser API auftreten. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * In dynamischen Berichten wurde die Postleitzahl-Dimension entfernt. Verwenden Sie stattdessen die Dimensionen "Stadt", "Land" und "Bundesland".
 * Der Lebenszyklus-Ereignistrigger "Erster Start" für In-App-Nachrichten wurde entfernt.
@@ -384,7 +384,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Der Testmodus für die Publikation von benutzerdefinierten Ressourcen wurde verbessert. Jetzt wird Benutzern eine Warnung angezeigt, wenn die letzte Publikation einer benutzerdefinierten Ressource fehlgeschlagen ist und noch nicht korrigiert wurde. Wenn die Publikation einer benutzerdefinierten Ressource fehlschlägt, können Sie zur letzten funktionierenden Version zurückkehren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 * Zur Dateiübertragungsaktivität wurde eine neue Option hinzugefügt. Damit können Sie im SFTP-Modus bei der Verwendung des Dateidownloads die Dateien sortieren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/transfer-file.md). (CAMP-33109)
 
-### Korrekturen       {#patches}
+### Korrekturen {#patches}
 
 * Fehlerkorrektur – Jetzt tritt beim MTA kein Speicherleck mehr auf, wenn SMS-Einstellungen neu geladen werden.
 * Fehlerkorrektur – Datenbankaktualisierungen können jetzt im Reparaturmodus publiziert werden.
@@ -405,7 +405,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019       {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019 {#release-19-1-3---march-2019}
 
 ### Verbesserungen bei E-Mail-Designer {#email-designer-enhancements-1}
 
@@ -413,7 +413,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt treten keine Fehler mehr auf, wenn eine zuvor erstellte Vorlage in einer E-Mail verwendet wird.
 * Fehlerkorrektur – Komponenten können jetzt in importierten Vorlagen verborgen werden.
 
-### Sonstige Verbesserungen       {#other-improvements}
+### Sonstige Verbesserungen {#other-improvements}
 
 * Fehlerkorrektur – Bei der Ansicht von Typologieregeln tritt jetzt kein Fehler mehr auf. (CAMP-32059 &amp; CAMP-31849)
 * Fehlerkorrektur – Typologieregeln können jetzt bearbeitet werden. (CAMP-31750)
@@ -441,7 +441,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
   </tr> 
   <tr> 
    <td> Mobile In-App-Nachrichtenversand<br /> </td> 
-   <td> <p>Diese Version enthält die allgemein verfügbare Version der In-App-Kanal-Option in Campaign. Die wichtigsten neuen Funktionen gegenüber der Beta-Version sind dynamische Berichte für den In-App-Kanal und der sichere Handshake zwischen Mobile SDK und MCIAS (Marketing Cloud In-App Messaging Service, der die In-App-Regeln zum SDK weiterleitet). Der sichere Handshake gewährleistet, dass die personenbezogenen Daten Ihrer Benutzer nicht in betrügerische Hände gelangen können. Außerdem können Sie damit Benutzerdaten auf einem gemeinsam genutzten Gerät schützen, da der Nachrichten-Cache jedes Mal geleert wird, wenn sich der Benutzer abmeldet.</p><p>Weiterführende Informationen finden Sie im <a href="../../channels/using/about-in-app-messaging.md">entsprechenden Handbuch</a> und im <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App-Tutorial</a>.</p> </td> 
+   <td> <p>Diese Version enthält die allgemein verfügbare Version der In-App-Kanal-Option in Campaign. Die wichtigsten neuen Funktionen gegenüber der Beta-Version sind dynamische Berichte für den In-App-Kanal und der sichere Handshake zwischen Mobile SDK und MCIAS (Experience Cloud In-App Messaging Service, der die In-App-Regeln zum SDK weiterleitet). Der sichere Handshake gewährleistet, dass die personenbezogenen Daten Ihrer Benutzer nicht in betrügerische Hände gelangen können. Außerdem können Sie damit Benutzerdaten auf einem gemeinsam genutzten Gerät schützen, da der Nachrichten-Cache jedes Mal geleert wird, wenn sich der Benutzer abmeldet.</p><p>Weiterführende Informationen finden Sie im <a href="../../channels/using/about-in-app-messaging.md">entsprechenden Handbuch</a> und im <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App-Tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Workflow-Verbesserungen<br /> </td> 
@@ -455,11 +455,11 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
  </tbody> 
 </table>
 
-### Verbesserungen bei der Sicherheit       {#security-enhancements-1}
+### Verbesserungen bei der Sicherheit {#security-enhancements-1}
 
 * Der erzeugte Landingpage-HTML-Code wurde aktualisiert, sodass er jetzt die Indexierung durch Suchmaschinen verhindert.
 
-### Verbesserungen bei E-Mail-Designer       {#email-designer-enhancements-2}
+### Verbesserungen bei Email Designer {#email-designer-enhancements-2}
 
 * Es wurden vier von Behance Künstlern designte, responsive E-Mail-Vorlagen hinzugefügt.
 
@@ -486,7 +486,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Zur Inhaltskomponente **Social** wurde das YouTube-Symbol hinzugefügt.
 * Inhaltskomponenten und Fragmente können jetzt in der Email-Designer-Palette als **Liste** angezeigt werden.
 
-### Sonstige Verbesserungen       {#other-improvements-1}
+### Sonstige Verbesserungen {#other-improvements-1}
 
 * Adobe Campaign ist jetzt im Zusammenhang mit sowohl SDK-V4- als auch AEP-SDK-Apps vollständig FCM-konform.
 * Adobe Campaign unterstützt Push-Benachrichtigungen unter Wear OS von Android sowie watchOS von Apple.
@@ -497,12 +497,12 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
    Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
-### Sonstige Änderungen       {#other-changes-1}
+### Sonstige Änderungen {#other-changes-1}
 
-* Adobe Campaign und Adobe Experience Cloud stellen mit Campaign Standard Release 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 ein. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. Näheres dazu finden Sie auf der Seite der [eingestellten und entfernten Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+* Adobe Campaign und Adobe Experience Cloud stellen mit Campaign Standard Release 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 ein. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. Näheres dazu finden Sie auf der Seite der [eingestellten und entfernten Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
 * Das Feld **Ländercode** in der Profilressource wurde in **Länder-/Regionscode** umbenannt.
 
-### Korrekturen       {#patches-1}
+### Korrekturen {#patches-1}
 
 * Fehlerkorrektur – Eine Nachricht kann jetzt auch dann gesendet werden, wenn ein Testprofil zu einer E-Mail-Transaktionsnachricht hinzugefügt wird. (CAMP-29854)
 * Fehlerkorrektur – Der Nachrichtenversand auf anderen Kanälen ist jetzt nicht mehr verlangsamt, wenn der Versand in allen Kanälen gleichzeitig gestartet wird und auf einem Kanal langsam ist.
@@ -546,11 +546,11 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
      <li> Die Möglichkeit, <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">in der Vorbereitungsphase Inhalt von einer URL automatisch abzurufen</a> </li> 
      <li> Vollständig kompatible <a href="../../designing/using/using-reusable-content.md#content-templates">native Inhaltsvorlagen</a>. </li> 
     </ul> 
-    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/overview.md">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.</p> </td> 
+    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/overview.md">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email-designer-tutorial.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlisten in Transaktions-E-Mails<br /> </td> 
-   <td> <p>Sie können jetzt in einer Transaktions-E-Mail eine oder mehrere Produktlisten referenzieren. So können Sie beispielsweise im Anschluss an einen stehen gelassenen Warenkorb automatisch eine E-Mail versenden, in der alle im Warenkorb befindlichen Produkte samt Bild, Preis und Link zum Produkt aufgelistet werden.</p><p>Weiterführende Informationen finden Sie in der <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">diesem Video</a>.</p> </td> 
+   <td> <p>Sie können jetzt in einer Transaktions-E-Mail eine oder mehrere Produktlisten referenzieren. So können Sie beispielsweise im Anschluss an einen stehen gelassenen Warenkorb automatisch eine E-Mail versenden, in der alle im Warenkorb befindlichen Produkte samt Bild, Preis und Link zum Produkt aufgelistet werden.</p><p>Weiterführende Informationen finden Sie in der <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/de/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">diesem Video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile-Ansicht in E-Mail-Designer<br /> </td> 
@@ -579,7 +579,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Die Liste der verfügbaren Länder bei der Definition einer Profiladresse wurde erweitert. (CAMP-26707)
 * Jetzt wird eine Fehlernachricht angezeigt, wenn versucht wird, einen integrierten Workflow zu importieren.
 
-### E-Mail-Designer       {#email-designer}
+### Email Designer {#email-designer}
 
 * Fehlerkorrektur – Jetzt wird die Funktion für die geografische Einheit auf einer E-Mail-Vorlage oder in einem Inhaltsfragment, die mit E-Mail-Designer erstellt wurden, nicht mehr aktiviert, obwohl diese Funktion in Adobe Campaign deaktiviert wurde. Zuvor war die Vorlage oder das Fragment nicht mehr verfügbar, wenn versucht wurde, nochmals auf sie zuzugreifen. (CAMP-28174)
 * Fehlerkorrektur – Jetzt können Bedingungen für dynamische Inhalte während der Bearbeitung von Inhalt mit E-Mail-Designer gespeichert werden. (CAMP-27905)
