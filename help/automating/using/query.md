@@ -12,7 +12,7 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -28,7 +28,7 @@ Eine **[!UICONTROL Abfrage]** dient der Filterung und Extraktion einer Populatio
 
 Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
-## Anwendungskontext    {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 **[!UICONTROL Abfragen]** kommen in verschiedenen Kontexten zum Einsatz:
 
@@ -36,7 +36,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 * Anreicherung von Daten beliebiger Adobe-Campaign-Tabellen;
 * Export von Daten.
 
-## Konfiguration    {#configuration}
+## Konfiguration {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Abfrage]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions. Die Standardkonfiguration der Aktivität sieht die Suche nach Profilen vor.
@@ -59,13 +59,13 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Zielgruppendimensionen und Ressourcen   {#targeting-dimensions-and-resources}
+## Zielgruppendimensionen und Ressourcen {#targeting-dimensions-and-resources}
 
 Mit Zielgruppendimensionen und Ressourcen können Sie definieren, auf welchen Elementen eine Abfrage basieren soll, um die Zielgruppe eines Versands zu bestimmen.
 
 Zielgruppendimensionen werden in Zielgruppen-Mappings definiert. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/target-mappings-in-campaign.md).
 
-### Zielgruppendimension und Ressource einer Abfrage definieren   {#defining-the-targeting-dimension-and-resource-of-a-query}
+### Zielgruppendimension und Ressource einer Abfrage definieren {#defining-the-targeting-dimension-and-resource-of-a-query}
 
 Die Zielgruppendimension und die Ressourcen werden bei der Erstellung eines Workflows im Tab **[!UICONTROL Eigenschaften]** der Abfrage-Aktivität definiert.
 
@@ -143,7 +143,7 @@ Nach dem Hinzufügen von Zusatzdaten können Sie die zunächst von der Abfrage a
 >
 >Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Leistungssteigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
 
-### Einfaches Feld hinzufügen   {#adding-a-simple-field}
+### Einfaches Feld hinzufügen {#adding-a-simple-field}
 
 Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres direkt in der ausgehenden Transition der Aktivität sichtbar. Dadurch lässt sich beispielsweise überprüfen, ob die aus der Abfrage hervorgehenden Daten Ihren Vorstellungen entsprechen.
 
@@ -156,7 +156,7 @@ Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres dire
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Aggregat hinzufügen   {#adding-an-aggregate}
+### Aggregat hinzufügen {#adding-an-aggregate}
 
 Aggregate dienen der Berechnung von Werten, die auf Feldern der Zielgruppendimension oder auf Feldern aus mit der Zielgruppendimension in Relation stehenden Dimensionen basieren. Zum Beispiel: der Durchschnitt der von einem Profil erteilten Bestellungen.
 
@@ -284,7 +284,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
 Ihr Workflow kann nun ausgeführt werden. Die mithilfe der Abfrage abgerufenen Profile erhalten eine personalisierte E-Mail mit den ihren Transaktionen entsprechenden Daten.
 
-## Beispiele für Abfragen   {#query-samples}
+## Beispiele für Abfragen {#query-samples}
 
 ### Abfrage nach einfachen Profilattributen {#targeting-on-simple-profile-attributes}
 
@@ -292,7 +292,7 @@ Das folgende Beispiel zeigt eine Abfrage von Männern zwischen 18 und 30 Jahren,
 
 ![](assets/query_sample_1.png)
 
-### Abfrage nach E-Mail-Attributen   {#targeting-on-email-attributes}
+### Abfrage nach E-Mail-Attributen {#targeting-on-email-attributes}
 
 Das folgende Beispiel zeigt eine Abfrage von Profilen, deren E-Mail-Adressen-Domain "orange.co.uk" lautet.
 
@@ -302,7 +302,7 @@ Das folgende Beispiel zeigt eine Abfrage von Profilen, deren E-Mail-Adresse vorh
 
 ![](assets/query_sample_emailnotempty.png)
 
-### Abfrage von Profilen, deren Geburtstag heute ist   {#targeting-profiles-whose-birthday-is-today}
+### Abfrage von Profilen, deren Geburtstag heute ist {#targeting-profiles-whose-birthday-is-today}
 
 Das folgende Beispiel zeigt eine Abfrage von Profilen, deren Geburtstag heute ist.
 
@@ -358,7 +358,7 @@ Das folgende Beispiel zeigt eine Abfrage von Profilen, die in den letzten sieben
 
    ![](assets/query_sample_7days2.png)
 
-### Abfrage von Profilen, die einen bestimmten Link angeklickt haben   {#targeting-profiles-who-clicked-a-specific-link-}
+### Abfrage von Profilen, die auf einen bestimmten Link geklickt haben {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. Ziehen Sie den Filter **[!UICONTROL Trackinglogs (tracking)]** in Ihre Abfrage.
 
