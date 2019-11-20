@@ -12,7 +12,7 @@ discoiquuid: 521463aa-dec0-4f4b-8b71-93a4572e2b33
 context-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -29,4 +29,4 @@ Verschiedene Typen von E-Mails können gesendet werden:
 * A/B-Test-E-Mails: Damit können Sie bis zu drei Versionen einer E-Mail testen.
 * Transaktions-E-Mails: einzelne E-Mails, die auf der Basis des Kundenverhaltens ausgelöst werden.
 
-Weiterführende Informationen zu Best Practices beim Erstellen und Versenden von E-Mails erhalten Sie im Handbuch [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Weiterführende Informationen zu Best Practices beim Erstellen und Versenden von E-Mails erhalten Sie im Handbuch [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
