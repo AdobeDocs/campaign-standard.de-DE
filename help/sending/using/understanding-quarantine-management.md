@@ -11,7 +11,7 @@ topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -25,7 +25,7 @@ Eine E-Mail-Adresse oder Telefonnummer kann in Quarantäne kommen, weil z. B. da
 
 In diesem [Abschnitt](#conditions-for-sending-an-address-to-quarantine) werden die Regeln, die eine Quarantäne auslösen, näher erläutert.
 
-### Zustellbarkeit durch Quarantänen optimieren   {#optimizing-your-delivery-through-quarantines}
+### Zustellbarkeit durch Quarantänen optimieren {#optimizing-your-delivery-through-quarantines}
 
 Die Profile, deren E-Mail-Adressen oder Telefonnummern unter Quarantäne sind, werden während der Nachrichtenvorbereitung automatisch ausgeschlossen (siehe [Für einen Versand in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-a-delivery)). Dies beschleunigt die Zustellung, da sich die Fehlerrate maßgeblich auf die Zustellgeschwindigkeit auswirkt.
 
@@ -33,7 +33,7 @@ Teilweise werden E-Mails von Providern automatisch als Spam eingestuft, wenn die
 
 Zusätzlich helfen Ihnen Quarantänen, die Kosten des SMS-Versands zu senken, indem fehlerhafte Telefonnummern aus dem Versand ausgeschlossen werden.
 
-Weiterführende Informationen zu Best Practices zur Durchführung und Optimierung von Sendungen finden Sie auf [dieser Seite](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Weiterführende Informationen zu Best Practices zur Durchführung und Optimierung von Sendungen finden Sie auf [dieser Seite](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
 
 ### Quarantäne im Vergleich zur Blacklist {#quarantine-vs-blacklisting}
 
@@ -47,7 +47,7 @@ Im Gegensatz dazu sind es bei der **Blacklist** die Profile selbst, die vom Vers
 >
 >Wenn ein Benutzer auf eine SMS-Nachricht mit einem Schlüsselwort wie "STOP" antwortet, um sich vom SMS-Versand abzumelden, wird sein Profil nicht wie bei einem E-Mail-Abmeldevorgang auf die Blacklist gesetzt. Die Telefonnummer des Profils wird unter Quarantäne gestellt und erhält den Status **[!UICONTROL Auf Blacklist]**. Der Status bezieht sich ausschließlich auf die Telefonnummer und das Profil wird nicht auf die Blacklist gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-## In Quarantäne befindliche Adressen identifizieren   {#identifying-quarantined-addresses}
+## In Quarantäne befindliche Adressen identifizieren {#identifying-quarantined-addresses}
 
 Die in Quarantäne befindlichen Adressen können für einen bestimmten Versand oder für die gesamte Plattform angezeigt werden.
 
@@ -55,13 +55,13 @@ Die in Quarantäne befindlichen Adressen können für einen bestimmten Versand o
 >
 >Um eine Adresse aus der Quarantäne freizugeben, nehmen Sie bitte mit Ihrem technischen Administrator Kontakt auf.
 
-### Für einen Versand in Quarantäne befindliche Adressen identifizieren   {#identifying-quarantined-addresses-for-a-delivery}
+### Für einen Versand in Quarantäne befindliche Adressen identifizieren {#identifying-quarantined-addresses-for-a-delivery}
 
 Die für einen bestimmten Versand in Quarantäne befindlichen Adressen werden während der Versandvorbereitung im Tab **[!UICONTROL Ausschlusslogs]** des Versand-Dashboards angezeigt (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Weiterführende Informationen zur Versandvorbereitung finden Sie in [diesem Abschnitt](../../sending/using/preparing-the-send.md).
 
 ![](assets/exclusion_logs.png)
 
-### Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren   {#identifying-quarantined-addresses-for-the-entire-platform}
+### Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Administratoren können die für die gesamte Plattform in Quarantäne befindlichen Adressen im Menü **[!UICONTROL Administration &gt; Kanäle &gt; Quarantänen &gt; Adressen]** anzeigen.
 
@@ -75,7 +75,7 @@ Administratoren können die für die gesamte Plattform in Quarantäne befindlich
 >
 >Mit zunehmendem Alter der Datenbank steigt auch die Zahl der Adressen in Quarantäne. Wenn man beispielsweise davon ausgeht, dass eine E-Mail-Adresse eine Lebensdauer von etwa drei Jahren hat und dass die Empfängertabelle pro Jahr um 50 % wächst, lässt sich der Quarantänezuwachs wie folgt berechnen: Ende von Jahr 1: (1*0,33)/(1+0,5)=22 %. Ende von Jahr 2: ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
-## Ursachen für Quarantänen   {#conditions-for-sending-an-address-to-quarantine}
+## Ursachen für Quarantänen {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign verwaltet Quarantänen entsprechend dem Fehlertyp und dem Grund, der dem Fehler im Zuge der Qualifikation der Fehlermeldungen zugewiesen wurde (siehe [Typen und Ursachen für fehlgeschlagene Sendungen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) und [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 
