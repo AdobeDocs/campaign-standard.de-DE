@@ -12,7 +12,7 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: 'workflow,use-case,query,wait,delivery '
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -56,7 +56,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Wählen Sie in **[!UICONTROL Dauer]** ![](assets/duration-icon.png) aus und wählen Sie danach einen Tag aus.
 1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]** eine **[!UICONTROL Abfrageaktivität]**![](assets/query.png) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
-1. Ziehen Sie in **[!UICONTROL Verknüpfungen]****die Option[!UICONTROL Trackinglogs]** mit dem Operator **[!UICONTROL Ist vorhanden]** in den Arbeitsbereich.
+1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** die Option **[!UICONTROL Trackinglogs]** mit dem Operator **[!UICONTROL Ist vorhanden]** in den Arbeitsbereich.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** &gt; **[!UICONTROL Versand]** die Option **[!UICONTROL Versand]** mit dem Operator **[!UICONTROL Ist gleich]** in den Arbeitsbereich und wählen Sie als Wert den Versand aus.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** &gt; **[!UICONTROL Versand]** die Option **[!UICONTROL Typ]** in den Arbeitsbereich und aktivieren Sie als Wert **[!UICONTROL Öffnen]**.
 1. Wählen Sie als Operator zwischen den Regeln **[!UICONTROL Außer]** aus.
@@ -71,8 +71,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Geben Sie die SMS-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer SMS zu definieren, wählen Sie **[!UICONTROL Email Designer]** aus.
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
-1. Personalisieren Sie Ihre SMS je nach Ort mit spezifischen Angeboten.
-Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer SMS](../../channels/using/creating-an-sms-message.md).
+1. Personalisieren Sie Ihre SMS je nach Ort mit spezifischen Angeboten. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer SMS](../../channels/using/creating-an-sms-message.md).
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
