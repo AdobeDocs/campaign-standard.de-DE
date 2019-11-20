@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: 92b9004c-cba0-41fd-a035-32bee1d6a42c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -53,5 +53,5 @@ Ihre Daten sind nun in Adobe Analytics verfügbar.
 
 * [Externe Konten](../../administration/using/external-accounts.md)
 * [Technische Workflows](../../administration/using/technical-workflows.md)
-* Video [Share KPIs for integrated Campaign reporting](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)
+* Video [Share KPIs for integrated Campaign reporting](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html)
 
