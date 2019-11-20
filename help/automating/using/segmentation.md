@@ -12,7 +12,7 @@ discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -30,14 +30,14 @@ Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Akti
 >
 >Ein Mitglied der eingehenden Population kann standardmäßig nur einem einzigen Segment angehören. Die Anwendung der Filter erfolgt in der Reihenfolge der Segmente in der Aktivität.
 
-## Anwendungskontext   {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss etc.), sodass die Segmente auf der Basis der vorher bestimmten Standardpopulation erstellt werden können.
 
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie per Drag &amp; Drop eine **[!UICONTROL Segmentierung]** in Ihren Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
 1. Wählen Sie den **[!UICONTROL Ressourcentyp]** aus, den Sie segmentieren möchten:
 
    * **[!UICONTROL Datenbank-Ressource]**, wenn sich die Segmentierung auf bereits in der Datenbank existierende Daten bezieht. Wählen Sie die **[!UICONTROL Filterdimension]** entsprechend den Daten aus, die Sie segmentieren möchten. Standardmäßig bezieht sich die Segmentierung auf **Profile**.
