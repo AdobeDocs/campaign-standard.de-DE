@@ -12,7 +12,7 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -40,7 +40,7 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
 
    ![](assets/wkf_data_export1.png)
 
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
 1. Geben Sie den Titel der **Ausgabedatei** an. Der Dateiname wird automatisch mit dem Datum und der Uhrzeit der Erstellung ergänzt, um seine Eindeutigkeit zu gewährleisten, z. B.: Empfänger_20150815_081532.txt für eine Datei, die am 15. August 2015 um 8.15 Uhr und 32 Sekunden erstellt wurde.
 
    >[!NOTE]
