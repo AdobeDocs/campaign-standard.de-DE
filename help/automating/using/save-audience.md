@@ -12,7 +12,7 @@ discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -32,7 +32,7 @@ Mithilfe der **[!UICONTROL Audience-Speicherung]** können existierende Audience
 
 Außerdem ermöglicht diese Aktivität den Export von Profilen in Form von Adobe-Experience-Cloud-Zielgruppen/Segmenten. Diese Zielgruppen können anschließend in anderen Lösungen in Adobe Experience Cloud verwendet werden. Weiterführende Informationen zu freigegebenen Zielgruppen finden Sie in [Campaign und People Core Service verwenden](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
-## Anwendungskontext   {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um innerhalb eines Workflows berechnete Populationen in dauerhaft wiederverwendbare Audiences umzuwandeln.
 
@@ -40,7 +40,7 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
 
 1. Ziehen Sie eine **[!UICONTROL Audience-Speicherung]** in den Workflow-Arbeitsbereich.
 1. Schließen Sie sie an Zielgruppenbestimmungs-Aktivitäten wie beispielsweise Abfragen, Schnittmengen, Vereinigungen oder Ausschlüsse an.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
 1. Wählen Sie die Aktion aus, die Sie ausführen möchten:
 
    * **[!UICONTROL Existierende Audience aktualisieren]** - wählen Sie mithilfe der Dropdown-Liste eine existierende Audience aus und definieren Sie die Art der Aktualisierung:
