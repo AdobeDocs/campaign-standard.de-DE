@@ -12,7 +12,7 @@ discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -263,7 +263,7 @@ Die für ein Blockelement (Link, Personalisierungsfeld, Inhaltsbaustein etc.) de
 
 ![](assets/des_lp_content_4.png)
 
-### Rahmen und Hintergrund im Inhaltseditor hinzufügen    {#adding-a-border-and-a-background-in-the-content-editor}
+### Rahmen und Hintergrund im Inhaltseditor hinzufügen {#adding-a-border-and-a-background-in-the-content-editor}
 
 Es besteht die Möglichkeit, verschiedene **Hintergrundfarben** aus der Farbpalette für die einzelnen Blöcke auszuwählen. Die Farbe wird jeweils auf den gesamten Block angewendet.
 
@@ -273,7 +273,7 @@ Außerdem können die einzelnen Blöcke mit verschiedenen **Rahmen** versehen we
 
 ![](assets/des_lp_content_6.png)
 
-### Textstil im Inhaltseditor ändern    {#changing-the-text-style-in-the-content-editor}
+### Textstil im Inhaltseditor ändern {#changing-the-text-style-in-the-content-editor}
 
 Um einen Textstil zu ändern, muss sich der Cursor innerhalb eines Textblocks befinden.
 
@@ -287,7 +287,7 @@ Die Textausrichtung kann mit einer der drei Schaltflächen in der Palette links 
 
 Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Siehe [diesen Abschnitt](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Bilder in eine Landingpage einfügen    {#inserting-images-in-a-landing-page}
+### Bilder in eine Landingpage einfügen {#inserting-images-in-a-landing-page}
 
 1. Wählen Sie im Inhalt der Landingpage einen Baustein aus, der ein Bild enthält.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Einfügen]**.
@@ -348,7 +348,7 @@ In der Palette:
 
 ![](assets/dynamic_content_lp_4.png)
 
-## Versand einer Landingpage bestätigen    {#confirm-a-landing-page-submission}
+## Versand einer Landingpage bestätigen {#confirm-a-landing-page-submission}
 
 Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie wie folgt vor:
 
@@ -364,7 +364,7 @@ Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch eine
 
    ![](assets/lp_parameters_6.png)
 
-## Berechtigungen einrichten und Daten vorausfüllen    {#setting-permissions-and-pre-loading-data}
+## Berechtigungen einrichten und Daten vorausfüllen {#setting-permissions-and-pre-loading-data}
 
 Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen oder zu einer bestimmten Organisationseinheit gehören.
 Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage geladen werden. Gehen Sie wie folgt vor:
