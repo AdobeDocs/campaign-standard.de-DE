@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -107,7 +107,7 @@ Sie können das Design Ihrer E-Mail anpassen, beispielsweise den Abstand einer K
 
 Sie können Ihre E-Mail nun speichern und senden.
 
-### Erstellen von Inhalt aus einer vordefinierten Vorlage   {#building-content-from-an-out-of-the-box-template}
+### Erstellen von Inhalt aus einer vordefinierten Vorlage {#building-content-from-an-out-of-the-box-template}
 
 Ihre E-Mails können Sie auch aus vordefinierten Vorlagen erstellen und diese personalisieren. Hier bieten sich zum Beispiel Willkommensnachrichten für Neukunden, Newsletter und Wiedereinstellungs-E-Mails an.
 
@@ -127,7 +127,7 @@ Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen vo
 
 Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, um sie in künftigen E-Mails wiederzuverwenden und zu kombinieren, sollten Sie Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen konvertieren.
 
-### Konvertieren von HTML-Inhalt   {#converting-an-html-content}
+### Konvertieren von HTML-Inhalt {#converting-an-html-content}
 
 In diesem Anwendungsbeispiel erfahren Sie, wie Sie eine HTML-E-Mail rasch in Email Designer-Komponenten konvertieren können.
 
@@ -190,7 +190,7 @@ Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Desig
    >
    >Stellen Sie sicher, dass Sie Ihren Stil nach diesem Abschnitt in einem anderen CSS-Tag hinzufügen.
    >
-   >Verändern Sie das von Email Designer erzeugte CSS nicht:     
+   >Verändern Sie das von Email Designer erzeugte CSS nicht:
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
