@@ -11,7 +11,7 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -109,13 +109,11 @@ Weiterführende Informationen dazu finden Sie unter [Workflow mit externen Param
 
 ## Packages exportieren{#exporting-packages}
 
-Um Packages zu exportieren, dürfen die exportierten Ressourcen keine Standardkennungen enthalten. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe Campaign Standard unterscheiden.
-Weiterführende Informationen dazu finden Sie unter [Package-Verwaltung](../../automating/using/managing-packages.md).
+Um Packages zu exportieren, dürfen die exportierten Ressourcen keine Standardkennungen enthalten. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe Campaign Standard unterscheiden. Weiterführende Informationen dazu finden Sie unter [Package-Verwaltung](../../automating/using/managing-packages.md).
 
 ## Listenexport{#exporting-lists}
 
-Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. Die Verwaltung dieser Option erfolgt durch den funktionalen Administrator im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Optionen]**.
-Weiterführende Informationen dazu finden Sie unter [Listenexport](../../automating/using/exporting-lists.md).
+Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. Die Verwaltung dieser Option erfolgt durch den funktionalen Administrator im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Optionen]**. Weiterführende Informationen dazu finden Sie unter [Listenexport](../../automating/using/exporting-lists.md).
 
 ## Problembehebung{#workflow-troubleshooting}
 
