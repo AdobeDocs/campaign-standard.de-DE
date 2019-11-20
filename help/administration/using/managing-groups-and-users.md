@@ -12,7 +12,7 @@ discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -46,7 +46,7 @@ Wenn Sie den Zugriff eines Benutzers beschränken möchten, fügen Sie ihn nicht
 >
 >Bitte beachten Sie, dass in der Admin Console Sicherheitsgruppen Profile genannt werden.
 
-Wenn die vorhandenen Gruppen für Ihre Anforderungen nicht ausreichend sind, können Sie auch eigene Sicherheitsgruppen erstellen. Sicherheitsgruppen können von Administratoren verwaltet werden, die sowohl auf das Menü "Administration" von Adobe Campaign als auch auf die Admin Console zugreifen können. Weitere Informationen zur Admin Console finden Sie in [dieser Dokumentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Wenn die vorhandenen Gruppen für Ihre Anforderungen nicht ausreichend sind, können Sie auch eigene Sicherheitsgruppen erstellen. Sicherheitsgruppen können von Administratoren verwaltet werden, die sowohl auf das Menü "Administration" von Adobe Campaign als auch auf die Admin Console zugreifen können. Weitere Informationen zur Admin Console finden Sie in [dieser Dokumentation](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
 Hier müssen wir zunächst die beiden vorhandenen Gruppen "Standardbenutzer" und "Administrator" unseren Benutzern zuweisen. Diese Sicherheitsgruppen schränken manche Funktionen von Adobe Campaign ein: Die Standardbenutzer haben elementaren Zugriff auf Adobe Campaign, während der Administrator beispielsweise auf die Administratormenüs zugreifen kann.
 
