@@ -1,5 +1,5 @@
 ---
-title: 'E-Mails personalisieren '
+title: 'Personalisierung von E-Mails '
 description: Hier erhalten Sie Informationen über Email Designer, mit dem Inhalte für E-Mails erstellt werden können.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
