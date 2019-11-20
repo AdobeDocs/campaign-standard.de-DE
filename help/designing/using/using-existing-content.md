@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -106,7 +106,7 @@ Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 
 **Verwandtes Thema:**
 
-Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
 ### Während der Vorbereitung Inhalt von einer URL automatisch abrufen {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -166,7 +166,7 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 * [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTML-Inhalt konvertieren       {#converting-an-html-content}
+## HTML-Inhalt konvertieren {#converting-an-html-content}
 
 Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, die Sie in Ihren E-Mails wiederverwenden und kombinieren können, empfiehlt es sich, Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen zu konvertieren.
 
@@ -228,6 +228,6 @@ Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Desig
 
    >[!NOTE]
    >
-   >Verändern Sie das von Email Designer erzeugte CSS nicht: `<style acrite-template-css="true">`       und `<style acrite-custom-styles="" type="text/css">`. Fügen Sie anschließend Ihren Stil hinzu.
+   >Verändern Sie das von Email Designer erzeugte CSS nicht: `<style acrite-template-css="true">` und `<style acrite-custom-styles="" type="text/css">`. Fügen Sie anschließend Ihren Stil hinzu.
 
 1. Kehren Sie zur mobilen Ansicht zurück und prüfen Sie, ob Ihr Inhalt korrekt angezeigt wird, und speichern Sie Ihre Änderungen.
