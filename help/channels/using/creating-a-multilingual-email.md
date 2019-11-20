@@ -11,7 +11,7 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -34,7 +34,7 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
 
    ![](assets/multi_create4.png)
 
-   Fügen Sie bei Bedarf Varianten mit der Schaltfläche **[!UICONTROL Element hinzufügen]** hinzu. **[!UICONTROL Die Variante Standard]** darf nicht gelöscht werden. Mit der Auswahl **[!UICONTROL Standard]**, [wird die bevorzugte Sprache des Profils ](../../audiences/using/creating-profiles.md) für die Auswahl der Variante herangezogen. Sie können für die Variante **[!UICONTROL Standard]** auch eine beliebige andere Sprache auswählen.
+   Fügen Sie bei Bedarf Varianten mit der Schaltfläche **[!UICONTROL Element hinzufügen]** hinzu. **[!UICONTROL Die Variante Standard]** darf nicht gelöscht werden. Mit der Auswahl **[!UICONTROL Standard]**, [wird die bevorzugte Sprache des Profils](../../audiences/using/creating-profiles.md) für die Auswahl der Variante herangezogen. Sie können für die Variante **[!UICONTROL Standard]** auch eine beliebige andere Sprache auswählen.
 
 1. Bestätigen Sie die Erstellung der E-Mail: Daraufhin wird das Dashboard der E-Mail angezeigt.
 1. Definieren Sie den E-Mail-Inhalt für jede Variante. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Über die Dropdown-Liste können Sie zwischen den verschiedenen Varianten hin und her wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/overview.md).
@@ -47,4 +47,4 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
 
 **Verwandtes Thema:**
 
-* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
