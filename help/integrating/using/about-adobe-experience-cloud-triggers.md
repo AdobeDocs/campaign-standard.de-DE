@@ -12,7 +12,7 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -28,11 +28,11 @@ In Adobe Campaign werden der zuvor erstellte Trigger ausgewählt, die Ereignisda
 
 **Verwandte Themen:**
 
-* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zu Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html).
-* Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) an.
+* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zu Adobe Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/triggers.html).
+* Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) an.
 * Erfahren Sie mehr in unseren zwei [Anwendungsbeispielen zur Abbruchsauslösung](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Die Verwendung von Triggern   {#triggers-user-process}
+## Die Verwendung von Triggern {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ Gehen Sie in Adobe Campaign wie folgt vor:
 
 Vollständige Anwendungsbeispiele werden in [diesem Abschnitt](../../integrating/using/abandonment-triggers-use-cases.md) erläutert.
 
-## Wichtige Hinweise   {#important-notes}
+## Wichtige Hinweise {#important-notes}
 
 Beachten Sie bei der Verwendung der Triggers-Campaign-Integration Folgendes:
 
