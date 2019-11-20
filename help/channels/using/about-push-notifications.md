@@ -12,7 +12,7 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Sie können mit Adobe Campaign personalisierte und zielgruppenspezifische Push-Benachrichtigungen an iOS- und Android-Mobilgeräte versenden.
 
-Diese Nachrichten werden auf Mobile Apps empfangen, die in Adobe Campaign unter Verwendung des Experience Cloud Mobile SDK V4 oder Experience Platform SDK eingerichtet werden. Weiterführende Informationen dazu finden Sie unter [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) und [Eine Mobile App mit Adobe Experience Platform SDKs konfigurieren](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Diese Nachrichten werden auf Mobile Apps empfangen, die in Adobe Campaign unter Verwendung des Experience Cloud Mobile SDK V4 oder Experience Platform SDK eingerichtet werden. Weiterführende Informationen dazu finden Sie unter [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) und [Eine Mobile App mit Adobe Experience Platform SDKs konfigurieren](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
 
 In Adobe Campaign sind Attribute zu mobilen Profilen, die von Mobilgeräten gesendet werden, in der Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** gespeichert. Dort können die Daten definiert werden, die über die Abonnenten Ihrer Apps gesammelt werden sollen.
 
@@ -42,7 +42,7 @@ In Adobe Campaign sind zwei Arten von Push-Benachrichtigungen verfügbar:
 
 Mithilfe bestimmter Konfigurationen kann das Verhalten von Benachrichtigungen gesteuert werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/customizing-a-push-notification.md).
 
-Erfahrene Benutzer, die diese Konfigurationen definieren möchten, finden weiterführende Informationen in den [Technotes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) zu Mobile Apps.
+Erfahrene Benutzer, die diese Konfigurationen definieren möchten, finden weiterführende Informationen in den [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) zu Mobile Apps.
 
 >[!NOTE]
 >
@@ -53,15 +53,14 @@ Erfahrene Benutzer, die diese Konfigurationen definieren möchten, finden weiter
 * [Push-Benachrichtigung vorbereiten und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Mehrsprachige Push-Benachrichtigungen erstellen](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Bericht zu Push-Benachrichtigungen](../../reporting/using/push-notification-report.md)
-* [Häufig gestellte Fragen zu Push und In-App](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Häufig gestellte Fragen zu Push und In-App](https://helpx.adobe.com/de/campaign/kb/push_inapp_faq.html)
 
 ## Voraussetzungen {#prerequisites}
 
 >[!NOTE]
->Um die Funktion für Push-Benachrichtigungen in Campaign zu nutzen, benötigen Sie ein gültiges Push-Zertifikat im PEM-Format ohne Passwörter.
-Wenn Sie über ein gültiges p12-Zertifikat verfügen, können Sie es mithilfe von Online-Ressourcen einfach in eine PEM-Datei konvertieren.
+>Um die Funktion für Push-Benachrichtigungen in Campaign zu nutzen, benötigen Sie ein gültiges Push-Zertifikat im PEM-Format ohne Passwörter. Wenn Sie über ein gültiges p12-Zertifikat verfügen, können Sie es mithilfe von Online-Ressourcen einfach in eine PEM-Datei konvertieren.
 
-Um mit dem Versand von Push-Benachrichtigungen zu beginnen, müssen Sie zuerst Ihre Mobile App mithilfe von SDK V4 konfigurieren: Sie können Ihre Mobile App mithilfe von Experience Platform SDKs konfigurieren. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Um mit dem Versand von Push-Benachrichtigungen zu beginnen, müssen Sie zuerst Ihre Mobile App mithilfe von SDK V4 konfigurieren: Sie können Ihre Mobile App mithilfe von Experience Platform SDKs konfigurieren. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
 
 Vor dem Versand Ihrer Push-Benachrichtigungen sollten Sie auf Folgendes achten:
 
