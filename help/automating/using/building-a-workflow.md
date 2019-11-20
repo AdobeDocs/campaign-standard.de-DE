@@ -12,7 +12,7 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -26,7 +26,7 @@ In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei
 * Aktivitäten hinzufügen und verbinden
 * Aktivitäten konfigurieren
 
-## Workflow erstellen     {#creating-a-workflow}
+## Workflow erstellen {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
 
@@ -58,7 +58,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
 **Verwandtes Thema:**
 
-Video [Creating a workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+Video [Creating a workflow](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
 
 ## Aktivitäten hinzufügen und verbinden {#adding-and-linking-activities}
 
