@@ -1,10 +1,10 @@
 ---
-product: Adobe Campaign
-sub-product: Adobe Campaign Standard
+product: adobe campaign
+sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard – Hilfe
+user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
+source-git-commit: e059232068d79a512afda98dcde60578809656b2
 
 ---
 
@@ -276,6 +276,7 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Wöchentlichen Versand erstellen](automating/using/workflow-weekly-offer.md)
       + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
       + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
+      + [Erstellen einer Kontrollgruppe](automating/using/workflow-control-group.md)
 + Entwickeln{#developing}
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Datenmodelle](developing/using/data-model-concepts.md)
@@ -298,6 +299,20 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
    + Anwendungsbeispiele: Ressourcenerweiterung {#use-cases--extending-resources}
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)
+   + Datamodel {#datamodel}
+      + [Zielgruppe](developing/using/datamodel-audience.md)
+      + [Kampagne](developing/using/datamodel-campaign.md)
+      + [Versand](developing/using/datamodel-delivery.md)
+      + [Einstiegsseiten](developing/using/datamodel-landingpage.md)
+      + [Marketingverlauf](developing/using/datamodel-history.md)
+      + [Profil](developing/using/datamodel-profile.md)
+      + [Programm](developing/using/datamodel-program.md)
+      + [Saatgutmitglied](developing/using/datamodel-seed.md)
+      + [Dienst](developing/using/datamodel-service.md)
+      + [Abonnementereignis](developing/using/datamodel-subscription.md)
+      + [Verfolgungsprotokolle](developing/using/datamodel-tracking.md)
+      + [Abmeldeereignis](developing/using/datamodel-unsubscription.md)
+      + [Besucher](developing/using/datamodel-visitor.md)
 + Verwalten{#administrating}
    + [Über die Verwaltung von Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Benutzer und Sicherheit {#users-and-security}
