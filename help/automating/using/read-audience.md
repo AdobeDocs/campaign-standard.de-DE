@@ -12,7 +12,7 @@ discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -33,7 +33,7 @@ Die Aktivität **[!UICONTROL Lesen der Audience]** ist eine einfachere Version d
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Lesen der Audience]**-Aktivität in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![-Schaltfläche aus den angezeigten Quick Actions.](assets/edit_darkgrey-24px.png)
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
 1. Wählen Sie die Audience, die Sie abrufen möchten, im Tab **[!UICONTROL Eigenschaften]** aus.
 
    Sie können die folgenden Typen von Audiences abrufen: **[!UICONTROL Liste]**, **[!UICONTROL Abfrage]**, **[!UICONTROL Datei]** und **[!UICONTROL Experience Cloud]**. Lesen Sie für weiterführende Informationen das [Audience-Handbuch](../../audiences/using/about-audiences.md).
@@ -48,7 +48,7 @@ Die Aktivität **[!UICONTROL Lesen der Audience]** ist eine einfachere Version d
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel: Eine Audience vom Typ Datei mit der Datenbank abstimmen   {#example--reconcile-a-file-audience-with-the-database}
+## Beispiel: Eine Audience vom Typ "Datei" mit der Datenbank abstimmen {#example--reconcile-a-file-audience-with-the-database}
 
 In diesem Beispiel wird gezeigt, wie die Aktivität **[!UICONTROL Lesen der Audience]** verwendet werden kann, um eine direkt von einem Dateiimport erstellte Audience abzustimmen.
 
@@ -86,7 +86,7 @@ Der Abstimmungs-Workflow läuft folgendermaßen ab:
 * In der Aktivität [Abstimmung](../../automating/using/reconciliation.md) werden die eingehenden Daten im Tab **[!UICONTROL Identifizierung]** als Profile identifiziert. Beispielsweise kann das **E-Mail**-Feld als Abstimmungskriterium verwendet werden.
 * Durch die Aktivität [Daten-Update](../../automating/using/update-data.md) werden die eingehenden Daten eingefügt und die Profil-Ressource der Datenbank entsprechend aktualisiert. Da die Daten bereits als Profile identifiziert wurden, können Sie die Option **[!UICONTROL Über die Zielgruppendimension]** und danach **[!UICONTROL Profile]** im Tab **[!UICONTROL Identifizierung]** der Aktivität auswählen. Fügen Sie danach einfach die Liste der Felder hinzu, die im jeweiligen Tab zu aktualisieren sind.
 
-## Beispiel: Vereinigung von zwei eingeschränkten Audiences   {#example--union-on-two-refined-audiences}
+## Beispiel: Vereinigung von zwei eingegrenzten Audiences {#example--union-on-two-refined-audiences}
 
 In diesem Beispiel werden im Workflow zwei **[!UICONTROL Lesen der Audience]**-Aktivitäten vereint. Ziel dieses Workflows ist es, eine E-Mail an Gold- oder Silber-Mitglieder zu senden, die zwischen 18 und 30 Jahre alt sind.
 
