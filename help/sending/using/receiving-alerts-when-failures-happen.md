@@ -11,7 +11,7 @@ topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -92,7 +92,7 @@ Wenn Sie Benachrichtigungen, die auf bestimmten Bedingungen basieren, an untersc
 
 Immer wenn jetzt ein Versand die von Ihnen in diesem Dashboard definierten Bedingungen erfüllt, wird eine Warnung an die angegebene Benutzergruppe gesendet.
 
-## Versandwarnungsbedingungen     {#delivery-alerting-criteria}
+## Versandwarnungsbedingungen {#delivery-alerting-criteria}
 
 ### Über Warnungsbedingungen {#about-alerting-criteria}
 
@@ -138,7 +138,7 @@ Für jede Bedingung können Sie folgende Einstellungen festlegen:
 * [Häufigkeit der Versandwarnungen](#alerting-frequency)
 * [Symbole und Status von Marketingaktivitäten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Versandwarnungsbedingung erstellen     {#creating-a-delivery-alerting-criterion}
+### Versandwarnungsbedingung erstellen {#creating-a-delivery-alerting-criterion}
 
 Sie können nach Bedarf neue Versandwarnungsbedingungen erstellen.
 
@@ -182,7 +182,7 @@ Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard
 
 [Ressource hinzufügen oder erweitern](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Versandwarnungsparameter     {#delivery-alerting-parameters}
+## Versandwarnungsparameter {#delivery-alerting-parameters}
 
 ### Bedingungsparameter {#criteria-parameters}
 
@@ -219,7 +219,7 @@ Sie können diese Einstellung im Menü **[!UICONTROL Administration]** &gt; **[!
 >
 >Diese Option gilt für alle in Adobe Campaign definierten Dashboards. Es ist nicht möglich, für jedes Dashboard eine eigene Häufigkeit festzulegen.
 
-## Gründe für Versandwarnungen     {#delivery-alerting-reasons}
+## Gründe für Versandwarnungen {#delivery-alerting-reasons}
 
 Mit der Funktion **Versandwarnung** von Adobe Campaign sind alle Benutzer von Adobe Campaign automatisch über den Ausführungsstatus des Versands über E-Mails und Dashboards informiert.
 
@@ -263,7 +263,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 
    * Erstellen Sie Filter-Typologieregeln, um einen Teil der Zielgruppe während der Versandanalyse auszuschließen, wie etwa Empfänger in Quarantäne. Näheres dazu finden Sie unter [Filterregel erstellen](../../administration/using/filtering-rules.md).
    * Aktualisieren Sie regelmäßig Ihre Kundendatenbank, um eine gute Quarantäneverwaltung zu gewährleisten. Näheres dazu erfahren Sie unter [Über Quarantänen](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. Näheres dazu finden Sie im Handbuch von Adobe Campaign v7 im Abschnitt [Verwalten der Zustellbarkeit](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html). Wenden Sie sich außerdem an Ihren Adobe-Campaign-Administrator um Hilfe.
+   * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. Näheres dazu finden Sie im Handbuch von Adobe Campaign v7 im Abschnitt [Verwalten der Zustellbarkeit](http://docs.campaign.adobe.com/doc/AC/getting_started/DE/deliverability.html). Wenden Sie sich außerdem an Ihren Adobe-Campaign-Administrator um Hilfe.
 
 
 
