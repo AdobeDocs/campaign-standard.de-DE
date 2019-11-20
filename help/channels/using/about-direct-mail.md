@@ -12,7 +12,7 @@ discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -38,7 +38,7 @@ Gehen Sie in Adobe Campaign folgendermaßen vor:
 1. Kontaktdatum festlegen
 1. Datei erstellen
 
-## Empfehlungen   {#recommendations}
+## Empfehlungen {#recommendations}
 
 ### Briefpost-Dienstleister {#direct-mail-providers}
 
@@ -48,7 +48,7 @@ Achten Sie darauf, dass in der Profilinformation die Option **[!UICONTROL Anschr
 
 ![](assets/direct_mail_22.png)
 
-### Postanschriften   {#postal-addresses}
+### Postanschriften {#postal-addresses}
 
 Die Anschriftsfelder zum Hinzufügen in die Extraktionsdatei finden Sie im Knoten **[!UICONTROL Ort]**.
 
