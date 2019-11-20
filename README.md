@@ -1,12 +1,12 @@
 ---
 source-git-commit: f803261eb3f0317e8876efea4c20e2f6f357ae40
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Welcome!
+# Willkommen!
 
-This project contains the Technical documentation for Campaign Standard. You can access it online [here](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html).
+Dieses Projekt beinhaltet die technische Dokumentation für Campaign Standard. Online finden Sie sie [hier](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/campaign-standard-home.html).
 
-For more information on Troubleshooting, how-tos and best practices, see our [Technical Notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html).
+Weiterführende Informationen zur Behebung von Problemen sowie Anleitungen und Best Practices finden Sie in unseren [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html).
 
-Videos zu den Funktionen von Adobe Campaign Standard finden Sie in [unseren Tutorials](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
+Videos zu den Funktionen von Adobe Campaign Standard finden Sie in unseren [Tutorials](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
