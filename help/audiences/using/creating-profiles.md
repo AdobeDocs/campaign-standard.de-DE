@@ -11,8 +11,8 @@ topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,10 +23,10 @@ In Adobe Campaign dienen Profile standardmäßig der Bestimmung der Hauptzielgru
 
 Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 
-* Import einer Profilliste von einer Datei über einen [Workflow](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* Import einer Profilliste von einer Datei über einen [Workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * Datenerhebung online über [Landingpages](../../channels/using/about-landing-pages.md)
-* Im Bulk-Modus über die [REST-API](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-* Synchronisieren von Profilen in [Microsoft Dynamics](https://helpx.adobe.com/de/campaign/kb/acs-ms-dynamics.html)
+* Im Bulk-Modus über die [REST-API](../../api/using/about-campaign-standard-apis.md)
+* Synchronisieren von Profilen in [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * Direkte Dateneingabe über die Benutzeroberfläche, wie unten beschrieben
 
 Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzeroberfläche erstellen können. Gehen Sie dazu folgendermaßen vor:
@@ -57,7 +57,7 @@ Das Profil wurde der Liste hinzugefügt.
 
 >[!NOTE]
 >
->Die Erstellung von Profilen ist auch mithilfe der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie in der [entsprechenden Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles).
+>Die Erstellung von Profilen ist auch mithilfe der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/managing-profiles.md).
 
 Profile können nach Organisationseinheiten partitioniert werden. Informationen zum Hinzufügen der Organisationsfelder zu Profilen finden Sie im Abschnitt [Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
 
@@ -68,5 +68,5 @@ Profile können nach Organisationseinheiten partitioniert werden. Informationen 
 **Verwandte Themen:**
 
 * [Über Landingpages](../../channels/using/about-landing-pages.md)
-* [Profilimport](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* [Profilimport](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
