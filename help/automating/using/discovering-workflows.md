@@ -11,8 +11,8 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -32,7 +32,7 @@ Workflows können in **unterschiedlichsten Kontexten** zum Einsatz kommen:
 * Import von Daten in die Campaign-Datenbank. Weiterführende Informationen dazu finden Sie im Abschnitt [Datenimport und -export](../../automating/using/about-data-import-and-export.md).
 * Technische Prozesse wie Datenbankbereinigung (Cleanup), Abruf von Trackinginformationen etc. Weiterführende Informationen zu technischen Workflows finden Sie in [diesem Abschnitt](../../administration/using/technical-workflows.md).
 
-Workflows sind auch in der Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+Workflows sind auch in der Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/managing-workflows.md).
 
 **Verwandte Themen:**
 
