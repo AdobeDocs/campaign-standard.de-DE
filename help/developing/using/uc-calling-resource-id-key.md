@@ -1,8 +1,8 @@
 ---
 title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,7 +23,7 @@ Verwandte Themen:
 
 * [Ressource erstellen oder erweitern](../../developing/using/creating-or-extending-the-resource.md)
 * [Identifizierungsschlüssel definieren ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard-REST-APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Campaign Standard-REST-APIs](../../api/using/about-campaign-standard-apis.md)
 
 ## Schritt 1: Identifizierungsschlüssel konfigurieren{#step-1-configure-the-identification-key}
 
@@ -104,4 +104,4 @@ In unserem Fall lautet die Syntax zum Abrufen eines Profils aus der Kategorie "s
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Campaign Standard-REST-APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Campaign Standard-REST-APIs](../../api/using/filtering.md).
