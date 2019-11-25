@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: e059232068d79a512afda98dcde60578809656b2
+source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
 
 ---
 
@@ -343,3 +343,28 @@ source-git-commit: e059232068d79a512afda98dcde60578809656b2
       + [Interne Benachrichtigungen senden](administration/using/sending-internal-notifications.md)
       + [Datenbeibehaltung](administration/using/data-retention.md)
       + [Aktualisierungen und Wartungsmaßnahmen](administration/using/updates-and-maintenance-operations.md)
++ Arbeiten mit APIs {#working-with-apis}
+   + About Campaign Standard APIs {#about-campaign-standard-apis}
+      + [Übersicht](api/using/about-campaign-standard-apis.md)
+      + [Gründe für die Verwendung von Campaign Standard-APIs](api/using/why-using-campaign-standard-apis.md)
+      + [API-Zugriff einrichten](api/using/setting-up-api-access.md)
+   + Globale Konzepte {#global-concepts}
+      + [Must-read](api/using/must-read.md)
+      + [Endpunkte](api/using/endpoints.md)
+      + [Metadatenmechanismus](api/using/metadata-mechanism.md)
+      + [Verbs](api/using/verbs.md)
+      + Zusätzliche Vorgänge {#additional-operations}
+         + [Sortierungs-Funktionen](api/using/sorting.md)
+         + [Filter](api/using/filtering.md)
+         + [Zählung](api/using/counting.md)
+         + [Paginierung](api/using/pagination.md)
+      + [Benutzerdefinierte Ressourcen](api/using/custom-resources.md)
+   + [Verwaltung von Profilen](api/using/managing-profiles.md)
+   + [Verwalten von Diensten und Abonnements](api/using/managing-services-and-subscriptions.md)
+   + [Interaktion mit der Marketinggeschichte](api/using/interacting-with-marketing-history.md)
+   + [Datenschutzverwaltung](api/using/privacy-management.md)
+   + [Verwalten von Transaktionsmeldungen](api/using/managing-transactional-messages.md)
+   + [Verwalten von Workflows](api/using/managing-workflows.md)
+   + [Verwalten von Unternehmenseinheiten](api/using/managing-organizational-units.md)
+   + [Verwaltung geografischer Einheiten](api/using/managing-geographical-units.md)
+   + [Problembehebung](api/using/troubleshooting.md)
