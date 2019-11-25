@@ -11,8 +11,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -56,7 +56,7 @@ Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Hand
 Die Campaign Standard-Integration mit Microsoft Dynamics 365 ermöglicht Ihnen die Übermittlung von Kontaktdaten von Microsoft Dynamics 365 an die Campaign-Datenbank.
 Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingkampagnen verwendet werden.
 
-Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](https://helpx.adobe.com/de/campaign/kb/acs-ms-dynamics.html).
+Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
 >[!NOTE]
 >
@@ -66,8 +66,8 @@ Weiterführende Informationen zu dieser Integration finden Sie im [entsprechende
 
 Mit Campaign Standard-APIs können Sie Prozesse zum Aktualisieren der Datenbank durchführen, z. B. die Erstellung, Aktualisierung oder Löschung von Profilen oder Diensten.
 
-Weiterführende Informationen zur Verwendung von APIs finden Sie im [entsprechenden Handbuch](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Weiterführende Informationen zur Verwendung von APIs finden Sie im [entsprechenden Handbuch](../../api/using/about-campaign-standard-apis.md).
 
 >[!CAUTION]
 >
->Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
