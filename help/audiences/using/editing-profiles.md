@@ -11,8 +11,8 @@ topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Profil zu bearbeiten bzw. 
    >
    >Mit Ausnahme des Bereichs **[!UICONTROL Rückverfolgung]** können Sie nur die Informationen im Tab **[!UICONTROL Allgemein]** ändern.
 
-Die Bearbeitung von Profilen ist auch mit der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie in der [entsprechenden Dokumentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles).
+Die Bearbeitung von Profilen ist auch mit der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie in der [entsprechenden Dokumentation](../../api/using/managing-profiles.md).
 
 Verwandtes Thema:
 
