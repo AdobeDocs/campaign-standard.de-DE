@@ -11,8 +11,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -179,7 +179,7 @@ Erstellen Sie eine Abonnement-Landingpage, die schließlich auf Ihrer Website pu
 
 Gehen Sie wie folgt vor, um diese Landingpage zu erstellen und zu konfigurieren:
 
-1. Erstellen Sie auf der Basis der Vorlage **[!UICONTROL Abonnement]** eine [neue Landingpage](../../channels/using/about-landing-pages.md).
+1. Erstellen Sie auf der Basis der Vorlage **[!UICONTROL Abonnement]** eine [neue Landingpage](../../channels/using/getting-started-with-landing-pages.md).
 1. Bearbeiten Sie die Eigenschaften der Landingpage. Wählen Sie im Bereich **[!UICONTROL Vorgang]** &gt; **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Spezifischer Dienst]** aus und wählen Sie dann den soeben erstellten Dienst aus der Dropdown-Liste aus.
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ Gehen Sie wie folgt vor, um diese Landingpage zu erstellen und zu konfigurieren:
 
 1. Passen Sie den Inhalt der Landingpage an.
 
-1. [Testen und publizieren](../../channels/using/sharing-a-landing-page.md) Sie die Landingpage.
+1. [Testen und publizieren](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
 Jedes Mal, wenn jetzt ein Profil Ihren Newsletter abonniert, indem es die Landingpage ausfüllt und auf die Senden-Schaltfläche klickt, erhält es die von Ihnen definierte Bestätigungsnachricht, wobei die personalisierten Felder mit dem Dienst gemappt werden.
 
