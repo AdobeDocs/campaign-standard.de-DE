@@ -11,8 +11,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,6 +88,26 @@ Um die Konsistenz der Adobe-Campaign-Datenbank zu gewährleisten, befolgen Sie d
 * Transaktionsdaten sollten einen Abstimmschlüssel aufweisen und mit den bestehenden Daten abgestimmt werden, damit keine Duplikate entstehen.
 * **Importieren Sie verknüpfte Dateien in der richtigen Reihenfolge**. Wenn der Import aus mehreren miteinander verbundenen Dateien besteht, sollte im Workflow darauf geachtet werden, dass die Dateien in der richtigen Reihenfolge importiert werden. Wenn der Import einer Datei fehlschlägt, werden auch die anderen nicht importiert.
 * Achten Sie beim Datenimport auf die **Deduplizierung**, die Abstimmung und die Gewährleistung der Konsistenz.
+
+## Verwalten verschlüsselter Daten {#managing-encrypted-data}
+
+In einigen Fällen müssen die Daten, die Sie importieren möchten, möglicherweise verschlüsselt sein, z. B. wenn sie PII-Daten enthalten.
+
+Um verschlüsselte Dateien importieren oder exportieren zu können, müssen Sie sich zunächst an den Adobe-Kundendienst wenden, damit die erforderlichen Verschlüsselungs-/Entschlüsselungsbefehle für Ihre Instanz bereitgestellt werden.
+
+Senden Sie dazu eine Anforderung mit folgenden Angaben:
+
+* Die **Bezeichnung** , die in der Kampagnenoberfläche angezeigt wird, um den Befehl zu verwenden. Beispiel: "Datei verschlüsseln".
+* Der **Befehl** , der auf Ihrer Instanz installiert werden soll.
+Um beispielsweise eine Datei mit PGP zu entschlüsseln, lautet der Befehl:
+
+   ```
+   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+   ```
+
+Sobald die Anforderung verarbeitet wurde, stehen die Verschlüsselungs-/Entschlüsselungsbefehle im Feld **!UICONTROL Vorverarbeitung]**aus den Aktivitäten**[!UICONTROL Datenladevorgang (Datei)]**und**[!UICONTROL Datenextrahierung (Datei)]**zur Verfügung. Sie können diese zum Entschlüsseln oder Verschlüsseln der Dateien verwenden, die Sie importieren oder exportieren möchten.
+
+![](assets/preprocessing-encryption.png)
 
 ## Beispiel: Import-Workflow-Vorlage {#example--import-workflow-template}
 
@@ -197,4 +217,3 @@ In diesem Beispiel wird gezeigt, wie ein Workflow für den wiederholten Import v
 Die Vorlage ist jetzt einsatzbereit und kann für jeden neuen Workflow verwendet werden. Dann muss nur noch die Datei spezifiziert werden, deren Daten in der Aktivität **[!UICONTROL Datei laden]** importiert werden sollen.
 
 ![](assets/import_template_example9.png)
-
