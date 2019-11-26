@@ -11,8 +11,8 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -41,7 +41,7 @@ Um eine Anmeldung mit zweifacher Bestätigung einzurichten, muss zunächst die B
 
 Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaßen vor:
 
-1. Erstellen Sie auf der Basis der Vorlage **[!UICONTROL Profilakquise (Akquise)]** eine [neue Landingpage](../../channels/using/about-landing-pages.md). Geben Sie den Titel '**CONFIRMATION**‘ ein.
+1. Erstellen Sie auf der Basis der Vorlage **[!UICONTROL Profilakquise (Akquise)]** eine [neue Landingpage](../../channels/using/getting-started-with-landing-pages.md). Geben Sie den Titel '**CONFIRMATION**‘ ein.
 
    Wenn Sie [Dienste](../../audiences/using/about-subscriptions.md) benötigen, können Sie auch die Vorlage **[!UICONTROL Abonnement (sub)]** verwenden.
 
@@ -67,7 +67,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [Testen und publizieren](../../channels/using/sharing-a-landing-page.md) Sie die Landingpage.
+1. [Testen und publizieren](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
 ## Schritt 2: Bestätigungs-E-Mail erstellen {#step-2--create-the-confirmation-email}
 
@@ -127,7 +127,7 @@ Erstellen Sie die ursprüngliche Akquise-Landingpage. Sie enthält ein Anmeldefo
 
 Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaßen vor:
 
-1. Erstellen Sie auf der Basis der Vorlage **[!UICONTROL Profilakquise (Akquise)]** eine [neue Landingpage](../../channels/using/about-landing-pages.md). Geben Sie den Titel '**ACQUISITION**‘ ein.
+1. Erstellen Sie auf der Basis der Vorlage **[!UICONTROL Profilakquise (Akquise)]** eine [neue Landingpage](../../channels/using/getting-started-with-landing-pages.md). Geben Sie den Titel '**ACQUISITION**‘ ein.
 1. Bearbeiten Sie die Eigenschaften der Landingpage: Wählen Sie in **[!UICONTROL Vorgang]** &gt; **[!UICONTROL Zusatzdaten]** die Option **[!UICONTROL Element hinzufügen]** aus und geben Sie folgenden Kontextpfad ein:
 
    /context/profile/blackList
@@ -149,6 +149,6 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [Testen und publizieren](../../channels/using/sharing-a-landing-page.md) Sie die Landingpage.
+1. [Testen und publizieren](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
 Die Anmeldung mit zweifacher Bestätigung ist jetzt konfiguriert. Sie können diesen Vorgang von Anfang bis Ende ausführen und testen, indem Sie bei der öffentlichen URL dieser **[!UICONTROL ACQUISITION]**-Landingpage beginnen. Diese URL wird im Dashboard der Landingpage angezeigt.
