@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -327,7 +327,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
   </tr> 
   <tr> 
    <td> Verbesserung bei Landingpages – Google reCAPTCHA<br /> </td> 
-   <td> <p>Mit Google reCAPTCHA können Sie Spam auf Ihren Landingpages vermeiden, ohne dass Sie Ihre Kunden zu entsprechenden Handlungen auffordern müssen.</p><p>Lesen Sie für weiterführende Informationen das <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">entsprechende Handbuch</a>.</p></td> 
+   <td> <p>Mit Google reCAPTCHA können Sie Spam auf Ihren Landingpages vermeiden, ohne dass Sie Ihre Kunden zu entsprechenden Handlungen auffordern müssen.</p><p>Lesen Sie für weiterführende Informationen das <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">entsprechende Handbuch</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
