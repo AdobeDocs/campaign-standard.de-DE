@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -29,7 +29,7 @@ Mit der Kundenprofil-Funktion werden alle Kundendaten an einem zentralen Ort zus
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfassung über [Landingpages](../../channels/using/about-landing-pages.md), manuelle oder [automatische Importmechanismen](../../automating/using/about-data-import-and-export.md), die [direkte Eingabe](../../audiences/using/creating-profiles.md) über die Adobe Campaign-Benutzeroberfläche, im Bulk-Modus über [Campaign-APIs](../../api/using/about-campaign-standard-apis.md).
+Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfassung über [Landingpages](../../channels/using/getting-started-with-landing-pages.md), manuelle oder [automatische Importmechanismen](../../automating/using/about-data-import-and-export.md), die [direkte Eingabe](../../audiences/using/creating-profiles.md) über die Adobe Campaign-Benutzeroberfläche, im Bulk-Modus über [Campaign-APIs](../../api/using/about-campaign-standard-apis.md).
 
 **Verwandte Themen:**
 
