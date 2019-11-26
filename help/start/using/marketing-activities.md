@@ -12,8 +12,8 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,7 +88,7 @@ Je nach Kontext haben Sie verschiedene Möglichkeiten:
 * [Push-Benachrichtigung erstellen](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md)
 * [Workflow erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Landingpage erstellen](../../channels/using/about-landing-pages.md)
+* [Landingpage erstellen](../../channels/using/getting-started-with-landing-pages.md)
 * [Kampagne erstellen](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [Programm erstellen](../../start/using/programs-and-campaigns.md#creating-a-program)
 
