@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -49,7 +49,7 @@ Das Prinzip dahinter sieht folgendermaßen aus:
 * Mappen Sie jedes Eingabefeld mit dem entsprechenden Feld in der Datenbank.
 * Stellen Sie die Landingpage online über eine Website oder über einen direkten Link in einer Nachricht zur Verfügung.
 
-Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Handbuch](../../channels/using/about-landing-pages.md).
+Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Handbuch](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Synchronisieren von Profilen in Microsoft Dynamics 365
 
