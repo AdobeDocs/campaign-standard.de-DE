@@ -11,8 +11,8 @@ topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -31,7 +31,7 @@ In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch 
 
    Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences entsprechend den verfügbaren Informationen, dem Verhalten und dem Marketingverlauf Ihrer Kontakte, um Ihre Marketingkampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern, Probe-Audiences oder auf einer unbegrenzten Anzahl an Kriterien basierende Zielgruppen erstellen.
 
-Bevor Sie einem Kontakt Nachrichten senden, müssen Sie sicherstellen, dass Sie seine Zustimmung dazu haben. Andernfalls könnten Ihre E-Mails als Spam gekennzeichnet werden, was Ihre Plattform-Zustellbarkeit beeinträchtigt. Um eine funktionierende Profildatenbank aufzubauen, ist es daher wichtig, sich diese Zustimmung im Vorfeld zu sichern. Wir empfehlen in Campaign einfache Anmelde- und Abmeldemöglichkeiten über [Dienste](../../audiences/using/creating-a-service.md) und [Landingpages](../../channels/using/about-landing-pages.md) zu verwenden, um Ihre Kontaktinformationen zu aktualisieren und Ihre Datenbank zu erweitern.
+Bevor Sie einem Kontakt Nachrichten senden, müssen Sie sicherstellen, dass Sie seine Zustimmung dazu haben. Andernfalls könnten Ihre E-Mails als Spam gekennzeichnet werden, was Ihre Plattform-Zustellbarkeit beeinträchtigt. Um eine funktionierende Profildatenbank aufzubauen, ist es daher wichtig, sich diese Zustimmung im Vorfeld zu sichern. Wir empfehlen in Campaign einfache Anmelde- und Abmeldemöglichkeiten über [Dienste](../../audiences/using/creating-a-service.md) und [Landingpages](../../channels/using/getting-started-with-landing-pages.md) zu verwenden, um Ihre Kontaktinformationen zu aktualisieren und Ihre Datenbank zu erweitern.
 
 Durch die Bereitstellung von Abmelde-Links in Ihren Nachrichten können Profile bei Bedarf auf die Blacklist gesetzt werden, was die Zustellbarkeit Ihrer Plattform verbessert. Weiterführende Informationen zum Blacklisting erfahren Sie im Abschnitt [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
@@ -39,7 +39,7 @@ Mit integrierten Kundenprofilen und benutzerdefinierten Segmenten können Sie Ku
 
 >[!CAUTION]
 >
->Beachten Sie dabei aber stets [die Nutzungsbedingungen von Adobe Campaign](http://www.adobe.com/de/legal/terms/aup.html).
+>Beachten Sie dabei aber stets [die Nutzungsbedingungen von Adobe Campaign](http://www.adobe.com/legal/terms/aup.html).
 
 Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe-Campaign-Kunden, die Daten von Personen erfassen, die in der EU wohnhaft sind. Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können.
 
