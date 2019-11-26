@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -108,12 +108,13 @@ source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
       + [Push-Benachrichtigungen für Transaktionen](channels/using/transactional-push-notifications.md)
       + [Folgenachrichten](channels/using/follow-up-messages.md)
    + Landingpages {#landing-pages}
-      + [Über Landingpages](channels/using/about-landing-pages.md)
-      + [Wichtigste Schritte zum Einrichten einer Landingpage](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [Über Landingpages](channels/using/getting-started-with-landing-pages.md)
+      + [Wichtigste Schritte zum Einrichten einer Landingpage](channels/using/getting-started-with-landing-pages.md)
       + [Über Landingpage-Vorlagen](channels/using/landing-page-templates.md)
+      + [Konfigurieren einer Einstiegsseite](channels/using/configuring-landing-page.md)
       + [Landingpage erstellen](channels/using/designing-a-landing-page.md)
       + [Daten von Landingpage-Formularen verwalten](channels/using/managing-landing-page-form-data.md)
-      + [Landingpage freigeben](channels/using/sharing-a-landing-page.md)
+      + [Einstiegsseite testen und veröffentlichen](channels/using/testing-publishing-landing-page.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
 + E-Mail-Inhalt gestalten {#designing-content}
    + [Campaign E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
