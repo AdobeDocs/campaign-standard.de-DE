@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,7 +52,7 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 **Verwandte Themen:**
 
 * [E-Mails erstellen](../../channels/using/creating-an-email.md)
-* [Verwaltung von Landingpages](../../channels/using/about-landing-pages.md)
+* [Verwaltung von Landingpages](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Existierenden Inhalt mit Email Designer bearbeiten{#editing-existing-contents-with-the-email-designer}
 
@@ -106,7 +106,7 @@ Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 
 **Verwandtes Thema:**
 
-Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
 ### Während der Vorbereitung Inhalt von einer URL automatisch abrufen {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
