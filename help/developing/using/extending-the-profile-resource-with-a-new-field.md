@@ -11,8 +11,8 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -147,7 +147,7 @@ Ihr neues Ressourcenfeld kann jetzt verwendet und beispielsweise bei einem Versa
 
 ## Schritt 4: Profile mit einem Workflow aktualisieren und auswählen {#step-4--update-and-target-profiles-with-a-workflow}
 
-Um Profile mit Daten aus dem neuen benutzerdefinierten Feld zu aktualisieren, können Sie eine Landingpage mithilfe der Vorlage **[!UICONTROL Profilakquise]** erstellen. Weiterführende Informationen zu Landingpages finden Sie auf dieser [Seite](../../channels/using/about-landing-pages.md).
+Um Profile mit Daten aus dem neuen benutzerdefinierten Feld zu aktualisieren, können Sie eine Landingpage mithilfe der Vorlage **[!UICONTROL Profilakquise]** erstellen. Weiterführende Informationen zu Landingpages finden Sie auf dieser [Seite](../../channels/using/getting-started-with-landing-pages.md).
 
 In unserem Beispiel sollen in einem Workflow Profile ausgewählt werden, bei denen dieses Feld nicht ausgefüllt ist. Diese sollen eine E-Mail erhalten, in der sie gebeten werden, ihre Profile zu aktualisieren, damit sie Newsletter und Angebote erhalten können. Jedes Profil erhält daraufhin einen personalisierten Newsletter, der an die jeweiligen Interessen angepasst ist.
 
