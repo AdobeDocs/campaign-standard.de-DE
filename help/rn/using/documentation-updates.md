@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
+source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
 
 ---
 
@@ -29,7 +29,17 @@ Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-note
 
 Es wurde ein neuer Anwendungsfall hinzugefügt, der beschreibt, wie eine Kontrollgruppe mithilfe eines Workflows in Campaign Standard erstellt wird. [Read more](../../automating/using/workflow-control-group.md)
 
+Informationen zu den Eigenschaften von Einstiegsseiten wurden in einen speziellen Abschnitt verschoben. [mehr dazu](../../channels/using/configuring-landing-page.md)
+
+Die Systemsteuerung-Dokumentation wurde in den neuen Dokumentationssatz integriert. [mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+The **Indicator calculation** table has been updated. [mehr dazu](../../reporting/using/indicator-calculation.md)
+
 Die Dokumentation zu den APIs wurde in die Dokumentation zu Campaign Standard integriert.[mehr dazu](../../api/using/about-campaign-standard-apis.md)
+
+Die Anleitung zum Erstellen einer personalisierten E-Mail-Beginns wurde verschoben und aktualisiert. [mehr dazu](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+
+Die ersten Schritte zum Thema Best Practices für den Versand wurden aktualisiert – [mehr dazu](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## Version 19.4 - Oktober 2019 {#release-19-4---october-2019}
 
@@ -47,7 +57,7 @@ Die ersten Schritte zum Thema DSGVO wurden verbessert und erweitert. Es handelt 
 
 Eine neue Grafik wurde hinzugefügt, die den Veröffentlichungsprozess von Transaktionsnachrichten aufzeigt – [mehr dazu](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-Die ersten Schritte zum Thema Best Practices für den Versand wurden aktualisiert – [mehr dazu](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+Der Leitfaden zu Best Practices für die Bereitstellung wurde verschoben und aktualisiert. [mehr dazu](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 Ein neuer Abschnitt wurde hinzugefügt: Dieser beinhaltet eine Übersicht über die verschiedenen Methoden zur Anreicherung der Campaign Standard-Datenbank – [mehr dazu](../../start/using/enriching-campaign-database.md)
 
@@ -63,7 +73,7 @@ Es wurde ein neuer Abschnitt hinzugefügt, in dem das automatische Versenden ein
 
 Der Abschnitt „Transaktionsnachrichten“ wurde entsprechend den neuesten Aktualisierungen der Benutzeroberfläche betreffend der Bearbeitung von Inhalten sowie E-Mail-Designer angepasst – [mehr dazu](../../channels/using/event-transactional-messages.md)
 
-Das Kapitel „Landingpages“ wurde umstrukturiert. Es wurde außerdem um einen neuen Abschnitt erweitert, in dem die Schritte zur Einrichtung einer Landingpage beschrieben werden – [mehr dazu](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+Das Kapitel „Landingpages“ wurde umstrukturiert. Es wurde außerdem um einen neuen Abschnitt erweitert, in dem die Schritte zur Einrichtung einer Landingpage beschrieben werden – [mehr dazu](../../channels/using/getting-started-with-landing-pages.md)
 
 Die Seite zur Audience Manager-Integration wurde in Bezug auf die Änderungen bei der **Declared ID** aktualisiert – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -133,7 +143,7 @@ Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinz
 
 ## Dokumentationsaktualisierungen – Juli 2019 {#doc-updates-2019}
 
-Eine neue Seite zu Einschränkungen bei Landingpages wurde hinzugefügt – [mehr dazu](../../channels/using/about-landing-pages.md#landing-page-limitations)
+Eine neue Seite zu Einschränkungen bei Landingpages wurde hinzugefügt – [mehr dazu](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 Ein Anwendungsbeispiel wurde hinzugefügt, das zeigt, wie ein Profil mithilfe eines zusammengesetzten Identifizierungsschlüssels aufgerufen werden kann – [mehr dazu](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -153,7 +163,7 @@ Lokale Benachrichtigungen – [mehr dazu](../../channels/using/customizing-an-in
 
 Verbesserung bei Workflows – Hinzufügen einer Payload zur Aktivität "Externes Signal" – [mehr dazu](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Verbesserung bei Landingpages – Google reCAPTCHA – [mehr dazu](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+Verbesserung bei Landingpages – Google reCAPTCHA – [mehr dazu](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release}
 
