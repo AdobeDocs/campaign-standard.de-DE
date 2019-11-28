@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
 
 ---
 
@@ -108,8 +108,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
       + [Push-Benachrichtigungen für Transaktionen](channels/using/transactional-push-notifications.md)
       + [Folgenachrichten](channels/using/follow-up-messages.md)
    + Landingpages {#landing-pages}
-      + [Über Landingpages](channels/using/getting-started-with-landing-pages.md)
-      + [Wichtigste Schritte zum Einrichten einer Landingpage](channels/using/getting-started-with-landing-pages.md)
+      + [Erste Schritte mit Einstiegsseiten](channels/using/getting-started-with-landing-pages.md)
       + [Über Landingpage-Vorlagen](channels/using/landing-page-templates.md)
       + [Konfigurieren einer Einstiegsseite](channels/using/configuring-landing-page.md)
       + [Landingpage erstellen](channels/using/designing-a-landing-page.md)
