@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -40,6 +40,10 @@ Die Dokumentation zu den APIs wurde in die Dokumentation zu Campaign Standard in
 Die Anleitung zum Erstellen einer personalisierten E-Mail-Beginns wurde verschoben und aktualisiert. [mehr dazu](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 Die ersten Schritte zum Thema Best Practices für den Versand wurden aktualisiert – [mehr dazu](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+Das Datenmodell wurde in die Dokumentation zu Campaign Standard integriert. [mehr dazu](../../developing/using/datamodel-audience.md)
+
+Der API-Dokumentation wurde der neue API-Endpunkt **/customResources** hinzugefügt.[mehr dazu](../../api/using/interacting-with-custom-resources.md)
 
 ## Version 19.4 - Oktober 2019 {#release-19-4---october-2019}
 
