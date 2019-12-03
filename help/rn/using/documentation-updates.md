@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -67,7 +67,7 @@ Ein neuer Abschnitt wurde hinzugefügt: Dieser beinhaltet eine Übersicht über 
 
 Ein neuer Abschnitt bezüglich der Formatierung von Links mithilfe von Email Designer wurde ergänzt – [mehr dazu](../../designing/using/styles.md#about-styling-links)
 
-Informationen zum Datenschutz wurden der API-Dokumentation hinzugefügt [Klicken Sie hier](../../api/using/privacy-management.md)
+Informationen zum Datenschutz wurden der API-Dokumentation hinzugefügt [Klicken Sie hier](../../api/using/creating-a-privacy-request.md)
 
 ## Aktualisierungen der Dokumentation – Oktober 2019 {#doc-updates-october-2019}
 
@@ -429,7 +429,7 @@ Verwendung benutzerdefinierter Ressourcen in Transaktionsnachrichten – [mehr d
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-7}
 
-Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfragen – [mehr dazu](../../api/using/privacy-management.md)
+Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfragen – [mehr dazu](../../api/using/creating-a-privacy-request.md)
 
 Informationen zur Einrichtung von Opt-out-Landingpages wurden hinzugefügt, über die sich Empfänger auf die Blacklist setzen lassen können – [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -503,7 +503,7 @@ Verbesserungen bei Push-Benachrichtigungen – mehr dazu [hier](../../channels/u
 
 Zeitzonenoptimierte Sendungen – [mehr dazu](../../automating/using/scheduler.md)
 
-Aktivierung der API-Signal-Aktivität – [mehr dazu](../../api/using/managing-workflows.md)
+Aktivierung der API-Signal-Aktivität – [mehr dazu](../../api/using/triggering-a-signal-activity.md)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-9}
 
@@ -553,7 +553,7 @@ Der [Abschnitt](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 
 
 In der SMS-Dokumentation wurde der Abschnitt zu [automatischen SMS-Antworten](../../channels/using/managing-incoming-sms.md#managing-stop-sms) genauer erklärt.
 
-Neuer Abschnitt zum Workflow-Management über die API – [mehr dazu](../../api/using/managing-workflows.md)
+Neuer Abschnitt zum Workflow-Management über die API – [mehr dazu](../../api/using/controlling-a-workflow.md)
 
 Neuer Abschnitt zu Primärschlüsseln und zur Verwendung einer Kennung als Schlüssel in der API – [mehr dazu](../../api/using/about-campaign-standard-apis.md)
 
