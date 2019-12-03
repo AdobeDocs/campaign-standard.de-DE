@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -24,7 +24,7 @@ Die Adobe-Campaign-Plattform ermöglicht die Verwaltung von Kontakten über den 
 
 >[!NOTE]
 >
->Profile sind auch über die Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/managing-profiles.md).
+>Profile sind auch über die Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/retrieving-profiles.md).
 
 ![](assets/marketing_history.png)
 
