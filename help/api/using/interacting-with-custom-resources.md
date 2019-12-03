@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -46,4 +46,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >Der Datenschutz-API-Endpunkt und die Arbeitsabläufe (/privacy/privacyTool) verwalten keine benutzerdefinierten Ressourcen, die nicht mit der Profilentität verknüpft sind.
->Sie sind dafür verantwortlich, alle PII für diese benutzerdefinierten Ressourcen zu verwalten und zu bereinigen. Weitere Informationen zum Datenschutzwerkzeug [finden Sie hier](../../api/using/privacy-management.md).
+>Sie sind dafür verantwortlich, alle PII für diese benutzerdefinierten Ressourcen zu verwalten und zu bereinigen. Weitere Informationen zum Datenschutzwerkzeug [finden Sie hier](../../api/using/creating-a-privacy-request.md).
+
