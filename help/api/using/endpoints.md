@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -24,8 +24,8 @@ Die verfügbaren Endpunkte für die Adobe Campaign REST API:
 * **/profileAndServices**: interagieren Sie mit vordefinierten Feldern. Erweiterte Felder können mit diesem Endpunkt nicht aufgerufen werden.
 * **/profileAndServicesExt**: interagieren Sie mit benutzerdefinierten Feldern, die während der Profile- oder Services-Erweiterung hinzugefügt werden. For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
 * **/&lt;transactionalAPI&gt;**: Interagieren Sie mit der API für Transaktionsmeldungen (der Name des API-Endpunkts für Transaktionsmeldungen hängt von Ihrer Instanzkonfiguration ab). Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../api/using/managing-transactional-messages.md).
-* **/workflow/execute**: mit Workflows interagieren. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../api/using/managing-workflows.md).
-* **/privacy/privacyTool**: Interagieren Sie mit der Datenschutz-API, um den automatischen Prozess von Datenschutzanforderungen zu ermöglichen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../api/using/privacy-management.md).
+* **/workflow/execute**: mit Workflows interagieren. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacyTool**: Interagieren Sie mit der Datenschutz-API, um den automatischen Prozess von Datenschutzanforderungen zu ermöglichen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../api/using/creating-a-privacy-request.md).
 * **/history**: den Marketing-Verlauf der Profile abrufen. Weitere Informationen zu integrierten Kundenprofilen in Campaign finden Sie in der [Kampagnendokumentation](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
 
 Standardmäßig stehen für die **profileAndServices** - und **profileAndServicesExt** -APIs folgende Hauptressourcen zur Verfügung:
