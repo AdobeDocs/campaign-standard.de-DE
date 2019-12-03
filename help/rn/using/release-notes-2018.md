@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -479,7 +479,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
   </tr> 
   <tr> 
    <td> Aktivierung der API-Signal-Aktivität<br /> </td> 
-   <td> Jetzt ist es möglich, eine Signalaktivität für Workflows direkt in der Adobe Campaign Standard-API auszulösen.<br /> Lesen Sie für weiterführende Informationen das <a class="anchorLink" href="../../api/using/managing-workflows.md">entsprechende Handbuch</a> .<br /> </td> 
+   <td> Jetzt ist es möglich, eine Signalaktivität für Workflows direkt in der Adobe Campaign Standard-API auszulösen.<br /> Lesen Sie für weiterführende Informationen das <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">entsprechende Handbuch</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
