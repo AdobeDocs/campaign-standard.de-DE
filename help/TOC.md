@@ -375,7 +375,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Überwachen einer Datenschutzanforderung](api/using/monitoring-a-privacy-request.md)
       + [Abrufen von Datenschutzdatendateien](api/using/retrieving-privacy-data-files.md)
       + [Verwalten der CCPA-Abmeldung](api/using/managing-ccpa-opt-out.md)
-   + [Verwalten von Transaktionsnachrichten](api/using/managing-transactional-messages.md)
+   + [Verwalten von Transaktionsmeldungen](api/using/managing-transactional-messages.md)
    + Verwalten von Workflows {#managing-workflows}
       + [Workflow steuern](api/using/controlling-a-workflow.md)
       + [Auslösen einer Signalaktivität](api/using/triggering-a-signal-activity.md)
