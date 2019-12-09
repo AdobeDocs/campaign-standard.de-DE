@@ -20,7 +20,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 # Landingpage erstellen{#designing-a-landing-page}
 
-## Über die Inhaltserstellung für Landingpages{#about-content-design}
+## Über die Inhaltserstellung für Landingpages {#about-content-design}
 
 Landingpages werden auf dieselbe Weise erstellt wie [Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -35,10 +35,10 @@ Der Inhalt der Landingpages wird im Campaign-Inhaltseditor erstellt.
 Auf dieser Seite erfahren Sie die wichtigsten Informationen zum Inhaltseditor für Landingpages: Weiterführende Informationen zu den Aktionen, die häufig bei Marketingaktivitäten eingesetzt werden, finden Sie in den folgenden Abschnitten des Handbuchs zum **Entwerfen von E-Mail-Inhalten**:
 
 * [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
-* [Link einfügen](../../designing/using/links.md#inserting-a-link).
-* [Bilder einfügen](../../designing/using/images.md).
-* [Allgemeine Best Practices bei der Inhaltserstellung](../../designing/using/overview.md#content-design-best-practices).
+* [Inhaltsbausteine hinzufügen](../../designing/using/personalization.md#adding-a-content-block) .
+* [Link einfügen](../../designing/using/links.md#inserting-a-link)
+* [Bilder einfügen](../../designing/using/images.md)
+* [Allgemeine Best Practices bei der Inhaltserstellung](../../designing/using/overview.md#content-design-best-practices)
 
 >[!NOTE]
 >Sollten Sie bereits über eine vordefinierte Landingpage im HTML-Format verfügen, können Sie sie direkt mittels der Schaltfläche **[!UICONTROL Inhalt ändern]** importieren.
@@ -263,7 +263,7 @@ Die für ein Blockelement (Link, Personalisierungsfeld, Inhaltsbaustein etc.) de
 
 ![](assets/des_lp_content_4.png)
 
-### Rahmen und Hintergrund im Inhaltseditor hinzufügen {#adding-a-border-and-a-background-in-the-content-editor}
+### Rahmen und Hintergrund im Inhaltseditor hinzufügen  {#adding-a-border-and-a-background-in-the-content-editor}
 
 Es besteht die Möglichkeit, verschiedene **Hintergrundfarben** aus der Farbpalette für die einzelnen Blöcke auszuwählen. Die Farbe wird jeweils auf den gesamten Block angewendet.
 
@@ -273,7 +273,7 @@ Außerdem können die einzelnen Blöcke mit verschiedenen **Rahmen** versehen we
 
 ![](assets/des_lp_content_6.png)
 
-### Textstil im Inhaltseditor ändern {#changing-the-text-style-in-the-content-editor}
+### Textstil im Inhaltseditor ändern  {#changing-the-text-style-in-the-content-editor}
 
 Um einen Textstil zu ändern, muss sich der Cursor innerhalb eines Textblocks befinden.
 
@@ -287,7 +287,7 @@ Die Textausrichtung kann mit einer der drei Schaltflächen in der Palette links 
 
 Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Siehe [diesen Abschnitt](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Bilder in eine Landingpage einfügen {#inserting-images-in-a-landing-page}
+### Bilder in eine Landingpage einfügen  {#inserting-images-in-a-landing-page}
 
 1. Wählen Sie im Inhalt der Landingpage einen Baustein aus, der ein Bild enthält.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Einfügen]**.
