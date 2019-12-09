@@ -62,7 +62,7 @@ Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt I
 
 Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#storing-incoming-sms).
 
-## Eingehende SMS speichern {#storing-incoming-sms}
+## Eingehende SMS speichern  {#storing-incoming-sms}
 
 Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit "STOP" auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
 
@@ -83,7 +83,7 @@ Gehen Sie dabei folgendermaßen vor:
 1. Wählen Sie den gewünschten Workflow-Typ aus.
 1. Bearbeiten Sie die Eigenschaften Ihres Workflows und wählen Sie **[!UICONTROL Erstellen aus]**. Weiterführende Informationen zur Workflow-Erstellung finden Sie in diesem [Abschnitt](../../automating/using/building-a-workflow.md).
 1. Ziehen Sie eine **[!UICONTROL Abfrage]**-Aktivität in den Arbeitsbereich und wählen Sie die Aktivität durch einen Doppelklick aus.
-1. Wählen Sie im Tab **[!UICONTROL Eigenschaften]** der Abfrage im Feld **[!UICONTROL Ressource]** die Option [!UICONTROL **Eingehende SMS (inSMS)]** aus.
+1. Wählen Sie im Tab **[!UICONTROL Eigenschaften]** der Abfrage im Feld **[!UICONTROL Ressource]** die Option **[!UICONTROL Eingehende SMS (inSMS)]** aus.
 
    ![](assets/sms_config_mo_4.png)
 
