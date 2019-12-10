@@ -9,7 +9,7 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ---
@@ -24,49 +24,49 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         <th>Name</th>
         <th>Titel</th>
         <th>Typ (Länge)</th>
-        <th>Enumeration-Werte</th>
+        <th>Auflistungswerte</th>
     </tr>
     <tr>
-        <td>Primärschlüssel</td>
-        <td>Wichtigste Ressourcen-ID</td>
+        <td>PKey</td>
+        <td>Main resource ID</td>
         <td>string </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
-        <td>Ereigniskontext</td>
+        <td>Event context</td>
         <td>item </td>
         <td> </td>
     </tr>
     <tr>
         <td>email</td>
-        <td>E-Mail</td>
-        <td>Zeichenfolge (128)</td>
+        <td>Email</td>
+        <td>string (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>emailFormat</td>
-        <td>Email-Format</td>
-        <td>Aufzählung (Byte) </td>
+        <td>Email format</td>
+        <td>enumeration (byte) </td>
         <td>
             <ul>
-            <li>Text - Text - 1</li>
+            <li>Text - text - 1</li>
             <li>HTML - html - 2</li>
-            <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
-            <li>unbekannt - unbekannt - 0</li>
+            <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+            <li>Unknown - unknown - 0</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>Archivierte Ereignis-ID</td>
+        <td>Archived event ID</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Mobilnummer</td>
-        <td>Zeichenfolge (32)</td>
+        <td>Mobile number</td>
+        <td>string (32)</td>
         <td> </td>
     </tr>
     <tr>
@@ -79,7 +79,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## Filter
 
-per E-Mail (per E-Mail)
+Nach E-Mail (byEmail)
 
 <table>
     <tr>
@@ -92,7 +92,7 @@ per E-Mail (per E-Mail)
     </tr>
 </table>
 
-Nach Status oder Typ (nach StatusOrType)
+Nach Status oder Typ (byStatusOrType)
 
 <table>
         <tr>
@@ -100,11 +100,11 @@ Nach Status oder Typ (nach StatusOrType)
         <th>Typ</th>
         </tr>
         <tr>
-        <td>Status</td>
+        <td>status</td>
         <td>enumeration</td>
         </tr>
         <tr>
-        <td>Typ</td>
+        <td>type</td>
         <td>string</td>
         </tr>
     </table>
