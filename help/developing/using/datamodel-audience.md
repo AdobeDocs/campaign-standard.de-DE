@@ -9,13 +9,13 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 
 ---
 
 
-# Zielgruppe (nms:audience)
+# Audience (nms:audience)
 
 ## Objektbeschreibung
 
@@ -24,18 +24,18 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <th>Name</th>
                   <th>Titel</th>
                   <th>Typ (Länge)</th>
-                  <th>Enumeration-Werte</th>
+                  <th>Auflistungswerte</th>
                </tr>
                <tr>
-                  <td>Primärschlüssel</td>
-                  <td>Wichtigste Ressourcen-ID</td>
+                  <td>PKey</td>
+                  <td>Main resource ID</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>Zuordnungs-ID von Audience Manager</td>
-                  <td>Zeichenfolge (100)</td>
+                  <td>Audience Manager mapping ID</td>
+                  <td>string (100)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,25 +46,25 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Vorschau der ausgewählten Population</td>
-                  <td>Sammlung </td>
+                  <td>Preview selected population</td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>Datenschema</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>Data schema</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>collectionLineNumber</td>
-                  <td>Zeilennummer als ID verwenden</td>
+                  <td>collectLineNumber</td>
+                  <td>Use a line number as ID</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -76,7 +76,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>Zählungsdatum</td>
+                  <td>Count date</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -88,43 +88,43 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>created</td>
-                  <td>Erstellt</td>
+                  <td>Created</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Erstellt von</td>
+                  <td>Created by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>desc</td>
-                  <td>Beschreibung</td>
-                  <td>Zeichenfolge (512)</td>
+                  <td>Description</td>
+                  <td>string (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>Diesen Auftrag nicht historisieren</td>
+                  <td>Do not historize this job</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>errorLimit</td>
-                  <td>Fehler vor dem Abbruch</td>
+                  <td>Errors before aborting</td>
                   <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>expirationDate</td>
-                  <td>Läuft ab am</td>
+                  <td>Expires on</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
-                  <td>Geografische Einheit</td>
+                  <td>Geographical unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -136,103 +136,103 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud-Zielgruppe</td>
+                  <td>Adobe Marketing Cloud audience</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>Ist erweiterungsfähige externe Ressource</td>
+                  <td>Is external resource</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>jobLogs</td>
                   <td>Logs</td>
-                  <td>Sammlung </td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>Titel</td>
-                  <td>Titel</td>
-                  <td>Zeichenfolge (128)</td>
+                  <td>label</td>
+                  <td>Label</td>
+                  <td>string (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>Letzte Änderung</td>
+                  <td>Last modified</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifyBy (userBase)</td>
-                  <td>Geändert von</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>Modified by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>Name</td>
-                  <td>Kennung</td>
-                  <td>Zeichenfolge (64)</td>
+                  <td>name</td>
+                  <td>ID</td>
+                  <td>string (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Organisationseinheit</td>
+                  <td>Organizational unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>cancelFilename</td>
-                  <td>Zurückweisungsdatei</td>
+                  <td>rejectFilename</td>
+                  <td>Rejection file</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sharedAudience</td>
-                  <td>Name der freigegebenen Zielgruppe</td>
+                  <td>Name of the shared audience</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>source</td>
-                  <td>Quelle</td>
+                  <td>Source</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sourceId</td>
-                  <td>Quellkennung</td>
+                  <td>Source Id</td>
                   <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Publikum</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>Audience</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>Typ</td>
-                  <td>Typ</td>
-                  <td>Enumeration (Zeichenfolge) (100)</td>
+                  <td>type</td>
+                  <td>Type</td>
+                  <td>enumeration (string) (100)</td>
                   <td>
                      <ul>
-                        <li>Abfrage - Abfrage</li>
-                        <li>Liste - Liste - Liste</li>
-                        <li>Datei - Datei - Datei</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Query - query - query</li>
+                        <li>List - list - list</li>
+                        <li>File - file - file</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>where</td>
-                  <td>Abfragedefinition</td>
+                  <td>Query definition</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>Workflow (Workflow)</td>
+                  <td>workflow (workflow)</td>
                   <td>Workflow</td>
                   <td>link </td>
                   <td> </td>
@@ -241,7 +241,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 
 ## Filter
 
-Durch Filtern der Dimension (nach FilteringResource)
+Nach Filterdimension (byFilteringResource)
 
 <table>
     <tr>
@@ -249,12 +249,12 @@ Durch Filtern der Dimension (nach FilteringResource)
     <th>Typ</th>
     </tr>
     <tr>
-    <td>filterResource</td>
+    <td>filteringResource</td>
     <td>string</td>
     </tr>
 </table>
 
-Nach Name oder Bezeichnung (nach Text)
+Nach Name oder Titel (byText)
 
 <table>
     <tr>
@@ -267,7 +267,7 @@ Nach Name oder Bezeichnung (nach Text)
     </tr>
 </table>
 
-Nach Typ (nach Typ)
+Nach Typ (byType)
 
 <table>
     <tr>
@@ -275,7 +275,7 @@ Nach Typ (nach Typ)
     <th>Typ</th>
     </tr>
     <tr>
-    <td>Typ</td>
+    <td>type</td>
     <td>enumeration</td>
     </tr>
     <tr>
