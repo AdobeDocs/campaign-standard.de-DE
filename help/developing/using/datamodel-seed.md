@@ -9,13 +9,13 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ---
 
 
-# Saatgutmitglied (nms:seedMember)
+# Testempfänger (nms:seedMember)
 
 ## Objektbeschreibung
 
@@ -24,167 +24,167 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>Name</th>
                   <th>Titel</th>
                   <th>Typ (Länge)</th>
-                  <th>Enumeration-Werte</th>
+                  <th>Auflistungswerte</th>
                </tr>
                <tr>
-                  <td>Primärschlüssel</td>
-                  <td>Wichtigste Ressourcen-ID</td>
+                  <td>PKey</td>
+                  <td>Main resource ID</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>Land (Länder)</td>
-                  <td>Land</td>
+                  <td>country (countries)</td>
+                  <td>Country</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>created</td>
-                  <td>Erstellt</td>
+                  <td>Created</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Erstellt von</td>
+                  <td>Created by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>desc</td>
-                  <td>Beschreibung</td>
-                  <td>Zeichenfolge (512)</td>
+                  <td>Description</td>
+                  <td>string (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>email</td>
-                  <td>E-Mail</td>
-                  <td>Zeichenfolge (128)</td>
+                  <td>Email</td>
+                  <td>string (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>E-Mail-Rendering</td>
+                  <td>Email rendering</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>fax</td>
                   <td>Fax</td>
-                  <td>Zeichenfolge (32)</td>
+                  <td>string (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
-                  <td>Geografische Einheit</td>
+                  <td>Geographical unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>Ist erweiterungsfähige externe Ressource</td>
+                  <td>Is external resource</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>Letzte Änderung</td>
+                  <td>Last modified</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>location</td>
-                  <td>Standort</td>
+                  <td>Location</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>ID für Marketing Cloud</td>
-                  <td>Zeichenfolge (256)</td>
+                  <td>Marketing Cloud ID</td>
+                  <td>string (256)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>Mobile App</td>
+                  <td>Mobile application</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mobilePhone</td>
-                  <td>Mobil</td>
-                  <td>Zeichenfolge (32)</td>
+                  <td>Mobile</td>
+                  <td>string (32)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifyBy (userBase)</td>
-                  <td>Geändert von</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>Modified by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>Name</td>
-                  <td>Kennung</td>
-                  <td>Zeichenfolge (64)</td>
+                  <td>name</td>
+                  <td>ID</td>
+                  <td>string (64)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>nms_empfänger</td>
-                  <td>Profil</td>
+                  <td>nms_recipient</td>
+                  <td>Profile</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
-                  <td>Ereignis</td>
+                  <td>Event</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Organisationseinheit</td>
+                  <td>Organizational unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>phone</td>
-                  <td>Telefon</td>
-                  <td>Zeichenfolge (32)</td>
+                  <td>Phone</td>
+                  <td>string (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>proof</td>
-                  <td>Testversand</td>
+                  <td>Proof</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushNotification</td>
-                  <td>Push-Benachrichtigung</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>Push notification</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>registrationToken</td>
-                  <td>Anmeldetoken</td>
-                  <td>Zeichenfolge (256)</td>
+                  <td>Registration Token</td>
+                  <td>string (256)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sampleData</td>
-                  <td>Beispieldaten</td>
+                  <td>Sample data</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sms</td>
-                  <td>Mobil</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>Mobile</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>stateLink (state)</td>
-                  <td>Bundesland/Kanton</td>
+                  <td>State</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -195,20 +195,20 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>Miniaturansicht</td>
-                  <td>Miniaturansicht</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>thumbnail</td>
+                  <td>Thumbnail</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Testprofil</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>Test profile</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>Falle</td>
-                  <td>Falle</td>
+                  <td>trap</td>
+                  <td>Trap</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -229,7 +229,7 @@ Nach Ereignistyp (byEventType)
         </tr>
     </table>
 
-Nach Name oder Bezeichnung (nach Text)
+Nach Name oder Titel (byText)
 
 <table>
         <tr>
@@ -242,7 +242,7 @@ Nach Name oder Bezeichnung (nach Text)
         </tr>
     </table>
 
-Nach Verwendung (nach Verwendung)
+Nach Verwendung (byUsage)
 
 <table>
         <tr>
@@ -250,7 +250,7 @@ Nach Verwendung (nach Verwendung)
         <th>Typ</th>
         </tr>
         <tr>
-        <td>Falle</td>
+        <td>trap</td>
         <td>boolean</td>
         </tr>
         <tr>
@@ -263,7 +263,7 @@ Nach Verwendung (nach Verwendung)
         </tr>
     </table>
 
-Testprofil (Profil)
+Testprofil (profile)
 
 <table>
     <tr>
