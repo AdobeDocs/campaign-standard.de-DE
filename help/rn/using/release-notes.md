@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 
 ---
 
@@ -370,7 +370,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 ### Sonstige Änderungen {#other-changes}
 
-* Zum externen SMS-Konto wurde eine neue Option hinzugefügt. Hiermit kann die maximale Anzahl der für den SMS-Versand verantwortlichen MTA-Prozesse beschränkt werden, um die Anzahl der parallelen Verbindungen besser steuern zu können. Weiterführende Informationen dazu finden Sie in der Technote zum [SMS-Schnittstellenprotokoll und dessen Konfiguration](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+* Zum externen SMS-Konto wurde eine neue Option hinzugefügt. Hiermit kann die maximale Anzahl der für den SMS-Versand verantwortlichen MTA-Prozesse beschränkt werden, um die Anzahl der parallelen Verbindungen besser steuern zu können. Weitere Informationen finden Sie im [SMS-Connector-Protokoll und in der Einstellungstechnik](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) .
 * Wird jetzt eine Ressource mit einer API-Erweiterung publiziert, deren API zuvor bereits publiziert wurde, wird diese API jedes Mal automatisch aktualisiert, wenn sie erneut publiziert wird. Früher musste diese Aktion manuell durchgeführt werden. Wurde die API nicht aktualisiert, konnte ein Fehler in den Profil- oder Service-Ressourcen dieser API auftreten. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * In dynamischen Berichten wurde die Postleitzahl-Dimension entfernt. Verwenden Sie stattdessen die Dimensionen "Stadt", "Land" und "Bundesland".
 * Der Lebenszyklus-Ereignistrigger "Erster Start" für In-App-Nachrichten wurde entfernt.
@@ -437,7 +437,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
   </tr> 
   <tr> 
    <td> Launch-Integration für Mobile App<br /> </td> 
-   <td> <p>Diese Version beinhaltet die Integration von Adobe Campaign mit den allgemein verfügbaren Versionen von Android- und iOS-Erweiterungen für Adobe Campaign Standard in Adobe Experience Platform Launch und Mobile SDKs. Diese Erweiterungen unterstützen Push-Benachrichtigungen, In-App-Benachrichtigungen und Mobile-App-Profilaktualisierungen.</p><p> Lesen Sie für weiterführende Informationen das <a href="../../administration/using/about-typology-rules.md#typology-rules">entsprechende Handbuch</a>.</p> </td> 
+   <td> <p>Diese Version beinhaltet die Integration von Adobe Campaign mit den allgemein verfügbaren Versionen von Android- und iOS-Erweiterungen für Adobe Campaign Standard in Adobe Experience Platform Launch und Mobile SDKs. Diese Erweiterungen unterstützen Push-Benachrichtigungen, In-App-Benachrichtigungen und Mobile-App-Profilaktualisierungen.</p><p> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile In-App-Nachrichtenversand<br /> </td> 
@@ -475,7 +475,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 * Wenn Sie in der Mobile-Ansicht arbeiten, können Sie nun bestimmte Komponenten für diese Ansicht verbergen, um so den Platz optimal zu nutzen.
 
-   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/styles.md#switching-to-mobile-view).
+   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * Sie können jetzt zusätzlich zu den bereits verfügbaren Kanälen auch benutzerdefinierte Social-Media-Kanäle zu Ihrer E-Mail-Vorlage hinzufügen.
 * Fehlerkorrektur – Jetzt können Sie im Strukturmenü hinunterscrollen, wenn mehr als 18 Strukturen verwendet werden. (CAMP-31173)
@@ -499,7 +499,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 ### Sonstige Änderungen {#other-changes-1}
 
-* Adobe Campaign und Adobe Experience Cloud stellen mit Campaign Standard Release 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 ein. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. Näheres dazu finden Sie auf der Seite der [eingestellten und entfernten Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+* Adobe Campaign und Adobe Experience Cloud stellen mit Campaign Standard Release 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 ein. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. Siehe Seite [Veraltete und entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) .
 * Das Feld **Ländercode** in der Profilressource wurde in **Länder-/Regionscode** umbenannt.
 
 ### Korrekturen {#patches-1}
@@ -554,7 +554,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
   </tr> 
   <tr> 
    <td> Mobile-Ansicht in E-Mail-Designer<br /> </td> 
-   <td> <p>Bei der Bearbeitung von E-Mail-Inhalten können Sie jetzt zu einer Mobile-Ansicht wechseln. Dort können Sie das responsive Design einer E-Mail anpassen, indem Sie alle Stiloptionen für die Anzeige auf Mobilgeräten einzeln bearbeiten, z. B. Spannen, Schriftgrad, Hintergrundfarbe usw.</p><p> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/styles.md#switching-to-mobile-view">entsprechende Handbuch</a>.</p> </td> 
+   <td> <p>Bei der Bearbeitung von E-Mail-Inhalten können Sie jetzt zu einer Mobile-Ansicht wechseln. Dort können Sie das responsive Design einer E-Mail anpassen, indem Sie alle Stiloptionen für die Anzeige auf Mobilgeräten einzeln bearbeiten, z. B. Spannen, Schriftgrad, Hintergrundfarbe usw.</p><p> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">entsprechende Handbuch</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Verbesserungen der Betaversion von In-App Messaging<br /> </td> 
