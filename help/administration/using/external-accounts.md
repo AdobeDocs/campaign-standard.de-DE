@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 68921819a5335626e45678ec569172ffef46a636
 
 ---
 
@@ -107,11 +107,15 @@ Die nötigen Informationen werden normalerweise vom Anbieter des Servers bereitg
 
 Spezifizieren Sie die mit Ihrem Endpunkt verknüpfte **[!UICONTROL AWS-Region]**. Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
 
+>[!NOTE]
+>
+>Ihr **[!UICONTROL Receiver-Server]** sollte ohne Ihre AWS-Region eingegeben werden. Er wird später automatisch Ihrer URL hinzugefügt.
+
 ### Empfehlungen für das Amazon-S3-Konto {#amazon-s3-account-recommendations}
 
 Wir empfehlen zum Einrichten des Amazon-S3-Kontos folgende Vorgehensweise:
 
-* Erstellen Sie eine restriktive Bucket-Richtlinie, um den Zugriff auf S3-Buckets zu beschränken. Die Bucket-Richtlinie kann während der Erstellung eines Buckets konfiguriert werden. Weiterführende Informationen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
+* Erstellen Sie eine restriktive Bucket-Richtlinie, um den Zugriff auf S3-Buckets zu beschränken. Die Bucket-Richtlinie kann während der Erstellung eines Buckets konfiguriert werden. For more information, refer to the [Amazon S3 documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Aktivieren Sie bei der Erstellung eines externen Kontos die Verschlüsselung bei der Speicherung sensibler Daten im S3-Bucket, indem Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen]** aktivieren.
 * Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
@@ -132,7 +136,7 @@ Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informa
 >
 >Für die Konfiguration von Google reCAPTCHA ist ein Google-Konto erforderlich.
 
-Mithilfe von Google reCAPTCHA können Sie Ihre Landingpage vor Spam und Missbrauch durch Bots schützen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. Auf dieser [Seite](https://www.google.com/recaptcha/admin/create) können Sie Ihre Website registrieren. Wählen Sie den Typ "V3 reCAPTCHA".
+Mithilfe von Google reCAPTCHA können Sie Ihre Landingpage vor Spam und Missbrauch durch Bots schützen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. To register your site, refer to this [page](https://www.google.com/recaptcha/admin/create). Wählen Sie den Typ "V3 reCAPTCHA".
 
 Damit Sie Google reCAPTCHA V3 zu Ihrer Landingpage hinzufügen können, müssen Sie sie zunächst in Ihrem externen Konto konfigurieren. Weiterführende Information zum Hinzufügen zu Ihrer Landingpage finden Sie in diesem [Abschnitt](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
