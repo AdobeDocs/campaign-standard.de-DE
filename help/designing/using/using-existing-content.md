@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
 
 ---
 
@@ -62,7 +62,7 @@ Wenn die gesamte HTML-Datei oder Teile davon diese Tags nicht besitzt, wird der 
 
 Wenn Sie bestehenden externen Inhalt in Email Designer bearbeiten möchten, lesen Sie den Abschnitt zum [Erstellen von E-Mails unter Verwendung von vorhandenem Inhalt](../../designing/using/using-existing-content.md).
 
-## Import läuft {#importing}
+## Importieren eines vorhandenen E-Mail-Inhalts {#importing}
 
 ### Inhalt aus einer Datei importieren {#importing-content-from-a-file}
 
@@ -211,7 +211,7 @@ Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Desig
 1. Fügen Sie eine Strukturkomponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie eine HTML-Komponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie Ihren HTML-Code mit Copy &amp; Paste in diese Komponente ein.
-1. Zur Mobile-Ansicht wechseln. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../designing/using/styles.md#switching-to-mobile-view).
+1. Zur Mobile-Ansicht wechseln. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    Die responsive Ansicht ist fehlerhaft, da Ihr CSS fehlt.
 
@@ -228,6 +228,15 @@ Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Desig
 
    >[!NOTE]
    >
-   >Verändern Sie das von Email Designer erzeugte CSS nicht: `<style acrite-template-css="true">` und `<style acrite-custom-styles="" type="text/css">`. Fügen Sie anschließend Ihren Stil hinzu.
+   >Stellen Sie sicher, dass Sie Ihren Stil nach diesem Abschnitt in einem anderen CSS-Tag hinzufügen.
+   >
+   >Verändern Sie das von Email Designer erzeugte CSS nicht:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
 
 1. Kehren Sie zur mobilen Ansicht zurück und prüfen Sie, ob Ihr Inhalt korrekt angezeigt wird, und speichern Sie Ihre Änderungen.
