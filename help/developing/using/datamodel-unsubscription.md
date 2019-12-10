@@ -9,7 +9,7 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ---
@@ -27,40 +27,40 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>Erforderlich</th>
                </tr>
                <tr>
-                  <td>Primärschlüssel</td>
-                  <td>Falsch</td>
+                  <td>PKey</td>
+                  <td>False</td>
                   <td>string</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>ctx</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                   <td>item</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>email</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                   <td>string</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>emailFormat</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                   <td>enumeration</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>mobilePhone</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                   <td>string</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>Wahr</td>
+                  <td>True</td>
                   <td>string</td>
-                  <td>Falsch</td>
+                  <td>False</td>
                </tr>
             </table>
 
@@ -87,11 +87,11 @@ byStatusOrType
         <th>Typ</th>
         </tr>
         <tr>
-        <td>Status</td>
+        <td>status</td>
         <td>enumeration</td>
         </tr>
         <tr>
-        <td>Typ</td>
+        <td>type</td>
         <td>string</td>
         </tr>
     </table>
