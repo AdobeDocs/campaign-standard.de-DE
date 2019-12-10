@@ -11,17 +11,15 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ---
 
 
 # Verwalten von Stilen {#managing-styles}
 
-## E-Mail-Stile bearbeiten{#editing-email-styles}
-
-### Element bearbeiten {#editing-an-element}
+## Element bearbeiten {#editing-an-element}
 
 In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]** angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
 
@@ -49,7 +47,7 @@ Um eine Spalte auszuwählen, können Sie auch folgendermaßen vorgehen:
 
 In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
 
-### Einstellungen des Stils anpassen {#adjusting-style-settings}
+## Einstellungen des Stils anpassen {#adjusting-style-settings}
 
 1. Wählen Sie in Ihrer E-Mail ein Element aus. Weiterführende Informationen dazu finden Sie unter [Element auswählen](#selecting-an-element).
 1. Passen Sie die Einstellungen nach Bedarf an. Für jedes ausgewählte Element sind unterschiedliche Einstellungen verfügbar.
@@ -62,7 +60,7 @@ In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden
 
 1. Speichern Sie Ihren Inhalt.
 
-### Über Abstände und Spannen {#about-padding-and-margin}
+## Über Abstände und Spannen {#about-padding-and-margin}
 
 In der Benutzeroberfläche von Email Designer können Sie rasch Abstände und Spannen anpassen.
 
@@ -88,7 +86,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 
 ![](assets/des_padding_lock_icon.png)
 
-### Über die Ausrichtung {#about-alignment}
+## Formatierungsausrichtung {#about-alignment}
 
 * **Textausrichtung**: Platzieren Sie den Cursor auf einem Text und richten Sie ihn über die dedizierte Symbolleiste aus.
 
@@ -102,7 +100,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 
    ![](assets/des_set_vertical_alignment.png)
 
-### Über den Hintergrund {#about-backgrounds}
+## Hintergründe festlegen {#about-backgrounds}
 
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
 
@@ -144,7 +142,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
    Sie können auch ein Hintergrundbild auf Spaltenebene einrichten, was aber nur selten verwendet wird.
 
-#### Beispiel: Anpassung der senkrechten Ausrichtung und des Abstands {#example--adjusting-vertical-alignment-and-padding}
+### Beispiel: Anpassung der senkrechten Ausrichtung und des Abstands {#example--adjusting-vertical-alignment-and-padding}
 
 Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente bestehend aus drei Spalten anpassen. Gehen Sie dazu wie folgt vor:
 
@@ -173,7 +171,7 @@ Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Struktur
 
 1. Speichern Sie Ihre Änderungen.
 
-### Über die Gestaltung von Links {#about-styling-links}
+## Stillinks {#about-styling-links}
 
 >[!NOTE]
 >
@@ -201,7 +199,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
 1. Speichern Sie Ihre Änderungen.
 
-### Inline-Styling-Attribute hinzufügen {#adding-inline-styling-attributes}
+## Inline-Styling-Attribute hinzufügen {#adding-inline-styling-attributes}
 
 Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen und im seitlichen Fenster seine Einstellungen anzeigen, können Sie seine Inline-Attribute und deren Werte ändern.
 
@@ -218,7 +216,7 @@ Der Stil wird auf das ausgewählte Element angewendet. Wenn für die untergeordn
 
 Sie können das responsive Design einer E-Mail anpassen, indem Sie alle Stiloptionen für die Darstellung auf Mobilgeräten einzeln bearbeiten. So können Sie beispielsweise für die mobile Version Ihrer E-Mail die Spannen und Abstände verändern sowie kleinere oder größere Schriftgrade verwenden, die Schaltflächen ändern oder unterschiedliche Hintergrundfarben auswählen.
 
-Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Weiterführende Informationen zu den Stileinstellungen von Email Designer finden Sie im Abschnitt [E-Mail-Stile bearbeiten](#editing-email-styles).
+Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Die Stileinstellungen des E-Mail-Designers werden zuvor auf dieser Seite angezeigt.
 
 1. Erstellen Sie eine E-Mail und bearbeiten Sie den Inhalt. Weiterführende Informationen dazu finden Sie im Abschnitt [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Öffnen Sie mit der Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]** die Mobile-Ansicht.
