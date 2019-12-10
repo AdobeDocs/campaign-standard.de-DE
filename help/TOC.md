@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
 
 ---
 
@@ -117,15 +117,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
 + E-Mail-Inhalt gestalten {#designing-content}
    + [Campaign E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
-   + [Schnellstart](designing/using/quick-start.md)
-   + [Nutzung und Empfehlungen](designing/using/overview.md)
+   + [Erste Schritte mit dem E-Mail-Designer](designing/using/quick-start.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
-   + [E-Mails von Grund auf neu erstellen](designing/using/designing-from-scratch.md)
-   + [E-Mail aus vorhandenem Inhalt erstellen](designing/using/using-existing-content.md)
-   + [E-Mails aus wiederverwendbarem Inhalt erstellen](designing/using/using-reusable-content.md)
-   + [E-Mails mit mehreren Lösungen erstellen](designing/using/using-integrations.md)
-   + [Personalisierung ](designing/using/personalization.md)
-   + [Text- und HTML-Modus](designing/using/plain-text-html-modes.md)
+   + E-Mail-Inhalt gestalten{#designing-email-content}
+      + [E-Mails von Grund auf neu erstellen](designing/using/designing-from-scratch.md)
+      + [E-Mail aus vorhandenem Inhalt erstellen](designing/using/using-existing-content.md)
+      + [E-Mails aus wiederverwendbarem Inhalt erstellen](designing/using/using-reusable-content.md)
+      + [Entwerfen von E-Mails mit Multi-Solution-Integrationen](designing/using/using-integrations.md)
+      + [Bearbeiten von Normaltext-, HTML- und mobilen E-Mails](designing/using/plain-text-html-modes.md)
+   + [Personalisieren von E-Mail-Inhalten](designing/using/personalization.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
@@ -150,6 +150,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
       + [Ursachen von fehlgeschlagenen Sendungen](sending/using/understanding-delivery-failures.md)
       + [Funktionsweise der Quarantäneverwaltung](sending/using/understanding-quarantine-management.md)
+   + Zustellbarkeit verwalten {#managing-deliverability}
+      + [Informationen zur Bereitstellung](sending/using/about-deliverability.md)
+      + [Starten einer neuen Plattform](sending/using/starting-new-platform.md)
+      + [Steuern von E-Mail-Inhalten](sending/using/control-email-content.md)
+      + [Verbessern Ihres Rufs](sending/using/improving-reputation.md)
+      + [Whitelist](sending/using/whitelists.md)
+      + [Technische Empfehlungen](sending/using/technical-recommendations.md)
+      + [Überwachung der Zustellbarkeit](sending/using/monitor-deliverability.md)
+      + [Problembehebung](sending/using/troubleshooting.md)
 + Reporting {#reporting}
    + Über Reporting {#about-reporting}
       + [Über dynamische Berichte](reporting/using/about-dynamic-reports.md)
@@ -355,8 +364,8 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Verbs](api/using/verbs.md)
       + Zusätzliche Vorgänge {#additional-operations}
          + [Sortierungs-Funktionen](api/using/sorting.md)
-         + [Filter](api/using/filtering.md)
-         + [Zählung](api/using/counting.md)
+         + [Filtern](api/using/filtering.md)
+         + [Zählen](api/using/counting.md)
          + [Paginierung](api/using/pagination.md)
       + [Benutzerdefinierte Ressourcen](api/using/custom-resources.md)
    + [Interaktion mit benutzerdefinierten Ressourcen](api/using/interacting-with-custom-resources.md)
@@ -375,7 +384,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Überwachen einer Datenschutzanforderung](api/using/monitoring-a-privacy-request.md)
       + [Abrufen von Datenschutzdatendateien](api/using/retrieving-privacy-data-files.md)
       + [Verwalten der CCPA-Abmeldung](api/using/managing-ccpa-opt-out.md)
-   + [Verwalten von Transaktionsnachrichten](api/using/managing-transactional-messages.md)
+   + [Verwalten von Transaktionsmeldungen](api/using/managing-transactional-messages.md)
    + Verwalten von Workflows {#managing-workflows}
       + [Workflow steuern](api/using/controlling-a-workflow.md)
       + [Auslösen einer Signalaktivität](api/using/triggering-a-signal-activity.md)
