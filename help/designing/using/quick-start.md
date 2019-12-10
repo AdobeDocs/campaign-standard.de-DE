@@ -1,5 +1,5 @@
 ---
-title: Kurzanleitung zum Erstellen von E-Mail-Inhalten
+title: Erste Schritte mit dem E-Mail-Designer
 description: Beginnen Sie in Email Designer mit dem Erstellen von E-Mail-Inhalten.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -11,27 +11,32 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 ---
 
-# Kurzanleitung zum Erstellen von E-Mail-Inhalten{#quick-start}
+# Erste Schritte mit dem E-Mail-Designer {#quick-start}
 
 Email Designer bietet vier Möglichkeiten zum Erstellen von E-Mails.
 
-Sie können eine E-Mail von Grund auf neu erstellen:
+Sie können eine E-Mail [neu erstellen, die im E-Mail-Designer](#without-existing-content)beginnt:
 
 * Sie können die E-Mail von Grund auf neu von einer leeren Arbeitsfläche erstellen. Hierzu fügen Sie Struktur- und Inhaltskomponenten hinzu und personalisieren deren Inhalt. Die E-Mail ist dann rasch versendet. Die Stilelemente können Sie auch vollständig verwalten. Weitere Informationen finden Sie in der [Kurzanleitung](#from-scratch-email) oder in der [vollständigen Dokumentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 * Sie können eine E-Mail aus einer vordefinierten Vorlage erstellen. Hierzu wählen Sie die Vorlage aus und erstellen daraus Ihren neuen E-Mail-Inhalt. [Mehr dazu](#building-content-from-an-out-of-the-box-template)
 
-Sie können eine E-Mail auch aus vorhandenem Inhalt erstellen.
+You can also create an email [with existing content](#with-existing-content):
 
 * Hierzu konvertieren Sie bestehenden HTML-Inhalt, der extern oder im Legacy-Editor erstellt wurde. [Mehr dazu](#converting-an-html-content)
 * Im Kompatibilitätsmodus können Sie vorhandenen HTML-Inhalt sofort importieren. [Mehr dazu](#compatibility-mode)
 
-## Ohne vorhandenen Inhalt {#without-existing-content}
+| Ohne Inhalt | Mit Inhalt |
+|---|---|
+| E-Mail neu erstellen | Konvertieren eines vorhandenen HTML-Inhalts |
+| Erstellen von Inhalt aus einer vordefinierten Vorlage | Importieren eines vorhandenen HTML |
+
+## Entwerfen von E-Mails mit dem Editor {#without-existing-content}
 
 ### E-Mail neu erstellen {#from-scratch-email}
 
@@ -63,7 +68,7 @@ Ziehen Sie die Strukturkomponenten, die Sie für Ihr Layout wünschen, auf die A
 
 Sie können Ihrer E-Mail verschiedene Inhaltskomponenten wie Bild, Text und Schaltflächen hinzufügen. Weitere Informationen finden Sie unter [Inhaltskomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 
-* Bild
+* **Bild**
 
 1. Ziehen Sie aus **Inhaltskomponenten** die Bildkomponente in eine Ihrer Strukturkomponenten.
 1. Klicken Sie auf **Durchsuchen**.
@@ -71,7 +76,7 @@ Sie können Ihrer E-Mail verschiedene Inhaltskomponenten wie Bild, Text und Scha
 
 ![](assets/browse-image-quick-start.png)
 
-* Text mit Personalisierung
+* **Text mit Personalisierung**
 
 1. Ziehen Sie aus **Inhaltskomponenten** die Textkomponente in eine Ihrer Strukturkomponenten.
 1. Klicken Sie auf die Komponente und geben Sie den gewünschten Text ein.
@@ -80,7 +85,7 @@ Sie können Ihrer E-Mail verschiedene Inhaltskomponenten wie Bild, Text und Scha
 
 ![](assets/edit-text-quick-start.png)
 
-* HTML
+* **HTML**
 
 1. Ziehen Sie aus **Inhaltskomponenten** die HTML-Komponente in eine Ihrer Strukturkomponenten.
 1. Klicken Sie auf **Quellcode anzeigen**.
@@ -123,7 +128,7 @@ Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen vo
 1. Sie können den Inhalt jedes Elements nach Bedarf ändern: Bilder, Text, Links.
 1. Sie können auch die Stiloptionen beliebig auf Ihren Inhalt anpassen. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/styles.md).
 
-## Aus vorhandenem Inhalt {#with-existing-content}
+## Verwenden von vorhandenen E-Mail-Inhalten {#with-existing-content}
 
 Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, um sie in künftigen E-Mails wiederzuverwenden und zu kombinieren, sollten Sie Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen konvertieren.
 
@@ -171,7 +176,7 @@ Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Desig
 1. Fügen Sie eine Strukturkomponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie eine HTML-Komponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie Ihren HTML-Code mit Copy &amp; Paste in diese Komponente ein.
-1. Zur Mobile-Ansicht wechseln. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../designing/using/styles.md#switching-to-mobile-view).
+1. Zur Mobile-Ansicht wechseln. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    Die responsive Ansicht ist fehlerhaft, da Ihr CSS fehlt.
 
