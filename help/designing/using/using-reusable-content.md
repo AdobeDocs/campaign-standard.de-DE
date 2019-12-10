@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email Designer können Sie Vorlagen und Fragmente mit eigenen vordefinierten Inhalten erstellen und diese in künftigen E-Mails wiederverwenden.
 
-## Erstellen mit Vorlagen {#designing-templates}
+## Designing emails using templates {#designing-templates}
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer ode
    >
    >Speichern Sie Inhalt nicht als Fragmentinhalt mit leeren Strukturkomponenten. Sobald das Fragment eingefügt wurde, kann es nicht mehr bearbeitet werden.
    >
-   >Die [Mobile-Ansicht](../../designing/using/styles.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar.
+   >Die [Mobile-Ansicht](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar.
 
 1. Speichern Sie das Fragment nach der Bearbeitung.
 
@@ -249,7 +249,7 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Tei
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->Die [Mobile-Ansicht](../../designing/using/styles.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar. Wenn Sie die Mobile-Ansicht einer E-Mail bearbeiten möchten, tun Sie das, bevor Sie Ihren Inhalt als Fragment speichern.
+>Die [Mobile-Ansicht](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar. Wenn Sie die Mobile-Ansicht einer E-Mail bearbeiten möchten, tun Sie das, bevor Sie Ihren Inhalt als Fragment speichern.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
