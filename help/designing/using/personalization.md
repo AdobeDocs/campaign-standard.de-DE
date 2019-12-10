@@ -1,5 +1,5 @@
 ---
-title: Personalisierung
+title: Personalisieren von E-Mail-Inhalten
 description: Erfahren Sie, wie Sie eine E-Mail in Email Designer personalisieren.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -11,13 +11,13 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
 
-# Personalisierung {#personalization}
+# Personalisieren von E-Mail-Inhalten {#personalization}
 
 Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachrichten in Adobe Campaign zu personalisieren. Diese Personalisierungsmöglichkeiten können abhängig von den jeweiligen Profilen kombiniert werden. Im Allgemeinen bietet Adobe Campaign folgende Möglichkeiten:
 
