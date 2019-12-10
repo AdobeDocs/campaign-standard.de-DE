@@ -11,7 +11,7 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand {#email-delivery}
+## E-Mail-Versand  {#email-delivery}
 
 <table> 
  <thead> 
@@ -228,7 +228,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand {#push-notification-delivery}
+## Push-Benachrichtigungsversand  {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -302,7 +302,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## In-App-Versand {#in-app-delivery}
+## In-App-Versand  {#in-app-delivery}
 
 <table> 
  <thead> 
