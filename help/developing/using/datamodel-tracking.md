@@ -9,13 +9,13 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ---
 
 
-# Verfolgungsprotokolle (nms:remoteTracking)
+# Trackinglogs (nms:remoteTracking)
 
 ## Objektbeschreibung
 
@@ -24,11 +24,11 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>Name</th>
                   <th>Titel</th>
                   <th>Typ (Länge)</th>
-                  <th>Enumeration-Werte</th>
+                  <th>Auflistungswerte</th>
                </tr>
                <tr>
-                  <td>Primärschlüssel</td>
-                  <td>Wichtigste Ressourcen-ID</td>
+                  <td>PKey</td>
+                  <td>Main resource ID</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -45,8 +45,8 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>cursorTo</td>
-                  <td>ZeigerTo</td>
+                  <td>pointerTo</td>
+                  <td>PointerTo</td>
                   <td>string </td>
                   <td> </td>
                </tr>
