@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
+source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
 
 ---
 
@@ -172,10 +172,6 @@ Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Struktur
 1. Speichern Sie Ihre Änderungen.
 
 ## Stillinks {#about-styling-links}
-
->[!NOTE]
->
->Diese Funktion steht ab Campaign Standard-Version 19.4 zur Verfügung.
 
 Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Ziel auswählen.
 
