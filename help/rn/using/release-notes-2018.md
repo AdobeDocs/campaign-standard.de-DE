@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 ### Sonstige Änderungen {#other-changes-1}
 
 * Das Zeitlimit für die Berichtfreigabe wurde von einer auf vier Minuten erhöht, um Zeitüberschreitungsfehler zu vermeiden.
-* Beim Bearbeiten des Inhalts einer E-Mail wird automatisch der neue Creative Designer geöffnet. Bei Bedarf können Sie jederzeit nach dem Speichern Ihrer Änderungen zum Standard-Inhaltseditor wechseln. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../designing/using/overview.md).
+* Beim Bearbeiten des Inhalts einer E-Mail wird automatisch der neue Creative Designer geöffnet. Bei Bedarf können Sie jederzeit nach dem Speichern Ihrer Änderungen zum Standard-Inhaltseditor wechseln. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../designing/using/designing-content-in-adobe-campaign.md).
 * Im Creative Designer kann jetzt eine neue Inhaltskomponente – das Karussell – in eine E-Mail eingefügt werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../designing/using/designing-from-scratch.md#about-content-components).
 * Im Klick-Bericht einer Transaktionsnachricht werden beim Anklicken der Schaltfläche **Profil wechseln** jetzt nur die Testprofile aufgelistet, die mit dem Ereignis verknüpft sind, das Sie für diese Transaktionsnachricht definiert haben.
 
@@ -317,7 +317,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
      <li> Erstellung und Speicherung einer E-Mail Inhaltsvorlage und Verwendung gespeicherter Vorlagen zur Vereinfachung der E-Mail-Erstellung </li> 
      <li> Erstellung und Speicherung von Inhaltsfragmenten (z. B. Header, Footer, Artikel) Optimierung des Inhaltserstellungsprozesses und Gewährleistung von Markenkonsistenz </li> 
      <li> Nahtloser Wechsel zwischen der Erstellung in der Drag &amp; Drop-Benutzeroberfläche und der direkten Bearbeitung von HTML-Code einer E-Mail per Tastendruck </li> 
-    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weiterführende Informationen finden Sie im <a href="../../designing/using/overview.md">entsprechenden Handbuch</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">Video</a>.<br />. </td> 
+    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weiterführende Informationen finden Sie im <a href="../../designing/using/designing-content-in-adobe-campaign.md">entsprechenden Handbuch</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">Video</a>.<br />. </td> 
   </tr> 
   <tr> 
    <td> Versand mehrsprachiger Push-Benachrichtigungen<br /> </td> 
