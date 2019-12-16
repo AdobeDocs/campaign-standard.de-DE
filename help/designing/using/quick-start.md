@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
+source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ---
 
@@ -33,8 +33,8 @@ You can also create an email [with existing content](#with-existing-content):
 
 | Ohne Inhalt | Mit Inhalt |
 |---|---|
-| E-Mail neu erstellen | Konvertieren eines vorhandenen HTML-Inhalts |
-| Erstellen von Inhalt aus einer vordefinierten Vorlage | Importieren eines vorhandenen HTML |
+| [E-Mail neu erstellen](#from-scratch-email) | [Konvertieren eines vorhandenen HTML-Inhalts](#converting-an-html-content) |
+| [Erstellen von Inhalt aus einer nativen Vorlage](#building-content-from-an-out-of-the-box-template) | [Importieren eines vorhandenen HTML](#compatibility-mode) |
 
 ## Entwerfen von E-Mails mit dem Editor {#without-existing-content}
 
