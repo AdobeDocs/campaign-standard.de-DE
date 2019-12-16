@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
+source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 
 ---
 
@@ -29,7 +29,7 @@ Zusätzliche Ressourcen:
 * [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Frühere Versionshinweise: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015–2016](../../rn/using/release-notes-2015-2016.md)
 
-## Version 19.4 - Oktober 2019 {#release-19-4---october-2019}
+## Version 19.4 - Dezember 2019 {#release-19-4---october-2019}
 
 ### Neue Funktionen? {#what-s-new-5}
 
@@ -81,6 +81,8 @@ Zusätzliche Ressourcen:
 
 ### Verbesserungen bei E-Mail-Designer {#email-designer-enhancements-4}
 
+* Es wurde ein Fehler behoben, der verhinderte, dass Links zu Abonnenten-, Abonnement- und Einstiegsseiten verfolgt werden konnten, wenn sie in eine E-Mail eingefügt wurden. (CAMP-37809)
+* Es wurde ein Problem behoben, das zu Fehlern führte, wenn eine neue E-Mail erstellt und eine Vorlage ausgewählt wurde. (CAMP-38000)
 * Für Link-Bearbeitungen mit E-Mail-Designer können Sie jetzt die Option **Unterstrichener Link** verwenden. Außerdem wurde eine **Target**-Eigenschaft hinzugefügt, deren Standardwert auf **Ohne** festgelegt ist. [mehr dazu](../../designing/using/styles.md#about-styling-links)
 * Fehlerkorrektur – Für Links in Textkomponenten im Textkörper einer E-Mail wird nun die korrekte Farbe verwendet. (CAMP-37330)
 * Fehlerkorrektur – Beim Löschen eines Bildes werden nun auch zugeordnete Links entfernt. (CAMP-37234)
