@@ -11,8 +11,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
+translation-type: tm+mt
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
 
 ---
 
@@ -47,7 +47,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
   </tr> 
   <tr> 
    <td> <strong>AAM oder People Service</strong><br /> </td> 
-   <td> Beispiel: Adobe Audience Manager </td> 
+   <td> Beispiel: Adobe Audience Manager. Achten Sie darauf, dem Bereitstellungsteam mitzuteilen, ob Sie über eine Audience Manager-Lizenz verfügen oder nicht.</td> 
   </tr> 
   <tr> 
    <td> <strong>Declared ID oder Visitor ID</strong><br /> </td> 
@@ -59,18 +59,6 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
   </tr> 
  </tbody> 
 </table>
-
-* Die **[!UICONTROL Declared ID]** funktioniert für jede Integration mit freigegebenen Zielgruppen. Beachten Sie, dass sich bei der Verwendung des People Core Service die Nutzung der **[!UICONTROL Declared ID]** je nach Lösung ändern kann:
-
-* Wenn Audiences über People Core Service von Adobe Campaign für Adobe Target freigegeben werden, kann die **[!UICONTROL Declared ID]** bereitgestellt werden.
-* Wenn Audiences über People Core Service von Adobe Campaign für Ad Cloud freigegeben werden, können Sie die Bereitstellung der **[!UICONTROL Declared ID]** nicht zur früheren Aufstockung von Audiences verwenden. Beim Erstellen von Audiences ist außerdem mit einer gewissen Latenz zu rechnen.
-* Wenn Audiences über People Core Service von Adobe Analytics für Adobe Campaign freigegeben werden, werden Segmente in Adobe Campaign nicht mit der **[!UICONTROL Declared ID]** befüllt.
-
->[!NOTE]
->
->Wenn Sie Adobe Audience Manager anstelle von People Core Service verwenden, funktioniert die **[!UICONTROL Declared ID]** in allen Szenarien.
-
-Sie können eine Anforderung zur Bereitstellung der **[!UICONTROL Declared ID]** an folgende Adresse richten: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Integration in Adobe Campaign konfigurieren  {#configuring-the-integration-in-adobe-campaign}
 
@@ -142,6 +130,6 @@ Stellen Sie sicher, dass der Campaign Tracking Server auf der Domain (CNAME) reg
 
 ### Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst.{#step-4--configure-the-visitor-id-service}
 
-Falls Ihr Visitor-ID-Dienst nie in Ihren Web-Parametern und Webseiten konfiguriert wurde, finden Sie im folgenden [Dokument](https://marketing.adobe.com/resources/help/de_DE/mcvid/mcvid-setup-aam-analytics.html) oder im folgenden [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) nähere Informationen dazu.
+Falls Ihr Visitor-ID-Dienst nie in Ihren Web-Parametern und Webseiten konfiguriert wurde, finden Sie im folgenden [Dokument](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) oder im folgenden [Video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) nähere Informationen dazu.
 
 Die Konfiguration und Einrichtung sind jetzt abgeschlossen. Die Integration kann somit zum Import und Export von Audiences und Segmenten verwendet werden.
