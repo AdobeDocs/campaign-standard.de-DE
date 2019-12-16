@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -28,7 +28,7 @@ Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email De
 
 ### Inhaltsvorlagen  {#content-templates}
 
-Sie können HTML-Inhalte verwenden, die im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) verfügbar sind. Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen von Elementen. Beispielsweise haben die Vorlagen vom Typ "Feather" Ränder, die Vorlagen vom Typ "Astro" haben dagegen keine. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](#content-templates).
+Sie können HTML-Inhalte verwenden, die im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) verfügbar sind. Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen von Elementen. Beispielsweise haben die Vorlagen vom Typ "Feather" Ränder, die Vorlagen vom Typ "Astro" haben dagegen keine. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](#content-templates).
 
 ![](assets/template_content.png)
 
@@ -52,7 +52,7 @@ Das folgende Beispiel zeigt, wie eine E-Mail-Inhaltsvorlage erstellt wird.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Diese Miniaturansicht wird im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md#about-the-email-designer) angezeigt.
+   Diese Miniaturansicht wird im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) angezeigt.
 
 1. Schließen Sie den Tab **[!UICONTROL Eigenschaften]**, um zum Hauptarbeitsbereich zurückzukehren.
 1. Fügen Sie Struktur- und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
@@ -61,7 +61,7 @@ Das folgende Beispiel zeigt, wie eine E-Mail-Inhaltsvorlage erstellt wird.
    > Sie können keine Personalisierungsfelder oder situationsbedingten Inhalt in eine Inhaltsvorlage einfügen.
 1. Speichern Sie die Vorlage nach der Bearbeitung.
 
-Diese Vorlage kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Wählen Sie sie im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md#about-the-email-designer) aus.
+Diese Vorlage kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Wählen Sie sie im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) aus.
 
 ![](assets/content_template_new.png)
 
@@ -83,7 +83,7 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie den Inhalt diese
 
 1. Um die soeben erstellte Vorlage zu finden, gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]**.
 
-1. Um Ihre neue Vorlage zu verwenden, wählen Sie sie im Tab **[!UICONTROL Vorlagen]** in der Startseite von [Email Designer](../../designing/using/overview.md#about-the-email-designer) aus.
+1. Um Ihre neue Vorlage zu verwenden, wählen Sie sie im Tab **[!UICONTROL Vorlagen]** in der Startseite von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) aus.
 
    ![](assets/content_template_new.png)
 
@@ -170,7 +170,7 @@ Um den Inhalt Ihrer E-Mail zu definieren, können Sie Inhaltselemente in die zuv
 1. Wiederholen Sie diese Schritte für alle Elemente, die Sie zur E-Mail hinzufügen möchten.
 1. Speichern Sie Ihre E-Mail.
 
-Nachdem Inhalt in die E-Mail-Struktur geladen wurde, können Sie den Stil jedes Inhaltselements ändern. Siehe auch den Abschnitt zum [Bearbeiten von Elementen](../../designing/using/styles.md#editing-an-element).
+Nachdem Inhalt in die E-Mail-Struktur geladen wurde, können Sie den Stil jedes Inhaltselements ändern. Siehe auch den Abschnitt zum [Bearbeiten von Elementen](../../designing/using/styles.md).
 
 >[!NOTE]
 >
