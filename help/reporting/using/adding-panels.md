@@ -11,8 +11,8 @@ topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Ab der Campaign-Version 19.4 ist die Option **[!UICONTROL Testversand ausschließen]** standardmäßig ausgewählt. Bei Bedarf können Sie diese Auswahl ändern, indem Sie eines der **[!UICONTROL Segmente]** aus dem Tab **[!UICONTROL Komponenten]** in die Symbolleiste ziehen.
+1. Das Segment **[!UICONTROL Ausschließen des Protests]** ist bereits standardmäßig ausgewählt. Bei Bedarf können Sie diese Auswahl ändern, indem Sie eines der **[!UICONTROL Segmente]** aus dem Tab **[!UICONTROL Komponenten]** in die Symbolleiste ziehen.
 
    ![](assets/dynamic_report_panel_3.png)
 
