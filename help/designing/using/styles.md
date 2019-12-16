@@ -12,18 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
+source-git-commit: ddbf8ea62c4f8bba4ea53dc1daa7064704c97db2
 
 ---
 
 
 # Verwalten von Stilen {#managing-styles}
 
-## Element bearbeiten {#editing-an-element}
 
 In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]** angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
 
-### Element auswählen {#selecting-an-element}
+## Element auswählen {#selecting-an-element}
 
 Um ein Element in der Benutzeroberfläche von Email Designer auszuwählen, können Sie entweder:
 
