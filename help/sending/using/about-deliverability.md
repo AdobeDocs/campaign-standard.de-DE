@@ -13,40 +13,40 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
-# Informationen zur Bereitstellung{#about-deliverability}
+# Über die Zustellbarkeit{#about-deliverability}
 
-Lieferbarkeit oder wie der Erfolg Ihrer Kampagnen, die den Posteingang Ihrer Empfänger erreichen, ohne zu springen oder als Spam gekennzeichnet zu werden, gemessen wird.
+Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich an die Empfängerpostfächer zugestellt, und nicht als unzustellbar zurückgesendet oder als Spam gekennzeichnet werden.
 
-Adobe Campaign Deliverability ist ein kostenpflichtiger Service, der in verschiedenen Angeboten angeboten wird. Kontaktieren Sie die Lieferbarkeit oder den kommerziellen Service.
+Adobe Campaign Deliverability ist ein zahlungspflichtiger Service, der in verschiedenen Packages angeboten wird. Kontaktieren Sie dazu den Zustellbarkeitsservice oder die entsprechende Geschäftsabteilung.
 
-Die Zulieferungsrate hängt von zahlreichen Faktoren ab, insbesondere:
+Die Zustellrate hängt u. a. von folgenden Faktoren ab:
 
-* Korrekte Konfiguration der Instanzen
-* Ruf Ihrer IP-Adresse
-* Qualität der Zieladressen
-* Niedrige Reklamations- und Absprungraten
-* Inhalt Ihrer Nachricht
-* Nachrichtenauthentifizierung (SPF, DKIM, DMARC)
-* Name des Absenders
+* der korrekten Konfiguration Ihrer Instanzen;
+* der Reputation Ihrer IP-Adresse;
+* der Qualität der Zielkontakte;
+* einer niedrigen Anzahl an Beschwerden und Hardbounces;
+* Ihren Nachrichteninhalten;
+* der Nachrichtenauthentifizierung (SPF, DKIM, DMARC);
+* der Reputation des Absenders.
 
 ## Wichtigste zu prüfende Punkte {#deliverability-key-points}
 
-Um die Auslieferbarkeit Ihrer Adobe Campaign-E-Mails zu optimieren, empfehlen wir die folgenden Best Practices. Probleme mit der Lieferbarkeit stehen in der Regel im Zusammenhang mit Maßnahmen zum Schutz vor Spam, die von Internetdienstanbietern und Mailserver-Administratoren durchgeführt werden.
+Um die Zustellbarkeit Ihrer E-Mails in Adobe Campaign zu optimieren, empfehlen wir, die unten aufgeführten Best Practices einzuhalten. Zustellbarkeitsprobleme resultieren im Allgemeinen aus Schutzmaßnahmen gegen Spam, die von Internetdienstanbietern und Mail-Server-Administratoren eingerichtet werden.
 
-Die E-Mail-Zustellbarkeit bezieht sich auf den Satz von Merkmalen, die bestimmen, ob eine Nachricht ihr Ziel erreichen kann, über eine persönliche E-Mail-Adresse, innerhalb kurzer Zeit und mit der erwarteten Qualität in Bezug auf Inhalt und Format. Diese Merkmale fallen in vier Hauptkategorien: Datenqualität, Nachrichten und Inhalte, Sendeninfrastruktur und Ruf. Gemeinsam bilden sie die Grundlage eines erfolgreichen E-Mail-Auslieferungsprogramms.
+Die E-Mail-Zustellbarkeit hängt von verschiedenen Eigenschaften ab, die bestimmen, ob eine Nachricht innerhalb kurzer Zeit ihr Ziel über eine persönliche E-Mail-Adresse in der erwarteten Qualität bezüglich Inhalt und Format erreicht. Diese Eigenschaften werden in vier Hauptkategorien unterteilt: Datenqualität, Nachricht und Inhalt, Versandinfrastruktur und Reputation. Gemeinsam bilden sie die Grundlage eines erfolgreichen E-Mail-Zustellprogramms.
 
-Die Bereitstellungsrate ist die Anzahl der gesendeten E-Mails, die erfolgreich an die Empfänger gesendet wurden.
-Hier finden Sie eine Liste der wichtigsten Punkte, die überprüft werden müssen, um eine gute Lieferbarkeit zu gewährleisten.
+Die Zustellrate ist die Anzahl der E-Mails, die ihren Empfängern erfolgreich zugestellt wurde.
+Die folgenden Faktoren können die Zustellbarkeit Ihrer E-Mails beeinträchtigen.
 
 ## Bereitstellungswerkzeuge {#deliverability-tools}
 
-Beginnen Sie zunächst mit der Dokumentation zu den mit Campaign Standard bereitgestellten Bereitstellungswerkzeugen:
-* [Best Practices bereitstellen](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+Lesen Sie zunächst den Abschnitt über die Zustellbarkeits-Tools von Campaign Standard.
+* [Best Practices beim Versand](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 * [Personalisieren des Absendernamens](../../designing/using/personalization.md#personalizing-the-sender)
 * [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
 * [Versandzeitpunkt optimieren](../../sending/using/optimizing-the-sending-time.md)
@@ -59,26 +59,26 @@ Beginnen Sie zunächst mit der Dokumentation zu den mit Campaign Standard bereit
 * [Quarantäne im Vergleich zur Blacklist](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
 * [Dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Überprüfen der Netzwerkkonfiguration {#network-configuration}
+## Prüfen der Netzwerkkonfiguration {#network-configuration}
 
-Spammer versuchen, ihre wahre Identität zu verbergen und machen daher ihre Server schwer zu identifizieren. Eine legitime Netzwerkkonfiguration, die nicht versucht, die Identität des Servers zu verbergen, ist unverzichtbar, um E-Mails in großen Mengen zu senden.
+Spammer versuchen, ihre Identität zu verschleiern, und erschweren zu diesem Zweck die Identifizierung ihrer Server. Daher ist eine ordnungsgemäße Netzwerkkonfiguration, mit der nicht versucht wird, die Identität des Servers zu verbergen, für den Versand großer Mengen von E-Mails wesentlich.
 
 ## Senden an gültige Adressen {#valid-addresses}
 
-Spammer verwenden oft Adressgeneratoren, die auf Listen mit häufigen Namen und Vornamen basieren. Außerdem verarbeiten sie selten technische Benachrichtigungen, die von Mail-Servern zurückgesendet werden. Eine hohe Anzahl ungültiger Adressen wird häufig als Spam interpretiert. Doppelte Abmeldemechanismen und eine effektive Handhabung technischer Absprungmeldungen ermöglichen es, dies zu vermeiden.
+Spammer verwenden oft Adressgeneratoren basierend auf Listen häufiger Namen und Vornamen. Zusätzlich beachten sie nur selten von Mailservern zurückgesendete technische Benachrichtigungen. Eine hohe Menge ungültiger Adressen wird daher oft als Zeichen von Spam erachtet. Dies können Sie mit einem doppelten Anmeldeverfahren (Double-Opt-in) und der wirksamen Bearbeitung technischer Bounce Messages vermeiden.
 
 ## Verringerung der Beschwerderate {#reduce-complaint-rate}
 
-ISPs verfügen in der Regel über eine auffällige Möglichkeit, eine empfangene Nachricht als Spam zu melden. Dadurch können unzuverlässige Quellen identifiziert werden. Indem Sie schnell Ausstiegsanfragen beantworten, regelmäßig eine bestimmte Liste verwenden, die Zustimmung durch ein doppeltes Opt-in-System überprüfen und Feedback-Schleifen implementieren, können Sie die Beschwerderaten senken.
+ISPs bieten normalerweise eine Möglichkeit, eine erhaltene Nachricht als Spam zu melden und dadurch zweifelhafte Quellen zu identifizieren. Sie können die Beschwerderate verringern, indem Sie Abmeldewünsche rasch berücksichtigen, regelmäßig eine entsprechende Liste verwenden, das Einverständnis des Empfängers durch ein doppeltes Anmeldeverfahren verifizieren und Feedback-Schleifen integrieren.
 
-## An Honigtopf-Adressen senden {#honeypot-addresses}
+## Versand an eine Spam-Falle (honeypot){#honeypot-addresses}
 
-ISPs und andere Organisationen (siehe http://www.projecthoneypot.org/) verwenden Postfächer, die nicht mit physischen Personen übereinstimmen, sondern einfach geschaffen werden, um Spammer zu tricksen. Diese so genannten "Honigtopf"-Adressen werden im Internet veröffentlicht, um von Spambots gesammelt und damit illegitime Absender gefangen zu werden. Die Verwendung eines doppelten Opt-in-Mechanismus verhindert, dass eine solche Adresse einer Liste hinzugefügt wird. Wenn Sie eine Drittanbieter-Liste verwenden, müssen Sie sicher sein, welche Methoden der Betreuer verwendet.
+ISPs und andere Organisationen (siehe https://www.projecthoneypot.org/) verwenden Postfächer, die nicht mit physischen Personen übereinstimmen, sondern einfach geschaffen werden, um Spammer zu tricksen. Diese so genannten "Honigtopf"-Adressen werden im Internet veröffentlicht, um von Spambots gesammelt und damit illegitime Absender gefangen zu werden. Die Verwendung eines doppelten Opt-in-Mechanismus verhindert, dass eine solche Adresse einer Liste hinzugefügt wird. Wenn Sie eine Drittanbieter-Liste verwenden, müssen Sie sicher sein, welche Methoden der Betreuer verwendet.
 
 ## Inhalt der Nachricht anpassen {#adapt-message-content}
 
-In geringerem Maße kann der Inhalt bestimmter Nachrichten dazu führen, dass bestimmte Filter ihn als Spam erkennen. Die Verwendung bestimmter Wörter, die Verwendung von Ausrufezeichen in der Betreffzeile und in den Nachrichten werden als erkennbare Zeichen von Spam gelesen. Spammer sind auch dafür bekannt, Text durch Bilder zu ersetzen, um zu verhindern, dass Text, der gegen sie verstößt, automatisch durch Anti-Spam-Filter analysiert wird. Daraufhin wird möglicherweise eine Meldung (im HTML-Format) mit einem hohen Anteil an Bildern oder Bildern als Anlagen blockiert.
+In geringerem Maß kann auch der Nachrichteninhalt dazu führen, dass E-Mails von manchen Filtern als Spam eingestuft werden. Die Verwendung von bestimmten Wörtern oder Ausrufezeichen im Betreff und im Text werden als Anzeichen für Spam erachtet. Spammer ersetzen auch oft Text durch Bilder, damit der Text von Anti-Spam-Filtern nicht automatisch analysiert werden kann. Deshalb könnte eine Nachricht (im HTML-Format) mit einem hohen Anteil an Bildern oder mit Bildern im Anhang blockiert werden.
 
 ## Regelmäßige Entsendung {#regular-deliveries}
 
-Spammer machen programmierte Lieferungen, um ihren Ruf im Laufe der Zeit zu erhalten. Manchmal müssen sie ihren Marketingplan anpassen, um die von den ISPs auferlegten Best Practices zu erfüllen, und so konfigurieren sie nach einem guten Ruf (Hochfahren) regelmäßige Lieferungen.
+Spammer führen programmierte Sendungen durch, um langfristig ihre Reputation zu wahren. Manchmal müssen sie ihren Marketingplan entsprechend den Best Practices der jeweiligen ISPs anpassen. Deshalb führen sie nach einer Optimierung ihrer Reputation (ramp-up) regelmäßige Sendungen durch.
