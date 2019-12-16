@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -70,7 +70,7 @@ Zusätzliche Ressourcen:
 * Wenn ein Transaktionsnachrichtenereignis mit einem unbekannten Kontextparameter gesendet wird, gibt Campaign jetzt die Fehlermeldung "400" anstelle von "500" aus. (CAMP-28632)
 * In dynamischen Berichten wurde für das **Ausschließen des Testversands** ein neues Segment hinzugefügt. Zum Filtern Ihrer Berichte ist dieses Segment jetzt standardmäßig ausgewählt – [mehr dazu](../../reporting/using/list-of-components-.md#segments)
 * Zu Push-Benachrichtigungen wurde eine Option zum Festlegen der **Ablauffrist einer Nachricht** hinzugefügt. Damit können Sie ein Ablaufdatum angeben, an dem die Nachricht nicht mehr von Apple (APNS) bzw. Android (FCM) gesendet wird – [mehr dazu](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Die Aktivität **Datei laden** wurde dahingehend verbessert, dass Workflow-Logs nun klarer und detaillierter über den Fehler informieren, der auftritt, wenn das Laden einer Datei fehlgeschlagen ist. Die durch Aktivieren der Option **Zurückweisungen in einer Datei speichern** generierte ausgehende Transition wurde in **Zurückweisungen** umbenannt – [mehr dazu](../../automating/using/load-file.md#load-files)
+* Die Aktivität **Datei laden** wurde dahingehend verbessert, dass Workflow-Logs nun klarer und detaillierter über den Fehler informieren, der auftritt, wenn das Laden einer Datei fehlgeschlagen ist. Die durch Aktivieren der Option **Zurückweisungen in einer Datei speichern** generierte ausgehende Transition wurde in **Zurückweisungen** umbenannt – [mehr dazu](../../automating/using/load-file.md)
 * Zu den Versandlogs wurden Logs mit Bezug auf mehrsprachige Nachrichten hinzugefügt, anhand derer besser nachvollzogen werden kann, warum Sendungen aufgrund von fehlenden Sprachen in den hochgeladenen CSV-Dateien fehlgeschlagen sind.
 
 ### Verbesserungen bei der Sicherheit {#security-enhancements-3}
@@ -372,7 +372,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 ### Sonstige Änderungen {#other-changes}
 
-* Zum externen SMS-Konto wurde eine neue Option hinzugefügt. Hiermit kann die maximale Anzahl der für den SMS-Versand verantwortlichen MTA-Prozesse beschränkt werden, um die Anzahl der parallelen Verbindungen besser steuern zu können. Weitere Informationen finden Sie im [SMS-Connector-Protokoll und in der Einstellungstechnik](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) .
+* Zum externen SMS-Konto wurde eine neue Option hinzugefügt. Hiermit kann die maximale Anzahl der für den SMS-Versand verantwortlichen MTA-Prozesse beschränkt werden, um die Anzahl der parallelen Verbindungen besser steuern zu können. Weiterführende Informationen dazu finden Sie in der Technote zum [SMS-Schnittstellenprotokoll und dessen Konfiguration](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 * Wird jetzt eine Ressource mit einer API-Erweiterung publiziert, deren API zuvor bereits publiziert wurde, wird diese API jedes Mal automatisch aktualisiert, wenn sie erneut publiziert wird. Früher musste diese Aktion manuell durchgeführt werden. Wurde die API nicht aktualisiert, konnte ein Fehler in den Profil- oder Service-Ressourcen dieser API auftreten. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * In dynamischen Berichten wurde die Postleitzahl-Dimension entfernt. Verwenden Sie stattdessen die Dimensionen "Stadt", "Land" und "Bundesland".
 * Der Lebenszyklus-Ereignistrigger "Erster Start" für In-App-Nachrichten wurde entfernt.
@@ -469,7 +469,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 * Unser neues On-Boarding ermöglicht Ihnen eine raschere E-Mail-Erstellung und einfacheren Zugriff auf Handbücher und Tutorials.
 
-   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/overview.md#email-designer-home-page).
+   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Jetzt können Sie die Anzahl und Breite von Spalten nach Belieben konfigurieren.
 
@@ -501,7 +501,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 ### Sonstige Änderungen {#other-changes-1}
 
-* Adobe Campaign und Adobe Experience Cloud stellen mit Campaign Standard Release 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 ein. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. Siehe Seite [Veraltete und entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) .
+* Adobe Campaign und Adobe Experience Cloud stellen mit Campaign Standard Release 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 ein. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. Näheres dazu finden Sie auf der Seite der [eingestellten und entfernten Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 * Das Feld **Ländercode** in der Profilressource wurde in **Länder-/Regionscode** umbenannt.
 
 ### Korrekturen {#patches-1}
@@ -548,7 +548,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
      <li> Die Möglichkeit, <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">in der Vorbereitungsphase Inhalt von einer URL automatisch abzurufen</a> </li> 
      <li> Vollständig kompatible <a href="../../designing/using/using-reusable-content.md#content-templates">native Inhaltsvorlagen</a>. </li> 
     </ul> 
-    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/overview.md">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.</p> </td> 
+    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlisten in Transaktions-E-Mails<br /> </td> 
