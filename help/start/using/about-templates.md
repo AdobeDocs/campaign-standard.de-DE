@@ -11,8 +11,8 @@ topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -64,7 +64,7 @@ Bei der Bearbeitung von Inhalt mit Email Designer können Sie auch Inhaltsvorlag
 
 ### Native E-Mail-Inhaltsvorlagen {#email-content-templates}
 
-Sie können HTML-Inhalte verwalten, die im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) verfügbar sind.
+Sie können HTML-Inhalte verwalten, die im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) verfügbar sind.
 
 Die nativen E-Mail-Inhaltsvorlagen enthalten 18 für Mobilgeräte optimierte Layouts und vier von Behance-Künstlern erstellte responsive Vorlagen. Diese decken die häufigsten Anwendungsfälle ab, wie Willkommensnachrichten für Kunden, Newsletter und Re-Engagement-E-Mails. In diese Vorlagen können Sie Ihre eigenen Markeninhalte einfügen und müssen dadurch E-Mails nicht von Grund auf neu erstellen.
 
@@ -72,8 +72,8 @@ Die nativen E-Mail-Inhaltsvorlagen enthalten 18 für Mobilgeräte optimierte Lay
 
 **Verwandte Themen:**
 
-* [In diesem Video](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html) erfahren Sie, wie Sie Inhaltsvorlagen personalisieren können.
-* Weiterführende Informationen zum Bearbeiten von Inhalten finden Sie im Abschnitt [Über die Inhaltserstellung in E-Mails](../../designing/using/overview.md).
+* [In diesem Video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html) erfahren Sie, wie Sie Inhaltsvorlagen personalisieren können.
+* Weiterführende Informationen zum Bearbeiten von Inhalten finden Sie im Abschnitt [Über die Inhaltserstellung in E-Mails](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Inhaltsvorlage erstellen {#creating-a-content-template}
 
@@ -93,7 +93,7 @@ Das folgende Beispiel zeigt, wie eine E-Mail-Inhaltsvorlage erstellt wird.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Diese Miniaturansicht wird im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) angezeigt.
+   Diese Miniaturansicht wird im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) angezeigt.
 
 1. Schließen Sie den Tab **[!UICONTROL Eigenschaften]**, um zum Hauptarbeitsbereich zurückzukehren.
 1. Fügen Sie Struktur- und Inhaltskomponenten hinzu, die Sie nach Bedarf anpassen können.
@@ -102,7 +102,7 @@ Das folgende Beispiel zeigt, wie eine E-Mail-Inhaltsvorlage erstellt wird.
    > Sie können keine Personalisierungsfelder oder situationsbedingten Inhalt in eine Inhaltsvorlage einfügen.
 1. Speichern Sie die Vorlage nach der Bearbeitung.
 
-Diese Vorlage kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Wählen Sie sie im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/overview.md) aus.
+Diese Vorlage kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet werden. Wählen Sie sie im Tab **[!UICONTROL Vorlagen]** auf der Startseite von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) aus.
 
 ![](assets/content_template_new.png)
 
@@ -124,7 +124,7 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie den Inhalt diese
 
 1. Um die soeben erstellte Vorlage zu finden, gehen Sie zu **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Inhaltsvorlagen und -fragmente]**.
 
-1. Um Ihre neue Vorlage zu verwenden, wählen Sie sie im Tab **[!UICONTROL Vorlagen]** in der Startseite von [Email Designer](../../designing/using/overview.md) aus.
+1. Um Ihre neue Vorlage zu verwenden, wählen Sie sie im Tab **[!UICONTROL Vorlagen]** in der Startseite von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) aus.
 
    ![](assets/content_template_new.png)
 
