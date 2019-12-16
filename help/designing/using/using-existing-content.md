@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -26,7 +26,7 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 
 >[!NOTE]
 >
->In den unten stehenden Bildern sehen Sie, wie Sie existierenden Inhalt mit [Email Designer](../../designing/using/overview.md) laden können.
+>In den unten stehenden Bildern sehen Sie, wie Sie existierenden Inhalt mit [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) laden können.
 
 1. Öffnen Sie nach der Erstellung der E-Mail oder Landingpage deren Inhalt.
 1. Wählen Sie das Startseiten-Symbol aus, um die Startseite von **[!UICONTROL Email Designer]** zu öffnen.
@@ -47,7 +47,7 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 
    >[!NOTE]
    >
-   >[Email Designer](../../designing/using/overview.md) nutzt spezielles Tagging. Standardmäßiger HTML-Inhalt, der in Campaign geladen wird, muss diesem Tagging entsprechen, um mit Email Designer vollständig kompatibel und bearbeitbar zu sein. Ist dies nicht der Fall, wird der Inhalt im [Kompatibilitätsmodus](#compatibility-mode) geladen. Weiterführende Informationen dazu, wie Sie existierenden Inhalt kompatibel machen, finden Sie in [diesem Abschnitt](#editing-existing-contents-with-the-email-designer).
+   >[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) nutzt spezielles Tagging. Standardmäßiger HTML-Inhalt, der in Campaign geladen wird, muss diesem Tagging entsprechen, um mit Email Designer vollständig kompatibel und bearbeitbar zu sein. Ist dies nicht der Fall, wird der Inhalt im [Kompatibilitätsmodus](#compatibility-mode) geladen. Weiterführende Informationen dazu, wie Sie existierenden Inhalt kompatibel machen, finden Sie in [diesem Abschnitt](#editing-existing-contents-with-the-email-designer).
 
 **Verwandte Themen:**
 
@@ -56,7 +56,7 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 
 ## Existierenden Inhalt mit Email Designer bearbeiten{#editing-existing-contents-with-the-email-designer}
 
-Um die Bearbeitungsmöglichkeiten von [Email Designer](../../designing/using/overview.md) vollständig nutzen zu können, muss Ihre hochgeladene HTML-Datei bestimmte Tags enthalten, damit sie mit dem WYSIWYG-Editor kompatibel ist.
+Um die Bearbeitungsmöglichkeiten von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) vollständig nutzen zu können, muss Ihre hochgeladene HTML-Datei bestimmte Tags enthalten, damit sie mit dem WYSIWYG-Editor kompatibel ist.
 
 Wenn die gesamte HTML-Datei oder Teile davon diese Tags nicht besitzt, wird der Inhalt im [Kompatibilitätsmodus](#compatibility-mode) geladen.
 
