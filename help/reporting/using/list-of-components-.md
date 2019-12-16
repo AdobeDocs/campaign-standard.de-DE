@@ -11,8 +11,8 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+translation-type: tm+mt
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -459,7 +459,7 @@ In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwend
   </tr> 
     <tr> 
    <td> Testversand ausschließen<br /> </td> 
-   <td> Testsendungen aus Berichten ausschließen (ab Campaign-Version 19.4)<br /> </td> 
+   <td> Gutscheine aus Ihren Berichten ausschließen<br /> </td> 
   </tr> 
  </tbody> 
 </table>
