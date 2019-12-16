@@ -12,8 +12,8 @@ discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
 context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -39,5 +39,5 @@ Diese Vorlagen können bei der Erstellung einer Marketingaktivität von Benutzer
 **Verwandte Themen:**
 
 * [Marken](../../administration/using/branding.md)
-* [Inhaltserstellung](../../designing/using/overview.md)
+* [Inhaltserstellung](../../designing/using/designing-content-in-adobe-campaign.md)
 
