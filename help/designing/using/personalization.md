@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -61,11 +61,11 @@ Adobe Campaign bietet die Möglichkeit, Felder aus der Datenbank, beispielsweise
 
 >[!NOTE]
 >
->In den unten stehenden Bildern sehen Sie, wie Sie einen Link mit [Email Designer](../../designing/using/overview.md) einfügen können.
+>In den unten stehenden Bildern sehen Sie, wie Sie einen Link mit [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) einfügen können.
 
 Um ein Personalisierungsfeld einzufügen, gehen Sie folgendermaßen vor:
 
-1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/overview.md#email-designer-interface).
+1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -91,11 +91,11 @@ Adobe Campaign bietet eine Reihe von vorkonfigurierten Inhaltsbausteinen. Diese 
 
 >[!NOTE]
 >
->Auf den unten stehenden Bildern sehen Sie, wie Sie einen Inhaltsbaustein mit [Email Designer](../../designing/using/overview.md) einfügen können.
+>Auf den unten stehenden Bildern sehen Sie, wie Sie einen Inhaltsbaustein mit [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) einfügen können.
 
 So fügen Sie einen Inhaltsbaustein hinzu:
 
-1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Inhaltsbaustein einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/overview.md#email-designer-interface).
+1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Inhaltsbaustein einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
