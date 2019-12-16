@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Gehen Sie wie folgt vor, um die Datei abzurufen, die alle mit einem Abgleichungswert verknüpften Informationen enthält:
 
-1. Führen Sie eine **POST** -Anforderung durch, um eine neue Anforderung mit dem Attribut **type="access"** zu erstellen, siehe [Erstellen einer neuen Datenschutzanforderung](#creating-a-privacy-request).
+1. Führen Sie eine **POST** -Anforderung durch, um eine neue Anforderung mit dem Attribut **type="access"** zu erstellen, siehe [Erstellen einer neuen Datenschutzanforderung](../../api/using/creating-a-privacy-request.md).
 
 1. Führen Sie eine **GET** -Anforderung durch, um Informationen zur Anforderung abzurufen.
 
