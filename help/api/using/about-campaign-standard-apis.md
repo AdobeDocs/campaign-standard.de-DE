@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -43,4 +43,4 @@ Die APIs, die wir mit **Standardkonzepten** für eine REST-Schnittstelle und JSO
 
 Alle Endpunkte werden in dieser Dokumentation ausführlich beschrieben, mit den allgemeinen Vorstellungen zur Bearbeitung der API, der vollständigen API-Referenz, Codebeispiele und Schnellstartanleitungen.
 
-Wenn irgendetwas fehlt oder falsch erscheint, fragen Sie bitte die [Community](http://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
+Wenn irgendetwas fehlt oder falsch erscheint, fragen Sie bitte die [Community](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
