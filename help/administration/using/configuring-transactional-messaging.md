@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -89,7 +89,7 @@ Dies ist die API-Vorschau für dieses Beispiel:
 **Verwandte Themen:**
 
 * [Vorschau erstellen und Ereignis publizieren](#previewing-and-publishing-the-event)
-* [Produktlisten in Transaktionsnachrichten verwenden](#using-product-listings-in-a-transactional-message)
+* [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 ## Inhalt der Transaktionsnachricht anreichern {#enriching-the-transactional-message-content}
 
