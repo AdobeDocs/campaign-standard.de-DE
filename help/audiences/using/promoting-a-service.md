@@ -12,7 +12,7 @@ discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -31,4 +31,4 @@ Mit Campaign können Sie einen Dienst folgendermaßen bewerben:
    >
    >Stellen Sie bitte unbedingt sicher, dass Sie den Abonnenten außerdem die Möglichkeit zur Abmeldung einräumen. Fügen Sie hierzu einen <b>Abmelde-Link</b> in die (in den Diensteigenschaften definierte) Bestätigungs-E-Mail für neue Abonnenten und in zukünftige Newsletter-E-Mails ein.
 
-* Durch Einbettung einer An- oder Abmelde-Landingpage in eine Webseite: Die Landingpage-URLs müssen verschlüsselte Parameter wie den zugeordneten Dienst und die Kennung des die Seite aufrufenden Profils enthalten. Diese ID kann in den Einstiegsseitenparametern definiert werden (siehe [Konfigurieren einer Einstiegsseite](../../channels/using/configuring-landing-page.md#)).
+* Durch Einbettung einer An- oder Abmelde-Landingpage in eine Webseite: Die Landingpage-URLs müssen verschlüsselte Parameter wie den zugeordneten Dienst und die Kennung des die Seite aufrufenden Profils enthalten. Diese ID kann in den Einstiegsseitenparametern definiert werden (siehe [Konfigurieren einer Einstiegsseite](../../channels/using/configuring-landing-page.md)).
