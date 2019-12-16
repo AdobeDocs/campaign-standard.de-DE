@@ -12,8 +12,8 @@ discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
 
 ---
 
@@ -79,7 +79,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
    * **[!UICONTROL Alle Nutzer einer mobilen App auswählen (inAppBroadcast)]**
    * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]**
 
-1. Geben Sie die Eigenschaften der In-App-Nachricht ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]** die entsprechende Mobile App aus.
+1. Geben Sie die Eigenschaften der In-App-Nachricht ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]** die entsprechende Mobile App aus. Wenn Sie Ihre mobile App nicht mit Adobe Campaign Standard konfiguriert haben, wird sie nicht in der Liste angezeigt. For more information on mobile application configuration, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/inapp_creating_3.png)
 
@@ -95,11 +95,11 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    * **[!UICONTROL Mobile-App-Ereignisse]**: Benutzerdefinierte Ereignisse, die in Ihre Mobile App implementiert sind.
 
-      Weiterführende Informationen zum Erstellen von Ereignissen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
+      Weiterführende Informationen zum Erstellen von Ereignissen finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
    * **[!UICONTROL Life-Cycle-Ereignisse]**: Native Life-Cycle-Ereignisse, die vom Adobe Mobile SDK unterstützt werden.
 
-      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://marketing.adobe.com/resources/help/de_DE/mobile/android/metrics.html).
+      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
 
    * **[!UICONTROL Analytics-Ereignisse]**: Je nach der Konfiguration Ihrer Mobile App werden die folgenden drei Kategorien unterstützt: Adobe Analytics, Kontextdaten oder Ansichtsstatus.
 
@@ -124,7 +124,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    ![](assets/inapp_creating_5.png)
 
-1. Bearbeiten Sie den Inhalt Ihrer Nachricht und definieren Sie die erweiterten Optionen. Siehe [In-App-Nachricht anpassen](https://helpx.adobe.com/de/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Bearbeiten Sie den Inhalt Ihrer Nachricht und definieren Sie die erweiterten Optionen. Siehe [In-App-Nachricht anpassen](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
