@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
+source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
 
 ---
 
@@ -150,12 +150,12 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
       + [Ursachen von fehlgeschlagenen Sendungen](sending/using/understanding-delivery-failures.md)
       + [Funktionsweise der Quarantäneverwaltung](sending/using/understanding-quarantine-management.md)
-   + Zustellbarkeit verwalten {#managing-deliverability}
-      + [Informationen zur Bereitstellung](sending/using/about-deliverability.md)
-      + [Starten einer neuen Plattform](sending/using/starting-new-platform.md)
+   + Verwalten der Zustellbarkeit {#managing-deliverability}
+      + [Über die Zustellbarkeit](sending/using/about-deliverability.md)
+      + [Einrichten einer neuen Plattform](sending/using/starting-new-platform.md)
       + [Steuern von E-Mail-Inhalten](sending/using/control-email-content.md)
       + [Verbessern Ihres Rufs](sending/using/improving-reputation.md)
-      + [Whitelist](sending/using/whitelists.md)
+      + [Whitelists](sending/using/whitelists.md)
       + [Technische Empfehlungen](sending/using/technical-recommendations.md)
       + [Überwachung der Zustellbarkeit](sending/using/monitor-deliverability.md)
       + [Problembehebung](sending/using/troubleshooting.md)
@@ -279,13 +279,14 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Logs exportieren](automating/using/exporting-logs.md)
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
+      + [Verwendungsfall: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
    + Anwendungsfälle: Workflows {#workflow-use-case}
       + [Sendungen mit einem Komplement erstellen](automating/using/workflow-created-query-with-complement.md)
       + [Sendungen am Erstellungsdatum erstellen](automating/using/workflow-creation-date-query.md)
       + [Wöchentlichen Versand erstellen](automating/using/workflow-weekly-offer.md)
       + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
       + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
-      + [Erstellen einer Kontrollgruppe](automating/using/workflow-control-group.md)
+      + [Kontrollgruppe erstellen](automating/using/workflow-control-group.md)
 + Entwickeln{#developing}
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Datenmodelle](developing/using/data-model-concepts.md)
@@ -309,17 +310,17 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datamodel {#datamodel}
-      + [Zielgruppe](developing/using/datamodel-audience.md)
+      + [Audience](developing/using/datamodel-audience.md)
       + [Kampagne](developing/using/datamodel-campaign.md)
       + [Versand](developing/using/datamodel-delivery.md)
-      + [Einstiegsseiten](developing/using/datamodel-landingpage.md)
+      + [Landingpages](developing/using/datamodel-landingpage.md)
       + [Marketingverlauf](developing/using/datamodel-history.md)
       + [Profil](developing/using/datamodel-profile.md)
       + [Programm](developing/using/datamodel-program.md)
-      + [Saatgutmitglied](developing/using/datamodel-seed.md)
+      + [Testempfänger](developing/using/datamodel-seed.md)
       + [Dienst](developing/using/datamodel-service.md)
       + [Abonnementereignis](developing/using/datamodel-subscription.md)
-      + [Verfolgungsprotokolle](developing/using/datamodel-tracking.md)
+      + [Trackinglogs](developing/using/datamodel-tracking.md)
       + [Abmeldeereignis](developing/using/datamodel-unsubscription.md)
       + [Besucher](developing/using/datamodel-visitor.md)
 + Verwalten{#administrating}
@@ -364,8 +365,8 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Verbs](api/using/verbs.md)
       + Zusätzliche Vorgänge {#additional-operations}
          + [Sortierungs-Funktionen](api/using/sorting.md)
-         + [Filtern](api/using/filtering.md)
-         + [Zählen](api/using/counting.md)
+         + [Filter](api/using/filtering.md)
+         + [Zählung](api/using/counting.md)
          + [Paginierung](api/using/pagination.md)
       + [Benutzerdefinierte Ressourcen](api/using/custom-resources.md)
    + [Interaktion mit benutzerdefinierten Ressourcen](api/using/interacting-with-custom-resources.md)
