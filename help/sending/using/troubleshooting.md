@@ -13,53 +13,53 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b2df5ca4d38e35f57815924ffbe0313dc1a22b29
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
 # Problembehebung{#troubleshooting}
 
-Haben Sie ein Lieferproblem? Die Lösung finden Sie hier...
+Haben Sie ein Problem mit der Zustellbarkeit? Möglicherweise finden Sie hier eine Lösung.
 
-**Warum erhalte ich immer dieselbe Fehlermeldung für einen bestimmten ISP?**
+**Warum erhalte ich bei einem bestimmten ISP immer dieselbe Fehlermeldung?**
 
-Wenn Sie immer dieselbe Fehlermeldung für einen ISP erhalten, wurde Ihre E-Mail oder IP vom ISP möglicherweise als fehlerhaft erkannt. Führen Sie die folgenden Empfehlungen aus:
-* Überprüfen Sie, ob ein großer Prozentsatz von Fehlern in Verbindung mit nicht vorhandenen E-Mail-Adressen (**Benutzerdefinierte** Fehler) vorliegt.
-* Aktualisieren Sie Ihre Abonnementformulare, um Fehler in den eingegebenen Domänennamen zu erkennen (z. B.: gmaul.com oder yaho.com).
-* Wenn Sie Fehler bemerken, die darauf hindeuten, dass Ihre Nachrichten als Spam deklariert werden oder dass Ihre Nachrichten ständig blockiert werden, versuchen Sie, die Empfänger auszuschließen, die in den letzten 12 Monaten keine Ihrer Nachrichten geöffnet oder angeklickt haben.
+Wenn Sie bei einem ISP immer dieselbe Fehlermeldung erhalten, hat der ISP möglicherweise festgestellt, dass Ihre E-Mail- oder IP-Adresse fehlerhaft ist. Wir empfehlen in diesem Fall folgende Schritte:
+* Prüfen Sie, ob Sie eine große Menge an Fehlschlägen in Verbindung mit nicht bestehenden E-Mail-Adressen erhalten (**Unbekannter Nutzer**).
+* Aktualisieren Sie Ihre Anmeldeformulare, und achten Sie auf etwaige Fehler im Domain-Namen (z. B. gmaul.com oder yaho.com).
+* Wenn Fehlermeldungen auftreten, die Ihre E-Mails als Spam einstufen, oder wenn Ihre E-Mails blockiert werden, versuchen Sie, alle Empfänger auszuschließen, die innerhalb von 12 Monaten ab dem Versand ihre E-Mail nicht geöffnet oder darauf geklickt haben.
 
-Wenn das Problem weiterhin besteht, wenden Sie sich an den kommerziellen Dienst oder den Bereitstellungsdienst oder den Adobe Campaign-Support.
+Wenn das Problem fortbesteht, kontaktieren Sie den Zustellbarkeitsservice oder die entsprechende Geschäftsabteilung oder den Support von Adobe Campaign.
 
-**Was ist der Unterschied zwischen einer auf der schwarzen Liste stehenden E-Mail-Adresse und einer unter Quarantäne stehenden E-Mail-Adresse?**
+**Was ist der Unterschied zwischen einer auf eine Blacklist gesetzten E-Mail-Adresse und einer unter Quarantäne gestellten E-Mail-Adresse?**
 
-Der Status **[!UICONTROL Blacklist]** ist das Ergebnis einer Feedback-Schleife (wenn eine Person eine Nachricht als Spam meldet).
+Der Status **[!UICONTROL Auf Blacklist]ist das Ergebnis einer Feedback-Loop (wenn ein Empfänger eine E-Mail als Spam meldet).**
 
-Der Status **[!UICONTROL Quarantäne]** ist das Ergebnis eines weichen oder harten Absprungs.
+Der Status **[!UICONTROL In Quarantäne]ist das Ergebnis eines Soft- oder Hardbounce.**
 
-**Was bedeuten die unterschiedlichen Gründe für einen Quarantänefehler?**
+**Was bedeuten die unterschiedlichen Gründe für Quarantäne-Fehler?**
 
-Es gibt zehn mögliche Gründe: nicht definiert, Benutzer unbekannt, ungültige Domäne, Blacklist-Adresse, verweigert, Fehler ignoriert, nicht erreichbar, Konto deaktiviert, Postfach voll, nicht verbunden.
+Es gibt zehn Gründe: Unbestimmt, Unbekannter Nutzer, Ungültige Domain, Adresse auf der Blacklist, Zurückgewiesen, Fehler ignoriert, Unerreichbar, Konto deaktiviert, Postfach voll, Nicht angemeldet.
 
 Weitere Informationen hierzu finden Sie unter [Das Quarantänemanagement](../../sending/using/understanding-quarantine-management.md).
 
-**Einer meiner Empfänger wurde versehentlich auf die schwarze Liste gesetzt. Wie kann ich die schwarze Liste aufheben, damit ich wieder mit dem Senden beginnen kann?**
+**Einer meiner Empfänger wurde irrtümlich auf die Blacklist gesetzt. Wie kann ich ihn wieder daraus streichen lassen, damit ich ihm wieder Nachrichten senden kann?**
 
-* Gehen Sie zu **[!UICONTROL Administration &gt; Kanäle &gt; Quarantäne &gt; Adressen]**.
-* Legen Sie in den Details des entsprechenden Datensatzes den Wert des Felds **[!UICONTROL Status]** auf **[!UICONTROL Gültig]** fest.
-* Speichern Sie den Datensatz.
+* Gehen Sie zu **[!UICONTROL Administration &gt; Kanäle &gt; Quarantänen &gt; Adressen]**.
+* Setzen Sie in den Details des entsprechenden Datensatzes den Wert des **[!UICONTROL Status]**-Feldes auf **[!UICONTROL Gültig]**.
+* Speichern Sie die Daten.
 
-**Wie kann ich herausfinden, ob eine meiner IPs auf der schwarzen Liste steht? Wie kann ich die schwarze Liste meiner IP(s) aufheben?**
+**Wie kann ich feststellen, ob eine meiner IP-Adressen auf einer Blacklist steht? Wie kann ich meine IP-Adresse wieder aus der Blacklist entfernen?**
 
-Um zu überprüfen, ob Ihre IP-Adresse auf eine schwarze Liste gesetzt ist, können Sie sie auf verschiedenen Websites überprüfen:
-* http://mxtoolbox.com/
-* http://whatismyipaddress.com/blacklist-check
+Sie können auf den folgenden Webseiten überprüfen, ob Ihre IP-Adresse auf einer Blacklist steht:
+* https://mxtoolbox.com/
+* https://whatismyipaddress.com/blacklist-check
 * http://www.blacklistalert.org/
 
-Im Allgemeinen gibt das Ergebnis der IP-Adressprüfung eine Liste zurück, die Details der schwarzen Liste und auch den Namen der Website, die die IP-Adresse schwarz aufgeführt.
+Nach der IP-Adressen-Prüfung erhalten Sie eine Liste mit Details zur Blacklist und auch den Namen der Webseite, von der die IP-Adresse auf die Blacklist gesetzt wurde.
 
-Durch Klicken auf den Link können Sie auf die Website-Details zugreifen.
+Durch Anklicken des Links können Sie die Details der Webseite aufrufen.
 
-Anschließend können Sie beantragen, dass Ihre Website von der Website gelöscht wird, die die IP-Adresse auf eine schwarze Liste gesetzt hat.
+Dann können Sie diese Webseite ersuchen, Ihre Webseite von der Blacklist zu löschen.
 
-Der Löschvorgang kann je nach Website unterschiedlich sein. Bei einigen Websites müssen Sie ein Konto erstellen, bei anderen müssen Sie lediglich die IP-Adresse angeben.
+Dieser Prozess ist je nach Webseite unterschiedlich. Auf manchen Webseiten müssen Sie ein Konto erstellen, während andere nur die Angabe der IP-Adresse verlangen.
