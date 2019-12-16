@@ -13,27 +13,27 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
 
 # Steuern von E-Mail-Inhalten{#control-email-content}
 
-Um Ihre E-Mail-Zustellungsrate zu verbessern und sicherzustellen, dass Ihre E-Mails an Ihre Empfänger gelangen, muss die E-Mail eine bestimmte Anzahl von Regeln einhalten.
+Um die Zustellrate Ihrer E-Mails zu optimieren, muss die Nachricht einer Reihe von Regeln entsprechen.
 
-* **Name und Anschrift** des Absenders: Die Adresse muss den Absender explizit identifizieren. Die Domäne muss sich im Besitz des Absenders befinden und beim Absender registriert sein. Das Domänenregister darf nicht privatisiert werden.
+* **Name und Anschrift** des Absenders: Die Adresse muss den Absender explizit identifizieren.Die Domäne muss sich im Besitz des Absenders befinden und beim Absender registriert sein.Das Domänenregister darf nicht privatisiert werden.
 * **Betrifft**: Vermeiden Sie übermäßige Groß- und Kleinschreibung sowie Wörter, die häufig von Spammer ("Win", "Free" usw.) verwendet werden.
 * **E-Mail** personalisieren: Die Personalisierung der E-Mail erhöht die Wahrscheinlichkeit, dass Ihre Nachricht geöffnet wird.
 * **Bilder und Text**: Achten Sie auf ein angemessenes Verhältnis von Text und Bild (z. B. 60 % Text und 40 % Bilder).
-* **Link zum Rückgängigmachen des Abonnements und Einstiegsseite**: Der Link zum Abbestellen des Abonnements ist unbedingt erforderlich. Es muss sichtbar und gültig sein, und das Formular muss funktionsfähig sein.
-* **Verwenden Sie die von Adobe Campaign angebotenen Tools** , um den Inhalt Ihrer E-Mail zu optimieren (Auslieferungsanalyse, Spam-Analyse).
+* **Link zum Rückgängigmachen des Abonnements und Einstiegsseite**: Der Link zum Abbestellen des Abonnements ist unbedingt erforderlich.Es muss sichtbar und gültig sein, und das Formular muss funktionsfähig sein.
+* **Verwenden Sie Werkzeuge** von Adobe Campaign zur Optimierung des Inhalts Ihrer E-Mail (Versandanalyse, Anti-Spam-Analyse).
 
-Weitere Informationen zum Bearbeiten von E-Mail-Inhalten finden Sie in der Übersicht über den [E-Mail-Designer](../../designing/using/designing-content-in-adobe-campaign.md) und in den Best Practices[zum ](../../designing/using/overview.md#content-design-best-practices)Nachrichtenentwurf.
+Weitere Informationen zum Bearbeiten von E-Mail-Inhalten finden Sie in der Übersicht über den [E-Mail-Designer](../../designing/using/designing-content-in-adobe-campaign.md) und in den Best Practices[zum ](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)Nachrichtenentwurf.
 
 ## Name und Anschrift des Absenders {#sender-name}
 
-Bestimmte ISPs prüfen die Gültigkeit der Absenderadresse (Von), bevor sie Nachrichten annehmen. Eine schlecht geformte Adresse kann dazu führen, dass sie vom empfangenden Server abgelehnt wird. Sie müssen sicherstellen, dass eine richtige Adresse auf Instanzebene oder in den am häufigsten verwendeten Szenarien angegeben wird. Wenden Sie sich an Ihren Administrator.
+Bestimmte ISPs prüfen die Gültigkeit der Absenderadresse (Von), bevor sie Nachrichten annehmen.Eine schlecht geformte Adresse kann dazu führen, dass sie vom empfangenden Server abgelehnt wird.Sie müssen sicherstellen, dass eine richtige Adresse auf Instanzebene oder in den am häufigsten verwendeten Szenarien angegeben wird.Wenden Sie sich an Ihren Administrator.
 
 ![](assets/delivery_content_edition16.png)
 
@@ -47,31 +47,31 @@ Beim Bearbeiten von E-Mails können Sie verschiedene Betreffzeilen ausprobieren 
 
 Weitere Informationen zum Definieren der Betreffzeile einer E-Mail finden Sie in [diesem Abschnitt](../../designing/using/subject-line.md).
 
-## Send time optimization {#send-time-optimization}
+## Versandzeitpunkt optimieren {#send-time-optimization}
 
-Zur Verbesserung der Erfolgsrate Ihrer Nachrichten können Sie manuell eine Sendezeit pro Empfänger definieren. Jedes Profil erhält dann die Nachricht zum spezifizierten Zeitpunkt.
+Um die Erfolgsrate Ihrer Nachrichten zu erhöhen, können Sie für jeden Empfänger manuell einen Versandzeitpunkt festlegen. Jedes Profil erhält dann die Nachricht zum spezifizierten Zeitpunkt.
 
 Weitere Informationen hierzu finden Sie unter [Optimieren der Sendezeit](../../sending/using/optimizing-the-sending-time.md).
 
-## Ausschluss-Link und Formular {#opt-out}
+## Abmelde-Link und -Formular {#opt-out}
 
-Wenn die Nachricht analysiert wird, prüft eine Typologieregel standardmäßig, ob ein Ausschluss-Link enthalten ist, und generiert eine Warnung, wenn diese fehlen.
+Bei der Analyse einer Nachricht wird standardmäßig von einer Typologieregel überprüft, ob ein Abmelde-Link vorhanden ist. Ist dies nicht der Fall, wird ein Warnhinweis erstellt.
 
-Sie müssen vor jedem Senden überprüfen, ob der Ausschluss-Link korrekt funktioniert. Achten Sie beispielsweise beim Senden des Nachweises darauf, dass der Link gültig ist, dass das Formular online ist und dass bei der Überprüfung dieser Änderung der Wert der Kontrollkästchen "Keine Kontaktfelder mehr"aktiviert ist. Sie sollten diese Überprüfung systematisch durchführen, da menschliches Versagen immer möglich ist, wenn Sie den Link eingeben oder das Formular ändern.
+Prüfen Sie vor jedem Versand, ob der Abmelde-Link ordnungsgemäß funktioniert. Achten Sie beispielsweise beim Testversand darauf, dass der Link gültig ist, das Formular online ist und dass durch seine Validierung der Wert des Feldes Nicht mehr kontaktieren aktiviert wird. Führen Sie diese Prüfung regelmäßig durch, da bei der manuellen Eingabe des Links oder der Änderung des Formulars Fehler auftreten können.
 
-Wenn nach dem Start der Bereitstellung ein Problem beim Rückgängigmachen des Abonnements festgestellt wird, ist es weiterhin möglich, eine Rückmeldung manuell (z. B. über die Funktion für Massenaktualisierung) für die Empfänger durchzuführen, die auf den Ausschluss-Link klicken, auch wenn sie nicht in der Lage waren, ihre Wahl zu bestätigen.
+Wenn ein Abmeldeproblem erkannt wird, nachdem der Versand bereits begonnen hat, können Sie diejenigen, die auf den Abmelde-Link klicken, manuell abmelden (z. B. über die gebündelte Aktualisierung), selbst wenn sie ihre Auswahl nicht bestätigen konnten.
 
-In der Regel sollten Sie Empfänger, die sich für eine Teilnahme entscheiden möchten, nicht daran hindern, Felder wie z. B. ihre E-Mail-Adresse oder ihren Namen auszufüllen. Die Einstiegsseite zum Rückgängigmachen des Abonnements sollte nur eine Überprüfungsschaltfläche enthalten. Die Anforderung zusätzlicher Bestätigung ist nicht zuverlässig: Ein Benutzer kann zwei E-Mail-Adressen in dasselbe Feld umleiten (z. B. firstname.lastname@club.com und firstname.lastname@internet-club.com). Wenn das Profil nur die erste Adresse speichern kann und sich über eine an die andere Adresse gesendete Nachricht abmelden möchte, verweigert das Formular dies, da die verschlüsselte Kennung und die eingegebene E-Mail-Adresse nicht übereinstimmen.
+Generell empfehlen wir, Empfänger nicht daran zu hindern, sich abzumelden, indem Sie von ihnen verlangen, Felder wie beispielsweise ihre E-Mail-Adresse oder ihren Namen auszufüllen. Die Abmelde-Landingpage sollte nur eine einzige Validierungsschaltfläche aufweisen. Eine zusätzliche Bestätigung zu verlangen ist keine verlässliche Methode: Ein Benutzer könnte zwei E-Mail-Adressen besitzen, die zum selben Postfach gesendet werden (z. B. vorname.nachname@club.com und vorname.nachname@internet-club.com). Wenn sich der Empfänger nur an die erste Adresse erinnert und sich über eine an die andere Adresse gesendete Nachricht abmelden möchte, würde das Formular dies ablehnen, da die verschlüsselte Kennung und die eingegebene E-Mail-Adresse nicht übereinstimmen.
 
 ## Anti-Spam-Analyse {#anti-spam-analysis}
 
-Der Nachrichteneditor von Adobe Campaign integriert eine **Anti-Spam-Analyse** , mit der Sie E-Mails bewerten können, um festzustellen, ob eine Nachricht das Risiko birgt, von den bei Erhalt verwendeten Anti-Spam-Tools als Spam betrachtet zu werden. For more on this, see [Previewing messages](../../sending/using/previewing-messages.md).
+Adobe Campaign's message editor integrates an **Anti-spam analysis** which allows you to score emails to determine whether a message runs the risk of being considered as spam by the anti-spam tools used upon receipt. For more on this, see [Previewing messages](../../sending/using/previewing-messages.md).
 
-Klicken Sie im Nachrichteninhalteditor auf **[!UICONTROL Vorschau]**. Eine Meldung warnt Sie, wenn die Anti-Spam-Prüfung ein hohes Risiko für diese Nachricht festgestellt hat. Klicken Sie auf **[!UICONTROL Spam-Analyse]** , um Details anzuzeigen.
+Wählen Sie im Inhaltseditor für die Nachricht die Option **[!UICONTROL Vorschau]** aus. Wenn die Anti-Spam-Prüfung ein hohes Risiko für die Nachricht feststellt, werden Sie durch eine Mitteilung gewarnt. Mit **Anti-Spam-Analyse]können Sie die Details öffnen.[!UICONTROL **
 
 ![](assets/sending_anti-spam_analysis.png)
 
-## Überprüfen der Reaktionsfähigkeit der Nachricht {#message-responsiveness}
+## Darstellung der Nachricht überprüfen {#message-responsiveness}
 
 Bevor Sie Ihre Nachricht senden, können Sie überprüfen, wie Ihre Nachricht auf verschiedenen Geräten aussehen wird. Dadurch soll sichergestellt werden, dass es auf einer optimalen Weise auf einer Vielzahl von Web-Clients, Web-Mails und Geräten angezeigt wird.
 
