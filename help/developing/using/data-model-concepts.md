@@ -12,8 +12,8 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 
 ---
 
@@ -28,11 +28,11 @@ Adobe Campaign enthält ein vordefiniertes Datenmodell. Dieses Datenmodell kann 
 
 Das über das Adobe-Campaign-Logo verfügbare Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Entwicklung]** dient der Verwaltung von **benutzerdefinierten Ressourcen**, ihrer **Publikation** und dem **Zugriff auf Monitoring-Tools**.
 
-Die von Adobe Campaign verwendeten Daten werden mithilfe verschiedener Ressourcen beschrieben.
-
-Es besteht die Möglichkeit der **Anreicherung des zur Verfügung gestellten Datenmodells** durch benutzerdefinierte Ressourcen.
+Die von Adobe Campaign verwendeten Daten werden mithilfe verschiedener Ressourcen beschrieben. Es besteht die Möglichkeit der **Anreicherung des zur Verfügung gestellten Datenmodells** durch benutzerdefinierte Ressourcen.
 
 Sie können also beispielsweise Tabellen mit Verkaufs- oder Produktdaten erstellen. Native Anwendungsressourcen (Kampagnen, E-Mails oder Audiences) können nicht geändert werden. Sie können jedoch erweitert werden, um neue Felder hinzuzufügen.
+
+Aus Ressourcenerweiterungen stammende Felder werden mit einem Präfix versehen. Auf diese Weise entstehen keine Konflikte mit nativen Anwendungsfeldern.
 
 >[!NOTE]
 >
@@ -40,4 +40,4 @@ Sie können also beispielsweise Tabellen mit Verkaufs- oder Produktdaten erstell
 
 Des Weiteren kann in den der neuen Ressource entsprechenden Bildschirmen die **Navigation konfiguriert werden**.
 
-Aus Ressourcenerweiterungen stammende Felder werden mit einem Präfix versehen. Auf diese Weise entstehen keine Konflikte mit nativen Anwendungsfeldern.
+Sie können benutzerdefinierte Ressourcen **exportieren und importieren** , z. B. aus einer Entwicklungsumgebung in eine Produktionsumgebung. For more on this, refer to this [step-by-step use case](../../automating/using/exporting-importing-custom-resources.md).
