@@ -11,8 +11,8 @@ topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -263,7 +263,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 
    * Erstellen Sie Filter-Typologieregeln, um einen Teil der Zielgruppe während der Versandanalyse auszuschließen, wie etwa Empfänger in Quarantäne. Näheres dazu finden Sie unter [Filterregel erstellen](../../administration/using/filtering-rules.md).
    * Aktualisieren Sie regelmäßig Ihre Kundendatenbank, um eine gute Quarantäneverwaltung zu gewährleisten. Näheres dazu erfahren Sie unter [Über Quarantänen](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. Näheres dazu finden Sie im Handbuch von Adobe Campaign v7 im Abschnitt [Verwalten der Zustellbarkeit](http://docs.campaign.adobe.com/doc/AC/getting_started/DE/deliverability.html). Wenden Sie sich außerdem an Ihren Adobe-Campaign-Administrator um Hilfe.
+   * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. See the Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) detailed documentation and contact your Adobe Campaign administrator for assistance.
 
 
 
