@@ -12,8 +12,8 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 In Adobe Campaign stehen Ihnen zur Anpassung von Push-Benachrichtigungen bei deren Erstellung eine Reihe erweiterter Optionen zur Verfügung.
 
-Erfahrene Benutzer können bezüglich der Konfiguration von Mobile Apps in Adobe Campaign folgende TechNote zu Rate ziehen: [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+Erfahrene Benutzer können bezüglich der Konfiguration von Mobile Apps in Adobe Campaign folgende TechNote zu Rate ziehen: [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
 
 ![](assets/push_notif_advanced.png)
 
@@ -40,7 +40,7 @@ Benutzer werden durch den Ton auf den Empfang einer Push-Benachrichtigung hingew
 1. Öffnen Sie die Push-Benachrichtigung und greifen Sie auf den Bereich **[!UICONTROL Erweiterte Optionen]** zu.
 1. Geben Sie im Feld **[!UICONTROL Ton abspielen]** den Namen der Tondatei ein (ohne Erweiterung), die bei Erhalt einer Benachrichtigung vom Mobilgerät abgespielt werden soll.
 
-   Weiterführende Informationen zu unterstützten Medienformaten finden Sie in der [Apple](https://support.apple.com/kb/PH16864?locale=de_DE)- und [Android](https://developer.android.com/guide/topics/media/media-formats.html)-Dokumentation.
+   Weiterführende Informationen zu unterstützten Medienformaten finden Sie in der [Apple](https://support.apple.com/kb/PH16864?locale=en_US)- und [Android](https://developer.android.com/guide/topics/media/media-formats.html)-Dokumentation.
 
    ![](assets/push_notif_advanced_7.png)
 
@@ -108,10 +108,6 @@ Abhängig von der Aktion der Benutzer wird die Anwendung benachrichtigt, sodass 
 
 ## Ablaufdatum hinzufügen {#add-expiration-date}
 
->[!NOTE]
->
->Diese Änderungen gelten erst ab der Campaign Standard-Version 19.4.
-
 Durch das Festlegen eines Ablaufdatums für eine Push-Benachrichtigung wird diese Nachricht von Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) oder Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)) nach diesem Datum nicht mehr gesendet.
 
 So fügen Sie Ihrer Push-Benachrichtigung ein Ablaufdatum hinzu:
@@ -157,7 +153,7 @@ Gehen Sie folgendermaßen vor, um Rich-Media-Inhalte in Push-Benachrichtigungen 
 1. Öffnen Sie die Push-Benachrichtigung und greifen Sie auf den Bereich **[!UICONTROL Erweiterte Optionen]** zu.
 1. Geben Sie für jedes Format – iOS und Android – die URL Ihrer Datei in das Feld **[!UICONTROL URL für Rich-Media-Daten]** ein.
 
-   Unter iOS 10 oder höher können Sie Bild-, GIF-, Audio- und Videodateien einfügen. Bei früheren iOS-Versionen wird die Push-Benachrichtigung ohne Rich-Inhalte angezeigt. Eine detaillierte Anleitung zum Anzeigen von Bildern in einer Push-Benachrichtigung in Adobe Campaign auf einem iOS-Gerät finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/display-image-push.html).
+   Unter iOS 10 oder höher können Sie Bild-, GIF-, Audio- und Videodateien einfügen. Bei früheren iOS-Versionen wird die Push-Benachrichtigung ohne Rich-Inhalte angezeigt. Eine detaillierte Anleitung zum Anzeigen von Bildern in einer Push-Benachrichtigung in Adobe Campaign auf einem iOS-Gerät finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/display-image-push.html).
 
    Unter Android können Sie nur Bilder einfügen.
 
