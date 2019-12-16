@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -102,30 +102,30 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
   <tr> 
    <td> <strong>Vorteile</strong><br /> </td> 
    <td> 
-     <p>- Einfacher E-Mail-Aufbau durch Drag &amp; Drop</p>
-     <p>- Funktionalitäten, die mit dem alten Content-Editor vergleichbar sind</p>
-     <p>- Wiederverwendbarer Inhalt mit Fragmenten</p>
+     <p>- Einfache Erstellung von E-Mails dank Drag &amp; Drop</p>
+     <p>- Funktionen sind ähnlich dem alten Inhaltseditor</p>
+     <p>- Wiederverwendbare Inhalte mit Fragmenten</p>
   </td> 
    <td> 
-     <p>- Wiederverwendung von Assets von Websites in E-Mails</p>
-     <p>- Nutzung der Leistungsfähigkeit von Experience Manager in E-Mail-Inhalten</p>
+     <p>- Assets von Website können in E-Mails wiederverwendet werden</p>
+     <p>- Nutzung der Funktionen von Experience Manager in E-Mail-Inhalten</p>
     </td> 
    <td> 
-    <p>- Möglichkeit für Entwickler, eine E-Mail direkt zu kodieren</p>
-    <p>- bidirektionale Synchronisierung</p>
-    <p>- Offline-Bearbeitung in Dreamweaver und spätere Synchronisierung</p>
-    <p>- Hochladen von Bildern zu Adobe Campaign über Dreamweaver</p>
+    <p>- Entwickler können selbst Code für eine E-Mail schreiben</p>
+    <p>- Bidirektionale Synchronisation</p>
+    <p>- In Dreamweaver offline bearbeiten und später synchronisieren</p>
+    <p>- Bilder über Dreamweaver zu Adobe Campaign hochladen</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Einschränkungen</strong><br /> </td> 
    <td> 
-     <p>- Kein bedingter Inhalt in Fragmenten</p>
-     <p>- Die Verwendung von Experience Manager-Fragmenten ist nicht möglich</p>
+     <p>- Kein bedingter Inhalt innerhalb von Fragmenten</p>
+     <p>- Verwendung von Experience Manager-Fragmenten nicht möglich</p>
   </td> 
    <td> 
-     <p>- Erweiterte Personalisierung schwer zu implementieren</p>
-     <p>- Muss Tests in Adobe Campaign senden</p>
+     <p>- Erweiterte Personalisierung schwierig zu implementieren</p>
+     <p>- In Adobe Campaign müssen Tests gesendet werden</p>
   </td> 
    <td> Dynamische Inhalte nicht unterstützt<br /> </td> 
   </tr> 
@@ -137,7 +137,7 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
   </tr> 
   <tr> 
    <td> <strong>Weitere Informationen</strong><br /> </td> 
-   <td> Siehe auch <a href="../../designing/using/overview.md">Über Email Designer</a>.<br /> </td> 
+   <td> Siehe auch <a href="../../designing/using/designing-content-in-adobe-campaign.md">Über Email Designer</a>.<br /> </td> 
    <td> Siehe auch <a href="../../integrating/using/integrating-with-experience-manager.md">Integration mit Experience Manager</a>.<br /> </td> 
    <td> See <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver and Campaign</a> and watch this <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a>.<br /> </td> 
   </tr> 
