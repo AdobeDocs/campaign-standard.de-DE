@@ -12,8 +12,8 @@ discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -57,7 +57,7 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
       Der Test muss mindestens eine Stunde dauern, damit die Trackingdaten gesammelt und korrekt für die Auswahl der Gewinnervariante berücksichtigt werden können.
    ![](assets/ab_parameters.png)
 
-1. Gehen Sie nach der Definition der A/B-Test-Parameter zur nächsten Etappe des Assistenten über und definieren Sie den E-Mail-Inhalt. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Bedienen Sie sich des Karussels, um zwischen den verschiedenen Varianten hin und her zu wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/overview.md).
+1. Gehen Sie nach der Definition der A/B-Test-Parameter zur nächsten Etappe des Assistenten über und definieren Sie den E-Mail-Inhalt. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Bedienen Sie sich des Karussels, um zwischen den verschiedenen Varianten hin und her zu wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/create_ab_testing2.png)
 
@@ -87,7 +87,7 @@ Ihre E-Mail ist jetzt definiert und kann gesendet werden. Sie können Protokolle
 
 **Verwandtes Thema**:
 
-Video zur [E-Mail-Erstellung](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+Video zur [E-Mail-Erstellung](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
 
 ## Über A/B-Test-Indikatoren {#about-a-b-test-indicators}
 
