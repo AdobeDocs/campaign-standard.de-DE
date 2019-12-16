@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -27,7 +27,7 @@ Alle Elemente einer Seite können mit Links belegt werden: Bilder, Wörter, Wort
 
 >[!NOTE]
 >
->Auf den unten stehenden Bildern sehen Sie, wie Sie einen Link mit [Email Designer](../../designing/using/overview.md) einfügen können.
+>Auf den unten stehenden Bildern sehen Sie, wie Sie einen Link mit [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) einfügen können.
 
 1. Wählen Sie zuerst ein Element aus und danach in der dedizierten Symbolleiste die Option **[!UICONTROL Link einfügen]**.
 
@@ -61,7 +61,7 @@ Sie können auch nach der Erstellung des Links diesen noch im Einstellungsfenste
 
 ![](assets/des_link_edit.png)
 
-Bei der Bearbeitung einer E-Mail mit [Email Designer](../../designing/using/overview.md) können Sie die von Ihnen erstellten Links in der Tabelle, die alle in der E-Mail enthaltenen URLs aufführt, einfach öffnen und bearbeiten. Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs. Weiterführende Informationen darüber, wie Sie diese Liste öffnen, finden Sie im Abschnitt [Über getrackte URLs](#about-tracked-urls).
+Bei der Bearbeitung einer E-Mail mit [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) können Sie die von Ihnen erstellten Links in der Tabelle, die alle in der E-Mail enthaltenen URLs aufführt, einfach öffnen und bearbeiten. Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs. Weiterführende Informationen darüber, wie Sie diese Liste öffnen, finden Sie im Abschnitt [Über getrackte URLs](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
