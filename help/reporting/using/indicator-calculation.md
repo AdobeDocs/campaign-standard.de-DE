@@ -21,7 +21,7 @@ source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand  {#email-delivery}
+## E-Mail-Versand   {#email-delivery}
 
 <table> 
  <thead> 
@@ -34,7 +34,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </thead> 
  <tbody> 
   <tr> 
-   <td> Konto deaktiviert<br /> </td> 
+   <td> Account deaktiviert<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
@@ -70,7 +70,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Klickrate<br /> </td> 
+   <td> Durchklickrate<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> @uniqueclicks/@delivered<br /> </td> 
    <td> Der Denominator für die Berechnung der Rate basiert nur auf der Anzahl der zugestellten Nachrichten.<br /> </td> 
@@ -160,7 +160,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Abgelehnt<br /> </td> 
+   <td> Zurückgewiesen<br /> </td> 
    <td> @rejected<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
@@ -190,7 +190,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> Der Denominator für die Berechnung der Rate basiert auf der Anzahl der gesendeten Nachrichten (Zugestellt + Bounces).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Einmalige Klicks<br /> </td> 
+   <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
    <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet.<br /> </td> 
    <td> </td> 
@@ -228,7 +228,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand  {#push-notification-delivery}
+## Push-Benachrichtigungsversand   {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -280,7 +280,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
+   <td> Einzelimpressionen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
@@ -290,19 +290,19 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Einmalige Klicks<br /> </td> 
+   <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
    <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klickrate<br /> </td> 
+   <td> Durchklickrate<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> (@interact/@delivered)*100<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## In-App-Versand  {#in-app-delivery}
+## In-App-Versand   {#in-app-delivery}
 
 <table> 
  <thead> 
@@ -333,43 +333,43 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
+   <td> Einzelimpressionen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
    <td> Für die Vorlage <span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)</span> ist Benutzer = Empfänger-ID.<br />Für die Vorlagen <span class="uicontrol">Alle Nutzer einer Mobile App auswählen (inAppBroadcast)</span> und <span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)</span> ist Benutzer = MC-ID oder Ähnliches, das eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App clicks <br /> </td> 
+   <td> In-App-Klicks <br /> </td> 
    <td> @inappclicks<br /> </td> 
    <td> @count (status=click)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App clicks<br /> </td> 
+   <td> Einzelne In-App-Klicks<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
    <td> Für die Vorlage <span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)</span> ist Benutzer = Empfänger-ID.<br />Für die Vorlagen <span class="uicontrol">Alle Nutzer einer Mobile App auswählen (inAppBroadcast)</span> und <span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)</span> ist Benutzer = MC-ID oder Ähnliches, das eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App click through rate<br /> </td> 
+   <td> In-App-Klickrate<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
    <td> Gesamtklicks auf Schaltfläche 1 oder Schaltfläche 2/Gesamtzahl der Impressionen * 100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
+   <td> In-App-Abweisung<br /> </td> 
    <td> @dismissal<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
+   <td> Einzelne In-App-Abweisungen<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
    <td> Für die Vorlage <span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)</span> ist Benutzer = Empfänger-ID.<br />Für die Vorlagen <span class="uicontrol">Alle Nutzer einer Mobile App auswählen (inAppBroadcast)</span> und <span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)</span> ist Benutzer = MC-ID oder Ähnliches, das eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal rate<br /> </td> 
+   <td> In-App-Abweisungsrate<br /> </td> 
    <td> @dismissalrate<br /> </td> 
    <td> Gesamtzahl der Schließungen/Gesamtimpressionen * 100<br /> </td> 
    <td> </td> 
