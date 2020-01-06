@@ -12,8 +12,8 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -26,7 +26,7 @@ Informationen zu erweiterten SMS-Parametern finden Sie im Abschnitt [SMS-Konfigu
 
 Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefone senden zu können:
 
-* Ein externes Konto vom Typ **[!UICONTROL Routing]**, das für den Kanal **[!UICONTROL Mobiltelefon (SMS)]** mit dem Versandmodus **[!UICONTROL Gebündelter Versand]** konfiguriert wurde Lesen Sie diesbezüglich auch den Abschnitt [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* ein externes Konto vom Typ **[!UICONTROL Routing]**, das für den Kanal**[!UICONTROL  Mobiltelefon (SMS)]** mit dem Versandmodus **[!UICONTROL Gebündelter Versand]**konfiguriert wurde. Lesen Sie diesbezüglich auch den Abschnitt[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 * Eine Versandvorlage, die auf das externe Konto Bezug nimmt
 
 1. Erstellen Sie einen SMS-Versand. Ein Versand kann über die Adobe-Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketingaktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
@@ -51,7 +51,7 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefo
 
    ![](assets/sms_creation_3.png)
 
-1. Fügen Sie Ihrer SMS Inhalt hinzu. Sie können den Inhalt auch definieren, indem Sie nach Abschluss der SMS-Erstellung den Bereich **[!UICONTROL Inhalt]** des Versand-Dashboards auswählen. Siehe [Über die SMS-Inhaltserstellung](../../channels/using/about-sms-and-push-content-design.md).
+1. Fügen Sie Ihrer SMS Inhalt hinzu. Sie können den Inhalt auch definieren, indem Sie nach Abschluss der SMS-Erstellung den Bereich **[!UICONTROL Inhalt]**des Versand-Dashboards auswählen. Siehe[Über die SMS-Inhaltserstellung](../../channels/using/about-sms-and-push-content-design.md).
 
    Die Verwendung von Personalisierungsfeldern oder bedingten Texten im SMS-Inhalt kann dazu führen, dass die Nachrichtenlänge je nach Empfänger variiert und dass u. U. nicht von GSM unterstützte Zeichen eingefügt werden. Die Nachrichtenlänge kann daher erst nach erfolgter Personalisierung korrekt eingeschätzt werden. Siehe [SMS personalisieren](../../channels/using/personalizing-sms-messages.md).
 
@@ -79,6 +79,6 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 **Verwandte Themen:**
 
 * [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../channels/using/about-sms-and-push-content-design.md)
-* [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md)
-* Video [Create an SMS delivery](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
+* [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md)
+* Video [Create an SMS delivery](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
 
