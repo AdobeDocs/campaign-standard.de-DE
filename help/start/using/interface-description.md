@@ -11,8 +11,8 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -36,16 +36,16 @@ Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnel
 
 ![](assets/overview_home_page.png)
 
-* Die Karte **[!UICONTROL E-Mail erstellen]** bietet Zugriff auf einen Assistenten, der Schritt für Schritt durch die Konzeption Ihrer E-Mail führt. Sie können insbesondere den E-Mail-Typ bestimmen, die Zielgruppe definieren und den Inhalt erstellen. Weiterführende Informationen finden Sie im Abschnitt [E-Mails erstellen](../../channels/using/creating-an-email.md).
-* Die Karte **[!UICONTROL SMS erstellen]** bietet Zugriff auf einen SMS-Erstellungs-Assistenten. Hier können Sie die Art der SMS festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt [SMS erstellen](../../channels/using/creating-an-sms-message.md).
-* Die Karte **[!UICONTROL Briefpost erstellen]** bietet Zugriff auf einen Erstellungsassistenten für Briefpost. Weiterführende Informationen finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/creating-the-direct-mail.md).
-* Die Karte **[!UICONTROL Push-Benachrichtigung erstellen]** bietet Zugriff auf einen Erstellungs-Assistenten für Benachrichtigungen. Hier können Sie die Art der Push-Benachrichtigung festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
-* Die Karte **[!UICONTROL In-App-Nachricht erstellen]** bietet Zugriff auf einen In-App-Erstellungs-Assistenten. Mit diesem Assistenten können Sie den Typ der zu erstellenden In-App-Nachricht auswählen und deren Eigenschaften, Audiences und Inhalte definieren. Weiterführende Informationen finden Sie im Abschnitt [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md).
-* Die Karte **[!UICONTROL Marketingaktivitäten]** bietet Zugriff auf eine Liste aller Programme, Kampagnen und Marketingaktivitäten (E-Mails, SMS, Workflows, Landingpages), unabhängig vom Programm oder der Kampagne, der letztere angehören. Die Liste kann nach Name, Datum, Status oder Aktivitätstyp gefiltert werden. Weiterführende Informationen finden Sie im Abschnitt [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
-* Die Karte **[!UICONTROL Programme &amp; Kampagnen]** bietet Zugriff auf die Liste aller Programme. Sie können an dieser Stelle insbesondere Kampagnen erstellen und verwalten. Weiterführende Informationen finden Sie im Abschnitt [Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* Die Karte **[!UICONTROL Planung]** bietet Zugriff auf eine zeitliche Übersicht Ihrer Marketingaktivitäten. Der Bildschirm bietet die Möglichkeit, aktuelle Programme und deren Inhalt anzuzeigen. Weiterführende Informationen finden Sie im Abschnitt [Planung](../../start/using/timeline.md).
-* Die Karte **[!UICONTROL Profile]** bietet Zugriff auf die Liste aller in der Datenbank gespeicherten Kontakte und die Anzeige der jeden einzelnen Kontakt betreffenden Ereignisse. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
-* Die Karte **[!UICONTROL Audiences]** bietet Zugriff auf die Liste existierender Audiences. Von hier können Sie vorhandene Audiences abrufen und neue erstellen. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Audiences](../../audiences/using/about-audiences.md).
+* Die Karte **[!UICONTROL E-Mail erstellen]**bietet Zugriff auf einen Assistenten, der Schritt für Schritt durch die Konzeption Ihrer E-Mail führt. Sie können insbesondere den E-Mail-Typ bestimmen, die Zielgruppe definieren und den Inhalt erstellen. Weiterführende Informationen finden Sie im Abschnitt[E-Mails erstellen](../../channels/using/creating-an-email.md).
+* Die Karte **[!UICONTROL SMS erstellen]**bietet Zugriff auf einen SMS-Erstellungs-Assistenten. Hier können Sie die Art der SMS festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt[SMS erstellen](../../channels/using/creating-an-sms-message.md).
+* Die Karte **[!UICONTROL Briefpost erstellen]**bietet Zugriff auf einen Erstellungsassistenten für Briefpost. Weiterführende Informationen finden Sie im Abschnitt[Push-Benachrichtigungen erstellen](../../channels/using/creating-the-direct-mail.md).
+* Die Karte **[!UICONTROL Push-Benachrichtigung erstellen]**bietet Zugriff auf einen Erstellungs-Assistenten für Benachrichtigungen. Hier können Sie die Art der Push-Benachrichtigung festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt[Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
+* Die Karte **[!UICONTROL In-App-Nachricht erstellen]**bietet Zugriff auf einen In-App-Erstellungs-Assistenten. Mit diesem Assistenten können Sie den Typ der zu erstellenden In-App-Nachricht auswählen und deren Eigenschaften, Audiences und Inhalte definieren. Weiterführende Informationen finden Sie im Abschnitt[In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md).
+* Die Karte **[!UICONTROL Marketingaktivitäten]**bietet Zugriff auf eine Liste aller Programme, Kampagnen und Marketingaktivitäten (E-Mails, SMS, Workflows, Landingpages), unabhängig vom Programm oder der Kampagne, der letztere angehören. Die Liste kann nach Name, Datum, Status oder Aktivitätstyp gefiltert werden. Weiterführende Informationen finden Sie im Abschnitt[Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
+* Die Karte **[!UICONTROL Programme &amp; Kampagnen]**bietet Zugriff auf die Liste aller Programme. Sie können an dieser Stelle insbesondere Kampagnen erstellen und verwalten. Weiterführende Informationen finden Sie im Abschnitt[Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
+* Die Karte **[!UICONTROL Planung]**bietet Zugriff auf eine zeitliche Übersicht Ihrer Marketingaktivitäten. Der Bildschirm bietet die Möglichkeit, aktuelle Programme und deren Inhalt anzuzeigen. Weiterführende Informationen finden Sie im Abschnitt[Planung](../../start/using/timeline.md).
+* Die Karte **[!UICONTROL Profile]**bietet Zugriff auf die Liste aller in der Datenbank gespeicherten Kontakte und die Anzeige der jeden einzelnen Kontakt betreffenden Ereignisse. Weiterführende Informationen finden Sie im Abschnitt[Verwaltung von Profilen](../../audiences/using/about-profiles.md).
+* Die Karte **[!UICONTROL Audiences]**bietet Zugriff auf die Liste existierender Audiences. Von hier können Sie vorhandene Audiences abrufen und neue erstellen. Weiterführende Informationen finden Sie im Abschnitt[Verwaltung von Audiences](../../audiences/using/about-audiences.md).
 
 ## Symbolleiste {#top-bar}
 
@@ -58,14 +58,14 @@ Folgende Navigationsprinzipien kommen zur Anwendung:
    Das erweiterte Menü wird im Abschnitt [erweitertes Menü](#advanced-menu) beschrieben.
 
 * Verwenden Sie den **[!UICONTROL Startseite]**-Link, um die Adobe-Campaign-Startseite anzuzeigen.
-* Über die Links **[!UICONTROL Marketingaktivitäten]**, **[!UICONTROL Programme &amp; Kampagnen]**, **[!UICONTROL Profile]**, **[!UICONTROL Audiences]** und **[!UICONTROL Berichte]** gelangen Sie zu den diese Funktionen betreffenden Bildschirmen.
+* Über die Links **[!UICONTROL Marketingaktivitäten]**,**[!UICONTROL  Programme &amp; Kampagnen]**, **[!UICONTROL Profile]**,**[!UICONTROL  Audiences]** und **[!UICONTROL Berichte]**gelangen Sie zu den diese Funktionen betreffenden Bildschirmen.
 * Das **[!UICONTROL Hilfe]**-Symbol bietet Zugriff auf die technische Dokumentation und die kontextuelle Hilfe, auf Informationen zu Neuheiten, auf Versionsinformationen und rechtliche Hinweise sowie auf Links zur Community für Adobe Experience Cloud und zum Kundenservice.
 
    ![](assets/ux_help.png)
 
 * Über das Symbol zur **Lösungsauswahl** können Sie zu einer anderen Adobe Experience Cloud-Lösung sowie zu den Profileinstellungen wechseln.
 * Im Symbol **Benachrichtigungen** werden die aktuellen Warnungen oder Informationen angezeigt.
-* Das **Benutzer**-Symbol ermöglicht die Anzeige von Informationen zu Ihrem Profil. Es ermöglicht außerdem das **[!UICONTROL Abmelden]** von der Lösung.
+* Das **Benutzer**-Symbol ermöglicht die Anzeige von Informationen zu Ihrem Profil. Es ermöglicht außerdem das **[!UICONTROL Abmelden]**von der Lösung.
 
 ## Erweitertes Menü {#advanced-menu}
 
@@ -75,33 +75,33 @@ Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen
 
 ### Marketingpläne {#marketing-plans}
 
-Über das Symbol **[!UICONTROL Marketingpläne]** gelangen Sie zu folgenden Funktionen:
+Über das Symbol **[!UICONTROL Marketingpläne]**gelangen Sie zu folgenden Funktionen:
 
-* **[!UICONTROL Marketingaktivitäten]** - siehe Abschnitt [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
-* **[!UICONTROL Programme &amp; Kampagnen]** - siehe Abschnitt [Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* **[!UICONTROL Planung]** - siehe Abschnitt [Planung](../../start/using/timeline.md).
-* **[!UICONTROL Transaktionsnachrichten]** mit den Untermenüs **[!UICONTROL Sendungen]** und **[!UICONTROL Ereigniskonfiguration]** – siehe Abschnitt [Transaktionsnachrichtenversand](../../channels/using/about-transactional-messaging.md).
+* **[!UICONTROL Marketingaktivitäten]**- siehe Abschnitt[Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
+* **[!UICONTROL Programme &amp; Kampagnen]**- siehe Abschnitt[Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
+* **[!UICONTROL Planung]**- siehe Abschnitt[Planung](../../start/using/timeline.md).
+* **[!UICONTROL Transaktionsnachrichten]**mit den Untermenüs**[!UICONTROL  Sendungen]** und **[!UICONTROL Ereigniskonfiguration]**– siehe Abschnitt[Transaktionsnachrichtenversand](../../channels/using/about-transactional-messaging.md).
 
 ### Profile &amp; Audiences {#profiles-e-audiences}
 
-Über das Symbol **[!UICONTROL Profile &amp; Audiences]** gelangen Sie zu folgenden Funktionen:
+Über das Symbol **[!UICONTROL Profile &amp; Audiences]**gelangen Sie zu folgenden Funktionen:
 
-* **[!UICONTROL Profile]** - siehe Abschnitt [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
-* **[!UICONTROL Testprofile]** - siehe Abschnitt [Verwaltung von Testprofilen](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
-* **[!UICONTROL Audiences]** - siehe Abschnitt [Verwaltung von Audiences](../../audiences/using/about-audiences.md).
-* **[!UICONTROL Dienste]** - siehe Abschnitt [Dienst erstellen](../../audiences/using/creating-a-service.md).
+* **[!UICONTROL Profile]**- siehe Abschnitt[Verwaltung von Profilen](../../audiences/using/about-profiles.md).
+* **[!UICONTROL Testprofile]**- siehe Abschnitt[Verwaltung von Testprofilen](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+* **[!UICONTROL Audiences]**- siehe Abschnitt[Verwaltung von Audiences](../../audiences/using/about-audiences.md).
+* **[!UICONTROL Dienste]**- siehe Abschnitt[Dienst erstellen](../../audiences/using/creating-a-service.md).
 
 ### Ressourcen {#resources}
 
-Über das Symbol **[!UICONTROL Ressourcen]** gelangen Sie zu folgenden Funktionen:
+Über das Symbol **[!UICONTROL Ressourcen]**gelangen Sie zu folgenden Funktionen:
 
-* **[!UICONTROL Vorlagen]** mit Untermenüs zu jedem Vorlagentyp - siehe Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
-* **[!UICONTROL Inhaltsbausteine]** - siehe Abschnitt [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
-* **[!UICONTROL Inhaltsvorlagen und -fragmente]** - siehe Abschnitt [Inhaltsvorlage](../../designing/using/using-reusable-content.md#content-templates).
+* **[!UICONTROL Vorlagen]**mit Untermenüs zu jedem Vorlagentyp - siehe Abschnitt[Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md).
+* **[!UICONTROL Inhaltsbausteine]**- siehe Abschnitt[Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
+* **[!UICONTROL Inhaltsvorlagen und -fragmente]**- siehe Abschnitt[Inhaltsvorlage](../../designing/using/using-reusable-content.md#content-templates).
 
 ### Administration {#administration}
 
-Über das Symbol **[!UICONTROL Administration]** erhalten Sie Zugriff auf die erweiterten Funktionen, die nur vom funktionalen Administrator ausgeführt werden können. Weiterführende Informationen hierzu finden Sie im Abschnitt [Administration](../../administration/using/about-administrating-adobe-campaign.md).
+Über das Symbol **[!UICONTROL Administration]**erhalten Sie Zugriff auf die erweiterten Funktionen, die nur vom funktionalen Administrator ausgeführt werden können. Weiterführende Informationen hierzu finden Sie im Abschnitt[Administration](../../administration/using/about-administrating-adobe-campaign.md).
 
 ## Zentraler Bereich {#central-zone}
 
@@ -111,7 +111,7 @@ Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamische
 
 Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs kann variieren:
 
-* Er kann die Form einer **Übersicht** im **[!UICONTROL Karten]**- oder **[!UICONTROL Listen]**-Modus annehmen, die diverse Elemente (beispielsweise Programme, Kampagnen, Profile etc.) enthält. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
+* Er kann die Form einer **Übersicht** im **[!UICONTROL Karten]**- oder**[!UICONTROL  Listen]**-Modus annehmen, die diverse Elemente (beispielsweise Programme, Kampagnen, Profile etc.) enthält. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
 
    ![](assets/ux_liste.png)
 
