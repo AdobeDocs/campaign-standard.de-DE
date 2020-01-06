@@ -12,8 +12,8 @@ discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -30,7 +30,7 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 
    ![](assets/direct_mail_1.png)
 
-1. Wählen Sie entweder die Standardvorlage **[!UICONTROL Briefpost]** oder eine Ihrer eigenen Vorlagen. Weiterführende Informationen zu Vorlagen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/about-templates.md).
+1. Wählen Sie entweder die Standardvorlage **[!UICONTROL Briefpost]**oder eine Ihrer eigenen Vorlagen. Weiterführende Informationen zu Vorlagen finden Sie im Abschnitt[Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md).
 
    ![](assets/direct_mail_2.png)
 
@@ -50,13 +50,13 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 
    ![](assets/direct_mail_5.png)
 
-1. Wählen Sie den Bereich **[!UICONTROL Planung]** des Versand-Dashboards aus, um das Kontaktdatum festzulegen. Für Briefpost ist die Angabe des Kontaktdatums erforderlich. Weiterführende Informationen finden Sie unter [Versanddatum planen](../../sending/using/about-scheduling-messages.md).
+1. Wählen Sie den Bereich **[!UICONTROL Planung]**des Versand-Dashboards aus, um das Kontaktdatum festzulegen. Für Briefpost ist die Angabe des Kontaktdatums erforderlich. Weiterführende Informationen finden Sie unter[Versanddatum planen](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/direct_mail_8.png)
 
 1. Wenn Sie Testprofile hinzufügen (siehe [Test- und Fallen-Profile hinzufügen](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), können Sie Ihren Versand testen, bevor Sie die endgültige Datei fertigstellen. Dadurch können Sie eine Beispieldatei erstellen, die nur die ausgewählten Testprofile enthält.
 
-   Klicken Sie auf **[!UICONTROL Test]**, um die Beispieldatei zu erstellen. Wählen Sie links oben **[!UICONTROL Zusammenfassung]** aus und danach **[!UICONTROL Testsendungen]**. Wählen Sie auf der linken Bildschirmseite den Testversand aus und danach **[!UICONTROL Datei herunterladen]**.
+   Klicken Sie auf **[!UICONTROL Test]**, um die Beispieldatei zu erstellen. Wählen Sie links oben**[!UICONTROL  Zusammenfassung]** aus und danach **[!UICONTROL Testsendungen]**. Wählen Sie auf der linken Bildschirmseite den Testversand aus und danach**[!UICONTROL  Datei herunterladen]**.
 
    >[!NOTE]
    >
@@ -64,11 +64,11 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 
    ![](assets/direct_mail_19.png)
 
-1. Nachdem Sie den Versandinhalt, die Audience und das Kontaktdatum definiert haben, wählen Sie die Schaltfläche **[!UICONTROL Vorbereiten]** im Versand-Dashboard aus.
+1. Nachdem Sie den Versandinhalt, die Audience und das Kontaktdatum definiert haben, wählen Sie die Schaltfläche **[!UICONTROL Vorbereiten]**im Versand-Dashboard aus.
 
    ![](assets/direct_mail_16.png)
 
-   Typologieregeln wurden angewendet. So werden beispielsweise alle nicht angegebenen Anschriften aus der Zielgruppe ausgeschlossen. Deshalb müssen Sie darauf achten, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist (siehe [Empfehlungen](../../channels/using/about-direct-mail.md#recommendations)). Wenn Sie in den Briefposteigenschaften oder auf Vorlagenebene ein **[!UICONTROL Maximales Volumen der Nachrichten]** definiert haben, wird dies hier angewendet.
+   Typologieregeln wurden angewendet. So werden beispielsweise alle nicht angegebenen Anschriften aus der Zielgruppe ausgeschlossen. Deshalb müssen Sie darauf achten, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]**aktiviert ist (siehe[Empfehlungen](../../channels/using/about-direct-mail.md#recommendations)). Wenn Sie in den Briefposteigenschaften oder auf Vorlagenebene ein**[!UICONTROL  Maximales Volumen der Nachrichten]** definiert haben, wird dies hier angewendet.
 
    ![](assets/direct_mail_25.png)
 
@@ -80,7 +80,7 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 
    ![](assets/direct_mail_18.png)
 
-   Die komplette Datei kann auf der linken Bildschirmseite heruntergeladen werden. Durch das Herunterladen der Datei wird im Menü **[!UICONTROL Export-Audits]** ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
+   Die komplette Datei kann auf der linken Bildschirmseite heruntergeladen werden. Durch das Herunterladen der Datei wird im Menü **[!UICONTROL Export-Audits]**ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt[Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
 
    >[!NOTE]
    >
@@ -97,6 +97,6 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 Jetzt können Sie die Extraktionsdatei an Ihren Briefpost-Dienstleister senden. Dafür haben Sie mehrere Möglichkeiten:
 
 * Senden Sie mit regulärer E-Mail und einem Dateianhang.
-* Senden Sie über Campaign: Führen Sie Ihre Briefpost im Rahmen eines Kampagnen-[Workflows](../../automating/using/direct-mail-delivery.md) aus und fügen Sie eine **[!UICONTROL Dateiübertragung]** hinzu, um die Datei beispielsweise per FTP zu versenden. Siehe [Dateiübertragung](../../automating/using/transfer-file.md).
+* Senden Sie über Campaign: Führen Sie Ihre Briefpost im Rahmen eines Kampagnen-[Workflows](../../automating/using/direct-mail-delivery.md) aus und fügen Sie eine **[!UICONTROL Dateiübertragung]**hinzu, um die Datei beispielsweise per FTP zu versenden. Siehe[Dateiübertragung](../../automating/using/transfer-file.md).
 
 Der Provider ruft die Liste mit fehlerhaften Adressen ab und sendet diese Informationen an Adobe Campaign, wo die fehlerhaften Adressen automatisch auf die Blacklist gesetzt werden. Siehe [Rücksendungen an den Absender](../../channels/using/return-to-sender.md).
