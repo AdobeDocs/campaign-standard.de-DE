@@ -12,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -27,9 +27,9 @@ In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweili
 
 Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weiterführende Informationen dazu finden Sie im [Handbuch zur Admin Console](https://helpx.adobe.com/enterprise/using/users.html).
 
-Der Zugriff auf die Adobe-Campaign-Benutzer erfolgt über das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration &gt; Benutzer &amp; Sicherheit &gt; Benutzer]**.
+Der Zugriff auf die Adobe-Campaign-Benutzer erfolgt über das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen**[!UICONTROL  Administration > Benutzer &amp; Sicherheit > Benutzer]**.
 
-Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie von Adobe Campaign aus auf die Benutzeroberfläche zur Benutzerverwaltung zugreifen.
+Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]**können Sie von Adobe Campaign aus auf die Benutzeroberfläche zur Benutzerverwaltung zugreifen.
 
 ![](assets/user_management_5.png)
 
@@ -57,9 +57,9 @@ Vielmehr beschäftigen wir uns mit den drei wichtigsten Benutzertypen entspreche
 
 ### Funktionale Administratoren {#functional-administrators}
 
-Funktionale Administratoren sind Benutzer, die Zugriff auf die meisten technischen Elemente der Benutzeroberfläche haben. Sie sind verantwortlich für die **[!UICONTROL Administration]** und richten die Plattform ein, damit sich Marketer voll und ganz auf den Versand ihrer Kampagnen konzentrieren können.
+Funktionale Administratoren sind Benutzer, die Zugriff auf die meisten technischen Elemente der Benutzeroberfläche haben. Sie sind verantwortlich für die **[!UICONTROL Administration]**und richten die Plattform ein, damit sich Marketer voll und ganz auf den Versand ihrer Kampagnen konzentrieren können.
 
-Funktionale Administratoren sind die einzigen Benutzer, die Zugriff auf das Menü **[!UICONTROL Administration]** in der Adobe-Campaign-Benutzeroberfläche haben. Da diese Benutzer Zugriff auf technische Ressourcen benötigen, sollten ihnen erweiterte Benutzerrollen zugewiesen werden, wie etwa die vordefinierten Rollen **[!UICONTROL Administration]** und **[!UICONTROL Data Model]**. Diese Rollen sind in der vordefinierten Sicherheitsgruppe **[!UICONTROL Administrator]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
+Funktionale Administratoren sind die einzigen Benutzer, die Zugriff auf das Menü **[!UICONTROL Administration]**in der Adobe-Campaign-Benutzeroberfläche haben. Da diese Benutzer Zugriff auf technische Ressourcen benötigen, sollten ihnen erweiterte Benutzerrollen zugewiesen werden, wie etwa die vordefinierten Rollen**[!UICONTROL  Administration]** und **[!UICONTROL Data Model]**. Diese Rollen sind in der vordefinierten Sicherheitsgruppe**[!UICONTROL  Administrator]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
 Dies sind ihre Hauptaufgaben:
 
@@ -75,19 +75,19 @@ Dies sind ihre Hauptaufgaben:
 
 Diese Benutzer sind Marketing-Experten, die Adobe Campaign auf eine vorwiegend technische Art verwenden. Sie konfigurieren alle Elemente, die Marketer für den Versand und die Überwachung von Nachrichten verwenden.
 
-Dieser Benutzertyp benötigt allgemeinere Rollen als ein funktionaler Administrator, sollte aber noch in der Lage sein, einige technische Vorgänge durchzuführen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Export]**, **[!UICONTROL Allgemeiner Import]** oder **[!UICONTROL Workflow]** zugewiesen werden. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
+Dieser Benutzertyp benötigt allgemeinere Rollen als ein funktionaler Administrator, sollte aber noch in der Lage sein, einige technische Vorgänge durchzuführen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Export]**,**[!UICONTROL  Allgemeiner Import]** oder **[!UICONTROL Workflow]**zugewiesen werden. Weiterführende Informationen hierzu finden Sie in diesem[Abschnitt](../../administration/using/list-of-roles.md).
 
 Dies sind ihre Hauptaufgaben:
 
 * [Komplexe Datenverwaltungs-Workflows erstellen und ausführen](../../automating/using/about-data-management-activities.md): Import, Anreicherung und Transformation von Daten für die Datenbank oder Export von Daten in externe Dateien, um sie mit eigenen Tools zu verarbeiten
-* [Vorlagen verwalten](../../start/using/about-templates.md): Verwaltung von Vorlagen, um gewisse Parameter Ihrer Marketing-Aktivitäten entsprechend Ihren Anforderungen zu konfigurieren
+* [Vorlagen verwalten](../../start/using/marketing-activity-templates.md): Verwaltung von Vorlagen, um gewisse Parameter Ihrer Marketing-Aktivitäten entsprechend Ihren Anforderungen zu konfigurieren
 * [Abfragen erstellen](../../automating/using/editing-queries.md#about-query-editor) und [Audiences verwalten](../../audiences/using/about-audiences.md): Manuelles Erstellen von Audiences mittels Abfragen oder automatisches Erstellen mittels dedizierter Workflows
 * [Fortgeschrittene Bearbeitung von Ausdrücken](../../automating/using/editing-queries.md#about-query-editor): Einsatz fortgeschrittener Funktionen zur Bearbeitung für Abfragen verwendeter Werte (Datumsangaben, Strings, numerische Felder, Sortierung usw.)
 * [Listen exportieren](../../automating/using/exporting-lists.md) und [Daten mithilfe von Importvorlagen importieren](../../automating/using/importing-data-with-import-templates.md)
 
 ### Benutzer mit Grundkenntnissen {#basic-users}
 
-Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntnissen können Marketer Kampagnen personalisieren, versenden und überwachen, ohne sich über die technischen Feinheiten den Kopf zerbrechen zu müssen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Sendungen vorbereiten]**, **[!UICONTROL Workflow]** und **[!UICONTROL Sendungen starten]** zugewiesen werden. Diese Rollen sind in der vordefinierten Sicherheitsgruppe **[!UICONTROL Standardbenutzer]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
+Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntnissen können Marketer Kampagnen personalisieren, versenden und überwachen, ohne sich über die technischen Feinheiten den Kopf zerbrechen zu müssen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Sendungen vorbereiten]**,**[!UICONTROL  Workflow]** und **[!UICONTROL Sendungen starten]**zugewiesen werden. Diese Rollen sind in der vordefinierten Sicherheitsgruppe**[!UICONTROL  Standardbenutzer]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
 Dies sind ihre Hauptaufgaben:
 
@@ -102,21 +102,21 @@ Dies sind ihre Hauptaufgaben:
 
 Um einen Benutzer zu Ihrer Instanz hinzuzufügen, müssen Sie ihn zuerst in der Admin Console erstellen und danach in Adobe Campaign Standard verwalten.
 
-1. Wählen Sie dazu im erweiterten Menü **[!UICONTROL Administration &gt; Benutzer &amp; Sicherheit &gt; Benutzer]** und danach **[!UICONTROL Benutzeradministration]** aus, um die Admin Console aufzurufen.
+1. Wählen Sie dazu im erweiterten Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]**und danach**[!UICONTROL  Benutzeradministration]** aus, um die Admin Console aufzurufen.
 
    ![](assets/user_management_5.png)
 
-1. Wählen Sie in der **[!UICONTROL Admin Console]** den Tab **[!UICONTROL Benutzer]** aus.
+1. Wählen Sie in der **[!UICONTROL Admin Console]**den Tab**[!UICONTROL  Benutzer]** aus.
 
-1. Wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
+1. Wählen Sie **[!UICONTROL Benutzer hinzufügen]**aus.
 
    ![](assets/create_user_2.png)
 
-1. Geben Sie im Tab **[!UICONTROL Detail eines Benutzers]** die Details des Benutzers wie die E-Mail-Adresse, den Vornamen und den Nachnamen ein.
+1. Geben Sie im Tab **[!UICONTROL Detail eines Benutzers]**die Details des Benutzers wie die E-Mail-Adresse, den Vornamen und den Nachnamen ein.
 
    ![](assets/create_user_3.png)
 
-1. Weisen Sie dem Benutzer im Tab **[!UICONTROL Produkte zuweisen]** eine oder mehrere Sicherheitsgruppen zu. Weiterführende Informationen zu Sicherheitsgruppen finden Sie auf dieser [Seite](../../administration/using/managing-groups-and-users.md).
+1. Weisen Sie dem Benutzer im Tab **[!UICONTROL Produkte zuweisen]**eine oder mehrere Sicherheitsgruppen zu. Weiterführende Informationen zu Sicherheitsgruppen finden Sie auf dieser[Seite](../../administration/using/managing-groups-and-users.md).
 
    Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
@@ -130,11 +130,11 @@ Der Benutzer wird mit Adobe Campaign Standard synchronisiert, sobald er sich bei
 
 Anschließend können Sie überprüfen, ob der Benutzer richtig mit Adobe Campaign synchronisiert wurde:
 
-1. Wählen Sie dazu im erweiterten Menü **[!UICONTROL Administration &gt; Benutzer &amp; Sicherheit &gt; Benutzer]** den zuvor von Ihnen erstellten Benutzer aus.
+1. Wählen Sie dazu im erweiterten Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]**den zuvor von Ihnen erstellten Benutzer aus.
 
-1. Aktualisieren Sie bei Bedarf die Felder **[!UICONTROL Mobil]**, **[!UICONTROL Zeitzone]** oder **[!UICONTROL Regionale Parameter]**.
+1. Update the **[!UICONTROL Mobile]**,**[!UICONTROL  Time zone]** or **[!UICONTROL Regional settings]**if needed.
 
-1. Überprüfen Sie die Sicherheitsgruppe des Benutzers. Hier können Sie sehen, dass dem Benutzer die Sicherheitsgruppe **[!UICONTROL Administrator]** zugewiesen wurde.
+1. Überprüfen Sie die Sicherheitsgruppe des Benutzers. Hier können Sie sehen, dass dem Benutzer die Sicherheitsgruppe **[!UICONTROL Administrator]**zugewiesen wurde.
 
    >[!NHinweis]
    >
@@ -144,8 +144,8 @@ Anschließend können Sie überprüfen, ob der Benutzer richtig mit Adobe Campai
 
 1. Wenn Sie diesen Benutzer deaktivieren möchten, aktivieren Sie die Option **[!UICONTROL Konto deaktiviert]**.
 
-1. Wählen Sie im Feld **[!UICONTROL Zulässige Zugriffszone]** die Option, über die Ihr Benutzer eine Verbindung zu dieser Instanz herstellen kann, z. B. internes Netzwerk oder VPN.
+1. Wählen Sie im Feld **[!UICONTROL Zulässige Zugriffszone]**die Option, über die Ihr Benutzer eine Verbindung zu dieser Instanz herstellen kann, z. B. internes Netzwerk oder VPN.
 
-1. Wählen Sie **[!UICONTROL Speichern aus]**.
+1. Wählen Sie **[!UICONTROL Speichern]**aus.
 
 Ihr Benutzer kann jetzt Adobe Campaign Standard verwenden.
