@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
 
 ---
 
@@ -31,7 +31,7 @@ Die Dokumentation zum Konfigurieren des externen S3-Kontos wurde aktualisiert. [
 
 Der Abschnitt zum Entwerfen von E-Mail-Inhalten wurde neu organisiert. [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Der Leitfaden "Erste Schritte mit der Lieferbarkeit"wurde in die Kerndokumentation integriert und aktualisiert. [mehr dazu](../../sending/using/about-deliverability.md)
+Der Leitfaden &quot;Erste Schritte mit der Lieferbarkeit&quot;wurde in die Kerndokumentation integriert und aktualisiert. [mehr dazu](../../sending/using/about-deliverability.md)
 
 Die Anleitung zu den ersten Schritten zum Exportieren/Importieren benutzerdefinierter Ressourcen wurde in die Hauptdokumentation integriert. [mehr dazu](../../automating/using/exporting-importing-custom-resources.md)
 
@@ -91,9 +91,9 @@ Das Kapitel „Landingpages“ wurde umstrukturiert. Es wurde außerdem um einen
 
 ## Aktualisierungen der Dokumentation – September 2019 {#doc-updates-september-2019}
 
-Im Abschnitt "Push-Benachrichtigungen" wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Profilinformationen erstellen und aktualisieren, die auf den Abonnementdaten für Mobile Apps basieren – [mehr dazu](../../channels/using/updating-profile-with-mobile-app-data.md)
+Im Abschnitt &quot;Push-Benachrichtigungen&quot; wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Profilinformationen erstellen und aktualisieren, die auf den Abonnementdaten für Mobile Apps basieren – [mehr dazu](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-Ein neues Beispiel wurde hinzugefügt, das zeigt, wie eine E-Mail mit zusätzlichen Daten gesendet werden kann, die aus der Aktivität "Datei laden" abgerufen wurden – [mehr dazu](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+Ein neues Beispiel wurde hinzugefügt, das zeigt, wie eine E-Mail mit zusätzlichen Daten gesendet werden kann, die aus der Aktivität &quot;Datei laden&quot; abgerufen wurden – [mehr dazu](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
 Ein neuer Abschnitt zur Verwendung von Fallen wurde hinzugefügt – [mehr dazu](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
 
@@ -111,7 +111,7 @@ Ein neuer Hilfeartikel wurde hinzugefügt, der Informationen über untergeordnet
 
 Der Abschnitt, in dem Inhaltsvorlagen und Fragmente beschrieben werden, wurde aktualisiert – [mehr dazu](../../designing/using/using-reusable-content.md#content-templates)
 
-Ein neuer Abschnitt zum Speichern von E-Mail-Inhalt als Vorlage in E-Mail-Designer wurde hinzugefügt – [mehr dazu](../../start/using/about-templates.md#saving-content-as-template)
+Ein neuer Abschnitt zum Speichern von E-Mail-Inhalt als Vorlage in E-Mail-Designer wurde hinzugefügt – [mehr dazu](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## Version 19.3 - Juli 2019 {#release-19-3---july-2019}
 
@@ -129,7 +129,7 @@ Zur Implementierung und Nutzung des Microsoft Dynamics 365-Connectors wurden neu
 
 Im Abschnitt [Workflow mit Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md) wurde ein Hinweis zur Versandvorbereitung und zum Aggregat-Zeitraum hinzugefügt.
 
-Außerdem wurde der Abschnitt mit Informationen darüber ergänzt, wie der Titel eines Versands mit Ereignisvariablen personalisiert werden kann, die in der Aktivität "Externes Signal" des Workflows deklariert wurden – [mehr dazu](../../automating/using/external-signal.md)
+Außerdem wurde der Abschnitt mit Informationen darüber ergänzt, wie der Titel eines Versands mit Ereignisvariablen personalisiert werden kann, die in der Aktivität &quot;Externes Signal&quot; des Workflows deklariert wurden – [mehr dazu](../../automating/using/external-signal.md)
 
 Ein neuer Abschnitt wurde hinzugefügt, in dem erläutert wird, wie ein Benutzer in Adobe Campaign Standard erstellt werden kann – [mehr dazu](../../administration/using/users-management.md)
 
@@ -173,13 +173,13 @@ Control Panel – [mehr dazu](https://helpx.adobe.com/campaign/kb/control-panel.
 
 Lokale Benachrichtigungen – [mehr dazu](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-Verbesserung bei Workflows – Hinzufügen einer Payload zur Aktivität "Externes Signal" – [mehr dazu](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Verbesserung bei Workflows – Hinzufügen einer Payload zur Aktivität &quot;Externes Signal&quot; – [mehr dazu](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 Verbesserung bei Landingpages – Google reCAPTCHA – [mehr dazu](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version  {#other-documentation-updates-coming-with-the-release}
 
-Der Artikel "Adobe Campaign und Delegation des Domain-Namens" wurde aktualisiert – [mehr dazu](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
+Der Artikel &quot;Adobe Campaign und Delegation des Domain-Namens&quot; wurde aktualisiert – [mehr dazu](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
 Ein neuer Artikel zur Releaseplanung wurde veröffentlicht, in der bekannt gegeben wird, wann die nächste Version verfügbar ist – [mehr dazu](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
@@ -309,7 +309,7 @@ Die Dokumentation zum [In-App Messaging](../../channels/using/about-in-app-messa
 
 Informationen zu den unterschiedlichen Arten von Audiences in Adobe Campaign wurden hinzugefügt – [mehr dazu](../../audiences/using/about-audiences.md)
 
-Das Kapitel "Benutzer &amp; Sicherheit" wurde aktualisiert, da die Verwendung geografischer Einheiten eingestellt wurde – [mehr dazu](../../administration/using/organizational-units.md)
+Das Kapitel &quot;Benutzer &amp; Sicherheit&quot; wurde aktualisiert, da die Verwendung geografischer Einheiten eingestellt wurde – [mehr dazu](../../administration/using/organizational-units.md)
 
 Informationen zur neuen Option der Datenladeaktivität wurden hinzugefügt. Damit kann eine Anschlussvorgangsetappe auf die Datei angewendet werden, die zurückgewiesene Datensätze enthält (z. B. Komprimierung im ZIP-Format) – [mehr dazu](../../automating/using/load-file.md)
 
@@ -365,7 +365,7 @@ Hier erfahren Sie, wie Sie mit Creative SDK die Bearbeitung externer Inhalte erm
 
 In diesem [Abschnitt](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer) ist jetzt eine Liste der HTML-Attribute zur Gewährleistung der Kompatibilität mit Creative Designer verfügbar.
 
-Informationen zur Standardsprache bei einer mehrsprachigen Vorlage wurden hinzugefügt – [mehr dazu](../../start/using/creating-a-multilingual-template.md)
+Informationen zur Standardsprache bei einer mehrsprachigen Vorlage wurden hinzugefügt – [mehr dazu](../../channels/using/multilingual-messages-template.md)
 
 Ab Version 18.7 enthält das Handbuch für Benutzer &amp; Sicherheit nicht mehr die eingestellte Funktion der geografische Einheit für neue Campaign-Standard-Instanzen und für bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden – [mehr dazu](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -381,9 +381,9 @@ Die Dokumentation zur Integration von Triggers mit Campaign wurde aktualisiert u
 
 Eine schrittweise Anleitung zur Erstellung einer benutzerdefinierten Profildimension wurde hinzugefügt – [mehr dazu](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-Die Dokumentation "Campaign und Audience Manager oder People Core Service verwenden" wurde umstrukturiert – [mehr dazu](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+Die Dokumentation &quot;Campaign und Audience Manager oder People Core Service verwenden&quot; wurde umstrukturiert – [mehr dazu](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Die Definition der Benutzerrolle "Sendungen vorbereiten" wurde aktualisiert – [mehr dazu](../../administration/using/list-of-roles.md)
+Die Definition der Benutzerrolle &quot;Sendungen vorbereiten&quot; wurde aktualisiert – [mehr dazu](../../administration/using/list-of-roles.md)
 
 Im Abfrageaktivität-Abschnitt wurde ein Beispiel hinzugefügt, in dem erläutert wird, wie Profile ausgewählt werden können, die einen bestimmten Link in einem Versand angeklickt haben – [mehr dazu](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
@@ -405,7 +405,7 @@ Dynamische Berichte mit benutzerdefinierten Profildaten – [mehr dazu](../../ch
 
 Die Liste von in Analytics vorhandenen Campaign-Metriken wurde hinzugefügt – [mehr dazu](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-Informationen zum Lizenz-Menüeintrag im Menü "Administration" wurden hinzugefügt – [mehr dazu](../../administration/using/licenses.md)
+Informationen zum Lizenz-Menüeintrag im Menü &quot;Administration&quot; wurden hinzugefügt – [mehr dazu](../../administration/using/licenses.md)
 
 Informationen wurden hinzugefügt, wie benutzerdefinierte Felder in einer Push-Benachrichtigung verwendet werden können – [mehr dazu](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
@@ -415,7 +415,7 @@ Informationen zu Trackinglog-Typen wurden hinzugefügt – [mehr dazu](../../sen
 
 Der Abschnitt zur Abfrageaktivität wurde mit Abfragebeispielen ergänzt – [mehr dazu](../../automating/using/query.md#query-samples)
 
-Der Abschnitt zum Blacklisting wurde in "Funktionsweise des Opt-in- und Opt-out-Verfahrens" umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Der Abschnitt zum Blacklisting wurde in &quot;Funktionsweise des Opt-in- und Opt-out-Verfahrens&quot; umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Best Practices für die Verwendung der von Adobe gehosteten SFTP-Server – [mehr dazu](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -473,15 +473,15 @@ Zusätzliche Informationen zur Vorbereitung einer Nachricht in einem Versand –
 
 Die Versionshinweise wurden auf zwei Seiten neu angeordnet, sodass Sie einen besseren Überblick über alle Versionen erhalten: [aktuelle Versionshinweise](../../rn/using/release-notes.md) und [frühere Versionshinweise](../../rn/using/release-notes-2015-2016.md)
 
-Der Abschnitt über **[!UICONTROL die Verwendung von Typologien]** wurde übersichtlicher gestaltet – [mehr dazu](../../administration/using/about-typology-rules.md)
+Der Abschnitt über **[!UICONTROL die Verwendung von Typologien]**wurde übersichtlicher gestaltet –[mehr dazu](../../administration/using/about-typology-rules.md)
 
-Eine neue Option ist jetzt verfügbar, mit der die Leistung gesteigert werden kann, wenn in einer **[!UICONTROL Abfrage]** zahlreiche Zusatzdaten definiert werden – [mehr dazu](../../automating/using/query.md)
+Eine neue Option ist jetzt verfügbar, mit der die Leistung gesteigert werden kann, wenn in einer **[!UICONTROL Abfrage]**zahlreiche Zusatzdaten definiert werden –[mehr dazu](../../automating/using/query.md)
 
 Das Beispiel für den Profilimport wurde aktualisiert und enthält jetzt Tipps, wie Sie Ihre Profile für den Empfang von Briefpost konfigurieren können – [mehr dazu](../../automating/using/importing-data.md)
 
-In Workflows ist eine neue Aktivität verfügbar: die Aktivität **[!UICONTROL Anreicherung]**. – [mehr dazu](../../automating/using/enrichment.md)
+In Workflows ist eine neue Aktivität verfügbar: die Aktivität **[!UICONTROL Anreicherung]**. –[mehr dazu](../../automating/using/enrichment.md)
 
-Die Aktivität **[!UICONTROL An-/Abmeldedienst]** wurde aktualisiert und unterstützt jetzt mehr Anwendungsfälle, einschließlich der Verwendung einer einzigen Datei zur Aktualisierung von Anmeldungen bei mehreren Diensten – [mehr dazu](../../automating/using/subscription-services.md)
+Die Aktivität **[!UICONTROL An-/Abmeldedienst]**wurde aktualisiert und unterstützt jetzt mehr Anwendungsfälle, einschließlich der Verwendung einer einzigen Datei zur Aktualisierung von Anmeldungen bei mehreren Diensten –[mehr dazu](../../automating/using/subscription-services.md)
 
 Eine schrittweise Anleitung zur Versandvorbereitung wurde hinzugefügt – [mehr dazu](../../sending/using/preparing-the-send.md)
 
@@ -491,7 +491,7 @@ Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion
 
 Eine Anleitung wurde hinzugefügt, in der beschrieben wird, wie Nachrichten entsprechend der Zeitzone der Benutzer in einem wiederkehrenden Workflow gesendet werden können – [mehr dazu](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]** wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt – [mehr dazu](../../channels/using/customizing-a-push-notification.md)
+Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]**wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt –[mehr dazu](../../channels/using/customizing-a-push-notification.md)
 
 Neuer Abschnitt zur Verwaltung von Blacklists – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
@@ -551,7 +551,7 @@ Zahlreiche Screenshots wurden entsprechend den Änderungen in den Abfrageeditor-
 
 Der Abschnitt [Versandwarnung](../../sending/using/receiving-alerts-when-failures-happen.md) wurde verschoben und neu angeordnet.
 
-Der Abschnitt 'Benutzerdefinierte Ressourcen' wurde besser erklärt, indem das [Definieren von Filtern](../../developing/using/configuring-filter-definition.md) genauer beschrieben wurde.
+Der Abschnitt &#39;Benutzerdefinierte Ressourcen&#39; wurde besser erklärt, indem das [Definieren von Filtern](../../developing/using/configuring-filter-definition.md) genauer beschrieben wurde.
 
 Die [Technote](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) zur Integration von Adobe Experience Cloud Mobile SDK mit einer Mobile App zum Empfang von Push-Benachrichtigungen in Adobe Campaign Standard wurde aktualisiert und ausführlicher gestaltet.
 
@@ -603,9 +603,9 @@ Eine Dokumentation zur ACS-ID wurde hinzugefügt – [mehr dazu](../../developin
 
 Neue Verschlüsselungs- und Hashing-Funktionen sowie Beispiele wurden hinzugefügt – [mehr dazu](../../automating/using/list-of-functions.md)
 
-Aktualisierter Abschnitt zur Workflow-Aktivität "Dateiübertragung" – [mehr dazu](../../automating/using/transfer-file.md)
+Aktualisierter Abschnitt zur Workflow-Aktivität &quot;Dateiübertragung&quot; – [mehr dazu](../../automating/using/transfer-file.md)
 
-Zur Option "Vor dem Nachrichtenversand Bestätigung einholen" in der Workflow-Aktivität "E-Mail-Versand" wurden Informationen hinzugefügt – [mehr dazu](../../automating/using/email-delivery.md)
+Zur Option &quot;Vor dem Nachrichtenversand Bestätigung einholen&quot; in der Workflow-Aktivität &quot;E-Mail-Versand&quot; wurden Informationen hinzugefügt – [mehr dazu](../../automating/using/email-delivery.md)
 
 ## Version 17.7 - Juli 2017  {#release-17-7---july-2017}
 
@@ -649,11 +649,11 @@ E-Mail-BCC – [mehr dazu](../../administration/using/configuring-email-channel.
 
 ### Weitere Dokumentationsaktualisierungen zu dieser Version  {#other-documentation-updates-coming-with-the-release-13}
 
-Das Handbuch "Sendungen" wurde umstrukturiert und in "Kanäle" umbenannt – [mehr dazu](../../channels/using/discovering-communication-channels.md)
+Das Handbuch &quot;Sendungen&quot; wurde umstrukturiert und in &quot;Kanäle&quot; umbenannt – [mehr dazu](../../channels/using/discovering-communication-channels.md)
 
 Zahlreiche Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 
-Eine neue Technote ist verfügbar: "Integrating the Adobe Mobile SDK with your mobile app" – [mehr dazu](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with your mobile app&quot; – [mehr dazu](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Die Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde aktualisiert – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -763,7 +763,7 @@ Erstellen von Push-Benachrichtigungen in einem Workflow – [mehr dazu](../../au
 
 Die Kompatibilitätsmatrix wurde im Integrationshandbuch aktualisiert – [mehr dazu](../../integrating/using/about-campaign-integrations.md)
 
-Neue Rollen wurden im Abschnitt "Benutzer &amp; Sicherheit" hinzugefügt – [mehr dazu](../../administration/using/list-of-roles.md)
+Neue Rollen wurden im Abschnitt &quot;Benutzer &amp; Sicherheit&quot; hinzugefügt – [mehr dazu](../../administration/using/list-of-roles.md)
 
 Vorlagen für Push-Benachrichtigungen – [mehr dazu](../../channels/using/preparing-and-sending-a-push-notification.md)
 
