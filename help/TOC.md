@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
@@ -34,12 +34,8 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
    + Marketingpläne {#marketing-plans}
       + [Programme und Kampagnen](start/using/programs-and-campaigns.md)
       + [Marketingaktivitäten](start/using/marketing-activities.md)
+      + [Vorlagen für Marketingaktivitäten](start/using/marketing-activity-templates.md)
       + [Planung](start/using/timeline.md)
-   + Marketingaktivitäten-Vorlagen {#managing-templates}
-      + [Über Vorlagen](start/using/about-templates.md)
-      + [Neue Vorlage erstellen](start/using/creating-a-new-template.md)
-      + [Mehrsprachige Vorlage erstellen](start/using/creating-a-multilingual-template.md)
-      + [Vorlagen verwenden](start/using/using-a-template.md)
    + Tutorials {#tutorials}
       + [Schrittweise Anleitungen](start/using/step-by-step-guides.md)
       + [Videos](start/using/how-to-videos.md)
