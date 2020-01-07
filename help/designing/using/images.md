@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Bildern in E-Mails
+title: Arbeiten mit Bildern
 description: Erfahren Sie, wie Sie Bilder in E-Mails mit Email Designer verwalten.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -11,13 +11,13 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 
 ---
 
 
-# Bilder {#images}
+# Arbeiten mit Bildern {#images}
 
 ## Bilder einfügen{#inserting-images}
 
@@ -33,12 +33,12 @@ Sie können Bilder mit Adobe Creative SDK ändern, vorausgesetzt dieses ist akti
 
 >[!CAUTION]
 >
->Wenn Sie ein Bild direkt durch Bearbeiten der HTML-Version der E-Mail hinzufügen möchten, dürfen Sie keine **externen Dateien in einem &lt;script&gt;-Tag** der HTML-Seite aufrufen. Der Adobe-Campaign-Server erlaubt keinen Import derartiger Dateien.
+>Wenn Sie ein Bild direkt durch Bearbeiten der HTML-Version der E-Mail hinzufügen möchten, dürfen Sie keine **externen Dateien in einem &lt;script>-Tag** der HTML-Seite aufrufen. Der Adobe-Campaign-Server erlaubt keinen Import derartiger Dateien.
 
 ### Bilder in eine E-Mail einfügen {#inserting-images-in-an-email}
 
 1. Fügen Sie eine Strukturkomponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Fügen Sie innerhalb dieser Strukturkomponente eine Inhaltskomponente des Typs **[!UICONTROL Bild]** hinzu.
+1. Fügen Sie innerhalb dieser Strukturkomponente eine Inhaltskomponente des Typs **[!UICONTROL Bild]**hinzu.
 
    ![](assets/des_insert_images_1.png)
 
