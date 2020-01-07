@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Links
+title: Hinzufügen von Links
 description: Erfahren Sie, wie Sie Links mit Email Designer verwalten.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
 
 ---
 
 
-# Relationen {#links}
+# Hinzufügen von Links {#links}
 
 ## Link einfügen {#inserting-a-link}
 
@@ -79,7 +79,7 @@ Bei der Bearbeitung einer E-Mail mit [Email Designer](../../designing/using/desi
 
 Adobe Campaign bietet Ihnen die Möglichkeit, das Verhalten der Empfänger zu verfolgen, wenn sie eine in einer E-Mail enthaltene URL anklicken. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../sending/using/tracking-messages.md#about-tracking).
 
-Im Symbol **[!UICONTROL Links]** in der Symbolleiste wird automatisch die Liste aller getrackten URLs Ihres Inhalts angezeigt.
+Im Symbol **[!UICONTROL Links]**in der Symbolleiste wird automatisch die Liste aller getrackten URLs Ihres Inhalts angezeigt.
 
 ![](assets/des_links.png)
 
@@ -106,11 +106,11 @@ Sie können das Tracking für jede URL aktivieren oder deaktivieren.
 >
 >Standardmäßig werden in Adobe Campaign alle Inhalts-URLs getrackt außer die **URL der Mirrorseite** und der **Abmelde-Link**.
 
-Sie haben die Möglichkeit, Ihre URLs mithilfe des Felds **[!UICONTROL Kategorie]** je nach den in der Nachricht verwendeten URLs zu gruppieren. Diese Kategorien können in Berichten angezeigt werden, z. B. in [URLs und Clickstreams](../../reporting/using/urls-and-click-streams.md).
+Sie haben die Möglichkeit, Ihre URLs mithilfe des Felds **[!UICONTROL Kategorie]**je nach den in der Nachricht verwendeten URLs zu gruppieren. Diese Kategorien können in Berichten angezeigt werden, z. B. in[URLs und Clickstreams](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Wenn Sie einen Bericht erstellen, wählen Sie im Tab **[!UICONTROL Komponenten]** die Option **[!UICONTROL Dimension]** aus. Scrollen Sie dann die Liste hinunter, um auf die Tracking-Komponenten zuzugreifen. So können Sie z. B. **[!UICONTROL Kategorie des URL-Trackings]** in den Arbeitsbereich ziehen, um die Ergebnisse zur Tracking-Kategorie jeder angeklickten URL anzuzeigen.
+Wenn Sie einen Bericht erstellen, wählen Sie im Tab **[!UICONTROL Komponenten]**die Option**[!UICONTROL  Dimension]** aus. Scrollen Sie dann die Liste hinunter, um auf die Tracking-Komponenten zuzugreifen. So können Sie z. B. **[!UICONTROL Kategorie des URL-Trackings]**in den Arbeitsbereich ziehen, um die Ergebnisse zur Tracking-Kategorie jeder angeklickten URL anzuzeigen.
 
 ![](assets/des_link_tracking_report.png)
 
