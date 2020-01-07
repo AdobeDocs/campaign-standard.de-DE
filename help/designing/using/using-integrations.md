@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -130,7 +130,7 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
    <td> Dynamische Inhalte nicht unterstützt<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Zielgruppe</strong><br /> </td> 
+   <td> <strong>Audience</strong><br /> </td> 
    <td> Marketer, die Flexibilität schätzen und HTML-Komponenten in Kombination mit Drag &amp; Drop-Funktionen verwenden möchten<br /> </td> 
    <td> Marketer, die bereits Experience Manager verwenden und Standard-E-Mail-Vorlagen mit wenig Personalisierung verwenden möchten<br /> </td> 
    <td> Entwickler, die Code für E-Mail-Inhalte selbst schreiben möchten und eine direkte Integration mit Adobe Campaign wünschen<br /> </td> 
