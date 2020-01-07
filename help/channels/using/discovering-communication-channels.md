@@ -11,8 +11,8 @@ topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -41,5 +41,4 @@ Im Fall einer E-Mail-Vorlage kann der funktionale Administrator, der für die Ko
 
 **Verwandte Themen**:
 
-* [Zustellbarkeit optimieren](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_Deliverability.html)
-
+* [Zustellbarkeit optimieren](../../sending/using/about-deliverability.md)
