@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Stilen
+title: E-Mail-Stile verwalten
 description: Erfahren Sie, wie Sie E-Mail-Stile in Email Designer verwalten.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,15 +12,15 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ddbf8ea62c4f8bba4ea53dc1daa7064704c97db2
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
 
-# Verwalten von Stilen {#managing-styles}
+# E-Mail-Stile verwalten {#managing-styles}
 
 
-In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]** angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
+In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]**angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
 
 ## Element auswählen {#selecting-an-element}
 
@@ -53,13 +53,13 @@ In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden
 
    Sie können beispielsweise Hintergründe einfügen, Größen ändern, die horizontale oder senkrechte Ausrichtung ändern, Farben verwalten sowie [Abstände und Spannen](#selecting-an-element) hinzufügen.
 
-   Verwenden Sie dazu die im Bereich **[!UICONTROL Einstellungen]** angezeigten Optionen oder [fügen Sie Inline-Styling-Attribute hinzu](#adding-inline-styling-attributes).
+   Verwenden Sie dazu die im Bereich **[!UICONTROL Einstellungen]**angezeigten Optionen oder[fügen Sie Inline-Styling-Attribute hinzu](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
 1. Speichern Sie Ihren Inhalt.
 
-## Über Abstände und Spannen {#about-padding-and-margin}
+## Anpassen von Umrandung und Rand {#about-padding-and-margin}
 
 In der Benutzeroberfläche von Email Designer können Sie rasch Abstände und Spannen anpassen.
 
@@ -70,7 +70,7 @@ In der Benutzeroberfläche von Email Designer können Sie rasch Abstände und Sp
 Beispiel:
 
 * Verwenden Sie Abstände, um Ränder links und recshts von einem Bild einzurichten.
-* Verwenden Sie Abstände oben und unten, um einen Abstand zu einem **[!UICONTROL Text]** oder einen **[!UICONTROL Divider]** zu einer Komponente hinzuzufügen.
+* Verwenden Sie Abstände oben und unten, um einen Abstand zu einem **[!UICONTROL Text]**oder einen**[!UICONTROL  Divider]** zu einer Komponente hinzuzufügen.
 * Um in einem Strukturelement Rahmen zwischen Spalten einzurichten, definieren Sie für jede Spalte einen Abstand.
 
 **[!UICONTROL Spanne]**: Mit dieser Einstellung verwalten Sie den Raum zwischen dem Rahmen eines Elements und dem nächsten Element.
@@ -79,9 +79,9 @@ Beispiel:
 
 >[!NOTE]
 >
->Je nach Ihrer Auswahl (Strukturkomponente, Spalte oder Inhaltskomponente) ist das Ergebnis anders. Adobe empfiehlt die Einrichtung der Parameter **[!UICONTROL Abstand]** und **[!UICONTROL Rand]** auf Spaltenebene.
+>Je nach Ihrer Auswahl (Strukturkomponente, Spalte oder Inhaltskomponente) ist das Ergebnis anders. Adobe empfiehlt die Einrichtung der Parameter **[!UICONTROL Abstand]**und**[!UICONTROL  Rand]** auf Spaltenebene.
 
-Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]** das Schlosssymbol aus, um die Synchronisation zwischen den Parametern oben und unten bzw. rechts und links aufzuheben. Dadurch können Sie jeden Parameter einzeln anpassen.
+Wählen Sie für sowohl **[!UICONTROL Abstand]**als auch**[!UICONTROL  Spanne]**das Schlosssymbol aus, um die Synchronisation zwischen den Parametern oben und unten bzw. rechts und links aufzuheben. Dadurch können Sie jeden Parameter einzeln anpassen.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -91,7 +91,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 
    ![](assets/des_text_alignment.png)
 
-* **Horizontale Ausrichtung** kann auf Text, Bilder und Schaltflächen angewendet werden, aktuell aber nicht auf die Komponenten **[!UICONTROL Divider]** und **[!UICONTROL Sozial]**.
+* **Horizontale Ausrichtung** kann auf Text, Bilder und Schaltflächen angewendet werden, aktuell aber nicht auf die Komponenten **[!UICONTROL Divider]**und**[!UICONTROL  Sozial]**.
 
    ![](assets/des_horizontal_alignment.png)
 
@@ -109,7 +109,7 @@ Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folge
 
 Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
-* Legen Sie eine **[!UICONTROL Hintergrundfarbe]** für die gesamte E-Mail fest. Wählen Sie die Einstellungen für den Hauptteil im Navigationsbaum aus, auf den Sie über die linke Palette zugreifen können.
+* Legen Sie eine **[!UICONTROL Hintergrundfarbe]**für die gesamte E-Mail fest. Wählen Sie die Einstellungen für den Hauptteil im Navigationsbaum aus, auf den Sie über die linke Palette zugreifen können.
 
    ![](assets/des_background_body.png)
 
@@ -123,7 +123,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
    Wählen Sie aber keine Viewport-Hintergrundfarbe aus, da diese die Struktur-Hintergrundfarben verdecken könnte.
 
-* Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest.
+* Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]**fest.
 
    ![](assets/des_background_image.png)
 
@@ -146,19 +146,19 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente bestehend aus drei Spalten anpassen. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder unter Verwendung des Strukturbaums in der linken **Palette** aus.
-1. Wählen Sie in der **dedizierten Symbolleiste** mit der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
+1. Wählen Sie in der **dedizierten Symbolleiste** mit der Option **[!UICONTROL Spalte auswählen]**die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
 
    ![](assets/des_selecting_column.png)
 
-   Die bearbeitbaren Parameter für diese Spalte werden im Bereich **[!UICONTROL Einstellungen]** auf der rechten Seite angezeigt.
+   Die bearbeitbaren Parameter für diese Spalte werden im Bereich **[!UICONTROL Einstellungen]**auf der rechten Seite angezeigt.
 
-1. Wählen Sie unter **[!UICONTROL Senkrecht ausrichten]** die Option **[!UICONTROL Nach oben]** aus.
+1. Wählen Sie unter **[!UICONTROL Senkrecht ausrichten]**die Option**[!UICONTROL  Nach oben]** aus.
 
    ![](assets/des_vertical_alignment.png)
 
    Die Inhaltskomponente wird am oberen Rand der Spalte angezeigt.
 
-1. Definieren Sie unter **[!UICONTROL Abstand]** den Abstand der Spalte vom oberen Rand. Wählen Sie das Schlosssymbol aus, um die Synchronisation mit dem Abstand vom unteren Rand aufzuheben.
+1. Definieren Sie unter **[!UICONTROL Abstand]**den Abstand der Spalte vom oberen Rand. Wählen Sie das Schlosssymbol aus, um die Synchronisation mit dem Abstand vom unteren Rand aufzuheben.
 
    Definieren Sie den linken und rechten Abstand für diese Spalte.
 
@@ -180,7 +180,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Wählen Sie ein **[!UICONTROL Ziel]** aus, um festzulegen, in welchem Browserkontext Ihr Link geöffnet wird.
+1. Wählen Sie ein **[!UICONTROL Ziel]**aus, um festzulegen, in welchem Browserkontext Ihr Link geöffnet wird.
 
    ![](assets/stylelinks-target.png)
 
@@ -206,73 +206,3 @@ Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen un
 1. Ändern Sie die Werte der vorhandenen Attribute oder fügen Sie mit den Schaltflächen **+** neue hinzu. Sie können alle Attribute und Werte hinzufügen, die CSS-kompatibel sind.
 
 Der Stil wird auf das ausgewählte Element angewendet. Wenn für die untergeordneten Elemente keine speziellen Stilattribute definiert sind, wird der Stil des übergeordneten Elements verwendet.
-
-## Zur Mobile-Ansicht wechseln {#switching-to-mobile-view}
-
-Sie können das responsive Design einer E-Mail anpassen, indem Sie alle Stiloptionen für die Darstellung auf Mobilgeräten einzeln bearbeiten. So können Sie beispielsweise für die mobile Version Ihrer E-Mail die Spannen und Abstände verändern sowie kleinere oder größere Schriftgrade verwenden, die Schaltflächen ändern oder unterschiedliche Hintergrundfarben auswählen.
-
-Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Die Stileinstellungen des E-Mail-Designers werden zuvor auf dieser Seite angezeigt.
-
-1. Erstellen Sie eine E-Mail und bearbeiten Sie den Inhalt. Weiterführende Informationen dazu finden Sie im Abschnitt [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Öffnen Sie mit der Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]** die Mobile-Ansicht.
-
-   ![](assets/email_designer_mobile_view_switch.png)
-
-   Die Mobile-Version der E-Mail wird angezeigt. Sie enthält alle in der Desktop-Ansicht definierten Komponenten und Stile.
-
-1. Sie können alle Stileinstellungen unabhängig voneinander bearbeiten, z. B. Hintergrundfarbe, Ausrichtung, Abstand, Spanne, Schriftart, Textfarbe usw.
-
-   ![](assets/email_designer_mobile_view.png)
-
-1. Änderungen von Stileinstellungen in der Mobile-Ansicht werden nur auf die Mobile-Version angewendet.
-
-   Sie können in der Mobile-Ansicht z. B. die Größe eines Bildes verringern, einen grünen Hintergrund hinzufügen und den Abstand verändern.
-
-   ![](assets/email_designer_mobile_view_change.png)
-
-1. Sie können Komponenten auf Mobilgeräten ausblenden. Wählen Sie dazu **[!UICONTROL Nur auf Desktops zeigen]** in den **[!UICONTROL Anzeigeoptionen]** aus.
-Sie können eine Komponente auch auf Desktopgeräten ausblenden, sodass sie nur auf Mobilgeräten angezeigt wird. Wählen Sie dazu **[!UICONTROL Nur auf Mobilgeräten zeigen]** aus.
-Mit dieser Option haben Sie beispielsweise die Möglichkeit, ein bestimmtes Bild auf Mobilgeräten und ein anderes Bild auf Desktop-Geräten zu zeigen.
-Sie können diese Option sowohl in der Mobilgeräte- als auch der Desktop-Ansicht auswählen.
-
-   ![](assets/email_designer_mobile_hide.png)
-
-1. Wählen Sie nochmals die Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]** aus, um zur Desktop-Ansicht zu wechseln. Die soeben vorgenommenen Stiländerungen sind in dieser Version nicht vorhanden.
-
-   ![](assets/email_designer_mobile_view_desktop_no-change.png)
-
-   >[!NOTE]
-   >
-   >Die einzige Ausnahme sind die Einstellungen für **[!UICONTROL Inline-Stile]**. Inline-Stil-Einstellungen werden auch von der standardmäßigen Desktop-Ansicht übernommen.
-
-1. Andere Änderungen an der Struktur oder am Inhalt der E-Mail, wie zum Beispiel Textänderungen, der Upload eines neuen Bildes, das Hinzufügen einer neuen Komponente etc. werden auch in der Standardansicht angezeigt.
-
-   Wechseln Sie wieder in die Mobile-Ansicht und ändern Sie z. B. Text und ersetzen Sie ein Bild.
-
-   ![](assets/email_designer_mobile_view_change_content.png)
-
-   Wählen Sie nochmals die Schaltfläche **[!UICONTROL Zur Mobile-Ansicht wechseln]** aus, um zur Desktop-Ansicht zu wechseln. Die Änderungen wurden übernommen.
-
-   ![](assets/email_designer_mobile_view_desktop_content-change.png)
-
-1. Wenn Sie in der Mobile-Version einen Stil entfernen, wird der im Desktop-Modus angewendete Stil übernommen.
-
-   Fügen Sie in der Mobile-Ansicht z. B. für eine Schaltfläche eine grüne Hintergrundfarbe ein.
-
-   ![](assets/email_designer_mobile_view_background_mobile.png)
-
-1. Wechseln Sie in die Desktop-Ansicht und wählen Sie für dieselbe Schaltfläche einen grauen Hintergrund.
-
-   ![](assets/email_designer_mobile_view_background_desktop.png)
-
-1. Wechseln Sie nochmals zur Mobile-Ansicht und deaktivieren Sie die Einstellung **[!UICONTROL Hintergrundfarbe]**.
-
-   ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
-
-   Die in der Desktop-Ansicht ausgewählte Hintergrundfarbe wird jetzt angewendet: Die Schaltfläche wird grau (nicht farblos) dargestellt.
-
-   Die einzige Ausnahme ist die Einstellung für die **[!UICONTROL Randfarbe]**. Wenn diese in der Mobile-Ansicht deaktiviert ist, wird kein Rahmen mehr hinzugefügt, selbst wenn in der Desktop-Ansicht eine Randfarbe definiert wird.
-
->[!NOTE]
->
->Die Mobile-Ansicht ist nicht in [Fragmenten](../../designing/using/using-reusable-content.md#about-fragments) verfügbar.
