@@ -12,7 +12,7 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 667496c4a1bfeb78ff51762ffd6983df77cdd9c9
 
 ---
 
@@ -23,11 +23,11 @@ Unsere intuitiven Handbücher bieten Ihnen einen einfachen Einstieg in Adobe Cam
 
 * [Erstellen einer personalisierten E-Mail](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html): zum Erstellen und Senden personalisierter E-Mails an eine Audience.
 * [Exportieren und Importieren eines Packages von benutzerdefinierten Ressourcen](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html): Export und Import eines Packages mit benutzerdefinierten Ressourcen von einer Entwicklungsumgebung in eine Produktionsumgebung.
-* [Erstellen eines kanalübergreifenden Nachrichten-Workflow](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html): zum Erstellen eines Workflows durch die Segmentierung einer Population und den Versand einer E-Mail und einer SMS.
+* [Erstellen eines kanalübergreifenden Nachrichten-Workflow](../../automating/using/workflow-cross-channel-delivery.md): zum Erstellen eines Workflows durch die Segmentierung einer Population und den Versand einer E-Mail und einer SMS.
 * [Erstellen einer E-Mail mit Experience Manager und Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): zum Erstellen eines E-Mail-Inhalts in Adobe Experience Manager und dessen Verwendung in einer E-Mail in Adobe Campaign Standard.
 * [Versand mit Adobe Campaign](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html): enthält Best Practices für den Versand mit Adobe Campaign, von der Erstellung von Nachrichten über die Zielgruppenbestimmung bis zum Senden und Verfolgen von Nachrichten.
 * [Zustellbarkeit optimieren](../../sending/using/about-deliverability.md): Begriffe und Best Practices im Zusammenhang mit der Zustellbarkeit sowie Informationen zu den Werkzeugen zur Versandoptimierung von Adobe Campaign.
-* [Allgemeine Datenschutzverordnung](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): entdecken Sie die Werkzeuge und Funktionen, die Adobe Campaign bereitstellt, sowie Best Practices, mit denen Sie GDPR-konform werden.
+* [Datenschutz-Grundverordnung](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): Hier finden Sie die von Adobe Campaign bereitgestellten Tools und Funktionen sowie Best Practices, die Ihnen helfen, die DSGVO einzuhalten.
 
 Lernen Sie Adobe Campaign besser kennen, indem Sie sich die folgenden Anwendungsbeispiele durchlesen:
 
