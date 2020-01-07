@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -25,13 +25,15 @@ Push-Benachrichtigungen oder In-App-Nachrichten werden in mobilen Anwendungen em
 
 * Wenn Sie ausschließlich Push-Benachrichtigungen senden möchten, können Sie die Integration zwischen Adobe Campaign und Adobe Mobile Service mithilfe von SDK V4 konfigurieren. Siehe [SDK V4 verwenden](#using-sdk-v4).
 
-Nachdem Ihre Mobile Apps in Adobe Campaign mithilfe des Experience Cloud Mobile SDK V4 oder des Experience Platform SDK eingerichtet wurden, folgt die Konfiguration der Mobile Apps durch einen Administrator im Menü [!UICONTROL Administration] &gt; [!UICONTROL Kanäle] &gt; [!UICONTROL Mobile App].
+Nachdem Ihre Mobile Apps in Adobe Campaign mithilfe des Experience Cloud Mobile SDK V4 oder des Experience Platform SDK eingerichtet wurden, folgt die Konfiguration der Mobile Apps durch einen Administrator im Menü [!UICONTROL Administration] > [!UICONTROL Kanäle] > [!UICONTROL Mobile App].
 
 >[!CAUTION]
 >
 >Die Implementierung von Push-Benachrichtigungen und In-App-Nachrichten muss von erfahrenen Benutzern vorgenommen werden. Wenn Sie Hilfe brauchen, kontaktieren Sie bitte Ihren Adobe-Kundenbetreuer oder Professional Services-Partner.
 
 Nach der Einrichtung einer Mobile App können Sie die von ihr erfassten personenbezogenen bzw. PII-Daten abrufen, um Profile aus Ihrer Datenbank zu erstellen oder zu aktualisieren. Weitere Informationen finden Sie unter [Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten](../../channels/using/updating-profile-with-mobile-app-data.md).
+
+Allgemeine Richtlinien für Mobilzustellungen in Adobe Campaign Standard finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## Adobe Experience Platform SDK verwenden {#using-adobe-experience-platform-sdk}
 
@@ -82,11 +84,11 @@ Für den Versand von Push-Benachrichtigungen müssen folgende Voraussetzungen ge
    Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
 
 1. Stellen Sie sicher, dass die Einrichtung erfolgreich abgeschlossen wurde. Starten Sie zu diesem Zweck Ihre Mobile App auf Ihrem Gerät und melden Sie sich an. Aktivieren Sie dabei den Empfang von Benachrichtigungen.
-1. Wählen Sie dann im erweiterten Menü von Adobe Campaign **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Mobile App]**.
+1. Wählen Sie dann im erweiterten Menü von Adobe Campaign **[!UICONTROL Administration]**>**[!UICONTROL  Kanäle]** > **[!UICONTROL Mobile App]**.
 1. Wählen Sie Ihre Mobile App aus der Liste aus, um ihre Eigenschaften anzuzeigen. Ihre Abonnementinformationen werden unter der Liste der Abonnenten aufgeführt.
 
    ![](assets/push_notif_mobile_app.png)
 
-1. Um die Mobile Apps zu prüfen, für die sich ein Profil angemeldet hat, wählen Sie im Menü **[!UICONTROL Profile &amp; Audiences &gt; Profile]** ein Profil aus und verwenden Sie rechts die Schaltfläche **[!UICONTROL Profileigenschaften bearbeiten]**. Die Mobile Apps werden im Tab **[!UICONTROL Mobile-App-Anmeldungen]** aufgeführt.
+1. Um die Mobile Apps zu prüfen, für die sich ein Profil angemeldet hat, wählen Sie im Menü **[!UICONTROL Profile &amp; Audiences > Profile]**ein Profil aus und verwenden Sie rechts die Schaltfläche**[!UICONTROL  Profileigenschaften bearbeiten]**. Die Mobile Apps werden im Tab **[!UICONTROL Mobile-App-Anmeldungen]**aufgeführt.
 
    ![](assets/push_notif_subscriptions.png)
