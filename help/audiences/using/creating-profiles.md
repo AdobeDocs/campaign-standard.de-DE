@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
 
 ---
 
@@ -23,7 +23,7 @@ In Adobe Campaign dienen Profile standardmäßig der Bestimmung der Hauptzielgru
 
 Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 
-* Import einer Profilliste von einer Datei über einen [Workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* Import einer Profilliste von einer Datei über einen [Workflow](../../automating/using/importing-data.md#example--import-workflow-template)
 * Datenerhebung online über [Landingpages](../../channels/using/getting-started-with-landing-pages.md)
 * Im Bulk-Modus über die [REST-API](../../api/using/about-campaign-standard-apis.md)
 * Synchronisieren von Profilen in [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
@@ -44,12 +44,12 @@ Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzerobe
    ![](assets/profile_creation1.png)
 
    * Die Kontaktinformationen, darunter Vorname, Nachname, Geschlecht, Geburtsdatum, Foto oder bevorzugte Sprache (für [mehrsprachige E-Mails](../../channels/using/creating-a-multilingual-email.md)), ermöglichen eine stärkere Personalisierung von Nachrichten.
-   * Die Angabe zur **[!UICONTROL Zeitzone]** wird verwendet, um den Versand auf die Zeitzone des Profils abzustimmen. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * In der Kategorie **[!UICONTROL Kanäle]** sind die E-Mail-Adresse, Mobiltelefonnummer und Opt-out-Informationen aufgeführt. Hierüber können Sie feststellen, über welche Kanäle Sie das Profil ansprechen können.
-   * Die Informationen in der Kategorie **[!UICONTROL Nicht mehr kontaktieren]** werden aktualisiert, sobald sich das Profil von einem Kanal abmeldet.
-   * In der Kategorie **[!UICONTROL Adresse]** wird die Anschrift festgehalten. Diese muss ausgefüllt und die Option **[!UICONTROL Anschrift angegeben]** aktiviert sein, wenn [Briefpost](../../channels/using/about-direct-mail.md) an dieses Profil versendet werden soll. Ist die Option **[!UICONTROL Anschrift angegeben]** nicht aktiviert, wird dieses Profil vom Briefpostversand ausgeschlossen.
-   * In der Kategorie **[!UICONTROL Zugriffsberechtigung]** sind die Organisationseinheiten des Profils festgehalten (zur [Verwaltung von Berechtigungen](../../administration/using/about-access-management.md)). Siehe auch [Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
-   * In der Kategorie **[!UICONTROL Rückverfolgung]** werden automatisch Informationen zu dem Benutzer aktualisiert, der das Profil erstellt oder geändert hat.
+   * Die Angabe zur **[!UICONTROL Zeitzone]**wird verwendet, um den Versand auf die Zeitzone des Profils abzustimmen. Weiterführende Informationen hierzu finden Sie in diesem[Abschnitt](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * In der Kategorie **[!UICONTROL Kanäle]**sind die E-Mail-Adresse, Mobiltelefonnummer und Opt-out-Informationen aufgeführt. Hierüber können Sie feststellen, über welche Kanäle Sie das Profil ansprechen können.
+   * Die Informationen in der Kategorie **[!UICONTROL Nicht mehr kontaktieren]**werden aktualisiert, sobald sich das Profil von einem Kanal abmeldet.
+   * In der Kategorie **[!UICONTROL Adresse]**wird die Anschrift festgehalten. Diese muss ausgefüllt und die Option**[!UICONTROL  Anschrift angegeben]** aktiviert sein, wenn [Briefpost](../../channels/using/about-direct-mail.md) an dieses Profil versendet werden soll. Ist die Option **[!UICONTROL Anschrift angegeben]**nicht aktiviert, wird dieses Profil vom Briefpostversand ausgeschlossen.
+   * In der Kategorie **[!UICONTROL Zugriffsberechtigung]**sind die Organisationseinheiten des Profils festgehalten (zur[Verwaltung von Berechtigungen](../../administration/using/about-access-management.md)). Siehe auch[Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
+   * In der Kategorie **[!UICONTROL Rückverfolgung]**werden automatisch Informationen zu dem Benutzer aktualisiert, der das Profil erstellt oder geändert hat.
 
 1. Speichern Sie das Profil mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
 
@@ -63,10 +63,9 @@ Profile können nach Organisationseinheiten partitioniert werden. Informationen 
 
 >[!NOTE]
 >
->Das Feld "Bevorzugte Sprache" wird verwendet, um beim Versand mehrsprachiger Nachrichten die Sprache auszuwählen. Weiterführende Informationen zu mehrsprachigen Nachrichten [finden Sie auf dieser Seite](../../channels/using/creating-a-multilingual-email.md).
+>Das Feld &quot;Bevorzugte Sprache&quot; wird verwendet, um beim Versand mehrsprachiger Nachrichten die Sprache auszuwählen. Weiterführende Informationen zu mehrsprachigen Nachrichten [finden Sie auf dieser Seite](../../channels/using/creating-a-multilingual-email.md).
 
 **Verwandte Themen:**
 
 * [Über Landingpages](../../channels/using/getting-started-with-landing-pages.md)
-* [Profilimport](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-
+* [Profilimport](https://video.tv.adobe.com/v/24993?captions=ger) Video
