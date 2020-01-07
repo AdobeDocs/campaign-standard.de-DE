@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -15,17 +15,13 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ## Neue Funktionen
 
-* **[Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
+* **[Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
 
-* **[Best Practices im Versand](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
-Erfahren Sie mehr über Best Practices bei der Erstellung und beim Versand von Nachrichten.
+* **[Best Practices im Versand](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Erfahren Sie mehr über Best Practices bei der Erstellung und beim Versand von Nachrichten.
 
-* **[E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-Lesen Sie die neu strukturierte Dokumentation zum E-Mail-Designer.
+* **[E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Lesen Sie die neu strukturierte Dokumentation zum E-Mail-Designer.
 
-* **[Landingpages](channels/using/getting-started-with-landing-pages.md)**<br/>
-Weitere Informationen zum Einrichten einer Landingpage.
+* **[Campaign Standard Mobile Handbuch](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Erfahren Sie mehr über die allgemeinen Richtlinien für Mobillieferungen.
 
 [Klicken Sie hier für weitere Updates.](rn/using/documentation-updates.md)
 
