@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -36,7 +36,7 @@ In diesen [Videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-desig
 * Weitere Informationen zum Erstellen von Inhalten:
    * Wenn Sie E-Mails von Grund auf neu erstellen möchten, lesen Sie [Erstellen neuer E-Mails](../../designing/using/designing-from-scratch.md).
    * Wenn Sie vorhandene Inhalte verwenden möchten, lesen Sie [Erstellen aus vorhandenen Inhalten](../../designing/using/using-existing-content.md).
-   * Informationen zum Verwenden von Integrationen finden Sie unter E-Mail-Design [mit mehreren Lösungen](../../designing/using/using-integrations.md).
+   * Informationen zum Verwenden von Creative Cloud-Integrationen finden Sie unter E-Mail-Entwurf für [mehrere Lösungen](../../designing/using/using-integrations.md).
 * Wenn Sie Ihre E-Mails personalisieren möchten, lesen Sie [Personalisierung](../../designing/using/personalization.md).
 
 Zur Erstellung Ihrer E-Mails können Sie auch vordefinierte Vorlagen wählen oder vorhandene Inhalte aus anderen Quellen laden. Siehe [Auswahl vorhandener Inhalte](../../designing/using/using-existing-content.md#selecting-an-existing-content).
@@ -69,27 +69,27 @@ In der **dedizierten Symbolleiste** der Editor-Oberfläche sind je nach markiert
 
 ### Startseite von Email Designer {#email-designer-home-page}
 
-Bei der [Erstellung einer E-Mail](../../channels/using/creating-an-email.md) wird bei der Auswahl des E-Mail-Inhalts automatisch die Startseite von **[!UICONTROL Email Designer]** angezeigt.
+Bei der [Erstellung einer E-Mail](../../channels/using/creating-an-email.md) wird bei der Auswahl des E-Mail-Inhalts automatisch die Startseite von **[!UICONTROL Email Designer]**angezeigt.
 
 ![](assets/email_designer_home_page.png)
 
-Im Tab **[!UICONTROL Eigenschaften]** können Sie die Details der E-Mail bearbeiten, wie z. B. den Titel, die E-Mail-Adresse und den Namen des Absenders sowie den Betreff der E-Mail. Auf diesen Tab können Sie auch durch Auswahl des E-Mail-Titels am oberen Bildschirmrand zugreifen.
+Im Tab **[!UICONTROL Eigenschaften]**können Sie die Details der E-Mail bearbeiten, wie z. B. den Titel, die E-Mail-Adresse und den Namen des Absenders sowie den Betreff der E-Mail. Auf diesen Tab können Sie auch durch Auswahl des E-Mail-Titels am oberen Bildschirmrand zugreifen.
 
 ![](assets/email_designer_home_properties.png)
 
-Im Tab **[!UICONTROL Vorlagen]** können Sie aus nativen HTML-Inhalten oder Ihren bereits erstellten Vorlagen auswählen, was die Erstellung der E-Mail beschleunigt. Siehe auch [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
+Im Tab **[!UICONTROL Vorlagen]**können Sie aus nativen HTML-Inhalten oder Ihren bereits erstellten Vorlagen auswählen, was die Erstellung der E-Mail beschleunigt. Siehe auch[Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-Im Tab **[!UICONTROL Lernen &amp; Unterstützung]** können Sie auf entsprechende Handbücher und Tutorials zugreifen.
+Im Tab **[!UICONTROL Lernen &amp; Unterstützung]**können Sie auf entsprechende Handbücher und Tutorials zugreifen.
 
 ![](assets/email_designer_home_support.png)
 
 Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email Designer auch wählen, wie Sie Ihren Inhalt erstellen möchten:
 
-* Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]**, um ganz neuen Inhalt zu erstellen. Siehe auch [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]** aus, um eine Datei von Ihrem Computer zu laden. Siehe auch [Inhalt aus einer Datei importieren](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]**, um vorhandenen Inhalt von einer URL abzurufen. Siehe auch [Inhalt aus einer URL importieren](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]**, um ganz neuen Inhalt zu erstellen. Siehe auch[Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]**aus, um eine Datei von Ihrem Computer zu laden. Siehe auch[Inhalt aus einer Datei importieren](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]**, um vorhandenen Inhalt von einer URL abzurufen. Siehe auch[Inhalt aus einer URL importieren](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## Terminologie {#terminology}
 
@@ -105,7 +105,7 @@ Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email De
 
 Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen, empfehlen wir folgende Vorgehensweise:
 
-* Verwenden Sie Inline Styling anstatt eines separaten CSS-Stylesheets und CSS im &lt;head&gt;-Abschnitt einer HTML-Datei. Die Verwendung von Inline Styling ermöglicht eine optimale Speicherung und Wiederverwendung der Inhaltsfragmente.
+* Verwenden Sie Inline Styling anstatt eines separaten CSS-Stylesheets und CSS im &lt;head>-Abschnitt einer HTML-Datei. Die Verwendung von Inline Styling ermöglicht eine optimale Speicherung und Wiederverwendung der Inhaltsfragmente.
 
    Siehe auch den Abschnitt zum [Hinzufügen von Inline-Styling-Attributen](../../designing/using/styles.md#adding-inline-styling-attributes).
 
@@ -127,7 +127,7 @@ Email Designer wird laufend verbessert. Wenn Sie E-Mail-Inhalt neu oder von eine
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe empfiehlt, Inhalte auf die neueste Version zu aktualisieren, um Probleme wie CSS-Inkompatibilität zu vermeiden. Klicken Sie dazu auf **[!UICONTROL Update now]** (Jetzt aktualisieren).
+Adobe empfiehlt, Inhalte auf die neueste Version zu aktualisieren, um Probleme wie CSS-Inkompatibilität zu vermeiden. Klicken Sie dazu auf **[!UICONTROL Update now]**(Jetzt aktualisieren).
 
 Wenn beim Aktualisieren des Inhalts ein Fehler auftritt, überprüfen Sie Ihren HTML-Code und korrigieren Sie ihn, bevor Sie dieses Update erneut ausführen.
 
