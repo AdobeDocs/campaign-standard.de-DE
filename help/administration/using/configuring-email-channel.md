@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ Im Abschnitt **[!UICONTROL Tracking]**sind folgende Parameter verfügbar:
 
 Der Abschnitt **[!UICONTROL Erweiterte Parameter]**enthält folgende Informationen:
 
-Angaben zum E-Mail-Header (Antwortadresse und Text der Antwortadresse). Diese Informationen können personalisiert werden. Öffnen Sie mithilfe der Schaltfläche rechts des entsprechenden Eingabefelds das Auswahlfenster und fügen Sie die gewünschten Personalisierungsfelder ein. Weiterführende Informationen zur Verwendung der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
+In den ersten Feldern können Sie die Informationen eingeben, die zum Ausarbeiten der Kopfzeilen von E-Mail-Nachrichten erforderlich sind. Hier können Sie die Antwortadresse und den Text sowie die Absenderadresse (die das Feld &quot;Von:&quot; ausfüllt) verwalten. Diese Informationen können personalisiert werden.
+
+Klicken Sie auf die Schaltfläche rechts neben dem Feld, das geändert werden soll, und fügen Sie dann das Personalisierungsfeld, den Inhaltsblock oder den dynamischen Text hinzu.
+
+![](assets/advancedparameters.png)
+
+Das Einfügen und Verwenden des Personalisierungsinhalts ist in der Dokumentation zum [Personalisieren von E-Mail-Inhalten](../../designing/using/personalization.md) ausführlich beschrieben.
 
 #### Zielgruppen-Kontext {#target-context}
 
@@ -326,4 +332,3 @@ E-Mail-BCC wird in der [E-Mail-Vorlage](../../start/using/marketing-activity-tem
 >[!NOTE]
 >
 >Wenn die an eine BCC-Adresse gesendeten E-Mails geöffnet und angeklickt werden, wird dies in **[!UICONTROL Gesamtöffnungen]**und**[!UICONTROL  Klicks]** der Versandanalyse berücksichtigt, was zu falschen Berechnungen führen könnte.
-
