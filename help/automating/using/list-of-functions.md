@@ -11,8 +11,8 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Über Funktionen {#about-functions}
 
-Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden. Auf diese können Sie in der Palette über das Element **[!UICONTROL Ausdruck]** zugreifen. Weiterführende Hinweise hierzu finden Sie in einem [gesonderten Abschnitt](../../automating/using/advanced-expression-editing.md).
+Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden. Auf diese können Sie in der Palette über das Element **[!UICONTROL Ausdruck]**zugreifen. Weiterführende Hinweise hierzu finden Sie in einem[gesonderten Abschnitt](../../automating/using/advanced-expression-editing.md).
 
 Ziehen Sie das Element in den Workflow-Arbeitsbereich und geben Sie die gewünschte Funktion manuell ein. Unten stehend finden Sie eine Liste der kompatiblen Funktionen.
 
@@ -43,7 +43,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -287,7 +287,7 @@ Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -306,7 +306,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -321,7 +321,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Gibt die größte ganze Zahl aus, die kleiner oder gleich der angegebenen Zahl ist<br /> </td> 
+   <td> Returns the greatest integer lower than or equal to a number<br /> </td> 
    <td> Floor(&lt;Zahl&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -390,7 +390,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -670,7 +670,7 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -719,7 +719,7 @@ Die Darstellungsfunktionen dienen der Ordnung von Werten.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
