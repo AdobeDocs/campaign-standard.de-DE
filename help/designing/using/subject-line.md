@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 259f7033310982298024462c0134989404c096f4
 
 ---
 
@@ -25,23 +25,17 @@ Die Betreffzeile ist für die Vorbereitung und den Versand einer Nachricht unbed
 >
 >Wenn die Betreffzeile leer ist, wird ein Warnhinweis im Nachrichten-Dashboard und in Email Designer angezeigt.
 
-Um den E-Mail-Betreff zu konfigurieren, öffnen Sie auf der Startseite von Email Designer den Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol) und füllen Sie den Bereich **[!UICONTROL Betreff]** aus.
+Um den E-Mail-Betreff zu konfigurieren, öffnen Sie auf der Startseite von Email Designer den Tab **[!UICONTROL Eigenschaften]**(der Zugriff erfolgt über das Startseiten-Symbol) und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
 
 **So definieren Sie die Betreffzeile einer E-Mail**:
 
 1. Erstellen Sie eine E-Mail.
 1. Schließen Sie die Startseite.
-1. Klicken Sie auf der Startseite von Email Designer, die über das Home-Symbol aufgerufen wird, auf die Registerkarte **[!UICONTROL Eigenschaften]** und füllen Sie den Bereich **[!UICONTROL Betreff]** aus.
+1. Klicken Sie auf der Startseite von Email Designer, die über das Home-Symbol aufgerufen wird, auf die Registerkarte **[!UICONTROL Eigenschaften]**und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
 
 ![](assets/email_designer_subject.png)
 
 Sie können zur Betreffzeile auch Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die entsprechenden Symbole auswählen.
-
-**Verwandte Themen:**
-
-* [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block)
-* [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Prädiktive Betreffzeile {#predictive-subject-line}
 
@@ -57,19 +51,19 @@ Diese Funktion ist standardmäßig deaktiviert. Sie wird beim Import des ersten 
 
 * [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
 
-## E-Mail-Absender {#email-sender}
+## Definieren des E-Mail-Absenders einer E-Mail {#email-sender}
 
-Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu definieren, gehen Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol).
+Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu definieren, gehen Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]**(der Zugriff erfolgt über das Startseiten-Symbol).
 
 ![](assets/delivery_content_edition16.png)
 
-* Der Absendername kann im Feld **[!UICONTROL Von (Name)]** angepasst werden. Wenn nicht anders angegeben, erscheint hier automatisch der **Name des Standard-Absenders**. Dieser wird im Zuge der E-Mail-Kanal-Konfiguration bestimmt. Auf diese können Sie über das Adobe-Campaign-Logo und die Schaltflächen **[!UICONTROL Administration &gt; Kanäle &gt; E-Mail &gt; E-Mail-Konten]** zugreifen.
+* Der Absendername kann im Feld **[!UICONTROL Von (Name)]**angepasst werden. Wenn nicht anders angegeben, erscheint hier automatisch der** Name des Standard-Absenders **. Die Standard-E-Mail-Adresse und der Name des Absenders werden in**[!UICONTROL  Marken]** definiert, auf die über das Adobe Campaign-Logo unter dem erweiterten Menü **[!UICONTROL Administration > Instanzeinstellungen > Markenkonfiguration]**zugegriffen werden kann.
 
    Sie können den Absendernamen ändern, indem Sie **Name des Absenders** auswählen. Geben Sie nun den gewünschten Absendernamen ein.
 
    Sie haben die Möglichkeit, den Absendernamen je nach Zielgruppe zu personalisieren. Sie können Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die Symbole unter dem Absendernamen auswählen.
 
-* Das Feld **[!UICONTROL Von (E-Mail)]** kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. Lesen Sie diesbezüglich auch den Abschnitt [Liste der erweiterten E-Mail-Parameter](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* Das Feld **[!UICONTROL Von (E-Mail)]**kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. Lesen Sie diesbezüglich auch den Abschnitt[Liste der erweiterten E-Mail-Parameter](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
