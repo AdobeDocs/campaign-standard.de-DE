@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -67,7 +67,7 @@ Zusätzliche Ressourcen:
 
 * Das Popup-Fenster für die Zustimmung zur Nutzung dynamischer Berichte wurde aktualisiert und beinhaltet jetzt die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365. Durch Akzeptieren der Bedingungen werden für die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 und für die Erstellung dynamischer Berichte Profildaten mit einbezogen – [mehr dazu](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Fehlerkorrektur – Beim Empfang von Versandwarnungen werden nun keine falschen Kontaktdaten mehr angezeigt.
-* Wenn ein Transaktionsnachrichtenereignis mit einem unbekannten Kontextparameter gesendet wird, gibt Campaign jetzt die Fehlermeldung "400" anstelle von "500" aus. (CAMP-28632)
+* Wenn ein Transaktionsnachrichtenereignis mit einem unbekannten Kontextparameter gesendet wird, gibt Campaign jetzt die Fehlermeldung &quot;400&quot; anstelle von &quot;500&quot; aus. (CAMP-28632)
 * In dynamischen Berichten wurde für das **Ausschließen des Testversands** ein neues Segment hinzugefügt. Zum Filtern Ihrer Berichte ist dieses Segment jetzt standardmäßig ausgewählt – [mehr dazu](../../reporting/using/list-of-components-.md#segments)
 * Zu Push-Benachrichtigungen wurde eine Option zum Festlegen der **Ablauffrist einer Nachricht** hinzugefügt. Damit können Sie ein Ablaufdatum angeben, an dem die Nachricht nicht mehr von Apple (APNS) bzw. Android (FCM) gesendet wird – [mehr dazu](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Die Aktivität **Datei laden** wurde dahingehend verbessert, dass Workflow-Logs nun klarer und detaillierter über den Fehler informieren, der auftritt, wenn das Laden einer Datei fehlgeschlagen ist. Die durch Aktivieren der Option **Zurückweisungen in einer Datei speichern** generierte ausgehende Transition wurde in **Zurückweisungen** umbenannt – [mehr dazu](../../automating/using/load-file.md)
@@ -83,14 +83,14 @@ Zusätzliche Ressourcen:
 
 * Es wurde ein Fehler behoben, der verhinderte, dass Links zu Abonnenten-, Abonnement- und Einstiegsseiten verfolgt werden konnten, wenn sie in eine E-Mail eingefügt wurden. (CAMP-37809)
 * Es wurde ein Problem behoben, das zu Fehlern führte, wenn eine neue E-Mail erstellt und eine Vorlage ausgewählt wurde. (CAMP-38000)
-* Für Link-Bearbeitungen mit E-Mail-Designer können Sie jetzt die Option **Unterstrichener Link** verwenden. Außerdem wurde eine **Target**-Eigenschaft hinzugefügt, deren Standardwert auf **Ohne** festgelegt ist. [mehr dazu](../../designing/using/styles.md#about-styling-links)
+* When editing a link using the Email Designer, you can now use the **Underline link** option. Außerdem wurde eine **Target**-Eigenschaft hinzugefügt, deren Standardwert auf **Ohne** festgelegt ist. [mehr dazu](../../designing/using/styles.md#about-styling-links)
 * Fehlerkorrektur – Für Links in Textkomponenten im Textkörper einer E-Mail wird nun die korrekte Farbe verwendet. (CAMP-37330)
 * Fehlerkorrektur – Beim Löschen eines Bildes werden nun auch zugeordnete Links entfernt. (CAMP-37234)
 * Fehlerkorrektur – Änderungen in den Einstellungen für die **Prioritätsstufe** dynamischer Inhalte in einer Bedingung können jetzt gespeichert werden. (CAMP-36883)
 * Fehlerkorrektur – Das Durchsuchen von Landingpages funktioniert jetzt ordnungsgemäß. Die Suche wurde von den 50 zuerst erstellten auf alle in der Datenbank vorhandenen erweitert. (CAMP-36839)
 * Fehlerkorrektur – Änderungen des E-Mail-Absenders im Feld **Von: Name** können jetzt gespeichert werden. (CAMP-36606)
 * Die Warnung zur Kompatibilität von Karussellkomponenten wurde angepasst und informiert jetzt über unterstützte E-Mail-Clients.
-* Ein Problem mit der Anzeige auf Mobilgeräten wurde behoben. Wird einer E-Mail ein neues Bild hinzugefügt oder zu ihr hochgeladen, ist das Höhenattribut jetzt immer auf "Höhe: Auto" festgelegt. (CAMP-35497)
+* Ein Problem mit der Anzeige auf Mobilgeräten wurde behoben. Wird einer E-Mail ein neues Bild hinzugefügt oder zu ihr hochgeladen, ist das Höhenattribut jetzt immer auf &quot;Höhe: Auto&quot; festgelegt. (CAMP-35497)
 * Fehlerkorrektur – Im HTML-Code werden Stil- und Meta-Tags jetzt nicht mehr beibehalten, wenn ein Fragment aus einer Strukturkomponente gelöscht wird. (CAMP-35390)
 * Fehlerkorrektur – Beim Aktualisieren wiederverwendbarer Inhalte tritt kein Problem mehr mit Fragmenten auf. (CAMP-35186)
 * Fehlerkorrektur – Nur für Mobilgeräte bestimmte bedingte Inhalte in E-Mails werden jetzt korrekt angezeigt. (CAMP-35155)
@@ -108,7 +108,7 @@ Zusätzliche Ressourcen:
 
 ### Sonstige Änderungen {#other-changes-3}
 
-* Der standardmäßig für die Anzeige von Versand-KPIs verwendete Zeitraum auf der Seite "Dynamische Berichte" wurde so angepasst, dass keine Diskrepanzen in den Berichtsergebnissen mehr auftreten. (CAMP-35148)
+* Der standardmäßig für die Anzeige von Versand-KPIs verwendete Zeitraum auf der Seite &quot;Dynamische Berichte&quot; wurde so angepasst, dass keine Diskrepanzen in den Berichtsergebnissen mehr auftreten. (CAMP-35148)
 * Logs enthalten im Falle eines abgelaufenen Anwendungszertifikats nun eine entsprechende Fehlermeldung.
 * Die Vorschau für die Payload-Berechnung enthält nun benutzerdefinierte Feldgrößen, wodurch verhindert wird, dass der Versand von Push-Benachrichtigungen fehlschlägt. (CAMP-35303)
 * Der Name der **Datei mit den Zurückweisungen** in der Aktivität **Datei laden** kann jetzt genauso personalisiert werden wie die **Datenexport-Aktivität**.
@@ -116,16 +116,16 @@ Zusätzliche Ressourcen:
 * Die Datenbankleistung wurde bei der Verarbeitung großer Ressourcen verbessert.
 * Die Beschreibungen für einige beim Versand von SMS-Nachrichten auftretende Fehler wurden klarer formuliert. (CAMP-36558)
 * Beim Ausführen der Aktivität **Planung** in einem Workflow, bei dem diese entweder direkt oder über verschiedene Aktivitäten mit sich selbst verbunden ist, wird jetzt eine Fehlermeldung angezeigt, da dies dazu führen könnte, dass sich der Workflow-Server aufhängt.
-* Verschiedene Verbesserungen wurden vorgenommen, um die Behebung von Fehlern bei Transaktionsnachrichten zu erleichtern: Der Link "Daten" wurde im Bildschirm zur Ereigniskonfiguration in "Letzte Transaktionsereignisse" umbenannt und listet die empfangenen Ereignisse nun in absteigender Reihenfolge auf. Außerdem wurde ein neuer Transaktionsstatus namens "targetingFailed" erstellt. Kann das Transaktionsnachrichtenmodul eine Verknüpfung, die für die Zielgruppenbestimmung von Nachrichten verwendet wird, nicht anreichern, erhält das Transaktionsereignis nun diesen neuen Status (anstelle des Status "routingFailed").
+* Verschiedene Verbesserungen wurden vorgenommen, um die Behebung von Fehlern bei Transaktionsnachrichten zu erleichtern: Der Link &quot;Daten&quot; wurde im Bildschirm zur Ereigniskonfiguration in &quot;Letzte Transaktionsereignisse&quot; umbenannt und listet die empfangenen Ereignisse nun in absteigender Reihenfolge auf. Außerdem wurde ein neuer Transaktionsstatus namens &quot;targetingFailed&quot; erstellt. Kann das Transaktionsnachrichtenmodul eine Verknüpfung, die für die Zielgruppenbestimmung von Nachrichten verwendet wird, nicht anreichern, erhält das Transaktionsereignis nun diesen neuen Status (anstelle des Status &quot;routingFailed&quot;).
 * An der Oberfläche wurden verschiedene Verbesserungen im Hinblick auf die Einschränkungen des Zugriffs auf Landingpages durch bestimmte geografische oder Organisationseinheiten vorgenommen. Damit soll darauf hingewiesen werden, dass die Landingpage bestimmten Sichtbarkeitsbedingungen unterliegt: Die Auswahl der geografischen und Organisationseinheit ist für die Erstellung einer Landingpage nun obligatorisch. Sobald eine Einheit ausgewählt wurde, wird ein Banner mit den zugehörigen Informationen angezeigt. Die Fehlermeldung, die beim Testen der Landingpage angezeigt wird, wurde klarer formuliert.
 * In Campaign Standard-APIs können benutzerdefinierte Schlüssel nicht mithilfe eines PATCH-Vorgangs geändert werden, wenn der Schlüsselwert vom ursprünglichen Schlüssel abweicht oder wenn Sie einen eigenen Schlüssel als URI anstelle des von Adobe bereitgestellten verwenden.
-* Die Sprache "Albanisch – Mazedonien" wurde zur Dropdown-Liste bevorzugter Sprachen hinzugefügt. (CAMP-35396)
+* Die Sprache &quot;Albanisch – Mazedonien&quot; wurde zur Dropdown-Liste bevorzugter Sprachen hinzugefügt. (CAMP-35396)
 
 ### Korrekturen {#patches-4}
 
 * Fehlerkorrektur – Terminierte Berichte können nun sortiert oder durchsucht werden.
 * Fehlerkorrektur – Die UND- und ODER-Regeln für Auslöser werden nun nicht mehr miteinander vertauscht.
-* Fehlerkorrektur – Die Eigenschaft für Mobilgeräte wird nun nicht mehr fälschlicherweise als "In Launch gelöscht" angezeigt. (CAMP-35382)
+* Fehlerkorrektur – Die Eigenschaft für Mobilgeräte wird nun nicht mehr fälschlicherweise als &quot;In Launch gelöscht&quot; angezeigt. (CAMP-35382)
 * Fehlerkorrektur – Die Eigenschaften für Mobilgeräte von Adobe Launch können nun mit Adobe Campaign synchronisiert werden. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
 * Fehlerkorrektur – Push-Transaktionsnachrichten schlagen nun nicht mehr fehl, wenn Ereignisse mit Profildaten angereichert wurden. (CAMP-34385)
 * Fehlerkorrektur – Eigenschaften für Mobilgeräte lassen sich nun über mehrere Umgebungen hinweg synchronisieren. (CAMP-37060)
@@ -145,7 +145,7 @@ Zusätzliche Ressourcen:
 * Fehlerkorrektur – Benutzerdefinierte Ressourcen können nun in eine neue Umgebung importiert werden. (CAMP-36506)
 * Fehlerkorrektur – Bei Klick-Berichten kommt es nun nicht mehr vor, dass Prozentangaben von Bildern verdeckt werden. (CAMP-36407)
 * Fehlerkorrektur – Beim Exportieren eines Versandbeschreibungsfelds tritt nun kein Problem mehr auf. (CAMP-35467)
-* Fehlerkorrektur – Es kommt nun nicht mehr vor, dass ein Versand in "Start ausstehend" verbleibt, obwohl der Versand bereits abgeschlossen wurde. (CAMP-35355)
+* Fehlerkorrektur – Es kommt nun nicht mehr vor, dass ein Versand in &quot;Start ausstehend&quot; verbleibt, obwohl der Versand bereits abgeschlossen wurde. (CAMP-35355)
 * Fehlerkorrektur – Workflow-Logs werden nun auch dann angezeigt, wenn SQL-Logs aktiviert und dann deaktiviert wurden.
 
 ## Aktualisierung des Control Panels – August 2019 {#controlpanel-update---august-2019}
@@ -219,9 +219,9 @@ Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS
 * In Workflows wurde eine neue Option hinzugefügt, um die nächsten zehn Ausführungen eines Workflows in der Vorschau anzuzeigen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/scheduler.md).
 * In der Planungsaktivität gibt es eine neue Option, mit der Sie einen bestimmten Tag einer bestimmten Woche für monatliche Sendungen auswählen können. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/scheduler.md).
 * Beim Erstellen eines wiederkehrenden Versands ohne Aggregat-Zeitraum ermöglicht das Versand-Dashboard jetzt die Anforderung einer Bestätigung, bevor die Nachrichten gesendet werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/confirming-the-send.md).
-* Sie können jetzt den Versandtitel mit Ereignisvariablen personalisieren, die in der Aktivität "Externes Signal" des Workflows deklariert wurden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* Sie können jetzt den Versandtitel mit Ereignisvariablen personalisieren, die in der Aktivität &quot;Externes Signal&quot; des Workflows deklariert wurden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * Die DSGVO-Löschabfrage wurde verbessert, um eine bessere Leistung zu erzielen. (CAMP-33504)
-* Die "ftp"-Option wurde aus der Konfigurationsoberfläche für externe Konten entfernt. (CAMP-34472)
+* Die &quot;ftp&quot;-Option wurde aus der Konfigurationsoberfläche für externe Konten entfernt. (CAMP-34472)
 * Sie können jetzt die SMTP-Testmodus-Option für jede E-Mail aktivieren und deaktivieren. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 ### Sonstige Änderungen {#other-changes-2}
@@ -232,8 +232,8 @@ Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS
 * In Workflow-Protokollen wird jetzt ein Warnhinweis angezeigt, wenn eine Aktivität länger als 6 Stunden ausgeführt wird. Dies gilt nicht für Aktivitäten vom Typ Push-Benachrichtigung, Versand, Signal, Start, Ende, Verzweigung, Und-Verknüpfung, Planung und Warten.
 * In Workflow-Protokollen wird jetzt ein Warnhinweis angezeigt, wenn Sie die maximale Anzahl von gleichzeitig ausgeführten Workflows erreicht haben.
 * Workflows, die länger als sieben Tage im Pausen- oder Fehler-Status sind, werden nun gestoppt, um Speicherplatz zu sparen. Die Bereinigungsaufgabe wird in den Workflow-Protokollen angezeigt.
-* Bei Verwendung der Aktivität "Datei übertragen" wird jetzt ein Fehler protokolliert, wenn die Dateigröße den verfügbaren Speicherplatz überschreitet.
-* Die Aktion "Zu Ziel-URL umleiten" kann nicht mehr für die sekundäre Schaltfläche in In-App-Nachrichten ausgewählt werden.
+* Bei Verwendung der Aktivität &quot;Datei übertragen&quot; wird jetzt ein Fehler protokolliert, wenn die Dateigröße den verfügbaren Speicherplatz überschreitet.
+* Die Aktion &quot;Zu Ziel-URL umleiten&quot; kann nicht mehr für die sekundäre Schaltfläche in In-App-Nachrichten ausgewählt werden.
 
 ### Korrekturen {#patches-3}
 
@@ -250,22 +250,22 @@ Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS
 * Fehlerkorrektur – Verzweigungs- und Ausschlussaktivitäten können jetzt in Workflows zur Erstellung von Audiences verwendet werden. (CAMP-33401)
 * Fehlerkorrektur – Jetzt ist es möglich, bei wiederkehrenden Sendungen den Inhalt von Mirrorseiten anzuzeigen und einen Testversand durchzuführen. (CAMP-33413)
 * Fehlerkorrektur – Zwischen Profilen und Audiences kann jetzt eine Vereinigungsaktivität verwendet werden. Dieses Problem wurde durch eine Inkompatibilität der Identifizierungsschlüssel in Eingangstransitionen verursacht. (CAMP-33713)
-* Fehlerkorrektur – In Testaktivitäten verwendet der Ausdruck "recCount" jetzt beim Doppelklicken die korrekte Syntax. (CAMP-33756)
-* Fehlerkorrektur – Beim Öffnen der Protokolle des technischen Workflows "Rechnungsstellung" wird keine Fehlermeldung mehr angezeigt. (CAMP-34313)
+* Fehlerkorrektur – In Testaktivitäten verwendet der Ausdruck &quot;recCount&quot; jetzt beim Doppelklicken die korrekte Syntax. (CAMP-33756)
+* Fehlerkorrektur – Beim Öffnen der Protokolle des technischen Workflows &quot;Rechnungsstellung&quot; wird keine Fehlermeldung mehr angezeigt. (CAMP-34313)
 * Fehlerkorrektur – Felder von Abonnement-Checkboxes in Landingpages können jetzt problemlos konfiguriert werden. (CAMP-34369)
-* Fehlerkorrektur – In Listen kann jetzt beim Konfigurieren das Feld "Symbol" eingefügt werden. (CAMP-34585)
-* Fehlerkorrektur – "|" und "%" können jetzt in der Workflow-Aktivität "Datei laden" als Separatoren für das Datum oder die Uhrzeit verwendet werden. (CAMP-34706)
+* Fehlerkorrektur – In Listen kann jetzt beim Konfigurieren das Feld &quot;Symbol&quot; eingefügt werden. (CAMP-34585)
+* Fehlerkorrektur – &quot;|&quot; und &quot;%&quot; können jetzt in der Workflow-Aktivität &quot;Datei laden&quot; als Separatoren für das Datum oder die Uhrzeit verwendet werden. (CAMP-34706)
 * Fehlerkorrektur – In Landingpages können jetzt Sichtbarkeitsbedingungen mit Checkboxes verwendet werden. (CAMP-34802)
-* Fehlerkorrektur – In der Anreicherungsaktivität werden jetzt im Tab "Zusatzdaten" Felder angezeigt, wenn die Filterdimension auf Trackinglogs und die Zielgruppendimension auf Profil eingestellt ist.
-* Fehlerkorrektur – Beim Export der Ressource "Workflow-Vorlage" wird kein Warnhinweis mehr angezeigt.
-* Fehlerkorrektur – Beim Erstellen eines neuen Profils kann das Feld "Code für Land/Region" jetzt gespeichert werden, nachdem es im Dialogfeld ausgewählt wurde.
+* Fehlerkorrektur – In der Anreicherungsaktivität werden jetzt im Tab &quot;Zusatzdaten&quot; Felder angezeigt, wenn die Filterdimension auf Trackinglogs und die Zielgruppendimension auf Profil eingestellt ist.
+* Fehlerkorrektur – Beim Export der Ressource &quot;Workflow-Vorlage&quot; wird kein Warnhinweis mehr angezeigt.
+* Fehlerkorrektur – Beim Erstellen eines neuen Profils kann das Feld &quot;Code für Land/Region&quot; jetzt gespeichert werden, nachdem es im Dialogfeld ausgewählt wurde.
 * Fehlerkorrektur – Bei der Verwendung der Briefpost-Importvorlage (updateQuarantinesDeliveryLogsDirectMail) treten jetzt keine Fehler mehr auf.
 * Fehlerkorrektur – Bei der Integration von Assets on Demand tritt kein Fehler mehr auf.
 * Fehlerkorrektur – Die Timeline-Ansicht kann jetzt problemlos vergrößert werden. (CAMP-33628)
 * Fehlerkorrektur – Testsendungen für E-Mail-Nachrichten mit geplantem Datum und Uhrzeit können jetzt unmittelbar durchgeführt werden. (CAMP-33723)
 * Fehlerkorrektur – Transaktionsnachrichten erzeugen jetzt keine Fehlerprotokolle mehr, wenn sich ein Benutzer abmeldet. (CAMP-31698)
 * Fehlerkorrektur – Die Planung von E-Mail-Nachrichten ist jetzt in allen Umgebungen fehlerfrei möglich.
-* Fehlerkorrektur – Der Workflow "Update der Versandausführung" funktioniert jetzt problemlos.
+* Fehlerkorrektur – Der Workflow &quot;Update der Versandausführung&quot; funktioniert jetzt problemlos.
 * Fehlerkorrektur – Der E-Mail-Inhalt ist jetzt nicht mehr fehlerhaft, wenn der Betreff mehrere Zeilen lang ist.
 
 
@@ -276,7 +276,7 @@ Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS
 * Die DSGVO-Löschabfrage wurde verbessert, um eine bessere Leistung zu erzielen.
 * Fehlerkorrektur – Nach dem Upgrade 19.2 stürzt die Website nicht mehr ab. (CAMP-34862)
 * Fehlerkorrektur – Jetzt können auch andere Benutzer als Admin-Benutzer Berichte speichern und planen. (CAMP-31133)
-* Fehlerkorrektur – Bei der Verwendung von "|" als Datumstrennzeichen in der Workflow-Aktivität "Datei laden" tritt kein Problem mehr auf. (CAMP-34706)
+* Fehlerkorrektur – Bei der Verwendung von &quot;|&quot; als Datumstrennzeichen in der Workflow-Aktivität &quot;Datei laden&quot; tritt kein Problem mehr auf. (CAMP-34706)
 
 ## Version 19.2.4 - Juni 2019 {#release-19-2-4---june-2019}
 
@@ -298,7 +298,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
 * Fehlerkorrektur – Der SMS-Versand kann jetzt fortgesetzt werden, nachdem die Verbindung des SMS-Connectors unterbrochen wurde.
 * Fehlerkorrektur – SMPP-Verbindungen werden jetzt nicht mehr geschlossen, wenn TLS aktiviert ist.
 * Fehlerkorrektur – SMPP-Verbindungen werden jetzt nicht mehr geschlossen, wenn TLS aktiviert ist.
-* In Campaign wurde die Option "Launch_URL_Campaign" hinzugefügt, um Eigenschaften von Apps zu verwalten, die mit dem Mobile SDK von Adobe Experience Platform erstellt wurden.
+* In Campaign wurde die Option &quot;Launch_URL_Campaign&quot; hinzugefügt, um Eigenschaften von Apps zu verwalten, die mit dem Mobile SDK von Adobe Experience Platform erstellt wurden.
 * Fehlerkorrektur – Die Sandbox-Umgebungs-Option wird nicht mehr deaktiviert, wenn das Zertifikat einer neu erstellten mobilen Eigenschaft hochgeladen und die Eigenschaftenseite der App geschlossen wird.
 * Fehlerkorrektur – Der Inhalt einer Transaktionsnachricht kann jetzt mit Daten aus der Dienst-Ressource angereichert werden. (CAMP-33707)
 * Fehlerkorrektur – Landingpages werden jetzt nicht mehr auf die Blacklist gesetzt, wenn Profile von einem Dienst abgemeldet werden.
@@ -374,10 +374,10 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 * Zum externen SMS-Konto wurde eine neue Option hinzugefügt. Hiermit kann die maximale Anzahl der für den SMS-Versand verantwortlichen MTA-Prozesse beschränkt werden, um die Anzahl der parallelen Verbindungen besser steuern zu können. Weiterführende Informationen dazu finden Sie in der Technote zum [SMS-Schnittstellenprotokoll und dessen Konfiguration](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 * Wird jetzt eine Ressource mit einer API-Erweiterung publiziert, deren API zuvor bereits publiziert wurde, wird diese API jedes Mal automatisch aktualisiert, wenn sie erneut publiziert wird. Früher musste diese Aktion manuell durchgeführt werden. Wurde die API nicht aktualisiert, konnte ein Fehler in den Profil- oder Service-Ressourcen dieser API auftreten. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
-* In dynamischen Berichten wurde die Postleitzahl-Dimension entfernt. Verwenden Sie stattdessen die Dimensionen "Stadt", "Land" und "Bundesland".
-* Der Lebenszyklus-Ereignistrigger "Erster Start" für In-App-Nachrichten wurde entfernt.
+* In dynamischen Berichten wurde die Postleitzahl-Dimension entfernt. Verwenden Sie stattdessen die Dimensionen &quot;Stadt&quot;, &quot;Land&quot; und &quot;Bundesland&quot;.
+* Der Lebenszyklus-Ereignistrigger &quot;Erster Start&quot; für In-App-Nachrichten wurde entfernt.
 * Wird ein Package mit Sicherheitsgruppen exportiert, enthält es jetzt die den Gruppen zugewiesenen Rollen. (CAMP-32960)
-* Eine neue Option ermöglicht Ihnen, in der Aktivität "Datei laden" zu prüfen, ob die Spalten der zu ladenden Datei zur Spaltendefinition passen. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/load-file.md). (CAMP-32229)
+* Eine neue Option ermöglicht Ihnen, in der Aktivität &quot;Datei laden&quot; zu prüfen, ob die Spalten der zu ladenden Datei zur Spaltendefinition passen. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/load-file.md). (CAMP-32229)
 * Workflows können jetzt mit einer Payload gestartet werden, wodurch externe Parameter für mehrere Aktivitäten innerhalb eines Workflows gemeinsam verwendet werden können. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 &amp; CAMP-29413)
 * Campaign Standard-APIs ermöglichen Ihnen jetzt, die geografischen und Organisationseinheiten von Profilen mithilfe einer Payload zu aktualisieren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../api/using/about-campaign-standard-apis.md).
 * Die Fehlernachrichten, die angezeigt werden, wenn der Zugriff auf ein Datenbankobjekt nicht möglich ist, sind jetzt besser verständlich.
@@ -397,13 +397,13 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt funktionieren Personalisierungsfelder, wenn die Vorlage **Alle Nutzer einer Mobile App auswählen** verwendet wird.
 * Neue Campaign Standard-Instanzen wurden bereitgestellt. (CAMP-32635 &amp; CAMP-32344)
 * Fehlerkorrektur – Die Datumsformel in einem Workflow kann jetzt angepasst werden. (CAMP-30336)
-* Fehlerkorrektur – Bei der Definition einer benutzerdefinierten Datumsformel sind in der Dropdown-Liste jetzt die Felder "Zusatzdaten" und "Segmentcode" verfügbar. (CAMP-32383)
-* Fehlerkorrektur – Verschlüsselte zurückgewiesene Datensätze können jetzt mit den Aktivitäten "Dateiübertragung" und "Dateiextraktion" gefunden werden. (CAMP-32377)
+* Fehlerkorrektur – Bei der Definition einer benutzerdefinierten Datumsformel sind in der Dropdown-Liste jetzt die Felder &quot;Zusatzdaten&quot; und &quot;Segmentcode&quot; verfügbar. (CAMP-32383)
+* Fehlerkorrektur – Verschlüsselte zurückgewiesene Datensätze können jetzt mit den Aktivitäten &quot;Dateiübertragung&quot; und &quot;Dateiextraktion&quot; gefunden werden. (CAMP-32377)
 * Fehlerkorrektur – In APIs zeigen jetzt die lineCount-Filter die exakte Gesamtzahl an. (CAMP-31424)
 * Fehlerkorrektur – In Landingpages wird in Eingabefeldern jetzt der aktualisierte Wert angezeigt, nachdem dieser geändert wurde. (CAMP-31401)
 * Fehlerkorrektur – Jetzt wird die Signalaktivität nicht mehr unerwartet aktiviert.
 * Fehlerkorrektur – Die E-Mail-Vorschau wird jetzt auch dann angezeigt, wenn die Zielgruppe leer ist.
-* Fehlerkorrektur – In der Aktivität "Dateiextraktion" wird jetzt keine Datei mehr erstellt, wenn die Option "Keine Datei erstellen, wenn die eingehende Transition leer ist" aktiviert ist.
+* Fehlerkorrektur – In der Aktivität &quot;Dateiextraktion&quot; wird jetzt keine Datei mehr erstellt, wenn die Option &quot;Keine Datei erstellen, wenn die eingehende Transition leer ist&quot; aktiviert ist.
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
@@ -493,7 +493,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Adobe Campaign ist jetzt im Zusammenhang mit sowohl SDK-V4- als auch AEP-SDK-Apps vollständig FCM-konform.
 * Adobe Campaign unterstützt Push-Benachrichtigungen unter Wear OS von Android sowie watchOS von Apple.
 * Warn- und Fehlermeldungen, die bei der Navigation in der Benutzeroberfläche auftreten können, wurden verständlicher gestaltet.
-* Jetzt können zur Profilliste Spalten für Opt-in und Opt-out hinzugefügt werden (Felder für "Kontaktieren Sie mich nicht mehr…").
+* Jetzt können zur Profilliste Spalten für Opt-in und Opt-out hinzugefügt werden (Felder für &quot;Kontaktieren Sie mich nicht mehr…&quot;).
 * Die Zeitzonen-Dropdown-Liste auf dem Profilerstellungs-Bildschirm wurde aus dem Adressbereich in den oberen Bereich des Bildschirms verschoben.
 * Jetzt können bei der Konfiguration von benutzerdefinierten Ressourcen-Bildschirmen Trennlinien hinzugefügt werden, sodass Felder in Kategorien zusammengefasst werden können.
 
@@ -512,14 +512,14 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Bei der Ausführungsfrequenz und der Startzeit der Planungsaktivität tritt jetzt kein Fehler mehr auf. (CAMP-30745)
 * Fehlerkorrektur – Bei der Verwendung von erweiterten Profilressourcen tritt bei der PKEY-Erstellung jetzt kein Fehler mehr auf. (CAMP-30285)
 * Fehlerkorrektur – Bei auf Kalendertagen basierenden Ermüdungsregeln tritt jetzt kein Fehler mehr auf. (CAMP-30136)
-* Fehlerkorrektur – Beim Zugriff auf benutzerdefinierte Ressourcen mit Namen, die auf "Base" enden, tritt jetzt kein Fehler mehr auf. (CAMP-30109)
+* Fehlerkorrektur – Beim Zugriff auf benutzerdefinierte Ressourcen mit Namen, die auf &quot;Base&quot; enden, tritt jetzt kein Fehler mehr auf. (CAMP-30109)
 * Fehlerkorrektur – Jetzt kann ein PATCH-Aufruf verwendet werden, um ein Profil für einen Dienst anzumelden. (CAMP-29728)
 * Fehlerkorrektur – Der Import einer XML-Datei mit der Datei-laden-Aktivität führt jetzt nicht mehr zu Fehlern im Workflow. (CAMP-29208 und CAMP-28205)
 * Fehlerkorrektur – Beim Verknüpfen von benutzerdefinierten Ressourcen können jetzt Relationen mit umgekehrter Kardinalität erstellt werden. (CAMP-30476)
 * Fehlerkorrektur – Jetzt können Versandlogs erweitert werden, auch wenn Segmentcodes verwendet werden.
 * Fehlerkorrektur – Bei der Verwendung der Dateitransfer-Aktivität in Workflows werden keine Zeilen mehr dupliziert.
 * Fehlerkorrektur – Terminierte Berichte können jetzt zum geplanten Zeitpunkt versendet werden.
-* Fehlerkorrektur – Jetzt treten keine Abweichungen mehr zwischen den KPI "Zu senden" und "Gesendet" eines In-App-Versands in einem Workflow auf.
+* Fehlerkorrektur – Jetzt treten keine Abweichungen mehr zwischen den KPI &quot;Zu senden&quot; und &quot;Gesendet&quot; eines In-App-Versands in einem Workflow auf.
 * Fehlerkorrektur – Tracking funktioniert jetzt für In-App-Nachrichten, die in benutzerdefiniertem HTML-Code erstellt wurden.
 * Fehlerkorrektur – In-App-Nachrichteninhalte, die in einem Workflow verwendet werden, können jetzt gespeichert werden.
 * Fehlerkorrektur – Mobile Apps sind jetzt auch für Administratoren sichtbar.
@@ -575,7 +575,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 * Durch eine neue Option in der Datenladeaktivität können Sie eine Anschlussvorgangsetappe auf die Datei anwenden, die zurückgewiesene Datensätze enthält (z. B. Komprimierung im ZIP-Format). (CAMP-24521)
 * Eine neue Option in der Daten-Update-Aktivität ermöglicht jetzt die Konfiguration der maximalen Batch-Größe für hochzuladende Daten. (CAMP-28400)
-* Verbesserte Auswahlmöglichkeit des Landes einer Profiladresse. Bei der Auswahl eines Landes wird die Dropdown-Liste "Bundesland/-staat" jetzt automatisch mit den relevanten Bundesland-Werten aktualisiert. (CAMP-28874)
+* Verbesserte Auswahlmöglichkeit des Landes einer Profiladresse. Bei der Auswahl eines Landes wird die Dropdown-Liste &quot;Bundesland/-staat&quot; jetzt automatisch mit den relevanten Bundesland-Werten aktualisiert. (CAMP-28874)
 * Eine neue Option in der Dateiextraktionsaktivität verhindert jetzt die Erstellung einer Datei, wenn die eingehende Transition leer ist. Dadurch wird verhindert, dass leere Dateien zu SFTP-Servern hochgeladen werden.
 * Der Versandzusammenfassungs-Bericht wurde verbessert.
 * Die Liste der verfügbaren Länder bei der Definition einer Profiladresse wurde erweitert. (CAMP-26707)
@@ -601,13 +601,13 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 * Fehlerkorrektur – In dynamischen Berichten werden jetzt korrekte Versandlogs angezeigt. (CAMP-23446)
 * Fehlerkorrektur – Die Zahlen im Bounce-Zusammenfassungsbericht werden jetzt korrekt angezeigt (CAMP-28703).
-* Fehlerkorrektur – Bei der Integration von Campaign mit Assets Core Service tritt jetzt kein Fehler mehr auf, sodass Assets immer angezeigt werden, wenn in einer E-Mail **[!UICONTROL Freigegebenes Bild von Adobe Experience Cloud]** ausgewählt wird (CAMP-28732).
-* Fehlerkorrektur – Jetzt können SMS-Nachrichten, die den Buchstaben "œ" enthalten, gesendet werden. Zuvor war dies nicht möglich, selbst wenn die Transliteration im externen SMPP-Konto zugelassen wurde. (CAMP-29041)
+* Fehlerkorrektur – Bei der Integration von Campaign mit Assets Core Service tritt jetzt kein Fehler mehr auf, sodass Assets immer angezeigt werden, wenn in einer E-Mail **[!UICONTROL Freigegebenes Bild von Adobe Experience Cloud]**ausgewählt wird (CAMP-28732).
+* Fehlerkorrektur – Jetzt können SMS-Nachrichten, die den Buchstaben &quot;œ&quot; enthalten, gesendet werden. Zuvor war dies nicht möglich, selbst wenn die Transliteration im externen SMPP-Konto zugelassen wurde. (CAMP-29041)
 * Fehlerkorrektur – Bei der Verwendung einer Segmentierungsaktivität in Workflows werden Datensätze nicht mehr doppelt angezeigt. (CAMP-28743)
 * Fehlerkorrektur – In Workflow-Aktivitäten können Werte-Mappings im Bereich Neukodifizierung der Werte jetzt gelöscht werden. (CAMP-28708)
-* Fehlerkorrektur – Bei der Verwendung von Platzhaltern in der Option "Existenztest einer Datei" tritt in der Dateitransferaktivität kein Fehler mehr auf. (CAMP-28977)
+* Fehlerkorrektur – Bei der Verwendung von Platzhaltern in der Option &quot;Existenztest einer Datei&quot; tritt in der Dateitransferaktivität kein Fehler mehr auf. (CAMP-28977)
 * Fehlerkorrektur – Bei der Aktualisierung der Einstellungen externer Konten tritt in der Dateitransferaktivität kein Fehler mehr auf. (CAMP-28894)
-* Fehlerkorrektur – Bei der Verwendung der Bedingung "E-Mail ist nicht leer" tritt bei benutzerdefinierten Filtern im Abfrageeditor kein Fehler mehr auf. (CAMP-28741)
+* Fehlerkorrektur – Bei der Verwendung der Bedingung &quot;E-Mail ist nicht leer&quot; tritt bei benutzerdefinierten Filtern im Abfrageeditor kein Fehler mehr auf. (CAMP-28741)
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr auf, wenn benutzerdefinierte Ressourcentabellen mit über 100.000 Datensätzen exportiert werden. (CAMP-28150)
 * Fehlerkorrektur – Mit Triggers verknüpfte Transaktionsnachrichten können jetzt gelöscht werden. (CAMP-28385)
 * Passwörter, die in manchen SMS-Logs angezeigt wurden und daher ein Sicherheitsrisiko darstellten, wurden entfernt.
@@ -615,7 +615,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt können Kampagnen versendet werden, wenn SMS-Verbindungen instabil sind.
 * Fehlerkorrektur – Gelöschte Sendungen werden jetzt nicht mehr in dynamischen Berichten angezeigt.
 * Fehlerkorrektur – Zusatzdaten können jetzt aus Versandlogs, Trackinglogs und Ausschlusslog-Tabellen abgerufen werden, wenn in einem Workflow eine Anreicherungsaktivität verwendet wird.
-* Fehlerkorrektur – Jetzt tritt kein Fehler mehr bei DSGVO-Löschanfragen auf, wenn der Relationstyp "Kollektionsrelation mit Kardinalität N" und die Option "Das Löschen des Zieldatensatzes zieht das Löschen der durch die Relation referenzierten Datensätze nach sich" verwendet wird.
+* Fehlerkorrektur – Jetzt tritt kein Fehler mehr bei DSGVO-Löschanfragen auf, wenn der Relationstyp &quot;Kollektionsrelation mit Kardinalität N&quot; und die Option &quot;Das Löschen des Zieldatensatzes zieht das Löschen der durch die Relation referenzierten Datensätze nach sich&quot; verwendet wird.
 * Fehlerkorrektur – Bei der Berichtfreigabe tritt jetzt kein Fehler mehr auf.
 * Fehlerkorrektur – Beim Versand von Push-Benachrichtigungen treten jetzt keine Durchsatzprobleme mehr auf.
 * Fehlerkorrektur – In Briefpost-Ausgabedateien fehlen jetzt keine Felder mehr.
@@ -623,12 +623,12 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Bei der Erstellung einer Kampagne mit einer Kampagnenvorlage, die einen Workflow mit einer konfigurierten Dateiextraktionsaktivität enthält, tritt jetzt kein Fehler mehr auf (CAMP-29198)
 * Fehlerkorrektur – Bei der Dateiextraktionsaktivität kann jetzt derselbe Ausdruck für mehrere Elemente verwendet werden. (CAMP-29182)
 * Fehlerkorrektur – Jetzt tritt im Abfrageeditor bei der Join-Bedingung zwischen Broadlog und Trackinglog für rtEvent kein Fehler mehr auf. (CAMP-28780)
-* Fehlerkorrektur – Jetzt können Änderungen an der Landingpage "Spezifische Aktionen" gespeichert werden. (CAMP-29422)
+* Fehlerkorrektur – Jetzt können Änderungen an der Landingpage &quot;Spezifische Aktionen&quot; gespeichert werden. (CAMP-29422)
 * Fehlerkorrektur – Jetzt kann die Payload eines Ereignisses in einem Workflow exportiert werden. (CAMP-29029)
 * Fehlerkorrektur – Auf der Blacklist stehende SMS-Nummern können jetzt von einer SMS-Nachricht ausgeschlossen werden. (CAMP-28898)
 * Fehlerkorrektur – SMPP-Anbieter können jetzt im Fall eines Fehlers bei der Verarbeitung eingehender Nachrichten benachrichtigt werden. (CAMP-29804)
 * Fehlerkorrektur – Externe Konten mit damit verbundenen Sendungen können jetzt nicht mehr gelöscht werden. (CAMP-29738)
 * Der Versanddurchsatz für SMS-Nachrichten wurde verbessert und ist jetzt stabiler.
-* Fehlerkorrektur – Das Zeichen "~" kann jetzt in SMS-Nachrichten verwendet werden. (CAMP-29172)
+* Fehlerkorrektur – Das Zeichen &quot;~&quot; kann jetzt in SMS-Nachrichten verwendet werden. (CAMP-29172)
 * Fehlerkorrektur – Bei der Option zur Versandzeitoptimierung tritt bei Sendungen kein Fehler mehr auf. (CAMP-29231)
 
