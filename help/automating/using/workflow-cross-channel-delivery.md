@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
+source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Campaign bietet die Möglichkeit, innerhalb von Workflows Sendungen zu kon
 
 So erstellen Sie eine E-Mail-Auslieferung:
 
-1. Drag and drop an **[!UICONTROL Email delivery]**after the fist segment.
+1. Drag and drop an **[!UICONTROL Email delivery]**after the first segment.
 1. Doppelklicken Sie auf die Aktivität, um sie zu bearbeiten.
 1. Wählen Sie **[!UICONTROL Einfache E-Mail]**.
 1. Select **[!UICONTROL Add an outbound transition with the population]**and click**[!UICONTROL  Next]**.
