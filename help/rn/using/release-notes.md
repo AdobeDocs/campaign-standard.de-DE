@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -26,7 +26,7 @@ Zusätzliche Ressourcen:
 * [Release-Planung für Campaign](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Neueste Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md)
 * [Eingestellte und entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Versionshinweise zur Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * Frühere Versionshinweise: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015–2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Version 19.4 - Dezember 2019 {#release-19-4---october-2019}
@@ -317,7 +317,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>Mit dem Control Panel können Sie Administratoraufgaben effizienter erledigen. So ermöglicht es Ihnen, die Serverkapazität zu überwachen und die Einstellungen der Instanzen zu verwalten (u. a. der SFTP-Server).</p><p>Weiterführende Informationen finden Sie im <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">ausführlichen Handbuch</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">diesem Video</a>.</p></td> 
+   <td> <p>Mit dem Control Panel können Sie Administratoraufgaben effizienter erledigen. So ermöglicht es Ihnen, die Serverkapazität zu überwachen und die Einstellungen der Instanzen zu verwalten (u. a. der SFTP-Server).</p><p>Weiterführende Informationen finden Sie im <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">ausführlichen Handbuch</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">diesem Video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokale Benachrichtigungen<br /> </td> 
