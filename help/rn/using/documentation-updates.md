@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -109,7 +109,7 @@ Ein neuer Abschnitt zur Verwendung von Fallen wurde hinzugefügt – [mehr dazu]
 
 Auf der Seite zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde zur Option **Launch_URL_Campaign** ein Hinweis hinzugefügt – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-Das Handbuch zu E-Mail-Designer wurde neu organisiert – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
+Das Handbuch zum E-Mail-Designer wurde neu organisiert. [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Dokumentationsaktualisierungen – August 2019 {#doc-updates-august-2019}
 
