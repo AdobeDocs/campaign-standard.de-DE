@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 * **[Best Practices im Versand](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Erfahren Sie mehr über Best Practices bei der Erstellung und beim Versand von Nachrichten.
 
-* **[E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Lesen Sie die neu strukturierte Dokumentation zum E-Mail-Designer.
+* **[E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Lesen Sie die neu organisierte Dokumentation zum E-Mail-Designer.
 
 * **[Campaign Standard Mobile Handbuch](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Erfahren Sie mehr über die allgemeinen Richtlinien für Mobillieferungen.
 
@@ -46,8 +46,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Erstellen einer E-Mail</strong></a>
     </div>
-    <em>Erfahren Sie, wie Sie mit dem E-Mail-Designer responsive und personalisierte E-Mails erstellen.</em>
-    <br>
+    <em>Erfahren Sie, wie Sie mit dem E-Mail-Designer responsive und personalisierte E-Mails</em>erstellen können <br>
   </td>
   <td valign="top">
        <img alt="Entwickler" src="start/using/assets/dev.png" />
