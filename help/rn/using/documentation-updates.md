@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -117,7 +117,7 @@ Ein neuer Abschnitt mit Anwendungsfällen zu Workflows, bei denen Abfragen erfor
 
 Im Abschnitt mit der Workflow-Fehlerbehebung wurde eine Beschreibung hinzugefügt, wie SQL-Abfragen in der Protokolltabelle angezeigt werden können – [mehr dazu](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Ein neuer Hilfeartikel wurde hinzugefügt, der Informationen über untergeordnete Domänen und die Verwaltung von Zertifikaten im Control Panel enthält – [mehr dazu](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+Ein neuer Hilfeartikel wurde hinzugefügt, der Informationen über untergeordnete Domänen und die Verwaltung von Zertifikaten im Control Panel enthält – [mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 Der Abschnitt, in dem Inhaltsvorlagen und Fragmente beschrieben werden, wurde aktualisiert – [mehr dazu](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -179,7 +179,7 @@ Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinz
 
 ### Neue Funktionen in der Version {#new-capabilities-included-in-the-release}
 
-Control Panel – [mehr dazu](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Control Panel – [mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Lokale Benachrichtigungen – [mehr dazu](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
