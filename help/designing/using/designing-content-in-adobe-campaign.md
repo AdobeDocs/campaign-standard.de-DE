@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -31,7 +31,7 @@ In diesen [Videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-desig
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* Informationen zum Erstellen von E-Mail-Inhalten finden Sie unter Erste [Schritte mit dem E-Mail-Designer](../../designing/using/quick-start.md).
+* Informationen zum Erstellen von E-Mail-Inhalten finden Sie unter [Erste Schritte mit dem E-Mail-Designer](../../designing/using/quick-start.md).
 * Eine Übersicht über Email Designer finden Sie unter [Verwenden von Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 * Weitere Informationen zum Erstellen von Inhalten:
    * Wenn Sie E-Mails von Grund auf neu erstellen möchten, lesen Sie [Erstellen neuer E-Mails](../../designing/using/designing-from-scratch.md).
