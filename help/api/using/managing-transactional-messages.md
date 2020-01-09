@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
 
 ---
 
@@ -25,9 +25,9 @@ Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Erei
 
 >[!NOTE]
 >
->Erstellen und Veröffentlichen von Ereignissen finden Sie in <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">der Kampagnendokumentation</a>.
+>Das Erstellen und Veröffentlichen eines Ereignisses wird in [diesem Abschnitt](../../administration/using/configuring-transactional-messaging.md)erläutert.
 
-Sie möchten z. B., dass ein "Warenkorbabbruch"ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Einkaufswagen kauft. Dazu muss Ihr Webentwickler die REST Transactional Messages API verwenden.
+Sie möchten z. B., dass ein &quot;Warenkorbabbruch&quot;ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Einkaufswagen kauft. Dazu muss Ihr Webentwickler die REST Transactional Messages API verwenden.
 
 1. Der Entwickler sendet eine Anforderung gemäß der POST-Methode, die das [Senden des Transaktionsereignisses](#sending-a-transactional-event)auslöst.
 1. Die Antwort auf die POST-Anforderung enthält einen primären Schlüssel, mit dem der Entwickler eine oder mehrere Anforderungen über eine GET-Anforderung senden kann. So kann er den [Ereignisstatus](#transactional-event-status)abrufen.
@@ -40,21 +40,21 @@ Das Transaktionsereignis wird über eine POST-Anforderung mit der folgenden URL-
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANISATION&gt;**: Ihre persönliche Organisations-ID. Siehe [diesen Abschnitt](../../api/using/must-read.md).
+* **&lt;ORGANISATION>**: Ihre persönliche Organisations-ID. Siehe [diesen Abschnitt](../../api/using/must-read.md).
 
-* **&lt;transactionalAPI&gt;**: die EndPoints der Transactional Messages API.
+* **&lt;transactionalAPI>**: die EndPoints der Transactional Messages API.
 
-   Der Name des API-Endpunkts für Transaktionsmeldungen hängt von Ihrer Instanzkonfiguration ab. Es entspricht dem Wert "mc", gefolgt von Ihrer persönlichen Organisations-ID. Nehmen wir das Beispiel des Unternehmens Geometrixx mit der Organisations-ID "geometrixx". In diesem Fall lautet der POST-Antrag wie folgt:
+   Der Name des API-Endpunkts für Transaktionsmeldungen hängt von Ihrer Instanzkonfiguration ab. Es entspricht dem Wert &quot;mc&quot;, gefolgt von Ihrer persönlichen Organisations-ID. Nehmen wir das Beispiel des Unternehmens Geometrixx mit der Organisations-ID &quot;geometrixx&quot;. In diesem Fall lautet der POST-Antrag wie folgt:
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
    (Beachten Sie, dass der API-Endpunkt für Transaktionsmeldungen auch während der API-Vorschau sichtbar ist)
 
-* **&lt;eventID&gt;**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereignisdefinition generiert. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereignisdefinition generiert. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### POST-Anforderungsheader
 
-Die Anforderung muss einen "Content-Type: application/json".
+Die Anforderung muss einen &quot;Content-Type: application/json&quot;.
 
 Sie müssen ein Zeichensatz hinzufügen, z. B. **utf-8**. Beachten Sie, dass dieser Wert von der verwendeten REST-Anwendung abhängt.
 
@@ -69,7 +69,7 @@ Sie müssen ein Zeichensatz hinzufügen, z. B. **utf-8**. Beachten Sie, dass die
 
 ### POST-Anforderungstext
 
-Die Ereignisdaten sind im JSON POST-Textkörper enthalten. Die Ereignisstruktur hängt von ihrer Definition ab. Die Schaltfläche "API-Vorschau"im Bildschirm "Ressourcendefinition"enthält ein Anforderungsbeispiel. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+Die Ereignisdaten sind im JSON POST-Textkörper enthalten. Die Ereignisstruktur hängt von ihrer Definition ab. Die Schaltfläche &quot;API-Vorschau&quot;im Bildschirm &quot;Ressourcendefinition&quot;enthält ein Anforderungsbeispiel. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Die folgenden optionalen Parameter können zum Ereignisinhalt hinzugefügt werden, um das Senden von mit dem Ereignis verknüpften Transaktionsmeldungen zu verwalten:
 
@@ -78,7 +78,7 @@ Die folgenden optionalen Parameter können zum Ereignisinhalt hinzugefügt werde
 
 >[!NOTE]
 >
->Die Werte der Parameter "expiration"und "geplante"entsprechen dem ISO 8601-Format. ISO 8601 gibt die Verwendung des Großbuchstabens "T"zur Trennung von Datum und Uhrzeit an. Es kann jedoch aus der Eingabe oder Ausgabe entfernt werden, um die Lesbarkeit zu verbessern.
+>Die Werte der Parameter &quot;expiration&quot;und &quot;geplante&quot;entsprechen dem ISO 8601-Format. ISO 8601 gibt die Verwendung des Großbuchstabens &quot;T&quot;zur Trennung von Datum und Uhrzeit an. Es kann jedoch aus der Eingabe oder Ausgabe entfernt werden, um die Lesbarkeit zu verbessern.
 
 ### Antwort auf die POST-Anforderung
 
@@ -88,7 +88,7 @@ Die POST-Antwort gibt den Transaktionsstatus zum Zeitpunkt der Erstellung zurüc
 
 <br/>
 
-***Musteranforderung***
+***Musteranforderung ***
 
 POST-Anfrage zum Senden des Ereignisses.
 
@@ -136,7 +136,7 @@ Antwort auf die POST-Anforderung.
 
 ### Status des Transaktionsereignisses {#transactional-event-status}
 
-In der Antwort können Sie im Feld "Status"wissen, ob das Ereignis verarbeitet wurde oder nicht:
+In der Antwort können Sie im Feld &quot;Status&quot;wissen, ob das Ereignis verarbeitet wurde oder nicht:
 
 * **ausstehend**: das Ereignis aussteht - das Ereignis nimmt diesen Status ein, wenn es gerade ausgelöst wurde.
 * **Verarbeitung**: das Ereignis aussteht - es wird in eine Nachricht umgewandelt und die Nachricht wird gesendet.
