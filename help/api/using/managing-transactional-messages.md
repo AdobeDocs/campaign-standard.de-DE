@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
+source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 ---
 
@@ -25,7 +25,7 @@ Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Erei
 
 >[!NOTE]
 >
->Das Erstellen und Veröffentlichen eines Ereignisses wird in [diesem Abschnitt](../../administration/using/configuring-transactional-messaging.md)erläutert.
+>Erstellen und Veröffentlichen von Ereignissen finden Sie in <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">der Kampagnendokumentation</a>.
 
 Sie möchten z. B., dass ein &quot;Warenkorbabbruch&quot;ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Einkaufswagen kauft. Dazu muss Ihr Webentwickler die REST Transactional Messages API verwenden.
 
