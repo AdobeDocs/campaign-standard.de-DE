@@ -11,8 +11,8 @@ topic-tags: campaign-standard-releases
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 
 ## Version 16.11 - November 2016 {#release-16-11---november-2016}
 
-### Neue Funktionen {#new-capabilities}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -48,39 +48,39 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches}
+**Korrekturen**
 
-#### Allgemein {#general}
+_Allgemein_
 
 * Fehlerkorrektur – diverse Sicherheitsprobleme wurden behoben.
 * Verschiedene Probleme im Zusammenhang mit leeren oder doppelten Feldern in der REST-API wurden behoben.
 * SMS-Nachrichten und Push-Benachrichtigungen können nun direkt über die Startseite der Anwendung erstellt werden.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages}
+_E-Mails und SMS-Nachrichten_
 
 * Fehlerkorrektur – ZIP-Dateien können nun im Inhaltseditor hochgeladen werden.
 * Fehlerkorrektur – ein bereits gesendeter Testversand kann nun geöffnet werden.
-* Fehlerkorrektur – der Zugriff auf den Bericht **[!UICONTROL Klicks]** für eine A/B-Test-E-Mail erzeugt nun keine Fehlermeldung mehr.
-* Fehlerkorrektur – Änderungen, die im Modus **[!UICONTROL Quelle anzeigen]** vorgenommen wurden, können nun angewendet werden.
+* Fehlerkorrektur – der Zugriff auf den Bericht **[!UICONTROL Klicks]**für eine A/B-Test-E-Mail erzeugt nun keine Fehlermeldung mehr.
+* Fehlerkorrektur – Änderungen, die im Modus **[!UICONTROL Quelle anzeigen]**vorgenommen wurden, können nun angewendet werden.
 * Fehlerkorrektur – XML-Modelldateien für die prädiktive Betreffzeile lassen sich nun importieren.
-* Unter **[!UICONTROL Administration &gt; Kanäle &gt; E-Mails &gt; Prädiktive Betreffzeile]** steht nun ein neuer Bildschirm zum Importieren von Daten für das trainierte Betreffzeilenmodell zur Verfügung.
+* Unter **[!UICONTROL Administration > Kanäle > E-Mails > Prädiktive Betreffzeile]**steht nun ein neuer Bildschirm zum Importieren von Daten für das trainierte Betreffzeilenmodell zur Verfügung.
 * Fehlerkorrektur – Benutzer ohne Administratorberechtigungen können nun die zulässigen Masken im E-Mail-Konfigurationsbildschirm nicht mehr bearbeiten.
 
-#### Push-Benachrichtigungen {#push-notifications}
+_Push-Benachrichtigungen_
 
-* Fehlerkorrektur – nach Versand von Push-Benachrichtigungen unter Verwendung der Vorlage **[!UICONTROL Push-Benachrichtigung für Profile senden]** werden nun die Versand- und Ereignislogs der Empfänger angezeigt.
+* Fehlerkorrektur – nach Versand von Push-Benachrichtigungen unter Verwendung der Vorlage **[!UICONTROL Push-Benachrichtigung für Profile senden]**werden nun die Versand- und Ereignislogs der Empfänger angezeigt.
 * Fehlerkorrektur – kein Problem bei der Erstellung neure Mobile-Apps mehr.
 
-#### Workflows {#workflows}
+_Workflows_
 
 * Fehlerkorrektur – bei Verwendung der **[!UICONTROL Abonnement]**-Aktivität tritt nun kein Leistungsproblem mehr auf.
 * Fehlerkorrektur – Workflows, deren interner Name ein Leerzeichen enthält, arbeiten nun problemlos.
 
-#### Integrationen {#integrations}
+_Integrationen_
 
 * Fehlerkorrektur – bei Verwendung der Option **Freigegebenes Bild der Adobe Experience Cloud** in E-Mails wird kein Fehler mehr ausgelöst.
 
-#### Benutzerdefinierte Ressourcen {#custom-resources}
+_Benutzerdefinierte Ressourcen_
 
 * Die API-Protokollvorschau zwischen zwei Publikationen von erweiterten API-Feldern wurde verbessert.
 * Fehlerkorrektur – eine benutzerdefinierte Ressource kann nun vor der Veröffentlichung gelöscht werden.
@@ -89,7 +89,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 
 ## Version 16.10 - Oktober 2016 {#release-16-10---october-2016}
 
-### Neue Funktionen {#new-capabilities-1}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -118,35 +118,35 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-1}
+**Korrekturen**
 
-#### Allgemein {#general-1}
+_Allgemein_
 
 * Fehlerkorrektur – diverse Sicherheitsprobleme wurden behoben.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-1}
+_E-Mails und SMS-Nachrichten_
 
-* Der Konfigurationsbildschirm für externe SMS-Konten (**[!UICONTROL Administration &gt; Kanäle &gt; SMS &gt; SMS-Konten]**) wurde verbessert. Im Bereich **[!UICONTROL SMSC-Besonderheiten]** wurden mehrere Parameter hinzugefügt, damit im "Text"-Feld Fehlercodes unterstützt werden.
+* Der Konfigurationsbildschirm für externe SMS-Konten (**[!UICONTROL Administration > Kanäle > SMS > SMS-Konten]**) wurde verbessert. Im Bereich**[!UICONTROL  SMSC-Besonderheiten]** wurden mehrere Parameter hinzugefügt, damit im &quot;Text&quot;-Feld Fehlercodes unterstützt werden.
 
-#### Push-Benachrichtigungen {#push-notifications-1}
+_Push-Benachrichtigungen_
 
-* Fehlerkorrektur – die Anzeige von vordefinierten Filtern wird nicht länger behindert, wenn die Audience einer Push-Benachrichtigung mithilfe der Vorlage **[!UICONTROL Push-Benachrichtigungs-Versand]** (mobileApp) bearbeitet wird.
-* Im Konfigurationsbildschirm von Mobile Apps (**[!UICONTROL Administration &gt; Kanäle &gt; Push-Benachrichtigung &gt; Mobile Apps]**) wird nun eine Nachricht angezeigt, die darüber informiert, dass die iOS- bzw. Android-Plattform erfolgreich erstellt wurde.
+* Fehlerkorrektur – die Anzeige von vordefinierten Filtern wird nicht länger behindert, wenn die Audience einer Push-Benachrichtigung mithilfe der Vorlage **[!UICONTROL Push-Benachrichtigungs-Versand]**(mobileApp) bearbeitet wird.
+* Im Konfigurationsbildschirm von Mobile Apps (**[!UICONTROL Administration > Kanäle > Push-Benachrichtigung > Mobile Apps]**) wird nun eine Nachricht angezeigt, die darüber informiert, dass die iOS- bzw. Android-Plattform erfolgreich erstellt wurde.
 
-#### Landingpages {#landing-pages}
+_Landingpages_
 
 * Fehlerkorrektur – diverse Probleme wurden behoben, sodass der Versand von Bestätigungs-E-Mails nach der Unterbreitung eines Landingpage-Formulars nicht länger verhindert wird.
 
-#### Audiences und Abfragen {#audiences-and-queries}
+_Audiences und Abfragen_
 
 * Fehlerkorrektur – diverse Probleme wurden behoben, sodass Profile nun problemlos im Abfrageeditor ausgewählt werden können.
 
-#### Transaktionsnachrichten {#transactional-messages}
+_Transaktionsnachrichten_
 
 * Fehlerkorrektur – die Depublikation von Transaktionsvorlagen funktioniert nun fehlerfrei.
 * Fehlerkorrektur – Trigger-Ereignisse werden nicht länger in der Liste der Ereignisse angezeigt.
 
-#### Integrationen {#integrations-1}
+_Integrationen_
 
 * Fehlerkorrektur – freigegebene Zielgruppen können nun ungehindert in Sendungen verwendet werden, nachdem sie aktualisiert wurden.
 * Fehlerkorrektur – freigegebene Assets (Option **[!UICONTROL Freigegebenes Bild der Adobe Experience Cloud]**) können nun problemlos in Landingpages verwendet werden.
@@ -154,7 +154,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 
 ## Version 16.9 - September 2016 {#release-16-9---september-2016}
 
-### Neue Funktionen {#new-capabilities-2}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -187,36 +187,36 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-2}
+**Korrekturen**
 
-#### Allgemein {#general-2}
+_Allgemein_
 
 * Mit dieser Version werden in der Benutzeroberfläche neue Filter- und Suchoptionen in Listen verfügbar. Diese neue Funktion ist beispielsweise in Logs (Versand, Tracking), Diensten (Abonnement, Abonnementverlauf), Audiences und Workflow-Transitionen verfügbar.
 * Fehlerkorrektur – diverse auf die Touchpoints-Anzahl in Kundenprofilen bezogene Anzeigeprobleme wurden behoben.
 * Fehlerkorrektur – diverse Typologieprobleme wurden behoben.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-2}
+_E-Mails und SMS-Nachrichten_
 
 * Fehlerkorrektur – fehlerhafte Testsendungen können nicht länger bearbeitet werden. Sie sind nun schreibgeschützt.
 * Fehlerkorrektur – Empfänger laufen bei zu langen oder Kodierungsprobleme aufweisenden SMS-Nachrichten nicht länger Gefahr, auf die Blacklist gesetzt zu werden.
 
-#### Benutzerdefinierte Ressourcen {#custom-resources-1}
+_Benutzerdefinierte Ressourcen_
 
 * Fehlerkorrektur – bei der Verwendung erweiterter Filter einer benutzerdefinierten Ressource werden nun alle Ergebnisse angezeigt.
 
-#### Transaktionsnachrichten {#transactional-messages-1}
+_Transaktionsnachrichten_
 
 * Der Kennung einer neuen Ereignisdefinition wird nun automatisch ein Präfix hinzugefügt.
 * In der Benutzeroberfläche wurde das Symbol für Transaktionsnachrichten geändert.
 
-#### Integrationen {#integrations-2}
+_Integrationen_
 
 * Fehlerkorrektur – beim Einfügen von Bildern mit hoher Auflösung unter Verwendung der Option **Dynamisches Bild von Adobe Target** kommt es nicht länger zu Anzeigefehlern.
 * Fehlerkorrektur – eine freigegebene Zielgruppe kann künftig nicht mehr gespeichert werden, wenn in AMC Data Source keine Destination ID angegeben wurde.
 
 ## Version 16.7 - Juli 2016 {#release-16-7---july-2016}
 
-### Neue Funktionen {#new-capabilities-3}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -245,32 +245,32 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-3}
+**Korrekturen**
 
-#### Allgemein {#general-3}
+_Allgemein_
 
 * Fehlerkorrektur – anstelle irrelevanter Felder werden nun die Felder angezeigt, die ausgefüllt werden müssen. Irrelevante Felder wurden bisher angezeigt, nachdem bei der Bearbeitung einer Bedingung in einer Abfrage mehrmals der Vergleichsoperator geändert wurde.
-* Fehlerkorrektur – bei der Definition einer relativen, auf ein Datumsfeld bezogenen Filterbedingung wurde das Verhalten der Option **[!UICONTROL Letzten X Tage/Monate/Quartale/Jahre]** korrigiert. Der Zeitraum wird künftig gleitend im Bezug auf Datum und Uhrzeit des Servers und nicht im Bezug auf ein Kalenderdatum berechnet.
+* Fehlerkorrektur – bei der Definition einer relativen, auf ein Datumsfeld bezogenen Filterbedingung wurde das Verhalten der Option **[!UICONTROL Letzten X Tage/Monate/Quartale/Jahre]**korrigiert. Der Zeitraum wird künftig gleitend im Bezug auf Datum und Uhrzeit des Servers und nicht im Bezug auf ein Kalenderdatum berechnet.
 
-#### Workflows {#workflows-1}
+_Workflows_
 
 * Fehlerkorrektur – in den Eigenschaften von **[!UICONTROL Abfrage]**-Aktivitäten wird im Bildschirm zur Auswahl der Zielgruppendimension nun die richtige Werteliste ausgegeben.
-* Fehlerkorrektur – in **[!UICONTROL Abfrage]**-Aktivitäten wird bei Hinzufügung eines auf Kollektionselemente bezogenen Aggregats vom Typ Durchschnitt oder Zählung die Auswahl des **existiert**-Operators nicht mehr erzwungen.
+* Fehlerkorrektur – in **Abfrage**-Aktivitäten wird bei Hinzufügung eines auf Kollektionselemente bezogenen Aggregats vom Typ Durchschnitt oder Zählung die Auswahl des **[!UICONTROL existiert]**-Operators nicht mehr erzwungen.
 
-#### Inhaltsbearbeitung {#content-editing}
+_Inhaltsbearbeitung_
 
-* Fehlerkorrektur – beim Import von HTML-Inhalten treten keine Anzeigeprobleme im Bezug auf das "Responsive Design" mehr auf.
+* Fehlerkorrektur – beim Import von HTML-Inhalten treten keine Anzeigeprobleme im Bezug auf das &quot;Responsive Design&quot; mehr auf.
 * Die Stilattribute werden beim ersten Öffnen des Inhalts nach dem Import nicht mehr überschrieben.
 * Fehlerkorrektur – das Hinzufügen einer Bedingung zu einer dynamischen Inhaltsvariante löst keinen Fehler mehr aus. Fehlerkorrektur – das Hinzufügen einer Checkbox zum Inhalt einer Landingpage löst keinen Fehler mehr aus. Die Checkbox kann nun verwendet werden.
 * Fehlerkorrektur – das Löschen von Text in einem Block löst auch dann keinen Fehler mehr aus, wenn der Cursor am Anfang des entsprechenden Blocks platziert ist.
 
-#### Transaktionsnachrichten {#transactional-messages-2}
+_Transaktionsnachrichten_
 
 * Bei der Integration in eine Webseite ist es künftig möglich, für ein gegebenes Ereignis ein Ablaufdatum zu definieren. Nach Überschreiten dieses Datums kann die dem Ereignis entsprechende Nachricht nicht mehr gesendet werden.
 
 ## Version 16.6 - Juni 2016 {#release-16-6---june-2016}
 
-### Neue Funktionen {#new-capabilities-4}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -287,9 +287,9 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-4}
+**Korrekturen**
 
-#### Allgemein {#general-4}
+_Allgemein_
 
 * Tooltips sind fortan auf Mobilgeräten deaktiviert, um die Lesbarkeit der angezeigten Informationen zu gewährleisten.
 * Fehlerkorrektur – der Inhalt bestimmter Bildschirmbereiche auf dem iPad kann nun problemlos gescrollt werden.
@@ -299,7 +299,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – bei der Konfiguration der Anzeige von Listen werden die Elemente einer Ressource nun korrekt angezeigt.
 * Fehlerkorrektur – im Explorer des Abfrageeditors werden mittels des Suchfelds ausgegebene Ergebnisse nicht im Suchverlauf beibehalten, sodass sie bei einer erneuten Suche nicht weiterhin angezeigt werden.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-3}
+_E-Mails und SMS-Nachrichten_
 
 * Fehlerkorrektur – die auf Bounces bezogenen Informationen in Versandprotokollen können nun problemlos abgerufen werden.
 * Fehlerkorrektur – auf den Kontext von dynamischen Inhaltsbausteinen in Transaktionsnachrichten kann nun problemlos zugegriffen werden.
@@ -307,27 +307,27 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – die Anzeige der Titelleiste des Erstellungsassistenten eines Versands wurde korrigiert.
 * Der Primärschlüssel eines Versands kann nicht länger als Personalisierungsfeld verwendet werden.
 
-#### Workflows {#workflows-2}
+_Workflows_
 
 * Die Transitionen zwischen zwei Workflow-Aktivitäten zeigen nun die Anzahl der berechneten und von einer Aktivität zur anderen übertragenen Elemente an.
 * Beim Hinzufügen von Zusatzdaten in einer **[!UICONTROL Abfrage]**-Aktivität sind die inkompatiblen Felder nun ausgeblendet.
 * Das beim Hinzufügen von Zusatzdaten angezeigte Fenster zur Aggregatdefinition wurde insofern verbessert, als nur noch kompatible Optionen vorgeschlagen werden (z. B.: Ein Durchschnitt lässt sich ausschließlich unter Verwendung numerischer Daten berechnen).
 * Start oder Neustart nativer technischer Workflows lassen sich nun nur noch von Benutzern mit Administratorrechten ausführen.
 
-#### Landingpages {#landing-pages-1}
+_Landingpages_
 
 * Fehlerkorrektur – in den Eigenschaften von Landingpages kommt es nicht länger zur Beschädigung von Schlüsseln mit AES-32-Bit-Verschlüsselung.
 * Fehlerkorrektur – bei der Definition von Sichtbarkeitsbedingungen oder dem Hinzufügen von dynamischen Inhalten in Landingpages wird der Abfrageeditor nun korrekt angezeigt.
 
-#### Benutzerdefinierte Ressourcen {#custom-resources-2}
+_Benutzerdefinierte Ressourcen_
 
-* Die Option **[!UICONTROL In den Parametermodus wechseln]** ist nun bei der Definition eines auf die Dienstanmeldungen eines Profils bezogenen Filters ausgeblendet.
+* Die Option **[!UICONTROL In den Parametermodus wechseln]**ist nun bei der Definition eines auf die Dienstanmeldungen eines Profils bezogenen Filters ausgeblendet.
 * Fehlerkorrektur – bei der Konfiguration einer 0:1-Relation in einer benutzerdefinierten Ressource wird kein Fehler mehr erzeugt.
 * Fehlerkorrektur – der beim Hinzufügen eines Felds vom Typ **Datum und Uhrzeit** in einer benutzerdefinierten Ressource definierte **Konstante Standardwert** kann nun bei Bedarf problemlos bearbeitet werden.
 
 ## Version 16.5 - Mai 2016 {#release-16-5---may-2016}
 
-### Neue Funktionen {#new-capabilities-5}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -356,56 +356,56 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-5}
+**Korrekturen**
 
-#### Allgemein {#general-5}
+_Allgemein_
 
 * Die Benutzeroberfläche wurde in vielerlei Hinsicht und entsprechend den Experience-Cloud-Standards verbessert.
 * Die verschiedenen Typen von Dropdown-Listen wurden vereinheitlicht.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-4}
+_E-Mails und SMS-Nachrichten_
 
 * Fehlerkorrektur – E-Mails können nun auch dann problemlos gesendet werden, wenn die Fehleradressenmaske ausgefüllt ist.
 * Für den Versand von E-Mails wird künftig das TLS-Protokoll unterstützt. Mithilfe einer neuen Spalte in der MX-Verwaltung lässt sich künftig für jede Domain das gewünschte TLS-Verhalten definieren.
 * Die Benutzeroberfläche von SMS wurde verbessert.
 
-#### Workflows {#workflows-3}
+_Workflows_
 
 * Diverse Verbesserungen der Workflow-Benutzeroberfläche.
 * Fehlerkorrektur – die Quick Actions werden nun korrekt angezeigt.
-* Fehlerkorrektur – Workflows schlagen nicht länger fehl, wenn Aktivitäten des Typs **[!UICONTROL Segmentierung]** verwendet werden, die eine 1:n-Relation enthalten.
+* Fehlerkorrektur – Workflows schlagen nicht länger fehl, wenn Aktivitäten des Typs **[!UICONTROL Segmentierung]**verwendet werden, die eine 1:n-Relation enthalten.
 * Fehlerkorrektur – Workflow-Transitionen lassen sich nun auch ungehindert auf hybriden Geräten öffnen.
-* Fehlerkorrektur – die 'Aussetzen'-Schaltfläche wird nun auch beim ersten Start eines Workflows angezeigt.
+* Fehlerkorrektur – die &#39;Aussetzen&#39;-Schaltfläche wird nun auch beim ersten Start eines Workflows angezeigt.
 
-#### Inhaltseditor {#content-editor}
+_Inhaltseditor_
 
 * Mit dem Inhaltseditor lassen sich jetzt jegliche URLs in E-Mails oder Landingpages personalisieren. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../designing/using/personalization.md#personalizing-urls).
 * Fehlerkorrektur – Bilder gehen nicht länger verloren, wenn sie im Erstellungsassistenten des Versands hinzugefügt und der Inhalt in der Folge geändert wurde.
 
-#### Benutzerdefinierte Ressourcen {#custom-resources-3}
+_Benutzerdefinierte Ressourcen_
 
 * Fehlerkorrektur – das Hinzufügen eines personalisierten Links vom Typ 1:n im Konfigurationsbildschirm einer benutzerdefinierten Ressource löst keinen Fehler mehr aus.
 * Die Fortschrittsanzeige bei der Vorbereitung und Publikation von benutzerdefinierten Ressourcen wurde verbessert.
 * Fehlerkorrektur – die Anzeige der Liste der Relationen einer benutzerdefinierten Ressource erfolgt nun fehlerfrei.
 
-#### Transaktionsnachrichten {#transactional-messages-3}
+_Transaktionsnachrichten_
 
 * Die Benutzerfreundlichkeit der Oberfläche sowie die Leistungsfähigkeit und Robustheit der Transaktionsnachrichten-Engine wurden optimiert.
 * Es besteht künftig die Möglichkeit, die Publikation von Transaktionsnachrichtenvorlagen vorübergehend auszusetzen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication).
 * Fehlerkorrektur – in Transaktionsnachrichtenvorlagen können nicht länger Inhaltsbausteine mit inkompatibler Zielgruppendimension hinzugefügt werden.
 * Fehlerkorrektur – die Anzeige der API-Vorschau im Konfigurationsbildschirm eines Ereignisses wird nicht länger behindert.
 
-#### Audiences und Abfragen {#audiences-and-queries-1}
+_Audiences und Abfragen_
 
 * Verschiedene auf die Datumsangabe im Abfrageeditor bezogene Korrekturen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/editing-queries.md#creating-queries).
 
-#### Administration {#administration}
+_Administration_
 
-* Fehlerkorrektur – ein auf den Namen der Sicherheitsgruppe "Standardbenutzer" bezogener Fehler hindert Benutzer nicht länger daran, sich einzuloggen.
+* Fehlerkorrektur – ein auf den Namen der Sicherheitsgruppe &quot;Standardbenutzer&quot; bezogener Fehler hindert Benutzer nicht länger daran, sich einzuloggen.
 
 ## Version 16.3 - März 2016 {#release-16-3---march-2016}
 
-### Neue Funktionen {#new-capabilities-6}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -430,38 +430,38 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-6}
+**Korrekturen**
 
-#### Allgemein {#general-6}
+_Allgemein_
 
 * Fehlerkorrektur – bei der Sortierung von Listen tritt kein Anzeigefehler mehr auf: Der die Sortierreihenfolge anzeigende Pfeil zeigt nun für alle Datentypen in die richtige Richtung.
 * Fehlerkorrektur – bei der Hinzufügung einer Regel in einer Abfrage wird die Anzahl der in einem Dropdown-Menü angezeigten Elemente nicht mehr begrenzt.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-5}
+_E-Mails und SMS-Nachrichten_
 
 * Fehlerkorrektur – der Zugriff auf den E-Mail-Rendering-Bericht erfolgt nun fehlerfrei.
 * Bei der Versandvorbereitung wird nun ein Fehler ausgegeben, wenn keine Absenderadresse angegeben wurde.
 
-#### Workflows {#workflows-4}
+_Workflows_
 
 * Bei der Extraktion von Dateien im CSV-Format wurden gewisse Optionen zur Dateiformatierung angezeigt, ohne berücksichtigt zu werden. Diese Optionen werden künftig nicht mehr angezeigt.
-* Fehlerkorrektur – bei der Übertragung einer **[!UICONTROL SFTP]**-Datei tritt kein Fehler mehr auf, wenn die Option **[!UICONTROL Quelldateien nach der Übertragung löschen]** angekreuzt ist.
-* Fehlerkorrektur – die Anzeige der Zählung und Datenvorschau einer **[!UICONTROL Abfrage]** ist nun auch nach der Aktualisierung der Seite fehlerfrei möglich.
+* Fehlerkorrektur – bei der Übertragung einer **[!UICONTROL SFTP]**-Datei tritt kein Fehler mehr auf, wenn die Option**[!UICONTROL  Quelldateien nach der Übertragung löschen]** angekreuzt ist.
+* Fehlerkorrektur – die Anzeige der Zählung und Datenvorschau einer **[!UICONTROL Abfrage]**ist nun auch nach der Aktualisierung der Seite fehlerfrei möglich.
 * Fehlerkorrektur – das Öffnen bestimmter Transitionen, insbesondere derer, die aus Versandaktivitäten oder Abfragen mit unterschiedlicher Zielgruppen- und Filterdimension ausgehen, löst keinen Fehler mehr aus.
 * Fehlerkorrektur – Personalisierungsfelder können nun auch dann problemlos in eine Versandaktivität eingefügt werden, wenn der Workflow nach dem Hinzufügen der Aktivität nicht erneut gespeichert wurde.
 * Fehlerkorrektur – die Zielgruppendimension ausgehender Transitionen einer E-Mail-Versandaktivität wird nun fehlerfrei angezeigt.
 
-#### Landingpages {#landing-pages-2}
+_Landingpages_
 
 * Fehlerkorrektur – Personalisierungsfelder funktionieren nun auch in lokalisierbaren Inhaltsbausteinen von Landingpages.
 
-#### Benutzerdefinierte Ressourcen {#custom-resources-4}
+_Benutzerdefinierte Ressourcen_
 
-* Fehlerkorrektur – eine benutzerdefinierte Ressource kann nun auch dann fehlerfrei durchsucht werden, wenn in der Bildschirmdefinition der Ressource die Option **[!UICONTROL Felder zur Suche hinzufügen]** angekreuzt ist und in der **[!UICONTROL Zusammenstellung des Filterbereichs]** mehrere Felder ausgewählt sind.
+* Fehlerkorrektur – eine benutzerdefinierte Ressource kann nun auch dann fehlerfrei durchsucht werden, wenn in der Bildschirmdefinition der Ressource die Option **[!UICONTROL Felder zur Suche hinzufügen]**angekreuzt ist und in der**[!UICONTROL  Zusammenstellung des Filterbereichs]** mehrere Felder ausgewählt sind.
 
 ## Version 16.2 - Februar 2016 {#release-16-2---february-2016}
 
-### Neue Funktionen {#new-capabilities-7}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -490,48 +490,48 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-7}
+**Korrekturen**
 
-#### Allgemein {#general-7}
+_Allgemein_
 
 * Fehlerkorrektur – die Anzeige in Berichten, Listen und Abfragen erfolgt nun fehlerfrei.
 * Fehlerkorrektur – bei mobilen Geräten kommt es nicht mehr zu Kompatibilitäts- und Anzeigeproblemen.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-6}
+_E-Mails und SMS-Nachrichten_
 
 * Fehlerkorrektur – bei der Erstellung von Nachrichten (E-Mail oder SMS) wird die Anzeige der Schaltfläche zum Einfügen von Personalisierungsfeldern nicht mehr behindert.
 * Fehlerkorrektur – über Mblox gesendete SMS werden nun korrekt übertragen.
 
-#### Audiences und Abfragen {#audiences-and-queries-2}
+_Audiences und Abfragen_
 
 * Fehlerkorrektur – beim Hinzufügen einer zusätzlichen Bedingung in einer Abfrage wird auch dann kein die Zählung betreffender Fehler mehr erzeugt, wenn zuvor die Filterdimension geändert wurde.
 * Fehlerkorrektur – bei der Vorschau von Abfrageergebnissen kommt es nicht länger zu einem falschen Seitenumbruch.
 
-#### Inhaltsbearbeitung {#content-editing-1}
+_Inhaltsbearbeitung_
 
 * Fehlerkorrektur – bei der Verwendung benutzerdefinierter Auflistungen wird die Konfiguration eines dynamischen Inhalts nun korrekt berücksichtigt.
 
-#### Workflows {#workflows-5}
+_Workflows_
 
-* Fehlerkorrektur – das Vorhandensein einer leeren Zeile im Tab **[!UICONTROL Zu aktualisierende Felder]** einer **[!UICONTROL Daten-Update]**-Aktivität verhindert nicht länger die Ausführung aller Aktivitäten in einem Workflow.
+* Fehlerkorrektur – das Vorhandensein einer leeren Zeile im Tab **[!UICONTROL Zu aktualisierende Felder]**einer**[!UICONTROL  Daten-Update]**-Aktivität verhindert nicht länger die Ausführung aller Aktivitäten in einem Workflow.
 * Fehlerkorrektur – der Import von Daten, die Informationen zu geografischen Einheiten und Organisationseinheiten enthalten, ist nun fehlerfrei möglich.
-* Fehlerkorrektur – das Hinzufügen einer **[!UICONTROL Ausschluss]**-Regel vom Typ **[!UICONTROL Achsenänderung]** löst keinen Fehler mehr aus.
+* Fehlerkorrektur – das Hinzufügen einer **[!UICONTROL Ausschluss]**-Regel vom Typ**[!UICONTROL  Achsenänderung]** löst keinen Fehler mehr aus.
 * Fehlerkorrektur – die Manipulation einer aus einer **[!UICONTROL Segmentierung]**-Aktivität ausgehenden Transition führt nicht länger zur Erstellung eines unerwünschten zusätzlichen Segments.
 * Fehlerkorrektur – das Laden einer Datei in einer Workflow-Vorlage erzeugt keinen Fehler mehr.
 * Fehlerkorrektur – Leerzeichen können nun ungehindert als Spaltentrennzeichen in der **[!UICONTROL Datei-laden]**-Aktivität verwendet werden.
 
-#### Benutzerdefinierte Ressourcen {#custom-resources-5}
+_Benutzerdefinierte Ressourcen_
 
 * Fehlerkorrektur – der Status einer benutzerdefinierten Ressource lässt sich nach einem Package-Import nun auch dann zurücksetzen, wenn die Ressource zum Zeitpunkt des Exports bereits publiziert war.
 
-#### Packages {#packages}
+_Packages_
 
 * Fehlerkorrektur – Packages können nun auch dann exportiert werden, wenn sie einen Workflow enthalten.
 * Fehlerkorrektur – die Auswahl mehrerer Elemente derselben Ressource wird nicht länger behindert.
 
 ## Version 16.1 - Januar 2016 {#release-16-1---january-2016}
 
-### Neue Funktionen {#new-capabilities-8}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -564,19 +564,19 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-8}
+**Korrekturen**
 
-#### Allgemein {#general-8}
+_Allgemein_
 
 * Verbesserung der Kompatibilität mit Internet Explorer und Chrome bei Hybrid- und Touch-Geräten.
 * Fehlerkorrektur – kein Datenverlust mehr, wenn bei der Erstellung eines neuen Benutzers/Profils/Testprofils die E-Mail-Adresse eine fehlerhafte Syntax aufweist.
 
-#### E-Mails und SMS-Nachrichten {#emails-and-sms-messages-7}
+_E-Mails und SMS-Nachrichten_
 
 * Fehlerkorrektur – die Miniaturansicht des Inhalts kann nun auch aus der E-Mail-Vorschau korrekt erzeugt werden.
 * Fehlerkorrektur – der Roh-Inhalt von E-Mails oder SMS wird nun auch im Vorschaubildschirm korrekt angezeigt.
 
-#### Audiences und Abfragen {#audiences-and-queries-3}
+_Audiences und Abfragen_
 
 * Fehlerkorrektur – die Erstellung von **Abfrage**-Audiences ist nun auch in Bezug auf die **Dienst**-Ressource möglich.
 * Fehlerkorrektur – in Abfragen wird die Funktionsliste nun auch bei der Bearbeitung einer Bedingung im erweiterten Modus korrekt angezeigt.
@@ -584,43 +584,43 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – die Erstellung von Abfragen ist nun auch dann möglich, wenn darin auf Versand-KPIs zielende Filter enthalten sind.
 * Fehlerkorrektur – die Vorschau von in Workflows erstellten Audience-Inhalten wird nun korrekt erzeugt.
 
-#### Benutzerdefinierte Ressourcen {#custom-resources-6}
+_Benutzerdefinierte Ressourcen_
 
 * Fehlerkorrektur – kein Serverabsturz mehr bei benutzerdefinierten Ressourcen mit Feldern, die einen dynamischen Standardwert aufweisen.
-* Fehlerkorrektur – bei der Bildschirmdefinition für benutzerdefinierte Ressourcen löst das Verschieben und anschließende Löschen von Elementen im Bereich **[!UICONTROL Konfiguration des Detailbildschirms]** keinen Fehler mehr aus.
+* Fehlerkorrektur – bei der Bildschirmdefinition für benutzerdefinierte Ressourcen löst das Verschieben und anschließende Löschen von Elementen im Bereich **[!UICONTROL Konfiguration des Detailbildschirms]**keinen Fehler mehr aus.
 * Fehlerkorrektur – kein Fehler mehr bei der Definition eines Standardwerts in Listen vom Typ **Integer**, die nicht **0** als möglichen Wert enthalten.
 * Fehlerkorrektur – in benutzerdefinierten Ressourcen ist bei der Konfiguration des Detailbildschirms das Hinzufügen eines Elements nun auch nach einer Zurücksetzung möglich.
 
-#### Workflows {#workflows-6}
+_Workflows_
 
 * Fehlerkorrektur – es werden nicht mehr die Protokolle aller Aktivitäten, sondern nur die der markierten Aktivität angezeigt.
-* Fehlerkorrektur in Zusammenhang mit der Aktivität **[!UICONTROL Planung]**. Die Option **[!UICONTROL Tag des Monats]** wird nun korrekt berücksichtigt und nicht mehr durch **[!UICONTROL Tag der Woche]** ersetzt.
-* Fehlerkorrektur – die Aktivität **[!UICONTROL Planung]** arbeitet nun auch dann korrekt, wenn der Ablaufmodus mit **[!UICONTROL Nach einer bestimmten Anzahl an Ausführungen]** angegeben ist.
+* Fehlerkorrektur in Zusammenhang mit der Aktivität **[!UICONTROL Planung]**. Die Option**[!UICONTROL  Tag des Monats]** wird nun korrekt berücksichtigt und nicht mehr durch **[!UICONTROL Tag der Woche]**ersetzt.
+* Fehlerkorrektur – die Aktivität **[!UICONTROL Planung]**arbeitet nun auch dann korrekt, wenn der Ablaufmodus mit**[!UICONTROL  Nach einer bestimmten Anzahl an Ausführungen]** angegeben ist.
 * Fehlerkorrektur in Zusammenhang mit dem Datenexport mittels der Aktivität **[!UICONTROL Dateiextraktion]**. Die in der Exportdatei enthaltene Anzahl an Zeilen stimmt nun mit der Anzahl an tatsächlich exportierten Elementen überein.
 * Fehlerkorrektur – kein Fehler mehr bei der Auswahl von Dateien in der Aktivität **[!UICONTROL Datei laden]**.
-* Fehlerkorrektur – in der Aktivität **[!UICONTROL Daten-Update]** ist es nun möglich, zu aktualisierende Felder zu löschen.
+* Fehlerkorrektur – in der Aktivität **[!UICONTROL Daten-Update]**ist es nun möglich, zu aktualisierende Felder zu löschen.
 * Fehlerkorrektur – Änderungen eines Workflows können nun auch dann gespeichert werden, wenn zuvor die Ausführungsprotokolle geöffnet wurden.
-* Fehlerkorrektur – die Aktivität **[!UICONTROL Datei laden]** wird nun auch dann nicht mehr doppelt ausgeführt, wenn ihre Konfiguration die Verwendung der Datei der eingehenden Transition vorsieht und diese über eine **[!UICONTROL Dateiübertragung]** geladen wurde.
+* Fehlerkorrektur – die Aktivität **[!UICONTROL Datei laden]**wird nun auch dann nicht mehr doppelt ausgeführt, wenn ihre Konfiguration die Verwendung der Datei der eingehenden Transition vorsieht und diese über eine**[!UICONTROL  Dateiübertragung]** geladen wurde.
 * Fehlerkorrektur – temporäre Entitäten werden nun von **Ausschluss**-Aktivitäten korrekt verarbeitet.
 * Fehlerkorrektur – **[!UICONTROL Abfrage]**-Aktivitäten werden nun auch dann korrekt ausgeführt, wenn die in der Aktivität konfigurierten Zielgruppen- und Filterdimensionen verschieden sind.
 * Fehlerkorrektur – bei **[!UICONTROL Verzweigung]**-Aktivitäten wird das Speichern des Workflows nicht mehr durch die automatische Benennung von ausgehenden Transitionen, die zur besagten Aktivität hinzugefügt werden, verhindert.
 
-#### Inhaltsbearbeitung {#content-editing-2}
+_Inhaltsbearbeitung_
 
 * Fehlerkorrektur – bei der Inhaltsbearbeitung werden keine ungewünschten Symbole oder Suchmenüs mehr angezeigt.
 
-#### Landingpages {#landing-pages-3}
+_Landingpages_
 
 * Fehlerkorrektur – Landingpages können nun mittels eines Package-Imports importiert werden.
 
-#### Transaktionsnachrichten {#transactional-messages-4}
+_Transaktionsnachrichten_
 
-* Im Benutzer "Message Center Push Agent" können künftig verlässliche IP-Adressen in den Sicherheitsparametern angegeben werden.
+* Im Benutzer &quot;Message Center Push Agent&quot; können künftig verlässliche IP-Adressen in den Sicherheitsparametern angegeben werden.
 * Fehlerkorrektur – die Erstellung von neuen Ereignistypen wird nicht mehr behindert.
 
 ## Version 15.11 - November 2015 {#release-15-11---november-2015}
 
-### Neue Funktionen {#new-capabilities-9}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -657,44 +657,44 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-9}
+**Korrekturen**
 
-#### Allgemein {#general-9}
+_Allgemein_
 
 * Fehlerkorrektur – der Zugriff auf allgemeine Instanzparameter ist nun auch mit Benutzerkonten vom Typ Administrator möglich.
 * Der Datentyp **float** wird in benutzerdefinierten Ressourcen nun korrekt unterstützt.
 * Fehlerkorrektur – die Statusänderung der Vorlage eines vereinfachten Imports löst in der Liste der ausgeführten Importe keinen Anzeigefehler mehr aus.
 
-#### Landingpages {#landing-pages-4}
+_Landingpages_
 
 * Fehlerkorrektur – Landingpage-Vorlagen werden in englischsprachigen Instanzen nicht mehr teilweise in französischer Sprache angezeigt.
 
-#### Audiences {#audiences}
+_Audiences_
 
 * Fehlerkorrektur – aus Adobe Experience Cloud importierte Audiences werden nun in der Audience-Liste angezeigt.
-* Fehlerkorrektur – bei der Abfragedefinition wird die Option "Groß-/Kleinschreibung beachten" nicht mehr ungewollt aktiviert.
+* Fehlerkorrektur – bei der Abfragedefinition wird die Option &quot;Groß-/Kleinschreibung beachten&quot; nicht mehr ungewollt aktiviert.
 * Fehlerkorrektur – bei der Abfragedefinition wird die Filterung von Audiences nicht mehr verhindert.
 * Fehlerkorrektur – in Audiences wird der Abbruch von Aktionen nicht mehr verhindert.
 
-#### Workflows {#workflows-7}
+_Workflows_
 
 * Fehlerkorrektur – in **[!UICONTROL Daten-Update]**-Aktivitäten können die zu aktualisierenden Felder nun auch manuell konfiguriert werden.
 * Fehlerkorrektur – kein endloses Laden beim Öffnen einer **[!UICONTROL Abfrage]**-Aktivität mehr, wenn der Workflow nach der Platzierung der Aktivität im Diagramm nicht gespeichert wurde.
-* Fehlerkorrektur – in Workflow-**[!UICONTROL Abfragen]** ausgewählte Audiences lösen bei der Zählung und der Vorschau keinen Serverausfall mehr aus.
+* Fehlerkorrektur – in Workflow-**[!UICONTROL Abfragen]**ausgewählte Audiences lösen bei der Zählung und der Vorschau keinen Serverausfall mehr aus.
 * Fehlerkorrektur – beim Öffnen von Workflow-Aktivitäten erscheint keine unnötige Fehlernachricht mehr.
 * Fehlerkorrektur – die Konfiguration von **[!UICONTROL Planung]**-Aktivitäten zur wiederholten Ausführung eines Workflows am selben Tag wird nicht mehr verhindert.
 * Fehlerkorrektur – in Workflow-Aktivitäten werden keine Felder mehr angezeigt, die in Abfragen nicht berücksichtigt werden können.
-* Fehlerkorrektur – in ausgehenden Transitionen werden in **[!UICONTROL Abfragen]** bezüglich Sendungen hinzugefügte KPIs nun korrekt wiedergegeben.
+* Fehlerkorrektur – in ausgehenden Transitionen werden in **[!UICONTROL Abfragen]**bezüglich Sendungen hinzugefügte KPIs nun korrekt wiedergegeben.
 * Fehlerkorrektur – in Workflows wird die Erstellung von Audiences vom Typ Datei nach dem Dateiimport nicht mehr verhindert.
 * Fehlerkorrektur – Profildaten werden nun auch dann korrekt aktualisiert, wenn das Feld **location/address3** der Ressource verwendet wird.
 * Fehlerkorrektur – heterogene Aktivitäts-Kollektionen können in Workflows nun dupliziert werden.
 * Fehlerkorrektur – in Workflows werden bei wiederkehrenden Sendungen die der Fehlerdiagnose dienenden SQL-Scripts nun korrekt angezeigt.
 
-#### Inhaltseditor {#content-editor-1}
+_Inhaltseditor_
 
 * Fehlerkorrektur – das Suchen im Quellcode von Landingpages und E-Mails ist nun möglich.
 
-#### Packages {#packages-1}
+_Packages_
 
 * Fehlerkorrektur – Korrektur diverser Fehler, die den Export bestimmter Elementtypen (insbesondere Landingpages, Workflows) in Packages verhinderten.
 * Fehlerkorrektur – geänderte Titel von Package-Importen werden nun korrekt anstelle der alten Titel angezeigt.
@@ -702,7 +702,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 
 ## Version 15.10 - Oktober 2015 {#release-15-10---october-2015-}
 
-### Neue Funktionen {#new-capabilities-10}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -735,54 +735,54 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-10}
+**Korrekturen**
 
-#### E-Mail {#email}
+_Email_
 
 * Fehlerkorrektur – Abmelde-Links arbeiten nun auch ausgehend von Mirrorseiten korrekt.
 * Fehlerkorrektur – der Titel von E-Mail-Sendungen wird nun in der Bearbeitungsseite der E-Mail korrekt angezeigt.
 * Fehlerkorrektur – externe **[!UICONTROL Routing]**-Konten können nun auch in duplizierten Versandvorlagen ausgewählt werden.
 
-#### Audiences {#audiences-1}
+_Audiences_
 
 * Fehlerkorrektur – bei der Audience-Zählung tritt kein Fehler mehr auf, wenn in der Abfrage eine 1:N-Relation verwendet wird.
 * Fehlerkorrektur – die Profilauswahl in E-Mail-Audiences ist nun ohne Probleme möglich.
 
-#### Workflows {#workflows-8}
+_Workflows_
 
 * Fehlerkorrektur – bei der Konfiguration eines E-Mail-Versands in Workflows treten keine Anzeigeprobleme mehr auf.
-* Fehlerkorrektur – die Aktivität **[!UICONTROL Datei laden]** funktioniert nun fehlerfrei. Zuvor wurde eine leere Fehlermeldung angezeigt.
-* Fehlerkorrektur – die Aktivität **[!UICONTROL Dateiübertragung]** funktioniert nun fehlerfrei. Zugriffsberechtigungen wurden nicht immer korrekt gehandhabt.
-* Fehlerkorrektur – in Workflows mit einer **[!UICONTROL E-Mail zum wiederkehrenden Versand können Dateien nun korrekt exportiert werden]** .
+* Fehlerkorrektur – die Aktivität **[!UICONTROL Datei laden]**funktioniert nun fehlerfrei. Zuvor wurde eine leere Fehlermeldung angezeigt.
+* Fehlerkorrektur – die Aktivität **[!UICONTROL Dateiübertragung]**funktioniert nun fehlerfrei. Zugriffsberechtigungen wurden nicht immer korrekt gehandhabt.
+* Fehlerkorrektur – in Workflows mit einer **[!UICONTROL E-Mail zum wiederkehrenden Versand können Dateien nun korrekt exportiert werden]**.
 * Fehlerkorrektur – in Workflows können nun E-Mail-Sendungen korrekt erstellt werden und sowohl Betreff als auch Inhalt werden korrekt berücksichtigt.
 * Fehlerkorrektur – im Zuge der Konfiguration von Workflows für Vorlagen des vereinfachten Imports ist in der **[!UICONTROL Daten-Update]**-Aktivität nun die Auswahl von Abstimmschlüsseln ohne Probleme möglich.
 * Fehlerkorrektur – die Speicherung von Workflows ist nun auch dann korrekt möglich, wenn zuvor eine Aktivität gelöscht wurde.
 
-#### Plattform {#platform}
+_Plattform_
 
 * Fehlerkorrektur – ein neues Element kann nun auch dann erstellt werden, wenn eine benutzerdefinierte Ressource eine Relation zum Ressourcentyp des besagten Elements enthält.
 * Fehlerkorrektur – das Schreiben von gewissen Protokollen nimmt nun nicht mehr bis zu 15 Minuten in Anspruch.
-* Fehlerkorrektur – die Liste der Marketingaktivitäten wird nun auch bei Sortierung nach **[!UICONTROL Datum]** oder **[!UICONTROL Indikatoren]** korrekt angezeigt.
+* Fehlerkorrektur – die Liste der Marketingaktivitäten wird nun auch bei Sortierung nach **[!UICONTROL Datum]**oder**[!UICONTROL  Indikatoren]** korrekt angezeigt.
 
-#### Landingpages {#landing-pages-5}
+_Landingpages_
 
 * Fehlerkorrektur – die Auswahl eines Testprofils für die Landingpage-Vorschau löst keinen Fehler mehr aus.
 
-#### Transaktionsnachrichten {#transactional-messages-5}
+_Transaktionsnachrichten_
 
 * Fehlerkorrektur – das Löschen eines Testprofil-Ereignisses löst keinen Absturz der Anwendung mehr aus.
 
-#### Berichte {#reports}
+_Berichte_
 
-* Fehlerkorrektur – in den Berichten **[!UICONTROL deliveryThroughputReport]** und **[!UICONTROL deliveryTrackingReport]** werden nun die richtigen Daten erzeugt.
+* Fehlerkorrektur – in den Berichten **[!UICONTROL deliveryThroughputReport]**und**[!UICONTROL  deliveryTrackingReport]** werden nun die richtigen Daten erzeugt.
 
-#### Inhaltseditor {#content-editor-2}
+_Inhaltseditor_
 
 * Fehlerkorrektur – HTML-Tags werden nun bei der Verarbeitung von dynamischen Inhaltsbausteinen korrekt verwaltet.
 
 ## Version 15.8 - August 2015 {#release-15-8---august-2015}
 
-### Neue Funktionen {#new-capabilities-11}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -819,41 +819,41 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-11}
+**Korrekturen**
 
-#### Anzeige {#display}
+_Anzeige_
 
 * Fehlerkorrektur – im Abfragetool werden unter Safari Felder nicht mehr überlappend angezeigt.
 
-#### Inhaltseditor {#content-editor-3}
+_Inhaltseditor_
 
-* Fehlerkorrektur – im E-Mail-Betreff können künftig die Zeichen '&lt;', '&amp;' und '&gt;' verwendet werden.
+* Fehlerkorrektur – im E-Mail-Betreff können künftig die Zeichen &#39;&lt;&#39;, &#39;&amp;&#39; und &#39;>&#39; verwendet werden.
 
-#### E-Mail {#email-1}
+_Email_
 
 * Fehlerkorrektur – das Hinzufügen von Text im Anschluss an einen dynamischen Text ist nun möglich.
 
-#### Listen {#lists}
+_Listen_
 
 * Fehlerkorrektur – beim Export der Ausführungslogs eines Workflows wird die Spalte **Nachricht** nun korrekt exportiert.
 
-#### Profile und Audiences {#profiles-and-audiences}
+_Profile und Audiences_
 
 * Fehlerkorrektur – Duplizieren und Löschen von Elementen lösen keine doppelte Bestätigungsaufforderung mehr aus **(betraf nur Hybridgeräte unter Internet Explorer 11)**.
 
-#### Workflows {#workflows-9}
+_Workflows_
 
 * Fehlerkorrektur – E-Mails werden nun auch im Zuge von Workflow-Ausführungen korrekt versendet.
 * Fehlerkorrektur – Workflows können jetzt ausgeführt werden, wenn in einer **[!UICONTROL Datei laden]**-Aktivität der Name der Zurückweisungsdatei nicht angegeben wird.
-* Fehlerkorrektur – Workflows können jetzt ausgeführt werden, wenn in einer **[!UICONTROL Planung]**-Aktivität die **[!UICONTROL Ausführungshäufigkeit]** mit **[!UICONTROL Täglich]** angegeben wird .
+* Fehlerkorrektur – Workflows können jetzt ausgeführt werden, wenn in einer **[!UICONTROL Planung]**-Aktivität die**[!UICONTROL  Ausführungshäufigkeit]** mit **[!UICONTROL Täglich]**angegeben wird .
 
-#### Plattform {#platform-1}
+_Plattform_
 
 * Fehlerkorrektur – Miniaturansichten werden nun auch bei Verwendung von Lastverteilungsservern korrekt erzeugt.
 
 ## Version 15.7 - Juli 2015 {#release-15-7---july-2015}
 
-### Neue Funktionen {#new-capabilities-12}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -895,33 +895,33 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-12}
+**Korrekturen**
 
-#### Installation {#installation}
+_Installation_
 
 * Namen von Adobe Campaign-Instanzen sind nun auf 32 Zeichen begrenzt.
 
-#### Workflows {#workflows-10}
+_Workflows_
 
-* Fehlerkorrektur – in Workflows schlägt bei der Bearbeitung von Abfragen die Zielgruppenbestimmung bei Verwendung von Ressourcen vom Typ 'delivery' nicht mehr fehl.
+* Fehlerkorrektur – in Workflows schlägt bei der Bearbeitung von Abfragen die Zielgruppenbestimmung bei Verwendung von Ressourcen vom Typ &#39;delivery&#39; nicht mehr fehl.
 * Fehlerkorrektur – in Workflow-Abfragen werden verknüpfte Ressourcen nun korrekt verarbeitet.
 * Fehlerkorrektur – das Bearbeiten der Aktivität **Wiederkehrender Versand** ist nun auch dann problemlos möglich, wenn ein Workflow bereits ausgeführt wurde.
 
-#### E-Mails {#emails}
+_E-Mails_
 
 * Fehlerkorrektur – vor dem E-Mail-Versand ist die Überprüfung der JavaScript-Syntax nun auch bei E-Mails möglich, für die ein dynamischer Inhalt mithilfe des Ausdruckseditors definiert wurde.
 
-#### Landingpages {#landing-pages-6}
+_Landingpages_
 
 * Fehlerkorrektur – das Bearbeiten von Landingpages ist nun auch auf Tablets problemlos möglich.
 
-#### Assets Core Service {#assets-core-service}
+_Assets Core Service_
 
 * Bei der Auswahl von freigegebenen Assets im Rahmen der E-Mail- oder Landingpage-Bearbeitung wird die Liste der verfügbaren Assets nun für Adobe Campaign gefiltert.
 
 ## Version 15.6 - Juni 2015 {#release-15-6---june-2015}
 
-### Neue Funktionen {#new-capabilities-13}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -970,9 +970,9 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-13}
+**Korrekturen**
 
-#### Listen {#lists-1}
+_Listen_
 
 * Das Löschen eines Listenelements zieht nun eine automatische Aktualisierung der Liste nach sich.
 * Fehlerkorrektur – Listenelemente können nun auch ausgewählt werden, wenn die Liste nur eine Spalte enthält.
@@ -980,22 +980,22 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * In der Testprofilliste können nun der zweite Vorname und die Anrede der Profile angezeigt werden.
 * Fehlerkorrektur – in Mozilla Firefox löst die Auswahl von Checkboxen in einer Liste keinen Fehler mehr aus.
 
-#### Audiences {#audiences-2}
+_Audiences_
 
 * Fehlerkorrektur – im Audience-Bildschirm ist nun die Verwendung der **[!UICONTROL Hinzufügen]**-Schaltfläche möglich.
 
-#### E-Mails {#emails-1}
+_E-Mails_
 
 * Fehlerkorrektur – Korrektur des JavaScript-Fehlers, der bei der E-Mail-Bearbeitung die wiederholte Verwendung der Vorschau verhinderte.
-* Fehlerkorrektur – auf Microsoft Surface Pro3 Tablets unter Internet Explorer 11 ist nun die Verwendung der Schaltflächen **[!UICONTROL Eigenschaften bearbeiten]** und **[!UICONTROL Testsendungen anzeigen]** möglich.
+* Fehlerkorrektur – auf Microsoft Surface Pro3 Tablets unter Internet Explorer 11 ist nun die Verwendung der Schaltflächen **[!UICONTROL Eigenschaften bearbeiten]**und**[!UICONTROL  Testsendungen anzeigen]** möglich.
 * Fehlerkorrektur – E-Mail-Versandlogs werden nun korrekt angezeigt.
 
-#### Landingpages {#landing-pages-7}
+_Landingpages_
 
 * Fehlerkorrektur – in Landingpages ist bei der Inhaltsbearbeitung nun die Verwendung des Inhaltsbausteins **Markenlogo** möglich.
 * Fehlerkorrektur – Landingpages werden nun auch dann in der Liste der Marketingaktivitäten angezeigt, wenn in der Landingpage ein Gültigkeitsdatum angegeben ist.
 
-#### Workflows {#workflows-11}
+_Workflows_
 
 * Fehlerkorrektur – bei der Konfiguration von **Segmentierungsaktivitäten** können Segmente im Gruppierungsmodus nun korrekt begrenzt werden.
 * Fehlerkorrektur – die Auswahl von Transitionen ist nun auch nach der Konfiguration von **Segmentierungsaktivitäten** korrekt möglich.
@@ -1006,13 +1006,13 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – in **Ausschlussaktivitäten** werden Ausschlussregeln nun korrekt berücksichtigt.
 * Fehlerkorrektur – Beim Löschen einer E-Mail-Versand-Aktivität in einem Workflow tritt kein Fehler mehr auf. Die entsprechenden Sendungen werden jetzt auch aus der Liste der Marketingaktivitäten entfernt.
 
-#### Navigation {#navigation}
+_Navigation_
 
 * Die fortlaufende Navigation von einem Feld zum nächsten auf ein und derselben Seite ist nun mithilfe der Tabulatortaste möglich.
 
 ## Version 15.4 - April 2015 {#release-15-4---april-2015}
 
-### Neue Funktionen {#new-capabilities-14}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -1062,7 +1062,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 
 ## Version 15.3 - März 2015 {#release-15-3---march-2015}
 
-### Neue Funktionen {#new-capabilities-15}
+**Neue Funktionen**
 
 <table> 
  <thead> 
@@ -1087,12 +1087,12 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </tbody> 
 </table>
 
-### Korrekturen {#patches-14}
+**Korrekturen**
 
-#### Allgemein {#general-10}
+_Allgemein_
 
 * Fehlerkorrektur – bei der Erstellung eines Versands wird die Anzeige des Empfängers nicht länger gestört.
-* Fehlerkorrektur – Verwendung einer auf der 'Haben geöffnet'-Bedingung basierenden Audience ist nun möglich.
+* Fehlerkorrektur – Verwendung einer auf der &#39;Haben geöffnet&#39;-Bedingung basierenden Audience ist nun möglich.
 * Fehlerkorrektur – das Löschen eines leeren Profils ist nun erlaubt.
 * Fehlerkorrektur – bei der Versandvorschau wird kein Fehler mehr erzeugt.
 * Fehlerkorrektur – das Duplizieren einer Marketingaktivität funktioniert nun fehlerfrei.
