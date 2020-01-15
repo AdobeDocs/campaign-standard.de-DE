@@ -12,25 +12,25 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # Interaktion mit benutzerdefinierten Ressourcen {#interacting-with-custom-resources}
 
-Mit dem Endpunkt **/customResources** können Sie die benutzerdefinierten ACS-Entitäten in REST verfügbar machen. Auf der Grundlage dieser API ist eine Integration zwischen benutzerdefinierten Entitäten und externen Endpunkten verfügbar.
+Mit dem Endpunkt **/customResources** können Sie die benutzerdefinierten ACS-Ressourcen in REST verfügbar machen. Auf der Grundlage dieser API ist eine Integration zwischen benutzerdefinierten Entitäten und externen Endpunkten verfügbar.
 
-/customResources hat genau das gleiche Verhalten wie /profileAndServices-Endpunkt.
+Der Endpunkt &quot;/customResources&quot;hat genau das gleiche Verhalten wie der Endpunkt &quot;/profileAndServices&quot;.
 
-Die benutzerdefinierten Entitäten, die in dieser API verfügbar sind, sind:
+Die benutzerdefinierten Ressourcen, die in dieser API bereitgestellt werden, sind:
 
 * alle mit der Profilentität verknüpften Entitäten
 * alle Entitäten, die mit den untergeordneten Elementen des Profilunternehmens verknüpft sind
 * alle Entitäten, die nicht mit dem Profil verknüpft sind, und für diese Entitäten ihre Kinder und Enkel.
 
 >[!NOTE]
->Die benutzerdefinierten Entitäten, die unter "/profileAndServicesExt"verfügbar sind, werden nicht in der /customResources-API bereitgestellt.
+>Die benutzerdefinierten Ressourcen, die unter &quot;/profileAndServicesExt&quot;verfügbar sind, werden nicht in der /customResources-API bereitgestellt.
 
 Hier ein Beispiel zum Abrufen der Metadaten aus einer benutzerdefinierten Ressource:
 
