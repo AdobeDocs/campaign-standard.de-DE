@@ -12,14 +12,14 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # Benutzerdefinierte Ressourcen {#custom-resources}
 
-Adobe Campaign verfügt über ein vordefiniertes Datenmodell, bei dem Daten über verschiedene Ressourcen definiert werden. Sie können das bereitgestellte Datenmodell bereichern, indem Sie die Ressourcen erweitern, um eigene benutzerdefinierte Felder hinzuzufügen, z. B. Einkaufs- oder Produkttabellen.
+Adobe Campaign verfügt über ein vordefiniertes Datenmodell, bei dem Daten über verschiedene Ressourcen definiert werden. Sie können das bereitgestellte Datenmodell bereichern, indem Sie die Ressourcen erweitern, um eigene benutzerdefinierte Felder oder Tabellen hinzuzufügen, z. B. Einkaufs- oder Produkttabellen.
 
 Benutzerdefinierte Ressourcen können über APIs mit dem Endpunkt **/profileAndServicesExt** und dem benutzerdefinierten Ressourcennamen aufgerufen werden.
 
@@ -27,7 +27,7 @@ Benutzerdefinierte Ressourcen können über APIs mit dem Endpunkt **/profileAndS
 
 >[!NOTE]
 >
->Verwenden Sie für Ressourcen, die nicht standardmäßig verfügbar sind, immer das Präfix <b>"cus"</b> vor dem Namen der Ressource.
+>Verwenden Sie für Ressourcen, die nicht standardmäßig verfügbar sind, immer das Präfix <b>&quot;cus&quot;</b> vor dem Namen der Ressource.
 
 Sie können beliebige Vorgänge mit benutzerdefinierten Ressourcen durchführen, solange diese mit der Profiltabelle verknüpft sind. Betrachten wir zum Beispiel die folgende Tabellenstruktur:
 
@@ -37,7 +37,7 @@ In diesem Fall sind alle Ressourcen aus den Tabellen **Transaction**, **Transact
 
 <br/>
 
-***Musteranforderung***
+***Musteranforderung ***
 
 Beispiel-GET-Anforderung für den Zugriff auf die erweiterte profileAndServicesExt-Ressource.
 
