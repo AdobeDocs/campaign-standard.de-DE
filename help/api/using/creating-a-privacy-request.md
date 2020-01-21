@@ -1,6 +1,6 @@
 ---
-title: Erstellen einer Datenschutzanforderung
-description: Erfahren Sie, wie Sie eine Datenschutzanforderung mit APIs erstellen
+title: Datenschutzanfrage erstellen
+description: Erfahren Sie, wie Sie mit APIs eine Datenschutzanfrage erstellen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,36 +11,36 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Erstellen einer Datenschutzanforderung {#creating-a-privacy-request}
+# Datenschutzanfrage erstellen {#creating-a-privacy-request}
 
 >[!CAUTION]
 >
->Die Integration des [Datenschutz-Core-Service](https://adobe.io/apis/cloudplatform/gdpr.html) ist die Methode, die Sie für alle Zugriffe und Löschanforderungen verwenden sollten. Ab 19.4 wird die Verwendung der Kampagnen-API und -Schnittstelle für den Zugriff und das Löschen von Anforderungen nicht mehr unterstützt. Weitere Informationen zu veralteten und entfernten Funktionen von Campaign Standard finden Sie auf [dieser Seite](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>Die [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html)-Integration ist jene Methode, die Sie für alle Zugriffs- und Löschanfragen verwenden sollten. Mit Version 19.4. wurde die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen eingestellt. Weiterführende Informationen zu veralteten und entfernten Funktionen von Campaign Standard finden Sie auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
 
-Datenschutzanforderungen werden mit einer **POST** -Anforderung erstellt.
+Datenschutzanfragen werden mit einer **POST**-Anfrage erstellt.
 
-Bevor Sie Anforderungen erstellen, müssen Sie den zu verwendenden Namespace definieren. Weitere Informationen finden Sie in der Dokumentation zur [Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Bevor Sie Anfragen erstellen, müssen Sie den zu verwendenden Namensraum definieren. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
-Die Payload muss die folgenden Parameter enthalten:
+Die Payload muss folgende Parameter enthalten:
 
 * **name**: einen eindeutigen internen Namen
-* **namespace**: der in der Benutzeroberfläche von Campaign Standard konfigurierte Namespace-Name
-* **alignValue**: der Abgleichwert, der auf dem im Namespace definierten Abgleichschlüssel basiert
-* **label**: Anforderungsbeschriftung
-* **type**: den Anforderungstyp. Zulässige Werte sind "access"oder "delete".
-* **Regulierung**: die Art der Regelung. Beispiel: "GDPR", "CCPA". Dieser Parameter ist obligatorisch und ab Version 19.4 von Campaign Standard verfügbar. Wenn Sie sich auf einem älteren Build befinden, müssen Sie ihn nicht zu Ihrer Nutzlast hinzufügen.
+* **namespace**: den Namen des in der Benutzeroberfläche von Campaign Standard konfigurierten Namensraums
+* **alignValue**: den Abstimmungswert, der auf dem im Namensraum definierten Abstimmschlüssel basiert
+* **label**: den Titel der Anfrage
+* **type**: den Anfragetyp; zulässige Werte sind &quot;access&quot; oder &quot;delete&quot;
+* **regulation**: die Art der Vorschrift; Beispiel: &quot;DSGVO&quot;, &quot;CCPA&quot;; dieser Parameter ist obligatorisch und ab Version 19.4 von Campaign Standard verfügbar. Bei Verwendung eines älteren Builds müssen Sie ihn nicht zur Payload hinzufügen.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Diese POST-Anforderung erstellt eine Datenschutzanforderung basierend auf einem E-Mail-Versöhnungsschlüssel, der im Namespace AMCDS2 definiert ist:
+Diese POST-Anfrage erstellt eine Datenschutzanfrage basierend auf einem E-Mail-Abstimmschlüssel, der im Namensraum AMCDS2 definiert ist:
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -59,7 +59,7 @@ Diese POST-Anforderung erstellt eine Datenschutzanforderung basierend auf einem 
 }
 ```
 
-Antwort auf die POST-Anforderung.
+Antwort auf die POST-Anfrage:
 
 ```
 {
