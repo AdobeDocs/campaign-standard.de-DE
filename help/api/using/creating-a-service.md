@@ -1,6 +1,6 @@
 ---
 title: Dienst erstellen
-description: Erfahren Sie, wie Sie einen Dienst mit APIs erstellen.
+description: Erfahren Sie, wie Sie mit APIs einen Dienst erstellen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,15 +19,15 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Dienst erstellen {#creating-a-service}
 
-Die Diensterstellung wird mit einer **POST** -Anforderung an die Dienstressource ausgeführt.
+Dienste lassen sich mit einer **POST**-Anfrage für die Dienstressource erstellen.
 
-Wenn Sie den Dienst mit bestimmten Attributen erstellen möchten, fügen Sie sie der Nutzlast hinzu. Andernfalls wird der neue Dienst mit Standarddiensten erstellt.
+Wenn Sie den Dienst mit bestimmten Attributen erstellen möchten, fügen Sie sie der Payload hinzu. Andernfalls wird der neue Dienst mit Standardattributen eingerichtet.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Beispiel-POST-Anforderung, um einen Dienst mit bestimmten Attributen zu erstellen.
+Beispielhafte POST-Anfrage zum Erstellen eines Diensts mit bestimmten Attributen.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
@@ -44,7 +44,7 @@ Beispiel-POST-Anforderung, um einen Dienst mit bestimmten Attributen zu erstelle
 -d }
 ```
 
-Gibt den neu erstellten Dienst mit den aktualisierten Attributen zurück.
+Es wird der neu erstellte Dienst mit den aktualisierten Attributen zurückgegeben.
 
 ```
 {
