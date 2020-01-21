@@ -1,6 +1,6 @@
 ---
 title: Profile abrufen
-description: Weitere Informationen zum Abrufen von Profilen mit APIs.
+description: Erfahren Sie, wie Sie mit APIs Profile abrufen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,15 +19,15 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Profile abrufen {#retrieving-profiles}
 
-Das Abrufen von Profilen wird mit einer **GET** -Anforderung ausgeführt.
+Profile lassen sich mit einer **GET**-Anfrage abrufen.
 
-Anschließend können Sie die Suche mithilfe von Filtern, der Reihenfolge und Paginierung verfeinern. For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+Anschließend können Sie die Suche mithilfe von Filtern, Reihenfolge und Paginierung verfeinern. Weiterführende Informationen dazu finden Sie im Abschnitt [Zusätzliche Vorgänge](../../api/using/sorting.md).
 
 <br/>
 
-***Beispielanforderungen***
+***Beispielanfragen ***
 
-* Beispiel-GET-Anforderung zum Abrufen aller Profile.
+* Beispielhafte GET-Anfrage zum Abrufen aller Profile.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -53,7 +53,7 @@ Anschließend können Sie die Suche mithilfe von Filtern, der Reihenfolge und Pa
    }
    ```
 
-* Beispiel-GET-Anforderung zum Abrufen der ersten 10 E-Mail-Werte.
+* Beispielhafte GET-Anfrage zum Abrufen der ersten 10 E-Mail-Werte.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -63,7 +63,7 @@ Anschließend können Sie die Suche mithilfe von Filtern, der Reihenfolge und Pa
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Antwort auf die Anfrage. Der Knoten "Weiter"gibt die URL zurück, über die Sie auf die 10 nächsten E-Mail-Werte zugreifen können.
+   Antwort auf die Anfrage. Der Knoten &quot;Nächste&quot; gibt die URL zurück, mit der Sie auf die nächsten 10 E-Mail-Werte zugreifen können.
 
    ```
    {
