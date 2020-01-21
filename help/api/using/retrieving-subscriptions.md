@@ -1,6 +1,6 @@
 ---
-title: Abonnements abrufen
-description: Erfahren Sie, wie Sie Abonnements mit APIs abrufen.
+title: Abrufen von Anmeldungen
+description: Erfahren Sie, wie Sie mit APIs Anmeldungen abrufen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,30 +11,30 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Abonnements abrufen {#retrieving-subscriptions}
+# Abrufen von Anmeldungen {#retrieving-subscriptions}
 
 ## Abrufen der Profile, die einen Dienst abonniert haben
 
-Dies ist ein zweistufiger Vorgang.
+Dies ist ein zweistufiges Verfahren.
 
-1. Rufen Sie die Abonnement-URL für den gewünschten Dienst ab.
-1. Führen Sie eine GET-Anforderung für die Abonnement-URL durch. Es gibt die Liste der Abonnements für den Dienst mit jedem zugehörigen Profil zurück.
+1. Rufen Sie die Anmeldungs-URL für den gewünschten Dienst ab.
+1. Führen Sie eine GET-Anfrage für die Anmeldungs-URL aus. Es wird eine Liste der Anmeldungen für den Dienst mit jedem zugehörigen Profil zurückgegeben.
 
 >[!CAUTION]
 >
->Die REST-API gibt die Eigenschaft "href"zurück, die die zu verwendende URL enthält. <b>Verwenden Sie immer die in der Antwort enthaltene URL, um die nachfolgende API-Anforderung</b>zu erstellen.
+>Die REST-API gibt die Eigenschaft &quot;href&quot; zurück; diese enthält die zu verwendende URL. <b>Nutzen Sie stets die in der Antwort enthaltene URL, um die nachfolgende API-Anfrage zu erstellen</b>.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Führen Sie eine GET-Anforderung aus, um den Dienst abzurufen.
+Führen Sie eine GET-Anfrage aus, um den Dienst abzurufen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -44,7 +44,7 @@ Führen Sie eine GET-Anforderung aus, um den Dienst abzurufen.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Abonnement-URL für den Dienst zurück.
+Es wird die Anmeldungs-URL für den Dienst zurückgegeben.
 
 ```
   {
@@ -58,7 +58,7 @@ Gibt die Abonnement-URL für den Dienst zurück.
   },
 ```
 
-Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
+Führen Sie eine GET-Anfrage für die Anmeldungs-URL aus.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -68,7 +68,7 @@ Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Die Liste der Abonnements für den Dienst wird mit jedem zugehörigen Profil angezeigt.
+Eine Liste der Anmeldungen für den Dienst mit jedem zugehörigen Profil wird angezeigt.
 
 ```
   {
@@ -85,18 +85,18 @@ Die Liste der Abonnements für den Dienst wird mit jedem zugehörigen Profil ang
   }
 ```
 
-## Abrufen der Dienste, für die ein Profil abonniert hat
+## Abrufen der Dienste, die ein Profil abonniert hat
 
-Dies ist ein zweistufiger Vorgang.
+Dies ist ein zweistufiges Verfahren.
 
-1. Rufen Sie die Abonnement-URL für ein bestimmtes Profil ab.
-1. Führen Sie eine GET-Anforderung für die URL durch. Es gibt die Liste der Abonnements für das Profil mit jedem zugehörigen Dienst zurück.
+1. Rufen Sie die Anmeldungs-URL für ein bestimmtes Profil ab.
+1. Führen Sie eine GET-Anfrage für die URL aus. Es wird eine Liste der Anmeldungen für das Profil mit jedem zugehörigen Dienst zurückgegeben.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Führen Sie eine GET-Anforderung durch, um das Profil abzurufen.
+Führen Sie eine GET-Anfrage aus, um das Profil abzurufen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -106,7 +106,7 @@ Führen Sie eine GET-Anforderung durch, um das Profil abzurufen.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Abonnement-URL für das Profil zurück.
+Gibt die Anmeldungs-URL für das Profil zurück.
 
 ```
   {
@@ -120,7 +120,7 @@ Gibt die Abonnement-URL für das Profil zurück.
   }
 ```
 
-Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
+Führen Sie eine GET-Anfrage für die Anmeldungs-URL aus.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -130,7 +130,7 @@ Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Liste der Dienste zurück, für die das Profil abonniert hat.
+Es wird eine Liste der Dienste zurückgegeben, die das Profil abonniert hat.
 
 ```
   {
