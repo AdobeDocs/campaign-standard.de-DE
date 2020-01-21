@@ -12,7 +12,7 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 
 ---
@@ -26,7 +26,7 @@ Adobe Campaign enthält ein vordefiniertes Datenmodell. Dieses Datenmodell kann 
 >
 >Die Erstellung und Änderung von Ressourcen sind heikle Aufgaben, die nur von erfahrenen Benutzern durchgeführt werden können.
 
-Das über das Adobe-Campaign-Logo verfügbare Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Entwicklung]** dient der Verwaltung von **benutzerdefinierten Ressourcen**, ihrer **Publikation** und dem **Zugriff auf Monitoring-Tools**.
+Das über das Adobe Campaign-Logo verfügbare Menü **[!UICONTROL Administration]**>**[!UICONTROL  Entwicklung]** dient der Verwaltung von **benutzerdefinierten Ressourcen**, ihrer **Publikation** und dem **Zugriff auf Diagnose-Tools**.
 
 Die von Adobe Campaign verwendeten Daten werden mithilfe verschiedener Ressourcen beschrieben. Es besteht die Möglichkeit der **Anreicherung des zur Verfügung gestellten Datenmodells** durch benutzerdefinierte Ressourcen.
 
@@ -40,4 +40,4 @@ Aus Ressourcenerweiterungen stammende Felder werden mit einem Präfix versehen. 
 
 Des Weiteren kann in den der neuen Ressource entsprechenden Bildschirmen die **Navigation konfiguriert werden**.
 
-Sie können benutzerdefinierte Ressourcen **exportieren und importieren** , z. B. aus einer Entwicklungsumgebung in eine Produktionsumgebung. For more on this, refer to this [step-by-step use case](../../automating/using/exporting-importing-custom-resources.md).
+Benutzerdefinierte Ressourcen lassen sich **exportieren und importieren** , z. B. aus einer Entwicklungsumgebung in eine Produktionsumgebung. Weiterführende Informationen dazu finden Sie in diesem [schrittweisen Anwendungsbeispiel](../../automating/using/exporting-importing-custom-resources.md).
