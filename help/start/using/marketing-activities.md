@@ -12,7 +12,7 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
@@ -26,7 +26,7 @@ Marketingaktivitäten können entweder ausgehend von ihnen übergeordneten Progr
 
 Die Marketingaktivitätenliste enthält alle existierenden Aktivitäten, unabhängig von den Programmen oder Kampagnen, in denen sie erstellt wurden. Programme, Kampagnen, Sendungen (E-Mails, SMS und Push-Benachrichtigungen), Landingpages und Workflows werden ohne Berücksichtigung hierarchischer Strukturen gelistet.
 
-Wählen Sie den Link **[!UICONTROL Marketingaktivitäten]** aus der Symbolleiste am oberen Bildschirmrand aus, um auf die Liste der Marketingaktivitäten zuzugreifen.
+Wählen Sie den Link **[!UICONTROL Marketingaktivitäten]**aus der Symbolleiste am oberen Bildschirmrand aus, um auf die Liste der Marketingaktivitäten zuzugreifen.
 
 >[!NOTE]
 >
@@ -38,22 +38,22 @@ Das **[!UICONTROL Suche]**-Menü erlaubt die Filterung der angezeigten Elemente 
 
 Wählen Sie in der Liste eine Aktivität aus, um auf ihren Inhalt zugreifen zu können.
 
-Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](#creating-a-marketing-activity).
+Mit der Schaltfläche **[!UICONTROL Erstellen]**kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt[Marketingaktivitäten erstellen](#creating-a-marketing-activity).
 
-## Symbole und Status von Marketingaktivitäten {#marketing-activity-icons-and-statuses}
+## Symbole und Status von Marketingaktivitäten  {#marketing-activity-icons-and-statuses}
 
 Im Arbeitsbereich wird jeder Aktivitätstyp durch ein repräsentatives Symbol dargestellt:
 
-* ![](assets/marketing_program_icon.png) : Programm
+* ![](assets/marketing_program_icon.png) : Program
 * ![](assets/marketing_campaign_icon.png) : Campaign
-* ![](assets/marketing_email_icon.png) : E-Mail
+* ![](assets/marketing_email_icon.png) : Email
 * ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : Push-Benachrichtigung
+* ![](assets/marketing_push_icon.png) : Push notification
 * ![](assets/marketing_lp_icon.png) : In-App-Nachricht
-* ![](assets/marketing_lp_icon.png) : Landingpage
+* ![](assets/marketing_lp_icon.png) : Landing page
 * ![](assets/marketing_workflow_icon.png) : Workflow
 
-Die Farbe des Symbols zeigt den Ausführungsstatus der Aktivität in Abhängigkeit von ihrer definierten Gültigkeit und ihres Status an.
+Die Farbe des Symbols zeigt den Ausführungsstatus der Aktivität in Abhängigkeit von ihrer definierten Gültigkeit und ihrem Status an.
 
 * Grau: Startdatum der Aktivität ist noch nicht erreicht - Status **[!UICONTROL In Bearbeitung]**.
 * Blau: Aktivität läuft - Status **[!UICONTROL Gestartet]**.
@@ -73,7 +73,7 @@ Ausgehend von einem Programm lassen sich weitere Programme, Kampagnen, Workflows
 
 Weiterführende Informationen zu Programmen und Kampagnen finden Sie im Abschnitt [Programme und Kampagnen](../../start/using/programs-and-campaigns.md).
 
-1. Gehen Sie zur Erstellung einer neuen Marketingaktivität in das Dashboard eines Programms oder einer Kampagne und fügen Sie mithilfe der Schaltfläche **[!UICONTROL Erstellen]** ein Element hinzu.
+1. Gehen Sie zur Erstellung einer neuen Marketingaktivität in das Dashboard eines Programms oder einer Kampagne und fügen Sie mithilfe der Schaltfläche **[!UICONTROL Erstellen]**ein Element hinzu.
 
    ![](assets/marketing_activiy_creation_1.png)
 
