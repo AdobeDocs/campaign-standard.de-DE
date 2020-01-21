@@ -1,6 +1,6 @@
 ---
 title: Aktualisieren der geografischen Einheit eines Profils
-description: Erfahren Sie, wie Sie geografische Einheiten mit APIs verwalten.
+description: Erfahren Sie, wie Sie mit APIs geografische Einheiten verwalten können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,12 +19,12 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Aktualisieren der geografischen Einheit eines Profils {#updating-a-geographical-unit}
 
-1. Führen Sie eine GET-Anforderung für die **Ressource geoUnitBase** durch, um die geografische Einheit PKey abzurufen.
-1. Führen Sie eine PATCH-Anfrage auf dem Profil PKey mit der gewünschten geografischen Einheit PKey in der Nutzlast durch.
+1. Führen Sie eine GET-Anfrage für die Ressource **geoUnitBase** aus, um den PKey der geografischen Einheit abzurufen.
+1. Führen Sie eine PATCH-Anfrage für den PKey des Profils mit dem PKey der gewünschten geografischen Einheit in der Payload aus.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
 Rufen Sie die Liste der geografischen Einheiten ab.
 
@@ -52,7 +52,7 @@ Es werden alle geografischen Einheiten zurückgegeben. Rufen Sie den PKey der Ei
 },
 ```
 
-Führen Sie eine PATCH-Anfrage für das Profil mit dem PKey der gewünschten geografischen Einheit in der Nutzlast durch.
+Führen Sie eine PATCH-Anfrage für das Profil mit dem PKey der gewünschten geografischen Einheit in der Payload aus.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
