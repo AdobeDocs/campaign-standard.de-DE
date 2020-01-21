@@ -1,6 +1,6 @@
 ---
 title: Über die API-Erweiterung
-description: Erfahren Sie, wie Sie erweiterte Felder für die benutzerdefinierten Ressourcenprofile in der öffentlichen Profil-API verfügbar machen.
+description: Erfahren Sie, wie Sie für die benutzerdefinierten Ressourcenprofile in der öffentlichen Profil-API erweiterte Felder verfügbar machen.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 In diesem Anwendungsbeispiel wird die Anzeige der erweiterten Felder für die benutzerdefinierte Ressource Profile in der öffentlichen Profile-API dargelegt. Nehmen wir das Beispiel eines Kundenprofils, das man zeitnah mit einem durch ein Fakturierungssystem erzeugten Angebotscode aktualisieren möchte.
 
-Um die API publizieren zu können, muss Ihnen die Benutzerrolle **[!UICONTROL DATA MODEL]** zugeschrieben sein.
+Um die API publizieren zu können, muss Ihnen die Benutzerrolle **[!UICONTROL Datamodel]**zugewiesen sein.
 
 * Erweiterung der benutzerdefinierten Ressource Profile
 * Publizieren der Erweiterung
