@@ -12,19 +12,19 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
 
-# Erste Schritte mit Einstiegsseiten {#getting-started-with-landing-pages}
+# Erste Schritte mit Landingpages {#getting-started-with-landing-pages}
 
 ## Über Landingpages {#about-landing-pages}
 
 Campaign bietet eine Landingpage-Funktion an. Landingpages sind Webformulare, mit denen Sie Informationen zu Ihren Audiences erfassen, Abonnements für einen Dienst anbieten, Daten darstellen und Ihre Datenbank erweitern können. Landingpages können außerdem zur Akquise oder Aktualisierung bestehender Profile verwendet werden.
 
-Einstiegsseiten können auch dazu verwendet werden, einen doppelten Anmeldemechanismus einzurichten, um die Plattform vor falschen oder ungültigen E-Mail-Adressen oder Spambots zu schützen. Weiterführende Informationen dazu finden Sie im [entsprechenden Anwendungsbeispiel](../../channels/using/setting-up-a-double-opt-in-process.md).
+Darüber hinaus können Sie über Landingpages eine Anmeldung mit zweifacher Bestätigung einrichten, sodass Sie Ihre Plattform vor falschen oder ungültigen E-Mail-Adressen bzw. Spambots schützen können. Weiterführende Informationen dazu finden Sie im [entsprechenden Anwendungsbeispiel](../../channels/using/setting-up-a-double-opt-in-process.md).
 
 Dies sind die wichtigsten Schritte zum Einrichten einer Landingpage:
 
@@ -34,7 +34,7 @@ Auf dieser Seite finden Sie Informationen zu den einzelnen Schritten sowie Hinwe
 
 **Verwandte Themen:**
 
-* [Anleitungsvideo zum Erstellen einer Landingpage](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* [Anleitungsvideo zum Erstellen einer Landingpage](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
 * [Dienst erstellen](../../audiences/using/creating-a-service.md)
 * [Anmeldung mit zweifacher Bestätigung einrichten](setting-up-a-double-opt-in-process.md)
 
@@ -44,11 +44,11 @@ Im folgenden Abschnitt finden Sie die Einschränkungen, die Sie kennen sollten, 
 
 **Schreiben und Aktualisieren von Daten**
 
-* Landingpages sind auf **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]** und über die Anmeldung zu/Abmeldung von einem **[!UICONTROL Dienst]** möglich. Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
+* Landingpages sind auf **[!UICONTROL Profil]**und**[!UICONTROL  Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]**und über die Anmeldung zu/Abmeldung von einem**[!UICONTROL  Dienst]** möglich. Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!CAUTION]
 >
->Die Ansicht oder Aktualisierung von auf einer Landingpage eingegebenen Daten ist über keine andere Ressource als **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]** möglich.
+>Die Ansicht oder Aktualisierung von auf einer Landingpage eingegebenen Daten ist nur über die Ressourcen **[!UICONTROL Profil]**und**[!UICONTROL  Abonnement]** möglich.
 
 **Vorausfüllen**
 
@@ -74,25 +74,25 @@ Hier wurde nur das erste Profil aktualisiert, da dessen Eintrag früher erfolgte
 
 * Landingpages funktionieren nur mit Profilen, nicht aber mit Testprofilen, weshalb Landingpages nicht im Zuge eines E-Mail-Testversands getestet werden können.
 
-## Step 1 - Configure the landing page template {#configure-the-landing-page-template}
+## Schritt 1 – Landingpage-Vorlage konfigurieren{#configure-the-landing-page-template}
 
 Bevor Sie eine Landingpage einrichten, müssen Sie zunächst eine Landingpage-Vorlage entsprechend Ihren Anforderungen konfigurieren. Alle auf dieser Vorlage basierenden Landingpages werden dadurch mit den gewünschten Parametern vorkonfiguriert.
 
-1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm auf das erweiterte Menü **[!UICONTROL Ressourcen]** &gt; **[!UICONTROL Vorlagen]** &gt; **[!UICONTROL Landingpage-Vorlagen]** zu und duplizieren Sie die gewünschte Vorlage.
-1. Geben Sie in den Vorlageneigenschaften die Parameter an, die alle Ihre Landingpages haben müssen. Beispiel: die Zielgruppendimension, die Seitenzugriffsparameter für identifizierte oder nicht identifizierte Besucher, Aktionen, die spezifisch für die Formularüberprüfung durch einen Besucher sind, die im Inhalt zu verwendende Marke/das Logo usw. For more on landing pages' properties, refer to [this section](../../channels/using/configuring-landing-page.md)
+1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm auf das erweiterte Menü **[!UICONTROL Ressourcen]**>**[!UICONTROL  Vorlagen]** > **[!UICONTROL Landingpage-Vorlagen]**zu und duplizieren Sie die gewünschte Vorlage.
+1. Geben Sie in den Vorlageneigenschaften die Parameter an, die alle Ihre Landingpages haben müssen. Beispiel: die Zielgruppendimension, die Seitenzugriffsparameter für identifizierte oder nicht identifizierte Besucher, Aktionen, die spezifisch für die Formularüberprüfung durch einen Besucher sind, die im Inhalt zu verwendende Marke/das Logo usw. Weiterführende Informationen zu den Landingpage-Eigenschaften finden Sie in [diesem Abschnitt](../../channels/using/configuring-landing-page.md).
 1. Speichern Sie Ihre Änderungen.
 
 Weiterführende Informationen zu Landingpage-Vorlagen finden Sie in [diesem Abschnitt](../../channels/using/getting-started-with-landing-pages.md).
 
 ![](assets/lp-steps1.png)
 
-## Step 2 - Create and configure the landing page {#create-and-configure-the-landing-page}
+## Schritt 2 – Landingpage erstellen und konfigurieren {#create-and-configure-the-landing-page}
 
 Erstellen Sie ausgehend von der im vorangehenden Schritt definierten Vorlage eine neue Landingpage innerhalb des Programms oder der Kampagne Ihrer Wahl.
 
 1. Erstellen Sie die Landingpage auf der Basis der gewünschten Vorlage.
 1. Geben Sie die allgemeinen Parameter der Landingpage ein (Titel, Beschreibung usw.).
-1. Sie werden anschließend zum Landingpage-Dashboard weitergeleitet. Bearbeiten Sie bei Bedarf die Eigenschaften der Einstiegsseite (siehe [Konfigurieren einer Einstiegsseite](../../channels/using/configuring-landing-page.md)). Standardmäßig sind die Eigenschaften diejenigen, die in der Landingpage-Vorlage konfiguriert wurden.
+1. Sie werden anschließend zum Landingpage-Dashboard weitergeleitet. Bearbeiten Sie bei Bedarf die Eigenschaften der Landingpage (siehe [Landingpage konfigurieren](../../channels/using/configuring-landing-page.md)). Standardmäßig sind die Eigenschaften diejenigen, die in der Landingpage-Vorlage konfiguriert wurden.
 Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Die Landingpage wird dadurch automatisch am ausgewählten Datum depubliziert. Weiterführende Informationen zu Gültigkeitsparametern finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
 
    ![](assets/lp-steps3.png)
@@ -101,7 +101,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung i
    >
    >Sollten Sie Änderungen vornehmen, gelten diese nur für die in Bearbeitung befindliche Landingpage. Wenn Sie die Änderungen auf andere Landingpages anwenden möchten, können Sie sie in einer dedizierten Vorlage vornehmen und von dieser Vorlage ausgehend andere Landingpages erstellen.
 
-## Step 3 - Design the landing page {#design-the-landing-page}
+## Schritt 3 – Landingpage gestalten {#design-the-landing-page}
 
 Jetzt können Sie den Inhalt der Landingpage definieren. Standardmäßig umfasst die Landingpage drei Seiten, auf die mithilfe der Scroll-Funktion zugegriffen werden kann: die Hauptseite mit dem Inhalt, eine Bestätigungsseite und eine Fehlerseite.
 
@@ -113,7 +113,7 @@ Sie können auch festlegen, wie sich die Bestätigungsschaltfläche verhält, we
 
 Weiterführende Informationen zum Entwurf der Landingpage finden Sie in [diesem Abschnitt](../../channels/using/designing-a-landing-page.md).
 
-## Step 4 - Test the landing page {#test-the-landing-page}
+## Schritt 4 – Landingpage testen {#test-the-landing-page}
 
 Wenn die Landingpage fertig ist, können Sie simulieren, wie sie ausgeführt wird und sich verhält, wenn online auf sie zugegriffen wird.
 
@@ -127,9 +127,9 @@ Sollte das während des Tests beobachtete Verhalten zufriedenstellend sein, kön
 
 Weiterführende Informationen zum Testen einer Landingpage finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Step Publish the landing page {#publish-the-landing-page}
+## Schritt 5 – Landingpage publizieren {#publish-the-landing-page}
 
-Nach der zufriedenstellenden Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Publizieren]** in der Symbolleiste des Dashboards die Landingpage online stellen. Die Kachel "Landingpage-Verfolgung" gibt Ihnen Auskunft über Fortschritt und Status der Publikation.
+Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Publizieren]**in der Symbolleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Publikation.
 
 Durch die Publikation der Landingpage wird diese online verfügbar. Nach ihrer Publikation lässt sich die Landingpage weiterhin aktualisieren: Hierzu müssen Sie sie nach jeder Änderung erneut publizieren. Sie haben außerdem die Möglichkeit, Ihre Landingpage jederzeit zu depublizieren, damit sie nicht länger verfügbar ist.
 
