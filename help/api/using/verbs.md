@@ -1,5 +1,5 @@
 ---
-title: GET/POST/PATCH/LÖSCHEN VON Verben
+title: Verben GET/POST/PATCH/DELETE
 description: Erfahren Sie mehr über die Verben, die in Campaign Standard-APIs verwendet werden.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -11,17 +11,17 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ---
 
 
-# GET/POST/PATCH/LÖSCHEN VON Verben {#verbs}
+# Verben GET/POST/PATCH/DELETE {#verbs}
 
-Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur Verfügung:
+Folgende Verben stehen zur Ausführung von Operationen auf die Ressourcen zur Verfügung:
 
-* `GET`: ruft ein Element oder eine Sammlung von Elementen ab
+* `GET`: ruft ein Element oder eine Kollektion von Elementen ab.
 * `POST`: erstellt eine Ressource mit Parametern.
 * `PATCH`: aktualisiert eine Ressource mit Parametern.
 * `DELETE`: löscht eine Ressource.
@@ -30,9 +30,9 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
 
 <br/>
 
-***Beispielanforderungen***
+***Beispielanfragen ***
 
-* Beispiel-GET-Anforderung in der Profilsammlung.
+* Beispielhafte GET-Anfrage für die Profilkollektion.
 
 
    ```
@@ -44,7 +44,7 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Es wird ein Array von Profilen zurückgegeben.
+   Es wird eine Tabelle mit Profilen zurückgegeben.
 
 
    ```
@@ -68,7 +68,7 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    }
    ```
 
-* Beispiel-GET-Anforderung für ein bestimmtes Profil.
+* Beispielhafte GET-Anfrage für ein bestimmtes Profil.
 
 
    ```
@@ -80,7 +80,7 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Gibt das angeforderte Profil zurück.
+   Es wird das angeforderte Profil zurückgegeben.
 
 
    ```
@@ -94,7 +94,7 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    }
    ```
 
-* Beispiel-POST-Anforderung zum Erstellen eines Profils.
+* Beispielhafte POST-Anfrage zum Erstellen eines Profils.
 
 
    ```
@@ -106,7 +106,7 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    -d '{"lastName":"Doe"}'
    ```
 
-   Gibt das Profil mit den Standardfeldern zurück.
+   Es wird das Profil mit den Standardfeldern zurückgegeben.
 
    ```
    {
@@ -118,7 +118,7 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    }
    ```
 
-* Beispiel-PATCH-Anforderung zum Aktualisieren eines Profils.
+* Beispielhafte PATCH-Anfrage zum Aktualisieren eines Profils.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -129,7 +129,7 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   Gibt die PKEY und URL zurück, um das aktualisierte Profil abzurufen.
+   Es werden der PKEY und die URL zurückgegeben, um das aktualisierte Profil abzurufen.
 
    ```
    {
@@ -138,7 +138,7 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    }
    ```
 
-* Beispiel-DELETE-Anforderung zum Löschen eines Profils.
+* Beispielhafte DELETE-Anfrage zum Löschen eines Profils.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -148,4 +148,4 @@ Folgende Verben stehen zur Durchführung von Vorgängen für die Ressourcen zur 
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Die Anforderung gibt eine Antwort von 200 zurück und bestätigt, dass das Profil gelöscht wurde.
+   Die Anfrage gibt eine 200-Antwort zurück, um zu bestätigen, dass das Profil gelöscht wurde.
