@@ -1,6 +1,6 @@
 ---
 title: Abrufen der geografischen Einheit eines Profils
-description: Erfahren Sie, wie Sie die geografische Einheit eines Profils mit APIs abrufen.
+description: Erfahren Sie, wie Sie mit APIs die geografische Einheit eines Profils abrufen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,14 +19,14 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Abrufen der geografischen Einheit eines Profils {#retrieving-geographical-unit}
 
-1. Führen Sie eine GET-Anforderung für das Profil PKey durch, um die **geoUnit** -URL abzurufen.
-1. Führen Sie eine GET-Anforderung für die URL durch, um weitere Details zur geografischen Einheit abzurufen.
+1. Führen Sie eine GET-Anfrage für den PKey des Profils aus, um die URL **geoUnit** abzurufen.
+1. Führen Sie eine GET-Anfrage für die URL aus, um weitere Details zur geografischen Einheit abzurufen.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Abrufen des Profildatensatzes.
+Rufen Sie den Profildatensatz ab.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
@@ -36,7 +36,7 @@ Abrufen des Profildatensatzes.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die geoUnit-URL für das Profil zurück.
+Es wird die geoUnit-URL für das Profil zurückgegeben.
 
 ```
 {
@@ -50,7 +50,7 @@ Gibt die geoUnit-URL für das Profil zurück.
 }
 ```
 
-Führen Sie eine GET-Anforderung für die URL durch, um weitere Informationen abzurufen.
+Führen Sie eine GET-Anfrage für die URL aus, um weitere Informationen abzurufen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
@@ -60,7 +60,7 @@ Führen Sie eine GET-Anforderung für die URL durch, um weitere Informationen ab
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Es gibt Details zur geografischen Einheit zurück.
+Es werden Details zur geografischen Einheit zurückgegeben.
 
 ```
 {
