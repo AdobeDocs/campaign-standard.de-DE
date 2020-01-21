@@ -11,7 +11,7 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
@@ -21,41 +21,41 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ## Opt-in- und Opt-out-Verfahren in einem Profil verwalten {#managing-opt-in-and-opt-out-from-a-profile}
 
-Ein Benutzer kann von einem Empfänger direkt im Profil-Tab **[!UICONTROL Allgemein]** an- oder abgemeldet werden.
+Ein Benutzer kann von einem Empfänger direkt im Profil-Tab **[!UICONTROL Allgemein]**an- oder abgemeldet werden.
 
-Die aktivierten Optionen im Bereich **[!UICONTROL Kein Kontakt mehr (Blacklist)]** entsprechen den Kanälen, von denen sich der Empfänger abgemeldet hat. Wählen Sie die Kanäle entsprechend den Anforderungen des Empfängers aus.
+Die aktivierten Optionen im Bereich **[!UICONTROL Kein Kontakt mehr (Blacklist)]**entsprechen den Kanälen, von denen sich der Empfänger abgemeldet hat. Wählen Sie die Kanäle entsprechend den Anforderungen des Empfängers aus.
 
 ![](assets/optin_landingpage_3.png)
 
-## Opt-in- und Opt-out-Landingpages einrichten {#setting-up-opt-in-and-opt-out-landing-pages}
+## Opt-in- und Opt-out-Landingpages einrichten  {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Um Empfängern die Möglichkeit zu geben, sich an- oder abzumelden, müssen Sie eine **[!UICONTROL Profilakquise]**-Landingpage erstellen und veröffentlichen. Empfänger können dann entsprechend ihren Anforderungen die gewünschten Kanäle auswählen. Gehen Sie dazu wie folgt vor:
 
-Sie können auch eine **[!UICONTROL BlackList]**-Landingpage einrichten, über die sich Empfänger von allen Sendungen abmelden können. Weiterführende Informationen dazu finden Sie im Abschnitt [Landingpage zur Abmeldung von allen Sendungen einrichten](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+Sie können auch eine **[!UICONTROL BlackList]**-Landingpage einrichten, über die sich Empfänger von allen Sendungen abmelden können. Weiterführende Informationen dazu finden Sie im Abschnitt[Landingpage zur Abmeldung von allen Sendungen einrichten](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
 >Landingpages können auch verwendet werden, um die Anmeldung zu Diensten zu ermöglichen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
-1. Erstellen Sie eine **[!UICONTROL Profilakquise]**-Landingpage (siehe [diesen Abschnitt](../../channels/using/getting-started-with-landing-pages.md)).
+1. Erstellen Sie eine **[!UICONTROL Profilakquise]**-Landingpage (siehe[diesen Abschnitt](../../channels/using/getting-started-with-landing-pages.md)).
 1. Fügen Sie zum Inhalt der Landingpage für jeden gewünschten Kanal ein Kontrollkästchen hinzu und verknüpfen Sie es dann mit dem entsprechenden Feld in der Campaign-Datenbank.
 
    ![](assets/optin_landingpage_1.png)
 
 1. Speichern Sie die Landingpage und veröffentlichen Sie sie.
-1. Die Kontrollkästchen in der Landingpage sind bereits entsprechend dem Profil-Tab **[!UICONTROL Allgemein]** markiert. Der Empfänger kann die Kanäle entsprechend seinen Anforderungen beliebig auswählen oder löschen und das Formular senden.
+1. Die Kontrollkästchen in der Landingpage sind bereits entsprechend dem Profil-Tab **[!UICONTROL Allgemein]**markiert. Der Empfänger kann die Kanäle entsprechend seinen Anforderungen beliebig auswählen oder löschen und das Formular senden.
 
    ![](assets/optin_landingpage_2.png)
 
-1. Nachdem das Formular gesendet wurde, wird der Profil-Tab **[!UICONTROL Allgemein]** gemäß der Auswahl des Empfängers aktualisiert.
+1. Nachdem das Formular gesendet wurde, wird der Profil-Tab **[!UICONTROL Allgemein]**gemäß der Auswahl des Empfängers aktualisiert.
 
    ![](assets/optin_landingpage_3.png)
 
 ### Landingpage zum Opt-out von allen Sendungen einrichten {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Um Empfängern die Möglichkeit zu geben, sich aus allen Sendungen ausschließen zu lassen (Opt-out), müssen Sie eine Landingpage des Typs **[!UICONTROL BlackList]** erstellen und veröffentlichen. Weiterführende Informationen zur Landingpage-Erstellung finden Sie auf [dieser Seite](../../channels/using/getting-started-with-landing-pages.md).
+Um Empfängern die Möglichkeit zu geben, sich aus allen Sendungen ausschließen zu lassen (Opt-out), müssen Sie eine Landingpage des Typs **[!UICONTROL BlackList]**erstellen und veröffentlichen. Weiterführende Informationen zur Landingpage-Erstellung finden Sie auf[dieser Seite](../../channels/using/getting-started-with-landing-pages.md).
 
-Sobald ein Empfänger den Link in der Landingpage auswählt, wird automatisch die Option **[!UICONTROL Nicht mehr kontaktieren (alle Kanäle)]** im Profil des Empfängers aktiviert.
+Sobald ein Empfänger den Link in der Landingpage auswählt, wird automatisch die Option **[!UICONTROL Nicht mehr kontaktieren (alle Kanäle)]**im Profil des Empfängers aktiviert.
 
 ![](assets/blacklisting_allchannels.png)
 
