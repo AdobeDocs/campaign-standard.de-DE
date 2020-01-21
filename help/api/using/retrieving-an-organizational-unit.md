@@ -1,6 +1,6 @@
 ---
 title: Abrufen der Organisationseinheit eines Profils
-description: Erfahren Sie, wie Sie die Organisationseinheit eines Profils mit APIs verwenden.
+description: Erfahren Sie, wie Sie mit APIs die Organisationseinheit eines Profils abrufen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,14 +19,14 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Abrufen der Organisationseinheit eines Profils {#retrieving-organizational-units}
 
-1. Führen Sie eine GET-Anforderung für das Profil PKey durch, um die **orgUnit** -URL abzurufen.
-1. Führen Sie eine GET-Anforderung für die URL durch, um weitere Details zur Organisationseinheit abzurufen.
+1. Führen Sie eine GET-Anfrage für den PKey des Profils aus, um die URL **orgUnit** abzurufen.
+1. Führen Sie eine GET-Anfrage für die URL aus, um weitere Details zur Organisationseinheit abzurufen.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Abrufen des Profildatensatzes.
+Rufen Sie den Profildatensatz ab.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
@@ -36,7 +36,7 @@ Abrufen des Profildatensatzes.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die URL der orgUnit für das Profil zurück.
+Es wird die orgUnit-URL für das Profil zurückgegeben.
 
 ```
 {
@@ -50,7 +50,7 @@ Gibt die URL der orgUnit für das Profil zurück.
 }
 ```
 
-Führen Sie eine GET-Anforderung für die URL durch, um weitere Informationen abzurufen.
+Führen Sie eine GET-Anfrage für die URL aus, um weitere Informationen abzurufen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
