@@ -1,6 +1,6 @@
 ---
 title: Über Abonnements
-description: Weitere Informationen zu Diensten und Abonnements in Campaign Standard.
+description: Erfahren Sie mehr über Dienste und Abonnements in Campaign Standard.
 page-status-flag: never-activated
 uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -25,7 +25,7 @@ Sie können Anmeldemechanismen einrichten, um Ihren Kunden die Möglichkeit zu g
 
 Jeder Dienst ist mit folgenden Mechanismen ausgestattet:
 
-* Vorhandensein von Mechanismen zur **Anmeldung** (Opt-in) und zur **[!UICONTROL Abmeldung]** (Opt-out).
+* Mechanismen zur **Anmeldung** (Opt-in) und **[!UICONTROL Abmeldung]**(Opt-out).
 * Vorhandensein von **Mechanismen zur Bestätigung** von An- und/oder Abmeldung.
 * Verfolgung des **Verlaufs** von An- und Abmeldungen.
 
