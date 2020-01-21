@@ -11,7 +11,7 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
@@ -54,7 +54,7 @@ Verlässt ein Webseitenbesucher die Seite, ohne den Kauf abzuschließen, wird ih
 
 Gehen Sie hierzu wie folgt vor:
 
-1. Konfigurieren Sie ein Ereignis namens "Stehen gelassener Warenkorb". Bei der Publikation dieser Ereigniskonfiguration wird automatisch eine Transaktionsnachricht erstellt. Die Erstellung und Veröffentlichung eines Ereignisses finden Sie im Abschnitt [Ereignis konfigurieren, um eine Ereignis-Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
+1. Konfigurieren Sie ein Ereignis namens &quot;Stehen gelassener Warenkorb&quot;. Bei der Publikation dieser Ereigniskonfiguration wird automatisch eine Transaktionsnachricht erstellt. Die Erstellung und Veröffentlichung eines Ereignisses finden Sie im Abschnitt [Ereignis konfigurieren, um eine Ereignis-Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 1. Die Transaktionsnachricht muss personalisiert, getestet und dann publiziert werden. Siehe [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 1. Außerdem muss dieses Ereignis über die Firmenwebseite unter Verwendung einer Adobe Campaign Standard REST-API gesendet werden, damit ersteres ausgelöst wird, wenn ein Kunde seinen Warenkorb stehen lässt. Siehe [Webseiten-Integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
@@ -80,11 +80,11 @@ Bei der Gestaltung und Publikation von Transaktionsnachrichten können manche Sc
 
 * Für jede Ereigniskonfiguration kann jeweils nur ein Kanal verwendet werden. Siehe [Ereignis erstellen](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Nach der Erstellung des Ereignisses lässt sich der Kanal nicht mehr ändern. Deshalb müssen Sie den Mechanismus festlegen, über den eine Nachricht im Fall einer erfolglosen Sendung über einen anderen Kanal mit einem Workflow gesendet werden kann. Siehe [Workflow-Daten und -Prozesse](../../automating/using/workflow-data-and-processes.md).
-* Nach der Erstellung des Ereignisses können Sie die Zielgruppendimension (**[!UICONTROL Echtzeit-Ereignis]** or **[!UICONTROL Profil]**) nicht mehr ändern. Siehe [Ereignis erstellen](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Nach der Erstellung des Ereignisses können Sie die Zielgruppendimension (**[!UICONTROL Echtzeit-Ereignis]**or**[!UICONTROL  Profil]**) nicht mehr ändern. Siehe [Ereignis erstellen](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Es ist nicht möglich, eine Publikation rückgängig zu machen, Sie können aber ein Ereignis depublizieren: Dadurch wird der Zugriff auf das Ereignis und die damit verknüpften Transaktionsnachrichten gesperrt. Siehe [Ereignis depublizieren](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * Die einzige Transaktionsnachricht, die mit einem Ereignis verknüpft werden kann, ist die Nachricht, die automatisch beim Publizieren dieses Ereignisses erstellt wird. Siehe [Vorschau erstellen und Ereignis publizieren](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
 
-### Personalisierung {#personalization}
+### Personalisierung  {#personalization}
 
 Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ der Transaktionsnachricht ab. Unten finden Sie die Spezifikationen:
 
@@ -103,19 +103,19 @@ Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ 
 
 Beachten Sie, dass Produktlisten nur in Nachrichten von Transaktions-E-Mails verfügbar sind. Siehe [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
-### Berechtigungen und Branding {#permissions-and-branding}
+### Berechtigungen und Branding  {#permissions-and-branding}
 
-Beim [Branding](../../administration/using/branding.md) bieten Transaktionsnachrichten weniger Flexibilität als Standardnachrichten. Adobe empfiehlt, alle in Transaktionsnachrichten verwendeten Marken mit der Organisationseinheit **[!UICONTROL Alle]** [zu verknüpfen](../../administration/using/organizational-units.md). Weiterführende Informationen dazu finden Sie in der unten stehenden Erläuterung.
+Beim [Branding](../../administration/using/branding.md) bieten Transaktionsnachrichten weniger Flexibilität als Standardnachrichten. Adobe empfiehlt, alle in Transaktionsnachrichten verwendeten Marken mit der Organisationseinheit **[!UICONTROL Alle]**[zu verknüpfen](../../administration/using/organizational-units.md). Weiterführende Informationen dazu finden Sie in der unten stehenden Erläuterung.
 
-Bei der Bearbeitung einer Transaktionsnachricht können Sie sie mit einer Marke verknüpfen, um einige Parameter automatisch einzufügen, wie z. B. den Markennamen oder das Markenlogo. In den Eigenschaften der Transaktionsnachricht ist standardmäßig die **[!UICONTROL Standardmarke]** ausgewählt.
+Bei der Bearbeitung einer Transaktionsnachricht können Sie sie mit einer Marke verknüpfen, um einige Parameter automatisch einzufügen, wie z. B. den Markennamen oder das Markenlogo. In den Eigenschaften der Transaktionsnachricht ist standardmäßig die **[!UICONTROL Standardmarke]**ausgewählt.
 
 ![](assets/message-center_branding.png)
 
-Alle in einer Transaktionsnachricht verwendeten Objekte (einschließlich der Marke) müssen in der Organisationseinheit **[!UICONTROL Message Center]** sichtbar sein, d. h. diese Objekte müssen sich in der Organisationseinheit **[!UICONTROL Message Center]** oder **[!UICONTROL Alle]** befinden.
+Alle in einer Transaktionsnachricht verwendeten Objekte (einschließlich der Marke) müssen in der Organisationseinheit **[!UICONTROL Message Center]**sichtbar sein, d. h. diese Objekte müssen sich in der Organisationseinheit**[!UICONTROL  Message Center]** oder **[!UICONTROL Alle]**befinden.
 
-Wenn aber die in den Nachrichteneigenschaften ausgewählte Marke mit einer anderen Organisationseinheit als **[!UICONTROL Message Center]** or **[!UICONTROL Alle]** verknüpft ist, tritt ein Fehler auf und die Transaktionsnachricht kann nicht gesendet werden.
+Wenn aber die in den Nachrichteneigenschaften ausgewählte Marke mit einer anderen Organisationseinheit als **[!UICONTROL Message Center]**oder**[!UICONTROL  Alle]** verknüpft ist, tritt ein Fehler auf und die Transaktionsnachricht kann nicht gesendet werden.
 
-Deshalb müssen Sie im Fall von Multibranding bei Transaktionsnachrichten alle Marken entweder mit der Organisationseinheit **[!UICONTROL Message Center]** oder **[!UICONTROL Alle]** verknüpfen.
+Deshalb müssen Sie im Fall von Multibranding bei Transaktionsnachrichten alle Marken entweder mit der Organisationseinheit **[!UICONTROL Message Center]**oder**[!UICONTROL  Alle]** verknüpfen.
 
 ### Transaktionsnachrichten exportieren und importieren {#exporting-and-importing-transactional-messages}
 
