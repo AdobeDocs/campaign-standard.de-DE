@@ -11,23 +11,23 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
 
-# Einstiegsseite testen und veröffentlichen{#testing-publishing--landing-page}
+# Landingpage testen und publizieren{#testing-publishing--landing-page}
 
 ## Über die Publikation von Landingpages {#about-landing-page-publication}
 
 Vor der Publikation einer Landingpage müssen Sie Tests durchführen: Validieren Sie die Ausführung, konfigurieren Sie den Zugriff darauf und legen Sie das Funktionsende der Landingpage fest. Diese Maßnahmen sind erforderlich und müssen mit Sorgfalt ausgeführt werden.
 
-## Landingpage testen {#testing-the-landing-page-}
+## Landingpage testen  {#testing-the-landing-page-}
 
 Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie wie folgt vor:
 
-1. Verwenden Sie hierzu die Schaltfläche **[!UICONTROL Testen]** in der Symbolleiste der Landingpage.
+1. Verwenden Sie hierzu die Schaltfläche **[!UICONTROL Testen]**in der Symbolleiste der Landingpage.
 1. Wenn auf der Landingpage Abonnements verarbeitet werden sollen, wählen Sie auf dem Testbildschirm ein Testprofil und einen Testdienst.
 
    ![](assets/lp_test_2.png)
@@ -43,7 +43,7 @@ Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie 
 
    Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landingpage erzeugen.
 
-## Gültigkeitsparameter einrichten {#setting-up-validity-parameters}
+## Gültigkeitsparameter einrichten  {#setting-up-validity-parameters}
 
 Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung vor der Publikation in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Landingpage automatisch offline gestellt. Gehen Sie wie folgt vor:
 
@@ -51,7 +51,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Definieren Sie im Bereich **[!UICONTROL Publikation]** das Ablaufdatum und die entsprechende Uhrzeit. Die Landingpage wird automatisch am angegebenen Datum depubliziert und ist dann nicht mehr verfügbar.
+1. Definieren Sie im Bereich **[!UICONTROL Publikation]**das Ablaufdatum und die entsprechende Uhrzeit. Die Landingpage wird automatisch am angegebenen Datum depubliziert und ist dann nicht mehr verfügbar.
 
    Sie können die Zeitzone auswählen, die für dieses Datum und die Uhrzeit berücksichtigt werden soll.
 
@@ -63,8 +63,8 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 >
 >Sie können auch ein Publikationsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum publiziert.
 
-## Landingpage publizieren {#publishing-a-landing-page}
+## Landingpage publizieren  {#publishing-a-landing-page}
 
 Wenn Sie eine Landingpage publizieren, ist sie online für Besucher verfügbar.
 
-Eine Landingpage-Depublizierung bzw. -Aktualisierung ist jederzeit über die Schaltfläche **[!UICONTROL Publizieren]** möglich. Wenn vor der erneuten Publikation die Landingpage nicht depubliziert wurde und ein Fehler auftritt, bleibt die erste Version online.
+Eine Landingpage-Depublizierung bzw. -Aktualisierung ist jederzeit über die Schaltfläche **[!UICONTROL Publizieren]**möglich. Wenn vor der erneuten Publikation die Landingpage nicht depubliziert wurde und ein Fehler auftritt, bleibt die erste Version online.
