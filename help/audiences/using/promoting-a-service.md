@@ -11,7 +11,7 @@ topic-tags: managing-subscriptions
 discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
@@ -25,10 +25,10 @@ Mit Campaign können Sie einen Dienst folgendermaßen bewerben:
 
 * [Einfügen von Anmelde-Links für und Abmelde-Links von Diensten in E-Mails](../../designing/using/links.md#inserting-a-link)
 
-* [Einfügen eines Links zu einer Einstiegsseite mit Abonnement oder Abonnement in eine E-Mail](../../designing/using/links.md). In diesem Fall muss der Dienst direkt in den Eigenschaften der zugehörigen Einstiegsseiten referenziert werden (siehe [Verknüpfen einer Einstiegsseite mit einem Dienst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
+* [Einfügen von Links auf einer Anmelde- oder Abmelde-Landingpage in E-Mails](../../designing/using/links.md). In diesem Fall muss der Dienst direkt in den Eigenschaften der zugehörigen Landingpages referenziert werden (siehe [Verknüpfen einer Landingpage mit einem Dienst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
    >[!NOTE]
    >
    >Stellen Sie bitte unbedingt sicher, dass Sie den Abonnenten außerdem die Möglichkeit zur Abmeldung einräumen. Fügen Sie hierzu einen <b>Abmelde-Link</b> in die (in den Diensteigenschaften definierte) Bestätigungs-E-Mail für neue Abonnenten und in zukünftige Newsletter-E-Mails ein.
 
-* Durch Einbettung einer An- oder Abmelde-Landingpage in eine Webseite: Die Landingpage-URLs müssen verschlüsselte Parameter wie den zugeordneten Dienst und die Kennung des die Seite aufrufenden Profils enthalten. Diese ID kann in den Einstiegsseitenparametern definiert werden (siehe [Konfigurieren einer Einstiegsseite](../../channels/using/configuring-landing-page.md)).
+* Durch Einbettung einer An- oder Abmelde-Landingpage in eine Webseite: Die Landingpage-URLs müssen verschlüsselte Parameter wie den zugeordneten Dienst und die Kennung des die Seite aufrufenden Profils enthalten. Diese Kennung kann in den Landingpage-Parametern definiert werden (siehe [Konfigurieren einer Landingpage](../../channels/using/configuring-landing-page.md)).
