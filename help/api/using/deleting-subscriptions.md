@@ -1,6 +1,6 @@
 ---
-title: Löschen von Abonnements
-description: Erfahren Sie, wie Sie Abonnements mit APIs löschen.
+title: Löschen von Anmeldungen
+description: Erfahren Sie, wie Sie Anmeldungen mit APIs löschen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,29 +11,29 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Löschen von Abonnements {#mdeleting-subscriptions}
+# Löschen von Anmeldungen {#mdeleting-subscriptions}
 
-## Löschen eines Dienstabonnements für ein bestimmtes Profil
+## Löschen einer Dienstanmeldung für ein bestimmtes Profil
 
-Dies ist ein dreistufiger Vorgang.
+Dies ist ein dreistufiges Verfahren.
 
-1. Rufen Sie die Abonnement-URL für das gewünschte Profil ab.
-1. Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
-1. Führen Sie eine DELETE-Anforderung für die gewünschte Dienst-URL durch.
+1. Rufen Sie die Anmeldungs-URL für das gewünschte Profil ab.
+1. Führen Sie eine GET-Anfrage für die Anmeldungs-URL aus.
+1. Führen Sie eine DELETE-Anfrage für die gewünschte Dienst-URL aus.
 
-Ist die Löschanforderung erfolgreich, lautet der Antwortstatus 204 Kein Inhalt.
+Ist die Löschanfrage erfolgreich, lautet der Antwortstatus &quot;204 Kein Inhalt&quot;.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Die folgenden Beispielnutzdaten zeigen, wie Sie ein Profil von einem Dienst abmelden. Führen Sie zuerst eine GET-Anforderung durch, um das Profil abzurufen.
+Die folgenden beispielhaften Payloads zeigen, wie Sie ein Profil von einem Dienst abmelden können. Führen Sie zuerst eine GET-Anfrage aus, um das Profil abzurufen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -43,7 +43,7 @@ Die folgenden Beispielnutzdaten zeigen, wie Sie ein Profil von einem Dienst abme
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Abonnement-URL für das Profil zurück.
+Es wird die Anmeldungs-URL für das Profil zurückgegeben.
 
 ```
   {
@@ -56,7 +56,7 @@ Gibt die Abonnement-URL für das Profil zurück.
   }
 ```
 
-Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
+Führen Sie eine GET-Anfrage für die Anmeldungs-URL aus.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -66,7 +66,7 @@ Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Liste der Abonnements für das ausgewählte Profil mit einer URL für jeden abonnierten Dienst zurück.
+Es wird eine Liste der Anmeldungen für das ausgewählte Profil mit einer URL für jeden abonnierten Dienst zurückgegeben.
 
 ```
 ...
@@ -80,7 +80,7 @@ Gibt die Liste der Abonnements für das ausgewählte Profil mit einer URL für j
 ...
 ```
 
-Führen Sie eine DELETE-Anforderung für die gewünschte Dienst-URL durch.
+Führen Sie eine DELETE-Anfrage für die gewünschte Dienst-URL aus.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -92,19 +92,19 @@ Führen Sie eine DELETE-Anforderung für die gewünschte Dienst-URL durch.
 
 <!-- + réponse -->
 
-## Löschen eines Dienstabonnements für ein bestimmtes Profil
+## Löschen einer Dienstanmeldung für ein bestimmtes Profil
 
-Dies ist ein dreistufiger Vorgang.
+Dies ist ein dreistufiges Verfahren.
 
-1. Rufen Sie den gewünschten Dienst und dessen Abonnement-URL ab.
-1. Führen Sie eine GET-Anforderung für die Abonnement-URL durch, um alle Profilabonnements abzurufen.
-1. Führen Sie eine DELETE-Anforderung für die gewünschte Profilabonnement-URL durch.
+1. Rufen Sie den gewünschten Dienst und dessen Anmeldungs-URL ab.
+1. Führen Sie eine GET-Anfrage für die Anmeldungs-URL durch, um alle Profilanmeldungen abzurufen.
+1. Führen Sie eine DELETE-Anfrage für die gewünschte Profilanmeldungs-URL aus.
 
-Ist die Löschanforderung erfolgreich, lautet der Antwortstatus 204 Kein Inhalt.
+Ist die Löschanfrage erfolgreich, lautet der Antwortstatus &quot;204 Kein Inhalt&quot;.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
 Rufen Sie den Dienstdatensatz ab.
 
@@ -116,7 +116,7 @@ Rufen Sie den Dienstdatensatz ab.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Abonnement-URL für den Dienst zurück.
+Es wird die Anmeldungs-URL für den Dienst zurückgegeben.
 
 ```
 {
@@ -133,7 +133,7 @@ Gibt die Abonnement-URL für den Dienst zurück.
 },
 ```
 
-Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
+Führen Sie eine GET-Anfrage für die Anmeldungs-URL aus.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -143,7 +143,7 @@ Führen Sie eine GET-Anforderung für die Abonnement-URL durch.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Liste der Abonnements für den ausgewählten Dienst mit einer URL (href) für jedes Profilabonnement zurück.
+Für den ausgewählten Dienst wird die Liste aller Anmeldungen zurückgegeben, wobei für jede Profilanmeldung eine URL (href) angegeben ist.
 
 ```
 {
@@ -160,7 +160,7 @@ Gibt die Liste der Abonnements für den ausgewählten Dienst mit einer URL (href
 }
 ```
 
-Führen Sie eine DELETE-Anforderung für die gewünschte Profilabonnement-URL durch.
+Führen Sie eine DELETE-Anfrage für die gewünschte Profilanmeldungs-URL aus.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
