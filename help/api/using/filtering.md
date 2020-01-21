@@ -1,6 +1,6 @@
 ---
 title: Filter
-description: Erfahren Sie, wie Sie Filtervorgänge durchführen.
+description: Erfahren Sie, wie Sie Filtervorgänge durchführen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ---
@@ -21,15 +21,15 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ## Abrufen von Filtermetadaten
 
-Für jede Ressource stehen Filter zur Verfügung. Um die mit einer Ressource verknüpften Filter zu identifizieren, müssen Sie eine GET-Anforderung für die Ressourcenmetadaten durchführen. Diese Anforderung gibt die URL zurück, unter der alle Filter für eine bestimmte Ressource definiert sind. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+Für jede Ressource stehen Filter zur Verfügung. Um die mit einer Ressource verknüpften Filter zu ermitteln, müssen Sie eine GET-Anfrage für die Metadaten der Ressource durchführen. Die Anfrage gibt die URL zurück, unter der alle Filter für eine bestimmte Ressource definiert sind. Weiterführende Informationen zu Metadaten finden Sie in [diesem Abschnitt](../../api/using/metadata-mechanism.md).
 
-Um die Metadaten eines Filters zu identifizieren und zu bestimmen, wie er verwendet werden soll, müssen Sie eine GET-Anforderung für die zuvor zurückgegebene URL durchführen.
+Um die Metadaten eines Filters und die jeweilige Verwendungsweise zu ermitteln, müssen Sie eine GET-Anfrage für die zuvor zurückgegebene URL durchführen.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Die folgenden Beispielnutzdaten zeigen, wie die "byText"-Filtermetadaten für die "Profil"-Ressource abgerufen werden. Führen Sie zuerst eine GET-Anforderung für die "Profil"-Ressourcenmetada durch.
+Die folgenden beispielhaften Payloads zeigen, wie die &quot;byText&quot;-Filtermetadaten für die &quot;Profil&quot;-Ressource abgerufen werden. Führen Sie zuerst eine GET-Anfrage für die Metadaten der Ressource &quot;Profil&quot; durch.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -39,7 +39,7 @@ Die folgenden Beispielnutzdaten zeigen, wie die "byText"-Filtermetadaten für di
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die URL zurück, in der die Filter beschrieben sind.
+Diese gibt die URL zurück, unter der die Filter beschrieben werden.
 
 ```
 {
@@ -49,7 +49,7 @@ Gibt die URL zurück, in der die Filter beschrieben sind.
   }
 ```
 
-Führen Sie eine GET-Anforderung für die URL durch. Es wird die Liste der Filter für die Profilatressource mit den jedem Filter zugeordneten Metadaten zurückgegeben.
+Führen Sie eine GET-Anfrage für die URL aus. Sie erhalten eine Liste der Filter für die Ressource &quot;Profil&quot; mit den jedem Filter zugeordneten Metadaten.
 
 ```
 {
@@ -64,14 +64,14 @@ Führen Sie eine GET-Anforderung für die URL durch. Es wird die Liste der Filte
 }
 ```
 
-## Filtert Metadatenstruktur
+## Struktur von Filtermetadaten
 
-Für jeden Filter ist dieselbe Metadatenstruktur verfügbar:
+Jeder Filter weist dieselbe Metadatenstruktur auf:
 
 * Die Felder **@formType** und **@webPage** sind technische Felder.
-* Das **Datenfeld** enthält ein Beispiel zur Verwendung des Filters.
-* Der **Metadaten** -Knoten beschreibt die Filterparameter.
-* Der Knoten **Bedingung** beschreibt, was der Filter tun soll. Die im Metadaten-Knoten beschriebenen Filterparameter werden zum Erstellen von Filterbedingungen verwendet. Wenn **enabledIf** true ist, wird für jede Filterbedingung der **expr** angewendet.
+* Das Feld **Daten** enthält ein Beispiel zur Verwendung des Filters.
+* Der Knoten **Metadaten** beschreibt die Filterparameter.
+* Der Knoten **Bedingungen** beschreibt, was der Filter tun soll. Die im Metadaten-Knoten beschriebenen Filterparameter dienen zum Erstellen von Filterbedingungen. Wenn **enabledIf** wahr ist, wird für jede Filterbedingung **expr** angewendet.
 
 <br/>
 
@@ -91,19 +91,19 @@ Beispiel für die Metadatenstruktur:
 
 ## Verwenden von Filtern
 
-Die Filterung wird mit der folgenden Anforderung durchgeführt:
+Die Filterung wird mit der folgenden Anfrage durchgeführt:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
-Es ist möglich, mehrere Filter in einer einzigen Anforderung zu kombinieren:
+Es ist möglich, mehrere Filter in einer einzigen Anfrage zu kombinieren:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
 
 <br/>
 
-***Beispielanforderungen***
+***Beispielanfragen ***
 
-* Beispiel-GET-Anforderung zum Abrufen der "Service"-Ressourcen mit dem Typ "email".
+* Beispielhafte GET-Anfrage zum Abrufen der &quot;Dienst&quot;-Ressourcen mit dem Typ &quot;email&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -135,7 +135,7 @@ Es ist möglich, mehrere Filter in einer einzigen Anforderung zu kombinieren:
    }
    ```
 
-* Beispiel-GET-Anforderung zum Abrufen der "Profil"-Ressourcen, die "Mustermann"in den Feldern "E-Mail"oder "Nachname"enthalten (der byText-Filter sucht sowohl in den Feldern "E-Mail"als auch "Nachname").
+* Beispielhafte GET-Anfrage zum Abrufen der &quot;Profil&quot;-Ressourcen, die in den Feldern &quot;E-Mail&quot; oder &quot;Nachname&quot; &quot;Mustermann&quot; enthalten (der byText-Filter sucht sowohl in den Feldern &quot;E-Mail&quot; als auch &quot;Nachname&quot;).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -163,7 +163,7 @@ Es ist möglich, mehrere Filter in einer einzigen Anforderung zu kombinieren:
    }
    ```
 
-* Beispiel-GET-Anfrage, um die Services-Ressourcen mit dem Typ "email" und der Bezeichnung "sport" abzurufen.
+* Beispielhafte GET-Anfrage zum Abrufen der &quot;Dienst&quot;-Ressourcen mit dem Typ &quot;email&quot; und dem Titel &quot;sport&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -197,20 +197,20 @@ Es ist möglich, mehrere Filter in einer einzigen Anforderung zu kombinieren:
 
 ## Benutzerdefinierte Filter
 
-Wenn Sie einen benutzerspezifischen Filter verwenden möchten, müssen Sie ihn in der Benutzeroberfläche von Adobe Campaign Standard erstellen und anpassen. Der benutzerspezifische Filter hat dann dasselbe Verhalten wie die standardmäßigen Filter:
+Wenn Sie einen benutzerdefinierten Filter verwenden möchten, müssen Sie ihn in der Benutzeroberfläche von Adobe Campaign Standard erstellen und anpassen. Der benutzerdefinierte Filter verhält sich dann genauso wie native Filter:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Weitere Informationen finden Sie in der Dokumentation zu Campaign Standard:
+Weiterführende Informationen finden Sie in der Campaign Standard-Dokumentation.
 
-* [Filterdefinition konfigurieren](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Verwendungsfall: Aufruf einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Filterdefinition konfigurieren](https://helpx.adobe.com/de/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Anwendungsbeispiel: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Beispiel-GET-Anforderung zum Abrufen der "Profil"-Ressourcen mit Transaktionsbeträgen von 100$ oder mehr. Beachten Sie, dass der Filter "byAmount"zunächst in der Benutzeroberfläche von Adobe Campaign Standard definiert und mit der benutzerdefinierten Tabelle "Transaction"verknüpft wurde.
+Beispielhafte GET-Anfrage zum Abrufen der &quot;Profil&quot;-Ressourcen mit Transaktionsbeträgen von 100 $ oder mehr. Beachten Sie, dass der Filter &quot;byAmount&quot; zunächst in der Benutzeroberfläche von Adobe Campaign Standard definiert und mit der benutzerdefinierten Tabelle &quot;Transaction&quot; verknüpft wurde.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
