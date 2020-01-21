@@ -1,6 +1,6 @@
 ---
-title: Aktualisieren von Attributen geografischer Einheiten
-description: Erfahren Sie, wie Sie Attribute geografischer Einheiten mit APIs aktualisieren
+title: Aktualisieren der Attribute einer geografischen Einheit
+description: Erfahren Sie, wie Sie mit APIs Attribute einer geografischen Einheit aktualisieren können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,20 +11,20 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Aktualisieren von Attributen geografischer Einheiten {#managing-geographical-units}
+# Aktualisieren der Attribute einer geografischen Einheit {#managing-geographical-units}
 
-1. Führen Sie eine GET-Anforderung für die **Ressource geoUnitBase** durch, um die geografische Einheit PKey abzurufen.
-1. Führen Sie eine PATCH-Anforderung an die geografische Einheit mit den Attributen durch, die in der Nutzlast aktualisiert werden sollen.
+1. Führen Sie eine GET-Anfrage für die Ressource **geoUnitBase** aus, um den PKey der geografischen Einheit abzurufen.
+1. Führen Sie eine PATCH-Anfrage für die geografische Einheit mit den Attributen aus, die in der Payload aktualisiert werden sollen.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
 Rufen Sie die Liste der geografischen Einheiten ab.
 
@@ -52,7 +52,7 @@ Es werden alle geografischen Einheiten zurückgegeben. Rufen Sie den PKey der ge
 },
 ```
 
-Führen Sie eine PATCH-Anforderung an die geografische Einheit mit den Attributen durch, die in der Nutzlast aktualisiert werden sollen.
+Führen Sie eine PATCH-Anfrage für die geografische Einheit mit den Attributen aus, die in der Payload aktualisiert werden sollen.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
