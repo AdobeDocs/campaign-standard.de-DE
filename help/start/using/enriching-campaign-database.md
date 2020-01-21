@@ -11,7 +11,7 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
@@ -35,7 +35,7 @@ Sie können zwei Arten von Vorlagen einrichten:
 
    Ein Beispiel für eine Workflow-Vorlage zum Importieren von Daten finden Sie in [diesem Abschnitt](../../automating/using/importing-data.md#example--import-workflow-template).
 
-* **Vorlagen zum Datenimport**: Ebenso wie Workflow-Vorlagen sind auch dies Vorlagen, die auf Workflows basieren. Sie werden zum Hochladen von Dateien zur Aktualisierung der Datenbank eingerichtet. Nach der Konfiguration werden sie Benutzern mit einer vereinfachten Ansicht im Menü **[!UICONTROL Profile &amp; Audiences]** / Menü **[!UICONTROL Importe]** zur Verfügung gestellt.
+* **Vorlagen zum Datenimport**: Ebenso wie Workflow-Vorlagen sind auch dies Vorlagen, die auf Workflows basieren. Sie werden zum Hochladen von Dateien zur Aktualisierung der Datenbank eingerichtet. Nach der Konfiguration werden sie Benutzern mit einer vereinfachten Ansicht im Menü **[!UICONTROL Profile &amp; Audiences]**/**[!UICONTROL  Importe]** zur Verfügung gestellt.
 
    Weiterführende Informationen zu Vorlagen zum Datenimport finden Sie im [entsprechenden Handbuch](../../automating/using/importing-data-with-import-templates.md).
 
@@ -56,7 +56,7 @@ Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Hand
 Die Campaign Standard-Integration mit Microsoft Dynamics 365 ermöglicht Ihnen die Übermittlung von Kontaktdaten von Microsoft Dynamics 365 an die Campaign-Datenbank.
 Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingkampagnen verwendet werden.
 
-Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](https://helpx.adobe.com/de/campaign/kb/acs-ms-dynamics.html).
 
 >[!NOTE]
 >
@@ -70,4 +70,4 @@ Weiterführende Informationen zur Verwendung von APIs finden Sie im [entsprechen
 
 >[!CAUTION]
 >
->Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
