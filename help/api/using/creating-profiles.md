@@ -1,6 +1,6 @@
 ---
 title: Profile erstellen
-description: Weitere Informationen zum Erstellen von Profilen mit APIs.
+description: Erfahren Sie mehr über das Erstellen von Profilen mit APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,19 +19,19 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Profile erstellen {#creating-profiles}
 
-Das Erstellen von Profilen wird mit einer **POST** -Anforderung in der Profilinstanz durchgeführt.
+Profile lassen sich durch Ausführen einer **POST**-Anfrage für die Profilressource erstellen.
 
 >[!CAUTION]
 >
->Wenn Sie eine <b>orgUnit</b> mit dem erstellten Profil verknüpfen möchten, müssen Sie die Profilressource mit diesem Feld erweitern und nach der Veröffentlichung der Erweiterung eine POST-Anforderung am <b>ProfilAndServicesExt</b> -Endpunkt durchführen.
+>Wenn Sie mit dem erstellten Profil eine <b>orgUnit</b> verknüpfen möchten, müssen Sie die Profilressource mit diesem Feld erweitern und nach der Publikation der Erweiterung eine POST-Anfrage für den Endpunkt <b>ProfilAndServicesExt</b> ausführen.
 >
->Weitere Informationen zur Ressourcenerweiterung des Profils finden Sie in der <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Kampagnendokumentation</a>.
+>Weiterführende Informationen zur Ressourcenerweiterung des Profils finden Sie in der <a href="https://helpx.adobe.com/de/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign-Dokumentation</a>.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Beispiel-POST-Anfrage, um ein Profil mit der E-Mail "john.doe@mail.com"zu erstellen.
+Beispielhafte POST-Anfrage zum Erstellen eines Profils mit der E-Mail-Adresse &quot;max.mustermann@mail.com&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -43,7 +43,7 @@ Beispiel-POST-Anfrage, um ein Profil mit der E-Mail "john.doe@mail.com"zu erstel
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-Es wird das neu erstellte Profil mit der E-Mail-Adresse "john.doe@mail.com"zurückgegeben.
+Es wird das neu erstellte Profil mit der E-Mail-Adresse &quot;max.mustermann@mail.com&quot; zurückgegeben.
 
 ```
 {
