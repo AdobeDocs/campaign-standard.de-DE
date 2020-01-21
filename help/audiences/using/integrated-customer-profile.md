@@ -12,7 +12,7 @@ discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
@@ -24,7 +24,7 @@ Für jeden Kontakt in Ihrer Datenbank ist ein integriertes Kundenprofil verfügb
 
 Um auf das integrierte Kundenprofil zuzugreifen, gehen Sie folgendermaßen vor:
 
-1. Öffnen Sie auf der Adobe-Campaign-Startseite die Karte **[!UICONTROL Kundenprofile]** oder den Tab **Profile**.
+1. Öffnen Sie auf der Adobe Campaign-Startseite die Karte **[!UICONTROL Kundenprofile]**oder den Tab** Profile **.
 1. Wählen Sie einen Kontakt aus.
 
    ![](assets/mkt_hist_access.png)
