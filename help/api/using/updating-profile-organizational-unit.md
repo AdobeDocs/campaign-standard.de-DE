@@ -1,6 +1,6 @@
 ---
 title: Aktualisieren der Organisationseinheit eines Profils
-description: Erfahren Sie, wie Sie die Organisationseinheit eines Profils mit APIs aktualisieren.
+description: Erfahren Sie, wie Sie mit APIs die Organisationseinheit eines Profils aktualisieren können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,14 +19,14 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Aktualisieren der Organisationseinheit eines Profils {#managing-organizational-units}
 
-1. Führen Sie eine GET-Anforderung an die **orgUnitBase** -Ressource aus, um die Organisationseinheit PKey abzurufen
-1. Führen Sie eine PATCH-Anforderung auf dem Profil PKey durch, wobei die gewünschte organisatorische Einheit PKey in der Nutzlast enthalten ist.
+1. Führen Sie eine GET-Anfrage für die Ressource **orgUnitBase** aus, um den PKey der Organisationseinheit abzurufen.
+1. Führen Sie eine PATCH-Anfrage für den PKey des Profils aus, wobei sich der PKey der gewünschten Organisationseinheit in der Payload befindet.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Rufen Sie die Liste der Einheiten im Unternehmen ab.
+Rufen Sie die Liste der Organisationseinheiten ab.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -36,7 +36,7 @@ Rufen Sie die Liste der Einheiten im Unternehmen ab.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Es werden alle organisatorischen Einheiten zurückgegeben. Rufen Sie den PKey der Einheit ab, der Sie das Profil zuweisen möchten.
+Es werden alle Organisationseinheiten zurückgegeben. Rufen Sie den PKey der Einheit ab, der Sie das Profil zuweisen möchten.
 
 ```
 {
@@ -52,7 +52,7 @@ Es werden alle organisatorischen Einheiten zurückgegeben. Rufen Sie den PKey de
 },
 ```
 
-Führen Sie eine PATCH-Anforderung im Profil durch, wobei der PKey der gewünschten Organisationseinheit in der Nutzlast enthalten ist.
+Führen Sie eine PATCH-Anfrage für das Profil aus, wobei sich der PKey der gewünschten Organisationseinheit in der Payload befindet.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
