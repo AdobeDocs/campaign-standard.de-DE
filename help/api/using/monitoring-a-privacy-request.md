@@ -1,6 +1,6 @@
 ---
-title: Überwachen einer Datenschutzanforderung
-description: Erfahren Sie, wie Sie eine Datenschutzanforderung mit APIs überwachen
+title: Überwachen einer Datenschutzanfrage
+description: Erfahren Sie, wie Sie mit APIs eine Datenschutzanfrage überwachen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,21 +11,21 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Überwachen einer Datenschutzanforderung {#monitoring-a-privacy-request}
+# Überwachen einer Datenschutzanfrage {#monitoring-a-privacy-request}
 
-Sie können Informationen zu einer erstellten Datenschutzanforderung mithilfe einer **GET** -Anforderung überwachen.
+Sie können Informationen zu einer erstellten Datenschutzanfrage mithilfe einer **GET**-Anfrage überwachen.
 
-Die Statuslistenbeschreibung finden Sie in der Dokumentation zur [Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Die Beschreibung der Statusliste finden Sie in der [Dokumentation zur Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -35,7 +35,7 @@ Die Statuslistenbeschreibung finden Sie in der Dokumentation zur [Datenschutzver
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Antwort auf die GET-Anforderung.
+Antwort auf die GET-Anfrage.
 
 ```
 {
