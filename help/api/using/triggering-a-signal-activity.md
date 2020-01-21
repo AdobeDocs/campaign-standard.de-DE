@@ -1,6 +1,6 @@
 ---
 title: Auslösen einer Signalaktivität
-description: Erfahren Sie, wie Sie eine Signalaktivität mit APIs auslösen.
+description: Erfahren Sie, wie Sie mit APIs eine Signalaktivität auslösen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,23 +19,23 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Auslösen einer Signalaktivität {#triggering-a-signal-activity}
 
-In einem Adobe Campaign Standard-Arbeitsablauf kann es eine oder mehrere **externe Signalaktivitäten** geben. Bei diesen Aktivitäten handelt es sich um "Listener", die auf die Auslösung warten.
+In einem Adobe Campaign Standard-Workflow kann es eine oder mehrere **externe Signalaktivitäten** geben. Bei diesen Aktivitäten handelt es sich um &quot;Listener&quot;, die auf ihre Auslösung warten.
 
-Mit den Kampagnenstandard-APIs können Sie eine **Aktivität für externe Signale** auslösen, um einen Workflow aufzurufen. Der API-Aufruf kann Parameter enthalten, die in die Ereignisvariablen des Workflows eingebunden werden (Zielgruppenname für Target, zu importierender Dateiname, Teil des Nachrichteninhalts usw.). Auf diese Weise lassen sich Ihre automatisch durchgeführten Campaign-Prozesse einfach mit einem externen Datensystem integrieren.
+Mit Campaign Standard-APIs können Sie eine **externe Signalaktivität** auslösen, um einen Workflow aufzurufen. Der API-Aufruf kann Parameter enthalten, die in die Ereignisvariablen des Workflows aufgenommen werden (Name der auszuwählenden Zielgruppe, zu importierender Dateiname, Teil des Nachrichteninhalts usw.). Auf diese Weise lassen sich Ihre automatisch durchgeführten Campaign-Prozesse einfach mit einem externen Datensystem integrieren.
 
 >[!NOTE]
 >
->Externe Signalaktivitäten können nicht öfter als alle 10 Minuten ausgelöst werden und der Ziel-Workflow muss bereits ausgeführt werden.
+>Externe Signalaktivitäten können nicht öfter als alle zehn Minuten ausgelöst werden und der Ziel-Workflow muss bereits ausgeführt werden.
 
-Gehen Sie wie folgt vor, um einen Workflow auszulösen:
+Gehen Sie zur Auslösung eines Workflows wie folgt vor:
 
-1. Führen Sie im Workflow eine **GET** -Anforderung durch, um die URL des Auslösers für externe Signalaktivität abzurufen.
+1. Führen Sie für den Workflow eine **GET**-Anfrage aus, um die URL des Auslösers für eine externe Signalaktivität abzurufen.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Führen Sie eine **POST** -Anforderung an die zurückgegebene URL aus, um die Signalaktivität auszulösen, wobei der Parameter **"source"** in der Nutzlast enthalten ist. Dieses Attribut ist obligatorisch. Sie können die auslösende Anforderungsquelle angeben.
+1. Führen Sie eine **POST**-Anfrage für die zurückgegebene URL aus, um die Signalaktivität auszulösen, wobei der Parameter **&quot;Quelle&quot;** in der Payload enthalten ist. Dieses Attribut ist obligatorisch. Sie können damit die auslösende Anfragequelle angeben.
 
-Wenn Sie den Workflow mit Parametern aufrufen möchten, fügen Sie sie mit dem Attribut **"parameters"** in die Nutzlast ein. Die Syntax besteht aus dem Namen des Parameters gefolgt vom Wert (die folgenden Typen werden unterstützt: **Zeichenfolge**, **Nummer**, **Boolescher Wert** und **Datum/Uhrzeit**).
+Wenn Sie den Workflow mit Parametern aufrufen möchten, fügen Sie sie mit dem Attribut **&quot;Parameter&quot;** in die Payload ein. Die Syntax besteht aus dem Namen des Parameters gefolgt von seinem Wert (folgende Typen werden unterstützt: **Zeichenfolge**, **Zahl**, **Boolescher Wert** und **Datum/Uhrzeit**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -58,13 +58,13 @@ Wenn Sie den Workflow mit Parametern aufrufen möchten, fügen Sie sie mit dem A
 
 >[!NOTE]
 >
->Stellen Sie beim Hinzufügen eines Parameters zur Payload sicher, dass seine **Namen** - und **Typwerte** mit den in der Aktivität "Externes Signal"deklarierten Informationen übereinstimmen. Darüber hinaus sollte die Nutzdatengröße 64 Ko nicht überschreiten.
+>Stellen Sie beim Hinzufügen eines Parameters zur Payload sicher, dass die Werte **Name** und **Typ** mit den in der externen Signalaktivität deklarierten Daten übereinstimmen. Darüber hinaus darf die Payload-Größe 64 KB nicht überschreiten.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Führen Sie eine GET-Anforderung für den Workflow durch.
+Führen Sie eine GET-Anfrage für den Workflow durch.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -74,7 +74,7 @@ Führen Sie eine GET-Anforderung für den Workflow durch.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Workflow-Signalaktivität und die zugehörige Auslöser-URL zurück.
+Es werden die Signalaktivität des Workflows und die zugehörige Auslöser-URL zurückgegeben.
 
 ```
 {
@@ -93,7 +93,7 @@ Gibt die Workflow-Signalaktivität und die zugehörige Auslöser-URL zurück.
 }
 ```
 
-Um eine Signalaktivität auszulösen, führen Sie eine POST-Anforderung an die Auslöser-URL mit der "Quelle"durch. Fügen Sie die Attribute "Parameter"hinzu, wenn Sie den Workflow mit Parametern aufrufen möchten.
+Um eine Signalaktivität auszulösen, führen Sie eine POST-Anfrage für die Auslöser-URL mit der &quot;Quelle&quot; aus. Fügen Sie die Attribute für &quot;Parameter&quot; hinzu, wenn Sie den Workflow mit Parametern aufrufen möchten.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -117,7 +117,7 @@ Um eine Signalaktivität auszulösen, führen Sie eine POST-Anforderung an die A
 
 <!-- + réponse -->
 
-Wenn einer der Parameter nicht in der Aktivität "Externes Signal"deklariert ist, gibt die POST-Anforderung den unten stehenden Fehler zurück, der angibt, welcher Parameter fehlt.
+Wenn einer der Parameter nicht in der externen Signalaktivität deklariert ist, gibt die POST-Anfrage den folgenden Fehler zurück; dabei wird angegeben, welcher Parameter fehlt.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
