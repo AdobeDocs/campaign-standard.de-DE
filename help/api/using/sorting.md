@@ -1,6 +1,6 @@
 ---
-title: Sortierungs-Funktionen
-description: Weitere Informationen zum Ausführen von Sortiervorgängen
+title: Sortieren
+description: Erfahren Sie mehr über die Verwendung von Sortiervorgängen.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,23 +11,23 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ---
 
 
-# Sortierungs-Funktionen
+# Sortieren
 
-Die Sortierung ist in auf- oder absteigender Reihenfolge verfügbar. Verwenden Sie dazu den Parameter **%20desc** oder **%20asc** für Ihre Anforderung.
+Sortiervorgänge sind in auf- oder absteigender Reihenfolge verfügbar. Verwenden Sie dazu in Ihrer Anfrage den Parameter **%20desc** oder **%20asc**.
 
-Um zu wissen, ob ein Feld sortiert werden kann, überprüfen Sie den Parameter "sortable"in den Ressourcenmetadaten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../api/using/metadata-mechanism.md).
+Um zu erfahren, ob sich ein Feld sortieren lässt, prüfen Sie den Parameter &quot;sortable&quot; in den Metadaten der Ressource. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../api/using/metadata-mechanism.md).
 
 <br/>
 
-***Beispielanforderungen***
+***Beispielanfragen ***
 
-* Beispiel-GET-Anforderung zum Abrufen von E-Mails in der Datenbank in alphabetischer Reihenfolge.
+* Beispielhafte GET-Anfrage zum Abrufen von E-Mails in der Datenbank in alphabetischer Reihenfolge.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -37,7 +37,7 @@ Um zu wissen, ob ein Feld sortiert werden kann, überprüfen Sie den Parameter "
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Antwort auf die Anfrage.
+   Antwort auf die Anfrage
 
    ```
    {
@@ -52,7 +52,7 @@ Um zu wissen, ob ein Feld sortiert werden kann, überprüfen Sie den Parameter "
    }
    ```
 
-* Beispiel-GET-Anforderung zum Abrufen der E-Mail in der Datenbank in absteigender Alpha-Reihenfolge.
+* Beispielhafte GET-Anfrage zum Abrufen der E-Mails in der Datenbank in absteigender alphabetischer Reihenfolge.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -62,7 +62,7 @@ Um zu wissen, ob ein Feld sortiert werden kann, überprüfen Sie den Parameter "
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Antwort auf die Anfrage.
+   Antwort auf die Anfrage
 
    ```
    {
