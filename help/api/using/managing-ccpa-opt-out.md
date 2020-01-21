@@ -1,6 +1,6 @@
 ---
-title: Verwalten der CCPA-Abmeldung
-description: Erfahren Sie, wie Sie CCPA-Ausschluss mit APIs verwalten
+title: Verwalten des CCPA-Opt-outs
+description: Erfahren Sie, wie Sie mit APIs das CCPA-Opt-out verwalten können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,32 +11,32 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Verwalten der CCPA-Abmeldung {#managing-ccpa-optout}
+# Verwalten des CCPA-Opt-outs {#managing-ccpa-optout}
 
-Der CCPA-Ausschluss-Status eines Profils kann mithilfe des Profilattributs **ccpaOptOut** und der Werte "true"oder "false"überwacht und verwaltet werden:
+Der CCPA-Opt-out-Status eines Profils kann mithilfe des Profilattributs **ccpaOptOut** und der Werte &quot;true&quot; oder &quot;false&quot; überwacht und verwaltet werden:
 
 `"ccpaOptOut": <value>`
 
-* **true**:  untersagt den Verkauf von persönlichen Daten.
+* **true**: untersagt den Verkauf von personenbezogenen Daten.
 * **false**: genehmigt den Verkauf von personenbezogenen Daten.
 
 >[!CAUTION]
 >
->Das Attribut "CCPA Opt-out"ist erst ab 19.4 verfügbar. Für 19.3-Umgebungen müssen Sie die Profiles-Ressource erweitern und ein boolesches Feld hinzufügen. Dieses Feld wird der API mit der ausgewählten Beschriftung hinzugefügt. Wir empfehlen Ihnen die Verwendung von "Opt-out for CCPA".
+>Das Attribut &quot;CCPA-Opt-out&quot; ist erst ab Version 19.4 verfügbar. In 19.3-Umgebungen müssen Sie die Profilressource erweitern und ein boolesches Feld hinzufügen. Dieses Feld wird der API mit dem ausgewählten Titel hinzugefügt. Wir empfehlen Ihnen die Verwendung von &quot;Opt-out für CCPA&quot;.
 >
->For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+>Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ccpa).
 
 <br/>
 
-***Beispielanforderungen***
+***Beispielanfragen ***
 
-* Beispiel-GET-Anforderung zum Abrufen des CCPA-Abmeldestatus eines Profils.
+* Beispielhafte GET-Anfrage zum Abrufen des CCPA-Opt-out-Status eines Profils.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -46,7 +46,7 @@ Der CCPA-Ausschluss-Status eines Profils kann mithilfe des Profilattributs **ccp
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   Antwort auf die GET-Anforderung.
+   Antwort auf die GET-Anfrage.
 
    ```
    {
@@ -58,7 +58,7 @@ Der CCPA-Ausschluss-Status eines Profils kann mithilfe des Profilattributs **ccp
    }
    ```
 
-* Beispiel-POST-Anfrage zur Markierung eines Profils für CCPA-Ausschluss.
+* Beispielhafte POST-Anfrage zum Markieren eines Profils für CCPA-Opt-out.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -75,7 +75,7 @@ Der CCPA-Ausschluss-Status eines Profils kann mithilfe des Profilattributs **ccp
    -d }'
    ```
 
-   Antwort auf die GET-Anforderung.
+   Antwort auf die GET-Anfrage.
 
    ```
    {
@@ -88,7 +88,7 @@ Der CCPA-Ausschluss-Status eines Profils kann mithilfe des Profilattributs **ccp
    }
    ```
 
-* Beispiel-PATCH-Anfrage zur Aktualisierung eines Profils für CCPA-Ausschluss.
+* Beispielhafte PATCH-Anfrage zum Aktualisieren eines Profils für CCPA-Opt-out.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -102,7 +102,7 @@ Der CCPA-Ausschluss-Status eines Profils kann mithilfe des Profilattributs **ccp
    -d }'
    ```
 
-   Antwort auf die GET-Anforderung.
+   Antwort auf die GET-Anfrage.
 
    ```
    {
