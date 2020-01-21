@@ -1,6 +1,6 @@
 ---
-title: Ausführen von Abonnements
-description: Erfahren Sie, wie Sie Abonnements mit APIs durchführen.
+title: Vornehmen von Anmeldungen
+description: Erfahren Sie, wie Sie mit APIs Anmeldungen vornehmen können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,17 +11,17 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Ausführen von Abonnements {#performing-subscriptions}
+# Vornehmen von Anmeldungen {#performing-subscriptions}
 
-## Methode 1: Abonnieren eines Profils für einen Dienst
+## Methode 1: Anmelden eines Profils für einen Dienst
 
-Führen Sie eine GET-Anforderung durch, um das Profil abzurufen.
+Führen Sie eine GET-Anfrage aus, um das Profil abzurufen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -31,7 +31,7 @@ Führen Sie eine GET-Anforderung durch, um das Profil abzurufen.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Abonnement-URL für das Profil zurück.
+Es wird die Anmeldungs-URL für das Profil zurückgegeben.
 
 ```
   {
@@ -45,7 +45,7 @@ Gibt die Abonnement-URL für das Profil zurück.
   }
 ```
 
-Führen Sie eine POST-Anforderung auf der Abonnement-URL mit dem gewünschten primären Dienstschlüssel in der Payload aus.
+Führen Sie eine POST-Anfrage für die Anmeldungs-URL mit dem gewünschten Primärschlüssel des Diensts in der Payload aus.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -57,7 +57,7 @@ Führen Sie eine POST-Anforderung auf der Abonnement-URL mit dem gewünschten pr
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-Gibt das aktualisierte Profil mit dem abgeschlossenen Dienstknoten zurück.
+Es wird das aktualisierte Profil mit dem abgeschlossenen Dienstknoten zurückgegeben.
 
 ```
 {
@@ -72,9 +72,9 @@ Gibt das aktualisierte Profil mit dem abgeschlossenen Dienstknoten zurück.
 }
 ```
 
-## Methode 2: Hinzufügen eines Profils zu den Abonnenten eines Dienstes
+## Methode 2: Hinzufügen eines Profils zu den Abonnenten eines Diensts
 
-Führen Sie eine GET-Anforderung aus, um den Dienst abzurufen.
+Führen Sie eine GET-Anfrage aus, um den Dienst abzurufen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -84,7 +84,7 @@ Führen Sie eine GET-Anforderung aus, um den Dienst abzurufen.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Gibt die Abonnement-URL für den Dienst zurück.
+Es wird die Anmeldungs-URL für den Dienst zurückgegeben.
 
 ```
   {
@@ -98,7 +98,7 @@ Gibt die Abonnement-URL für den Dienst zurück.
   },
 ```
 
-Erstellen Sie eine POST-Anforderung auf der Abonnement-URL mit dem gewünschten Profil-Primärschlüssel in der Payload.
+Führen Sie eine POST-Anfrage für die Anmeldungs-URL mit dem gewünschten Primärschlüssel des Profils in der Payload aus.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -110,7 +110,7 @@ Erstellen Sie eine POST-Anforderung auf der Abonnement-URL mit dem gewünschten 
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-Gibt den aktualisierten Dienst mit dem abonnierten Knoten zurück.
+Es wird der aktualisierte Dienst mit dem abgeschlossenen Abonnentenknoten zurückgegeben.
 
 ```
 {
