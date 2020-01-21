@@ -1,6 +1,6 @@
 ---
-title: Datenschutzverwaltung
-description: Weitere Informationen zur Datenschutzverwaltung mit APIs
+title: Über die Datenschutzverwaltung
+description: Erfahren Sie mehr über die Datenschutzverwaltung mit APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,25 +11,25 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Datenschutzverwaltung {#about-privacy-management}
+# Über die Datenschutzverwaltung {#about-privacy-management}
 
-Campaign Standard-APIs bieten Funktionen, die den automatischen Prozess von Anforderungen im Zusammenhang mit Datenschutzbestimmungen wie GDPR und CCPA ermöglichen.
+Campaign Standard-APIs bieten Funktionen, die eine automatische Verarbeitung von Anfragen im Zusammenhang mit Datenschutzbestimmungen wie DSGVO und CCPA ermöglichen.
 
 Folgende Aktionen sind möglich:
 
-* Erstellen Sie eine neue Datenschutzanforderung,
-* Überwachung einer Datenschutzanforderung,
-* Abrufen einer Datenschutzdatendatei,
-* Verwalten Sie den CCPA-Abmeldestatus eines Profils.
+* Neue Datenschutzanfrage erstellen
+* Datenschutzanfrage überwachen
+* Datei mit Datenschutz-Daten abrufen
+* CCPA-Opt-out-Status eines Profils verwalten
 
-Der Endpunkt der Datenschutz-API lautet **/privacy/privacyTool**. Die Beschreibung der PrivacyTool-Ressource und die zugehörigen Filter sind in den Ressourcenmetadaten verfügbar. Siehe [Metadatenmechanismus](../../api/using/metadata-mechanism.md).
+Der Datenschutz-API-Endpunkt lautet **/privacy/privacyTool**. Eine Beschreibung der PrivacyTool-Ressource sowie der zugehörigen Filter finden Sie in den Metadaten der Ressource. Siehe [Metadatenmechanismus](../../api/using/metadata-mechanism.md).
 
-Die CCPA-Abmeldung wird mithilfe des Profilattributs **ccpaOptOut** verwaltet.
+Das CCPA-Opt-out wird mithilfe des Profilattributs **ccpaOptOut** verwaltet.
 
-Weitere Informationen zu Adobe Campaign Standard und zur Einhaltung der Datenschutzbestimmungen finden Sie in der [Dokumentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html).
+Weiterführende Informationen zu Adobe Campaign Standard und zur Einhaltung von Datenschutzbestimmungen finden Sie in der [entsprechenden Dokumentation](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html).
