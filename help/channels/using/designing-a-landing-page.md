@@ -1,6 +1,6 @@
 ---
 title: Landingpage erstellen
-description: Erfahren Sie, wie Sie den Inhalt einer Einstiegsseite entwerfen.
+description: Erfahren Sie, wie Sie den Inhalt einer Landingpage erstellen.
 page-status-flag: never-activated
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
@@ -35,19 +35,19 @@ Der Inhalt der Landingpages wird im Campaign-Inhaltseditor erstellt.
 Auf dieser Seite erfahren Sie die wichtigsten Informationen zum Inhaltseditor für Landingpages: Weiterführende Informationen zu den Aktionen, die häufig bei Marketingaktivitäten eingesetzt werden, finden Sie in den folgenden Abschnitten des Handbuchs zum **Entwerfen von E-Mail-Inhalten**:
 
 * [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inhaltsbausteine hinzufügen](../../designing/using/personalization.md#adding-a-content-block) .
+* [Inhaltsbausteine hinzufügen](../../designing/using/personalization.md#adding-a-content-block)
 * [Link einfügen](../../designing/using/links.md#inserting-a-link)
 * [Bilder einfügen](../../designing/using/images.md)
 * [Allgemeine Best Practices bei der Inhaltserstellung](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
->Sollten Sie bereits über eine vordefinierte Landingpage im HTML-Format verfügen, können Sie sie direkt mittels der Schaltfläche **[!UICONTROL Inhalt ändern]** importieren.
+>Sollten Sie bereits über eine vordefinierte Landingpage im HTML-Format verfügen, können Sie sie direkt mittels der Schaltfläche **[!UICONTROL Inhalt ändern]**importieren.
 >
 >Bevor Sie in Adobe Campaign eine HTML-Seite importieren, ist sicherzustellen, dass sie in unterschiedlichen Browsern korrekt geöffnet und angezeigt werden kann. Wenn die HTML-Seite JavaScript-Elemente enthält, müssen diese außerhalb des Editors fehlerfrei ausführbar sein. Vermeiden Sie im Allgemeinen die Verwendung von Scripts in Nachrichten, um die korrekte Verarbeitung durch E-Mail-Clients zu gewährleisten.
 
 ## Benutzeroberfläche des Inhaltseditors für Landingpages{#landing-page-content-editor-interface}
 
-Mit dem Landingpage-Inhaltseditor können Sie mühelos Inhalte in Adobe Campaign definieren, ändern und personalisieren. Um ihn zu öffnen, klicken Sie in den **[!UICONTROL Inhaltsbaustein]** in einem Landingpage-Dashboard.
+Mit dem Landingpage-Inhaltseditor können Sie mühelos Inhalte in Adobe Campaign definieren, ändern und personalisieren. Um ihn zu öffnen, klicken Sie in den **[!UICONTROL Inhaltsbaustein]**in einem Landingpage-Dashboard.
 
 Der Inhaltseditor besteht aus drei Bereichen. In diesen Bereichen können Sie den Inhalt ansehen und bearbeiten.
 
@@ -243,7 +243,7 @@ Die dedizierte **Symbolleiste** ist ein kontextuelles Element der Editor-Oberfl�
 
 ### Bausteine im Inhaltseditor verwalten {#managing-blocks-in-the-content-editor}
 
-Die verschiedenen Elemente des HTML-Inhalts werden auf der Landingpage in Form von Blöcken angezeigt, die in HTML dem **&lt;div&gt;** **&lt;/div&gt;**-Tag entsprechen. Zur Bearbeitung eines Blocks ist dieser zu markieren. Dies wird durch eine blaue Umrandung angezeigt.
+Die verschiedenen Elemente des HTML-Inhalts werden auf der Landingpage in Form von Blöcken angezeigt, die in HTML dem **&lt;div>** **&lt;/div>**-Tag entsprechen. Zur Bearbeitung eines Blocks ist dieser zu markieren. Dies wird durch eine blaue Umrandung angezeigt.
 
 ![](assets/des_lp_content_1.png)
 
@@ -263,7 +263,7 @@ Die für ein Blockelement (Link, Personalisierungsfeld, Inhaltsbaustein etc.) de
 
 ![](assets/des_lp_content_4.png)
 
-### Rahmen und Hintergrund im Inhaltseditor hinzufügen  {#adding-a-border-and-a-background-in-the-content-editor}
+### Rahmen und Hintergrund im Inhaltseditor hinzufügen   {#adding-a-border-and-a-background-in-the-content-editor}
 
 Es besteht die Möglichkeit, verschiedene **Hintergrundfarben** aus der Farbpalette für die einzelnen Blöcke auszuwählen. Die Farbe wird jeweils auf den gesamten Block angewendet.
 
@@ -273,7 +273,7 @@ Außerdem können die einzelnen Blöcke mit verschiedenen **Rahmen** versehen we
 
 ![](assets/des_lp_content_6.png)
 
-### Textstil im Inhaltseditor ändern  {#changing-the-text-style-in-the-content-editor}
+### Textstil im Inhaltseditor ändern   {#changing-the-text-style-in-the-content-editor}
 
 Um einen Textstil zu ändern, muss sich der Cursor innerhalb eines Textblocks befinden.
 
@@ -281,13 +281,13 @@ Die Textausrichtung kann mit einer der drei Schaltflächen in der Palette links 
 
 ![](assets/des_lp_content_7.png)
 
-* **Linksbündig ausrichten** - richtet den Text am linken Rand des markierten Blocks aus (fügt style="text-align: left;" in den HTML-Code ein).
-* **Zentrieren** - richtet den Text im markierten Block mittig aus (fügt style="text-align: center;" in den HTML-Code ein).
-* **Rechtsbündig ausrichten** - richtet den Text am rechten Rand des markierten Blocks aus (fügt style="text-align: right;" in den HTML-Code ein).
+* **Linksbündig ausrichten** - richtet den Text am linken Rand des markierten Blocks aus (fügt style=&quot;text-align: left;&quot; in den HTML-Code ein).
+* **Zentrieren** - richtet den Text im markierten Block mittig aus (fügt style=&quot;text-align: center;&quot; in den HTML-Code ein).
+* **Rechtsbündig ausrichten** - richtet den Text am rechten Rand des markierten Blocks aus (fügt style=&quot;text-align: right;&quot; in den HTML-Code ein).
 
 Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Siehe [diesen Abschnitt](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Bilder in eine Landingpage einfügen  {#inserting-images-in-a-landing-page}
+### Bilder in eine Landingpage einfügen   {#inserting-images-in-a-landing-page}
 
 1. Wählen Sie im Inhalt der Landingpage einen Baustein aus, der ein Bild enthält.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Einfügen]**.
