@@ -11,7 +11,7 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
@@ -134,11 +134,11 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken {#metrics}
+## Metriken  {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS  {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -259,7 +259,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen  {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -324,7 +324,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten {#in-app-metrics}
+### Metriken zu In-App-Nachrichten  {#in-app-metrics}
 
 <table> 
  <thead> 
@@ -381,7 +381,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 
 >[!NOTE]
 >
->Standardmäßig ist das Segment **[!UICONTROL Testversand ausschließen]** bereits ausgewählt, um Ihre Berichte zu filtern. Diese Auswahl kann jedoch bei Bedarf geändert werden.
+>Standardmäßig ist das Segment **[!UICONTROL Testversand ausschließen]**bereits ausgewählt, um Ihre Berichte zu filtern. Diese Auswahl kann jedoch bei Bedarf geändert werden.
 
 In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwendet werden, sowie ihre Definitionen.
 
@@ -459,7 +459,7 @@ In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwend
   </tr> 
     <tr> 
    <td> Testversand ausschließen<br /> </td> 
-   <td> Gutscheine aus Ihren Berichten ausschließen<br /> </td> 
+   <td> Testversand aus Ihren Berichten ausschließen<br /> </td> 
   </tr> 
  </tbody> 
 </table>
