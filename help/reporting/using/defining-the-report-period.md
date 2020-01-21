@@ -11,7 +11,7 @@ topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 ---
