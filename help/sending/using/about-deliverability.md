@@ -1,6 +1,6 @@
 ---
-title: Informationen zur Lieferbarkeit in Adobe Campaign Standard
-description: Erfahren Sie mehr über die Konzepte und Best Practices im Zusammenhang mit der Zustellbarkeit sowie über die Werkzeuge von Adobe Campaign Standard, mit denen Sie Ihren Versand optimieren können.
+title: Über die Zustellbarkeit in Adobe Campaign Standard
+description: Erfahren Sie mehr über Begriffe und Best Practices im Zusammenhang mit der Zustellbarkeit sowie über die Werkzeuge zur Versandoptimierung in Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 # Über die Zustellbarkeit{#about-deliverability}
 
-Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich an die Empfängerpostfächer zugestellt, und nicht als unzustellbar zurückgesendet oder als Spam gekennzeichnet werden.
+Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich an die Empfängerpostfächer zugestellt und nicht als unzustellbar zurückgesendet bzw. als Spam gekennzeichnet werden.
 
 Adobe Campaign Deliverability ist ein zahlungspflichtiger Service, der in verschiedenen Packages angeboten wird. Kontaktieren Sie dazu den Zustellbarkeitsservice oder die entsprechende Geschäftsabteilung.
 
@@ -41,13 +41,13 @@ Um die Zustellbarkeit Ihrer E-Mails in Adobe Campaign zu optimieren, empfehlen w
 Die E-Mail-Zustellbarkeit hängt von verschiedenen Eigenschaften ab, die bestimmen, ob eine Nachricht innerhalb kurzer Zeit ihr Ziel über eine persönliche E-Mail-Adresse in der erwarteten Qualität bezüglich Inhalt und Format erreicht. Diese Eigenschaften werden in vier Hauptkategorien unterteilt: Datenqualität, Nachricht und Inhalt, Versandinfrastruktur und Reputation. Gemeinsam bilden sie die Grundlage eines erfolgreichen E-Mail-Zustellprogramms.
 
 Die Zustellrate ist die Anzahl der E-Mails, die ihren Empfängern erfolgreich zugestellt wurde.
-Die folgenden Faktoren können die Zustellbarkeit Ihrer E-Mails beeinträchtigen.
+Folgende Faktoren können die Zustellbarkeit Ihrer E-Mails beeinträchtigen.
 
-## Bereitstellungswerkzeuge {#deliverability-tools}
+## Zustellbarkeits-Tools {#deliverability-tools}
 
 Lesen Sie zunächst den Abschnitt über die Zustellbarkeits-Tools von Campaign Standard.
-* [Best Practices beim Versand](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
-* [Personalisieren des Absendernamens](../../designing/using/personalization.md#personalizing-the-sender)
+* [Best Practices beim Versand](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
+* [Absendername personalisieren](../../designing/using/personalization.md#personalizing-the-sender)
 * [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
 * [Versandzeitpunkt optimieren](../../sending/using/optimizing-the-sending-time.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
@@ -61,24 +61,24 @@ Lesen Sie zunächst den Abschnitt über die Zustellbarkeits-Tools von Campaign S
 
 ## Prüfen der Netzwerkkonfiguration {#network-configuration}
 
-Spammer versuchen, ihre Identität zu verschleiern, und erschweren zu diesem Zweck die Identifizierung ihrer Server. Daher ist eine ordnungsgemäße Netzwerkkonfiguration, mit der nicht versucht wird, die Identität des Servers zu verbergen, für den Versand großer Mengen von E-Mails wesentlich.
+Spammer versuchen, ihre Identität zu verschleiern, und erschweren zu diesem Zweck die Identifizierung ihrer Server. Daher ist eine ordnungsgemäße Netzwerkkonfiguration, mit der nicht versucht wird, die Identität des Servers zu verbergen, für den Versand großer E-Mail-Mengen von entscheidender Bedeutung.
 
 ## Senden an gültige Adressen {#valid-addresses}
 
-Spammer verwenden oft Adressgeneratoren basierend auf Listen häufiger Namen und Vornamen. Zusätzlich beachten sie nur selten von Mailservern zurückgesendete technische Benachrichtigungen. Eine hohe Menge ungültiger Adressen wird daher oft als Zeichen von Spam erachtet. Dies können Sie mit einem doppelten Anmeldeverfahren (Double-Opt-in) und der wirksamen Bearbeitung technischer Bounce Messages vermeiden.
+Spammer verwenden oft Adressgeneratoren basierend auf Listen häufiger Namen und Vornamen. Zusätzlich beachten sie nur selten von Mailservern zurückgesendete technische Benachrichtigungen. Eine hohe Menge ungültiger Adressen wird daher oft als Hinweis auf Spam betrachtet. Dies können Sie mit einem doppelten Anmeldeverfahren (Double-Opt-in) und der wirksamen Bearbeitung technischer Bounce Messages vermeiden.
 
-## Verringerung der Beschwerderate {#reduce-complaint-rate}
+## Verringern der Beschwerderate {#reduce-complaint-rate}
 
-ISPs bieten normalerweise eine Möglichkeit, eine erhaltene Nachricht als Spam zu melden und dadurch zweifelhafte Quellen zu identifizieren. Sie können die Beschwerderate verringern, indem Sie Abmeldewünsche rasch berücksichtigen, regelmäßig eine entsprechende Liste verwenden, das Einverständnis des Empfängers durch ein doppeltes Anmeldeverfahren verifizieren und Feedback-Schleifen integrieren.
+ISPs bieten normalerweise die Möglichkeit, eine erhaltene Nachricht als Spam zu melden und dadurch zweifelhafte Quellen zu identifizieren. Sie können die Beschwerderate verringern, indem Sie Abmeldewünsche rasch berücksichtigen, regelmäßig eine entsprechende Liste verwenden, das Einverständnis der Empfänger durch ein doppeltes Anmeldeverfahren verifizieren und Feedback-Schleifen integrieren.
 
 ## Versand an eine Spam-Falle (honeypot){#honeypot-addresses}
 
-ISPs und andere Organisationen (siehe https://www.projecthoneypot.org/) verwenden Postfächer, die nicht mit physischen Personen übereinstimmen, sondern einfach geschaffen werden, um Spammer zu tricksen. Diese so genannten "Honigtopf"-Adressen werden im Internet veröffentlicht, um von Spambots gesammelt und damit illegitime Absender gefangen zu werden. Die Verwendung eines doppelten Opt-in-Mechanismus verhindert, dass eine solche Adresse einer Liste hinzugefügt wird. Wenn Sie eine Drittanbieter-Liste verwenden, müssen Sie sicher sein, welche Methoden der Betreuer verwendet.
+ISPs und andere Organisationen (siehe https://www.projecthoneypot.org/) verwenden Postfächer, die nicht mit physischen Personen übereinstimmen, sondern ausschließlich eingerichtet werden, um Spammer anzuziehen. Diese so genannten &quot;honeypot&quot;-Adressen werden im Web veröffentlicht, um von Spambots gesammelt zu werden und so eine Erkennung illegitimer Absender zu erlauben. Durch ein Anmeldeverfahren mit doppelter Bestätigung wird verhindert, dass solche Adressen einer Liste hinzugefügt werden. Wenn Sie eine Liste eines Drittanbieters nutzen, müssen Sie wissen, welche Methoden der jeweilige Verwalter anwendet.
 
-## Inhalt der Nachricht anpassen {#adapt-message-content}
+## Anpassen des Nachrichteninhalts {#adapt-message-content}
 
-In geringerem Maß kann auch der Nachrichteninhalt dazu führen, dass E-Mails von manchen Filtern als Spam eingestuft werden. Die Verwendung von bestimmten Wörtern oder Ausrufezeichen im Betreff und im Text werden als Anzeichen für Spam erachtet. Spammer ersetzen auch oft Text durch Bilder, damit der Text von Anti-Spam-Filtern nicht automatisch analysiert werden kann. Deshalb könnte eine Nachricht (im HTML-Format) mit einem hohen Anteil an Bildern oder mit Bildern im Anhang blockiert werden.
+In geringerem Maß kann auch der Nachrichteninhalt dazu führen, dass E-Mails von manchen Filtern als Spam eingestuft werden. Der Einsatz von bestimmten Wörtern oder Ausrufezeichen im Betreff und Text wird als Hinweis auf Spam betrachtet. Oft ersetzen Spammer auch Text durch Bilder, damit der Text von Anti-Spam-Filtern nicht automatisch analysiert werden kann. Darum kann eine Nachricht (im HTML-Format) mit einem hohen Anteil an Bildern oder mit Bildern im Anhang ggf. blockiert werden.
 
-## Regelmäßige Entsendung {#regular-deliveries}
+## Regelmäßiges Senden {#regular-deliveries}
 
-Spammer führen programmierte Sendungen durch, um langfristig ihre Reputation zu wahren. Manchmal müssen sie ihren Marketingplan entsprechend den Best Practices der jeweiligen ISPs anpassen. Deshalb führen sie nach einer Optimierung ihrer Reputation (ramp-up) regelmäßige Sendungen durch.
+Spammer führen programmierte Sendungen durch, um langfristig ihre Reputation zu wahren. Manchmal müssen sie ihren Marketingplan an die Best Practices des jeweiligen ISPs anpassen. Deshalb führen sie nach einer Optimierung ihrer Reputation (ramp-up) regelmäßige Sendungen durch.
