@@ -1,6 +1,6 @@
 ---
 title: Profile aktualisieren
-description: Erfahren Sie mehr darüber, wie Profile mit APIs aktualisiert werden.
+description: Erfahren Sie, wie Sie mit APIs Profile aktualisieren können.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,21 +19,21 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Profile aktualisieren {#updating-profiles}
 
-Das Aktualisieren von Profilen erfolgt mit einer **PATCH** -Anforderung.
+Das Aktualisieren von Profilen erfolgt über eine **PATCH**-Anfrage.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. Der erste Schritt besteht darin, das Profil **abzurufen**.
+1. Der erste Schritt besteht aus dem **Abrufen des Profils**.
 
-1. Bei einer zweiten Anforderung führen wir eine **PATCH-Anforderung** im Profil mit den ausgefüllten Informationen in der Nutzlast durch.
+1. Im zweiten Schritt führen wir eine **PATCH-Anfrage** für das Profil mit den ausgefüllten Informationen in der Payload aus.
 
-1. Um zu überprüfen, ob die PATCH-Anforderung das Profil aktualisiert hat, können wir eine letzte GET-Anforderung durchführen.
+1. Um zu überprüfen, ob die PATCH-Anfrage das Profil aktualisiert hat, können wir eine letzte GET-Anfrage ausführen.
 
 <br/>
 
-***Musteranforderung***
+***Beispielanfrage ***
 
-Beispiel-GET-Anforderung zum Abrufen eines Profils.
+Beispielhafte GET-Anfrage zum Abrufen eines Profils.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -59,7 +59,7 @@ Antwort auf die Anfrage.
 }
 ```
 
-PATCH-Anfrage zur Aktualisierung des Attributs "phone".
+PATCH-Anfrage zum Aktualisieren des Attributs &quot;phone&quot;.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -70,7 +70,7 @@ PATCH-Anfrage zur Aktualisierung des Attributs "phone".
 -d '{"phone":"3301020304"}'
 ```
 
-Gibt die PKEY und URL zurück, um das aktualisierte Profil abzurufen.
+Es werden der PKEY und die URL zum Abrufen des aktualisierten Profils zurückgegeben.
 
 ```
 {
