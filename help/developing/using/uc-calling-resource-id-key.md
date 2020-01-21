@@ -1,7 +1,7 @@
 ---
 title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
@@ -11,13 +11,13 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 Es kann vorkommen, dass Sie für eine Ressource einen Identifikationsschlüssel definieren müssen, der aus zwei Feldern besteht. Nach der Konfiguration des Identifizierungsschlüssels müssen Sie eine Filterdefinition konfigurieren, um die Ressource mit diesem Identifizierungsschlüssel entweder über die Campaign Standard-Benutzeroberfläche oder über APIs aufrufen zu können.
 
-In unserem Beispiel wurde die Ressource **Profil** mit den benutzerdefinierten Feldern **"CRM ID"** und **"Kategorie"** erweitert. Wir erstellen zuerst einen Identifizierungsschlüssel für die Ressource "Profil" bestehend aus diesen beiden Feldern. Anschließend konfigurieren wir eine Filterdefinition, damit wir mithilfe des Identifizierungsschlüssels auf die Ressource "Profil" zugreifen können.
+In unserem Beispiel wurde die Ressource **Profil** mit den benutzerdefinierten Feldern **&quot;CRM ID&quot;** und **&quot;Kategorie&quot;** erweitert. Wir erstellen zuerst einen Identifizierungsschlüssel für die Ressource &quot;Profil&quot; bestehend aus diesen beiden Feldern. Anschließend konfigurieren wir eine Filterdefinition, damit wir mithilfe des Identifizierungsschlüssels auf die Ressource &quot;Profil&quot; zugreifen können.
 
 Dies sind die Schritte für diesen Anwendungsfall:
 
-1. Konfigurieren des Identifizierungsschlüssels für die Ressource "Profil" auf der Basis der beiden Felder.
-1. Konfigurieren der Filterdefinition, um die Ressource "Profil" mit dem Identifizierungsschlüssel aufrufen zu können.
-1. Aufrufen der Ressource "Profil" über die Benutzeroberfläche oder APIs.
+1. Konfigurieren des Identifizierungsschlüssels für die Ressource &quot;Profil&quot; auf der Basis der beiden Felder.
+1. Konfigurieren der Filterdefinition, um die Ressource &quot;Profil&quot; mit dem Identifizierungsschlüssel aufrufen zu können.
+1. Aufrufen der Ressource &quot;Profil&quot; über die Benutzeroberfläche oder APIs.
 
 Verwandte Themen:
 
@@ -32,20 +32,20 @@ Verwandte Themen:
 
 1. Bevor Sie den Identifizierungsschlüssel konfigurieren, stellen Sie sicher, dass die Ressource mit den gewünschten Feldern erweitert und publiziert wurde. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Benutzerdefinierte Ressourcen]** und öffnen Sie die Ressource **[!UICONTROL Profil]**.
+1. Gehen Sie zum Menü **[!UICONTROL Administration**** / Entwicklung ****/ Benutzerdefinierte Ressourcen]**und öffnen Sie die Ressource**[!UICONTROL  Profil]**.
 
    ![](assets/uc_idkey1.png)
 
-1. Wählen Sie im Bereich **[!UICONTROL Identifizierungsschlüssel]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
+1. Wählen Sie im Bereich **[!UICONTROL Identifizierungsschlüssel]**die Schaltfläche**[!UICONTROL  Element erstellen]** aus.
 
    ![](assets/uc_idkey2.png)
 
-1. Fügen Sie die beiden benutzerdefinierten Felder "CRM ID" und "Kategorie" hinzu und wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Fügen Sie die beiden benutzerdefinierten Felder &quot;CRM ID&quot; und &quot;Kategorie&quot; hinzu und wählen Sie **[!UICONTROL Bestätigen]**aus.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Wenn Sie die beiden benutzerdefinierten Felder in der Benutzeroberfläche des Profils anzeigen möchten, konfigurieren Sie den Tab **[!UICONTROL Bildschirmdefinition]**. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../developing/using/configuring-the-screen-definition.md).
+   > Wenn Sie die beiden benutzerdefinierten Felder in der Benutzeroberfläche des Profils anzeigen möchten, konfigurieren Sie den Tab **[!UICONTROL Bildschirmdefinition]**. Weiterführende Informationen hierzu finden Sie in[diesem Abschnitt](../../developing/using/configuring-the-screen-definition.md).
 
 1. Sie können nun die Filterdefinition konfigurieren, damit die Ressource mit dem Identifizierungsschlüssel aufgerufen werden kann.
 
@@ -54,7 +54,7 @@ Verwandte Themen:
 >[!NOTE]
 > Die allgemeinen Konzepte zum Konfigurieren von Filterdefinitionen sind in [diesem Abschnitt](../../developing/using/configuring-filter-definition.md) ausführlich beschrieben.
 
-1. Wählen Sie im Tab **[!UICONTROL Filterdefinition]** die Option **[!UICONTROL Element hinzufügen]** aus und geben Sie den Titel und die Kennung der Filterdefinition ein.
+1. Wählen Sie im Tab **[!UICONTROL Filterdefinition]**die Option**[!UICONTROL  Element hinzufügen]** aus und geben Sie den Titel und die Kennung der Filterdefinition ein.
 
 1. Bearbeiten Sie die Eigenschaften der Filterdefinition, um deren Regeln zu konfigurieren.
 
@@ -64,18 +64,18 @@ Verwandte Themen:
 
    ![](assets/uc_idkey5.png)
 
-1. Wählen Sie das erste Feld aus, das im Identifizierungsschlüssel verwendet wird ("CRM-ID"), und aktivieren Sie die Option **[!UICONTROL In den Parametermodus wechseln]**.
+1. Wählen Sie das erste Feld aus, das im Identifizierungsschlüssel verwendet wird (&quot;CRM ID&quot;), und aktivieren Sie die Option **[!UICONTROL In den Parametermodus wechseln]**.
 
    ![](assets/uc_idkey6.png)
 
-1. Behalten Sie im Bereich **[!UICONTROL Filterbedingungen]** den Operator **[!UICONTROL Gleich]** bei, definieren Sie den Namen des Parameters und klicken Sie auf das Pluszeichen, um ihn zu erstellen.
+1. Behalten Sie im Bereich **[!UICONTROL Filterbedingungen]**den Operator**[!UICONTROL  Gleich]** bei, definieren Sie den Namen des Parameters und klicken Sie auf das Pluszeichen, um ihn zu erstellen.
 
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
    > Durch Auswahl der Plusschaltfläche wird der Parametername automatisch generiert. Notieren Sie sich diese Informationen, da Sie sie benötigen, um den Filter in den APIs zu verwenden.
 
-1. Wiederholen Sie die obigen Schritte mit allen Feldern des Identifizierungsschlüssels ("Kategorie") und speichern Sie dann Ihre Änderungen.
+1. Wiederholen Sie die obigen Schritte mit allen Feldern des Identifizierungsschlüssels (&quot;Kategorie&quot;) und speichern Sie dann Ihre Änderungen.
 
    ![](assets/uc_idkey8.png)
 
@@ -85,7 +85,7 @@ Verwandte Themen:
 
 Nachdem der Identifizierungsschlüssel und die Filterdefinition konfiguriert sind, können Sie sie verwenden, um die Ressource entweder über die Campaign Standard-Benutzeroberfläche oder über REST-APIs aufzurufen.
 
-Um die Filterdefinition in der Benutzeroberfläche zu verwenden, fügen Sie die Aktivität **[!UICONTROL Abfrage]** zu einem Workflow hinzu (siehe [diesen Abschnitt](../../automating/using/query.md)). Der Filter ist dann im linken Fensterbereich verfügbar.
+Um die Filterdefinition in der Benutzeroberfläche zu verwenden, fügen Sie die Aktivität **[!UICONTROL Abfrage]**zu einem Workflow hinzu (siehe[diesen Abschnitt](../../automating/using/query.md)). Der Filter ist dann im linken Fensterbereich verfügbar.
 
 ![](assets/uc_idkey9.png)
 
@@ -96,9 +96,9 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->Um einen Kundenfilter aufzurufen, verwenden Sie das Präfix "by", gefolgt vom Filternamen, der beim Konfigurieren der Filterdefinition in [Schritt 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)festgelegt wurde.
+>Um einen Kundenfilter aufzurufen, verwenden Sie das Präfix &quot;by&quot;, gefolgt vom Filternamen, der beim Konfigurieren der Filterdefinition in [Schritt 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)festgelegt wurde.
 
-In unserem Fall lautet die Syntax zum Abrufen eines Profils aus der Kategorie "spring" mit der CRM-ID "123456":
+In unserem Fall lautet die Syntax zum Abrufen eines Profils aus der Kategorie &quot;spring&quot; mit der CRM-ID &quot;123456&quot;:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
