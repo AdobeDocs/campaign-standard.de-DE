@@ -11,7 +11,7 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign bietet mehrere Möglichkeiten der Profilakquise: Online-Datenerfa
 * Wenn Sie die Anzahl **aktiver Profile** in Ihrem Unternehmen erfahren möchten, gehen Sie zu [diesem Abschnitt](../../audiences/using/active-profiles.md).
 * Hier erfahren Sie, wie Sie mithilfe von [Workflow-Targeting-Funktionen](../../automating/using/about-targeting-activities.md) Ihre Daten anpassen und komplexe Datenverwaltungsaufgaben durchführen, wie z. B. Berechnungen, Aggregate, Deduplizierung und Verbindungen.
 
-## Audiences {#audiences}
+## Audiences  {#audiences}
 
 Adobe Campaign vereint fortschrittliche Analyse- und Zielgruppenbestimmungsfunktionen, damit Sie relevante und effiziente Nachrichten versenden und mit Kunden effektiv interagieren können. Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, die verfügbare Informationen, das Verhalten, die Sprache, die Einstellungen und den Marketingverlauf Ihrer Kontakte berücksichtigen, um Ihre unterschiedlichen Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern oder auf einer unbegrenzten Anzahl von Kriterien basierende Zielgruppen erstellen.
 
@@ -47,7 +47,7 @@ Audiences werden [auf dieser Seite](../../audiences/using/about-audiences.md) vo
 
 * Hier erfahren Sie, wie Sie mehrsprachige Audiences in mehreren Regionen ansprechen können, indem Sie [mehrsprachige Push-Benachrichtigungen](../../channels/using/creating-a-multilingual-push-notification.md) oder [mehrsprachige E-Mails](../../channels/using/creating-a-multilingual-email.md) versenden.
 * Hier erfahren Sie, wie Sie [Abfragen erstellen](../../audiences/using/creating-audiences.md#creating-query-audiences), um Audiences zu definieren.
-* Hier erfahren Sie, wie Sie in einem Workflow [Audiences vom Typ "Liste"](../../audiences/using/creating-audiences.md#creating-list-audiences) erstellen.
+* Hier erfahren Sie, wie Sie in einem Workflow [Audiences vom Typ &quot;Liste&quot;](../../audiences/using/creating-audiences.md#creating-list-audiences) erstellen.
 * Hier erfahren Sie, wie Sie in einem Workflow [eine Audience aus einer Datei importieren](../../audiences/using/creating-audiences.md#creating-file-audiences).
 * Hier erfahren Sie, wie Sie [Audiences](../../audiences/using/creating-audiences.md#creating-experience-cloud-audiences) in Experience Cloud-Lösungen verwenden können.
 
@@ -55,7 +55,7 @@ Audiences werden [auf dieser Seite](../../audiences/using/about-audiences.md) vo
 
 Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe-Campaign-Kunden, die Daten von Personen erfassen, die in der EU wohnhaft sind. Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können.
 
-In diesem [Handbuch](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) erfahren Sie mehr zu den Tools und Funktionen von Adobe Campaign, die Ihnen helfen, die DSGVO gesetzeskonform umzusetzen.
+In diesem [Handbuch](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html) erfahren Sie mehr zu den Tools und Funktionen von Adobe Campaign, die Ihnen helfen, die DSGVO gesetzeskonform umzusetzen.
 
 ## Ermüdungsverwaltung {#fatigue-management}
 
