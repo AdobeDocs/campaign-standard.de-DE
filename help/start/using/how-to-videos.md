@@ -11,15 +11,15 @@ topic-tags: tutorials
 discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 66cd1df8723971fc4dc95b40d5ef46493a055306
+translation-type: tm+mt
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # Videos{#how-to-videos}
 
-Entdecken Sie die wichtigsten Funktionen, indem Sie sich unsere [Campaign Standard-Videos](https://helpx.adobe.com/de/campaign/kt/acs/index/acs-videos.html) ansehen.
+Entdecken Sie die wichtigsten Funktionen, indem Sie sich unsere [Campaign Standard-Videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) ansehen.
 
 * [Creating an email](https://video.tv.adobe.com/v/23721?captions=ger): zur Erstellung einer E-Mail auf der Startseite von Adobe Campaign.
 * [Creating a landing page](https://video.tv.adobe.com/v/24093?captions=ger): zur Erstellung und Bearbeitung einer Landingpage in Adobe Campaign.
@@ -38,4 +38,4 @@ Entdecken Sie die wichtigsten Funktionen, indem Sie sich unsere [Campaign Standa
 * [Configuring a list](https://video.tv.adobe.com/v/25288?captions=ger): zur Konfiguration einer Liste in Adobe Campaign.
 * [Creating a report](https://video.tv.adobe.com/v/25264?captions=ger): zur Erstellung Ihres eigenen dynamischen Berichts.
 
-Neben diesen Videos finden Sie auf unserer Webseite auch [Schulungskurse](https://training.adobe.com/training/courses.html) und [Präsentationsvideos](http://www.adobe.com/de/training/video.html).
+Neben diesen Videos finden Sie auf unserer Webseite auch [Schulungskurse](https://training.adobe.com/training/courses.html) und [Präsentationsvideos](http://www.adobe.com/training/video.html).
