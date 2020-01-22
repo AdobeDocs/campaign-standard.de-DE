@@ -12,8 +12,8 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -34,7 +34,7 @@ Auf dieser Seite finden Sie Informationen zu den einzelnen Schritten sowie Hinwe
 
 **Verwandte Themen:**
 
-* [Anleitungsvideo zum Erstellen einer Landingpage](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* [Anleitungsvideo zum Erstellen einer Landingpage](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html)
 * [Dienst erstellen](../../audiences/using/creating-a-service.md)
 * [Anmeldung mit zweifacher Bestätigung einrichten](setting-up-a-double-opt-in-process.md)
 
