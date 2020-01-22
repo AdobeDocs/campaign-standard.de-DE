@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -23,31 +23,31 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Email Designer ermöglicht die Erstellung von E-Mail-Inhalten und Vorlagen für E-Mail-Inhalte. Der Editor ist kompatibel mit einfachen E-Mails, Transaktions-E-Mails, A/B-Test-E-Mails, mehrsprachigen E-Mails und wiederkehrenden E-Mails.
 
-In diesen [Videos](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können.
+In diesen [Videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können.
 
 ### Startseite von Email Designer {#email-designer-home-page}
 
-Bei der [Erstellung einer E-Mail](../../channels/using/creating-an-email.md) wird bei der Auswahl des E-Mail-Inhalts automatisch die Startseite von **[!UICONTROL Email Designer]** angezeigt.
+Bei der [Erstellung einer E-Mail](../../channels/using/creating-an-email.md) wird bei Auswahl des E-Mail-Inhalts automatisch die Startseite von **[!UICONTROL Email Designer]**angezeigt.
 
 ![](assets/email_designer_home_page.png)
 
-Im Tab **[!UICONTROL Eigenschaften]** können Sie die Details der E-Mail bearbeiten, wie z. B. den Titel, die E-Mail-Adresse und den Namen des Absenders sowie den Betreff der E-Mail. Auf diesen Tab können Sie auch durch Auswahl des E-Mail-Titels am oberen Bildschirmrand zugreifen.
+Im Tab **[!UICONTROL Eigenschaften]**können Sie die Details der E-Mail bearbeiten, wie z. B. den Titel, die E-Mail-Adresse und den Namen des Absenders sowie den Betreff der E-Mail. Auf diesen Tab können Sie auch durch Auswahl des E-Mail-Titels am oberen Bildschirmrand zugreifen.
 
 ![](assets/email_designer_home_properties.png)
 
-Im Tab **[!UICONTROL Vorlagen]** können Sie aus nativen HTML-Inhalten oder Ihren bereits erstellten Vorlagen auswählen, was die Erstellung der E-Mail beschleunigt. Siehe auch [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
+Im Tab **[!UICONTROL Vorlagen]**können Sie aus nativen HTML-Inhalten oder Ihren bereits erstellten Vorlagen auswählen, was die Erstellung der E-Mail beschleunigt. Siehe auch[Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-Im Tab **[!UICONTROL Lernen &amp; Unterstützung]** können Sie auf entsprechende Handbücher und Tutorials zugreifen.
+Im Tab **[!UICONTROL Lernen &amp; Unterstützung]**können Sie auf entsprechende Handbücher und Tutorials zugreifen.
 
 ![](assets/email_designer_home_support.png)
 
 Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email Designer auch wählen, wie Sie Ihren Inhalt erstellen möchten:
 
-* Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]**, um ganz neuen Inhalt zu erstellen. Siehe auch [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]** aus, um eine Datei von Ihrem Computer zu laden. Siehe auch [Inhalt aus einer Datei importieren](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]**, um vorhandenen Inhalt von einer URL abzurufen. Siehe auch [Inhalt aus einer URL importieren](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]**, um einen ganz neuen Inhalt zu erstellen. Siehe auch[Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]**aus, um eine Datei von Ihrem Computer zu laden. Siehe auch[Inhalt aus einer Datei importieren](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]**, um vorhandenen Inhalt von einer URL abzurufen. Siehe auch[Inhalt aus einer URL importieren](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ### Benutzeroberfläche von Email Designer {#email-designer-interface}
 
@@ -83,7 +83,7 @@ In der **dedizierten Symbolleiste** der Editor-Oberfläche sind je nach markiert
 
 Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen, empfehlen wir folgende Vorgehensweise:
 
-* Verwenden Sie Inline Styling anstatt eines separaten CSS-Stylesheets und CSS im &lt;head&gt;-Abschnitt einer HTML-Datei. Die Verwendung von Inline Styling ermöglicht eine optimale Speicherung und Wiederverwendung der Inhaltsfragmente.
+* Verwenden Sie Inline Styling anstatt eines separaten CSS-Stylesheets und CSS im &lt;head>-Abschnitt einer HTML-Datei. Die Verwendung von Inline Styling ermöglicht eine optimale Speicherung und Wiederverwendung der Inhaltsfragmente.
 
    Siehe auch den Abschnitt zum [Hinzufügen von Inline-Styling-Attributen](../../designing/using/styles.md#adding-inline-styling-attributes).
 
@@ -97,7 +97,7 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
    Sehen Sie sich Ihre Nachrichten in der Vorschau an, bevor Sie sie senden. Adobe Campaign ermöglicht es Ihnen, mithilfe von Litmus das E-Mail-Rendering zu testen. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
 
-Weitere Empfehlungen zur Erstellung und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
+Weitere Empfehlungen zur Erstellung und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 ### Einschränkungen in Email Designer {#email-designer-limitations}
 
@@ -112,7 +112,7 @@ Email Designer wird laufend verbessert. Wenn Sie E-Mail-Inhalt neu oder von eine
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe empfiehlt, Inhalte auf die neueste Version zu aktualisieren, um Probleme wie CSS-Inkompatibilität zu vermeiden. Klicken Sie dazu auf **[!UICONTROL Update now]** (Jetzt aktualisieren).
+Adobe empfiehlt, Inhalte auf die neueste Version zu aktualisieren, um Probleme wie CSS-Inkompatibilität zu vermeiden. Wählen Sie dazu **[!UICONTROL Jetzt aktualisieren]**aus.
 
 Wenn beim Aktualisieren des Inhalts ein Fehler auftritt, überprüfen Sie Ihren HTML-Code und korrigieren Sie ihn, bevor Sie dieses Update erneut ausführen.
 
