@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
+source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 
 ---
 
@@ -104,24 +104,24 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
       + [Push-Benachrichtigungen für Transaktionen](channels/using/transactional-push-notifications.md)
       + [Folgenachrichten](channels/using/follow-up-messages.md)
    + Landingpages {#landing-pages}
-      + [Erste Schritte mit Einstiegsseiten](channels/using/getting-started-with-landing-pages.md)
+      + [Erste Schritte mit Landingpages](channels/using/getting-started-with-landing-pages.md)
       + [Über Landingpage-Vorlagen](channels/using/landing-page-templates.md)
-      + [Konfigurieren einer Einstiegsseite](channels/using/configuring-landing-page.md)
+      + [Landingpage konfigurieren](channels/using/configuring-landing-page.md)
       + [Landingpage erstellen](channels/using/designing-a-landing-page.md)
       + [Daten von Landingpage-Formularen verwalten](channels/using/managing-landing-page-form-data.md)
-      + [Einstiegsseite testen und veröffentlichen](channels/using/testing-publishing-landing-page.md)
+      + [Landingpage testen und veröffentlichen](channels/using/testing-publishing-landing-page.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
 + E-Mail-Inhalt gestalten {#designing-content}
    + [Campaign E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
-   + [Erste Schritte mit dem E-Mail-Designer](designing/using/quick-start.md)
+   + [Erste Schritte mit dem Email Designer](designing/using/quick-start.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
-   + Erstellen von E-Mail-Inhalten{#building-email-content}
+   + E-Mail-Inhalte erstellen{#building-email-content}
       + [E-Mails von Grund auf neu erstellen](designing/using/designing-from-scratch.md)
       + [Vorhandenen Inhalt verwenden](designing/using/using-existing-content.md)
       + [Arbeiten mit wiederverwendbaren Inhalten](designing/using/using-reusable-content.md)
       + [Verwenden von Integrationen mit mehreren Lösungen](designing/using/using-integrations.md)
-      + [Bearbeiten von Normaltext-, HTML- und mobilen E-Mails](designing/using/plain-text-html-modes.md)
-   + [Personalisieren von E-Mail-Inhalten](designing/using/personalization.md)
+      + [Normaltext-, HTML- und mobile E-Mails bearbeiten](designing/using/plain-text-html-modes.md)
+   + [E-Mail-Inhalte personalisieren](designing/using/personalization.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
@@ -149,11 +149,11 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
    + Verwalten der Zustellbarkeit {#managing-deliverability}
       + [Über die Zustellbarkeit](sending/using/about-deliverability.md)
       + [Einrichten einer neuen Plattform](sending/using/starting-new-platform.md)
-      + [Steuern von E-Mail-Inhalten](sending/using/control-email-content.md)
+      + [Kontrollieren von E-Mail-Inhalten](sending/using/control-email-content.md)
       + [Verbessern Ihres Rufs](sending/using/improving-reputation.md)
-      + [Whitelists](sending/using/whitelists.md)
+      + [IP-Zertifizierung](sending/using/ip-certification.md)
       + [Technische Empfehlungen](sending/using/technical-recommendations.md)
-      + [Überwachung der Zustellbarkeit](sending/using/monitor-deliverability.md)
+      + [Überwachen der Zustellbarkeit](sending/using/monitor-deliverability.md)
       + [Problembehebung](sending/using/troubleshooting.md)
 + Reporting {#reporting}
    + Über Reporting {#about-reporting}
@@ -276,7 +276,7 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
       + [Logs exportieren](automating/using/exporting-logs.md)
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
-      + [Verwendungsfall: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
+      + [Anwendungsbeispiel: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
    + Anwendungsfälle: Workflows {#workflow-use-case}
       + [Sendungen mit einem Komplement erstellen](automating/using/workflow-created-query-with-complement.md)
       + [Sendungen am Erstellungsdatum erstellen](automating/using/workflow-creation-date-query.md)
@@ -352,47 +352,47 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
       + [Datenbeibehaltung](administration/using/data-retention.md)
       + [Aktualisierungen und Wartungsmaßnahmen](administration/using/updates-and-maintenance-operations.md)
 + Arbeiten mit APIs {#working-with-apis}
-   + About Campaign Standard APIs {#about-campaign-standard-apis}
+   + Über APIs in Campaign Standard {#about-campaign-standard-apis}
       + [Übersicht](api/using/about-campaign-standard-apis.md)
       + [Gründe für die Verwendung von Campaign Standard-APIs](api/using/why-using-campaign-standard-apis.md)
-      + [API-Zugriff einrichten](api/using/setting-up-api-access.md)
+      + [Einrichten von API-Zugriff](api/using/setting-up-api-access.md)
    + Globale Konzepte {#global-concepts}
       + [Must-read](api/using/must-read.md)
       + [Endpunkte](api/using/endpoints.md)
       + [Metadatenmechanismus](api/using/metadata-mechanism.md)
-      + [Verbs](api/using/verbs.md)
+      + [Verben](api/using/verbs.md)
       + Zusätzliche Vorgänge {#additional-operations}
-         + [Sortierungs-Funktionen](api/using/sorting.md)
+         + [Sortierung](api/using/sorting.md)
          + [Filter](api/using/filtering.md)
          + [Zählung](api/using/counting.md)
          + [Paginierung](api/using/pagination.md)
       + [Benutzerdefinierte Ressourcen](api/using/custom-resources.md)
    + [Interaktion mit benutzerdefinierten Ressourcen](api/using/interacting-with-custom-resources.md)
-   + Verwaltung von Profilen {#managing-profiles}
+   + Profile verwalten {#managing-profiles}
       + [Profile abrufen](api/using/retrieving-profiles.md)
       + [Profile aktualisieren](api/using/updating-profiles.md)
       + [Profile erstellen](api/using/creating-profiles.md)
-   + Verwalten von Diensten und Abonnements {#managing-services-and-subscriptiopns}
+   + Dienste und Abonnements verwalten {#managing-services-and-subscriptiopns}
       + [Dienst erstellen](api/using/creating-a-service.md)
       + [Abonnements abrufen](api/using/retrieving-subscriptions.md)
-      + [Abonnements durchführen](api/using/perform-subscriptions.md)
-      + [Löschen von Abonnements](api/using/deleting-subscriptions.md)
-   + [Interaktion mit der Marketinggeschichte](api/using/interacting-with-marketing-history.md)
+      + [Abonnements ausführen](api/using/perform-subscriptions.md)
+      + [Abonnements löschen](api/using/deleting-subscriptions.md)
+   + [Interaktion mit dem Marketing-Verlauf](api/using/interacting-with-marketing-history.md)
    + Datenschutzverwaltung {#privacy-management}
-      + [Erstellen einer Datenschutzanforderung](api/using/creating-a-privacy-request.md)
-      + [Überwachen einer Datenschutzanforderung](api/using/monitoring-a-privacy-request.md)
-      + [Abrufen von Datenschutzdatendateien](api/using/retrieving-privacy-data-files.md)
-      + [Verwalten der CCPA-Abmeldung](api/using/managing-ccpa-opt-out.md)
-   + [Verwalten von Transaktionsmeldungen](api/using/managing-transactional-messages.md)
-   + Verwalten von Workflows {#managing-workflows}
-      + [Workflow steuern](api/using/controlling-a-workflow.md)
-      + [Auslösen einer Signalaktivität](api/using/triggering-a-signal-activity.md)
-   + Verwalten von Unternehmenseinheiten {#managing-organizational-units}
-      + [Abrufen der Organisationseinheit eines Profils](api/using/retrieving-an-organizational-unit.md)
-      + [Aktualisieren der Organisationseinheit eines Profils](api/using/updating-profile-organizational-unit.md)
-      + [Aktualisieren von Attributen einer Organisationseinheit](api/using/updating-organizational-unit-attributes.md)
-   + Verwaltung geografischer Einheiten {#managing-geographical-units}
-      + [Abrufen der geografischen Einheit eines Profils](api/using/retrieving-a-geographical-unit.md)
-      + [Aktualisieren der geografischen Einheit eines Profils](api/using/updating-a-geographical-unit.md)
-      + [Aktualisieren von Attributen geografischer Einheiten](api/using/updating-geographical-unit-attributes.md)
+      + [Datenschutzanfrage erstellen](api/using/creating-a-privacy-request.md)
+      + [Datenschutzanfrage überwachen](api/using/monitoring-a-privacy-request.md)
+      + [Datenschutz-Datendateien abrufen](api/using/retrieving-privacy-data-files.md)
+      + [CCPA-Opt-out verwalten](api/using/managing-ccpa-opt-out.md)
+   + [Transaktionsnachrichten verwalten](api/using/managing-transactional-messages.md)
+   + Workflows verwalten {#managing-workflows}
+      + [Workflow kontrollieren](api/using/controlling-a-workflow.md)
+      + [Signalaktivität auslösen](api/using/triggering-a-signal-activity.md)
+   + Organisationseinheiten verwalten {#managing-organizational-units}
+      + [Organisationseinheit eines Profils abrufen](api/using/retrieving-an-organizational-unit.md)
+      + [Organisationseinheit eines Profils aktualisieren](api/using/updating-profile-organizational-unit.md)
+      + [Attribute einer Organisationseinheit aktualisieren](api/using/updating-organizational-unit-attributes.md)
+   + Geografische Einheiten verwalten {#managing-geographical-units}
+      + [Geografische Einheit eines Profils abrufen](api/using/retrieving-a-geographical-unit.md)
+      + [Geografische Einheit eines Profils aktualisieren](api/using/updating-a-geographical-unit.md)
+      + [Attribute geografischer Einheiten aktualisieren](api/using/updating-geographical-unit-attributes.md)
    + [Problembehebung](api/using/troubleshooting.md)
