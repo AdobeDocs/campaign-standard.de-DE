@@ -11,26 +11,26 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # Listenexport{#exporting-lists}
 
-In Adobe Campaign lassen sich Inhalte von Listen direkt in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. Durch das Exportieren einer Liste in eine Datei wird im Menü **[!UICONTROL Export-Audits]** ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
+In Adobe Campaign lassen sich Inhalte von Listen direkt in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. Durch das Exportieren einer Liste in eine Datei wird im Menü **[!UICONTROL Export-Audits]**ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt[Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
 
-Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit** definiert wurden. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Optionen]** verwaltet werden.
+Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit** definiert wurden. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]**>**[!UICONTROL  Anwendungskonfiguration]** > **[!UICONTROL Optionen]**verwaltet werden.
 
 Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-Ansicht aufweisen, vorausgesetzt der Benutzer verfügt über die Benutzerrolle **[!UICONTROL EXPORT (export)]**.
 
-1. Gehen Sie in einen beliebigen Bildschirm vom Typ **Liste**, beispielsweise die Testprofil-Übersicht (**[!UICONTROL Profile &amp; Audiences]** &gt; **[!UICONTROL Testprofile]**).
+1. Gehen Sie in einen beliebigen Bildschirm vom Typ **Liste**, beispielsweise die Testprofil-Übersicht (**[!UICONTROL Profile &amp; Audiences]**>**[!UICONTROL  Testprofile]** ).
 1. Stellen Sie sicher, dass der Bildschirm sich im Anzeigemodus **Liste** befindet.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Ordnen Sie die Spalten der Liste mithilfe der Schaltfläche **[!UICONTROL Liste konfigurieren]** oben rechts so an, wie sie exportiert werden sollen. Neben den so ausgewählten Spalten wird auch der Primärschlüssel der Ressource exportiert.
+1. Ordnen Sie die Spalten der Liste mithilfe der Schaltfläche **[!UICONTROL Liste konfigurieren]**oben rechts so an, wie sie exportiert werden sollen. Neben den so ausgewählten Spalten wird auch der Primärschlüssel der Ressource exportiert.
 1. Bei Bedarf können die Daten gefiltert werden. Verwenden Sie die Schaltfläche links oben, um das Suchemenü einzublenden.
 
    Wenn der Export ausgehend von einer Liste mit Ressourcen verschiedenen Typs konfiguriert wird, ist diese zunächst zu filtern, sodass nur ein Ressourcentyp angezeigt wird.
@@ -75,5 +75,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
-* Video [Configuring list](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
-
+* Video [Configuring list](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
