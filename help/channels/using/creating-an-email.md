@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c099527702ef3d9484a47a033f309f3194a70f17
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -90,7 +90,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 **Verwandte Themen**:
 
-* Video [E-Mails erstellen](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+* Video [E-Mails erstellen](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 * Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
-* Video zur [Integration von Adobe Campaign und Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+* Video zur [Integration von Adobe Campaign und Dreamweaver](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 * [Integration mit Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
