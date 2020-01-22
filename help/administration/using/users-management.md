@@ -12,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -27,7 +27,7 @@ In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweili
 
 Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weiterführende Informationen dazu finden Sie im [Handbuch zur Admin Console](https://helpx.adobe.com/enterprise/using/users.html).
 
-Der Zugriff auf die Adobe-Campaign-Benutzer erfolgt über das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen**[!UICONTROL  Administration > Benutzer &amp; Sicherheit > Benutzer]**.
+Der Zugriff auf die Adobe Campaign-Benutzer erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen**[!UICONTROL  Administration > Benutzer &amp; Sicherheit > Benutzer]**.
 
 Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]**können Sie von Adobe Campaign aus auf die Benutzeroberfläche zur Benutzerverwaltung zugreifen.
 
@@ -35,7 +35,7 @@ Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]**können Sie vo
 
 **Verwandte Themen:**
 
-* Video [Managing user permissions](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html)
+* Video [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
 * [Liste der Berechtigungen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -59,7 +59,7 @@ Vielmehr beschäftigen wir uns mit den drei wichtigsten Benutzertypen entspreche
 
 Funktionale Administratoren sind Benutzer, die Zugriff auf die meisten technischen Elemente der Benutzeroberfläche haben. Sie sind verantwortlich für die **[!UICONTROL Administration]**und richten die Plattform ein, damit sich Marketer voll und ganz auf den Versand ihrer Kampagnen konzentrieren können.
 
-Funktionale Administratoren sind die einzigen Benutzer, die Zugriff auf das Menü **[!UICONTROL Administration]**in der Adobe-Campaign-Benutzeroberfläche haben. Da diese Benutzer Zugriff auf technische Ressourcen benötigen, sollten ihnen erweiterte Benutzerrollen zugewiesen werden, wie etwa die vordefinierten Rollen**[!UICONTROL  Administration]** und **[!UICONTROL Data Model]**. Diese Rollen sind in der vordefinierten Sicherheitsgruppe**[!UICONTROL  Administrator]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
+Funktionale Administratoren sind die einzigen Benutzer, die in der Adobe Campaign-Benutzeroberfläche Zugriff auf das Menü **[!UICONTROL Administration]**haben. Da diese Benutzer Zugriff auf technische Ressourcen benötigen, sollten ihnen erweiterte Benutzerrollen zugewiesen werden, wie etwa die vordefinierten Rollen**[!UICONTROL  Administration]** und **[!UICONTROL Data Model]**. Diese Rollen sind in der vordefinierten Sicherheitsgruppe**[!UICONTROL  Administrator]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
 Dies sind ihre Hauptaufgaben:
 
@@ -71,7 +71,7 @@ Dies sind ihre Hauptaufgaben:
 * [Daten-Packages exportieren und importieren](../../automating/using/managing-packages.md): Austausch von Ressourcen zwischen unterschiedlichen Adobe-Campaign-Instanzen mithilfe strukturierter XML-Dateien
 * [Logs exportieren](../../automating/using/exporting-logs.md) und [Importvorlagen definieren](../../automating/using/defining-import-templates.md)
 
-### Benutzer mit fortgeschrittenen Kenntnissen {#advanced-users}
+### Benutzer mit fortgeschrittenen Kenntnissen  {#advanced-users}
 
 Diese Benutzer sind Marketing-Experten, die Adobe Campaign auf eine vorwiegend technische Art verwenden. Sie konfigurieren alle Elemente, die Marketer für den Versand und die Überwachung von Nachrichten verwenden.
 
@@ -85,7 +85,7 @@ Dies sind ihre Hauptaufgaben:
 * [Fortgeschrittene Bearbeitung von Ausdrücken](../../automating/using/editing-queries.md#about-query-editor): Einsatz fortgeschrittener Funktionen zur Bearbeitung für Abfragen verwendeter Werte (Datumsangaben, Strings, numerische Felder, Sortierung usw.)
 * [Listen exportieren](../../automating/using/exporting-lists.md) und [Daten mithilfe von Importvorlagen importieren](../../automating/using/importing-data-with-import-templates.md)
 
-### Benutzer mit Grundkenntnissen {#basic-users}
+### Benutzer mit Grundkenntnissen  {#basic-users}
 
 Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntnissen können Marketer Kampagnen personalisieren, versenden und überwachen, ohne sich über die technischen Feinheiten den Kopf zerbrechen zu müssen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Sendungen vorbereiten]**,**[!UICONTROL  Workflow]** und **[!UICONTROL Sendungen starten]**zugewiesen werden. Diese Rollen sind in der vordefinierten Sicherheitsgruppe**[!UICONTROL  Standardbenutzer]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
@@ -132,7 +132,7 @@ Anschließend können Sie überprüfen, ob der Benutzer richtig mit Adobe Campai
 
 1. Wählen Sie dazu im erweiterten Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]**den zuvor von Ihnen erstellten Benutzer aus.
 
-1. Update the **[!UICONTROL Mobile]**,**[!UICONTROL  Time zone]** or **[!UICONTROL Regional settings]**if needed.
+1. Aktualisieren Sie bei Bedarf die Felder **[!UICONTROL Mobil]**,**[!UICONTROL  Zeitzone]** oder **[!UICONTROL Regionale Parameter]**.
 
 1. Überprüfen Sie die Sicherheitsgruppe des Benutzers. Hier können Sie sehen, dass dem Benutzer die Sicherheitsgruppe **[!UICONTROL Administrator]**zugewiesen wurde.
 
