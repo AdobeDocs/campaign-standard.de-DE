@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+translation-type: tm+mt
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -106,7 +106,7 @@ Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 
 **Verwandtes Thema:**
 
-Video zum [Importieren von Inhalt von einer URL](https://helpx.adobe.com/de/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Video zum [Importieren von Inhalt von einer URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent)
 
 ### Während der Vorbereitung Inhalt von einer URL automatisch abrufen {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
