@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -21,22 +21,22 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 Nach der Erstellung einer E-Mail in Adobe Campaign müssen Sie deren Inhalt definieren.
 
-Mit dem E-Mail-Designer können Sie durch eine Drag &amp; Drop-Oberfläche, die durch native Creative Cloud-Integrationen erweitert wird, faszinierende, individuell zugeschnittene E-Mails erstellen. Ob Sie nun mit einer leeren Tonspur beginnen oder vorhandene Inhaltsfragmente oder Vorlagen nutzen, entwerfen und verfeinern Sie alle Inhalte für jede E-Mail, ob als Promotion oder als Transaktion.
+Mit Email Designer können Sie unter Verwendung einer Drag &amp; Drop-Oberfläche, die durch native Creative Cloud-Integrationen erweitert wird, ansprechende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen oder existierende Inhaltsfragmente bzw. Vorlagen nutzen, können Sie beliebige Inhalte für alle E-Mails erstellen und gestalten (ob für Promotionen oder Transaktionen).
 
-Der E-Mail-Designer wurde für die Bereitstellung von HTML entwickelt, das für reaktionsfähiges Design optimiert ist. Mit dem E-Mail-Designer können Sie mühelos Sichtbarkeitsbedingungen und dynamische Inhalte direkt über die Benutzeroberfläche definieren und anwenden. Sie können nahtlos zwischen Drag &amp; Drop-Oberfläche und HTML-Code beim Klicken auf eine Schaltfläche wechseln.
+Email Designer ermöglicht die Bereitstellung von HTML-Code, der für responsives Design optimiert ist. Mit Email Designer können Sie bequem Sichtbarkeitsbedingungen und dynamische Inhalte direkt über die Benutzeroberfläche definieren und anwenden. Durch einfaches Klicken auf eine Schaltfläche können Sie nahtlos zwischen der Drag &amp; Drop-Oberfläche und HTML-Code wechseln.
 
 Email Designer ermöglicht die Erstellung von E-Mail-Inhalten und Vorlagen für E-Mail-Inhalte. Der Editor ist kompatibel mit einfachen E-Mails, Transaktions-E-Mails, A/B-Test-E-Mails, mehrsprachigen E-Mails und wiederkehrenden E-Mails.
 
-In diesen [Videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können.
+In diesen [Videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* Informationen zum Erstellen von E-Mail-Inhalten finden Sie unter [Erste Schritte mit dem E-Mail-Designer](../../designing/using/quick-start.md).
+* To discover how to create email content, see [Get started with the Email Designer](../../designing/using/quick-start.md).
 * Eine Übersicht über Email Designer finden Sie unter [Verwenden von Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 * Weitere Informationen zum Erstellen von Inhalten:
    * Wenn Sie E-Mails von Grund auf neu erstellen möchten, lesen Sie [Erstellen neuer E-Mails](../../designing/using/designing-from-scratch.md).
    * Wenn Sie vorhandene Inhalte verwenden möchten, lesen Sie [Erstellen aus vorhandenen Inhalten](../../designing/using/using-existing-content.md).
-   * Informationen zum Verwenden von Creative Cloud-Integrationen finden Sie unter E-Mail-Entwurf für [mehrere Lösungen](../../designing/using/using-integrations.md).
+   * Using Creative Cloud integrations, see [Multi-solution email design](../../designing/using/using-integrations.md).
 * Wenn Sie Ihre E-Mails personalisieren möchten, lesen Sie [Personalisierung](../../designing/using/personalization.md).
 
 Zur Erstellung Ihrer E-Mails können Sie auch vordefinierte Vorlagen wählen oder vorhandene Inhalte aus anderen Quellen laden. Siehe [Auswahl vorhandener Inhalte](../../designing/using/using-existing-content.md#selecting-an-existing-content).
@@ -69,11 +69,11 @@ In der **dedizierten Symbolleiste** der Editor-Oberfläche sind je nach markiert
 
 ### Startseite von Email Designer {#email-designer-home-page}
 
-Bei der [Erstellung einer E-Mail](../../channels/using/creating-an-email.md) wird bei der Auswahl des E-Mail-Inhalts automatisch die Startseite von **[!UICONTROL Email Designer]**angezeigt.
+Bei der [Erstellung einer E-Mail](../../channels/using/creating-an-email.md) wird bei Auswahl des E-Mail-Inhalts automatisch die Startseite von **[!UICONTROL Email Designer]**angezeigt.
 
 ![](assets/email_designer_home_page.png)
 
-Im Tab **[!UICONTROL Eigenschaften]**können Sie die Details der E-Mail bearbeiten, wie z. B. den Titel, die E-Mail-Adresse und den Namen des Absenders sowie den Betreff der E-Mail. Auf diesen Tab können Sie auch durch Auswahl des E-Mail-Titels am oberen Bildschirmrand zugreifen.
+Im Tab **[!UICONTROL Eigenschaften]**können Sie die Details der E-Mail bearbeiten, wie z. B. den Titel, die E-Mail-Adresse und den Namen des Absenders sowie den Betreff der E-Mail. Auf diesen Tab können Sie auch durch Auswahl des E-Mail-Titels am oberen Bildschirmrand zugreifen.
 
 ![](assets/email_designer_home_properties.png)
 
@@ -87,7 +87,7 @@ Im Tab **[!UICONTROL Lernen &amp; Unterstützung]**können Sie auf entsprechende
 
 Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email Designer auch wählen, wie Sie Ihren Inhalt erstellen möchten:
 
-* Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]**, um ganz neuen Inhalt zu erstellen. Siehe auch[Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]**, um einen ganz neuen Inhalt zu erstellen. Siehe auch[Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 * Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]**aus, um eine Datei von Ihrem Computer zu laden. Siehe auch[Inhalt aus einer Datei importieren](../../designing/using/using-existing-content.md#importing-content-from-a-file).
 * Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]**, um vorhandenen Inhalt von einer URL abzurufen. Siehe auch[Inhalt aus einer URL importieren](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
@@ -127,7 +127,7 @@ Email Designer wird laufend verbessert. Wenn Sie E-Mail-Inhalt neu oder von eine
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe empfiehlt, Inhalte auf die neueste Version zu aktualisieren, um Probleme wie CSS-Inkompatibilität zu vermeiden. Klicken Sie dazu auf **[!UICONTROL Update now]**(Jetzt aktualisieren).
+Adobe empfiehlt, Inhalte auf die neueste Version zu aktualisieren, um Probleme wie CSS-Inkompatibilität zu vermeiden. Wählen Sie dazu **[!UICONTROL Jetzt aktualisieren]**aus.
 
 Wenn beim Aktualisieren des Inhalts ein Fehler auftritt, überprüfen Sie Ihren HTML-Code und korrigieren Sie ihn, bevor Sie dieses Update erneut ausführen.
 
@@ -143,7 +143,7 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Wenn Fragmente in E-Mails aktualisiert werden, die bereits vorbereitet wurden, wirkt sich dies nicht auf diese E-Mails aus.
 
-## Einschränkungen in Email Designer {#email-designer-limitations}
+## Einschränkungen in Email Designer  {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/using-reusable-content.md#about-fragments).
 
