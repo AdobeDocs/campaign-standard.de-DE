@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
 
 [Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Aktualisierungen](../../rn/using/documentation-updates.md) der Dokumentation| [Frühere Versionshinweise](../../rn/using/release-notes-2018.md) | [Veraltete Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-## Version 19.4 - Dezember 2019 {#release-19-4---october-2019}
+## Version 19.4 – Dezember 2019 {#release-19-4---october-2019}
 
 **Neue Funktionen?**
 
@@ -80,8 +80,8 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
 
 **Verbesserungen bei Email Designer**
 
-* Es wurde ein Fehler behoben, der verhinderte, dass Links zu Abonnenten-, Abonnement- und Einstiegsseiten verfolgt werden konnten, wenn sie in eine E-Mail eingefügt wurden. (CAMP-37809)
-* Es wurde ein Problem behoben, das zu Fehlern führte, wenn eine neue E-Mail erstellt und eine Vorlage ausgewählt wurde. (CAMP-38000)
+* Fehlerkorrektur – Links für Abmeldung, Anmeldung und Landingpage, die in eine E-Mail eingefügt werden, lassen sich nun verfolgen. (CAMP-37809)
+* Fehlerkorrektur – Beim Erstellen einer neuen E-Mail und Auswählen einer Vorlage treten nun keine Fehler mehr auf. (CAMP-38000)
 * When editing a link using the Email Designer, you can now use the **Underline link** option. Außerdem wurde eine **Target**-Eigenschaft hinzugefügt, deren Standardwert auf **Ohne** festgelegt ist. [mehr dazu](../../designing/using/styles.md#about-styling-links)
 * Fehlerkorrektur – Für Links in Textkomponenten im Textkörper einer E-Mail wird nun die korrekte Farbe verwendet. (CAMP-37330)
 * Fehlerkorrektur – Beim Löschen eines Bildes werden nun auch zugeordnete Links entfernt. (CAMP-37234)
@@ -306,7 +306,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>Mit dem Control Panel können Sie Administratoraufgaben effizienter erledigen. So ermöglicht es Ihnen, die Serverkapazität zu überwachen und die Einstellungen der Instanzen zu verwalten (u. a. der SFTP-Server).</p><p>Weiterführende Informationen finden Sie im <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">ausführlichen Handbuch</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">diesem Video</a>.</p></td> 
+   <td> <p>Mit dem Control Panel können Sie Administratoraufgaben effizienter erledigen. So ermöglicht es Ihnen, die Serverkapazität zu überwachen und die Einstellungen der Instanzen zu verwalten (u. a. der SFTP-Server).</p><p>Weiterführende Informationen finden Sie im <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">ausführlichen Handbuch</a> und in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">diesem Video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokale Benachrichtigungen<br /> </td> 
@@ -314,7 +314,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
   </tr> 
   <tr> 
    <td> Verbesserung bei Workflows – Hinzufügen einer Payload zur Aktivität "Externes Signal"<br /> </td> 
-   <td> <p>Starten Sie Workflows nun mit Payloads, wenn zuvor definierte Bedingungen eines anderen Workflows oder eines REST-API-Aufrufs erfüllt sind. Letzteres ermöglicht Ihnen die Integration mit Ihren externen Systemen. Gleichzeitig stellen wir die neue <strong>Test</strong>-Aktivität zur Verfügung, mit der diese Funktion getestet werden kann.</p><p>Weiterführende Informationen finden Sie in der <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">diesem Video</a>.</p></td> 
+   <td> <p>Starten Sie Workflows nun mit Payloads, wenn zuvor definierte Bedingungen eines anderen Workflows oder eines REST-API-Aufrufs erfüllt sind. Letzteres ermöglicht Ihnen die Integration mit Ihren externen Systemen. Gleichzeitig stellen wir die neue <strong>Test</strong>-Aktivität zur Verfügung, mit der diese Funktion getestet werden kann.</p><p>Weiterführende Informationen finden Sie in der <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">diesem Video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Verbesserung bei Landingpages – Google reCAPTCHA<br /> </td> 
@@ -396,7 +396,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019 {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019  {#release-19-1-3---march-2019}
 
 **Verbesserungen bei Email Designer**
 
@@ -432,7 +432,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
   </tr> 
   <tr> 
    <td> Mobile In-App-Nachrichtenversand<br /> </td> 
-   <td> <p>Diese Version enthält die allgemein verfügbare Version der In-App-Kanal-Option in Campaign. Die wichtigsten neuen Funktionen gegenüber der Beta-Version sind dynamische Berichte für den In-App-Kanal und der sichere Handshake zwischen Mobile SDK und MCIAS (Experience Cloud In-App Messaging Service, der die In-App-Regeln zum SDK weiterleitet). Der sichere Handshake gewährleistet, dass die personenbezogenen Daten Ihrer Benutzer nicht in betrügerische Hände gelangen können. Außerdem können Sie damit Benutzerdaten auf einem gemeinsam genutzten Gerät schützen, da der Nachrichten-Cache jedes Mal geleert wird, wenn sich der Benutzer abmeldet.</p><p>Weiterführende Informationen finden Sie im <a href="../../channels/using/about-in-app-messaging.md">entsprechenden Handbuch</a> und im <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App-Tutorial</a>.</p> </td> 
+   <td> <p>Diese Version enthält die allgemein verfügbare Version der In-App-Kanal-Option in Campaign. Die wichtigsten neuen Funktionen gegenüber der Beta-Version sind dynamische Berichte für den In-App-Kanal und der sichere Handshake zwischen Mobile SDK und MCIAS (Experience Cloud In-App Messaging Service, der die In-App-Regeln zum SDK weiterleitet). Der sichere Handshake gewährleistet, dass die personenbezogenen Daten Ihrer Benutzer nicht in betrügerische Hände gelangen können. Außerdem können Sie damit Benutzerdaten auf einem gemeinsam genutzten Gerät schützen, da der Nachrichten-Cache jedes Mal geleert wird, wenn sich der Benutzer abmeldet.</p><p>Weiterführende Informationen finden Sie im <a href="../../channels/using/about-in-app-messaging.md">entsprechenden Handbuch</a> und im <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App-Tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Workflow-Verbesserungen<br /> </td> 
@@ -537,11 +537,11 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
      <li> Die Möglichkeit, <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">in der Vorbereitungsphase Inhalt von einer URL automatisch abzurufen</a> </li> 
      <li> Vollständig kompatible <a href="../../designing/using/using-reusable-content.md#content-templates">native Inhaltsvorlagen</a>. </li> 
     </ul> 
-    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.</p> </td> 
+    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlisten in Transaktions-E-Mails<br /> </td> 
-   <td> <p>Sie können jetzt in einer Transaktions-E-Mail eine oder mehrere Produktlisten referenzieren. So können Sie beispielsweise im Anschluss an einen stehen gelassenen Warenkorb automatisch eine E-Mail versenden, in der alle im Warenkorb befindlichen Produkte samt Bild, Preis und Link zum Produkt aufgelistet werden.</p><p>Weiterführende Informationen finden Sie in der <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">ausführlichen Dokumentation</a> und in <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">diesem Video</a>.</p> </td> 
+   <td> <p>Sie können jetzt in einer Transaktions-E-Mail eine oder mehrere Produktlisten referenzieren. So können Sie beispielsweise im Anschluss an einen stehen gelassenen Warenkorb automatisch eine E-Mail versenden, in der alle im Warenkorb befindlichen Produkte samt Bild, Preis und Link zum Produkt aufgelistet werden.</p><p>Weiterführende Informationen finden Sie in der <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">diesem Video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile-Ansicht in E-Mail-Designer<br /> </td> 
