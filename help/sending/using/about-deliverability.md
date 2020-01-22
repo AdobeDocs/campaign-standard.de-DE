@@ -12,17 +12,15 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+translation-type: tm+mt
+source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ---
 
 
 # Über die Zustellbarkeit{#about-deliverability}
 
-Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich an die Empfängerpostfächer zugestellt und nicht als unzustellbar zurückgesendet bzw. als Spam gekennzeichnet werden.
-
-Adobe Campaign Deliverability ist ein zahlungspflichtiger Service, der in verschiedenen Packages angeboten wird. Kontaktieren Sie dazu den Zustellbarkeitsservice oder die entsprechende Geschäftsabteilung.
+Die Lieferbarkeit ermöglicht es, den Erfolg Ihrer Kampagnen zu messen, die den Posteingang Ihrer Empfänger erreichen, ohne zu springen oder als Spam gekennzeichnet zu werden.
 
 Die Zustellrate hängt u. a. von folgenden Faktoren ab:
 
@@ -46,7 +44,7 @@ Folgende Faktoren können die Zustellbarkeit Ihrer E-Mails beeinträchtigen.
 ## Zustellbarkeits-Tools {#deliverability-tools}
 
 Lesen Sie zunächst den Abschnitt über die Zustellbarkeits-Tools von Campaign Standard.
-* [Best Practices beim Versand](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
+* [Best Practices beim Versand](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 * [Absendername personalisieren](../../designing/using/personalization.md#personalizing-the-sender)
 * [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
 * [Versandzeitpunkt optimieren](../../sending/using/optimizing-the-sending-time.md)
