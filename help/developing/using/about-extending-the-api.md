@@ -11,21 +11,25 @@ topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+translation-type: tm+mt
+source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
 
 ---
 
 
 # Über die API-Erweiterung{#about-extending-the-api}
 
-In diesem Anwendungsbeispiel wird die Anzeige der erweiterten Felder für die benutzerdefinierte Ressource Profile in der öffentlichen Profile-API dargelegt. Nehmen wir das Beispiel eines Kundenprofils, das man zeitnah mit einem durch ein Fakturierungssystem erzeugten Angebotscode aktualisieren möchte.
+Dieser Verwendungsfall beschreibt die Darstellung erweiterter Felder für die benutzerdefinierten Ressourcenprofile in der öffentlichen Profil-API. Nehmen wir das Beispiel eines Kundenprofils, das man zeitnah mit einem durch ein Fakturierungssystem erzeugten Angebotscode aktualisieren möchte.
 
-Um die API publizieren zu können, muss Ihnen die Benutzerrolle **[!UICONTROL Datamodel]**zugewiesen sein.
+>[!NOTE]
+>
+>In order to publish the API, make sure you have the **[!UICONTROL Datamodel]**role.
 
-* Erweiterung der benutzerdefinierten Ressource Profile
-* Publizieren der Erweiterung
-* Überprüfung der API auf Verfügbarkeit der erweiterten Felder
+Die Schritte zur Bereitstellung erweiterter Felder in der öffentlichen API lauten wie folgt:
+
+1. [Fügen Sie die Erweiterungsfelder zur Profilressource hinzu](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [Veröffentlichen der Erweiterung](../../developing/using/step-2--publish-the-extension.md)
+1. [Überprüfen Sie, ob die neuen erweiterten Felder in der API verfügbar sind](../../developing/using/step-3--verify-the-extension.md)
 
 **Verwandte Themen:**
 
