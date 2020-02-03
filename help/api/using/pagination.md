@@ -11,8 +11,8 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+translation-type: tm+mt
+source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
 
 ---
 
@@ -29,8 +29,6 @@ Mit dem Parameter **_lineCount** können Sie die Zahl der in der Antwort aufgeli
 >
 >Die Anfrage **_lineStart** wird berechnet und muss stets in der URL, die im Knoten **Nächste** zurückgegeben wird, verwendet werden.
 
-<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
-
 <br/>
 
 ***Beispielanfrage ***
@@ -45,9 +43,7 @@ Beispielhafte GET-Anfrage zum Anzeigen eines Datensatzes der Profilressource
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-<!-- dans l'exemple, avoir le node "next"-->
-
-Antwort auf die Anfrage
+Antwort auf die Anforderung mit dem **nächsten** Knoten, der Paginierung durchführen soll.
 
 ```
 {
@@ -60,6 +56,24 @@ Antwort auf die Anfrage
             ...
         }
     ],
+    "next": {
+        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
+        lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
+    }
     ...
 }
 ```
+
+Standardmäßig ist der **nächste** Knoten nicht verfügbar, wenn Tabellen mit einer großen Datenmenge interagieren. Um Paginierung durchführen zu können, müssen Sie den Parameter **_forcePagination=true** zu Ihrer Aufruf-URL hinzufügen.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+>[!NOTE]
+>
+>Die Anzahl der Datensätze, über denen eine Tabelle als groß betrachtet wird, wird in der Option &quot;Kampagnenstandard XtkBigTableThreshold&quot; **definiert** . Der Standardwert ist 100.000 Datensätze.
