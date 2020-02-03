@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
 ---
 
@@ -31,6 +31,12 @@ So konfigurieren Sie einen Dienst:
 1. Gehen Sie mithilfe der Schaltfläche **[!UICONTROL in die]**Eigenschaften des Dienstes![](assets/edit_darkgrey-24px.png)und konfigurieren Sie die Bestätigungsnachrichten, die bei Anmeldungen oder Abmeldungen versendet werden sollen.
 
    ![](assets/lp_service_parameters.png)
+
+1. Wählen Sie die Option &quot; **[!UICONTROL Abonnements mit Ablaufdatum]**&quot;aus, um eine Gültigkeitsdauer für das Abonnement festzulegen.
+
+   ![](assets/lp_service_expiration.png)
+
+Sie können das Ablaufdatum in einer Segmentierungsaktivität verwenden, um Profile als Ziel festzulegen, die für einen nicht abgelaufenen Dienst abonniert wurden.
 
 1. Füllen Sie das Feld **[!UICONTROL Diensttitel]**aus. Der Diensttitel ist bei Verwendung einer benutzerdefinierten Bestätigungsnachricht obligatorisch.
 
