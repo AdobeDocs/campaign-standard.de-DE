@@ -11,8 +11,8 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 ---
 
@@ -35,13 +35,17 @@ Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie 
 1. Geben Sie in den Feldern Daten ein und wählen Sie Optionen aus.
 1. Übermitteln Sie die Landingpage und prüfen Sie die entsprechenden Aktualisierungen in der Datenbank.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Wenn das Formular übermittelt wird, werden der Dienst und das Profil aktualisiert.
 
 1. Wiederholen Sie diesen Vorgang mit verschiedenen Profilen und Daten.
 
    Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landingpage erzeugen.
+
+>[!NOTE]
+>
+>Wenn die Anwendungsserver-URL nicht sicher ist (d. h. nicht mit https:// beginnt), kann die Vorschau der Einstiegsseite nicht über die Benutzeroberfläche von Campaign angezeigt werden. Dieser Server wird beim [Konfigurieren von Marken](../../administration/using/branding.md#configuring-and-using-brands)definiert.
 
 ## Gültigkeitsparameter einrichten  {#setting-up-validity-parameters}
 
@@ -59,7 +63,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 
    ![](assets/lp_settings_general.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Sie können auch ein Publikationsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum publiziert.
 
