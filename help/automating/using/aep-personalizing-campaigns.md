@@ -1,0 +1,60 @@
+---
+title: Personalisieren von Kampagnen mithilfe von Adobe Experience Platform-Attributen
+description: Erfahren Sie, wie Sie Ihre Kampagnen mithilfe der Attribute der Adobe Experience Platform personalisieren.
+page-status-flag: never-activated
+uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: channel-activities
+discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
+
+---
+
+
+# Personalisieren von Kampagnen mithilfe von Adobe Experience Platform-Attributen {#personalizing-campaigns-using-aep-attributes}
+
+>[!IMPORTANT]
+>
+>Der Zielgruppen-Zieldienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azurblau gehostet werden (derzeit nur in der Beta-Version für Nordamerika), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an den Adobe-Kundendienst, wenn Sie Zugriff haben möchten.
+>
+>**Push** - und **In-App** -Kanäle stehen noch nicht zur Personalisierung mit Kontextdaten aus Adobe Experience Platform zur Verfügung.
+
+Sobald Ihr Workflow mit einer [Adobe Experience Platform-Zielgruppe](../../audiences/using/aep-about-audience-destinations-service.md)konfiguriert wurde, können Sie Nachrichten mit Profilattributen personalisieren, die ausschließlich im Experience Data Model (XDM) vorhanden sind.
+
+Dazu müssen Sie die folgenden Attribute zur Aktivität **[!UICONTROL Zielgruppe]**lesen hinzufügen:
+
+1. Öffnen Sie die Aktivität Zielgruppe **[!UICONTROL lesen]**. Klicken Sie auf der Registerkarte**[!UICONTROL  Zusätzliche Daten]** auf die Schaltfläche Element **[!UICONTROL erstellen]**.
+
+   >[!NOTE]
+   >
+   >Die Registerkarte &quot; **[!UICONTROL Zusätzliche Daten]**&quot;steht erst zur Verfügung, nachdem eine Zielgruppe für Adobe Experience Platform ausgewählt wurde.
+
+   ![](assets/aep_wkf_readaudience_attributes.png)
+
+1. Wählen Sie das gewünschte XDM-Feld aus der Liste und klicken Sie dann auf **[!UICONTROL Bestätigen]**.
+
+   ![](assets/aep_wkf_readaudience_perso1.png)
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um sie der Liste der zusätzlichen Daten hinzuzufügen.
+
+   ![](assets/aep_wkf_readaudience_perso3.png)
+
+1. Wiederholen Sie diese Schritte für jedes XDM-Feld, das Sie Ihrem Workflow hinzufügen möchten.
+
+   >[!NOTE]
+   >
+   >Sie können maximal 20 XDM-Felder in einer Aktivität zum **[!UICONTROL Lesen von Zielgruppen]**hinzufügen.
+
+1. Nachdem alle Felder hinzugefügt wurden, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]**, um die Änderungen zu speichern. Sie stehen nun zur Personalisierung Ihrer Auslieferungen zur Verfügung.
+
+Weitere Informationen zum Erstellen und Personalisieren von Auslieferungen finden Sie in der Dokumentation zu Campaign Standard:
+
+* [Kommunikationskanäle](../../channels/using/discovering-communication-channels.md)
+* [Über Kanalaktivitäten](../../automating/using/about-channel-activities.md)
+* [Sendungen personalisieren](../../designing/using/personalization.md)
