@@ -1,6 +1,6 @@
 ---
-title: Sendungen beobachten
-description: Hier erfahren Sie, wie Sie einen Versand nachverfolgen können.
+title: Überwachen einer Bereitstellung in Adobe Campaign Standard
+description: Erfahren Sie, wie Sie eine Bereitstellung in Adobe Campaign Standard überwachen.
 page-status-flag: never-activated
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: sauviat
@@ -12,8 +12,8 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 ---
 
@@ -26,13 +26,13 @@ Es gibt mehrere Möglichkeiten, einen Versand zu beobachten und seine Wirkung zu
 
    Der Zugriff auf die Nachrichtenprotokolle ist über die Schaltfläche rechts unten in der **[!UICONTROL Freigabe]**-Kachel möglich.
 
-   Die verschiedenen Tabs zeigen (wenn vorhanden) Informationen zu **[!UICONTROL Versandlogs]**, **[!UICONTROL Ausschlusslogs]**, **[!UICONTROL Ausschlussgründen]**, **[!UICONTROL Trackinglogs]** und **[!UICONTROL getrackten URLs]**. Siehe [Versandlogs](#delivery-logs).
+   Die verschiedenen Tabs zeigen (wenn vorhanden) Informationen zu **[!UICONTROL Versandlogs]**,**[!UICONTROL  Ausschlusslogs]**, **[!UICONTROL Ausschlussgründen]**,**[!UICONTROL  Trackinglogs]** und **[!UICONTROL getrackten URLs]**. Siehe[Versandlogs](#delivery-logs).
 
    ![](assets/sending_delivery1.png)
 
    Das Protokoll enthält alle auf den Versand und auf Testsendungen bezogenen Logs. Eventuelle Fehler oder Warnmeldungen werden durch spezifische Symbole hervorgehoben. Lesen Sie diesbezüglich auch den Abschnitt [Nachrichten validieren](../../sending/using/previewing-messages.md).
 
-   Mithilfe der Schaltfläche **[!UICONTROL Liste exportieren]** kann das Protokoll exportiert werden.
+   Mithilfe der Schaltfläche **[!UICONTROL Liste exportieren]**kann das Protokoll exportiert werden.
 
    ![](assets/sending_delivery2.png)
 
@@ -51,9 +51,21 @@ Es gibt mehrere Möglichkeiten, einen Versand zu beobachten und seine Wirkung zu
 
 Der **[!UICONTROL Versandlogs]**-Tab zeigt die Liste der einzelnen Nachrichten eines Versands sowie deren Status an. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
-Für jedes Profil mit dem Status **[!UICONTROL Gesendet]** wird in der Spalte **[!UICONTROL Datum]** der Versandzeitpunkt der Nachricht angezeigt.
+Für jedes Profil mit dem Status **[!UICONTROL Gesendet]**wird in der Spalte**[!UICONTROL  Datum]** der Versandzeitpunkt der Nachricht angezeigt.
 
 ![](assets/sending_delivery3.png)
+
+Klicken Sie auf das Stiftsymbol rechts neben der entsprechenden Zeile, um auf die Details eines bestimmten Sendetlogs zuzugreifen.
+
+![](assets/sending_access-sending-log.png)
+
+Alle Details zum Versandprotokoll sind schreibgeschützt. Sie können auch eine Vorschau der Spiegelseite anzeigen.
+
+![](assets/sending_sending-log.png)
+
+>[!NOTE]
+>
+>Wenn die Server-URL des Spiegelseitenservers nicht sicher ist (d. h. wenn nicht mit https:// begonnen wird), kann das Rendering der Spiegelseite nicht über die Benutzeroberfläche von Campaign angezeigt werden. Dieser Server wird beim [Konfigurieren von Marken](../../administration/using/branding.md#configuring-and-using-brands)definiert.
 
 ### Ausschlusslogs {#exclusion-logs}
 
@@ -66,4 +78,3 @@ Der **[!UICONTROL Ausschlusslogs]**-Tab zeigt die Liste der vom Versand ausgesch
 Der **[!UICONTROL Ausschlussgründe]**-Tab zeigt die Anzahl an ausgeschlossenen Empfängern pro Ausschlussgrund an.
 
 ![](assets/sending_delivery5.png)
-
