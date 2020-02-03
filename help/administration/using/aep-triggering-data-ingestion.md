@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 Mit Adobe Campaign Standard können Sie die sofortige Erfassung von Datenzuordnungen über APIs auslösen und den Status Ihrer Erfassungsanforderungen abrufen.
 
->[!NOTE]
->
->Auf dieser Seite wird beschrieben, wie Sie den Erfassungsstatus Ihrer Datenzuordnungen auslösen und abrufen. Globale Informationen zu Campaign Standard-APIs finden Sie in [diesem Abschnitt](../../api/using/about-campaign-standard-apis.md).
+Auf dieser Seite wird beschrieben, wie Sie den Erfassungsstatus Ihrer Datenzuordnungen auslösen und abrufen. Globale Informationen zu Campaign Standard-APIs finden Sie in [diesem Abschnitt](../../api/using/about-campaign-standard-apis.md).
 
 ## Voraussetzungen {#prerequisites}
 
@@ -38,7 +36,7 @@ Bevor Sie die APIs verwenden, muss die Datenzuordnung zunächst in der Benutzero
 
 Nachdem die Datenzuordnung erstellt wurde, müssen Sie die Ausführung beenden, damit Sie sie jederzeit aus den APIs auslösen können. Gehen Sie dazu wie folgt vor:
 
-1. Wechseln Sie in Campaign Standard zum Menü **[!UICONTROL Administration]**>**[!UICONTROL  Entwicklung]** > **[!UICONTROL Plattform]**>**!UICONTROL Status des Datenexports in Plattform]** .
+1. Gehen Sie in Campaign Standard zum Menü **[!UICONTROL Administration]**>**[!UICONTROL  Entwicklung]** > **[!UICONTROL Plattform]**>**[!UICONTROL  Status des Datenexports in Plattform]** .
 
 1. Doppelklicken Sie auf die Datenzuordnung, um sie zu öffnen, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Stopp]**.
 
