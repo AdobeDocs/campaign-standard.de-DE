@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
+source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 ---
 
@@ -34,9 +34,8 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   Der Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Kampagnendaten auf Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign erfasste Daten) dem Adobe Experience Platform Data Model (XDM) zuordnen. </p>
-    <p>Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../administration/using/aep-about-data-connector.md">ausführlichen Dokumentation</a>.</p>
+   <td> <p>Der Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Kampagnendaten auf Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign erfasste Daten) dem Adobe Experience Platform Data Model (XDM) zuordnen. </p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azurblaus gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../administration/using/aep-about-data-connector.md">ausführlichen Dokumentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -45,28 +44,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integration mit dem Audience Destination-Dienst (Beta) </strong><br /> </th> 
+   <th> <strong>Zielgruppen-Ziele (Beta) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Der Dienst Zielgruppenziele ist jetzt in Adobe Campaign Standard integriert. Sie können hochgradig zielgerichtete Zielgruppen basierend auf großen, komplexen Datensätzen erstellen und diese Segmente in Echtzeit mit anderen Adobe Experience Cloud-Lösungen teilen.</p>
-    <p>Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../audiences/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Kampagne - Verbesserte MTA für Transaktionsnachrichten</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Transaktionsnachrichten werden jetzt von der Adobe Campaign Enhanced MTA gesendet, die eine aktualisierte Sendepritsche bietet, die eine verbesserte Lieferbarkeit, Durchsatz und Absprungbearbeitung ermöglicht.</p>
-    <p>Weitere Informationen finden Sie im <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">entsprechenden Handbuch</a>.</p>
+   <td> <p>Mit Zielgruppenzielen können Sie Segmente von der Adobe Experience Platform an Adobe Campaign freigeben.</p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azurblaus gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../audiences/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,11 +58,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 
 **Neuheiten**
 
+* Globale Verfügbarkeit der erweiterten MTA: Nachrichten (einschließlich Transaktionsmeldungen) werden jetzt von der Adobe Campaign Enhanced MTA gesendet, die eine aktualisierte Sendepritsche bietet, die eine verbesserte Lieferbarkeit, Durchsatz und Absprungbearbeitung ermöglicht. [mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * Die Zeitzonenverwaltung wurde verbessert. Sie können jetzt eine [bestimmte Zeitzone](../../automating/using/building-a-workflow.md) für einen gesamten Workflow definieren. Die ausgewählte Zeitzone gilt für alle Aktivitäten des Workflows. Informationen zur Zeitzone, die für den Operator oder Server konfiguriert wurde, werden jetzt in der Oberfläche angezeigt (in Protokollen und nach Auswahl einer Zeitzone). (CAMP-37672)
 
-* Kampagnen-Standard-APIs ermöglichen es Ihnen jetzt, bei Verwendung großer Tabellen Paginierung durchzuführen, indem Sie die `_forcePagination=true parameter` zu Ihrer Aufruf-URL hinzufügen. [mehr dazu](../../api/using/pagination.md)
+* Kampagnen-Standard-APIs ermöglichen es Ihnen jetzt, bei Verwendung großer Tabellen Paginierung durchzuführen, indem Sie den `_forcePagination=true` Parameter zu Ihrer Aufruf-URL hinzufügen. [mehr dazu](../../api/using/pagination.md)
 
-* Die Auslieferungsprotokoll-ID (eine eindeutige ID für jedes Protokoll) ist jetzt in den Auslieferungsprotokollen und in den Verfolgungsprotokollen für alle Targeting-Dimensionen verfügbar. Dadurch können beispielsweise beim Export Sende- oder Verfolgungsprotokolle identifiziert werden.
+* Die Auslieferungsprotokoll-ID (eine eindeutige ID für jedes Protokoll) ist jetzt in den Auslieferungsprotokollen und in den Verfolgungsprotokollen für alle Targeting-Dimensionen verfügbar. Dadurch können beispielsweise beim Export Sende- oder Verfolgungsprotokolle identifiziert werden. [mehr dazu](../../automating/using/exporting-logs.md)
 
 **Verbesserungen bei Email Designer**
 
