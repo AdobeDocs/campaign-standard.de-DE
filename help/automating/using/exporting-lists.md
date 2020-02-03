@@ -12,7 +12,7 @@ discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
 
 ---
 
@@ -40,7 +40,7 @@ Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-A
 
    Ein Popup zur Bestätigung erscheint. Sobald Sie den Export bestätigt haben, wird die Datei automatisch auf Ihr Gerät geladen.
 
-Die Datei wird im CSV-Format bzw. beim Export unter iOS im TXT-Format erzeugt. Sie wird nach der exportierten Ressource und dem Exportdatum benannt. Zum Beispiel: profileBase_20150426_120253.csv für einen am 26. April 2015 um 12:02:53 Uhr erfolgten Export von Profilen. Sie ist im UTF-8-Format kodiert.
+Die Datei wird im CSV-Format mit der Erweiterung .TXT generiert. Sie wird nach der exportierten Ressource und dem Exportdatum benannt. Beispiel: Der Name profileBase_20150426_120253.txt wird auf einen am 26. April 2015 um 12:02:53 durchgeführten Profilexport angewendet. Sie ist im UTF-8-Format kodiert.
 
 Numerische Werte und Daten berücksichtigen die Standortparameter (Locale) des Benutzers, der den Export ausführt. Beispiel: TT-MM-JJJJ oder MM-TT-JJJJ.
 
