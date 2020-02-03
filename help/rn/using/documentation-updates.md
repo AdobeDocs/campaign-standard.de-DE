@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 957290fc6524d4eb7c69c914f9817414655a25fd
+source-git-commit: c0c85af1d7eebc59cba784a03803d23bef354dd8
 
 ---
 
@@ -24,6 +24,36 @@ Hier erhalten Sie Informationen über Dokumentationsaktualisierungen für Adobe 
 Auf dieser Seite finden Sie eine nach Version geordnete Übersicht neuer Funktionen und aktueller Änderungen in der Dokumentation für Adobe Campaign Standard.
 
 Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-notes.md).
+
+## Version 20.1 - Februar 2019 {#release-20-1---february-2020}
+
+### Neue Funktionen in der Version
+
+Adobe Experience Platform Data Connector (Beta) - [Weitere Informationen](../../administration/using/aep-about-data-connector.md)
+
+Integration mit dem Audience Destination-Dienst (Beta) - [Weitere Informationen](../../audiences/using/aep-about-audience-destinations-service.md)
+
+Verbesserte MTA für Kampagnen für Transaktionsnachrichten - [Weitere Informationen](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
+
+Die Dokumentation zur Datenschutzverwaltung wurde aktualisiert und enthält Informationen zum Erstellen des CCPA-Abmeldefelds für benutzerdefinierte Profilressourcen. [mehr dazu](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+Die Versionshinweise wurden neu organisiert und verbessert. [mehr dazu](../../rn/using/release-notes.md)
+
+Es wurden Informationen zur Sicherheitsgruppe &quot;Administratoren&quot;hinzugefügt, die angeben, dass die **[!UICONTROL Organisationseinheit &quot;Alle&quot;]**ihr zugewiesen ist und nicht geändert werden kann.[mehr dazu](../../administration/using/managing-groups-and-users.md)
+
+Es wurden Informationen darüber hinzugefügt, wie eine bestimmte Zeitzone definiert wird, die standardmäßig in einem Workflow verwendet werden soll. [mehr dazu](../../automating/using/building-a-workflow.md)
+
+Im Handbuch Arbeiten mit APIs wurden Informationen zum neuen Parameter **_forcePagination=true** hinzugefügt, mit dem Sie Paginierungen in großen Tabellen durchführen können. [mehr dazu](../../api/using/pagination.md)
+
+Es steht ein neuer Abschnitt mit den Warnungen zur Verfügung, die in einem Nachrichten-Dashboard angezeigt werden können. [mehr dazu](../../channels/using/message-dashboard.md#warnings)
+
+Die Adobe Campaign Enhanced MTA-Dokumentation ist jetzt verfügbar. [Mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
+Es wurden Hinweise hinzugefügt, die darauf hinweisen, dass die URLs des Anwendungsservers und des Spiegelseitenservers sicher sein müssen, damit die Einstiegsseite und die Spiegelseitenvorschau über die Benutzeroberfläche von Campaign angezeigt werden. [mehr dazu](../../administration/using/branding.md#configuring-and-using-brands)
+
+Der Abschnitt &quot;Exportierungsprotokolle&quot;wurde aktualisiert, um die Verfügbarkeit der Auslieferungsprotokoll-ID in den Ressourcen für die Auslieferungs- und Verfolgungsprotokolle widerzuspiegeln, mit der für jedes Protokoll eine eindeutige Kennung exportiert werden kann. [mehr dazu](../../automating/using/exporting-logs.md)
 
 ## Aktualisierungen der Dokumentation - Januar 2020 {#doc-updates-january-2020}
 
@@ -71,13 +101,13 @@ Der API-Dokumentation wurde der neue API-Endpunkt **/customResources** hinzugef�
 
 ## Version 19.4 - Oktober 2019 {#release-19-4---october-2019}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-20}
+### Neue Funktionen in der Version
 
 California Consumer Privacy Act (CCPA) – [mehr dazu](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365-Integration (GA) – [mehr dazu](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-18}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Die Liste der Fehlermeldungen für Campaign Standard und Campaign Classic wurde aktualisiert – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -129,13 +159,13 @@ Ein neuer Abschnitt zum Speichern von E-Mail-Inhalt als Vorlage in E-Mail-Design
 
 ## Version 19.3 - Juli 2019 {#release-19-3---july-2019}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-19}
+### Neue Funktionen in der Version
 
 Externe API-Aktivität (öffentliche Beta-Version) – [mehr dazu](../../automating/using/external-api.md)
 
 Bericht zu Workflow-Segmenten – [mehr dazu](../../reporting/using/creating-a-report-workflow-segment.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-17}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Das Implementierungshandbuch für Campaign Standard ist jetzt online –[mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
@@ -181,7 +211,7 @@ Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinz
 
 ## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release}
+### Neue Funktionen in der Version
 
 Control Panel – [mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
@@ -191,7 +221,7 @@ Verbesserung bei Workflows – Hinzufügen einer Payload zur Aktivität &quot;Ex
 
 Verbesserung bei Landingpages – Google reCAPTCHA – [mehr dazu](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Der Artikel &quot;Adobe Campaign und Delegation des Domain-Namens&quot; wurde aktualisiert – [mehr dazu](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
@@ -249,7 +279,7 @@ Der Abschnitt zur Dreamweaver-Integration wurde aktualisiert und verbessert – 
 
 ## Version 19.1 - Februar 2019 {#release-19-1---february-2019}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-1}
+### Neue Funktionen in der Version
 
 Verbesserungen bei Push-Kanal-Berichten – [mehr dazu](../../reporting/using/push-notification-report.md)
 
@@ -259,7 +289,7 @@ Mobile In-App-Nachrichten – [mehr dazu](../../channels/using/about-in-app-mess
 
 Workflow-Verbesserungen – mehr dazu [hier](../../automating/using/workflow-interface.md#duplicating-workflow-activities) und [hier](../../automating/using/load-file.md#configuration)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-1}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Eine neue Einführung zur Erstellung von E-Mail-Inhalten und andere Verbesserungen bei E-Mail-Designer wurden zum Abschnitt zur Bearbeitung von E-Mail-Inhalten hinzugefügt – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
@@ -305,7 +335,7 @@ Im Abschnitt zur Dateiextraktions-Aktivität wurde eine Beschreibung einer neuen
 
 ## Version 19.0 - Januar 2019 {#release-19-0---january-2019}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-2}
+### Neue Funktionen in der Version
 
 Allgemeine Verfügbarkeit von E-Mail-Designer – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -315,7 +345,7 @@ Mobile-Ansicht in E-Mail-Designer – [mehr dazu](../../designing/using/plain-te
 
 Verbesserung von In-App-Messaging (Beta) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-2}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Das Handbuch zur Inhaltserstellung wurde aktualisiert und enthält jetzt Informationen zur allgemeinen Verfügbarkeit von E-Mail-Designer und der Einstellung des Legacy-E-Mail-Inhaltseditors – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -345,13 +375,13 @@ Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../.
 
 ## Version 18.9 - September 2018   {#release-18-9---september-2018}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-3}
+### Neue Funktionen in der Version
 
 In-App-Messaging (Beta) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
 Integration von Adobe Launch für Mobile Apps (Beta) – [mehr dazu ](../../administration/using/about-typology-rules.md#typology-rules)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-3}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Aktualisiertes Handbuch zu Push-Benachrichtigungen einschließlich Änderungen der Benutzeroberfläche – [mehr dazu](../../channels/using/about-push-notifications.md)
 
@@ -361,13 +391,13 @@ Aktualisierter Abschnitt zu nativen Berichten über Push-Benachrichtigungen – 
 
 ## Version 18.7 - Juli 2018   {#release-18-7---july-2018}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-4}
+### Neue Funktionen in der Version
 
 [Versand mit hoher Priorität](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) und [Typologiefilter](../../administration/using/about-typology-rules.md#typology-rules) für Abonnenten mobiler Apps.
 
 Automatischer Import von Inhalten von einer URL während der Nachrichtenvorbereitung – [mehr dazu](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-4}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Eine neue Technote zum SMS-Schnittstellenprotokoll und dessen Konfiguration wurde hinzugefügt – [mehr dazu](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
@@ -385,11 +415,11 @@ Ab Version 18.7 enthält das Handbuch für Benutzer &amp; Sicherheit nicht mehr 
 
 ## Version 18.6 - Juni 2018 {#release-18-6---june-2018}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-5}
+### Neue Funktionen in der Version
 
 Die API-Dokumentation wurde mit Informationen zur API **Verlauf** aktualisiert. Ein Anwendungsbeispiel wurde hinzugefügt, in dem erläutert wird, wie die Mirrorseite für eine an ein Profil gesendete Nachricht abgerufen werden kann – [mehr dazu](../../api/using/interacting-with-marketing-history.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-5}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Die Dokumentation zur Integration von Triggers mit Campaign wurde aktualisiert und umstrukturiert – [mehr dazu](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -405,7 +435,7 @@ In der API-Dokumentation wurde ein Abschnitt zu **benutzerdefinierten Filtern** 
 
 ## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-6}
+### Neue Funktionen in der Version
 
 DSGVO: Core Service-Integration – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
@@ -415,7 +445,7 @@ Erweiterung von Versandlogs – [mehr dazu](../../developing/using/configuring-t
 
 Dynamische Berichte mit benutzerdefinierten Profildaten – [mehr dazu](../../channels/using/creating-a-multilingual-push-notification.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-6}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Die Liste von in Analytics vorhandenen Campaign-Metriken wurde hinzugefügt – [mehr dazu](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -439,7 +469,7 @@ Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert �
 
 ## Version 18.3 - März 2018   {#release-18-3---march-2018}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-7}
+### Neue Funktionen in der Version
 
 EU-Datenschutz-Grundverordnung (DSGVO) – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
@@ -449,7 +479,7 @@ Mehrsprachige Push-Benachrichtigungen – [mehr dazu](../../channels/using/creat
 
 Verwendung benutzerdefinierter Ressourcen in Transaktionsnachrichten – [mehr dazu](../../administration/using/configuring-transactional-messaging.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-7}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfragen – [mehr dazu](../../api/using/creating-a-privacy-request.md)
 
@@ -471,13 +501,13 @@ Die kontextuelle Hilfe von Campaign Standard wurde aktualisiert.
 
 ## Version 18.2 - Februar 2018   {#release-18-2---february-2018}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-8}
+### Neue Funktionen in der Version
 
 Anmeldung: Eine Liste mit Profilen für mehrere Dienste an- oder abmelden – [mehr dazu](../../automating/using/subscription-services.md)
 
 Anreicherungsaktivität: Reichern Sie Daten auf der Basis eingehender Transitionen an – [mehr dazu](../../automating/using/enrichment.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-8}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Die meisten URLs für die Integration von Campaign und Adobe-Lösungen wurden geändert! Überprüfen Sie Ihre Lesezeichen! – [mehr dazu](../../integrating/using/about-campaign-integrations.md)
 
@@ -485,7 +515,7 @@ Datamodel v1 ist jetzt mit der SQL-Struktur für native Ressourcen verfügbar �
 
 Zusätzliche Informationen zur Vorbereitung einer Nachricht in einem Versand – [mehr dazu](../../sending/using/preparing-the-send.md)
 
-Die Versionshinweise wurden auf zwei Seiten neu angeordnet, sodass Sie einen besseren Überblick über alle Versionen erhalten: [aktuelle Versionshinweise](../../rn/using/release-notes.md) und [frühere Versionshinweise](../../rn/using/release-notes-2015-2016.md)
+Die Versionshinweise wurden auf verschiedenen Seiten neu angeordnet, sodass Sie eine umfassendere Übersicht über alle verschiedenen Versionen erhalten.
 
 Der Abschnitt über **[!UICONTROL die Verwendung von Typologien]**wurde übersichtlicher gestaltet –[mehr dazu](../../administration/using/about-typology-rules.md)
 
@@ -515,7 +545,7 @@ Neue Abschnitte zu [Zielgruppen-Mappings](../../administration/using/target-mapp
 
 ## Version 18.1 - Januar 2018   {#release-18-1---january-2018}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-9}
+### Neue Funktionen in der Version
 
 Reporting für die Ermüdungsverwaltung – [mehr dazu](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
@@ -527,7 +557,7 @@ Zeitzonenoptimierte Sendungen – [mehr dazu](../../automating/using/scheduler.m
 
 Aktivierung der API-Signal-Aktivität – [mehr dazu](../../api/using/triggering-a-signal-activity.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-9}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Der Abschnitt zur Diensterstellung wurde aktualisiert – [mehr dazu](../../audiences/using/creating-a-service.md)
 
@@ -543,13 +573,13 @@ Die Anleitungen zur Konfiguration der Integration mit Audience Manager oder Peop
 
 ## Version 17.10 - Oktober 2017   {#release-17-10---october-2017}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-10}
+### Neue Funktionen in der Version
 
 Ermüdungsverwaltung – [mehr dazu](../../administration/using/fatigue-rules.md)
 
 Inhaltserstellung: Import aus einer URL – [mehr dazu](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-10}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Das Beispiel für einen A/B-Test wurde aktualisiert – [mehr dazu](../../channels/using/designing-an-a-b-test-email.md)
 
@@ -583,7 +613,7 @@ Informationen zum Filtern mit einzelnen und mehreren Filtern in der API hinzugef
 
 ## Version 17.9 - September 2017 {#release-17-9---september-2017}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-11}
+### Neue Funktionen in der Version
 
 Bibliothek mit E-Mail-Vorlagen – [mehr dazu](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -591,7 +621,7 @@ Dynamische Berichte mit Profildaten – [mehr dazu](../../reporting/using/about-
 
 Verbesserung bei der gesammelten Anmeldung – [mehr dazu](../../automating/using/subscription-services.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-11}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Detaillierte Liste aller in dynamischen Berichten verfügbaren Komponenten sowie Formeländerungen – [mehr dazu](../../reporting/using/list-of-components-.md)
 
@@ -623,7 +653,7 @@ Zur Option &quot;Vor dem Nachrichtenversand Bestätigung einholen&quot; in der W
 
 ## Version 17.7 - Juli 2017   {#release-17-7---july-2017}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-12}
+### Neue Funktionen in der Version
 
 Mehrsprachige Sendungen (E-Mail &amp; SMS) – [mehr dazu](../../channels/using/creating-a-multilingual-email.md)
 
@@ -637,7 +667,7 @@ KPI-Freigabe von Campaign für Analytics – [mehr dazu](../../integrating/using
 
 Briefpost-Kanal: Rücksendungen an den Absender – [mehr dazu](../../channels/using/return-to-sender.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-12}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Die [Erste-Schritte-Handbücher](../../start/using/step-by-step-guides.md) und [die Anleitungsvideos](../../start/using/how-to-videos.md) befinden sich jetzt in einem eigenen Abschnitt.
 
@@ -655,13 +685,13 @@ Der Abschnitt zur Liste der Rollen wurde aktualisiert – [mehr dazu](../../admi
 
 ## Version 17.5 - Mai 2017   {#release-17-5---may-2017}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-13}
+### Neue Funktionen in der Version
 
 Briefpost – [mehr dazu](../../channels/using/about-direct-mail.md)
 
 E-Mail-BCC – [mehr dazu](../../administration/using/configuring-email-channel.md#archiving-emails)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-13}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Das Handbuch &quot;Sendungen&quot; wurde umstrukturiert und in &quot;Kanäle&quot; umbenannt – [mehr dazu](../../channels/using/discovering-communication-channels.md)
 
@@ -677,7 +707,7 @@ Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind,
 
 ## Version 17.4 - April 2017   {#release-17-4---april-2017}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-14}
+### Neue Funktionen in der Version
 
 Verbesserte Bildbearbeitungsfähigkeiten mit dem Creative SDK – [mehr dazu](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
@@ -689,7 +719,7 @@ Amazon Simple Storage Service (S3) Connector – [mehr dazu](../../administratio
 
 Integration von Dreamweaver live – [mehr dazu](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version {#other-documentation-updates-coming-with-the-release-14}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Ein Abschnitt zu den unterschiedlichen Typen von Adobe Campaign-Benutzern wurde hinzugefügt – [mehr dazu](../../administration/using/users-management.md)
 
@@ -707,7 +737,7 @@ Die Integration mit Adobe Analytics for Mobile (Point of Interest) wurde aktuali
 
 ## Version 17.2 - März 2017   {#release-17-2---march-2017}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-15}
+### Neue Funktionen in der Version
 
 Dynamische Berichterstellung – [mehr dazu](../../reporting/using/about-dynamic-reports.md)
 
@@ -725,7 +755,7 @@ Points of Interest-Daten – [mehr dazu](../../integrating/using/about-campaign-
 
 Verknüpfte Ressourcen in REST APIs – [mehr dazu](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-15}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Triggers-Integration: zwei Anwendungsbeispiele wurden hinzugefügt – [mehr dazu](../../integrating/using/abandonment-triggers-use-cases.md)
 
@@ -735,7 +765,7 @@ Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-
 
 ## Version 17.1 - Januar 2017   {#release-17-1---january-2017}
 
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-16}
+### Neue Funktionen in der Version
 
 Protokollexport für externe Berichterstattung – [mehr dazu](../../automating/using/exporting-logs.md)
 
@@ -743,7 +773,7 @@ Transaktionsnachrichten-API – [mehr dazu](../../api/using/about-campaign-stand
 
 Marketing-Funktionen für Transaktionsnachrichten – [mehr dazu](../../channels/using/profile-transactional-messages.md)
 
-### Weitere Dokumentationsaktualisierungen zu dieser Version   {#other-documentation-updates-coming-with-the-release-16}
+### Weitere Dokumentationsaktualisierungen zu dieser Version  
 
 Workflow-Aktivität Inkrementelle Abfrage: neuer inkrementeller Modus – [mehr dazu](../../automating/using/incremental-query.md)
 
@@ -755,58 +785,3 @@ URL-Änderung: People Core Service – [mehr dazu](../../integrating/using/about
 
 Das Handbuch zu Profilen und Audiences wurde umstrukturiert – [mehr dazu](../../audiences/using/about-profiles-and-audiences.md)
 
-## Version 16.11 - November 2016   {#release-16-11---november-2016}
-
-### Dokumentationsaktualisierungen zu dieser Version {#documentation-updates-coming-with-the-release}
-
-Neue Startseite für die Dokumentation und neues Aussehen
-
-Zum besseren Verständnis von Benutzerberechtigung wurde ein Anwendungsbeispiel hinzugefügt. Weitere Informationen finden Sie auch in der [Benutzerberechtigungsmatrix](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
-
-Nutzung von APIs: Ein [Anwendungsbeispiel für API-Erweiterungen](../../developing/using/about-extending-the-api.md) wurde hinzugefügt. Lesen Sie auch entsprechende Informationen in der [API-Dokumentation](../../api/using/about-campaign-standard-apis.md).
-
-Fehlermeldungen in Campaign: die vollständige Liste der Fehlermeldungen in Campaign v6 und Standard sowie Filteroptionen nach Version und Sprache – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
-
-Anwendungsbeispiel für Multibranding – [mehr dazu](../../administration/using/branding.md)
-
-Informationen zu E-Mail-Versandparametern und SMTP wurden hinzugefügt – [mehr dazu](../../administration/using/configuring-email-channel.md#email-channel-parameters)
-
-Neue Betreffzeilen-Benutzeroberfläche zum Importieren von Daten – [mehr dazu](../../designing/using/subject-line.md#predictive-subject-line)
-
-Erstellen von Push-Benachrichtigungen in einem Workflow – [mehr dazu](../../automating/using/push-notification-delivery.md)
-
-Die Kompatibilitätsmatrix wurde im Integrationshandbuch aktualisiert – [mehr dazu](../../integrating/using/about-campaign-integrations.md)
-
-Neue Rollen wurden im Abschnitt &quot;Benutzer &amp; Sicherheit&quot; hinzugefügt – [mehr dazu](../../administration/using/list-of-roles.md)
-
-Vorlagen für Push-Benachrichtigungen – [mehr dazu](../../channels/using/preparing-and-sending-a-push-notification.md)
-
-Der Abschnitt zum SMS-Versand wurde entsprechend den Veränderungen der Benutzeroberfläche aktualisiert – [mehr dazu](../../channels/using/creating-an-sms-message.md)
-
-Der Versand von Push-Benachrichtigungen wurde zur Planung hinzugefügt – [mehr dazu](../../start/using/timeline.md)
-
-## Version 16.10 - Oktober 2016   {#release-16-10---october-2016}
-
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-17}
-
-Prädiktive Betreffzeile in E-Mails – [mehr dazu](../../designing/using/subject-line.md#predictive-subject-line)
-
-SMS-Transaktionsnachrichten – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
-
-Folgenachrichten für Transaktionsnachrichten – [mehr dazu](../../channels/using/follow-up-messages.md)
-
-Erweiterte Profiles &amp; Services API – [mehr dazu](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
-
-## Version 16.9 - September 2016   {#release-16-9---september-2016}
-
-### Neue Funktionen in der Version {#new-capabilities-included-in-the-release-18}
-
-Experience Cloud Trigger – [mehr dazu](../../integrating/using/about-adobe-experience-cloud-triggers.md)
-
-Transaktionsnachrichten: Aussetzen/Depublizieren – [mehr dazu](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)
-
-Multibranding – [mehr dazu](../../administration/using/branding.md)
-
-Responsives E-Mail-Design als Vorschau – [mehr dazu](../../sending/using/previewing-messages.md)
-
-Push-Benachrichtigungen – [mehr dazu](../../channels/using/about-push-notifications.md)
