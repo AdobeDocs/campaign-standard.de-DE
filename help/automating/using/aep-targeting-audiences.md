@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -60,6 +60,8 @@ Sie können Ihren Workflow jetzt mit anderen Aktivitäten konfigurieren. Sie kö
 >[!NOTE]
 >
 >Mit Campaign Standard können Sie Adobe Experience Platform-Zielgruppen in allen Bereitstellungskanälen auswählen: E-Mails, SMS-Nachrichten, Direktnachrichten, Push-Benachrichtigungen und In-App-Nachrichten.
+>
+>*Hinweis: Für alle Push- und In-App-Nachrichten unterstützt Campaign Standard nur Auslieferungen für bekannte Profile.
 
 Weitere Informationen zur Verwendung von Workflows und Auslieferungen finden Sie in den folgenden Abschnitten:
 
