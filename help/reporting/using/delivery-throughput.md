@@ -12,8 +12,8 @@ discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+translation-type: tm+mt
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -26,3 +26,9 @@ Dieser Bericht fasst alle Informationen zusammen, die den Durchsatz eines Versan
 * Die Tabelle **[!UICONTROL 5 häufigste Zustellungen]**und die jeweiligen Zusammenfassungen enthalten die fünf Sendungen mit der höchsten Anzahl an zugestellten Nachrichten.
 
 ![](assets/delivery_reports_1.png)
+
+>[!IMPORTANT]
+>
+>Nach der Aktualisierung auf die erweiterte MTA zeigt die Seite **[!UICONTROL Bereitstellungsdurchsatz]**nicht mehr den Durchsatz an Ihre E-Mail-Empfänger an. Es zeigt die Durchsatzgeschwindigkeit für die Weiterleitung Ihrer Nachrichten von Campaign auf die erweiterte MTA.
+>
+>Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
