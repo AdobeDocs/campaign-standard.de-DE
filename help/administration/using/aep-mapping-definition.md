@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,13 +25,10 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 In diesem Abschnitt erfahren Sie, wie Sie ein Feld &quot;Campaign Standard&quot;einem Feld mit einem Erlebnisdatenmodell (XDM) zuordnen.
 
->[!NOTE]
->
->Zur Durchführung dieser Aufgabe sind folgende Voraussetzungen erforderlich:
->
-> * eine XDM-Schemadefinition über die Schnittstelle oder über die REST-API, die XDM zugeordnet ist
-> * Dataset-Erstellung basierend auf der XDM-Schemadefinition
+Zur Durchführung dieser Aufgabe sind folgende Voraussetzungen erforderlich:
 
+* eine XDM-Schemadefinition über die Schnittstelle oder über die REST-API, die XDM zugeordnet ist
+* Dataset-Erstellung basierend auf der XDM-Schemadefinition
 
 1. Gehen Sie zu **[!UICONTROL Administration]**>**[!UICONTROL  Entwicklung]** > **[!UICONTROL Plattform]**und wählen Sie den Eintrag**[!UICONTROL  Datenzuordnungen]** .
 
@@ -78,8 +75,8 @@ Wenn der XDM-Wert als Aufzählung im XDM-Schema definiert ist, können Sie die n
 
 Um eine XDM-Zuordnung zu bearbeiten, öffnen Sie sie, ändern Sie die gewünschten Informationen und speichern Sie sie.
 
+![](assets/aep_editmapping.png)
+
 >[!IMPORTANT]
 >
 >Wenn Sie zunächst einen Wert im Abschnitt **[!UICONTROL Feldzuordnungen]**bearbeiten und dann außerhalb des Felds klicken, wird die Änderung erst dann auf der Benutzeroberfläche angezeigt, wenn Sie auf die Schaltfläche**[!UICONTROL  Speichern]** klicken. Dieses Verhalten tritt nur einmal auf, wenn die Bearbeitung bei **[!UICONTROL Feldzuordnungen]**die erste Bearbeitung auf der Seite ist.
-
-![](assets/aep_editmapping.png)
