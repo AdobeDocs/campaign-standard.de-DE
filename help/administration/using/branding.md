@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ Konfiguration und Verwendung von Marken basieren auf den folgenden Grundprinzipi
 1. Erstellung einer oder mehrerer Versand- und Landingpage-Vorlagen für die Marke. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen erstellen](../../start/using/marketing-activity-templates.md).
 1. Erstellung von auf den Vorlagen basierenden Nachrichten und Landingpages. Lesen Sie diesbezüglich auch die Abschnitte [E-Mails erstellen](../../channels/using/creating-an-email.md) und [Landingpages erstellen](../../channels/using/designing-a-landing-page.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Marken können nicht vom Endnutzer erstellt oder geändert werden. Diese Aktionen müssen von einem technischen Adobe-Campaign-Administrator vorgenommen werden. Bei Fragen wenden Sie sich bitte an die Adobe-Kundenunterstützung. Multibranding kann nicht in Verbindung mit Transaktionsnachrichten verwendet werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Transaktionsnachrichten und Branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
@@ -62,7 +62,7 @@ Eine **Marke** wird durch die folgenden Eigenschaften definiert:
    * **Antwortadresse (E-Mail)** mit der E-Mail-Adresse, an die der Kunde eine Antwort senden kann.
    * **Antwortadresse (Name)** mit dem Namen der Marke.
    * **Fehler (E-Mail)** mit der E-Mail-Adresse, die im Falle eines Fehlers verwendet werden soll.
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Sollten nach der Aktualisierung der E-Mail-Header-Parameter Name und E-Mail-Adresse des Absenders in einer neuen, auf dieser Vorlage basierenden E-Mail nicht geändert sein, überprüfen Sie die erweiterten Parameter der Vorlage.
 
@@ -73,6 +73,9 @@ Eine **Marke** wird durch die folgenden Eigenschaften definiert:
    * Die **Externe URL des Anwendungsservers**, die verwendet wird, um die verschiedenen erstellten Landingpages zu hosten und darauf zuzugreifen.
    * Die **Externe URL des Tracking-Servers**, die bei den Sendungen als getrackte URL verwendet werden soll.
    * Die **Externe URL des Mirrorseiten-Servers**, die bei Ihren Sendungen als standardmäßige Mirrorseite verwendet werden soll.
+   >[!NOTE]
+   >
+   >Wenn die URLs des Anwendungsservers und des Spiegelseitenservers nicht sicher sind (d. h. wenn nicht mit https:// begonnen wird), können die Landingpage-Vorschau und das Spiegelseitenrendering nicht über die Benutzeroberfläche von Campaign angezeigt werden.
 
 * **[!UICONTROL In Konfiguration der Tracking-URLs (Web Analytics)]**wird das Tracking der URLs Ihrer Marke konfiguriert.
 
@@ -118,7 +121,7 @@ Im folgenden Beispiel geht es um die Erstellung einer neuen Marke zum Thema Reis
 
 #### Neue Marke konfigurieren {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Die Markenkonfiguration wird ausschließlich von Adobe verwaltet, da dies spezielle Berechtigungen und technische Einstellungen erfordert.
 
