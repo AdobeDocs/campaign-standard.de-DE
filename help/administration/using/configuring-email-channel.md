@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
+source-git-commit: 8ee995d10620c41b61de25132fae7ee975e4330e
 
 ---
 
@@ -78,13 +78,9 @@ Folgende Regeln sind in der Standardkonfiguration vorgesehen:
 
 ### Bounce Messages {#bounce-mails}
 
-Wenn die Zustellung einer E-Mail fehlschlägt, gibt der Remote-Server eine Fehlermeldung an die in den Plattform-Parametern angegebene Bounce-Adresse zurück. Adobe Campaign vergleicht den Inhalt jeder Bounce-E-Mail mit den in der Regelliste verzeichneten Strings und ordnet einen der drei Fehlertypen zu.
+Wenn die Zustellung einer E-Mail fehlschlägt, gibt der Remote-Server eine Fehlermeldung an die in den Plattform-Parametern angegebene Bounce-Adresse zurück.
 
-Der Benutzer kann eigene Regeln erstellen.
-
->[!IMPORTANT]
->
->Beim Import eines Packages und bei der Aktualisierung von Daten durch den **Zustellbarkeit**-Workflow werden benutzerdefinierte E-Mail-Regeln überschrieben.
+Adobe Campaign vergleicht den Inhalt jeder Bounce-E-Mail mit den in der Regelliste verzeichneten Strings und ordnet einen der drei Fehlertypen zu.
 
 >[!IMPORTANT]
 >
@@ -92,9 +88,23 @@ Der Benutzer kann eigene Regeln erstellen.
 >
 >Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
+Der Benutzer kann eigene Regeln erstellen.
+
+>[!IMPORTANT]
+>
+>Beim Import eines Packages und bei der Aktualisierung von Daten durch den **Zustellbarkeit**-Workflow werden benutzerdefinierte E-Mail-Regeln überschrieben.
+
 ### E-Mail-Domain-Verwaltung {#managing-email-domains}
 
-Domain-Verwaltungsregeln ermöglichen die Regulierung des Volumens der ausgehenden E-Mails nach Domains. Sie analysieren die Bounce Messages und blockieren falls nötig den Versand. Der Adobe-Campaign-E-Mail-Server wendet zunächst die spezifischen Domain-Regeln an und im Anschluss jene, die den Normalfall repräsentieren (durch * gekennzeichnet). 
+Domain-Verwaltungsregeln ermöglichen die Regulierung des Volumens der ausgehenden E-Mails nach Domains. Sie analysieren die Bounce Messages und blockieren falls nötig den Versand.
+
+Der Adobe-Campaign-E-Mail-Server wendet zunächst die spezifischen Domain-Regeln an und im Anschluss jene, die den Normalfall repräsentieren (durch * gekennzeichnet). 
+
+>[!IMPORTANT]
+>
+>Nach der Aktualisierung auf die erweiterte MTA erfolgt die Signatur der DKIM-E-Mail-Authentifizierung (DomainKeys Identified Mail) durch die erweiterte MTA. Das DKIM-Signieren durch die native Kampagnen-MTA wird im Rahmen des erweiterten MTA-Upgrades in der Tabelle **[!UICONTROL Domänenverwaltung]**deaktiviert.
+>
+>Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Um eigene Domain-Verwaltungsregeln zu erstellen, sind die Angabe einer Schwelle und die Auswahl gewisser SMTP-Parameter erforderlich. Die **Schwelle** entspricht einem Prozentsatz an Fehlern, der bei Überschreiten den Versand an die betroffene Domain unterbricht.
 
@@ -103,19 +113,7 @@ Die **SMTP-Parameter** agieren wie die im Falle einer Blockierungsregel angewend
 * Sie haben die Möglichkeit, gewisse Authentifizierungsnormen und Verschlüsselungsschlüssel zu aktivieren, um den Domain-Namen zu prüfen: **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
 * **SMTP-Relais**: Zur Konfiguration der IP-Adresse und des Relais-Server-Ports für eine bestimmte Domain.
 
->[!IMPORTANT]
->
->Nach der Aktualisierung auf die erweiterte MTA erfolgt die Signatur der DKIM-E-Mail-Authentifizierung (DomainKeys Identified Mail) durch die erweiterte MTA. Das DKIM-Signieren durch die native Kampagnen-MTA wird im Rahmen des erweiterten MTA-Upgrades in der Tabelle **[!UICONTROL Domänenverwaltung]**deaktiviert.
->
->Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
 ### MX-Verwaltung {#mx-management}
-
->[!IMPORTANT]
->
->Nach der Aktualisierung auf die erweiterte MTA werden die **MX-Verwaltungsregeln** für Adobe Campaign nicht mehr verwendet. Die erweiterte MTA verwendet ihre eigenen MX-Regeln, die es ermöglichen, Ihren Durchsatz nach Domäne basierend auf Ihrem eigenen historischen E-Mail-Ruf und dem Echtzeit-Feedback, das von den Domänen stammt, von denen Sie E-Mails senden, anzupassen.
->
->Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Jede Regel definiert eine Adressenmaske des MX. Jeder MX, dessen Name dieser Adressenmaske entspricht, kommt somit infrage. Die Maske kann die Joker &quot;*&quot; und &quot;?&quot; enthalten.
 
@@ -131,6 +129,12 @@ mit folgenden Masken kompatibel:
 * ?.mx.yahoo.com
 
 Die erste Regel, deren MX-Maske mit dem gewünschten MX kompatibel ist, wird angewendet.
+
+>[!IMPORTANT]
+>
+>Nach der Aktualisierung auf die erweiterte MTA werden die **MX-Verwaltungsregeln** für Adobe Campaign nicht mehr verwendet. Die erweiterte MTA verwendet ihre eigenen MX-Regeln, die es ermöglichen, Ihren Durchsatz nach Domäne basierend auf Ihrem eigenen historischen E-Mail-Ruf und dem Echtzeit-Feedback, das von den Domänen stammt, von denen Sie E-Mails senden, anzupassen.
+>
+>Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Folgende Parameter stehen für jede einzelne Regel zur Verfügung:
 
@@ -238,7 +242,7 @@ The **[!UICONTROL Validity period]**section contains the following parameters:
 
    >[!IMPORTANT]
    >
-   >Nach der Aktualisierung auf die erweiterte MTA wird der Parameter **[!UICONTROL Bereitstellungsdauer] ** in Ihren Kampagnenauslieferungen nur verwendet, wenn er auf 3,5 Tage oder weniger festgelegt ist. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt. Alle Auswirkungen sind im Dokument [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) ausführlich beschrieben.
+   >Nach der Aktualisierung auf die erweiterte MTA wird der Parameter **[!UICONTROL Lieferdauer]**in Ihren Kampagnenauslieferungen nur verwendet, wenn er auf 3,5 Tage oder weniger festgelegt ist. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt. Alle Auswirkungen sind im Dokument[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)ausführlich beschrieben.
 
 * **[!UICONTROL Ressourcen-Gültigkeit]**: An dieser Stelle wird die Gültigkeit der Online-Ressourcen (vor allem Mirrorseite und Bilder) festgelegt. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 * **[!UICONTROL Verwaltung der Mirrorseite]**: Bei der Mirrorseite handelt es sich um eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Sie hat den gleichen Inhalt wie die E-Mail. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde. Die Erzeugung der Seite lässt sich in diesem Feld konfigurieren:
