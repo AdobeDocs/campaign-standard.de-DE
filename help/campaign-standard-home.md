@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
+source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 * **[Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
 
-* **[Best Practices im Versand](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Erfahren Sie mehr über Best Practices bei der Erstellung und dem Versand von Nachrichten.
+* **[Best Practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>für die Bereitstellung Erfahren Sie mehr über Best Practices im Zusammenhang mit Lieferdesign und Senden.
 
 * **[E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Lesen Sie die neu organisierte Dokumentation zum E-Mail-Designer.
 
