@@ -12,8 +12,8 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+translation-type: tm+mt
+source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
 
 ---
 
@@ -36,7 +36,7 @@ Aus Ressourcenerweiterungen stammende Felder werden mit einem Präfix versehen. 
 
 >[!NOTE]
 >
->Eine Darstellung des Datenmodells für vordefinierte Ressourcen finden Sie [hier](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html).
+>Eine Darstellung des Datenmodells für vordefinierte Ressourcen finden Sie [hier](../../developing/using/datamodel-introduction.md).
 
 Des Weiteren kann in den der neuen Ressource entsprechenden Bildschirmen die **Navigation konfiguriert werden**.
 
