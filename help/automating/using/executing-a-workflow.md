@@ -12,8 +12,8 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
 
@@ -254,5 +254,9 @@ Im Feld **[!UICONTROL Max. Ausführungsdauer]**kann eine maximale Dauer für die
 Das Feld **[!UICONTROL Affinität]**bietet die Möglichkeit, die Ausführung eines Workflows oder einer Workflow-Aktivität an eine bestimmte Engine zu binden. Hierzu müssen eine oder mehrere Affinitäten auf Workflow- oder Aktivitätsniveau definiert werden.
 
 Im Feld **[!UICONTROL Zeitzone]**können Sie der Aktivität eine bestimmte Zeitzone zuweisen. Adobe Campaign ist in der Lage, verschiedene Zeitzonen innerhalb einer Instanz zu verwalten. Die entsprechenden Einstellungen werden bei der Instanzerstellung vorgenommen.
+
+>[!NOTE]
+>
+>Wenn keine Zeitzone ausgewählt ist, verwendet die Aktivität standardmäßig die in den Workflow-Eigenschaften definierte Zeitzone.
 
 Im Feld **Kommentar** kann eine Bemerkung eingegeben werden. Es handelt sich um ein freies Textfeld.
