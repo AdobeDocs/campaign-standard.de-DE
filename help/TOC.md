@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + Versionshinweise {#release-notes}
    + [Neueste Version](rn/using/release-notes.md)
    + Frühere Versionen {#previous-releases}
+      + [Versionshinweise 2019](rn/using/release-notes-2019.md)
       + [Versionshinweise 2018](rn/using/release-notes-2018.md)
       + [Versionshinweise 2017](rn/using/release-notes-2017.md)
 + Erste Schritte{#getting-started}
@@ -61,6 +62,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identifizieren von Opt-out-Profilen bei einem Versand](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+   + Arbeiten mit Adobe Experience Platform {#working-with-adobe-experience-platform}
+      + [Informationen zum Dienst Zielgruppenziele](audiences/using/aep-about-audience-destinations-service.md)
+      + [Verwalten von Adobe Experience Platform-Zielgruppen](audiences/using/aep-managing-audiences.md)
+      + [Verwenden des einheitlichen Segmentaufbaus](audiences/using/aep-using-segment-builder.md)
 + Kommunikationskanäle{#communication-channels}
    + Über Kommunikationskanäle {#about-communication-channels}
       + [Kommunikationskanäle](channels/using/discovering-communication-channels.md)
@@ -178,6 +183,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Abmeldungen](reporting/using/unsubscriptions.md)
       + [URLs und Clickstreams](reporting/using/urls-and-click-streams.md)
       + [Klicks](reporting/using/hot-clicks.md)
+      + [Übersicht](reporting/using/service-summary.md)
    + Berichte anpassen {#customizing-reports}
       + [Bedienfelder hinzufügen](reporting/using/adding-panels.md)
       + [Visualisierungen hinzufügen](reporting/using/adding-visualizations.md)
@@ -285,6 +291,9 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
       + [Kontrollgruppe erstellen](automating/using/workflow-control-group.md)
       + [Kanalübergreifende Bereitstellung erstellen](automating/using/workflow-cross-channel-delivery.md)
+   + Arbeiten mit Adobe Experience Platform-Zielgruppen {working-with-aep-audiences}
+      + [Targeting von Adobe Experience Platform-Zielgruppen](automating/using/aep-targeting-audiences.md)
+      + [Personalisieren von Kampagnen mithilfe von Adobe Experience Platform-Attributen](automating/using/aep-personalizing-campaigns.md)
 + Entwickeln{#developing}
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Datenmodelle](developing/using/data-model-concepts.md)
@@ -308,6 +317,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datamodel {#datamodel}
+      + [Einleitung](developing/using/datamodel-introduction.md)
       + [Audience](developing/using/datamodel-audience.md)
       + [Kampagne](developing/using/datamodel-campaign.md)
       + [Versand](developing/using/datamodel-delivery.md)
@@ -351,6 +361,12 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Interne Benachrichtigungen senden](administration/using/sending-internal-notifications.md)
       + [Datenbeibehaltung](administration/using/data-retention.md)
       + [Aktualisierungen und Wartungsmaßnahmen](administration/using/updates-and-maintenance-operations.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [Info zu Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+      + [Übersicht über das Datamodel der Erlebnisplattform](administration/using/aep-data-model-overview.md)
+      + [Zuordnungsdefinition](administration/using/aep-mapping-definition.md)
+      + [Aktivierung zuordnen](administration/using/aep-mapping-activation.md)
+      + [Auslösen der Datenerfassung über APIs](administration/using/aep-triggering-data-ingestion.md)
 + Arbeiten mit APIs {#working-with-apis}
    + Über APIs in Campaign Standard {#about-campaign-standard-apis}
       + [Übersicht](api/using/about-campaign-standard-apis.md)
