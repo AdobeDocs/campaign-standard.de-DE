@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -77,6 +77,12 @@ Die Felder sind in Registerkarten unterteilt:
 * **[!UICONTROL Ereignisse]**: Aktivitäten, die Verbraucher identifizieren, die mit den Touchpoints Ihrer Kunden in Kontakt gekommen sind, z. B. &quot;Jeder, der zweimal in zwei Wochen bestellt hat&quot;. Dies kann aus Adobe Analytics gestreamt oder mithilfe von ETL-Tools von Drittanbietern direkt in die Adobe Experience Platform integriert werden.
 
    ![](assets/aep_audiences_eventstab.png)
+
+>[!NOTE]
+>
+>**Mit der Segmentierung** mehrerer Entitäten können Sie Profildaten um zusätzliche Daten erweitern, die auf Produkten, Stores oder anderen nicht Profilklassen basieren. Nach der Verbindung stehen Daten aus zusätzlichen Klassen zur Verfügung, als wären sie nativ im Profilschema.
+>
+>Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
 Standardmäßig zeigt der Unified Segment Builder Felder an, für die Daten vorhanden sind. Um das vollständige Schema anzuzeigen, einschließlich der Felder, für die keine Daten vorhanden sind, aktivieren Sie die Option Vollständiges XDM-Schema ****anzeigen in den Einstellungen.
 
