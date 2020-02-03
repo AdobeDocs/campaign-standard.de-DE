@@ -1,6 +1,6 @@
 ---
-title: Verwalten von Transaktionsmeldungen
-description: Erfahren Sie, wie Sie Transaktionsmeldungen mit APIs verwalten.
+title: Verwalten von Transaktionsnachrichten
+description: Erfahren Sie, wie Sie Transaktionsnachrichten mit APIs verwalten.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
+source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
 
 ---
 
 
-# Managing transactional messages {#managing-transactional-messages}
+# Verwalten von Transaktionsnachrichten {#managing-transactional-messages}
 
 ## Über den Versand von Transaktionsnachrichten
 
@@ -25,38 +25,38 @@ Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Erei
 
 >[!NOTE]
 >
->Erstellen und Veröffentlichen von Ereignissen finden Sie in <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">der Kampagnendokumentation</a>.
+>Informationen zum Erstellen und Publizieren von Ereignissen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
-Sie möchten z. B., dass ein &quot;Warenkorbabbruch&quot;ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Einkaufswagen kauft. Dazu muss Ihr Webentwickler die REST Transactional Messages API verwenden.
+Sie möchten zum Beispiel, dass ein &quot;Warenkorbabbruch&quot; ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Warenkorb gekauft hat. Dazu muss Ihr Web-Entwickler die REST Transactional Messages-API verwenden.
 
-1. Der Entwickler sendet eine Anforderung gemäß der POST-Methode, die das [Senden des Transaktionsereignisses](#sending-a-transactional-event)auslöst.
-1. Die Antwort auf die POST-Anforderung enthält einen primären Schlüssel, mit dem der Entwickler eine oder mehrere Anforderungen über eine GET-Anforderung senden kann. So kann er den [Ereignisstatus](#transactional-event-status)abrufen.
+1. Der Entwickler sendet anhand der POST-Methode eine Anfrage, die das [Senden des Transaktionsereignisses](#sending-a-transactional-event) auslöst.
+1. Die Antwort auf die POST-Anfrage enthält einen Primärschlüssel, mit dem der Entwickler eine oder mehrere Anfragen über eine GET-Anfrage senden kann. So kann er den [Ereignisstatus](#transactional-event-status) abrufen.
 
 ## Senden eines Transaktionsereignisses {#sending-a-transactional-event}
 
-Das Transaktionsereignis wird über eine POST-Anforderung mit der folgenden URL-Struktur gesendet:
+Das Transaktionsereignis wird über eine POST-Anfrage mit der folgenden URL-Struktur gesendet:
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANISATION>**: Ihre persönliche Organisations-ID. Siehe [diesen Abschnitt](../../api/using/must-read.md).
+* **&lt;ORGANISATION>**: Ihre persönliche Organisationskennung. Siehe [diesen Abschnitt](../../api/using/must-read.md).
 
-* **&lt;transactionalAPI>**: die EndPoints der Transactional Messages API.
+* **&lt;transactionalAPI>**: die Endpunkte der Transaktionsnachrichten-API.
 
-   Der Name des API-Endpunkts für Transaktionsmeldungen hängt von Ihrer Instanzkonfiguration ab. Es entspricht dem Wert &quot;mc&quot;, gefolgt von Ihrer persönlichen Organisations-ID. Nehmen wir das Beispiel des Unternehmens Geometrixx mit der Organisations-ID &quot;geometrixx&quot;. In diesem Fall lautet der POST-Antrag wie folgt:
+   Der Name des API-Endpunkts für Transaktionsnachrichten hängt von der Konfiguration Ihrer Instanz ab. Er entspricht dem Wert &quot;mc&quot;, gefolgt von Ihrer persönlichen Organisationskennung. Nehmen wir als Beispiel das Unternehmen Geometrixx mit der Organisationskennung &quot;geometrixx&quot;. In diesem Fall sieht die POST-Anfrage wie folgt aus:
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   (Beachten Sie, dass der API-Endpunkt für Transaktionsmeldungen auch während der API-Vorschau sichtbar ist)
+   (Beachten Sie, dass der API-Endpunkt für Transaktionsnachrichten auch während der API-Vorschau sichtbar ist.)
 
-* **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereignisdefinition generiert. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereignisdefinition generiert. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
-### POST-Anforderungsheader
+### POST-Anfrage-Kopfzeile
 
-Die Anforderung muss einen &quot;Content-Type: application/json&quot;.
+Die Anfrage muss eine &quot;Inhaltstyp: application/json&quot;-Kopfzeile beinhalten.
 
-Sie müssen ein Zeichensatz hinzufügen, z. B. **utf-8**. Beachten Sie, dass dieser Wert von der verwendeten REST-Anwendung abhängt.
+Sie müssen einen Zeichensatz hinzufügen, z. B. **utf-8**. Beachten Sie, dass dieser Wert von der verwendeten REST-Anwendung abhängt.
 
 ```
 -X POST \
@@ -67,28 +67,28 @@ Sie müssen ein Zeichensatz hinzufügen, z. B. **utf-8**. Beachten Sie, dass die
 -H 'Content-Length:79' \
 ```
 
-### POST-Anforderungstext
+### POST-Anfrage-Hauptteil
 
-Die Ereignisdaten sind im JSON POST-Textkörper enthalten. Die Ereignisstruktur hängt von ihrer Definition ab. Die Schaltfläche &quot;API-Vorschau&quot;im Bildschirm &quot;Ressourcendefinition&quot;enthält ein Anforderungsbeispiel. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+Die Ereignisdaten sind im JSON-POST-Hauptteil enthalten. Die Ereignisstruktur hängt von der entsprechenden Definition ab. Die Schaltfläche &quot;API-Vorschau&quot; im Bildschirm &quot;Ressourcendefinition&quot; bietet ein Anfragebeispiel. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
-Die folgenden optionalen Parameter können zum Ereignisinhalt hinzugefügt werden, um das Senden von mit dem Ereignis verknüpften Transaktionsmeldungen zu verwalten:
+Die folgenden optionalen Parameter können zum Ereignisinhalt hinzugefügt werden, um das Senden von mit dem Ereignis verknüpften Transaktionsnachrichten zu verwalten:
 
-* **Ablauf** (optional): nach diesem Datum wird das Senden des Transaktionsereignisses abgebrochen.
-* **geplant** (optional): ab diesem Datum wird das Transaktionsereignis verarbeitet und die Transaktionsnachricht gesendet.
+* **Ablauf** (optional): Nach diesem Datum wird das Senden des Transaktionsereignisses abgebrochen.
+* **Geplant** (optional): Ab diesem Datum wird das Transaktionsereignis verarbeitet und die Transaktionsnachricht gesendet.
 
 >[!NOTE]
 >
->Die Werte der Parameter &quot;expiration&quot;und &quot;geplante&quot;entsprechen dem ISO 8601-Format. ISO 8601 gibt die Verwendung des Großbuchstabens &quot;T&quot;zur Trennung von Datum und Uhrzeit an. Es kann jedoch aus der Eingabe oder Ausgabe entfernt werden, um die Lesbarkeit zu verbessern.
+>Die Werte der Parameter &quot;Ablauf&quot; und &quot;Geplant&quot; entsprechen dem ISO 8601-Format. ISO 8601 gibt die Verwendung des Großbuchstabens &quot;T&quot; zur Trennung von Datum und Uhrzeit an. Dies kann jedoch aus der Ein- oder Ausgabe entfernt werden, um die Lesbarkeit zu verbessern.
 
-### Antwort auf die POST-Anforderung
+### Antwort auf die POST-Anfrage
 
-Die POST-Antwort gibt den Transaktionsstatus zum Zeitpunkt der Erstellung zurück. Verwenden Sie zum Abrufen des aktuellen Status (Ereignisdaten, Ereignisstatus...) den von der POST-Antwort zurückgegebenen primären Schlüssel in einer GET-Anforderung:
+Die POST-Antwort gibt den Status des Transaktionsereignisses zum Zeitpunkt der Erstellung zurück. Verwenden Sie zum Abrufen des aktuellen Status (Ereignisdaten, Ereignisstatus...) den in einer GET-Anfrage von der POST-Antwort zurückgegebenen Primärschlüssel:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
 <br/>
 
-***Musteranforderung ***
+***Beispielanfrage ***
 
 POST-Anfrage zum Senden des Ereignisses.
 
@@ -113,7 +113,7 @@ POST-Anfrage zum Senden des Ereignisses.
 }
 ```
 
-Antwort auf die POST-Anforderung.
+Antwort auf die POST-Anfrage.
 
 ```
 {
@@ -136,14 +136,14 @@ Antwort auf die POST-Anforderung.
 
 ### Status des Transaktionsereignisses {#transactional-event-status}
 
-In der Antwort können Sie im Feld &quot;Status&quot;wissen, ob das Ereignis verarbeitet wurde oder nicht:
+In der Antwort können Sie im Feld &quot;Status&quot; ermitteln, ob das Ereignis verarbeitet wurde oder nicht:
 
-* **ausstehend**: das Ereignis aussteht - das Ereignis nimmt diesen Status ein, wenn es gerade ausgelöst wurde.
-* **Verarbeitung**: das Ereignis aussteht - es wird in eine Nachricht umgewandelt und die Nachricht wird gesendet.
-* **angehalten**: der Ereignisvorgang angehalten wird. Es wird nicht mehr verarbeitet, sondern in einer Warteschlange in der Adobe Campaign-Datenbank aufbewahrt. For more on this, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
-* **verarbeitet**: das Ereignis verarbeitet und die Nachricht erfolgreich gesendet wurde.
-* **ignoriert**: das Ereignis wurde von der Bereitstellung ignoriert, normalerweise, wenn eine Adresse in Quarantäne steht.
-* **deliveryFehlgeschlagen**: während der Verarbeitung des Ereignisses ein Bereitstellungsfehler aufgetreten ist.
-* **Routingfehler**: Die Routingphase ist fehlgeschlagen. Dies kann beispielsweise eintreten, wenn der angegebene Ereignistyp nicht gefunden werden kann.
-* **tooOld**: das Ereignis abgelaufen ist, bevor es verarbeitet werden konnte - dies kann aus verschiedenen Gründen passieren, z. B. wenn ein Senden mehrmals fehlschlägt (was dazu führt, dass das Ereignis nicht mehr aktuell ist) oder wenn der Server Ereignisse nach dem Überladen nicht mehr verarbeiten kann.
-* **targetingFehlgeschlagen**: Campaign Standard konnte einen Link, der für das Nachrichten-Targeting verwendet wird, nicht vergrößern.
+* **Ausstehend**: Das Ereignis steht aus – das Ereignis erhält diesen Status, wenn es gerade ausgelöst wurde.
+* **Verarbeitung**: Das Ereignis muss noch versandt werden – es wird in eine Nachricht umgewandelt und die Nachricht wird gesendet.
+* **Angehalten**: Der Ereignisvorgang wurde angehalten. Das Ereignis wird nicht mehr verarbeitet, sondern in einer Warteschlange in der Adobe Campaign-Datenbank aufbewahrt. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **Verarbeitet**: Das Ereignis wurde verarbeitet und die Nachricht wurde erfolgreich gesendet.
+* **Ignoriert**: Das Ereignis wurde vom Versand ignoriert, normalerweise dann, wenn eine Adresse unter Quarantäne steht.
+* **Versand fehlgeschlagen**: Bei der Verarbeitung des Ereignisses ist ein Versandfehler aufgetreten.
+* **Routing fehlgeschlagen**: Die Routing-Phase ist fehlgeschlagen. Dies kann beispielsweise geschehen, wenn der angegebene Ereignistyp nicht gefunden werden kann.
+* **Zu alt**: Das Ereignis ist abgelaufen, bevor es verarbeitet werden konnte. Das kann verschiedene Gründe haben, z. B. wenn ein Senden mehrmals fehlschlägt (was dazu führt, dass das Ereignis nicht mehr aktuell ist) oder der Server Ereignisse nach einer Überlastung nicht mehr verarbeiten kann.
+* **Targeting fehlgeschlagen**: Campaign Standard konnte einen Link, der für das Nachrichten-Targeting verwendet wird, nicht anreichern.
