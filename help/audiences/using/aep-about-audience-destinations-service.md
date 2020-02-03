@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -24,15 +24,15 @@ source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
 >
 >Der Zielgruppen-Zieldienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azurblau gehostet werden (derzeit nur in der Beta-Version für Nordamerika), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an den Adobe-Kundendienst, wenn Sie Zugriff haben möchten.
 
-Der **Zielgruppen-Zielgruppen-Dienst** ermöglicht Ihnen das Erstellen hochgradig zielgerichteter Zielgruppen basierend auf großen, komplexen Datensätzen und das Freigeben dieser Segmente in Echtzeit mit anderen Adobe Experience Cloud-Lösungen.
+Nutzen Sie die [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP), um zielgerichtete Zielgruppen auf Basis großer, komplexer Datensätze zu erstellen. Die Adobe Experience Platform fasst Profil-, Verhaltens- und Mehrentitäts-Daten aus Online- und Offlinequellen zusammen, einschließlich Adobe Analytics, um Ihnen bei der Erstellung einer 360-Grad-Ansicht Ihres Kunden zu helfen und so eine effektive Verwaltung Ihrer Kundenerlebnisse zu ermöglichen.
 
-Die [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) konsolidiert Profil-, Verhaltens- und Multi-Entitätsdaten, damit Sie eine 360-Grad-Ansicht Ihres Kunden erstellen und so Ihre Kundenerfahrungen effektiv verwalten können.
+Adobe Campaign Standard verwendet dann den Dienst **Zielgruppenziele** , um eine Sammlung von Profilen, **Zielgruppen** genannt, von AEP für mehrstufige und/oder kanalübergreifende Kampagnenprogramme abzurufen.
 
-Mit Campaign Standard können Sie mit Adobe Experience Platform arbeiten, um Profilsammlungen, auch **Zielgruppen** genannt, zu identifizieren. Sie werden durch das Erstellen von **Segmenten** erstellt, bei denen es sich um Regeln wie Profilattribute und Ereignisdaten aus Adobe Experience Platform handelt. Globale Konzepte für Unified Profile &amp; Segmentation Services können in [diesen dedizierten Dokumenten](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)referenziert werden.
+**Zielgruppen** werden durch erstmaliges Erstellen von **Segmenten** erstellt, bei denen es sich im Wesentlichen um einen Regelsatz handelt, der auf praktisch jeder beliebigen Variablen (z. B. Profil-, Ereignis-, Multi-Entitäts-Daten) innerhalb eines Kundenprofils von AEP basiert, um ein multidimensionales Ziel zu erstellen. Globale Konzepte für Unified Profile &amp; Segmentation Services können in [diesen dedizierten Dokumenten](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)referenziert werden.
 
-Nachdem eine Zielgruppe erstellt wurde, können Sie sie für eine Bereitstellung in [Campaign Standard-Arbeitsabläufen](../../automating/using/aep-targeting-audiences.md)aktivieren. Darüber hinaus können Sie Kontextdaten aus der Adobe Experience Platform verwenden, um Ihre Kampagnen zu [personalisieren](../../automating/using/aep-personalizing-campaigns.md) und gegebenenfalls dynamische Inhalte hinzuzufügen.
+Nachdem ein Segment erstellt wurde, können Sie es als Zielgruppe für eine Bereitstellung in den [Campaign Standard-Arbeitsabläufen](../../automating/using/aep-targeting-audiences.md)aktivieren. Darüber hinaus können Sie Kontextdaten aus der Adobe Experience Platform verwenden, um Ihre Kampagnen zu [personalisieren](../../automating/using/aep-personalizing-campaigns.md) und gegebenenfalls dynamische Inhalte hinzuzufügen.
 
-Demovideos sind auch auf [dieser Seite verfügbar](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/leveraging-aep-audiences-overview.html)
+Demovideos sind auch in [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)verfügbar.
 
 In diesen Abschnitten verwendete Begriffe:
 
