@@ -12,8 +12,8 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -26,10 +26,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * Zielgruppen-Mappings konfigurieren, um die technischen Einstellungen zum Senden von Nachrichten vorzunehmen
 * Interne Benachrichtigungen innerhalb der Anwendung einrichten usw.
 
-Diese Einstellungen sind im Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** verfügbar.
+These settings are available from the **[!UICONTROL Administration]**/**[!UICONTROL  Application settings]** menu.
 
-Darüber hinaus stehen Ihnen im Menü **[!UICONTROL Optionen]** technische Auswahlmöglichkeiten zur Verfügung, mit denen Sie die Anwendung genauer konfigurieren können. Einige von ihnen sind native Optionen und werden automatisch gemeinsam mit Campaign installiert, andere können bei Bedarf manuell hinzugefügt werden (die verfügbaren Optionen variieren je nach den mit Ihrer Instanz installierten Packages).
+Darüber hinaus stehen Ihnen im Menü **[!UICONTROL Optionen]**technische Auswahlmöglichkeiten zur Verfügung, mit denen Sie die Anwendung genauer konfigurieren können. Einige von ihnen sind native Optionen und werden automatisch gemeinsam mit Campaign installiert, andere können bei Bedarf manuell hinzugefügt werden (die verfügbaren Optionen variieren je nach den mit Ihrer Instanz installierten Packages).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Diese Optionen sind bei der Installation von Campaign bereits konfiguriert und sollten nur von fortgeschrittenen Benutzern geändert werden. Wenden Sie sich bei Fragen oder Wünschen an Ihren Adobe-Kontakt.
