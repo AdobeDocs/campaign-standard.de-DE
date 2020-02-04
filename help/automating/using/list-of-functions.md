@@ -11,7 +11,7 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
@@ -35,7 +35,7 @@ Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Fu
 * String-Funktionen
 * Sortierungs-Funktionen
 
-## Datum-Funktionen {#dates}
+## Datum-Funktionen  {#dates}
 
 Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 
@@ -43,7 +43,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -279,7 +279,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
  </tbody> 
 </table>
 
-## Geomarketing {#geomarketing}
+## Geomarketing  {#geomarketing}
 
 Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
 
@@ -287,7 +287,7 @@ Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -298,7 +298,7 @@ Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
  </tbody> 
 </table>
 
-## Numerisch {#numerical}
+## Numerisch  {#numerical}
 
 Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
@@ -306,7 +306,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -321,7 +321,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Returns the greatest integer lower than or equal to a number<br /> </td> 
+   <td> Gibt die größte ganze Zahl aus, die kleiner oder gleich der angegebenen Zahl ist<br /> </td> 
    <td> Floor(&lt;Zahl&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -382,7 +382,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
  </tbody> 
 </table>
 
-## Sonstige {#others}
+## Sonstige  {#others}
 
 In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 
@@ -390,7 +390,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -476,7 +476,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  </tbody> 
 </table>
 
-## String {#string}
+## String  {#string}
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
@@ -484,7 +484,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -670,7 +670,7 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -711,7 +711,7 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
  </tbody> 
 </table>
 
-## Darstellung {#representation}
+## Darstellung  {#representation}
 
 Die Darstellungsfunktionen dienen der Ordnung von Werten.
 
@@ -719,7 +719,7 @@ Die Darstellungsfunktionen dienen der Ordnung von Werten.
  <tbody> 
   <tr> 
    <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
