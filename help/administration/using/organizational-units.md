@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 Alle Objekte und Benutzer der Plattform sind einer Organisationseinheit zugeordnet. Diese Einheit bestimmt auf hierarchische Weise die Ansicht von Benutzern. Die geografische Einheit und die Organisationseinheit, denen ein Benutzer zugeordnet wurde, bestimmen das Zugriffsniveau, über das er für die verschiedenen Plattformobjekte verfügt.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]**zugeordnet werden.
 >
@@ -103,7 +103,7 @@ Die Felder für die Organisationseinheiten sind in Ihren Profilen standardmäßi
 
 Auf Profile ohne Organisationseinheiten kann nach Erweiterung der Ressource nicht mehr zugegriffen werden.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Es empfiehlt sich, diese Option vor dem Importieren von Profilen hinzuzufügen. Falls Sie Ihre Kundendatenbank bereits importiert haben, ist eine Aktualisierung erforderlich, um die Werte für Organisationseinheiten für bereits importierte Profile festzulegen.
 
