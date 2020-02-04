@@ -11,7 +11,7 @@ topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
@@ -48,7 +48,7 @@ Für folgende Marketingaktivitäten stehen Vorlagen zur Verfügung:
 
 Nachrichtenvorlagen können vom funktionalen Administrator der Plattform im Menü **[!UICONTROL Ressourcen > Vorlagen]**verwaltet werden. Vordefinierte Vorlagen können nicht geändert oder gelöscht werden. Zur Erstellung einer neuen Vorlage ist eine existierende Vorlage zu duplizieren.
 
-1. Wählen Sie eine vorhandene Vorlage aus Im vorliegenden Beispiel soll eine **[!UICONTROL Versandvorlage konfiguriert werden]**.
+1. Wählen Sie eine vorhandene Vorlage aus Im vorliegenden Beispiel soll eine **[!UICONTROL Versandvorlage]**konfiguriert werden.
 
    ![](assets/template_2.png)
 
@@ -64,7 +64,7 @@ Diese Vorlagen können bei der Erstellung einer Marketingaktivität von Benutzer
 
 ## Vorlagen verwenden {#using-a-template}
 
-Wir werden nun prüfen, wie eine Vorlage verwendet werden kann, die im vorherigen Abschnitt erstellt wurde.
+Im Folgenden wird die Verwendung einer zuvor erstellten Vorlage dargestellt.
 
 >[!NOTE]
 >
