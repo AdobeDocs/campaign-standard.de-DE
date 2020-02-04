@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ Entdecken Sie die wichtigsten Funktionen, indem Sie sich unsere [Campaign Standa
 * [Configuring a list](https://video.tv.adobe.com/v/25288?captions=ger): zur Konfiguration einer Liste in Adobe Campaign.
 * [Creating a report](https://video.tv.adobe.com/v/25264?captions=ger): zur Erstellung Ihres eigenen dynamischen Berichts.
 
-Neben diesen Videos finden Sie auf unserer Webseite auch [Schulungskurse](https://training.adobe.com/training/courses.html) und [Präsentationsvideos](http://www.adobe.com/training/video.html).
+Neben diesen Videos finden Sie auf unserer Webseite auch [Schulungskurse](https://training.adobe.com/training/courses.html) und [Präsentationsvideos](https://www.adobe.com/training/video.html).
