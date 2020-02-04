@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -25,7 +25,7 @@ Zum Versand von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Mobi
 
 Nachdem Ihre Mobile Apps in Adobe Campaign mithilfe des Experience Cloud Mobile SDK V4 oder des Experience Platform SDK eingerichtet wurden, folgt die Konfiguration der Mobile Apps durch einen Administrator im Menü [!UICONTROL Administration] > [!UICONTROL Kanäle] > [!UICONTROL Mobile App].
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Die Implementierung von Push-Benachrichtigungen und In-App-Nachrichten muss von erfahrenen Benutzern vorgenommen werden. Wenn Sie Hilfe brauchen, kontaktieren Sie bitte Ihren Adobe-Kundenbetreuer oder Professional Services-Partner.
 
