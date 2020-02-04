@@ -12,8 +12,8 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+translation-type: tm+mt
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -54,7 +54,7 @@ Weitere Informationen hierzu finden Sie unter [Funktionsweise der Quarantänever
 Sie können auf den folgenden Webseiten überprüfen, ob Ihre IP-Adresse auf einer Blacklist steht:
 * https://mxtoolbox.com/
 * https://whatismyipaddress.com/blacklist-check
-* http://www.blacklistalert.org/
+* https://www.blacklistalert.org/
 
 Nach der IP-Adressen-Prüfung erhalten Sie eine Liste mit Details zur Blacklist und auch den Namen der Webseite, von der die IP-Adresse auf die Blacklist gesetzt wurde.
 
