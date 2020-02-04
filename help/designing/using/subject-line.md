@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 259f7033310982298024462c0134989404c096f4
 
 ---
@@ -31,7 +31,7 @@ Um den E-Mail-Betreff zu konfigurieren, öffnen Sie auf der Startseite von Email
 
 1. Erstellen Sie eine E-Mail.
 1. Schließen Sie die Startseite.
-1. Klicken Sie auf der Startseite von Email Designer, die über das Home-Symbol aufgerufen wird, auf die Registerkarte **[!UICONTROL Eigenschaften]**und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
+1. Wählen Sie auf der Startseite von Email Designer, die sich über das Startseitensymbol aufrufen lässt, den Tab **[!UICONTROL Eigenschaften]**aus und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
 
 ![](assets/email_designer_subject.png)
 
@@ -51,19 +51,19 @@ Diese Funktion ist standardmäßig deaktiviert. Sie wird beim Import des ersten 
 
 * [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
 
-## Definieren des E-Mail-Absenders einer E-Mail {#email-sender}
+## E-Mail-Absender einer E-Mail definieren {#email-sender}
 
-Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu definieren, gehen Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]**(der Zugriff erfolgt über das Startseiten-Symbol).
+Um den Absendernamen zu definieren, der im Header der gesendeten Nachrichten angezeigt wird, navigieren Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]**(der Zugriff erfolgt über das Startseiten-Symbol).
 
 ![](assets/delivery_content_edition16.png)
 
-* Der Absendername kann im Feld **[!UICONTROL Von (Name)]**angepasst werden. Wenn nicht anders angegeben, erscheint hier automatisch der** Name des Standard-Absenders **. Die Standard-E-Mail-Adresse und der Name des Absenders werden in**[!UICONTROL  Marken]** definiert, auf die über das Adobe Campaign-Logo unter dem erweiterten Menü **[!UICONTROL Administration > Instanzeinstellungen > Markenkonfiguration]**zugegriffen werden kann.
+* Der Absendername kann im Feld **[!UICONTROL Von: Name]**angepasst werden. Wenn nicht anders angegeben, erscheint hier automatisch der** Name des Standard-Absenders **. Die Standard-E-Mail-Adresse und der Name des Absenders werden in**[!UICONTROL  Marken]** definiert. Der Zugriff auf diese erfolgt über das Adobe Campaign-Logo unter dem erweiterten Menü **[!UICONTROL Administration > Instanzenkonfiguration > Markenkonfiguration]**zugegriffen werden kann.
 
    Sie können den Absendernamen ändern, indem Sie **Name des Absenders** auswählen. Geben Sie nun den gewünschten Absendernamen ein.
 
    Sie haben die Möglichkeit, den Absendernamen je nach Zielgruppe zu personalisieren. Sie können Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die Symbole unter dem Absendernamen auswählen.
 
-* Das Feld **[!UICONTROL Von (E-Mail)]**kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. Lesen Sie diesbezüglich auch den Abschnitt[Liste der erweiterten E-Mail-Parameter](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* Das Feld **[!UICONTROL Von: E-Mail-Adresse]**kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. Lesen Sie diesbezüglich auch den Abschnitt[Liste der erweiterten E-Mail-Parameter](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
