@@ -1,6 +1,6 @@
 ---
 title: Benutzerdefinierte Ressourcen
-description: Weitere Informationen zur Verwaltung benutzerdefinierter Ressourcen mit APIs/
+description: Erfahren Sie mehr über die Verwaltung benutzerdefinierter Ressourcen mit APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,26 +11,26 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
-# Interaktion mit benutzerdefinierten Ressourcen {#interacting-with-custom-resources}
+# Interagieren mit benutzerdefinierten Ressourcen {#interacting-with-custom-resources}
 
-Mit dem Endpunkt **/customResources** können Sie die benutzerdefinierten ACS-Ressourcen in REST verfügbar machen. Auf der Grundlage dieser API ist eine Integration zwischen benutzerdefinierten Entitäten und externen Endpunkten verfügbar.
+Über den Endpunkt **/customResources** können Sie die benutzerdefinierten ACS-Ressourcen in REST verfügbar machen. Auf Grundlage dieser API ist eine Integration zwischen benutzerdefinierten Entitäten und externen Endpunkten möglich.
 
-Der Endpunkt &quot;/customResources&quot;hat genau das gleiche Verhalten wie der Endpunkt &quot;/profileAndServices&quot;.
+Der Endpunkt /customResources verhält sich genauso wie der Endpunkt /profileAndServices.
 
-Die benutzerdefinierten Ressourcen, die in dieser API bereitgestellt werden, sind:
+Die benutzerdefinierten Ressourcen, die mit dieser API verfügbar werden, beinhalten:
 
 * alle mit der Profilentität verknüpften Entitäten
-* alle Entitäten, die mit den untergeordneten Elementen des Profilunternehmens verknüpft sind
-* alle Entitäten, die nicht mit dem Profil verknüpft sind, und für diese Entitäten ihre Kinder und Enkel.
+* alle Entitäten, die mit den untergeordneten Elementen der Profilentität verknüpft sind
+* alle Entitäten, die nicht mit dem Profil verknüpft sind, und für diese Entitäten auch die untergeordneten und weiter untergeordneten Elemente
 
 >[!NOTE]
->Die benutzerdefinierten Ressourcen, die unter &quot;/profileAndServicesExt&quot;verfügbar sind, werden nicht in der /customResources-API bereitgestellt.
+>Die benutzerdefinierten Ressourcen, die unter /profileAndServicesExt verfügbar sind, werden nicht in der API /customResources bereitgestellt.
 
 Hier ein Beispiel zum Abrufen der Metadaten aus einer benutzerdefinierten Ressource:
 
@@ -38,13 +38,13 @@ Hier ein Beispiel zum Abrufen der Metadaten aus einer benutzerdefinierten Ressou
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Zum Erstellen, Aktualisieren oder Löschen werden GET, POST, PATCH, DELETE verwendet.
+Zum Erstellen, Aktualisieren oder Löschen werden GET, POST, PATCH und DELETE verwendet.
 
 ```
 POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->Der Datenschutz-API-Endpunkt und die Arbeitsabläufe (/privacy/privacyTool) verwalten keine benutzerdefinierten Ressourcen, die nicht mit der Profilentität verknüpft sind.
->Sie sind dafür verantwortlich, alle PII für diese benutzerdefinierten Ressourcen zu verwalten und zu bereinigen. Weitere Informationen zum Datenschutzwerkzeug [finden Sie hier](../../api/using/creating-a-privacy-request.md).
+>Der Datenschutz-API-Endpunkt und die Workflows (/privacy/privacyTool) verwalten keine benutzerdefinierten Ressourcen, die nicht mit der Profilentität verknüpft sind.
+>Bei diesen benutzerdefinierten Ressourcen sind Sie für die Verwaltung und Bereinigung aller personenbezogenen Daten verantwortlich. Weiterführende Informationen zum Datenschutz-Tool [finden Sie hier](../../api/using/creating-a-privacy-request.md).
 
