@@ -11,8 +11,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -184,7 +184,7 @@ In diesem Beispiel wird gezeigt, wie ein Workflow für den wiederholten Import v
 
       >[!NOTE]
       >
-      >Wenn Sie diesen Profilen Briefpost senden möchten, fügen Sie eine Anschrift ein, da diese Informationen für den Briefpost-Dienstleister wesentlich sind. Beachten Sie außerdem, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]**aktiviert ist. Um diese Option in einem Workflow zu aktualisieren, fügen Sie einfach den zu aktualisierenden Feldern ein Element hinzu, geben Sie als** Source ****[!UICONTROL  1]** an und wählen Sie als **Destination** das Feld **[!UICONTROL postalAddress/@addrDefined]**aus. Weiterführende Informationen zu Briefpost und zur Verwendung der Option**[!UICONTROL  Anschrift angegeben]** finden Sie in [diesem Dokument](../../channels/using/about-direct-mail.md#recommendations).
+      >Wenn Sie diesen Profilen Briefpost senden möchten, fügen Sie eine Anschrift ein, da diese Informationen für den Briefpost-Dienstleister wesentlich sind. Beachten Sie außerdem, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]**aktiviert ist. Um diese Option in einem Workflow zu aktualisieren, fügen Sie einfach den zu aktualisierenden Feldern ein Element hinzu, geben Sie als** Source ****[!UICONTROL  1]** an und wählen Sie als **`postalAddress/@addrDefined`**Destination das Feld**** aus. Weiterführende Informationen zu Briefpost und zur Verwendung der Option **[!UICONTROL Anschrift angegeben]**finden Sie in[diesem Dokument](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Konfigurieren Sie die Aktivität **[!UICONTROL Deduplizierung]**, die auf die Transition nicht abgestimmter Profile folgt:
 
