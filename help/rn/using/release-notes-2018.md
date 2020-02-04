@@ -11,7 +11,7 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
@@ -43,7 +43,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Integration von Adobe Launch für Mobile Apps (Beta)<br /> </td> 
-   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * In den Broadlogs wird jetzt zwischen der maximalen Anzahl der Verbindungen und der maximalen Anzahl der Nachrichten pro Stunde unterschieden. Wenn das Limit erreicht wurde, wird jetzt der Grund für den beschränkten Durchsatz angegeben. Zuvor wurde in beiden Fällen dieselbe Mitteilung angezeigt (‘quota met’).
 * Bei der Konfiguration einer Mobile App in Campaign ist es jetzt für den Benutzer ersichtlich, ob das iOS-Zertifikat und der Android-Server-Schlüssel erfolgreich hochgeladen wurden und wie ihr Ablaufdatum lautet.
 
-   Weiterführende Informationen finden Sie im entsprechenden Handbuch zur Konfiguration einer Mobile App mit [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) und [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Weiterführende Informationen finden Sie im entsprechenden Handbuch zur Konfiguration einer Mobile App mit [SDK V4](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) und [SDK V5](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
 
 * Benutzer einer bestimmten Mobile App können nun direkt als Zielgruppe ausgewählt werden, indem Sie die entsprechende Mobile App bei der Definition der Campaign-Eigenschaften auswählen. Diese Funktion ist für sowohl den Push- als auch den In-App-Messaging-Kanal verfügbar.
 
@@ -90,7 +90,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Jetzt wird der Fehler angezeigt, wenn der Workflow **Datenbankbereinigung** fehlschlägt. (CAMP-26876)
 * Fehlerkorrektur – Jetzt können benutzerdefinierte Felder bei der Definition einer Push-Benachrichtigung gelöscht werden. (CAMP-25588)
 
-## Version 18.7 - Juli 2018 {#release-18-7---july-2018}
+## Version 18.7 - Juli 2018   {#release-18-7---july-2018}
 
 **Neue Funktionen?**
 
@@ -120,14 +120,14 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Benutzerverwaltung<br /> </td> 
-   <td> Ab Version 18.7 steht die Funktion der geografischen Einheiten nicht mehr für neue Campaign Standard-Instanzen sowie bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden, zur Verfügung.<br /> Weiterführende Informationen finden Sie auf dieser <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.<br /> </td> 
+   <td> Ab Version 18.7 steht die Funktion der geografischen Einheiten nicht mehr für neue Campaign Standard-Instanzen sowie bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden, zur Verfügung.<br /> Weiterführende Informationen finden Sie auf dieser <a href="https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Neuheiten**
 
-* Die Integration von Adobe Campaign mit Adobe Target ermöglicht jetzt die Verwendung der [Berechtigungsfunktion](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) von Target. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
+* Die Integration von Adobe Campaign mit Adobe Target ermöglicht jetzt die Verwendung der [Berechtigungsfunktion](https://marketing.adobe.com/resources/help/de_DE/target/target/properties-overview.html) von Target. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
 * Benutzerdefinierte Ressourcen, die über eine owncopy-Relation mit der Profilressource verbunden sind, werden jetzt von DSGVO-Zugriffs- bzw. Löschanfragen berücksichtigt. Für einfache Relationen mit Kardinalität 1 und Kollektionsrelationen mit Kardinalität N muss in der benutzerdefinierten Ressource die Option &quot;Beim Löschen/Duplizieren des Ziel-Datensatzes werden auch die von der Relation referenzierten Datensätze gelöscht/dupliziert&quot; ausgewählt werden. Für einfache Relationen mit Kardinalität 0 oder 1 muss die Option &quot;Beim Löschen/Duplizieren des Datensatzes wird auch der von der Relation referenzierte Ziel-Datensatz gelöscht/dupliziert&quot; ausgewählt werden.
 
 **Sonstige Änderungen**
@@ -153,7 +153,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt werden in Creative Designer keine unerwünschten farbigen Schriften und Formatierungen mehr verursacht, wenn Text mit integrierten Stilelementen in einen Link umgewandelt oder dieser Link bearbeitet wird. (CAMP-26001)
 * Fehlerkorrektur – jetzt werden im Klick-Bericht die Prozentsätze für alle Bedingungen in Sendungen angezeigt, die dynamischen Content enthalten. Zuvor wurden nur die Klicks auf die Standardvariante angezeigt.
 
-## Version 18.6 - Juni 2018 {#release-18-6---june-2018}
+## Version 18.6 - Juni 2018   {#release-18-6---june-2018}
 
 **Neuheiten**
 
@@ -191,7 +191,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt werden internationale Daten auch in auf Kontoebene erstellten dynamischen Berichten korrekt angezeigt.
 * Jetzt kann ein Dienst ohne Anmelde- oder Abmeldebestätigungsnachricht erstellt werden.
 
-## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018   {#release-18-5---may-2018}
 
 **Neue Funktionen?**
 
@@ -205,7 +205,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> DSGVO: Core Service-Integration<br /> </td> 
-   <td> Durch die Integration von Privacy Core Service können Sie DSGVO-Abfragen in einer Umgebung mit mehreren Lösungen über nur einen einzigen JSON API-Aufruf automatisieren. <br /> DSGVO-Abfragen, die von Privacy Core Service an alle Experience Cloud-Lösungen gesendet werden, werden jetzt von Campaign automatisch verarbeitet. <br /> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch die Integration von Privacy Core Service können Sie DSGVO-Abfragen in einer Umgebung mit mehreren Lösungen über nur einen einzigen JSON API-Aufruf automatisieren. <br /> DSGVO-Abfragen, die von Privacy Core Service an alle Experience Cloud-Lösungen gesendet werden, werden jetzt von Campaign automatisch verarbeitet. <br /> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verbesserung bei Push-Benachrichtigungen – detailliertes Versand-Feedback<br /> </td> 
@@ -263,7 +263,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Creative Designer kann jetzt geladen werden. (CAMP-24573)
 * Fehlerkorrektur – jetzt werden im E-Mail-Betreff keine Zeichen mehr nach den Personalisierungsfeldern entfernt. (CAMP-24113)
 
-## Version 18.4 - April 2018 {#release-18-4---april-2018}
+## Version 18.4 - April 2018   {#release-18-4---april-2018}
 
 **Korrekturen**
 
@@ -289,7 +289,7 @@ _Benutzerdefinierte Ressourcen_
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr bei der Vorbereitung der benutzerdefinierten Ressource auf.
 
-## Version 18.3 - März 2018 {#release-18-3---march-2018}
+## Version 18.3 - März 2018   {#release-18-3---march-2018}
 
 **Neue Funktionen**
 
@@ -307,7 +307,7 @@ _Benutzerdefinierte Ressourcen_
     <ul> 
      <li> Recht auf Zugriff: Das Datensubjekt hat das Recht, eine Kopie seiner personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, zu erhalten. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
      <li> Recht auf Löschung: Das Datensubjekt hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
-    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer für E-Mail (Beta)<br /> </td> 
@@ -379,7 +379,7 @@ _Transaktionsnachrichten_
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr mit der Transaktionsnachrichtenvorlage auf, wenn die Versandressource erweitert wird.
 * Jetzt können Transaktionsnachrichten gelöscht werden.
 
-## Version 18.2 - Februar 2018 {#release-18-2---february-2018}
+## Version 18.2 - Februar 2018   {#release-18-2---february-2018}
 
 **Neue Funktionen**
 
@@ -443,7 +443,7 @@ Wir raten von der Nutzung von Internet Explorer Version 11 ab, da Anzeigeproblem
 
 Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign-Benutzeroberfläche verwendet werden. Diese werden in Version 18.3 korrigiert.
 
-## Version 18.1 - Januar 2018 {#release-18-1---january-2018}
+## Version 18.1 - Januar 2018   {#release-18-1---january-2018}
 
 **Neue Funktionen**
 
@@ -471,7 +471,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
      <li> Bilder oder andere Mediendateien herunterladen und als Anhänge zu einer Benachrichtigung hinzufügen </li> 
      <li> Den Text oder Titel einer Benachrichtigung ändern </li> 
      <li> Eine Thread-Id zur einer Benachrichtigung hinzufügen </li> 
-    </ul> Weiterführende Informationen zu den Funktionen "Inhalt verfügbar" und "Veränderlicher Inhalt" finden Sie im <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">entsprechenden Handbuch</a>.<br /> <strong>Achtung:</strong> Damit Kunden diese Aktualisierungen der Push-Benachrichtigungen nutzen können, müssen sie ihre Mobile Apps aktualisieren. Weiterführende Informationen finden Sie in <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">dieser Technote</a>.<br /> </td> 
+    </ul> Weiterführende Informationen zu den Funktionen "Inhalt verfügbar" und "Veränderlicher Inhalt" finden Sie im <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">entsprechenden Handbuch</a>.<br /> <strong>Achtung:</strong> Damit Kunden diese Aktualisierungen der Push-Benachrichtigungen nutzen können, müssen sie ihre Mobile Apps aktualisieren. Weiterführende Informationen finden Sie in <a href="https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">dieser Technote</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Zeitzonenoptimierte Sendungen<br /> </td> 
