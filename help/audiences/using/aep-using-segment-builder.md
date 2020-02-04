@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt we
 
 1. Vergewissern Sie sich, dass die gewünschte Richtlinie für die Zusammenführung im Einstellungsbereich ausgewählt ist.
 
-   Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des Benutzerhandbuchs zum [Segmentaufbau](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt im [Segment Builder-Benutzerhandbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt we
 
 Im linken Bereich werden alle Attribute, Ereignisse und Zielgruppen aufgelistet, die zum Erstellen von Regeln zur Verfügung stehen.
 
-Die aufgelisteten Felder sind Attribute, die von Ihrem Unternehmen erfasst werden und die über das XDM-System ( [Experience Data Model) verfügbar gemacht werden können](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+Die aufgeführten Felder sind Attribute, die von Ihrem Unternehmen erfasst werden und über das [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html)zur Verfügung gestellt wurden.
 
 Die Felder sind in Registerkarten unterteilt:
 
@@ -138,7 +138,7 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. Konfigurieren Sie den Operator zwischen den beiden Feldern nach Bedarf. In diesem Beispiel verlangt unser Segment, dass die Postleitzahl der Hausadresse nicht mit der der Arbeitsadresse übereinstimmt.
+1. Konfigurieren Sie den Operator zwischen den beiden Feldern nach Bedarf. In diesem Beispiel möchten wir, dass unser Segment Profile mit einer anderen Hausadresse als der Arbeitsadresse als Ziel ausweist.
 
    ![](assets/aep_audiences_comparing_3.png)
 
