@@ -1,6 +1,6 @@
 ---
-title: '"Anwendungsfall des Arbeitsablaufs: Kanalübergreifende Bereitstellung"'
-description: '"Anwendungsfall des Arbeitsablaufs: Kanalübergreifende Bereitstellung"'
+title: '„Workflow-Anwendungsbeispiel: Kanalübergreifender Versand"'
+description: '"Workflow-Anwendungsbeispiel: Kanalübergreifender Versand"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,13 +12,13 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
 
-# Workflow use-case: Creating a cross-channel delivery{#cross-channel-delivery}
+# Workflow-Anwendungsbeispiel: Kanalübergreifenden Versand erstellen{#cross-channel-delivery}
 
 Anhand dieses typischen Anwendungsbeispiels wird insbesondere die folgende Adobe-Campaign-Funktion vorgestellt: Erstellung eines Workflows zum kanalübergreifenden Versand.
 
@@ -31,7 +31,7 @@ Weiterführende Informationen zu Workflows und den in Adobe Campaign verfügbare
 * [Workflows](../../automating/using/discovering-workflows.md)
 * [Kommunikationskanäle](../../channels/using/discovering-communication-channels.md)
 
-## Workflow erstellen  {#creating-workflow}
+## Workflow erstellen   {#creating-workflow}
 
 Bestimmen Sie im ersten Schritt die Zielgruppe, die Sie mit Ihrer Kommunikation erreichen möchten. Nachfolgend wird diese dann je nach Kommunikationsmedium in zwei Gruppen unterteilt.
 
@@ -49,11 +49,11 @@ Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Wo
 
 Nach der Erstellung des Workflows werden Sie zu dessen Arbeitsbereich weitergeleitet.
 
-Fügen Sie eine Abfrageaktivität in Ihren Workflow ein, um die Profile, die Ihre Auslieferungen erhalten, als Ziel festzulegen.
+Ziehen Sie eine Abfrage in Ihren Workflow, um die mittels Ihrer Sendungen zu kontaktierenden Profile zu bestimmen.
 
-1. In **[!UICONTROL Activities]**>**[!UICONTROL  Targeting]**, drag and drop a **[!UICONTROL Query activity]**.
+1. Ziehen Sie unter **[!UICONTROL Aktivitäten]**>**[!UICONTROL  Zielgruppenbestimmung]** eine **[!UICONTROL Abfrageaktivität]**in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
-1. Durchsuchen Sie auf der Registerkarte &quot; **[!UICONTROL Target]**&quot;die Verknüpfungen und wählen Sie eine Ihrer[Zielgruppen](../../audiences/using/about-audiences.md)aus.
+1. Durchsuchen Sie im Tab **[!UICONTROL Zielgruppe]**die Schnellzugriffe und wählen Sie eine Ihrer[Audiences](../../audiences/using/about-audiences.md)aus.
 1. Ziehen Sie den Schnellzugriff in den Arbeitsbereich. Je nach Typ des ausgewählten Schnellzugriffs öffnet sich ein bestimmtes Fenster.
 1. Konfigurieren Sie die Zielgruppenbestimmungselemente und validieren Sie Ihre Abfrage.
 
@@ -61,7 +61,7 @@ Fügen Sie eine Abfrageaktivität in Ihren Workflow ein, um die Profile, die Ihr
 
 Sie können eine auf ein oder mehrere Element(e) bezogene Abfrage erstellen.
 
-Verwenden Sie die Schaltfläche **[!UICONTROL Zählung]**, um die Anzahl an Profilen angezeigt zu bekommen, auf die die Abfrage zutrifft.
+Verwenden Sie die Schaltfläche **[!UICONTROL Zählung]**, um die geschätzte Anzahl an Profilen anzuzeigen, auf die die Abfrage zutrifft.
 
 Die detaillierten Schritte zum Erstellen einer Abfrageaktivität werden im Abschnitt [Abfrage](../../automating/using/query.md) beschrieben.
 
@@ -75,42 +75,42 @@ Verwenden Sie hierzu die Aktivität Segmentierung, um die zuvor ermittelte Popul
 
 Die erste Gruppe namens **E-Mail** enthält jene Empfänger, die ihre E-Mail-Adresse, aber keine Mobiltelefonnummer angegeben haben. Die zweite Gruppe namens **SMS** enthält jene Empfänger, deren Profil eine Mobiltelefonnummer aufweist.
 
-So konfigurieren Sie den ersten Übergang (E-Mail):
+Gehen sie wie folgt vor, um die erste Transition (E-Mail) zu konfigurieren:
 
-1. Auf der Registerkarte &quot; **[!UICONTROL Segmente]**&quot;ist standardmäßig ein erstes Segment vorhanden. Bearbeiten Sie die Eigenschaften, um dieses Segment zu konfigurieren.
+1. Im Tab **[!UICONTROL Segmente]**steht standardmäßig ein erstes Segment zur Verfügung. Bearbeiten Sie die Eigenschaften des Segments, um es zu konfigurieren.
 
    ![](assets/wkf_segment_properties.png)
 
-1. Wählen Sie als Filterkriterium die **[!UICONTROL E-Mail]**des Profils aus.
+1. Wählen Sie als Filterbedingung die **[!UICONTROL E-Mail]**des Profils aus.
 
    ![](assets/wkf_segment_email.png)
 
-1. Wählen Sie im neuen Fenster, das auf dem Bildschirm angezeigt wird, den Operator **[!UICONTROL Ist nicht leer]**.
+1. Wählen Sie im sich öffnenden Fenster den Operator **[!UICONTROL Ist nicht leer]**aus.
 
    ![](assets/wkf_segment_email_not_empty.png)
 
-1. Add a second filtering criterion, **[!UICONTROL Mobile]**, and select the operator**[!UICONTROL  Is empty]**.
+1. Fügen Sie **[!UICONTROL Mobil]**als zweite Filterbedingung hinzu und wählen Sie den Operator**[!UICONTROL  Ist leer]** aus.
 
    ![](assets/wkf_segment_mobile_empty.png)
 
-   Alle Profile, die aus der Abfrage stammen, die eine E-Mail, aber keine Mobiltelefonnummer definiert haben, befinden sich in diesem Übergang.
+   Alle aus der Abfrage hervorgehenden Profile, die eine E-Mail-Adresse aber keine Mobiltelefonnummer aufweisen, sind in dieser Transition enthalten.
 
 1. Bei Bedarf können Sie den Titel der Transition zwecks einer besseren Übersichtlichkeit des Workflows anpassen. Bestätigen Sie Ihre Änderungen.
 
    ![](assets/wkf_segment_transition_label.png)
 
-Die Konfiguration Ihrer ersten Transition ist abgeschlossen. Konfigurieren des zweiten Übergangs (SMS):
+Die Konfiguration Ihrer ersten Transition ist abgeschlossen. Gehen Sie wie folgt vor, um die zweite Transition (SMS) zu konfigurieren:
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Element hinzufügen]**, um eine neue Transition hinzuzufügen.
-1. Definieren Sie eine Bedingung, mit der Sie alle Profile abrufen können, deren Handynummern angegeben wurden. Erstellen Sie dazu eine Regel im Feld **[!UICONTROL Mobil]**mit dem logischen Operator**[!UICONTROL  Ist nicht leer]** .
+1. Definieren Sie eine Bedingung, mit der Sie alle Profile abrufen können, deren Mobiltelefonnummern angegeben wurden. Erstellen Sie hierzu für das Feld **[!UICONTROL Mobil]**eine Regel mit dem logischen Operator**[!UICONTROL  Ist nicht leer]**.
 
    ![](assets/wkf_segment_mobile_not_empty.png)
 
-   Alle Profile, die von der Abfrage stammen und eine Mobiltelefonnummer definiert haben, befinden sich in diesem Übergang.
+   Alle aus der Abfrage hervorgehenden Profile, die eine Mobiltelefonnummer aufweisen, werden in diese Transition aufgenommen.
 
-1. Sie können die Beschriftung des Übergangs bearbeiten. Bestätigen Sie Ihre Änderungen.
+1. Bei Bedarf können Sie den Titel der Transition anpassen. Bestätigen Sie Ihre Änderungen.
 
-Der zweite Übergang ist jetzt ebenfalls konfiguriert.
+Die zweite Transition ist jetzt ebenfalls konfiguriert.
 
 ![](assets/wkf_segment_transitions.png)
 
@@ -118,41 +118,41 @@ Die detaillierten Schritte zum Erstellen einer Segmentierungsaktivität werden i
 
 ## Sendungen erstellen {#creating-deliveries}
 
-As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an **[!UICONTROL Email delivery]**and an**[!UICONTROL  SMS delivery]**.
+Analog zu den zwei zuvor erstellten Transitionen müssen Sie nun zwei Versandtypen an die aus der Aktivität „Segmentierung“ ausgehenden Transitionen anschließen: einen **[!UICONTROL E-Mail-Versand]**und einen**[!UICONTROL  SMS-Versand]**.
 
 Adobe Campaign bietet die Möglichkeit, innerhalb von Workflows Sendungen zu konfigurieren. Wählen Sie hierzu in der Kategorie **[!UICONTROL Kanäle]**der Aktivitätenpalette Ihres Workflows einen Versand aus.
 
 ![](assets/wkf_segment_deliveries1.png)
 
-So erstellen Sie eine E-Mail-Auslieferung:
+Gehen Sie wie folgt vor, um einen E-Mail-Versand zu erstellen:
 
-1. Drag and drop an **[!UICONTROL Email delivery]**after the first segment.
+1. Ziehen Sie einen **[!UICONTROL E-Mail-Versand]**hinter das erste Segment.
 1. Doppelklicken Sie auf die Aktivität, um sie zu bearbeiten.
-1. Wählen Sie **[!UICONTROL Einfache E-Mail]**.
-1. Select **[!UICONTROL Add an outbound transition with the population]**and click**[!UICONTROL  Next]**.
+1. Wählen Sie **[!UICONTROL Einfache E-Mail]**aus.
+1. Wählen Sie **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**und danach**[!UICONTROL  Weiter]** aus.
 
    ![](assets/wkf_segment_deliveries2.png)
 
-   Mit dem ausgehenden Übergang können Sie die Population und die Verfolgungsprotokolle wiederherstellen. Sie können dies beispielsweise verwenden, um eine zweite Mail an die Personen zu senden, die nicht in der ersten Mail geklickt haben.
+   Die ausgehende Transition ermöglicht es, die Population und die Trackinglogs abzurufen. Dies kann beispielsweise dazu dienen, jenen Personen erneut eine Sendung zukommen zu lassen, die nicht in der ersten E-Mail geklickt haben.
 
 1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]**aus.
 1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]**aus.
-1. To create the layout of your email, select **[!UICONTROL Use the Email Designer]**.
+1. Um das Layout Ihrer E-Mail zu bearbeiten, wählen Sie **[!UICONTROL E-Mail-Designer verwenden]**aus.
 1. Bearbeiten und speichern Sie Ihre Inhalte.
 1. Deaktivieren Sie im Nachrichten-Dashboard im Bereich **[!UICONTROL Planung]**die Option**[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]**.
 
 Die detaillierten Schritte zum Erstellen einer E-Mail-Aktivität finden Sie im Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
 
-So erstellen Sie eine SMS-Auslieferung:
+Gehen Sie wie folgt vor, um einen SMS-Versand zu erstellen:
 
-1. Drag and drop an **[!UICONTROL SMS delivery]**after the other segment.
+1. Ziehen Sie einen **[!UICONTROL SMS-Versand]**hinter das andere Segment.
 1. Doppelklicken Sie auf die Aktivität, um sie zu bearbeiten.
-1. Select **[!UICONTROL SMS]**and click**[!UICONTROL  Next]**.
-1. Select an SMS template and click **[!UICONTROL Next]**.
-1. Enter the SMS properties and click **[!UICONTROL Next]**.
+1. Wählen Sie **[!UICONTROL SMS]**und danach**[!UICONTROL  Weiter]** aus.
+1. Wählen Sie eine SMS-Vorlage und danach **[!UICONTROL Weiter]**aus.
+1. Geben Sie die SMS-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]**aus.
 1. Bearbeiten und speichern Sie Ihre Inhalte.
 
-The detailed steps to build an SMS activity are presented in the [SMS delivery](../../automating/using/sms-delivery.md) section.
+Die detaillierten Schritte zum Erstellen einer SMS-Aktivität finden Sie im Abschnitt [SMS-Versand](../../automating/using/sms-delivery.md).
 
 Nach der Konfiguration Ihrer Sendungen kann der Workflow gestartet werden.
 
@@ -160,8 +160,8 @@ Nach der Konfiguration Ihrer Sendungen kann der Workflow gestartet werden.
 
 ## Workflow ausführen {#running-the-workflow}
 
-Sobald der Workflow gestartet wurde, wird die Zielgruppe der Abfrageaktivität segmentiert, um eine E-Mail- oder SMS-Zustellung zu erhalten.
+Durch Starten des Workflows wird die mithilfe der Abfrage-Aktivität ermittelte Population segmentiert, damit die Populationssegmente anschließend einen E-Mail- bzw. SMS-Versand erhalten.
 
-To execute your workflow, click the **[!UICONTROL Start]**button from the action bar.
+Verwenden Sie zur Ausführung des Workflows die Schaltfläche **[!UICONTROL Start]**in der Symbolleiste.
 
-You can access your deliveries from the **[!UICONTROL Marketing plans]**>**[!UICONTROL  Marketing activities]** advanced menu via the Adobe Campaign logo. Click the delivery then the **[!UICONTROL Reports]**button to access the[delivery reports](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), such as the delivery summary, the open rate or the email rendering according to the recipients&#39; message inbox.
+Sie können über das Adobe Campaign-Logo auf das erweiterte Menü **[!UICONTROL Marketingpläne]**>**[!UICONTROL  Marketingaktivitäten]** und damit auf Ihre Sendungen zugreifen. Klicken Sie auf eine Sendung und verwenden Sie anschließend die Schaltfläche **[!UICONTROL Berichte]**, um die ihr zugehörigen[Versandberichte](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)abzurufen, darunter etwa die Versandzusammenfassung, die Öffnungsrate oder das E-Mail-Rendering entsprechend dem vom Empfänger verwendeten E-Mail-Client.
