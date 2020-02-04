@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,7 +47,7 @@ Im Handbuch Arbeiten mit APIs wurden Informationen zum neuen Parameter **_forceP
 
 Es steht ein neuer Abschnitt mit den Warnungen zur Verfügung, die in einem Nachrichten-Dashboard angezeigt werden können. [mehr dazu](../../channels/using/message-dashboard.md#warnings)
 
-Die Adobe Campaign Enhanced MTA-Dokumentation ist jetzt verfügbar. [Mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+Die Adobe Campaign Enhanced MTA-Dokumentation, in der die aktualisierte Sendeinfrastruktur beschrieben wird, die eine verbesserte Lieferbarkeit, Durchsatz und Absprungbearbeitung ermöglicht, ist jetzt verfügbar. [Mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 Es wurden Hinweise hinzugefügt, die darauf hinweisen, dass die URLs des Anwendungsservers und des Spiegelseitenservers sicher sein müssen, damit die Einstiegsseite und die Spiegelseitenvorschau über die Benutzeroberfläche von Campaign angezeigt werden. [mehr dazu](../../administration/using/branding.md#configuring-and-using-brands)
 
