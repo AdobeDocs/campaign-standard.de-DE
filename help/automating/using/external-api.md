@@ -9,8 +9,8 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/wf_externalAPI.png)
 
-Mit der Aktivität **[!UICONTROL Externe API]** können Daten aus einem **externen System** über einen **REST-API**-Aufruf in den Workflow integriert werden.
+Mit der Aktivität **[!UICONTROL Externe API]**können Daten aus einem** externen System **über einen** REST-API **-Aufruf in den Workflow integriert werden.
 
 Die REST-Endpunkte können ein Customer Management System, die Plattform [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) oder ein Experience Cloud REST-Endpunkt (Data Platform, Target, Analytics, Campaign usw.) sein.
 
@@ -29,9 +29,9 @@ Die REST-Endpunkte können ein Customer Management System, die Plattform [Adobe 
 >
 >Aus Sicherheitsgründen wird die Verwendung von JSSPs in Campaign Standard nicht unterstützt. Wenn Sie Code ausführen müssen, können Sie eine Adobe I/O Runtime-Instanz über eine externe API-Aktivität aufrufen.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Diese Funktion ist derzeit in einer öffentlichen Beta-Version verfügbar. Vor der Verwendung der Externe API-Aktivität müssen Sie die Nutzungsvereinbarung akzeptieren. Beachten Sie, dass diese öffentliche Beta-Funktion von Adobe noch nicht veröffentlicht wurde und daher vom Adobe-Kundendienst nicht unterstützt wird. Die Funktion kann Fehler enthalten und funktioniert möglicherweise nicht so gut wie veröffentlichte Funktionen.
+>Diese Funktion befindet sich derzeit in der Betaphase. Vor der Verwendung der Externe API-Aktivität müssen Sie die Nutzungsvereinbarung akzeptieren. Bitte beachten Sie, dass diese Beta-Funktion noch nicht von Adobe kommerziell veröffentlicht wurde und nicht von Adobe Client Care unterstützt wird. Sie kann Fehler enthalten und nicht wie andere veröffentlichte Funktionen funktionieren.
 
 Die Hauptmerkmale dieser Aktivität sind:
 
@@ -45,7 +45,7 @@ Für diese Aktivität wurden folgende Limits festgelegt:
 * Zeitüberschreitung bei Anfrage beträgt 60 Sekunden
 * HTTP-Weiterleitungen sind nicht zulässig.
 * Andere URLs als HTTPS werden abgelehnt.
-* Erlaubt sind Abfrage-Header vom Typ "Accept: application/json" und Antwort-Header vom Typ "Content-Type: application/json".
+* Erlaubt sind Abfrage-Header vom Typ &quot;Accept: application/json&quot; und Antwort-Header vom Typ &quot;Content-Type: application/json&quot;.
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ Für diese Aktivität wurden folgende Limits festgelegt:
 
 ## Konfiguration {#configuration}
 
-Ziehen Sie die Aktivität **[!UICONTROL Externe API]** in Ihren Workflow und öffnen Sie sie, um sie zu konfigurieren.
+Ziehen Sie die Aktivität **[!UICONTROL Externe API]**in Ihren Workflow und öffnen Sie sie, um sie zu konfigurieren.
 
 ### Eingehendes Mapping
 
@@ -80,13 +80,13 @@ Das Muster der JSON-Struktur sieht folgendermaßen aus: `{“data”:[{“key”
 
 Die JSON-Definition des Musters muss die **folgenden Merkmale** aufweisen:
 
-* **data** ist im JSON-Format ein obligatorischer Eigenschaftsname; "data" beinhaltet ein JSON-Array.
+* **data** ist im JSON-Format ein obligatorischer Eigenschaftsname; &quot;data&quot; beinhaltet ein JSON-Array.
 * **Array elements** müssen Eigenschaften der ersten Ebene enthalten (tiefere Ebenen werden nicht unterstützt).
    **Property names** werden zu Spaltennamen für das Ausgabeschema der temporären Ausgabetabelle.
-* Die Definition von **Column name** basiert auf dem ersten Element des "data"-Array.
+* Die Definition von **Column name** basiert auf dem ersten Element des &quot;data&quot;-Array.
 Die Spaltendefinitionen (Hinzufügen/Entfernen) und der Wert des Eigenschaftentyps können im Tab **Spaltendefinition** bearbeitet werden.
 
-Wenn das **Parsen validiert wird**, erscheint eine Meldung, die Sie auffordert, das Daten-Mapping im Tab "Spaltendefinition" anzupassen. Andernfalls wird eine Fehlermeldung angezeigt.
+Wenn das **Parsen validiert wird**, erscheint eine Meldung, die Sie auffordert, das Daten-Mapping im Tab &quot;Spaltendefinition&quot; anzupassen. Andernfalls wird eine Fehlermeldung angezeigt.
 
 ### Ausführung
 
@@ -103,7 +103,7 @@ In diesem Tab können Sie **allgemeine Eigenschaften** der externen API-Aktivit�
 
 >[!NOTE]
 >
->Dieser Tab wird angezeigt, wenn das **Antwortdatenformat** ausgefüllt und im Tab "Ausgehendes Mapping" validiert wird.
+>Dieser Tab wird angezeigt, wenn das **Antwortdatenformat** ausgefüllt und im Tab &quot;Ausgehendes Mapping&quot; validiert wird.
 
 Im Tab **Spaltendefinition** lässt sich die Datenstruktur für jede Spalte separat definieren, um fehlerfreie Daten zu importieren und die Kompatibilität mit den bereits in der Datenbank existierenden Daten zu gewährleisten.
 
