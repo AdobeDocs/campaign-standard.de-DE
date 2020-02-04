@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]**angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
 
-## Element auswählen {#selecting-an-element}
+## Element auswählen   {#selecting-an-element}
 
 Um ein Element in der Benutzeroberfläche von Email Designer auszuwählen, können Sie entweder:
 
@@ -46,7 +46,7 @@ Um eine Spalte auszuwählen, können Sie auch folgendermaßen vorgehen:
 
 In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
 
-## Einstellungen des Stils anpassen {#adjusting-style-settings}
+## Einstellungen des Stils anpassen   {#adjusting-style-settings}
 
 1. Wählen Sie in Ihrer E-Mail ein Element aus. Weiterführende Informationen dazu finden Sie unter [Element auswählen](#selecting-an-element).
 1. Passen Sie die Einstellungen nach Bedarf an. Für jedes ausgewählte Element sind unterschiedliche Einstellungen verfügbar.
@@ -59,9 +59,9 @@ In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden
 
 1. Speichern Sie Ihren Inhalt.
 
-## Anpassen von Umrandung und Rand {#about-padding-and-margin}
+## Abstände und Ränder anpassen {#about-padding-and-margin}
 
-In der Benutzeroberfläche von Email Designer können Sie rasch Abstände und Spannen anpassen.
+In der Benutzeroberfläche von Email Designer können Sie rasch Abstände und Ränder anpassen.
 
 **[!UICONTROL Abstand]**: Mit dieser Einstellung ändern Sie den Raum innerhalb des Rahmens eines Elements.
 
@@ -99,7 +99,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]**als auch**[!UICONTROL  Spanne]**
 
    ![](assets/des_set_vertical_alignment.png)
 
-## Hintergründe festlegen {#about-backgrounds}
+## Festlegen von Hintergründen {#about-backgrounds}
 
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
 
@@ -170,7 +170,7 @@ Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Struktur
 
 1. Speichern Sie Ihre Änderungen.
 
-## Stillinks {#about-styling-links}
+## Formatieren von Links {#about-styling-links}
 
 Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Ziel auswählen.
 
@@ -194,7 +194,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
 1. Speichern Sie Ihre Änderungen.
 
-## Inline-Styling-Attribute hinzufügen {#adding-inline-styling-attributes}
+## Inline-Styling-Attribute hinzufügen   {#adding-inline-styling-attributes}
 
 Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen und im seitlichen Fenster seine Einstellungen anzeigen, können Sie seine Inline-Attribute und deren Werte ändern.
 
