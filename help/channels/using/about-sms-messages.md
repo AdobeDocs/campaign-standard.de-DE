@@ -12,7 +12,7 @@ discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
@@ -35,14 +35,14 @@ SMS-Nachrichten können im Menü **[!UICONTROL Marketingaktivitäten]**, im Rahm
 Folgende Voraussetzungen müssen gegeben sein, um SMS an Mobiltelefone senden zu können:
 
 * ein externes Konto vom Typ **[!UICONTROL Routing]**, das für den Kanal**[!UICONTROL  Mobiltelefon (SMS)]** mit dem Versandmodus **[!UICONTROL Gebündelter Versand]**konfiguriert wurde. Lesen Sie diesbezüglich auch den Abschnitt[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
-* eine Versandvorlage, die auf das externe Konto Bezug nimmt.
+* Eine Versandvorlage, die auf das externe Konto Bezug nimmt.
 
 **Verwandte Themen:**
 
 * [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md)
 * [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS-Bericht](../../reporting/using/sms-report.md)
-* [Handbuch &quot;Campaign Standard Mobile&quot;](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Handbuch zu Campaign Standard Mobile](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)
 
 ## SMS-Versandvorlage {#sms-delivery-template}
 
