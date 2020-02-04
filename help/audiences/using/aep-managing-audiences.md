@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe direkt in 
 
 1. Um ein Segment erfolgreich zu erstellen, müssen Sie eine **Zusammenführungsrichtlinie** auswählen, die Ihrem Marketingzweck für dieses Segment entspricht.
 
-   Im Einstellungsbereich ist eine Plattform-Standardrichtlinie für die Zusammenführung ausgewählt. Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des Benutzerhandbuchs zum [Segmentaufbau](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   Im Einstellungsbereich ist eine Plattform-Standardrichtlinie für die Zusammenführung ausgewählt. Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt im [Segment Builder-Benutzerhandbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
