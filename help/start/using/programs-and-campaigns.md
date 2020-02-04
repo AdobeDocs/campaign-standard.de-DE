@@ -12,7 +12,7 @@ discoiquuid: 21b84028-d1a7-4ad6-891a-862a94565514
 context-tags: campaign,overview;campaignExplorer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
@@ -38,7 +38,7 @@ Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messe
 * [Planung](../../start/using/timeline.md)
 * [Über dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Programme erstellen {#creating-a-program}
+## Programme erstellen  {#creating-a-program}
 
 Ein Programm ist die höchste Organisationsebene Es kann Unterprogramme, Kampagnen, Workflows und Landingpages enthalten.
 
@@ -66,7 +66,7 @@ Das Programm wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 >
 >Programme können auch in der Liste der Marketingaktivitäten erstellt werden.
 
-## Kampagnen erstellen {#creating-a-campaign}
+## Kampagnen erstellen  {#creating-a-campaign}
 
 Zu Programmen und Unterprogrammen können Kampagnen hinzugefügt werden. Kampagnen können Marketingaktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows und Landingpages enthalten.
 
@@ -93,7 +93,7 @@ Die Kampagne wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 
 Kampagnen können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. Über das Eigenschaften-Fenster der Kampagne können Sie die Marketingaktivität mit einem Elternprogramm oder Unterprogramm verknüpfen.
 
-## Symbole und Status von Programmen und Kampagnen {#programs-and-campaigns-icons-and-statuses}
+## Symbole und Status von Programmen und Kampagnen  {#programs-and-campaigns-icons-and-statuses}
 
 Jedem Programm und jeder Kampagne der Liste ist eine Miniaturansicht beigefügt sowie ein Symbol, dessen Farbe den Ausführungsstatus anzeigt. Dieser Status hängt von dem für das Programm oder die Kampagne definierten Gültigkeitszeitraum ab.
 
