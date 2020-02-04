@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit dem E-Mail-Designer
+title: Erste Schritte mit dem Email Designer
 description: Beginnen Sie in Email Designer mit dem Erstellen von E-Mail-Inhalten.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -11,36 +11,36 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
-# Erste Schritte mit dem E-Mail-Designer {#quick-start}
+# Erste Schritte mit dem Email Designer {#quick-start}
 
 Email Designer bietet vier Möglichkeiten zum Erstellen von E-Mails.
 
-Sie können eine E-Mail [neu erstellen, die im E-Mail-Designer](#without-existing-content)beginnt:
+Sie können E-Mails [ in E-Mail-Designer](#without-existing-content) von Grund auf neu erstellen:
 
 * Sie können die E-Mail von Grund auf neu von einer leeren Arbeitsfläche erstellen. Hierzu fügen Sie Struktur- und Inhaltskomponenten hinzu und personalisieren deren Inhalt. Die E-Mail ist dann rasch versendet. Die Stilelemente können Sie auch vollständig verwalten. Weitere Informationen finden Sie in der [Kurzanleitung](#from-scratch-email) oder in der [vollständigen Dokumentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 * Sie können eine E-Mail aus einer vordefinierten Vorlage erstellen. Hierzu wählen Sie die Vorlage aus und erstellen daraus Ihren neuen E-Mail-Inhalt. [Mehr dazu](#building-content-from-an-out-of-the-box-template)
 
-You can also create an email [with existing content](#with-existing-content):
+Sie können eine E-Mail auch [aus vorhandenem Inhalt erstellen](#with-existing-content):
 
 * Hierzu konvertieren Sie bestehenden HTML-Inhalt, der extern oder im Legacy-Editor erstellt wurde. [Mehr dazu](#converting-an-html-content)
 * Im Kompatibilitätsmodus können Sie vorhandenen HTML-Inhalt sofort importieren. [Mehr dazu](#compatibility-mode)
 
 | Ohne Inhalt | Mit Inhalt |
 |---|---|
-| [E-Mail neu erstellen](#from-scratch-email) | [Konvertieren eines vorhandenen HTML-Inhalts](#converting-an-html-content) |
-| [Erstellen von Inhalt aus einer nativen Vorlage](#building-content-from-an-out-of-the-box-template) | [Importieren eines vorhandenen HTML](#compatibility-mode) |
+| [E-Mail neu erstellen](#from-scratch-email) | [Vorhandenen HTML-Inhalt konvertieren](#converting-an-html-content) |
+| [Inhalt aus einer nativen Vorlage erstellen](#building-content-from-an-out-of-the-box-template) | [Vorhandenen HTML-Inhalt importieren](#compatibility-mode) |
 
-## Entwerfen von E-Mails mit dem Editor {#without-existing-content}
+## E-Mails mit dem Editor erstellen {#without-existing-content}
 
 >[!NOTE]
 >
->Bei beiden Erstellungsstrategien ist es wichtig, die Betreffzeile auszufüllen, bevor Sie Ihre E-Mail senden. Erfahren Sie, wie Sie eine Betreffzeile [hinzufügen](#add-a-subject-line).
+>Unabhängig davon, nach welcher der beiden Strategien Sie E-Mails erstellen, ist es unabdingbar, vor dem Versand die Betreffzeile auszufüllen. Erfahren Sie, wie Sie eine [Betreffzeile hinzufügen](#add-a-subject-line).
 
 ### E-Mail neu erstellen {#from-scratch-email}
 
@@ -53,7 +53,7 @@ Sie können eine E-Mail problemlos neu erstellen, ihr Komponenten hinzufügen un
 
 Die Betreffzeile ist in einer E-Mail obligatorisch. Weitere Informationen finden Sie unter [Definieren der Betreffzeile einer E-Mail](../../designing/using/subject-line.md).
 
-1. Klicken Sie auf der Startseite von Email Designer, die über das Home-Symbol aufgerufen wird, auf die Registerkarte **[!UICONTROL Eigenschaften]**und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
+1. Wählen Sie auf der Startseite von Email Designer, die sich über das Startseitensymbol aufrufen lässt, den Tab **[!UICONTROL Eigenschaften]**aus und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
 
 ![](assets/subject-line-quick-start.png)
 
@@ -117,27 +117,27 @@ Sie können das Design Ihrer E-Mail anpassen, beispielsweise den Abstand einer K
 
 Sie können Ihre E-Mail nun speichern und senden.
 
-### Erstellen von Inhalt aus einer vordefinierten Vorlage {#building-content-from-an-out-of-the-box-template}
+### Erstellen von Inhalt aus einer vordefinierten Vorlage   {#building-content-from-an-out-of-the-box-template}
 
 Ihre E-Mails können Sie auch aus vordefinierten Vorlagen erstellen und diese personalisieren. Hier bieten sich zum Beispiel Willkommensnachrichten für Neukunden, Newsletter und Wiedereinstellungs-E-Mails an.
 
 1. Erstellen Sie eine E-Mail und öffnen Sie ihren Inhalt. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mails erstellen](../../channels/using/creating-an-email.md).
-1. Wählen Sie das Startseiten-Symbol aus, um die Startseite von **[!UICONTROL Email Designer]**zu öffnen.
+1. Wählen Sie das Startseitensymbol aus, um die Startseite von **[!UICONTROL Email Designer]**zu öffnen.
 1. Wählen Sie den Tab **[!UICONTROL Vorlagen]**aus.
 1. Wählen Sie eine native HTML-Vorlage aus.
 Die unterschiedlichen Vorlagen bestehen aus Kombinationen verschiedener Typen von Elementen. Beispielsweise haben die Vorlagen vom Typ &quot;Feather&quot; Ränder, die Vorlagen vom Typ &quot;Astro&quot; haben dagegen keine. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
-1. Klicken Sie auf der Startseite von Email Designer, die über das Home-Symbol aufgerufen wird, auf die Registerkarte **[!UICONTROL Eigenschaften]**und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
+1. Wählen Sie auf der Startseite von Email Designer, die sich über das Startseitensymbol aufrufen lässt, den Tab **[!UICONTROL Eigenschaften]**aus und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
 1. Sie können diese Elemente zu mehreren E-Mail-Varianten kombinieren. Beispielsweise können Sie einen Teil einer E-Mail duplizieren, indem Sie eine Strukturkomponente markieren und in der dedizierten Symbolleiste **[!UICONTROL Duplizieren]**auswählen.
 1. Sie können die Elemente mit den blauen Pfeilen auf der linken Seite verschieben, indem Sie eine Strukturkomponente unter oder über eine andere ziehen. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Sie können Komponenten auch verschieben und so die Anordnung in jedem Strukturelement ändern. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Sie können den Inhalt jedes Elements nach Bedarf ändern: Bilder, Text, Links.
 1. Sie können auch die Stiloptionen beliebig auf Ihren Inhalt anpassen. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/styles.md).
 
-## Verwenden von vorhandenen E-Mail-Inhalten {#with-existing-content}
+## Verwenden eines vorhandenen E-Mail-Inhalts {#with-existing-content}
 
 Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, um sie in künftigen E-Mails wiederzuverwenden und zu kombinieren, sollten Sie Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen konvertieren.
 
-### Konvertieren von HTML-Inhalt {#converting-an-html-content}
+### Konvertieren von HTML-Inhalt   {#converting-an-html-content}
 
 In diesem Anwendungsbeispiel erfahren Sie, wie Sie eine HTML-E-Mail rasch in Email Designer-Komponenten konvertieren können.
 
