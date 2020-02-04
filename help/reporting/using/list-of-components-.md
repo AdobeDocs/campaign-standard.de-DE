@@ -134,11 +134,11 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken  {#metrics}
+## Metriken   {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS  {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS   {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -161,11 +161,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Fehlerrate<br /> </td> 
+   <td> Bounce- + Fehlerrate<br /> </td> 
    <td> Prozentsatz der Bounce-E-Mails in Bezug auf die gesendeten E-Mails<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klicken<br /> </td> 
+   <td> Klicks<br /> </td> 
    <td> Die Anzahl der Klicks auf einen Inhalt in einem Versand.<br /> </td> 
   </tr> 
   <tr> 
@@ -225,7 +225,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Prozentsatz der Quarantänen in Bezug auf die gesendeten Nachrichten<br /> </td> 
   </tr> 
   <tr> 
-   <td> Abgelehnt<br /> </td> 
+   <td> Zurückgewiesen<br /> </td> 
    <td> Anzahl der Sendungen, die von SMTP-Servern als Spam gekennzeichnet wurden<br /> </td> 
   </tr> 
   <tr> 
@@ -241,7 +241,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Prozentsatz der Sendungen, die vorläufig fehlgeschlagen sind<br /> </td> 
   </tr> 
   <tr> 
-   <td> Einmalige Klicks<br /> </td> 
+   <td> Einzelklicks<br /> </td> 
    <td> Anzahl der Empfänger, die einen Inhalt in einem Versand angeklickt haben<br /> </td> 
   </tr> 
   <tr> 
@@ -259,7 +259,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen  {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen   {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -274,11 +274,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler im Vergleich zur Gesamtzahl aller gesendeten Nachrichten, z. B. Fehler durch MCPNS oder Provider.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Fehlerrate<br /> </td> 
+   <td> Bounce- + Fehlerrate<br /> </td> 
    <td> Prozentsatz der Bounce-Push-Benachrichtigungen in Bezug auf die gesendeten Push-Benachrichtigungen.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klicken<br /> </td> 
+   <td> Klicks<br /> </td> 
    <td> Gibt an, wie oft eine Push-Benachrichtigung an das Gerät geschickt und vom Benutzer angeklickt wurde. Der Benutzer hat die Benachrichtigung entweder angesehen oder verworfen. Wenn er sie angesehen hat, wird sie beim Push-Öffnungstracking berücksichtigt.<br /> </td> 
   </tr> 
   <tr> 
@@ -324,7 +324,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten  {#in-app-metrics}
+### Metriken zu In-App-Nachrichten   {#in-app-metrics}
 
 <table> 
  <thead> 
