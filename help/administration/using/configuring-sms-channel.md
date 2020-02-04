@@ -13,7 +13,7 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3325194881662dee94648ae3d5a03b2bdb6b41ba
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -92,7 +92,7 @@ Transliteration bezeichnet in einer SMS die Ersetzung eines Zeichens durch ein a
 * Wenn die Transliteration **zugelassen** wurde, wird jedes nicht unterstützte Zeichen beim Nachrichtenversand durch ein Zeichen des GSM-Alphabets ersetzt. So wird beispielsweise der Buchstabe &quot;ë&quot; durch &quot;e&quot; ersetzt. Der Nachrichteninhalt wird in diesem Fall leicht verändert übermittelt, aber die Zeichenanzahl bleibt identisch.
 * Wenn die Transliteration **nicht zugelassen** wurde, werden alle Nachrichten mit nicht unterstützten Zeichen im Binärformat (Unicode) gesendet: Alle Zeichen werden unverändert übermittelt. In Unicode kodierte SMS sind auf 70 Zeichen (oder 67 Zeichen bei Nachrichten, die in mehreren Teilen gesendet werden) begrenzt. Bei Überschreitung der maximalen Zeichenanzahl werden mehrere Teilnachrichten gesendet, wodurch zusätzliche Kosten entstehen können.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Die Verwendung von Personalisierungsfeldern im SMS-Inhalt führt u. U. dazu, dass nicht von GSM unterstützte Zeichen eingefügt werden. Im Abschnitt [SMS personalisieren](../../channels/using/personalizing-sms-messages.md) finden Sie ein Beispiel für einen SMS-Inhalt.
 
@@ -335,13 +335,13 @@ Die SMS-spezifischen Versandparameter befinden sich im Abschnitt **[!UICONTROL S
 
    ![](assets/sms_smpp.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Überprüfen Sie bezüglich der Änderung des Absenders die gültige Rechtslage Ihres Landes. Stellen Sie außerdem sicher, dass Ihr SMS-Provider diese Funktionalität anbietet.
 
 * Die Option **[!UICONTROL Maximale Anzahl an SMS pro Nachricht]**bietet die Möglichkeit, die Anzahl an höchstens zu verwendenden Teilnachrichten (SMS) für eine Nachricht festzulegen. Sollte eine Nachricht diese Anzahl überschreiten, wird sie nicht gesendet.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Die Verwendung von Personalisierungsfeldern oder bedingtem Text im SMS-Inhalt kann dazu führen, dass die Nachrichtenlänge und somit die Anzahl erforderlicher SMS für die jeweiligen Empfänger variieren. Lesen Sie diesbezüglich auch den Abschnitt [SMS personalisieren](../../channels/using/personalizing-sms-messages.md).
 
@@ -350,4 +350,3 @@ Die SMS-spezifischen Versandparameter befinden sich im Abschnitt **[!UICONTROL S
    * **[!UICONTROL Speicherung auf der SIM-Karte]**: Die Nachricht wird auf der SIM-Karte des Empfängergeräts gespeichert.
    * **[!UICONTROL Speicherung im internen Speicher]**: Die Nachricht wird im internen Speicher des Empfängergeräts gespeichert.
    * **[!UICONTROL Flash]**: Die Nachricht wird auf dem Bildschirm des Empfängergeräts als Benachrichtigung angezeigt und verschwindet, ohne gespeichert zu werden.
-
