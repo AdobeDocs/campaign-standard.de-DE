@@ -11,7 +11,7 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
@@ -47,4 +47,4 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
 
 **Verwandtes Thema:**
 
-* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
