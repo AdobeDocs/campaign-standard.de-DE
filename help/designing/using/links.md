@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen von Links
+title: Links hinzufügen
 description: Erfahren Sie, wie Sie Links mit Email Designer verwalten.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -11,13 +11,13 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
 
 ---
 
 
-# Hinzufügen von Links {#links}
+# Links hinzufügen {#links}
 
 ## Link einfügen {#inserting-a-link}
 
