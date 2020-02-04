@@ -12,7 +12,7 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d93f79912e4d74ed0e177ad308f25f272092cbc2
 
 ---
@@ -34,7 +34,7 @@ Sie können in Adobe Campaign Standard dazu einen Workflow mit folgenden Aktivit
 
 Zunächst müssen Sie die Ressource **[!UICONTROL Profil]**um ein neues Feld für die Kontrollgruppe erweitern. Nachdem der Workflow ausgeführt wurde, wird dieses Feld auf die Profile überprüft, die aus der Zielgruppe ausgeschlossen wurden.
 
-1. From **[!UICONTROL Administration]**>**[!UICONTROL  Development]** > **[!UICONTROL Custom Resources]**, click**[!UICONTROL  Create]**.
+1. Klicken Sie unter **[!UICONTROL Administration]**>**[!UICONTROL  Entwicklung]** > **[!UICONTROL Benutzerdefinierte Ressourcen]**auf**[!UICONTROL  Erstellen]**.
 1. Wenn Sie die Ressource noch nicht erweitert haben, wählen Sie zuerst **[!UICONTROL Existierende Ressource erweitern]**und danach die Ressource**[!UICONTROL  Profil]** aus.
 1. Fügen Sie im Tab **[!UICONTROL Datenstruktur]**ein neues Feld für die Kontrollgruppe hinzu und wählen Sie für das Feld**[!UICONTROL  Typ]** den Wert **[!UICONTROL Boolesch]**aus.
 
@@ -49,7 +49,7 @@ Zunächst müssen Sie die Ressource **[!UICONTROL Profil]**um ein neues Feld fü
 
 Weiterführende Informationen zum Erweitern einer benutzerdefinierten Ressource finden Sie im Abschnitt [Schritte zum Hinzufügen einer Ressource](../../developing/using/key-steps-to-add-a-resource.md).
 
-## Workflow erstellen  {#creating-a-workflow}
+## Workflow erstellen   {#creating-a-workflow}
 
 1. Wählen Sie dazu in **[!UICONTROL Marketingaktivitäten]**die Option**[!UICONTROL  Erstellen]** und dann **[!UICONTROL Workflow]**aus.
 1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]**und danach**[!UICONTROL  Weiter]** aus.
@@ -59,7 +59,7 @@ Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Wo
 
 ## Abfrageaktivität erstellen {#create-a-query-activity}.
 
-1. In **[!UICONTROL Activities]**>**[!UICONTROL  Targeting]**, drag and drop a **[!UICONTROL Query activity]**.
+1. Ziehen Sie unter **[!UICONTROL Aktivitäten]**>**[!UICONTROL  Zielgruppenbestimmung]** eine **[!UICONTROL Abfrageaktivität]**in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität, um Ihre Zielgruppe zu definieren.
 1. Ziehen Sie beispielsweise unter **[!UICONTROL Schnellzugriffe]**die Option**[!UICONTROL  Profil]** in den Arbeitsbereich, wählen Sie **[!UICONTROL Alter]**mit dem Operator**[!UICONTROL  Größer als]** aus und geben Sie in das Feld **[!UICONTROL Wert]**&quot;25&quot; ein.
 1. Wählen Sie **[!UICONTROL Bestätigen]**aus.
@@ -89,7 +89,7 @@ Die detaillierten Schritte zum Erstellen einer Segmentierungsaktivität werden i
 
 ## E-Mail-Aktivität erstellen {#creating-an-email-activity}
 
-1. In **[!UICONTROL Activities]**>**[!UICONTROL  Channels]**, drag and drop an **[!UICONTROL Email Delivery]**after the main target segment.
+1. Ziehen Sie unter **[!UICONTROL Aktivitäten]**>**[!UICONTROL  Kanäle]** einen **[!UICONTROL E-Mail-Versand]**hinter das Hauptzielgruppen-Segment.
 1. Wählen Sie zur Bearbeitung die Aktivität und danach ![](assets/edit_darkgrey-24px.png) aus.
 1. Wählen Sie **[!UICONTROL Einmalige E-Mail]**und danach**[!UICONTROL  Weiter]** aus.
 1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]**aus.
