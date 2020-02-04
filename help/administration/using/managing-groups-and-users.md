@@ -13,7 +13,7 @@ context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -46,7 +46,7 @@ Wenn Sie den Zugriff eines Benutzers beschränken möchten, fügen Sie ihn nicht
 
 ## Sicherheitsgruppe erstellen und Benutzer zuordnen {#creating-a-security-group-and-assigning-users}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Bitte beachten Sie, dass in der Admin Console Sicherheitsgruppen Profile genannt werden.
 
@@ -139,7 +139,7 @@ Der Administrator-Benutzer muss die Sicherheitsgruppen erstellen, die für die Z
 
 Ihre Benutzer sind jetzt einer Sicherheitsgruppe zugeordnet und können sich mit Adobe Campaign verbinden.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Wenn Benutzer aus einer Sicherheitsgruppe in der Admin Console entfernt werden, sind sie weiterhin Mitglieder der Adobe Campaign-Sicherheitsgruppe, können sich aber nicht mehr in Adobe Campaign einloggen. Entfernen Sie in diesem Fall die E-Mail-Adressen der Benutzer aus der Admin Console, damit keine sensiblen Informationen an sie gesendet werden können.
 
