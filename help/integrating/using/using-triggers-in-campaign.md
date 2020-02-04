@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ## In Campaign einen gemappten Trigger erstellen {#creating-a-mapped-trigger-in-campaign}
 
-Stellen Sie sicher, dass die Verhaltensweisen, die Sie verfolgen möchten, im Vorhinein in Adobe Experience Cloud (**[!UICONTROL Triggers]**Core Service) definiert wurden. Weiterführende Informationen finden Sie in der[Dokumentation zur Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html). Beachten Sie, dass bei der Definition von Triggern die Alias aktiviert werden müssen. In Adobe Experience Cloud muss für jedes Verhalten (abgebrochener Webseitenbesuch/Formularabbruch, hinzugefügter/entfernter Artikel, abgelaufene Sitzung etc.) ein neuer Trigger hinzugefügt werden.
+Stellen Sie sicher, dass die Verhaltensweisen, die Sie verfolgen möchten, im Vorhinein in Adobe Experience Cloud (**[!UICONTROL Triggers]**Core Service) definiert wurden. Weiterführende Informationen finden Sie in der[Dokumentation zur Adobe Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/triggers.html). Beachten Sie, dass bei der Definition von Triggern die Alias aktiviert werden müssen. In Adobe Experience Cloud muss für jedes Verhalten (abgebrochener Webseitenbesuch/Formularabbruch, hinzugefügter/entfernter Artikel, abgelaufene Sitzung etc.) ein neuer Trigger hinzugefügt werden.
 
 In Adobe Campaign ist nun ein auf einem bereits vorhandenen Trigger der Adobe Experience Cloud basierendes Trigger-Ereignis zu erstellen.
 
-In diesem [Video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) wird die Einrichtung von Triggern in Adobe Campaign beschrieben.
+In diesem [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) wird die Einrichtung von Triggern in Adobe Campaign beschrieben.
 
 Gehen Sie hierzu wie folgt vor:
 
@@ -47,7 +47,7 @@ Gehen Sie hierzu wie folgt vor:
 
    ![](assets/remarketing_4.png)
 
-1. Wenn in Analytics eine Konversionsrate (bzw. Tendenzauswertung) definiert wurde (siehe [Produktdokumentation zur Experience Cloud](https://marketing.adobe.com/resources/help/en_US/insight/client/c_visitor_propensity.html)), können Sie entscheiden, die Nachricht nicht zu senden, wenn eine hohe Wahrscheinlichkeit besteht, dass der Kunde in naher Zukunft auf die Webseite zurückkehren wird. Die Raten- und Schwellenwerte sind im Payload-Inhalt verfügbar, sodass Sie diese zur Nachrichtenpersonalisierung verwenden können. Aktivieren Sie zur Verwendung dieser Option die entsprechende Checkbox im unteren Teil des Bildschirms. Kunden, bei denen eine hohe Wahrscheinlichkeit besteht, dass sie in naher Zukunft auf die Webseite zurückkehren, werden keine Nachricht erhalten.
+1. Wenn in Analytics eine Konversionsrate (bzw. Tendenzauswertung) definiert wurde (siehe [Produktdokumentation zur Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/insight/client/c_visitor_propensity.html)), können Sie entscheiden, die Nachricht nicht zu senden, wenn eine hohe Wahrscheinlichkeit besteht, dass der Kunde in naher Zukunft auf die Webseite zurückkehren wird. Die Raten- und Schwellenwerte sind im Payload-Inhalt verfügbar, sodass Sie diese zur Nachrichtenpersonalisierung verwenden können. Aktivieren Sie zur Verwendung dieser Option die entsprechende Checkbox im unteren Teil des Bildschirms. Kunden, bei denen eine hohe Wahrscheinlichkeit besteht, dass sie in naher Zukunft auf die Webseite zurückkehren, werden keine Nachricht erhalten.
 1. Verwenden Sie die **[!UICONTROL Publizieren]**-Schaltfläche, um die Publikation des Trigger-Ereignisses zu starten.
 1. Wenn Sie nach dem Publizieren Ihres Trigger-Ereignisses das Trigger-Schema verändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Schema aktualisieren]**aus, um die letzten Änderungen abzurufen.
 
@@ -59,7 +59,7 @@ Mithilfe der Schaltfläche **[!UICONTROL Trigger in Experience Cloud anzeigen]**
 
 Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsvorlage erzeugt. Diese Vorlage muss nun bearbeitet und publiziert werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen bearbeiten](../../start/using/marketing-activity-templates.md).
 
-## Transaktionsnachrichtenvorlage bearbeiten {#editing-the-transactional-message-template}
+## Transaktionsnachrichtenvorlage bearbeiten  {#editing-the-transactional-message-template}
 
 Im Zuge der Erstellung und Publikation des Trigger-Ereignisses wird die entsprechende Transaktionsvorlage automatisch erstellt. Lesen Sie diesbezüglich auch den Abschnitt [In Campaign einen gemappten Trigger erstellen](#creating-a-mapped-trigger-in-campaign).
 
