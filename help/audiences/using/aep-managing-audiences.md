@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ## Zugriff auf Zielgruppen der Adobe Experience Platform
 
-Um auf den Segmentaufbau für die Adobe Experience Platform zuzugreifen, navigieren Sie zur Karte **[!UICONTROL Zielgruppen]**auf der Homepage von Campaign Standard (oder zum Link**[!UICONTROL  Zielgruppen]** in der Kopfzeile) und wählen Sie dann die Option **[!UICONTROL Adobe Experience Platform]**.
+Um auf den Segmentaufbau für die Adobe Experience Platform zuzugreifen, navigieren Sie zur **[!UICONTROL Zielgruppen]**-Karte auf der Homepage von Campaign Standard (oder zum Link**[!UICONTROL  Zielgruppen]** in der Kopfzeile) und wählen Sie dann die Umgebung für die **[!UICONTROL Adobe Experience Platform]**aus.
 
 ![](assets/aep_audiences_access.png)
 
-Sie werden zunächst zur Segmentlistenseite von Adobe Experience Platform weitergeleitet, auf der bereits vorhandene Adobe Experience Platform-Segmente zur weiteren Bearbeitung aufgerufen werden können.
+Sie werden zunächst zur Segmentlistenseite von Adobe Experience Platform weitergeleitet, auf der bereits vorhandene Segmente von Adobe Experience Platform zur weiteren Bearbeitung aufgerufen werden können.
 
 Es stehen eine Suchleiste und ein Filter zur Verfügung, mit denen Sie das gewünschte Segment für die Adobe Experience Platform finden können.
 
