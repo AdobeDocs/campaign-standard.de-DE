@@ -51,7 +51,7 @@ Um eine publizierte Ressource zurückzusetzen und zu löschen, gehen Sie folgend
 
    Die Ressource weist nun den Publikationsstatus **Entwurf** und den Aktivierungsstatus **[!UICONTROL Deaktiviert auf]**.
 
-1. Markieren Sie im Modus **[!UICONTROL Liste]**die zu löschende Ressource und wählen Sie dann das Symbol![](assets/delete_darkgrey-24px.png)**[!UICONTROL  Element löschen]** aus.
+1. Markieren Sie im Modus **[!UICONTROL Liste]** die zu löschende Ressource und wählen Sie dann das Symbol ![](assets/delete_darkgrey-24px.png) **[!UICONTROL  Element löschen]** aus.
 
    ![](assets/schema_extension_uc28.png)
 
