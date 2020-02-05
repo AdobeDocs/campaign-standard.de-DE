@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
+source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
 
 ---
 
@@ -36,7 +36,7 @@ So konfigurieren Sie einen Dienst:
 
    ![](assets/lp_service_expiration.png)
 
-Sie können das Ablaufdatum in einer Segmentierungsaktivität verwenden, um Profile als Ziel festzulegen, die für einen nicht abgelaufenen Dienst abonniert wurden.
+   Sie können das Ablaufdatum in einer Segmentierungsaktivität verwenden, um Profile als Ziel festzulegen, die für einen nicht abgelaufenen Dienst abonniert wurden.
 
 1. Füllen Sie das Feld **[!UICONTROL Diensttitel]**aus. Der Diensttitel ist bei Verwendung einer benutzerdefinierten Bestätigungsnachricht obligatorisch.
 
