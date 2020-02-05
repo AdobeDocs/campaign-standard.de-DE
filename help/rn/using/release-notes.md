@@ -12,16 +12,16 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
+source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 
 ---
 
 
 # Neueste Version{#latest-release}
 
-[Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Aktualisierungen](../../rn/using/documentation-updates.md) der Dokumentation| [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Veraltete Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-## Version 20.1 - Februar 2020 {#release-20-1---february-2020}
+## Version 20.1 - Februar 2020   {#release-20-1---february-2020}
 
 **Neue Funktionen?**
 
@@ -35,7 +35,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Der Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Kampagnendaten auf Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign erfasste Daten) dem Adobe Experience Platform Data Model (XDM) zuordnen. </p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azurblaus gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../administration/using/aep-about-data-connector.md">ausführlichen Dokumentation</a>.</p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azurblaus gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für die Aktivierung finden Sie in der <a href="../../administration/using/aep-about-data-connector.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">Anleitungsvideo</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Mit Zielgruppenzielen können Sie Segmente von der Adobe Experience Platform an Adobe Campaign freigeben.</p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azurblaus gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../audiences/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a>.</p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azurblaus gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für die Aktivierung finden Sie in der <a href="../../audiences/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">Anleitungsvideo</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,6 +87,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 **Korrekturen**
 
+* Es wurde ein Fehler behoben, der beim Durchführen einer Datenschutzanforderung zum Löschen von Benutzerdaten dazu führte, dass Benutzerdaten nicht in Ausschlussprotokollen gelöscht wurden. (CAMP-39003)
 * Es wurde ein Problem behoben, das zu Zugänglichkeitsproblemen führte, wenn die Größe von Text in einem Containerelement geändert wurde.
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer das Popup Kalender, das beim Bewegen des Mauszeigers in Marketingaktivitäten angezeigt wurde, nicht schließen konnten.
 * Es wurde ein Problem in der Aktivität **[!UICONTROL Externe API]**behoben, durch das die Schaltfläche**[!UICONTROL  Bestätigen]** angezeigt wurde, selbst wenn keine Daten geändert wurden.
