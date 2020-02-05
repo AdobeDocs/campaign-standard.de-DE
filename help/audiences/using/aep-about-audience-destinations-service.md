@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -28,11 +28,11 @@ Nutzen Sie die [Adobe Experience Platform](https://www.adobe.io/apis/experiencep
 
 Adobe Campaign Standard verwendet dann den Dienst **Zielgruppenziele** , um eine Sammlung von Profilen, **Zielgruppen** genannt, von AEP für mehrstufige und/oder kanalübergreifende Kampagnenprogramme abzurufen.
 
-**Zielgruppen** werden durch erstmaliges Erstellen von **Segmenten** erstellt, bei denen es sich im Wesentlichen um einen Regelsatz handelt, der auf praktisch jeder beliebigen Variablen (z. B. Profil-, Ereignis-, Multi-Entitäts-Daten) innerhalb eines Kundenprofils von AEP basiert, um ein multidimensionales Ziel zu erstellen. Globale Konzepte für Unified Profile &amp; Segmentation Services können in [diesen dedizierten Dokumenten](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)referenziert werden.
+**Zielgruppen** werden durch erstmaliges Erstellen von **Segmenten** erstellt, bei denen es sich im Wesentlichen um einen Regelsatz handelt, der auf praktisch jeder beliebigen Variablen (z. B. Profil-, Ereignis-, Multi-Entitäts-Daten) innerhalb eines Kundenprofils von AEP basiert, um ein multidimensionales Ziel zu erstellen. Globale Konzepte für Unified Profile &amp; Segmentation Services werden in [diesen dedizierten Dokumenten](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)referenziert.
 
-Nachdem ein Segment erstellt wurde, können Sie es als Zielgruppe für eine Bereitstellung in den [Campaign Standard-Arbeitsabläufen](../../automating/using/aep-targeting-audiences.md)aktivieren. Darüber hinaus können Sie Kontextdaten aus der Adobe Experience Platform verwenden, um Ihre Kampagnen zu [personalisieren](../../automating/using/aep-personalizing-campaigns.md) und gegebenenfalls dynamische Inhalte hinzuzufügen.
+Nachdem ein Segment erstellt wurde, können Sie es als Zielgruppe für eine Bereitstellung in den [Campaign Standard-Arbeitsabläufen](../../automating/using/aep-targeting-audiences.md)aktivieren. Darüber hinaus können Sie Kontextdaten aus der Adobe Experience Platform verwenden, um dynamische Inhalte zu Ihren Kampagnen zu [personalisieren](../../automating/using/aep-personalizing-campaigns.md) und hinzuzufügen.
 
-Demovideos sind auch in [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)verfügbar.
+Anleitungen zu Videos sind auch in [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)verfügbar.
 
 In diesen Abschnitten verwendete Begriffe:
 
