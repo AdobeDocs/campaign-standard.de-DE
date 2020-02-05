@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -84,7 +84,7 @@ Die Felder sind in Registerkarten unterteilt:
 >
 >Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
-Standardmäßig zeigt der Unified Segment Builder Felder an, für die Daten vorhanden sind. Um das vollständige Schema anzuzeigen, einschließlich der Felder, für die keine Daten vorhanden sind, aktivieren Sie die Option Vollständiges XDM-Schema ****anzeigen in den Einstellungen.
+Standardmäßig zeigt der Unified Segment Builder Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema anzuzeigen, einschließlich der Felder, für die keine Daten vorhanden sind, aktivieren Sie die Option Vollständiges XDM-Schema ****anzeigen in den Einstellungen.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -116,7 +116,7 @@ Gehen Sie zum Erstellen einer Regel wie folgt vor:
 
    Sie können beliebig viele zusätzliche Regeln hinzufügen, um die richtigen Profile als Ziel festzulegen.
 
-   Beim Hinzufügen einer Regel zu einem Behälter wird diese an alle vorhandenen Regeln mit dem UND-Operator angehängt. Klicken Sie auf den Operator, um auf die Option zuzugreifen, um sie in ODER zu ändern.
+   Beim Hinzufügen einer Regel zu einem Behälter wird sie mit dem logischen UND-Operator an alle vorhandenen Regeln angehängt. Klicken Sie bei Bedarf auf den logischen Operator, um ihn zu ändern.
 
    ![](assets/aep_audiences_andoperator.png)
 
