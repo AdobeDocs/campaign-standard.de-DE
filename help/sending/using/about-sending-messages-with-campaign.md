@@ -11,8 +11,8 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ Nach erfolgter Zielgruppenbestimmung und Inhaltserstellung ist Ihr Versand zu te
 
 * [Über die Planung von Sendungen](../../sending/using/about-scheduling-messages.md)
 * [Versandvorbereitung](../../sending/using/preparing-the-send.md)
-* [Testprofile verwalten und Testsendungen durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Testversand durchführen](../../sending/using/sending-proofs.md)
 * [E-Mail-Rendering](../../sending/using/email-rendering.md)
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Zustellbarkeit optimieren](../../sending/using/about-deliverability.md)
