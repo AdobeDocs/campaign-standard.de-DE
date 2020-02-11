@@ -1,0 +1,83 @@
+---
+title: Verwaltung von Testprofilen
+description: Erfahren Sie, wie Sie Testprofile verwalten.
+page-status-flag: never-activated
+uuid: eb4d893b-3724-4b15-9312-1ec74784368d
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
+discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
+context-tags: seedMember,overview
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+
+---
+
+
+# Verwaltung von Testprofilen {#managing-test-profiles}
+
+## Über Testprofile {#about-test-profiles}
+
+Testprofile ermöglichen es, zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenkriterien entsprechen. Sie werden Audiences hinzugefügt, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Erhalt der Sendungen zu kontrollieren.
+
+Sie können Ihre Testprofile über das erweiterte Menü verwalten **[!UICONTROL Profiles & audiences > Test profiles]**.
+
+Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktinformationen, die verschiedenen Zwecken dienen können:
+
+* **Testsendungen**: Dabei handelt es sich um einen speziellen Versand, der es ermöglicht, eine Nachricht vor dem Versenden an die Empfänger zu validieren. Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen. Siehe [Testversand durchführen](../../sending/using/sending-proofs.md).
+* **E-Mail-Rendering**: Diese Art von Testprofilen wird verwendet, um den Empfang und die Darstellung Ihrer Nachricht in den verschiedenen E-Mail-Clients zu testen. Beispielsweise Webmail, SMS, Mobilgeräte etc. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
+
+   Die Funktion **E-Mail-Rendering** ist schreibgeschützt. Testprofile mit diesem Verwendungszweck sind ausschließlich nativ in Adobe Campaign enthalten.
+
+* Als **Falle**: Die Nachricht wird auf dieselbe Weise an das Testprofil gesendet wie an die Hauptzielgruppe. Siehe [Verwenden von Fallen](../../sending/using/using-traps.md).
+* **Vorschau** einer Nachricht: Durch Auswahl eines Testprofils lässt sich die korrekte Umsetzung von Personalisierungselementen innerhalb einer Nachricht prüfen. Siehe [Vorschau der Nachricht erzeugen](/help/sending/using/previewing-messages.md).
+
+![](assets/test_profile.png)
+
+## Testprofile erstellen {#creating-test-profiles}
+
+1. Greifen Sie mithilfe des Adobe-Campaign-Logos auf das erweiterte Menü **Profile &amp; Audiences > Testprofile** zu, um die Liste mit Testprofilen aufzurufen.
+
+   ![](assets/test_profile_creation_1.png)
+
+1. Klicken Sie im **[!UICONTROL Test profiles]** Dashboard auf **Erstellen**.
+
+   ![](assets/test_profile_creation_2.png)
+
+1. Machen Sie die erforderlichen Angaben zum Profil.
+
+   ![](assets/test_profile_creation_3.png)
+
+1. Kreuzen Sie die Verwendung des Testprofils an.
+
+   ![](assets/test_profile_creation_4.png)
+
+1. Geben Sie die Kontaktkanäle **[!UICONTROL Email, Telephone, Mobile, Mobile app]** sowie ggf. die Adresse des Testprofils ein.
+
+   >[!NOTE]
+   >
+   >You can define a preferred email format: **[!UICONTROL Text]** or **[!UICONTROL HTML]**.
+
+1. Geben Sie einen Ereignistyp sowie die Ereignisdaten an, wenn Sie dieses Testprofil dazu verwenden möchten, die Personalisierung einer Transaktionsnachricht zu testen.
+1. Click **[!UICONTROL Create]** to save the test profile.
+
+Das Testprofil wurde der Liste der Profile hinzugefügt.
+
+**Verwandtes Thema:**
+
+Video [Creating a test profile](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html)
+
+## Testprofile bearbeiten {#editing-test-profiles}
+
+Gehen Sie wie folgt vor, um ein bereits existierendes Testprofil zu bearbeiten bzw. seine Daten einzusehen oder es zu ändern:
+
+1. Wählen Sie das zu ändernde Testprofil aus, indem Sie auf sein Bild klicken.
+1. Nehmen Sie bei Bedarf die gewünschten Änderungen vor.
+
+   ![](assets/test_profile_edit.png)
+
+1. Click **[!UICONTROL Save]** if you have entered your changes, or select the name of the test profile then **[!UICONTROL Test profiles]** in the section at the top of the screen to go back to the test profiles dashboard.
