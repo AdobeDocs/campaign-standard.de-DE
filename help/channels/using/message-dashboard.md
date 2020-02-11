@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -28,9 +28,9 @@ Das Dashboard einer Nachricht enthält einen Arbeitsbereich mit verschiedenen Ka
 
 Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 
-* **[!UICONTROL Zusammenfassung ein-/ausblenden]**: blendet zusammenfassende Informationen zur Nachricht ein oder aus.
-* **[!UICONTROL Eigenschaften bearbeiten]**: bietet Zugriff auf den Eigenschaftenbildschirm der Nachricht, der u. a. die Bearbeitung der[erweiterten Parameter](../../administration/using/configuring-email-channel.md#list-of-email-properties)ermöglicht.
-* **[!UICONTROL Berichte]**: bietet Zugriff auf Berichte zur Nachricht.
+* **[!UICONTROL Summary]**: Blendet die Hauptinformationen zur Nachricht ein bzw. aus.
+* **[!UICONTROL Edit properties]**: können Sie die [erweiterten Parameter](../../administration/using/configuring-email-channel.md#list-of-email-properties)der Nachricht bearbeiten.
+* **[!UICONTROL Reports]**: gibt Ihnen Zugriff auf die Berichte zu der Nachricht.
 
 **Verwandte Themen:**
 
@@ -45,23 +45,23 @@ Die Symbolleiste enthält verschiedene Schaltflächen, die die Bearbeitung der N
 
 Je nach angegebenen Parametern und Bearbeitungsfortschritt stehen gewisse Schaltflächen u. U. nicht zur Verfügung.
 
-* **[!UICONTROL Testsendungen anzeigen]**: blendet die Liste der gesendeten Tests ein oder aus. Diese Schaltfläche ist nur aktiv, wenn Testsendungen existieren.
+* **[!UICONTROL Show proofs]**: Blendet die Liste der gesendeten Nachweise ein bzw. aus, sofern vorhanden. Diese Schaltfläche ist nur aktiv, wenn Testsendungen existieren.
 
-   Weiterführende Informationen zu Testsendungen finden Sie im Abschnitt [Testprofile verwalten und Testsendungen durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+   For more on proofs, see [Sending proofs](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Testen]**: ermöglicht u. a. die Auswahl des Validierungsmodus (**[!UICONTROL  Testversand]** und/oder **[!UICONTROL E-Mail-Rendering]**bei E-Mails). Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt[Testversand durchführen](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* **[!UICONTROL Send a test]**: können Sie den zu verwendenden Genehmigungsmodus auswählen: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** oder beide für eine E-Mail. Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/sending-proofs.md).
 
    Die Schaltfläche ist nur dann aktiv, wenn mindestens ein Testprofil definiert wurde.
 
    >[!NOTE]
    >
-   >Bei einem SMS-Versand ist nur der **[!UICONTROL Testversand verfügbar]**.
+   >For an SMS message, there is no other choice: it is automatically a **[!UICONTROL Proof]**.
 
-* **[!UICONTROL Versand vorbereiten]**: startet die Versandvorbereitung. Die Kachel**[!UICONTROL  Freigabe]** erscheint und zeigt das Ergebnis der Vorbereitung an. Diese Schaltfläche erscheint nur, wenn die Zielgruppe angegeben wurde. Mithilfe der Schaltfläche &quot;Vorbereitung stoppen&quot; kann die Vorbereitung jederzeit unterbrochen werden.
+* **[!UICONTROL Prepare send]**: beginnt, den Versand vorzubereiten. The **[!UICONTROL Deployment]** block appears and displays the result of the preparation. Diese Schaltfläche erscheint nur, wenn die Zielgruppe angegeben wurde. Mithilfe der Schaltfläche &quot;Vorbereitung stoppen&quot; kann die Vorbereitung jederzeit unterbrochen werden.
 
    Weiterführende Informationen zur Nachrichtenvorbereitung finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Versand bestätigen]**: löst den endgültigen Versand der Nachricht aus. In der Kachel**[!UICONTROL  Freigabe]** erscheint nun das Versandergebnis. Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. Der Versand kann mithilfe der Schaltflächen **Versand anhalten** oder **[!UICONTROL Aussetzen]**jederzeit unterbrochen werden.
+* **[!UICONTROL Confirm send]**: bestätigt das Senden der Nachricht. The sending statistics appear in the **[!UICONTROL Deployment]** block. Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. You can stop or pause the send at any time using the **Stop send** and **[!UICONTROL Pause]** buttons.
 
    Lesen Sie diesbezüglich auch den Abschnitt [Nachrichten senden](../../sending/using/confirming-the-send.md).
 
@@ -71,10 +71,10 @@ Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Freigabe]**: gibt Auskunft über den Fortschritt der Vorbereitung oder des Versands der Nachricht. Mithilfe der Schaltfläche unten rechts in der Kachel lässt sich das Analyse- und Versandprotokoll anzeigen. Diese Kachel erscheint erst nach abgeschlossener Versandvorbereitung. Weiterführende Informationen dazu finden Sie im Abschnitt[Versand bestätigen](../../sending/using/confirming-the-send.md).
-* **[!UICONTROL Audience]**: dient der Bestimmung der Hauptzielgruppe der Nachricht sowie der Testprofile. Siehe[Erstellung von Audiences](../../audiences/using/creating-audiences.md).
-* **[!UICONTROL Versandplanung]**: dient der Bestimmung des Versanddatums der Nachricht. Siehe[Über die Versandplanung](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Inhalt]**: dient der Definition und Vorschau des Nachrichteninhalts. Siehe[Wichtigste Schritte im Nachrichtenversand](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Deployment]**: ermöglicht es Ihnen, den Fortschritt der Nachrichtenvorbereitung oder des Nachrichtenversands zu verfolgen. Mithilfe der Schaltfläche unten rechts in der Kachel lässt sich das Analyse- und Versandprotokoll anzeigen. Diese Kachel erscheint erst nach abgeschlossener Versandvorbereitung. Weiterführende Informationen dazu finden Sie im Abschnitt [Versand bestätigen](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Audience]**: ermöglicht Ihnen, das Hauptziel der Nachricht sowie die Testprofile festzulegen. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
+* **[!UICONTROL Schedule]**: können Sie das Datum angeben, an dem Ihre Nachricht gesendet werden soll. Siehe [Zeitplan](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Content]**: können Sie den Inhalt der Nachricht definieren und eine Vorschau davon anzeigen. Siehe [Wichtigste Schritte im Nachrichtenversand](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Warnhinweise {#warnings}
 
