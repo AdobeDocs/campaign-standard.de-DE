@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 # Adobe Campaign Standard – Hilfe {#using}
 
 + [Produktdokumentation](campaign-standard-home.md)
-+ [Neueste Updates](rn/using/documentation-updates.md)
++ [Neueste Aktualisierungen](rn/using/documentation-updates.md)
 + Versionshinweise {#release-notes}
    + [Neueste Version](rn/using/release-notes.md)
    + Frühere Versionen {#previous-releases}
@@ -48,6 +48,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Profile bearbeiten](audiences/using/editing-profiles.md)
       + [Integriertes Kundenprofil](audiences/using/integrated-customer-profile.md)
       + [Aktive Profile](audiences/using/active-profiles.md)
+      + [Verwaltung von Testprofilen](audiences/using/managing-test-profiles.md)
    + Verwaltung von Audiences {#managing-audiences}
       + [Über Audiences](audiences/using/about-audiences.md)
       + [Audiences erstellen](audiences/using/creating-audiences.md)
@@ -122,10 +123,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + [Erste Schritte mit dem Email Designer](designing/using/quick-start.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
    + E-Mail-Inhalte erstellen{#building-email-content}
-      + [E-Mails von Grund auf neu erstellen](designing/using/designing-from-scratch.md)
+      + [Erstellen neuer E-Mails](designing/using/designing-from-scratch.md)
       + [Vorhandenen Inhalt verwenden](designing/using/using-existing-content.md)
-      + [Arbeiten mit wiederverwendbaren Inhalten](designing/using/using-reusable-content.md)
-      + [Verwenden von Integrationen mit mehreren Lösungen](designing/using/using-integrations.md)
+      + [Wiederverwendbaren Inhalt verwenden](designing/using/using-reusable-content.md)
+      + [Integrationen mit mehreren Lösungen verwenden](designing/using/using-integrations.md)
       + [Normaltext-, HTML- und mobile E-Mails bearbeiten](designing/using/plain-text-html-modes.md)
    + [E-Mail-Inhalte personalisieren](designing/using/personalization.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
@@ -136,9 +137,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
       + [Vorschau der Nachricht erzeugen](sending/using/previewing-messages.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
-      + [Testprofile verwalten und Testsendungen durchführen](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Testversand durchführen](sending/using/sending-proofs.md)
       + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
+      + [Verwenden von Fallen](sending/using/using-traps.md)
    + Versandplanung {#scheduling-messages}
       + [Über die Planung von Sendungen](sending/using/about-scheduling-messages.md)
       + [Versandzeitpunkt optimieren](sending/using/optimizing-the-sending-time.md)
@@ -194,8 +196,8 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 + Integration mit Adobe Cloud {#integrating-with-adobe-cloud}
    + [Über Campaign-Integrationen](integrating/using/about-campaign-integrations.md)
    + Verwenden von Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
-      + [Info zur Campaign-Experience Manager-Integration](integrating/using/integrating-with-experience-manager.md)
-      + [Erstellen von E-Mail-Inhalten in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
+      + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [E-Mail-Inhalt in Adobe Experience Manager erstellen](integrating/using/creating-email-experience-manager.md)
       + [Campaign-Formular in Adobe Experience Manager erstellen](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign und Target verwenden {#working-with-campaign-and-target}
       + [Über die Integration von Campaign mit Target](integrating/using/about-campaign-target-integration.md)
@@ -291,7 +293,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
       + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
       + [Kontrollgruppe erstellen](automating/using/workflow-control-group.md)
-      + [Kanalübergreifende Bereitstellung erstellen](automating/using/workflow-cross-channel-delivery.md)
+      + [Kanalübergreifenden Versand erstellen](automating/using/workflow-cross-channel-delivery.md)
    + Arbeiten mit Adobe Experience Platform-Zielgruppen {working-with-aep-audiences}
       + [Targeting von Adobe Experience Platform-Zielgruppen](automating/using/aep-targeting-audiences.md)
       + [Personalisieren von Kampagnen mithilfe von Adobe Experience Platform-Attributen](automating/using/aep-personalizing-campaigns.md)
