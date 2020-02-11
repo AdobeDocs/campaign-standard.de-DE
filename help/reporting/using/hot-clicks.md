@@ -12,15 +12,15 @@ discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
 
 # Klicks{#hot-clicks}
 
-Dieser Bericht kann über die Schaltfläche **[!UICONTROL Berichte]** in jedem Versand oder jeder Transaktionsnachricht geöffnet werden.
+This report can be accessed from the **[!UICONTROL Reports]** button in each delivery or transactional message.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -35,19 +35,19 @@ Nehmen wir zum Beispiel an, Sie hätten einen Versand mit den folgenden Bedingun
 * Der Link im Hauptbild ändert sich je nachdem, ob der Empfänger ein Mann oder eine Frau ist.
 * Sie haben auch einen Link zu einem speziellen Angebot eingefügt, das nur für Empfänger sichtbar ist, die mindestens 25 Jahre alt sind.
 
-Wählen Sie nach dem Versand der Nachricht aus dem Versand-Dashboard **[!UICONTROL Berichte]** &gt; **[!UICONTROL Klicks]**.
+Once your message is sent, select **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** from the delivery dashboard.
 
 Standardmäßig ist kein Profil ausgewählt. Angezeigt werden nur Klicks durch Empfänger, deren Geschlecht unbekannt ist und die unter 25 Jahre alt sind oder deren Alter unbekannt ist.
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-Um Klicks für Frauen anzuzeigen, wählen Sie die Schaltfläche **[!UICONTROL Profil wechseln]** und dann das Testprofil einer Frau. Um Klicks für Männer anzuzeigen, gehen Sie analog vor und wählen Sie ein Testprofil für Männer aus.
+To display clicks for women, click the **[!UICONTROL Change profile]** button and select a female test profile. Um Klicks für Männer anzuzeigen, gehen Sie analog vor und wählen Sie ein Testprofil für Männer aus.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Um Klicks für Empfänger anzuzeigen, die mindestens 25 Jahre alt sind, klicken Sie auf die Schaltfläche **[!UICONTROL Profil wechseln]** und wählen Sie dann ein Testprofil aus, dessen Geburtsdatum dieser Bedingung entspricht.
+To display clicks for recipients over 25, click the **[!UICONTROL Change profile]** button and select a test profile whose birth date is matching this condition.
 
-Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Über Testprofile](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Über Testprofile](../../audiences/using/managing-test-profiles.md).
 
 >[!NOTE]
 >
@@ -71,9 +71,9 @@ Ein Ausführungsversand ist eine nicht funktionelle und nicht ausführbare techn
 >
 >Da die Kennungen für die getrackten URLs bei jeder Ausführung unterschiedlich sind, können die Hot-Klick-Daten nicht für alle Ausführungssendungen einer bestimmten Nachricht aggregiert werden. Sie können nur jeweils für einen einzigen Ausführungsversand angezeigt werden.
 
-Wählen Sie nach dem Versand der Nachricht aus dem Versand-Dashboard **[!UICONTROL Berichte]** &gt; **[!UICONTROL Klicks]**.
+Once your message is sent, select **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** from the delivery dashboard.
 
-Standardmäßig ist der letzte Ausführungsversand ausgewählt. Klicken Sie auf die Schaltfläche **[!UICONTROL Ausführungsversand ändern]**, um einen anderen Ausführungsversand auszuwählen.
+Standardmäßig ist der letzte Ausführungsversand ausgewählt. Klicken Sie auf die **[!UICONTROL Change execution delivery]** Schaltfläche, um eine andere auszuwählen.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
