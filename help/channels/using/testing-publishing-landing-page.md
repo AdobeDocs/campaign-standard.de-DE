@@ -12,7 +12,7 @@ discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -27,7 +27,7 @@ Vor der Publikation einer Landingpage müssen Sie Tests durchführen: Validieren
 
 Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie wie folgt vor:
 
-1. Verwenden Sie hierzu die Schaltfläche **[!UICONTROL Testen]**in der Symbolleiste der Landingpage.
+1. Click the **[!UICONTROL Test]** button in the action bar of the landing page.
 1. Wenn auf der Landingpage Abonnements verarbeitet werden sollen, wählen Sie auf dem Testbildschirm ein Testprofil und einen Testdienst.
 
    ![](assets/lp_test_2.png)
@@ -45,7 +45,7 @@ Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie 
 
 >[!NOTE]
 >
->Wenn die Anwendungsserver-URL nicht sicher ist (d. h. nicht mit https:// beginnt), kann die Vorschau der Einstiegsseite nicht über die Benutzeroberfläche von Campaign angezeigt werden. Dieser Server wird beim [Konfigurieren von Marken](../../administration/using/branding.md#configuring-and-using-brands)definiert.
+>Um die Vorschau der Einstiegsseite in der Benutzeroberfläche von Campaign anzuzeigen, muss die URL des Anwendungsservers sicher sein. Verwenden Sie in diesem Fall https:// statt http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands)einzurichten.
 
 ## Gültigkeitsparameter einrichten  {#setting-up-validity-parameters}
 
@@ -55,7 +55,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Definieren Sie im Bereich **[!UICONTROL Publikation]**das Ablaufdatum und die entsprechende Uhrzeit. Die Landingpage wird automatisch am angegebenen Datum depubliziert und ist dann nicht mehr verfügbar.
+1. Set up expiration date and time in the **[!UICONTROL Publication]** section: the landing page will automatically be unpublished on the specified date and therefore no longer be available.
 
    Sie können die Zeitzone auswählen, die für dieses Datum und die Uhrzeit berücksichtigt werden soll.
 
@@ -71,4 +71,4 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 
 Wenn Sie eine Landingpage publizieren, ist sie online für Besucher verfügbar.
 
-Eine Landingpage-Depublizierung bzw. -Aktualisierung ist jederzeit über die Schaltfläche **[!UICONTROL Publizieren]**möglich. Wenn vor der erneuten Publikation die Landingpage nicht depubliziert wurde und ein Fehler auftritt, bleibt die erste Version online.
+You can unpublish or update and republish your landing page at any time, via the **[!UICONTROL Publish]** button. Wenn vor der erneuten Publikation die Landingpage nicht depubliziert wurde und ein Fehler auftritt, bleibt die erste Version online.
