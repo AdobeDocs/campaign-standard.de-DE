@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,7 +39,7 @@ Die Dokumentation zur Datenschutzverwaltung wurde aktualisiert und enthält Info
 
 Die Versionshinweise wurden neu organisiert und verbessert. [mehr dazu](../../rn/using/release-notes.md)
 
-Es wurden Informationen zur Sicherheitsgruppe &quot;Administratoren&quot;hinzugefügt, die angeben, dass die **[!UICONTROL Organisationseinheit &quot;Alle&quot;]**ihr zugewiesen ist und nicht geändert werden kann.[mehr dazu](../../administration/using/managing-groups-and-users.md)
+Es wurden Informationen zur Sicherheitsgruppe &quot;Administratoren&quot;hinzugefügt, die angeben, dass die **[!UICONTROL All (all)]** Organisationseinheit ihr zugewiesen ist und nicht geändert werden kann. [mehr dazu](../../administration/using/managing-groups-and-users.md)
 
 Es wurden Informationen darüber hinzugefügt, wie eine bestimmte Zeitzone definiert wird, die standardmäßig in einem Workflow verwendet werden soll. [mehr dazu](../../automating/using/building-a-workflow.md)
 
@@ -137,7 +137,7 @@ Im Abschnitt &quot;Push-Benachrichtigungen&quot; wurde ein neuer Abschnitt hinzu
 
 Ein neues Beispiel wurde hinzugefügt, das zeigt, wie eine E-Mail mit zusätzlichen Daten gesendet werden kann, die aus der Aktivität &quot;Datei laden&quot; abgerufen wurden – [mehr dazu](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-Ein neuer Abschnitt zur Verwendung von Fallen wurde hinzugefügt – [mehr dazu](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
+Ein neuer Abschnitt zur Verwendung von Fallen wurde hinzugefügt – [mehr dazu](../../sending/using/using-traps.md)
 
 Auf der Seite zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde zur Option **Launch_URL_Campaign** ein Hinweis hinzugefügt – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -515,15 +515,15 @@ Zusätzliche Informationen zur Vorbereitung einer Nachricht in einem Versand –
 
 Die Versionshinweise wurden auf verschiedenen Seiten neu angeordnet, sodass Sie eine umfassendere Übersicht über alle verschiedenen Versionen erhalten.
 
-Der Abschnitt über **[!UICONTROL die Verwendung von Typologien]**wurde übersichtlicher gestaltet –[mehr dazu](../../administration/using/about-typology-rules.md)
+Der **[!UICONTROL Working with typologies]** Abschnitt wurde für eine verbesserte Sichtbarkeit aktualisiert. [mehr dazu](../../administration/using/about-typology-rules.md)
 
-Eine neue Option ist jetzt verfügbar, mit der die Leistung gesteigert werden kann, wenn in einer **[!UICONTROL Abfrage]**zahlreiche Zusatzdaten definiert werden –[mehr dazu](../../automating/using/query.md)
+A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [mehr dazu](../../automating/using/query.md)
 
 Das Beispiel für den Profilimport wurde aktualisiert und enthält jetzt Tipps, wie Sie Ihre Profile für den Empfang von Briefpost konfigurieren können – [mehr dazu](../../automating/using/importing-data.md)
 
-In Workflows ist eine neue Aktivität verfügbar: die Aktivität **[!UICONTROL Anreicherung]**. –[mehr dazu](../../automating/using/enrichment.md)
+A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [mehr dazu](../../automating/using/enrichment.md)
 
-Die Aktivität **[!UICONTROL An-/Abmeldedienst]**wurde aktualisiert und unterstützt jetzt mehr Anwendungsfälle, einschließlich der Verwendung einer einzigen Datei zur Aktualisierung von Anmeldungen bei mehreren Diensten –[mehr dazu](../../automating/using/subscription-services.md)
+The **[!UICONTROL Subscription Services]** activity has been updated to support more use cases, including using a single file to update subscriptions to multiple services. [mehr dazu](../../automating/using/subscription-services.md)
 
 Eine schrittweise Anleitung zur Versandvorbereitung wurde hinzugefügt – [mehr dazu](../../sending/using/preparing-the-send.md)
 
@@ -533,7 +533,7 @@ Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion
 
 Eine Anleitung wurde hinzugefügt, in der beschrieben wird, wie Nachrichten entsprechend der Zeitzone der Benutzer in einem wiederkehrenden Workflow gesendet werden können – [mehr dazu](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]**wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt –[mehr dazu](../../channels/using/customizing-a-push-notification.md)
+Der **[!UICONTROL Customizing a push notification]** Abschnitt wurde mit Anwendungsfällen umstrukturiert. [mehr dazu](../../channels/using/customizing-a-push-notification.md)
 
 Neuer Abschnitt zur Verwaltung von Blacklists – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
