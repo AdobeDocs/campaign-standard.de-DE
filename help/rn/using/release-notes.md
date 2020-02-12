@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
+source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 **Verbesserungen bei Email Designer**
 
-Es wurde ein Problem behoben, durch das ein HTML-Tag-Element in einem veralteten Fragment hinzugefügt wurde, wenn es gepatcht und dann gespeichert wurde. (CAMP-40685) Es wurde ein Problem behoben, durch das bei Verwendung dynamischer Inhalte ein Leerzeichen hinzugefügt wurde. (CAMP-40605) Es wurde ein Problem beim Konfigurieren einer transaktionalen E-Mail-Vorlage behoben. (CAMP-40604)
+* Es wurde ein Problem behoben, durch das ein HTML-Tag-Element in einem veralteten Fragment hinzugefügt wurde, wenn es gepatcht und dann gespeichert wurde. (CAMP-40685)
+* Es wurde ein Problem behoben, durch das bei Verwendung dynamischer Inhalte ein Leerzeichen hinzugefügt wurde. (CAMP-40605)
+* Es wurde ein Problem beim Konfigurieren einer transaktionalen E-Mail-Vorlage behoben. (CAMP-40604)
 
 ## Version 20.1 - Februar 2020   {#release-20-1---february-2020}
 
