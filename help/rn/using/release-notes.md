@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
+source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 # Neueste Version{#latest-release}
 
 [Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Version 20.1.2 - Februar 2020   {#release-20-1-2---february-2020}
+
+**Verbesserungen bei Email Designer**
+
+Es wurde ein Problem behoben, durch das ein HTML-Tag-Element in einem veralteten Fragment hinzugefügt wurde, wenn es gepatcht und dann gespeichert wurde. (CAMP-40685) Es wurde ein Problem behoben, durch das bei Verwendung dynamischer Inhalte ein Leerzeichen hinzugefügt wurde. (CAMP-40605) Es wurde ein Problem beim Konfigurieren einer transaktionalen E-Mail-Vorlage behoben. (CAMP-40604)
 
 ## Version 20.1 - Februar 2020   {#release-20-1---february-2020}
 
@@ -90,9 +96,9 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 * Es wurde ein Fehler behoben, der beim Durchführen einer Datenschutzanforderung zum Löschen von Benutzerdaten dazu führte, dass Benutzerdaten nicht in Ausschlussprotokollen gelöscht wurden. (CAMP-39003)
 * Es wurde ein Problem behoben, das zu Zugänglichkeitsproblemen führte, wenn die Größe von Text in einem Containerelement geändert wurde.
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer das Popup Kalender, das beim Bewegen des Mauszeigers in Marketingaktivitäten angezeigt wurde, nicht schließen konnten.
-* Es wurde ein Problem in der Aktivität **[!UICONTROL Externe API]**behoben, durch das die Schaltfläche**[!UICONTROL  Bestätigen]** angezeigt wurde, selbst wenn keine Daten geändert wurden.
-* Es wurde ein Problem bei der Verwendung einer **[!UICONTROL Union]**-Aktivität bei Abfragen mit unterschiedlichen Zielabmessungen behoben. Die Übergangsdaten zeigten nur Datensätze aus der Targeting-Dimension des Hauptsatzes an. (CAMP-36831)
-* Es wurde ein Fehler behoben, der zu einem Fehler führte, wenn eine **[!UICONTROL Abgleichungsaktivität]**in bestimmten Kontexten verwendet wurde, z. B. bei zwei eingehenden Aktivitäten, bei denen eine davon eine Ausschlussaktivität war. (CAMP-37490)
+* Es wurde ein Problem in der **[!UICONTROL External API]** Aktivität behoben, durch das die Schaltfläche **[!UICONTROL Confirm]** angezeigt wurde, selbst wenn keine Daten geändert wurden.
+* Es wurde ein Problem bei der Verwendung einer **[!UICONTROL Union]** Aktivität bei Abfragen mit unterschiedlichen Zielabmessungen behoben. Die Übergangsdaten zeigten nur Datensätze aus der Targeting-Dimension des Hauptsatzes an. (CAMP-36831)
+* Es wurde ein Problem behoben, das bei der Verwendung einer **[!UICONTROL Reconciliation]** Aktivität in bestimmten Kontexten zu einem Fehler führen konnte, z. B. bei zwei eingehenden Aktivitäten, bei denen eine davon eine Ausschlussaktivität war. (CAMP-37490)
 * Es wurden Leistungsprobleme behoben, die beim Auswählen und Aktualisieren von Testprofilen auftraten. (CAMP-37976)
 * Es wurde ein Fehler behoben, der dazu führte, dass Fehlerseiten beim Abonnieren oder Abmelden über Einstiegsseiten angezeigt wurden. (CAMP-37771)
 * Es wurde ein Problem behoben, das beim Hochladen von Inhalten im ZIP-Format auftrat und bei dem PNG-Dateien im HTML-Code mit ihrer Erweiterung in Großbuchstaben referenziert wurden. (CAMP-37913)
