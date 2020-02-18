@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # Neueste Version{#latest-release}
 
 [Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Version 20.1.3 - Februar 2020   {#release-20-1-3---february-2020}
+
+* Korrektur des Regressionsfehlers, der in 20.1 von CAMP-39273 für Kunden eingeführt wurde, die das Schlupfloch verwenden. CAMP-39273 wurde zurückgesetzt.
 
 ## Version 20.1.2 - Februar 2020   {#release-20-1-2---february-2020}
 
@@ -66,13 +70,13 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 
 **Neuheiten**
 
-* Globale Verfügbarkeit der erweiterten MTA: Nachrichten (einschließlich Transaktionsmeldungen) werden jetzt von der Adobe Campaign Enhanced MTA gesendet, die eine aktualisierte Sendepritsche bietet, die eine verbesserte Lieferbarkeit, Durchsatz und Absprungbearbeitung ermöglicht. [mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+* Globale Verfügbarkeit der erweiterten MTA: Nachrichten (einschließlich Transaktionsmeldungen) werden jetzt von der Adobe Campaign Enhanced MTA gesendet, die eine aktualisierte Sendepritsche bietet, die eine verbesserte Lieferbarkeit, Durchsatz und Absprungbearbeitung ermöglicht. [Mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 * Die Zeitzonenverwaltung wurde verbessert. Sie können jetzt eine [bestimmte Zeitzone](../../automating/using/building-a-workflow.md) für einen gesamten Workflow definieren. Die ausgewählte Zeitzone gilt für alle Aktivitäten des Workflows. Informationen zur Zeitzone, die für den Operator oder Server konfiguriert wurde, werden jetzt in der Oberfläche angezeigt (in Protokollen und nach Auswahl einer Zeitzone). (CAMP-37672)
 
-* Kampagnen-Standard-APIs ermöglichen es Ihnen jetzt, bei Verwendung großer Tabellen Paginierung durchzuführen, indem Sie den `_forcePagination=true` Parameter zu Ihrer Aufruf-URL hinzufügen. [mehr dazu](../../api/using/pagination.md)
+* Kampagnen-Standard-APIs ermöglichen es Ihnen jetzt, bei Verwendung großer Tabellen Paginierung durchzuführen, indem Sie den `_forcePagination=true` Parameter zu Ihrer Aufruf-URL hinzufügen. [Mehr dazu](../../api/using/pagination.md)
 
-* Die Auslieferungsprotokoll-ID (eine eindeutige ID für jedes Protokoll) ist jetzt in den Auslieferungsprotokollen und in den Verfolgungsprotokollen für alle Targeting-Dimensionen verfügbar. Dadurch können beispielsweise beim Export Sende- oder Verfolgungsprotokolle identifiziert werden. [mehr dazu](../../automating/using/exporting-logs.md)
+* Die Auslieferungsprotokoll-ID (eine eindeutige ID für jedes Protokoll) ist jetzt in den Auslieferungsprotokollen und in den Verfolgungsprotokollen für alle Targeting-Dimensionen verfügbar. Dadurch können beispielsweise beim Export Sende- oder Verfolgungsprotokolle identifiziert werden. [Mehr dazu](../../automating/using/exporting-logs.md)
 
 **Verbesserungen bei Email Designer**
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * Es wurde ein Problem behoben, das zu Diskrepanzen bei den Abmeldezahlen in der dynamischen Berichterstellung führte. (CAMP-39949)
 * Es wurde ein Fehler behoben, der verhinderte, dass beim Senden von In-App-Nachrichten Adressen im Bildschirm &quot;Senden von Protokollen&quot;angezeigt wurden.
 * Es wurde ein Fehler behoben, der verhinderte, dass SMS-Senden-Protokolle mit der richtigen Anzahl von Absprüngen aktualisiert wurden. (CAMP-38395)
+* Es wurde ein Fehler behoben, der dazu führte, dass die Push-Benachrichtigungstoken durch die Beitragsaufrufe des Anwendungsabonnements aktualisiert werden konnten. (CAMP-39273)
