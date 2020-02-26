@@ -11,8 +11,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -55,11 +55,7 @@ Wenn Sie die Lösungen von Adobe Experience Cloud mit Adobe Campaign kombinieren
 
    Weiterführende Informationen dazu finden Sie im Abschnitt [Verwenden von Experience Cloud Triggers in Campaign Standard](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
-* Ermöglicht die Nutzung der umfassenden Funktionen des Adobe Creative SDK, um Bilder direkt im Inhaltseditor während der Bearbeitung von E-Mails oder Landingpages zu bearbeiten.
-
-   Weiterführende Informationen dazu finden Sie im Abschnitt [Bilder mit Adobe Creative SDK bearbeiten](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk).
-
 * Mithilfe des Experience Platform SDK kann eine Mobile-App-Eigenschaft automatisch in Adobe Campaign aktiviert werden.
 
-   Weiterführende Informationen dazu finden Sie im Abschnitt [Konfiguration einer Mobile App mithilfe von Experience Platform SDKs](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
+   Weiterführende Informationen dazu finden Sie im Abschnitt [Konfiguration einer Mobile App mithilfe von Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
