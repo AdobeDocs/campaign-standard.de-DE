@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
+source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 ---
 
@@ -98,6 +98,8 @@ source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 * Die organisatorische Einheit der Sicherheitsgruppe &quot;Administratoren&quot;kann nicht mehr geändert werden.
 * Beim Erstellen eines Profils muss jetzt das Feld für die Einheit des Unternehmens ausgefüllt werden.
 * Ein Experience Cloud-Auslöser kann jetzt nur gelöscht werden, wenn sowohl das Ereignis als auch die mit ihm verknüpfte Transaktionsvorlage gelöscht werden.
+* Adobe Creative SDK wurde abgesetzt. Es wird jetzt in Campaign Standard nicht mehr unterstützt. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+
 
 **Korrekturen**
 
