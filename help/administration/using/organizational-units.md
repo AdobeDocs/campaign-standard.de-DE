@@ -12,7 +12,7 @@ discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
@@ -26,13 +26,13 @@ Alle Objekte und Benutzer der Plattform sind einer Organisationseinheit zugeordn
 
 >[!IMPORTANT]
 >
->Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]**zugeordnet werden.
+>Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]** zugeordnet werden.
 >
->Standardmäßig wird die organisatorische Einheit **[!UICONTROL Alle (Alle)]**der Sicherheitsgruppe**[!UICONTROL  Administratoren]** zugewiesen. Es ist schreibgeschützt und kann nicht geändert werden.
+>Standardmäßig wird die Organisationseinheit **[!UICONTROL Alle (all)]** der Sicherheitsgruppe **[!UICONTROL Administratoren]** zugewiesen. Sie ist schreibgeschützt und kann nicht geändert werden.
 
 Der Zugriff eines Benutzers auf Objekte übergeordneter Einheiten ist schreibgeschützt. Ein Benutzer verfügt über Lese- und Schreibzugriff auf Objekte seiner Einheit sowie untergeordneter Einheiten. Benutzer haben keinen Zugriff auf Objekte aus Parallelzweigen.
 
-Standardmäßig sind nur die Einheiten **[!UICONTROL Alle]**verfügbar.
+Standardmäßig sind nur die Einheiten **[!UICONTROL Alle]** verfügbar.
 
 Wenn einem Benutzer eine Organisationseinheit zugewiesen wird, wird diese Einheit stets auf die vom Benutzer erstellten Objekte angewendet.
 
@@ -42,7 +42,7 @@ Wenn einem Benutzer eine Organisationseinheit zugewiesen wird, wird diese Einhei
 >
 >Wenn ein Benutzer mehreren Gruppen mit verschiedenen zugeordneten Einheiten angehört, gelten bestimmte Regeln. Weiterführende Informationen finden Sie im Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md).
 
-## Einheiten erstellen und verwalten {#creating-and-managing-units}
+## Einheiten erstellen und verwalten   {#creating-and-managing-units}
 
 Mit Organisationseinheiten können Sie Ihre Instanz nach der Organisation filtern, mit der Ihre Benutzer verknüpft sind. Diese Einheit kann eine Region, ein Land oder sogar eine Marke in Ihrer Instanz sein.
 
@@ -50,30 +50,30 @@ Für unser Beispiel haben wir zuvor Sicherheitsgruppen erstellt und dabei zwei B
 
 Jetzt müssen wir die Organisationseinheiten für die Sicherheitsgruppen &quot;Geometrixx Clothes&quot; und &quot;Geometrixx&quot; erstellen:
 
-1. Wählen Sie im erweiterten Menü von Adobe Campaign **[!UICONTROL Administration]**>**[!UICONTROL  Benutzer &amp; Sicherheit]** > **[!UICONTROL Organisationseinheiten]**.
-1. Konfigurieren Sie unter Verwendung der Schaltfläche **[!UICONTROL Erstellen]**Ihre Organisationseinheit.
+1. Wählen Sie im erweiterten Menü von Adobe Campaign **[!UICONTROL Administration]** > **[!UICONTROL Benutzer &amp; Sicherheit]** > **[!UICONTROL Organisationseinheiten]**.
+1. Konfigurieren Sie unter Verwendung der Schaltfläche **[!UICONTROL Erstellen]** Ihre Organisationseinheit.
 
    ![](assets/manage_units_1.png)
 
-1. Ändern Sie den standardmäßigen **[!UICONTROL Titel]**und die**[!UICONTROL  Kennung]** in &quot;Geometrixx&quot;.
+1. Ändern Sie den standardmäßigen **[!UICONTROL Titel]** und die **[!UICONTROL Kennung]** in &quot;Geometrixx&quot;.
 1. Verknüpfen Sie dann diese Einheit mit einer übergeordneten Einheit. In unserem Beispiel wählen wir **[!UICONTROL Alle]**.
 
    ![](assets/manage_units_2.png)
 
-1. Wählen Sie abschließend **[!UICONTROL Erstellen]**aus, um Ihre neue Organisationseinheit einer Sicherheitsgruppe zuzuweisen.
+1. Wählen Sie abschließend **[!UICONTROL Erstellen]** aus, um Ihre neue Organisationseinheit einer Sicherheitsgruppe zuzuweisen.
 1. Gehen Sie für die Geometrixx-Clothes-Einheit ebenso vor, beachten Sie jedoch, dass die übergeordnete Einheit die zuvor erstellte Geometrixx-Einheit sein muss.
 
    ![](assets/manage_units_3.png)
 
 Wie sich die Zuweisung unterschiedlicher Einheiten zu unterschiedlichen Sicherheitsgruppen auswirkt, wird ersichtlich, wenn der Benutzer, der der Administrator- und Geometrixx-Gruppe zugewiesen ist, zwei E-Mail-Vorlagen erstellt. Darin kann er feststellen, worauf der andere Benutzer, der den Standardbenutzern und Geometrixx Clothes zugewiesen ist, zugreifen kann und worauf nicht.
 
-1. Wählen Sie im erweiterten Menü **[!UICONTROL Ressourcen]**>**[!UICONTROL  Vorlagen]** > **[!UICONTROL Versandvorlagen]**aus.
+1. Wählen Sie im erweiterten Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Versandvorlagen]** aus.
 1. Duplizieren Sie eine vorhandene Vorlage und personalisieren Sie sie nach Bedarf. Weiterführende Informationen finden Sie im Abschnitt [Über Vorlagen](../../start/using/marketing-activity-templates.md).
-1. Wählen Sie bei der Erstellung der Vorlage das Symbol **[!UICONTROL Eigenschaften bearbeiten]**aus, um Ihrer Vorlage Einheiten zuzuweisen.
+1. Wählen Sie bei der Erstellung der Vorlage das Symbol **[!UICONTROL Eigenschaften bearbeiten]** aus, um Ihrer Vorlage Einheiten zuzuweisen.
 
    ![](assets/manage_units_6.png)
 
-1. Wählen Sie im Dropdown-Menü **[!UICONTROL Zugriffsberechtigung]**die Organisationseinheit aus.
+1. Wählen Sie im Dropdown-Menü **[!UICONTROL Zugriffsberechtigung]** die Organisationseinheit aus.
 
    Hier erstellen wir eine Vorlage mit der zuvor generierten Organisationseinheit &quot;Geometrixx&quot;.
 
@@ -113,10 +113,10 @@ Auf Profile ohne Organisationseinheiten kann nach Erweiterung der Ressource nich
 
    ![](assets/user_management_9.png)
 
-1. Wählen Sie **[!UICONTROL Speichern]**aus.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Aktualisieren Sie die Struktur durch eine erneute Publikation. Weitere Informationen zur Publikation finden Sie im Abschnitt [Datenstruktur aktualisieren](../../developing/using/data-model-concepts.md).
 
-Das Feld für Organisationseinheiten wird Ihren Profilen im Bereich **[!UICONTROL Zugriffsberechtigung]**hinzugefügt.
+Das Feld für Organisationseinheiten wird Ihren Profilen im Bereich **[!UICONTROL Zugriffsberechtigung]** hinzugefügt.
 
 ![](assets/user_management_10.png)
 
