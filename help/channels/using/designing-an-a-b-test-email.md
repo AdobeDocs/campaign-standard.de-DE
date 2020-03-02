@@ -12,7 +12,7 @@ discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
@@ -28,7 +28,7 @@ Sie haben die Möglichkeit, Inhalt, Betreff oder Absender der E-Mail zu variiere
 >
 >In Adobe Experience Manager können keine A/B-Tests für E-Mails erstellt werden.
 
-## A/B-Test-E-Mail erstellen  {#creating-an-a-b-test-email}
+## A/B-Test-E-Mail erstellen   {#creating-an-a-b-test-email}
 
 Die Erstellung eines A/B-Tests erfolgt mithilfe des um eine Etappe erweiterten E-Mail-Erstellungsassistenten. Weiterführende Informationen zur Erstellung einer Standard-E-Mail finden Sie im Abschnitt [E-Mails erstellen](../../channels/using/creating-an-email.md).
 
@@ -71,13 +71,13 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
 1. Prüfen Sie Ihre E-Mail dem A/B-Test durch den Versand von Testsendungen.
 1. Bestätigen Sie nach Abschluss der Vorbereitung den Start des A/B-Tests. Nach der Bestätigung lassen sich die A/B-Test-Parameter nicht mehr abändern.
 
-   Der A/B-Test beginnt am dem Tag, der in der **[!UICONTROL Planung]**definiert ist. Sie können den Fortschritt anhand der Kacheln**[!UICONTROL  A/B-Test]** und **[!UICONTROL Freigabe]**verfolgen.
+   Der A/B-Test beginnt am dem Tag, der in der **[!UICONTROL Planung]** definiert ist. Sie können den Fortschritt anhand der Kacheln **[!UICONTROL A/B-Test]** und **[!UICONTROL Freigabe]** verfolgen.
 
    Sollten Sie die Testdauer verkürzen wollen, können Sie jederzeit manuell die Gewinnervariante auswählen.
 
-   Nach Beendigung des Tests bietet die Kachel **[!UICONTROL A/B-Test]**Zugriff auf eine Übersichtstabelle, die verschiedene auf die getesteten Varianten bezogene Indikatoren enthält.
+   Nach Beendigung des Tests bietet die Kachel **[!UICONTROL A/B-Test]** Zugriff auf eine Übersichtstabelle, die verschiedene auf die getesteten Varianten bezogene Indikatoren enthält.
 
-1. Sollten Sie als Versandmethode **[!UICONTROL Versand nach Bestätigung]**ausgewählt haben, müssen Sie den Versand der Gewinnervariante manuell auswählen, um den Versand an die verbleibende Population zu starten. Wenn Sie**[!UICONTROL  Automatisch]** ausgewählt haben, wird die Gewinnervariante automatisch an die verbleibende Population gesendet, sobald sie vom System ermittelt wurde.
+1. Sollten Sie als Versandmethode **[!UICONTROL Versand nach Bestätigung]** ausgewählt haben, müssen Sie den Versand der Gewinnervariante manuell auswählen, um den Versand an die verbleibende Population zu starten. Wenn Sie **[!UICONTROL Automatisch]** ausgewählt haben, wird die Gewinnervariante automatisch an die verbleibende Population gesendet, sobald sie vom System ermittelt wurde.
 
    >[!NOTE]
    >
@@ -93,4 +93,4 @@ Video zur [E-Mail-Erstellung](https://docs.adobe.com/content/help/en/campaign-le
 
 Im E-Mail-Dashboard sind mehrere Indikatoren verfügbar, mit denen Sie Ihren A/B-Test auswerten können: Anzahl der Klicks, Öffnungen, Bounces usw.
 
-Der Indikator **[!UICONTROL Geschätzte Empfänger-Reaktivität]**vergleicht die Anzahl der Empfänger, die auf die E-Mail geklickt haben, mit der Anzahl der Empfänger, die die E-Mail geöffnet haben. Beispiel: Zehn Empfänger haben die E-Mail geöffnet und fünf Empfänger haben darauf geklickt. Die Reaktionsrate beträgt somit 50 %.
+Der Indikator **[!UICONTROL Geschätzte Empfänger-Reaktivität]** vergleicht die Anzahl der Empfänger, die auf die E-Mail geklickt haben, mit der Anzahl der Empfänger, die die E-Mail geöffnet haben. Beispiel: Zehn Empfänger haben die E-Mail geöffnet und fünf Empfänger haben darauf geklickt. Die Reaktionsrate beträgt somit 50 %.
