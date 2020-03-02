@@ -1,6 +1,6 @@
 ---
-title: Übersicht
-description: Erfahren Sie mehr über die Entwicklung von Abonnements und Abonnements im vordefinierten Bericht "Service Summary".
+title: Dienstzusammenfassung
+description: Erfahren Sie mehr über die Entwicklung von Anmeldungen und Abmeldungen im vordefinierten Bericht „Dienstzusammenfassung“.
 page-status-flag: never-activated
 uuid: 712b26b2-3b4b-487c-8d47-e56dc34609a4
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 9349de98-6b77-4d1c-b2fe-cf44cdcd07ce
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d29bbe135f141bf6f3da37c048ab64732638eed2
 
 ---
 
 
-# Übersicht{#service-summary}
+# Dienstzusammenfassung{#service-summary}
 
-In der **[!UICONTROL Service-Zusammenfassung]**wird die Entwicklung von Abonnements und Abonnements für Ihren Dienst beschrieben.
-Auf diesen Bericht kann nur über das erweiterte Menü**[!UICONTROL  Profiles &amp; Audiences]** > **[!UICONTROL Services]**von Ihrer Seite zugegriffen werden. Weiterführende Informationen hierzu finden Sie auf dieser[Seite](../../audiences/using/monitoring-subscriptions.md#service-reports).
+In der **[!UICONTROL Dienstzusammenfassung]** wird die Entwicklung von Anmeldungen und Abmeldungen für Ihren Dienst beschrieben.
+Auf diesen Bericht kann nur von Ihrer Dienstseite aus über das erweiterte Menü **[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Dienste]** zugegriffen werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 
-Die Visualisierung der **[!UICONTROL Abonnemententwicklung kuratiert]**die Anzahl der Abonnements und Abonnements in Abhängigkeit vom in der Dropdown-Leiste gewählten**[!UICONTROL  Zeitraum]** .
+Die Visualisierung **[!UICONTROL Kurven zur Anmeldeentwicklung]** zeigt die Anzahl der Anmeldungen und Abmeldungen in Abhängigkeit vom in der Dropdown-Leiste gewählten **[!UICONTROL Zeitraum]**.
 
-Die **[!UICONTROL Entwicklung]**der Abonnements insgesamt ermöglicht Ihnen, die Entwicklung Ihrer Abonnenten über verschiedene Zeiträume hinweg zu sehen.
+Die **[!UICONTROL Gesamtentwicklung der Anmeldungen]** ermöglicht Ihnen, die Entwicklung Ihrer Abonnenten über verschiedene Zeiträume hinweg zu sehen.
