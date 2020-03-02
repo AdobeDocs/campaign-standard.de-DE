@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
 
 ---
@@ -25,7 +25,7 @@ Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Erei
 
 >[!NOTE]
 >
->Informationen zum Erstellen und Publizieren von Ereignissen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+>Informationen zum Erstellen und Publizieren von Ereignissen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/de/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Sie möchten zum Beispiel, dass ein &quot;Warenkorbabbruch&quot; ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Warenkorb gekauft hat. Dazu muss Ihr Web-Entwickler die REST Transactional Messages-API verwenden.
 
@@ -50,7 +50,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Beachten Sie, dass der API-Endpunkt für Transaktionsnachrichten auch während der API-Vorschau sichtbar ist.)
 
-* **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereignisdefinition generiert. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereignisdefinition generiert. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/de/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### POST-Anfrage-Kopfzeile
 
@@ -69,7 +69,7 @@ Sie müssen einen Zeichensatz hinzufügen, z. B. **utf-8**. Beachten Sie, dass d
 
 ### POST-Anfrage-Hauptteil
 
-Die Ereignisdaten sind im JSON-POST-Hauptteil enthalten. Die Ereignisstruktur hängt von der entsprechenden Definition ab. Die Schaltfläche &quot;API-Vorschau&quot; im Bildschirm &quot;Ressourcendefinition&quot; bietet ein Anfragebeispiel. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+Die Ereignisdaten sind im JSON-POST-Hauptteil enthalten. Die Ereignisstruktur hängt von der entsprechenden Definition ab. Die Schaltfläche &quot;API-Vorschau&quot; im Bildschirm &quot;Ressourcendefinition&quot; bietet ein Anfragebeispiel. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/de/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Die folgenden optionalen Parameter können zum Ereignisinhalt hinzugefügt werden, um das Senden von mit dem Ereignis verknüpften Transaktionsnachrichten zu verwalten:
 
@@ -88,7 +88,7 @@ Die POST-Antwort gibt den Status des Transaktionsereignisses zum Zeitpunkt der E
 
 <br/>
 
-***Beispielanfrage ***
+***Beispielanfrage***
 
 POST-Anfrage zum Senden des Ereignisses.
 
@@ -140,7 +140,7 @@ In der Antwort können Sie im Feld &quot;Status&quot; ermitteln, ob das Ereignis
 
 * **Ausstehend**: Das Ereignis steht aus – das Ereignis erhält diesen Status, wenn es gerade ausgelöst wurde.
 * **Verarbeitung**: Das Ereignis muss noch versandt werden – es wird in eine Nachricht umgewandelt und die Nachricht wird gesendet.
-* **Angehalten**: Der Ereignisvorgang wurde angehalten. Das Ereignis wird nicht mehr verarbeitet, sondern in einer Warteschlange in der Adobe Campaign-Datenbank aufbewahrt. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **Angehalten**: Der Ereignisvorgang wurde angehalten. Das Ereignis wird nicht mehr verarbeitet, sondern in einer Warteschlange in der Adobe Campaign-Datenbank aufbewahrt. Weiterführende Informationen finden Sie in der [Campaign-Dokumentation](https://helpx.adobe.com/de/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
 * **Verarbeitet**: Das Ereignis wurde verarbeitet und die Nachricht wurde erfolgreich gesendet.
 * **Ignoriert**: Das Ereignis wurde vom Versand ignoriert, normalerweise dann, wenn eine Adresse unter Quarantäne steht.
 * **Versand fehlgeschlagen**: Bei der Verarbeitung des Ereignisses ist ein Versandfehler aufgetreten.
