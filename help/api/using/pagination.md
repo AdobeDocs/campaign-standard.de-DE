@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 ---
@@ -31,7 +31,7 @@ Mit dem Parameter **_lineCount** können Sie die Zahl der in der Antwort aufgeli
 
 <br/>
 
-***Beispielanfrage ***
+***Beispielanfrage***
 
 Beispielhafte GET-Anfrage zum Anzeigen eines Datensatzes der Profilressource
 
@@ -43,7 +43,7 @@ Beispielhafte GET-Anfrage zum Anzeigen eines Datensatzes der Profilressource
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Antwort auf die Anforderung mit dem **nächsten** Knoten, der Paginierung durchführen soll.
+Antwort auf die Anfrage, wobei der Knoten **Nächste** die Paginierung ausführt.
 
 ```
 {
@@ -64,7 +64,7 @@ Antwort auf die Anforderung mit dem **nächsten** Knoten, der Paginierung durchf
 }
 ```
 
-Standardmäßig ist der **nächste** Knoten nicht verfügbar, wenn Tabellen mit einer großen Datenmenge interagieren. Um Paginierung durchführen zu können, müssen Sie den Parameter **_forcePagination=true** zu Ihrer Aufruf-URL hinzufügen.
+Standardmäßig ist der Knoten **Nächste** nicht verfügbar, wenn Tabellen mit einer großen Datenmenge verarbeitet werden. Um die Paginierung auszuführen, müssen Sie den Parameter **_forcePagination=true** zu Ihrer Aufruf-URL hinzufügen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -76,4 +76,4 @@ Standardmäßig ist der **nächste** Knoten nicht verfügbar, wenn Tabellen mit 
 
 >[!NOTE]
 >
->Die Anzahl der Datensätze, über denen eine Tabelle als groß betrachtet wird, wird in der Option &quot;Kampagnenstandard XtkBigTableThreshold&quot; **definiert** . Der Standardwert ist 100.000 Datensätze.
+>Die Anzahl der Datensätze, ab der eine Tabelle als groß angesehen wird, wird in der Campaign Standard-Option **XtkBigTableThreshold** definiert. Der Standardwert ist 100.000 Datensätze.
