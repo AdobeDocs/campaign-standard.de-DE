@@ -12,7 +12,7 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
@@ -26,9 +26,9 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 * Zielgruppen-Mappings konfigurieren, um die technischen Einstellungen zum Senden von Nachrichten vorzunehmen
 * Interne Benachrichtigungen innerhalb der Anwendung einrichten usw.
 
-These settings are available from the **[!UICONTROL Administration]**/**[!UICONTROL  Application settings]** menu.
+Diese Einstellungen sind im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** verfügbar.
 
-Darüber hinaus stehen Ihnen im Menü **[!UICONTROL Optionen]**technische Auswahlmöglichkeiten zur Verfügung, mit denen Sie die Anwendung genauer konfigurieren können. Einige von ihnen sind native Optionen und werden automatisch gemeinsam mit Campaign installiert, andere können bei Bedarf manuell hinzugefügt werden (die verfügbaren Optionen variieren je nach den mit Ihrer Instanz installierten Packages).
+Darüber hinaus stehen Ihnen im Menü **[!UICONTROL Optionen]** technische Auswahlmöglichkeiten zur Verfügung, mit denen Sie die Anwendung genauer konfigurieren können. Einige von ihnen sind native Optionen und werden automatisch gemeinsam mit Campaign installiert, andere können bei Bedarf manuell hinzugefügt werden (die verfügbaren Optionen variieren je nach den mit Ihrer Instanz installierten Packages).
 
 >[!IMPORTANT]
 >
