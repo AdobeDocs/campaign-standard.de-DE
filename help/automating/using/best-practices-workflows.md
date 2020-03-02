@@ -11,7 +11,7 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
@@ -40,7 +40,7 @@ Beispiel:
 
 ## Workflows duplizieren{#duplicating-workflows}
 
-Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketingaktivitäten]**den Mauszeiger über den jeweiligen Workflow und wählen Sie**[!UICONTROL  Element duplizieren]** aus. Nach dem Duplizieren werden Änderungen des Workflows nicht in die Kopie des Workflows übernommen. Die Kopie des Workflows kann bearbeitet werden.
+Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketingaktivitäten]** den Mauszeiger über den jeweiligen Workflow und wählen Sie **[!UICONTROL Element duplizieren]** aus. Nach dem Duplizieren werden Änderungen des Workflows nicht in die Kopie des Workflows übernommen. Die Kopie des Workflows kann bearbeitet werden.
 
 ![](assets/duplicating_workflow.png)
 
@@ -66,9 +66,9 @@ Auch mit schwebenden Transitionen kann ein Workflow ausgeführt werden. Bei der 
 
 Weiterführende Informationen finden Sie im Abschnitt zum [Ausführen von Workflows](../../automating/using//executing-a-workflow.md).
 
-### Time zone
+### Zeitzone
 
-Mit den Workflow-Eigenschaften können Sie eine bestimmte Zeitzone definieren, die standardmäßig in allen zugehörigen Aktivitäten verwendet wird. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Kampagnenoperator definierte Zeitzone.
+Mit den Eigenschaften des Workflows können Sie eine bestimmte Zeitzone definieren, die standardmäßig in allen zugehörigen Aktivitäten verwendet wird. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
 
 
 ## Aktivität{#activity}
@@ -96,9 +96,9 @@ Zum Duplizieren vorhandener Aktivitäten können Sie Copy &amp; Paste verwenden.
 
 ### Aktivität &quot;Planung&quot;{#acheduler-activity}
 
-Pro Workflow-Verzweigung darf nur eine einzige **[!UICONTROL Planung]**verwendet werden. Wenn dieselbe Verzweigung eines Workflows mehrere Planungen enthält, die miteinander verknüpft sind, steigt die Anzahl der auszuführenden Aufgaben exponentiell an, wodurch die Datenbank überlastet würde.
+Pro Workflow-Verzweigung darf nur eine einzige **[!UICONTROL Planungsaktivität]** verwendet werden. Wenn dieselbe Verzweigung eines Workflows mehrere Planungen enthält, die miteinander verknüpft sind, steigt die Anzahl der auszuführenden Aufgaben exponentiell an, wodurch die Datenbank überlastet würde.
 
-Sie können die jeweils nächsten zehn Ausführungen Ihrer Workflows in der Vorschau anzeigen, indem Sie **[!UICONTROL Vorschau der nächsten Ausführungen]**auswählen.
+Sie können die jeweils nächsten zehn Ausführungen Ihrer Workflows in der Vorschau anzeigen, indem Sie **[!UICONTROL Vorschau der nächsten Ausführungen]** auswählen.
 
 ![](assets/preview_scheduler.png)
 
@@ -108,7 +108,7 @@ Weiterführende Informationen dazu finden Sie in der [Planungsaktivität](../../
 
 Achten Sie darauf, dass der Name und die Anzahl der Parameter mit den beim Aufruf des Workflows definierten übereinstimmen (siehe [Parameter beim Aufruf des Workflows definieren](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
 
-Stellen Sie sicher, dass alle Parameter in der Aktivität **[!UICONTROL Externes Signal deklariert wurden]**. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
+Stellen Sie sicher, dass alle Parameter in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurden. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
 
 Weiterführende Informationen dazu finden Sie unter [Workflow mit externen Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -118,8 +118,8 @@ Um Packages zu exportieren, dürfen die exportierten Ressourcen keine Standardke
 
 ## Listenexport{#exporting-lists}
 
-Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]**>**[!UICONTROL  Anwendungskonfiguration]** > **[!UICONTROL Optionen]**verwaltet werden.
-Weiterführende Informationen dazu finden Sie unter[Listenexport](../../automating/using/exporting-lists.md).
+Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** verwaltet werden.
+Weiterführende Informationen dazu finden Sie unter [Listenexport](../../automating/using/exporting-lists.md).
 
 ## Problembehebung{#workflow-troubleshooting}
 
@@ -135,15 +135,15 @@ Weiterführende Informationen dazu finden Sie unter [Workflow-Ausführung überw
 
 Sie können SQL-Anfragen im Protokoll-Tab analysieren.
 
-1. Wählen Sie im Workflow-Arbeitsbereich **[!UICONTROL Eigenschaften bearbeiten]**aus.
-1. In  **[!UICONTROL General]**>**[!UICONTROL  Execution]**, check the **[!UICONTROL Save SQL queries in the log]**and**[!UICONTROL  Execute in the engine]** options and click **[!UICONTROL Confirm]**.
+1. Wählen Sie im Workflow-Arbeitsbereich **[!UICONTROL Eigenschaften bearbeiten]** aus.
+1. Aktivieren Sie unter **[!UICONTROL Allgemein]** > **[!UICONTROL Ausführung]** die Optionen **[!UICONTROL SQL-Abfragen im Protokoll speichern]** und **[!UICONTROL In der Engine ausführen]** und wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-**So können Sie sich SQL-Anfragen im Protokoll ansehen:**
-1. Wählen Sie **[!UICONTROL Protokoll und Aufgaben]**aus.
-1. Öffnen Sie im Tab **[!UICONTROL Logs]**das Fenster**[!UICONTROL  Suche]**.
+**So können Sie sich SQL-Abfragen im Protokoll ansehen:**
+1. Wählen Sie **[!UICONTROL Protokoll und Aufgaben]** aus.
+1. Öffnen Sie im Tab **[!UICONTROL Logs]** das Fenster **[!UICONTROL Suche]**.
 1. Aktivieren Sie die Option **[!UICONTROL Nur SQL-Protokolle anzeigen]**.
 
-Die Abfrage wird in der Spalte **[!UICONTROL Nachricht]**der Protokolle angezeigt.
+Die Abfrage wird in der Spalte **[!UICONTROL Nachricht]** der Protokolle angezeigt.
 
 ### Versandlogs{#using-delivery-logs}
 
