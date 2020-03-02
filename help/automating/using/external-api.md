@@ -9,7 +9,7 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-Mit der Aktivität **[!UICONTROL Externe API]**können Daten aus einem** externen System **über einen** REST-API **-Aufruf in den Workflow integriert werden.
+Mit der Aktivität **[!UICONTROL Externe API]** können Daten aus einem **externen System** über einen **REST-API**-Aufruf in den Workflow integriert werden.
 
 Die REST-Endpunkte können ein Customer Management System, die Plattform [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) oder ein Experience Cloud REST-Endpunkt (Data Platform, Target, Analytics, Campaign usw.) sein.
 
@@ -31,7 +31,7 @@ Die REST-Endpunkte können ein Customer Management System, die Plattform [Adobe 
 
 >[!IMPORTANT]
 >
->Diese Funktion befindet sich derzeit in der Betaphase. Vor der Verwendung der Externe API-Aktivität müssen Sie die Nutzungsvereinbarung akzeptieren. Bitte beachten Sie, dass diese Beta-Funktion noch nicht von Adobe kommerziell veröffentlicht wurde und nicht von Adobe Client Care unterstützt wird. Sie kann Fehler enthalten und nicht wie andere veröffentlichte Funktionen funktionieren.
+>Diese Funktion befindet sich derzeit in der Betaphase. Vor der Verwendung der Externe API-Aktivität müssen Sie die Nutzungsvereinbarung akzeptieren. Beachten Sie, dass diese Betafunktion von Adobe noch nicht veröffentlicht wurde und daher vom Adobe-Kundendienst nicht unterstützt wird. Die Funktion kann Fehler enthalten und funktioniert möglicherweise nicht so gut wie veröffentlichte Funktionen.
 
 Die Hauptmerkmale dieser Aktivität sind:
 
@@ -53,7 +53,7 @@ Für diese Aktivität wurden folgende Limits festgelegt:
 
 ## Konfiguration {#configuration}
 
-Ziehen Sie die Aktivität **[!UICONTROL Externe API]**in Ihren Workflow und öffnen Sie sie, um sie zu konfigurieren.
+Ziehen Sie die Aktivität **[!UICONTROL Externe API]** in Ihren Workflow und öffnen Sie sie, um sie zu konfigurieren.
 
 ### Eingehendes Mapping
 
