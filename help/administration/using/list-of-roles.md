@@ -12,7 +12,7 @@ discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
@@ -24,21 +24,21 @@ Adobe Campaign bietet standardmäßig eine Auswahl an Benutzerrollen zur Definit
 
 ![](assets/user_management_3.png)
 
-Rollen können über das Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Rollen]**verwaltet werden.
+Rollen können über das Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Rollen]** verwaltet werden.
 
 Standardberechtigungen sind:
 
 * **[!UICONTROL Administration]**: Berechtigt zur allgemeinen Administration.
-* **[!UICONTROL Data Model]**: Berechtigt zur Durchführung von Publikationen und zur Erstellung von benutzerdefinierten Ressourcen.
+* **[!UICONTROL Datamodel]**: Berechtigt zur Durchführung von Veröffentlichungen und zur Erstellung von benutzerdefinierten Ressourcen.
 * **[!UICONTROL Export]**: Berechtigt zum Export von Daten.
-* **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Dazu muss die Rolle**[!UICONTROL  Allgemeiner Import]** mit der **[!UICONTROL Workflow]**-Rolle verknüpft werden.
+* **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Dazu muss die Rolle **[!UICONTROL Allgemeiner Import]** mit der **[!UICONTROL Workflow]**-Rolle verknüpft werden.
 * **[!UICONTROL Sendungen vorbereiten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten und Löschen von Sendungen. Benutzer mit dieser Rolle können einen Versand vorbereiten, aber nicht durchführen.
 * **[!UICONTROL Sendungen starten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten, Senden und Löschen von Sendungen.
 * **[!UICONTROL Workflow]**: Berechtigung zum Erstellen, Ändern, Starten und Löschen von Workflows. Benutzer mit dieser Rolle können auch in einem Workflow keine Sendungen durchführen.
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Deliverability]**,**[!UICONTROL  Command execution]**, **[!UICONTROL Export]**,**[!UICONTROL  File access]** and **[!UICONTROL Message Center push]**roles are for Adobe administrators internal use only. Diese Rollen sollten Benutzern nicht gewährt werden.
+>Die Rollen **[!UICONTROL Zustellbarkeit]**, **[!UICONTROL Befehlsausführung]**, **[!UICONTROL Export]**, **[!UICONTROL Zugriff auf Daten]** und **[!UICONTROL Message Center Push]** sind nur für die interne Nutzung durch Adobe-Administratoren vorgesehen. Diese Rollen sollten Benutzern nicht gewährt werden.
 
 **Verwandte Themen:**
 
