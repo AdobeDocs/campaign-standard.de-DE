@@ -11,7 +11,7 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
 
 ---
@@ -19,18 +19,18 @@ source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
 
 # Listenexport{#exporting-lists}
 
-In Adobe Campaign lassen sich Inhalte von Listen direkt in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. Durch das Exportieren einer Liste in eine Datei wird im Menü **[!UICONTROL Export-Audits]**ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt[Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
+In Adobe Campaign lassen sich Inhalte von Listen direkt in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. Durch das Exportieren einer Liste in eine Datei wird im Menü **[!UICONTROL Export-Audits]** ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
 
-Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit** definiert wurden. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]**>**[!UICONTROL  Anwendungskonfiguration]** > **[!UICONTROL Optionen]**verwaltet werden.
+Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit** definiert wurden. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** verwaltet werden.
 
 Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-Ansicht aufweisen, vorausgesetzt der Benutzer verfügt über die Benutzerrolle **[!UICONTROL EXPORT (export)]**.
 
-1. Gehen Sie in einen beliebigen Bildschirm vom Typ **Liste**, beispielsweise die Testprofil-Übersicht (**[!UICONTROL Profile &amp; Audiences]**>**[!UICONTROL  Testprofile]** ).
+1. Gehen Sie zu dem von Ihnen ausgewählten Bildschirm vom Typ **Liste**, beispielsweise die Testprofil-Übersicht (**[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Testprofile]** ).
 1. Stellen Sie sicher, dass der Bildschirm sich im Anzeigemodus **Liste** befindet.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Ordnen Sie die Spalten der Liste mithilfe der Schaltfläche **[!UICONTROL Liste konfigurieren]**oben rechts so an, wie sie exportiert werden sollen. Neben den so ausgewählten Spalten wird auch der Primärschlüssel der Ressource exportiert.
+1. Ordnen Sie die Spalten der Liste mithilfe der Schaltfläche **[!UICONTROL Liste konfigurieren]** oben rechts so an, wie sie exportiert werden sollen. Neben den so ausgewählten Spalten wird auch der Primärschlüssel der Ressource exportiert.
 1. Bei Bedarf können die Daten gefiltert werden. Verwenden Sie die Schaltfläche links oben, um das Suchemenü einzublenden.
 
    Wenn der Export ausgehend von einer Liste mit Ressourcen verschiedenen Typs konfiguriert wird, ist diese zunächst zu filtern, sodass nur ein Ressourcentyp angezeigt wird.
@@ -40,7 +40,7 @@ Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-A
 
    Ein Popup zur Bestätigung erscheint. Sobald Sie den Export bestätigt haben, wird die Datei automatisch auf Ihr Gerät geladen.
 
-Die Datei wird im CSV-Format mit der Erweiterung .TXT generiert. Sie wird nach der exportierten Ressource und dem Exportdatum benannt. Beispiel: Der Name profileBase_20150426_120253.txt wird auf einen am 26. April 2015 um 12:02:53 durchgeführten Profilexport angewendet. Sie ist im UTF-8-Format kodiert.
+Die Datei wird im CSV-Format mit der Erweiterung .TXT generiert. Sie wird nach der exportierten Ressource und dem Exportdatum benannt. Zum Beispiel: profileBase_20150426_120253.txt für einen am 26. April 2015 um 12:02:53 Uhr erfolgten Export von Profilen. Sie ist im UTF-8-Format kodiert.
 
 Numerische Werte und Daten berücksichtigen die Standortparameter (Locale) des Benutzers, der den Export ausführt. Beispiel: TT-MM-JJJJ oder MM-TT-JJJJ.
 
