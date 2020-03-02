@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 
 ---
@@ -28,7 +28,7 @@ So können Sie z. B. die Mirrorseite für einen Versand abrufen, der an ein Prof
 
 <br/>
 
-***Beispielanfrage ***
+***Beispielanfrage***
 
 Rufen Sie mit einer GET-Anfrage den Marketingverlauf des Profils ab.
 
