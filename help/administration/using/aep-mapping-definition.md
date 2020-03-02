@@ -1,6 +1,6 @@
 ---
-title: Zuordnungsdefinition
-description: Erfahren Sie, wie Sie ein Feld "Campaign Standard"einem Feld für ein Erlebnisdatenmodell (XDM) zuordnen.
+title: Mapping-Definition
+description: Erfahren Sie, wie Sie ein Campaign Standard-Feld auf ein XDM-Feld (Experience-Datenmodell) abbilden.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -11,72 +11,72 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
 
-# Zuordnungsdefinition {#mapping-definition}
+# Mapping-Definition {#mapping-definition}
 
 >[!IMPORTANT]
 >
->Der Campaign Standard-Datendienst befindet sich derzeit in der Betaphase, die möglicherweise ohne Vorankündigung häufig aktualisiert wird. Kunden müssen auf Azurblau gehostet werden (derzeit nur in der Beta-Version für Nordamerika), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an den Adobe-Kundendienst, wenn Sie Zugriff haben möchten.
+>Der Campaign Standard-Datendienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-In diesem Abschnitt erfahren Sie, wie Sie ein Feld &quot;Campaign Standard&quot;einem Feld mit einem Erlebnisdatenmodell (XDM) zuordnen.
+In diesem Abschnitt erfahren Sie, wie Sie ein Campaign Standard-Feld auf ein XDM-Feld (Experience-Datenmodell) abbilden.
 
 Zur Durchführung dieser Aufgabe sind folgende Voraussetzungen erforderlich:
 
-* eine XDM-Schemadefinition über die Schnittstelle oder über die REST-API, die XDM zugeordnet ist
-* Dataset-Erstellung basierend auf der XDM-Schemadefinition
+* XDM-Schemadefinition über die Oberfläche oder die REST-API, die XDM zugeordnet ist
+* Datensatzerstellung anhand der XDM-Schemadefinition
 
-1. Gehen Sie zu **[!UICONTROL Administration]**>**[!UICONTROL  Entwicklung]** > **[!UICONTROL Plattform]**und wählen Sie den Eintrag**[!UICONTROL  Datenzuordnungen]** .
+1. Gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Plattform]** und wählen Sie den Eintrag **[!UICONTROL Daten-Mappings]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um eine neue XDM-Zuordnung zu starten.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um ein neues XDM-Mapping zu starten.
 
    ![](assets/aep_createmapping.png)
 
 1. Füllen Sie die erforderlichen Felder aus und wählen Sie:
 
-   * eine **Targeting-Dimension**: dies ist das Campaign Standard-Schema, das zugeordnet werden soll
-   * ein **Datensatz**: dies ist das Datenpaket, das einem XDM-Schema in Adobe Experience Platform zugeordnet ist.
+   * eine **Zielgruppendimension**: dies ist das Campaign Standard-Schema, das abgebildet werden soll
+   * einen **Datensatz**: dies ist das Datenpaket, das einem XDM-Schema in Adobe Experience Platform zugeordnet ist.
 
 >[!NOTE]
 >
->Damit ein Stapel in Echtzeit-Kundenprofil oder Identitätsdienst integriert werden kann, muss der Datensatz für Echtzeit-Kundenprofil[](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)aktiviert werden.
+>Damit ein Batch in das Echtzeit-Kundenprofil oder den Identitätsdienst aufgenommen werden kann, muss der Datensatz für [Echtzeit-Kundenprofil aktiviert](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md) werden.
 >
->Wenn der ausgewählte Datensatz bereits in einer vorhandenen Datenzuordnung verwendet wird, wird eine Warnmeldung angezeigt, die Sie darüber informiert, dass Ihre Daten in Adobe Experience Platform überschrieben werden können. Dies kann vorkommen, wenn in Datamappings mit demselben Datensatz einige häufig verwendete Empfänger vorhanden sind.
+>Wenn der ausgewählte Datensatz bereits in einem vorhandenen Daten-Mapping verwendet wird, wird ein Warnhinweis angezeigt, der Sie darüber informiert, dass Ihre Daten in Adobe Experience Platform möglicherweise überschrieben werden. Dies kann passieren, wenn es einige gemeinsame Empfänger in Daten-Mappings gibt, die den gleichen Datensatz verwenden.
 
-Im folgenden Bildschirm wird der Abschnitt **[!UICONTROL Feldzuordnungen]**angezeigt, in dem Sie eine neue Zuordnung für jedes Feld im Campaign Standard-Schema erstellen können.
+Im folgenden Bildschirm wird der Abschnitt **[!UICONTROL Feld-Mappings]** angezeigt, in dem Sie für jedes Feld im Campaign Standard-Schema ein neues Mapping erstellen können.
 
 ![](assets/aep_fieldmappings.png)
 
-Mit der Schaltfläche **[!UICONTROL Neue Feldzuordnung]**erstellen können Sie das Feld &quot;Campaign Standard&quot;und den entsprechenden Feldpfadausdruck im XDM-Schema auswählen.
+Mit der Schaltfläche **[!UICONTROL Neues Feld-Mapping erstellen]** können Sie das Campaign Standard-Feld und den entsprechenden Feldpfadausdruck im XDM-Schema auswählen.
 
-Wenn Sie kein Kampagnen-Standard-Feld finden können, können Sie das Suchfeld verwenden, um nach dem Feld zu suchen. Derzeit funktioniert die Suche nur für Felder, die in der Hierarchie geöffnet sind.
+Wenn Sie ein Campaign Standard-Feld nicht finden können, können Sie das Suchfeld verwenden, um nach dem Feld zu suchen. Derzeit funktioniert die Suche nur für Felder, die in der Hierarchie geöffnet sind.
 
 ![](assets/aep_mapfield.png)
 
-Die in Campaign Standard definierten erweiterten Ressourcen werden allen nativen Feldern zugeordnet. Sie werden in der Erweiterung _customer/default in XDM definiert.
+Die in Campaign Standard definierten erweiterten Ressourcen werden wie alle nativen Felder abgebildet. Sie werden in der _customer/default“-Erweiterung in XDM definiert.
 
 ![](assets/aep_fieldscusmapping.png)
 
-Sie können die XDM-Erweiterung über die API anpassen und Ihre eigene Erweiterung definieren, um eine bessere Steuerung der Zuordnung zu ermöglichen.
+Sie können die XDM-Erweiterung über die API anpassen und Ihre eigene Erweiterung definieren, um die Kontrolle über das Mapping zu verbessern.
 
-Weitere Informationen zur XDM-API finden Sie im Tutorial[ zur ](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/tutorials/schema_registry_api_tutorial/schema_registry_api_tutorial.md)Schemakanzlei.
+Weitere Informationen zur XDM-API finden Sie im [Tutorial zur Schema Registry-API](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/tutorials/schema_registry_api_tutorial/schema_registry_api_tutorial.md).
 
-Um ein Aufzählungsfeld zuzuordnen, müssen Sie den Ausdruckseditor verwenden, um jeden Aufzählungswert zu definieren, der dem XDM-Wert entspricht. So muss zum Beispiel das postAdressfield wie folgt definiert werden:
+Um ein Auflistungsfeld abzubilden, müssen Sie den Ausdruckseditor verwenden, um jeden Auflistungswert zu definieren, der dem XDM-Wert entspricht. So muss zum Beispiel postAdressfield wie folgt definiert werden:
 
 ![](assets/aep_enummapping.png)
 
-Wenn der XDM-Wert als Aufzählung im XDM-Schema definiert ist, können Sie die native EXDM-Funktion verwenden, die die **lif** -Syntax automatisch ersetzt.
+Wenn der XDM-Wert als Auflistung im XDM-Schema definiert ist, können Sie die native EXDM-Funktion verwenden, die die **lif**-Syntax automatisch ersetzt.
 
 ![](assets/aep_enummappingexdm.png)
 
-Um eine XDM-Zuordnung zu bearbeiten, öffnen Sie sie, ändern Sie die gewünschten Informationen und speichern Sie sie.
+Um ein XDM-Mapping zu bearbeiten, öffnen Sie es, ändern Sie die gewünschten Informationen und speichern Sie es.
 
 ![](assets/aep_editmapping.png)
 
 >[!IMPORTANT]
 >
->Wenn Sie zunächst einen Wert im Abschnitt **[!UICONTROL Feldzuordnungen]**bearbeiten und dann außerhalb des Felds klicken, wird die Änderung erst dann auf der Benutzeroberfläche angezeigt, wenn Sie auf die Schaltfläche**[!UICONTROL  Speichern]** klicken. Dieses Verhalten tritt nur einmal auf, wenn die Bearbeitung bei **[!UICONTROL Feldzuordnungen]**die erste Bearbeitung auf der Seite ist.
+>Wenn Sie zunächst einen Wert im Abschnitt **[!UICONTROL Feld-Mappings]** bearbeiten und dann außerhalb des Felds klicken, wird die Änderung erst dann auf der Benutzeroberfläche angezeigt, wenn Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken. Dieses Verhalten tritt nur einmal auf, wenn die Bearbeitung bei **[!UICONTROL Feld-Mappings]** die erste Bearbeitung auf der Seite ist.
