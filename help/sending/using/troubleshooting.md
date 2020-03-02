@@ -12,7 +12,7 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
@@ -33,9 +33,9 @@ Wenn das Problem fortbesteht, kontaktieren Sie den Zustellbarkeitsservice oder d
 
 **Was ist der Unterschied zwischen einer auf eine Blacklist gesetzten E-Mail-Adresse und einer unter Quarantäne gestellten E-Mail-Adresse?**
 
-Der Status **[!UICONTROL Auf Blacklist]**ist das Ergebnis eines Feedback-Loops (wenn ein Empfänger eine E-Mail als Spam meldet).
+Der Status **[!UICONTROL Auf Blacklist]** ist das Ergebnis eines Feedback-Loops (wenn ein Empfänger eine E-Mail als Spam meldet).
 
-Der Status **[!UICONTROL In Quarantäne]**ist das Ergebnis eines Soft- oder Hardbounce.
+Der Status **[!UICONTROL In Quarantäne]** ist das Ergebnis eines Soft- oder Hardbounce.
 
 **Was bedeuten die unterschiedlichen Gründe für Quarantäne-Fehler?**
 
@@ -46,7 +46,7 @@ Weitere Informationen hierzu finden Sie unter [Funktionsweise der Quarantänever
 **Einer meiner Empfänger wurde irrtümlich auf die Blacklist gesetzt. Wie lässt er sich daraus streichen, sodass ich ihm wieder Nachrichten senden kann?**
 
 * Gehen Sie zu **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]**.
-* Setzen Sie in den Details des entsprechenden Datensatzes den Wert des **[!UICONTROL Status]**-Feldes auf**[!UICONTROL  Gültig]**.
+* Setzen Sie in den Details des entsprechenden Datensatzes den Wert des **[!UICONTROL Status]**-Feldes auf **[!UICONTROL Gültig]**.
 * Speichern Sie die Daten.
 
 **Wie kann ich feststellen, ob eine meiner IP-Adressen auf einer Blacklist steht? Wie kann ich meine IP-Adresse wieder aus der Blacklist entfernen?**
