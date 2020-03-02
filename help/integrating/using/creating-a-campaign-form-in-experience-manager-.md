@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 4a8b5807-87dd-4db4-bd67-890f0adae932
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
 
 ---
@@ -27,11 +27,11 @@ Gehen Sie zur Erstellung eines Adobe Campaign-Formulars auf Ihrer AEM-Seite wie
 
    ![](assets/aem_content_forms.png)
 
-1. Wählen Sie in den Eigenschaften der Seite den Ihrer Adobe-Campaign-Instanz entsprechenden **[!UICONTROL Cloud Service]**aus.
+1. Wählen Sie in den Eigenschaften der Seite den Ihrer Adobe Campaign-Instanz entsprechenden **[!UICONTROL Cloud Service]** aus.
 
    ![](assets/aem_content_forms_2.png)
 
-1. Wählen Sie ausgehend von der Komponente **[!UICONTROL Formular-Start]**den Formulartyp aus:
+1. Wählen Sie ausgehend von der Komponente **[!UICONTROL Formular-Start]** den Formulartyp aus:
 
    * **Adobe Campaign: Profil speichern**
    * **Adobe Campaign: Dienstanmeldung**
@@ -40,4 +40,4 @@ Gehen Sie zur Erstellung eines Adobe Campaign-Formulars auf Ihrer AEM-Seite wie
 1. Bearbeiten Sie den Formularinhalt, indem Sie verschiedene Felder und Komponenten hinzufügen, die Sie den Feldern der Adobe-Campaign-Datenbank zuordnen können.
 1. Testen und publizieren Sie das Formular, damit sich über Ihre AEM-Seite darauf zugreifen lässt.
 
-Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
+Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
