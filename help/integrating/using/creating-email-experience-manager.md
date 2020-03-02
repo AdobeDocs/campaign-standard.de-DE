@@ -1,5 +1,5 @@
 ---
-title: Erstellen von E-Mail-Inhalten in Adobe Experience Manager
+title: E-Mail-Inhalt in Adobe Experience Manager erstellen
 description: Durch die Integration von Adobe Experience Manager können Sie Inhalte direkt in AEM erstellen und später in Adobe Campaign verwenden.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -11,17 +11,17 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
 
 ---
 
 
-# Creating an email content in Adobe Experience Manager {#creating-email-aem}
+# E-Mail-Inhalt in Adobe Experience Manager erstellen {#creating-email-aem}
 
 Durch die Integration von Adobe Campaign Standard mit Adobe Experience Manager können Sie die in Adobe Experience Manager erstellten Inhalte in E-Mails in Adobe Campaign verwenden.
 
-Dieser Verwendungsfall zeigt Ihnen, wie Sie E-Mail-Inhalte in Adobe Experience Manager erstellen.
+In diesem Anwendungsfall wird erläutert, wie Sie E-Mail-Inhalte in Adobe Experience Manager erstellen.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -44,18 +44,18 @@ Um die kombinierte Nutzung von Adobe Campaign und Adobe Experience Manager zu er
 1. Ordnen Sie der Vorlage das zuvor erstellte externe Konto zu. Gehen Sie wie folgt vor:
 
    * Konfigurieren Sie die Replikation zwischen der Authoring-Instanz und der Publishing-Instanz von Adobe Experience Manager.
-   * Stellen Sie die Verbindung zwischen Adobe Experience Manager und Adobe Campaign her, indem Sie einen dedizierten **[!UICONTROL Cloud Service konfigurieren]**.
+   * Stellen Sie die Verbindung zwischen Adobe Experience Manager und Adobe Campaign her, indem Sie einen dedizierten **[!UICONTROL Cloud Service]** konfigurieren.
 
-## Creating an email content in Adobe Experience Manager {#use-case}
+## E-Mail-Inhalt in Adobe Experience Manager erstellen {#use-case}
 
 So erstellen Sie E-Mail-Inhalt in Adobe Experience Manager:
 
 1. Erstellen Sie einen E-Mail-Inhalt anhand einer der speziell für Adobe Campaign konzipierten Vorlagen.
-1. Wählen Sie in den Inhaltseigenschaften den **[!UICONTROL Cloud Service]**aus, der Ihrer Adobe Campaign-Instanz entspricht.
+1. Wählen Sie in den Inhaltseigenschaften den **[!UICONTROL Cloud Service]** aus, der Ihrer Adobe Campaign-Instanz entspricht.
 1. Bearbeiten Sie den Inhalt, indem Sie beispielsweise Text, Bilder oder Personalisierungselemente einfügen.
 1. Validieren Sie den Inhalt.
 
-Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html).
+Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/aem-adobe-campaign/campaign.html).
 
 ![](assets/aem_content.png)
 
