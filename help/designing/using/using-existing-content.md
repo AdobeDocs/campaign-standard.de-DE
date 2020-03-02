@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
@@ -29,16 +29,16 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 >In den unten stehenden Bildern sehen Sie, wie Sie existierenden Inhalt mit [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) laden können.
 
 1. Öffnen Sie nach der Erstellung der E-Mail oder Landingpage deren Inhalt.
-1. Wählen Sie das Startseiten-Symbol aus, um die Startseite von **[!UICONTROL Email Designer]**zu öffnen.
+1. Wählen Sie das Startseiten-Symbol aus, um die Startseite von **[!UICONTROL Email Designer]** zu öffnen.
 
    ![](assets/des_loading_1.png)
 
 1. Wählen Sie die Quelle des Inhalts aus, den Sie laden möchten:
 
-   * [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates): Wählen Sie den Tab **[!UICONTROL Vorlagen]**aus.
-   * [Neu erstellten Inhalt](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch): Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]**aus.
-   * [Inhalte von Ihrem Computer als ZIP- oder HTML-Datei](#importing-content-from-a-file): Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]**aus.
-   * [Inhalte von einer vorhandenen URL](#importing-content-from-a-url) (nur für E-Mails): Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]**aus.
+   * [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates): Wählen Sie den Tab **[!UICONTROL Vorlagen]** aus.
+   * [Neu erstellten Inhalt](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch): Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]** aus.
+   * [Inhalte von Ihrem Computer als ZIP- oder HTML-Datei](#importing-content-from-a-file): Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]** aus.
+   * [Inhalte von einer vorhandenen URL](#importing-content-from-a-url) (nur für E-Mails): Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]** aus.
    ![](assets/des_loading_2.png)
 
 1. Laden Sie den Inhalt. Bei der Auswahl eines neuen Inhalts wird der aktuelle Inhalt automatisch ersetzt.
@@ -66,7 +66,7 @@ Wenn Sie bestehenden externen Inhalt in Email Designer bearbeiten möchten, lese
 
 ### Inhalt aus einer Datei importieren {#importing-content-from-a-file}
 
-Wählen Sie auf der Startseite von Email Designer die Schaltfläche **[!UICONTROL Hochladen]**aus, um eine Datei vom Computer hochzuladen, und bestätigen Sie anschließend den Vorgang.
+Wählen Sie auf der Startseite von Email Designer die Schaltfläche **[!UICONTROL Hochladen]** aus, um eine Datei vom Computer hochzuladen, und bestätigen Sie anschließend den Vorgang.
 
 Die Struktur des komprimierten Ordners ist freigestellt. Die HTML-Dateien müssen jedoch mit relativen Pfadangaben referenziert werden und die Baumstruktur des komprimierten Ordners respektieren.
 
@@ -84,7 +84,7 @@ Folgende Formate werden für den Import unterstützt:
 Bevor Sie Inhalt aus einer URL importieren, vergewissern Sie sich, dass der Inhalt folgende Anforderungen erfüllt:
 
 * Der Inhalt muss über diese URL öffentlich verfügbar sein.
-* Aus Sicherheitsgründen sind nur URLs erlaubt, die mit **[!UICONTROL https]**beginnen.
+* Aus Sicherheitsgründen sind nur URLs erlaubt, die mit **[!UICONTROL https]** beginnen.
 * Achten Sie darauf, dass alle Ressourcen (Bilder, CSS) in absoluten Relationen und in HTTPS eingerichtet sind. Andernfalls wird die Mirrorseite nach dem Versand der E-Mail ohne ihre Ressourcen dargestellt. Hier ist ein Beispiel einer Definition einer absoluten Relation:
 
    ```
@@ -97,12 +97,12 @@ Bevor Sie Inhalt aus einer URL importieren, vergewissern Sie sich, dass der Inha
 
 Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 
-1. Wählen Sie auf der Startseite von Email Designer die Schaltfläche **[!UICONTROL Import von URL]**aus.
+1. Wählen Sie auf der Startseite von Email Designer die Schaltfläche **[!UICONTROL Import von URL]** aus.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. Definieren Sie die URL, von der der Inhalt abgerufen werden soll.
-1. Wählen Sie **[!UICONTROL Bestätigen]**aus.
+1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
 **Verwandtes Thema:**
 
@@ -114,7 +114,7 @@ Durch den Import von Inhalten von einer URL während der Nachrichtenvorbereitung
 
 Um Inhalte in der Vorbereitungsphase abzurufen, gehen Sie wie folgt vor:
 
-1. Wählen Sie die Option **[!UICONTROL Während der Vorbereitung importierter Inhalt]**aus.
+1. Wählen Sie die Option **[!UICONTROL Während der Vorbereitung importierter Inhalt]** aus.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -124,18 +124,18 @@ Um Inhalte in der Vorbereitungsphase abzurufen, gehen Sie wie folgt vor:
    >
    >Bei diesem Schritt sollte die HTML-Anzeige im Inhaltseditor nicht berücksichtigt werden. Sie wird in der Vorbereitungsphase abgerufen.
 
-1. Um den abgerufenen URL-Inhalt in der Vorschau zu betrachten, öffnen Sie die Nachricht nach deren Erstellung und wählen Sie dann die Schaltfläche **[!UICONTROL Vorschau]**aus.
+1. Um den abgerufenen URL-Inhalt in der Vorschau zu betrachten, öffnen Sie die Nachricht nach deren Erstellung und wählen Sie dann die Schaltfläche **[!UICONTROL Vorschau]** aus.
 
 Die Remote URL, von der der Inhalt abgerufen wird, kann personalisiert werden. Gehen Sie dazu wie folgt vor:
 
-1. Wählen Sie am oberen Bildschirmrand den Titel der E-Mail aus, um in Email Designer den Tab **[!UICONTROL Eigenschaften]**zu öffnen.
+1. Wählen Sie am oberen Bildschirmrand den Titel der E-Mail aus, um in Email Designer den Tab **[!UICONTROL Eigenschaften]** zu öffnen.
 1. Gehen Sie zum Feld **[!UICONTROL Remote URL]**.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Fügen Sie das Personalisierungsfeld, den Inhaltsbaustein oder den dynamischen Text ein.
 
-   Beispielsweise können Sie im Inhaltsbaustein **[!UICONTROL Aktuelles Datum – TTMMJJJJ]**das Datum eingeben.
+   Beispielsweise können Sie im Inhaltsbaustein **[!UICONTROL Aktuelles Datum – TTMMJJJJ]** das Datum eingeben.
 
    >[!NOTE]
    >
@@ -166,7 +166,7 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 * [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTML-Inhalt konvertieren  {#converting-an-html-content}
+## HTML-Inhalt konvertieren   {#converting-an-html-content}
 
 Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, die Sie in Ihren E-Mails wiederverwenden und kombinieren können, empfiehlt es sich, Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen zu konvertieren.
 
