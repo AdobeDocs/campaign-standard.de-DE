@@ -1,6 +1,6 @@
 ---
-title: Auslösen der Datenerfassung über APIs
-description: Erfahren Sie, wie die Datenerfassung über APIs ausgelöst wird.
+title: Datenerfassung über APIs aktivieren
+description: Erfahren Sie, wie die Datenerfassung über APIs aktiviert wird.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -11,57 +11,57 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
 
-# Auslösen der Datenerfassung über APIs {#triggering-data-ingestion-apis}
+# Datenerfassung über APIs aktivieren {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->Der Campaign Standard-Datendienst befindet sich derzeit in der Betaphase, die möglicherweise ohne Vorankündigung häufig aktualisiert wird. Kunden müssen auf Azurblau gehostet werden (derzeit nur in der Beta-Version für Nordamerika), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an den Adobe-Kundendienst, wenn Sie Zugriff haben möchten.
+>Der Campaign Standard-Datendienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Mit Adobe Campaign Standard können Sie die sofortige Erfassung von Datenzuordnungen über APIs auslösen und den Status Ihrer Erfassungsanforderungen abrufen.
+Mit Adobe Campaign Standard können Sie die sofortige Erfassung von Daten-Mappings über APIs aktivieren und den Status der Aufnahmeanfragen abrufen.
 
-Auf dieser Seite wird beschrieben, wie Sie den Erfassungsstatus Ihrer Datenzuordnungen auslösen und abrufen. Globale Informationen zu Campaign Standard-APIs finden Sie in [diesem Abschnitt](../../api/using/about-campaign-standard-apis.md).
+Auf dieser Seite wird beschrieben, wie Sie den Aufnahmestatus Ihrer Daten-Mappings aktivieren und abrufen. Globale Informationen zu Campaign Standard-APIs finden Sie in [diesem Abschnitt](../../api/using/about-campaign-standard-apis.md).
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie die APIs verwenden, muss die Datenzuordnung zunächst in der Benutzeroberfläche von Campaign Standard konfiguriert und veröffentlicht worden sein. Weitere Informationen finden Sie in den folgenden Abschnitten:
+Bevor Sie die APIs verwenden, muss das Daten-Mapping zunächst in der Benutzeroberfläche von Campaign Standard konfiguriert und publiziert worden sein. Lesen Sie diesbezüglich auch diese Abschnitte:
 
-* [Zuordnungsdefinition](../../administration/using/aep-mapping-definition.md)
-* [Aktivierung zuordnen](../../administration/using/aep-mapping-activation.md)
+* [Mapping-Definition](../../administration/using/aep-mapping-definition.md)
+* [Mapping-Aktivierung](../../administration/using/aep-mapping-activation.md)
 
-Nachdem die Datenzuordnung erstellt wurde, müssen Sie die Ausführung beenden, damit Sie sie jederzeit aus den APIs auslösen können. Gehen Sie dazu wie folgt vor:
+Nachdem das Daten-Mapping erstellt wurde, müssen Sie seine Ausführung stoppen, damit es jederzeit über die APIs aktiviert werden kann. Gehen Sie dazu wie folgt vor:
 
-1. Gehen Sie in Campaign Standard zum Menü **[!UICONTROL Administration]**>**[!UICONTROL  Entwicklung]** > **[!UICONTROL Plattform]**>**[!UICONTROL  Status des Datenexports in Plattform]** .
+1. Gehen Sie in Campaign Standard zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Plattform]** > **[!UICONTROL Status des Datenexports zu Platform]**.
 
-1. Doppelklicken Sie auf die Datenzuordnung, um sie zu öffnen, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Stopp]**.
+1. Doppelklicken Sie auf das Daten-Mapping, um es zu öffnen, und wählen Sie dann die Schaltfläche **[!UICONTROL Stoppen]** aus.
 
    ![](assets/aep_datamapping_stop.png)
 
 1. Speichern Sie Ihre Änderungen
 
-Die Ausführung der Datenzuordnung wird jetzt beendet. Sie können Campaign Standard-APIs verwenden, um sie manuell auszulösen.
+Die Ausführung des Daten-Mappings wurde somit angehalten. Sie können die Ausführung mithilfe von Campaign Standard-APIs manuell aktivieren.
 
-## Starten der sofortigen Erfassung der Datenzuordnung {#starting-immediate-ingestion}
+## Sofortige Aufnahme des Daten-Mappings starten {#starting-immediate-ingestion}
 
-Die sofortige Erfassung einer XDM-Zuordnung zur Adobe Experience Platform wird mit einem POST-Vorgang ausgelöst:
+Die sofortige Aufnahme eines XDM-Mappings in Adobe Experience Platform wird mit einem POST-Vorgang ausgelöst:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->Um den ingest POST API-Aufruf ausführen zu können, muss der Benutzer über eine **SQL-Funktion** verfügen, die von einem Campaign Standard-Administrator bereitgestellt werden kann, indem er unter JS Script ausgeführt wird:
+>Um den POST API-Aufruf zur Aufnahme ausführen zu können, muss der Benutzer über die Rolle **SQL-Funktionsausführung** verfügen, die von einem Campaign Standard-Administrator vergeben werden kann, indem er das folgende JS-Skript ausführt:
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
 REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
 
-Der POST-Vorgang gibt Informationen zum erstellten Anforderungsstatus zurück:
+Der POST-Vorgang gibt Informationen zum erstellten Anfragestatus zurück:
 
-* Anfrage erfolgreich für die XDM-Zuordnung gesendet:
+* Anfrage für das XDM-Mapping erfolgreich gesendet:
 
 ```
 {
@@ -71,7 +71,7 @@ Der POST-Vorgang gibt Informationen zum erstellten Anforderungsstatus zurück:
 }
 ```
 
-* Anfrage, die bereits für die XDM-Zuordnung ausgeführt wird:
+* Anfrage für das XDM-Mapping ist bereits in Bearbeitung:
 
 ```
 {
@@ -81,7 +81,7 @@ Der POST-Vorgang gibt Informationen zum erstellten Anforderungsstatus zurück:
 }
 ```
 
-* Anforderung fehlgeschlagen, da die XDM-Zuordnung nicht veröffentlicht wurde oder beendet wurde:
+* Anfrage ist fehlgeschlagen, da das XDM-Mapping nicht publiziert oder angehalten wurde:
 
 ```
 {
@@ -94,9 +94,9 @@ Der POST-Vorgang gibt Informationen zum erstellten Anforderungsstatus zurück:
 }
 ```
 
-## Abrufen des Status einer Erfassungsanforderung {#retrieving-status}
+## Status einer Aufnahmeanfrage abrufen {#retrieving-status}
 
-Der Status einer Erfassungsanforderung kann mit einem GET-Vorgang und der gewünschten Anforderungs-ID in den Parametern abgerufen werden:
+Der Status einer Aufnahmeanfrage kann mit einem GET-Vorgang und der gewünschten Anfrage-ID in den Parametern abgerufen werden:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -104,18 +104,18 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Ausführliche Informationen zum Status der XDM-Zuordnungsanforderung und der zugehörigen Aufträge finden Sie in der Benutzeroberfläche von Campaign Standard im Menü &quot; **!UICONTROL [Status des Datenexports in Plattform]** &quot;(siehe Aktivierung[der ](../../administration/using/aep-mapping-activation.md)Zuordnung).
+Ausführliche Informationen zum Status von XDM-Mapping-Anfragen und den zugehörigen Vorgängen finden Sie in der Benutzeroberfläche von Campaign Standard im Menü **!UICONTROL [Status des Datenexports zu Platform ]**(siehe[Mapping-Aktivierung](../../administration/using/aep-mapping-activation.md)).
 
 Der GET-Vorgang gibt die folgenden Informationen zurück:
 
-* **batchId**: Dieses Feld wird nur ausgefüllt, wenn nach der Stapelvorbereitung und dem Hochladen ein Fehler aufgetreten ist.
-* **Info**: die XDM-Zuordnungs-ID,
-* **numRecords**: die Anzahl der erfassten Datensätze (nur Erfolgsstatus),
-* **Status**: der Erfassungsanforderungsstatus (Erfolg/Fehlgeschlagen/Wird ausgeführt)
+* **batchId**: Dieses Feld wird nur ausgefüllt, wenn nach der Vorbereitung und dem Hochladen des Batches ein Fehler aufgetreten ist,
+* **Info**: die XDM-Mapping-ID,
+* **numRecords**: die Anzahl der aufgenommenen Datensätze (nur Erfolgsstatus),
+* **Status**: der Status der Aufnahmeanfrage (erfolgreich abgeschlossen/fehlgeschlagen/in Bearbeitung)
 
 Mögliche Antworten auf den GET-Vorgang sind:
 
-* Anfrage erfolgreich aufnehmen:
+* Aufnahmeanfrage erfolgreich abgeschlossen:
 
    ```
    {
@@ -127,7 +127,7 @@ Mögliche Antworten auf den GET-Vorgang sind:
    }
    ````
 
-* Die Erfassungsanforderung schlug mit 0 Datensatz fehl:
+* Aufnahmeanfrage fehlgeschlagen mit 0 aufgenommenen Datensätzen:
 
    ```
    {
@@ -139,7 +139,7 @@ Mögliche Antworten auf den GET-Vorgang sind:
    }
    ```
 
-* Anfrage konnte nicht erfasst werden, wobei ein Datensatz unter einem Stapel hochgeladen wurde:
+* Aufnahmeanfrage fehlgeschlagen mit einigen hochgeladenen Datensätzen im Batch:
 
    ````
    {
@@ -151,7 +151,7 @@ Mögliche Antworten auf den GET-Vorgang sind:
    }
    ```
    
-* Anforderung nach dem Erfassen einiger Datensätze abgebrochen haben (dies kann in Crash-Szenarien passieren):
+* Aufnahmeanfrage nach der Aufnahme einiger Datensätze abgebrochen (dies kann in Crash-Szenarien passieren):
 
    ```
    {
@@ -163,7 +163,7 @@ Mögliche Antworten auf den GET-Vorgang sind:
    }
    ```
 
-* Anfrage wird verarbeitet (beim Hochladen der Daten in einen Stapel oder bei der Vorbereitung des Stapels auf die Anforderung):
+* Aufnahmeanfrage in Bearbeitung (wenn die Anfrage die Daten in einem Batch hochgeladen hat oder wenn der Batch für die Anfrage vorbereitet wird):
 
    ```
    {
