@@ -11,7 +11,7 @@ topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
@@ -28,13 +28,13 @@ Adobe Campaign ermöglicht die Definition und Verwaltung von Genehmigungen, die 
 
 >[!IMPORTANT]
 >
->Bitte beachten Sie, dass geografische Einheiten nicht weiterverwendet werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>Bitte beachten Sie, dass geografische Einheiten nicht weiterverwendet werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
 
-Rollen, Gruppen und Organisationseinheiten können vom funktionalen Administrator der Plattform über das Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit]**verwaltet werden.
+Rollen, Gruppen und Organisationseinheiten können vom funktionalen Administrator der Plattform über das Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit]** verwaltet werden.
 
 ![](assets/user_management_1.png)
 
-Die Verwaltung von Benutzern erfolgt über die Admin Console. Näheres hierzu finden Sie im Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) oder der [Dokumentation zur Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Die Verwaltung von Benutzern erfolgt über die Admin Console. Näheres hierzu finden Sie im Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) oder der [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
 ![](assets/user_management_6.png)
 
