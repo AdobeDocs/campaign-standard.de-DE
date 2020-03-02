@@ -11,7 +11,7 @@ topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 # Ressourcen löschen{#deleting-a-resource}
 
-Eine Ressource muss den **[!UICONTROL Entwurf]**-Status aufweisen, um gelöscht werden zu können. Dies ist der Fall, wenn sie****
+Eine Ressource muss den **[!UICONTROL Entwurf]**-Status aufweisen, um gelöscht werden zu können. Die Ressource befindet sich im Status **[!UICONTROL Entwurf]**, wenn:
 
 * soeben erstellt und noch nicht publiziert wurde.
 * sie bereits publiziert aber anschließend zurückgesetzt wurde.
@@ -31,7 +31,7 @@ Eine Ressource muss den **[!UICONTROL Entwurf]**-Status aufweisen, um gelöscht 
 Um eine publizierte Ressource zurückzusetzen und zu löschen, gehen Sie folgendermaßen vor:
 
 1. Wählen Sie die zurückzusetzende Ressource aus.
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Zurücksetzen]**der Symbolleiste.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Zurücksetzen]** in der Symbolleiste.
 
    ![](assets/schema_extension_uc26.png)
 
@@ -49,9 +49,9 @@ Um eine publizierte Ressource zurückzusetzen und zu löschen, gehen Sie folgend
 
 1. Publizieren Sie die Ressource. Eine detaillierte Anleitung finden Sie im Abschnitt [Benutzerdefinierte Ressource publizieren](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   Die Ressource weist nun den Publikationsstatus **Entwurf** und den Aktivierungsstatus **[!UICONTROL Deaktiviert auf]**.
+   Die Ressource ist nun im Modus **Entwurf** und weist den Aktivierungsstatus **[!UICONTROL Deaktiviert]** auf.
 
-1. Markieren Sie im Modus **[!UICONTROL Liste]** die zu löschende Ressource und wählen Sie dann das Symbol ![](assets/delete_darkgrey-24px.png) **[!UICONTROL  Element löschen]** aus.
+1. Markieren Sie im Modus **[!UICONTROL Liste]** die zu löschende Ressource und wählen Sie dann das Symbol ![](assets/delete_darkgrey-24px.png)**[!UICONTROL Element löschen]** aus.
 
    ![](assets/schema_extension_uc28.png)
 
