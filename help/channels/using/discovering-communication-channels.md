@@ -11,7 +11,7 @@ topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc3f4285f6c5c0a7b7a374c26311358b73b30ba8
 
 ---
@@ -23,7 +23,7 @@ Mit Adobe Campaign können Sie personalisierte Nachrichten auf verschiedenen Kan
 
 Sie können damit auch kanalübergreifende Kampagnen erstellen, um Ihre Zielgruppe besser ansprechen zu können.
 
-In Adobe Campaign stehen fünf Nachrichtenkanäle zur Verfügung:
+In Adobe Campaign stehen Ihnen fünf Nachrichtenkanäle zur Verfügung:
 
 * E-Mail, siehe Abschnitt [E-Mails erstellen](../../channels/using/about-emails.md)
 * SMS, siehe Abschnitt [SMS erstellen](../../channels/using/about-sms-messages.md)
