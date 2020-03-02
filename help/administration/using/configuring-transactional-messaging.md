@@ -11,7 +11,7 @@ topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
@@ -27,21 +27,21 @@ Je nach dem Typ der zu sendenden Transaktionsnachricht kann die Konfiguration un
 
 Nach der Publikation des Ereignisses wird die entsprechende Transaktionsnachricht automatisch erstellt. Weiterführende Informationen zum Thema Transaktionsnachrichten finden Sie auf [dieser Seite](../../channels/using/about-transactional-messaging.md).
 
-## Ereignis erstellen  {#creating-an-event}
+## Ereignis erstellen   {#creating-an-event}
 
 Erstellen Sie das Ereignis zunächst entsprechend Ihren Anforderungen.
 
-1. Verwenden Sie das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen**[!UICONTROL  Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]**>**[!UICONTROL  Ereigniskonfiguration]**.
+1. Verwenden Sie das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
 1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
-1. Wählen Sie für das Ereignis einen **[!UICONTROL Titel]**und eine**[!UICONTROL  ID]**. Das Feld **[!UICONTROL ID]**ist ein Pflichtfeld und sollte mit dem Präfix &quot;EVT&quot; beginnen. Bei Nichtverwendung des EVT-Präfixes in Ihrer Kennung wird dieses automatisch hinzugefügt, sobald Sie die Schaltfläche**[!UICONTROL  Erstellen verwenden]**.
+1. Wählen Sie für das Ereignis einen **[!UICONTROL Titel]** und eine **[!UICONTROL ID]**. Das Feld **[!UICONTROL ID]** ist ein Pflichtfeld und sollte mit dem Präfix &quot;EVT&quot; beginnen. Bei Nichtverwendung des EVT-Präfixes in Ihrer Kennung wird dieses automatisch hinzugefügt, sobald Sie die Schaltfläche **[!UICONTROL Erstellen verwenden]**.
 
    ![](assets/message-center_1.png)
 
    >[!IMPORTANT]
    >
-   >Die ID darf nicht länger als 64 Zeichen sein, einschließlich des EVT-Präfix.
+   >Die Kennung einschließlich des EVT-Präfixes darf maximal 64 Zeichen lang sein.
 
-1. Wählen Sie den für den Versand Ihrer Transaktionsnachrichten verwendeten Kanal aus: **[!UICONTROL E-Mail]**,**[!UICONTROL  Mobiltelefon (SMS)]** oder **[!UICONTROL App]**(Push-Benachrichtigung).
+1. Wählen Sie den für den Versand Ihrer Transaktionsnachrichten verwendeten Kanal aus: **[!UICONTROL E-Mail]**, **[!UICONTROL Mobiltelefon (SMS)]** oder **[!UICONTROL App]** (Push-Benachrichtigung).
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ Erstellen Sie das Ereignis zunächst entsprechend Ihren Anforderungen.
 
    Bei ereignisbasierten Transaktionsnachrichten werden die im Ereignis selbst vorhandenen Daten verwendet, während bei profilbasierten Transaktionsnachrichten die in der Adobe-Campaign-Datenbank verfügbaren Daten verwendet werden. Lesen Sie diesbezüglich auch den Abschnitt [Konfigurationen für Transaktionsereignisse](#transactional-event-specific-configurations).
 
-## Ereignisattribute definieren  {#defining-the-event-attributes}
+## Ereignisattribute definieren   {#defining-the-event-attributes}
 
-Definieren Sie im Bereich **[!UICONTROL Felder]**die Attribute, die in den Ereignisinhalt integriert werden und im Anschluss zur Personalisierung der Transaktionsnachricht verwendet werden können.
+Definieren Sie im Bereich **[!UICONTROL Felder]** die Attribute, die in den Ereignisinhalt integriert werden und im Anschluss zur Personalisierung der Transaktionsnachricht verwendet werden können.
 
 Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem gleichen Prinzip wie für [benutzerdefinierte Ressourcen](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
 
@@ -61,15 +61,15 @@ Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem g
 
 >[!NOTE]
 >
->Wenn Sie eine mehrsprachige Transaktionsnachricht erstellen möchten, definieren Sie ein zusätzliches Ereignisattribut mit der ID **[!UICONTROL AC_language]**. Dies gilt nur für Transaktionsnachrichten. Nach der Publikation des Ereignisses sind die Schritte zur Bearbeitung des Inhalts einer mehrsprachigen Transaktionsnachricht dieselben wie für eine mehrsprachige Standard-E-Mail. Siehe[Mehrsprachige E-Mail erstellen](../../channels/using/creating-a-multilingual-email.md).
+>Wenn Sie eine mehrsprachige Transaktionsnachricht erstellen möchten, definieren Sie ein zusätzliches Ereignisattribut mit der ID **[!UICONTROL AC_language]**. Dies gilt nur für Transaktionsnachrichten. Nach der Publikation des Ereignisses sind die Schritte zur Bearbeitung des Inhalts einer mehrsprachigen Transaktionsnachricht dieselben wie für eine mehrsprachige Standard-E-Mail. Siehe [Mehrsprachige E-Mail erstellen](../../channels/using/creating-a-multilingual-email.md).
 
-## Datenkollektionen definieren  {#defining-data-collections}
+## Datenkollektionen definieren   {#defining-data-collections}
 
 Sie können zum Ereignisinhalt eine Kollektion von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
 
 Diese Kollektion kann in Transaktions-E-Mails verwendet werden, um Produktlisten zum Nachrichteninhalt hinzuzufügen, wie z. B. eine Liste mit Produkten einschließlich Preis, Referenznummer, Menge etc. für jedes Produkt auf der Liste.
 
-1. Wählen Sie im Bereich **[!UICONTROL Kollektionen]**die Schaltfläche**[!UICONTROL  Element erstellen]** aus.
+1. Wählen Sie im Bereich **[!UICONTROL Kollektionen]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
 
    ![](assets/message-center_collection_create.png)
 
@@ -95,15 +95,15 @@ Dies ist die API-Vorschau für dieses Beispiel:
 
 Durch die Anreicherung der Transaktionsnachrichten mit Informationen aus der Adobe-Campaign-Datenbank können Nachrichten personalisiert werden. Ausgehend vom Nachnamen oder der CRM-ID all Ihrer Empfänger können Sie beispielsweise Daten wie deren jeweilige Adresse oder das Geburtsdatum oder jedes beliebige in der Profiltabelle hinzugefügte benutzerdefinierte Feld abrufen, um die den Empfängern gesendeten Informationen zu personalisieren.
 
-Sie können Transaktionsnachrichten mit Informationen aus den erweiterten Ressourcen **[!UICONTROL Profil]**oder**[!UICONTROL  Dienst]** anreichern.
+Sie können Transaktionsnachrichten mit Informationen aus den erweiterten Ressourcen **[!UICONTROL Profil]** oder **[!UICONTROL Dienst]** anreichern.
 
-Diese Informationen können auch in neuen Ressourcen gespeichert werden. In diesem Fall muss die Ressource mit den Ressourcen **[!UICONTROL Profil]**oder**[!UICONTROL  Dienst]** entweder direkt oder über eine andere Tabelle verknüpft werden. Beispielweise können Sie in der folgenden Konfiguration die Transaktionsnachricht mit Informationen aus der Ressource **[!UICONTROL Produkt]**wie etwa einer Produktkategorie oder einer Kennung anreichern, wenn die Ressource**[!UICONTROL  Produkt]** mit der Ressource **[!UICONTROL Profil]**verknüpft ist.
+Diese Informationen können auch in neuen Ressourcen gespeichert werden. In diesem Fall muss die Ressource mit den Ressourcen **[!UICONTROL Profil]** oder **[!UICONTROL Dienst]** entweder direkt oder über eine andere Tabelle verknüpft werden. Beispielweise können Sie in der folgenden Konfiguration die Transaktionsnachricht mit Informationen aus der Ressource **[!UICONTROL Produkt]** wie etwa einer Produktkategorie oder einer Kennung anreichern, wenn die Ressource **[!UICONTROL Produkt]** mit der Ressource **[!UICONTROL Profil]** verknüpft ist.
 
 ![](assets/message-center_usecaseschema.png)
 
 Weiterführende Informationen zur Erstellung und Publikation von Ressourcen finden Sie auf [dieser Seite](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. Wählen Sie im Bereich **[!UICONTROL Anreicherung]**die Schaltfläche**[!UICONTROL  Element erstellen]** aus.
+1. Wählen Sie im Bereich **[!UICONTROL Anreicherung]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
 
    ![](assets/message-center_addenrichment.png)
 
@@ -111,21 +111,21 @@ Weiterführende Informationen zur Erstellung und Publikation von Ressourcen find
 
    ![](assets/message-center_new-enrichment.png)
 
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld in der ausgewählten Ressource mit einem zuvor von Ihnen zum Ereignis hinzugefügten Feld zu verknüpfen (siehe[Ereignisattribute definieren](#defining-the-event-attributes)).
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld in der ausgewählten Ressource mit einem zuvor von Ihnen zum Ereignis hinzugefügten Feld zu verknüpfen (siehe [Ereignisattribute definieren](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
 
-1. In unserem Beispiel stimmen wir die Felder **[!UICONTROL Nachname]**und**[!UICONTROL  Vorname]** mit den entsprechenden Feldern der Ressource **[!UICONTROL Profil]**ab.
+1. In unserem Beispiel stimmen wir die Felder **[!UICONTROL Nachname]** und **[!UICONTROL Vorname]** mit den entsprechenden Feldern der Ressource **[!UICONTROL Profil]** ab.
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   Sie können den Inhalt der Transaktionsnachricht auch über die Ressource **[!UICONTROL Dienst]**anreichern. Weiterführende Informationen dazu finden Sie unter .
+   Sie können den Inhalt der Transaktionsnachricht auch über die Ressource **[!UICONTROL Dienst]** anreichern. Weiterführende Informationen dazu finden Sie unter .
 
-1. Wählen Sie dann im Bereich **[!UICONTROL Zielgruppen-Anreicherung]**die Anreicherung, die schließlich beim Versand als Zielgruppe verwendet wird. Wählen Sie für unser Beispiel**[!UICONTROL  Profil]** aus. Die Auswahl einer Zielgruppen-Anreicherung für profilbasierte Ereignisse ist zwingend erforderlich.
+1. Wählen Sie dann im Bereich **[!UICONTROL Zielgruppen-Anreicherung]** die Anreicherung, die schließlich beim Versand als Zielgruppe verwendet wird. Wählen Sie für unser Beispiel **[!UICONTROL Profil]** aus. Die Auswahl einer Zielgruppen-Anreicherung für profilbasierte Ereignisse ist zwingend erforderlich.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
-Nach der Publikation des Ereignisses sowie der Nachricht lässt sich der Inhalt der Transaktionsnachricht über den Link mit der Ressource **[!UICONTROL Profil]**anreichern.
+Nach der Publikation des Ereignisses sowie der Nachricht lässt sich der Inhalt der Transaktionsnachricht über den Link mit der Ressource **[!UICONTROL Profil]** anreichern.
 
 **Verwandte Themen:**
 
@@ -136,7 +136,7 @@ Nach der Publikation des Ereignisses sowie der Nachricht lässt sich der Inhalt 
 
 Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen und es publizieren.
 
-1. Verwenden Sie die Schaltfläche **[!UICONTROL API-Vorschau]**, um eine Simulation der von Ihrem Web-Entwickler verwendeten REST-API anzuzeigen, bevor sie publiziert wird. Nach der Publikation des Ereignisses dient diese Schaltfläche des Weiteren dazu, eine Vorschau der in Produktion befindlichen API anzuzeigen. Siehe[Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website).
+1. Verwenden Sie die Schaltfläche **[!UICONTROL API-Vorschau]**, um eine Simulation der von Ihrem Web-Entwickler verwendeten REST-API anzuzeigen, bevor sie publiziert wird. Nach der Publikation des Ereignisses dient diese Schaltfläche des Weiteren dazu, eine Vorschau der in Produktion befindlichen API anzuzeigen. Siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website).
 
    ![](assets/message-center_api_preview.png)
 
@@ -144,7 +144,7 @@ Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen un
    >
    >Die REST-API variiert je nach ausgewähltem Kanal und nach ausgewählter Zielgruppendimension. Weiterführende Informationen zu den unterschiedlichen Konfigurationen finden Sie unter [Konfigurationen für Transaktionsereignisse](#transactional-event-specific-configurations).
 
-1. Starten Sie mit der Schaltfläche **[!UICONTROL Publizieren]**die Publikation.
+1. Starten Sie mit der Schaltfläche **[!UICONTROL Publizieren]** die Publikation.
 
    ![](assets/message-center_pub.png)
 
@@ -156,7 +156,7 @@ Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen un
 
 >[!NOTE]
 >
->Jedes Mal, wenn Sie ein Ereignis ändern, müssen Sie anschließend die Schaltfläche **[!UICONTROL Publizieren]**verwenden, um die von Ihrem Web-Entwickler verwendete REST-API zu aktualisieren.
+>Jedes Mal, wenn Sie ein Ereignis ändern, müssen Sie anschließend die Schaltfläche **[!UICONTROL Publizieren]** verwenden, um die von Ihrem Web-Entwickler verwendete REST-API zu aktualisieren.
 
 Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht erzeugt. Damit das entsprechende Ereignis den Versand der Transaktionsnachricht auslösen kann, muss die Transaktionsnachricht angepasst und publiziert werden. Siehe [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 
@@ -166,7 +166,7 @@ Sie können die erstellte Transaktionsnachricht direkt über den Link im linken 
 
 Außerdem muss die Auslösung dieses Ereignisses in Ihre Webseite integriert werden. Siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website).
 
-### Ereignis depublizieren  {#unpublishing-an-event}
+### Ereignis depublizieren   {#unpublishing-an-event}
 
 Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publikation des Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht. Selbst wenn das Ereignis auf Ihrer Webseite ausgelöst wird, werden die entsprechenden Nachrichten nun nicht mehr gesendet und auch nicht in der Datenbank gespeichert.
 
@@ -190,14 +190,14 @@ Weiterführende Informationen dazu finden Sie im Abschnitt [REST-API-Dokumentati
 
 Die Konfiguration von Transaktionsereignissen variiert je nach dem Typ der zu sendenden Transaktionsnachricht (Ereignis oder Profil) und dem verwendeten Kanal.
 
-In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie im Abschnitt  [Ereignis erstellen](#creating-an-event).
+In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie im Abschnitt   [Ereignis erstellen](#creating-an-event).
 
 ### Ereignisbasierte Transaktionsnachrichten {#event-based-transactional-messages}
 
 Um eine ereignisbasierte Transaktionsnachricht zu senden, erstellen und konfigurieren Sie zunächst ein Ereignis, bei dem die im Ereignis selbst enthaltenen Daten zur Zielgruppenbestimmung verwendet werden.
-Weiterführende Informationen finden Sie unter [Interaktionen fördern mit Transaktionsnachrichten](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
+Weiterführende Informationen finden Sie unter [Interaktionen fördern mit Transaktionsnachrichten](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
 
-1. Wählen Sie bei der Erstellung der Ereigniskonfiguration die Zielgruppendimension **[!UICONTROL Echtzeit-Ereignis]**(siehe[Ereignis erstellen](#creating-an-event)).
+1. Wählen Sie bei der Erstellung der Ereigniskonfiguration die Zielgruppendimension **[!UICONTROL Echtzeit-Ereignis]** (siehe [Ereignis erstellen](#creating-an-event)).
 1. Fügen Sie zum Ereignis Felder hinzu, damit Sie die Transaktionsnachricht personalisieren können (siehe [Ereignisattribute definieren](#defining-the-event-attributes)).
 1. Reichern Sie den Inhalt der Transaktionsnachricht an, wenn Sie Zusatzinformationen aus der Adobe-Campaign-Datenbank verwenden möchten (siehe [Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)).
 
@@ -213,34 +213,34 @@ Weiterführende Informationen finden Sie unter [Interaktionen fördern mit Trans
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Profilbasierte Transaktionsnachrichten  {#profile-based-transactional-messages}
+### Profilbasierte Transaktionsnachrichten   {#profile-based-transactional-messages}
 
 Um eine profilbasierte Transaktionsnachricht zu senden, erstellen und konfigurieren Sie zunächst ein Ereignis, bei dem die in der Adobe-Campaign-Datenbank enthaltenen Daten zur Zielgruppenbestimmung verwendet werden.
 
-1. Wählen Sie bei der Erstellung der Ereigniskonfiguration die Zielgruppendimension **[!UICONTROL Profil-Ereignis]**(siehe[Ereignis erstellen](#creating-an-event)).
+1. Wählen Sie bei der Erstellung der Ereigniskonfiguration die Zielgruppendimension **[!UICONTROL Profil-Ereignis]** (siehe [Ereignis erstellen](#creating-an-event)).
 1. Fügen Sie zum Ereignis Felder hinzu, damit Sie die Transaktionsnachricht personalisieren können (siehe [Ereignisattribute definieren](#defining-the-event-attributes)). Für eine Anreicherung müssen Sie mindestens ein Feld hinzufügen. Sie müssen keine anderen Felder wie **Vorname** und **Nachname** erstellen, da Sie Personalisierungsfelder aus der Adobe-Campaign-Datenbank verwenden können.
-1. Erstellen Sie eine Anreicherung, um das Ereignis mit der Ressource **[!UICONTROL Profil]**zu verknüpfen (siehe[Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)). Wenn die Zielgruppendimension**[!UICONTROL  Profil]** verwendet wird, ist die Erstellung einer Anreicherung zwingend erforderlich.
+1. Erstellen Sie eine Anreicherung, um das Ereignis mit der Ressource **[!UICONTROL Profil]** zu verknüpfen (siehe [Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)). Wenn die Zielgruppendimension **[!UICONTROL Profil]** verwendet wird, ist die Erstellung einer Anreicherung zwingend erforderlich.
 1. Erstellen Sie eine Vorschau und publizieren Sie das Ereignis (siehe [Vorschau erstellen und Ereignis publizieren](#previewing-and-publishing-the-event)).
 
-   Bei der Vorschau des Ereignisses enthält die REST-API kein Attribut, mit dem die E-Mail-Adresse oder das Mobiltelefon spezifiziert wird, da diese Daten von der Ressource **[!UICONTROL Profil]**abgerufen werden.
+   Bei der Vorschau des Ereignisses enthält die REST-API kein Attribut, mit dem die E-Mail-Adresse oder das Mobiltelefon spezifiziert wird, da diese Daten von der Ressource **[!UICONTROL Profil]** abgerufen werden.
 
    Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht erzeugt. Damit das entsprechende Ereignis den Versand der Transaktionsnachricht auslösen kann, muss die soeben erstellte Nachricht angepasst und publiziert werden; siehe [Profil-Transaktionsnachricht senden](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message).
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Ereignisbasierte Transaktions-Push-Benachrichtigungen  {#event-based-transactional-push-notifications}
+### Ereignisbasierte Transaktions-Push-Benachrichtigungen   {#event-based-transactional-push-notifications}
 
-Für den Versand von Transaktions-Push-Benachrichtigungen müssen Sie Adobe Campaign entsprechend konfigurieren. Siehe [Konfiguration von Push-Benachrichtigungen](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+Für den Versand von Transaktions-Push-Benachrichtigungen müssen Sie Adobe Campaign entsprechend konfigurieren. Siehe [Konfiguration von Push-Benachrichtigungen](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html).
 
 Um eine anonyme Transaktions-Push-Benachrichtigung an alle Benutzer zu senden, die sich für den Empfang von Benachrichtigungen von Ihrer Mobile App angemeldet haben, erstellen und konfigurieren Sie zunächst ein Ereignis, bei dem die im Ereignis selbst enthaltenen Daten zur Zielgruppenbestimmung verwendet werden. Die entsprechenden Schritte finden Sie unten.
 
 Das Ereignis muss diese drei Elemente enthalten:
 
 * Einen **Anmeldetoken** als Nutzerkennung für eine Mobile App und ein Gerät. Möglicherweise entspricht es keinem Profil in der Adobe-Campaign-Datenbank.
-* Einen **Mobile-App-Namen** (einen für alle Geräte – Android und iOS). Dies ist die Kennung der in Adobe Campaign konfigurierten Mobile App, die für den Empfang von Push-Benachrichtigungen auf den Geräten des Benutzers verwendet wird. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+* Einen **Mobile-App-Namen** (einen für alle Geräte – Android und iOS). Dies ist die Kennung der in Adobe Campaign konfigurierten Mobile App, die für den Empfang von Push-Benachrichtigungen auf den Geräten des Benutzers verwendet wird. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html)
 * Eine **Push-Plattform** (&quot;gcm&quot; für Android oder &quot;apns&quot; für iOS).
 
-1. Wählen Sie bei der Erstellung der Ereigniskonfiguration den Kanal **[!UICONTROL Mobile App]**und die Zielgruppendimension**[!UICONTROL  Echtzeit-Ereignis]** (siehe [Ereignis erstellen](#creating-an-event)).
+1. Wählen Sie bei der Erstellung der Ereigniskonfiguration den Kanal **[!UICONTROL Mobile App]** und die Zielgruppendimension **[!UICONTROL Echtzeit-Ereignis]** (siehe [Ereignis erstellen](#creating-an-event)).
 1. Fügen Sie zum Ereignis Felder hinzu, damit Sie die Transaktionsnachricht personalisieren können (siehe [Ereignisattribute definieren](#defining-the-event-attributes)).
 1. Reichern Sie den Inhalt der Transaktionsnachricht an, wenn Sie Zusatzinformationen aus der Adobe-Campaign-Datenbank verwenden möchten (siehe [Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)).
 
@@ -258,11 +258,11 @@ Das Ereignis muss diese drei Elemente enthalten:
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Profilbasierte Transaktions-Push-Benachrichtigungen  {#profile-based-transactional-push-notifications}
+### Profilbasierte Transaktions-Push-Benachrichtigungen   {#profile-based-transactional-push-notifications}
 
 Um eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile zu senden, die sich für Ihre Mobile App angemeldet haben, müssen Sie zunächst ein Ereignis erstellen und konfigurieren, bei dem die in der Adobe-Campaign-Datenbank enthaltenen Daten zur Zielgruppenbestimmung verwendet werden.
 
-1. Wählen Sie bei der Erstellung der Ereigniskonfiguration den Kanal **[!UICONTROL Mobile App]**und die Zielgruppendimension**[!UICONTROL  Profil]** (siehe [Ereignis erstellen](#creating-an-event)).
+1. Wählen Sie bei der Erstellung der Ereigniskonfiguration den Kanal **[!UICONTROL Mobile App]** und die Zielgruppendimension **[!UICONTROL Profil]** (siehe [Ereignis erstellen](#creating-an-event)).
 
    Standardmäßig wird die Transaktions-Push-Benachrichtigung an alle Mobile Apps gesendet, für die sich der Empfänger angemeldet hat. Um die Push-Benachrichtigung an eine bestimmte Mobile App zu senden, wählen Sie sie in der Liste aus. Die anderen Mobile Apps werden zwar bei der Zielgruppenbestimmung der Nachricht berücksichtigt, aber vom Versand ausgeschlossen.
 
@@ -274,16 +274,16 @@ Um eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile zu send
    >
    >Für eine Anreicherung müssen Sie mindestens ein Feld hinzufügen. Sie müssen keine anderen Felder wie **Vorname** und **Nachname** erstellen, da Sie Personalisierungsfelder aus der Adobe-Campaign-Datenbank verwenden können.
 
-1. Erstellen Sie eine Anreicherung, um das Ereignis mit der Ressource **[!UICONTROL Profil]**zu verknüpfen (siehe[Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)). Wenn die Zielgruppendimension**[!UICONTROL  Profil]** verwendet wird, ist die Erstellung einer Anreicherung zwingend erforderlich.
+1. Erstellen Sie eine Anreicherung, um das Ereignis mit der Ressource **[!UICONTROL Profil]** zu verknüpfen (siehe [Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)). Wenn die Zielgruppendimension **[!UICONTROL Profil]** verwendet wird, ist die Erstellung einer Anreicherung zwingend erforderlich.
 1. Erstellen Sie eine Vorschau und publizieren Sie das Ereignis (siehe [Vorschau erstellen und Ereignis publizieren](#previewing-and-publishing-the-event)).
 
-   Bei der Vorschau des Ereignisses enthält die REST-API kein Attribut, das das Anmeldetoken, den App-Namen und die Push-Plattform spezifiziert, da diese Informationen aus der Ressource **[!UICONTROL Profil]**entnommen werden.
+   Bei der Vorschau des Ereignisses enthält die REST-API kein Attribut, das das Anmeldetoken, den App-Namen und die Push-Plattform spezifiziert, da diese Informationen aus der Ressource **[!UICONTROL Profil]** entnommen werden.
 
    Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktions-Push-Benachrichtigung erzeugt. Um die soeben erstellte Nachricht anzupassen und zu publizieren, siehe [Transaktions-Push-Benachrichtigungen senden, bei denen die Zielgruppenbestimmung durch ein Profil erfolgt](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile).
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Ereignis konfigurieren, um eine Folgenachricht zu senden  {#configuring-an-event-to-send-a-follow-up-message}
+### Ereignis konfigurieren, um eine Folgenachricht zu senden   {#configuring-an-event-to-send-a-follow-up-message}
 
 Eine Folgenachricht ist eine vordefinierte Marketing-Versandvorlage, die in einem Workflow verwendet werden kann, um Nachrichten an die Empfänger einer bestimmten Transaktionsnachricht zu senden. Lesen Sie diesbezüglich auch den Abschnitt [Folgenachrichten](../../channels/using/follow-up-messages.md).
 
@@ -296,22 +296,22 @@ Eine Folgenachricht ist eine vordefinierte Marketing-Versandvorlage, die in eine
 
    Mit Ausführung der Publikation werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Lesen Sie zur Verwendung von Folgenachrichten auch den Abschnitt [Folgenachrichten senden](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 
-## Anwendungsbeispiel: Konfiguration eines Ereignisses zum Senden einer Transaktionsnachricht  {#use-case--configuring-an-event-to-send-a-transactional-message}
+## Anwendungsbeispiel: Konfiguration eines Ereignisses zum Senden einer Transaktionsnachricht   {#use-case--configuring-an-event-to-send-a-transactional-message}
 
 In diesem Beispiel möchten wir ein Ereignis konfigurieren, um nach jedem Kauf auf unserer Website eine Bestätigungsnachricht mit folgenden Merkmalen zu senden:
 
-Da wir unsere Kunden anhand ihrer CRM-ID identifizieren möchten, muss die Ressource **[!UICONTROL Profil]**zunächst um dieses neue Feld erweitert werden.
+Da wir unsere Kunden anhand ihrer CRM-ID identifizieren möchten, muss die Ressource **[!UICONTROL Profil]** zunächst um dieses neue Feld erweitert werden.
 
-Ebenso muss eine benutzerdefinierte Ressource für Käufe erstellt und publiziert und mit der Ressource **[!UICONTROL Profil]**verknüpft werden. Auf diese Weise werden Sie in der Lage sein, Informationen aus dieser Ressource zur Anreicherung des Nachrichteninhalts abzurufen.
+Ebenso muss eine benutzerdefinierte Ressource für Käufe erstellt und publiziert und mit der Ressource **[!UICONTROL Profil]** verknüpft werden. Auf diese Weise werden Sie in der Lage sein, Informationen aus dieser Ressource zur Anreicherung des Nachrichteninhalts abzurufen.
 
 Weiterführende Informationen zur Erstellung und Publikation von Ressourcen finden Sie auf [dieser Seite](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. Erstellen Sie ein neues Ereignis unter Verwendung des Kanals **[!UICONTROL E-Mail]**und der Zielgruppendimension**[!UICONTROL  Profil]** (siehe [Ereignis erstellen](#creating-an-event)).
+1. Erstellen Sie ein neues Ereignis unter Verwendung des Kanals **[!UICONTROL E-Mail]** und der Zielgruppendimension **[!UICONTROL Profil]** (siehe [Ereignis erstellen](#creating-an-event)).
 1. Definieren Sie die Attribute, die zur Personalisierung der Transaktionsnachricht verfügbar sein sollen. Fügen Sie in unserem Fall die Felder &quot;CRM ID&quot; und &quot;Produktkennung&quot; hinzu (siehe [Ereignisattribute definieren](#defining-the-event-attributes)).
 
    ![](assets/message-center_usecase1.png)
 
-1. Um den Nachrichteninhalt mit Informationen zu früheren Käufen des Kunden anzureichern, erstellen Sie eine Anreicherung, die die Ressource **[!UICONTROL Kauf]**verwendet (siehe[Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)).
+1. Um den Nachrichteninhalt mit Informationen zu früheren Käufen des Kunden anzureichern, erstellen Sie eine Anreicherung, die die Ressource **[!UICONTROL Kauf]** verwendet (siehe [Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)).
 
    ![](assets/message-center_usecase2.png)
 
