@@ -11,7 +11,7 @@ topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
@@ -31,15 +31,15 @@ Nachdem Ihre Mobile Apps in Adobe Campaign mithilfe des Experience Cloud Mobile 
 
 Nach der Einrichtung einer Mobile App können Sie die von ihr erfassten personenbezogenen bzw. PII-Daten abrufen, um Profile aus Ihrer Datenbank zu erstellen oder zu aktualisieren. Weitere Informationen finden Sie unter [Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Allgemeine Richtlinien für Mobilzustellungen in Adobe Campaign Standard finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+Allgemeine Richtlinien für den Mobil-Versand in Adobe Campaign Standard finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)
 
 ## Adobe Experience Platform SDK verwenden {#using-adobe-experience-platform-sdk}
 
 >[!NHinweis]
 >
->Weiterführende Informationen zu den verschiedenen Anwendungsfällen für Mobilgeräte, die in Adobe Campaign Standard in Kombination mit dem Adobe Experience Platform SDK unterstützt werden, finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
+>Weiterführende Informationen zu den verschiedenen Anwendungsfällen für Mobilgeräte, die in Adobe Campaign Standard in Kombination mit dem Adobe Experience Platform SDK unterstützt werden, finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configure-launch-rules-acs-use-cases.html).
 
-Um Push-Benachrichtigungen und In-App-Nachrichten mithilfe der Experience Platform SDK-Anwendung zu senden, muss in Adobe Experience Platform Launch eine Mobile App eingerichtet und diese in Adobe Campaign konfiguriert werden. Eine detaillierte Anleitung zur Konfiguration einer Mobile App mithilfe des Experience Platform SDK finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+Um Push-Benachrichtigungen und In-App-Nachrichten mithilfe der Experience Platform SDK-Anwendung zu senden, muss in Adobe Experience Platform Launch eine Mobile App eingerichtet und diese in Adobe Campaign konfiguriert werden. Eine detaillierte Anleitung zur Konfiguration einer Mobile App mithilfe des Experience Platform SDK finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html).
 
 Führen Sie zur Konfiguration die folgenden Schritte aus:
 
@@ -52,8 +52,8 @@ Führen Sie zur Konfiguration die folgenden Schritte aus:
 
    Weiterführende Informationen zu Erweiterungen finden Sie in der [Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)-Dokumentation.
 
-1. Konfigurieren Sie in Adobe Launch Regeln für Ihre Anwendung. Informationen dazu finden Sie im Abschnitt [Anwendung in Adobe Launch konfigurieren](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
-1. Konfigurieren Sie Ihre Adobe-Launch-Anwendung in Adobe Campaign Standard. Informationen dazu finden Sie im Abschnitt [Adobe-Launch-App in Adobe Campaign einrichten](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
-1. Fügen Sie zu Ihrer Mobile App eine kanalspezifische Konfiguration hinzu. Informationen dazu finden Sie im Abschnitt [Kanalspezifische Anwendungskonfiguration in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Konfigurieren Sie in Adobe Launch Regeln für Ihre Anwendung. Informationen dazu finden Sie im Abschnitt [Anwendung in Adobe Launch konfigurieren](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
+1. Konfigurieren Sie Ihre Adobe-Launch-Anwendung in Adobe Campaign Standard. Informationen dazu finden Sie im Abschnitt [Adobe-Launch-App in Adobe Campaign einrichten](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
+1. Fügen Sie zu Ihrer Mobile App eine kanalspezifische Konfiguration hinzu. Informationen dazu finden Sie im Abschnitt [Kanalspezifische Anwendungskonfiguration in Adobe Campaign](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/launch_2.png)
