@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ffbf03a7eb4fc1b5bfbd523c0c5342d41cfd211
+source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
 
 ---
 
 
-# Campaign Standard Release Planning {#release-planning}
+# Freigabeplanung {#release-planning}
 
 Adobe aktualisiert laufend seine Lösungen durch neue Funktionen, Verbesserungen und Fehlerkorrekturen.
 
@@ -29,7 +29,7 @@ Alle Veröffentlichungsdaten können sich ändern: Wir empfehlen Ihnen, diese Se
 
 Bitte abonnieren Sie den [Erhalt von Versionshinweisen](https://www.adobe.com/subscription/priority-product-update.html) , um Informationen zu den neuesten Adobe Experience Cloud-Versionen direkt in Ihrem Posteingang zu erhalten.
 
-## Version 20.1.3 - Versionshinweise Februar {#release-20-1-3---february-release-update}
+## Version 20.1.4 - Versionshinweise Februar {#release-20-1-4---february-release-update}
 
 Umweltaktualisierungen erfolgen in Wellen, während der unten angegebenen Zeiträume. Ausführliche Informationen zu dieser Version finden Sie in den [Versionshinweisen](../../rn/using/release-notes.md). Wenn Sie weitere Fragen haben, wenden Sie sich bitte an den [Adobe-Kundendienst](https://support.neolane.net/webApp/extranetLogin).
 
