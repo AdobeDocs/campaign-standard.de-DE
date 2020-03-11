@@ -31,7 +31,7 @@ Folgende Voraussetzungen müssen erfüllt sein:
 
 Melden Sie sich bei Ihrer Adobe Experience Manager-Authoring-Instanz an und navigieren Sie zu Ihrer Site, um auf den Ordner mit Ihren E-Mail-Inhalten zuzugreifen.
 
->[!VIDEO](https://images-tv.adobe.com/mpcv3/2674d459-d57b-413b-9d34-9fd941666023_1575035768.854x480at800_h264.mp4)
+>[!VIDEO](https://video.tv.adobe.com/v/29996)
 
 ## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
@@ -63,7 +63,7 @@ So erstellen Sie E-Mail-Inhalt in Adobe Experience Manager:
 
 1. Bearbeiten Sie den Betreff und die **[!UICONTROL Plain text]** Version Ihrer E-Mail, indem Sie auf die Registerkarte **[!UICONTROL Page properties]** > **[!UICONTROL Email]** > des Sidekick zugreifen.
 
-1. Fügen Sie **[!UICONTROL Personalization fields]** über die **[!UICONTROL Text & Personalization]** Komponente hinzu. Jede Komponente entspricht einer bestimmten Nutzung: Einfügen von Bildern, Hinzufügen der Personalisierung usw.
+1. Hinzufügen **[!UICONTROL Personalization fields]** durch die **[!UICONTROL Text & Personalization]** Komponente. Jede Komponente entspricht einer bestimmten Nutzung: Einfügen von Bildern, Hinzufügen der Personalisierung usw.
 
    Sehen Sie sich für weiterführende Informationen das folgende Video an:
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
