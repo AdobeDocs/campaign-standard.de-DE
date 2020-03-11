@@ -1,6 +1,6 @@
 ---
-title: Campaign Standard Release Planning
-description: Auf dieser Seite werden die kommenden Versionen von Adobe Campaign Standard aufgeführt.
+title: Campaign Standard
+description: Diese Seite Liste die kommenden Versionen von Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
+source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
 
 ---
 
@@ -29,9 +29,9 @@ Alle Veröffentlichungsdaten können sich ändern: Wir empfehlen Ihnen, diese Se
 
 Bitte abonnieren Sie den [Erhalt von Versionshinweisen](https://www.adobe.com/subscription/priority-product-update.html) , um Informationen zu den neuesten Adobe Experience Cloud-Versionen direkt in Ihrem Posteingang zu erhalten.
 
-## Version 20.1.4 - Versionshinweise Februar {#release-20-1-4---february-release-update}
+## Version 20.2.1 - April {#release-20-2-april-release}
 
-Umweltaktualisierungen erfolgen in Wellen, während der unten angegebenen Zeiträume. Ausführliche Informationen zu dieser Version finden Sie in den [Versionshinweisen](../../rn/using/release-notes.md). Wenn Sie weitere Fragen haben, wenden Sie sich bitte an den [Adobe-Kundendienst](https://support.neolane.net/webApp/extranetLogin).
+Umgebung werden in Schüben während der unten angegebenen Zeiträume aktualisiert. Ausführliche Informationen zu dieser Version finden Sie in den [Versionshinweisen](../../rn/using/release-notes.md). Wenn Sie weitere Fragen haben, wenden Sie sich bitte an den [Adobe-Kundendienst](https://support.neolane.net/webApp/extranetLogin).
 
 <table> 
  <thead> 
@@ -43,11 +43,11 @@ Umweltaktualisierungen erfolgen in Wellen, während der unten angegebenen Zeitr�
  <tbody> 
   <tr> 
    <td> Phase<br /> </td> 
-   <td> 17.-18. Februar 2020<br /> </td> 
+   <td> March 23 - 24, 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produktion<br /> </td> 
-   <td> 20. Februar - 5. März 2020<br /> </td> 
+   <td> 31. März - 6. April 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Umweltaktualisierungen erfolgen in Wellen, während der unten angegebenen Zeitr�
 
 **Q: Wie wirkt sich das aus?**
 
-A: Die Änderungen sind in den [Versionshinweisen](../../rn/using/release-notes.md)aufgeführt, einschließlich Links zur zugehörigen Dokumentation. Adobe empfiehlt außerdem, die Seite &quot; [Veraltete und entfernte Funktionen&quot;aufzurufen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html). Diese Seiten stehen für die neue Version am Datum der Aktualisierung der Stage-Umgebung zur Verfügung.
+A: Die Änderungen sind in den [Versionshinweisen](../../rn/using/release-notes.md)aufgeführt, einschließlich Links zur zugehörigen Dokumentation. Adobe empfiehlt außerdem, die Seite &quot; [Veraltete und entfernte Funktionen&quot;aufzurufen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html). Diese Seiten stehen zum Zeitpunkt des Upgrades auf die Stage Umgebung für die neue Version zur Verfügung.
 
 **Q: Was ist der Validierungsprozess?**
 
@@ -66,22 +66,22 @@ A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse z
 
 **Q: Gibt es während des Aktualisierungsprozesses Zugriff auf die Instanz?**
 
-A:Anzahl Während der Aktualisierung kann es vorkommen, dass die Datenbank einige Minuten lang nicht zugänglich ist. Alle Prozesse werden automatisch neu gestartet.
+A: Anzahl Während der Aktualisierung kann es vorkommen, dass der Zugriff auf die Datenbank innerhalb weniger Minuten nicht möglich ist. Alle Prozesse werden automatisch neu gestartet.
 
 **Q: Werden die Nachrichten weiterhin gesendet?**
 
-A:Anzahl Nachrichten werden nicht innerhalb weniger Minuten gesendet. Nach Abschluss der Aktualisierung werden Prozesse automatisch neu gestartet.
+A: Anzahl Nachrichten werden nicht innerhalb weniger Minuten gesendet. Nach Abschluss der Aktualisierung werden Prozesse automatisch neu gestartet.
 
-**Q: Werden die Workflows weiterhin ausgeführt und die Auslieferungen gesendet?**
+**Q: Wird die Workflows weiterhin laufen und die Versand senden?**
 
-A:Anzahl Während der Buildaktualisierung werden Workflow-Server und MTA beendet. Dies bedeutet, dass Workflows nicht ausgeführt werden und die Auslieferung nicht innerhalb weniger Minuten erfolgt. Es sind keine Maßnahmen erforderlich: Arbeitsabläufe starten erneut, sobald die Instanz aktualisiert wurde.
+A: Anzahl Während der Buildaktualisierung werden Workflow-Server und MTA beendet. Das bedeutet, dass Workflows nicht ausgeführt werden und Versand nicht innerhalb weniger Minuten gesendet werden. Es sind keine Maßnahmen erforderlich: Workflows wird erneut Beginn, sobald die Instanz aktualisiert wurde.
 
 **Q: Funktioniert die Nachverfolgung von Links in Nachrichten während der Aktualisierung weiterhin?**
 
-A: Ja, sie werden funktionieren. Während der Aktualisierung können keine neuen E-Mails gesendet werden, aber Nachverfolgungslinks in bereits gesendeten E-Mails werden verwendet.
+A: Ja, sie werden funktionieren. Während der Aktualisierung können keine neuen E-Mails gesendet werden, aber Nachverfolgungslinks, die in bereits gesendeten E-Mails enthalten sind, sind funktionsfähig.
 
 **Q: Woher weiß ich, dass die Aktualisierung abgeschlossen ist?**
 
-A: Wenn Sie sich bei Campaign anmelden, wird ein Popup für Versionshinweise mit der neuesten Version angezeigt.
+A: Beim Anmelden bei Campaign wird ein Popup für die Versionshinweise mit der neuesten Version angezeigt.
 
 Wenden Sie sich bei weiteren Fragen an den [Adobe-Kundendienst](https://support.neolane.net/webApp/extranetLogin).
