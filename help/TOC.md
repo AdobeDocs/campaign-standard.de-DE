@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
+source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 
 ---
 
@@ -152,6 +152,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + Nachrichten senden und tracken {#sending-and-tracking-messages}
       + [Versand bestätigen](sending/using/confirming-the-send.md)
       + [Nachrichten tracken](sending/using/tracking-messages.md)
+      + [Archivierung mit E-Mail-BCC](sending/using/archiving.md)
    + Nachrichten beobachten {#monitoring-messages}
       + [Sendungen beobachten](sending/using/monitoring-a-delivery.md)
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
@@ -200,7 +201,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + [Über Campaign-Integrationen](integrating/using/about-campaign-integrations.md)
    + Verwenden von Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
       + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Konfiguration der Campaign-Experience Manager-Integration](integrating/using/configure-experience-manager.md)
+      + [Campaign-Experience Manager-Integration konfigurieren](integrating/using/configure-experience-manager.md)
       + [E-Mail-Inhalt in Adobe Experience Manager erstellen](integrating/using/creating-email-experience-manager.md)
       + [Campaign-Formular in Adobe Experience Manager erstellen](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign und Target verwenden {#working-with-campaign-and-target}
