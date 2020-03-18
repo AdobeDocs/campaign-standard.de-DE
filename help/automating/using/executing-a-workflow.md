@@ -12,8 +12,8 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+translation-type: tm+mt
+source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
 
 ---
 
@@ -46,19 +46,15 @@ Sobald eine Aktivität ausgeführt worden ist, wird die Anzahl der in der Transi
 
 Sie können Transitionen vor oder nach der Ausführung des Workflows öffnen, um zu überprüfen, ob die übermittelten Daten korrekt sind. Die vorhandenen Daten sowie deren Struktur lassen sich visualisieren.
 
-Standardmäßig können nur die Details der letzten Transition des Workflows abgerufen werden. Um auch auf die Ergebnisse der vorangehenden Aktivitäten zugreifen zu können, ist vor dem Start des Workflows in den Workflow-Eigenschaften im Bereich **[!UICONTROL Ausführung]** die Option **[!UICONTROL Zwischenergebnis festhalten]** zu aktivieren.
+Standardmäßig können nur die Details der letzten Transition des Workflows abgerufen werden. To be able to access the results of the preceding activities, you need to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties, before starting the workflow.
 
 >[!NOTE]
 >
 >Diese Option verbraucht eine große Menge an Speicherplatz und dient der Erstellung eines Workflows und der korrekten Konfiguration. Aktivieren Sie sie nicht bei Produktionsinstanzen.
 
-Bei einer geöffneten Transition kann ihr **[!UICONTROL Titel]** geändert oder derselben ein **[!UICONTROL Segment-Code]** zugewiesen werden. Bearbeiten Sie hierzu die entsprechenden Felder und validieren Sie Ihre Änderungen.
+When a transition is open, you can edit its **[!UICONTROL Label]** or link a **[!UICONTROL Segment code]** to it. Bearbeiten Sie hierzu die entsprechenden Felder und validieren Sie Ihre Änderungen.
 
-## Workflow mit der REST API steuern   {#controlling-a-workflow-from-the-rest-api}
-
-Mit der REST API können Sie einen Workflow **starten**, **aussetzen**, wieder **aufnehmen** und **anhalten**.
-
-Weiterführende Informationen und Beispiele von REST-Aufrufen finden Sie in der [API-Dokumentation.](../../api/using/controlling-a-workflow.md)
+Using Campaign Standard REST APIs, you can **start**, **pause**, **resume** and **stop** a workflow. Weiterführende Informationen und Beispiele von REST-Aufrufen finden Sie in der [API-Dokumentation.](../../api/using/controlling-a-workflow.md)
 
 ## Workflow-Lebenszyklen {#life-cycle}
 
@@ -146,18 +142,18 @@ Die Schaltfläche ![](assets/checkdisable.png) deaktiviert die markierten Aktivi
 
 Der Workflow-Verlauf wird für die in den Ausführungseigenschaften eines Workflows angegebene Dauer gespeichert (siehe [Eigenschaften des Workflows](#workflow-properties)). Innerhalb dieser Dauer werden alle Logs gespeichert, auch wenn der Workflow neu gestartet wurde. Wenn Sie die Logs einer früheren Ausführung nicht beibehalten möchten, können Sie den Verlauf unter Verwendung der Schaltfläche ![](assets/delete_darkgrey-24px.png) bereinigen.
 
-Der **[!UICONTROL Protokoll]**-Tab enthält den Ausführungsverlauf aller oder aller markierten Aktivitäten. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
+The **[!UICONTROL Log]** tab contains the execution history of all the activities or any selected activities. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
 
 ![](assets/wkf_execution_4.png)
 
-Der **[!UICONTROL Aufgaben]**-Tab liefert Details zur Ausführungsabfolge der Aktivitäten. Klicken Sie auf eine Aufgabe zur Anzeige weiterer Details.
+The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. Klicken Sie auf eine Aufgabe zur Anzeige weiterer Details.
 
 ![](assets/wkf_execution_5.png)
 
 In beiden Listen:
 
 * gibt der Zähler Auskunft über die Anzahl an Listeneinträgen. Bei mehr als 30 Listenelementen wird durch einen Klick auf den Zähler die Gesamtzahl angezeigt.
-* ermöglicht die Schaltfläche **[!UICONTROL Liste konfigurieren]** die Auswahl der anzuzeigenden Informationen, die Bestimmung der Spaltenreihenfolge sowie die Sortierung der Liste.
+* The **[!UICONTROL Configure list]** button allows you to choose the information displayed, define the column order, and sort the list.
 * Mithilfe von Filtern können Sie Informationen schneller auffinden. Über das Suchfeld können Sie nach einem bestimmten Text in den Namen der Workflow-Aktivitäten (Beispiel: &quot;Abfrage&quot;) und Protokollen suchen.
 
 ## Umgang mit Fehlern   {#error-management}
@@ -166,7 +162,7 @@ Wenn ein Fehler auftritt, wird der Workflow ausgesetzt und die bei Fehlerauftrit
 
 Der Workflow wechselt in den roten Status und der Fehler wird im Protokoll verzeichnet.
 
-Es besteht die Möglichkeit, das Aussetzen des Workflows im Falle von Fehlern zu vermeiden und die sich anschließenden Aufgaben wie geplant auszuführen. Öffnen Sie hierzu die Workflow-Eigenschaften mithilfe der Schaltfläche ![](assets/edit_darkgrey-24px.png) und wählen Sie im Bereich **[!UICONTROL Ausführung]** im Feld **Bei Fehler** die Option **Ignorieren** aus der Dropdown-Liste aus.
+Es besteht die Möglichkeit, das Aussetzen des Workflows im Falle von Fehlern zu vermeiden und die sich anschließenden Aufgaben wie geplant auszuführen. To do this, go to the workflow properties via the ![](assets/edit_darkgrey-24px.png) button and, in the **[!UICONTROL Execution]** section, select the **Ignore** option in the **In case of error** field.
 
 In diesem Fall wird die fehlerhafte Aufgabe abgebrochen. Dieser Modus ist insbesondere bei Workflows mit wiederkehrenden Vorgängen angebracht, da die nächste Ausführung auf diese Weise wie geplant starten kann.
 
@@ -174,47 +170,62 @@ In diesem Fall wird die fehlerhafte Aufgabe abgebrochen. Dieser Modus ist insbes
 >
 >Es besteht die Möglichkeit, diese Vorgehensweise innerhalb eines Workflows nur für bestimmte Aktivitäten zu konfigurieren. Wählen Sie hierzu die gewünschte Aktivität aus, öffnen Sie sie mithilfe des Schnellzugriffs ![](assets/edit_darkgrey-24px.png) und wählen Sie im Bereich **Ausführungsoptionen** den gewünschten Umgang mit Fehlern aus. Siehe [Ausführungsoptionen von Aktivitäten](#activity-execution-options).
 
-Im Bereich **[!UICONTROL Ausführung]** der Workflow-Eigenschaften kann die Anzahl an **[!UICONTROL Folgefehlern]** bestimmt werden, die zulässig sind, bevor die Ausführung des Workflows automatisch ausgesetzt wird. Solange diese Anzahl nicht erreicht ist, werden die fehlerhaften Elemente ignoriert und die anderen Workflow-Zweige regulär ausgeführt. Sobald diese Anzahl erreicht ist, wird der Workflow ausgesetzt und die Workflow-Supervisoren werden automatisch benachrichtigt (E-Mail und In-App-Benachrichtigung). Siehe [Eigenschaften des Workflows](#workflow-properties) und [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+In den Eigenschaften [des](#workflow-properties)Workflows stehen zusätzliche Optionen zur Fehlerverwaltung zur Verfügung.
 
-Die Supervisoren werden ebenfalls in den Ausführungseigenschaften des Workflows bestimmt.
+![](assets/wkf_execution_error.png)
+
+Mögliche Optionen sind:
+
+* **[!UICONTROL Supervisors]**: ermöglicht Ihnen, die Gruppe von Personen zu definieren, die benachrichtigt werden sollen (E-Mail- und In-App-Benachrichtigung), wenn im Workflow ein Fehler auftritt. Sollte keine Gruppe angegeben sein, wird niemand benachrichtigt. Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+
+* **[!UICONTROL In case of error]**: können Sie angeben, welche Aktion ausgeführt werden soll, wenn die Aktivität einen Fehler auftritt. Zwei Optionen stehen zur Wahl:
+
+   * **Prozess aussetzen** - der Workflow wird automatisch angehalten. Der Workflow-Status wechselt in **fehlerhaft** und sein Symbol wird rot hinterlegt. Nach Beseitigung der Fehlerursache kann der Workflow neu gestartet werden.
+   * **Ignorieren** - die den Fehler verursachende Aktivität sowie alle im selben Zweig folgenden Aktivitäten werden nicht ausgeführt. Diese Konfiguration empfiehlt sich bei wiederkehrenden Aufgaben. Wenn der Workflow-Zweig eine Planungsaktivität enthält, führt diese automatisch zum nächsten geplanten Zeitpunkt zu einer erneuten Ausführung.
+
+* **[!UICONTROL Consecutive errors]** : können Sie mehrere aufeinander folgende Fehler definieren, die autorisiert werden, bevor die Ausführung des Workflows automatisch ausgesetzt wird.
+
+   * Bei Angabe von **[!UICONTROL 0]** bzw. bis zum Erreichen der angegebenen Fehleranzahl werden die fehlerhaften Aktivitäten ignoriert. Die anderen Workflow-Zweige werden regulär ausgeführt.
+
+   * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]**. Sollten zuvor Supervisoren bestimmt worden sein, werden diese automatisch per E-Mail benachrichtigt. Weiterführende Informationen dazu finden Sie im Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 ## Workflow-Eigenschaften   {#workflow-properties}
 
-Sie haben die Möglichkeit, die globalen Ausführungsoptionen eines Workflows anzupassen. Verwenden Sie hierzu die Schaltfläche ![](assets/edit_darkgrey-24px.png), um auf die Eigenschaften des Workflows zuzugreifen, und öffnen Sie den Bereich **[!UICONTROL Ausführung]**.
-
-Im Feld **[!UICONTROL Standardaffinität]** können Sie nun für die Ausführung des Workflows die Verwendung einer bestimmten Engine vorschreiben.
-
-Geben Sie im Feld **[!UICONTROL Verlaufsumfang]** die Dauer in Tagen an, nach der der Verlauf bereinigt werden soll.
-
-Aktivieren Sie bei Bedarf die Optionen **[!UICONTROL SQL-Abfragen im Protokoll speichern]** und **[!UICONTROL In der Engine ausführen (nicht im Produktionsmodus benutzen)]**.
-
-Aktivieren Sie die Option **[!UICONTROL Zwischenergebnis festhalten]**, wenn Sie die Detailansicht der Transitionen visualisieren können möchten. Achtung: Durch das Aktivieren dieser Option kann sich die Ausführung des Workflows stark verlangsamen.
-
-Im Feld **[!UICONTROL Prioritätsstufe]** haben Sie die Möglichkeit, die Workflow-Ausführung als eher vorrangig oder eher nachrangig zu kennzeichnen. Kritische Workflows werden vorrangig ausgeführt.
-
-Im Feld **[!UICONTROL Supervisoren]** wird die Gruppe von Personen bestimmt, die im Fall eines fehlerhaften Workflows benachrichtigt wird (E-Mail und In-App-Benachrichtigung). Sollte keine Gruppe angegeben sein, wird niemand benachrichtigt. Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
-
-Im Feld **[!UICONTROL Bei Fehler]** lassen sich mögliche Reaktionen bei Auftreten eines Fehlers bestimmen. Zwei Optionen stehen zur Wahl:
-
-* **Prozess aussetzen** - der Workflow wird automatisch angehalten. Der Workflow-Status wechselt in **fehlerhaft** und sein Symbol wird rot hinterlegt. Nach Beseitigung der Fehlerursache kann der Workflow neu gestartet werden.
-* **Ignorieren** - die den Fehler verursachende Aktivität sowie alle im selben Zweig folgenden Aktivitäten werden nicht ausgeführt. Diese Konfiguration empfiehlt sich bei wiederkehrenden Aufgaben. Wenn der Workflow-Zweig eine Planungsaktivität enthält, führt diese automatisch zum nächsten geplanten Zeitpunkt zu einer erneuten Ausführung.
-
-   Bei Auswahl dieser Option können Sie außerdem eine Anzahl zulässiger **[!UICONTROL Folgefehler]** bestimmen:
-
-   * Bei Angabe von **[!UICONTROL 0]** bzw. bis zum Erreichen der angegebenen Fehleranzahl werden die fehlerhaften Aktivitäten ignoriert. Die anderen Workflow-Zweige werden regulär ausgeführt.
-   * Bei Erreichen der angegebenen Anzahl wird der gesamte Workflow ausgesetzt und nimmt den Status **[!UICONTROL Mit Fehlern]** an.  Sollten zuvor Supervisoren bestimmt worden sein, werden diese automatisch per E-Mail benachrichtigt.
+To modify a workflow&#39;s execution options, use the ![](assets/edit_darkgrey-24px.png) button to access the workflow properties and select the **[!UICONTROL Execution]** section.
 
 ![](assets/wkf_execution_6.png)
+
+Mögliche Optionen sind:
+
+* **[!UICONTROL Default affinity]**: Mit diesem Feld können Sie die Ausführung eines Workflows oder einer Workflow-Aktivität auf einem bestimmten Computer erzwingen.
+
+* **[!UICONTROL History in days]**: gibt die Anzahl der Tage an, nach denen der Verlauf bereinigt werden muss. Der Verlauf besteht aus allen Elementen, die sich auf Protokolle, Aufgaben, Ereignis beziehen. Der Standardwert beträgt 30 Tage für vordefinierte Workflow-Vorlagen.
+
+   Der Bereinigungsvorgang erfolgt durch den technischen Arbeitsablauf für die Datenbankbereinigung, der täglich standardmäßig ausgeführt wird (siehe [Liste der Technischen Workflows](../../administration/using/technical-workflows.md)).
+
+   >[!IMPORTANT]
+   >
+   >Wenn das **[!UICONTROL History in days]** Feld leer gelassen wird, wird sein Wert als &quot;1&quot;betrachtet, d. h. der Verlauf wird nach 1 Tag bereinigt.
+
+* **[!UICONTROL Save SQL queries in the log]**: können Sie die SQL-Abfragen aus dem Workflow in den Protokollen speichern.
+
+* ***[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions. Achtung: Durch das Aktivieren dieser Option kann sich die Ausführung des Workflows stark verlangsamen.
+
+* **[!UICONTROL Execute in the engine (do not use in production)]**: ermöglicht es Ihnen, den Workflow lokal auszuführen, um Entwicklungsumgebungstests durchzuführen.
+
+* **[!UICONTROL Severity]**: können Sie eine Prioritätsstufe für die Ausführung von Workflows in Ihrer Adobe Campaign-Instanz festlegen. Kritische Workflows werden vorrangig ausgeführt.
+
+Der **[!UICONTROL Error management]** Abschnitt enthält weitere Optionen, mit denen Sie verwalten können, wie Workflows sich im Falle von Fehlern verhalten. Diese Optionen werden im Abschnitt [Fehlerverwaltung](#error-management) beschrieben.
 
 ## Aktivitätseigenschaften   {#activity-properties}
 
 ### Allgemeine Eigenschaften einer Aktivität {#general-properties-of-an-activity}
 
-Jede Aktivität verfügt über einen **[!UICONTROL Eigenschaften]**-Tab. In diesem Tabs lassen sich die allgemeinen Parameter der Aktivität, insbesondere Titel und Kennung anpassen. Die Konfiguration dieses Tabs is optional.
+Each activity has a **[!UICONTROL Properties]** tab. In diesem Tabs lassen sich die allgemeinen Parameter der Aktivität, insbesondere Titel und Kennung anpassen. Die Konfiguration dieses Tabs is optional.
 
 ### Verwaltung ausgehender Transitionen von Aktivitäten   {#managing-an-activity-s-outbound-transitions}
 
-Standardmäßig verfügen bestimmte Aktivitäten nicht über ausgehende Transitionen. Sie haben jedoch die Möglichkeit, diese in den Tabs **[!UICONTROL Transitionen]** oder **[!UICONTROL Eigenschaften]** der Aktivität hinzuzufügen, um auf Ihre Population im selben Workflow andere Prozesse anzuwenden.
+Standardmäßig verfügen bestimmte Aktivitäten nicht über ausgehende Transitionen. You can add one from the **[!UICONTROL Transitions]** tab or from the activity&#39;s **[!UICONTROL Properties]** tab to apply other processes to your population in the same workflow.
 
 Je nach Aktivität lassen sich verschiedene Arten ausgehender Transitionen hinzufügen:
 
@@ -223,37 +234,37 @@ Je nach Aktivität lassen sich verschiedene Arten ausgehender Transitionen hinzu
 * Zurückweisungen: zurückgewiesene Population. Dies trifft zu, wenn z. B. in eine Aktivität eingehende Daten aufgrund von Fehlerhaftig- oder Unvollständigkeit nicht verarbeitet werden konnten.
 * Komplement: nach der Ausführung der Aktivität verbleibende Population. Dies trifft zu, wenn z. B. eine Segmentierungsaktivität dahingehend konfiguriert ist, dass lediglich ein bestimmter Prozentsatz der eingehenden Population beibehalten wird.
 
-Es besteht die Möglichkeit, für die ausgehende Transition der Aktivität einen **[!UICONTROL Segmentcode]** anzugeben. Der Segmentcode ermöglicht es, die Herkunft von Teilmengen der Zielpopulation zu identifizieren, und kann im weiteren Verlauf für die Nachrichtenpersonalisierung verwendet werden.
+If applicable, specify a **[!UICONTROL Segment code]** for the activity&#39;s outbound transition. Der Segmentcode ermöglicht es, die Herkunft von Teilmengen der Zielpopulation zu identifizieren, und kann im weiteren Verlauf für die Nachrichtenpersonalisierung verwendet werden.
 
 ### Ausführungsoptionen von Aktivitäten   {#activity-execution-options}
 
-In einer Workflow-Aktivität erlaubt Ihnen der Tab **[!UICONTROL Ausführungsoptionen]** im Eigenschaften-Bildschirm insbesondere die Definition des Ausführungsmodus sowie des Verhaltens beim Auftritt von Fehlern.
+In the activity&#39;s properties screen, there is an **[!UICONTROL Advanced options]** tab that lets you define the activity&#39;s execution mode and behavior in case of errors.
 
 Markieren Sie zum Zugriff auf diese Optionen die gewünschte Aktivität im Workflow und öffnen Sie sie in der Symbolleiste unter Verwendung der Schaltfläche ![](assets/edit_darkgrey-24px.png).
 
 ![](assets/wkf_advanced_parameters.png)
 
-Im Feld **[!UICONTROL Ausführung]** können Sie die Aktion definieren, die bei Aktivierung der Aufgabe ausgelöst werden soll. Dabei stehen drei Optionen zur Wahl:
+The **[!UICONTROL Execution]** field allows you to define the action to be carried out when the task is started. Dabei stehen drei Optionen zur Wahl:
 
 * **Normal** - die Aufgabe wird ausgeführt.
 * **Aktivieren aber nicht ausführen** - die Aktivität wird ausgesetzt. Dies bedeutet, dass auch die nachfolgenden Aktivitäten nicht ausgeführt werden. Dies kann sich als nützlich erweisen, wenn Sie beispielsweise zum Zeitpunkt der Aufgabenaktivierung den Workflow überwachen möchten.
 * **Nicht aktivieren** - die Aktivität sowie alle im selben Zweig folgenden Aktivitäten werden nicht ausgeführt.
 
-Im Feld **[!UICONTROL Bei Fehler]** lassen sich mögliche Reaktionen bei Auftreten eines Fehlers bestimmen. Zwei Optionen stehen zur Wahl:
+The **[!UICONTROL In case of error]** field allows you to specify the action to be carried out should the activity encounter an error. Zwei Optionen stehen zur Wahl:
 
 * **Prozess aussetzen** - der Workflow wird automatisch angehalten. Der Workflow-Status wechselt in **fehlerhaft** und sein Symbol wird rot hinterlegt. Nach Beseitigung der Fehlerursache kann der Workflow neu gestartet werden.
 * **Ignorieren** - die den Fehler verursachende Aktivität sowie alle im selben Zweig folgenden Aktivitäten werden nicht ausgeführt. Diese Konfiguration empfiehlt sich bei wiederkehrenden Aufgaben. Wenn der Workflow-Zweig eine Planungsaktivität enthält, führt diese automatisch zum nächsten geplanten Zeitpunkt zu einer erneuten Ausführung.
 
-Im Feld **[!UICONTROL Verhalten]** können Sie das Verhalten des Workflows im Fall von asynchronen Aufgaben bestimmen. Zwei Optionen stehen zur Wahl:
+The **[!UICONTROL Behavior]** field allows you to define the procedure to follow if asynchronous tasks are used. Zwei Optionen stehen zur Wahl:
 
 * **Mehrere autorisierte Aufgaben** - mehrere Aufgaben können gleichzeitig ausgeführt werden.
 * **Laufende Aufgabe hat Vorrang** - solange eine Aufgabe läuft, wird keine neue Aufgabe gestartet. Solange eine Aufgabe läuft, wird keine neue Aufgabe gestartet.
 
-Im Feld **[!UICONTROL Max. Ausführungsdauer]** kann eine maximale Dauer für die Workflow-Ausführung bestimmt werden, z. B. &quot;30s&quot; oder &quot;1h&quot;. Wenn eine Aufgabe die angegebene Dauer überschreitet, wird ein Warnhinweis erzeugt. Die Workflow-Ausführung wird hiervon jedoch nicht beeinflusst.
+The **[!UICONTROL Max. execution duration]** field allows you to specify a duration such as &quot;30s&quot; or &quot;1h&quot;. Wenn eine Aufgabe die angegebene Dauer überschreitet, wird ein Warnhinweis erzeugt. Die Workflow-Ausführung wird hiervon jedoch nicht beeinflusst.
 
-Das Feld **[!UICONTROL Affinität]** bietet die Möglichkeit, die Ausführung eines Workflows oder einer Workflow-Aktivität an eine bestimmte Engine zu binden. Hierzu müssen eine oder mehrere Affinitäten auf Workflow- oder Aktivitätsniveau definiert werden.
+The **[!UICONTROL Affinity]** field allows you to force a workflow or a workflow activity to execute on a particular machine. Hierzu müssen eine oder mehrere Affinitäten auf Workflow- oder Aktivitätsniveau definiert werden.
 
-Im Feld **[!UICONTROL Zeitzone]** können Sie der Aktivität eine bestimmte Zeitzone zuweisen. Adobe Campaign ist in der Lage, verschiedene Zeitzonen innerhalb einer Instanz zu verwalten. Die entsprechenden Einstellungen werden bei der Instanzerstellung vorgenommen.
+The **[!UICONTROL Time zone]** field allows you to select the time zone of the activity. Adobe Campaign ist in der Lage, verschiedene Zeitzonen innerhalb einer Instanz zu verwalten. Die entsprechenden Einstellungen werden bei der Instanzerstellung vorgenommen.
 
 >[!NOTE]
 >
