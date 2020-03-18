@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren des E-Mail-Kanals in Adobe Campaign Standard
+title: E-Mail-Kanal in Adobe Campaign Standard konfigurieren
 description: Erfahren Sie, wie Sie den E-Mail-Kanal in Adobe Campaign Standard konfigurieren.
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
+source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
 
 ---
 
@@ -56,9 +56,9 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
 [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 
-## E-Mail-Routing-Konten  {#email-routing-accounts}
+## E-Mail-Routing-Konten   {#email-routing-accounts}
 
-Das **[!UICONTROL Integrated email routing]** externe Konto wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
+Das **[!UICONTROL Integrated email routing]** Externe Konto wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
 ![](assets/channels_2.png)
 
@@ -68,7 +68,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 [Externe Konten](../../administration/using/external-accounts.md)
 
-## Regeln zum Umgang mit E-Mails  {#email-processing-rules}
+## Regeln zum Umgang mit E-Mails   {#email-processing-rules}
 
 Administratoren **[!UICONTROL Email processing rules]** können über das **[!UICONTROL Administration > Channels > Email]** Menü auf die Datei zugreifen.
 
@@ -78,86 +78,88 @@ Folgende Regeln sind in der Standardkonfiguration vorgesehen:
 
 ### Bounce Messages {#bounce-mails}
 
-Wenn die Zustellung einer E-Mail fehlschlägt, gibt der Remote-Server eine Fehlermeldung an die in den Plattform-Parametern angegebene Bounce-Adresse zurück.
+Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück. Weitere Informationen zum erweiterten MTA von Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-Adobe Campaign vergleicht den Inhalt jeder Bounce-E-Mail mit den in der Regelliste verzeichneten Strings und ordnet einen der drei Fehlertypen zu.
-
->[!IMPORTANT]
->
->Nach der Aktualisierung auf die erweiterte MTA werden die Absprungqualifikationen in der **[!UICONTROL Message qualification]** Kampagnentabelle nicht mehr verwendet. Bei Meldungen mit Fehlern bei synchroner Bereitstellung bestimmt die erweiterte MTA den Absprungtyp und die Qualifikation und sendet diese Informationen an Kampagne zurück. Asynchrone Absprünge werden weiterhin vom InMail-Prozess qualifiziert.
->
->Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-Der Benutzer kann eigene Regeln erstellen.
+Asynchrone Absprünge werden weiterhin durch das Campaign inMail-Prozess durch die **[!UICONTROL Bounce mails]** Regel qualifiziert.
 
 >[!IMPORTANT]
 >
->Beim Import eines Packages und bei der Aktualisierung von Daten durch den **Zustellbarkeit**-Workflow werden benutzerdefinierte E-Mail-Regeln überschrieben.
+>Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. Weitere Informationen zur Absprungmail-Qualifizierung finden Sie in diesem [Abschnitt](../../sending/using/understanding-delivery-failures.md).
 
-### E-Mail-Domain-Verwaltung {#managing-email-domains}
-
-Domain-Verwaltungsregeln ermöglichen die Regulierung des Volumens der ausgehenden E-Mails nach Domains. Sie analysieren die Bounce Messages und blockieren falls nötig den Versand.
-
-Der Adobe-Campaign-E-Mail-Server wendet zunächst die spezifischen Domain-Regeln an und im Anschluss jene, die den Normalfall repräsentieren (durch * gekennzeichnet). 
+<!--The user can create his own rules.
 
 >[!IMPORTANT]
 >
->Nach der Aktualisierung auf die erweiterte MTA erfolgt die Signatur der DKIM-E-Mail-Authentifizierung (DomainKeys Identified Mail) durch die erweiterte MTA. Das DKIM-Signieren durch die native Kampagnen-MTA wird im Rahmen des erweiterten MTA-Upgrades in der **[!UICONTROL Domain management]** Tabelle deaktiviert.
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+
+### Verwaltung von E-Mail-Domänen {#managing-email-domains}
+
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+The **SMTP parameters** act as filters applied for a blocking rule.
+
+* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
+
+>[!IMPORTANT]
 >
->Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-Um eigene Domain-Verwaltungsregeln zu erstellen, sind die Angabe einer Schwelle und die Auswahl gewisser SMTP-Parameter erforderlich. Die **Schwelle** entspricht einem Prozentsatz an Fehlern, der bei Überschreiten den Versand an die betroffene Domain unterbricht.
+**Die Signierung der DKIM-E-Mail-Authentifizierung (DomainKeys Identified Mail)** erfolgt durch die erweiterte MTA für alle Nachrichten mit allen Domänen. Es wird nicht mit **Sender-ID**, **DomainKeys**, **DKIM** oder **S/MIME** signiert, es sei denn, auf der Ebene der erweiterten MTA ist etwas Anderes angegeben.
 
-Die **SMTP-Parameter** agieren wie die im Falle einer Blockierungsregel angewendeten Filter.
+Weitere Informationen zum erweiterten MTA von Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-* Sie haben die Möglichkeit, gewisse Authentifizierungsnormen und Verschlüsselungsschlüssel zu aktivieren, um den Domain-Namen zu prüfen: **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
-* **SMTP-Relais**: Zur Konfiguration der IP-Adresse und des Relais-Server-Ports für eine bestimmte Domain.
+### MX management {#mx-management}
 
-### MX-Verwaltung {#mx-management}
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
 
-Jede Regel definiert eine Adressenmaske des MX. Jeder MX, dessen Name dieser Adressenmaske entspricht, kommt somit infrage. Die Maske kann die Joker &quot;*&quot; und &quot;?&quot; enthalten.
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-So sind die Adressen
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
 
-* a.mx.yahoo.com
-* b.mx.yahoo.com
+>[!IMPORTANT]
+>
+>Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
+
+Der erweiterte MTA verwendet seine eigenen MX-Regeln, die es ihm ermöglichen, Ihren Durchsatz nach Domain auf der Grundlage Ihrer eigenen historischen E-Mail-Reputation und des Echtzeit-Feedbacks aus den Domains, in denen Sie E-Mails versenden, anzupassen.
+
+Weitere Informationen zum erweiterten MTA von Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+
+For example, the following addresses:
+
+* a.mx.yahoo.com 
+* b.mx.yahoo.com 
 * c.mx.yahoo.com
 
-mit folgenden Masken kompatibel:
+are compatible with the following masks:
 
-* *.yahoo.com
+* &#42;.yahoo.com
 * ?.mx.yahoo.com
 
-Die erste Regel, deren MX-Maske mit dem gewünschten MX kompatibel ist, wird angewendet.
+These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
+
+The following parameters are available for each rule:
+
+* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
+
+    * A number: the rule will only apply to this publicId.
+    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+
+  If the field is empty, the rule applies to all IDs.
+
+* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
+* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
 >[!IMPORTANT]
 >
->Nach der Aktualisierung auf die erweiterte MTA werden die **MX-Verwaltungsregeln** für Adobe Campaign nicht mehr verwendet. Die erweiterte MTA verwendet ihre eigenen MX-Regeln, die es ermöglichen, Ihren Durchsatz nach Domäne basierend auf Ihrem eigenen historischen E-Mail-Ruf und dem Echtzeit-Feedback, das von den Domänen stammt, von denen Sie E-Mails senden, anzupassen.
->
->Weitere Informationen zur erweiterten MTA-Datei für Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>* The delivery server (MTA) must be restarted if the parameters have been changed. 
+>* The modification or creation of management rules is for expert users only. -->
 
-Folgende Parameter stehen für jede einzelne Regel zur Verfügung:
-
-* **[!UICONTROL Range of IDs]**: Mit dieser Option können Sie die Bereiche der Bezeichner (publicId) angeben, für die die Regel gilt. Folgende Angaben sind möglich:
-
-   * Eine Ziffer: Die Regel wird nur für diese publicId angewendet.
-   * Ein Ziffernbereich (Ziffer1-Ziffer2): Die Regel wird für alle in diesem Bereich enthaltenen publicId angewendet.
-   Wenn nicht anders angegeben, wird die Regel für alle Kennungen angewendet.
-
-* **[!UICONTROL Shared]**: Diese Option gibt an, dass die höchste Anzahl von Nachrichten pro Stunde und Verbindungen für alle MXs gilt, die mit dieser Regel verknüpft sind.
-* **[!UICONTROL Maximum number of connections]**: maximale Anzahl gleichzeitiger Verbindungen zu einem MX von einer bestimmten Adresse.
-* **Maximale Nachrichtenanzahl**: Maximale Anzahl an Nachrichten, die von einer Verbindung aus gesendet werden können. Bei der Übersteigung der zulässigen Höchstwerte wird die Verbindung geschlossen und eine neue hergestellt.
-* **[!UICONTROL Messages per hour]**: maximale Anzahl von Nachrichten, die in einer Stunde für einen MX über eine bestimmte Adresse gesendet werden können.
-
->[!IMPORTANT]
->
->* Nach Änderungen in der Konfiguration muss der Versandserver (MTA) neu gestartet werden.
->* Neuerstellung und Änderungen von Verwaltungsregeln sollten erfahrenen Benutzern vorbehalten bleiben.
->
-
-
-
-## Liste der E-Mail-Eigenschaften  {#list-of-email-properties}
+## Liste der E-Mail-Eigenschaften   {#list-of-email-properties}
 
 Dieser Abschnitt behandelt die Liste von Parametern, die in den Eigenschaften einer E-Mail oder einer E-Mail-Vorlage verfügbar sind.
 
@@ -197,7 +199,7 @@ Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im 
 
 Die Anzahl weiterer Versuche kann global geändert werden (kontaktieren Sie Ihren technischen Administrator von Adobe) oder einzeln für jeden Versand oder jede Versandvorlage.
 
-#### Parameter für E-Mail-Format  {#email-format-parameters}
+#### Parameter für E-Mail-Format   {#email-format-parameters}
 
 Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei Optionen zur Verfügung:
 
@@ -228,7 +230,7 @@ Wenn Sie die SMTP-Testmodus-Option für eine E-Mail-Vorlage aktivieren, ist dies
 
 Weiterführende Informationen zur SMTP-Konfiguration finden Sie im Abschnitt [Liste der E-Mail-SMTP-Parameter](#list-of-email-smtp-parameters).
 
-### Parameter für den Gültigkeitszeitraum  {#validity-period-parameters}
+### Parameter für den Gültigkeitszeitraum   {#validity-period-parameters}
 
 Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar:
 
@@ -242,25 +244,25 @@ Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar
 
    >[!IMPORTANT]
    >
-   >Nach der Aktualisierung auf die erweiterte MTA wird der **[!UICONTROL Delivery duration]** Parameter in Ihren Kampagnenauslieferungen nur verwendet, wenn er auf 3,5 Tage oder weniger eingestellt ist. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt. Alle Auswirkungen sind im Dokument [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) ausführlich beschrieben.
+   >Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt. Alle Auswirkungen sind im Dokument [Erweiterter MTA von Adobe Campaign](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) ausführlich beschrieben.
 
-* **[!UICONTROL Resource validity duration]**: Dieses Feld wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Spiegelseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
-* **[!UICONTROL Mirror page management]**: Die Spiegelseite ist eine HTML-Seite, die online über einen Webbrowser aufgerufen werden kann. Sie hat den gleichen Inhalt wie die E-Mail. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde. Die Erzeugung der Seite lässt sich in diesem Feld konfigurieren:
+* **[!UICONTROL Resource validity duration]**: Dieses Feld wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
+* **[!UICONTROL Mirror page management]**: Die Mirrorseite ist eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Sie hat den gleichen Inhalt wie die E-Mail. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde. Die Erzeugung der Seite lässt sich in diesem Feld konfigurieren:
 
    >[!IMPORTANT]
    >
    >Die Erstellung der Mirrorseite setzt voraus, dass für die E-Mail ein HTML-Inhalt bestimmt worden ist.
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (Standardmodus): die Spiegelseite wird generiert, wenn der Link in den E-Mail-Inhalt eingefügt wird.
+   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (Standardmodus): wird die Mirrorseite generiert, wenn der Link in den E-Mail-Inhalt eingefügt wird.
    * **Mirrorseitenerzeugung forcieren**: Erstellt eine Mirrorseite, selbst wenn im Versandinhalt kein entsprechender Link enthalten ist.
    * **Keine Mirrorseite erzeugen**: Generiert keine Mirrorseite, selbst wenn in den Nachrichten der entsprechende Link enthalten ist.
    * **Über die Nachrichtenkennung zugängliche Mirrorseite erzeugen**: Diese Option ermöglicht den Zugriff auf den Inhalt der Mirrorseite (einschließlich aller Personalisierungsinformationen) über das Versandlog-Fenster.
 
 >[!NOTE]
 >
->Der **[!UICONTROL Delivery duration]** Parameter gilt nicht für Transaktionsmeldungen. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
+>The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
 
-### Tracking-Parameter  {#tracking-parameters}
+### Tracking-Parameter   {#tracking-parameters}
 
 Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
@@ -280,11 +282,11 @@ Klicken Sie auf die Schaltfläche rechts neben dem Feld, das geändert werden so
 
 Das Einfügen und Verwenden des Personalisierungsinhalts ist in der Dokumentation zum [Personalisieren von E-Mail-Inhalten](../../designing/using/personalization.md) ausführlich beschrieben.
 
-#### Zielgruppen-Kontext  {#target-context}
+#### Zielgruppen-Kontext   {#target-context}
 
 Im Zielgruppen-Kontext werden die für die Zielgruppenbestimmung (im Bildschirm zur Audience-Erstellung) und die Personalisierung (Definition von Personalisierungsfeldern, im HTML-Inhaltseditor) der E-Mail verwendeten Tabellen angegeben.
 
-#### Routing  {#routing}
+#### Routing   {#routing}
 
 In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf ein externes Konto verwiesen. Dies kann zum Beispiel von Nutzen sein, wenn Sie ein externes Konto mit speziellen Branding-Einstellungen verwenden möchten.
 
@@ -292,7 +294,7 @@ In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf 
 >
 >Zu den externen Konten gelangen Sie über das Menü **Administration** > **Anwendungskonfiguration** > **Externe Konten**.
 
-#### Vorbereitung  {#preparation}
+#### Vorbereitung   {#preparation}
 
 Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../../sending/using/preparing-the-send.md) beschrieben.
 
@@ -306,7 +308,7 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
 
    Sie können auch den Versandtitel mit Ereignisvariablen personalisieren, die in der Aktivität &quot;Externes Signal&quot; des Workflows deklariert wurden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Save SQL queries in the log]**: Mit dieser Option können Sie während der Vorbereitungsphase SQL-Abfrageprotokolle im Journal hinzufügen.
+* **[!UICONTROL Save SQL queries in the log]**: Mit dieser Option können Sie während der Vorbereitungsphase SQL-Abfrage-Protokolle im Protokoll hinzufügen.
 
 ### Liste der E-Mail-SMTP-Parameter {#list-of-email-smtp-parameters}
 
@@ -320,7 +322,7 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
    >
    >Das Hinzufügen zusätzlicher SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Skripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-### Liste der Parameter für Zugriffsberechtigung  {#list-of-access-authorization-parameters}
+### Liste der Parameter für Zugriffsberechtigung   {#list-of-access-authorization-parameters}
 
 Im Abschnitt **[!UICONTROL Access authorization]** sind folgende Parameter verfügbar:
 
@@ -331,37 +333,3 @@ Im Abschnitt **[!UICONTROL Access authorization]** sind folgende Parameter verf�
    >Zur Konfiguration von Organisationseinheiten gehen Sie in das Menü **Administration** > **Benutzer &amp; Sicherheit**.
 
 * Die **[!UICONTROL Created by]**-, **[!UICONTROL Created]**- **[!UICONTROL Modified by]** und **[!UICONTROL Last modified]** -Felder werden automatisch ausgefüllt.
-
-## E-Mails archivieren {#archiving-emails}
-
-Sie können Adobe Campaign so konfigurieren, dass von den von der Plattform gesendeten E-Mails eine Kopie beibehalten wird.
-
-Adobe Campaign selbst ermöglicht zwar nicht die Verwaltung von archivierten Dateien, Sie können aber die gewünschten Nachrichten an eine bestimmte Adresse senden, wo sie mithilfe eines externen Systems verarbeitet und archiviert werden.
-
-Wenn diese Funktion in der Versandvorlage aktiviert wird, können Sie eine exakte Kopie der gesendeten Nachrichten an eine von Ihnen bestimmte BCC-E-Mail-Adresse senden (unsichtbar für die Nachrichtenempfänger).
-
-### Empfehlungen und Einschränkungen  {#recommendations-and-limitations}
-
-* Hierbei handelt es sich um eine optionale Funktion. Bitte prüfen Sie Ihren Lizenzvertrag und kontaktieren Sie den Ansprechpartner für Ihr Konto, um diese Funktion zu aktivieren.
-* Die BCC-Adresse Ihrer Wahl muss dem Adobe-Team zur Verfügung gestellt werden, das sie für Sie konfiguriert.
-* Sie können nur eine einzige BCC-E-Mail-Adresse verwenden.
-* Nur erfolgreich gesendete E-Mails werden berücksichtigt. Bounces werden nicht berücksichtigt.
-* Aus Datenschutzgründen müssen BCC-E-Mails von einem Archivierungssystem bearbeitet werden, in dem personenbezogene Daten (PII, Personally Identifiable Information) sicher aufbewahrt werden.
-* Bei der Erstellung einer neuen Versandvorlage ist E-Mail-BCC nicht standardmäßig aktiviert, selbst wenn diese Option erworben wurde. Sie muss manuell in jeder Versandvorlage aktiviert werden, in der sie verwendet werden soll.
-
-### E-Mail-Archivierung aktivieren  {#activating-email-archiving}
-
-E-Mail-BCC wird in der [E-Mail-Vorlage](../../start/using/marketing-activity-templates.md) über die folgende Option aktiviert:
-
-1. Gehen Sie in den Knoten **Ressourcen** > **Vorlagen** > **Versandvorlagen**.
-1. Duplizieren Sie die vordefinierte **[!UICONTROL Send via email]** Vorlage.
-1. Wählen Sie die duplizierte Vorlage aus.
-1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
-1. Erweitern Sie den **[!UICONTROL Send]** Abschnitt.
-1. Check the **[!UICONTROL Archive emails]** box to keep a copy of all sent messages for each delivery based on this template.
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
