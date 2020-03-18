@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ca603abd9b4ef1a9272a89acb62dee545b76114
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -131,7 +131,7 @@ Sobald die Anforderung verarbeitet ist, stehen die Verschlüsselungs-/Entschlüs
 * [Datei laden](../../automating/using/load-file.md)
 * [Dateiextraktion](../../automating/using/extract-file.md)
 
-## Erstellen einer Workflow-Vorlage zum Importieren von Daten {#example--import-workflow-template}
+## Erstellen von Workflow-Vorlagen zum Importieren von Daten {#example--import-workflow-template}
 
 Für den regelmäßigen Import von Dateien derselben Struktur empfiehlt sich die Verwendung einer Importvorlage.
 
@@ -206,7 +206,7 @@ In diesem Beispiel wird gezeigt, wie ein Workflow für den wiederholten Import v
 
       >[!NOTE]
       >
-      >Wenn Sie diesen Profilen Briefpost senden möchten, fügen Sie eine Anschrift ein, da diese Informationen für den Briefpost-Dienstleister wesentlich sind. Also make sure that the **[!UICONTROL Address specified]** box in your profiles&#39; information is checked. Um diese Option in einem Workflow zu aktualisieren, fügen Sie einfach den zu aktualisierenden Feldern ein Element hinzu, geben Sie als **** **[!UICONTROL Source]** 1 an und wählen Sie als `postalAddress/@addrDefined` das Feld **[!UICONTROL Destination]** aus. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
+      >Wenn Sie diesen Profilen Briefpost senden möchten, fügen Sie eine Anschrift ein, da diese Informationen für den Briefpost-Dienstleister wesentlich sind. Also make sure that the **[!UICONTROL Address specified]** box in your profiles&#39; information is checked. Um diese Option in einem Workflow zu aktualisieren, fügen Sie einfach den zu aktualisierenden Feldern ein Element hinzu, geben Sie als **** **[!UICONTROL Source]** 1 an und wählen Sie als **** das Feld **[!UICONTROL Destination]** postalAddress/@addrDefined aus. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
