@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
+source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ---
 
@@ -27,15 +27,21 @@ Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-note
 
 ## Aktualisierungen der Dokumentation - März 2020 {#doc-updates-march-2020}
 
-Die Dokumentation zur Konfiguration einer mobilen Anwendung und zugehörige Seiten wurden aktualisiert, um die Abwertung von SDK V4 widerzuspiegeln. [mehr dazu](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+Detailliertere Informationen über die erweiterte MTA wurden der Hauptdokumentation hinzugefügt, insbesondere bezüglich der E-Mail-Verarbeitungsregeln und der Absprungmail-Qualifikation [Weitere Informationen](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
-Die Dokumentation zur Adobe Campaign Standard-/Adobe Experience Manager-Integration wurde aktualisiert und verbessert. [mehr dazu](../../integrating/using/configure-experience-manager.md)
+Der Abschnitt zum Archivieren mit Email BCC wurde verschoben und aktualisiert. [Mehr dazu](../../sending/using/archiving.md)
 
-Die Dokumentation zum Kampagnen-E-Mail-Designer und zugehörige Seiten wurden aktualisiert, um die Adobe Creative SDK-Abschreibung widerzuspiegeln. [mehr dazu](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+Die Dokumentation zur Konfiguration einer mobilen Anwendung und zugehörige Seiten wurden aktualisiert, um die Abwertung von SDK V4 widerzuspiegeln. [Mehr dazu](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Ein neuer Abschnitt zu Best Practices des Campaign Standard-Datenmodells ist jetzt verfügbar. [mehr dazu](../../developing/using/data-model-best-practices.md)
+Die Dokumentation zur Adobe Campaign Standard-/Adobe Experience Manager-Integration wurde aktualisiert und verbessert. [Mehr dazu](../../integrating/using/configure-experience-manager.md)
 
-Informationen wurden auf der **[!UICONTROL Workflow]** vordefinierten rechten Seite hinzugefügt. [mehr dazu](../../administration/using/list-of-roles.md)
+Die Dokumentation zum Campaign-E-Mail-Designer und zugehörige Seiten wurden aktualisiert, um die Adobe Creative SDK-Abschreibung widerzuspiegeln. [Mehr dazu](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+Ein neuer Abschnitt zu Best Practices für Campaign Standard Datenmodell ist jetzt verfügbar. [Mehr dazu](../../developing/using/data-model-best-practices.md)
+
+Informationen wurden auf der **[!UICONTROL Workflow]** vordefinierten rechten Seite hinzugefügt. [Mehr dazu](../../administration/using/list-of-roles.md)
+
+Es wurden Informationen zu den in den Eigenschaften der Workflows **[!UICONTROL History in days field]** verfügbaren Informationen hinzugefügt. [Mehr dazu](../../automating/using/executing-a-workflow.md)
 
 ## Version 20.1 – Februar 2019 {#release-20-1---february-2020}
 
@@ -527,13 +533,13 @@ Zusätzliche Informationen zur Vorbereitung einer Nachricht in einem Versand –
 
 Die Versionshinweise wurden auf verschiedenen Seiten neu angeordnet, sodass Sie eine umfassendere Übersicht über alle Versionen erhalten.
 
-Der **[!UICONTROL Working with typologies]** Abschnitt wurde für eine verbesserte Sichtbarkeit aktualisiert. [mehr dazu](../../administration/using/about-typology-rules.md)
+Der **[!UICONTROL Working with typologies]** Abschnitt wurde für eine verbesserte Sichtbarkeit aktualisiert. [Mehr dazu](../../administration/using/about-typology-rules.md)
 
 A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [mehr dazu](../../automating/using/query.md)
 
 Das Beispiel für den Profilimport wurde aktualisiert und enthält jetzt Tipps, wie Sie Ihre Profile für den Empfang von Briefpost konfigurieren können – [mehr dazu](../../automating/using/importing-data.md)
 
-A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [mehr dazu](../../automating/using/enrichment.md)
+A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [Mehr dazu](../../automating/using/enrichment.md)
 
 The **[!UICONTROL Subscription Services]** activity has been updated to support more use cases, including using a single file to update subscriptions to multiple services. [mehr dazu](../../automating/using/subscription-services.md)
 
