@@ -11,8 +11,8 @@ topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: f7e361d10d039718c421a3684c518347af2be951
 
 ---
 
@@ -33,7 +33,7 @@ Teilweise werden E-Mails von Providern automatisch als Spam eingestuft, wenn die
 
 Zusätzlich helfen Ihnen Quarantänen, die Kosten des SMS-Versands zu senken, indem fehlerhafte Telefonnummern aus dem Versand ausgeschlossen werden.
 
-Weiterführende Informationen zu Best Practices zur Durchführung und Optimierung von Sendungen finden Sie auf [dieser Seite](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
+Weiterführende Informationen zu Best Practices zur Durchführung und Optimierung von Sendungen finden Sie auf [dieser Seite](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 ### Quarantäne im Vergleich zur Blacklist {#quarantine-vs-blacklisting}
 
@@ -45,7 +45,7 @@ Im Gegensatz dazu sind es bei der **Blacklist** die Profile selbst, die vom Vers
 
 >[!NOTE]
 >
->Wenn ein Benutzer auf eine SMS-Nachricht mit einem Schlüsselwort wie "STOP" antwortet, um sich vom SMS-Versand abzumelden, wird sein Profil nicht wie bei einem E-Mail-Abmeldevorgang auf die Blacklist gesetzt. Die Telefonnummer des Profils wird unter Quarantäne gestellt und erhält den Status **[!UICONTROL Auf Blacklist]**. Der Status bezieht sich ausschließlich auf die Telefonnummer und das Profil wird nicht auf die Blacklist gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Wenn ein Benutzer auf eine SMS-Nachricht mit einem Schlüsselwort wie &quot;STOP&quot; antwortet, um sich vom SMS-Versand abzumelden, wird sein Profil nicht wie bei einem E-Mail-Abmeldevorgang auf die Blacklist gesetzt. The profile phone number is sent to quarantine with the **[!UICONTROL Blacklisted]** status. Der Status bezieht sich ausschließlich auf die Telefonnummer und das Profil wird nicht auf die Blacklist gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## In Quarantäne befindliche Adressen identifizieren {#identifying-quarantined-addresses}
 
@@ -57,13 +57,13 @@ Die in Quarantäne befindlichen Adressen können für einen bestimmten Versand o
 
 ### Für einen Versand in Quarantäne befindliche Adressen identifizieren {#identifying-quarantined-addresses-for-a-delivery}
 
-Die für einen bestimmten Versand in Quarantäne befindlichen Adressen werden während der Versandvorbereitung im Tab **[!UICONTROL Ausschlusslogs]** des Versand-Dashboards angezeigt (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Weiterführende Informationen zur Versandvorbereitung finden Sie in [diesem Abschnitt](../../sending/using/preparing-the-send.md).
+Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Weiterführende Informationen zur Versandvorbereitung finden Sie in [diesem Abschnitt](../../sending/using/preparing-the-send.md).
 
 ![](assets/exclusion_logs.png)
 
 ### Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren {#identifying-quarantined-addresses-for-the-entire-platform}
 
-Administratoren können die für die gesamte Plattform in Quarantäne befindlichen Adressen im Menü **[!UICONTROL Administration &gt; Kanäle &gt; Quarantänen &gt; Adressen]** anzeigen.
+Administrators can list the addresses in quarantine for the entire platform from the **[!UICONTROL Administration > Channels > Quarantines > Addresses]** menu.
 
 >[!NOTE]
 >
@@ -81,16 +81,16 @@ Adobe Campaign verwaltet Quarantänen entsprechend dem Fehlertyp und dem Grund, 
 
 * **Ignorierter Fehler**: Bei ignorierten Fehlern wird eine Adresse nicht unter Quarantäne gestellt.
 * **Hardbounce**: Die E-Mail-Adresse kommt sofort in Quarantäne.
-* **Softbounce**: In diesem Fall wird die Adresse nicht sofort unter Quarantäne gestellt, sondern der Fehlerzähler nur hinaufgesetzt. Sollte der Zähler eine festgelegte Schwelle überschreiten, kommt die Adresse in Quarantäne. Die Standardkonfiguration sieht eine Schwelle von fünf Fehlern vor, die jeweils in einem Abstand von mindestens 24 Stunden auf den vorhergehenden folgen müssen, um berücksichtigt zu werden. Beim sechsten Fehler kommt die Adresse in Quarantäne. Die Schwelle für den Fehlerzähler ist einstellbar. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **Softbounce**: In diesem Fall wird die Adresse nicht sofort unter Quarantäne gestellt, sondern der Fehlerzähler nur hinaufgesetzt. Sollte der Zähler eine festgelegte Schwelle überschreiten, kommt die Adresse in Quarantäne. Die Standardkonfiguration sieht eine Schwelle von fünf Fehlern vor, die jeweils in einem Abstand von mindestens 24 Stunden auf den vorhergehenden folgen müssen, um berücksichtigt zu werden. Die Adresse wird beim fünften Fehler in Quarantäne gesetzt. Die Schwelle für den Fehlerzähler ist einstellbar. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
-   Wenn eine Nachricht bei einem erneuten Versuch zugestellt werden kann, wird der Fehlerzähler der in Quarantäne befindlichen Adresse neu initialisiert. Der Status der Adresse wird auf **[!UICONTROL Gültig]** gesetzt und mithilfe des Workflows **[!UICONTROL Datenbankbereinigung]** wird die Adresse nach zwei Tagen aus der Quarantäneliste gelöscht.
+   Wenn eine Nachricht bei einem erneuten Versuch zugestellt werden kann, wird der Fehlerzähler der in Quarantäne befindlichen Adresse neu initialisiert. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
 
-Wenn ein Benutzer eine E-Mail als Spam kennzeichnet (**Feedback Loop**), wird die Nachricht automatisch an ein von Campaign verwaltetes technisches Postfach weitergeleitet. Die E-Mail-Adresse des Benutzers wird dann automatisch unter Quarantäne gestellt und der Status in **[!UICONTROL Auf Blacklist]** geändert. Der Status bezieht sich ausschließlich auf die Adresse und das Profil wird nicht auf die Blacklist gesetzt, sodass der Empfänger nach wie vor SMS-Nachrichten und Push-Benachrichtigungen erhält.
+Wenn ein Benutzer eine E-Mail als Spam kennzeichnet (**Feedback Loop**), wird die Nachricht automatisch an ein von Campaign verwaltetes technisches Postfach weitergeleitet. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL Blacklisted]** status. Der Status bezieht sich ausschließlich auf die Adresse und das Profil wird nicht auf die Blacklist gesetzt, sodass der Empfänger nach wie vor SMS-Nachrichten und Push-Benachrichtigungen erhält.
 
 >[!NOTE]
 Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
 
-Bei Adressen in Quarantäne (siehe [Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-the-entire-platform)) zeigt das Feld **[!UICONTROL Fehlerursache]** an, warum die Quarantäne ausgelöst wurde.
+In the list of quarantined addresses (see [Identifying quarantined addresses for the entire platform](#identifying-quarantined-addresses-for-the-entire-platform)), the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine.
 
 ![](assets/quarantines2.png)
 
