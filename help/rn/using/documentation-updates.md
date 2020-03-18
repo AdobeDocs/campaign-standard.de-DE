@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-note
 
 ## Aktualisierungen der Dokumentation - März 2020 {#doc-updates-march-2020}
 
-Detailliertere Informationen über die erweiterte MTA wurden der Hauptdokumentation hinzugefügt, insbesondere bezüglich der E-Mail-Verarbeitungsregeln und der Absprungmail-Qualifikation [Weitere Informationen](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Detailliertere Informationen über die erweiterte MTA wurden der Hauptdokumentation hinzugefügt, insbesondere bezüglich der E-Mail-Verarbeitungsregeln und der Absprungmail-Qualifikation. [Mehr dazu](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 Der Abschnitt zum Archivieren mit Email BCC wurde verschoben und aktualisiert. [Mehr dazu](../../sending/using/archiving.md)
 
