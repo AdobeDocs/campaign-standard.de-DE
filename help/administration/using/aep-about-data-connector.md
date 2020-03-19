@@ -1,6 +1,6 @@
 ---
-title: Info zu Adobe Experience Platform Data Connector
-description: Verwalten Sie XDM-Schemata, um Ihre Campaign Standard-Daten auf der Adobe Experience Platform verfügbar zu machen.
+title: Über Adobe Experience Platform Data Connector
+description: Verwalten Sie XDM-Schemata, um Ihre Campaign Standard-Daten in Adobe Experience Platform verfügbar zu machen.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -11,65 +11,65 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
 
 ---
 
 
-# Info zu Adobe Experience Platform Data Connector {#about-aep-data-connector}
+# Über Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector befindet sich derzeit in der Betaphase, die möglicherweise ohne Vorankündigung häufig aktualisiert wird. Kunden müssen auf Azurblau gehostet werden (derzeit nur in der Beta-Version für Nordamerika), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an den Adobe-Kundendienst, wenn Sie Zugriff haben möchten.
+>Adobe Experience Platform Data Connector befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Adobe Experience Platform Data Connector hilft bestehenden Kunden, ihre Daten auf der Adobe Experience Platform verfügbar zu machen, indem XTK-Daten (in Campaign erfasste Daten) den XDM-Daten (Experience Data Model) auf der Adobe Experience Platform zugeordnet werden.
+Adobe Experience Platform Data Connector hilft Bestandskunden, ihre Daten in Adobe Experience Platform verfügbar zu machen, indem XTK-Daten (in Campaign erfasste Daten) den XDM-Daten (Experience-Datenmodell) in Adobe Experience Platform zugeordnet werden.
 
-Beachten Sie, dass der Connector **uni-direktional** ist und die Daten von Adobe Campaign Standard an Adobe Experience Platform sendet. Die Daten werden nie von der Adobe Experience Platform an Adobe Campaign Standard gesendet.
+Beachten Sie, dass der Connector **unidirektional** ist und die Daten von Adobe Campaign Standard an Adobe Experience Platform sendet. Die Daten werden nie von Adobe Experience Platform an Adobe Campaign Standard gesendet.
 
-Adobe Experience Platform Data Connector ist für **Dateningenieure** gedacht, die die benutzerdefinierten Ressourcen von Adobe Campaign Standard verstehen und verstehen, wie das Datenschema des Kunden insgesamt in der Adobe Experience Platform sein sollte.
+Adobe Experience Platform Data Connector ist für **Dateningenieure** gedacht, die mit den benutzerdefinierten Ressourcen von Adobe Campaign Standard vertraut sind und verstehen, wie das gesamte Datenschema des Kunden in Adobe Experience Platform aussehen sollte.
 
-Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen einer Datenzuordnung zwischen Campaign Standard und Adobe Experience Platform. Dies beginnt mit der Erstellung eines XDM-Schemas und eines Datensatzes.
+Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen eines Daten-Mappings zwischen Campaign Standard und Adobe Experience Platform. Dies beginnt mit der Erstellung eines XDM-Schemas und eines Datensatzes.
 
-Anleitungen zu Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)verfügbar.
+Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) verfügbar.
 
 >[!NOTE]
 >Sobald Adobe Experience Platform Data Connector konfiguriert und Daten erfolgreich in Adobe Experience Platform integriert wurden, müssen Sie den Datensatz aktivieren, damit die Daten in das Echtzeit-Kundenprofil aufgenommen werden.
 >
->Dies kann entweder über die APIs oder die Oberfläche von Adobe Experience Platform erfolgen. Weitere Informationen finden Sie in den Dokumentation:
+>Dies kann entweder über die APIs oder die Benutzeroberfläche von Adobe Experience Platform erfolgen. Weitere Informationen finden Sie in den entsprechenden Dokumentationen:
 >
->* [Datenbestand für Echtzeit-Kundenprofil aktivieren](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [DataSet für Echtzeit-Kundenprofil und Identitätsdienst mithilfe von APIs konfigurieren](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
+>* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
 
 
 ## Schlüsselkonzepte {#key-concepts}
 
-* Die Out-of-the-Box-Zuordnung ist nur für Felder verfügbar, die standardmäßig in Campaign Standard bereitgestellt werden. Für die Erfassung aller benutzerdefinierten Felder und Ressourcen muss jeder Kunde seine eigene Zuordnung definieren.
+* Vordefiniertes Mapping ist nur für Felder verfügbar, die standardmäßig in Campaign Standard bereitgestellt werden. Für die Erfassung aller benutzerdefinierten Felder und Ressourcen muss jeder Kunde sein eigenes Mapping definieren.
 
-* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform &#x200B; Die Intervalldauer beträgt 15 mn. Dieser Wert kann nicht geändert werden.
+* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. Dieser Wert kann nicht geändert werden.
 
    >[!NOTE]
    >
-   >Diese Dauer kann mit [Adobe Experience Platform-APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)geändert werden.
+   >Diese Dauer kann mit [Adobe Experience Platform-APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md) geändert werden.
 
-* Der Datenentwickler kann die Zuordnung von Campaign zu Adobe Experience Platform veröffentlichen, ändern und anhalten.
+* Der Dateningenieur kann das Mapping von Campaign zu Adobe Experience Platform veröffentlichen, ändern und anhalten.
 
-* Jede Targeting-Dimension kann zugeordnet werden. Die Empfehlung besteht darin, eine einzige Zuordnung für alle Felder in einer Targeting-Dimension zu haben.
+* Jede Zielgruppendimension kann abgebildet werden. Es wird empfohlen, für alle Felder in einer Zielgruppendimension ein einziges Mapping zu verwenden.
 
-* Alle Profilaktualisierungen, einschließlich Channel-opt-ins/opt-outs, sind Teil der Batch-Aktualisierung.
+* Alle Profilaktualisierungen, einschließlich Kanal-Opt-ins/-Opt-outs, sind Teil der Batch-Aktualisierung.
 
-* Alle Änderungen am Adobe Campaign Standard- oder XDM-Schema müssen manuell neu zugeordnet werden. &#x200B;
+* Alle Änderungen am Adobe Campaign Standard- oder XDM-Schema müssen manuell neu abgebildet werden.&#x200B;
 
-* Verfolgungsprotokoll und Broadlog-Daten werden automatisch als Experience Events in Adobe Experience Platform erfasst. Diese Erfassung wird in Echtzeit an Adobe Experience Platform gestreamt.
+* Trackinglog- und Broadlog-Daten werden automatisch als Erlebnisereignisse in Adobe Experience Platform erfasst. Diese Erfassung wird in Echtzeit an Adobe Experience Platform gestreamt.
 
 ## Einschränkungen {#limitations}
 
-* Die sofortige Übertragung von Abonnementereignissen wird nicht unterstützt. Um Abonnementereignisse zu übertragen, können Sie entsprechende XDM- und Datasets auf der Adobe Experience Platform erstellen und dann eine benutzerdefinierte Datenzuordnung für diese Daten konfigurieren.
+* Die vordefinierte Übertragung von Abonnementereignissen wird nicht unterstützt. Um Abonnementereignisse zu übertragen, können Sie ein entsprechendes XDM und einen Datensatz in Adobe Experience Platform erstellen und dann ein benutzerdefiniertes Daten-Mapping für diese Daten konfigurieren.
 
-* In Bezug auf Datenschutzanforderungen müssen Kunden separate Anforderungen für den Kampagnen-Core-Datenschutzdienst und die Adobe Experience Platform für Zugriffs- und Löschaktionen stellen.
+* In Bezug auf Datenschutzanfragen müssen Kunden sowohl für Zugriffs- als auch für Löschaktionen separate Anfragen für den zentralen Datenschutzdienst von Campaign und Adobe Experience Platform stellen.
 
-* Für jedes XDM-Feld muss die DULE-Kennzeichnung in Adobe Experience Platform erfolgen. Dies ist die Verantwortung des Kunden, DULE-Etiketten anzuwenden.
+* Für jedes XDM-Feld muss die DULE-Kennzeichnung in Adobe Experience Platform erfolgen. Es liegt in der Verantwortung des Kunden, DULE-Kennzeichnungen anzuwenden.
 
-* Beschränkungen für Marketingaktionen gelten erst, wenn DULE-Beschriftungen in Adobe Experience Platform angewendet werden. Zuvor sind alle Daten für alle Arten von Marketingaktionen verfügbar.
+* Beschränkungen für Marketing-Aktionen werden erst nach Anwendung der DULE-Kennzeichnungen in Adobe Experience Platform wirksam. Davor sind alle Daten für alle Arten von Marketing-Aktionen verfügbar.
 
-* Der Stapelauftrag wird alle 15 Minuten ausgeführt und identifiziert die Datensätze, die sich seit dem letzten Stapel geändert haben. Wenn sich alle Datensätze mit demselben Zeitstempel ändern, könnte ein Leistungsengpass für die Verwaltung der Erfassung aller Profile auftreten
+* Die Batch-Verarbeitung wird alle 15 Minuten ausgeführt und identifiziert die Datensätze, die sich seit dem letzten Batch geändert haben. Wenn sich alle Datensätze zum gleichen Zeitpunkt ändern, könnte bei der Erfassung aller Profile ein Leistungsengpass auftreten.
