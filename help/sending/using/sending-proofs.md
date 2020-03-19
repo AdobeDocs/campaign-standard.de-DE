@@ -1,6 +1,6 @@
 ---
 title: Testversand durchführen
-description: Erfahren Sie, wie Sie Beweise senden.
+description: Erfahren Sie, wie Sie einen Testversand durchführen.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
 
 ---
@@ -28,15 +28,15 @@ Um Testsendungen vornehmen zu können, muss die Audience Ihrer Nachricht mindest
 
 Gehen Sie in einer Nachricht wie folgt vor, um einen Test zu senden:
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Test senden]**.
 
    ![](assets/bat_select.png)
 
 1. Wählen Sie die Art des Testversands aus:
 
-   * **[!UICONTROL Email rendering]**: Wählen Sie diese Option, um zu testen, wie Ihre Nachricht entsprechend den vorgesehenen Postfächern empfangen wird. Weiterführende Informationen finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
-   * **[!UICONTROL Proof]**: Wählen Sie diese Option, um die Nachricht zu testen, bevor sie an das Hauptziel gesendet wird. Die Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen.
-   * **[!UICONTROL Proof + Email rendering]**: Diese Option kombiniert die beiden vorherigen Optionen.
+   * **[!UICONTROL E-Mail-Rendering]**: Diese Option erlaubt es Ihnen, den Empfang und die Darstellung Ihrer Nachricht in den verschiedenen E-Mail-Clients zu testen. Weiterführende Informationen finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
+   * **[!UICONTROL Testversand]**: Diese Option erlaubt es Ihnen, die Nachricht vor dem Versand an die Hauptzielgruppe zu prüfen. Die Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen.
+   * **[!UICONTROL Testversand + E-Mail-Rendering]**: Diese Funktion kombiniert die beiden vorangehenden Optionen.
    ![](assets/bat_select1.png)
 
 1. Bestätigen Sie Ihre Auswahl.
@@ -45,15 +45,15 @@ Gehen Sie in einer Nachricht wie folgt vor, um einen Test zu senden:
 
    ![](assets/bat_select2.png)
 
-1. You can view your proofs using the **[!UICONTROL Proofs]** drop-down list.
+1. Abgeschickte Testsendungen können mithilfe der Dropdown-Liste **[!UICONTROL Testsendungen]** aufgerufen werden.
 
    ![](assets/bat_view.png)
 
-1. Wählen Sie einen Testversand aus, um seine Zusammenfassung anzuzeigen. For an email, if you have selected the **Email rendering** option as the proof type, the **[!UICONTROL Access email rendering]** icon is displayed on the right of the proof label. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
+1. Wählen Sie einen Testversand aus, um seine Zusammenfassung anzuzeigen. Wenn Sie sich bei der Auswahl des Testversands einer E-Mail für die Option **E-Mail-Rendering** entschieden haben, können Sie über das Symbol **[!UICONTROL Zugriff auf das E-Mail-Rendering]** rechts vom Testversandtitel auf das Ergebnis zugreifen. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-Nach Prüfung des Testversands durch die Testprofile sind gegebenenfalls Änderungen im Versandinhalt und seiner Form vorzunehmen. Nach jeder Änderung ist der Versand erneut vorzubereiten. Es empfiehlt sich außerdem, einen neuen Testversand zu erzeugen. Each new proof can be accessed using the **[!UICONTROL Show proofs]** button.
+Nach Prüfung des Testversands durch die Testprofile sind gegebenenfalls Änderungen im Versandinhalt und seiner Form vorzunehmen. Nach jeder Änderung ist der Versand erneut vorzubereiten. Es empfiehlt sich außerdem, einen neuen Testversand zu erzeugen. Alle neuen Testsendungen können ebenfalls mithilfe der Schaltfläche **[!UICONTROL Testsendungen anzeigen]** aufgerufen werden.
 
 Senden Sie so viele Testsendungen wie nötig sind, um zu einer endgültigen Version des Nachrichteninhalts zu gelangen. Danach können Sie den Versand an die Hauptzielgruppe senden und den Validierungszyklus beenden.
 
