@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 ---
@@ -33,14 +33,14 @@ Je nach Konfiguration sind die folgenden Arten von Bildern verfügbar:
 >
 >Wenn Sie ein Bild direkt durch Bearbeiten der HTML-Version der E-Mail hinzufügen möchten, dürfen Sie keine **externen Dateien in einem &lt;script>-Tag** der HTML-Seite aufrufen. Der Adobe-Campaign-Server erlaubt keinen Import derartiger Dateien.
 
-### Bilder in eine E-Mail einfügen  {#inserting-images-in-an-email}
+### Bilder in eine E-Mail einfügen   {#inserting-images-in-an-email}
 
 1. Fügen Sie eine Strukturkomponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Inside this structure component, add an **[!UICONTROL Image]** content component.
+1. Fügen Sie innerhalb dieser Strukturkomponente eine Inhaltskomponente des Typs **[!UICONTROL Bild]** hinzu.
 
    ![](assets/des_insert_images_1.png)
 
-1. Klicks **[!UICONTROL Browse]**. Ziehen Sie ein Bild in den Arbeitsbereich oder wählen Sie eine Datei von Ihrer Festplatte aus.
+1. Klicken Sie auf **[!UICONTROL Durchsuchen]**. Ziehen Sie ein Bild in den Arbeitsbereich oder wählen Sie eine Datei von Ihrer Festplatte aus.
 
    ![](assets/des_insert_images_2.png)
 
