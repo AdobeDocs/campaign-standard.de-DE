@@ -1,6 +1,6 @@
 ---
-title: Verwenden von Fallen
-description: Erfahren Sie, wie Sie Traps in Nachrichten verwenden.
+title: Fallen verwenden
+description: Erfahren Sie, wie Sie Fallen in Nachrichten verwenden.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
 
 ---
 
 
-# Verwenden von Fallen {#using-traps}
+# Fallen verwenden {#using-traps}
 
-When using traps, the message is sent to the [test profile](../../audiences/using/managing-test-profiles.md) just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.
+Bei der Verwendung von Fallen wird die Nachricht neben der Hauptzielgruppe auch an das [Testprofil](../../audiences/using/managing-test-profiles.md) gesendet. Das Ziel dabei ist insbesondere zu überwachen, ob Ihre Kundendatei für unlautere Zwecke verwendet wird.
 
 Fallen wurden ursprünglich für den Briefpostversand entwickelt. Sie ermöglichen Ihnen Folgendes:
 
@@ -45,16 +45,16 @@ Um ein Testprofil als Falle zu verwenden, muss es in der Zielgruppe Ihrer Nachri
 
 Gehen Sie beim Definieren der Zielgruppe einer Nachricht folgendermaßen vor:
 
-1. From the **[!UICONTROL Test profiles]** tab, select a test profile. Make sure that it has **[!UICONTROL Trap]** as the intended use.
+1. Wählen Sie im Tab **[!UICONTROL Testprofile]** ein Testprofil aus. Vergewissern Sie sich, dass als Verwendungszweck **[!UICONTROL Falle]** ausgewählt ist.
 
    ![](assets/trap_select.png)
 
-1. Once your message content is ready, click the **[!UICONTROL Prepare]** button. Siehe [Versandvorbereitung](../../sending/using/preparing-the-send.md).
+1. Wenn der Nachrichteninhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Vorbereiten]**. Siehe [Versandvorbereitung](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Stellen Sie sicher, dass Sie eine Hauptzielgruppe ausgewählt haben. Andernfalls kann Ihre Nachricht nicht gesendet werden.
 
-1. Click the **[!UICONTROL Confirm]** button. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
+1. Wählen Sie die Schaltfläche **[!UICONTROL Bestätigen]** aus. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
