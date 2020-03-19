@@ -11,7 +11,7 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
@@ -30,11 +30,11 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
    ![](assets/multi_create1.png)
 
 1. Definieren Sie die allgemeinen Eigenschaften sowie die Ziel-Audience der E-Mail auf die gleiche Weise wie für eine Standard-E-Mail. Lesen Sie diesbezüglich auch den Abschnitt [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
-1. Definieren Sie die Optionen der Variante im vierten Schritt des Erstellungsassistenten. If the [multilingual template](../../channels/using/multilingual-messages-template.md) already contains all the right parameters, you can directly click on the **[!UICONTROL Create]** button.
+1. Definieren Sie die Optionen der Variante im vierten Schritt des Erstellungsassistenten. Wenn die [mehrsprachige Vorlage](../../channels/using/multilingual-messages-template.md) bereits alle gewünschten Parameter enthält, können Sie gleich auf die Schaltfläche **[!UICONTROL Erstellen]** klicken.
 
    ![](assets/multi_create4.png)
 
-   Fügen Sie bei Bedarf Varianten mithilfe der **[!UICONTROL Add an element]** Schaltfläche hinzu. **[!UICONTROL Default]** Variante darf nicht gelöscht werden. When set to **[!UICONTROL default]**, [the profile&#39;s preferred language](../../audiences/using/creating-profiles.md) is used to choose the variant. You can also set the **[!UICONTROL Default]** variant to any other language.
+   Fügen Sie bei Bedarf Varianten mit der Schaltfläche **[!UICONTROL Element hinzufügen]** hinzu. **[!UICONTROL Die Variante Standard]** darf nicht gelöscht werden. Mit der Auswahl **[!UICONTROL Standard]** [wird die bevorzugte Sprache des Profils ](../../audiences/using/creating-profiles.md) für die Auswahl der Variante herangezogen. Sie können für die Variante **[!UICONTROL Standard]** auch eine beliebige andere Sprache auswählen.
 
 1. Bestätigen Sie die Erstellung der E-Mail: Daraufhin wird das Dashboard der E-Mail angezeigt.
 1. Definieren Sie den E-Mail-Inhalt für jede Variante. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Über die Dropdown-Liste können Sie zwischen den verschiedenen Varianten hin und her wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -42,9 +42,9 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
    ![](assets/multi_selectcontent.png)
 
 1. Testen und validieren Sie Ihre Nachricht. Weiterführende Informationen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/sending-proofs.md).
-1. Planen Sie den Versand mit der **[!UICONTROL Send after confirmation option]**.
+1. Planen Sie den Versand mit der Option **[!UICONTROL Versand nach Bestätigung]**.
 1. Nachdem Ihre E-Mail gesendet wurde, können Sie Protokolle und Berichte aufrufen, um den Erfolg Ihrer Kampagne zu messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../../reporting/using/about-dynamic-reports.md).
 
 **Verwandtes Thema:**
 
-* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
