@@ -11,8 +11,8 @@ topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 490908e5fe0810c0a07c73fef5040ddb42983019
+translation-type: tm+mt
+source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
 
 ---
 
@@ -78,8 +78,8 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Mit Campaign-Version 19.4. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Core Service von Adobe</a>.</p></br>
-   <p>Siehe auch <a href="https://helpx.adobe.com/de/campaign/kb/acs-privacy.html">Datenschutzverwaltung in Campaign Standard</a>.</p>
+   <td> <p>Mit Campaign-Version 19.4. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Profil-Löschvorgang ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Core Service von Adobe</a>.</p></br>
+   <p>Siehe auch <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Datenschutzverwaltung in Campaign Standard</a>.</p>
   <p> Geplantes Datum für die Entfernung: Juli 2020 – Campaign-Version 20.5</p>
    </td> 
   </tr> 
@@ -94,8 +94,8 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Ab Campaign-Version 19.0 wird der alte E-Mail-Editor nicht mehr unterstützt. Verwenden Sie <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den neuen Email Designer</a>, um Ihren E-Mail-Inhalt zu erstellen und zu personalisieren. </p></br>
-   <p>In <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">diesem Abschnitt</a> erfahren Sie, wie Sie Ihre E-Mail-Vorlagen für den neuen Editor anpassen.</p></br>
+   <td> <p>Ab Campaign-Version 19.0 wird der alte E-Mail-Editor nicht mehr unterstützt. Verwenden Sie <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den neuen Email Designer</a>, um Ihren E-Mail-Inhalt zu erstellen und zu personalisieren. </p></br>
+   <p>In <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">diesem Abschnitt</a> erfahren Sie, wie Sie Ihre E-Mail-Vorlagen für den neuen Editor anpassen.</p></br>
   <p> Geplantes Datum für die Entfernung: Oktober 2020 – Campaign-Version 20.6</p>
    </td> 
   </tr> 
@@ -110,7 +110,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Ab Version 18.7 werden geografische Einheiten nicht mehr unterstützt. Organisationseinheiten und geografische Einheiten sind in Campaign identische Konzepte. Benutzer sollten ausschließlich Organisationseinheiten verwenden, um eine Hierarchie für Benutzerberechtigungen/den Datenzugriff zu erstellen. <a href="https://helpx.adobe.com/de/campaign/standard/administration/using/organizational-units.html">Mehr dazu</a>. Bitte beachten Sie, dass die Funktion ab Version 18.7 nicht mehr für neue Campaign Standard-Instanzen oder für vorhandene Instanzen ohne geografische Einheiten implementiert werden kann.</p>
+   <td> <p>Ab Version 18.7 werden geografische Einheiten nicht mehr unterstützt. Organisationseinheiten und geografische Einheiten sind in Campaign identische Konzepte. Benutzer sollten ausschließlich Organisationseinheiten verwenden, um eine Hierarchie für Benutzerberechtigungen/den Datenzugriff zu erstellen. <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html">Mehr dazu</a>. Bitte beachten Sie, dass die Funktion ab Version 18.7 nicht mehr für neue Campaign Standard-Instanzen oder für vorhandene Instanzen ohne geografische Einheiten implementiert werden kann.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -127,7 +127,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign und Adobe Experience Cloud haben mit Campaign-Version 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 eingestellt. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">Mehr dazu</a>.</p>
+   <td> <p>Adobe Campaign und Adobe Experience Cloud haben mit Campaign-Version 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 eingestellt. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">Mehr dazu</a>.</p>
    </td> 
   </tr> 
  </tbody> 
