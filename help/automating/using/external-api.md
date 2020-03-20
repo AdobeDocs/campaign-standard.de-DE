@@ -9,8 +9,8 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+translation-type: tm+mt
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-Mit der Aktivität **[!UICONTROL Externe API]** können Daten aus einem **externen System** über einen **REST-API**-Aufruf in den Workflow integriert werden.
+The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via a **REST API** call.
 
 Die REST-Endpunkte können ein Customer Management System, die Plattform [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) oder ein Experience Cloud REST-Endpunkt (Data Platform, Target, Analytics, Campaign usw.) sein.
 
@@ -41,8 +41,8 @@ Die Hauptmerkmale dieser Aktivität sind:
 
 Für diese Aktivität wurden folgende Limits festgelegt:
 
-* Maximal 5 MB für die HTTP-Antwort
-* Zeitüberschreitung bei Anfrage beträgt 60 Sekunden
+* Maximal 50 MB für die HTTP-Antwort
+* Anforderungs-Timeout beträgt 10 Minuten
 * HTTP-Weiterleitungen sind nicht zulässig.
 * Andere URLs als HTTPS werden abgelehnt.
 * Erlaubt sind Abfrage-Header vom Typ &quot;Accept: application/json&quot; und Antwort-Header vom Typ &quot;Content-Type: application/json&quot;.
@@ -53,7 +53,7 @@ Für diese Aktivität wurden folgende Limits festgelegt:
 
 ## Konfiguration {#configuration}
 
-Ziehen Sie die Aktivität **[!UICONTROL Externe API]** in Ihren Workflow und öffnen Sie sie, um sie zu konfigurieren.
+Drag and drop an **[!UICONTROL External API]** activity into your workflow and open the activity to start the configuration.
 
 ### Eingehendes Mapping
 
