@@ -11,15 +11,15 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # Über den Versand mit Campaign{#about-sending-messages-with-campaign}
 
-Nach erfolgter Zielgruppenbestimmung und Inhaltserstellung ist Ihr Versand zu testen und zu validieren, bevor die Nachrichten an die Hauptzielgruppe gesendet werden. Gehen Sie wie folgt vor:
+Nachdem Sie die Zielgruppe definiert und den Inhalt einer Nachricht erstellt haben, müssen Sie sie testen und genehmigen, bevor Sie die Nachricht an die Hauptnachricht senden können. Gehen Sie wie folgt vor:
 
 * Sehen Sie sich Ihren Versand unter Verwendung eines Testprofils in der Vorschau an.
 * Terminieren Sie den Versand: Legen Sie fest, wann die Nachricht gesendet werden soll.
