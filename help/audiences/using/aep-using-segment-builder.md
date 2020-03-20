@@ -1,6 +1,6 @@
 ---
-title: Verwenden des einheitlichen Segmentaufbaus
-description: Erfahren Sie, wie Sie mit dem einheitlichen Segmentaufbau Zielgruppen erstellen.
+title: Unified Segment Builder verwenden
+description: Erfahren Sie, wie Sie mit dem einheitlichen Segmentaufbau Audiencen erstellen.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -13,26 +13,26 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
 
-# Verwenden des einheitlichen Segmentaufbaus {#using-the-unified-segment-builder}
+# Unified Segment Builder verwenden {#using-the-unified-segment-builder}
 
 >[!IMPORTANT]
 >
->Der Zielgruppen-Zieldienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azurblau gehostet werden (derzeit nur in der Beta-Version für Nordamerika), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an den Adobe-Kundendienst, wenn Sie Zugriff haben möchten.
+>Der Audience Destinations-Dienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Mit dem einheitlichen Segmentaufbau können Sie Zielgruppen erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Unified Profile Service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)basieren.
+Mit dem einheitlichen Segmentaufbau können Sie Audiencen erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Unified Profil Service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)basieren.
 
 In diesem Abschnitt werden globale Konzepte beim Erstellen eines Segments vorgestellt. Detaillierte Informationen zum Einheitlichen Segmentaufbau selbst finden Sie im [Segment Builder-Benutzerhandbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
 Die Benutzeroberfläche des einheitlichen Segmentaufbaus besteht wie folgt:
 
-* Im linken Bereich finden Sie alle verfügbaren Attribute, Ereignisse und Zielgruppen zum Erstellen des Segments durch Ziehen und Ablegen der gewünschten Felder in den Segment Builder-Arbeitsbereich.
+* Im linken Bereich finden Sie alle verfügbaren Attribute, Ereignis und Audiencen zum Erstellen des Segments durch Ziehen und Ablegen der gewünschten Felder in den Segment Builder-Arbeitsbereich.
 * Der mittlere Bereich bietet einen Arbeitsbereich zum Erstellen des Segments, indem Regeln aus den verfügbaren Feldern definiert und kombiniert werden.
-* Im Kopf- und rechten Bereich werden die Eigenschaften des Segments (d. h. Name, Beschreibung und geschätzte qualifizierte Profile für das Segment) angezeigt.
+* Der Kopf- und der rechte Bereich zeigen die Segmenteigenschaften (d. h. Name, Beschreibung und geschätzte qualifizierte Profil für das Segment) an.
 
 ![](assets/aep_audiences_interface.png)
 
@@ -40,7 +40,7 @@ Die Benutzeroberfläche des einheitlichen Segmentaufbaus besteht wie folgt:
 
 Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
-Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, die letztendlich zur Erstellung Ihrer Zielgruppe verwendet werden.
+Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, die letztendlich zur Erstellung Ihrer Audience verwendet werden.
 
 1. Benennen Sie das Segment und geben Sie dann eine Beschreibung ein (optional).
 
@@ -60,31 +60,31 @@ Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt we
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. Click the **[!UICONTROL Create segment]**button.
+1. Click the **[!UICONTROL Create segment]** button.
 
 ## Die richtigen Felder für ein Segment suchen
 
-Im linken Bereich werden alle Attribute, Ereignisse und Zielgruppen aufgelistet, die zum Erstellen von Regeln zur Verfügung stehen.
+Im linken Bereich werden alle Attribute, Ereignis und Audiencen Liste, die zum Erstellen von Regeln zur Verfügung stehen.
 
-Die aufgeführten Felder sind Attribute, die von Ihrem Unternehmen erfasst werden und über das [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html)zur Verfügung gestellt wurden.
+Die aufgeführten Felder sind Attribute, die von Ihrer Firma erfasst werden und über das [Erlebnisdatenmodell (XDM) zur Verfügung gestellt wurden](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
 
 Die Felder sind in Registerkarten unterteilt:
 
-* **[!UICONTROL Attribute]**: Vorhandene Profilattribute, die aus Ihrer Adobe Campaign-Datenbank und/oder Adobe Experience Platform stammen können Sie beziehen sich auf statische Informationen, die mit einem Profil verbunden sind (z.B. E-Mail-Adresse, Wohnsitzland, Status des Treueprogramms usw.).
+* **[!UICONTROL Attributes]**: Vorhandene Attribute von Profilen, die aus Ihrer Adobe Campaign-Datenbank und/oder Adobe Experience Platform stammen können Sie beziehen sich auf statische Informationen, die an ein Profil angehängt werden (z. B. E-Mail-Adresse, Wohnsitzland, Treuestatus usw.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Ereignisse]**: Aktivitäten, die Verbraucher identifizieren, die mit den Touchpoints Ihrer Kunden in Kontakt gekommen sind, z. B. &quot;Jeder, der zweimal in zwei Wochen bestellt hat&quot;. Dies kann aus Adobe Analytics gestreamt oder mithilfe von ETL-Tools von Drittanbietern direkt in die Adobe Experience Platform integriert werden.
+* **[!UICONTROL Events]**: Aktivitäten, die Verbraucher identifizieren, die mit den Touchpoints Ihrer Firma interagiert haben, z. B. &quot;Personen, die zweimal in zwei Wochen bestellt haben&quot;. Dies kann aus Adobe Analytics gestreamt oder mithilfe von ETL-Werkzeugen von Drittanbietern direkt in die Adobe Experience Platform integriert werden.
 
    ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
->**Mit der Segmentierung** mehrerer Entitäten können Sie Profildaten um zusätzliche Daten erweitern, die auf Produkten, Stores oder anderen nicht Profilklassen basieren. Nach der Verbindung stehen Daten aus zusätzlichen Klassen zur Verfügung, als wären sie nativ im Profilschema.
+>**Mit der Segmentierung** mehrerer Entitäten können Sie Profil-Daten um zusätzliche Daten erweitern, die auf Produktklassen, Stores oder anderen Nicht-Profil-Klassen basieren. Sobald eine Verbindung besteht, stehen Daten aus zusätzlichen Klassen zur Verfügung, als wären sie nativ für das Profil-Schema.
 >
 >Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
-Standardmäßig zeigt der Unified Segment Builder Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema anzuzeigen, einschließlich der Felder, für die keine Daten vorhanden sind, aktivieren Sie die Option Vollständiges XDM-Schema ****anzeigen in den Einstellungen.
+Standardmäßig zeigt der Unified Segment Builder Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema einschließlich der Felder anzuzeigen, für die keine Daten vorhanden sind, aktivieren Sie die **[!UICONTROL Show full XDM schema]** Option in den Einstellungen.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -98,29 +98,29 @@ Das Symbol am Ende jedes Felds enthält weitere Informationen zum Attribut und d
 >
 >Im folgenden Abschnitt finden Sie globale Informationen zur Regeldefinition. Weitere Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
-Gehen Sie zum Erstellen einer Regel wie folgt vor:
+Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
-1. Suchen Sie im linken Bereich nach dem Feld, das die Attribute oder Ereignisse widerspiegelt, auf denen die Regel basiert.
+1. Suchen Sie im linken Bereich nach dem Feld, das die Attribute oder Ereignis widerspiegelt, auf denen die Regel basiert.
 
 1. Ziehen Sie das Feld in den mittleren Arbeitsbereich und konfigurieren Sie es dann entsprechend der gewünschten Segmentdefinition. Dazu stehen mehrere Funktionen für Zeichenfolge und Datum/Uhrzeit zur Verfügung.
 
-   Im Beispiel unten zielt die Regel auf alle Profile mit Geschlecht ab, die &quot;Männlich&quot;entsprechen.
+   Im folgenden Beispiel werden alle Profil mit Geschlecht, die &quot;Männlich&quot;entsprechen, mit der Regel Zielgruppe.
 
    ![](assets/aep_audiences_malegender.png)
 
-   Die geschätzte Population, die dem Segment entspricht, wird im Abschnitt **[!UICONTROL Segmenteigenschaften]**automatisch neu berechnet.
+   Die geschätzte Population, die dem Segment entspricht, wird im **[!UICONTROL Segment Properties]** Abschnitt automatisch neu berechnet.
 
-1. Über die Schaltfläche &quot;Profile **[!UICONTROL anzeigen]**&quot;erhalten Sie eine Vorschau der ersten 20 Datensätze, die der Regel entsprechen, sodass Sie das Segment schnell überprüfen können.
+1. Über die **[!UICONTROL View Profiles]** Schaltfläche erhalten Sie eine Vorschau der ersten 20 Datensätze, die der Regel entsprechen, sodass Sie das Segment schnell validieren können.
 
    ![](assets/aep_audiences_samplepreview.png)
 
-   Sie können beliebig viele zusätzliche Regeln hinzufügen, um die richtigen Profile als Ziel festzulegen.
+   Sie können beliebig viele zusätzliche Regeln hinzufügen, um die richtigen Profil Zielgruppe.
 
-   Beim Hinzufügen einer Regel zu einem Behälter wird sie mit dem logischen UND-Operator an alle vorhandenen Regeln angehängt. Klicken Sie bei Bedarf auf den logischen Operator, um ihn zu ändern.
+   Wenn Sie einem Container eine Regel hinzufügen, wird sie mit dem logischen UND-Operator an alle vorhandenen Regeln angehängt. Klicken Sie bei Bedarf auf den logischen Operator, um ihn zu ändern.
 
    ![](assets/aep_audiences_andoperator.png)
 
-Sobald beide Regeln miteinander verknüpft sind, bilden sie einen Behälter.
+Sobald beide Regeln miteinander verknüpft sind, bilden sie einen Container.
 
 ## Felder vergleichen
 
@@ -134,12 +134,12 @@ Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie das zweite Feld (z. B. die Arbeitsadresse Postleitzahl) aus, das mit dem ersten Feld verglichen wird.
 
-   Ziehen Sie es in den mittleren Arbeitsbereich, im gleichen Container wie das erste Feld, in das Feld **[!UICONTROL Legen Sie hier ab, um Operanden]**zu vergleichen.
+   Ziehen Sie es in den mittleren Arbeitsbereich im gleichen Container wie das erste Feld im **[!UICONTROL Drop here to compare operands]** Feld.
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. Konfigurieren Sie den Operator zwischen den beiden Feldern nach Bedarf. In diesem Beispiel möchten wir, dass unser Segment Profile mit einer anderen Hausadresse als der Arbeitsadresse als Ziel ausweist.
+1. Konfigurieren Sie den Operator zwischen den beiden Feldern nach Bedarf. In diesem Beispiel möchten wir, dass unser Segment Profil mit einer anderen Hausadresse als der Arbeitsadresse Zielgruppe.
 
    ![](assets/aep_audiences_comparing_3.png)
 
-Die Regel ist jetzt konfiguriert und kann als Zielgruppe aktiviert werden.
+Die Regel ist jetzt konfiguriert und kann als Audience aktiviert werden.
