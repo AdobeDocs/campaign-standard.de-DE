@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,11 +16,12 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + Versionshinweise {#release-notes}
    + [Neueste Version](rn/using/release-notes.md)
    + Frühere Versionen {#previous-releases}
+      + [Versionshinweise 2020](rn/using/release-notes-2020.md)
       + [Versionshinweise 2019](rn/using/release-notes-2019.md)
       + [Versionshinweise 2018](rn/using/release-notes-2018.md)
       + [Versionshinweise 2017](rn/using/release-notes-2017.md)
    + [Freigabeplanung](rn/using/release-planning.md)
-   + [Veraltete Funktionen](rn/using/deprecated-features.md)
+   + [Eingestellte Funktionen](rn/using/deprecated-features.md)
 + Erste Schritte{#getting-started}
    + Über Adobe Campaign {#about-adobe-campaign}
       + [Kampagnenverwaltung](start/using/campaign-orchestration.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + Benutzeroberfläche {#discovering-the-interface}
       + [Über die Benutzeroberfläche](start/using/about-the-interface.md)
       + [Benutzeroberfläche](start/using/interface-description.md)
-      + [Browser-Kompatibilität](start/using/compatible-browsers.md)
       + [Listen anpassen](start/using/customizing-lists.md)
    + Marketingpläne {#marketing-plans}
       + [Programme und Kampagnen](start/using/programs-and-campaigns.md)
@@ -94,7 +94,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Push-Benachrichtigung vorbereiten und senden](channels/using/preparing-and-sending-a-push-notification.md)
       + [Push-Benachrichtigung anpassen](channels/using/customizing-a-push-notification.md)
       + [Mehrsprachige Push-Benachrichtigungen erstellen](channels/using/creating-a-multilingual-push-notification.md)
-      + [Erstellen einer CSV-Datei für mehrsprachige Push-Benachrichtigung](channels/using/generating-csv-multilingual-push.md)
+      + [CSV-Datei für mehrsprachige Push-Benachrichtigungen erstellen](channels/using/generating-csv-multilingual-push.md)
       + [Profilinformationen basierend auf Mobile App-Daten erstellen und aktualisieren](channels/using/updating-profile-with-mobile-app-data.md)
    + In-App-Messaging {#in-app-messaging}
       + [Über In-App-Messaging](channels/using/about-in-app-messaging.md)
@@ -141,9 +141,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Vorschau der Nachricht erzeugen](sending/using/previewing-messages.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
       + [Testversand durchführen](sending/using/sending-proofs.md)
+      + [Testen von E-Mail-Nachrichten mit zielgerichteten Profilen](sending/using/testing-messages-using-target.md)
       + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
-      + [Verwenden von Fallen](sending/using/using-traps.md)
+      + [Fallen verwenden](sending/using/using-traps.md)
    + Versandplanung {#scheduling-messages}
       + [Über die Planung von Sendungen](sending/using/about-scheduling-messages.md)
       + [Versandzeitpunkt optimieren](sending/using/optimizing-the-sending-time.md)
@@ -201,7 +202,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + [Über Campaign-Integrationen](integrating/using/about-campaign-integrations.md)
    + Verwenden von Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
       + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Campaign-Experience Manager-Integration konfigurieren](integrating/using/configure-experience-manager.md)
+      + [Integration von Campaign mit Experience Manager konfigurieren](integrating/using/configure-experience-manager.md)
       + [E-Mail-Inhalt in Adobe Experience Manager erstellen](integrating/using/creating-email-experience-manager.md)
       + [Campaign-Formular in Adobe Experience Manager erstellen](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign und Target verwenden {#working-with-campaign-and-target}
@@ -307,7 +308,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Datenmodelle](developing/using/data-model-concepts.md)
       + [Status der Ressourcen](developing/using/resource-statuses.md)
       + [Änderungen an Datenmodellen verfolgen](developing/using/monitoring-data-model-changes.md)
-      + [Best Practices zum Datenmodell](developing/using/data-model-best-practices.md)
+      + [Best Practices für Datenmodelle](developing/using/data-model-best-practices.md)
    + Ressource hinzufügen oder erweitern {#adding-or-extending-a-resource}
       + [Schritte zum Hinzufügen einer Ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Ressource erstellen oder erweitern](developing/using/creating-or-extending-the-resource.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Besucher](developing/using/datamodel-visitor.md)
 + Verwalten{#administrating}
    + [Über die Verwaltung von Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+   + Konfigurationsrichtlinien {#configuration-guidelines}
+      + [Informationen zu Konfigurationsrichtlinien](administration/using/about-configuration-guidelines.md)
+      + [Browser-Kompatibilität](administration/using/compatible-browsers.md)
+      + [Campaign Standard Netzwerkendpunkte](administration/using/campaign-standard-network-endpoints.md)
    + Benutzer und Sicherheit {#users-and-security}
       + [Über die Zugriffsverwaltung](administration/using/about-access-management.md)
       + [Benutzerverwaltung](administration/using/users-management.md)
