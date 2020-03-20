@@ -12,8 +12,8 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+translation-type: tm+mt
+source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
 
 ---
 
@@ -45,20 +45,22 @@ Um ein Testprofil als Falle zu verwenden, muss es in der Zielgruppe Ihrer Nachri
 
 Gehen Sie beim Definieren der Zielgruppe einer Nachricht folgendermaßen vor:
 
-1. Wählen Sie im Tab **[!UICONTROL Testprofile]** ein Testprofil aus. Vergewissern Sie sich, dass als Verwendungszweck **[!UICONTROL Falle]** ausgewählt ist.
+1. From the **[!UICONTROL Test profiles]** tab, select a test profile. Make sure that it has **[!UICONTROL Trap]** as the intended use.
 
    ![](assets/trap_select.png)
 
-1. Wenn der Nachrichteninhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Vorbereiten]**. Siehe [Versandvorbereitung](../../sending/using/preparing-the-send.md).
+1. Once your message content is ready, click the **[!UICONTROL Prepare]** button. Siehe [Versandvorbereitung](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Stellen Sie sicher, dass Sie eine Hauptzielgruppe ausgewählt haben. Andernfalls kann Ihre Nachricht nicht gesendet werden.
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Bestätigen]** aus. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
+1. Click the **[!UICONTROL Confirm]** button. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
 Die Nachricht wird an die Hauptzielgruppe und an das Testprofil gesendet.
+
+Sie können beim Senden von Transaktionsnachrichten Traps verwenden. In diesem Fall erhält das Test-Profil eine Nachricht pro Ereignis-Konfiguration. For more on transactional messaging, see this [section](../../channels/using/about-transactional-messaging.md).
 
 >[!NOTE]
 >
