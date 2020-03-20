@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 * **[!UICONTROL User unknown]** (Harttyp): die Adresse nicht vorhanden ist. An dieses Profil werden keine weiteren Zustellversuche unternommen.
 * **[!UICONTROL Quarantined address]** (Harttyp): die Adresse wurde in Quarantäne gesetzt.
-* **[!UICONTROL Unreachable]** (Weich/fest): ein Fehler in der Meldungskette aufgetreten ist (Versand auf SMTP-Relais, Domäne vorübergehend unerreichbar usw.). Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat.
+* **[!UICONTROL Unreachable]** (Weich/fest): in der Meldungskette (z. B. Domäne vorübergehend unerreichbar) ist ein Versand aufgetreten. Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat.
 * **[!UICONTROL Address empty]** (Harttyp): die Adresse nicht definiert ist.
 * **[!UICONTROL Mailbox full]** (Weichtyp): der Posteingang dieses Benutzers ist voll und kann keine weiteren Nachrichten akzeptieren. Die Adresse kann aus der Quarantäne genommen werden, um einen erneuten Zustellversuch zu unternehmen. Diese Liste wird automatisch nach 30 Tagen entfernt.
 
