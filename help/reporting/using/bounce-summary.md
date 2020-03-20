@@ -12,8 +12,8 @@ discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -30,17 +30,17 @@ Die Liste **Flop-5-Verteilung** enthält die fünf Sendungen mit der höchsten A
 
 Die Tabelle **Bounce-Gründe** enthält für jeden Versand alle verfügbaren Daten zur jeweiligen Fehlerursache der Bounces:
 
-* **[!UICONTROL Unbekannter Nutzer]**: Fehler, der bei einem Versand erzeugt wird, wenn die E-Mail-Adresse ungültig ist.
-* **[!UICONTROL Ungültige Domain]**: Fehler, der bei einem Versand erzeugt wird, wenn die E-Mail-Domain ungültig ist oder nicht mehr existiert.
-* **[!UICONTROL Unerreichbar]**: Fehler, der im Nachrichtenversand-String auftritt. Beispielsweise SMTP-Relais-Vorfall, vorübergehend unerreichbare Domain etc.
-* **[!UICONTROL Konto deaktiviert]**: Fehler, der bei einem Versand erzeugt wird, wenn eine Adresse nicht mehr existiert.
-* **[!UICONTROL Postfach voll]**: Fehler, der erzeugt wird, wenn die Inbox des Empfängers voll ist. Vor der Generierung dieses Fehlers werden fünf Zustellversuche unternommen.
-* **[!UICONTROL Nicht angemeldet]**: Fehler, der erzeugt wird, wenn das Mobiltelefon des Empfängers zum Zeitpunkt des Nachrichtenversands ausgeschaltet oder nicht mit dem Netz verbunden ist.
+* **[!UICONTROL User unknown]**: Der Fehlertyp, der beim Senden eines Versands an eine ungültige E-Mail-Adresse generiert wird.
+* **[!UICONTROL Invalid domain]**: Der Fehlertyp, der erzeugt wird, wenn ein Versand an eine E-Mail-Adresse gesendet wird, deren Domäne falsch ist oder nicht mehr existiert.
+* **[!UICONTROL Unreachable]**: Der Fehlertyp, der in der Meldungszeichenfolge (z. B. Domäne vorübergehend unerreichbar) aufgetreten ist.
+* **[!UICONTROL Account disabled]**: Der Fehlertyp, der generiert wird, wenn ein Versand an eine E-Mail-Adresse gesendet wird, die nicht mehr vorhanden ist.
+* **[!UICONTROL Mailbox full]**: Der Typ des Fehlers, der erzeugt wird, wenn der Posteingang des Empfängers voll ist. Vor der Generierung dieses Fehlers werden fünf Zustellversuche unternommen.
+* **[!UICONTROL Not connected]**: Der Typ des Fehlers, der erzeugt wird, wenn das Handy des Empfängers ausgeschaltet ist oder zum Zeitpunkt des Sendens der Nachricht keine Verbindung zu einem Netzwerk besteht.
 
    >[!NOTE]
    >
    >Dieser Fehler bezieht sich nur auf Sendungen über den Mobile-Kanal.
 
-* **[!UICONTROL Abgelehnt]**: Fehler, der erzeugt wird, wenn eine Adresse von einem ISP (Internet Service Provider) abgelehnt wird, wenn beispielsweise eine Sicherheitsregel von einer Anti-Spam-Software angewendet wurde.
+* **[!UICONTROL Refused]**: Die Fehlerart, die erzeugt wird, wenn eine Adresse vom Internet Dienstleister (ISP) abgelehnt wird. wenn beispielsweise eine Sicherheitsregel von einer Anti-Spam-Software angewendet wurde.
 
 In der Tabelle **Domänenverteilung** werden alle Probleme während des Versands entsprechend der Domain des Empfängers angezeigt.
