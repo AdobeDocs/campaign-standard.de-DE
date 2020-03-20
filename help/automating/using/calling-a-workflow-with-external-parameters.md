@@ -11,8 +11,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -25,8 +25,8 @@ Sehen wir uns folgendes Beispiel an, in dem E-Mails direkt von einem CMS gesende
 
 Workflows werden mit Parametern folgendermaßen aufgerufen:
 
-1. Deklarieren Sie die Parameter in der Aktivität **[!UICONTROL Externes Signal]**. Siehe [Parameter in der externen Signalaktivität deklarieren](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
-1. Konfigurieren Sie die Aktivität **[!UICONTROL Ende]** oder den API-Aufruf, um die Parameter zu definieren und den Workflow für die Aktivität **[!UICONTROL Externes Signal]** auszulösen.
+1. Deklarieren Sie die Parameter in der **[!UICONTROL External signal]** Aktivität. Siehe [Parameter in der externen Signalaktivität deklarieren](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+1. Configure the **[!UICONTROL End]** activity or the API call to define the parameters and trigger the workflow **[!UICONTROL External signal]** activity.
 
 Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen des Workflows aufgenommen und können im Workflow verwendet werden. Siehe [Workflow mit externen Parametern anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters).
 
@@ -34,10 +34,10 @@ Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvaria
 
 ## Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren  {#declaring-the-parameters-in-the-external-signal-activity}
 
-Um einen Workflow mit Parametern aufzurufen, müssen Sie diese zunächst in der Aktivität **[!UICONTROL Externes Signal]** deklarieren.
+The first step to call a workflow with parameters is to declare them in an **[!UICONTROL External signal]** activity.
 
-1. Öffnen Sie die Aktivität **[!UICONTROL Externes Signal]** und wählen Sie den Tab **[!UICONTROL Parameter]** aus.
-1. Wählen Sie die Schaltfläche **[!UICONTROL Element erstellen]** aus und geben Sie den Namen und den Typ eines jeden Parameters an.
+1. Öffnen Sie die **[!UICONTROL External signal]** Aktivität und wählen Sie die **[!UICONTROL Parameters]** Registerkarte aus.
+1. Click the **[!UICONTROL Create element]** button, then specify the name and type of each parameter.
 
    >[!CAUTION]
    >
@@ -53,22 +53,22 @@ In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workfl
 
 Vor der Definition der Parameter müssen folgende Voraussetzungen gegeben sein:
 
-* Die Parameter wurden in der Aktivität **[!UICONTROL Externes Signal]** deklariert. Siehe [Parameter in der externen Signalaktivität deklarieren](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+* The parameters have been declared in the **[!UICONTROL External Signal]** activity. Siehe [Parameter in der externen Signalaktivität deklarieren](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
 * Der Workflow, der die Signalaktivität enthält, wird ausgeführt.
 
-Gehen Sie zur Konfiguration der **[!UICONTROL Ende]**-Aktivität folgendermaßen vor:
+To configure the **[!UICONTROL End]** activity, follow the steps below:
 
-1. Öffnen Sie die Aktivität **[!UICONTROL Ende]** und wählen Sie dann den Tab **[!UICONTROL Externes Signal]** aus.
+1. Öffnen Sie die **[!UICONTROL End]** Aktivität und wählen Sie die **[!UICONTROL External signal]** Registerkarte aus.
 1. Wählen Sie den Workflow und die Aktivität &quot;Externes Signal&quot; aus, die aufgerufen werden sollen.
-1. Wählen Sie die Schaltfläche **[!UICONTROL Element erstellen]** aus, um einen Parameter hinzuzufügen. Geben Sie dann Namen und Wert ein.
+1. Click the **[!UICONTROL Create element]** button to add a parameter, then fill in its name and value.
 
-   * **[!UICONTROL Name]**: der Name, der in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurde (siehe [Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)).
-   * **[!UICONTROL Wert]**: der Wert, der dem Parameter zugewiesen werden soll. Der Wert sollte der **Standardsyntax** entsprechen, die in [diesem Abschnitt](../../automating/using/advanced-expression-editing.md#standard-syntax) beschrieben wird.
+   * **[!UICONTROL Name]**: den Namen, der in der **[!UICONTROL External signal]** Aktivität deklariert wurde (siehe [Deklarieren der Parameter in der Aktivität](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)&quot;Externes Signal&quot;).
+   * **[!UICONTROL Value]**: den Wert, den Sie dem Parameter zuweisen möchten. Der Wert sollte der **Standardsyntax** entsprechen, die in [diesem Abschnitt](../../automating/using/advanced-expression-editing.md#standard-syntax) beschrieben wird.
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >Stellen Sie sicher, dass alle Parameter in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurden. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
+   >Make sure that all the parameters have been declared in the **[!UICONTROL External signal]** activity. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
 
 1. Bestätigen Sie nach der Definition der Parameter die Aktivität und speichern Sie Ihren Workflow.
 
@@ -76,8 +76,8 @@ Gehen Sie zur Konfiguration der **[!UICONTROL Ende]**-Aktivität folgendermaßen
 
 Es ist möglich, die im Workflow verfügbaren Ereignisvariablen zu überwachen, einschließlich der deklarierten externen Parameter. Gehen Sie dazu wie folgt vor:
 
-1. Wählen Sie die Aktivität aus, die der Aktivität **[!UICONTROL Externes Signal]** folgt, und wählen Sie die Schaltfläche **[!UICONTROL Protokoll und Aufgaben]** aus.
-1. Wählen Sie im Tab **[!UICONTROL Aufgaben]** die Schaltfläche ![](assets/edit_darkgrey-24px.png) aus.
+1. Wählen Sie die Aktivität aus, die auf die **[!UICONTROL External signal]** Aktivität folgt, und klicken Sie dann auf die **[!UICONTROL Log and tasks]** Schaltfläche.
+1. In the **[!UICONTROL Tasks]** tab, click ![](assets/edit_darkgrey-24px.png) button.
 
    ![](assets/extsignal_monitoring_2.png)
 
@@ -89,7 +89,7 @@ Es ist möglich, die im Workflow verfügbaren Ereignisvariablen zu überwachen, 
 
 Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen aufgenommen und können zur Anpassung der Workflow-Aktivitäten verwendet werden.
 
-So kann mit ihnen beispielsweise definiert werden, welche Audience in der Aktivität **[!UICONTROL Audience lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu transferierenden Datei lautet.
+They can, for example, be used to define which audience to read in the **[!UICONTROL Read audience]** activity, the name of the file to transfer in the **[!UICONTROL Transfer file]** activity, etc.
 
 Die Aktivitäten, die mit Ereignisvariablen angepasst werden können, finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
@@ -97,7 +97,7 @@ Die Aktivitäten, die mit Ereignisvariablen angepasst werden können, finden Sie
 
 Ereignisvariablen werden innerhalb eines Ausdrucks verwendet, der die **[Standardsyntax](../../automating/using/advanced-expression-editing.md#standard-syntax)**berücksichtigen muss.
 
-Die Syntax für die Verwendung von Ereignisvariablen muss dem unten stehenden Format entsprechen und den Namen des Parameters verwenden, der in der Aktivität **[!UICONTROL Externes Signal]** definiert wurde (siehe [Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)):
+The syntax to use events variables must follow the format below, and use the parameter&#39;s name that has been defined in the **[!UICONTROL External signal]** activity (see [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)):
 
 ```
 $(vars/@parameterName)
@@ -114,7 +114,7 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png): Wählen Sie die Ereignisvariable aus den im Workflow verfügbaren Variablen (siehe ).
+* ![](assets/extsignal_picker.png): Wählen Sie die Variable &quot;Ereignis&quot;unter allen Variablen aus, die im Workflow verfügbar sind.
 
    ![](assets/wkf_test_activity_variables.png)
 
@@ -132,31 +132,31 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
 
 Die im folgenden Abschnitt aufgelisteten Aktivitäten können mit Ereignisvariablen angepasst werden. Weiterführende Informationen zum Aufruf einer Variablen in einer Aktivität finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md#using-events-variables).
 
-Aktivität **[!UICONTROL Audience lesen]**: Hier können Sie die auszuwählende Audience auf der Basis von Ereignisvariablen definieren.
+**[!UICONTROL Read audience]** Aktivität: definieren Sie die Audience zur Zielgruppe auf der Grundlage von Ereignis-Variablen.
 
 Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Aktivität Test]**: Hier können Sie Bedingungen auf der Basis von Ereignisvariablen spezifizieren.
+**[!UICONTROL Test]** Aktivität : : Hier können Sie Bedingungen auf der Basis von Ereignisvariablen spezifizieren.
 
 Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Aktivität Dateiübertragung]**: Hier können Sie die zu übertragende Datei auf der Basis von Ereignisvariablen anpassen.
+**[!UICONTROL Transfer file]** Aktivität: Passen Sie die zu übertragende Datei je nach Ereignis-Variablen an.
 
 Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Aktivität Abfrage]**: Parameter können in einer Abfrage durch die Verwendung von Ausdrücken referenziert werden, die Ereignisvariablen und Funktionen kombinieren. Fügen Sie zu diesem Zweck eine Regel hinzu und wählen Sie dann den Link **[!UICONTROL Erweiterter Modus]** aus, um das Ausdrucksbearbeitungsfenster zu öffnen (siehe [Ausdrucksbearbeitung](../../automating/using/advanced-expression-editing.md)).
+**[!UICONTROL Query]** Aktivität: können in einer Abfrage referenziert werden, indem Ausdruck Ereignis-Variablen und -Funktionen kombinieren. To do this, add a rule then click the **[!UICONTROL Advanced mode]** link to access the expression editing window (see [Advanced expression editing](../../automating/using/advanced-expression-editing.md)).
 
 Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
-**[!UICONTROL Aktivität Kanäle]**: Hier können Sie Sendungen auf der Basis von Ereignisvariablen personalisieren.
+**[!UICONTROL Channels]** Aktivitäten: Personalisieren von Versänden basierend auf Ereignissen-Variablen.
 
 >[!NOTE]
 >
@@ -164,16 +164,16 @@ Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diese
 >
 >Die Vorbereitung eines sich wiederholenden Versands basiert auf dem **Aggregat-Zeitraum** des Versands. Wenn der Aggregat-Zeitraum beispielsweise &quot;nach Tag&quot; lautet, wird der Versand nur einmal pro Tag erneut vorbereitet. Wenn der Wert eines Versandparameters im Laufe des Tages geändert wird, wird er beim Versand nicht aktualisiert, da er bereits einmal vorbereitet wurde.
 >
->Wenn Sie den Workflow mehrmals pro Tag ausführen möchten, verwenden Sie die Option [!UICONTROL Nicht aggregieren], damit die Versandparameter jedes Mal aktualisiert werden. Weiterführende Informationen zur Konfiguration eines sich wiederholenden Versands finden Sie in [diesem Abschnitt](/help/automating/using/email-delivery.md#configuration).
+>If you plan on calling the workflow multiple times a day, use the [!UICONTROL No aggregation] option, so that the delivery parameters are updated each time. Weiterführende Informationen zur Konfiguration eines sich wiederholenden Versands finden Sie in [diesem Abschnitt](/help/automating/using/email-delivery.md#configuration).
 
 Um einen Versand auf der Basis von Ereignisvariablen zu personalisieren, deklarieren Sie zuerst in der Versandaktivität die Variablen, die Sie verwenden möchten:
 
 1. Wählen Sie die Aktivität und danach die Schaltfläche ![](assets/dlv_activity_params-24px.png) aus, um auf die Einstellungen zuzugreifen.
-1. Wählen Sie den Tab **[!UICONTROL Allgemein]** aus und fügen Sie dann die Ereignisvariablen hinzu, die als Personalisierungsfelder im Versand verfügbar sein werden.
+1. Select the **[!UICONTROL General]** tab, then add the events variables that will be available as personalization fields in the delivery.
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Bestätigen]** aus.
+1. Click the **[!UICONTROL Confirm]** button.
 
 Jetzt sind in der Liste der Personalisierungsfelder die deklarierten Ereignisvariablen verfügbar. Sie können sie im Versand für die unten beschriebenen Aktionen verwenden:
 
@@ -185,7 +185,7 @@ Jetzt sind in der Liste der Personalisierungsfelder die deklarierten Ereignisvar
 
    ![](assets/extsignal_activities_template.png)
 
-* Personalisieren Sie den Versand: Bei der Auswahl eines Personalisierungsfeldes zur Konfiguration eines Versands sind Ereignisvariablen im Element **[!UICONTROL Workflow-Parameter]** verfügbar. Sie können sie für ein beliebiges Personalisierungsfeld verwenden, z. B. zur Definition des Betreffs oder des Absenders.
+* Personalize the delivery: when selecting a personalization field to configure a delivery, events variables are available in the **[!UICONTROL Workflow parameters]** element. Sie können sie für ein beliebiges Personalisierungsfeld verwenden, z. B. zur Definition des Betreffs oder des Absenders.
 
    Die Versandpersonalisierung wird im Detail in [diesem Abschnitt](../../designing/using/personalization.md) beschrieben.
 
@@ -195,7 +195,7 @@ Jetzt sind in der Liste der Personalisierungsfelder die deklarierten Ereignisvar
 
 >[!NOTE]
 >
->Diese Aktion kann in jeder Aktivität ausgeführt werden, in der ein Segmentcode definiert werden kann, z. B. in der Aktivität **[!UICONTROL Abfrage]** oder **[!UICONTROL Segmentierung]**.
+>This action can be performed from any activity that lets you define a segment code like, for example, **[!UICONTROL Query]** or **[!UICONTROL Segmentation]** activities.
 
 ![](assets/extsignal_activities_segment.png)
 
@@ -219,7 +219,7 @@ Führen Sie dazu folgende Aktionen aus:
 
 ### Voraussetzungen {#prerequisites}
 
-Vor dem Konfigurieren des Workflows müssen Workflow 1 und 2 jeweils mit der Aktivität **[!UICONTROL Externes Signal]** erstellt werden. Auf diese Weise können Sie diese Signalaktivitäten auswählen, wenn Sie die Workflows aufrufen.
+Before configuring the workflows, you need to create Workflow 1 and 2 with an **[!UICONTROL External signal]** activity in each of them. Auf diese Weise können Sie diese Signalaktivitäten auswählen, wenn Sie die Workflows aufrufen.
 
 ### Schritt 1: API-Aufruf konfigurieren  {#step-1--configuring-the-api-call}
 
@@ -250,24 +250,24 @@ In diesem Beispiel soll der Workflow mit den unten stehenden Parametern aufgeruf
 
 Workflow 1 wird folgendermaßen erstellt:
 
-* **[!UICONTROL Aktivität Externes Signal]**; Hier müssen die externen Parameter deklariert werden, damit sie im Workflow verwendet werden können.
-* **[!UICONTROL Aktivität Dateiübertragung]**: Importiert die Datei mit dem in den Parametern definierten Namen.
-* Aktivität **[!UICONTROL Datei laden]**: Lädt Daten aus der importierten Datei in die Datenbank.
-* **[!UICONTROL Aktivität Daten-Update]**: Fügt Daten aus der importierten Datei in die Datenbank ein oder aktualisiert die Datenbank.
-* **[!UICONTROL Aktivität Test]**: Prüft, ob importierte Daten verfügbar sind.
-* **[!UICONTROL Aktivität Audience-Speicherung]**: Wenn die Datei Daten enthält, werden die Profile in einer Audience gespeichert.
-* **[!UICONTROL Aktivität Ende]**: Ruft Workflow 2 mit den gewünschten Parametern auf.
+* **[!UICONTROL External signal]** Aktivität: wobei die externen Parameter deklariert werden müssen, damit sie im Workflow verwendet werden können.
+* **[!UICONTROL Transfer file]** Aktivität: importiert die Datei mit dem in den Parametern definierten Namen.
+* **[!UICONTROL Load file]** Aktivität: lädt Daten aus der importierten Datei in die Datenbank.
+* **[!UICONTROL Update data]** Aktivität: die Datenbank mit Daten aus der importierten Datei einfügen oder aktualisieren.
+* **[!UICONTROL Test]** Aktivität : : Prüft, ob importierte Daten verfügbar sind.
+* **[!UICONTROL Save audience]** Aktivität: Wenn die Datei Daten enthält, speichert sie die Profil in einer Audience.
+* **[!UICONTROL End activity]** Aktivität: Ruft Workflow 2 mit den Parametern auf, die Sie darin verwenden möchten.
 
 ![](assets/extsignal_uc_wkf1.png)
 
 Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
-1. Deklarieren Sie die im API-Aufruf definierten Parameter. Öffnen Sie dazu die Aktivität **[!UICONTROL Externes Signal]** und fügen Sie dann die Namen und Typen der Parameter hinzu.
+1. Deklarieren Sie die im API-Aufruf definierten Parameter. To do this, open the **[!UICONTROL External signal]** activity, then add the parameters&#39; names and types.
 
    ![](assets/extsignal_uc1.png)
 
-1. Fügen Sie die Aktivität **[!UICONTROL Dateiübertragung]** hinzu, um Daten in die Datenbank zu importieren. Ziehen Sie dazu die Aktivität in den Arbeitsbereich, öffnen Sie sie und wählen Sie den Tab **[!UICONTROL Protokoll]** aus.
-1. Wählen Sie die Option **[!UICONTROL Dynamischen Dateipfad verwenden]** aus und verwenden Sie dann den Parameter **fileToTarget** als die zu übertragende Datei:
+1. Add a **[!UICONTROL Transfer file]** activity to import data into the database.To do this, drag and drop the activity, open it, then select the **[!UICONTROL Protocol]** tab.
+1. Wählen Sie die **[!UICONTROL Use a dynamic file path]** Option und verwenden Sie dann den Parameter **fileToTarget** als zu übertragende Datei:
 
    ```
    $(vars/@fileToTarget)
@@ -277,19 +277,19 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
 1. Laden Sie die Daten aus der Datei in die Datenbank.
 
-   Ziehen Sie dazu die Aktivität **[!UICONTROL Datei laden]** in den Workflow und konfigurieren Sie sie nach Bedarf.
+   To do this, drag and drop a **[!UICONTROL Load file]** activity into the workflow, then configure it according to your needs.
 
 1. Fügen Sie Daten aus der importierten Datei in die Datenbank ein und aktualisieren Sie die Datenbank.
 
-   Ziehen Sie dazu die Aktivität **[!UICONTROL Daten-Update]** in den Arbeitsbereich und wählen Sie den Tab **[!UICONTROL Identifizierung]** aus, um ein Abstimmkriterium hinzuzufügen (in diesem Fall das Feld **E-Mail**).
+   To do this, drag and drop an **[!UICONTROL Update data]** activity, then select the **[!UICONTROL Identification]** tab to add a reconciliation criteria (in our case the **email** field).
 
    ![](assets/extsignal_uc3.png)
 
-1. Wählen Sie den Tab **[!UICONTROL Zu aktualisierende Felder]** aus und spezifizieren Sie die in der Datenbank zu aktualisierenden Felder (in diesem Fall die Felder **Vorname** und **E-Mail**).
+1. Select the **[!UICONTROL Fields to update]** tab, then specify the fields to update in the database (in our case the **firstname** and **email** fields).
 
    ![](assets/extsignal_uc4.png)
 
-1. Überprüfen Sie, ob die Daten aus der Datei abgerufen wurden. Ziehen Sie dazu die Aktivität **[!UICONTROL Test]** in den Workflow und wählen Sie die Schaltfläche **[!UICONTROL Element hinzufügen]** aus, um eine Bedingung hinzuzufügen.
+1. Überprüfen Sie, ob die Daten aus der Datei abgerufen wurden. To do this, drag and drop a **[!UICONTROL Test]** activity into the workflow, then click the **[!UICONTROL Add an element]** button to add a condition.
 1. Benennen und definieren Sie die Bedingung. In diesem Fall soll getestet werden, ob die ausgehende Transition Daten mit der unten stehenden Syntax enthält.
 
    ```
@@ -298,8 +298,8 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc5.png)
 
-1. Wenn Daten abgerufen werden, speichern Sie sie in einer Audience. Fügen Sie zu diesem Zweck die Aktivität **[!UICONTROL Audience-Speicherung]** zur Transition **Target not empty** hinzu und öffnen Sie sie.
-1. Wählen Sie die Option **[!UICONTROL Dynamischen Titel verwenden]** aus und fügen Sie dann den Parameter **fileToTarget** als den Titel der Audience ein:
+1. Wenn Daten abgerufen werden, speichern Sie sie in einer Audience. To do this, add a **[!UICONTROL Save audience]** activity to the **Target not empty** transition, then open it.
+1. Select the **[!UICONTROL Use a dynamic label]** option, then use the **fileToTarget** parameter as the label of the audience:
 
    ```
    $(vars/@fileToTarget)
@@ -307,8 +307,8 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc6.png)
 
-1. Ziehen Sie die Aktivität **[!UICONTROL Ende]** in den Arbeitsbereich. Dadurch wird Workflow 2 mit Parametern aufgerufen. Öffnen Sie dann die Aktivität.
-1. Wählen Sie den Tab **[!UICONTROL Externes Signal]** aus und spezifizieren Sie den auszulösenden Workflow sowie die damit verknüpfte Signalaktivität.
+1. Drag and drop an **[!UICONTROL End]** activity that will call Workflow 2 with parameters, then open it.
+1. Select the **[!UICONTROL External signal]** tab, then specify the workflow to trigger and its associated signal activity.
 1. Definieren Sie die in Workflow 2 zu verwendenden Parameter sowie deren Werte.
 
    In diesem Fall sollen die Parameter übermittelt werden, die ursprünglich im API-Aufruf definiert wurden (**fileToTarget** und **discountDesc**), sowie der zusätzlichen Parameter **segmentCode** mit einem konstanten Wert (&quot;20 % Rabatt&quot;).
@@ -321,9 +321,9 @@ Workflow 1 ist somit konfiguriert. Erstellen Sie jetzt Workflow 2. Weiterführen
 
 Workflow 2 wird folgendermaßen erstellt:
 
-* **[!UICONTROL Aktivität Externes Signal]**: Die Parameter müssen deklariert werden, damit sie im Workflow verwendet werden können.
-* Aktivität **[!UICONTROL Audience lesen]**: Liest die in Workflow 1 gespeicherte Audience.
-* Aktivität **[!UICONTROL E-Mail-Versand]**: Sendet eine wiederkehrende durch Parameter personalisierte Nachricht an die entsprechende Audience.
+* **[!UICONTROL External signal]** Aktivität: wobei die Parameter deklariert werden müssen, damit sie im Workflow verwendet werden können.
+* **[!UICONTROL Read audience]** Aktivität: liest die in Workflow 1 gespeicherte Audience.
+* **[!UICONTROL Email delivery]** Aktivität: sendet eine wiederkehrende Meldung an die zielgerichtete Audience, personalisiert mit Parametern.
 
 ![](assets/extsignal_uc_wkf2.png)
 
@@ -331,12 +331,12 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
 1. Deklarieren Sie die in Workflow 1 definierten Parameter.
 
-   Öffnen Sie dazu die Aktivität **[!UICONTROL Externes Signal]**, und fügen Sie dann den Namen und den Typ eines jeden Parameters hinzu, der in der Aktivität **[!UICONTROL Ende]** von Workflow 1 definiert wurde.
+   To do this, open the **[!UICONTROL External signal]** activity, then add the name and type of each parameter defined in the **[!UICONTROL End]** activity of Workflow 1.
 
    ![](assets/extsignal_uc8.png)
 
-1. Verwenden Sie die in Workflow 1 gespeicherte Audience. Platzieren Sie zu diesem Zweck die Aktivität **[!UICONTROL Audience lesen]** in den Workflow und öffnen Sie sie.
-1. Wählen Sie die Option **[!UICONTROL Dynamische Audience verwenden]** aus und verwenden Sie den Parameter **fileToTarget** als den Namen der zu lesenden Audience:
+1. Verwenden Sie die in Workflow 1 gespeicherte Audience. To do this, drag and drop a **[!UICONTROL Read audience]** activity into the workflow, then open it.
+1. Select the **[!UICONTROL Use a dynamic audience]** option, then use the **fileToTarget** parameter as the name of the audience to read:
 
    ```
    $(vars/@fileToTarget)
@@ -346,7 +346,7 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
 1. Benennen Sie die ausgehende Transition entsprechend dem Parameter **segmentCode**.
 
-   Wählen Sie dazu den Tab **[!UICONTROL Transition]** und danach die Option **[!UICONTROL Dynamischen Segmentcode verwenden]** aus.
+   Wählen Sie dazu die **[!UICONTROL Transition]** Registerkarte und dann die **[!UICONTROL Use a dynamic segment code]** Option aus.
 
 1. Verwenden Sie den Parameter **segmentCode** als den Namen der ausgehenden Transition:
 
@@ -356,12 +356,12 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc10.png)
 
-1. Platzieren Sie die Aktivität **[!UICONTROL E-Mail-Versand]** in den Workflow, um eine Nachricht an die Audience zu senden.
+1. Drag and drop an **[!UICONTROL Email delivery]** activity to send a message to the audience.
 1. Identifizieren Sie die in der Nachricht zu verwendenden Parameter, um sie mit dem Parameter **discountDesc** zu personalisieren. Öffnen Sie dazu die erweiterten Optionen der Aktivität und fügen Sie den Namen und den Wert des Parameters hinzu.
 
    ![](assets/extsignal_uc10b.png)
 
-1. Sie können die Nachricht jetzt konfigurieren. Öffnen Sie die Aktivität und wählen Sie **[!UICONTROL Wiederholende E-Mail]** aus.
+1. Sie können die Nachricht jetzt konfigurieren. Öffnen Sie die Aktivität und wählen Sie **[!UICONTROL Recurring email]**.
 
    ![](assets/extsignal_uc11.png)
 
