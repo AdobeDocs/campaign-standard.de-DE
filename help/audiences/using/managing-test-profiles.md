@@ -1,6 +1,6 @@
 ---
-title: Verwaltung von Testprofilen
-description: Erfahren Sie, wie Sie Testprofile verwalten.
+title: 'Verwaltung von Testprofilen '
+description: Erfahren Sie, wie Sie Test-Profil verwalten.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -13,28 +13,28 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ---
 
 
-# Verwaltung von Testprofilen {#managing-test-profiles}
+# Verwaltung von Testprofilen  {#managing-test-profiles}
 
 ## Über Testprofile {#about-test-profiles}
 
 Testprofile ermöglichen es, zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenkriterien entsprechen. Sie werden Audiences hinzugefügt, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Erhalt der Sendungen zu kontrollieren.
 
-Sie können Ihre Testprofile über das erweiterte Menü verwalten **[!UICONTROL Profiles & audiences > Test profiles]**.
+Sie können Ihre Test-Profil über das erweiterte Menü verwalten **[!UICONTROL Profiles & audiences > Test profiles]**.
 
 Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktinformationen, die verschiedenen Zwecken dienen können:
 
-* **Testsendungen**: Dabei handelt es sich um einen speziellen Versand, der es ermöglicht, eine Nachricht vor dem Versenden an die Empfänger zu validieren. Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen. Siehe [Testversand durchführen](../../sending/using/sending-proofs.md).
-* **E-Mail-Rendering**: Diese Art von Testprofilen wird verwendet, um den Empfang und die Darstellung Ihrer Nachricht in den verschiedenen E-Mail-Clients zu testen. Beispielsweise Webmail, SMS, Mobilgeräte etc. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
+* For sending **Proofs**: The Proof is a specific message used to check the message before sending the finalized delivery to recipients. Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen. Siehe [Testversand durchführen](../../sending/using/sending-proofs.md).
+* For **Email rendering**: The Email rendering test profile is used to check the way in which a message is displayed according to the message inbox that receives it. Beispielsweise Webmail, SMS, Mobilgeräte etc. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
 
    Die Funktion **E-Mail-Rendering** ist schreibgeschützt. Testprofile mit diesem Verwendungszweck sind ausschließlich nativ in Adobe Campaign enthalten.
 
-* Als **Falle**: Die Nachricht wird auf dieselbe Weise an das Testprofil gesendet wie an die Hauptzielgruppe. Siehe [Verwenden von Fallen](../../sending/using/using-traps.md).
-* **Vorschau** einer Nachricht: Durch Auswahl eines Testprofils lässt sich die korrekte Umsetzung von Personalisierungselementen innerhalb einer Nachricht prüfen. Siehe [Vorschau der Nachricht erzeugen](/help/sending/using/previewing-messages.md).
+* As a **Trap**: The message is sent to the test profile just as it is sent to the main target. Siehe [Verwenden von Traps](../../sending/using/using-traps.md).
+* To **Preview** messages: A test profile can be selected when previewing a message to test the personalization elements. Siehe [Vorschau der Nachricht erzeugen](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
@@ -56,7 +56,7 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
    ![](assets/test_profile_creation_4.png)
 
-1. Geben Sie die Kontaktkanäle **[!UICONTROL Email, Telephone, Mobile, Mobile app]** sowie ggf. die Adresse des Testprofils ein.
+1. Geben Sie bei Bedarf die Kanal **[!UICONTROL Email, Telephone, Mobile, Mobile app]** sowie die Adresse des Profils ein.
 
    >[!NOTE]
    >
