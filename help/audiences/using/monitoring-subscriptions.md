@@ -11,8 +11,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -24,15 +24,15 @@ In der Benutzeroberfläche von Adobe Campaign können Sie Ihre Abonnenten tracke
 Zur Verfolgung des An- und Abmeldeverhaltens bieten sich Ihnen verschiedene Optionen.
 
 * Sehen Sie sich die Liste der Personen im Dienst-Dashboard an, die Ihren Dienst abonniert haben. Siehe [Dienst-Dashboard](#service-dashboard).
-* Sehen Sie sich den Verlauf der An- und Abmeldungen im Tab **Abonnement-Verlauf** im Dienst-Dashboard an. Siehe [Abonnementverlauf](#subscription-history).
-* Öffnen Sie einen Bericht zur An- und Abmeldeentwicklung im Bereich **Bericht** des Dienstes. Siehe [Dienst- Berichte](#service-reports).
-* Öffnen Sie im Bereich **Profil** die Liste der Dienste, für die sich eine Person angemeldet hat. Siehe [Ereignisverlauf eines Profils](#history-of-events-linked-to-a-profile).
+* Consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. Siehe [Abonnementverlauf](#subscription-history).
+* Display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. Siehe [Dienst- Berichte](#service-reports).
+* Find the list of services a person has subscribed from its **Profile**. Siehe [Ereignisverlauf eines Profils](#history-of-events-linked-to-a-profile).
 
 ## Dienst-Dashboard {#service-dashboard}
 
 Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Dienst angemeldet sind:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** &gt; **Dienste** auf die Liste der Dienste zu.
+1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
 1. Wählen Sie den gewünschten Dienst aus, um sein Dashboard anzuzeigen.
 1. Die Liste der angemeldeten Kontakte ist im Tab **Abonnements** verfügbar.
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Di
 
 Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** &gt; **Dienste** auf die Liste der Dienste zu.
+1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
 1. Wählen Sie den gewünschten Dienst aus, um sein Dashboard anzuzeigen.
 1. Gehen Sie in den Tab **Abonnement-Verlauf**, um die zeitliche Verteilung der An- und Abmeldungen anzuzeigen.
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
 Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeigen:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** &gt; **Dienste** auf die Liste der Dienste zu.
+1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
 1. Wählen Sie den gewünschten Dienst aus, um sein Dashboard anzuzeigen.
 1. Klicken Sie in der Symbolleiste auf die Schaltfläche **Berichte** und im Auswahlbildschirm auf **Abonnement-Verfolgung**.
 
