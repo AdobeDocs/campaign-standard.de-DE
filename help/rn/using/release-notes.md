@@ -11,47 +11,30 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
+translation-type: tm+mt
+source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 
 ---
 
 
 # Neueste Version{#latest-release}
 
-[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html)
+[Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-## Version 20.1.4 – Februar 2020 {#release-20-1-4---february-2020}
-
-* Beim Öffnen der Aktivität **Audience lesen** in vorhandenen Workflows tritt jetzt kein Problem mehr auf. (CAMP-41002)
-
-## Version 20.1.3 – Februar 2020 {#release-20-1-3---february-2020}
-
-* Jetzt tritt kein Regressionsproblem mehr auf, das in 20.1 von CAMP-39273 für Kunden eingeführt wurde, die diese Lücke nutzten. CAMP-39273 wurde zurückgesetzt.
-
-## Version 20.1.2 – Februar 2020 {#release-20-1-2---february-2020}
-
-**Verbesserungen bei Email Designer**
-
-* Jetzt wird kein HTML-Tag-Element mehr in einem veralteten Fragment hinzugefügt, wenn es gepatcht und der Inhalt dann gespeichert wird. (CAMP-40685)
-* Bei Verwendung dynamischer Inhalte wird jetzt kein Leerzeichen mehr hinzugefügt. (CAMP-40605)
-* Beim Konfigurieren einer Transaktions-E-Mail-Vorlage tritt jetzt kein Problem mehr auf. (CAMP-40604)
-
-## Version 20.1 – Februar 2020 {#release-20-1---february-2020}
+## Version 20.2 - März 2020     {#release-20-2---march-2020}
 
 **Neue Funktionen**
 
-
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Adobe Experience Platform Data Connector (Beta)</strong><br /> </th> 
+   <th> <strong>Azurblauch-Integration</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Campaign-Daten in Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign erfasste Daten) auf das Adobe Experience Platform-Datenmodell (XDM) abbilden. </p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../administration/using/aep-about-data-connector.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">Anleitungsvideo</a>.</p>
+   <td> <p>Der Azurblauch-Datenspeicherung-Connector kann jetzt zum Importieren oder Exportieren von Daten in Adobe Campaign mithilfe einer Workflow-Aktivität für <strong>Übertragungsdateien</strong> verwendet werden. </p>
+    <p>Weitere Informationen finden Sie im <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">entsprechenden Handbuch</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -60,72 +43,79 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Audience Destinations (Beta) </strong><br /> </th> 
+   <th> <strong>Unified Experience Cloud-Benutzeroberfläche und -Domäne</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Mit Audience Destinations können Sie Segmente von Adobe Experience Platform für Adobe Campaign freigeben.</p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../audiences/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">Anleitungsvideo</a>. </p>
+   <td> <p>Die oberste Leiste der Benutzeroberfläche wurde verbessert, um die Benutzerfreundlichkeit in allen Experience Cloud-Anwendungen zu verbessern. Der Zugriff auf Lösungen wurde mit der folgenden URL vereinheitlicht: experience.adobe.com/ Der Header ermöglicht Ihnen jetzt, einfacher zwischen Lösungen zu wechseln, und zeigt verbesserte Hilfe und Benachrichtigungen an.</p>
+    <p>Weitere Informationen finden Sie im <a href="../../start/using/interface-description.md#top-bar">entsprechenden Handbuch</a>. </p>
    </td> 
   </tr> 
  </tbody> 
 </table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>E-Mail-Tests mit zielgerichteten Profilen</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Zusätzlich zu den Profilen können Sie Ihre E-Mails jetzt auch auf echten zielgerichteten Profilen testen. Dadurch können Sie eine genaue Darstellung der Nachricht erhalten, die das Profil erhalten wird: benutzerdefinierte Felder, dynamische und personalisierte Informationen, einschließlich zusätzlicher Daten aus Workflows usw. </p>
+    <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">tutorial video</a>. </p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Im April werden in der Systemsteuerung für Campaigne neue Funktionen veröffentlicht, einschließlich Google TXT-Datensatzverwaltung, Datenbankraumüberwachung und E-Mail-Benachrichtigung. Weitere Informationen zu diesen Funktionen finden Sie in der Versionshinweise zur [Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
-* Globale Verfügbarkeit des erweiterten MTA: Nachrichten (einschließlich Transaktionsnachrichten) werden jetzt vom erweiterten MTA von Adobe Campaign gesendet, der eine aktualisierte Versandinfrastruktur bereitstellt, die besseren Durchsatz sowie verbesserte Zustellbarkeit und Bounce-Handhabung ermöglicht – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html)
-
-* Die Zeitzonenverwaltung wurde verbessert. Sie können jetzt eine [bestimmte Zeitzone](../../automating/using/building-a-workflow.md) für einen gesamten Workflow definieren. Die ausgewählte Zeitzone gilt für alle Aktivitäten des Workflows. Informationen zur Zeitzone, die für den Benutzer oder Server konfiguriert wurde, werden jetzt in der Benutzeroberfläche angezeigt (in Protokollen nach Auswahl einer Zeitzone). (CAMP-37672)
-
-* Campaign Standard-APIs ermöglichen es Ihnen jetzt, bei Verwendung großer Tabellen eine Paginierung durchzuführen, indem Sie den Parameter `_forcePagination=true` zu Ihrer Aufruf-URL hinzufügen – [mehr dazu](../../api/using/pagination.md)
-
-* Die Versandlog-ID (eine eindeutige ID für jedes Protokoll) ist jetzt in den Ressourcen Versandlogs und in den Trackinglogs für alle Zielgruppendimensionen verfügbar. Dadurch können beispielsweise beim Export Versand- oder Trackinglogs identifiziert werden – [mehr dazu](../../automating/using/exporting-logs.md)
+* Die Benutzerfreundlichkeit von Nachrichten für Transaktionsnachrichten wurde verbessert und die Konsistenz der Oberfläche wurde verbessert. [mehr dazu](../../channels/using/about-transactional-messaging.md)
+* Campaign Standard ermöglicht es Ihnen jetzt, Testversand mit zusätzlichen Daten aus Workflows an Test-Profil zu senden.
+* Die Richtlinien für die externe API-Aktivität wurden aktualisiert. [mehr dazu](../../automating/using/external-api.md)
 
 **Verbesserungen bei Email Designer**
 
-* Fehlende Textanweisungen beim Erstellen einer Audience wurden hinzugefügt.
-* Beim Klicken auf die Schaltfläche **Inhalt ändern** im Assistenten des alten E-Mail-Editors tritt jetzt kein Problem mehr auf.
-* Die Header können jetzt mit dem Inhalt des Dienstzusammenfassungsberichts abgeglichen werden. (CAMP-38103)
-* Dynamische Inhaltsvarianten können jetzt gelöscht wurden, ohne dass die restliche Betreffzeile beeinträchtigt wird. (CAMP-40096)
-* Bei Verwendung der B-Variante im Betreff tritt jetzt kein Fehler mehr beim A/B-Test auf. (CAMP-40327)
-* Dateien können jetzt per Drag-and-Drop verschoben werden, wenn die Import-Funktion zum Hochladen von HTML verwendet wird. (CAMP-39326)
-* Text kann jetzt aus einem Texteditor kopiert und eingefügt werden. (CAMP-39028)
-* Wortvorschläge werden jetzt angezeigt. (CAMP-38970)
-* Fragmente können jetzt durch Benutzer gespeichert werden. (ATU-2447)
-* Die Duplizierung dynamischer Strukturen ist jetzt möglich. (CAMP-38367)
-* Bedingungen für dynamische Inhalte werden jetzt bei der Duplizierung beibehalten. (CAMP-39051)
+* Es wurde ein Fehler behoben, der sich auf das Ausbrechen auswirkte, wenn ein personalisiertes Bild mehrmals angeklickt wurde.
+* Es wurde ein Fehler behoben, der beim Duplizieren dynamischer Textkomponenten dazu führte, dass die Zeile mit wong dupliziert wurde. (CAMP-41249)
+* Es wurde ein Problem mit der Auffüllung in Outlook behoben, das beim Definieren der Auffüllung auf Tabellenebene statt auf div-Ebene auftrat.
+* Es wurde ein Fehler behoben, der dazu führte, dass die Breite eines Bildes beim Wechsel zum HTML-Modus geändert wurde. (CAMP-41116)
+* Es wurde ein Fehler behoben, der verhinderte, dass auf die Social-Media-Komponente zugegriffen werden konnte, wenn alternative Texte zu den Symbolen bereitgestellt wurden. (CAMP-41345)
+* Es wurde ein Fehler behoben, der dazu führte, dass beim Einsatz von Kopieren und Einfügen im E-Mail-Designer sichtbare `<br>` Tags angezeigt wurden.
+* Es wurde ein Fehler behoben, der dazu führte, dass HTML-Tags in der E-Mail angezeigt wurden, nachdem von HTML-Inhalten auf Text umgestellt wurde. (CAMP-41138)
+* Es wurde ein Problem behoben, das die Wiedergabe von Schaltflächen mit nur einem Rand verhinderte.
+* Es wurde ein Fehler im HTML-Einzug behoben, der dazu führte, dass die Fußzeile von E-Mails in Microsoft Outlook nach links verschoben wurde. (CAMP-40987)
+* Es wurde ein Fehler behoben, der dazu führte, dass Personalisierungsfelder, die auf ein in HTML definiertes Sammlungsattribut abzielten, beim Wechsel zum Nur-Text-Modus in den Nur-Text-Inhalt kopiert wurden. (CAMP-40365)
+* Es wurde ein Fehler behoben, der verhinderte, dass Links in ein ausgewähltes Textsegment eingefügt wurden. (CAMP-41406)
+* Es wurde ein Fehler behoben, der dazu führte, dass das Datum beim Auswählen einer Zeitzone im Abfragen-Editor geändert wurde. (CAMP-38277)
 
 **Sonstige Änderungen**
 
-* Der Filter „Sendungen mit fehlgeschlagener Vorbereitung“ berücksichtigt jetzt das Erstellungsdatum der Sendungen und nicht das letzte Änderungsdatum.
-* Die organisatorische Einheit der Sicherheitsgruppe „Administratoren“ kann nicht mehr geändert werden.
-* Beim Erstellen eines Profils muss jetzt das Feld für die Organisationseinheit ausgefüllt werden.
-* Ein Experience Cloud Trigger kann jetzt nur gelöscht werden, wenn sowohl das Ereignis als auch die mit ihm verknüpfte Transaktionsvorlage gelöscht werden.
-* Adobe Creative SDK wurde eingestellt. Es wird jetzt in Campaign Standard nicht mehr unterstützt. Näheres dazu finden Sie auf der Seite [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
+* Der Out-of-the-Box-Arbeitsablauf für die **KPIs-Abstimmung mit Adobe Analytics** wird jetzt bis zum aktuellen Datum ausgeführt, anstatt nur einen Tag lang ausgeführt zu werden.
+* Das Hinzufügen von APNS und APNS-SANDBOX als Plattformen in einer App wird nicht unterstützt. Nachdem Sie das Zertifikat in Adobe Campaign Standard erfolgreich hinzugefügt haben, können Sie Ihre Einstellungen jetzt nicht mehr ändern, da der MCPNS-App nur noch eine APNS-Plattform (Produktion oder Sandbox) hinzugefügt werden kann.
 
+**Experience Platform-Integrationen**
+
+>[!NOTE]
+>
+>Die Funktionen der Adobe Experience Platform in Campaign Standard befinden sich derzeit in der Betaphase, die möglicherweise ohne Vorankündigung häufig aktualisiert wird. Weitere Informationen finden Sie in der ausführlichen Dokumentation: Data Connector [für](../../administration/using/aep-about-data-connector.md)Experience Platform, [Audience-Ziele](../../audiences/using/aep-about-audience-destinations-service.md)
+
+* In den Workflow-Protokollen zeigt Campaign nun alle 10 Minuten die Anzahl der Datensätze an, die bereits vom derzeit ausgeführten Auftrag verarbeitet wurden.
+* Es wurde ein Problem behoben, das beim Importieren eines Adobe Experience Platform-Profils auftrat, das aus der Datenbank gelöscht wurde.
+* Es wurde ein Problem in Workflow-Protokollen behoben, durch das ein falsches Ergebnis für die Gesamtanzahl der importierten Datensätze angezeigt werden konnte.
 
 **Korrekturen**
 
-* Beim Durchführen einer Datenschutzanfrage zum Löschen von Benutzerdaten werden Benutzerdaten jetzt auch in Ausschlusslogs gelöscht. (CAMP-39003)
-* Jetzt bestehen keine Zugriffsprobleme mehr, wenn die Textgröße in einem Container-Element geändert wird.
-* Das Kalender-Popup, das beim Bewegen des Mauszeigers in Marketing-Aktivitäten angezeigt wird, kann jetzt geschlossen werden.
-* In der Aktivität **[!UICONTROL Externe API]** tritt jetzt kein Problem mehr auf, bei dem die Schaltfläche **[!UICONTROL Bestätigen]** angezeigt wurde, selbst wenn keine Daten geändert wurden.
-* Bei der Verwendung der Aktivität **[!UICONTROL Vereinigung]** tritt bei Abfragen mit unterschiedlichen Zieldimensionen kein Problem mehr auf. Die Transitionsdaten zeigten nur Datensätze aus der Zielgruppendimension des Hauptsatzes an. (CAMP-36831)
-* Bei der Verwendung der Aktivität **[!UICONTROL Abstimmung]** tritt in bestimmten Kontexten kein Problem mehr auf, z. B. wenn eine von zwei eingehenden Aktivitäten eine Ausschlussaktivität ist. (CAMP-37490)
-* Beim Auswählen und Aktualisieren von Testprofilen tritt kein Fehler mehr auf. (CAMP-37976)
-* Beim Anmelden oder Abmelden über Landingpages werden keine Fehlerseiten mehr angezeigt. (CAMP-37771)
-* Beim Hochladen von Inhalten im Zip-Format tritt jetzt kein Fehler mehr auf, bei dem PNG-Dateien im HTML-Code mit ihrer Erweiterung in Großbuchstaben referenziert wurden. (CAMP-37913)
-* In-App-Nachrichten können jetzt gesendet werden, wenn dem Versand ein Testprofil hinzugefügt wird.
-* Bei der Workflow-Aktivität „Externe API“ wurde ein Fehler behoben, durch den bei der Verknüpfung mit Anreicherungsaktivitäten die Aktivität fehlschlug.
-* Der Status von SMS-Nachrichten wird jetzt korrekt angezeigt.
-* Bei benutzerdefinierten Ressourcen tritt jetzt kein Fehler mehr auf, sodass unter unterschiedlichen API-Endpunkten keine doppelten Einträge mehr angezeigt werden.
-* Landingpages sind jetzt nach dem Publizieren verfügbar. (CAMP-38695)
-* Beim Anzeigen von Daten aus einer Schnittmengentransition aus zwei verschiedenen Ressourcen tritt jetzt kein Fehler mehr auf. (CAMP-38974)
-* Der Auflistungswert in einer Versandvorlage kann jetzt korrekt definiert werden. (CAMP-38388)
-* Bei E-Mail-Massensendungen tritt jetzt kein Fehler mehr auf, bei dem der Versandstatus als „Ausstehend“ und der Gesendet-Status als „Fertig“ angezeigt wurde. (CAMP-35355)
-* Die Absender-Domain wird in der dynamischen Berichterstellung jetzt korrekt angezeigt. (CAMP-33123)
-* Bei den Abmeldezahlen in der dynamischen Berichterstellung treten jetzt keine Unstimmigkeiten mehr auf. (CAMP-39949)
-* Beim Senden von In-App-Nachrichten können jetzt Adressen im Bildschirm „Versandlogs“ angezeigt wurden.
-* SMS-Versandlogs werden jetzt mit der richtigen Anzahl von Bounces aktualisiert. (CAMP-38395)
-* Die Push-Benachrichtigungstoken werden jetzt nicht mehr durch Post-Aufrufe von App-Abonnements aktualisiert. (CAMP-39273)
+* Es wurde ein Problem mit der Aktivität des Arbeitsablaufs für die **Anreicherung** behoben, das beim Hinzufügen von Leerzeichen im Feld &quot; **Alias** &quot;auftrat, das dann ein neues Zeilenelement erstellte. (CAMP-39229)
+* Es wurde ein Problem behoben, bei dem jedes Profil beim Senden einer Testversand-Nachricht als Ziel ausgewählt werden konnte.
+* Es wurde ein Problem behoben, das nach dem Rückgängigmachen der Veröffentlichung und Löschen einer Ereignis-Konfiguration auftrat. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Es wurde ein Problem behoben, bei dem die Schaltfläche **Speichern** verschwand, wenn Änderungen an Workflows vorgenommen wurden.
+* Es wurde ein Problem behoben, das beim manuellen Löschen einer Datenschutzanforderung im Campaign nach deren Verarbeitung dazu führte, dass mit der Anforderung verknüpfte Daten auch nach der Bereinigung nicht gelöscht werden konnten.
+* Es wurde ein Problem behoben, das beim Anzeigen einer Vorschau oder beim Senden von Nachrichten mit Sonderzeichen aus Adobe Experience Manager auftreten konnte.
+* Es wurde ein Problem behoben, das in Workflows auftreten konnte, wenn eine Aktivität mit mehreren eingehenden Transitionen ausgeführt wurde.
