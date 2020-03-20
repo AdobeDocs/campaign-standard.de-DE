@@ -11,8 +11,8 @@ topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+translation-type: tm+mt
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
@@ -28,11 +28,11 @@ Die Definition des dynamischen Texts erfolgt analog zur Definition des dynamisch
 Im folgenden Beispiel wird beschrieben, wie dynamischer Text in einer SMS definiert wird.
 
 1. Markieren Sie innerhalb des Textkörpers Ihrer Nachricht oder Ihrer Landingpage einen Abschnitt.
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Dynamischen Text aktivieren]**.
+1. Klicks **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 
-   Daraufhin erscheint in der Palette die Option **[!UICONTROL Dynamischer Text]**. Die Konfiguration des dynamischen Texts entspricht der des dynamischen Inhalts.
+   Die **[!UICONTROL Dynamic text]** Option wird in der Palette angezeigt. Die Konfiguration des dynamischen Texts entspricht der des dynamischen Inhalts.
 
 1. Wählen Sie eine Variante aus.
 
