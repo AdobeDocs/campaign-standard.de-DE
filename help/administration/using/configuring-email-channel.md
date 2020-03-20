@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -56,7 +56,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
 [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 
-## E-Mail-Routing-Konten   {#email-routing-accounts}
+## E-Mail-Routing-Konten    {#email-routing-accounts}
 
 Das **[!UICONTROL Integrated email routing]** Externe Konto wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
@@ -68,7 +68,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 [Externe Konten](../../administration/using/external-accounts.md)
 
-## Regeln zum Umgang mit E-Mails   {#email-processing-rules}
+## Regeln zum Umgang mit E-Mails    {#email-processing-rules}
 
 Administratoren **[!UICONTROL Email processing rules]** können über das **[!UICONTROL Administration > Channels > Email]** Menü auf die Datei zugreifen.
 
@@ -159,7 +159,7 @@ The following parameters are available for each rule:
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
 >* The modification or creation of management rules is for expert users only. -->
 
-## Liste der E-Mail-Eigenschaften   {#list-of-email-properties}
+## Liste der E-Mail-Eigenschaften    {#list-of-email-properties}
 
 Dieser Abschnitt behandelt die Liste von Parametern, die in den Eigenschaften einer E-Mail oder einer E-Mail-Vorlage verfügbar sind.
 
@@ -199,7 +199,7 @@ Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im 
 
 Die Anzahl weiterer Versuche kann global geändert werden (kontaktieren Sie Ihren technischen Administrator von Adobe) oder einzeln für jeden Versand oder jede Versandvorlage.
 
-#### Parameter für E-Mail-Format   {#email-format-parameters}
+#### Parameter für E-Mail-Format    {#email-format-parameters}
 
 Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei Optionen zur Verfügung:
 
@@ -230,7 +230,7 @@ Wenn Sie die SMTP-Testmodus-Option für eine E-Mail-Vorlage aktivieren, ist dies
 
 Weiterführende Informationen zur SMTP-Konfiguration finden Sie im Abschnitt [Liste der E-Mail-SMTP-Parameter](#list-of-email-smtp-parameters).
 
-### Parameter für den Gültigkeitszeitraum   {#validity-period-parameters}
+### Parameter für den Gültigkeitszeitraum    {#validity-period-parameters}
 
 Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar:
 
@@ -262,7 +262,7 @@ Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar
 >
 >The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
 
-### Tracking-Parameter   {#tracking-parameters}
+### Tracking-Parameter    {#tracking-parameters}
 
 Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
@@ -282,11 +282,11 @@ Klicken Sie auf die Schaltfläche rechts neben dem Feld, das geändert werden so
 
 Das Einfügen und Verwenden des Personalisierungsinhalts ist in der Dokumentation zum [Personalisieren von E-Mail-Inhalten](../../designing/using/personalization.md) ausführlich beschrieben.
 
-#### Zielgruppen-Kontext   {#target-context}
+#### Zielgruppen-Kontext    {#target-context}
 
 Im Zielgruppen-Kontext werden die für die Zielgruppenbestimmung (im Bildschirm zur Audience-Erstellung) und die Personalisierung (Definition von Personalisierungsfeldern, im HTML-Inhaltseditor) der E-Mail verwendeten Tabellen angegeben.
 
-#### Routing   {#routing}
+#### Routing    {#routing}
 
 In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf ein externes Konto verwiesen. Dies kann zum Beispiel von Nutzen sein, wenn Sie ein externes Konto mit speziellen Branding-Einstellungen verwenden möchten.
 
@@ -294,7 +294,7 @@ In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf 
 >
 >Zu den externen Konten gelangen Sie über das Menü **Administration** > **Anwendungskonfiguration** > **Externe Konten**.
 
-#### Vorbereitung   {#preparation}
+#### Vorbereitung    {#preparation}
 
 Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../../sending/using/preparing-the-send.md) beschrieben.
 
@@ -310,6 +310,10 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
 
 * **[!UICONTROL Save SQL queries in the log]**: Mit dieser Option können Sie während der Vorbereitungsphase SQL-Abfrage-Protokolle im Protokoll hinzufügen.
 
+#### Testversandeinstellungen {#proof-settings}
+
+In diesem Abschnitt können Sie das Standardpräfix konfigurieren, das in der Betreffzeile des Testversands verwendet werden soll. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+
 ### Liste der E-Mail-SMTP-Parameter {#list-of-email-smtp-parameters}
 
 Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
@@ -322,7 +326,7 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
    >
    >Das Hinzufügen zusätzlicher SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Skripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-### Liste der Parameter für Zugriffsberechtigung   {#list-of-access-authorization-parameters}
+### Liste der Parameter für Zugriffsberechtigung    {#list-of-access-authorization-parameters}
 
 Im Abschnitt **[!UICONTROL Access authorization]** sind folgende Parameter verfügbar:
 
