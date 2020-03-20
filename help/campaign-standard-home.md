@@ -3,8 +3,8 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
+translation-type: tm+mt
+source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ---
 
@@ -15,16 +15,11 @@ source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ## Neue Funktionen
 
-* **[Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html)**<br/>
-Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
+* **[E-Mail-Tests mit zielgerichteten Profilen](sending/using/testing-messages-using-target.md)**Erfahren Sie, wie Sie Ihre E-Mails auf echten zielgerichteten Profilen testen können.
 
-* **[Best Practices im Versand](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)**<br/>
-Erfahren Sie mehr über Best Practices bei der Erstellung und dem Versand von Nachrichten.
+* **[Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
 
-* **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Lesen Sie die neu strukturierte Dokumentation zu Email Designer.
-
-* **[Handbuch zum Mobil-Versand in Campaign Standard](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/>
-Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand.
+* **[Handbuch zum Mobil-Versand in Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand.
 
 [Klicken Sie hier für weitere Updates.](rn/using/documentation-updates.md)
 
@@ -69,14 +64,14 @@ Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand.
 
 * [Versionshinweise](rn/using/release-notes.md)
 
-* [Control Panel](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html)
+* [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 * [Anleitungsvideos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [Handbuch zur Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html)
+* [Handbuch zur Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-* [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-* [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html)
+* [Technotes](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
-* [Implementierungshandbuch zu Adobe Campaign Standard](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html)
+* [Implementierungshandbuch zu Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
