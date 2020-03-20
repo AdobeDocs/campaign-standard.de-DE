@@ -11,13 +11,15 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 259f7033310982298024462c0134989404c096f4
+translation-type: tm+mt
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
 
 # Definieren der Betreffzeile und des Absenders einer E-Mail{#defining-the-subject-line-of-an-email}
+
+## Defining the subject line of an email {#subject-line}
 
 Die Betreffzeile ist für die Vorbereitung und den Versand einer Nachricht unbedingt erforderlich.
 
@@ -25,45 +27,28 @@ Die Betreffzeile ist für die Vorbereitung und den Versand einer Nachricht unbed
 >
 >Wenn die Betreffzeile leer ist, wird ein Warnhinweis im Nachrichten-Dashboard und in Email Designer angezeigt.
 
-Um den E-Mail-Betreff zu konfigurieren, öffnen Sie auf der Startseite von Email Designer den Tab **[!UICONTROL Eigenschaften]**(der Zugriff erfolgt über das Startseiten-Symbol) und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
-
-**So definieren Sie die Betreffzeile einer E-Mail**:
-
 1. Erstellen Sie eine E-Mail.
-1. Schließen Sie die Startseite.
-1. Wählen Sie auf der Startseite von Email Designer, die sich über das Startseitensymbol aufrufen lässt, den Tab **[!UICONTROL Eigenschaften]**aus und füllen Sie den Bereich**[!UICONTROL  Betreff]** aus.
+1. Gehen Sie zur **[!UICONTROL Properties]** Registerkarte &quot;E-Mail-Designer-Startseite&quot;(über das Startsymbol abrufbar).
+1. Füllen Sie den **[!UICONTROL Subject]** Abschnitt aus.
 
-![](assets/email_designer_subject.png)
+   ![](assets/email_designer_subject.png)
 
-Sie können zur Betreffzeile auch Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die entsprechenden Symbole auswählen.
-
-## Prädiktive Betreffzeile {#predictive-subject-line}
-
-Beim Bearbeiten von E-Mails können Sie verschiedene Betreffzeilen ausprobieren und dabei eine jeweilige Einschätzung der Öffnungsrate erhalten, bevor Sie die E-Mail senden.
-
-Diese Funktion ist standardmäßig deaktiviert. Sie wird beim Import des ersten Modells aktiviert. Bei einem Modell handelt es sich um das Ergebnis aus branchenspezifischen Trainingsdatensätzen. Durch Modelle kann das System bei der Unterbreitung neuer Betreffzeilen darauf bezogene Öffnungsraten für E-Mails voraussagen.
-
->[!NOTE]
->
->Diese Funktion ist ausschließlich für E-Mail-Nachrichten und Datenbanken mit englischen Inhalten verfügbar. Das trainierte Modell riskiert inkonsistent zu sein und fehlerhafte Ergebnisse zu erzeugen, wenn Ihre Instanz E-Mails beinhaltet, deren Inhalt in anderen Sprachen gehalten ist. Die Option zum Testen von Betreffs ist nur dann sichtbar, wenn in Ihrer Instanz bereits ein Modell verfügbar ist.
-
-**Verwandtes Thema**
-
-* [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
+1. Sie können zur Betreffzeile auch Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die entsprechenden Symbole auswählen. For more on this, see [Personalization](../../designing/using/personalization.md).
+1. Sie können verschiedene Betreffzeilen ausprobieren, um eine Schätzung der offenen E-Mail-Rate zu erhalten, bevor Sie sie senden. Weitere Informationen dazu finden Sie unter [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md).
 
 ## E-Mail-Absender einer E-Mail definieren {#email-sender}
 
-Um den Absendernamen zu definieren, der im Header der gesendeten Nachrichten angezeigt wird, navigieren Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]**(der Zugriff erfolgt über das Startseiten-Symbol).
+To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon).
 
 ![](assets/delivery_content_edition16.png)
 
-* Der Absendername kann im Feld **[!UICONTROL Von: Name]**angepasst werden. Wenn nicht anders angegeben, erscheint hier automatisch der** Name des Standard-Absenders **. Die Standard-E-Mail-Adresse und der Name des Absenders werden in**[!UICONTROL  Marken]** definiert. Der Zugriff auf diese erfolgt über das Adobe Campaign-Logo unter dem erweiterten Menü **[!UICONTROL Administration > Instanzenkonfiguration > Markenkonfiguration]**zugegriffen werden kann.
+* The **[!UICONTROL From: name]** field allows you to enter the sender name. Wenn nicht anders angegeben, erscheint hier automatisch der **Name des Standard-Absenders**. The default sender email address and sender name are  defined in **[!UICONTROL Brands]** accessible via the Adobe Campaign logo under the advanced menu **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
    Sie können den Absendernamen ändern, indem Sie **Name des Absenders** auswählen. Geben Sie nun den gewünschten Absendernamen ein.
 
-   Sie haben die Möglichkeit, den Absendernamen je nach Zielgruppe zu personalisieren. Sie können Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die Symbole unter dem Absendernamen auswählen.
+   Sie haben die Möglichkeit, den Absendernamen je nach Zielgruppe zu personalisieren. Sie können Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die Symbole unter dem Absendernamen auswählen. For more on this, see [Personalization](../../designing/using/personalization.md).
 
-* Das Feld **[!UICONTROL Von: E-Mail-Adresse]**kann nicht in diesem Bereich bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. Lesen Sie diesbezüglich auch den Abschnitt[Liste der erweiterten E-Mail-Parameter](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* Das **[!UICONTROL From: email address]** Feld kann in diesem Abschnitt nicht bearbeitet werden. Änderungen der E-Mail-Adresse sind nur über den Eigenschaften-Bildschirm der E-Mail möglich, auf den Sie im Dashboard zugreifen können. Lesen Sie diesbezüglich auch den Abschnitt [Liste der erweiterten E-Mail-Parameter](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
