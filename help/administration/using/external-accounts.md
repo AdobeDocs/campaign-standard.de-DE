@@ -12,8 +12,8 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: ht
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+translation-type: tm+mt
+source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
 
 ---
 
@@ -31,12 +31,13 @@ Die folgenden externen Konten können eingerichtet werden:
 * Adobe Experience Manager: Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#adobe-experience-manager-external-account).
 * Adobe Analytics. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#google-recaptcha-external-account).
+* Microsoft Azure Blob Storage. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
 >Adobe verwendet auch andere Typen von externen Konten während des Produktbereitstellungsprozesses. Ab Campaign Standard 17.9 können externe FTP-Konten zwar definiert, aber nicht mehr in neuen Workflow-Aktivitäten verwendet werden. Wenn Sie bereits eine Verbindung eingerichtet hatten, ist sie nach wie vor aktiviert.
 
-Externe Konten können von Administratoren im Menü **[!UICONTROL Administration > Anwendungskonfiguration > Externe Konten]**konfiguriert werden.
+Externe Konti können von Administratoren im **[!UICONTROL Administration > Application settings > External accounts]** Menü konfiguriert werden.
 
 ## Externes Konto erstellen {#creating-an-external-account}
 
@@ -44,7 +45,7 @@ Adobe Campaign enthält eine Reihe vordefinierter externer Konten. Sie können a
 
 Externe Konten werden von technischen Prozessen, wie technischen Workflows oder Kampagnen-Workflows, verwendet. Bei der Einrichtung eines Dateitransfers in einem Workflow oder bei einem Datenaustausch mit einer anderen Anwendung (Adobe Target, Experience Manager etc.) müssen Sie ein externes Konto auswählen.
 
-1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
+1. Click the **[!UICONTROL Create]** button.
 1. Geben Sie einen Titel ein. Der Titel und die Kennung werden verwendet, wenn Sie in Workflows externe Konten auswählen möchten.
 1. Wählen Sie den Kontotyp aus, den Sie erstellen möchten.
 1. Konfigurieren Sie den Zugriff auf das Konto, indem Sie die Zugangsdaten, die Server-Adresse, die Port-Nummer und/oder gegebenenfalls die Schlüssel spezifizieren.
@@ -84,12 +85,12 @@ Um solche Probleme zu vermeiden, empfiehlt Adobe, die unten stehenden Best Pract
 
 Beachten Sie außerdem, dass die öffentlichen IPs, mit denen Sie die SFTP-Verbindung aufbauen, in der Campaign-Instanz auf der Whitelist stehen müssen. Wenn Sie IP-Adressen auf eine Whitelist setzen lassen möchten, senden Sie ein [Support-Ticket](https://support.neolane.net) und stellen Sie den öffentlichen Schlüssel zur Authentifizierung bereit.
 
-SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >Das Control Panel ist nur für Admin-Benutzer von Kunden verfügbar, die auf AWS gehostet werden.
-Überprüfen Sie [hier](https://docs.adobe.com/content/help/de-DE/control-panel/using/faq.html#ims-org-id), ob Ihre Instanz auf AWS gehostet wird.
+Überprüfen Sie [hier](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id), ob Ihre Instanz auf AWS gehostet wird.
 
 ## Externes Amazon-S3-Konto {#amazon-s3-external-account}
 
@@ -99,25 +100,25 @@ Das Amazon-S3-Server-Feld sollte folgendermaßen ausgefüllt werden:
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-Um Ihre Datei in S3 im verschlüsselten Modus zu speichern, aktivieren Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen]**.
+Um Ihre Datei im S3-verschlüsselten Modus zu speichern, markieren Sie das **[!UICONTROL Keep files in S3 encrypted]** Kästchen.
 
 ![](assets/external_accounts_2.png)
 
 Die nötigen Informationen werden normalerweise vom Anbieter des Servers bereitgestellt, mit dem Sie eine Verbindung herstellen möchten.
 
-Spezifizieren Sie die mit Ihrem Endpunkt verknüpfte **[!UICONTROL AWS-Region]**. Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen[Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
+Geben Sie die Ihrem Endpunkt **[!UICONTROL AWS Region]** zugeordnete Zeichenfolge an. Die unterstützten Regionen und Signaturversionen finden Sie in der offiziellen [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
 
 >[!NOTE]
 >
->Geben Sie Ihren **[!UICONTROL Receiver-Server]**ohne die AWS-Region ein; diese wird später automatisch Ihrer URL hinzugefügt.
+>Your **[!UICONTROL Receiver server]** should be entered without your AWS Region, it will later be automatically added to your URL.
 
 ### Empfehlungen für das Amazon-S3-Konto {#amazon-s3-account-recommendations}
 
 Wir empfehlen zum Einrichten des Amazon-S3-Kontos folgende Vorgehensweise:
 
 * Erstellen Sie eine restriktive Bucket-Richtlinie, um den Zugriff auf S3-Buckets zu beschränken. Die Bucket-Richtlinie kann während der Erstellung eines Buckets konfiguriert werden. Weiterführende Informationen finden Sie in der [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* Aktivieren Sie beim Erstellen eines externen Kontos die Verschlüsselung bei der Speicherung sensibler Daten im S3-Bucket, indem Sie die Option **[!UICONTROL Dateien in S3 verschlüsselt lassen]**aktivieren.
-* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
+* While creating an external account, enable the encryption to store sensitive data in the S3 bucket by checking the **[!UICONTROL Keep files in S3 encrypted]** box.
+* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)..
 
 ## Externes Adobe-Experience-Manager-Konto {#adobe-experience-manager-external-account}
 
@@ -142,11 +143,61 @@ Damit Sie Google reCAPTCHA V3 zu Ihrer Landingpage hinzufügen können, müssen 
 
 Geben Sie für ein externes Google-reCAPTCHA-V3-Konto die folgenden Details an:
 
-* Einen **[!UICONTROL Titel]**und eine**[!UICONTROL  ID]** für Ihr externes Konto
-* **[!UICONTROL Typ]**: Google reCAPTCHA
-* Ihren **[!UICONTROL Site-Schlüssel]**und Ihr**[!UICONTROL  Site-Geheimnis]**
-* Einen **[!UICONTROL Schwellenwert]**zwischen 0 und 1
+* A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
+* **[!UICONTROL Type]**: Google reCAPTCHA
+* Ihre **[!UICONTROL Site key]** und **[!UICONTROL Site secret]**
+* A **[!UICONTROL Threshold]** between 0 and 1
 
-   Der **[!UICONTROL Schwellenwert]**0,0 bedeutet, dass es sich wahrscheinlich um einen Bot handelt, 1,0 dagegen weist auf eine menschliche Interaktion hin. Verwenden Sie den Standard-Schwellenwert von 0,5.
+   The 0.0 **[!UICONTROL Threshold]** value means that it is likely a bot and 1.0 likely a good interaction. Verwenden Sie den Standard-Schwellenwert von 0,5.
 
 ![](assets/external_accounts_3.png)
+
+## Microsoft Azure Blob storage external account {#microsoft-azure-external-account}
+
+>[!NOTE]
+>
+>Informationen, die Sie zur Konfiguration Ihres Externen Kontos in Adobe Campaign Standard benötigen, finden Sie im Azurblauen Portal unter **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+
+Geben Sie für ein Externe Konto zur Datenspeicherung von Microsoft Blue Blob die folgenden Informationen ein:
+
+* A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
+* **[!UICONTROL Type]**: Microsoft Azure Blob Storage
+* Ihr **[!UICONTROL Account name]** und **[!UICONTROL Account key]**. Auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)erfahren Sie, wo Sie Ihren Kontonamen und -schlüssel finden.
+* Ihr **[!UICONTROL Endpoint suffix]**. Es kann innerhalb Ihres **[!UICONTROL Connection string]** der **[!UICONTROL Access keys]** Speisekarte im Azurblaus Portal gefunden werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Ihr **[!UICONTROL Container]** Name. Wenn Sie planen, mehr als einen Container zu verwenden, müssen Sie so viele Externe Konti wie Container erstellen.
+* Mit der **[!UICONTROL Concurrency]** Option können Sie die Geschwindigkeit der Dateiübertragung genauer einstellen.
+
+![](assets/external_accounts_4.png)
+
+Klicken Sie nach der Konfiguration auf , **[!UICONTROL Test connection]** um Adobe Campaign mit der Datenspeicherung Microsoft Azurblase zu verknüpfen.
+
+### Microsoft Azure Blob storage recommendations {#azure-blob-recommendations}
+
+**Verschlüsselung**
+
+Adobe Campaign verwendet eine gesicherte Verbindung (HTTPS), um auf Ihr Microsoft Azurblase-Datenspeicherung-Konto zuzugreifen.
+
+**Kontoschlüssel**
+
+Bei der Konfiguration des Externen Kontos müssen Sie eines der **[!UICONTROL Account key]** verfügbaren verwenden. Weitere Informationen dazu, wo Sie Ihre Kontoschlüssel finden, finden Sie auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+
+**Optimieren der Dateiübertragungsgeschwindigkeit**
+
+Mit der **[!UICONTROL Concurrency]** Option können Sie die Geschwindigkeit der Dateiübertragung genauer einstellen.
+Es stellt die Anzahl der Threads dar, die zur Durchführung der Dateiübertragung verwendet werden. Jeder dieser Threads lädt einen Teil von ca. 1 MB aus dem Blob herunter. Sie werden dann in die Warteschlange gestellt, um auf die Festplatte geschrieben zu werden. Beachten Sie, dass Sie durch die Erhöhung der Threads auch die Belastung der Ressourcen erhöhen, die die Anwendung während der Dateiübertragung verwendet.
+
+Nach Abschluss der Dateiübertragung finden Sie Leistungsmetriken in den Workflow-Protokollen.
+
+**Weitere Zustellversuche**
+
+Standardmäßig hat die Dateiübertragung für Azurblut bis zu vier weitere Zustellversuche.  Wenn der Azurblase-Datenspeicherung-Dienst einen Fehlercode wie 503 (Serverbetrieb) oder 500 (Zeitüberschreitung des Vorgangs) zurückgibt, deutet dies möglicherweise darauf hin, dass Sie die Skalierbarkeit Ihres Datenspeicherung-Kontos erreichen oder überschreiten. Dies kann vorkommen, wenn ein neues Konto verwendet oder Tests durchgeführt werden.
+
+Wenn der Fehler weiterhin auftritt, können Sie die Anzahl der weitere Zustellversuche erhöhen, indem Sie eine Option unter dem erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+
+Wenn diese Option implementiert ist, muss sie wie folgt erstellt werden:
+
+```
+ID:        AzureBlob_Max_Retries
+Date type: Integer
+Default:   <the number of retries needed>
+```
