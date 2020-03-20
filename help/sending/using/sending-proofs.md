@@ -12,51 +12,100 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+translation-type: tm+mt
+source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 
 ---
 
 
 # Testversand durchführen {#sending-proofs}
 
-Ein Testversand dient der Validierung einer Nachricht, bevor sie an die Hauptzielgruppe gesendet wird.
+## Info zu Testversänden {#about-proofs}
 
-Die Empfänger des Testversands haben die Aufgabe, sowohl Inhalt als auch Form der Nachricht zu validieren. Die Profile, die Testsendungen erhalten sollen, werden im Tab **Testprofile** ausgewählt. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
+Ein Testversand dient der Validierung einer Nachricht, bevor sie an die Hauptzielgruppe gesendet wird. Die Empfänger des Testversands haben die Aufgabe, sowohl Inhalt als auch Form der Nachricht zu validieren. 
 
-Um Testsendungen vornehmen zu können, muss die Audience Ihrer Nachricht mindestens ein Testprofil enthalten.
+Es gibt zwei Typen von Testversand-Empfängern:
 
-Gehen Sie in einer Nachricht wie folgt vor, um einen Test zu senden:
+* **Mit Test-Profilen** können Sie zusätzliche Empfänger Zielgruppe werden, die nicht den definierten Targeting-Kriterien entsprechen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Test senden]**.
+   Sie können der Audience einer Nachricht hinzugefügt werden, um eine betrügerische Nutzung Ihrer Empfänger-Datenbank zu erkennen oder sicherzustellen, dass die E-Mails in den Postfächern eingehen. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
+
+   >[!NOTE]
+   >
+   >Um Testsendungen vornehmen zu können, muss die Audience Ihrer Nachricht mindestens ein Testprofil enthalten.
+
+* **Substitution-Profil** ermöglichen es Ihnen, sich in die Position eines der zielgerichteten Profil zu setzen und eine genaue Darstellung der Nachricht zu erhalten, die das Profil erhalten wird. Weitere Informationen finden Sie unter [Testen von E-Mail-Nachrichten mit zielgerichteten Profilen](../../sending/using/testing-messages-using-target.md).
+
+   >[!NOTE]
+   >
+   >Diese Funktion steht nur für E-Mail-Kanal zur Verfügung.
+
+## Testversand durchführen {#sending-a-proof}
+
+Gehen Sie wie folgt vor, um Testversand zu senden:
+
+1. Vergewissern Sie sich, dass die Testversand-Empfänger konfiguriert wurden:
+   * **Test-Profil** müssen in der Audience Ihrer Nachricht enthalten sein.
+   * **Nach erfolgreicher Vorbereitung der Nachricht müssen Profil** zum Austausch hinzugefügt werden (siehe [diesen Abschnitt](../../sending/using/testing-messages-using-target.md)).
+
+1. Click the **[!UICONTROL Send a test]** button.
 
    ![](assets/bat_select.png)
 
 1. Wählen Sie die Art des Testversands aus:
 
-   * **[!UICONTROL E-Mail-Rendering]**: Diese Option erlaubt es Ihnen, den Empfang und die Darstellung Ihrer Nachricht in den verschiedenen E-Mail-Clients zu testen. Weiterführende Informationen finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
-   * **[!UICONTROL Testversand]**: Diese Option erlaubt es Ihnen, die Nachricht vor dem Versand an die Hauptzielgruppe zu prüfen. Die Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen.
-   * **[!UICONTROL Testversand + E-Mail-Rendering]**: Diese Funktion kombiniert die beiden vorangehenden Optionen.
+   * **[!UICONTROL Email rendering]**: Wählen Sie diese Option, um zu testen, wie Ihre Nachricht entsprechend den vorgesehenen Postfächern empfangen wird. Weiterführende Informationen finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
+   * **[!UICONTROL Proof]**: Wählen Sie diese Option, um die Nachricht zu testen, bevor sie an die Haupt-Zielgruppe gesendet wird. Die Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen.
+   * **[!UICONTROL Proof + Email rendering]**: Diese Option kombiniert die beiden vorherigen Optionen.
    ![](assets/bat_select1.png)
+
+   >[!NOTE]
+   >
+   >Das Rendering per Email ist nur mit Test-Profilen möglich. Wenn der Nachricht keine Testelemente hinzugefügt wurden, steht nur die **[!UICONTROL Proof]** Option zur Auswahl zur Verfügung.
 
 1. Bestätigen Sie Ihre Auswahl.
 
-   Die Testsendungen werden an die Testprofile geschickt.
+   Die Testversand werden an die konfigurierten Empfänger gesendet.
 
    ![](assets/bat_select2.png)
 
-1. Abgeschickte Testsendungen können mithilfe der Dropdown-Liste **[!UICONTROL Testsendungen]** aufgerufen werden.
+1. You can view your proofs using the **[!UICONTROL Proofs]** drop-down list.
 
    ![](assets/bat_view.png)
 
-1. Wählen Sie einen Testversand aus, um seine Zusammenfassung anzuzeigen. Wenn Sie sich bei der Auswahl des Testversands einer E-Mail für die Option **E-Mail-Rendering** entschieden haben, können Sie über das Symbol **[!UICONTROL Zugriff auf das E-Mail-Rendering]** rechts vom Testversandtitel auf das Ergebnis zugreifen. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
+1. Wählen Sie einen Testversand aus, um seine Zusammenfassung anzuzeigen. For an email, if you have selected the **Email rendering** option as the proof type, the **[!UICONTROL Access email rendering]** icon is displayed on the right of the proof label. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-Nach Prüfung des Testversands durch die Testprofile sind gegebenenfalls Änderungen im Versandinhalt und seiner Form vorzunehmen. Nach jeder Änderung ist der Versand erneut vorzubereiten. Es empfiehlt sich außerdem, einen neuen Testversand zu erzeugen. Alle neuen Testsendungen können ebenfalls mithilfe der Schaltfläche **[!UICONTROL Testsendungen anzeigen]** aufgerufen werden.
+Nach Prüfung des Testversands durch die Testprofile sind gegebenenfalls Änderungen im Versandinhalt und seiner Form vorzunehmen. Nach jeder Änderung ist der Versand erneut vorzubereiten. Es empfiehlt sich außerdem, einen neuen Testversand zu erzeugen. Each new proof can be accessed using the **[!UICONTROL Show proofs]** button.
 
 Senden Sie so viele Testsendungen wie nötig sind, um zu einer endgültigen Version des Nachrichteninhalts zu gelangen. Danach können Sie den Versand an die Hauptzielgruppe senden und den Validierungszyklus beenden.
 
+## Betreffzeile des Testversands konfigurieren {#configuring-proofs-subject-line}
+
+Beim Senden eines Testversands wird die Betreffzeile standardmäßig mit dem Präfix **&quot;Testversand&quot;** sowie einem Zähler mit der Nummer des Testversands konfiguriert.
+
+![](assets/proof-prefix.png)
+
+Gehen Sie wie folgt vor, um die Standardbetreffzeile zu verwenden:
+
+1. Klicken Sie im Dashboard der Nachricht auf die **[!UICONTROL Open properties]** Schaltfläche.
+1. Definieren Sie im **[!UICONTROL Advanced parameters]** Abschnitt das Präfix, das Sie standardmäßig in der Betreffzeile verwenden möchten.
+
+Um die Nummer des Testversands in der Betreffzeile auszublenden, aktivieren Sie die **[!UICONTROL Hide proof prefix counter]** Option.
+
+>[!NOTE]
+>
+>Wenn Sie das gesamte Präfix des Testversands ausblenden möchten, lassen Sie das Feld **[!UICONTROL Subject line prefix]** leer.
+
+![](assets/proof-prefix-configuration.png)
+
+1. Klicks **[!UICONTROL Confirm]**. Die Einstellungen werden standardmäßig auf alle Testversand angewendet, die für die jeweilige Nachricht gesendet werden.
+
 **Verwandtes Thema:**
 
-Video [Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
+* Video [Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
+* [Testen von E-Mail-Nachrichten mit zielgerichteten Profilen](../../sending/using/testing-messages-using-target.md).
+* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
+* [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
+* [E-Mail-Kanal konfigurieren](../../administration/using/configuring-email-channel.md)
