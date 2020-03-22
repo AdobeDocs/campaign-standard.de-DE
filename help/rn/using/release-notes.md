@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
+source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 ---
 
@@ -43,12 +43,12 @@ source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Unified Experience Cloud-Benutzeroberfläche und -Domäne</strong><br /> </th> 
+   <th> <strong>Unified Experience Cloud-Benutzeroberfläche</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Die oberste Leiste der Benutzeroberfläche wurde verbessert, um die Benutzerfreundlichkeit in allen Experience Cloud-Anwendungen zu verbessern. Der Zugriff auf Lösungen wurde mit der folgenden URL vereinheitlicht: experience.adobe.com/ Der Header ermöglicht Ihnen jetzt, einfacher zwischen Lösungen zu wechseln, und zeigt verbesserte Hilfe und Benachrichtigungen an.</p>
+   <td> <p>Die oberste Leiste der Benutzeroberfläche wurde verbessert, um die Benutzerfreundlichkeit in allen Experience Cloud-Anwendungen zu verbessern. Der Header ermöglicht Ihnen jetzt, einfacher zwischen Lösungen zu wechseln, und zeigt verbesserte Hilfe und Benachrichtigungen an.</p>
     <p>Weitere Informationen finden Sie im <a href="../../start/using/interface-description.md#top-bar">entsprechenden Handbuch</a>. </p>
    </td> 
   </tr> 
