@@ -172,6 +172,7 @@ Außerdem muss die Auslösung dieses Ereignisses in Ihre Webseite integriert wer
 <!-->>[!NOTE]
 >Klicken Sie auf den **[!UICONTROL Latest transactional events]** Link unter dem Abschnitt im linken Bereich, um ggf. die vorherigen Publikationen zu konsultieren **[!UICONTROL History]** .—>
 >
+
 ### Ereignis depublizieren   {#unpublishing-an-event}
 
 The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Selbst wenn das Ereignis auf Ihrer Webseite ausgelöst wird, werden die entsprechenden Nachrichten nun nicht mehr gesendet und auch nicht in der Datenbank gespeichert.
