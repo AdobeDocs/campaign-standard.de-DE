@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ Die wichtigsten Schritte sind:
 1. (Optional) Definieren Sie für jedes Profil ein **Präfix** , das der Betreffzeile des Testversands hinzugefügt werden soll.
 1. **Vorschau** im E-Mail-Designer, wie die Nachricht für die Profil angezeigt wird.
 1. Schicken Sie die Testversände.
+
+Weitere Informationen zum globalen Prozess finden Sie im [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html)verfügbaren Tutorial-Video.
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ Die wichtigsten Schritte für diesen Anwendungsfall sind:
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. Die Testversand werden entsprechend der Konfiguration auf der Registerkarte **[!UICONTROL[Profil Substitutions ]**gesendet.
+1. Die Testversand werden entsprechend der Konfiguration auf der **[!UICONTROL Profile substitutions]** Registerkarte gesendet.
 
    ![](assets/substitution_uc_proofs.png)
