@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## Neue Funktionen
 
-* **[E-Mail-Tests mit zielgerichteten Profilen](sending/using/testing-messages-using-target.md)**Erfahren Sie, wie Sie Ihre E-Mails auf echten zielgerichteten Profilen testen können.
+* **[E-Mail-Tests mit zielgerichteten Profilen](sending/using/testing-messages-using-target.md)**<br/>Erfahren Sie, wie Sie Ihre E-Mails auf echten zielgerichteten Profilen testen können.
 
 * **[Datenschutzverwaltung](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
 
