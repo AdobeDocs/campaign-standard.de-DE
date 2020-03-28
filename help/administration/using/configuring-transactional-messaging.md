@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
+source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
 ---
 
@@ -169,9 +169,11 @@ Sie können die erstellte Transaktionsnachricht direkt über den Link im linken 
 
 Außerdem muss die Auslösung dieses Ereignisses in Ihre Webseite integriert werden. Siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!-->>[!NOTE]
->Klicken Sie auf den **[!UICONTROL Latest transactional events]** Link unter dem Abschnitt im linken Bereich, um ggf. die vorherigen Publikationen zu konsultieren **[!UICONTROL History]** .—>
+<!--
+>[!NOTE]
 >
+>To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
+-->
 
 ### Ereignis depublizieren   {#unpublishing-an-event}
 
@@ -180,7 +182,8 @@ The **[!UICONTROL Unpublish]** button lets you cancel the publication of the eve
 ![](assets/message-center_unpublish.png)
 
 >[!NOTE]
-Sollten Sie die entsprechende Transaktionsnachricht bereits publiziert haben, wird die Transaktionsnachrichtenpublikation ebenfalls abgebrochen. Siehe [Transaktionsnachricht depublizieren](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+>
+>Sollten Sie die entsprechende Transaktionsnachricht bereits publiziert haben, wird die Transaktionsnachrichtenpublikation ebenfalls abgebrochen. Siehe [Transaktionsnachricht depublizieren](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Click the **[!UICONTROL Publish]** button to generate a new REST API.
 
@@ -194,14 +197,16 @@ Wenn die Veröffentlichung eines Ereignisses rückgängig gemacht wurde oder ein
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
-   Vergewissern Sie sich, dass die Konfiguration des Ereignisses den **[!UICONTROL Draft]** Status hat, andernfalls können Sie sie nicht löschen. Der **[!UICONTROL Draft]** Status gilt für ein Ereignis, das noch nicht veröffentlicht wurde oder dessen Veröffentlichung [rückgängig gemacht](#unpublishing-an-event)wurde.
+   >
+   >Vergewissern Sie sich, dass die Konfiguration des Ereignisses den **[!UICONTROL Draft]** Status hat, andernfalls können Sie sie nicht löschen. Der **[!UICONTROL Draft]** Status gilt für ein Ereignis, das noch nicht veröffentlicht wurde oder dessen Veröffentlichung [rückgängig gemacht](#unpublishing-an-event)wurde.
 
 1. Click the **[!UICONTROL Confirm]** button.
 
    ![](assets/message-center_delete-confirm.png)
 
 >[!IMPORTANT]
-Wenn Sie eine bereits veröffentlichte und verwendete Ereignis-Konfiguration löschen, werden auch die entsprechende(n) Transaktionsnachricht(n) sowie deren Senden und Trackinglogs gelöscht.
+>
+>Wenn Sie eine bereits veröffentlichte und verwendete Ereignis-Konfiguration löschen, werden auch die entsprechende(n) Transaktionsnachricht(n) sowie deren Senden und Trackinglogs gelöscht.
 
 ## Aktivierung des Ereignisses in eine Website integrieren {#integrating-the-triggering-of-the-event-in-a-website}
 
@@ -227,7 +232,8 @@ Weiterführende Informationen finden Sie unter [Interaktionen fördern mit Trans
 1. Reichern Sie den Inhalt der Transaktionsnachricht an, wenn Sie Zusatzinformationen aus der Adobe-Campaign-Datenbank verwenden möchten (siehe [Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)).
 
    >[!NOTE]
-   Beim ereignisbasierten Transaktionsnachrichtenversand sollen ausschließlich die Daten verwendet werden, die im gesendeten Ereignis der Personalisierung von Empfängern und Nachrichteninhalten dienen. Der Inhalt Ihrer Transaktionsnachricht lässt sich jedoch durch die Verwendung von in der Adobe-Campaign-Datenbank enthaltenen Informationen anreichern.
+   >
+   >Beim ereignisbasierten Transaktionsnachrichtenversand sollen ausschließlich die Daten verwendet werden, die im gesendeten Ereignis der Personalisierung von Empfängern und Nachrichteninhalten dienen. Der Inhalt Ihrer Transaktionsnachricht lässt sich jedoch durch die Verwendung von in der Adobe-Campaign-Datenbank enthaltenen Informationen anreichern.
 
 1. Erstellen Sie eine Vorschau und publizieren Sie das Ereignis (siehe [Vorschau erstellen und Ereignis publizieren](#previewing-and-publishing-the-event)).
 
@@ -269,7 +275,8 @@ Das Ereignis muss diese drei Elemente enthalten:
 1. Reichern Sie den Inhalt der Transaktionsnachricht an, wenn Sie Zusatzinformationen aus der Adobe-Campaign-Datenbank verwenden möchten (siehe [Inhalt der Transaktionsnachricht anreichern](#enriching-the-transactional-message-content)).
 
    >[!NOTE]
-   Beim ereignisbasierten Transaktionsnachrichtenversand sollen ausschließlich die Daten verwendet werden, die im gesendeten Ereignis der Personalisierung von Empfängern und Nachrichteninhalten dienen. Der Inhalt Ihrer Transaktionsnachricht lässt sich jedoch durch die Verwendung von in der Adobe-Campaign-Datenbank enthaltenen Informationen anreichern.
+   >
+   >Beim ereignisbasierten Transaktionsnachrichtenversand sollen ausschließlich die Daten verwendet werden, die im gesendeten Ereignis der Personalisierung von Empfängern und Nachrichteninhalten dienen. Der Inhalt Ihrer Transaktionsnachricht lässt sich jedoch durch die Verwendung von in der Adobe-Campaign-Datenbank enthaltenen Informationen anreichern.
 
 1. Erstellen Sie eine Vorschau und publizieren Sie das Ereignis (siehe [Vorschau erstellen und Ereignis publizieren](#previewing-and-publishing-the-event)).
 
@@ -294,7 +301,8 @@ Um eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile zu send
 1. Fügen Sie zum Ereignis Felder hinzu, wenn Sie die Transaktionsnachricht personalisieren möchten (siehe [Ereignisattribute definieren](#defining-the-event-attributes)).
 
    >[!NOTE]
-   Für eine Anreicherung müssen Sie mindestens ein Feld hinzufügen. Sie müssen keine anderen Felder wie **Vorname** und **Nachname** erstellen, da Sie Personalisierungsfelder aus der Adobe-Campaign-Datenbank verwenden können.
+   >
+   >Für eine Anreicherung müssen Sie mindestens ein Feld hinzufügen. Sie müssen keine anderen Felder wie **Vorname** und **Nachname** erstellen, da Sie Personalisierungsfelder aus der Adobe-Campaign-Datenbank verwenden können.
 
 1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
 1. Erstellen Sie eine Vorschau und publizieren Sie das Ereignis (siehe [Vorschau erstellen und Ereignis publizieren](#previewing-and-publishing-the-event)).
