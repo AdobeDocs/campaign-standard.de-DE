@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -31,8 +31,6 @@ Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-note
 
 Azurblauch-Integration - [Mehr dazu](../../administration/using/external-accounts.md#microsoft-azure-external-account)
 
-Unified Experience Cloud-Benutzeroberfläche und -Domäne - [Weitere Informationen](../../start/using/interface-description.md#top-bar)
-
 E-Mail-Tests mit zielgerichteten Profilen - [Weitere Informationen](../../sending/using/testing-messages-using-target.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
@@ -43,7 +41,7 @@ Es wurden Informationen zur Verwendung von Aggregaten in einer **[!UICONTROL Que
 
 Beim Konfigurieren einer mobilen Anwendung wurden Einschränkungen mit MCPNS hinzugefügt. [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-Dem Administratorhandbuch wurde ein neuer Abschnitt mit Konfigurationsrichtlinien hinzugefügt. Der Abschnitt zu kompatiblen Browsern und Betriebssystemen wurde vom Handbuch &quot;Erste Schritte&quot;in diesen Abschnitt verschoben. Dieser Abschnitt enthält auch die Technote zu Campaign Standard Netzwerkendpunkten. [mehr dazu](../../administration/using/about-configuration-guidelines.md)
+Dem Administratorhandbuch wurde ein neuer Abschnitt mit Konfigurationsrichtlinien hinzugefügt. Der Abschnitt zu kompatiblen Browsern und Betriebssystemen wurde vom Handbuch &quot;Erste Schritte&quot;in diesen Abschnitt verschoben. Der Technote zu Campaign Standard-Netzwerkendpunkten wurde ebenfalls zu diesem Abschnitt hinzugefügt. [mehr dazu](../../administration/using/about-configuration-guidelines.md)
 
 Es steht jetzt ein neuer Abschnitt zum Löschen einer Ereignis-Konfiguration zur Verfügung. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
