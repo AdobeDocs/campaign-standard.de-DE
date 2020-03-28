@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
+source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
 
 ---
 
@@ -60,25 +60,12 @@ Folgende Navigationsprinzipien kommen zur Anwendung:
 * The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
 * Über die **[!UICONTROL Marketing activities]**-, **[!UICONTROL Programs & Campaigns]**-, **[!UICONTROL Profiles]**- **[!UICONTROL Audiences]** und **[!UICONTROL Reports]** -Links können Sie auf die mit diesen Funktionen verknüpften Ansichten zugreifen.
 * The **[!UICONTROL Help]** button gives access to the product documentation and contextual help, release notes, version numbers, legal notices, as well as the links to the Adobe Experience Cloud community and customer care.
-* Schaltfläche &quot;Organisation&quot;
-* The **Solution switcher** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
-* Im Symbol **Benachrichtigungen** werden die aktuellen Warnungen oder Informationen angezeigt.
-* Das **Benutzer**-Symbol ermöglicht die Anzeige von Informationen zu Ihrem Profil. Es gibt Zugriff auf die **[!UICONTROL Sign out]** Schaltfläche.
-
-### Hilfe {#help}
-
-* **[!UICONTROL Search]** ermöglicht es Ihnen, Dokumentation, Artikel und Videos abzurufen und Inhalte nach Lösung zu filtern.
-
-* **[!UICONTROL Help]** tab
-   * Über Links erhalten Sie schnellen Zugriff auf Artikel, Dokumentation und Videos zur Seite, die Sie suchen
-   * **[!UICONTROL Learning]** über diesen Link können Sie auf Experience League zugreifen.
-   * **[!UICONTROL Community]** über diesen Link können Sie auf das Forum zugreifen, das Ihren Fragen zu ACS gewidmet ist.
-
-* **[!UICONTROL Support]** tab ermöglicht Ihnen, ein Support Ticket zu erstellen und uns per Telefon oder Twitter zu kontaktieren.
-
-* **[!UICONTROL Feedback ]** mit dem Sie Probleme und Ideen zur Lösung austauschen können.
 
    ![](assets/ux_help.png)
+
+* Über das Symbol zur **Lösungsauswahl** können Sie zu einer anderen Adobe Experience Cloud-Lösung sowie zu den Profileinstellungen wechseln.
+* Im Symbol **Benachrichtigungen** werden die aktuellen Warnungen oder Informationen angezeigt.
+* Das **Benutzer**-Symbol ermöglicht die Anzeige von Informationen zu Ihrem Profil. Es gibt Zugriff auf die **[!UICONTROL Sign out]** Schaltfläche.
 
 ## Erweitertes Menü {#advanced-menu}
 
@@ -124,7 +111,7 @@ Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamische
 
 Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs kann variieren:
 
-* Eine **Liste** mit verschiedenen Elementen wie Programms, Campaigne, Profile usw. Diese Elemente können im **[!UICONTROL Card]** oder im **[!UICONTROL List]** Modus angezeigt werden. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
+* Eine **Liste** mit verschiedenen Elementen wie Programms, Kampagnen, Profile usw. Diese Elemente können im **[!UICONTROL Card]** oder im **[!UICONTROL List]** Modus angezeigt werden. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
 
    ![](assets/ux_liste.png)
 
