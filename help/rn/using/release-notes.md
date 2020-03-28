@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -43,21 +43,6 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Unified Experience Cloud-Benutzeroberfläche</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Die oberste Leiste der Benutzeroberfläche wurde verbessert, um die Benutzerfreundlichkeit in allen Experience Cloud-Anwendungen zu verbessern. Der Header ermöglicht Ihnen jetzt, einfacher zwischen Lösungen zu wechseln, und zeigt verbesserte Hilfe und Benachrichtigungen an.</p>
-    <p>Weitere Informationen finden Sie im <a href="../../start/using/interface-description.md#top-bar">entsprechenden Handbuch</a>. </p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
    <th> <strong>E-Mail-Tests mit zielgerichteten Profilen</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -72,12 +57,12 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 >[!NOTE]
 >
->Im April werden in der Systemsteuerung für Campaigne neue Funktionen veröffentlicht, einschließlich Google TXT-Datensatzverwaltung, Datenbankraumüberwachung und E-Mail-Benachrichtigung. Weitere Informationen zu diesen Funktionen finden Sie in der Versionshinweise zur [Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+>Im April werden in der Systemsteuerung der Kampagne neue Funktionen veröffentlicht, einschließlich Google TXT-Datensatzverwaltung, Datenbankraumüberwachung und E-Mail-Benachrichtigung. Weitere Informationen zu diesen Funktionen finden Sie in der Versionshinweise zur [Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
 * Die Benutzerfreundlichkeit von Nachrichten für Transaktionsnachrichten wurde verbessert und die Konsistenz der Oberfläche wurde verbessert. [mehr dazu](../../channels/using/about-transactional-messaging.md)
-* Campaign Standard ermöglicht es Ihnen jetzt, Testversand mit zusätzlichen Daten aus Workflows an Test-Profil zu senden.
+* Mit Campaign Standard können Sie jetzt Testversand mit zusätzlichen Daten aus Workflows an Test-Profil senden.
 * Die Richtlinien für die externe API-Aktivität wurden aktualisiert. [mehr dazu](../../automating/using/external-api.md)
 
 **Verbesserungen bei Email Designer**
@@ -106,7 +91,7 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 >
 >Die Funktionen der Adobe Experience Platform in Campaign Standard befinden sich derzeit in der Betaphase, die möglicherweise ohne Vorankündigung häufig aktualisiert wird. Weitere Informationen finden Sie in der ausführlichen Dokumentation: Data Connector [für](../../administration/using/aep-about-data-connector.md)Experience Platform, [Audience-Ziele](../../audiences/using/aep-about-audience-destinations-service.md)
 
-* In den Workflow-Protokollen zeigt Campaign nun alle 10 Minuten die Anzahl der Datensätze an, die bereits vom derzeit ausgeführten Auftrag verarbeitet wurden.
+* In den Workflow-Protokollen zeigt die Kampagne nun alle 10 Minuten die Anzahl der Datensätze an, die bereits vom derzeit ausgeführten Auftrag verarbeitet wurden.
 * Es wurde ein Problem behoben, das beim Importieren eines Adobe Experience Platform-Profils auftrat, das aus der Datenbank gelöscht wurde.
 * Es wurde ein Problem in Workflow-Protokollen behoben, durch das ein falsches Ergebnis für die Gesamtanzahl der importierten Datensätze angezeigt werden konnte.
 
@@ -116,6 +101,6 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 * Es wurde ein Problem behoben, bei dem jedes Profil beim Senden einer Testversand-Nachricht als Ziel ausgewählt werden konnte.
 * Es wurde ein Problem behoben, das nach dem Rückgängigmachen der Veröffentlichung und Löschen einer Ereignis-Konfiguration auftrat. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 * Es wurde ein Problem behoben, bei dem die Schaltfläche **Speichern** verschwand, wenn Änderungen an Workflows vorgenommen wurden.
-* Es wurde ein Problem behoben, das beim manuellen Löschen einer Datenschutzanforderung im Campaign nach deren Verarbeitung dazu führte, dass mit der Anforderung verknüpfte Daten auch nach der Bereinigung nicht gelöscht werden konnten.
+* Es wurde ein Problem behoben, das beim manuellen Löschen einer Datenschutzanforderung in Kampagne nach deren Verarbeitung dazu führte, dass mit der Anforderung verknüpfte Daten auch nach der Bereinigung nicht gelöscht werden konnten.
 * Es wurde ein Problem behoben, das beim Anzeigen einer Vorschau oder beim Senden von Nachrichten mit Sonderzeichen aus Adobe Experience Manager auftreten konnte.
 * Es wurde ein Problem behoben, das in Workflows auftreten konnte, wenn eine Aktivität mit mehreren eingehenden Transitionen ausgeführt wurde.
