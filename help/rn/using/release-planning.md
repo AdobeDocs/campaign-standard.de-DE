@@ -1,6 +1,6 @@
 ---
-title: Campaign Standard
-description: Diese Seite Liste die kommenden Versionen von Adobe Campaign Standard.
+title: Campaign Standard – Versionsplanung
+description: Auf dieser Seite werden alle kommenden Versionen von Adobe Campaign Standard aufgelistet.
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
+source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
 
 ---
 
 
-# Freigabeplanung {#release-planning}
+# Versionsplanung {#release-planning}
 
 Adobe aktualisiert laufend seine Lösungen durch neue Funktionen, Verbesserungen und Fehlerkorrekturen.
 
@@ -27,27 +27,27 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Wir empfehlen Ihnen, diese Seite regelmäßig zu besuchen, um nach Updates zu suchen.
 
-Bitte abonnieren Sie den [Erhalt von Versionshinweisen](https://www.adobe.com/subscription/priority-product-update.html) , um Informationen zu den neuesten Adobe Experience Cloud-Versionen direkt in Ihrem Posteingang zu erhalten.
+Abonnieren Sie, um [Benachrichtigungen](https://www.adobe.com/subscription/priority-product-update.html) und Details zu den neuesten Adobe Experience Cloud-Versionen direkt in Ihrem Posteingang zu erhalten.
 
 ## Version 20.2.1 - April {#release-20-2-april-release}
 
-Umgebung werden in Schüben während der unten angegebenen Zeiträume aktualisiert. Ausführliche Informationen zu dieser Version finden Sie in den [Versionshinweisen](../../rn/using/release-notes.md). Wenn Sie weitere Fragen haben, wenden Sie sich bitte an den [Adobe-Kundendienst](https://support.neolane.net/webApp/extranetLogin).
+Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Weitere Informationen über diese Version finden Sie in den [Versionshinweisen](../../rn/using/release-notes.md). Sollten Sie weitere Fragen haben, wenden Sie sich bitte an die [Kundenunterstützung von Adobe](https://support.neolane.net/webApp/extranetLogin).
 
 <table> 
  <thead> 
   <tr> 
    <th> Umgebung<br /> </th> 
-   <th> Datum-Funktionen <br /> </th> 
+   <th> Datumsangaben<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Phase<br /> </td> 
-   <td> March 23 - 24, 2020<br /> </td> 
+   <td> Staging<br /> </td> 
+   <td> 1.-2. April 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produktion<br /> </td> 
-   <td> 31. März - 6. April 2020<br /> </td> 
+   <td> 6.-9. April 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,32 +56,32 @@ Umgebung werden in Schüben während der unten angegebenen Zeiträume aktualisie
 
 ## Fragen und Antworten {#questions-and-answers}
 
-**Q: Wie wirkt sich das aus?**
+**F: Wie wirkt sich das aus?**
 
-A: Die Änderungen sind in den [Versionshinweisen](../../rn/using/release-notes.md)aufgeführt, einschließlich Links zur zugehörigen Dokumentation. Adobe empfiehlt außerdem, die Seite &quot; [Veraltete und entfernte Funktionen&quot;aufzurufen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html). Diese Seiten stehen zum Zeitpunkt des Upgrades auf die Stage Umgebung für die neue Version zur Verfügung.
+A: Die Änderungen sind in den [Versionshinweisen](../../rn/using/release-notes.md) aufgeführt, die auch Links zur zugehörigen Dokumentation enthalten. Adobe empfiehlt außerdem, die Seite [Eingestellte und entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) zu besuchen. Diese Seiten sind für die neue Version zum Zeitpunkt der Aktualisierung der Staging-Umgebung verfügbar.
 
-**Q: Was ist der Validierungsprozess?**
+**F: Was ist der Validierungsprozess?**
 
-A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse zu validieren und Anwendungsfälle mit dieser neuen Version ordnungsgemäß zu bearbeiten und alle Probleme an [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)zu melden.
+A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse und Anwendungsfälle mit dieser neuen Version zu validieren und alle Probleme der [Adobe-Kundenunterstützung](https://support.neolane.net/webApp/extranetLogin) zu melden.
 
-**Q: Gibt es während des Aktualisierungsprozesses Zugriff auf die Instanz?**
+**F: Kann während des Aktualisierungsprozesses auf die Instanz zugegriffen werden?**
 
-A: Anzahl Während der Aktualisierung kann es vorkommen, dass der Zugriff auf die Datenbank innerhalb weniger Minuten nicht möglich ist. Alle Prozesse werden automatisch neu gestartet.
+A: Nein. Während der Aktualisierung der Instanz ist die Datenbank möglicherweise einige Minuten lang nicht verfügbar. Alle Prozesse werden automatisch neu gestartet.
 
-**Q: Werden die Nachrichten weiterhin gesendet?**
+**F: Werden Nachrichten weiterhin gesendet?**
 
-A: Anzahl Nachrichten werden nicht innerhalb weniger Minuten gesendet. Nach Abschluss der Aktualisierung werden Prozesse automatisch neu gestartet.
+A: Nein. Für die Dauer einiger Minuten werden keine Nachrichten gesendet. Sobald die Aktualisierung abgeschlossen ist, werden die Prozesse automatisch neu gestartet.
 
-**Q: Wird die Workflows weiterhin laufen und die Versand senden?**
+**F: Werden Workflows fortgesetzt und Sendungen weiterhin durchgeführt?**
 
-A: Anzahl Während der Buildaktualisierung werden Workflow-Server und MTA beendet. Das bedeutet, dass Workflows nicht ausgeführt werden und Versand nicht innerhalb weniger Minuten gesendet werden. Es sind keine Maßnahmen erforderlich: Workflows wird erneut Beginn, sobald die Instanz aktualisiert wurde.
+A: Nein. Während der Build-Aktualisierung werden Workflow-Server und MTA angehalten. Das bedeutet, dass Workflows nicht ausgeführt und Sendungen für die Dauer einiger Minuten nicht durchgeführt werden. Es ist keine Aktion erforderlich: Die Workflows werden erneut gestartet, sobald die Instanz aktualisiert wurde.
 
-**Q: Funktioniert die Nachverfolgung von Links in Nachrichten während der Aktualisierung weiterhin?**
+**F: Funktionieren Tracking-Links in Nachrichten während der Aktualisierung?**
 
-A: Ja, sie werden funktionieren. Während der Aktualisierung können keine neuen E-Mails gesendet werden, aber Nachverfolgungslinks, die in bereits gesendeten E-Mails enthalten sind, sind funktionsfähig.
+A: Ja. Während der Aktualisierung können keine neuen E-Mails gesendet werden, aber Tracking-Links, die in bereits gesendeten E-Mails enthalten sind, funktionieren.
 
-**Q: Woher weiß ich, dass die Aktualisierung abgeschlossen ist?**
+**F: Woran ist zu erkennen, dass die Aktualisierung abgeschlossen ist?**
 
-A: Beim Anmelden bei Campaign wird ein Popup für die Versionshinweise mit der neuesten Version angezeigt.
+A: Wenn Sie sich bei Campaign anmelden, wird ein Benachrichtigungs-Popup mit der neuesten Version angezeigt.
 
-Wenden Sie sich bei weiteren Fragen an den [Adobe-Kundendienst](https://support.neolane.net/webApp/extranetLogin).
+Wenden Sie sich bei weiteren Fragen an die [Adobe-Kundenunterstützung](https://support.neolane.net/webApp/extranetLogin).
