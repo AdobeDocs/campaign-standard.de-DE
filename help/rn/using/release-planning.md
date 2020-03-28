@@ -43,7 +43,7 @@ Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in 
  <tbody> 
   <tr> 
    <td> Staging<br /> </td> 
-   <td> 1.-2. April 2020<br /> </td> 
+   <td> 31. März - 1. April 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produktion<br /> </td> 
