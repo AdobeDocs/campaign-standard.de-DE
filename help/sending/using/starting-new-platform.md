@@ -12,8 +12,8 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 89965d859986b9176de6b6bf96df1fbbb89b5b8f
+translation-type: tm+mt
+source-git-commit: f83cf866f1c9fa53687e6cee26306d33327bd822
 
 ---
 
@@ -26,12 +26,14 @@ Mit dem Versand von E-Mails von einer neuen Plattform zu beginnen ist ein heikle
 
 Erwarten Sie nicht, dass der Versand gleich zu Beginn der Produktionsphase in der gewünschten Geschwindigkeit durchgeführt werden kann. Sie sollten auch nicht versuchen, Nachrichten in dieser Geschwindigkeit zu versenden, da dies ISPs veranlassen könnte, die Absenderadresse zu blockieren, was die Anfangsphase erheblich beeinträchtigen würde.
 
-Bei der erstmaligen Nutzung einer Plattform ist die anfangs verwendete Adressliste möglicherweise fehlerhaft. Wenn Sie einen Versand an ungültige Adressen oder an eine Spam-Falle (Honeypot) durchführen, schadet dies der Reputation Ihrer Plattform. Sollten Sie bereits über eine Liste ungültiger Adressen verfügen, importieren Sie diese daher vor dem ersten Versand in die Quarantänetabelle (**[!UICONTROL Administration]**>**[!UICONTROL  Kanäle]** > **[!UICONTROL Quarantänen]**>**[!UICONTROL  Adressen]**). Wenn Sie die ungültigen Adressen wieder aktivieren möchten, empfehlen wir, dies erst dann zu tun, wenn die Reputation der Plattform sichergestellt ist, und nur schrittweise, um die Verwendung ungültiger Adressen über einen längeren Zeitraum zu &quot;verwässern&quot;.
+Das Starten einer Plattform erfolgt oft, wenn eine Liste von Adressen zum ersten Mal verwendet wird und die möglicherweise nicht vollständig qualifiziert sind. Wenn Sie an ungültige Adressen oder an Honeypot-Adressen senden, wird dies dazu beitragen, den Ruf der Plattform zu mindern.
+* Wenn Sie eine Liste ungültiger Adressen haben, ist es in Ihrem besten Interesse, diese in die Quarantäne-Tabelle zu importieren (**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** > **[!UICONTROL Addresses]**), bevor Sie sie zum ersten Mal senden. For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+* Wenn Sie dennoch die ungültigen Adressen rekalifizieren möchten, ist es bei weitem besser, dies zu tun, sobald der Ruf der Plattform etabliert ist, und nach und nach, um die Verwendung schlechter Adressen im Laufe der Zeit zu &quot;verwässern&quot;.
 
 Zusammenfassend sollten Sie zu Projektbeginn diese Prinzipien befolgen:
-* **Weisen Sie den über Adobe-Anwendungen versendeten E-Mail-Kampagnen eine spezifische Sub-Domain zu.**
-* **Importieren Sie ungültige/nicht aktive Adressen in die Quarantänetabelle (sofern Sie über solche Informationen verfügen).**
-* **Begrenzen Sie die Durchsatzrate (technische Einstellung: Begrenzung der Anzahl der MTA-Kindprozesse).**
-* **Erhöhen Sie schrittweise das Versandvolumen: Versenden Sie nicht von Anfang an E-Mails an die gesamte Datenbank, sondern fügen Sie mit jedem Versand einen weiteren Teil der Liste hinzu. Dies ermöglicht Ihnen, das Volumen Schritt für Schritt zu erhöhen und gleichzeitig den Anteil an ungültigen Adressen zu verringern.**
-* **Legen Sie einen regelmäßigen Versand fest: Es ist besser, regelmäßig kleine Sendungen vorzunehmen als selten große Kampagnen durchzuführen.**
+* **Delegieren Sie eine dedizierte Subdomäne** an Adobe, die speziell für von Adobe gesendete E-Mail-Kampagnen gilt.
+* **Importieren Sie ungültige/inaktive Adressen in die Tabelle** &quot;Quarantäne&quot;(sofern diese Informationen vorliegen).
+* **Versand-Durchsatzrate** begrenzen (technische Einstellung: Begrenzung der Anzahl der Mtachilds).
+* **Schrittweise Erhöhung der gesendeten** Mengen: Zielgruppe nicht die gesamte Datenbank vom Beginn, sondern fügen Sie bei jedem Senden einen zusätzlichen Bruchteil der Liste hinzu. Dies sollte es Ihnen ermöglichen, das Volumen bei jedem Schritt zu erhöhen und gleichzeitig die Gesamtrate ungültiger Adressen zu reduzieren.
+* **Regelmäßig** Nachrichten senden: In gewissem Maße ist es besser, regelmäßig kleine Schüsse zu senden, anstatt große Kampagnen sporadisch.
 * **Achten Sie genau auf die Versandberichte: Eine hohe Fehlerrate könnte auf eine falsche technische Konfiguration hinweisen.**
