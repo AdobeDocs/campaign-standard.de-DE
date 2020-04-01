@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
+source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 
 ---
 
@@ -158,6 +158,8 @@ Geben Sie für ein externes Google-reCAPTCHA-V3-Konto die folgenden Details an:
 >
 >Informationen, die Sie zur Konfiguration Ihres Externen Kontos in Adobe Campaign Standard benötigen, finden Sie im Azurblauen Portal unter **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
+Der Azurblauch-Datenspeicherung-Connector kann zum Importieren oder Exportieren von Daten in Adobe Campaign mithilfe einer Workflow-Aktivität für **[!UICONTROLTÜbertragungsdateien]** verwendet werden. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+
 Geben Sie für ein Externe Konto zur Datenspeicherung von Microsoft Blue Blob die folgenden Informationen ein:
 
 * A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
@@ -179,7 +181,7 @@ Adobe Campaign verwendet eine gesicherte Verbindung (HTTPS), um auf Ihr Microsof
 
 **Kontoschlüssel**
 
-Bei der Konfiguration des Externen Kontos müssen Sie eines der **[!UICONTROL Account key]** verfügbaren verwenden. Weitere Informationen dazu, wo Sie Ihre Kontoschlüssel finden, finden Sie auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+Bei der Konfiguration des Externen Kontos müssen Sie eines der **[!UICONTROL Account key]** verfügbaren verwenden. For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
 
 **Optimieren der Dateiübertragungsgeschwindigkeit**
 
