@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+translation-type: tm+mt
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -35,10 +35,10 @@ Sie haben die Möglichkeit, bei der Erstellung einer E-Mail oder Landingpage exi
 
 1. Wählen Sie die Quelle des Inhalts aus, den Sie laden möchten:
 
-   * [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates): Wählen Sie den Tab **[!UICONTROL Vorlagen]** aus.
-   * [Neu erstellten Inhalt](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch): Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]** aus.
-   * [Inhalte von Ihrem Computer als ZIP- oder HTML-Datei](#importing-content-from-a-file): Wählen Sie die Schaltfläche **[!UICONTROL Hochladen]** aus.
-   * [Inhalte von einer vorhandenen URL](#importing-content-from-a-url) (nur für E-Mails): Wählen Sie die Schaltfläche **[!UICONTROL Import von URL]** aus.
+   * [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates): Klicken Sie auf die **[!UICONTROL Templates]** Registerkarte.
+   * [Inhalt von Grund auf](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)bis zum Beginn frisch: Klicken Sie auf die **[!UICONTROL Create]** Schaltfläche.
+   * [Inhalte von Ihrem Computer als ZIP- oder HTML-Datei](#importing-content-from-a-file): Klicken Sie auf die **[!UICONTROL Upload]** Schaltfläche.
+   * [Inhalt einer vorhandenen URL](#importing-content-from-a-url) (nur für E-Mails): Klicken Sie auf die **[!UICONTROL Import from URL]** Schaltfläche.
    ![](assets/des_loading_2.png)
 
 1. Laden Sie den Inhalt. Bei der Auswahl eines neuen Inhalts wird der aktuelle Inhalt automatisch ersetzt.
@@ -66,7 +66,7 @@ Wenn Sie bestehenden externen Inhalt in Email Designer bearbeiten möchten, lese
 
 ### Inhalt aus einer Datei importieren {#importing-content-from-a-file}
 
-Wählen Sie auf der Startseite von Email Designer die Schaltfläche **[!UICONTROL Hochladen]** aus, um eine Datei vom Computer hochzuladen, und bestätigen Sie anschließend den Vorgang.
+From the Email Designer home page, click the **[!UICONTROL Upload]** button to upload a file from your computer, then confirm.
 
 Die Struktur des komprimierten Ordners ist freigestellt. Die HTML-Dateien müssen jedoch mit relativen Pfadangaben referenziert werden und die Baumstruktur des komprimierten Ordners respektieren.
 
@@ -97,12 +97,12 @@ Bevor Sie Inhalt aus einer URL importieren, vergewissern Sie sich, dass der Inha
 
 Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 
-1. Wählen Sie auf der Startseite von Email Designer die Schaltfläche **[!UICONTROL Import von URL]** aus.
+1. Klicken Sie in der Startseite &quot;E-Mail-Designer&quot;auf die **[!UICONTROL Import from URL]** Schaltfläche.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. Definieren Sie die URL, von der der Inhalt abgerufen werden soll.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicks **[!UICONTROL Confirm]**.
 
 **Verwandtes Thema:**
 
@@ -114,7 +114,7 @@ Durch den Import von Inhalten von einer URL während der Nachrichtenvorbereitung
 
 Um Inhalte in der Vorbereitungsphase abzurufen, gehen Sie wie folgt vor:
 
-1. Wählen Sie die Option **[!UICONTROL Während der Vorbereitung importierter Inhalt]** aus.
+1. Select the **[!UICONTROL Content imported during preparation]** option.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -124,18 +124,18 @@ Um Inhalte in der Vorbereitungsphase abzurufen, gehen Sie wie folgt vor:
    >
    >Bei diesem Schritt sollte die HTML-Anzeige im Inhaltseditor nicht berücksichtigt werden. Sie wird in der Vorbereitungsphase abgerufen.
 
-1. Um den abgerufenen URL-Inhalt in der Vorschau zu betrachten, öffnen Sie die Nachricht nach deren Erstellung und wählen Sie dann die Schaltfläche **[!UICONTROL Vorschau]** aus.
+1. To preview the URL content that has been retrieved, open the message once it is created then click the **[!UICONTROL Preview]** button.
 
 Die Remote URL, von der der Inhalt abgerufen wird, kann personalisiert werden. Gehen Sie dazu wie folgt vor:
 
-1. Wählen Sie am oberen Bildschirmrand den Titel der E-Mail aus, um in Email Designer den Tab **[!UICONTROL Eigenschaften]** zu öffnen.
-1. Gehen Sie zum Feld **[!UICONTROL Remote URL]**.
+1. Click the email label on top of the screen to acces the Email Designer **[!UICONTROL Properties]** tab.
+1. Find the **[!UICONTROL Remote URL]** field.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Fügen Sie das Personalisierungsfeld, den Inhaltsbaustein oder den dynamischen Text ein.
 
-   Beispielsweise können Sie im Inhaltsbaustein **[!UICONTROL Aktuelles Datum – TTMMJJJJ]** das Datum eingeben.
+   The **[!UICONTROL Current date - YYYYMMDD]** content block, for example, enables you to insert the date of the day.
 
    >[!NOTE]
    >
@@ -166,11 +166,11 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 * [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTML-Inhalt konvertieren   {#converting-an-html-content}
+## Konvertieren von HTML-Inhalten {#converting-an-html-content}
 
-Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, die Sie in Ihren E-Mails wiederverwenden und kombinieren können, empfiehlt es sich, Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen zu konvertieren.
+Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, um sie in künftigen E-Mails wiederzuverwenden und zu kombinieren, sollten Sie Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen konvertieren.
 
-In diesem Anwendungsbeispiel erfahren Sie, wie Sie eine HTML-E-Mail rasch in Email Designer-Komponenten konvertieren können.
+In diesem Anwendungsfall wird eine schnelle Konvertierung von HTML-E-Mails in E-Mail-Designer-Komponenten Angebot.
 
 >[!CAUTION]
 >
