@@ -12,15 +12,17 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+translation-type: tm+mt
+source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
 
 ---
 
 
 # Fehlerbehebung{#troubleshooting}
 
-Haben Sie ein Problem mit der Zustellbarkeit? Möglicherweise finden Sie hier eine Lösung.
+Haben Sie ein Problem mit der Lieferbarkeit? Die Lösung finden Sie hier.
+
+## Gleiche Fehlermeldung für einen ISP {#same-error-for-an-isp}
 
 **Warum erhalte ich bei einem bestimmten ISP immer dieselbe Fehlermeldung?**
 
@@ -31,35 +33,40 @@ Wenn Sie bei einem ISP immer dieselbe Fehlermeldung erhalten, hat der ISP mögli
 
 Wenn das Problem fortbesteht, kontaktieren Sie den Zustellbarkeitsservice oder die entsprechende Geschäftsabteilung oder den Support von Adobe Campaign.
 
-**Was ist der Unterschied zwischen einer auf eine Blacklist gesetzten E-Mail-Adresse und einer unter Quarantäne gestellten E-Mail-Adresse?**
+## Blacklisting versus Quarantäne {#blacklisting-versus-quarantine}
 
-Der Status **[!UICONTROL Auf Blacklist]** ist das Ergebnis eines Feedback-Loops (wenn ein Empfänger eine E-Mail als Spam meldet).
+* **Was ist der Unterschied zwischen einer auf eine Blacklist gesetzten E-Mail-Adresse und einer unter Quarantäne gestellten E-Mail-Adresse?**
 
-Der Status **[!UICONTROL In Quarantäne]** ist das Ergebnis eines Soft- oder Hardbounce.
+   * The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
 
-**Was bedeuten die unterschiedlichen Gründe für Quarantäne-Fehler?**
+   * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce. For more on this, see this [section](../../sending/using/understanding-quarantine-management.md).
 
-Es gibt zehn Gründe: Unbestimmt, Unbekannter Nutzer, Ungültige Domain, Adresse auf der Blacklist, Zurückgewiesen, Fehler ignoriert, Unerreichbar, Konto deaktiviert, Postfach voll, Nicht angemeldet.
+* **Was bedeuten die unterschiedlichen Gründe für Quarantäne-Fehler?**
 
-Weitere Informationen hierzu finden Sie unter [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md).
+   Es gibt zehn Gründe: Unbestimmt, Unbekannter Nutzer, Ungültige Domain, Adresse auf der Blacklist, Zurückgewiesen, Fehler ignoriert, Unerreichbar, Konto deaktiviert, Postfach voll, Nicht angemeldet.
 
-**Einer meiner Empfänger wurde irrtümlich auf die Blacklist gesetzt. Wie lässt er sich daraus streichen, sodass ich ihm wieder Nachrichten senden kann?**
+   Weitere Informationen hierzu finden Sie unter [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md).
 
-* Gehen Sie zu **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]**.
-* Setzen Sie in den Details des entsprechenden Datensatzes den Wert des **[!UICONTROL Status]**-Feldes auf **[!UICONTROL Gültig]**.
-* Speichern Sie die Daten.
+## Nicht schwarze Liste {#unblacklisting}
 
-**Wie kann ich feststellen, ob eine meiner IP-Adressen auf einer Blacklist steht? Wie kann ich meine IP-Adresse wieder aus der Blacklist entfernen?**
+* **Einer meiner Empfänger wurde irrtümlich auf die Blacklist gesetzt. Wie lässt er sich daraus streichen, sodass ich ihm wieder Nachrichten senden kann?**
 
-Sie können auf den folgenden Webseiten überprüfen, ob Ihre IP-Adresse auf einer Blacklist steht:
-* https://mxtoolbox.com/
-* https://whatismyipaddress.com/blacklist-check
-* https://www.blacklistalert.org/
+   * Go to **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+   * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
+   * Speichern Sie die Daten.
 
-Nach der IP-Adressen-Prüfung erhalten Sie eine Liste mit Details zur Blacklist und auch den Namen der Webseite, von der die IP-Adresse auf die Blacklist gesetzt wurde.
+* **Wie kann ich feststellen, ob eine meiner IP-Adressen auf einer Blacklist steht? Wie kann ich meine IP-Adresse wieder aus der Blacklist entfernen?**
 
-Durch Anklicken des Links können Sie die Details der Webseite aufrufen.
+   Sie können auf den folgenden Webseiten überprüfen, ob Ihre IP-Adresse auf einer Blacklist steht:
+   * https://mxtoolbox.com/
+   * https://whatismyipaddress.com/blacklist-check
+   * https://www.blacklistalert.org/
+   Nach der IP-Adressen-Prüfung erhalten Sie eine Liste mit Details zur Blacklist und auch den Namen der Webseite, von der die IP-Adresse auf die Blacklist gesetzt wurde.
 
-Dann können Sie diese Webseite ersuchen, Ihre Webseite von der Blacklist zu löschen.
+   Durch Klicken auf den entsprechenden Link können Sie auf die Website-Details zugreifen.
 
-Dieser Prozess ist je nach Webseite unterschiedlich. Auf manchen Webseiten müssen Sie ein Konto erstellen, während andere nur die Angabe der IP-Adresse verlangen.
+   Dann können Sie diese Webseite ersuchen, Ihre Webseite von der Blacklist zu löschen.
+
+   >[!NOTE]
+   >
+   >Dieser Prozess ist je nach Webseite unterschiedlich. Auf manchen Webseiten müssen Sie ein Konto erstellen, während andere nur die Angabe der IP-Adresse verlangen.
