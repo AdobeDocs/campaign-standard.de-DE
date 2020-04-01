@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -26,7 +26,7 @@ Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 * Import einer Profilliste von einer Datei über einen [Workflow](../../automating/using/importing-data.md#example--import-workflow-template)
 * Datenerhebung online über [Landingpages](../../channels/using/getting-started-with-landing-pages.md)
 * Im Bulk-Modus über die [REST-API](../../api/using/about-campaign-standard-apis.md)
-* Synchronisieren von Profilen in [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* Synchronisieren von Profilen in [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * Direkte Dateneingabe über die Benutzeroberfläche, wie unten beschrieben
 
 Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzeroberfläche erstellen können. Gehen Sie dazu folgendermaßen vor:
@@ -35,7 +35,7 @@ Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzerobe
 
    ![](assets/profile_creation_1.png)
 
-1. Wählen Sie dann **[!UICONTROL Erstellen aus]**.
+1. Klicken Sie dann auf **[!UICONTROL Create]**.
 
    ![](assets/profile_creation.png)
 
@@ -44,14 +44,14 @@ Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzerobe
    ![](assets/profile_creation1.png)
 
    * Die Kontaktinformationen, darunter Vorname, Nachname, Geschlecht, Geburtsdatum, Foto oder bevorzugte Sprache (für [mehrsprachige E-Mails](../../channels/using/creating-a-multilingual-email.md)), ermöglichen eine stärkere Personalisierung von Nachrichten.
-   * Die Angabe zur **[!UICONTROL Zeitzone]**wird verwendet, um den Versand auf die Zeitzone des Profils abzustimmen. Weiterführende Informationen hierzu finden Sie in diesem[Abschnitt](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * In der Kategorie **[!UICONTROL Kanäle]**sind die E-Mail-Adresse, Mobiltelefonnummer und Opt-out-Informationen aufgeführt. Hierüber können Sie feststellen, über welche Kanäle Sie das Profil ansprechen können.
-   * Die Informationen in der Kategorie **[!UICONTROL Nicht mehr kontaktieren]**werden aktualisiert, sobald sich das Profil von einem Kanal abmeldet.
-   * In der Kategorie **[!UICONTROL Adresse]**wird die Anschrift festgehalten. Diese muss ausgefüllt und die Option**[!UICONTROL  Anschrift angegeben]** aktiviert sein, wenn [Briefpost](../../channels/using/about-direct-mail.md) an dieses Profil versendet werden soll. Ist die Option **[!UICONTROL Anschrift angegeben]**nicht aktiviert, wird dieses Profil vom Briefpostversand ausgeschlossen.
-   * In der Kategorie **[!UICONTROL Zugriffsberechtigung]**sind die Organisationseinheiten des Profils festgehalten (zur[Verwaltung von Berechtigungen](../../administration/using/about-access-management.md)). Siehe auch[Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
-   * In der Kategorie **[!UICONTROL Rückverfolgung]**werden automatisch Informationen zu dem Benutzer aktualisiert, der das Profil erstellt oder geändert hat.
+   * The profile&#39;s **[!UICONTROL Time zone]** is used to send deliveries at the profile&#39;s time zone. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * The **[!UICONTROL Channels]** category, which contains the email address, mobile phone number, opt-out information, lets you know on which channel the profile is reachable.
+   * The **[!UICONTROL No longer contact]** category is updated as soon as the profile unsubscribe to a channel.
+   * The **[!UICONTROL Address]** category contains the postal address that needs to be filled along with the **[!UICONTROL Address specified]** option to send [direct mail](../../channels/using/about-direct-mail.md) to this profile. If the **[!UICONTROL Address specified]** option is not checked, this profile will be excluded from every direct mail delivery.
+   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units (to [manage permissions](../../administration/using/about-access-management.md)). Siehe auch [Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
+   * The **[!UICONTROL Traceability]** category automatically updates with information concerning the user who created or modified the profile.
 
-1. Speichern Sie das Profil mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
+1. Click **[!UICONTROL Create]** to save the profile.
 
 Das Profil wurde der Liste hinzugefügt.
 
