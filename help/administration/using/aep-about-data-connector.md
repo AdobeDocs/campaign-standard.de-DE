@@ -11,8 +11,8 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
+translation-type: tm+mt
+source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
 
 ---
 
@@ -46,11 +46,7 @@ Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campa
 
 * Vordefiniertes Mapping ist nur für Felder verfügbar, die standardmäßig in Campaign Standard bereitgestellt werden. Für die Erfassung aller benutzerdefinierten Felder und Ressourcen muss jeder Kunde sein eigenes Mapping definieren.
 
-* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. Dieser Wert kann nicht geändert werden.
-
-   >[!NOTE]
-   >
-   >Diese Dauer kann mit [Adobe Experience Platform-APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md) geändert werden.
+* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. This value can be modified using [Adobe Experience Platform APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
 * Der Dateningenieur kann das Mapping von Campaign zu Adobe Experience Platform veröffentlichen, ändern und anhalten.
 
@@ -61,6 +57,14 @@ Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campa
 * Alle Änderungen am Adobe Campaign Standard- oder XDM-Schema müssen manuell neu abgebildet werden.&#x200B;
 
 * Trackinglog- und Broadlog-Daten werden automatisch als Erlebnisereignisse in Adobe Experience Platform erfasst. Diese Erfassung wird in Echtzeit an Adobe Experience Platform gestreamt.
+
+* Der Experience Cloud ID-Dienst (ECID) ist eine Gerätekennung, die standardmäßig mit Experience Ereignisses gesendet wird.
+
+   Es handelt sich dabei um eine eindeutige und beständige ID, die einem Besucher zugewiesen ist und vom Plattformidentitätsdienst verwendet werden kann, um denselben Besucher und seine Daten in verschiedenen Experience Cloud-Lösungen zu identifizieren. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+
+   >[!NOTE]
+   >
+   >Beachten Sie, dass bei zwei oder mehr Profilen mit demselben Gerät die ECID für diese beiden Profil im Unified Identity-Dienst identisch ist.
 
 ## Einschränkungen {#limitations}
 
