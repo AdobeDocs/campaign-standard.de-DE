@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -78,9 +78,9 @@ Folgende Regeln sind in der Standardkonfiguration vorgesehen:
 
 ### Bounce Messages {#bounce-mails}
 
-Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück. Weitere Informationen zum erweiterten MTA von Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück. Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-Asynchrone Absprünge werden weiterhin durch das Campaign inMail-Prozess durch die **[!UICONTROL Bounce mails]** Regel qualifiziert.
+Asynchrone Absprünge werden weiterhin durch die Kampagne inMail-Prozess durch die **[!UICONTROL Bounce mails]** Regel qualifiziert.
 
 >[!IMPORTANT]
 >
@@ -107,7 +107,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 **Die Signierung der DKIM-E-Mail-Authentifizierung (DomainKeys Identified Mail)** erfolgt durch die erweiterte MTA für alle Nachrichten mit allen Domänen. Es wird nicht mit **Sender-ID**, **DomainKeys** oder **S/MIME** signiert, es sei denn, auf der Ebene der erweiterten MTA wird etwas Anderes angegeben.
 
-Weitere Informationen zum erweiterten MTA von Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### MX management {#mx-management}
 
@@ -121,9 +121,9 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 >
 >Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-Der erweiterte MTA verwendet seine eigenen MX-Regeln, die es ihm ermöglichen, Ihren Durchsatz nach Domain auf der Grundlage Ihrer eigenen historischen E-Mail-Reputation und des Echtzeit-Feedbacks aus den Domains, in denen Sie E-Mails versenden, anzupassen.
+Der Enhanced MTA verwendet seine eigenen MX-Regeln. Mit diesen kann Ihr Durchsatz anhand Ihrer historischen E-Mail-Reputation und dem Echtzeit-Feedback, das von den Domänen stammt, von denen Sie E-Mails senden, angepasst werden.
 
-Weitere Informationen zum erweiterten MTA von Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 <!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -251,7 +251,7 @@ Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar
 
    >[!IMPORTANT]
    >
-   >Die Erstellung der Mirrorseite setzt voraus, dass für die E-Mail ein HTML-Inhalt bestimmt worden ist.
+   >HTML-Inhalt muss für die E-Mail definiert sein, damit die Mirrorseite erstellt werden kann.
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (Standardmodus): wird die Mirrorseite generiert, wenn der Link in den E-Mail-Inhalt eingefügt wird.
    * **Mirrorseitenerzeugung forcieren**: Erstellt eine Mirrorseite, selbst wenn im Versandinhalt kein entsprechender Link enthalten ist.
