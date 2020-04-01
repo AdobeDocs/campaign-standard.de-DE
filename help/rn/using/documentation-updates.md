@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -25,6 +25,17 @@ Auf dieser Seite finden Sie eine nach Version geordnete Übersicht neuer Funktio
 
 Lesen Sie auch die Adobe Campaign-[Versionshinweise](../../rn/using/release-notes.md).
 
+## Aktualisierungen der Dokumentation - April 2020 {#doc-updates-april-2020}
+
+Die Integration von Microsoft Dynamics 365 in die Dokumentation von Adobe Campaign Standard wurde in die Kerndokumentation des Handbuchs Integration mit anderen Lösungen integriert. [mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Zusätzliche Ressourcen wurden zur Startseite der Dokumentation hinzugefügt. [mehr dazu](../../campaign-standard-home.md)
+
+Informationen zum Experience CLoud ID-Dienst (ECID) wurden der Adobe Experience Platform Data Connector-Dokumentation hinzugefügt. [mehr dazu](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+Der Abschnitt &quot;Konfigurieren von Transaktionsnachrichten&quot;wurde um Informationen zum Zugriff auf die neuesten transaktionalen Ereignis und aktualisierten Screenshots erweitert. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
+
 ## Version 20.2 - März 2020     {#release-20-2---march-2020}
 
 **Neue Funktionen in der Version**
@@ -33,7 +44,7 @@ Azurblauch-Integration - [Mehr dazu](../../administration/using/external-account
 
 E-Mail-Tests mit zielgerichteten Profilen - [Weitere Informationen](../../sending/using/testing-messages-using-target.md)
 
-**Weitere Aktualisierungen der Dokumentation zu dieser Version**
+**Weitere Dokumentationsaktualisierungen zu dieser Version**
 
 Einschränkungen beim Rendering von In-App-Nachrichten wurden hinzugefügt. [mehr dazu](../../channels/using/customizing-an-in-app-message.md)
 
@@ -45,7 +56,7 @@ Dem Administratorhandbuch wurde ein neuer Abschnitt mit Konfigurationsrichtlinie
 
 Es steht jetzt ein neuer Abschnitt zum Löschen einer Ereignis-Konfiguration zur Verfügung. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-Die Seite, auf der beschrieben wird, wie Sie die Betreffzeile einer E-Mail testen, um die offene Rate vorherzusagen, wurde aktualisiert und verbessert, einschließlich eines neuen Abschnitts [zur Fehlerbehebung](../../sending/using/testing-subject-line-email.md#troubleshooting) . [mehr dazu](../../sending/using/testing-subject-line-email.md#troubleshooting)
+Die Seite, auf der beschrieben wird, wie Sie die Betreffzeile einer E-Mail testen, um die offene Rate vorherzusagen, wurde aktualisiert und verbessert, einschließlich eines neuen Abschnitts [zur Fehlerbehebung](../../sending/using/testing-subject-line-email.md#troubleshooting) . [mehr dazu](../../sending/using/testing-subject-line-email.md)
 
 Die Abschnitte &quot;Transaktionsnachrichten&quot;wurden aktualisiert, um den leichten Aktualisierungen und Verbesserungen der Benutzeroberfläche Rechnung zu tragen. [mehr dazu](../../channels/using/about-transactional-messaging.md)
 
@@ -147,7 +158,7 @@ Der API-Dokumentation wurde der neue API-Endpunkt **/customResources** hinzugef�
 
 California Consumer Privacy Act (CCPA) – [mehr dazu](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Microsoft Dynamics 365-Integration (GA) – [mehr dazu](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Microsoft Dynamics 365-Integration (GA) – [mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
@@ -211,7 +222,7 @@ Bericht zu Workflow-Segmenten – [mehr dazu](../../reporting/using/creating-a-r
 
 Das Implementierungshandbuch für Campaign Standard ist jetzt online –[mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Zur Implementierung und Nutzung des Microsoft Dynamics 365-Connectors wurden neue Hilfeartikel erstellt – Beachten Sie, dass diese Funktion derzeit nur eingeschränkt verfügbar ist.[mehr dazu](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Zur Implementierung und Nutzung des Microsoft Dynamics 365-Connectors wurden neue Hilfeartikel erstellt – Beachten Sie, dass diese Funktion derzeit nur eingeschränkt verfügbar ist.[mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Im Abschnitt [Workflow mit Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md) wurde ein Hinweis zur Versandvorbereitung und zum Aggregat-Zeitraum hinzugefügt.
 
