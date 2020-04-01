@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 ---
 
@@ -21,9 +21,11 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 [Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+[Klicken Sie hier](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) , um Versionshinweise zu abonnieren und Details zu den neuesten Adobe Experience Cloud-Versionen direkt in Ihrem Posteingang zu erhalten.
+
 ## Version 20.2 - März 2020     {#release-20-2---march-2020}
 
-**Neue Funktionen**
+**Neue Funktionen?**
 
 <table> 
  <thead> 
@@ -49,7 +51,7 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
  <tbody> 
   <tr> 
    <td> <p>Zusätzlich zu den Profilen können Sie Ihre E-Mails jetzt auch auf echten zielgerichteten Profilen testen. Dadurch können Sie eine genaue Darstellung der Nachricht erhalten, die das Profil erhalten wird: benutzerdefinierte Felder, dynamische und personalisierte Informationen, einschließlich zusätzlicher Daten aus Workflows usw. </p>
-    <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">tutorial video</a>. </p>
+    <p>Weiterführende Informationen finden Sie in der <a href="../../sending/using/testing-messages-using-target.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">Tutorial-Video</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +61,7 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 >
 >Im April werden in der Systemsteuerung der Kampagne neue Funktionen veröffentlicht, einschließlich Google TXT-Datensatzverwaltung, Datenbankraumüberwachung und E-Mail-Benachrichtigung. Weitere Informationen zu diesen Funktionen finden Sie in der Versionshinweise zur [Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-**Verbesserungen**
+**Neuheiten**
 
 * Die Benutzerfreundlichkeit von Nachrichten für Transaktionsnachrichten wurde verbessert und die Konsistenz der Oberfläche wurde verbessert. [mehr dazu](../../channels/using/about-transactional-messaging.md)
 * Mit Campaign Standard können Sie jetzt Testversand mit zusätzlichen Daten aus Workflows an Test-Profil senden.
