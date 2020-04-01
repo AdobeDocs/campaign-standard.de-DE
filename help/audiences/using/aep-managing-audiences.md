@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Adobe Experience Platform-Zielgruppen
+title: Adobe Experience Platform-Audiences verwalten
 description: Erfahren Sie, wie Sie Adobe Experience Platform in Campaign Standard verwalten.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,38 +13,38 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
 
-# Verwalten von Adobe Experience Platform-Zielgruppen {#about-audiences}
+# Adobe Experience Platform-Audiences verwalten {#about-audiences}
 
 >[!IMPORTANT]
 >
->Der Zielgruppen-Zieldienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azurblau gehostet werden (derzeit nur in der Beta-Version für Nordamerika), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an den Adobe-Kundendienst, wenn Sie Zugriff haben möchten.
+>Der Audience Destination Service befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-## Zugriff auf Zielgruppen der Adobe Experience Platform
+## Zugriff auf Adobe Experience Platform-Audiencen
 
-Um auf den Segmentaufbau für die Adobe Experience Platform zuzugreifen, navigieren Sie zur **[!UICONTROL Zielgruppen]**-Karte auf der Homepage von Campaign Standard (oder zum Link**[!UICONTROL  Zielgruppen]** in der Kopfzeile) und wählen Sie dann die Umgebung für die **[!UICONTROL Adobe Experience Platform]**aus.
+Um auf den Segmentaufbau für die Adobe Experience Platform zuzugreifen, navigieren Sie zur **[!UICONTROL Audiences]** Karte auf der Startseite des Campaign Standards (oder zum **[!UICONTROL Audiences]** Link in der Kopfzeile) und wählen Sie dann die **[!UICONTROL Adobe Experience Platform]** Umgebung aus.
 
 ![](assets/aep_audiences_access.png)
 
-Sie werden zunächst zur Segmentlistenseite von Adobe Experience Platform weitergeleitet, auf der bereits vorhandene Segmente von Adobe Experience Platform zur weiteren Bearbeitung aufgerufen werden können.
+Sie werden zunächst zur Segmentseite der Adobe Experience Platform weitergeleitet, auf der bereits vorhandene Adobe Experience Platform-Listen zur weiteren Bearbeitung aufgerufen werden können.
 
-Es stehen eine Suchleiste und ein Filter zur Verfügung, mit denen Sie das gewünschte Segment für die Adobe Experience Platform finden können.
+Es stehen eine Suchleiste und ein Filter zur Verfügung, die Ihnen bei der Suche nach dem gewünschten Segment für die Adobe Experience Platform helfen.
 
 ![](assets/aep_audiences_list.png)
 
-## Erstellen von Adobe Experience Platform-Zielgruppen
+## Erstellen von Adobe Experience Platform-Audiencen
 
-Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe direkt in Campaign Standard zu erstellen:
+Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience direkt in Campaign Standard zu erstellen:
 
-1. Klicken Sie auf der Segmentlistenseite von Adobe Experience Platform auf die Schaltfläche **[!UICONTROL Neue Zielgruppe]**in der rechten Ecke.
+1. Klicken Sie auf der Seite &quot;Liste der Segmente für Adobe Experience Platform&quot;auf die **[!UICONTROL New audience]** Schaltfläche in der rechten Ecke.
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, die letztendlich zur Erstellung Ihrer Zielgruppe verwendet werden.
+1. Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, die letztendlich zur Erstellung Ihrer Audience verwendet werden.
 
 1. Benennen Sie das Segment im rechten Bereich und geben Sie eine Beschreibung ein (optional).
 
@@ -52,22 +52,22 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe direkt in 
 
 1. Um ein Segment erfolgreich zu erstellen, müssen Sie eine **Zusammenführungsrichtlinie** auswählen, die Ihrem Marketingzweck für dieses Segment entspricht.
 
-   Im Einstellungsbereich ist eine Plattform-Standardrichtlinie für die Zusammenführung ausgewählt. Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt im [Segment Builder-Benutzerhandbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+   Im Einstellungsbereich ist eine Plattform-Standardrichtlinie für die Zusammenführung ausgewählt. Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
-1. Definieren Sie die Regeln, die die Profile identifizieren, die in Ihrer Zielgruppe abgerufen werden sollen.
+1. Definieren Sie die Regeln, die die Profil identifizieren, die in Ihrer Audience abgerufen werden sollen.
 
-   Ziehen Sie dazu die gewünschten Attribute und/oder Ereignisse aus dem linken Bereich in den Arbeitsbereich, definieren Sie die entsprechenden Regeln und klicken Sie dann auf die Schaltfläche Segment ****erstellen, um das Segment zu speichern (siehe[Verwenden des einheitlichen Segmentaufbaus](../../audiences/using/aep-using-segment-builder.md)).
+   Ziehen Sie dazu die gewünschten Attribute und/oder Ereignis aus dem linken Bereich in den Arbeitsbereich, definieren Sie die entsprechenden Regeln und klicken Sie dann auf die **[!UICONTROL Create segment]** Schaltfläche zum Speichern des Segments (siehe [Verwenden des Segmentaufbaus](../../audiences/using/aep-using-segment-builder.md)).
 
    ![](assets/aep_audiences_creation_query.png)
 
-Die Zielgruppe kann jetzt aktiviert werden. Sie können sie als Ziel für Ihre Kampagnen verwenden (siehe [Targeting von Adobe Experience Platform-Zielgruppen](../../automating/using/aep-targeting-audiences.md)).
+Die Audience kann jetzt aktiviert werden. Sie können sie als Zielgruppe für Ihre Kampagnen verwenden (siehe [Targeting von Adobe Experience Platform-Audiencen](../../automating/using/aep-targeting-audiences.md)).
 
 ## Audiences ändern
 
-Um eine Zielgruppe zu bearbeiten, öffnen Sie sie und ändern Sie die Regeln nach Bedarf in der Benutzeroberfläche des einheitlichen Segmentaufbaus (siehe [Verwenden des einheitlichen Segmentaufbaus](../../audiences/using/aep-using-segment-builder.md)).
+Um eine Audience zu bearbeiten, öffnen Sie sie und ändern Sie die Regeln nach Bedarf in der Benutzeroberfläche des einheitlichen Segmentaufbaus (siehe [Verwenden des einheitlichen Segmentaufbaus](../../audiences/using/aep-using-segment-builder.md)).
 
-Klicken Sie nach Abschluss der Änderungen auf die Schaltfläche Segment **[!UICONTROL speichern]**, um Ihre Zielgruppe zu aktualisieren.
+Klicken Sie nach Abschluss der Änderungen auf die **[!UICONTROL Save segment]** Schaltfläche, um Ihre Audience zu aktualisieren.
 
 ![](assets/aep_audiences_editing.png)
