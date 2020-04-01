@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 >
 >Der Audience Destinations-Dienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Mit dem einheitlichen Segmentaufbau können Sie Audiencen erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Unified Profil Service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)basieren.
+Mit dem einheitlichen Segmentaufbau können Sie Audiencen erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Unified Profil Service](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)basieren.
 
-In diesem Abschnitt werden globale Konzepte beim Erstellen eines Segments vorgestellt. Detaillierte Informationen zum Einheitlichen Segmentaufbau selbst finden Sie im [Segment Builder-Benutzerhandbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+In diesem Abschnitt werden globale Konzepte beim Erstellen eines Segments vorgestellt. Detaillierte Informationen zum Einheitlichen Segmentaufbau selbst finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 Die Benutzeroberfläche des einheitlichen Segmentaufbaus besteht wie folgt:
 
@@ -48,7 +48,7 @@ Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt we
 
 1. Vergewissern Sie sich, dass die gewünschte Richtlinie für die Zusammenführung im Einstellungsbereich ausgewählt ist.
 
-   Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt im [Segment Builder-Benutzerhandbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+   Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -82,7 +82,7 @@ Die Felder sind in Registerkarten unterteilt:
 >
 >**Mit der Segmentierung** mehrerer Entitäten können Sie Profil-Daten um zusätzliche Daten erweitern, die auf Produktklassen, Stores oder anderen Nicht-Profil-Klassen basieren. Sobald eine Verbindung besteht, stehen Daten aus zusätzlichen Klassen zur Verfügung, als wären sie nativ für das Profil-Schema.
 >
->Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
+>Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
 Standardmäßig zeigt der Unified Segment Builder Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema einschließlich der Felder anzuzeigen, für die keine Daten vorhanden sind, aktivieren Sie die **[!UICONTROL Show full XDM schema]** Option in den Einstellungen.
 
@@ -96,7 +96,7 @@ Das Symbol am Ende jedes Felds enthält weitere Informationen zum Attribut und d
 
 >[!NOTE]
 >
->Im folgenden Abschnitt finden Sie globale Informationen zur Regeldefinition. Weitere Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+>Im folgenden Abschnitt finden Sie globale Informationen zur Regeldefinition. Weitere Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
@@ -104,7 +104,7 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
 1. Ziehen Sie das Feld in den mittleren Arbeitsbereich und konfigurieren Sie es dann entsprechend der gewünschten Segmentdefinition. Dazu stehen mehrere Funktionen für Zeichenfolge und Datum/Uhrzeit zur Verfügung.
 
-   Im folgenden Beispiel werden alle Profil mit Geschlecht, die &quot;Männlich&quot;entsprechen, mit der Regel Zielgruppe.
+   Im folgenden Beispiel werden alle Profil mit einem Geschlecht, das &quot;Männlich&quot;entspricht, mit der Regel Zielgruppe.
 
    ![](assets/aep_audiences_malegender.png)
 
@@ -114,7 +114,7 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
    ![](assets/aep_audiences_samplepreview.png)
 
-   Sie können beliebig viele zusätzliche Regeln hinzufügen, um die richtigen Profil Zielgruppe.
+   Sie können beliebig viele weitere Regeln hinzufügen, um die richtigen Profil Zielgruppe.
 
    Wenn Sie einem Container eine Regel hinzufügen, wird sie mit dem logischen UND-Operator an alle vorhandenen Regeln angehängt. Klicken Sie bei Bedarf auf den logischen Operator, um ihn zu ändern.
 
