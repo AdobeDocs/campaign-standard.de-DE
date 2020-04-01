@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 ---
 
@@ -59,19 +59,13 @@ source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 </tr>
 </table>
 
-
 ## Zusätzliche Ressourcen
 
-* [Versionshinweise](rn/using/release-notes.md)
-
-* [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-
-* [Anleitungsvideos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
-* [Handbuch zur Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
-* [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-
-* [Technotes](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
-
-* [Implementierungshandbuch zu Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+| Nützliche Seiten | Ressourcen für Entwickler |
+|---|---|
+| [Versionshinweise](rn/using/release-notes.md) | [Implementierungshandbuch](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [Dokumentation zur Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API-Dokumentation](api/using/about-campaign-standard-apis.md) |
+| [Anleitungsvideos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Liste von Fehlermeldungen](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Handbuch zur Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standard-Datenmodell](developing/using/datamodel-introduction.md) |
+| [Eingestellte und entfernte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Campaign-Integrationen](integrating/using/about-campaign-integrations.md) |
+| [Erste Schritte mit Campaign Standard](start/using/campaign-orchestration.md) | [Technotes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
