@@ -11,8 +11,8 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+translation-type: tm+mt
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -33,7 +33,7 @@ Der XDM-Arbeitsbereich bietet die Möglichkeit, Datenschemata anzuzeigen, zu ers
 
 Um auf die XDM-Benutzeroberfläche zuzugreifen, öffnen Sie Adobe Experience Platform. Navigieren Sie zum Fenster „Datenmodell“, um ein XDM-Schema zu erstellen oder zu erweitern.
 
-Lesen Sie die vollständige [Dokumentation zum XDM-Arbeitsbereich](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/xdm_system/xdm_system_in_experience_platform.md).
+Lesen Sie die vollständige [Dokumentation zum XDM-Arbeitsbereich](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ Sie können die folgenden Aktionen über die XDM-Schema-API ausführen:
 * Schema-Deskriptoren anzeigen
 * Schema-Deskriptoren erstellen, aktualisieren und löschen
 
-Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
