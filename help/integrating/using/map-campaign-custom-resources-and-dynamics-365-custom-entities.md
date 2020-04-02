@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ Der Kunde verfügt über ein in Dynamics 365 vordefiniertes benutzerdefiniertes 
 
 Die benutzerdefinierten Entitäten in Dynamics 365 können Sie im Dashboard Sales durch Klicken auf die Dropdown-Liste neben Dynamics 365 anzeigen.  Die benutzerdefinierten Entitäten dieses Kunden werden gruppiert unter **[!UICONTROL Extensions]**.
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 Fahrzeugdaten können durch Klicken auf die **[!UICONTROL vehicle]** benutzerdefinierte Entität angezeigt werden.  Siehe Liste der Fahrzeuge unten.
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 Die Beziehung der **[!UICONTROL vehicle]** Entität zur **[!UICONTROL Contact]** Entität ist nachfolgend dargestellt. **[!UICONTROL Parental]** wurde für die **[!UICONTROL Type of Behavior]** ausgewählt.
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Konfiguration im Campaign Standard
 
 In Kampagne können die benutzerdefinierten Ressourcen angezeigt werden, indem Sie **[!UICONTROL Adobe Campaign]** in der oberen linken Ecke auf klicken und dann **[!UICONTROL Client data]** auswählen.
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### Benutzerdefinierte Ressourcen und benutzerdefinierte Entitäten zuordnen
 
@@ -82,14 +82,14 @@ Die **[!UICONTROL vehicle]** benutzerdefinierte Ressource hätte zuvor vom Kunde
 
 Klicken Sie auf **[!UICONTROL Adobe Campaign]** in der oberen linken Ecke und dann auf **[!UICONTROL Administration > Development > Custom Resources]**.
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. Klicken Sie auf **[!UICONTROL Custom Resources]**.
 1. Click the **[!UICONTROL Create]** button.  Dadurch wird ein Popup-Fenster geöffnet.
 1. Wählen Sie **[!UICONTROL Create a new resource]** und geben Sie **[!UICONTROL Vehicle]** als Beschriftung und ID ein.
 1. Klicks **[!UICONTROL Create]**.
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 Kampagne zeigt dann Datenstrukturen und Linkseiten an.  Sie können sehen, dass mehrere Felder hinzugefügt wurden.
 
@@ -97,23 +97,23 @@ Kampagne zeigt dann Datenstrukturen und Linkseiten an.  Sie können sehen, dass 
 * Assoziiertes Profil ist die ID des Profils, mit dem der Fahrzeugdatensatz verknüpft ist. Wenn dieser Link verknüpft ist, wird er mit dem **[!UICONTROL externalId]** Feld der Tabelle &quot;Profil&quot;verknüpft.
 * VIN- und Fahrzeugname sind Felder zur Erfassung von Informationen über das Fahrzeug.
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >Jede benutzerdefinierte Ressource muss ein eindeutiges Feld mit der ID externalId (genau) haben.  Dieses Feld wird dem ID-Feld der benutzerdefinierten Ressource in Dynamics 365 zugeordnet (siehe unten).
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### Definieren der Identifizierungsschlüssel
 
 Der nächste Schritt besteht darin, die Identifizierungsschlüssel zu definieren.  Erstellen Sie zunächst die Identifizierungsschlüssel, wie unten dargestellt.
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 Wählen Sie im Bildschirm &quot;Schlüsseldefinition&quot;das **[!UICONTROL externalId]** Feld aus.
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ Klicken Sie **[!UICONTROL Filter Definition]** unter **[!UICONTROL Add an elemen
 Geben Sie der Beschriftung und der ID den Namen **[!UICONTROL ExternalId]**ein.
 Klicks **[!UICONTROL Add]**.
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 Klicken Sie jetzt auf Bearbeiten für das neu hinzugefügte Filterelement und konfigurieren Sie den Filter für das unten stehende Bild.  Wenn Sie **[!UICONTROL externalId]** in das **[!UICONTROL Parameters]** Feld eingeben und auf das Pluszeichen klicken, wird **[!UICONTROL externalId_parameter]** angezeigt.  Wählen Sie dies als Parameter aus.
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### Link definieren
 
@@ -143,13 +143,13 @@ Als Nächstes geben wir die Verknüpfung der benutzerdefinierten Ressource an.  
 1. Wählen Sie **[!UICONTROL Join Definitions]** in **[!UICONTROL Define specific join conditions]**.
 1. Klicken Sie dann auf **[!UICONTROL Add an element]**.
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 Für die gemeinsame Definition geben wir die folgenden Werte ein.
 
 Beachten Sie, dass der **[!UICONTROL @externalId]** Eintrag das Feld externalId der Tabelle Profil und der **[!UICONTROL ProfileExternalId]** Eintrag die ID des entsprechenden Felds in der benutzerspezifischen Ressource Vehikel ist.  Wenn der Wert externalId eines Profil-Datensatzes in das **[!UICONTROL ProfileExternalId]** Feld eines Fahrzeugdatensatzes eingegeben wird, werden die beiden Datensätze miteinander verknüpft.
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 Bestätigen Sie die Änderungen und speichern Sie die benutzerdefinierte Entität.
 
@@ -161,21 +161,21 @@ Der letzte Schritt besteht darin, die benutzerdefinierte Ressource zu veröffent
 1. Die Standardoption beibehalten: **[!UICONTROL Determine modifications since the last publication]**.
 1. Klicken Sie auf **[!UICONTROL Prepare Publication]** und warten Sie, bis der Vorgang abgeschlossen ist.
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 Klicken Sie dann auf **[!UICONTROL Publish]** und warten Sie, bis der Vorgang abgeschlossen ist.
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### Einführungszeitplan
 
 Wenn der Kunde die Fahrzeugbenutzereinheit bereits in Dynamics 365 ausgefüllt hat und Unifi ihre eigenen Fahrzeugstandortaufträge und -pläne eingerichtet hat, sollte der Kunde in der Lage sein, den Einstiegsplan für die Fahrzeugeinheit zu starten.
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 Nach Abschluss des Eingabefelds können die Fahrzeugdaten nun in der neu ausgefüllten **[!UICONTROL Vehicle]** benutzerdefinierten Ressource in der Kampagne angezeigt werden.
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **Verwandte Themen**
 
