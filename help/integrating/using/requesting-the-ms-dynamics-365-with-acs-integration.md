@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -34,17 +34,16 @@ Flussdiagrammdetails (Maps zu den oben genannten Schritten):
 1. Lesen Sie diesen Artikel, überprüfen Sie Hinweise und Konfigurationsschritte.
 
 1. Senden Sie eine Kontoanforderung an adobe-support@unifisoftware.com. Unifi benötigt beim Anfordern eines Kontos die folgenden Informationen:
-* Vorname des Benutzers
-* Nachname des Benutzers
-* Benutzer-E-Mail
-* Name der Firma
-* Region (Nordamerika, EMEA oder APAC)
-* Nutzungstyp:  &quot;Kundentyp&quot;(Kundenbenutzer, die ihre Produktionsdaten in dieser Integration verwenden) oder &quot;Partnertyp&quot;(Partnerberater, die die Integration testen, um ein besseres Verständnis zu erhalten, damit sie ihren Kunden bei der Kampagne helfen können) oder &quot;Interner Typ&quot;(interne Adobe-Benutzer, die die Integration testen, um ein besseres Verständnis der Lösung zu erhalten)
-* Datenstatus des Campaign Standards (beginnend mit einer sauberen Datenbank oder mit der Integration vorhandener Daten)
-* Kampagne Tenant ID (siehe Integrationsabschnitt für Kampagne konfigurieren, Schritt 3 zum Abrufen Ihrer Mandant-ID)
-* URL der Kampagne-Instanz
-
-Erwartungsfreie Ansprechzeit: 1 Stunde während der regulären Geschäftszeiten in den USA (9:00 bis 17:00 Uhr Pacific Time, Mo - Fr, ohne Urlaub).
+   * Vorname des Benutzers
+   * Nachname des Benutzers
+   * Benutzer-E-Mail
+   * Name der Firma
+   * Region (Nordamerika, EMEA oder APAC)
+   * Nutzungstyp:  &quot;Kundentyp&quot;(Kundenbenutzer, die ihre Produktionsdaten in dieser Integration verwenden) oder &quot;Partnertyp&quot;(Partnerberater, die die Integration testen, um ein besseres Verständnis zu erhalten, damit sie ihren Kunden bei der Kampagne helfen können) oder &quot;Interner Typ&quot;(interne Adobe-Benutzer, die die Integration testen, um ein besseres Verständnis der Lösung zu erhalten)
+   * Datenstatus des Campaign Standards (beginnend mit einer sauberen Datenbank oder mit der Integration vorhandener Daten)
+   * Kampagne Tenant ID (siehe Integrationsabschnitt für Kampagne konfigurieren, Schritt 3 zum Abrufen Ihrer Mandant-ID)
+   * URL der Kampagne-Instanz
+   Erwartungsfreie Ansprechzeit: 1 Stunde während der regulären Geschäftszeiten in den USA (9:00 bis 17:00 Uhr Pacific Time, Mo - Fr, ohne Urlaub).
 
 1. Führen Sie die Nachbereitungsschritte für Microsoft Dynamics 365 und für den Campaign Standard durch.
 Senden Sie außerdem ein Ticket an den Adobe-Kundendienst (entweder direkt oder über Ihren Adobe-Kontakt), um das Flag für die Single-Sign-On-Funktion in Ihrer Kampagne-Instanz aktivieren zu lassen. Partner sollten sich an ihre Adobe-Partner-Sandbox wenden und sich stattdessen an den Adobe-Kundendienst wenden, um das Feature-Flag zu aktivieren.
