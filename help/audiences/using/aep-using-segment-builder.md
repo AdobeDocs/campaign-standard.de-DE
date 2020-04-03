@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -66,7 +66,7 @@ Der einheitliche Segmentaufbau sollte jetzt in Ihrer Arbeitsfläche angezeigt we
 
 Im linken Bereich werden alle Attribute, Ereignis und Audiencen Liste, die zum Erstellen von Regeln zur Verfügung stehen.
 
-Die aufgeführten Felder sind Attribute, die von Ihrer Firma erfasst werden und über das [Erlebnisdatenmodell (XDM) zur Verfügung gestellt wurden](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+Die aufgeführten Felder sind Attribute, die von Ihrer Firma erfasst werden und über das [Erlebnisdatenmodell (XDM) zur Verfügung gestellt wurden](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
 Die Felder sind in Registerkarten unterteilt:
 
@@ -114,7 +114,7 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
    ![](assets/aep_audiences_samplepreview.png)
 
-   Sie können beliebig viele weitere Regeln hinzufügen, um die richtigen Profil Zielgruppe.
+   Sie können beliebig viele zusätzliche Regeln hinzufügen, um die richtigen Profil Zielgruppe.
 
    Wenn Sie einem Container eine Regel hinzufügen, wird sie mit dem logischen UND-Operator an alle vorhandenen Regeln angehängt. Klicken Sie bei Bedarf auf den logischen Operator, um ihn zu ändern.
 
@@ -128,7 +128,7 @@ Mit dem einheitlichen Segmentaufbau können Sie zwei Felder vergleichen, um eine
 
 Gehen Sie dazu wie folgt vor:
 
-1. Ziehen Sie das erste Feld, das Sie vergleichen möchten (z. B. die Postleitzahl der Hausadresse) in den Arbeitsbereich der Mitte.
+1. Ziehen Sie das erste Feld, das Sie vergleichen möchten (z. B. die Postleitzahl der Hausadresse), in den Arbeitsbereich der Mitte.
 
    ![](assets/aep_audiences_comparing_1.png)
 
