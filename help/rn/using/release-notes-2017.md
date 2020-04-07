@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
+source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
 
 ---
 
@@ -39,7 +39,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> Ermüdungsverwaltung<br /> </td> 
-   <td> Mit der Ermüdungsverwaltung können Sie Ermüdungsregeln erstellen, um zu verhindern, dass Profile zu oft angesprochen werden. Ermüdungsregeln können einfach erstellt werden und sind dabei extrem flexibel durch Funktionen wie die kanalübergreifende Zählung von Nachrichten (einschließlich Transaktionsnachrichten), die Zählung von bestimmten Sendungen oder die Anwendung von Regeln auf bestimmte Profile.<br /> Lesen Sie für weiterführende Informationen das <a href="../../administration/using/fatigue-rules.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Mit der Ermüdungsverwaltung können Sie Ermüdungsregeln erstellen, um zu verhindern, dass Profile zu oft angesprochen werden. Ermüdungsregeln können einfach erstellt werden und sind dabei extrem flexibel durch Funktionen wie die kanalübergreifende Zählung von Nachrichten (einschließlich Transaktionsnachrichten), die Zählung von bestimmten Sendungen oder die Anwendung von Regeln auf bestimmte Profile.<br /> Lesen Sie für weiterführende Informationen das <a href="../../sending/using/fatigue-rules.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Inhaltserstellung: Import aus einer URL<br /> </td> 
