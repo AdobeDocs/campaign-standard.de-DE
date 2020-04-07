@@ -12,14 +12,20 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
 
 ---
 
 
 # Über Profile und Audiences{#about-profiles-and-audiences}
 
+## Segmentierung und Targeting
+
 Bei der Erstellung von Kampagnen oder Nachrichten kann die Versandzielgruppe aus in der Campaign-Datenbank vorhandenen Kontakten nach einfachen oder erweiterten Kriterien oder durch die Auswahl von Audiences zusammengestellt werden.
+
+Mit integrierten Kundenprofilen und benutzerdefinierten Segmenten können Sie Kunden auf allen Ihren Kanälen effektiver identifizieren. Wenn Sie Ihre Kunden, deren Interessen, demografische Daten und Kanalpräferenzen kennen, ist es einfacher, personalisierte, ansprechende Erlebnisse zu erstellen.
+
+![](assets/do-not-localize/audiences.png)
 
 In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch Sie relevante und personalisierte Angebote entsprechend den Präferenzen Ihrer Kunden versenden können. Zusätzlich verfügt Adobe Campaign zur Definition von Audiences über erweiterte Funktionen zur Analyse, Datenverwaltung und Zielgruppenbestimmung.
 
@@ -31,24 +37,26 @@ In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch 
 
    Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences entsprechend den verfügbaren Informationen, dem Verhalten und dem Marketingverlauf Ihrer Kontakte, um Ihre Marketingkampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern, Probe-Audiences oder auf einer unbegrenzten Anzahl an Kriterien basierende Zielgruppen erstellen.
 
+## Genehmigung
+
 Bevor Sie mit dem Senden von Nachrichten an einen Kontakt beginnen, müssen Sie sicherstellen, dass Sie dessen Erlaubnis erhalten. Andernfalls könnten Ihre E-Mails als Spam gekennzeichnet werden, was Ihre Plattform-Zustellbarkeit beeinträchtigt. Um eine funktionierende Profildatenbank aufzubauen, ist es daher wichtig, sich diese Zustimmung im Vorfeld zu sichern. Wir empfehlen in Campaign einfache Anmelde- und Abmeldemöglichkeiten über [Dienste](../../audiences/using/creating-a-service.md) und [Landingpages](../../channels/using/getting-started-with-landing-pages.md) zu verwenden, um Ihre Kontaktinformationen zu aktualisieren und Ihre Datenbank zu erweitern.
 
 Durch die Bereitstellung von Abmelde-Links in Ihren Nachrichten können Profile bei Bedarf auf die Blacklist gesetzt werden, was die Zustellbarkeit Ihrer Plattform verbessert. Weiterführende Informationen zum Blacklisting erfahren Sie im Abschnitt [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Mit integrierten Kundenprofilen und benutzerdefinierten Segmenten können Sie Kunden auf allen Ihren Kanälen effektiver identifizieren. Wenn Sie Ihre Kunden, deren Interessen, demografische Daten und Kanalpräferenzen kennen, ist es einfacher, personalisierte, ansprechende Erlebnisse zu erstellen.
-
 >[!CAUTION]
 >
->Beachten Sie dabei aber stets [die Nutzungsbedingungen von Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>Sie müssen die [Adobe Campaign-Nutzungsrichtlinie](https://www.adobe.com/de/legal/terms/aup.html)beachten.
 
-Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe-Campaign-Kunden, die Daten von Personen erfassen, die in der EU wohnhaft sind. Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können.
+## Datenschutzbestimmungen
 
-In diesem [Handbuch](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) erfahren Sie mehr zu den Tools und Funktionen von Adobe Campaign, die Ihnen helfen, die DSGVO gesetzeskonform umzusetzen.
+Adobe Campaign Angebot eine Reihe von Tools, die Ihnen bei der Einhaltung Ihrer Datenschutzbestimmungen für GDPR, CCPA und andere Datenschutzgesetze helfen. Erfahren Sie mehr in diesem [Artikel](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html) über Datenschutzverwaltung und die Funktionen, die wir zur Verwaltung von Zugriffsrechten, Zugriffsrechten, Einwilligung, Datenspeicherung und Benutzerrollen bereitstellen. Darüber hinaus finden Sie Best Practices, die Ihnen bei der Einhaltung Ihrer Datenschutzbestimmungen helfen, wenn Sie unseren Service nutzen.
 
-**Verwandte Themen:**
+## Verwandte Themen
 
-* [Audiences erstellen](../../audiences/using/creating-audiences.md)
-* [Profile erstellen](../../audiences/using/creating-profiles.md)
-* [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md)
-* [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
+| Nützliche Seiten | Zusätzliche Ressourcen |
+|---|---|
+| [Audiences erstellen](../../audiences/using/creating-audiences.md) | [Arbeiten mit dem Audience Destination-Dienst](../../audiences/using/aep-about-audience-destinations-service.md) |
+| [Profile erstellen](../../audiences/using/creating-profiles.md) | [Arbeiten mit Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) |
+| [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md) | [Adobe Shared Audiencen](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) |
+| [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) | [Verwenden von Workflows zum Importieren von Profilen](../../automating/using/importing-data.md) |
+| [Datenschutzmanagement (GDPR, CCPA)](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html) | [Erstellen von Profilen und Audiencen (Video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html) |
