@@ -12,32 +12,38 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
+source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
 
 ---
 
 
 # Über den Versand mit Campaign{#about-sending-messages-with-campaign}
 
-Nachdem Sie die Zielgruppe definiert und den Inhalt einer Nachricht erstellt haben, müssen Sie sie testen und genehmigen, bevor Sie die Nachricht an die Hauptnachricht senden können. Gehen Sie wie folgt vor:
+Nachdem Sie die Zielgruppe definiert und den Inhalt einer Nachricht erstellt haben, müssen Sie Inhalte, Personalisierung, Wiedergabe und Konfiguration testen und genehmigen und sicherstellen, dass alles korrekt ist, bevor Sie die Nachricht an die Hauptversion senden.
 
-* Sehen Sie sich Ihren Versand unter Verwendung eines Testprofils in der Vorschau an.
-* Terminieren Sie den Versand: Legen Sie fest, wann die Nachricht gesendet werden soll.
-* Bereiten Sie den Versand vor: In diesem Schritt werden die zu sendenden Nachrichten analysiert und vorbereitet. Bei der Nachrichtenvorbereitung wird die Zielgruppe, die Personalisierung und die Gültigkeit der Nachricht analysiert. Fehler, die bei diesem Schritt erkannt werden, müssen vor dem weiteren Vorgehen korrigiert werden. Sie können die Nachrichtenvorbereitung beliebig oft starten.
+Zu diesem Zweck werden folgende Best Practices angewendet:
+
+* Bereiten Sie den Versand vor: In diesem Schritt werden die zu sendenden Nachrichten analysiert und vorbereitet. Bei der Nachrichtenvorbereitung wird die Zielgruppe, die Personalisierung und die Gültigkeit der Nachricht analysiert. Fehler, die bei diesem Schritt erkannt werden, müssen vor dem weiteren Vorgehen korrigiert werden. Sie können die Nachrichtenvorbereitung beliebig oft starten. For more on message preparation, refer to [this section](../../sending/using/preparing-the-send.md).
 
    >[!NOTE]
    >
-   >Sie können globale, kanalübergreifende Ermüdungsregeln festlegen, mit denen Profile, die bereits zu oft angesprochen wurden, automatisch von Kampagnen ausgeschlossen werden. Näheres dazu finden Sie unter [Ermüdungsregeln](../../administration/using/fatigue-rules.md).
+   >Sie können globale, kanalübergreifende Ermüdungsregeln festlegen, mit denen Profile, die bereits zu oft angesprochen wurden, automatisch von Kampagnen ausgeschlossen werden. Näheres dazu finden Sie unter [Ermüdungsregeln](../../sending/using/fatigue-rules.md).
 
-* Testversand: Starten Sie einen Testversand, um Ihre Nachrichtenkonfiguration zu überprüfen.
-* Prüfen Sie die Darstellung Ihrer Sendungen: Stellen Sie sicher, dass Ihre Nachricht in unterschiedlichen Webclients, Webmails und Geräten optimal dargestellt wird (dringend empfohlen).
-* Senden Sie die Nachricht: Wenn die Nachricht sendebereit ist, können Sie den Versand starten. Öffnen Sie Protokolle und Berichte, um die Zustellung Ihrer Nachricht zu verfolgen und die Wirkung Ihrer Kampagne zu messen. Adobe Campaign verfügt auch über ein E-Mail-Warnsystem, über das Sie von erfolgreichen und fehlgeschlagenen Sendungen informiert werden.
+* Meldungen zur Vorschau mithilfe eines Test-Profils. For more on previewing messages, refer to [this section](../../sending/using/previewing-messages.md).
+* Senden Sie Testversand zum Testen von Nachrichten. For more on proofs, refer to [this  section](../../sending/using/sending-proofs.md).
+* Prüfen Sie die Meldungswiedergabe: Stellen Sie sicher, dass Ihre Nachricht auf verschiedenen Web-Clients, Web-E-Mails und Geräten optimal angezeigt wird. Learn more about Email rendering in [this section](../../sending/using/email-rendering.md).
 
-**Verwandte Themen**:
+Anschließend können Sie:
 
-* [Über die Planung von Sendungen](../../sending/using/about-scheduling-messages.md)
-* [Versandvorbereitung](../../sending/using/preparing-the-send.md)
-* [Testversand durchführen](../../sending/using/sending-proofs.md)
-* [E-Mail-Rendering](../../sending/using/email-rendering.md)
-* [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Zustellbarkeit optimieren](../../sending/using/about-deliverability.md)
+* Planen Sie den Versand: Sie können festlegen, wann Nachrichten gesendet werden. Sie können beispielsweise das Senden an die Zeitzone des Empfängers anpassen, die Sendezeit optimieren oder das Versanddatum berechnen. Learn more in [this section](../../sending/using/about-scheduling-messages.md).
+* Senden Sie die Nachricht: Wenn die Nachricht sendebereit ist, können Sie den Versand starten. Öffnen Sie Protokolle und Berichte, um die Zustellung Ihrer Nachricht zu verfolgen und die Wirkung Ihrer Kampagne zu messen. Adobe Campaign verfügt auch über ein E-Mail-Warnsystem, über das Sie von erfolgreichen und fehlgeschlagenen Sendungen informiert werden. Weitere Informationen finden Sie auf [dieser Seite](../../sending/using/confirming-the-send.md).
+
+## Verwandte Themen
+
+| Nützliche Seiten | Zusätzliche Ressourcen |
+|---|---|
+| [Zustellbarkeit optimieren](../../sending/using/about-deliverability.md) | [Ermüdungsverwaltung](../../sending/using/fatigue-rules.md) |
+| [Sendungen beobachten](../../audiences/using/creating-profiles.md) | [Entwerfen von E-Mails zum A/B-Test](../../channels/using/designing-an-a-b-test-email.md) |
+| [Empfang einer Benachrichtigung bei einem Fehler](../../sending/using/receiving-alerts-when-failures-happen.md) | [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md) |
+| [Kontrollgruppe erstellen](../../automating/using/workflow-control-group.md) | [Empfang einer Benachrichtigung bei einem Fehler](../../sending/using/receiving-alerts-when-failures-happen.md) |
+| [Steuern des Durchsatzes von Versänden](../../reporting/using/delivery-throughput.md) | [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md) |
