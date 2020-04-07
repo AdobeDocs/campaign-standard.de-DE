@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 Sie können mit Adobe Campaign personalisierte und zielgruppenspezifische Push-Benachrichtigungen an iOS- und Android-Mobilgeräte versenden.
 
-Diese Meldungen werden in mobilen Anwendungen empfangen, die Sie in Adobe Campaign mithilfe des Experience Platform SDK eingerichtet haben. For more information on this, refer to [Configuring a mobile application using Adobe Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Diese Meldungen werden in Mobilanwendungen empfangen, die Sie in Adobe Campaign mithilfe des Experience Platform SDK eingerichtet haben. For more information on this, refer to [Configuring a mobile application using Adobe Experience Platform SDKs](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
 
 In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
@@ -42,7 +42,7 @@ In Adobe Campaign sind zwei Arten von Push-Benachrichtigungen verfügbar:
 
 Mithilfe bestimmter Konfigurationen kann das Verhalten von Benachrichtigungen gesteuert werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/customizing-a-push-notification.md).
 
-Erfahrene Benutzer, die diese Konfigurationen definieren möchten, finden weiterführende Informationen in den [Technotes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) zu Mobile Apps.
+Erfahrene Benutzer, die diese Konfigurationen definieren möchten, finden weiterführende Informationen in den [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) zu Mobile Apps.
 
 >[!NOTE]
 >
@@ -53,28 +53,25 @@ Erfahrene Benutzer, die diese Konfigurationen definieren möchten, finden weiter
 * [Push-Benachrichtigung vorbereiten und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Mehrsprachige Push-Benachrichtigungen erstellen](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Bericht zu Push-Benachrichtigungen](../../reporting/using/push-notification-report.md)
-* [Handbuch zu Campaign Standard Mobile](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Handbuch zu Campaign Standard Mobile](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)
 
 ## Voraussetzungen {#prerequisites}
 
 >[!NOTE]
 >Um die Funktion für Push-Benachrichtigungen in Campaign zu nutzen, benötigen Sie ein gültiges Push-Zertifikat im PEM-Format ohne Passwörter. Wenn Sie über ein gültiges p12-Zertifikat verfügen, können Sie es mithilfe von Online-Ressourcen einfach in eine PEM-Datei konvertieren.
 
-Um zunächst Beginn beim Senden von Push-Benachrichtigungen zu unterstützen, müssen Sie Ihre Mobilanwendung mit Experience Platform SDKs konfigurieren. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
-
 Vor dem Versand Ihrer Push-Benachrichtigungen sollten Sie auf Folgendes achten:
 
-1. Stellen Sie sicher, dass Sie auf den **[!UICONTROL Mobile app]**-Kanal in Adobe Campaign zugreifen können.
-1. Konfigurieren Sie Ihre Mobile App:
+1. Sie benötigen in Adobe Campaign Zugriff auf den **[!UICONTROL Push notification]**-Kanal. Wenn Sie keinen Zugriff auf diesen Kanal haben, kontaktieren Sie das für Ihr Konto zuständige Team.
 
-   * Adobe Campaign
-   * in der Adobe-Mobile-Services-Benutzeroberfläche
+1. Vergewissern Sie sich, dass Ihr Benutzer über die erforderlichen Berechtigungen in Adobe Campaign Standard und Experience Platform Launch verfügt.
 
-1. Richten Sie die Mobile App ein:
+1. Erstellen Sie in Experience Platform Launch eine mobile Eigenschaft. Weitere Informationen finden Sie unter [Einrichten einer mobilen Eigenschaft](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-   * Verpacken Sie die von der Adobe-Mobile-Services-Benutzeroberfläche heruntergeladene Konfigurationsdatei mit der Mobile App.
-   * Integrieren Sie das Experience Cloud Mobile SDK in Ihre Mobile App.
+1. Installieren Sie die **[!UICONTROL Adobe Campaign Standard]** Erweiterung in Experience Platform Launch.
 
-1. Definieren Sie die Daten, die Sie über die Abonnenten Ihrer App abrufen möchten. Die Abonnenten der Mobile App, deren Profil in der Datenbank von Adobe Campaign gespeichert ist, werden entsprechend den von Ihnen definierten Kriterien abgeglichen.
+1. Konfigurieren Sie in Adobe Campaign Standard die mobile Eigenschaft, die Sie in Experience Platform Launch erstellt haben. Weitere Informationen finden Sie unter [Einrichten der Experience Platform Launch-Anwendung in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
 
-Nach der Konfiguration Ihrer Mobile App können Sie damit beginnen, Ihre In-App-Nachrichten vorzubereiten und zu versenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Push-Benachrichtigung vorbereiten und senden](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Hinzufügen Sie die Kanal-spezifische Konfiguration für Ihre Mobilanwendung einrichten. Weitere Informationen finden Sie unter Anwendungskonfiguration für [Kanal in Adobe Campaign](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+
+1. Informationen zur Unterstützung von Fallimplementierungen für Mobilgeräte finden Sie in den ausführlichen Anweisungen zu Erweiterungen, Experience Platform Launch-Regeln und der SDK-Implementierung in [Mobile-Anwendungsfällen, die in Adobe Campaign Standard mithilfe der Adobe Experience Platform SDKs](https://helpx.adobe.com/de/campaign/kb/configure-launch-rules-acs-use-cases.html)unterstützt werden.
