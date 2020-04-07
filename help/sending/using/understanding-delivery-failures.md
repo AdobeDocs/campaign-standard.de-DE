@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ---
 
@@ -25,7 +25,7 @@ Wenn einem Profil eine Nachricht nicht zugestellt werden kann, sendet der Remote
 
 >[!NOTE]
 >
->**E-Mail**-Fehlermeldungen (auch &quot;Bounces&quot; genannt) werden vom inMail-Prozess qualifiziert. **SMS**-Fehlermeldungen (auch &quot;SR&quot; für &quot;Status Report&quot; genannt) werden vom MTA-Prozess qualifiziert.
+>**E-Mail** -Fehlermeldungen (oder &quot;Absprünge&quot;) werden durch das erweiterte MTA (synchrone Absprünge) oder den InMail-Prozess (asynchrone Absprünge) qualifiziert. **SMS**-Fehlermeldungen (auch &quot;SR&quot; für &quot;Status Report&quot; genannt) werden vom MTA-Prozess qualifiziert.
 
 Mitteilungen können während der Versandvorbereitung auch ausgeschlossen werden, wenn eine Adresse unter Quarantäne gestellt oder ein Profil auf die Blacklist gesetzt wurde. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -80,9 +80,21 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
-Gehen Sie zur Änderung der Versandlaufzeit in die erweiterten Eigenschaften des Versands oder seiner Vorlage und geben Sie im entsprechenden Feld die gewünschte Dauer ein. Weiterführende Informationen zu den erweiterten Versandeigenschaften finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Nach der Aktualisierung auf das [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html)werden die Einstellungen der **Weitere Zustellversuche** in der Kampagne ignoriert. Die Anzahl der weitere Zustellversuche (wie viele weitere Zustellversuche am Tag nach dem Start des Versands ausgeführt werden sollten) und die minimale Verzögerung zwischen den weiteren Zustellversuchen werden durch die erweiterte MTA verwaltet, basierend darauf, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft.
 
-Standardmäßig sind innerhalb der ersten 24 Stunden fünf Versuche im Abstand von mindestens einer Stunde vorgesehen, an den vier folgenden Tagen je ein Versuch. Die Anzahl weiterer Versuche kann global geändert werden (kontaktieren Sie Ihren technischen Administrator von Adobe) oder für jeden Versand oder jede Versandvorlage (siehe [diesen Abschnitt](../../administration/using/configuring-email-channel.md#sending-parameters)).
+Um die Dauer eines Versands zu ändern, gehen Sie zu den erweiterten Parametern des Versands oder der Versandvorlage und bearbeiten Sie das **[!UICONTROL Delivery duration]** Feld des Abschnitts &quot; [Gültigkeitsdauer](../../administration/using/configuring-email-channel.md#validity-period-parameters) &quot;.
+
+>[!IMPORTANT]
+>
+>Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
+
+Wenn Sie z. B. möchten, dass weitere Zustellversuche für einen Versand nach einem Tag anhalten, können Sie die Dauer des Versands auf **1d** festlegen. Die erweiterte MTA berücksichtigt diese Einstellung, indem Sie Meldungen nach einem Tag in der Warteschlange wiederholen.
+
+>[!NOTE]
+>
+>Sobald sich eine Nachricht 3,5 Tage lang in der Warteschlange der erweiterten MTA befindet und die Bereitstellung fehlgeschlagen ist, wird sie beendet und ihr Status wird von **[!UICONTROL Sent]** in **[!UICONTROL Failed]** den [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs)aktualisiert.
+
+<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Synchrone und asynchrone Fehler  {#synchronous-and-asynchronous-errors}
 
@@ -103,7 +115,7 @@ This list is available to administrators only and contains all the rules used by
 >
 >Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
-Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück. Weitere Informationen zum erweiterten MTA von Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück. Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html).
 
 Asynchrone Absprünge sind nach wie vor durch den InMail-Prozess durch die **[!UICONTROL Inbound email]** Regeln qualifiziert. Um auf diese Regeln zuzugreifen, klicken Sie auf das **[!UICONTROL Adobe Campaign]** Logo oben links, wählen Sie dann aus **[!UICONTROL Administration > Channels > Email > Email processing rules]** und wählen Sie **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
