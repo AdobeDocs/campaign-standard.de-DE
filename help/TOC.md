@@ -1,10 +1,10 @@
 ---
 product: adobe campaign
-sub-product: adobe campaign standard
+sub-product: Adobe Campaign Standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Technische Empfehlungen](sending/using/technical-recommendations.md)
       + [Überwachen der Zustellbarkeit](sending/using/monitor-deliverability.md)
       + [Problembehebung](sending/using/troubleshooting.md)
+   + Arbeiten mit Typologieregeln {#working-with-typology-rules}
+      + [Typologien und Typologieregeln](sending/using/about-typology-rules.md)
+      + [Typologien verwalten](sending/using/managing-typologies.md)
+      + [Verwalten von Typologieregeln](sending/using/managing-typology-rules.md)
+      + [Filterregeln](sending/using/filtering-rules.md)
+      + [Ermüdungsregeln](sending/using/fatigue-rules.md)
+      + [Kontrollregeln](sending/using/control-rules.md)
 + Reporting {#reporting}
    + Über Reporting {#about-reporting}
       + [Über dynamische Berichte](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Trigger testen](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
    + Kampagne und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Adobe IO für Microsoft Dynamics 365-Integration konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Arbeiten mit Campaign Standard und Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Mitteilungen und Empfehlungen](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Anfordern und Konfigurieren von Microsoft Dynamics 365 mit Campaign Standard-Integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Verwenden von Microsoft Dynamics 365 mit Campaign Standard-Integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Adobe IO für Microsoft Dynamics 365-Integration konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Microsoft Dynamics 365 für die Integration von Kampagnen konfigurieren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Unifi für Microsoft Dynamics 365-Integration konfigurieren](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Benutzerdefinierte Ressourcen und benutzerdefinierte Dynamics 365-Entitäten für die Kampagne zuordnen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [SMS-Kanal konfigurieren](administration/using/configuring-sms-channel.md)
       + [Mobile App konfigurieren](administration/using/configuring-a-mobile-application.md)
       + [Transaktionsnachrichten konfigurieren](administration/using/configuring-transactional-messaging.md)
-   + Arbeiten mit Typologieregeln {#working-with-typology-rules}
-      + [Über Typologieregeln](administration/using/about-typology-rules.md)
-      + [Filterregeln](administration/using/filtering-rules.md)
-      + [Ermüdungsregeln](administration/using/fatigue-rules.md)
-      + [Kontrollregeln](administration/using/control-rules.md)
    + Anwendungskonfiguration {#application-settings}
       + [Über Campaign Standard-Einstellungen](administration/using/about-campaign-standard-settings.md)
       + [Externe Konten](administration/using/external-accounts.md)
