@@ -11,8 +11,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+translation-type: tm+mt
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -65,6 +65,6 @@ Um Ermüdungsregeln zu implementieren, müssen Sie eine Höchstzahl von Nachrich
 
 **Verwandte Themen:**
 
-* Hier erfahren Sie anhand mehrerer Beispiele, wie Sie [Ermüdungsregeln erstellen](../../administration/using/fatigue-rules.md#examples).
-* Hier erfahren Sie, wie Sie [Typologieregeln erstellen](../../administration/using/about-typology-rules.md).
-* Mithilfe von [Filterregeln](../../administration/using/filtering-rules.md) können Sie die Audience Ihrer Nachrichten eingrenzen.
+* Hier erfahren Sie anhand mehrerer Beispiele, wie Sie [Ermüdungsregeln erstellen](../../sending/using/fatigue-rules.md#examples).
+* Hier erfahren Sie, wie Sie [Typologieregeln erstellen](../../sending/using/about-typology-rules.md).
+* Mithilfe von [Filterregeln](../../sending/using/filtering-rules.md) können Sie die Audience Ihrer Nachrichten eingrenzen.
