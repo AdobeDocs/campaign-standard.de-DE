@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ## Parameter für den E-Mail-Kanal {#email-channel-parameters}
 
-Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal definieren.
+Im Anzeigebereich &quot;E-Mail-Konfiguration&quot;können Sie die Parameter für den E-Mail-Kanal definieren. Administrators can access these configurations in the **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**menu.
 
 ![](assets/channels_1.png)
 
@@ -38,23 +38,29 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
    Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts. The **[!UICONTROL Message delivery duration]** field allows you to specify the duration during which the messages can be sent.
 
+   >[!IMPORTANT]
+   >
+   >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Message delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
+
    The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 
 * **Weitere Zustellversuche**
 
-   Nachrichten, die vorläufig nicht zugestellt werden können, werden automatisch für einen erneuten Versuch vorgesehen. Geben Sie in diesem Bereich an, wie viele weitere Zustellversuche am ersten Tag nach dem Versandstart unternommen werden sollen (**Anzahl weiterer Versuche**), sowie die minimale Zeitspanne zwischen zwei Versuchen (**Versuchsintervall**).
+   Nachrichten, die vorläufig nicht zugestellt werden können, werden automatisch für einen erneuten Versuch vorgesehen. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-   Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im Abstand von mindestens einer Stunde vorgesehen. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.
+   >[!IMPORTANT]
+   >
+   >Nach der Aktualisierung auf das [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html)werden die Einstellungen der **Weitere Zustellversuche** in der Kampagne ignoriert. Die **[!UICONTROL Number of retries]** (Anzahl der weitere Zustellversuche, die am Tag nach dem Start des Versands ausgeführt werden sollen) und die **[!UICONTROL Retry period]** (minimale Verzögerung zwischen weiteren Zustellversuchen) werden von der erweiterten MTA verwaltet, basierend darauf, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft.
+
+   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **Quarantäne-Parameter der E-Mails**
 
-   In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. Standardwert: **&quot;1d&quot;** für 1 Tag.
+   In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. Der Standardwert ist **&quot;1d&quot;**, für 1 Tag.
 
-   Wenn der **[!UICONTROL Maximum number of errors before quarantine]** Wert erreicht wird, wird die E-Mail-Adresse in Quarantäne gestellt. Standardwert: **&quot;5&quot;**: Die Adresse wird beim sechsten Fehler unter Quarantäne gestellt. Dies bedeutet, dass der Kontakt automatisch von den nächsten Sendungen ausgeschlossen wird.
+   Wenn der **[!UICONTROL Maximum number of errors before quarantine]** Wert erreicht wird, wird die E-Mail-Adresse in Quarantäne gestellt. The default value is **&quot;5&quot;**: the address will be quarantined on the fifth error. Dies bedeutet, dass der Kontakt automatisch von den nächsten Sendungen ausgeschlossen wird.
 
-**Verwandtes Thema**:
-
-[Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
+   For more on quarantines, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## E-Mail-Routing-Konten    {#email-routing-accounts}
 
@@ -74,17 +80,17 @@ Administratoren **[!UICONTROL Email processing rules]** können über das **[!UI
 
 In den Regeln sind die von Remote-Servern potenziell zurückgegebenen Strings enthalten, die die Qualifizierung der Fehler in **Hardbounce**, **Softbounce** oder **Ignoriert** erlauben.
 
-Folgende Regeln sind in der Standardkonfiguration vorgesehen:
+Folgende Regeln sind in der Standardkonfiguration vorgesehen.
 
 ### Bounce Messages {#bounce-mails}
 
-Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück. Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück. Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html).
 
 Asynchrone Absprünge werden weiterhin durch die Kampagne inMail-Prozess durch die **[!UICONTROL Bounce mails]** Regel qualifiziert.
 
 >[!IMPORTANT]
 >
->Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. Weitere Informationen zur Absprungmail-Qualifizierung finden Sie in diesem [Abschnitt](../../sending/using/understanding-delivery-failures.md).
+>Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. Weitere Informationen zur Absprungmail-Qualifizierung finden Sie in diesem [Abschnitt](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 <!--The user can create his own rules.
 
@@ -107,7 +113,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 **Die Signierung der DKIM-E-Mail-Authentifizierung (DomainKeys Identified Mail)** erfolgt durch die erweiterte MTA für alle Nachrichten mit allen Domänen. Es wird nicht mit **Sender-ID**, **DomainKeys** oder **S/MIME** signiert, es sei denn, auf der Ebene der erweiterten MTA wird etwas Anderes angegeben.
 
-Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html).
 
 ### MX management {#mx-management}
 
@@ -123,7 +129,7 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 
 Der Enhanced MTA verwendet seine eigenen MX-Regeln. Mit diesen kann Ihr Durchsatz anhand Ihrer historischen E-Mail-Reputation und dem Echtzeit-Feedback, das von den Domänen stammt, von denen Sie E-Mails senden, angepasst werden.
 
-Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html).
 
 <!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -193,11 +199,19 @@ The **[!UICONTROL Send]** section is only available for email templates. Darin s
 
 #### Parameter für weitere Zustellversuche {#retries-parameters}
 
-Nachrichten, die vorläufig nicht zugestellt werden können, werden automatisch für einen erneuten Versuch vorgesehen. This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
+Nachrichten, die vorläufig nicht zugestellt werden können, werden automatisch für einen erneuten Versuch vorgesehen. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im Abstand von mindestens einer Stunde vorgesehen. An den folgenden Tagen und bis zum Ablauf der Versandgültigkeit, die im Bereich [Parameter für den Gültigkeitszeitraum](#validity-period-parameters) angegeben ist, wird jeweils ein Zustellversuch unternommen.
+>[!IMPORTANT]
+>
+>Nach der Aktualisierung auf das [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html)werden die Einstellungen der **Weitere Zustellversuche** in der Kampagne ignoriert. Die **[!UICONTROL Retry period]** (minimale Verzögerung zwischen weiteren Zustellversuchen) und die **[!UICONTROL Max. number of retries]** (wie viele weitere Zustellversuche am Tag nach dem Start des Sendens ausgeführt werden sollten) werden von der erweiterten MTA verwaltet, je nachdem, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft.
 
-Die Anzahl weiterer Versuche kann global geändert werden (kontaktieren Sie Ihren technischen Administrator von Adobe) oder einzeln für jeden Versand oder jede Versandvorlage.
+<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
+
+By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
+
+The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+
+Die Option &quot;Momentum&quot;berücksichtigt in der Kampagne die Einstellung für die Dauer des Versands (die im [Gültigkeitszeitparameter](#validity-period-parameters) definiert ist), jedoch nur bis zu 3,5 Tage. An diesem Punkt wird jede Meldung in der Warteschlange zum Wiederholen aus der Warteschlange entfernt und als Absprung zurückgesendet. Weitere Informationen zu Fehlern bei Versänden finden Sie in diesem [Abschnitt](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
 #### Parameter für E-Mail-Format    {#email-format-parameters}
 
@@ -236,17 +250,19 @@ Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**: Wenn dieses Kontrollkästchen deaktiviert ist, müssen Sie eine Dauer in die Felder **[!UICONTROL Delivery duration]** und **[!UICONTROL Resource validity limit]** eingeben. Kreuzen Sie diese Option an, wenn Sie Datum und Uhrzeit genau festlegen möchten.
+* **[!UICONTROL Explicitly set validity dates]**: Wenn dieses Kontrollkästchen deaktiviert ist, müssen Sie eine Dauer in die Felder **[!UICONTROL Delivery duration]** und **[!UICONTROL Resource validity limit]** eingeben.
+
+   Kreuzen Sie diese Option an, wenn Sie Datum und Uhrzeit genau festlegen möchten.
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**: Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts. In diesem Feld lässt sich die Dauer festlegen, innerhalb derer Nachrichten verschickt werden können.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts. In diesem Feld lässt sich die Dauer festlegen, innerhalb derer Nachrichten verschickt werden können.
 
    >[!IMPORTANT]
    >
-   >Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt. Alle Auswirkungen sind im Dokument [Erweiterter MTA von Adobe Campaign](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) ausführlich beschrieben.
+   >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
 
-* **[!UICONTROL Resource validity duration]**: Dieses Feld wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
+* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: Dieses Feld wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 * **[!UICONTROL Mirror page management]**: Die Mirrorseite ist eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Sie hat den gleichen Inhalt wie die E-Mail. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde. Die Erzeugung der Seite lässt sich in diesem Feld konfigurieren:
 
    >[!IMPORTANT]
@@ -302,7 +318,7 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
 
    >[!NOTE]
    >
-   >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
+   >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../sending/using/about-typology-rules.md) section.
 
 * **[!UICONTROL Compute the label during delivery preparation]**: ermöglicht die Berechnung des Beschriftungswerts der E-Mail während der Vorbereitung der Nachricht mithilfe von Personalisierungsfeldern, Inhaltsblöcken und dynamischem Text.
 
