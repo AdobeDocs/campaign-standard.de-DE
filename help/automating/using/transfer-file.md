@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 
 ---
 
@@ -43,7 +43,8 @@ You can use this activity to recover data that will then be structured with the 
    * **Datei-Download** - dient dem Herunterladen von Dateien.
    * **Datei-Upload** - dient dem Hochladen von Dateien. Uploading a file from Adobe Campaign file generates a log entry in the **[!UICONTROL Export audits]** menu. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
    * **Existenztest einer Datei** - dient der Prüfung des Vorhandenseins einer Datei.
-   * **Dateiauflistung** - dient der Auflistung der in Adobe Campaign enthaltenen Dateien.
+   * **Dateiliste**: ermöglicht die Liste der auf dem Server vorhandenen Dateien, die auf der **[!UICONTROL Protocol]** Registerkarte definiert sind. Diese Aktion wird hauptsächlich zum Debugging verwendet, um zu überprüfen, ob die Aktivität Ihren Anforderungen entsprechend konfiguriert ist, bevor die Dateien vom Remote-Server heruntergeladen werden.
+
 1. Wählen Sie das gewünschte Protokoll aus:
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
@@ -55,7 +56,7 @@ You can use this activity to recover data that will then be structured with the 
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: Diese Option ist verfügbar, wenn Sie die **[!UICONTROL File listing]** Aktion auswählen. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
+   * **[!UICONTROL List all files]**: Diese Option ist verfügbar, wenn Sie die **[!UICONTROL File listing]** Aktion.in der **[!UICONTROL General]** Registerkarte auswählen. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
 
 1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.
 
@@ -120,11 +121,11 @@ Das Microsoft Azurblase-Protokoll erlaubt Ihnen, auf Blob zugreifen, der auf ein
 
    Nachfolgend finden Sie eine Liste der Beispiele für Dateipfade:
 
-   * **&quot;Campaign/&quot;**: findet alle Blobs im Ordner &quot;Campaign&quot;im Stammordner des Containers.
-   * **&quot;Campaign/Neu-&quot;**: findet alle Blobs mit einem Dateinamen, der mit &quot;new-&quot;beginnt und sich im Ordner &quot;Campaign&quot;befindet.
+   * **&quot;Kampagne/&quot;**: findet alle Blobs im Ordner &quot;Kampagne&quot;im Stammordner des Containers.
+   * **&quot;Kampagne/Neu-&quot;**: findet alle Blobs mit einem Dateinamen, der mit &quot;new-&quot;beginnt und sich im Ordner &quot;Kampagne&quot;befindet.
    * **&quot;&quot;**: Wenn Sie einen leeren Pfad hinzufügen, können Sie alle im Container verfügbaren Blobs abgleichen.
 
-### Konfiguration mit Dateien, die auf dem Adobe Campaign-Server vorhanden sind {#files-server-configuration-wf}
+### Konfiguration mit auf dem Adobe Campaign-Server vorhandenen Dateien {#files-server-configuration-wf}
 
 Das **[!UICONTROL File(s) present on the Adobe Campaign server]** Protokoll entspricht dem Repository, das die wiederherzustellenden Dateien enthält.
 Zur Filterung der Dateien ist die Verwendung von Platzhaltern oder Jokern (zum Beispiel * oder ?) möglich.
