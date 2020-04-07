@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -23,7 +23,7 @@ Erfahren Sie, wie Sie benutzerdefinierte Ressourcen und benutzerdefinierte Entit
 
 ## Voraussetzungen
 
-Die neue Version der [Microsoft Dynamics 365-Adobe Campaign Standard-Integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) unterstützt benutzerdefinierte Entitäten.  Dadurch können benutzerdefinierte Entitäten in Dynamics 365 in die entsprechenden benutzerdefinierten Ressourcen in der Kampagne repliziert werden.
+Die neue Version der [Microsoft Dynamics 365-Adobe Campaign Standard Integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) unterstützt benutzerdefinierte Entitäten.  Dadurch können benutzerdefinierte Entitäten in Dynamics 365 in die entsprechenden benutzerdefinierten Ressourcen in der Kampagne repliziert werden.
 
 Nach der Replizierung können die neuen Daten in den benutzerdefinierten Ressourcen für verschiedene Zwecke verwendet werden, einschließlich Segmentierung und Personalisierung.
 
@@ -137,7 +137,7 @@ Klicken Sie jetzt auf Bearbeiten für das neu hinzugefügte Filterelement und ko
 
 Als Nächstes geben wir die Verknüpfung der benutzerdefinierten Ressource an.  In diesem Fall haben wir uns dafür entschieden, mithilfe einer **[!UICONTROL Vehicles]** benutzerdefinierten Entität (Quelle) eine Verknüpfung zur Entität (Zielgruppe) des Profils herzustellen **[!UICONTROL 1 cardinality simple link]**.
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. Wählen Sie im **[!UICONTROL Link definitions]** Bildschirm die Option Löschen: **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. Wir wählen diese Option, damit beim Löschen eines Profils auch alle mit diesem Profil verknüpften **[!UICONTROL Vehicle]** Datensätze gelöscht werden.
 1. Wählen Sie **[!UICONTROL Join Definitions]** in **[!UICONTROL Define specific join conditions]**.
