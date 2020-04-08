@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ Anschließend können Sie:
 | Nützliche Seiten | Zusätzliche Ressourcen |
 |---|---|
 | [Zustellbarkeit optimieren](../../sending/using/about-deliverability.md) | [Ermüdungsverwaltung](../../sending/using/fatigue-rules.md) |
-| [Sendungen beobachten](../../audiences/using/creating-profiles.md) | [Entwerfen von E-Mails zum A/B-Test](../../channels/using/designing-an-a-b-test-email.md) |
+| [Steuern des Durchsatzes von Versänden](../../reporting/using/delivery-throughput.md) | [Entwerfen von E-Mails zum A/B-Test](../../channels/using/designing-an-a-b-test-email.md) |
 | [Empfang einer Benachrichtigung bei einem Fehler](../../sending/using/receiving-alerts-when-failures-happen.md) | [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md) |
-| [Kontrollgruppe erstellen](../../automating/using/workflow-control-group.md) | [Empfang einer Benachrichtigung bei einem Fehler](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [Steuern des Durchsatzes von Versänden](../../reporting/using/delivery-throughput.md) | [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md) |
+| [Kontrollgruppe erstellen](../../automating/using/workflow-control-group.md) | [Weiterleitungsmeldungen senden](../../channels/using/follow-up-messages.md) |
