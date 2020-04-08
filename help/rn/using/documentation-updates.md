@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ Die Integration von Microsoft Dynamics 365 mit Adobe Campaign Standard wurde in 
 
 Zusätzliche Ressourcen wurden zur Startseite der Dokumentation hinzugefügt. [mehr dazu](../../campaign-standard-home.md)
 
-Informationen zum Experience CLoud ID-Dienst (ECID) wurden der Adobe Experience Platform Data Connector-Dokumentation hinzugefügt. [mehr dazu](../../administration/using/aep-about-data-connector.md#key-concepts)
+Informationen zum Experience Cloud ID-Dienst (ECID) wurden der Adobe Experience Platform Data Connector-Dokumentation hinzugefügt. [mehr dazu](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 Der Abschnitt &quot;Konfigurieren von Transaktionsnachrichten&quot;wurde um Informationen zum Zugriff auf die neuesten transaktionalen Ereignis und aktualisierten Screenshots erweitert. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 Der Abschnitt zu Typologien und Typologieregeln wurde verbessert und um weitere Informationen zu vordefinierten Typologieregeln ergänzt. [mehr dazu](../../sending/using/about-typology-rules.md)
 
-Es wurden Informationen über die Maßnahmen der **[!UICONTROL Transfer file]** Aktivität **!UICONTROL File listing]** hinzugefügt. [mehr dazu](../../automating/using/transfer-file.md)
+Es wurden Informationen über die Maßnahmen der **[!UICONTROL Transfer file]** Aktivität **[!UICONTROL File listing]** hinzugefügt. [mehr dazu](../../automating/using/transfer-file.md)
 
 Die Dokumentation zu weiteren Zustellversuchen nach einem temporären Fehler eines Versands wurde aktualisiert und enthält weitere Details dazu, wie weitere Zustellversuche nach der Aktualisierung auf die erweiterte MTA verwaltet werden. [mehr dazu](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
