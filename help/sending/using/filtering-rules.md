@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ Mit Filterregeln können Sie einen Teil der Nachrichten-Zielgruppe anhand von in
 Die nachstehende Tabelle enthält Informationen zu vordefinierten Filterregeln sowie zu den zugehörigen Kanälen.
 
 | Titel | Channel | Description |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alle | Schließt die Population der Zielgruppe ohne angegebene Adresse (E-Mail, Postanschrift usw.) aus. entsprechend dem ausgewählten Kanal). |
 | **[!UICONTROL Blacklisted address]** | Alle | Schließt auf der Blacklist Adressen aus. |
 | **[!UICONTROL Duplicate]** | Alle | Schließt Duplikat aus, die auf dem **[!UICONTROL Address]** Populationsfeld der Zielgruppe basieren. |
