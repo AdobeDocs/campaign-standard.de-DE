@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
 
 ---
 
@@ -97,7 +97,7 @@ Um zielgerichtete Profil zum Testen zu verwenden, müssen Sie diese zuerst ausw�
 
 ### Importieren von Profilen aus einer Audience {#importing-from-audience}
 
-Campaign Standard ermöglicht Ihnen den Import einer Audience von Profilen, die Sie zum Testen verwenden können. Auf diese Weise können Sie beispielsweise einen ganzen Satz Nachrichten, die auf verschiedene Profil abzielen, an eine eindeutige E-Mail-Adresse senden.
+Mit Campaign Standard können Sie eine Audience von Profilen importieren, die Sie zum Testen verwenden können. Auf diese Weise können Sie beispielsweise einen ganzen Satz Nachrichten, die auf verschiedene Profil abzielen, an eine eindeutige E-Mail-Adresse senden.
 
 Wenn Ihre Audience bereits mit den Spalten &quot;Adresse&quot;und &quot;Präfix&quot;konfiguriert ist, können Sie diese Informationen auch auf der **[!UICONTROL Profile substitutions]** Registerkarte importieren. Ein Beispiel für den Import von Audiencen mit Substitutionsadressen finden Sie in [diesem Abschnitt](#use-case).
 
@@ -129,7 +129,7 @@ Gehen Sie wie folgt vor, um Profil zu importieren, die zum Testen von einer Audi
 >
 >Wenn Sie die gleiche Audience erneut mit unterschiedlichen Substitutionsadressen und/oder Präfixen importieren, werden die Profil der Liste zusätzlich zu denen des vorherigen Imports hinzugefügt.
 
-    ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_added.png)
 
 ## Anzeigen einer Vorschau der Nachricht mit zielgerichteten Profilen
 
