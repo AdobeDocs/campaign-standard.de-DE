@@ -12,18 +12,18 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
 
 # Neueste Version{#latest-release}
 
-[Versionsplanung](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html)
 
 [Klicken Sie hier](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) , um Versionshinweise zu abonnieren und Details zu den neuesten Adobe Experience Cloud-Versionen direkt in Ihrem Posteingang zu erhalten.
 
-## Version 20.2 - März 2020     {#release-20-2---march-2020}
+## Version 20.2 - April 2020     {#release-20-2---april-2020}
 
 **Neue Funktionen?**
 
@@ -35,7 +35,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Der Azurblauch-Datenspeicherung-Connector kann jetzt zum Importieren oder Exportieren von Daten in Adobe Campaign mithilfe einer Workflow-Aktivität für <strong>Übertragungsdateien</strong> verwendet werden. </p>
+   <td> <p>Der Azurblauch-Datenspeicherung-Connector kann jetzt verwendet werden, um Daten mithilfe einer Workflow-Aktivität für die <strong>Übertragung von Dateien</strong> in Adobe Campaign zu importieren oder zu exportieren. </p>
     <p>Weitere Informationen finden Sie im <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">entsprechenden Handbuch</a>.</p>
    </td> 
   </tr> 
@@ -59,7 +59,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 >[!NOTE]
 >
->Im April werden in der Systemsteuerung der Kampagne neue Funktionen veröffentlicht, einschließlich Google TXT-Datensatzverwaltung, Datenbankraumüberwachung und E-Mail-Benachrichtigung. Weitere Informationen zu diesen Funktionen finden Sie in der Versionshinweise zur [Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+>Im April werden in der Systemsteuerung der Kampagne neue Funktionen veröffentlicht, einschließlich Google TXT-Datensatzverwaltung, Datenbankraumüberwachung und E-Mail-Benachrichtigung. Weitere Informationen zu diesen Funktionen finden Sie in der Versionshinweise zur [Systemsteuerung](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 **Neuheiten**
 
@@ -85,7 +85,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 **Sonstige Änderungen**
 
 * Der Out-of-the-Box-Arbeitsablauf für die **KPIs-Abstimmung mit Adobe Analytics** wird jetzt bis zum aktuellen Datum ausgeführt, anstatt nur einen Tag lang ausgeführt zu werden.
-* Das Hinzufügen von APNS und APNS-SANDBOX als Plattformen in einer App wird nicht unterstützt. Nachdem Sie das Zertifikat in Adobe Campaign Standard erfolgreich hinzugefügt haben, können Sie Ihre Einstellungen jetzt nicht mehr ändern, da der MCPNS-App nur noch eine APNS-Plattform (Produktion oder Sandbox) hinzugefügt werden kann.
+* Das Hinzufügen von APNS und APNS-SANDBOX als Plattformen in einer App wird nicht unterstützt. Nachdem Sie das Zertifikat in Adobe Campaign Standard erfolgreich hinzugefügt haben, können Sie Ihre Einstellungen jetzt nicht mehr ändern, da der MCPNS-App nur noch eine APNS-Plattform (Produktions- oder Sandbox) hinzugefügt werden kann.
 
 **Experience Platform-Integrationen**
 
