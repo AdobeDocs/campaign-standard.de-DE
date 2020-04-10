@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * Es wurde ein Problem behoben, das beim manuellen Löschen einer Datenschutzanforderung in Kampagne nach deren Verarbeitung dazu führte, dass mit der Anforderung verknüpfte Daten auch nach der Bereinigung nicht gelöscht werden konnten.
 * Es wurde ein Problem behoben, das beim Anzeigen einer Vorschau oder beim Senden von Nachrichten mit Sonderzeichen aus Adobe Experience Manager auftreten konnte.
 * Es wurde ein Problem behoben, das in Workflows auftreten konnte, wenn eine Aktivität mit mehreren eingehenden Transitionen ausgeführt wurde.
+* Es wurde ein Fehler behoben, der dazu führte, dass Standardbenutzer die Dimension &quot;Abonnement zu einer Anwendung&quot;nicht als Zielgruppe in einer Workflow-Abfrage oder einem Versand verwenden konnten. (CAMP-37618)
