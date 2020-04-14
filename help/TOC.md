@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -138,10 +138,10 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + Testen und Senden {#testing-and-sending}
    + [Über den Versand mit Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
-      + [Vorschau der Nachricht erzeugen](sending/using/previewing-messages.md)
+      + [Vorschau von Versänden](sending/using/previewing-messages.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
       + [Testversand durchführen](sending/using/sending-proofs.md)
-      + [Testen von E-Mail-Nachrichten mit zielgerichteten Profilen](sending/using/testing-messages-using-target.md)
+      + [E-Mail-Nachrichten mit zielgerichteten Profilen testen](sending/using/testing-messages-using-target.md)
       + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
       + [Fallen verwenden](sending/using/using-traps.md)
@@ -153,7 +153,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
    + Nachrichten senden und tracken {#sending-and-tracking-messages}
       + [Versand bestätigen](sending/using/confirming-the-send.md)
       + [Nachrichten tracken](sending/using/tracking-messages.md)
-      + [Archivierung mit E-Mail-BCC](sending/using/archiving.md)
+      + [Mit E-Mail-BCC archivieren](sending/using/archiving.md)
    + Nachrichten beobachten {#monitoring-messages}
       + [Sendungen beobachten](sending/using/monitoring-a-delivery.md)
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
@@ -361,7 +361,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + Verwalten{#administrating}
    + [Über die Verwaltung von Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Konfigurationsrichtlinien {#configuration-guidelines}
-      + [Informationen zu Konfigurationsrichtlinien](administration/using/about-configuration-guidelines.md)
+      + [Info zu Konfigurationsrichtlinien](administration/using/about-configuration-guidelines.md)
       + [Browser-Kompatibilität](administration/using/compatible-browsers.md)
       + [Campaign Standard-Netzwerkendpunkte](administration/using/campaign-standard-network-endpoints.md)
    + Benutzer und Sicherheit {#users-and-security}
