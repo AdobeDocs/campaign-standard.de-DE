@@ -11,7 +11,7 @@ topic-tags: about-adobe-campaign
 discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abe529fca5e3631f42a454dfb20a85b60cd3b6e0
 
 ---
@@ -24,10 +24,10 @@ Sichern Sie sich die Aufmerksamkeit Ihrer Kunden und verbessern Sie die Öffnung
 Personalisierte Nachrichten sind wichtig, wenn Sie relevante Inhalte versenden, personalisierte Erlebnisse anbieten und die Öffnungs- und Konversionsraten steigern möchten. Es gibt verschiedene Möglichkeiten, um kanalübergreifende Nachrichten in Adobe Campaign zu personalisieren. Diese Personalisierungsmöglichkeiten können abhängig von den jeweiligen Profilen mit Bedingungen kombiniert werden. Sie haben folgende Möglichkeiten:
 
 * [Dynamische Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) in Ihre Nachrichten einfügen.
-* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block).
+* [Vordefinierte Gestaltungsbausteine](../../designing/using/personalization.md#adding-a-content-block) einfügen.
 * [Absender](../../designing/using/subject-line.md) einer E-Mail oder einer SMS personalisieren.
 * [Betreffzeile](../../designing/using/subject-line.md) einer E-Mail personalisieren oder Funktionen der [prädiktiven Betreffzeile](../../sending/using/testing-subject-line-email.md#about-predictive-subject-line) verwenden, um sie zu optimieren.
-* Create [conditional content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) or [in a landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
+* [Bedingten Inhalt in einer E-Mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) oder [auf einer Landingpage](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) erstellen.
 * [Dynamischen Text](../../channels/using/defining-dynamic-text.md) in eine SMS oder eine Push-Benachrichtigung einfügen.
 
 ![](assets/delivery_content_43.png)
