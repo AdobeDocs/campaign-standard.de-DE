@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
+source-git-commit: b7894637d184c16221e03c909f3c356fbb6c5e79
 
 ---
 
@@ -125,11 +125,11 @@ Gehen Sie wie folgt vor, um Profile, die zum Testen einer Audience verwendet wer
 
 1. Click the **[!UICONTROL Import]** button. The profiles from the audience corresponding to the message target are added to the **[!UICONTROL Profile substitution]** tab, as well as the associated substitution addresses and prefixes.
 
-   ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_imported.png)
 
-   >[!NOTE]
-   >
-   >Wenn Sie die gleiche Audience mit unterschiedlichen Ersatzadressen und/oder Präfixen erneut importieren, werden die Profile zusätzlich zu den Profilen aus dem vorherigen Import der Liste hinzugefügt.
+>[!NOTE]
+>
+>Wenn Sie die gleiche Audience mit unterschiedlichen Ersatzadressen und/oder Präfixen erneut importieren, werden die Profile zusätzlich zu den Profilen aus dem vorherigen Import der Liste hinzugefügt.
 
 ## Anzeigen einer Vorschau der Nachricht mit Zielgruppenprofilen
 
