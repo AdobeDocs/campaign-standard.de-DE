@@ -12,7 +12,7 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e04b70012188b455382406df167328f963d577da
 
 ---
@@ -26,7 +26,7 @@ In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei
 * Aktivitäten hinzufügen und verbinden
 * Aktivitäten konfigurieren
 
-## Workflow erstellen   {#creating-a-workflow}
+## Workflow erstellen    {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
 
@@ -56,13 +56,13 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
 1. Nach Bestätigung der Aktivitätserstellung werden Sie zum entsprechenden Dashboard weitergeleitet. Lesen Sie diesbezüglich auch den Abschnitt [Workflow-Oberfläche](../../automating/using/workflow-interface.md).
 
-1. Once the workflow is ready to be configured, you can access additional options by clicking the **[!UICONTROL Edit properties]** button. Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
+1. Sobald der Workflow zur Konfiguration bereit ist, können Sie über die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** auf weitere Optionen zugreifen. Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
 
    ![](assets/workflow_properties.png)
 
 **Verwandtes Thema:**
 
-* Video [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* Video [Creating a workflow](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
 * [Workflow-Eigenschaften  ](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 ## Aktivitäten hinzufügen und verbinden {#adding-and-linking-activities}
@@ -75,10 +75,10 @@ Definieren Sie jetzt die verschiedenen Aktivitäten und verbinden Sie sie in ein
 
 In den einzelnen Bereichen der Palette werden die Aktivitäten nach Kategorie geordnet angezeigt.
 
-* The first section contains [targeting activities](../../automating/using/about-targeting-activities.md)
-* The second section contains the [execution activities](../../automating/using/about-execution-activities.md), which are mainly used for coordinating other activities.
-* The third section contains activities that can be used to send messages on different [channels](../../automating/using/about-channel-activities.md). Aktivitäten in diesem Bereich können abhängig von den in Ihrer Instanz aktivierten Kanälen variieren.
-* The fourth section contains [file manipulation and data management activities](../../automating/using/about-data-management-activities.md).
+* Der erste Bereich enthält [Zielgruppenbestimmungsaktivitäten](../../automating/using/about-targeting-activities.md).
+* Der zweite Bereich enthält die [Steuerungsaktivitäten](../../automating/using/about-execution-activities.md), die in erster Linie der Koordination der anderen Aktivitäten dienen.
+* Der dritte Bereich enthält Aktivitäten, mit denen Nachrichten auf unterschiedlichen [Kanälen](../../automating/using/about-channel-activities.md) gesendet werden können. Aktivitäten in diesem Bereich können abhängig von den in Ihrer Instanz aktivierten Kanälen variieren.
+* Der vierte Bereich enthält [Dateibearbeitungs- und -verwaltungsaktivitäten](../../automating/using/about-data-management-activities.md).
 
 So erstellen Sie das Diagramm:
 
@@ -100,7 +100,7 @@ So erstellen Sie das Diagramm:
 
 Nach der Verknüpfung Ihrer Workflow-Aktivitäten können Sie die Transitionen zwischen ihnen mit dem **Titel** Ihrer Wahl personalisieren. Doppelklicken Sie dazu auf die Transition, um auf ihre Eigenschaften zuzugreifen.
 
-Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. Anschließend können Sie auf diesen Segmentcodes basierende Berichte erstellen, um die Effizienz Ihrer Marketingkampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
+Darüber hinaus können Sie mit den Aktivitäten **[!UICONTROL Targeting]** und **[!UICONTROL Daten-Management (ETL)]** **Segmentcodes** für die ausgehenden Transitionen definieren. Anschließend können Sie auf diesen Segmentcodes basierende Berichte erstellen, um die Effizienz Ihrer Marketingkampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Anwendungsfälle für Workflows:**
 
@@ -114,7 +114,7 @@ Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** 
 Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Daten nur korrekt, wenn sie konfiguriert werden. Jede Aktivität enthält mehrere Tabs zur Verwaltung mehrerer Konfigurationen und aktivitätsspezifischer Optionen, wie zum Beispiel ausgehender Transitionen, Titel usw.
 
 1. Vergewissern Sie sich, dass alle Aktivitäten korrekt miteinander verbunden sind. Manche Aktivitäten zeigen nur dann die korrekten Konfigurationsoptionen an, wenn sie die Struktur oder Art der eingehenden Daten erkennen.
-1. Double-click an activity or select it and click the **[!UICONTROL Edit]** contextual action to open its configuration window.
+1. Wählen Sie eine Aktivität per Doppelklick aus oder selektieren Sie sie und wählen Sie dann **[!UICONTROL Bearbeiten]** aus, um das entsprechende Konfigurationsfenster zu öffnen.
 1. Bearbeiten Sie den Titel der Aktivität.
 1. Definieren Sie alle Optionen, die Sie zur Verarbeitung der Daten benötigen. Die möglichen Optionen für jede Aktivität erfahren Sie im jeweiligen Abschnitt dieser Dokumentation.
 1. Speichern Sie die Aktivität und wiederholen Sie das Verfahren für jede Aktivität im Workflow.
