@@ -1,6 +1,6 @@
 ---
-title: Testen von E-Mail-Nachrichten mit zielgerichteten Profilen
-description: Erfahren Sie, wie Sie Nachrichten mit zielgerichteten Profilen und Substitutionsadressen testen können.
+title: Testen von E-Mail-Nachrichten mit Zielgruppenprofilen
+description: Erfahren Sie, wie Sie Nachrichten mit Zielgruppenprofilen und Ersatzadressen testen können.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -13,61 +13,61 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
+source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
 
 ---
 
 
-# Testen von E-Mail-Nachrichten mit zielgerichteten Profilen {#testing-message-profiles}
+# Testen von E-Mail-Nachrichten mit Zielgruppenprofilen {#testing-message-profiles}
 
 ## Übersicht {#overview}
 
-Zusätzlich zum [Testen von Profilen](../../audiences/using/managing-test-profiles.md)können Sie eine E-Mail-Nachricht testen, indem Sie sich in die Position eines der zielgerichteten Profil setzen. Auf diese Weise erhalten Sie eine genaue Darstellung der Meldung, die das Profil erhält (benutzerdefinierte Felder, dynamische und personalisierte Informationen, einschließlich zusätzlicher Daten von Workflows...).
+Zusätzlich zu [Testprofilen](../../audiences/using/managing-test-profiles.md) können Sie auch eine E-Mail-Nachricht testen, indem Sie sich in die Position eines der Zielgruppenprofile versetzen. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfangen wird (benutzerdefinierte Felder, dynamische und personalisierte Informationen, einschließlich zusätzlicher Daten von Workflows usw.).
 
 >[!NOTE]
 >
-> Diese Funktion ist nur für E-Mail-Nachrichten verfügbar.
+> Diese Funktion ist nur bei E-Mail-Nachrichten verfügbar.
 
 Die wichtigsten Schritte sind:
 
-1. Konfigurieren Sie Ihre Nachricht und starten Sie dann die **Vorbereitungsphase** .
-1. **Wählen Sie eines oder mehrere Profil** unter den Profilen aus, auf die die Nachricht abzielt.
-1. Weisen Sie jedem Profil eine **Ersatzadresse** zu, an die Testversand gesendet werden.
-1. (Optional) Definieren Sie für jedes Profil ein **Präfix** , das der Betreffzeile des Testversands hinzugefügt werden soll.
-1. **Vorschau** im E-Mail-Designer, wie die Nachricht für die Profil angezeigt wird.
-1. Schicken Sie die Testversände.
+1. Konfigurieren Sie Ihre Nachricht und starten Sie dann die **Vorbereitungsphase**.
+1. **Wählen Sie eines oder mehrere Profile** aus den Profilen aus, die zur Zielgruppe der Nachricht gehören.
+1. Weisen Sie jedem Profil eine **Ersatzadresse** zu, an die Testsendungen gesendet werden sollen.
+1. (Optional) Definieren Sie für jedes Profil ein **Präfix**, das der Betreffzeile des Testversands hinzugefügt werden soll.
+1. Nutzen Sie die **Vorschau** in Email Designer, um zu ermitteln, wie die Nachricht für die Profile angezeigt wird.
+1. Versenden Sie die Testsendungen.
 
-Weitere Informationen zum globalen Prozess finden Sie im [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html)verfügbaren Tutorial-Video.
+Weiterführende Informationen zum allgemeinen Verfahren finden Sie im Tutorial-Video, das [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html) verfügbar ist.
 
 >[!IMPORTANT]
 >
->Mit dieser Funktion können Sie personenbezogene Daten des Profils an externe E-Mail-Adressen senden. Beachten Sie, dass die Ausführung von Datenschutzanforderungen (GDPR &amp; CCPA) in Campaign Standard diese Anforderung nicht extern ausführen wird.
+>Mit dieser Funktion können Sie personenbezogene Daten des Profils an externe E-Mail-Adressen senden. Beachten Sie, dass eine Ausführung von Datenschutzanfragen (DSGVO und CCPA) in Campaign Standard NICHT zu einer externen Ausführung der Anfrage führen wird.
 
-## Auswählen von Profilen und Ersetzungsadressen {#selecting-profiles}
+## Auswählen von Profilen und Ersatzadressen {#selecting-profiles}
 
-Um zielgerichtete Profil zum Testen zu verwenden, müssen Sie diese zuerst auswählen und dann die Ersatzadressen definieren, an die die Testversand gesendet werden. Dazu können Sie entweder spezifische Profil [unter den zielgerichteten Profilen](#selecting-individual-profiles) auswählen oder Profil aus einer vorhandenen Audience [](#importing-from-audience)importieren.
+Um Zielgruppenprofile zum Testen zu verwenden, müssen Sie diese zunächst auswählen und dann die Ersatzadressen definieren, an die die Testsendungen gesendet werden sollen. Dazu können Sie entweder aus den Zielgruppenprofilen [spezifische Profile auswählen](#selecting-individual-profiles) oder [Profile aus einer vorhandenen Audience importieren](#importing-from-audience).
 
 >[!NOTE]
 >
->Sie können maximal 100 Profil zum Testen auswählen.
+>Sie können maximal 100 Profile zum Testen auswählen.
 
-### Auswählen einzelner Profil {#selecting-individual-profiles}
+### Auswählen einzelner Profile {#selecting-individual-profiles}
 
-1. Vergewissern Sie sich im Dashboard message, dass die Meldungsvorbereitung erfolgreich war, und klicken Sie dann auf den **[!UICONTROL Audience]** Block.
+1. Vergewissern Sie sich im Nachrichten-Dashboard, dass die Nachrichtenvorbereitung erfolgreich war, und klicken Sie dann auf den **[!UICONTROL Audience]**-Bereich.
 
    ![](assets/substitution_preparation.png)
 
-1. Klicken Sie auf der **[!UICONTROL Profile substitutions]** Registerkarte auf die **[!UICONTROL Create element]** Schaltfläche, um die zu testenden Profil auszuwählen.
+1. In the **[!UICONTROL Profile substitutions]** tab, click the **[!UICONTROL Create element]** button to select the profiles to use for testing.
 
    ![](assets/substitution_tab.png)
 
-1. Klicken Sie auf die Schaltfläche zur Auswahl des Profils, um die Liste der Profil anzuzeigen, auf die die Nachricht ausgerichtet ist.
+1. Klicken Sie auf die Schaltfläche zur Profilauswahl, um die Liste der Profile anzuzeigen, die zur Zielgruppe der Nachricht gehören.
 
    ![](assets/substitution_recipient_selection.png)
 
-1. Wählen Sie das zu testende Profil aus, geben Sie dann in das **[!UICONTROL Address]** Feld die gewünschte Ersetzungsadresse ein und klicken Sie dann auf **[!UICONTROL Confirm]**. Alle Testversand, die auf das Profil abzielen, werden an diese E-Mail-Adresse gesendet und nicht an die in der Datenbank für dieses Profil definierte.
+1. Select the profile to use for testing, then enter in the **[!UICONTROL Address]** field the desired substitution address, then click **[!UICONTROL Confirm]**. Alle Testsendungen, bei denen das Profil zur Zielgruppe gehört, werden an diese E-Mail-Adresse gesendet und nicht an die in der Datenbank für das Profil definierte Adresse.
 
-   Wenn Sie der Betreffzeile des Testversands ein bestimmtes Präfix hinzufügen möchten, füllen Sie das **[!UICONTROL Subject line prefix]** Feld aus.
+   If you want to add a specific prefix to the proofs&#39; subject line, fill in the **[!UICONTROL Subject line prefix]** field.
 
    ![](assets/substitution_address.png)
 
@@ -75,39 +75,39 @@ Um zielgerichtete Profil zum Testen zu verwenden, müssen Sie diese zuerst ausw�
 
    ![](assets/substitution_prefixsample.png)
 
-1. Das Profil wird der Liste mit der zugehörigen Ersetzungsadresse und dem dazugehörigen Präfix hinzugefügt. Wiederholen Sie die obigen Schritte für alle Profil, die Sie zum Testen verwenden möchten, und klicken Sie dann auf **[!UICONTROL Confirm]**.
+1. Das Profil wird der Liste mit der entsprechenden Ersatzadresse und dem dazugehörigen Präfix hinzugefügt. Repeat the above steps for all the profiles that you want to use for testing, then click **[!UICONTROL Confirm]**.
 
    ![](assets/substitution_recipients_confirm.png)
 
-   Wenn Sie einen Testversand für dasselbe Profil an mehrere Ersetzungsadressen senden möchten, müssen Sie dieses Profil so oft wie erforderlich hinzufügen.
+   Wenn Sie einen Testversand für dasselbe Profil an verschiedene Ersatzadressen senden möchten, müssen Sie dieses Profil so oft wie erforderlich hinzufügen.
 
-   Im unten stehenden Beispiel wird der Testversand, der auf dem Profil John Smith basiert, an zwei verschiedene Substitutionsadressen gesendet:
+   Im folgenden Beispiel wird der Testversand, der auf dem Profil „John Smith“ basiert, an zwei verschiedene Ersatzadressen gesendet:
 
    ![](assets/substitution_multiple_addresses.png)
 
-1. Sobald alle Profil und Ersetzungsadressen definiert sind, können Sie einen Testversand senden, um die Nachricht zu testen. Klicken Sie dazu auf die **[!UICONTROL Test]** Schaltfläche und wählen Sie dann den Testtyp aus, der durchgeführt werden soll.
+1. Sobald alle Profile und Ersatzadressen definiert sind, können Sie einen Testversand durchführen, um die Nachricht zu testen. To do this, click the **[!UICONTROL Test]** button, then select the type of test to perform.
 
-   Beachten Sie, dass die Optionen **[!UICONTROL Email rendering]** und nicht verfügbar sind, wenn kein Test-Profil zur Zielgruppe der Nachricht hinzugefügt wurde **[!UICONTROL Proof + Email rendering]** .  For more information on proofs sending, refer to [this section](../../sending/using/sending-proofs.md).
+   Note that if no test profile has been added to the message target, the **[!UICONTROL Email rendering]** and **[!UICONTROL Proof + Email rendering]** options are not available.  Weiterführende Informationen zum Durchführen eines Testversands finden Sie in [diesem Abschnitt](../../sending/using/sending-proofs.md).
 
    ![](assets/substitution_send_test.png)
 
 >[!IMPORTANT]
 >
->Wenn Sie Änderungen an Ihrer Nachricht vornehmen, stellen Sie sicher, dass Sie die Nachrichtenvorbereitung erneut starten. Andernfalls werden die Änderungen nicht im Testversand übernommen.
+>Wenn Sie Änderungen an Ihrer Nachricht vornehmen, stellen Sie sicher, dass Sie die Nachrichtenvorbereitung erneut starten. Andernfalls werden die Änderungen im Testversand nicht übernommen.
 
 ### Importieren von Profilen aus einer Audience {#importing-from-audience}
 
-Mit Campaign Standard können Sie eine Audience von Profilen importieren, die Sie zum Testen verwenden können. Auf diese Weise können Sie beispielsweise einen ganzen Satz Nachrichten, die auf verschiedene Profil abzielen, an eine eindeutige E-Mail-Adresse senden.
+Campaign Standard ermöglicht den Import einer Audience mit Profilen, die Sie zum Testen verwenden können. So können Sie beispielsweise mehrere Nachrichten, die sich an verschiedene Profile richten, an eine einzige E-Mail-Adresse senden.
 
-Wenn Ihre Audience bereits mit den Spalten &quot;Adresse&quot;und &quot;Präfix&quot;konfiguriert ist, können Sie diese Informationen auch auf der **[!UICONTROL Profile substitutions]** Registerkarte importieren. Ein Beispiel für den Import von Audiencen mit Substitutionsadressen finden Sie in [diesem Abschnitt](#use-case).
+Moreover, if your audience is already configured with the address and prefix columns, you will be able to import these information in the **[!UICONTROL Profile substitutions]** tab. Ein Beispiel für den Import einer Audience mit Ersatzadressen finden Sie in [diesem Abschnitt](#use-case).
 
 >[!NOTE]
 >
->Beim Importieren einer Audience werden nur die der Zielgruppe entsprechenden Profil ausgewählt und der Registerkarte hinzugefügt. **[!UICONTROL Profile substitutions]**
+>When importing an audience, only the profiles corresponding to the message target are selected and added to the **[!UICONTROL Profile substitutions]** tab.
 
-Gehen Sie wie folgt vor, um Profil zu importieren, die zum Testen von einer Audience verwendet werden sollen:
+Gehen Sie wie folgt vor, um Profile, die zum Testen einer Audience verwendet werden sollen, zu importieren:
 
-1. Vergewissern Sie sich im Dashboard message, dass die Meldungsvorbereitung erfolgreich war, und klicken Sie dann auf den **[!UICONTROL Audience]** Block.
+1. Vergewissern Sie sich im Nachrichten-Dashboard, dass die Nachrichtenvorbereitung erfolgreich war, und klicken Sie dann auf den **[!UICONTROL Audience]**-Bereich.
 
    ![](assets/substitution_preparation.png)
 
@@ -115,35 +115,35 @@ Gehen Sie wie folgt vor, um Profil zu importieren, die zum Testen von einer Audi
 
    ![](assets/substitution_audience_import.png)
 
-1. Wählen Sie die zu verwendende Audience aus und geben Sie dann die Ersetzungsadresse und das Präfix ein, das für die an die Audience gesendeten Testversand verwendet werden soll.
+1. Wählen Sie die zu verwendende Audience aus und geben Sie dann die Ersatzadresse und das Präfix ein, die für die an die Audience gesendeten Testsendungen verwendet werden sollen.
 
    ![](assets/substitution_audience_define.png)
 
-   Wenn die zu verwendenden Ersatzadressen und/oder Präfixe bereits in Ihrer Audience definiert wurden, wählen Sie die **[!UICONTROL From Audience]** Option aus und geben Sie dann die Spalte an, die zum Abrufen dieser Informationen verwendet werden soll.
+   If the substitution addresses and/or prefixes to use have already been defined in your audience, select the **[!UICONTROL From Audience]** option, then specify the column to use to retrieve these information.
 
    ![](assets/substitution_fromaudience.png)
 
-1. Click the **[!UICONTROL Import]** button. Die Profil aus der Audience, die der Zielgruppe der Nachricht entspricht, werden der **[!UICONTROL Profile substitution]** Registerkarte hinzugefügt, sowie die zugehörigen Ersetzungsadressen und Präfixe.
+1. Click the **[!UICONTROL Import]** button. The profiles from the audience corresponding to the message target are added to the **[!UICONTROL Profile substitution]** tab, as well as the associated substitution addresses and prefixes.
+
+   ![](assets/substitution_audience_added.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie die gleiche Audience mit unterschiedlichen Ersatzadressen und/oder Präfixen erneut importieren, werden die Profile zusätzlich zu den Profilen aus dem vorherigen Import der Liste hinzugefügt.
+
+## Anzeigen einer Vorschau der Nachricht mit Zielgruppenprofilen
 
 >[!NOTE]
 >
->Wenn Sie die gleiche Audience erneut mit unterschiedlichen Substitutionsadressen und/oder Präfixen importieren, werden die Profil der Liste zusätzlich zu denen des vorherigen Imports hinzugefügt.
+>Eine Vorschau ist nur mit Email Designer möglich.
 
-![](assets/substitution_audience_added.png)
+To be able to preview messages using targeted profiles, make sure you have added these profiles to the **[!UICONTROL Profile substitution]** list (see [Defining profiles and substitution addresses](#selecting-profiles)).
 
-## Anzeigen einer Vorschau der Nachricht mit zielgerichteten Profilen
+Wenn Sie in der Nachricht Personalisierungsfelder verwenden möchten, müssen Sie diese hinzufügen, **bevor** Sie die Nachrichtenvorbereitung starten. Andernfalls werden sie in der Vorschau nicht berücksichtigt. Stellen Sie also sicher, dass Sie die Nachrichtenvorbereitung erneut starten, sollten Sie an den Personalisierungsfeldern Änderungen vorgenommen haben.
 
->[!NOTE]
->
->Vorschau ist nur mit dem E-Mail-Designer verfügbar.
+Gehen Sie wie folgt vor, um Nachrichten bei Verwendung von Profilersetzungen als Vorschau anzuzeigen:
 
-Um Nachrichten mit zielgerichteten Profilen Vorschau, stellen Sie sicher, dass Sie diese Profil der **[!UICONTROL Profile substitution]** Liste hinzugefügt haben (siehe [Definieren von Profilen und Substitutionsadressen](#selecting-profiles)).
-
-Wenn Sie Personalisierungsfelder in der Nachricht verwenden möchten, müssen sie hinzugefügt werden, **bevor** Sie die Nachrichtenvorbereitung starten. Andernfalls werden sie in der Vorschau nicht berücksichtigt. Stellen Sie daher sicher, dass Sie die Nachrichtenvorbereitung erneut starten, wenn an den Personalisierungsfeldern Änderungen vorgenommen wurden.
-
-Gehen Sie wie folgt vor, um Vorschauen mit Profil Substitution auszuführen:
-
-1. Klicken Sie im Dashboard message auf den InhaltsSchnappschuss, um die Nachricht im E-Mail-Designer zu öffnen.
+1. Klicken Sie im Nachrichten-Dashboard auf den Inhalts-Snapshot, um die Nachricht in Email Designer zu öffnen.
 
    ![](assets/substitution_preview_access.png)
 
@@ -151,9 +151,9 @@ Gehen Sie wie folgt vor, um Vorschauen mit Profil Substitution auszuführen:
 
    ![](assets/substitution_preview_changeprofile.png)
 
-1. Klicken Sie auf die **[!UICONTROL Profile Substitution]** Registerkarte, um die zu Testzwecken hinzugefügten Profil anzuzeigen.
+1. Click the **[!UICONTROL Profile Substitution]** tab to display the substitution profiles that have been added for testing.
 
-   Wählen Sie die Profil aus, die Sie für die Vorschau verwenden möchten, und klicken Sie dann auf **[!UICONTROL Select]**.
+   Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
 
    ![](assets/substitution_preview_selection.png)
 
@@ -163,48 +163,48 @@ Gehen Sie wie folgt vor, um Vorschauen mit Profil Substitution auszuführen:
 
 ## Anwendungsbeispiel {#use-case}
 
-In diesem Fall möchten wir einen personalisierten E-Mail-Newsletter an eine Reihe bestimmter Profile senden. Vor dem Versand des Newsletters möchten wir ihn mit einigen der zielgerichteten Profil Vorschau und Testversand an interne E-Mail-Adressen senden, die in einer externen Datei definiert sind.
+In diesem Beispiel möchten wir einen personalisierten E-Mail-Newsletter an bestimmte Profile senden. Vor dem Versand des Newsletters möchten wir ihn mit einigen der Zielgruppenprofile als Vorschau anzeigen und einen Testversand an interne E-Mail-Adressen durchführen, die in einer externen Datei definiert sind.
 
-Die wichtigsten Schritte für diesen Anwendungsfall sind:
+Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
 
 1. Erstellen Sie die Audience, die zum Testen verwendet werden soll.
-1. Erstellen Sie einen Workflow zur Zielgruppe von Profilen und senden Sie den Newsletter.
-1. Konfigurieren Sie die Profil-Ersetzungen der Nachricht.
-1. Vorschau der Nachricht mit zielgerichteten Profilen.
+1. Richten Sie einen Workflow ein, um Profile in die Zielgruppe aufzunehmen und den Newsletter zu senden.
+1. Konfigurieren Sie die Profilersetzungen der Nachricht.
+1. Zeigen Sie eine Vorschau der Nachricht mit Zielgruppenprofilen an.
 1. Führen Sie einen Testversand durch.
 
-### Schritt 1: Audience zum Testen erstellen
+### Schritt 1: Audience für Testzwecke erstellen
 
-1. Bereiten Sie die zu importierende Datei vor, um die Audience zu erstellen. In unserem Fall sollte es die für den Testversand zu verwendende Substitutionsadresse und ein Präfix enthalten, das der Betreffzeile des Testversands hinzugefügt wird.
+1. Bereiten Sie die zu importierende Datei vor, um die Audience zu erstellen. In unserem Beispiel sollte sie die für den Testversand zu verwendende Ersatzadresse und ein Präfix enthalten, das der Betreffzeile des Testversands hinzugefügt wird.
 
-   In diesem Beispiel erhält die E-Mail-Adresse &quot;oliver.vaughan@internal.com&quot;einen Testversand der Nachricht, die auf das Profil mit der E-Mail-Adresse &quot;john.doe@mail.com&quot;verweist. Das Präfix &quot;JD&quot;wird der Betreffzeile des Testversands hinzugefügt.
+   In diesem Fall erhält die E-Mail-Adresse „oliver.vaughan@internal.com“ einen Testversand der Nachricht, die an das Profil mit der E-Mail-Adresse „john.doe@mail.com“ gesendet wird. Der Betreffzeile des Testversands wird das Präfix „JD“ hinzugefügt.
 
    ![](assets/substitution_uc1.png)
 
-1. Erstellen Sie den Workflow, um eine Audience aus der Datei zu erstellen. Fügen Sie dazu die folgenden Aktivitäten hinzu und konfigurieren Sie sie:
+1. Richten Sie den Workflow ein, um eine Audience aus der Datei zu erstellen. Fügen Sie dazu die folgenden Aktivitäten hinzu und konfigurieren Sie sie:
 
    * **[!UICONTROL Load file]** Aktivität: Importiert die CSV-Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/load-file.md)).
-   * **[!UICONTROL Reconciliation]** Aktivität: Verknüpft Informationen aus der Datei mit Informationen aus der Datenbank. In diesem Beispiel verwenden wir die E-Mail-Adresse des Profils als Abgleichungsfeld (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/reconciliation.md)).
+   * **[!UICONTROL Reconciliation]** Aktivität: Verknüpft Informationen aus der Datei mit Informationen aus der Datenbank. In diesem Beispiel verwenden wir die E-Mail-Adresse des Profils als Abstimmungsfeld (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** Aktivität: Erstellt eine Audience basierend auf der importierten Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/save-audience.md)).
    ![](assets/substitution_uc2.png)
 
-1. Führen Sie den Workflow aus und klicken Sie dann auf die **[!UICONTROL Audiences]** Registerkarte, um zu überprüfen, ob die Audience mit den gewünschten Informationen erstellt wurde.
+1. Führen Sie den Workflow aus und klicken Sie dann auf den Tab **[!UICONTROL Audiences]**, um zu überprüfen, ob die Audience mit den gewünschten Informationen erstellt wurde.
 
-   In diesem Beispiel besteht die Audience aus drei Profilen. Jeder von ihnen ist mit einer Ersatz-E-Mail-Adresse verknüpft, die den Testversand erhält, mit einem Präfix, das in der Betreffzeile des Testversands verwendet werden soll.
+   In diesem Beispiel besteht die Audience aus drei Profilen. Jedes der Profile ist mit einer Ersatz-E-Mail-Adresse verknüpft, die den Testversand erhalten wird, inklusive eines Präfixes, das im Betreff des Testversands verwendet wird.
 
    ![](assets/substitution_uc3.png)
 
-### Schritt 2: Erstellen Sie einen Workflow zur Zielgruppe von Profilen und senden Sie den Newsletter
+### Schritt 2: Einen Workflow zum Auswählen von Profilen und Senden des Newsletters erstellen
 
-1. Hinzufügen **[!UICONTROL Query]** und **[!UICONTROL Email delivery]** -Aktivitäten konfigurieren und dann entsprechend Ihren Anforderungen konfigurieren (siehe Abschnitte [Abfrage](../../automating/using/query.md) und [E-Mail-Versand](../../automating/using/email-delivery.md) ).
+1. Add **[!UICONTROL Query]** and **[!UICONTROL Email delivery]** activities, then configure them according to your needs (see [Query](../../automating/using/query.md) and [Email delivery](../../automating/using/email-delivery.md) sections).
 
    ![](assets/substitution_uc4.png)
 
 1. Führen Sie den Workflow aus und vergewissern Sie sich, dass die Nachrichtenvorbereitung erfolgreich war.
 
-### Schritt 3: Konfigurieren der Registerkarte zum Ersetzen des Profils der Nachricht
+### Schritt 3: Tab zur Profilersetzung der Nachricht konfigurieren
 
-1. Open the **[!UICONTROL Email delivery]** activity. Klicken Sie im Dashboard message auf den **[!UICONTROL Audience]** Block.
+1. Open the **[!UICONTROL Email delivery]** activity. In the message dashboard, click the **[!UICONTROL Audience]** block.
 
    ![](assets/substitution_uc5.png)
 
@@ -212,27 +212,27 @@ Die wichtigsten Schritte für diesen Anwendungsfall sind:
 
    ![](assets/substitution_uc6.png)
 
-1. Wählen Sie im **[!UICONTROL Audience]** Feld die aus der Datei erstellte Audience aus.
+1. Wählen Sie im Feld **[!UICONTROL Audience]** die aus der Datei erstellte Audience aus.
 
    ![](assets/substitution_uc7.png)
 
-1. Definieren Sie die Ersetzungsadresse und das Präfix der Betreffzeile, die beim Senden der Testversand verwendet werden sollen.
+1. Definieren Sie die Ersatzadresse und das Betreffpräfix, die beim Senden der Testsendungen verwendet werden sollen.
 
-   Wählen Sie dazu die **[!UICONTROL From audience]** Option aus und wählen Sie dann die Spalte aus der Audience aus, die die Informationen enthält.
+   To do this, select the **[!UICONTROL From audience]** option, then select the column from the audience that contains the information.
 
    ![](assets/substitution_uc8.png)
 
-1. Click the **[!UICONTROL Import]** button. Profile aus der Audience werden der Liste mit den zugehörigen Substitutionsadressen und den Präfixen der Betreffzeile hinzugefügt.
+1. Click the **[!UICONTROL Import]** button. Profile aus der Audience werden der Liste zusammen mit den zugehörigen Ersatzadressen und den Betreffpräfixen hinzugefügt.
 
    ![](assets/substitution_uc9.png)
 
    >[!NOTE]
    >
-   >In unserem Fall richten sich alle Profile der Audience auf die **[!UICONTROL Query]** Aktivität. Wenn eines dieser Profil nicht zur Zielgruppe der Nachricht gehört, wird es nicht zur Liste hinzugefügt.
+   >In our case, all profiles from the audience are targeted by the **[!UICONTROL Query]** activity. Wenn eines der Profile nicht zur Zielgruppe der Nachricht gehörte, wäre es nicht zur Liste hinzugefügt worden.
 
-### Schritt 4: Vorschau der Nachricht mit zielgerichteten Profilen
+### Schritt 4: Vorschau der Nachricht mit Zielgruppenprofilen anzeigen
 
-1. Klicken Sie im Dashboard message auf den InhaltsSchnappschuss, um die Nachricht im E-Mail-Designer zu öffnen.
+1. Klicken Sie im Nachrichten-Dashboard auf den Inhalts-Snapshot, um die Nachricht in Email Designer zu öffnen.
 
    ![](assets/substitution_uc10.png)
 
@@ -240,9 +240,9 @@ Die wichtigsten Schritte für diesen Anwendungsfall sind:
 
    ![](assets/substitution_uc_preview.png)
 
-1. Klicken Sie auf die **[!UICONTROL Profile Substitution]** Registerkarte, um die zuvor hinzugefügten Profil anzuzeigen.
+1. Click the **[!UICONTROL Profile Substitution]** tab to display the substitution profiles that have been added previously.
 
-   Wählen Sie die Profil aus, die Sie für die Vorschau verwenden möchten, und klicken Sie dann auf **[!UICONTROL Select]**.
+   Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
 
    ![](assets/substitution_uc_selectpreview.png)
 
@@ -250,12 +250,12 @@ Die wichtigsten Schritte für diesen Anwendungsfall sind:
 
    ![](assets/substitution_uc_previewprofile.png)
 
-### Schritt 5: Testversand senden
+### Schritt 5: Testsendungen durchführen
 
-1. Klicken Sie im Dashboard der Nachricht auf die **[!UICONTROL Test]** Schaltfläche und bestätigen Sie dann.
+1. In the message dashboard, click the **[!UICONTROL Test]** button, then confirm.
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. Die Testversand werden entsprechend der Konfiguration auf der **[!UICONTROL Profile substitutions]** Registerkarte gesendet.
+1. The proofs are sent according to what has been configured in the **[!UICONTROL Profile substitutions]** tab.
 
    ![](assets/substitution_uc_proofs.png)
