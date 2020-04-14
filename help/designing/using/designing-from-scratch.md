@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -47,7 +47,7 @@ Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu b
 Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 1. Öffnen Sie vorhandenen Inhalt oder erstellen Sie neuen.
-1. Öffnen Sie die **[!UICONTROL Strukturkomponenten]** durch Auswahl des Zeichens **+** auf der linken Seite.
+1. Access the **[!UICONTROL Structure components]** by selecting the **+** icon on the left.
 
    ![](assets/email_designer_structure.png)
 
@@ -63,7 +63,7 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 1. Mehrere Strukturkomponenten bestehend aus einer oder mehreren Spalten sind verfügbar.
 
-   Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
+   Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -81,33 +81,33 @@ Sie können in einer Strukturkomponente beliebig viele Inhaltskomponenten hinzuf
 
 Dies ist die Liste verfügbarer Komponenten in Email Designer:
 
-- **[!UICONTROL Schaltfläche]**
+- **[!UICONTROL Button]**
 
-   Wenn Sie mehrere Schaltflächen benötigen, müssen Sie nicht jede einzelne neu erstellen, sondern können die Komponente **[!UICONTROL Schaltfläche]** in der dedizierten Symbolleiste duplizieren.
+   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
    Sie können auch Schaltflächen in Fragmenten speichern, die nochmals verwendet werden können. Weiterführende Informationen dazu finden Sie in den Abschnitten [Inhaltsfragment erstellen](../../designing/using/using-reusable-content.md#creating-a-content-fragment) und [Inhalt als Fragment speichern](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-1. Wählen Sie **[!UICONTROL Fallback-Ansicht]** aus, um das Fallback-Bild in Email Designer zu zeigen.
+Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
 
 - **[!UICONTROL Text]**
 
-   Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe des Textes in den **[!UICONTROL Komponenteneinstellungen]** anpassen.
+   Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Divisor]**
+- **[!UICONTROL Divider]**
 
-   Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe der Trennlinie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
+   Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL HTML]**
+- **[!UICONTROL Html]**
 
    Verwenden Sie diese Komponente, um die unterschiedlichen Teile Ihrer existierenden HTML-Datei zu kopieren und einzufügen. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
 
    >[!NOTE]
    >
-   >Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
+   >Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
 
    Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten, empfiehlt Adobe, eine neue Nachricht zu erstellen und den Inhalt aus der existierenden E-Mail in Fragmente und Komponenten hinzuzufügen.
 
-   Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den HTML-Code mithilfe der **[!UICONTROL HTML]**-Inhaltskomponente aus der Original-E-Mail kopieren und einfügen. Nur Benutzer, die mit HTML vertraut sind, sollten diese Schritte ausführen.
+   Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den HTML-Code mithilfe der **[!UICONTROL Html]**-Inhaltskomponente aus der Original-E-Mail kopieren und einfügen. Nur Benutzer, die mit HTML vertraut sind, sollten diese Schritte ausführen.
 
    <!-- A full example is presented below. -->
 
@@ -125,25 +125,25 @@ Dies ist die Liste verfügbarer Komponenten in Email Designer:
 
    Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen.
 
-   Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und geben Sie den Videolink in die **[!UICONTROL Komponenteneinstellungen]** ein.
+   Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Bild]**
+- **[!UICONTROL Image]**
 
    Verwenden Sie diese Komponente, um ein Bild in Ihre E-Mail einzufügen.
 
    Fügen Sie die Bildkomponente in eine Strukturkomponente ein und klicken Sie auf „Durchsuchen“, um die gewünschte Bilddatei aus Ihrem Dateisystem hochzuladen.
 
-- **[!UICONTROL Sozial]**
+- **[!UICONTROL Social]**
 
-   Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail einzufügen. Die anzuzeigenden Links und die Größe ihrer Symbole können Sie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
+   Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail einzufügen. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Karussell]**
+- **[!UICONTROL Carousel]**
 
-   1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
+   1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
    1. Durchsuchen Sie Ihre Festplatte nach Bildern.
    ![](assets/des_carousel_browse.png)
 
-   1. Wählen Sie in den **[!UICONTROL Einstellungen]** die Anzahl der gewünschten Miniaturansichten für das Karussell aus.
+   1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
    1. Wählen Sie ein Fallback-Bild von Ihrer Festplatte aus.
    ![](assets/des_carousel_fallback.png)
 
