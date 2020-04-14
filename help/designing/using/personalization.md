@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
@@ -25,11 +25,11 @@ Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachr
 * Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](#adding-a-content-block).
 * Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](#personalizing-the-sender).
 * Betreff einer E-Mail personalisieren. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#subject-line).
-* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email)..
+* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email).
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
-To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon). Weitere Informationen hierzu finden Sie unter [Definieren des Absenders einer E-Mail](../../designing/using/subject-line.md#email-sender).
+Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu definieren, gehen Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol). Weitere Informationen hierzu finden Sie unter [Definieren des Absenders einer E-Mail](../../designing/using/subject-line.md#email-sender).
 
 Sie können den Absendernamen ändern, indem Sie **Name des Absenders** auswählen. Geben Sie nun den gewünschten Absendernamen ein.
 
@@ -65,7 +65,7 @@ Adobe Campaign bietet die Möglichkeit, Felder aus der Datenbank, beispielsweise
 
 Um ein Personalisierungsfeld einzufügen, gehen Sie folgendermaßen vor:
 
-1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -73,7 +73,7 @@ Um ein Personalisierungsfeld einzufügen, gehen Sie folgendermaßen vor:
 
    ![](assets/email_perso_field_2.png)
 
-1. Klicks **[!UICONTROL Confirm]**.
+1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
 Der Name des Felds erscheint daraufhin hervorgehoben im Editor.
 
@@ -95,7 +95,7 @@ Adobe Campaign bietet eine Reihe von vorkonfigurierten Inhaltsbausteinen. Diese 
 
 So fügen Sie einen Inhaltsbaustein hinzu:
 
-1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert content block]**. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Inhaltsbaustein einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
@@ -103,7 +103,7 @@ So fügen Sie einen Inhaltsbaustein hinzu:
 
    ![](assets/email_content_block_2.png)
 
-1. Klicks **[!UICONTROL Save]**.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 Der Name des Bausteins erscheint daraufhin im Editor. Er ist gelb unterlegt. Er wird in der Personalisierungsphase automatisch an das Profil angepasst.
 
@@ -111,21 +111,21 @@ Der Name des Bausteins erscheint daraufhin im Editor. Er ist gelb unterlegt. Er 
 
 Es stehen folgende native Inhaltsbausteine zur Verfügung:
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Dieser Inhaltsblock kann nur in einer **Landingpage** verwendet werden.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Dieser Inhaltsblock kann nur in einem **Versand** verwendet werden.
-* **[!UICONTROL Brand name (BrandingUsualName)]**
-* **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
-* **[!UICONTROL Brand logo (BrandingLogo)]**
-* **[!UICONTROL Notification style (notificationStyle)]**
+* **[!UICONTROL Basis-URL in den E-Mails (EmailUrlBase)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL URL der Mirrorseite (MirrorPageUrl)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL Link zur Mirrorseite (MirrorPage)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL Grußformeln (Greetings)]**
+* **[!UICONTROL Abmelde-Link (UnsubscriptionLink)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL Teilen-Links der sozialen Netzwerke (LandingPageViralLinks)]**: Dieser Inhaltsbaustein kann nur in einer **Landingpage** verwendet werden.
+* **[!UICONTROL Name des Standard-Absenders (DefaultSenderName)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL Name der Standard-E-Mail-Adresse für Antworten (DefaultReplyName)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL Standard-E-Mail-Adresse des Absenders (DefaultSenderAddress)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL Standard-E-Mail-Adresse für Fehler (DefaultErrorAddress)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL Standard-E-Mail-Adresse für Antworten (DefaultReplyAddress)]**: Dieser Inhaltsbaustein kann nur in einem **Versand** verwendet werden.
+* **[!UICONTROL Markenname (BrandingUsualName)]**
+* **[!UICONTROL Link zur Webseite der Marke (BrandingWebSiteLink)]**
+* **[!UICONTROL Markenlogo (BrandingLogo)]**
+* **[!UICONTROL Benachrichtigungsstil (notificationStyle)]**
 
 ### Benutzerdefinierte Inhaltsbausteine erstellen {#creating-custom-content-blocks}
 
@@ -133,28 +133,28 @@ Sie haben die Möglichkeit, weitere Inhaltsbausteine zu erstellen, die in Nachri
 
 Gehen Sie wie folgt vor, um einen Inhaltsbaustein zu erstellen:
 
-1. Click **[!UICONTROL Resources > Content blocks]** from the advanced menu to access the list of content blocks.
-1. Click the **[!UICONTROL Create]** button or duplicate a pre-existing content block.
+1. Greifen Sie über das erweiterte Menü und die Schaltflächen **[!UICONTROL Ressourcen > Inhaltsbausteine]** auf die Liste der Inhaltsbausteine zu.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]** oder duplizieren Sie einen bereits existierenden Inhaltsbaustein.
 
    ![](assets/content_bloc_01.png)
 
 1. Geben Sie einen Titel ein.
-1. Wählen Sie den Block aus **[!UICONTROL Content type]**. Dabei stehen drei Optionen zur Verfügung:
+1. Wählen Sie den **[!UICONTROL Inhaltstyp des Bausteins]**. Dabei stehen drei Optionen zur Verfügung:
 
-   * **[!UICONTROL Shared]**: Der Inhaltsblock kann in einem Versand oder in einer Landingpage verwendet werden.
-   * **[!UICONTROL Delivery]**: Der Inhaltsblock kann nur in einem Versand verwendet werden.
-   * **[!UICONTROL Landing page]**: Der Inhaltsblock kann nur in einer Landingpage verwendet werden.
+   * **[!UICONTROL Freigegeben:]** Der Inhaltsbaustein kann in einem Versand oder einer Landingpage verwendet werden.
+   * **[!UICONTROL Versand:]** Der Inhaltsbaustein kann nur in einem Versand verwendet werden.
+   * **[!UICONTROL Landingpage:]** Der Inhaltsbaustein kann nur in einer Landingpage verwendet werden.
    ![](assets/content_bloc_02.png)
 
-1. Sie können eine **[!UICONTROL Targeting dimension]** auswählen. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Zielgruppendimensionen](#about-targeting-dimension).
+1. Sie können eine **[!UICONTROL Zielgruppendimension]** auswählen. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Zielgruppendimensionen](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
-1. You can select the **[!UICONTROL Depends on format]** option to define two different blocks: one for HTML emails, and one for emails in text format. Im unteren Teil des Editors werden in diesem Fall zwei Tabs (HTML und Text) angezeigt, um den jeweiligen Inhalt zu definieren.
+1. Wählen Sie gegebenenfalls die Option **[!UICONTROL Formatabhängig]** aus, um zwei verschiedene Bausteine zu definieren: einen für E-Mails im HTML-Format und einen für E-Mails im Textformat. Im unteren Teil des Editors werden in diesem Fall zwei Tabs (HTML und Text) angezeigt, um den jeweiligen Inhalt zu definieren.
 
    ![](assets/content_bloc_03.png)
 
-1. Enter the content of the content block(s), and click the **[!UICONTROL Create]** button.
+1. Geben Sie den Inhalt des bzw. der Inhaltsbausteine an und bestätigen Sie die Angaben mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
 
 Der Inhaltsbaustein kann nun im Inhaltseditor einer Nachricht oder einer Landingpage verwendet werden.
 
@@ -162,13 +162,13 @@ Der Inhaltsbaustein kann nun im Inhaltseditor einer Nachricht oder einer Landing
 >
 >Achten Sie darauf, dass beim Bearbeiten des Inhalts eines Bausteins keine zusätzlichen Leerzeichen zwischen dem Anfang und dem Ende Ihrer *if*-Anweisungen vorhanden sind. In HTML werden die Leerzeichen auf dem Bildschirm angezeigt und wirken sich daher auf die Darstellung des Inhalts aus.
 
-### Über Zielgruppendimensionen    {#about-targeting-dimension}
+### Über Zielgruppendimensionen     {#about-targeting-dimension}
 
 Mit der Zielgruppendimension können Sie festlegen, in welchem Nachrichtentyp Sie den Inhaltsbaustein verwenden können. Auf diese Weise wird verhindert, dass in einer Nachricht unpassende Bausteine verwendet werden, die zu Fehlern führen könnten.
 
 Beim Bearbeiten einer Nachricht können Sie nur Inhaltsbausteine mit einer Zielgruppendimension auswählen, die mit der Zielgruppendimension der Nachricht kompatibel ist.
 
-For example, the **[!UICONTROL Unsubscription link]** block&#39;s targeting dimension is **[!UICONTROL Profiles]** because it contains personalization fields specific to the **[!UICONTROL Profiles]** resource. Therefore, you cannot use an **[!UICONTROL Unsubscription link]** block in an [event transactional message](../../channels/using/event-transactional-messages.md), because the targeting dimension of that type of message is **[!UICONTROL Real-time events]**. Sie können aber den Baustein **Abmelde-Link** in einer [Profil-Transaktionsnachricht](../../channels/using/profile-transactional-messages.md) verwenden, weil die Zielgruppendimension dieses Nachrichtentyps **Profile** lautet. Finally, the **[!UICONTROL Link to mirror page]** block does not have a targeting dimension, so you can use it in any message.
+Beispielsweise ist die Zielgruppendimension des Bausteins **[!UICONTROL Abmelde-Link]** **[!UICONTROL Profile]**, da diese Zielgruppendimension Personalisierungsfelder speziell für die Ressource **[!UICONTROL Profile]** enthält. Folglich kann der Baustein **[!UICONTROL Abmelde-Link]** nicht in einer [Ereignis-Transaktionsnachricht](../../channels/using/event-transactional-messages.md) verwendet werden, weil die Zielgruppendimension dieses Nachrichtentyps **[!UICONTROL Echtzeit-Ereignisse]** lautet. Sie können aber den Baustein **Abmelde-Link** in einer [Profil-Transaktionsnachricht](../../channels/using/profile-transactional-messages.md) verwenden, weil die Zielgruppendimension dieses Nachrichtentyps **Profile** lautet. Der Baustein **[!UICONTROL Link zur Mirrorseite]** hat keine Zielgruppendimension, deshalb kann er in jeder beliebigen Nachricht verwendet werden.
 
 Wenn Sie dieses Feld leer lassen, ist der Inhaltsbaustein unabhängig von der Zielgruppendimension mit allen Nachrichten kompatibel. Wenn Sie eine Zielgruppendimension festlegen, ist dieser Baustein nur mit Nachrichten kompatibel, die dieselbe Zielgruppendimension aufweisen.
 
@@ -185,13 +185,13 @@ Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourc
 Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht ein oder mehrere Bilder nach einem bestimmten Kriterium zu personalisieren oder Tracking zu verwenden, indem Sie Personalisierungsfelder, Inhaltsbausteine oder dynamische Inhalte in die Bildquelle einfügen. Gehen Sie wie folgt vor:
 
 1. Fügen Sie entweder ein neues Bild in Ihren Nachrichteninhalt ein oder wählen Sie ein bereits vorhandenes Bild aus.
-1. In the image properties palette, check the **[!UICONTROL Enable personalization]** option.
+1. Aktivieren Sie in der Palette der Bildeigenschaften die Option **[!UICONTROL Personalisierung aktivieren]**.
 
    ![](assets/des_personalize_images_1.png)
 
-   The **[!UICONTROL Source]** field is displayed and the image selected is shown as **personalized** in the editor.
+   Das Feld **[!UICONTROL Quelle]** wird angezeigt und das ausgewählte Bild ist im Editor als **personalisiert** gekennzeichnet.
 
-1. Click the pencil next to the **[!UICONTROL Source]** field button to access the personalization options.
+1. Greifen Sie mithilfe des Stiftsymbols neben der Schaltfläche des **[!UICONTROL Quelle]**-Felds auf die Personalisierungsoptionen zu.
 1. Fügen Sie im Anschluss an die ursprüngliche Bildquelle die gewünschten Personalisierungsfelder, Inhaltsbausteine und dynamischen Inhalte hinzu.
 
    ![](assets/des_personalize_images_2.png)
@@ -208,7 +208,7 @@ Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht ein oder mehrer
 
 Es besteht die Möglichkeit, für alle Elemente Sichtbarkeitsbedingungen zu definieren. Das entsprechende Element wird nur dann angezeigt, wenn die Bedingung erfüllt ist.
 
-To add a visibility condition, select a block and enter the condition to be respected in the **[!UICONTROL Visibility condition]** field of its settings.
+Markieren Sie den gewünschten Block und geben Sie in den Einstellungen im Feld **[!UICONTROL Sichtbarkeitsbedingung]** die zu erfüllende Bedingung an.
 
 ![](assets/delivery_content_5.png)
 
@@ -229,11 +229,11 @@ Es besteht die Möglichkeit, für eine E-Mail multiple Inhalte zu erstellen, die
 Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtbarkeitsbedingungen](#defining-a-visibility-condition).
 
 1. Wählen Sie ein Fragment, eine Komponente oder ein Element aus. Wählen Sie für dieses Beispiel ein Bild aus.
-1. Click the **[!UICONTROL Dynamic content]** icon from the contextual toolbar.
+1. Wählen Sie in der dedizierten Symbolleiste das Symbol für **[!UICONTROL dynamischen Inhalt]** aus.
 
    ![](assets/dynamic_content_2.png)
 
-   The **[!UICONTROL Dynamic content]** section appears in the palette on the left.
+   Daraufhin wird in der Palette auf der linken Seite der Bereich **[!UICONTROL Dynamischer Inhalt]** angezeigt.
 
    ![](assets/dynamic_content_3.png)
 
@@ -243,11 +243,11 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
    >
    >Für den Inhalt muss stets eine Standardvariante vorhanden sein. Diese kann nicht gelöscht werden.
 
-1. Click the **[!UICONTROL Edit]** button to define the display conditions for the first alternative variant.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** aus, um die Anzeigebedingungen für die erste Variante zu definieren.
 
    ![](assets/dynamic_content_4.png)
 
-1. Geben Sie einen Titel ein und wählen Sie die Felder aus, die als Bedingungen spezifiziert werden sollen. For example, from the **[!UICONTROL General]** node, select the **[!UICONTROL Age]** field
+1. Geben Sie einen Titel ein und wählen Sie die Felder aus, die als Bedingungen spezifiziert werden sollen. Wählen Sie beispielsweise im Knoten **[!UICONTROL Allgemein]** das Feld **[!UICONTROL Alter]** aus.
 
    ![](assets/dynamic_content_5.png)
 
@@ -269,7 +269,7 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
 
    ![](assets/dynamic_content_10.png)
 
-1. Click **[!UICONTROL Add a condition]** to add a new content and its linked rule.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Bedingung hinzufügen]**, um einen weiteren Inhalt und die entsprechende Regel hinzuzufügen.
 
    ![](assets/dynamic_content_9.png)
 
@@ -286,7 +286,7 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 * [Ausdrucksbearbeitung](../../automating/using/editing-queries.md#about-query-editor)
 
-### Prioritätsstufe    {#order-of-priority}
+### Prioritätsstufe     {#order-of-priority}
 
 Bei der Definition eines dynamischen Inhalts im Ausdruckseditor wird folgende Priorität verwendet:
 
@@ -330,11 +330,11 @@ Gehen Sie wie folgt vor:
 
 **Für die Zielgruppe 18 bis 27 Jahre:**
 
-1. Select the dynamic content in the **[!UICONTROL Properties]** palette and click the **[!UICONTROL Edit]** button.
+1. Markieren Sie den dynamischen Inhalt im **[!UICONTROL Eigenschaften]**-Bereich der Palette und öffnen Sie den Ausdruckseditor mithilfe der Schaltfläche **[!UICONTROL Bearbeiten]**.
 
    ![](assets/delivery_content_48.png)
 
-1. Edit the label then select the **[!UICONTROL Age]** field from the **[!UICONTROL Profile]** node.
+1. Benennen Sie den Inhalt und wählen Sie im **[!UICONTROL Profil]**-Knoten das **[!UICONTROL Alter]**-Feld aus.
 
    ![](assets/delivery_content_49.png)
 
@@ -342,7 +342,7 @@ Gehen Sie wie folgt vor:
 
    ![](assets/delivery_content_50.png)
 
-1. Add a new **[!UICONTROL Age]** condition.
+1. Fügen Sie eine weitere Bedingung vom Typ **[!UICONTROL Alter]** hinzu.
 
    Vervollständigen Sie den Ausdruck mit dem Operator **Kleiner oder gleich** und 27. Auf diese Weise werden alle Profile ausgewählt, für die die Bedingung **27 Jahre und jünger** zutrifft.
 
@@ -353,7 +353,7 @@ Gehen Sie wie folgt vor:
 **Für die Zielgruppe über 27 Jahre:**
 
 1. Markieren Sie den nächsten dynamischen Inhalt in der Palette und öffnen Sie den Ausdruckseditor.
-1. Edit the label then select the **[!UICONTROL Age]** field from the **[!UICONTROL Profile]** node.
+1. Benennen Sie den Inhalt und wählen Sie im **[!UICONTROL Profil]**-Knoten das **[!UICONTROL Alter]**-Feld aus.
 1. Vervollständigen Sie den Ausdruck mit dem Operator **Größer als** und 27. Auf diese Weise werden alle Profile ausgewählt, für die die Bedingung **älter als 27 Jahre** zutrifft.
 
    ![](assets/delivery_content_52.png)
@@ -362,7 +362,7 @@ Gehen Sie wie folgt vor:
 
 Die dynamischen Inhalte für die Illustrationen wurden korrekt konfiguriert.
 
-### Text konfigurieren    {#configuring-text}
+### Text konfigurieren     {#configuring-text}
 
 Gehen Sie wie folgt vor:
 
@@ -370,11 +370,11 @@ Gehen Sie wie folgt vor:
 
 1. Markieren Sie die anzupassende Strukturkomponente und fügen Sie einen dynamischen Inhalt hinzu.
 1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
-1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
+1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der dedizierten Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
 
    ![](assets/delivery_content_53.png)
 
-1. In the list that appears, select the **[!UICONTROL First name]** field and confirm.
+1. Markieren Sie in der sich öffnenden Liste das **[!UICONTROL Vorname]**-Feld und bestätigen Sie Ihre Auswahl.
 
    ![](assets/delivery_content_54.png)
 
@@ -384,17 +384,17 @@ Gehen Sie wie folgt vor:
 
 1. Markieren Sie die anzupassende Strukturkomponente und fügen Sie einen dynamischen Inhalt hinzu.
 1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
-1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
-1. Select **[!UICONTROL Title]** from the drop-down list.
-1. Gehen Sie ähnlich vor, um das **[!UICONTROL Last name]** Feld hinzuzufügen.
+1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der dedizierten Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
+1. Markieren Sie in der sich öffnenden Liste das **[!UICONTROL Anrede]**-Feld.
+1. Gehen Sie analog vor, um das Feld **[!UICONTROL Nachname]** hinzuzufügen.
 
    ![](assets/delivery_content_56.png)
 
 Die Personalisierungsfelder wurden korrekt in den ausgewählten dynamischen Inhalt eingefügt.
 
-### Vorschau der E-Mail erzeugen    {#previewing-emails}
+### Vorschau der E-Mail erzeugen     {#previewing-emails}
 
-Previewing allows you to check that the personalization fields and the dynamic contents are configured correctly before sending the **[!UICONTROL Proofs]**. Bei der Vorschau können verschiedene Testprofile ausgewählt werden, die den verschiedenen Zielgruppen der E-Mail entsprechen.
+Anhand der Vorschau kann geprüft werden, ob die Personalisierungsfelder und die dynamischen Inhalte korrekt konfiguriert wurden, bevor die **[!UICONTROL Testsendungen]** erzeugt werden. Bei der Vorschau können verschiedene Testprofile ausgewählt werden, die den verschiedenen Zielgruppen der E-Mail entsprechen.
 
 Wenn kein Testprofil ausgewählt wird, wird folgende Standard-E-Mail angezeigt:
 
