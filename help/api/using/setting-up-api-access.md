@@ -11,8 +11,8 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+translation-type: tm+mt
+source-git-commit: fa80fefc1c897afb8448fc0121705102091ecf5c
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 Der Zugriff auf Adobe Campaign Standard-APIs lässt sich mit den folgenden Schritten einrichten: Jeder dieser Schritte wird in der [Adobe I/O-Dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) beschrieben.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Wenn Sie in Adobe I/O Zertifikate verwalten möchten, vergewissern Sie sich, dass Sie in der Admin Console über <b>Systemadministrator</b> -Rechte für das Unternehmen oder ein <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">Entwicklerkonto</a> verfügen.
+>Wenn Sie in Adobe I/O Zertifikate verwalten möchten, vergewissern Sie sich, dass Sie in der Admin Console über <b>Systemadministrator</b> -Rechte für das Unternehmen oder ein [Entwicklerkonto](https://helpx.adobe.com/enterprise/using/manage-developers.html) verfügen.</a>
 
 1. **Überprüfen Sie, ob Sie ein digitales Zertifikat haben**, oder erstellen Sie bei Bedarf eines. Die mit dem Zertifikat bereitgestellten öffentlichen und privaten Schlüssel werden in den folgenden Schritten benötigt.
 1. **Erstellen Sie eine neue Integration mit Adobe Campaign Service** in Adobe I/O und konfigurieren Sie sie. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis...).
