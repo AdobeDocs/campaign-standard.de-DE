@@ -12,8 +12,8 @@ discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+translation-type: tm+mt
+source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
 
 ---
 
@@ -23,12 +23,10 @@ source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 Dieser Bericht fasst alle Informationen zusammen, die den Durchsatz eines Versands bzw. mehrerer Sendungen betreffen. Der Bericht zeigt folgende Kennzahlen:
 
 * Anzahl der verarbeiteten Nachrichten pro Stunde,
-* Die Tabelle **[!UICONTROL 5 häufigste Zustellungen]** und die jeweiligen Zusammenfassungen enthalten die fünf Sendungen mit der höchsten Anzahl an zugestellten Nachrichten.
+* Die Tabelle **[!UICONTROL Top 5 deliveries]** und die jeweiligen Zusammenfassungen enthalten die fünf Sendungen mit der höchsten Anzahl an zugestellten Nachrichten.
 
 ![](assets/delivery_reports_1.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Nach der Aktualisierung auf den erweiterten MTA zeigt die Seite **[!UICONTROL Versanddurchsatz]** nicht mehr den Durchsatz an Ihre E-Mail-Empfänger an. Sie zeigt die Durchsatzgeschwindigkeit für die Weiterleitung Ihrer Nachrichten von Campaign auf den erweiterten MTA an.
->
->Weitere Informationen zum erweiterten MTA von Adobe Campaign finden Sie in diesem [Dokument](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html).
+>The **[!UICONTROL Delivery throughput]** page displays the throughput speed for the relay of your messages from Campaign over to the Adobe Campaign Enhanced MTA.
