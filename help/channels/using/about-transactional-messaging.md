@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ Transaktionsnachrichten sind auch in der Adobe Campaign Standard API verfügbar.
 
 >[!IMPORTANT]
 >
->Nach der Aktualisierung auf den [erweiterten MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html) werden alle Transaktionsnachrichten mit dem erweiterten MTA von Adobe Campaign gesendet, um die Zustellbarkeit, den Durchsatz und die Bounce-Handhabung zu verbessern. Alle Auswirkungen sind dieselben wie bei standardmäßigen Marketing-Nachrichten und werden im Dokument [Erweiterter MTA von Adobe Campaign](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html) beschrieben.
+>Alle Transaktionsnachrichten werden nun mit dem Adobe Campaign Enhanced MTA gesendet, um die Zustellbarkeit, den Durchsatz und die Absprungbehandlung zu verbessern. Alle Auswirkungen sind dieselben wie bei standardmäßigen Marketingmeldungen.
 
 ## Funktionsweise von Transaktionsnachrichten {#transactional-messaging-operating-principle}
 
