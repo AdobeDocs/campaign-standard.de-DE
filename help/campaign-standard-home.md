@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
+source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 ## Neue Funktionen
 
-* **[E-Mail-Tests mit zielgerichteten Profilen](sending/using/testing-messages-using-target.md)**<br/>Erfahren Sie, wie Sie Ihre E-Mails auf echten zielgerichteten Profilen testen können.
+* **[Testen von E-Mails mit Zielgruppenprofilen](sending/using/testing-messages-using-target.md)**<br/>Erfahren Sie, wie Sie Ihre E-Mails an echten Zielgruppenprofilen testen können.
 
 * **[Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html)**<br/>
 Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
@@ -50,12 +50,11 @@ Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand.
     <br>
   </td>
   <td valign="top">
-       <img alt="Entwickler" src="start/using/assets/dev.png" />
-    <div>
-    <strong>Ressourcen für Entwickler</strong>
+       <img alt="Support" src="start/using/assets/do-not-localize/help.jpeg" />
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    Support <strong>anfordern</strong></a>
     </div>
-    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
+    <p><em>Greifen Sie auf häufig gestellte Fragen, Best Practices, Hilferessourcen und die Verbindung mit Experten der Kampagne zu.</em></p>
     <br>
   </td>
 </tr>
@@ -65,9 +64,9 @@ Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand.
 
 | Nützliche Seiten | Ressourcen für Entwickler |
 |---|---|
-| [Versionshinweise](rn/using/release-notes.md) | [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) |
+| [Versionshinweise](rn/using/release-notes.md) | [Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Dokumentation zur Systemsteuerung](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html) | [Kampagne-APIs](api/using/about-campaign-standard-apis.md) |
-| [Anleitungsvideos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Liste von Fehlermeldungen](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) | [Liste von Fehlermeldungen](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanung](rn/using/release-planning.md) | [Kampagne-Datenmodell](developing/using/datamodel-introduction.md) |
 | [Veraltete und entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html) | [Handbuch für mehrere Lösungen](integrating/using/about-campaign-integrations.md) |
 | [Erste Schritte mit Campaign Standard](start/using/campaign-orchestration.md) | [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) |
