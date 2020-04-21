@@ -13,12 +13,24 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
+source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
 
 ---
 
 
 # E-Mail-Kanal konfigurieren{#configuring-email-channel}
+
+Als [Administrator](../../administration/using/about-administrating-adobe-campaign.md)der Kampagne können Sie die Einstellungen für E-Mail-Kanal konfigurieren. Zu diesen erweiterten Einstellungen gehören allgemeine E-Mail-Kanal-Parameter, E-Mail-Routing-Konten, E-Mail-Verarbeitungsregeln und E-Mail-Eigenschaften. Auf dieser Seite erfahren Sie, wie Sie die Standardwerte für die allgemeinen E-Mail- und Senden-Parameter bearbeiten.
+
+Beachten Sie, dass einige E-Mail-Einstellungen jetzt vom Adobe Campaign Enhanced MTA verwaltet werden. Daher
+* Einige Konfigurationen in der Benutzeroberfläche der Kampagne werden nicht mehr angewendet:
+   * Die **[!UICONTROL Retries]** Einstellungen im Menü &quot; [Konfiguration&quot;](#email-channel-parameters) und in den [Senden-Parametern](#retries-parameters) der E-Mail-Eigenschaften.
+   * Die **[!UICONTROL MX management]** und **[!UICONTROL Domain management]** -Regeln im Menü der [E-Mail-Verarbeitungsregeln](#email-processing-rules).
+
+* Andere Parameter werden jetzt teilweise von Enhanced MTA verwaltet, während einige Konfigurationen innerhalb der Kampagne noch möglich sind. Die betroffenen Einstellungen lauten wie folgt:
+   * Der **[!UICONTROL Message delivery duration]** Parameter im **[!UICONTROL Configuration]** Menü. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#email-channel-parameters).
+   * Der **[!UICONTROL Delivery duration]** oder **[!UICONTROL Validity limit for sending messages]** -Parameter im **[!UICONTROL Validity period]** Abschnitt. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#validity-period-parameters).
+   * Die **[!UICONTROL Bounce mails]** Regeln in der **[!UICONTROL Email processing rules]**. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#email-processing-rules).
 
 ## Parameter für den E-Mail-Kanal {#email-channel-parameters}
 
@@ -28,11 +40,11 @@ Im Anzeigebereich &quot;E-Mail-Konfiguration&quot;können Sie die Parameter für
 
 * **Header-Parameter für ausgehende E-Mails**
 
-   In this section, you can specify the **[!UICONTROL masks]** authorized for the sender address and the error address. Bei Angabe von mehr als einer Maske sind die Masken durch Kommata zu trennen. Hierbei handelt es sich um eine optionale Konfiguration. Wenn diese Felder ausgefüllt sind, prüft Adobe Campaign im Zuge der Nachrichtenvorbereitung, dass die in der E-Mail angegebenen Adressen gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten. Absenderadressen sind auf dem Versandserver zu konfigurieren.
+   In this section, you can specify the **[!UICONTROL masks]** authorized for the sender address and the error address. Wenn mehrere Masken verwendet werden, müssen sie durch Kommas getrennt werden. Wenn diese Felder ausgefüllt sind, prüft Adobe Campaign, ob die eingegebenen Adressen während der Vorbereitung der Nachricht gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten. Sowohl Absender- als auch Fehleradressen werden von Adobe eingerichtet. Sie müssen sich an das Adobe-Kundendienstteam wenden, um sie zu aktualisieren.
 
 * **Zustellbarkeit**
 
-   Diese Kennung wird Ihnen vom Support mitgeteilt. Sie ist für die korrekte Funktionsweise der Zustellbarkeitsberichte erforderlich.
+   Diese ID wird vom Adobe-Kundenservice-Team bereitgestellt. Es ist obligatorisch, dass Berichte zur Lieferbarkeit ordnungsgemäß funktionieren.
 
 * **Versandparameter**
 
@@ -40,7 +52,7 @@ Im Anzeigebereich &quot;E-Mail-Konfiguration&quot;können Sie die Parameter für
 
    >[!IMPORTANT]
    >
-   >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Message delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
+   >**Dieser Parameter in Kampagne wird jetzt nur verwendet, wenn er auf 3,5 Tage oder weniger festgelegt ist.** Wenn Sie einen Wert definieren, der länger als 3,5 Tage ist, wird er nicht berücksichtigt, da er nun vom Adobe Campaign Enhanced MTA verwaltet wird.
 
    The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 
@@ -48,9 +60,9 @@ Im Anzeigebereich &quot;E-Mail-Konfiguration&quot;können Sie die Parameter für
 
    Nachrichten, die vorläufig nicht zugestellt werden können, werden automatisch für einen erneuten Versuch vorgesehen. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Nach der Aktualisierung auf das [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html)werden die Einstellungen der **Weitere Zustellversuche** in der Kampagne ignoriert. Die **[!UICONTROL Number of retries]** (Anzahl der weitere Zustellversuche, die am Tag nach dem Start des Versands ausgeführt werden sollen) und die **[!UICONTROL Retry period]** (minimale Verzögerung zwischen weiteren Zustellversuchen) werden von der erweiterten MTA verwaltet, basierend darauf, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft.
+   >Die maximale Anzahl der auszuführenden weitere Zustellversuche und die minimale Verzögerung zwischen den weiteren Zustellversuchen werden nun vom Adobe Campaign Enhanced MTA verwaltet, basierend darauf, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft. Die Einstellungen für **Weitere Zustellversuche** in der Kampagne werden ignoriert.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -62,7 +74,7 @@ Im Anzeigebereich &quot;E-Mail-Konfiguration&quot;können Sie die Parameter für
 
    For more on quarantines, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
-## E-Mail-Routing-Konten    {#email-routing-accounts}
+## E-Mail-Routing-Konten     {#email-routing-accounts}
 
 Das **[!UICONTROL Integrated email routing]** Externe Konto wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
@@ -74,98 +86,41 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 [Externe Konten](../../administration/using/external-accounts.md)
 
-## Regeln zum Umgang mit E-Mails    {#email-processing-rules}
+## Regeln zum Umgang mit E-Mails     {#email-processing-rules}
 
-Administratoren **[!UICONTROL Email processing rules]** können über das **[!UICONTROL Administration > Channels > Email]** Menü auf die Datei zugreifen.
+Der Zugriff auf die Datei **[!UICONTROL Email processing rules]** ist über das **[!UICONTROL Administration > Channels > Email]** Menü möglich.
 
-In den Regeln sind die von Remote-Servern potenziell zurückgegebenen Strings enthalten, die die Qualifizierung der Fehler in **Hardbounce**, **Softbounce** oder **Ignoriert** erlauben.
-
-Folgende Regeln sind in der Standardkonfiguration vorgesehen.
+Beachten Sie, dass die E-Mail-Domänen und die MX-Regeln jetzt vom Adobe Campaign Enhanced MTA verwaltet werden:
+* Die E-Mail-Authentifizierung und -Signierung mit **DKIM (DomainKeys Identified Mail)** erfolgt durch den erweiterten MTA für alle Nachrichten mit allen Domains. Eine Signierung mit **Sender ID**, **DomainKeys** oder **S/MIME** findet nicht statt, es sei denn, auf der Ebene des erweiterten MTA ist etwas anderes angegeben.
+* Die erweiterte MTA verwendet ihre eigenen MX-Regeln, die es ermöglichen, Ihren Durchsatz nach Domäne basierend auf Ihrem eigenen historischen E-Mail-Ruf und dem Echtzeit-Feedback, das von den Domänen stammt, von denen Sie E-Mails senden, anzupassen.
 
 ### Bounce Messages {#bounce-mails}
 
-Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück. Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html).
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rule.
 
-Asynchrone Absprünge werden weiterhin durch die Kampagne inMail-Prozess durch die **[!UICONTROL Bounce mails]** Regel qualifiziert.
+This rule contains the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. Weitere Informationen zur Absprungmail-Qualifizierung finden Sie in diesem [Abschnitt](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+>Bei Fehlermeldungen mit synchronen Versänden bestimmt die erweiterte MTA des Adobe Campaigns den Absprungtyp und die Absprungberechtigung und sendet diese Informationen an die Kampagne zurück.
 
-<!--The user can create his own rules.
+Weiterführende Informationen zur Qualifizierung von Bounce Messages finden Sie in diesem [Abschnitt](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
->[!IMPORTANT]
->
->When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### Verwaltung von E-Mail-Domänen {#managing-email-domains}
+### Management of email domains {#managing-email-domains}
 
-<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-The **SMTP parameters** act as filters applied for a blocking rule.
-
-* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
-
->[!IMPORTANT]
->
->Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
-
-**Die Signierung der DKIM-E-Mail-Authentifizierung (DomainKeys Identified Mail)** erfolgt durch die erweiterte MTA für alle Nachrichten mit allen Domänen. Es wird nicht mit **Sender-ID**, **DomainKeys** oder **S/MIME** signiert, es sei denn, auf der Ebene der erweiterten MTA wird etwas Anderes angegeben.
-
-Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html).
+**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 
 ### MX management {#mx-management}
 
-<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
+The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
-
->[!IMPORTANT]
->
->Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
-
-Der Enhanced MTA verwendet seine eigenen MX-Regeln. Mit diesen kann Ihr Durchsatz anhand Ihrer historischen E-Mail-Reputation und dem Echtzeit-Feedback, das von den Domänen stammt, von denen Sie E-Mails senden, angepasst werden.
-
-Weitere Informationen zum Adobe Campaign Enhanced MTA finden Sie in diesem [Dokument](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html).
-
-<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
-
-For example, the following addresses:
-
-* a.mx.yahoo.com 
-* b.mx.yahoo.com 
-* c.mx.yahoo.com
-
-are compatible with the following masks:
-
-* &#42;.yahoo.com
-* ?.mx.yahoo.com
-
-These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
-
-The following parameters are available for each rule:
-
-* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
-
-    * A number: the rule will only apply to this publicId.
-    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
-
-  If the field is empty, the rule applies to all IDs.
-
-* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
-* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
-* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
-* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
-
->[!IMPORTANT]
->
->* The delivery server (MTA) must be restarted if the parameters have been changed. 
->* The modification or creation of management rules is for expert users only. -->
-
-## Liste der E-Mail-Eigenschaften    {#list-of-email-properties}
+## Liste der E-Mail-Eigenschaften     {#list-of-email-properties}
 
 Dieser Abschnitt behandelt die Liste von Parametern, die in den Eigenschaften einer E-Mail oder einer E-Mail-Vorlage verfügbar sind.
 
@@ -201,9 +156,9 @@ The **[!UICONTROL Send]** section is only available for email templates. Darin s
 
 Nachrichten, die vorläufig nicht zugestellt werden können, werden automatisch für einen erneuten Versuch vorgesehen. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Nach der Aktualisierung auf das [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html)werden die Einstellungen der **Weitere Zustellversuche** in der Kampagne ignoriert. Die **[!UICONTROL Retry period]** (minimale Verzögerung zwischen weiteren Zustellversuchen) und die **[!UICONTROL Max. number of retries]** (wie viele weitere Zustellversuche am Tag nach dem Start des Sendens ausgeführt werden sollten) werden von der erweiterten MTA verwaltet, je nachdem, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft.
+>Die minimale Verzögerung zwischen weiteren Zustellversuchen und die maximale Anzahl der auszuführenden weitere Zustellversuche wird nun vom Adobe Campaign Enhanced MTA verwaltet, basierend darauf, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft. Die Einstellungen für die Kampagne **Weitere Zustellversuche** werden ignoriert.
 
 <!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 
@@ -211,9 +166,9 @@ By default, five retries are scheduled for the first day with a minimum interval
 
 The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
 
-Die Option &quot;Momentum&quot;berücksichtigt in der Kampagne die Einstellung für die Dauer des Versands (die im [Gültigkeitszeitparameter](#validity-period-parameters) definiert ist), jedoch nur bis zu 3,5 Tage. An diesem Punkt wird jede Meldung in der Warteschlange zum Wiederholen aus der Warteschlange entfernt und als Absprung zurückgesendet. Weitere Informationen zu Fehlern bei Versänden finden Sie in diesem [Abschnitt](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
+Die in der Kampagne **eingerichtete Einstellung** für die Dauer des [Versands (die im Abschnitt](#validity-period-parameters) Gültigkeitszeitparameter **definiert ist) wird weiterhin berücksichtigt, jedoch nur bis zu 3,5 Tage**. An diesem Punkt wird jede Meldung in der Warteschlange zum Wiederholen aus der Warteschlange entfernt und als Absprung zurückgesendet. For more on delivery failures, see this [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
-#### Parameter für E-Mail-Format    {#email-format-parameters}
+#### Parameter für E-Mail-Format     {#email-format-parameters}
 
 Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei Optionen zur Verfügung:
 
@@ -244,7 +199,7 @@ Wenn Sie die SMTP-Testmodus-Option für eine E-Mail-Vorlage aktivieren, ist dies
 
 Weiterführende Informationen zur SMTP-Konfiguration finden Sie im Abschnitt [Liste der E-Mail-SMTP-Parameter](#list-of-email-smtp-parameters).
 
-### Parameter für den Gültigkeitszeitraum    {#validity-period-parameters}
+### Parameter für den Gültigkeitszeitraum     {#validity-period-parameters}
 
 Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar:
 
@@ -260,7 +215,7 @@ Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar
 
    >[!IMPORTANT]
    >
-   >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
+   >Dieser Parameter wird nun vom Adobe Campaign Enhanced MTA verwaltet. **Sie müssen einen Wert bis zu 3,5 Tage definieren.** Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: Dieses Feld wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 * **[!UICONTROL Mirror page management]**: Die Mirrorseite ist eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Sie hat den gleichen Inhalt wie die E-Mail. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde. Die Erzeugung der Seite lässt sich in diesem Feld konfigurieren:
@@ -278,7 +233,7 @@ Im Abschnitt **[!UICONTROL Validity period]** sind folgende Parameter verfügbar
 >
 >The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
 
-### Tracking-Parameter    {#tracking-parameters}
+### Tracking-Parameter     {#tracking-parameters}
 
 Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
@@ -298,11 +253,11 @@ Klicken Sie auf die Schaltfläche rechts neben dem Feld, das geändert werden so
 
 Das Einfügen und Verwenden des Personalisierungsinhalts ist in der Dokumentation zum [Personalisieren von E-Mail-Inhalten](../../designing/using/personalization.md) ausführlich beschrieben.
 
-#### Zielgruppen-Kontext    {#target-context}
+#### Zielgruppen-Kontext     {#target-context}
 
 Im Zielgruppen-Kontext werden die für die Zielgruppenbestimmung (im Bildschirm zur Audience-Erstellung) und die Personalisierung (Definition von Personalisierungsfeldern, im HTML-Inhaltseditor) der E-Mail verwendeten Tabellen angegeben.
 
-#### Routing    {#routing}
+#### Routing     {#routing}
 
 In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf ein externes Konto verwiesen. Dies kann zum Beispiel von Nutzen sein, wenn Sie ein externes Konto mit speziellen Branding-Einstellungen verwenden möchten.
 
@@ -310,7 +265,7 @@ In diesem Feld wird der zu verwendende Routing-Modus definiert. Hierzu wird auf 
 >
 >Zu den externen Konten gelangen Sie über das Menü **Administration** > **Anwendungskonfiguration** > **Externe Konten**.
 
-#### Vorbereitung    {#preparation}
+#### Vorbereitung     {#preparation}
 
 Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../../sending/using/preparing-the-send.md) beschrieben.
 
@@ -328,7 +283,7 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
 
 #### Testversandeinstellungen {#proof-settings}
 
-In diesem Abschnitt können Sie das Standardpräfix konfigurieren, das in der Betreffzeile des Testversands verwendet werden soll. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+In diesem Abschnitt können Sie das Standardpräfix konfigurieren, das in der Betreffzeile des Testversands verwendet werden soll. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/sending-proofs.md).
 
 ### Liste der E-Mail-SMTP-Parameter {#list-of-email-smtp-parameters}
 
@@ -342,7 +297,7 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
    >
    >Das Hinzufügen zusätzlicher SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Skripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-### Liste der Parameter für Zugriffsberechtigung    {#list-of-access-authorization-parameters}
+### Liste der Parameter für Zugriffsberechtigung     {#list-of-access-authorization-parameters}
 
 Im Abschnitt **[!UICONTROL Access authorization]** sind folgende Parameter verfügbar:
 
