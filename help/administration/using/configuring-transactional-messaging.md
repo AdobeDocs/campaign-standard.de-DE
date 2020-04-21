@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
+source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 ---
 
@@ -27,9 +27,13 @@ Je nach dem Typ der zu sendenden Transaktionsnachricht kann die Konfiguration un
 
 Nach der Publikation des Ereignisses wird die entsprechende Transaktionsnachricht automatisch erstellt. Weiterführende Informationen zum Thema Transaktionsnachrichten finden Sie auf [dieser Seite](../../channels/using/about-transactional-messaging.md).
 
-## Ereignis erstellen   {#creating-an-event}
+## Ereignis erstellen  {#creating-an-event}
 
 Erstellen Sie das Ereignis zunächst entsprechend Ihren Anforderungen.
+
+>[!NOTE]
+>
+>Die Anzahl der erstellten Echtzeit-Ereignis kann sich auf Ihre Plattform auswirken. Um eine optimale Leistung zu gewährleisten, müssen Sie sicherstellen, dass Sie Ereignis in Echtzeit löschen, die Sie nicht mehr benötigen. See [Deleting an event](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
 
 1. Klicken Sie auf das **[!UICONTROL Adobe Campaign]** Logo in der oberen linken Ecke und wählen Sie dann **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
@@ -51,7 +55,7 @@ Erstellen Sie das Ereignis zunächst entsprechend Ihren Anforderungen.
 
    Bei ereignisbasierten Transaktionsnachrichten werden die im Ereignis selbst vorhandenen Daten verwendet, während bei profilbasierten Transaktionsnachrichten die in der Adobe-Campaign-Datenbank verfügbaren Daten verwendet werden. Lesen Sie diesbezüglich auch den Abschnitt [Konfigurationen für Transaktionsereignisse](#transactional-event-specific-configurations).
 
-## Ereignisattribute definieren   {#defining-the-event-attributes}
+## Ereignisattribute definieren  {#defining-the-event-attributes}
 
 In the **[!UICONTROL Fields]** section, define the attributes that will be integrated into the event content and will then be able to be used to personalize the transactional message.
 
@@ -63,7 +67,7 @@ Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem g
 >
 >Wenn Sie eine mehrsprachige Transaktionsnachricht erstellen möchten, definieren Sie ein zusätzliches Ereignisattribut mit der ID **[!UICONTROL AC_language]**. Dies gilt nur für Transaktionsnachrichten. Nach der Publikation des Ereignisses sind die Schritte zur Bearbeitung des Inhalts einer mehrsprachigen Transaktionsnachricht dieselben wie für eine mehrsprachige Standard-E-Mail. Siehe [Mehrsprachige E-Mail erstellen](../../channels/using/creating-a-multilingual-email.md).
 
-## Datenkollektionen definieren   {#defining-data-collections}
+## Datenkollektionen definieren  {#defining-data-collections}
 
 Sie können zum Ereignisinhalt eine Kollektion von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
 
@@ -95,7 +99,7 @@ Dies ist die API-Vorschau für dieses Beispiel:
 
 Durch die Anreicherung der Transaktionsnachrichten mit Informationen aus der Adobe-Campaign-Datenbank können Nachrichten personalisiert werden. Ausgehend vom Nachnamen oder der CRM-ID all Ihrer Empfänger können Sie beispielsweise Daten wie deren jeweilige Adresse oder das Geburtsdatum oder jedes beliebige in der Profiltabelle hinzugefügte benutzerdefinierte Feld abrufen, um die den Empfängern gesendeten Informationen zu personalisieren.
 
-It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile]** or **[!UICONTROL Service]** resources.
+It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. Weitere Informationen finden Sie unter API [erweitern: Veröffentlichen der Erweiterung](../../developing/using/step-2--publish-the-extension.md)
 
 Diese Informationen können auch in neuen Ressourcen gespeichert werden. In that case, the resource must be linked to the **[!UICONTROL Profile]** or **[!UICONTROL Service]** resources either directly, or via another table. For example, in the configuration below, it is possible to enrich the transactional message content with information from the **[!UICONTROL Product]** resource like the product category or ID, if the **[!UICONTROL Product]** resource is linked to the **[!UICONTROL Profile]** resource.
 
@@ -119,17 +123,17 @@ Weiterführende Informationen zur Erstellung und Publikation von Ressourcen find
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. For more on services, see this [section](../../audiences/using/creating-a-service.md).
+   You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. Weiterführende Informationen zu Diensten finden Sie in [diesem Abschnitt](../../audiences/using/creating-a-service.md).
 
-1. Wenn Sie ein Profil-basiertes Ereignis erstellen oder bearbeiten, wählen Sie im **[!UICONTROL Targeting enrichment]** Abschnitt die Anreicherung aus, die während der Ausführung des Versands als Zielgruppe der Nachricht verwendet wird.
+1. If you are creating or editing a profile-based event, in the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
    >[!NOTE]
    >
-   >Die Auswahl einer Targeting-Anreicherung basierend auf der **[!UICONTROL Profile]** Ressource ist für Profil-basierte Ereignis obligatorisch.
+   >Selecting a targeting enrichment based on the **[!UICONTROL Profile]** resource is mandatory for profile-based events.
 
-Sobald das Ereignis und die Nachricht veröffentlicht wurden, können Sie über diesen Link den Inhalt der Transaktionsnachricht bereichern.
+Nach der Publikation des Ereignisses sowie der Nachricht lässt sich der Inhalt der Transaktionsnachricht über den Link anreichern.
 
 **Verwandte Themen:**
 
@@ -152,7 +156,7 @@ Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen un
 
    ![](assets/message-center_pub.png)
 
-1. Die Veröffentlichungsprotokolle können auf der entsprechenden Registerkarte Ansicht werden.
+1. Die Publikationslogs lassen sich mithilfe des gleichnamigen Tabs einsehen.
 
    ![](assets/message-center_logs.png)
 
@@ -170,13 +174,13 @@ In order for the event to trigger sending a transactional message, you must modi
 
 Außerdem muss die Auslösung dieses Ereignisses in Ihre Webseite integriert werden. Siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website).
 
-Sobald Adobe Campaign-Beginn Ereignis im Zusammenhang mit dieser Ereignis-Konfiguration erhalten, können Sie über den **[!UICONTROL Latest transactional events]** Link unter dem **[!UICONTROL History]** Abschnitt auf die neuesten Ereignis zugreifen, die von Ihrem Drittanbieterdienst gesendet und von Adobe Campaign verarbeitet werden.
+Sobald Adobe Campaign-Beginn Ereignisse im Zusammenhang mit dieser Ereignis-Konfiguration erhalten, können Sie über den **[!UICONTROL Latest transactional events]** Link unter dem **[!UICONTROL History]** Abschnitt auf die neuesten Ereignis zugreifen, die von Ihrem Drittanbieter-Service gesendet und von Adobe Campaign verarbeitet werden.
 
 ![](assets/message-center_latest-events.png)
 
 Die Ereignis (im JSON-Format) werden von der letzten bis zur ältesten aufgelistet. Mit dieser Liste können Sie Daten wie den Inhalt oder den Status eines Ereignisses zu Kontroll- und Debugging-Zwecken überprüfen.
 
-### Ereignis depublizieren   {#unpublishing-an-event}
+### Ereignis depublizieren  {#unpublishing-an-event}
 
 The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Selbst wenn das Ereignis auf Ihrer Webseite ausgelöst wird, werden die entsprechenden Nachrichten nun nicht mehr gesendet und auch nicht in der Datenbank gespeichert.
 
@@ -190,16 +194,16 @@ Click the **[!UICONTROL Publish]** button to generate a new REST API.
 
 ### Löschen eines Ereignisses {#deleting-an-event}
 
-Wenn die Veröffentlichung eines Ereignisses rückgängig gemacht wurde oder ein Ereignis noch nicht veröffentlicht wurde, können Sie es aus der Liste zur Ereignis-Konfiguration löschen. Gehen Sie dazu wie folgt vor:
+Wenn Ereignis depubliziert oder noch nicht publiziert wurde, können Sie es aus der Ereigniskonfigurationsliste löschen. Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf das **[!UICONTROL Adobe Campaign]** Logo in der oberen linken Ecke und wählen Sie dann **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
-1. Bewegen Sie den Mauszeiger über die gewünschte Ereignis-Konfiguration und wählen Sie die **[!UICONTROL Delete element]** Schaltfläche aus.
+1. Hover the mouse over the event configuration of your choice and select the **[!UICONTROL Delete element]** button.
 
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
    >
-   >Vergewissern Sie sich, dass die Konfiguration des Ereignisses den **[!UICONTROL Draft]** Status hat, andernfalls können Sie sie nicht löschen. Der **[!UICONTROL Draft]** Status gilt für ein Ereignis, das noch nicht veröffentlicht wurde oder dessen Veröffentlichung [rückgängig gemacht](#unpublishing-an-event)wurde.
+   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to an event that has not been published yet or that has been [unpublished](#unpublishing-an-event).
 
 1. Click the **[!UICONTROL Confirm]** button.
 
@@ -207,7 +211,7 @@ Wenn die Veröffentlichung eines Ereignisses rückgängig gemacht wurde oder ein
 
 >[!IMPORTANT]
 >
->Wenn Sie eine bereits veröffentlichte und verwendete Ereignis-Konfiguration löschen, werden auch die entsprechende(n) Transaktionsnachricht(n) sowie deren Senden und Trackinglogs gelöscht.
+>Wenn Sie eine bereits publizierte und in Verwendung befindliche Ereigniskonfiguration löschen, werden auch die entsprechenden Transaktionsnachrichten sowie deren Versand- und Trackinglogs gelöscht.
 
 ## Aktivierung des Ereignisses in eine Website integrieren {#integrating-the-triggering-of-the-event-in-a-website}
 
@@ -221,12 +225,12 @@ Weiterführende Informationen dazu finden Sie im Abschnitt [REST-API-Dokumentati
 
 Die Konfiguration von Transaktionsereignissen variiert je nach dem Typ der zu sendenden Transaktionsnachricht (Ereignis oder Profil) und dem verwendeten Kanal.
 
-In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie im Abschnitt   [Ereignis erstellen](#creating-an-event).
+In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie im Abschnitt    [Ereignis erstellen](#creating-an-event).
 
 ### Ereignisbasierte Transaktionsnachrichten {#event-based-transactional-messages}
 
 Um eine ereignisbasierte Transaktionsnachricht zu senden, erstellen und konfigurieren Sie zunächst ein Ereignis, bei dem die im Ereignis selbst enthaltenen Daten zur Zielgruppenbestimmung verwendet werden.
-Weiterführende Informationen finden Sie unter [Interaktionen fördern mit Transaktionsnachrichten](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
+Weiterführende Informationen finden Sie unter [Interaktionen fördern mit Transaktionsnachrichten](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
 
 1. When creating the event configuration, select the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](#creating-an-event)).
 1. Fügen Sie zum Ereignis Felder hinzu, damit Sie die Transaktionsnachricht personalisieren können (siehe [Ereignisattribute definieren](#defining-the-event-attributes)).
@@ -244,7 +248,7 @@ Weiterführende Informationen finden Sie unter [Interaktionen fördern mit Trans
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Profilbasierte Transaktionsnachrichten   {#profile-based-transactional-messages}
+### Profilbasierte Transaktionsnachrichten  {#profile-based-transactional-messages}
 
 Um eine profilbasierte Transaktionsnachricht zu senden, erstellen und konfigurieren Sie zunächst ein Ereignis, bei dem die in der Adobe-Campaign-Datenbank enthaltenen Daten zur Zielgruppenbestimmung verwendet werden.
 
@@ -259,16 +263,16 @@ Um eine profilbasierte Transaktionsnachricht zu senden, erstellen und konfigurie
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Ereignisbasierte Transaktions-Push-Benachrichtigungen   {#event-based-transactional-push-notifications}
+### Ereignisbasierte Transaktions-Push-Benachrichtigungen  {#event-based-transactional-push-notifications}
 
-Für den Versand von Transaktions-Push-Benachrichtigungen müssen Sie Adobe Campaign entsprechend konfigurieren. Siehe [Konfiguration von Push-Benachrichtigungen](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+Für den Versand von Transaktions-Push-Benachrichtigungen müssen Sie Adobe Campaign entsprechend konfigurieren. Siehe [Konfiguration von Push-Benachrichtigungen](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html).
 
 Um eine anonyme Transaktions-Push-Benachrichtigung an alle Benutzer zu senden, die sich für den Empfang von Benachrichtigungen von Ihrer Mobile App angemeldet haben, erstellen und konfigurieren Sie zunächst ein Ereignis, bei dem die im Ereignis selbst enthaltenen Daten zur Zielgruppenbestimmung verwendet werden. Die entsprechenden Schritte finden Sie unten.
 
 Das Ereignis muss diese drei Elemente enthalten:
 
 * Einen **Anmeldetoken** als Nutzerkennung für eine Mobile App und ein Gerät. Möglicherweise entspricht es keinem Profil in der Adobe-Campaign-Datenbank.
-* Einen **Mobile-App-Namen** (einen für alle Geräte – Android und iOS). Dies ist die Kennung der in Adobe Campaign konfigurierten Mobile App, die für den Empfang von Push-Benachrichtigungen auf den Geräten des Benutzers verwendet wird. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+* Einen **Mobile-App-Namen** (einen für alle Geräte – Android und iOS). Dies ist die Kennung der in Adobe Campaign konfigurierten Mobile App, die für den Empfang von Push-Benachrichtigungen auf den Geräten des Benutzers verwendet wird. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html)
 * Eine **Push-Plattform** (&quot;gcm&quot; für Android oder &quot;apns&quot; für iOS).
 
 1. When creating the event configuration, select the **[!UICONTROL Mobile application]** channel and the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](#creating-an-event)).
@@ -289,7 +293,7 @@ Das Ereignis muss diese drei Elemente enthalten:
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Profilbasierte Transaktions-Push-Benachrichtigungen   {#profile-based-transactional-push-notifications}
+### Profilbasierte Transaktions-Push-Benachrichtigungen  {#profile-based-transactional-push-notifications}
 
 Um eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile zu senden, die sich für Ihre Mobile App angemeldet haben, müssen Sie zunächst ein Ereignis erstellen und konfigurieren, bei dem die in der Adobe-Campaign-Datenbank enthaltenen Daten zur Zielgruppenbestimmung verwendet werden.
 
@@ -314,7 +318,7 @@ Um eine Transaktions-Push-Benachrichtigung an die Adobe-Campaign-Profile zu send
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Ereignis konfigurieren, um eine Folgenachricht zu senden   {#configuring-an-event-to-send-a-follow-up-message}
+### Ereignis konfigurieren, um eine Folgenachricht zu senden    {#configuring-an-event-to-send-a-follow-up-message}
 
 Eine Folgenachricht ist eine vordefinierte Marketing-Versandvorlage, die in einem Workflow verwendet werden kann, um Nachrichten an die Empfänger einer bestimmten Transaktionsnachricht zu senden. Lesen Sie diesbezüglich auch den Abschnitt [Folgenachrichten](../../channels/using/follow-up-messages.md).
 
@@ -327,7 +331,7 @@ Eine Folgenachricht ist eine vordefinierte Marketing-Versandvorlage, die in eine
 
    Mit Ausführung der Publikation werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Lesen Sie zur Verwendung von Folgenachrichten auch den Abschnitt [Folgenachrichten senden](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 
-## Anwendungsbeispiel: Konfiguration eines Ereignisses zum Senden einer Transaktionsnachricht   {#use-case--configuring-an-event-to-send-a-transactional-message}
+## Anwendungsbeispiel: Konfiguration eines Ereignisses zum Senden einer Transaktionsnachricht  {#use-case--configuring-an-event-to-send-a-transactional-message}
 
 In diesem Beispiel möchten wir ein Ereignis konfigurieren, um nach jedem Kauf auf unserer Website eine Bestätigungsnachricht mit folgenden Merkmalen zu senden:
 
