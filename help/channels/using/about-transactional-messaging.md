@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ Der Nachrichtentyp wird bei der Konfiguration des Ereignisses definiert, das ein
 
 Transaktionsnachrichten sind auch in der Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/managing-transactional-messages.md).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Alle Transaktionsnachrichten werden nun mit dem Adobe Campaign Enhanced MTA gesendet, um die Zustellbarkeit, den Durchsatz und die Absprungbehandlung zu verbessern. Alle Auswirkungen sind dieselben wie bei standardmäßigen Marketingmeldungen.
+>Alle Transaktionsnachrichten werden nun mit dem Adobe Campaign Enhanced MTA gesendet, um die Zustellbarkeit, den Durchsatz und die Absprungbehandlung zu verbessern. Alle Auswirkungen sind dieselben wie bei standardmäßigen Marketingmeldungen. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
 
 ## Funktionsweise von Transaktionsnachrichten {#transactional-messaging-operating-principle}
 
