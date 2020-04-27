@@ -10,20 +10,30 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51a3faaf839a678aeb99c533f0f67f103c7913d6
+translation-type: tm+mt
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
-# Einführung in das Datenmodell{#data-model-introduction}
+# Datenmodellbeschreibung{#data-model-introduction}
 
 Adobe Campaign enthält ein vordefiniertes Datenmodell.
 
-Das Datenmodell von Adobe Campaign Standard zeigt die native SQL-Struktur für eine Reihe von Marketing-bezogenen Ressourcen an.
+Das Adobe Campaign Standard-Datenmodell zeigt die integrierte SQL-Struktur für eine Reihe von Marketingressourcen an.
 
-Diese Inhalte sind für Beratungsdienste oder Entwickler gedacht.
+Dieser Abschnitt richtet sich an Kampagnen- oder Entwickler.
 
-Für jede Ressource werden in einer Tabelle die SQL-Felder mit den verfügbaren Eigenschaften wie interner Name, Typ und Details der Auflistung aufgeführt. Im zweiten Teil werden native Filter vorgestellt, die mit der Ressource verknüpft sind. Jeder Filter verfügt über eine eigene Parameterliste.
+Für jede Ressource finden Sie auf den Unterseiten eine Tabelle, in der die SQL-Felder mit den verfügbaren Eigenschaften Liste werden, z. B.: interne Bezeichnung, Typ und Auflistung. Integrierte Filter, die mit der Ressource verknüpft sind, werden ebenfalls aufgelistet. Jeder Filter verfügt über eine eigene Parameterliste.
 
-Dieses Datenmodell kann von [Administratoren](../../administration/using/users-management.md#functional-administrators) mit neuen Ressourcen oder Erweiterungen vorhandener Ressourcen abgeändert werden.
+>[!NOTE]
+>Das Datenmodell der Kampagne kann nur von [Administratoren](../../administration/using/users-management.md#functional-administrators) geändert werden.
+
+## Verwandte Themen{#data-model-related}
+
+| Nützliche Seiten | Zusätzliche Ressourcen |
+|---|---|
+| [Erste Schritte mit dem Datenmodell](data-model-concepts.md) | [Profil-Ressource erweitern](extending-the-profile-resource-with-a-new-field.md) |
+| [Best Practices für Datenmodelle](data-model-best-practices.md) | [Abonnement-Ressource erweitern](extending-the-subscriptions-to-an-application-resource.md) |
+| [Hinzufügen einer neuen Ressource](key-steps-to-add-a-resource.md) | [Erweitern der Profil-API](about-extending-the-api.md) |
+| [Ressourcen erstellen oder erweitern](creating-or-extending-the-resource.md) | [Ressource mit einem zusammengesetzten Schlüssel aufrufen](uc-calling-resource-id-key.md) |
