@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 # Unifi für Microsoft Dynamics 365-Integration konfigurieren
 
-Konfigurieren Sie Unifi, um Microsoft Dynamics 365 - Adobe Campaign-Integration einzurichten und zu aktivieren.
+Konfigurieren Sie Unifi, um die Microsoft Dynamics 365 - Adobe Campaign-Integration einzurichten und zu aktivieren.
 
 ## Voraussetzungen
 
@@ -55,7 +55,7 @@ Es sollte ungefähr so aussehen: `https://console.adobe.io/integrations/<Org ID>
 Gehen Sie wie folgt vor, um Ihre Mandant-ID abzurufen:
 
 1. Navigieren Sie zur [Adobe Admin Console](https://adminconsole.adobe.com/) und wählen Sie Ihr IMS-Org aus dem oberen rechten Dropdownmenü.
-1. Wählen Sie Ihr Adobe Campaign Standard-Produkt aus und wählen Sie dann Ihre Campaign Standard-Instanz aus (wenn Sie mehr als eine haben).  Dadurch wird eine Liste von Produkt-Profilen entstehen.
+1. Wählen Sie Ihr Adobe Campaign Standard-Produkt und dann Ihre Campaign Standard-Instanz aus (wenn Sie mehr als eine haben).  Dadurch wird eine Liste von Produkt-Profilen entstehen.
 
    Die Produktbeschreibungen werden in der Regel in einem der folgenden Profil angezeigt, wobei die `<tenantID>` Mandant-ID der Instanz angegeben wird.
 
@@ -139,7 +139,7 @@ Für verschiedene Anwendungsfälle wird die folgende Häufigkeit empfohlen:
 >
 >SEND-Marketing-Ereignis werden standardmäßig aus dem regulären Auftrag herausgefiltert.  Wenn Sie SEND Marketing-Ereignis in Dynamics 365 sehen möchten, müssen Sie den Filter (Schritt 5) des Regressauftrags in Unifi ändern.
 
-Es gibt zwei separate Rollen in Unifi, einem Benutzer mit Eigentümer und einem Benutzer mit schreibgeschütztem Analyst. Ein Benutzer, der Eigentümer ist, kann Aufträge und Zeitpläne ändern, der schreibgeschützte Analyst nicht.  Für eine bestimmte Kundeninstanz kann es nur einen Eigentümer-Benutzer geben.  Wenn der Kunde die als Eigentümer zugewiesene Person ändern muss, können Sie eine E-Mail an [adobe-support@unifisoftware.com](mailto: adobe-support@unifisoftware.com) mit der angeforderten Änderung.
+Es gibt zwei separate Rollen in Unifi, einem Benutzer mit Eigentümer und einem Benutzer mit schreibgeschütztem Analyst. Ein Benutzer, der Eigentümer ist, kann Aufträge und Zeitpläne ändern, der schreibgeschützte Analyst nicht.  Für eine bestimmte Kundeninstanz kann es nur einen Eigentümer-Benutzer geben.  Wenn der Kunde die als Eigentümer zugewiesene Person ändern muss, kann er mit der angeforderten Änderung eine E-Mail an [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) senden.
 
 Die folgenden Videos zeigen die Unifi-Konfiguration, Auftragsdetails, Einrichtung und Überwachung.
 
@@ -149,7 +149,7 @@ Die folgenden Videos zeigen die Unifi-Konfiguration, Auftragsdetails, Einrichtun
 
 >[!VIDEO](https://video.tv.adobe.com/v/27392)
 
-In diesem Video werden die verschiedenen Unifi-Aufträge erläutert, die für die Integration von Adobe Campaign Standard in Microsoft Dynamics 365 erforderlich sind (02:10 Min.)
+In diesem Video werden die verschiedenen Unifi-Aufträge erläutert, die für die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 erforderlich sind (02:10 Min.)
 
 ### Unifi-Auftragsdetails: Ingress &amp; Kongress
 
