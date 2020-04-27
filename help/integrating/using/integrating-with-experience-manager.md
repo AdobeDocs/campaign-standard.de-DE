@@ -11,8 +11,8 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
+translation-type: tm+mt
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -41,25 +41,26 @@ Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 
 
    Bei der Implementierung von Experience Manager muss der Externalizer für Adobe Campaign Standard konfiguriert werden, damit ein Ressourcenpfad in eine URL umgewandelt werden kann. Dies ist erforderlich, um Ihre Bilder auf der Seite sichtbar zu machen. Wenn der Externalizer nicht richtig konfiguriert ist, enthalten Ihre E-Mails fehlerhafte Bilder.
 
-   Weiterführende Informationen zur Konfiguration des Externalizers finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/externalizer.html)
+   Weiterführende Informationen zur Konfiguration des Externalizers finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/externalizer.html).
 
 * **Organisieren Sie Ihre E-Mail-Vorlagen, um zu vermeiden, dass die falschen verwendet werden.**
 
    Indem Sie Vorlagen organisiert halten, stellen Sie sicher, dass diese in den ihrer Funktion entsprechenden Ordnern abgelegt werden, sodass nicht versehentlich die falschen verwendet werden. Bei der Implementierung sollten daher Pfade erstellt werden, um Vorlagen an den richtigen Speicherorten abzulegen.
 
-   Weiterführende Informationen zu Vorlagen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/templates/templates.html#template-availability)
+   Weiterführende Informationen zu Vorlagen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **Vordefinierten Komponenten erleichtern Ihnen den Einstieg.**
 
    Die in Adobe Experience Manager für Adobe Campaign Standard vordefinierten Komponenten erleichtern Ihnen den Einstieg, wenn Ihre Vorlagen nicht komplex sind.
 In Experience Manager stehen hierfür sieben vordefinierte Komponenten zur Verfügung:
-   1. Überschrift
-   1. Bild
-   1. Link
-   1. Scene7-Bildvorlage
-   1. Zielgerichteter Verweis
-   1. Text und Bild
-   1. Text und Personalisierung
+
+   * Überschrift
+   * Bild
+   * Link
+   * Scene7-Bildvorlage
+   * Zielgerichteter Verweis
+   * Text und Bild
+   * Text und Personalisierung
 
 * **HTML für E-Mails unterscheidet sich von HTML für das Web**
 
@@ -68,7 +69,7 @@ In Experience Manager stehen hierfür sieben vordefinierte Komponenten zur Verf�
 * **Heben Sie die Verknüpfung von Inhalten mit Vorlagen auf, um die Vorlagen wiederzuverwenden.**
 
    Wenn Sie für die Einrichtung Ihrer E-Mails in Campaign Standard eine Experience Manager-Vorlage verwenden, darf diese Vorlage nicht mit einer anderen Kampagne verknüpft sein. Andernfalls würden Sie, wenn Sie den Inhalt in Adobe Experience Manager für die eine Kampagne ändern und aktualisieren, den Inhalt in der anderen Kampagne unbeabsichtigt beeinflussen.
-Um dies zu vermeiden, können Sie die Verknüpfung der Vorlage aufheben, nachdem Sie die Vorlage verwendet haben. Wählen Sie dazu einfach die Vorlage aus und klicken Sie auf **[!UICONTROL Verknüpfung mit Adobe Experience Manager-Inhalt löschen]**.
+Um dies zu vermeiden, können Sie die Verknüpfung der Vorlage aufheben, nachdem Sie die Vorlage verwendet haben. Sie müssen nur die Vorlage auswählen und auf klicken **[!UICONTROL Delete the link with Adobe Experience Manager content]**.
 
 * **Erstellen Sie mit Adobe Experience Manager verschiedene Varianten von E-Mails für Adobe Campaign Standard.**
 
