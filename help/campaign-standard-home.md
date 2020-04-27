@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## Neue Funktionen
 
-* **[Testen von E-Mails mit Zielgruppenprofilen](sending/using/testing-messages-using-target.md)**<br/>Erfahren Sie, wie Sie Ihre E-Mails an echten Zielgruppenprofilen testen können.
+* **[Testen von E-Mails mit Zielgruppenprofilen](sending/using/testing-messages-using-target.md)**<br/>Erfahren Sie, wie Sie Ihre E-Mails an echten Zielgruppenprofilen testen können
 
 * **[Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html)**<br/>
-Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen.
+Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen
 
 * **[Handbuch zum Mobil-Versand in Campaign Standard](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/>
-Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand.
+Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand
 
 [Klicken Sie hier für weitere Updates.](rn/using/documentation-updates.md)
 
@@ -36,7 +36,7 @@ Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand.
     <div>
     <a href="administration/using/about-access-management.md"><strong>Rollen und Sicherheitsgruppen</strong></a>
     </div>
-    <em>Erfahren Sie, wie Sie Berechtigungen definieren und Campaign-Benutzern Rollen zuweisen.</em>
+    <em>Erfahren Sie, wie Sie Berechtigungen definieren und Campaign-Benutzern Rollen zuweisen</em>
     <br>
   </td>
   <td valign="top">
@@ -54,7 +54,7 @@ Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand.
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     Support <strong>anfordern</strong></a>
     </div>
-    <p><em>Greifen Sie auf häufig gestellte Fragen, Best Practices, Hilferessourcen und die Verbindung mit Experten der Kampagne zu.</em></p>
+    <p><em>Häufig gestellte Fragen, Best Practices, Hilfe und Verbindung mit Experten</em></p>
     <br>
   </td>
 </tr>
