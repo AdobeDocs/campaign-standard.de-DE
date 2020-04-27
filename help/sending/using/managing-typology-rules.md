@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -42,21 +42,21 @@ Die wichtigsten Schritte zum Erstellen einer Typologieregel sind:
 
 1. Rufen Sie das **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** Menü auf und klicken Sie dann auf **[!UICONTROL Create]**.
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. Geben Sie die Typologie ein **[!UICONTROL Label]** und legen Sie dann fest, **[!UICONTROL Channel]** für welche Regel gelten soll.
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. Geben Sie die Typologieregel an **[!UICONTROL Type]** und konfigurieren Sie sie dann entsprechend Ihren Anforderungen. Beachten Sie, dass die Konfiguration der Typologieregeln je nach Typ unterschiedlich ist. Weitere Informationen finden Sie in den Abschnitten **[Filterregeln](../../sending/using/filtering-rules.md)**und**[ Ermüdungsregeln](../../sending/using/fatigue-rules.md)** .
 
 1. Wählen Sie die Typologien aus, in die die neue Regel eingefügt werden soll. Wählen Sie dazu die **[!UICONTROL Typologies]** Registerkarte und klicken Sie dann auf **[!UICONTROL Create element]** Schaltfläche.
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. Wählen Sie die gewünschte Typologie aus und klicken Sie auf **[!UICONTROL Confirm]**.
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. Nachdem Sie alle Typologien ausgewählt haben, klicken Sie auf **[!UICONTROL Create]** , um die Erstellung der Typologieregel zu bestätigen.
 
