@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -27,7 +27,7 @@ In diesem Dokument werden die wichtigsten Empfehlungen beim Entwerfen Ihres Adob
 >
 >Informationen zum Erstellen und Ändern von Ressourcen zur Erweiterung des vordefinierten Adobe Campaign-Datenmodells finden Sie in [diesem Abschnitt](../../developing/using/key-steps-to-add-a-resource.md).
 >
->Eine Darstellung des Datenmodells für native Ressourcen finden Sie [hier](../../developing/using/datamodel-introduction.md).
+>Sie finden eine Datenmodelldarstellung der integrierten Ressourcen auf [dieser Seite](../../developing/using/datamodel-introduction.md).
 
 ## Übersicht {#overview}
 
