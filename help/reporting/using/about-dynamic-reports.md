@@ -12,20 +12,20 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
 
 ---
 
 
 # Über dynamische Berichte{#about-dynamic-reports}
 
+Die dynamische Berichterstellung ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte. Durch sie kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. Mit der Drag &amp; Drop-Funktion können Sie Daten analysieren sowie feststellen, wie Ihre E-Mail-Kampagnen bei Ihren wichtigsten Kundensegmenten angekommen sind, und ihre Wirkung auf die Empfänger messen.
+
 >[!NOTE]
 >
 >Nur Benutzer, die Administratorrechte besitzen oder deren Organisationseinheiten mit **Alle** festgelegt sind, können einen neuen Bericht erstellen oder speichern. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
-
-Die dynamische Berichterstellung ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte. Durch sie kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. Mit der Drag &amp; Drop-Funktion können Sie Daten analysieren sowie feststellen, wie Ihre E-Mail-Kampagnen bei Ihren wichtigsten Kundensegmenten angekommen sind, und ihre Wirkung auf die Empfänger messen.
 
 Dank dem Drag &amp; Drop-Menü und den anpassbaren Grafiken können Sie mit dieser Funktion Dimensionen, Messwerte und Zeitspannen beliebig kombinieren und so dynamische Berichte mit unbegrenzten Verteilungs- und Vergleichsmöglichkeiten erstellen.
 
@@ -68,7 +68,7 @@ Die Nutzungsvereinbarung zur dynamischen Berichterstattung wird als Popup angeze
 Drei Optionen stehen zur Wahl:
 
 * **[!UICONTROL Ask me later]**: Wenn Sie später **auf** Fragen klicken, wird das Fenster 24 Stunden lang nicht mehr angezeigt. Die Profildimensionen werden dann nicht in den Berichten aufgeführt und die personenbezogenen Daten Ihrer Kunden werden weder erfasst noch transferiert. Dies geschieht erst, wenn Sie der Nutzungsvereinbarung zustimmen.
-* **[!UICONTROL Accept]**: Indem Sie diese Vereinbarung akzeptieren, autorisieren Sie Adobe Campaign, die persönlichen ID-Informationen Ihrer Kunden zu erfassen und sie an den Berichte oder das Rechenzentrum zu übertragen.
+* **[!UICONTROL Accept]**: Mit der Annahme dieser Vereinbarung autorisieren Sie Adobe Campaign, die persönlichen Daten Ihrer Kunden zu sammeln und an den Berichte oder das Rechenzentrum zu übertragen.
 * **[!UICONTROL Decline]**: Wenn Sie den Vertrag ablehnen, erscheinen die Profil-Dimensionen nicht in Ihren Berichten, und die personenbezogenen Daten Ihrer Kunden werden nicht erfasst oder gesendet. Beachten Sie, dass in diesem Fall die externe Kennung dennoch erfasst und zur Identifizierung der Endbenutzer verwendet wird.
 
 Die nachstehende Tabelle zeigt, was nach der Annahme dieser Vereinbarung je nach Region geschieht.
