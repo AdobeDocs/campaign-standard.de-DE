@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # E-Mail-Kanal konfigurieren{#configuring-email-channel}
 
-Als [Administrator](../../administration/using/about-administrating-adobe-campaign.md)der Kampagne können Sie die Einstellungen für E-Mail-Kanal konfigurieren. Zu diesen erweiterten Einstellungen gehören allgemeine E-Mail-Kanal-Parameter, E-Mail-Routing-Konten, E-Mail-Verarbeitungsregeln und E-Mail-Eigenschaften. Auf dieser Seite erfahren Sie, wie Sie die Standardwerte für die allgemeinen E-Mail- und Senden-Parameter bearbeiten.
+Als [Administrator](../../administration/using/users-management.md#functional-administrators)der Kampagne können Sie die Einstellungen für E-Mail-Kanal konfigurieren. Zu diesen erweiterten Einstellungen gehören allgemeine E-Mail-Kanal-Parameter, E-Mail-Routing-Konten, E-Mail-Verarbeitungsregeln und E-Mail-Eigenschaften. Auf dieser Seite erfahren Sie, wie Sie die Standardwerte für die allgemeinen E-Mail- und Senden-Parameter bearbeiten.
 
 Beachten Sie, dass einige E-Mail-Einstellungen jetzt vom Adobe Campaign Enhanced MTA verwaltet werden. Daher
 * Einige Konfigurationen in der Benutzeroberfläche der Kampagne werden nicht mehr angewendet:
@@ -273,7 +273,7 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
 
    >[!NOTE]
    >
-   >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../sending/using/about-typology-rules.md) section.
+   >Typologien, die über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** aufgerufen werden können, werden in [diesem Abschnitt](../../sending/using/about-typology-rules.md)dargestellt.
 
 * **[!UICONTROL Compute the label during delivery preparation]**: ermöglicht die Berechnung des Beschriftungswerts der E-Mail während der Vorbereitung der Nachricht mithilfe von Personalisierungsfeldern, Inhaltsblöcken und dynamischem Text.
 
