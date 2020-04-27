@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -294,7 +294,7 @@ Nachdem die Veröffentlichung einer Transaktionsnachricht rückgängig gemacht w
 
 Transaktionsnachrichten können jedoch nur unter gewissen Voraussetzungen gelöscht werden:
 
-* Vergewissern Sie sich, dass die Transaktionsnachricht den **[!UICONTROL Draft]** Status hat. Andernfalls können Sie sie nicht löschen. Der **[!UICONTROL Draft]** Status gilt für eine Nachricht, die noch nicht veröffentlicht wurde oder die [unveröffentlicht](#unpublishing-a-transactional-message) (und nicht [angehalten](#suspending-a-transactional-message-publication)) wurde.
+* Make sure the transactional message has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. Der **[!UICONTROL Draft]** Status gilt für eine Nachricht, die noch nicht veröffentlicht wurde oder die [unveröffentlicht](#unpublishing-a-transactional-message) (und nicht [angehalten](#suspending-a-transactional-message-publication)) wurde.
 
 * **Transaktionsnachrichten**: Wenn keine andere Transaktionsnachricht mit dem entsprechenden Ereignis verknüpft ist und die Veröffentlichung der Transaktionsnachricht rückgängig gemacht wird, muss auch die Veröffentlichung der Ereignis-Konfiguration rückgängig gemacht werden, damit die Transaktionsnachricht erfolgreich gelöscht werden kann. Weitere Informationen finden Sie unter [Rückgängigmachen der Veröffentlichung eines Ereignisses](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
