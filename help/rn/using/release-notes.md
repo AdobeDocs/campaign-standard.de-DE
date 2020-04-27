@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -70,6 +70,9 @@ source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 * Die Anzahl der Zeichen, die im Feld **Präfix** zum [Testen von Nachrichten mit zielgerichteten Profilen](../../sending/using/testing-messages-using-target.md) verwendet werden können, wurde von 32 auf 500 Zeichen erhöht.
 * Die maximale Anzahl von Echtzeit-Ereignissen, die in einer Instanz veröffentlicht werden können, wurde von 350 auf 2000 erhöht. (CAMP-41608)
+* Die Synchronisierung zwischen Adobe Launch und Campaign Standard wurde mithilfe des technischen Arbeitsablaufs syncWithLaunch verbessert. Dieser Arbeitsablauf ermöglicht den automatischen Import aller mobilen Adobe Launch-Eigenschaften in Adobe Campaign Standard. For more information, refer to [this page](../../administration/using/technical-workflows.md).
+
+   Sie müssen ein Ticket an die Adobe-Kundenunterstützung senden (entweder direkt oder über Ihren Adobe-Kontakt), damit der technische Arbeitsablauf syncWithLaunch in Ihrer Kampagne aktiviert wird. (CAMP-40082)
 
 **Verbesserungen bei Email Designer**
 
