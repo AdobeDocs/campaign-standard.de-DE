@@ -12,8 +12,8 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
+translation-type: tm+mt
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -26,18 +26,18 @@ Adobe Campaign enthält ein vordefiniertes Datenmodell. Dieses Datenmodell kann 
 >
 >Die Erstellung und Änderung von Ressourcen sind heikle Aufgaben, die nur von erfahrenen Benutzern durchgeführt werden können.
 
-Das über das Adobe Campaign-Logo verfügbare Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** dient der Verwaltung von **benutzerdefinierten Ressourcen**, ihrer **Publikation** und dem **Zugriff auf Diagnose-Tools**.
+The **[!UICONTROL Administration]** > **[!UICONTROL Development]** menu, accessed via the Adobe Campaign logo, allows you to manage your **custom resources**, **publish** them, and **access the diagnostic tools**.
 
 Die von Adobe Campaign verwendeten Daten werden mithilfe verschiedener Ressourcen beschrieben. Es besteht die Möglichkeit der **Anreicherung des zur Verfügung gestellten Datenmodells** durch benutzerdefinierte Ressourcen.
 
-Sie können also beispielsweise Tabellen mit Verkaufs- oder Produktdaten erstellen. Native Anwendungsressourcen (Kampagnen, E-Mails oder Audiences) können nicht geändert werden. Sie können jedoch erweitert werden, um neue Felder hinzuzufügen.
+Integrierte Ressourcen (wie Kampagnen, E-Mails oder Audiencen) können nicht geändert werden. Sie können jedoch erweitert werden, um neue Felder hinzuzufügen.
 
-Aus Ressourcenerweiterungen stammende Felder werden mit einem Präfix versehen. Auf diese Weise entstehen keine Konflikte mit nativen Anwendungsfeldern.
+Erweiterungsfelder werden mit einem Präfix generiert, sodass sie nie mit den integrierten Feldern in Konflikt geraten.
 
 >[!NOTE]
 >
->Eine Darstellung des Datenmodells für vordefinierte Ressourcen finden Sie [hier](../../developing/using/datamodel-introduction.md).
+>Sie finden eine Datenmodelldarstellung für die integrierten Ressourcen auf [dieser Seite](../../developing/using/datamodel-introduction.md).
 
-Des Weiteren kann in den der neuen Ressource entsprechenden Bildschirmen die **Navigation konfiguriert werden**.
+Des Weiteren kann in den der neuen Ressource entsprechenden Bildschirmen die [Navigation konfiguriert werden](configuring-the-screen-definition.md).
 
 Benutzerdefinierte Ressourcen lassen sich **exportieren und importieren** , z. B. aus einer Entwicklungsumgebung in eine Produktionsumgebung. Weiterführende Informationen dazu finden Sie in diesem [schrittweisen Anwendungsbeispiel](../../automating/using/exporting-importing-custom-resources.md).
