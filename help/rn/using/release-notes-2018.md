@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 ---
 
@@ -108,7 +108,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Typologiefilter für Abonnenten mobiler Apps<br /> </td> 
-   <td> Unterstützung von Abonnements bei Typologiefiltern: Bei der Spezifizierung der Filterbedingungen für eine Typologieregel können App-Abonnements als Filter- und Zielgruppendimension ausgewählt werden. Dies ermöglicht das Filtern nach Attributen von Benutzern mit oder ohne Profil. <br /> Lesen Sie für weiterführende Informationen das <a href="../../sending/using/about-typology-rules.md#typology-rules">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Unterstützung von Abonnements bei Typologiefiltern: Bei der Spezifizierung der Filterbedingungen für eine Typologieregel können App-Abonnements als Filter- und Zielgruppendimension ausgewählt werden. Dies ermöglicht das Filtern nach Attributen von Benutzern mit oder ohne Profil. <br /> Lesen Sie für weiterführende Informationen das <a href="../../sending/using/about-typology-rules.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Automatischer Import von Inhalten von einer URL während der Nachrichenvorbereitung<br /> </td> 
