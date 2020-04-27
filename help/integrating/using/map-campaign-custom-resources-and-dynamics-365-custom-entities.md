@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ Eine umfassendere Übersicht über die benutzerspezifischen Ressourcen der Kampa
 
 Um die Integration für benutzerdefinierte Entitäten einzurichten, wenden Sie sich an [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) , um dies anzufordern.  Unifi erfordert die Namen der benutzerdefinierten Entitätstabellen in beiden Systemen sowie die gewünschten Attributzuordnungen.  Unifi erstellt dann die entsprechenden Aufträge und Zeitpläne.
 
-Ein Beispielanwendungsfall für die Unterstützung benutzerdefinierter Entitäten finden Sie im Abschnitt [Verwendungsfall](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC).
+Nachfolgend finden Sie ein Beispiel für die Unterstützung benutzerdefinierter Entitäten.
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ Ein Beispielanwendungsfall für die Unterstützung benutzerdefinierter Entitäte
 
 
 ## Umsetzung
-
 
 ### Startstatus
 
@@ -179,5 +178,5 @@ Nach Abschluss des Eingabefelds können die Fahrzeugdaten nun in der neu ausgef�
 
 **Verwandte Themen**
 
-* Arbeiten mit Adobe Campaign Standard - Microsoft Dynamics 365
-* Wichtige Schritte zum Hinzufügen einer benutzerdefinierten Ressource in der Kampagne
+* [Arbeiten mit Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Wichtige Schritte zum Hinzufügen einer benutzerdefinierten Ressource in der Kampagne](../../developing/using/key-steps-to-add-a-resource.md)
