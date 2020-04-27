@@ -11,33 +11,33 @@ topic-tags: about-custom-resources
 discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # Status der Ressourcen{#resource-statuses}
 
-Je nach Publikations- oder Aktivierungszustand weisen Ressourcen verschiedene Status auf.
+Je nach Veröffentlichungs- oder Aktivierung-Status können Ressourcen unterschiedliche Status haben.
 
-Im Übersichtsbildschirm der **[!UICONTROL benutzerdefinierten Ressourcen]** wird ihr Status standardmäßig in zwei Spalten angezeigt.
+There are two columns dedicated to displaying these statuses in the **[!UICONTROL Custom resources]** screen.
 
 ![](assets/schema_colonne_1.png)
 
 **Publikationsstatus**
 
-* **Entwurf**: Die Ressource wurde neu erstellt oder zurückgesetzt. Sie muss publiziert werden, um die Tabellen und Datenbankfelder sowie die entsprechenden API zu erzeugen. Eine zurückgesetzte Ressource wird im Zuge der Publikation automatisch deaktiviert.
-* **Initialisierung ausstehend**: Der Benutzer hat die Zurücksetzung der Ressource angefordert. Die Initialisierung erfolgt im Zuge der nächsten Publikation. Warnhinweise bei der Zurücksetzungsanforderung und im Anschluss an die Publikationsvorbereitung machen den Benutzer darauf aufmerksam, das eine Zurücksetzung unwiderruflich ist.
+* **Entwurf**: Die Ressource wurde neu erstellt oder zurückgesetzt. Um die Datenbanktabellen sowie die entsprechenden APIs zu erstellen, muss die Ressource erneut veröffentlicht werden. Wenn eine Ressource neu entworfen wird, wird sie nach dem Schritt der Veröffentlichung automatisch inaktiv.
+* **Initialisierung ausstehend**: Der Benutzer hat die Zurücksetzung der Ressource angefordert. Die Initialisierung erfolgt im Zuge der nächsten Publikation. Es werden mehrere Warnmeldungen angezeigt, die den Benutzer informieren, sowohl bei der Neufassung als auch bei der Vorbereitung der Veröffentlichung.
 
    Weiterführende Informationen zum Zurücksetzen finden Sie im Abschnitt [Ressource löschen](../../developing/using/deleting-a-resource.md).
 
    >[!NOTE]
    >
-   >Die Option **[!UICONTROL Zurücksetzung abbrechen]** ist verfügbar, wenn die Ressource, die Sie zurücksetzen möchten, Relationen mit anderen Ressourcen mit dem Status „Publiziert“ aufweist. Mithilfe dieser Option lässt sich der Initialisierungsprozess umkehren. Die benutzerdefinierten Ressourcen nehmen auf diese Weise ihren ursprünglichen Status an.
+   >The **[!UICONTROL Cancel re-draft]** option is available when the resource that you want to re-draft still contains links through other resources with the &quot;Published&quot; status. Mithilfe dieser Option lässt sich der Initialisierungsprozess umkehren. Die benutzerdefinierten Ressourcen nehmen auf diese Weise ihren ursprünglichen Status an.
 
-* **Publiziert**: Die Ressource wurde publiziert. Wenn eine publizierte Ressource in der Folge geändert wird, fordert ein Hinweis den Benutzer auf, sie erneut zu publizieren, um die Änderungen zu übernehmen.
+* **Publiziert**: Die Ressource wurde publiziert. Wenn die Ressource nach dem letzten Änderungsdatum geändert wurde, wird eine Meldung angezeigt, die Sie auffordert, die Ressource erneut zu veröffentlichen, um die neuesten Änderungen zu berücksichtigen.
 
-Durch Aktivierung der Option **[!UICONTROL Letzte Änderungen nicht publizieren]** vermeiden Sie, dass Ihre Änderungen bei zukünftigen Publikationen berücksichtigt werden.
+Das **[!UICONTROL Do not publish latest modifications]** Feld verhindert, dass Änderungen bei zukünftigen Veröffentlichungen berücksichtigt werden.
 
 Die Konfiguration dieser Option erfolgt im Definitionsbildschirm der benutzerdefinierten Ressource.
