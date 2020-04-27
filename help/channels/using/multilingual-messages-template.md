@@ -11,15 +11,15 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+translation-type: tm+mt
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
 
 # Vorlagen für mehrsprachige Nachrichten {#multilingual-messages-template}
 
-Eine mehrsprachige Vorlage dient zur Verwaltung mehrsprachiger Nachrichten. Diese Vorlagenart ist verfügbar für **E-Mail**- und **SMS-Nachrichten** und kann im Einzelmodus, innerhalb eines Workflows oder in einem wiederkehrenden Versand verwendet werden.
+Eine mehrsprachige Vorlage dient zur Verwaltung mehrsprachiger Nachrichten. Diese Vorlagenart ist verfügbar für **** E-Mail- und SMS-Nachrichten **und kann im Einzelmodus, innerhalb eines Workflows oder in einem wiederkehrenden Versand verwendet werden.**
 
 Bei mehrsprachigen Vorlagen basiert die Sprachverwaltung auf Varianten. **Jede Variante steht für eine Sprache**. In Adobe Campaign Standard können bis zu 40 Varianten erstellt werden.
 
@@ -35,14 +35,14 @@ Führen Sie zur Erstellung einer SMS- oder E-Mail-Vorlage die folgenden Schritte
 
    >[!NOTE]
    >
-   >Sie können auch eine vorhandene Standardvorlage in eine mehrsprachige Vorlage umwandeln, indem Sie in den Vorlageneigenschaften die Schaltfläche **[!UICONTROL Inhaltsvariante initialisieren]** auswählen.
+   >You can also modify an existing standard template in a multilingual template by clicking on the **[!UICONTROL Initialize content variant]** button in the template properties.
 
 1. Passen Sie in den Eigenschaften Titel, Tracking etc. an.
 1. Ändern Sie die Anzahl der gewünschten Varianten durch Anklicken der Variantenkachel. Das Variantenfenster öffnet sich.
 
    ![](assets/multi_template_variants.png)
 
-   Dort können Sie Varianten hinzufügen oder entfernen. Um eine Variante hinzuzufügen, füllen Sie das Fenster **[!UICONTROL Neue Inhaltsvariante]** aus.
+   Dort können Sie Varianten hinzufügen oder entfernen. Um eine Variante hinzuzufügen, füllen Sie das **[!UICONTROL New content variant]** Fenster aus.
 
    ![](assets/multi_template_newvariant.png)
 
@@ -50,7 +50,7 @@ Führen Sie zur Erstellung einer SMS- oder E-Mail-Vorlage die folgenden Schritte
    >
    >Löschen Sie nicht die Standardvariante, da diese an die Profile gesendet wird, für die keine bevorzugte Sprache ausgewählt wurde.
 
-1. Passen Sie bei Bedarf den Titel an und wählen Sie die Schaltfläche **[!UICONTROL Bestätigen]** aus.
+1. Customize label variant if needed and click **[!UICONTROL Confirm]**.
 1. Sie können den Inhalt für jede Variante auch direkt hinzufügen.
 
 Jetzt können Sie basierend auf dieser mehrsprachigen Vorlage eine E-Mail oder SMS erstellen.
