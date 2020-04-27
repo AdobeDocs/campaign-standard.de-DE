@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,19 +21,21 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 Um eine Transaktionsnachricht mit Adobe Campaign zu senden, müssen Sie zunächst die Struktur der Ereignisdaten definieren.
 
-Die Ereigniskonfiguration muss von einem **Administrator** durch Ausführung der folgenden Schritte vorgenommen werden:
+Event configuration must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators) following the steps below.
 
-Je nach dem Typ der zu sendenden Transaktionsnachricht kann die Konfiguration unterschiedlich sein. Lesen Sie diesbezüglich auch den Abschnitt [Konfigurationen für Transaktionsereignisse](#transactional-event-specific-configurations).
+>[!NOTE]
+>
+>Je nach dem Typ der zu sendenden Transaktionsnachricht kann die Konfiguration unterschiedlich sein. Lesen Sie diesbezüglich auch den Abschnitt [Konfigurationen für Transaktionsereignisse](#transactional-event-specific-configurations).
 
 Nach der Publikation des Ereignisses wird die entsprechende Transaktionsnachricht automatisch erstellt. Weiterführende Informationen zum Thema Transaktionsnachrichten finden Sie auf [dieser Seite](../../channels/using/about-transactional-messaging.md).
 
 ## Ereignis erstellen  {#creating-an-event}
 
-Erstellen Sie das Ereignis zunächst entsprechend Ihren Anforderungen.
+Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 
 >[!NOTE]
 >
->Die Anzahl der erstellten Echtzeit-Ereignis kann sich auf Ihre Plattform auswirken. Um eine optimale Leistung zu gewährleisten, müssen Sie sicherstellen, dass Sie Ereignis in Echtzeit löschen, die Sie nicht mehr benötigen. See [Deleting an event](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
+>Nur Benutzer, die die **[!UICONTROL Administration]** Rolle innehaben und zur **[!UICONTROL All]** Organisationseinheit [](../../administration/using/organizational-units.md) gehören, haben die entsprechenden Rechte zum Erstellen einer Ereignis-Konfiguration.
 
 1. Klicken Sie auf das **[!UICONTROL Adobe Campaign]** Logo in der oberen linken Ecke und wählen Sie dann **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
@@ -55,6 +57,10 @@ Erstellen Sie das Ereignis zunächst entsprechend Ihren Anforderungen.
 
    Bei ereignisbasierten Transaktionsnachrichten werden die im Ereignis selbst vorhandenen Daten verwendet, während bei profilbasierten Transaktionsnachrichten die in der Adobe-Campaign-Datenbank verfügbaren Daten verwendet werden. Lesen Sie diesbezüglich auch den Abschnitt [Konfigurationen für Transaktionsereignisse](#transactional-event-specific-configurations).
 
+>[!NOTE]
+>
+>Die Anzahl der erstellten Echtzeit-Ereignis kann sich auf Ihre Plattform auswirken. Um eine optimale Leistung zu gewährleisten, müssen Sie sicherstellen, dass Sie Ereignis in Echtzeit löschen, die Sie nicht mehr benötigen. See [Deleting an event](#deleting-an-event).
+
 ## Ereignisattribute definieren  {#defining-the-event-attributes}
 
 In the **[!UICONTROL Fields]** section, define the attributes that will be integrated into the event content and will then be able to be used to personalize the transactional message.
@@ -71,7 +77,7 @@ Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem g
 
 Sie können zum Ereignisinhalt eine Kollektion von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
 
-Diese Kollektion kann in Transaktions-E-Mails verwendet werden, um Produktlisten zum Nachrichteninhalt hinzuzufügen, wie z. B. eine Liste mit Produkten einschließlich Preis, Referenznummer, Menge etc. für jedes Produkt auf der Liste.
+This collection can be used in a transactional email to add [product listings](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. für jedes Produkt auf der Liste.
 
 1. Klicken Sie im **[!UICONTROL Collections]** Abschnitt auf die **[!UICONTROL Create element]** Schaltfläche.
 
@@ -84,6 +90,12 @@ Diese Kollektion kann in Transaktions-E-Mails verwendet werden, um Produktlisten
 
    ![](assets/message-center_collection_fields.png)
 
+1. Auf der **[!UICONTROL Enrichment]** Registerkarte können Sie jedes Element der Sammlung anreichern. Auf diese Weise können Sie die Elemente der entsprechenden Produktliste mit Informationen aus der Adobe Campaign-Datenbank oder anderen von Ihnen erstellten Ressourcen personalisieren.
+
+>[!NOTE]
+>
+>Die Anreicherungsschritte für die Elemente einer Sammlung entsprechen den Anweisungen im Abschnitt [Anreichern des Ereignisses](#enriching-the-transactional-message-content) . Beachten Sie, dass Sie beim Anreichern des Ereignisses keine Sammlung anreichern können: Sie müssen der Sammlung im **[!UICONTROL Collections]** Abschnitt eine Anreicherung hinzufügen.
+
 Nach der Publikation des Ereignisses sowie der Nachricht lässt sich diese Kollektion in den Transaktionsnachrichten verwenden.
 
 Dies ist die API-Vorschau für dieses Beispiel:
@@ -95,9 +107,9 @@ Dies ist die API-Vorschau für dieses Beispiel:
 * [Vorschau erstellen und Ereignis publizieren](#previewing-and-publishing-the-event)
 * [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## Inhalt der Transaktionsnachricht anreichern {#enriching-the-transactional-message-content}
+## Anreicherung des Ereignisses {#enriching-the-transactional-message-content}
 
-Durch die Anreicherung der Transaktionsnachrichten mit Informationen aus der Adobe-Campaign-Datenbank können Nachrichten personalisiert werden. Ausgehend vom Nachnamen oder der CRM-ID all Ihrer Empfänger können Sie beispielsweise Daten wie deren jeweilige Adresse oder das Geburtsdatum oder jedes beliebige in der Profiltabelle hinzugefügte benutzerdefinierte Feld abrufen, um die den Empfängern gesendeten Informationen zu personalisieren.
+Sie können den Inhalt der Transaktionsnachricht mit Informationen aus der Adobe Campaign-Datenbank bereichern, um Ihre Nachrichten zu personalisieren. Ausgehend vom Nachnamen oder der CRM-ID all Ihrer Empfänger können Sie beispielsweise Daten wie deren jeweilige Adresse oder das Geburtsdatum oder jedes beliebige in der Profiltabelle hinzugefügte benutzerdefinierte Feld abrufen, um die den Empfängern gesendeten Informationen zu personalisieren.
 
 It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. Weitere Informationen finden Sie unter API [erweitern: Veröffentlichen der Erweiterung](../../developing/using/step-2--publish-the-extension.md)
 
