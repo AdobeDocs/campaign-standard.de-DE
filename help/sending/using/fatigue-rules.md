@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ Um Ermüdungsregeln zu implementieren, müssen Sie eine Höchstzahl von Nachrich
 Verwandte Themen:
 
 * [Vorbereitung](../../administration/using/configuring-email-channel.md#preparation)
-* [Typologien verwalten](../../sending/using/about-typology-rules.md#managing-typologies)
-* [Typologieregeln](../../sending/using/about-typology-rules.md#typology-rules)
+* [Typologien verwalten](../../sending/using/managing-typologies.md)
+* [Typologieregeln](../../sending/using/managing-typology-rules.md)
 * [Kommunikationsfrequenz zur Vermeidung von Kontaktmüdigkeit optimieren](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Ermüdungsregel erstellen  {#creating-a-fatigue-rule}
