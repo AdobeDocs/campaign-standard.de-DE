@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -31,7 +31,7 @@ Darüber hinaus können Sie Vorlagen für den Datenimport einrichten. Die Verwen
 
 Sie können zwei Arten von Vorlagen einrichten:
 
-* **Workflow-Vorlagen**: Hierbei handelt es sich um vorkonfigurierte Workflows, die Sie einmal entsprechend Ihren Anforderungen einrichten und jedes Mal wiederverwenden können, wenn Sie Daten importieren und die Datenbank aktualisieren möchten.
+* **Workflow-Vorlagen**: Diese sind vorkonfigurierte Workflows, die Sie je nach Bedarf einmalig einrichten und jedes Mal, wenn Sie Daten importieren und die Datenbank aktualisieren möchten, erneut verwenden können.
 
    Ein Beispiel für eine Workflow-Vorlage zum Importieren von Daten finden Sie in [diesem Abschnitt](../../automating/using/importing-data.md#example--import-workflow-template).
 
@@ -70,4 +70,4 @@ Weiterführende Informationen zur Verwendung von APIs finden Sie im [entsprechen
 
 >[!CAUTION]
 >
->Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
