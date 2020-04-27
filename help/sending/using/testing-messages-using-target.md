@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ Um Zielgruppenprofile zum Testen zu verwenden, m체ssen Sie diese zun채chst ausw�
 
    If you want to add a specific prefix to the proofs&#39; subject line, fill in the **[!UICONTROL Subject line prefix]** field.
 
+   >[!NOTE]
+   >
+   >Das Pr채fix der Betreffzeile kann bis zu 500 Zeichen lang sein.
+
    ![](assets/substitution_address.png)
 
    Das Pr채fix wird wie folgt angezeigt:
@@ -116,6 +120,10 @@ Gehen Sie wie folgt vor, um Profile, die zum Testen einer Audience verwendet wer
    ![](assets/substitution_audience_import.png)
 
 1. W채hlen Sie die zu verwendende Audience aus und geben Sie dann die Ersatzadresse und das Pr채fix ein, die f체r die an die Audience gesendeten Testsendungen verwendet werden sollen.
+
+   >[!NOTE]
+   >
+   >Das Pr채fix der Betreffzeile kann bis zu 500 Zeichen lang sein.
 
    ![](assets/substitution_audience_define.png)
 
