@@ -12,8 +12,8 @@ discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 88d0f67683c5209ccf25d1ceae1ab23b3ac14e06
+translation-type: tm+mt
+source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
 
 ---
 
@@ -28,21 +28,16 @@ Weitere Informationen dazu finden Sie in der Tabelle [Rollen und Berechtigungen]
 
 ![](assets/user_management_3.png)
 
-Rollen können über das Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Rollen]** verwaltet werden.
+Rollen können über das **[!UICONTROL Administration > Users & Security > Roles]** Menü verwaltet werden.
 
 Standardberechtigungen sind:
 
-* **[!UICONTROL Administration]**: Berechtigt zur allgemeinen Administration.
+* **[!UICONTROL Administration]**: Allgemeine Verwaltungsrechte.
 * **[!UICONTROL Datamodel]**: Berechtigt zur Durchführung von Veröffentlichungen und zur Erstellung von benutzerdefinierten Ressourcen.
-* **[!UICONTROL Export]**: Berechtigt zum Export von Daten.
-* **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Dazu muss die Rolle **[!UICONTROL Allgemeiner Import]** mit der **[!UICONTROL Workflow]**-Rolle verknüpft werden.
-* **[!UICONTROL Sendungen vorbereiten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten und Löschen von Sendungen. Benutzer mit dieser Rolle können einen Versand vorbereiten, aber nicht durchführen.
-* **[!UICONTROL Sendungen starten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten, Senden und Löschen von Sendungen.
+* **[!UICONTROL Generic import]**: Recht zum Ausführen eines generischen Imports für Daten. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
+* **[!UICONTROL Prepare deliveries]**: Recht zum Erstellen, Ändern, Vorbereiten und Löschen von Versänden. Benutzer mit dieser Rolle können einen Versand vorbereiten, aber nicht durchführen.
+* **[!UICONTROL Start deliveries]**: Berechtigung zum Erstellen, Ändern, Vorbereiten, Senden und Löschen von Versänden.
 * **[!UICONTROL Workflow]**: Berechtigung zum Verwalten der Ausführung von Workflows (Start, Stopp, Pause usw.). Benutzer mit dieser Rolle können auch in einem Workflow keine Sendungen durchführen.
-
->[!IMPORTANT]
->
->Die Rollen **[!UICONTROL Zustellbarkeit]**, **[!UICONTROL Befehlsausführung]**, **[!UICONTROL Export]**, **[!UICONTROL Zugriff auf Daten]** und **[!UICONTROL Message Center Push]** sind nur für die interne Nutzung durch Adobe-Administratoren vorgesehen. Diese Rollen sollten Benutzern nicht gewährt werden.
 
 **Verwandte Themen:**
 
