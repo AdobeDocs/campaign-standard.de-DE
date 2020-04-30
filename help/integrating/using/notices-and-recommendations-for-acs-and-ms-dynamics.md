@@ -1,5 +1,5 @@
 ---
-title: '"Arbeiten mit Campaign Standard und Microsoft Dynamics 365: Mitteilungen und Empfehlungen"'
+title: Informationen zur Microsoft Dynamics 365-Integration
 description: Erfahren Sie mehr über Hinweise und Empfehlungen zum Arbeiten mit Campaign Standard und Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620be6615d162672948c3dccdae2752b8c999c47
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Arbeiten mit Campaign Standard und Microsoft Dynamics 365: Mitteilungen und Empfehlungen
+# Informationen zur Microsoft Dynamics 365-Integration
 
 ## Regionalunterstützung
 
@@ -31,7 +31,7 @@ Für die Synchronisierung von Kontakten und benutzerdefinierten Entitäten behan
 
 ## Datenschutzanforderungen verwalten
 
-Diese Integration wurde entwickelt, um Endbenutzerdaten (einschließlich, aber nicht ausschließlich, personenbezogener Daten, sofern diese in Ihren Endbenutzerdaten enthalten sind) zwischen Microsoft Dynamics 365 und Adobe Campaign Standard zu übertragen.  Als für die Verarbeitung der Daten verantwortliche Person ist Ihre Firma für die Einhaltung der für die Erhebung und Nutzung personenbezogener Daten geltenden Datenschutzgesetze und -vorschriften verantwortlich.
+Diese Integration wurde entwickelt, um Endbenutzerdaten (einschließlich, aber nicht beschränkt auf personenbezogene Daten, sofern diese in Ihren Endbenutzerdaten enthalten sind) zwischen Microsoft Dynamics 365 und Adobe Campaign Standard zu übertragen.  Als für die Verarbeitung der Daten verantwortliche Person ist Ihre Firma für die Einhaltung der für die Erhebung und Nutzung personenbezogener Daten geltenden Datenschutzgesetze und -vorschriften verantwortlich.
 
 Für diese Integration müssen Sie jede Anforderung der betroffenen Person in jedem System unabhängig bearbeiten, damit die Änderung in beiden Datenbanken angezeigt wird. Die Änderung sollte zunächst in Microsoft Dynamics 365 und dann in Adobe Campaign Standard ausgeführt werden. Die einzige Ausnahme ist, dass eine datenschutzbezogene Löschanforderung in Campaign Standard, wenn ein Kontakt in Dynamics 365 gelöscht wird, der Datenschutzwarteschlange hinzugefügt wird.
 
@@ -49,7 +49,7 @@ Wenn ein Kontakt in Dynamics 365 gelöscht wird, stellt die Integration eine dat
 
 Wenn der zweistufige Vorgang jedoch aktiviert ist, müssen Sie nach Ausführung der Technischen Workflows zum Datenschutz in den Bildschirm &quot;Datenschutzanfragen/Tools&quot;wechseln und bestätigen, dass die Datensätze gelöscht werden sollen.  Erst dann übernimmt die Kampagne die Löschung.
 
-Weitere Informationen finden Sie unter [Ausführen datenschutzbezogener Löschanforderungen in Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/execute-privacy-requests.html)
+Weitere Informationen finden Sie unter [Ausführung datenschutzbezogener Löschanforderungen in Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/execute-privacy-requests.html)
 
 >[!CAUTION]
 >
@@ -85,7 +85,7 @@ Die bidirektionale Opt-out-Konfigurationsfunktion ist derzeit nicht in der Lage,
 
 >[!NOTE]
 >
->Bitte überprüfen Sie die standardmäßigen und spezifischen Typologieregeln in Adobe Campaign und aktualisieren Sie sie gegebenenfalls, bevor Sie hier Änderungen vornehmen, um sicherzustellen, dass diese Änderungen korrekt auf alle ausgehenden Mitteilungen angewendet werden. Achten Sie beispielsweise darauf, dass alle Zuordnungen zu den Ausschluss-Voreinstellungen die Absichten-/Kommunikationsoptionen des Empfängers exakt widerspiegeln und den Versand von Beziehungen oder Transaktionsnachrichten wie z. B. die Auftragsbestätigungen des Kunden nicht versehentlich beenden.
+>Bitte überprüfen Sie die standardmäßigen und spezifischen Typologieregeln in Adobe Campaign und aktualisieren Sie diese gegebenenfalls, bevor Sie hier Änderungen vornehmen, um sicherzustellen, dass diese korrekt auf alle ausgehenden Mitteilungen angewendet werden. Achten Sie beispielsweise darauf, dass alle Zuordnungen zu den Ausschluss-Voreinstellungen die Absichten-/Kommunikationsoptionen des Empfängers exakt widerspiegeln und den Versand von Beziehungen oder Transaktionsnachrichten wie z. B. die Auftragsbestätigungen des Kunden nicht versehentlich beenden.
 
 ## Bestehende Daten zur Kampagne
 
