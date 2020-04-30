@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
+source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 ---
 
@@ -30,7 +30,7 @@ Tracking information are available for each contact of your database into **[!UI
 Adobe Campaign verwendet zwei Arten von Cookies:
 
 * Sitzungs-Cookie (nlid). Er enthält die Kennung der an den Kontakt gesendeten E-Mail (broadlogId) und die Kennung der Nachrichtenvorlage (deliveryId). Er wird gesetzt, sobald der Kontakt eine in einer mit Adobe Campaign gesendeten E-Mail enthaltene URL anklickt, und ermöglicht, das Webverhalten des Kontakts zu verfolgen. Dieser Sitzungs-Cookie wird automatisch mit Schließen des Browsers gelöscht. Der Kontakt hat die Möglichkeit, das Setzen des Cookies zu verbieten, indem er seine Browser-Einstellungen dementsprechend ändert.
-* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Lösungen der Experience Cloud bei Webseitenbesuchen interagiert. Weiterführende Informationen zu diesem Cookie finden Sie hier: [https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html).
+* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Lösungen der Experience Cloud bei Webseitenbesuchen interagiert. Die Beschreibung dieses Cookies ist [hier](https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/cookies_mc.html)verfügbar.
 
 Die Verfolgung mit dem Adobe Campaign Standard ermöglicht Ihnen den Zugriff auf die folgenden Funktionen:
 
