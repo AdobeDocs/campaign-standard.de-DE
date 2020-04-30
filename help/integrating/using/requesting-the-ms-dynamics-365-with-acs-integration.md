@@ -1,5 +1,5 @@
 ---
-title: Anfordern und Konfigurieren von Microsoft Dynamics 365 mit Campaign Standard-Integration
+title: Microsoft Dynamics 365-Integration anfordern und konfigurieren
 description: Erfahren Sie, wie Sie Microsoft Dynamics 365 mit Campaign Standard-Integration anfordern und konfigurieren.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,16 +12,16 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Anfordern von Microsoft Dynamics 365 mit Campaign Standard-Integration
+# Microsoft Dynamics 365-Integration anfordern und konfigurieren
 
 Um diese Integration bereitzustellen, müssen Sie die folgenden Schritte ausführen.
 
-Bitte beachten Sie, dass diese Integration einen Drittanbieter, Unifi, verwendet.  Im Zusammenhang mit Supportanfragen wird Adobe möglicherweise aufgefordert, Ihre Adobe Campaign-Instanzinformationen für Unifi freizugeben.
+Bitte beachten Sie, dass diese Integration einen Drittanbieter, Unifi, verwendet.  Im Zusammenhang mit Supportanfragen muss Adobe möglicherweise Ihre Adobe Campaign-Instanzinformationen an Unifi weitergeben.
 
 Bitte befolgen Sie die unten stehenden Flussdiagramme und Flussdiagramme, um die Integration anzufordern und zu konfigurieren.
 
@@ -67,7 +67,7 @@ Um die Integration zwischen Adobe Campaign Standard und Microsoft Dynamics 365 z
 
 ## Diese Integration konfigurieren
 
-Für diese Integration müssen drei Systeme bereitgestellt und konfiguriert werden: Adobe Campaign Standard, Microsoft Dynamics 365 for Sales und Unifi. Konfigurationsartikel sind unten verknüpft.
+Für diese Integration müssen drei Systeme bereitgestellt und konfiguriert werden: Adobe Campaign Standard, Microsoft Dynamics 365 für Vertrieb und Unifi. Konfigurationsartikel sind unten verknüpft.
 
 >[!CAUTION]
 >
@@ -89,4 +89,4 @@ Erwartungsfreie Ansprechzeit: 4 Stunden während der regulären Geschäftszeiten
 
 >[!CAUTION]
 >
->In Verbindung mit Ihrer Anfrage auf Unterstützung muss Adobe möglicherweise Ihre Adobe Campaign-Instanzinformationen für Unifi freigeben.
+>Im Zusammenhang mit Ihrer Supportanfrage wird Adobe möglicherweise aufgefordert, Ihre Adobe Campaign-Instanzinformationen für Unifi freizugeben.
