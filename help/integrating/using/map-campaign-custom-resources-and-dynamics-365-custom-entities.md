@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -59,15 +59,15 @@ Der Kunde verfügt über ein in Dynamics 365 vordefiniertes benutzerdefiniertes 
 
 Die benutzerdefinierten Entitäten in Dynamics 365 können Sie im Dashboard Sales durch Klicken auf die Dropdown-Liste neben Dynamics 365 anzeigen.  Die benutzerdefinierten Entitäten dieses Kunden werden gruppiert unter **[!UICONTROL Extensions]**.
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 Fahrzeugdaten können durch Klicken auf die **[!UICONTROL vehicle]** benutzerdefinierte Entität angezeigt werden.  Siehe Liste der Fahrzeuge unten.
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 Die Beziehung der **[!UICONTROL vehicle]** Entität zur **[!UICONTROL Contact]** Entität ist nachfolgend dargestellt. **[!UICONTROL Parental]** wurde für die **[!UICONTROL Type of Behavior]** ausgewählt.
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Konfiguration im Campaign Standard
 
@@ -102,7 +102,7 @@ Kampagne zeigt dann Datenstrukturen und Linkseiten an.  Sie können sehen, dass 
 >
 >Jede benutzerdefinierte Ressource muss ein eindeutiges Feld mit der ID externalId (genau) haben.  Dieses Feld wird dem ID-Feld der benutzerdefinierten Ressource in Dynamics 365 zugeordnet (siehe unten).
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### Definieren der Identifizierungsschlüssel
 
@@ -170,7 +170,7 @@ Klicken Sie dann auf **[!UICONTROL Publish]** und warten Sie, bis der Vorgang ab
 
 Wenn der Kunde die Fahrzeugbenutzereinheit bereits in Dynamics 365 ausgefüllt hat und Unifi ihre eigenen Fahrzeugstandortaufträge und -pläne eingerichtet hat, sollte der Kunde in der Lage sein, den Einstiegsplan für die Fahrzeugeinheit zu starten.
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 Nach Abschluss des Eingabefelds können die Fahrzeugdaten nun in der neu ausgefüllten **[!UICONTROL Vehicle]** benutzerdefinierten Ressource in der Kampagne angezeigt werden.
 
