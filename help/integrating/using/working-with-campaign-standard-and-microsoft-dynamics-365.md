@@ -1,6 +1,6 @@
 ---
-title: Arbeiten mit Campaign Standard und Microsoft Dynamics 365
-description: Erfahren Sie, wie Sie mit Campaign Standard und Microsoft Dynamics 365 arbeiten können
+title: Erste Schritte mit Microsoft Dynamics 365
+description: Erfahren Sie, wie Sie mit der Integration von Microsoft Dynamics 365 beginnen können
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -12,26 +12,26 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Arbeiten mit Campaign Standard und Microsoft Dynamics 365
+# Erste Schritte mit Microsoft Dynamics 365
 
-Aktivieren Sie Ihre CRM-Daten bei der Kommunikation über Kanal hinweg: Erfahren Sie, wie Sie Kontakte von Microsoft Dynamics 365 an Adobe Campaign weitergeben und Kampagnen-Leistungsdaten (Sende-, Öffnen-, Klicks- und Absprünge) wieder von Adobe Campaign an Microsoft Dynamics 365 freigeben können.
+Aktivieren Sie Ihre CRM-Daten bei der Kommunikation über Kanal hinweg: Erfahren Sie, wie Sie Kontakte von Microsoft Dynamics 365 an Adobe Campaign weitergeben und Kampagnen-Performance-Daten (Sende-, Öffnen-, Klicks- und Absprünge) von Adobe Campaign an Microsoft Dynamics 365 weitergeben können.
 
 >[!NOTE]
 >
->Die Integration von Microsoft Dynamics 365/Adobe Campaign Standard unterstützt nur die **Microsoft Dynamics 365 Sales-App** .
+>Die Microsoft Dynamics 365 / Adobe Campaign Standard Integration unterstützt nur die **Microsoft Dynamics 365 Sales App** .
 
 ## Vorteile und Anwendungsfälle
 
 ### Grundsätze
 
-Die Integration von Adobe Campaign und Microsoft Dynamics 365 ermöglicht die Synchronisierung aller verfügbaren Kontaktdaten im CRM-System, sodass alle relevanten Kontaktdaten für Aktivitäten der Kampagne zur Verfügung stehen.
+Die Adobe Campaign- und Microsoft Dynamics 365-Integration ermöglicht die Synchronisierung aller verfügbaren Kontaktdaten im CRM-System und stellt alle relevanten Kontaktdaten für Kampagnen-Aktivitäten zur Verfügung.
 
-Umgekehrt werden diese Daten (z. B.: sendet, öffnet, klickt und absprünge) automatisch in Microsoft Dynamics 365 fließen, um Kontaktdatensätze auch mit der Marketing-Aktivität zu vervollständigen.
+Umgekehrt werden diese Daten bei Interaktion von Profilen in Adobe Campaign mit Nachrichten (z. B.: sendet, öffnet, klickt und absprünge) automatisch in Microsoft Dynamics 365 fließen, um Kontaktdatensätze auch mit der Marketing-Aktivität zu vervollständigen.
 
 Die neueste Version der Integration unterstützt auch benutzerdefinierte Entitäten, sodass benutzerdefinierte Entitäten in Dynamics 365 mit entsprechenden benutzerdefinierten Entitäten in der Kampagne synchronisiert werden können.
 
@@ -47,7 +47,7 @@ Video zur Integration von Dynamics 365-Campaign Standard [hier](https://helpx.ad
 
 * Konsistentes Messaging zwischen Vertrieb und Marketing
 
-Die Integration von Adobe Campaign und Microsoft Dynamics 365 ermöglicht beiden Systemen den Zugriff auf Kundeninformationen und E-Mail-Marketingverlauf, sodass alle Nachrichten an den Kunden dieselbe konsistente Botschaft weitergeben können.
+Die Adobe Campaign- und Microsoft Dynamics 365-Integration ermöglicht beiden Systemen den Zugriff auf Kundeninformationen und E-Mail-Marketingverlauf, sodass alle Nachrichten an den Kunden dieselbe konsistente Messaging-Funktion nutzen können.
 
 * Ganzheitliche Ansicht aller Potenzieller Kunden- und Kundendaten
 
@@ -55,7 +55,7 @@ Durch die Integration von Adobe Campaign in Dynamics 365 ist es möglich, E-Mail
 
 * Dynamics 365-Daten auf jedem Kanal aktivieren
 
-Bei mit Adobe Campaign synchronisierten Kontaktdaten können Sie mit Kampagnen wie mobilen Push, In-App, E-Mail oder Direktversand auf jedem Online- oder Offline-Kanal Nachrichten senden. Unabhängig vom bevorzugten Kanal der einzelnen Kontakte haben Sie die Kampagne abgedeckt.
+Mit Kontaktdaten, die mit Adobe Campaign synchronisiert werden, können Sie auf jedem Online- oder Offline-Kanal mit Kampagnen wie mobilen Push-, In-App-, E-Mail- oder Direktversand senden. Unabhängig vom bevorzugten Kanal der einzelnen Kontakte haben Sie die Kampagne abgedeckt.
 
 >[!CAUTION]
 >
