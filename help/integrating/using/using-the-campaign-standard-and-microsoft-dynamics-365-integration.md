@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Microsoft Dynamics 365 mit Campaign Standard-Integration
+title: Verwenden der Microsoft Dynamics 365-Integration
 description: Erfahren Sie, wie Sie Microsoft Dynamics 365 mit der Integration von Campaign Standards verwenden.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Verwenden von Microsoft Dynamics 365 mit Campaign Standard-Integration
+# Verwenden der Microsoft Dynamics 365-Integration
 
 Diese Integration kann verschiedene Aufgaben ausführen:
 
@@ -38,7 +38,7 @@ Wenn ein Kontakt in Dynamics 365 neu erstellt oder geändert wird, wird er nach 
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Wenn ein Kontakt in Dynamics 365 gelöscht wird, wird das entsprechende Profil in der Kampagne zur Löschwarteschlange des Datenschutzdienstes im Bildschirm &quot;Datenschutzanforderung&quot;in der Kampagne hinzugefügt.  Weitere Informationen zum Ausführen von Datenwörterbuchungen zum Löschen von Anforderungen, die zur Einhaltung der geltenden Datenschutzgesetze in der Kampagne erforderlich sind, finden Sie unter So führen Sie gesetzlich vorgeschriebene Löschanforderungen in Adobe Campaign Standard aus.
+Wenn ein Kontakt in Dynamics 365 gelöscht wird, wird das entsprechende Profil in der Kampagne zur Löschwarteschlange des Datenschutzdienstes im Bildschirm &quot;Datenschutzanforderung&quot;in der Kampagne hinzugefügt.  Weitere Informationen zur Ausführung von Datenanforderungen zum Löschen von Anforderungen, die zur Einhaltung der geltenden Datenschutzgesetze in der Kampagne erforderlich sind, finden Sie unter So führen Sie gesetzlich vorgeschriebene Löschungsanfragen in Adobe Campaign Standard aus.
 
 ![](assets/MSdynamicsACS-usage2.png)
 
@@ -74,9 +74,9 @@ Im folgenden Video sehen Sie ein Video dieser Funktion.
 
 Für die Anzeige von Ereignissen werden die folgenden E-Mail-Marketing-Ereignis von Kampagne zu Dynamics 365 gesendet und in der Dynamics 365-Zeitschiene-Ansicht als benutzerdefinierte Aktivitäten angezeigt:
 
-* Adobe Campaign E-Mail senden
+* Adobe Campaign-E-Mail-Senden
 
-* Adobe Campaign E-Mail öffnen
+* Adobe Campaign-E-Mail öffnen
 
 * Adobe Campaign-E-Mail-URL-Klick
 
@@ -86,27 +86,27 @@ Um die Zeitschiene eines Kontakts Ansicht, navigieren Sie zur Liste Kontakte, in
 
 >[!NOTE]
 >
->Die Adobe Campaign for Dynamics 365-App in AppSource muss in Ihrer Dynamics 365-Instanz installiert werden, damit diese Ereignis Ansicht werden können.
+>Das Adobe Campaign für Dynamics 365 App in AppSource muss in Ihrer Dynamics 365-Instanz installiert werden, um diese Ereignis Ansicht.
 
 Unten sehen Sie eine Momentaufnahme des Kontaktbildschirms für &quot;Dynamics User&quot;.  In der Timeline-Ansicht werden Sie feststellen, dass Dynamics User eine E-Mail mit dem Namen der Kampagne &quot;2019LoyaltyCamp&quot;und dem Namen des Versands &quot;DM190&quot;gesendet wurde.  Dynamics User öffnete die E-Mail und klickte auch auf eine URL in der E-Mail. Beide Aktionen haben Ereignis erstellt, die auch unten angezeigt werden.  Wenn Sie die rechte Ecke sehen, sehen Sie die Karte des Assistenten für Beziehungen (RA); Derzeit enthält es eine Aufgabe, die auf die angeklickte URL folgt.
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Eine Nahaufnahme der Timeline-Ansicht für Dynamics User finden Sie unten.
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 Nachfolgend finden Sie eine Nahaufnahme der Karte des Assistenten für Beziehungen (RA).  Die AppSource-App enthält einen Workflow, der nach einem Adobe E-Mail-URL-Klick-Ereignis sucht.  Wenn dieses Ereignis eintritt, wird eine Aufgabe erstellt und ein Fälligkeitsdatum festgelegt.  Dadurch kann die Aufgabe in der RA-Karte angezeigt werden, was eine zusätzliche Sichtbarkeit ermöglicht.  Es gibt einen ähnlichen Arbeitsablauf für Adobe E-Mail-Absprung-Ereignis, bei dem eine Aufgabe hinzugefügt wird, um die ungültige E-Mail-Adresse miteinander in Einklang zu bringen.  Diese Workflows können in der Lösung deaktiviert werden.
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 Wenn Sie auf den Betreff des Ereignisses &quot;Senden&quot;klicken, sehen Sie ein Formular, das dem unten stehenden ähnelt.  Die Formulare für Ereignisse zum Öffnen und Absprung sind ähnlich.
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 Das Formular für Ereignisse zum Klicken auf die E-Mail-URL fügt ein zusätzliches Attribut für die URL hinzu, auf die geklickt wurde:
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 Im Folgenden finden Sie eine Liste der Attribute und eine Beschreibung:
 
