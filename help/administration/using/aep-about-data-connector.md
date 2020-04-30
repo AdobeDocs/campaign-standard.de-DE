@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campa
 
 * Die vordefinierte Übertragung von Abonnementereignissen wird nicht unterstützt. Um Abonnementereignisse zu übertragen, können Sie ein entsprechendes XDM und einen Datensatz in Adobe Experience Platform erstellen und dann ein benutzerdefiniertes Daten-Mapping für diese Daten konfigurieren.
 
-* In Bezug auf Datenschutzanfragen müssen Kunden sowohl für Zugriffs- als auch für Löschaktionen separate Anfragen für den zentralen Datenschutzdienst von Campaign und Adobe Experience Platform stellen.
+* In Bezug auf Datenschutzanforderungen (Zugriff- und Löschaktionen) müssen Kunden separate Anforderungen stellen: eine für die Kampagne über die Integration des Datenschutzzentrale-Dienstes (siehe [diesen Abschnitt](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)) und eine für Adobe Experience Platform über den [Datenschutzdienst](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ccpa). Weitere Informationen zu Zugriffs- und Löschanforderungen finden Sie auf [dieser Seite](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess).
 
 * Für jedes XDM-Feld muss die DULE-Kennzeichnung in Adobe Experience Platform erfolgen. Es liegt in der Verantwortung des Kunden, DULE-Kennzeichnungen anzuwenden.
 
