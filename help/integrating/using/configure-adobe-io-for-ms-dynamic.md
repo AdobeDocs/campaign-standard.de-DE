@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -23,7 +23,7 @@ Aktivieren Sie Ihre CRM-Daten bei der Kommunikation über Kanal hinweg: lernen S
 
 ## Übersicht
 
-Die Integration von Adobe Campaign Standard - Microsoft Dynamics 365 wird auf [dieser Seite](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)beschrieben.
+Adobe Campaign Standard - Microsoft Dynamics 365 Integration wird auf [dieser Seite](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)beschrieben.
 
 Bevor Sie die Schritte nach der Bereitstellung in diesem Artikel durchführen, wird davon ausgegangen, dass Sie bereits bereitgestellt wurden und Administratorrechte auf die Instanz im Campaign Standard Ihres Unternehmens haben.  Ist dies nicht der Fall, müssen Sie sich mit dem Adobe-Kundendienst in Verbindung setzen, um die Bereitstellung der Kampagne abzuschließen.
 
@@ -53,7 +53,7 @@ Klicken Sie dann auf **[!UICONTROL New Integration]** oben rechts.
 
 1. Wählen Sie **[!UICONTROL Access an API]** und klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Wählen Sie _Adobe Campaign_ aus dem **[!UICONTROL Experience Cloud]** Abschnitt und klicken Sie auf **[!UICONTROL Continue]**.
+1. Wählen Sie _Adobe Campaign_ aus dem **[!UICONTROL Experience Cloud]** Bereich und klicken Sie auf **[!UICONTROL Continue]**.
 
 1. Generieren Sie ein Zertifikat und einen Schlüssel.
 
@@ -136,7 +136,7 @@ Beispiel:  Campaign Standard - Ihre Kampagne-Organisations-ID - Administratoren
 
 Klicken Sie auf **[!UICONTROL Create Integration]**.
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### Integrationsdetails einrichten
 
@@ -144,13 +144,13 @@ Klicken Sie auf **[!UICONTROL Create Integration]**.
 
 Überprüfen Sie die Integrationsdetails.  Sie müssen auf diese zurückverweisen, wenn Sie Unifi-Schritte zur Bereitstellung nach der Bereitstellung durchführen.
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. Klicken Sie auf die **[!UICONTROL Services]** Registerkarte und fügen Sie **[!UICONTROL I/O Events]** und **[!UICONTROL I/O Management API]** Dienste hinzu.  Um den Dienst hinzuzufügen, klicken Sie auf das Optionsfeld und dann **[!UICONTROL Add service]**.  Dies wird für jeden Dienst separat durchgeführt.
 
 Wenn Sie fertig sind, sollten Ihre Dienste oben erscheinen, wie das folgende Bild. Sie müssen den Abschnitt-A-on nicht abschließen und eine JWT und ein Zugriffstoken erstellen.
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 Die Beitragsbereitstellung in der Kampagne ist jetzt abgeschlossen.  Fahren Sie fort, um die [Schritte zur Bereitstellung für Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)abzuschließen.
 
