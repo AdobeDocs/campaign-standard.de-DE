@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 ---
 
@@ -22,14 +22,14 @@ Email Designer bietet vier Möglichkeiten zum Erstellen von E-Mails.
 
 Sie können E-Mails [ in E-Mail-Designer](#without-existing-content) von Grund auf neu erstellen:
 
-* Sie können die E-Mail von Grund auf neu von einer leeren Arbeitsfläche erstellen. Hierzu fügen Sie Struktur- und Inhaltskomponenten hinzu und personalisieren deren Inhalt. Die E-Mail ist dann rasch versendet. Die Stilelemente können Sie auch vollständig verwalten. Weitere Informationen finden Sie in der [Kurzanleitung](#from-scratch-email) oder in der [vollständigen Dokumentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. You can **create an email from a blank canvas** by easily adding structure and content components and personalize their content to send a delivery quickly. Die Stilelemente können Sie auch vollständig verwalten. Weitere Informationen finden Sie in der [Kurzanleitung](#from-scratch-email) oder in der [vollständigen Dokumentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-* Sie können eine E-Mail aus einer vordefinierten Vorlage erstellen. Hierzu wählen Sie die Vorlage aus und erstellen daraus Ihren neuen E-Mail-Inhalt. [Mehr dazu](#building-content-from-an-out-of-the-box-template)
+1. You can **create an email from an out-of-the-box template** by selecting a template and building your new email content from here. [mehr dazu](#building-content-from-an-out-of-the-box-template)
 
 Sie können eine E-Mail auch [aus vorhandenem Inhalt erstellen](#with-existing-content):
 
-* Hierzu konvertieren Sie bestehenden HTML-Inhalt, der extern oder im Legacy-Editor erstellt wurde. [Mehr dazu](#converting-an-html-content)
-* Im Kompatibilitätsmodus können Sie vorhandenen HTML-Inhalt sofort importieren. [Mehr dazu](#compatibility-mode)
+1. You can **convert an existing HTML content** (created externally or in the legacy editor). [mehr dazu](#converting-an-html-content)
+1. You can **import an existing HTML content** straight away in compatibility mode. [mehr dazu](#compatibility-mode)
 
 | Ohne Inhalt | Mit Inhalt |
 |---|---|
@@ -139,7 +139,7 @@ Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstel
 
 ### Konvertieren von HTML-Inhalten {#converting-an-html-content}
 
-In diesem Anwendungsfall wird eine schnelle Konvertierung von HTML-E-Mails in E-Mail-Designer-Komponenten Angebot.
+In diesem Anwendungsfall wird eine schnelle Konvertierung von HTML-E-Mails in E-Mail-Designer-Komponenten Angebot. Weitere Informationen zu diesem Thema finden Sie unter [Konvertieren von HTML-Inhalten](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
@@ -149,84 +149,9 @@ In diesem Anwendungsfall wird eine schnelle Konvertierung von HTML-E-Mails in E-
 >
 >Wie im Kompatibilitätsmodus ist eine HTML-Komponente nur beschränkt bearbeitbar: Sie kann nur an Ort und Stelle bearbeitet werden.
 
-Achten Sie darauf, dass der ursprüngliche HTML-Code außerhalb von Email Designer in wiederverwendbare Bereiche unterteilt ist.
-
-1. Öffnen Sie Email Designer, um leeren E-Mail-Inhalt zu erstellen.
-1. Legen Sie die Attribute für den Hauptteil fest: Hintergrundfarben, Breite etc. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/styles.md).
-
-Ist dies nicht der Fall, schneiden Sie die unterschiedlichen Bestandteile aus Ihrem HTML-Code aus. Dies hier ist zum Beispiel ein eindeutig identifizierbarer Abschnitt:
-
-```
-<!-- 3 COLUMN w/CTA (SCALED) -->
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
-<tbody>
-<tr>
-<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
-<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
-<tbody>
-<tr>
-...
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- //3 COLUMN w/CTA (SCALED) -->
-```
-
-Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Designer folgenden Vorgang für jeden Teil Ihrer vorhandenen E-Mail:
-
-1. Fügen Sie eine Strukturkomponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Fügen Sie eine HTML-Komponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Fügen Sie Ihren HTML-Code mit Copy &amp; Paste in diese Komponente ein.
-1. Zur Mobile-Ansicht wechseln. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
-
-   Die responsive Ansicht ist fehlerhaft, da Ihr CSS fehlt.
-
-1. Um dieses Problem zu beheben, wechseln Sie zum Quellcode-Modus und kopieren Sie Ihren CSS-Abschnitt in einen neuen CSS-Abschnitt. Beispiel:
-
-   ```
-   <style type="text/css">
-   a {text-decoration:none;}
-   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
-   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
-   ...
-   </style>
-   ```
-
-   >[!NOTE]
-   >
-   >Stellen Sie sicher, dass Sie Ihren Stil nach diesem Abschnitt in einem anderen CSS-Tag hinzufügen.
-   >
-   >Verändern Sie das von Email Designer erzeugte CSS nicht:
-   >
-   >* `<style data-name="default" type="text/css">(##)</style>`
-   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
-   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
-   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
-   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
-
-1. Kehren Sie zur mobilen Ansicht zurück und prüfen Sie, ob Ihr Inhalt korrekt angezeigt wird, und speichern Sie Ihre Änderungen.
 
 ### Importieren und Bearbeiten einer HTML-E-Mail {#compatibility-mode}
 
 Beim Hochladen von Inhalt muss dieser ein bestimmtes Tagging aufweisen, um vollständig kompatibel und im WYSIWYG-Editor von Email Designer bearbeitbar zu sein.
 
-Wenn die hochgeladenen HTML-Datei oder Teile davon nicht mit dem Tagging kompatibel ist, wird der Inhalt im so genannten Kompatibilitätsmodus geladen, in dem die Bearbeitungsmöglichkeiten über die Benutzeroberfläche eingeschränkt sind.
-
-Im Kompatibilitätsmodus können Sie die folgenden Änderungen über die Benutzeroberfläche vornehmen (nicht verfügbare Aktionen sind verborgen):
-
-* Ändern des Textes oder eines Bildes
-* Einfügen von Links und Personalisierungsfeldern
-* Bearbeiten einiger Stiloptionen im ausgewählten HTML-Baustein
-* Definieren von bedingten Inhalten
-
-![](assets/email_designer_compatibility.png)
-
-Sonstige Änderungen, wie etwa das Hinzufügen neuer Bereiche zu Ihrer E-Mail oder deren zusätzliche Gestaltung, müssen direkt im Quellcode der E-Mail im HTML-Modus vorgenommen werden.
-Im Kompatibilitätsmodus ist die Verwendung von Drag &amp; Drop zwar nicht möglich, jedoch bietet dieser Modus die gleichen Funktionen wie der Legacy-Editor.
-
-Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine mit Email Designer kompatible E-Mail finden Sie in [diesem Abschnitt](../../designing/using/using-existing-content.md).
+Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine mit Email Designer kompatible E-Mail finden Sie in [diesem Abschnitt](../../designing/using/using-existing-content.md#compatibility-mode).
