@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
+source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
 
 ---
 
@@ -33,23 +33,23 @@ Alle Veröffentlichungsdaten können sich ändern: Wir empfehlen Ihnen, diese Se
 
 Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Weitere Informationen über diese Version finden Sie in den [Versionshinweisen](../../rn/using/release-notes.md). Sollten Sie weitere Fragen haben, wenden Sie sich bitte an die [Kundenunterstützung von Adobe](https://support.neolane.net/webApp/extranetLogin).
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Umgebung<br /> </th> 
-   <th> Datumsangaben<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Staging<br /> </td> 
-   <td> April 27 - 28, 2020<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Produktion<br /> </td> 
-   <td> 4.-11. Mai 2020<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <thead>
+  <tr>
+   <th> Umgebung<br /> </th>
+   <th> Datumsangaben<br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Staging<br /> </td>
+   <td><s>27. - 28. April 2020</s> verzögert<br /> </td>
+  </tr>
+  <tr>
+   <td> Produktion<br /> </td>
+   <td><s>4.-11. Mai 2020</s> verzögert<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 
