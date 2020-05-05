@@ -11,8 +11,8 @@ topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
+translation-type: tm+mt
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -34,4 +34,4 @@ Die Schritte zum Anzeigen erweiterter Felder in der öffentlichen API lauten wie
 **Verwandte Themen:**
 
 * [Über benutzerdefinierte Ressourcen](../../developing/using/data-model-concepts.md)
-* [API-Handbuch](../../api/using/about-campaign-standard-apis.md)
+* [API-Handbuch](../../api/using/get-started-apis.md)
