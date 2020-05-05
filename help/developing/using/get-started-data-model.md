@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aeaddca2188e2bdeda71bd35299ccd14398f3c52
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -39,7 +39,7 @@ mehr dazu:
 
 * [Datenmodellkonzepte](../../developing/using/data-model-concepts.md)
 * [Best Practices für Datenmodelle](../../developing/using/data-model-best-practices.md)
-* [Datenmodellbeschreibung](../../developing/using/datamodel-introduction.md)
+* [Beschreibung des Datenmodells](../../developing/using/datamodel-introduction.md)
 * [Änderungen an Datenmodellen verfolgen](../../developing/using/monitoring-data-model-changes.md)
 
 ## Benutzerdefinierte Ressourcen {#custom-resources}
@@ -61,7 +61,7 @@ mehr dazu:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Erstellen Sie mit Campaign Standard-APIs Integrationen für Adobe Campaign Standard und erstellen Sie ein eigenes Ökosystem, indem Sie die Kampagne mit dem von Ihnen verwendeten Technologiebereich verbinden. [Erste Schritte mit Campaign Standard-REST-APIs](../../api/using/about-campaign-standard-apis.md)
+Erstellen Sie mit Campaign Standard-APIs Integrationen für Adobe Campaign Standard und erstellen Sie ein eigenes Ökosystem, indem Sie die Kampagne mit dem von Ihnen verwendeten Technologiebereich verbinden. [Erste Schritte mit Campaign Standard-REST-APIs](../../api/using/get-started-apis.md)
 
 ## Zusätzliche Ressourcen
 
