@@ -13,18 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
 
 ---
 
 
 # Erste Schritte mit Landingpages {#getting-started-with-landing-pages}
-
-## Über Landingpages {#about-landing-pages}
-
-Campaign bietet eine Landingpage-Funktion an. Landingpages sind Webformulare, mit denen Sie Informationen zu Ihren Audiences erfassen, Abonnements für einen Dienst anbieten, Daten darstellen und Ihre Datenbank erweitern können. Landingpages können außerdem zur Akquise oder Aktualisierung bestehender Profile verwendet werden.
-
-Darüber hinaus können Sie über Landingpages eine Anmeldung mit zweifacher Bestätigung einrichten, sodass Sie Ihre Plattform vor falschen oder ungültigen E-Mail-Adressen bzw. Spambots schützen können. Weiterführende Informationen dazu finden Sie im [entsprechenden Anwendungsbeispiel](../../channels/using/setting-up-a-double-opt-in-process.md).
 
 Dies sind die wichtigsten Schritte zum Einrichten einer Landingpage:
 
