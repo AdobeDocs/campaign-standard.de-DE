@@ -11,8 +11,8 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+translation-type: tm+mt
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 Sobald Ihr Workflow mit einer [Adobe Experience Platform-Audience](../../audiences/using/aep-about-audience-destinations-service.md) konfiguriert wurde, können Sie Nachrichten mit Profilattributen personalisieren, die ausschließlich im Experience-Datenmodell (XDM) vorhanden sind.
 
-Dazu müssen Sie die folgenden Attribute zur Aktivität **[!UICONTROL Audience lesen]** hinzufügen:
+To do this, you must add these attributes into the **[!UICONTROL Read audience]** activity:
 
-1. Öffnen Sie die Aktivität **[!UICONTROL Audience lesen]**. Klicken Sie im Tab **[!UICONTROL Zusätzliche Daten]** auf die Schaltfläche **[!UICONTROL Element erstellen]**.
+1. Open the **[!UICONTROL Read audience]** activity. Klicken Sie auf der **[!UICONTROL Additional data]** Registerkarte auf die **[!UICONTROL Create element]** Schaltfläche.
 
-   Beachten Sie, dass der Tab **[!UICONTROL Zusätzliche Daten]** erst verfügbar ist, nachdem eine Audience für Adobe Experience Platform ausgewählt wurde.
+   Note that the **[!UICONTROL Additional data]** tab is only available after an Adobe Experience Platform audience has been selected.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -39,11 +39,11 @@ Dazu müssen Sie die folgenden Attribute zur Aktivität **[!UICONTROL Audience l
    >
    >Array- und Map-Datentypen werden in dieser Funktion nicht unterstützt. Außerdem werden nur Daten aus dem Vereinigungsschema in der Auswahl angezeigt.
 
-1. Wählen Sie das gewünschte XDM-Feld aus der Liste aus und klicken Sie dann auf **[!UICONTROL Bestätigen]**.
+1. Select the desired XDM field from the list, then click **[!UICONTROL Confirm]**.
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um es der Liste der zusätzlichen Daten hinzuzufügen.
+1. Click the **[!UICONTROL Add]** button to add it to the list of additional data.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -51,12 +51,12 @@ Dazu müssen Sie die folgenden Attribute zur Aktivität **[!UICONTROL Audience l
 
    >[!NOTE]
    >
-   >Sie können in der Aktivität **[!UICONTROL Audience lesen]** maximal 20 XDM-Felder hinzufügen.
+   >You can add a maximum of 20 XDM fields in a **[!UICONTROL Read audience]** activity.
 
-1. Nachdem alle Felder hinzugefügt wurden, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]**, um die Änderungen zu speichern. Sie stehen nun zur Personalisierung Ihrer Sendungen zur Verfügung.
+1. Once all the fields have been added, click the **[!UICONTROL Confirm]** button to save your changes. Sie stehen nun zur Personalisierung Ihrer Sendungen zur Verfügung.
 
 Weitere Informationen zum Erstellen und Personalisieren von Sendungen finden Sie in der Dokumentation zu Campaign Standard:
 
-* [Kommunikationskanäle](../../channels/using/discovering-communication-channels.md)
+* [Kommunikationskanäle](../../channels/using/get-started-communication-channels.md)
 * [Über Kanalaktivitäten](../../automating/using/about-channel-activities.md)
 * [Sendungen personalisieren](../../designing/using/personalization.md)
