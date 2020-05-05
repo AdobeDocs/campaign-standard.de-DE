@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
+source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 # Aktualisierungen der Dokumentation{#documentation-updates}
 
 Zusätzlich zu den Adobe Campaign- [Versionshinweisen](../../rn/using/release-notes.md)werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation Liste.
+
+## Aktualisierungen der Dokumentation - Mai 2020 {#doc-updates-may-2020}
+
+Die Übersichtsseite des Campaign Standards wurde erweitert und in thematische Themen umstrukturiert. [mehr dazu](../../start/using/about-campaign-standard.md)
+
+Der Bereich &quot;Parameter für E-Mail-Kanal&quot;wurde mit weiteren Informationen zu den Feldern für autorisierte Masken und der Versandberichte-ID geklärt. [mehr dazu](../../administration/using/configuring-email-channel.md)
 
 ## Version 20.3 - Mai 2020    {#release-20-3---may-2020}
 
@@ -37,9 +43,9 @@ Im Abschnitt zum Ersetzen von Profilen wurden Informationen zum Grenzwert von 50
 
 Ein neuer Abschnitt zum Thema Datenschutz und Zustimmung wurde der Hauptdokumentation hinzugefügt. [mehr dazu](../../start/using/privacy.md)
 
-* Es wurde ein Anwendungsfall hinzugefügt, mit dem Sie ältere Editor-E-Mails in den E-Mail-Designer konvertieren können. [mehr dazu](../../designing/using/converting-emails-from-legacy-editor.md)
+Es wurde ein Anwendungsfall hinzugefügt, mit dem Sie ältere Editor-E-Mails in den E-Mail-Designer konvertieren können. [mehr dazu](../../designing/using/converting-emails-from-legacy-editor.md)
 
-* Über den E-Mail-Designer wurde ein Abschnitt mit häufig gestellten Fragen hinzugefügt. [mehr dazu](../../designing/using/faq-email-designer.md)
+Über den E-Mail-Designer wurde ein Abschnitt mit häufig gestellten Fragen hinzugefügt. [mehr dazu](../../designing/using/faq-email-designer.md)
 
 ## Aktualisierungen der Dokumentation - April 2020 {#doc-updates-april-2020}
 
@@ -47,7 +53,7 @@ Die Microsoft Dynamics 365-Integration mit Adobe Campaign Standard-Dokumentation
 
 Zusätzliche Ressourcen wurden zur Startseite der Dokumentation hinzugefügt. [mehr dazu](../../campaign-standard-home.md)
 
-Informationen zum Experience Cloud ID-Dienst (ECID) wurden der Adobe Experience Platform Data Connector-Dokumentation hinzugefügt. [mehr dazu](../../administration/using/aep-about-data-connector.md#key-concepts)
+Informationen zum Experience Cloud ID-Dienst (ECID) wurden der Adobe Experience Platform Data Connector-Dokumentation hinzugefügt. [mehr dazu](../../developing/using/aep-about-data-connector.md#key-concepts)
 
 Der Abschnitt &quot;Konfigurieren von Transaktionsnachrichten&quot;wurde um Informationen zum Zugriff auf die neuesten transaktionalen Ereignis und aktualisierten Screenshots erweitert. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
@@ -115,7 +121,7 @@ Es wurden Informationen zu den in den Eigenschaften der Workflows **[!UICONTROL 
 
 **Neue Funktionen in der Version**
 
-Adobe Experience Platform Data Connector (Beta) – [mehr dazu](../../administration/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (Beta) – [mehr dazu](../../developing/using/aep-about-data-connector.md)
 
 Audience Destinations (Beta) – [mehr dazu](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -201,7 +207,7 @@ Eine neue Grafik wurde hinzugefügt, die den Veröffentlichungsprozess von Trans
 
 Die ersten Schritte zum Thema Best Practices bei der Zustellung wurden aktualisiert. [mehr dazu](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
 
-Ein neuer Abschnitt wurde hinzugefügt: Dieser beinhaltet eine Übersicht über die verschiedenen Methoden zur Anreicherung der Campaign Standard-Datenbank – [mehr dazu](../../start/using/enriching-campaign-database.md)
+Ein neuer Abschnitt wurde hinzugefügt: Dieser beinhaltet eine Übersicht über die verschiedenen Methoden zur Anreicherung der Campaign Standard-Datenbank – [mehr dazu](../../audiences/using/enriching-campaign-database.md)
 
 Ein neuer Abschnitt bezüglich der Formatierung von Links mithilfe von Email Designer wurde ergänzt – [mehr dazu](../../designing/using/styles.md#about-styling-links)
 
@@ -355,7 +361,7 @@ Der Abschnitt zur E-Mail-Erstellung wurde aktualisiert und enthält jetzt die ak
 
 Der Knowledge-Base-Artikel zum [SMS-Schnittstellenprotokoll und dessen Konfiguration](https://helpx.adobe.com/de/campaign/kb/sms-connector-protocol-and-settings.html) wurde aktualisiert und enthält jetzt die neue Option des externen SMS-Kontos zur Begrenzung der Anzahl der zulässigen MTA-Instanzen bei der Verbindung mit dem SMPP-Provider.
 
-Das Erste-Schritte-Handbuch wurde erweitert und neu strukturiert – [mehr dazu](../../start/using/campaign-orchestration.md)
+Das Erste-Schritte-Handbuch wurde erweitert und neu strukturiert – [mehr dazu](../../start/using/about-campaign-standard.md)
 
 Die Seite mit veralteten und entfernten Funktionen wurde aktualisiert – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -383,7 +389,7 @@ Ein neuer Abschnitt wurde hinzugefügt, in dem die unterschiedlichen Möglichkei
 
 Der Abschnitt zur Erstellung von benutzerdefinierten Inhaltsbausteinen wurde durch Informationen zu Zielgruppendimensionen ergänzt – [mehr dazu](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Eine Warnung wurde hinzugefügt, die Benutzer darauf hinweist, dass E-Mail-Designer nicht Internet Explorer 11 unterstützt – [mehr dazu](../../administration/using/compatible-browsers.md)
+Eine Warnung wurde hinzugefügt, die Benutzer darauf hinweist, dass E-Mail-Designer nicht Internet Explorer 11 unterstützt – [mehr dazu](../../administration/using/about-configuration-guidelines.md)
 
 Zum Abschnitt über das Löschen einer Ressource wurde eine Warnung hinzugefügt, die Benutzer auf die Auswirkungen eines neuen Entwurfs hinweist – [mehr dazu](../../developing/using/deleting-a-resource.md)
 
@@ -445,7 +451,7 @@ Informationen zum neuen Feld in der Daten-Update-Aktivität wurden hinzugefügt.
 
 Die Dokumentation zum [Import von Inhalt aus einer URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) wurde um Informationen zu E-Mail-Designer erweitert.
 
-Microsoft Edge (neueste Version) wurde zur Liste kompatibler Browser für Computer hinzugefügt – [mehr dazu](../../administration/using/compatible-browsers.md)
+Microsoft Edge (neueste Version) wurde zur Liste kompatibler Browser für Computer hinzugefügt – [mehr dazu](../../administration/using/about-configuration-guidelines.md)
 
 Informationen zu einer neuen Option in der Dateiextraktionsaktivität wurden hinzugefügt. Damit kann jetzt verhindert werden, dass eine Datei erstellt wird, wenn die eingehende Transition leer ist – [mehr dazu](../../automating/using/extract-file.md)
 
@@ -579,7 +585,7 @@ Die Liste der technischen Workflows wurde aktualisiert – [mehr dazu](../../adm
 
 Der Abschnitt zur Planungsaktivität wurde aktualisiert – [mehr dazu](../../automating/using/scheduler.md)
 
-Die Liste der Hilfematerialien zur Integration von Campaign und Adobe-Lösungen wurde aktualisiert – [mehr dazu](../../integrating/using/about-campaign-integrations.md)
+Die Liste der Hilfematerialien zur Integration von Campaign und Adobe-Lösungen wurde aktualisiert – [mehr dazu](../../integrating/using/get-started-campaign-integrations.md)
 
 Die kontextuelle Hilfe von Campaign Standard wurde aktualisiert.
 
@@ -593,7 +599,7 @@ Anreicherungsaktivität: Reichern Sie Daten auf der Basis eingehender Transition
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Die meisten URLs für die Integration von Campaign und Adobe-Lösungen wurden geändert! Überprüfen Sie Ihre Lesezeichen! – [mehr dazu](../../integrating/using/about-campaign-integrations.md)
+Die meisten URLs für die Integration von Campaign und Adobe-Lösungen wurden geändert! Überprüfen Sie Ihre Lesezeichen! – [mehr dazu](../../integrating/using/get-started-campaign-integrations.md)
 
 The datamodel v1 is now available with the SQL structure for built-in resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
@@ -777,13 +783,13 @@ E-Mail-BCC – [mehr dazu](../../administration/using/configuring-email-channel.
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Das Handbuch &quot;Sendungen&quot; wurde umstrukturiert und in &quot;Kanäle&quot; umbenannt – [mehr dazu](../../channels/using/discovering-communication-channels.md)
+Das Handbuch &quot;Sendungen&quot; wurde umstrukturiert und in &quot;Kanäle&quot; umbenannt – [mehr dazu](../../channels/using/get-started-communication-channels.md)
 
 Zahlreiche Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 
 Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with your mobile app&quot; – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html)
 
-Die Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde aktualisiert – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Anleitung zum Konfigurieren des Hauptdienstes &quot;People&quot;oder der Integration von Audience Manager mit Adobe Campaign havget-started-communication-Kanals.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -867,5 +873,5 @@ URL-Änderung: Assets Core Service – [mehr dazu](../../integrating/using/worki
 
 URL-Änderung: People Core Service – [mehr dazu](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Das Handbuch zu Profilen und Audiences wurde umstrukturiert – [mehr dazu](../../audiences/using/about-profiles-and-audiences.md)
+Das Handbuch zu Profilen und Audiences wurde umstrukturiert – [mehr dazu](../../audiences/using/get-started-profiles-and-audiences.md)
 
