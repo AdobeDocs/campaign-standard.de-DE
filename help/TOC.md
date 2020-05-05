@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
+source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 
 ---
 
@@ -23,28 +23,19 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
    + [Freigabeplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
 + Erste Schritte{#getting-started}
-   + Über Adobe Campaign {#about-adobe-campaign}
-      + [Kampagnenverwaltung](start/using/campaign-orchestration.md)
-      + [Datenschutz und Zustimmung](start/using/privacy.md)
-      + [Segmentierung und Targeting](start/using/segmentation-and-targeting.md)
-      + [Dynamische und personalisierte Inhalte](start/using/dynamic-and-personalized-content.md)
-      + [Tracking, Monitoring und Reporting](start/using/tracking--monitoring-and-reporting.md)
-      + [Integration mit Adobe-Lösungen](start/using/integrating-with-adobe-solutions.md)
-      + [Anreicherung der Campaign-Datenbank](start/using/enriching-campaign-database.md)
+   + [Info zu Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [Datenschutz und Zustimmung](start/using/privacy.md)
    + Benutzeroberfläche {#discovering-the-interface}
       + [Über die Benutzeroberfläche](start/using/about-the-interface.md)
       + [Benutzeroberfläche](start/using/interface-description.md)
       + [Listen anpassen](start/using/customizing-lists.md)
-   + Marketingpläne {#marketing-plans}
+   + Arbeiten mit Marketing-Aktivitäten {#marketing-plans}
       + [Programme und Kampagnen](start/using/programs-and-campaigns.md)
       + [Marketingaktivitäten](start/using/marketing-activities.md)
       + [Vorlagen für Marketingaktivitäten](start/using/marketing-activity-templates.md)
       + [Planung](start/using/timeline.md)
-   + Tutorials {#tutorials}
-      + [Schrittweise Anleitungen](start/using/step-by-step-guides.md)
-      + [Videos](start/using/how-to-videos.md)
 + Profile und Audiences {#profiles-and-audiences}
-   + [Über Profile und Audiences](audiences/using/about-profiles-and-audiences.md)
+   + [Erste Schritte mit Profilen und Audiencen](audiences/using/get-started-profiles-and-audiences.md)
    + Verwaltung von Profilen {#managing-profiles}
       + [Über Profile](audiences/using/about-profiles.md)
       + [Profile erstellen](audiences/using/creating-profiles.md)
@@ -52,6 +43,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Integriertes Kundenprofil](audiences/using/integrated-customer-profile.md)
       + [Aktive Profile](audiences/using/active-profiles.md)
       + [Verwaltung von Testprofilen](audiences/using/managing-test-profiles.md)
+      + [Anreicherung der Campaign-Datenbank](audiences/using/enriching-campaign-database.md)
    + Verwaltung von Audiences {#managing-audiences}
       + [Über Audiences](audiences/using/about-audiences.md)
       + [Audiences erstellen](audiences/using/creating-audiences.md)
@@ -71,8 +63,8 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Adobe Experience Platform-Audiences verwalten](audiences/using/aep-managing-audiences.md)
       + [Unified Segment Builder verwenden](audiences/using/aep-using-segment-builder.md)
 + Kommunikationskanäle{#communication-channels}
+   + [Erste Schritte mit Communication Kanäle](channels/using/get-started-communication-channels.md)
    + Über Kommunikationskanäle {#about-communication-channels}
-      + [Kommunikationskanäle](channels/using/discovering-communication-channels.md)
       + [Die wichtigsten Schritte im Nachrichtenversand](channels/using/key-steps-to-send-a-message.md)
       + [Zugriff auf Nachrichten](channels/using/accessing-messages.md)
       + [Nachrichten-Dashboards](channels/using/message-dashboard.md)
@@ -142,7 +134,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
    + [Bilder verwalten](designing/using/images.md)
    + [Häufig gestellte Fragen](designing/using/faq-email-designer.md)
 + Testen und Senden {#testing-and-sending}
-   + [Über den Versand mit Campaign](sending/using/about-sending-messages-with-campaign.md)
+   + [Erste Schritte mit Tests und Senden](sending/using/get-started-sending-messages.md)
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
       + [Vorschau von Versänden](sending/using/previewing-messages.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
@@ -182,6 +174,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Ermüdungsregeln](sending/using/fatigue-rules.md)
       + [Kontrollregeln](sending/using/control-rules.md)
 + Reporting {#reporting}
+   + [Erste Schritte mit dynamischen Berichten](reporting/using/get-started-reporting.md)
    + Über Reporting {#about-reporting}
       + [Über dynamische Berichte](reporting/using/about-dynamic-reports.md)
       + [Benutzeroberfläche für die Berichterstellung](reporting/using/reporting-interface.md)
@@ -212,7 +205,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Benutzerdefinierte Profildimension erstellen](reporting/using/creating-a-custom-profile-dimension.md)
       + [Erstellen eines Berichts auf der Basis von Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with other solutions {#integrating-with-adobe-cloud}
-   + [Über Campaign-Integrationen](integrating/using/about-campaign-integrations.md)
+   + [Erste Schritte mit Kampagne-Integrationen](integrating/using/get-started-campaign-integrations.md)
    + Kampagne und Experience Manager {#working-with-campaign-and-experience-manager}
       + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Integration von Campaign mit Experience Manager konfigurieren](integrating/using/configure-experience-manager.md)
@@ -243,6 +236,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Trigger testen](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
    + Kampagne und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Adobe IO für Microsoft Dynamics 365-Integration konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Erste Schritte mit Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Informationen zur Microsoft Dynamics 365-Integration](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -253,19 +247,16 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Unifi für Microsoft Dynamics 365-Integration konfigurieren](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Benutzerdefinierte Ressourcen und benutzerdefinierte Dynamics 365-Entitäten für die Kampagne zuordnen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
-   + Über Workflows und die Datenverwaltung {#about-workflows-and-data-management}
-      + [Workflow-Daten und-Prozesse](automating/using/workflow-data-and-processes.md)
-      + [Workflows](automating/using/discovering-workflows.md)
-      + [Funktionsweise von Workflows](automating/using/workflow-operating-principles.md)
-      + [Workflow-Oberfläche](automating/using/workflow-interface.md)
+   + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
+      + [Workflow-Oberfläche](automating/using/workflow-interface.md)
       + [Workflow erstellen](automating/using/building-a-workflow.md)
       + [Zielgruppendaten](automating/using/targeting-data.md)
       + [Daten importieren](automating/using/importing-data.md)
       + [Workflow-Daten verwenden](automating/using/using-workflow-data.md)
       + [Workflow ausführen](automating/using/executing-a-workflow.md)
-      + [Workflow mit externen Parametern aufrufen](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Best Practices bei Workflows](automating/using/best-practices-workflows.md)
+   + [Workflow mit externen Parametern aufrufen](automating/using/calling-a-workflow-with-external-parameters.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
       + [Über Zielgruppenbestimmungsaktivitäten](automating/using/about-targeting-activities.md)
       + [Abfrage](automating/using/query.md)
@@ -327,6 +318,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Adobe Experience Platform-Audiences auswählen](automating/using/aep-targeting-audiences.md)
       + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](automating/using/aep-personalizing-campaigns.md)
 + Entwickeln{#developing}
+   + [Erste Schritte mit dem Campaign Standard-Datenmodell](developing/using/get-started-data-model.md)
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Datenmodelle](developing/using/data-model-concepts.md)
       + [Status der Ressourcen](developing/using/resource-statuses.md)
@@ -364,12 +356,15 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Trackinglogs](developing/using/datamodel-tracking.md)
       + [Abmeldeereignis](developing/using/datamodel-unsubscription.md)
       + [Besucher](developing/using/datamodel-visitor.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [Über Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
+      + [Übersicht über das Datenmodell von Experience Platform](developing/using/aep-data-model-overview.md)
+      + [Mapping-Definition](developing/using/aep-mapping-definition.md)
+      + [Mapping-Aktivierung](developing/using/aep-mapping-activation.md)
+      + [Datenerfassung über APIs aktivieren](developing/using/aep-triggering-data-ingestion.md)
 + Verwalten{#administrating}
-   + [Über die Verwaltung von Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
-   + Konfigurationsrichtlinien {#configuration-guidelines}
-      + [Info zu Konfigurationsrichtlinien](administration/using/about-configuration-guidelines.md)
-      + [Browser-Kompatibilität](administration/using/compatible-browsers.md)
-      + [Campaign Standard-Netzwerkendpunkte](administration/using/campaign-standard-network-endpoints.md)
+   + [Erste Schritte mit der Campaign Standard-Verwaltung](administration/using/get-started-campaign-administration.md)
+   + [Konfigurationsrichtlinien](administration/using/about-configuration-guidelines.md)
    + Benutzer und Sicherheit {#users-and-security}
       + [Über die Zugriffsverwaltung](administration/using/about-access-management.md)
       + [Benutzerverwaltung](administration/using/users-management.md)
@@ -393,15 +388,9 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Interne Benachrichtigungen senden](administration/using/sending-internal-notifications.md)
       + [Datenbeibehaltung](administration/using/data-retention.md)
       + [Aktualisierungen und Wartungsmaßnahmen](administration/using/updates-and-maintenance-operations.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Über Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-      + [Übersicht über das Datenmodell von Experience Platform](administration/using/aep-data-model-overview.md)
-      + [Mapping-Definition](administration/using/aep-mapping-definition.md)
-      + [Mapping-Aktivierung](administration/using/aep-mapping-activation.md)
-      + [Datenerfassung über APIs aktivieren](administration/using/aep-triggering-data-ingestion.md)
 + Arbeiten mit APIs {#working-with-apis}
-   + Über APIs in Campaign Standard {#about-campaign-standard-apis}
-      + [Übersicht](api/using/about-campaign-standard-apis.md)
+   + [Erste Schritte mit Campaign Standard-APIs](api/using/about-campaign-standard-apis.md)
+   + Über Campaign Standard-APIs {#about-campaign-standard-apis}
       + [Gründe für die Verwendung von Campaign Standard-APIs](api/using/why-using-campaign-standard-apis.md)
       + [Einrichten von API-Zugriff](api/using/setting-up-api-access.md)
    + Globale Konzepte {#global-concepts}
