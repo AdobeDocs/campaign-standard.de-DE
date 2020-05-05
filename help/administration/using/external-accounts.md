@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -56,7 +56,7 @@ Externe Konten werden von technischen Prozessen, wie technischen Workflows oder 
 
 Das externe Konto wurde erstellt und ist nun in der Liste der Konten sichtbar. Es steht jetzt für Ihre Daten-/Dateitransfers oder Routing-Konfigurationen in Workflow-Aktivitäten und Versandeigenschaften bereit.
 
-## Externes SFTP-Konto   {#sftp-external-account}
+## Externes SFTP-Konto    {#sftp-external-account}
 
 Unterschiedliche Typen externer Konten erfordern die Angabe unterschiedlicher Informationen.
 
@@ -66,7 +66,7 @@ Geben Sie für ein externes SFTP-Konto die folgenden Details an:
 * Port-Nummer, z. B. **22**
 * SFTP-Server-Zugangsdaten: Kontoname und Passwort, die zur Verbindung mit dem Server verwendet werden
 
-### Empfehlungen für von Adobe gehostete SFTP-Server   {#adobe-hosted-sftp-server-recommendations}
+### Empfehlungen für von Adobe gehostete SFTP-Server    {#adobe-hosted-sftp-server-recommendations}
 
 Wenn Dateien und Daten für ETL-Zwecke verwaltet werden, werden diese Dateien auf einem von Adobe bereitgestellten gehosteten SFTP-Server gespeichert. Dieser SFTP-Server ist ein vorübergehender Speicherplatz, auf dem Sie die Aufbewahrung und Löschung von Dateien selbst kontrollieren können.
 
@@ -85,12 +85,12 @@ Um solche Probleme zu vermeiden, empfiehlt Adobe, die unten stehenden Best Pract
 
 Beachten Sie außerdem, dass die öffentlichen IPs, mit denen Sie die SFTP-Verbindung aufbauen, in der Campaign-Instanz auf der Whitelist stehen müssen. Wenn Sie IP-Adressen auf eine Whitelist setzen lassen möchten, senden Sie ein [Support-Ticket](https://support.neolane.net) und stellen Sie den öffentlichen Schlüssel zur Authentifizierung bereit.
 
-SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >Das Control Panel ist nur für Admin-Benutzer von Kunden verfügbar, die auf AWS gehostet werden.
-Überprüfen Sie [hier](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id), ob Ihre Instanz auf AWS gehostet wird.
+Überprüfen Sie [hier](https://docs.adobe.com/content/help/de-DE/control-panel/using/faq.html#ims-org-id), ob Ihre Instanz auf AWS gehostet wird.
 
 ## Externes Amazon-S3-Konto {#amazon-s3-external-account}
 
@@ -118,20 +118,20 @@ Wir empfehlen zum Einrichten des Amazon-S3-Kontos folgende Vorgehensweise:
 
 * Erstellen Sie eine restriktive Bucket-Richtlinie, um den Zugriff auf S3-Buckets zu beschränken. Die Bucket-Richtlinie kann während der Erstellung eines Buckets konfiguriert werden. Weiterführende Informationen finden Sie in der [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * While creating an external account, enable the encryption to store sensitive data in the S3 bucket by checking the **[!UICONTROL Keep files in S3 encrypted]** box.
-* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)..
+* Vergeben Sie Bucket-Berechtigungen, um festzulegen, wer auf das Objekt in einem Bucket zugreifen kann. Weiterführende Informationen zu Bucket-Berechtigungen finden Sie in der [Amazon-Dokumentation zu S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Externes Adobe-Experience-Manager-Konto {#adobe-experience-manager-external-account}
 
 Externe Konten vom Typ Adobe Experience Manager werden bei der Integration von Campaign mit Experience Manager verwendet.
 
-Der Vorgang und die Anforderungen für diese Integration sind in [diesem Dokument](../../integrating/using/about-campaign-integrations.md) beschrieben.
+Der Vorgang und die Anforderungen für diese Integration sind in [diesem Dokument](../../integrating/using/get-started-campaign-integrations.md) beschrieben.
 
 Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informationen:
 
 * Server: Geben Sie die URL des Adobe-Experience-Manager-Servers an. z. B. **http://aem.domain.com:4502**.
 * Zugangsdaten zum AEM-Konto: Verwenden Sie das Konto, über das auf die Adobe-Experience-Manager-Instanz zugegriffen wird. Es sollte ein Konto sein, das Teil der campaign-remote-Gruppe in Adobe Experience Manager ist.
 
-## Externes Google-reCAPTCHA-Konto   {#google-recaptcha-external-account}
+## Externes Google-reCAPTCHA-Konto    {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
@@ -152,51 +152,51 @@ Geben Sie für ein externes Google-reCAPTCHA-V3-Konto die folgenden Details an:
 
 ![](assets/external_accounts_3.png)
 
-## Microsoft Azure Blob storage external account {#microsoft-azure-external-account}
+## Externes Microsoft Azure Blob Storage-Konto {#microsoft-azure-external-account}
 
 >[!NOTE]
 >
->Informationen, die Sie zur Konfiguration Ihres Externen Kontos in Adobe Campaign Standard benötigen, finden Sie im Azurblauen Portal unter **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+>Information needed to configure your external account in Adobe Campaign Standard can be found in the Azure Portal by selecting **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-Der Azurblauch-Datenspeicherung-Connector kann zum Importieren oder Exportieren von Daten in Adobe Campaign mithilfe einer Workflow-Aktivität für **[!UICONTROLTÜbertragungsdateien]** verwendet werden. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROLTransfer file]** workflow activity. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
-Geben Sie für ein Externe Konto zur Datenspeicherung von Microsoft Blue Blob die folgenden Informationen ein:
+Geben Sie für ein externes Microsoft Azure Blob Storage-Konto die folgenden Informationen ein:
 
 * A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
 * **[!UICONTROL Type]**: Microsoft Azure Blob Storage
-* Ihr **[!UICONTROL Account name]** und **[!UICONTROL Account key]**. Auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)erfahren Sie, wo Sie Ihren Kontonamen und -schlüssel finden.
-* Ihr **[!UICONTROL Endpoint suffix]**. Es kann innerhalb Ihres **[!UICONTROL Connection string]** der **[!UICONTROL Access keys]** Speisekarte im Azurblaus Portal gefunden werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Ihr **[!UICONTROL Container]** Name. Wenn Sie planen, mehr als einen Container zu verwenden, müssen Sie so viele Externe Konti wie Container erstellen.
-* Mit der **[!UICONTROL Concurrency]** Option können Sie die Geschwindigkeit der Dateiübertragung genauer einstellen.
+* Ihr **[!UICONTROL Account name]** und **[!UICONTROL Account key]**. Auf dieser [Seite](https://docs.microsoft.com/de-DE/azure/storage/common/storage-account-keys-manage) erfahren Sie, wo Sie Ihren Kontonamen und Kontoschlüssel finden können.
+* Ihr **[!UICONTROL Endpoint suffix]**. It can be found within your **[!UICONTROL Connection string]** of the **[!UICONTROL Access keys]** menu in the Azure Portal. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.microsoft.com/de-DE/azure/storage/common/storage-account-keys-manage).
+* Ihr **[!UICONTROL Container]** Name. Wenn Sie mehr als einen Container verwenden möchten, müssen Sie so viele externe Konten wie Container einrichten.
+* The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
 
 ![](assets/external_accounts_4.png)
 
-Klicken Sie nach der Konfiguration auf , **[!UICONTROL Test connection]** um Adobe Campaign mit der Datenspeicherung Microsoft Azurblase zu verknüpfen.
+Once configured, click **[!UICONTROL Test connection]** to link Adobe Campaign to Microsoft Azure Blob storage.
 
-### Microsoft Azure Blob storage recommendations {#azure-blob-recommendations}
+### Microsoft Azure Blob Storage – Empfehlungen {#azure-blob-recommendations}
 
 **Verschlüsselung**
 
-Adobe Campaign verwendet eine gesicherte Verbindung (HTTPS), um auf Ihr Microsoft Azurblase-Datenspeicherung-Konto zuzugreifen.
+Adobe Campaign nutzt eine gesicherte Verbindung (HTTPS), um auf Ihr Microsoft Azure Blob Storage-Konto zuzugreifen.
 
 **Kontoschlüssel**
 
-Bei der Konfiguration des Externen Kontos müssen Sie eines der **[!UICONTROL Account key]** verfügbaren verwenden. For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+When configuring your external account, you must use one of the **[!UICONTROL Account key]** available in the Azure Portal. Weitere Informationen zum Auffinden Ihrer Kontoschlüssel erhalten Sie auf dieser [Seite](https://docs.microsoft.com/de-DE/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
 
-**Optimieren der Dateiübertragungsgeschwindigkeit**
+**Optimieren der Geschwindigkeit bei der Dateiübertragung**
 
-Mit der **[!UICONTROL Concurrency]** Option können Sie die Geschwindigkeit der Dateiübertragung genauer einstellen.
-Es stellt die Anzahl der Threads dar, die zur Durchführung der Dateiübertragung verwendet werden. Jeder dieser Threads lädt einen Teil von ca. 1 MB aus dem Blob herunter. Sie werden dann in die Warteschlange gestellt, um auf die Festplatte geschrieben zu werden. Beachten Sie, dass Sie durch die Erhöhung der Threads auch die Belastung der Ressourcen erhöhen, die die Anwendung während der Dateiübertragung verwendet.
+The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
+Die Option stellt die Anzahl der Threads dar, die bei der Durchführung der Dateiübertragung verwendet werden. Jeder dieser Threads lädt einen Teil von ca. 1 MB aus dem Blob-Speicher herunter. Diese werden dann in die Warteschlange gestellt, um auf die Festplatte geschrieben zu werden. Beachten Sie, dass bei Erhöhung der Thread-Zahl auch die Auslastung der Ressourcen steigt, die von der Anwendung zur Dateiübertragung genutzt werden.
 
-Nach Abschluss der Dateiübertragung finden Sie Leistungsmetriken in den Workflow-Protokollen.
+Nach Abschluss der Dateiübertragung finden Sie Leistungsmetriken in den Workflow-Logs.
 
 **Weitere Zustellversuche**
 
-Standardmäßig hat die Dateiübertragung für Azurblut bis zu vier weitere Zustellversuche.  Wenn der Azurblase-Datenspeicherung-Dienst einen Fehlercode wie 503 (Serverbetrieb) oder 500 (Zeitüberschreitung des Vorgangs) zurückgibt, deutet dies möglicherweise darauf hin, dass Sie die Skalierbarkeit Ihres Datenspeicherung-Kontos erreichen oder überschreiten. Dies kann vorkommen, wenn ein neues Konto verwendet oder Tests durchgeführt werden.
+Standardmäßig werden bei der Dateiübertragung für Azure Blob bis zu vier weitere Zustellversuche durchgeführt.  Wenn der Azure Storage-Dienst einen Fehler-Code wie 503 (Server ist ausgelastet) oder 500 (Zeitüberschreitung bei Vorgang) zurückgibt, kann dies darauf hindeuten, dass Sie die Skalierbarkeit Ihres Speicherkontos bald erreichen oder überschreiten werden. Das kann passieren, wenn ein neues Konto verwendet wird bzw. Tests durchgeführt werden.
 
-Wenn der Fehler weiterhin auftritt, können Sie die Anzahl der weitere Zustellversuche erhöhen, indem Sie eine Option unter dem erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+If the error persists, you can increase the number of retries by creating an option under the advanced menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
-Wenn diese Option implementiert ist, muss sie wie folgt erstellt werden:
+Im Falle einer Implementierung muss die Option wie folgt eingerichtet werden:
 
 ```
 ID:        AzureBlob_Max_Retries
