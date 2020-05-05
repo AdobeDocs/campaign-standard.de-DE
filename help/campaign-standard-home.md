@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -52,7 +52,7 @@ Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand
   <td valign="top">
        <img alt="Support" src="start/using/assets/do-not-localize/help.jpeg" />
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
-    Support <strong>anfordern</strong></a>
+    <strong>Support</strong></a>
     </div>
     <p><em>Häufig gestellte Fragen, Best Practices, Hilfe und Verbindung mit Experten</em></p>
     <br>
@@ -68,5 +68,5 @@ Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand
 | [Dokumentation zur Systemsteuerung](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html) | [Kampagne-APIs](api/using/about-campaign-standard-apis.md) |
 | [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) | [Liste von Fehlermeldungen](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanung](rn/using/release-planning.md) | [Kampagne-Datenmodell](developing/using/datamodel-introduction.md) |
-| [Veraltete und entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html) | [Handbuch für mehrere Lösungen](integrating/using/about-campaign-integrations.md) |
-| [Erste Schritte mit Campaign Standard](start/using/campaign-orchestration.md) | [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) |
+| [Veraltete und entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html) | [Handbuch für mehrere Lösungen](integrating/using/get-started-campaign-integrations.md) |
+| [Erste Schritte mit Campaign Standard](start/using/about-campaign-standard.md) | [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) |
