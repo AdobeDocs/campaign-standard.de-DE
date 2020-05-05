@@ -1,5 +1,5 @@
 ---
-title: Über dynamische Berichte
+title: Erste Schritte mit dynamischen Berichten
 description: Mit dynamischen Berichten können Sie Variablen und Dimensionen in Ihre Freiformumgebung ziehen und die Wirkung Ihrer Kampagnen analysieren.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -12,29 +12,18 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
+source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
 
 ---
 
 
-# Über dynamische Berichte{#about-dynamic-reports}
+# Erste Schritte mit dynamischen Berichten {#about-dynamic-reports}
 
 Die dynamische Berichterstellung ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte. Durch sie kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. Mit der Drag &amp; Drop-Funktion können Sie Daten analysieren sowie feststellen, wie Ihre E-Mail-Kampagnen bei Ihren wichtigsten Kundensegmenten angekommen sind, und ihre Wirkung auf die Empfänger messen.
 
 >[!NOTE]
 >
 >Nur Benutzer, die Administratorrechte besitzen oder deren Organisationseinheiten mit **Alle** festgelegt sind, können einen neuen Bericht erstellen oder speichern. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/users-management.md).
-
-![](assets/dynamic_report_intro.png)
-
-Dank dem Drag &amp; Drop-Menü und den anpassbaren Grafiken können Sie mit dieser Funktion Dimensionen, Messwerte und Zeitspannen beliebig kombinieren und so dynamische Berichte mit unbegrenzten Verteilungs- und Vergleichsmöglichkeiten erstellen.
-
-
-**Verwandte Themen:**
-
-* [Verfügbare Berichte](../../reporting/using/defining-the-report-period.md)
-* [Organisationseinheiten](../../administration/using/organizational-units.md)
-* Video [Dynamic reports](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/creating-a-dynamic-report.html)
 
 ## Zugriff auf dynamische Berichte {#accessing-dynamic-reports}
 
