@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
 
 Mit Adobe Campaign Standard können Sie die sofortige Erfassung von Daten-Mappings über APIs aktivieren und den Status der Aufnahmeanfragen abrufen.
 
-Auf dieser Seite wird beschrieben, wie Sie den Aufnahmestatus Ihrer Daten-Mappings aktivieren und abrufen. Globale Informationen zu Campaign Standard-APIs finden Sie in [diesem Abschnitt](../../api/using/about-campaign-standard-apis.md).
+Auf dieser Seite wird beschrieben, wie Sie den Aufnahmestatus Ihrer Daten-Mappings aktivieren und abrufen. Globale Informationen zu Campaign Standard-APIs finden Sie in [diesem Abschnitt](../../api/using/get-started-apis.md).
 
 ## Voraussetzungen {#prerequisites}
 
