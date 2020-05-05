@@ -11,8 +11,8 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+translation-type: tm+mt
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -27,9 +27,9 @@ Nachdem Sie mit dem Unified Profile Segment Builder eine [Adobe Experience Platf
 
 Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience in Ihren Workflows zu aktivieren:
 
-1. Fügen Sie dem Workflow die Aktivität **[!UICONTROL Audience lesen]** hinzu und öffnen Sie sie.
+1. Add a **[!UICONTROL Read audience]** activity into the workflow, then open it.
 
-1. Wählen Sie die Option **[!UICONTROL Adobe Experience Platform]** unter **[!UICONTROL Audience-Typ]** aus und fügen Sie dann die gewünschte Audience hinzu.
+1. Wählen Sie die **[!UICONTROL Adobe Experience Platform]** Option unter **[!UICONTROL Type of audience]** und fügen Sie dann die gewünschte Audience hinzu.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience in Ihren Wor
 
    Wenn Sie auf die Augenschaltfläche klicken, gelangen Sie direkt zum Unified Segment Builder (in einem anderen Tab), der der ausgewählten Audience in Campaign zugeordnet ist.
 
-1. Wählen Sie das Element **[!UICONTROL Mapping von Platform-Daten]** aus, um die gewünschte Zielgruppendimension für die ausgewählte Adobe Experience Platform-Audience festzulegen.
+1. Select a **[!UICONTROL Platform data mapping]** element to specify the desired targeting dimension for the selected Adobe Experience Platform audience.
 
    Standardmäßig ist der Primärschlüssel (z. B. iRecipientID für die Profiltabelle, iAppSubscriptionID für die AppSubscription-Tabelle), der für die Abstimmung verwendet wird, automatisch in der Dropdown-Liste verfügbar. Um eine Zielgruppenbestimmung außerhalb des Primärschlüssels durchzuführen, müssen Sie einen benutzerdefinierten **Namespace** erstellen.
 
@@ -47,13 +47,13 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience in Ihren Wor
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Diese Liste enthält alle XDM-Mappings (Experience-Datenmodell), die für Ihre Instanz konfiguriert wurden. Weitere Informationen zu Adobe Experience Platform Data Connector finden Sie in [diesem Dokument](../../administration/using/aep-about-data-connector.md).
+   Diese Liste enthält alle XDM-Mappings (Experience-Datenmodell), die für Ihre Instanz konfiguriert wurden. Weitere Informationen zu Adobe Experience Platform Data Connector finden Sie in [diesem Dokument](../../developing/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Nachdem die Audience- und Zielgruppendimensionen korrekt konfiguriert wurden, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]**, um die Änderungen zu speichern.
+1. Once the audience and targeting dimensions are configured properly, click the **[!UICONTROL Confirm]** button to save your changes.
 
-Sie können Ihren Workflow jetzt mit anderen Aktivitäten konfigurieren. Sie können beispielsweise die Aktivität **[!UICONTROL E-Mail-Versand]** anfügen, um eine E-Mail an die ausgewählte Audience zu senden.
+Sie können Ihren Workflow jetzt mit anderen Aktivitäten konfigurieren. You can, for example, link an **[!UICONTROL Email delivery]** activity to send an email to the audience that has been selected.
 
 ![](assets/aep_wkf_email.png)
 
@@ -65,7 +65,7 @@ Sie können Ihren Workflow jetzt mit anderen Aktivitäten konfigurieren. Sie kö
 
 Weitere Informationen zur Verwendung von Workflows und Sendungen finden Sie in den folgenden Abschnitten:
 
-* [Workflows](../../automating/using/discovering-workflows.md)
+* [Workflows](../../automating/using/get-started-workflows.md)
 * [Workflow erstellen](../../automating/using/building-a-workflow.md)
-* [Kommunikationskanäle](../../channels/using/discovering-communication-channels.md)
+* [Kommunikationskanäle](../../channels/using/get-started-communication-channels.md)
 * [Über Kanalaktivitäten](../../automating/using/about-channel-activities.md)
