@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 ---
 
@@ -21,15 +21,15 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 Beginn, der mit dem E-Mail-Designer arbeitet, und erstellen wiederverwendbare Vorlagen und Fragmente aus Ihrem E-Mail-HTML-Code, der im Legacy-Editor erstellt wurde.
 
-In diesem Anwendungsfall können Sie eine E-Mail-Designer-Vorlage erstellen, indem Sie eine HTML-E-Mail verwenden und sie in HTML-Komponenten im E-Mail-Designer aufteilen.
-
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Dieser Abschnitt richtet sich an Benutzer mit fortgeschrittenen HTML-Kenntnissen.
 
+In diesem Anwendungsfall können Sie eine E-Mail-Designer-Vorlage erstellen, indem Sie eine HTML-E-Mail verwenden und sie in HTML-Komponenten im E-Mail-Designer aufteilen.
+
 >[!NOTE]
 >
->Wie im Kompatibilitätsmodus ist eine HTML-Komponente nur beschränkt bearbeitbar: Sie kann nur an Ort und Stelle bearbeitet werden.
+>Wie der Kompatibilitätsmodus kann eine HTML-Komponente mit eingeschränkten Optionen bearbeitet werden: Sie können nur eine ersetzende Ausgabe durchführen.
 
 ## Vorbereiten des E-Mail-Inhalts
 
@@ -96,21 +96,21 @@ Um die HTML-Version der E-Mail anzuzeigen, klicken Sie auf **[!UICONTROL Show so
 
 ### E-Mail-Vorlage und deren Struktur erstellen
 
-1. Ziehen Sie per Drag &amp; Drop **[!UICONTROL Structure Components]** das Layout unserer E-Mail.
+1. Ziehen Sie per Drag &amp; Drop **[!UICONTROL Structure components]** das Layout unserer E-Mail.
 
-Wir müssen elf Strukturkomponenten erstellen.
+1. Wiederholen Sie diese Schritte nach Bedarf. Wir müssen elf Strukturkomponenten erstellen.
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### Einfügen von HTML-Inhaltskomponenten
 
-1. Fügen Sie eine **[!UICONTROL HTML component]** in jede ein **[!UICONTROL structure component]** .
+1. Fügen Sie eine **[!UICONTROL HTML component]** in jede ein **[!UICONTROL Structure component]** .
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
 1. Klicken Sie für jeden Abschnitt auf **[!UICONTROL Show source code]** .
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. Fügen Sie den HTML-Abschnitt ein.
 
@@ -122,7 +122,7 @@ Sie können nun die Wiedergabe Ihrer E-Mail überprüfen.
 
 ### Verwalten von Stilen für die mobile Ansicht
 
-Fügen Sie CSS-Elemente ein, um sicherzustellen, dass Ihre E-Mail für die mobile Ansicht geeignet ist.
+1. Fügen Sie CSS-Elemente ein, um sicherzustellen, dass Ihre E-Mail für die mobile Ansicht geeignet ist.
 
 1. Wechseln Sie zum Quellcode und kopieren Sie den Stilabschnitt in einen neuen Stilabschnitt.
 
