@@ -11,8 +11,8 @@ topic-tags: importing-and-exporting-data
 discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -21,19 +21,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Durch den Datenimport können Sie Daten erfassen und Ihre Adobe-Campaign-Datenbank erweitern.
 
-Adobe Campaign bietet eine vereinfachte Importfunktion, welche unter bestimmten Bedingungen eine Alternative zur Verwendung komplexerer [Workflow](../../automating/using/discovering-workflows.md)-Aktivitäten darstellt.
+Adobe Campaign bietet eine vereinfachte Importfunktion, welche unter bestimmten Bedingungen eine Alternative zur Verwendung komplexerer [Workflow](../../automating/using/get-started-workflows.md)-Aktivitäten darstellt.
 
-Das Prinzip dahinter sieht wie folgt aus: Ein **Administrator** definiert und verwaltet Importvorlagen (siehe [Importvorlagen konfigurieren](../../automating/using/defining-import-templates.md)). Diese Importvorlagen werden dann Benutzern im Menü **[!UICONTROL Profile &amp; Audiences]** &gt; **[!UICONTROL Importe]** mit vereinfachten Ansichten zur Verfügung gestellt.
+Das Prinzip dahinter sieht wie folgt aus: Ein **Administrator** definiert und verwaltet Importvorlagen (siehe [Importvorlagen konfigurieren](../../automating/using/defining-import-templates.md)). These import templates are then made available to users with simplified views under the **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Imports]** menu.
 
 Die Benutzer müssen lediglich den gewünschten Importtyp auswählen und die Datei mit den zu importierenden Daten hochladen. Für den Benutzer transparent wird nun der zuvor durch den Administrator konfigurierte Workflow ausgeführt. Nach Abschluss des Imports kann der Benutzer auf das Ergebnis des Imports zugreifen.
 
 >[!NOTE]
 >
->Die Datenimportfunktion kann von Benutzern mit den Benutzerrollen **[!UICONTROL ALLGEMEINER IMPORT (import)]** und **[!UICONTROL WORKFLOW (workflow)]** verwaltet werden. Weiterführende Informationen zu Benutzerrollen finden Sie in [diesem Abschnitt](../../administration/using/list-of-roles.md).
+>Import data function can be managed by users with **[!UICONTROL GENERIC IMPORT (import)]** and **[!UICONTROL WORKFLOW (workflow)]** roles. Weiterführende Informationen zu Benutzerrollen finden Sie in [diesem Abschnitt](../../administration/using/list-of-roles.md).
 
 Die Importliste kann nach der zugrunde liegenden Vorlage, dem Ausführungsdatum und -status gefiltert werden.
 
-1. Verwenden Sie in der Importübersicht die **[!UICONTROL Erstellen]**-Schaltfläche, um den Importassistenten zu öffnen.
+1. From the imports overview, click the **[!UICONTROL Create]** button. um den Importassistenten zu öffnen.
 1. Wählen Sie den gewünschten Importtyp aus. Die Importtypen entsprechen den verfügbaren Importvorlagen.
 1. Laden Sie bei Bedarf die in der Vorlage enthaltene Beispieldatei herunter, um sicherzustellen, dass die in der zu importierenden Datei enthaltenen Daten den erwarteten Datentypen entsprechen.
 1. Laden Sie die Datei mit den zu importierenden Daten im Assistenten hoch.
