@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ Im Anzeigebereich &quot;E-Mail-Konfiguration&quot;können Sie die Parameter für
    * Sowohl Absender- als auch Fehleradressen werden von Adobe eingerichtet. Diese Felder dürfen nicht leer sein.
    * Sie können diese Felder nicht bearbeiten. Wenden Sie sich zum Aktualisieren einer Adresse an das Adobe-Kundendienstteam.
    * Um eine weitere Adresse hinzuzufügen, können Sie über die [Systemsteuerung](https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) eine neue Subdomäne einrichten oder sich an das Adobe-Kundendienstteam wenden. Beachten Sie, dass mehrere Masken durch Kommas getrennt werden.
-   * Es empfiehlt sich, Adressen mit einem Stern wie **@yourdomain.com* festzulegen: Sie können jede Adresse verwenden, die mit Ihrem Subdomänennamen endet.
+   * Es empfiehlt sich, Adressen mit einem Stern wie *@yourdomain.com festzulegen: Sie können jede Adresse verwenden, die mit Ihrem Subdomänennamen endet.
 
 * **Zustellbarkeit**
 
@@ -97,7 +97,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 Der Zugriff auf die Datei **[!UICONTROL Email processing rules]** ist über das **[!UICONTROL Administration > Channels > Email]** Menü möglich.
 
 Beachten Sie, dass die E-Mail-Domänen und die MX-Regeln jetzt vom Adobe Campaign Enhanced MTA verwaltet werden:
-* Die E-Mail-Authentifizierung und -Signierung mit **DKIM (DomainKeys Identified Mail)** erfolgt durch den erweiterten MTA für alle Nachrichten mit allen Domains. Eine Signierung mit **Sender ID**, **DomainKeys** oder **S/MIME** findet nicht statt, es sei denn, auf der Ebene des erweiterten MTA ist etwas anderes angegeben.
+* Die Signierung zur E-Mail-Authentifizierung mit **DKIM (DomainKeys Identified Mail)** erfolgt durch den Enhanced MTA für alle Nachrichten mit allen Domains. Die Signierung erfolgt nicht mit **Sender ID**, **DomainKeys** oder **S/MIME**, es sei denn, auf der Ebene des Enhanced MTA ist etwas anderes angegeben.
 * Die erweiterte MTA verwendet ihre eigenen MX-Regeln, die es ermöglichen, Ihren Durchsatz nach Domäne basierend auf Ihrem eigenen historischen E-Mail-Ruf und dem Echtzeit-Feedback, das von den Domänen stammt, von denen Sie E-Mails senden, anzupassen.
 
 ### Bounce Messages {#bounce-mails}
