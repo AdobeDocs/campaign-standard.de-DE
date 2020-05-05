@@ -12,7 +12,7 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -100,7 +100,7 @@ Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingk
 
 ### Importieren von Daten über API-Aufrufe
 
-Mit Campaign Standard-APIs können Sie Prozesse zum Aktualisieren der Datenbank durchführen, z. B. die Erstellung, Aktualisierung oder Löschung von Profilen oder Diensten. Weiterführende Informationen zur Verwendung von APIs finden Sie im [entsprechenden Handbuch](../../api/using/about-campaign-standard-apis.md).
+Mit Campaign Standard-APIs können Sie Prozesse zum Aktualisieren der Datenbank durchführen, z. B. die Erstellung, Aktualisierung oder Löschung von Profilen oder Diensten. Weiterführende Informationen zur Verwendung von APIs finden Sie im [entsprechenden Handbuch](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
