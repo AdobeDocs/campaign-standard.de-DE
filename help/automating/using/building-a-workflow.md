@@ -12,19 +12,28 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e04b70012188b455382406df167328f963d577da
+translation-type: tm+mt
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
 
 # Workflow erstellen{#building-a-workflow}
 
-In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei der Erstellung eines neuen Workflows:
+In diesem Abschnitt erfahren Sie die wichtigsten Schritte und Best Practices bei der Erstellung eines neuen Workflows.
 
-* Workflow erstellen
-* Aktivitäten hinzufügen und verbinden
-* Aktivitäten konfigurieren
+## Funktionsweise von Workflows{#workflow-operating-principles}
+
+Ein Workflow besteht aus einer **Abfolge konfigurierbarer Aktivitäten**. Jeder Aktivität kommt im Rahmen des Prozesses eine spezifische Rolle zu. Das Ergebnis der Aktivitäten wird über eine durch einen Pfeil symbolisierte **Transition** an die anschließende Aktivität übermittelt.
+
+Die Art der von einer Aktivität zur nächsten übermittelten Daten kann die Konfiguration der Folgeaktivitäten beeinflussen. Wenn beispielsweise ein E-Mail-Versand auf eine Zielbestimmungsaktivität folgt, kann die in letzterer ermittelte Population als Zielgruppe für den Versand verwendet werden.
+
+Sie können Aktivitäten vor oder nach der Ausführung des Workflows öffnen, um Parameter zu überprüfen oder abzuändern.
+
+Sie können Transitionen vor oder nach der Ausführung des Workflows öffnen, um zu überprüfen, ob die übermittelten Daten korrekt sind. To access the detail view of the transitions, you have to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties.
+
+![](assets/workflow_overview.png)
+
 
 ## Workflow erstellen    {#creating-a-workflow}
 
@@ -56,7 +65,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
 1. Nach Bestätigung der Aktivitätserstellung werden Sie zum entsprechenden Dashboard weitergeleitet. Lesen Sie diesbezüglich auch den Abschnitt [Workflow-Oberfläche](../../automating/using/workflow-interface.md).
 
-1. Sobald der Workflow zur Konfiguration bereit ist, können Sie über die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** auf weitere Optionen zugreifen. Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
+1. Once the workflow is ready to be configured, you can access additional options by clicking the **[!UICONTROL Edit properties]** button. Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
 
    ![](assets/workflow_properties.png)
 
@@ -100,7 +109,7 @@ So erstellen Sie das Diagramm:
 
 Nach der Verknüpfung Ihrer Workflow-Aktivitäten können Sie die Transitionen zwischen ihnen mit dem **Titel** Ihrer Wahl personalisieren. Doppelklicken Sie dazu auf die Transition, um auf ihre Eigenschaften zuzugreifen.
 
-Darüber hinaus können Sie mit den Aktivitäten **[!UICONTROL Targeting]** und **[!UICONTROL Daten-Management (ETL)]** **Segmentcodes** für die ausgehenden Transitionen definieren. Anschließend können Sie auf diesen Segmentcodes basierende Berichte erstellen, um die Effizienz Ihrer Marketingkampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
+Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. Anschließend können Sie auf diesen Segmentcodes basierende Berichte erstellen, um die Effizienz Ihrer Marketingkampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Anwendungsfälle für Workflows:**
 
@@ -114,7 +123,7 @@ Darüber hinaus können Sie mit den Aktivitäten **[!UICONTROL Targeting]** und 
 Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Daten nur korrekt, wenn sie konfiguriert werden. Jede Aktivität enthält mehrere Tabs zur Verwaltung mehrerer Konfigurationen und aktivitätsspezifischer Optionen, wie zum Beispiel ausgehender Transitionen, Titel usw.
 
 1. Vergewissern Sie sich, dass alle Aktivitäten korrekt miteinander verbunden sind. Manche Aktivitäten zeigen nur dann die korrekten Konfigurationsoptionen an, wenn sie die Struktur oder Art der eingehenden Daten erkennen.
-1. Wählen Sie eine Aktivität per Doppelklick aus oder selektieren Sie sie und wählen Sie dann **[!UICONTROL Bearbeiten]** aus, um das entsprechende Konfigurationsfenster zu öffnen.
+1. Double-click an activity or select it and click the **[!UICONTROL Edit]** contextual action to open its configuration window.
 1. Bearbeiten Sie den Titel der Aktivität.
 1. Definieren Sie alle Optionen, die Sie zur Verarbeitung der Daten benötigen. Die möglichen Optionen für jede Aktivität erfahren Sie im jeweiligen Abschnitt dieser Dokumentation.
 1. Speichern Sie die Aktivität und wiederholen Sie das Verfahren für jede Aktivität im Workflow.
