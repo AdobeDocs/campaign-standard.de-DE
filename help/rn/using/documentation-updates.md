@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -35,7 +35,7 @@ Thailands Gesetz zum Schutz personenbezogener Daten (PDPA) - [Weitere Informatio
 
 Externe API-Aktivität (GA) - [Weitere Informationen](../../automating/using/external-api.md)
 
-**Weitere Aktualisierungen der Dokumentation zu dieser Version**
+**Weitere Dokumentationsaktualisierungen zu dieser Version**
 
 Es wurden Informationen zu den **[!UICONTROL History in days]** Eigenschaften von Workflows hinzugefügt, die jetzt von der **[!UICONTROL Transfer file]** Aktivität heruntergeladene Dateien enthalten. [mehr dazu](../../automating/using/executing-a-workflow.md)
 
@@ -157,7 +157,7 @@ Eine neue Seite mit allgemeinen Richtlinien für den Mobil-Versand in Adobe Camp
 
 Die Dokumentation zum Verwenden von Campaign und Experience Manager wurde um den Abschnitt **Tipps zur Verwendung der Integration zwischen Campaign und Experience Manager** ergänzt – [mehr dazu](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-Die Startseite der API-Dokumentation wurde durch Weiterleitungen zu den verschiedenen Themen verbessert – [mehr dazu](../../api/using/about-campaign-standard-apis.md)
+Die Startseite der API-Dokumentation wurde durch Weiterleitungen zu den verschiedenen Themen verbessert – [mehr dazu](../../api/using/get-started-apis.md)
 
 ## Aktualisierungen der Dokumentation – Dezember 2019 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ Die Control Panel-Dokumentation wurde in den neuen kollaborativen Dokumentations
 
 Die Tabelle mit **Indikatorberechnungen** wurde aktualisiert. [mehr dazu](../../reporting/using/indicator-calculation.md)
 
-Der API-Dokumentationssatz wurde in die Dokumentation von Campaign Standard integriert.[mehr dazu](../../api/using/about-campaign-standard-apis.md)
+Der API-Dokumentationssatz wurde in die Dokumentation von Campaign Standard integriert.[mehr dazu](../../api/using/get-started-apis.md)
 
 Die ersten Schritte zum Thema Erstellen einer personalisierten E-Mail wurden verschoben und aktualisiert. [mehr dazu](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ Ein Abschnitt zu Aktualisierungen und Wartungsverfahren wurde hinzugefügt – [
 
 Informationen zur neuen Sortieroption in der Aktivität **Dateitransfer** wurden hinzugefügt – [mehr dazu](../../automating/using/transfer-file.md)
 
-Die [REST-APIs-Dokumentation](../../api/using/about-campaign-standard-apis.md) wurde aktualisiert:
+Die [REST-APIs-Dokumentation](../../api/using/get-started-apis.md) wurde aktualisiert:
 
 * Ein neuer Abschnitt wurde hinzugefügt mit allgemeinen Informationen zur Verwendung von Campaign Standard-REST-APIs.
 * Eine Kollektion vordefinierter API-Anfragen für häufige Anwendungsfälle wurde bereitgestellt.
@@ -697,7 +697,7 @@ In der SMS-Dokumentation wurde der Abschnitt zu [automatischen SMS-Antworten](..
 
 Neuer Abschnitt zum Workflow-Management über die API – [mehr dazu](../../api/using/controlling-a-workflow.md)
 
-Neuer Abschnitt zu Primärschlüsseln und zur Verwendung einer Kennung als Schlüssel in der API – [mehr dazu](../../api/using/about-campaign-standard-apis.md)
+Neuer Abschnitt zu Primärschlüsseln und zur Verwendung einer Kennung als Schlüssel in der API – [mehr dazu](../../api/using/get-started-apis.md)
 
 Informationen zum Filtern mit einzelnen und mehreren Filtern in der API hinzugefügt – [mehr dazu](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ Verknüpfte Ressourcen in REST APIs – [mehr dazu](../../developing/using/updat
 
 Triggers-Integration: zwei Anwendungsbeispiele wurden hinzugefügt – [mehr dazu](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Die API-Dokumentation für Entwickler wurde durch neue Informationen und Code-Snippets ergänzt und ist jetzt benutzerfreundlicher – [mehr dazu](../../api/using/about-campaign-standard-apis.md)
+Die API-Dokumentation für Entwickler wurde durch neue Informationen und Code-Snippets ergänzt und ist jetzt benutzerfreundlicher – [mehr dazu](../../api/using/get-started-apis.md)
 
 Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-audience.md) und [Externes Signal](../../automating/using/external-signal.md) wurden Beispiele hinzugefügt.
 
@@ -859,7 +859,7 @@ Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-
 
 Protokollexport für die externe Berichterstattung – [mehr dazu](../../automating/using/exporting-logs.md)
 
-Transaktionsnachrichten-API – [mehr dazu](../../api/using/about-campaign-standard-apis.md)
+Transaktionsnachrichten-API – [mehr dazu](../../api/using/get-started-apis.md)
 
 Marketing-Funktionen für Transaktionsnachrichten – [mehr dazu](../../channels/using/profile-transactional-messages.md)
 
