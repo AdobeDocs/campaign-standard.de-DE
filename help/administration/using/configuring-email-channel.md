@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
 
 ---
 
@@ -38,13 +38,18 @@ Im Anzeigebereich &quot;E-Mail-Konfiguration&quot;können Sie die Parameter für
 
 ![](assets/channels_1.png)
 
-* **Header-Parameter für ausgehende E-Mails**
+* **Felder für autorisierte Masken**
 
-   In this section, you can specify the **[!UICONTROL masks]** authorized for the sender address and the error address. Wenn mehrere Masken verwendet werden, müssen sie durch Kommas getrennt werden. Wenn diese Felder ausgefüllt sind, prüft Adobe Campaign, ob die eingegebenen Adressen während der Vorbereitung der Nachricht gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten. Sowohl Absender- als auch Fehleradressen werden von Adobe eingerichtet. Sie müssen sich an das Adobe-Kundendienstteam wenden, um sie zu aktualisieren.
+   Die **[!UICONTROL Header parameters of sent emails]** Listen der autorisierten E-Mail-Adressen, die Sie zum Senden von E-Mails an Ihre Empfänger (Absenderadresse) und zur Fehlermeldung (Fehleradresse) verwenden können.  Adobe Campaign prüft, ob die eingegebenen Adressen während der Vorbereitung der Nachricht gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten.
+   * Sowohl Absender- als auch Fehleradressen werden von Adobe eingerichtet. Diese Felder dürfen nicht leer sein.
+   * Sie können diese Felder nicht bearbeiten. Wenden Sie sich zum Aktualisieren einer Adresse an das Adobe-Kundendienstteam.
+   * Um eine weitere Adresse hinzuzufügen, können Sie über die [Systemsteuerung](https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) eine neue Subdomäne einrichten oder sich an das Adobe-Kundendienstteam wenden. Beachten Sie, dass mehrere Masken durch Kommas getrennt werden.
+   * Es empfiehlt sich, Adressen mit einem Stern wie **@yourdomain.com* festzulegen: Sie können jede Adresse verwenden, die mit Ihrem Subdomänennamen endet.
 
 * **Zustellbarkeit**
 
-   Diese ID wird vom Adobe-Kundenservice-Team bereitgestellt. Es ist obligatorisch, dass Berichte zur Lieferbarkeit ordnungsgemäß funktionieren.
+   Der **[!UICONTROL Delivery reports ID]** Bericht wird vom Adobe-Kundenservice-Team bereitgestellt. Er identifiziert jede Instanz mit einer Auslieferungs-ID, die in den technischen Auslieferungsberichten verwendet wird.
+   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Versandparameter**
 
@@ -71,6 +76,7 @@ Im Anzeigebereich &quot;E-Mail-Konfiguration&quot;können Sie die Parameter für
    In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. Der Standardwert ist **&quot;1d&quot;**, für 1 Tag.
 
    Wenn der **[!UICONTROL Maximum number of errors before quarantine]** Wert erreicht wird, wird die E-Mail-Adresse in Quarantäne gestellt. The default value is **&quot;5&quot;**: the address will be quarantined on the fifth error. Dies bedeutet, dass der Kontakt automatisch von den nächsten Sendungen ausgeschlossen wird.
+   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    For more on quarantines, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
