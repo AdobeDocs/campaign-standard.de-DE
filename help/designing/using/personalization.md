@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e904118852b06263b1320d65867539feb6360053
+source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
 
 ---
 
@@ -108,8 +108,6 @@ So fügen Sie einen Inhaltsbaustein hinzu:
 Der Name des Bausteins erscheint daraufhin im Editor. Er ist gelb unterlegt. Er wird in der Personalisierungsphase automatisch an das Profil angepasst.
 
 ![](assets/email_content_block_3.png)
-
-Es stehen folgende native Inhaltsbausteine zur Verfügung:
 
 Es stehen folgende native Inhaltsbausteine zur Verfügung:
 
