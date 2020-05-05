@@ -1,6 +1,6 @@
 ---
-title: Datenschutz und Empfehlungen in Adobe Campaign Standard
-description: In diesem Abschnitt geht es um die Datenschutzverwaltung in Adobe Campaign Standard.
+title: Datenschutz und Zustimmung in Adobe Campaign Standard
+description: In diesem Abschnitt erhalten Sie einen Überblick über den Datenschutz, die personenbezogenen Daten und die Verwaltung der Einwilligung in Adobe Campaign Standard sowie die dazu verfügbaren Tools.
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0d7dc73afb2e3b69f461d0e389451c9deabc1f23
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
