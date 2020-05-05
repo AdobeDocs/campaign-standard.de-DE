@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -28,7 +28,7 @@ Briefpost ist ein Offline-Kanal, über den Sie eine für Briefpost-Dienstleister
 
 Über Online-Kanäle können Sie Nachrichten erstellen (E-Mail, SMS, Mobile-App-Versand etc.) und direkt über Adobe Campaign an Ihre Audience senden. Offline-Kanäle sind anders. Wenn Sie einen Briefpost-Versand vorbereiten, erzeugt Adobe Campaign eine Datei, die alle Zielgruppenprofile und die ausgewählte Kontaktinformationen enthält (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.
 
-Im folgenden Abschnitt erfahren Sie, wie Sie einen einmaligen Briefpost-Versand erstellen. Sie können auch eine Briefpost-Aktivität in einen Workflow einbauen, um Kampagnen mit kombinierten Online- und Offline-Kanälen aufeinander abzustimmen. Weitere Informationen hierzu finden Sie im [Workflow](../../automating/using/workflow-data-and-processes.md)-Handbuch.
+Im folgenden Abschnitt erfahren Sie, wie Sie einen einmaligen Briefpost-Versand erstellen. Sie können auch eine Briefpost-Aktivität in einen Workflow einbauen, um Kampagnen mit kombinierten Online- und Offline-Kanälen aufeinander abzustimmen. Weitere Informationen hierzu finden Sie im [Workflow](../../automating/using/get-started-workflows.md)-Handbuch.
 
 Gehen Sie in Adobe Campaign folgendermaßen vor:
 
