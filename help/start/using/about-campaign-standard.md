@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -78,7 +78,7 @@ Nutzen Sie die Versand-Warnfunktion, um die Erfolge oder Fehler des Versands dur
 
 **Erweitern Sie das Datenmodell** Ihres Campaign Standards mit Ihren eigenen Feldern und Ressourcen und überwachen Sie alle Änderungen des Datenmodells in einer einzigen Ansicht. [Erste Schritte mit dem Campaign Standard-Datenmodell](../../developing/using/get-started-data-model.md)
 
-**Nutzen Sie REST-APIs** , um verschiedene Vorgänge durchzuführen und Campaign Standard in Ihr eigenes Ökosystem zu integrieren. [Erste Schritte mit Campaign Standard-REST-APIs](../../api/using/about-campaign-standard-apis.md)
+**Nutzen Sie REST-APIs** , um verschiedene Vorgänge durchzuführen und Campaign Standard in Ihr eigenes Ökosystem zu integrieren. [Erste Schritte mit Campaign Standard-REST-APIs](../../api/using/get-started-apis.md)
 
 **Kampagne** aus einer Ansicht verwalten: Sie können Ihre Instanz überwachen und die Berechtigungen der Benutzer verwalten. Richten Sie externe Server ein, um eine Verbindung zu Ihrer Instanz herzustellen, und konfigurieren Sie Parameter für Ihre Kommunikations-Kanal. [Erste Schritte mit der Campaign Standard-Verwaltung](../../administration/using/get-started-campaign-administration.md)
 
