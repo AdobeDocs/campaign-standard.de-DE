@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -65,8 +65,8 @@ Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand
 | Nützliche Seiten | Ressourcen für Entwickler |
 |---|---|
 | [Versionshinweise](rn/using/release-notes.md) | [Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Dokumentation zur Systemsteuerung](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html) | [Kampagne-APIs](api/using/about-campaign-standard-apis.md) |
-| [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) | [Liste von Fehlermeldungen](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html) | [Kampagne-APIs](api/using/get-started-apis.md) |
+| [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) | [Liste von Fehlernachrichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanung](rn/using/release-planning.md) | [Kampagne-Datenmodell](developing/using/datamodel-introduction.md) |
-| [Veraltete und entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html) | [Handbuch für mehrere Lösungen](integrating/using/get-started-campaign-integrations.md) |
+| [Eingestellte und entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html) | [Handbuch für mehrere Lösungen](integrating/using/get-started-campaign-integrations.md) |
 | [Erste Schritte mit Campaign Standard](start/using/about-campaign-standard.md) | [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) |
