@@ -12,7 +12,7 @@ discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40de67f4c918b26de6d306ce6af5cb8832741d6f
+source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
 
 ---
 
@@ -44,7 +44,7 @@ Ein Satz von Standardregeln stellt die Standardsteuerelemente sicher. Die nachst
 | **[!UICONTROL Check URL labels]** | Email | Zu Beginn der Personalisierung | Überprüft, ob jede Tracking-URL eine Beschriftung enthält. |
 | **[!UICONTROL Check URLs]** | Email | Zu Beginn der Personalisierung | Überprüft die Tracking-URLs (Vorhandensein des Zeichens &quot;&amp;&quot;). |
 
-## Ausführungsphasen von Steuerungsregeln (Kontroll-, Regelausführungsphasen)
+## Ausführungsphasen von Steuerungsregeln {#control-rules-execution-phases}
 
 Steuerungsregeln können auf verschiedene Phasen des Lebenszyklus des Versands angewendet werden:
 
