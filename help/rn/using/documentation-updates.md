@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5803'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +40,7 @@ Externe API-Aktivität (GA) - [Weitere Informationen](../../automating/using/ext
 
 **Weitere Dokumentationsaktualisierungen zu dieser Version**
 
-Es wurden Informationen zu den **[!UICONTROL History in days]** Eigenschaften von Workflows hinzugefügt, die jetzt von der **[!UICONTROL Transfer file]** Aktivität heruntergeladene Dateien enthalten. [mehr dazu](../../automating/using/executing-a-workflow.md)
+In den Eigenschaften von Workflows wurden Informationen zum **[!UICONTROL Verlauf in Tagen]** hinzugefügt, die jetzt Dateien enthalten, die von der Aktivität der **[!UICONTROL Übertragungsdatei]** heruntergeladen wurden. [mehr dazu](../../automating/using/executing-a-workflow.md)
 
 Im Abschnitt zum Ersetzen von Profilen wurden Informationen zum Grenzwert von 500 Zeichen des Präfix der Betreffzeile hinzugefügt. [mehr dazu](../../sending/using/testing-messages-using-target.md)
 
@@ -59,7 +62,7 @@ Der Abschnitt &quot;Konfigurieren von Transaktionsnachrichten&quot;wurde um Info
 
 Die Dokumentation zu Typologien und Typologieregeln wurde verbessert und mit zusätzlichen Informationen zu integrierten Typologieregeln aktualisiert. [mehr dazu](../../sending/using/about-typology-rules.md)
 
-Es wurden Informationen über die Maßnahmen der **[!UICONTROL Transfer file]** Aktivität **[!UICONTROL File listing]** hinzugefügt. [mehr dazu](../../automating/using/transfer-file.md)
+Informationen wurden der Aktion **[!UICONTROL Übertragungsdatei]** -Aktivität **[!UICONTROL Dateiauflistungen]** hinzugefügt. [mehr dazu](../../automating/using/transfer-file.md)
 
 Die Dokumentation zu weiteren Zustellversuchen nach einem temporären Fehler eines Versands wurde aktualisiert und enthält weitere Details dazu, wie weitere Zustellversuche nach der Aktualisierung auf die erweiterte MTA verwaltet werden. [mehr dazu](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
@@ -85,7 +88,7 @@ E-Mail-Tests mit Zielgruppenprofilen – [mehr dazu](../../sending/using/testing
 
 Beim Rendering von In-App-Nachrichten wurde eine Einschränkung hinzugefügt. [mehr dazu](../../channels/using/customizing-an-in-app-message.md)
 
-Information has been added on how to use aggregates in a **[!UICONTROL Query]** activity. [mehr dazu](../../automating/using/query.md#adding-an-aggregate)
+Es wurden Informationen zur Verwendung von Aggregaten in einer **[!UICONTROL Abfrage]**-Aktivität hinzugefügt. [mehr dazu](../../automating/using/query.md#adding-an-aggregate)
 
 Beim Konfigurieren einer Mobile App wurden eine Einschränkung mit MCPNS hinzugefügt. [mehr dazu](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html)
 
@@ -115,7 +118,7 @@ Ein neuer Abschnitt über Best Practices für Datenmodelle in Campaign Standard 
 
 Information has been added on the **[!UICONTROL Workflow]** built-in right. [mehr dazu](../../administration/using/list-of-roles.md)
 
-Es wurden Informationen zu den in den Eigenschaften der Workflows **[!UICONTROL History in days field]** verfügbaren Informationen hinzugefügt. [mehr dazu](../../automating/using/executing-a-workflow.md)
+Es wurden Informationen zum Feld **[!UICONTROL Verlauf in Tagen]** hinzugefügt, das in den Eigenschaften von Workflows verfügbar ist. [mehr dazu](../../automating/using/executing-a-workflow.md)
 
 ## Version 20.1 – Februar 2020 {#release-20-1---february-2020}
 
@@ -131,7 +134,7 @@ Die Dokumentation zur Datenschutzverwaltung wurde aktualisiert und enthält Info
 
 Die Versionshinweise wurden neu organisiert und verbessert – [mehr dazu](../../rn/using/release-notes.md)
 
-Information related to the Administrators security group has been added, specifying that the **[!UICONTROL All (all)]** organizational unit is assigned to it and cannot be modified. [mehr dazu](../../administration/using/managing-groups-and-users.md)
+Es wurden Informationen zur Sicherheitsgruppe „Administratoren“ hinzugefügt, in denen darauf hingewiesen wird, dass die Organisationseinheit **[!UICONTROL Alle (all)]** ihr zugewiesen ist und nicht geändert werden kann – [mehr dazu](../../administration/using/managing-groups-and-users.md)
 
 Es wurden Informationen darüber hinzugefügt, wie man eine bestimmte Zeitzone definiert, die standardmäßig in einem Workflow verwendet werden soll – [mehr dazu](../../automating/using/building-a-workflow.md)
 
@@ -607,15 +610,15 @@ Zusätzliche Informationen zur Vorbereitung einer Nachricht in einem Versand –
 
 Die Versionshinweise wurden auf verschiedenen Seiten neu angeordnet, sodass Sie eine umfassendere Übersicht über alle Versionen erhalten.
 
-Der **[!UICONTROL Working with typologies]** Abschnitt wurde für eine verbesserte Sichtbarkeit aktualisiert. [mehr dazu](../../sending/using/about-typology-rules.md)
+Der Abschnitt über **[!UICONTROL die Verwendung von Typologien]** wurde übersichtlicher gestaltet – [mehr dazu](../../sending/using/about-typology-rules.md)
 
-A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [mehr dazu](../../automating/using/query.md)
+Eine neue Option ist jetzt verfügbar, mit der die Leistung gesteigert werden kann, wenn in einer **[!UICONTROL Abfrage]** zahlreiche Zusatzdaten definiert werden – [mehr dazu](../../automating/using/query.md)
 
 Das Beispiel für den Profilimport wurde aktualisiert und enthält jetzt Tipps, wie Sie Ihre Profile für den Empfang von Briefpost konfigurieren können – [mehr dazu](../../automating/using/importing-data.md)
 
-A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [mehr dazu](../../automating/using/enrichment.md)
+In Workflows ist eine neue Aktivität verfügbar: die Aktivität **[!UICONTROL Anreicherung]**. – [mehr dazu](../../automating/using/enrichment.md)
 
-The **[!UICONTROL Subscription Services]** activity has been updated to support more use cases, including using a single file to update subscriptions to multiple services. [mehr dazu](../../automating/using/subscription-services.md)
+Die Aktivität **[!UICONTROL An-/Abmeldedienst]** wurde aktualisiert und unterstützt jetzt mehr Anwendungsfälle, einschließlich der Verwendung einer einzigen Datei zur Aktualisierung von Anmeldungen bei mehreren Diensten – [mehr dazu](../../automating/using/subscription-services.md)
 
 Eine schrittweise Anleitung zur Versandvorbereitung wurde hinzugefügt – [mehr dazu](../../sending/using/preparing-the-send.md)
 
@@ -625,7 +628,7 @@ Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion
 
 Eine Anleitung wurde hinzugefügt, in der beschrieben wird, wie Nachrichten entsprechend der Zeitzone der Benutzer in einem wiederkehrenden Workflow gesendet werden können – [mehr dazu](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Der **[!UICONTROL Customizing a push notification]** Abschnitt wurde mit Anwendungsfällen umstrukturiert. [mehr dazu](../../channels/using/customizing-a-push-notification.md)
+Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]** wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt – [mehr dazu](../../channels/using/customizing-a-push-notification.md)
 
 Neuer Abschnitt zur Verwaltung von Blacklists – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
@@ -717,7 +720,7 @@ Detaillierte Liste aller in dynamischen Berichten verfügbaren Komponenten sowie
 
 Detaillierte Liste von mit Adobe Analytics geteilten KPIs – [mehr dazu](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-Neues Video zu dynamischen Berichten – [mehr dazu](../../start/using/how-to-videos.md)
+Neues Video zu dynamischen Berichten –
 
 Empfehlungen für das S3-Konto wurden hinzugefügt – [mehr dazu](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Briefpost-Kanal: Rücksendungen an den Absender – [mehr dazu](../../channels/u
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Die [Erste-Schritte-Handbücher](../../start/using/step-by-step-guides.md) und [die Anleitungsvideos](../../start/using/how-to-videos.md) befinden sich jetzt in einem eigenen Abschnitt.
+Die Erste-Schritte-Handbücher und die Anleitungsvideos befinden sich jetzt in einem eigenen Abschnitt.
 
 Die Dokumentation zum E-Mail-Rendering wurde aktualisiert – [mehr dazu](../../sending/using/email-rendering.md)
 
