@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5835'
 ht-degree: 92%
 
 ---
@@ -29,6 +29,8 @@ Zusätzlich zu den Adobe Campaign- [Versionshinweisen](../../rn/using/release-no
 Die Übersichtsseite des Campaign Standards wurde erweitert und in thematische Themen umstrukturiert. [mehr dazu](../../start/using/about-campaign-standard.md)
 
 Der Bereich &quot;Parameter für E-Mail-Kanal&quot;wurde mit weiteren Informationen zu den Feldern für autorisierte Masken und der Versandberichte-ID geklärt. [mehr dazu](../../administration/using/configuring-email-channel.md)
+
+Die Konfiguration einer mobilen Anwendung mit Adobe Experience Platform-SDKs ist jetzt in der Hauptdokumentation mit weiteren Informationen zum Synchronisieren der Mobile App AEPSDK aus dem technischen Arbeitsablauf beim Start verfügbar. [mehr dazu](../../administration/using/configuring-a-mobile-application.md)
 
 ## Version 20.3 - Mai 2020    {#release-20-3---may-2020}
 
