@@ -10,7 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1707'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ![](assets/wf_externalAPI.png)
 
-The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via an **HTTP API** call.
+Mit der Aktivität **[!UICONTROL Externe API]** können Daten aus einem **externen System** über einen **HTTP-API**-Aufruf in den Workflow integriert werden.
 
-Bei den externen Systemendpunkten kann es sich um öffentliche API-Endpunkte, Kundenmanagementsysteme oder serverlose Anwendungsinstanzen (z. B. [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)) handeln, um einige Kategorien zu nennen.
+Bei den externen Systemendpunkten kann es sich um öffentliche API-Endpunkte, Kunden-Management-Systeme oder Server-lose Anwendungsinstanzen (z. B. [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)) handeln, um einige Kategorien zu nennen.
 
 >[!NOTE]
 >
@@ -35,23 +38,23 @@ Die Hauptmerkmale dieser Aktivität sind:
 * Möglichkeit, eine JSON-Antwort zu erhalten, sie mit Ausgabetabellen zu mappen und an nachfolgende Workflow-Aktivitäten zu übermitteln
 * Fehlermanagement mit einer speziellen ausgehenden Transition
 
-### Übergang von Beta zu GA {#from-beta-to-ga}
+### Übergang von Betaphase zur allgemeinen Verfügbarkeit {#from-beta-to-ga}
 
-Mit Campaign Standard 20.3 wurde die Funktion für externe API von Beta auf General Availability (GA) umgestellt.
+Mit Campaign Standard 20.3 wurde die externe API-Funktion von der Betaphase auf allgemeine Verfügbarkeit (GA) umgestellt.
 
 >[!CAUTION]
 >
->Wenn Sie also externe Beta-API-Aktivitäten verwenden, müssen Sie sie in allen Workflows durch GA External API-Aktivitäten ersetzen.  Workflows, die die Betaversion der externen API verwenden, funktionieren ab Version 20.3 nicht mehr.
+>Wenn Sie also in der Betaversion externe API-Aktivitäten verwendet haben, müssen Sie sie in allen Workflows durch allgemein verfügbare externe API-Aktivitäten ersetzen.  Workflows, die die Betaversion der externen API nutzen, funktionieren ab Version 20.3 nicht mehr.
 
 Fügen Sie beim Ersetzen externer API-Aktivitäten die neue externe API-Aktivität zum Workflow hinzu, kopieren Sie manuell die Konfigurationsdetails und löschen Sie dann die alte Aktivität.
 
 >[!NOTE]
 >
->Sie können keine Kopfzeilenwerte kopieren, da diese in der Aktivität maskiert werden.
+>Sie können keine Header-Werte kopieren, da diese in der Aktivität maskiert sind.
 
-Konfigurieren Sie anschließend andere Aktivitäten im Workflow neu, die auf Daten aus der Beta-Aktivität für externe API verweisen und/oder Daten aus der neuen Aktivität für externe API verwenden. Beispiele für Aktivitäten: E-Mail-Versand (Personalisierungsfelder), Aktivität der Anreicherung usw.
+Konfigurieren Sie anschließend andere Aktivitäten im Workflow, die auf Daten der externen API-Aktivität (Beta) verweisen bzw. solche Daten verwenden, sodass sie stattdessen auf Daten der neuen externen API-Aktivität verweisen bzw. solche Daten verwenden. Beispiele für Aktivitäten: E-Mail-Versand (Personalisierungsfelder), Anreicherungsaktivität usw.
 
-### Einschränkungen und Garantien {#guardrails}
+### Einschränkungen und Limits {#guardrails}
 
 Für diese Aktivität wurden folgende Limits festgelegt:
 
@@ -63,25 +66,25 @@ Für diese Aktivität wurden folgende Limits festgelegt:
 
 >[!CAUTION]
 >
->Bitte beachten Sie, dass die Aktivität zum Abrufen von Daten für die gesamte Kampagne (letzte Angebote, aktuelle Ergebnisse usw.) und nicht zum Abrufen spezifischer Informationen für jedes Profil gedacht ist, da dies zu einer Übertragung großer Datenmengen führen kann. Sollte dies dennoch erforderlich sein, wird empfohlen, die Aktivität [Datei übertragen](../../automating/using/transfer-file.md) zu verwenden.
+>Bitte beachten Sie, dass die Aktivität zum Abrufen von Daten aus der gesamten Kampagne (letzte Angebotspakete, aktuelle Bewertungen usw.) und nicht zum Abrufen spezifischer Informationen für jedes Profil gedacht ist, da dies zu einer Übertragung großer Datenmengen führen kann. Sollte dies dennoch erforderlich sein, wird empfohlen, die Aktivität [Datei übertragen](../../automating/using/transfer-file.md) zu verwenden.
 
 
-Für das JSON wurden spezielle Garantien festgelegt:
+Für das JSON-Format wurden spezielle Limits festgelegt:
 
-* **JSON Max. Tiefe**: die maximale Tiefe einer benutzerdefinierten verschachtelten JSON, die auf 10 Ebenen verarbeitet werden kann, begrenzen.
-* **Max. JSON-Schlüssellänge**: die maximale Länge des internen Schlüssels auf 255 begrenzen. Dieser Schlüssel ist mit der Spalten-ID verknüpft.
-* **Zulässige** JSON-Max. Duplikat-Schlüssel:  die maximale Gesamtanzahl der als Spalte-ID verwendeten Duplikat-JSON-Eigenschaftsnamen auf 150 begrenzen.
+* **Max. JSON-Tiefe**: begrenzt die maximale Tiefe einer benutzerdefinierten verschachtelten JSON, die auf 10 Ebenen verarbeitet werden kann.
+* **Max. JSON-Schlüssellänge**: begrenzt die maximale Länge des internen Schlüssels auf 255. Dieser Schlüssel ist mit der Spaltenkennung verknüpft.
+* **Max. zulässige Zahl an JSON-Duplikatschlüsseln**: begrenzt die maximale Gesamtzahl der als Spaltenkennung verwendeten Duplikat-JSON-Eigenschaftsnamen auf 150.
 
 
-Die JSON-Struktur der Aktivität wird nicht unterstützt, da:
+Die Aktivität ist keine unterstützte JSON-Struktur:
 
 * Kombinieren von Array-Objekten mit anderen Nicht-Array-Elementen
-* Das JSON-Array-Objekt ist innerhalb eines oder mehrerer Zwischen-Array-Objekte verschachtelt.
+* Das JSON-Array-Objekt ist in einem oder mehreren Zwischen-Array-Objekten verschachtelt.
 
 
 ## Konfiguration {#configuration}
 
-Drag and drop an **[!UICONTROL External API]** activity into your workflow and open the activity to start the configuration.
+Ziehen Sie die Aktivität **[!UICONTROL Externe API]** in Ihren Workflow und öffnen Sie sie, um sie zu konfigurieren.
 
 ### Eingehendes Mapping
 
@@ -92,7 +95,7 @@ Mithilfe dieser temporären Tabelle kann der Benutzer Änderungen an eingehenden
 
 Im Dropdown-Feld **Eingehende Ressource** können Sie die Abfrageaktivität auswählen, die die temporäre Tabelle erstellen soll.
 
-The **Add count parameter** checkbox will add a count value for each row coming from the temporary table. Beachten Sie, dass diese Checkbox nur verfügbar ist, wenn die eingehende Aktivität eine temporäre Tabelle generiert.
+Mit der Checkbox **Zählerparameter hinzufügen** wird ein Zählerwert für jede Zeile hinzugefügt, die aus der temporären Tabelle stammt. Beachten Sie, dass diese Checkbox nur verfügbar ist, wenn die eingehende Aktivität eine temporäre Tabelle generiert.
 
 Der Bereich **Eingehende Spalten** ermöglicht Ihnen, beliebige Felder der Tabelle für eingehende Transitionen hinzuzufügen. Die ausgewählte(n) Spalte(n) dienen im Datenobjekt als Schlüssel. Das Datenobjekt im JSON-Format ist eine Array-Liste mit Daten für die ausgewählten Spalten aus jeder Zeile der Tabelle eingehender Transitionen.
 
@@ -104,26 +107,26 @@ In diesem Tab können Sie das Muster der **JSON-Struktur** definieren, das vom A
 
 ![](assets/externalAPI-outbound.png)
 
-Der JSON-Parser ist so konzipiert, dass er mit einigen Ausnahmen standardmäßige JSON-Strukturmustentypen aufnehmen kann. Ein Beispiel für ein Standardmuster ist:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+Der JSON-Parser ist so konzipiert, dass er mit einigen Ausnahmen standardmäßige JSON-Strukturmustertypen aufnehmen kann. Ein Beispiel für ein Standardmuster ist: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 Die JSON-Definition des Musters muss die **folgenden Merkmale** aufweisen:
 
-* **Array elements** müssen Eigenschaften der ersten Ebene enthalten (tiefere Ebenen werden nicht unterstützt).
-   **Eigenschaftennamen** werden letztendlich zu Spaltennamen für das Output-Schema der temporären Ausgabentabelle.
-* **Die zu erfassenden JSON-Elemente** müssen innerhalb der JSON-Antwort mindestens 10 Verschachtelungsebenen aufweisen.
+* **Array-Elemente** müssen Eigenschaften der ersten Ebene enthalten (tiefere Ebenen werden nicht unterstützt).
+   **Eigenschaftsnamen** werden zu Spaltennamen für das Ausgabeschema der temporären Ausgabetabelle.
+* Zu erfassende **JSON-Elemente** dürfen innerhalb der JSON-Antwort maximal 10 Verschachtelungsebenen aufweisen.
 * Die Definition von **Column name** basiert auf dem ersten Element des &quot;data&quot;-Array.
 Die Spaltendefinitionen (Hinzufügen/Entfernen) und der Wert des Eigenschaftentyps können im Tab **Spaltendefinition** bearbeitet werden.
 
-**Verhalten von** Kontrollkästchen reduzieren:
+Verhalten der **Checkbox &quot;Abflachen&quot;**:
 
-Das Kontrollkästchen Reduzieren (Standard: deaktiviert) angegeben wird, ob die JSON auf eine Schlüssel/Wertzuordnung reduziert werden soll oder nicht.
+Die Checkbox &quot;Abflachen&quot; (Standard: deaktiviert) dient zur Angabe, ob JSON auf eine Schlüssel/Wert-Zuordnung abgeflacht werden soll oder nicht.
 
-* Wenn das **Kontrollkästchen deaktiviert** ist (nicht aktiviert), wird die JSON-Musterdatei analysiert, um nach einem Array-Objekt zu suchen. Der Benutzer muss eine zugeschnittene Version des JSON-Musterformats für die API-Antwort bereitstellen, damit Adobe Campaign genau bestimmen kann, welches Array er verwenden möchte. Beim Authoring des Workflows wird der Pfad zum verschachtelten Array-Objekt bestimmt und aufgezeichnet, sodass es zur Ausführungszeit verwendet werden kann, um auf dieses Array-Objekt vom JSON-Antwortteil zuzugreifen, der vom API-Aufruf empfangen wurde.
+* Wenn die **Checkbox deaktiviert** (nicht markiert) ist, wird die JSON-Musterdatei analysiert, um nach einem Array-Objekt zu suchen. Der Anwender muss eine reduzierte Version des JSON-Musterformats für die API-Antwort bereitstellen, damit Adobe Campaign genau bestimmen kann, welches Array der Anwender nutzen möchte. Beim Authoring des Workflows wird der Pfad zum verschachtelten Array-Objekt ermittelt und erfasst, sodass er zur Ausführungszeit verwendet werden kann, um auf dieses Array-Objekt aus dem JSON-Antwortteil zuzugreifen, der vom API-Aufruf empfangen wurde.
 
-* Wenn das **Kontrollkästchen aktiviert** (aktiviert) ist, wird die JSON-Musterdatei reduziert und alle Eigenschaften, die in der bereitgestellten JSON-Mustervorlage angegeben sind, werden verwendet, um Spalten der temporären Ausgabentabelle zu erstellen und auf der Registerkarte &quot;Spaltendefinitionen&quot;angezeigt. Beachten Sie, dass alle Elemente dieser Array-Objekte auch reduziert werden, wenn sich im Beispiel-JSON ein Array-Objekt befindet.
+* Wenn die **Checkbox aktiviert** (markiert) ist, wird die JSON-Musterdatei abgeflacht und alle Eigenschaften, die in der bereitgestellten JSON-Musterdatei angegeben sind, werden genutzt, um Spalten der temporären Ausgabentabelle zu erstellen. Zudem erfolgt eine Anzeige auf dem Tab &quot;Spaltendefinitionen&quot;. Beachten Sie, dass alle Elemente dieser Array-Objekte ebenfalls abgeflacht werden, wenn sich in der JSON-Musterdatei ein Array-Objekt befindet.
 
 
-If the **parsing is validated**, a message appears and invites you to customize the data mapping in the &quot;Column definition&quot; tab. Andernfalls wird eine Fehlermeldung angezeigt.
+Wenn das **Parsen validiert wird**, erscheint eine Meldung, die Sie auffordert, das Daten-Mapping im Tab &quot;Spaltendefinition&quot; anzupassen. Andernfalls wird eine Fehlermeldung angezeigt.
 
 ### Ausführung
 
@@ -158,7 +161,7 @@ In diesem Tab können Sie die **ausgehende Transition** und ihren Titel aktivier
 
 ### Ausführungsoptionen
 
-Dieser Tab ist in den meisten Workflow-Aktivitäten verfügbar. Lesen Sie für weiterführende Informationen den Abschnitt [Aktivitätseigenschaften](../../automating/using/executing-a-workflow.md#activity-properties).
+Dieser Tab ist in den meisten Workflow-Aktivitäten verfügbar. Lesen Sie für weiterführende Informationen den Abschnitt [Aktivitätseigenschaften](../../automating/using/activity-properties.md).
 
 ![](assets/externalAPI-options.png)
 
