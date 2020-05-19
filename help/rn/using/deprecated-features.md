@@ -12,7 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
+source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 95%
 
 ---
 
@@ -38,7 +41,7 @@ In diesem Abschnitt werden Funktionen aufgeführt, die bei den aktuellen Campaig
 
 Im Allgemeinen werden Funktionen, die in einer zukünftigen Version entfernt werden sollen, zuerst als eingestellt gekennzeichnet, wobei eine Alternative bereitgestellt wird. Diese Funktionen sind für neue Campaign Standard-Kunden entweder nicht mehr verfügbar oder sollten für keine neue Implementierung verwendet werden. Sie werden auch aus der Produktdokumentation entfernt.
 
-Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellung zu prüfen und Pläne zur Änderung ihrer Implementierung zu erstellen, um die verfügbare Alternative zu nutzen. Achten Sie auf das geplante Datum für die Entfernung, um Ihre Umgebungs- und Projektaktualisierungen zu planen.
+Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellung zu prüfen und Pläne zur Änderung ihrer Implementierung zu erstellen, um die verfügbare Alternative zu nutzen. Planen Sie Ihre Umgebung und Ihre Projektaktualisierungen entsprechend der Zielgruppen-Entfernungsversion.
 
 <table> 
  <thead> 
@@ -64,10 +67,10 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Mit Campaign-Version 19.4. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Profil-Löschvorgang ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Core Service von Adobe</a>.</p></br>
+   <td> <p>Mit Campaign-Version 19.4. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Core Service von Adobe</a>.</p></br>
    <p>Siehe auch <a href="https://helpx.adobe.com/de/campaign/kb/acs-privacy.html">Datenschutzverwaltung in Campaign Standard</a>.</p>
   <p> 
-  <em>Geplantes Datum für die Entfernung: Juli 2020 – Campaign-Version 20.5 </em></p>
+  <em>Version zum Entfernen von Zielgruppen: Version 20.4 der Kampagne</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -84,7 +87,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
    <td> <p>Ab Campaign-Version 19.0 wird der alte E-Mail-Editor nicht mehr unterstützt. Verwenden Sie <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den neuen Email Designer</a>, um Ihren E-Mail-Inhalt zu erstellen und zu personalisieren. </p></br>
    <p>In <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">diesem Abschnitt</a> erfahren Sie, wie Sie Ihre E-Mail-Vorlagen für den neuen Editor anpassen.</p></br>
   <p> 
-  <em>Geplantes Datum für die Entfernung: Oktober 2020 – Campaign-Version 20.6 </em></p>
+  <em>Version zum Entfernen von Zielgruppen: Version 20.4 der Kampagne</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -106,7 +109,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
 
 ## Entfernte Funktionen {#removed-features}
 
-In diesem Abschnitt werden Funktionen Liste, die aus Campaign Standard entfernt wurden.
+In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus Campaign Standard entfernt wurden.
 
 <table> 
  <thead> 
@@ -116,7 +119,7 @@ In diesem Abschnitt werden Funktionen Liste, die aus Campaign Standard entfernt 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK wurde eingestellt. Demzufolge ist ab Kampagne 20.2 keine Bildausgabe mehr verfügbar, die mit Creative SDK in Campaign Standard-E-Mails betrieben wird.</p></br>
+   <td> <p>Adobe Creative SDK wurde eingestellt. Infolgedessen ist die von Creative SDK unterstützte Bildbearbeitung in Campaign Standard-E-Mails ab Version Campaign 20.2 nicht mehr verfügbar.</p></br>
    </td> 
   </tr> 
  </tbody> 
