@@ -11,7 +11,7 @@ topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
@@ -58,11 +58,11 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
    >[!NOTE]
    >
-   >Um Ihre E-Mail speichern zu können, müssen Sie zunächst den Inhalt bearbeiten. If you click **[!UICONTROL Cancel]** at this point, you will not complete the wizard and your email will not be created.
+   >Um Ihre E-Mail speichern zu können, müssen Sie zunächst den Inhalt bearbeiten. Wenn Sie jetzt **[!UICONTROL Abbrechen]** auswählen, wird der Assistent nicht zu Ende geführt und Ihre E-Mail wird nicht erstellt.
 
    Daraufhin wird das Dashboard der E-Mail angezeigt. Dort können Sie Ihre Nachricht überprüfen und [den Versand vorbereiten](../../sending/using/preparing-the-send.md).
 
-   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. Sie können beispielsweise die E-Mail so konfigurieren, dass ihr Titel zum Zeitpunkt der Versandvorbereitung berechnet wird. Die verfügbaren Parameter werden in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#list-of-email-properties) aufgeführt.
+   Mit der Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** in der rechten oberen Ecke können Sie die Eigenschaften der E-Mail bearbeiten. Sie können beispielsweise die E-Mail so konfigurieren, dass ihr Titel zum Zeitpunkt der Versandvorbereitung berechnet wird. Die verfügbaren Parameter werden in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#list-of-email-properties) aufgeführt.
 
    ![](assets/delivery_dashboard_2.png)
 
