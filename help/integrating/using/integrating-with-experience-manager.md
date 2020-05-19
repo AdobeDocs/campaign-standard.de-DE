@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
@@ -69,7 +69,7 @@ In Experience Manager stehen hierfür sieben vordefinierte Komponenten zur Verf�
 * **Heben Sie die Verknüpfung von Inhalten mit Vorlagen auf, um die Vorlagen wiederzuverwenden.**
 
    Wenn Sie für die Einrichtung Ihrer E-Mails in Campaign Standard eine Experience Manager-Vorlage verwenden, darf diese Vorlage nicht mit einer anderen Kampagne verknüpft sein. Andernfalls würden Sie, wenn Sie den Inhalt in Adobe Experience Manager für die eine Kampagne ändern und aktualisieren, den Inhalt in der anderen Kampagne unbeabsichtigt beeinflussen.
-Um dies zu vermeiden, können Sie die Verknüpfung der Vorlage aufheben, nachdem Sie die Vorlage verwendet haben. Sie müssen nur die Vorlage auswählen und auf klicken **[!UICONTROL Delete the link with Adobe Experience Manager content]**.
+Um dies zu vermeiden, können Sie die Verknüpfung der Vorlage aufheben, nachdem Sie die Vorlage verwendet haben. Wählen Sie dazu einfach die Vorlage aus und klicken Sie auf **[!UICONTROL Verknüpfung mit Adobe Experience Manager-Inhalt löschen]**.
 
 * **Erstellen Sie mit Adobe Experience Manager verschiedene Varianten von E-Mails für Adobe Campaign Standard.**
 
