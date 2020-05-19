@@ -12,7 +12,7 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ---
@@ -24,31 +24,31 @@ source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ![](assets/file_transfer.png)
 
-The **[!UICONTROL Transfer file]** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
+Die **[!UICONTROL Dateiübertragung]** dient dem Empfang und Versand von Dateien. Sie ermöglicht es des Weiteren, die Präsenz von Dateien zu testen und die in Adobe Campaign enthaltenen Dateien aufzulisten.
 
 >[!CAUTION]
 >
->Ab Version 20.3 werden mit der **[!UICONTROL Transfer File]** Aktivität heruntergeladene Dateien nach X Tagen gelöscht, wobei X durch das **[!UICONTROL History in days]** Feld unter dem **[!UICONTROL Execution]** Menü in den Workflow-Eigenschaften bestimmt wird.
+>Ab Version 20.3 werden mit der Aktivität **[!UICONTROL Dateiübertragung]** heruntergeladene Dateien nach X Tagen gelöscht, wobei X durch das Feld **[!UICONTROL Verlauf in Tagen]** unter dem Menü **[!UICONTROL Ausführung]** in den Workflow-Eigenschaften bestimmt wird.
 
 
 ## Anwendungskontext {#context-of-use}
 
 Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert. Bei der zu ladenden Datei kann es sich z. B. um eine Kontaktliste handeln.
 
-You can use this activity to recover data that will then be structured with the **[!UICONTROL Load file]** activity.
+Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im Anschluss mithilfe der **[!UICONTROL Datei laden]**-Aktivität strukturiert werden können.
 
 ## Konfiguration {#configuration}
 
-1. Legen Sie eine **[!UICONTROL Transfer file]** Aktivität in Ihren Workflow ein.
+1. Ziehen Sie eine **[!UICONTROL Dateiübertragung]** in den Workflow.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
-1. Use the drop-down list in the **[!UICONTROL Action]** field to select one of the following activity actions:
+1. Wählen Sie mithilfe der entsprechenden Dropdown-Liste die von der Aktivität auszuführende **[!UICONTROL Aktion]** aus:
 
    ![](assets/wkf_file_transfer_01.png)
 
    * **Datei-Download** - dient dem Herunterladen von Dateien.
-   * **Datei-Upload** - dient dem Hochladen von Dateien. Uploading a file from Adobe Campaign file generates a log entry in the **[!UICONTROL Export audits]** menu. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
+   * **Datei-Upload** - dient dem Hochladen von Dateien. Durch das Hochladen einer Datei aus Adobe Campaign wird im Menü **[!UICONTROL Export-Audits]** ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
    * **Existenztest einer Datei** - dient der Prüfung des Vorhandenseins einer Datei.
-   * **Dateiliste**: ermöglicht die Liste der auf dem Server vorhandenen Dateien, die auf der **[!UICONTROL Protocol]** Registerkarte definiert sind. Diese Aktion wird hauptsächlich zum Debugging verwendet, um zu überprüfen, ob die Aktivität Ihren Anforderungen entsprechend konfiguriert ist, bevor die Dateien vom Remote-Server heruntergeladen werden.
+   * **Dateiauflistung**: ermöglicht das Auflisten der auf dem Server vorhandenen Dateien, die auf dem Tab **[!UICONTROL Protokoll]** definiert sind. Diese Aktion wird hauptsächlich zum Debugging verwendet. So lässt sich überprüfen, ob die Aktivität Ihren Anforderungen entsprechend konfiguriert ist, bevor die Dateien vom Remote-Server heruntergeladen werden.
 
 1. Wählen Sie das Protokoll aus, das Sie verwenden möchten:
    * [HTTP](#HTTP-configuration-wf)
@@ -57,13 +57,13 @@ You can use this activity to recover data that will then be structured with the 
    * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
    * [Auf dem Adobe Campaign-Server vorhandene Datei(en)](#files-server-configuration-wf)
 
-1. The **[!UICONTROL Additional options]** section, available depending on the protocol selected, allows you to add parameters to your protocol. Sie haben folgende Möglichkeiten:
+1. Im Bereich **[!UICONTROL Weitere Optionen]**, der je nach gewähltem Protokoll angezeigt wird, ist die Konfiguration weiterer Protokollparameter möglich. Sie haben folgende Möglichkeiten:
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: Diese Option ist verfügbar, wenn Sie die **[!UICONTROL File listing]** Aktion.in der **[!UICONTROL General]** Registerkarte auswählen. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
+   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**
+   * **[!UICONTROL Passiven Modus deaktivieren]**
+   * **[!UICONTROL Alle Dateien auflisten]**: Die Option ist bei Aktivierung der Aktion **[!UICONTROL Dateiauflistung]** im Tab **[!UICONTROL Allgemein]** auswählbar. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
 
-1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.
+1. Im Bereich **[!UICONTROL Bei Abwesenheit von Dateien]** des Tabs **[!UICONTROL Erweiterte Optionen]** können Sie bestimmen, was geschehen soll, wenn die gewünschten Dateien beim Start der Aktivität nicht auffindbar sind.
 
    Sie können darüber hinaus Neuversuche definieren. Die einzelnen Versuche erscheinen im Ausführungsprotokoll des Workflows.
 
@@ -75,24 +75,24 @@ You can use this activity to recover data that will then be structured with the 
 
 Das HTTP-Protokoll ermöglicht den Download einer Datei über ein externes Konto oder mithilfe einer URL.
 
-Mit diesem Programm können Sie eine **[!UICONTROL Use connection parameters defined in an external account]** Option wählen. Wählen Sie in diesem Fall das gewünschte Konto aus und geben Sie den Pfad der herunterzuladenden Datei an.
+Bei diesem Protokoll können Sie die Option **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** auswählen. Wählen Sie in diesem Fall das gewünschte Konto aus und geben Sie den Pfad der herunterzuladenden Datei an.
 ![](assets/wkf_file_transfer_03.png)
 
-Sie können auch die **[!UICONTROL Quick configuration]** Option auswählen. Sie müssen nur die URL in das URL-Feld eingeben.
+Sie können sich auch für die Option **[!UICONTROL Schnelle Konfiguration]** entscheiden. Sie müssen nur die URL in das URL-Feld eingeben.
 ![](assets/wkf_file_transfer_04.png)
 
 ### Konfiguration mit SFTP {#SFTP-configuration-wf}
 
 Das SFTP-Protokoll ermöglicht den Download einer Datei mithilfe einer URL oder über ein externes Konto.
 
-Mit diesem Programm können Sie die **[!UICONTROL Use connection parameters defined in an external account]** Option auswählen, dann das gewünschte Konto auswählen und den Pfad der Datei zum Herunterladen angeben.
+Bei diesem Protokoll können Sie die Option **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** auswählen; wählen Sie anschließend das gewünschte Konto aus und geben Sie den Pfad der herunterzuladenden Datei an.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
 >
 >Platzhalter werden unterstützt.
 
-Sie können auch die **[!UICONTROL Quick configuration]** Option auswählen. Sie müssen nur die URL in das URL-Feld eingeben.
+Sie können sich auch für die Option **[!UICONTROL Schnelle Konfiguration]** entscheiden. Sie müssen nur die URL in das URL-Feld eingeben.
 
 ### Konfiguration mit Amazon S3 {#S3-configuration-wf}
 
@@ -100,25 +100,25 @@ Das S3-Protokoll ermöglicht den Download einer Datei über ein externes Konto o
 
 1. Wählen Sie ein externes Amazon S3-Konto aus. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/external-accounts.md#amazon-s3-external-account).
 
-2. Wählen Sie aus, ob Sie möchten **[!UICONTROL Define a file path]** oder **[!UICONTROL Use a dynamic file path]**.
+2. Entscheiden Sie, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL Dynamischen Dateipfad verwenden]** möchten.
 
 3. Geben Sie den Pfad der herunterzuladenden Datei an.
 
    ![](assets/wkf_file_transfer_08.png)
 
-4. Wenn Sie Ihre Quelldateien nach Abschluss der Übertragung löschen möchten, überprüfen Sie **[!UICONTROL Delete the source files after transfer]**.
+4. Wenn Sie Ihre Quelldateien nach Abschluss der Übertragung löschen möchten, aktivieren Sie die Option **[!UICONTROL Quelldateien nach der Übertragung löschen]**.
 
 ### Konfiguration mit Microsoft Azure Blob Storage {#azure-blob-configuration-wf}
 
 Das Microsoft Azure Blob-Protokoll erlaubt Ihnen Zugriff auf einen Blob in einem Microsoft Azure Blob Storage-Konto.
 
-1. Select a **[!UICONTROL Microsoft Azure Blob]** external account. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+1. Wählen Sie ein externes **[!UICONTROL Microsoft Azure Blob]**-Konto. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/external-accounts.md#microsoft-azure-external-account).
 
-1. Wählen Sie aus, ob Sie möchten **[!UICONTROL Define a file path]** oder **[!UICONTROL Use a dynamic file path]**.
+1. Entscheiden Sie, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL Dynamischen Dateipfad verwenden]** möchten.
 
    ![](assets/wkf_file_transfer_10.png)
 
-1. Geben Sie den Pfad der herunterzuladenden Datei an; er kann mit verschiedenen Blobs übereinstimmen. In that case, the **[!UICONTROL File transfer]** activity will activate the outgoing transition once per blob found. Sie werden dann in alphabetischer Reihenfolge verarbeitet.
+1. Geben Sie den Pfad der herunterzuladenden Datei an; er kann mit verschiedenen Blobs übereinstimmen. In diesem Fall aktiviert die Aktivität **[!UICONTROL Dateiübertragung]** die ausgehende Transition einmal pro gefundenem Blob. Sie werden dann in alphabetischer Reihenfolge verarbeitet.
 
    >[!CAUTION]
    >
@@ -132,10 +132,10 @@ Das Microsoft Azure Blob-Protokoll erlaubt Ihnen Zugriff auf einen Blob in einem
 
 ### Konfiguration mit Dateien, die auf dem Adobe Campaign-Server vorhanden sind {#files-server-configuration-wf}
 
-Das **[!UICONTROL File(s) present on the Adobe Campaign server]** Protokoll entspricht dem Repository, das die wiederherzustellenden Dateien enthält.
+Das Protokoll **[!UICONTROL Auf dem Adobe Campaign-Server vorhandene Datei(en)]** entspricht dem Repository, das die abzurufenden Dateien enthält.
 Zur Filterung der Dateien ist die Verwendung von Platzhaltern oder Jokern (zum Beispiel * oder ?) möglich.
 
-Wählen Sie, ob Sie **[!UICONTROL Define a file path]** oder **[!UICONTROL Use a dynamic file path]** Die **[!UICONTROL Use a dynamic file path]** Option, können Sie einen Standard-Ausdruck und Ereignis-Variablen verwenden, um den Namen der zu übertragenden Datei zu personalisieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Anpassen von Aktivitäten mit Ereignisvariablen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Entscheiden Sie, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL Dynamischen Dateipfad verwenden]** möchten. Mit der Option **[!UICONTROL Dynamischen Dateipfad verwenden]** können Sie einen Standardausdruck und Ereignisvariablen nutzen, um den Dateinamen für die Übertragung zu personalisieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Anpassen von Aktivitäten mit Ereignisvariablen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
 Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angegeben werden. Die Dateien befinden sich im Verzeichnis **sftp&lt;yourinstancename>/**. Darüber hinaus können dem Speicherort übergeordnete Verzeichnisse nicht durchsucht werden. Beispiel:
 
@@ -145,31 +145,31 @@ Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angege
     >
     >**//myserver/hello/myrecipients.csv** ist falsch.
 
-## Verlaufsparameter   {#historization-settings}
+## Verlaufsparameter    {#historization-settings}
 
-Every time a **[!UICONTROL Transfer file]** activity is executed, it stores the uploaded or downloaded files in a dedicated folder. One folder is created for each **[!UICONTROL Transfer file]** activity of a workflow. Deshalb ist es wichtig, die Größe dieses Ordners zu begrenzen, um physischen Platz auf dem Server zu sparen.
+Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wird, werden die hoch- oder heruntergeladenen Dateien in einem bestimmten Ordner gespeichert. Für jede Aktivität **[!UICONTROL Dateiübertragung]** in einem Workflow wird ein Ordner erstellt. Deshalb ist es wichtig, die Größe dieses Ordners zu begrenzen, um physischen Platz auf dem Server zu sparen.
 
-Dazu können Sie **[!UICONTROL Historization settings]** im **[!UICONTROL Advanced options]** Bereich der **[!UICONTROL Transfer File]** Aktivität definieren.
+Zu diesem Zweck können Sie die **[!UICONTROL Verlaufsparameter]** in **[!UICONTROL Erweiterte Optionen]** der Aktivität **[!UICONTROL Dateiübertragung]** definieren.
 
-**[!UICONTROL Historization settings]** können Sie eine maximale Dateianzahl oder Gesamtgröße für den Ordner der Aktivität festlegen. Standardmäßig sind 100 Dateien und 50 MB zugelassen.
+**[!UICONTROL In Verlaufsparameter]** können Sie eine Höchstzahl an Dateien oder die Gesamtgröße des Ordners für die Aktivität definieren. Standardmäßig sind 100 Dateien und 50 MB zugelassen.
 
 Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen überprüft:
 
 * Nur Dateien, die mehr als 24 Stunden vor der Durchführung der Aktivität erstellt wurden, werden berücksichtigt.
-* If the number of files taken into account is greater than the value of the **[!UICONTROL Maximum number of files]** parameter, the oldest files are deleted until the **[!UICONTROL Maximum number of files]** allowed is reached.
-* If the total size of files taken into account is greater than the value of the **[!UICONTROL Maximum size (in MB)]** parameter, the oldest files are deleted until the **[!UICONTROL Maximum size (in MB)]** allowed is reached.
+* Wenn die Anzahl der berücksichtigten Dateien größer ist als der Parameterwert **[!UICONTROL Maximale Dateianzahl]**, werden die ältesten Dateien gelöscht, bis die zulässige **[!UICONTROL Maximale Dateianzahl]** erreicht ist.
+* Wenn die Gesamtzahl der berücksichtigten Dateien größer ist als der Wert des Parameters **[!UICONTROL Maximale Größe (in MB)]**, werden die ältesten Dateien gelöscht, bis die zulässige **[!UICONTROL Maximale Größe (in MB)]** erreicht ist.
 
 >[!NOTE]
 >
 >Wenn die Aktivität nicht ausgeführt wird, wird der Ordner weder überprüft noch geleert. Seien Sie deshalb achtsam beim Transfer großer Dateien.
 
-## Beispiel   {#example}
+## Beispiel    {#example}
 
 Das folgende Beispiel zeigt die Konfiguration einer **Dateiübertragung**-Aktivität, die von einer **Datei laden**-Aktivität und schließlich von einer **Daten-Update**-Aktivität gefolgt wird. Ziel ist die Anreicherung der Adobe-Campaign-Datenbank mit neuen Profilen und gegebenenfalls die Aktualisierung existierender Profile mit den durch den Workflow abgerufenen Daten.
 
 1. Ziehen Sie eine **Dateiübertragung** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
-1. In the **[!UICONTROL Protocol]** tab, select **SFTP**.
+1. Wählen Sie im **[!UICONTROL Protokoll]**-Tab **SFTP** aus.
 1. Aktivieren Sie die Option **In einem externen Konto definierte Verbindungsparameter verwenden**.
 1. Geben Sie den Namen des externen Kontos an.
 1. Geben Sie den **Pfad der Dateien auf dem Remote-Server** an.
