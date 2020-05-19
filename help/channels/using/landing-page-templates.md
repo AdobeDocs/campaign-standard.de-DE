@@ -12,7 +12,7 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
@@ -22,20 +22,20 @@ source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 Campaign ist mit einer Reihe nativer Landingpage-Vorlagen ausgestattet:
 
-* **[!UICONTROL Acquisition]**: Dies ist die Standardvorlage für Landingpages, mit der Sie Daten in der Kampagnen-Datenbank erfassen und aktualisieren können.
-* **[!UICONTROL Subscription]**: Diese Vorlage sollte zum Angebot von Abonnements an einen Dienst verwendet werden.
-* **[!UICONTROL Unsubscription]**: Diese Vorlage kann von einer E-Mail an Abonnenten mit einem Dienst verknüpft werden, damit sie diesen Dienst abbestellen können.
+* **[!UICONTROL Akquise]**: Dies ist die Standardvorlage für Landingpages, mit der Sie Daten in der Campaign-Datenbank erfassen und aktualisieren können.
+* **[!UICONTROL Anmeldung]**: Mit dieser Vorlage können Sie Abonnements für einen Dienst anbieten.
+* **[!UICONTROL Abmeldung]**: Mit dieser Vorlage können Sie eine Verbindung zwischen einer gesendeten E-Mail und Abonnenten eines Dienstes herstellen, sodass sich diese von dem Dienst abmelden können.
 * **[!UICONTROL Blacklist]**: Verwenden Sie diese Vorlage, wenn ein Kontakt nicht mehr von Campaign kontaktiert werden möchte. Weiterführende Informationen zum Blacklisting erfahren Sie im Abschnitt [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Diese Vorlagen werden bei der Erstellung einer neuen Landingpage standardmäßig vorgeschlagen.
 
 ![](assets/lp_creation_1.png)
 
-To access landing page templates, click the Adobe Campaign logo on the upper left corner and select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
+Um auf Landingpage-Vorlagen zuzugreifen, wählen Sie das Adobe Campaign-Logo in der linken oberen Ecke aus und danach **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Landingpage-Vorlagen]**.
 
 >[!NOTE]
 >
->Adobe empfiehlt, eigene Vorlagen zu erstellen, indem eine integrierte Vorlage dupliziert wird. Manche Parameter können nur in Landingpage-Vorlagen festgelegt und nicht direkt in Landingpages geändert werden.
+>Adobe empfiehlt, eigene Vorlagen durch das Duplizieren nativer Vorlagen zu erstellen. Manche Parameter können nur in Landingpage-Vorlagen festgelegt und nicht direkt in Landingpages geändert werden.
 
 Bei der Erstellung einer Vorlage wird empfohlen, den Tags ein **&#39;type&#39;**-Attribut beizufügen. Die Interpretation dieser Information durch den Editor hilft dem Benutzer bei der Zuordnung von Datenbankfeldern zu Formularfeldern bei der Konfiguration von Webanwendungen.
 
