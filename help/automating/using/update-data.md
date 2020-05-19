@@ -12,8 +12,11 @@ discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie ein **[!UICONTROL Daten-Update]** in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Geben Sie im Feld **[!UICONTROL Aktionstyp]** an, auf welche Weise die Daten aktualisiert werden sollen:
 
    * **[!UICONTROL Hinzufügen oder aktualisieren]** - fügt neue Daten zur Datenbank hinzu oder aktualisiert existierende Datensätze.
@@ -63,7 +66,7 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
    >
    >**Bei der Verwaltung von Updates werden** die Felder **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL created]** und **[!UICONTROL createdBy]** im Zuge der Daten-Update-Aktivität automatisch aktualisiert, es sei denn, in der Tabelle der zu aktualisierenden Felder wird explizit etwas anderes konfiguriert. Nur Datensätze, die mindestens eine Änderung aufweisen, werden aktualisiert. Alle anderen bleiben unverändert.
 
-1. Bei Bedarf können Sie unter Verwendung von [Transitionen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) auf erweiterte Optionen zur Ausgabepopulation zugreifen.
+1. Bei Bedarf können Sie unter Verwendung von [Transitionen](../../automating/using/activity-properties.md) auf erweiterte Optionen zur Ausgabepopulation zugreifen.
 
    Aktivieren Sie, um Fehler zu vermeiden, die Option **[!UICONTROL Ausgehende Transition für die Zurückweisungen erzeugen]**, wenn Sie **[!UICONTROL Nur hinzufügen]** ausgewählt haben und die importierten Daten möglicherweise bereits in der Datenbank vorhandene Datensätze enthalten.
 
