@@ -12,7 +12,7 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
 
 ---
@@ -40,4 +40,4 @@ DMARC kann die von 250ok erstellten Berichte nutzen.
 
 **SMTP** (Simple Mail Transfer Protocol) ist ein Internetstandard für die E-Mail-Übertragung.
 
-**Spezifische IPs**: Adobe stellt für jeden Kunden eine eigene IP-Strategie mit einer Upload-IP bereit, um einen Ruf zu schaffen und die Performance der Versand zu optimieren.
+**Dedizierte IP-Adressen**: Adobe bietet jedem Kunden für die Anlaufphase eine dedizierte IP-Strategie zum Aufbau der Reputation und zur Optimierung der Zustellbarkeit.
