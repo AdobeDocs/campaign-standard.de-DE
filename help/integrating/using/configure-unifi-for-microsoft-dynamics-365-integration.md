@@ -1,6 +1,6 @@
 ---
-title: Unifi für Microsoft Dynamics 365-Integration konfigurieren
-description: Erfahren Sie, wie Sie die Unifi for Microsoft Dynamics 365-Integration konfigurieren
+title: Unifi für die Integration mit Microsoft Dynamics 365 konfigurieren
+description: Erfahren Sie, wie Sie Unifi für die Integration mit Microsoft Dynamics 365 konfigurieren.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat
@@ -11,53 +11,53 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
 
 
-# Unifi für Microsoft Dynamics 365-Integration konfigurieren
+# Unifi für die Integration mit Microsoft Dynamics 365 konfigurieren
 
-Konfigurieren Sie Unifi, um die Microsoft Dynamics 365 - Adobe Campaign-Integration einzurichten und zu aktivieren.
+Konfigurieren Sie Unifi, um die Integration mit Microsoft Dynamics 365 und Adobe Campaign einzurichten und zu aktivieren.
 
 ## Voraussetzungen
 
-Bevor Sie die Schritte nach der Bereitstellung in diesem Artikel durchführen, wird davon ausgegangen, dass Sie die [Schritte nach der Bereitstellung für Kampagne](../../integrating/using/configure-adobe-io-for-ms-dynamic.md) und [für Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)bereits erfolgreich abgeschlossen haben.  Ist dies nicht der Fall, müssen Sie diese Schritte ausführen, um den Campaign Standard und Dynamics 365 nach der Bereitstellung abzuschließen.
+Bevor Sie nach der Bereitstellung die Schritte in diesem Artikel durchführen, wird davon ausgegangen, dass Sie die [Schritte nach der Bereitstellung für Campaign](../../integrating/using/configure-adobe-io-for-ms-dynamic.md) und [für Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)bereits erfolgreich abgeschlossen haben.  Ist dies nicht der Fall, müssen Sie die folgenden Schritte ausführen, um die Aufgaben nach der Bereitstellung für Campaign Standard und Dynamics 365 abzuschließen.
 
-Es wird auch davon ausgegangen, dass Sie Unifi kontaktiert haben, ein Unifi-Konto für Sie erstellt haben und sich erfolgreich anmelden konnten.  Ist dies nicht der Fall, führen Sie die in [diesem Artikel](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)beschriebenen Schritte aus.
+Voraussetzung hierfür ist, dass Sie Unifi kontaktiert haben, ein Unifi-Konto für Sie erstellt wurde und Sie sich erfolgreich anmelden konnten.  Ist dies nicht der Fall, führen Sie die in [diesem Artikel](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)beschriebenen Schritte aus.
 
 >[!CAUTION]
 >
->Es wird dringend empfohlen, bei der Konfiguration von Unifi mit Unifi und/oder Adobe-Beratung zu arbeiten (wenden Sie sich an Ihren Adobe CSM).
+>Es wird dringend empfohlen, bei der Konfiguration von Unifi mit Beratern von Unifi und/oder Adobe zusammenzuarbeiten (wenden Sie sich an Ihren Adobe-CSM).
 
-## Kampagne-Integration konfigurieren
+## Campaign-Integration konfigurieren
 
-Klicken Sie bei der ersten Verbindung auf **[!UICONTROL Adobe Campaign Standard]** , um Ihre Anmeldedaten für die Kampagne einzugeben.
+Wählen Sie bei Ihrer ersten Verbindung **[!UICONTROL Adobe Campaign Standard]** aus, um Ihre Anmeldedaten für Campaign einzugeben.
 
-Die meisten dieser Anmeldeinformationen stammen aus der Integration, die Sie während der [Campaign Standard-Konfigurationsschritte](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)in der Adobe I/O-Konsole erstellt haben.
+Die meisten dieser Anmeldedaten stammen aus der Integration, die Sie bei den [Campaign Standard-Konfigurationsschritten](../../integrating/using/configure-adobe-io-for-ms-dynamic.md) in der Adobe I/O-Konsole erstellt haben.
 
 >[!NOTE]
 >
->Um die Sicherheit und den Datenschutz zu gewährleisten, werden vertrauliche Felder mit den Anmeldeinformationen beim erneuten Besuch dieser Konfigurationsbildschirme leer angezeigt.
+>Um die Sicherheit und den Datenschutz zu gewährleisten, werden vertrauliche Felder mit den Anmeldedaten beim erneuten Besuch dieser Konfigurationsbildschirme leer angezeigt.
 
-1. Geben Sie für die Adobe-Authentifizierungs-URL `https://ims-na1.adobelogin.com/ims/exchange/jwt`
+1. Geben Sie als Adobe-Authentifizierungs-URL `https://ims-na1.adobelogin.com/ims/exchange/jwt` ein.
 
-1. Geben Sie Ihre **[!UICONTROL Adobe IO Organization ID]** und Ihre ein **[!UICONTROL Adobe IO Integration ID]**.
+1. Geben Sie Ihre **[!UICONTROL Adobe IO-Organisationskennung]** und Ihre **[!UICONTROL Adobe IO-Integrationskennung]** ein.
 
-Um Ihre Adobe IO-Organisations- und Integrations-IDs abzurufen, navigieren Sie zum Bildschirm &quot;Integration der Adobe-E/A-Konsole über&quot;und beachten Sie die Web-URL.
+Um Ihre Adobe IO-Organisations- und Integrationskennungen abzurufen, navigieren Sie zum Bildschirm der Adobe I/O-Konsole mit Integrationsinformationen und beachten Sie die Web-URL.
 
-Es sollte ungefähr so aussehen: `https://console.adobe.io/integrations/<Org ID>/<Int ID>/overview`, wobei Org-ID und Int-ID Zahlen sind.
+Sie sollte ungefähr so aussehen: `https://console.adobe.io/integrations/<Org ID>/<Int ID>/overview`, wobei &quot;Org ID&quot; und &quot;Int ID&quot; Zahlen sind.
 
-1. Geben Sie Ihre **[!UICONTROL Tenant ID]**
+1. Geben Sie Ihre **[!UICONTROL Mandantenkennung]** ein.
 
-Gehen Sie wie folgt vor, um Ihre Mandant-ID abzurufen:
+Gehen Sie wie folgt vor, um Ihre Mandantenkennung abzurufen:
 
-1. Navigieren Sie zur [Adobe Admin Console](https://adminconsole.adobe.com/) und wählen Sie Ihr IMS-Org aus dem oberen rechten Dropdownmenü.
-1. Wählen Sie Ihr Adobe Campaign Standard-Produkt und dann Ihre Campaign Standard-Instanz aus (wenn Sie mehr als eine haben).  Dadurch wird eine Liste von Produkt-Profilen entstehen.
+1. Navigieren Sie zur [Adobe Admin Console](https://adminconsole.adobe.com/) und wählen Sie Ihre IMS-Org aus dem oberen rechten Dropdown-Menü.
+1. Wählen Sie Ihr Adobe Campaign Standard-Produkt und dann Ihre Campaign Standard-Instanz aus (wenn Sie mehr als eine haben).  Dadurch wird eine Liste von Produktprofilen angezeigt.
 
-   Die Produktbeschreibungen werden in der Regel in einem der folgenden Profil angezeigt, wobei die `<tenantID>` Mandant-ID der Instanz angegeben wird.
+   Die Produktprofilbeschreibungen werden in der Regel in einem der folgenden Formate angezeigt, wobei `<tenantID>` die Mandantenkennung Ihrer Instanz ist.
 
 `Campaign Standard – https://<tenantID> - <ROLE>`
 
@@ -65,106 +65,106 @@ Gehen Sie wie folgt vor, um Ihre Mandant-ID abzurufen:
 
 >[!NOTE]
 >
->Sollten Sie Probleme bei der Identifizierung Ihrer Mandanten-ID haben, wenden Sie sich bitte an Sie > Technischer Kontakt von Adobe oder den Adobe-Kundendienst.
+>Sollten Sie Probleme bei der Ermittlung Ihrer Mandantenkennung haben, wenden Sie sich an Ihren technischen Ansprechpartner von Adobe oder die Kundenunterstützung von Adobe.
 >
->Partner-Sandbox-Instanzenmieter-IDs folgen in der Regel dem Muster `https://<tenantId>`, wo `tenantId` es `tbd.campaign-sandbox.adobe.com`ist.
+>Mandantenkennungen von Partner-Sandbox-Instanzen folgen in der Regel dem Muster `https://<tenantId>`, wobei `tenantId` `tbd.campaign-sandbox.adobe.com` ist.
 
-1. Geben Sie Ihre **[!UICONTROL Campaign Instance ID]** ein.
+1. Geben Sie die **[!UICONTROL Kennung Ihrer Campaign-Instanz]** ein.
 
-Gehen Sie wie folgt vor, um Ihre Instanz-ID abzurufen:
+Gehen Sie wie folgt vor, um die Kennung Ihrer Instanz abzurufen:
 
-    1. Geben Sie &quot;https://&lt;acs-instance-url>/r/test&quot;in einen Webbrowser ein und ersetzen Sie &quot;&lt;acs-instance-url>&quot;durch die URL Ihrer Campaign Standard-Instanz.
-    1. Die Antwort enthält &quot;instance=&quot;gefolgt von der Instanz-ID.
+    1. Geben Sie &quot;https://&lt;acs-instance-url>/r/test&quot; in einen Webbrowser ein und ersetzen Sie &quot;&lt;acs-instance-url>&quot; durch die URL Ihrer Campaign Standard-Instanz.
+    1. Die Antwort enthält &quot;instance=&quot;, gefolgt von der Kennung der Instanz.
 
-1. Wählen Sie den Bereich Ihrer Kampagne aus.
+1. Wählen Sie Ihre Campaign-Instanz aus.
 
-1. Sie können **[!UICONTROL Base Directory]** leer lassen.
+1. Sie können das **[!UICONTROL Basisverzeichnis]** leer lassen.
 
-1. Select the **[!UICONTROL Allow as Output Destination]** option.
+1. Wählen Sie die Option **[!UICONTROL Als Ausgabeziel zulassen]** aus.
 
-Nachdem die Parameter festgelegt wurden, klicken Sie auf **[!UICONTROL CONNECT]** und überprüfen Sie, ob die Verbindung erfolgreich ist.
+Nach dem Festlegen der Parameter wählen Sie **[!UICONTROL VERBINDEN]** aus. Prüfen Sie danach, ob die Verbindung erfolgreich hergestellt wurde.
 
-Ist dies nicht der Fall, klicken Sie auf **[!UICONTROL CLOSE]** und prüfen Sie die Parameter.
+Wenn nicht, wählen Sie **[!UICONTROL SCHLIESSEN]** aus und überprüfen Sie die Parameter.
 
 >[!NOTE]
 >
->Wenn Sie diesen Schritt nicht ausführen können, wenden Sie sich an den [Unifi-Kundendienst](mailto:support@unifisoftware.atlassian.net).
+>Wenn Sie diesen Schritt nicht erfolgreich ausführen können, wenden Sie sich an den [Unifi-Kundendienst](mailto:support@unifisoftware.atlassian.net).
 
 ## Dynamics 365-Integration konfigurieren
 
-Klicken Sie auf Microsoft Dynamics CRM, um Dynamics 365-Anmeldeinformationen zu konfigurieren. Die meisten dieser Anmeldeinformationen stammen aus der Integration, die Sie in Microsoft Dynamics 365 während der Konfigurationsschritte von Microsoft Dynamics 365 erstellt haben.
+Wählen Sie &quot;Microsoft Dynamics CRM&quot; aus, um Dynamics 365-Anmeldedaten zu konfigurieren. Die meisten dieser Anmeldedaten stammen aus der Integration, die Sie bei den Microsoft Dynamics 365-Konfigurationsschritten in Microsoft Dynamics 365 erstellt haben.
 
 >[!NOTE]
 >
->Um die Sicherheit und den Datenschutz zu gewährleisten, werden vertrauliche Felder mit den Anmeldeinformationen beim erneuten Besuch dieser Konfigurationsbildschirme leer angezeigt.
+>Um die Sicherheit und den Datenschutz zu gewährleisten, werden vertrauliche Felder mit den Anmeldedaten beim erneuten Besuch dieser Konfigurationsbildschirme leer angezeigt.
 
-1. Geben Sie **[!UICONTROL URL]** beispielsweise die URL Ihrer Dynamics 365-Instanz ein und achten Sie darauf, &quot;.api&quot;vor &quot;.crm&quot;einzufügen (z. B. `https://mydynamicsinstance.api.crm.dynamics.com`)
+1. Geben Sie als **[!UICONTROL URL]** die URL Ihrer Dynamics 365-Instanz ein und fügen Sie &quot;.api&quot; vor &quot;.crm&quot; ein (z. B. `https://mydynamicsinstance.api.crm.dynamics.com`).
 
-1. Sie **[!UICONTROL clientid]** verwenden beispielsweise die Anwendungs-ID, die beim Erstellen der App-Registrierung als [Konfiguration von Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)generiert wurde.
+1. Als **[!UICONTROL clientid]** verwenden Sie die Anwendungs-ID, die beim Erstellen der App-Registrierung als [Konfiguration von Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)generiert wurde.
 
-1. Sie verwenden **[!UICONTROL clientsecret]** beispielsweise das Clientgeheimnis, das generiert wurde, wenn Sie der App-Registrierung als [Konfiguration von Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)ein Clientgeheimnis hinzugefügt haben.
+1. Verwenden Sie für **[!UICONTROL clientsecret]** das Client-Geheimnis, das generiert wurde, als Sie der App-Registrierung ein Client-Geheimnis als [Konfiguration von Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)hinzugefügt haben.
 
-1. Fügen Sie **[!UICONTROL callbackurl]** zum Beispiel `http://localhost:33333`hinzu.
+1. Als **[!UICONTROL callbackurl]** fügen Sie `http://localhost:33333` hinzu.
 
-1. Lassen Sie **[!UICONTROL refresh token]** beispielsweise leer.
+1. Lassen Sie das Feld für **[!UICONTROL Aktualisierungs-Token]** leer.
 
-1. Verwenden Sie für die **[!UICONTROLMandanten-ID]** die Mieter-ID, die Sie von portal.azure.com erhalten haben, als [Konfiguration von Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
+1. Verwenden Sie für **[!UICONTROLMandantenkennung]** die Mandantenkennung, die Sie von portal.azure.com als [Konfiguration von Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md) erhalten haben.
 
-1. Markieren Sie abschließend das Kästchen **[!UICONTROL Allow as Output Destination]**.
+1. Markieren Sie abschließend die Checkbox **[!UICONTROL Als Ausgabeziel zulassen]**.
 
-Nachdem die Parameter eingegeben wurden, klicken Sie auf **[!UICONTROL CONNECT]** und überprüfen Sie, ob die Verbindung erfolgreich ist.
+Nach der Eingabe der Parameter wählen Sie **[!UICONTROL VERBINDEN]** aus. Prüfen Sie danach, ob die Verbindung erfolgreich hergestellt wurde.
 
-Ist dies nicht der Fall, klicken Sie auf **[!UICONTROL CLOSE]** und prüfen Sie die Parameter.
+Wenn nicht, wählen Sie **[!UICONTROL SCHLIESSEN]** aus und überprüfen Sie die Parameter.
 
 >[!NOTE]
 >
->Wenn Sie diesen Schritt nicht ausführen können, wenden Sie sich an den [Unifi-Kundendienst](mailto:support@unifisoftware.atlassian.net).
+>Wenn Sie diesen Schritt nicht erfolgreich ausführen können, wenden Sie sich an den [Unifi-Kundendienst](mailto:support@unifisoftware.atlassian.net).
 
-## Abschluss des Unique Setup
+## Abschluss der Unifi-Einrichtung
 
-Nachdem Sie Ihre Anmeldedaten eingerichtet haben, müssen Sie Unifi benachrichtigen, da einige zusätzliche Schritte ausgeführt werden müssen, bevor Sie die Integrationseinrichtung abschließen können.  Wenden Sie sich an die Unifi-Kontaktinformationen, die Ihnen zur Verfügung gestellt werden, um anzugeben, dass Sie Ihre Anmeldedaten eingerichtet haben.
+Nach dem Festlegen Ihrer Anmeldedaten müssen Sie Unifi benachrichtigen, da einige zusätzliche Schritte erledigt werden müssen, bevor Sie die Einrichtung der Integration abschließen können.  Teilen Sie Unifi über die Kontaktdaten, die Sie erhalten haben, mit, dass Sie Ihre Anmeldedaten eingerichtet haben.
 
-Sie müssen eine Ausschluss-Option auswählen und Unifi nach Abschluss benachrichtigen (unter Angabe der gewählten Ausschluss-Option).  Eine Erläuterung der Ausschluss-Optionen finden Sie im [Unifi-Benutzerhandbuch](https://drive.google.com/drive/folders/16seHF45e6bFxHX15zWLqFLEXymCuA_wn).
+Wählen Sie eine Opt-out-Option aus und benachrichtigen Sie anschließend Unifi (unter Angabe der gewählten Opt-out-Option).  Eine Erläuterung der Opt-out-Optionen finden Sie im [Unifi-Benutzerhandbuch](https://drive.google.com/drive/folders/16seHF45e6bFxHX15zWLqFLEXymCuA_wn).
 
-Sobald Unifi ihre Arbeit abgeschlossen hat, werden sie Sie benachrichtigen und weitere Informationen bereitstellen, die Sie bei der Konfiguration Ihrer Unifi-Instanz unterstützen, einmal die Datenaufzeichnung ausführen und dann, sobald der Abschluss erfolgreich abgeschlossen ist, können Sie Zeitpläne aktivieren.
+Sobald Unifi seine Arbeit getan hat, werden Sie benachrichtigt und erhalten weitere Informationen, die Sie dabei unterstützen, Ihre Unifi-Instanz zu konfigurieren sowie einmal den Dateneingang auszuführen. Nach erfolgreichem Abschluss können Sie dann Zeitpläne aktivieren.
 
 Für verschiedene Anwendungsfälle wird die folgende Häufigkeit empfohlen:
 
-* Inkonversion: Alle 15 Minuten
-* Stand: Alle 15 Minuten
-* Löscht: Jeden Tag
-* Opt-Outs: Jeden Tag
+* Eingang: Alle 15 Minuten
+* Ausgang: Alle 15 Minuten
+* Löschen: Jeden Tag
+* Opt-outs: Jeden Tag
 
 >[!NOTE]
 >
->SEND-Marketing-Ereignis werden standardmäßig aus dem regulären Auftrag herausgefiltert.  Wenn Sie SEND Marketing-Ereignis in Dynamics 365 sehen möchten, müssen Sie den Filter (Schritt 5) des Regressauftrags in Unifi ändern.
+>SEND-Marketing-Ereignisse werden standardmäßig aus dem Ausgangsvorgang herausgefiltert.  Wenn Sie SEND-Marketing-Ereignisse in Dynamics 365 sehen möchten, müssen Sie den Filter des Ausgangsvorgangs in Unifi ändern (Schritt 5).
 
-Es gibt zwei separate Rollen in Unifi, einem Benutzer mit Eigentümer und einem Benutzer mit schreibgeschütztem Analyst. Ein Benutzer, der Eigentümer ist, kann Aufträge und Zeitpläne ändern, der schreibgeschützte Analyst nicht.  Für eine bestimmte Kundeninstanz kann es nur einen Eigentümer-Benutzer geben.  Wenn der Kunde die als Eigentümer zugewiesene Person ändern muss, kann er mit der angeforderten Änderung eine E-Mail an [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) senden.
+Es gibt zwei separate Rollen in Unifi: einen Besitzer-Anwender und einen schreibgeschützten Anwender für Analysen. Ein Anwender, der Besitzer ist, kann Vorgänge und Zeitpläne ändern, der schreibgeschützte Analytiker nicht.  Für jede Kundeninstanz kann es nur einen Anwender geben, der Besitzer ist.  Wenn der Kunde die als Besitzer zugewiesene Person ändern muss, kann er eine E-Mail mit der angeforderten Änderung an [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) senden.
 
-Die folgenden Videos zeigen die Unifi-Konfiguration, Auftragsdetails, Einrichtung und Überwachung.
+Die folgenden Videos veranschaulichen die Unifi-Konfiguration, Details zu Vorgängen, Einrichtung und Überwachung.
 
-## Unifi-Aufträge
+## Unifi-Vorgänge
 
-### Übersicht über die Unifi-Aufträge
+### Übersicht über die Unifi-Vorgänge
 
->[!VIDEO](https://video.tv.adobe.com/v/27392)
+>[!VIDEO](https://video.tv.adobe.com/v/27392?captions=ger)
 
-In diesem Video werden die verschiedenen Unifi-Aufträge erläutert, die für die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 erforderlich sind (02:10 Min.)
+In diesem Video werden die verschiedenen Unifi-Vorgänge erläutert, die für die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 erforderlich sind (02:10 Min.).
 
-### Unifi-Auftragsdetails: Ingress &amp; Kongress
+### Unifi-Vorgangsdetails: Eingang und Ausgang
 
->[!VIDEO](https://video.tv.adobe.com/v/27396)
+>[!VIDEO](https://video.tv.adobe.com/v/27396?captions=ger)
 
-In diesem Video werden die Aufnahmen und Aufnahmen in Unifi (04:27 Min.) erläutert.
+In diesem Video werden die Eingangs- und Ausgangsvorgänge in Unifi erläutert (04:27 Min.).
 
 ### Operationalisierung und Überwachung
 
->[!VIDEO](https://video.tv.adobe.com/v/27391)
+>[!VIDEO](https://video.tv.adobe.com/v/27391?captions=ger)
 
-In diesem Video werden die Workflows und Zeitpläne (03:03 Min.)
+In diesem Video werden die Workflows und Zeitpläne beschrieben (03:03 Min.).
 
 Mehr dazu
-* [Arbeiten mit Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Microsoft Dynamics 365 für die Integration von Kampagnen konfigurieren](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-* [Adobe IO für Microsoft Dynamics 365 konfigurieren - Integration von Campaign Standards](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
-* [Seite mit den Microsoft Dynamics 365-Integrationsfunktionen](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html)
+* [Verwenden von Adobe Campaign Standard und Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Microsoft Dynamics 365 für die Integration mit Campaign konfigurieren](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* [Adobe I/O für die Integration mit Microsoft Dynamics 365 und Campaign Standard konfigurieren](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
+* [Funktionsseite zur Integration mit Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html)
