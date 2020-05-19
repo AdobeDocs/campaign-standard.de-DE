@@ -12,7 +12,7 @@ discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
 
 ---
@@ -23,10 +23,10 @@ source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
 Dieser Bericht fasst alle Informationen zusammen, die den Durchsatz eines Versands bzw. mehrerer Sendungen betreffen. Der Bericht zeigt folgende Kennzahlen:
 
 * Anzahl der verarbeiteten Nachrichten pro Stunde,
-* Die Tabelle **[!UICONTROL Top 5 deliveries]** und die jeweiligen Zusammenfassungen enthalten die fünf Sendungen mit der höchsten Anzahl an zugestellten Nachrichten.
+* Die Tabelle **[!UICONTROL 5 häufigste Zustellungen]** und die jeweiligen Zusammenfassungen enthalten die fünf Sendungen mit der höchsten Anzahl an zugestellten Nachrichten.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->The **[!UICONTROL Delivery throughput]** page displays the throughput speed for the relay of your messages from Campaign over to the Adobe Campaign Enhanced MTA.
+>Auf der Seite **[!UICONTROL Versanddurchsatz]** wird die Durchsatzgeschwindigkeit bei der Weiterleitung Ihrer Nachrichten von Campaign über den erweiterten MTA von Adobe Campaign angezeigt.
