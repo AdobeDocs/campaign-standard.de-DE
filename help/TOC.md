@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 85%
+source-wordcount: '1451'
+ht-degree: 92%
 
 ---
 
@@ -92,9 +92,9 @@ ht-degree: 85%
       + [Mehrsprachige Push-Benachrichtigungen erstellen](channels/using/creating-a-multilingual-push-notification.md)
       + [CSV-Datei für mehrsprachige Push-Benachrichtigungen erstellen](channels/using/generating-csv-multilingual-push.md)
       + [Profilinformationen basierend auf Mobile App-Daten erstellen und aktualisieren](channels/using/updating-profile-with-mobile-app-data.md)
-      + [Implementierung der Push-Verfolgung](channels/using/push-tracking.md)
-      + [Anzeigen eines Bildes aus einer Push-Benachrichtigung des Adobe Campaign Standard](channels/using/image-push-notification.md)
-      + [Die Payload-Struktur von Campaign Standard-Push-Benachrichtigungen](channels/using/push-payload.md)
+      + [Push-Tracking implementieren](channels/using/push-tracking.md)
+      + [Bild aus einer Push-Benachrichtigung von Adobe Campaign Standard anzeigen](channels/using/image-push-notification.md)
+      + [Payload-Struktur der Push-Nachrichten in Campaign Standard verstehen](channels/using/push-payload.md)
    + In-App-Messaging {#in-app-messaging}
       + [Über In-App-Messaging](channels/using/about-in-app-messaging.md)
       + [In-App-Nachricht vorbereiten und senden](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -139,7 +139,7 @@ ht-degree: 85%
 + Testen und Senden {#testing-and-sending}
    + [Erste Schritte mit Tests und Senden](sending/using/get-started-sending-messages.md)
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
-      + [Vorschau von Versänden](sending/using/previewing-messages.md)
+      + [Sendungen in Vorschau anzeigen](sending/using/previewing-messages.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
       + [Testversand durchführen](sending/using/sending-proofs.md)
       + [E-Mail-Nachrichten mit zielgerichteten Profilen testen](sending/using/testing-messages-using-target.md)
@@ -170,9 +170,9 @@ ht-degree: 85%
       + [Überwachen der Zustellbarkeit](sending/using/monitor-deliverability.md)
       + [Problembehebung](sending/using/troubleshooting.md)
    + Arbeiten mit Typologieregeln {#working-with-typology-rules}
-      + [Typologien und Typologieregeln](sending/using/about-typology-rules.md)
+      + [Über Typologien und Typologieregeln](sending/using/about-typology-rules.md)
       + [Typologien verwalten](sending/using/managing-typologies.md)
-      + [Verwalten von Typologieregeln](sending/using/managing-typology-rules.md)
+      + [Typologieregeln verwalten](sending/using/managing-typology-rules.md)
       + [Filterregeln](sending/using/filtering-rules.md)
       + [Ermüdungsregeln](sending/using/fatigue-rules.md)
       + [Kontrollregeln](sending/using/control-rules.md)
@@ -207,48 +207,47 @@ ht-degree: 85%
       + [Komponenten hinzufügen](reporting/using/adding-components.md)
       + [Benutzerdefinierte Profildimension erstellen](reporting/using/creating-a-custom-profile-dimension.md)
       + [Erstellen eines Berichts auf der Basis von Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
-+ Integrating with other solutions {#integrating-with-adobe-cloud}
++ Mit anderen Lösungen integrieren {#integrating-with-adobe-cloud}
    + [Erste Schritte mit Kampagne-Integrationen](integrating/using/get-started-campaign-integrations.md)
-   + Kampagne und Experience Manager {#working-with-campaign-and-experience-manager}
+   + Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
       + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Integration von Campaign mit Experience Manager konfigurieren](integrating/using/configure-experience-manager.md)
       + [E-Mail-Inhalt in Adobe Experience Manager erstellen](integrating/using/creating-email-experience-manager.md)
       + [Campaign-Formular in Adobe Experience Manager erstellen](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Kampagne und Zielgruppe {#working-with-campaign-and-target}
+   + Campaign und Target {#working-with-campaign-and-target}
       + [Über die Integration von Campaign mit Target](integrating/using/about-campaign-target-integration.md)
       + [Integration von Campaign mit Target konfigurieren](integrating/using/configuring-the-campaign-target-integration.md)
       + [Dynamische Inhalte aus Target einfügen](integrating/using/adding-target-dynamic-content.md)
-   + Kampagne und Analytics {#working-with-campaign-and-analytics}
+   + Campaign und Analytics {#working-with-campaign-and-analytics}
       + [Über die Integration von Campaign mit Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Integration von Campaign mit Analytics konfigurieren](integrating/using/configure-campaign-analytics-integration.md)
       + [Campaign-Dimensionen und -Metriken in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign und Audience Manager oder People Core Service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Über die Integration von Campaign mit Audience Manager oder People Core Service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Integration mit Audience Manager oder People Core Service bereitstellen und konfigurieren](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Problembehebung](integrating/using/troubleshooting.md)
       + [Audiences mit Audience Manager oder People Core Service freigeben](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign und Assets Core Service verwenden](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Kampagne und Analyse für Mobilgeräte {#working-with-campaign-and-analytics-for-mobile}
+   + Campaign und Analytics für Mobilgeräte {#working-with-campaign-and-analytics-for-mobile}
       + [Über die Integration von Campaign-POI-Daten](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Integration von Campaign-POI-Daten konfigurieren](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Campaign-Nachrichten mit POI-Daten personalisieren](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Kampagne und Auslöser {#working-with-campaign-and-triggers}
+   + Campaign und Triggers {#working-with-campaign-and-triggers}
       + [Über Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Triggers in Experience Cloud konfigurieren](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
       + [Trigger testen](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
-   + Kampagne und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Adobe IO für Microsoft Dynamics 365-Integration konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
+   + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + Campaign Standard und Microsoft Dynamics 365 verwenden {#working-with-campaign-standard-and-ms-dynamics}
          + [Erste Schritte mit Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Informationen zur Microsoft Dynamics 365-Integration](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Microsoft Dynamics 365-Integration anfordern und konfigurieren](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Verwenden der Microsoft Dynamics 365-Integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Adobe IO für Microsoft Dynamics 365-Integration konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Microsoft Dynamics 365 für die Integration von Kampagnen konfigurieren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Unifi für Microsoft Dynamics 365-Integration konfigurieren](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [Benutzerdefinierte Ressourcen und benutzerdefinierte Dynamics 365-Entitäten für die Kampagne zuordnen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Adobe IO für die Integration mit Microsoft Dynamics 365 konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Microsoft Dynamics 365 für die Integration mit Campaign konfigurieren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Unifi für die Integration mit Microsoft Dynamics 365 konfigurieren](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [Benutzerdefinierte Campaign-Ressourcen und benutzerdefinierte Dynamics 365-Entitäten zuordnen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
@@ -257,8 +256,14 @@ ht-degree: 85%
       + [Zielgruppendaten](automating/using/targeting-data.md)
       + [Daten importieren](automating/using/importing-data.md)
       + [Workflow-Daten verwenden](automating/using/using-workflow-data.md)
-      + [Workflow ausführen](automating/using/executing-a-workflow.md)
       + [Best Practices bei Workflows](automating/using/best-practices-workflows.md)
+   + [Workflow ausführen]{#executing-a-workflow}
+      + [Über die Ausführung von Workflows](automating/using/about-workflow-execution.md)
+      + [Lebenszyklus eines Workflows](automating/using/workflow-life-cycle.md)
+      + [Ausführungsbefehle    ](automating/using/execution-commands.md)
+      + [Ausführung des Workflows überwachen](automating/using/monitoring-workflow-execution.md)
+      + [Verwalten von Ausführungsoptionen](automating/using/managing-execution-options.md)
+      + [Eigenschaften von Aktivitäten verwalten](automating/using/activity-properties.md)
    + [Workflow mit externen Parametern aufrufen](automating/using/calling-a-workflow-with-external-parameters.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
       + [Über Zielgruppenbestimmungsaktivitäten](automating/using/about-targeting-activities.md)
