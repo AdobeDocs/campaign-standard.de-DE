@@ -12,7 +12,7 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
@@ -20,58 +20,58 @@ source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 # Typologien verwalten {#managing-typologies}
 
-## Typologien {#about-typologies}
+## Über Typologien {#about-typologies}
 
-Typologien sind Regelsätze, mit denen Sie die Gültigkeit Ihrer Nachricht überprüfen können, bevor Sie sie senden. Beispiel: Der Inhalt der Nachricht ist nicht leer, eine Abmeldung vorhanden, der Ausschluss von Duplikaten usw.
+Typologien sind Regelsätze, mit denen Sie die Gültigkeit Ihrer Nachricht überprüfen können, bevor Sie sie senden. Beispiel: Der Inhalt der Nachricht ist nicht leer, eine Abmeldung ist vorhanden, Ausschluss von Duplikaten usw.
 
-Auf Typologien kann über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** zugegriffen werden. Standardmäßig ist in der Anwendung eine Standardtypologie verfügbar. Sie können nach Bedarf auch eigene Typologien erstellen oder vorhandene abändern.
+Auf Typologien können Sie über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** > **[!UICONTROL Typologien]** zugreifen. Standardmäßig ist in der Anwendung eine Standardtypologie verfügbar. Sie können nach Bedarf auch eigene Typologien erstellen oder vorhandene abändern.
 
 ![](assets/typologies-list.png)
 
-Für jede Typologie wird im **[!UICONTROL Typology rules]** Abschnitt der Regelsatz Liste, der bei Verwendung der Typologie mit einer Meldung ausgeführt wird.
+Für jede Typologie wird im Abschnitt **[!UICONTROL Typologieregeln]** der Regelsatz aufgelistet, der beim Einsatz der Typologie mit einer Nachricht ausgeführt wird.
 
 ![](assets/typology_typo-rule-list.png)
 
 >[!NOTE]
 >
->Wenn Sie weitere Informationen zu einer der Typologieregeln erhalten möchten, klicken Sie mit der Dublette darauf. Die Regel wird im schreibgeschützten Modus angezeigt.
+>Wenn Sie weitere Informationen zu einer der Typologieregeln erhalten möchten, doppelklicken Sie darauf. Die Regel wird im schreibgeschützten Modus angezeigt.
 
-## Creating a typology {#creating-a-typology}
+## Typologie erstellen {#creating-a-typology}
 
 Gehen Sie wie folgt vor, um eine neue Typologie zu erstellen:
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** auf.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** > **[!UICONTROL Typologien]** auf.
 
-1. Die Liste der Typologien wird angezeigt. Click the **[!UICONTROL Create]** button.
+1. Die Liste der Typologien wird angezeigt. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
 
    ![](assets/typologies-create.png)
 
-1. Definieren Sie die Typologie **[!UICONTROL Label]** und klicken Sie dann auf die **[!UICONTROL Add an element]** Schaltfläche , um die Typologieregeln auszuwählen, die Sie darin aufnehmen möchten. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
+1. Definieren Sie den **[!UICONTROL Titel]** der Typologie und wählen Sie dann die Schaltfläche **[!UICONTROL Element hinzufügen]** aus, um die Typologieregeln auszuwählen, die Sie darin aufnehmen möchten. Weiterführende Informationen zu Typologieregeln finden Sie in diesem [Abschnitt](../../sending/using/managing-typology-rules.md).
 
    ![](assets/typology_addrules.png)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL IP affinity]** field allows you to manage the affinities according to your configuration. Sie werden in der Konfigurationsdatei der Instanz definiert. Wenn Sie die Affinitäten verwenden möchten, wenden Sie sich an Ihren Administrator.
+   >Mit dem Feld **[!UICONTROL IP-Affinität]** können Sie die Affinitäten Ihrer Konfiguration entsprechend verwalten. Sie sind in der Konfigurationsdatei der Instanz definiert. Wenn Sie die Affinitäten verwenden möchten, wenden Sie sich an Ihren Administrator.
 
-1. Klicken Sie auf **[!UICONTROL Create]** , um Ihre Auswahl zu bestätigen. Ihre Typologie kann jetzt in Nachrichten verwendet werden.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus, um Ihre Auswahl zu bestätigen. Ihre Typologie kann jetzt in Nachrichten genutzt werden.
 
 ## Typologien auf Nachrichten anwenden {#applying-typologies-to-messages}
 
-Wenn Sie eine Typologie mit einer Meldungs- oder Meldungsvorlage verknüpfen, werden die in der Typologie enthaltenen Typologieregeln ausgeführt, um die Gültigkeit der Meldung zu überprüfen.
+Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen, werden die in der Typologie enthaltenen Typologieregeln ausgeführt, um die Gültigkeit der Nachricht zu überprüfen.
 
 >[!NOTE]
 >
->Jeder Nachrichten- oder Nachrichtenvorlage kann nur eine einzige Typologie zugewiesen werden.
+>Eine Nachricht oder Nachrichtenvorlage kann jeweils nur mit einer Typologie verknüpft werden.
 
 Gehen Sie wie folgt vor, um eine Typologie mit einer Nachricht zu verknüpfen:
 
-1. Greifen Sie auf die Meldungseigenschaften zu. Beachten Sie, dass Meldungsvorlagen über das **[!UICONTROL Resources]** > **[!UICONTROL Templates]** Navigationsmenü aufgerufen werden können.
+1. Greifen Sie auf die Nachrichteneigenschaften zu. Beachten Sie, dass Nachrichtenvorlagen über das Navigationsmenü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** verfügbar sind.
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** die Typologie aus, die mit der Nachricht verknüpft werden soll.
+1. Wählen Sie im Abschnitt **[!UICONTROL Erweiterte Parameter]** > **[!UICONTROL Vorbereitung]** die Typologie aus, die mit der Nachricht verknüpft werden soll.
 
    ![](assets/typology_message.png)
 
-1. Klicks **[!UICONTROL Confirm]**.
+1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
    Die ausgewählte Typologie ist jetzt mit der Nachricht verknüpft. Alle zugehörigen Typologieregeln werden ausgeführt, um die Gültigkeit der Nachricht zu überprüfen.
