@@ -1,6 +1,6 @@
 ---
-title: Implementierung der Push-Verfolgung
-description: Mit diesem Dokument können Sie sicherstellen, dass die Push-Benachrichtigungsverfolgung unter iOS und Android korrekt implementiert wurde.
+title: Implementieren von Push-Tracking
+description: Mit diesem Dokument können Sie sicherstellen, dass das Tracking von Push-Benachrichtigungen unter iOS und Android richtig implementiert wurde.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -12,43 +12,43 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
 
-# Implementierung der Push-Verfolgung {#push-tracking}
+# Implementieren von Push-Tracking {#push-tracking}
 
-## Informationen zur Push-Verfolgung {#about-push-tracking}
+## Informationen zu Push-Tracking {#about-push-tracking}
 
-Um sicherzustellen, dass die Push-Benachrichtigung vollständig entwickelt wurde, müssen Sie sicherstellen, dass der Verfolgungsanteil korrekt implementiert wurde.
+Um sicherzustellen, dass die Push-Benachrichtigung vollständig entwickelt wurde, müssen Sie dafür sorgen, dass der Tracking-Anteil richtig implementiert wurde.
 
-Mit den folgenden Schritten können Sie sicherstellen, dass die Push-Verfolgung korrekt implementiert wurde. Dies setzt voraus, dass Sie die ersten Teile der Push-Benachrichtigungs-Implementierung bereits implementiert haben: Registrieren des App-Benutzers und Verarbeiten einer Push-Benachrichtigung.
+Mit den folgenden Schritten können Sie sicherstellen, dass das Tracking von Push-Benachrichtigungen korrekt implementiert wurde. Dies setzt voraus, dass Sie die ersten Teile der Implementierung für Push-Benachrichtigungen bereits ausgeführt haben: Registrieren des Anwenders und Handhaben einer Push-Benachrichtigungs-Nachricht.
 
-Die Push-Verfolgung ist in drei Typen unterteilt:
+Das Push-Tracking ist in drei Typen unterteilt:
 
-* **Push-Impressionen** : Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und im Benachrichtigungscenter sitzt, aber überhaupt nicht angefasst wurde.  Dies gilt als Eindruck.  In den meisten Fällen sollten die Impressionszahlen ähnlich sein, wenn nicht mit der gelieferten Nummer identisch sein. Dadurch wird sichergestellt, dass das Gerät die Meldung erhalten und diese Informationen an den Server zurückgegeben hat.
+* **Push-Impressionen**: Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und im Benachrichtigungs-Center sitzt, aber noch nicht angefasst wurde.  Dies gilt als Impression.  In den meisten Fällen sollte die Zahl der Impressionen ähnlich oder gar identisch mit der gesendeten Zahl sein. Dadurch wird sichergestellt, dass das Gerät die Nachricht erhalten und diese Informationen an den Server zurückgegeben hat.
 
-* **Push-Klick** : Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und der Benutzer auf das Gerät geklickt hat.  Der Benutzer wollte entweder die Benachrichtigung Ansicht haben (die wiederum zur Push Open Tracking-Funktion wechseln wird) oder die Benachrichtigung schließen.
+* **Push-Klick**: Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und der Anwender auf das Gerät geklickt hat.  Der Anwender wollte die Benachrichtigung entweder ansehen oder verwerfen. Wenn er sie angesehen hat, wird sie beim Push-Öffnungs-Tracking berücksichtigt.
 
-* **Push Open** - Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und der Benutzer auf die Benachrichtigung geklickt hat, wodurch die App geöffnet wird.  Dies ist ähnlich der Push-Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.
+* **Push-Öffnung**: Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und der Anwender auf die Benachrichtigung geklickt hat, wodurch die App geöffnet wurde.  Dies ist ähnlich der Push-Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.
 
-Um die Verfolgung für Campaign Standard zu implementieren, muss die mobile App Mobile SDK enthalten. Diese SDK sind in Adobe Mobile Services verfügbar.
+Um das Tracking für Campaign Standard zu implementieren, muss die Mobile App &quot;Mobile SDK&quot; enthalten. Diese SDKs sind über Adobe Mobile Services verfügbar.
 
-Zum Senden von Verfolgungsinformationen müssen drei Variablen gesendet werden. Zwei davon gehören zu den von Campaign Standard erhaltenen Daten und eine Aktionsvariable, die vorgibt, ob es sich um eine **Impression**, **Click** oder **Open** handelt.
+Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon gehören zu den von Campaign Standard empfangenen Daten, eine ist eine Aktionsvariable, die bestimmt, ob es sich um eine **Impression**, einen **Klick** oder eine **Öffnung** handelt.
 
 | Variable | Wert |
 |:-:|:-:|
-| BroadlogId | _mId aus Daten |
+| broadlogId | _mId aus Daten |
 | deliveryId | _dId aus Daten |
-| Aktion | 1 für &quot;Öffnen&quot;, 2 für &quot;Klicken&quot;und 7 für &quot;Impression&quot; |
+| Aktion | 1 für &quot;Öffnung&quot;, 2 für &quot;Klick&quot; und 7 für &quot;Impression&quot; |
 
 ## Implementierung für Android {#implementation-android}
 
-### Implementieren der Push-Impressionsverfolgung {#push-impression-tracking-android}
+### Implementieren des Push-Impression-Tracking {#push-impression-tracking-android}
 
-Für die Impressionsverfolgung müssen Sie den Wert &quot;7&quot;für die Aktion senden, wenn Sie die Funktion trackAction() aufrufen.
+Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot; senden, wenn die Funktion trackAction() aufgerufen wird.
 
 ```
 @Override
@@ -68,16 +68,16 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### Implementierung der Klick-Tracking {#push-click-tracking-android}
+### Implementieren des Klick-Tracking {#push-click-tracking-android}
 
-Für die Klick-Verfolgung müssen Sie den Wert &quot;2&quot;für die Aktion senden, wenn Sie die Funktion trackAction() aufrufen.
+Für das Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot; senden, wenn die Funktion trackAction() aufgerufen wird.
 
-Zur Verfolgung von Klicks müssen zwei Szenarien behandelt werden:
+Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
 
-* Der Benutzer sieht die Benachrichtigung, löscht sie jedoch.
-* Der Benutzer sieht die Benachrichtigung und klickt darauf, um sie in eine offene Verfolgung umzuwandeln.
+* Der Anwender sieht die Benachrichtigung, löscht sie jedoch.
+* Der Anwender sieht die Benachrichtigung und klickt darauf, sodass nun das Öffnungs-Tracking erfolgt.
 
-Dazu müssen Sie zwei Intents verwenden: eine zum Klicken auf die Benachrichtigung und eine andere zum Schließen der Benachrichtigung.
+Dazu müssen Sie zwei Intents verwenden: eine zum Klicken auf die Benachrichtigung und eine andere zum Verwerfen der Benachrichtigung.
 
 MyFirebaseMessagingService.java
 
@@ -108,7 +108,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-Damit der BroadcastReceiver funktioniert, müssen Sie ihn bei AndroidManifest.xml registrieren
+Damit der BroadcastReceiver funktioniert, müssen Sie ihn bei AndroidManifest.xml registrieren.
 
 ```
 <manifest>
@@ -143,13 +143,13 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 }
 ```
 
-### Implementierung der offenen Verfolgung {#push-open-tracking-android}
+### Implementieren des Öffnungs-Tracking {#push-open-tracking-android}
 
-Sie müssen &quot;1&quot;und &quot;2&quot;senden, da der Benutzer zum Öffnen der App auf &quot;notification&quot;klicken muss. Wenn die App nicht über eine Push-Benachrichtigung gestartet/geöffnet wird, treten keine Ereignis zur Verfolgung auf.
+Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Anwender zum Öffnen der App zunächst auf die Benachrichtigung klicken muss. Wenn die App nicht über eine Push-Benachrichtigung gestartet/geöffnet wird, treten keine Tracking-Ereignisse auf.
 
-Um open verfolgen zu können, müssen Sie Intent erstellen. Zielobjekte ermöglichen es Android OS, Ihre Methode aufzurufen, wenn bestimmte Aktionen ausgeführt werden. In diesem Fall klicken Sie auf die Benachrichtigung, um die App zu öffnen.
+Um das Öffnen verfolgen zu können, müssen Sie einen Intent erstellen. Intent-Objekte ermöglichen es dem Android-OS, Ihre Methode aufzurufen, wenn bestimmte Aktionen ausgeführt werden. In diesem Fall ist es das Klicken auf die Benachrichtigung, um die App zu öffnen.
 
-Dieser Code basiert auf der Implementierung der Klick-Impressionsverfolgung. Mit der Einstellung &quot;Zielmedium&quot;müssen Sie jetzt Verfolgungsinformationen zurück an die Kampagne senden. In diesem Fall müssen Sie die Open Intent-Methode so einstellen, dass sie für eine bestimmte Ansicht in Ihrer App geöffnet wird. Dies ruft die onResume-Methode MIT den Benachrichtigungsdaten im Intent-Objekt auf.
+Dieser Code basiert auf der Implementierung des Klick-Impression-Tracking. Mit festgelegtem Intent müssen Sie jetzt Tracking-Daten zurück an Campaign senden. In diesem Fall müssen Sie den Öffnungs-Intent so definieren, dass eine bestimmte Ansicht in Ihrer App geöffnet wird. Dadurch wird die onResume-Methode MIT den Benachrichtigungsdaten im Intent-Objekt aufgerufen.
 
 ```
 @Override
@@ -189,25 +189,25 @@ private void handleTracking() {
 
 ## Implementierung für iOS {#implementation-iOS}
 
-### Implementieren der Push-Impressionsverfolgung {#push-impression-tracking-iOS}
+### Implementieren des Push-Impression-Tracking {#push-impression-tracking-iOS}
 
-Für die Impressionsverfolgung müssen Sie den Wert &quot;7&quot;für die Aktion senden, wenn Sie die Funktion trackAction() aufrufen.
+Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot; senden, wenn die Funktion trackAction() aufgerufen wird.
 
-Um zu verstehen, wie iOS-Benachrichtigungen funktionieren, müssen die drei Status einer App detailliert sein:
+Um zu verstehen, wie iOS-Benachrichtigungen funktionieren, müssen die drei Status einer App beschrieben werden:
 
-* **Vordergrund**: wenn die App aktuell aktiv ist und sich derzeit auf dem Bildschirm befindet (im Vordergrund).
-* **Hintergrund**: wenn die is-App nicht auf dem Bildschirm angezeigt wird, der Prozess jedoch nicht geschlossen ist. Wenn Sie mit der Dublette auf die Schaltfläche &quot;Startseite&quot;klicken, werden in der Regel alle im Hintergrund befindlichen Apps angezeigt.
-* **Aus/geschlossen**: eine App, deren Prozess beendet wurde.
+* **Vordergrund**: Wenn die App aktuell aktiv ist und sich derzeit auf dem Bildschirm befindet (im Vordergrund).
+* **Hintergrund**: Wenn die App sich nicht auf dem Bildschirm befindet, der Prozess jedoch nicht geschlossen ist. Wenn Sie auf die Schaltfläche &quot;Startseite&quot; doppelklicken, werden in der Regel alle im Hintergrund befindlichen Apps angezeigt.
+* **Aus/geschlossen**: Eine App, deren Prozess beendet wurde.
 
-Wenn eine App geschlossen ist, ruft Apple die App erst nach einem Neustart der App auf. Das bedeutet, dass Sie nicht wissen können, wann die Benachrichtigung unter iOS erhalten wurde.
+Wenn eine App geschlossen ist, ruft Apple die App erst nach ihrem Neustart auf. Das bedeutet, dass Sie nicht erfahren können, wann die Benachrichtigung unter iOS empfangen wurde.
 
-Damit die Nachverfolgung von Impressionen weiterhin funktioniert, während sich die App im Hintergrund befindet, müssen wir **Content-Available** senden, um der App mitzuteilen, dass eine Verfolgung durchgeführt werden muss.
+Damit das Impression-Tracking auch dann funktioniert, wenn sich die App im Hintergrund befindet, müssen wir **Content-Available** senden, um der App mitzuteilen, dass ein Tracking durchgeführt werden soll.
 
 >[!CAUTION]
 >
->Die iOS-Impressionsverfolgung ist nicht genau und sollte nicht als zuverlässig angesehen werden.
+>Das Impression-Tracking in iOS ist nicht präzise und sollte nicht als zuverlässig betrachtet werden.
 
-Die folgende Code-Zielgruppen-Hintergrundanwendung:
+Der folgende Code richtet sich an die App im Hintergrund:
 
 ```
 // In didReceiveRemoteNotification event handler in AppDelegate.m
@@ -227,7 +227,7 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     }
 ```
 
-Die folgende Code-Zielgruppe enthält die Vordergrund-App:
+Der folgende Code richtet sich an die App im Vordergrund:
 
 ```
 // This will get called when the app is in the foreground
@@ -245,9 +245,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### Implementierung der Klick-Tracking {#push-click-tracking-iOS}
+### Implementieren des Klick-Tracking {#push-click-tracking-iOS}
 
-Für die Klick-Verfolgung müssen Sie den Wert &quot;2&quot;für die Aktion senden, wenn Sie die Funktion trackAction() aufrufen.
+Für das Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot; senden, wenn die Funktion trackAction() aufgerufen wird.
 
 ```
 // AppDelegate.swift
@@ -284,11 +284,11 @@ func registerForPushNotifications() {
     }
 ```
 
-Wenn Sie jetzt Push-Benachrichtigungen senden, müssen Sie eine Kategorie hinzufügen. In diesem Fall nannten wir es &quot;STANDARD&quot;.
+Wenn Sie jetzt Push-Benachrichtigungen senden, müssen Sie eine Kategorie hinzufügen. In diesem Fall wurde sie &quot;STANDARD&quot; genannt.
 
 ![](assets/tracking_push.png)
 
-Um dann den Dismiss-Vorgang zu bearbeiten und eine Verfolgungsinfo zu senden, müssen Sie Folgendes hinzufügen:
+Um dann das Verwerfen zu handhaben und Tracking-Daten zu senden, müssen Sie Folgendes hinzufügen:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -308,9 +308,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-### Implementierung der offenen Verfolgung {#push-open-tracking-iOS}
+### Implementieren des Öffnungs-Tracking {#push-open-tracking-iOS}
 
-Sie müssen &quot;1&quot;und &quot;2&quot;senden, da der Benutzer zum Öffnen der App auf &quot;notification&quot;klicken muss. Wenn die App nicht über eine Push-Benachrichtigung gestartet/geöffnet wird, treten keine Ereignis zur Verfolgung auf.
+Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Anwender zum Öffnen der App zunächst auf die Benachrichtigung klicken muss. Wenn die App nicht über eine Push-Benachrichtigung gestartet/geöffnet wird, treten keine Tracking-Ereignisse auf.
 
 ```
 import Foundation
