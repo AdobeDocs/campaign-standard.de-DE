@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
+source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 92%
@@ -257,7 +257,7 @@ ht-degree: 92%
       + [Daten importieren](automating/using/importing-data.md)
       + [Workflow-Daten verwenden](automating/using/using-workflow-data.md)
       + [Best Practices bei Workflows](automating/using/best-practices-workflows.md)
-   + [Workflow ausführen]{#executing-a-workflow}
+   + Workflow ausführen {#executing-a-workflow}
       + [Über die Ausführung von Workflows](automating/using/about-workflow-execution.md)
       + [Lebenszyklus eines Workflows](automating/using/workflow-life-cycle.md)
       + [Ausführungsbefehle    ](automating/using/execution-commands.md)
