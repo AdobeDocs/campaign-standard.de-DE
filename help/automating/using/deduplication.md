@@ -12,8 +12,11 @@ discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1166'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Mithilfe der Aktivität **[!UICONTROL Deduplizierung]** lassen sich Dubletten in
 
 Die Aktivität **[!UICONTROL Deduplizierung]** wird im Allgemeinen im Anschluss an Zielgruppenbestimmungs- oder Dateiimportaktivitäten und vor Aktivitäten verwendet, die dem Zieldatenverbrauch dienen.
 
-Bei einer Deduplizierung werden die eingehenden Transitionen getrennt voneinander verarbeitet. Sollte beispielsweise ein Profil 'A' sowohl im Ergebnis der Abfrage 1 als auch im Ergebnis der Abfrage 2 vorkommen, wird es nicht dedupliziert.
+Bei einer Deduplizierung werden die eingehenden Transitionen getrennt voneinander verarbeitet. Sollte beispielsweise ein Profil &#39;A&#39; sowohl im Ergebnis der Abfrage 1 als auch im Ergebnis der Abfrage 2 vorkommen, wird es nicht dedupliziert.
 
 Deshalb ist es ratsam sicherzustellen, dass Deduplizierungen nur eine einzige eingehende Transition aufweisen. Hierfür können Sie Ihre unterschiedlichen Abfragen mithilfe von Aktivitäten wie Vereinigung, Schnittmenge etc. verknüpfen, die den Anforderungen Ihrer Zielgruppenbestimmung gerecht werden, z. B.:
 
@@ -41,7 +44,7 @@ Deshalb ist es ratsam sicherzustellen, dass Deduplizierungen nur eine einzige ei
 Zur Konfiguration einer Deduplizierung müssen Sie ihren Titel, Deduplizierungsmethode und -kriterien sowie die das Ergebnis betreffenden Optionen angeben.
 
 1. Ziehen Sie eine **[!UICONTROL Deduplizierung]** in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 
    ![](assets/deduplication_1.png)
 
@@ -74,7 +77,7 @@ Zur Konfiguration einer Deduplizierung müssen Sie ihren Titel, Deduplizierungsm
 
       ![](assets/deduplication_4.png)
 
-1. Bei Bedarf können Sie unter Verwendung von [Transitionen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) auf erweiterte Optionen zur Ausgabepopulation zugreifen.
+1. Bei Bedarf können Sie unter Verwendung von [Transitionen](../../automating/using/activity-properties.md) auf erweiterte Optionen zur Ausgabepopulation zugreifen.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
 ## Beispiel 1: Dubletten vor einem Versand identifizieren {#example-1--identifying-duplicates-before-a-delivery}
@@ -136,7 +139,7 @@ Der Workflow setzt sich folgendermaßen zusammen:
 
 * **[!UICONTROL Daten-Update]**-Aktivität zur Einfügung der nach der Deduplizierung beibehaltenen Daten in die Datenbank. Die importierten Daten werden erst zum Zeitpunkt des Daten-Updates als der Profildimension zugehörig identifiziert.
 
-   Als Aktionstyp wurde im vorliegenden Beispiel **[!UICONTROL Nur hinzufügen]** gewählt, um noch nicht vorhandene Profile in die Datenbank aufzunehmen. Als Abstimmschlüssel werden dabei die 'email'-Spalte der Datei und das E-Mail-Feld der **Profil**-Dimension verwendet.
+   Als Aktionstyp wurde im vorliegenden Beispiel **[!UICONTROL Nur hinzufügen]** gewählt, um noch nicht vorhandene Profile in die Datenbank aufzunehmen. Als Abstimmschlüssel werden dabei die &#39;email&#39;-Spalte der Datei und das E-Mail-Feld der **Profil**-Dimension verwendet.
 
    ![](assets/deduplication_example2_writer1.png)
 
