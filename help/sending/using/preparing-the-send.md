@@ -11,7 +11,7 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
@@ -25,7 +25,7 @@ In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für
 
    ![](assets/preparing_delivery_2.png)
 
-1. The **[!UICONTROL Deployment]** block shows the preparation progress, then the preparation statistics: number of targeted messages, number of messages to send, etc.
+1. In der Kachel **[!UICONTROL Freigabe]** werden zunächst der Vorbereitungsfortschritt und dann das Ergebnis der Vorbereitung angezeigt: die Anzahl der in der Zielgruppe enthaltenen Kontakte und zu sendenden Nachrichten usw.
 
    Abhängig von der Größe der Ziel-Population kann dieser Vorgang einige Zeit in Anspruch nehmen.
 
@@ -37,7 +37,7 @@ In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für
 
    ![](assets/preparing_delivery_6.png)
 
-1. Ihre Nachricht wird automatisch während der Versandvorbereitung gespeichert. If you need to make any changes to your message&#39;s schedule after the preparation step, you will need to make sure that you click the **[!UICONTROL Prepare]** button again for those changes to be taken into account. Weiterführende Informationen zur Planung einer Nachricht finden Sie auf [dieser Seite](../../sending/using/about-scheduling-messages.md).
+1. Ihre Nachricht wird automatisch während der Versandvorbereitung gespeichert. Wenn Sie nach dem Vorbereitungsschritt den Zeitplan Ihrer Nachricht ändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Vorbereiten]** erneut aus, damit diese Änderungen wirksam werden. Weiterführende Informationen zur Planung einer Nachricht finden Sie auf [dieser Seite](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -45,7 +45,7 @@ In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für
 
    ![](assets/preparing_delivery_4.png)
 
-1. The **[!UICONTROL Deployment]** window opens, correct any errors then restart the preparation.
+1. Das Fenster **[!UICONTROL Freigabe]** wird geöffnet. Korrigieren Sie etwaige Fehler und starten Sie die Vorbereitung erneut.
 
    Der letzte Logeintrag zeigt eventuelle Fehler und deren Anzahl an. Ein spezifisches Symbol verdeutlicht den Fehlertyp: Ein gelbes Symbol kennzeichnet beispielsweise einen nicht blockierenden Verarbeitungsfehler, während ein rotes Symbol einen Fehler bezeichnet, der den Versand der Nachrichten verhindert.
 
