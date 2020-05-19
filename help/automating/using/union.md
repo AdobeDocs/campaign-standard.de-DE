@@ -12,8 +12,11 @@ discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
 context-tags: union,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,7 @@ Eine **[!UICONTROL Vereinigung]** wird insbesondere im Rahmen einer Segmentierun
 
 1. Ziehen Sie eine **[!UICONTROL Vereinigung]** in den Workflow-Arbeitsbereich.
 1. Schließen Sie sie an Aktivitäten wie beispielsweise Abfragen an.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Wählen Sie nun den **[!UICONTROL Abstimmtyp]**, um den Umgang mit aus der Konfrontation der eingehenden Populationen resultierenden Dubletten zu definieren:
 
    * **[!UICONTROL Nur die Schlüssel]** - Standardmodus; die Aktivität behält nur einen der Datensätze bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Datensätze denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
@@ -47,7 +50,7 @@ Eine **[!UICONTROL Vereinigung]** wird insbesondere im Rahmen einer Segmentierun
 
 1. Kreuzen Sie die Option **[!UICONTROL Nur gemeinsame Zusatzdaten verwenden]** an, wenn Sie nur die in allen eingehenden Transitionen enthaltenen Zusatzdaten beibehalten möchten.
 1. Bei Bedarf können Sie außerdem die Option **[!UICONTROL Größe der erzeugten Population begrenzen]** aktivieren. Geben Sie in diesem Fall im Feld **[!UICONTROL Maximale Datensatzanzahl]** die Anzahl an beizubehaltenden Empfängern an.
-1. Bei Bedarf können Sie unter Verwendung von [Transitionen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) auf erweiterte Optionen zur berechneten Population zugreifen.
+1. Bei Bedarf können Sie unter Verwendung von [Transitionen](../../automating/using/activity-properties.md) auf erweiterte Optionen zur berechneten Population zugreifen.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
 ## Beispiel {#example}
