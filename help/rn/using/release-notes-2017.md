@@ -12,7 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '4688'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,7 @@ Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicke
 
 Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-updates.md) für Adobe Campaign Standard an. Neuere Versionshinweise finden Sie auf dieser [Seite](../../rn/using/release-notes.md).
 
-## Version 17.10 - Oktober 2017    {#release-17-10---october-2017}
+## Version 17.10 - Oktober 2017      {#release-17-10---october-2017}
 
 **Neue Funktionen**
 
@@ -84,11 +87,11 @@ _Berichte_
 
 _Workflows_
 
-* Fixed an issue in the **[!UICONTROL Load file]** activity that could lead to errors after manually adding and removing columns in the activity.
+* Fehlerkorrektur – in der Aktivität **[!UICONTROL Datei laden]** tritt kein Fehler mehr auf, nachdem in der Aktivität manuell Spalten hinzugefügt und entfernt wurden.
 * Der technische Workflow **[!UICONTROL deliverabilityUpdate]** ist jetzt so festgelegt, dass er um 2 Uhr Serverzeit durchgeführt wird.
 * Fehlerkorrektur – aus Sicherheitsgründen kann jetzt kein Listenexport mehr durchgeführt werden, wenn der Benutzer nicht über die Export-Benutzerrolle verfügt.
-* Fixed an issue with the **[!UICONTROL Reconciliation]** activity.
-* Fixed an issue with the use of wildcard characters in the **[!UICONTROL File Transfer]** activity.
+* Fehlerkorrektur – Bei der Aktivität **[!UICONTROL Abstimmung]** tritt kein Fehler mehr auf.
+* Fehlerkorrektur – bei der Verwendung von Platzhaltern in der Aktivität **[!UICONTROL Dateiübertragung]** tritt kein Fehler mehr auf.
 
 _Profile und Audiences_
 
@@ -104,7 +107,7 @@ _Benutzerdefinierte Ressourcen_
 * Fehlerkorrektur – in Bildschirmen des Typs Liste werden jetzt keine Zeilen für benutzerdefinierte Ressourcen mehr angezeigt, die keine Daten enthalten.
 * Fehlerkorrektur – boolesche Felder mit dem Wert &#39;False&#39; werden jetzt in benutzerdefinierten Ressourcen angezeigt.
 
-## Version 17.9 - September 2017    {#release-17-9---september-2017}
+## Version 17.9 - September 2017      {#release-17-9---september-2017}
 
 **Neue Funktionen**
 
@@ -176,7 +179,7 @@ _Profile und Audiences_
 * Adobe Campaign erstellt jetzt einen Bericht, in dem die Anzahl der aktiven Profile angegeben wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../audiences/using/active-profiles.md).
 * Fehlerkorrektur – Profile können jetzt über die API &quot;Profile und Dienste&quot; einen Dienst abonnieren.
 
-## Version 17.7 - Juli 2017    {#release-17-7---july-2017}
+## Version 17.7 - Juli 2017      {#release-17-7---july-2017}
 
 **Neue Funktionen**
 
@@ -229,7 +232,7 @@ _E-Mails, SMS und Briefpost_
 * Fehlerkorrektur – bei der Auswahl der Standardzeitzone im Planungsbildschirm eines Versands tritt kein Javascript-Fehler mehr auf.
 * Fehlerkorrektur – Fallen werden jetzt in den Versandlogs angezeigt.
 * Im Bildschirm für die Vorlagenauswahl des Versanderstellungsassistenten werden jetzt Vorlagen für Folgenachrichten und A/B-Tests standardmäßig verborgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/creating-an-email.md).
-* Fehlerkorrektur – jetzt ist der Versand von Nachrichten nur mehr durch bestimmte Benutzer möglich. Nur Benutzer mit der Rolle **[!UICONTROL Start deliveries]** sind dazu berechtigt. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/confirming-the-send.md).
+* Fehlerkorrektur – jetzt ist der Versand von Nachrichten nur mehr durch bestimmte Benutzer möglich. Nur Benutzer mit der Rolle **[!UICONTROL Sendungen starten]** sind dazu berechtigt. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/confirming-the-send.md).
 
 _Push-Benachrichtigungen_
 
@@ -247,12 +250,12 @@ _Berichte_
 
 _Workflows_
 
-* Workflow-Logs können jetzt gefiltert werden (Zeitraum und Textsuche). Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/executing-a-workflow.md#monitoring).
+* Workflow-Logs können jetzt gefiltert werden (Zeitraum und Textsuche). Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/monitoring-workflow-execution.md).
 * Im Versand-Workflow ist jetzt eine Option verfügbar, mit der die Bestätigung vor dem Senden deaktiviert werden kann.
 * Fehlerkorrektur – Im Erstellungsassistenten eines wiederkehrenden Versands kann jetzt eine Outbound-Transition eingestellt werden.
 * Fehlerkorrektur – jetzt kann eine Workflow-Abfrageaktivität auf der Basis eines benutzerdefinierten Ressourcenfeldes mit einer Auflistung verwendet werden, die zahlreiche Werte aufweist.
 
-## Version 17.5 - Mai 2017    {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017      {#release-17-5---may-2017}
 
 **Neue Funktionen**
 
@@ -279,19 +282,19 @@ _Workflows_
 
 _Aktualisierung der Benutzeroberfläche_
 
-* In the top bar, the **[!UICONTROL Timeline]** link has been removed and replaced with a link to **[!UICONTROL Programs & Campaigns]** .
+* In der Navigationsleiste wurde der Link **[!UICONTROL Planung]** entfernt und durch den Link **[!UICONTROL Programme &amp; Kampagnen]** ersetzt.
 
 _E-Mails und SMS-Nachrichten_
 
-* Fixed an issue which displayed the wrong color for the **[!UICONTROL Retry in progress]** delivery status. Die Farbe war grau statt blau.
+* Fehlerkorrektur – der Versandstatus **[!UICONTROL Weitere Zustellversuche in Gang]** wird nun in der richtigen Farbe, blau und nicht grau, angezeigt. Die Farbe war grau statt blau.
 
 _Workflows_
 
-* Fixed an issue that occurred when changing the action to perform in a **[!UICONTROL Transfer file]** activity.
+* Fehlerkorrektur - jetzt tritt kein Fehler mehr auf, wenn die in der Aktivität **[!UICONTROL Dateiübertragung]** auszuführende Aktion geändert wird.
 
 _Berichte_
 
-* Die Berechnungen **[!UICONTROL Spam]** und **[!UICONTROL Spam rate]** Indikatoren wurden geändert.
+* Die Indikatorberechnungen für **[!UICONTROL Spam]** und **[!UICONTROL Spam-Rate]** wurden geändert.
 * Die **[!UICONTROL Bounce]**-Metriken wurden verbessert und liefern jetzt genauere Ergebnisse.
 
 _Push-Benachrichtigungen_
@@ -299,7 +302,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – jetzt kann ein Push-Ereignis im Marketingverlauf eines Profils ausgewählt werden.
 * Die Verwendung von Push-Benachrichtigungen in Workflows wurde verbessert.
 
-## Version 17.4 - April 2017    {#release-17-4---april-2017}
+## Version 17.4 - April 2017      {#release-17-4---april-2017}
 
 **Neue Funktionen**
 
@@ -355,14 +358,14 @@ _Transaktionsnachrichten_
 
 _Landingpages_
 
-* We have optimized the **[!UICONTROL by email]** filter used in landing pages to reconcile new subscribers with database profiles.
+* Der Filter **[!UICONTROL Nach E-Mail]** in Landingpages wurde optimiert, um neue Abonnenten mit Datenbankprofilen abzustimmen.
 * Fehlerkorrektur – jetzt werden nicht mehr freie Texteingaben anstelle von Kontrollkästchen angezeigt, wenn booleschen Felder zur Konfiguration eines Formulars verwendet werden.
 * Fehlerkorrektur – jetzt kann eine Miniaturansicht von Landingpages erstellt werden.
 
 _Workflows_
 
-* Fixed a display error when editing an **[!UICONTROL End]** or **[!UICONTROL External Signal]** activity (on Safari only).
-* Improved the error message displayed when editing a **[!UICONTROL Read Audience]** activity containing an erroneous audience.
+* Fehlerkorrektur – bei der Bearbeitung der Aktivitäten **[!UICONTROL Ende]** oder **[!UICONTROL Externes Signal]** tritt kein Anzeigefehler mehr auf (Fehler betraf nur Safari).
+* Die Fehlermeldung bei der Bearbeitung der Aktivität **[!UICONTROL Audience lesen]** mit einer fehlerhaften Audience wurde verbessert.
 * Fehlerkorrektur – jetzt entsteht kein SQL-Fehler mehr, wenn eine Abonnementaktivität ausgeführt wird.
 
 _Integrationen_
@@ -384,7 +387,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – jetzt wird eine Fehlermeldung angezeigt, wenn eine Android-Anwendung mit einer Mobile App verknüpft wird, die nicht auf MCPNS erstellt wurde.
 * Fehlerkorrektur – Benutzer können jetzt stillen Benachrichtigungen keine Töne mehr hinzufügen.
 
-## Version 17.2 - März 2017    {#release-17-2---march-2017}
+## Version 17.2 - März 2017      {#release-17-2---march-2017}
 
 **Neue Funktionen**
 
@@ -454,7 +457,7 @@ _Allgemein_
 
 _E-Mails und SMS-Nachrichten_
 
-* Fixed an issue causing the **[!UICONTROL Request confirmation before sending messages]** option to remain selected even after unchecking it and saving the delivery.
+* Fehlerkorrektur – jetzt kann die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** deaktiviert werden, wenn die Markierung entfernt und der Versand gespeichert wird.
 * Fehlerkorrektur – die Depublikation von Transaktions-E-Mails wird nicht mehr verhindert.
 * Fehlerkorrektur – Inhalt kann jetzt ordnungsgemäß mit den letzten Änderungen vor der Vorschau eines Versands synchronisiert werden.
 
@@ -464,8 +467,8 @@ _Landingpages_
 
 _Workflows_
 
-* Fixed an issue that could prevent from reading the content of the reject transition of a **[!UICONTROL Load file]** activity.
-* Fixed an issue that prevented swapped columns to be properly taken into account when configuring a **[!UICONTROL Load file]** activity.
+* Fehlerkorrektur – der Inhalt der Zurückweisungs-Transition der Aktivität **[!UICONTROL Datei laden]** kann jetzt gelesen werden.
+* Fehlerkorrektur – vertauschte Spalten werden jetzt bei der Konfiguration der Aktivität **[!UICONTROL Datei laden]** berücksichtigt.
 
 ## Version 17.1 - Januar 2017 {#release-17-1---january-2017}
 
@@ -513,7 +516,7 @@ _Workflows_
 
 _Allgemein_
 
-* The **[!UICONTROL Access authorization]** options have returned to the landing page properties.
+* Die Optionen zur **[!UICONTROL Zugriffsberechtigung]** sind jetzt wieder in den Eigenschaften der Landingpage verfügbar.
 * Fehlerkorrektur – kein altes Bild wird mehr anstelle des gewünschten Bildes gerendert. Dieser Fehler ist aufgetreten, wenn das Ausgangsbild in der Inhaltserstellung eines Versands oder einer Landingpage aktualisiert worden war.
 * Fehlerkorrektur – in einem bestehenden externen SFTP-Konto können jetzt alle Felder bearbeitet werden.
 * Fehlerkorrektur – mehrere Probleme mit der Benutzeroberfläche wurden behoben. Beispielsweise können jetzt problemlos Profilattribute bearbeitet und Änderungen gespeichert werden.
@@ -525,21 +528,21 @@ _E-Mails und SMS-Nachrichten_
 _Push-Benachrichtigungen_
 
 * Fehlerkorrektur – von Anwendungen können jetzt Postbacks an den Adobe Campaign-Server gesendet werden.
-* Es wurde ein Problem behoben, das möglicherweise verhindert hat **[!UICONTROL Play a sound]** und bei dem Android berücksichtigt **[!UICONTROL Custom fields]** wurde.
+* Fehlerkorrektur – für Android sind jetzt die Funktionen **[!UICONTROL Ton abspielen]** und **[!UICONTROL Benutzerdefinierte Felder]** verfügbar.
 * Fehlerkorrektur – jetzt wird kein zusätzliches Maskierungszeichen mehr an für Emojis verwendete Unicode-Zeichen angefügt.
 * Wenn der Anmeldetoken eines Abonnenten auf die Blacklist gesetzt wird, wird der entsprechende Status in der Abonnentenliste der Anwendung in Adobe Campaign jetzt unverzüglich aktualisiert.
 
 _Workflows_
 
 * Fehlerkorrektur – die Vorschau auf Abfragen bezüglich Ereignisressourcen (z. B. rtEvent) ist jetzt möglich.
-* The reject file generated by a **[!UICONTROL Load file]** activity can now be retrieved in its outbound transition and processed in the next activity. For example, upload the reject file via an SFTP server using **[!UICONTROL Transfer file]** .
-* Fixed an issue that may have prevented a user from limiting the population of a segment if **[!UICONTROL Temporary resource]** was selected in the **[!UICONTROL General]** tab of **[!UICONTROL Segmentation]** .
-* **[!UICONTROL Scheduler]** Aktivitäten können nicht mehr so eingestellt werden, dass ein Workflow mehrmals alle 10 Minuten ausgelöst wird.
-* Fixed an issue that may have prevented **[!UICONTROL Use common columns]** from working properly in an **[!UICONTROL Union]** activity.
+* Die von einer **[!UICONTROL Datei-laden]**-Aktivität erstellte Zurückweisungsdatei kann jetzt in ihrer ausgehenden Transition abgerufen und in der nächsten Aktivität verarbeitet werden. Beispielsweise kann die Zurückweisungsdatei über einen SFTP-Server mit **[!UICONTROL Dateiübertragung]** hochgeladen werden.
+* Fehlerkorrektur – die Population eines Segments kann jetzt eingeschränkt werden, wenn **[!UICONTROL Temporäre Ressource]** im Tab **[!UICONTROL Allgemein]** im Bereich **[!UICONTROL Segmentierung]** ausgewählt ist.
+* **[!UICONTROL Die Aktivitäten von Planung]** können jetzt nicht mehr so eingestellt werden, dass ein Workflow häufiger als einmal alle 10 Minuten ausgelöst wird.
+* Fehlerkorrektur – jetzt funktioniert **[!UICONTROL Nur gemeinsame Zusatzdaten verwenden]** in der Aktivität **[!UICONTROL Vereinigung]** einwandfrei.
 
 _Integrationen_
 
 * Fehlerkorrektur – bei der Freigabe einer Ereignisauslösung in Adobe Campaign kommt es zu keinen Problemen mehr. Dieser Fehler trat auf, wenn die Metadaten &quot;Wahrscheinlichkeit eines erneuten Besuchs innerhalb von 30 Tagen&quot; zur Abbruchsauslösung in Adobe Experience Cloud hinzugefügt wurden.
 * Fehlerkorrektur – der technische Workflow löscht jetzt nicht mehr das Zieldimensionsfeld, wenn Audiences von People Core Service importiert werden. Darauf folgende Abfragen konnten keine importierten Audiences abrufen.
-* Es wurde ein Fehler behoben, der dazu führte, dass die **[!UICONTROL Save audience]** Aktivität eines Workflows fehlschlug, wenn die Option aktiviert **[!UICONTROL Share in Adobe Marketing Cloud]** wurde.
+* Fehlerkorrektur – durch die Aktivität **[!UICONTROL Audience-Speicherung]** eines Workflows wird kein Fehler mehr erzeugt, wenn die Option **[!UICONTROL In der Adobe Experience Cloud freigeben]** aktiviert ist.
 
