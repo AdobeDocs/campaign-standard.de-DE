@@ -1,6 +1,6 @@
 ---
-title: Understanding Campaign Standard Push Notifications Payload Structure
-description: Dieses Dokument soll die Struktur der Nutzlast beschreiben, die in mobilen Anwendungen empfangen wird.
+title: Die Struktur der Payload von Push-Benachrichtigungen in Campaign Standard
+description: In diesem Dokument wird die Struktur der in Mobile Apps empfangenen Payload beschrieben.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -12,35 +12,35 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 302159577f5a7d917ba253994ff23c4980d518e5
 
 ---
 
 
-# Understanding Campaign Standard Push Notifications Payload Structure {#push-payload}
+# Die Struktur der Payload von Push-Benachrichtigungen in Campaign Standard {#push-payload}
 
-Mit Adobe Campaign können Sie personalisierte und segmentierte Push-Benachrichtigungen auf iOS- und Android-Mobilgeräten an mobile Anwendungen (mobile App) senden.
+Mit Adobe Campaign können Sie personalisierte und segmentierte Push-Benachrichtigungen auf iOS- und Android-Mobilgeräten an mobile Anwendungen (Mobile Apps) senden.
 
-Jede Push-Benachrichtigung, die auf einer mobilen App empfangen wird, enthält einige Informationen, die von der App verwendet werden, um die Push-Benachrichtigung anzuzeigen, wenn eine Push-Benachrichtigung gesendet wird, und wahrscheinlich auch einige weitere Berechnungen durchführen, insbesondere wenn eine Push-Benachrichtigung gesendet wird.
+Jede Push-Benachrichtigung, die auf einer Mobile App empfangen wird, enthält Daten, die von der App verwendet werden, um die Push-Benachrichtigung anzuzeigen, wenn sie als Warnhinweis gesendet wird. Außerdem werden die Daten häufig zur Durchführung weiterer Berechnungen genutzt, insbesondere beim Versand einer stillen Push-Benachrichtigung.
 
-Diese Informationen werden vom Code der mobilen App in einem Ereignis-Handler empfangen, der angibt, dass eine Push-Benachrichtigung empfangen wurde. Wenn Sie Push-Benachrichtigungen von Adobe Campaign Standard senden, enthalten die in der mobilen App erhaltenen Informationen möglicherweise auch Campaign Standard-spezifische Informationen, die verwendet werden können, um einige von Campaign Standard bereitgestellte Funktionen zu nutzen. Darüber hinaus kann die Nutzlast benutzerdefinierte Daten enthalten, die von der mobilen App genutzt werden können.
+Diese Daten werden vom Code der Mobile App in einem Event-Handler empfangen, der mitteilt, dass eine Push-Benachrichtigung empfangen wurde. Wenn Sie Push-Benachrichtigungen von Adobe Campaign Standard aus senden, enthalten die in der Mobile App empfangenen Daten möglicherweise auch Campaign Standard-spezifische Daten, die dazu dienen können, bestimmte von Campaign Standard bereitgestellte Funktionen zu nutzen. Darüber hinaus kann die Payload benutzerdefinierte Daten beinhalten, die von der Mobile App verwendet werden können.
 
-Dieses Dokument beschreibt die Struktur der Nutzlast, die in einer mobilen App empfangen wird, wenn eine Push-Benachrichtigung erfolgreich von Adobe Campaign Standard an eine App gesendet wurde.
+In diesem Dokument wird die Struktur der Payload beschrieben, die in einer Mobile App empfangen wird, wenn Adobe Campaign Standard erfolgreich eine Push-Benachrichtigung an diese App sendet.
 
 >[!NOTE]
 >
->Die Payload-Struktur hängt vom Typ der mobilen App ab (d. h. iOS-App, FCM-fähige Android-App).
+>Die Struktur der Payload hängt von der Art der Mobile App ab (d. h. iOS-App, FCM-fähige Android-App).
 
-## Push-Nutzdatenstruktur {#push-payload-structure}
+## Payload-Struktur bei Push-Benachrichtigungen {#push-payload-structure}
 
-In diesem Abschnitt wird die Struktur einer Beispielnutzlast für verschiedene mobile Plattformen beschrieben und die darin enthaltenen Hauptattribute beschrieben. Dies ist die Struktur der Nutzlast, die im Mobilanwendungscode im Ereignis-Handler empfangen wird und angibt, dass eine Push-Benachrichtigung empfangen wurde.
+In diesem Abschnitt wird die Struktur einer Beispiel-Payload für verschiedene mobile Plattformen und die darin enthaltenen Hauptattribute beschrieben. Dies ist die Struktur der Payload, die im Mobile-App-Code im Event-Handler empfangen wird und mitteilt, dass eine Push-Benachrichtigung empfangen wurde.
 
-Die Nutzlastattribute und ihre Werte variieren je nach den Konfigurationen in den erweiterten Optionen für Push-Benachrichtigungen. Dieser Abschnitt enthält auch eine Zuordnung zwischen diesen Konfigurationen in der Benutzeroberfläche des Campaign Standards und den Attributen in der Nutzlast, um zu klären, wie sich die Nutzlast bei der Konfiguration einer Option in Campaign Standard ändert.
+Die Payload-Attribute und ihre Werte variieren je nach der Konfiguration in den erweiterten Optionen für Push-Benachrichtigungen. Dieser Abschnitt enthält auch ein Mapping zwischen diesen Konfigurationen in der Benutzeroberfläche von Campaign Standard und den Attributen in der Payload, um zu veranschaulichen, wie sich die Payload bei der Konfiguration einer Option in Campaign Standard verändert.
 
-### Für iOS Mobile App {#payload-structure-ios}
+### Für iOS-Mobile Apps {#payload-structure-ios}
 
-**Beispiel-Nutzlast, die von Adobe Campaign an die iOS-App gesendet wird:**
+**Beispiel-Payload, die von Adobe Campaign an eine iOS-App gesendet wird:**
 
 ```
 {
@@ -80,7 +80,7 @@ Die Nutzlastattribute und ihre Werte variieren je nach den Konfigurationen in de
     "_mId":"h138a"} 
 ```
 
-**JSON-Beispielnutzlast zur Verwendung mit[iOS APNS Tester](https://pushtry.com/)**
+**JSON-Beispiel-Payload zur Verwendung mit[iOS APNS-Tester](https://pushtry.com/)**
 
 ```
 {
@@ -108,13 +108,13 @@ Die Nutzlastattribute und ihre Werte variieren je nach den Konfigurationen in de
 }
 ```
 
-Der wichtigste Abschnitt der Nutzlast ist das App-Wörterbuch, das von Apple definierte Schlüssel enthält und bestimmt, wie das System, das die Benachrichtigung erhält, den Benutzer warnt, wenn überhaupt. Dieser Abschnitt enthält vordefinierte Schlüssel, mit denen die mobile App das Verhalten der Push-Benachrichtigung formuliert.
+Der wichtigste Bereich der Payload ist das aps-Wörterbuch, das von Apple definierte Schlüssel enthält und bestimmt, wie das System, das die Benachrichtigung erhält, den Benutzer warnen soll (wenn überhaupt). Dieser Abschnitt enthält vordefinierte Schlüssel, mit denen die Mobile App das Verhalten der Push-Benachrichtigung formuliert.
 
-Ausführliche Informationen zu den Attributen in Apple finden Sie in den Apple-Entwicklerdocs: Erstellen der [Fernbenachrichtigungsnutzlast](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
+Ausführliche Informationen zu den Attributen in aps finden Sie in der Apple-Entwicklerdokumentation: [Creating the Remote Notification Payload](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
-### Für Android-App {#payload-structure-android}
+### Für Android-Apps {#payload-structure-android}
 
-**Beispiel-Nutzdatenversand von Adobe Campaign an die Android-App**
+**Beispiel-Payload, gesendet von Adobe Campaign an Android-App**
 
 ```
 {
@@ -154,7 +154,7 @@ Ausführliche Informationen zu den Attributen in Apple finden Sie in den Apple-E
 }
 ```
 
-**JSON-Beispiel-Nutzlast zur Verwendung des[Google FCM-Tester](https://pushtry.com/)**
+**JSON-Beispiel-Payload zur Verwendung mit[Google FCM-Tester](https://pushtry.com/)**
 
 ```
 {
@@ -196,38 +196,38 @@ Ausführliche Informationen zu den Attributen in Apple finden Sie in den Apple-E
 }
 ```
 
-Die Payload enthält eine Datenmeldung, die den gesamten Inhalt des Push-Benachrichtigungs-Versands einschließlich der benutzerdefinierten Schlüssel/Wert-Paare enthält. Die Client-App muss die Nachricht bearbeiten, um bei Bedarf Push-Benachrichtigungen zu erstellen und anzuzeigen, oder um eine andere Geschäftslogik hinzuzufügen.
+Die Payload enthält eine Datennachricht, die alle Inhalte aus dem Push-Benachrichtigungsversand einschließlich der benutzerdefinierten Schlüssel/Wert-Paare umfasst. Die Client-App muss die Nachricht handhaben, um bei Bedarf Push-Benachrichtigungen zu erstellen und anzuzeigen oder um eine andere Business-Logik hinzuzufügen.
 
-Informationen zu Aspekten einer android-Nutzlast finden Sie unter [Messaging Concepts and Options (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
+Informationen zu Aspekten einer Android-Payload finden Sie unter [Messaging Concepts and Options (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
 >[!NOTE]
 >
->Ab Januar 2018 wurde die Unterstützung für Benachrichtigungen in Android-Nutzdaten entfernt, damit die App nachwächst und die Kontrolle an die mobile App weitergegeben werden kann, ohne dass der Benutzer mit der App interagieren muss.
+>Im Januar 2018 wurde die Unterstützung für Benachrichtigungen in Android-Payloads entfernt, damit die App aufgeweckt und die Kontrolle an die Mobile App weitergegeben werden kann, ohne dass der Benutzer mit der App interagieren muss.
 
-### Zuordnung zwischen Campaign Standard-Konfigurationen und Nutzlastattributen {#mapping-payload}
+### Mapping zwischen Campaign Standard-Konfigurationen und Payload-Attributen {#mapping-payload}
 
-| Konfiguration der Kampagne | Impact Attribute in iOS | Impact Attribute in Android | Description |
+| Campaign-Konfiguration | Betroffene Attribute in iOS | Betroffene Attribute in Android | Beschreibung |
 |:-:|:-:|:-:|:-:|
-| Nachrichtentitel <br>Nachrichtentext | alert → title <br> alert → body | title <br>body | Diese Daten enthalten Details zur Warnmeldung.<br>Die Titel- und Textschlüssel geben den Inhalt der Warnung an. |
-| Ton abspielen | sound | sound | Ein benutzerdefinierter Sound, der mit dem Warnhinweis wiedergegeben wird. |
-| Badge-Wert | badge | badge | Ein ganzzahliger Wert, mit dem das Symbol der App gekennzeichnet wird. |
-| Deeplink hinzufügen  | uri | NA | Mit einem Deeplink gelangen Benutzer direkt zu Inhalten, die in der Anwendung enthalten sind (anstatt eine Webseite zu öffnen). |
-| Kategorie | category | category | So zeigen Sie benutzerdefinierte Aktionen mit einer Remote-Benachrichtigung an. <br>Mit der Kategorie-Taste kann das System die Aktionen für diese Kategorie als Schaltflächen in der Warnungs-Oberfläche anzeigen. |
-| Benutzerdefinierte Felder | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Alle benutzerspezifischen Daten, die Sie an Ihre App senden möchten. |
-| URL des Rich-Media-Inhalts (Bild-, GIF-, Audio- und Videodateien)<br>(nur für iOS 10 oder höher) | media-attachment-url | NA | URL Ihrer Mediendateien, um Rich-Content zu Ihrer Benachrichtigung hinzuzufügen. <br>Wenn Sie einen Wert für diese URL angeben, wird das Flag für veränderliche Inhalte automatisch an die Nutzlast gesendet. <br> (Nur für iOS 10 oder höher) |
-| Veränderliche Inhalte <br> (nur für iOS 10 oder höher) | mutable-content | NA | Die Benachrichtigungsdiensterweiterung in Ihrer App &quot;erfasst&quot;alle Remote-Benachrichtigungen mit dem Schlüssel für veränderliche Inhalte und ermöglicht Ihnen die Verarbeitung/Bearbeitung des Inhalts der Anforderungs-Nutzlast, die dann zum Anpassen der Benachrichtigung verwendet werden kann. Anwendungsfälle dieser Funktion sind das Herunterladen und Anzeigen mehrerer Medien und das Entschlüsseln aller in der Push-Nutzlast vorhandenen verschlüsselten Daten. Weitere Informationen finden Sie unter [Ändern der Nutzlast einer Remote-Benachrichtigung](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Nur für iOS 10 oder höher) |
-| Inhalt verfügbar | content-available | NA | Wenn Sie diese Option auswählen, wird das Aufwachen einer iOS-App aktiviert, während sie sich im Hintergrund bzw. im Aussetzzustand befindet. Das Aufwachen bedeutet, dass die App im Hintergrund ausgeführt wird und der für den Empfang der Push-Benachrichtigungs-Datennutzlast zuständige Ereignis-Handler ein Steuerelement erhält und die Daten für jede Berechnung verwenden kann, einschließlich, aber nicht darauf beschränkt, benutzerdefinierte Push-Benachrichtigungen zu erstellen und dasselbe anzuzeigen. Weitere Informationen finden Sie unter [Wake up App with Notification Versand](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| URL des Rich-Media-Inhalts (Bilddateien)<br>(nur für Android verfügbar) | NA | media-attachment-url | URL der Bilddateien, um der Benachrichtigung Rich-Content hinzuzufügen. |
-| NA | _mId<br>_dId | _mId <br>_dId | Werte von &quot;extenlogId&quot;und &quot;deliveryId&quot;.<br>Diese Attribute sind erforderlich, wenn Ihre App einen Tracking-Postback aufrufen möchte, der verfolgt werden soll, wenn auf die Push-Benachrichtigung geklickt/geöffnet wurde. Diese Informationen werden intern vom App-Server ohne Benutzereingriff berechnet und gesendet.<br>Informationen zu Postbacks finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| Nachrichtentitel <br>Nachrichtentext | alert → title <br> alert → body | title <br>body | Diese Daten enthalten Details zur Warnmeldung.<br>Die Titel- und Textschlüssel geben den Inhalt der Warnung wieder. |
+| Ton abspielen | sound | sound | Ein benutzerdefinierter Ton, der mit der Warnung wiedergegeben wird. |
+| Badge-Wert | badge | badge | Ein ganzzahliger Wert, der als Badge für das Symbol der App verwendet wird. |
+| Deeplink hinzufügen  | uri | Nicht zutreffend | Mit einem Deeplink gelangen Benutzer direkt zu Inhalten, die in der Anwendung enthalten sind (anstatt eine Webseite zu öffnen). |
+| Kategorie | category | category | So zeigen Sie benutzerdefinierte Aktionen mit einer Remote-Benachrichtigung an. <br>Mit der Kategorietaste kann das System die Aktionen für diese Kategorie als Schaltflächen in der Warnoberfläche anzeigen. |
+| Benutzerdefinierte Felder | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Alle benutzerdefinierten Daten, die Sie an Ihre App senden möchten. |
+| URL für Rich-Media-Daten (Bild-, GIF-, Audio- und Videodateien)<br>(nur bei iOS 10 oder höher) | media-attachment-url | Nicht zutreffend | URL Ihrer Mediendateien, um Ihrer Benachrichtigung Rich-Inhalte hinzuzufügen. <br>Wenn Sie einen Wert für diese URL angeben, wird das Flag für veränderliche Inhalte (mutable-content) automatisch in die Payload gesendet. <br> (nur bei iOS 10 oder höher) |
+| Veränderliche Inhalte <br> (nur bei iOS 10 oder höher) | mutable-content | Nicht zutreffend | Die Notification Service-Erweiterung in Ihrer App &quot;erfasst&quot; alle Remote-Benachrichtigungen mit dem Schlüssel &quot;mutable-content&quot; und ermöglicht Ihnen die Verarbeitung/Bearbeitung des Inhalts der Anfrage-Payload, der dann zum Anpassen der Benachrichtigung verwendet werden kann. Anwendungsbeispiele für diese Funktion sind das Herunterladen und Anzeigen mehrerer Medien, wobei alle in der Push-Payload vorhandenen verschlüsselten Daten entschlüsselt werden. Weiterführende Informationen finden Sie unter [Payload einer Remote-Benachrichtigung ändern](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(nur bei iOS 10 oder höher) |
+| Inhalt verfügbar | content-available | Nicht zutreffend | Wenn Sie diese Option auswählen, wird das Aufwecken einer iOS-App aktiviert, die sie sich im Hintergrund bzw. ausgesetzten Zustand befindet. Aufwecken bedeutet, dass die App im Hintergrund ausgeführt wird und der für den Empfang der Daten-Payload der Push-Benachrichtigung zuständige Event-Handler die Kontrolle erhält und die Daten für beliebige Berechnungen verwenden kann, zum Beispiel zum Erstellen und Anzeigen benutzerdefinierter Push-Benachrichtigungen. Weiterführende Informationen finden Sie unter [App bei Benachrichtigungsversand wecken](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| URL der Rich-Media-Inhalte (Grafikdateien)<br>(nur bei Android verfügbar) | Nicht zutreffend | media-attachment-url | URL der Grafikdateien, um der Benachrichtigung Rich-Inhalte hinzuzufügen. |
+| Nicht zutreffend | _mId<br>_dId | _mId <br>_dId | Werte von &quot;extenlogId&quot; und &quot;deliveryId&quot;.<br>Diese Attribute sind erforderlich, wenn Ihre App einen Tracking-Postback aufrufen möchte, um zu verfolgen, wann die Push-Benachrichtigung angeklickt/geöffnet wurde. Diese Daten werden vom App-Server ohne Benutzereingriff intern berechnet und gesendet.<br>Informationen zu Postbacks finden Sie auf dieser [Seite](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
 
-### So rufen Sie Nutzlastinformationen im Code einer mobilen App ab {#payload-information}
+### So rufen Sie Payload-Daten in Mobile-App-Code ab {#payload-information}
 
-Die Nutzlastinformationen, die vom App-Server gesendet werden, werden vom mobilen App-Code in einem Ereignis-Handler empfangen, der angibt, dass eine Push-Benachrichtigung empfangen wurde. Dieses Ereignis variiert je nach verwendeter Mobilplattform und je nachdem, ob die App im Vordergrund oder Hintergrund ausgeführt wird. Die folgende Dokumentation hilft Ihnen dabei, den Ereignis-Handler zu identifizieren, den Sie je nach Anwendungsfall bearbeiten möchten.
+Die Payload-Daten, die vom App-Server gesendet werden, werden vom Mobile-App-Code in einem Event-Handler empfangen, der mitteilt, dass eine Push-Benachrichtigung empfangen wurde. Dieses Ereignis variiert je nach verwendeter mobiler Plattform und je nachdem, ob die App im Vordergrund oder Hintergrund ausgeführt wird. Die folgende Dokumentation hilft Ihnen dabei, den Event-Handler zu ermitteln, den Sie je nach Anwendungsfall benötigen.
 
-* iOS-Anwendungen: Abschnitt **Umgang mit Remote-Benachrichtigungen** in [Remote-Benachrichtigungen](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
-* Android-Anwendungen: Nachrichten [in einer Android-Client-App empfangen](https://firebase.google.com/docs/cloud-messaging/android/receive)
+* iOS-Apps: Abschnitt **Umgang mit Remote-Benachrichtigungen** in [Remote-Benachrichtigungen](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* Android-Apps: [Empfangen von Nachrichten in einer Android-Client-App](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
-**Beispiel für eine mobile iOS-App**
+**Beispiel für eine iOS-Mobile-App**
 
 ```
  - (void)application:(UIApplication *)application
@@ -259,7 +259,7 @@ didReceiveRemoteNotification:(NSDictionary *)userInfo {
 }
 ```
 
-**Beispiel für die Android Mobile FCM-App**
+**Beispiel für eine Android-Mobile-FCM-App**
 
 ```
 public void onMessageReceived(RemoteMessage message) {
