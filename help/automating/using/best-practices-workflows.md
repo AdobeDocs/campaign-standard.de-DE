@@ -11,8 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+translation-type: tm+mt
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,7 @@ Workflows, die für mehr als sieben Tage ausgesetzt oder fehlgeschlagen waren, w
 
 Auch mit schwebenden Transitionen kann ein Workflow ausgeführt werden. Bei der Ausführung wird einen Warnhinweis erzeugt und der Workflow wird bei Aktivierung einer derartigen Transition ausgesetzt. Es wird jedoch kein Fehler erzeugt. Auf diese Weise ist es möglich, einen Workflow zu starten, auch wenn seine Konzeption noch nicht vollständig abgeschlossen ist, und ihn nach und nach zu vervollständigen.
 
-Weiterführende Informationen finden Sie im Abschnitt zum [Ausführen von Workflows](../../automating/using//executing-a-workflow.md).
+Weiterführende Informationen finden Sie im Abschnitt zum [Ausführen von Workflows](../../automating/using/about-workflow-execution.md).
 
 ### Zeitzone
 
@@ -129,7 +132,7 @@ Adobe Campaign verfügt über unterschiedliche Protokolle, mit deren Hilfe Sie W
 
 Mithilfe von Workflow-Logs können Sie die Ausführung Ihrer Aktivitäten überwachen. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler. Im Protokoll-Tab finden Sie frühere (ausgewählte) Aktivitäten.
 Der Aufgaben-Tab zeigt die Ausführungsabfolge der Aktivitäten. Um mehr Informationen über eine Aktivität zu erhalten, wählen Sie eine Aufgabe aus.
-Weiterführende Informationen dazu finden Sie unter [Workflow-Ausführung überwachen](../../automating/using/executing-a-workflow.md#monitoring).
+Weiterführende Informationen dazu finden Sie unter [Workflow-Ausführung überwachen](../../automating/using/monitoring-workflow-execution.md).
 
 #### Fehlerbehebung bei Datenverwaltungsaktivitäten{#troubleshooting-data-management-activities}
 
@@ -157,4 +160,4 @@ Weiterführende Informationen dazu finden Sie unter [Versandwarnung](../../sendi
 
 **Verwandte Themen:**
 
-* [Umgang mit Fehlern](../../automating/using/executing-a-workflow.md#error-management)
+* [Umgang mit Fehlern](../../automating/using/monitoring-workflow-execution.md)
