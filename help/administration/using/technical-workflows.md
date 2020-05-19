@@ -11,7 +11,7 @@ topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
@@ -23,7 +23,7 @@ Die technischen Workflows sind standardmäßig in Adobe Campaign enthalten. Tech
 
 Hierbei kann es sich beispielsweise um die Wartung der Datenbank, den Abruf von Trackinginformationen oder die Einrichtung von geplanten Versandvorgängen handeln. Der Zugriff auf technische Workflows erfolgt über das Adobe-Campaign-Logo oben links im Bildschirm.
 
-Funktionaladministratoren können über das **[!UICONTROL Administration > Application settings > Workflows]** Menü auf Technischen Workflows zugreifen.
+Funktionale Administratoren können auf technische Workflows über das Menü **[!UICONTROL Administration > Anwendungskonfiguration > Workflows]** zugreifen.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
  <tbody> 
   <tr> 
    <td> <strong>Titel</strong><br /> </td> 
-   <td> <strong>ID</strong><br /> </td> 
+   <td> <strong>Kennung</strong><br /> </td> 
    <td> <strong>Beschreibung</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -99,9 +99,9 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
   </tr> 
     </tr> 
    <tr> 
-   <td> <span class="uicontrol">Mit Start</span> synchronisieren <br /> </td> 
-   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> Dieser Arbeitsablauf synchronisiert die mobilen Adobe Launch-Eigenschaften, die in Adobe Campaign Standard importiert wurden. Es wird alle 15 Minuten gestartet.<br /> </td> 
+   <td> <span class="uicontrol">Mit Launch synchronisieren </span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> Dieser Workflow synchronisiert die Adobe Launch-Eigenschaften für Mobilgeräte, die in Adobe Campaign Standard importiert wurden. Er wird alle 15 Minuten gestartet.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Update der Versandausführung</span> <br /> </td> 
