@@ -11,7 +11,7 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
@@ -35,25 +35,25 @@ Gehen Sie dazu folgendermaßen vor:
 
 Diese Schritte müssen in Adobe Campaign in einer bestimmten Reihenfolge ausgeführt werden, damit alle Parameter ordnungsgemäß aktiviert werden.
 
-## Schritt 1: Bestätigungs-Landingpage erstellen  {#step-1--create-the-confirmation-landing-page}
+## Schritt 1: Bestätigungs-Landingpage erstellen   {#step-1--create-the-confirmation-landing-page}
 
 Um eine Anmeldung mit zweifacher Bestätigung einzurichten, muss zunächst die Bestätigungs-Landingpage erstellt werden: Diese Seite wird angezeigt, wenn ein Besucher die Bestätigungs-E-Mail anklickt, um sich zu registrieren.
 
 Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaßen vor:
 
-1. Design a [new landing page](../../channels/using/getting-started-with-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Geben Sie den Titel &#39;**CONFIRMATION**‘ ein.
+1. Erstellen Sie auf der Basis der Vorlage [Profilakquise (Akquise)](../../channels/using/getting-started-with-landing-pages.md) eine **[!UICONTROL neue Landingpage]**. Geben Sie den Titel &#39;**CONFIRMATION**‘ ein.
 
-   If you need to use [services](../../audiences/using/about-subscriptions.md), you can also use the **[!UICONTROL Subscription (sub)]** template.
+   Wenn Sie [Dienste](../../audiences/using/about-subscriptions.md) benötigen, können Sie auch die Vorlage **[!UICONTROL Abonnement (sub)]** verwenden.
 
-1. Bearbeiten Sie die Eigenschaften der Landingpage und heben Sie unter dem **[!UICONTROL Access and loading]** Abschnitt die Auswahl der Option auf **[!UICONTROL Authorize unidentified visitors]** und wählen Sie **[!UICONTROL Preload visitor data]** (dieser ist nicht obligatorisch).
+1. Bearbeiten Sie die Landingpage-Eigenschaften und deaktivieren Sie im Bereich **[!UICONTROL Zugriff &amp; Ladung]** die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]**. Aktivieren Sie außerdem **[!UICONTROL Vorausfüllen mit Besucherdaten]** (dies ist nicht obligatorisch).
 
    ![](assets/optin_confirmlp_param.png)
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Job]** > **[!UICONTROL Additional data]** auf **[!UICONTROL Add an element]** und geben Sie den folgenden Kontextpfad ein:
+1. Wählen Sie in **[!UICONTROL Vorgang]** > **[!UICONTROL Zusatzdaten]** die Option **[!UICONTROL Element hinzufügen]** aus und geben Sie folgenden Kontextpfad ein:
 
    /context/profile/blackList
 
-   Set the value to **false** and click **[!UICONTROL Add]**.
+   Wählen Sie den Wert **Falsch** und danach **[!UICONTROL Hinzufügen aus]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
@@ -69,66 +69,66 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
 1. [Testen und publizieren](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
-## Schritt 2: Bestätigungs-E-Mail erstellen  {#step-2--create-the-confirmation-email}
+## Schritt 2: Bestätigungs-E-Mail erstellen   {#step-2--create-the-confirmation-email}
 
 Nachdem die Bestätigungs-Landingpage fertig ist, kann die Bestätigungs-E-Mail erstellt werden. Diese E-Mail wird automatisch jedem Besucher gesendet, der die Akquise-Landingpage bestätigt. Diese Bestätigung wird als Ereignis erachtet und die E-Mail gilt als Transaktionsnachricht, die mit einer bestimmten Typologieregel verknüpft ist, wodurch Abmeldungen gehandhabt werden können.
 
 Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Führen Sie sie aus, bevor Sie die Akquise-Landingpage erstellen, da diese auf die E-Mail-Vorlage verweist.
 
-### Ereignis erstellen  {#create-the-event}
+### Ereignis erstellen   {#create-the-event}
 
 Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/about-transactional-messaging.md), da sie auf ein Ereignis reagiert, nämlich die Bestätigung des Formulars. Erstellen Sie zuerst das Ereignis und danach die Vorlage der Transaktionsnachricht.
 
-1. Erstellen Sie ein Ereignis aus dem Menü **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** , das Sie über das Adobe Campaign-Logo aufrufen können, und geben Sie die Bezeichnung &quot;**CONFIRM**&quot;ein.
-1. Wählen Sie die **[!UICONTROL Profile]** Zielgruppendimension aus und klicken Sie auf **[!UICONTROL Create]**.
+1. Greifen Sie über das Adobe Campaign-Logo auf **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]** zu, erstellen Sie ein Ereignis und geben Sie den Titel &#39;**CONFIRM**‘ ein.
+1. Wählen Sie die Zielgruppendimension **[!UICONTROL Profil]** und danach **[!UICONTROL Erstellen]** aus.
 
    ![](assets/optin_eventcreate.png)
 
-1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add the **[!UICONTROL email]** in the data structure to enable reconciliation.
-1. Klicken Sie im **[!UICONTROL Enrichment]** Abschnitt auf **[!UICONTROL Create element]** und wählen Sie die **[!UICONTROL Profile]** Ressource Zielgruppe aus. You can then map on the **[!UICONTROL email]** field in the **[!UICONTROL Join definition]** section, or any other composite reconciliation key, depending on your needs.
+1. Wählen Sie im Bereich **[!UICONTROL Felder]** die Option **[!UICONTROL Element erstellen]** aus und fügen Sie **[!UICONTROL E-Mail]** in der Datenstruktur hinzu, um die Abstimmung zu aktivieren.
+1. Wählen Sie im Bereich **[!UICONTROL Anreicherung]** die Option **[!UICONTROL Element erstellen]** und danach die Zielressource **[!UICONTROL Profile]** aus. Erstellen Sie dann im Bereich **[!UICONTROL Definition des Joins]** ein Mapping über das **[!UICONTROL E-Mail]**-Feld oder je nach Bedarf über einen beliebigen anderen zusammengesetzten Abstimmschlüssel.
 
    ![](assets/optin_eventcreate_join.png)
 
-   If you need to use services, add the **[!UICONTROL Service]** target resource and map on the **[!UICONTROL serviceName]** field. Weiterführende Informationen dazu finden Sie unter .
+   Wenn Sie Dienste verwenden müssen, fügen Sie die Zielressource **[!UICONTROL Dienst]** hinzu und erstellen Sie ein Mapping über das Feld **[!UICONTROL serviceName]**. Weiterführende Informationen dazu finden Sie unter .
 
-1. Wählen Sie **[!UICONTROL Profile]** als **[!UICONTROL Targeting enrichment]** in der Dropdown-Liste aus.
-1. Click **[!UICONTROL Publish]** to publish the event.
+1. Wählen Sie in der Dropdown-Liste für die **[!UICONTROL Zielgruppen-Anreicherung]** die Option **[!UICONTROL Profile]**.
+1. Wählen Sie **[!UICONTROL Publizieren]**, um das Ereignis zu veröffentlichen.
 
 Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die E-Mail-Vorlage erstellen. Diese Vorlage muss einen Link zur zuvor erstellten Landingpage **CONFIRMATION** aufweisen. Weiterführende Informationen dazu finden Sie im Abschnitt [Bestätigungsnachricht erstellen](#design-the-confirmation-message).
 
-### Create the typology {#create-the-typology-rule}
+### Typologie erstellen {#create-the-typology-rule}
 
-You need to create a specific [typology](../../sending/using/about-typology-rules.md), by duplicating an out-of-box one. Die Typologie ermöglicht es, Nachrichten an Profil zu senden, die ihre Zustimmung noch nicht bestätigt haben und noch auf der Blacklist sind. Standardmäßig schließen Typologien Ausschluss-Opt-out-Profil (d. h. auf der Blacklist) aus. Gehen Sie wie folgt vor, um diese Typologie zu erstellen:
+Erstellen Sie eine eigene [Typologie](../../sending/using/about-typology-rules.md) durch Duplizieren einer nativen Typologie. Mit der Typologie können Nachrichten an Profile gesendet werden, die ihre Anmeldung noch nicht bestätigt haben und noch auf der Blacklist stehen. Standardmäßig sind bei Typologien abgemeldete Profile (d. h. Profile auf der Blacklist) ausgeschlossen. Gehen Sie wie folgt vor, um eine solche Typologie zu erstellen:
 
-1. Wählen Sie im Adobe Campaign-Logo **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** und klicken Sie auf **[!UICONTROL Typologies]**.
-1. Duplikat der vordefinierten Typologie **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
+1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Optionen **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** und nochmals **[!UICONTROL Typologien]**.
+1. Duplizieren Sie die Standardtypologie **[!UICONTROL Transaktionsnachricht zum Profil (mcTypologyProfile)]**.
 1. Bearbeiten Sie danach die neue Typologie und geben Sie den Titel **TYPOLOGY_PROFILE** ein.
 1. Entfernen Sie die Regel **Adresse auf der Blacklist**.
-1. Klicks **[!UICONTROL Save]**.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 Diese Typologie kann jetzt mit der Bestätigungs-E-Mail verknüpft werden.
 
-### Bestätigungsnachricht erstellen  {#design-the-confirmation-message}
+### Bestätigungsnachricht erstellen   {#design-the-confirmation-message}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf einem zuvor erstellen Ereignis basiert. Führen Sie die folgenden Schritte aus, um eine solche Nachricht zu erstellen:
 
-1. Wählen Sie im Adobe Campaign-Logo **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** und klicken Sie auf **[!UICONTROL Transactional messages]**.
+1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Option **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** und nochmals **[!UICONTROL Transaktionsnachrichten]**.
 1. Bearbeiten Sie die E-Mail-Vorlage **CONFIRM** und personalisieren Sie sie. Sie können einen vorhandenen Inhalt hochladen oder eine Standardvorlage verwenden.
-1. Add a link to the **CONFIRMATION** landing page, and click **[!UICONTROL Confirm]** to save modifications.
+1. Fügen Sie einen Link zur Landingpage **CONFIRMATION** hinzu und wählen Sie dann **[!UICONTROL Bestätigen]**, um die Änderungen zu speichern.
 
    ![](assets/optin_email_selectlp.png)
 
-1. Bearbeiten Sie die Eigenschaften der E-Mail-Vorlage. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section, select the **TYPOLOGY_PROFILE** typology created before.
+1. Bearbeiten Sie die Eigenschaften der E-Mail-Vorlage. Wählen Sie im Bereich **[!UICONTROL Erweiterte Parameter]** > **[!UICONTROL Vorbereitung]** die zuvor erstellte Typologie **TYPOLOGY_PROFILE**.
 1. Speichern und publizieren Sie die Transaktionsnachricht.
 
-## Schritt 3: Akquise-Landingpage erstellen  {#step-3--create-the-acquisition-landing-page}
+## Schritt 3: Akquise-Landingpage erstellen   {#step-3--create-the-acquisition-landing-page}
 
 Erstellen Sie die ursprüngliche Akquise-Landingpage. Sie enthält ein Anmeldeformular, das daraufhin auf Ihrer Website veröffentlicht wird.
 
 Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaßen vor:
 
-1. Design a [new landing page](../../channels/using/getting-started-with-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Geben Sie den Titel &#39;**ACQUISITION**‘ ein.
-1. Bearbeiten Sie die Eigenschaften der Landingpage: Klicken Sie im Abschnitt **[!UICONTROL Job]** > **[!UICONTROL Additional data]** auf **[!UICONTROL Add an element]** und geben Sie den folgenden Kontextpfad ein:
+1. Erstellen Sie auf der Basis der Vorlage [Profilakquise (Akquise)](../../channels/using/getting-started-with-landing-pages.md) eine **[!UICONTROL neue Landingpage]**. Geben Sie den Titel &#39;**ACQUISITION**‘ ein.
+1. Bearbeiten Sie die Eigenschaften der Landingpage: Wählen Sie in **[!UICONTROL Vorgang]** > **[!UICONTROL Zusatzdaten]** die Option **[!UICONTROL Element hinzufügen]** aus und geben Sie folgenden Kontextpfad ein:
 
    /context/profile/blackList
 
@@ -136,7 +136,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    Dies ist nötig, damit Besucher, die ihre Anmeldung noch nicht bestätigt haben, auf die Blacklist gesetzt werden und keine Nachrichten erhalten. Durch die Bestätigung der CONFIRMATION-Landingpage erhält dieses Feld den Wert **Falsch**. Weiterführende Informationen dazu finden Sie unter [Schritt 1: Bestätigungs-Landingpage erstellen](#step-1--create-the-confirmation-landing-page).
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** die Option aus **[!UICONTROL Start sending messages]**.
+1. Wählen Sie im Bereich **[!UICONTROL Job]** > **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Absendung einer Nachricht auslösen]**.
 1. Wählen Sie in der dazugehörigen Dropdown-Liste die von Ihnen erstellte Transaktionsnachrichtenvorlage **CONFIRM** aus.
 
    ![](assets/optin_acquisition_startoption.png)
