@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 292f4f65f2e0597ff4dc36ab3222551ab40cbafb
+source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 99%
@@ -46,7 +46,7 @@ Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in 
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>May 25 - 26, 2020<br /> </td>
+   <td>May 26 - 27, 2020<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
