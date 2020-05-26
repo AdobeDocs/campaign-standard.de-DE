@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
@@ -26,7 +26,7 @@ In Adobe Campaign dienen Profile standardmäßig der Bestimmung der Hauptzielgru
 
 Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 
-* Import einer Profilliste von einer Datei über einen [Workflow](../../automating/using/importing-data.md#example--import-workflow-template)
+* Import einer Profilliste von einer Datei über einen [Workflow](../../automating/using/creating-import-workflow-templates.md)
 * Datenerhebung online über [Landingpages](../../channels/using/getting-started-with-landing-pages.md)
 * Im Bulk-Modus über die [REST-API](../../api/using/get-started-apis.md)
 * Synchronisieren von Profilen in [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
@@ -71,4 +71,4 @@ Profile können nach Organisationseinheiten partitioniert werden. Informationen 
 **Verwandte Themen:**
 
 * [Über Landingpages](../../channels/using/getting-started-with-landing-pages.md)
-* [Profilimport](https://video.tv.adobe.com/v/24993?captions=ger) Video
+* [Profilimport](https://video.tv.adobe.com/v/24993?captions=ger)  Video
