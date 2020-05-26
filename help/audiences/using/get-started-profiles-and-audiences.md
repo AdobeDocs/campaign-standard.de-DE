@@ -12,7 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 70%
 
 ---
 
@@ -22,8 +25,8 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">Segmentierung und Targeting</a></p></td>
-<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">Genehmigung</a></p></td>
-<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Datenschutzbestimmungen</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">Einverständnis der Benutzer</a></p></td>
+<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Einhaltung von Datenschutzbestimmungen</a></p></td></tr>
 </table>
 
 Kampagne-integrierte Kundenlösungen ermöglichen es Ihnen, jede Interaktion mit Kunden innerhalb einer Ansicht über alle Kanal hinweg zu verfolgen, sodass Sie Ihren Kunden relevante und personalisierte Nachrichten zukommen lassen können.
@@ -55,11 +58,11 @@ mehr dazu:
 * [Über Audiences](../../audiences/using/about-audiences.md)
 * [Audience in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-## Genehmigung {#permission}
+## Einverständnis der Benutzer {#permission}
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-Bevor Sie mit dem Senden von Nachrichten an einen Kontakt beginnen, müssen Sie sicherstellen, dass Sie dessen Erlaubnis erhalten. Andernfalls könnten Ihre E-Mails als Spam gekennzeichnet werden, was Ihre Plattform-Zustellbarkeit beeinträchtigt. Um eine funktionierende Profildatenbank aufzubauen, ist es daher wichtig, sich diese Zustimmung im Vorfeld zu sichern.
+Bevor Sie einem Kontakt Nachrichten senden, müssen Sie sicherstellen, dass Sie sein Einverständnis dazu haben. Andernfalls könnten Ihre E-Mails als Spam gekennzeichnet werden, was Ihre Plattform-Zustellbarkeit beeinträchtigt. Um eine funktionierende Profildatenbank aufzubauen, ist es daher wichtig, sich diese Zustimmung im Vorfeld zu sichern.
 
 With Campaign, we recommend you to use **easy opt-in and opt-out mechanisms** through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
 
@@ -67,20 +70,20 @@ Providing **unsubscription links** in your messages will enable Profiles to be b
 
 >[!IMPORTANT]
 >
->Sie müssen die [Adobe Campaign-Nutzungsrichtlinie](https://www.adobe.com/de/legal/terms/aup.html)beachten.
+>Sie müssen die [Adobe Campaign-Nutzungsbedingungen](https://www.adobe.com/de/legal/terms/aup.html) beachten.
 
 mehr dazu:
 
 * [Über Abonnements](../../audiences/using/about-subscriptions.md)
 * [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Datenschutzbestimmungen {#privacy}
+## Einhaltung von Datenschutzbestimmungen {#privacy}
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
 Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
 
-Erfahren Sie mehr in diesem [Artikel](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html) über Datenschutzverwaltung und die Funktionen, die wir zur Verwaltung von Zugriffsrechten, Zugriffsrechten, Einwilligung, Datenspeicherung und Benutzerrollen bereitstellen.
+In diesem [Artikel](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html) erfahren Sie mehr über die Datenschutzverwaltung und die Funktionen, die wir zur Verwaltung von Recht auf Zugriff, Recht auf Vergessenwerden, Einwilligung, Datenspeicherung und Benutzerrollen bereitstellen.
 
 Datenschutz und Zustimmung in Kampagne und wie sie zu verwalten sind in [diesem Abschnitt](../../start/using/privacy.md)dargestellt.
 
@@ -88,8 +91,8 @@ Darüber hinaus finden Sie Best Practices, die Ihnen bei der Einhaltung Ihrer Da
 
 ## Zusätzliche Ressourcen
 
-* [Arbeiten mit dem Audience Destination-Dienst](../../audiences/using/aep-about-audience-destinations-service.md)
-* [Arbeiten mit Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Adobe Shared Audiencen](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [Verwenden von Workflows zum Importieren von Profilen](../../automating/using/importing-data.md)
+* [Audience Destinations-Dienst verwenden](../../audiences/using/aep-about-audience-destinations-service.md)
+* [Microsoft Dynamics 365 verwenden](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Mit Adobe geteilte Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Workflows zum Importieren von Profilen verwenden](../../automating/using/creating-import-workflow-templates.md)
 * [Videos zu Profile und Audiencen](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
