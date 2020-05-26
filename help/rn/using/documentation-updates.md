@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '5835'
+source-wordcount: '5837'
 ht-degree: 97%
 
 ---
@@ -584,7 +584,7 @@ Der Abschnitt [Transaktionsnachrichten konfigurieren](../../administration/using
 
 Eine Technote wurde hinzugefügt, in der erklärt wird, wie eine mehrsprachige CSV-Datei für Push-Benachrichtigungen erstellt wird – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/acs-generate-csv-multilingual-push.html)
 
-Informationen zur Importvorlage **Aktualisierung von Briefpost-Quarantänen und Versandlogs** wurden hinzugefügt – [mehr dazu](../../automating/using/defining-import-templates.md)
+Informationen zur Importvorlage **Aktualisierung von Briefpost-Quarantänen und Versandlogs** wurden hinzugefügt – [mehr dazu](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 Die Liste der technischen Workflows wurde aktualisiert – [mehr dazu](../../administration/using/technical-workflows.md)
 
@@ -616,7 +616,7 @@ Der Abschnitt über **[!UICONTROL die Verwendung von Typologien]** wurde übersi
 
 Eine neue Option ist jetzt verfügbar, mit der die Leistung gesteigert werden kann, wenn in einer **[!UICONTROL Abfrage]** zahlreiche Zusatzdaten definiert werden – [mehr dazu](../../automating/using/query.md)
 
-Das Beispiel für den Profilimport wurde aktualisiert und enthält jetzt Tipps, wie Sie Ihre Profile für den Empfang von Briefpost konfigurieren können – [mehr dazu](../../automating/using/importing-data.md)
+Das Beispiel für den Profilimport wurde aktualisiert und enthält jetzt Tipps, wie Sie Ihre Profile für den Empfang von Briefpost konfigurieren können – [mehr dazu](../../automating/using/about-data-import-and-export.md)
 
 In Workflows ist eine neue Aktivität verfügbar: die Aktivität **[!UICONTROL Anreicherung]**. – [mehr dazu](../../automating/using/enrichment.md)
 
@@ -818,7 +818,7 @@ Integration von Dreamweaver live – [mehr dazu](https://docs.adobe.com/content/
 
 Ein Abschnitt zu den unterschiedlichen Typen von Adobe Campaign-Benutzern wurde hinzugefügt – [mehr dazu](../../administration/using/users-management.md)
 
-Das Workflow-Handbuch wurde umstrukturiert und erweitert. Dies ermöglicht das einfache Auffinden von Informationen zum [Erstellen](../../automating/using/building-a-workflow.md) und [Ausführen](../../automating/using/about-workflow-execution.md) eines Workflows, zur [Zielgruppenauswahl](../../automating/using/targeting-data.md) und [Verwaltung](../../automating/using/targeting-data.md#enriching-data) Ihrer Daten, zum [Import](../../automating/using/importing-data.md) von Daten und [zur Nutzung von Workflow-Daten](../../automating/using/using-workflow-data.md) für die Aktualisierung der Datenbank oder für den Versand.
+Das Workflow-Handbuch wurde umstrukturiert und erweitert. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 Die Indikatorberechnung ist jetzt für dynamische Berichte verfügbar, einschließlich einer vollständigen Beschreibung und der Berechnungsformel – [mehr dazu](../../reporting/using/indicator-calculation.md)
 
