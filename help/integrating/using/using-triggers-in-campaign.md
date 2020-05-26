@@ -11,8 +11,11 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+translation-type: tm+mt
+source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ## In Campaign einen gemappten Trigger erstellen {#creating-a-mapped-trigger-in-campaign}
 
-Stellen Sie sicher, dass die Verhaltensweisen, die Sie verfolgen möchten, im Vorhinein in Adobe Experience Cloud (**[!UICONTROL Triggers]**Core Service) definiert wurden. Weiterführende Informationen finden Sie in der[Dokumentation zur Adobe Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/triggers.html). Beachten Sie, dass bei der Definition von Triggern die Alias aktiviert werden müssen. In Adobe Experience Cloud muss für jedes Verhalten (abgebrochener Webseitenbesuch/Formularabbruch, hinzugefügter/entfernter Artikel, abgelaufene Sitzung etc.) ein neuer Trigger hinzugefügt werden.
+Stellen Sie sicher, dass die Verhaltensweisen, die Sie verfolgen möchten, im Vorhinein in Adobe Experience Cloud (**[!UICONTROL Triggers]** Core Service) definiert wurden. Weiterführende Informationen finden Sie in der [Dokumentation zur Adobe Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/triggers.html). Beachten Sie, dass bei der Definition von Triggern die Alias aktiviert werden müssen. In Adobe Experience Cloud muss für jedes Verhalten (abgebrochener Webseitenbesuch/Formularabbruch, hinzugefügter/entfernter Artikel, abgelaufene Sitzung etc.) ein neuer Trigger hinzugefügt werden.
 
 In Adobe Campaign ist nun ein auf einem bereits vorhandenen Trigger der Adobe Experience Cloud basierendes Trigger-Ereignis zu erstellen.
 
@@ -29,11 +32,11 @@ In diesem [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-market
 
 Gehen Sie hierzu wie folgt vor:
 
-1. Verwenden Sie das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen**[!UICONTROL  Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]**>**[!UICONTROL  Experience Cloud Triggers]**.
+1. Verwenden Sie das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
-1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus. Im sich öffnenden Assistenten wird die Liste aller in Adobe Experience Cloud definierten Trigger angezeigt. In der Spalte**[!UICONTROL  Anzahl an Übermittlungen von Analytics]** wird die Anzahl an Ereignissen angezeigt, die vom Trigger in Adobe Experience Cloud an Adobe Campaign gesendet wurden. Hierbei handelt es sich um ein Mapping der in der Experience Cloud-Benutzeroberfläche erstellten Trigger.
+1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus. Im sich öffnenden Assistenten wird die Liste aller in Adobe Experience Cloud definierten Trigger angezeigt. In der Spalte **[!UICONTROL Anzahl an Übermittlungen von Analytics]** wird die Anzahl an Ereignissen angezeigt, die vom Trigger in Adobe Experience Cloud an Adobe Campaign gesendet wurden. Hierbei handelt es sich um ein Mapping der in der Experience Cloud-Benutzeroberfläche erstellten Trigger.
 
    ![](assets/remarketing_2.png)
 
@@ -43,19 +46,18 @@ Gehen Sie hierzu wie folgt vor:
 
    ![](assets/remarketing_3.png)
 
-1. Definieren Sie im Feld **[!UICONTROL Gültigkeitsdauer der Transaktionsnachricht]**die Dauer, für welche die Nachricht nach dem Versand des Ereignisses durch Analytics gültig sein soll. Bei einer definierten Dauer von 2 Tagen wird die Nachricht nach Ablauf dieses Zeitraums nicht länger gesendet. Dies stellt sicher, dass Nachrichten, deren Versand ausgesetzt wurde, nach Ablauf der festgesetzten Dauer nicht mehr gesendet werden, auch wenn der Versand wieder aufgenommen wird.
+1. Definieren Sie im Feld **[!UICONTROL Gültigkeitsdauer der Transaktionsnachricht]** die Dauer, für welche die Nachricht nach dem Versand des Ereignisses durch Analytics gültig sein soll. Bei einer definierten Dauer von 2 Tagen wird die Nachricht nach Ablauf dieses Zeitraums nicht länger gesendet. Dies stellt sicher, dass Nachrichten, deren Versand ausgesetzt wurde, nach Ablauf der festgesetzten Dauer nicht mehr gesendet werden, auch wenn der Versand wieder aufgenommen wird.
 
    ![](assets/remarketing_4.png)
 
-1. Wenn in Analytics eine Konversionsrate (bzw. Tendenzauswertung) definiert wurde (siehe [Produktdokumentation zur Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/insight/client/c_visitor_propensity.html)), können Sie entscheiden, die Nachricht nicht zu senden, wenn eine hohe Wahrscheinlichkeit besteht, dass der Kunde in naher Zukunft auf die Webseite zurückkehren wird. Die Raten- und Schwellenwerte sind im Payload-Inhalt verfügbar, sodass Sie diese zur Nachrichtenpersonalisierung verwenden können. Aktivieren Sie zur Verwendung dieser Option die entsprechende Checkbox im unteren Teil des Bildschirms. Kunden, bei denen eine hohe Wahrscheinlichkeit besteht, dass sie in naher Zukunft auf die Webseite zurückkehren, werden keine Nachricht erhalten.
 1. Verwenden Sie die **[!UICONTROL Publizieren]**-Schaltfläche, um die Publikation des Trigger-Ereignisses zu starten.
-1. Wenn Sie nach dem Publizieren Ihres Trigger-Ereignisses das Trigger-Schema verändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Schema aktualisieren]**aus, um die letzten Änderungen abzurufen.
+1. Wenn Sie nach dem Publizieren Ihres Trigger-Ereignisses das Trigger-Schema verändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Schema aktualisieren]** aus, um die letzten Änderungen abzurufen.
 
    Bitte beachten Sie, dass durch diese Aktion Ihr Trigger und Ihre Transaktionsnachricht depubliziert werden und Sie diese danach wieder publizieren müssen.
 
    ![](assets/remarketing_11.png)
 
-Mithilfe der Schaltfläche **[!UICONTROL Trigger in Experience Cloud anzeigen]**können Sie die Trigger-Definition in Adobe Experience Cloud einsehen.
+Mithilfe der Schaltfläche **[!UICONTROL Trigger in Experience Cloud anzeigen]** können Sie die Trigger-Definition in Adobe Experience Cloud einsehen.
 
 Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsvorlage erzeugt. Diese Vorlage muss nun bearbeitet und publiziert werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen bearbeiten](../../start/using/marketing-activity-templates.md).
 
@@ -69,7 +71,7 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 >
 >Bei der Depublikation der Vorlage wird automatisch auch das Trigger-Ereignis depubliziert.
 
-Im Zuge der Erstellung von Nachrichteninhalten haben Sie nun die Möglichkeit, Personalisierungsfelder zu verwenden, die auf vom Analytics-Trigger gesendeten Informationen beruhen. Wenn Sie die Ereignisdaten mit Profildaten aus Adobe Campaign anreichern, können Sie die Nachricht mittels dieser Informationen personalisieren. Um Ihre Nachricht zu personalisieren, wählen Sie im Knoten **[!UICONTROL Transaktionsereignis]**>**[!UICONTROL  Ereignis-Kontext]** das gewünschte Feld aus.
+Im Zuge der Erstellung von Nachrichteninhalten haben Sie nun die Möglichkeit, Personalisierungsfelder zu verwenden, die auf vom Analytics-Trigger gesendeten Informationen beruhen. Wenn Sie die Ereignisdaten mit Profildaten aus Adobe Campaign anreichern, können Sie die Nachricht mittels dieser Informationen personalisieren. Um Ihre Nachricht zu personalisieren, wählen Sie im Knoten **[!UICONTROL Transaktionsereignis]** > **[!UICONTROL Ereignis-Kontext]** das gewünschte Feld aus.
 
 ![](assets/remarketing_8.png)
 
