@@ -11,8 +11,11 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 31215773-6c0c-48f1-9101-da0ea2a366da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 0deabe17442b679a340a4497945837b83b4c9207
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
@@ -25,14 +28,15 @@ Je nach Ihren Anforderungen haben Sie mehrere Möglichkeiten, Daten mit Adobe Ca
 * **Listen**: Alle Listenfenster können konfiguriert und die angezeigten Daten können in eine Datei exportiert werden.
 * **Workflows**: Hier erfolgt der Import von Daten über Dateien, mit denen die Datenbank aktualisiert oder E-Mails gesendet werden können. Sie können auch Daten auswählen und in Dateien exportieren. Workflows sind die beste Möglichkeit, regelmäßige Aktualisierungen, wie etwa Profilimporte, automatisch durchzuführen.
 
-Bei der Erstellung von Importprozessen empfiehlt es sich, Workflow-Vorlagen zu verwenden, die Sie nach Ihren Bedürfnissen anpassen können. Weiterführende Informationen zum Einrichten einer Workflow-Vorlage zum Importieren von Daten finden Sie in [diesem Anwendungsbeispiel](../../automating/using/importing-data.md#example--import-workflow-template).
+   * Die Aktivität **[!UICONTROL Datei laden]** erlaubt den Import von strukturierten Dateidaten, um diese in Adobe Campaign verwenden zu können. Die importierten Daten werden nur vorübergehend gespeichert und erfordern die Verwendung einer weiteren Workflow-Aktivität, um definitiv in die Adobe Campaign-Datenbank integriert zu werden. Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/load-file.md).
+   * Die **[!UICONTROL Dateiübertragung]** dient dem Empfang und Versand von Dateien. Sie ermöglicht es zudem, das Vorhandensein von Dateien zu testen und die in Adobe Campaign enthaltenen Dateien aufzulisten. Sie können diese Aktivität vor der Aktivität **[!UICONTROL Datei laden]** verwenden, um die Datei von einer externen Quelle abzurufen. Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/transfer-file.md).
+
+Bei der Erstellung von Importprozessen empfiehlt es sich, Workflow-Vorlagen zu verwenden, die Sie nach Ihren Bedürfnissen anpassen können. Weiterführende Informationen zum Einrichten einer Workflow-Vorlage zum Importieren von Daten finden Sie in [diesem Anwendungsbeispiel](../../automating/using/creating-import-workflow-templates.md).
 
 Adobe Campaign bietet auch eine einfache Möglichkeit, regelmäßige Importe durch die Erstellung von **Importvorlagen** durchzuführen. Importvorlagen sind Workflow-Vorlagen, die über ein spezielles Fenster abrufbar sind. Nach ihrer Erstellung muss der Benutzer, der den Import durchführt, nur mehr die zu importierende Datei in einer vereinfachten Ansicht hochladen.
 
 **Verwandte Themen**:
 
 * [Datenimport mit Importvorlagen](../../automating/using/importing-data-with-import-templates.md)
-* [Importvorlagen konfigurieren](../../automating/using/defining-import-templates.md)
+* [Importvorlagen konfigurieren](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 * [Package-Verwaltung](../../automating/using/managing-packages.md)
-* [Daten importieren](../../automating/using/importing-data.md)
-
