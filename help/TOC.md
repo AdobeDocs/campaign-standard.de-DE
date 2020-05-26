@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 92%
 
 ---
@@ -253,9 +253,6 @@ ht-degree: 92%
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
       + [Workflow-Oberfläche](automating/using/workflow-interface.md)
       + [Workflow erstellen](automating/using/building-a-workflow.md)
-      + [Zielgruppendaten](automating/using/targeting-data.md)
-      + [Daten importieren](automating/using/importing-data.md)
-      + [Workflow-Daten verwenden](automating/using/using-workflow-data.md)
       + [Best Practices bei Workflows](automating/using/best-practices-workflows.md)
    + Workflow ausführen {#executing-a-workflow}
       + [Über die Ausführung von Workflows](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [Funktionsliste](automating/using/list-of-functions.md)
    + Datenimport und -export {#importing-and-exporting-data}
       + [Über den Datenimport und -export](automating/using/about-data-import-and-export.md)
+      + [Best Practices beim Datenimport](automating/using/import-best-practices.md)
       + [Datenimport mit Importvorlagen](automating/using/importing-data-with-import-templates.md)
-      + [Importvorlagen konfigurieren](automating/using/defining-import-templates.md)
+      + [Erstellen von Workflow-Vorlagen zum Importieren von Daten](automating/using/creating-import-workflow-templates.md)
+      + [Verwalten verschlüsselter Daten](automating/using/managing-encrypted-data.md)
       + [Logs exportieren](automating/using/exporting-logs.md)
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
