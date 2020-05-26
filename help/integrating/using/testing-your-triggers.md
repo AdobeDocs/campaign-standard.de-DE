@@ -11,8 +11,11 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Die folgenden Tipps zur Fehlerbehebung helfen Ihnen, die häufigsten Probleme be
 
 **Ist die Funktion aktiviert?**
 
-Um zu überprüfen, ob die Integration von Triggers mit Campaign aktiviert ist, wählen Sie das Adobe-Campaign-Logo in der oberen linken Ecke und danach **[!UICONTROL Marketingpläne]** &gt; **[!UICONTROL Transaktionsnachrichten]**. Das Element **[!UICONTROL Experience Cloud Triggers]** sollte sichtbar werden.
+Um zu überprüfen, ob die Integration von Triggers mit Campaign aktiviert ist, wählen Sie das Adobe Campaign-Logo in der oberen linken Ecke und danach **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]**. Das Element **[!UICONTROL Experience Cloud Triggers]** sollte sichtbar werden.
 
 Ist dies der Fall, fahren Sie mit dem nächsten Schritt fort.
 
@@ -69,12 +72,11 @@ Wenn er empfangen wurde, folgen Sie diesen Schritten:
 * Ersuchen Sie Adobe, die Campaign-Instanz nach der Konfiguration der Datenquelle neu zu starten.
 * Überprüfen Sie im Trigger-Bericht Probleme beim Parsen von Triggern.
 
-**Befindet sich der Trigger im Status "ausstehend"?**
+**Befindet sich der Trigger im Status &quot;ausstehend&quot;?**
 
 Wenn nicht, fahren Sie mit dem nächsten Schritt fort. Wenn ja, folgen Sie diesen Schritten:
 
 * Überprüfen Sie, ob die Transaktionsvorlage publiziert ist.
-* Wenn die propensityScore-Schwelle für Campaign aktiviert ist, überprüfen Sie in der Pipeline die Auswertung für den Trigger.
 * Stellen Sie sicher, dass das Profil nicht auf der Blacklist steht.
 * Überprüfen Sie die Anwendung der Typologieregeln.
 * Überprüfen Sie die Logs der Transaktionsnachricht.
