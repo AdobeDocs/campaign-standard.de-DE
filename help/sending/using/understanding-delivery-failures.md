@@ -11,8 +11,11 @@ topic-tags: monitoring-messages
 discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
+translation-type: tm+mt
+source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 86%
 
 ---
 
@@ -56,27 +59,23 @@ Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
 
 Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
-* **[!UICONTROL Unbekannter Nutzer]** (Hardbounce): Die Adresse existiert nicht. An dieses Profil werden keine weiteren Zustellversuche unternommen.
-* **[!UICONTROL Adresse in Quarantäne]** (Hardbounce): Die Adresse wurde unter Quarantäne gestellt.
-* **[!UICONTROL Unerreichbar]** (Softbounce/Hardbounce): Ein in der Verteilungskette der Nachricht aufgetretener Fehler (zum Beispiel zeitweilig unerreichbare Domain). Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat.
-* **[!UICONTROL Adresse leer]** (Hardbounce): Die Adresse ist nicht definiert.
-* **[!UICONTROL Postfach voll]** (Softbounce): Das Postfach eines Benutzers ist voll und kann keine Nachrichten mehr aufnehmen. Die Adresse kann aus der Quarantäne genommen werden, um einen erneuten Zustellversuch zu unternehmen. Diese Liste wird automatisch nach 30 Tagen entfernt.
-
-   Damit die Adresse automatisch aus der Quarantäne genommen werden kann, muss der technische Workflow **[!UICONTROL Datenbankbereinigung]** gestartet sein.
-
-* **[!UICONTROL Zurückgewiesen]** (Softbounce/Hardbounce): Die Adresse wurde wegen eines Sicherheits-Feedbacks unter Quarantäne gestellt, da die Nachricht als Spam gemeldet wurde. Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat.
-* **[!UICONTROL Dublette]**: Die Adresse wurde in der Segmentierung bereits erkannt.
-* **[!UICONTROL Unbestimmt]** (Softbounce): Die Qualifikation der Adresse ist noch nicht abgeschlossen, da die Fehler noch nicht inkrementiert wurden.
-
-   Dieser Fehlertyp tritt auf, wenn der Server eine bis dahin unbekannte Fehlermeldung sendet: Hierbei kann es sich um einen einmaligen Fehler handeln. Sollte er sich jedoch wiederholen, wird der Fehlerzähler erhöht, was die zuständigen technischen Mitarbeiter auf das Problem aufmerksam macht.
-
-* **[!UICONTROL Fehler ignoriert]**: Die Adresse ist auf der Whitelist und erhält E-Mail-Sendungen.
-* **[!UICONTROL Adresse auf der Blacklist]**: Zum Zeitpunkt des Versands war die Adresse auf der Blacklist.
-* **[!UICONTROL Konto deaktiviert]** (Softbounce/Hardbounce): Wenn das Konto längere Zeit nicht abgefragt wird, kann es vom Internetanbieter geschlossen werden, was den Versand an diese Empfängeradresse unmöglich macht. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]** zugewiesen und der Zustellversuch wird wiederholt. Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt.
-* **[!UICONTROL Nicht angemeldet]**: Mobiltelefon des Profils war bei Versand der Nachricht ausgeschaltet oder verfügte über keinen Netzempfang.
-* **[!UICONTROL Ungültige Domain]** (Softbounce): Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt.
-* **[!UICONTROL Text zu lang]**: Die Zeichenzahl der SMS-Nachricht übersteigt das Limit. Weiterführende Informationen dazu finden Sie im Abschnitt [Kodierung, Länge und Tansliteration von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
-* **[!UICONTROL Zeichen wird in der Kodierung nicht unterstützt]**: Die SMS enthält mindestens ein Zeichen, das in der Kodierung nicht unterstützt wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Zeichensatztabelle - GSM-Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+| Bezeichnung des Fehlers | Fehlertyp | Beschreibung |
+---------|----------|---------
+| **[!UICONTROL Unbekannter Nutzer]** | Hard | Die Adresse existiert nicht. An dieses Profil werden keine weiteren Zustellversuche unternommen. |
+| **[!UICONTROL Adresse in Quarantäne]** | Hard | Die Adresse wurde unter Quarantäne gestellt. |
+| **[!UICONTROL Unerreichbar]** | Softbounce / Hardbounce | In der Meldungskette (z. B. Domäne vorübergehend unerreichbar) ist ein Versand aufgetreten. Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
+| **[!UICONTROL Adresse leer]** | Hard | Die Adresse ist nicht definiert. |
+| **[!UICONTROL Postfach voll]** | Soft | Die Mailbox dieses Benutzers ist voll und kann keine weiteren Nachrichten akzeptieren. Die Adresse kann aus der Quarantäne genommen werden, um einen erneuten Zustellversuch zu unternehmen. Diese Liste wird automatisch nach 30 Tagen entfernt. Damit die Adresse automatisch aus der Quarantäne genommen werden kann, muss der technische Workflow **[!UICONTROL Datenbankbereinigung]** gestartet sein. |
+| **[!UICONTROL Zurückgewiesen]** | Softbounce / Hardbounce | Die Adresse wurde in Quarantäne gesetzt, weil ein Sicherheitsfeedback als Spam-Bericht vorliegt. Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
+| **[!UICONTROL Dublette]** | Ignoriert | Die Adresse wurde bereits in der Segmentierung erkannt. |
+| **[!UICONTROL Unbestimmt]** | Soft | die Adresse ist qualifiziert, da die Fehler noch nicht inkrementiert wurden. Dieser Fehlertyp tritt auf, wenn der Server eine bis dahin unbekannte Fehlermeldung sendet: Hierbei kann es sich um einen einmaligen Fehler handeln. Sollte er sich jedoch wiederholen, wird der Fehlerzähler erhöht, was die zuständigen technischen Mitarbeiter auf das Problem aufmerksam macht. |
+| **[!UICONTROL Fehler ignoriert]** | Ignoriert | Die Adresse befindet sich in der Whitelist und wird in jedem Fall per E-Mail gesendet. |
+| **[!UICONTROL Adresse auf der Blacklist]** | Hard | die Adresse zum Zeitpunkt der Versendung auf der Blacklist war. |
+| **[!UICONTROL Konto deaktiviert]** | Softbounce / Hardbounce | Wenn der Internet Access Provider (IAP) eine längere Inaktivität feststellt, kann das Konto des Benutzers geschlossen werden: Versände an die Adresse des Benutzers sind dann nicht mehr möglich. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]** zugewiesen und der Zustellversuch wird wiederholt. Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt. |
+| **[!UICONTROL Nicht angemeldet]** | Ignoriert | Das Handy des Profils wird ausgeschaltet oder nicht mit dem Netzwerk verbunden, wenn die Nachricht gesendet wird. |
+| **[!UICONTROL Ungültige Domain]** | Soft | Die Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
+| **[!UICONTROL Text zu lang]** | Ignoriert | Die Anzahl der Zeichen in der SMS überschreitet den Grenzwert. Weiterführende Informationen dazu finden Sie im Abschnitt [Kodierung, Länge und Tansliteration von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
+| **[!UICONTROL Von der Kodierung nicht unterstützte Zeichen]** | Ignoriert | Die SMS-Nachricht enthält ein oder mehrere Zeichen, die von der Kodierung nicht unterstützt werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Zeichensatztabelle - GSM-Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
 ## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand    {#retries-after-a-delivery-temporary-failure}
 
