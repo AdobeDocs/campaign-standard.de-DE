@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '5837'
-ht-degree: 97%
+source-wordcount: '5870'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 97%
 # Aktualisierungen der Dokumentation{#documentation-updates}
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
+
+## Aktualisierungen der Dokumentation - Juni 2020 {#doc-updates-june-2020}
+
+Campaign Standard - Die Microsoft Dynamics 365-Integration ist derzeit nicht verfügbar. Es wird ein neuer Anschluss entwickelt, der in Zukunft verfügbar sein wird. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
 
 ## Aktualisierungen der Dokumentation - Mai 2020 {#doc-updates-may-2020}
 
