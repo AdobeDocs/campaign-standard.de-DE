@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
+source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 92%
+source-wordcount: '1403'
+ht-degree: 93%
 
 ---
 
@@ -239,15 +239,7 @@ ht-degree: 92%
       + [Trigger testen](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + Campaign Standard und Microsoft Dynamics 365 verwenden {#working-with-campaign-standard-and-ms-dynamics}
-         + [Erste Schritte mit Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [Informationen zur Microsoft Dynamics 365-Integration](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Microsoft Dynamics 365-Integration anfordern und konfigurieren](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Verwenden der Microsoft Dynamics 365-Integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Adobe IO für die Integration mit Microsoft Dynamics 365 konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Microsoft Dynamics 365 für die Integration mit Campaign konfigurieren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Unifi für die Integration mit Microsoft Dynamics 365 konfigurieren](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [Benutzerdefinierte Campaign-Ressourcen und benutzerdefinierte Dynamics 365-Entitäten zuordnen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Erste Schritte mit Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
