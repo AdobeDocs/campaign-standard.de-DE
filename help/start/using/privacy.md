@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 3%
 
 ---
 
@@ -83,7 +86,7 @@ Die [wichtigsten Rechtsvorschriften](#privacy-regulations) beziehen sich auf die
 
 Als Firma zum Sammeln und Freigeben von personenbezogenen Daten sind Sie der Datenverantwortliche, Ihre Kunden sind die Datensubjekte und Adobe Campaign fungiert als Datenverarbeiter bei der Verarbeitung ihrer personenbezogenen Daten, wie von Ihnen angegeben. Beachten Sie, dass es Ihre Verantwortung als Data Controller ist, die Beziehung zu den Datensubjekten zu bearbeiten, z. B. bei der Verwaltung von [Datenschutzanforderungen](#privacy-requests).
 
-Bei der Integration von Kampagne mit anderen Experience Cloud-Lösungen, bei denen Audiencen von einem System auf ein anderes übertragen werden können, wie z. B. der [Audience Destination Service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager oder People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)oder mit anderen Lösungen wie [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), müssen Sie dem Schutz personenbezogener Daten besondere Aufmerksamkeit widmen.
+Bei der Integration von Kampagne mit anderen Experience Cloud-Lösungen, bei denen Audiencen von einem System auf ein anderes übertragen werden können, wie z. B. der [Audience Destination Service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager oder People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)oder mit anderen Lösungen wie [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), müssen Sie dem Schutz personenbezogener Daten besondere Aufmerksamkeit widmen.
 
 ## Datenakquise {#data-acquisition}
 
