@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 98%
+source-wordcount: '595'
+ht-degree: 99%
 
 ---
 
@@ -35,11 +35,6 @@ In Ihrer Arbeitsumgebung verfügen Sie unter Umständen über verschiedene Lösu
 Eine Organisation ist die Entität, mit der ein Administrator Gruppen und Benutzer konfigurieren und Anmeldungen in der Experience Cloud steuern kann. Eine Organisation ist wie eine Unternehmensanmeldung bei allen Produkten und Lösungen, die in der Experience Cloud enthalten sind. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. Weiterführende Informationen zur Verwaltung von Benutzern und Organisationen finden Sie im [Hilfeportal der Adobe Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html).
 
 Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möchten, beachten Sie unsere [API-Dokumentation](../../api/using/get-started-apis.md).
-
->[!NOTE]
->
->Adobe Campaign Standard kann auch eine Verbindung zu Microsoft Dynamics 365 herstellen: Diese Integration ermöglicht die Synchronisierung aller verfügbaren Kontaktdaten im CRM-System, sodass alle relevanten Kontaktdaten für Kampagnenaktivitäten verfügbar sind. Weiterführende Informationen dazu finden Sie im Abschnitt zur [Verwendung von Campaign und Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
-
 
 <table> 
  <thead> 
