@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
+source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
 workflow-type: tm+mt
 source-wordcount: '5870'
 ht-degree: 96%
@@ -26,7 +26,7 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Aktualisierungen der Dokumentation - Juni 2020 {#doc-updates-june-2020}
 
-Campaign Standard - Die Microsoft Dynamics 365-Integration ist derzeit nicht verfügbar. Es wird ein neuer Anschluss entwickelt, der in Zukunft verfügbar sein wird. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
+Campaign Standard - Die Microsoft Dynamics 365-Integration ist derzeit nicht verfügbar. Es wird ein neuer Anschluss entwickelt, der in Zukunft verfügbar sein wird. Die entsprechenden Hilfeseiten wurden entfernt. [mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Aktualisierungen der Dokumentation - Mai 2020 {#doc-updates-may-2020}
 
