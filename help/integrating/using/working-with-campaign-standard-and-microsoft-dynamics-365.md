@@ -7,56 +7,59 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-experience-manager
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
+source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 87%
 
 ---
 
 
 # Erste Schritte mit Microsoft Dynamics 365
 
-Aktivieren Sie Ihre CRM-Daten bei der Kommunikation über Kanal hinweg: Erfahren Sie, wie Sie Kontakte von Microsoft Dynamics 365 an Adobe Campaign weitergeben und Kampagnen-Performance-Daten (Sende-, Öffnen-, Klicks- und Absprünge) von Adobe Campaign an Microsoft Dynamics 365 weitergeben können.
+>[!IMPORTANT]
+>
+>Diese Integration ist derzeit nicht verfügbar. Es wird ein neuer Anschluss entwickelt, der in Zukunft verfügbar sein wird. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
+
+Aktivieren Sie Ihre CRM-Daten für kanalübergreifende Kommunikation: Erfahren Sie, wie Sie Kontakte von Microsoft Dynamics 365 an Adobe Campaign übertragen und Kampagnenleistungsdaten (Sendungen, Öffnungen, Klicks und Bounces) von Adobe Campaign in Microsoft Dynamics 365 freigeben können.
 
 >[!NOTE]
 >
->Die Microsoft Dynamics 365 / Adobe Campaign Standard Integration unterstützt nur die **Microsoft Dynamics 365 Sales App** .
+>Die Integration zwischen Microsoft Dynamics 365 und Adobe Campaign Standard unterstützt nur die **Microsoft Dynamics 365 Sales App**.
 
-## Vorteile und Anwendungsfälle
+## Grundsätze
 
-### Grundsätze
+Die Integration zwischen Adobe Campaign Standard und Microsoft Dynamics 365 ermöglicht eine Synchronisation aller verfügbaren Kontaktdaten im CRM-System, sodass alle relevanten Kontaktdaten für Kampagnenaktivitäten verfügbar sind.
 
-Die Adobe Campaign- und Microsoft Dynamics 365-Integration ermöglicht die Synchronisierung aller verfügbaren Kontaktdaten im CRM-System und stellt alle relevanten Kontaktdaten für Kampagnen-Aktivitäten zur Verfügung.
+Umgekehrt werden in Adobe Campaign bei der Interaktion von Profilen mit Nachrichten diese Daten (z. B. Sendungen, Öffnungen, Klicks und Bounces) automatisch an Microsoft Dynamics 365 übermittelt, sodass Kontaktdatensätzen Marketing-Aktivitäten hinzugefügt werden.
 
-Umgekehrt werden diese Daten bei Interaktion von Profilen in Adobe Campaign mit Nachrichten (z. B.: sendet, öffnet, klickt und absprünge) automatisch in Microsoft Dynamics 365 fließen, um Kontaktdatensätze auch mit der Marketing-Aktivität zu vervollständigen.
+Die neueste Version der Integration unterstützt auch benutzerdefinierte Entitäten, sodass benutzerdefinierte Entitäten in Dynamics 365 mit entsprechenden benutzerdefinierten Entitäten in Campaign synchronisiert werden können.
 
-Die neueste Version der Integration unterstützt auch benutzerdefinierte Entitäten, sodass benutzerdefinierte Entitäten in Dynamics 365 mit entsprechenden benutzerdefinierten Entitäten in der Kampagne synchronisiert werden können.
+Diese Integration unterstützt drei Hauptanwendungsfälle:
 
-Diese Integration unterstützt drei Hauptverwendungsfälle:
+1. Synchronisieren von Kontakten von Dynamics 365 mit Campaign, damit sie in Marketing-Kampagnen für Zielgruppen ausgewählt werden können
+1. Senden von E-Mail-Marketing-Ereignissen (Sendungen, Öffnungen, Klicks, Bounces) von Campaign zu Dynamics 365 zum Bereitstellen an das Sales-Repository in der Dynamics 365-Benutzeroberfläche
+1. Synchronisieren von benutzerdefinierten Entitäten von Dynamics 365 mit Campaign, damit sie zur Segmentierung und Personalisierung verwendet werden können
 
-1. Synchronisieren von Kontakten von Dynamics 365 zur Kampagne, damit sie in Marketing-Kampagnen ausgerichtet werden können
-1. Senden von E-Mail-Marketing-Ereignissen (Senden, Öffnen, Klicks, Absprünge) von Kampagne zu Dynamics 365 zur Anzeige an das Sales-Repository in der Dynamics 365-Oberfläche
-1. Synchronisieren von benutzerdefinierten Entitäten von Dynamics 365 zur Kampagne, damit sie für die Segmentierung und Personalisierung verwendet werden können
-
-Video zur Integration von Dynamics 365-Campaign Standard [hier](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html).
-
-### Wichtigste Vorteile
+## Wichtigste Vorteile
 
 * Konsistentes Messaging zwischen Vertrieb und Marketing
 
-Die Adobe Campaign- und Microsoft Dynamics 365-Integration ermöglicht beiden Systemen den Zugriff auf Kundeninformationen und E-Mail-Marketingverlauf, sodass alle Nachrichten an den Kunden dieselbe konsistente Messaging-Funktion nutzen können.
+Die Adobe Campaign- und Microsoft Dynamics 365-Integration ermöglicht beiden Systemen den Zugriff auf Kundeninformationen und E-Mail-Marketing-Verläufe, sodass die gesamte Nachrichtenübermittlung an den Kunden konsistent ist.
 
-* Ganzheitliche Ansicht aller Potenzieller Kunden- und Kundendaten
+* Ganzheitliche Ansicht aller Interessenten- und Kundendaten
 
-Durch die Integration von Adobe Campaign in Dynamics 365 ist es möglich, E-Mail-Marketingverlauf über jeden Kontakt im CRM-System freizugeben und darauf zuzugreifen.
+Durch die Integration von Adobe Campaign mit Dynamics 365 ist es möglich, den E-Mail-Marketing-Verlauf für einzelne Kontakte im CRM-System freizugeben und darauf zuzugreifen.
 
-* Dynamics 365-Daten auf jedem Kanal aktivieren
+* Dynamics 365-Daten auf allen Kanälen aktivieren
 
-Mit Kontaktdaten, die mit Adobe Campaign synchronisiert werden, können Sie auf jedem Online- oder Offline-Kanal mit Kampagnen wie mobilen Push-, In-App-, E-Mail- oder Direktversand senden. Unabhängig vom bevorzugten Kanal der einzelnen Kontakte haben Sie die Kampagne abgedeckt.
+Mit Kontaktdaten, die mit Adobe Campaign synchronisiert werden, können Sie unter Verwendung von Campaign über jeden Online- oder Offline-Kanal Nachrichten senden, inklusive Mobile Push, In-App, E-Mail oder Briefpost. Unabhängig vom bevorzugten Kanal der einzelnen Kontakte unterstützt Campaign alle Kanäle.
 
 >[!CAUTION]
 >
->Für die Kontaktsynchronisierung betrachtet diese Integration Dynamics 365 als die Quelle der Wahrheit.  Änderungen an synchronisierten Kontaktattributen sollten in Dynamics 365 vorgenommen werden, nicht in Kampagne.  Wenn Änderungen in der Kampagne vorgenommen werden, können sie während der Synchronisierung überschrieben werden.
+>Bei der Synchronisation von Kontakten ist in dieser Integration Dynamics 365 die &quot;Source of Truth&quot;.  Änderungen an synchronisierten Kontaktattributen müssen daher in Dynamics 365 vorgenommen werden, nicht in Campaign.  Wenn Änderungen in Campaign vorgenommen werden, kann es sein, dass sie bei der Synchronisation wieder überschrieben werden.
