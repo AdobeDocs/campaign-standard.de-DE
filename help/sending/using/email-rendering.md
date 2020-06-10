@@ -11,8 +11,11 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +77,7 @@ Dieser Bericht enthält Informationen zum E-Mail-Rendering, d. h. zur Darstellu
 
 >[!NOTE]
 >
->Die Anzahl der verfügbaren Renderings ist in Ihrem Lizenzvertrag vermerkt. Mit jedem Versand, bei dem die Option **E-Mail-Rendering** aktiviert ist, werden Ihre verfügbaren Renderings (auch Token genannt) um eins verringert. Wenn Sie Litmus-Kunde sind, können Sie Ihr eigenes Litmus-Konto für das E-Mail-Rendering in Adobe Campaign verwenden. Weiterführende Informationen dazu erhalten Sie von Ihrem Adobe-Kundenbetreuer.
+>Die Anzahl der verfügbaren Renderings ist in Ihrem Lizenzvertrag vermerkt. Mit jedem Versand, bei dem die Option **E-Mail-Rendering** aktiviert ist, werden Ihre verfügbaren Renderings (auch Token genannt) um eins verringert.
 
 Die Zusammenfassung des Berichts zeigt die Anzahl an empfangenen, als Spam gekennzeichneten und nicht empfangenen Nachrichten oder die Anzahl an Nachrichten, deren Empfang ausstehend ist.
 
