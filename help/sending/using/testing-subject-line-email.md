@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+translation-type: tm+mt
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+workflow-type: tm+mt
+source-wordcount: '1115'
+ht-degree: 98%
 
 ---
 
@@ -80,14 +83,14 @@ Auf Ihrem Adobe-Campaign-Server laufen Modelle nicht standardmäßig. Für den E
 >Ihre Instanz darf nur ein trainiertes Modell enthalten.
 
 So trainieren Sie ein lokales Modell:
-1. Laden Sie [hier](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) das Modell „subjectLineTraining.xml“ herunter und verwenden Sie die Funktion [Package-Import](../../automating/using/managing-packages.md), um es in Ihre Adobe Campaign-Instanz hochzuladen. Das Training des lernfähigen Modells wird automatisch von einem technischen Workflow übernommen.
+1. Laden Sie [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) das Modell „subjectLineTraining.xml“ herunter und verwenden Sie die Funktion [Package-Import](../../automating/using/managing-packages.md), um es in Ihre Adobe Campaign-Instanz hochzuladen. Das Training des lernfähigen Modells wird automatisch von einem technischen Workflow übernommen.
 1. Wenn es das erste Mal ist, dass Sie ein Modell-Training vornehmen möchten, kann ein Administrator im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Workflows]** den Start des Workflows **[!UICONTROL SubjectLine Training]** (Betreff-Training-Workflow) erzwingen.
 1. Nach dem Hochladen und Training eines lernfähigen Modells wird die Funktion automatisch aktiviert und neben dem für die Betreffzeile Ihrer Nachrichten vorgesehenen Feld wird eine neue Option angezeigt.
 1. Der technische Workflow übernimmt dann automatisch das wöchentliche Training Ihres lernfähigen Modells.
 
 ### Importieren von vortrainierten Modellen {#pre-trained-models}
 
-Um auf diese Modelle zuzugreifen, klicken Sie [hier](https://support.neolane.net/webApp/extranetLogin) und rufen Sie das **[!UICONTROL Download-Center]** auf. Verwenden Sie die Funktion [Package-Import](../../automating/using/managing-packages.md), um ein Modell in Ihre Adobe Campaign-Instanz hochzuladen.
+Um auf diese Modelle zuzugreifen, klicken Sie [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Verwenden Sie die Funktion [Package-Import](../../automating/using/managing-packages.md), um ein Modell in Ihre Adobe Campaign-Instanz hochzuladen.
 
 Folgende gebrauchsfertige Modelle stehen zur Verfügung:
 
