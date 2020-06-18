@@ -1,6 +1,6 @@
 ---
 title: Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign
-description: Wird ein Profil durch Opt-out auf die Blacklist gesetzt, werden keinerlei Nachrichten mehr an dieses gesendet, auch nicht über einzelne Kanäle.
+description: Bei einem Ausschluss wird ein Profil nicht mehr von einem Versand oder von Versänden eines bestimmten Kanals als Ziel ausgewählt.
 page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
 contentOwner: sauviat
@@ -11,15 +11,18 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 82%
 
 ---
 
 
 # Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign{#about-opt-in-and-opt-out-in-campaign}
 
-Wird ein Profil durch Opt-out auf die Blacklist gesetzt, werden keinerlei Nachrichten mehr an dieses gesendet, auch nicht über einzelne Kanäle.
+Bei einem Ausschluss wird ein Profil nicht mehr von einem Versand oder von Versänden eines bestimmten Kanals als Ziel ausgewählt.
 
 Um Profilen die Möglichkeit zu geben, sich durch Opt-in oder Opt-out an- bzw. abzumelden, müssen Sie eine eigene Landingpage erstellen. Weiterführende Informationen dazu erfahren Sie im Abschnitt [Opt-in- und Opt-out-Landingpages einrichten](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
 
