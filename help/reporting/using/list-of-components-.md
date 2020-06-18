@@ -11,8 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 98%
 
 ---
 
@@ -149,12 +152,12 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </thead> 
  <tbody> 
   <tr> 
-   <td> Auf Blacklist<br /> </td> 
+   <td> Bei blockierungsliste<br /> </td> 
    <td> Anzahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklist-Rate<br /> </td> 
-   <td> Prozentsatz der Sendungen, die als auf die Blacklist gesetzt gekennzeichnet wurden<br /> </td> 
+   <td> Blockierungsliste-Rate<br /> </td> 
+   <td> Prozentsatz der auf blockierungsliste markierten Versand.<br /> </td> 
   </tr> 
   <tr> 
    <td> Bounces + Fehler<br /> </td> 
@@ -381,7 +384,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 
 >[!NOTE]
 >
->Standardmäßig ist das Segment **[!UICONTROL Testversand ausschließen]**bereits ausgewählt, um Ihre Berichte zu filtern. Diese Auswahl kann jedoch bei Bedarf geändert werden.
+>Standardmäßig ist das Segment **[!UICONTROL Testversand ausschließen]** bereits ausgewählt, um Ihre Berichte zu filtern. Diese Auswahl kann jedoch bei Bedarf geändert werden.
 
 In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwendet werden, sowie ihre Definitionen.
 
