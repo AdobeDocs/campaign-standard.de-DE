@@ -12,8 +12,11 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 95%
 
 ---
 
@@ -39,6 +42,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    * **[!UICONTROL Push-Benachrichtigungen an Campaign-Profile senden]**: Verwenden Sie diese Vorlage, um die Adobe Campaign-CRM-Profile auszuwählen, die sich bei Ihrer Mobile App angemeldet und ausdrücklich um die Zusendung von Push-Benachrichtigungen ersucht haben. Sie können [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) in Ihre Push-Benachrichtigung einfügen, wie etwa den Vornamen des Empfängers.
    * **[!UICONTROL Push-Benachrichtigung an App-Abonnenten senden]**: Mit dieser Vorlage können Sie eine Push-Benachrichtigung an alle bekannten und anonymen Benutzer einer Mobile App senden, die Benachrichtigungen von Ihrer App erhalten möchten. Sie können diese Nachrichten mit Daten personalisieren, die von Ihrer Mobile App stammen.
+
    Es stehen auch mehrsprachige Vorlagen zur Auswahl. Weiterführende Informationen dazu finden Sie unter [Mehrsprachige Push-Benachrichtigungen erstellen](../../channels/using/creating-a-multilingual-push-notification.md).
 
    Weiterführende Informationen zu Vorlagen finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md).
@@ -98,7 +102,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
 1. Im Tab **[!UICONTROL Ausschlusslogs]** befinden sich die Liste aller vom Versand an die Zielgruppe ausgeschlossenen Nachrichten sowie der Ausschlussgrund.
 
-   In unserem Beispiel sehen wir, dass einer unserer Mobile-App-Abonnenten ausgeschlossen wurde, weil seine Adresse auf der Blacklist steht, und die anderen Abonnenten, weil ihr Profil eine Dublette war.
+   Hier können wir sehen, dass einer unserer App-Abonnenten ausgeschlossen wurde, weil die Adresse zum blockierungsliste hinzugefügt wurde, und die anderen Abonnenten, weil das Profil ein Duplikat war.
 
    ![](assets/push_send_5.png)
 
@@ -113,7 +117,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
    ![](assets/push_send_4.png)
 
-1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird folglich auf die Blacklist gesetzt und von weiteren Sendungen ausgeschlossen.
+1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann von weiteren Versänden zur blockierungsliste hinzugefügt.
 
    >[!NOTE]
    >
