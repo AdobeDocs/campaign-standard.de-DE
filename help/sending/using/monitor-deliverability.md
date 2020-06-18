@@ -12,8 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1d5bb21ab16df87e268b9eabe92965be1b052556
+translation-type: tm+mt
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +30,7 @@ Im Folgenden finden Sie Details zum **[!UICONTROL Versanddurchsatz]**-Bericht so
 * Prüfen Sie, ob die einzelnen Versanddurchsätze der Gültigkeit des Versandinhalts entsprechen (&quot;Flash Sales&quot; zum Beispiel sollten innerhalb von Minuten, nicht von Tagen zugestellt werden).
 * Wenn der Versand in Schüben erfolgt, stellen Sie sicher, dass genügend Zeit vorhanden ist, damit ein Schub fertiggestellt werden kann, bevor der nächste beginnt.
 * Prüfen Sie, ob die Anzahl der Fehler und der neuen Quarantänen der anderer Sendungen entspricht.
-* Prüfen Sie in den Versandlogs sorgfältig die Art der hervorgehobenen Fehler (grau oder auf der Blacklist, DNS-Probleme, Anti-Spam-Regeln etc.).
+* Konsultieren Sie die Versandlogs sorgfältig, um die Art der hervorgehobenen Fehler zu überprüfen (blockierungsliste, DNS-Probleme, Anti-Spam-Regeln usw.).
 
 ## Versanddurchsatz {#delivery-throughput}
 
@@ -39,11 +42,11 @@ Weitere Informationen finden Sie unter [Versanddurchsatz](../../reporting/using/
 
 Sie können die angezeigten Werte konfigurieren, indem Sie den Parameter ändern.
 
-Es stehen weitere Berichte zur Verfügung, z. B. **[!UICONTROL Versandzusammenfassung]**oder**[!UICONTROL  Fehler und Bounces]**. Weiterführende Informationen dazu finden Sie unter [Dynamische Berichte](../../reporting/using/about-dynamic-reports.md).
+Es stehen weitere Berichte zur Verfügung, z. B. **[!UICONTROL Versandzusammenfassung]** oder **[!UICONTROL Fehler und Bounces]**. Weiterführende Informationen dazu finden Sie unter [Dynamische Berichte](../../reporting/using/about-dynamic-reports.md).
 
 ## Sendungen beobachten {#monitoring-deliveries}
 
-Über das Nachrichten-Dashboard können Sie auf diese Versandlogs zugreifen: **[!UICONTROL Versandlogs]**,**[!UICONTROL  Ausschlusslogs]**, **[!UICONTROL Ausschlussgründe]**,**[!UICONTROL  Trackinglogs]** und **[!UICONTROL Getrackte URLs]**. In ihnen erfahren Sie Versanddetails, welche Zielgruppe ausgeschlossen war und den Ausschlussgrund sowie Tracking-Informationen wie Öffnungen und Klicks.
+Über das Nachrichten-Dashboard können Sie auf diese Versandlogs zugreifen: **[!UICONTROL Versandlogs]**, **[!UICONTROL Ausschlusslogs]**, **[!UICONTROL Ausschlussgründe]**, **[!UICONTROL Trackinglogs]** und **[!UICONTROL Getrackte URLs]**. In ihnen erfahren Sie Versanddetails, welche Zielgruppe ausgeschlossen war und den Ausschlussgrund sowie Tracking-Informationen wie Öffnungen und Klicks.
 
 Weiterführende Informationen dazu finden Sie unter [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md).
 
@@ -51,7 +54,7 @@ Weiterführende Informationen dazu finden Sie unter [Sendungen beobachten](../..
 
 ## Warnungen erhalten {#receiving-alerts}
 
-Bei der Funktion **[!UICONTROL Versandwarnungen]**handelt es sich um ein Warnungsmanagementsystem, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.
+Bei der Funktion **[!UICONTROL Versandwarnungen]** handelt es sich um ein Warnungsmanagementsystem, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.
 
 Weiterführende Informationen dazu finden Sie unter [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md).
 
@@ -65,6 +68,6 @@ Signal Spam bietet auch eine eigene Benutzeroberfläche für die direkte Beschwe
 
 ## 250ok {#solution-250ok}
 
-250ok ist eine Monitoring-Lösung, die Indikatoren für IP- und Domain-Blacklisting sowie für die Reputation bietet.
+250ok ist eine Überwachungslösung, die IP- und Domain-blockierungsliste sowie Reputationsindikatoren bereitstellt.
 
 Die Informationen werden in Echtzeit bereitgestellt und ermöglichen damit eine proaktive Unterstützung. 250ok ergänzt interne Zustellbarkeits-Tools von Adobe.
