@@ -11,8 +11,11 @@ topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 Sie können Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen versenden, bei denen Sie folgende Möglichkeiten haben:
 
-* Marketing-Typologieregeln anwenden, wie **[!UICONTROL Adresse auf der Blacklist]** oder [Ermüdungsregeln](../../sending/using/fatigue-rules.md)
+* Wenden Sie Marketing-Typologieregeln wie **[!UICONTROL Adresse auf blockierungsliste]** - oder [Ermüdungsregeln](../../sending/using/fatigue-rules.md)an.
 * einen Abmelde-Link in die Nachricht einfügen
 * die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen
 * Die Transaktionsnachrichten für die Customer Journey nutzen
@@ -71,11 +74,11 @@ Nachdem die Nachricht publiziert wurde und Ihre Webseiten-Integration abgeschlos
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Wählen Sie den Tab **[!UICONTROL Ausschlusslogs]**, um die Empfänger anzuzeigen, die von der Versandzielgruppe ausgeschlossen wurden, wie zum Beispiel Adressen auf der Blacklist.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Profile, die sich abgemeldet haben, wurden durch die Typologieregel **[!UICONTROL Adresse auf der Blacklist]** ausgeschlossen.
+For any profile that has opted out, the **[!UICONTROL Address on block list]** typology rule excluded the corresponding recipient.
 
 Diese Regel ist Teil einer spezifischen Typologie, die für alle auf der **[!UICONTROL Profil]**-Tabelle basierenden Transaktionsnachrichten gilt.
 
