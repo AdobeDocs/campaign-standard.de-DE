@@ -12,10 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 86%
+source-wordcount: '1349'
+ht-degree: 84%
 
 ---
 
@@ -32,14 +32,14 @@ Wenn einem Profil eine Nachricht nicht zugestellt werden kann, sendet der Remote
 >
 >**SMS**-Fehlermeldungen (auch &quot;SR&quot; für &quot;Status Report&quot; genannt) werden vom MTA-Prozess qualifiziert.
 
-Mitteilungen können während der Versandvorbereitung auch ausgeschlossen werden, wenn eine Adresse unter Quarantäne gestellt oder ein Profil auf die Blacklist gesetzt wurde. Ausgeschlossene Mitteilungen werden im Versand-Dashboard im Tab **[!UICONTROL Ausschlusslogs]** aufgeführt (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Nachrichten können auch während der Vorbereitung des Versands ausgeschlossen werden, wenn eine Adresse unter Quarantäne gestellt wird oder sich ein Profil auf der blockierungsliste befindet. Ausgeschlossene Mitteilungen werden im Versand-Dashboard im Tab **[!UICONTROL Ausschlusslogs]** aufgeführt (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
 **Verwandte Themen:**
 
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
-* [Blacklists in Campaign verwenden](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Fehlgeschlagene Sendungen für eine Nachricht identifizieren    {#identifying-delivery-failures-for-a-message}
 
@@ -69,8 +69,8 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 | **[!UICONTROL Zurückgewiesen]** | Softbounce / Hardbounce | Die Adresse wurde in Quarantäne gesetzt, weil ein Sicherheitsfeedback als Spam-Bericht vorliegt. Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
 | **[!UICONTROL Dublette]** | Ignoriert | Die Adresse wurde bereits in der Segmentierung erkannt. |
 | **[!UICONTROL Unbestimmt]** | Soft | die Adresse ist qualifiziert, da die Fehler noch nicht inkrementiert wurden. Dieser Fehlertyp tritt auf, wenn der Server eine bis dahin unbekannte Fehlermeldung sendet: Hierbei kann es sich um einen einmaligen Fehler handeln. Sollte er sich jedoch wiederholen, wird der Fehlerzähler erhöht, was die zuständigen technischen Mitarbeiter auf das Problem aufmerksam macht. |
-| **[!UICONTROL Fehler ignoriert]** | Ignoriert | Die Adresse befindet sich in der Whitelist und wird in jedem Fall per E-Mail gesendet. |
-| **[!UICONTROL Adresse auf der Blacklist]** | Hard | die Adresse zum Zeitpunkt der Versendung auf der Blacklist war. |
+| **[!UICONTROL Fehler ignoriert]** | Ignoriert | Die Adresse befindet sich auf der zulassungsliste, und es wird in jedem Fall eine E-Mail gesendet. |
+| **[!UICONTROL Adresse auf blockierungsliste]** | Hard | Die Adresse wurde zum Zeitpunkt des Versands der blockierungsliste hinzugefügt. |
 | **[!UICONTROL Konto deaktiviert]** | Softbounce / Hardbounce | Wenn der Internet Access Provider (IAP) eine längere Inaktivität feststellt, kann das Konto des Benutzers geschlossen werden: Versände an die Adresse des Benutzers sind dann nicht mehr möglich. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]** zugewiesen und der Zustellversuch wird wiederholt. Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt. |
 | **[!UICONTROL Nicht angemeldet]** | Ignoriert | Das Handy des Profils wird ausgeschaltet oder nicht mit dem Netzwerk verbunden, wenn die Nachricht gesendet wird. |
 | **[!UICONTROL Ungültige Domain]** | Soft | Die Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
