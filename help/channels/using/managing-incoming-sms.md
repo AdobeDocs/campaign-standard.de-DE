@@ -12,8 +12,11 @@ discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
 delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 91%
 
 ---
 
@@ -24,16 +27,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.
 
-Diese Konfiguration wird im Bereich **[!UICONTROL Automatische Antwort auf MO]** des [externen SMS-Routing-Kontos](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) definiert. MO steht für 'Mobile Originated', was bedeutet, dass Sie für das Mobilgerät, von dem die SMS gesendet wurde, eine automatische Antwort konfigurieren können.
+Diese Konfiguration wird im Bereich **[!UICONTROL Automatische Antwort auf MO]** des [externen SMS-Routing-Kontos](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) definiert. MO steht für &#39;Mobile Originated&#39;, was bedeutet, dass Sie für das Mobilgerät, von dem die SMS gesendet wurde, eine automatische Antwort konfigurieren können.
 
 Gehen Sie dabei folgendermaßen vor:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration &gt; Anwendungskonfiguration &gt; externe Konten]** und dann über das externe Konto **[!UICONTROL SMS-Routing durch SMPP]** auf das entsprechende Menü zu.
+1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration > Anwendungskonfiguration > externe Konten]** und dann über das externe Konto **[!UICONTROL SMS-Routing durch SMPP]** auf das entsprechende Menü zu.
 1. Klicken Sie unter der Kategorie **[!UICONTROL Automatische Antwort auf MO]** auf **[!UICONTROL Element erstellen]**, um Ihre automatische Antwort zu konfigurieren.
 
    ![](assets/sms_mo_1.png)
 
-1. Wählen Sie das Schlüsselwort aus, das diese automatische Antwort auslöst. Bei den Schlüsselwörtern kann die Groß-/Kleinschreibung ignoriert werden. Wenn beispielsweise in unserem Beispiel die Empfänger das Schlüsselwort "STOP" senden, erhalten sie die automatische Antwort.
+1. Wählen Sie das Schlüsselwort aus, das diese automatische Antwort auslöst. Bei den Schlüsselwörtern kann die Groß-/Kleinschreibung ignoriert werden. Wenn beispielsweise in unserem Beispiel die Empfänger das Schlüsselwort &quot;STOP&quot; senden, erhalten sie die automatische Antwort.
 
    Lassen Sie diese Spalte leer, wenn Sie unabhängig vom Schlüsselwort dieselbe Antwort senden möchten.
 
@@ -45,7 +48,7 @@ Gehen Sie dabei folgendermaßen vor:
 
 1. Geben Sie im Feld **[!UICONTROL Antworten]** die Antwort ein, die Sie Ihren Empfängern senden möchten.
 
-   Lassen Sie die Spalte **[!UICONTROL Antworten]** leer, wenn nur eine Aktion ausgeführt, aber keine Antwort gesendet werden soll. Dies ermöglicht beispielsweise das Entfernen einer Telefonnummer eines Benutzers aus der Quarantäne, wenn er ein anderes Schlüsselwort als "STOP" sendet.
+   Lassen Sie die Spalte **[!UICONTROL Antworten]** leer, wenn nur eine Aktion ausgeführt, aber keine Antwort gesendet werden soll. Dies ermöglicht beispielsweise das Entfernen einer Telefonnummer eines Benutzers aus der Quarantäne, wenn er ein anderes Schlüsselwort als &quot;STOP&quot; sendet.
 
    ![](assets/sms_mo_3.png)
 
@@ -54,17 +57,18 @@ Gehen Sie dabei folgendermaßen vor:
    * Mit der Aktion **[!UICONTROL Unter Quarantäne stellen]** wird die Telefonnummer des Profils automatisch unter Quarantäne gestellt.
    * Mit der Aktion **[!UICONTROL Aus Quarantäne holen]** wird die Telefonnummer des Profils aus der Quarantäne entlassen.
    * Mit der Aktion **[!UICONTROL Keine]** wird Ihre Nachricht ohne Aktion an die Empfänger gesendet.
-   Wenn Empfänger beispielsweise in der folgenden Konfiguration das Schlüsselwort "STOP" senden, erhalten sie eine Abmeldebestätigung und ihre Telefonnummer wird mit dem Status **[!UICONTROL Blacklist]** unter Quarantäne gestellt. Der Status bezieht sich ausschließlich auf die Telefonnummer, und das Profil wird nicht auf die Blacklist gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält.
+
+   For example, in the configuration below, if recipients send the keyword &quot;STOP&quot;, they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL On block list]** status. Dieser Status bezieht sich nur auf die Telefonnummer, das Profil wird nicht zur blockierungsliste hinzugefügt, sodass der Benutzer weiterhin E-Mail-Nachrichten erhält.
 
    ![](assets/sms_mo.png)
 
-Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt Ihrer Nachrichten abgemeldet und unter Quarantäne gestellt. Die unter Quarantäne gestellten Empfänger sind in der Tabelle **[!UICONTROL Adressen]** aufgeführt, die über das Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** &gt; **[!UICONTROL Quarantänen]** abrufbar ist. Weiterführende Informationen zu Quarantänen finden Sie in diesem [Abschnitt](../../sending/using/understanding-quarantine-management.md).
+Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt Ihrer Nachrichten abgemeldet und unter Quarantäne gestellt. Die unter Quarantäne gestellten Empfänger sind in der Tabelle **[!UICONTROL Adressen]** aufgeführt, die über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Quarantänen]** abrufbar ist. Weiterführende Informationen zu Quarantänen finden Sie in diesem [Abschnitt](../../sending/using/understanding-quarantine-management.md).
 
 Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#storing-incoming-sms).
 
 ## Eingehende SMS speichern  {#storing-incoming-sms}
 
-Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit "STOP" auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
+Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit &quot;STOP&quot; auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
 
 ![](assets/sms_config_mo_1.png)
 
