@@ -1,6 +1,6 @@
 ---
-title: Whitelists in Adobe Campaign Standard
-description: Erfahren Sie, wie Sie Whitelists mit Adobe Campaign Standard optimieren können.
+title: Zulassungsliste im Adobe Campaign Standard
+description: Erfahren Sie, wie Sie zulassungsliste mit Adobe Campaign Standard optimieren.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -12,33 +12,36 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+translation-type: tm+mt
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 67%
 
 ---
 
 
 # IP-Zertifizierung {#ip-certification}
 
-Die IP-Zertifizierung ist ein Whitelisting- und Versandprogramm, mit dem sichergestellt wird, dass E-Mails empfangen werden, ohne von Antispam-Filtern oder anderen E-Mail-Blockierungssystemen abgefangen zu werden.
+Die IP-Zertifizierung ist ein Programm zum Versenden von Best Practices, mit dem sichergestellt werden kann, dass E-Mails ohne Blockierung durch Anti-Spam-Filter oder andere E-Mail-Sperrsysteme empfangen werden.
 
-Derzeit bieten zwei Provider eine IP-Zertifizierung an: Return Path und Certified Senders Alliance.
+Derzeit bieten zwei Anbieter eine IP-Zertifizierung an: Return Path und Certified Senders Alliance.
 
-Zertifizierte Absender werden E-Mail-Whitelists hinzugefügt, die von globalen Postfachanbietern und E-Mail-Sicherheitsunternehmen verwendet werden. Diese kommerziellen Whitelists basieren auf einem System, das es dem Absender erlaubt, bei der anfänglichen Verwendung des System Anti-Spam-Filter ganz zu umgehen oder inkrementelle Punkte zu sammeln.
+Zertifizierte Absender werden E-Mail-zulassungsliste hinzugefügt, die von globalen Mailbox-Anbietern und E-Mail-Firmen verwendet werden. Diese kommerziellen zulassungsliste basieren auf einem System, das es dem Absender ermöglicht, Antispam-Filter ganz zu umgehen oder inkrementelle Punkte beim Einstieg in das System zuzuweisen.
 
-Das [Zertifizierungsprogramm von Return Path](https://www.validity.com/products/returnpath/certification/) bietet eine Reihe von Vorteilen:
-* Eine messbare Zunahme der Posteingangsplatzierung bei führenden Postfachanbietern wie Microsoft, AOL, Yahoo, Google Mail, Comcast, Orange, Mail.ru und anderen
-* Gute Reputation und Handhabung bei kritischen Filtern wie Cloudmark, SpamAssassin und Cisco Ironport
-* Ein Compliance-Team, das das System rund um die Uhr überwacht, Sicherheitswarnungen ausgibt und gemeinsam mit Ihnen an der Lösung von Problemen arbeitet
-* Postfachanbieterdaten mit detaillierten Informationen zur Leistung von KPIs, Platzierung und Zertifizierung
-* Vereinfachte und schnellere IP-Erwärmung, einschließlich einer besseren Reputation und Erkennung bei der Migration oder beim Erhalt einer neuen IP-Adresse
+Das [Zertifizierungsprogramm von Return Path](https://www.validity.com/products/returnpath/certification/) bietet eine Reihe von Vorteilen, darunter die folgenden:
+* Eine messbare Steigerung der Posteingangsplatzierung bei führenden E-Mail-Anbietern wie Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru und mehr
+* Positive Reputation und bevorzugte Behandlung bei kritischen Filtern wie Cloudmark, SpamAssassin und Cisco Ironport
+* Ein Compliance-Team, das rund um die Uhr überwacht, Sicherheitswarnungen bereitstellt und mit Ihnen bei der Lösung von Kompromissen zusammenarbeitet
+* E-Mail-Anbieterdaten mit detaillierten Informationen zu KPIs, Platzierung und Zertifizierungsleistung
+* Vereinfachtes und schnelleres IP-Warmup, einschließlich einer besseren Reputation und Erkennung bei der Migration oder beim Erhalt einer neuen IP-Adresse
 
-Die Zertifizierung durch die [Certified Senders Alliance](https://certified-senders.org/certification-process/) bietet unter anderem folgende Vorteile:
-* Zertifizierung von Absendern kommerzieller E-Mails, die hohe Qualitätsstandards erfüllen können
-* Verbesserter Versand und verbesserte Zustellbarkeit kommerzieller E-Mails, um die Platzierungsrate im Posteingang zu erhöhen und die Spam-Filterung zu reduzieren
+Die Zertifizierung durch [Certified Senders Alliance](https://certified-senders.org/certification-process/) bietet unter anderem folgende Vorteile:
+* Zertifizierung von Absendern von kommerziellen E-Mails, die hohe Qualitätsstandards erfüllen können
+* Verbesserter Versand und verbesserte Zustellbarkeit von kommerziellen E-Mails, um die Platzierungsrate im Posteingang zu erhöhen und das Filtern von Spam zu reduzieren
 * Schutz vor rechtlichen und finanziellen Risiken durch vollständige Einhaltung der Rechtsnormen
-* Schutz der Reputation durch Frühwarnungen der CSA-Beschwerdestelle und tägliche Berichte über Spam-Traps
+* Schutz der Reputation durch frühzeitige Warnungen der CSA-Beschwerdestelle und tägliche Berichte über Spam-Fallen
 
-ISPs können diese Dienste kostenlos nutzen, und die Anzahl der ISPs kann je nach Whitelist variieren.
+ISPs können diese Dienste kostenlos nutzen, und die Anzahl der ISPs kann je nach zulassungsliste variieren.
 
-Da jedoch immer mehr ISPs ihre Anti-Spam-Filter auf Grundlage des Verhaltens jedes Posteingangsbesitzers erstellen, anstatt den Inhalt der Nachricht selbst zu analysieren, kann die Verwendung der IP-Zertifizierung keine Garantie für die Platzierung im Posteingang oder gar den Versand sein.
+Da jedoch immer mehr ISPs ihre Antispam-Filter auf Grundlage des Verhaltens jedes Posteingangsbesitzers erstellen, anstatt den Nachrichteninhalt selbst zu analysieren, kann die Verwendung der IP-Zertifizierung keine Garantie für die Platzierung im Posteingang oder gar die Bereitstellung sein.
