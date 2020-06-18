@@ -11,8 +11,11 @@ topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7e361d10d039718c421a3684c518347af2be951
+translation-type: tm+mt
+source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 78%
 
 ---
 
@@ -29,23 +32,23 @@ In diesem [Abschnitt](#conditions-for-sending-an-address-to-quarantine) werden d
 
 Die Profile, deren E-Mail-Adressen oder Telefonnummern unter Quarantäne sind, werden während der Nachrichtenvorbereitung automatisch ausgeschlossen (siehe [Für einen Versand in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-a-delivery)). Dies beschleunigt die Zustellung, da sich die Fehlerrate maßgeblich auf die Zustellgeschwindigkeit auswirkt.
 
-Teilweise werden E-Mails von Providern automatisch als Spam eingestuft, wenn die Anzahl ungültiger Adressen zu hoch ist. Durch die Quarantänefunktion vermeiden Sie, von diesen Providern auf eine Blacklist gesetzt zu werden.
+Teilweise werden E-Mails von Providern automatisch als Spam eingestuft, wenn die Anzahl ungültiger Adressen zu hoch ist. Quarantäne ermöglicht es Ihnen daher, einer blockierungsliste nicht von diesen Anbietern hinzugefügt zu werden.
 
 Zusätzlich helfen Ihnen Quarantänen, die Kosten des SMS-Versands zu senken, indem fehlerhafte Telefonnummern aus dem Versand ausgeschlossen werden.
 
 Weiterführende Informationen zu Best Practices zur Durchführung und Optimierung von Sendungen finden Sie auf [dieser Seite](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
 
-### Quarantäne im Vergleich zur Blacklist {#quarantine-vs-blacklisting}
+### Quarantäne vs. blockierungsliste {#quarantine-vs-block-list}
 
 Eine **Quarantäne** bezieht sich immer nur auf die Adresse, nicht aber auf das Profil selbst. Sollten zwei Profile dieselbe E-Mail-Adresse verwenden, sind beide von der Quarantäne betroffen.
 
 Falls jedoch ein Profil mit einer E-Mail-Adresse in Quarantäne eine neue Adresse angibt, kann es erneut in Versandzielgruppen aufgenommen werden.
 
-Im Gegensatz dazu sind es bei der **Blacklist** die Profile selbst, die vom Versand ausgeschlossen werden. Dies ist z. B. nach einem Opt-out der Fall. Weiterführende Informationen zum Blacklist-Vorgang finden Sie unter [Blacklists in Campaign verwenden](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). Weitere Informationen zum blockierungsliste-Verfahren finden Sie unter [Info zu &quot;opt-in&quot;und &quot;opt-out&quot;in der Kampagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
->Wenn ein Benutzer auf eine SMS-Nachricht mit einem Schlüsselwort wie &quot;STOP&quot; antwortet, um sich vom SMS-Versand abzumelden, wird sein Profil nicht wie bei einem E-Mail-Abmeldevorgang auf die Blacklist gesetzt. Die Telefonnummer des Profils wird unter Quarantäne gestellt und erhält den Status **[!UICONTROL Auf Blacklist]**. Der Status bezieht sich ausschließlich auf die Telefonnummer und das Profil wird nicht auf die Blacklist gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Wenn ein Benutzer auf eine SMS-Nachricht mit einem Suchbegriff wie &quot;STOP&quot;antwortet, um sich von SMS-Versänden abzumelden, wird sein Profil nicht wie im E-Mail-Ausschluss zur blockierungsliste hinzugefügt. The profile phone number is sent to quarantine with the **[!UICONTROL On block list]** status. Dieser Status bezieht sich nur auf die Telefonnummer, das Profil befindet sich nicht auf der blockierungsliste, sodass der Benutzer weiterhin E-Mail-Nachrichten erhält. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## In Quarantäne befindliche Adressen identifizieren  {#identifying-quarantined-addresses}
 
@@ -85,7 +88,7 @@ Adobe Campaign verwaltet Quarantänen entsprechend dem Fehlertyp und dem Grund, 
 
    Wenn eine Nachricht bei einem erneuten Versuch zugestellt werden kann, wird der Fehlerzähler der in Quarantäne befindlichen Adresse neu initialisiert. Der Status der Adresse wird auf **[!UICONTROL Gültig]** gesetzt und mithilfe des Workflows **[!UICONTROL Datenbankbereinigung]** wird die Adresse nach zwei Tagen aus der Quarantäneliste gelöscht.
 
-Wenn ein Benutzer eine E-Mail als Spam kennzeichnet (**Feedback Loop**), wird die Nachricht automatisch an ein von Campaign verwaltetes technisches Postfach weitergeleitet. Die E-Mail-Adresse des Benutzers wird dann automatisch unter Quarantäne gestellt und der Status in **[!UICONTROL Auf Blacklist]** geändert. Der Status bezieht sich ausschließlich auf die Adresse und das Profil wird nicht auf die Blacklist gesetzt, sodass der Empfänger nach wie vor SMS-Nachrichten und Push-Benachrichtigungen erhält.
+Wenn ein Benutzer eine E-Mail als Spam kennzeichnet (**Feedback Loop**), wird die Nachricht automatisch an ein von Campaign verwaltetes technisches Postfach weitergeleitet. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL On block list]** status. Dieser Status bezieht sich nur auf die Adresse, das Profil befindet sich nicht auf der blockierungsliste, sodass der Benutzer weiterhin SMS- und Push-Benachrichtigungen erhält.
 
 >[!NOTE]
 Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
