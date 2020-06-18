@@ -12,8 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+translation-type: tm+mt
+source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 96%
 
 ---
 
@@ -69,7 +72,7 @@ Im Standard-Ausführungsmodus werden die Regeln in der folgenden Reihenfolge aus
 1. Kontrollregeln, wenn sie zu Beginn der Zielgruppenbestimmung angewendet werden
 1. Filterregeln:
 
-   * Nativ in der Anwendung enthaltene Regeln für die Adressenqualifizierung: definierte Adressen/nicht überprüfte Adressen/Adressen auf der Blacklist/Adressen in Quarantäne/Adressenqualität
+   * Native Antragsregeln für Adressqualifikation: definierte Adresse / nicht verifizierte Adresse / Adresse auf der blockierungsliste / Quarantäne Adresse / Adresse Qualität.
    * Vom Benutzer definierte Filterregeln
 
 1. Kontrollregeln, wenn sie am Ende der Zielgruppenbestimmung angewendet werden
