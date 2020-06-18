@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2293'
-ht-degree: 100%
+source-wordcount: '2298'
+ht-degree: 99%
 
 ---
 
@@ -240,6 +240,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
    * Eine Zeitüberschreitung bei der Verbindung zwischen dem Versand-Server von Adobe Campaign und dem Empfangs-Server
    * Ein Problem bei der Zustellbarkeit
    * Ein fehlerhafter Workflow
+
    Wenn der Versand durch einen Workflow ausgelöst wird, prüfen Sie, ob der Workflow korrekt gestartet wurde. Weiterführende Informationen dazu finden Sie unter [Workflow ausführen](../../automating/using/about-workflow-execution.md). Sollten die Probleme fortbestehen, wenden Sie sich an Ihren Adobe-Campaign-Administrator.
 
 * **[!UICONTROL Sendungen mit fehlgeschlagener Vorbereitung]**: Bei der Versandvorbereitung kann in folgenden Fällen ein Fehler auftreten:
@@ -248,20 +249,23 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
    * Die Personalisierungsfelder enthalten falsche Syntax.
    * Die Zielgruppe fehlt.
    * Der Versand übersteigt das Größenlimit.
+
    Weiterführende Informationen dazu finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md). Diese Fehler werden jedoch normalerweise während der Nachrichtenanalyse erkannt. Näheres dazu finden Sie unter [Kontrollregeln](../../sending/using/control-rules.md).
 
 * Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Softbounce-Fehlerrate]** sind:
 
    * Der Server des Empfängers ist ausgefallen.
    * Das Postfach des Empfängers ist voll.
+
    Weitere Informationen erhalten Sie in den Tabs **[!UICONTROL Ausschlusslogs]** und **[!UICONTROL Ausschlussgründe]** des Versandlogs. Siehe [Ausschlusslogs](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
    Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Hardbounce-Fehlerrate]** sind:
 
-   * Der Empfänger steht auf der Blacklist, was bedeutet, dass er nicht mehr kontaktiert werden möchte.
+   * Der Empfänger befindet sich auf der blockierungsliste, was bedeutet, dass er nicht mehr kontaktiert werden möchte.
    * Die E-Mail-Adresse des Empfängers existiert nicht.
    * Die Domain des Empfängers existiert nicht.
    * Der Server des Empfängers blockiert die Zustellung.
+
    Um Soft- und Hardbounce-Fehler zu vermeiden, folgen Sie den unten stehenden Empfehlungen:
 
    * Erstellen Sie Filter-Typologieregeln, um einen Teil der Zielgruppe während der Versandanalyse auszuschließen, wie etwa Empfänger in Quarantäne. Näheres dazu finden Sie unter [Filterregel erstellen](../../sending/using/filtering-rules.md).
@@ -280,5 +284,5 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 
 * [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
-* [Blacklists in Campaign verwenden](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
