@@ -12,15 +12,18 @@ discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 87%
 
 ---
 
 
 # Verteilung nach Domain{#breakdown-by-domains}
 
-Dieser Bericht enthält die Leistungsdaten für jede in einer Audience eines E-Mail-Versands vertretenen Domain. Wenn es sich um einen Kampagnen- oder Programmbericht handelt, sind die Leistungsdaten für mehrere Audiences verfügbar. Diese Daten ermöglichen insbesondere eine nach Domain durchgeführte Analyse in Bezug auf spezifische Ereignisse, wie z. B. die Anzeige von Links, das Setzen von URLs auf die Blacklist etc.
+Dieser Bericht enthält die Leistungsdaten für jede in einer Audience eines E-Mail-Versands vertretenen Domain. Wenn es sich um einen Kampagnen- oder Programmbericht handelt, sind die Leistungsdaten für mehrere Audiences verfügbar. Diese Daten ermöglichen insbesondere eine nach Domain durchgeführte Analyse in Bezug auf spezifische Ereignisse, Beispielsweise Linkanzeige, URL auf blockierungsliste usw.
 
 ![](assets/delivery_reports_6.png)
 
@@ -39,5 +42,5 @@ Die zweite Tabelle **Trackingstatistiken** enthält die verfügbaren Daten bezü
 * **Klicken**: Die Anzahl der Klicks auf einen Inhalt in einem Versand.
 * **Abgemeldet**: Gesamtanzahl der Klicks auf den Abmelde-Link.
 * **Mirrorseite**: Die Anzahl der Klicks auf die Mirrorseite.
-* **Auf Blacklist**: Die Anzahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben (siehe [Blacklists in Campaign verwenden](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **Auf die Blockierungsliste gesetzt**: Die Anzahl der Empfänger, die eine E-Mail als Spam oder Junk angemeldet haben (siehe [Blockierungsliste-Management in der Kampagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 
