@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '5904'
-ht-degree: 96%
+source-wordcount: '5951'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 96%
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
 ## Aktualisierungen der Dokumentation - Juni 2020 {#doc-updates-june-2020}
+
+Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. Einige dieser Begriffe sind möglicherweise in der Produktoberfläche, in Optionsnamen und im internen Code noch vorhanden, werden jedoch in den kommenden Kampagnen-Versionen mit &quot;blockierungsliste&quot;und &quot;zulassungsliste&quot;ersetzt.
 
 Verweise auf die alte Support-Website wurden durch die neue URL ersetzt. [Mehr dazu](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -38,7 +40,7 @@ Die Übersichtsseite des Campaign Standards wurde erweitert und in thematische T
 
 Der Bereich &quot;Parameter für E-Mail-Kanal&quot;wurde mit weiteren Informationen zu den Feldern für autorisierte Masken und der Versandberichte-ID geklärt. [mehr dazu](../../administration/using/configuring-email-channel.md)
 
-Die Konfiguration einer mobilen Anwendung mit Adobe Experience Platform-SDKs ist jetzt in der Hauptdokumentation mit weiteren Informationen zum Synchronisieren der Mobile App AEPSDK aus dem technischen Arbeitsablauf beim Start verfügbar. [mehr dazu](../../administration/using/configuring-a-mobile-application.md)
+Die Konfiguration einer Mobilanwendung mit Adobe Experience Platform-SDKs ist jetzt in der Hauptdokumentation mit weiteren Informationen zum Synchronisieren der Mobile App AEPSDK aus dem technischen Arbeitsablauf für Launch verfügbar. [mehr dazu](../../administration/using/configuring-a-mobile-application.md)
 
 ## Version 20.3 - Mai 2020    {#release-20-3---may-2020}
 
@@ -562,7 +564,7 @@ Informationen zu Trackinglog-Typen wurden hinzugefügt – [mehr dazu](../../sen
 
 Der Abschnitt zur Abfrageaktivität wurde mit Abfragebeispielen ergänzt – [mehr dazu](../../automating/using/query.md#query-samples)
 
-Der Abschnitt zum Blacklisting wurde in &quot;Funktionsweise des Opt-in- und Opt-out-Verfahrens&quot; umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Der Bereich für blockierungsliste wurde umbenannt in &quot;Verfahren für die Teilnahme und das Ausschluss von der Teilnahme&quot;. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Best Practices für die Verwendung der von Adobe gehosteten SFTP-Server – [mehr dazu](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -586,7 +588,7 @@ Verwendung benutzerdefinierter Ressourcen in Transaktionsnachrichten – [mehr d
 
 Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfragen – [mehr dazu](../../api/using/creating-a-privacy-request.md)
 
-Informationen zur Einrichtung von Opt-out-Landingpages wurden hinzugefügt, über die sich Empfänger auf die Blacklist setzen lassen können – [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Es wurden Informationen zum Einrichten von Landingpages hinzugefügt, die Ihren Empfängern die Möglichkeit geben, der blockierungsliste hinzugefügt zu werden. [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Der Abschnitt [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md) wurde neu angeordnet und ein [schrittweises Anwendungsbeispiel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) wurde hinzugefügt.
 
@@ -640,7 +642,7 @@ Eine Anleitung wurde hinzugefügt, in der beschrieben wird, wie Nachrichten ents
 
 Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]** wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt – [mehr dazu](../../channels/using/customizing-a-push-notification.md)
 
-Neuer Abschnitt zur Verwaltung von Blacklists – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Neuer Abschnitt zum blockierungsliste-Management. [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Aktualisierte Informationen zu Zustellproblemen und Quarantänen – [mehr dazu](../../sending/using/monitoring-a-delivery.md)
 
@@ -802,7 +804,7 @@ Zahlreiche Screenshots wurden entsprechend den Änderungen der Benutzeroberfläc
 
 Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with your mobile app&quot; – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html)
 
-Anleitung zum Konfigurieren des Hauptdienstes &quot;People&quot;oder der Integration von Audience Manager mit Adobe Campaign havget-started-communication-Kanals.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Anleitung zum Konfigurieren des Hauptdienstes &quot;People&quot;oder der Integration von Audience Managern mit Adobe Campaign havget-started-communication-Kanals.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
