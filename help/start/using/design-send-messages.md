@@ -12,7 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -79,7 +82,7 @@ Personalisierte Nachrichten sind wichtig, wenn Sie relevante Inhalte versenden, 
 * [Dynamische Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) in Ihre Nachrichten einfügen
 * [Vordefinierte Personalisierungsbausteine](../../designing/using/personalization.md#adding-a-content-block) einfügen
 * [Absender](../../designing/using/subject-line.md) einer E-Mail oder einer SMS personalisieren
-* [Betreffzeile](../../designing/using/subject-line.md) einer E-Mail personalisieren oder Funktionen der [prädiktiven Betreffzeile](../../designing/using/subject-line.md#predictive-subject-line) verwenden, um sie zu optimieren
+* [Betreffzeile](../../designing/using/subject-line.md) einer E-Mail personalisieren oder Funktionen der [prädiktiven Betreffzeile](../../designing/using/subject-line.md#subject-line) verwenden, um sie zu optimieren
 * [Bedingten Inhalt in einer E-Mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) oder [auf einer Landingpage](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) erstellen
 * [Dynamischen Text](../../channels/using/defining-dynamic-text.md) in eine SMS oder eine Push-Benachrichtigung einfügen
 
