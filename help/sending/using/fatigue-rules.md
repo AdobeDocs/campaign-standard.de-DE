@@ -11,8 +11,11 @@ topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
+translation-type: tm+mt
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '2445'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ Um eine Typologieregel vom Typ **[!UICONTROL Ermüdung]** zu erstellen und zu ko
 
    ![](assets/fatigue20.png)
 
-1. Wählen Sie den Tab **[!UICONTROL Typologien]** aus und verknüpfen Sie Ihre Typologieregel mit der für Ihre Sendungen verwendeten Typologie. Siehe [Typologien verwalten](../../sending/using/about-typology-rules.md#managing-typologies) und [Typologieregeln](../../sending/using/about-typology-rules.md#typology-rules).
+1. Wählen Sie den Tab **[!UICONTROL Typologien]** aus und verknüpfen Sie Ihre Typologieregel mit der für Ihre Sendungen verwendeten Typologie. Siehe [Typologien verwalten](../../sending/using/managing-typologies.md) und [Typologieregeln](../../sending/using/managing-typology-rules.md).
 
    ![](assets/fatigue12.png)
 
