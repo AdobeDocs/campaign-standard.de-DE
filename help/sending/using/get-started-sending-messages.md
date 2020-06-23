@@ -12,7 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 26%
 
 ---
 
@@ -40,7 +43,7 @@ Campaign Standard **message preparation** analyzes the target, the personalizati
 
 **Vorschau und Testen** Ihrer Nachrichten mit verschiedenen Funktionen: Senden Sie Testversand, um Profil oder zielgerichtete Profil zu testen, die Betreffzeile Ihrer E-Mails zu testen und die Wiedergabe Ihrer Nachrichten zu überprüfen, um sicherzustellen, dass sie auf verschiedenen Web-Clients, Web-Mails und Geräten optimal angezeigt werden.
 
-Nutzen Sie die Planungsfunktionen für Kampagnen$$, um zu definieren, wann Ihre Nachrichten gesendet werden. Sie können beispielsweise das Senden an die Zeitzone des Empfängers anpassen, die Sendezeit optimieren oder das Versanddatum berechnen.
+Nutzen Sie Planungsfunktionen für Kampagnen, um zu definieren, wann Ihre Nachrichten gesendet werden. Sie können beispielsweise den Versand an die Zeitzone des Empfängers anpassen, die Sendezeit optimieren oder das Versanddatum berechnen.
 
 Verwenden Sie **Typologien** , um während der Vorbereitung zu überprüfen, ob Ihre Nachricht gültig ist und Ihre Qualitätskriterien durch Ermüdungs-, Kontroll- und Targeting-Regeln erfüllt. So können Sie beispielsweise überprüfen, ob Ihre E-Mails immer eine Betreffzeile enthalten, oder Abonnenten von den Empfängern der Nachricht ausschließen.
 
@@ -51,7 +54,7 @@ mehr dazu:
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 * [E-Mail-Rendering](../../sending/using/email-rendering.md)
 * [Versandplanung](../../sending/using/about-scheduling-messages.md)
-* [Typologien und Typologieregeln](../../sending/using/about-typology-rules.md)
+* [Über Typologien und Typologieregeln](../../sending/using/about-typology-rules.md)
 
 ## Senden, überwachen und verfolgen {#send-track-messages}
 
@@ -86,11 +89,11 @@ mehr dazu:
 * [Überwachen der Zustellbarkeit](../../sending/using/monitor-deliverability.md)
 * [Verbessern Ihres Rufs](../../sending/using/improving-reputation.md)
 * [Technische Empfehlungen](../../sending/using/technical-recommendations.md)
-* [Steuern des Durchsatzes von Versänden](../../reporting/using/delivery-throughput.md)
+* [Versanddurchsatz kontrollieren](../../reporting/using/delivery-throughput.md)
 
 ## Zusätzliche Ressourcen
 
-* [Entwerfen von E-Mails zum A/B-Test](../../channels/using/designing-an-a-b-test-email.md)
+* [E-Mails für A/B-Test entwerfen](../../channels/using/designing-an-a-b-test-email.md)
 * [Senden eines Tests, Vorbereiten und Senden einer E-Mail (Video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Überprüfen eines E-Mail-Versands und von Berichten (Video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Erste Schritte mit E-Mails](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
