@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 9%
@@ -20,7 +20,7 @@ ht-degree: 9%
 ---
 
 
-# Erste Schritte mit Campaign Standard {#about-campaign-standard}
+# Get Started with Campaign Standard {#about-campaign-standard}
 
 Adobe Campaign Standard ist ein leistungsstarkes Tool zur benutzerübergreifenden Kampagnenverwaltung, mit dem Sie Ihre Online- und Offline-Strategien zur Erstellung personalisierter Kundenerlebnisse ausrichten können.
 
@@ -56,7 +56,7 @@ Planen, koordinieren und orchestrieren Sie Kanal-Kampagnen.
 
 Entwerfen und senden Sie Nachrichten auf Online- und Offline-Kommunikations-Kanälen, einschließlich der Optimierung von E-Mail-Versänden für mehrere Geräte durch Tests und reaktionsfähige Designstrategien.
 
-**Nutzen Sie Kampagne-Kommunikations-Kanal** , um Ihre Marketing-Kampagnen am richtigen Ort bereitzustellen: E-Mail, SMS, Push-Benachrichtigung, In-App-Nachricht, Direktnachricht, Landingpages. Mit Vorlagen für alle Arten von Nachrichten (transaktionale, wiederkehrende, mehrsprachige Nachrichten) gewinnen Sie Zeit und Konsistenz in Ihrer Messaging-Strategie. Sie können A/B-Tests durchführen und die Interessen Ihrer Audience mithilfe von Personalisierungs- und dynamischen Inhaltsfunktionen erfassen. [Erste Schritte mit Communication Kanäle](../../channels/using/get-started-communication-channels.md)
+**Nutzen Sie Kampagne-Kommunikations-Kanal** , um Ihre Marketing-Kampagnen am richtigen Ort bereitzustellen: E-Mail, SMS, Push-Benachrichtigung, In-App-Nachricht, Direktnachricht, Landingpages. Mit Vorlagen für alle Arten von Nachrichten (transaktionale, wiederkehrende, mehrsprachige Nachrichten) gewinnen Sie Zeit und Konsistenz in Ihrer Messaging-Strategie. Führen Sie A/B-Tests durch und erfassen Sie das Interesse Ihrer Audience mithilfe von Personalisierungs- und dynamischen Inhaltsfunktionen. [Erste Schritte mit Communication Kanäle](../../channels/using/get-started-communication-channels.md)
 
 **Verwenden Sie Kampagne Email Designer** , um faszinierende, individuell zugeschnittene E-Mail-Nachrichten zu erstellen. Beginn von Grund auf oder nutzen integrierte Inhaltsfragmente oder Vorlagen, um Ihre E-Mails mit dem für reaktionsfähiges Design optimierten HTML-Format zu gestalten. [Erste Schritte mit dem Entwurf von E-Mail-Inhalten](../../designing/using/designing-content-in-adobe-campaign.md)
 
