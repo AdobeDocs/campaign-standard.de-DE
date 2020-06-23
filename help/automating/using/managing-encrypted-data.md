@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 18%
+source-wordcount: '906'
+ht-degree: 14%
 
 ---
 
@@ -26,9 +26,13 @@ ht-degree: 18%
 
 In manchen Fällen müssen die Daten, die Sie auf Campaign-Server importieren möchten, verschlüsselt werden, z. B. wenn sie PII-Daten enthalten.
 
-Um verschlüsselte Dateien importieren oder exportieren zu können, müssen Sie sich zunächst an den Adobe-Kundendienst wenden, damit für Ihre Instanz die erforderlichen Verschlüsselungs-/Entschlüsselungsbefehle bereitgestellt werden.
+Um ausgehende Daten verschlüsseln oder eingehende Daten entschlüsseln zu können, müssen Sie GPG-Schlüssel über die [Systemsteuerung](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)verwalten.
 
-Senden Sie dazu eine Anfrage mit folgenden Angaben:
+>[!NOTE]
+>
+>Systemsteuerung steht allen auf AWS gehosteten Kunden zur Verfügung (mit Ausnahme von Kunden, die ihre Marketinginstanzen auf einer lokalen Plattform hosten).
+
+Wenn Sie nicht berechtigt sind, die Systemsteuerung zu verwenden, müssen Sie sich an den Adobe-Kundendienst wenden, damit diese Ihrer Instanz die erforderlichen Verschlüsselungs-/Entschlüsselungsbefehle bereitstellen. Senden Sie dazu eine Anfrage mit folgenden Angaben:
 
 * Dem **Titel**, der in der Campaign-Benutzeroberfläche angezeigt wird, zum Verwenden des Befehls. Beispiel: &quot;Datei verschlüsseln&quot;.
 * Dem **Befehl** zum Installieren in Ihrer Instanz.
@@ -36,12 +40,6 @@ Senden Sie dazu eine Anfrage mit folgenden Angaben:
 Once the request is processed, the encryption / decryption commands will be available in the **[!UICONTROL Pre-processing stage]** field from the **[!UICONTROL Load file]** and **[!UICONTROL Extract file]** activities. Diese können Sie zum Entschlüsseln oder Verschlüsseln der Dateien verwenden, die Sie importieren oder exportieren möchten.
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->Beachten Sie, dass GPG-Schlüssel über die Systemsteuerung zu Ihrer Instanz hinzugefügt werden können, die für alle auf AWS gehosteten Kunden verfügbar ist (mit Ausnahme von Kunden, die ihre Marketinginstanzen auf einer lokalen Plattform hosten).
->
->For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html).
 
 **Verwandte Themen:**
 
