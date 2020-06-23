@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5951'
+source-wordcount: '5969'
 ht-degree: 94%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 94%
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
 ## Aktualisierungen der Dokumentation - Juni 2020 {#doc-updates-june-2020}
+
+Es wurden Anwendungsfälle zum [Verschlüsseln](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) und [Entschlüsseln](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) von Daten mithilfe der Systemsteuerung und Kampagnen-Workflows hinzugefügt.
 
 Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. Einige dieser Begriffe sind möglicherweise in der Produktoberfläche, in Optionsnamen und im internen Code noch vorhanden, werden jedoch in den kommenden Kampagnen-Versionen mit &quot;blockierungsliste&quot;und &quot;zulassungsliste&quot;ersetzt.
 
@@ -484,7 +486,7 @@ Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../.
 
 In-App-Messaging (Beta) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
-Integration von Adobe Launch für Mobile Apps (Beta) – [mehr dazu ](../../sending/using/about-typology-rules.md#typology-rules)
+Integration von Adobe Launch für Mobile Apps (Beta) – [mehr dazu ](../../sending/using/managing-typologies.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
@@ -498,7 +500,7 @@ Aktualisierter Abschnitt zu Push-Benachrichtigungen in nativen Berichten. [mehr 
 
 **Neue Funktionen in der Version**
 
-[Versand mit hoher Priorität](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) und [Typologiefilter](../../sending/using/about-typology-rules.md#typology-rules) für Abonnenten mobiler Apps.
+[Versand mit hoher Priorität](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) und [Typologiefilter](../../sending/using/managing-typologies.md) für Abonnenten mobiler Apps.
 
 Automatischer Import von Inhalten von einer URL während der Nachrichtenvorbereitung – [mehr dazu](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ Der Abschnitt zur Liste der Rollen wurde aktualisiert – [mehr dazu](../../admi
 
 Briefpost – [mehr dazu](../../channels/using/about-direct-mail.md)
 
-E-Mail-BCC – [mehr dazu](../../administration/using/configuring-email-channel.md#archiving-emails)
+E-Mail-BCC – [mehr dazu](../../sending/using/archiving.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
