@@ -12,8 +12,11 @@ discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 98%
 
 ---
 
@@ -37,8 +40,8 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie per Drag &amp; Drop eine **[!UICONTROL Segmentierung]** in Ihren Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
-1. Wählen Sie den **[!UICONTROL Ressourcentyp]** aus, den Sie segmentieren möchten:
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Wählen Sie auf der Registerkarte &quot; **[!UICONTROL Allgemein]** &quot;den **[!UICONTROL Ressourcentyp]** aus, auf dem die Segmentierung durchgeführt werden soll:
 
    * **[!UICONTROL Datenbank-Ressource]**, wenn sich die Segmentierung auf bereits in der Datenbank existierende Daten bezieht. Wählen Sie die **[!UICONTROL Filterdimension]** entsprechend den Daten aus, die Sie segmentieren möchten. Standardmäßig bezieht sich die Segmentierung auf **Profile**.
    * **[!UICONTROL Temporäre Ressource]**, wenn sich die Segmentierung auf temporäre Daten des Workflows bezieht: Wählen Sie die **[!UICONTROL Zielmenge]** mit den zu segmentierenden Daten aus. Dieser Fall kann im Anschluss an einen Dateiimport auftreten oder wenn die Daten der Datenbank angereichert wurden.
@@ -57,6 +60,7 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
    * **[!UICONTROL Titel]**: Titel des Segments.
    * **[!UICONTROL Segmentcode]**: der Population des Segments zugewiesene Code. Der Segmentcode kann mit einem Standardausdruck und Ereignisvariablen personalisiert werden (siehe [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
    * **[!UICONTROL Segment von der Population ausschließen]**: Hierdurch lässt sich das bestimmte Segment aus der Ausgabepopulation der Aktivität ausschließen. Diese Möglichkeit besteht nur, wenn die Option **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** ausgewählt wurde.
+
    ![](assets/wkf_segment_new_segment.png)
 
 1. Greifen Sie auf die Konfigurationsparameter zu, indem Sie in der Segmentliste der Aktivität das entsprechende Kästchen ankreuzen und mithilfe der Schaltfläche ![](assets/wkf_segment_parameters_24px.png) die Detailansicht öffnen.
@@ -70,6 +74,7 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
 
    * **[!UICONTROL Zufallsauswahl]**: Die Auswahl der Population des Segments ist willkürlich und berücksichtigt ggf. die im **[!UICONTROL Filter]**-Tab vorgenommene Konfiguration.
    * **[!UICONTROL Geordnete Auswahl]**: Die Population des Segments wird sortiert und die ersten X Elemente werden ausgewählt. Sie müssen folglich die zu berücksichtigenden Spalten sowie die Art der anzuwendenden Sortierung definieren. Wenn Sie z. B. das Feld **Alter** als Sortierungsspalte wählen, dabei eine **[!UICONTROL Absteigende Sortierung]** anwenden und anschließend 100 als Höchstgrenze festsetzen, werden lediglich die Profile der 100 ältesten Personen ausgewählt.
+
    Legen Sie anschließend die **[!UICONTROL maximale Größe]** des Segments fest.
 
    * **[!UICONTROL Größe (in % der Ursprungspopulation)]**: Bestimmen Sie mithilfe eines Prozentsatzes der Ursprungspopulation der Aktivität die Größe des Segments.
