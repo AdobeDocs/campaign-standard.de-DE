@@ -12,8 +12,11 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+translation-type: tm+mt
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,7 @@ Gehen Sie wie folgt vor, um direkt in Campaign Standard eine Adobe Experience Pl
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. Unified Segment Builder sollte jetzt in Ihrem Arbeitsbereich angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, das letztendlich zur Erstellung Ihrer Audience verwendet wird.
+1.  Segment Builder sollte jetzt in Ihrem Arbeitsbereich angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, das letztendlich zur Erstellung Ihrer Audience verwendet wird.
 
 1. Benennen Sie das Segment im rechten Bereich und geben Sie eine Beschreibung ein (optional).
 
@@ -58,7 +61,7 @@ Gehen Sie wie folgt vor, um direkt in Campaign Standard eine Adobe Experience Pl
 
 1. Definieren Sie die Regeln, um Profile zu identifizieren, die in Ihrer Audience abgerufen werden sollen.
 
-   Ziehen Sie dazu die gewünschten Attribute und/oder Ereignisse aus dem linken Bereich in den Arbeitsbereich, definieren Sie die entsprechenden Regeln und wählen Sie dann die Schaltfläche **[!UICONTROL Segment erstellen]** aus, um das Segment zu speichern (siehe [Verwenden von Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+   Ziehen Sie dazu die gewünschten Attribute und/oder Ereignisse aus dem linken Bereich in den Arbeitsbereich, definieren Sie die entsprechenden Regeln und wählen Sie dann die Schaltfläche **[!UICONTROL Segment erstellen]** aus, um das Segment zu speichern (siehe [Verwenden von Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
    ![](assets/aep_audiences_creation_query.png)
 
@@ -66,7 +69,7 @@ Die Audience kann jetzt aktiviert werden. Sie können sie als Zielgruppe für Ih
 
 ## Audiences ändern
 
-Um eine Audience zu bearbeiten, öffnen Sie sie und ändern Sie die Regeln nach Bedarf in der Unified Segment Builder-Benutzeroberfläche (siehe [Verwenden von Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+Um eine Audience zu bearbeiten, öffnen Sie sie und ändern Sie die Regeln nach Bedarf in der Segment Builder-Benutzeroberfläche (siehe [Verwenden von Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
 Wählen Sie nach Abschluss der Änderungen die Schaltfläche **[!UICONTROL Segment speichern]** aus, um Ihre Audience zu aktualisieren.
 
