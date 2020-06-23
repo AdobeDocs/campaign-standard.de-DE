@@ -11,8 +11,11 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
+translation-type: tm+mt
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +72,7 @@ Nach Übermittlung dieses Antrags wird dieser von Adobe bearbeitet. Sie werden e
 * [Schritt 3: Konfigurieren Sie den Campaign Tracking Server.](#step-3--configure-campaign-tracking-server)
 * [Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst.](#step-4--configure-the-visitor-id-service)
 
-### Schritt 1: Konfigurieren bzw. überprüfen Sie die externen Konten in Adobe Campaign.   {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Schritt 1: Konfigurieren bzw. überprüfen Sie die externen Konten in Adobe Campaign.  {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Zunächst müssen die externen Konten in Adobe Campaign konfiguriert bzw. überprüft werden. Diese Konten sollten von Adobe konfiguriert und die erforderlichen Informationen sollten Ihnen übermittelt worden sein.
 
@@ -81,8 +84,8 @@ Gehen Sie dabei folgendermaßen vor:
 
    ![](assets/integration_aam_1.png)
 
-1. Geben Sie den **[!UICONTROL Receiver-Server]**im folgenden Format ein:
-1. Geben Sie die **[!UICONTROL AWS-Zugriffsschlüssel-ID]**, den**[!UICONTROL  geheimen Zugriffsschlüssel]** und die **[!UICONTROL AWS-Region]**ein.
+1. Geben Sie den **[!UICONTROL Receiver-Server]** im folgenden Format ein:
+1. Geben Sie die **[!UICONTROL AWS-Zugriffsschlüssel-ID]**, den **[!UICONTROL geheimen Zugriffsschlüssel]** und die **[!UICONTROL AWS-Region]** ein.
 
 Ihre externen Konten sind für diese Integration somit konfiguriert.
 
@@ -97,30 +100,30 @@ Bitte beachten Sie, dass Adobe Campaign bei mehreren Websites mit unterschiedlic
 
 So konfigurieren Sie die Datenquelle **[!UICONTROL Empfänger - Besucherkennung (Defaultdatasources)]**:
 
-1. Wählen Sie in **[!UICONTROL Administration]**>**[!UICONTROL  Anwendungskonfiguration]** > **[!UICONTROL Freigegebene Datenquellen]**die Option**[!UICONTROL  Empfänger - Besucherkennung (Defaultdatasources)]**.
+1. Wählen Sie in **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Freigegebene Datenquellen]** die Option **[!UICONTROL Empfänger - Besucherkennung (Defaultdatasources)]**.
 
    ![](assets/integration_aam_2.png)
 
-1. Wählen Sie **[!UICONTROL Adobe Campaign]**aus der Dropdown-Liste**[!UICONTROL  Datenquelle/Alias]**.
-1. Geben Sie die von Adobe bereitgestellte **[!UICONTROL AAM Destination ID]**ein.
+1. Wählen Sie **[!UICONTROL Adobe Campaign]** aus der Dropdown-Liste **[!UICONTROL Datenquelle/Alias]**.
+1. Geben Sie die von Adobe bereitgestellte **[!UICONTROL AAM Destination ID]** ein.
 
    ![](assets/integration_aam_3.png)
 
-1. Wir empfehlen, die Abstimmungskriterien in der Kategorie **[!UICONTROL Abstimmungsvorgang]**nicht zu ändern und immer die**[!UICONTROL  Besucher-ID]** zu verwenden.
-1. Wählen Sie **[!UICONTROL Speichern]**aus.
+1. Wir empfehlen, die Abstimmungskriterien in der Kategorie **[!UICONTROL Abstimmungsvorgang]** nicht zu ändern und immer die **[!UICONTROL Besucher-ID]** zu verwenden.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 
-1. Wählen Sie in **[!UICONTROL Administration]**>**[!UICONTROL  Anwendungskonfiguration]** > **[!UICONTROL Freigegebene Datenquellen]**die Schaltfläche**[!UICONTROL  Erstellen]**.
-1. Bearbeiten Sie den **[!UICONTROL Titel]**Ihrer Datenquelle.
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Datenquelle/Alias]**die Datenquelle aus, die der**[!UICONTROL  DeclaredID]**-Datenquelle aus Audience Manager entspricht.
-1. Konfigurieren Sie Ihre Datenquelle, indem Sie den Wert für **[!UICONTROL Datenquelle/Alias]**und die**[!UICONTROL  AAM Destination ID]** eingeben, die von Adobe bereitgestellt wurden.
-1. Konfigurieren Sie den **[!UICONTROL Abstimmungsvorgang]**entsprechend Ihren Anforderungen.
-1. Wählen Sie **[!UICONTROL Speichern]**aus.
+1. Wählen Sie in **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Freigegebene Datenquellen]** die Schaltfläche **[!UICONTROL Erstellen]**.
+1. Bearbeiten Sie den **[!UICONTROL Titel]** Ihrer Datenquelle.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Datenquelle/Alias]** die Datenquelle aus, die der **[!UICONTROL DeclaredID]**-Datenquelle aus Audience Manager entspricht.
+1. Konfigurieren Sie Ihre Datenquelle, indem Sie den Wert für **[!UICONTROL Datenquelle/Alias]** und die **[!UICONTROL AAM Destination ID]** eingeben, die von Adobe bereitgestellt wurden.
+1. Konfigurieren Sie den **[!UICONTROL Abstimmungsvorgang]** entsprechend Ihren Anforderungen.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 >[!NOTE]
 >
->Das Feld **[!UICONTROL AAM Destination ID]**muss nicht ausgefüllt werden, wenn Sie die freigegebene Datenquelle für die[Campaign-Triggers-Integration](../../integrating/using/configuring-triggers-in-experience-cloud.md)konfigurieren. Die**[!UICONTROL  Priorität]** muss nur bei der Konfiguration der Triggers-Campaign-Integration definiert werden. Mit der Priorität wird angegeben, welche Datenquelle als Erste konfiguriert wird. Als Priorität kann jede beliebige Zahl, wie 1 oder 100, eingegeben werden. Je höher die Priorität ist, desto höher ist auch die Präferenz bei der Abstimmung.
+>Das Feld **[!UICONTROL AAM Destination ID]** muss nicht ausgefüllt werden, wenn Sie die freigegebene Datenquelle für die [Campaign-Triggers-Integration](../../integrating/using/configuring-triggers-in-experience-cloud.md) konfigurieren. Die **[!UICONTROL Priorität]** muss nur bei der Konfiguration der Triggers-Campaign-Integration definiert werden. Mit der Priorität wird angegeben, welche Datenquelle als Erste konfiguriert wird. Als Priorität kann jede beliebige Zahl, wie 1 oder 100, eingegeben werden. Je höher die Priorität ist, desto höher ist auch die Präferenz bei der Abstimmung.
 
 ### Schritt 3: Konfigurieren Sie den Campaign Tracking Server.   {#step-3--configure-campaign-tracking-server}
 
@@ -130,6 +133,6 @@ Stellen Sie sicher, dass der Campaign Tracking Server auf der Domain (CNAME) reg
 
 ### Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst.{#step-4--configure-the-visitor-id-service}
 
-Falls Ihr Visitor-ID-Dienst nie in Ihren Web-Parametern und Webseiten konfiguriert wurde, finden Sie im folgenden [Dokument](https://marketing.adobe.com/resources/help/de_DE/mcvid/mcvid-setup-aam-analytics.html) oder im folgenden [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) nähere Informationen dazu.
+Falls Ihr Visitor-ID-Dienst nie in Ihren Web-Parametern und Webseiten konfiguriert wurde, finden Sie im folgenden [Dokument](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) oder im folgenden [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) nähere Informationen dazu.
 
 Die Konfiguration und Einrichtung sind jetzt abgeschlossen. Die Integration kann somit zum Import und Export von Audiences und Segmenten verwendet werden.
