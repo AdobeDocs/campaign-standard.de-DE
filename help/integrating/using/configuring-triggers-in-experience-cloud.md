@@ -11,8 +11,11 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '872'
+ht-degree: 98%
 
 ---
 
@@ -63,13 +66,13 @@ Um diese Anwendungsbeispiele auszuführen, müssen Sie [Experience Cloud DTM Cor
 
    ![](assets/trigger_uc_conf_1.png)
 
-1. Die ID-Abstimmung zwischen der Website, Adobe Analytics und Adobe Campaign erfordert die Verwendung von Aliasing. Erstellen Sie ein Alias, z. B. "visitorid".
+1. Die ID-Abstimmung zwischen der Website, Adobe Analytics und Adobe Campaign erfordert die Verwendung von Aliasing. Erstellen Sie ein Alias, z. B. &quot;visitorid&quot;.
 
    ![](assets/trigger_uc_conf_2.png)
 
 ### Experience Cloud People Core Service konfigurieren {#configuring-experience-cloud-people-core-service}
 
-Das zuvor in DTM referenzierte Alias muss in Experience Cloud People Core Service mit einem Kundenattribut erstellt werden. Erstellen Sie ein neues und referenzieren Sie dasselbe DTM-Alias im Integrationscode (z. B. "visitorid").
+Das zuvor in DTM referenzierte Alias muss in Experience Cloud People Core Service mit einem Kundenattribut erstellt werden. Erstellen Sie ein neues und referenzieren Sie dasselbe DTM-Alias im Integrationscode (z. B. &quot;visitorid&quot;).
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -83,7 +86,7 @@ Das zuvor in DTM referenzierte Alias muss in Experience Cloud People Core Servic
 
    ![](assets/remarketing_1.png)
 
-1. Mithilfe von Alias lassen sich Kontakte in Analytics mit Profilen in Adobe Campaign abstimmen. Gleichen Sie die im Experience-Cloud-ID-Dienst definierten Alias mit einer freigegebenen Datenquelle in Campaign ab. Konfigurieren Sie die Alias-Auflösung in Adobe Campaign über eine Datenquelle (**[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Freigegebene Datenquellen]**). Achten Sie darauf, dass Sie diejenige Datenquelle im Dropdown-Menü **[!UICONTROL Datenquelle/Alias]** auswählen, die der zuvor erstellten Kundenattribut-Datenquelle zugeordnet ist.
+1. Mithilfe von Alias lassen sich Kontakte in Analytics mit Profilen in Adobe Campaign abstimmen. Gleichen Sie die im Experience-Cloud-ID-Dienst definierten Alias mit einer freigegebenen Datenquelle in Campaign ab. Konfigurieren Sie die Alias-Auflösung in Adobe Campaign über eine Datenquelle (**[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Freigegebene Datenquellen]**). Achten Sie darauf, dass Sie diejenige Datenquelle im Dropdown-Menü **[!UICONTROL Datenquelle/Alias]** auswählen, die der zuvor erstellten Kundenattribut-Datenquelle zugeordnet ist.
 
    ![](assets/trigger_uc_conf_5.png)
 
@@ -97,7 +100,7 @@ Ein Adobe Experience Cloud-Trigger muss erst erstellt werden, damit er in Campai
 
 Erstellen Sie einen neuen Trigger in Experience Cloud und wählen Sie dabei die auf Ihrer Website verwendete Report Suite aus. Wählen Sie die richtige Dimension aus, damit der Trigger ausgelöst wird.
 
-Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Adobe Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/triggers.html) und in diesem [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two).
+Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html) und in diesem [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Best Practices und Einschränkungen bei der Verwendung von Triggers {#triggers-best-practices-and-limitations}
 
@@ -106,7 +109,7 @@ Im Folgenden finden Sie eine Liste mit Best Practices und Einschränkungen für 
 * Wenn mehrere Instanzen von Campaign Standard ausgeführt werden, können Trigger von allen empfangen werden, vorausgesetzt sie weisen dieselbe IMS-Organisationskennung auf. Auch Analytics muss dieselbe IMS-Organisationskennung aufweisen.
 * Das Erstellen eines Triggers im Trigger Core Service unter Verwendung von Ereignissen in zwei unterschiedlichen Report Suites ist nicht möglich.
 * Trigger basieren auf Transaktionsnachrichten. Transaktionsnachrichten werden verwendet, wenn eine Nachricht sehr schnell gesendet werden muss. Transaktionsnachrichten können nicht in einer Warteschlange aufbewahrt und dann gemeinsam gesendet werden.
-* Trigger sind nicht deterministisch. Wenn ein Trigger erstellt wird, werden alle mit dem Cookie verknüpften Alias gesendet. Im Fall von gemeinsam verwendeten Browsern, wie z. B. bei Verkaufsständen, Bibliotheken, Internetcafés oder gemeinsam genutzten Geräten zu Hause (Ehepartner melden sich auf demselben Gerät an), kann kein Mapping zur richtigen Kennung durchgeführt werden. Alle bei der Anmeldung mit dem Browser verwendeten Kennungen werden an Campaign gesendet. Campaign sendet dann eine Nachricht auf der Basis der ersten Abstimmung. Wenn mehrere "email IDs" für die Abstimmung in Frage kommen, sendet Campaign keine E-Mail. Es gibt keine Möglichkeit für Campaign festzustellen, welche die richtige E-Mail-Kennung ist, wenn sie nicht von Analytics erfasst und gesendet wird.
+* Trigger sind nicht deterministisch. Wenn ein Trigger erstellt wird, werden alle mit dem Cookie verknüpften Alias gesendet. Im Fall von gemeinsam verwendeten Browsern, wie z. B. bei Verkaufsständen, Bibliotheken, Internetcafés oder gemeinsam genutzten Geräten zu Hause (Ehepartner melden sich auf demselben Gerät an), kann kein Mapping zur richtigen Kennung durchgeführt werden. Alle bei der Anmeldung mit dem Browser verwendeten Kennungen werden an Campaign gesendet. Campaign sendet dann eine Nachricht auf der Basis der ersten Abstimmung. Wenn mehrere &quot;email IDs&quot; für die Abstimmung in Frage kommen, sendet Campaign keine E-Mail. Es gibt keine Möglichkeit für Campaign festzustellen, welche die richtige E-Mail-Kennung ist, wenn sie nicht von Analytics erfasst und gesendet wird.
 * In Campaign kann kein Payload-Inhalt gespeichert werden. Mit Triggers können keine Profildaten aktualisiert werden.
 * Kundenattribute werden in Triggers nicht unterstützt (d. h. nur Report-Suite-Daten können zur Definition von Triggers-Geschäftsregeln verwendet werden).
 * Kollektionen von Kollektionen werden in Campaign nicht unterstützt.
