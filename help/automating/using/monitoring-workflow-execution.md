@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 Über die Schaltfläche ![](assets/printpreview_darkgrey-24px.png) können Sie auf das Protokoll und die Aufgaben des Workflows zugreifen.
 
-Der Workflow-Verlauf wird für die in den Ausführungseigenschaften eines Workflows angegebene Dauer gespeichert (siehe [Eigenschaften des Workflows](#workflow-properties)). Innerhalb dieser Dauer werden alle Logs gespeichert, auch wenn der Workflow neu gestartet wurde. Wenn Sie die Logs einer früheren Ausführung nicht beibehalten möchten, können Sie den Verlauf unter Verwendung der Schaltfläche ![](assets/delete_darkgrey-24px.png) bereinigen.
+Der Workflow-Verlauf wird für die in den Ausführungseigenschaften eines Workflows angegebene Dauer gespeichert (siehe [Eigenschaften des Workflows](../../automating/using/managing-execution-options.md)). Innerhalb dieser Dauer werden alle Logs gespeichert, auch wenn der Workflow neu gestartet wurde. Wenn Sie die Logs einer früheren Ausführung nicht beibehalten möchten, können Sie den Verlauf unter Verwendung der Schaltfläche ![](assets/delete_darkgrey-24px.png) bereinigen.
 
 Der **[!UICONTROL Protokoll]**-Tab enthält den Ausführungsverlauf aller oder aller markierten Aktivitäten. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
 
@@ -55,9 +55,9 @@ In diesem Fall wird die fehlerhafte Aufgabe abgebrochen. Dieser Modus ist insbes
 
 >[!NOTE]
 >
->Es besteht die Möglichkeit, diese Vorgehensweise innerhalb eines Workflows nur für bestimmte Aktivitäten zu konfigurieren. Wählen Sie hierzu die gewünschte Aktivität aus, öffnen Sie sie mithilfe des Schnellzugriffs ![](assets/edit_darkgrey-24px.png) und wählen Sie im Bereich **Ausführungsoptionen** den gewünschten Umgang mit Fehlern aus. Siehe [Ausführungsoptionen von Aktivitäten](#activity-execution-options).
+>Es besteht die Möglichkeit, diese Vorgehensweise innerhalb eines Workflows nur für bestimmte Aktivitäten zu konfigurieren. Wählen Sie hierzu die gewünschte Aktivität aus, öffnen Sie sie mithilfe des Schnellzugriffs ![](assets/edit_darkgrey-24px.png) und wählen Sie im Bereich **Ausführungsoptionen** den gewünschten Umgang mit Fehlern aus. Siehe [Ausführungsoptionen von Aktivitäten](../../automating/using/activity-properties.md).
 
-In den [Eigenschaften des Workflows](#workflow-properties) stehen zusätzliche Optionen zur Verwaltung von Fehlern zur Verfügung.
+In the [workflow&#39;s properties](../../automating/using/managing-execution-options.md), additional options related to error management are available.
 
 ![](assets/wkf_execution_error.png)
 
