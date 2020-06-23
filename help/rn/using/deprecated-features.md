@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 95%
+source-wordcount: '589'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
    <td> <p>Mit Campaign-Version 19.4. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Core Service von Adobe</a>.</p></br>
    <p>Siehe auch <a href="https://helpx.adobe.com/de/campaign/kb/acs-privacy.html">Datenschutzverwaltung in Campaign Standard</a>.</p>
   <p> 
-  <em>Version zum Entfernen von Zielgruppen: Version 20.4 der Kampagne</em></p>
+  <em>Target-Entfernungsversion: Version 20.4 der Kampagne</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
    <td> <p>Ab Campaign-Version 19.0 wird der alte E-Mail-Editor nicht mehr unterstützt. Verwenden Sie <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den neuen Email Designer</a>, um Ihren E-Mail-Inhalt zu erstellen und zu personalisieren. </p></br>
    <p>In <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">diesem Abschnitt</a> erfahren Sie, wie Sie Ihre E-Mail-Vorlagen für den neuen Editor anpassen.</p></br>
   <p> 
-  <em>Version zum Entfernen von Zielgruppen: Version 20.4 der Kampagne</em></p>
+  <em>Target-Entfernungsversion: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -135,7 +135,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign und Adobe Experience Cloud haben mit Campaign-Version 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 eingestellt. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">Mehr dazu</a>.</p>
+   <td> <p>Adobe Campaign und Adobe Experience Cloud haben mit Campaign-Version 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 eingestellt. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Mehr dazu</a>.</p>
    </td> 
   </tr> 
  </tbody> 
