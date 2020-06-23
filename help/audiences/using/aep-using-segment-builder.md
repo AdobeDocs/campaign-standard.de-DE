@@ -1,6 +1,6 @@
 ---
-title: Verwenden von Segment Builder
-description: Erfahren Sie, wie Sie mit Unified Segment Builder Audiences erstellen können.
+title: Verwenden des Segmentaufbaus
+description: Erfahren Sie, wie Sie mit Segment Builder Audiences erstellen können.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -12,23 +12,26 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
+translation-type: tm+mt
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 95%
 
 ---
 
 
-# Verwenden von Unified Segment Builder {#using-the-unified-segment-builder}
+# Verwenden von Segment Builder {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
 >Der Audience Destinations-Dienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Mit Unified Segment Builder können Sie Audiences erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Unified Profile Service](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html) stammen.
+The Segment Builder allows you to build audiences by defining rules based on data coming from the [Real-time Customer Profile](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html).
 
-In diesem Abschnitt werden allgemeine Konzepte zum Erstellen eines Segments vorgestellt. Detaillierte Informationen zu Unified Segment Builder selbst finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
+In diesem Abschnitt werden allgemeine Konzepte zum Erstellen eines Segments vorgestellt. Detaillierte Informationen zu Segment Builder selbst finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
 
-Die Benutzeroberfläche von Unified Segment Builder sieht wie folgt aus:
+Die Benutzeroberfläche von Segment Builder sieht wie folgt aus:
 
 * Im linken Bereich finden Sie alle verfügbaren Attribute, Ereignisse und Audiences zum Erstellen des Segments. Ziehen Sie dazu die gewünschten Felder per Drag-and-Drop in den Segment Builder-Arbeitsbereich.
 * Der mittlere Bereich bietet einen Arbeitsbereich zum Erstellen des Segments, indem Regeln aus den verfügbaren Feldern definiert und kombiniert werden.
@@ -40,7 +43,7 @@ Die Benutzeroberfläche von Unified Segment Builder sieht wie folgt aus:
 
 Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
-Unified Segment Builder sollte jetzt in Ihrem Arbeitsbereich angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, das letztendlich zur Erstellung Ihrer Audience dienen wird.
+ Segment Builder sollte jetzt in Ihrem Arbeitsbereich angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, das letztendlich zur Erstellung Ihrer Audience dienen wird.
 
 1. Benennen Sie das Segment und geben Sie dann eine Beschreibung ein (optional).
 
@@ -84,7 +87,7 @@ Die Felder sind in Tabs unterteilt:
 >
 >Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/multi-entity-segmentation.html).
 
-Standardmäßig zeigt Unified Segment Builder Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema einschließlich der Felder anzuzeigen, für die keine Daten vorhanden sind, aktivieren Sie in den Einstellungen die Option **[!UICONTROL Gesamtes XDM-Schema anzeigen]**.
+Standardmäßig zeigt der Segmentaufbau Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema einschließlich der Felder anzuzeigen, für die keine Daten vorhanden sind, aktivieren Sie in den Einstellungen die Option **[!UICONTROL Gesamtes XDM-Schema anzeigen]**.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -124,7 +127,7 @@ Sobald beide Regeln miteinander verknüpft sind, bilden sie einen Container.
 
 ## Vergleichen von Feldern
 
-Mit Unified Segment Builder können Sie zwei Felder miteinander vergleichen, um eine Regel zu definieren. Weibliche Personen beispielsweise, deren Wohnadresse eine andere Postleitzahl hat als die Arbeitsadresse.
+Mit Segment Builder können Sie zwei Felder miteinander vergleichen, um eine Regel zu definieren. Weibliche Personen beispielsweise, deren Wohnadresse eine andere Postleitzahl hat als die Arbeitsadresse.
 
 Gehen Sie dazu wie folgt vor:
 
