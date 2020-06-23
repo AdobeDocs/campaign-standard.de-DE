@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5455'
+source-wordcount: '5457'
 ht-degree: 99%
 
 ---
@@ -130,7 +130,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 
 **Neuheiten**
 
-* Die Integration von Adobe Campaign mit Adobe Target ermöglicht jetzt die Verwendung der [Berechtigungsfunktion](https://marketing.adobe.com/resources/help/de_DE/target/target/properties-overview.html) von Target. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
+* Die Integration von Adobe Campaign mit Adobe Target ermöglicht jetzt die Verwendung der [Berechtigungsfunktion](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) von Target. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
 * Benutzerdefinierte Ressourcen, die über eine owncopy-Relation mit der Profilressource verbunden sind, werden jetzt von DSGVO-Zugriffs- bzw. Löschanfragen berücksichtigt. Für einfache Relationen mit Kardinalität 1 und Kollektionsrelationen mit Kardinalität N muss in der benutzerdefinierten Ressource die Option &quot;Beim Löschen/Duplizieren des Ziel-Datensatzes werden auch die von der Relation referenzierten Datensätze gelöscht/dupliziert&quot; ausgewählt werden. Für einfache Relationen mit Kardinalität 0 oder 1 muss die Option &quot;Beim Löschen/Duplizieren des Datensatzes wird auch der von der Relation referenzierte Ziel-Datensatz gelöscht/dupliziert&quot; ausgewählt werden.
 
 **Sonstige Änderungen**
