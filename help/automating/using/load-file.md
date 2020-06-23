@@ -13,10 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1969'
-ht-degree: 100%
+source-wordcount: '2001'
+ht-degree: 98%
 
 ---
 
@@ -98,6 +98,9 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
       ![](assets/wkf_file_loading1.png)
 
 1. Sollte die Datei, deren Daten Sie laden möchten, in einer GZIP-Datei (.gz) komprimiert sein, wählen Sie im Feld **[!UICONTROL Vorab-Bearbeitungsetappe hinzufügen]** die Option **[!UICONTROL Datei-Dekomprimierung]** aus. Dadurch lässt sich die Datei dekomprimieren, bevor Sie mit dem Laden der Daten fortfahren. Diese Option steht nur zur Verfügung, wenn die Datei mit der in die Aktivität eingehenden Transition übermittelt wird.
+
+   Mit dem **[!UICONTROL Hinzufügen Feld für einen Schritt]** vor der Verarbeitung können Sie auch eine Datei entschlüsseln, bevor Sie sie in die Datenbank importieren. Weitere Informationen zum Arbeiten mit verschlüsselten Dateien finden Sie in [diesem Abschnitt](../../automating/using/managing-encrypted-data.md)
+
 1. Mit der Option **[!UICONTROL Zurückweisungen in einer Datei speichern]** können Sie eine Datei herunterladen, die während des Imports aufgetretene Fehler enthält, und auf eine Anschlussvorgangsetappe anwenden. Wenn die Option aktiviert ist, wird der ausgehende Übergang in &quot;Zurückweisungen&quot; umbenannt.
 
    >[!NOTE]
@@ -144,6 +147,7 @@ Verschiedene Optionen zum Umgang mit den Spaltenwerten stehen zur Auswahl:
    * **[!UICONTROL Standardwert verwenden]**: Ersetzt den Fehler verursachenden Wert durch einen Standardwert, welcher im Feld **[!UICONTROL Standardwert]** definiert wird.
    * **[!UICONTROL Bei fehlender Neukodifizierung Standardwert verwenden]**: Ersetzt den Fehler verursachenden Wert durch einen Standardwert, welcher im Feld **[!UICONTROL Standardwert]** definiert wird, es sei denn, für den fehlerhaften Wert wurde eine Umwandlung definiert (siehe Option **[!UICONTROL Neukodifizierung der Werte]** weiter oben).
    * **[!UICONTROL Bei fehlender Neukodifizierung Zeile zurückweisen]**: Die gesamte Zeile wird nicht verarbeitet, es sei denn, für den fehlerhaften Wert wurde eine Umwandlung definiert (siehe Option **[!UICONTROL Neukodifizierung der Werte]** weiter oben).
+
    >[!NOTE]
    >
    >**[!UICONTROL Die Fehlerverarbeitung]** bezieht sich auf Fehler, die die in der Importdatei angegebenen Werte betreffen. Hierbei kann es sich beispielsweise um einen falschen Datentyp handeln (das ausgeschriebene Wort &quot;vier&quot; bei einer Spalte vom Typ &quot;Ganze Zahl&quot;), einen String, der die maximal zulässige Anzahl an Zeichen überschreitet, ein Datum mit dem falschen Trennzeichen etc. Diese Option bezieht sich jedoch nicht auf Fehler, die aus dem Umgang mit Leerwerten resultieren.
