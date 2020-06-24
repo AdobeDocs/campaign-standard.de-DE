@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
+source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '199'
+ht-degree: 91%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 93%
 
 ## Neue Funktionen
 
-* Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. [mehr dazu](rn/using/documentation-updates.md)
-
 * **[Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html)**<br/>
 Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen
+
+* **[Externe API](automating/using/external-api.md)**<br/>Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
 
 * **[Handbuch zum Mobil-Versand in Campaign Standard](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/>
 Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand
