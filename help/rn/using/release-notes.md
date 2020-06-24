@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 97%
+source-wordcount: '1060'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 97%
 # Neueste Version{#latest-release}
 
 [Versionsplanung](../../rn/using/release-planning.md) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2020.md) | [Eingestellte Funktionen](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Neue Systemsteuerung Juni-Version** mit Active Profils Monitoring, Subdomain Delivery Audit und GPG Key Management. See [Control Panel Release Notes](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 ## Version 20.3 – Mai 2020 {#release-20-3---may-2020}
 
@@ -69,9 +71,7 @@ ht-degree: 97%
 </tbody> 
 </table>
 
->[!NOTE]
->
->Die Zertifikatverlängerung für CNAME-Subdomänen wird im Mai in der Systemsteuerung der Kampagne veröffentlicht. For more on this, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Die neue Systemsteuerung kann mit der Zertifikatverlängerung für CNAME-Subdomänen freigegeben** werden. See [Control Panel Release Notes](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
