@@ -12,7 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 35%
 
 ---
 
@@ -27,8 +30,8 @@ source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landingpages </a></p></td></tr>
 </table>
 
-Mit Adobe Campaign können Sie Kampagnen auf jedem Kanal starten, messen und automatisieren.
-Die Harmonisierung all Ihrer Marketing-Kanal ist keine unmögliche Aufgabe. Mithilfe von Adobe Campaign können Sie Kundendaten aus verschiedenen Systemen, Geräten und Kanälen in einem Profil zusammenführen. Stellen Sie dann zeitnahe und relevante Kampagnen bereit, die Ihre Kunden an den richtigen Orten und auf die richtige Art und Weise während der Customer Journey treffen.
+Mit Adobe Campaign können Sie Kampagnen in jedem Kanal starten, messen und automatisieren.
+Adobe Campaign ermöglicht die Harmonisierung aller Ihrer Marketing-Kanäle. Mithilfe von Adobe Campaign können Sie Kundendaten aus verschiedenen Systemen, Geräten und Kanälen in einem Profil zusammenführen. Danach können Sie zeitnahe und relevante Kampagnen ausführen, die Ihre Kunden während der Customer Journey an den richtigen Orten und auf die richtige Art und Weise ansprechen.
 
 ## Globale Konzepte {#global-concepts}
 
@@ -99,7 +102,8 @@ mehr dazu:
 
 * [Zustellbarkeit optimieren](../../sending/using/about-deliverability.md)
 * [Best Practices beim Versand](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
-* [Entwerfen von E-Mail-Inhalten](../../designing/using/designing-content-in-adobe-campaign.md)
+* [E-Mail-Inhalte gestalten](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEM-Inhalte importieren](../../integrating/using/creating-email-experience-manager.md)
-* [Senden von Nachrichten mit Workflows](../../automating/using/about-channel-activities.md)
+* [Nachrichten mit Workflows senden](../../automating/using/about-channel-activities.md)
 * [Tutorials zu Communication Kanals](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Verwendungsfall: Erstellen eines Kanal-übergreifenden Versands](../../automating/using/workflow-cross-channel-delivery.md)
