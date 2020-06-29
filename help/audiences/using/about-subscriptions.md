@@ -11,8 +11,11 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 80%
 
 ---
 
@@ -25,8 +28,14 @@ Sie können Anmeldemechanismen einrichten, um Ihren Kunden die Möglichkeit zu g
 
 Jeder Dienst ist mit folgenden Mechanismen ausgestattet:
 
-* Mechanismen zur **Anmeldung** (Opt-in) und **[!UICONTROL Abmeldung]**(Opt-out).
+* Mechanismen zur **Anmeldung** (Opt-in) und **[!UICONTROL Abmeldung]** (Opt-out).
 * Vorhandensein von **Mechanismen zur Bestätigung** von An- und/oder Abmeldung.
 * Verfolgung des **Verlaufs** von An- und Abmeldungen.
 
 Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werden. Weiterführende Informationen finden Sie in der [entsprechenden Dokumentation](../../api/using/creating-a-service.md).
+
+**Verwandte Themen**
+
+* [Verwendungsfall: Inkrementelle Abfrage über Abonnenten eines Dienstes](../../automating/using/incremental-query-on-subscribers.md)
+* [Verwendungsfall: Aktualisieren mehrerer Abonnement-Status aus einer Datei](../../automating/using/updating-subscriptions-from-file.md)
+* [Profile für einen bestimmten Dienst abonnieren, nachdem eine Datei importiert wurde](../../automating/using/subscribing-profiles-from-file.md)
