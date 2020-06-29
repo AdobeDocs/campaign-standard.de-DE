@@ -13,10 +13,10 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,10 @@ Eine **[!UICONTROL Vereinigung]** dient der Zusammenfassung der Ergebnisse mehre
 ## Anwendungskontext {#context-of-use}
 
 Eine **[!UICONTROL Vereinigung]** wird insbesondere im Rahmen einer Segmentierung, einer Audience-Erstellung oder der Zielgruppenbestimmung verwendet, um die Populationen der eingehenden Transitionen zusammenzuführen.
+
+**Verwandte Themen:**
+
+* [Verwendungsfall: Vereinigung auf zwei raffinierten Audiencen](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Konfiguration {#configuration}
 
