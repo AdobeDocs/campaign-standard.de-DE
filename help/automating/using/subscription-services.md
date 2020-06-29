@@ -12,13 +12,16 @@ discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+translation-type: tm+mt
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 98%
 
 ---
 
 
-# An-/Abmeldedienst{#subscription-services}
+# An-/Abmeldedienst {#subscription-services}
 
 ## Beschreibung {#description}
 
@@ -38,7 +41,12 @@ Sie können diese Aktivität beispielsweise im Anschluss an eine Zielgruppenbest
 
 Wenn dies in den entsprechenden Spalten der Datei spezifiziert wird, können Sie mithilfe dieser Aktivität auch die gewünschte Aktion auswählen (anmelden oder abmelden) sowie den Dienst, auf den sich die Aktion bezieht.
 
-## Konfiguration  {#configuration}
+**Verwandte Themen:**
+
+* [Verwendungsfall: Aktualisieren mehrerer Abonnement-Status aus einer Datei](../../automating/using/updating-subscriptions-from-file.md)
+* [Verwendungsfall: Abonnieren von Profilen einer Datei zu einem bestimmten Dienst](../../automating/using/subscribing-profiles-from-file.md)
+
+## Konfiguration {#configuration}
 
 1. Ziehen Sie einen **[!UICONTROL An-/Abmeldedienst]** in den Workflow-Arbeitsbereich.
 1. Schließen Sie ihn nach weiteren Zielgruppenbestimmungsaktivitäten an, wie beispielsweise nach einer Abfrage oder einer auf einen Import folgenden Abstimmung.
