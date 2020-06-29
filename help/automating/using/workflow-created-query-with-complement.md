@@ -1,6 +1,6 @@
 ---
-title: '"Workflow-Anwendungsfall: Sendungen mit einem Komplement erstellen"'
-description: '"Workflow-Anwendungsfall: Sendungen mit einem Komplement erstellen"'
+title: Sendungen mit einem Komplement erstellen
+description: Dieser Verwendungsfall zeigt, wie Versand mit einer Ergänzung erstellt werden.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,13 +12,16 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,segmentation
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 84%
 
 ---
 
 
-# Workflow-Anwendungsfall: Erstellen von Sendungen mit einem Komplement {#deliveries-with-complement}
+# Sendungen mit einem Komplement erstellen {#deliveries-with-complement}
 
 Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor weniger als einem Jahr in die Datenbank aufgenommen wurden, und eine andere E-Mail an Kunden, die vor mehr als einem Jahr aufgenommen wurden.
 
@@ -28,17 +31,17 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 
 ## Erstellen Sie eine Abfrageaktivität {#create-a-query-activity}
 
-1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]** eine **[!UICONTROL Abfrageaktivität]**![](assets/query.png) in den Arbeitsbereich.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
 1. Doppelklicken Sie auf die Aktivität.
-1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL Ist nicht leer]** aus.
-1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
+1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL Ist nicht leer]** aus.
+1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
 ![](assets/wf-complement-query.png)
 
 ## Erstellen Sie eine Segmentierungsaktivität {#create-a-segmentation-activity}.
 
-1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Targeting]**, eine **[!UICONTROL Segmentierungsaktivität]** in den Arbeitsbereich und doppelklicken Sie darauf.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. Bewegen Sie den Mauszeiger über das Segment und wählen Sie dann ![](assets/edit_darkgrey-24px.png) aus, um Kunden auszuwählen, die dieses Jahr zur Datenbank hinzugefügt wurden.
 1. Ziehen Sie **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Erstellt]** mit dem Filtertyp **[!UICONTROL Relativ]** aus.
 1. Ändern Sie die **[!UICONTROL Genauigkeit]** in **[!UICONTROL Jahr]** und wählen Sie **[!UICONTROL Dieses Jahr]** aus.
@@ -55,10 +58,10 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 
 ## E-Mail-Versand erstellen {#create-an-email-delivery}.
 
-1. Ziehen Sie in **[!UICONTROL Aktivitäten]** &gt; **[!UICONTROL Kanäle]** einen E-Mail-Versand hinter jedes Segment.
-1. Wählen Sie die Aktivität und danach ![](assets/edit_darkgrey-24px.png) aus, um die Bearbeitung zu ermöglichen.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after each segment.
+1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
 1. Wählen Sie **[!UICONTROL Einmalige E-Mail]** und danach **[!UICONTROL Weiter]** aus.
-1. Wählen Sie eine E-Mail-Vorlage und dann **[!UICONTROL Weiter]** aus.
+1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.
 1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer E-Mail zu erstellen, wählen Sie **[!UICONTROL Email Designer]** aus.
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
@@ -69,9 +72,3 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 ![](assets/wf-deliveries-with-a-complement.png)
-
-**Verwandte Themen:**
-
-* [Abfrage](../../automating/using/query.md)
-* Aktivität [Segmentierung](../../automating/using/segmentation.md)
-* [E-Mail-Versand](../../automating/using/email-delivery.md)
