@@ -12,8 +12,11 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
+translation-type: tm+mt
+source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 99%
 
 ---
 
@@ -30,12 +33,15 @@ Die **[!UICONTROL Dateiübertragung]** dient dem Empfang und Versand von Dateien
 >
 >Ab Version 20.3 werden mit der Aktivität **[!UICONTROL Dateiübertragung]** heruntergeladene Dateien nach X Tagen gelöscht, wobei X durch das Feld **[!UICONTROL Verlauf in Tagen]** unter dem Menü **[!UICONTROL Ausführung]** in den Workflow-Eigenschaften bestimmt wird.
 
-
 ## Anwendungskontext {#context-of-use}
 
 Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert. Bei der zu ladenden Datei kann es sich z. B. um eine Kontaktliste handeln.
 
 Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im Anschluss mithilfe der **[!UICONTROL Datei laden]**-Aktivität strukturiert werden können.
+
+**Verwandte Themen:**
+
+* [Verwendungsfall: Aktualisieren von Daten auf der Grundlage eines automatischen Dateidownloads](../../automating/using/update-data-automatic-download.md)
 
 ## Konfiguration {#configuration}
 
@@ -162,19 +168,3 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 >[!NOTE]
 >
 >Wenn die Aktivität nicht ausgeführt wird, wird der Ordner weder überprüft noch geleert. Seien Sie deshalb achtsam beim Transfer großer Dateien.
-
-## Beispiel    {#example}
-
-Das folgende Beispiel zeigt die Konfiguration einer **Dateiübertragung**-Aktivität, die von einer **Datei laden**-Aktivität und schließlich von einer **Daten-Update**-Aktivität gefolgt wird. Ziel ist die Anreicherung der Adobe-Campaign-Datenbank mit neuen Profilen und gegebenenfalls die Aktualisierung existierender Profile mit den durch den Workflow abgerufenen Daten.
-
-1. Ziehen Sie eine **Dateiübertragung** in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
-1. Wählen Sie im **[!UICONTROL Protokoll]**-Tab **SFTP** aus.
-1. Aktivieren Sie die Option **In einem externen Konto definierte Verbindungsparameter verwenden**.
-1. Geben Sie den Namen des externen Kontos an.
-1. Geben Sie den **Pfad der Dateien auf dem Remote-Server** an.
-
-   ![](assets/wkf_file_transfer_07.png)
-
-1. Validieren Sie die Aktivität und speichern Sie den Workflow.
-
