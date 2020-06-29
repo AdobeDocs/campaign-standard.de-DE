@@ -12,8 +12,11 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
+translation-type: tm+mt
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '1838'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,12 @@ Eine **[!UICONTROL Abfrage]** dient der Filterung und Extraktion einer Populatio
 
 Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
-## Anwendungskontext  {#context-of-use}
+**Verwandte Themen:**
+
+* [Beispiele für Abfragen ](../../automating/using/query-samples.md)
+* [Anwendungsfall: Retargeting-Workflow für eine erneute Versendung an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
+
+## Anwendungskontext {#context-of-use}
 
 **[!UICONTROL Abfragen]** kommen in verschiedenen Kontexten zum Einsatz:
 
@@ -65,8 +73,6 @@ Mit Zielgruppendimensionen und Ressourcen können Sie definieren, auf welchen El
 
 Zielgruppendimensionen werden in Zielgruppen-Mappings definiert. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/target-mappings-in-campaign.md).
 
-### Zielgruppendimension und Ressource einer Abfrage definieren  {#defining-the-targeting-dimension-and-resource-of-a-query}
-
 Die Zielgruppendimension und die Ressourcen werden bei der Erstellung eines Workflows im Tab **[!UICONTROL Eigenschaften]** der Abfrageaktivität definiert.
 
 >[!NOTE]
@@ -95,33 +101,9 @@ Beispiel für verfügbare Filter für die Ressource **[!UICONTROL Sendungen (del
 
 ![](assets/targeting_dimension5.png)
 
-### Von den Zielgruppendimensionen abweichende Ressourcen verwenden {#using-resources-different-from-targeting-dimensions}
+Normalerweise werden die Zielgruppendimension und die Ressource festgelegt, um Profile zu erfassen. Manchmal kann es aber nötig sein, eine von der Zielgruppendimension abweichende Ressource zu verwenden, um einen bestimmten Datensatz in einer entfernten Tabelle zu suchen.
 
-Normalerweise werden die Zielgruppendimension und die Ressource festgelegt, um Profile zu erfassen.
-
-Manchmal kann es aber nötig sein, eine von der Zielgruppendimension abweichende Ressource zu verwenden, um einen bestimmten Datensatz in einer entfernten Tabelle zu suchen.
-
-**Beispiel 1: Sie möchten Profile identifizieren, die im Versand mit dem Titel „Willkommen zurück!“ enthalten waren**.
-
-* In diesem Fall möchten wir Profile erfassen. Wir wählen für die Zielgruppendimension **[!UICONTROL Profile (profile)]** aus.
-* Wir möchten die ausgewählten Profile nach dem Versandtitel filtern. Deshalb wählen wir für die Ressource **[!UICONTROL Versandlogs]**. Auf diese Weise filtern wir direkt in der Versandlog-Tabelle, wodurch die Ausführung beschleunigt wird.
-
-![](assets/targeting_dimension6.png)
-
-![](assets/targeting_dimension7.png)
-
-**Beispiel 2: Sie möchten Profile identifizieren, die nicht im Versand mit dem Titel &quot;Willkommen zurück!&quot; enthalten waren.**
-
-Im vorherigen Beispiel haben wir eine von der Zielgruppendimension abweichende Ressource verwendet. Dieses Vorgehen ist nur möglich, wenn Sie einen Datensatz suchen, der in der entfernten Tabelle **vorhanden ist** (in unserem Beispiel Versandlogs).
-
-Wenn wir einen Datensatz suchen, der in der entfernten Tabelle **nicht vorhanden** ist (z. B. Profile, die nicht in einem bestimmten Versand enthalten waren), müssen wir dieselbe Ressource und Zielgruppendimension verwenden, da der Datensatz nicht in der entfernten Tabelle (Versandlogs) vorhanden ist.
-
-* In diesem Fall möchten wir Profile erfassen. Wir wählen für die Zielgruppendimension **[!UICONTROL Profile (profile)]** aus.
-* Wir möchten die ausgewählten Profile nach dem Versandtitel filtern. Es ist nicht möglich, direkt nach Versandlogs zu filtern, da wir nach einem Datensatz suchen, der nicht in der Versandlog-Tabelle vorhanden ist. Deshalb wählen wir für die Ressource **[!UICONTROL Profil (profile)]** und erstellen unsere Abfrage auf der Basis der Profiltabelle.
-
-![](assets/targeting_dimension8.png)
-
-![](assets/targeting_dimension9.png)
+Weitere Informationen hierzu finden Sie in diesem Verwendungsfall: [Verwenden von Ressourcen, die sich von Zielgruppendimensionen unterscheiden](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Anreichern von Daten {#enriching-data}
 
@@ -142,6 +124,8 @@ Nach dem Hinzufügen von Zusatzdaten können Sie die zunächst von der Abfrage a
 >[!NOTE]
 >
 >Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Leistungssteigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
+
+In [diesem Abschnitt](../../automating/using/personalizing-email-with-additional-data.md)wird ein Anwendungsfall erläutert, wie eine E-Mail mit zusätzlichen Daten personalisiert werden kann.
 
 ### Einfaches Feld hinzufügen  {#adding-a-simple-field}
 
@@ -246,135 +230,3 @@ Fügen Sie hierzu im Tab **[!UICONTROL Ergebnis verfeinern]** eine die Zusatzdat
 ![](assets/enrichment_output_filtering2.png)
 
 ![](assets/enrichment_output_filtering.png)
-
-### Beispiel: E-Mail mit Zusatzdaten personalisieren {#example--personalizing-an-email-with-additional-data}
-
-Das folgende Beispiel zeigt die Hinzufügung verschiedener Zusatzdatentypen zu einer Abfrage und die Verwendung von Zusatzdaten in Form von Personalisierungsfeldern in einer E-Mail.
-
-Für dieses Beispiel werden diverse [benutzerdefinierte Ressourcen](../../developing/using/data-model-concepts.md) verwendet:
-
-* Die **Profil**-Ressource wurde erweitert, um ein Feld hinzuzufügen, das die Speicherung von Treuepunkten für jedes Profil ermöglicht.
-* Eine **Transaktionen**-Ressource wurde erstellt. Sie enthält alle von den in der Datenbank enthaltenen Profilen getätigten Bestellungen. Für jede Transaktion wird ihr Datum, der bestellte Artikel und sein Preis gespeichert.
-* Eine **Artikel**-Ressource wurde erstellt. Sie enthält alle zum Verkauf stehenden Artikel.
-
-Ziel ist es, eine E-Mail an all jene Profile zu senden, für die mindestens eine Transaktion gespeichert wurde. In dieser E-Mail werden den Kunden die letzte von ihnen getätigte Transaktion sowie diverse Informationen zu allen bisher erfolgten Transaktionen in Erinnerung gerufen: Anzahl an bestellten Artikeln, Gesamtbetrag, Anzahl an bereits gesammelten Treuepunkten.
-
-Der Workflow stellt sich folgendermaßen dar:
-
-![](assets/enrichment_example1.png)
-
-1. Ziehen Sie eine **[!UICONTROL Abfrage]** in den Arbeitsbereich, um alle Profile abzurufen, die mindestens eine Transaktion getätigt haben.
-
-   ![](assets/enrichment_example2.png)
-
-   Definieren Sie im **[!UICONTROL Zusatzdaten]**-Tab der Abfrage die verschiedenen Daten, die in der E-Mail angezeigt werden sollen:
-
-   * Treuepunkte anhand eines einfachen Felds aus der Dimension **Profile.** Lesen Sie diesbezüglich auch den Abschnitt [Einfaches Feld hinzufügen](#adding-a-simple-field).
-   * Die Anzahl an bestellten Artikeln und der Gesamtbetrag anhand von zwei auf der Transaktionskollektion basierenden Aggregaten. Fügen Sie letztere im **[!UICONTROL Daten]**-Tab des Fensters zur Aggregatkonfiguration hinzu (Aggregate **Count** und **Sum**). Lesen Sie diesbezüglich auch den Abschnitt [Aggregat hinzufügen](#adding-an-aggregate).
-   * Betrag, Datum und Artikel der letzten Transaktion, die anhand einer Kollektion ermittelt werden.
-
-      Fügen Sie hierzu im **[!UICONTROL Daten]**-Tab des Fensters zur Kollektionskonfiguration die verschiedenen anzuzeigenden Felder hinzu.
-
-      Damit nur die neueste Transaktion ausgegeben wird, ist im Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** die Ziffer „1“ anzugeben und das Kollektionsfeld **Datum** im Tab **[!UICONTROL Sortierung]** in absteigender Reihenfolge zu sortieren.
-
-      Lesen Sie diesbezüglich auch die Abschnitte [Kollektion hinzufügen](#adding-a-collection) und [Hinzugefügte Daten sortieren](#sorting-additional-data).
-   ![](assets/enrichment_example4.png)
-
-   Wenn Sie prüfen möchten, ob die Daten in der ausgehenden Transition der Aktivität korrekt übermittelt werden, starten Sie den Workflow an dieser Stelle (bevor Sie die **[!UICONTROL E-Mail-Versand]**-Aktivität anschließen) und öffnen Sie die aus der Abfrage ausgehende Transition.
-
-   ![](assets/enrichment_example5.png)
-
-1. Schließen Sie nun einen **[!UICONTROL E-Mail-Versand]** an. Verwenden Sie im E-Mail-Inhalt die Personalisierungsfelder, die den in der Abfrage berechneten Daten entsprechen. Folgen Sie hierzu im Explorer der Personalisierungsfelder der Relation **[!UICONTROL Zusatzdaten (targetData)]**.
-
-   ![](assets/enrichment_example3.png)
-
-Ihr Workflow kann nun ausgeführt werden. Die mithilfe der Abfrage abgerufenen Profile erhalten eine personalisierte E-Mail mit den ihren Transaktionen entsprechenden Daten.
-
-## Beispiele für Abfragen  {#query-samples}
-
-### Abfrage nach einfachen Profilattributen {#targeting-on-simple-profile-attributes}
-
-Das folgende Beispiel zeigt eine Abfrage von Männern zwischen 18 und 30 Jahren, die in London leben.
-
-![](assets/query_sample_1.png)
-
-### Abfrage nach E-Mail-Attributen  {#targeting-on-email-attributes}
-
-Das folgende Beispiel zeigt eine Abfrage von Profilen, deren E-Mail-Adressen-Domain &quot;orange.co.uk&quot; lautet.
-
-![](assets/query_sample_emaildomain.png)
-
-Das folgende Beispiel zeigt eine Abfrage von Profilen, deren E-Mail-Adresse vorhanden ist.
-
-![](assets/query_sample_emailnotempty.png)
-
-### Abfrage von Profilen, deren Geburtstag heute ist  {#targeting-profiles-whose-birthday-is-today}
-
-Das folgende Beispiel zeigt eine Abfrage von Profilen, deren Geburtstag heute ist.
-
-1. Ziehen Sie den Filter **[!UICONTROL Geburtstag]** in Ihre Abfrage.
-
-   ![](assets/query_sample_birthday.png)
-
-1. Wählen Sie für den **[!UICONTROL Filtertyp]** die Option **[!UICONTROL Relativ]** und danach **[!UICONTROL Heute]** aus.
-
-   ![](assets/query_sample_birthday2.png)
-
-### Abfrage von Profilen, die einen bestimmten Versand geöffnet haben {#targeting-profiles-who-opened-a-specific-delivery}
-
-Das folgende Beispiel zeigt eine Abfrage von Profilen, die den Versand mit dem Titel &quot;Sommerzeit&quot; geöffnet haben.
-
-1. Ziehen Sie den Filter **[!UICONTROL Geöffnet]** in Ihre Abfrage.
-
-   ![](assets/query_sample_opened.png)
-
-1. Wählen Sie den entsprechenden Versand aus und danach **[!UICONTROL Bestätigen]**.
-
-   ![](assets/query_sample_opened2.png)
-
-### Abfrage von Profilen, für die Sendungen aus einem bestimmten Grund fehlgeschlagen sind {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
-
-Das folgende Beispiel zeigt eine Abfrage von Profilen, für die Sendungen fehlgeschlagen sind, weil ihr Posteingang voll war. Diese Abfrage steht nur Benutzern mit Administratorrechten zur Verfügung, die den Organisationseinheiten **[!UICONTROL Alle (all)]** angehören (siehe [diesen Abschnitt](../../administration/using/organizational-units.md)).
-
-1. Wählen Sie die Ressource **[!UICONTROL Versandlogs]** aus, um Filter direkt in der Versandlogtabelle zu verwenden (siehe [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](#using-resources-different-from-targeting-dimensions)).
-
-   ![](assets/query_sample_failure1.png)
-
-1. Ziehen Sie den Filter **[!UICONTROL Art des Fehlschlagens]** in Ihre Abfrage.
-
-   ![](assets/query_sample_failure2.png)
-
-1. Wählen Sie den entsprechenden Fehlertyp aus. In unserem Fall ist das **[!UICONTROL Postfach voll]**.
-
-   ![](assets/query_sample_failure3.png)
-
-### Abfrage von Profilen, die in den letzten sieben Tagen nicht kontaktiert wurden {#targeting-profiles-not-contacted-during-the-last-7-days}
-
-Das folgende Beispiel zeigt eine Abfrage von Profilen, die in den letzten sieben Tagen nicht kontaktiert wurden.
-
-1. Ziehen Sie den Filter **[!UICONTROL Versandlogs (logs)]** in Ihre Abfrage.
-
-   ![](assets/query_sample_7days.png)
-
-   Wählen Sie in der Dropdown-Liste die Option **[!UICONTROL Existiert nicht]** aus und ziehen Sie danach den Filter **[!UICONTROL Versand]** in Ihre Abfrage.
-
-   ![](assets/query_sample_7days1.png)
-
-1. Konfigurieren Sie den Filter wie unten beschrieben.
-
-   ![](assets/query_sample_7days2.png)
-
-### Abfrage von Profilen, die auf einen bestimmten Link geklickt haben  {#targeting-profiles-who-clicked-a-specific-link-}
-
-1. Ziehen Sie den Filter **[!UICONTROL Trackinglogs (tracking)]** in Ihre Abfrage.
-
-   ![](assets/query_sample_trackinglogs.png)
-
-1. Ziehen Sie den Filter **[!UICONTROL Titel (urlLabel)]** in Ihre Abfrage.
-
-   ![](assets/query_sample_trackinglogs2.png)
-
-1. Geben Sie im Feld **[!UICONTROL Wert]** den Titel ein, der beim Einfügen des Links in den Versand definiert wurde. Bestätigen Sie danach Ihre Eingabe.
-
-   ![](assets/query_sample_trackinglogs3.png)
-
