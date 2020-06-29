@@ -13,10 +13,10 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,11 @@ Ein **[!UICONTROL Daten-Update]** ermöglicht eine gebündelte Aktualisierung de
 
 Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwendet, um die neuen Daten in die Adobe-Campaign-Datenbank zu integrieren. Die Art der Datenbankaktualisierung kann über verschiedene Optionen definiert werden.
 
+**Verwandte Themen:**
+
+* [Verwendungsfall: Aktualisieren von Daten basierend auf einer Datei](../../automating/using/update-database-file.md)
+* [Aktualisieren von Daten auf der Grundlage eines automatischen Dateidownloads](../../automating/using/update-data-automatic-download.md)
+
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie ein **[!UICONTROL Daten-Update]** in den Workflow-Arbeitsbereich.
@@ -46,6 +51,7 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
 
    * **[!UICONTROL Aktualisieren]** - aktualisiert Daten existierender Datensätze, fügt keine neuen Datensätze hinzu.
    * **[!UICONTROL Löschen]** - löscht in der Datenbank existierende Daten.
+
    >[!NOTE]
    >
    >Im Feld **[!UICONTROL Batch-Größe]** können Sie die maximale Batch-Größe für das Hochladen von Daten angeben.
@@ -54,6 +60,7 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
 
    * **[!UICONTROL Über Abstimmschlüssel]**. Wählen Sie die **[!UICONTROL Zu aktualisierende Dimension]** aus und definieren Sie die **[!UICONTROL Schlüssel, die das Auffinden der Datensätze ermöglichen]**. Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
    * **[!UICONTROL Über die Zielgruppendimension]**, wenn die eingehenden Daten einer existierenden Zielgruppendimension entsprechen. Wählen Sie die **[!UICONTROL Zu aktualisierende Dimension aus]**.
+
    Wenn eine Aktualisierung durchgeführt werden soll, ist die Verwendung von Abstimmschlüsseln zwingend erforderlich.
 
 1. Wählen Sie im entsprechenden Tab alle **[!UICONTROL zu aktualisierenden Felder]** aus und geben Sie bei Bedarf Bedingungen für die Aktualisierung an. Dies ist in der Spalte **[!UICONTROL Berücksichtigt wenn]** möglich. Die Bedingungen werden nacheinander, in Reihenfolge der Liste geprüft. Die Reihenfolge kann mithilfe der Pfeile rechts der Tabelle angepasst werden. Es ist möglich, mehrmals dasselbe Zielfeld zu verwenden.
@@ -71,29 +78,3 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
    Aktivieren Sie, um Fehler zu vermeiden, die Option **[!UICONTROL Ausgehende Transition für die Zurückweisungen erzeugen]**, wenn Sie **[!UICONTROL Nur hinzufügen]** ausgewählt haben und die importierten Daten möglicherweise bereits in der Datenbank vorhandene Datensätze enthalten.
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
-
-## Beispiel {#example}
-
-Unten stehende Abbildung zeigt die Konfiguration eines **[!UICONTROL Daten-Updates]** im Anschluss an eine **[!UICONTROL Datei laden]**-Aktivität. Ziel ist die Anreicherung der Adobe-Campaign-Datenbank mit neuen Profilen und gegebenenfalls die Aktualisierung existierender Profile mit den in der importierten Datei enthaltenen Daten. Als Abstimmschlüssel wird die E-Mail-Adresse verwendet.
-
-Beim Format der geladenen Datei handelt es sich um **.txt**. Folgende Beispieldaten sind enthalten:
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-Das **[!UICONTROL Daten-Update]** wurde wie folgt konfiguriert:
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-
