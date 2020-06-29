@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 98%
+source-wordcount: '972'
+ht-degree: 94%
 
 ---
 
@@ -33,9 +33,18 @@ Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Akti
 >
 >Ein Mitglied der eingehenden Population kann standardmäßig nur einem einzigen Segment angehören. Die Anwendung der Filter erfolgt in der Reihenfolge der Segmente in der Aktivität.
 
+**Verwandte Themen:**
+* [Verwendungsfall: Segmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
+* [Verwendungsfall: Erstellen einer Kontrollgruppe](../../automating/using/workflow-control-group.md)
+* [Verwendungsfall: Segmentierung nach Altersgruppen](../../automating/using/segmentation-age-groups.md)
+
 ## Anwendungskontext {#context-of-use}
 
 Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss etc.), sodass die Segmente auf der Basis der vorher bestimmten Standardpopulation erstellt werden können.
+
+**Verwandte Themen**
+
+* [Verwendungsfall: Segmentieren von Profilen nach Altersgruppen](../../automating/using/segmentation-age-groups.md).
 
 ## Konfiguration {#configuration}
 
@@ -93,31 +102,6 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
 
    * Aktivieren Sie die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]**, wenn Ihnen an der Möglichkeit liegt, dass ein Mitglied der Eingangspopulation mehreren Segmenten angehören kann. Die Ausgabepopulation der Aktivität kann in diesem Fall die Eingangspopulation übersteigen.
    * Aktivieren Sie die Option **[!UICONTROL Alle Segmentcodes konkatenieren]**, wenn die Eingangspopulation bereits über einen Segmentcode verfügt und Sie diesen beibehalten möchten. Der innerhalb der Aktivität zugewiesene Segmentcode wird dem ursprünglichen Segmentcode hinzugefügt.
-   * Aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population nutzen möchten.
+   * Aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population nutzen möchten. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
-
-## Beispiel {#example}
-
-Das folgende Beispiel zeigt eine auf der Altersklasse beruhende Segmentierung von Datenbankprofilen. Der Zweck des Workflows besteht im Versand einer E-Mail pro Altersklasse. Es wird angenommen, dass dieser Workflow Teil einer Testkampagne sein soll. Kein Segment darf daher mehr als 100 Profile enthalten. Letztere werden nach dem Zufallsprinzip ausgewählt, um begrenzte und dabei repräsentative Audiences zu erhalten.
-
-![](assets/wkf_segment_example_4.png)
-
-Der Workflow ist wie folgt gestaltet:
-
-* Mittels einer **[!UICONTROL Planung]**-Aktivität wird das Ausführungsdatum des Workflows bestimmt. Siehe Abschnitt [Planung](../../automating/using/scheduler.md).
-* Mittels einer **[!UICONTROL Abfrage]**-Aktivität werden Profile ausgewählt, in denen Geburtsdatum und E-Mail-Adresse angegeben sind. Siehe Abschnitt [Abfrage](../../automating/using/query.md).
-* Mittels einer **[!UICONTROL Segmentierung]** werden drei auf verschiedene ausgehende Transitionen verteilte Segmente erstellt: 18-25 Jahre, 26-32 Jahre und älter als 32 Jahre. Die Auswahl der in den jeweiligen Segmenten enthaltenen Profile geschieht wie folgt:
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * Filterung der Profile nach Alter je nach für das Segment definierter Altersklasse;
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * Begrenzung der Segmentgröße durch eine **[!UICONTROL Zufallsauswahl]**, die mit der Beschränkung **[!UICONTROL Maximale Größe]** von 100 einhergeht.
-
-      ![](assets/wkf_segment_example_1.png)
-
-* Mittels der an die ausgehenden Transitionen angeschlossenen **[!UICONTROL E-Mail-Versand]**-Aktivitäten lässt sich für jedes Segment ein spezifischer Inhalt erstellen. Lesen Sie diesbezüglich auch den Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
-
