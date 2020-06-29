@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '903'
 ht-degree: 97%
 
 ---
@@ -45,7 +45,15 @@ Die E-Mail-Empfänger werden in vorangeschalteten Zielgruppenbestimmungsaktivit�
 
 Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparametern des Workflows ausgelöst. Sie können im Nachrichten-Dashboard auswählen, ob eine manuelle Bestätigung zum Nachrichtenversand erforderlich ist oder nicht (standardmäßig erforderlich). Sie können den Workflow entweder manuell starten oder eine Planung verwenden, um die Ausführung zu automatisieren.
 
-## Konfiguration    {#configuration}
+**Verwandte Themen:**
+
+* [Anwendungsfall: Erstellung einer einmaligen E-Mail-Versendung pro Woche](../../automating/using/workflow-weekly-offer.md)
+* [Anwendungsfall: Erstellung einer Standort-segmentierten Versendung](../../automating/using/workflow-segmentation-location.md)
+* [Anwendungsfall: Erstellen von Versendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
+* [Anwendungsfall: Retargeting-Workflow für eine erneute Versendung an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Verwendungsfall: Geburtstag, Versand](../../automating/using/birthday-delivery.md)
+
+## Konfiguration {#configuration}
 
 1. Ziehen Sie einen **[!UICONTROL E-Mail-Versand]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Quick Actions angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
@@ -91,28 +99,3 @@ Die Ausführungen wiederkehrender Sendungen sind jedoch standardmäßig ausgeble
 Ausgehend von den übergeordneten Sendungen, auf die über die Marketing-Aktivitätenliste oder direkt über die verknüpften wiederkehrenden Ausführungen zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL E-Mail-Versand]**-Aktivität festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der **[!UICONTROL -Schaltfläche die Detailansicht der]** Freigabe![](assets/wkf_dlv_detail_button.png)-Kachel des übergeordneten Versands.
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Beispiel {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-Das folgende Beispiel zeigt einen Geburtstags-Workflow. Jeden Tag wird eine E-Mail an alle Profile gesendet, die Geburtstag haben. Gehen Sie wie folgt vor:
-
-* Eine **[!UICONTROL Planung]** startet den Workflow täglich um 8 Uhr.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* Die auf die Planung folgende **[!UICONTROL Abfrage]** ruft alle Profile aus der Datenbank ab, die am aktuellen Datum Geburtstag haben und deren E-Mail-Adresse bekannt ist. Der Geburtstagsfilter ist standardmäßig im Abfragetool enthalten.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* **[!UICONTROL E-Mail]** zum wiederkehrenden Versand – die Sendungen werden pro Monat aggregiert. Auf diese Weise sind alle innerhalb eines Monats gesendeten E-Mails in einer einzigen Ansicht enthalten. Innerhalb eines Jahres werden folglich 365 Sendungen ausgeführt, die jedoch innerhalb der Adobe-Campaign-Benutzeroberfläche in nur 12 Ansichten (auch **wiederkehrende Ausführungen** genannt) zusammengefasst werden. Der Verlauf und die Berichte zeigen monatliche Zusammenfassungen und nicht jeden einzelnen Versand.
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**Verwandte Themen**
-
-* [Anwendungsfall: Erstellung einer einmaligen E-Mail-Versendung pro Woche](../../automating/using/workflow-weekly-offer.md)
-* [Anwendungsfall: Erstellung einer Standort-segmentierten Versendung](../../automating/using/workflow-segmentation-location.md)
-* [Anwendungsfall: Erstellen von Versendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
-* [Anwendungsfall: Retargeting-Workflow für eine erneute Versendung an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
