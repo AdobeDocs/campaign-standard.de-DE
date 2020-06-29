@@ -1,0 +1,65 @@
+---
+title: Personalisieren einer E-Mail mit zusätzlichen Daten
+description: In diesem Verwendungsfall wird erläutert, wie Sie einer Abfrage verschiedene Arten zusätzlicher Daten hinzufügen und diese als Personalisierungsfeld in einer E-Mail verwenden können.
+page-status-flag: never-activated
+uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
+discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
+context-tags: query,main
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 89%
+
+---
+
+
+# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+
+Das folgende Beispiel zeigt die Hinzufügung verschiedener Zusatzdatentypen zu einer Abfrage und die Verwendung von Zusatzdaten in Form von Personalisierungsfeldern in einer E-Mail. Weitere Informationen zum Aufwerten der Daten, auf die eine **[!UICONTROL Abfrage]** -Aktivität abzielt, finden Sie in [diesem Abschnitt](../../automating/using/query.md#enriching-data).
+
+Für dieses Beispiel werden diverse [benutzerdefinierte Ressourcen](../../developing/using/data-model-concepts.md) verwendet:
+
+* Die **Profil**-Ressource wurde erweitert, um ein Feld hinzuzufügen, das die Speicherung von Treuepunkten für jedes Profil ermöglicht.
+* Eine **Transaktionen**-Ressource wurde erstellt. Sie enthält alle von den in der Datenbank enthaltenen Profilen getätigten Bestellungen. Für jede Transaktion wird ihr Datum, der bestellte Artikel und sein Preis gespeichert.
+* Eine **Artikel**-Ressource wurde erstellt. Sie enthält alle zum Verkauf stehenden Artikel.
+
+Ziel ist es, eine E-Mail an all jene Profile zu senden, für die mindestens eine Transaktion gespeichert wurde. In dieser E-Mail werden den Kunden die letzte von ihnen getätigte Transaktion sowie diverse Informationen zu allen bisher erfolgten Transaktionen in Erinnerung gerufen: Anzahl an bestellten Artikeln, Gesamtbetrag, Anzahl an bereits gesammelten Treuepunkten.
+
+Der Workflow stellt sich folgendermaßen dar:
+
+![](assets/enrichment_example1.png)
+
+1. Ziehen Sie eine [Abfrage](../../automating/using/query.md) in den Arbeitsbereich, um alle Profile abzurufen, die mindestens eine Transaktion getätigt haben.
+
+   ![](assets/enrichment_example2.png)
+
+   Definieren Sie im **[!UICONTROL Zusatzdaten]**-Tab der Abfrage die verschiedenen Daten, die in der E-Mail angezeigt werden sollen:
+
+   * Treuepunkte anhand eines einfachen Felds aus der Dimension **Profile.** Lesen Sie diesbezüglich auch den Abschnitt [Einfaches Feld hinzufügen](../../automating/using/query.md#adding-a-simple-field).
+   * Die Anzahl an bestellten Artikeln und der Gesamtbetrag anhand von zwei auf der Transaktionskollektion basierenden Aggregaten. Fügen Sie letztere im **[!UICONTROL Daten]**-Tab des Fensters zur Aggregatkonfiguration hinzu (Aggregate **Count** und **Sum**). Lesen Sie diesbezüglich auch den Abschnitt [Aggregat hinzufügen](../../automating/using/query.md#adding-an-aggregate).
+   * Betrag, Datum und Artikel der letzten Transaktion, die anhand einer Kollektion ermittelt werden.
+
+      Fügen Sie hierzu im **[!UICONTROL Daten]**-Tab des Fensters zur Kollektionskonfiguration die verschiedenen anzuzeigenden Felder hinzu.
+
+      Damit nur die neueste Transaktion ausgegeben wird, ist im Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** die Ziffer „1“ anzugeben und das Kollektionsfeld **Datum** im Tab **[!UICONTROL Sortierung]** in absteigender Reihenfolge zu sortieren.
+
+      Lesen Sie diesbezüglich auch die Abschnitte [Kollektion hinzufügen](../../automating/using/query.md#adding-a-collection) und [Hinzugefügte Daten sortieren](../../automating/using/query.md#sorting-additional-data).
+   ![](assets/enrichment_example4.png)
+
+   Wenn Sie prüfen möchten, ob die Daten in der ausgehenden Transition der Aktivität korrekt übermittelt werden, starten Sie den Workflow an dieser Stelle (bevor Sie die **[!UICONTROL E-Mail-Versand]**-Aktivität anschließen) und öffnen Sie die aus der Abfrage ausgehende Transition.
+
+   ![](assets/enrichment_example5.png)
+
+1. Schließen Sie nun einen [E-Mail-Versand](../../automating/using/email-delivery.md) an. Verwenden Sie im E-Mail-Inhalt die Personalisierungsfelder, die den in der Abfrage berechneten Daten entsprechen. Folgen Sie hierzu im Explorer der Personalisierungsfelder der Relation **[!UICONTROL Zusatzdaten (targetData)]**.
+
+   ![](assets/enrichment_example3.png)
+
+Ihr Workflow kann nun ausgeführt werden. Die mithilfe der Abfrage abgerufenen Profile erhalten eine personalisierte E-Mail mit den ihren Transaktionen entsprechenden Daten.
