@@ -12,8 +12,11 @@ discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+translation-type: tm+mt
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +39,12 @@ Je Workflow-Zweig darf zudem nur eine **[!UICONTROL Planung]** verwendet werden.
 >
 >Das **[!UICONTROL Ausführungsintervall]** der Aktivität kann nicht weniger als 10 Minuten betragen. Dies bedeutet, dass kein Workflow automatisch öfter als einmal alle 10 Minuten durchgeführt werden kann.
 
-## Konfiguration  {#configuration}
+**Verwandte Themen:**
+
+* [Verwendungsfall: Erstellen von Versänden zum Erstellungsdatum von Profilen](../../automating/using/workflow-creation-date-query.md)
+* [Verwendungsfall: Jeden Dienstag einen E-Mail-Versand erstellen](../../automating/using/workflow-weekly-offer.md)
+
+## Konfiguration {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Planung]** in den Workflow.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
@@ -65,7 +73,7 @@ Je Workflow-Zweig darf zudem nur eine **[!UICONTROL Planung]** verwendet werden.
 
 1. Wählen Sie im Tab **[!UICONTROL Ausführungsoptionen]** im Feld **[!UICONTROL Zeitzone]** aus, in welcher Zeitzone Ihre Planung ausgeführt werden soll.
 
-   Weiterführende Informationen zum Versand von Nachrichten entsprechend der Zeitzone der Empfänger finden Sie in diesem [Abschnitt](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) und in diesem [Beispiel](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) eines wiederkehrenden Workflows.
+   Weiterführende Informationen zum Versand von Nachrichten entsprechend der Zeitzone der Empfänger finden Sie in diesem [Abschnitt](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) und in diesem [Beispiel](../../automating/using/recurring-push-notifications.md) eines wiederkehrenden Workflows.
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
