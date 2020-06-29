@@ -1,6 +1,6 @@
 ---
-title: '"Workflow-Anwendungsfall: Sendungen am Erstellungsdatum des Profils durchführen"'
-description: '"Workflow-Anwendungsfall: Sendungen am Erstellungsdatum des Profils durchführen"'
+title: Erstellen von Versänden am Erstellungsdatum des Profils
+description: Dieser Verwendungsfall zeigt, wie Versand am Erstellungsdatum des Profils erstellt werden.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,13 +12,16 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+translation-type: tm+mt
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 88%
 
 ---
 
 
-# Workflow-Anwendungsfall: Sendungen am Erstellungsdatum des Profils durchführen {#creation-date-query}
+# Creating deliveries on profiles&#39; creation date {#creation-date-query}
 
 Sie können am Jahrestag der Profilerstellung eines Kunden diesem ein Angebot per E-Mail senden.
 
@@ -28,7 +31,7 @@ Sie können am Jahrestag der Profilerstellung eines Kunden diesem ein Angebot pe
 
 ## Planungsaktivität erstellen {#creating-a-scheduler-activity}
 
-1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Ausführung]** eine **[!UICONTROL Planungsaktivität]** in den Arbeitsbereich.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
 1. Doppelklicken Sie auf die Aktivität.
 1. Konfigurieren Sie Ihren Versand.
 1. Wählen Sie in **[!UICONTROL Ausführungsfrequenz]** die Option **[!UICONTROL Täglich]** aus.
@@ -44,7 +47,7 @@ Sie können am Jahrestag der Profilerstellung eines Kunden diesem ein Angebot pe
 
 ## Abfrageaktivität erstellen {#creating-a-query-activity}
 
-1. Um Empfänger auszuwählen, ziehen Sie eine **[!UICONTROL Abfrageaktivität]** in den Arbeitsbereich und doppelklicken Sie darauf.
+1. Um Empfänger auszuwählen, ziehen Sie eine [](../../automating/using/query.md)Abfrageaktivität in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Fügen Sie **[!UICONTROL Profile]** hinzu und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
 
 ### Profile abrufen, die am Versandtag erstellt wurden {#retriving-profiles-created-on-the-same-day}
@@ -88,7 +91,7 @@ Die endgültige Abfrage sieht folgendermaßen aus:
 
 ## E-Mail-Versand erstellen{#creating-an-email-delivery}.
 
-1. Ziehen Sie einen E-Mail-Versand in den Arbeitsbereich.
+1. Ziehen Sie per Drag &amp; Drop eine [E-Mail-Versand](../../automating/using/email-delivery.md) -Aktivität.
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
 1. Wählen Sie **[!UICONTROL Wiederkehrende E-Mail]** und danach **[!UICONTROL Weiter]** aus.
 1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.
@@ -102,7 +105,4 @@ Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer 
 
 **Verwandte Themen:**
 
-* [Abfrage](../../automating/using/query.md)
-* [Planung](../../automating/using/scheduler.md)
-* [E-Mail-Versand](../../automating/using/email-delivery.md)
 * [E-Mail-Kanal](../../channels/using/creating-an-email.md)
