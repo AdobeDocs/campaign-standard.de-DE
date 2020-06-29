@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 93%
+source-wordcount: '1524'
+ht-degree: 86%
 
 ---
 
@@ -105,7 +105,6 @@ ht-degree: 93%
       + [Briefpost erstellen](channels/using/creating-the-direct-mail.md)
       + [Briefpost-Audience definieren](channels/using/defining-the-direct-mail-audience.md)
       + [Briefpost-Inhalt definieren](channels/using/defining-the-direct-mail-content.md)
-      + [Beispiel einer Briefpost in einem Workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Transaktionsnachrichtenversand {#transactional-messaging}
       + [Über den Versand von Transaktionsnachrichten](channels/using/about-transactional-messaging.md)
       + [Ereignis-Transaktionsnachrichten](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 93%
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
       + [Anwendungsbeispiel: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
-   + Anwendungsfälle: Workflows {#workflow-use-case}
-      + [Sendungen mit einem Komplement erstellen](automating/using/workflow-created-query-with-complement.md)
-      + [Sendungen am Erstellungsdatum erstellen](automating/using/workflow-creation-date-query.md)
-      + [Wöchentlichen Versand erstellen](automating/using/workflow-weekly-offer.md)
-      + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
-      + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
-      + [Kontrollgruppe erstellen](automating/using/workflow-control-group.md)
-      + [Kanalübergreifenden Versand erstellen](automating/using/workflow-cross-channel-delivery.md)
+   + Anwendungsbeispiele {#workflow-use-case}
+      + Sendungen {#deliveries}
+         + [Sendungen mit einem Komplement erstellen](automating/using/workflow-created-query-with-complement.md)
+         + [Erstellen von Versänden zum Erstellungsdatum von Profilen](automating/using/workflow-creation-date-query.md)
+         + [Wöchentlichen Versand erstellen](automating/using/workflow-weekly-offer.md)
+         + [Kanalübergreifenden Versand erstellen](automating/using/workflow-cross-channel-delivery.md)
+         + [Identifizieren von Duplikaten vor einem Versand](automating/using/identifying-duplicated-before-delivery.md)
+         + [Geburtstag, Versand](automating/using/birthday-delivery.md)
+         + [Versand von E-Mail- und Direktversand](automating/using/coupling-email-direct-mail.md)
+         + [Senden einer E-Mail mit erweiterten Feldern](automating/using/sending-email-enriched-fields.md)
+         + [Personalisieren einer E-Mail mit zusätzlichen Daten](automating/using/personalizing-email-with-additional-data.md)
+      + Segmentierung und Targeting {#segmentation-targeting}
+         + [Beispiele für Abfragen ](automating/using/query-samples.md)
+         + [Vereinigung auf zwei raffinierten Audiencen](automating/using/union-on-two-refined-audiences.md)
+         + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
+         + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
+         + [Inkrementelle Abfrage über Abonnenten eines Dienstes](automating/using/incremental-query-on-subscribers.md)
+         + [Segmentierung nach Altersgruppen](automating/using/segmentation-age-groups.md)
+         + [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [Kontrollgruppe erstellen](automating/using/workflow-control-group.md)
+      + Data Management {#data-management}
+         + [Datei-Audience mit der Datenbank abgleichen](automating/using/reconcile-file-audience-with-database.md)
+         + [Deduplizieren der Daten aus einer importierten Datei](automating/using/deduplicating-data-imported-file.md)
+         + [Anreichern von Profil-Daten mit Daten in einer Datei](automating/using/enriching-profile-data-file.md)
+         + [Aktivität und Datenimport externer Signale](automating/using/external-signal-data-import.md)
+         + [Aktualisieren der Datenbank mit externen Daten](automating/using/update-database-file.md)
+         + [Aktualisieren von Daten auf der Grundlage eines automatischen Dateidownloads](automating/using/update-data-automatic-download.md)
+         + [Datenversöhnung mithilfe von Beziehungen](automating/using/reconciliation-using-relations.md)
+         + [Datenaktualisierung mit Abgleich](automating/using/data-update-reconciliation.md)
+         + [Exportieren von Profilen in einer externen Datei](automating/using/exporting-profiles-in-file.md)
+         + [Aktualisieren mehrerer Abonnement-Status aus einer Datei](automating/using/updating-subscriptions-from-file.md)
+         + [Abonnieren von Profilen einer Datei zu einem bestimmten Dienst](automating/using/subscribing-profiles-from-file.md)
    + Adobe Experience Platform-Audiences verwenden {#working-with-aep-audiences}
       + [Adobe Experience Platform-Audiences auswählen](automating/using/aep-targeting-audiences.md)
       + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](automating/using/aep-personalizing-campaigns.md)
