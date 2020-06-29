@@ -12,10 +12,10 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -70,9 +70,6 @@ Mithilfe des Tabs **[!UICONTROL Zusatzdaten]** der Aktivitäten **[!UICONTROL Ab
 * Aggregate
 * Kollektionen
 
-**Verwandte Themen**
+**Verwandte Themen:**
 
-* [Anwendungsfall: Erstellung einer einmaligen E-Mail-Versendung pro Woche](../../automating/using/workflow-weekly-offer.md)
-* [Anwendungsfall: Erstellung einer Standort-segmentierten Versendung](../../automating/using/workflow-segmentation-location.md)
-* [Anwendungsfall: Erstellen von Versendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
-* [Anwendungsfall: Retargeting-Workflow für eine erneute Versendung an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Verwendungsfall: Personalisieren einer E-Mail mit zusätzlichen Daten](../../automating/using/personalizing-email-with-additional-data.md)
