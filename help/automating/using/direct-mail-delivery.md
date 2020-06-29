@@ -12,8 +12,11 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+translation-type: tm+mt
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +45,12 @@ Briefpostempfänger werden in vorangeschalteten Zielgruppenbestimmungsaktivität
 
 Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparametern des Workflows ausgelöst. Sie können im Nachrichten-Dashboard auswählen, ob eine manuelle Bestätigung zum Nachrichtenversand erforderlich ist oder nicht (standardmäßig erforderlich). Sie können den Workflow entweder manuell starten oder eine Planung verwenden, um die Ausführung zu automatisieren.
 
-## Konfiguration    {#configuration}
+**Verwandte Themen:**
+
+* [Verwendungsfall: Versand von E-Mail- und Direktversand](../../automating/using/coupling-email-direct-mail.md)
+* [Über Briefpost](../../channels/using/about-direct-mail.md)
+
+## Konfiguration {#configuration}
 
 1. Ziehen Sie die Aktivität **[!UICONTROL Briefpostversand]** in Ihren Workflow.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Quick Actions angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
@@ -89,7 +97,3 @@ Die Ausführungen wiederkehrender Sendungen sind standardmäßig ausgeblendet. U
 Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketing-Aktivitäten oder direkt über die verknüpften wiederkehrenden Ausführungen zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration des **[!UICONTROL Briefpostversands]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu die Detailansicht der Kachel **[!UICONTROL Freigabe]** des übergeordneten Versands, indem Sie die Schaltfläche ![](assets/wkf_dlv_detail_button.png) auswählen.
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
-
-## Beispiel {#example}
-
-Ein Anwendungsbeispiel für den **[!UICONTROL Briefpostversand]** ist im Kapitel [Briefpost](../../channels/using/example-of-direct-mail-in-a-workflow.md) verfügbar.
