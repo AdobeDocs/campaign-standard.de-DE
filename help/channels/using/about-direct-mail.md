@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 98%
 
 ---
 
@@ -38,23 +41,26 @@ Gehen Sie in Adobe Campaign folgendermaßen vor:
 1. Kontaktdatum festlegen
 1. Datei erstellen
 
-## Empfehlungen {#recommendations}
+**Verwandte Themen:**
+
+* [Verwendungsfall: Versand von E-Mail- und Direktversand](../../automating/using/coupling-email-direct-mail.md)
+
+## Empfehlungen    {#recommendations}
 
 ### Briefpost-Dienstleister {#direct-mail-providers}
 
 Erkundigen Sie sich zunächst bei Ihrem Briefpost-Dienstleister nach seinen Empfehlungen. Finden Sie heraus, welche Profilinformationen in der Extraktionsdatei enthalten sein müssen, damit der Anbieter die Nachrichten personalisieren und der Audience senden kann. Hierzu zählen beispielsweise der Vor- und Nachname, die Anschrift und ein Promotioncode. Diese Felder können Sie im Briefpost-Inhalt im Tab [Extraktion definieren](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) hinzufügen.
 
-Make sure you have checked the **[!UICONTROL Address specified]** box in your profiles&#39; information. Wenn diese Option aktiviert ist, wird das Profil zur Zielgruppe hinzugefügt. Ist sie das nicht, wird sie in der Vorbereitungsphase durch eine Typologieregel ausgeschlossen (siehe [Briefpost erstellen](../../channels/using/creating-the-direct-mail.md)). Vergessen Sie nicht, bei einem Profilimport dieses Feld zu aktualisieren.
+Achten Sie darauf, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist. Wenn diese Option aktiviert ist, wird das Profil zur Zielgruppe hinzugefügt. Ist sie das nicht, wird sie in der Vorbereitungsphase durch eine Typologieregel ausgeschlossen (siehe [Briefpost erstellen](../../channels/using/creating-the-direct-mail.md)). Vergessen Sie nicht, bei einem Profilimport dieses Feld zu aktualisieren.
 
 ![](assets/direct_mail_22.png)
 
-### Postanschriften {#postal-addresses}
+### Postanschriften  {#postal-addresses}
 
-When you add the fields to include in the extraction file, the postal address fields are available in the **[!UICONTROL Location]** node.
+Die Anschriftsfelder zum Hinzufügen in die Extraktionsdatei finden Sie im Knoten **[!UICONTROL Ort]**.
 
-Adobe Campaign bietet eine Reihe vordefinierter, berechneter Felder, die den allgemeinen Standards für Postanschriften entsprechen. The fields are available in the **[!UICONTROL Postal address]** node.
+Adobe Campaign bietet eine Reihe vordefinierter, berechneter Felder, die den allgemeinen Standards für Postanschriften entsprechen. Die Felder sind im Knoten **[!UICONTROL Anschrift]** verfügbar.
 
-An address can contain up to six lines by default: the first calculated field (**[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
+Standardmäßig kann eine Anschrift bis zu sechs Zeilen aufweisen: Das erste berechnete Feld (**[!UICONTROL Zeile 1]**) enthält den Vor- und Nachnamen des Empfängers, die folgenden Zeilen die für die Zustellung erforderlichen Informationen (z. B. Straße und Zusätze) und die letzte Zeile Postleitzahl und Ort.
 
 ![](assets/direct_mail_23.png)
-
