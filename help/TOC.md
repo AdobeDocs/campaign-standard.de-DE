@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1528'
 ht-degree: 86%
 
 ---
@@ -305,6 +305,7 @@ ht-degree: 86%
       + [Listenexport](automating/using/exporting-lists.md)
       + [Anwendungsbeispiel: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
    + Anwendungsbeispiele {#workflow-use-case}
+      + [Anwendungsfälle zum Workflow](automating/using/about-workflow-use-cases.md)
       + Sendungen {#deliveries}
          + [Sendungen mit einem Komplement erstellen](automating/using/workflow-created-query-with-complement.md)
          + [Erstellen von Versänden zum Erstellungsdatum von Profilen](automating/using/workflow-creation-date-query.md)
