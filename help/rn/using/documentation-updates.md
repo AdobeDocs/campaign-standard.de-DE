@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
+source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 94%
+source-wordcount: '5982'
+ht-degree: 95%
 
 ---
 
@@ -26,23 +26,25 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Aktualisierungen der Dokumentation - Juni 2020 {#doc-updates-june-2020}
 
+Anwendungsbeispiele für Workflows wurden aktualisiert und in thematische Bereiche neu angeordnet. [Mehr dazu](../../automating/using/about-workflow-use-cases.md)
+
 Es wurden Anwendungsfälle zum [Verschlüsseln](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) und [Entschlüsseln](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) von Daten mithilfe der Systemsteuerung und Kampagnen-Workflows hinzugefügt.
 
-Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. Einige dieser Begriffe sind möglicherweise in der Produktoberfläche, in Optionsnamen und im internen Code noch vorhanden, werden jedoch in den kommenden Kampagnen-Versionen mit &quot;blockierungsliste&quot;und &quot;zulassungsliste&quot;ersetzt.
+Die Begriffe &#39;Whitelist&#39; und &#39;Blacklist&#39; wurden aus der Dokumentation zu Adobe Campaign entfernt. Einige Vorkommen dieser Begriffe sind möglicherweise noch in der Benutzeroberfläche des Produkts, den Optionsnamen und dem internen Code vorhanden, werden jedoch in den kommenden Campaign-Versionen durch „Blockierungsliste“ und „Zulassungsliste“ ersetzt.
 
 Verweise auf die alte Support-Website wurden durch die neue URL ersetzt. [Mehr dazu](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
-Die Konfiguration des benutzerdefinierten Litmus-Kontos wurde aus der Renderfunktion von Inbox entfernt. [mehr dazu](../../sending/using/email-rendering.md)
+Die Konfiguration des benutzerdefinierten Litmus-Kontos wurde aus der Renderfunktion von Inbox entfernt. [Mehr dazu](../../sending/using/email-rendering.md)
 
-Campaign Standard - Die Microsoft Dynamics 365-Integration ist derzeit nicht verfügbar. Es wird ein neuer Anschluss entwickelt, der in Zukunft verfügbar sein wird. Die entsprechenden Hilfeseiten wurden entfernt. [mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard - Die Microsoft Dynamics 365-Integration ist derzeit nicht verfügbar. Es wird ein neuer Anschluss entwickelt, der in Zukunft verfügbar sein wird. Die entsprechenden Hilfeseiten wurden entfernt. [Mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Aktualisierungen der Dokumentation - Mai 2020 {#doc-updates-may-2020}
 
-Die Übersichtsseite des Campaign Standards wurde erweitert und in thematische Themen umstrukturiert. [mehr dazu](../../start/using/about-campaign-standard.md)
+Die Übersichtsseite des Campaign Standards wurde erweitert und in thematische Themen umstrukturiert. [Mehr dazu](../../start/using/about-campaign-standard.md)
 
-Der Bereich &quot;Parameter für E-Mail-Kanal&quot;wurde mit weiteren Informationen zu den Feldern für autorisierte Masken und der Versandberichte-ID geklärt. [mehr dazu](../../administration/using/configuring-email-channel.md)
+Der Bereich &quot;Parameter für E-Mail-Kanal&quot;wurde mit weiteren Informationen zu den Feldern für autorisierte Masken und der Versandberichte-ID geklärt. [Mehr dazu](../../administration/using/configuring-email-channel.md)
 
-Die Konfiguration einer Mobilanwendung mit Adobe Experience Platform-SDKs ist jetzt in der Hauptdokumentation mit weiteren Informationen zum Synchronisieren der Mobile App AEPSDK aus dem technischen Arbeitsablauf für Launch verfügbar. [mehr dazu](../../administration/using/configuring-a-mobile-application.md)
+Die Konfiguration einer Mobilanwendung mit Adobe Experience Platform-SDKs ist jetzt in der Hauptdokumentation mit weiteren Informationen zum Synchronisieren der Mobile App AEPSDK aus dem technischen Arbeitsablauf für Launch verfügbar. [Mehr dazu](../../administration/using/configuring-a-mobile-application.md)
 
 ## Version 20.3 - Mai 2020    {#release-20-3---may-2020}
 
@@ -58,9 +60,9 @@ In den Workflow-Eigenschaften wurden Informationen zum **[!UICONTROL Verlauf in 
 
 Im Abschnitt zur Profilersetzung wurden Informationen zum Limit von 500 Zeichen beim Betreffpräfix hinzugefügt – [mehr dazu](../../sending/using/testing-messages-using-target.md)
 
-Ein neuer Abschnitt zum Thema Datenschutz und Zustimmung wurde der Hauptdokumentation hinzugefügt. [mehr dazu](../../start/using/privacy.md)
+Ein neuer Abschnitt zum Thema Datenschutz und Zustimmung wurde der Hauptdokumentation hinzugefügt. [Mehr dazu](../../start/using/privacy.md)
 
-Es wurde ein Anwendungsfall hinzugefügt, mit dem Sie ältere Editor-E-Mails in den E-Mail-Designer konvertieren können. [mehr dazu](../../designing/using/converting-emails-from-legacy-editor.md)
+Es wurde ein Anwendungsfall hinzugefügt, mit dem Sie ältere Editor-E-Mails in den E-Mail-Designer konvertieren können. [Mehr dazu](../../designing/using/converting-emails-from-legacy-editor.md)
 
 Über den E-Mail-Designer wurde ein Abschnitt mit häufig gestellten Fragen hinzugefügt. [mehr dazu](../../designing/using/faq-email-designer.md)
 
@@ -642,7 +644,7 @@ Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion
 
 Eine Anleitung wurde hinzugefügt, in der beschrieben wird, wie Nachrichten entsprechend der Zeitzone der Benutzer in einem wiederkehrenden Workflow gesendet werden können – [mehr dazu](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]** wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt – [mehr dazu](../../channels/using/customizing-a-push-notification.md)
+Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]** wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt – [Mehr dazu](../../channels/using/customizing-a-push-notification.md)
 
 Neuer Abschnitt zum blockierungsliste-Management. [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
