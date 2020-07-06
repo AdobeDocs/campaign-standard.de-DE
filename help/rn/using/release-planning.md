@@ -11,11 +11,11 @@ topic-tags: campaign-standard-release-planning
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Alle Veröffentlichungsdaten können sich ändern: Wir empfehlen Ihnen, diese Se
 
 **Neu!** Abonnieren Sie [Campaign Standard-Versionshinweise](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU), um Details zu zukünftigen Versionen direkt in Ihren Posteingang zu erhalten.
 
-## Version 20.4 - Oktober {#release-20-4-oct-release}
+## Version 20.4 – Oktober {#release-20-4-oct-release}
 
 Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Weitere Informationen über diese Version finden Sie in den [Versionshinweisen](../../rn/using/release-notes.md). Sollten Sie weitere Fragen haben, wenden Sie sich bitte an die [Kundenunterstützung von Adobe](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html).
 
@@ -50,7 +50,7 @@ Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in 
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>28. September - 5. Oktober 2020<br /> </td>
+   <td>28. September – 5. Oktober 2020<br /> </td>
   </tr>
  </tbody>
 </table>
