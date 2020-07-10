@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
+source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 14%
+source-wordcount: '966'
+ht-degree: 15%
 
 ---
 
@@ -46,9 +46,11 @@ Once the request is processed, the encryption / decryption commands will be avai
 * [Datei laden](../../automating/using/load-file.md)
 * [Dateiextraktion](../../automating/using/extract-file.md)
 
-## Verwendungsfall: Importieren von Daten, die mit einem von der Systemsteuerung generierten Schlüssel verschlüsselt wurden {#use-case-gpg-decrypt}
+## Anwendungsfall: Importieren von Daten, die mit einem vom Control Panel generierten Schlüssel verschlüsselt wurden {#use-case-gpg-decrypt}
 
 In diesem Fall erstellen wir einen Workflow, um Daten zu importieren, die in einem externen System verschlüsselt wurden, und dabei einen in der Systemsteuerung generierten Schlüssel zu verwenden.
+
+In [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)finden Sie außerdem ein Video, in dem gezeigt wird, wie Daten mit einem GPG-Schlüssel entschlüsselt werden können.
 
 Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
@@ -90,9 +92,11 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 1. Sie können den Workflow jetzt ausführen.
 
-## Verwendungsfall: Verschlüsseln und Exportieren von Daten mit einem in der Systemsteuerung installierten Schlüssel {#use-case-gpg-encrypt}
+## Anwendungsfall: Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel {#use-case-gpg-encrypt}
 
 In diesem Fall erstellen wir einen Workflow, um Daten mithilfe eines in der Systemsteuerung installierten Schlüssels zu verschlüsseln und zu exportieren.
+
+In [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)finden Sie außerdem ein Video, in dem die Verwendung eines GPG-Schlüssels zum Verschlüsseln von Daten veranschaulicht wird.
 
 Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
