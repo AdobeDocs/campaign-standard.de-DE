@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
-workflow-type: ht
-source-wordcount: '1054'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+workflow-type: tm+mt
+source-wordcount: '1160'
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,10 @@ ht-degree: 100%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+**Zusätzliche Funktionen** (ab 13. Juli)
+
+* **AI-Powered Send Time Optimization und Profil Scoring** - Sie können jetzt Design und Versand von Kundenreisen optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit der Journey-API kann Adobe Campaign offene Raten, optimale Sendezeiten und wahrscheinliche Absturzzahlen auf Basis historischer Interaktionsmetriken analysieren und vorhersagen. [Mehr dazu](../../sending/using/predictive.md)
+* **Brasiliens neue Datenschutzverordnung** - Zusätzlich zu den bereits in der Kampagne verfügbaren Datenschutzfunktionen erleichtert Adobe Ihnen die Bereitschaft für Brasiliens Lei Geral de Proteçao de Datos (LGPD). Bei der Erstellung einer Datenschutzanforderung wurde die LGPD-Verordnung dem Adobe Privacy Core Service hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
 
 **Verbesserungen**
 
@@ -123,3 +126,6 @@ ht-degree: 100%
 * Bei der Verwendung von Personalisierung in Transaktions-E-Mails treten jetzt keine Datenabweichungen mehr auf. (CAMP-41842)
 * Beim Löschen von benutzerdefinierten Feldern in Sendungen mit Push-Benachrichtigungen tritt jetzt kein Problem mehr auf. (CAMP-37586)
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
