@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 86%
+source-wordcount: '1530'
+ht-degree: 99%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 86%
    + [Freigabeplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
 + Erste Schritte{#getting-started}
-   + [Info zu Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + [Datenschutz und Zustimmung](start/using/privacy.md)
+   + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [Datenschutz und Einverständnis](start/using/privacy.md)
    + Benutzeroberfläche {#discovering-the-interface}
       + [Über die Benutzeroberfläche](start/using/about-the-interface.md)
       + [Benutzeroberfläche](start/using/interface-description.md)
       + [Listen anpassen](start/using/customizing-lists.md)
-   + Arbeiten mit Marketing-Aktivitäten {#marketing-plans}
+   + Verwenden von Marketingaktivitäten {#marketing-plans}
       + [Programme und Kampagnen](start/using/programs-and-campaigns.md)
       + [Marketingaktivitäten](start/using/marketing-activities.md)
       + [Vorlagen für Marketingaktivitäten](start/using/marketing-activity-templates.md)
       + [Planung](start/using/timeline.md)
 + Profile und Audiences {#profiles-and-audiences}
-   + [Erste Schritte mit Profilen und Audiencen](audiences/using/get-started-profiles-and-audiences.md)
+   + [Erste Schritte mit Profilen und Audiences](audiences/using/get-started-profiles-and-audiences.md)
    + Verwaltung von Profilen {#managing-profiles}
       + [Über Profile](audiences/using/about-profiles.md)
       + [Profile erstellen](audiences/using/creating-profiles.md)
@@ -66,7 +66,7 @@ ht-degree: 86%
       + [Adobe Experience Platform-Audiences verwalten](audiences/using/aep-managing-audiences.md)
       + [ Segment Builder verwenden](audiences/using/aep-using-segment-builder.md)
 + Kommunikationskanäle{#communication-channels}
-   + [Erste Schritte mit Communication Kanäle](channels/using/get-started-communication-channels.md)
+   + [Erste Schritte mit Kommunikationskanälen](channels/using/get-started-communication-channels.md)
    + Über Kommunikationskanäle {#about-communication-channels}
       + [Die wichtigsten Schritte im Nachrichtenversand](channels/using/key-steps-to-send-a-message.md)
       + [Zugriff auf Nachrichten](channels/using/accessing-messages.md)
@@ -129,20 +129,21 @@ ht-degree: 86%
       + [Wiederverwendbaren Inhalt verwenden](designing/using/using-reusable-content.md)
       + [Integrationen mit mehreren Lösungen verwenden](designing/using/using-integrations.md)
       + [Normaltext-, HTML- und mobile E-Mails bearbeiten](designing/using/plain-text-html-modes.md)
-      + [Konvertieren älterer Editor-E-Mails in den E-Mail-Designer](designing/using/converting-emails-from-legacy-editor.md)
+      + [E-Mails des alten Editors in Email Designer konvertieren](designing/using/converting-emails-from-legacy-editor.md)
    + [E-Mail-Inhalte personalisieren](designing/using/personalization.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
    + [Häufig gestellte Fragen](designing/using/faq-email-designer.md)
 + Testen und Senden {#testing-and-sending}
-   + [Erste Schritte mit Tests und Senden](sending/using/get-started-sending-messages.md)
+   + [Erste Schritte mit Testen und Senden](sending/using/get-started-sending-messages.md)
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
       + [Sendungen in Vorschau anzeigen](sending/using/previewing-messages.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
       + [Testversand durchführen](sending/using/sending-proofs.md)
       + [E-Mail-Nachrichten mit zielgerichteten Profilen testen](sending/using/testing-messages-using-target.md)
       + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
+      + [AI-basierte E-Mails](sending/using/predictive.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
       + [Fallen verwenden](sending/using/using-traps.md)
    + Versandplanung {#scheduling-messages}
@@ -207,7 +208,7 @@ ht-degree: 86%
       + [Benutzerdefinierte Profildimension erstellen](reporting/using/creating-a-custom-profile-dimension.md)
       + [Erstellen eines Berichts auf der Basis von Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
 + Mit anderen Lösungen integrieren {#integrating-with-adobe-cloud}
-   + [Erste Schritte mit Kampagne-Integrationen](integrating/using/get-started-campaign-integrations.md)
+   + [Erste Schritte mit Campaign-Integrationen](integrating/using/get-started-campaign-integrations.md)
    + Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
       + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Integration von Campaign mit Experience Manager konfigurieren](integrating/using/configure-experience-manager.md)
@@ -238,7 +239,7 @@ ht-degree: 86%
       + [Trigger testen](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Erste Schritte mit Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Erste Schritte mit der Integration mit Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
@@ -248,9 +249,9 @@ ht-degree: 86%
    + Workflow ausführen {#executing-a-workflow}
       + [Über die Ausführung von Workflows](automating/using/about-workflow-execution.md)
       + [Lebenszyklus eines Workflows](automating/using/workflow-life-cycle.md)
-      + [Ausführungsbefehle    ](automating/using/execution-commands.md)
+      + [Ausführungsbefehle](automating/using/execution-commands.md)
       + [Ausführung des Workflows überwachen](automating/using/monitoring-workflow-execution.md)
-      + [Verwalten von Ausführungsoptionen](automating/using/managing-execution-options.md)
+      + [Ausführungsoptionen verwalten](automating/using/managing-execution-options.md)
       + [Eigenschaften von Aktivitäten verwalten](automating/using/activity-properties.md)
    + [Workflow mit externen Parametern aufrufen](automating/using/calling-a-workflow-with-external-parameters.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
@@ -305,38 +306,38 @@ ht-degree: 86%
       + [Listenexport](automating/using/exporting-lists.md)
       + [Anwendungsbeispiel: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
    + Anwendungsbeispiele {#workflow-use-case}
-      + [Anwendungsfälle zum Workflow](automating/using/about-workflow-use-cases.md)
+      + [Über Workflow-Anwendungsfälle](automating/using/about-workflow-use-cases.md)
       + Sendungen {#deliveries}
          + [Sendungen mit einem Komplement erstellen](automating/using/workflow-created-query-with-complement.md)
-         + [Erstellen von Versänden zum Erstellungsdatum von Profilen](automating/using/workflow-creation-date-query.md)
+         + [Sendungen zum Erstellungsdatum von Profilen erstellen](automating/using/workflow-creation-date-query.md)
          + [Wöchentlichen Versand erstellen](automating/using/workflow-weekly-offer.md)
          + [Kanalübergreifenden Versand erstellen](automating/using/workflow-cross-channel-delivery.md)
-         + [Identifizieren von Duplikaten vor einem Versand](automating/using/identifying-duplicated-before-delivery.md)
-         + [Geburtstag, Versand](automating/using/birthday-delivery.md)
-         + [Versand von E-Mail- und Direktversand](automating/using/coupling-email-direct-mail.md)
-         + [Senden einer E-Mail mit erweiterten Feldern](automating/using/sending-email-enriched-fields.md)
-         + [Personalisieren einer E-Mail mit zusätzlichen Daten](automating/using/personalizing-email-with-additional-data.md)
+         + [Dubletten vor einem Versand identifizieren](automating/using/identifying-duplicated-before-delivery.md)
+         + [Versand zum Geburtstag](automating/using/birthday-delivery.md)
+         + [E-Mail- und Briefpostversand verbinden](automating/using/coupling-email-direct-mail.md)
+         + [E-Mail mit angereicherten Feldern senden](automating/using/sending-email-enriched-fields.md)
+         + [E-Mail mit Zusatzdaten personalisieren](automating/using/personalizing-email-with-additional-data.md)
       + Segmentierung und Targeting {#segmentation-targeting}
          + [Beispiele für Abfragen ](automating/using/query-samples.md)
-         + [Vereinigung auf zwei raffinierten Audiencen](automating/using/union-on-two-refined-audiences.md)
+         + [Vereinigung von zwei eingegrenzten Audiences](automating/using/union-on-two-refined-audiences.md)
          + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
          + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
-         + [Inkrementelle Abfrage über Abonnenten eines Dienstes](automating/using/incremental-query-on-subscribers.md)
+         + [Inkrementelle Abfrage bezüglich Dienst-Abonnenten](automating/using/incremental-query-on-subscribers.md)
          + [Segmentierung nach Altersgruppen](automating/using/segmentation-age-groups.md)
          + [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](automating/using/using-resources-different-from-targeting-dimensions.md)
          + [Kontrollgruppe erstellen](automating/using/workflow-control-group.md)
       + Data Management {#data-management}
-         + [Datei-Audience mit der Datenbank abgleichen](automating/using/reconcile-file-audience-with-database.md)
-         + [Deduplizieren der Daten aus einer importierten Datei](automating/using/deduplicating-data-imported-file.md)
-         + [Anreichern von Profil-Daten mit Daten in einer Datei](automating/using/enriching-profile-data-file.md)
-         + [Aktivität und Datenimport externer Signale](automating/using/external-signal-data-import.md)
-         + [Aktualisieren der Datenbank mit externen Daten](automating/using/update-database-file.md)
-         + [Aktualisieren von Daten auf der Grundlage eines automatischen Dateidownloads](automating/using/update-data-automatic-download.md)
-         + [Datenversöhnung mithilfe von Beziehungen](automating/using/reconciliation-using-relations.md)
-         + [Datenaktualisierung mit Abgleich](automating/using/data-update-reconciliation.md)
-         + [Exportieren von Profilen in einer externen Datei](automating/using/exporting-profiles-in-file.md)
-         + [Aktualisieren mehrerer Abonnement-Status aus einer Datei](automating/using/updating-subscriptions-from-file.md)
-         + [Abonnieren von Profilen einer Datei zu einem bestimmten Dienst](automating/using/subscribing-profiles-from-file.md)
+         + [Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](automating/using/reconcile-file-audience-with-database.md)
+         + [Daten einer importierten Datei deduplizieren](automating/using/deduplicating-data-imported-file.md)
+         + [Profildaten mit in einer Datei enthaltenen Daten anreichern](automating/using/enriching-profile-data-file.md)
+         + [Aktivität &quot;Externes Signal&quot; und Datenimport](automating/using/external-signal-data-import.md)
+         + [Datenbank mit externen Daten aktualisieren](automating/using/update-database-file.md)
+         + [Daten basierend auf einem automatischen Datei-Download aktualisieren](automating/using/update-data-automatic-download.md)
+         + [Datenabstimmung mithilfe von Relationen](automating/using/reconciliation-using-relations.md)
+         + [Datenaktualisierung mittels Abstimmung](automating/using/data-update-reconciliation.md)
+         + [Profile in eine externe Datei exportieren](automating/using/exporting-profiles-in-file.md)
+         + [Mehrere Abonnementstatus über eine Datei aktualisieren](automating/using/updating-subscriptions-from-file.md)
+         + [Profile aus einer Datei für einen bestimmten Dienst anmelden](automating/using/subscribing-profiles-from-file.md)
    + Adobe Experience Platform-Audiences verwenden {#working-with-aep-audiences}
       + [Adobe Experience Platform-Audiences auswählen](automating/using/aep-targeting-audiences.md)
       + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](automating/using/aep-personalizing-campaigns.md)
@@ -386,7 +387,7 @@ ht-degree: 86%
       + [Mapping-Aktivierung](developing/using/aep-mapping-activation.md)
       + [Datenerfassung über APIs aktivieren](developing/using/aep-triggering-data-ingestion.md)
 + Verwalten{#administrating}
-   + [Erste Schritte mit der Campaign Standard-Verwaltung](administration/using/get-started-campaign-administration.md)
+   + [Erste Schritte mit der Administration von Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Konfigurationsrichtlinien](administration/using/about-configuration-guidelines.md)
    + Benutzer und Sicherheit {#users-and-security}
       + [Über die Zugriffsverwaltung](administration/using/about-access-management.md)
