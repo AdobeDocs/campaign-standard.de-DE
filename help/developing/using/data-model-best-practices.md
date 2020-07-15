@@ -13,10 +13,10 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ In diesem Dokument werden die wichtigsten Empfehlungen beim Entwerfen Ihres Adob
 >
 >Informationen zum Erstellen und Ändern von Ressourcen zur Erweiterung des vordefinierten Adobe Campaign-Datenmodells finden Sie in [diesem Abschnitt](../../developing/using/key-steps-to-add-a-resource.md).
 >
->Sie finden eine Datenmodelldarstellung der integrierten Ressourcen auf [dieser Seite](../../developing/using/datamodel-introduction.md).
+>Eine Datenmodelldarstellung der nativen Ressourcen finden Sie auf [dieser Seite](../../developing/using/datamodel-introduction.md).
 
 ## Übersicht {#overview}
 
@@ -56,11 +56,11 @@ Das Standarddatenmodell von Adobe Campaign wird in diesem [Abschnitt](../../deve
 
 <!--### What is a customer? {#customer-definition}
 
-If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the master record. This master record should be the one sent to Adobe Campaign.
+If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a master customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
 ### Daten für Adobe Campaign {#data-for-campaign}
 
@@ -100,7 +100,7 @@ Die folgende Tabelle beschreibt diese Kennungen und ihren Zweck.
 
 | Anzeigename | Technischer Name | Beschreibung | Best Practices |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey ist der physische Primärschlüssel einer Adobe Campaign-Tabelle.</li><li>Diese Kennung ist in der Regel für eine bestimmte Adobe Campaign-Instanz eindeutig.</li><li>In Adobe Campaign Standard ist dieser Wert für den Endbenutzer nicht sichtbar (außer in URLs).</li></ul> | <ul><li>Über das [API-System](../../api/using/get-started-apis.md) ist es möglich, einen PKey-Wert abzurufen (bei dem es sich um einen generierten/Hash-Wert handelt, und nicht um den physischen Schlüssel).</li><li>Es wird nicht empfohlen, ihn für andere Zwecke zu verwenden, als Datensätze per API abzurufen, zu aktualisieren oder zu löschen.</li></ul> |
+|  | PKey | <ul><li>PKey ist der physische Primärschlüssel einer Adobe Campaign-Tabelle.</li><li>Diese Kennung ist in der Regel für eine bestimmte Adobe Campaign-Instanz eindeutig.</li><li>In Adobe Campaign Standard ist dieser Wert für den Endbenutzer nicht sichtbar (mit Ausnahme von URLs).</li></ul> | <ul><li>Über das [API-System](../../api/using/get-started-apis.md) ist es möglich, einen PKey-Wert abzurufen (bei dem es sich um einen generierten/Hash-Wert handelt, und nicht um den physischen Schlüssel).</li><li>Es wird nicht empfohlen, ihn für andere Zwecke zu verwenden, als Datensätze per API abzurufen, zu aktualisieren oder zu löschen.</li></ul> |
 | ID | name oder internalName | <ul><li>Diese Information ist eine eindeutige Kennung eines Datensatzes in einer Tabelle. Dieser Wert kann manuell aktualisiert werden.</li><li>Diese Kennung behält ihren Wert bei, wenn sie in einer anderen Instanz von Adobe Campaign bereitgestellt wird. Sie muss einen anderen Namen haben als der generierte Wert, der über ein Package exportiert werden kann.</li><li>Dies ist nicht der eigentliche Primärschlüssel der Tabelle.</li></ul> | <ul><li>Verwenden Sie keine Sonderzeichen wie Leerzeichen &quot; &quot;, Doppelpunkt &quot;:&quot; oder Bindestrich &quot;-&quot;.</li><li>Alle diese Zeichen würden durch einen Unterstrich (_) ersetzt werden. Beispielsweise würden &quot;abc-def&quot; und &quot;abc:def&quot; als &quot;abc_def&quot; gespeichert werden und sich gegenseitig überschreiben.</li></ul> |
 | Titel | label | <ul><li>Der Titel ist die Unternehmenskennung eines Objekts oder Datensatzes in Adobe Campaign.</li><li>Dieses Objekt erlaubt Leerzeichen und Sonderzeichen.</li><li>Der Titel garantiert nicht die Einzigartigkeit eines Datensatzes.</li></ul> | <ul><li>Es wird empfohlen, eine Struktur für die Objekttitel festzulegen.</li><li>Dies ist die benutzerfreundlichste Lösung, um einen Datensatz oder ein Objekt für einen Adobe Campaign-Benutzer zu identifizieren.</li></ul> |
 | ACS-ID | acsId | <ul><li>Es kann eine zusätzliche Kennung generiert werden: die [ACS-ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Da der PKey nicht in der Benutzeroberfläche von Adobe Campaign verwendet werden kann, ist dies eine Lösung, um einen eindeutigen Wert zu erhalten, der beim Einfügen eines Profildatensatzes generiert wird.</li><li>Der Wert kann nur dann automatisch generiert werden, wenn die Option in der Ressource aktiviert ist, bevor ein Datensatz in Adobe Campaign eingefügt wird.</li></ul> | <ul><li>Diese UUID kann als Abstimmschlüssel verwendet werden.</li><li>Eine automatisch generierte ACS-ID kann nicht als Referenz in einem Workflow oder in einer Package-Definition verwendet werden.</li><li>Dieser Wert ist spezifisch für eine Adobe Campaign-Instanz.</li></ul> |
