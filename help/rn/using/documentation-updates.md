@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6117'
 ht-degree: 97%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 97%
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
-## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates--july-2020}
+## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates-july-2020}
 
 Es wurde ein neuer Abschnitt mit Leitlinien für die Überwachung der Campaign Standard hinzugefügt. [Mehr dazu](../../administration/using/monitoring-guidelines.md)
 
-Externe API-Guardrails wurden aktualisiert.[Mehr dazu](../../automating/using/external-api.md)
+Externe API-Guardrails wurden aktualisiert. [Mehr dazu](../../automating/using/external-api.md)
 
 Die Seite &quot;Überblick über das Datenschutzmanagement&quot;wurde aktualisiert und enthält nun Informationen zum thailändischen Datenschutzgesetz (PDPA) und dem brasilianischen Lei Geral de Proteção de Dados (LGPD). [Mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ Das Handbuch Mobile Kanal wurde überarbeitet und verbessert. Eine neue Anleitun
 
 Die Seite &quot;Datenschutzverwaltung in Campaign Standard&quot;wurde aktualisiert und enthält Erläuterungen zur Verwaltung von Datenschutzanforderungen über die Integration des Datenschutzzentrale-Dienstes. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates-july-2020}
-
-Neue AI-basierte E-Mail-Funktionen: Zeitoptimierung und Profil-Scoring [Mehr dazu](../../sending/using/predictive.md)
+Neue AI-basierte E-Mail-Funktionen: Zeitoptimierung und Profil-Bewertung senden. [Mehr dazu](../../sending/using/predictive.md)
 
 ## Aktualisierungen der Dokumentation – Juni 2020 {#doc-updates-june-2020}
 
