@@ -11,8 +11,11 @@ topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Der Bericht zu **Push-Benachrichtigungen** liefert Details zur Marketing-Performance von Push-Benachrichtigungen in Adobe Campaign. Dieser native Bericht zeigt, wie Benutzer mit Push-Benachrichtigungen, Mobile Apps und Sendungen interagieren.
 
-Die Mobile App muss entsprechend konfiguriert werden, um Push-Benachrichtigungen zu tracken. Weiterführende Informationen dazu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/push-tracking.html).
+Die Mobile App muss entsprechend konfiguriert werden, um Push-Benachrichtigungen zu tracken. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/push-tracking.md).
 
 ![](assets/dynamic_report_push.png)
 
