@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
+workflow-type: tm+mt
 source-wordcount: '7632'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 100%
 * Fehlerkorrektur – E-Mail-Adressen von Hardbounces werden jetzt in die Quarantäne aufgenommen. (CAMP-24587)
 * Fehlerkorrektur – Jetzt kann eine Typologieregel hinzugefügt und anschließend gelöscht werden, bevor die Typologie gespeichert wird. (CAMP-32789)
 * Fehlerkorrektur – Der Inhalt einer Landingpage kann jetzt auch dann angezeigt werden, wenn dynamischer Inhalt deaktiviert ist. (CAMP-32924)
-* Fehlerkorrektur – Beim wiederkehrenden Versand tritt kein Fehler mehr auf, wenn die Attribute des Hauptversands personalisiert werden. (CAMP-32983)
+* Es wurde ein Problem mit wiederkehrenden Versänden behoben, die bei der Verwendung der Personalisierung für die Attribute eines primären Versands aufgetreten sind. (CAMP-32983)
 * Fehlerkorrektur – In Workflows können einer Transition jetzt Ergebnisse entnommen werden, wenn die Transition Daten eingehender SMS-Nachrichten enthält. (CAMP-33134)
 * Fehlerkorrektur – Verzweigungs- und Ausschlussaktivitäten können jetzt in Workflows zur Erstellung von Audiences verwendet werden. (CAMP-33401)
 * Fehlerkorrektur – Jetzt ist es möglich, bei wiederkehrenden Sendungen den Inhalt von Mirrorseiten anzuzeigen und einen Testversand durchzuführen. (CAMP-33413)
