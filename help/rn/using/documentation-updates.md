@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
 workflow-type: tm+mt
-source-wordcount: '6112'
+source-wordcount: '6120'
 ht-degree: 97%
 
 ---
@@ -27,6 +27,8 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 ## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates--july-2020}
 
 Es wurde ein neuer Abschnitt mit Leitlinien für die Überwachung der Campaign Standard hinzugefügt. [Mehr dazu](../../administration/using/monitoring-guidelines.md)
+
+Externe API-Guardrails wurden aktualisiert.[Mehr dazu](../../automating/using/external-api.md)
 
 Die Seite &quot;Überblick über das Datenschutzmanagement&quot;wurde aktualisiert und enthält nun Informationen zum thailändischen Datenschutzgesetz (PDPA) und dem brasilianischen Lei Geral de Proteção de Dados (LGPD). [Mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
