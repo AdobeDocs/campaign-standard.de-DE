@@ -12,10 +12,10 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f09556fed8c3cca44a72ac6dfeb280379d58c3
+source-git-commit: 7755877031c5ef2dbbac395ac40b2f76670a6499
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 20%
+source-wordcount: '1421'
+ht-degree: 24%
 
 ---
 
@@ -42,27 +42,29 @@ Führen Sie die folgenden Schritte aus, um die Konfiguration abzuschließen:
    * **[!UICONTROL Push notification]**
    * **[!UICONTROL In-App-Nachricht]**
    * **[!UICONTROL Adobe Places]**
+
    Ist dies nicht der Fall, kontaktieren Sie das für Ihr Konto zuständige Team.
 
 1. Überprüfen Sie, ob Ihr Benutzer über die erforderlichen Berechtigungen in Adobe Campaign Standard und Experience Platform Launch verfügt.
-   * Stellen Sie in Adobe Campaign Standard sicher, dass der IMS-Benutzer zu den Standard-Profilen für Benutzer und Administratoren gehört. Dieser Schritt ermöglicht es dem Benutzer, sich bei Adobe Campaign Standard anzumelden, zur Experience Platform SDK-Seite für mobile Apps zu navigieren und die Eigenschaften der mobilen App Ansicht, die Sie in Experience Platform Launch erstellt haben.
+   * Stellen Sie in Adobe Campaign Standard sicher, dass der IMS-Benutzer zum Standard-Profil für Benutzer und Administratoren gehört. Dieser Schritt ermöglicht es dem Benutzer, sich bei Adobe Campaign Standard anzumelden, zur Experience Platform SDK Mobile App-Seite zu navigieren und die Eigenschaften der mobilen App Ansicht, die Sie in Experience Platform Launch erstellt haben.
 
-   * Stellen Sie sicher, dass Ihr IMS-Benutzer in Experience Platform Launch-Profil enthalten ist.
-Dieser Schritt ermöglicht es dem Benutzer, sich beim Experience Platform Launch anzumelden, um die Eigenschaften zu erstellen und zu Ansicht. Weitere Informationen zu Produkt-Profilen in Experience Platform Launch finden Sie unter Produkt-Profil erstellen. Im Profil &quot;product&quot;sollten keine Berechtigungen für die Firma oder die Eigenschaften festgelegt sein, der Benutzer sollte sich aber dennoch anmelden können.
+   * Stellen Sie in Experience Platform Launch sicher, dass Ihr IMS-Benutzer Teil eines Experience Platform Launch-Produktprodukts-Profils ist.
+Dieser Schritt ermöglicht es dem Benutzer, sich bei Experience Platform Launch anzumelden, um die Eigenschaften zu erstellen und zu Ansicht. Weitere Informationen zu Produkt-Profilen in Experience Platform Launch finden Sie unter Produkt-Profil erstellen. Im Profil &quot;product&quot;sollten keine Berechtigungen für die Firma oder die Eigenschaften festgelegt sein, der Benutzer sollte sich aber dennoch anmelden können.
+
    Um weitere Aufgaben wie das Installieren einer Erweiterung, das Veröffentlichen einer App, das Konfigurieren von Umgebung usw. durchzuführen, müssen Sie Berechtigungen im Profil &quot;product&quot;festlegen.
 
-1. Erstellen Sie in Experience Platform Launch eine **[!UICONTROL Mobile-Eigenschaft]**. Weitere Informationen finden Sie unter [Einrichten einer mobilen Eigenschaft](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. In Experience Platform Launch, create a **[!UICONTROL Mobile property]**. Weiterführende Informationen finden Sie unter [Eigenschaft für Mobilgeräte einrichten](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. Klicken Sie in Experience Platform Launch auf die Registerkarte **[!UICONTROL Erweiterungen]** , gehen Sie zum **[!UICONTROL Katalog]** und suchen Sie nach der Erweiterung **[!UICONTROL Adobe Campaign Standard]** . Weitere Informationen finden Sie unter [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. Klicken Sie in Experience Platform Launch auf die Registerkarte &quot; **[!UICONTROL Erweiterungen]** &quot;, wechseln Sie zum **[!UICONTROL Katalog]** und suchen Sie nach der Erweiterung &quot; **[!UICONTROL Adobe Campaign Standard]** &quot;. Weitere Informationen finden Sie unter [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. Um Standortverwendungsfälle in Campaign Standard zu unterstützen, installieren Sie die **[!UICONTROL Platzierungs]** - und die **[!UICONTROL Platzierungsmonitor]** -Erweiterung.
    * Installieren Sie die Erweiterung **[!UICONTROL Orte]** in Experience Platform Launch. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installieren Sie die Erweiterung **[!UICONTROL Places Monitor]** in Experience Platform Launch. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * Installieren Sie die Erweiterung **[!UICONTROL Orts Monitor]** in Experience Platform Launch. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
-1. Konfigurieren Sie in Adobe Campaign Standard die mobile Eigenschaft, die Sie in Experience Platform Launch erstellt haben. Weitere Informationen finden Sie unter [Einrichten der Adobe Experience Platform Launch-Anwendung in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Konfigurieren Sie in Adobe Campaign Standard die Eigenschaft für Mobilgeräte, die Sie in Experience Platform Launch erstellt haben. Weitere Informationen finden Sie unter [Einrichten der Adobe Experience Platform-Startanwendung in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
-1. Hinzufügen Sie die Kanal-spezifische Konfiguration für Ihre Mobilanwendung einrichten.
-Weitere Informationen finden Sie unter Anwendungskonfiguration für [Kanal in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Fügen Sie die kanalspezifische Konfiguration für Ihre Mobile App-Einrichtung hinzu.
+Weiterführende Informationen finden Sie unter [Kanalspezifische Anwendungskonfiguration in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Bei Bedarf können Sie Ihre Experience Platform Launch-Eigenschaft löschen.
 Weitere Informationen finden Sie unter [Löschen der Experience Platform Launch-Anwendung](../../administration/using/configuring-a-mobile-application.md#delete-app).
@@ -73,7 +75,7 @@ Weitere Informationen finden Sie unter [Löschen der Experience Platform Launch-
 >
 >Diese Funktion ist seit Version 20.3 in Adobe Campaign eine Betafunktion. Sie müssen ein Ticket an die Adobe-Kundenunterstützung senden (entweder direkt oder über Ihren Adobe-Kontakt), damit die **[!UICONTROL Synchronisierung der Mobile App AEPSDK vom technischen Arbeitsablauf beim Start]** in Ihrer Adobe Campaign-Instanz aktiviert wird.
 
-Nach dem Erstellen und Konfigurieren Ihrer mobilen Eigenschaft im Experience Platform Launch synchronisiert der Arbeitsablauf für die **[!UICONTROL Synchronisierung der mobilen App AEPSDK vom Start]** jetzt die mobilen Adobe Launch-Eigenschaften, die in Adobe Campaign Standard importiert wurden.
+Nachdem Sie Ihre mobile Eigenschaft in Experience Platform Launch erstellt und konfiguriert haben, synchronisiert der Arbeitsablauf für die **[!UICONTROL Synchronisierung der mobilen App AEPSDK aus dem technischen Arbeitsablauf zum Starten]** jetzt die in Adobe Campaign Standard importierten Adobe Launch-Eigenschaften für Mobilgeräte.
 
 Standardmäßig erfolgt der technische Workflow alle 15 Beginn. Bei Bedarf können Sie den Vorgang manuell neu starten:
 
@@ -92,7 +94,7 @@ Ihr Workflow wird jetzt neu gestartet und die mobilen Adobe Launch-Eigenschaften
 
 ## Setting up your Adobe Experience Platform Launch application in Adobe Campaign {#set-up-campaign}
 
-Um eine mobile Experience Platform Launch-Eigenschaft in Kampagne zu verwenden, müssen Sie diese Eigenschaft auch in Adobe Campaign konfigurieren. Stellen Sie in Adobe Campaign sicher, dass der IMS-Benutzer Teil der Standard-Profil für Benutzer und Administratoren ist.
+Um eine mobile Experience Platform Launch-Eigenschaft in der Kampagne zu verwenden, müssen Sie diese Eigenschaft auch in Adobe Campaign konfigurieren. Stellen Sie in Adobe Campaign sicher, dass der IMS-Benutzer Teil der Standard-Profil für Benutzer und Administratoren ist.
 
 Für Benutzer, für die die Funktion zum Starten des technischen Workflows für die Synchronisierung der mobilen App AEPSDK aktiviert ist, müssen Sie warten, bis der technische Arbeitsablauf ausgeführt wird, und die Eigenschaft zum Starten des mobilen Geräts mit Adobe Campaign synchronisieren. Sie können es dann im Adobe Campaign konfigurieren.
 
@@ -126,11 +128,11 @@ In einigen Fällen kann sich der Endpunkt der Kampagne für eine Mobilanwendung 
 
 1. Vergewissern Sie sich, dass der Status der mobilen App von &quot; **[!UICONTROL Bereit zum Konfigurieren]** &quot;in &quot; **[!UICONTROL Konfiguriert]**&quot;geändert wurde.
 
-   Wenn die Erweiterung Experience Platform Launch Kampagne zeigt, dass der Schlüssel erfolgreich eingerichtet wurde, können Sie auch überprüfen, ob die Eigenschaft in Kampagne erfolgreich eingerichtet wurde.
+   Wenn die Erweiterung der Experience Platform Launch-Kampagne zeigt, dass der Schlüssel erfolgreich eingerichtet wurde, können Sie auch überprüfen, ob die Eigenschaft in Kampagne erfolgreich eingerichtet wurde.
 
    ![](assets/launch_5.png)
 
-1. Damit diese Konfiguration wirksam wird, müssen die Änderungen im Experience Platform Launch veröffentlicht werden.
+1. Damit diese Konfiguration wirksam wird, müssen die Änderungen in Experience Platform Launch veröffentlicht werden.
 
    Weitere Informationen finden Sie unter [Veröffentlichungskonfiguration](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
@@ -168,7 +170,7 @@ Ihre Mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Mobilanwendungs-Abonnenten]** , um eine Liste mit Abonnenten und anderen Informationen zu diesen Abonnenten anzuzeigen, z. B. ob sie Ihre Benachrichtigungen abbestellt haben.
 
-## Löschen der Adobe Experience Platform Launch-Anwendung {#delete-app}
+## Löschen der Adobe Experience Platform-Startanwendung {#delete-app}
 
 Das Löschen der Experience Platform Launch-Anwendung kann nicht rückgängig gemacht werden.
 
@@ -176,10 +178,10 @@ Das Löschen der Experience Platform Launch-Anwendung kann nicht rückgängig ge
 >
 >Das Löschen der Experience Platform Launch-Anwendung kann nicht rückgängig gemacht werden.
 
-Um Ihre Experience Platform Launch-Anwendung zu löschen, führen Sie die Schritte unter [Löschen von mobilen Eigenschaften](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch)aus.
+Um Ihre Experience Platform Launch-Anwendung zu löschen, führen Sie die Schritte unter [Löschen von Mobileigenschaften](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch)aus.
 
 Nachdem Sie Ihre Anwendung gelöscht haben, überprüfen Sie im Adobe Campaign, ob der Status Eigenschaften der Anwendung ordnungsgemäß auf Gelöscht beim Starten aktualisiert wurde.
 
 Wenn Sie im Adobe Campaign auf Ihre Anwendung klicken, können Sie diese Anwendung ganz aus dem Adobe Campaign entfernen, indem Sie auf Aus Kampagne löschen klicken.
 
-    ![](assets/launch_9.png)
+![](assets/launch_9.png)
