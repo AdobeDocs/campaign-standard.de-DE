@@ -10,10 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1707'
-ht-degree: 100%
+source-wordcount: '1703'
+ht-degree: 99%
 
 ---
 
@@ -56,10 +56,10 @@ Konfigurieren Sie anschließend andere Aktivitäten im Workflow, die auf Daten d
 
 ### Einschränkungen und Limits {#guardrails}
 
-Für diese Aktivität wurden folgende Limits festgelegt:
+Für diese Aktivität gelten die folgenden Garantien:
 
-* Maximal 50 MB für die HTTP-Antwort.
-* Die Zeitüberschreitung bei Anfrage beträgt 10 Minuten.
+* Maximal 5 MB für die HTTP-Antwort
+* Zeitüberschreitung bei Anforderung ist 1 Minute
 * HTTP-Weiterleitungen sind nicht zulässig.
 * Andere URLs als HTTPS werden abgelehnt.
 * Erlaubt sind Abfrage-Header vom Typ &quot;Accept: application/json&quot; und Antwort-Header vom Typ &quot;Content-Type: application/json&quot;.
