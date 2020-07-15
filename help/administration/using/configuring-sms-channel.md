@@ -12,8 +12,11 @@ discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+translation-type: tm+mt
+source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
+workflow-type: tm+mt
+source-wordcount: '1733'
+ht-degree: 99%
 
 ---
 
@@ -305,6 +308,7 @@ Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt d
 
    * Er versucht, das GSM-Alphabet zu verwenden und ordnet diesem den Wert **DATA_CODING = 0** zu.
    * Falls die Verwendung des GSM-Alphabets nicht möglich ist, verwendet er **UCS2** und ordnet den Wert **DATA_CODING = 8** zu.
+
    ![](assets/sms_data_coding.png)
 
 * Wenn die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** aktiviert wurde, haben Sie die Möglichkeit, die Kodierungen zu definieren, die Sie verwenden möchten, und ihnen im Feld **[!UICONTROL DATA_CODING]** die entsprechenden Werte zuzuordnen. Adobe Campaign verwendet die Kodierungen in der Reihenfolge ihres Erscheinens in der Liste. Wenn die Verwendung der ersten Kodierung nicht möglich ist, wird die zweite verwendet usw.
@@ -329,21 +333,27 @@ Die SMS-spezifischen Versandparameter befinden sich im Abschnitt **[!UICONTROL S
 
 ![](assets/sms_options.png)
 
+Im Abschnitt **[!UICONTROL Erweiterte Parameter]** :
+
 * Die Option **[!UICONTROL Von]** erlaubt die Eingabe einer Zeichenkette zur Personalisierung des SMS-Absenders. Es ist der hier eingegebene Name, der auf dem Mobiltelefon des Empfängers als Absender erscheint.
 
    Bleibt das entsprechende Feld leer, wird die im externen Konto angegebene Anrufernummer verwendet. Sollte auch dort keine Anrufernummer gespeichert sein, wird die Kurzwahlnummer verwendet. Weiterführende Informationen zu SMS-spezifischen externen Konten finden Sie im Abschnitt [SMS-Routing definieren](#defining-an-sms-routing).
 
-   ![](assets/sms_smpp.png)
+   ![](assets/sms_smpp_2.png)
 
    >[!IMPORTANT]
    >
    >Überprüfen Sie bezüglich der Änderung des Absenders die gültige Rechtslage Ihres Landes. Stellen Sie außerdem sicher, dass Ihr SMS-Provider diese Funktionalität anbietet.
+
+Im Abschnitt **[!UICONTROL Senden]** einer SMS-Vorlage:
 
 * Die Option **[!UICONTROL Maximale Anzahl an SMS pro Nachricht]** bietet die Möglichkeit, die Anzahl an SMS-Nachrichten festzulegen, die zum Senden einer Nachricht verwendet werden sollen. Sollte eine Nachricht diese Anzahl überschreiten, wird sie nicht gesendet.
 
    >[!IMPORTANT]
    >
    >Die Verwendung von Personalisierungsfeldern oder bedingtem Text im SMS-Inhalt kann dazu führen, dass die Nachrichtenlänge und somit die Anzahl erforderlicher SMS für die jeweiligen Empfänger variieren. Lesen Sie diesbezüglich auch den Abschnitt [SMS personalisieren](../../channels/using/personalizing-sms-messages.md).
+
+   ![](assets/sms_smpp_3.png)
 
 * Im Feld **[!UICONTROL Übermittlungsmodus]** können Sie die Versandmethode für SMS-Nachrichten festlegen:
 
