@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign Standard Angebot zwei neue Modelle für maschinelles Lernen: **Pr
 
 * **Bewertung** der voraussichtlichen Interaktion: Prognostische Interaktionsbewertungen prognostizieren die Wahrscheinlichkeit, mit der ein Empfänger mit einer Nachricht interagiert, sowie die Wahrscheinlichkeit, dass er sich innerhalb der nächsten 7 Tage nach dem nächsten E-Mail-Versand abmeldet (abbestellt). Die Wahrscheinlichkeiten werden je nach dem spezifischen Risiko des Rückzugs, mittel oder niedrig, weiter in Behälter unterteilt. Dasselbe Modell bietet den Kunden auch den Rang eines Risikoperzentils, um zu verstehen, wo der Rang eines bestimmten Kunden im Verhältnis zu anderen steht.
 
->[!NOTE]
-> **Voraussetzungen **
->
+>[!CAUTION]
 >Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Für die Implementierung muss Adobe Consulting beteiligt sein. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um weitere Informationen zu erhalten.
 >
 >Getrennt vom Feature war die Verwendung einer Azurblauen Datenspeicherung erforderlich, die vom Kunden zur Verfügung gestellt werden muss.
@@ -69,7 +67,7 @@ Ausgabedetails
    * beste Zeit, um eine E-Mail zu senden, um Klicks für Sonntag zu optimieren - Werte zwischen 0 und 23
    * beste Zeit, eine E-Mail zu senden, um die Öffnung für Sonntag zu optimieren - Werte zwischen 0 und 23
    * ...
-   * Der beste Tag, um eine E-Mail zu senden, um die Optimierung geöffnet für die ganze Woche - Montag bis Sonntag
+   * Der beste Tag, um eine E-Mail zu senden, um die Optimierung für die ganze Woche geöffnet - Montag bis Sonntag
    * beste Zeit, eine E-Mail zu senden, um die Öffnung für die ganze Woche - Werte zwischen 0 und 23
 
 >[!NOTE]
