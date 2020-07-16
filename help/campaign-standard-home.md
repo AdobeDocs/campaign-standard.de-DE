@@ -3,11 +3,11 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Produktdokumentation zu Adobe Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
-workflow-type: ht
-source-wordcount: '199'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 88%
 
 ---
 
@@ -18,13 +18,14 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
+* **[AI-basierte E-Mails](sending/using/predictive.md)**<br/>Optimieren Sie Design und Versand mit AI-basierten E-Mails.
+
 * **[Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html)**<br/>
 Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen
 
 * **[Externe API](automating/using/external-api.md)**<br/>Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
 
-* **[Handbuch zum Mobil-Versand in Campaign Standard](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/>
-Erfahren Sie mehr über die allgemeinen Richtlinien für den Mobil-Versand
+* **[Erste Schritte mit mobilen Versänden](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/> Weitere Informationen zu allgemeinen Richtlinien für mobile Versand (SMS, Push, In-App)
 
 [Klicken Sie hier für weitere Updates.](rn/using/documentation-updates.md)
 
