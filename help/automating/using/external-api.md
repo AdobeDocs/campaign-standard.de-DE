@@ -10,10 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 99%
+source-wordcount: '1752'
+ht-degree: 94%
 
 ---
 
@@ -58,16 +58,15 @@ Konfigurieren Sie anschließend andere Aktivitäten im Workflow, die auf Daten d
 
 Für diese Aktivität gelten die folgenden Garantien:
 
-* Maximal 5 MB für die HTTP-Antwort
-* Zeitüberschreitung bei Anforderung ist 1 Minute
+* Maximale HTTP-Antwortdatengröße von 50 MB (5 MB empfohlen)
+* Die Zeitüberschreitung bei Anfrage beträgt 10 Minuten.
 * HTTP-Weiterleitungen sind nicht zulässig.
 * Andere URLs als HTTPS werden abgelehnt.
 * Erlaubt sind Abfrage-Header vom Typ &quot;Accept: application/json&quot; und Antwort-Header vom Typ &quot;Content-Type: application/json&quot;.
 
->[!CAUTION]
+>[!NOTE]
 >
->Bitte beachten Sie, dass die Aktivität zum Abrufen von Daten aus der gesamten Kampagne (letzte Angebotspakete, aktuelle Bewertungen usw.) und nicht zum Abrufen spezifischer Informationen für jedes Profil gedacht ist, da dies zu einer Übertragung großer Datenmengen führen kann. Sollte dies dennoch erforderlich sein, wird empfohlen, die Aktivität [Datei übertragen](../../automating/using/transfer-file.md) zu verwenden.
-
+>Ab Kampagne 20.4 werden die maximale HTTP-Antwortdatengröße und die Guardrails auf 5 MB und 1 Minute gesenkt.  Diese Änderung betrifft nur neue externe API-Aktivitäten. Es wird jedoch empfohlen, dass die aktuellen Implementierungen der externen API-Aktivität mit diesen neuen Garantieleistungen übereinstimmen, um bewährte Verfahren zu befolgen.
 
 Für das JSON-Format wurden spezielle Limits festgelegt:
 
@@ -75,12 +74,14 @@ Für das JSON-Format wurden spezielle Limits festgelegt:
 * **Max. JSON-Schlüssellänge**: begrenzt die maximale Länge des internen Schlüssels auf 255. Dieser Schlüssel ist mit der Spaltenkennung verknüpft.
 * **Max. zulässige Zahl an JSON-Duplikatschlüsseln**: begrenzt die maximale Gesamtzahl der als Spaltenkennung verwendeten Duplikat-JSON-Eigenschaftsnamen auf 150.
 
-
 Die Aktivität ist keine unterstützte JSON-Struktur:
 
 * Kombinieren von Array-Objekten mit anderen Nicht-Array-Elementen
 * Das JSON-Array-Objekt ist in einem oder mehreren Zwischen-Array-Objekten verschachtelt.
 
+>[!CAUTION]
+>
+>Die externe API-Aktivität ist für das Abrufen von Kampagne-weiten Daten (aktueller Satz von Angeboten, neueste Ergebnisse usw.) vorgesehen und dient nicht zum Abrufen spezifischer Informationen für jedes Profil, da dies zu einer Übertragung großer Datenmengen führen kann. Sollte dies dennoch erforderlich sein, wird empfohlen, die Aktivität [Datei übertragen](../../automating/using/transfer-file.md) zu verwenden.
 
 ## Konfiguration {#configuration}
 
