@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
+source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
 workflow-type: tm+mt
-source-wordcount: '6117'
+source-wordcount: '6120'
 ht-degree: 97%
 
 ---
@@ -28,7 +28,7 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 Es wurde ein neuer Abschnitt mit Leitlinien für die Überwachung der Campaign Standard hinzugefügt. [Mehr dazu](../../administration/using/monitoring-guidelines.md)
 
-Externe API-Guardrails wurden aktualisiert. [Mehr dazu](../../automating/using/external-api.md)
+Der Abschnitt &quot;Externe API-Richtlinien und -Einschränkungen&quot;wurde aktualisiert.[Mehr dazu](../../automating/using/external-api.md#guardrails)
 
 Die Seite &quot;Überblick über das Datenschutzmanagement&quot;wurde aktualisiert und enthält nun Informationen zum thailändischen Datenschutzgesetz (PDPA) und dem brasilianischen Lei Geral de Proteção de Dados (LGPD). [Mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
