@@ -1,6 +1,6 @@
 ---
-title: Externer Signal- und Datenimport
-description: Im folgenden Beispiel wird die Aktivität des externen Signals beim Datenimport veranschaulicht.
+title: Externes Signal und Datenimport
+description: Im folgenden Beispiel wird die Aktivität "Externes Signal" beim Datenimport erläutert.
 page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Externer Signal- und Datenimport {#external-signal-data-import}
+# Externes Signal und Datenimport {#external-signal-data-import}
 
 Das folgende Beispiel erläutert die Aktivität **[!UICONTROL Externes Signal]** anhand eines typischen Fallbeispiels. In einem Ursprungs-Workflow wird ein Datenimport vorgenommen. Nachdem der Import abgeschlossen und die Datenbank aktualisiert wurde, wird ein zweiter Workflow ausgelöst. Mit dem zweiten Workflow wird ein Aggregat der importierten Daten aktualisiert.
 
