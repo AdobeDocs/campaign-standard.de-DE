@@ -11,11 +11,11 @@ topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Tracking-Informationen sind für jeden Kontakt in Ihrer Datenbank in **[!UICONTR
 Adobe Campaign verwendet zwei Arten von Cookies:
 
 * Sitzungs-Cookie (nlid). Er enthält die Kennung der an den Kontakt gesendeten E-Mail (broadlogId) und die Kennung der Nachrichtenvorlage (deliveryId). Er wird gesetzt, sobald der Kontakt eine in einer mit Adobe Campaign gesendeten E-Mail enthaltene URL anklickt, und ermöglicht, das Webverhalten des Kontakts zu verfolgen. Dieser Sitzungs-Cookie wird automatisch mit Schließen des Browsers gelöscht. Der Kontakt hat die Möglichkeit, das Setzen des Cookies zu verbieten, indem er seine Browser-Einstellungen dementsprechend ändert.
-* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Lösungen der Experience Cloud bei Webseitenbesuchen interagiert. Die Beschreibung dieses Cookies ist [hier](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html)verfügbar.
+* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Lösungen der Experience Cloud bei Webseitenbesuchen interagiert. Dieses Cookie wird [hier](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-mc.html) beschrieben.
 
 Tracking mit Adobe Campaign Standard bietet Ihnen Zugriff auf folgende Funktionen:
 
@@ -64,7 +64,7 @@ Tracking mit Adobe Campaign Standard bietet Ihnen Zugriff auf folgende Funktione
 </tr>
 </table>
 
-## Trackinglogs   {#tracking-logs}
+## Trackinglogs    {#tracking-logs}
 
 Der **[!UICONTROL Trackinglogs]**-Tab zeigt den Verlauf des Trackings für den vorliegenden Versand an. Angezeigt werden die zu allen gesendeten Nachrichten für die jeweils getrackten URLs gesammelten Informationen. Die Trackinginformationen in diesem Tab werden alle 10 Minuten aktualisiert.
 
