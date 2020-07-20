@@ -11,11 +11,11 @@ topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2298'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Wenn Sie Benachrichtigungen, die auf bestimmten Bedingungen basieren, an untersc
 
 Immer wenn jetzt ein Versand die von Ihnen in diesem Dashboard definierten Bedingungen erfüllt, wird eine Warnung an die angegebene Benutzergruppe gesendet.
 
-## Versandwarnungsbedingungen   {#delivery-alerting-criteria}
+## Versandwarnungsbedingungen    {#delivery-alerting-criteria}
 
 ### Über Warnungsbedingungen {#about-alerting-criteria}
 
@@ -141,7 +141,7 @@ Für jede Bedingung können Sie folgende Einstellungen festlegen:
 * [Häufigkeit der Versandwarnungen](#alerting-frequency)
 * [Symbole und Status von Marketingaktivitäten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Versandwarnungsbedingung erstellen   {#creating-a-delivery-alerting-criterion}
+### Versandwarnungsbedingung erstellen    {#creating-a-delivery-alerting-criterion}
 
 Sie können nach Bedarf neue Versandwarnungsbedingungen erstellen.
 
@@ -185,7 +185,7 @@ Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard
 
 [Ressource hinzufügen oder erweitern](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Versandwarnungsparameter   {#delivery-alerting-parameters}
+## Versandwarnungsparameter    {#delivery-alerting-parameters}
 
 ### Bedingungsparameter {#criteria-parameters}
 
@@ -222,7 +222,7 @@ Sie können diese Einstellung im Menü **[!UICONTROL Administration]** > **[!UIC
 >
 >Diese Option gilt für alle in Adobe Campaign definierten Dashboards. Es ist nicht möglich, für jedes Dashboard eine eigene Häufigkeit festzulegen.
 
-## Gründe für Versandwarnungen   {#delivery-alerting-reasons}
+## Gründe für Versandwarnungen    {#delivery-alerting-reasons}
 
 Mit der Funktion **Versandwarnung** von Adobe Campaign sind alle Benutzer von Adobe Campaign automatisch über den Ausführungsstatus des Versands über E-Mails und Dashboards informiert.
 
@@ -261,7 +261,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 
    Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Hardbounce-Fehlerrate]** sind:
 
-   * Der Empfänger befindet sich auf der blockierungsliste, was bedeutet, dass er nicht mehr kontaktiert werden möchte.
+   * Der Empfänger steht auf der Blockierungsliste, was bedeutet, dass er nicht mehr kontaktiert werden möchte.
    * Die E-Mail-Adresse des Empfängers existiert nicht.
    * Die Domain des Empfängers existiert nicht.
    * Der Server des Empfängers blockiert die Zustellung.
