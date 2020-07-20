@@ -1,5 +1,5 @@
 ---
-title: Identifizieren von Duplikaten vor einem Versand
+title: Dubletten vor einem Versand identifizieren
 description: Das folgende Beispiel zeigt eine Deduplizierung, mithilfe derer die Dubletten einer Zielgruppe vor dem Versand einer E-Mail ausgeschlossen werden können. Dadurch lässt sich vermeiden, eine Information mehrmals an ein und dasselbe Profil zu schicken.
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
@@ -12,16 +12,16 @@ discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Identifying duplicates before a delivery {#identifying-duplicates-before-a-delivery}
+# Dubletten vor einem Versand identifizieren {#identifying-duplicates-before-a-delivery}
 
 Das folgende Beispiel zeigt eine Deduplizierung, mithilfe derer die Dubletten einer Zielgruppe vor dem Versand einer E-Mail ausgeschlossen werden können. Dadurch lässt sich vermeiden, eine Information mehrmals an ein und dasselbe Profil zu schicken.
 
@@ -42,4 +42,4 @@ Der Workflow setzt sich folgendermaßen zusammen:
    ![](assets/deduplication_example_dedup.png)
 
 * [E-Mail-Versand](../../automating/using/email-delivery.md), der im Anschluss an die ausgehende Haupttransition der Deduplizierung platziert wird.
-* [Audience-Speicherung](../../automating/using/save-audience.md), die im Anschluss an die komplementäre Transition der Deduplizierung platziert wird, um die Dubletten in einer **Dubletten**-Audience zu speichern. Diese Audience kann in der Folge wiederverwendet werden, um ihre Mitglieder direkt von jeglichem E-Mail-Versand auszuschließen.
+* Die Aktivität [Audience-Speicherung](../../automating/using/save-audience.md), die im Anschluss an die zusätzliche Transition der Deduplizierung platziert wird, um die Dubletten in einer **Dubletten**-Audience zu speichern. Diese Audience kann in der Folge wiederverwendet werden, um ihre Mitglieder direkt von jeglichem E-Mail-Versand auszuschließen.
