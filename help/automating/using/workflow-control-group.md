@@ -1,6 +1,6 @@
 ---
 title: Kontrollgruppe erstellen
-description: Dieser Verwendungsfall zeigt, wie eine Kontrollgruppe erstellt wird.
+description: Dieser Anwendungsfall zeigt, wie man eine Kontrollgruppe erstellt.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 90%
 Um die Wirkung eines Versands zu messen, können Sie einige Profile aus Ihrer Zielgruppe ausschließen, sodass diese keine Nachricht erhalten. Das Verhalten dieser Kontrollgruppe kann anschließend mit dem der Zielgruppe verglichen werden, die die Nachricht erhalten hat.
 
 Sie können in Adobe Campaign Standard dazu einen Workflow mit folgenden Aktivitäten erstellen:
-* A [Query](../../automating/using/query.md) activity to target a given population.
-* A [Segmentation](../../automating/using/segmentation.md) activity to isolate a random control group from this population.
-* An [Email delivery](../../automating/using/email-delivery.md) activity to send a message to the main target.
-* An [Update data](../../automating/using/update-data.md) activity to update the profiles that were excluded from the target (the random control group).
+* Eine [Abfrageaktivität](../../automating/using/query.md) zur Auswahl einer bestimmten Population.
+* Eine [Segmentierungsaktivität](../../automating/using/segmentation.md), um eine zufällige Kontrollgruppe von dieser Population zu isolieren.
+* Eine [E-Mail-Versandaktivität](../../automating/using/email-delivery.md), um eine Nachricht an die Hauptzielgruppe zu senden.
+* Eine [Daten-Aktualisierungsaktivität](../../automating/using/update-data.md), um die Profile zu aktualisieren, die von der Zielgruppe ausgeschlossen wurden (die zufällige Kontrollgruppe).
 
 ![](assets/wkf_control-group.png)
 
@@ -52,7 +52,7 @@ Zunächst müssen Sie die Ressource **[!UICONTROL Profil]** um ein neues Feld f�
 
 Weiterführende Informationen zum Erweitern einer benutzerdefinierten Ressource finden Sie im Abschnitt [Schritte zum Hinzufügen einer Ressource](../../developing/using/key-steps-to-add-a-resource.md).
 
-## Workflow erstellen   {#creating-a-workflow}
+## Workflow erstellen    {#creating-a-workflow}
 
 1. Wählen Sie dazu in **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
 1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
@@ -62,7 +62,7 @@ Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Wo
 
 ## Abfrageaktivität erstellen {#create-a-query-activity}.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
+1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität, um Ihre Zielgruppe zu definieren.
 1. Ziehen Sie beispielsweise unter **[!UICONTROL Schnellzugriffe]** die Option **[!UICONTROL Profil]** in den Arbeitsbereich, wählen Sie **[!UICONTROL Alter]** mit dem Operator **[!UICONTROL Größer als]** aus und geben Sie in das Feld **[!UICONTROL Wert]** &quot;25&quot; ein.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
@@ -88,7 +88,7 @@ Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Wo
 
 ## E-Mail-Aktivität erstellen {#creating-an-email-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after the main target segment.
+1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Kanäle]** eine [E-Mail-Versandaktivität](../../automating/using/email-delivery.md) hinter das Hauptzielgruppensegment.
 1. Wählen Sie zur Bearbeitung die Aktivität und danach ![](assets/edit_darkgrey-24px.png) aus.
 1. Wählen Sie **[!UICONTROL Einmalige E-Mail]** und danach **[!UICONTROL Weiter]** aus.
 1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.
