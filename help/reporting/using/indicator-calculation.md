@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand     {#email-delivery}
+## E-Mail-Versand      {#email-delivery}
 
 <table> 
  <thead> 
@@ -48,14 +48,14 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   </tr> 
   <tr> 
    <td> Auf die Blockierungsliste gesetzt<br /> </td> 
-   <td> @auf die Blockierungsliste gesetzt<br /> </td> 
+   <td> @blocklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Auf die Blockierungsliste gesetzt<br /> </td> 
-   <td> @rateBlocklist<br /> </td> 
-   <td> @auf die Blockierungsliste gesetzt/@gesendet<br /> </td> 
+   <td> Blockierungslistenrate<br /> </td> 
+   <td> @rateBlocklisted<br /> </td> 
+   <td> @blocklisted/@sent<br /> </td> 
    <td> Der Denominator für die Berechnung der Rate basiert auf der Anzahl der gesendeten Nachrichten (Zugestellt + Bounces).<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,7 +229,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand     {#push-notification-delivery}
+## Push-Benachrichtigungsversand      {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -273,7 +273,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelöffnungen<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressionen<br /> </td> 
@@ -293,7 +293,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Durchklickrate<br /> </td> 
@@ -303,7 +303,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## In-App-Versand     {#in-app-delivery}
+## In-App-Versand      {#in-app-delivery}
 
 <table> 
  <thead> 
