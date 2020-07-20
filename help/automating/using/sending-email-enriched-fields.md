@@ -1,6 +1,6 @@
 ---
-title: Senden einer E-Mail mit erweiterten Feldern
-description: Das folgende Beispiel zeigt, wie eine E-Mail mit zusätzlichen Daten gesendet wird, die über die Aktivität „Datei laden“ aus einer externen Datei abgerufen wurden.
+title: E-Mail mit erweiterten Feldern senden
+description: Das folgende Beispiel zeigt, wie eine E-Mail mit zusätzlichen Daten gesendet wird, die über die Aktivität "Datei laden" aus einer externen Datei abgerufen wurden.
 page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Sending an email with enriched fields {#sending-email-enriched-fields}
+# E-Mail mit erweiterten Feldern senden {#sending-email-enriched-fields}
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
@@ -31,7 +31,7 @@ Das folgende Beispiel zeigt, wie eine E-Mail mit zusätzlichen Daten gesendet wi
 
 ![](assets/load_file_workflow_ex2.png)
 
-Gehen Sie zum Erstellen des Workflows wie folgt vor:
+Gehen Sie wie folgt vor, um den Workflow zu erstellen:
 
 1. Ziehen Sie eine [Abfrageaktivität](../../automating/using/query.md) per Drag &amp; Drop in Ihren Workflow und öffnen Sie diese, um das Hauptziel festzulegen.
 
