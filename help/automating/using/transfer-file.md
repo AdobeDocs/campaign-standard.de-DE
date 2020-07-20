@@ -12,11 +12,11 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im 
 
 **Verwandte Themen:**
 
-* [Verwendungsfall: Aktualisieren von Daten auf der Grundlage eines automatischen Dateidownloads](../../automating/using/update-data-automatic-download.md)
+* [Anwendungsfall: Daten basierend auf einem automatischen Datei-Download aktualisieren](../../automating/using/update-data-automatic-download.md)
 
 ## Konfiguration {#configuration}
 
@@ -151,7 +151,7 @@ Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angege
     >
     >**//myserver/hello/myrecipients.csv** ist falsch.
 
-## Verlaufsparameter    {#historization-settings}
+## Verlaufsparameter     {#historization-settings}
 
 Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wird, werden die hoch- oder heruntergeladenen Dateien in einem bestimmten Ordner gespeichert. Für jede Aktivität **[!UICONTROL Dateiübertragung]** in einem Workflow wird ein Ordner erstellt. Deshalb ist es wichtig, die Größe dieses Ordners zu begrenzen, um physischen Platz auf dem Server zu sparen.
 
