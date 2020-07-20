@@ -1,6 +1,6 @@
 ---
-title: Versand von E-Mail- und Direktversand
-description: Dieser Verwendungsfall zeigt ein Beispiel für das Senden von E-Mail- und Direktversand aus einem Workflow.
+title: E-Mail- und Briefpostversand verbinden
+description: Dieser Anwendungsfall zeigt ein Beispiel für den E-Mail- und Briefpostversand aus einem Workflow.
 page-status-flag: never-activated
 uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
-# Versand von E-Mail- und Direktversand {#coupling-email-direct-mail}
+# E-Mail- und Briefpostversand verbinden {#coupling-email-direct-mail}
 
 Als Marketer möchten Sie möglicherweise Kataloge per Briefpost versenden. Im Papierkatalog wird auf manchen Seiten ein Rabatt von 10 % angeboten, gemeinsam mit einem Promotioncode und einem Link für den Produktkauf auf der Website.
 
@@ -37,5 +37,5 @@ Hier ist ein Beispiel für einen Workflow, in dem die Kanäle Briefpost und E-Ma
 
 **Verwandte Themen:**
 
-* [Briefpost Versand Aktivität](../../automating/using/direct-mail-delivery.md)
+* [Briefpostversand-Aktivität](../../automating/using/direct-mail-delivery.md)
 * [Über Briefpost](../../channels/using/about-direct-mail.md)
