@@ -12,11 +12,11 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1838'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 * Anreicherung von Daten beliebiger Adobe-Campaign-Tabellen;
 * Export von Daten.
 
-## Konfiguration  {#configuration}
+## Konfiguration   {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Abfrage]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png). Die Standardkonfiguration der Aktivität sieht die Suche nach Profilen vor.
@@ -67,7 +67,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Zielgruppendimensionen und Ressourcen  {#targeting-dimensions-and-resources}
+## Zielgruppendimensionen und Ressourcen   {#targeting-dimensions-and-resources}
 
 Mit Zielgruppendimensionen und Ressourcen können Sie definieren, auf welchen Elementen eine Abfrage basieren soll, um die Zielgruppe eines Versands zu bestimmen.
 
@@ -103,7 +103,7 @@ Beispiel für verfügbare Filter für die Ressource **[!UICONTROL Sendungen (del
 
 Normalerweise werden die Zielgruppendimension und die Ressource festgelegt, um Profile zu erfassen. Manchmal kann es aber nötig sein, eine von der Zielgruppendimension abweichende Ressource zu verwenden, um einen bestimmten Datensatz in einer entfernten Tabelle zu suchen.
 
-Weitere Informationen hierzu finden Sie in diesem Verwendungsfall: [Verwenden von Ressourcen, die sich von Zielgruppendimensionen unterscheiden](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Weitere Informationen hierzu finden Sie in diesem Anwendungsfall: [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Anreichern von Daten {#enriching-data}
 
@@ -125,9 +125,9 @@ Nach dem Hinzufügen von Zusatzdaten können Sie die zunächst von der Abfrage a
 >
 >Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Leistungssteigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
 
-In [diesem Abschnitt](../../automating/using/personalizing-email-with-additional-data.md)wird ein Anwendungsfall erläutert, wie eine E-Mail mit zusätzlichen Daten personalisiert werden kann.
+In [diesem Abschnitt](../../automating/using/personalizing-email-with-additional-data.md) wird ein Anwendungsfall vorgestellt, wie eine E-Mail mit zusätzlichen Daten personalisiert werden kann.
 
-### Einfaches Feld hinzufügen  {#adding-a-simple-field}
+### Einfaches Feld hinzufügen   {#adding-a-simple-field}
 
 Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres direkt in der ausgehenden Transition der Aktivität sichtbar. Dadurch lässt sich beispielsweise überprüfen, ob die aus der Abfrage hervorgehenden Daten Ihren Vorstellungen entsprechen.
 
@@ -140,7 +140,7 @@ Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres dire
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Aggregat hinzufügen  {#adding-an-aggregate}
+### Aggregat hinzufügen   {#adding-an-aggregate}
 
 Aggregate dienen der Berechnung von Werten, die auf Feldern der Zielgruppendimension oder auf Feldern aus mit der Zielgruppendimension in Relation stehenden Dimensionen basieren. Zum Beispiel: der Durchschnitt der von einem Profil erteilten Bestellungen.
 Bei Verwendung von Aggregat mit Abfrage kann die Funktion auf null zurückgesetzt werden, was dann als NULL gilt. Filtern Sie den aggregierten Wert auf dem Tab **[!UICONTROL Ergebnis verfeinern]** Ihrer Abfrage:
