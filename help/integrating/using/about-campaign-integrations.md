@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Kampagne-Integrationen
+title: Erste Schritte mit Campaign-Integrationen
 description: Adobe Campaign ermöglicht die Verwendung anderer Adobe-Lösungen und die Kombination ihrer Funktionen.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
@@ -11,11 +11,11 @@ topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Die Integration von Adobe Campaign mit verschiedenen Adobe Experience Cloud-Lös
 
 In Ihrer Arbeitsumgebung verfügen Sie unter Umständen über verschiedene Lösungen der Adobe Experience Cloud. Diese sind miteinander über Organisationen – auch Mandanten genannt – verbunden.
 
-Eine Organisation ist die Entität, mit der ein Administrator Gruppen und Benutzer konfigurieren und Anmeldungen in der Experience Cloud steuern kann. Eine Organisation ist wie eine Unternehmensanmeldung bei allen Produkten und Lösungen, die in der Experience Cloud enthalten sind. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. Weiterführende Informationen zur Verwaltung von Benutzern und Organisationen finden Sie im [Hilfeportal der Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Eine Organisation ist die Entität, mit der ein Administrator Gruppen und Benutzer konfigurieren und Anmeldungen in der Experience Cloud steuern kann. Eine Organisation ist wie eine Unternehmensanmeldung bei allen Produkten und Lösungen, die in der Experience Cloud enthalten sind. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. Weiterführende Informationen zur Verwaltung von Benutzern und Organisationen finden Sie im [Hilfeportal der Adobe Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/organizations.html).
 
 Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möchten, beachten Sie unsere [API-Dokumentation](../../api/using/get-started-apis.md).
 
@@ -56,7 +56,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Target<br /> Classic, Standard<br /> </td> 
    <td> Dient bei der Öffnung einer mit Adobe Campaign erstellten und gesendeten E-Mail dem Einfügen von durch Adobe Target dynamisch berechneten Bildern.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Verwenden von Campaign und Target</a> <br/>, <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">Integrieren von Campaign und Target</a><br/>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">Personalize Email Images in Real-Time</a> Video (Schritt 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Verwenden von Campaign und Target</a> <br/>, <a href="https://docs.adobe.com/content/help/de-DE/target/using/integrate/campaign-and-target.html">Integrieren von Campaign und Target</a><br/>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">Personalize Email Images in Real-Time</a> Video (Schritt 3)
     </td> 
   </tr> 
   <tr> 
