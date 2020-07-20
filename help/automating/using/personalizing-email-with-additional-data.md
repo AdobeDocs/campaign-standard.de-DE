@@ -1,6 +1,6 @@
 ---
-title: Personalisieren einer E-Mail mit zusätzlichen Daten
-description: In diesem Verwendungsfall wird erläutert, wie Sie einer Abfrage verschiedene Arten zusätzlicher Daten hinzufügen und diese als Personalisierungsfeld in einer E-Mail verwenden können.
+title: E-Mail mit Zusatzdaten personalisieren
+description: In diesem Anwendungsfall wird vorgestellt, wie man verschiedene Arten von zusätzlichen Daten zu einer Abfrage hinzufügt und sie als Personalisierungsfelder in einer E-Mail verwendet.
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: sauviat
@@ -12,18 +12,18 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+# E-Mail mit Zusatzdaten personalisieren {#example--personalizing-an-email-with-additional-data}
 
-Das folgende Beispiel zeigt die Hinzufügung verschiedener Zusatzdatentypen zu einer Abfrage und die Verwendung von Zusatzdaten in Form von Personalisierungsfeldern in einer E-Mail. Weitere Informationen zum Aufwerten der Daten, auf die eine **[!UICONTROL Abfrage]** -Aktivität abzielt, finden Sie in [diesem Abschnitt](../../automating/using/query.md#enriching-data).
+Das folgende Beispiel zeigt das Hinzufügen verschiedener Zusatzdatentypen zu einer Abfrage und die Verwendung von Zusatzdaten in Form von Personalisierungsfeldern in einer E-Mail. Weiterführende Informationen darüber, wie Sie die Daten anreichern können, auf die eine **[!UICONTROL Abfrageaktivität]** abzielt, finden Sie in [diesem Abschnitt](../../automating/using/query.md#enriching-data).
 
 Für dieses Beispiel werden diverse [benutzerdefinierte Ressourcen](../../developing/using/data-model-concepts.md) verwendet:
 
