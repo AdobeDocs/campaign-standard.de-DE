@@ -1,6 +1,6 @@
 ---
-title: 'Konvertieren der E-Mail aus dem älteren Editor in den E-Mail-Designer '
-description: Erfahren Sie, wie Sie E-Mails verwenden, die im Legacy-Editor erstellt wurden E-Mail an den E-Mail-Designer.
+title: 'E-Mails des alten Editors in Email Designer konvertieren '
+description: Erfahren Sie, wie Sie im alten Editor erstellte E-Mails in Email Designer konvertieren können.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -11,49 +11,49 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
-# Konvertieren von E-Mail-Inhalten des alten Editors {#converting-an-html-content}
+# E-Mails des alten Editors in Email Designer konvertieren {#converting-an-html-content}
 
-Beginn, der mit dem E-Mail-Designer arbeitet, und erstellen wiederverwendbare Vorlagen und Fragmente aus Ihrem E-Mail-HTML-Code, der im Legacy-Editor erstellt wurde.
+Beginnen Sie mit Email Designer zu arbeiten und erstellen Sie wiederverwendbare Vorlagen und Fragmente aus dem im alten Editor generierten E-Mail-HTML-Code.
 
-In diesem Anwendungsfall können Sie eine E-Mail-Designer-Vorlage erstellen, indem Sie eine HTML-E-Mail verwenden und sie in HTML-Komponenten im E-Mail-Designer aufteilen.
+Dieser Anwendungsfall ermöglicht es Ihnen, eine Email Designer-Vorlage zu erstellen, indem Sie eine HTML-E-Mail verwenden und sie in Email Designer in HTML-Komponenten aufteilen.
 
 >[!NOTE]
 >
->Wie der Kompatibilitätsmodus kann eine HTML-Komponente mit eingeschränkten Optionen bearbeitet werden: Sie können nur eine ersetzende Ausgabe durchführen.
+>Wie im Kompatibilitätsmodus ist eine HTML-Komponente nur beschränkt bearbeitbar: Sie kann nur an Ort und Stelle bearbeitet werden.
 
 >[!IMPORTANT]
 >
 >Dieser Abschnitt richtet sich an Benutzer mit fortgeschrittenen HTML-Kenntnissen.
 
-## Vorbereiten des E-Mail-Inhalts
+## E-Mail-Inhalte vorbereiten
 
 1. Wählen Sie eine HTML-E-Mail aus.
-1. Identifizieren Sie die Abschnitte, die die HTML-E-Mail unterteilen sollen.
-1. Schneiden Sie die verschiedenen Blöcke aus Ihrem HTML-Code aus.
+1. Identifizieren Sie Abschnitte, um die HTML-E-Mail zu unterteilen.
+1. Schneiden Sie die verschiedenen Blöcke aus Ihrer HTML-E-Mail aus.
 
 ## E-Mail-Struktur erstellen
 
-1. Open the **[!UICONTROL Email Designer]**  to create an empty email content.
+1. Öffnen Sie **[!UICONTROL Email Designer]**, um leeren E-Mail-Inhalt zu erstellen.
 1. Legen Sie die Attribute für den Hauptteil fest: Hintergrundfarben, Breite etc. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Stile bearbeiten](../../designing/using/styles.md).
-1. Hinzufügen Sie so viele Strukturkomponenten wie Abschnitte. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Fügen Sie so viele Strukturkomponenten hinzu, wie Sie Abschnitte haben. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## HTML-Inhalt Hinzufügen
+## HTML-Inhalt hinzufügen
 
-1. Hinzufügen jeder Strukturkomponente eine HTML-Komponente. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Kopieren Sie den HTML-Code in jede Komponente.
+1. Fügen Sie zu jeder Strukturkomponente eine HTML-Komponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Fügen Sie Ihren HTML-Code in jede Komponente ein.
 
-## Verwalten des Stils Ihrer E-Mail {#manage-the-style-of-your-email}
+## Stil Ihrer E-Mail verwalten {#manage-the-style-of-your-email}
 
-1. Switch to **[!UICONTROL Mobile view]**. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Wechseln Sie zur **[!UICONTROL Mobile-Ansicht]**. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. Um dieses Problem zu beheben, wechseln Sie zum Quellcode-Modus und kopieren Sie Ihren CSS-Abschnitt in einen neuen CSS-Abschnitt. Beispiel:
 
@@ -83,9 +83,9 @@ In diesem Anwendungsfall können Sie eine E-Mail-Designer-Vorlage erstellen, ind
 
 ## Anwendungsbeispiel
 
-Versuchen wir, diese E-Mail, die im Legacy-Editor erstellt wurde, in eine **[!UICONTROL E-Mail-Designer]** -Vorlage zu konvertieren.
+Hier wird diese im alten Editor erstellte E-Mail in eine **[!UICONTROL Email Designer]**-Vorlage konvertiert.
 
-## Identifizieren Sie den Abschnitt Ihrer E-Mail.
+## Abschnitt Ihrer E-Mail identifizieren
 
 Wir können 11 Abschnitte in dieser E-Mail identifizieren.
 
@@ -95,23 +95,23 @@ Um zu ermitteln, welches Element welcher Abschnitt des HTML-Codes ist, können S
 
 ![](assets/breadcrumbs.png)
 
-Um die HTML-Version der E-Mail anzuzeigen, klicken Sie auf Quelle **[!UICONTROL anzeigen]**.
+Um die HTML-Version der E-Mail anzuzeigen, klicken Sie auf **[!UICONTROL Quelle anzeigen]**.
 
 ### E-Mail-Vorlage und deren Struktur erstellen
 
-1. Ziehen Sie **[!UICONTROL Strukturkomponenten]** , die das Layout unserer E-Mail widerspiegeln.
+1. Ziehen Sie **[!UICONTROL Strukturkomponenten]** in den Arbeitsbereich, die das Layout der E-Mail widerspiegeln.
 
-1. Wiederholen Sie diese Schritte nach Bedarf. Wir müssen elf Strukturkomponenten erstellen.
+1. Wiederholen Sie diese Schritte so oft wie nötig. Für dieses Beispiel müssen elf Strukturkomponenten erstellt werden.
 
    ![](assets/structure-components-migration.png)
 
-### Einfügen von HTML-Inhaltskomponenten
+### HTML-Inhaltskomponenten einfügen
 
-1. Fügen Sie eine **[!UICONTROL HTML-Komponente]** in jede **[!UICONTROL Strukturkomponente]** ein.
+1. Fügen Sie in jede **[!UICONTROL Strukturkomponente]** eine **[!UICONTROL HTML-Komponente]** ein.
 
    ![](assets/html-components.png)
 
-1. Klicken Sie für jeden Abschnitt auf Quellcode **[!UICONTROL anzeigen]** .
+1. Klicken Sie für jeden Abschnitt auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](assets/show-source-code.png)
 
@@ -119,16 +119,16 @@ Um die HTML-Version der E-Mail anzuzeigen, klicken Sie auf Quelle **[!UICONTROL 
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-Sie können nun die Wiedergabe Ihrer E-Mail überprüfen.
+Sie können nun das Rendering Ihrer E-Mail überprüfen.
 
 ![](assets/migrated-email-result.png)
 
-### Verwalten von Stilen für die mobile Ansicht
+### Stile für die Ansicht auf Mobilgeräten verwalten
 
-1. Fügen Sie CSS-Elemente ein, um sicherzustellen, dass Ihre E-Mail für die mobile Ansicht geeignet ist.
+1. Fügen Sie CSS-Elemente ein, um sicherzustellen, dass Ihre E-Mail für die Ansicht auf Mobilgeräten geeignet ist.
 
-1. Wechseln Sie zum Quellcode und kopieren Sie den Stilabschnitt in einen neuen Stilabschnitt.
+1. Wechseln Sie zum Quellcode und kopieren Sie Ihren Stilabschnitt in einen neuen Stilabschnitt.
 
-Weitere Informationen finden Sie unter [Verwalten des Stils Ihrer E-Mail](#manage-the-style-of-your-email).
+Weitere Informationen finden Sie unter [Stil Ihrer E-Mail verwalten ](#manage-the-style-of-your-email).
 
-Ihre veraltete E-Mail-Adresse ist jetzt im E-Mail-Designer verfügbar.
+Ihre alte E-Mail ist jetzt in Email Designer verfügbar.
