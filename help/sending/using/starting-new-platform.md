@@ -12,11 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 79%
 
 Für eine neue Plattform ist die Wahrung der Reputation Ihrer Domain und IP-Adresse ausschlaggebend. Im Folgenden finden Sie Empfehlungen zum Einrichten einer neuen Plattform.
 
-E-Mails auf einer neuen Plattform zu senden, ist ein sensibler Schritt, da die Plattform keine Nutzungsgeschichte und keinen Ruf hat (wenn die sendenden IPs zu diesem Zweck nie verwendet wurden). ISPs sind naturgemäß verdächtig gegenüber IP-Adressen, die nie zum Senden von E-Mails verwendet wurden und die plötzlich Beginn haben, um große Mengen E-Mail-Traffic zu senden. In der Regel verwenden Spammer &quot;unbekannte&quot;IP-Adressen (Adressen, die noch nie zu einer blockierungsliste hinzugefügt wurden), um die größtmögliche Anzahl von Nachrichten vor der Erkennung zu senden.
+Mit dem Versand von E-Mails von einer neuen Plattform zu beginnen ist ein heikler Schritt, da die Plattform noch keine Nutzungserfahrung und keine Reputation besitzt (sofern die Versand-IPs noch nie für diesen Zweck verwendet wurden). ISPs sind normalerweise misstrauisch gegenüber IP-Adressen, die noch nie für den E-Mail-Versand verwendet wurden und plötzlich große Mengen an E-Mails versenden. Tatsächlich nutzen Spammer im Allgemeinen &quot;unbekannte&quot; IP-Adressen (Adressen, die noch nie auf Blockierungslisten waren), um vor der Erkennung eine maximale Anzahl von Nachrichten zu senden.
 
 Erwarten Sie nicht, dass der Versand gleich zu Beginn der Produktionsphase in der gewünschten Geschwindigkeit durchgeführt werden kann. Sie sollten auch nicht versuchen, Nachrichten in dieser Geschwindigkeit zu versenden, da dies ISPs veranlassen könnte, die Absenderadresse zu blockieren, was die Anfangsphase erheblich beeinträchtigen würde.
 
