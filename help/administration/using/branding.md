@@ -12,8 +12,11 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
+workflow-type: ht
+source-wordcount: '1030'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Jedes Unternehmen verfügt über Richtlinien bezüglich der Darstellung und tech
 
 Technische Administratoren haben die Möglichkeit, eine oder mehrere Marken zu definieren und auf die Identität der jeweiligen Marken bezogene Parameter zentral anzugeben, z. B.: das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Mit Adobe Campaign können diese Marken erstellt und mit verschiedenen Nachrichten oder Landingpages verknüpft werden. Diese Konfiguration wird in Vorlagen vorgenommen.
 
-## Marken konfigurieren und verwenden    {#configuring-and-using-brands}
+## Marken konfigurieren und verwenden     {#configuring-and-using-brands}
 
 Konfiguration und Verwendung von Marken basieren auf den folgenden Grundprinzipien:
 
@@ -36,11 +39,11 @@ Konfiguration und Verwendung von Marken basieren auf den folgenden Grundprinzipi
 
 >[!IMPORTANT]
 >
->Marken können nicht vom Endnutzer erstellt oder geändert werden. Diese Aktionen müssen von einem technischen Adobe-Campaign-Administrator vorgenommen werden. Bei Fragen wenden Sie sich bitte an die Adobe-Kundenunterstützung.
+>Marken können nicht vom Endnutzer erstellt oder geändert werden. Diese Aktionen müssen von einem technischen Adobe-Campaign-Administrator vorgenommen werden. Bei Fragen wenden Sie sich an die Adobe-Kundenunterstützung.
 >
 >Multibranding kann nicht in Verbindung mit Transaktionsnachrichten verwendet werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Transaktionsnachrichten und Branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-Marken finden Sie im **[!UICONTROL Administration > Instance settings > Brand configuration]** Menü.
+Der Zugriff auf Marken erfolgt über das Menü **[!UICONTROL Administration > Instanzenkonfiguration > Markenkonfiguration]**.
 
 Eine neu erstellte Marke ist standardmäßig nur für Benutzer sichtbar, denen der Administrator die entsprechenden Berechtigungen zugewiesen hat.
 
@@ -55,7 +58,7 @@ Eine **Marke** wird durch die folgenden Eigenschaften definiert:
    * **URL** und **Titel** der Marken-Website
    * **Markenlogo**
 
-* **[!UICONTROL Header parameters of sent emails]** welche die Empfänger Ihrer Kampagnen personalisiert. Dieser Bereich weist folgende Felder auf:
+* **[!UICONTROL In Header-Parameter für ausgehende E-Mails]** kann der Inhalt für die Empfänger Ihrer Kampagnen personalisiert werden. Dieser Bereich weist folgende Felder auf:
 
    ![](assets/branding_04_header.png)
 
@@ -64,6 +67,7 @@ Eine **Marke** wird durch die folgenden Eigenschaften definiert:
    * **Antwortadresse (E-Mail)** mit der E-Mail-Adresse, an die der Kunde eine Antwort senden kann.
    * **Antwortadresse (Name)** mit dem Namen der Marke.
    * **Fehler (E-Mail)** mit der E-Mail-Adresse, die im Falle eines Fehlers verwendet werden soll.
+
    >[!IMPORTANT]
    >
    >Sollten nach der Aktualisierung der E-Mail-Header-Parameter Name und E-Mail-Adresse des Absenders in einer neuen, auf dieser Vorlage basierenden E-Mail nicht geändert sein, überprüfen Sie die erweiterten Parameter der Vorlage.
@@ -75,17 +79,18 @@ Eine **Marke** wird durch die folgenden Eigenschaften definiert:
    * Die **Externe URL des Anwendungsservers**, die verwendet wird, um die verschiedenen erstellten Landingpages zu hosten und darauf zuzugreifen.
    * Die **Externe URL des Tracking-Servers**, die bei den Sendungen als getrackte URL verwendet werden soll.
    * Die **Externe URL des Mirrorseiten-Servers**, die bei Ihren Sendungen als standardmäßige Mirrorseite verwendet werden soll.
+
    >[!NOTE]
    >
    >Um die Vorschau der Landingpage und das Rendering der Mirrorseite in der Campaign-Benutzeroberfläche anzuzeigen, müssen die URLs für den Anwendungsserver und den Server der Mirrorseite sicher sein. Verwenden Sie in diesem Fall beim Einrichten dieser URLs https:// anstelle von http://.
 
-* **[!UICONTROL Tracking URL configuration (Web Analytics)]**, der die Konfiguration der URLs-Verfolgung für Ihre Marke definiert.
+* **[!UICONTROL In Konfiguration der Tracking-URLs (Web Analytics)]** wird das Tracking der URLs Ihrer Marke konfiguriert.
 
    Geben Sie hier die zusätzlichen Parameter an, die das Tracking von Links mithilfe externer Systeme, insbesondere Web-Analytics-Tools wie beispielsweise Adobe Analytics oder Google Analytics, ermöglichen.
 
    ![](assets/branding_05.png)
 
-## Marke einer E-Mail zuweisen    {#assigning-a-brand-to-an-email}
+## Marke einer E-Mail zuweisen     {#assigning-a-brand-to-an-email}
 
 ### Marken mit einer Vorlage verknüpfen {#linking-a-brand-to-a-template}
 
@@ -97,7 +102,7 @@ Um die für eine Marke definierten Parameter nutzen zu können, muss sie mit ein
 
 Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. Gehen Sie wie folgt vor:
 
-1. Click the **[!UICONTROL Edit properties]** button to access the template properties.
+1. Greifen Sie mithilfe der Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** auf die Eigenschaften Ihrer Vorlage zu.
 
    ![](assets/branding_04.png)
 
@@ -105,11 +110,11 @@ Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. G
 
    >[!NOTE]
    >
-   >Standardmäßig **[!UICONTROL Default brand (branding)]** ist die Option ausgewählt.
+   >Standardmäßig ist die **[!UICONTROL Standardmarke (branding)]** ausgewählt.
 
    ![](assets/branding_05.png)
 
-   Klicken Sie auf das Symbol, um die Konfiguration der ausgewählten Marke **[!UICONTROL Navigate to the detail of the element selected]** zu überprüfen.
+   Verwenden Sie das Symbol **[!UICONTROL Zur Detailansicht des ausgewählten Elements weiterleiten]**, um genauere Informationen zur Markenkonfiguration angezeigt zu bekommen.
 
    ![](assets/branding_06.png)
 
@@ -117,17 +122,17 @@ Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. G
 
 Ihre Vorlage ist nun mit der Marke verknüpft. Im E-Mail-Editor werden die für die Marke konfigurierten Daten in den Feldern **Standard-E-Mail-Adresse des Absenders**, **Name des Standard-Absenders** oder **Logo** verwendet.
 
-### Anwendungsbeispiel für Branding    {#branding-use-case}
+### Anwendungsbeispiel für Branding     {#branding-use-case}
 
 Im folgenden Beispiel geht es um die Erstellung einer neuen Marke zum Thema Reisen und ihre anschließende Verwendung in einer E-Mail.
 
-#### Neue Marke konfigurieren    {#configure-a-new-brand}
+#### Neue Marke konfigurieren     {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >Die Markenkonfiguration wird ausschließlich von Adobe verwaltet, da dies spezielle Berechtigungen und technische Einstellungen erfordert.
 
-1. Der Adobe Campaign-Administrator erstellt die Marke in **[!UICONTROL Administration > Instance settings > Brand configuration]**. He adds the **Vacations in the Tropics** element from the advanced menu and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
+1. Der Adobe Campaign-Administrator erstellt die Marke unter **[!UICONTROL Administration > Instanzenkonfiguration > Markenkonfiguration]**. Er fügt das Element **Tropenreise** hinzu und konfiguriert die **[!UICONTROL Identität]** sowie die **[!UICONTROL Header-Parameter für ausgehende E-Mails]** der Marke.
 
    ![](assets/branding_07.png)
 
@@ -139,11 +144,11 @@ Im folgenden Beispiel geht es um die Erstellung einer neuen Marke zum Thema Reis
 
 Die Marke wurde korrekt erstellt und konfiguriert. Sie ist nun zur Verwendung durch Marketingteams verfügbar.
 
-#### Neue Marke implementieren    {#implement-a-new-brand}
+#### Neue Marke implementieren     {#implement-a-new-brand}
 
 Der Versandbeauftragte ist für die Erstellung der Versandvorlagen verantwortlich, in denen die neue Marke verwendet wird. Gehen Sie dazu wie folgt vor:
 
-1. In the advanced menu **[!UICONTROL Resources > Templates > Delivery templates]**, duplicate a built-in template to configure a new delivery template.
+1. Ausgehend vom erweiterten Menü duplizieren Sie in **[!UICONTROL Ressourcen > Vorlagen > Versandvorlagen]** eine native Vorlage, um daraufhin eine neue Versandvorlage zu konfigurieren.
 
    ![](assets/branding_08.png)
 
@@ -158,15 +163,15 @@ Der Versandbeauftragte ist für die Erstellung der Versandvorlagen verantwortlic
 
    Die Versandvorlage lässt sich nun zur Erstellung von E-Mails verwenden, die an eine Audience gesendet werden.
 
-#### Die neue Marke in einem Versand verwenden    {#use-the-new-brand-in-a-delivery}
+#### Die neue Marke in einem Versand verwenden     {#use-the-new-brand-in-a-delivery}
 
 Um eine mit einer Marke verknüpfte E-Mail zu erstellen, gehen Sie wie folgt vor:
 
-1. Klicken Sie im Menü auf die **[!UICONTROL Create]** Schaltfläche **[!UICONTROL Marketing activities]** .
+1. Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]** im Menü **[!UICONTROL Marketingaktivitäten]** aus.
 
    ![](assets/branding_14.png)
 
-1. Wählen Sie die Aktivität **[!UICONTROL Email]** und dann die mit der neuen Marke verknüpfte Vorlage aus.
+1. Wählen Sie die Aktivität **[!UICONTROL E-Mail]** und dann die mit der neuen Marke verknüpfte Vorlage aus.
 
    ![](assets/branding_15.png)
 
