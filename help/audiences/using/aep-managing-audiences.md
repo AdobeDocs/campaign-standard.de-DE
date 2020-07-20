@@ -12,9 +12,9 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
