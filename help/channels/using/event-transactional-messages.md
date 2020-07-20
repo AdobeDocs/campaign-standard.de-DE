@@ -12,11 +12,11 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2626'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,11 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 >
 >Ereignis-Transaktionsnachrichten enthalten keine Profilinformationen, weshalb sie nicht mit Ermüdungsregeln kompatibel sind (auch nicht, wenn sie mit Profilen angereichert werden). Näheres dazu finden Sie unter [Ermüdungsregeln](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
-## Testprofil in einer Transaktionsnachricht definieren    {#defining-a-test-profile-in-a-transactional-message}
+## Testprofil in einer Transaktionsnachricht definieren      {#defining-a-test-profile-in-a-transactional-message}
 
 Konfigurieren Sie ein entsprechendes Testprofil, mit dem Sie zum Zweck der Validierung eine Vorschau Ihrer Nachricht sowie einen Testversand erzeugen können.
 
-### Testprofil in einer Transaktionsnachricht erstellen    {#creating-a-test-profile-within-the-transactional-----------message}
+### Testprofil in einer Transaktionsnachricht erstellen      {#creating-a-test-profile-within-the-transactional-----------message}
 
 1. Gehen Sie zum Zugriff auf die neu erstellte Nachricht mithilfe des **[!UICONTROL Adobe-Campaign]**-Logos oben links im Bildschirm in das Menü **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]**.
 
@@ -82,7 +82,7 @@ Jetzt können Sie auf die von Ihnen erstellte Nachricht zugreifen und das aktual
 * [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
 * [Audiences bestimmen](../../audiences/using/creating-audiences.md)
 
-## Transaktionsnachricht personalisieren    {#personalizing-a-transactional-message}
+## Transaktionsnachricht personalisieren      {#personalizing-a-transactional-message}
 
 Gehen Sie folgendermaßen vor, um für eine Transaktionsnachricht eine Personalisierung einzurichten:
 
@@ -118,7 +118,7 @@ Gehen Sie folgendermaßen vor, um für eine Transaktionsnachricht eine Personali
 
    Die Vorschau zeigt, dass die Personalisierungsfelder wie gewünscht die im Testprofil angegebenen Informationen wiedergeben. Weiterführende Informationen hierzu finden Sie im Abschnitt [Testprofil in einer Transaktionsnachricht definieren](#defining-a-test-profile-in-a-transactional-message).
 
-## Produktlisten in Transaktionsnachrichten verwenden    {#using-product-listings-in-a-transactional-message}
+## Produktlisten in Transaktionsnachrichten verwenden      {#using-product-listings-in-a-transactional-message}
 
 Sie können Produktlisten erstellen, die eine oder mehrere Datenkollektionen im Inhalt einer Transaktions-E-Mail referenzieren. Beispielsweise können Sie bei einem abgebrochenen Einkauf eine E-Mail versenden, in der alle Produkte samt Bild, Preis und Link aufgelistet sind, die sich beim Verlassen der Website im Warenkorb des Benutzers befanden.
 
@@ -134,7 +134,7 @@ Sie können sich die erforderlichen Schritte zur Konfiguration von Produktlisten
 >
 >Adobe Campaign unterstützt keine verschachtelten Produktlisten, was bedeutet, dass Sie keine Produktliste in eine andere einfügen können.
 
-### Produktliste definieren    {#defining-a-product-listing}
+### Produktliste definieren      {#defining-a-product-listing}
 
 Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, müssen Sie zuerst auf Ereignisebene die Liste der Produkte und die Felder für jedes Produkt der Liste definieren, die angezeigt werden sollen. Weiterführende Informationen dazu finden Sie im Abschnitt [Datenkollektionen definieren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
@@ -155,6 +155,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
 
    * **[!UICONTROL Zeile]**: horizontal, also alle Elemente einer Reihe untereinander.
    * **[!UICONTROL Spalte]**: vertikal, also alle Elemente in einer Reihe nebeneinander.
+
    >[!NOTE]
    >
    >Die Option **[!UICONTROL Spalte]** ist nur verfügbar, wenn eine mehrspaltige Strukturkomponente verwendet wird (**[!UICONTROL 2-2-Spalte]**, **[!UICONTROL 3-3-Spalte]** und **[!UICONTROL 4-4-Spalte]** ). Füllen Sie bei der Bearbeitung der Produktliste nur die erste Spalte aus. Die anderen Spalten werden nicht berücksichtigt. Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
@@ -175,7 +176,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
    >
    >Wenn die Elemente in Ihrer Liste senkrecht dargestellt werden sollen (**[!UICONTROL Spalte]**), entspricht die Höchstzahl der Elemente der ausgewählten Strukturkomponente (2, 3 oder 4 Spalten). Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Produktliste befüllen    {#populating-the-product-listing}
+### Produktliste befüllen      {#populating-the-product-listing}
 
 Gehen Sie folgendermaßen vor, um eine Liste mit Produkten darzustellen, die von dem Ereignis stammen, das mit der Transaktions-E-Mail verknüpft ist.
 
@@ -245,7 +246,7 @@ Nach Speicherung der Transaktionsnachricht können Sie nun einen Test senden.
 
 Lesen Sie diesbezüglich auch den Abschnitt [Testversand erzeugen](../../sending/using/sending-proofs.md).
 
-## Transaktionsnachricht publizieren    {#publishing-a-transactional-message}
+## Transaktionsnachricht publizieren      {#publishing-a-transactional-message}
 
 Nach Validierung der Transaktionsnachricht kann diese publiziert werden.
 
@@ -257,7 +258,7 @@ Bei jeder Auslösung des Ereignisses &quot;Stehen gelassener Warenkorb&quot; wir
 
 ![](assets/message-center_13.png)
 
-## Publikation einer Transaktionsnachricht aussetzen    {#suspending-a-transactional-message-publication}
+## Publikation einer Transaktionsnachricht aussetzen      {#suspending-a-transactional-message-publication}
 
 Sie haben die Möglichkeit, die Publikation Ihrer Transaktionsnachricht mittels der Verwendung der Schaltfläche **[!UICONTROL Aussetzen]** zeitweise zu unterbinden, um beispielsweise die in der Nachricht enthaltenen Daten abzuändern. Die Ereignisse werden so nicht länger verarbeitet, sondern stattdessen in einer Warteschlange der Adobe Campaign-Datenbank aufbewahrt.
 
@@ -267,7 +268,7 @@ Die in der Warteschlange befindlichen Ereignisse werden für einen Zeitraum aufb
 
 Bei Verwendung der Schaltfläche **[!UICONTROL Wieder aufnehmen]** werden alle Ereignisse verarbeitet, sofern ihre Gültigkeit nicht abgelaufen ist. Diese Nachrichten beinhalten nun die während der Aussetzung der Vorlagenpublikation vorgenommenen Änderungen.
 
-## Transaktionsnachricht depublizieren    {#unpublishing-a-transactional-message}
+## Transaktionsnachricht depublizieren      {#unpublishing-a-transactional-message}
 
 Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publikation der Transaktionsnachricht und zudem des entsprechenden Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
 
@@ -287,27 +288,27 @@ Auf den Workflow **[!UICONTROL Datenbankbereinigung]**, der standardmäßig jede
 
 ## Transaktionsnachricht löschen {#deleting-a-transactional-message}
 
-Nachdem die Veröffentlichung einer Transaktionsnachricht rückgängig gemacht wurde oder eine Transaktionsnachricht noch nicht veröffentlicht wurde, können Sie sie aus der Liste &quot;Transaktionsnachricht&quot;löschen. Gehen Sie dazu wie folgt vor:
+Nachdem eine Transaktionsnachricht depubliziert wurde bzw. wenn eine Transaktionsnachricht noch nicht veröffentlicht wurde, können Sie sie aus der Liste der Transaktionsnachrichten löschen. Gehen Sie dazu wie folgt vor:
 
 1. Verwenden Sie das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]**.
-1. Bewegen Sie die Maus über die Nachricht Ihrer Wahl.
-1. Click the **[!UICONTROL Delete element]** button.
+1. Bewegen Sie den Mauszeiger über die Nachricht Ihrer Wahl.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Element löschen]** aus.
 
 ![](assets/message-center_delete-template.png)
 
 Transaktionsnachrichten können jedoch nur unter gewissen Voraussetzungen gelöscht werden:
 
-* Make sure the transactional message has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to a message that has not been published yet, or that has been [unpublished](#unpublishing-a-transactional-message) (and not [paused](#suspending-a-transactional-message-publication)).
+* Vergewissern Sie sich, dass die Transaktionsnachricht den Status **[!UICONTROL Entwurf]** aufweist; andernfalls können Sie sie nicht löschen. Der Status **[!UICONTROL Entwurf]** gilt für eine Nachricht, die noch nicht publiziert bzw. die [depubliziert](#unpublishing-a-transactional-message) (und nicht [ausgesetzt](#suspending-a-transactional-message-publication)).
 
-* **Transaktionsnachrichten**: Wenn keine andere Transaktionsnachricht mit dem entsprechenden Ereignis verknüpft ist und die Veröffentlichung der Transaktionsnachricht rückgängig gemacht wird, muss auch die Veröffentlichung der Ereignis-Konfiguration rückgängig gemacht werden, damit die Transaktionsnachricht erfolgreich gelöscht werden kann. Weitere Informationen finden Sie unter [Rückgängigmachen der Veröffentlichung eines Ereignisses](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
+* **Transaktionsnachrichten**: Wenn keine andere Transaktionsnachricht mit dem entsprechenden Ereignis verknüpft ist und die Transaktionsnachricht depubliziert wird, muss auch die Ereigniskonfiguration depubliziert werden, damit die Transaktionsnachricht erfolgreich gelöscht werden kann. Weiterführende Informationen finden Sie unter [Ereignis depublizieren](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
    >[!IMPORTANT]
    >
    >Durch das Löschen einer Transaktionsnachricht, über die bereits Benachrichtigungen versendet wurden, werden auch ihre Versand- und Trackinglogs gelöscht.
 
-* **Transaktionsnachrichten aus einer vordefinierten Ereignis-Vorlage (interne Transaktionsnachrichten)**: Ist eine interne Transaktionsnachricht die einzige, die mit dem entsprechenden internen Ereignis verknüpft ist, kann sie nicht gelöscht werden. Sie müssen zuerst eine andere Transaktionsnachricht erstellen, indem Sie sie duplizieren oder über das Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Transaktionsnachrichtenvorlagen]** .
+* **Transaktionsnachrichten aus einer nativen Ereignisvorlage (interne Transaktionsnachrichten)**: Wenn eine interne Transaktionsnachricht die einzige Transaktionsnachricht ist, die mit dem entsprechenden internen Ereignis verknüpft ist, kann sie nicht gelöscht werden. Sie müssen zuerst eine andere Transaktionsnachricht erstellen, indem Sie sie duplizieren oder das Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Transaktionsnachrichten-Vorlagen]** verwenden.
 
-## Transaktionsnachricht erneut versenden    {#transactional-message-retry-process}
+## Transaktionsnachricht erneut versenden      {#transactional-message-retry-process}
 
 Vorläufig nicht zugestellte Transaktionsnachrichten werden so lange automatisch erneut versendet, bis ihre Gültigkeit abgelaufen ist. Weiterführende Informationen zur Versandlaufzeit finden Sie in Abschnitt [Parameter für den Gültigkeitszeitraum](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
@@ -316,7 +317,7 @@ Wenn eine Transaktionsnachricht nicht gesendet werden kann, gibt es zwei Systeme
 * Auf der Ebene der Transaktionsnachrichten kann eine Transaktionsnachricht fehlschlagen, bevor das Ereignis einem Ausführungsversand zugewiesen wurde, d. h. zwischen dem Ereignisempfang und der Versandvorbereitung. Siehe [Wiederholungsverfahren bei der Ereignisverarbeitung](#event-processing-retry-process).
 * Auf der Ebene des Versandverfahrens kann die Transaktionsnachricht nach der Zuweisung des Ereignisses zu einem Ausführungsversand wegen eines temporären Fehlers fehlschlagen. Siehe [Wiederholungsverfahren beim Nachrichtenversand](#message-sending-retry-process).
 
-### Wiederholungsverfahren bei der Ereignisverarbeitung    {#event-processing-retry-process}
+### Wiederholungsverfahren bei der Ereignisverarbeitung      {#event-processing-retry-process}
 
 Wenn ein Ereignis keinem Ausführungsversand zugewiesen werden kann, wird die Ereignisverarbeitung verschoben. Wiederholungen werden dann durchgeführt, bis das Ereignis einem neuen Ausführungsversand zugewiesen wird.
 
@@ -326,7 +327,7 @@ Wenn ein Ereignis keinem Ausführungsversand zugewiesen werden kann, wird die Er
 
 Beispielsweise kann es sein, dass das Ereignis keinem Ausführungsversand zugewiesen werden konnte, weil der Inhalt nicht korrekt war, es ein Problem mit den Zugriffsrechten oder dem Branding gab oder ein Fehler beim Anwenden von Typologieregeln erkannt wurde. In diesem Fall können Sie die Nachricht vorläufig anhalten, bearbeiten, um den Fehler zu beheben, und erneut publizieren. Das Wiederholungssystem weist die Nachricht daraufhin einem neuen Ausführungsversand zu.
 
-### Wiederholungsverfahren beim Nachrichtenversand    {#message-sending-retry-process}
+### Wiederholungsverfahren beim Nachrichtenversand      {#message-sending-retry-process}
 
 Nachdem das Ereignis einem Ausführungsversand zugewiesen wurde, kann die Transaktionsnachricht aufgrund eines temporären Fehlers fehlschlagen, z. B. falls das Postfach des Empfängers voll ist. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
