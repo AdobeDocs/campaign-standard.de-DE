@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 Eine sorgfältige Arbeitsweise und die Befolgung der unten stehenden einfachen Regeln helfen Ihnen, die Datenbank konsistent zu halten und gängige Fehler bei der Datenbankaktualisierung oder beim Datenexport zu vermeiden.
 
-## Importvorlagen verwenden    {#using-import-templates}
+## Importvorlagen verwenden     {#using-import-templates}
 
 Import-Workflows sollten die folgenden Aktivitäten beinhalten: **[!UICONTROL Datei laden]**, **[!UICONTROL Abstimmung]**, **[!UICONTROL Segmentierung]**, **[!UICONTROL Deduplizierung]**, **[!UICONTROL Daten-Update]**.
 
@@ -48,7 +48,7 @@ Ein Beispiel für eine allgemeine Workflow-Vorlage zum Datenimport finden Sie in
 * [Aktivität „Deduplizierung“](../../automating/using/deduplication.md)
 * [Aktivität „Daten-Update“](../../automating/using/update-data.md)
 
-## Dateiformate mit einfach strukturierten Daten verwenden    {#using-flat-file-formats}
+## Dateiformate mit einfach strukturierten Daten verwenden     {#using-flat-file-formats}
 
 Das effizienteste Format für Importe sind flache Dateien, die im Bulk-Modus auf Datenbankebene importiert werden können.
 
@@ -69,7 +69,7 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## Komprimierung verwenden    {#using-compression}
+## Komprimierung verwenden     {#using-compression}
 
 Verwenden Sie für Importe und Exporte möglichst ZIP-Dateien. GZIP wird standardmäßig unterstützt. Beim Import von Dateien können Sie über die Workflow-Aktivität **[!UICONTROL Datei laden]** eine Vorbearbeitung hinzufügen. Bei der Datenextraktion können Sie über die Workflow-Aktivität **[!UICONTROL Dateiextraktion]** eine Nachbearbeitung hinzufügen.
 
@@ -84,7 +84,7 @@ Regelmäßige Importe müssen im Deltamodus durchgeführt werden. Damit wird gew
 
 Vollständige Importe sollten nur für das erstmalige Laden verwendet werden.
 
-## Konsistenz gewährleisten    {#maintaining-consistency}
+## Konsistenz gewährleisten     {#maintaining-consistency}
 
 Um die Konsistenz der Adobe-Campaign-Datenbank zu gewährleisten, befolgen Sie die unten stehenden Grundsätze:
 
