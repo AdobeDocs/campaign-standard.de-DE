@@ -1,6 +1,6 @@
 ---
 title: Retargeting von Nicht-Öffnern
-description: In diesem Verwendungsfall wird gezeigt, wie Sie das Targeting von Nicht-Open-Benutzern rückgängig machen.
+description: Dieser Anwendungsfall zeigt das Retargeting von Nicht-Öffnern.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Retargeting workflow sending a new delivery to non-openers{#retargeting-delivery-to-non-openers}
+# Retargeting-Workflow für einen neuen Versand an Nicht-Öffner{#retargeting-delivery-to-non-openers}
 
 Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS an jene, die die E-Mail nicht geöffnet haben.
 
@@ -31,7 +31,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 
 ## Abfrageaktivität erstellen {#creating-a-query-activity}.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
+1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL Ist nicht leer]** aus.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
@@ -55,13 +55,13 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 
 ## Nicht-Öffner in einer Abfrageaktivität auswählen{#targeting-non-openers-in-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Wait](../../automating/using/wait.md) activity.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Ausführung]** eine [Warten](../../automating/using/wait.md)-Aktivität in den Arbeitsbereich.
 1. Wählen Sie in **[!UICONTROL Dauer]** ![](assets/duration-icon.png) aus und wählen Sie danach einen Tag aus.
 1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine **[!UICONTROL Abfrageaktivität]** in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** die Option **[!UICONTROL Trackinglogs]** mit dem Operator **[!UICONTROL Ist vorhanden]** in den Arbeitsbereich.
-1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, drag and drop **[!UICONTROL delivery]** with the operator **[!UICONTROL is equal to]** and select the delivery as value.
-1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, drag and drop **[!UICONTROL type]** and check **[!UICONTROL Open]** as value.
+1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Versand]** die Option **[!UICONTROL Versand]** mit dem Operator **[!UICONTROL Ist gleich]** in den Arbeitsbereich und wählen Sie als Wert den Versand aus.
+1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Versand]** die Option **[!UICONTROL Typ]** in den Arbeitsbereich und aktivieren Sie als Wert **[!UICONTROL Öffnen]**.
 1. Wählen Sie als Operator zwischen den Regeln **[!UICONTROL Außer]** aus.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
@@ -74,7 +74,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Geben Sie die SMS-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer SMS zu definieren, wählen Sie **[!UICONTROL Email Designer]** aus.
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
-1. Personalisieren Sie Ihre SMS je nach Ort mit spezifischen Angeboten. Weitere Informationen finden Sie im Abschnitt [Entwerfen eines SMS](../../channels/using/creating-an-sms-message.md) .
+1. Personalisieren Sie Ihre SMS je nach Ort mit spezifischen Angeboten. Weiterführende Informationen hierzu finden Sie im Abschnitt [SMS erstellen](../../channels/using/creating-an-sms-message.md).
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
