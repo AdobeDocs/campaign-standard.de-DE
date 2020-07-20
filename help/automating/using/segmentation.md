@@ -12,11 +12,11 @@ discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '972'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,16 +27,16 @@ ht-degree: 94%
 
 ![](assets/segmentation.png)
 
-Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Aktivitäten berechneten Population ausgehend ein oder mehrere Segment(e) erstellen. Diese können bei Abschluss der Aktivität in einer einzigen oder verschiedenen Transition(en) verarbeitet werden.
+Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Aktivitäten im Workflow berechneten Population ausgehend ein oder mehrere Segmente erstellen. Diese können bei Abschluss der Aktivität in einer einzigen oder in verschiedenen Transitionen verarbeitet werden.
 
 >[!NOTE]
 >
 >Ein Mitglied der eingehenden Population kann standardmäßig nur einem einzigen Segment angehören. Die Anwendung der Filter erfolgt in der Reihenfolge der Segmente in der Aktivität.
 
 **Verwandte Themen:**
-* [Verwendungsfall: Segmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
-* [Verwendungsfall: Erstellen einer Kontrollgruppe](../../automating/using/workflow-control-group.md)
-* [Verwendungsfall: Segmentierung nach Altersgruppen](../../automating/using/segmentation-age-groups.md)
+* [Anwendungsfall: Segmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
+* [Anwendungsfall: Kontrollgruppe erstellen](../../automating/using/workflow-control-group.md)
+* [Anwendungsfall: Segmentierung nach Altersklassen](../../automating/using/segmentation-age-groups.md)
 
 ## Anwendungskontext {#context-of-use}
 
@@ -44,13 +44,13 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
 
 **Verwandte Themen**
 
-* [Verwendungsfall: Segmentieren von Profilen nach Altersgruppen](../../automating/using/segmentation-age-groups.md).
+* [Anwendungsfall: Profile nach Altersklassen segmentieren](../../automating/using/segmentation-age-groups.md).
 
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie per Drag &amp; Drop eine **[!UICONTROL Segmentierung]** in Ihren Workflow.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
-1. Wählen Sie auf der Registerkarte &quot; **[!UICONTROL Allgemein]** &quot;den **[!UICONTROL Ressourcentyp]** aus, auf dem die Segmentierung durchgeführt werden soll:
+1. Wählen Sie im Tab **[!UICONTROL Allgemein]** den **[!UICONTROL Ressourcentyp]** aus, für den die Segmentierung durchgeführt werden soll:
 
    * **[!UICONTROL Datenbank-Ressource]**, wenn sich die Segmentierung auf bereits in der Datenbank existierende Daten bezieht. Wählen Sie die **[!UICONTROL Filterdimension]** entsprechend den Daten aus, die Sie segmentieren möchten. Standardmäßig bezieht sich die Segmentierung auf **Profile**.
    * **[!UICONTROL Temporäre Ressource]**, wenn sich die Segmentierung auf temporäre Daten des Workflows bezieht: Wählen Sie die **[!UICONTROL Zielmenge]** mit den zu segmentierenden Daten aus. Dieser Fall kann im Anschluss an einen Dateiimport auftreten oder wenn die Daten der Datenbank angereichert wurden.
@@ -67,7 +67,7 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
    * **[!UICONTROL Segment-Population begrenzen]**: begrenzt die Größe des Segments.
    * **[!UICONTROL Segment-Population filtern und begrenzen]**: Mithilfe dieser Funktion kann die Population des Segments gefiltert und in ihrer Größe begrenzt werden.
    * **[!UICONTROL Titel]**: Titel des Segments.
-   * **[!UICONTROL Segmentcode]**: der Population des Segments zugewiesene Code. Der Segmentcode kann mit einem Standardausdruck und Ereignisvariablen personalisiert werden (siehe [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   * **[!UICONTROL Segment-Code]**: der der Population des Segments zugewiesene Code. Der Segment-Code kann mit einem Standardausdruck und Ereignisvariablen personalisiert werden (siehe [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
    * **[!UICONTROL Segment von der Population ausschließen]**: Hierdurch lässt sich das bestimmte Segment aus der Ausgabepopulation der Aktivität ausschließen. Diese Möglichkeit besteht nur, wenn die Option **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** ausgewählt wurde.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -100,8 +100,8 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
 1. Fügen Sie so viele Segmente wie nötig hinzu, indem Sie die Etappen 6 bis 10 dieser Prozedur erneut durchlaufen.
 1. Passen Sie bei Bedarf die Parameter des **[!UICONTROL Erweiterte Optionen]**-Tabs der Aktivität an:
 
-   * Aktivieren Sie die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]**, wenn Ihnen an der Möglichkeit liegt, dass ein Mitglied der Eingangspopulation mehreren Segmenten angehören kann. Die Ausgabepopulation der Aktivität kann in diesem Fall die Eingangspopulation übersteigen.
-   * Aktivieren Sie die Option **[!UICONTROL Alle Segmentcodes konkatenieren]**, wenn die Eingangspopulation bereits über einen Segmentcode verfügt und Sie diesen beibehalten möchten. Der innerhalb der Aktivität zugewiesene Segmentcode wird dem ursprünglichen Segmentcode hinzugefügt.
-   * Aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population nutzen möchten. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+   * Aktivieren Sie die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]**, wenn ein Mitglied der Eingangspopulation mehreren Segmenten gleichzeitig angehören soll. Die Ausgabepopulation der Aktivität kann in diesem Fall die Eingangspopulation übersteigen.
+   * Aktivieren Sie die Option **[!UICONTROL Alle Segmentcodes konkatenieren]**, wenn die Eingangspopulation bereits über einen Segment-Code verfügt und Sie diesen beibehalten möchten. Der innerhalb der Aktivität zugewiesene Segmentcode wird dem ursprünglichen Segmentcode hinzugefügt.
+   * Aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population nutzen möchten. Siehe [Anwendungsfall: Erstellen von Sendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
