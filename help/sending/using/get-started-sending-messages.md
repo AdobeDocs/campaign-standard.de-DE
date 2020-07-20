@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit Tests und Senden
-description: Hier erfahren Sie über die erforderlichen Schritte zum Testen und Senden einer Nachricht.
+title: Erste Schritte mit Testen und Senden
+description: Hier erfahren Sie die erforderlichen Schritte zum Testen und Senden einer Nachricht.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -11,43 +11,43 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
-# Erste Schritte mit Tests und Senden {#about-sending-messages-with-campaign}
+# Erste Schritte mit Testen und Senden {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Vorbereitung und Test</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Senden, überwachen und verfolgen</a></p></td>
-<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Richtlinien zur Lieferbarkeit</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Vorbereiten und Testen</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Senden, Überwachen und Tracking</a></p></td>
+<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Zustellbarkeitsrichtlinien</a></p></td></tr>
 </table>
 
-Nachdem Sie die Zielgruppe definiert und den Inhalt einer Nachricht erstellt haben, müssen Sie den Inhalt, die Personalisierung, das Rendering und die Konfiguration Ihrer Versand vorbereiten und testen. Auf diese Weise können Sie sicherstellen, dass alles korrekt ist, bevor Sie die Nachricht an die Haupt-Zielgruppe senden. Dazu stehen mehrere Funktionen zur Verfügung, wie z. B. Vorschau, Testversand, E-Mail-Betreffzeilentests oder E-Mail-Rendering.
+Nachdem Sie die Zielgruppe definiert und den Inhalt einer Nachricht erstellt haben, müssen Sie den Inhalt, die Personalisierung, das Rendering und die Konfiguration Ihrer Sendungen vorbereiten und testen. Auf diese Weise können Sie sicherstellen, dass alles korrekt ist, bevor Sie die Nachricht an die Hauptzielgruppe senden. Dazu stehen mehrere Funktionen zur Verfügung, wie z. B. Vorschau, Testversand, Testen der E-Mail-Betreffzeilen oder E-Mail-Rendering.
 
-Nachdem die Marketing-Kampagnen ausgeführt und die verschiedenen Nachrichten gesendet wurden, überwachen Sie sie mithilfe von Protokollen, um den Erfolg Ihrer Kampagne zu überprüfen und Rückverfolgungsinformationen über die Empfänger abzurufen.
+Sobald die Marketing-Kampagnen ausgeführt und die verschiedenen Nachrichten gesendet wurden, können Sie diese mithilfe von Protokollen überwachen, um den Erfolg Ihrer Kampagne zu überprüfen und Tracking-Informationen zu den Empfängern abzurufen.
 
-Nutzen Sie schließlich die im Campaign Standard verfügbaren Richtlinien und Tools zur Bereitstellung, um die Anzahl der ausgelieferten Nachrichten zu erhöhen und erfolgreiche Marketing-Kampagnen sicherzustellen.
+Nutzen Sie schließlich die in Campaign Standard verfügbaren Zustellbarkeitsrichtlinien und Werkzeuge, um die Anzahl der zugestellten Nachrichten zu erhöhen und erfolgreiche Marketing-Kampagnen sicherzustellen.
 
-## Vorbereitung und Test {#prepare-test-send}
+## Vorbereiten und Testen {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **message preparation** analyzes the target, the personalization and the validity of the message. Fehler, die bei diesem Schritt erkannt werden, müssen vor dem weiteren Vorgehen korrigiert werden.
+Bei der **Nachrichtenvorbereitung** in Campaign Standard wird die Zielgruppe, die Personalisierung und die Gültigkeit der Nachricht analysiert. Fehler, die bei diesem Schritt erkannt werden, müssen vor dem weiteren Vorgehen korrigiert werden.
 
-**Vorschau und Testen** Ihrer Nachrichten mit verschiedenen Funktionen: Senden Sie Testversand, um Profil oder zielgerichtete Profil zu testen, die Betreffzeile Ihrer E-Mails zu testen und die Wiedergabe Ihrer Nachrichten zu überprüfen, um sicherzustellen, dass sie auf verschiedenen Web-Clients, Web-Mails und Geräten optimal angezeigt werden.
+**Zeigen Sie Ihre Nachrichten in einer Vorschau an und testen** Sie sie mit verschiedenen Funktionen: Senden Sie Testsendungen an Testprofile oder Zielgruppenprofile, testen Sie den Betreff Ihrer E-Mails und überprüfen Sie das Rendering Ihrer Nachrichten, um sicherzustellen, dass sie über eine Vielzahl von Web-Clients, Web-Mails und Geräten optimal angezeigt werden.
 
-Nutzen Sie Planungsfunktionen für Kampagnen, um zu definieren, wann Ihre Nachrichten gesendet werden. Sie können beispielsweise den Versand an die Zeitzone des Empfängers anpassen, die Sendezeit optimieren oder das Versanddatum berechnen.
+Nutzen Sie Planungsfunktionen in Campaign, um festzulegen, wann Ihre Nachrichten gesendet werden. Sie können beispielsweise den Versand an die Zeitzone des Empfängers anpassen, die Sendezeit optimieren oder das Versanddatum berechnen.
 
-Verwenden Sie **Typologien** , um während der Vorbereitung zu überprüfen, ob Ihre Nachricht gültig ist und Ihre Qualitätskriterien durch Ermüdungs-, Kontroll- und Targeting-Regeln erfüllt. So können Sie beispielsweise überprüfen, ob Ihre E-Mails immer eine Betreffzeile enthalten, oder Abonnenten von den Empfängern der Nachricht ausschließen.
+Verwenden Sie **Typologien**, um während der Vorbereitung zu überprüfen, ob Ihre Nachricht gültig ist und sie Ihre Qualitätskriterien durch Ermüdungs-, Kontroll- und Zielgruppenbestimmungsregeln erfüllt. So können Sie beispielsweise überprüfen, ob Ihre E-Mails immer einen Betreff enthalten, oder abgemeldete Profile von den Empfängern der Nachricht ausschließen.
 
-mehr dazu:
+Mehr dazu:
 
 * [Versandvorbereitung](../../sending/using/preparing-the-send.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
@@ -56,17 +56,17 @@ mehr dazu:
 * [Versandplanung](../../sending/using/about-scheduling-messages.md)
 * [Über Typologien und Typologieregeln](../../sending/using/about-typology-rules.md)
 
-## Senden, überwachen und verfolgen {#send-track-messages}
+## Senden, Überwachen und Tracking{#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Sobald Ihre Nachricht fertig ist, können Sie die Senden- und Zugriffsprotokolle und Berichte bestätigen, um den Versand **zu** überwachen und den Erfolg Ihrer Kampagne zu messen. Adobe Campaign bietet außerdem ein E-Mail-Warnsystem, um Erfolge oder Fehler von Versänden sowie Quarantänen-Management-Funktionen zu verfolgen.
+Sobald Ihre Nachricht fertig ist, können Sie den Versand bestätigen und auf Protokolle und Berichte zugreifen, um den **Versand** zu überwachen und den Erfolg Ihrer Kampagne zu messen. Adobe Campaign bietet außerdem ein E-Mail-Benachrichtigungssystem zur Tracking von Erfolgen oder Fehlschlägen beim Versand sowie Funktionen zur Quarantäneverwaltung.
 
-**Verfolgen Sie das Verhalten** der Empfänger der Nachricht mithilfe von Sitzungs- und dauerhaften Cookies, um Verfolgungsinformationen abzurufen (angeklickte URLs, Mirrorseiten, geöffnete Nachrichten...).
+**Tracken Sie das Verhalten** der Nachrichtenempfänger, indem Sie Sitzungs- und permanente Cookies verwenden, um Tracking-Informationen abzurufen (angeklickte URLs, Mirrorseiten, geöffnete Nachrichten usw.).
 
-Finally, you can configure Adobe Campaign to **keep a copy of emails** sent from your platform through Email BCC. Wenn Ihr Unternehmen aus Compliance-Gründen alle ausgehenden E-Mail-Nachrichten archivieren muss, können Sie diese Funktion aktivieren.
+Außerdem können Sie Adobe Campaign so konfigurieren, dass von E­Mails, die von der Plattform per E-Mail-BCC gesendet werden, **eine Kopie beibehalten** wird. Insbesondere wenn Ihr Unternehmen aus Compliance-Gründen alle ausgehenden E-Mail-Nachrichten archivieren muss, können Sie diese Funktion aktivieren.
 
-mehr dazu:
+Mehr dazu:
 
 * [Versand bestätigen](../../sending/using/confirming-the-send.md)
 * [Nachrichten tracken](../../sending/using/tracking-messages.md)
@@ -75,27 +75,27 @@ mehr dazu:
 * [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 
-## Richtlinien zur Lieferbarkeit {#improve-deliverability}
+## Zustellbarkeitsrichtlinien {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
 Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich an die Empfängerpostfächer zugestellt und nicht als unzustellbar zurückgesendet bzw. als Spam gekennzeichnet werden.
 
-Campaign Standard bietet mehrere **Bereitstellungs-Tools** , mit denen Sie die Anzahl der erfolgreich ausgelieferten Nachrichten verbessern können: Versand-Berichte, Optimierung der Sendezeit, Vorschau von Nachrichten, E-Mail-Rendering, Verwaltung von Quarantänen usw.
+Campaign Standard bietet verschiedene **Zustellbarkeits-Tools**, mit denen Sie die Anzahl der erfolgreich zugestellten Nachrichten verbessern können: Berichte zum Versanddurchsatz, Optimierung der Sendungsdauer, Vorschau von Nachrichten, E-Mail-Rendering, Quarantäneverwaltung usw.
 
-mehr dazu:
+Mehr dazu:
 
 * [Über die Zustellbarkeit](../../sending/using/about-deliverability.md)
 * [Überwachen der Zustellbarkeit](../../sending/using/monitor-deliverability.md)
 * [Verbessern Ihres Rufs](../../sending/using/improving-reputation.md)
 * [Technische Empfehlungen](../../sending/using/technical-recommendations.md)
-* [Versanddurchsatz kontrollieren](../../reporting/using/delivery-throughput.md)
+* [Kontrollieren Ihres Versanddurchsatzes](../../reporting/using/delivery-throughput.md)
 
 ## Zusätzliche Ressourcen
 
 * [E-Mails für A/B-Test entwerfen](../../channels/using/designing-an-a-b-test-email.md)
-* [Senden eines Tests, Vorbereiten und Senden einer E-Mail (Video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [Überprüfen eines E-Mail-Versands und von Berichten (Video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
+* [Testversand, Vorbereiten und Senden einer E-Mail (Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
+* [E-Mail-Versand und Berichte prüfen (Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Erste Schritte mit E-Mails](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
 * [Best Practices beim Versand](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
-* [Verwendungsfall: Erstellen einer Kontrollgruppe](../../automating/using/workflow-control-group.md)
+* [Anwendungsfall: Kontrollgruppe erstellen](../../automating/using/workflow-control-group.md)
