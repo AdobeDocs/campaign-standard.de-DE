@@ -11,11 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Bei der Analyse werden mehrere Indikatoren berechnet und es werden eine Reihe vo
 
 ![](assets/predictive_subject_line_example.png)
 
-## Modelle importieren    {#importing-models}
+## Modelle importieren     {#importing-models}
 
 Auf Ihrem Adobe-Campaign-Server laufen Modelle nicht standardmäßig. Für den Erhalt eines Modells und die Aktivierung der Funktion gibt es zwei Möglichkeiten:
 
@@ -90,7 +90,7 @@ So trainieren Sie ein lokales Modell:
 
 ### Importieren von vortrainierten Modellen {#pre-trained-models}
 
-Um auf diese Modelle zuzugreifen, klicken Sie [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Verwenden Sie die Funktion [Package-Import](../../automating/using/managing-packages.md), um ein Modell in Ihre Adobe Campaign-Instanz hochzuladen.
+Klicken Sie [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html), um auf diese Modelle zuzugreifen. Verwenden Sie die Funktion [Package-Import](../../automating/using/managing-packages.md), um ein Modell in Ihre Adobe Campaign-Instanz hochzuladen.
 
 Folgende gebrauchsfertige Modelle stehen zur Verfügung:
 
