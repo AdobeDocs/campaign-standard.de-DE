@@ -1,6 +1,6 @@
 ---
-title: Aktualisieren mehrerer Abonnement-Status aus einer Datei
-description: In diesem Verwendungsfall wird gezeigt, wie eine Datei mit Profilen importiert und ihr Abonnement auf verschiedene in der Datei angegebene Dienste aktualisiert wird.
+title: Mehrere Abonnementstatus über eine Datei aktualisieren
+description: Dieser Anwendungsfall zeigt, wie man eine Datei mit Profilen importiert und die Abonnements für mehrere in der Datei angegebene Dienste aktualisiert.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Updating multiple subscription statuses from a file {#updating-multiple-subscription-statuses-from-a-file}
+# Mehrere Abonnementstatus über eine Datei aktualisieren {#updating-multiple-subscription-statuses-from-a-file}
 
 Dieses Beispiel zeigt, wie eine Datei mit Profilen importiert wird und ihre Anmeldungen bei mehreren in der Datei spezifizierten Diensten durchgeführt werden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile mit einer Verknüpfung zu Diensten identifiziert werden können. Um sicherzustellen, dass sich keine Dubletten in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
 
@@ -66,7 +66,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* Mit der Aktivität [Anmeldedienste](../../automating/using/subscription-services.md) werden die zu aktualisierenden, von der Transition stammenden Dienste über die in der Aktivität **[!UICONTROL Abstimmung]** erstellte Verknüpfung identifiziert.
 
    Der **[!UICONTROL Kampagnentyp]** wird über das **operation**-Feld der Datei identifiziert. Hier können nur die Felder „Boolesch“ oder „Integer“ ausgewählt werden. Wenn die Spalte Ihrer Datei, die den auszuführenden Vorgang enthält, nicht in der Liste erscheint, vergewissern Sie sich, dass Sie Ihr Spaltenformat in der Aktivität **[!UICONTROL Datei laden]** richtig eingerichtet haben, wie zuvor in diesem Beispiel erläutert.
 
