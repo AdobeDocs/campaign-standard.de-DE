@@ -12,11 +12,11 @@ discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 98%
 
 ![](assets/incremental.png)
 
-Eine **[!UICONTROL Inkrementelle Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe-Campaign-Datenbank zusammensetzt. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen.
+Eine **[!UICONTROL Inkrementelle Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe Campaign-Datenbank zusammensetzt. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen.
 
 Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für die Zielpopulation definieren. Diese Daten werden in Zusatzspalten gespeichert und können ausschließlich für den laufenden Workflow verwendet werden.
 
 Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
-## Anwendungskontext  {#context-of-use}
+## Anwendungskontext   {#context-of-use}
 
 Eine **[!UICONTROL Inkrementelle Abfrage]** muss mit einer **[!UICONTROL Planung]** einhergehen, um die Häufigkeit der Ausführung des Workflows und damit der Abfrage zu definieren.
 
@@ -49,7 +49,7 @@ Der für diese Aktivität spezifische Tab **[!UICONTROL Verarbeitete Daten]** er
 
 **Verwandte Themen**
 
-* [Verwendungsfall: Inkrementelle Abfrage über Abonnenten eines Dienstes](../../automating/using/incremental-query-on-subscribers.md)
+* [Anwendungsfall: Inkrementelle Abfrage bezüglich Dienst-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Konfiguration {#configuration}
 
