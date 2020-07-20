@@ -12,11 +12,11 @@ discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ Je Workflow-Zweig darf zudem nur eine **[!UICONTROL Planung]** verwendet werden.
 
 >[!CAUTION]
 >
->Das **[!UICONTROL Ausführungsintervall]** der Aktivität kann nicht weniger als 10 Minuten betragen. Dies bedeutet, dass kein Workflow automatisch öfter als einmal alle 10 Minuten durchgeführt werden kann.
+>Das **[!UICONTROL Ausführungsintervall]** der Aktivität kann nicht weniger als 10 Minuten betragen. Dies bedeutet, dass kein Workflow automatisch öfter als alle zehn Minuten durchgeführt werden kann.
 
 **Verwandte Themen:**
 
-* [Verwendungsfall: Erstellen von Versänden zum Erstellungsdatum von Profilen](../../automating/using/workflow-creation-date-query.md)
-* [Verwendungsfall: Jeden Dienstag einen E-Mail-Versand erstellen](../../automating/using/workflow-weekly-offer.md)
+* [Anwendungsfall: Sendungen zum Erstellungsdatum von Profilen erstellen](../../automating/using/workflow-creation-date-query.md)
+* [Anwendungsfall: Jeden Dienstag einen E-Mail-Versand erstellen](../../automating/using/workflow-weekly-offer.md)
 
 ## Konfiguration {#configuration}
 
