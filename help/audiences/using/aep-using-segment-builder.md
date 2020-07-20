@@ -1,5 +1,5 @@
 ---
-title: Verwenden des Segmentaufbaus
+title: Segment Builder verwenden
 description: Erfahren Sie, wie Sie mit Segment Builder Audiences erstellen können.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -12,11 +12,11 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 95%
 >
 >Der Audience Destinations-Dienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-The Segment Builder allows you to build audiences by defining rules based on data coming from the [Real-time Customer Profile](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html).
+Mit Segment Builder können Sie Audiences erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Echtzeit-Kundenprofil](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html) stammen.
 
-In diesem Abschnitt werden allgemeine Konzepte zum Erstellen eines Segments vorgestellt. Detaillierte Informationen zu Segment Builder selbst finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
+In diesem Abschnitt werden allgemeine Konzepte zum Erstellen eines Segments vorgestellt. Detaillierte Informationen zu Segment Builder finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
 
 Die Benutzeroberfläche von Segment Builder sieht wie folgt aus:
 
@@ -87,7 +87,7 @@ Die Felder sind in Tabs unterteilt:
 >
 >Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/multi-entity-segmentation.html).
 
-Standardmäßig zeigt der Segmentaufbau Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema einschließlich der Felder anzuzeigen, für die keine Daten vorhanden sind, aktivieren Sie in den Einstellungen die Option **[!UICONTROL Gesamtes XDM-Schema anzeigen]**.
+Standardmäßig zeigt Segment Builder Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema einschließlich der Felder anzuzeigen, für die keine Daten vorhanden sind, aktivieren Sie in den Einstellungen die Option **[!UICONTROL Gesamtes XDM-Schema anzeigen]**.
 
 ![](assets/aep_audiences_populatedfields.png)
 
