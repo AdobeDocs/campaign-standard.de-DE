@@ -1,6 +1,6 @@
 ---
 title: Wöchentlichen Versand erstellen
-description: Dieser Verwendungsfall zeigt, wie ein wöchentlicher Versand erstellt wird.
+description: Dieser Anwendungsfall zeigt, wie man einen wöchentlichen Versand erstellt.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,delivery,scheduler
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Sie haben die Möglichkeit, beispielsweise jeden Dienstag allen Kunden eine E-Ma
 
 ## Planungsaktivität erstellen{#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Ausführung]** eine [](../../automating/using/scheduler.md)Planungsaktivität in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
 1. Konfigurieren Sie Ihren Versand.
 1. Wählen Sie in **[!UICONTROL Ausführungsfrequenz]** die Option **[!UICONTROL Wöchentlich]** aus.
@@ -48,7 +48,7 @@ Sie haben die Möglichkeit, beispielsweise jeden Dienstag allen Kunden eine E-Ma
 
 ## Abfrageaktivität erstellen{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, to select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
+1. Um Empfänger auszuwählen, ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Targeting]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Profil]** die Option **[!UICONTROL E-Mail]** in den Arbeitsbereich.
 1. Wählen Sie als Operator **[!UICONTROL Ist nicht leer]** aus.
 1. Fügen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Allgemein]** Profile hinzu und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
@@ -58,7 +58,7 @@ Sie haben die Möglichkeit, beispielsweise jeden Dienstag allen Kunden eine E-Ma
 
 ## E-Mail-Versand erstellen{#creating-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Kanäle]** die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md) in den Arbeitsbereich.
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
 1. Wählen Sie **[!UICONTROL Wiederkehrende E-Mail]** und danach **[!UICONTROL Weiter]** aus.
 1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.
