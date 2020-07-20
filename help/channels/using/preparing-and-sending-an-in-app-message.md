@@ -12,11 +12,11 @@ discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ In Adobe Campaign sind drei Arten von In-App-Nachrichten verfügbar:
 
 ![](assets/diagram_inapp.png)
 
-## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden  {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden   {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 In Adobe Campaign sind Attribute zu mobilen Profilen, die von Mobilgeräten gesendet werden, in der Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** gespeichert. Dort können die Daten definiert werden, die über die Abonnenten Ihrer Apps gesammelt werden sollen.
 
@@ -102,7 +102,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    * **[!UICONTROL Life-Cycle-Ereignisse]**: Native Life-Cycle-Ereignisse, die vom Adobe Mobile SDK unterstützt werden.
 
-      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
+      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics-Ereignisse]**: Je nach der Konfiguration Ihrer Mobile App werden die folgenden drei Kategorien unterstützt: Adobe Analytics, Kontextdaten oder Ansichtsstatus.
 
