@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 Zusätzlich zum Tracken der Online-Anwesenheit von Kunden können Sie auch Informationen zu ihrem physischen Standort nutzen. Durch die Integration mit Adobe Analytics for Mobile können Sie Abonnenten Ihrer Mobile App mit Adobe Campaign standortbasierte Marketing-Nachrichten senden.
 
-Ein POI wird durch einen Breitengrad, einen Längengrad, einen Radius sowie einen Titel bestimmt. Die entsprechende Definition finden Sie in der [Adobe-Mobile-Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)-Benutzeroberfläche.
+Ein POI wird durch einen Breitengrad, einen Längengrad, einen Radius sowie einen Titel bestimmt. Die entsprechende Definition finden Sie in der [Adobe-Mobile-Services](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html)-Benutzeroberfläche.
 
 Wenn ein Abonnent Ihre Mobile App öffnet und sein Standort mit einem POI übereinstimmt, erfasst Adobe Campaign die Daten mithilfe des Experience Cloud Mobile SDK. Sie können dann auf der Basis dieser Informationen personalisierte Nachrichten versenden (z. B. E-Mails, Push-Benachrichtigungen, SMS).
 
