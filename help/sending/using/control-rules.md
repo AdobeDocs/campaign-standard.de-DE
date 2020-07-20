@@ -11,49 +11,52 @@ topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
+workflow-type: ht
+source-wordcount: '488'
+ht-degree: 100%
 
 ---
 
 
 # Kontrollregeln {#control-rules}
 
-Mit Steuerungsregeln können Sie die Gültigkeit und Qualität der Nachrichten vor dem Senden überprüfen, z. B. Zeichenanzeige, SMS-Größe, Adressformat usw.
+Mit Kontrollregeln können Sie die Gültigkeit und Qualität der Nachrichten vor dem Versand überprüfen. Dabei werden beispielsweise die Zeichenanzeige, die Größe von SMS-Nachrichten und das Adressformat überprüft.
 
 >[!NOTE]
 >
->Aus Sicherheitsgründen sind Steuerungsregeln schreibgeschützt und können nicht geändert werden.
+>Aus Sicherheitsgründen sind Kontrollregeln schreibgeschützt und können nicht geändert werden.
 
 ## Standard-Kontrollregeln {#default-control-rules}
 
-Ein Satz von Standardregeln stellt die Standardsteuerelemente sicher. Die nachstehende Tabelle enthält Informationen zu diesen Regeln sowie zu deren Kanal- und [Ausführungsphase](#control-rules-execution-phases).
+Ein Satz von Standardregeln stellt die Standardkontrollen sicher. Die nachstehende Tabelle enthält Informationen zu diesen Regeln sowie zu deren Kanal und [Ausführungsphasen](#control-rules-execution-phases).
 
-| Titel | Channel | Ausführungsphase | Description |
+| Titel | Kanal | Ausführungsphase | Beschreibung |
 ---------|----------|---------|---------
-| **[!UICONTROL A/B Test]** | Email | Zu Beginn der Personalisierung | Extrahiert die Testpopulation für einen Versand mit A/B-Test. |
-| **[!UICONTROL Check delivery size]** | Alle | Nach der Zielgruppenbestimmung | Überprüft die Größe der Meldungen. |
-| **[!UICONTROL Check email content is not empty]** | Email | Nach der Zielgruppenbestimmung | Erzeugt einen Fehler, wenn der Inhalt der Nachricht leer ist. |
-| **[!UICONTROL Check In-App content for broadcast template]** | In-App | Personalisierung im Beginn | Überprüft, ob In-App-Inhalte/Auslöser für die Sendevorlage nicht leer sind. |
-| **[!UICONTROL Check In-App content for profile template]** | In-App | Zu Beginn der Personalisierung | Überprüft, ob In-App-Inhalte/Auslöser für die Vorlage des Profils nicht leer sind. |
-| **[!UICONTROL Check In-App content for subscriber template]** | In-App | Zu Beginn der Personalisierung | Überprüft, ob In-App-Inhalte/Auslöser für die Abonnentenvorlage nicht leer sind. |
-| **[!UICONTROL Check proof size]** | Alle | Nach der Zielgruppenbestimmung | Erzeugt eine Fehlermeldung, wenn die Population der Testversand-Zielgruppe 100 Empfänger überschreitet. |
-| **[!UICONTROL Check social network sharing link]** | Email | Zu Beginn der Personalisierung | Überprüft das Vorhandensein eines Links zu einer Mirrorseite, wenn ein Link zur Weitergabe über soziale Netzwerke (ViralLinks) in den Inhalt aufgenommen wird. |
-| **[!UICONTROL Check subject]** | Email | Zu Beginn der Personalisierung | Überprüft, ob Betreff und Absenderadresse keine Sonderzeichen enthalten, die Probleme bei bestimmten Postübermittlern verursachen können, und prüft, ob der Betreff der Nachricht ausgefüllt wurde. |
-| **[!UICONTROL Check unsubscription link]** | Email | Zu Beginn der Personalisierung | Prüft, ob in jedem Inhalt (HTML und Text) mindestens eine Abmeldung (Ausschluss-URL) vorhanden ist. |
-| **[!UICONTROL Check URL labels]** | Email | Zu Beginn der Personalisierung | Überprüft, ob jede Tracking-URL eine Beschriftung enthält. |
-| **[!UICONTROL Check URLs]** | Email | Zu Beginn der Personalisierung | Überprüft die Tracking-URLs (Vorhandensein des Zeichens &quot;&amp;&quot;). |
+| **[!UICONTROL A/B-Test]** | E-Mail | Zu Beginn der Personalisierung | Extrahiert die Testpopulation für einen Versand mit A/B-Test. |
+| **[!UICONTROL Prüfung der Versandgröße]** | Alle | Nach der Zielgruppenbestimmung | Überprüft die Größe der Nachrichten. |
+| **[!UICONTROL Stellen Sie sicher, dass der E-Mail-Inhalt nicht leer ist]** | E-Mail | Nach der Zielgruppenbestimmung | Erzeugt einen Fehler, wenn der Inhalt der Nachricht leer ist. |
+| **[!UICONTROL In-App-Inhalt auf Broadcast-Vorlage prüfen]** | In-App | Zu Beginn der Personalisierung | Stellt sicher, dass In-App-Inhalte/Triggers für die Broadcast-Vorlage nicht leer sind. |
+| **[!UICONTROL In-App-Inhalt für Profil-Vorlage prüfen]** | In-App | Zu Beginn der Personalisierung | Stellt sicher, dass In-App-Inhalte/Triggers für die Profilvorlage nicht leer sind. |
+| **[!UICONTROL In-App-Inhalt für Abonnentenvorlage prüfen]** | In-App | Zu Beginn der Personalisierung | Stellt sicher, dass In-App-Inhalte/Triggers für die Abonnentenvorlage nicht leer sind. |
+| **[!UICONTROL Prüfung der Testversandgröße]** | Alle | Nach der Zielgruppenbestimmung | Erzeugt eine Fehlermeldung, wenn die Population der Testversand-Zielgruppe 100 Empfänger überschreitet. |
+| **[!UICONTROL Prüfung der Teilen-Links zu den sozialen Netzwerken]** | E-Mail | Zu Beginn der Personalisierung | Überprüft, wenn im Inhalt ein Link zum Teilen in sozialen Netzwerken (ViralLinks) enthalten ist, ob der dann nötige Mirrorseiten-Link ebenfalls enthalten ist. |
+| **[!UICONTROL Prüfung des Betreffs]** | E-Mail | Zu Beginn der Personalisierung | Stellt sicher, dass der Betreff und die Absenderadresse keine Sonderzeichen enthalten, die bei bestimmten Mail Transfer Agents Probleme verursachen können, und dass der Nachrichtenbetreff ausgefüllt wurde. |
+| **[!UICONTROL Validierung des Abmelde-Links]** | E-Mail | Zu Beginn der Personalisierung | Prüft, ob in jedem Inhalt (HTML und Text) mindestens eine URL vom Typ &quot;Abmeldung&quot; (Opt-out) enthalten ist. |
+| **[!UICONTROL Validierung der URL-Titel]** | E-Mail | Zu Beginn der Personalisierung | Überprüft, ob jede Tracking-URL einen Titel hat. |
+| **[!UICONTROL URL-Validierung]** | E-Mail | Zu Beginn der Personalisierung | Überprüft die Tracking-URLs (Vorhandensein des &quot;&amp;&quot;-Zeichens). |
 
-## Ausführungsphasen von Steuerungsregeln {#control-rules-execution-phases}
+## Ausführungsphasen von Kontrollregeln {#control-rules-execution-phases}
 
-Steuerungsregeln können auf verschiedene Phasen des Lebenszyklus des Versands angewendet werden:
+Kontrollregeln können auf verschiedene Phasen des Lebenszyklus eines Versands angewendet werden:
 
-* **Beginn des Targeting**: Die Steuerungsregel kann an dieser Stelle angewendet werden, sodass der Personalisierungsschritt im Ereignis eines Fehlers nicht ausgeführt wird.
+* **Zu Beginn der Zielgruppenbestimmung**: Die Kontrollregel kann in dieser Phase angewendet werden, sodass der Personalisierungsschritt im Fall eines Fehlers nicht ausgeführt wird.
 
-* **Nach dem Targeting**: Die Ausführung nach dem Targeting ermöglicht es Ihnen, das Volumen der Zielgruppe zu kennen, um die Kontrollregel anzuwenden.
+* **Nach der Zielgruppenbestimmung**: Durch eine Ausführung nach der Zielgruppenbestimmung kennen Sie den Umfang der Zielgruppe und können die Kontrollregel entsprechend anwenden.
 
    So wird beispielsweise die Kontrollregel **Prüfung der Testversandgröße** nach der Zielgruppenbestimmung angewendet: Diese Regel verhindert die Vorbereitung der Nachrichtenpersonalisierung, wenn zu viele Testversand-Empfänger vorhanden sind.
 
-* **Zu Beginn der Personalisierung**: Gilt, wenn sich die Prüfung auf die Genehmigung zur Personalisierung der Nachricht bezieht. Die Nachrichtenpersonalisierung erfolgt während der Analysephase.
+* **Zu Beginn der Personalisierung**: Gilt, wenn sich die Prüfung auf die Validierung der Nachrichtenpersonalisierung bezieht. Die Nachrichtenpersonalisierung erfolgt während der Analysephase.
 
-* **Am Ende der Analyse**: Wenn ein Scheck personalisiert werden muss, muss er abgeschlossen sein.
+* **Am Ende der Analyse**: Wenn eine Prüfung verlangt, dass die Nachrichtenpersonalisierung abgeschlossen ist.
