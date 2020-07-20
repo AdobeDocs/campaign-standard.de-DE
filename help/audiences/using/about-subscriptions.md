@@ -11,11 +11,11 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -36,6 +36,6 @@ Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werd
 
 **Verwandte Themen**
 
-* [Verwendungsfall: Inkrementelle Abfrage über Abonnenten eines Dienstes](../../automating/using/incremental-query-on-subscribers.md)
-* [Verwendungsfall: Aktualisieren mehrerer Abonnement-Status aus einer Datei](../../automating/using/updating-subscriptions-from-file.md)
-* [Profile für einen bestimmten Dienst abonnieren, nachdem eine Datei importiert wurde](../../automating/using/subscribing-profiles-from-file.md)
+* [Anwendungsfall: Inkrementelle Abfrage bezüglich Dienst-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
+* [Anwendungsfall: Mehrere Abonnementstatus über eine Datei aktualisieren](../../automating/using/updating-subscriptions-from-file.md)
+* [Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden](../../automating/using/subscribing-profiles-from-file.md)
