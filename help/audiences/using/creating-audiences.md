@@ -12,8 +12,11 @@ discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+workflow-type: ht
+source-wordcount: '1017'
+ht-degree: 100%
 
 ---
 
@@ -30,26 +33,26 @@ Ausgehend von der Audience-Liste erfolgt die Erstellung von Audiences entweder m
 
    ![](assets/audiences_query_1.png)
 
-1. Select **[!UICONTROL Create]** to access the screen to create a new audience.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]**, um zum Bildschirm für die Audience-Erstellung zu gelangen.
 
    ![](assets/audiences_query.png)
 
 1. Vergeben Sie einen Titel für Ihre Audience. Der Titel wird in der Audience-Liste und in der Palette des Abfragetools verwendet.
-1. Choose a **[!UICONTROL Query]** audience type: the audiences defined by a query are recomputed at each further use.
+1. Wählen Sie dann den Audience-Typ **[!UICONTROL Abfrage]** aus: Mithilfe von Abfragen bestimmte Audiences werden bei jeder nachfolgenden Verwendung neu berechnet.
 
    ![](assets/audience_type_selection.png)
 
-1. Then select the **[!UICONTROL Targeting dimension]** that you would like to use to filter your customers. Die Zielgruppendimension ist für jede Audience eindeutig. Sie können also keine Audience erstellen, die etwa aus Testprofilen und Abonnenten zugleich besteht. Weiterführende Informationen zum Thema Zielgruppendimension finden Sie auf [dieser Seite](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Wählen Sie die gewünschte **[!UICONTROL Zielgruppendimension]** zum Filtern Ihrer Kunden aus. Die Zielgruppendimension ist für jede Audience eindeutig. Sie können also keine Audience erstellen, die etwa aus Testprofilen und Abonnenten zugleich besteht. Weiterführende Informationen zum Thema Zielgruppendimension finden Sie auf [dieser Seite](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Erstellen Sie die Abfrage zur Bestimmung der Audience-Population. Lesen Sie diesbezüglich auch den Abschnitt [Abfragen erstellen](../../automating/using/editing-queries.md).
-1. Click the **[!UICONTROL Create]** button to save your audience.
+1. Speichern Sie abschließend die Audience mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
 
 >[!NOTE]
 >
->You can add a description to this audience and define the access authorizations via the **[!UICONTROL Edit properties]** icon.
+>Sie können eine Beschreibung für die Audience hinzufügen und mithilfe des Symbols **[!UICONTROL Eigenschaften bearbeiten]** die Zugriffsberechtigungen bestimmen.
 
 ## Audiences vom Typ Liste erstellen {#creating-list-audiences}
 
-In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Liste** beschrieben. Audiences dieser Art werden in Workflows unter Verwendung von Zielgruppenbestimmungsaktivitäten erstellt.  lassen sich des Weiteren mithilfe eines Dateiimports in einem [Workflow](../../automating/using/get-started-workflows.md) oder im **[!UICONTROL Audiences]** Audiences-Menü mithilfe einer Abfrage erstellen.
+In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Liste** beschrieben. Audiences dieser Art werden in Workflows unter Verwendung von Zielgruppenbestimmungsaktivitäten erstellt. Zusätzlich können Sie Audiences mithilfe eines Dateiimports in einem [Workflow](../../automating/using/get-started-workflows.md) oder im **[!UICONTROL Audiences]**-Menü mithilfe einer Abfrage erstellen.
 
 Gehen Sie zur Erstellung einer Audience vom Typ **Liste** wie folgt vor:
 
@@ -59,11 +62,11 @@ Gehen Sie zur Erstellung einer Audience vom Typ **Liste** wie folgt vor:
 
 1. Platzieren und konfigurieren Sie Zielgruppenbestimmungsaktivitäten im Workflow-Arbeitsbereich, um eine Population auszuwählen, deren Dimension **bekannt** ist. Die Liste der verfügbaren Aktivitäten und die entsprechenden Konfigurationen werden im Abschnitt [Über Zielgruppenbestimmungsaktivitäten](../../automating/using/about-targeting-activities.md) erläutert.
 
-   You can use a **[!UICONTROL Query]** activity, or import data using a **[!UICONTROL Load file]** activity before using a **[!UICONTROL Reconciliation]** activity to identify the dimension of the data imported. Here, we want to target recipients who subscribed to the Sport Newsletter with a **[!UICONTROL Query]** activity .
+   Sie können die Aktivität **[!UICONTROL Abfrage]** verwenden oder Daten mithilfe der Aktivität **[!UICONTROL Datei laden]** importieren und daraufhin die Aktivität **[!UICONTROL Abstimmung]** verwenden, um die Dimension der importierten Daten zu ermitteln. In diesem Beispiel sollen mithilfe einer **[!UICONTROL Abfrage]**-Aktivität die Zielgruppe der Empfänger angesprochen werden, die den Sport-Newsletter abonniert haben.
 
    ![](assets/audiences_list_2.png)
 
-1. After your targeting, drag and drop a **[!UICONTROL Save audience]** activity into your workflow. For example, you can chose to **[!UICONTROL Create or update an audience]**, this allows you to create then automatically update your audience with new data. In this case, add a **[!UICONTROL Scheduler]** activity at the beginning of your workflow.
+1. Platzieren Sie im Anschluss an die Zielgruppenbestimmung eine **[!UICONTROL Audience-Speicherung]** im Workflow-Diagramm. Beispielsweise können Sie die Option **[!UICONTROL Audience erstellen oder aktualisieren]** auswählen. Dadurch können Sie eine Audience erstellen und anschließend automatisch mit neuen Daten aktualisieren. Fügen Sie in diesem Fall die Aktivität **[!UICONTROL Planung]** am Anfang des Workflows hinzu.
 
    Weiterführende Informationen zur Konfiguration und Verwendung dieser Aktivität finden Sie im Abschnitt [Audience-Speicherung](../../automating/using/save-audience.md).
 
@@ -71,37 +74,37 @@ Gehen Sie zur Erstellung einer Audience vom Typ **Liste** wie folgt vor:
 
 1. Speichern und starten Sie den Workflow.
 
-   As the **[!UICONTROL Save audience]** is placed after a targeting with a known dimension, the audiences created via this activity are **List** audiences.
+   Da die **[!UICONTROL Audience-Speicherung]** auf eine Zielgruppenbestimmung mit bekannter Dimension folgt, sind die mithilfe dieser Aktivität erstellten Audiences vom Typ **Liste**.
 
    Der Inhalt der gespeicherten Audience kann anschließend in der Detailansicht der Audience eingesehen werden. Auf letztere können Sie in der Liste der Audiences zugreifen. Die in dieser Ansicht gezeigten Spalten entsprechen den Spalten der in die Speicherungsaktivität des Workflows eingehenden Transition. Dies sind beispielsweise die Spalten der importierten Datei, über eine Abfrage hinzugefügte Zusatzdaten etc.
 
    ![](assets/audiences_list_4.png)
 
-## Audiences vom Typ Datei erstellen {#creating-file-audiences}
+## Audiences vom Typ Datei erstellen  {#creating-file-audiences}
 
-In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Datei** mithilfe eines Dateiimports in einem Workflow beschrieben.  lassen sich des Weiteren im Anschluss an eine Zielgruppenbestimmung in einem [Workflow](../../automating/using/get-started-workflows.md) oder im **[!UICONTROL Audiences]** Audiences-Menü mithilfe einer Abfrage erstellen.
+In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Datei** mithilfe eines Dateiimports in einem Workflow beschrieben. Zusätzlich können Sie Audiences im Anschluss an eine Zielgruppenbestimmung in einem [Workflow](../../automating/using/get-started-workflows.md) oder im **[!UICONTROL Audiences]**-Menü mithilfe einer Abfrage erstellen.
 
 Gehen Sie zur Erstellung einer Audience vom Typ **Datei** wie folgt vor:
 
 1. Wählen Sie im Tab **Marketingaktivitäten** die Option **Erstellen** und dann **Workflow**.
-1. Drag and drop, and then configure a **[!UICONTROL Load file]** activity which will allow you to import a population that has an **unknown** dimension when the workflow is executed. Weiterführende Informationen zur Konfiguration und Verwendung dieser Aktivität finden Sie im Abschnitt [Datei laden](../../automating/using/load-file.md).
+1. Platzieren und konfigurieren Sie eine **[!UICONTROL Datei-laden]**-Aktivität im Workflow-Arbeitsbereich, um eine Population zu importieren, deren Dimension zum Zeitpunkt der Workflow-Ausführung **unbekannt** ist. Weiterführende Informationen zur Konfiguration und Verwendung dieser Aktivität finden Sie im Abschnitt [Datei laden](../../automating/using/load-file.md).
 
    ![](assets/audience_files_1.png)
 
-1. Ziehen Sie eine **[!UICONTROL Save audience]** Aktivität nach der **[!UICONTROL Load file]** Aktivität per Drag &amp; Drop. Weiterführende Informationen zur Konfiguration und Verwendung dieser Aktivität finden Sie im Abschnitt [Audience-Speicherung](../../automating/using/save-audience.md).
+1. Schließen Sie eine **[!UICONTROL Audience-Speicherung]** an die **[!UICONTROL Datei-laden]**-Aktivität an. Weiterführende Informationen zur Konfiguration und Verwendung dieser Aktivität finden Sie im Abschnitt [Audience-Speicherung](../../automating/using/save-audience.md).
 1. Speichern und starten Sie den Workflow.
 
    ![](assets/audience_files_2.png)
 
-   As the **[!UICONTROL Save audience]** is placed after an import, the data dimension is unknown and the audiences created via this activity are **File** audiences.
+   Da die **[!UICONTROL Audience-Speicherung]** auf einen Import folgt, ist die Dimension der Daten unbekannt und die mithilfe dieser Aktivität erstellten Audiences sind vom Typ **Datei**.
 
    Der Inhalt der gespeicherten Audience kann anschließend in der Detailansicht der Audience eingesehen werden. Auf letztere können Sie in der Liste der Audiences zugreifen. Die in dieser Ansicht gezeigten Spalten entsprechen den Spalten der in die Speicherungsaktivität des Workflows eingehenden Transition. Dies sind beispielsweise die Spalten der importierten Datei, über eine Abfrage hinzugefügte Zusatzdaten etc.
 
    ![](assets/audience_files_3.png)
 
-## Erstellen von Experience Cloud-Audiences {#creating-experience-cloud-audiences}
+## Erstellen von Experience Cloud-Audiences  {#creating-experience-cloud-audiences}
 
-Adobe Campaign ermöglicht die gemeinsame Nutzung von Audiences mit Adobe Experience Cloud. An **Experience Cloud** type audience is directly imported from People core service to Adobe Campaign with the **[!UICONTROL Import shared audience]** technical workflow.
+Adobe Campaign ermöglicht die gemeinsame Nutzung von Audiences mit Adobe Experience Cloud. Eine Audience vom Typ **Experience Cloud** wird direkt von People Core Service in Adobe Campaign mit dem technischen Workflow **[!UICONTROL Freigegebene Zielgruppe importieren]** importiert.
 
 Im Gegensatz zur Audience vom Typ **Abfrage**, mit der Profile in Adobe Campaign abgefragt werden, besteht die Audience vom Typ **Experience Cloud** aus einer Liste mit Besucherkennungen.
 
@@ -119,12 +122,12 @@ Die Vorgehensweise zur Änderung von Audiences hängt vom jeweiligen Typ ab:
 
    >[!CAUTION]
    >
-   >If you change the **[!UICONTROL Filtering dimension]** in the query, the rules that have previously been defined will be lost.
+   >Wenn Sie die **[!UICONTROL Filterdimension]** einer Abfrage ändern, gehen bereits konfigurierte Regeln verloren.
 
-* To edit a **List** or **File** audience, edit the workflow from which it was created and modify the **[!UICONTROL Save audience]** activity. Starten Sie den Workflow, damit die Änderungen für die Audience übernommen werden.
+* Um eine Audience vom Typ **Liste** oder vom Typ **Datei** zu ändern, öffnen Sie den Workflow, von dem aus sie erstellt wurde, und ändern Sie die Aktivität **[!UICONTROL Audience-Speicherung]** ab. Starten Sie den Workflow, damit die Änderungen für die Audience übernommen werden.
 * Weiterführende Informationen dazu, wie Sie Audiences vom Typ **Experience Cloud** bearbeiten, finden Sie im Abschnitt [Importieren/Exportieren von Audiences mit People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
-## Audiences löschen {#deleting-audiences}
+## Audiences löschen  {#deleting-audiences}
 
 Es gibt zwei Möglichkeiten, um eine oder mehrere Audiences zu löschen. Die erste Möglichkeit besteht darin, zu Ihrer Audience ein Ablaufdatum hinzuzufügen.
 
@@ -135,15 +138,15 @@ Gehen Sie dabei folgendermaßen vor:
 
    ![](assets/audience_delete_2.png)
 
-1. In the **[!UICONTROL Expires on]** field, add an expiration date to your audience.
+1. Fügen Sie im Feld **[!UICONTROL Läuft ab am]** ein Ablaufdatum für die Audience hinzu.
 
    ![](assets/audience_delete_3.png)
 
-1. Klicken Sie **[!UICONTROL Confirm]** dann auf **[!UICONTROL Save]**.
+1. Wählen Sie **[!UICONTROL Bestätigen]** und danach **[!UICONTROL Speichern]**.
 
 Ihr Ablaufdatum ist jetzt konfiguriert. Sobald dieses Datum erreicht ist, wird die Audience automatisch gelöscht.
 
-Or if you need to delete an audience, you can simply select one or several audiences then click the **[!UICONTROL Delete element]** button.
+Die zweite Möglichkeit zum Löschen einer Audience besteht darin, eine oder mehrere Audiences und danach die Schaltfläche **[!UICONTROL Element löschen]** auszuwählen.
 
 ![](assets/audience_delete_1.png)
 
