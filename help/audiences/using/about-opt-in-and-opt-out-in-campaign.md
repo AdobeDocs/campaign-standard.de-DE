@@ -1,6 +1,6 @@
 ---
 title: Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign
-description: Bei einem Ausschluss wird ein Profil nicht mehr von einem Versand oder von Versänden eines bestimmten Kanals als Ziel ausgewählt.
+description: Opt-out eines Profils führt dazu, dass keinerlei Nachrichten mehr an dieses gesendet werden, auch nicht über einzelne Kanäle.
 page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
 contentOwner: sauviat
@@ -11,18 +11,18 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign{#about-opt-in-and-opt-out-in-campaign}
 
-Bei einem Ausschluss wird ein Profil nicht mehr von einem Versand oder von Versänden eines bestimmten Kanals als Ziel ausgewählt.
+Opt-out eines Profils führt dazu, dass keinerlei Nachrichten mehr an dieses gesendet werden, auch nicht über einzelne Kanäle.
 
 Um Profilen die Möglichkeit zu geben, sich durch Opt-in oder Opt-out an- bzw. abzumelden, müssen Sie eine eigene Landingpage erstellen. Weiterführende Informationen dazu erfahren Sie im Abschnitt [Opt-in- und Opt-out-Landingpages einrichten](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
 
