@@ -12,41 +12,41 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Eigenschaften von Aktivitäten verwalten {#activity-properties}
 
-## Global properties of an activity {#global-properties-of-an-activity}
+## Allgemeine Eigenschaften einer Aktivität {#global-properties-of-an-activity}
 
-Jede Aktivität verfügt über eine Registerkarte &quot; **[!UICONTROL Allgemein]** &quot;, mit der Sie allgemeine Parameter ändern können, die für die Aktivität spezifisch sind.
+Jede Aktivität verfügt über den Tab **[!UICONTROL Allgemein]**, über den Sie allgemeine Parameter ändern können, die für die Aktivität spezifisch sind.
 
 ![](assets/activity-properties.png)
 
-The **[!UICONTROL Properties]** tab allows you to modify the activity&#39;s global parameters, particularly the label and the ID. Die Konfiguration dieses Tabs is optional.
+Im Tab **[!UICONTROL Eigenschaften]** lassen sich die allgemeinen Parameter der Aktivität, insbesondere Titel und Kennung anpassen. Die Konfiguration dieses Tabs is optional.
 
 ![](assets/activity-properties2.png)
 
-## Verwaltung ausgehender Transitionen von Aktivitäten     {#managing-an-activity-s-outbound-transitions}
+## Verwaltung ausgehender Transitionen von Aktivitäten      {#managing-an-activity-s-outbound-transitions}
 
 Standardmäßig verfügen bestimmte Aktivitäten nicht über ausgehende Transitionen. Sie haben jedoch die Möglichkeit, diese in den Tabs **[!UICONTROL Transitionen]** oder **[!UICONTROL Eigenschaften]** der Aktivität hinzuzufügen, um auf Ihre Population im selben Workflow andere Prozesse anzuwenden.
 
 Je nach Aktivität lassen sich verschiedene Arten ausgehender Transitionen hinzufügen:
 
-* **Standardmäßige Transition**: durch die Aktivität berechnete Bevölkerung
-* **Transition ohne Bevölkerung**: Diese Art ausgehende Transition kann hinzugefügt werden, um den Workflow fortzusetzen, und enthält keine Population, um keinen unnötigen Speicherplatz auf dem System zu verbrauchen.
-* **lehnt** ab: Bevölkerung abgelehnt. Dies trifft zu, wenn z. B. in eine Aktivität eingehende Daten aufgrund von Fehlerhaftig- oder Unvollständigkeit nicht verarbeitet werden konnten.
-* **Ergänzung**: Population, die nach der Ausführung der Aktivität verbleibt. Dies trifft zu, wenn z. B. eine Segmentierungsaktivität dahingehend konfiguriert ist, dass lediglich ein bestimmter Prozentsatz der eingehenden Population beibehalten wird.
+* **Standardtransition**: mittels der Aktivität berechnete Population.
+* **Transition ohne Population**: Dieser Typ der ausgehenden Transition kann hinzugefügt werden, um den Workflow fortzusetzen. Er enthält keine Population, um nicht unnötig Speicherplatz im System zu belegen.
+* **Zurückweisungen**: zurückgewiesene Population. Dies trifft zu, wenn z. B. in eine Aktivität eingehende Daten aufgrund von Fehlerhaftigkeit oder Unvollständigkeit nicht verarbeitet werden konnten.
+* **Komplement**: nach der Ausführung der Aktivität verbleibende Population. Dies trifft zu, wenn z. B. eine Segmentierungsaktivität dahingehend konfiguriert ist, dass lediglich ein bestimmter Prozentsatz der eingehenden Population beibehalten wird.
 
 Es besteht die Möglichkeit, für die ausgehende Transition der Aktivität einen **[!UICONTROL Segmentcode]** anzugeben. Der Segmentcode ermöglicht es, die Herkunft von Teilmengen der Zielpopulation zu identifizieren, und kann im weiteren Verlauf für die Nachrichtenpersonalisierung verwendet werden.
 
-## Ausführungsoptionen von Aktivitäten     {#activity-execution-options}
+## Ausführungsoptionen von Aktivitäten      {#activity-execution-options}
 
 In einer Workflow-Aktivität erlaubt Ihnen der Tab **[!UICONTROL Ausführungsoptionen]** im Eigenschaften-Bildschirm insbesondere die Definition des Ausführungsmodus sowie des Verhaltens beim Auftritt von Fehlern.
 
