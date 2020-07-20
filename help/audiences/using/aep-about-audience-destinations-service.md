@@ -12,11 +12,11 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Nutzen Sie [Adobe Experience Platform](https://docs.adobe.com/content/help/de-DE
 
 Adobe Campaign Standard verwendet dann den Dienst **Audience Destinations**, um von Adobe Experience Platform für mehrstufige und/oder kanalübergreifende Kampagnenprogramme eine Kollektion von Profilen abzurufen, die als **Audiences** bezeichnet werden.
 
-**Audiences** werden durch anfängliches Einrichten von **Segmenten** erstellt, bei denen es sich im Prinzip um einen Regelsatz handelt, der auf praktisch jeder Variablen (z. B. Profil-, Ereignis-, Multi-Entitäts-Daten) innerhalb eines Kundenprofils von Adobe Experience Platform basieren kann, um eine multidimensionale Zielgruppe zu erstellen. Globale Konzepte für Echtzeit-Profil- und Segmentierungsdienste werden in diesen dedizierten Dokumenten beschrieben:
+**Audiences** werden durch anfängliches Einrichten von **Segmenten** erstellt, bei denen es sich im Prinzip um einen Regelsatz handelt, der auf praktisch jeder Variablen (z. B. Profil-, Ereignis-, Multi-Entitäts-Daten) innerhalb eines Kundenprofils von Adobe Experience Platform basieren kann, um eine multidimensionale Zielgruppe zu erstellen. Allgemeine Konzepte zu Diensten für Echtzeit-Kundenprofile und Segmentierung werden in diesen Dokumenten erläutert:
 
 * [Echtzeit-Kundenprofil – Überblick ](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
 * [Übersicht über den Segmentierungsdienst](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html)
