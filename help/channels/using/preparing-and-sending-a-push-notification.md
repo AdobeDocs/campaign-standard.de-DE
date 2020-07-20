@@ -12,11 +12,11 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
 1. Im Tab **[!UICONTROL Ausschlusslogs]** befinden sich die Liste aller vom Versand an die Zielgruppe ausgeschlossenen Nachrichten sowie der Ausschlussgrund.
 
-   Hier können wir sehen, dass einer unserer App-Abonnenten ausgeschlossen wurde, weil die Adresse zum blockierungsliste hinzugefügt wurde, und die anderen Abonnenten, weil das Profil ein Duplikat war.
+   In unserem Beispiel sehen wir, dass einer unserer Mobile-App-Abonnenten ausgeschlossen wurde, weil seine Adresse auf der Blockierungsliste steht, und die anderen Abonnenten, weil ihr Profil eine Dublette war.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
    ![](assets/push_send_4.png)
 
-1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann von weiteren Versänden zur blockierungsliste hinzugefügt.
+1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann auf die Blockierungsliste gesetzt und erhält keine weiteren Sendungen mehr.
 
    >[!NOTE]
    >
