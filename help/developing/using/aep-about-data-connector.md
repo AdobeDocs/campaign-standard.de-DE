@@ -11,8 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1dff41bc7b64d2f7ed7c88e002675e50e68a825f
+workflow-type: ht
+source-wordcount: '760'
+ht-degree: 100%
 
 ---
 
@@ -38,15 +41,15 @@ Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campa
 >
 >Dies kann entweder über die APIs oder die Benutzeroberfläche von Adobe Experience Platform erfolgen. Weitere Informationen finden Sie in den entsprechenden Dokumentationen:
 >
->* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
->* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
+>* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://docs.adobe.com/content/help/de-DE/experience-platform/rtcdp/datasets/dataset.html)
+>* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/api/getting-started.html)
 
 
 ## Schlüsselkonzepte {#key-concepts}
 
 * Vordefiniertes Mapping ist nur für Felder verfügbar, die standardmäßig in Campaign Standard bereitgestellt werden. Für die Erfassung aller benutzerdefinierten Felder und Ressourcen muss jeder Kunde sein eigenes Mapping definieren.
 
-* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. This value can be modified using [Adobe Experience Platform APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. Dieser Wert kann mit [Adobe Experience Platform-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/home.html) geändert werden.
 
 * Der Dateningenieur kann das Mapping von Campaign zu Adobe Experience Platform veröffentlichen, ändern und anhalten.
 
@@ -58,19 +61,19 @@ Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campa
 
 * Trackinglog- und Broadlog-Daten werden automatisch als Erlebnisereignisse in Adobe Experience Platform erfasst. Diese Erfassung wird in Echtzeit an Adobe Experience Platform gestreamt.
 
-* Der Experience Cloud ID-Dienst (ECID) ist eine Gerätekennung, die standardmäßig mit Experience Ereignisses gesendet wird.
+* Der Experience-Cloud-ID-Service (ECID) ist eine Gerätekennung, die standardmäßig mit Experience-Ereignissen gesendet wird.
 
-   Es handelt sich dabei um eine eindeutige und beständige ID, die einem Besucher zugewiesen ist und vom Plattformidentitätsdienst verwendet werden kann, um denselben Besucher und seine Daten in verschiedenen Experience Cloud-Lösungen zu identifizieren. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+   Es handelt sich dabei um eine eindeutige und beständige Kennung, mit der der Platform Identity Service denselben Besucher und seine Daten in verschiedenen Experience Cloud-Lösungen identifizieren kann. Weiterführende Informationen finden Sie in der Hilfe zum [Experience Cloud Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
 
    >[!NOTE]
    >
-   >Beachten Sie, dass bei zwei oder mehr Profilen mit demselben Gerät die ECID für diese beiden Profil im Unified Identity-Dienst identisch ist.
+   >Hinweis: Wenn sich zwei oder mehr Profile das gleiche Gerät teilen, ist die ECID für diese beiden Profile im Unified Identity Service identisch.
 
 ## Einschränkungen {#limitations}
 
 * Die vordefinierte Übertragung von Abonnementereignissen wird nicht unterstützt. Um Abonnementereignisse zu übertragen, können Sie ein entsprechendes XDM und einen Datensatz in Adobe Experience Platform erstellen und dann ein benutzerdefiniertes Daten-Mapping für diese Daten konfigurieren.
 
-* Bei Datenschutzanfragen (sowohl Aktionen &quot;Zugriff&quot;als auch &quot;Löschen&quot;) müssen Kunden separate Anforderungen über den [Datenschutz-Core-Service](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)stellen: eine für Kampagne und eine für Adobe Experience Platform. Weitere Informationen hierzu finden Sie unter [Datenschutzanforderungen](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess) und [Verwaltung von Datenschutzanforderungen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in der Kampagne.
+* In Bezug auf Datenschutzanfragen (sowohl Zugriffs- als auch Löschaktionen) müssen Kunden separate Anfragen über den [Datenschutz-Coreservice](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests) stellen: eine für Campaign und eine für Adobe Experience Platform. Weitere Informationen hierzu finden Sie unter [Allgemeines zu Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#righttoaccess) und [Verwalten von Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
 
 * Für jedes XDM-Feld muss die DULE-Kennzeichnung in Adobe Experience Platform erfolgen. Es liegt in der Verantwortung des Kunden, DULE-Kennzeichnungen anzuwenden.
 
