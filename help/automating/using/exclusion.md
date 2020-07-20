@@ -12,9 +12,9 @@ discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ![](assets/exclusion.png)
 
-Ein **[!UICONTROL Ausschluss]** ermöglicht es, bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
+Ein **[!UICONTROL Ausschluss]** ermöglicht es, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
 
 ## Anwendungskontext {#context-of-use}
 
@@ -35,7 +35,7 @@ Die **[!UICONTROL Ausschlussaktivität]** wird insbesondere verwendet, um die Po
 
 Aus den verschiedenen eingehenden Transitionen wird eine Hauptmenge bestimmt. Die Elemente der anderen eingehenden Transitionen werden aus der Hauptmenge ausgeschlossen. Die ausgehende Transition der Ausschlussaktivität enthält nur die Elemente der Hauptmenge, die nicht in einer oder mehreren der anderen eingehenden Transitionen enthalten sind.
 
-## Konfiguration {#configuration}
+## Konfiguration  {#configuration}
 
 1. Ziehen Sie einen **[!UICONTROL Ausschluss]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
