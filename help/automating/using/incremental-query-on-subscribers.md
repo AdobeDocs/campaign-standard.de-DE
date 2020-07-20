@@ -1,6 +1,6 @@
 ---
-title: Inkrementelle Abfrage über Abonnenten eines Dienstes
-description: Im folgenden Beispiel wird erläutert, wie eine Inkrementelle Abfrage-Aktivität zum Filtern von Abonnenten zu einem Dienst konfiguriert wird.
+title: Inkrementelle Abfrage bezüglich Dienst-Abonnenten
+description: Im folgenden Beispiel wird gezeigt, wie eine inkrementelle Abfrageaktivität konfiguriert wird, um Abonnenten eines Dienstes zu filtern.
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -12,18 +12,18 @@ discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}
+# Inkrementelle Abfrage bezüglich Dienst-Abonnenten {#example--incremental-query-on-subscribers-to-a-service}
 
-Im folgenden Beispiel wird die Konfiguration der Aktivität **[!UICONTROL Inkrementelle Abfrage]** illustriert, die der Filterung der Profile der Adobe-Campaign-Datenbank dient, die Abonnenten des Diensts **Running-Newsletter** sind, um diesen eine Willkommens-E-Mail mit einem Sonderangebotscode zu senden.
+Im folgenden Beispiel wird die Konfiguration der Aktivität **[!UICONTROL Inkrementelle Abfrage]** illustriert, die der Filterung der Profile der Adobe-Campaign-Datenbank dient, die Abonnenten des Diensts **Running-Newsletter** sind, um diesen eine Willkommens-E-Mail mit einem Sonderangebots-Code zu senden.
 
 Der Workflow besteht aus folgenden Aktivitäten:
 
@@ -39,8 +39,8 @@ Der Workflow besteht aus folgenden Aktivitäten:
 
 * Ein [E-Mail-Versand. ](../../automating/using/email-delivery.md) Der Workflow wird einmal pro Woche ausgeführt, Sie haben jedoch die Möglichkeit, gesendete E-Mails sowie Ergebnisse pro Monat zu aggregieren, um so beispielsweise Berichte für einen ganzen Monat anstatt nur auf wöchentlicher Basis zu erzeugen.
 
-   Wählen Sie hierzu an dieser Stelle die Erstellung einer **[!UICONTROL E-Mail zum wiederkehrenden Versand]** aus, die E-Mails und Ergebnisse **[!UICONTROL Pro Monat]** zusammenfasst.
+   Wählen Sie hierzu an dieser Stelle die Erstellung einer **[!UICONTROL E-Mail zum wiederkehrenden Versand]** aus, die E-Mails und Ergebnisse **[!UICONTROL pro Monat]** zusammenfasst.
 
-   Definieren Sie den Inhalt Ihrer E-Mail und fügen Sie den Willkommenscode für ein Sonderangebot ein. Weitere Informationen hierzu finden Sie unter [Definieren von E-Mail-Inhalten](../../designing/using/personalization.md) .
+   Definieren Sie den Inhalt Ihrer E-Mail und fügen Sie den Willkommenscode für ein Sonderangebot ein. Weitere Informationen hierzu finden Sie in den Abschnitten zum [Definieren von E-Mail-Inhalten](../../designing/using/personalization.md).
 
 Starten Sie nun die Ausführung des Workflows. Jede Woche erhalten neue Abonnenten die Willkommens-E-Mail mit dem Sonderangebotscode.
