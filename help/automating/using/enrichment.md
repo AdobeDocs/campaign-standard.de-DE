@@ -12,11 +12,11 @@ discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,14 +33,14 @@ Die Aktivität **[!UICONTROL Anreicherung]** ist eine erweiterte Aktivität, mit
 
 Die Aktivität **[!UICONTROL Anreicherung]** wird im Allgemeinen im Anschluss an Zielgruppenbestimmungs- oder Dateiimportaktivitäten und vor Aktivitäten verwendet, die dem Zieldatenverbrauch dienen.
 
-Diese Aktivität verfügt über mehr erweiterte Anreicherungsfunktionen als die Aktivität **[!UICONTROL Abfrage]**. Manche einfache Anreicherungsvorgänge können direkt in der [Abfrage-Aktivität](../../automating/using/query.md#enriching-data) ausgeführt werden.
+Diese Aktivität verfügt über mehr erweiterte Anreicherungsfunktionen als die Aktivität **[!UICONTROL Abfrage]**. Manche einfache Anreicherungsvorgänge können direkt in der [Abfrageaktivität](../../automating/using/query.md#enriching-data) ausgeführt werden.
 
 Mit der Aktivität **[!UICONTROL Anreicherung]** können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen. Die Anreicherungsaktivität ermöglicht die Kombination von Daten aus mehreren Datensätzen oder die Erstellung von Relationen zu einer temporären Ressource.
 
 **Verwandte Themen**
 
-* [Verwendungsfall: Anreichern von Profil-Daten mit Daten in einer Datei](../../automating/using/enriching-profile-data-file.md).
-* [Verwendungsfall: Senden einer E-Mail mit erweiterten Feldern](../../automating/using/sending-email-enriched-fields.md)
+* [Anwendungsfall: Profildaten mit in einer Datei enthaltenen Daten anreichern](../../automating/using/enriching-profile-data-file.md).
+* [Anwendungsfall: E-Mail mit erweiterten Feldern senden](../../automating/using/sending-email-enriched-fields.md)
 
 ## Konfiguration {#configuration}
 
@@ -60,13 +60,13 @@ So konfigurieren Sie die Aktivität **[!UICONTROL Anreicherung]**:
    * **[!UICONTROL Kollektionsrelation mit Kardinalität N]**: 0, 1 oder mehr (N) Datensätze der verknüpften Menge können 1 Datensatz der Hauptmenge zugeordnet werden.
    * **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Datensätze der Hauptmenge können 0 oder maximal 1 Datensatz der verknüpften Menge zugeordnet werden.
 
-   Nachdem die **[!UICONTROL Kardinalität]** definiert ist, legen Sie ein **[!UICONTROL Abstimmkriterium]** fest. Der **[!UICONTROL Quellausdruck]** der Abstimmungskriterien kann ein Feld der Zielgruppen-Ressource, ein [Ausdruck](../../automating/using/advanced-expression-editing.md) oder ein in Anführungszeichen angegebener Wert sein.
+   Nachdem die **[!UICONTROL Kardinalität]** definiert ist, legen Sie ein **[!UICONTROL Abstimmkriterium]** fest. Der **[!UICONTROL Quellausdruck]** der Abstimmkriterien kann ein Feld der Zielgruppen-Ressource, ein [Ausdruck](../../automating/using/advanced-expression-editing.md) oder ein in Anführungszeichen angegebener Wert sein.
 
    Definieren Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL ID]**, die später im Workflow leicht wiedererkennbar sind.
 
    >[!NOTE]
    >
-   >Sie können nur Relationen zwischen der Hauptmenge und den anderen eingehenden Transitionen definieren, die mit der Aktivität **[!UICONTROL Anreicherung]** verknüpft sind. Verwenden Sie für einfachere Fälle, bei denen Relationen mit Datenbank-Ressourcen definiert werden sollen, die Aktivität [Abstimmung](../../automating/using/reconciliation.md).
+   >Sie können nur Relationen zwischen der Hauptmenge und den anderen eingehenden Transitionen definieren, die mit der Aktivität **[!UICONTROL Anreicherung]** verknüpft sind. Verwenden Sie für einfachere Fälle, bei denen Relationen mit Datenbankressourcen definiert werden sollen, die Aktivität [Abstimmung](../../automating/using/reconciliation.md).
 
 1. Definieren Sie die Zusatzdaten im Tab **[!UICONTROL Zusatzdaten]** der Aktivität. Sie können Zusatzdaten definieren (einfache Felder, Aggregate und Kollektionen), die mit der Zielgruppendimension der Hauptmenge verknüpft sind oder auf den Relationen basieren, die im Tab **[!UICONTROL Erweiterte Relationen]** der Aktivität **[!UICONTROL Anreicherung]** erstellt wurden.
 
