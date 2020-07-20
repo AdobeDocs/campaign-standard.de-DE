@@ -12,18 +12,18 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # Verbessern Ihrer Reputation{#improving-reputation}
 
-Löschen Sie Duplikat-E-Mail-Adressen aus Ihrer Zielgruppe, um zu vermeiden, dass Ihre Empfänger erschöpft sind. Dieser Schritt schützt Ihren Ruf und sorgt für eine gute Quarantäne. Adobe Campaign Angebot die erforderlichen Instrumente zur Umsetzung dieser Empfehlungen und vermeidet die Gefahr, dass sie einer blockierungsliste von den ISP hinzugefügt werden.
+Um zu vermeiden, dass sich Ihre Empfänger belästigt fühlen, löschen Sie doppelte E-Mail-Adressen aus Ihrer Zielgruppe. Dies sichert Ihre Reputation als Absender und ermöglicht eine ordnungsgemäße Quarantäneverwaltung. Adobe Campaign bietet die nötigen Werkzeuge zur Implementierung dieser Maßnahmen, was verhindert, dass Sie von Internetdienstanbietern (ISPs) auf eine Blockierungsliste gesetzt werden.
 
 Unten finden Sie Details zur Duplikaten- und Quarantäneverwaltung.
 
@@ -33,7 +33,7 @@ Das Vorhandensein doppelter E-Mail-Adressen kann unterschiedliche Konsequenzen h
 * Dieselbe Nachricht wird mehrfach gesendet. Selbst wenn Campaign vor dem Versand standardmäßig eine Deduplizierung vornimmt, kann die Nachricht durch unterschiedliche Aktionen dennoch mit demselben Inhalt gesendet werden, beispielsweise bei Verwendung einer Aufspaltung der Zielpopulation.
 * Abmeldungen werden missachtet. Wenn sich ein Empfänger nach dem Erhalt einer Nachricht abmeldet, können an sein dupliziertes Profil weiterhin Nachrichten gesendet werden.
 
-Abgesehen von dieser Nebenwirkung der Opt-in-Verfahren wird diese Situation die Nutzer dazu veranlassen, die Nachrichten als Spam zu betrachten und ein blockierungsliste-Verfahren beim ISP auszulösen.
+Von der Umgehung des Anmeldeverfahrens abgesehen, führt dies wahrscheinlich dazu, dass Benutzer diese Nachrichten als Spam betrachten und der ISP die Adresse auf die Blockierungsliste setzt.
 
 Bei der Bearbeitung der Datenbank muss besonders vorsichtig vorgegangen werden. Gehen Sie folgendermaßen vor, um Duplikate zu vermeiden:
 * **Importe müssen sorgfältig konfiguriert werden.** Das gilt besonders für die Wahl des Abstimmschlüssels.
