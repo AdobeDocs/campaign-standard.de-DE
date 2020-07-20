@@ -11,16 +11,16 @@ topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
-# Entwerfen und Senden von Nachrichten
+# Nachrichten entwerfen und senden
 
 <table>
 <tr>
@@ -41,37 +41,37 @@ ht-degree: 65%
     </td>
 </tr>
 <tr>
-<td>Entwerfen Ihrer Versände</td>
-<td>Versand erstellen</td>
-<td>Versand dynamisch gestalten</td>
-<td>Versand verfolgen und überwachen</td>
+<td>Sendungen entwerfen</td>
+<td>Sendungen erstellen</td>
+<td>Sendungen personalisieren und dynamisch gestalten</td>
+<td>Sendungen verfolgen und überwachen</td>
 <td>Berichte einrichten</td>
 </tr>
 </table>
 
-## Entwerfen Ihrer Versände
+## Sendungen entwerfen
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
 
-## Versand erstellen
+## Sendungen erstellen
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
 
-## Versand dynamisch gestalten
+## Sendungen personalisieren und dynamisch gestalten
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
@@ -88,13 +88,13 @@ Personalisierte Nachrichten sind wichtig, wenn Sie relevante Inhalte versenden, 
 
 ![](assets/delivery_content_43.png)
 
-**mehr dazu**
+**Mehr dazu**
 
 * E-Mail-Personalisierung anhand eines [Beispiels](../../designing/using/personalization.md#example-email-personalization) verstehen
 * [URLs personalisieren](../../designing/using/personalization.md#personalizing-urls)
-* [Einstellen der Personalisierung eines Bildes](../../designing/using/personalization.md#personalizing-an-image-source)
+* [Personalisierung eines Bildes einrichten](../../designing/using/personalization.md#personalizing-an-image-source)
 
-## Versand verfolgen und überwachen
+## Sendungen verfolgen und überwachen
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
@@ -109,7 +109,7 @@ Die Benutzeroberfläche für Kampagnenberichte vereinfacht die Erstellung von dy
 Mit Adobe Campaign können Sie jeden einzelnen Versand beobachten und verfolgen. Im Nachrichten-Dashboard werden spezielle Logs angezeigt, mit deren Hilfe Prozesse und Regeln verfolgt sowie mögliche Fehler und Warnhinweise erkannt werden können.
 
 
-**mehr dazu**
+**Mehr dazu**
 
 * [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)
 * [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md)
@@ -119,9 +119,9 @@ Mit Adobe Campaign können Sie jeden einzelnen Versand beobachten und verfolgen.
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
