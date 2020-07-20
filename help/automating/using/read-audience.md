@@ -12,11 +12,11 @@ discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,20 +27,20 @@ ht-degree: 93%
 
 ![](assets/prefill.png)
 
-Die Aktivität **[!UICONTROL Lesen der Audience]** ermöglicht es Ihnen, eine vorhandene Audience abzurufen und sie durch zusätzliche Filterbedingungen einzuengen.
+Die Aktivität **[!UICONTROL Audience lesen]** ermöglicht es Ihnen, eine vorhandene Audience abzurufen und sie durch zusätzliche Filterbedingungen einzuengen.
 
 ## Anwendungskontext {#context-of-use}
 
-Die Aktivität **[!UICONTROL Lesen der Audience]** ist eine einfachere Version der **[!UICONTROL Abfrage]**-Aktivität und eignet sich für Fälle, in denen Sie nur eine bestehende Audience auswählen müssen.
+Die Aktivität **[!UICONTROL Audience lesen]** ist eine einfachere Version der **[!UICONTROL Abfrage]**-Aktivität und eignet sich für Fälle, in denen Sie nur eine bestehende Audience auswählen müssen.
 
 **Verwandte Themen**
 
-* [Verwendungsfall: Vereinigung auf zwei raffinierten Audiencen](../../automating/using/union-on-two-refined-audiences.md)
-* [Verwendungsfall: Datei-Audience mit der Datenbank abgleichen](../../automating/using/reconcile-file-audience-with-database.md)
+* [Anwendungsfall: Vereinigung von zwei eingegrenzten Audiences](../../automating/using/union-on-two-refined-audiences.md)
+* [Anwendungsfall: Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}
 
-1. Ziehen Sie eine **[!UICONTROL Lesen der Audience]**-Aktivität in den Workflow-Arbeitsbereich.
+1. Ziehen Sie eine **[!UICONTROL Audience lesen]**-Aktivität in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Wählen Sie die Audience, die Sie abrufen möchten, im Tab **[!UICONTROL Eigenschaften]** aus.
 
