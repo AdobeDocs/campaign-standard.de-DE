@@ -11,11 +11,11 @@ topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Die nachstehende Tabelle enthält Informationen zu vordefinierten Filterregeln s
 | Titel | Kanal | Beschreibung |
 ---------|----------|---------
 | **[!UICONTROL Adresse nicht angegeben]** | Alle | Schließt die Zielpopulation ohne angegebene Adresse (E-Mail, Anschrift usw. je nach ausgewähltem Kanal) aus. |
-| **[!UICONTROL Auf die Blockierungsliste gesetzt-Adresse]** | Alle | Schließt Adressen aus, die sich auf der blockierungsliste befinden. |
+| **[!UICONTROL Auf die Blockierungsliste gesetzte Adresse]** | Alle | Schließt Adressen aus, die sich auf der Blockierungsliste befinden. |
 | **[!UICONTROL Dublette]** | Alle | Schließt Duplikate anhand des Felds **[!UICONTROL Adresse]** der Zielpopulation aus. |
 | **[!UICONTROL Mobile Apps ausschließen]** | Mobile App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen. |
 | **[!UICONTROL Mobile Apps für In-App ausschließen]** | In-App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen (In-App-Vorlage). |
@@ -47,13 +47,13 @@ Zusätzlich zu diesen standardmäßigen Filterregeln stehen zwei Ausschlussregel
 
 Während der E-Mail-Analyse vergleichen diese Regeln die E-Mail-Adressen der Empfänger mit den unzulässigen Adressen oder Domain-Namen aus einer verschlüsselten globalen Unterdrückungsliste, die in der Zustellbarkeitsinstanz verwaltet wird. Im Falle einer Übereinstimmung wird die Nachricht nicht an den jeweiligen Empfänger gesendet.
 
-Dadurch soll vermieden werden, der blockierungsliste durch bösartige Aktivität hinzugefügt zu werden, insbesondere durch den Einsatz eines Spamtraps. Wenn zum Beispiel ein Spamfilter verwendet wird, um über eines Ihrer Web-Formulare zu abonnieren, wird automatisch eine Bestätigungs-E-Mail an diesen Spamfilter gesendet, was dazu führt, dass Ihre Adresse automatisch zur blockierungsliste hinzugefügt wird.
+Auf diese Weise soll das Hinzufügen zur Blockierungsliste aufgrund von schädlichen Aktivitäten, insbesondere durch die Verwendung von Spamtraps, vermieden werden. Wenn beispielsweise für die Anmeldung über ein Web-Formular eine Spamtrap verwendet wird, wird automatisch eine Bestätigungs-E-Mail an diese Spamtrap gesendet. Als Folge davon wird Ihre Adresse automatisch auf die Blockierungsliste gesetzt.
 
 >[!NOTE]
 >
 >Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandanalyse-Logs wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
-## Filterregel erstellen   {#creating-a-filtering-rule}
+## Filterregel erstellen    {#creating-a-filtering-rule}
 
 Sie können entsprechend Ihren Anforderungen eigene Filterregeln erstellen. Sie können beispielsweise die Zielpopulation von Newslettern so filtern, dass Abonnenten unter 18 Jahren keine Nachricht erhalten.
 
@@ -95,7 +95,7 @@ Standardmäßig werden für die Filterung **[!UICONTROL Profile]** herangezogen.
 
 ![](assets/typology_rule-order_2.png)
 
-## Anwendbarkeit einer Filterregel einschränken  {#restricting-the-applicability-of-a-filtering-rule}
+## Anwendbarkeit einer Filterregel einschränken   {#restricting-the-applicability-of-a-filtering-rule}
 
 Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht einschränken.
 
