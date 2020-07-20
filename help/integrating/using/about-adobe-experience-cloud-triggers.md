@@ -12,18 +12,18 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Über Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}
 
-Durch die Integration von Adobe Campaign mit dem Experience Cloud Activation Core Service **[!UICONTROL Triggers]** können Sie Ihren Kunden personalisierte E-Mails senden, die auf bestimmte Verhaltensweisen abgestimmt sind, die auf Ihrer Webseite mithilfe von Adobe Analytics (innerhalb von 15 Minuten) ermittelt wurden.
+Durch die Integration von Adobe Campaign mit dem Experience Cloud Activation Core Service **[!UICONTROL Triggers]** können Sie Ihren Kunden personalisierte E-Mails senden, die auf bestimmte Verhaltensweisen abgestimmt sind, die auf Ihrer Website mithilfe von Adobe Analytics (innerhalb von 15 Minuten) ermittelt wurden.
 
 In Adobe Experience Cloud werden die verschiedenen Trigger definiert, also jene Verhaltensweisen von Kunden, die Sie verfolgen möchten. Dabei kann es sich beispielsweise um Kunden handeln, die ihren Besuch auf Ihrer Website abgebrochen haben, auf Ihrer Website gesucht, aber nichts gekauft haben oder sogar Kunden, deren Sitzung abgelaufen ist. Bei der Erstellung von Triggern bestimmen Sie die Trigger-Bedingung sowie die Daten, die im Falle der Auslösung des Ereignisses an Adobe Campaign gesendet werden (pload).
 
@@ -31,11 +31,11 @@ In Adobe Campaign werden der zuvor erstellte Trigger ausgewählt, die Ereignisda
 
 **Verwandte Themen:**
 
-* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zu Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
+* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zu Adobe Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/activation/triggers.html).
 * Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) an.
 * Erfahren Sie mehr in unseren zwei [Anwendungsbeispielen zur Abbruchsauslösung](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Die Verwendung von Triggern {#triggers-user-process}
+## Die Verwendung von Triggern  {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -51,7 +51,7 @@ Gehen Sie in Adobe Campaign wie folgt vor:
 
 Vollständige Anwendungsbeispiele werden in [diesem Abschnitt](../../integrating/using/abandonment-triggers-use-cases.md) erläutert.
 
-## Wichtige Hinweise {#important-notes}
+## Wichtige Hinweise  {#important-notes}
 
 Beachten Sie bei der Verwendung der Triggers-Campaign-Integration Folgendes:
 
