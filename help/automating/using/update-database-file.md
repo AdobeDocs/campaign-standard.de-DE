@@ -1,6 +1,6 @@
 ---
-title: Aktualisieren der Datenbank mit externen Daten
-description: In diesem Verwendungsfall wird beschrieben, wie Sie der Adobe Campaign-Datenbank Profile mit den aus der Datei wiederhergestellten Daten hinzufügen oder aktualisieren.
+title: Datenbank mit externen Daten aktualisieren
+description: In diesem Anwendungsfall wird gezeigt, wie Sie Profile zur Adobe Campaign-Datenbank hinzufügen oder aktualisieren, wobei die Daten aus der Datei abgerufen werden.
 page-status-flag: never-activated
 uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
 contentOwner: sauviat
@@ -12,20 +12,20 @@ discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
-# Aktualisieren der Datenbank mit externen Daten {#update-database-file}
+# Datenbank mit externen Daten aktualisieren {#update-database-file}
 
-The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. Ziel ist die Anreicherung der Adobe-Campaign-Datenbank mit neuen Profilen und gegebenenfalls die Aktualisierung existierender Profile mit den in der importierten Datei enthaltenen Daten.
+Im folgenden Beispiel wird die Konfiguration eines **[!UICONTROL Daten-Updates]** im Anschluss an eine **[!UICONTROL Datei laden]**-Aktivität dargestellt. Ziel ist die Anreicherung der Adobe-Campaign-Datenbank mit neuen Profilen und gegebenenfalls die Aktualisierung existierender Profile mit den in der importierten Datei enthaltenen Daten.
 
-In diesem Beispiel wird als Abstimmschlüssel die **E-Mail-Adresse** verwendet. Die in der Aktivität [Datei](../../automating/using/load-file.md) laden geladene Datei ist eine **.txt** -Formatdatei mit den folgenden Beispieldaten:
+In diesem Beispiel wird die **E-Mail-Adresse** als Abstimmschlüssel verwendet. Die in der Aktivität [Datei laden](../../automating/using/load-file.md) geladene Datei ist eine **.txt** -Formatdatei mit den folgenden Beispieldaten:
 
 ```
 lastname;firstname;email;birthdate
@@ -40,7 +40,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-Das [Daten-Update](../../automating/using/update-data.md) wurde wie folgt konfiguriert:
+Die Aktivität [Daten-Update](../../automating/using/update-data.md) wurde wie folgt konfiguriert:
 
 ![](assets/deduplication_example2_writer1.png)
 
