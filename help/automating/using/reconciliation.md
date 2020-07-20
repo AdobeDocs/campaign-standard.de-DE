@@ -12,11 +12,11 @@ discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Mithilfe der Aktivität **[!UICONTROL Abstimmung]** lässt sich eine Verbindung 
 
 ## Anwendungskontext {#context-of-use}
 
-Die Aktivität **[!UICONTROL Abstimmung]** dient hauptsächlich der Datenverwaltung und wird zwei bestimmten Anwendungskontexten gerecht:
+Die Aktivität **[!UICONTROL Abstimmung]** dient hauptsächlich der Datenverwaltung und wird in zwei unterschiedlichen Anwendungsfällen verwendet:
 
 * Hinzufügung von Relationen: Mithilfe des **[!UICONTROL Relationen]**-Tabs lassen sich Beziehungen zwischen eingehenden Daten und mehreren Dimensionen der Adobe-Campaign-Datenbank hinzufügen.
 
@@ -51,9 +51,9 @@ Die Aktivität **[!UICONTROL Abstimmung]** kann beispielsweise auf eine Datenlad
 
 **Verwandte Themen:**
 
-* [Verwendungsfall: Datenversöhnung mithilfe von Beziehungen](../../automating/using/reconciliation-using-relations.md)
-* [Verwendungsfall: Datenaktualisierung mit Abgleich](../../automating/using/data-update-reconciliation.md)
-* [Verwendungsfall: Datei-Audience mit der Datenbank abgleichen](../../automating/using/reconcile-file-audience-with-database.md)
+* [Anwendungsfall: Datenabstimmung mithilfe von Relationen](../../automating/using/reconciliation-using-relations.md)
+* [Anwendungsfall: Datenaktualisierung mittels Abstimmung](../../automating/using/data-update-reconciliation.md)
+* [Anwendungsfall: Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}
 
@@ -69,7 +69,7 @@ Die Aktivität **[!UICONTROL Abstimmung]** kann beispielsweise auf eine Datenlad
 
    Fügen Sie Abstimmkriterien hinzu, mithilfe derer ein Datensatz der eingehenden Transition einem Datensatz der ausgewählten Zielgruppendimension zugeordnet werden kann. Bei mehreren Abstimmkriterien müssen alle erfüllt sein, damit eine Zuordnung der Daten möglich ist.
 
-   Wählen Sie den **[!UICONTROL Umgang mit nicht identifizierten Quellzeilen]** aus:
+   Wählen Sie den **[!UICONTROL Umgang mit nicht-identifizierten Quellzeilen]** aus:
 
    * **[!UICONTROL Ignorieren]**: Nur die identifizierbaren Daten werden in der ausgehenden Transition beibehalten.
    * **[!UICONTROL In die Ausgabepopulation einschließen]**: Alle Daten der eingehenden Transition werden in der ausgehenden Transition beibehalten.
