@@ -1,6 +1,6 @@
 ---
-title: Segmentierung am Ort"
-description: Dieser Verwendungsfall zeigt, wie eine Segmentierung am Standort durchgeführt wird.
+title: Segmentierung am Standort
+description: Dieser Anwendungsfall zeigt, wie man eine Segmentierung am Standort durchgeführt.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Hinweis: Um auch alle Personen auszuwählen, die &quot;boston&quot; eingegeben h
 
 ## E-Mail-Versand erstellen{#creating-an-email-delivery}.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after each segment.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Kanäle]** hinter jedes Segment die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md).
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
 1. Wählen Sie **[!UICONTROL Einfache E-Mail]** und danach **[!UICONTROL Weiter]** aus.
 1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.
