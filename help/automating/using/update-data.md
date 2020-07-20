@@ -12,11 +12,11 @@ discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
 
 **Verwandte Themen:**
 
-* [Verwendungsfall: Aktualisieren von Daten basierend auf einer Datei](../../automating/using/update-database-file.md)
-* [Aktualisieren von Daten auf der Grundlage eines automatischen Dateidownloads](../../automating/using/update-data-automatic-download.md)
+* [Anwendungsfall: Daten basierend auf einer Datei aktualisieren](../../automating/using/update-database-file.md)
+* [Daten basierend auf einem automatischen Datei-Download aktualisieren](../../automating/using/update-data-automatic-download.md)
 
 ## Konfiguration {#configuration}
 
@@ -44,13 +44,13 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Geben Sie im Feld **[!UICONTROL Aktionstyp]** an, auf welche Weise die Daten aktualisiert werden sollen:
 
-   * **[!UICONTROL Hinzufügen oder aktualisieren]** - fügt neue Daten zur Datenbank hinzu oder aktualisiert existierende Datensätze.
-   * **[!UICONTROL Nur hinzufügen]** - fügt nur neue Daten hinzu, existierende Datensätze werden nicht verändert. Wenn Abstimmkriterien definiert wurden, werden nur nicht abgestimmte Datensätze hinzugefügt.
+   * **[!UICONTROL Hinzufügen oder aktualisieren]** – fügt neue Daten zur Datenbank hinzu oder aktualisiert existierende Datensätze.
+   * **[!UICONTROL Nur hinzufügen]** – fügt nur neue Daten hinzu, existierende Datensätze werden nicht verändert. Wenn Abstimmkriterien definiert wurden, werden nur nicht abgestimmte Datensätze hinzugefügt.
 
       Kreuzen Sie die Option **[!UICONTROL Ausgehende Transition für Zurückweisungen erzeugen]** an, wenn die importierten Daten bestimmte, bereits in der Datenbank vorhandene Datensätze enthalten, um Fehler zu vermeiden.
 
-   * **[!UICONTROL Aktualisieren]** - aktualisiert Daten existierender Datensätze, fügt keine neuen Datensätze hinzu.
-   * **[!UICONTROL Löschen]** - löscht in der Datenbank existierende Daten.
+   * **[!UICONTROL Aktualisieren]** – aktualisiert Daten existierender Datensätze, fügt keine neuen Datensätze hinzu.
+   * **[!UICONTROL Löschen]** – löscht in der Datenbank existierende Daten.
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
 1. Geben Sie im Tab **[!UICONTROL Identifizierung]** an, auf welche Weise die Datensätze der Datenbank erkannt werden können:
 
    * **[!UICONTROL Über Abstimmschlüssel]**. Wählen Sie die **[!UICONTROL Zu aktualisierende Dimension]** aus und definieren Sie die **[!UICONTROL Schlüssel, die das Auffinden der Datensätze ermöglichen]**. Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Über die Zielgruppendimension]**, wenn die eingehenden Daten einer existierenden Zielgruppendimension entsprechen. Wählen Sie die **[!UICONTROL Zu aktualisierende Dimension aus]**.
+   * Verwenden Sie die Option **[!UICONTROL Über eine oder mehrere Relationen]**, wenn die eingehenden Daten einer existierenden Zielgruppendimension entsprechen. Wählen Sie die **[!UICONTROL Zu aktualisierende Dimension aus]**.
 
    Wenn eine Aktualisierung durchgeführt werden soll, ist die Verwendung von Abstimmschlüsseln zwingend erforderlich.
 
