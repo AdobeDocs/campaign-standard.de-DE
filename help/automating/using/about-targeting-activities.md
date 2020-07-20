@@ -11,18 +11,18 @@ topic-tags: targeting-activities
 discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Über Zielgruppenbestimmungsaktivitäten{#about-targeting-activities}
 
-Öffnen Sie vom Menü auf der linken Bildschirmseite den Bereich **[!UICONTROL Zielgruppenbestimmung]**.
+Öffnen Sie über das auf der linken Bildschirmseite den Bereich **[!UICONTROL Zielgruppenbestimmung]**.
 
 Diese Aktivitäten dienen der Erstellung von Zielgruppen und der Verwendung bzw. Filterung von Populationen. Sie können damit eine oder mehrere Zielpopulationen definieren, welche im Anschluss durch die Aktivitäten Schnittmenge, Vereinigung und Ausschluss gesplittet oder zusammengefasst werden können.
 
@@ -58,7 +58,7 @@ Adobe Campaign bietet die Möglichkeit, eingehende Daten zusammenzufassen oder a
 * Eine **[!UICONTROL Vereinigung]** dient der Zusammenfassung der Ergebnisse mehrerer Aktivitäten in einer Zielgruppe. Siehe den Abschnitt [Vereinigung](../../automating/using/union.md).
 * Eine **[!UICONTROL Schnittmenge]** dient der Extraktion der gemeinsamen Population aus den eingehenden Aktivitäten. Siehe den Abschnitt [Schnittmenge](../../automating/using/intersection.md).
 * Ein **[!UICONTROL Ausschluss]** ermöglicht es, bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen. Siehe den Abschnitt [Ausschluss](../../automating/using/exclusion.md).
-* Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Aktivitäten berechneten Population ausgehend ein oder mehrere Segment(e) erstellen. Diese können bei Abschluss der Aktivität in einer einzigen oder verschiedenen Transition(en) verarbeitet werden. Siehe den Abschnitt [Segmentierung](../../automating/using/segmentation.md).
+* Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Aktivitäten berechneten Population ausgehend ein oder mehrere Segmente erstellen. Diese können bei Abschluss der Aktivität in einer einzigen oder verschiedenen Transition(en) verarbeitet werden. Siehe den Abschnitt [Segmentierung](../../automating/using/segmentation.md).
 
 ## Daten anreichern {#enriching-data}
 
@@ -72,4 +72,4 @@ Mithilfe des Tabs **[!UICONTROL Zusatzdaten]** der Aktivitäten **[!UICONTROL Ab
 
 **Verwandte Themen:**
 
-* [Verwendungsfall: Personalisieren einer E-Mail mit zusätzlichen Daten](../../automating/using/personalizing-email-with-additional-data.md)
+* [Anwendungsfall: E-Mail mit Zusatzdaten personalisieren](../../automating/using/personalizing-email-with-additional-data.md)
