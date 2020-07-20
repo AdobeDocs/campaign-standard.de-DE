@@ -1,6 +1,6 @@
 ---
-title: Exportieren von Profilen in einer externen Datei
-description: Dieser Verwendungsfall zeigt, wie eine Liste von Profilen in Form einer externen Datei exportiert wird, damit die Daten außerhalb von Adobe Campaign verwendet werden können.
+title: Profile in eine externe Datei exportieren
+description: In diesem Anwendungsfall wird gezeigt, wie man eine Profilliste in eine externe Datei exportiert, um die Daten außerhalb von Adobe Campaign verwenden zu können.
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-# Exportieren von Profilen in einer externen Datei {#exporting-profiles-external-file}
+# Profile in eine externe Datei exportieren {#exporting-profiles-external-file}
 
 Im folgenden Beispiel wird die Konfiguration einer auf eine **[!UICONTROL Abfrage]** folgenden **[!UICONTROL Dateiextraktion]** erläutert.
 
@@ -31,7 +31,7 @@ Ziel dieses Workflows ist es, eine Profilliste in eine externe Datei zu exportie
 
    Im vorliegenden Beispiel werden alle Profile im Alter von 18 bis 30 Jahren aus der Datenbank abgefragt.
 
-1. Open the **[!UICONTROL Extract file]** activity to edit it.
+1. Öffnen Sie die Aktivität **[!UICONTROL Dateiextraktion]**, um sie zu konfigurieren.
 1. Benennen Sie die Ausgabedatei.
 1. Fügen Sie die gewünschten Ausgabespalten hinzu.
 
@@ -50,7 +50,7 @@ Ziel dieses Workflows ist es, eine Profilliste in eine externe Datei zu exportie
       ![](assets/wkf_data_export9.png)
 
 1. Validieren Sie die Aktivität.
-1. Platzieren Sie nun im Anschluss an die [Dateiextraktion](../../automating/using/transfer-file.md) eine **[!UICONTROL Dateiübertragung]**, um die Extraktionsdatei mittels eines externen Kontos abrufen zu können.
+1. Platzieren Sie nun im Anschluss an die **[!UICONTROL Dateiextraktion]** eine [Dateiübertragung](../../automating/using/transfer-file.md), um die Extraktionsdatei mittels eines externen Kontos abrufen zu können.
 1. Öffnen Sie die Aktivität und wählen Sie die Aktion **[!UICONTROL Datei-Upload]** aus.
 
    ![](assets/wkf_data_export11.png)
