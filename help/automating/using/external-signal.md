@@ -12,11 +12,11 @@ discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16afc307df6902584624d6457954a472b11c5129
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ Beachten Sie, dass die Aktivität **[!UICONTROL Externes Signal]** von mehreren 
 
 **Verwandte Themen**
 
-* [Verwendungsfall: Aktivität externer Signale und Datenimport](../../automating/using/external-signal-data-import.md).
-* [Verwendungsfall: Aufrufen eines Workflows zum Erstellen einer Audience aus einer Datei mithilfe externer Parameter](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [Anwendungsfall: Aktivität &quot;Externes Signal&quot; und Datenimport](../../automating/using/external-signal-data-import.md)
+* [Anwendungsfall: Aufruf eines Workflows zum Erstellen einer Audience aus einer Datei mit externen Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
 
 ## Konfiguration {#configuration}
 
