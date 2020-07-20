@@ -1,6 +1,6 @@
 ---
-title: Datei-Audience mit der Datenbank abgleichen
-description: In diesem Beispiel wird gezeigt, wie die Aktivität Lesen der Audience verwendet werden kann, um eine direkt von einem Dateiimport erstellte Audience abzustimmen.
+title: Eine Audience vom Typ "Datei" mit der Datenbank abstimmen
+description: In diesem Beispiel wird gezeigt, wie die Aktivität "Audience lesen" verwendet werden kann, um eine direkt über einen Dateiimport erstellte Audience abzustimmen.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
 contentOwner: sauviat
@@ -12,18 +12,18 @@ discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Reconcile a File audience with the database {#example--reconcile-a-file-audience-with-the-database}
+# Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen {#example--reconcile-a-file-audience-with-the-database}
 
-In diesem Beispiel wird gezeigt, wie die Aktivität **[!UICONTROL Lesen der Audience]** verwendet werden kann, um eine direkt von einem Dateiimport erstellte Audience abzustimmen.
+In diesem Beispiel wird gezeigt, wie die Aktivität **[!UICONTROL Audience lesen]** verwendet werden kann, um eine direkt von einem Dateiimport erstellte Audience abzustimmen.
 
 Wenn Sie eine Datei importieren, können Sie ihren Inhalt direkt in einer Audience speichern. Diese Audience ist eine Audience des Typs Datei und mit keiner Datenbank-Ressource verknüpft.
 
@@ -55,6 +55,6 @@ Der Abstimmungs-Workflow läuft folgendermaßen ab:
 
 ![](assets/readaudience_activity_example2.png)
 
-* Mit der Aktivität [Lesen der Audience](../../automating/using/read-audience.md) wird die im Import-Workflow erstellte Datei-Audience hochgeladen. Die Audience-Daten wurden noch nicht mit der Adobe-Campaign-Datenbank abgestimmt.
+* Mit der Aktivität [Audience lesen](../../automating/using/read-audience.md) wird die im Import-Workflow erstellte Datei-Audience hochgeladen. Die Audience-Daten wurden noch nicht mit der Adobe-Campaign-Datenbank abgestimmt.
 * In der Aktivität [Abstimmung](../../automating/using/reconciliation.md) werden die eingehenden Daten im Tab **[!UICONTROL Identifizierung]** als Profile identifiziert. Beispielsweise kann das **E-Mail**-Feld als Abstimmungskriterium verwendet werden.
 * Durch die Aktivität [Daten-Update](../../automating/using/update-data.md) werden die eingehenden Daten eingefügt und die Profil-Ressource der Datenbank entsprechend aktualisiert. Da die Daten bereits als Profile identifiziert wurden, können Sie die Option **[!UICONTROL Über die Zielgruppendimension]** und danach **[!UICONTROL Profile]** im Tab **[!UICONTROL Identifizierung]** der Aktivität auswählen. Fügen Sie danach einfach die Liste der Felder hinzu, die im jeweiligen Tab zu aktualisieren sind.
