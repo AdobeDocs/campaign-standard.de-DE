@@ -11,11 +11,11 @@ topic-tags: managing-profiles
 discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4575c1152f1a33ff18b2200151346cc6e56b45fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Die Profile, die während der Versandvorbereitung ausgeschlossen wurden (Typolog
 
 ![](assets/audience_active_profiles2.png)
 
-Wenn Sie auf AWS gehostet werden und Campaign Standard aus Build 10368 verwenden, können Sie auch die Anzahl der aktiven Profil, die auf Ihren Instanzen verwendet werden, direkt über die Systemsteuerung überwachen. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+Wenn Sie auf AWS gehostet werden und Campaign Standard aus Build 10368 verwenden, können Sie die Anzahl der in Ihren Instanzen verwendeten aktiven Profile auch direkt im Control Panel überwachen. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
