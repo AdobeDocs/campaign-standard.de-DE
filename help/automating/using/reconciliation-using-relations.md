@@ -1,5 +1,5 @@
 ---
-title: Datenversöhnung mithilfe von Beziehungen
+title: Datenabstimmung mithilfe von Relationen
 description: Das folgende Beispiel zeigt einen Workflow zur Aktualisierung der Datenbankdaten anhand von in einer Datei enthaltenen, den Verkauf betreffenden Daten.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
@@ -12,16 +12,16 @@ discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Datenversöhnung mithilfe von Beziehungen {#reconciliation-relations}
+# Datenabstimmung mithilfe von Relationen {#reconciliation-relations}
 
 Das folgende Beispiel zeigt einen Workflow zur Aktualisierung der Datenbankdaten anhand von in einer Datei enthaltenen, den Verkauf betreffenden Daten. Die Verkaufsinformationen enthalten Daten, die Elemente anderer Dimensionen wie z. B. die E-Mail von Kunden oder Artikelnummern referenzieren.
 
@@ -63,7 +63,7 @@ Der Workflow besteht aus folgenden Aktivitäten:
 
 * [Daten-Update](../../automating/using/update-data.md) zur Bestimmung der anhand der importierten Daten zu aktualisierenden Datenbankfelder. Da die Daten in der vorangehenden Aktivität bereits als der Dimension **Transaktionen** zugehörig identifiziert wurden, besteht nun hier die Möglichkeit der direkten Verwendung der Identifizierungsoption **[!UICONTROL Über die Zielgruppendimension]**.
 
-   Bei der Verwendung der Option zur automatischen Erkennung der zu aktualisierenden Felder werden die in der vorangehenden Aktivität konfigurierten Relationen (zu Profilen und Artikeln) der Liste **[!UICONTROL Zu aktualisierende Felder hinzugefügt]**. Dabei müssen Sie sich außerdem vergewissern, dass die den jeweiligen Transaktionsdaten entsprechenden Felder korrekt zu dieser Liste hinzugefügt werden.
+   Bei der Verwendung der Option zur automatischen Erkennung der zu aktualisierenden Felder werden die in der vorangehenden Aktivität konfigurierten Relationen (zu Profilen und Artikeln) der Liste **[!UICONTROL Zu aktualisierende Felder]** hinzugefügt. Dabei müssen Sie sich außerdem vergewissern, dass die den jeweiligen Transaktionsdaten entsprechenden Felder korrekt zu dieser Liste hinzugefügt werden.
 
    ![](assets/reconciliation_example5.png)
 
