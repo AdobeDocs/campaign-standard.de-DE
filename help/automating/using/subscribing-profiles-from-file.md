@@ -1,6 +1,6 @@
 ---
-title: Abonnieren von Profilen einer Datei zu einem bestimmten Dienst
-description: In diesem Verwendungsfall wird gezeigt, wie Sie eine Datei mit Profilen importieren und diese bei einem vorhandenen Dienst abonnieren können.
+title: Profile aus einer Datei für einen bestimmten Dienst anmelden
+description: In diesem Anwendungsfall wird dargestellt, wie man eine Datei mit Profilen importiert, um diese für einen existierenden Dienst anzumelden.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 In diesem Beispiel wird dargestellt, wie man eine Datei mit Profilen importiert, um diese für einen existierenden Dienst anzumelden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile identifiziert werden können. Um sicherzustellen, dass sich keine Dubletten in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
 
