@@ -12,11 +12,11 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3a668860659e40645ce3e4aab879cae5ad90083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 82%
 
 In diesen Anwendungsfällen wird erläutert, wie eine Ressource verwendet werden kann, die sich von der Zielgruppendimension unterscheidet, um beispielsweise nach einem bestimmten Datensatz in einer entfernten Tabelle zu suchen.
 
-For more on targeting dimensions and resources, refer to [this section](../../automating/using/query.md#targeting-dimensions-and-resources)
+Weiterführende Informationen zu Zielgruppendimensionen und Ressourcen finden Sie in [diesem Abschnitt](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Beispiel 1: Sie möchten Profile identifizieren, die im Versand mit dem Titel „Willkommen zurück!“ enthalten waren**.
 
