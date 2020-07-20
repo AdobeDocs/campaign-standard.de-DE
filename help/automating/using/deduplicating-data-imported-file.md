@@ -1,5 +1,5 @@
 ---
-title: Deduplizieren der Daten aus einer importierten Datei
+title: Daten einer importierten Datei deduplizieren
 description: In diesem Beispiel wird gezeigt, wie sich Daten einer importierten Datei vor dem Laden in die Datenbank deduplizieren lassen.
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
@@ -12,16 +12,16 @@ discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Deduplicating the data from an imported file {#deduplicating-the-data-from-an-imported-file}
+# Daten einer importierten Datei deduplizieren {#deduplicating-the-data-from-an-imported-file}
 
 In diesem Beispiel wird gezeigt, wie sich Daten einer importierten Datei vor dem Laden in die Datenbank deduplizieren lassen. Mithilfe dieses Prozesses lässt sich die Qualität der in die Datenbank geladenen Daten verbessern.
 
@@ -45,19 +45,19 @@ Der Workflow setzt sich folgendermaßen zusammen:
    Ross;Timothy;04/07/1986;timross@example.com
    ```
 
-   Diese Datei kann außerdem als Beispieldatei zur Erkennung und Definition des Spaltenformats dienen. Prüfen Sie im **[!UICONTROL Spaltendefinition]**-Tab, ob jede Spalte der importierten Datei korrekt konfiguriert ist.
+   Diese Datei kann außerdem als Beispieldatei zur Erkennung und Definition des Spaltenformats dienen. Prüfen Sie im Tab **[!UICONTROL Spaltendefinition]**, ob jede Spalte der importierten Datei korrekt konfiguriert ist.
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* [Deduplizierung](../../automating/using/deduplication.md)-Aktivität. Die Deduplizierung erfolgt direkt nach dem Dateiimport und vor der Einfügung der Daten in die Datenbank. Man muss sich folglich auf die aus der **[!UICONTROL Datei-laden]**-Aktivität hervorgehende **[!UICONTROL Temporäre Ressource]** stützen.
+* Aktivität [Deduplizierung](../../automating/using/deduplication.md). Die Deduplizierung erfolgt direkt nach dem Dateiimport und vor der Einfügung der Daten in die Datenbank. Sie basiert folglich auf der von der **[!UICONTROL Datei-laden]**-Aktivität erzeugten **[!UICONTROL temporären Ressource]**.
 
    Im vorliegenden Beispiel soll pro in der Datei enthaltener E-Mail-Adresse ausschließlich ein Eintrag beibehalten werden. Die Identifizierung der Dubletten erfolgt also mittels der Spalte **email** der temporären Ressource. Nun tauchen zwei E-Mail-Adressen aber jeweils zweimal in der Datei auf. Zwei Zeilen werden also als Dubletten angesehen.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* [Daten-Update](../../automating/using/update-data.md)-Aktivität zur Einfügung der nach der Deduplizierung beibehaltenen Daten in die Datenbank. Die importierten Daten werden erst zum Zeitpunkt des Daten-Updates als der Profildimension zugehörig identifiziert.
+* Die Aktivität [Daten-Update](../../automating/using/update-data.md) ermöglicht die Einfügung der nach der Deduplizierung beibehaltenen Daten in die Datenbank. Die importierten Daten werden erst zum Zeitpunkt des Daten-Updates als der Profildimension zugehörig identifiziert.
 
-   Als Aktionstyp wurde im vorliegenden Beispiel **[!UICONTROL Nur hinzufügen]** gewählt, um noch nicht vorhandene Profile in die Datenbank aufzunehmen. Als Abstimmschlüssel werden dabei die &#39;email&#39;-Spalte der Datei und das E-Mail-Feld der **Profil**-Dimension verwendet.
+   Als Aktionstyp wurde im vorliegenden Beispiel **[!UICONTROL Nur hinzufügen]** gewählt, um noch nicht vorhandene Profile in die Datenbank aufzunehmen. Als Abstimmschlüssel werden dabei die E-Mail-Spalte der Datei und das E-Mail-Feld der **Profil**-Dimension verwendet.
 
    ![](assets/deduplication_example2_writer1.png)
 
