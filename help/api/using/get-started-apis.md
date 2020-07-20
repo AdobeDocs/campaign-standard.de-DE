@@ -11,16 +11,16 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Get started with Campaign Standard APIs {#get-started-apis}
+# Erste Schritte mit Campaign Standard-APIs {#get-started-apis}
 
 Mit Campaign Standard-APIs können Sie **Integrationen** für Adobe Campaign Standard erstellen und **Ihr eigenes Ökosystem einrichten**, indem Sie Adobe Campaign Standard mit den von Ihnen verwendeten Technologien verbinden.
 
