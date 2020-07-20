@@ -12,18 +12,18 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Ausführung des Workflows überwachen {#monitoring}
 
-## Arbeitsablaufprotokoll und Aufgaben {#workflow-log-and-tasks}
+## Workflow-Protokoll und -Aufgaben {#workflow-log-and-tasks}
 
 Über die Schaltfläche ![](assets/printpreview_darkgrey-24px.png) können Sie auf das Protokoll und die Aufgaben des Workflows zugreifen.
 
@@ -43,7 +43,7 @@ In beiden Listen:
 * ermöglicht die Schaltfläche **[!UICONTROL Liste konfigurieren]** die Auswahl der anzuzeigenden Informationen, die Bestimmung der Spaltenreihenfolge sowie die Sortierung der Liste.
 * Mithilfe von Filtern können Sie Informationen schneller auffinden. Über das Suchfeld können Sie nach einem bestimmten Text in den Namen der Workflow-Aktivitäten (Beispiel: &quot;Abfrage&quot;) und Protokollen suchen.
 
-## Umgang mit Fehlern     {#error-management}
+## Umgang mit Fehlern      {#error-management}
 
 Wenn ein Fehler auftritt, wird der Workflow ausgesetzt und die bei Fehlerauftritt ausgeführte Aktivität blinkt rot.
 
@@ -57,7 +57,7 @@ In diesem Fall wird die fehlerhafte Aufgabe abgebrochen. Dieser Modus ist insbes
 >
 >Es besteht die Möglichkeit, diese Vorgehensweise innerhalb eines Workflows nur für bestimmte Aktivitäten zu konfigurieren. Wählen Sie hierzu die gewünschte Aktivität aus, öffnen Sie sie mithilfe des Schnellzugriffs ![](assets/edit_darkgrey-24px.png) und wählen Sie im Bereich **Ausführungsoptionen** den gewünschten Umgang mit Fehlern aus. Siehe [Ausführungsoptionen von Aktivitäten](../../automating/using/activity-properties.md).
 
-In the [workflow&#39;s properties](../../automating/using/managing-execution-options.md), additional options related to error management are available.
+In den [Eigenschaften des Workflows](../../automating/using/managing-execution-options.md) stehen zusätzliche Optionen zur Verwaltung von Fehlern zur Verfügung.
 
 ![](assets/wkf_execution_error.png)
 
