@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,6 +39,7 @@ In diesem Beispiel wird gezeigt, wie ein Workflow für den wiederholten Import v
    * **[!UICONTROL Segmentierung]**: Erstellen Sie Filter, um Datensätze, die abgestimmt werden konnten, und jene, die nicht abgestimmt werden konnten, unterschiedlich zu verarbeiten.
    * **[!UICONTROL Deduplizierung]**: Deduplizieren Sie die Daten aus der eingehenden Datei, bevor sie zur Datenbank hinzugefügt werden.
    * **[!UICONTROL Daten-Update]**: Aktualisieren Sie die Datenbank mit den importierten Profilen.
+
    ![](assets/import_template_example0.png)
 
 1. Konfigurieren Sie die Aktivität **[!UICONTROL Datei laden]**:
@@ -62,6 +63,7 @@ In diesem Beispiel wird gezeigt, wie ein Workflow für den wiederholten Import v
 
    * Wählen Sie im Tab **[!UICONTROL Relationen]** die Option **[!UICONTROL Element erstellen]** und definieren Sie eine Verknüpfung zwischen den importierten Daten und der Zielgruppendimension der Empfänger (siehe [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources)). In unserem Beispiel wird diese Join-Bedingung mithilfe des benutzerdefinierten Feldes **Kennung im CRM** erstellt. Verwenden Sie das erforderliche Feld oder eine Kombination von Feldern, um eindeutige Datensätze zu identifizieren.
    * Lassen Sie im Tab **[!UICONTROL Identifizierung]** die Option **[!UICONTROL Dokument zur Zielgruppenbestimmung aufgrund der Arbeitsdaten identifizieren]** deaktiviert.
+
    ![](assets/import_template_example2.png)
 
 1. Konfigurieren Sie die Aktivität **[!UICONTROL Segmentierung]**, um abgestimmte Empfänger in einer Transition abzurufen und Empfänger, die nicht abgestimmt werden konnten, aber genügend Daten enthalten, in einer anderen Transition abzurufen.
@@ -105,6 +107,7 @@ In diesem Beispiel wird gezeigt, wie ein Workflow für den wiederholten Import v
 
    * In diesem Beispiel wird das E-Mail-Feld zum Ermitteln eindeutiger Profile verwendet. Sie können aber auch jedes andere Feld verwenden, das ausgefüllt und Teil einer eindeutigen Kombination ist.
    * Wählen Sie eine **[!UICONTROL Deduplizierungsmethode aus]**. In diesem Fall wird von der Anwendung automatisch festgelegt, welche Datensätze im Fall von Duplikaten behalten werden.
+
    ![](assets/import_template_example7.png)
 
 1. Konfigurieren Sie die Aktivität **[!UICONTROL Daten-Update]**, die auf die zuvor konfigurierte Aktivität **[!UICONTROL Deduplizierung]** folgt.
