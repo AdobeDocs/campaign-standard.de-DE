@@ -11,16 +11,16 @@ topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Arbeiten mit Profilen und Audiencen
+# Arbeiten mit Profilen und Audiences
 
 <table>
 <tr>
@@ -38,25 +38,25 @@ ht-degree: 96%
     </td>
 </tr>
 <tr>
-<td>Profile von Kunden</td>
-<td>Datenbank erweitern</td>
-<td>Audiencen organisieren</td>
+<td>Kundenprofile</td>
+<td>Datenbank anreichern</td>
+<td>Audiences organisieren</td>
 <td>Datenschutzverwaltung</td>
 </tr>
 </table>
 
-## Profile von Kunden {#customer-profiles}
+## Kundenprofile {#customer-profiles}
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
 Die Adobe-Campaign-Profile stellen die Gesamtheit an in der Datenbank gespeicherten Kontakten dar. Jedes Profil entspricht einem Datensatz in der Datenbank, welcher alle nötigen Informationen zu seiner Qualifizierung, Verwendung in Zielgruppen und zum Tracking enthält. Bei einem Profil kann es sich also - je nach in der Organisation verwendeten Bezeichnungen - um Kunden, Interessenten, Newsletter-Abonnenten, Empfänger, Benutzer etc. handeln.
 
-**mehr dazu**
+**Mehr dazu**
 
 * [Über Profile](../../audiences/using/about-profiles.md)
-* [Zugriff auf die Anzahl der aktiven Profil in Ihrem Unternehmen](../../audiences/using/active-profiles.md)
+* [Anzahl der aktiven Profile in Ihrem Unternehmen aufrufen](../../audiences/using/active-profiles.md)
 
-## Datenbank erweitern {#populating-database}
+## Datenbank anreichern {#populating-database}
 
 <img width="60px" alt="Bedingungen" src="assets/icon_populate.svg"/>
 
@@ -82,7 +82,7 @@ Landingpages sind Webformulare, die zur Datenerfassung und zur Erstellung oder A
 
 Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Handbuch](../../channels/using/getting-started-with-landing-pages.md).
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
@@ -96,7 +96,7 @@ Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingk
 >
 >Bitte beachten Sie, dass der Connector für Campaign Standard und Microsoft Dynamics 365 derzeit nur beschränkt verfügbar ist und einige Beschränkungen gelten. Diese werden in der Dokumentation beschrieben.
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
@@ -109,12 +109,12 @@ Mit Campaign Standard-APIs können Sie Prozesse zum Aktualisieren der Datenbank 
 >
 >Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
 
-## Audiencen organisieren {#organizing-audiences}
+## Audiences organisieren {#organizing-audiences}
 
 <img width="60px" alt="Bedingungen" src="assets/icon_audience.svg"/>
 
@@ -122,7 +122,7 @@ Adobe Campaign vereint fortschrittliche Analyse- und Zielgruppenbestimmungsfunkt
 
 Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, die verfügbare Informationen, das Verhalten, die Sprache, die Einstellungen und den Marketingverlauf Ihrer Kontakte berücksichtigen, um Ihre unterschiedlichen Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern oder auf einer unbegrenzten Anzahl von Kriterien basierende Zielgruppen erstellen.
 
-**mehr dazu**
+**Mehr dazu**
 
 * [Über Audiences](../../audiences/using/about-audiences.md)
 * [Audiences erstellen](../../audiences/using/creating-audiences.md)
@@ -135,7 +135,7 @@ Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU),
 
 In diesem [Handbuch](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html) erfahren Sie mehr zu den Tools und Funktionen von Adobe Campaign, die Ihnen helfen, die DSGVO gesetzeskonform umzusetzen.
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
