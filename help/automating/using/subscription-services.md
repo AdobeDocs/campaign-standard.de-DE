@@ -12,11 +12,11 @@ discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,8 +43,8 @@ Wenn dies in den entsprechenden Spalten der Datei spezifiziert wird, können Sie
 
 **Verwandte Themen:**
 
-* [Verwendungsfall: Aktualisieren mehrerer Abonnement-Status aus einer Datei](../../automating/using/updating-subscriptions-from-file.md)
-* [Verwendungsfall: Abonnieren von Profilen einer Datei zu einem bestimmten Dienst](../../automating/using/subscribing-profiles-from-file.md)
+* [Anwendungsfall: Mehrere Abonnementstatus über eine Datei aktualisieren](../../automating/using/updating-subscriptions-from-file.md)
+* [Anwendungsfall: Profile aus einer Datei für einen bestimmten Dienst anmelden](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Konfiguration {#configuration}
 
@@ -74,7 +74,7 @@ Wenn dies in den entsprechenden Spalten der Datei spezifiziert wird, können Sie
 
    Ihr Workflow kann nun ausgeführt werden. Nach der Ausführung können Sie die an- bzw. abgemeldeten Profile in der Detailansicht des Dienstes einsehen.
 
-## Beispiel: Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden  {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## Beispiel: Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden   {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 In diesem Beispiel wird dargestellt, wie man eine Datei mit Profilen importiert, um diese für einen existierenden Dienst anzumelden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile identifiziert werden können. Um sicherzustellen, dass sich keine Dubletten in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
 
