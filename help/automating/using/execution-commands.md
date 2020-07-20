@@ -1,6 +1,6 @@
 ---
-title: 'Ausführungsbefehle    '
-description: Erfahren Sie, wie Sie Workflows Ausführungsbefehle verwenden.
+title: Ausführungsbefehle
+description: Erfahren Sie, wie Sie Workflow-Ausführungsbefehle verwenden.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Ausführungsbefehle     {#execution-commands}
+# Ausführungsbefehle  {#execution-commands}
 
 Die Schaltflächen der Symbolleiste dienen dazu, die Workflow-Ausführung zu starten, zu verfolgen und eventuell anzupassen. Siehe den Abschnitt [Symbolleiste](../../automating/using/workflow-interface.md#action-bar).
 
@@ -69,4 +69,4 @@ Die Schaltfläche ![](assets/checkdisable.png) deaktiviert die markierten Aktivi
 
 >[!NOTE]
 >
->Auf die der Bearbeitung einer bestimmten Aktivität dienenden Aktionen kann auch über die Quick Actions zugegriffen werden, die bei der Markierung einer Aktivität angezeigt werden.
+>Die der Bearbeitung einer bestimmten Aktivität dienenden Aktionen können auch über den Schnellzugriff geöffnet werden, der bei der Markierung einer Aktivität angezeigt wird.
