@@ -1,5 +1,5 @@
 ---
-title: Anreichern von Profil-Daten mit Daten in einer Datei
+title: Profildaten mit in einer Datei enthaltenen Daten anreichern
 description: In diesem Beispiel sehen Sie, wie Sie Profildaten mit in einer Datei enthaltenen Kaufdaten anreichern können.
 page-status-flag: never-activated
 uuid: 8c1693ef-1312-422c-b05d-263553113f8f
@@ -12,18 +12,18 @@ discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Enriching profile data with data contained in a file {#enriching-profile-data-with-data-contained-in-a-file}
+# Profildaten mit in einer Datei enthaltenen Daten anreichern {#enriching-profile-data-with-data-contained-in-a-file}
 
-Dieses Beispiel zeigt, wie Sie die Daten des Profils mit den in einer Datei enthaltenen Kaufdaten bereichern können. In diesem Fall werden die Kaufdaten in einem Drittanbietersystem gespeichert. Von jedem Profil können mehrere Käufe in der Datei gespeichert sein. Ziel des Workflows ist es, eine E-Mail an die Zielprofile zu senden, die mindestens zwei Artikel gekauft haben, um ihnen für ihre Kundentreue zu danken.
+Dieses Beispiel zeigt, wie Sie die Daten des Profils mit den in einer Datei enthaltenen Kaufdaten anreichern können. In diesem Fall werden die Kaufdaten in einem Drittanbietersystem gespeichert. Von jedem Profil können mehrere Käufe in der Datei gespeichert sein. Ziel des Workflows ist es, eine E-Mail an die Zielprofile zu senden, die mindestens zwei Artikel gekauft haben, um ihnen für ihre Kundentreue zu danken.
 
 Der Workflow setzt sich aus folgenden Aktivitäten zusammen:
 
@@ -44,7 +44,7 @@ Der Workflow setzt sich aus folgenden Aktivitäten zusammen:
 
    Bei dieser Beispieldatei verwenden wir die E-Mail-Adresse zur Abstimmung der Daten mit den Datenbankprofilen. Sie können auch eindeutige Kennungen aktivieren, wie in [diesem Dokument](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources) beschrieben wird.
 
-* Die Aktivität [Anreicherung](../../automating/using/enrichment.md), mit der eine Relation zwischen den aus der Datei geladenen Transaktionsdaten und den in der **[!UICONTROL Abfrage]** ausgewählten Profilen erstellt wird. Die Relation wird in der Aktivität im Tab **[!UICONTROL Erweiterte Relationen]** definiert. Die Relation basiert auf der von der Aktivität **[!UICONTROL Datei laden]** stammenden Transition. Als Abstimmungskriterien werden das Feld &quot;E-Mail&quot; der Profilressource und die Spalte &quot;customer&quot; der importierten Datei verwendet.
+* Die Aktivität [Anreicherung](../../automating/using/enrichment.md), mit der eine Relation zwischen den aus der Datei geladenen Transaktionsdaten und den in der **[!UICONTROL Abfrage]** ausgewählten Profilen erstellt wird. Die Relation wird in der Aktivität im Tab **[!UICONTROL Erweiterte Relationen]** definiert. Die Relation basiert auf der von der Aktivität **[!UICONTROL Datei laden]** stammenden Transition. Als Abstimmkriterien werden das Feld &quot;E-Mail&quot; der Profilressource und die Spalte &quot;customer&quot; der importierten Datei verwendet.
 
    ![](assets/enrichment_example_workflow2.png)
 
