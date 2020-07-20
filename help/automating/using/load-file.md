@@ -12,11 +12,11 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1503'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,10 +44,10 @@ Sie haben folgende Möglichkeiten:
 
 **Verwandte Themen:**
 
-* [Verwendungsfall: Aktualisieren der Datenbank mit externen Daten](../../automating/using/update-database-file.md)
-* [Verwendungsfall: Aktualisieren von Daten auf der Grundlage eines automatischen Dateidownloads](../../automating/using/update-data-automatic-download.md)
-* [Verwendungsfall: Senden einer E-Mail mit erweiterten Feldern](../../automating/using/sending-email-enriched-fields.md)
-* [Verwendungsfall: Datei-Audience mit der Datenbank abgleichen](../../automating/using/reconcile-file-audience-with-database.md)
+* [Anwendungsfall: Datenbank mit externen Daten aktualisieren](../../automating/using/update-database-file.md)
+* [Anwendungsfall: Daten basierend auf einem automatischen Datei-Download aktualisieren](../../automating/using/update-data-automatic-download.md)
+* [Anwendungsfall: E-Mail mit erweiterten Feldern senden](../../automating/using/sending-email-enriched-fields.md)
+* [Anwendungsfall: Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}
 
@@ -106,7 +106,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
 1. Sollte die Datei, deren Daten Sie laden möchten, in einer GZIP-Datei (.gz) komprimiert sein, wählen Sie im Feld **[!UICONTROL Vorab-Bearbeitungsetappe hinzufügen]** die Option **[!UICONTROL Datei-Dekomprimierung]** aus. Dadurch lässt sich die Datei dekomprimieren, bevor Sie mit dem Laden der Daten fortfahren. Diese Option steht nur zur Verfügung, wenn die Datei mit der in die Aktivität eingehenden Transition übermittelt wird.
 
-   Mit dem **[!UICONTROL Hinzufügen Feld für einen Schritt]** vor der Verarbeitung können Sie auch eine Datei entschlüsseln, bevor Sie sie in die Datenbank importieren. Weitere Informationen zum Arbeiten mit verschlüsselten Dateien finden Sie in [diesem Abschnitt](../../automating/using/managing-encrypted-data.md)
+   Das Feld **[!UICONTROL Vorab-Bearbeitungsetappe hinzufügen]** ermöglicht Ihnen auch, eine Datei zu entschlüsseln, bevor Sie sie in die Datenbank importieren. Weitere Informationen zum Arbeiten mit verschlüsselten Dateien finden Sie in [diesem Abschnitt](../../automating/using/managing-encrypted-data.md)
 
 1. Mit der Option **[!UICONTROL Zurückweisungen in einer Datei speichern]** können Sie eine Datei herunterladen, die während des Imports aufgetretene Fehler enthält, und auf eine Anschlussvorgangsetappe anwenden. Wenn die Option aktiviert ist, wird der ausgehende Übergang in &quot;Zurückweisungen&quot; umbenannt.
 
@@ -120,7 +120,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
 Wenn nach dem Ausführen des Workflows ein Fehler bei der Aktivität auftritt, lesen Sie die Protokolle, um weitere Details zu den Werten zu erhalten, die in der Datei falsch sind. Weiterführende Informationen zur Workflow-Logs finden Sie in [diesem Abschnitt](../../automating/using/monitoring-workflow-execution.md).
 
-## Spaltenformat   {#column-format}
+## Spaltenformat    {#column-format}
 
 Beim Laden einer Beispieldatei wird das Spaltenformat automatisch erkannt und jedem Datentyp werden Standardparameter zugewiesen. Diese Standardparameter können angepasst werden, um einen bestimmten Umgang mit gewissen Daten vorzuschreiben, insbesondere in Bezug auf Fehler oder Leerwerte.
 
