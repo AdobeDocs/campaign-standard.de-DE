@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
   </tr> 
   <tr> 
    <td> Profile<br /> </td> 
-   <td> Fasst native und benutzerdefinierte Profilfelder zusammen, die während der Profil-Ressourcenerweiterung erstellt wurden. Weiterführende Informationen dazu finden Sie auf dieser <a href="../../developing/using/key-steps-to-add-a-resource.md">Seite</a> und in diesem <a href="../../reporting/using/creating-a-custom-profile-dimension.md">Beispiel</a>.<br /> Beachten Sie, dass Daten für diese Dimension abgerufen werden, sobald die mit dem Profilfeld verknüpfte benutzerdefinierte Ressource veröffentlicht wird.<br /> </td> 
+   <td> Fasst native und benutzerdefinierte Profilfelder zusammen, die während der Erweiterung der Profilressource erstellt wurden. Weiterführende Informationen dazu finden Sie auf dieser <a href="../../developing/using/key-steps-to-add-a-resource.md">Seite</a> und in diesem <a href="../../reporting/using/creating-a-custom-profile-dimension.md">Beispiel</a>.<br /> Beachten Sie, dass Daten für diese Dimension abgerufen werden, sobald die mit dem Profilfeld verknüpfte benutzerdefinierte Ressource veröffentlicht wird.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-Plattform<br /> </td> 
@@ -137,11 +137,11 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken   {#metrics}
+## Metriken    {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS   {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS    {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -152,12 +152,12 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </thead> 
  <tbody> 
   <tr> 
-   <td> Bei blockierungsliste<br /> </td> 
+   <td> Auf Blockierungsliste<br /> </td> 
    <td> Anzahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blockierungsliste-Rate<br /> </td> 
-   <td> Prozentsatz der auf blockierungsliste markierten Versand.<br /> </td> 
+   <td> Blockierungslistenrate<br /> </td> 
+   <td> Prozentsatz der Sendungen, die sich auf der Blockierungsliste befinden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Bounces + Fehler<br /> </td> 
@@ -172,7 +172,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Die Anzahl der Klicks auf einen Inhalt in einem Versand.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klickrate<br /> </td> 
+   <td> Durchklickrate<br /> </td> 
    <td> Prozentsatz der Klicks in einem Versand<br /> </td> 
   </tr> 
   <tr> 
@@ -262,7 +262,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen   {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen    {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -285,7 +285,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Gibt an, wie oft eine Push-Benachrichtigung an das Gerät geschickt und vom Benutzer angeklickt wurde. Der Benutzer hat die Benachrichtigung entweder angesehen oder verworfen. Wenn er sie angesehen hat, wird sie beim Push-Öffnungstracking berücksichtigt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klickrate<br /> </td> 
+   <td> Durchklickrate<br /> </td> 
    <td> Prozentsatz der Benutzer, die mit der Push-Benachrichtigung interagiert haben.<br /> </td> 
   </tr> 
   <tr> 
@@ -327,7 +327,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten   {#in-app-metrics}
+### Metriken zu In-App-Nachrichten    {#in-app-metrics}
 
 <table> 
  <thead> 
