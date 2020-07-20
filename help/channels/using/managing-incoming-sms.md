@@ -12,11 +12,11 @@ discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
 delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Gehen Sie dabei folgendermaßen vor:
 
 1. Geben Sie im Feld **[!UICONTROL Antworten]** die Antwort ein, die Sie Ihren Empfängern senden möchten.
 
-   Lassen Sie die Spalte **[!UICONTROL Antworten]** leer, wenn nur eine Aktion ausgeführt, aber keine Antwort gesendet werden soll. Dies ermöglicht beispielsweise das Entfernen einer Telefonnummer eines Benutzers aus der Quarantäne, wenn er ein anderes Schlüsselwort als &quot;STOP&quot; sendet.
+   Lassen Sie die Spalte **[!UICONTROL Antworten]** leer, wenn nur eine Aktion ausgeführt, aber keine Antwort gesendet werden soll. Dies ermöglicht beispielsweise das Entfernen einer Telefonnummer eines Benutzers aus der Quarantäne, wenn er ein anderes Schlüsselwort als &quot;STOPP&quot; sendet.
 
    ![](assets/sms_mo_3.png)
 
@@ -58,7 +58,7 @@ Gehen Sie dabei folgendermaßen vor:
    * Mit der Aktion **[!UICONTROL Aus Quarantäne holen]** wird die Telefonnummer des Profils aus der Quarantäne entlassen.
    * Mit der Aktion **[!UICONTROL Keine]** wird Ihre Nachricht ohne Aktion an die Empfänger gesendet.
 
-   For example, in the configuration below, if recipients send the keyword &quot;STOP&quot;, they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL On block list]** status. Dieser Status bezieht sich nur auf die Telefonnummer, das Profil wird nicht zur blockierungsliste hinzugefügt, sodass der Benutzer weiterhin E-Mail-Nachrichten erhält.
+   Wenn Empfänger beispielsweise in der folgenden Konfiguration das Schlüsselwort &quot;STOPP&quot; senden, erhalten sie eine Abmeldebestätigung und ihre Telefonnummer wird mit dem Status **[!UICONTROL Auf Blockierungsliste]** unter Quarantäne gestellt. Der Status bezieht sich ausschließlich auf die Telefonnummer. Das Profil wird nicht auf die Blockierungsliste gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält.
 
    ![](assets/sms_mo.png)
 
@@ -66,9 +66,9 @@ Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt I
 
 Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#storing-incoming-sms).
 
-## Eingehende SMS speichern  {#storing-incoming-sms}
+## Eingehende SMS speichern   {#storing-incoming-sms}
 
-Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit &quot;STOP&quot; auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
+Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit &quot;STOPP&quot; auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
 
 ![](assets/sms_config_mo_1.png)
 
