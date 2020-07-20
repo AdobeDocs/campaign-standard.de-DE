@@ -11,11 +11,11 @@ topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 86%
 
 Sie können Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen versenden, bei denen Sie folgende Möglichkeiten haben:
 
-* Wenden Sie Marketing-Typologieregeln wie **[!UICONTROL Adresse auf blockierungsliste]** - oder [Ermüdungsregeln](../../sending/using/fatigue-rules.md)an.
+* Marketing-Typologieregeln wie **[!UICONTROL Adresse auf Blockierungsliste]** oder [Ermüdungsregeln](../../sending/using/fatigue-rules.md) anwenden
 * einen Abmelde-Link in die Nachricht einfügen
 * die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen
 * Die Transaktionsnachrichten für die Customer Journey nutzen
@@ -41,7 +41,7 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 >
 >Ermüdungsregeln sind mit Profil-Transaktionsnachrichten kompatibel. Näheres dazu finden Sie unter [Ermüdungsregeln](../../sending/using/fatigue-rules.md).
 
-## Profil-Transaktionsnachricht senden  {#sending-a-profile-transactional-message}
+## Profil-Transaktionsnachricht senden   {#sending-a-profile-transactional-message}
 
 Die Schritte für das Erstellen, Personalisieren und Publizieren einer Profil-Transaktionsnachricht sind mit denen einer Ereignis-Transaktionsnachricht identisch. Siehe [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 
@@ -62,7 +62,7 @@ Die Unterschiede sind unten aufgeführt.
 
 1. Speichern Sie Ihre Änderungen und publizieren Sie die Nachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Versand einer Profil-Transaktionsnachricht verfolgen  {#monitoring-a-profile-transactional-message-delivery}
+## Versand einer Profil-Transaktionsnachricht verfolgen   {#monitoring-a-profile-transactional-message-delivery}
 
 Nachdem die Nachricht publiziert wurde und Ihre Webseiten-Integration abgeschlossen ist, kann der Versand verfolgt werden.
 
@@ -74,11 +74,11 @@ Nachdem die Nachricht publiziert wurde und Ihre Webseiten-Integration abgeschlos
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
+1. Wählen Sie den Tab **[!UICONTROL Ausschlusslogs]** aus, um die Empfänger anzuzeigen, die von der Versandzielgruppe ausgeschlossen wurden, wie zum Beispiel Adressen auf der Blockierungsliste.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Address on block list]** typology rule excluded the corresponding recipient.
+Profile, die sich abgemeldet haben, wurden durch die Typologieregel **[!UICONTROL Adresse auf der Blockierungsliste]** ausgeschlossen.
 
 Diese Regel ist Teil einer spezifischen Typologie, die für alle auf der **[!UICONTROL Profil]**-Tabelle basierenden Transaktionsnachrichten gilt.
 
