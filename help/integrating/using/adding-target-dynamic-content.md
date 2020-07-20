@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Bevor Sie auf das Bild in Adobe Campaign zugreifen, müssen Sie die folgenden Sc
    Im Rahmen der Integration werden nur statische Bilder unterstützt. Der weitere Inhalt kann nicht personalisiert werden.
 
 1. Geben Sie den Namen der in Adobe Target definierten Rawbox an.
-1. Wenn Sie in Ihren Einstellungen in Adobe Target Unternehmensberechtigungen verwenden, fügen Sie die entsprechende Eigenschaft in dieses Feld ein. Weitere Informationen zu Unternehmensberechtigungen in Target finden Sie auf [dieser Seite](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Dieses Feld ist optional und nicht erforderlich, wenn Sie keine Berechtigungen auf Unternehmensebene in Target verwenden.
+1. Wenn Sie in Ihren Einstellungen in Adobe Target Unternehmensberechtigungen verwenden, fügen Sie die entsprechende Eigenschaft in dieses Feld ein. Weitere Informationen zu Unternehmensberechtigungen in Target finden Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/target/using/administer/manage-users/enterprise/properties-overview.html). Dieses Feld ist optional und nicht erforderlich, wenn Sie keine Berechtigungen auf Unternehmensebene in Target verwenden.
 1. Stellen Sie im Bereich **[!UICONTROL Zusätzliche Entscheidungsparameter]** die Verbindung zwischen den in den Adobe Target-Segmenten definierten Feldern und den Feldern in Adobe Campaign her.
 
    Die in Adobe Campaign verwendeten Felder müssen zuvor in der Rawbox angegeben werden. In unserem Beispiel definieren wir unterschiedliche Erlebnisse je nach dem Geschlecht des Empfängers.
@@ -56,7 +56,7 @@ Ihre Versand mit dem dynamischen Bild kann jetzt durchgeführt werden. Die Ergeb
 
 **Verwandte Themen:**
 
-* [Adobe Target-Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* [Adobe Target-Portal](https://docs.adobe.com/content/help/de-DE/target/using/integrate/campaign-and-target.html)
 * [Über die Inhaltserstellung in E-Mails](../../designing/using/designing-content-in-adobe-campaign.md)
 * Video [Personalize Email Images in Real-Time](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html)
 
