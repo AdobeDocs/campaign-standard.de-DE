@@ -11,8 +11,11 @@ topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+workflow-type: ht
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 
@@ -35,31 +38,31 @@ source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
     </td>
 </tr>
 <tr>
-<td>Kampagne-Datenmodell</td>
-<td>Arbeiten mit REST-APIs</td>
+<td>Campaign-Datenmodell</td>
+<td>Mit REST-APIs arbeiten</td>
 <td>Benutzer verwalten</td>
-<td>Konfiguration und Überwachung der Instanz</td>
+<td>Instanz konfigurieren und überwachen</td>
 </tr>
 </table>
 
-## Kampagne-Datenmodell
+## Campaign-Datenmodell
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **mehr dazu**
 
 * xxxx
 * xxxx
 
-## Arbeiten mit REST-APIs
+## Mit REST-APIs arbeiten
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
@@ -68,20 +71,20 @@ Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat m
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
 
-## Konfiguration und Überwachung der Instanz
+## Instanz konfigurieren und überwachen
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**mehr dazu**
+**Mehr dazu**
 
 * xxxx
 * xxxx
