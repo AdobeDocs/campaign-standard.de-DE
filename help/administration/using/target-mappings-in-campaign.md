@@ -11,18 +11,18 @@ topic-tags: application-settings
 discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ef4082d4d5a0c3a57b7a36a43b47edde07c4c7bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # Zielgruppen-Mappings in Campaign{#target-mappings-in-campaign}
 
-Zielgruppen-Mappings sind technische Objekte, die Campaign zum Versenden von Nachrichten verwendet. Sie enthalten alle technischen Einstellungen, die erforderlich sind, um Versand zu senden (Adressen, Telefonnummern, blockierungsliste-Indikatoren, zusätzliche IDs...).
+Zielgruppen-Mappings sind technische Objekte, die Campaign zum Versenden von Nachrichten verwendet. Sie enthalten alle technischen Parameter (Adressen, Telefonnummern, Indikatoren von Blockierungslisten, zusätzliche Kennungen usw.), die für den Versand benötigt werden.
 
 Administratoren können über das Menü **[!UICONTROL Administration > Anwendungskonfiguration > Zielgruppen-Mappings]** auf Zielgruppen-Mappings zugreifen.
 
