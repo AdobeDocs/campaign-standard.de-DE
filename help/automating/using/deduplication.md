@@ -12,11 +12,11 @@ discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Mithilfe der Aktivität **[!UICONTROL Deduplizierung]** lassen sich Dubletten in
 
 ## Anwendungskontext {#context-of-use}
 
-Die Aktivität **[!UICONTROL Deduplizierung]** wird im Allgemeinen im Anschluss an Zielgruppenbestimmungs- oder Dateiimportaktivitäten und vor Aktivitäten verwendet, die dem Zieldatenverbrauch dienen.
+Die Aktivität **[!UICONTROL Deduplizierung]** wird im Allgemeinen im Anschluss an Zielgruppenbestimmungs- oder Dateiimportaktivitäten und vor Aktivitäten verwendet, die die Zieldatennutzung ermöglichen.
 
 Bei einer Deduplizierung werden die eingehenden Transitionen getrennt voneinander verarbeitet. Sollte beispielsweise ein Profil &#39;A&#39; sowohl im Ergebnis der Abfrage 1 als auch im Ergebnis der Abfrage 2 vorkommen, wird es nicht dedupliziert.
 
@@ -41,8 +41,8 @@ Deshalb ist es ratsam sicherzustellen, dass Deduplizierungen nur eine einzige ei
 
 **Verwandte Themen**
 
-* [Verwendungsfall: Identifizieren von Duplikaten vor einem Versand](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Verwendungsfall: Deduplizieren der Daten aus einer importierten Datei](../../automating/using/deduplicating-data-imported-file.md)
+* [Anwendungsfall: Dubletten vor einem Versand identifizieren](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Anwendungsfall: Daten einer importierten Datei deduplizieren](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Konfiguration {#configuration}
 
@@ -56,7 +56,7 @@ Zur Konfiguration einer Deduplizierung müssen Sie ihren Titel, Deduplizierungsm
 1. Wählen Sie den **[!UICONTROL Ressourcentyp]** aus, den Sie deduplizieren möchten:
 
    * **[!UICONTROL Datenbank-Ressource]**, wenn sich die Deduplizierung auf bereits in der Datenbank existierende Daten bezieht. Wählen Sie die **[!UICONTROL Filterdimension]** und die **[!UICONTROL Zielgruppendimension]** entsprechend den Daten aus, die Sie deduplizieren möchten. Standardmäßig bezieht sich die Deduplizierung auf **Profile**.
-   * **[!UICONTROL Temporäre Ressource]**, wenn sich die Deduplizierung auf temporäre Daten des Workflows bezieht: Wählen Sie die **[!UICONTROL Zielmenge]** mit den zu deduplizierenden Daten aus. Dieser Fall kann im Anschluss an einen Dateiimport auftreten oder wenn die Daten der Datenbank angereichert wurden (z. B. mit einem Segmentcode).
+   * **[!UICONTROL Temporäre Ressource]**, wenn sich die Deduplizierung auf temporäre Daten des Workflows bezieht: Wählen Sie die **[!UICONTROL Zielmenge]** mit den zu deduplizierenden Daten aus. Dieser Anwendungsfall kann im Anschluss an einen Dateiimport auftreten oder wenn die Daten der Datenbank angereichert wurden (z. B. mit einem Segmentcode).
 
 1. Bestimmen Sie die **[!UICONTROL Anzahl der beizubehaltenden eindeutigen Datensätze]**. Der Standardwert dieses Felds ist 1. Mittels des Werts 0 lassen sich alle Dubletten beibehalten.
 
