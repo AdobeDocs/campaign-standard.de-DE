@@ -12,11 +12,11 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Bei einmaligen Versandaktionen handelt es sich um Standard-E-Mails, die nur einm
 
 Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen E-Mail an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
-## Anwendungskontext    {#context-of-use}
+## Anwendungskontext     {#context-of-use}
 
 Der **[!UICONTROL E-Mail-Versand]** dient insbesondere der Automatisierung des Nachrichtenversands an eine innerhalb desselben Workflows berechnete Zielgruppe.
 
@@ -51,7 +51,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 * [Anwendungsfall: Erstellung einer Standort-segmentierten Versendung](../../automating/using/workflow-segmentation-location.md)
 * [Anwendungsfall: Erstellen von Versendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
 * [Anwendungsfall: Retargeting-Workflow für eine erneute Versendung an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Verwendungsfall: Geburtstag, Versand](../../automating/using/birthday-delivery.md)
+* [Anwendungsfall: Versand zum Geburtstag](../../automating/using/birthday-delivery.md)
 
 ## Konfiguration {#configuration}
 
@@ -70,7 +70,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
       Es besteht beispielsweise die Möglichkeit, die Ausführungen einer täglich gesendeten Geburtstags-E-Mail pro Monat zu aggregieren. Auf diese Weise lässt sich ein monatlicher Versandbericht für eine täglich gesendete E-Mail generieren.
    >[!NOTE]
    >
-   >Wiederkehrende Versand werden auf der Grundlage des **Aggregationszeitraums** vorbereitet. Wenn der Aggregat-Zeitraum beispielsweise &quot;nach Tag&quot; lautet, wird der Versand nur einmal pro Tag erneut vorbereitet. Wenn Sie diesen Workflow mehrmals am Tag aufrufen möchten, verwenden Sie [!UICONTROL Keine Aggregation].
+   >Ein wiederkehrender Versand wird auf Basis des **Aggregat-Zeitraums** vorbereitet. Wenn der Aggregat-Zeitraum beispielsweise &quot;nach Tag&quot; lautet, wird der Versand nur einmal pro Tag erneut vorbereitet. Wenn Sie diesen Workflow mehrmals am Tag aufrufen möchten, verwenden Sie [!UICONTROL Nicht aggregieren].
 
 1. Wählen Sie einen E-Mail-Typ aus. Die verschiedenen E-Mail-Typen entsprechen Vorlagen, die im Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Versandvorlagen]** definiert sind.
 1. Geben Sie die allgemeinen Eigenschaften der E-Mail an und ordnen Sie sie gegebenenfalls einer existierenden Kampagne zu. Der Titel der Versandaktivität des Workflows wird mit dem Titel der E-Mail aktualisiert.
@@ -86,7 +86,7 @@ Wenn Sie die Aktivität später erneut öffnen, gelangen Sie direkt in das Dashb
 
 Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachricht ausgelöst. Der in einem Workflow erstellte Nachrichtenversand muss noch bestätigt werden, nachdem der Workflow gestartet wurde. Sie können aber im Nachrichten-Dashboard die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** deaktivieren. Dies ist jedoch nur möglich, wenn die Nachricht in einem Workflow erstellt wurde. Ist diese Option deaktiviert, werden Nachrichten ohne weiteren Hinweis gesendet, sobald die Vorbereitung abgeschlossen ist.
 
-## Bemerkungen    {#remarks}
+## Bemerkungen     {#remarks}
 
 Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Die Links im Übersichtsmenü der E-Mail ermöglichen einen direkten Zugriff auf verknüpfte Elemente (Workflow, Kampagne, Elternversand im Fall einer E-Mail zum wiederkehrenden Versand).
 
