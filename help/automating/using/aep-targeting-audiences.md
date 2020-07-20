@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 >
 >Der Audience Destinations-Dienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Once you have created an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md) using the Segment Builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
+Nachdem Sie mit Segment Builder eine [Adobe Experience Platform-Audience](../../audiences/using/aep-about-audience-destinations-service.md) erstellt haben, können Sie diese wie eine Campaign-Audience innerhalb von Workflows verwenden, um Nachrichten zu personalisieren und zu senden.
 
 Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience in Ihren Workflows zu aktivieren:
 
