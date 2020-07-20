@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Profilen und Audiencen
+title: Erste Schritte mit Profilen und Audiences
 description: '"Hier erhalten Sie Informationen über die Verwaltung von Profilen und Audiences in Adobe Campaign: Bestimmen Sie Zielgruppen, wählen Sie Audiences aus, filtern Sie Empfänger, erfassen Sie Daten und aktualisieren Sie Profile."'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
@@ -11,29 +11,29 @@ topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 
-# Erste Schritte mit Profilen und Audiencen{#about-profiles-and-audiences}
+# Erste Schritte mit Profilen und Audiences{#about-profiles-and-audiences}
 
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">Segmentierung und Targeting</a></p></td>
-<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">Einverständnis der Benutzer</a></p></td>
+<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">Berechtigungen und Einverständniserklärungen</a></p></td>
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Einhaltung von Datenschutzbestimmungen</a></p></td></tr>
 </table>
 
-Kampagne-integrierte Kundenlösungen ermöglichen es Ihnen, jede Interaktion mit Kunden innerhalb einer Ansicht über alle Kanal hinweg zu verfolgen, sodass Sie Ihren Kunden relevante und personalisierte Nachrichten zukommen lassen können.
+Mit in Campaign integrierten Kundenprofilen können Sie jede Interaktion mit Kunden auf allen Kanälen in einer einzigen Ansicht verfolgen und Ihren Kunden relevante und personalisierte Nachrichten übermitteln.
 
-Segmentieren Sie Ihre Datenbank in Audiencen, um die Zielgruppe Ihrer Marketing-Kampagnen zu optimieren.
+Segmentieren Sie Ihre Datenbank in Audiences, um die Zielgruppen Ihrer Marketing-Kampagnen zu optimieren.
 
-Verwalten Sie Kundenberechtigungen und -genehmigungen mit Diensten und Landingpages, um einfache Abmelde- und Abmeldemechanismen einzurichten.
+Verwalten Sie die Berechtigungen und Einverständniserklärungen der Kunden mithilfe von Diensten und Landingpages, um einfache Opt-in- und Opt-out-Mechanismen einzurichten.
 
 ## Segmentierung und Targeting {#segmenting-targeting}
 
@@ -41,7 +41,7 @@ Verwalten Sie Kundenberechtigungen und -genehmigungen mit Diensten und Landingpa
 
 Bei der Erstellung von Kampagnen oder Nachrichten kann die Versandzielgruppe aus in der Campaign-Datenbank vorhandenen Kontakten nach einfachen oder erweiterten Kriterien oder durch die Auswahl von Audiences zusammengestellt werden.
 
-Identify customers more effectively across all your channels using **integrated customer profiles** and **customized segments**. Wenn Sie Ihre Kunden, deren Interessen, demografische Daten und Kanalpräferenzen kennen, ist es einfacher, personalisierte, ansprechende Erlebnisse zu erstellen.
+Mit **integrierten Kundenprofilen** und **benutzerdefinierten Segmenten** können Sie Kunden auf allen Ihren Kanälen effektiver identifizieren. Wenn Sie Ihre Kunden, deren Interessen, demografische Daten und Kanalpräferenzen kennen, ist es einfacher, personalisierte, ansprechende Erlebnisse zu erstellen.
 
 In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch Sie relevante und personalisierte Angebote entsprechend den Präferenzen Ihrer Kunden versenden können. Zusätzlich verfügt Adobe Campaign zur Definition von Audiences über erweiterte Funktionen zur Analyse, Datenverwaltung und Zielgruppenbestimmung.
 
@@ -49,7 +49,7 @@ In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch 
 
 **Audiences bestehen aus Listen mit Profilen, die nach einem oder mehreren Kriterien zusammengestellt werden.** Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences entsprechend den verfügbaren Informationen, dem Verhalten und dem Marketingverlauf Ihrer Kontakte, um Ihre Marketingkampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern, Probe-Audiences oder auf einer unbegrenzten Anzahl an Kriterien basierende Zielgruppen erstellen.
 
-mehr dazu:
+Mehr dazu:
 
 * [Über Profile](../../audiences/using/about-profiles.md)
 * [Aktive Profile](../../audiences/using/active-profiles.md)
@@ -58,21 +58,21 @@ mehr dazu:
 * [Über Audiences](../../audiences/using/about-audiences.md)
 * [Audience in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-## Einverständnis der Benutzer {#permission}
+## Berechtigungen und Einverständniserklärungen {#permission}
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
 Bevor Sie einem Kontakt Nachrichten senden, müssen Sie sicherstellen, dass Sie sein Einverständnis dazu haben. Andernfalls könnten Ihre E-Mails als Spam gekennzeichnet werden, was Ihre Plattform-Zustellbarkeit beeinträchtigt. Um eine funktionierende Profildatenbank aufzubauen, ist es daher wichtig, sich diese Zustimmung im Vorfeld zu sichern.
 
-With Campaign, we recommend you to use **easy opt-in and opt-out mechanisms** through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
+Wir empfehlen in Campaign **einfache Anmelde- und Abmeldemöglichkeiten** über [Dienste](../../audiences/using/creating-a-service.md) und [Landingpages](../../channels/using/getting-started-with-landing-pages.md) zu verwenden, um Ihre Kontaktinformationen zu aktualisieren und Ihre Datenbank zu erweitern.
 
-Providing **unsubscription links** in your messages will enable Profiles to be added to the block list, when necessary, and therefore to improve your platform deliverability. For more on block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Durch die Bereitstellung von **Abmelde-Links** in Ihren Nachrichten können Profile bei Bedarf auf die Blockierungsliste gesetzt werden, was die Zustellbarkeit Ihrer Plattform verbessert. Weiterführende Informationen zur Verwaltung von Blockierungslisten finden Sie im Abschnitt [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
 >Sie müssen die [Adobe Campaign-Nutzungsbedingungen](https://www.adobe.com/de/legal/terms/aup.html) beachten.
 
-mehr dazu:
+Mehr dazu:
 
 * [Über Abonnements](../../audiences/using/about-subscriptions.md)
 * [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
@@ -81,18 +81,18 @@ mehr dazu:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
+Adobe Campaign bietet eine Reihe von Tools, die Sie bei der **Einhaltung von Datenschutzbestimmungen** wie DSGVO, CCPA und anderen unterstützen.
 
 In diesem [Artikel](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html) erfahren Sie mehr über die Datenschutzverwaltung und die Funktionen, die wir zur Verwaltung von Recht auf Zugriff, Recht auf Vergessenwerden, Einwilligung, Datenspeicherung und Benutzerrollen bereitstellen.
 
-Datenschutz und Zustimmung in Kampagne und wie sie zu verwalten sind in [diesem Abschnitt](../../start/using/privacy.md)dargestellt.
+Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werden in [diesem Abschnitt](../../start/using/privacy.md) vorgestellt.
 
 Darüber hinaus finden Sie Best Practices, die Ihnen bei der Einhaltung Ihrer Datenschutzbestimmungen helfen, wenn Sie unseren Service nutzen.
 
 ## Zusätzliche Ressourcen
 
-* [Audience Destinations-Dienst verwenden](../../audiences/using/aep-about-audience-destinations-service.md)
+* [Audience Ziel-Dienst verwenden](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Microsoft Dynamics 365 verwenden](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Mit Adobe geteilte Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Für Adobe freigegebene Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows zum Importieren von Profilen verwenden](../../automating/using/creating-import-workflow-templates.md)
-* [Videos zu Profile und Audiencen](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Videos zu Profilen und Audiences](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
