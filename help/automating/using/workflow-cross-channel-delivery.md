@@ -1,6 +1,6 @@
 ---
-title: Kanal-übergreifender Versand
-description: Dieser Verwendungsfall zeigt, wie Sie einen Kanal-übergreifenden Versand erstellen
+title: Kanalübergreifender Versand
+description: Dieser Anwendungsfall zeigt, wie man einen kanalübergreifenden Versand erstellt.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Weiterführende Informationen zu Workflows und den in Adobe Campaign verfügbare
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Kommunikationskanäle](../../channels/using/get-started-communication-channels.md)
 
-## Workflow erstellen   {#creating-workflow}
+## Workflow erstellen    {#creating-workflow}
 
 Bestimmen Sie im ersten Schritt die Zielgruppe, die Sie mit Ihrer Kommunikation erreichen möchten. Nachfolgend wird diese dann je nach Kommunikationsmedium in zwei Gruppen unterteilt.
 
@@ -54,7 +54,7 @@ Nach der Erstellung des Workflows werden Sie zu dessen Arbeitsbereich weitergele
 
 Ziehen Sie eine Abfrage in Ihren Workflow, um die mittels Ihrer Sendungen zu kontaktierenden Profile zu bestimmen.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
+1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
 1. Durchsuchen Sie im Tab **[!UICONTROL Zielgruppe]** die Schnellzugriffe und wählen Sie eine Ihrer [Audiences](../../audiences/using/about-audiences.md) aus.
 1. Ziehen Sie den Schnellzugriff in den Arbeitsbereich. Je nach Typ des ausgewählten Schnellzugriffs öffnet sich ein bestimmtes Fenster.
@@ -117,7 +117,7 @@ Die zweite Transition ist jetzt ebenfalls konfiguriert.
 
 ## Sendungen erstellen {#creating-deliveries}
 
-As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
+Analog zu den zwei zuvor erstellten Transitionen müssen Sie nun zwei Versandtypen an die aus der Aktivität &quot;Segmentierung&quot; ausgehenden Transitionen anschließen: die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md) und die Aktivität [SMS-Versand](../../automating/using/sms-delivery.md).
 
 Adobe Campaign bietet die Möglichkeit, innerhalb von Workflows Sendungen zu konfigurieren. Wählen Sie hierzu in der Kategorie **[!UICONTROL Kanäle]** der Aktivitätenpalette Ihres Workflows einen Versand aus.
 
@@ -125,7 +125,7 @@ Adobe Campaign bietet die Möglichkeit, innerhalb von Workflows Sendungen zu kon
 
 Gehen Sie wie folgt vor, um einen E-Mail-Versand zu erstellen:
 
-1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after the first segment.
+1. Ziehen Sie die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md) hinter das erste Segment.
 1. Doppelklicken Sie auf die Aktivität, um sie zu bearbeiten.
 1. Wählen Sie **[!UICONTROL Einfache E-Mail]** aus.
 1. Wählen Sie **[!UICONTROL Ausgehende Transition mit Population hinzufügen]** und danach **[!UICONTROL Weiter]** aus.
@@ -142,7 +142,7 @@ Gehen Sie wie folgt vor, um einen E-Mail-Versand zu erstellen:
 
 Gehen Sie wie folgt vor, um einen SMS-Versand zu erstellen:
 
-1. Drag and drop an [SMS delivery](../../automating/using/sms-delivery.md) activity after the other segment.
+1. Ziehen Sie die Aktivität [SMS-Versand](../../automating/using/sms-delivery.md) hinter das andere Segment.
 1. Doppelklicken Sie auf die Aktivität, um sie zu bearbeiten.
 1. Wählen Sie **[!UICONTROL SMS]** und danach **[!UICONTROL Weiter]** aus.
 1. Wählen Sie eine SMS-Vorlage und danach **[!UICONTROL Weiter]** aus.
@@ -155,7 +155,7 @@ Nach der Konfiguration Ihrer Sendungen kann der Workflow gestartet werden.
 
 ## Workflow ausführen {#running-the-workflow}
 
-Once the workflow is started, the population targeted by the **[!UICONTROL Query]** activity will be segmented to receive an Email or SMS delivery.
+Durch Starten des Workflows wird die mithilfe der **[!UICONTROL Abfrageaktivität]** ermittelte Population segmentiert, damit die Populationssegmente anschließend einen E-Mail- bzw. SMS-Versand erhalten.
 
 Verwenden Sie zur Ausführung des Workflows die Schaltfläche **[!UICONTROL Start]** in der Symbolleiste.
 
