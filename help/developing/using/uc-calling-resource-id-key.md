@@ -1,11 +1,11 @@
 ---
 title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->To call a custom filter, use the &quot;by&quot; prefix followed by the filter name defined when configuring the filter definition in [step 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>Um einen benutzerdefinierten Filter aufzurufen, verwenden Sie das Präfix &quot;by&quot;, gefolgt vom Filternamen, der beim Konfigurieren der Filterdefinition in [Schritt 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition) festgelegt wurde.
 
 In unserem Fall lautet die Syntax zum Abrufen eines Profils aus der Kategorie &quot;spring&quot; mit der CRM-ID &quot;123456&quot;:
 
