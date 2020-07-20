@@ -11,11 +11,11 @@ topic-tags: importing-and-exporting-data
 discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1149'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Die Importliste kann nach der zugrunde liegenden Vorlage, dem Ausführungsdatum 
 
 Die Ausführungsdetails sind jetzt verfügbar. Sie haben somit die Möglichkeit, die importierte Datei sowie eine die Zurückweisungen, d. h. nicht importierte Daten, enthaltende Datei herunterzuladen.
 
-## Einrichten von Importvorlagen {#setting-up-import-templates}
+## Importvorlagen einrichten {#setting-up-import-templates}
 
 Mit Importvorlagen kann der Administrator gewisse technische Importparameter konfigurieren. Diese Vorlagen können dann den Standardbenutzern zur Verfügung gestellt werden, um Datei-Uploads durchzuführen.
 
@@ -60,14 +60,14 @@ Drei schreibgeschützte Vorlagen stehen standardmäßig zur Verfügung:
 * **[!UICONTROL Aktualisierung von Briefpost-Quarantänen und Versandlogs]**: Diese Vorlage dient als Grundlage für neue Importe, mit denen Briefpost-Quarantänen und -Versandlogs aktualisiert werden können. Der dieser Vorlage zugrunde liegende Workflow enthält die folgenden Aktivitäten:
 * **[!UICONTROL Datenimport]**: Diese Vorlage ermöglicht Importe, die Daten aus einer Datei zur Datenbank hinzufügen. Der dieser Vorlage zugrunde liegende Workflow enthält die folgenden Aktivitäten:
 
-   * **[!UICONTROL Datei laden]** - lädt Daten einer Datei auf den Adobe-Campaign-Server.
-   * **[!UICONTROL Daten-Update]** - fügt die in der Datei enthaltenen Daten zur Datenbank hinzu.
+   * **[!UICONTROL Datei laden]** – lädt Daten einer Datei auf den Adobe-Campaign-Server.
+   * **[!UICONTROL Daten-Update]** – fügt die in der Datei enthaltenen Daten zur Datenbank hinzu.
 
 * **[!UICONTROL Listenimport]**: Diese Vorlage ermöglicht Importe, die ausgehend von den Daten einer Datei Audiences vom Typ **Liste** erstellen. Der dieser Vorlage zugrunde liegende Workflow enthält die folgenden Aktivitäten:
 
-   * **[!UICONTROL Datei laden]** - lädt Daten einer Datei auf den Adobe-Campaign-Server.
-   * **[!UICONTROL Abstimmung]** - ordnet, wenn möglich, den importierten Daten eine Zielgruppendimension zu. Dies erlaubt im Anschluss die Erstellung einer Audience vom Typ **Liste**. Sollte die Zielgruppendimension der importierten Daten nicht bekannt sein, ist die erstellte Audience vom Typ **Datei**. Siehe [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Audience-Speicherung]** - speichert die importierten Daten als Audience vom Typ **Liste**. Der Name der gespeicherten Audience entspricht dem Namen der importierten Datei, dem das Datum und die Uhrzeit des Imports als Suffix beigefügt werden. Beispiel: &#39;profiles_20150406_151448&#39;.
+   * **[!UICONTROL Datei laden]** – lädt Daten einer Datei auf den Adobe-Campaign-Server.
+   * **[!UICONTROL Abstimmung]** – ordnet, wenn möglich, den importierten Daten eine Zielgruppendimension zu. Dies erlaubt im Anschluss die Erstellung einer Audience vom Typ **Liste**. Sollte die Zielgruppendimension der importierten Daten nicht bekannt sein, ist die erstellte Audience vom Typ **Datei**. Siehe [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * **[!UICONTROL Audience-Speicherung]** – speichert die importierten Daten als Audience vom Typ **Liste**. Der Name der gespeicherten Audience entspricht dem Namen der importierten Datei, dem das Datum und die Uhrzeit des Imports als Suffix beigefügt werden. Beispiel: &#39;profiles_20150406_151448&#39;.
 
 Diese Standardvorlagen sind schreibgeschützt und für Standardbenutzer nicht sichtbar. Um eine Vorlage zu erstellen, die Benutzer verwenden können, gehen Sie folgendermaßen vor:
 
@@ -86,7 +86,7 @@ Diese Standardvorlagen sind schreibgeschützt und für Standardbenutzer nicht si
    Weiterführende Informationen zur Konfiguration der Workflow-Aktivitäten erfahren Sie im Anwendungsbeispiel in diesem Abschnitt: [Beispiel: Import-Workflow-Vorlage](../../automating/using/creating-import-workflow-templates.md). In diesem Anwendungsbeispiel wird gezeigt, wie ein Workflow für den wiederholten Import von Profilen aus einer CRM-Lösung in der Adobe-Campaign-Datenbank erstellt wird.
 
 1. Speichern Sie die Vorlage, damit die Konfiguration des Workflows berücksichtigt wird.
-1. Laden Sie im **[!UICONTROL Eigenschaften]**-Tab eine Beispieldatei. Neben den für den Import erforderlichen Spalten kann die Beispieldatei auch Daten enthalten, die es ermöglichen, den vereinfachten Import nach der Workflow-Erstellung zu testen. Die Beispieldatei steht nun auch späteren Benutzern zur Verfügung, die mithilfe der Vorlage einen Import durchführen.
+1. Laden Sie im **[!UICONTROL Eigenschaften]**-Tab eine Beispieldatei hoch. Neben den für den Import erforderlichen Spalten kann die Beispieldatei auch Daten enthalten, die es ermöglichen, den vereinfachten Import nach der Workflow-Erstellung zu testen. Die Beispieldatei steht nun auch späteren Benutzern zur Verfügung, die mithilfe der Vorlage einen Import durchführen.
 
    ![](assets/import_template_sample.png)
 
@@ -105,7 +105,7 @@ Diese Standardvorlagen sind schreibgeschützt und für Standardbenutzer nicht si
 
    ![](assets/simplified_import_model3.png)
 
-1. Setzen Sie im **[!UICONTROL Eigenschaften]**-Tab den **[!UICONTROL mportvorlagen-Status]** auf **[!UICONTROL Verfügbar]** und speichern Sie die Vorlage. Wenn die Vorlage nicht mehr verwendet werden soll, können Sie den **[!UICONTROL Importvorlagen-Status]** auf **[!UICONTROL Archiviert]** setzen.
+1. Setzen Sie im **[!UICONTROL Eigenschaften]**-Tab den **[!UICONTROL Importvorlagen-Status]** auf **[!UICONTROL Verfügbar]** und speichern Sie die Vorlage. Wenn die Vorlage nicht mehr verwendet werden soll, können Sie den **[!UICONTROL Importvorlagen-Status]** auf **[!UICONTROL Archiviert]** setzen.
 
 Der Vorlagen-Workflow kann geändert werden, indem die Beispieldatei erneut hochgeladen und die Konfiguration **[!UICONTROL Datei laden]** überprüft wird.
 
