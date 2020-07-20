@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 In diesem Beispiel wird eine personalisierte Push-Benachrichtigung am ersten Tag des Monats um 20 Uhr an die Abonnenten Ihrer Mobile App in ihrer jeweiligen Zeitzone gesendet.
 
-Gehen Sie zum Erstellen des Workflows wie folgt vor:
+Gehen Sie wie folgt vor, um den Workflow zu erstellen:
 
 1. Die Aktivität [Planung](../../automating/using/scheduler.md) ermöglicht es Ihnen, den Workflow schon Tage vor dem Versand zu aktivieren, damit Sie die Benachrichtigung jedem Abonnenten um 20 Uhr in seiner Zeitzone senden können:
 
@@ -52,7 +52,7 @@ Gehen Sie zum Erstellen des Workflows wie folgt vor:
 
       ![](assets/wkf_push_example_2.png)
 
-1. The [Push notification delivery](../../automating/using/push-notification-delivery.md) activity allows you to enter the content of your message and to select the personalization fields that you want to use:
+1. Definieren Sie dann über die Aktivität [Push-Benachrichtigungsversand](../../automating/using/push-notification-delivery.md) den Inhalt der Nachricht. Sie haben die Möglichkeit, sie unter Verwendung von Personalisierungsfeldern an den jeweiligen Empfänger anzupassen:
 
    * Wählen Sie die Option **[!UICONTROL Wiederkehrende Benachrichtigung]** aus.
    * Definieren Sie den Inhalt der Push-Benachrichtigung. Nähere Informationen zum Inhalt von Push-Benachrichtigungen erhalten Sie in [diesem Abschnitt](../../channels/using/preparing-and-sending-a-push-notification.md).
