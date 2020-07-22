@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1758'
 ht-degree: 94%
 
 ---
@@ -66,7 +66,7 @@ Für diese Aktivität gelten die folgenden Garantien:
 
 >[!NOTE]
 >
->Ab Kampagne 20.4 werden die maximale HTTP-Antwortdatengröße und die Guardrails auf 5 MB und 1 Minute gesenkt.  Diese Änderung betrifft nur neue externe API-Aktivitäten. Es wird jedoch empfohlen, dass die aktuellen Implementierungen der externen API-Aktivität mit diesen neuen Garantieleistungen übereinstimmen, um bewährte Verfahren zu befolgen.
+>Ab Version 20.4 der Kampagne werden die Garantien für die HTTP-Antwortdatengröße und die Antwortzeitsperre auf 5 MB bzw. 1 Minute gesenkt.  Diese Änderung betrifft nur neue externe API-Aktivitäten, es wird jedoch dringend empfohlen, dass die aktuellen Implementierungen der externen API-Aktivität mit diesen neuen Garantieleistungen übereinstimmen, um bewährte Verfahren zu befolgen.
 
 Für das JSON-Format wurden spezielle Limits festgelegt:
 
