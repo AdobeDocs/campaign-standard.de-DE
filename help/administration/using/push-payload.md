@@ -13,15 +13,15 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 99%
 
 ---
 
 
-# Die Struktur der Payload von Push-Benachrichtigungen in Campaign Standard {#push-payload}
+# Understanding push notifications payload structure {#push-payload}
 
 Mit Adobe Campaign können Sie personalisierte und segmentierte Push-Benachrichtigungen auf iOS- und Android-Mobilgeräten an mobile Anwendungen (Mobile Apps) senden.
 
