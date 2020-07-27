@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7632'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 99%
 * Fehlerkorrektur – E-Mail-Adressen von Hardbounces werden jetzt in die Quarantäne aufgenommen. (CAMP-24587)
 * Fehlerkorrektur – Jetzt kann eine Typologieregel hinzugefügt und anschließend gelöscht werden, bevor die Typologie gespeichert wird. (CAMP-32789)
 * Fehlerkorrektur – Der Inhalt einer Landingpage kann jetzt auch dann angezeigt werden, wenn dynamischer Inhalt deaktiviert ist. (CAMP-32924)
-* Es wurde ein Problem mit wiederkehrenden Versänden behoben, die bei der Verwendung der Personalisierung für die Attribute eines primären Versands aufgetreten sind. (CAMP-32983)
+* Fehlerkorrektur – Beim wiederkehrenden Versand tritt kein Fehler mehr auf, wenn die Attribute des primären Versands personalisiert werden. (CAMP-32983)
 * Fehlerkorrektur – In Workflows können einer Transition jetzt Ergebnisse entnommen werden, wenn die Transition Daten eingehender SMS-Nachrichten enthält. (CAMP-33134)
 * Fehlerkorrektur – Verzweigungs- und Ausschlussaktivitäten können jetzt in Workflows zur Erstellung von Audiences verwendet werden. (CAMP-33401)
 * Fehlerkorrektur – Jetzt ist es möglich, bei wiederkehrenden Sendungen den Inhalt von Mirrorseiten anzuzeigen und einen Testversand durchzuführen. (CAMP-33413)
@@ -399,7 +399,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019      {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019       {#release-19-1-3---march-2019}
 
 **Verbesserungen bei Email Designer**
 
