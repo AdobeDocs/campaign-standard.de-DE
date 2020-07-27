@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -71,10 +71,10 @@ ht-degree: 91%
 </tbody> 
 </table>
 
-**Zusätzliche Funktionen** (ab 13. Juli)
+**Zusätzliche Funktionen** (ab 13. Juli)
 
-* **AI-Powered Send Time Optimization und Profil Scoring** - Sie können jetzt Design und Versand von Kundenreisen optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit der Journey-API kann Adobe Campaign offene Raten, optimale Sendezeiten und wahrscheinliche Absturzzahlen auf Basis historischer Interaktionsmetriken analysieren und vorhersagen. [Mehr dazu](../../sending/using/predictive.md)
-* **Brasiliens neue Datenschutzverordnung** - Zusätzlich zu den bereits in der Kampagne verfügbaren Datenschutzfunktionen erleichtert Adobe Ihnen die Bereitschaft für Brasiliens Lei Geral de Proteçao de Datos (LGPD). Bei der Erstellung einer Datenschutzanforderung wurde die LGPD-Verordnung dem Adobe Privacy Core Service hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
+* **KI-gestützte Sendezeitoptimierung und Profilbewertung**: Sie können jetzt Design und Versand von Customer Journeys optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit der Journey-API kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen. [Mehr dazu](../../sending/using/predictive.md)
+* **Brasiliens neue Datenschutzverordnung**: Zusätzlich zu den bereits in Campaign verfügbaren Datenschutzfunktionen hilft Ihnen Adobe, LGPD-konformes Verhalten (LGPD: brasilianische Datenschutzverordnung Lei Geral de Proteçao de Datos) sicherzustellen. Bei der Erstellung einer Datenschutzanfrage wurde dem Privacy Core Service die LGPD-Verordnung hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
 
 **Verbesserungen**
 
