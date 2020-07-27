@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6120'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates-july-2020}
 
-Es wurde ein neuer Abschnitt mit Leitlinien für die Überwachung der Campaign Standard hinzugefügt. [Mehr dazu](../../administration/using/monitoring-guidelines.md)
+Es wurde ein neuer Abschnitt mit Richtlinien für die Überwachung in Campaign Standard hinzugefügt. [Mehr dazu](../../administration/using/monitoring-guidelines.md)
 
-Der Abschnitt &quot;Externe API-Richtlinien und -Einschränkungen&quot;wurde aktualisiert.[Mehr dazu](../../automating/using/external-api.md#guardrails)
+Der Abschnitt zu den Schutzmechanismen und Begrenzungen für externe APIs wurde aktualisiert. [Mehr dazu](../../automating/using/external-api.md#guardrails)
 
-Die Seite &quot;Überblick über das Datenschutzmanagement&quot;wurde aktualisiert und enthält nun Informationen zum thailändischen Datenschutzgesetz (PDPA) und dem brasilianischen Lei Geral de Proteção de Dados (LGPD). [Mehr dazu](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+Die Seite mit der Übersicht über die Datenschutzverwaltung wurde aktualisiert und enthält nun Informationen zum thailändischen Datenschutzgesetz (PDPA) und zum brasilianischen Datenschutzgesetz (Lei Geral de Proteção de Dados, LGPD). [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-Das Handbuch Mobile Kanal wurde überarbeitet und verbessert. Eine neue Anleitung zum Konfigurieren von mobilen Kanälen wurde mit technischer Dokumentation zur Mobilkonfiguration hinzugefügt. [Mehr dazu](../../administration/using/push-tracking.md)
+Das Handbuch zu mobilen Kanälen wurde überarbeitet und verbessert. Eine neue Anleitung zum Konfigurieren von mobilen Kanälen mit technischer Dokumentation zur Mobilkonfiguration wurde hinzugefügt. [Mehr dazu](../../administration/using/push-tracking.md)
 
-Die Seite &quot;Datenschutzverwaltung in Campaign Standard&quot;wurde aktualisiert und enthält Erläuterungen zur Verwaltung von Datenschutzanforderungen über die Integration des Datenschutzzentrale-Dienstes. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+Die Seite zur Datenschutzverwaltung in Campaign Standard wurde aktualisiert und enthält eine Klarstellung, wie Datenschutzanfragen über die Privacy Core Service-Integration verwaltet werden. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-Neue AI-basierte E-Mail-Funktionen: Zeitoptimierung und Profil-Bewertung senden. [Mehr dazu](../../sending/using/predictive.md)
+Neue KI-gestützte E-Mail-Funktionen: Sendezeitoptimierung und Profilbewertung. [Mehr dazu](../../sending/using/predictive.md)
 
 ## Aktualisierungen der Dokumentation – Juni 2020 {#doc-updates-june-2020}
 
@@ -496,7 +496,7 @@ Videos wurden aktualisiert und [hierher](https://docs.adobe.com/content/help/en/
 
 Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
-## Version 18.9 - September 2018         {#release-18-9---september-2018}
+## Version 18.9 - September 2018          {#release-18-9---september-2018}
 
 **Neue Funktionen in der Version**
 
@@ -512,7 +512,7 @@ Zusätzliche Informationen zum Löschen einer Audience – [mehr dazu](../../aud
 
 Aktualisierter Abschnitt zu Push-Benachrichtigungen in nativen Berichten. [mehr dazu](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juli 2018         {#release-18-7---july-2018}
+## Version 18.7 - Juli 2018          {#release-18-7---july-2018}
 
 **Neue Funktionen in der Version**
 
@@ -590,7 +590,7 @@ Die Liste der unterstützten Analytics-Lösungen/Core Services für die Integrat
 
 Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Version 18.3 - März 2018         {#release-18-3---march-2018}
+## Version 18.3 - März 2018          {#release-18-3---march-2018}
 
 **Neue Funktionen in der Version**
 
@@ -622,7 +622,7 @@ Die Liste der Hilfematerialien zur Integration von Campaign und Adobe-Lösungen 
 
 Die kontextuelle Hilfe von Campaign Standard wurde aktualisiert.
 
-## Version 18.2 - Februar 2018         {#release-18-2---february-2018}
+## Version 18.2 - Februar 2018          {#release-18-2---february-2018}
 
 **Neue Funktionen in der Version**
 
@@ -666,7 +666,7 @@ Aktualisierte Informationen zu Zustellproblemen und Quarantänen – [mehr dazu]
 
 Neue Abschnitte zu [Zielgruppen-Mappings](../../administration/using/target-mappings-in-campaign.md), [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - Januar 2018         {#release-18-1---january-2018}
+## Version 18.1 - Januar 2018          {#release-18-1---january-2018}
 
 **Neue Funktionen in der Version**
 
@@ -694,7 +694,7 @@ Zusätzliche Informationen zu Verlaufsparametern der Dateiübertragungsaktivitä
 
 Die Anleitungen zur Konfiguration der Integration mit Audience Manager oder People Core Service wurden aktualisiert – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - Oktober 2017         {#release-17-10---october-2017}
+## Version 17.10 - Oktober 2017          {#release-17-10---october-2017}
 
 **Neue Funktionen in der Version**
 
@@ -774,7 +774,7 @@ Aktualisierter Abschnitt zur Workflow-Aktivität &quot;Dateiübertragung&quot; �
 
 Zur Option &quot;Vor dem Nachrichtenversand Bestätigung einholen&quot; in der Workflow-Aktivität &quot;E-Mail-Versand&quot; wurden Informationen hinzugefügt – [mehr dazu](../../automating/using/email-delivery.md)
 
-## Version 17.7 - Juli 2017         {#release-17-7---july-2017}
+## Version 17.7 - Juli 2017          {#release-17-7---july-2017}
 
 **Neue Funktionen in der Version**
 
@@ -806,7 +806,7 @@ Zur Anmeldung mit zweifacher Bestätigung wurde eine schrittweise Anleitung hinz
 
 Der Abschnitt zur Liste der Rollen wurde aktualisiert – [mehr dazu](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - Mai 2017         {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017          {#release-17-5---may-2017}
 
 **Neue Funktionen in der Version**
 
@@ -822,13 +822,13 @@ Zahlreiche Screenshots wurden entsprechend den Änderungen der Benutzeroberfläc
 
 Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with your mobile app&quot; – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html)
 
-Anleitungen zum Konfigurieren des Hauptdienstes für Personen oder zur Integration von Audience Managern mit Adobe Campaign wurden hinzugefügt. [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
-## Version 17.4 - April 2017         {#release-17-4---april-2017}
+## Version 17.4 - April 2017          {#release-17-4---april-2017}
 
 **Neue Funktionen in der Version**
 
@@ -858,7 +858,7 @@ Der Abschnitt zum Arbeiten mit Bildern in Campaign wurde aktualisiert – [mehr 
 
 Die Integration mit Adobe Analytics for Mobile (Point of Interest) wurde aktualisiert, einschließlich Konfigurationsschritten und Anwendungsbeispielen – [mehr dazu](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - März 2017         {#release-17-2---march-2017}
+## Version 17.2 - März 2017          {#release-17-2---march-2017}
 
 **Neue Funktionen in der Version**
 
@@ -886,7 +886,7 @@ Die API-Dokumentation für Entwickler wurde durch neue Informationen und Code-Sn
 
 Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-audience.md) und [Externes Signal](../../automating/using/external-signal.md) wurden Beispiele hinzugefügt.
 
-## Version 17.1 - Januar 2017         {#release-17-1---january-2017}
+## Version 17.1 - Januar 2017          {#release-17-1---january-2017}
 
 **Neue Funktionen in der Version**
 
