@@ -3,11 +3,11 @@ product: adobe campaign
 sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 97%
       + [Testversand durchführen](sending/using/sending-proofs.md)
       + [E-Mail-Nachrichten mit zielgerichteten Profilen testen](sending/using/testing-messages-using-target.md)
       + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
-      + [AI-basierte E-Mails](sending/using/predictive.md)
+      + [KI-gestützte E-Mails](sending/using/predictive.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
       + [Fallen verwenden](sending/using/using-traps.md)
    + Versandplanung {#scheduling-messages}
@@ -314,7 +314,7 @@ ht-degree: 97%
          + [E-Mail- und Briefpostversand verbinden](automating/using/coupling-email-direct-mail.md)
          + [E-Mail mit angereicherten Feldern senden](automating/using/sending-email-enriched-fields.md)
          + [E-Mail mit Zusatzdaten personalisieren](automating/using/personalizing-email-with-additional-data.md)
-         + [Wiederkehrende Push-Benachrichtigung senden](automating/using/recurring-push-notifications.md)
+         + [Wiederkehrende Push-Benachrichtigungen senden](automating/using/recurring-push-notifications.md)
       + Segmentierung und Targeting {#segmentation-targeting}
          + [Beispiele für Abfragen ](automating/using/query-samples.md)
          + [Vereinigung von zwei eingegrenzten Audiences](automating/using/union-on-two-refined-audiences.md)
@@ -402,13 +402,13 @@ ht-degree: 97%
       + [SMS-Kanal konfigurieren](administration/using/configuring-sms-channel.md)
       + [Mobile App konfigurieren](administration/using/configuring-a-mobile-application.md)
       + [Transaktionsnachrichten konfigurieren](administration/using/configuring-transactional-messaging.md)
-   + Konfigurieren von mobilen Kanälen {#configuring-mobile}
+   + Mobile Kanäle konfigurieren {#configuring-mobile}
       + [Push-Tracking implementieren](administration/using/push-tracking.md)
-      + [Hinzufügen von Bildern und Videos unter iOS](administration/using/image-push-notification.md)
-      + [Die Payload-Struktur von Push-Benachrichtigungen](administration/using/push-payload.md)
+      + [Bilder und Videos unter iOS hinzufügen](administration/using/image-push-notification.md)
+      + [Payload-Struktur der Push-Nachrichten verstehen](administration/using/push-payload.md)
       + [Lokales Benachrichtigungs-Tracking implementieren](administration/using/local-tracking.md)
-      + [SyncWithLaunch - Häufig gestellte Fragen zum technischen Arbeitsablauf](administration/using/syncwithlaunch-faq.md)
-      + [Erste Schritte mit Adobe Experience Platform SDK und Kampagne](administration/using/aep-faq.md)
+      + [Häufig gestellte Fragen zum technischen Workflow &quot;SyncWithLaunch&quot;](administration/using/syncwithlaunch-faq.md)
+      + [Erste Schritte mit Adobe Experience Platform SDKs und Campaign](administration/using/aep-faq.md)
    + Anwendungskonfiguration {#application-settings}
       + [Über Campaign Standard-Einstellungen](administration/using/about-campaign-standard-settings.md)
       + [Externe Konten](administration/using/external-accounts.md)
