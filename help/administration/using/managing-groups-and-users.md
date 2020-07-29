@@ -12,8 +12,11 @@ discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+translation-type: tm+mt
+source-git-commit: 09a6e062be32b78fda6b0eb83a6d11ac249b3168
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 98%
 
 ---
 
@@ -129,6 +132,10 @@ Der Administrator-Benutzer muss die Sicherheitsgruppen erstellen, die für die Z
    Die Kennung muss mit der in der Admin Console verwendeten identisch sein.
 
 1. Weisen Sie im Feld **[!UICONTROL Benutzerzugriff]** eine Organisationseinheit zu. In unserem Beispiel wird der Geometrixx-Sicherheitsgruppe die Organisationseinheit **[!UICONTROL Alle]** zugewiesen.
+
+   >[!NOTE]
+   >
+   >Wenn Sie Ihren Benutzern eine vordefinierte Sicherheitsgruppe zuweisen, müssen Sie die organisatorische Einheit zurücksetzen.
 
    ![](assets/manage_security_group_6.png)
 
