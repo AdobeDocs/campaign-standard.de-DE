@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -62,9 +62,9 @@ Sie können Ihren Workflow jetzt mit anderen Aktivitäten konfigurieren. Sie kö
 
 >[!NOTE]
 >
->Mit Campaign Standard können Sie Adobe Experience Platform-Audiences in allen Versandkanälen auswählen: E-Mails, SMS-Nachrichten, Briefpostnachrichten, Push-Benachrichtigungen und In-App-Nachrichten.
+>Mit Campaign Standard können Sie Adobe Experience Platform-Audiencen in allen Versand-Kanälen Zielgruppe haben: E-Mails, SMS-Nachrichten, Briefpost-, Push-Benachrichtigungen und In-App-Nachrichten.
 >
->*Hinweis: Bei allen Push- und In-App-Nachrichten unterstützt Campaign Standard nur Sendungen an bekannte Profile.
+>*Hinweis: Bei allen Push- und In-App-Nachrichten unterstützt Campaign Standard nur Versand für bekannte Profil.
 
 Weitere Informationen zur Verwendung von Workflows und Sendungen finden Sie in den folgenden Abschnitten:
 
