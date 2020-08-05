@@ -12,10 +12,10 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7755877031c5ef2dbbac395ac40b2f76670a6499
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '1421'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -138,13 +138,13 @@ In einigen Fällen kann sich der Campaign-Endpunkt für eine Mobile App von dem 
 
 ## Kanalspezifische App-Konfiguration in Adobe Campaign {#channel-specific-config}
 
-Ihre Mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-Sendungen verwendet werden. Sie können sie jetzt bei Bedarf weiter konfigurieren, um Ereignisse zu erstellen, die Ihre In-App-Nachrichten auslösen und/oder Push-Zertifikate hochladen.
+Ihre Mobilanwendung kann jetzt in Kampagne für Push-Benachrichtigungen oder In-App-Versand verwendet werden. Sie können sie jetzt bei Bedarf weiter konfigurieren, um Ereignis zu erstellen, die Ihre In-App-Nachrichten auslösen und/oder Push-Zertifikate hochladen.
 
 1. Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App (AEP SDK)]** aus.
 
 1. Wählen Sie die in Experience Platform Launch erstellte und konfigurierte Mobile App aus.
 
-1. Fügen Sie im Tab **[!UICONTROL Eigenschaften der Mobile App]** Ereignisse hinzu, die in Ihrer Mobile App für Ihre In-App-Nachrichten verfügbar sind.
+1. On the **[!UICONTROL Mobile application properties]** tab, you can start adding events that are available in your mobile application for your In-App messages.
 
 1. Klicken Sie zum Konfigurieren Ihrer Ereignisse auf **[!UICONTROL Element erstellen]**.
 
@@ -156,7 +156,7 @@ Ihre Mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
 1. Wählen Sie **[!UICONTROL Hinzufügen]** aus.
 
-   Das entsprechende Ereignis ist jetzt bei der Erstellung einer In-App-Nachricht im Triggers-Tab verfügbar. Weitere Informationen finden Sie unter [In-App-Nachricht vorbereiten und senden](../../channels/using/preparing-and-sending-an-in-app-message.md).
+   Ihr Ereignis ist jetzt auf der Registerkarte &quot;Auslöser&quot;verfügbar, wenn Sie eine In-App-Nachricht erstellen. Weitere Informationen finden Sie unter [In-App-Nachricht vorbereiten und senden](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
 1. Geben Sie im Mobile-App-Dashboard im Bereich **[!UICONTROL Gerätespezifische Parameter]** die Anwendungsdetails für jedes Gerät an, einschließlich des Zertifikats für iOS und des Server-Schlüssels für Android.
 
