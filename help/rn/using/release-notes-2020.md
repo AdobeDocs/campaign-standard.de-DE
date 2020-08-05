@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '1830'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 100%
 * Beim Auswählen und Aktualisieren von Testprofilen tritt kein Fehler mehr auf. (CAMP-37976)
 * Beim Anmelden oder Abmelden über Landingpages werden keine Fehlerseiten mehr angezeigt. (CAMP-37771)
 * Beim Hochladen von Inhalten im Zip-Format tritt jetzt kein Fehler mehr auf, bei dem PNG-Dateien im HTML-Code mit ihrer Erweiterung in Großbuchstaben referenziert wurden. (CAMP-37913)
-* In-App-Nachrichten können jetzt gesendet werden, wenn dem Versand ein Testprofil hinzugefügt wird.
+* Es wurde ein Fehler behoben, der verhinderte, dass In-App-Nachrichten gesendet wurden, wenn dem Versand ein Test-Profil hinzugefügt wurde.
 * Bei der Workflow-Aktivität „Externe API“ wurde ein Fehler behoben, durch den bei der Verknüpfung mit Anreicherungsaktivitäten die Aktivität fehlschlug.
 * Der Status von SMS-Nachrichten wird jetzt korrekt angezeigt.
 * Bei benutzerdefinierten Ressourcen tritt jetzt kein Fehler mehr auf, sodass unter unterschiedlichen API-Endpunkten keine doppelten Einträge mehr angezeigt werden.
