@@ -1,6 +1,6 @@
 ---
-title: Häufig gestellte Fragen zur Adobe Experience Platform-SDK und Adobe Campaign-Integration
-description: Häufig gestellte Fragen zur Adobe Experience Platform-SDK und Adobe Campaign-Integration
+title: Häufig gestellte Fragen zur Adobe Experience Platform SDK und Adobe Campaign-Integration
+description: Häufig gestellte Fragen zur Adobe Experience Platform SDK und Adobe Campaign-Integration
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '845'
 ht-degree: 3%
 
 ---
 
 
-# Erste Schritte mit Adobe Experience Platform SDK und Campaign Standard {#aep-faq}
+# Häufig gestellte Fragen zur Experience Platform SDK-Integration {#aep-faq}
 
 Um Push-Benachrichtigungen und In-App-Nachrichten mit Experience Platform SDK zu senden, muss eine Mobilanwendung im Adobe Experience Platform SDK eingerichtet und in Adobe Campaign konfiguriert werden.
 
@@ -39,9 +39,9 @@ Weitere Informationen zur Adobe Experience Platform SDK- und Campaign Standard-I
 * Video [über Start/Mobile-Übersicht](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
 * Handbuch &quot; [Starts/Handys und Tricks&quot;](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
-## Ist die Adobe Experience Platform SDK-Integration sowohl für Adobe Campaign Standard als auch für Adobe Campaign Classic verfügbar? {#aep-validity}
+## Ist die Adobe Experience Platform SDK-Integration für Adobe Campaign Standard und Adobe Campaign Classic verfügbar? {#aep-validity}
 
-Ja. Die [!DNL Adobe Experience Platform SDK] Integration ist sowohl für Adobe Campaign Standard als auch für Adobe Campaign Classic verfügbar. Sie müssen die entsprechende **[!UICONTROL Erweiterung]** über installieren, [!DNL Adobe Launch] um die Integration zu aktivieren.
+Ja, die [!DNL Adobe Experience Platform SDK] Integration ist für Adobe Campaign Standard und Adobe Campaign Classic verfügbar. Sie müssen die entsprechende **[!UICONTROL Erweiterung]** über installieren, [!DNL Adobe Launch] um die Integration zu aktivieren.
 
 Weitere Informationen dazu finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) zum Campaign Classic und auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) zum Campaign Standard.
 
@@ -55,7 +55,7 @@ In der folgenden Tabelle finden Sie weitere Informationen zu diesen Funktionen.
 >
 >[!DNL Places] Die Integration umfasst Orte, an denen Ereignis als Auslöser für In-App-Nachrichten (Nicht-App-Nachrichten für Push-Benachrichtigungen) fungieren, wodurch Profil mit Unterstützung für [!DNL Places] Daten und lokale Benachrichtigungen erweitert werden. Weitere Informationen finden Sie auf dieser [Seite](../../channels/using/preparing-and-sending-an-in-app-message.md) . <br>[!DNL Places] Die eingeschränkte Integration umfasst die Anreicherung von Profilen mit [!DNL Places] Daten.
 
-## Welchen Anwendungsfall erleichtert die Adobe Experience Platform SDK-Integration im Adobe Campaign Standard? {#aep-use-cases}
+## Welchen Anwendungsfall erleichtert die Adobe Experience Platform SDK-Integration in Adobe Campaign Standard? {#aep-use-cases}
 
 Die folgenden Anwendungsfälle werden unterstützt:
 
@@ -95,7 +95,7 @@ Ja. Je nach Bedarf Ihres Unternehmens können Sie CollectPII-Aufrufe auslösen, 
 
 Häufigkeit und Design von CollectPII-Aufrufen sollten von geschäftlichen Anforderungen bestimmt werden und sollten nicht blindlings ausgelöst werden, da sie zusätzliche Belastungen für die DB verursachen.
 
-### Wenn ich versuche, auf Adobe Experience Platform-Apps in Kampagne oder Start zuzugreifen, wird manchmal ein Fehler wegen fehlender Eigenschaft angezeigt. {#aep-error}
+### Wenn ich versuche, auf Adobe Experience Platform-Apps in Kampagne oder Launch zuzugreifen, wird manchmal ein Fehler wegen fehlender Eigenschaft angezeigt. {#aep-error}
 
 Dies ist ein bekanntes Problem, das aufgrund des Ablaufs von Token auftritt. Sie sollten sich ab- und einloggen.
 
