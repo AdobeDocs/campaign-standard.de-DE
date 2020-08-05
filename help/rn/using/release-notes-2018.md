@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '5457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  <tbody> 
   <tr> 
    <td> In-App-Messaging (Beta)<br /> </td> 
-   <td> In-App-Messaging ermöglicht Ihnen, Mobile-App-Benutzer wirkungsvoller anzusprechen, da In-App-Messaging kontextuelle Interaktionen ermöglicht und Benutzer erreicht werden können, die sich von Push-Benachrichtigungen abgemeldet haben. Die Nutzung von In-App-Messaging gemeinsam mit Push-Benachrichtigungen ermöglicht ein stark personalisiertes und relevantes Benutzererlebnis. Dies wiederum sorgt für mehr Konversionen und bessere Kundenbindung.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-in-app-messaging.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> In-App-Messaging ermöglicht Ihnen, Mobile-App-Benutzer wirkungsvoller anzusprechen, da In-App-Messaging kontextuelle Interaktionen ermöglicht und Benutzer erreicht werden können, die sich von Push-Benachrichtigungen abgemeldet haben. Verwenden Sie In-App-Nachrichten in Verbindung mit Push-Benachrichtigungen, um ein äußerst personalisiertes und relevantes Erlebnis zu erstellen. Dies wiederum sorgt für mehr Konversionen und bessere Kundenbindung.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-in-app-messaging.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integration von Adobe Launch für Mobile Apps (Beta)<br /> </td> 
