@@ -12,17 +12,17 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '534'
 ht-degree: 6%
 
 ---
 
 
-# Häufig gestellte Fragen zur Synchronisierung mit dem technischen Arbeitsablauf beim Start {#syncwithlaunch-faq}
+# Häufig gestellte Fragen zur Synchronisierung von Adoben {#syncwithlaunch-faq}
 
-Sie können mobile Adobe Launch-Eigenschaften über den eigenen technischen Arbeitsablauf **[!UICONTROL Synchronisieren mit Launch]** in den Adobe Campaign Standard importieren. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/technical-workflows.md)
+Sie können die Eigenschaften von Adobe Launch Mobile über den eigenen technischen Arbeitsablauf **[!UICONTROL Synchronisieren mit Launch]** nach Adobe Campaign Standard importieren. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/technical-workflows.md)
 
 Im folgenden Abschnitt werden allgemeine Fragen zu dieser Synchronisierung Liste.
 
@@ -40,13 +40,13 @@ Nur Administrator der Organisationseinheit ALL kann mobile Anwendungen in Adobe 
 
 For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
-## Ich bin Administrator mit der Organisationseinheit ALL im Adobe Campaign Standard, aber ich kann keine Mobilanwendung konfigurieren. {#org-unit-mobile}
+## Ich bin Administrator mit der Organisationseinheit ALL in Adobe Campaign Standard, aber ich kann keine Mobilanwendung konfigurieren. {#org-unit-mobile}
 
 Ein Administrator mit einer auf ALL gesetzten Organisationseinheit sollte über Rechte für alle mobilen Eigenschaften verfügen, um die Mobilanwendung zu konfigurieren. [!DNL Launch]
 
 For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
-## Ich habe eine mobile Eigenschaft in erstellt, [!DNL Launch] aber meine Eigenschaft ist im Adobe Campaign Standard nicht sichtbar. {#visibility-mobile-property}
+## Ich habe eine mobile Eigenschaft in erstellt, [!DNL Launch] aber meine Eigenschaft ist in Adobe Campaign Standard nicht sichtbar. {#visibility-mobile-property}
 
 1. Überprüfen Sie, ob die Adobe Campaign Standard-Erweiterung in der Eigenschaft mobile in installiert ist [!DNL Launch].
 
