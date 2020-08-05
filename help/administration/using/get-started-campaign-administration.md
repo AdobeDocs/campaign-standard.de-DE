@@ -11,11 +11,11 @@ topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Alle Kommunikationskanäle in Adobe Campaign müssen korrekt konfiguriert sein, 
 
 Konfigurieren Sie verschiedene **E-Mail**-Parameter: Verarbeitungsregeln für Bounce, Quarantänen, E-Mail-Eigenschaften und Routing-Parameter, Typologieregeln. Definieren Sie Routing-Konfigurationen und -Eigenschaften für den **SMS**-Kanal sowie SMS-Kodierung und -Formate.
 
-Richten Sie **Mobile Apps** ein, um In-App-Nachrichten und Push-Benachrichtigungen mit Adobe Experience Platform-SDKs zu senden und **Transaktionsnachrichten** zu konfigurieren, indem Sie Ereignisse erstellen und einrichten.
+Set up **mobile applications** in order to be able to send In-App messages and push notifications using Adobe Experience Platform SDKs, and configure **transactional messaging** by creating and setting up events.
 
 Mehr dazu:
 
