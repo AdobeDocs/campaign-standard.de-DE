@@ -11,11 +11,11 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Diese Ressource kann erweitert werden, um die Daten festzulegen, die vom Mobilge
 
 1. Konfigurieren Sie in der Kategorie **[!UICONTROL Profilrelation]** den Abstimmschlüssel, der zur Verknüpfung von Profilen der Adobe Campaign-Datenbank mit Abonnenten Ihrer App dient (beispielsweise die E-Mail-Adresse).
 
-   Beachten Sie, dass Sie für Ihre In-App-Nachrichten nur einen Abstimmschlüssel für alle Mobilanwendungen definieren können.
+   Beachten Sie, dass Sie für Ihre In-App-Nachrichten in allen Mobile Apps nur einen einzigen Abstimmschlüssel definieren können.
 
    ![](assets/in_app_personal_data_3.png)
 
