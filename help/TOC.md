@@ -3,9 +3,9 @@ product: adobe campaign
 sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
-translation-type: ht
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 100%
 
@@ -136,13 +136,13 @@ ht-degree: 100%
    + [Erste Schritte mit Testen und Senden](sending/using/get-started-sending-messages.md)
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
       + [Sendungen in Vorschau anzeigen](sending/using/previewing-messages.md)
-      + [Versandvorbereitung](sending/using/preparing-the-send.md)
       + [Testversand durchführen](sending/using/sending-proofs.md)
       + [E-Mail-Nachrichten mit zielgerichteten Profilen testen](sending/using/testing-messages-using-target.md)
       + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
       + [KI-gestützte E-Mails](sending/using/predictive.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
       + [Fallen verwenden](sending/using/using-traps.md)
+      + [Versandvorbereitung](sending/using/preparing-the-send.md)
    + Versandplanung {#scheduling-messages}
       + [Über die Planung von Sendungen](sending/using/about-scheduling-messages.md)
       + [Versandzeitpunkt optimieren](sending/using/optimizing-the-sending-time.md)
