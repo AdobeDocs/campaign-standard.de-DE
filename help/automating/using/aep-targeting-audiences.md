@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience in Ihren Wor
 
    >[!NOTE]
    >
-   >Bei Zielgruppen außerhalb des Primärschlüssels müssen Sie auch ein benutzerdefiniertes Zielgruppen-Mapping erstellen, das dem benutzerdefinierten Namensraum entspricht. Weiterführende Informationen zum Zielgruppen-Mapping erfahren Sie in [diesem Abschnitt](../../administration/using/target-mappings-in-campaign.md).
+   >Bei Zielgruppen außerhalb des Primärschlüssels müssen Sie auch ein benutzerdefiniertes Zielgruppen-Mapping erstellen, das dem benutzerdefinierten Namespace entspricht. Weiterführende Informationen zum Zielgruppen-Mapping erfahren Sie in [diesem Abschnitt](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
@@ -62,9 +62,9 @@ Sie können Ihren Workflow jetzt mit anderen Aktivitäten konfigurieren. Sie kö
 
 >[!NOTE]
 >
->Mit Campaign Standard können Sie Adobe Experience Platform-Audiencen in allen Versand-Kanälen Zielgruppe haben: E-Mails, SMS-Nachrichten, Briefpost-, Push-Benachrichtigungen und In-App-Nachrichten.
+>Mit Campaign Standard können Sie Adobe Experience Platform-Audiences in allen Versandkanälen auswählen: E-Mails, SMS-Nachrichten, Briefpostnachrichten, Push-Benachrichtigungen und In-App-Nachrichten.
 >
->*Hinweis: Bei allen Push- und In-App-Nachrichten unterstützt Campaign Standard nur Versand für bekannte Profil.
+>*Hinweis: Bei allen Push- und In-App-Nachrichten unterstützt Campaign Standard nur Sendungen an bekannte Profile.
 
 Weitere Informationen zur Verwendung von Workflows und Sendungen finden Sie in den folgenden Abschnitten:
 
