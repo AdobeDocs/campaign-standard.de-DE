@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: ht
-source-wordcount: '918'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ Gehen Sie wie folgt vor, um einen E-Mail-Versand zu erstellen:
 1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer E-Mail zu bearbeiten, wählen Sie **[!UICONTROL E-Mail-Designer verwenden]** aus.
 1. Bearbeiten und speichern Sie Ihre Inhalte.
-1. Deaktivieren Sie im Nachrichten-Dashboard im Bereich **[!UICONTROL Planung]** die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]**.
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 Gehen Sie wie folgt vor, um einen SMS-Versand zu erstellen:
 
