@@ -13,15 +13,15 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 9%
+source-wordcount: '1085'
+ht-degree: 10%
 
 ---
 
 
-# Konfigurieren von Startregeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen {#configuring-rules-launch}
+# Konfigurieren von Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen {#configuring-rules-launch}
 
 In [!DNL Adobe Experience Platform Launch], you need to create data elements and rules to send PII and other data from mobile applications to [!DNL Adobe Campaign Standard].
 
@@ -86,7 +86,7 @@ Sie müssen Regeln für Folgendes erstellen:
 
 Um PII-Daten an [!DNL Adobe Campaign Standard]zu senden, erstellen Sie eine Regel in [!DNL Experience Platform Launch]:
 
-1. Klicken Sie [!DNL Experience Platform Launch]im Dashboard der Mobilanwendung auf die Registerkarte **[!UICONTROL Regeln]** und dann auf Neue Regel **[!UICONTROL erstellen]**.
+1. Klicken Sie [!DNL Experience Platform Launch]im Dashboard Ihrer Mobilanwendung auf die Registerkarte **[!UICONTROL Regeln]** und dann auf Neue Regel **[!UICONTROL erstellen]**.
 
 1. Geben Sie einen Namen ein, z. B. **Mobile Core - Collect PII**.
 
@@ -128,15 +128,15 @@ Um PII-Daten an [!DNL Adobe Campaign Standard]zu senden, erstellen Sie eine Rege
 
    Sie können auch Lebenszyklusdaten im PII-Postback sammeln oder in einem anderen Postback weitergeben, je nachdem, welches Ereignis ausgelöst wird. Hier ist ein Beispiel für die JSON-Datei zu Lebenszyklusdaten:
 
-       &quot;
- {     
- &quot;marketingCloudId&quot;:&quot;{%%mcid%%}&quot;,     
-     &quot;cusDayslastlaunch&quot;: &quot;{%%DaysSinceLastUse%}&quot;,
-     &quot;cusDaysfirstlaunch&quot;: &quot;{%%DaysSinceFirstUse%}&quot;,
-     &quot;cusLaunches&quot;: &quot;{%%Launches%}&quot;
-     }
-     &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    Die Datenelemente, die in definiert sind, [!DNL Experience Platform Launch] sollten in Prozentzahlen zur Dublette eingeschlossen werden, z. B. %%mcid%%, und Kontextvariablen der App sollten in einzelnen Prozentwerten eingeschlossen werden, z. B. %contextdata.email%.
 
 1. Geben Sie unter **[!UICONTROL Content-Typ]** den Wert **application/json** ein.
@@ -211,7 +211,7 @@ Verwenden Sie zur Verfolgung von App-Aktionen die trackAction-API. Weitere Infor
 
 1. Aktivieren Sie das Kontrollkästchen &quot; **[!UICONTROL HinzufügenPost Body]** &quot;.
 
-1. Hinzufügen Sie Ihren Beitragstext, z. B. { }.
+1. hinzufügen Sie Ihren Beitragstext, z. B. { }.
 
 1. Geben Sie unter **[!UICONTROL Content-Typ]** den Wert **application/json** ein.
 
