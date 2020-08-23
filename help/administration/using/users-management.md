@@ -11,10 +11,10 @@ topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: ht
-source-wordcount: '1200'
+translation-type: tm+mt
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+workflow-type: tm+mt
+source-wordcount: '1199'
 ht-degree: 100%
 
 ---
@@ -139,7 +139,7 @@ Anschließend können Sie überprüfen, ob der Benutzer richtig mit Adobe Campai
 
 1. Überprüfen Sie die Sicherheitsgruppe des Benutzers. Hier können Sie sehen, dass dem Benutzer die Sicherheitsgruppe **[!UICONTROL Administrator]** zugewiesen wurde.
 
-   >[!NHinweis]
+   >[!NOTE]
    >
    >Das Hinzufügen oder Entfernen von Sicherheitsgruppen von einem Benutzer ist nur in der Admin Console möglich.
 
