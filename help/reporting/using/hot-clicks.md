@@ -12,8 +12,11 @@ discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 100%
 
 ---
 
@@ -65,7 +68,7 @@ Ein Ausführungsversand ist eine nicht funktionelle und nicht ausführbare techn
 
 * Standardmäßig einmal im Monat für Transaktionsnachrichten und jedes Mal, wenn eine Transaktionsnachricht bearbeitet und wieder publiziert wird
 
-   Weiterführende Informationen zu Transaktionsnachrichten finden Sie im Abschnitt [Über den Versand von Transaktionsnachrichten](../../channels/using/about-transactional-messaging.md).
+   Weiterführende Informationen zu Transaktionsnachrichten finden Sie im Abschnitt [Über den Versand von Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
