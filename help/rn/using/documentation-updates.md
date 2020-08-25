@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: ht
-source-wordcount: '6120'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
+workflow-type: tm+mt
+source-wordcount: '6147'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 100%
 # Aktualisierungen der Dokumentation{#documentation-updates}
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
+
+## Dokumentationsaktualisierungen – August 2020 {#doc-updates-august-2020}
+
+Ein neuer aktualisierter Abschnitt über die ersten Schritte mit Transaktionsnachrichten ist verfügbar. [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
+
+Der Abschnitt Beschränkungen für Transaktionsnachrichten wurde verschoben. [mehr dazu](../../channels/using/transactional-messaging-limitations.md)
 
 ## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates-july-2020}
 
@@ -128,7 +134,7 @@ Es gibt jetzt einen neuen Abschnitt zum Löschen einer Ereigniskonfiguration –
 
 Die Seite, auf der beschrieben wird, wie Sie den Betreff einer E-Mail testen können, um die Öffnungsrate vorherzusagen, wurde aktualisiert und verbessert und enthält jetzt einen neuen Abschnitt zur [Fehlerbehebung](../../sending/using/testing-subject-line-email.md#troubleshooting) – [mehr dazu](../../sending/using/testing-subject-line-email.md)
 
-Die Abschnitte für den Transaktionsnachrichtenversand wurden entsprechend den zahlreichen geringfügigen Aktualisierungen und Verbesserungen der Benutzeroberfläche aktualisiert – [mehr dazu](../../channels/using/about-transactional-messaging.md)
+Die Abschnitte für den Transaktionsnachrichtenversand wurden entsprechend den zahlreichen geringfügigen Aktualisierungen und Verbesserungen der Benutzeroberfläche aktualisiert – [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 
 Informationen zu den Limits externer API-Aktivitäten wurden aktualisiert – [mehr dazu](../../automating/using/external-api.md)
 
@@ -236,7 +242,7 @@ Die Liste der Fehlermeldungen für Campaign Standard und Campaign Classic wurde 
 
 Die ersten Schritte zum Thema DSGVO wurden verbessert und erweitert. Es handelt sich nun um eine Dokumentation rund um die Gewährleistung von Datenschutz gemäß den Bestimmungen der DSGVO und des CCPA – [mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/campaign-privacy.html)
 
-Eine neue Grafik wurde hinzugefügt, die den Veröffentlichungsprozess von Transaktionsnachrichten aufzeigt – [mehr dazu](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+Eine neue Grafik wurde hinzugefügt, die den Veröffentlichungsprozess von Transaktionsnachrichten aufzeigt – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 Die ersten Schritte zum Thema Best Practices bei der Zustellung wurden aktualisiert – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Workflow-Verbesserungen – mehr dazu [hier](../../automating/using/workflow-int
 
 Eine neue Einführung zur Erstellung von E-Mail-Inhalten und andere Verbesserungen bei E-Mail-Designer wurden zum Abschnitt zur Bearbeitung von E-Mail-Inhalten hinzugefügt – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-Ein neuer Abschnitt zu Beschränkungen bei Transaktionsnachrichten wurde hinzugefügt – [mehr dazu](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+Ein neuer Abschnitt zu Beschränkungen bei Transaktionsnachrichten wurde hinzugefügt – [mehr dazu](../../channels/using/transactional-messaging-limitations.md)
 
 Ein neuer Abschnitt wurde hinzugefügt, in dem die unterschiedlichen Möglichkeiten zum Erstellen von E-Mails in Adobe Campaign verglichen werden – [mehr dazu](../../designing/using/using-integrations.md#email-design-options-comparison)
 
