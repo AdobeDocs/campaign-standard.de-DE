@@ -11,8 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '3166'
+ht-degree: 98%
 
 ---
 
@@ -27,13 +30,17 @@ Die Ereigniskonfiguration muss von einem [Administrator](../../administration/us
 >
 >Je nach dem Typ der zu sendenden Transaktionsnachricht kann die Konfiguration unterschiedlich sein. Lesen Sie diesbezüglich auch den Abschnitt [Konfigurationen für Transaktionsereignisse](#transactional-event-specific-configurations).
 
-Nach der Publikation des Ereignisses wird die entsprechende Transaktionsnachricht automatisch erstellt. Weiterführende Informationen zum Thema Transaktionsnachrichten finden Sie auf [dieser Seite](../../channels/using/about-transactional-messaging.md).
+Sobald das Ereignis veröffentlicht wurde:
+
+* Die API, die von Ihrem Website-Entwickler verwendet wird, wird bereitgestellt und die transaktionalen Ereignis können jetzt gesendet werden. Siehe [Aktivierung des Ereignisses in eine Website integrieren](#integrating-the-triggering-of-the-event-in-a-website).
+
+* Die entsprechende Transaktionsnachricht wird automatisch erstellt. Siehe [Erste Schritte mit Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## Ereignis erstellen   {#creating-an-event}
 
 Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Nur Benutzer mit der Rolle **[!UICONTROL Administration]**, die Teil der [Organisationseinheit](../../administration/using/organizational-units.md) **[!UICONTROL Alle]** sind, haben die entsprechenden Berechtigungen zum Erstellen einer Ereigniskonfiguration.
 
@@ -168,6 +175,8 @@ Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen un
 
    ![](assets/message-center_pub.png)
 
+   Die API, die von Ihrem Website-Entwickler verwendet wird, wird bereitgestellt und die transaktionalen Ereignis können jetzt gesendet werden.
+
 1. Die Publikationslogs lassen sich mithilfe des gleichnamigen Tabs einsehen.
 
    ![](assets/message-center_logs.png)
@@ -191,6 +200,12 @@ Sobald Adobe Campaign erste Ereignisse im Zusammenhang mit dieser Ereigniskonfig
 ![](assets/message-center_latest-events.png)
 
 Die Ereignisse (im JSON-Format) werden von den jüngsten hin zu den ältesten aufgelistet. Mit dieser Liste können Sie Daten wie den Inhalt oder Status eines Ereignisses zu Kontroll- und Debugging-Zwecken überprüfen.
+
+### Publikationsprozess bei Transaktionsnachrichten {#transactional-messaging-pub-process}
+
+Die nachstehende Tabelle zeigt den Publikationsprozess bei Transaktionsnachrichten.
+
+![](assets/message-center_pub-process.png)
 
 ### Ereignis depublizieren   {#unpublishing-an-event}
 
@@ -229,7 +244,7 @@ Wenn Ereignis depubliziert oder noch nicht publiziert wurde, können Sie es aus 
 
 Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Ereignisses in Ihre Webseite integriert werden.
 
-In dem in Abschnitt [Funktionsweise von Transaktionsnachrichten](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) beschriebenen Beispiel wird ein Ereignis vom Typ &quot;Stehen gelassener Warenkorb&quot; ausgelöst, wenn ein Besucher Ihre Webseite verlassen hat, ohne den Kauf der Artikel in seinem Warenkorb abzuschließen. Zu diesem Zweck muss der Web-Entwickler Ihrer Seite die Adobe Campaign Standard REST-API verwenden.
+In dem in Abschnitt [Funktionsweise von Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) beschriebenen Beispiel wird ein Ereignis vom Typ &quot;Stehen gelassener Warenkorb&quot; ausgelöst, wenn ein Besucher Ihre Webseite verlassen hat, ohne den Kauf der Artikel in seinem Warenkorb abzuschließen. Zu diesem Zweck muss der Web-Entwickler Ihrer Seite die Adobe Campaign Standard REST-API verwenden.
 
 Weiterführende Informationen dazu finden Sie im Abschnitt [REST-API-Dokumentation](../../api/using/managing-transactional-messages.md) .
 
