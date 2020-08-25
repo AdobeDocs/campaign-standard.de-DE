@@ -11,8 +11,11 @@ topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +33,7 @@ Sie können zwei Arten von Transaktions-Push-Benachrichtigungen versenden:
 * Transaktions-Push-Benachrichtigungen, bei denen die Zielgruppenbestimmung durch ein Ereignis erfolgt.
 * Transaktions-Push-Benachrichtigungen, bei denen die Zielgruppenbestimmung durch Profile in der Adobe-Campaign-Datenbank erfolgt.
 
-Nach der Erstellung und Publikation des gewünschten Ereignisses ("Stehen gelassener Warenkorb" wie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) beschrieben) wird die entsprechende Transaktions-Push-Benachrichtigung automatisch erstellt.
+Nach der Erstellung und Publikation des gewünschten Ereignisses (&quot;Stehen gelassener Warenkorb&quot; wie in [diesem Abschnitt](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) beschrieben) wird die entsprechende Transaktions-Push-Benachrichtigung automatisch erstellt.
 
 Die Konfigurationsschritte finden Sie in Abschnitt [Ereignis konfigurieren, um eine Transaktions-Push-Nachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
@@ -38,7 +41,7 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 
 >[!NOTE]
 >
->Sie können nur dann auf Transaktionsmeldungen zugreifen, wenn Sie der Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** angehören.
+>Sie können nur dann auf Transaktionsnachrichten zugreifen, wenn Sie der Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** angehören.
 
 ## Transaktions-Push-Benachrichtigungen, bei denen die Zielgruppenbestimmung durch ein Ereignis erfolgt {#transactional-push-notifications-targeting-an-event}
 
@@ -62,7 +65,7 @@ Das Unternehmen sendet eine einzige Transaktions-Push-Benachrichtigung pro Benut
 
    ![](assets/message-center_push_content.png)
 
-   Wählen Sie dazu das Stiftsymbol neben einem Objekt und **[!UICONTROL Personalisierungsfeld einfügen]** aus und danach **[!UICONTROL Kontext]** &gt; **[!UICONTROL Echtzeit-Ereignis]** &gt; **[!UICONTROL Ereigniskontext]**.
+   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -89,7 +92,7 @@ Das Unternehmen sendet eine einzige Transaktions-Push-Benachrichtigung pro Benut
 
 Wenn der Anmeldetoken existiert, erhält der entsprechende Benutzer eine Transaktions-Push-Benachrichtigung mit folgendem Inhalt:
 
-"Hallo, Jane Green, das Boarding hat soeben begonnen! Bitte gehen Sie zu Flugsteig B18."
+&quot;Hallo, Jane Green, das Boarding hat soeben begonnen! Bitte gehen Sie zu Flugsteig B18.&quot;
 
 ## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt {#transactional-push-notifications-targeting-a-profile}
 
