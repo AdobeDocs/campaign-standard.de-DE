@@ -11,9 +11,9 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Führen Si
 
 ### Ereignis erstellen    {#create-the-event}
 
-Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/about-transactional-messaging.md), da sie auf ein Ereignis reagiert, nämlich die Bestätigung des Formulars. Erstellen Sie zuerst das Ereignis und danach die Vorlage der Transaktionsnachricht.
+Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), da sie auf ein Ereignis reagiert, nämlich die Bestätigung des Formulars. Erstellen Sie zuerst das Ereignis und danach die Vorlage der Transaktionsnachricht.
 
 1. Greifen Sie über das Adobe Campaign-Logo auf **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]** zu, erstellen Sie ein Ereignis und geben Sie den Titel &#39;**CONFIRM**‘ ein.
 1. Wählen Sie die Zielgruppendimension **[!UICONTROL Profil]** und danach **[!UICONTROL Erstellen]** aus.
