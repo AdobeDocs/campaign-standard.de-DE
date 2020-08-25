@@ -11,9 +11,9 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '7632'
 ht-degree: 100%
 
@@ -359,7 +359,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Der Versand von Transaktionsnachrichten wurde optimiert, damit gleichzeitig mehrere Analysen derselben Nachricht durchgeführt werden können.
 * Fehlerkorrektur – Durchsatz und Latenz bei Transaktions-Push-Benachrichtigungen sind jetzt einheitlich.
 * Fehlerkorrektur – Beim Versand von Transaktionsnachrichten wird jetzt die korrekte Zielgruppe angezeigt.
-* Fehlerkorrektur – Beim Import eines Packages mit einer Ereigniskonfiguration und der zugehörigen Transaktionsnachricht tritt jetzt kein Fehler mehr auf. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
+* Fehlerkorrektur – Beim Import eines Packages mit einer Ereigniskonfiguration und der zugehörigen Transaktionsnachricht tritt jetzt kein Fehler mehr auf. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * Fehlerkorrektur – Jetzt werden keine Kollektionsdaten mehr aus den Testprofilen gelöscht, die für eine Transaktionsnachricht mit Produktlisten erstellt wurden.
 
 **Sonstige Änderungen**
