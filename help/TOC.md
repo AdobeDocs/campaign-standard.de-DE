@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 100%
+source-wordcount: '1569'
+ht-degree: 99%
 
 ---
 
@@ -103,7 +103,8 @@ ht-degree: 100%
       + [Briefpost-Audience definieren](channels/using/defining-the-direct-mail-audience.md)
       + [Briefpost-Inhalt definieren](channels/using/defining-the-direct-mail-content.md)
    + Transaktionsnachrichtenversand {#transactional-messaging}
-      + [Über den Versand von Transaktionsnachrichten](channels/using/about-transactional-messaging.md)
+      + [Erste Schritte mit transaktionalem Messaging](channels/using/getting-started-with-transactional-msg.md)
+      + [Einschränkungen bei Transaktionsnachrichten](channels/using/transactional-messaging-limitations.md)
       + [Ereignis-Transaktionsnachrichten](channels/using/event-transactional-messages.md)
       + [Profil-Transaktionsnachrichten](channels/using/profile-transactional-messages.md)
       + [Push-Benachrichtigungen für Transaktionen](channels/using/transactional-push-notifications.md)
