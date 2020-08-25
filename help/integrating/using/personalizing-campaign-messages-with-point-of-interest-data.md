@@ -11,8 +11,11 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Mit den von Abonnenten Ihrer Mobile App erfassten POI-Daten können Sie diesen Abonnenten über Adobe Campaign personalisierte Marketing-Nachrichten wie E-Mails senden.
 
-Sie können auf POI-Daten nur mit Standardsendungen reagieren. [Transaktionsnachrichten](../../channels/using/about-transactional-messaging.md) können keine Standortdaten verwenden.
+Sie können auf POI-Daten nur mit Standardsendungen reagieren. [Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md) können keine Standortdaten verwenden.
 
 Die Reaktionszeit beträgt mindestens 10 Minuten.
 
