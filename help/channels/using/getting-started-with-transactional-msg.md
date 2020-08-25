@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
+source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 33%
@@ -25,13 +25,10 @@ ht-degree: 33%
 
 ## Übersicht
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>Mit Transaktionsnachrichten können Sie Ihren Kunden individuelle und eindeutige Nachrichten <b>in Echtzeit</b> senden.</p></td>
-<td class="noborder"><p>Es kann sich um Willkommensmeldungen, Versandbestätigungen, Passwortänderung usw. handeln.</p></td>
-</tr>
-</table>
+
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+Mit Transaktionsnachrichten können Sie Ihren Kunden individuelle und eindeutige Nachrichten <b>in Echtzeit</b> senden. Es kann sich um Willkommensmeldungen, Versandbestätigungen, Passwortänderung usw. handeln.
 
 Mit Adobe Campaign können Sie diese Funktion in ein Informationssystem integrieren, das Ereignis sendet, die in benutzerdefinierte Transaktionsnachrichten umgewandelt werden sollen.
 
@@ -51,26 +48,22 @@ Transaktionsnachrichten sind auch in der Adobe Campaign Standard API verfügbar.
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td align="center"><br><p><b>Was ist eine Transaktionsnachricht?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>Was ist eine Transaktionsnachricht?</b></p></td>
 <td><p>Es handelt sich um eine individuelle und einzigartige Kommunikation, die von einem Anbieter wie einer Website gesendet wird.</p></td>
 <td><p>Es ist besonders zu erwarten, da es wichtige Informationen enthält, die der Empfänger überprüfen oder bestätigen möchte.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
-<td align="center"><p><b>Wann ist es fällig?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Wann ist es fällig?</b></p></td>
 <td><p> Da diese Meldung wichtige Informationen enthält, erwartet der Benutzer, dass sie in Echtzeit gesendet wird.</p></td>
 <td><p>Folglich muss die Verzögerung zwischen dem ausgelösten Ereignis und der eingetretenen Meldung sehr kurz sein.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
-<td align="center"><p><b>Warum ist es wichtig?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Warum ist es wichtig?</b></p></td>
 <td><p>Im Allgemeinen hat eine Transaktionsnachricht hohe offene Raten. Sie sollte daher sorgfältig konzipiert werden.</p></td>
 <td><p>Tatsächlich kann es sich stark auf das Verhalten der Kunden auswirken, da es die Kundenbeziehung definiert.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
-<td align="center"><b>Beispiel?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>Beispiel?</b></td>
 <td><p>Es kann eine Begrüßungsnachricht nach der Erstellung eines Kontos, eine Bestätigung, dass eine Bestellung versendet wurde, eine Rechnung...</p></td>
 <td><p>Es kann auch eine Meldung sein, die eine Passwortänderung bestätigt, oder eine Benachrichtigung, nachdem ein Kunde Ihre Website besucht hat...</p></td>
 </tr>
@@ -84,21 +77,16 @@ In Adobe Campaign sind zwei Arten von Transaktionsnachrichten verfügbar:
 
 <table>
 <tr>
-<td align="center"><a href="../../channels/using/event-transactional-messages.md">Ereignis-Transaktionsnachrichten</a><br><b>, die sich auf ein Ereignis beziehen</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Ereignis-Transaktionsnachrichten</a><br><b>, die sich auf ein Ereignis beziehen</b>.</td>
 <td><p><ul><li>Sie enthalten keine Informationen zum Profil.</li><li>Sie sind nicht mit <a href="../../sending/using/fatigue-rules.md">Ermüdungsvorschriften</a> vereinbar (auch nicht im Falle einer Anreicherung mit Profilen).</li><li>Die Zielgruppe des Versands wird durch die Daten definiert, die im Ereignis selbst enthalten sind.</li></ul></p></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Profil-Transaktionsnachrichten</a><br><b>, die sich auf Profile in der Marketingdatenbank von Adobe Campaign beziehen</b>.</td>
+<td><p>Profil-Transaktionsnachrichten ermöglichen Ihnen Folgendes:<ul><li>Marketing-Typologieregeln wie <b>Adresse auf Blockierungsliste</b> oder <a href="../../sending/using/fatigue-rules.md">Ermüdungsregeln</a> anwenden</li><li>einen Abmelde-Link in die Nachricht einfügen</li><li>die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen</li><li>Die Transaktionsnachrichten für die Customer Journey nutzen</li></ul></p></td>
 </tr>
 </table>
 
 <!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
-
-<table>
-<tr>
-<td align="center"><a href="../../channels/using/profile-transactional-messages.md">Profil-Transaktionsnachrichten</a><br><b>, die sich auf Profile in der Marketingdatenbank von Adobe Campaign beziehen</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-<td><p>Profil-Transaktionsnachrichten ermöglichen Ihnen Folgendes:<ul><li>Marketing-Typologieregeln wie <b>Adresse auf Blockierungsliste</b> oder <a href="../../sending/using/fatigue-rules.md">Ermüdungsregeln</a> anwenden</li><li>einen Abmelde-Link in die Nachricht einfügen</li><li>die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen</li><li>Die Transaktionsnachrichten für die Customer Journey nutzen</li></ul></p></td>
-</tr>
-</table>
 
 Der Nachrichtentyp wird bei der Konfiguration des Ereignisses definiert, das eine Transaktionsnachricht auslösen soll. Siehe [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md).
 
@@ -148,7 +136,7 @@ Weitere Informationen zur Integration des Ereignisses in Ihre Website finden Sie
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
 Sobald ein Benutzer die Site verlässt, ohne die Produkte in seinem Einkaufswagen zu bestellen, erhält er automatisch eine Benachrichtigungs-E-Mail.
 
