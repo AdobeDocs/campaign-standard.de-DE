@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ Gehen Sie beim Definieren der Zielgruppe einer Nachricht folgendermaßen vor:
 
 Die Nachricht wird an die Hauptzielgruppe und an das Testprofil gesendet.
 
-Beim Senden von Transaktionsnachrichten können Traps verwendet werden. In diesem Fall erhält das Testprofil eine Nachricht pro Ereigniskonfiguration. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
+Beim Senden von Transaktionsnachrichten können Traps verwendet werden. In diesem Fall erhält das Testprofil eine Nachricht pro Ereigniskonfiguration. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
