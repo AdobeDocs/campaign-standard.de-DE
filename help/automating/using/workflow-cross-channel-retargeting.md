@@ -39,7 +39,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 
 ![](assets/wf-complement-query.png)
 
-## E-Mail-Versand erstellen{#creating-an-email-delivery}.
+## E-Mail-Versand erstellen.{#creating-an-email-delivery}
 
 1. Ziehen Sie einen [E-Mail-Versand](../../automating/using/email-delivery.md) per Drag &amp; Drop hinter jedes Segment.
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
