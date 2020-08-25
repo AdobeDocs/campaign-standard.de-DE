@@ -11,9 +11,9 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
    <td> Plattform des Geräts, auf dem die Nachricht geöffnet/angesehen/angeklickt wurde<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profile<br /> </td> 
+   <td> Profil<br /> </td> 
    <td> Fasst native und benutzerdefinierte Profilfelder zusammen, die während der Erweiterung der Profilressource erstellt wurden. Weiterführende Informationen dazu finden Sie auf dieser <a href="../../developing/using/key-steps-to-add-a-resource.md">Seite</a> und in diesem <a href="../../reporting/using/creating-a-custom-profile-dimension.md">Beispiel</a>.<br /> Beachten Sie, dass Daten für diese Dimension abgerufen werden, sobald die mit dem Profilfeld verknüpfte benutzerdefinierte Ressource veröffentlicht wird.<br /> </td> 
   </tr> 
   <tr> 
