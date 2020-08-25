@@ -51,7 +51,7 @@ Hinweis: Um auch alle Personen auszuwählen, die &quot;boston&quot; eingegeben h
 1. Um auch alle Personen auszuwählen, die &quot;chicago&quot; eingegeben haben, deaktivieren Sie die Option &quot;Von Schreibweise abhängig&quot;.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-## E-Mail-Versand erstellen{#creating-an-email-delivery}.
+## E-Mail-Versand erstellen.{#creating-an-email-delivery}
 
 1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Kanäle]** hinter jedes Segment die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md).
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
