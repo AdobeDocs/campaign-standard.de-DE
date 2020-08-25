@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
+source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 33%
@@ -35,8 +35,8 @@ Mit Adobe Campaign können Sie diese Funktion in ein Informationssystem integrie
 >[!NOTE]
 >
 >Transaktionsnachrichten können je nach Ihren Optionen per E-Mail, SMS oder Push-Benachrichtigung versendet werden. Prüfen Sie diesbezüglich Ihren Lizenzvertrag.
->
->Adobe Campaign priorisiert die Verarbeitung von Transaktionsnachrichten gegenüber jedem anderen Versand.
+
+Adobe Campaign priorisiert die Verarbeitung von Transaktionsnachrichten gegenüber jedem anderen Versand.
 
 Transaktionsnachrichten sind auch in der Adobe Campaign Standard API verfügbar. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/managing-transactional-messages.md).
 
@@ -63,7 +63,7 @@ Transaktionsnachrichten sind auch in der Adobe Campaign Standard API verfügbar.
 <td><p>Tatsächlich kann es sich stark auf das Verhalten der Kunden auswirken, da es die Kundenbeziehung definiert.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>Beispiel?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><p><b>Beispiel?</b></p></td>
 <td><p>Es kann eine Begrüßungsnachricht nach der Erstellung eines Kontos, eine Bestätigung, dass eine Bestellung versendet wurde, eine Rechnung...</p></td>
 <td><p>Es kann auch eine Meldung sein, die eine Passwortänderung bestätigt, oder eine Benachrichtigung, nachdem ein Kunde Ihre Website besucht hat...</p></td>
 </tr>
@@ -77,11 +77,11 @@ In Adobe Campaign sind zwei Arten von Transaktionsnachrichten verfügbar:
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Ereignis-Transaktionsnachrichten</a><br><b>, die sich auf ein Ereignis beziehen</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">Ereignis-Transaktionsnachrichten</a><br><b>, die sich auf ein Ereignis beziehen</b></p></td>
 <td><p><ul><li>Sie enthalten keine Informationen zum Profil.</li><li>Sie sind nicht mit <a href="../../sending/using/fatigue-rules.md">Ermüdungsvorschriften</a> vereinbar (auch nicht im Falle einer Anreicherung mit Profilen).</li><li>Die Zielgruppe des Versands wird durch die Daten definiert, die im Ereignis selbst enthalten sind.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Profil-Transaktionsnachrichten</a><br><b>, die sich auf Profile in der Marketingdatenbank von Adobe Campaign beziehen</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profil-Transaktionsnachrichten</a><br><b>, die sich auf Profile in der Marketingdatenbank von Adobe Campaign beziehen</b></p></td>
 <td><p>Profil-Transaktionsnachrichten ermöglichen Ihnen Folgendes:<ul><li>Marketing-Typologieregeln wie <b>Adresse auf Blockierungsliste</b> oder <a href="../../sending/using/fatigue-rules.md">Ermüdungsregeln</a> anwenden</li><li>einen Abmelde-Link in die Nachricht einfügen</li><li>die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen</li><li>Die Transaktionsnachrichten für die Customer Journey nutzen</li></ul></p></td>
 </tr>
 </table>
