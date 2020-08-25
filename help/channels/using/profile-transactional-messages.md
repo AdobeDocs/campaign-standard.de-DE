@@ -11,9 +11,9 @@ topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Sie können Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen vers
 * die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen
 * Die Transaktionsnachrichten für die Customer Journey nutzen
 
-Nach der Erstellung und Publikation des gewünschten Ereignisses (im vorliegenden [Beispiel](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) &quot;Stehen gelassener Warenkorb&quot;) wird die entsprechende Transaktionsnachricht automatisch erstellt.
+Nach der Erstellung und Publikation des gewünschten Ereignisses (im vorliegenden [Beispiel](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) &quot;Stehen gelassener Warenkorb&quot;) wird die entsprechende Transaktionsnachricht automatisch erstellt.
 
 Die Konfigurationsschritte finden Sie in Abschnitt [Ereignis konfigurieren, um eine Profil-Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
