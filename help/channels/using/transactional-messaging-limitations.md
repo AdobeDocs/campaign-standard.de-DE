@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b6607afe05e762c87a95fd88bda0196baa57f1e
+source-git-commit: 6c768132a297d324f6aec87c215222b3587091c6
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 88%
@@ -23,16 +23,13 @@ ht-degree: 88%
 
 # Einschränkungen bei Transaktionsnachrichten {#transactional-messaging-limitations}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>Im folgenden Abschnitt werden die Einschränkungen Liste, die Sie beachten sollten, bevor Sie mit der Erstellung von Transaktionsnachrichten beginnen.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+Im folgenden Abschnitt werden die Einschränkungen Liste, die Sie beachten sollten, bevor Sie mit der Erstellung von Transaktionsnachrichten beginnen.
 
 Weitere Informationen zu Transaktionsnachrichten, einschließlich der Konfiguration und Erstellung, finden Sie unter [Erste Schritte mit Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Für den Zugriff auf Transaktionsnachrichten benötigen Sie Administratorrechte.
 
