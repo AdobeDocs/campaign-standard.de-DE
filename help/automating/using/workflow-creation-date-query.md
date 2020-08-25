@@ -89,7 +89,7 @@ Die endgültige Abfrage sieht folgendermaßen aus:
 
 ![](assets/expression_editor_1.png)
 
-## E-Mail-Versand erstellen{#creating-an-email-delivery}.
+## E-Mail-Versand erstellen.{#creating-an-email-delivery}
 
 1. Ziehen Sie die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md) in den Arbeitsbereich.
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
