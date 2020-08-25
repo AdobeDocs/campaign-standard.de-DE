@@ -39,7 +39,7 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 
 ![](assets/wf-complement-query.png)
 
-## Erstellen Sie eine Segmentierungsaktivität {#create-a-segmentation-activity}.
+## Erstellen Sie eine Segmentierungsaktivität. {#create-a-segmentation-activity}
 
 1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Targeting]**, eine [Segmentierungsaktivität](../../automating/using/segmentation.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Bewegen Sie den Mauszeiger über das Segment und wählen Sie dann ![](assets/edit_darkgrey-24px.png) aus, um Kunden auszuwählen, die dieses Jahr zur Datenbank hinzugefügt wurden.
