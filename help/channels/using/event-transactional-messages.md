@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2625'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Sie können Ereignis-Transaktionsnachrichten senden, die auf der Basis eines Ereignisses ausgewählt werden. Diese Art von Transaktionsnachrichten enthält keine Profilinformationen: Die Versandzielgruppe wird durch Daten definiert, die im Ereignis selbst enthalten sind.
 
-Nach der Erstellung und Publikation des gewünschten Ereignisses (&quot;Stehen gelassener Warenkorb&quot; wie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) beschrieben) wird die entsprechende Transaktionsnachricht automatisch erstellt.
+Nach der Erstellung und Publikation des gewünschten Ereignisses (&quot;Stehen gelassener Warenkorb&quot; wie in [diesem Abschnitt](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) beschrieben) wird die entsprechende Transaktionsnachricht automatisch erstellt.
 
 Die Konfigurationsschritte finden Sie im Abschnitt [Ereignis konfigurieren, um eine Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
