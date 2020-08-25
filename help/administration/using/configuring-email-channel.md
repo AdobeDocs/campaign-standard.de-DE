@@ -12,9 +12,9 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '2513'
 ht-degree: 100%
 
@@ -240,7 +240,7 @@ Im Abschnitt **[!UICONTROL G체ltigkeitszeitraum]** sind folgende Parameter verf�
 
 >[!NOTE]
 >
->Der Parameter **[!UICONTROL Versandlaufzeit]** gilt nicht f체r Transaktionsnachrichten. Weiterf체hrende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/about-transactional-messaging.md).
+>Der Parameter **[!UICONTROL Versandlaufzeit]** gilt nicht f체r Transaktionsnachrichten. Weiterf체hrende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/getting-started-with-transactional-msg.md).
 
 ### Tracking-Parameter       {#tracking-parameters}
 
