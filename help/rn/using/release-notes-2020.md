@@ -11,9 +11,9 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1830'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 **Verbesserungen**
 
-* Das Anwendererlebnis beim Transaktionsnachrichtenversand wurde verbessert; zudem wurde die Konsistenz der Benutzeroberfläche erhöht. [mehr dazu](../../channels/using/about-transactional-messaging.md)
+* Das Anwendererlebnis beim Transaktionsnachrichtenversand wurde verbessert; zudem wurde die Konsistenz der Benutzeroberfläche erhöht. [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard ermöglicht es Ihnen jetzt, mithilfe zusätzlicher Daten aus Workflows Testsendungen an Testprofile vorzunehmen.
 * Limits für die externe API-Aktivität wurden aktualisiert. [mehr dazu](../../automating/using/external-api.md)
 
