@@ -44,7 +44,7 @@ ht-degree: 100%
 <li>Recht auf Zugriff und Recht auf Löschung: Hierfür werden die Funktionen genutzt, die für die DSGVO und PPDA hinzugefügt wurden – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">mehr dazu</a> </li>
 <li><p>Bei der Erstellung einer Datenschutzanfrage steht im Privacy Core Service nun eine Auswahl für die PDPA-Verordnung zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="../../rn/using/deprecated-features.md">Eingestellte und entfernte Funktionen</a>.</p></li>
 </ul>
-<p>Weitere Informationen finden Sie in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">diesem Video</a>.</p>
+<p>Weitere Informationen finden Sie in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/privacy/privacy-overview.html">diesem Video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -65,7 +65,7 @@ ht-degree: 100%
 <li>ein Array-Objekt aus einer JSON auswählen und verwenden, ohne die "Objektdaten" benennen zu müssen oder ohne dass sie sich auf der obersten Ebene befinden müssen.</li>
 </ul>
 <p><strong>Vorsicht:</strong> Kunden müssen in ihren Workflows alle externen API-Aktivitäten der Betaphase <strong>durch externe API-Aktivitäten der allgemeinen Verfügbarkeit</strong> ersetzen.  Workflows, die die Betaversion der externen API verwenden, funktionieren in 20.3 nicht mehr.</p>
-<p>Weiterführende Informationen finden Sie in der <a href="../../automating/using/external-api.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">diesem Video</a>.</p>
+<p>Weiterführende Informationen finden Sie in der <a href="../../automating/using/external-api.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">diesem Video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
