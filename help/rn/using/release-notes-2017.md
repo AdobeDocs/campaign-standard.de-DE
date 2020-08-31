@@ -28,7 +28,7 @@ Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicke
 
 Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-updates.md) für Adobe Campaign Standard an. Neuere Versionshinweise finden Sie auf dieser [Seite](../../rn/using/release-notes.md).
 
-## Version 17.10 - Oktober 2017       {#release-17-10---october-2017}
+## Version 17.10 - Oktober 2017        {#release-17-10---october-2017}
 
 **Neue Funktionen**
 
@@ -107,7 +107,7 @@ _Benutzerdefinierte Ressourcen_
 * Fehlerkorrektur – in Bildschirmen des Typs Liste werden jetzt keine Zeilen für benutzerdefinierte Ressourcen mehr angezeigt, die keine Daten enthalten.
 * Fehlerkorrektur – boolesche Felder mit dem Wert &#39;False&#39; werden jetzt in benutzerdefinierten Ressourcen angezeigt.
 
-## Version 17.9 - September 2017       {#release-17-9---september-2017}
+## Version 17.9 - September 2017        {#release-17-9---september-2017}
 
 **Neue Funktionen**
 
@@ -179,7 +179,7 @@ _Profile und Audiences_
 * Adobe Campaign erstellt jetzt einen Bericht, in dem die Anzahl der aktiven Profile angegeben wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../audiences/using/active-profiles.md).
 * Fehlerkorrektur – Profile können jetzt über die API &quot;Profile und Dienste&quot; einen Dienst abonnieren.
 
-## Version 17.7 - Juli 2017       {#release-17-7---july-2017}
+## Version 17.7 - Juli 2017        {#release-17-7---july-2017}
 
 **Neue Funktionen**
 
@@ -255,7 +255,7 @@ _Workflows_
 * Fehlerkorrektur – Im Erstellungsassistenten eines wiederkehrenden Versands kann jetzt eine Outbound-Transition eingestellt werden.
 * Fehlerkorrektur – jetzt kann eine Workflow-Abfrageaktivität auf der Basis eines benutzerdefinierten Ressourcenfeldes mit einer Auflistung verwendet werden, die zahlreiche Werte aufweist.
 
-## Version 17.5 - Mai 2017       {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017        {#release-17-5---may-2017}
 
 **Neue Funktionen**
 
@@ -302,7 +302,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – jetzt kann ein Push-Ereignis im Marketingverlauf eines Profils ausgewählt werden.
 * Die Verwendung von Push-Benachrichtigungen in Workflows wurde verbessert.
 
-## Version 17.4 - April 2017       {#release-17-4---april-2017}
+## Version 17.4 - April 2017        {#release-17-4---april-2017}
 
 **Neue Funktionen**
 
@@ -332,7 +332,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver verfügbar<br /> </td> 
-   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Integrationserweiterung von Adobe Campaign, die hier heruntergeladen werden kann: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br />. Weiterführende Informationen finden Sie in diesem <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
+   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Integrationserweiterung von Adobe Campaign, die hier heruntergeladen werden kann: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br />. Weiterführende Informationen finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -387,7 +387,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – jetzt wird eine Fehlermeldung angezeigt, wenn eine Android-Anwendung mit einer Mobile App verknüpft wird, die nicht auf MCPNS erstellt wurde.
 * Fehlerkorrektur – Benutzer können jetzt stillen Benachrichtigungen keine Töne mehr hinzufügen.
 
-## Version 17.2 - März 2017       {#release-17-2---march-2017}
+## Version 17.2 - März 2017        {#release-17-2---march-2017}
 
 **Neue Funktionen**
 
@@ -405,7 +405,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell Versandzeitpunkt optimieren<br /> </td> 
