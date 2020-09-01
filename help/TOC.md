@@ -3,11 +3,11 @@ product: adobe campaign
 sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
-translation-type: ht
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
-workflow-type: ht
-source-wordcount: '1569'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+workflow-type: tm+mt
+source-wordcount: '1596'
+ht-degree: 99%
 
 ---
 
@@ -251,7 +251,12 @@ ht-degree: 100%
       + [Ausführung des Workflows überwachen](automating/using/monitoring-workflow-execution.md)
       + [Ausführungsoptionen verwalten](automating/using/managing-execution-options.md)
       + [Eigenschaften von Aktivitäten verwalten](automating/using/activity-properties.md)
-   + [Workflow mit externen Parametern aufrufen](automating/using/calling-a-workflow-with-external-parameters.md)
+   + Workflow mit externen Parametern aufrufen {#calling-workflow-external-parameters}
+      + [Deklarieren der Parameter in der Aktivität &quot;Externes Signal&quot;](automating/using/declaring-parameters-external-signal.md)
+      + [Parameter beim Aufruf des Workflows definieren  ](automating/using/defining-parameters-calling-workflow.md)
+      + [Ereignisvariablen überwachen  ](automating/using/monitoring-events-variables.md)
+      + [Anpassen des Workflows mit externen Parametern](automating/using/customizing-workflow-external-parameters.md)
+      + [Anwendungsbeispiel](automating/using/use-case-calling-workflow.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
       + [Über Zielgruppenbestimmungsaktivitäten](automating/using/about-targeting-activities.md)
       + [Abfrage](automating/using/query.md)
