@@ -13,15 +13,15 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
+source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 33%
+source-wordcount: '756'
+ht-degree: 32%
 
 ---
 
 
-# Erste Schritte mit transaktionalem Messaging {#getting-started-with-transactional-messaging}
+# Erste Schritte mit Transaktionsnachrichten {#getting-started-with-transactional-messaging}
 
 ## Übersicht
 
@@ -81,7 +81,7 @@ In Adobe Campaign sind zwei Arten von Transaktionsnachrichten verfügbar:
 <td><p><ul><li>Sie enthalten keine Informationen zum Profil.</li><li>Sie sind nicht mit <a href="../../sending/using/fatigue-rules.md">Ermüdungsvorschriften</a> vereinbar (auch nicht im Falle einer Anreicherung mit Profilen).</li><li>Die Zielgruppe des Versands wird durch die Daten definiert, die im Ereignis selbst enthalten sind.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profil-Transaktionsnachrichten</a><br><b>, die sich auf Profile in der Marketingdatenbank von Adobe Campaign beziehen</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Profil-Transaktionsnachrichten</a><br><b>, die sich auf Profile in der Marketingdatenbank von Adobe Campaign beziehen</b></p></td>
 <td><p>Profil-Transaktionsnachrichten ermöglichen Ihnen Folgendes:<ul><li>Marketing-Typologieregeln wie <b>Adresse auf Blockierungsliste</b> oder <a href="../../sending/using/fatigue-rules.md">Ermüdungsregeln</a> anwenden</li><li>einen Abmelde-Link in die Nachricht einfügen</li><li>die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen</li><li>Die Transaktionsnachrichten für die Customer Journey nutzen</li></ul></p></td>
 </tr>
 </table>
@@ -102,43 +102,71 @@ Nehmen wir das Beispiel einer Firma, die eine Website hat und auf dieser Website
 
 Verlässt ein Webseitenbesucher die Seite, ohne den Kauf abzuschließen, wird ihm automatisch eine Benachrichtigungs-E-Mail zugeschickt, um ihn an seinen stehen gelassenen Warenkorb zu erinnern.
 
-Die folgenden Schritte sind für die Einrichtung des Systems erforderlich.
+Die Schritte zur Umsetzung dieser Richtlinie sind wie folgt:
 
 ### Schritt 1: Erstellen und Veröffentlichen der Ereignis-Konfiguration {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-Konfigurieren Sie ein Ereignis mit dem Namen &quot;Warenkorbabbruch&quot;und veröffentlichen Sie diese Ereignis-Konfiguration.
+Configure an event that will be named "Cart abandonment" and publish this event configuration.
 
-Die API, die von Ihrem Website-Entwickler verwendet wird, wird bereitgestellt und eine Transaktionsnachricht wird automatisch erstellt.
+The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Konfigurieren Sie ein Ereignis mit dem Namen "Warenkorbabbruch"und veröffentlichen Sie diese Ereignis-Konfiguration.</p></td>
+<td>Die API, die von Ihrem Website-Entwickler verwendet wird, wird bereitgestellt und eine Transaktionsnachricht wird automatisch erstellt.</td>
+</tr>
+</table>
 
 Die Erstellung und Veröffentlichung eines Ereignisses finden Sie im Abschnitt [Ereignis konfigurieren, um eine Ereignis-Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
 ### Schritt 2: Bearbeiten und Veröffentlichen der Transaktionsnachricht {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Bearbeiten und personalisieren Sie die Transaktionsnachricht, testen Sie sie und veröffentlichen Sie sie dann.
+Edit and personalize the transactional message, test it, and then publish it.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Bearbeiten und personalisieren Sie die Transaktionsnachricht, testen Sie sie und veröffentlichen Sie sie dann.</p></td>
+<td>Die Transaktionsnachricht kann dann versandt werden.</td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Schritt 3: Integration des auslösenden Ereignisses {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Verwenden Sie die REST-Transaktionsnachrichten-API, um das Ereignis in Ihre Website zu integrieren.
+Use the REST Transactional Messages API to integrate the event into your website.
 
-Das Ereignis wird ausgelöst, wenn ein Kunde seinen Warenkorb verlässt.
+The event will be triggered when a client abandons their cart.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Verwenden Sie die REST-Transaktionsnachrichten-API, um das Ereignis in Ihre Website zu integrieren.</p></td>
+<td>Das Ereignis wird ausgelöst, wenn ein Kunde seinen Warenkorb verlässt.</td>
+</tr>
+</table>
 
 Weitere Informationen zur Integration des Ereignisses in Ihre Website finden Sie unter [Site-Integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 ### Schritt 4: Message Versand {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:-->
+<!--Once all of these steps have been carried out, the message can be delivered:
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-Sobald ein Benutzer die Site verlässt, ohne die Produkte in seinem Einkaufswagen zu bestellen, erhält er automatisch eine Benachrichtigungs-E-Mail.
+As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Sobald alle diese Schritte durchgeführt wurden, kann die Nachricht gesendet werden.</p></td>
+<td>Sobald ein Benutzer die Site verlässt, ohne die Produkte in seinem Einkaufswagen zu bestellen, erhält er automatisch eine Benachrichtigungs-E-Mail.</td>
+</tr>
+</table>
 
 ## Die wichtigsten Schritte {#key-steps}
 
