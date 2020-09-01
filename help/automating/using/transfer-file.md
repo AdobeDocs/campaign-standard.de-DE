@@ -12,10 +12,10 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
-workflow-type: ht
-source-wordcount: '1214'
+translation-type: tm+mt
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+workflow-type: tm+mt
+source-wordcount: '1209'
 ht-degree: 100%
 
 ---
@@ -141,7 +141,7 @@ Das Microsoft Azure Blob-Protokoll erlaubt Ihnen Zugriff auf einen Blob in einem
 Das Protokoll **[!UICONTROL Auf dem Adobe Campaign-Server vorhandene Datei(en)]** entspricht dem Repository, das die abzurufenden Dateien enthält.
 Zur Filterung der Dateien ist die Verwendung von Platzhaltern oder Jokern (zum Beispiel * oder ?) möglich.
 
-Entscheiden Sie, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL Dynamischen Dateipfad verwenden]** möchten. Mit der Option **[!UICONTROL Dynamischen Dateipfad verwenden]** können Sie einen Standardausdruck und Ereignisvariablen nutzen, um den Dateinamen für die Übertragung zu personalisieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Anpassen von Aktivitäten mit Ereignisvariablen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Entscheiden Sie, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL Dynamischen Dateipfad verwenden]** möchten. Mit der Option **[!UICONTROL Dynamischen Dateipfad verwenden]** können Sie einen Standardausdruck und Ereignisvariablen nutzen, um den Dateinamen für die Übertragung zu personalisieren. Weiterführende Informationen hierzu finden Sie in diesem Abschnitt: [](../../automating/using/customizing-workflow-external-parameters.md).
 
 Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angegeben werden. Die Dateien befinden sich im Verzeichnis **sftp&lt;yourinstancename>/**. Darüber hinaus können dem Speicherort übergeordnete Verzeichnisse nicht durchsucht werden. Beispiel:
 
