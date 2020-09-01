@@ -12,8 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +29,7 @@ Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingung
 
 Diese Vorgehensweise ermöglicht die Verwendung fortgeschrittener Funktionen, über die Sie die verwendeten Werte (Datumsangaben, Strings, numerische Felder etc.) bearbeiten können, um spezifische Abfragen zu erstellen.
 
-Es ist auch möglich, bei der Bearbeitung von Ausdrücken Ereignisvariablen zu verwenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Es ist auch möglich, die Ereignis-Variablen von Workflows beim Bearbeiten von Ausdruck zu verwenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/customizing-workflow-external-parameters.md).
 
 Die Ausdrucksbearbeitung findet in folgenden Fällen Verwendung:
 
@@ -48,13 +51,14 @@ Die Ausdrucksbearbeitung kann während der Erstellung einer E-Mail im Audience-F
    * Eingabefeld, in dem der Ausdruck erstellt wird;
    * Liste der verfügbaren Felder, die im Ausdruck verwendet werden können und die der Zielgruppendimension der Abfrage entsprechen (siehe auch [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * Liste der verfügbaren Funktionen mit verschiedenen Unterkategorien.
+
    ![](assets/expression_editor_1.png)
 
 1. Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das entsprechende Feld eingeben, oder unter Zuhilfenahme der verfügbaren Felder und der Funktionsliste.
 
    Durch einen Doppelklick auf ein Feld oder eine Funktion werden diese an der Stelle des Cursors in das Eingabefeld eingefügt.
 
-   Es ist möglich, Workflow-Ereignisvariablen zur Erstellung eines Ausdrucks zu verwenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+   Es ist möglich, Workflow-Ereignisvariablen zur Erstellung eines Ausdrucks zu verwenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/customizing-workflow-external-parameters.md).
 
 1. Benennen Sie gegebenenfalls Ihre Regel. Dieser Name erscheint dann anstelle des automatischen Namens im Arbeitsbereich des Abfragetools.
 
@@ -71,14 +75,15 @@ Durch die Bearbeitung eines Ausdrucks können Sie den Audiences-Ausdruck persona
 
 Standardausdrücke bestehen aus einer oder mehreren Bedingungen, die die folgende Syntax beachten müssen:
 
-* Jede Bedingung hat die Form **&lt;Wert 1&gt; &lt;Vergleichsoperator&gt; &lt;Wert 2&gt;**, wobei
+* Jede Bedingung hat die Form **&lt;Wert 1> &lt;Vergleichsoperator> &lt;Wert 2>**, wobei
 
-   * **&lt;Wert 1&gt;** ein Feld oder eine Funktion ist. Das Feld **@created** z. B. steht für das Erstellungsdatum eines Profils, die Funktion **Year(@created)** gibt das Jahr der Erstellung eines Profils aus.
-   * **&lt;Vergleichsoperator&gt;** ist einer der im Abschnitt [Vergleichsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators) aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Wert 1&gt;** und **&lt;Wert 2&gt;**.
-   * **&lt;Wert 2&gt;** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
+   * **&lt;Wert 1>** ein Feld oder eine Funktion ist. Das Feld **@created** z. B. steht für das Erstellungsdatum eines Profils, die Funktion **Year(@created)** gibt das Jahr der Erstellung eines Profils aus.
+   * **&lt;Vergleichsoperator>** ist einer der im Abschnitt [Vergleichsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators) aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Wert 1>** und **&lt;Wert 2>**.
+   * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
+
    >[!NOTE]
    >
-   >Die Datentypen von **&lt;Wert 1&gt;** und **&lt;Wert 2&gt;** müssen identisch sein. Wenn **&lt;Wert 1&gt;** beispielsweise ein Datum ist, muss **&lt;Wert 2&gt;** auch ein Datum sein.
+   >Die Datentypen von **&lt;Wert 1>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Wert 1>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
@@ -99,13 +104,14 @@ Bei der Definition von Sichtbarkeitsbedingungen in einem Textblock des HTML-Inha
 
 JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folgende Syntax beachten müssen:
 
-* Jede Bedingung hat die Form **&lt;Kontext&gt; &lt;Vergleichsoperator&gt; &lt;Wert 2&gt;**, wobei
+* Jede Bedingung hat die Form **&lt;Kontext> &lt;Vergleichsoperator> &lt;Wert 2>**, wobei
 
-   * **&lt;Kontext&gt;** einem Feld oder einer Funktion entspricht, die es ermöglichen, den Kontext anzugeben. Beispiel **context.profile.@email** steht für die E-Mail-Adresse eines Profils und **context.profile.firstName.length()** für die Anzahl an Zeichen des Vornamens eines Profils.
-   * **&lt;Vergleichsoperator&gt;** ist einer der im Abschnitt [Vergleichsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators) aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Kontext&gt;** und **&lt;Wert 2&gt;**.
-   * **&lt;Wert 2&gt;** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
+   * **&lt;Kontext>** einem Feld oder einer Funktion entspricht, die es ermöglichen, den Kontext anzugeben. Beispiel **context.profile.@email** steht für die E-Mail-Adresse eines Profils und **context.profile.firstName.length()** für die Anzahl an Zeichen des Vornamens eines Profils.
+   * **&lt;Vergleichsoperator>** ist einer der im Abschnitt [Vergleichsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators) aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Kontext>** und **&lt;Wert 2>**.
+   * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
+
    >[!NOTE]
-   Die Datentypen von **&lt;Kontext&gt;** und **&lt;Wert 2&gt;** müssen identisch sein. Wenn **&lt;Kontext&gt;** beispielsweise ein Datum ist, muss **&lt;Wert 2&gt;** auch ein Datum sein.
+   Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
