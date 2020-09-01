@@ -12,11 +12,11 @@ discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
    * **[!UICONTROL Segment-Population begrenzen]**: begrenzt die Größe des Segments.
    * **[!UICONTROL Segment-Population filtern und begrenzen]**: Mithilfe dieser Funktion kann die Population des Segments gefiltert und in ihrer Größe begrenzt werden.
    * **[!UICONTROL Titel]**: Titel des Segments.
-   * **[!UICONTROL Segment-Code]**: der der Population des Segments zugewiesene Code. Der Segment-Code kann mit einem Standardausdruck und Ereignisvariablen personalisiert werden (siehe [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   * **[!UICONTROL Segment-Code]**: Code, der der Segmentpopulation zugewiesen wird. Der Segment-Code kann mithilfe von Standardvariablen für Ausdruck und Ereignis personalisiert werden (siehe [](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Segment von der Population ausschließen]**: Hierdurch lässt sich das bestimmte Segment aus der Ausgabepopulation der Aktivität ausschließen. Diese Möglichkeit besteht nur, wenn die Option **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** ausgewählt wurde.
 
    ![](assets/wkf_segment_new_segment.png)
