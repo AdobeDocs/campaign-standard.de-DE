@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 99e0189e8cfe97eb328e9eb69dbcf3a9772c7792
+source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 99%
@@ -252,7 +252,7 @@ ht-degree: 99%
       + [Ausführungsoptionen verwalten](automating/using/managing-execution-options.md)
       + [Eigenschaften von Aktivitäten verwalten](automating/using/activity-properties.md)
    + Workflow mit externen Parametern aufrufen {#calling-workflow-external-parameters}
-      + [Übersicht](automating/using/calling-a-workflow-with-external-paraleters.md)
+      + [Übersicht](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Deklarieren der Parameter in der Aktivität &quot;Externes Signal&quot;](automating/using/declaring-parameters-external-signal.md)
       + [Parameter beim Aufruf des Workflows definieren  ](automating/using/defining-parameters-calling-workflow.md)
       + [Ereignisvariablen überwachen  ](automating/using/monitoring-events-variables.md)
