@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 100%
+source-wordcount: '2642'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ Nach der Erstellung und Publikation des gewünschten Ereignisses (&quot;Stehen g
 
 Die Konfigurationsschritte finden Sie im Abschnitt [Ereignis konfigurieren, um eine Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Nachricht personalisiert, getestet und dann publiziert werden.
-
 >[!NOTE]
->
->Sie können nur dann auf Transaktionsnachrichten zugreifen, wenn Sie der Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** angehören.
 >
 >Ereignis-Transaktionsnachrichten enthalten keine Profilinformationen, weshalb sie nicht mit Ermüdungsregeln kompatibel sind (auch nicht, wenn sie mit Profilen angereichert werden). Näheres dazu finden Sie unter [Ermüdungsregeln](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
-## Testprofil in einer Transaktionsnachricht definieren      {#defining-a-test-profile-in-a-transactional-message}
+Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Nachricht personalisiert, getestet und dann publiziert werden.
 
-Konfigurieren Sie ein entsprechendes Testprofil, mit dem Sie zum Zweck der Validierung eine Vorschau Ihrer Nachricht sowie einen Testversand erzeugen können.
+## Zugreifen auf Transaktionsnachrichten {#accessing-transactional-messages}
 
-### Testprofil in einer Transaktionsnachricht erstellen      {#creating-a-test-profile-within-the-transactional-----------message}
+So greifen Sie auf die erstellte Transaktionsnachricht zu:
 
-1. Gehen Sie zum Zugriff auf die neu erstellte Nachricht mithilfe des **[!UICONTROL Adobe-Campaign]**-Logos oben links im Bildschirm in das Menü **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]**.
+1. Wählen Sie oben links das **[!UICONTROL Adobe Campaign]**-Logo aus.
+1. Wählen Sie **[!UICONTROL Marketingplan]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]**.
 
    ![](assets/message-center_4.png)
 
-1. Erstellen Sie ein Testprofil, das mit Ihrem Ereignis verknüpft wird.
+1. Klicken Sie auf die Nachricht Ihrer Wahl, um sie zu bearbeiten.
 
-   ![](assets/message-center_test-profile.png)
-
-1. Geben Sie im Bereich **[!UICONTROL Für die Personalisierung verwendete Ereignisdaten]** die zu übermittelnden Daten im JSON-Format an. Bei den angegebenen Daten handelt es sich um den Inhalt, der in der Vorschau verwendet und dem Testprofil im Testversand übermittelt wird.
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >Sie können auch die Information von der Profiltabelle eingeben. Siehe [Inhalt der Transaktionsnachricht anreichern](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-
-1. Nach seiner Erstellung ist das Testprofil in der Transaktionsnachricht vorausgefüllt. Verwenden Sie die Kachel **[!UICONTROL Testprofile]** der Nachricht, um Ihre Testversand-Zielgruppe zu überprüfen.
-
-   ![](assets/message-center_5.png)
-
-### Testprofil außerhalb einer Transaktionsnachricht erstellen {#creating-a-test-profile-outside-the-transactional-----------message}
-
-Sie haben außerdem die Möglichkeit, ausgehend vom Menü **[!UICONTROL Testprofile]** ein neues Testprofil zu erstellen bzw. ein bereits existierendes zu verwenden.
-
-1. Verwenden Sie hierzu das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Testprofile]**.
-1. Wählen Sie auf der Seite Ihres gewünschten Testprofils im Abschnitt **[!UICONTROL Ereignis]** das Ereignis aus, das Sie erstellt haben. Im vorliegenden Beispiel handelt es sich um &quot;Warenkorbabbruch (EVTcartAbandonment)&quot;.
-1. Geben Sie im Tab **[!UICONTROL Ereignisdaten]** im Texteditor die zu übermittelnden Daten im JSON-Format an.
-
-   ![](assets/message-center_3.png)
-
-1. Speichern Sie Ihre Änderungen.
-
-Jetzt können Sie auf die von Ihnen erstellte Nachricht zugreifen und das aktualisierte Testprofil auswählen.
-
-**Verwandte Themen:**
-
-* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
-* [Audiences bestimmen](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>Sie können nur dann auf Transaktionsnachrichten zugreifen, wenn Sie der Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** angehören.
 
 ## Transaktionsnachricht personalisieren      {#personalizing-a-transactional-message}
 
@@ -240,7 +208,47 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
 ## Transaktionsnachricht testen {#testing-a-transactional-message}
 
-Nach Speicherung der Transaktionsnachricht können Sie nun einen Test senden.
+Zuerst müssen Sie ein spezifisches Profil erstellen, mit dem Sie die Transaktionsnachricht ordnungsgemäß überprüfen können.
+
+### Definieren eines bestimmten Profils {#defining-specific-test-profile}
+
+Definieren Sie ein Profil, das mit Ihrem Ereignis verknüpft wird. Dadurch können Sie Ihre Nachricht Vorschau und den Versand eines relevanten Testversands vornehmen.
+
+1. Klicken Sie im Dashboard Transaktionsnachricht auf die Schaltfläche **[!UICONTROL Test-Profil]** erstellen.
+
+   ![](assets/message-center_test-profile.png)
+
+1. Geben Sie im Bereich **[!UICONTROL Für die Personalisierung verwendete Ereignisdaten]** die zu übermittelnden Daten im JSON-Format an. Bei den angegebenen Daten handelt es sich um den Inhalt, der in der Vorschau verwendet und dem Testprofil im Testversand übermittelt wird.
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >Sie können auch die Information von der Profiltabelle eingeben. Siehe [Inhalt der Transaktionsnachricht anreichern](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+
+1. Nach der Erstellung wird das Profil im Voraus in der Transaktionsnachricht angegeben. Verwenden Sie die Kachel **[!UICONTROL Testprofile]** der Nachricht, um Ihre Testversand-Zielgruppe zu überprüfen.
+
+   ![](assets/message-center_5.png)
+
+Sie haben außerdem die Möglichkeit, ausgehend vom Menü **[!UICONTROL Testprofile]** ein neues Testprofil zu erstellen bzw. ein bereits existierendes zu verwenden. Gehen Sie dazu wie folgt vor:
+
+1. Verwenden Sie hierzu das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Testprofile]**.
+1. Wählen Sie im Abschnitt **[!UICONTROL Ereignis]** das soeben erstellte Ereignis aus. Im vorliegenden Beispiel handelt es sich um &quot;Warenkorbabbruch (EVTcartAbandonment)&quot;.
+1. Geben Sie im Tab **[!UICONTROL Ereignisdaten]** im Texteditor die zu übermittelnden Daten im JSON-Format an.
+
+   ![](assets/message-center_3.png)
+
+1. Speichern Sie Ihre Änderungen.
+1. Rufen Sie die erstellte Meldung auf und wählen Sie das aktualisierte Profil aus.
+
+**Verwandte Themen:**
+
+* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
+* [Audiences bestimmen](../../audiences/using/creating-audiences.md)
+
+### Testversand durchführen {#sending-proof}
+
+Nachdem Sie ein oder mehrere bestimmte Profil erstellt und Ihre Transaktionsnachricht gespeichert haben, können Sie einen Testversand zum Testen senden.
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ Bei jeder Auslösung des Ereignisses &quot;Stehen gelassener Warenkorb&quot; wir
 
 ![](assets/message-center_13.png)
 
-## Publikation einer Transaktionsnachricht aussetzen      {#suspending-a-transactional-message-publication}
+### Publikation einer Transaktionsnachricht aussetzen      {#suspending-a-transactional-message-publication}
 
 Sie haben die Möglichkeit, die Publikation Ihrer Transaktionsnachricht mittels der Verwendung der Schaltfläche **[!UICONTROL Aussetzen]** zeitweise zu unterbinden, um beispielsweise die in der Nachricht enthaltenen Daten abzuändern. Die Ereignisse werden so nicht länger verarbeitet, sondern stattdessen in einer Warteschlange der Adobe Campaign-Datenbank aufbewahrt.
 
@@ -268,7 +276,7 @@ Die in der Warteschlange befindlichen Ereignisse werden für einen Zeitraum aufb
 
 Bei Verwendung der Schaltfläche **[!UICONTROL Wieder aufnehmen]** werden alle Ereignisse verarbeitet, sofern ihre Gültigkeit nicht abgelaufen ist. Diese Nachrichten beinhalten nun die während der Aussetzung der Vorlagenpublikation vorgenommenen Änderungen.
 
-## Transaktionsnachricht depublizieren      {#unpublishing-a-transactional-message}
+### Transaktionsnachricht depublizieren      {#unpublishing-a-transactional-message}
 
 Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publikation der Transaktionsnachricht und zudem des entsprechenden Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
 
@@ -286,7 +294,7 @@ Die Vorgehensweise zum Aussetzen einer Nachricht wird im Abschnitt [Publikation 
 
 Auf den Workflow **[!UICONTROL Datenbankbereinigung]**, der standardmäßig jeden Tag um 4 Uhr gestartet wird, kann über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungsparameter]** > **[!UICONTROL Workflows]** zugegriffen werden.
 
-## Transaktionsnachricht löschen {#deleting-a-transactional-message}
+### Transaktionsnachricht löschen {#deleting-a-transactional-message}
 
 Nachdem eine Transaktionsnachricht depubliziert wurde bzw. wenn eine Transaktionsnachricht noch nicht veröffentlicht wurde, können Sie sie aus der Liste der Transaktionsnachrichten löschen. Gehen Sie dazu wie folgt vor:
 
@@ -333,9 +341,9 @@ Nachdem das Ereignis einem Ausführungsversand zugewiesen wurde, kann die Transa
 
 >[!NOTE]
 >
->Wenn ein Ereignis einem Ausführungsversand zugewiesen wird, wird es nur dieses eine Mal in den Versandlogs dieses Ausführungsversands angezeigt. Die fehlgeschlagenen Sendungen werden im Tab **[!UICONTROL Liste der Ausführungen]** der Transaktionsnachricht angezeigt.
+>Wenn ein Ereignis einem Ausführungsversand zugewiesen wird, wird es nur dieses eine Mal in den Versandlogs dieses Ausführungsversands angezeigt. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Einschränkungen {#limitations}
+### Prozessbeschränkungen wiederholen {#limitations}
 
 **Aktualisierung der Versandlogs**
 
