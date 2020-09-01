@@ -12,11 +12,11 @@ discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Die Aktivität **[!UICONTROL Audience lesen]** ist eine einfachere Version der *
 
    Sie können die folgenden Typen von Audiences abrufen: **[!UICONTROL Liste]**, **[!UICONTROL Abfrage]**, **[!UICONTROL Datei]** und **[!UICONTROL Experience Cloud]**. Lesen Sie für weiterführende Informationen das [Audience-Handbuch](../../audiences/using/about-audiences.md).
 
-   Mit der Option **[!UICONTROL Dynamische Audience verwenden]** können Sie den Namen der jeweiligen Audience auf der Basis der Ereignisvariablen des Workflows definieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Anpassen von Aktivitäten mit Ereignisvariablen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+   Mit der Option **[!UICONTROL Dynamische Audience verwenden]** können Sie den Namen der jeweiligen Audience auf der Basis der Ereignisvariablen des Workflows definieren. For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md) section.
 
    ![](assets/readaudience_activity1.png)
 
