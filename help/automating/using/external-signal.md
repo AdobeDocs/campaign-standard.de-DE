@@ -12,9 +12,9 @@ discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Beachten Sie, dass die Aktivität **[!UICONTROL Externes Signal]** von mehreren 
 **Verwandte Themen**
 
 * [Anwendungsfall: Aktivität &quot;Externes Signal&quot; und Datenimport](../../automating/using/external-signal-data-import.md)
-* [Anwendungsfall: Aufruf eines Workflows zum Erstellen einer Audience aus einer Datei mit externen Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [Anwendungsfall: Aufruf eines Workflows zum Erstellen einer Audience aus einer Datei mit externen Parametern](../../automating/using/use-case-calling-workflow.md)
 
 ## Konfiguration {#configuration}
 
@@ -56,7 +56,7 @@ Bei der Konfiguration eines externes Signals muss zuerst die Aktivität **[!UICO
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Quick Actions angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Bearbeiten Sie den Titel der Aktivität. Diesen Titel benötigen Sie bei der Konfiguration des Ursprungs-Workflows, der das **[!UICONTROL externe Signal]** auslöst.
 
-   Wenn Sie den Workflow mit Parametern aufrufen möchten, deklarieren Sie diese im Bereich **[!UICONTROL Parameter]**. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   Wenn Sie den Workflow mit Parametern aufrufen möchten, deklarieren Sie diese im Bereich **[!UICONTROL Parameter]**. Weiterführende Informationen hierzu finden Sie in diesem Abschnitt: [](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -78,7 +78,7 @@ Bei der Konfiguration eines externes Signals muss zuerst die Aktivität **[!UICO
 
    Wenn Sie eine **[!UICONTROL Ende]**-Aktivität festlegen, die einen weiteren Workflow auslöst, wird ihrem Symbol ein zusätzliches Signalsymbol hinzugefügt.
 
-   Wenn Sie den Workflow mit Parametern aufrufen möchten, verwenden Sie den Bereich **[!UICONTROL Parameter und Werte]**. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   Wenn Sie den Workflow mit Parametern aufrufen möchten, verwenden Sie den Bereich **[!UICONTROL Parameter und Werte]**. Weiterführende Informationen hierzu finden Sie in diesem Abschnitt: [](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
