@@ -12,9 +12,9 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: 5da41379d718d78d7990fd2d767ec21216487b0d
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 88%
 
 ---
@@ -29,8 +29,7 @@ Sehen wir uns folgendes Beispiel an, in dem E-Mails direkt von einem CMS gesende
 Workflows werden mit Parametern folgendermaßen aufgerufen:
 
 1. Deklarieren Sie die Parameter in der Aktivität **[!UICONTROL Externes Signal]**. Siehe [Parameter in der externen Signalaktivität deklarieren](../../automating/using/declaring-parameters-external-signal.md).
-1. Konfigurieren Sie die Aktivität **[!UICONTROL Ende]** oder den API-Aufruf, um die Parameter zu definieren und den Workflow für die Aktivität **[!UICONTROL Externes Signal]** auszulösen.
-
-Sobald der Workflow ausgelöst wurde, werden die Parameter in die Ereignis-Variablen des Workflows eingebunden und können im Workflow verwendet werden. Siehe [](../../automating/using/customizing-workflow-external-parameters.md).
+1. Konfigurieren Sie die Aktivität **[!UICONTROL Ende]** oder den API-Aufruf, um die Parameter zu definieren und den Workflow für die Aktivität **[!UICONTROL Externes Signal]** auszulösen. Siehe [](../../automating/using/defining-parameters-calling-workflow.md)
+1. Sobald der Workflow ausgelöst wurde, werden die Parameter in die Ereignis-Variablen des Workflows eingebunden und können im Workflow verwendet werden. Siehe [](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)
