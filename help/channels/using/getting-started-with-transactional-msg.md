@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
+source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 32%
@@ -28,7 +28,12 @@ ht-degree: 32%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Mit Transaktionsnachrichten können Sie Ihren Kunden individuelle und eindeutige Nachrichten <b>in Echtzeit</b> senden. Es kann sich um Willkommensmeldungen, Versandbestätigungen, Passwortänderung usw. handeln.
+<table>
+<tr>
+<td ><br><p>Mit Transaktionsnachrichten können Sie Ihren Kunden individuelle und eindeutige Nachrichten <b>in Echtzeit</b> senden.</p></td>
+<td>Es kann sich um Willkommensmeldungen, Versandbestätigungen, Passwortänderung usw. handeln.</td>
+</tr>
+</table>
 
 Mit Adobe Campaign können Sie diese Funktion in ein Informationssystem integrieren, das Ereignis sendet, die in benutzerdefinierte Transaktionsnachrichten umgewandelt werden sollen.
 
@@ -112,9 +117,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Konfigurieren Sie ein Ereignis mit dem Namen "Warenkorbabbruch"und veröffentlichen Sie diese Ereignis-Konfiguration.</p></td>
+<td><br><p>Konfigurieren Sie ein Ereignis mit dem Namen "Warenkorbabbruch"und veröffentlichen Sie diese Ereignis-Konfiguration.</p></td>
 <td>Die API, die von Ihrem Website-Entwickler verwendet wird, wird bereitgestellt und eine Transaktionsnachricht wird automatisch erstellt.</td>
 </tr>
 </table>
@@ -127,9 +134,11 @@ Die Erstellung und Veröffentlichung eines Ereignisses finden Sie im Abschnitt [
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Bearbeiten und personalisieren Sie die Transaktionsnachricht, testen Sie sie und veröffentlichen Sie sie dann.</p></td>
+<td><br><p>Bearbeiten und personalisieren Sie die Transaktionsnachricht, testen Sie sie und veröffentlichen Sie sie dann.</p></td>
 <td>Die Transaktionsnachricht kann dann versandt werden.</td>
 </tr>
 </table>
@@ -144,9 +153,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Verwenden Sie die REST-Transaktionsnachrichten-API, um das Ereignis in Ihre Website zu integrieren.</p></td>
+<td><br><p>Verwenden Sie die REST-Transaktionsnachrichten-API, um das Ereignis in Ihre Website zu integrieren.</p></td>
 <td>Das Ereignis wird ausgelöst, wenn ein Kunde seinen Warenkorb verlässt.</td>
 </tr>
 </table>
@@ -161,9 +172,11 @@ Weitere Informationen zur Integration des Ereignisses in Ihre Website finden Sie
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Sobald alle diese Schritte durchgeführt wurden, kann die Nachricht gesendet werden.</p></td>
+<td><br><p>Sobald alle diese Schritte durchgeführt wurden, kann die Nachricht gesendet werden.</p></td>
 <td>Sobald ein Benutzer die Site verlässt, ohne die Produkte in seinem Einkaufswagen zu bestellen, erhält er automatisch eine Benachrichtigungs-E-Mail.</td>
 </tr>
 </table>
