@@ -12,11 +12,11 @@ discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '624'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 96%
 
 ---
 
@@ -102,4 +102,4 @@ Jetzt können Sie die Extraktionsdatei an Ihren Briefpost-Dienstleister senden. 
 * Senden Sie mit regulärer E-Mail und einem Dateianhang.
 * Senden Sie über Campaign: Führen Sie Ihre Briefpost im Rahmen eines Kampagnen-[Workflows](../../automating/using/direct-mail-delivery.md) aus und fügen Sie eine **[!UICONTROL Dateiübertragung]** hinzu, um die Datei beispielsweise per FTP zu versenden. Siehe [Dateiübertragung](../../automating/using/transfer-file.md).
 
-Der Provider ruft die Liste mit fehlerhaften Adressen ab und sendet diese Informationen an Adobe Campaign, wo die fehlerhaften Adressen automatisch auf die Blockierungsliste gesetzt werden. Siehe [Rücksendungen an den Absender](../../channels/using/return-to-sender.md).
+Der Anbieter ruft die Liste von falschen Adressen ab und sendet diese Informationen an Adobe Campaign, wodurch die fehlerhaften Adressen automatisch Blockierungsliste werden. Siehe [Rücksendungen an den Absender](../../channels/using/return-to-sender.md).
