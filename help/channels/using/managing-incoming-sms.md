@@ -12,11 +12,11 @@ discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
 delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 92%
 
 ---
 
@@ -58,7 +58,7 @@ Gehen Sie dabei folgendermaßen vor:
    * Mit der Aktion **[!UICONTROL Aus Quarantäne holen]** wird die Telefonnummer des Profils aus der Quarantäne entlassen.
    * Mit der Aktion **[!UICONTROL Keine]** wird Ihre Nachricht ohne Aktion an die Empfänger gesendet.
 
-   Wenn Empfänger beispielsweise in der folgenden Konfiguration das Schlüsselwort &quot;STOPP&quot; senden, erhalten sie eine Abmeldebestätigung und ihre Telefonnummer wird mit dem Status **[!UICONTROL Auf Blockierungsliste]** unter Quarantäne gestellt. Der Status bezieht sich ausschließlich auf die Telefonnummer. Das Profil wird nicht auf die Blockierungsliste gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält.
+   For example, in the configuration below, if recipients send the keyword &quot;STOP&quot;, they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL Denylisted]** status. Dieser Status bezieht sich nur auf die Telefonnummer, das Profil wird so auf die Blockierungsliste gesetzt, dass der Benutzer weiterhin E-Mail-Nachrichten erhält.
 
    ![](assets/sms_mo.png)
 
