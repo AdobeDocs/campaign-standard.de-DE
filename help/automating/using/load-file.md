@@ -12,11 +12,11 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->Beachten Sie bei Verwendung dieser Funktion die Einschränkungen für SFTP-Datenspeicherung, DB-Datenspeicherung und aktive Profil gemäß Ihrem AdobeCampaign-Vertrag.
+>Beachten Sie bei Verwendung dieser Funktionalität die Einschränkungen für SFTP-Datenspeicherung, DB-Datenspeicherung und aktive Profile gemäß Ihrem Adobe Campaign-Vertrag.
 
 ![](assets/data_loading.png)
 
@@ -124,7 +124,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
 Wenn nach dem Ausführen des Workflows ein Fehler bei der Aktivität auftritt, lesen Sie die Protokolle, um weitere Details zu den Werten zu erhalten, die in der Datei falsch sind. Weiterführende Informationen zur Workflow-Logs finden Sie in [diesem Abschnitt](../../automating/using/monitoring-workflow-execution.md).
 
-## Spaltenformat    {#column-format}
+## Spaltenformat     {#column-format}
 
 Beim Laden einer Beispieldatei wird das Spaltenformat automatisch erkannt und jedem Datentyp werden Standardparameter zugewiesen. Diese Standardparameter können angepasst werden, um einen bestimmten Umgang mit gewissen Daten vorzuschreiben, insbesondere in Bezug auf Fehler oder Leerwerte.
 
