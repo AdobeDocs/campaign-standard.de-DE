@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Im folgenden Diagramm wird beschrieben, wie diese Integration funktioniert.
 * Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) an.
 * Erfahren Sie mehr in unseren zwei [Anwendungsbeispielen zur Abbruchsauslösung](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Die Verwendung von Triggern  {#triggers-user-process}
+## Die Verwendung von Triggern   {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -55,7 +55,7 @@ Gehen Sie in Adobe Campaign wie folgt vor:
 
 Vollständige Anwendungsbeispiele werden in [diesem Abschnitt](../../integrating/using/abandonment-triggers-use-cases.md) erläutert.
 
-## Wichtige Hinweise  {#important-notes}
+## Wichtige Hinweise   {#important-notes}
 
 Beachten Sie bei der Verwendung der Triggers-Campaign-Integration Folgendes:
 
