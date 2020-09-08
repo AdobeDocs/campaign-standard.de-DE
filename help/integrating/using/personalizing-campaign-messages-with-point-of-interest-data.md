@@ -11,9 +11,9 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Im Folgenden wird beschrieben, wie Sie Abonnenten, die innerhalb der letzten zwe
 
    ![](assets/poi_subscriptions_app.png)
 
-   Die Verwaltung von Audiences ist im Abschnitt [Audiences bestimmen](../../audiences/using/creating-audiences.md) beschrieben.
+   Die Verwaltung von Audiences wird im Abschnitt [Audiences bestimmen](../../audiences/using/creating-audiences.md) beschrieben.
 
 1. Ziehen Sie im Fenster **[!UICONTROL Regel hinzufügen - Profil/App-Abonnements]** das Element **[!UICONTROL POI-Standortmitgliedschaft]** in den Arbeitsbereich.
 
