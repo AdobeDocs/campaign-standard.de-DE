@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 3534fb2cf9f77168eb3ca0021f4121a44a57916d
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -37,6 +37,6 @@ Eine Integration zwischen dem Core Service **Triggers** von Adobe Analytics mit 
 
 **Verwandte Themen:**
 
-* [Überblick über den Campaign Standard zur Analytics-Integration](https://docs.adobe.com/content/help/de-DE/analytics/integration/adobe-campaign.html)
+* [Übersicht über die Integration von Campaign Standard mit Analytics](https://docs.adobe.com/content/help/de-DE/analytics/integration/adobe-campaign.html)
 * [Campaign Standard-Integration konfigurieren](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Campaign-Dimensionen und -Metriken in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
