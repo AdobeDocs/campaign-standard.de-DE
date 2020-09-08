@@ -11,11 +11,11 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1141'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Mehrsprachige Push-Benachrichtigungen erfordern 14 Spalten in der CSV-Datei:
 Sie können sich das CSV-Beispiel ansehen, indem Sie auf **[!UICONTROL Beispieldatei herunterladen]** im Fenster **[!UICONTROL Inhaltsvarianten verwalten]** klicken. Weitere Informationen finden Sie in diesem [Abschnitt](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: Standardmäßige Push-Payload-Inhalte. Sie müssen diese Informationen auf ähnliche Weise bereitstellen wie beim Erstellen von Push-Sendungen.
-* **Benutzerdefinierte Felder**:  Verwenden Sie das JSON-Format für die benutzerdefinierten Felder, z. `{"key1":"value1","key2":"value2"}`. In der obigen Beispieldatei finden Sie ein Beispiel für benutzerdefinierte Felder.
+* **Benutzerdefinierte Felder**: Verwenden Sie das JSON-Format für die benutzerdefinierten Felder, z. B. `{"key1":"value1","key2":"value2"}`. In der obigen Beispieldatei finden Sie ein Beispiel für benutzerdefinierte Felder.
 * **isContentAvailable**: Markierung für Prüfung &quot;Inhalt verfügbar&quot;, Wert 1 bedeutet &quot;wahr&quot;, Wert 0 bedeutet &quot;falsch&quot;. Der Standardwert ist 0. Wenn Sie diese Spalte leer lassen, wird der Wert als 0 betrachtet.
 * **isMutableContent**: Markierung für &quot;Veränderlicher Inhalt&quot;, Wert 1 bedeutet &quot;wahr&quot;, Wert 0 bedeutet &quot;falsch&quot;. Der Standardwert ist 0. Wenn Sie diese Spalte leer lassen, wird der Wert 0 angenommen.
 * **locale**: &quot;locale&quot; (Gebietsschema) ist das Feld für Sprachvarianten, z. B. &quot;en_us&quot; für US-Englisch und &quot;fr_fr&quot; für Frankreich-Französisch.
