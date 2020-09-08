@@ -48,7 +48,7 @@ Erstellen Sie also innerhalb des Programms oder der Kampagne Ihrer Wahl einen ne
 
 Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Workflow erstellen](../../automating/using/building-a-workflow.md) beschrieben.
 
-## Abfrageaktivität erstellen {#creating-query-activity}.
+## Abfrageaktivität erstellen. {#creating-query-activity}
 
 Nach der Erstellung des Workflows werden Sie zu dessen Arbeitsbereich weitergeleitet.
 
@@ -66,7 +66,7 @@ Sie können eine auf ein oder mehrere Element(e) bezogene Abfrage erstellen.
 
 Verwenden Sie die Schaltfläche **[!UICONTROL Zählung]**, um die geschätzte Anzahl an Profilen anzuzeigen, auf die die Abfrage zutrifft.
 
-## Segmentierungsaktivität erstellen{#creating-segmentation-activity}.
+## Segmentierungsaktivität erstellen.{#creating-segmentation-activity}
 
 Unterteilen Sie im nächsten Schritt Ihre mithilfe der Abfrage-Aktivität bestimmte Zielgruppe in zwei Segmente: das eine erhält eine E-Mail, das andere eine SMS.
 
