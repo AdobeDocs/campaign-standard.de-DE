@@ -12,11 +12,11 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign ist mit einer Reihe nativer Landingpage-Vorlagen ausgestattet:
 * **[!UICONTROL Akquise]**: Dies ist die Standardvorlage für Landingpages, mit der Sie Daten in der Campaign-Datenbank erfassen und aktualisieren können.
 * **[!UICONTROL Anmeldung]**: Mit dieser Vorlage können Sie Abonnements für einen Dienst anbieten.
 * **[!UICONTROL Abmeldung]**: Mit dieser Vorlage können Sie eine Verbindung zwischen einer gesendeten E-Mail und Abonnenten eines Dienstes herstellen, sodass sich diese von dem Dienst abmelden können.
-* **[!UICONTROL Blockierungsliste]**: Verwenden Sie diese Vorlage, wenn ein Kontakt nicht mehr von Campaign kontaktiert werden möchte. Weiterführende Informationen zur Verwaltung von Blockierungslisten finden Sie im Abschnitt [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Blockierungsliste]**: Diese Vorlage sollte verwendet werden, wenn ein Profil nicht mehr von der Kampagne kontaktiert werden möchte. For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Diese Vorlagen werden bei der Erstellung einer neuen Landingpage standardmäßig vorgeschlagen.
 
