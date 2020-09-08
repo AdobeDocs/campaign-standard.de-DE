@@ -12,11 +12,11 @@ discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 09a6e062be32b78fda6b0eb83a6d11ac249b3168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Der Administrator-Benutzer muss die Sicherheitsgruppen erstellen, die für die Z
 
    >[!NOTE]
    >
-   >Wenn Sie Ihren Benutzern eine vordefinierte Sicherheitsgruppe zuweisen, müssen Sie die organisatorische Einheit zurücksetzen.
+   >Wenn Sie Ihren Benutzern eine native Sicherheitsgruppe zuweisen, müssen Sie die Organisationseinheit zurücksetzen.
 
    ![](assets/manage_security_group_6.png)
 
