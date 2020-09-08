@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 100%
+source-wordcount: '1615'
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ Um solche Probleme zu vermeiden, empfiehlt Adobe, die unten stehenden Best Pract
 * Melden Sie sich gelegentlich beim SFTP-Server direkt an, um dessen Inhalt zu prüfen.
 * Beachten Sie bitte, dass die Verwaltung des SFTP-Speichers hauptsächlich Ihre Verantwortung ist.
 
-Beachten Sie außerdem, dass die öffentlichen IPs, mit denen Sie die SFTP-Verbindung aufbauen, in der Campaign-Instanz auf der Zulassungsliste stehen müssen. Wenn Sie IP-Adressen auf eine Zulassungsliste setzen lassen möchten, senden Sie ein [Support-Ticket](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) und stellen Sie den öffentlichen Schlüssel zur Authentifizierung bereit.
+Beachten Sie außerdem, dass die öffentlichen IPs, von denen Sie versuchen, die SFTP-Verbindung zu starten, der Zulassungsliste in der Kampagne hinzugefügt werden müssen. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/sftp-management/about-sftp-management.html).
 
