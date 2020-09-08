@@ -12,11 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
-workflow-type: ht
-source-wordcount: '443'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ Im Folgenden finden Sie Details zum **[!UICONTROL Versanddurchsatz]**-Bericht so
 * Prüfen Sie, ob die einzelnen Versanddurchsätze der Gültigkeit des Versandinhalts entsprechen (&quot;Flash Sales&quot; zum Beispiel sollten innerhalb von Minuten, nicht von Tagen zugestellt werden).
 * Wenn der Versand in Schüben erfolgt, stellen Sie sicher, dass genügend Zeit vorhanden ist, damit ein Schub fertiggestellt werden kann, bevor der nächste beginnt.
 * Prüfen Sie, ob die Anzahl der Fehler und der neuen Quarantänen der anderer Sendungen entspricht.
-* Prüfen Sie in den Versandlogs sorgfältig die Art der hervorgehobenen Fehler (Blockierungsliste, DNS-Probleme, Anti-Spam-Regeln usw.).
+* Konsultieren Sie die Versandlogs sorgfältig, um die Art der hervorgehobenen Fehler (auf die Blockierungsliste setzten, DNS-Probleme, Anti-Spam-Regeln usw...) zu überprüfen.
 
 ## Versanddurchsatz {#delivery-throughput}
 
@@ -68,6 +68,6 @@ Signal Spam bietet auch eine eigene Benutzeroberfläche für die direkte Beschwe
 
 ## 250ok {#solution-250ok}
 
-250ok ist eine Überwachungslösung, die IP- und Domain-Blockierungslisten sowie Reputationsindikatoren bereitstellt.
+250ok ist eine Überwachungslösung, die sowohl IP- und Domain-Blockierungslisten als auch Reputationsindikatoren bietet.
 
 Die Informationen werden in Echtzeit bereitgestellt und ermöglichen damit eine proaktive Unterstützung. 250ok ergänzt interne Zustellbarkeits-Tools von Adobe.
