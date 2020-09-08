@@ -12,11 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 61%
 
 ---
 
@@ -36,40 +36,40 @@ Wenn Sie bei einem ISP immer dieselbe Fehlermeldung erhalten, hat der ISP mögli
 
 Wenn das Problem fortbesteht, kontaktieren Sie den Zustellbarkeitsservice oder die entsprechende Geschäftsabteilung oder den Support von Adobe Campaign.
 
-## Blockierungsliste versus Quarantäne {#block-list-versus-quarantine}
+## Blockierungsliste versus Quarantäne {#denylist-versus-quarantine}
 
-* **Was ist der Unterschied zwischen einer E-Mail-Adresse auf einer Blockierungsliste und einer E-Mail-Adresse in Quarantäne?**
+* **Was ist der Unterschied zwischen einer auf die Blockierungsliste gesetzt E-Mail-Adresse und einer isolierten E-Mail-Adresse?**
 
-   * Der Status **[!UICONTROL Auf Blockierungsliste]** ist das Ergebnis eines Feedback-Loops (wenn ein Empfänger eine E-Mail als Spam meldet).
+   * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
 
    * Der Status **[!UICONTROL In Quarantäne]** ist das Ergebnis eines Soft- oder Hardbounce.
    Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
 
 * **Was bedeuten die unterschiedlichen Gründe für Quarantäne-Fehler?**
 
-   Es gibt zehn Gründe: Unbestimmt, Unbekannter Nutzer, Ungültige Domain, Adresse auf der Blockierungsliste, Zurückgewiesen, Fehler ignoriert, Unerreichbar, Konto deaktiviert, Postfach voll, Nicht angemeldet.
+   Es gibt 10 mögliche Gründe: nicht definiert, Benutzer unbekannt, Ungültige Domain, auf die Blockierungsliste gesetzt Adresse, verweigert, Fehler ignoriert, unerreichbar, Konto deaktiviert, Postfach vollständig, nicht verbunden.
 
    Weitere Informationen hierzu finden Sie unter [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md).
 
-## Aus Blockierungsliste entfernen {#removing-from-block-list}
+## Aus Blockierungsliste entfernen {#removing-from-denylist}
 
-* **Einer meiner Empfänger wurde versehentlich der Blockierungsliste hinzugefügt. Wie kann ich ihn aus der Blockierungsliste entfernen, damit ich ihm wieder Nachrichten senden kann?**
+* **Einer meiner Empfänger wurde versehentlich auf die Blockierungsliste gesetzt. How do I remove them from the denylist so that I can start sending them messages again?**
 
    * Gehen Sie zu **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]**.
    * Setzen Sie in den Details des entsprechenden Datensatzes den Wert des **[!UICONTROL Status]**-Feldes auf **[!UICONTROL Gültig]**.
    * Speichern Sie die Daten.
 
-* **Wie kann ich feststellen, ob eine meiner IP-Adressen auf einer Blockierungsliste steht? Wie kann ich meine IP-Adresse(n) wieder aus der Blockierungsliste entfernen?**
+* **Wie kann ich herausfinden, ob eine meiner IPs auf die Blockierungsliste gesetzt ist? How do I remove my IP(s) from a denylist?**
 
-   Um zu überprüfen, ob Ihre IP-Adresse auf einer Blockierungsliste steht, können Sie verschiedene Websites verwenden, um sie zu überprüfen, z. B.:
+   Um zu prüfen, ob Ihre IP-Adresse auf die Blockierungsliste gesetzt ist, können Sie sie auf verschiedenen Websites überprüfen, z. B.:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Wie lautet meine IP-Adresse?](https://whatismyipaddress.com)
 
-   Nach der IP-Adressen-Prüfung erhalten Sie eine Liste mit Details zur Blockierungsliste und auch den Namen der Website, von der die IP-Adresse auf die Blockierungsliste gesetzt wurde.
+   Im Allgemeinen gibt das Ergebnis der IP-Adressprüfung eine Liste zurück, die Details der Blockierungsliste und auch den Namen der Website enthält, die die IP-Adresse blockiert hat.
 
    Durch Auswahl des entsprechenden Links können Sie die Details der Website aufrufen.
 
-   Dann können Sie diese Website ersuchen, Ihre Website von der Blockierungsliste zu löschen.
+   Anschließend können Sie beantragen, dass Ihre Website von der Website gelöscht wird, die die IP-Adresse zu ihrer Blockierungsliste hinzugefügt hat.
 
    >[!NOTE]
    >
