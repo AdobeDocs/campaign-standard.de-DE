@@ -12,11 +12,11 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ So konfigurieren Sie einen Dienst:
 
    ![](assets/lp_service_parameters.png)
 
-1. Wählen Sie die **[!UICONTROL Abonnement mit einem Ablaufdatum]** aus, um eine Gültigkeitsdauer für das Abonnement festzulegen.
+1. Wählen Sie die Option **[!UICONTROL Zeitlich begrenzte Abonnements]** aus, um eine Gültigkeit für das Abonnement festzulegen.
 
    ![](assets/lp_service_expiration.png)
 
-   Sie können das Ablaufdatum in einer Segmentierungs-Aktivität für Zielgruppen-Profil verwenden, die einen nicht abgelaufenen Dienst abonniert haben.
+   Sie können das Ablaufdatum in einer Segmentierungsaktivität verwenden, um Profile anzusprechen, die einen Dienst abonniert haben, der noch nicht abgelaufen ist.
 
 1. Füllen Sie das Feld **[!UICONTROL Diensttitel]** aus. Der Diensttitel ist bei Verwendung einer benutzerdefinierten Bestätigungsnachricht obligatorisch.
 
@@ -60,7 +60,7 @@ Nachdem ein Dienst erstellt wurde, können Sie damit beginnen, ihn zu bewerben.
 
 **Verwandte Themen:**
 
-* Video [Managing a service and subscriptions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
+* Video [Managing a service and subscriptions](https://docs.adobe.com/content/help/de-DE/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
 * [Dienst bewerben](../../audiences/using/promoting-a-service.md)
 * [Erstellen einer Audience aus Abonnenten](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Verknüpfen einer Landingpage mit einem Dienst ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
