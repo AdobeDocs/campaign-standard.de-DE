@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
-workflow-type: ht
-source-wordcount: '4696'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '4688'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ _Push-Benachrichtigungen_
 _Berichte_
 
 * Fehlerkorrektur – der Prozentsatz der Klicks wird jetzt im E-Mail-Inhalt angezeigt.
-* Fehlerkorrektur – die Blockierungslisten-Metrik wird jetzt als Bounce und nicht mehr als Hardbounce gezählt.
+* Es wurde ein Problem mit der Metrik &quot;Blockierungsliste&quot;behoben, das als &quot;harter Absprung&quot;statt als &quot;Absprung&quot;gezählt wurde.
 * Fehlerkorrektur – in der Zusammenfassung werden jetzt keine negativen Zählungen mehr angezeigt.
 * Fehlerkorrektur – Profile werden jetzt nicht mehr in der falschen Altersgruppe gezählt.
 * Die Formeln für Softbounces und Hardbounces wurden geändert.
@@ -494,7 +494,7 @@ _Workflows_
    <td> Marketing-Funktionen für Transaktionsnachrichten<br /> </td> 
    <td> Sie können nun Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen versenden. Damit haben Sie folgende Möglichkeiten:<br /> 
     <ul> 
-     <li> Marketing-Typologieregeln wie <span class="uicontrol">Adresse auf Blockierungsliste</span> anwenden. </li> 
+     <li> Apply marketing typology rules such as <span class="uicontrol">Denylisted address</span> . </li> 
      <li> einen Abmelde-Link in die Nachricht einfügen </li> 
      <li> die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen </li> 
      <li> Die Transaktionsnachrichten für die Customer Journey nutzen </li> 
@@ -505,7 +505,7 @@ _Workflows_
    <td> Die Transaktionsnachrichten-API ist jetzt über <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a> verfügbar, wodurch die Verwendung und Überwachung vereinfacht wird:<br /> 
     <ul> 
      <li> Sie profitieren von den Berichterstellungs- und Überwachungsfunktionen der Plattform adobe.io. </li> 
-     <li> Die Authentifizierung erfolgt nun über einen adobe.io-Token anstatt über eine IP-Zulassungsliste, wodurch das Sicherheitsverfahren vereinfacht wird. </li> 
+     <li> Die Authentifizierung wird jetzt mit der Token-basierten Authentifizierung adobe.io statt mit IP-auf die Zulassungsliste setz durchgeführt, wodurch der Sicherheitsprozess vereinfacht wird. </li> 
      <li> Alle APIs sind jetzt auf einer einzigen Plattform integriert. Damit wird es einfacher, Ihrer Integration Funktionen für Transaktionsnachrichten hinzuzufügen, wenn Sie bereits die Profiles &amp; Services API unterstützen. </li> 
     </ul> </td> 
   </tr> 
@@ -530,7 +530,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – von Anwendungen können jetzt Postbacks an den Adobe Campaign-Server gesendet werden.
 * Fehlerkorrektur – für Android sind jetzt die Funktionen **[!UICONTROL Ton abspielen]** und **[!UICONTROL Benutzerdefinierte Felder]** verfügbar.
 * Fehlerkorrektur – jetzt wird kein zusätzliches Maskierungszeichen mehr an für Emojis verwendete Unicode-Zeichen angefügt.
-* Wenn der Anmeldetoken eines Abonnenten auf die Blockierungsliste gesetzt wird, wird der entsprechende Status in der Abonnentenliste der Anwendung in Adobe Campaign jetzt unverzüglich aktualisiert.
+* Wenn das Registrierungstoken eines Abonnenten auf die Blockierungsliste gesetzt wird, wird der entsprechende Status jetzt in der Liste der Abonnenten in Adobe Campaign sofort aktualisiert.
 
 _Workflows_
 
