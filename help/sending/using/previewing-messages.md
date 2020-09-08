@@ -22,7 +22,7 @@ ht-degree: 100%
 
 # Vorschau des Versands erzeugen {#previewing-messages}
 
-## Vorschau der E-Mail erzeugen       {#previewing-emails}
+## Vorschau der E-Mail erzeugen        {#previewing-emails}
 
 Mit Campaign Standard können Sie Nachrichten vor dem Versand in einer Vorschau anzeigen, um deren Personalisierung zu überprüfen und zu ermitteln, wie die Nachrichten bei Ihren Empfängern aussehen werden.
 
