@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -48,14 +48,14 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   </tr> 
   <tr> 
    <td> Auf die Blockierungsliste gesetzt<br /> </td> 
-   <td> @blocklisted<br /> </td> 
+   <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blockierungslistenrate<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@sent<br /> </td> 
+   <td> Denylist rate<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @blacklisted/@sent<br /> </td> 
    <td> Der Denominator für die Berechnung der Rate basiert auf der Anzahl der gesendeten Nachrichten (Zugestellt + Bounces).<br /> </td> 
   </tr> 
   <tr> 
