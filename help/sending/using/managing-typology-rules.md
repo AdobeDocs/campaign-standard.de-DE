@@ -12,11 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Die wichtigsten Schritte zum Erstellen einer Typologieregel sind:
 
    ![](assets/typology-rule-label.png)
 
-1. Geben Sie den **[!UICONTROL Typ]** der Typologieregel an und konfigurieren Sie sie dann entsprechend Ihren Anforderungen. Beachten Sie, dass die Konfiguration der Typologieregeln je nach Typ unterschiedlich ist. Weiterführende Informationen finden Sie in den Abschnitten **[Filterregeln](../../sending/using/filtering-rules.md)**und**[ Ermüdungsregeln](../../sending/using/fatigue-rules.md)**.
+1. Geben Sie den **[!UICONTROL Typ]** der Typologieregel an und konfigurieren Sie sie dann entsprechend Ihren Anforderungen. Beachten Sie, dass die Konfiguration der Typologieregeln je nach Typ unterschiedlich ist. Weiterführende Informationen finden Sie in den Abschnitten **[Filterregeln](../../sending/using/filtering-rules.md)** und **[Ermüdungsregeln](../../sending/using/fatigue-rules.md)**.
 
 1. Wählen Sie die Typologien aus, in die die neue Regel eingefügt werden soll. Wählen Sie dazu den Tab **[!UICONTROL Typologien]** und dann die Schaltfläche **[!UICONTROL Element erstellen]** aus.
 
@@ -72,7 +72,7 @@ Im Standard-Ausführungsmodus werden die Regeln in der folgenden Reihenfolge aus
 1. Kontrollregeln, wenn sie zu Beginn der Zielgruppenbestimmung angewendet werden
 1. Filterregeln:
 
-   * Native Anwendungsregeln für die Adressqualifizierung: definierte Adresse / nicht verifizierte Adresse / Adresse auf der Blockierungsliste / Adresse in Quarantäne / Qualität der Adresse.
+   * Native Antragsregeln für Adressqualifikation: definierte Adresse / nicht verifizierte Adresse / auf die Blockierungsliste gesetzt Adresse / Qualität der isolierten Adresse / Adresse.
    * Vom Benutzer definierte Filterregeln
 
 1. Kontrollregeln, wenn sie am Ende der Zielgruppenbestimmung angewendet werden
