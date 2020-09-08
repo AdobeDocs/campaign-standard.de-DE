@@ -60,14 +60,14 @@ Weiterführende Informationen zum Erweitern einer benutzerdefinierten Ressource 
 
 Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Workflow erstellen](../../automating/using/building-a-workflow.md) beschrieben.
 
-## Abfrageaktivität erstellen {#create-a-query-activity}.
+## Abfrageaktivität erstellen. {#create-a-query-activity}
 
 1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität, um Ihre Zielgruppe zu definieren.
 1. Ziehen Sie beispielsweise unter **[!UICONTROL Schnellzugriffe]** die Option **[!UICONTROL Profil]** in den Arbeitsbereich, wählen Sie **[!UICONTROL Alter]** mit dem Operator **[!UICONTROL Größer als]** aus und geben Sie in das Feld **[!UICONTROL Wert]** &quot;25&quot; ein.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-## Segmentierungsaktivität erstellen{#creating-a-segmentation-activity}.
+## Segmentierungsaktivität erstellen.{#creating-a-segmentation-activity}
 
 1. Ziehen Sie eine [Segmentierungsaktivität](../../automating/using/segmentation.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Wählen Sie im Tab **[!UICONTROL Segmente]** ein Segment aus, das bearbeitet werden soll.
