@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Zunächst müssen Sie die Ressource **[!UICONTROL Profil]** um ein neues Feld f�
 
 Weiterführende Informationen zum Erweitern einer benutzerdefinierten Ressource finden Sie im Abschnitt [Schritte zum Hinzufügen einer Ressource](../../developing/using/key-steps-to-add-a-resource.md).
 
-## Workflow erstellen    {#creating-a-workflow}
+## Workflow erstellen     {#creating-a-workflow}
 
 1. Wählen Sie dazu in **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
 1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
@@ -95,7 +95,7 @@ Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Wo
 1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer E-Mail zu bearbeiten, wählen Sie **[!UICONTROL E-Mail-Designer verwenden]** aus.
 1. Bearbeiten und speichern Sie Ihre Inhalte.
-1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
+1. Deaktivieren Sie im Nachrichten-Dashboard im Bereich **[!UICONTROL Planung]** die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]**.
 
 ## Daten-Update-Aktivität erstellen {#creating-update-data-activity}
 
