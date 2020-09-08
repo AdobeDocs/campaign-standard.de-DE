@@ -12,11 +12,11 @@ discoiquuid: e32cfb8f-e973-4bf2-a7f9-e99951a6bfbd
 context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '88'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 77%
 
 ---
 
@@ -29,4 +29,4 @@ Der Bericht **[!UICONTROL Beschwerden]** ermöglicht es, die Sendungen zu identi
 
 Die **Flop**-Tabelle ist nach Empfänger-Domain geordnet und enthält die Anzahl der Empfänger, die eine E-Mail als Junk gekennzeichnet haben Die Ergebnisse der Tabelle sind auch als Grafik und Zusammenfassungen verfügbar.
 
-Die Tabelle **Zugestellt vs. Blockierungslistenrate** enthält die Anzahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben. Die Tabelle ist nach Versand sortiert.
+The **Delivered vs Denylisted rate** table lists the number of recipients that have declared an email as spam or junk. Die Tabelle ist nach Versand sortiert.
