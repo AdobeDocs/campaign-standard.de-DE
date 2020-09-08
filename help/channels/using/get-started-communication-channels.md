@@ -11,11 +11,11 @@ topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Abhängig von Ihren Optionen sind Transaktionsnachrichten für die E-Mail-, SMS-
 Mehr dazu:
 
 * [Über den Versand von Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md)
-* [Erste Schritte mit transaktionalem Messaging](../../channels/using/getting-started-with-transactional-msg.md)
+* [Erste Schritte mit Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md)
 * [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md)
 * [Profil-Transaktionsnachrichten](../../channels/using/profile-transactional-messages.md)
 * [Push-Benachrichtigungen für Transaktionen](../../channels/using/transactional-push-notifications.md)
