@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Jedes Unternehmen verfügt über Richtlinien bezüglich der Darstellung und tech
 
 Technische Administratoren haben die Möglichkeit, eine oder mehrere Marken zu definieren und auf die Identität der jeweiligen Marken bezogene Parameter zentral anzugeben, z. B.: das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Mit Adobe Campaign können diese Marken erstellt und mit verschiedenen Nachrichten oder Landingpages verknüpft werden. Diese Konfiguration wird in Vorlagen vorgenommen.
 
-## Marken konfigurieren und verwenden     {#configuring-and-using-brands}
+## Marken konfigurieren und verwenden      {#configuring-and-using-brands}
 
 Konfiguration und Verwendung von Marken basieren auf den folgenden Grundprinzipien:
 
@@ -90,7 +90,7 @@ Eine **Marke** wird durch die folgenden Eigenschaften definiert:
 
    ![](assets/branding_05.png)
 
-## Marke einer E-Mail zuweisen     {#assigning-a-brand-to-an-email}
+## Marke einer E-Mail zuweisen      {#assigning-a-brand-to-an-email}
 
 ### Marken mit einer Vorlage verknüpfen {#linking-a-brand-to-a-template}
 
@@ -122,11 +122,11 @@ Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. G
 
 Ihre Vorlage ist nun mit der Marke verknüpft. Im E-Mail-Editor werden die für die Marke konfigurierten Daten in den Feldern **Standard-E-Mail-Adresse des Absenders**, **Name des Standard-Absenders** oder **Logo** verwendet.
 
-### Anwendungsbeispiel für Branding     {#branding-use-case}
+### Anwendungsbeispiel für Branding      {#branding-use-case}
 
 Im folgenden Beispiel geht es um die Erstellung einer neuen Marke zum Thema Reisen und ihre anschließende Verwendung in einer E-Mail.
 
-#### Neue Marke konfigurieren     {#configure-a-new-brand}
+#### Neue Marke konfigurieren      {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
@@ -144,7 +144,7 @@ Im folgenden Beispiel geht es um die Erstellung einer neuen Marke zum Thema Reis
 
 Die Marke wurde korrekt erstellt und konfiguriert. Sie ist nun zur Verwendung durch Marketingteams verfügbar.
 
-#### Neue Marke implementieren     {#implement-a-new-brand}
+#### Neue Marke implementieren      {#implement-a-new-brand}
 
 Der Versandbeauftragte ist für die Erstellung der Versandvorlagen verantwortlich, in denen die neue Marke verwendet wird. Gehen Sie dazu wie folgt vor:
 
@@ -163,7 +163,7 @@ Der Versandbeauftragte ist für die Erstellung der Versandvorlagen verantwortlic
 
    Die Versandvorlage lässt sich nun zur Erstellung von E-Mails verwenden, die an eine Audience gesendet werden.
 
-#### Die neue Marke in einem Versand verwenden     {#use-the-new-brand-in-a-delivery}
+#### Die neue Marke in einem Versand verwenden      {#use-the-new-brand-in-a-delivery}
 
 Um eine mit einer Marke verknüpfte E-Mail zu erstellen, gehen Sie wie folgt vor:
 
