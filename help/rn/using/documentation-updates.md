@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6172'
+source-wordcount: '6125'
 ht-degree: 99%
 
 ---
@@ -55,8 +55,6 @@ Neue KI-gestützte E-Mail-Funktionen: Sendezeitoptimierung und Profilbewertung �
 Anwendungsbeispiele für Workflows wurden aktualisiert und in thematische Bereiche neu angeordnet – [mehr dazu](../../automating/using/about-workflow-use-cases.md)
 
 Es wurden Anwendungsfälle zum [Verschlüsseln](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) und [Entschlüsseln](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) von Daten mit dem Control Panel und mit Campaign-Workflows hinzugefügt.
-
-Die Begriffe &quot;Whitelist&quot; und &quot;Blacklist&quot; wurden aus der Dokumentation zu Adobe Campaign entfernt. Einige Vorkommen dieser Begriffe sind möglicherweise noch in der Benutzeroberfläche des Produkts, den Optionsnamen und dem internen Code vorhanden, werden jedoch in den kommenden Campaign-Versionen durch &quot;Blockierungsliste&quot; und &quot;Zulassungsliste&quot; ersetzt.
 
 Verweise auf die alte Support-Website wurden durch die neue URL ersetzt – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/ac-support.html#acs-support-req)
 
@@ -220,7 +218,7 @@ Ein neues Anwendungsbeispiel wurde hinzugefügt, in dem beschrieben wird, wie ei
 
 Informationen zu den Eigenschaften von Landingpages wurden in einen eigenen Abschnitt verschoben – [mehr dazu](../../channels/using/configuring-landing-page.md)
 
-Die Control Panel-Dokumentation wurde in den neuen kollaborativen Dokumentationssatz integriert – [mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html)
+Die Control Panel-Dokumentation wurde in den neuen kollaborativen Dokumentationssatz integriert. [mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html)
 
 Die Tabelle mit **Indikatorberechnungen** wurde aktualisiert – [mehr dazu](../../reporting/using/indicator-calculation.md)
 
@@ -228,7 +226,7 @@ Der API-Dokumentationssatz wurde in die Dokumentation von Campaign Standard inte
 
 Die ersten Schritte zum Thema Erstellen einer personalisierten E-Mail wurden verschoben und aktualisiert – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
 
-Die ersten Schritte zum Thema Best Practices für den Versand wurden aktualisiert – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
+Die ersten Schritte zum Thema Best Practices für den Versand wurden aktualisiert. [mehr dazu](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
 
 Das Datenmodell wurde in die Dokumentation von Campaign Standard integriert – [mehr dazu](../../developing/using/datamodel-audience.md)
 
@@ -246,7 +244,7 @@ Microsoft Dynamics 365-Integration (GA) – [mehr dazu](../../integrating/using/
 
 Die Liste der Fehlermeldungen für Campaign Standard und Campaign Classic wurde aktualisiert – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Die ersten Schritte zum Thema DSGVO wurden verbessert und erweitert. Es handelt sich nun um eine Dokumentation rund um die Gewährleistung von Datenschutz gemäß den Bestimmungen der DSGVO und des CCPA – [mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/campaign-privacy.html)
+Die ersten Schritte zum Thema DSGVO wurden verbessert und erweitert. Es handelt sich nun um eine Dokumentation rund um die Gewährleistung von Datenschutz gemäß den Bestimmungen der DSGVO und des CCPA. [mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/campaign-privacy.html)
 
 Eine neue Grafik wurde hinzugefügt, die den Veröffentlichungsprozess von Transaktionsnachrichten aufzeigt – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
@@ -594,7 +592,7 @@ Informationen zu Trackinglog-Typen wurden hinzugefügt – [mehr dazu](../../sen
 
 Der Abschnitt zur Abfrageaktivität wurde mit Abfragebeispielen ergänzt – [mehr dazu](../../automating/using/query.md#query-samples)
 
-Der Abschnitt zu den Blockierungslisten wurde in &quot;Funktionsweise des Opt-in- und Opt-out-Verfahrens&quot; umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Der Abschnitt, der sich der Blockierungsliste widmet, wurde umbenannt in &quot;Verfahren der Teilnahme und Abmeldung&quot;. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Best Practices für die Verwendung der von Adobe gehosteten SFTP-Server – [mehr dazu](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -618,7 +616,7 @@ Verwendung benutzerdefinierter Ressourcen in Transaktionsnachrichten – [mehr d
 
 Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfragen – [mehr dazu](../../api/using/creating-a-privacy-request.md)
 
-Informationen zur Einrichtung von Opt-out-Landingpages wurden hinzugefügt, über die sich Empfänger auf die Blockierungsliste setzen lassen können – [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Es wurden Informationen zum Einrichten von Landingpages hinzugefügt, die Ihren Empfängern die Möglichkeit geben, auf die Blockierungsliste gesetzt zu werden. [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Der Abschnitt [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md) wurde neu angeordnet und ein [schrittweises Anwendungsbeispiel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) wurde hinzugefügt.
 
@@ -672,7 +670,7 @@ Eine Anleitung wurde hinzugefügt, in der beschrieben wird, wie Nachrichten ents
 
 Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]** wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt – [mehr dazu](../../channels/using/customizing-a-push-notification.md)
 
-Neuer Abschnitt zur Verwaltung von Blockierungslisten – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Neuer Abschnitt, der dem Blockierungslisten-Management gewidmet ist. [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Aktualisierte Informationen zu Zustellproblemen und Quarantänen – [mehr dazu](../../sending/using/monitoring-a-delivery.md)
 
