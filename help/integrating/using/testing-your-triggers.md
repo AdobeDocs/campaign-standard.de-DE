@@ -12,10 +12,10 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Wenn er empfangen wurde, folgen Sie diesen Schritten:
 Wenn nicht, fahren Sie mit dem nächsten Schritt fort. Wenn ja, folgen Sie diesen Schritten:
 
 * Überprüfen Sie, ob die Transaktionsvorlage publiziert ist.
-* Stellen Sie sicher, dass das Profil nicht auf der Blockierungsliste steht.
+* Vergewissern Sie sich, dass das Profil nicht auf die Blockierungsliste gesetzt ist.
 * Überprüfen Sie die Anwendung der Typologieregeln.
 * Überprüfen Sie die Logs der Transaktionsnachricht.
 
