@@ -12,11 +12,11 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 85%
 >
 >Dieses Dokument gilt nur für iOS-Geräte.
 
-In diesem Dokument erfahren Sie, wie Sie ein Bild aus einer iOS-Push-Benachrichtigung eines Adobe Campaign Standards anzeigen.
+In diesem Dokument erfahren Sie, wie Sie ein Bild aus einer iOS-Push-Benachrichtigung in Adobe Campaign Standard anzeigen.
 
 ## Schritt 1: Push-Benachrichtigung einrichten {#set-up-push}
 
@@ -45,9 +45,9 @@ In Adobe Campaign stehen Ihnen zur Anpassung von Push-Benachrichtigungen bei der
 
 1. Push-Benachrichtigung erstellen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. From your push notification content page, access the **[!UICONTROL Advanced options]** section.
+1. Rufen Sie auf Ihrer Seite mit den Inhalten für Push-Benachrichtigungen den Abschnitt **[!UICONTROL Erweiterte Optionen]** auf.
 
-1. Enter the URL of your file in the **[!UICONTROL Rich media content URL]** field.
+1. Geben Sie im Feld **[!UICONTROL URL für Rich-Media-Daten]** die URL Ihrer Datei ein.
 Unter iOS 10 oder höher können Sie Bild-, GIF-, Audio- und Videodateien einfügen.
 
    ![](assets/push_notif_advanced_6.png)
@@ -62,13 +62,13 @@ Nachdem Sie Ihre Push-Benachrichtigung in Adobe Campaign angepasst haben, müsse
 >
 >Wenn Ihre App in Objective-C geschrieben ist, lesen Sie die folgende [Dokumentation](https://docs.adobe.com/content/help/de-DE/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-If your app is in [!DNL Swift], follow the steps below:
+Wenn Ihre App in [!DNL Swift] geschrieben ist, führen Sie die folgenden Schritte aus:
 
-1. Open your [!DNL Xcode] project.
+1. Öffnen Sie Ihr [!DNL Xcode]-Projekt.
 
-1. In your [!DNL Xcode] project, select **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Wählen Sie in Ihrem [!DNL Xcode]-Projekt **[!UICONTROL Datei]** > **[!UICONTROL Neu]** > **[!UICONTROL Zielgruppe]** aus.
 
-1. Select **[!UICONTROL Notification Service Extension]**.
+1. Wählen Sie **[!UICONTROL Erweiterung für Benachrichtigungsdienst]** aus.
 
    ![](assets/push_notif_advanced_12.png)
 
