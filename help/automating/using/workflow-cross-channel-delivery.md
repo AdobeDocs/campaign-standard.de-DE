@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Weiterführende Informationen zu Workflows und den in Adobe Campaign verfügbare
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Kommunikationskanäle](../../channels/using/get-started-communication-channels.md)
 
-## Workflow erstellen    {#creating-workflow}
+## Workflow erstellen     {#creating-workflow}
 
 Bestimmen Sie im ersten Schritt die Zielgruppe, die Sie mit Ihrer Kommunikation erreichen möchten. Nachfolgend wird diese dann je nach Kommunikationsmedium in zwei Gruppen unterteilt.
 
@@ -138,7 +138,7 @@ Gehen Sie wie folgt vor, um einen E-Mail-Versand zu erstellen:
 1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer E-Mail zu bearbeiten, wählen Sie **[!UICONTROL E-Mail-Designer verwenden]** aus.
 1. Bearbeiten und speichern Sie Ihre Inhalte.
-1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
+1. Deaktivieren Sie im Nachrichten-Dashboard im Bereich **[!UICONTROL Planung]** die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]**.
 
 Gehen Sie wie folgt vor, um einen SMS-Versand zu erstellen:
 
