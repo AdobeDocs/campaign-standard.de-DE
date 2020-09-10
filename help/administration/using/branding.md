@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 80%
@@ -98,9 +98,9 @@ Sie können neue Entitäten Ihres Unternehmens in der Kampagne hinzufügen oder 
 
 1. **Erstellen Sie ein Ticket** - Sobald die Subdomäne delegiert wurde, muss sie von der Adobe in der Umgebung Ihrer Produktion eingerichtet werden. Um dies anzufordern, [erstellen Sie ein Ticket für den Kundendienst](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) mit den folgenden Informationen:
 
-   * Betrifft: [ACS] Neue Markeneinrichtung
+   * Betrifft: ACS Neue Markeneinrichtung
 
-   * Inhalt: Eine neue Domäne wurde der Adobe übertragen und wir möchten sie in unserer ACS-Plattform einrichten
+   * Inhalt: Eine neue Domäne wurde der Adobe übertragen und wir möchten sie in unserer Kampagne-Plattform einrichten
 
    * Domäne: XXX
 
