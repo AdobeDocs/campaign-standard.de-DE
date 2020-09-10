@@ -12,9 +12,9 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
+workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ So erstellen Sie diese Datenelemente:
 
 1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Erweiterung]** die Option **[!UICONTROL Mobile Core]** aus. Wählen Sie anschließend **[!UICONTROL Experience-Cloud-ID]** aus der Dropdown-Liste **[!UICONTROL Datenelement]** aus.
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. Klicken Sie auf **[!UICONTROL Datenelement hinzufügen]**, um das Datenelement „Pkey“ zu erstellen.
 
@@ -143,7 +143,7 @@ Um PII-Daten an [!DNL Adobe Campaign Standard] zu senden, erstellen Sie eine Reg
 
 1. Wählen Sie „0“ als **[!UICONTROL Zeitüberschreitung]** aus.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 Ihre Benutzerdaten sind nun konfiguriert und können an Campaign gesendet werden.
 
@@ -179,7 +179,7 @@ Um Tracking-Daten zur Berichtserstellung über die Interaktion Ihrer Benutzer mi
 
 1. Wählen Sie „0“ als **[!UICONTROL Zeitüberschreitung]** aus.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### Tracking-Postback für Push-Benachrichtigungen {#push-tracking-postback}
 
@@ -264,4 +264,4 @@ Verwenden Sie die trackAction-API, um App-Aktionen zu tracken. Weitere Informati
 
 1. Wählen Sie „5“ als **[!UICONTROL Zeitüberschreitung]** aus.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)
