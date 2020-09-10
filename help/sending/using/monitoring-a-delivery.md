@@ -12,15 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 89%
 
 ---
 
 
 # Sendungen beobachten{#monitoring-a-delivery}
 
-Es gibt mehrere Möglichkeiten, einen Versand zu beobachten und seine Wirkung zu messen:
+Es gibt mehrere Möglichkeiten, einen Versand zu beobachten und seine Wirkung zu messen. Als funktionaler Administrator können Sie auf Meldungsprotokolle und Versandlogs zugreifen.
+>[!CAUTION]
+>
+>Nur Funktionale [Administratoren](../../administration/using/users-management.md#functional-administrators)mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Abonnement können auf die Protokolle zum Senden, Melden, Trackinglogs, Ausschließen oder Ausschließen zugreifen. Ein Benutzer, der keine Administratoren ist, kann diese Protokolle zwar Zielgruppe, jedoch auf einer verknüpften Tabelle (Profil, Versand) beginnen.
 
 * **Nachrichtenprotokolle**: Diese Protokolle können Sie direkt vom Nachrichten-Dashboard aus abrufen. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde sowie Tracking-Informationen wie z. B. Öffnungen und Klicks.
 
