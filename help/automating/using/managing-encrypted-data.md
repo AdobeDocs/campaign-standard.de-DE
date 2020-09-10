@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
+source-git-commit: bd48bb03e6f02a65e6f82cd9cb3131f153e19875
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Sobald die Anfrage verarbeitet wurde, stehen im Feld **[!UICONTROL Vorab-Bearbei
 
 In diesem Anwendungsfall erstellen wir einen Workflow, um Daten, die in einem externen System verschlüsselt wurden, mithilfe eines im Control Panel generierten Schlüssels zu importieren.
 
-In [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)finden Sie außerdem ein Video, in dem gezeigt wird, wie Daten mit einem GPG-Schlüssel entschlüsselt werden können.
+In [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html) finden Sie außerdem ein Video, in dem gezeigt wird, wie Daten mit einem GPG-Schlüssel entschlüsselt werden können.
 
 Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
@@ -63,7 +63,7 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 1. Verwenden Sie im externen System den vom Control Panel heruntergeladenen öffentlichen Schlüssel, um die Daten für den Import in Campaign Standard zu verschlüsseln.
 
-   ![](assets/gpg_external.png)
+   ![](assets/do-not-localize/gpg_external.png)
 
 1. Erstellen Sie einen Workflow in Campaign Standard, um die verschlüsselten Daten zu importieren und mithilfe des über das Control Panel installierten privaten Schlüssels zu entschlüsseln. Zu diesem Zweck wird folgender Workflow erstellt:
 
@@ -96,7 +96,7 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 In diesem Anwendungsfall wird ein Workflow erstellt, um Daten mit einem im Control Panel installierten Schlüssel zu verschlüsseln und zu exportieren.
 
-In [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)finden Sie außerdem ein Video, in dem die Verwendung eines GPG-Schlüssels zum Verschlüsseln von Daten veranschaulicht wird.
+In [diesem Abschnitt](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) finden Sie außerdem ein Video, in dem die Verwendung eines GPG-Schlüssels zum Verschlüsseln von Daten veranschaulicht wird.
 
 Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
@@ -130,4 +130,4 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 1. Sie können den Workflow jetzt ausführen. Nach der Ausführung werden die über die Abfrage abgerufenen Daten in eine verschlüsselte .gpg-Datei für den SFTP-Server exportiert.
 
-   ![](assets/gpg-sftp-encrypt.png)
+   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
