@@ -11,9 +11,9 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 23d6c78f924635a8ce512fd91b4a46db395e8bd1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Mit HTML-Breadcrumb können Sie einen Abstand hinzufügen.
 
 1. Klicken Sie unten links im Bildschirm auf HTML-Breadcrumb.
 
-   ![](assets/breadcrumb.png)
+   ![](assets/do-not-localize/breadcrumb.png)
 
 1. Klicken Sie auf das Element, dem Sie einen Abstand hinzufügen möchten.
 1. Klicken Sie auf das übergeordnete Tag im HTML-Breadcrumb.
