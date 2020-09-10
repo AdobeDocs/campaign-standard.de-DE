@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '6125'
-ht-degree: 99%
+source-wordcount: '6156'
+ht-degree: 98%
 
 ---
 
@@ -28,19 +28,23 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 Der Abschnitt &quot;Transaktionsnachrichten des Ereignisses&quot;wurde neu organisiert und präzisiert. [mehr dazu](../../channels/using/event-transactional-messages.md)
 
+Es wurde ein Warnhinweis hinzugefügt, der Benutzer über Einschränkungen bei Berechtigungen im Zusammenhang mit dem Protokollzugriff warnt. [mehr dazu](../../administration/using/users-management.md)
+
+Es wurde ein neuer Abschnitt hinzugefügt, in dem der Prozess zum Erstellen einer neuen Marke detailliert beschrieben wird. [mehr dazu](../../administration/using/branding.md#creating-a-brand)
+
 ## Dokumentationsaktualisierungen – August 2020 {#doc-updates-august-2020}
 
 Ein neuer aktualisierter Abschnitt über die ersten Schritte mit Transaktionsnachrichten ist verfügbar. [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 
-Der Abschnitt &quot;Einschränkungen bei Transaktionsnachrichten&quot; wurde verschoben. [mehr dazu](../../channels/using/transactional-messaging-limitations.md)
+Der Abschnitt **Beschränkungen** für Transaktionsnachrichten wurde [hier verschoben](../../channels/using/transactional-messaging-limitations.md)
 
-Der Abschnitt &quot;Vorbereiten des Versands&quot;wurde verschoben. [mehr dazu](../../sending/using/preparing-the-send.md)
+Der **Abschnitt &quot;Senden** vorbereiten&quot;wurde [hier verschoben](../../sending/using/preparing-the-send.md)
 
 ## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates-july-2020}
 
 Es wurde ein neuer Abschnitt mit Richtlinien für die Überwachung in Campaign Standard hinzugefügt – [mehr dazu](../../administration/using/monitoring-guidelines.md)
 
-Der Abschnitt zu den Schutzmechanismen und Begrenzungen für externe APIs wurde aktualisiert –[mehr dazu](../../automating/using/external-api.md#guardrails)
+Der Abschnitt zu den Schutzmechanismen und Begrenzungen für externe APIs wurde aktualisiert – [mehr dazu](../../automating/using/external-api.md#guardrails)
 
 Die Seite mit der Übersicht über die Datenschutzverwaltung wurde aktualisiert und enthält nun Informationen zum thailändischen Datenschutzgesetz (PDPA) und zum brasilianischen Datenschutzgesetz (Lei Geral de Proteção de Dados, LGPD) – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
