@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard – Hilfe
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 99%
+source-wordcount: '1628'
+ht-degree: 97%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 99%
       + [Trigger testen](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Erste Schritte mit der Integration mit Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Erste Schritte mit der Integration von Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Daten zwischen Kampagne und Dynamics 365 verwalten](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Integration anfordern](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Adobe-E/A konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [ Dynamics 365 für die Integration mit Campaign konfigurieren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Benutzerdefinierte Ressourcen und benutzerdefinierte Entitäten für die Kampagne zuordnen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Verwenden der Dynamics 365-Integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Integrationsgarantien](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
