@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 35%
@@ -61,12 +61,12 @@ Support-Tickets können wie gewohnt bei der Adobe Custom Care protokolliert werd
 
 Bei Problemen mit Integrationsdatenflüssen sollten Sie die Report Suite als Teil der Problembeschreibung sowie die folgenden Informationen berücksichtigen:
 
-* Prozesseigentümer: Ingenieurarchitekten
+* **Prozesseigentümer**: Ingenieurarchitekten
 
-* ES-Prozess-ID: [Während des Einbogens bereitgestellt]
+* **ES-Prozess-ID**: Während des Einbogens bereitgestellt
 
-* Prozesstitel: Dynamics 365/Adobe Campaign Standard-Integration
+* **Prozesstitel**: Dynamics 365/Adobe Campaign Standard-Integration
 
-* Beschreibung des Problems: [Beschreibung des Problems]
+* **Beschreibung** des Problems: Beschreibung des Problems
 
 Der Integrationssupport ist derzeit rund um die Uhr verfügbar (Montag bis Freitag, ausgenommen Feiertage und Pausen der Adobe).
