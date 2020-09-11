@@ -12,10 +12,10 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 801741bd605d11d1c9f88995286ef206dd46470f
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 20%
+source-wordcount: '541'
+ht-degree: 19%
 
 ---
 
@@ -97,5 +97,5 @@ Die Einrichtung der Kampagne vor der Integration ist jetzt abgeschlossen.  Fahre
 **Verwandte Themen**
 
 * [Adobe IO – Integration von Dienstkonten](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard – Einrichtung von API-Zugriff](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#setting-up-api-access)
+* [Campaign Standard – Einrichtung von API-Zugriff](../../api/using/setting-up-api-access.md)
 * [Campaign Standard – Integration mit Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
