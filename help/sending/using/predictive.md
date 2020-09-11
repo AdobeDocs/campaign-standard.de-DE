@@ -12,10 +12,10 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 0%
+source-wordcount: '1071'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Get started with AI-powered emails{#journey-ai-ovv}
 
-Mithilfe der Kampagne können Sie die Gestaltung und den Versand von Kundenreisen optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit der Journey-API kann Adobe Campaign offene Raten, optimale Sendezeiten und wahrscheinliche Absturzzahlen auf Basis historischer Interaktionsmetriken analysieren und vorhersagen.
+Mithilfe der Kampagne können Sie die Gestaltung und den Versand von Kundenreisen optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit der Journey-API kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen.
 
 **Modelle für maschinelles Lernen**
 
@@ -35,7 +35,7 @@ Adobe Campaign Standard Angebot zwei neue Modelle für maschinelles Lernen: **Pr
 * **Bewertung** der voraussichtlichen Interaktion: Prognostische Interaktionsbewertungen prognostizieren die Wahrscheinlichkeit, mit der ein Empfänger mit einer Nachricht interagiert, sowie die Wahrscheinlichkeit, dass er sich innerhalb der nächsten 7 Tage nach dem nächsten E-Mail-Versand abmeldet (abbestellt). Die Wahrscheinlichkeiten werden je nach dem spezifischen Risiko des Rückzugs, mittel oder niedrig, weiter in Behälter unterteilt. Dasselbe Modell bietet den Kunden auch den Rang eines Risikoperzentils, um zu verstehen, wo der Rang eines bestimmten Kunden im Verhältnis zu anderen steht.
 
 >[!CAUTION]
->Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Für die Implementierung muss Adobe Consulting beteiligt sein. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um weitere Informationen zu erhalten.
+>Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zu erhalten.
 >
 >Getrennt vom Feature war die Verwendung einer Azurblauen Datenspeicherung erforderlich, die vom Kunden zur Verfügung gestellt werden muss.
 
@@ -56,8 +56,8 @@ Im Predictive Send Time Optimization-Modell gibt es zwei Untermodelle:
 
 Ausgabedetails
 
-* Berechnen Sie die beste Tageszeit, um eine E-Mail für die nächsten 7 Tage mit 1 Stundenintervall zu versenden (z. B.: 9:00 Uhr, 10:00 Uhr, 11:00 Uhr)
-* Das Modell gibt die beste Zeit innerhalb der nächsten 7 Tage an, um die E-Mail zu senden
+* Berechnen Sie die beste Tageszeit für den Versand einer E-Mail an den 7 Wochentagen in Intervallen von 1 Stunde (z.B.: 9:00 Uhr, 10:00 Uhr, 11:00 Uhr)
+* Das Modell zeigt den besten Tag in der Woche und die beste Stunde an diesem Tag an
 * Jede optimale Zeit wird zweimal berechnet: einmal zur Maximierung der offenen Rate und einmal zur Maximierung der Klickrate
 * Es werden 16 Felder angegeben (14 für Wochentage und 2 für die ganze Woche):
    * beste Zeit, eine E-Mail zu senden, um Klicks für Montag zu optimieren - Werte zwischen 0 und 23
@@ -67,7 +67,7 @@ Ausgabedetails
    * beste Zeit, um eine E-Mail zu senden, um Klicks für Sonntag zu optimieren - Werte zwischen 0 und 23
    * beste Zeit, eine E-Mail zu senden, um die Öffnung für Sonntag zu optimieren - Werte zwischen 0 und 23
    * ...
-   * Der beste Tag, um eine E-Mail zu senden, um die Optimierung für die ganze Woche geöffnet - Montag bis Sonntag
+   * Der beste Tag, um eine E-Mail zu senden, um die Optimierung geöffnet für die ganze Woche - Montag bis Sonntag
    * beste Zeit, eine E-Mail zu senden, um die Öffnung für die ganze Woche - Werte zwischen 0 und 23
 
 >[!NOTE]
@@ -128,7 +128,7 @@ Dieses Modell verwendet mehrere Ergebnisse, um Folgendes anzugeben:
 * **Interaktionsbewertung öffnen/Interaktionsbewertung** anklicken: Dieser Wert entspricht der Wahrscheinlichkeit, mit der ein Abonnent eine bestimmte Nachricht (Öffnen oder Klicken) erhält. Die Werte liegen zwischen 0,0 und 1,0.
 * **Wahrscheinlichkeit** der Abmeldung: dieser Wert entspricht der Wahrscheinlichkeit, dass Empfänger sich bei einer geöffneten E-Mail von einem E-Mail-Kanal abmelden. Die Werte liegen zwischen 0,0 und 1,0.
 * **Treuestufe**:  dieser Wert unterteilt Benutzer in drei Stufen: niedrig, mittel und hoch. Hoch ist höchstwahrscheinlich bei der Marke zu bleiben und niedriger Wert wahrscheinlich abmelden.
-* **Perzentil-Retentionsgrad**: Profil-Rang in Bezug auf die Wahrscheinlichkeit der Abmeldung. Die Werte liegen zwischen 0,0 und 1,0. Wenn der prozentuale Anteil der Retentionsrate beispielsweise 0,953 beträgt, bleibt dieser Empfänger eher bei der Marke und wird sich weniger abmelden als 95,3 % aller Empfänger.
+* **Perzentil-Retentionsgrad**: profil-Rang in Bezug auf die Wahrscheinlichkeit der Abmeldung. Die Werte liegen zwischen 0,0 und 1,0. Wenn der prozentuale Anteil der Retentionsrate beispielsweise 0,953 beträgt, bleibt dieser Empfänger eher bei der Marke und wird sich weniger abmelden als 95,3 % aller Empfänger.
 
 >[!NOTE]
 >
