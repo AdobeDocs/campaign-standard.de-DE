@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
 source-wordcount: '6168'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,11 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Aktualisierungen der Dokumentation – September 2020 {#doc-updates-september-2020}
 
-Der Abschnitt &quot;Transaktionsnachrichten des Ereignisses&quot;wurde neu organisiert und präzisiert. [mehr dazu](../../channels/using/event-transactional-messages.md)
+Der Abschnitt &quot;Ereignis-Transaktionsnachrichten&quot; wurde neu organisiert und besser erklärt – [mehr dazu](../../channels/using/event-transactional-messages.md)
 
-Es wurde ein Warnhinweis hinzugefügt, der Benutzer über Einschränkungen bei Berechtigungen im Zusammenhang mit dem Protokollzugriff warnt. [mehr dazu](../../administration/using/users-management.md)
+Es wurde ein Warnhinweis hinzugefügt, der Benutzer über Einschränkungen bei Berechtigungen im Zusammenhang mit dem Protokollzugriff warnt – [mehr dazu](../../administration/using/users-management.md)
 
-Es wurde ein neuer Abschnitt hinzugefügt, in dem der Prozess zum Erstellen einer neuen Marke detailliert beschrieben wird. [mehr dazu](../../administration/using/branding.md#creating-a-brand)
+Es wurde ein neuer Abschnitt hinzugefügt, in dem der Prozess zum Erstellen einer neuen Marke detailliert beschrieben wird – [mehr dazu](../../administration/using/branding.md#creating-a-brand)
 
 Der neue Campaign Standard - Microsoft Dynamics 365 ist jetzt verfügbar. [mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -38,9 +38,9 @@ Der neue Campaign Standard - Microsoft Dynamics 365 ist jetzt verfügbar. [mehr 
 
 Ein neuer aktualisierter Abschnitt über die ersten Schritte mit Transaktionsnachrichten ist verfügbar. [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 
-Der Abschnitt **Beschränkungen** für Transaktionsnachrichten wurde [hier verschoben](../../channels/using/transactional-messaging-limitations.md)
+Der Abschnitt **Einschränkungen bei Transaktionsnachrichten** wurde [hierher](../../channels/using/transactional-messaging-limitations.md) verschoben.
 
-Der **Abschnitt &quot;Senden** vorbereiten&quot;wurde [hier verschoben](../../sending/using/preparing-the-send.md)
+Der Abschnitt **Versandvorbereitung** wurde [hierher](../../sending/using/preparing-the-send.md) verschoben.
 
 ## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates-july-2020}
 
@@ -512,7 +512,7 @@ Videos wurden aktualisiert und [hierher](https://docs.adobe.com/content/help/de-
 
 Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
-## Version 18.9 - September 2018            {#release-18-9---september-2018}
+## Version 18.9 - September 2018             {#release-18-9---september-2018}
 
 **Neue Funktionen in der Version**
 
@@ -528,7 +528,7 @@ Zusätzliche Informationen zum Löschen einer Audience – [mehr dazu](../../aud
 
 Aktualisierter Abschnitt zu Push-Benachrichtigungen in nativen Berichten. [mehr dazu](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juli 2018            {#release-18-7---july-2018}
+## Version 18.7 - Juli 2018             {#release-18-7---july-2018}
 
 **Neue Funktionen in der Version**
 
@@ -598,7 +598,7 @@ Informationen zu Trackinglog-Typen wurden hinzugefügt – [mehr dazu](../../sen
 
 Der Abschnitt zur Abfrageaktivität wurde mit Abfragebeispielen ergänzt – [mehr dazu](../../automating/using/query.md#query-samples)
 
-Der Abschnitt, der sich der Blockierungsliste widmet, wurde umbenannt in &quot;Verfahren der Teilnahme und Abmeldung&quot;. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Der Abschnitt zu den Blockierungslisten wurde in &quot;Funktionsweise des Opt-in- und Opt-out-Verfahrens&quot; umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Best Practices für die Verwendung der von Adobe gehosteten SFTP-Server – [mehr dazu](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -606,7 +606,7 @@ Die Liste der unterstützten Analytics-Lösungen/Core Services für die Integrat
 
 Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Version 18.3 - März 2018            {#release-18-3---march-2018}
+## Version 18.3 - März 2018             {#release-18-3---march-2018}
 
 **Neue Funktionen in der Version**
 
@@ -622,7 +622,7 @@ Verwendung benutzerdefinierter Ressourcen in Transaktionsnachrichten – [mehr d
 
 Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfragen – [mehr dazu](../../api/using/creating-a-privacy-request.md)
 
-Es wurden Informationen zum Einrichten von Landingpages hinzugefügt, die Ihren Empfängern die Möglichkeit geben, auf die Blockierungsliste gesetzt zu werden. [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Informationen zur Einrichtung von Landingpages wurden hinzugefügt, über die sich Empfänger auf die Blockierungsliste setzen lassen können – [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Der Abschnitt [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md) wurde neu angeordnet und ein [schrittweises Anwendungsbeispiel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) wurde hinzugefügt.
 
@@ -638,7 +638,7 @@ Die Liste der Hilfematerialien zur Integration von Campaign und Adobe-Lösungen 
 
 Die kontextuelle Hilfe von Campaign Standard wurde aktualisiert.
 
-## Version 18.2 - Februar 2018            {#release-18-2---february-2018}
+## Version 18.2 - Februar 2018             {#release-18-2---february-2018}
 
 **Neue Funktionen in der Version**
 
@@ -676,13 +676,13 @@ Eine Anleitung wurde hinzugefügt, in der beschrieben wird, wie Nachrichten ents
 
 Der Abschnitt **[!UICONTROL Push-Benachrichtigung anpassen]** wurde neu gestaltet und mit schrittweisen Anleitungen ergänzt – [mehr dazu](../../channels/using/customizing-a-push-notification.md)
 
-Neuer Abschnitt, der dem Blockierungslisten-Management gewidmet ist. [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Neuer Abschnitt zur Verwaltung von Blockierungslisten – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Aktualisierte Informationen zu Zustellproblemen und Quarantänen – [mehr dazu](../../sending/using/monitoring-a-delivery.md)
 
 Neue Abschnitte zu [Zielgruppen-Mappings](../../administration/using/target-mappings-in-campaign.md), [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - Januar 2018            {#release-18-1---january-2018}
+## Version 18.1 - Januar 2018             {#release-18-1---january-2018}
 
 **Neue Funktionen in der Version**
 
@@ -710,7 +710,7 @@ Zusätzliche Informationen zu Verlaufsparametern der Dateiübertragungsaktivitä
 
 Die Anleitungen zur Konfiguration der Integration mit Audience Manager oder People Core Service wurden aktualisiert – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - Oktober 2017            {#release-17-10---october-2017}
+## Version 17.10 - Oktober 2017             {#release-17-10---october-2017}
 
 **Neue Funktionen in der Version**
 
@@ -790,7 +790,7 @@ Aktualisierter Abschnitt zur Workflow-Aktivität &quot;Dateiübertragung&quot; �
 
 Zur Option &quot;Vor dem Nachrichtenversand Bestätigung einholen&quot; in der Workflow-Aktivität &quot;E-Mail-Versand&quot; wurden Informationen hinzugefügt – [mehr dazu](../../automating/using/email-delivery.md)
 
-## Version 17.7 - Juli 2017            {#release-17-7---july-2017}
+## Version 17.7 - Juli 2017             {#release-17-7---july-2017}
 
 **Neue Funktionen in der Version**
 
@@ -822,7 +822,7 @@ Zur Anmeldung mit zweifacher Bestätigung wurde eine schrittweise Anleitung hinz
 
 Der Abschnitt zur Liste der Rollen wurde aktualisiert – [mehr dazu](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - Mai 2017            {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017             {#release-17-5---may-2017}
 
 **Neue Funktionen in der Version**
 
@@ -844,7 +844,7 @@ Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
-## Version 17.4 - April 2017            {#release-17-4---april-2017}
+## Version 17.4 - April 2017             {#release-17-4---april-2017}
 
 **Neue Funktionen in der Version**
 
@@ -874,7 +874,7 @@ Der Abschnitt zum Arbeiten mit Bildern in Campaign wurde aktualisiert – [mehr 
 
 Die Integration mit Adobe Analytics for Mobile (Point of Interest) wurde aktualisiert, einschließlich Konfigurationsschritten und Anwendungsbeispielen – [mehr dazu](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - März 2017            {#release-17-2---march-2017}
+## Version 17.2 - März 2017             {#release-17-2---march-2017}
 
 **Neue Funktionen in der Version**
 
@@ -902,7 +902,7 @@ Die API-Dokumentation für Entwickler wurde durch neue Informationen und Code-Sn
 
 Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-audience.md) und [Externes Signal](../../automating/using/external-signal.md) wurden Beispiele hinzugefügt.
 
-## Version 17.1 - Januar 2017            {#release-17-1---january-2017}
+## Version 17.1 - Januar 2017             {#release-17-1---january-2017}
 
 **Neue Funktionen in der Version**
 
