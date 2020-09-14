@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
 workflow-type: tm+mt
 source-wordcount: '1628'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -261,10 +261,10 @@ ht-degree: 97%
       + [Eigenschaften von Aktivitäten verwalten](automating/using/activity-properties.md)
    + Workflow mit externen Parametern aufrufen {#calling-workflow-external-parameters}
       + [Übersicht](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [Deklarieren der Parameter in der Aktivität &quot;Externes Signal&quot;](automating/using/declaring-parameters-external-signal.md)
-      + [Parameter beim Aufruf des Workflows definieren  ](automating/using/defining-parameters-calling-workflow.md)
-      + [Ereignisvariablen überwachen  ](automating/using/monitoring-events-variables.md)
-      + [Anpassen des Workflows mit externen Parametern](automating/using/customizing-workflow-external-parameters.md)
+      + [Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren](automating/using/declaring-parameters-external-signal.md)
+      + [Parameter beim Aufruf des Workflows definieren](automating/using/defining-parameters-calling-workflow.md)
+      + [Ereignisvariablen überwachen](automating/using/monitoring-events-variables.md)
+      + [Workflow mit externen Parametern anpassen](automating/using/customizing-workflow-external-parameters.md)
       + [Anwendungsbeispiel](automating/using/use-case-calling-workflow.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
       + [Über Zielgruppenbestimmungsaktivitäten](automating/using/about-targeting-activities.md)
