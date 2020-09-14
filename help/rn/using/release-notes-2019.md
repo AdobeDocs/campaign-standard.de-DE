@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7628'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -293,7 +293,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
 * In Campaign wurde die Option &quot;Launch_URL_Campaign&quot; hinzugefügt, um Eigenschaften von Apps zu verwalten, die mit dem Mobile SDK von Adobe Experience Platform erstellt wurden.
 * Fehlerkorrektur – Die Sandbox-Umgebungs-Option wird nicht mehr deaktiviert, wenn das Zertifikat einer neu erstellten mobilen Eigenschaft hochgeladen und die Eigenschaftenseite der App geschlossen wird.
 * Fehlerkorrektur – Der Inhalt einer Transaktionsnachricht kann jetzt mit Daten aus der Dienst-Ressource angereichert werden. (CAMP-33707)
-* Es wurde ein Problem in den Landingpages der Blockierungsliste behoben, das beim Versuch auftrat, Profil von einem Dienst abzumelden.
+* Fehlerkorrektur – Landingpages werden jetzt nicht mehr auf die Blockierungsliste gesetzt, wenn Profile von einem Dienst abgemeldet werden.
 
 ## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
 
@@ -399,7 +399,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019        {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019         {#release-19-1-3---march-2019}
 
 **Verbesserungen bei Email Designer**
 
@@ -617,7 +617,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt tritt im Abfrageeditor bei der Join-Bedingung zwischen Broadlog und Trackinglog für rtEvent kein Fehler mehr auf. (CAMP-28780)
 * Fehlerkorrektur – Jetzt können Änderungen an der Landingpage &quot;Spezifische Aktionen&quot; gespeichert werden. (CAMP-29422)
 * Fehlerkorrektur – Jetzt kann die Payload eines Ereignisses in einem Workflow exportiert werden. (CAMP-29029)
-* Es wurde ein Fehler behoben, der verhinderte, dass auf die Blockierungsliste gesetzt SMS-Nummern in einer SMS-Nachricht ausgeschlossen wurden. (CAMP-28898)
+* Fehlerkorrektur – Auf der Blockierungsliste stehende SMS-Nummern können jetzt von einer SMS-Nachricht ausgeschlossen werden. (CAMP-28898)
 * Fehlerkorrektur – SMPP-Anbieter können jetzt im Fall eines Fehlers bei der Verarbeitung eingehender Nachrichten benachrichtigt werden. (CAMP-29804)
 * Fehlerkorrektur – Externe Konten mit damit verbundenen Sendungen können jetzt nicht mehr gelöscht werden. (CAMP-29738)
 * Der Versanddurchsatz für SMS-Nachrichten wurde verbessert und ist jetzt stabiler.
