@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+workflow-type: ht
+source-wordcount: '391'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,7 @@ In diesen Bedienfeldern können Sie nach Bedarf Ihre Berichte erstellen. Sie kö
 
 Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
-## Freiformtabelle hinzufügen  {#adding-a-freeform-table}
+## Freiformtabelle hinzufügen      {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **Komponente** analysiert werden.
 
@@ -51,7 +54,7 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Das Segment **[!UICONTROL Testversand ausschließen]**ist standardmäßig bereits ausgewählt. Bei Bedarf können Sie diese Auswahl ändern, indem Sie eines der**[!UICONTROL  Segmente]** aus dem Tab **[!UICONTROL Komponenten]**in die Symbolleiste ziehen.
+1. Das Segment **[!UICONTROL Testversand ausschließen]** ist standardmäßig bereits ausgewählt. Bei Bedarf können Sie diese Auswahl ändern, indem Sie eines der **[!UICONTROL Segmente]** aus dem Tab **[!UICONTROL Komponenten]** in die Symbolleiste ziehen.
 
    ![](assets/dynamic_report_panel_3.png)
 
@@ -63,13 +66,13 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   Die **[!UICONTROL Spalteneinstellungen]**beinhalten folgende Optionen:
+   Die **[!UICONTROL Spalteneinstellungen]** beinhalten folgende Optionen:
 
    * **[!UICONTROL Anzahl]**: Ermöglicht das Anzeigen oder Verbergen der Anzahl der Zusammenfassungen in der Spalte
    * **[!UICONTROL Prozent]**: Ermöglicht das Anzeigen oder Verbergen der Prozente in der Spalte
    * **[!UICONTROL Null als keinen Wert auffassen]**: Ermöglicht es, den Wert Null anzuzeigen oder zu verbergen.
-   * **[!UICONTROL Hintergrund]**: Ermöglicht das Anzeigen oder Verbergen des Fortschrittsbalkens in Zellen
-   * **[!UICONTROL Wiederholungsversuche einbeziehen]**: Ermöglicht das Einbeziehen von weiteren Zustellversuchen in das Ergebnis. Dies ist nur für**[!UICONTROL  Gesendet]** und **[!UICONTROL Bounces + Fehler]**verfügbar.
+   * **[!UICONTROL Hintergrund]**: Ermöglicht das Anzeigen oder Verbergen des Fortschrittsbalkens in Zellen.
+   * **[!UICONTROL Wiederholungsversuche einbeziehen]**: Ermöglicht das Einbeziehen von weiteren Zustellversuchen in das Ergebnis. Diese Option ist nur bei **[!UICONTROL Gesendet]** und **[!UICONTROL Bounces + Fehler]** verfügbar.
 
 1. Wählen Sie eine oder mehrere Zeilen aus und danach das Symbol **Visualisieren**. Die ausgewählten Zeilen werden daraufhin grafisch dargestellt.
 
