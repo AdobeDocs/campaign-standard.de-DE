@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1275'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -137,11 +137,11 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken     {#metrics}
+## Metriken      {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS     {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS      {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -156,8 +156,8 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Anzahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben<br /> </td> 
   </tr> 
   <tr> 
-   <td> Denylist rate<br /> </td> 
-   <td> Prozentsatz der Versand, die auf einer Blockierungsliste markiert sind.<br /> </td> 
+   <td> Blockierungslistenrate<br /> </td> 
+   <td> Prozentsatz der Sendungen, die auf einer Blockierungsliste markiert sind.<br /> </td> 
   </tr> 
   <tr> 
    <td> Bounces + Fehler<br /> </td> 
@@ -262,7 +262,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen     {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen      {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -327,7 +327,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten     {#in-app-metrics}
+### Metriken zu In-App-Nachrichten      {#in-app-metrics}
 
 <table> 
  <thead> 
