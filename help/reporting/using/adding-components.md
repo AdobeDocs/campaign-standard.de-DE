@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+workflow-type: ht
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
 
@@ -21,23 +24,23 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 Mit Komponenten können Sie Ihren Berichten unterschiedliche Dimensionen, Messwerte und Zeiträume hinzufügen.
 
-1. Klicken Sie auf den Tab **[!UICONTROL Komponenten]**, um auf die Liste mit Komponenten zuzugreifen.
+1. Klicken Sie auf den Tab **[!UICONTROL Komponenten]**, um die Liste mit Komponenten aufzurufen.
 
    ![](assets/dynamic_report_components.png)
 
-1. Jede im Tab **[!UICONTROL Komponenten]**angezeigte Kategorie enthält die fünf am häufigsten verwendeten Elemente. Klicken Sie auf den Namen einer Kategorie, um die gesamte Liste mit Komponenten zu öffnen.
+1. Jede im Tab **[!UICONTROL Komponenten]** angezeigte Kategorie enthält die fünf am häufigsten verwendeten Elemente. Klicken Sie auf den Namen einer Kategorie, um die gesamte Liste mit Komponenten zu öffnen.
 
    Der Komponentenbereich ist in vier Kategorien unterteilt:
 
    * **Dimensionen**: Hier erhalten Sie Informationen vom Versandlog, wie Details zum Browser oder zur Domain des Benutzers oder darüber, wie erfolgreich ein Versand war.
    * **Metriken**: Hier erhalten Sie Details zum Status einer Nachricht, z. B. ob eine Nachricht zugestellt und von einem Benutzer geöffnet wurde.
-   * **[!UICONTROL Segmente]**: Hiermit können Daten nach der Altersgruppe des Empfängers gefiltert werden.**[!UICONTROL  Segmente]** können per Drag-and-Drop direkt in eine Freiformtabelle oder in die Symbolleiste des Bedienfelds verschoben werden. Standardmäßig ist das Segment **[!UICONTROL Testversand ausschließen]**bereits ausgewählt, kann aber bei Bedarf geändert werden.
+   * **[!UICONTROL Segmente]**: Hiermit können Daten nach der Altersgruppe des Empfängers gefiltert werden. **[!UICONTROL Segmente]** können per Drag-and-Drop direkt in eine Freiformtabelle oder in die Symbolleiste des Bedienfelds verschoben werden. Standardmäßig ist das Segment **[!UICONTROL Testversand ausschließen]** bereits ausgewählt, kann aber bei Bedarf geändert werden.
 
-      Diese Kategorie ist erst verfügbar, nachdem der Administrator die Nutzungsbedingungen der auf dem Bildschirm angezeigten Nutzungsvereinbarung zur dynamischen Berichterstattung (Dynamic Reporting Usage Agreement) bestätigt hat. Wenn der Administrator die Vereinbarung ablehnt, sind die Segmente im Tab **[!UICONTROL Komponenten]**nicht sichtbar und die entsprechenden Daten werden nicht erfasst.
+      Diese Kategorie ist erst verfügbar, nachdem der Administrator die Nutzungsbedingungen der auf dem Bildschirm angezeigten Nutzungsvereinbarung zur dynamischen Berichterstattung (Dynamic Reporting Usage Agreement) bestätigt hat. Wenn der Administrator die Vereinbarung ablehnt, sind die Segmente im Tab **[!UICONTROL Komponenten]** nicht sichtbar und die entsprechenden Daten werden nicht erfasst.
 
    * **Zeitraum**: Hier können Sie für Ihre Tabelle einen Zeitraum festlegen.
 
-1. Verschieben Sie Komponenten per Drag &amp; Drop in ein Bedienfeld, um Ihre Daten zu filtern.
+1. Verschieben Sie Komponenten per Drag-and-Drop in ein Bedienfeld, um Ihre Daten zu filtern.
 
 Sie können beliebig viele Komponenten verschieben und miteinander vergleichen.
 
