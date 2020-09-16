@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +52,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 * [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## Tabs {#tabs}
+## Tabs  {#tabs}
 
 In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
@@ -57,8 +60,8 @@ In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
 Über diese Tabs haben Sie Zugriff auf folgende Elemente:
 
-* **[!UICONTROL Bedienfelder]**: Fügen Sie Ihrem Bericht ein leeres Bedienfeld oder Freiformelement hinzu, um Ihre Daten zu filtern. Weiterführende Informationen finden Sie im Abschnitt zum Hinzufügen von Bedienfeldern.
-* **[!UICONTROL Visualisierungen]**: Ziehen Sie die gewünschten Visualisierungselemente in den Bereich, um Ihren Bericht grafisch aufzubereiten. Weiterführende Informationen finden Sie im Abschnitt zum Hinzufügen von Visualisierungen.
+* **[!UICONTROL Bedienfelder]**: Fügt Ihrem Bericht ein leeres Bedienfeld oder eine Freiform hinzu, um Ihre Daten zu filtern. Weiterführende Informationen finden Sie im Abschnitt zum Hinzufügen von Bedienfeldern.
+* **[!UICONTROL Visualisierungen]**: Legen Sie die gewünschten Visualisierungselemente ab, um Ihren Bericht grafisch aufzubereiten. Weiterführende Informationen finden Sie im Abschnitt zum Hinzufügen von Visualisierungen.
 * **[!UICONTROL Komponenten]**: Passen Sie Ihren Bericht mit unterschiedlichen Dimensionen, Metriken, Segmenten und Zeiträumen an.
 
 ## Symbolleiste {#toolbar}
@@ -73,7 +76,7 @@ Die Symbolleiste befindet sich über Ihrem Arbeitsbereich. Sie besteht aus versc
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 
-### Projekt-Tab {#project-tab}
+### Projekt-Tab  {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -94,7 +97,7 @@ Im Tab **Bearbeiten** haben Sie folgende Möglichkeiten:
 * **Rückgängig**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
 * **Alle löschen**: Löscht alle Bedienfelder in Ihrem Dashboard.
 
-### Einfügen-Tab {#insert-tab}
+### Einfügen-Tab  {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -105,7 +108,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * **Neue Zeile**: Fügt ein neues Liniendiagramm zu Ihrem Dashboard hinzu.
 * **Neuer Balken**: Fügt ein neues Balkendiagramm zu Ihrem Dashboard hinzu.
 
-### Freigabe-Tab {#share-tab}
+### Freigabe-Tab  {#share-tab}
 
 ![](assets/tab_share_1.png)
 
