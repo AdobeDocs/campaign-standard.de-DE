@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand      {#email-delivery}
+## E-Mail-Versand       {#email-delivery}
 
 <table> 
  <thead> 
@@ -53,7 +53,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Denylist rate<br /> </td> 
+   <td> Blockierungslistenrate<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
    <td> Der Denominator für die Berechnung der Rate basiert auf der Anzahl der gesendeten Nachrichten (Zugestellt + Bounces).<br /> </td> 
@@ -229,7 +229,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand      {#push-notification-delivery}
+## Push-Benachrichtigungsversand       {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -303,7 +303,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## In-App-Versand      {#in-app-delivery}
+## In-App-Versand       {#in-app-delivery}
 
 <table> 
  <thead> 
