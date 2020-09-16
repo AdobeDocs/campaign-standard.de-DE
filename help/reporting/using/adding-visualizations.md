@@ -13,13 +13,16 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '222'
+ht-degree: 100%
 
 ---
 
 
 # Visualisierungen hinzufügen{#adding-visualizations}
 
-Im Tab **Visualisierungen** können Sie per Drag &amp; Drop Visualisierungselemente wie Bereich, Kreis und Diagramm auswählen. Durch diese Elemente können Sie Ihre Daten unterschiedlich grafisch darstellen.
+Im Tab **Visualisierungen** können Sie per Drag-and-Drop Visualisierungselemente wie Bereich, Kreis und Diagramm auswählen. Durch diese Elemente können Sie Ihre Daten unterschiedlich grafisch darstellen.
 
 1. Ziehen Sie im Tab **[!UICONTROL Visualisierungen]** ein Visualisierungselement in ein Bedienfeld.
 
@@ -39,6 +42,7 @@ Im Tab **Visualisierungen** können Sie per Drag &amp; Drop Visualisierungseleme
    * **Zwei Achsen anzeigen**: Fügt Ihrem Diagramm eine weitere Achse hinzu.
    * **Grenzwert für max. Anzahl Elemente**: Beschränkt die Anzahl der dargestellten Diagramme.
    * **Schwelle**: Ermöglicht das Festlegen einer Schwelle für Ihr Diagramm. Sie wird als schwarz gepunktete Linie dargestellt.
+
    ![](assets/dynamic_report_visualization_3.png)
 
 Mit dieser Visualisierung können die Daten in Ihren Berichte übersichtlicher dargestellt werden.
