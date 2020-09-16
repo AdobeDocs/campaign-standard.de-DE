@@ -14,6 +14,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '225'
+ht-degree: 100%
 
 ---
 
@@ -29,10 +32,10 @@ Für jede Tabelle werden Zusammenfassungen und Grafiken erstellt. Die Darstellun
 Die Tabelle **Versandstatistiken** enthält die Daten für gesendete E-Mails, z. B.:
 
 * **[!UICONTROL Verarbeitet/gesendet]**: Die Gesamtzahl der gesendeten Nachrichten
-* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten. Gemeldete Fehler (Bounces) werden abgezogen. Doch Beschwerden (als Spam gekennzeichnete Nachrichten) und Abwesenheitsnotizen (beispielsweise "Nicht im Büro") bleiben eingeschlossen.
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten. Gemeldete Fehler (Bounces) werden abgezogen. Doch Beschwerden (als Spam gekennzeichnete Nachrichten) und Abwesenheitsnotizen (beispielsweise &quot;Nicht im Büro&quot;) bleiben eingeschlossen.
 * **[!UICONTROL Bounces + Fehler]**: Die Anzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
 
-Die Tabelle **Open and clicks** enthält für jeden Versand die verfügbaren Daten zur Empfängeraktivität, wie beispielsweise:
+Die Tabelle **Öffnungen und Klicks** enthält für jeden Versand die verfügbaren Daten zur Empfängeraktivität, wie beispielsweise:
 
 * **Klicks**: Die Anzahl der Klicks auf einen Inhalt in einem Versand.
 * **Öffnungen**: Die Anzahl der Öffnungen einer Nachricht in einem Versand.
