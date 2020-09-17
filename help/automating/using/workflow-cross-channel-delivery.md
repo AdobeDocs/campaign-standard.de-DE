@@ -12,9 +12,9 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Sie können eine auf ein oder mehrere Element(e) bezogene Abfrage erstellen.
 
 Verwenden Sie die Schaltfläche **[!UICONTROL Zählung]**, um die geschätzte Anzahl an Profilen anzuzeigen, auf die die Abfrage zutrifft.
 
-## Segmentierungsaktivität erstellen.{#creating-segmentation-activity}
+## Segmentierungsaktivität erstellen. {#creating-segmentation-activity}
 
 Unterteilen Sie im nächsten Schritt Ihre mithilfe der Abfrage-Aktivität bestimmte Zielgruppe in zwei Segmente: das eine erhält eine E-Mail, das andere eine SMS.
 
