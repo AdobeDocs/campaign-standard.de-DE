@@ -12,9 +12,9 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Wo
 1. Ziehen Sie beispielsweise unter **[!UICONTROL Schnellzugriffe]** die Option **[!UICONTROL Profil]** in den Arbeitsbereich, wählen Sie **[!UICONTROL Alter]** mit dem Operator **[!UICONTROL Größer als]** aus und geben Sie in das Feld **[!UICONTROL Wert]** &quot;25&quot; ein.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-## Segmentierungsaktivität erstellen.{#creating-a-segmentation-activity}
+## Segmentierungsaktivität erstellen. {#creating-a-segmentation-activity}
 
 1. Ziehen Sie eine [Segmentierungsaktivität](../../automating/using/segmentation.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Wählen Sie im Tab **[!UICONTROL Segmente]** ein Segment aus, das bearbeitet werden soll.
