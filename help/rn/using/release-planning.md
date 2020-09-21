@@ -11,9 +11,9 @@ topic-tags: campaign-standard-release-planning
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
+workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in 
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>21.-22. September 2020<br /> </td>
+   <td>21.-23. September 2020<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
