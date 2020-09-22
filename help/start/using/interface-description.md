@@ -11,11 +11,11 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9f33ca4e8b6326fce5fd301587b15ce706750c6e
+workflow-type: tm+mt
 source-wordcount: '1212'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnel
 * Die Karte **[!UICONTROL SMS erstellen]** bietet Zugriff auf einen SMS-Erstellungs-Assistenten. Hier können Sie die Art der SMS festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt [SMS erstellen](../../channels/using/creating-an-sms-message.md).
 * Die Karte **[!UICONTROL Briefpost erstellen]** bietet Zugriff auf einen Erstellungsassistenten für Briefpost. Weiterführende Informationen finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/creating-the-direct-mail.md).
 * Die Karte **[!UICONTROL Push-Benachrichtigung erstellen]** bietet Zugriff auf einen Erstellungs-Assistenten für Benachrichtigungen. Hier können Sie die Art der Push-Benachrichtigung festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
-* Die Karte **[!UICONTROL In-App-Nachricht erstellen]** bietet Zugriff auf einen In-App-Erstellungs-Assistenten. Mit diesem Assistenten können Sie den Typ der zu erstellenden In-App-Nachricht auswählen und deren Eigenschaften, Audiences und Inhalte definieren. Weiterführende Informationen finden Sie im Abschnitt [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md).
+* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. Mit diesem Assistenten können Sie die Art der In-App-Nachricht auswählen, die Sie erstellen möchten, deren Eigenschaften, Audience und Inhalte definieren. Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
 * Die Karte **[!UICONTROL Marketingaktivitäten]** bietet Zugriff auf eine Liste aller Programme, Kampagnen und Marketingaktivitäten (E-Mails, SMS, Workflows, Landingpages), unabhängig vom Programm oder der Kampagne, der letztere angehören. Die Liste kann nach Name, Datum, Status oder Aktivitätstyp gefiltert werden. Weiterführende Informationen finden Sie im Abschnitt [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 * Die Karte **[!UICONTROL Programme &amp; Kampagnen]** bietet Zugriff auf die Liste aller Programme. Sie können an dieser Stelle insbesondere Kampagnen erstellen und verwalten. Weiterführende Informationen finden Sie im Abschnitt [Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * Die Karte **[!UICONTROL Planung]** bietet Zugriff auf eine zeitliche Übersicht Ihrer Marketingaktivitäten. Der Bildschirm bietet die Möglichkeit, aktuelle Programme und deren Inhalt anzuzeigen. Weiterführende Informationen finden Sie im Abschnitt [Planung](../../start/using/timeline.md).
