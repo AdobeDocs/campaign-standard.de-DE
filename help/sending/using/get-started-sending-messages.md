@@ -11,10 +11,10 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: ht
-source-wordcount: '582'
+translation-type: tm+mt
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
+workflow-type: tm+mt
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
@@ -98,4 +98,4 @@ Mehr dazu:
 * [E-Mail-Versand und Berichte prüfen (Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Erste Schritte mit E-Mails](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
 * [Best Practices beim Versand](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
-* [Anwendungsfall: Kontrollgruppe erstellen](../../automating/using/workflow-control-group.md)
+* [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
