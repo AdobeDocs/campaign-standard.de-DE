@@ -13,9 +13,9 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -28,10 +28,6 @@ ht-degree: 100%
 ![](assets/file_transfer.png)
 
 Die **[!UICONTROL Dateiübertragung]** dient dem Empfang und Versand von Dateien. Sie ermöglicht es des Weiteren, die Präsenz von Dateien zu testen und die in Adobe Campaign enthaltenen Dateien aufzulisten.
-
->[!CAUTION]
->
->Ab Version 20.3 werden mit der Aktivität **[!UICONTROL Dateiübertragung]** heruntergeladene Dateien nach X Tagen gelöscht, wobei X durch das Feld **[!UICONTROL Verlauf in Tagen]** unter dem Menü **[!UICONTROL Ausführung]** in den Workflow-Eigenschaften bestimmt wird.
 
 ## Anwendungskontext {#context-of-use}
 
