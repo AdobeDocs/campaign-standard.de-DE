@@ -12,11 +12,11 @@ discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+workflow-type: tm+mt
 source-wordcount: '1396'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -127,7 +127,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    ![](assets/inapp_creating_5.png)
 
-1. Bearbeiten Sie den Inhalt Ihrer Nachricht und definieren Sie die erweiterten Optionen. Siehe [In-App-Nachricht anpassen](https://helpx.adobe.com/de/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Bearbeiten Sie den Inhalt Ihrer Nachricht und definieren Sie die erweiterten Optionen. Siehe [In-App-Nachricht anpassen](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
 
    ![](assets/inapp_creating_6.png)
 
