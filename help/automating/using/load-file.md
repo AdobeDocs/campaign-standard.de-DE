@@ -12,9 +12,9 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 100%
 
@@ -37,14 +37,14 @@ Die Aktivität **[!UICONTROL Datei laden]** erlaubt den Import von strukturierte
 
 Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert. Bei der zu ladenden Datei kann es sich z. B. um eine Kontaktliste handeln.
 
->[!CAUTION]
->
->Unterstützt werden ausschließlich Dateiformate mit einfach strukturierten Daten wie beispielsweise .txt, .csv etc.
-
 Sie haben folgende Möglichkeiten:
 
 * die Dateistruktur zu nutzen, um sie auf die Daten einer anderen (mithilfe der **[!UICONTROL Dateiübertragung]** abgerufenen) Datei anzuwenden, oder
 * die Dateistruktur und die Daten zu nutzen, um letztere in Adobe Campaign zu importieren.
+
+>[!IMPORTANT]
+>
+>Unterstützt werden ausschließlich Dateiformate mit einfach strukturierten Daten wie beispielsweise .txt, .csv etc.
 
 **Verwandte Themen:**
 
