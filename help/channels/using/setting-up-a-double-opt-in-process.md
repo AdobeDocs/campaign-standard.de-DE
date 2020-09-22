@@ -12,9 +12,9 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1232'
 ht-degree: 91%
 
 ---
@@ -60,7 +60,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Dieser Kontext entfernt das Feld &quot;Auf die Blockierungsliste gesetzt&quot;, um E-Mails senden zu können. Später werden wir sehen, dass die ursprüngliche Einstellung des Felds für die Landingpage vor der Bestätigung **Wahr** war, was den Versand von E-Mails an nicht bestätigte Profile verhindert hat. Weiterführende Informationen dazu finden Sie unter [Schritt 3: Akquise-Landingpage erstellen](#step-3--create-the-acquisition-landing-page).
+   In diesem Kontext wird das Feld &quot;On Blockierungsliste&quot;entfernt, um E-Mails senden zu können. Später werden wir sehen, dass die ursprüngliche Einstellung des Felds für die Landingpage vor der Bestätigung **Wahr** war, was den Versand von E-Mails an nicht bestätigte Profile verhindert hat. Weiterführende Informationen dazu finden Sie unter [Schritt 3: Akquise-Landingpage erstellen](#step-3--create-the-acquisition-landing-page).
 
 1. Passen Sie den Inhalt der Landingpage an: Sie können personalisierte Daten anzeigen und den Titel der Bestätigungs-Schaltfläche beispielsweise in ‘Klicken Sie hier, um Ihre Anmeldung zu bestätigen’ ändern.
 
@@ -101,12 +101,12 @@ Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die E-Mail-Vorlage
 
 ### Typologie erstellen {#create-the-typology-rule}
 
-Erstellen Sie eine eigene [Typologie](../../sending/using/about-typology-rules.md) durch Duplizieren einer nativen Typologie. Die Typologie ermöglicht es, Nachrichten an Profil zu senden, die ihre Zustimmung noch nicht bestätigt haben und noch immer auf die Blockierungsliste gesetzt sind. Standardmäßig schließen Typologien Ausschluss- (d. h. auf die Blockierungsliste gesetzt) Profil aus. Gehen Sie wie folgt vor, um eine solche Typologie zu erstellen:
+Erstellen Sie eine eigene [Typologie](../../sending/using/about-typology-rules.md) durch Duplizieren einer nativen Typologie. Die Typologie ermöglicht es Profilen, die ihre Zustimmung noch nicht bestätigt haben und noch immer auf der Blockierungsliste sind, Nachrichten zu senden. Standardmäßig schließen Typologien Ausschluss-Opt-out-Profil (d. h. auf Blockierungsliste) aus. Gehen Sie wie folgt vor, um eine solche Typologie zu erstellen:
 
 1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Optionen **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** und nochmals **[!UICONTROL Typologien]**.
 1. Duplizieren Sie die Standardtypologie **[!UICONTROL Transaktionsnachricht zum Profil (mcTypologyProfile)]**.
 1. Bearbeiten Sie danach die neue Typologie und geben Sie den Titel **TYPOLOGY_PROFILE** ein.
-1. Remove the **Denylisted address** rule.
+1. Entfernen Sie die Regel **Adresse auf Blockierungsliste** .
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 Diese Typologie kann jetzt mit der Bestätigungs-E-Mail verknüpft werden.
