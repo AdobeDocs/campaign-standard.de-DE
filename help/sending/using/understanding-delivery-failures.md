@@ -12,9 +12,9 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1344'
 ht-degree: 96%
 
 ---
@@ -32,7 +32,7 @@ Wenn einem Profil eine Nachricht nicht zugestellt werden kann, sendet der Remote
 >
 >**SMS**-Fehlermeldungen (auch &quot;SR&quot; für &quot;Status Report&quot; genannt) werden vom MTA-Prozess qualifiziert.
 
-Nachrichten können auch während der Vorbereitung des Versands ausgeschlossen werden, wenn eine Adresse unter Quarantäne gestellt wird oder ein Profil auf die Blockierungsliste gesetzt wird. Ausgeschlossene Mitteilungen werden im Versand-Dashboard im Tab **[!UICONTROL Ausschlusslogs]** aufgeführt (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Nachrichten können während der Vorbereitung des Versands unter Quarantäne gestellt werden oder wenn ein Profil auf der Blockierungsliste steht. Ausgeschlossene Mitteilungen werden im Versand-Dashboard im Tab **[!UICONTROL Ausschlusslogs]** aufgeführt (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -69,8 +69,8 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 | **[!UICONTROL Zurückgewiesen]** | Softbounce / Hardbounce | Die Adresse wurde wegen eines Sicherheits-Feedbacks unter Quarantäne gestellt, da die Nachricht als Spam gemeldet wurde. Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
 | **[!UICONTROL Dublette]** | Ignoriert | Die Adresse wurde in der Segmentierung bereits erkannt. |
 | **[!UICONTROL Unbestimmt]** | Soft | Die Adresse wird qualifiziert, da die Fehler noch nicht inkrementiert wurden. Dieser Fehlertyp tritt auf, wenn der Server eine bis dahin unbekannte Fehlermeldung sendet: Hierbei kann es sich um einen einmaligen Fehler handeln. Sollte er sich jedoch wiederholen, wird der Fehlerzähler erhöht, was die zuständigen technischen Mitarbeiter auf das Problem aufmerksam macht. |
-| **[!UICONTROL Fehler ignoriert]** | Ignoriert | Die Adresse wird auf die Zulassungsliste gesetzt und es wird in jedem Fall eine E-Mail an sie gesendet. |
-| **[!UICONTROL Adresse, die auf die Blockierungsliste gesetzt wurde]** | Hard | Die Adresse wurde zum Zeitpunkt des Sendens der Blockierungsliste hinzugefügt. |
+| **[!UICONTROL Fehler ignoriert]** | Ignoriert | Die Adresse befindet sich auf der Zulassungsliste, und es wird in jedem Fall eine E-Mail gesendet. |
+| **[!UICONTROL Adresse auf Blockierungsliste]** | Hard | Die Adresse wurde zum Zeitpunkt des Sendens der Blockierungsliste hinzugefügt. |
 | **[!UICONTROL Konto deaktiviert]** | Softbounce / Hardbounce | Wenn das Konto längere Zeit nicht abgefragt wird, kann es vom Internetanbieter geschlossen werden, was den Versand an diese Empfängeradresse unmöglich macht. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]** zugewiesen und der Zustellversuch wird wiederholt. Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt. |
 | **[!UICONTROL Nicht angemeldet]** | Ignoriert | Das Mobiltelefon des Profils war beim Versand der Nachricht ausgeschaltet oder verfügte über keinen Netzempfang. |
 | **[!UICONTROL Ungültige Domain]** | Soft | Die Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
