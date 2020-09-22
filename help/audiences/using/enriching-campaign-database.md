@@ -11,9 +11,9 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Campaign Standard bietet verschiedene Tools zur Erweiterung Ihrer Marketing-Date
 
 ## Importieren von Daten mit Workflows {#importing-data-through-workflows}
 
-Mit Workflows können Sie Daten erfassen und mithilfe von [**[!UICONTROL Datenverwaltungsaktivitäten]**](../../automating/using/about-data-management-activities.md) in die Campaign-Datenbank importieren.
+Mit Workflows können Sie Daten erfassen und mithilfe von [[!UICONTROL Datenverwaltungsaktivitäten]](../../automating/using/about-data-management-activities.md) in die Campaign-Datenbank importieren.
 
 Allgemeine Informationen und Best Practices zum Importieren von Daten über Workflows werden in [diesem Abschnitt](../../automating/using/about-data-import-and-export.md) erläutert.
 
@@ -71,6 +71,6 @@ Mit Campaign Standard-APIs können Sie Prozesse zum Aktualisieren der Datenbank 
 
 Weiterführende Informationen zur Verwendung von APIs finden Sie im [entsprechenden Handbuch](../../api/using/get-started-apis.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
