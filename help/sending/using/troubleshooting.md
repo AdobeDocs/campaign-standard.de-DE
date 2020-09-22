@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 61%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -38,30 +38,30 @@ Wenn das Problem fortbesteht, kontaktieren Sie den Zustellbarkeitsservice oder d
 
 ## Blockierungsliste versus Quarantäne {#denylist-versus-quarantine}
 
-* **Was ist der Unterschied zwischen einer auf die Blockierungsliste gesetzt E-Mail-Adresse und einer isolierten E-Mail-Adresse?**
+* **Was ist der Unterschied zwischen einer E-Mail-Adresse auf der Blockierungsliste und einer isolierten E-Mail-Adresse?**
 
-   * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
+   * The status **[!UICONTROL On denylist]** is a result of a feedback loop (when a person reports a message as spam).
 
    * Der Status **[!UICONTROL In Quarantäne]** ist das Ergebnis eines Soft- oder Hardbounce.
-   Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+   Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **Was bedeuten die unterschiedlichen Gründe für Quarantäne-Fehler?**
 
-   Es gibt 10 mögliche Gründe: nicht definiert, Benutzer unbekannt, Ungültige Domain, auf die Blockierungsliste gesetzt Adresse, verweigert, Fehler ignoriert, unerreichbar, Konto deaktiviert, Postfach vollständig, nicht verbunden.
+   Es gibt 10 mögliche Gründe: nicht definiert, Benutzer unbekannt, Ungültige Domain, Adresse auf Blockierungsliste, verweigert, Fehler ignoriert, unerreichbar, Konto deaktiviert, Mailbox vollständig, nicht verbunden.
 
    Weitere Informationen hierzu finden Sie unter [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md).
 
 ## Aus Blockierungsliste entfernen {#removing-from-denylist}
 
-* **Einer meiner Empfänger wurde versehentlich auf die Blockierungsliste gesetzt. How do I remove them from the denylist so that I can start sending them messages again?**
+* **Einer meiner Empfänger wurde versehentlich zur Blockierungsliste hinzugefügt. How do I remove them from the denylist so that I can start sending them messages again?**
 
    * Gehen Sie zu **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]**.
    * Setzen Sie in den Details des entsprechenden Datensatzes den Wert des **[!UICONTROL Status]**-Feldes auf **[!UICONTROL Gültig]**.
    * Speichern Sie die Daten.
 
-* **Wie kann ich herausfinden, ob eine meiner IPs auf die Blockierungsliste gesetzt ist? How do I remove my IP(s) from a denylist?**
+* **Wie kann ich herausfinden, ob eine meiner IPs auf der Blockierungsliste ist? How do I remove my IP(s) from a denylist?**
 
-   Um zu prüfen, ob Ihre IP-Adresse auf die Blockierungsliste gesetzt ist, können Sie sie auf verschiedenen Websites überprüfen, z. B.:
+   Um zu überprüfen, ob sich Ihre IP-Adresse in der Blockierungsliste befindet, können Sie verschiedene Websites verwenden, um sie zu überprüfen, z. B.:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Wie lautet meine IP-Adresse?](https://whatismyipaddress.com)
 
