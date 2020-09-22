@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1451'
 ht-degree: 37%
 
 ---
@@ -71,7 +71,8 @@ Hier erfahren Sie, wie Sie die Ressourcen der Kampagne und die Dynamics 365-Enti
 
 Aufgrund der unterschiedlichen Opt-out-Attribute zwischen Dynamics 365 und Campaign sowie der unterschiedlichen Geschäftsanforderungen einzelner Kunden wurde das Opt-out-Mapping als vom Kunden auszuführende Option konzipiert. Es ist wichtig, sicherzustellen, dass Opt-outs ordnungsgemäß zwischen den Systemen zugeordnet werden, damit die Voreinstellungen für die Abmeldung des Endbenutzers beibehalten werden und sie keine Kommunikation über einen Kanal erhalten, für den sie sich entschieden haben.
 
-Beachten Sie, dass bei Abmeldezuordnungen nur Kampagnen mit dem Präfix &quot;Blockierungsliste&quot;(z.B. blockListEmail) oder dem spezifischen Attribut für CCPA-Abmeldeoption verwendet werden können.  In Dynamics 365 haben die meisten Ausschluss-Felder das Präfix &quot;donot&quot;. Sie können jedoch auch andere Attribute für Ausschluss-Zwecke verwenden, wenn die Datentypen kompatibel sind.
+Bitte beachten Sie, dass bei der Abmeldezuordnung nur Kampagnen mit dem Präfix &quot;Keine Kontaktaufnahme mehr&quot;(z.B. keine E-Mail mehr) oder mit dem spezifischen Attribut für CCPA-Abmeldung verwendet werden können. [mehr dazu](../../developing/using/datamodel-profile.md).
+In Dynamics 365 haben die meisten Ausschluss-Felder das Präfix &quot;donot&quot;. Sie können jedoch auch andere Attribute für Ausschluss-Zwecke verwenden, wenn die Datentypen kompatibel sind.
 
 Bei der Bereitstellung der Integration können Sie angeben, welche Opt-out-Konfiguration Sie für Ihr Unternehmen wünschen:
 
