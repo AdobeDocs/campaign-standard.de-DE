@@ -11,11 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: ht
-source-wordcount: '1421'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+workflow-type: tm+mt
+source-wordcount: '1357'
+ht-degree: 97%
 
 ---
 
@@ -71,10 +71,6 @@ Weitere Informationen finden Sie unter [Experience Platform Launch-App löschen]
 
 ## Technischer Workflow &quot;Mobile App AEPSDK von Launch synchronisieren&quot; {#aepsdk-workflow}
 
->[!IMPORTANT]
->
->Diese Funktion ist seit Version 20.3 in Adobe Campaign eine Beta-Funktion. Senden Sie ein Ticket an die Kundenunterstützung von Adobe (entweder direkt oder über Ihren Adobe-Kontakt), damit der technische Workflow **[!UICONTROL Mobile App AEPSDK von Launch synchronisieren]** in Ihrer Adobe Campaign-Instanz aktiviert wird.
-
 Nachdem Sie Ihre Eigenschaft für Mobilgeräte in Experience Platform Launch erstellt und konfiguriert haben, synchronisiert der technische Workflow **[!UICONTROL Mobile App AEPSDK von Launch synchronisieren]** die in Adobe Campaign Standard importierten Adobe Launch-Eigenschaften für Mobilgeräte.
 
 Standardmäßig startet der technische Workflow alle 15 Minuten. Bei Bedarf können Sie den Vorgang manuell neu starten:
@@ -96,9 +92,9 @@ Ihr Workflow wird jetzt neu gestartet und die von Adobe Launch in Adobe Campaign
 
 Um eine Eigenschaft für Mobilgeräte von Experience Platform Launch in Campaign zu verwenden, müssen Sie diese Eigenschaft auch in Adobe Campaign konfigurieren. Stellen Sie in Adobe Campaign sicher, dass der IMS-Benutzer zu den Standardbenutzer- und Administratorproduktprofilen gehört.
 
-Bei Benutzern, bei denen das Feature Flag für den technischen Workflow &quot;Mobile App AEPSDK von Launch synchronisieren&quot; aktiviert ist, müssen Sie warten, bis der technische Workflow ausgeführt wird und die Launch-Eigenschaft für Mobilgeräte mit Adobe Campaign synchronisiert wird. Sie können sie dann in Adobe Campaign konfigurieren.
+Sie müssen warten, bis der technische Arbeitsablauf ausgeführt wird, und die Eigenschaft Mobiles starten mit Adobe Campaign synchronisieren. Sie können sie dann in Adobe Campaign konfigurieren.
 
-Weitere Informationen zum Feature Flag für den technischen Workflow &quot;Mobile App AEPSDK von Launch synchronisieren&quot; finden Sie in diesem [Abschnitt](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+For more information on Sync Mobile app AEPSDK from Launch technical workflow, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
