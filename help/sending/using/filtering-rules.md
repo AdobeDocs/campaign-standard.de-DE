@@ -12,9 +12,9 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '719'
 ht-degree: 91%
 
 ---
@@ -31,7 +31,7 @@ Die nachstehende Tabelle enthält Informationen zu vordefinierten Filterregeln s
 | Titel | Kanal | Beschreibung |
 ---------|----------|---------
 | **[!UICONTROL Adresse nicht angegeben]** | Alle | Schließt die Zielpopulation ohne angegebene Adresse (E-Mail, Anschrift usw. je nach ausgewähltem Kanal) aus. |
-| **[!UICONTROL Adresse, die auf die Blockierungsliste gesetzt wurde]** | Alle | Schließt Adressen aus, die sich auf der Blockierungsliste befinden. |
+| **[!UICONTROL Adresse auf Blockierungsliste]** | Alle | Schließt Adressen aus, die sich auf der Blockierungsliste befinden. |
 | **[!UICONTROL Dublette]** | Alle | Schließt Duplikate anhand des Felds **[!UICONTROL Adresse]** der Zielpopulation aus. |
 | **[!UICONTROL Mobile Apps ausschließen]** | Mobile App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen. |
 | **[!UICONTROL Mobile Apps für In-App ausschließen]** | In-App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen (In-App-Vorlage). |
@@ -47,7 +47,7 @@ Zusätzlich zu diesen standardmäßigen Filterregeln stehen zwei Ausschlussregel
 
 Während der E-Mail-Analyse vergleichen diese Regeln die E-Mail-Adressen der Empfänger mit den unzulässigen Adressen oder Domain-Namen aus einer verschlüsselten globalen Unterdrückungsliste, die in der Zustellbarkeitsinstanz verwaltet wird. Im Falle einer Übereinstimmung wird die Nachricht nicht an den jeweiligen Empfänger gesendet.
 
-Dadurch soll vermieden werden, durch bösartige Aktivität auf die Blockierungsliste gesetzt zu werden, insbesondere durch den Einsatz eines Spamfallen. Wenn zum Beispiel ein Spamfilter verwendet wird, um über eines Ihrer Webformulare zu abonnieren, wird automatisch eine Bestätigungs-E-Mail an diesen Spamfilter gesendet. Dadurch wird Ihre Adresse automatisch zur Blockierungsliste hinzugefügt.
+Dies soll verhindern, dass der Blockierungsliste aufgrund bösartiger Aktivität hinzugefügt wird, insbesondere durch den Einsatz eines Spamtraps. Wenn zum Beispiel ein Spamfilter verwendet wird, um über eines Ihrer Webformulare zu abonnieren, wird automatisch eine Bestätigungs-E-Mail an diesen Spamfilter gesendet. Dadurch wird Ihre Adresse automatisch zur Blockierungsliste hinzugefügt.
 
 >[!NOTE]
 >
