@@ -12,9 +12,9 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentpaper.png)
 
-Mit der Aktivität **[!UICONTROL Briefpostversand]** können Sie eine Datei mit Profildaten für eine Briefpostkampagne konfigurieren und vorbereiten. Dabei kann es sich um Briefpost handeln, die nur einmal gesendet wird, oder um **wiederkehrende** Briefpost.
+Mit der Aktivität **[!UICONTROL Briefpostversand]** können Sie eine Datei mit Profildaten für eine Briefpostkampagne konfigurieren und vorbereiten. Dabei kann es sich um Briefpost handeln, die nur einmal gesendet wird, oder um wiederkehrende Briefpost.
 
-Standardmäßig wird Briefpost einmal gesendet.
-
-Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen Briefpost an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
+* **Standardmäßig wird Briefpost einmal gesendet.**
+* **Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen Briefpost an verschiedene Zielgruppen.** Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
 ## Anwendungskontext     {#context-of-use}
 
