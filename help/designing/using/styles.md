@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+translation-type: tm+mt
+source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 # E-Mail-Stile verwalten {#managing-styles}
 
 
-In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]**angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
+In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]** angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
 
 ## Element auswählen   {#selecting-an-element}
 
@@ -53,7 +56,7 @@ In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden
 
    Sie können beispielsweise Hintergründe einfügen, Größen ändern, die horizontale oder senkrechte Ausrichtung ändern, Farben verwalten sowie [Abstände und Spannen](#selecting-an-element) hinzufügen.
 
-   Verwenden Sie dazu die im Bereich **[!UICONTROL Einstellungen]**angezeigten Optionen oder[fügen Sie Inline-Styling-Attribute hinzu](#adding-inline-styling-attributes).
+   Verwenden Sie dazu die im Bereich **[!UICONTROL Einstellungen]** angezeigten Optionen oder [fügen Sie Inline-Styling-Attribute hinzu](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -70,7 +73,7 @@ In der Benutzeroberfläche von Email Designer können Sie rasch Abstände und R�
 Beispiel:
 
 * Verwenden Sie Abstände, um Ränder links und recshts von einem Bild einzurichten.
-* Verwenden Sie Abstände oben und unten, um einen Abstand zu einem **[!UICONTROL Text]**oder einen**[!UICONTROL  Divider]** zu einer Komponente hinzuzufügen.
+* Verwenden Sie Abstände oben und unten, um einen Abstand zu einem **[!UICONTROL Text]** oder einen **[!UICONTROL Divider]** zu einer Komponente hinzuzufügen.
 * Um in einem Strukturelement Rahmen zwischen Spalten einzurichten, definieren Sie für jede Spalte einen Abstand.
 
 **[!UICONTROL Spanne]**: Mit dieser Einstellung verwalten Sie den Raum zwischen dem Rahmen eines Elements und dem nächsten Element.
@@ -79,9 +82,9 @@ Beispiel:
 
 >[!NOTE]
 >
->Je nach Ihrer Auswahl (Strukturkomponente, Spalte oder Inhaltskomponente) ist das Ergebnis anders. Adobe empfiehlt die Einrichtung der Parameter **[!UICONTROL Abstand]**und**[!UICONTROL  Rand]** auf Spaltenebene.
+>Je nach Ihrer Auswahl (Strukturkomponente, Spalte oder Inhaltskomponente) ist das Ergebnis anders. Adobe empfiehlt die Einrichtung der Parameter **[!UICONTROL Abstand]** und **[!UICONTROL Rand]** auf Spaltenebene.
 
-Wählen Sie für sowohl **[!UICONTROL Abstand]**als auch**[!UICONTROL  Spanne]**das Schlosssymbol aus, um die Synchronisation zwischen den Parametern oben und unten bzw. rechts und links aufzuheben. Dadurch können Sie jeden Parameter einzeln anpassen.
+Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]** das Schlosssymbol aus, um die Synchronisation zwischen den Parametern oben und unten bzw. rechts und links aufzuheben. Dadurch können Sie jeden Parameter einzeln anpassen.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -91,7 +94,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]**als auch**[!UICONTROL  Spanne]**
 
    ![](assets/des_text_alignment.png)
 
-* **Horizontale Ausrichtung** kann auf Text, Bilder und Schaltflächen angewendet werden, aktuell aber nicht auf die Komponenten **[!UICONTROL Divider]**und**[!UICONTROL  Sozial]**.
+* **Horizontale Ausrichtung** kann auf Text, Bilder und Schaltflächen angewendet werden, aktuell aber nicht auf die Komponenten **[!UICONTROL Divider]** und **[!UICONTROL Sozial]**.
 
    ![](assets/des_horizontal_alignment.png)
 
@@ -101,6 +104,11 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]**als auch**[!UICONTROL  Spanne]**
 
 ## Festlegen von Hintergründen {#about-backgrounds}
 
+>[!CONTEXTUALHELP]
+>id="ac_edition_backgroundimage"
+>title="Hintergrundeinstellungen"
+>abstract="Mit dem E-Mail-Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren."
+
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
 
 1. Wenden Sie eine Hintergrundfarbe auf den Hauptteil Ihrer E-Mail an, wenn das Design es so verlangt.
@@ -109,7 +117,7 @@ Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folge
 
 Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
-* Legen Sie eine **[!UICONTROL Hintergrundfarbe]**für die gesamte E-Mail fest. Wählen Sie die Einstellungen für den Hauptteil im Navigationsbaum aus, auf den Sie über die linke Palette zugreifen können.
+* Legen Sie eine **[!UICONTROL Hintergrundfarbe]** für die gesamte E-Mail fest. Wählen Sie die Einstellungen für den Hauptteil im Navigationsbaum aus, auf den Sie über die linke Palette zugreifen können.
 
    ![](assets/des_background_body.png)
 
@@ -123,13 +131,13 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
    Wählen Sie aber keine Viewport-Hintergrundfarbe aus, da diese die Struktur-Hintergrundfarben verdecken könnte.
 
-* Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]**fest.
+* Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest.
 
    ![](assets/des_background_image.png)
 
    >[!NOTE]
    >
-   >Manche E-Mail-Programme unterstützen keine Hintergrundbilder. Wählen Sie daher eine passende Fallback-Hintergrundfarbe auf, falls das Bild nicht dargestellt werden kann.
+   >Manche E-Mail-Programme unterstützen keine Hintergrundbilder. Wenn dies nicht unterstützt wird, wird stattdessen die Zeilenhintergrundfarbe verwendet. Wählen Sie daher eine passende Fallback-Hintergrundfarbe auf, falls das Bild nicht dargestellt werden kann.
 
 * Legen Sie auf Spaltenebene eine Hintergrundfarbe fest.
 
@@ -146,19 +154,19 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente bestehend aus drei Spalten anpassen. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder unter Verwendung des Strukturbaums in der linken **Palette** aus.
-1. Wählen Sie in der **dedizierten Symbolleiste** mit der Option **[!UICONTROL Spalte auswählen]**die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
+1. Wählen Sie in der **dedizierten Symbolleiste** mit der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
 
    ![](assets/des_selecting_column.png)
 
-   Die bearbeitbaren Parameter für diese Spalte werden im Bereich **[!UICONTROL Einstellungen]**auf der rechten Seite angezeigt.
+   Die bearbeitbaren Parameter für diese Spalte werden im Bereich **[!UICONTROL Einstellungen]** auf der rechten Seite angezeigt.
 
-1. Wählen Sie unter **[!UICONTROL Senkrecht ausrichten]**die Option**[!UICONTROL  Nach oben]** aus.
+1. Wählen Sie unter **[!UICONTROL Senkrecht ausrichten]** die Option **[!UICONTROL Nach oben]** aus.
 
    ![](assets/des_vertical_alignment.png)
 
    Die Inhaltskomponente wird am oberen Rand der Spalte angezeigt.
 
-1. Definieren Sie unter **[!UICONTROL Abstand]**den Abstand der Spalte vom oberen Rand. Wählen Sie das Schlosssymbol aus, um die Synchronisation mit dem Abstand vom unteren Rand aufzuheben.
+1. Definieren Sie unter **[!UICONTROL Abstand]** den Abstand der Spalte vom oberen Rand. Wählen Sie das Schlosssymbol aus, um die Synchronisation mit dem Abstand vom unteren Rand aufzuheben.
 
    Definieren Sie den linken und rechten Abstand für diese Spalte.
 
@@ -180,7 +188,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Wählen Sie ein **[!UICONTROL Ziel]**aus, um festzulegen, in welchem Browserkontext Ihr Link geöffnet wird.
+1. Wählen Sie ein **[!UICONTROL Ziel]** aus, um festzulegen, in welchem Browserkontext Ihr Link geöffnet wird.
 
    ![](assets/stylelinks-target.png)
 
