@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 100%
 
 ---
 
@@ -57,6 +60,7 @@ Gehen Sie wie folgt vor, um Testsendungen vorzunehmen:
    * **[!UICONTROL E-Mail-Rendering]**: Diese Option erlaubt es Ihnen, den Empfang und die Darstellung Ihrer Nachricht in den verschiedenen E-Mail-Clients zu testen. Weiterführende Informationen finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
    * **[!UICONTROL Testversand]**: Diese Option erlaubt es Ihnen, die Nachricht vor dem Versand an die Hauptzielgruppe zu prüfen. Die Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen.
    * **[!UICONTROL Testversand + E-Mail-Rendering]**: Diese Funktion kombiniert die beiden vorangehenden Optionen.
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -105,7 +109,7 @@ Wenn Sie die Nummer des Testversands in der Betreffzeile ausblenden möchten, ak
 **Verwandtes Thema:**
 
 * Video [Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
-* [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md).
-* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
+* [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md)
+* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
 * [E-Mail-Kanal konfigurieren](../../administration/using/configuring-email-channel.md)
