@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 787d1cb906acfba5887e6090f1d6b854bd096b0c
+workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 68%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Berichte anpassen</a></p></td></tr>
 </table>
 
-Die dynamische Berichterstellung ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketingaktivitäten zu messen. Durch sie kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht.
+Der dynamische Berichte bietet vollständig anpassbare Berichte in Echtzeit, um die Auswirkungen Ihrer Marketing-Aktivitäten zu messen. Durch sie kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht.
 
 ## Berichte verwalten und freigeben {#manage-share-reports}
 
@@ -48,7 +48,7 @@ Mehr dazu:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard verfügt über eine Reihe **vordefinierter dynamischer Berichte**, mit denen Sie mehrere Aspekte Ihrer Marketing-Kampagnen messen können: Bounces, Sendungen, die am häufigsten als Spam oder Junk bezeichnet wurden, am häufigsten angesehene Sendungen nach Empfängern, Berichte zu Kanälen, Versanddurchsatz, Tracking-Berichte usw.
+Campaign Standard comes with a set of **ready-to-use dynamic reports** allowing you to measure multiple aspects of your marketing campaigns: bounces, deliveries that have been declared the most as spam or junk, most viewed deliveries by recipients, channels-related reports, delivery throughput  and tracking reports...
 
 **Kombinieren Sie verschiedene Komponenten** (Dimensionen, Metriken und Segmente, Zeiträume), um eigene Berichte zu erstellen oder native Berichte zu personalisieren.
 
@@ -62,11 +62,11 @@ Mehr dazu:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Passen Sie Ihre Berichte** an, indem Sie die Möglichkeiten der dynamischen Berichtserstellung nutzen: Fügen Sie so viele Komponenten hinzu, wie Sie benötigen (Bedienfelder und Freiformtabellen), um Ihre Daten mit den verfügbaren Metriken und Dimensionen zu analysieren.
+**Passen Sie Ihre Berichte** an, indem Sie die Designfunktionen des dynamischen Berichte nutzen: Fügen Sie so viele Komponenten hinzu, wie Sie benötigen (Bereiche und Freiformtabellen), um Ihre Daten mit der verfügbaren Metrik und den verfügbaren Dimensionen zu analysieren.
 
 Ziehen Sie **Visualisierungselemente** per Drag &amp; Drop in den Arbeitsbereich, um den Berichten grafische Darstellungen Ihrer Daten hinzuzufügen und diese entsprechend Ihren Anforderungen zu konfigurieren.
 
-Erstellen Sie Berichte anhand **benutzerdefinierter Profildaten**, die während der Ressourcenerweiterung des Profils erstellt wurden, und **Berichte anhand von Segmenten**, die in Zielgruppen-Workflows definiert wurden.
+Create reports based on **custom profile data** created during the Profile resource extension, and **reports based on segments** defined in targeting workflows.
 
 Mehr dazu:
 
