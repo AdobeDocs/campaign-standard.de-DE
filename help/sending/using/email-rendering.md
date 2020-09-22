@@ -11,11 +11,11 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 92%
 
 ---
 
@@ -78,6 +78,13 @@ Dieser Bericht enthält Informationen zum E-Mail-Rendering, d. h. zur Darstellu
 >[!NOTE]
 >
 >Die Anzahl der verfügbaren Renderings ist in Ihrem Lizenzvertrag vermerkt. Mit jedem Versand, bei dem die Option **E-Mail-Rendering** aktiviert ist, werden Ihre verfügbaren Renderings (auch Token genannt) um eins verringert.
+>
+>Tokens berücksichtigen jedes einzelne Rendering und nicht den gesamten Bericht zum Rendern der E-Mail, d. h.:
+>
+>**Das bedeutet, dass jedes Mal, wenn ein Inbox-Rendering-Bericht erstellt wird, pro E-Mail-Client ein Token abgezogen wird: ein Token für das Rendering in Outlook 2000, einer für das Rendering in Outlook , einer für das Rendering in Apple Mail usw.**
+>
+>**Wenn Sie für denselben Versand** das Rendering per E-Mail erneut generieren, wird die Anzahl der verfügbaren Token erneut um die Anzahl der generierten Renderings verringert.
+
 
 Die Zusammenfassung des Berichts zeigt die Anzahl an empfangenen, als Spam gekennzeichneten und nicht empfangenen Nachrichten oder die Anzahl an Nachrichten, deren Empfang ausstehend ist.
 
