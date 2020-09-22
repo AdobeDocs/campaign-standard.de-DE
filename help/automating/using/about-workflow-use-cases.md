@@ -11,10 +11,10 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
-workflow-type: ht
-source-wordcount: '238'
+translation-type: tm+mt
+source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
+workflow-type: tm+mt
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,6 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu verstehen, in denen Workfl
 * [Inkrementelle Abfrage bezüglich Dienst-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentierung nach Altersgruppen](../../automating/using/segmentation-age-groups.md)
 * [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](../../automating/using/using-resources-different-from-targeting-dimensions.md)
-* [Kontrollgruppe erstellen](../../automating/using/workflow-control-group.md)
 
 ## Data Management {#management}
 
