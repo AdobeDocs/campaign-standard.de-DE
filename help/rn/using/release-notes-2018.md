@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '5454'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
+source-wordcount: '5456'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Jetzt werden Bilder, die aus einer Kamera hochgeladen und im Porträtmodus aufgenommen wurden, nicht mehr in einer unerwünschten gedrehten Position dargestellt.
 * Fehlerkorrektur – Bei der Verwendung der Benutzeroberfläche des Abfrageeditors in Creative Designer werden jetzt keine unklaren Auswahlinformationen mehr angezeigt.
 * Fehlerkorrektur – Bei der Verwendung der Benutzeroberfläche des Abfrageeditors in Creative Designer werden Elemente jetzt ordnungsgemäß dupliziert.
-* Fehlerkorrektur – SMS-Nachrichten werden jetzt nicht mehr an Empfänger auf der Blockierungsliste gesendet. Zuvor geschah dies weiterhin, wenn die Abmeldung über eine automatische Antwort erfolgt war. (CAMP-27128)
+* Es wurde ein Fehler behoben, der dazu führte, dass SMS-Nachrichten an Empfänger auf der Blockierungsliste weitergeleitet wurden, obwohl sie durch eine automatische Antwort abgemeldet wurden. (CAMP-27128)
 * Fehlerkorrektur – Jetzt wird der Fehler angezeigt, wenn der Workflow **Datenbankbereinigung** fehlschlägt. (CAMP-26876)
 * Fehlerkorrektur – Jetzt können benutzerdefinierte Felder bei der Definition einer Push-Benachrichtigung gelöscht werden. (CAMP-25588)
 
