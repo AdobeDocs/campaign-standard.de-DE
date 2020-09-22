@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2298'
 ht-degree: 99%
 
 ---
@@ -261,7 +261,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 
    Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Hardbounce-Fehlerrate]** sind:
 
-   * Der Empfänger wird auf die Blockierungsliste gesetzt, was bedeutet, dass er nicht mehr kontaktiert werden möchte.
+   * Der Empfänger wird der Blockierungsliste hinzugefügt, d.h. sie möchten nicht mehr kontaktiert werden.
    * Die E-Mail-Adresse des Empfängers existiert nicht.
    * Die Domain des Empfängers existiert nicht.
    * Der Server des Empfängers blockiert die Zustellung.
