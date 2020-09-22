@@ -13,7 +13,10 @@ context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 84%
 
 ---
 
@@ -36,21 +39,26 @@ Audiences können im Zuge der Nachrichtenerstellung im Assistenten oder im Nachh
 
    * Zielgruppe
    * Testprofile
+
    ![](assets/delivery_audience_definition_2.png)
 
-1. Define the main **[!UICONTROL Target]** of the email. Dies ist die tatsächliche Ziel-Audience der E-Mail.
+1. Definieren Sie die **[!UICONTROL Hauptzielgruppe]** der E-Mail. Dies ist die tatsächliche Ziel-Audience der E-Mail.
 
-   The target is defined in the **[!UICONTROL Target]** tab and is made up of identified profiles from your database.
+   Im Tab **[!UICONTROL Zielgruppe]** werden aus den identifizierten Profilen der Datenbank diejenigen ausgewählt, die den Versand erhalten sollen.
 
    Dies kann beispielsweise unter Verwendung des [Abfragetools](../../automating/using/editing-queries.md#creating-queries) geschehen.
 
-   In this tab, the **[!UICONTROL Shortcuts]** palette only contains predefined filters and the audiences that have been defined in the identified profiles. Der **[!UICONTROL Explorer]**-Tab bietet Zugriff auf fortgeschrittene Konfigurationen.
+   Wenn Sie sich im Zielgruppe-Tab befinden, zeigt die Palette der **[!UICONTROL Schnellzugriffe]** nur vordefinierte Filter und Audiences, die sich auf identifizierte Profile beziehen. Der **[!UICONTROL Explorer]**-Tab bietet Zugriff auf fortgeschrittene Konfigurationen.
 
    Sie haben die Möglichkeit, zuvor erstellte Audiences wiederzuverwenden und zu kombinieren, bzw. durch das Hinzufügen von Filtern weiter einzuschränken.
 
-1. Define the **[!UICONTROL Test profiles]** you want to use for the email. Die Testprofile erhalten Testsendungen, die Sie probeweise senden können, bevor Sie die endgültige E-Mail an die Hauptzielgruppe senden.
+1. Definieren Sie die **[!UICONTROL Testprofile]**, die Sie für die E-Mail verwenden möchten. Die Testprofile erhalten Testsendungen, die Sie probeweise senden können, bevor Sie die endgültige E-Mail an die Hauptzielgruppe senden.
 
    Weiterführende Informationen zur Testprofil-Konfiguration finden Sie im Abschnitt [Testprofile](../../audiences/using/managing-test-profiles.md).
+
+1. Bei Bedarf können Sie eine Kontrollgruppe auf der entsprechenden Registerkarte definieren. Auf diese Weise können Sie einige Profil aus Ihrer Zielgruppe entfernen, damit sie die Nachricht nicht erhalten. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. Sie können auch Ersatzadressen verwenden, um eine genaue Darstellung der Nachricht zu erhalten, die das Profil erhalten soll.  Weiterführende Informationen finden Sie unter [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md).
 
 Nach Abschluss der Konfigurationen zeigt die Audiences-Kachel an, dass sowohl die Zielgruppe als auch Testprofile definiert wurden.
 
