@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '657'
 ht-degree: 99%
 
 ---
@@ -47,7 +47,7 @@ Folgende Faktoren können die Zustellbarkeit Ihrer E-Mails beeinträchtigen.
 ## Zustellbarkeits-Tools {#deliverability-tools}
 
 Lesen Sie zunächst den Abschnitt über die Zustellbarkeits-Tools von Campaign Standard.
-* [Best Practices beim Versand](https://helpx.adobe.com/de/campaign/kb/delivery-best-practices.html)
+* [Best Practices beim Versand](../../sending/using/delivery-best-practices.md)
 * [Absendername personalisieren](../../designing/using/personalization.md#personalizing-the-sender)
 * [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
 * [Versandzeitpunkt optimieren](../../sending/using/optimizing-the-sending-time.md)
