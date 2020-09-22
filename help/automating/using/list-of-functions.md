@@ -11,8 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
+translation-type: tm+mt
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+workflow-type: tm+mt
+source-wordcount: '1942'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ## Über Funktionen {#about-functions}
 
-Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden. Auf diese können Sie in der Palette über das Element **[!UICONTROL Ausdruck]**zugreifen. Weiterführende Hinweise hierzu finden Sie in einem[gesonderten Abschnitt](../../automating/using/advanced-expression-editing.md).
+Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden. Auf diese können Sie in der Palette über das Element **[!UICONTROL Ausdruck]** zugreifen. Weiterführende Hinweise hierzu finden Sie in einem [gesonderten Abschnitt](../../automating/using/advanced-expression-editing.md).
 
 Ziehen Sie das Element in den Workflow-Arbeitsbereich und geben Sie die gewünschte Funktion manuell ein. Unten stehend finden Sie eine Liste der kompatiblen Funktionen.
 
@@ -35,7 +38,11 @@ Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Fu
 * String-Funktionen
 * Sortierungs-Funktionen
 
-## Datum-Funktionen  {#dates}
+>[!NOTE]
+>
+>Zusätzliche Funktionen sind in allen Aktivitäten verfügbar, mit denen Sie nach dem Aufruf eines Workflows mit externen Parametern Ereignis-Variablen verwenden können. They are detailed in [this section](../../automating/using/customizing-workflow-external-parameters.md).
+
+## Datumsangaben {#dates}
 
 Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 
