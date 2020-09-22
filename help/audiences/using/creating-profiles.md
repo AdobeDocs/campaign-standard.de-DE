@@ -11,11 +11,11 @@ topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 # Profile erstellen{#creating-profiles}
 
 In Adobe Campaign dienen Profile standardmäßig der Bestimmung der Hauptzielgruppe einer Marketingkommunikation.
+
+>[!NOTE]
+>
+>Die Erstellung von Profilen ist auch mithilfe der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/creating-profiles.md).
 
 Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 
@@ -38,7 +42,7 @@ Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzerobe
 
    ![](assets/profile_creation_1.png)
 
-1. Wählen Sie dann **[!UICONTROL Erstellen]** aus.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
    ![](assets/profile_creation.png)
 
@@ -51,7 +55,7 @@ Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzerobe
    * In der Kategorie **[!UICONTROL Kanäle]** sind die E-Mail-Adresse, Mobiltelefonnummer und Opt-out-Informationen aufgeführt. Hier lässt sich ermitteln, über welche Kanäle Sie das Profil erreichen können.
    * Die Informationen in der Kategorie **[!UICONTROL Nicht mehr kontaktieren]** werden aktualisiert, sobald sich das Profil von einem Kanal abmeldet.
    * In der Kategorie **[!UICONTROL Adresse]** wird die Anschrift festgehalten. Diese muss ausgefüllt und die Option **[!UICONTROL Anschrift angegeben]** aktiviert sein, wenn [Briefpost](../../channels/using/about-direct-mail.md) an dieses Profil versendet werden soll. Ist die Option **[!UICONTROL Anschrift angegeben]** nicht aktiviert, wird dieses Profil vom Briefpostversand ausgeschlossen.
-   * In der Kategorie **[!UICONTROL Zugriffsberechtigung]** sind die Organisationseinheiten des Profils festgehalten (zur [Verwaltung von Berechtigungen](../../administration/using/about-access-management.md)). Siehe auch [Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
+   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). Informationen zum Hinzufügen der Organisationsfelder zu Profilen finden Sie im Abschnitt [Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
    * In der Kategorie **[!UICONTROL Rückverfolgung]** werden automatisch Informationen zu dem Benutzer aktualisiert, der das Profil erstellt oder geändert hat.
 
 1. Speichern Sie das Profil mithilfe der Schaltfläche **[!UICONTROL Erstellen]**.
@@ -59,13 +63,6 @@ Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzerobe
 Das Profil wurde der Liste hinzugefügt.
 
 >[!NOTE]
->
->Die Erstellung von Profilen ist auch mithilfe der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/creating-profiles.md).
-
-Profile können nach Organisationseinheiten partitioniert werden. Informationen zum Hinzufügen der Organisationsfelder zu Profilen finden Sie im Abschnitt [Profile partitionieren](../../administration/using/organizational-units.md#partitioning-profiles).
-
->[!NOTE]
->
 >Das Feld &quot;Bevorzugte Sprache&quot; wird verwendet, um beim Versand mehrsprachiger Nachrichten die Sprache auszuwählen. Weiterführende Informationen zu mehrsprachigen Nachrichten [finden Sie auf dieser Seite](../../channels/using/creating-a-multilingual-email.md).
 
 **Verwandte Themen:**
