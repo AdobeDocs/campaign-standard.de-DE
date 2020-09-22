@@ -12,8 +12,11 @@ discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 100%
 
 ---
 
@@ -53,6 +56,11 @@ Die zentrale Fläche im Editor bildet den Arbeitsbereich des Workflows. Hier wer
 Um zwei Aktivitäten miteinander zu verbinden, ziehen Sie das Ende des Pfeils der ersten Aktivität zur nächsten Aktivität, bis sie miteinander verbunden werden. Sie können die Aktivität auch zur davorliegenden Pfeilspitze ziehen, um diese Aktivität mit der vorhergehenden zu verbinden. Wenn eine der zwei Aktivitäten verschoben wird, bleiben sie trotzdem verbunden.
 
 Bei Aktivitäten, die Daten verarbeiten, enthalten die ausgehenden Transitionen die Zwischenergebnisse. Sie können darauf zugreifen, wenn Sie im Abschnitt **[!UICONTROL Ausführung]** der Workflow-Eigenschaften die Option **[!UICONTROL Zwischenergebnis festhalten]** angekreuzt haben.
+
+>[!CAUTION]
+>
+>Diese Option belegt viel Speicherplatz. Sie hilft Ihnen aber bei der Erstellung eines Workflows, dessen Konfiguration und Verhalten fehlerfrei sind. Aktivieren Sie sie nicht bei Produktionsinstanzen.
+
 
 Bei Markierung einer Aktivität erscheinen um diese herum die Quick Actions, die den Schnellzugriff auf diverse Aktionen ermöglichen. Um beispielsweise eine Aktivität zu konfigurieren, können Sie diese markieren und mithilfe der Quick-Action-Schaltfläche ![](assets/edit_darkgrey-24px_table.png) öffnen.
 
@@ -116,7 +124,7 @@ Bei Markierung einer Aktivität erscheinen um diese herum die Quick-Action-Schal
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL Keine Ausführung]**<br/>Deaktiviert die Aktivität.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Vorgezogene Ausführung]**<br/>Löst die augenblickliche Ausführung der markierten Aktivität aus. Diese Schaltfläche steht nur für die Aktivitäten <span class="uicontrol">Planung</span> und <span class="uicontrol">Warten</span> zur Verfügung.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Vorgezogene Ausführung]**<br/>Löst die augenblickliche Ausführung der markierten Aktivität aus. Diese Schaltfläche steht nur für die Aktivitäten<span class="uicontrol">Planung</span>und<span class="uicontrol">Warten</span>zur Verfügung.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Auswahl löschen]**<br/>Löscht die markierten Aktivitäten.
 
