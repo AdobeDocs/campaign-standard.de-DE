@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '961'
 ht-degree: 97%
 
 ---
@@ -35,7 +35,6 @@ Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Akti
 
 **Verwandte Themen:**
 * [Anwendungsfall: Segmentierung am Standort](../../automating/using/workflow-segmentation-location.md)
-* [Anwendungsfall: Kontrollgruppe erstellen](../../automating/using/workflow-control-group.md)
 * [Anwendungsfall: Segmentierung nach Altersklassen](../../automating/using/segmentation-age-groups.md)
 
 ## Anwendungskontext {#context-of-use}
