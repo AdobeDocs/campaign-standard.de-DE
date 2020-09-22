@@ -13,9 +13,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a5c5c11a3f29e83f7ec3b36087f9455c58a819e1
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '817'
 ht-degree: 83%
 
 ---
@@ -80,7 +80,7 @@ In Adobe Campaign sind zwei Arten von Transaktionsnachrichten verfügbar:
 </tr>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Profil-Transaktionsnachrichten</a><br><b>, die sich auf Profile in der Marketing-Datenbank von Adobe Campaign beziehen</b></p></td>
-<td><p>Profil-Transaktionsnachrichten ermöglichen Ihnen Folgendes:<ul><li>Apply marketing typology rules such as <b>denylisted address</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>einen Abmelde-Link in die Nachricht einfügen</li><li>die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen</li><li>Die Transaktionsnachrichten für die Customer Journey nutzen</li></ul></p></td>
+<td><p>Profil-Transaktionsnachrichten ermöglichen Ihnen Folgendes:<ul><li>Wenden Sie Marketing- <a href="../../sending/using/managing-typology-rules.md">Typologieregeln</a> oder <a href="../../sending/using/fatigue-rules.md">Ermüdungsregeln</a>an.</li><li>einen Abmelde-Link in die Nachricht einfügen</li><li>die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen</li><li>Die Transaktionsnachrichten für die Customer Journey nutzen</li></ul></p></td>
 </tr>
 </table>
 
