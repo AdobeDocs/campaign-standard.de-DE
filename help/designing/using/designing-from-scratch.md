@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
+translation-type: tm+mt
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1217'
+ht-degree: 87%
 
 ---
 
@@ -20,8 +23,6 @@ source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 # Erstellen neuer E-Mails {#designing-an-email-content-from-scratch}
 
 Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email Designer können Sie E-Mails und Vorlagen mit oder ohne eigene vordefinierte Inhalte erstellen.
-
-## Wichtige Schritte bei der Erstellung von E-Mails {#key-steps-to-create-your-email}
 
 Dies sind die wichtigsten Schritte zum Erstellen und Gestalten eines neuen E-Mail-Inhalts mithilfe von Email Designer:
 
@@ -40,7 +41,17 @@ Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v
 >
 >Wenn Sie keinen völlig neuen E-Mail-Inhalt erstellen möchten, können Sie auch die nativen Inhaltsvorlagen verwenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsvorlagen](../../designing/using/using-reusable-content.md#content-templates).
 
-### Definieren der E-Mail-Struktur {#defining-the-email-structure}
+## Definieren der E-Mail-Struktur {#defining-the-email-structure}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Strukturkomponenten"
+>abstract="Strukturelle Elemente, die das Layout der E-Mail definieren."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Definieren von E-Mail-Spalten"
+>abstract="Mit dem E-Mail-Designer können Sie einfach die Spaltenstruktur Ihrer E-Mail definieren."
 
 Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
 
@@ -59,6 +70,8 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
    >[!NOTE]
    >
+   >Beachten Sie, dass das Stapeln von Spalten nicht mit allen E-Mail-Programmen kompatibel ist. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
+   >
    >Sobald die Komponenten in der E-Mail platziert sind, können sie nicht mehr verschoben oder entfernt werden, außer es befindet sich bereits eine Inhaltskomponente oder ein Fragment darin.
 
 1. Mehrere Strukturkomponenten bestehend aus einer oder mehreren Spalten sind verfügbar.
@@ -73,7 +86,32 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 Sobald die Struktur definiert ist, können Sie Inhaltsfragmente und Komponenten zu Ihrer E-Mail hinzufügen.
 
-### Verwenden von Inhaltskomponenten {#about-content-components}
+## Verwenden einer Kopfzeile {#preheader}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_preheader"
+>title="Verwenden einer Kopfzeile"
+>abstract="Mit dem Preheader können Sie einen kurzen Zusammenfassungstext konfigurieren, der eine höhere offene Rate für Ihre E-Mail liefert."
+
+Eine Kopfzeile ist ein kurzer Zusammenfassungstext, der auf die Betreffzeile folgt, wenn eine E-Mail aus Ihrem Posteingang angezeigt wird. Der Preheader liefert eine höhere offene Rate.
+
+Wählen Sie das **[!UICONTROL Bearbeitungsfeld &quot;Kopfzeile]** &quot;aus und füllen Sie den Inhalt aus.
+
+![](assets/email_designer_preheader.png)
+
+Sie können einen **[!UICONTROL Inhaltsblock]**, einen **[!UICONTROL dynamischen Inhalt]** oder ein **[!UICONTROL Personalisierungsfelder]** in den Preheader-Inhalt einfügen.
+
+>[!NOTE]
+>
+>Preheader sind nicht mit allen E-Mail-Programmen kompatibel. Wenn Preheader nicht unterstützt werden, werden sie nicht angezeigt.
+
+
+## Verwenden von Inhaltskomponenten {#about-content-components}
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components"
+>title="Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Komponenten, die nach dem Einfügen in eine E-Mail bearbeitet werden können."
 
 Inhaltskomponenten sind leere Komponenten, die nach dem Einfügen in eine E-Mail bearbeitet werden können.
 
@@ -81,77 +119,91 @@ Sie können in einer Strukturkomponente beliebig viele Inhaltskomponenten hinzuf
 
 Dies ist die Liste verfügbarer Komponenten in Email Designer:
 
-- **[!UICONTROL Schaltfläche]**
+### **[!UICONTROL Schaltfläche]**
 
-   Wenn Sie mehrere Schaltflächen benötigen, müssen Sie nicht jede einzelne neu erstellen, sondern können die Komponente **[!UICONTROL Schaltfläche]** in der dedizierten Symbolleiste duplizieren.
+Wenn Sie mehrere Schaltflächen benötigen, müssen Sie nicht jede einzelne neu erstellen, sondern können die Komponente **[!UICONTROL Schaltfläche]** in der dedizierten Symbolleiste duplizieren.
 
-   Sie können auch Schaltflächen in Fragmenten speichern, die nochmals verwendet werden können. Weiterführende Informationen dazu finden Sie in den Abschnitten [Inhaltsfragment erstellen](../../designing/using/using-reusable-content.md#creating-a-content-fragment) und [Inhalt als Fragment speichern](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+Sie können auch Schaltflächen in Fragmenten speichern, die nochmals verwendet werden können. Weiterführende Informationen dazu finden Sie in den Abschnitten [Inhaltsfragment erstellen](../../designing/using/using-reusable-content.md#creating-a-content-fragment) und [Inhalt als Fragment speichern](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 Wählen Sie **[!UICONTROL Fallback-Ansicht]** aus, um das Fallback-Bild in Email Designer zu zeigen.
 
-- **[!UICONTROL Text]**
+### **[!UICONTROL Text]**
 
-   Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe des Textes in den **[!UICONTROL Komponenteneinstellungen]** anpassen.
+    Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Trennlinie]**
+### **[!UICONTROL Trennlinie]**
 
-   Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe der Trennlinie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
+    Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL HTML]**
+### **[!UICONTROL HTML]**
 
-   Verwenden Sie diese Komponente, um die unterschiedlichen Teile Ihrer existierenden HTML-Datei zu kopieren und einzufügen. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
+Verwenden Sie diese Komponente, um die unterschiedlichen Teile Ihrer existierenden HTML-Datei zu kopieren und einzufügen. Damit können Sie kostenfrei modulare HTML-Komponenten erstellen.
 
-   >[!NOTE]
-   >
-   >Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im  **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
+>[!NOTE]
+>
+>Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im  **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
 
-   Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten, empfiehlt Adobe, eine neue Nachricht zu erstellen und den Inhalt aus der existierenden E-Mail in Fragmente und Komponenten einzufügen.
+Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten, empfiehlt Adobe, eine neue Nachricht zu erstellen und den Inhalt aus der existierenden E-Mail in Fragmente und Komponenten einzufügen.
 
-   Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den HTML-Code mithilfe der **[!UICONTROL HTML]**-Inhaltskomponente aus der Original-E-Mail kopieren und einfügen. Nur Benutzer, die mit HTML vertraut sind, sollten diese Schritte ausführen.
+Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den HTML-Code mithilfe der **[!UICONTROL HTML]**-Inhaltskomponente aus der Original-E-Mail kopieren und einfügen. Nur Benutzer, die mit HTML vertraut sind, sollten diese Schritte ausführen.
 
-   <!-- A full example is presented below. -->
+<!-- A full example is presented below. -->
 
-   >[!NOTE]
-   >
-   >Der neue Inhalt ist keine exakte Kopie der ursprünglichen E-Mail, aber mithilfe der unten stehenden Schritte können Sie eine Nachricht erstellen, die dem Original möglichst ähnelt.
+>[!NOTE]
+>
+>Der neue Inhalt ist keine exakte Kopie der ursprünglichen E-Mail, aber mithilfe der unten stehenden Schritte können Sie eine Nachricht erstellen, die dem Original möglichst ähnelt.
 
-   **Vor dem Kopieren des Inhalts**
+    **Vor dem Kopieren Ihres Inhalts**
+    
+    1. Stellen Sie fest, welche Bereiche Ihrer ursprünglichen E-Mail Sie in späteren E-Mails wiederverwenden möchten.
+    1. Speichern Sie alle Bilder und Assets, die Sie verwenden möchten.
+    1. Wenn Sie ausreichende HTML-Kenntnisse haben, teilen Sie Ihren ursprünglichen HTML-Inhalt in unterschiedliche Teile auf.
 
-   1. Stellen Sie fest, welche Bereiche Ihrer ursprünglichen E-Mail Sie in späteren E-Mails wiederverwenden möchten.
-   1. Speichern Sie alle Bilder und Assets, die Sie verwenden möchten.
-   1. Wenn Sie ausreichende HTML-Kenntnisse haben, teilen Sie Ihren ursprünglichen HTML-Inhalt in unterschiedliche Teile auf.
+### Video {#video-settings}
 
-- **[!UICONTROL Video]**
+>[!CONTEXTUALHELP]
+>id="ac_edition_video"
+>title="Videoeinstellungen"
+>abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen."
 
-   Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen.
+Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und geben Sie den Video-Link in die **[!UICONTROL Komponenteneinstellungen]** ein.
 
-   Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und geben Sie den Video-Link in die **[!UICONTROL Komponenteneinstellungen]** ein.
+>[!NOTE]
+>
+>Beachten Sie, dass das Video nicht mit allen E-Mail-Programmen kompatibel ist. Wenn es nicht unterstützt wird, wird eine Ausweichansicht angezeigt.
 
-- **[!UICONTROL Bild]**
+### Bild
 
-   Verwenden Sie diese Komponente, um ein Bild in Ihre E-Mail einzufügen.
+Verwenden Sie diese Komponente, um ein Bild in Ihre E-Mail einzufügen.
 
-   Fügen Sie die Bildkomponente in eine Strukturkomponente ein und klicken Sie auf „Durchsuchen“, um die gewünschte Bilddatei aus Ihrem Dateisystem hochzuladen.
+Fügen Sie die Bildkomponente in eine Strukturkomponente ein und klicken Sie auf „Durchsuchen“, um die gewünschte Bilddatei aus Ihrem Dateisystem hochzuladen.
 
-- **[!UICONTROL Social]**
+### **[!UICONTROL Social]**
 
-   Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail einzufügen. Die anzuzeigenden Links und die Größe ihrer Symbole können Sie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
+Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail einzufügen. Die anzuzeigenden Links und die Größe ihrer Symbole können Sie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
 
-- **[!UICONTROL Karussell]**
+### Karussell {#carousel-settings}
 
-   1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
-   1. Durchsuchen Sie Ihre Festplatte nach Bildern.
+>[!CONTEXTUALHELP]
+>id="ac_edition_carousel"
+>title="Karussell-Einstellungen"
+>abstract="Erfahren Sie, wie Sie ein Karussell in Ihren Inhalt einfügen und konfigurieren."
+
+1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
+1. Durchsuchen Sie Ihre Festplatte nach Bildern.
+
    ![](assets/des_carousel_browse.png)
 
-   1. Wählen Sie in den **[!UICONTROL Einstellungen]** die Anzahl der gewünschten Miniaturansichten für das Karussell aus.
-   1. Wählen Sie ein Fallback-Bild von Ihrer Festplatte aus.
+1. Wählen Sie in den **[!UICONTROL Einstellungen]** die Anzahl der gewünschten Miniaturansichten für das Karussell aus.
+1. Wählen Sie ein Fallback-Bild von Ihrer Festplatte aus.
+
    ![](assets/des_carousel_fallback.png)
 
-   Die Karussell-Komponente ist nicht mit allen E-Mail-Programmen kompatibel. Wenn das Karussell vom E-Mail-Programm nicht unterstützt wird, laden Sie ein Fallback-Bild hoch.
+Die Karussell-Komponente ist nicht mit allen E-Mail-Programmen kompatibel. Wenn das Karussell vom E-Mail-Programm nicht unterstützt wird, laden Sie ein Fallback-Bild hoch.
 
-   >[!NOTE]
-   >
-   >Die Karussell-Komponente ist mit den folgenden E-Mail-Plattformen kompatibel: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad und iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox und Safari).
+>[!NOTE]
+>
+>Die Karussell-Komponente ist mit den folgenden E-Mail-Plattformen kompatibel: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad und iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox und Safari).
 
 **Verwandte Themen**:
 
