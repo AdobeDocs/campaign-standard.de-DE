@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+translation-type: tm+mt
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1867'
+ht-degree: 99%
 
 ---
 
@@ -61,6 +64,7 @@ Das folgende Beispiel zeigt, wie eine E-Mail-Inhaltsvorlage erstellt wird.
 
    * Wählen Sie **[!UICONTROL Freigegeben]** oder **[!UICONTROL Versand]** in der Dropdown-Liste **[!UICONTROL Content-Typ]** aus.
    * Wählen Sie **[!UICONTROL Vorlage]** in der Dropdown-Liste **[!UICONTROL HTML-Typ]** aus.
+
    ![](assets/email_designer_create-template.png)
 
 1. Bei Bedarf können Sie ein Bild als Miniaturansicht für diese Vorlage festlegen. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** aus.
@@ -142,6 +146,11 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 
 ## Über Fragmente     {#about-fragments}
 
+>[!CONTEXTUALHELP]
+>id="ac_fragments"
+>title="Fragmente"
+>abstract="Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails referenziert werden kann."
+
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails referenziert werden kann.
 Fragmente finden Sie in der Benutzeroberfläche unter **Ressourcen** > **Inhaltsfragmente und Vorlagen**.
 
@@ -201,6 +210,7 @@ Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer ode
 
    * Da Fragmente nur mit E-Mails kompatibel sind, wählen Sie aus der Dropdown-Liste **[!UICONTROL Inhaltstyp]** die Option **[!UICONTROL Versand]** aus.
    * Wählen Sie aus der Dropdown-Liste **[!UICONTROL HTML-Typ]** die Option **[!UICONTROL Fragment]** aus, um diesen Inhalt als Fragment verwenden zu können.
+
    ![](assets/email_designer_createfragment.png)
 
 1. Bei Bedarf können Sie ein Bild als Miniaturansicht für dieses Fragment festlegen. Wählen Sie es in den Vorlageneigenschaften im Tab **[!UICONTROL Miniaturansicht]** aus.
@@ -291,19 +301,19 @@ Gehen Sie dazu wie folgt vor:
 1. Gehen Sie in Adobe Campaign zu **[!UICONTROL Ressourcen]** > **[!UICONTROL Inhaltsvorlagen und -fragmente]** und erstellen Sie ein Fragment für die Kopfzeile. Weiterführende Informationen dazu finden Sie im Abschnitt [Inhaltsfragment erstellen](#creating-a-content-fragment).
 1. Fügen Sie beliebig viele Strukturkomponenten zu diesem Fragment hinzu.
 
-![](assets/des_loading_compatible_fragment_1.png)
+   ![](assets/des_loading_compatible_fragment_1.png)
 
 1. Fügen Sie Bild- und Textkomponenten in Ihre Struktur ein.
 
-![](assets/des_loading_compatible_fragment_2.png)
+   ![](assets/des_loading_compatible_fragment_2.png)
 
 1. Laden Sie das entsprechende Bild hoch, geben Sie Ihren Text ein und passen Sie die Einstellungen an.
 
-![](assets/des_loading_compatible_fragment_3.png)
+   ![](assets/des_loading_compatible_fragment_3.png)
 
 1. Speichern Sie Ihr Fragment.
 1. Gehen Sie bei der Erstellung der Fußzeile analog vor und speichern Sie sie.
 
-![](assets/des_loading_compatible_fragment_4.png)
+   ![](assets/des_loading_compatible_fragment_4.png)
 
 Ihre Fragmente können jetzt in einer Vorlage verwendet werden.
