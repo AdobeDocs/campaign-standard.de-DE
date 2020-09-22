@@ -11,9 +11,9 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Im folgenden Abschnitt werden häufig gestellte Fragen zu dieser Synchronisation
 Weitere Informationen zu Push- oder In-App-Benachrichtigungen finden Sie in den folgenden häufig gestellten Fragen:
 
 * [Häufig gestellte Fragen zu Push-Benachrichtigungen](../../channels/using/about-push-notifications.md#push-faq)
-* [Häufig gestellte Fragen zu In-App-Nachrichten](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Häufig gestellte Fragen zu In-App-Nachrichten](../../channels/using/about-in-app-messaging.md#in-app-faq)
 * [Häufig gestellte Fragen zur Synchronisierung mit dem technischen Workflows für Launch](../../administration/using/syncwithlaunch-faq.md)
 
 ## Nützliche Ressourcen vor dem Start {#resource-mobile-property}
