@@ -12,18 +12,18 @@ discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 90%
 
 ---
 
 
 # Verteilung nach Domain{#breakdown-by-domains}
 
-Dieser Bericht enthält die Leistungsdaten für jede in einer Audience eines E-Mail-Versands vertretenen Domain. Wenn es sich um einen Kampagnen- oder Programmbericht handelt, sind die Leistungsdaten für mehrere Audiences verfügbar. Diese Daten ermöglichen insbesondere eine nach Domain durchgeführte Analyse in Bezug auf spezifische Ereignisse, beispielsweise die Link-Anzeige, auf die Blockierungsliste gesetzt URL usw.
+Dieser Bericht enthält die Leistungsdaten für jede in einer Audience eines E-Mail-Versands vertretenen Domain. Wenn es sich um einen Kampagnen- oder Programmbericht handelt, sind die Leistungsdaten für mehrere Audiences verfügbar. Diese Daten ermöglichen insbesondere eine nach Domain durchgeführte Analyse in Bezug auf spezifische Ereignisse, Beispielsweise Linkanzeige, URL auf Blockierungsliste usw.
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ Die zweite Tabelle **Trackingstatistiken** enthält die verfügbaren Daten bezü
 * **Klicken**: Die Anzahl der Klicks auf einen Inhalt in einem Versand.
 * **Abgemeldet**: Gesamtanzahl der Klicks auf den Abmelde-Link.
 * **Mirrorseite**: Die Anzahl der Klicks auf die Mirrorseite.
-* **Auf Blockierungsliste**: Zahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Auf Blockierungsliste**: Die Anzahl der Empfänger, die eine E-Mail als Spam oder Junk angemeldet haben. [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
