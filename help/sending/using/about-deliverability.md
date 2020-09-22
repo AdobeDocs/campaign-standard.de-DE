@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 99%
@@ -57,7 +57,7 @@ Lesen Sie zunächst den Abschnitt über die Zustellbarkeits-Tools von Campaign S
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
-* [Quarantäne und Blockierungsliste](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Quarantäne und Blockierungsliste](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 
 ## Prüfen der Netzwerkkonfiguration {#network-configuration}
