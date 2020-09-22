@@ -12,8 +12,11 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Marketingaktivitäten können entweder ausgehend von ihnen übergeordneten Progr
 
 Die Marketingaktivitätenliste enthält alle existierenden Aktivitäten, unabhängig von den Programmen oder Kampagnen, in denen sie erstellt wurden. Programme, Kampagnen, Sendungen (E-Mails, SMS und Push-Benachrichtigungen), Landingpages und Workflows werden ohne Berücksichtigung hierarchischer Strukturen gelistet.
 
-Wählen Sie den Link **[!UICONTROL Marketingaktivitäten]**aus der Symbolleiste am oberen Bildschirmrand aus, um auf die Liste der Marketingaktivitäten zuzugreifen.
+Wählen Sie den Link **[!UICONTROL Marketingaktivitäten]** aus der Symbolleiste am oberen Bildschirmrand aus, um auf die Liste der Marketingaktivitäten zuzugreifen.
 
 >[!NOTE]
 >
@@ -38,7 +41,7 @@ Das **[!UICONTROL Suche]**-Menü erlaubt die Filterung der angezeigten Elemente 
 
 Wählen Sie in der Liste eine Aktivität aus, um auf ihren Inhalt zugreifen zu können.
 
-Mit der Schaltfläche **[!UICONTROL Erstellen]**kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt[Marketingaktivitäten erstellen](#creating-a-marketing-activity).
+Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](#creating-a-marketing-activity).
 
 ## Symbole und Status von Marketingaktivitäten  {#marketing-activity-icons-and-statuses}
 
@@ -73,7 +76,7 @@ Ausgehend von einem Programm lassen sich weitere Programme, Kampagnen, Workflows
 
 Weiterführende Informationen zu Programmen und Kampagnen finden Sie im Abschnitt [Programme und Kampagnen](../../start/using/programs-and-campaigns.md).
 
-1. Gehen Sie zur Erstellung einer neuen Marketingaktivität in das Dashboard eines Programms oder einer Kampagne und fügen Sie mithilfe der Schaltfläche **[!UICONTROL Erstellen]**ein Element hinzu.
+1. Gehen Sie zur Erstellung einer neuen Marketingaktivität in das Dashboard eines Programms oder einer Kampagne und fügen Sie mithilfe der Schaltfläche **[!UICONTROL Erstellen]** ein Element hinzu.
 
    ![](assets/marketing_activiy_creation_1.png)
 
