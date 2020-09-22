@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 44%
@@ -157,13 +157,13 @@ Ausschlusswerte (z. B. Blockierungslisten) werden zwischen Systemen synchronisie
 Alternativ kann der Ausschluss-Datenfluss der Integration deaktiviert werden, wenn Sie über einen separaten Prozess zur Verwaltung der Abmeldesynchronisierung zwischen den Systemen verfügen.
 
 Die Abmeldezuordnung ist vom Kunden anzugeben, da die Geschäftsanforderungen je nach Firma unterschiedlich sein können.  Auf der Kampagne können nur die OOTB-Ausschluss-Attribute für die Abmeldezuordnung verwendet werden:
-* blockList
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* Blockierungsliste
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPushnotification
 * ccpaOptOut
 
 In Dynamics 365 haben die meisten Ausschluss-Felder das Präfix &quot;donot&quot;. Sie können jedoch auch andere Attribute für Ausschluss-Zwecke verwenden, wenn die Datentypen kompatibel sind.
