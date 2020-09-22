@@ -11,9 +11,9 @@ topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -28,11 +28,10 @@ ht-degree: 100%
 
 ![](assets/recurrentpush.png)
 
-Die Aktivität **[!UICONTROL Push-Benachrichtigung]** ermöglicht das Konfigurieren des Versands von Push-Benachrichtigungen innerhalb eines Workflows. Diese Benachrichtigung kann **einmalig** sein oder **wiederkehrend**.
+Die Aktivität **[!UICONTROL Push-Benachrichtigung]** ermöglicht das Konfigurieren des Versands von Push-Benachrichtigungen innerhalb eines Workflows. Diese Benachrichtigung kann einmalig sein oder wiederkehrend.
 
-Einmalige Benachrichtigungen sind standardmäßige Mobile-App-Push-Benachrichtigungen, die einmal gesendet werden.
-
-Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen Mobile-App-Push-Benachrichtigung über einen bestimmten Zeitraum an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
+* **Einmalige Benachrichtigungen sind standardmäßige Mobile-App-Push-Benachrichtigungen, die einmal gesendet werden.**
+* **Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen Mobile-App-Push-Benachrichtigung über einen bestimmten Zeitraum an verschiedene Zielgruppen.** Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
 ## Anwendungskontext     {#context-of-use}
 
