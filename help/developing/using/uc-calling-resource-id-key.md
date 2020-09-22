@@ -1,11 +1,11 @@
 ---
 title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
-translation-type: ht
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Es kann vorkommen, dass Sie für eine Ressource einen Identifikationsschlüssel definieren müssen, der aus zwei Feldern besteht. Nach der Konfiguration des Identifizierungsschlüssels müssen Sie eine Filterdefinition konfigurieren, um die Ressource mit diesem Identifizierungsschlüssel entweder über die Campaign Standard-Benutzeroberfläche oder über APIs aufrufen zu können.
 
-In unserem Beispiel wurde die Ressource **Profil** mit den benutzerdefinierten Feldern **&quot;CRM ID&quot;** und **&quot;Kategorie&quot;** erweitert. Wir erstellen zuerst einen Identifizierungsschlüssel für die Ressource &quot;Profil&quot; bestehend aus diesen beiden Feldern. Anschließend konfigurieren wir eine Filterdefinition, damit wir mithilfe des Identifizierungsschlüssels auf die Ressource &quot;Profil&quot; zugreifen können.
+In this use case, the **Profile** resource has been extended with custom **&quot;CRM ID&quot;** and **&quot;category&quot;** fields. Wir erstellen zuerst einen Identifizierungsschlüssel für die Ressource &quot;Profil&quot; bestehend aus diesen beiden Feldern. Anschließend konfigurieren wir eine Filterdefinition, damit wir mithilfe des Identifizierungsschlüssels auf die Ressource &quot;Profil&quot; zugreifen können.
 
 Dies sind die Schritte für diesen Anwendungsfall:
 
@@ -76,7 +76,7 @@ Verwandte Themen:
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Durch Auswahl der Plusschaltfläche wird der Parametername automatisch generiert. Notieren Sie sich diese Informationen, da Sie sie benötigen, um den Filter in den APIs zu verwenden.
+   > Once you have clicked the **+** button, the parameter&#39;s name is automatically generated. Notieren Sie sich diese Informationen, da Sie sie benötigen, um den Filter in den APIs zu verwenden.
 
 1. Wiederholen Sie die obigen Schritte mit allen Feldern des Identifizierungsschlüssels (&quot;Kategorie&quot;) und speichern Sie dann Ihre Änderungen.
 
