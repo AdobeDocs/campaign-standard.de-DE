@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 95%
+source-wordcount: '906'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
 1. Geben Sie die Eigenschaften der Push-Benachrichtigung ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]** die entsprechende Mobile App aus.
 
-   Bitte beachten Sie, dass in der Dropdown-Liste sowohl SDK V4- als auch Experience Platform SDK-Anwendungen enthalten sind.
+   Beachten Sie, dass in der Dropdown-Liste sowohl SDK V4- als auch Experience Platform SDK-Anwendungen angezeigt werden.
 
    ![](assets/push_notif_properties.png)
 
@@ -102,7 +102,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
 1. Im Tab **[!UICONTROL Ausschlusslogs]** befinden sich die Liste aller vom Versand an die Zielgruppe ausgeschlossenen Nachrichten sowie der Ausschlussgrund.
 
-   Hier können wir sehen, dass einer unserer App-Abonnenten ausgeschlossen wurde, weil die Adresse auf die Blockierungsliste gesetzt wurde, und die anderen Abonnenten, weil das Profil ein Duplikat war.
+   Hier können wir sehen, dass einer unserer App-Abonnenten ausgeschlossen wurde, weil die Adresse auf der Blockierungsliste war, und die anderen Abonnenten, weil das Profil ein Duplikat war.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
    ![](assets/push_send_4.png)
 
-1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann von weiteren Versänden zur Ablehnungsliste hinzugefügt.
+1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann von weiteren Versänden zur Blockierungsliste hinzugefügt.
 
    >[!NOTE]
    >
