@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1833'
-ht-degree: 99%
+source-wordcount: '1821'
+ht-degree: 97%
 
 ---
 
@@ -71,9 +71,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 
 Mit Zielgruppendimensionen und Ressourcen können Sie definieren, auf welchen Elementen eine Abfrage basieren soll, um die Zielgruppe eines Versands zu bestimmen.
 
-Zielgruppendimensionen werden in Zielgruppen-Mappings definiert. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/target-mappings-in-campaign.md).
-
-Die Zielgruppendimension und die Ressourcen werden bei der Erstellung eines Workflows im Tab **[!UICONTROL Eigenschaften]** der Abfrageaktivität definiert.
+Sie werden in [Zielgruppen-Mappings](../../administration/using/target-mappings-in-campaign.md)konfiguriert und beim Erstellen eines Workflows auf der Registerkarte &quot; **[!UICONTROL Eigenschaften]** &quot;einer Abfrage-Aktivität definiert.
 
 >[!NOTE]
 >
