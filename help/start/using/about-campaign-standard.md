@@ -11,11 +11,11 @@ topic-tags: about-adobe-campaign
 discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ Mit in **Campaign integrierten Kundenprofilen** können Sie jede Interaktion mit
 
 Planen, koordinieren und organisieren Sie kanalübergreifende Kampagnen.
 
-**Optimieren Sie die Organisation Ihrer Marketing-Pläne**, indem Sie Programme und Kampagnen erstellen. Analysieren Sie die Auswirkungen Ihrer Marketing-Kampagnen mithilfe von Berichten. Organisieren Sie Ihre Kampagnen mit mehreren Marketing-Aktivitäten, die über eine gemeinsame Benutzeroberfläche zugänglich sind, und richten Sie Vorlagen für Marketing-Aktivitäten ein, um Zeit zu sparen. [Erste Schritte mit Marketing-Plänen und -Aktivitäten](../../start/using/programs-and-campaigns.md)
+**Optimieren Sie die Organisation Ihrer Marketing-Pläne**, indem Sie Programme und Kampagnen erstellen. Analysieren Sie die Auswirkungen Ihrer Marketing-Kampagnen mithilfe von Berichten. Organisieren Sie Ihre Kampagnen mit mehreren Marketing-Aktivitäten, auf die Sie über eine einzige Oberfläche zugreifen können, und richten Sie Vorlagen für Marketing-Aktivitäten ein, um Zeit zu sparen. [Erste Schritte mit Marketing-Plänen und -Aktivitäten](../../start/using/programs-and-campaigns.md)
 
 **Nutzen Sie Workflows**, um Ihre Kampagnen zu organisieren und zu automatisieren. [Erste Schritte mit Prozessen und Daten-Management](../../automating/using/get-started-workflows.md)
 
@@ -66,12 +66,12 @@ Entwerfen und senden Sie Nachrichten über Online- und Offline-Kommunikationskan
 
 <img width="60px" alt="Bedingungen" src="assets/icon_report.svg"/>
 
-Sobald Marketing-Kampagnen ausgeführt und die verschiedenen Nachrichten gesendet wurden, können Sie sie mit Campaign Standard überwachen, um ihre Wirkung sowie das Verhalten ihrer Empfänger zu verfolgen.
+Sobald Marketingmeldungen ausgeführt und die verschiedenen Kampagnen gesendet wurden, können Sie mit Campaign Standard deren Auswirkungen und das Verhalten der Empfänger verfolgen.
 
 **Überwachen Sie Ihre Sendungen** nach dem Versand. Nutzen und exportieren Sie detaillierte Protokolle zu Ihren Sendungen. Rufen Sie für jeden Empfänger Informationen zu seinem Status, die aus der Zielgruppe ausgeschlossenen Nachrichten und viele weitere Metriken ab.
-Nutzen Sie die Versandwarnungsfunktion, um Zustellerfolge oder -fehler durch E-Mail-Benachrichtigungen zu verfolgen. Möchten Sie mehr erfahren? [Erste Schritte mit der Überwachung von Nachrichten](../../sending/using/monitoring-a-delivery.md)
+Nutzen Sie die Versand-Warnfunktion, um Erfolge oder Fehler von Versänden durch E-Mail-Benachrichtigungen zu verfolgen. Möchten Sie mehr erfahren? [Erste Schritte mit der Überwachung von Nachrichten](../../sending/using/monitoring-a-delivery.md)
 
-**Verfolgen Sie das Verhalten der Empfänger Ihres Versands**. Nutzen Sie Sitzungs- und permanente Cookies, um Tracking-Informationen zu jedem Ihrer Kontakte in Ihrer Datenbank abzurufen. Überwachen Sie die Tracking-Informationen zu Sendungen (angeklickte URLs, Mirrorseiten, geöffnete Nachrichten usw.) über dedizierte Protokolle und Berichte. [Erste Schritte mit dem Tracking von Nachrichten](../../sending/using/tracking-messages.md)
+**Verfolgen Sie das Verhalten Ihrer Versand-Empfänger**. Nutzen Sie Sitzungs- und permanente Cookies, um Tracking-Informationen zu jedem Ihrer Kontakte in Ihrer Datenbank abzurufen. Überwachen Sie Verfolgungsinformationen zu Versänden (angeklickte URLs, Mirrorseiten, geöffnete Nachrichten usw.) mithilfe von dedizierten Protokollen und Berichten. [Erste Schritte mit dem Tracking von Nachrichten](../../sending/using/tracking-messages.md)
 
 **Verwenden Sie dynamische Berichte**, um spezifische Metriken in Bezug auf Ihre Nachricht oder Kampagne zu entwerfen. Dynamische Berichte bieten vollständig anpassbare und in Echtzeit erstellte Berichte, die Zugriff auf Profildaten bieten und demografische Analysen nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach funktionalen E-Mail-Kampagnendaten wie Öffnungen und Klicks ermöglichen. Mit der Drag &amp; Drop-Funktion können Sie Daten analysieren sowie feststellen, wie Ihre E-Mail-Kampagnen bei Ihren wichtigsten Kundensegmenten angekommen sind, und ihre Wirkung auf die Empfänger messen. [Erste Schritte mit dynamischen Berichten](../../reporting/using/about-dynamic-reports.md)
 
