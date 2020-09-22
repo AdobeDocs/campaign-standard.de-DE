@@ -12,8 +12,11 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ Administratoren können Packages definieren, mit denen der Austausch von Ressour
 
 Sie kommen insbesondere zur Replikation von Daten oder Parametern auf andere Server bzw. Instanzen zur Anwendung.
 
-Packages sind über das Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Freigabe]** &gt; **[!UICONTROL Package-Exporte]** oder **[!UICONTROL Package-Importe]** verfügbar. Die Funktionen der beiden Menüs stimmen weitestgehend überein.
+Packages sind über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Freigabe]** > **[!UICONTROL Package-Exporte]** oder **[!UICONTROL Package-Importe]** verfügbar. Die Funktionen der beiden Menüs stimmen weitestgehend überein.
 
 Die einzelnen Elemente der Export- oder Importliste werden standardmäßig in absteigender chronologischer Reihenfolge in Bezug auf die letzte Änderung oder Installation angezeigt.
 
@@ -40,9 +43,11 @@ Klicken Sie zur Anzeige und Bearbeitung des Inhalts eines Elements auf dessen Ti
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe-Campaign-Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert "SDM" bzw. "sdm" enthält. Wenn Sie versuchen, Packages zu exportieren, die Standard-Kennungen enthalten, wird beispielsweise folgender Fehler angezeigt: "Die Entität vom Typ 'Marken (Branding)' verwendet eine Standard-Kennung ('BRD1'), die beim Package-Import einen Konflikt auslösen könnte. Ändern Sie die Kennung und wiederholen Sie den Vorgang."
+>Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe-Campaign-Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert &quot;SDM&quot; bzw. &quot;sdm&quot; enthält.
+>
+>Wenn Sie versuchen, Packages zu exportieren, die Standard-Kennungen enthalten, wird beispielsweise folgender Fehler angezeigt: &quot;Die Entität vom Typ &#39;Marken (Branding)&#39; verwendet eine Standard-Kennung (&#39;BRD1&#39;), die beim Package-Import einen Konflikt auslösen könnte. Ändern Sie die Kennung und wiederholen Sie den Vorgang.&quot;
 
 Der Package-Export wird im Abschnitt [Package exportieren](#exporting-a-package) beschrieben.
 
@@ -61,7 +66,7 @@ Zum Export bestimmter Datensätze müssen Sie ein Package erstellen.
 
 Zur Erstellung eines Packages benötigen Sie Administratorrechte.
 
-1. Wählen Sie in **[!UICONTROL Administration]** &gt; **[!UICONTROL Freigabe]** &gt; **[!UICONTROL Package-Exporte]** in der Liste der Package-Definition die **[!UICONTROL Erstellen]**-Schaltfläche.
+1. Wählen Sie in **[!UICONTROL Administration]** > **[!UICONTROL Freigabe]** > **[!UICONTROL Package-Exporte]** in der Liste der Package-Definition die **[!UICONTROL Erstellen]**-Schaltfläche.
 
    Das Element wird sofort erstellt. Sollten Sie das Package doch nicht benötigen, müssen Sie es in der Liste ankreuzen und wie zuvor beschrieben löschen.
 
@@ -100,13 +105,13 @@ Durch den Export von Packages können Sie einen bestimmten Status einer Ressourc
 
 >[!CAUTION]
 >
->Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe-Campaign-Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert "SDM" bzw. "sdm" enthält.
+>Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe-Campaign-Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert &quot;SDM&quot; bzw. &quot;sdm&quot; enthält.
 
-1. Wählen Sie in **[!UICONTROL Administration]** &gt; **[!UICONTROL Freigabe]** &gt; **[!UICONTROL Package-Exporte]** ein Package, um dessen Details anzuzeigen.
+1. Wählen Sie in **[!UICONTROL Administration]** > **[!UICONTROL Freigabe]** > **[!UICONTROL Package-Exporte]** ein Package, um dessen Details anzuzeigen.
 1. Prüfen Sie, ob das Package die gewünschten Daten enthält.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Export starten]**.
 
-Die exportierte Datei wird im Download-Verzeichnis des verwendeten Browsers gespeichert. Die Benennung erfolgt automatisch in "package_xxx.xml", wobei "xxx" der Kennung des Packages entspricht.
+Die exportierte Datei wird im Download-Verzeichnis des verwendeten Browsers gespeichert. Die Benennung erfolgt automatisch in &quot;package_xxx.xml&quot;, wobei &quot;xxx&quot; der Kennung des Packages entspricht.
 
 Nach Abschluss des Vorgangs werden weitere Informationen angezeigt:
 
@@ -144,7 +149,7 @@ Ein Administrator kann ein zuvor aus einer Adobe-Campaign-Instanz exportiertes P
 
 Der manuelle Package-Import erfolgt in zwei Schritten: Eine Datei muss zunächst hochgeladen werden, bevor ihr Inhalt importiert werden kann.
 
-1. Wählen Sie in **[!UICONTROL Administration]** &gt; **[!UICONTROL Freigabe]** &gt; **[!UICONTROL Package-Importe]** in der Liste der Package-Importe die **[!UICONTROL Erstellen]**-Schaltfläche.
+1. Wählen Sie in **[!UICONTROL Administration]** > **[!UICONTROL Freigabe]** > **[!UICONTROL Package-Importe]** in der Liste der Package-Importe die **[!UICONTROL Erstellen]**-Schaltfläche.
 
    Das Element wird sofort erstellt. Sollten Sie das Package doch nicht benötigen, müssen Sie es in der Liste ankreuzen und wie zuvor beschrieben löschen.
 
