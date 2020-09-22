@@ -12,10 +12,10 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 81%
+source-wordcount: '329'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 
 Ein Benutzer kann von einem Empfänger direkt im Profil-Tab **[!UICONTROL Allgemein]** an- oder abgemeldet werden.
 
-In the **[!UICONTROL No longer contact (denylisted)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Wählen Sie die Kanäle entsprechend den Anforderungen des Empfängers aus.
+In the **[!UICONTROL No longer contact (on denylist)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Wählen Sie die Kanäle entsprechend den Anforderungen des Empfängers aus.
 
 ![](assets/optin_landingpage_3.png)
 
