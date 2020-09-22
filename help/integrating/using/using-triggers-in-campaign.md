@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
+workflow-type: tm+mt
+source-wordcount: '765'
+ht-degree: 87%
 
 ---
 
@@ -50,18 +50,35 @@ Gehen Sie hierzu wie folgt vor:
 
    ![](assets/remarketing_4.png)
 
-1. Verwenden Sie die **[!UICONTROL Publizieren]**-Schaltfläche, um die Publikation des Trigger-Ereignisses zu starten.
+1. Sie können Ihre Auslöser jetzt veröffentlichen. Weitere Informationen finden Sie unter [Veröffentlichen eines Auslösers in der Kampagne](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+
+## Veröffentlichen eines Auslösers in der Kampagne {#publishing-trigger-in-campaign}
+
+Nachdem Sie ein auslösendes Ereignis in Adobe Campaign erstellt haben, das auf einem vorhandenen Adobe Experience Cloud-Auslöser basiert, müssen Sie es jetzt veröffentlichen.
+
+1. Klicken Sie von Ihrem zuvor erstellten Auslöser auf die Schaltfläche &quot; **[!UICONTROL Veröffentlichen]** &quot;, um das auslösende Ereignis vom Beginn zu veröffentlichen.
+
+   ![](assets/trigger_publish_1.png)
+
+1. Sie können den Fortschritt Ihrer auslösenden Veröffentlichung unter **[!UICONTROL Veröffentlichung]**&#x200B;überprüfen.
+
+   ![](assets/trigger_publish_2.png)
+
+1. Nach der Veröffentlichung wird unter &quot; **[!UICONTROL Veröffentlichung]**&quot;die folgende Meldung angezeigt.
+
+   ![](assets/trigger_publish_3.png)
+
 1. Wenn Sie nach dem Publizieren Ihres Trigger-Ereignisses das Trigger-Schema verändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Schema aktualisieren]** aus, um die letzten Änderungen abzurufen.
 
    Bitte beachten Sie, dass durch diese Aktion Ihr Trigger und Ihre Transaktionsnachricht depubliziert werden und Sie diese danach wieder publizieren müssen.
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-Mithilfe der Schaltfläche **[!UICONTROL Trigger in Experience Cloud anzeigen]** können Sie die Trigger-Definition in Adobe Experience Cloud einsehen.
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsvorlage erzeugt. Diese Vorlage muss nun bearbeitet und publiziert werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen bearbeiten](../../start/using/marketing-activity-templates.md).
 
-## Transaktionsnachrichtenvorlage bearbeiten   {#editing-the-transactional-message-template}
+## Transaktionsnachrichtenvorlage bearbeiten    {#editing-the-transactional-message-template}
 
 Im Zuge der Erstellung und Publikation des Trigger-Ereignisses wird die entsprechende Transaktionsvorlage automatisch erstellt. Lesen Sie diesbezüglich auch den Abschnitt [In Campaign einen gemappten Trigger erstellen](#creating-a-mapped-trigger-in-campaign).
 
