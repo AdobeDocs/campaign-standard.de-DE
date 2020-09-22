@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 98%
+source-wordcount: '1115'
+ht-degree: 93%
 
 ---
 
@@ -73,12 +73,15 @@ Weiterführende Informationen finden Sie im Abschnitt zum [Ausführen von Workfl
 
 Mit den Eigenschaften des Workflows können Sie eine bestimmte Zeitzone definieren, die standardmäßig in allen zugehörigen Aktivitäten verwendet wird. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
 
-
 ## Aktivität{#activity}
+
+### Anzahl der Aktivitäten pro Workflow {#number-activities}
+
+Es wird empfohlen, bis zu 100 Aktivitäten in einem Arbeitsablauf zu verwenden. Über 100 Aktivitäten kann es bei der Entwicklung und Konfiguration des Workflows zu Leistungseinbußen kommen.
 
 ### Workflow-Erstellung
 
-Um sicherzustellen, dass der Workflow ordnungsgemäß beendet wird, verwenden Sie die Aktivität **[!UICONTROL Ende]**. Beenden Sie den Workflow nicht mit einer Transition.
+Um sicherzustellen, dass der Workflow ordnungsgemäß beendet wird, sollten Sie die letzte Transition eines Workflows nicht allein mit einer **[!UICONTROL End-Aktivität]** belassen.
 
 Um zur Detailansicht der Transitionen zu gelangen, aktivieren Sie im Abschnitt zur Ausführung der Workflow-Eigenschaften die Option **[!UICONTROL Zwischenergebnis festhalten]**.
 
