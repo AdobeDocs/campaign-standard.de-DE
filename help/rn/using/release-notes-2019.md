@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '7628'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
+source-wordcount: '7630'
+ht-degree: 99%
 
 ---
 
@@ -617,7 +617,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt tritt im Abfrageeditor bei der Join-Bedingung zwischen Broadlog und Trackinglog für rtEvent kein Fehler mehr auf. (CAMP-28780)
 * Fehlerkorrektur – Jetzt können Änderungen an der Landingpage &quot;Spezifische Aktionen&quot; gespeichert werden. (CAMP-29422)
 * Fehlerkorrektur – Jetzt kann die Payload eines Ereignisses in einem Workflow exportiert werden. (CAMP-29029)
-* Fehlerkorrektur – Auf der Blockierungsliste stehende SMS-Nummern können jetzt von einer SMS-Nachricht ausgeschlossen werden. (CAMP-28898)
+* Es wurde ein Fehler behoben, der verhinderte, dass SMS-Nummern auf der Blockierungsliste in einer SMS-Nachricht ausgeschlossen wurden. (CAMP-28898)
 * Fehlerkorrektur – SMPP-Anbieter können jetzt im Fall eines Fehlers bei der Verarbeitung eingehender Nachrichten benachrichtigt werden. (CAMP-29804)
 * Fehlerkorrektur – Externe Konten mit damit verbundenen Sendungen können jetzt nicht mehr gelöscht werden. (CAMP-29738)
 * Der Versanddurchsatz für SMS-Nachrichten wurde verbessert und ist jetzt stabiler.
