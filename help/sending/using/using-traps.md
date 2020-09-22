@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -67,4 +67,4 @@ Beim Senden von Transaktionsnachrichten können Traps verwendet werden. In diese
 
 >[!NOTE]
 >
->Bei Verwendung eines Testprofils als Falle werden die entsprechenden zusätzlichen Daten für alle angereicherten Felder in einer Nachricht nach dem Zufallsprinzip aus einem echten Zielgruppenprofil ausgewählt und dem Fallen-Testprofil zugewiesen. Weiterführende Informationen zur Anreicherung finden Sie in [diesem Beispiel](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>Bei Verwendung eines Testprofils als Falle werden die entsprechenden zusätzlichen Daten für alle angereicherten Felder in einer Nachricht nach dem Zufallsprinzip aus einem echten Zielgruppenprofil ausgewählt und dem Fallen-Testprofil zugewiesen. Weiterführende Informationen zur Anreicherung finden Sie in [diesem Beispiel](../../automating/using/enriching-profile-data-file.md).
