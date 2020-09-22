@@ -13,9 +13,9 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ebded956ef52bb742160d62ebbd8095c390d51c
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '296'
 ht-degree: 96%
 
 ---
@@ -41,7 +41,11 @@ Mögliche Optionen sind:
 
 * **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Hier können Sie die SQL-Abfragen aus dem Workflow in den Protokollen speichern.
 
-* ]**Zwischenergebnis festhalten**[!UICONTROL : Aktivieren Sie die diese Option, wenn Sie die Detailansicht der Transitionen visualisieren können möchten. Achtung: Durch das Aktivieren dieser Option kann sich die Ausführung des Workflows stark verlangsamen.
+* ]**Zwischenergebnis festhalten**[!UICONTROL : Aktivieren Sie die diese Option, wenn Sie die Detailansicht der Transitionen visualisieren können möchten.
+
+   >[!CAUTION]
+   >
+   >Diese Option belegt viel Speicherplatz. Sie hilft Ihnen aber bei der Erstellung eines Workflows, dessen Konfiguration und Verhalten fehlerfrei sind. Aktivieren Sie sie nicht bei Produktionsinstanzen.
 
 * **[!UICONTROL In der Engine ausführen (nicht im Produktionsmodus benutzen)]**: Ermöglicht Ihnen, den Workflow lokal auszuführen, um die Entwicklungsumgebung zu testen.
 
