@@ -11,9 +11,9 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -78,33 +78,33 @@ Sie können Ihrer E-Mail verschiedene Inhaltskomponenten wie Bild, Text und Scha
 
 * **Bild**
 
-1. Ziehen Sie aus **Inhaltskomponenten** die Bildkomponente in eine Ihrer Strukturkomponenten.
-1. Klicken Sie auf **Durchsuchen**.
-1. Wählen Sie die gewünschte Bilddatei aus Ihrem Dateisystem aus.
+   1. Ziehen Sie aus **Inhaltskomponenten** die Bildkomponente in eine Ihrer Strukturkomponenten.
+   1. Klicken Sie auf **Durchsuchen**.
+   1. Wählen Sie die gewünschte Bilddatei aus Ihrem Dateisystem aus.
 
-![](assets/browse-image-quick-start.png)
+   ![](assets/browse-image-quick-start.png)
 
 * **Text mit Personalisierung**
 
-1. Ziehen Sie aus **Inhaltskomponenten** die Textkomponente in eine Ihrer Strukturkomponenten.
-1. Klicken Sie auf die Komponente und geben Sie den gewünschten Text ein.
-1. Zum Hinzufügen eines Personalisierungsfelds klicken Sie in der Symbolleiste auf **Personalisierungsfeld einfügen**.
-1. Wählen Sie das gewünschte Feld aus, zum Beispiel „Vorname“.
+   1. Ziehen Sie aus **Inhaltskomponenten** die Textkomponente in eine Ihrer Strukturkomponenten.
+   1. Klicken Sie auf die Komponente und geben Sie den gewünschten Text ein.
+   1. Zum Hinzufügen eines Personalisierungsfelds klicken Sie in der Symbolleiste auf **Personalisierungsfeld einfügen**.
+   1. Wählen Sie das gewünschte Feld aus, zum Beispiel „Vorname“.
 
-![](assets/edit-text-quick-start.png)
+   ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-1. Ziehen Sie aus **Inhaltskomponenten** die HTML-Komponente in eine Ihrer Strukturkomponenten.
-1. Klicken Sie auf **Quellcode anzeigen**.
-1. Geben Sie den gewünschten HTML-Inhalt ein.
-1. Wählen Sie **Speichern** aus.
+   1. Ziehen Sie aus **Inhaltskomponenten** die HTML-Komponente in eine Ihrer Strukturkomponenten.
+   1. Klicken Sie auf **Quellcode anzeigen**.
+   1. Geben Sie den gewünschten HTML-Inhalt ein.
+   1. Wählen Sie **Speichern** aus.
 
-![](assets/html-component-source-code.png)
+   ![](assets/html-component-source-code.png)
 
-Wenn Sie HTML-Kenntnisse haben, können Sie den HTML-Code mit der **[!UICONTROL HTML]**-Inhaltskomponente aus der Original-Fußzeile kopieren und einfügen. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Inhaltskomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
+   Wenn Sie HTML-Kenntnisse haben, können Sie den HTML-Code mit der **[!UICONTROL HTML]**-Inhaltskomponente aus der Original-Fußzeile kopieren und einfügen. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Inhaltskomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 
-![](assets/des_loading_compatible_fragment_9.png)
+   ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Gestalten Ihrer E-Mail-Komponente
 
