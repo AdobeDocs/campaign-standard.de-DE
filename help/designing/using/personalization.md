@@ -11,11 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: ht
-source-wordcount: '2678'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+workflow-type: tm+mt
+source-wordcount: '2712'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachr
 * Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](#adding-a-content-block).
 * Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](#personalizing-the-sender).
 * Betreff einer E-Mail personalisieren. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#subject-line).
-* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email).
+* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email)..
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
@@ -228,6 +228,11 @@ Derartige Bedingungen nehmen die Syntax von XTK-Ausdrücken an (z. B. **context
 
 ### Dynamische Inhalte in einer E-Mail definieren{#defining-dynamic-content-in-an-email}
 
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="Dynamische Inhalte definieren"
+>abstract="Definieren Sie unterschiedliche Inhalte für Ihre Empfänger entsprechend den im Ausdruck-Editor definierten Regeln."
+
 Es besteht die Möglichkeit, für eine E-Mail multiple Inhalte zu erstellen, die in Abhängigkeit von mithilfe des Ausdruckseditors definierten Bedingungen den Empfängern dynamisch angezeigt werden. So kann beispielsweise jedem Profil je nach seiner Altersgruppe ein abweichender Inhalt angezeigt werden.
 
 Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtbarkeitsbedingungen](#defining-a-visibility-condition).
@@ -329,6 +334,11 @@ Gehen Sie bei der E-Mail-Erstellung wie folgt vor:
    Weiterführende Informationen zum Hinzufügen und Konfigurieren der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](#inserting-a-personalization-field).
 
 ### Illustrationen konfigurieren {#configuring-images}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Verwalten dynamischer Bilder"
+>abstract="Personalisieren Sie Ihre E-Mail mit dynamischen Bildern gemäß den im Ausdruck-Editor definierten Regeln."
 
 Gehen Sie wie folgt vor:
 
