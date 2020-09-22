@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 93%
+source-wordcount: '613'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Verwalten Sie die Berechtigungen und Einverständniserklärungen der Kunden mith
 
 Bei der Erstellung von Kampagnen oder Nachrichten kann die Versandzielgruppe aus in der Campaign-Datenbank vorhandenen Kontakten nach einfachen oder erweiterten Kriterien oder durch die Auswahl von Audiences zusammengestellt werden.
 
-Mit **integrierten Kundenprofilen** und **benutzerdefinierten Segmenten** können Sie Kunden auf allen Ihren Kanälen effektiver identifizieren. Wenn Sie Ihre Kunden, deren Interessen, demografische Daten und Kanalpräferenzen kennen, ist es einfacher, personalisierte, ansprechende Erlebnisse zu erstellen.
+Identify customers more effectively across all your channels using **integrated customer profiles**, **customized segments** and **control groups**. Wenn Sie Ihre Kunden, deren Interessen, demografische Daten und Kanalpräferenzen kennen, ist es einfacher, personalisierte, ansprechende Erlebnisse zu erstellen.
 
 In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch Sie relevante und personalisierte Angebote entsprechend den Präferenzen Ihrer Kunden versenden können. Zusätzlich verfügt Adobe Campaign zur Definition von Audiences über erweiterte Funktionen zur Analyse, Datenverwaltung und Zielgruppenbestimmung.
 
@@ -57,6 +57,7 @@ Mehr dazu:
 * [Anreicherung der Campaign-Datenbank](../../audiences/using/enriching-campaign-database.md)
 * [Über Audiences](../../audiences/using/about-audiences.md)
 * [Audience in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
 
 ## Berechtigungen und Einverständniserklärungen {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign bietet eine Reihe von Tools, die Sie bei der **Einhaltung von Dat
 
 In diesem [Artikel](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html) erfahren Sie mehr über die Datenschutzverwaltung und die Funktionen, die wir zur Verwaltung von Recht auf Zugriff, Recht auf Vergessenwerden, Einwilligung, Datenspeicherung und Benutzerrollen bereitstellen.
 
-Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werden in [diesem Abschnitt](../../start/using/privacy.md) vorgestellt.
-
-Darüber hinaus finden Sie Best Practices, die Ihnen bei der Einhaltung Ihrer Datenschutzbestimmungen helfen, wenn Sie unseren Service nutzen.
+Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werden in [diesem Abschnitt](../../start/using/privacy.md) vorgestellt. Darüber hinaus finden Sie Best Practices, die Ihnen bei der Einhaltung Ihrer Datenschutzbestimmungen helfen, wenn Sie unseren Service nutzen.
 
 ## Zusätzliche Ressourcen
 
