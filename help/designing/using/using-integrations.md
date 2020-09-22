@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+translation-type: tm+mt
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 92%
 
 ---
 
@@ -42,6 +45,15 @@ Diese Funktion wird im Detail im [Dreamweaver-Handbuch](https://helpx.adobe.com/
 ## Inhalt in Adobe Experience Manager bearbeiten {#editing-content-in-experience-manager}
 
 Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-Nachrichten in Adobe Campaign Standard verwendet werden. In [diesem Dokument](../../integrating/using/integrating-with-experience-manager.md) erfahren Sie mehr dazu.
+
+## Produktlisten {#product-listing}
+
+>[!CONTEXTUALHELP]
+>id="ac_product_listing"
+>title="Verwenden von Produktauflistungen"
+>abstract="Mit den Produktauflistungen können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen."
+
+Mit den Produktauflistungen können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen. Diese Auflistungen stehen für transaktionale E-Mails zur Verfügung. Einen speziellen Abschnitt zu dieser Funktion finden Sie [hier](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
 ## Funktionen zur E-Mail-Erstellung im Vergleich    {#email-design-options-comparison}
 
