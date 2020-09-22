@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Weiterführende Informationen finden Sie [in diesem Abschnitt](../../sending/usi
 
 Mit Testsendungen können Sie den Abmelde-Link, die Mirrorseite und andere Links testen, die Nachricht validieren, die Anzeige von Bildern überprüfen, mögliche Fehler erkennen etc. Außerdem können Sie Ihr Design und die Darstellung auf verschiedenen Geräten testen.
 
-Learn more [[in this section](../../sending/using/sending-proofs.md).
+Weiterführende Informationen finden Sie [in diesem Abschnitt](../../sending/using/sending-proofs.md).
 
 ## Einrichten von A/B-Test-Sendungen {#a-b-testing-deliveries}
 
