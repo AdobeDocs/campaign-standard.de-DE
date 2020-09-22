@@ -12,9 +12,9 @@ discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 100%
 
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-Die **[!UICONTROL SMS-Versandaktivität]** ermöglicht den Versand von SMS innerhalb eines Workflows. Dabei kann es sich um Standard-SMS handeln, **die nur einmal gesendet werden**, oder um **wiederkehrende Versandaktionen**.
+Die **[!UICONTROL SMS-Versandaktivität]** ermöglicht den Versand von SMS innerhalb eines Workflows. Dabei kann es sich um Standard-SMS handeln, die nur einmal gesendet werden, oder um wiederkehrende Versandaktionen.
 
-Bei einmaligen Versandaktionen handelt es sich um Standard-SMS, die nur einmal gesendet werden.
-
-Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen SMS an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
+* **Bei einmaligen Versandaktionen handelt es sich um Standard-SMS, die nur einmal gesendet werden.**
+* **Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen SMS an verschiedene Zielgruppen.** Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
 ## Anwendungskontext     {#context-of-use}
 
