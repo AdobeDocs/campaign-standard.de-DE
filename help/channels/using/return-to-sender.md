@@ -12,10 +12,10 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 87%
+source-wordcount: '227'
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ Eine Importvorlage ist verfügbar unter **[!UICONTROL Adobe Campaign > Ressource
 
 Nach Abschluss des Imports führt Adobe Campaign automatisch die folgenden Aktionen aus:
 
-* Falsche Adressen werden auf Profil-Ebene auf die Blockierungsliste gesetzt
+* Falsche Adressen werden der Blockierungsliste- auf Profil-Ebene hinzugefügt
 * Die wichtigsten Versandindikatoren (KPIs) werden aktualisiert.
 * Die Versandlogs werden aktualisiert.
 
