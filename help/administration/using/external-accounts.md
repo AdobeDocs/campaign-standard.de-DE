@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 96%
+source-wordcount: '1832'
+ht-degree: 85%
 
 ---
 
@@ -35,6 +35,7 @@ Die folgenden externen Konten können eingerichtet werden:
 * Adobe Analytics. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#google-recaptcha-external-account).
 * Microsoft Azure Blob Storage. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#microsoft-azure-external-account).
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ SFTP-Server können über das Control Panel verwaltet werden. Weitere Informatio
 >
 >Das Control Panel ist nur für Admin-Benutzer von Kunden verfügbar, die auf AWS gehostet werden.
 Überprüfen Sie [hier](https://docs.adobe.com/content/help/de-DE/control-panel/using/faq.html#ims-org-id), ob Ihre Instanz auf AWS gehostet wird.
+
+## OAuth 2.0-Konto {#oauth-account}
+
+Geben Sie für ein OAuth 2.0-Externe Konto die folgenden Details an:
+
+* Ein **Fördertyp**: Nur **Clientberechtigungen** werden unterstützt.
+* Eine **sichere API-URL**: Geben Sie den Autorisierungsendpunkt ein.
+* **Für OAuth 2.0 vertrauliche Anmeldeinformationen**: Dieser Abschnitt ist für Berechtigungen gedacht, die naturgemäß sensibel sind. Berechtigungswerte werden nach dem Hinzufügen auf dem Bildschirm maskiert. an diesem Punkt sind sie weder lesbar noch bearbeitbar. Wenn für den Autorisierungs-Endpunkt eine bestimmte Berechtigung in den HTTP-Autorisierungs-Header anstelle des Body-Parameters der POST eingefügt werden muss, können Sie die Option In Kopfzeile einschließen für diese Berechtigung auswählen.
+* **Nicht vertrauliche OAuth 2.0-Anmeldeinformationen**: Dieser Abschnitt ist für Berechtigungen gedacht, die naturgemäß nicht sensibel sind. Berechtigungswerte werden nach dem Hinzufügen auf dem Bildschirm angezeigt. sie werden ebenfalls bearbeitbar sein.  Wenn für den Autorisierungs-Endpunkt eine bestimmte Berechtigung in den HTTP-Autorisierungs-Header anstelle des Body-Parameters der POST eingefügt werden muss, können Sie die Option In Kopfzeile einschließen für diese Berechtigung auswählen.
+
+Klicken Sie nach Abschluss der Konfiguration auf **Testanschluss** , um zu überprüfen, ob das Externe Konto korrekt eingerichtet ist.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>Die Anmeldeinformationen &quot;Content-Type: application/x-www-form-urlencoded&quot;und &quot;grant_type=client_credentials&quot;werden automatisch zum API-Aufruf hinzugefügt; Daher müssen Sie sie nicht im Abschnitt &quot;Anmeldeinformationen&quot;hinzufügen.
 
 ## Externes Amazon-S3-Konto {#amazon-s3-external-account}
 
