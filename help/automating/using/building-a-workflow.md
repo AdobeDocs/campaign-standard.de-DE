@@ -12,10 +12,10 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '940'
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '969'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,14 @@ Sie können Aktivitäten vor oder nach der Ausführung des Workflows öffnen, um
 
 Sie können Transitionen vor oder nach der Ausführung des Workflows öffnen, um zu überprüfen, ob die übermittelten Daten korrekt sind. Um zur Detailansicht der Transitionen zu gelangen, müssen Sie die Option **[!UICONTROL Zwischenergebnis festhalten]** im Abschnitt **[!UICONTROL Ausführung]** der Workflow-Eigenschaften ankreuzen.
 
+>[!CAUTION]
+>
+>Diese Option belegt viel Speicherplatz. Sie hilft Ihnen aber bei der Erstellung eines Workflows, dessen Konfiguration und Verhalten fehlerfrei sind. Aktivieren Sie sie nicht bei Produktionsinstanzen.
+
 ![](assets/workflow_overview.png)
 
 
-## Workflow erstellen    {#creating-a-workflow}
+## Workflow erstellen     {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
 
@@ -96,7 +100,7 @@ So erstellen Sie das Diagramm:
 
 1. Fügen Sie eine Aktivität hinzu, indem Sie sie aus der Palette in das Diagramm ziehen und dort ablegen.
 
-   Beispielsweise können Sie zuerst einen **[Beginn](../../automating/using/start-and-end.md)**und anschließend einen**[ E-Mail-Versand](../../automating/using/email-delivery.md)** in das Diagramm ziehen.
+   Beispielsweise können Sie zuerst einen **[Beginn](../../automating/using/start-and-end.md)** und anschließend einen **[E-Mail-Versand](../../automating/using/email-delivery.md)** in das Diagramm ziehen.
 
 1. Verbinden Sie die beiden Aktivitäten, indem Sie die Transition des **Beginns** über den **E-Mail-Versand** ziehen und ablegen.
 
