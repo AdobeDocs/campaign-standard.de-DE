@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 89%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 # Verbessern Ihrer Reputation{#improving-reputation}
 
-Um zu vermeiden, dass sich Ihre Empfänger belästigt fühlen, löschen Sie doppelte E-Mail-Adressen aus Ihrer Zielgruppe. Dies sichert Ihre Reputation als Absender und ermöglicht eine ordnungsgemäße Quarantäneverwaltung. Adobe Campaign Angebot die erforderlichen Instrumente zur Umsetzung dieser Empfehlungen und vermeidet die Gefahr, von den ISP auf die Blockierungsliste gesetzt zu werden.
+Um zu vermeiden, dass sich Ihre Empfänger belästigt fühlen, löschen Sie doppelte E-Mail-Adressen aus Ihrer Zielgruppe. Dies sichert Ihre Reputation als Absender und ermöglicht eine ordnungsgemäße Quarantäneverwaltung. Adobe Campaign Angebot die erforderlichen Instrumente, um diese Empfehlungen umzusetzen und die Gefahr zu vermeiden, dass der ISP der Blockierungsliste hinzugefügt wird.
 
 Unten finden Sie Details zur Duplikaten- und Quarantäneverwaltung.
 
