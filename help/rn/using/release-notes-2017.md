@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '4688'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
+source-wordcount: '4692'
+ht-degree: 99%
 
 ---
 
@@ -494,7 +494,7 @@ _Workflows_
    <td> Marketing-Funktionen für Transaktionsnachrichten<br /> </td> 
    <td> Sie können nun Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen versenden. Damit haben Sie folgende Möglichkeiten:<br /> 
     <ul> 
-     <li> Marketing-Typologieregeln wie <span class="uicontrol">Auf die Blockierungsliste gesetzte Adresse</span> anwenden </li> 
+     <li> Apply marketing typology rules such as <span class="uicontrol">Address on denylist</span> . </li> 
      <li> einen Abmelde-Link in die Nachricht einfügen </li> 
      <li> die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen </li> 
      <li> Die Transaktionsnachrichten für die Customer Journey nutzen </li> 
@@ -530,7 +530,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – von Anwendungen können jetzt Postbacks an den Adobe Campaign-Server gesendet werden.
 * Fehlerkorrektur – für Android sind jetzt die Funktionen **[!UICONTROL Ton abspielen]** und **[!UICONTROL Benutzerdefinierte Felder]** verfügbar.
 * Fehlerkorrektur – jetzt wird kein zusätzliches Maskierungszeichen mehr an für Emojis verwendete Unicode-Zeichen angefügt.
-* Wenn der Anmeldetoken eines Abonnenten auf die Blockierungsliste gesetzt wird, wird der entsprechende Status in der Abonnentenliste der Anwendung in Adobe Campaign jetzt unverzüglich aktualisiert.
+* Wenn das Registrierungstoken eines Abonnenten der Blockierungsliste hinzugefügt wird, wird der entsprechende Status jetzt in der Liste der Abonnenten in Adobe Campaign sofort aktualisiert.
 
 _Workflows_
 
