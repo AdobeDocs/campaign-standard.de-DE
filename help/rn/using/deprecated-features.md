@@ -11,11 +11,11 @@ topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
-workflow-type: ht
-source-wordcount: '587'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 88%
 
 ---
 
@@ -110,6 +110,21 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
 ## Entfernte Funktionen {#removed-features}
 
 In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus Campaign Standard entfernt wurden.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Tendenzbewertung mit Experience Cloud-Auslösern</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Der <b>Propensity-Score</b> wurde von Adobe Experience Cloud Triggers entfernt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte für den Propensity-Score in den Anreicherung-Schemas zu vermeiden, empfehlen wir, die Schema zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Auslöser erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Veröffentlichen eines Auslösers in der Kampagne </a>.
+</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
