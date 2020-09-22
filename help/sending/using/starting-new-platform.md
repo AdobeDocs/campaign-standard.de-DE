@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 94%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 Für eine neue Plattform ist die Wahrung der Reputation Ihrer Domain und IP-Adresse ausschlaggebend. Im Folgenden finden Sie Empfehlungen zum Einrichten einer neuen Plattform.
 
-Mit dem Versand von E-Mails von einer neuen Plattform zu beginnen ist ein heikler Schritt, da die Plattform noch keine Nutzungserfahrung und keine Reputation besitzt (sofern die Versand-IPs noch nie für diesen Zweck verwendet wurden). ISPs sind normalerweise misstrauisch gegenüber IP-Adressen, die noch nie für den E-Mail-Versand verwendet wurden und plötzlich große Mengen an E-Mails versenden. In der Regel verwenden Spammer &quot;unbekannte&quot;IP-Adressen (Adressen, die noch nie auf die Blockierungsliste gesetzt wurden), um die größtmögliche Anzahl von Nachrichten vor der Erkennung zu senden.
+Mit dem Versand von E-Mails von einer neuen Plattform zu beginnen ist ein heikler Schritt, da die Plattform noch keine Nutzungserfahrung und keine Reputation besitzt (sofern die Versand-IPs noch nie für diesen Zweck verwendet wurden). ISPs sind normalerweise misstrauisch gegenüber IP-Adressen, die noch nie für den E-Mail-Versand verwendet wurden und plötzlich große Mengen an E-Mails versenden. In der Regel verwenden Spambots &quot;unbekannte&quot;IP-Adressen (Adressen, die der Blockierungsliste noch nie hinzugefügt wurden), um die größtmögliche Anzahl von Nachrichten vor der Erkennung zu senden.
 
 Erwarten Sie nicht, dass der Versand gleich zu Beginn der Produktionsphase in der gewünschten Geschwindigkeit durchgeführt werden kann. Sie sollten auch nicht versuchen, Nachrichten in dieser Geschwindigkeit zu versenden, da dies ISPs veranlassen könnte, die Absenderadresse zu blockieren, was die Anfangsphase erheblich beeinträchtigen würde.
 
