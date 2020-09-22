@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 80%
+source-wordcount: '805'
+ht-degree: 79%
 
 ---
 
@@ -32,7 +32,7 @@ In diesem [Abschnitt](#conditions-for-sending-an-address-to-quarantine) werden d
 
 Die Profile, deren E-Mail-Adressen oder Telefonnummern unter Quarantäne sind, werden während der Nachrichtenvorbereitung automatisch ausgeschlossen (siehe [Für einen Versand in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-a-delivery)). Dies beschleunigt die Zustellung, da sich die Fehlerrate maßgeblich auf die Zustellgeschwindigkeit auswirkt.
 
-Teilweise werden E-Mails von Providern automatisch als Spam eingestuft, wenn die Anzahl ungültiger Adressen zu hoch ist. Quarantäne ermöglicht es Ihnen daher, nicht von diesen Anbietern auf die Blockierungsliste gesetzt zu werden.
+Teilweise werden E-Mails von Providern automatisch als Spam eingestuft, wenn die Anzahl ungültiger Adressen zu hoch ist. Quarantäne ermöglicht es Ihnen daher, nicht zu Blockierungslisten von diesen Anbietern hinzuzufügen.
 
 Zusätzlich helfen Ihnen Quarantänen, die Kosten des SMS-Versands zu senken, indem fehlerhafte Telefonnummern aus dem Versand ausgeschlossen werden.
 
@@ -48,7 +48,7 @@ Being on the **Denylist**, on the other hand, will result in the profile no long
 
 >[!NOTE]
 >
->Wenn ein Benutzer auf eine SMS-Nachricht mit einem Suchbegriff wie &quot;STOP&quot;antwortet, um sich von SMS-Versänden abzumelden, wird sein Profil nicht wie im E-Mail-Abmeldeprozess auf die Blockierungsliste gesetzt. The profile phone number is sent to quarantine with the **[!UICONTROL Denylisted]** status. Dieser Status bezieht sich nur auf die Telefonnummer, das Profil wird nicht auf die Blockierungsliste gesetzt, sodass der Benutzer weiterhin E-Mail-Nachrichten erhält. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Wenn ein Benutzer auf eine SMS-Nachricht mit einem Suchbegriff wie &quot;STOP&quot;antwortet, um sich von SMS-Versänden abzumelden, befindet sich sein Profil nicht wie im Abmeldeprozess der E-Mail auf einer Abmeldeoption. The profile phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. Dieser Status bezieht sich nur auf die Telefonnummer, das Profil ist nicht auf der Blockierungsliste, sodass der Benutzer weiterhin E-Mail-Nachrichten erhält. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## In Quarantäne befindliche Adressen identifizieren   {#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ Adobe Campaign verwaltet Quarantänen entsprechend dem Fehlertyp und dem Grund, 
 
    Wenn eine Nachricht bei einem erneuten Versuch zugestellt werden kann, wird der Fehlerzähler der in Quarantäne befindlichen Adresse neu initialisiert. Der Status der Adresse wird auf **[!UICONTROL Gültig]** gesetzt und mithilfe des Workflows **[!UICONTROL Datenbankbereinigung]** wird die Adresse nach zwei Tagen aus der Quarantäneliste gelöscht.
 
-Wenn ein Benutzer eine E-Mail als Spam kennzeichnet (**Feedback Loop**), wird die Nachricht automatisch an ein von Campaign verwaltetes technisches Postfach weitergeleitet. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. Dieser Status bezieht sich nur auf die Adresse, das Profil ist nicht auf der Blockierungsliste, sodass der Benutzer weiterhin SMS-Nachrichten und Push-Benachrichtigungen erhält.
+Wenn ein Benutzer eine E-Mail als Spam kennzeichnet (**Feedback Loop**), wird die Nachricht automatisch an ein von Campaign verwaltetes technisches Postfach weitergeleitet. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL On denylist]** status. Dieser Status bezieht sich nur auf die Adresse, das Profil ist nicht auf der Blockierungsliste, sodass der Benutzer weiterhin SMS-Nachrichten und Push-Benachrichtigungen erhält.
 
 >[!NOTE]
 Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
