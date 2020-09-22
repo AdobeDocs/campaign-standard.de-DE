@@ -12,8 +12,11 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
+source-wordcount: '1840'
+ht-degree: 100%
 
 ---
 
@@ -151,6 +154,7 @@ Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
    * **[!UICONTROL Einfache Relation mit Kardinalität 1]**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
    * **[!UICONTROL Kollektionsrelation mit Kardinalität N]**: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, aber eine Entität in der Zieltabelle kann nur maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
    * **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Eine Entität in der Quelltabelle kann nur mit maximal einer oder keiner Entität in der Zieltabelle in Beziehung stehen. Bitte beachten Sie, dass dieser **[!UICONTROL Relationstyp]** Leistungsprobleme verursachen kann.
+
    ![](assets/schema_extension_29.png)
 
 1. Im Bildschirm **[!UICONTROL Neue Relation]** sind die Felder **[!UICONTROL Titel]** und **[!UICONTROL Kennung]** standardmäßig vorausgefüllt, sie können jedoch angepasst werden.
@@ -158,8 +162,6 @@ Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
    >[!NOTE]
    >
    >Verwenden Sie maximal 30 Zeichen.
-
-   >[!IMPORTANT]
    >
    >Nach der Erstellung kann ein Link nicht mehr umbenannt werden. Um einen Link umzubenennen, müssen Sie ihn zuerst löschen und dann wieder erstellen.
 
@@ -175,6 +177,7 @@ Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
 
    * **[!UICONTROL Join über die Primärschlüssel erstellen]**: Mit dieser Join-Definition können Sie den Primärschlüssel der Profile mit dem Primärschlüssel der Käufe abstimmen.
    * **[!UICONTROL Spezifische Join-Bedingungen definieren]**: Mit dieser Join-Definition können Sie manuell die Felder auswählen, mit denen der Join beider Ressourcen hergestellt wird. Bitte beachten Sie, dass bei falscher Konfiguration der Daten der Datensatz **Bestellung** nicht sichtbar ist.
+
    ![](assets/schema_extension_17.png)
 
 Die erstellten Relationen werden in der Liste des Bereichs **[!UICONTROL Relationen]** angezeigt.
