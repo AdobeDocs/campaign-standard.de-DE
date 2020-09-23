@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 87%
+source-wordcount: '1273'
+ht-degree: 82%
 
 ---
 
@@ -46,12 +46,12 @@ Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="Strukturkomponenten"
->abstract="Strukturelle Elemente, die das Layout der E-Mail definieren."
+>abstract="Strukturkomponenten definieren das Layout der E-Mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Definieren von E-Mail-Spalten"
->abstract="Mit dem E-Mail-Designer können Sie einfach die Spaltenstruktur Ihrer E-Mail definieren."
+>abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
 
@@ -111,7 +111,7 @@ Sie können einen **[!UICONTROL Inhaltsblock]**, einen **[!UICONTROL dynamischen
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Komponenten, die nach dem Einfügen in eine E-Mail bearbeitet werden können."
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, die Sie bearbeiten können, um eine E-Mail zu erstellen."
 
 Inhaltskomponenten sind leere Komponenten, die nach dem Einfügen in eine E-Mail bearbeitet werden können.
 
@@ -164,7 +164,9 @@ Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen."
+>abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen. Beachten Sie, dass Videos nicht auf allen E-Mail-Clients funktionieren. Wir empfehlen, ein Fallback-Bild festzulegen."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Zusätzliche Informationen"
+
 
 Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und geben Sie den Video-Link in die **[!UICONTROL Komponenteneinstellungen]** ein.
 
@@ -187,7 +189,7 @@ Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail e
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Karussell-Einstellungen"
->abstract="Erfahren Sie, wie Sie ein Karussell in Ihren Inhalt einfügen und konfigurieren."
+>abstract="Erfahren Sie, wie Sie ein Karussell in Ihren Inhalt einfügen und konfigurieren können.Beachten Sie, dass Karussell nicht auf allen E-Mail-Clients funktioniert und ein Fallback-Bild angezeigt wird, falls es nicht unterstützt wird."
 
 1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
 1. Durchsuchen Sie Ihre Festplatte nach Bildern.
