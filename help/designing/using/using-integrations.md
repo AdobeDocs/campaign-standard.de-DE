@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 92%
 
 ---
@@ -51,7 +51,7 @@ Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Verwenden von Produktauflistungen"
->abstract="Mit den Produktauflistungen können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen."
+>abstract="Mit den Produktauflistungen können Sie auf eine Datenerfassung verweisen und sie im E-Mail-Inhalt anzeigen."
 
 Mit den Produktauflistungen können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen. Diese Auflistungen stehen für transaktionale E-Mails zur Verfügung. Einen speziellen Abschnitt zu dieser Funktion finden Sie [hier](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
