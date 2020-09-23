@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1868'
 ht-degree: 99%
 
 ---
@@ -149,7 +149,7 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="Fragmente"
->abstract="Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails referenziert werden kann."
+>abstract="Ein Fragment ist ein wiederverwendbarer Inhaltsblock, auf den in einer oder mehreren E-Mails verwiesen werden kann."
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails referenziert werden kann.
 Fragmente finden Sie in der Benutzeroberfläche unter **Ressourcen** > **Inhaltsfragmente und Vorlagen**.
