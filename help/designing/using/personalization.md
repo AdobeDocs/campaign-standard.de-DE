@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2715'
 ht-degree: 98%
 
 ---
@@ -231,7 +231,7 @@ Derartige Bedingungen nehmen die Syntax von XTK-Ausdrücken an (z. B. **context
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="Dynamische Inhalte definieren"
->abstract="Definieren Sie unterschiedliche Inhalte für Ihre Empfänger entsprechend den im Ausdruck-Editor definierten Regeln."
+>abstract="Definieren Sie unterschiedliche Inhalte, die einigen Profilen nur entsprechend den von Ihnen festgelegten Bedingungen angezeigt werden."
 
 Es besteht die Möglichkeit, für eine E-Mail multiple Inhalte zu erstellen, die in Abhängigkeit von mithilfe des Ausdruckseditors definierten Bedingungen den Empfängern dynamisch angezeigt werden. So kann beispielsweise jedem Profil je nach seiner Altersgruppe ein abweichender Inhalt angezeigt werden.
 
@@ -338,7 +338,7 @@ Gehen Sie bei der E-Mail-Erstellung wie folgt vor:
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Verwalten dynamischer Bilder"
->abstract="Personalisieren Sie Ihre E-Mail mit dynamischen Bildern gemäß den im Ausdruck-Editor definierten Regeln."
+>abstract="Personalisieren Sie Ihre E-Mail mit dynamischen Bildern gemäß den von Ihnen festgelegten Bedingungen."
 
 Gehen Sie wie folgt vor:
 
