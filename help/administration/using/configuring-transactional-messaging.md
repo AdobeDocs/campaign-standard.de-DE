@@ -11,11 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
-source-wordcount: '3166'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+workflow-type: tm+mt
+source-wordcount: '3291'
+ht-degree: 96%
 
 ---
 
@@ -201,13 +201,7 @@ Sobald Adobe Campaign erste Ereignisse im Zusammenhang mit dieser Ereigniskonfig
 
 Die Ereignisse (im JSON-Format) werden von den jüngsten hin zu den ältesten aufgelistet. Mit dieser Liste können Sie Daten wie den Inhalt oder Status eines Ereignisses zu Kontroll- und Debugging-Zwecken überprüfen.
 
-### Publikationsprozess bei Transaktionsnachrichten {#transactional-messaging-pub-process}
-
-Die nachstehende Tabelle zeigt den Publikationsprozess bei Transaktionsnachrichten.
-
-![](assets/message-center_pub-process.png)
-
-### Ereignis depublizieren    {#unpublishing-an-event}
+### Ereignis depublizieren   {#unpublishing-an-event}
 
 Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publikation des Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht. Selbst wenn das Ereignis auf Ihrer Webseite ausgelöst wird, werden die entsprechenden Nachrichten nun nicht mehr gesendet und auch nicht in der Datenbank gespeichert.
 
@@ -218,6 +212,14 @@ Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publik
 >Sollten Sie die entsprechende Transaktionsnachricht bereits publiziert haben, wird die Transaktionsnachrichtenpublikation ebenfalls abgebrochen. Siehe [Transaktionsnachricht depublizieren](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Verwenden Sie die Schaltfläche **[!UICONTROL Publizieren]**, um die neue REST-API zu erzeugen.
+
+### Publikationsprozess bei Transaktionsnachrichten {#transactional-messaging-pub-process}
+
+Die nachstehende Tabelle zeigt den Publikationsprozess bei Transaktionsnachrichten.
+
+![](assets/message-center_pub-process.png)
+
+Weitere Informationen zum Veröffentlichen, Anhalten und Rückgängigmachen der Veröffentlichung einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
 ### Löschen eines Ereignisses {#deleting-an-event}
 
@@ -240,13 +242,31 @@ Wenn Ereignis depubliziert oder noch nicht publiziert wurde, können Sie es aus 
 >
 >Wenn Sie eine bereits publizierte und in Verwendung befindliche Ereigniskonfiguration löschen, werden auch die entsprechenden Transaktionsnachrichten sowie deren Versand- und Trackinglogs gelöscht.
 
+## Durchsuchen von transaktionalen Ereignissen {#searching-transactional-events}
+
+Gehen Sie wie unten beschrieben vor, um auf die bereits erstellten transaktionalen Ereignis zuzugreifen und sie zu durchsuchen.
+
+1. Verwenden Sie das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Suche]** anzeigen.
+
+   ![](assets/message-center_search-events.png)
+
+1. Sie können nach **[!UICONTROL Veröffentlichungsstatus]** filtern. Auf diese Weise können Sie beispielsweise nur die veröffentlichten Ereignisse anzeigen.
+1. Sie können die Ereignis auch mit dem erhaltenen **[!UICONTROL letzten Ereignis filtern]**. Wenn Sie beispielsweise 10 eingeben, werden nur die Ereignis-Konfigurationen mit dem letzten Ereignis angezeigt, das vor 10 Tagen oder länger empfangen wurde. Auf diese Weise können Sie anzeigen, welche Ereignis während eines bestimmten Zeitraums inaktiv waren.
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >Der Standardwert ist 0. Alle Ereignis werden dann angezeigt.
+
 ## Aktivierung des Ereignisses in eine Website integrieren {#integrating-the-triggering-of-the-event-in-a-website}
 
 Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Ereignisses in Ihre Webseite integriert werden.
 
 In dem in Abschnitt [Funktionsweise von Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) beschriebenen Beispiel wird ein Ereignis vom Typ &quot;Stehen gelassener Warenkorb&quot; ausgelöst, wenn ein Besucher Ihre Webseite verlassen hat, ohne den Kauf der Artikel in seinem Warenkorb abzuschließen. Zu diesem Zweck muss der Web-Entwickler Ihrer Seite die Adobe Campaign Standard REST-API verwenden.
 
-Weiterführende Informationen dazu finden Sie im Abschnitt [REST-API-Dokumentation](../../api/using/managing-transactional-messages.md) .
+Weiterführende Informationen dazu finden Sie im Abschnitt [REST-API-Dokumentation](../../api/using/managing-transactional-messages.md).
 
 ## Konfigurationen für Transaktionsereignisse {#transactional-event-specific-configurations}
 
