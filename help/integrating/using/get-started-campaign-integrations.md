@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Campaign-Integrationen
-description: Adobe Campaign ermöglicht die Verwendung anderer Adobe-Lösungen und die Kombination ihrer Funktionen.
+description: Erfahren Sie, wie Sie die erweiterten Kampagnenverwaltung von Adobe Campaign mit einer Reihe von Lösungen kombinieren können, mit denen Sie die Benutzererfahrung wie Adobe Analytics, Experience Manager, Zielgruppe, Dreamweaver und mehr personalisieren können.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 94%
 
 ---
 
