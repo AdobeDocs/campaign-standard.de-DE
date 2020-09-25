@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit der Administration von Campaign Standard
-description: Adobe Campaign bietet Ihnen ein umfassendes Set von Tools zur Administration der Anwendung. Hier erfahren Sie, wie Sie Benutzer verwalten und Kanäle konfigurieren können.
+description: Erfahren Sie, wie Sie Benutzer verwalten, Rollen definieren und Berechtigungen gewähren können. Erfahren Sie mehr über Überwachungsrichtlinien, Kanal-spezifische Konfigurationen und Anwendungseinstellungen wie Zielgruppen-Mapping, Technischen Workflows, Branding, Datenspeicherung und mehr.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ Die verschiedenen Verwaltungsoperationen von Adobe Campaign werden über das Men
 Folgende Menüs stehen zur Verfügung:
 
 * [Benutzer &amp; Sicherheit](../../administration/using/about-access-management.md) - ermöglicht die Verwaltung der Zugriffsberechtigungen zur Plattform (Benutzer, Benutzerrollen, Sicherheitsgruppen, Geografische Einheiten und Organisationseinheiten).
-* [Kanäle](../../administration/using/about-channel-configuration.md) - enthält die technischen Parameter in Bezug auf die Plattformkanäle (E-Mail, SMS) sowie die Typologie- und Quarantäneverwaltung.
+* [Kanal](../../administration/using/about-channel-configuration.md): In diesem Menü werden die technischen Kanal zusammengefasst, die mit den verschiedenen Plattformparametern (E-Mail, Mobil) sowie mit der Typologie und dem Management der Quarantäne verknüpft sind.
 * [Anwendungskonfiguration](../../administration/using/external-accounts.md) - ermöglicht die Konfiguration verschiedener Anwendungselemente (externe Konten, Optionen, technische Workflows).
 * [Entwicklung](../../developing/using/data-model-concepts.md) - ermöglicht die Erstellung und Verwaltung benutzerdefinierter Ressourcen sowie den Zugriff auf Monitoring-Tools.
 * [Instanzenkonfiguration](../../administration/using/branding.md) - erlaubt die Definition verschiedener Marken und ihrer Parameter (Logo, Trackingverwaltung, Domain der Landingpage-URLs etc.).
