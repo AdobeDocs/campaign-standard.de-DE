@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Prozessen und Daten-Management
-description: Adobe Campaign verfügt über eine weitreichende grafische Umgebung, in der Prozesse konzipiert und automatisiert werden können.
+description: Nutzen Sie die Workflow-Funktionen von Adobe Campaign, um Prozesse durch eine leistungsstarke, umfassende grafische Umgebung zu automatisieren. Erfahren Sie, wie Sie Daten laden, Audiencen verwalten, Nachrichten senden, Data Management-Zyklen implementieren, technische Prozesse automatisieren und vieles mehr.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 95%
+source-wordcount: '539'
+ht-degree: 90%
 
 ---
 
