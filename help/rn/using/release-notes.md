@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -116,7 +116,7 @@ ht-degree: 4%
 * Beim Veröffentlichen einer benutzerdefinierten Ressource wird jetzt nach der Vorbereitung ein Bestätigungs-Popup angezeigt.
 * Die Popup-Meldung, die angezeigt wird, wenn eine benutzerdefinierte Ressource fehlschlägt, wurde aus Gründen der Übersichtlichkeit verbessert.
 * Der Ausdruck-Editor in Workflows wurde verbessert, um Ausführungsfehler zu vermeiden. [Es stehen neue Funktionen](../../automating/using/customizing-workflow-external-parameters.md) zur Verfügung: Sie können in allen Aktivitäten verwendet werden, die die Verwendung von Ereignis-Variablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Darüber hinaus wird jetzt eine QuickInfo mit der Funktionsbeschreibung im Ausdruck-Editor angezeigt.
-* Zur Liste der transaktionalen Ereignis wurden neue Filter hinzugefügt. Sie ermöglichen es Ihnen, die Ereignis-Konfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses zu filtern.
+* [Neue Filter](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) wurden zur Liste der transaktionalen Ereignis hinzugefügt. Sie ermöglichen es Ihnen, die Ereignis-Konfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses zu filtern.
 * Die Protokolle, die beim Exportieren von Paketen angezeigt werden, wurden spezieller und detaillierter zu den aufgetretenen Fehlern im Fehlerfall gemacht.
 * Nach dem Senden einer Nachricht können Sie jetzt die Liste der [verfolgten URLs](../../sending/using/tracking-messages.md)suchen, filtern und exportieren.
 * Die automatische [Synchronisierung zwischen Start und Kampagne](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ist jetzt GA und ist standardmäßig aktiviert.
