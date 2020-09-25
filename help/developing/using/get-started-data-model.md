@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit dem Campaign Standard-Datenmodell
-description: Erweitern Sie das Datenmodell von Campaign Standard mit Ihren eigenen Feldern und Ressourcen und überwachen Sie alle Änderungen daran in einer einzigen Ansicht.
+description: Greifen Sie auf die Beschreibung des integrierten Datenmodells zu, erweitern Sie das Datenmodell des Campaign Standards mit benutzerdefinierten Feldern und Ressourcen und überwachen Sie alle Änderungen des Datenmodells in einer einzigen Ansicht.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: ht
-source-wordcount: '353'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 92%
 
 ---
 
