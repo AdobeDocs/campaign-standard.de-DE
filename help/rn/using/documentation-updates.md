@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6275'
 ht-degree: 97%
 
 ---
@@ -41,6 +41,8 @@ Der Abschnitt zum Aufrufen eines Workflows mit externen Parametern wurde um neue
 Zu den Workflows Best Practices zur Anzahl der pro Arbeitsablauf zu verwendenden Aktivitäten wurde eine Empfehlung hinzugefügt. [mehr dazu](../../automating/using/best-practices-workflows.md#number-activities)
 
 Ein neuer Abschnitt über Best Practices für Versand wurde hinzugefügt. [mehr dazu](../../sending/using/delivery-best-practices.md)
+
+Es wurde ein Abschnitt hinzugefügt, in dem die neuen Filter beschrieben werden, die es ermöglichen, die Ereignis-Konfigurationen nach ihrem Status und dem letzten Eingang eines Ereignisses zu durchsuchen. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## Aktualisierungen der Dokumentation – September 2020 {#doc-updates-september-2020}
 
