@@ -1,6 +1,6 @@
 ---
 title: Inhaltserstellung in Adobe Campaign
-description: Hier erfahren Sie, welche Inhaltselemente Sie mit Adobe Campaign definieren können.
+description: Verwenden Sie Kampagne Email Designer, um faszinierende, individuell zugeschnittene E-Mails per Drag & Drop zu erstellen. Entwerfen und verfeinern Sie alle Inhalte für jede E-Mail, indem Sie von einer leeren Mustervorlage ausgehen oder vorhandene Inhaltsfragmente oder Vorlagen nutzen
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 98%
+source-wordcount: '1175'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 Nach der Erstellung einer E-Mail in Adobe Campaign müssen Sie deren Inhalt definieren.
 
-Mit Email Designer können Sie unter Verwendung einer Drag &amp; Drop-Oberfläche, die durch native Creative Cloud-Integrationen erweitert wird, ansprechende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen oder existierende Inhaltsfragmente bzw. Vorlagen nutzen, können Sie beliebige Inhalte für alle E-Mails erstellen und gestalten (ob für Promotionen oder Transaktionen).
+Mit dem E-Mail-Designer können Sie durch Drag &amp; Drop faszinierende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen oder existierende Inhaltsfragmente bzw. Vorlagen nutzen, können Sie beliebige Inhalte für alle E-Mails erstellen und gestalten (ob für Promotionen oder Transaktionen).
 
 Email Designer ermöglicht die Bereitstellung von HTML-Code, der für responsives Design optimiert ist. Mit Email Designer können Sie bequem Sichtbarkeitsbedingungen und dynamische Inhalte direkt über die Benutzeroberfläche definieren und anwenden. Durch einfaches Klicken auf eine Schaltfläche können Sie nahtlos zwischen der Drag &amp; Drop-Oberfläche und HTML-Code wechseln.
 
