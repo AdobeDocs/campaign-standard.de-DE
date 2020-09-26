@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit der Administration von Campaign Standard
-description: Erfahren Sie, wie Sie Benutzer verwalten, Rollen definieren und Berechtigungen gewähren können. Erfahren Sie mehr über Überwachungsrichtlinien, Kanal-spezifische Konfigurationen und Anwendungseinstellungen wie Zielgruppen-Mapping, Technischen Workflows, Branding, Datenspeicherung und mehr.
+description: Discover-Benutzer und -Zugriffsberechtigungsverwaltung, Überwachungsrichtlinien, Kanal-spezifische Konfigurationen und Richtlinien für Anwendungseinstellungen.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 92%
+source-wordcount: '655'
+ht-degree: 94%
 
 ---
 
