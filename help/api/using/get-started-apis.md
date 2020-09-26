@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Campaign Standard-APIs
-description: Mit Campaign Standard-APIs können Sie Integrationen erstellen und ein eigenes Ökosystem aufbauen, indem Sie Kampagne mit dem von Ihnen verwendeten Technologiebereich verbinden.
+description: Erstellen Sie Integrationen und bauen Sie Ihr eigenes Ökosystem, indem Sie Kampagne mit einer Reihe von Technologien verbinden.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 89%
+source-wordcount: '233'
+ht-degree: 93%
 
 ---
 
