@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Testen und Senden
-description: Erfahren Sie, wie Sie Nachrichten vorbereiten und testen, planen, senden und überwachen, Fehler- und Quarantäne-Management verstehen und die Zustellbarkeit optimieren.
+description: Bereiten Sie Ihre Nachrichten vor, testen, planen, versenden und überwachen Sie sie.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 96%
+source-wordcount: '573'
+ht-degree: 98%
 
 ---
 
