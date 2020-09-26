@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit dynamischen Berichten
-description: Zugriff auf integrierte Versandberichte der Kampagne sowie Drag & Drop von Variablen und Dimensionen, um neue dynamische Berichte zu erstellen und den Erfolg Ihrer Kampagnen zu analysieren.
+description: Analysieren Sie den Erfolg Ihrer Kampagnen in integrierten oder benutzerdefinierten dynamischen Berichten.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 62%
+source-wordcount: '349'
+ht-degree: 64%
 
 ---
 
