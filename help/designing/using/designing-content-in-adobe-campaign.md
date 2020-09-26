@@ -1,6 +1,6 @@
 ---
 title: Inhaltserstellung in Adobe Campaign
-description: Verwenden Sie Kampagne Email Designer, um faszinierende, individuell zugeschnittene E-Mails per Drag & Drop zu erstellen. Entwerfen und verfeinern Sie alle Inhalte für jede E-Mail, indem Sie von einer leeren Mustervorlage ausgehen oder vorhandene Inhaltsfragmente oder Vorlagen nutzen
+description: Erstellen Sie mit Kampagne E-Mail-Designer E-Mail-Inhalte, die auf einer leeren Mustervorlage basieren oder vorhandene Inhaltsfragmente oder Vorlagen nutzen.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 94%
+source-wordcount: '1158'
+ht-degree: 95%
 
 ---
 
