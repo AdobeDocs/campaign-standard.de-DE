@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit dem Campaign Standard-Datenmodell
-description: Greifen Sie auf die Beschreibung des integrierten Datenmodells zu, erweitern Sie das Datenmodell des Campaign Standards mit benutzerdefinierten Feldern und Ressourcen und überwachen Sie alle Änderungen des Datenmodells in einer einzigen Ansicht.
+description: Erweitern Sie das Datenmodell von Campaign Standards mit benutzerdefinierten Feldern und Ressourcen und erweitern Sie REST-APIs, um erweiterte Felder verfügbar zu machen.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 92%
+source-wordcount: '350'
+ht-degree: 94%
 
 ---
 
