@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Profilen und Audiences
-description: Erfahren Sie mehr über die Verwaltung von Profilen und Audiencen in Adobe Campaign. Definieren Sie Zielgruppen, wählen Sie Audiencen, filtern Sie Empfänger, erfassen Sie Daten und aktualisieren Sie Profil.
+description: Definieren Sie Zielgruppen, wählen Sie Audiencen, filtern Sie Empfänger, erfassen Sie Daten und aktualisieren Sie Profil.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 87%
+source-wordcount: '604'
+ht-degree: 89%
 
 ---
 
