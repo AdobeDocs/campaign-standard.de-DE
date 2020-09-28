@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa77208174960a67c67af8a6de7edbbff47355a0
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 79%
@@ -142,4 +142,4 @@ Damit Empfänger auf die Bilder zugreifen können, müssen die in E-Mails und ö
 
 Adobe empfiehlt eine Vorschau Ihrer Nachricht, um die Personalisierung zu überprüfen und festzustellen, wie Ihre Empfänger den Versand sehen werden.
 
-* In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. Die Personalisierungsfelder und bedingten Inhaltselemente werden durch die entsprechenden Informationen für das ausgewählte Profil ersetzt – [mehr dazu](../../sending/using/previewing-messages.md)
+In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. Die Personalisierungsfelder und bedingten Inhaltselemente werden durch die entsprechenden Informationen für das ausgewählte Profil ersetzt – [mehr dazu](../../sending/using/previewing-messages.md)
