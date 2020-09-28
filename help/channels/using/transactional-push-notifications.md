@@ -11,9 +11,9 @@ topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -72,6 +72,7 @@ Das Unternehmen sendet eine einzige Transaktions-Push-Benachrichtigung pro Benut
    Weiterführende Informationen zur Bearbeitung eines Push-Benachrichtigungs-Inhalts finden Sie unter [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. Speichern Sie Ihre Änderungen und publizieren Sie die Nachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+
 1. Senden Sie unter Verwendung einer Mobile App (WeFlight) unter Android (gcm) mithilfe der Adobe-Campaign-Standard-REST-API an einen Anmeldetoken (ABCDEF123456789) ein Ereignis, das die Boarding-Daten enthält.
 
    ```
@@ -114,13 +115,9 @@ Beispiel: Eine Fluglinie möchte allen Adobe-Campaign-Benutzern, die sich für i
 
 1. Rufen Sie die erstellte Transaktionsnachricht auf, um sie zu bearbeiten. Siehe [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Öffnen Sie nun mithilfe der gleichnamigen Kachel den **[!UICONTROL Inhalt]** der Nachricht, um den Titel und den Hauptteil anzupassen.
 
    Im Gegensatz zu auf Echtzeit-Ereignissen basierenden Konfigurationen haben Sie direkten Zugriff auf alle Profilinformationen, um die Nachricht zu personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    Weiterführende Informationen zur Bearbeitung von Push-Benachrichtigungs-Inhalt finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
 
@@ -142,4 +139,3 @@ Beispiel: Eine Fluglinie möchte allen Adobe-Campaign-Benutzern, die sich für i
    >[!NOTE]
    >
    >Es gibt keine Felder für Anmeldetoken, Anwendung und Push-Plattform. In diesem Beispiel erfolgt die Abstimmung über das E-Mail-Feld.
-
