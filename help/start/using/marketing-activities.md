@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 84%
 
 ---
 
@@ -47,14 +47,14 @@ Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erste
 
 Im Arbeitsbereich wird jeder Aktivitätstyp durch ein repräsentatives Symbol dargestellt:
 
-* ![](assets/marketing_program_icon.png) : Program
-* ![](assets/marketing_campaign_icon.png) : Campaign
-* ![](assets/marketing_email_icon.png) : Email
-* ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : Push notification
-* ![](assets/marketing_lp_icon.png) : In-App-Nachricht
-* ![](assets/marketing_lp_icon.png) : Landing page
-* ![](assets/marketing_workflow_icon.png) : Workflow
+* ![](assets/marketing_program_icon.png) Program
+* ![](assets/marketing_campaign_icon.png) Campaign
+* ![](assets/marketing_email_icon.png) Email
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) Push notification
+* ![](assets/marketing_lp_icon.png) In-App-Nachricht
+* ![](assets/marketing_lp_icon.png) Landing page
+* ![](assets/marketing_workflow_icon.png) Workflow
 
 Die Farbe des Symbols zeigt den Ausführungsstatus der Aktivität in Abhängigkeit von ihrer definierten Gültigkeit und ihrem Status an.
 
@@ -86,16 +86,16 @@ Weiterführende Informationen zu Programmen und Kampagnen finden Sie im Abschnit
 
 Je nach Kontext haben Sie verschiedene Möglichkeiten:
 
-* [E-Mail erstellen](../../channels/using/creating-an-email.md)
-* [SMS erstellen](../../channels/using/creating-an-sms-message.md)
-* [Push-Benachrichtigung erstellen](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md)
-* [Workflow erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Landingpage erstellen](../../channels/using/getting-started-with-landing-pages.md)
-* [Kampagne erstellen](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [Programm erstellen](../../start/using/programs-and-campaigns.md#creating-a-program)
+* E-Mail erstellen - [Weitere Informationen](../../channels/using/creating-an-email.md)
+* SMS erstellen - [Weitere Informationen](../../channels/using/creating-an-sms-message.md)
+* Push-Benachrichtigung erstellen - [Weitere Informationen](../../channels/using/preparing-and-sending-a-push-notification.md)
+* In-App-Nachricht erstellen - [Weitere Informationen](../../channels/using/about-in-app-messaging.md)
+* Workflow erstellen - [Weitere Informationen](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Landingpage erstellen - [Weitere Informationen](../../channels/using/getting-started-with-landing-pages.md)
+* Kampagne erstellen - [Weitere Informationen](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Programm erstellen - [Weitere Informationen](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Marketingaktivitäten können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. In diesem Fall können Sie Aktivitäten jeden Typs erstellen. Sie haben in den Aktivitätseigenschaften die Möglichkeit, Marketingaktivitäten einer übergeordneten Kampagne (bzw. bei Erstellung eines Programms einem übergeordneten Programm) zuzuordnen.
+>Marketingaktivitäten können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. In diesem Fall können Sie eine beliebige Aktivität erstellen und die Marketing-Aktivität über die Eigenschaften der Aktivität mit einer übergeordneten Kampagne (oder mit einem übergeordneten Programm, wenn Sie ein Programm erstellen) verknüpfen.
 
