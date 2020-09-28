@@ -11,11 +11,11 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: ht
-source-wordcount: '147'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 65%
 
 ---
 
@@ -34,8 +34,18 @@ Jeder Dienst ist mit folgenden Mechanismen ausgestattet:
 
 Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werden. Weiterführende Informationen finden Sie in der [entsprechenden Dokumentation](../../api/using/creating-a-service.md).
 
-**Verwandte Themen**
+## Wichtige Schritte zum Einrichten und Verwalten von Abonnements
+
+Gehen Sie wie folgt vor, um einen Abonnement-Mechanismus zu erstellen:
+
+1. **Erstellen eines Dienstes** - Führen Sie die [in diesem Abschnitt](../../audiences/using/creating-a-service.md) beschriebenen Schritte aus, um einen Anmeldedienst zu erstellen
+1. **Link** freigeben - Erfahren Sie, wie Sie Ihren Dienst [auf dieser Seite fördern und freigeben können](../../audiences/using/promoting-a-service.md)
+1. **Abonnements** [überwachen - in diesem Abschnitt finden Sie mehrere Möglichkeiten, Abonnement zu Ihrem Dienst zu überwachen.](../../audiences/using/monitoring-subscriptions.md)
+1. **Abonnements** bestätigen - [diesem Lernprogramm](../../audiences/using/confirming-subscription-to-a-service.md) folgen, um eine Abonnement-Bestätigungsmeldung zu senden
+
+## Zusätzliche Ressourcen
 
 * [Anwendungsfall: Inkrementelle Abfrage bezüglich Dienst-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
 * [Anwendungsfall: Mehrere Abonnementstatus über eine Datei aktualisieren](../../automating/using/updating-subscriptions-from-file.md)
 * [Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden](../../automating/using/subscribing-profiles-from-file.md)
+* [Teilnahme und Ausschluss in der Kampagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
