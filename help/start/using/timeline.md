@@ -12,8 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +35,10 @@ Jedes Programm wird durch einen Balken repräsentiert, der eine Miniaturansicht 
 
 Das aktuelle Datum wird durch eine blaue senkrechte Linie symbolisiert, welche sich standardmäßig in der Mitte des Arbeitsbereichs befindet. Es besteht die Möglichkeit, den Arbeitsbereich nach rechts oder links zu verschieben, um andere Zeitabschnitte anzuzeigen.
 
-Die Schaltflächen ![](assets/timeline_zoom_in.png) und ![](assets/timeline_zoom_out.png) ermöglichen die Vergrößerung bzw. Verkleinung des sichtbaren Ausschnitts der Planung. So zoomt die Schaltfläche ![](assets/timeline_zoom_in.png) bis hin zu einer Anzeige von Tagen in den angezeigten Zeitraum hinein, während die Schaltfläche ![](assets/timeline_zoom_out.png) herauszoomt, um einen größeren Zeitraum anzuzeigen.
+Verwenden Sie die Symbole, um
+
+* ![](assets/timeline_zoom_in.png) den Umfang reduzieren oder die Detailgenauigkeit für einen begrenzteren Zeitraum erhöhen, bis Tage angezeigt werden
+* ![](assets/timeline_zoom_out.png) den Umfang erhöhen oder einen größeren Zeitraum anzeigen
 
 Klicken Sie auf den Pfeil rechts im Programmbalken, um seine untergeordneten Elemente anzuzeigen. Ein Programm kann Unterprogramme, Kampagnen und Landingpages enthalten. Die Anzeige von Kampagnen lässt sich auf die gleiche Weise erzeugen. Eine Kampagne kann E-Mails, SMS und Landingpages enthalten.
 
@@ -46,12 +52,12 @@ Wenn die in einem Programm oder einer Kampagne enthaltenen Elemente angezeigt we
 
 Jedem Element ist ein den Elementtyp repräsentierendes Symbol beigefügt:
 
-* ![](assets/timeline_program_icon.png) : Programm
-* ![](assets/timeline_campaign_icon.png) : Campaign
-* ![](assets/timeline_lp_icon.png) : Landingpage
-* ![](assets/timeline_email_icon.png) : E-Mail
-* ![](assets/timeline_sms_icon.png) : SMS
-* ![](assets/timeline_push_icon.png) : Push-Benachrichtigung
+* ![](assets/timeline_program_icon.png) Program
+* ![](assets/timeline_campaign_icon.png) Campaign
+* ![](assets/timeline_lp_icon.png) Landing page
+* ![](assets/timeline_email_icon.png) Email
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) Push notification
 
 Ein farbiger Streifen am linken Rand eines jeden Balkens gibt Hinweis auf den Status des entsprechenden Elements:
 
