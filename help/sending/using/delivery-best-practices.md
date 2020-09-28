@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 91%
+source-wordcount: '86'
+ht-degree: 44%
 
 ---
 
@@ -25,92 +25,31 @@ ht-degree: 91%
 
 Lernen Sie Best Practices im Zusammenhang mit der Versandgestaltung und dem Versand mit Adobe Campaign kennen. Verwenden Sie die folgenden Links, um durch die Themen zu navigieren und Anleitungen zu finden.
 
-<table>
-<tr>
-  <td>
-    <a href="optimize-delivery.md">
-      <img alt="Optimieren" src="assets/do-not-localize/optimize.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="optimize-delivery.md">
-    <strong>Optimieren des Versands</strong>
-    </a>
-    </div>
-    <p>
-    <em>Sichern und Optimieren des Sendevorgangs</em>
-    <p>
-  </td>
-   <td>
-    <a href="use-templates.md">
-      <img alt="Vorlagen" src="assets/do-not-localize/design.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="use-templates.md">
-    <strong>Verwenden von Vorlagen</strong>
-    </a>
-    </div>
-    <p>
-    <em>Erleichtern und Beschleunigen neuer Sendungen</em>
-    <p>
-  </td>
-  <td>
-    <a href="design-and-personalize.md">
-      <img alt="Design" src="assets/do-not-localize/custom.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="design-and-personalize.md">
-    <strong>Personalisieren von Inhalten</strong>
-    </a>
-    </div>
-    <p>
-    <em>Anwenden der richtigen Einstellungen</em>
-    <p>
-  </td>
-</tr>
-<tr>
-  <td>
-    <a href="define-the-right-audience.md">
-      <img alt="Zielgruppe" src="assets/do-not-localize/profiles.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="define-the-right-audience.md">
-    <strong>Festlegen der richtigen Zielgruppe</strong>
-    </a>
-    </div>
-    <p>
-    <em>Die Zielgruppe ist wichtig</em>
-    <p>
-  </td>
-   <td>
-    <a href="check-before-sending.md">
-      <img alt="Prüfen" src="assets/do-not-localize/start.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="check-before-sending.md">
-    <strong>Prüfen vor dem Senden</strong>
-    </a>
-    </div>
-    <p>
-    <em>Vermeiden häufiger Fehler</em>
-    <p>
-  </td>
-  <td>
-    <a href="track-and-monitor.md">
-      <img alt="Optimieren" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="track-and-monitor.md">
-    <strong>Tracken und Beobachten</strong>
-    </a>
-    </div>
-    <p>
-    <em>Steuern von Sendungen und Fehlerbehebung</em>
-    <p>
-  </td>
-</tr>
-</table>
+<img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-Siehe auch:
+**[Optimieren des Versands](optimize-delivery.md)** - Sichern und Optimieren des Sendevorgangs
+
+<img src="assets/do-not-localize/design.svg"  width="60px">
+
+**[Vorlagen](use-templates.md)** verwenden - Neue Versand erleichtern und beschleunigen
+
+<img src="assets/do-not-localize/custom.svg"  width="60px">
+
+**[Inhalt](optimize-delivery.md)** personalisieren - korrekte Einstellungen anwenden
+
+<img src="assets/do-not-localize/profiles.svg"  width="60px">
+
+**[Definieren der richtigen Audience](define-the-right-audience.md)** - Anwenden der richtigen Einstellungen
+
+<img src="assets/do-not-localize/start.svg"  width="60px">
+
+**[Vor dem Senden](check-before-sending.md)** prüfen - gängige Fehler vermeiden
+
+<img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
+
+**[Verfolgen und überwachen](track-and-monitor.md)** - Senden und Fehlerbehebung steuern
+
+## Verwandte Inhalte
 
 * [Erste Schritte mit der Bereitstellung](../../sending/using/about-deliverability.md)
 
