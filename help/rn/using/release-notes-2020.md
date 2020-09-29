@@ -101,7 +101,7 @@ ht-degree: 99%
 * Checkboxes können in einer Landingpage jetzt zu Pflichtfeldern gemacht werden.
 * Beim Herunterladen der CSV-Datei eines dynamischen Berichts wurde das Limit von 200 Zeilen entfernt. Sie können jetzt jede Zeile Ihres Berichts einschließen. (CAMP-40810)
 * Die Sprache ES-US wurde der Liste nativer Sprachen für mehrsprachige E-Mails hinzugefügt. (CAMP-42279)
-* Dateien, die mit einer Dateiübertragungs-Aktivität heruntergeladen wurden, werden nun nach X Tagen gelöscht, wobei X durch das Feld **Verlauf in Tagen** unter dem Menü **Ausführung** in den Workflow-Eigenschaften bestimmt wird – [mehr dazu](../../automating/using/managing-execution-options.md)
+* Dateien, die mit einer Dateiübertragungs-Aktivität heruntergeladen wurden, werden nun nach X Tagen gelöscht, wobei X durch das Feld **Verlauf in Tagen** unter dem Menü **Ausführung** in den Workflow-Eigenschaften bestimmt wird. [Mehr dazu](../../automating/using/managing-execution-options.md)
 
 **Experience Platform-Integrationen**
 
@@ -172,7 +172,7 @@ ht-degree: 99%
 
 * Das Anwendererlebnis beim Transaktionsnachrichtenversand wurde verbessert; zudem wurde die Konsistenz der Benutzeroberfläche erhöht. [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard ermöglicht es Ihnen jetzt, mithilfe zusätzlicher Daten aus Workflows Testsendungen an Testprofile vorzunehmen.
-* Limits für die externe API-Aktivität wurden aktualisiert. [mehr dazu](../../automating/using/external-api.md)
+* Limits für die externe API-Aktivität wurden aktualisiert. [Mehr dazu](../../automating/using/external-api.md)
 
 **Verbesserungen bei Email Designer**
 
@@ -208,7 +208,7 @@ ht-degree: 99%
 
 * Bei der Workflow-Aktivität **Anreicherung** wird beim Hinzufügen von Leerzeichen im Feld **Alias** kein neues Zeilenelement mehr erstellt. (CAMP-39229)
 * Bei der Durchführung eines Testversands kann jetzt nicht mehr jedes beliebige Testprofil als Zielgruppe ausgewählt werden.
-* Nach der Depublikation und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Nach der Depublikation und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 * Die Schaltfläche **Speichern** verschwindet jetzt nicht mehr, wenn Änderungen an Workflows vorgenommen werden.
 * Beim manuellen Löschen einer Datenschutzanfrage in Campaign können nach deren Verarbeitung die mit der Anfrage verknüpften Daten auch nach der Bereinigung gelöscht werden.
 * Beim Anzeigen einer Vorschau oder beim Senden von Nachrichten mit Sonderzeichen aus Adobe Experience Manager tritt jetzt kein Fehler mehr auf.
