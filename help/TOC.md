@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
       + [Versionshinweise 2019](rn/using/release-notes-2019.md)
       + [Versionshinweise 2018](rn/using/release-notes-2018.md)
       + [Versionshinweise 2017](rn/using/release-notes-2017.md)
-   + [Freigabeplanung](rn/using/release-planning.md)
+   + [Versionsplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
 + Erste Schritte{#getting-started}
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
@@ -248,13 +248,13 @@ ht-degree: 98%
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Erste Schritte mit der Integration von Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Daten zwischen Kampagne und Dynamics 365 verwalten](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Daten zwischen Campaign und Dynamics 365 verwalten](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
       + [Integration anfordern](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Adobe-E/A konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Adobe I/O konfigurieren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [ Dynamics 365 für die Integration mit Campaign konfigurieren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Benutzerdefinierte Ressourcen und benutzerdefinierte Entitäten für die Kampagne zuordnen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [Verwenden der Dynamics 365-Integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Integrationsgarantien](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Benutzerdefinierte Campaign-Ressourcen und benutzerdefinierte Dynamics 365-Entitäten zuordnen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Integration mit Dynamics 365 verwenden](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Schutzmechanismen bei der Integration](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
