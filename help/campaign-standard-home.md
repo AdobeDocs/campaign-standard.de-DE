@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Neue Funktionen
 
-* **[Kontrollgruppen](sending/using/control-group.md)**<br/>Messen Sie die Auswirkungen Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen
+* **[Kontrollgruppen](sending/using/control-group.md)**<br/>Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
 
 * **[KI-gestützte E-Mails](sending/using/predictive.md)**<br/>Design und Versand mit KI-gestützten E-Mails optimieren.
 
