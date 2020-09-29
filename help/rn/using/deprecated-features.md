@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 84%
+ht-degree: 95%
 
 ---
 
@@ -114,12 +114,12 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Tendenzbewertung mit Experience Cloud-Auslösern</strong><br /> </th> 
+   <th> <strong>Neigungsbewertung mit Experience Cloud Triggers</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Der <b>Propensity-Score</b> wurde von Adobe Experience Cloud Triggers entfernt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte für den Propensity-Score in den Anreicherung-Schemas zu vermeiden, empfehlen wir, die Schema zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Auslöser erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Veröffentlichen eines Auslösers in der Kampagne </a>.
+   <td> <p>Die <b>Neigungsbewertung </b> wurde in Adobe Experience Cloud Triggers eingestellt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte der Neigungsbewertung in den Anreicherungsschemas zu vermeiden, empfehlen wir, die Schemas zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Triggers erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign">Trigger in Campaign publizieren</a>.
 </p></br>
    </td> 
   </tr> 
