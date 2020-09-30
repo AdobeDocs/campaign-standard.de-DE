@@ -11,8 +11,11 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa80fefc1c897afb8448fc0121705102091ecf5c
+translation-type: tm+mt
+source-git-commit: b0e69280912ee70e6f53efd24782474395c57f74
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +47,7 @@ Um eine sichere Service-to-Service-Adobe I/O-API-Sitzung herzustellen, muss jede
 
    * &lt;ORGANIZATION>: Ihre Produktionsinstanz,
    * &lt;ORGANIZATION-mkt-stage>: Ihre Staging-Instanz.
+
    Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um den Wert Ihrer Organisationskennung zu erhalten. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://www.adobe.io/authentication.html">Adobe I/O-Dokumentation</a>).
 
 * **&lt;ACCESS_TOKEN>**: Ihr persönlicher Zugriffstoken, der beim Austausch Ihres JSON-Web-Token über eine POST-Anfrage abgerufen wurde.
@@ -51,3 +55,17 @@ Um eine sichere Service-to-Service-Adobe I/O-API-Sitzung herzustellen, muss jede
 * **&lt;API_KEY>**: Ihr persönlicher API-Schlüssel. Er wird in Adobe I/O bereitgestellt, nachdem eine neue Integration mit Adobe Campaign Service erstellt wurde.
 
    ![Alternativtext](assets/tenant.png)
+
+## Fehlerbehebung
+
+Wenn bei der AdobeIO-Integration der folgende Fehler angezeigt wird:
+
+```
+{ 
+"code": 502, 
+"message": "Oops. Something went wrong. Check your URI and try again." 
+}
+```
+
+
+Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner für die Adobe, um zu prüfen, ob der CNAME-Parameter korrekt erstellt wurde.
