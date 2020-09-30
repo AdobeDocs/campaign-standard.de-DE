@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,7 +120,6 @@ ht-degree: 100%
 * Die Protokolle, die beim Exportieren von Packages angezeigt werden, wurden im Fehlerfall spezifischer und detaillierter hinsichtlich der aufgetretenen Fehler gestaltet.
 * Nach dem Senden einer Nachricht können Sie jetzt die Liste der [getrackten URLs](../../sending/using/tracking-messages.md) durchsuchen, filtern und exportieren.
 * Die automatische [Synchronisation zwischen Launch und Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ist jetzt allgemein verfügbar und standardmäßig aktiviert.
-* Transaktionsnachrichten können mit hoher Priorität gesendet werden, selbst im Falle eines erheblichen Arbeitsaufkommens beim gebündelten Versand.
 * Die Größe der Workflow-Export-Packages wurde optimiert, indem der Testversand-Export entfernt wurde.
 * Es wurde eine neue Meldung hinzugefügt, um die Größe der heruntergeladenen Datei in der Aktivität **Dateiübertragung** anzuzeigen.
 * Die Fehlermeldungen für ungültige Sitzungs-Token wurden verbessert.
@@ -134,6 +133,7 @@ ht-degree: 100%
 **Korrekturen**
 
 * Fehlerkorrektur – Ziel-Links können jetzt für Push-Benachrichtigungen oder In-App-Nachrichten verwendet werden, wenn Tracking aktiviert ist.
+* Es wurde ein Problem behoben, bei dem hohe Priorität in Transaktionsnachrichten nicht berücksichtigt wurde, wenn ein signifikanter Versand als Massenspeicher auftrat.
 * Fehlerkorrektur – Marken können jetzt Transaktions-E-Mails zugewiesen werden. Während des Publikationsschritts konnten mehrere Fehlermeldungen angezeigt werden. (CAMP-44988)
 * Fehlerkorrektur –Es können jetzt Informationen in Feldern in der Workflow-Benutzeroberfläche gespeichert werden, die numerische Werte erfordern. (CAMP-44025)
 * Fehlerkorrektur – Beim Verwenden einer **Testaktivität** in einem Workflow für Importvorlagen wird keine Fehlermeldung mehr angezeigt. (CAMP-42910)
