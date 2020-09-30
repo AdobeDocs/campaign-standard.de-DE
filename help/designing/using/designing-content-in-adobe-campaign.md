@@ -12,10 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -154,6 +154,8 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Bei der Bearbeitung von Stilen sind nur die Web Fonts verfügbar, die von den meisten E-Mail-Clients offiziell unterstützt werden.
 * Stile lassen sich nicht als Thema zur künftigen Wiederverwendung speichern. Doch der CSS-Stil kann in einer Inhaltsvorlage oder einer E-Mail gespeichert werden. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/styles.md).
+* Werber-Meta-Tag wird im E-Mail-Designer nicht unterstützt.
+* Ersatzzeichenpaare, die nicht in der Standard-Mehrsprachigkeit des Unicode-Zeichensatzes enthalten sind, können nicht in 2 Byte (16 Bit) gespeichert werden und müssen in 2 UTF-16-Zeichen kodiert werden. Zu diesen Zeichen gehören einige CJK-Ideogramme, die meisten Emojis und einige Sprachen.<br>Diese Zeichen können zu Inkompatibilitätsproblemen im dynamischen Text führen. Sie müssen vor dem Senden Ihrer Nachrichten starke Tests durchführen.
 
 **Verwandte Themen**
 
