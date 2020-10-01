@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2387'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,6 @@ ht-degree: 0%
 * **Verbesserungen bei der Workflow-Ausführung** (Beta): Im Rahmen einer globalen Initiative für Workflows wurden einige wichtige Verbesserungen entwickelt, um die Speicherverwaltung zu stabilisieren, die Latenz zu verringern und den von Workflows während der Ausführung verbrauchten Speicher zu optimieren. Diese Verbesserungen befinden sich derzeit in der Beta-Phase und stehen nur einer Reihe von Kunden zur Verfügung. Die allgemeine Verfügbarkeit ist für Anfang 2021 geplant.
 * Um die Sicherheit zu verbessern, verwendet Campaign jetzt einen **Signaturmechanismus** zum Verfolgen von Links in E-Mails.
 * Die Konfiguration mobiler Apps wurde durch **klarere Fehlermeldungen** beim Hochladen von iOS-Zertifikaten oder Android-Schlüsseln verbessert.
-* Für Push-Transaktionsnachrichten, die auf Profile abzielen, ist jetzt ein **neues Versand-Mapping** (mapRtEventAppSubRcp) verfügbar. Die Versand-, Ausschluss- und Trackinglogs für diese Sendungen stehen nun in den Tabellen &quot;broadLogAppSubRcp&quot;, &quot;excludeLogAppSubRcp&quot; und &quot;trackingLogAppSubRcp&quot; zur Verfügung. Dadurch wird ein Fehler behoben, der dazu führte, dass die Versandanalyse beim Senden einer Push-Transaktionsnachricht mit der Zieldimension **Profil** fehlschlug.
 * **Die Verwaltung von SMS- Fehlern** wurde verbessert, um zu verhindern, dass zu viele Profile zur Quarantäne-Liste hinzugefügt werden. Standardmäßig werden SMS-Fehler jetzt als Softbounces anstelle von Hardbounces konfiguriert. Mehr dazu erfahren Sie auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Verbesserungen bei Email Designer**
