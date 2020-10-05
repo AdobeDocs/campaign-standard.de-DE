@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2953'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 99%
 * Die organisatorische Einheit der Sicherheitsgruppe „Administratoren“ kann nicht mehr geändert werden.
 * Beim Erstellen eines Profils muss jetzt das Feld für die Organisationseinheit ausgefüllt werden.
 * Ein Experience Cloud Trigger kann jetzt nur gelöscht werden, wenn sowohl das Ereignis als auch die mit ihm verknüpfte Transaktionsvorlage gelöscht werden.
-* [!DNL Adobe Creative SDK] wurde stillgelegt. Es wird jetzt in Campaign Standard nicht mehr unterstützt. Näheres dazu finden Sie auf der Seite [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] wurde eingestellt. Es wird jetzt in Campaign Standard nicht mehr unterstützt. Näheres dazu finden Sie auf der Seite [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
 
 
 **Korrekturen**
