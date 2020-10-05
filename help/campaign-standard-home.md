@@ -2,13 +2,13 @@
 keywords: Campaign Standard;home;popular topics
 solution: Campaign
 title: Produktdokumentation zu Adobe Campaign Standard
-description: Produktdokumentation zum Durchsuchen von Campaign Standards
+description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
