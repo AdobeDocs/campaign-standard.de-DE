@@ -11,24 +11,24 @@ topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 60a67adf51881b785ad2f0b40ff544a0b9988afd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 
 # Adobe I/O für die Integration mit Microsoft Dynamics 365 konfigurieren
 
-Aktivieren Sie Ihre CRM-Daten bei der Kommunikation über Kanal hinweg: lernen Sie die Schritte, die während der Einrichtung vor der Integration erforderlich sind, um ein neues Adobe-IO-Projekt zu erstellen und es für die Microsoft Dynamics 365-Integration zu konfigurieren.
+Aktivieren Sie Ihre CRM-Daten für die kanalübergreifende Kommunikation: Lernen Sie die Schritte kennen, die während der Einrichtung vor der Integration erforderlich sind, um ein neues Adobe IO-Projekt zu erstellen und es für die Microsoft Dynamics 365-Integration zu konfigurieren.
 
 ## Übersicht
 
 Die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 wird auf [dieser Seite](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) beschrieben.
 
-Bevor Sie die in diesem Artikel beschriebene Vorintegrationseinrichtung durchführen, wird davon ausgegangen, dass Sie bereits bereitgestellt wurden und Administratorrechte auf die Campaign Standard-Instanz in Ihrem Unternehmen haben.  Ist dies nicht der Fall, setzen Sie sich mit der Adobe-Kundenunterstützung in Verbindung, um die Bereitstellung von Campaign abzuschließen.
+Bevor Sie die Einrichtungsschritte vor der Integration in diesem Artikel durchführen, wird davon ausgegangen, dass Sie bereits Administratorrechte für die Campaign Standard-Instanz Ihres Unternehmens erhalten haben.  Ist dies nicht der Fall, setzen Sie sich mit der Adobe-Kundenunterstützung in Verbindung, um die Bereitstellung von Campaign abzuschließen.
 
 >[!CAUTION]
 >
@@ -42,13 +42,13 @@ Sie müssen ein neues Adobe-IO-Projekt erstellen und für die Integration konfig
 
 Gehen Sie dazu wie folgt vor:
 
-1. Navigate to [Adobe IO Console](https://console.adobe.io/home#) and select your Adobe IMS Organization ID from the drop-down menu at the top right of the screen.
+1. Navigieren Sie zur [Adobe I/O-Konsole](https://console.adobe.io/home#) und wählen Sie im Dropdown-Menü oben rechts auf dem Bildschirm die Kennung Ihrer Adobe IMS-Organisation aus.
 
-1. Klicken Sie anschließend unter &quot; **[!UICONTROL Quick Beginn]** &quot;auf Neues Projekt **[!UICONTROL erstellen]**.
+1. Klicken Sie anschließend unter **[!UICONTROL Schnellstart]** auf **[!UICONTROL Neues Projekt erstellen]**.
 
    ![](assets/adobeIO1.png)
 
-1. Klicken Sie unter **[!UICONTROL Erste Schritte mit Ihrem neuen Projekt]** auf **[!UICONTROL Hinzufügen API]**.
+1. Klicken Sie unter **[!UICONTROL Erste Schritte mit Ihrem neuen Projekt]** auf **[!UICONTROL API hinzufügen]**.
 
    ![](assets/adobeIO2.png)
 
@@ -56,41 +56,41 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/adobeIO3.png)
 
-1. Im nächsten Bildschirm haben Sie die Möglichkeit, Ihren eigenen öffentlichen Schlüssel hochzuladen oder die Adobe IO das Schlüsselpaar für Sie generieren zu lassen. Diese Anweisungen folgen der letzteren Option. Wenn Sie sich dafür entscheiden, dass Adobe IO das Schlüsselpaar generiert, klicken Sie auf Option 1. Klicken Sie dann auf die Schaltfläche **[!UICONTROL Generate keypair]** .
+1. Auf dem nächsten Bildschirm haben Sie die Möglichkeit, Ihren eigenen öffentlichen Schlüssel hochzuladen oder Adobe IO das Schlüsselpaar für Sie generieren zu lassen. Diese Anweisungen entsprechen der letztgenannten Option. Wenn Sie sich dafür entscheiden, Adobe IO das Schlüsselpaar generieren zu lassen, klicken Sie auf Option 1. Klicken Sie dann auf die Schaltfläche **[!UICONTROL Generate keypair]**.
 
    ![](assets/adobeIO4.png)
 
-1. Im nächsten Bildschirm werden Sie aufgefordert, den Namen anzugeben und den Download-Speicherort der ZIP-Datei für das Schlüsselpaar auszuwählen.
+1. Auf dem nächsten Bildschirm werden Sie aufgefordert, den Download-Speicherort der Zip-Datei für das Schlüsselpaar zu nennen und auszuwählen.
 
-Nach dem Herunterladen können Sie die Datei entpacken, um die öffentlichen und privaten Schlüssel anzuzeigen. Adobe IO hat den öffentlichen Schlüssel bereits auf Ihr Adobe-IO-Projekt angewendet. Sie müssen später Ihren privaten Schlüssel behalten; Der private Schlüssel wird während der Einrichtung des Integrationstools vor der Integration verwendet.
+Nach dem Herunterladen können Sie die Datei entpacken, um die öffentlichen und privaten Schlüssel anzuzeigen. Adobe IO hat den öffentlichen Schlüssel bereits auf Ihr Adobe IO-Projekt angewendet. Sie müssen Ihren privaten Schlüssel für später aufbewahren. Der private Schlüssel wird während der Einrichtung des Integrations-Tools vor der Integration verwendet.
 
-1. Click **[!UICONTROL Next]** to continue
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um fortzufahren.
 
    ![](assets/adobeIO5.png)
 
-1. Im nächsten Bildschirm wählen Sie die Profile aus, die mit diesem Projekt verknüpft werden sollen. Wählen Sie das Produkt-Profil aus, das im Titel enthalten ist: Die Mandant-ID Ihrer Kampagne-Instanz - [!UICONTROL Administratoren]
+1. Auf dem nächsten Bildschirm wählen Sie Produktprofile aus, die diesem Projekt zugeordnet werden sollen. Wählen Sie das Produktprofil aus, das im Titel enthalten ist: Die Mandantenkennung Ihrer Campaign-Instanz – [!UICONTROL Administratoren]
 
-   Beispiel: Campaign Standard - Ihre Kampagne-MandantID - Administratoren
+   Beispiel: Campaign Standard – Ihre Campaign-Mandantenkennung – Administratoren
 
-1. Klicken Sie auf Konfigurierte API **[!UICONTROL speichern]**.
+1. Klicken Sie auf **[!UICONTROL Konfigurierte API speichern]**.
 
    ![](assets/adobeIO6.png)
 
-1. Im nächsten Bildschirm sehen Sie die Details Ihres neuen Adobe IO Projektes. Klicken Sie oben links im Bildschirm auf &quot; **[!UICONTROL Hinzufügen zu Projekt]** &quot;und wählen Sie in der Dropdown-Liste die Option &quot; **API** &quot;aus.
+1. Auf dem nächsten Bildschirm sehen Sie die Details Ihres neuen Adobe IO-Projekts. Klicken Sie oben links im Bildschirm auf **[!UICONTROL Zum Projekt hinzufügen]** und wählen Sie in der Dropdown-Liste die Option **API** aus.
 
    ![](assets/adobeIO7.png)
 
-1. Wählen Sie im nächsten Bildschirm die I/O-Ereignisse-API und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Wählen Sie im nächsten Bildschirm die I/O Events-API aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
-1. Klicken Sie im nächsten Bildschirm auf **[!UICONTROL Speichern der konfigurierten API]**.  Sie werden zum Projektinformationsbildschirm zurückgebracht.
+1. Klicken Sie im nächsten Bildschirm auf **[!UICONTROL Save the configured API]**.  Sie kehren zum Bildschirm mit den Projektdetails zurück.
 
-1. Klicken Sie nun oben links im Bildschirm auf **[!UICONTROL Hinzufügen zu Projekt]** und wählen Sie wie zuvor in der Dropdown-Liste die Option **API** .
+1. Klicken Sie nun oben links im Bildschirm auf **[!UICONTROL Add to Project]** und wählen Sie wie zuvor in der Dropdown-Liste die Option **API** aus.
 
-1. Im nächsten Bildschirm müssen Sie die I/O-Management-API auswählen und auf **[!UICONTROL Weiter]** klicken.
+1. Wählen Sie im nächsten Bildschirm die I/O Management-API aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
-1. Klicken Sie im nächsten Bildschirm auf **[!UICONTROL Speichern der konfigurierten API]**.
+1. Klicken Sie im nächsten Bildschirm auf **[!UICONTROL Save the configured API]**.
 
-Die Einrichtung der Kampagne vor der Integration ist jetzt abgeschlossen.  Fahren Sie fort mit dem Abschluss der [Vorintegration für Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
+Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.  Fahren Sie fort, um die [Einrichtung vor der Integration für Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md) abzuschließen.
 
 **Verwandte Themen**
 
