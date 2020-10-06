@@ -12,8 +12,11 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
@@ -81,4 +84,3 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 * [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../channels/using/about-sms-and-push-content-design.md)
 * [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md)
 * Video [Create an SMS delivery](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html)
-
