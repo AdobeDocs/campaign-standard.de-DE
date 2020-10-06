@@ -43,7 +43,7 @@ Wählen Sie in der Liste eine Aktivität aus, um auf ihren Inhalt zugreifen zu k
 
 Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](#creating-a-marketing-activity).
 
-## Symbole und Status von Marketingaktivitäten  {#marketing-activity-icons-and-statuses}
+## Symbole und Status von Marketingaktivitäten   {#marketing-activity-icons-and-statuses}
 
 Im Arbeitsbereich wird jeder Aktivitätstyp durch ein repräsentatives Symbol dargestellt:
 
