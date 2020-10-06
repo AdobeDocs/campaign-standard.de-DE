@@ -12,11 +12,11 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1832'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Die folgenden externen Konten können eingerichtet werden:
 * Adobe Analytics. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#google-recaptcha-external-account).
 * Microsoft Azure Blob Storage. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#microsoft-azure-external-account).
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#oauth-account).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Externe Konten werden von technischen Prozessen, wie technischen Workflows oder 
 
 Das externe Konto wurde erstellt und ist nun in der Liste der Konten sichtbar. Es steht jetzt für Ihre Daten-/Dateitransfers oder Routing-Konfigurationen in Workflow-Aktivitäten und Versandeigenschaften bereit.
 
-## Externes SFTP-Konto      {#sftp-external-account}
+## Externes SFTP-Konto       {#sftp-external-account}
 
 Unterschiedliche Typen externer Konten erfordern die Angabe unterschiedlicher Informationen.
 
@@ -70,7 +70,7 @@ Geben Sie für ein externes SFTP-Konto die folgenden Details an:
 * Port-Nummer, z. B. **22**
 * SFTP-Server-Zugangsdaten: Kontoname und Passwort, die zur Verbindung mit dem Server verwendet werden
 
-### Empfehlungen für von Adobe gehostete SFTP-Server      {#adobe-hosted-sftp-server-recommendations}
+### Empfehlungen für von Adobe gehostete SFTP-Server       {#adobe-hosted-sftp-server-recommendations}
 
 Wenn Dateien und Daten für ETL-Zwecke verwaltet werden, werden diese Dateien auf einem von Adobe bereitgestellten gehosteten SFTP-Server gespeichert. Dieser SFTP-Server ist ein vorübergehender Speicherplatz, auf dem Sie die Aufbewahrung und Löschung von Dateien selbst kontrollieren können.
 
@@ -87,7 +87,7 @@ Um solche Probleme zu vermeiden, empfiehlt Adobe, die unten stehenden Best Pract
 * Melden Sie sich gelegentlich beim SFTP-Server direkt an, um dessen Inhalt zu prüfen.
 * Beachten Sie bitte, dass die Verwaltung des SFTP-Speichers hauptsächlich Ihre Verantwortung ist.
 
-Beachten Sie außerdem, dass die öffentlichen IPs, von denen Sie versuchen, die SFTP-Verbindung zu starten, der Zulassungsliste in der Kampagne hinzugefügt werden müssen. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Beachten Sie außerdem, dass die öffentlichen IPs, mit denen Sie die SFTP-Verbindung aufbauen, in der Campaign-Instanz auf der Zulassungsliste stehen müssen. Wenn Sie IP-Adressen auf eine Zulassungsliste setzen lassen möchten, senden Sie ein [Support-Ticket](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) und stellen Sie den öffentlichen Schlüssel zur Authentifizierung bereit.
 
 SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -98,20 +98,20 @@ SFTP-Server können über das Control Panel verwaltet werden. Weitere Informatio
 
 ## OAuth 2.0-Konto {#oauth-account}
 
-Geben Sie für ein OAuth 2.0-Externe Konto die folgenden Details an:
+Geben Sie für ein externes OAuth 2.0-Konto die folgenden Details an:
 
-* Ein **Fördertyp**: Nur **Clientberechtigungen** werden unterstützt.
+* Ein **Grant-Typ**: Es werden nur **Client-Zugangsdaten** unterstützt.
 * Eine **sichere API-URL**: Geben Sie den Autorisierungsendpunkt ein.
-* **Für OAuth 2.0 vertrauliche Anmeldeinformationen**: Dieser Abschnitt ist für Berechtigungen gedacht, die naturgemäß sensibel sind. Berechtigungswerte werden nach dem Hinzufügen auf dem Bildschirm maskiert. an diesem Punkt sind sie weder lesbar noch bearbeitbar. Wenn für den Autorisierungs-Endpunkt eine bestimmte Berechtigung in den HTTP-Autorisierungs-Header anstelle des Body-Parameters der POST eingefügt werden muss, können Sie die Option In Kopfzeile einschließen für diese Berechtigung auswählen.
-* **Nicht vertrauliche OAuth 2.0-Anmeldeinformationen**: Dieser Abschnitt ist für Berechtigungen gedacht, die naturgemäß nicht sensibel sind. Berechtigungswerte werden nach dem Hinzufügen auf dem Bildschirm angezeigt. sie werden ebenfalls bearbeitbar sein.  Wenn für den Autorisierungs-Endpunkt eine bestimmte Berechtigung in den HTTP-Autorisierungs-Header anstelle des Body-Parameters der POST eingefügt werden muss, können Sie die Option In Kopfzeile einschließen für diese Berechtigung auswählen.
+* **Vertrauliche OAuth 2.0-Zugangsdaten**: Dieser Abschnitt ist für vertrauliche Zugangsdaten gedacht. Die Zugangsdaten werden nach dem Hinzufügen auf dem Bildschirm maskiert. Zu diesem Zeitpunkt sind sie weder lesbar noch bearbeitbar. Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
+* **Nicht vertrauliche OAuth 2.0-Zugangsdaten**: Dieser Abschnitt ist für nicht vertrauliche Zugangsdaten gedacht. Die Zugangsdaten werden nach dem Hinzufügen auf dem Bildschirm angezeigt. Sie können auch bearbeitet werden.  Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
 
-Klicken Sie nach Abschluss der Konfiguration auf **Testanschluss** , um zu überprüfen, ob das Externe Konto korrekt eingerichtet ist.
+Klicken Sie nach Abschluss der Konfiguration auf **Connector testen**, um zu überprüfen, ob das externe Konto korrekt eingerichtet ist.
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->Die Anmeldeinformationen &quot;Content-Type: application/x-www-form-urlencoded&quot;und &quot;grant_type=client_credentials&quot;werden automatisch zum API-Aufruf hinzugefügt; Daher müssen Sie sie nicht im Abschnitt &quot;Anmeldeinformationen&quot;hinzufügen.
+>Die Zugangsdaten &quot;Content-Type: application/x-www-form-urlencoded&quot; und &quot;grant_type=client_credentials&quot; werden dem API-Aufruf automatisch hinzugefügt. Sie müssen sie daher nicht im Abschnitt für Zugangsdaten hinzufügen.
 
 ## Externes Amazon-S3-Konto {#amazon-s3-external-account}
 
@@ -157,7 +157,7 @@ Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informa
 
 * Zugangsdaten zum AEM-Konto: Verwenden Sie das Konto, über das auf die Adobe-Experience-Manager-Instanz zugegriffen wird. Es sollte ein Konto sein, das Teil der campaign-remote-Gruppe in Adobe Experience Manager ist.
 
-## Externes Google-reCAPTCHA-Konto      {#google-recaptcha-external-account}
+## Externes Google-reCAPTCHA-Konto       {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
