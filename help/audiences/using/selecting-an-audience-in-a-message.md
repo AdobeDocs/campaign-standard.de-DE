@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -46,19 +46,19 @@ Audiences können im Zuge der Nachrichtenerstellung im Assistenten oder im Nachh
 
    Im Tab **[!UICONTROL Zielgruppe]** werden aus den identifizierten Profilen der Datenbank diejenigen ausgewählt, die den Versand erhalten sollen.
 
-   Dies kann beispielsweise unter Verwendung des [Abfragetools](../../automating/using/editing-queries.md#creating-queries) geschehen.
+   Dies kann beispielsweise unter Verwendung des [Abfrageeditors](../../automating/using/editing-queries.md#creating-queries) geschehen.
 
    Wenn Sie sich im Zielgruppe-Tab befinden, zeigt die Palette der **[!UICONTROL Schnellzugriffe]** nur vordefinierte Filter und Audiences, die sich auf identifizierte Profile beziehen. Der **[!UICONTROL Explorer]**-Tab bietet Zugriff auf fortgeschrittene Konfigurationen.
 
-   Sie haben die Möglichkeit, zuvor erstellte Audiences wiederzuverwenden und zu kombinieren, bzw. durch das Hinzufügen von Filtern weiter einzuschränken.
+   Sie haben die Möglichkeit, zuvor erstellte Audiences wiederzuverwenden und zu kombinieren bzw. durch das Hinzufügen von Filtern weiter einzuschränken.
 
 1. Definieren Sie die **[!UICONTROL Testprofile]**, die Sie für die E-Mail verwenden möchten. Die Testprofile erhalten Testsendungen, die Sie probeweise senden können, bevor Sie die endgültige E-Mail an die Hauptzielgruppe senden.
 
    Weiterführende Informationen zur Testprofil-Konfiguration finden Sie im Abschnitt [Testprofile](../../audiences/using/managing-test-profiles.md).
 
-1. Bei Bedarf können Sie eine Kontrollgruppe auf der entsprechenden Registerkarte definieren. Auf diese Weise können Sie einige Profil aus Ihrer Zielgruppe entfernen, damit sie die Nachricht nicht erhalten. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+1. Bei Bedarf können Sie über den entsprechenden Tab eine Kontrollgruppe definieren. Auf diese Weise können Sie einige Profile aus Ihrer Zielgruppe entfernen, damit diese die Nachricht nicht erhalten. Weitere Informationen finden Sie unter [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md).
 
-1. Sie können auch Ersatzadressen verwenden, um eine genaue Darstellung der Nachricht zu erhalten, die das Profil erhalten soll.  Weiterführende Informationen finden Sie unter [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md).
+1. Sie können auch Ersatzadressen verwenden, um eine genaue Darstellung der Nachricht zu erhalten, die das Profil erhält.  Weiterführende Informationen finden Sie unter [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md).
 
 Nach Abschluss der Konfigurationen zeigt die Audiences-Kachel an, dass sowohl die Zielgruppe als auch Testprofile definiert wurden.
 
