@@ -12,11 +12,11 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1821'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 * Anreicherung von Daten beliebiger Adobe-Campaign-Tabellen;
 * Export von Daten.
 
-## Konfiguration   {#configuration}
+## Konfiguration    {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Abfrage]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png). Die Standardkonfiguration der Aktivität sieht die Suche nach Profilen vor.
@@ -63,15 +63,15 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 
 1. Im Tab **[!UICONTROL Transition]** können Sie mit der Option **[!UICONTROL Ausgehende Transition erzeugen]** im Anschluss an eine Abfrageaktivität eine ausgehende Transition hinzufügen, selbst wenn keine Daten abgefragt werden.
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+   Der Segment-Code der ausgehenden Transition kann mit einem Standardausdruck und mit Ereignisvariablen personalisiert werden (siehe [](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Zielgruppendimensionen und Ressourcen   {#targeting-dimensions-and-resources}
+## Zielgruppendimensionen und Ressourcen    {#targeting-dimensions-and-resources}
 
 Mit Zielgruppendimensionen und Ressourcen können Sie definieren, auf welchen Elementen eine Abfrage basieren soll, um die Zielgruppe eines Versands zu bestimmen.
 
-Sie werden in [Zielgruppen-Mappings](../../administration/using/target-mappings-in-campaign.md)konfiguriert und beim Erstellen eines Workflows auf der Registerkarte &quot; **[!UICONTROL Eigenschaften]** &quot;einer Abfrage-Aktivität definiert.
+Sie werden in [Zielgruppen-Mappings](../../administration/using/target-mappings-in-campaign.md) konfiguriert und beim Erstellen eines Workflows im Tab **[!UICONTROL Eigenschaften]** einer Abfrage-Aktivität definiert.
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Nach dem Hinzufügen von Zusatzdaten können Sie die zunächst von der Abfrage a
 
 In [diesem Abschnitt](../../automating/using/personalizing-email-with-additional-data.md) wird ein Anwendungsfall vorgestellt, wie eine E-Mail mit zusätzlichen Daten personalisiert werden kann.
 
-### Einfaches Feld hinzufügen   {#adding-a-simple-field}
+### Einfaches Feld hinzufügen    {#adding-a-simple-field}
 
 Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres direkt in der ausgehenden Transition der Aktivität sichtbar. Dadurch lässt sich beispielsweise überprüfen, ob die aus der Abfrage hervorgehenden Daten Ihren Vorstellungen entsprechen.
 
@@ -138,7 +138,7 @@ Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres dire
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Aggregat hinzufügen   {#adding-an-aggregate}
+### Aggregat hinzufügen    {#adding-an-aggregate}
 
 Aggregate dienen der Berechnung von Werten, die auf Feldern der Zielgruppendimension oder auf Feldern aus mit der Zielgruppendimension in Relation stehenden Dimensionen basieren. Zum Beispiel: der Durchschnitt der von einem Profil erteilten Bestellungen.
 Bei Verwendung von Aggregat mit Abfrage kann die Funktion auf null zurückgesetzt werden, was dann als NULL gilt. Filtern Sie den aggregierten Wert auf dem Tab **[!UICONTROL Ergebnis verfeinern]** Ihrer Abfrage:
