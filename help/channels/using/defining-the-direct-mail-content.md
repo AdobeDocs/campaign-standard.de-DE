@@ -12,8 +12,11 @@ discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
 
@@ -69,4 +72,3 @@ So können Sie beispielsweise bei Briefpost die Absenderinformationen im Header 
 Die Absenderadresse wird im Bereich **[!UICONTROL Senden]** der Briefposteigenschaften oder auf Vorlagenebene definiert.
 
 ![](assets/direct_mail_24.png)
-
