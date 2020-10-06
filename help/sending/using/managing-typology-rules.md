@@ -12,11 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Die wichtigsten Schritte zum Erstellen einer Typologieregel sind:
 
 1. Bestätigen Sie nach Auswahl aller Typologien die Erstellung der Typologieregel mit **[!UICONTROL Erstellen]**.
 
-## Ausführungsreihenfolge von Typologieregeln   {#typology-rules-execution-order}
+## Ausführungsreihenfolge von Typologieregeln    {#typology-rules-execution-order}
 
 Die Typologieregeln werden in der Reihenfolge ausgeführt, die während der Zielgruppenbestimmung, Analyse und Nachrichtenpersonalisierung festgelegt wird.
 
@@ -72,7 +72,7 @@ Im Standard-Ausführungsmodus werden die Regeln in der folgenden Reihenfolge aus
 1. Kontrollregeln, wenn sie zu Beginn der Zielgruppenbestimmung angewendet werden
 1. Filterregeln:
 
-   * Native Antragsregeln für Adressqualifikation: definierte Adresse/nicht verifizierte Adresse/Adresse auf Blockierungsliste/unter Quarantäne gestellte Adresse/Adressqualität.
+   * Native Anwendungsregeln für die Adressqualifizierung: definierte Adresse / nicht verifizierte Adresse / Adresse auf der Blockierungsliste / Adresse in Quarantäne / Qualität der Adresse.
    * Vom Benutzer definierte Filterregeln
 
 1. Kontrollregeln, wenn sie am Ende der Zielgruppenbestimmung angewendet werden
