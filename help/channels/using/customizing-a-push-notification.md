@@ -12,11 +12,11 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -116,11 +116,7 @@ Durch das Festlegen eines Ablaufdatums für eine Push-Benachrichtigung wird dies
 
 So fügen Sie Ihrer Push-Benachrichtigung ein Ablaufdatum hinzu:
 
-1. Aktivieren Sie die Option für den **[!UICONTROL Ablauf der Nachricht]**.
-
-   >[!NOTE]
-   >
-   >Durch die Auswahl der Option **[!UICONTROL Ablauf der Nachricht]** wird die Dauer automatisch auf 0 eingestellt. Wenn Sie den Wert nicht ändern, versuchen sowohl APNS als auch FCM, die Nachricht sofort zu senden. Wenn der Versand fehlschlägt, wird die Nachricht nicht erneut gesendet.
+1. Aktivieren Sie die Option **[!UICONTROL Läuft ab-Meldung]** : durch Auswahl der Option **[!UICONTROL Läuft ab-Meldung]** wird die Dauer automatisch auf 0 eingestellt. Wenn Sie den Wert nicht ändern, versuchen sowohl APNS als auch FCM, die Nachricht sofort zu senden. Wenn der Versand fehlschlägt, wird die Nachricht nicht erneut gesendet.
 
 1. Wählen Sie im Feld **[!UICONTROL Dauer]** die Gültigkeitsdauer Ihrer Push-Benachrichtigung aus.
 
@@ -191,4 +187,3 @@ Geben Sie für Android im Feld **URL für Rich-Media-Daten** die URL Ihrer Datei
 Mit der Option **[!UICONTROL Hohe Priorität]** können Sie für eine Push-Benachrichtigung hohe oder normale Priorität festlegen. Weiterführende Informationen zur Priorität von Nachrichten finden Sie im [Handbuch für Google-Entwickler](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).
 
 ![](assets/push_notif_advanced_11.png)
-
