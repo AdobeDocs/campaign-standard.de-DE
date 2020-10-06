@@ -1,6 +1,6 @@
 ---
 title: Workflow mit externen Parametern aufrufen
-description: In diesem Abschnitt wird beschrieben, wie ein Workflow mi externen Parametern aufgerufen wird.
+description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen Parametern aufgerufen wird.
 page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat
@@ -11,22 +11,22 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
-# Workflow mit externen Parametern anpassen   {#customizing-a-workflow-with-external-parameters}
+# Workflow mit externen Parametern anpassen    {#customizing-a-workflow-with-external-parameters}
 
-Sobald der Workflow ausgelöst wurde, werden die Parameter in die Ereignis-Variablen eingebunden und können zum Anpassen der Workflow-Aktivitäten verwendet werden.
+Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen aufgenommen und können zur Anpassung der Workflow-Aktivitäten verwendet werden.
 
-So kann mit ihnen beispielsweise definiert werden, welche Audience in der Aktivität **[!UICONTROL Audience lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu transferierenden Datei lautet. (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+So kann mit ihnen beispielsweise definiert werden, welche Audience in der Aktivität **[!UICONTROL Audience lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu transferierenden Datei lautet. (Siehe [](../../automating/using/customizing-workflow-external-parameters.md)).
 
-## Verwendung von Ereignisvariablen   {#using-events-variables}
+## Verwendung von Ereignisvariablen    {#using-events-variables}
 
 Ereignisvariablen werden innerhalb eines Ausdrucks verwendet, der die [Standardsyntax](../../automating/using/advanced-expression-editing.md#standard-syntax) berücksichtigen muss.
 
@@ -51,45 +51,45 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): ausdruck bearbeiten, die Variablen und Funktionen kombinieren (siehe [](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): Hier können Sie Ausdrücke durch eine Kombination von Variablen und Funktionen bearbeiten (siehe [](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-   Diese Liste bietet Funktionen, mit denen Sie komplexe Filtervorgänge durchführen können. Diese Funktionen sind in [diesem Abschnitt](../../automating/using/list-of-functions.md)ausführlich beschrieben.
+   Diese Liste bietet Funktionen, mit denen Sie komplexe Filtervorgänge durchführen können. Diese Funktionen sind in [diesem Abschnitt](../../automating/using/list-of-functions.md) ausführlich beschrieben.
 
-   Darüber hinaus können Sie die folgenden Funktionen verwenden, die in allen Aktivitäten verfügbar sind, mit denen Sie nach dem Aufruf eines Workflows mit externen Parametern Ereignis-Variablen verwenden können (siehe [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+   Darüber hinaus können Sie die folgenden Funktionen verwenden, die in allen Aktivitäten zur Verfügung stehen, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen (siehe [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Name | Beschreibung  | Syntax |
    ---------|----------|---------
-   | endWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) endet. | EndWith(&lt;String>,&lt;String>) |
-   | startWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) Beginn. | startWith(&lt;String>,&lt;String>) |
-   | Extract | Gibt die ersten Zeichen einer Zeichenfolge mit einer Trennlinie zurück. | Extract(&lt;String>,&lt;Separator>) |
-   | ExtractRight | Gibt die letzten Zeichen einer Zeichenfolge mit einer Trennlinie zurück. | ExtractRight(&lt;String>,&lt;Separator>) |
-   | DateFormat | Formatiert ein Datum unter Verwendung des im zweiten Parameter angegebenen Formats (Beispiel:  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Datum>,&lt;Format>) |
+   | EndWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) endet. | EndWith(&lt;String>,&lt;String>) |
+   | startWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) beginnt. | startWith(&lt;String>,&lt;String>) |
+   | Extract | Gibt die ersten Zeichen einer Zeichenfolge mithilfe eines Trennzeichens zurück. | Extract(&lt;String>,&lt;Separator>) |
+   | ExtractRight | Gibt die letzten Zeichen einer Zeichenfolge mithilfe eines Trennzeichens zurück. | ExtractRight(&lt;String>,&lt;Separator>) |
+   | DateFormat | Formatiert ein Datum mit dem im 2. Parameter angegebenen Format (Beispiel: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
    | FileName | Gibt den Namen eines Dateipfads zurück. | FileName(&lt;String>) |
    | FileExt | Gibt die Erweiterung eines Dateipfads zurück. | FileExt(&lt;String>) |
    | IsNull | Gibt an, ob eine Zeichenfolge oder ein Datum null ist. | IsNull(&lt;String/date>) |
-   | UrlUtf8Encode | Kodiert eine URL in UTF8. | UrlUtf8encode(&lt;String>) |
+   | UrlUtf8Encode | Kodiert eine URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 
-## Aktivitäten mit Ereignisvariablen anpassen   {#customizing-activities-with-events-variables}
+## Aktivitäten mit Ereignisvariablen anpassen    {#customizing-activities-with-events-variables}
 
 Die im folgenden Abschnitt aufgelisteten Aktivitäten können mit Ereignisvariablen angepasst werden. Weiterführende Informationen zum Aufruf einer Variablen in einer Aktivität finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-Aktivität **[!UICONTROL Audience lesen]**: Hier können Sie die auszuwählende Audience auf der Basis von Ereignisvariablen definieren. For more on how to use the activity, refer to [this section](../../automating/using/read-audience.md).
+Aktivität **[!UICONTROL Audience lesen]**: Hier können Sie die auszuwählende Audience auf der Basis von Ereignisvariablen definieren. Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Aktivität Test]**: Hier können Sie Bedingungen auf der Basis von Ereignisvariablen spezifizieren. For more on how to use the activity, refer to [this section](../../automating/using/test.md).
+**[!UICONTROL Aktivität Test]**: Hier können Sie Bedingungen auf der Basis von Ereignisvariablen spezifizieren. Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Aktivität Dateiübertragung]**: Hier können Sie die zu übertragende Datei auf der Basis von Ereignisvariablen anpassen. For more on how to use the activity, refer to [this section](../../automating/using/transfer-file.md).
+**[!UICONTROL Aktivität Dateiübertragung]**: Hier können Sie die zu übertragende Datei auf der Basis von Ereignisvariablen anpassen. Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Aktivität Abfrage]**: Parameter können in einer Abfrage durch die Verwendung von Ausdrücken referenziert werden, die Ereignisvariablen und Funktionen kombinieren. Fügen Sie zu diesem Zweck eine Regel hinzu und wählen Sie dann den Link **[!UICONTROL Erweiterter Modus]** aus, um das Ausdrucksbearbeitungsfenster zu öffnen (siehe [Ausdrucksbearbeitung](../../automating/using/advanced-expression-editing.md)).
 
-For more on how to use the activity, refer to [this section](../../automating/using/query.md).
+Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
