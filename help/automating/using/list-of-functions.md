@@ -11,11 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1942'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Fu
 
 >[!NOTE]
 >
->Zusätzliche Funktionen sind in allen Aktivitäten verfügbar, mit denen Sie nach dem Aufruf eines Workflows mit externen Parametern Ereignis-Variablen verwenden können. They are detailed in [this section](../../automating/using/customizing-workflow-external-parameters.md).
+>Es stehen zusätzliche Funktionen in allen Aktivitäten zur Verfügung, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Datumsangaben {#dates}
 
@@ -286,7 +286,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
  </tbody> 
 </table>
 
-## Geomarketing  {#geomarketing}
+## Geomarketing   {#geomarketing}
 
 Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
 
@@ -305,7 +305,7 @@ Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
  </tbody> 
 </table>
 
-## Numerisch  {#numerical}
+## Numerisch   {#numerical}
 
 Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
@@ -389,7 +389,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
  </tbody> 
 </table>
 
-## Sonstige  {#others}
+## Sonstige   {#others}
 
 In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 
@@ -483,7 +483,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  </tbody> 
 </table>
 
-## String  {#string}
+## String   {#string}
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
@@ -718,7 +718,7 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
  </tbody> 
 </table>
 
-## Darstellung  {#representation}
+## Darstellung   {#representation}
 
 Die Darstellungsfunktionen dienen der Ordnung von Werten.
 
