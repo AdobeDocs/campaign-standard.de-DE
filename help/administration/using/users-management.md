@@ -11,11 +11,11 @@ topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Funktionale Administratoren sind Benutzer, die Zugriff auf die meisten technisch
 
 >[!CAUTION]
 >
->Nur Funktionaladministratoren mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Abonnement können auf die Protokolle zum Senden, Melden, Trackinglogs, Ausschlussprotokolle, Ausschlussprotokolle, Propositionsprotokolle und Protokolle zugreifen. Ein Benutzer, der keine Administratoren ist, kann diese Protokolle zwar Zielgruppe, jedoch auf einer verknüpften Tabelle (Profil, Versand) beginnen.
+>Nur funktionale Administratoren mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Einheiten können auf Versandlogs, Nachrichtenprotokolle, Trackinglogs, Ausschluss-Logs, Vorschlagsprotokolle und Abonnenten-Logs zugreifen. Ein Benutzer ohne Administratorrechte kann diese Protokolle ansprechen, muss aber mit einer verknüpften Tabelle (Profile, Versand) beginnen.
 
 Funktionale Administratoren sind die einzigen Benutzer, die in der Adobe Campaign-Benutzeroberfläche Zugriff auf das Menü **[!UICONTROL Administration]** haben. Da diese Benutzer Zugriff auf technische Ressourcen benötigen, sollten ihnen erweiterte Benutzerrollen zugewiesen werden, wie etwa die vordefinierten Rollen **[!UICONTROL Administration]** und **[!UICONTROL Data Model]**. Diese Rollen sind in der vordefinierten Sicherheitsgruppe **[!UICONTROL Administrator]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
@@ -78,7 +78,7 @@ Dies sind ihre Hauptaufgaben:
 * [Daten-Packages exportieren und importieren](../../automating/using/managing-packages.md): Austausch von Ressourcen zwischen unterschiedlichen Adobe-Campaign-Instanzen mithilfe strukturierter XML-Dateien
 * [Logs exportieren](../../automating/using/exporting-logs.md) und [Importvorlagen definieren](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
-### Benutzer mit fortgeschrittenen Kenntnissen       {#advanced-users}
+### Benutzer mit fortgeschrittenen Kenntnissen        {#advanced-users}
 
 Diese Benutzer sind Marketing-Experten, die Adobe Campaign auf eine vorwiegend technische Art verwenden. Sie konfigurieren alle Elemente, die Marketer für den Versand und die Überwachung von Nachrichten verwenden.
 
@@ -92,7 +92,7 @@ Dies sind ihre Hauptaufgaben:
 * [Fortgeschrittene Bearbeitung von Ausdrücken](../../automating/using/editing-queries.md#about-query-editor): Einsatz fortgeschrittener Funktionen zur Bearbeitung für Abfragen verwendeter Werte (Datumsangaben, Strings, numerische Felder, Sortierung usw.)
 * [Listen exportieren](../../automating/using/exporting-lists.md) und [Daten mithilfe von Importvorlagen importieren](../../automating/using/importing-data-with-import-templates.md)
 
-### Benutzer mit Grundkenntnissen       {#basic-users}
+### Benutzer mit Grundkenntnissen        {#basic-users}
 
 Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntnissen können Marketer Kampagnen personalisieren, versenden und überwachen, ohne sich über die technischen Feinheiten den Kopf zerbrechen zu müssen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Sendungen vorbereiten]**, **[!UICONTROL Workflow]** und **[!UICONTROL Sendungen starten]** zugewiesen werden. Diese Rollen sind in der vordefinierten Sicherheitsgruppe **[!UICONTROL Standardbenutzer]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
