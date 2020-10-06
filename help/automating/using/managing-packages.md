@@ -12,9 +12,9 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Die einzelnen Elemente der Export- oder Importliste werden standardmäßig in ab
 
 Klicken Sie zur Anzeige und Bearbeitung des Inhalts eines Elements auf dessen Titel. Lesen Sie diesbezüglich auch die Abschnitte [Package exportieren](#exporting-a-package) und [Package importieren](#importing-a-package).
 
-## Package-Exporte {#package-exports}
+## Package-Exporte  {#package-exports}
 
 ### Standard-Packages {#standard-packages}
 
@@ -60,7 +60,7 @@ Der Package-Export wird im Abschnitt [Package exportieren](#exporting-a-package)
 >
 >Der Inhalt dieser beiden Packages kann nicht verändert werden. Diese Packages enthalten immer die aktuellsten Daten. Sie können [Ihre eigenen Packages erstellen](#creating-a-package), um bestimmte Elemente zu exportieren.
 
-### Package-Erstellung {#creating-a-package}
+### Package-Erstellung  {#creating-a-package}
 
 Zum Export bestimmter Datensätze müssen Sie ein Package erstellen.
 
@@ -99,7 +99,7 @@ Zur Erstellung eines Packages benötigen Sie Administratorrechte.
 
 Ihr Package wurde erstellt und kann jetzt exportiert werden.
 
-### Package exportieren {#exporting-a-package}
+### Package exportieren  {#exporting-a-package}
 
 Durch den Export von Packages können Sie einen bestimmten Status einer Ressource speichern. Diese können Sie in eine andere Instanz oder zu einem späteren Zeitpunkt in derselben Instanz wieder importieren
 
@@ -125,7 +125,7 @@ Nach Abschluss des Vorgangs werden weitere Informationen angezeigt:
 
 >[!NOTE]
 >
->Wenn Sie ausgehend von der Package-Definition-Liste ein Element öffnen, das bereits exportiert wurde, stehen die Tabs **[!UICONTROL Protokoll]** und **[!UICONTROL Letzter Export]** sofort zur Verfügung.
+>Wenn Sie ausgehend von der Package-Definition-Liste ein Element öffnen, das bereits exportiert wurde, stehen die Tabs **[!UICONTROL Protokoll]** und **[!UICONTROL Letzter Export]** noch immer zur Verfügung.
 
 ## Package-Importe {#package-imports}
 
@@ -143,7 +143,7 @@ In der **[!UICONTROL Ausführungslogs]**-Ansicht werden alle Importetappen angez
 >
 >Diese Informationen sind schreibgeschützt.
 
-### Package importieren {#importing-a-package}
+### Package importieren  {#importing-a-package}
 
 Ein Administrator kann ein zuvor aus einer Adobe-Campaign-Instanz exportiertes Package manuell importieren. Weiterführende Informationen finden Sie im Abschnitt [Package-Exporte](#package-exports).
 
