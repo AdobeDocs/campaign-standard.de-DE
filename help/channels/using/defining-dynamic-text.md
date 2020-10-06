@@ -12,7 +12,7 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 71%
@@ -52,4 +52,3 @@ Im folgenden Beispiel wird beschrieben, wie dynamischer Text in einer SMS defini
 Wenn für zumindest eine Variante eine Bedingung definiert wurde, wird um den dynamischen Text ein violetter Rahmen angezeigt.
 
 ![](assets/dynamic_text_sms_3.png)
-
