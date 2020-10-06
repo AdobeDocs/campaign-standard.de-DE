@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Verwalten Sie die Berechtigungen und Einverständniserklärungen der Kunden mith
 
 Bei der Erstellung von Kampagnen oder Nachrichten kann die Versandzielgruppe aus in der Campaign-Datenbank vorhandenen Kontakten nach einfachen oder erweiterten Kriterien oder durch die Auswahl von Audiences zusammengestellt werden.
 
-Identify customers more effectively across all your channels using **integrated customer profiles**, **customized segments** and **control groups**. Wenn Sie Ihre Kunden, deren Interessen, demografische Daten und Kanalpräferenzen kennen, ist es einfacher, personalisierte, ansprechende Erlebnisse zu erstellen.
+Mit **integrierten Kundenprofilen**, **benutzerdefinierten Segmenten** und **Kontrollgruppen** können Sie Kunden auf allen Ihren Kanälen effektiver identifizieren. Wenn Sie Ihre Kunden, deren Interessen, demografische Daten und Kanalpräferenzen kennen, ist es einfacher, personalisierte, ansprechende Erlebnisse zu erstellen.
 
 In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch Sie relevante und personalisierte Angebote entsprechend den Präferenzen Ihrer Kunden versenden können. Zusätzlich verfügt Adobe Campaign zur Definition von Audiences über erweiterte Funktionen zur Analyse, Datenverwaltung und Zielgruppenbestimmung.
 
@@ -67,7 +67,7 @@ Bevor Sie einem Kontakt Nachrichten senden, müssen Sie sicherstellen, dass Sie 
 
 Wir empfehlen in Campaign **einfache Anmelde- und Abmeldemöglichkeiten** über [Dienste](../../audiences/using/creating-a-service.md) und [Landingpages](../../channels/using/getting-started-with-landing-pages.md) zu verwenden, um Ihre Kontaktinformationen zu aktualisieren und Ihre Datenbank zu erweitern.
 
-Providing **unsubscription links** in your messages will enable Profiles to be added to the denylist, when necessary, and therefore to improve your platform deliverability. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Durch die Bereitstellung von **Abmelde-Links** in Ihren Nachrichten können Profile bei Bedarf auf die Blockierungsliste gesetzt werden, was die Zustellbarkeit Ihrer Plattform verbessert. Weiterführende Informationen zur Verwaltung von Blockierungslisten finden Sie im Abschnitt [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
