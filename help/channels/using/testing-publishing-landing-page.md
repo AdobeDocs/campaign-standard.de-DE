@@ -11,8 +11,11 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+translation-type: tm+mt
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,7 @@ Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie 
 
 1. Wiederholen Sie diesen Vorgang mit verschiedenen Profilen und Daten.
 
-   Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landingpage erzeugen.
+Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landingpage erzeugen.
 
 >[!NOTE]
 >
