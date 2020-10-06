@@ -11,11 +11,11 @@ topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Zusätzlich zu diesen standardmäßigen Filterregeln stehen zwei Ausschlussregel
 
 Während der E-Mail-Analyse vergleichen diese Regeln die E-Mail-Adressen der Empfänger mit den unzulässigen Adressen oder Domain-Namen aus einer verschlüsselten globalen Unterdrückungsliste, die in der Zustellbarkeitsinstanz verwaltet wird. Im Falle einer Übereinstimmung wird die Nachricht nicht an den jeweiligen Empfänger gesendet.
 
-Dies soll verhindern, dass der Blockierungsliste aufgrund bösartiger Aktivität hinzugefügt wird, insbesondere durch den Einsatz eines Spamtraps. Wenn zum Beispiel ein Spamfilter verwendet wird, um über eines Ihrer Webformulare zu abonnieren, wird automatisch eine Bestätigungs-E-Mail an diesen Spamfilter gesendet. Dadurch wird Ihre Adresse automatisch zur Blockierungsliste hinzugefügt.
+Auf diese Weise soll das Hinzufügen zur Blockierungsliste aufgrund von schädlichen Aktivitäten, insbesondere durch die Verwendung von Spamtraps, vermieden werden. Wenn beispielsweise für die Anmeldung über ein Web-Formular eine Spamtrap verwendet wird, wird automatisch eine Bestätigungs-E-Mail an diese Spamtrap gesendet. Als Folge davon wird Ihre Adresse automatisch auf die Blockierungsliste gesetzt.
 
 >[!NOTE]
 >
 >Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandanalyse-Logs wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
-## Filterregel erstellen    {#creating-a-filtering-rule}
+## Filterregel erstellen     {#creating-a-filtering-rule}
 
 Sie können entsprechend Ihren Anforderungen eigene Filterregeln erstellen. Sie können beispielsweise die Zielpopulation von Newslettern so filtern, dass Abonnenten unter 18 Jahren keine Nachricht erhalten.
 
@@ -95,7 +95,7 @@ Standardmäßig werden für die Filterung **[!UICONTROL Profile]** herangezogen.
 
 ![](assets/typology_rule-order_2.png)
 
-## Anwendbarkeit einer Filterregel einschränken   {#restricting-the-applicability-of-a-filtering-rule}
+## Anwendbarkeit einer Filterregel einschränken    {#restricting-the-applicability-of-a-filtering-rule}
 
 Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht einschränken.
 
