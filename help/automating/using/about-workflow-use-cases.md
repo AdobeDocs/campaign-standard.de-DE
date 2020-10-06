@@ -11,9 +11,9 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
 ht-degree: 100%
 
