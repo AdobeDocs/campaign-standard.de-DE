@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 81%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 81%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Einführung des Konzepts der **Transaktionsnachrichten**
+Einführung in das Konzepts der **Transaktionsnachrichten**
 
 Mit Transaktionsnachrichten können Sie Ihren Kunden individuelle und einzigartige Nachrichten in Echtzeit senden.
 
@@ -77,7 +77,7 @@ In Adobe Campaign sind zwei Arten von Transaktionsnachrichten verfügbar:
 
 [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md), die sich auf ein Ereignis beziehen.
 
-* Ereignis-Transaktionsnachrichten enthalten keine Profil-Informationen.
+* Ereignis-Transaktionsnachrichten enthalten keine Profilinformationen.
 
 * Sie sind nicht mit [Ermüdungsregeln](../../sending/using/fatigue-rules.md) kompatibel (auch nicht im Falle einer Anreicherung mit Profilen).
 
@@ -90,7 +90,7 @@ In Adobe Campaign sind zwei Arten von Transaktionsnachrichten verfügbar:
 
 Mit Profil-Transaktionsnachrichten haben Sie folgende Möglichkeiten:
 
-* Anwendung [von Typologieregeln](../../sending/using/managing-typology-rules.md) oder [Ermüdungsregeln](../../sending/using/fatigue-rules.md)
+* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
 
 * einen Abmelde-Link in die Nachricht einfügen
 
@@ -110,19 +110,19 @@ Nehmen wir zur Erläuterung der Funktionsweise den Fall einer Firmen-Website, au
 
 Verlässt ein Website-Besucher die Seite, ohne den Kauf abzuschließen, wird ihm automatisch eine Benachrichtigungs-E-Mail zugeschickt, um ihn an seinen stehen gelassenen Warenkorb zu erinnern.
 
-Die Schritte zur Umsetzung dieser Richtlinie sind wie folgt:
+Gehen Sie hierzu wie folgt vor.
 
 ### Schritt 1: Ereigniskonfiguration erstellen und publizieren {#create-event-configuration}
 
 <img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-**Transactional Ereignis Configuration**:
+**Konfiguration von Transaktionsereignissen**:
 
 * Konfigurieren Sie ein Ereignis mit dem Namen „Warenkorbabbruch“ und publizieren Sie diese Ereigniskonfiguration.
 
 * Die von Ihrem Website-Entwickler verwendete API wird bereitgestellt und eine Transaktionsnachricht automatisch erstellt.
 
-* Beachten Sie, dass dieser Schritt von einem Benutzer mit [Administratorrechten](../../administration/using/users-management.md#functional-administrators)ausgeführt werden muss.
+* Beachten Sie, dass dieser Schritt von einem Benutzer mit [Administratorrechten](../../administration/using/users-management.md#functional-administrators) ausgeführt werden muss.
 
 Die Erstellung und Veröffentlichung eines Ereignisses finden Sie im Abschnitt [Ereignis konfigurieren, um eine Ereignis-Transaktionsnachricht zu senden](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
@@ -130,13 +130,13 @@ Die Erstellung und Veröffentlichung eines Ereignisses finden Sie im Abschnitt [
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-**Transaktionsnachricht**
+**Bearbeitung von Transaktionsnachrichten**
 
 * Bearbeiten und personalisieren Sie die Transaktionsnachricht, testen Sie sie und publizieren Sie sie dann.
 
-* Die Transaktionsnachricht kann dann versandt werden.
+* Die Transaktionsnachricht ist dann versandfertig.
 
-* Dieser Schritt kann von jedem Marketingbenutzer mit [standardmäßigen Benutzerzugriffsrechten](../../administration/using/users-management.md#basic-users)ausgeführt werden.
+* This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users).
 
 Weitere Informationen zum Bearbeiten und Publizieren einer Transaktionsnachricht finden Sie unter [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 
@@ -144,7 +144,7 @@ Weitere Informationen zum Bearbeiten und Publizieren einer Transaktionsnachricht
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
-**Ereignis, das die Integration auslöst**
+**Integration von Ereignisaktivierungen**
 
 * Verwenden Sie die REST-Transaktionsnachrichten-API, um das Ereignis in Ihre Website zu integrieren.&lt;
 
@@ -160,9 +160,9 @@ Weitere Informationen zur Integration des Ereignisses in Ihre Website finden Sie
 
 **Externes Ereignis von Ihrer Website**
 
-* Sobald alle diese Schritte durchgeführt wurden, kann die Nachricht gesendet werden.
+* Sobald alle diese Schritte ausgeführt wurden, kann die Nachricht gesendet werden.
 
-* Sobald ein Benutzer die Site verlässt, ohne die Produkte in seinem Einkaufswagen zu bestellen, wird das entsprechende Ereignis der Kampagne ausgelöst.
+* Sobald ein Benutzer die Website verlässt, ohne die Produkte in seinem Warenkorb zu bestellen, wird das entsprechende Campaign-Ereignis ausgelöst.
 
 * Der Benutzer erhält dann automatisch eine Benachrichtigungs-E-Mail.
 
