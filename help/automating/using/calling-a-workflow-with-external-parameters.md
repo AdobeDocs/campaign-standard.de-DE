@@ -1,6 +1,6 @@
 ---
 title: Übersicht
-description: In diesem Abschnitt wird beschrieben, wie ein Workflow mi externen Parametern aufgerufen wird.
+description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen Parametern aufgerufen wird.
 page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5da41379d718d78d7990fd2d767ec21216487b0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,6 +30,6 @@ Workflows werden mit Parametern folgendermaßen aufgerufen:
 
 1. Deklarieren Sie die Parameter in der Aktivität **[!UICONTROL Externes Signal]**. Siehe [Parameter in der externen Signalaktivität deklarieren](../../automating/using/declaring-parameters-external-signal.md).
 1. Konfigurieren Sie die Aktivität **[!UICONTROL Ende]** oder den API-Aufruf, um die Parameter zu definieren und den Workflow für die Aktivität **[!UICONTROL Externes Signal]** auszulösen. Siehe [](../../automating/using/defining-parameters-calling-workflow.md)
-1. Sobald der Workflow ausgelöst wurde, werden die Parameter in die Ereignis-Variablen des Workflows eingebunden und können im Workflow verwendet werden. Siehe [](../../automating/using/customizing-workflow-external-parameters.md).
+1. Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen des Workflows aufgenommen und können im Workflow verwendet werden. Siehe [](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)
