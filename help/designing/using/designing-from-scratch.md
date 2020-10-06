@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
 source-wordcount: '1273'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,7 @@ Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
->title="Strukturkomponenten"
+>title="Über Strukturkomponenten"
 >abstract="Strukturkomponenten definieren das Layout der E-Mail."
 
 >[!CONTEXTUALHELP]
@@ -86,20 +86,20 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 Sobald die Struktur definiert ist, können Sie Inhaltsfragmente und Komponenten zu Ihrer E-Mail hinzufügen.
 
-## Verwenden einer Kopfzeile {#preheader}
+## Verwenden eines Preheaders {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Verwenden einer Kopfzeile"
->abstract="Mit dem Preheader können Sie einen kurzen Zusammenfassungstext konfigurieren, der eine höhere offene Rate für Ihre E-Mail liefert."
+>title="Verwenden eines Preheaders"
+>abstract="Mit dem Preheader können Sie einen kurzen Zusammenfassungstext konfigurieren, der eine höhere Öffnungsrate für Ihre E-Mail bietet."
 
-Eine Kopfzeile ist ein kurzer Zusammenfassungstext, der auf die Betreffzeile folgt, wenn eine E-Mail aus Ihrem Posteingang angezeigt wird. Der Preheader liefert eine höhere offene Rate.
+Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail aus Ihrem Posteingang der Betreffzeile folgt. Der Preheader liefert eine höhere Öffnungsrate.
 
-Wählen Sie das **[!UICONTROL Bearbeitungsfeld &quot;Kopfzeile]** &quot;aus und füllen Sie den Inhalt aus.
+Aktivieren Sie das Bearbeitungsfeld **[!UICONTROL Preheader]** und füllen Sie den Inhalt aus.
 
 ![](assets/email_designer_preheader.png)
 
-Sie können einen **[!UICONTROL Inhaltsblock]**, einen **[!UICONTROL dynamischen Inhalt]** oder ein **[!UICONTROL Personalisierungsfelder]** in den Preheader-Inhalt einfügen.
+Sie können einen **[!UICONTROL Inhaltsbaustein]**, einen **[!UICONTROL dynamischen Inhalt]** oder ein **[!UICONTROL Personalisierungsfeld]** in den Preheader-Inhalt einfügen.
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ Sie können einen **[!UICONTROL Inhaltsblock]**, einen **[!UICONTROL dynamischen
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
->title="Inhaltskomponenten"
+>title="Über Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, die Sie bearbeiten können, um eine E-Mail zu erstellen."
 
 Inhaltskomponenten sind leere Komponenten, die nach dem Einfügen in eine E-Mail bearbeitet werden können.
@@ -129,11 +129,11 @@ Wählen Sie **[!UICONTROL Fallback-Ansicht]** aus, um das Fallback-Bild in Email
 
 ### **[!UICONTROL Text]**
 
-    Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
+    Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe des Textes in den **[!UICONTROL Komponenteneinstellungen]** anpassen.
 
 ### **[!UICONTROL Trennlinie]**
 
-    Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
+    Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe der Trennlinie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
 
 ### **[!UICONTROL HTML]**
 
@@ -141,7 +141,7 @@ Verwenden Sie diese Komponente, um die unterschiedlichen Teile Ihrer existierend
 
 >[!NOTE]
 >
->Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im  **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
+>Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im   **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
 
 Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten, empfiehlt Adobe, eine neue Nachricht zu erstellen und den Inhalt aus der existierenden E-Mail in Fragmente und Komponenten einzufügen.
 
@@ -153,10 +153,10 @@ Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den 
 >
 >Der neue Inhalt ist keine exakte Kopie der ursprünglichen E-Mail, aber mithilfe der unten stehenden Schritte können Sie eine Nachricht erstellen, die dem Original möglichst ähnelt.
 
-    **Vor dem Kopieren Ihres Inhalts**
+    **Vor dem Kopieren des Inhalts**
     
     1. Stellen Sie fest, welche Bereiche Ihrer ursprünglichen E-Mail Sie in späteren E-Mails wiederverwenden möchten.
-    1. Speichern Sie alle Bilder und Assets, die Sie verwenden möchten.
+    1. Speichern Sie alle Bilder und Kreativelemente, die Sie verwenden möchten.
     1. Wenn Sie ausreichende HTML-Kenntnisse haben, teilen Sie Ihren ursprünglichen HTML-Inhalt in unterschiedliche Teile auf.
 
 ### Video {#video-settings}
@@ -188,7 +188,7 @@ Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail e
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
->title="Karussell-Einstellungen"
+>title="Karusselleinstellungen"
 >abstract="Erfahren Sie, wie Sie ein Karussell in Ihren Inhalt einfügen und konfigurieren können.Beachten Sie, dass Karussell nicht auf allen E-Mail-Clients funktioniert und ein Fallback-Bild angezeigt wird, falls es nicht unterstützt wird."
 
 1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
