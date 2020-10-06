@@ -11,11 +11,11 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,22 +28,20 @@ Durch das Hochladen einer CSV-Datei zum Generieren von Inhalten für den Versand
 
 Mehrsprachige Push-Benachrichtigungen erfordern 14 Spalten in der CSV-Datei:
 
-* title
-* messageBody
-* sound
-* badge
-* deeplinkURI
-* category
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* locale
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. title
+1. messageBody
+1. sound
+1. adge
+1. deeplinkURI
+1. category
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. locale
+1. language
+1. silentPush
 
 Sie können sich das CSV-Beispiel ansehen, indem Sie auf **[!UICONTROL Beispieldatei herunterladen]** im Fenster **[!UICONTROL Inhaltsvarianten verwalten]** klicken. Weitere Informationen finden Sie in diesem [Abschnitt](../../channels/using/creating-a-multilingual-push-notification.md).
 
