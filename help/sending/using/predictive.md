@@ -1,6 +1,6 @@
 ---
-title: Prognostizierende Benutzerinteraktionsfunktionen
-description: Erfahren Sie, wie Sie mit Prognosen zur Sendezeit und Interaktionsbewertung arbeiten.
+title: Prädiktive Benutzerinteraktionsfunktionen
+description: Erfahren Sie, wie Sie die prädiktive Sendezeit und Interaktionsbewertung verwenden.
 page-status-flag: never-activated
 uuid: c2c13934-9819-4e18-b5c7-60915c907f37
 contentOwner: sauviat
@@ -11,96 +11,96 @@ topic-tags: ai-powered-emails
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Optimieren von Design und Versand mit AI-basierten E-Mails{#journey-ai}
+# Gestaltung und Versand mit KI-gestützten E-Mails optimieren{#journey-ai}
 
-## Get started with AI-powered emails{#journey-ai-ovv}
+## Erste Schritte mit KI-gestützten E-Mails{#journey-ai-ovv}
 
-Mithilfe der Kampagne können Sie die Gestaltung und den Versand von Kundenreisen optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit der Journey-API kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen.
+Mit Campaign können Sie die Gestaltung und den Versand von Customer Journeys optimieren, um die Interaktionsvorlieben von Einzelpersonen vorherzusagen. Mit Journey AI kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen.
 
 **Modelle für maschinelles Lernen**
 
-Adobe Campaign Standard Angebot zwei neue Modelle für maschinelles Lernen: **Predictive Send Time Optimizations** und **Predictive Interaktionsbewertung**. Diese beiden Modelle werden zusammen als &quot;Journey AI&quot; bezeichnet, eine Klasse von maschinellen Lernmodellen, die sich speziell auf die Gestaltung und Bereitstellung besserer Kundenreisen beziehen.
+Adobe Campaign Standard bietet zwei neue Modelle für maschinelles Lernen: **Prädiktive Sendezeitoptimierung** und **Prädiktive Interaktionsbewertung**. Diese beiden Modelle werden zusammen als Journey AI bezeichnet, eine Klasse von Modellen für maschinelles Lernen, die speziell für die Gestaltung und die Bereitstellung besserer Customer Journeys entwickelt wurden.
 
-* **Predictive Sende-Zeitoptimierung**: Prognostizierende Zeitoptimierung für den Versand sagt voraus, welche die beste Sendezeit für jedes Empfänger-Profil für E-Mail-Öffnen oder -Klicks ist. Für jedes Profil des Empfängers geben die Ergebnisse die beste Sendezeit für jeden Wochentag an und welcher Wochentag ist der beste, um optimale Ergebnisse zu erzielen.
+* **Prädiktive Sendezeitoptimierung**: Die prädiktive Sendezeitoptimierung sagt für jedes Empfängerprofil voraus, welches die beste Sendezeit für E-Mail-Öffnungen oder Klicks ist. Für jedes Empfängerprofil geben die Bewertungen an, was die beste Sendezeit für jeden Wochentag ist und welcher Wochentag beim Senden die besten Ergebnisse liefert.
 
-* **Bewertung** der voraussichtlichen Interaktion: Prognostische Interaktionsbewertungen prognostizieren die Wahrscheinlichkeit, mit der ein Empfänger mit einer Nachricht interagiert, sowie die Wahrscheinlichkeit, dass er sich innerhalb der nächsten 7 Tage nach dem nächsten E-Mail-Versand abmeldet (abbestellt). Die Wahrscheinlichkeiten werden je nach dem spezifischen Risiko des Rückzugs, mittel oder niedrig, weiter in Behälter unterteilt. Dasselbe Modell bietet den Kunden auch den Rang eines Risikoperzentils, um zu verstehen, wo der Rang eines bestimmten Kunden im Verhältnis zu anderen steht.
+* **Prädiktive Interaktionsbewertung**: Die prädiktive Interaktionsbewertung sagt die Wahrscheinlichkeit voraus, dass sich ein Empfänger mit einer Nachricht beschäftigt, sowie die Wahrscheinlichkeit, dass er sich innerhalb von sieben Tagen nach dem nächsten E-Mail-Versand abmeldet. Die Wahrscheinlichkeiten werden je nach dem spezifischen Risiko des Rückzugs (mittel oder niedrig) weiter in Behälter unterteilt. Zusammen mit diesen liefert das Modell auch den Risikoperzentil-Rang, damit die Kunden den Rang eines bestimmten Kunden im Verhältnis zu anderen verstehen können.
 
 >[!CAUTION]
->Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zu erhalten.
+>Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
 >
->Die Funktion erfordert die Verwendung einer Azurblauen Datenspeicherung, die vom Kunden bereitgestellt werden muss.
+>Die Funktion erfordert die Verwendung eines Azure-Speichers, der vom Kunden zur Verfügung gestellt werden muss.
 
-## Predictive send time optimization{#predictive-send-time}
+## Prädiktive Sendezeitoptimierung{#predictive-send-time}
 
-### Optimieren von Klicks und Öffnen{#about-predictive-send-time}
+### Klicks und Öffnungen optimieren{#about-predictive-send-time}
 
-Prognostizierende Zeitoptimierung für den Versand prognostiziert, welche die beste Sendezeit für jedes Empfänger-Profil für E-Mail-Öffnen und -Klicks ist. Für jedes Profil des Empfängers geben die Ergebnisse die beste Sendezeit für jeden Wochentag an und welcher Wochentag ist der beste, um optimale Ergebnisse zu erzielen.
+Die prädiktive Sendezeitoptimierung sagt für jedes Empfängerprofil voraus, welches die beste Sendezeit für E-Mail-Öffnungen und Klicks ist. Für jedes Empfängerprofil geben die Bewertungen an, was die beste Sendezeit für jeden Wochentag ist und welcher Wochentag beim Senden die besten Ergebnisse liefert.
 
-Im Predictive Send Time Optimization-Modell gibt es zwei Untermodelle:
-* Prognosezeit für das Öffnen ist die beste Zeit, zu der eine Kommunikation an den Kunden gesendet werden muss, um das Öffnen zu maximieren.
-* Prognosezeit für Klicks ist die beste Zeit, zu der eine Kommunikation an den Kunden gesendet werden muss, um Klicks zu maximieren.
+Im prädiktiven Sendezeitoptimierungsmodell gibt es zwei Untermodelle:
+* Die prädiktive Sendezeit für Öffnungen ist die beste Zeit, zu der eine Kommunikation an den Kunden gesendet werden muss, um Öffnungen zu maximieren.
+* Die prädiktive Sendezeit für Klicks ist die beste Zeit, zu der eine Kommunikation an den Kunden gesendet werden muss, um Klicks zu maximieren.
 
-**Modelleingabe**: Versandlogs, Trackinglogs und Profil-Attribute (Nicht-PII)
+**Modelleingabe**: Versandlogs, Trackinglogs und Profilattribute (Nicht-PII)
 
-**Modellausgabe**: Optimale Zeit zum Senden einer Nachricht (für Öffnen und Klicks)
+**Modellausgabe**: Optimale Zeit zum Senden einer Nachricht (für Öffnungen und Klicks)
 
 
 Ausgabedetails
 
-* Berechnen Sie die beste Tageszeit für den Versand einer E-Mail an den 7 Wochentagen in Intervallen von 1 Stunde (z.B.: 9:00 Uhr, 10:00 Uhr, 11:00 Uhr)
-* Das Modell zeigt den besten Tag in der Woche und die beste Stunde an diesem Tag an
-* Jede optimale Zeit wird zweimal berechnet: einmal zur Maximierung der offenen Rate und einmal zur Maximierung der Klickrate
-* Es werden 16 Felder angegeben (14 für Wochentage und 2 für die ganze Woche):
-   * beste Zeit, eine E-Mail zu senden, um Klicks für Montag zu optimieren - Werte zwischen 0 und 23
-   * beste Zeit, eine E-Mail zu senden, um die Öffnung für Montag zu optimieren - Werte zwischen 0 und 23
-   * beste Zeit, um eine E-Mail zu senden, um Klicks für Dienstag zu optimieren - Werte zwischen 0 und 23
+* Berechnen Sie die beste Tageszeit für den Versand einer E-Mail an den sieben Wochentagen in Intervallen von einer Stunde (z. B.: 9:00 Uhr, 10:00 Uhr, 11:00 Uhr).
+* Das Modell zeigt den besten Tag der Woche und die beste Stunde an diesem Tag an.
+* Jede optimale Zeit wird zweimal berechnet: einmal zur Maximierung der Öffnungsrate und einmal zur Maximierung der Klickrate.
+* Es werden 16 Felder angegeben (14 für die Wochentage und 2 für die ganze Woche):
+   * beste Zeit, um eine E-Mail zu senden, um Klicks für Montag zu optimieren – Werte zwischen 0 und 23
+   * beste Zeit, um eine E-Mail zu senden, um Öffnungen für Montag zu optimieren – Werte zwischen 0 und 23
+   * beste Zeit, um eine E-Mail zu senden, um Klicks für Dienstag zu optimieren – Werte zwischen 0 und 23
    * ...
-   * beste Zeit, um eine E-Mail zu senden, um Klicks für Sonntag zu optimieren - Werte zwischen 0 und 23
-   * beste Zeit, eine E-Mail zu senden, um die Öffnung für Sonntag zu optimieren - Werte zwischen 0 und 23
+   * beste Zeit, um eine E-Mail zu senden, um Klicks für Sonntag zu optimieren – Werte zwischen 0 und 23
+   * beste Zeit, um eine E-Mail zu senden, um Öffnungen für Sonntag zu optimieren – Werte zwischen 0 und 23
    * ...
-   * Der beste Tag, um eine E-Mail zu senden, um die Optimierung geöffnet für die ganze Woche - Montag bis Sonntag
-   * beste Zeit, eine E-Mail zu senden, um die Öffnung für die ganze Woche - Werte zwischen 0 und 23
+   * bester Tag, um eine E-Mail zu senden, um die Öffnungen für die ganze Woche zu optimieren – Montag bis Sonntag
+   * beste Zeit, um eine E-Mail zu senden, um Öffnungen für die ganze Woche zu optimieren – Werte zwischen 0 und 23
 
 >[!NOTE]
 >
->Diese Prognosefunktionen gelten nur für E-Mail-Versand.
+>Diese prädiktiven Funktionen gelten nur für den E-Mail-Versand.
 >
->Das Modell benötigt mindestens einen Monat Daten, um signifikante Ergebnisse zu erzielen.
+>Das Modell benötigt mindestens einen Monat an Daten, um signifikante Ergebnisse zu erzielen.
 
 
-### Profil-Ergebnisse aufrufen{#access-predictive-send-time-scores}
+### Profilbewertungen aufrufen{#access-predictive-send-time-scores}
 
-Nach der Implementierung in die Kampagne bereichern maschinelle Lernfunktionen die Daten von Profilen mit neuen Registerkarten mit den besten open/click-Ergebnissen. Die Metriken werden von der Journey AI berechnet und mithilfe von Technischen Workflows in die Kampagne gebracht.
+Nach der Implementierung in Campaign reichern die Funktionen für maschinelles Lernen die Profildaten mit neuen Tabs mit den besten Öffnungs- /Klickbewertungen an. Die Metriken werden von Journey AI berechnet und mithilfe technischer Workflows in Campaign übernommen.
 
-Um auf diese Metriken zugreifen zu können, müssen Sie:
+Um auf diese Metriken zuzugreifen:
 
 1. Öffnen Sie ein Profil und klicken Sie auf &quot;Bearbeiten&quot;.
 
-1. Klicken Sie auf die Registerkarte **Zeitbewertung nach Klick** senden oder **Zeitbewertung nach Öffnen** senden.
+1. Klicken Sie auf den Tab **Sendezeitbewertung nach Klick** oder **Sendezeitbewertung nach Öffnung**.
 
-Standardmäßig erhalten die Profil-Ergebnisse die beste Wochentagszeit und die beste Gesamtwochenzeit.
+Standardmäßig geben die Profilbewertungen die beste Tageszeit für jeden Wochentag und die beste Zeit für die gesamte Woche an.
 
 ![](assets/do-not-localize/SendTimeScore.png)
 
-### Senden von Nachrichten im besten Moment{#use-predictive-send-time}
+### Nachrichten zum besten Zeitpunkt senden{#use-predictive-send-time}
 
-Damit die E-Mails zum optimalen Zeitpunkt pro Profil gesendet werden, muss der Versand mit der Option **[!UICONTROL Senden zu einem durch eine Formel]**definierten benutzerspezifischen Zeitpunkt geplant werden.
-Erfahren Sie, wie das Versanddatum [in diesem Abschnitt](../../sending/using/computing-the-sending-date.md)berechnet wird.
+Damit die E-Mails zum optimalen Zeitpunkt pro Profil gesendet werden, muss der Versand mit der Option **[!UICONTROL Zu einem durch eine Formel definierten Datum senden]** geplant werden.
+Erfahren Sie [in diesem Abschnitt](../../sending/using/computing-the-sending-date.md), wie Sie das Versanddatum berechnen.
 
-Die Formel muss mit der jeweils besten Uhrzeit des jeweiligen Tages gefüllt werden, an dem der Versand ausgeht.
+Die Formel muss mit der besten Tageszeit des jeweiligen Tages ausgefüllt werden, an dem der Versand ausgeführt werden soll.
 
 ![](assets/do-not-localize/ComputeSendingDate.png)
 
-Beispiel für die Formel:
+Beispiel einer Formel:
 
 ```
 AddHours([currentDelivery/scheduling/@contactDate], 
@@ -115,44 +115,44 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 
 
-## Bewertung der voraussichtlichen Interaktion {#predictive-scoring}
+## Prädiktive Interaktionsbewertung {#predictive-scoring}
 
-Mit der Ergebnisbewertung der prognostizierten Interaktion können Sie:
+Mit der prädiktiven Interaktionsbewertung können Sie Folgendes:
 
-* **Wählen Sie eine Audience** aus: Mithilfe der Aktivität &quot;Abfrage&quot;können Sie die Audience auswählen, mit der eine bestimmte Nachricht gesendet werden soll
-* **Eine Audience** ausschließen: mithilfe der Abfrage-Aktivität können Sie die Audience entfernen, die Sie abbestellen möchten
-* **Personalisieren**: personalisieren Sie die Nachricht basierend auf der Interaktionsstufe (hochengagierte Benutzer erhalten eine andere Nachricht als nicht engagierte)
+* **Eine Audience auswählen**: Mithilfe der Abfrageaktivität können Sie die Audience auswählen, an die eine bestimmte Nachricht gesendet werden soll.
+* **Eine Audience ausschließen**: Mithilfe der Abfrageaktivität können Sie die Audience entfernen, die sich abmelden möchte.
+* **Personalisieren**: Personalisieren Sie die Nachricht basierend auf dem Grad der Interaktion (stark interaktive Benutzer erhalten eine andere Nachricht als nicht interaktive).
 
-Dieses Modell verwendet mehrere Ergebnisse, um Folgendes anzugeben:
+Dieses Modell verwendet mehrere Bewertungen, um Folgendes anzugeben:
 
-* **Interaktionsbewertung öffnen/Interaktionsbewertung** anklicken: Dieser Wert entspricht der Wahrscheinlichkeit, mit der ein Abonnent eine bestimmte Nachricht (Öffnen oder Klicken) erhält. Die Werte liegen zwischen 0,0 und 1,0.
-* **Wahrscheinlichkeit** der Abmeldung: dieser Wert entspricht der Wahrscheinlichkeit, dass Empfänger sich bei einer geöffneten E-Mail von einem E-Mail-Kanal abmelden. Die Werte liegen zwischen 0,0 und 1,0.
-* **Treuestufe**:  dieser Wert unterteilt Benutzer in drei Stufen: niedrig, mittel und hoch. Hoch ist höchstwahrscheinlich bei der Marke zu bleiben und niedriger Wert wahrscheinlich abmelden.
-* **Perzentil-Retentionsgrad**: profil-Rang in Bezug auf die Wahrscheinlichkeit der Abmeldung. Die Werte liegen zwischen 0,0 und 1,0. Wenn der prozentuale Anteil der Retentionsrate beispielsweise 0,953 beträgt, bleibt dieser Empfänger eher bei der Marke und wird sich weniger abmelden als 95,3 % aller Empfänger.
+* **Interaktionsbewertung für Öffnungen/Interaktionsbewertung für Klicks**: Dieser Wert entspricht der Wahrscheinlichkeit, mit der sich ein Abonnent mit einer bestimmte Nachricht beschäftigt (Öffnung oder Klick). Die Werte liegen zwischen 0,0 und 1,0.
+* **Abmeldewahrscheinlichkeit**: Dieser Wert entspricht der Wahrscheinlichkeit, dass der Empfänger sich von einem E-Mail-Kanal abmeldet, nachdem er eine E-Mail geöffnet hat. Die Werte liegen zwischen 0,0 und 1,0.
+* **Bindungsgrad**: Dieser Wert unterteilt Benutzer in drei Stufen: niedrig, mittel und hoch. Dabei bedeutet &quot;hoch&quot;, dass sie höchstwahrscheinlich bei der Marke bleiben, und &quot;niedrig&quot;, dass sie sich wahrscheinlich abmelden.
+* **Perzentilrang der Bindung**: Rang des Profils in Bezug auf die Abmeldewahrscheinlichkeit. Die Werte liegen zwischen 0,0 und 1,0. Wenn der Perzentilrang der Bindung beispielsweise 0,953 beträgt, bleibt dieser Empfänger mit größerer Wahrscheinlichkeit bei der Marke und hat eine geringere Wahrscheinlichkeit, sich abzumelden, als 95,3 % aller Empfänger.
 
 >[!NOTE]
 >
->Diese Prognosefunktionen gelten nur für E-Mail-Versand.
+>Diese prädiktiven Funktionen gelten nur für den E-Mail-Versand.
 >
->Das Modell benötigt mindestens einen Monat Daten, um signifikante Ergebnisse zu erzielen.
+>Das Modell benötigt mindestens einen Monat an Daten, um signifikante Ergebnisse zu erzielen.
 
 
-**Modelleingabe**: Versandlogs, Trackinglogs und spezifische Profil-Attribute
+**Modelleingabe**: Versandlogs, Trackinglogs und spezifische Profilattribute
 
-**Modellausgabe**: Ein Profil-Attribut, das die Bewertung und Kategorie des Profils beschreibt
+**Modellausgabe**: Ein Profilattribut, das die Bewertung und Kategorie des Profils beschreibt.
 
 
-### Einsatz des Interaktionswerts für den E-Mail-Kanal
+### Interaktionsbewertung für den E-Mail-Kanal verwenden
 
-Um auf diese Metriken zugreifen zu können, müssen Sie:
+Um auf diese Metriken zuzugreifen:
 
 1. Öffnen Sie ein Profil und klicken Sie auf &quot;Bearbeiten&quot;.
 
-1. Klicken Sie auf die Registerkarte **Interaktionswerte für E-Mail-Kanal** .
+1. Klicken Sie auf den Tab **Interaktionsbewertungen für E-Mail-Kanal**.
 
-Durch die Verwendung einer Abfrage-Aktivität in einem Workflow können Sie das Ergebnis zur Optimierung Ihrer Audience verwenden.
+Wenn Sie eine Abfrageaktivität in einem Workflow verwenden, können Sie die Bewertung zur Optimierung Ihrer Audience nutzen.
 
-Beispielsweise mit den Kriterien für die **Treuestuh** :
+Beispielsweise mit den Kriterien für den **Bindungsgrad**:
 
 ![](assets/do-not-localize/predictive_score_query.png)
 
