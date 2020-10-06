@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -79,13 +79,13 @@ Vor dem Versand Ihrer Push-Benachrichtigungen sollten Sie auf Folgendes achten:
 
 1. Informationen zu Fallimplementierungen für Mobilgeräte finden Sie in den ausführlichen Anweisungen zu Erweiterungen, Experience Platform Launch-Regeln und der SDK-Implementierung in [Mobile Anwendungsfällen, die in Adobe Campaign Standard mit den Adobe Experience Platform SDKs unterstützt werden](https://helpx.adobe.com/de/campaign/kb/configure-launch-rules-acs-use-cases.html).
 
-## Häufig gestellte Fragen zur Push-Benachrichtigung {#push-faq}
+## Häufig gestellte Fragen zu Push-Benachrichtigungen {#push-faq}
 
 ### Was wären nützliche Empfehlungen für Ressourcen, um mehr über Push Kanal zu erfahren? {#resource-push}
 
 Sehen Sie sich die folgenden Ressourcen an:
 
-* [Videoschulungen](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Video-Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Produktdokumentation](../../channels/using/about-push-notifications.md)
 * Verwenden der AEP SDK- [Dokumentation konfigurieren](../../administration/using/configuring-a-mobile-application.md)
 * [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
@@ -132,7 +132,7 @@ Vergewissern Sie sich, dass Sie die [hier](../../administration/using/push-paylo
 
 Beachten Sie, dass Kampagne für Android nur die Datennutzlast unterstützt, keine Benachrichtigungs-Nutzlast
 
-### Ich habe eine App im Abschnitt &quot;Administration&quot;von Adobe Campaign Standard konfiguriert, die mobile App ist jedoch nicht in den Eigenschaften des Versands verfügbar. {#mobile-app-unavailable}
+### Ich habe eine App im Abschnitt &quot;Administration&quot;von Adobe Campaign Standard konfiguriert, aber die mobile App ist nicht in den Eigenschaften des Versands verfügbar. {#mobile-app-unavailable}
 
 Für eine App muss ein gültiges Push-Zertifikat hochgeladen werden, bevor es in den Eigenschaften des Versands verfügbar gemacht werden kann.
 
@@ -149,7 +149,7 @@ Mobile App-Entwickler müssen die Unterstützung für Mediendateien in der App b
 Gehen Sie wie folgt vor:
 
 * Konfigurieren eines Postbacks für die Push-Verfolgung. Instructions can be found [here](../../administration/using/configuring-a-mobile-application.md).
-* Implementieren Sie die trackAction-API vom Mobile Core. Weitere Informationen finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) .
+* Implementieren Sie die trackAction-API vom Mobile Core. Weitere Informationen finden Sie auf dieser [Seite.](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference)
 
 Detailliertere Anweisungen finden Sie auf dieser [Seite](../../administration/using/push-tracking.md).
 
@@ -163,5 +163,5 @@ Auf dieser [Seite](../../reporting/using/indicator-calculation.md#push-notificat
 
 Ja, Deep-Links werden in Push-Nachrichten unterstützt. Deep-Links sollten Folgendes umfassen:
 
-* -Sprache, die besagt, dass die Verfolgung von Versänden deaktiviert werden muss, damit die Deep-Links funktionieren.
-* Appsflyer mit Zweig als Partner, die die deeplink-Verfolgung durchführen können. Weitere Informationen zur Integration von Zweigstellen und Adobe Campaign Standards finden Sie auf dieser [Seite](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Eine Sprache, die besagt, dass die Verfolgung von Versänden deaktiviert werden muss, damit die Deep-Links funktionieren.
+* Appsflyer mit Zweig als Partner, die die deeplink-Verfolgung durchführen können. Weitere Informationen zur Branch- und Adobe Campaign Standard-Integration finden Sie auf dieser [Seite](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
