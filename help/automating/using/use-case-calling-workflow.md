@@ -1,6 +1,6 @@
 ---
 title: Workflow mit externen Parametern aufrufen
-description: In diesem Abschnitt wird beschrieben, wie ein Workflow mi externen Parametern aufgerufen wird.
+description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen Parametern aufgerufen wird.
 page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e3932e570f43d691e90f694ca1a7919ad238309
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 Im folgenden Anwendungsbeispiel wird gezeigt, wie Sie einen Workflow mit Parametern innerhalb Ihrer Workflows abrufen können.
 
-Dabei soll ein Workflow durch einen API-Aufruf mit externen Parametern ausgelöst werden. Durch diesen Workflow werden aus einer Datei Daten in Ihre Datenbank geladen und eine entsprechende Audience erstellt. Nachdem die Audience erstellt wurde, wird ein zweiter Arbeitsablauf ausgelöst, um eine Nachricht zu senden, die mit den im API-Aufruf definierten externen Parametern personalisiert ist.
+Dabei soll ein Workflow durch einen API-Aufruf mit externen Parametern ausgelöst werden. Durch diesen Workflow werden aus einer Datei Daten in Ihre Datenbank geladen und eine entsprechende Audience erstellt. Nach der Erstellung der Audience wird ein zweiter Workflow ausgelöst, durch den eine Nachricht gesendet wird, die mit den externen, im API-Aufruf definierten Parametern personalisiert wurde.
 
 Führen Sie dazu folgende Aktionen aus:
 
@@ -38,7 +38,7 @@ Führen Sie dazu folgende Aktionen aus:
 
 Vor dem Konfigurieren des Workflows müssen Workflow 1 und 2 jeweils mit der Aktivität **[!UICONTROL Externes Signal]** erstellt werden. Auf diese Weise können Sie diese Signalaktivitäten auswählen, wenn Sie die Workflows aufrufen.
 
-## Schritt 1: API-Aufruf konfigurieren   {#step-1--configuring-the-api-call}
+## Schritt 1: API-Aufruf konfigurieren    {#step-1--configuring-the-api-call}
 
 Führen Sie einen API-Aufruf aus, um Workflow 1 mit Parametern auszulösen. Weiterführende Informationen zur Syntax des API-Aufrufs finden Sie in der [Dokumentation zu Campaign Standard-REST-APIs](../../api/using/triggering-a-signal-activity.md).
 
@@ -63,7 +63,7 @@ In diesem Beispiel soll der Workflow mit den unten stehenden Parametern aufgeruf
 -d } 
 ```
 
-## Schritt 2: Workflow 1 konfigurieren   {#step-2--configuring-workflow-1}
+## Schritt 2: Workflow 1 konfigurieren    {#step-2--configuring-workflow-1}
 
 Workflow 1 wird folgendermaßen erstellt:
 
@@ -134,7 +134,7 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
 Workflow 1 ist somit konfiguriert. Erstellen Sie jetzt Workflow 2. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
-## Schritt 3: Workflow 2 konfigurieren   {#step-3--configuring-workflow-2}
+## Schritt 3: Workflow 2 konfigurieren    {#step-3--configuring-workflow-2}
 
 Workflow 2 wird folgendermaßen erstellt:
 
@@ -191,6 +191,6 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc14.png)
 
-## Workflows ausführen   {#executing-the-workflows}
+## Workflows ausführen    {#executing-the-workflows}
 
-Nachdem die Workflows erstellt wurde, können Sie sie ausführen. Achten Sie darauf, dass die beiden Workflows gestartet werden, bevor der API-Aufruf ausgeführt wird.
+Nach dem Erstellen der Workflows können diese ausgeführt werden. Achten Sie darauf, dass die beiden Workflows gestartet werden, bevor der API-Aufruf ausgeführt wird.
