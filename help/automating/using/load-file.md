@@ -62,7 +62,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 >Die Daten der Beispieldatei werden für die Konfiguration der Aktivität verwendet aber nicht importiert. Es wird empfohlen, Beispieldateien mit einer geringen Anzahl an Datensätzen zu verwenden.
 
 1. Ziehen Sie eine **[!UICONTROL Datei laden]**-Aktivität in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Quick Actions angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Laden Sie die Beispieldatei hoch, die die Definition der Struktur ermöglicht, die die schließlich zu importierende Datei aufweisen soll.
 
    ![](assets/wkf_file_loading.png)
@@ -124,11 +124,11 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
 Wenn nach dem Ausführen des Workflows ein Fehler bei der Aktivität auftritt, lesen Sie die Protokolle, um weitere Details zu den Werten zu erhalten, die in der Datei falsch sind. Weiterführende Informationen zur Workflow-Logs finden Sie in [diesem Abschnitt](../../automating/using/monitoring-workflow-execution.md).
 
-## Spaltenformat     {#column-format}
+## Spaltenformat      {#column-format}
 
 Beim Laden einer Beispieldatei wird das Spaltenformat automatisch erkannt und jedem Datentyp werden Standardparameter zugewiesen. Diese Standardparameter können angepasst werden, um einen bestimmten Umgang mit gewissen Daten vorzuschreiben, insbesondere in Bezug auf Fehler oder Leerwerte.
 
-Wählen Sie hierfür aus den Quick Actions der zu bearbeitenden Spalte die Option **[!UICONTROL Eigenschaften bearbeiten]** aus. Das Detailfenster des Spaltenformats wird geöffnet.
+Wählen Sie hierfür aus dem Schnellzugriff der zu bearbeitenden Spalte die Option **[!UICONTROL Eigenschaften bearbeiten]** aus. Das Detailfenster des Spaltenformats wird geöffnet.
 
 ![](assets/wkf_file_loading4.png)
 
