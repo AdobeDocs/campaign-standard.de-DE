@@ -12,11 +12,11 @@ discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
 delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Gehen Sie dabei folgendermaßen vor:
    * Mit der Aktion **[!UICONTROL Aus Quarantäne holen]** wird die Telefonnummer des Profils aus der Quarantäne entlassen.
    * Mit der Aktion **[!UICONTROL Keine]** wird Ihre Nachricht ohne Aktion an die Empfänger gesendet.
 
-   For example, in the configuration below, if recipients send the keyword &quot;STOP&quot;, they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL On denylist]** status. Dieser Status bezieht sich nur auf die Telefonnummer, das Profil ist so, dass der Benutzer weiterhin E-Mail-Nachrichten erhält.
+   Wenn Empfänger beispielsweise in der folgenden Konfiguration das Schlüsselwort &quot;STOP&quot; senden, erhalten sie eine Abmeldebestätigung und ihre Telefonnummer wird mit dem Status **[!UICONTROL Auf Blockierungsliste]** unter Quarantäne gestellt. Der Status bezieht sich ausschließlich auf die Telefonnummer. Das Profil wird nicht auf die Blockierungsliste gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält.
 
    ![](assets/sms_mo.png)
 
@@ -66,7 +66,7 @@ Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt I
 
 Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#storing-incoming-sms).
 
-## Eingehende SMS speichern   {#storing-incoming-sms}
+## Eingehende SMS speichern    {#storing-incoming-sms}
 
 Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit &quot;STOPP&quot; auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
 
