@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mail sehr ähnlich. Im Folgenden werden die Konfigurationsschritte für diesen Kanal beschrieben. Weiterführende Informationen zu anderen Optionen finden Sie in [E-Mails erstellen](../../channels/using/creating-an-email.md).
 
-1. Erstellen Sie einen neuen Briefpost-Versand. Ein Versand kann über die Adobe-Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketingaktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
+>[!NOTE]
+>
+>Es besteht außerdem die Möglichkeit, eine Briefpost-Aktivität in einem Workflow hinzuzufügen. Weitere Informationen hierzu finden Sie im [Workflow](../../automating/using/direct-mail-delivery.md)-Handbuch.
 
-   >[!NOTE]
-   >
-   >Es besteht außerdem die Möglichkeit, eine Briefpost-Aktivität in einem Workflow hinzuzufügen. Weitere Informationen hierzu finden Sie im [Workflow](../../automating/using/direct-mail-delivery.md)-Handbuch.
+1. Erstellen Sie einen neuen Briefpost-Versand. Ein Versand kann über die Adobe-Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketingaktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
 
    ![](assets/direct_mail_1.png)
 
@@ -102,4 +102,4 @@ Jetzt können Sie die Extraktionsdatei an Ihren Briefpost-Dienstleister senden. 
 * Senden Sie mit regulärer E-Mail und einem Dateianhang.
 * Senden Sie über Campaign: Führen Sie Ihre Briefpost im Rahmen eines Kampagnen-[Workflows](../../automating/using/direct-mail-delivery.md) aus und fügen Sie eine **[!UICONTROL Dateiübertragung]** hinzu, um die Datei beispielsweise per FTP zu versenden. Siehe [Dateiübertragung](../../automating/using/transfer-file.md).
 
-Der Anbieter ruft die Liste von falschen Adressen ab und sendet diese Informationen an Adobe Campaign, wodurch die fehlerhaften Adressen automatisch Blockierungsliste werden. Siehe [Rücksendungen an den Absender](../../channels/using/return-to-sender.md).
+Der Provider ruft die Liste mit fehlerhaften Adressen ab und sendet diese Informationen an Adobe Campaign, wo die fehlerhaften Adressen automatisch auf die Blockierungsliste gesetzt werden. Siehe [Rücksendungen an den Absender](../../channels/using/return-to-sender.md).
