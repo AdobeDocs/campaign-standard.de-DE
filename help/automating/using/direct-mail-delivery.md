@@ -12,9 +12,9 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -31,10 +31,10 @@ ht-degree: 100%
 
 Mit der Aktivität **[!UICONTROL Briefpostversand]** können Sie eine Datei mit Profildaten für eine Briefpostkampagne konfigurieren und vorbereiten. Dabei kann es sich um Briefpost handeln, die nur einmal gesendet wird, oder um wiederkehrende Briefpost.
 
-* **Standardmäßig wird Briefpost einmal gesendet.**
-* **Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen Briefpost an verschiedene Zielgruppen.** Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
+* **Standardmäßig** wird Briefpost einmal gesendet.
+* **Wiederkehrende** Versandaktionen ermöglichen den wiederholten Versand der gleichen Briefpost an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
-## Anwendungskontext     {#context-of-use}
+## Anwendungskontext      {#context-of-use}
 
 Die Aktivität **[!UICONTROL Briefpostversand]** wird normalerweise verwendet, um automatisch eine Datei vorzubereiten, die Profildaten enthält. Diese Datei kann anschließend an einen Partner/Dienstleister gesendet werden, der für den eigentlichen Versand zuständig ist.
 
@@ -52,11 +52,11 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie die Aktivität **[!UICONTROL Briefpostversand]** in Ihren Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Quick Actions angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 
    >[!NOTE]
    >
-   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) in den Quick Actions bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Diese Schaltfläche ist spezifisch für die Kanalaktivitäten. Auf die Eigenschaften der Briefpost können Sie über die Symbolleiste ihres Briefpost-Dashboards zugreifen.
+   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) im Schnellzugriff bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Diese Schaltfläche ist spezifisch für die Kanalaktivitäten. Auf die Eigenschaften der Briefpost können Sie über die Symbolleiste ihres Briefpost-Dashboards zugreifen.
 
 1. Wählen Sie den Versandtyp der Briefpost aus:
 
@@ -83,7 +83,7 @@ Wenn Sie die Aktivität später erneut öffnen, gelangen Sie direkt in das Dashb
 
 Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachricht ausgelöst. Der in einem Workflow erstellte Nachrichtenversand muss noch bestätigt werden, nachdem der Workflow gestartet wurde. Sie können aber im Nachrichten-Dashboard die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** deaktivieren. Dies ist jedoch nur möglich, wenn die Nachricht in einem Workflow erstellt wurde. Ist diese Option deaktiviert, werden Nachrichten ohne weiteren Hinweis gesendet, sobald die Vorbereitung abgeschlossen ist.
 
-## Bemerkungen     {#remarks}
+## Bemerkungen      {#remarks}
 
 Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Die Links im Übersichtsmenü der Briefpost ermöglichen einen direkten Zugriff auf verknüpfte Elemente (Workflow, Kampagne, Elternversand im Fall einer E-Mail zum wiederkehrenden Versand).
 
