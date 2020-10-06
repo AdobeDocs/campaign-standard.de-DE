@@ -12,11 +12,11 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 92%
 
 ---
 
@@ -52,21 +52,11 @@ Je nach angegebenen Parametern und Bearbeitungsfortschritt stehen gewisse Schalt
 
    Weiterführende Informationen zu Testsendungen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Testen]**: ermöglicht u. a. die Auswahl des Validierungsmodus (**[!UICONTROL Testversand]** und/oder **[!UICONTROL E-Mail-Rendering]** bei E-Mails). Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Test]** senden: können Sie den zu verwendenden Genehmigungsmodus auswählen: **[!UICONTROL E-Mail-Rendering]** (nur E-Mail), **[!UICONTROL Testversand]** oder beides. Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/sending-proofs.md). Diese Schaltfläche ist erst aktiviert, nachdem Sie Test-Profil erstellt haben.
 
-   Die Schaltfläche ist nur dann aktiv, wenn mindestens ein Testprofil definiert wurde.
+* **[!UICONTROL Versand vorbereiten]**: startet die Versandvorbereitung. Die Kachel **[!UICONTROL Freigabe]** erscheint und zeigt das Ergebnis der Vorbereitung an. Diese Schaltfläche erscheint nur, wenn die Zielgruppe angegeben wurde. Mithilfe der Schaltfläche &quot;Vorbereitung stoppen&quot; kann die Vorbereitung jederzeit unterbrochen werden. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >Bei einem SMS-Versand ist nur der **[!UICONTROL Testversand verfügbar]**.
-
-* **[!UICONTROL Versand vorbereiten]**: startet die Versandvorbereitung. Die Kachel **[!UICONTROL Freigabe]** erscheint und zeigt das Ergebnis der Vorbereitung an. Diese Schaltfläche erscheint nur, wenn die Zielgruppe angegeben wurde. Mithilfe der Schaltfläche &quot;Vorbereitung stoppen&quot; kann die Vorbereitung jederzeit unterbrochen werden.
-
-   Weiterführende Informationen zur Nachrichtenvorbereitung finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md).
-
-* **[!UICONTROL Versand bestätigen]**: löst den endgültigen Versand der Nachricht aus. In der Kachel **[!UICONTROL Freigabe]** erscheint nun das Versandergebnis. Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. Der Versand kann mithilfe der Schaltflächen **Versand anhalten** oder **[!UICONTROL Unterbrechen]** jederzeit unterbrochen werden.
-
-   Lesen Sie diesbezüglich auch den Abschnitt [Nachrichten senden](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Versand bestätigen]**: löst den endgültigen Versand der Nachricht aus. In der Kachel **[!UICONTROL Freigabe]** erscheint nun das Versandergebnis. Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. Der Versand kann mithilfe der Schaltflächen **Versand anhalten** oder **[!UICONTROL Unterbrechen]** jederzeit unterbrochen werden. For more on confirming sending, refer to [Sending messages](../../sending/using/confirming-the-send.md).
 
 ## Bausteine     {#blocks}
 
