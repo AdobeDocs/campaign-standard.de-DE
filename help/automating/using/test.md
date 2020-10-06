@@ -12,9 +12,9 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -37,14 +37,14 @@ Wenn keine Bedingung erfüllt wird und die Option **Use default transition** akt
 
 ![](assets/wkf_test_activity_example.png)
 
-Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereignisvariablen, die in der Workflow-Aktivität **[!UICONTROL Externes Signal]** deklariert wurden.
+Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereignisvariablen, die in der Workflow-Aktivität **[!UICONTROL Externes Signal]** deklariert wurden.
 
 **Verwandte Themen:**
 
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 * [Workflow mit externen Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-## Konfiguration {#configuration}
+## Konfiguration  {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Test]**-Aktivität in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
