@@ -12,11 +12,11 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Mögliche Optionen sind:
 
 * **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Hier können Sie die SQL-Abfragen aus dem Workflow in den Protokollen speichern.
 
-* ]**Zwischenergebnis festhalten**[!UICONTROL : Aktivieren Sie die diese Option, wenn Sie die Detailansicht der Transitionen visualisieren können möchten.
+* **[!UICONTROL Zwischenergebnis festhalten]**: Aktivieren Sie diese Option, wenn Sie in der Lage sein möchten, die Detailansicht der Transitionen zu visualisieren.
 
    >[!CAUTION]
    >
@@ -49,6 +49,6 @@ Mögliche Optionen sind:
 
 * **[!UICONTROL In der Engine ausführen (nicht im Produktionsmodus benutzen)]**: Ermöglicht Ihnen, den Workflow lokal auszuführen, um die Entwicklungsumgebung zu testen.
 
-* **[!UICONTROL Prioritätsstufe]**: Hier haben Sie die Möglichkeit, die Workflow-Ausführung in Ihrer Adobe Campaign-Instanz als eher vorrangig oder eher nachrangig zu kennzeichnen. Dieses Feld wird von Adoben-Teams nur zu Überwachungszwecken verwendet.
+* **[!UICONTROL Prioritätsstufe]**: Hier haben Sie die Möglichkeit, die Workflow-Ausführung in Ihrer Adobe Campaign-Instanz als eher vorrangig oder eher nachrangig zu kennzeichnen. Dieses Feld wird von Adobe-Teams nur zu Überwachungszwecken verwendet.
 
 Der Abschnitt **[!UICONTROL Umgang mit Fehlern]** enthält zusätzliche Optionen, mit denen Sie verwalten können, wie sich Workflows bei Fehlern verhalten. Diese Optionen werden im Abschnitt [Umgang mit Fehlern](../../automating/using/monitoring-workflow-execution.md#error-management) genauer beschrieben.
