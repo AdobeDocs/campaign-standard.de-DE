@@ -1,5 +1,5 @@
 ---
-title: Push-Benachrichtigung vorbereiten und senden
+title: Push-Benachrichtigungen erstellen und senden
 description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen Push-Benachrichtigungs-Versand mit Adobe Campaign erstellen können.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 93%
+source-wordcount: '908'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
 1. Geben Sie die Eigenschaften der Push-Benachrichtigung ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]** die entsprechende Mobile App aus.
 
-   Beachten Sie, dass in der Dropdown-Liste sowohl SDK V4- als auch Experience Platform SDK-Anwendungen angezeigt werden.
+   Bitte beachten Sie, dass in der Dropdown-Liste sowohl SDK V4- als auch Experience Platform SDK-Anwendungen enthalten sind.
 
    ![](assets/push_notif_properties.png)
 
@@ -86,7 +86,9 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    >[!CAUTION]
    >
-   >Wenn die Payload-Größe die 4-KB-Grenze überschreitet, wird die Nachricht nicht zugestellt. Personalisierungsdaten wirken sich auf die Größe der Nachricht aus.
+   >Wenn die Payload-Größe die 4-KB-Grenze überschreitet, wird die Nachricht nicht zugestellt.
+
+Beachten Sie, dass sich Personalisierungsdaten auf die Größe der Nachricht auswirken.
 
 ## Benachrichtigung senden {#sending-the-notification}
 
@@ -102,7 +104,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
 1. Im Tab **[!UICONTROL Ausschlusslogs]** befinden sich die Liste aller vom Versand an die Zielgruppe ausgeschlossenen Nachrichten sowie der Ausschlussgrund.
 
-   Hier können wir sehen, dass einer unserer App-Abonnenten ausgeschlossen wurde, weil die Adresse auf der Blockierungsliste war, und die anderen Abonnenten, weil das Profil ein Duplikat war.
+   In unserem Beispiel sehen wir, dass einer unserer Mobile-App-Abonnenten ausgeschlossen wurde, weil seine Adresse auf der Blockierungsliste steht, und die anderen Abonnenten, weil ihr Profil eine Dublette war.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +119,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
    ![](assets/push_send_4.png)
 
-1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann von weiteren Versänden zur Blockierungsliste hinzugefügt.
+1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann auf die Blockierungsliste gesetzt und erhält keine weiteren Sendungen mehr.
 
    >[!NOTE]
    >
@@ -131,4 +133,3 @@ Jetzt können Sie die Wirkung Ihres Push-Benachrichtigungs-Versands mit dynamisc
 
 * [Bericht zu Push-Benachrichtigungen](../../reporting/using/push-notification-report.md)
 * [Push-Benachrichtigungen in einem Workflow versenden](../../automating/using/push-notification-delivery.md)
-
