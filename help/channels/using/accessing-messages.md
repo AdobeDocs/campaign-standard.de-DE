@@ -12,8 +12,11 @@ discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Der Zugriff auf Nachrichten erfolgt:
 Um auf die Liste der Marketingaktivitäten einer Kampagne zuzugreifen, gehen Sie folgendermaßen vor:
 
 1. Öffnen Sie in der Navigationsleiste am oberen Bildschirmrand die **[!UICONTROL Marketingaktivitäten]**.
-1. Wählen Sie **[!UICONTROL Marketingaktivitäten &gt; Marketingpläne &gt; Programme &amp; Kampagnen aus]**.
+1. Wählen Sie **[!UICONTROL Marketingaktivitäten > Marketingpläne > Programme &amp; Kampagnen aus]**.
 
    Sie können auch direkt von der Startseite aus auf die Karte **[!UICONTROL Programme &amp; Kampagnen]** zugreifen. Lesen Sie den Abschnitt [Programme und Kampagnen](../../start/using/programs-and-campaigns.md) für weiterführende Informationen.
 
@@ -70,4 +73,3 @@ Der Status einer Nachricht wird auf ihrer Karte durch eine bestimmte Farbe symbo
    >[!NOTE]
    >
    >Oberhalb der Karte kann ein gelbes Banner erscheinen, wenn das Eingreifen eines Benutzers erforderlich ist, beispielsweise wenn eine Versandvalidierung aussteht.
-
