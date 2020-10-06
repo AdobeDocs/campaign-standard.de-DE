@@ -1,6 +1,6 @@
 ---
-title: Integrationsgarantien für Microsoft Dynamics 365
-description: Microsoft Dynamics 365 mit Campaign Standard-Integrationsgarantien
+title: Limits bei der Integration mit Microsoft Dynamics 365
+description: Limits bei der Integration von Microsoft Dynamics 365 mit Campaign Standard
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -11,69 +11,69 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Integrationsgarantien und -grenzen
+# Limits und Grenzen bei der Integration
 
-## Integrationsgarantien
+## Limits bei der Integration
 
-Die folgenden Garantien sollten bei der Planung der Verwendung dieser Integration berücksichtigt werden. Wenden Sie sich an Ihren technischen Kundenbetreuer, wenn Sie glauben, dass Sie diese Adobe überschreiten.
+Die folgenden Limits sollten bei der Verwendung dieser Integration berücksichtigt werden. Wenden Sie sich an Ihren technischen Adobe-Support-Mitarbeiter, wenn Sie glauben, dass Sie diese Limits überschreiten.
 
-* Sie müssen das richtige Kampagne-Paket lizenzieren, um das durch die Integration generierte ACS-Engine-Aufrufvolumen zu unterstützen. Eine Überschreitung des zulässigen Anrufvolumens der Engine könnte zu einer Verschlechterung der Leistung der Kampagne führen.
+* Sie müssen das richtige Campaign-Package lizenzieren, um das durch die Integration generierte Aufrufvolumen der ASC-Engine zu unterstützen. Eine Überschreitung des zulässigen Aufrufvolumens der Engine könnte zu einer Verschlechterung der Leistung von Campaign führen.
 
-   Verwenden Sie die folgenden Optionen, um die Anzahl der Motoraufrufe aus der Integration abzuschätzen:
+   Verwenden Sie Folgendes, um das durch die Integration generierte Engine-Aufrufvolumen abzuschätzen:
 
-   * Datensatzeinfügungen (d. h. neuer Datensatz): 1 Triebwerksaufruf
-   * Löschen von Datensätzen: 1 Triebwerksaufruf
-   * Aktualisierungen aufzeichnen: 2 Engine-Aufrufe (nur 1 Aufruf, wenn der Zieldatensatz identisch mit dem Quelldatensatz ist, d. h. wenn keine Änderung am ACS-Datensatz vorgenommen wird))
+   * Einfügungen von Datensätzen (d. h. neuer Datensatz): 1 Engine-Aufruf
+   * Löschungen von Datensätzen: 1 Engine-Aufruf
+   * Aktualisierungen von Datensätzen: 2 Engine-Aufrufe (nur 1 Aufruf, wenn der Zieldatensatz mit dem Quelldatensatz identisch ist, d. h., wenn keine Änderung am ACS-Datensatz erfolgt)
 
-   Bei der Schätzung des Gesamtaufrufvolumens der ACS-Engine ist es wichtig, andere Quellen für Motorabrufe zu berücksichtigen, einschließlich Landingpages, WebApps, JSSP, APIs, Registrierungen mobiler Apps usw.
+   Bei der Schätzung des Gesamtaufrufvolumens der ACS-Engine ist es wichtig, andere Quellen für Engine-Aufrufe zu berücksichtigen, einschließlich Landingpages, Web-Anwendungen, JSSP, APIs, Registrierungen von Mobile Apps usw.
 
-   Informationen zum Paket zur Ansicht Kampagne finden Sie hier: https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html
+   Informationen zum Campaign-Package finden Sie hier: https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html
 
 * Die Integration unterstützt maximal 30 Millionen Kontakte.
 
-* Das Standard-Integrationsangebot umfasst Unterstützung für bis zu fünf benutzerdefinierte Entitäten
+* Das Standardintegrationsangebot umfasst die Unterstützung für bis zu fünf benutzerdefinierte Entitäten.
 
-* Benutzerdefinierte Entitäten mit mehr als 500.000 Datensätzen benötigen zusätzliche Beratungsstunden, um einen einmaligen (pro benutzerdefinierte Entität) initialen dateibasierten Import über den Arbeitsablauf der Kampagne durchzuführen (was zusätzliche Kosten verursacht).
+* Benutzerdefinierte Entitäten mit mehr als 500.000 Datensätzen erfordern zusätzliche Beratungsstunden, um (pro benutzerdefinierter Entität) einen einmaligen ersten dateibasierten Import über den Campaign-Workflow durchzuführen (was zusätzliche Kosten verursacht).
 
-* Die standardmäßige Integration bietet Unterstützung für benutzerdefinierte Entitäten mit einer Größe von bis zu 50 Spalten.
+* Das Standardintegrationsangebot bietet Unterstützung für benutzerdefinierte Entitäten mit einer Größe von bis zu 50 Spalten.
 
 * Sie müssen Ihre benutzerdefinierten Ressourcen erstellen und veröffentlichen, bevor Sie die Integration implementieren.
 
-* Die maximale Tabellentiefe beim Verknüpfen von Tabellen beträgt zwei (d. h. Tabelle1->Tabelle2->Tabelle3)
+* Die maximale Tabellentiefe beim Verknüpfen von Tabellen beträgt zwei (d. h. Tabelle1->Tabelle2->Tabelle3).
 
-* Dynamische 365-Datentypen werden nur eingeschränkt unterstützt. Wenn Ihr Datenmodell einen anderen Datentyp als einfache Datentypen enthält (z. B. Zeichenfolgen, Ganzzahlen, Dezimalstellen usw.), müssen Sie Ihr Datenmodell möglicherweise aktualisieren, bevor Sie die Integration verwenden.
+* Dynamics 365-Datentypen werden nur eingeschränkt unterstützt. Wenn Ihr Datenmodell einen anderen Datentyp als einfache Datentypen enthält (z. B. Zeichenfolgen, Ganzzahlen, Dezimalzahlen usw.), müssen Sie Ihr Datenmodell möglicherweise aktualisieren, bevor Sie die Integration verwenden.
 
-* Die Beibehaltung vorhandener Daten in Kampagne von benutzerdefinierten Entitäten kann zusätzliche Beratungskosten zur Vorbereitung der Daten auf die Integration verursachen.
+* Die Beibehaltung bestehender Daten in benutzerdefinierten Entitäten in Campaign kann zusätzliche Beratungskosten zur Vorbereitung der Daten auf die Integration verursachen.
 
-* Das Einbordgehen von Wartungsfenstern muss möglicherweise zwischen der Adobe und dem Kunden erfolgen, da die anfängliche Erfassung zu einer Verlangsamung der Kampagne führen kann.
+* Möglicherweise müssen zwischen Adobe und dem Kunden Wartungsfenster für das Onboarding eingerichtet werden, da die anfängliche Erfassung zu Verlangsamungen bei Campaign führen kann.
 
-* Es wird empfohlen, bekannte Fälle von signifikantem Anstieg oder &quot;Spitzen&quot;bei der Nutzung der Integration zu kommunizieren (z. B. starke Zunahme neuer oder aktualisierter Datensätze), da dies zu einer Verlangsamung der Datensynchronisierung führen könnte.
+* Es wird empfohlen, bekannte Fälle von erheblichen Zunahmen oder &quot;Spitzen&quot; bei der Nutzung der Integration (z. B. starker Anstieg neuer oder aktualisierter Datensätze) mitzuteilen, da diese zu Verlangsamungen bei der Datensynchronisation führen kann.
 
-* Als Teil der Integration werden Sie erwartet, die vor der Integration Konfigurationsschritte in Microsoft Azurblase und Dynamics 365. Konfigurationsschritte [auf dieser Seite](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* Im Rahmen der Integration wird erwartet, dass Sie die Konfigurationsschritte vor der Integration in Microsoft Azure und Dynamics 365 ausführen. Sie Konfigurationsschritte finden Sie [auf dieser Seite](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
-* Es wird erwartet, dass Sie Ihre Dynamics 365- und Kampagne-Datenmodelle in die Integration einbinden und diese beibehalten werden.
+* Es wird erwartet, dass Sie Ihre Dynamics 365- und Campaign-Datenmodelle in die Integration einbinden und pflegen.
 
-## Integrationsgrenzen
+## Grenzen der Integration
 
-Die Integration wurde konzipiert, um den allgemeinen Verwendungsfall der gemeinsamen Datenbewegung zwischen Dynamics 365 und Kampagne zu lösen, ist jedoch nicht dazu gedacht, jeden Anwendungsfall, der für jeden Kunden spezifisch ist, zu behandeln:
+Die Integration wurde entwickelt, um den allgemeinen Anwendungsfall der allgemeinen Datenbewegung zwischen Dynamics 365 und Campaign zu lösen. Es ist jedoch nicht beabsichtigt, jeden kundenspezifischen Anwendungsfall zu behandeln:
 
-* Durch die Integration werden keine Datenschutzerklärungen (z.B. GDPR) gelöscht. Die Verantwortung für die Erfüllung der Datenschutzanforderungen für Endnutzer liegt beim Kunden; Solche Anträge sollten sowohl in Kampagne (über die Adobe Experience Platform Privacy Service) als auch in Dynamics 365 unabhängig gestellt werden. Die Integration kann bei Bedarf regelmäßige Löschvorgänge auslösen, um die Datensynchronisierung zu unterstützen.
+* Durch die Integration werden keine datenschutzbezogenen Löschvorgänge (z. B. DSGVO) veranlasst. Die Verantwortung für die Erfüllung von Datenschutzanfragen der Endbenutzer liegt beim Kunden. Solche Anfragen sollten sowohl in Campaign (über den Adobe Experience Platform Privacy Service) als auch in Dynamics 365 unabhängig voneinander gestellt werden. Die Integration kann bei Bedarf reguläre Löschvorgänge auslösen, um die Datensynchronisation zu unterstützen.
 
-* Es werden keine Profil- oder benutzerdefinierten Entitätsdaten von der Kampagne auf Dynamics 365 synchronisiert, mit Ausnahme der Ausschluss-Informationen (sofern vom Kunden konfiguriert).
+* Mit Ausnahme der Opt-out-Informationen (sofern vom Kunden konfiguriert) werden keine Profil- oder benutzerdefinierten Entitätsdaten von Campaign zu Dynamics 365 synchronisiert.
 
-* Kampagne Abonnement Management (d.h. Abonnements/Abbestellungen) wird nicht nativ unterstützt.
+* Die Abonnementverwaltung (d. h. Abonnieren/Abbestellen von Abonnements) in Campaign wird nicht nativ unterstützt.
 
-* Das Erstellen und Auslösen von Kampagne-E-Mail-Kampagnen aus Dynamics 365 wird nicht unterstützt.
+* Das Erstellen und Auslösen von Campaign-E-Mail-Kampagnen in Dynamics 365 wird nicht unterstützt.
 
-* Die Integration unterstützt nicht die Umformung von Daten zwischen den Dynamics 365- und Kampagne-Datenmodellen. Es wird erwartet, dass die Integration eine Dynamics 365-Tabelle mit einer Kampagne-Tabelle synchronisiert.
+* Die Integration unterstützt keine erneute Modellierung von Daten zwischen den Dynamics 365- und Campaign-Datenmodellen. Es wird erwartet, dass die Integration eine Dynamics 365-Tabelle mit einer Campaign-Tabelle synchronisiert.
 
-* Mit der aktuellen Version der Integration gibt es keine Selbstbedienungs-Benutzeroberfläche.
+* Die aktuelle Version der Integration bietet keine Selfservice-Benutzeroberfläche.
