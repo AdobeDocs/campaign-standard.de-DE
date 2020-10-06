@@ -11,11 +11,11 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 80%
 
 Ein Benutzer kann von einem Empfänger direkt im Profil-Tab **[!UICONTROL Allgemein]** an- oder abgemeldet werden.
 
-In the **[!UICONTROL No longer contact (on denylist)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Wählen Sie die Kanäle entsprechend den Anforderungen des Empfängers aus.
+Die aktivierten Optionen im Bereich **[!UICONTROL Nicht mehr kontaktieren (auf Blockierungsliste)]** entsprechen den Kanälen, von denen sich der Empfänger abgemeldet hat. Wählen Sie die Kanäle entsprechend den Anforderungen des Empfängers aus.
 
 ![](assets/optin_landingpage_3.png)
 
-## Opt-in- und Opt-out-Landingpages einrichten   {#setting-up-opt-in-and-opt-out-landing-pages}
+## Opt-in- und Opt-out-Landingpages einrichten    {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Um Empfängern die Möglichkeit zu geben, sich an- oder abzumelden, müssen Sie eine **[!UICONTROL Profilakquise]**-Landingpage erstellen und veröffentlichen. Empfänger können dann entsprechend ihren Anforderungen die gewünschten Kanäle auswählen. Gehen Sie dazu wie folgt vor:
 
-You can also set up a **[!UICONTROL Denylist]** landing page that will enable users to opt out from all deliveries. Weiterführende Informationen dazu finden Sie im Abschnitt [Landingpage zur Abmeldung von allen Sendungen einrichten](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+Sie können auch eine Landingpage vom Typ **[!UICONTROL Blockierungsliste]** einrichten, über die sich Empfänger von allen Sendungen abmelden können. Weiterführende Informationen dazu finden Sie im Abschnitt [Landingpage zur Abmeldung von allen Sendungen einrichten](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ You can also set up a **[!UICONTROL Denylist]** landing page that will enable us
 
 ### Landingpage zum Opt-out von allen Sendungen einrichten {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL Denylist]** landing page. Weiterführende Informationen zur Landingpage-Erstellung finden Sie auf [dieser Seite](../../channels/using/getting-started-with-landing-pages.md).
+Um Empfängern die Möglichkeit zu geben, sich aus allen Sendungen ausschließen zu lassen (Opt-out), müssen Sie eine Landingpage vom Typ **[!UICONTROL Blockierungsliste]** erstellen und veröffentlichen. Weiterführende Informationen zur Landingpage-Erstellung finden Sie auf [dieser Seite](../../channels/using/getting-started-with-landing-pages.md).
 
 Sobald ein Empfänger den Link in der Landingpage auswählt, wird automatisch die Option **[!UICONTROL Nicht mehr kontaktieren (alle Kanäle)]** im Profil des Empfängers aktiviert.
 
