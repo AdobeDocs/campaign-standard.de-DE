@@ -11,9 +11,9 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
 ht-degree: 100%
 
