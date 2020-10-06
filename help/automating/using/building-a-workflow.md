@@ -12,9 +12,9 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Sie können Transitionen vor oder nach der Ausführung des Workflows öffnen, um
 ![](assets/workflow_overview.png)
 
 
-## Workflow erstellen     {#creating-a-workflow}
+## Workflow erstellen  {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
 
@@ -79,7 +79,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 **Verwandtes Thema:**
 
 * Video [Creating a workflow](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
-* [Workflow-Eigenschaften  ](../../automating/using/managing-execution-options.md)
+* [Workflow-Eigenschaften](../../automating/using/managing-execution-options.md)
 
 ## Aktivitäten hinzufügen und verbinden {#adding-and-linking-activities}
 
