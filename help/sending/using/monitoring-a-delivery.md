@@ -12,21 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Sendungen beobachten{#monitoring-a-delivery}
+# Sendungen überwachen{#monitoring-a-delivery}
 
-Es gibt mehrere Möglichkeiten, einen Versand zu beobachten und seine Wirkung zu messen. Als funktionaler Administrator können Sie auf Meldungsprotokolle und Versandlogs zugreifen.
+Es gibt mehrere Möglichkeiten, einen Versand zu überwachen und seine Wirkung zu messen. Als funktionaler Administrator können Sie auf Nachrichtenprotokolle und Versandlogs zugreifen.
 >[!CAUTION]
 >
->Nur Funktionale [Administratoren](../../administration/using/users-management.md#functional-administrators)mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Abonnement können auf die Protokolle zum Senden, Melden, Trackinglogs, Ausschließen oder Ausschließen zugreifen. Ein Benutzer, der keine Administratoren ist, kann diese Protokolle zwar Zielgruppe, jedoch auf einer verknüpften Tabelle (Profil, Versand) beginnen.
+>Nur funktionale [Administratoren](../../administration/using/users-management.md#functional-administrators) mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Einheiten können auf Versandlogs, Nachrichtenprotokolle, Trackinglogs, Ausschluss-Logs oder Abonnenten-Logs zugreifen. Ein Benutzer ohne Administratorrechte kann diese Protokolle ansprechen, muss aber mit einer verknüpften Tabelle (Profile, Versand) beginnen.
 
 * **Nachrichtenprotokolle**: Diese Protokolle können Sie direkt vom Nachrichten-Dashboard aus abrufen. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde sowie Tracking-Informationen wie z. B. Öffnungen und Klicks.
 
@@ -51,7 +51,7 @@ Es gibt mehrere Möglichkeiten, einen Versand zu beobachten und seine Wirkung zu
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Versandlogs   {#delivery-logs}
+## Versandlogs    {#delivery-logs}
 
 ### Versandlogs {#sending-logs}
 
