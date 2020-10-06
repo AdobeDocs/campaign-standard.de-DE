@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 100%
@@ -207,4 +207,3 @@ Bevor Sie eine In-App-Nachricht senden, können Sie sie an Testprofilen testen, 
    ![](assets/inapp_sending_3.png)
 
 1. Jetzt können Sie Ihre Nachricht senden und ihre Wirkung mit Versandberichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../../reporting/using/in-app-report.md).
-
