@@ -12,8 +12,11 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 94%
 
 ---
 
@@ -76,56 +79,60 @@ In diesem Workflow wird von folgenden Voraussetzungen ausgegangen:
 * Leere Felder der AppSubscription-Tabelle werden in der Profiltabelle nicht aktualisiert.
 * Jeder Datensatz, der in der AppSubscription-Tabelle aktualisiert wurde, wird der nächsten Workflow-Ausführung hinzugefügt.
 
-Gehen Sie zur Erstellung des Workflows wie folgt vor:
+Um den Workflow zu erstellen, ziehen Sie die folgenden Aktivitäten per Drag &amp; Drop in den Arbeitsbereich und verknüpfen Sie sie miteinander: **[!UICONTROL Beginn]**, **[!UICONTROL Planung]**, **[!UICONTROL Inkrementelle Abfrage]**, **[!UICONTROL Daten]** aktualisieren
 
-1. Ziehen Sie die folgenden Aktivitäten in den Arbeitsbereich und verknüpfen Sie sie miteinander:
-   1. **[!UICONTROL Starten]**
-   1. **[!UICONTROL Planen]**
-   1. **[!UICONTROL Inkrementell abfragen]**
-   1. **[!UICONTROL Daten aktualisieren]**
-   ![](assets/update_profile0.png)
+![](assets/update_profile0.png)
 
-1. Konfigurieren Sie die Aktivität **[!UICONTROL Planen]**. Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Ausführungsfrequenz]** (z. B. „Täglich“), die **[!UICONTROL Zeit]** (z. B. „1:00:00 Uhr“) und den **[!UICONTROL Start]** (z. B. das heutige Datum) fest.
+Gehen Sie dann wie folgt vor, um jede Aktivität zu konfigurieren.
 
-   ![](assets/update_profile2.png)
+### Konfigurieren Sie die Aktivität **[!UICONTROL Planen]**
 
-1. Konfigurieren Sie die Aktivität **[!UICONTROL Inkrementell abfragen]**.
-   1. Klicken Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** im Feld **[!UICONTROL Ressource]** auf das Symbol **[!UICONTROL Element auswählen]** und wählen Sie das Element **[!UICONTROL App-Abonnements (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** aus.
+Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Ausführungsfrequenz]** (z. B. „Täglich“), die **[!UICONTROL Zeit]** (z. B. „1:00:00 Uhr“) und den **[!UICONTROL Start]** (z. B. das heutige Datum) fest.
 
-      ![](assets/update_profile3.png)
+![](assets/update_profile2.png)
 
-   1. Ziehen Sie auf der Registerkarte **[!UICONTROL Target]** den Filter **[!UICONTROL Mobile App]** und wählen Sie den Namen einer Mobile App aus.
+### Konfigurieren Sie die Aktivität **[!UICONTROL Inkrementell abfragen]**.
 
-      ![](assets/update_profile4.png)
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** im Feld **[!UICONTROL Ressource]** auf das Symbol **[!UICONTROL Element auswählen]** und wählen Sie das Element **[!UICONTROL App-Abonnements (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** aus.
 
-   1. Wählen Sie auf der Registerkarte **[!UICONTROL Verarbeitete Daten]** die Option **[!UICONTROL Datenfeld verwenden]** aus und fügen Sie das Feld **[!UICONTROL Zuletzt geändert (lastModified)]** als **[!UICONTROL Pfad zum Datenfeld]** hinzu.
+   ![](assets/update_profile3.png)
 
-      ![](assets/update_profile5.png)
+1. Ziehen Sie auf der Registerkarte **[!UICONTROL Target]** den Filter **[!UICONTROL Mobile App]** und wählen Sie den Namen einer Mobile App aus.
 
-1. Konfigurieren Sie die Aktivität **[!UICONTROL Daten aktualisieren]**.
-   1. Vergewissern Sie sich auf der Registerkarte **[!UICONTROL Identifizierung]**, dass das Feld **[!UICONTROL Zu aktualisierende Dimension]** auf „Profile (profile)“ gesetzt ist, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld als Abgleichkriterium hinzuzufügen.
+   ![](assets/update_profile4.png)
 
-      ![](assets/update_profile_createelement.png)
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Verarbeitete Daten]** die Option **[!UICONTROL Datenfeld verwenden]** aus und fügen Sie das Feld **[!UICONTROL Zuletzt geändert (lastModified)]** als **[!UICONTROL Pfad zum Datenfeld]** hinzu.
 
-   1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abgleichfeld aus. Sie können hier z. B. das Feld „email“, „crmId“ oder „marketingCloudId“ des Profils auswählen. In diesem Beispiel verwenden wir das Feld „E-Mail (cusEmail)“.
-   1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgeglichen werden sollen. Dies kann das E-Mail-Feld des Profils oder ein beliebiges erweitertes Feld wie „crmId“ oder „marketingCloudId“ sein. In diesem Beispiel wählen Sie das Feld „E-Mail (email)“ aus, um es dem Feld „E-Mail (cusEmail)“ der Tabelle „appSubscriptionRcp“ zuzuordnen.
+   ![](assets/update_profile5.png)
 
-      ![](assets/update_profile7.png)
+### Konfigurieren Sie die Aktivität **[!UICONTROL Daten aktualisieren]**.
 
-   1. Klicken Sie auf der Registerkarte **[!UICONTROL Zu aktualisierende Felder]** auf die Schaltfläche **[!UICONTROL Element erstellen]** und ordnen Sie die Felder aus der Tabelle „appSubscriptionRcp“ (Feld **[!UICONTROL Quelle]**) den Feldern zu, die Sie in der Profiltabelle (Feld **[!UICONTROL Ziel]**) aktualisieren möchten.
-   1. Fügen Sie dem Feld **[!UICONTROL Aktiviert wenn]** einen Ausdruck hinzu, der sicherstellt, dass das entsprechende Feld in der Profiltabelle nur aktualisiert wird, wenn das Quellfeld einen Wert enthält. Wählen Sie dazu das Feld in der Liste aus und fügen Sie den Ausdruck "!=''" hinzu (wenn das Quellfeld `[target/@cusEmail]` lautet, geben Sie im Ausdruckseditor `[target/@cusEmail] != ''"` ein).
+1. Vergewissern Sie sich auf der Registerkarte **[!UICONTROL Identifizierung]**, dass das Feld **[!UICONTROL Zu aktualisierende Dimension]** auf „Profile (profile)“ gesetzt ist, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld als Abgleichkriterium hinzuzufügen.
 
-      ![](assets/update_profile8.png)
+   ![](assets/update_profile_createelement.png)
 
-      >[!NOTE]
-      >
-      >In diesem Fall führt der Workflow ein UPSERT aus. Da sich dieses UPSERT jedoch auf eine inkrementelle Abfrage bezieht, werden die Daten nur eingefügt. Eine Änderung der Abfrage kann sich auf die eingefügten oder aktualisierten Daten auswirken.
-      >Darüber hinaus bestimmen auch die Einstellungen auf der Registerkarte „Zu aktualisierende Felder“, welche Felder unter bestimmten Bedingungen eingefügt oder aktualisiert werden. Diese Einstellungen sind oft anwendungs- oder kundenspezifisch. Konfigurieren Sie diese Einstellungen mit größter Sorgfalt, da sie andernfalls unbeabsichtigte Folgen haben können. Durch die Aktualisierung der Profildatensätze auf Basis der appSubscriptionRcp-Daten können sich persönliche Benutzerdaten ohne Validierung ändern.
+1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abgleichfeld aus. Sie können hier z. B. das Feld „email“, „crmId“ oder „marketingCloudId“ des Profils auswählen. In diesem Beispiel verwenden wir das Feld „E-Mail (cusEmail)“.
 
-   1. Klicken Sie auf **[!UICONTROL Bestätigen]**, wenn Sie alle im Profil einzufügenden bzw. zu aktualisierenden Felder hinzugefügt haben.
+1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgeglichen werden sollen. Dies kann das E-Mail-Feld des Profils oder ein beliebiges erweitertes Feld wie „crmId“ oder „marketingCloudId“ sein. In diesem Beispiel wählen Sie das Feld „E-Mail (email)“ aus, um es dem Feld „E-Mail (cusEmail)“ der Tabelle „appSubscriptionRcp“ zuzuordnen.
 
-      ![](assets/update_profile9.png)
+   ![](assets/update_profile7.png)
 
-1. Speichern Sie den Workflow und klicken Sie dann auf „Start“, um den Workflow-Prozess zu starten.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Zu aktualisierende Felder]** auf die Schaltfläche **[!UICONTROL Element erstellen]** und ordnen Sie die Felder aus der Tabelle „appSubscriptionRcp“ (Feld **[!UICONTROL Quelle]**) den Feldern zu, die Sie in der Profiltabelle (Feld **[!UICONTROL Ziel]**) aktualisieren möchten.
 
-   ![](assets/update_profile10.png)
+1. Fügen Sie dem Feld **[!UICONTROL Aktiviert wenn]** einen Ausdruck hinzu, der sicherstellt, dass das entsprechende Feld in der Profiltabelle nur aktualisiert wird, wenn das Quellfeld einen Wert enthält. Wählen Sie dazu das Feld in der Liste aus und fügen Sie den Ausdruck &quot;!=&#39;&#39;&quot; hinzu (wenn das Quellfeld `[target/@cusEmail]` lautet, geben Sie im Ausdruckseditor `[target/@cusEmail] != ''"` ein).
+
+   ![](assets/update_profile8.png)
+
+>[!NOTE]
+>
+>In this case, the Workflow performs an UPSERT but since it&#39;s based on an **[!UICONTROL Incremental query]** data is only inserted. Eine Änderung der Abfrage kann sich auf die eingefügten oder aktualisierten Daten auswirken.
+>Darüber hinaus bestimmen auch die Einstellungen auf der Registerkarte „Zu aktualisierende Felder“, welche Felder unter bestimmten Bedingungen eingefügt oder aktualisiert werden. Diese Einstellungen sind oft anwendungs- oder kundenspezifisch.
+>Konfigurieren Sie diese Einstellungen mit größter Sorgfalt, da sie andernfalls unbeabsichtigte Folgen haben können. Durch die Aktualisierung der Profildatensätze auf Basis der appSubscriptionRcp-Daten können sich persönliche Benutzerdaten ohne Validierung ändern.
+
+Klicken Sie auf **[!UICONTROL Bestätigen]**, wenn Sie alle im Profil einzufügenden bzw. zu aktualisierenden Felder hinzugefügt haben.
+
+![](assets/update_profile9.png)
+
+Save the workflow, then click **[!UICONTROL Start]** to execute the Workflow.
+
+![](assets/update_profile10.png)
