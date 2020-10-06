@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Wenn nicht, überprüfen Sie, ob der von der Pipeline kommende Trigger empfangen
 
 Wenn nicht, kontaktieren Sie Adobe, um die Konfiguration des Pipeline-Ziels zu überprüfen.
 
-Falls ja, befolgen Sie die folgenden Richtlinien:
+Wenn dies der Fall ist, befolgen Sie diese Richtlinien:
 
 * Überprüfen Sie den Typ der Abstimmkennung in der Campaign-Datenquelle.
 * Die CustomerId-Datenquelle wird über Kundenattribute erstellt.
@@ -74,10 +74,10 @@ Falls ja, befolgen Sie die folgenden Richtlinien:
 
 **Befindet sich der Trigger im Status &quot;ausstehend&quot;?**
 
-Wenn nicht, fahren Sie mit dem nächsten Schritt fort. Falls ja, befolgen Sie die folgenden Richtlinien:
+Wenn nicht, fahren Sie mit dem nächsten Schritt fort. Wenn dies der Fall ist, befolgen Sie diese Richtlinien:
 
 * Überprüfen Sie, ob die Transaktionsvorlage publiziert ist.
-* Vergewissern Sie sich, dass das Profil nicht auf Blockierungsliste basiert.
+* Stellen Sie sicher, dass das Profil nicht auf der Blockierungsliste steht.
 * Überprüfen Sie die Anwendung der Typologieregeln.
 * Überprüfen Sie die Logs der Transaktionsnachricht.
 
