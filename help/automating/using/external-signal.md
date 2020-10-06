@@ -12,9 +12,9 @@ discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Beachten Sie, dass die Aktivität **[!UICONTROL Externes Signal]** von mehreren 
 Bei der Konfiguration eines externes Signals muss zuerst die Aktivität **[!UICONTROL Externes Signal]** im Ziel-Workflow konfiguriert werden. Danach ist die Aktivität **[!UICONTROL Externes Signal]** dieses Workflows verfügbar, um die **[!UICONTROL Ende]**-Aktivität des Ursprungs-Workflows zu konfigurieren.
 
 1. Ziehen Sie die Aktivität **[!UICONTROL Externes Signal]** in den Ziel-Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Quick Actions angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Bearbeiten Sie den Titel der Aktivität. Diesen Titel benötigen Sie bei der Konfiguration des Ursprungs-Workflows, der das **[!UICONTROL externe Signal]** auslöst.
 
    Wenn Sie den Workflow mit Parametern aufrufen möchten, deklarieren Sie diese im Bereich **[!UICONTROL Parameter]**. Weiterführende Informationen hierzu finden Sie in diesem Abschnitt: [](../../automating/using/declaring-parameters-external-signal.md).
