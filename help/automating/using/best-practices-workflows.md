@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -77,11 +77,11 @@ Mit den Eigenschaften des Workflows können Sie eine bestimmte Zeitzone definier
 
 ### Anzahl der Aktivitäten pro Workflow {#number-activities}
 
-Es wird empfohlen, bis zu 100 Aktivitäten in einem Arbeitsablauf zu verwenden. Über 100 Aktivitäten kann es bei der Entwicklung und Konfiguration des Workflows zu Leistungseinbußen kommen.
+Wir empfehlen, bis zu 100 Aktivitäten in einem Workflow zu verwenden. Bei über 100 Aktivitäten können beim Erstellen und Konfigurieren Ihres Workflows Leistungsprobleme auftreten.
 
 ### Workflow-Erstellung
 
-Um sicherzustellen, dass der Workflow ordnungsgemäß beendet wird, sollten Sie die letzte Transition eines Workflows nicht allein mit einer **[!UICONTROL End-Aktivität]** belassen.
+Um sicherzugehen, dass der Workflow ordnungsgemäß beendet wird, sollten Sie nach der letzten Transition im Workflow eine **[!UICONTROL Ende-Aktivität]** verwenden.
 
 Um zur Detailansicht der Transitionen zu gelangen, aktivieren Sie im Abschnitt zur Ausführung der Workflow-Eigenschaften die Option **[!UICONTROL Zwischenergebnis festhalten]**.
 
@@ -112,7 +112,7 @@ Weiterführende Informationen dazu finden Sie in der [Planungsaktivität](../../
 
 ## Workflow mit Parametern abrufen{#workflow-with-parameters}
 
-Stellen Sie sicher, dass Name und Anzahl der Parameter identisch mit denen sind, die beim Aufrufen des Workflows definiert wurden (siehe [](../../automating/using/defining-parameters-calling-workflow.md). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
+Stellen Sie sicher, dass Name und Anzahl der Parameter mit der Definition beim Aufrufen des Workflows übereinstimmen (siehe [](../../automating/using/defining-parameters-calling-workflow.md)). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
 
 Stellen Sie sicher, dass alle Parameter in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurden. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
 
