@@ -11,9 +11,9 @@ topic-tags: transactional-messaging
 discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 100%
 
@@ -129,4 +129,3 @@ Nach dem Start des Workflows erhalten alle Kunden, die drei Tage zuvor Ihre Bena
 >[!NOTE]
 >
 >Wenn Sie die Zielgruppendimension **[!UICONTROL Profil]** bei der Erstellung der Ereigniskonfiguration ausgewählt haben, nutzt die Folgenachricht zudem die Marketing-Datenbank von Adobe Campaign. Siehe [Profil-Transaktionsnachrichten](../../channels/using/profile-transactional-messages.md).
-
