@@ -11,11 +11,11 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Das Prinzip dahinter ist folgendes: Der Besucher füllt ein Formular auf einer O
 
 Gehen Sie dazu folgendermaßen vor:
 
-1. Erstellen und publizieren Sie eine Landingpage, auf der sich Besucher registrieren und anmelden können. Diese Landingpage ist auf einer Website verfügbar. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Erstellen und publizieren Sie eine Landingpage, auf der sich Besucher registrieren und anmelden können. Diese Landingpage ist auf einer Website verfügbar. Besucher, die diese Landingpage ausfüllen und diese Informationen abschicken, werden in der Datenbank gespeichert, aber auf die Blockierungsliste gesetzt, damit sie keine Nachrichten vor der endgültigen Validierung erhalten (siehe [Verwaltung der Blockierungslisten in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Erstellen und senden Sie automatisch die Anmelde-E-Mail mit einem Bestätigungs-Link. Diese E-Mail wird an die Personen gesendet, die ihre Informationen auf der Landingpage abgeschickt haben. Die E-Mail basiert auf einer E-Mail-Vorlage, mit der ‘abgemeldete’ Profile gehandhabt werden können.
 1. Richten Sie eine Weiterleitung zu einer Bestätigungs-Landingpage ein. Diese abschließende Landingpage weist eine Bestätigungs-Schaltfläche auf, die die Besucher anklicken müssen. Sie können eine Willkommens-E-Mail erstellen, die nach Abschluss des Bestätigungsprozesses gesendet wird und beispielsweise ein spezielles Angebot für neue Empfänger enthält.
 
 Diese Schritte müssen in Adobe Campaign in einer bestimmten Reihenfolge ausgeführt werden, damit alle Parameter ordnungsgemäß aktiviert werden.
 
-## Schritt 1: Bestätigungs-Landingpage erstellen     {#step-1--create-the-confirmation-landing-page}
+## Schritt 1: Bestätigungs-Landingpage erstellen      {#step-1--create-the-confirmation-landing-page}
 
 Um eine Anmeldung mit zweifacher Bestätigung einzurichten, muss zunächst die Bestätigungs-Landingpage erstellt werden: Diese Seite wird angezeigt, wenn ein Besucher die Bestätigungs-E-Mail anklickt, um sich zu registrieren.
 
@@ -60,7 +60,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   In diesem Kontext wird das Feld &quot;On Blockierungsliste&quot;entfernt, um E-Mails senden zu können. Später werden wir sehen, dass die ursprüngliche Einstellung des Felds für die Landingpage vor der Bestätigung **Wahr** war, was den Versand von E-Mails an nicht bestätigte Profile verhindert hat. Weiterführende Informationen dazu finden Sie unter [Schritt 3: Akquise-Landingpage erstellen](#step-3--create-the-acquisition-landing-page).
+   Dadurch wird das Feld &quot;Auf Blockierungsliste&quot; entfernt, sodass E-Mails gesendet werden können. Später werden wir sehen, dass die ursprüngliche Einstellung des Felds für die Landingpage vor der Bestätigung **Wahr** war, was den Versand von E-Mails an nicht bestätigte Profile verhindert hat. Weiterführende Informationen dazu finden Sie unter [Schritt 3: Akquise-Landingpage erstellen](#step-3--create-the-acquisition-landing-page).
 
 1. Passen Sie den Inhalt der Landingpage an: Sie können personalisierte Daten anzeigen und den Titel der Bestätigungs-Schaltfläche beispielsweise in ‘Klicken Sie hier, um Ihre Anmeldung zu bestätigen’ ändern.
 
@@ -72,13 +72,13 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
 1. [Testen und publizieren](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
-## Schritt 2: Bestätigungs-E-Mail erstellen     {#step-2--create-the-confirmation-email}
+## Schritt 2: Bestätigungs-E-Mail erstellen      {#step-2--create-the-confirmation-email}
 
 Nachdem die Bestätigungs-Landingpage fertig ist, kann die Bestätigungs-E-Mail erstellt werden. Diese E-Mail wird automatisch jedem Besucher gesendet, der die Akquise-Landingpage bestätigt. Diese Bestätigung wird als Ereignis erachtet und die E-Mail gilt als Transaktionsnachricht, die mit einer bestimmten Typologieregel verknüpft ist, wodurch Abmeldungen gehandhabt werden können.
 
 Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Führen Sie sie aus, bevor Sie die Akquise-Landingpage erstellen, da diese auf die E-Mail-Vorlage verweist.
 
-### Ereignis erstellen     {#create-the-event}
+### Ereignis erstellen      {#create-the-event}
 
 Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), da sie auf ein Ereignis reagiert, nämlich die Bestätigung des Formulars. Erstellen Sie zuerst das Ereignis und danach die Vorlage der Transaktionsnachricht.
 
@@ -101,17 +101,17 @@ Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die E-Mail-Vorlage
 
 ### Typologie erstellen {#create-the-typology-rule}
 
-Erstellen Sie eine eigene [Typologie](../../sending/using/about-typology-rules.md) durch Duplizieren einer nativen Typologie. Die Typologie ermöglicht es Profilen, die ihre Zustimmung noch nicht bestätigt haben und noch immer auf der Blockierungsliste sind, Nachrichten zu senden. Standardmäßig schließen Typologien Ausschluss-Opt-out-Profil (d. h. auf Blockierungsliste) aus. Gehen Sie wie folgt vor, um eine solche Typologie zu erstellen:
+Erstellen Sie eine eigene [Typologie](../../sending/using/about-typology-rules.md) durch Duplizieren einer nativen Typologie. Mit der Typologie können Nachrichten an Profile gesendet werden, die ihre Anmeldung noch nicht bestätigt haben und noch auf der Blockierungsliste stehen. Standardmäßig schließen Typologien Opt-out-Profile (d. h. Profile auf Blockierungslisten) aus. Gehen Sie wie folgt vor, um eine solche Typologie zu erstellen:
 
 1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Optionen **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** und nochmals **[!UICONTROL Typologien]**.
 1. Duplizieren Sie die Standardtypologie **[!UICONTROL Transaktionsnachricht zum Profil (mcTypologyProfile)]**.
 1. Bearbeiten Sie danach die neue Typologie und geben Sie den Titel **TYPOLOGY_PROFILE** ein.
-1. Entfernen Sie die Regel **Adresse auf Blockierungsliste** .
+1. Entfernen Sie die Regel **Adresse auf Blockierungsliste**.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 Diese Typologie kann jetzt mit der Bestätigungs-E-Mail verknüpft werden.
 
-### Bestätigungsnachricht erstellen     {#design-the-confirmation-message}
+### Bestätigungsnachricht erstellen      {#design-the-confirmation-message}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf einem zuvor erstellen Ereignis basiert. Führen Sie die folgenden Schritte aus, um eine solche Nachricht zu erstellen:
 
@@ -124,7 +124,7 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf einem zuvor ers
 1. Bearbeiten Sie die Eigenschaften der E-Mail-Vorlage. Wählen Sie im Bereich **[!UICONTROL Erweiterte Parameter]** > **[!UICONTROL Vorbereitung]** die zuvor erstellte Typologie **TYPOLOGY_PROFILE**.
 1. Speichern und publizieren Sie die Transaktionsnachricht.
 
-## Schritt 3: Akquise-Landingpage erstellen     {#step-3--create-the-acquisition-landing-page}
+## Schritt 3: Akquise-Landingpage erstellen      {#step-3--create-the-acquisition-landing-page}
 
 Erstellen Sie die ursprüngliche Akquise-Landingpage. Sie enthält ein Anmeldeformular, das daraufhin auf Ihrer Website veröffentlicht wird.
 
@@ -137,7 +137,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    und wählen Sie den Wert **Wahr** aus.
 
-   Dies ist zwingend erforderlich, um das Hinzufügen zur Blockierungsliste zu erzwingen und das Senden von Nachrichten an Besucher, die ihre Zustimmung nicht bestätigt haben, zu vermeiden. Durch die Bestätigung der CONFIRMATION-Landingpage erhält dieses Feld den Wert **Falsch**. Weiterführende Informationen dazu finden Sie unter [Schritt 1: Bestätigungs-Landingpage erstellen](#step-1--create-the-confirmation-landing-page).
+   Dies ist nötig, damit Besucher, die ihre Anmeldung noch nicht bestätigt haben, auf die Blockierungsliste gesetzt werden und keine Nachrichten erhalten. Durch die Bestätigung der CONFIRMATION-Landingpage erhält dieses Feld den Wert **Falsch**. Weiterführende Informationen dazu finden Sie unter [Schritt 1: Bestätigungs-Landingpage erstellen](#step-1--create-the-confirmation-landing-page).
 
 1. Wählen Sie im Bereich **[!UICONTROL Job]** > **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Absendung einer Nachricht auslösen]**.
 1. Wählen Sie in der dazugehörigen Dropdown-Liste die von Ihnen erstellte Transaktionsnachrichtenvorlage **CONFIRM** aus.
