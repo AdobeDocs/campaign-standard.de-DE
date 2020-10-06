@@ -11,11 +11,11 @@ topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
    >
    >Wenn Sie eine E-Mail von der Startseite oder der Marketingaktivitätenliste ausgehend erstellen, können Sie sie einer bereits existierenden Kampagne zuordnen. Wählen Sie diese unter den bereits existierenden Kampagnen aus.
 
-1. Definieren Sie die Zielgruppe Ihrer Nachricht auf der Basis Ihrer betrieblichen Bedingungen. See [About profiles](../../audiences/using/about-profiles.md).
+1. Definieren Sie die Zielgruppe Ihrer Nachricht auf der Basis Ihrer betrieblichen Bedingungen. Siehe [Über Profile](../../audiences/using/about-profiles.md).
 
    Außerdem können Sie die Testprofile zur Validierung der Nachricht definieren. Siehe [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
