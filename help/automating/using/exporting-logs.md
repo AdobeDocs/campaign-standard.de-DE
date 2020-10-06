@@ -11,11 +11,11 @@ topic-tags: importing-and-exporting-data
 discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Mit Sendungen oder Abonnements verknüpfte Log-Daten können mit einem einfachen
 
 >[!CAUTION]
 >
->Nur Funktionale [Administratoren](../../administration/using/users-management.md#functional-administrators)mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Abonnement können auf die Protokolle zum Senden, Melden, Trackinglogs, Ausschließen oder Ausschließen zugreifen. Ein Benutzer, der keine Administratoren ist, kann diese Protokolle zwar Zielgruppe, jedoch auf einer verknüpften Tabelle (Profil, Versand) beginnen.
+>Nur funktionale [Administratoren](../../administration/using/users-management.md#functional-administrators) mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Einheiten können auf Versandlogs, Nachrichtenprotokolle, Trackinglogs, Ausschluss-Logs oder Abonnenten-Logs zugreifen. Ein Benutzer ohne Administratorrechte kann diese Protokolle ansprechen, muss aber mit einer verknüpften Tabelle (Profile, Versand) beginnen.
 
 Durch eine **[!UICONTROL Inkrementelle Abfrage]**, mit der bei jeder Workflow-Ausführung immer nur jeweils neue Logs abgerufen werden, und eine einfache Aktivität des Typs **[!UICONTROL Dateiextraktion]** zur Definition der Ausgabespalten erhalten Sie eine Datei im gewünschten Format mit den erforderlichen Daten. Rufen Sie dann mit der Aktivität **[!UICONTROL Dateiübertragung]** die endgültige Datei ab. Die Ausführung des Workflows wird mit der Aktivität **[!UICONTROL Planung]** geplant.
 
