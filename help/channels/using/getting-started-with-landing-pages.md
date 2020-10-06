@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Auf dieser Seite finden Sie Informationen zu den einzelnen Schritten sowie Hinwe
 
 **Verwandte Themen:**
 
-* [Lernvideo zur Landingpage erstellen](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html)
+* [Tutorial zum Erstellen einer Landingpage](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html)
 * [Dienst erstellen](../../audiences/using/creating-a-service.md)
 * [Anmeldung mit zweifacher Bestätigung einrichten](setting-up-a-double-opt-in-process.md)
 
@@ -94,9 +94,9 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung i
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >Sollten Sie Änderungen vornehmen, gelten diese nur für die in Bearbeitung befindliche Landingpage. Wenn Sie die Änderungen auf andere Landingpages anwenden möchten, können Sie sie in einer dedizierten Vorlage vornehmen und von dieser Vorlage ausgehend andere Landingpages erstellen.
+>[!NOTE]
+>
+>Sollten Sie Änderungen vornehmen, gelten diese nur für die in Bearbeitung befindliche Landingpage. Wenn Sie die Änderungen auf andere Landingpages anwenden möchten, können Sie sie in einer dedizierten Vorlage vornehmen und von dieser Vorlage ausgehend andere Landingpages erstellen.
 
 ## Schritt 3 – Landingpage gestalten {#design-the-landing-page}
 
