@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7e02fa4fdef05d67118baf0f49fda7886c6768f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -32,29 +32,29 @@ Drei Systeme, die für diese Integration bereitgestellt werden müssen:
 
 1. Adobe Campaign Standard – [mehr dazu](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
 1. Microsoft Dynamics 365 for Sales – siehe Beschreibung unten
-1. Integrationstool - Eigentum des Adobe Consulting Teams
+1. Integrations-Tool – Eigentum des Adobe Consulting-Teams
 
 Nach der Bereitstellung müssen diese Systeme von einem Administrator konfiguriert werden.
 
-In diesem Artikel werden die Schritte auf der Seite Microsoft Dynamics 365 beschrieben, die während der Einrichtung vor der Integration erforderlich sind, damit ein Kunde die Integration Adobe Campaign Standard - Microsoft Dynamics 365 nutzen kann.
+In diesem Artikel werden die Schritte auf der Seite von Microsoft Dynamics 365 beschrieben, die bei der Einrichtung vor der Integration erforderlich sind, damit ein Kunde die Integration zwischen Adobe Campaign Standard und Microsoft Dynamics 365 verwenden kann.
 
 >[!NOTE]
 >
->Solange die Benutzeroberfläche für das Selbstbedienungstool noch in diesem Jahr verfügbar ist, wird das Bordteam Sie bei der Konfiguration der Integration unterstützen.
+>Bis die Benutzeroberfläche für das Selfservice-Tool später in diesem Jahr verfügbar ist, unterstützt Sie das Onboarding-Team bei der Konfiguration der Integration.
 
 ## Voraussetzungen
 
-Bevor Sie die Vorintegration in diesem Dokument durchführen, wird davon ausgegangen, dass Sie bereits eine Version bereitgestellt haben und Administratorrechte auf die Microsoft Dynamics 365-Instanz in Ihrem Unternehmen haben.  Ist dies nicht der Fall, müssen Sie sich mit der Kundenunterstützung von Microsoft in Verbindung setzen, um die Dynamics 365-Bereitstellung abzuschließen.
+Bevor Sie die in diesem Dokument beschriebenen Einrichtungsschritte vor der Integration durchführen, wird davon ausgegangen, dass Sie bereits eine Bereitstellung vorgenommen haben und Administratorzugriff auf die Microsoft Dynamics 365-Instanz Ihres Unternehmens haben.  Ist dies nicht der Fall, müssen Sie sich mit der Kundenunterstützung von Microsoft in Verbindung setzen, um die Dynamics 365-Bereitstellung abzuschließen.
 
-Wenn Sie die Integration sowohl für die Staging- als auch für die Produktions-Umgebung konfigurieren, müssen Sie die folgenden Schritte für Ihre Staging- und Produktions-Dynamics 365-Instanzen durchführen. Einige unten stehende Anweisungen variieren leicht, je nachdem, ob Sie eine stage- oder production Dynamics 365-Instanz konfigurieren (z. B. für Produktionsinstanzen &quot;prod&quot;wählen `<stage or prod>`)
+Wenn Sie die Integration sowohl für die Staging- als auch für die Produktionsumgebung konfigurieren, müssen Sie die folgenden Schritte für Ihre Staging- und Produktions-Dynamics 365-Instanzen durchführen. Die folgenden Anweisungen variieren geringfügig, je nachdem, ob Sie eine Staging- oder Produktions-Dynamics 365-Instanz konfigurieren (z. B. wählen Sie für die Produktionsinstanz &quot;prod&quot; für `<stage or prod>` aus).
 
 ## Einrichten der Anwendung und der Berechtigungen
 
-Ein OAuth-Zugriffstoken ermöglicht es dem Integrationstool, sich über Web-APIs mit Ihrer Microsoft Dynamics 365-Instanz zu authentifizieren, um Campaign Standard-Experience-Ereignis an die Zeitschiene der Microsoft Dynamics 365-Schnittstelle zu veröffentlichen.
+Ein OAuth-Zugriffstoken ermöglicht es dem Integrations-Tool, sich über Web-APIs bei Ihrer Microsoft Dynamics 365-Instanz zu authentifizieren, um Campaign Standard-Erlebnisereignisse in der Timeline-Ansicht der Microsoft Dynamics 365-Oberfläche zu veröffentlichen.
 
 Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/27637?captions=ger)
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
@@ -70,14 +70,14 @@ Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
 1. Füllen Sie den Registrierungsbildschirm für die App aus:
 
-   * Name: adobe campaign `<stage or prod>`
+   * Name: adobe campaign  `<stage or prod>`
    * Unterstützter Kontotyp: **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis]** (Standardwert)
 
 Weiterführende Informationen zur Erstellung einer neuen Anwendung finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app).
 
 >[!NOTE]
 >
->Azurblauer Anzeige weist Ihrer App eine eindeutige Applikations-ID zu. Sie benötigen diese ID später bei der Konfiguration von Dynamics 365 sowie bei der Einrichtung des Integrationstools vor der Integration.
+>Azure AD weist Ihrer App eine eindeutige Anwendungs-(Client-)Kennung zu. Sie benötigen diese Kennung später bei der Konfiguration von Dynamics 365 sowie bei der Einrichtung vor der Integration für das Integrations-Tool.
 
 ### Client-Geheimnis generieren
 
@@ -91,7 +91,7 @@ Ihr Client-Geheimnis wird jetzt erstellt. Bewahren Sie den Wert vorübergehend f
 
 >[!CAUTION]
 >
->Halten Sie diesen Wert so, wie Sie ihn benötigen, um die Einrichtung des Integrationstools vor der Integration abzuschließen. Er kann danach nicht mehr abgerufen werden.
+>Bewahren Sie diesen Wert auf, da Sie ihn benötigen, um die Einrichtung des Integrationstools vor der Integration abzuschließen. Er kann danach nicht mehr abgerufen werden.
 
 
 ### Berechtigungen einrichten
@@ -120,10 +120,10 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
 
    Füllen Sie den Bildschirm für den neuen Anwender aus.  Empfohlene Parameter:
 
-   * **[!UICONTROL Benutzername]** (E-Mail): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot;(z. B. adobe_api_stage@some-company.crm.dynamics.com)
+   * **[!UICONTROL Benutzername]** (E-Mail): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (z. B. adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL Anwendungs-ID]**: Kennung der Anwendung, die Sie in Azure AD registriert haben (das ist obligatorisch).
    * Sie können **[!UICONTROL URl der Anwendungs-ID]** und **[!UICONTROL Azure AD-Objektkennung]** leer lassen.
-   * **[!UICONTROL Vollständiger Name]**: Adobe-API. `<stage or prod>`
+   * **[!UICONTROL Vollständiger Name]**: Adobe-API.  `<stage or prod>`
    * **[!UICONTROL E-Mail]**: identisch mit **[!UICONTROL Benutzername]** (oder der E-Mail-Adresse des Administrators, falls gewünscht).
 
    Weiterführende Informationen zur Erstellung von Anwendern finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -140,7 +140,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
 
 ### Mandantenkennung abrufen
 
-Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de/onedrive/find-your-office-365-tenant-id) , um Ihre Mandanten-ID zu finden.  Sie benötigen diese ID während der Einrichtung vor der Integration im Integrationstool.
+Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de/onedrive/find-your-office-365-tenant-id), um Ihre Mandanten-ID zu finden.  Sie benötigen diese ID während der Einrichtung vor der Integration im Integrations-Tool.
 
 ## Campaign Standard für Microsoft Dynamics 365 installieren
 
