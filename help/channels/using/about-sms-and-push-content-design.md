@@ -12,8 +12,11 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
@@ -43,4 +46,3 @@ Um auf den Inhaltseditor für SMS und Push-Benachrichtigungen zuzugreifen, gehen
 
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
 * [Push-Benachrichtigung erstellen und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
-
