@@ -11,9 +11,9 @@ topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -30,10 +30,10 @@ ht-degree: 100%
 
 Die Aktivität **[!UICONTROL Push-Benachrichtigung]** ermöglicht das Konfigurieren des Versands von Push-Benachrichtigungen innerhalb eines Workflows. Diese Benachrichtigung kann einmalig sein oder wiederkehrend.
 
-* **Einmalige Benachrichtigungen sind standardmäßige Mobile-App-Push-Benachrichtigungen, die einmal gesendet werden.**
-* **Wiederkehrende Versandaktionen ermöglichen den wiederholten Versand der gleichen Mobile-App-Push-Benachrichtigung über einen bestimmten Zeitraum an verschiedene Zielgruppen.** Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
+* **Einmalige** Benachrichtigungen sind standardmäßige Mobile-App-Push-Benachrichtigungen, die einmal gesendet werden.
+* **Wiederkehrende** Versandaktionen ermöglichen den wiederholten Versand der gleichen Mobile-App-Push-Benachrichtigung über einen bestimmten Zeitraum an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
-## Anwendungskontext     {#context-of-use}
+## Anwendungskontext      {#context-of-use}
 
 Die Aktivität **[!UICONTROL Push-Benachrichtigung]** dient im Allgemeinen dazu, den Versand von Benachrichtigungen an eine innerhalb des gleichen Workflows berechnete Zielgruppe zu automatisieren.
 
@@ -50,11 +50,11 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie die Aktivität **[!UICONTROL Push-Benachrichtigung]** in Ihren Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Quick Actions angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 
    >[!NOTE]
    >
-   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) in den Quick Actions bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Diese Schaltfläche ist speziell für die Aktivität **[!UICONTROL Push-Benachrichtigung]** vorgesehen. Auf die Eigenschaften der Push-Benachrichtigung können Sie über die Symbolleiste des Push-Dashboards zugreifen.
+   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) iim Schnellzugriff bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Diese Schaltfläche ist speziell für die Aktivität **[!UICONTROL Push-Benachrichtigung]** vorgesehen. Auf die Eigenschaften der Push-Benachrichtigung können Sie über die Symbolleiste des Push-Dashboards zugreifen.
 
 1. Wählen Sie den Versandtyp der Push-Benachrichtigung aus:
 
@@ -77,7 +77,7 @@ Wenn Sie die Aktivität später erneut öffnen, gelangen Sie direkt in das Dashb
 
 Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachricht ausgelöst. Der in einem Workflow erstellte Nachrichtenversand muss noch bestätigt werden, nachdem der Workflow gestartet wurde. Sie können aber im Nachrichten-Dashboard die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** deaktivieren. Dies ist jedoch nur möglich, wenn die Nachricht in einem Workflow erstellt wurde. Ist diese Option deaktiviert, werden Nachrichten ohne weiteren Hinweis gesendet, sobald die Vorbereitung abgeschlossen ist.
 
-## Bemerkungen     {#remarks}
+## Bemerkungen      {#remarks}
 
 Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
 
