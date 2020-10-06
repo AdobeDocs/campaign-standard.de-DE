@@ -12,11 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c5fbb5e879bad114c4ca421cd2970f2ba5a3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um eine Typologie mit einer Nachricht zu verknüpfen:
 
 1. Greifen Sie auf die Nachrichteneigenschaften zu. Beachten Sie, dass Nachrichtenvorlagen über das Navigationsmenü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** verfügbar sind.
 
-1. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section, select the typology to link to the message.
+1. Wählen Sie im Abschnitt **[!UICONTROL Erweiterte Parameter]** > **[!UICONTROL Vorbereitung]** die Typologie aus, die mit der Nachricht verknüpft werden soll.
 
    ![](assets/typology_message.png)
 
