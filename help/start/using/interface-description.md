@@ -11,11 +11,11 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f33ca4e8b6326fce5fd301587b15ce706750c6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Alle Adobe-Campaign-Bildschirme weisen folgende Elemente auf:
 
 ![](assets/ux_interface_01.png)
 
-## Startseite       {#home-page}
+## Startseite        {#home-page}
 
 Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnellen Zugriff auf die am häufigsten verwendeten Funktionen bieten. Die Liste der auf der Campaign-Startseite vorhandenen Funktionen hängt von Ihrer Zugriffsberechtigung und den für Ihr Unternehmen konfigurierten Optionen ab.
 
@@ -43,14 +43,14 @@ Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnel
 * Die Karte **[!UICONTROL SMS erstellen]** bietet Zugriff auf einen SMS-Erstellungs-Assistenten. Hier können Sie die Art der SMS festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt [SMS erstellen](../../channels/using/creating-an-sms-message.md).
 * Die Karte **[!UICONTROL Briefpost erstellen]** bietet Zugriff auf einen Erstellungsassistenten für Briefpost. Weiterführende Informationen finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/creating-the-direct-mail.md).
 * Die Karte **[!UICONTROL Push-Benachrichtigung erstellen]** bietet Zugriff auf einen Erstellungs-Assistenten für Benachrichtigungen. Hier können Sie die Art der Push-Benachrichtigung festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
-* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. Mit diesem Assistenten können Sie die Art der In-App-Nachricht auswählen, die Sie erstellen möchten, deren Eigenschaften, Audience und Inhalte definieren. Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
+* Die Karte **[!UICONTROL In-App-Nachricht erstellen]** bietet Zugriff auf einen In-App-Erstellungs-Assistenten. Mit diesem Assistenten können Sie den Typ der zu erstellenden In-App-Nachricht auswählen und deren Eigenschaften, Audiences und Inhalte definieren. Weiterführende Informationen finden Sie im Abschnitt [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md).
 * Die Karte **[!UICONTROL Marketingaktivitäten]** bietet Zugriff auf eine Liste aller Programme, Kampagnen und Marketingaktivitäten (E-Mails, SMS, Workflows, Landingpages), unabhängig vom Programm oder der Kampagne, der letztere angehören. Die Liste kann nach Name, Datum, Status oder Aktivitätstyp gefiltert werden. Weiterführende Informationen finden Sie im Abschnitt [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 * Die Karte **[!UICONTROL Programme &amp; Kampagnen]** bietet Zugriff auf die Liste aller Programme. Sie können an dieser Stelle insbesondere Kampagnen erstellen und verwalten. Weiterführende Informationen finden Sie im Abschnitt [Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * Die Karte **[!UICONTROL Planung]** bietet Zugriff auf eine zeitliche Übersicht Ihrer Marketingaktivitäten. Der Bildschirm bietet die Möglichkeit, aktuelle Programme und deren Inhalt anzuzeigen. Weiterführende Informationen finden Sie im Abschnitt [Planung](../../start/using/timeline.md).
 * Die Karte **[!UICONTROL Profile]** bietet Zugriff auf die Liste aller in der Datenbank gespeicherten Kontakte und die Anzeige der jeden einzelnen Kontakt betreffenden Ereignisse. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
 * Die Karte **[!UICONTROL Audiences]** bietet Zugriff auf die Liste existierender Audiences. Von hier können Sie vorhandene Audiences abrufen und neue erstellen. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Audiences](../../audiences/using/about-audiences.md).
 
-## Symbolleiste       {#top-bar}
+## Symbolleiste        {#top-bar}
 
 Die Symbolleiste ist in jedem Bildschirm sichtbar und ermöglicht die Navigation durch die Funktionen von Adobe Campaign sowie den Zugriff auf die Benutzerdaten Ihres Adobe-Benutzerprofils, auf Benachrichtigungen, auf andere Dienste und Lösungen von Adobe Experience Cloud sowie auf die Dokumentation.
 
@@ -76,7 +76,7 @@ Verwenden Sie das **Adobe Campaign**-Symbol oben links im Bildschirm, um auf das
 
 Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen.
 
-### Marketingpläne       {#marketing-plans}
+### Marketingpläne        {#marketing-plans}
 
 Über das Symbol **[!UICONTROL Marketingpläne]** gelangen Sie zu folgenden Funktionen:
 
@@ -106,7 +106,7 @@ Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen
 
 Über das Symbol **[!UICONTROL Administration]** erhalten Sie Zugriff auf die erweiterten Funktionen, die nur vom funktionalen Administrator ausgeführt werden können. Weiterführende Informationen hierzu finden Sie im Abschnitt [Administration](../../administration/using/get-started-campaign-administration.md).
 
-## Zentraler Bereich       {#central-zone}
+## Zentraler Bereich        {#central-zone}
 
 Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamischen Zone, die beispielsweise eine Liste von Elementen oder diverse Karten enthält. Hier können die einzelnen Elemente bearbeitet oder neue Ressourcen erstellt werden.
 
@@ -134,7 +134,7 @@ Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs kann variieren:
 
    ![](assets/ux_workspace.png)
 
-## Symbolleiste       {#action-bar}
+## Symbolleiste        {#action-bar}
 
 Die im oberen Bildschirmbereich angezeigte Symbolleiste enthält für den aktuellen Bereich verfügbare Aktionsschaltflächen.
 
