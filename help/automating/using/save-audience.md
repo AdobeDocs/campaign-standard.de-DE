@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +41,7 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
 
 1. Ziehen Sie eine **[!UICONTROL Audience-Speicherung]** in den Workflow-Arbeitsbereich.
 1. Schließen Sie sie an Zielgruppenbestimmungs-Aktivitäten wie beispielsweise Abfragen, Schnittmengen, Vereinigungen oder Ausschlüsse an.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Wählen Sie die Aktion aus, die Sie ausführen möchten:
 
    * **[!UICONTROL Existierende Audience aktualisieren]** - wählen Sie mithilfe der Dropdown-Liste eine existierende Audience aus und definieren Sie die Art der Aktualisierung:
