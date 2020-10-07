@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 95%
@@ -106,7 +104,7 @@ Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Adobe Exp
 
 Im Folgenden finden Sie eine Liste mit Best Practices und Einschränkungen für die Verwendung der Integration von Campaign mit Triggers.
 
-* Wenn mehrere Instanzen von Campaign Standard vorhanden sind, können Auslöser von allen Instanzen empfangen werden, solange sie sich in derselben IMS-Organisations-ID befinden. Analytics muss auch dieselbe IMS-Organisations-ID verwenden.
+* Wenn mehrere Instanzen von Campaign Standard vorhanden sind, können Auslöser von allen Instanzen empfangen werden, solange sie sich in derselben IMS-Organisations-ID befinden. Analytics muss sich auch auf dieselbe IMS-Organisations-ID stützen.
 * Das Erstellen eines Triggers im Trigger Core Service unter Verwendung von Ereignissen in zwei unterschiedlichen Report Suites ist nicht möglich.
 * Trigger basieren auf Transaktionsnachrichten. Transaktionsnachrichten werden verwendet, wenn eine Nachricht sehr schnell gesendet werden muss. Transaktionsnachrichten können nicht in einer Warteschlange aufbewahrt und dann gemeinsam gesendet werden.
 * Trigger sind nicht deterministisch. Wenn ein Trigger erstellt wird, werden alle mit dem Cookie verknüpften Alias gesendet. Im Fall von gemeinsam verwendeten Browsern, wie z. B. bei Verkaufsständen, Bibliotheken, Internetcafés oder gemeinsam genutzten Geräten zu Hause (Ehepartner melden sich auf demselben Gerät an), kann kein Mapping zur richtigen Kennung durchgeführt werden. Alle bei der Anmeldung mit dem Browser verwendeten Kennungen werden an Campaign gesendet. Campaign sendet dann eine Nachricht auf der Basis der ersten Abstimmung. Wenn mehrere &quot;email IDs&quot; für die Abstimmung in Frage kommen, sendet Campaign keine E-Mail. Es gibt keine Möglichkeit für Campaign festzustellen, welche die richtige E-Mail-Kennung ist, wenn sie nicht von Analytics erfasst und gesendet wird.
