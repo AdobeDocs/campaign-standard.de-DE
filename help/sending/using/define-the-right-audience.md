@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 69%
+ht-degree: 78%
 
 ---
 
@@ -58,7 +56,7 @@ Achten Sie darauf, geeignete Testversand-Empfänger auszuwählen, da diese die F
 
 Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
 
-Sie können [Kontrollgruppen](../../sending/using/control-group.md) verwenden, um die Auswirkungen Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Audience ausschließen. Sie können dann das Verhalten der Zielgruppe, die die Nachricht erhalten hat, mit dem Verhalten der nicht zielgerichteten Kontakte vergleichen. Auf der Grundlage der gesendeten Protokolle können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen Zielgruppe werden.
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
 
 ## Deduplizieren von Adressen {#deduplicate-addresses}
 
