@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '746'
+ht-degree: 100%
 
 ---
 
@@ -24,11 +25,11 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie wie folgt vor:
 
-1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Vorgang]**auf.
+1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Vorgang]** auf.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Wählen Sie unter dem Abschnitt **[!UICONTROL Spezifische Aktionen]**die Option**[!UICONTROL  Absendung einer Nachricht auslösen]** aus, um den automatischen Versand einer Nachricht auszulösen, z. B. einer Anmeldebestätigung. Wählen Sie anschließend eine E-Mail-Versandvorlage aus.
+1. Wählen Sie unter dem Abschnitt **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Absendung einer Nachricht auslösen]** aus, um den automatischen Versand einer Nachricht auszulösen, z. B. einer Anmeldebestätigung. Wählen Sie anschließend eine E-Mail-Versandvorlage aus.
 
    Beachten Sie, dass Sie in diesem Bildschirm keine Bestätigungsnachricht auswählen sollten, falls bereits eine Bestätigungsnachricht auf Dienstebene konfiguriert ist, damit nicht mehrere Bestätigungsnachrichten gesendet werden. Lesen Sie diesbezüglich auch den Abschnitt [Dienst erstellen](../../audiences/using/creating-a-service.md).
 
@@ -44,15 +45,15 @@ In den Zuordnungsparametern wird die auszuführende Aktion definiert, je nachdem
 
 Gehen Sie folgendermaßen vor, um den Dienst auszuwählen, der verknüpft werden soll:
 
-1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Vorgang]**auf.
+1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Vorgang]** auf.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Spezifische Aktionen]**die Option**[!UICONTROL  Anmeldung]**.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Anmeldung]**.
 
    ![](assets/lp_parameters_5.png)
 
-1. Wählen Sie **[!UICONTROL Spezifischer Dienst]**aus, um die Landingpage mit einem einzelnen Dienst zu verknüpfen. Diese Option ist nicht zu verwenden, wenn die Landingpage für verschiedene Dienste genutzt werden soll.
+1. Wählen Sie **[!UICONTROL Spezifischer Dienst]** aus, um die Landingpage mit einem einzelnen Dienst zu verknüpfen. Diese Option ist nicht zu verwenden, wenn die Landingpage für verschiedene Dienste genutzt werden soll.
 
    Verwenden Sie in diesem Fall die Option **[!UICONTROL In der URL angegebener Dienst]**. Die Landingpage muss in den Parametern der jeweiligen Dienste referenziert werden.
 
@@ -61,11 +62,11 @@ Gehen Sie folgendermaßen vor, um den Dienst auszuwählen, der verknüpft werden
 Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen oder zu einer bestimmten Organisationseinheit gehören.
 Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage geladen werden. Gehen Sie dazu wie folgt vor:
 
-1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Zugriff &amp; Ladung]**auf.
+1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Zugriff &amp; Ladung]** auf.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Wählen Sie **[!UICONTROL Vorausfüllen mit Besucherdaten]**aus.
+1. Wählen Sie **[!UICONTROL Vorausfüllen mit Besucherdaten]** aus.
 
    Wenn dem Besucher ein in der Datenbank gespeichertes Profil zugeordnet werden konnte, werden die mit der Datenbank übereinstimmenden Felder des Anmeldeformulars vorausgefüllt und die Landingpage entsprechend personalisiert.
 
@@ -73,12 +74,12 @@ Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage 
 
 Außerdem haben Sie folgende Möglichkeiten:
 
-* Mithilfe der URL-Parameter können Sie über die Option **[!UICONTROL Besucheridentifizierung über URL-Parameter zulassen]**Besucher identifizieren. Wählen Sie dann den Ladeschlüssel aus und mappen Sie die Filterparameter mit den entsprechenden URL-Parametern.
-* Gewähren Sie allen Besuchern Zugriff auf die Landingpage, indem Sie die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]**auswählen.
+* Mithilfe der URL-Parameter können Sie über die Option **[!UICONTROL Besucheridentifizierung über URL-Parameter zulassen]** Besucher identifizieren. Wählen Sie dann den Ladeschlüssel aus und mappen Sie die Filterparameter mit den entsprechenden URL-Parametern.
+* Gewähren Sie allen Besuchern Zugriff auf die Landingpage, indem Sie die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]** auswählen.
 
 Landingpages können auch mit einer Organisationseinheit verknüpft werden. Dadurch wird wird festgelegt, auf welche Landingpage ein Benutzer Zugriff hat. So weisen Sie eine Organisationseinheit zu:
 
-1. Greifen Sie über das Symbol **[!UICONTROL Eigenschaften]**auf die Landingpage-Eigenschaften zu.
+1. Greifen Sie über das Symbol **[!UICONTROL Eigenschaften]** auf die Landingpage-Eigenschaften zu.
 
    ![](assets/lp_parameters_google3.png)
 
@@ -88,9 +89,9 @@ Landingpages können auch mit einer Organisationseinheit verknüpft werden. Dadu
 
    ![](assets/lp_org_unit_2.png)
 
-1. Die Felder **[!UICONTROL Erstellt von]**,**[!UICONTROL  Erstellt am]**, **[!UICONTROL Zugriffsberechtigung]**und**[!UICONTROL  Zuletzt geändert]** werden automatisch ausgefüllt.
+1. Die Felder **[!UICONTROL Erstellt von]**, **[!UICONTROL Erstellt am]**, **[!UICONTROL Zugriffsberechtigung]** und **[!UICONTROL Zuletzt geändert]** werden automatisch ausgefüllt.
 
-1. Wählen Sie **[!UICONTROL Bestätigen]**und danach**[!UICONTROL  Speichern]**.
+1. Wählen Sie **[!UICONTROL Bestätigen]** und danach **[!UICONTROL Speichern]**.
 
 Der Zugriff auf und die Verwaltung Ihrer Landingpage ist jetzt nur noch durch Benutzer innerhalb der ausgewählten Organisationseinheit möglich.
 
@@ -112,7 +113,7 @@ Nachdem Ihr externes Konto für Google reCAPTCHA V3 eingerichtet wurde, können 
 
    ![](assets/lp_parameters_google.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]**aus.
+1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
 Auf Ihrer Landingpage ist jetzt Google reCAPTCHA eingerichtet, was am unteren Seitenrand angezeigt wird.
 
