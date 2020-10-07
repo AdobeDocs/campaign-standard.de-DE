@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +28,7 @@ Um die Metadaten eines Filters und die jeweilige Verwendungsweise zu ermitteln, 
 
 <br/>
 
-***Beispielanfrage ***
+***Beispielanfrage***
 
 Die folgenden beispielhaften Payloads zeigen, wie die &quot;byText&quot;-Filtermetadaten für die &quot;Profil&quot;-Ressource abgerufen werden. Führen Sie zuerst eine GET-Anfrage für die Metadaten der Ressource &quot;Profil&quot; durch.
 
@@ -101,7 +102,7 @@ Es ist möglich, mehrere Filter in einer einzigen Anfrage zu kombinieren:
 
 <br/>
 
-***Beispielanfragen ***
+***Beispielanfragen***
 
 * Beispielhafte GET-Anfrage zum Abrufen der &quot;Dienst&quot;-Ressourcen mit dem Typ &quot;email&quot;.
 
@@ -208,7 +209,7 @@ Weiterführende Informationen finden Sie in der Campaign Standard-Dokumentation
 
 <br/>
 
-***Beispielanfrage ***
+***Beispielanfrage***
 
 Beispielhafte GET-Anfrage zum Abrufen der &quot;Profil&quot;-Ressourcen mit Transaktionsbeträgen von 100 $ oder mehr. Beachten Sie, dass der Filter &quot;byAmount&quot; zunächst in der Benutzeroberfläche von Adobe Campaign Standard definiert und mit der benutzerdefinierten Tabelle &quot;Transaction&quot; verknüpft wurde.
 
