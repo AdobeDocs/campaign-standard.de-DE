@@ -9,11 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 100%
 
