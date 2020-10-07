@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4bac585ec25340d1f1d047f9a1f8dcd8e243821
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 9%
@@ -40,13 +38,13 @@ Campaign Standard bietet verschiedene Möglichkeiten zur Überwachung Ihrer Inst
 
 **Technischen Workflows**-Technischen Workflows sind Vorgänge oder Aufträge, die regelmäßig auf dem Server ausgeführt werden sollen. Um sicherzustellen, dass Ihre Instanz gesund und ordnungsgemäß funktioniert, müssen Sie sicherstellen, dass sie immer betriebsbereit ist. [Mehr dazu](../../administration/using/technical-workflows.md)
 
-**Control Panel** Mit dem Control Panel können Sie mehrere Einstellungen Ihrer Instanz verwalten: URL-Zugriffsberechtigungen, Überprüfen Sie die Instanzdetails wie die Build-Versionen Ihrer Server, überwachen Sie die Nutzung aktiver Profil usw. Außerdem können Sie damit den verfügbaren Speicherplatz auf den SFTP-Servern überwachen, die mit Ihrer Instanz verbunden sind. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html).
+**Systemsteuerung**&#x200B;Über die Systemsteuerung können Sie mehrere Einstellungen Ihrer Instanz verwalten: URL-Zugriffsberechtigungen, Überprüfen Sie die Instanzdetails wie die Build-Versionen Ihrer Server, überwachen Sie die Nutzung aktiver Profil usw. Außerdem können Sie damit den verfügbaren Speicherplatz auf den SFTP-Servern überwachen, die mit Ihrer Instanz verbunden sind. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html)
 
 >[!NOTE]
 >
->Bitte beachten Sie, dass der Control Panel nur Admin-Benutzern zur Verfügung steht und für alle Adobe Managed Services verfügbar ist.
+>Beachten Sie, dass die Systemsteuerung nur für Administratoren zugänglich ist und für alle Kunden mit Adobe Managed Services verfügbar ist.
 
-**Technische Objekte** Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Werkzeug zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: Schema, Webseiten, Stapelaufträge usw. [Mehr dazu](../../developing/using/monitoring-data-model-changes.md)
+**Technische Objekte** Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Werkzeug zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: schema, Webseiten, Stapelaufträge usw. [Mehr dazu](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportprüfungen**Mit Exportprüfungen können Sie die Exporte Ihrer Instanzen überwachen: Dateien, die aus Workflows, Listen exportiert und aus Direktnachrichten heruntergeladen wurden.
 [Mehr dazu](../../administration/using/auditing-export-logs.md)
@@ -67,11 +65,11 @@ Campaign Standard bietet verschiedene Möglichkeiten zur Überwachung Ihrer Inst
 **Mit dem Benachrichtigungs**-Campaign Standard können Sie Benachrichtigungen an Aufsichtsbehörden senden, um die Ausführung Ihrer Arbeitsabläufe zu überwachen und festzustellen, ob ein Fehler vorliegt, der Ihre Aufmerksamkeit erfordert.
 [Mehr dazu](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Sendungen beobachten {#monitoring-deliveries}
+## Sendungen überwachen {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-**Der**Campaign Standard zur Auslieferbarkeitbietet mehrere Bereitstellungs-Tools, mit denen Sie die Anzahl der erfolgreich ausgelieferten Nachrichten verbessern können: Versand-Berichte, Optimierung der Sendezeit, Vorschau von Nachrichten, E-Mail-Rendering, Verwaltung von Quarantänen usw.
+**Der**Campaign Standard zur Auslieferbarkeitbietet mehrere Bereitstellungs-Tools, mit denen Sie die Anzahl der erfolgreich ausgelieferten Nachrichten verbessern können: versand-Berichte, Optimierung der Sendezeit, Vorschau von Nachrichten, E-Mail-Rendering, Verwaltung von Quarantänen usw.
 [Mehr dazu](../../sending/using/about-deliverability.md)
 
 **Versand**Sobald Ihre Nachrichten gesendet wurden, können Sie mit detaillierten Protokollen die Versand überwachen und den Erfolg Ihrer Kampagne messen sowie das Verhalten der Empfänger nachverfolgen.
