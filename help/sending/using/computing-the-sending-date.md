@@ -9,10 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 100%
 
 ---
 
@@ -123,6 +124,7 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
       * 10:00 AM - 12:00 AM: **2**. Die Nachricht wird an das zweite Viertel der Zielpopulation um 10 Uhr gesendet (Kontaktdatum + 2 Stunden).
       * 14:00 AM - 16:00 AM: **6**. Da das Callcenter zwischen 12 und 14 Uhr geschlossen ist, wird die Nachricht an das dritte Viertel der Zielpopulation um 14 Uhr gesendet (Kontaktdatum + 6 Stunden).
       * 16:00 AM - 18:00 AM: **8**. Die Nachricht wird an das letzte Viertel der Zielpopulation um 16 Uhr gesendet (Kontaktdatum + 8 Stunden).
+
       >[!NOTE]
       >
       >Das Kontaktdatum wird später im Workflow in der E-Mail-Versand-Aktivität definiert.
@@ -152,13 +154,13 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   Wählen Sie in den verfügbaren Feldern **[!UICONTROL Aktueller Versand]** &gt; **[!UICONTROL Versandauslösung]** &gt; **[!UICONTROL Kontaktdatum]** aus.
+   Wählen Sie in den verfügbaren Feldern **[!UICONTROL Aktueller Versand]** > **[!UICONTROL Versandauslösung]** > **[!UICONTROL Kontaktdatum]** aus.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
    Dadurch können Sie das im Feld **[!UICONTROL Versandstart am]** spezifizierte Datum und die Uhrzeit abrufen.
 
-   Wählen Sie in der Funktionsliste die Option **[!UICONTROL ToInteger aus]**. Wählen Sie in den verfügbaren Feldern **[!UICONTROL Zusatzdaten]** &gt; **[!UICONTROL Segmentcode]** aus.
+   Wählen Sie in der Funktionsliste die Option **[!UICONTROL ToInteger aus]**. Wählen Sie in den verfügbaren Feldern **[!UICONTROL Zusatzdaten]** > **[!UICONTROL Segmentcode]** aus.
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 
