@@ -9,10 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
 
@@ -25,14 +26,14 @@ Achten Sie in diesem Fall darauf, dass die folgenden Elemente richtig konfigurie
 
 * **Externe Konten**
 
-   Vergewissern Sie sich, dass die folgenden externen S3-Konten richtig in **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Externe Konten]** konfiguriert sind. Die genannten S3-Server sollten während der Bereitstellung konfiguriert worden sein.
+   Vergewissern Sie sich, dass die folgenden externen S3-Konten richtig in **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Externe Konten]** konfiguriert sind. Die genannten S3-Server sollten während der Bereitstellung konfiguriert worden sein.
 
    * **[!UICONTROL importSharedAudience]**: S3-Konto für den Zielgruppen-Import.
    * **[!UICONTROL exportSharedAudience]**: S3-Konto für den Zielgruppen-Export.
 
 * **Freigegebene Datenquellen**
 
-   Vergewissern Sie sich unter **[!UICONTROL Administration]** &gt; **[!UICONTROL Anwendungskonfiguration]** &gt; **[!UICONTROL Freigegebene Datenquellen]**, dass die freigegebene Datenquelle richtig konfiguriert ist.
+   Vergewissern Sie sich unter **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Freigegebene Datenquellen]**, dass die freigegebene Datenquelle richtig konfiguriert ist.
 
    Wenn mehrere Datenquellen definiert sind, wird die Option **[!UICONTROL Priorität]** verwendet. Mit dieser Option wird festgelegt, welche Datenquelle mit den entsprechend der definierten Reihenfolge erhaltenen Alias abgeglichen wird. **[!UICONTROL Priorität]** wird nur für die Triggers-Implementierung benötigt.
 
@@ -46,7 +47,8 @@ Achten Sie in diesem Fall darauf, dass die folgenden Elemente richtig konfigurie
 
    * **Verschlüsselungsschlüssel** für AES
    * **Verschlüsselung IV** (Initialisierungsvektor) für AES
-   * **Kanal** (E-Mail/SMS/Sonstige): Dieses Feld ermöglicht die direkte Entschlüsselung von E-Mail-Adressen und SMS-Nummern. Achten Sie darauf, dass der Abstimmschlüssel mit der Einstellung im Feld **Channel** übereinstimmt. Wenn Sie "Sonstige" auswählen, wird diese Entschlüsselung nicht durchgeführt, sondern der Abstimmschlüssel wird für die Abstimmung der Daten verwendet.
+   * **Kanal** (E-Mail/SMS/Sonstige): Dieses Feld ermöglicht die direkte Entschlüsselung von E-Mail-Adressen und SMS-Nummern. Achten Sie darauf, dass der Abstimmschlüssel mit der Einstellung im Feld **Channel** übereinstimmt. Wenn Sie &quot;Sonstige&quot; auswählen, wird diese Entschlüsselung nicht durchgeführt, sondern der Abstimmschlüssel wird für die Abstimmung der Daten verwendet.
+
    Möglicherweise werden Audiences in Experience Cloud nicht freigegeben, da der technische Workflow angehalten oder ausgesetzt wurde. Öffnen Sie den Workflow **[!UICONTROL Freigegebene Zielgruppe importieren]** durch direkte Auswahl der Option **[!UICONTROL Workflow Freigegebene Zielgruppe importieren zeigen]** in Ihrer Datenquelle.
 
-Es kann vorkommen, dass manche Daten bei der Freigabe einer Audience über People Core Service oder beim Import einer Audience fehlen. Es werden nämlich nur Datensätze übertragen, deren Kennung ('Visitor ID' oder 'Declared ID') mit der Profildimension abgestimmt werden konnte. Von Adobe Campaign nicht erkannte Kennungen, die People-Core-Service-Segmenten entstammen, werden nicht importiert.
+Es kann vorkommen, dass manche Daten bei der Freigabe einer Audience über People Core Service oder beim Import einer Audience fehlen. Es werden nämlich nur Datensätze übertragen, deren Kennung (&#39;Visitor ID&#39; oder &#39;Declared ID&#39;) mit der Profildimension abgestimmt werden konnte. Von Adobe Campaign nicht erkannte Kennungen, die People-Core-Service-Segmenten entstammen, werden nicht importiert.
