@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1671'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +36,7 @@ Der Inhalt der Landingpages wird im Campaign-Inhaltseditor erstellt.
 Auf dieser Seite erfahren Sie die wichtigsten Informationen zum Inhaltseditor für Landingpages: Weiterführende Informationen zu den Aktionen, die häufig bei Marketingaktivitäten eingesetzt werden, finden Sie in den folgenden Abschnitten des Handbuchs zum **Entwerfen von E-Mail-Inhalten**:
 
 * [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inhaltsbausteine hinzufügen](../../designing/using/personalization.md#adding-a-content-block)
+* [Inhaltsbausteine hinzufügen](../../designing/using/personalization.md#adding-a-content-block).
 * [Link einfügen](../../designing/using/links.md#inserting-a-link)
 * [Bilder einfügen](../../designing/using/images.md)
 * [Allgemeine Best Practices bei der Inhaltserstellung](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
