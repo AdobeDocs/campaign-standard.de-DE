@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 9%
@@ -55,7 +53,7 @@ Das Adobe Experience Platform Mobile SDK Beginn die Impressionsverfolgung für l
 
 ### Für iOS {#implement-local-impression-tracking-ios}
 
-Um zu erklären, wie die Impressionsverfolgung implementiert werden kann, müssen wir die drei Zustände einer Anwendung verstehen:
+Um zu erklären, wie die Impressionsverfolgung implementiert wird, müssen wir die drei Zustände einer Anwendung verstehen:
 
 * **Vordergrund**: wenn die Anwendung aktuell aktiv ist und sich auf dem Bildschirm im Vordergrund befindet.
 
@@ -83,7 +81,7 @@ Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
 
 * Der Benutzer sieht die Benachrichtigung und klickt darauf. Dies wird zu einer offenen Verfolgung.
 
-Das erste Klickszenario wird von Adobe Experience Platform Mobile SDK nachverfolgt.
+Das erste Klickszenario wird vom Adobe Experience Platform Mobile SDK verfolgt.
 
 ### Für iOS {#implement-click-tracking-ios}
 
