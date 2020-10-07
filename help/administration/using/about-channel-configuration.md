@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 100%
 
 ---
 
@@ -30,4 +31,4 @@ Es gibt folgende Möglichkeiten für die Konfiguration:
 
 Das Menü **[!UICONTROL Kanäle]** enthält die technischen Parameter in Bezug auf die verschiedenen Anwendungskanäle (E-Mail, SMS) sowie die Typologie- und Quarantäneverwaltung.
 
-Administratoren können auf diese Konfigurationen über das Menü **[!UICONTROL Administration]** &gt; **[!UICONTROL Kanäle]** zugreifen.
+Administratoren können auf diese Konfigurationen über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** zugreifen.
