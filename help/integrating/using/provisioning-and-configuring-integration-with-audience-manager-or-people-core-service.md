@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +40,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Integration anzuford
   </tr> 
   <tr> 
    <td> <strong>Kennung der IMS-Organisation</strong><br /> </td> 
-   <td> Ihre IMS-Organisations-ID. <br> Sie finden Ihre IMS-Organisations-ID im Experience Cloud im Menü Administration. Sie wird auch bei der Anmeldung bei Adobe Experience Cloud bereitgestellt. </td> 
+   <td> Die Kennung Ihrer IMS-Organisation. <br> Sie finden Ihre IMS-Organisationskennung in Experience Cloud im Menü "Administration". Sie wird auch bei der Anmeldung bei Adobe Experience Cloud bereitgestellt. </td> 
   </tr> 
   <tr> 
    <td> <strong>Umgebung:</strong><br /> </td> 
