@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +24,7 @@ Die Adobe Campaign REST-API kann die Anzahl der Datensätze in einer Anfrage zä
 
 <br/>
 
-***Beispielanfrage ***
+***Beispielanfrage***
 
 Um alle Dienste zu zählen, deren **messageType**-Wert &quot;sms&quot; ist, führen Sie eine GET-Anfrage mit dem Filter **byChannel** aus.
 
