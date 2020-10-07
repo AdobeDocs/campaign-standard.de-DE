@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 2448b126-66b8-4608-aa6c-8028fb1902a4
 context-tags: deploy,main;eventCusResource,overview
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +35,7 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
 >
 >Wenn ein Feld einer für ein Ereignis verwendeten benutzerdefinierten Ressource geändert oder gelöscht wird, wird das zugehörige Ereignis automatisch depubliziert. Siehe [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md).
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration]** &gt; **[!UICONTROL Entwicklung]** &gt; **[!UICONTROL Publizieren]** auf das entsprechende Menü zu.
+1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Publizieren]** auf das entsprechende Menü zu.
 1. Standardmäßig ist die Option **[!UICONTROL Änderungen seit der letzten Publikation ermitteln]** aktiv. Dies bedeutet, dass nur die Änderungen übernommen werden, die seit der letzten Publikation vorgenommen wurden.
 
    >[!NOTE]
