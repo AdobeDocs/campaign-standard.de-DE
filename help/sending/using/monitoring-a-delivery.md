@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 100%
 
