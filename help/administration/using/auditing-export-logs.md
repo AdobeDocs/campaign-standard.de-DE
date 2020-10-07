@@ -9,17 +9,18 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 100%
 
 ---
 
 
 # Log-Exporte überprüfen{#auditing-export-logs}
 
-In **[!UICONTROL Administration]** &gt; **[!UICONTROL Benutzer &amp; Sicherheit]** &gt; **[!UICONTROL Export-Audits]** können sich Administratoren eine Liste der folgenden Exporte anzeigen lassen, einschließlich des Datums und des Benutzers, der den Export vorgenommen hat:
+In **[!UICONTROL Administration]** > **[!UICONTROL Benutzer &amp; Sicherheit]** > **[!UICONTROL Export-Audits]** können sich Administratoren eine Liste der folgenden Exporte anzeigen lassen, einschließlich des Datums und des Benutzers, der den Export vorgenommen hat:
 
 * Mit der Aktivität **[!UICONTROL Dateiübertragung]** in einem Workflow durchgeführter Datei-Upload
 * Listenexport aus einer Liste oder Unterliste
