@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +59,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>desc</td>
-                  <td>Description</td>
+                  <td>Beschreibung </td>
                   <td>string (512)</td>
                   <td> </td>
                </tr>
