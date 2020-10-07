@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -44,16 +42,16 @@ Um In-App-Nachrichten mithilfe des Experience Platform SDK über Mobile Apps sen
 **Verwandte Inhalte:**
 
 * [In-App-Bericht](../../reporting/using/in-app-report.md)
-* [Unterstützte Anwendungsfälle für Mobilgeräte in Adobe Campaign Standard](https://helpx.adobe.com/de/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](https://helpx.adobe.com/de/campaign/kb/configure-launch-rules-acs-use-cases.html)
 * [Handbuch zu Campaign Standard Mobile](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)
 
-## Häufig gestellte Fragen zur In-App {#in-app-faq}
+## Häufig gestellte Fragen zu In-App-Nachrichten {#in-app-faq}
 
 ### Welche nützlichen Ressourcenempfehlungen stehen zur Verfügung, um mehr über In-App-Kanal in Adobe Campaign Standard zu erfahren? {#resources-inapp}
 
 Sehen Sie sich die folgenden Ressourcen an:
 
-* [Videoschulungen](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [Video-Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [Blog-Post](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
@@ -104,8 +102,8 @@ Für benutzerdefinierten Sound unter iOS müssen Sie beim Erstellen einer lokale
 
 Ja, Deep-Links werden in In-App-Nachrichten unterstützt. Deep-Links sollten Folgendes umfassen:
 
-* -Sprache, die besagt, dass die Verfolgung von Versänden deaktiviert werden muss, damit die Deep-Links funktionieren.
-* Appsflyer mit Zweig als Partner, die die deeplink-Verfolgung durchführen können. Weitere Informationen zur Integration von Zweigstellen und Adobe Campaign Standards finden Sie auf dieser [Seite](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* -Sprache, in der festgelegt wird, dass die Verfolgung von Versänden deaktiviert werden muss, damit die Deep-Links funktionieren.
+* Appsflyer mit Zweig als Partner, die die deeplink-Verfolgung durchführen können. Weitere Informationen zur Branch- und Adobe Campaign Standard-Integration finden Sie auf dieser [Seite](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ### Kann eine In-App-Nachricht ausgelöst werden, wenn der Benutzer die App über eine Push-Benachrichtigung startet? {#inapp-push-trigger}
 
