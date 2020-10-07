@@ -9,11 +9,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: a7e02fa4fdef05d67118baf0f49fda7886c6768f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
 
@@ -54,7 +52,7 @@ Ein OAuth-Zugriffstoken ermöglicht es dem Integrations-Tool, sich über Web-API
 
 Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
->[!VIDEO](https://video.tv.adobe.com/v/27637?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
