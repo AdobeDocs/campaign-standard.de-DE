@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1575'
+ht-degree: 100%
 
 ---
 
@@ -194,6 +195,7 @@ Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
    * Aktivität **[!UICONTROL Datei laden]**: Importiert die CSV-Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/load-file.md)).
    * Aktivität **[!UICONTROL Abstimmung]**: Verknüpft Informationen aus der Datei mit Informationen aus der Datenbank. In diesem Beispiel verwenden wir die E-Mail-Adresse des Profils als Abstimmungsfeld (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/reconciliation.md)).
    * Aktivität **[!UICONTROL Audience-Speicherung]**: Erstellt eine Audience basierend auf der importierten Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/save-audience.md)).
+
    ![](assets/substitution_uc2.png)
 
 1. Führen Sie den Workflow aus und klicken Sie dann auf den Tab **[!UICONTROL Audiences]**, um zu überprüfen, ob die Audience mit den gewünschten Informationen erstellt wurde.
