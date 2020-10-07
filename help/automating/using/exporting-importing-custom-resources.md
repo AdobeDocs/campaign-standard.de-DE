@@ -9,10 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
@@ -42,20 +43,20 @@ In diesem Schritt nehmen wir einen ersten Package-Export vor, der die Beschreibu
 
 Unser Beispiel umfasst zwei benutzerdefinierte Ressourcen: **Artikel** und **Bestellungen**.
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]**/**[!UICONTROL  Freigabe]** / **[!UICONTROL Package-Exporte]**.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Freigabe]** / **[!UICONTROL Package-Exporte]**.
 
-   Wir werden ein neues Package erstellen, um die **[!UICONTROL Benutzerdefinierte Ressource (cusResource)]**zu exportieren, die mit den beiden benutzerdefinierten Ressourcen &quot;Artikel&quot; und &quot;Bestellungen&quot; gefiltert wurde.
+   Wir werden ein neues Package erstellen, um die **[!UICONTROL Benutzerdefinierte Ressource (cusResource)]** zu exportieren, die mit den beiden benutzerdefinierten Ressourcen &quot;Artikel&quot; und &quot;Bestellungen&quot; gefiltert wurde.
 
-1. Wählen Sie auf der Seite **[!UICONTROL Package-Exporte]**zur Erstellung eines neuen Packages die Schaltfläche**[!UICONTROL  Erstellen]** aus.
-1. Füllen Sie den Titel aus und wählen Sie dann **[!UICONTROL Element erstellen]**aus.
+1. Wählen Sie auf der Seite **[!UICONTROL Package-Exporte]** zur Erstellung eines neuen Packages die Schaltfläche **[!UICONTROL Erstellen]** aus.
+1. Füllen Sie den Titel aus und wählen Sie dann **[!UICONTROL Element erstellen]** aus.
 
    ![](assets/cusresources_export1.png)
 
-1. Wählen Sie **[!UICONTROL Benutzerdefinierte Ressource (cusResource)]**aus der Liste der Ressourcen aus.
+1. Wählen Sie **[!UICONTROL Benutzerdefinierte Ressource (cusResource)]** aus der Liste der Ressourcen aus.
 
    ![](assets/cusresources_export2.png)
 
-1. Konfigurieren Sie die **[!UICONTROL Benutzerdefinierte Ressource]**im Detail, indem Sie in den Filterbedingungen die beiden Ressourcen** Artikel **und** Bestellungen **auswählen.
+1. Konfigurieren Sie die **[!UICONTROL Benutzerdefinierte Ressource]** im Detail, indem Sie in den Filterbedingungen die beiden Ressourcen **Artikel** und **Bestellungen** auswählen.
 
    Vergessen Sie dabei nicht, den logischen Operator zu ändern. Dieser muss **ODER** lauten, damit die Struktur beider Ressourcen, &quot;Artikel&quot; und &quot;Bestellungen&quot;, in das Package integriert wird.
 
@@ -75,8 +76,8 @@ Mithilfe dieses zweiten Exports lassen sich die Daten der benutzerdefinierten Re
 
 Bei der Erstellung des zweiten, die Daten enthaltenden Packages nutzen Sie denselben Exporttyp wie beim Strukturexport.
 
-1. Wählen Sie auf der Seite **[!UICONTROL Package-Exporte]**zur Erstellung eines neuen Packages die Schaltfläche**[!UICONTROL  Erstellen]** aus.
-1. Vergeben Sie den Titel **[!UICONTROL Daten meiner Ressourcen exportieren]**und verwenden Sie im Anschluss im Tab**[!UICONTROL  Definition des Exports]** die Schaltfläche **[!UICONTROL Element erstellen]**.
+1. Wählen Sie auf der Seite **[!UICONTROL Package-Exporte]** zur Erstellung eines neuen Packages die Schaltfläche **[!UICONTROL Erstellen]** aus.
+1. Vergeben Sie den Titel **[!UICONTROL Daten meiner Ressourcen exportieren]** und verwenden Sie im Anschluss im Tab **[!UICONTROL Definition des Exports]** die Schaltfläche **[!UICONTROL Element erstellen]**.
 1. Wählen Sie **Artikel** aus der Liste der Ressourcen aus.
 
    ![](assets/cusresources_exportdata1.png)
@@ -106,7 +107,7 @@ Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name d
 ### Package importieren {#importing-the-structure-package}
 
 1. Loggen Sie sich in die **Zielinstanz** ein, in die Sie die gerade erstellten Packages importieren möchten.
-1. Gehen Sie zum Menü **[!UICONTROL Administration]**/**[!UICONTROL  Freigabe]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der aus dem ersten Export hervorgehenden Datei zu erstellen.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Freigabe]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der aus dem ersten Export hervorgehenden Datei zu erstellen.
 1. Ziehen Sie die **Strukturdatei** in den dafür vorgesehenen Bereich. Es werden die Formate ZIP oder XML unterstützt.
 
    ![](assets/cusresources_import2.png)
@@ -118,9 +119,9 @@ Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name d
 
 ### Publizieren {#publish-structure}
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]**/**[!UICONTROL  Entwicklung]** / **[!UICONTROL Publikation]**.
-1. Verwenden Sie die Schaltflächen **[!UICONTROL Publikation vorbereiten]**und anschließend**[!UICONTROL  Publizieren]**, um die Instanz mit den Daten der neuen benutzerdefinierten Ressourcen zu aktualisieren.
-1. Die dem installierten Package entsprechenden Menüeinträge werden in das Menü **[!UICONTROL Benutzerdefinierte Daten]**eingefügt.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Publikation]**.
+1. Verwenden Sie die Schaltflächen **[!UICONTROL Publikation vorbereiten]** und anschließend **[!UICONTROL Publizieren]**, um die Instanz mit den Daten der neuen benutzerdefinierten Ressourcen zu aktualisieren.
+1. Die dem installierten Package entsprechenden Menüeinträge werden in das Menü **[!UICONTROL Benutzerdefinierte Daten]** eingefügt.
 
    ![](assets/cusresources_import1.png)
 
@@ -132,14 +133,14 @@ Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import un
 
 ### Package importieren {#importing-the-data-package}
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]**/**[!UICONTROL  Freigabe]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der die Daten enthaltenden Datei zu erstellen.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Freigabe]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der die Daten enthaltenden Datei zu erstellen.
 1. Ziehen Sie die Datendatei in den dafür vorgesehenen Bereich. Es werden die Formate ZIP oder XML unterstützt.
-1. Ändern Sie den Titel z. B. in &quot;Daten importieren&quot; und wählen Sie **[!UICONTROL Speichern]**aus.
+1. Ändern Sie den Titel z. B. in &quot;Daten importieren&quot; und wählen Sie **[!UICONTROL Speichern]** aus.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Import starten]**.
 
    ![](assets/cusresources_importdata.png)
 
 ### Publizieren {#publish-data}
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]**/**[!UICONTROL  Entwicklung]** / **[!UICONTROL Publikation]**.
-1. Verwenden Sie die Schaltflächen **[!UICONTROL Publikation vorbereiten]**und anschließend**[!UICONTROL  Publizieren]**, um die Instanz mit den Daten der benutzerdefinierten Ressourcen zu aktualisieren.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Publikation]**.
+1. Verwenden Sie die Schaltflächen **[!UICONTROL Publikation vorbereiten]** und anschließend **[!UICONTROL Publizieren]**, um die Instanz mit den Daten der benutzerdefinierten Ressourcen zu aktualisieren.
