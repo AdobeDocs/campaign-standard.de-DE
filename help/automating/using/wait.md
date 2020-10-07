@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: wait,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +34,7 @@ Die **[!UICONTROL Warten]**-Aktivität ermöglicht es, einen bestimmten Zeitraum
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Warten]**-Aktivität in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der ![](assets/edit_darkgrey-24px.png)-Schaltfläche aus den angezeigten Quick Actions.
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Bestimmen Sie die **[!UICONTROL Dauer]** der Wartezeit zwischen der Aktivierung der eingehenden und der ausgehenden Transition der Aktivität.
 
    Sie können die Dauer manuell eingeben oder das dafür vorgesehene Auswahltool des Felds verwenden.
