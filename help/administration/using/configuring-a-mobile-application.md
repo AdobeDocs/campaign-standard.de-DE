@@ -9,11 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 100%
 
@@ -110,7 +108,8 @@ Ihr **[!UICONTROL Property Status]** sollte **[!UICONTROL Bereit zum Konfigurier
    >[!NOTE]
    >
    >Um die Liste der in Adobe Launch erstellten Mobile Apps abzurufen, verwendet Campaign Standard standardmäßig den in der Option NmsServer_URL definierten Wert, um nach übereinstimmenden Eigenschaften zu suchen.
-In einigen Fällen kann sich der Campaign-Endpunkt für eine Mobile App von dem in NmsServer_URL definierten unterscheiden. Definieren Sie in diesem Fall den Endpunkt in der Option Launch_URL_Kampagne. Campaign verwendet den Wert dieser Option, um in Adobe Launch nach übereinstimmenden Eigenschaften zu suchen.
+   >
+   >In einigen Fällen kann sich der Campaign-Endpunkt für eine Mobile App von dem in NmsServer_URL definierten unterscheiden. Definieren Sie in diesem Fall den Endpunkt in der Option Launch_URL_Kampagne. Campaign verwendet den Wert dieser Option, um in Adobe Launch nach übereinstimmenden Eigenschaften zu suchen.
 
    ![](assets/launch_4.png)
 
