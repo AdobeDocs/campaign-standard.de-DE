@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +38,7 @@ Alle API-Ressourcen sind in **JSON** mit einer URL-Erweiterung oder in einer HTT
 
 <br/>
 
-***Beispielanfrage ***
+***Beispielanfrage***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -67,7 +68,7 @@ Verwenden Sie einen benutzerdefinierten Schlüssel nur für **Top-Level-Profilre
 
 <br/>
 
-***Beispielanfrage ***
+***Beispielanfrage***
 
 Um die Anmeldungen für ein Profil mit einem benutzerdefinierten Schlüssel abzurufen, führen Sie eine GET-Operation für den benutzerdefinierten Schlüssel aus.
 
