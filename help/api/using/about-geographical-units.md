@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 100%
 
 ---
 
@@ -22,8 +23,10 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 >[!CAUTION]
 >
 >Die Funktion &quot;Geografische Einheiten&quot; wird seit Version 18.7 von Campaign Standard nicht mehr unterstützt.
-Daher kann die Funktion ab Version 18.7 nicht mehr für neue Campaign Standard-Instanzen oder für vorhandene Instanzen ohne geografische Einheiten implementiert werden.
-Weiterführende Informationen dazu finden Sie auf der Seite <a href="https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html">Eingestellte Funktionen</a>.
+>
+>Daher kann die Funktion ab Version 18.7 nicht mehr für neue Campaign Standard-Instanzen oder für vorhandene Instanzen ohne geografische Einheiten implementiert werden.
+>
+>Weiterführende Informationen dazu finden Sie auf der Seite <a href="https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html">Eingestellte Funktionen</a>.
 
 Über den Endpunkt **geoUnitBase** können Sie mit geografischen Einheiten interagieren, um beispielsweise deren Attribute oder die Einheit eines Profils zu aktualisieren.
 
