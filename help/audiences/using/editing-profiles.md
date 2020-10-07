@@ -9,10 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
@@ -23,9 +24,9 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Gehen Sie wie folgt vor, um ein bereits existierendes Profil zu bearbeiten bzw. seine Daten einzusehen, oder es zu ändern:
 
-1. Öffnen Sie auf der Adobe Campaign-Startseite die Karte **[!UICONTROL Kundenprofile]**oder den Tab**[!UICONTROL  Profile]**.
+1. Öffnen Sie auf der Adobe Campaign-Startseite die Karte **[!UICONTROL Kundenprofile]** oder den Tab **[!UICONTROL Profile]**.
 1. Wählen Sie einen Kontakt aus.
-1. Greifen Sie über das Symbol **[!UICONTROL Profileigenschaften bearbeiten]**auf die Profilinformationen zu.
+1. Greifen Sie über das Symbol **[!UICONTROL Profileigenschaften bearbeiten]** auf die Profilinformationen zu.
 
    ![](assets/profile_creation2.png)
 
@@ -35,7 +36,7 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Profil zu bearbeiten bzw. 
 
    >[!NOTE]
    >
-   >Mit Ausnahme des Bereichs **[!UICONTROL Rückverfolgung]**können Sie nur die Informationen im Tab**[!UICONTROL  Allgemein]** ändern.
+   >Mit Ausnahme des Bereichs **[!UICONTROL Rückverfolgung]** können Sie nur die Informationen im Tab **[!UICONTROL Allgemein]** ändern.
 
 Die Bearbeitung von Profilen ist auch mit der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie in der [entsprechenden Dokumentation](../../api/using/updating-profiles.md).
 
@@ -46,7 +47,7 @@ Verwandtes Thema:
 
 ## Allgemeine Profildaten  {#general-profile-data}
 
-Der Tab **[!UICONTROL Allgemein]**enthält die folgenden Informationen zum Profil:
+Der Tab **[!UICONTROL Allgemein]** enthält die folgenden Informationen zum Profil:
 
 * Kontaktinformationen wie Vorname, Nachname, Geburtsdatum, Foto, bevorzugte Sprache (für [mehrsprachige E-Mails](../../channels/using/creating-a-multilingual-email.md)) usw. des Empfängers.
 * Kanäle, über die das Profil kontaktiert werden kann, d. h. E-Mail-Adresse, Mobiltelefonnummer und zugehörige Opt-out-Informationen.
@@ -57,7 +58,7 @@ Der Tab **[!UICONTROL Allgemein]**enthält die folgenden Informationen zum Profi
 
 ## Versand- und Trackinglogs  {#sending-and-tracking-logs}
 
-In den Tabs **[!UICONTROL Versandlogs]**und**[!UICONTROL  Trackinglogs]** sind alle Sendungen an das Profil sowie alle zugehörigen Trackingdaten enthalten.
+In den Tabs **[!UICONTROL Versandlogs]** und **[!UICONTROL Trackinglogs]** sind alle Sendungen an das Profil sowie alle zugehörigen Trackingdaten enthalten.
 
 Weiterführende Informationen zu Versand- und Trackinglogs finden Sie in den Abschnitten [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs) und [Nachrichten tracken](../../sending/using/tracking-messages.md).
 
@@ -65,4 +66,4 @@ Weiterführende Informationen zu Versand- und Trackinglogs finden Sie in den Abs
 
 Die Abonnements des Kontakts werden im entsprechenden Tab aufgeführt. Weiterführende Informationen zum Abonnement eines Dienstes finden Sie in [diesem Abschnitt](../../audiences/using/about-subscriptions.md).
 
-Der Tab **[!UICONTROL Mobile-App-Abonnements]**bezieht sich auf Push-Benachrichtigungen. Weiterführende Informationen hierzu finden Sie im Kanal[Push-Benachrichtigung](../../channels/using/about-push-notifications.md).
+Der Tab **[!UICONTROL Mobile-App-Abonnements]** bezieht sich auf Push-Benachrichtigungen. Weiterführende Informationen hierzu finden Sie im Kanal [Push-Benachrichtigung](../../channels/using/about-push-notifications.md).
