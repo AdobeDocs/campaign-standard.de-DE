@@ -35,7 +35,7 @@ Adobe Campaign Standard unterstützt die folgenden Anwendungsfälle:
 
 Zum Konfigurieren dieser Anwendungsfälle benötigen Sie die folgenden Erweiterungen aus [!DNL Experience Platform Launch]:
 
-* **[!DNL Adobe Campaign Standard]** <br>Informationen zum Installieren und Konfigurieren der Campaign Standard-Erweiterung finden Sie unter [Campaign Standard-Erweiterung in Experience Platform Launch konfigurieren](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Informationen zum Installieren und Konfigurieren der Campaign Standard-Erweiterung finden Sie unter [Campaign Standard-Erweiterung in Experience Platform Launch konfigurieren](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]** (wird automatisch installiert). <br>Weitere Informationen zur Mobile Core-Erweiterung finden Sie unter [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]** (wird automatisch installiert). <br>Weitere Informationen zur Profil-Erweiterung finden Sie unter [Profil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 
