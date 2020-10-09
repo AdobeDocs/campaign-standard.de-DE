@@ -58,7 +58,7 @@ Die sofortige Aufnahme eines XDM-Mappings in Adobe Experience Platform wird mit 
 >Um den POST API-Aufruf zur Aufnahme ausführen zu können, muss der Benutzer über die Rolle **SQL-Funktionsausführung** verfügen, die von einem Campaign Standard-Administrator vergeben werden kann, indem er das folgende JS-Skript ausführt:
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
-REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
 
 Der POST-Vorgang gibt Informationen zum erstellten Anfragestatus zurück:
 
@@ -105,7 +105,8 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Ausführliche Informationen zum Status von XDM-Mapping-Anfragen und den zugehörigen Vorgängen finden Sie in der Benutzeroberfläche von Campaign Standard im Menü **[!UICONTROL Status des Datenexports zu Platform]** (siehe [Mapping-Aktivierung ](../../developing/using/aep-mapping-activation.md)).
+>
+>Ausführliche Informationen zum Status von XDM-Mapping-Anfragen und den zugehörigen Vorgängen finden Sie in der Benutzeroberfläche von Campaign Standard im Menü **[!UICONTROL Status des Datenexports zu Platform]** (siehe [Mapping-Aktivierung ](../../developing/using/aep-mapping-activation.md)).
 
 Der GET-Vorgang gibt die folgenden Informationen zurück:
 
