@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '2387'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 99%
 **Korrekturen**
 
 * Fehlerkorrektur – Ziel-Links können jetzt für Push-Benachrichtigungen oder In-App-Nachrichten verwendet werden, wenn Tracking aktiviert ist.
-* Es wurde ein Problem behoben, bei dem hohe Priorität in Transaktionsnachrichten nicht berücksichtigt wurde, wenn ein signifikanter Versand als Massenspeicher auftrat.
+* Fehlerkorrektur – Bei einem signifikanten gebündelten Versand wird jetzt die hohe Priorität in Transaktionsnachrichten berücksichtigt.
 * Fehlerkorrektur – Marken können jetzt Transaktions-E-Mails zugewiesen werden. Während des Publikationsschritts konnten mehrere Fehlermeldungen angezeigt werden. (CAMP-44988)
 * Fehlerkorrektur –Es können jetzt Informationen in Feldern in der Workflow-Benutzeroberfläche gespeichert werden, die numerische Werte erfordern. (CAMP-44025)
 * Fehlerkorrektur – Beim Verwenden einer **Testaktivität** in einem Workflow für Importvorlagen wird keine Fehlermeldung mehr angezeigt. (CAMP-42910)
