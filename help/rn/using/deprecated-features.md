@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] wurde stillgelegt. Demzufolge ist die Bildausgabe mit [!DNL Creative SDK] in Campaign Standard-E-Mails ab Kampagne 20.2 nicht mehr verfügbar.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] wurde eingestellt. Infolgedessen ist die von [!DNL Creative SDK] unterstützte Bildbearbeitung in Campaign Standard-E-Mails ab Campaign 20.2 nicht mehr verfügbar.</p></br>
    </td> 
   </tr> 
  </tbody> 
