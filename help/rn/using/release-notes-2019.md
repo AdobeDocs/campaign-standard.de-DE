@@ -397,7 +397,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019          {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019           {#release-19-1-3---march-2019}
 
 **Verbesserungen bei Email Designer**
 
