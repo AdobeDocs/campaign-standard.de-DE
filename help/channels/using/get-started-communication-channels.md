@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Kommunikationskanälen
-description: Erstellen Sie personalisierte Nachrichten auf verschiedenen Kanälen, verwenden Sie Vorlagen, erstellen Sie Landingpages und überprüfen Sie Best Practices.
+description: Erstellen Sie personalisierte Nachrichten auf verschiedenen Kanälen, verwenden Sie Vorlagen, erstellen Sie Landingpages, und suchen Sie nach Best Practices.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
