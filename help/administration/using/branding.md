@@ -11,10 +11,10 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 100%
+source-wordcount: '1297'
+ht-degree: 94%
 
 ---
 
@@ -92,13 +92,13 @@ Eine **Marke** wird durch die folgenden Eigenschaften definiert:
 
 Sie können in Campaign neue Entitäten Ihrer Organisation hinzufügen oder einen neuen E-Mail-Typ erstellen, den Sie unter einer anderen Subdomain senden müssen. Gehen Sie dazu wie folgt vor:
 
-1. **Neue Subdomain zuweisen**: Damit eine neue Subdomain von Adobe verwendet werden kann, müssen Sie sie zunächst zuweisen. Sie können dies über das [Control Panel](https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/subdomains-branding.html) in Campaign durchführen oder sich an Ihren technischen Ansprechpartner bei Adobe wenden. Weitere Informationen zur Zuweisung von Subdomains finden Sie [in diesem Artikel](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
+1. **Neue Subdomäne** konfigurieren - Für jede neue Subdomäne, die von der Adobe verwendet werden soll, besteht der erste Schritt darin, sie zu konfigurieren. Sie können dies über das [Control Panel](https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/subdomains-branding.html) in Campaign durchführen oder sich an Ihren technischen Ansprechpartner bei Adobe wenden. Learn more about subdomain configuration [in this article](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
 
-1. **Ticket erstellen**: Sobald die Subdomain zugewiesen wurde, muss sie von Adobe in Ihrer Produktionsumgebung eingerichtet werden. Um dies anzufordern, [erstellen Sie ein Kundenunterstützungs-Ticket](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) mit den folgenden Informationen:
+1. **Ticket** erstellen: Sobald die Subdomäne konfiguriert ist, muss sie von der Adobe in der Umgebung der Produktion eingerichtet werden. Um dies anzufordern, [erstellen Sie ein Kundenunterstützungs-Ticket](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) mit den folgenden Informationen:
 
    * Betreff: Einrichtung einer neuen Marke in ACS
 
-   * Inhalt: Adobe wurde eine neue Domäne zugewiesen, die wir in unserer Campaign-Plattform einrichten möchten
+   * Inhalt: Eine neue Domäne wurde konfiguriert und wir möchten sie in unserer Kampagne-Plattform einrichten
 
    * Domain: XXX
 
