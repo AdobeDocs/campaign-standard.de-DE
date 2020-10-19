@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Die Bereitstellung und Konfiguration von Audience Manager und People Core in Adobe Campaign erfolgt in zwei Schritten: [Zunächst wird ein Antrag an Adobe übermittelt](#submitting-request-to-adobe), dann [wird die Integration mit Adobe Campaign konfiguriert](#configuring-the-integration-in-adobe-campaign).
 
-## Antrag an Adobe übermitteln    {#submitting-request-to-adobe}
+## Anfrage an Adobe übermitteln {#submitting-request-to-adobe}
 
 Durch die Integration von Audience Manager (AAM) oder People Core Service können Sie Audiences oder Segmente in Adobe Campaign importieren und exportieren.
 
@@ -127,7 +127,7 @@ So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 
 Für die Konfiguration der Integration mit People Core Service oder Audience Manager muss auch der Campaign Tracking Server konfiguriert werden.
 
-Stellen Sie sicher, dass der Campaign Tracking Server auf der Domain (CNAME) registriert ist. Mehr Informationen zur Delegation von Domain-Namen finden Sie in [diesem Artikel](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
+Stellen Sie sicher, dass der Campaign Tracking Server auf der Domain (CNAME) registriert ist. You can find more information about domain name configuration in [this article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
 
 ### Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst.{#step-4--configure-the-visitor-id-service}
 
