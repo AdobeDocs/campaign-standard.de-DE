@@ -11,10 +11,10 @@ topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Der Start einer Plattform erfolgt oft dadurch, dass eine Liste von Adressen zum 
 * Wenn Sie die ungültigen Adressen dennoch erneut qualifizieren möchten, ist es besser, dies schrittweise zu tun, wenn die Reputation der Plattform bereits etabliert ist. Dadurch kann die Verwendung ungültiger Adressen über einen längeren Zeitraum &quot;verwässert&quot; werden.
 
 Zusammenfassend sollten Sie zu Projektbeginn diese Prinzipien befolgen:
-* **Weisen Sie den über Adobe-Anwendungen versendeten E-Mail-Kampagnen eine spezifische Sub-Domain zu.**
+* **Konfigurieren Sie eine dedizierte Subdomäne** für die Verwendung mit Kampagnen, die für von der Adobe gesendete E-Mail-Kampagnen spezifisch sind.
 * **Importieren Sie ungültige/nicht aktive Adressen in die Quarantänetabelle** (sofern Sie über solche Informationen verfügen).
 * **Begrenzen Sie die Durchsatzrate** (technische Einstellung: Begrenzung der Anzahl der MTA-Kindprozesse).
 * **Erhöhen Sie schrittweise das Versandvolumen**: Versenden Sie nicht von Anfang an E-Mails an die gesamte Datenbank, sondern fügen Sie mit jedem Versand einen weiteren Teil der Liste hinzu. Dies ermöglicht Ihnen, das Volumen Schritt für Schritt zu erhöhen und gleichzeitig den Anteil an ungültigen Adressen zu verringern.
