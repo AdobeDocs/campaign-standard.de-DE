@@ -11,15 +11,15 @@ topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 79%
+source-wordcount: '816'
+ht-degree: 77%
 
 ---
 
 
-# Verwenden von Vorlagen {#use-templates}
+# Vorlagen verwenden {#use-templates}
 
 Versandvorlagen ermöglichen eine effiziente Nutzung, da sie für die häufigsten Aktivitäten vordefinierte Szenarien enthalten. Mit Vorlagen können Marketing-Experten rasch neue Kampagnen bei minimaler Anpassung bereitstellen.
 
@@ -49,7 +49,7 @@ Die Absenderadresse finden Sie im Feld **[!UICONTROL Von (E-Mail)]** in den Eige
 
 ![](assets/template-parameters.png)
 
-Die Adress-Domain entspricht der Sub-Domain, die Sie Adobe zugewiesen haben.
+Die Adressdomäne muss mit der von Ihnen konfigurierten Subdomäne übereinstimmen.
 
 Die Felder **[!UICONTROL Antworten an]** entsprechen der E-Mail-Adresse und dem Namen, die für Antworten verwendet werden.
 
