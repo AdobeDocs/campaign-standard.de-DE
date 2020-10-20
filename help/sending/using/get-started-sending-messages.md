@@ -69,7 +69,7 @@ Mehr dazu:
 * [Versand bestätigen](../../sending/using/confirming-the-send.md)
 * [Nachrichten tracken](../../sending/using/tracking-messages.md)
 * [Mit E-Mail-BCC archivieren](../../sending/using/archiving.md)
-* [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md)
+* [Sendungen überwachen](../../sending/using/monitoring-a-delivery.md)
 * [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 
@@ -84,7 +84,7 @@ Campaign Standard bietet verschiedene **Zustellbarkeits-Tools**, mit denen Sie d
 Mehr dazu:
 
 * [Über die Zustellbarkeit](../../sending/using/about-deliverability.md)
-* [Überwachen der Zustellbarkeit](../../sending/using/monitor-deliverability.md)
+* [Zustellbarkeit überwachen](../../sending/using/monitor-deliverability.md)
 * [Verbessern Ihres Rufs](../../sending/using/improving-reputation.md)
 * [Technische Empfehlungen](../../sending/using/technical-recommendations.md)
 * [Kontrollieren Ihres Versanddurchsatzes](../../reporting/using/delivery-throughput.md)
