@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Campaign Standard
-description: Erfahren sie mehr über wichtige Funktionen, die Benutzeroberfläche und globale Richtlinien.
+description: Entdecken Sie wichtige Funktionen, die Benutzeroberfläche und globale Richtlinien.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
