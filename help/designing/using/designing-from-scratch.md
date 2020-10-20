@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1273'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Definieren von E-Mail-Spalten"
->abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
+>abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
 
@@ -139,7 +139,7 @@ Verwenden Sie diese Komponente, um die unterschiedlichen Teile Ihrer existierend
 
 >[!NOTE]
 >
->Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im   **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
+>Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im    **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
 
 Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten, empfiehlt Adobe, eine neue Nachricht zu erstellen und den Inhalt aus der existierenden E-Mail in Fragmente und Komponenten einzufügen.
 
@@ -162,7 +162,7 @@ Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen. Beachten Sie, dass Videos nicht auf allen E-Mail-Clients funktionieren. Wir empfehlen, ein Fallback-Bild festzulegen."
+>abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen. Beachten Sie, dass Videos nicht auf allen E-Mail-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Zusätzliche Informationen"
 
 
@@ -187,7 +187,7 @@ Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail e
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Karusselleinstellungen"
->abstract="Erfahren Sie, wie Sie ein Karussell in Ihren Inhalt einfügen und konfigurieren können.Beachten Sie, dass Karussell nicht auf allen E-Mail-Clients funktioniert und ein Fallback-Bild angezeigt wird, falls es nicht unterstützt wird."
+>abstract="Erfahren Sie, wie Sie ein Karussell in Ihren Inhalt einfügen und konfigurieren können. Beachten Sie, dass Karusselle nicht auf allen E-Mail-Clients funktionieren und ein Reservebild angezeigt wird, falls sie nicht unterstützt werden."
 
 1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
 1. Durchsuchen Sie Ihre Festplatte nach Bildern.
