@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -81,26 +81,26 @@ Vor dem Versand Ihrer Push-Benachrichtigungen sollten Sie auf Folgendes achten:
 
 ## Häufig gestellte Fragen zu Push-Benachrichtigungen {#push-faq}
 
-### Was wären nützliche Empfehlungen für Ressourcen, um mehr über Push Kanal zu erfahren? {#resource-push}
+### Welche Ressourcen wären empfehlenswert, um mehr über den Push-Kanal zu erfahren? {#resource-push}
 
 Sehen Sie sich die folgenden Ressourcen an:
 
-* [Video-Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Video-Tutorials](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Produktdokumentation](../../channels/using/about-push-notifications.md)
-* Verwenden der AEP SDK- [Dokumentation konfigurieren](../../administration/using/configuring-a-mobile-application.md)
+* Konfigurieren mithilfe der AEP-SDK-[Dokumentation](../../administration/using/configuring-a-mobile-application.md)
 * [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-### Was muss ich tun, um ein Push-Token in der Kampagne zu erwerben? {#push-token-acquisition}
+### Was muss ich tun, um in Campaign ein Push-Token zu erwerben? {#push-token-acquisition}
 
-Stellen Sie sicher, dass das Bereitstellungsteam die Bereitstellung von Push Kanal in Adobe Campaign Standard abgeschlossen hat. Implementieren Sie die setPushIdentifier-API aus dem SDK. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Stellen Sie sicher, dass das Bereitstellungs-Team die Bereitstellung des Push-Kanals in Adobe Campaign Standard abgeschlossen hat. Implementieren Sie die setPushIdentifier-API aus dem SDK. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
 
-### Was muss ich sonst noch eine Push-Benachrichtigung senden, sobald ich Push-Token und ECID in der Kampagne habe? {#sending-push}
+### Was benötige ich noch, um eine Push-Benachrichtigung zu senden, sobald ich das Push-Token und ECID in Campaign habe? {#sending-push}
 
 Kunden müssen ein gültiges Push-Zertifikat im .pem-Format bereitstellen, um eine Push-Benachrichtigung zu senden. Für dieses Zertifikat ist kein Kennwort erforderlich.
 
 ### Was ist, wenn ich ein .p12-Zertifikat anstelle des .pem-Zertifikats habe? {#certificates}
 
-Sie können ein .p12-Zertifikat in ein .pem-Zertifikat konvertieren, indem Sie den folgenden Befehl in Terminal ausführen. Es stehen auch verschiedene Online-Ressourcen für Konvertierungsanweisungen zur Verfügung.
+Sie können ein .p12-Zertifikat in ein .pem-Zertifikat konvertieren, indem Sie den folgenden Befehl im Gerät ausführen. Es stehen auch verschiedene Online-Ressourcen für Konvertierungsanweisungen zur Verfügung.
 
 ```
 openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
@@ -114,54 +114,54 @@ Die folgende Meldung wird angezeigt.
 
 ### Kann ich gleichzeitig Produktions- und Sandbox-Zertifikate für die iOS-App hochladen (nicht zutreffend für Android)? {#prod-sandbox-certificate}
 
-Nein, Apps funktionieren entweder im Sandbox- oder im Produktionsmodus und können nicht mehr in den anderen (d. h. Sandbox in Produktions-App) geändert werden, sobald sie eingerichtet wurden. Es wird empfohlen, dass Sie Ihre App zuerst im Sandbox-Modus testen und dann in den Produktionsmodus Transition.
+Nein, Apps funktionieren entweder im Sandbox- oder im Produktionsmodus und können nicht mehr in den anderen Modus (d. h. Sandbox- in Produktions-App) geändert werden, sobald sie eingerichtet wurden. Es wird empfohlen, dass Sie Ihre App zuerst im Sandbox-Modus testen und dann in den Produktionsmodus überleiten.
 
-Um in den Produktionsmodus zu wechseln, müssen Sie eine weitere App erstellen. Achten Sie außerdem darauf, das Kontrollkästchen &quot;Sandbox&quot;nicht zu aktivieren und ein Produktionszertifikat hochzuladen.
+Um in den Produktionsmodus zu wechseln, müssen Sie eine weitere App erstellen. Achten Sie außerdem darauf, das Kontrollkästchen „Sandbox“ nicht zu aktivieren und ein Produktionszertifikat hochzuladen.
 
-### Kann ich gleichzeitig iOS- und Android-Anmeldeinformationen hochladen? {#ios-android-credentials}
+### Kann ich gleichzeitig iOS- und Android-Anmeldedaten hochladen? {#ios-android-credentials}
 
-Ja, Kampagne unterstützt beide Plattformen gleichzeitig und ermöglicht das Hochladen von Anmeldedaten für beide Plattformen.
+Ja, Campaign unterstützt beide Plattformen zugleich und ermöglicht das Hochladen von Anmeldedaten für beide Plattformen.
 
 ### Ich habe Push-Zertifikate erfolgreich hochgeladen, aber es werden keine Push-Nachrichten gesendet. {#push-certificates-upload}
 
-Stellen Sie sicher, dass Ihre Push-Zertifikate gültig sind, indem Sie sie [hier](https://pushtry.com/)testen.
+Stellen Sie sicher, dass Ihre Push-Zertifikate gültig sind, indem Sie sie [hier](https://pushtry.com/) testen.
 
-### Ich kann Push-Benachrichtigungen erfolgreich von push.com, aber nicht über Kampagne senden. {#push-not-sending}
+### Ich kann Push-Benachrichtigungen erfolgreich von pushtry.com senden, aber nicht über Campaign. {#push-not-sending}
 
-Vergewissern Sie sich, dass Sie die [hier](../../administration/using/push-payload.md)angegebenen Push-Nutzdatenanweisungen befolgen.
+Vergewissern Sie sich, dass Sie die [hier](../../administration/using/push-payload.md) angegebenen Push-Payload-Anweisungen befolgen.
 
-Beachten Sie, dass Kampagne für Android nur die Datennutzlast unterstützt, keine Benachrichtigungs-Nutzlast
+Beachten Sie, dass Campaign für Android nur Daten-Payloads unterstützt, keine Benachrichtigungs-Payloads.
 
-### Ich habe eine App im Abschnitt &quot;Administration&quot;von Adobe Campaign Standard konfiguriert, aber die mobile App ist nicht in den Eigenschaften des Versands verfügbar. {#mobile-app-unavailable}
+### Ich habe eine App im Abschnitt „Administration“ von Adobe Campaign Standard konfiguriert, aber die App ist nicht in den Versandeigenschaften verfügbar. {#mobile-app-unavailable}
 
-Für eine App muss ein gültiges Push-Zertifikat hochgeladen werden, bevor es in den Eigenschaften des Versands verfügbar gemacht werden kann.
+Für eine App muss ein gültiges Push-Zertifikat hochgeladen werden, bevor sie in den Versandeigenschaften verfügbar gemacht werden kann.
 
-### Ich habe alle Anleitungen auf dieser Seite ausprobiert und kann trotzdem nicht Push von der Kampagne senden. {#push-troubleshoot}
+### Ich habe alle Anweisungen auf dieser Seite ausprobiert und kann trotzdem keine Push-Benachrichtigungen von Campaign aus senden. {#push-troubleshoot}
 
-Bitte öffnen Sie eine Kundenkarte.
+Bitte eröffnen Sie ein Ticket für die Kundenunterstützung.
 
-### Push-Benachrichtigungen werden von der Kampagne bereitgestellt, aber die Mediendatei wird nicht angezeigt.{#media-file-unavailable}
+### Push-Benachrichtigungen werden von Campaign zugestellt, aber die Mediendatei wird nicht angezeigt.{#media-file-unavailable}
 
-Mobile App-Entwickler müssen die Unterstützung für Mediendateien in der App bearbeiten. Manchmal verhindert die Netzwerkbandbreite auch die Wiedergabe einer Mediendatei. Weitere Hinweise finden Sie auf dieser [Seite](../../administration/using/image-push-notification.md) .
+App-Entwickler müssen die Unterstützung für Mediendateien in der App bearbeiten. Manchmal verhindert auch die Netzwerkbandbreite das Rendering einer Mediendatei. Weitere Hinweise finden Sie auf dieser [Seite](../../administration/using/image-push-notification.md).
 
-### Was muss ich tun, um Push-Berichte in der Kampagne zu aktivieren? {#push-reporting-enable}
+### Was muss ich tun, um Push-Berichte in Campaign zu aktivieren? {#push-reporting-enable}
 
 Gehen Sie wie folgt vor:
 
-* Konfigurieren eines Postbacks für die Push-Verfolgung. Instructions can be found [here](../../administration/using/configuring-a-mobile-application.md).
+* Konfigurieren Sie ein Postback für das Push-Tracking. Anweisungen dazu finden Sie [hier](../../administration/using/configuring-a-mobile-application.md).
 * Implementieren Sie die trackAction-API vom Mobile Core. Weitere Informationen finden Sie auf dieser [Seite.](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference)
 
 Detailliertere Anweisungen finden Sie auf dieser [Seite](../../administration/using/push-tracking.md).
 
-### Welche Berichte stehen für Push Kanal zur Verfügung? {#push-report-available}
+### Welche Berichte stehen für den Push-Kanal zur Verfügung? {#push-report-available}
 
-In Adobe Campaign für Push-Kanal steht ein vordefinierter Bericht zur Verfügung. Refer to this [documentation](../../reporting/using/push-notification-report.md).
+In Adobe Campaign steht für den Push-Kanal ein vordefinierter Bericht zur Verfügung. In dieser [Dokumentation](../../reporting/using/push-notification-report.md) finden Sie weitere Informationen.
 
 Auf dieser [Seite](../../reporting/using/indicator-calculation.md#push-notification-delivery) erfahren Sie, wie die einzelnen Push-Metriken berechnet werden.
 
 ### Werden Deep-Links in Push- und In-App-Nachrichten unterstützt? {#deeplink-push}
 
-Ja, Deep-Links werden in Push-Nachrichten unterstützt. Deep-Links sollten Folgendes umfassen:
+Ja, Deep-Links werden in Push-Nachrichten unterstützt. Deep-Links sollten Folgendes enthalten:
 
-* Eine Sprache, die besagt, dass die Verfolgung von Versänden deaktiviert werden muss, damit die Deep-Links funktionieren.
-* Appsflyer mit Zweig als Partner, die die deeplink-Verfolgung durchführen können. Weitere Informationen zur Branch- und Adobe Campaign Standard-Integration finden Sie auf dieser [Seite](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Sprache, die besagt, dass das Versand-Tracking deaktiviert werden muss, damit die Deep-Links funktionieren.
+* Appsflyer mit Branch als Partner, die das Deeplink-Tracking durchführen können. Weitere Informationen zur Integration von Branch und Adobe Campaign Standard finden Sie auf dieser [Seite](Https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
