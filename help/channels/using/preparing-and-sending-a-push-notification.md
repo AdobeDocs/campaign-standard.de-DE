@@ -1,6 +1,6 @@
 ---
-title: Push-Benachrichtigungen erstellen und senden
-description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen Push-Benachrichtigungs-Versand mit Adobe Campaign erstellen können.
+title: Eine Push-Benachrichtig erstellen und senden
+description: Diese Schritte zeigen Ihnen, wie Sie mit Adobe Campaign einen einmaligen Push-Benachrichtigungs-Versand erstellen können.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: sauviat
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
    >
    >Wenn die Payload-Größe die 4-KB-Grenze überschreitet, wird die Nachricht nicht zugestellt.
 
-Beachten Sie, dass sich Personalisierungsdaten auf die Größe der Nachricht auswirken.
+Beachten Sie, dass die Personalisierungsdaten sich auf die Größe der Nachricht auswirken.
 
 ## Benachrichtigung senden {#sending-the-notification}
 
