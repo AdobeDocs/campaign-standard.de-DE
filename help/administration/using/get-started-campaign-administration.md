@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit der Administration von Campaign Standard
-description: Erfahren Sie mehr über Benutzer- und Berechtigungsverwaltung, Überwachungsrichtlinien, kanalspezifische Konfigurationen und Richtlinien für Anwendungseinstellungen.
+description: Entdecken Sie die Benutzer- und -Berechtigungsverwaltung, Monitoring-Richtlinien, kanalspezifische Konfigurationen und Richtlinien für die Anwendungskonfiguration.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Die verschiedenen Verwaltungsoperationen von Adobe Campaign werden über das Men
 Folgende Menüs stehen zur Verfügung:
 
 * [Benutzer &amp; Sicherheit](../../administration/using/about-access-management.md) - ermöglicht die Verwaltung der Zugriffsberechtigungen zur Plattform (Benutzer, Benutzerrollen, Sicherheitsgruppen, Geografische Einheiten und Organisationseinheiten).
-* [Kanal](../../administration/using/about-channel-configuration.md): In diesem Menü werden die technischen Kanal zusammengefasst, die mit den verschiedenen Plattformparametern (E-Mail, Mobil) sowie mit der Typologie und dem Management der Quarantäne verknüpft sind.
+* [Kanäle](../../administration/using/about-channel-configuration.md): Dieses Menü enthält die technischen Parameter, die mit den Plattformkanälen (E-Mail, SMS) verknüpft sind sowie die Typologie- und Quarantäneverwaltung.
 * [Anwendungskonfiguration](../../administration/using/external-accounts.md) - ermöglicht die Konfiguration verschiedener Anwendungselemente (externe Konten, Optionen, technische Workflows).
 * [Entwicklung](../../developing/using/data-model-concepts.md) - ermöglicht die Erstellung und Verwaltung benutzerdefinierter Ressourcen sowie den Zugriff auf Monitoring-Tools.
 * [Instanzenkonfiguration](../../administration/using/branding.md) - erlaubt die Definition verschiedener Marken und ihrer Parameter (Logo, Trackingverwaltung, Domain der Landingpage-URLs etc.).
