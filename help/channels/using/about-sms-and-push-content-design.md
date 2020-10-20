@@ -32,7 +32,7 @@ In den folgenden Abschnitten werden die für Marketingaktivitäten am häufigste
 
 Um auf den Inhaltseditor für SMS und Push-Benachrichtigungen zuzugreifen, gehen Sie wie folgt vor:
 
-* Wählen Sie im Dashboard einer SMS die Kachel **[!UICONTROL Inhalt]** aus.
+* Wählen Sie im Dashboard einer SMS den Block **[!UICONTROL Inhalt]** aus.
 
    ![](assets/des_sms_content.png)
 
