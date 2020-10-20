@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Profilen und Audiences
-description: Definieren Sie Zielgruppen, wählen Sie Audiences, filtern Sie Empfänger, erfassen Sie Daten und aktualisieren Sie Profile.
+description: Definieren Sie Zielgruppen-Populationen, wählen Sie Audiences, filtern Sie Empfänger, erfassen Sie Daten und aktualisieren Sie Profile.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">Segmentierung und Targeting</a></p></td>
+<td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">Segmentierung und Zielgruppenbestimmung</a></p></td>
 <td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">Berechtigungen und Einverständniserklärungen</a></p></td>
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Einhaltung von Datenschutzbestimmungen</a></p></td></tr>
 </table>
@@ -33,7 +33,7 @@ Segmentieren Sie Ihre Datenbank in Audiences, um die Zielgruppen Ihrer Marketing
 
 Verwalten Sie die Berechtigungen und Einverständniserklärungen der Kunden mithilfe von Diensten und Landingpages, um einfache Opt-in- und Opt-out-Mechanismen einzurichten.
 
-## Segmentierung und Targeting {#segmenting-targeting}
+## Segmentierung und Zielgruppenbestimmung {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
