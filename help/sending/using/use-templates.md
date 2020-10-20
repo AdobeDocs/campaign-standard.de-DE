@@ -1,6 +1,6 @@
 ---
-title: Verwenden von Vorlagen
-seo-title: Verwenden von Vorlagen
+title: Verwenden von Versandvorlagen
+seo-title: Verwenden von Versandvorlagen
 page-status-flag: never-activated
 uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 77%
+ht-degree: 98%
 
 ---
 
 
-# Vorlagen verwenden {#use-templates}
+# Verwenden von Versandvorlagen {#use-templates}
 
 Versandvorlagen ermöglichen eine effiziente Nutzung, da sie für die häufigsten Aktivitäten vordefinierte Szenarien enthalten. Mit Vorlagen können Marketing-Experten rasch neue Kampagnen bei minimaler Anpassung bereitstellen.
 
@@ -31,7 +31,7 @@ Mit einer [Versandvorlage](../../start/using/marketing-activity-templates.md#cre
 
 Wenn Sie mehrere Marken in Adobe Campaign verwalten, empfiehlt Adobe die Zuweisung einer Subdomain pro Marke. Eine Bank kann beispielsweise für jede ihrer regionalen Niederlassungen über eine Subdomain verfügen. Angenommen die Domain einer Bank heißt bluebank.com, dann könnten ihre Subdomains @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com usw. lauten. Mit einer Versandvorlage pro Subdomain können Sie stets die richtigen vorkonfigurierten Parameter für jede Marke verwenden, um Fehler zu verhindern und Zeit zu sparen.
 
-**Tipp**:  Um Konfigurationsfehler in der Kampagne zu vermeiden, sollten Sie eine native Vorlage mit Duplikat versehen und deren Eigenschaften ändern, anstatt eine neue Vorlage zu erstellen.
+**Tipp**: Zur Vermeidung von Konfigurationsfehlern in Campaign wird empfohlen, keine neuen Vorlagen zu erstellen, sondern native Vorlagen zu duplizieren und die Eigenschaften nach Bedarf anzupassen.
 
 ## Konfigurieren von Adressen
 
@@ -53,15 +53,15 @@ Die Adressdomäne muss mit der von Ihnen konfigurierten Subdomäne übereinstimm
 
 Die Felder **[!UICONTROL Antworten an]** entsprechen der E-Mail-Adresse und dem Namen, die für Antworten verwendet werden.
 
-**Tipp** - Adobe empfiehlt die Verwendung einer vorhandenen echten Adresse wie der Kundenbetreuung Ihrer Marke. In diesem Fall kann die Kundenunterstützung die Antwort dann bearbeiten, wenn ein Empfänger eine Antwort sendet.
+**Tipp:** – Adobe empfiehlt, eine echte Adresse zu verwenden, wie etwa den Kundendienst Ihrer Marke, damit sich dieser gegebenenfalls um etwaige Antworten kümmern kann.
 
-To change the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]**  tab of the Email Designer home page (accessible through the home icon) and click the **[!UICONTROL Default sender name]** block.
+Um den Absendernamen zu ändern, der im Header der gesendeten Nachrichten angezeigt wird, navigieren Sie auf der Startseite von Email Designer zur Registerkarte **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol) und klicken Sie auf den Block **[!UICONTROL Name des Standard-Absenders]**.
 
 ![](assets/template-content.png)
 
 Um die Öffnungsrate Ihrer Sendungen zu erhöhen, empfiehlt Adobe, einen Namen zu verwenden, der von den Empfängern leicht erkennbar ist, wie etwa Ihr Markenname.
 
-**Tipp** - Um die Benutzererfahrung weiter zu verbessern, können Sie einen Personennamen hinzufügen, z.B. &quot;Emma von Megastore&quot;.
+**Tipp:** – Um das Benutzererlebnis zu verbessern, können Sie den Namen einer Person einfügen, wie z. B. „Emma von Megastore“.
 
 Weiterführende Informationen zur Personalisierung von Absendernamen finden Sie im Abschnitt zum[E-Mail-Absender](../../designing/using/subject-line.md#email-sender).
 
@@ -71,7 +71,7 @@ In den Eigenschaften einer SMS-Vorlage können Sie im Bereich **Erweiterte Param
 
 Bleibt das entsprechende Feld leer, wird die im externen Konto angegebene Anrufernummer verwendet. Sollte auch dort keine Anrufernummer gespeichert sein, wird die Kurzwahlnummer verwendet. Weiterführende Informationen dazu finden Sie im Abschnitt [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md).
 
-**Tipp** - Prüfen Sie die Gesetzgebung in Ihrem Land hinsichtlich der Änderung der Absenderadresse. Sie sollten sich auch mit Ihrem SMS-Dienstleister erkundigen, ob er diese Funktion Angebot.
+**Tipp:** – Überprüfen Sie die gültige Rechtslage Ihres Landes bezüglich der Änderung der Absenderadresse. Stellen Sie außerdem sicher, dass Ihr SMS-Service-Provider diese Funktionalität anbietet.
 
 ## Einrichten einer Kontrollgruppe
 
@@ -81,7 +81,7 @@ Sobald der Versand durchgeführt wurde, können Sie das Verhalten der ausgeschlo
 
 Eine Typologie enthält Regeln, die in der Analysephase vor dem Versand einer Nachricht angewendet werden.
 
-In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section of the template&#39;s properties, change the default typology according to your needs.
+Ändern Sie im Abschnitt **[!UICONTROL Erweiterte Parameter]** > **[!UICONTROL Vorbereitung]** die Standardtypologie entsprechend Ihren Anforderungen.
 
 Um beispielsweise den ausgehenden Traffic besser zu steuern, können Sie festlegen, welche IP-Adressen verwendet werden können, indem Sie für jede Subdomain eine Affinität definieren und für jede Affinität eine Typologie erstellen. Affinitäten werden in der Konfigurationsdatei der Instanz bestimmt. Kontaktieren Sie dazu Ihren Adobe Campaign-Administrator.
 
@@ -99,4 +99,4 @@ Um die mit einer Versandvorlage verknüpfte Marke anzuzeigen oder zu verändern,
 
 Weiterführende Informationen zur Verknüpfung einer Marke mit einer Vorlage finden Sie im Abschnitt [Marke einer E-Mail zuweisen](../../administration/using/branding.md#assigning-a-brand-to-an-email).
 
-Hier erfahren Sie, wie Sie eine Marke erstellen und konfigurieren, und zwar [in diesem Abschnitt](../../administration/using/branding.md#creating-a-brand).
+[In diesem Abschnitt](../../administration/using/branding.md#creating-a-brand) erfahren Sie, wie Sie eine Marke erstellen und konfigurieren.
