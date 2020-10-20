@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Kommunikationskanälen
-description: Erstellen Sie personalisierte Nachrichten auf verschiedenen Kanälen, verwenden Sie Vorlagen, erstellen Sie Landingpages, und suchen Sie nach Best Practices.
+description: Erstellen Sie personalisierte Nachrichten auf verschiedenen Kanälen, verwenden Sie Vorlagen, erstellen Sie Landingpages und sehen Sie sich die Best Practices an.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -55,7 +55,7 @@ Adobe Campaign verfügt über **fünf Kommunikationskanäle**: E-Mail, SMS, Push
 
 Für jeden Kanal stehen spezielle Funktionen zur Verfügung. Beispielsweise können Sie mit dem E-Mail-Kanal A/B-Tests durchführen, um bis zu drei Versionen einer E-Mail-Nachricht zu testen. Sie können für den SMS-Kanal STOPP-SMS-Nachrichten verwalten und eingehende SMS von den Empfängern in Ihrer Datenbank speichern.
 
-Außerdem können Sie die **Personalisierung und die Funktionen für dynamische Inhalte** in Campaign Standard nutzen, um das Interesse Ihrer Zielgruppe zu wecken.
+Außerdem können Sie die **Personalisierung und die Funktionen für dynamische Inhalte** in Campaign Standard nutzen, um das Interesse Ihrer Audiences zu wecken.
 
 Mehr dazu:
 
