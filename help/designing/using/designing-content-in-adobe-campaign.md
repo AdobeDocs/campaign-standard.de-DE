@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 Nach der Erstellung einer E-Mail in Adobe Campaign müssen Sie deren Inhalt definieren.
 
-Mit dem E-Mail-Designer können Sie durch Drag &amp; Drop faszinierende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen oder existierende Inhaltsfragmente bzw. Vorlagen nutzen, können Sie beliebige Inhalte für alle E-Mails erstellen und gestalten (ob für Promotionen oder Transaktionen).
+Mit Email Designer können Sie durch Drag-and-Drop faszinierende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen oder existierende Inhaltsfragmente bzw. Vorlagen nutzen, können Sie beliebige Inhalte für alle E-Mails erstellen und gestalten (ob für Promotionen oder Transaktionen).
 
 Email Designer ermöglicht die Bereitstellung von HTML-Code, der für responsives Design optimiert ist. Mit Email Designer können Sie bequem Sichtbarkeitsbedingungen und dynamische Inhalte direkt über die Benutzeroberfläche definieren und anwenden. Durch einfaches Klicken auf eine Schaltfläche können Sie nahtlos zwischen der Drag &amp; Drop-Oberfläche und HTML-Code wechseln.
 
@@ -120,7 +120,7 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
    Sehen Sie sich Ihre Nachrichten in der Vorschau an, bevor Sie sie senden. Adobe Campaign ermöglicht es Ihnen, mithilfe von Litmus das E-Mail-Rendering zu testen. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
 
-Weitere Design- und allgemeine Best Practices für Nachrichten werden im folgenden Abschnitt vorgestellt: [Best Practices](../../sending/using/delivery-best-practices.md)des Versands.
+Weitere Best Practices zum Design und zur allgemeinen Handhabung von Nachrichten werden im folgenden Abschnitt vorgestellt: [Best Practices zum Versand](../../sending/using/delivery-best-practices.md).
 
 ### Aktualisieren von Fragmenten {#email-designer-updates}
 
@@ -144,7 +144,7 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Wenn Fragmente in E-Mails aktualisiert werden, die bereits vorbereitet wurden, wirkt sich dies nicht auf diese E-Mails aus.
 
-## Einschränkungen in Email Designer     {#email-designer-limitations}
+## Einschränkungen in Email Designer      {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -152,8 +152,8 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Bei der Bearbeitung von Stilen sind nur die Web Fonts verfügbar, die von den meisten E-Mail-Clients offiziell unterstützt werden.
 * Stile lassen sich nicht als Thema zur künftigen Wiederverwendung speichern. Doch der CSS-Stil kann in einer Inhaltsvorlage oder einer E-Mail gespeichert werden. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/styles.md).
-* Werber-Meta-Tag wird im E-Mail-Designer nicht unterstützt.
-* Ersatzzeichenpaare, die nicht in der Standard-Mehrsprachigkeit des Unicode-Zeichensatzes enthalten sind, können nicht in 2 Byte (16 Bit) gespeichert werden und müssen in 2 UTF-16-Zeichen kodiert werden. Zu diesen Zeichen gehören einige CJK-Ideogramme, die meisten Emojis und einige Sprachen.<br>Diese Zeichen können zu Inkompatibilitätsproblemen im dynamischen Text führen. Sie müssen vor dem Senden Ihrer Nachrichten starke Tests durchführen.
+* Referrer-Meta-Tag wird in Email Designer nicht unterstützt.
+* Ersatzzeichenpaare, Zeichen, die nicht im Basic Multilingual Plane des Unicode-Zeichensatzes enthalten sind, können nicht in 2 Byte (16 Bit) gespeichert werden und müssen in 2 UTF-16-Zeichen kodiert werden. Zu diesen Zeichen gehören einige CJK-Ideogramme, die meisten Emojis und einige Sprachen.<br>Diese Zeichen können zu Inkompatibilitätsproblemen im dynamischen Text führen. Vor dem Senden Ihrer Nachrichten müssen Sie umfangreiche Tests durchführen.
 
 **Verwandte Themen**
 
