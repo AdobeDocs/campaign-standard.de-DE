@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Die Definition des dynamischen Texts erfolgt analog zur Definition des dynamisch
 >
 >Für SMS und Push-Benachrichtigungen können Sie nur dynamischen Text definieren. Für Landingpages können Sie sowohl dynamische Inhalte als auch dynamischen Text definieren. Wenn Sie dynamischen Text mit [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) definieren möchten, lesen Sie den Abschnitt [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-Beachten Sie, dass Ersatzzeichenpaare, die nicht in der Standard-Mehrsprachigkeit des Unicode-Zeichensatzes enthalten sind, nicht in 2 Byte (16 Bit) gespeichert werden können und in 2 UTF-16-Zeichen kodiert werden müssen. Zu diesen Zeichen gehören einige CJK-Ideogramme, die meisten Emojis und einige Sprachen.
-<br>Diese Zeichen können zu Inkompatibilitätsproblemen im dynamischen Text führen. Sie müssen vor dem Senden Ihrer Nachrichten starke Tests durchführen.
+Beachten Sie, dass Ersatzzeichenpaare, Zeichen, die nicht im Basic Multilingual Plane des Unicode-Zeichensatzes enthalten sind, nicht in 2 Byte (16 Bit) gespeichert werden können und in 2 UTF-16-Zeichen kodiert werden müssen. Zu diesen Zeichen gehören einige CJK-Ideogramme, die meisten Emojis und einige Sprachen.
+<br>Diese Zeichen können zu Inkompatibilitätsproblemen im dynamischen Text führen. Vor dem Senden Ihrer Nachrichten müssen Sie umfangreiche Tests durchführen.
 
 
 Im folgenden Beispiel wird beschrieben, wie dynamischer Text in einer SMS definiert wird.
