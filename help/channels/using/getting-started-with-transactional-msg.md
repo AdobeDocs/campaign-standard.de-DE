@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Einführung in das Konzepts der **Transaktionsnachrichten**
 
 Mit Transaktionsnachrichten können Sie Ihren Kunden individuelle und einzigartige Nachrichten in Echtzeit senden.
 
-Sie können Willkommensmeldungen, Versandbestätigungen, Passwortaktualisierungen usw. sein.
+Das können Willkommensnachrichten, Versandbestätigungen für Bestellungen, Kennwortänderungen usw. sein.
 In Adobe Campaign empfängt die entsprechende Funktion Ereignisse von einem Informationssystem, auf die sie mit personalisierten Transaktionsnachrichten reagiert.
 
 Transaktionsnachrichten können je nach Ihren Optionen per E-Mail, SMS oder Push-Benachrichtigung versendet werden. Prüfen Sie diesbezüglich Ihren Lizenzvertrag.
@@ -88,13 +88,13 @@ In Adobe Campaign sind zwei Arten von Transaktionsnachrichten verfügbar:
 
 Mit Profil-Transaktionsnachrichten haben Sie folgende Möglichkeiten:
 
-* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
+* [Marketing-Typologieregeln](../../sending/using/managing-typology-rules.md) oder [Ermüdungsregeln](../../sending/using/fatigue-rules.md) anwenden
 
 * einen Abmelde-Link in die Nachricht einfügen
 
 * die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen
 
-* Die Transaktionsnachrichten für die Customer Journey nutzen
+* die Transaktionsnachrichten für die Customer Journey nutzen
 
 Der Nachrichtentyp wird bei der Konfiguration des Ereignisses definiert, das eine Transaktionsnachricht auslösen soll. Siehe [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md).
 
@@ -134,7 +134,7 @@ Die Erstellung und Veröffentlichung eines Ereignisses finden Sie im Abschnitt [
 
 * Die Transaktionsnachricht ist dann versandfertig.
 
-* This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users).
+* Dieser Schritt kann von jedem Marketing-Anwender mit [grundlegenden Zugriffsrechten](../../administration/using/users-management.md#basic-users) ausgeführt werden.
 
 Weitere Informationen zum Bearbeiten und Publizieren einer Transaktionsnachricht finden Sie unter [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 
