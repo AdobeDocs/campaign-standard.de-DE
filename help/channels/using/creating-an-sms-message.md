@@ -81,4 +81,4 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 
 * [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../channels/using/about-sms-and-push-content-design.md)
 * [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md)
-* Video [Create an SMS delivery](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html)
+* Video [Erstellen eines SMS-Versands](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html)
