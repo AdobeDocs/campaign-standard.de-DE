@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ In diesem Workflow wird von folgenden Voraussetzungen ausgegangen:
 * Leere Felder der AppSubscription-Tabelle werden in der Profiltabelle nicht aktualisiert.
 * Jeder Datensatz, der in der AppSubscription-Tabelle aktualisiert wurde, wird der nächsten Workflow-Ausführung hinzugefügt.
 
-Um den Workflow zu erstellen, ziehen Sie die folgenden Aktivitäten per Drag &amp; Drop in den Arbeitsbereich und verknüpfen Sie sie miteinander: **[!UICONTROL Beginn]**, **[!UICONTROL Planung]**, **[!UICONTROL Inkrementelle Abfrage]**, **[!UICONTROL Daten]** aktualisieren
+Um den Workflow zu erstellen, ziehen Sie die folgenden Aktivitäten per Drag-and-Drop in den Arbeitsbereich und verknüpfen Sie sie miteinander: **[!UICONTROL Beginn]**, **[!UICONTROL Planung]**, **[!UICONTROL Inkrementelle Abfrage]**, **[!UICONTROL Daten aktualisieren]**.
 
 ![](assets/update_profile0.png)
 
@@ -85,7 +85,7 @@ Gehen Sie dann wie folgt vor, um jede Aktivität zu konfigurieren.
 
 ### Konfigurieren Sie die Aktivität **[!UICONTROL Planen]**
 
-Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Ausführungsfrequenz]** (z. B. „Täglich“), die **[!UICONTROL Zeit]** (z. B. „1:00:00 Uhr“) und den **[!UICONTROL Start]** (z. B. das heutige Datum) fest.
+Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Ausführungsfrequenz]** (z. B. &quot;Täglich&quot;), die **[!UICONTROL Zeit]** (z. B. 1:00:00 Uhr) und den **[!UICONTROL Start]** (z. B. das heutige Datum) fest.
 
 ![](assets/update_profile2.png)
 
@@ -99,13 +99,13 @@ Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Aus
 
    ![](assets/update_profile4.png)
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Verarbeitete Daten]** die Option **[!UICONTROL Datenfeld verwenden]** aus und fügen Sie das Feld **[!UICONTROL Zuletzt geändert (lastModified)]** als **[!UICONTROL Pfad zum Datenfeld]** hinzu.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Verarbeitete Daten]** die Option **[!UICONTROL Datumsfeld verwenden]** aus und fügen Sie das Feld **[!UICONTROL Zuletzt geändert (lastModified)]** als **[!UICONTROL Pfad zum Datumsfeld]** hinzu.
 
    ![](assets/update_profile5.png)
 
 ### Konfigurieren Sie die Aktivität **[!UICONTROL Daten aktualisieren]**.
 
-1. Vergewissern Sie sich auf der Registerkarte **[!UICONTROL Identifizierung]**, dass das Feld **[!UICONTROL Zu aktualisierende Dimension]** auf „Profile (profile)“ gesetzt ist, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld als Abgleichkriterium hinzuzufügen.
+1. Vergewissern Sie sich auf der Registerkarte **[!UICONTROL Identifizierung]**, dass das Feld **[!UICONTROL Zu aktualisierende Dimension]** auf &quot;Profile (profile)&quot; gesetzt ist, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld als Abgleichkriterium hinzuzufügen.
 
    ![](assets/update_profile_createelement.png)
 
@@ -123,7 +123,7 @@ Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Aus
 
 >[!NOTE]
 >
->In this case, the Workflow performs an UPSERT but since it&#39;s based on an **[!UICONTROL Incremental query]** data is only inserted. Eine Änderung der Abfrage kann sich auf die eingefügten oder aktualisierten Daten auswirken.
+>In diesem Fall führt der Workflow ein UPSERT aus. Da sich dieses UPSERT jedoch auf eine **[!UICONTROL inkrementelle Abfrage]** bezieht, werden die Daten nur eingefügt. Eine Änderung der Abfrage kann sich auf die eingefügten oder aktualisierten Daten auswirken.
 >Darüber hinaus bestimmen auch die Einstellungen auf der Registerkarte „Zu aktualisierende Felder“, welche Felder unter bestimmten Bedingungen eingefügt oder aktualisiert werden. Diese Einstellungen sind oft anwendungs- oder kundenspezifisch.
 >Konfigurieren Sie diese Einstellungen mit größter Sorgfalt, da sie andernfalls unbeabsichtigte Folgen haben können. Durch die Aktualisierung der Profildatensätze auf Basis der appSubscriptionRcp-Daten können sich persönliche Benutzerdaten ohne Validierung ändern.
 
@@ -131,6 +131,6 @@ Klicken Sie auf **[!UICONTROL Bestätigen]**, wenn Sie alle im Profil einzufüge
 
 ![](assets/update_profile9.png)
 
-Save the workflow, then click **[!UICONTROL Start]** to execute the Workflow.
+Speichern Sie den Workflow und klicken Sie dann auf **[!UICONTROL Start]**, um den Workflow-Prozess zu starten.
 
 ![](assets/update_profile10.png)
