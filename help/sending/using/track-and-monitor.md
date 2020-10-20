@@ -1,6 +1,6 @@
 ---
-title: Tracken und Überwachen von Nachrichten
-seo-title: Tracken und Überwachen von Nachrichten
+title: Tracken und überwachen von Nachrichten
+seo-title: Tracken und überwachen von Nachrichten
 page-status-flag: never-activated
 uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 
-# Tracken und Überwachen {#track-and-monitor}
+# Tracken und überwachen {#track-and-monitor}
 
 Sie haben auf die Senden-Schaltfläche geklickt? Lassen Sie uns sehen, was dann passiert. Nach dem Versand der Nachrichten ermöglicht es Ihnen Adobe Campaign die gesendeten Nachrichten zu verfolgen und festzustellen, wie Ihre Empfänger darauf reagieren. Dadurch können Sie den zukünftigen Versand verbessern und Ihre nächsten Kampagnen optimieren.
 
@@ -33,33 +33,33 @@ Um Ihre Kampagnen steuern zu können, müssen Sie zunächst sichergehen, dass Ih
 
 * Um Erfolge und Fehlschläge beim Versand zu verfolgen, ist Adobe Campaign mit einem E-Mail-Warnsystem ausgestattet, über das Benutzer Benachrichtigungen zu wichtigen Systemaktivitäten erhalten.
 
-* Im Nachrichten-Dashboard können Sie für diese Nachricht mehrere Berichte aufrufen.
+* Im Nachrichten-Dashboard können Sie für diese Benachrichtigung mehrere Berichte aufrufen.
 
 Weiterführende Informationen dazu finden Sie unter [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md).
 
 ## Tracking {#tracking-deliveries}
 
-Um das Verhalten Ihrer zielgerichteten Profil besser zu kennen, können Sie nachverfolgen, wie sie auf einen Versand reagieren: Empfang, Öffnen, Klicks auf Links, Abmeldungen usw. Lesen Sie die Registerkarte &quot; **Trackinglogs** &quot;des Versands.
+Um das Verhalten Ihrer Empfängerprofile besser kennenzulernen, können Sie ihre Reaktion auf einen Versand verfolgen: Empfang, Öffnung, Klicks auf Links, Abmeldungen usw. Siehe die Registerkarte **Trackinglogs** des Versands.
 
 **Tipp**: Das Nachrichten-Tracking ist standardmäßig aktiviert. Um URLs zu konfigurieren, wählen Sie im unteren Bereich des Versandassistenten die Option „URLs anzeigen“ aus. Sie können für jede URL der Nachricht festlegen, ob Sie Tracking aktivieren möchten.
 
-For more on this, refer to the [Tracking messages](../../sending/using/tracking-messages.md) section and the [Tracking indicators](../../reporting/using/tracking-indicators.md) description.
+Weitere Informationen hierzu finden Sie im Abschnitt [Tracking-Nachrichten](../../sending/using/tracking-messages.md) und in der Beschreibung der [Tracking-Indikatoren](../../reporting/using/tracking-indicators.md).
 
 ## Dynamische Berichte {#dyn-reports}
 
 Dynamische Berichte ermöglichen vollständig anpassbare und in Echtzeit aktualisierte Berichte zur Überwachung Ihrer Kampagnen. Mit Dimensionen, Metriken und Visualisierungen können Sie die Wirkung und den Erfolg Ihrer Kampagnen auf Empfänger messen.
 
-**Tipp** : Integrierte Berichte stehen Ihnen zur Überwachung Ihrer Kampagnen zur Verfügung. Sie können diese Berichte jedoch auch anpassen, indem Sie Metriken oder Dimensionen per Drag &amp; Drop in Ihren Bericht ziehen.
+**Tipp**: Vordefinierte Berichte sind verfügbar, mit denen Sie Ihre Kampagnen überwachen können. Diese Berichte können auch angepasst werden, indem Sie einfach Metriken oder Dimensionen per Drag-and-Drop in den Bericht ziehen.
 
 Weitere Informationen hierzu finden Sie im [Reporting-Handbuch](../../reporting/using/about-dynamic-reports.md).
 
 ## Klicks
 
-Der Bericht &quot;Hotclicks&quot;zeigt den Inhalt der Nachricht (HTML und/oder Text) mit dem Prozentsatz der Klicks auf die einzelnen Links an. Indem Sie den Prozentsatz der Klicks auf jeden dynamischen Inhalt anzeigen, können Sie messen, welcher Inhalt den Empfängern am meisten gefällt.
+Der Klicks-Bericht stellt den Nachrichteninhalt (HTML und/oder Text) mit dem Prozentsatz der Klicks auf jeden Link dar. Durch die Darstellung des Prozentsatzes der Klicks auf jedem dynamischen Inhalt können Sie messen, welcher Inhalt bei den Empfängern am besten ankommt.
 
-For more on this, refer to the [Hot click report](../../reporting/using/hot-clicks.md).
+Weiterführende Informationen dazu finden Sie auf der Seite [Klicks-Bericht](../../reporting/using/hot-clicks.md).
 
-## Tipps zur Versand-Performance {#performance-tips}
+## Tipps zur Versandleistung {#performance-tips}
 
 * Bewahren Sie auf der Instanz keine fehlgeschlagenen Sendungen auf, da dadurch temporäre Tabellen gespeichert werden, was wiederum die Leistung beeinträchtigt.
 
