@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Daten importieren/exportieren</a></p></td></tr>
 </table>
 
-Adobe Campaign Angebots bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse wie Segmentierung, Ausführung von Kampagnen, Dateiverarbeitung usw. entwerfen können. Erstellen Sie zum Beispiel einen Workflow, um eine Datei von einem Server herunterzuladen, sie zu entkomprimieren und die Datensätze in die Adobe-Campaign-Datenbank zu importieren.
+Adobe Campaign bietet eine umfassende grafische Oberfläche, die den Entwurf komplexer Arbeitsabläufe ermöglicht. Diese umfassen die Segmentierung von Zielgruppen, die Ausführung von Kampagnen, die Verarbeitung von Dateien usw. Erstellen Sie zum Beispiel einen Workflow, um eine Datei von einem Server herunterzuladen, sie zu entkomprimieren und die Datensätze in die Adobe-Campaign-Datenbank zu importieren.
 
 Oder fordern Sie andere Benutzer auf, Aufgaben auszuführen oder zu validieren. Auf diese Weise ist es möglich, anderen Benutzern Aufgaben wie Inhaltsgestaltung, Zielgruppenbestimmung und Validierung von Testsendungen zuzuweisen, bevor eine Nachricht an die Empfänger verschickt wird.
 
