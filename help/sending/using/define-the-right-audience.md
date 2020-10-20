@@ -1,6 +1,6 @@
 ---
-title: Festlegen der richtigen Zielgruppe
-seo-title: Festlegen der richtigen Zielgruppe
+title: Festlegen der richtigen Audience
+seo-title: Festlegen der richtigen Audience
 page-status-flag: never-activated
 uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
 contentOwner: sauviat
@@ -14,18 +14,18 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# Festlegen der richtigen Zielgruppe {#define-the-right-audience}
+# Festlegen der richtigen Audience {#define-the-right-audience}
 
 Die Bestimmung der Zielgruppen ist besonders wichtig. Gehen Sie bei der Erstellung Ihrer Kontaktlisten sorgfältig vor, testen Sie Ihre E-Mails in den gängigsten E-Mail-Clients, Smartphones und Tablets und stellen Sie sicher, dass Ihre Verteilerlisten aktuell sind (und keine unbekannten oder veralteten Adressen enthalten). Sie können auch Testsendungen vornehmen, um einen vollständigen Validierungszyklus durchzuführen.
 
 Weiterführende Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../../audiences/using/selecting-an-audience-in-a-message.md).
 
-## Ansprechen der richtigen Zielgruppe {#target-the-right-audience}
+## Ansprechen der richtigen Audience {#target-the-right-audience}
 
 Wenn Ihr Inhalt fertiggestellt ist, müssen Sie sorgfältig auswählen, wer Ihre Nachricht erhalten soll.
 
@@ -33,7 +33,7 @@ Um einen erfolgreichen Versand durchzuführen, müssen Sie möglichst relevanten
 
 ## Zielgruppen-Mappings {#target-mappings}
 
-Standardmäßig werden bei Versandvorlagen **Profil** Zielgruppe. Adobe Campaign ermöglicht aber auch andere Zielgruppen-Mappings für Ihre Sendungen, die Sie entsprechend Ihren Anforderungen anpassen können.
+Standardmäßig werden bei Versandvorlagen **Profile** angesprochen. Adobe Campaign ermöglicht aber auch andere Zielgruppen-Mappings für Ihre Sendungen, die Sie entsprechend Ihren Anforderungen anpassen können.
 
 Diese Zuordnungen (Mapping) werden [in diesem Abschnitt](../../automating/using/query.md#targeting-dimensions-and-resources) dargestellt.
 
@@ -41,22 +41,22 @@ Sie können auch ein benutzerdefiniertes Zielgruppen-Mapping erstellen und verwe
 
 ## Externe Daten {#external-data}
 
-Sie können Nachrichten an Empfänger senden, die in einer externen Datei anstatt in der Datenbank gespeichert sind. Dazu wird ein Workflow zum Laden von Daten aus einer Datei in Ihre Datenbank und zum Erstellen einer zugehörigen Audience eingesetzt.  Weitere Informationen finden Sie [in diesem Anwendungsbeispiel](../../automating/using/use-case-calling-workflow.md). Siehe auch [Aufrufen eines Workflows mit Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Sie können Nachrichten an Empfänger senden, die in einer externen Datei anstatt in der Datenbank gespeichert sind. Zu diesem Zweck entwerfen Sie einen Workflow, der Daten aus einer Datei in Ihre Datenbank lädt und eine zugeordnete Audience erstellt. Weitere Informationen finden Sie [in diesem Anwendungsbeispiel](../../automating/using/use-case-calling-workflow.md). Siehe auch [Aufrufen eines Workflows mit Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Versand an Ihre Abonnenten {#send-to-subscribers}
 
 Um den Abonnenten eines Newsletters Nachrichten zu senden, können Sie die Abonnenten des jeweiligen Informationsdienstes direkt anschreiben. Weiterführende Informationen finden Sie [in diesem Abschnitt](../../audiences/using/about-subscriptions.md).
 
-**Tipp** : Sie können eine Audience zur Liste erstellen, mit der die Abonnenten mithilfe eines Workflows zum Newsletter Zielgruppe werden. Sie können diese Audience dann in einem Versand auswählen. For more on this, see [Creating list audiences](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Tipp** – Sie können eine Listenzielgruppe erstellen, die mit Hilfe eines Workflows die Abonnenten Ihres Newsletters anspricht. Sie können diese Audience dann in einem Versand auswählen. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Listenzielgruppen](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
-## Testversand, Test-Profil und Kontrollgruppen {#proofs-test-control-groups}
+## Testsendungen, Testprofile und Kontrollgruppen {#proofs-test-control-groups}
 
 Nutzen Sie Testsendungen, bevor Sie Ihre Nachricht an die Hauptzielgruppe senden.
-Achten Sie darauf, geeignete Testversand-Empfänger auszuwählen, da diese die Form und den Inhalt Ihrer Nachricht validieren. Die Schritte zum Senden von Testversänden werden [in diesem Abschnitt](../../sending/using/sending-proofs.md)beschrieben.
+Achten Sie darauf, geeignete Testversand-Empfänger auszuwählen, da diese die Form und den Inhalt Ihrer Nachricht validieren. Die Schritte zur Durchführung von Testsendungen werden [in diesem Abschnitt](../../sending/using/sending-proofs.md) beschrieben.
 
-Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
+Weiterführende Informationen zu Testprofilen finden Sie in [diesem Abschnitt](../../audiences/using/managing-test-profiles.md).
 
-You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
+Sie können jetzt [Kontrollgruppen](../../sending/using/control-group.md) verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Audience ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
 
 ## Deduplizieren von Adressen {#deduplicate-addresses}
 
