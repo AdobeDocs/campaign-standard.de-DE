@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Um eine sichere Service-to-Service-Adobe I/O-API-Sitzung herzustellen, muss jede
 
 ## Fehlerbehebung
 
-Wenn bei der AdobeIO-Integration der folgende Fehler angezeigt wird:
+Wenn bei der Adobe I/O-Integration der folgende Fehler angezeigt wird:
 
 ```
 { 
@@ -66,4 +66,4 @@ Wenn bei der AdobeIO-Integration der folgende Fehler angezeigt wird:
 ```
 
 
-Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner für die Adobe, um zu prüfen, ob der CNAME-Parameter korrekt erstellt wurde.
+Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um zu prüfen, ob der Parameter CNAME korrekt erstellt wurde.
