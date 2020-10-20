@@ -40,7 +40,7 @@ ht-degree: 100%
       + [Planung](start/using/timeline.md)
 + Profile und Audiences {#profiles-and-audiences}
    + [Erste Schritte mit Profilen und Audiences](audiences/using/get-started-profiles-and-audiences.md)
-   + Verwaltung von Profilen {#managing-profiles}
+   + Profile verwalten {#managing-profiles}
       + [Über Profile](audiences/using/about-profiles.md)
       + [Profile erstellen](audiences/using/creating-profiles.md)
       + [Profile bearbeiten](audiences/using/editing-profiles.md)
@@ -175,8 +175,8 @@ ht-degree: 100%
       + [Verbessern Ihres Rufs](sending/using/improving-reputation.md)
       + [IP-Zertifizierung](sending/using/ip-certification.md)
       + [Technische Empfehlungen](sending/using/technical-recommendations.md)
-      + [Überwachen der Zustellbarkeit](sending/using/monitor-deliverability.md)
-      + [Problembehebung](sending/using/troubleshooting.md)
+      + [Zustellbarkeit überwachen](sending/using/monitor-deliverability.md)
+      + [Fehlerbehebung](sending/using/troubleshooting.md)
    + Arbeiten mit Typologieregeln {#working-with-typology-rules}
       + [Über Typologien und Typologieregeln](sending/using/about-typology-rules.md)
       + [Typologien verwalten](sending/using/managing-typologies.md)
@@ -191,7 +191,7 @@ ht-degree: 100%
       + [Benutzeroberfläche für die Berichterstellung](reporting/using/reporting-interface.md)
       + [Liste von Komponenten](reporting/using/list-of-components-.md)
       + [Indikatorberechnung](reporting/using/indicator-calculation.md)
-      + [Problembehebung](reporting/using/troubleshooting.md)
+      + [Fehlerbehebung](reporting/using/troubleshooting.md)
    + Liste von Berichten {#list-of-reports}
       + [Berichtszeitraum definieren](reporting/using/defining-the-report-period.md)
       + [Bounces](reporting/using/bounce-summary.md)
@@ -233,7 +233,7 @@ ht-degree: 100%
    + Campaign und Audience Manager oder People Core Service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Über die Integration von Campaign mit Audience Manager oder People Core Service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Integration mit Audience Manager oder People Core Service bereitstellen und konfigurieren](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
-      + [Problembehebung](integrating/using/troubleshooting.md)
+      + [Fehlerbehebung](integrating/using/troubleshooting.md)
       + [Audiences mit Audience Manager oder People Core Service freigeben](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign und Assets Core Service verwenden](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign und Analytics für Mobilgeräte {#working-with-campaign-and-analytics-for-mobile}
@@ -487,4 +487,4 @@ ht-degree: 100%
       + [Geografische Einheit eines Profils abrufen](api/using/retrieving-a-geographical-unit.md)
       + [Geografische Einheit eines Profils aktualisieren](api/using/updating-a-geographical-unit.md)
       + [Attribute geografischer Einheiten aktualisieren](api/using/updating-geographical-unit-attributes.md)
-   + [Problembehebung](api/using/troubleshooting.md)
+   + [Fehlerbehebung](api/using/troubleshooting.md)
