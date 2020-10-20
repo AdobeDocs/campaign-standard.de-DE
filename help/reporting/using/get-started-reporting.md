@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit dynamischen Berichten
-description: Analysieren Sie den Erfolg Ihrer Kampagnen in integrierten oder benutzerdefinierten dynamischen Berichten.
+description: Analysieren Sie den Erfolg Ihrer Kampagnen mit integrierten oder benutzerdefinierten dynamischen Berichten.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
