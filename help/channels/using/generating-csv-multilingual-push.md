@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Mehrsprachige Push-Benachrichtigungen erfordern 14 Spalten in der CSV-Datei:
 1. title
 1. messageBody
 1. sound
-1. adge
+1. badge
 1. deeplinkURI
 1. category
 1. iosMediaAttachmentURL
