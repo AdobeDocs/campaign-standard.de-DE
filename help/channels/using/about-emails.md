@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ Verschiedene Typen von E-Mails können gesendet werden:
 * A/B-Test-E-Mails: Damit können Sie bis zu drei Versionen einer E-Mail testen.
 * Transaktions-E-Mails: einzelne E-Mails, die auf der Basis des Kundenverhaltens ausgelöst werden.
 
-To learn the best practices when creating and sending emails, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+Weiterführende Informationen zu Best Practices beim Erstellen und Versenden von E-Mails erhalten Sie im Abschnitt [Best Practices beim Versand](../../sending/using/delivery-best-practices.md).
