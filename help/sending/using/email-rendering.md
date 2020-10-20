@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Der E-Mail-Rendering-Bericht wird angezeigt. Siehe [Beschreibung des E-Mail-Rend
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 * [Abfrageeditor](../../automating/using/editing-queries.md#about-query-editor)
 
-## Beschreibung des E-Mail-Rendering-Berichts   {#email-rendering-report-description}
+## Beschreibung des E-Mail-Rendering-Berichts    {#email-rendering-report-description}
 
 Dieser Bericht enthält Informationen zum E-Mail-Rendering, d. h. zur Darstellung der E-Mail in der Inbox des Empfängers. E-Mail-Renderings können unterschiedlich aussehen, je nachdem ob die E-Mail in einem Browser, auf einem Mobilgerät oder über eine E-Mail-Anwendung geöffnet wird.
 
@@ -77,11 +77,11 @@ Dieser Bericht enthält Informationen zum E-Mail-Rendering, d. h. zur Darstellu
 >
 >Die Anzahl der verfügbaren Renderings ist in Ihrem Lizenzvertrag vermerkt. Mit jedem Versand, bei dem die Option **E-Mail-Rendering** aktiviert ist, werden Ihre verfügbaren Renderings (auch Token genannt) um eins verringert.
 >
->Tokens berücksichtigen jedes einzelne Rendering und nicht den gesamten Bericht zum Rendern der E-Mail, d. h.:
+>Token gelten für jedes einzelne Rendering, und nicht für den gesamten E-Mail-Rendering-Bericht. Das bedeutet:
 >
->**Das bedeutet, dass jedes Mal, wenn ein Inbox-Rendering-Bericht erstellt wird, pro E-Mail-Client ein Token abgezogen wird: ein Token für das Rendering in Outlook 2000, einer für das Rendering in Outlook , einer für das Rendering in Apple Mail usw.**
+>**Jedes Mal**, wenn ein Inbox-Rendering-Bericht erstellt wird, wird pro E-Mail-Client ein Token abgezogen: ein Token für das Rendering in Outlook 2000, einer für das Rendering in Outlook , einer für das Rendering in Apple Mail usw.
 >
->**Wenn Sie für denselben Versand** das Rendering per E-Mail erneut generieren, wird die Anzahl der verfügbaren Token erneut um die Anzahl der generierten Renderings verringert.
+>Wenn Sie **für denselben Versand** das E-Mail-Rendering wiederholen, wird die Anzahl der verfügbaren Token nochmals um die Anzahl der erzeugten Renderings reduziert.
 
 
 Die Zusammenfassung des Berichts zeigt die Anzahl an empfangenen, als Spam gekennzeichneten und nicht empfangenen Nachrichten oder die Anzahl an Nachrichten, deren Empfang ausstehend ist.
