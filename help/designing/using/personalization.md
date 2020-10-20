@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '2715'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Der Inhaltsbaustein kann nun im Inhaltseditor einer Nachricht oder einer Landing
 >
 >Achten Sie darauf, dass beim Bearbeiten des Inhalts eines Bausteins keine zusätzlichen Leerzeichen zwischen dem Anfang und dem Ende Ihrer *if*-Anweisungen vorhanden sind. In HTML werden die Leerzeichen auf dem Bildschirm angezeigt und wirken sich daher auf die Darstellung des Inhalts aus.
 
-### Über Zielgruppendimensionen       {#about-targeting-dimension}
+### Über Zielgruppendimensionen        {#about-targeting-dimension}
 
 Mit der Zielgruppendimension können Sie festlegen, in welchem Nachrichtentyp Sie den Inhaltsbaustein verwenden können. Auf diese Weise wird verhindert, dass in einer Nachricht unpassende Bausteine verwendet werden, die zu Fehlern führen könnten.
 
@@ -293,7 +293,7 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 * [Ausdrucksbearbeitung](../../automating/using/editing-queries.md#about-query-editor)
 
-### Prioritätsstufe       {#order-of-priority}
+### Prioritätsstufe        {#order-of-priority}
 
 Bei der Definition eines dynamischen Inhalts im Ausdruckseditor wird folgende Priorität verwendet:
 
@@ -374,7 +374,7 @@ Gehen Sie wie folgt vor:
 
 Die dynamischen Inhalte für die Illustrationen wurden korrekt konfiguriert.
 
-### Text konfigurieren       {#configuring-text}
+### Text konfigurieren        {#configuring-text}
 
 Gehen Sie wie folgt vor:
 
@@ -404,7 +404,7 @@ Gehen Sie wie folgt vor:
 
 Die Personalisierungsfelder wurden korrekt in den ausgewählten dynamischen Inhalt eingefügt.
 
-### Vorschau der E-Mail erzeugen       {#previewing-emails}
+### Vorschau der E-Mail erzeugen        {#previewing-emails}
 
 Anhand der Vorschau kann geprüft werden, ob die Personalisierungsfelder und die dynamischen Inhalte korrekt konfiguriert wurden, bevor die **[!UICONTROL Testsendungen]** erzeugt werden. Bei der Vorschau können verschiedene Testprofile ausgewählt werden, die den verschiedenen Zielgruppen der E-Mail entsprechen.
 
