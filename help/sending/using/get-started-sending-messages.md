@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Testen und Senden
-description: Bereiten Sie Ihre Nachrichten vor und prüfen, planen, versenden und überwachen Sie diese.
+description: Bereiten Sie Ihre Nachrichten vor und testen, planen, versenden und überwachen Sie sie.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
