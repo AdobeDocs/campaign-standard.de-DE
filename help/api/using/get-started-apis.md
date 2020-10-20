@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Campaign Standard-APIs
-description: Erstellen Sie Integrationen, und bauen Sie Ihr eigenes Ökosystem auf, indem Sie Campaign mit einer Reihe von Technologien verbinden.
+description: Erstellen Sie Integrationen und bauen Sie Ihr eigenes Ökosystem, indem Sie Campaign mit einer Reihe von Technologien verbinden.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
