@@ -1,6 +1,6 @@
 ---
-title: Erstellen personalisierter Inhalte
-seo-title: Erstellen personalisierter Inhalte
+title: Personalisierte Inhalte erstellen
+seo-title: Personalisierte Inhalte erstellen
 page-status-flag: never-activated
 uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
 contentOwner: sauviat
@@ -14,14 +14,14 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-# Erstellen personalisierter Inhalte {#build-personalized-content}
+# Personalisierte Inhalte erstellen {#build-personalized-content}
 
-Versuchen Sie beim Entwerfen Ihres Nachrichteninhalts gängige Probleme zu vermeiden, die den Versand verhindern könnten. In den meisten Fällen beziehen sich mögliche Fehler auf [Personalisierung](../../designing/using/personalization.md), Formatierung bei der [Verwendung eines vorhandenen Inhalts](../../designing/using/using-existing-content.md) - und [Konvertierung eines HTML-Inhalts](../../designing/using/using-existing-content.md#converting-an-html-content) - sowie auf [Bilder](../../designing/using/images.md).
+Versuchen Sie beim Entwerfen Ihres Nachrichteninhalts gängige Probleme zu vermeiden, die den Versand verhindern könnten. In den meisten Fällen beziehen sich mögliche Fehler auf [Personalisierung](../../designing/using/personalization.md), Formatierung bei der [Verwendung eines vorhandenen Inhalts](../../designing/using/using-existing-content.md) – und [Konvertierung eines HTML-Inhalts](../../designing/using/using-existing-content.md#converting-an-html-content) – sowie auf [Bilder](../../designing/using/images.md).
 
 ## Optimieren der Personalisierung {#optimize-personalization}
 
@@ -32,10 +32,10 @@ Die Grundlagen der Personalisierung werden in [diesem Abschnitt](../../designing
 
 Stellen Sie sicher, dass Ihr Nachrichteninhalt korrekt aufgebaut ist, um oft mit der Personalisierung in Verbindung stehende Probleme zu verhindern.
 
-Dynamische Inhalte können manuell hinzugefügt werden, um Ihren Empfängern entsprechend den im Ausdruck-Editor festgelegten Bedingungen unterschiedliche Inhalte anzuzeigen. Beim Hinzufügen dynamischer Inhalte müssen Sie stets eine Standardvariante für Empfänger belassen, die die ausgewählten Bedingungen nicht erfüllen.
-For more on dynamic content, refer to the [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Dynamische Inhalte können manuell hinzugefügt werden, um Ihren Empfängern entsprechend den im Ausdruckseditor definierten Bedingungen unterschiedliche Inhalte anzuzeigen. Wenn Sie dynamische Inhalte hinzufügen, müssen Sie immer eine Standardvariante für Empfänger angeben, die nicht die ausgewählten Bedingungen erfüllen.
+Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**Tipps** - Vorschau Ihrer E-Mail mit verschiedenen Profilen, um sicherzustellen, dass Ihre dynamischen Inhalte korrekt konfiguriert wurden.
+**Tipps:** Sehen Sie sich Ihre E-Mail mit unterschiedlichen Testprofilen in der Vorschau an, um zu überprüfen, ob der dynamische Inhalt korrekt konfiguriert wurde.
 
 ## Erstellen optimierter Inhalte {#optimize-content}
 
@@ -67,9 +67,9 @@ Beziehen Sie stets einen Link zur Mirrorseite ein. Die bevorzugte Position ist a
 
 ### Abmelde-Link
 
-Die Verknüpfung der Abmeldung ist unverzichtbar. Es muss sichtbar und gültig sein, und das Formular muss funktionsfähig sein. Hier erfahren Sie [die Linkrichtlinien zur Abmeldung](../../designing/using/personalization.md#about-targeting-dimension).
+Ein Abmelde-Link muss unbedingt vorhanden sein. Er muss gut sichtbar und gültig sein, und das Formular muss funktionieren. Hier erfahren Sie [die Richtlinien zu Abmelde-Links](../../designing/using/personalization.md#about-targeting-dimension).
 
-By default, when the message is analyzed, a control [typology rule](../../sending/using/control-rules.md) checks whether an opt-out link has been included and generates a warning if it is missing.
+Bei der Analyse einer Nachricht wird standardmäßig von einer [Typologieregel](../../sending/using/control-rules.md) überprüft, ob ein Abmelde-Link vorhanden ist. Ist dies nicht der Fall, wird ein Warnhinweis erstellt.
 
 **Tipp**: Da menschliche Fehler immer möglich sind, prüfen Sie vor jedem Versand, ob der Abmelde-Link ordnungsgemäß funktioniert. Achten Sie beispielsweise beim Testversand darauf, dass der Link gültig ist, das Formular online ist und dass sich das Feld „Diese Person nicht mehr kontaktieren“ auf „Ja“ ändert.
 
@@ -110,9 +110,9 @@ Responsives E-Mail-Design stellt sicher, dass eine E-Mail auf jedem Gerät optim
 
 * Verwenden Sie responsive E-Mail-HTML anstelle von Web-HTML.
 
-* Verwenden Sie den Vorschaumodus und Testsendungen, um das Rendering auf möglichst vielen Geräten zu testen.. Erfahren Sie, wie Sie vor dem Senden eine [Vorschau](../../sending/using/previewing-messages.md) durchführen.
+* Verwenden Sie den Vorschaumodus und Testsendungen, um das Rendering auf möglichst vielen Geräten zu testen.. Erfahren Sie, wie Sie vor dem Senden einer Nachricht eine [Vorschau](../../sending/using/previewing-messages.md) erstellen.
 
-* Kampagne E-Mail-Designer enthält Vorlagen für reaktionsfähige Designs für Mobilgeräte. Learn more [in this page](../../designing/using/using-reusable-content.md#content-templates).
+* Campaign Email Designer enthält Vorlagen für responsive Designs für Mobilgeräte. Weiterführende Informationen finden Sie auf [dieser Seite](../../designing/using/using-reusable-content.md#content-templates).
 
 ## Verwalten von Bildern {#manage-images}
 
@@ -140,4 +140,4 @@ Damit Empfänger auf die Bilder zugreifen können, müssen die in E-Mails und ö
 
 Adobe empfiehlt eine Vorschau Ihrer Nachricht, um die Personalisierung zu überprüfen und festzustellen, wie Ihre Empfänger den Versand sehen werden.
 
-In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. Die Personalisierungsfelder und bedingten Inhaltselemente werden durch die entsprechenden Informationen für das ausgewählte Profil ersetzt – [mehr dazu](../../sending/using/previewing-messages.md)
+In Email Designer können Sie mit der Schaltfläche **[!UICONTROL Vorschau]** das Rendering der einzelnen Inhalte für einen Empfänger anzeigen. Die Personalisierungsfelder und bedingten Inhaltselemente werden durch die entsprechenden Informationen für das ausgewählte Profil ersetzt – [mehr dazu](../../sending/using/previewing-messages.md)
