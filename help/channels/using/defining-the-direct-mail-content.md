@@ -25,7 +25,7 @@ Sie können den Inhalt entweder im letzten Bildschirm des Erstellungsassistenten
 
 ![](assets/direct_mail_6.png)
 
-Der Bildschirm für die Definition von **[!UICONTROL Inhalt]** ist nur für den Brief-Kanal verfügbar. Er ist in vier Tabs unterteilt: **[!UICONTROL Auszug]**, **[!UICONTROL Dateistruktur]**, **[!UICONTROL Header]** und **[!UICONTROL Footer]**.
+Der Bildschirm für die Definition von **[!UICONTROL Inhalt]** ist nur für den Briefpost-Kanal verfügbar. Er ist in vier Tabs unterteilt: **[!UICONTROL Auszug]**, **[!UICONTROL Dateistruktur]**, **[!UICONTROL Header]** und **[!UICONTROL Footer]**.
 
 ![](assets/direct_mail_11.png)
 
@@ -49,7 +49,7 @@ Der Bildschirm für die Definition von **[!UICONTROL Inhalt]** ist nur für den 
 >
 >Weiterführende Informationen zur Definition von Ausgabespalten finden Sie im Abschnitt zur Workflow-Aktivität [Dateiextraktion](../../automating/using/extract-file.md).
 
-## Dateistruktur definieren {#defining-the-file-structure}
+## Dateistruktur definieren  {#defining-the-file-structure}
 
 Im **Dateistruktur**-Tab können Sie das Ausgabe-, Datums- und Zahlenformat der zu exportierenden Datei konfigurieren.
 
@@ -59,9 +59,9 @@ Im **Dateistruktur**-Tab können Sie das Ausgabe-, Datums- und Zahlenformat der 
 >
 >Die verfügbaren Optionen finden Sie im Abschnitt zur Workflow-Aktivität [Dateiextraktion](../../automating/using/extract-file.md).
 
-## Kopf- und Fußzeile definieren {#defining-the-header-and-footer}
+## Kopf- und Fußzeile definieren  {#defining-the-header-and-footer}
 
-Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der Extraktionsdatei hinzufügen. Verwenden Sie dazu die Tabs **[!UICONTROL Header]** und **[!UICONTROL Footer]** im Konfigurationsbildschirm **[!UICONTROL Inhalt]**.
+Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der Extraktionsdatei hinzufügen. Verwenden Sie dazu die Tabs **[!UICONTROL Kopfzeile]** und **[!UICONTROL Fußzeile]** im Konfigurationsbildschirm **[!UICONTROL Inhalt]**.
 
 ![](assets/direct_mail_7.png)
 
