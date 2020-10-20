@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Das Dashboard einer Nachricht enthält einen Arbeitsbereich mit verschiedenen Ka
 
 ![](assets/delivery_dashboard_2.png)
 
-## Graue Leiste     {#gray-bar}
+## Graue Leiste      {#gray-bar}
 
 Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 
@@ -38,7 +38,7 @@ Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 * [Kanäle konfigurieren](../../administration/using/about-channel-configuration.md)
 * [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Symbolleiste     {#action-bar}
+## Symbolleiste      {#action-bar}
 
 Die Symbolleiste enthält verschiedene Schaltflächen, die die Bearbeitung der Nachricht ermöglichen.
 
@@ -50,13 +50,13 @@ Je nach angegebenen Parametern und Bearbeitungsfortschritt stehen gewisse Schalt
 
    Weiterführende Informationen zu Testsendungen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Test]** senden: können Sie den zu verwendenden Genehmigungsmodus auswählen: **[!UICONTROL E-Mail-Rendering]** (nur E-Mail), **[!UICONTROL Testversand]** oder beides. Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/sending-proofs.md). Diese Schaltfläche ist erst aktiviert, nachdem Sie Test-Profil erstellt haben.
+* **[!UICONTROL Einen Test senden]**: ermöglicht Ihnen die Auswahl des zu verwendenden Validierungsmodus: **[!UICONTROL E-Mail-Rendering]** (nur bei E-Mails), **[!UICONTROL Testversand]** und/oder beides. Weiterführende Informationen zu Testprofilen finden Sie im Abschnitt [Testversand durchführen](../../sending/using/sending-proofs.md). Diese Schaltfläche ist nur dann aktiv, wenn mindestens ein Testprofil definiert wurde.
 
-* **[!UICONTROL Versand vorbereiten]**: startet die Versandvorbereitung. Die Kachel **[!UICONTROL Freigabe]** erscheint und zeigt das Ergebnis der Vorbereitung an. Diese Schaltfläche erscheint nur, wenn die Zielgruppe angegeben wurde. Mithilfe der Schaltfläche &quot;Vorbereitung stoppen&quot; kann die Vorbereitung jederzeit unterbrochen werden. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Versand vorbereiten]**: startet die Versandvorbereitung. Die Kachel **[!UICONTROL Freigabe]** erscheint und zeigt das Ergebnis der Vorbereitung an. Diese Schaltfläche erscheint nur, wenn die Zielgruppe angegeben wurde. Mithilfe der Schaltfläche &quot;Vorbereitung stoppen&quot; kann die Vorbereitung jederzeit unterbrochen werden. Weiterführende Informationen zur Nachrichtenvorbereitung finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Versand bestätigen]**: löst den endgültigen Versand der Nachricht aus. In der Kachel **[!UICONTROL Freigabe]** erscheint nun das Versandergebnis. Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. Der Versand kann mithilfe der Schaltflächen **Versand anhalten** oder **[!UICONTROL Unterbrechen]** jederzeit unterbrochen werden. For more on confirming sending, refer to [Sending messages](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Versand bestätigen]**: löst den endgültigen Versand der Nachricht aus. In der Kachel **[!UICONTROL Freigabe]** erscheint nun das Versandergebnis. Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. Der Versand kann mithilfe der Schaltflächen **Versand anhalten** oder **[!UICONTROL Unterbrechen]** jederzeit unterbrochen werden. Weitere Informationen zum Bestätigen von Sendungen finden Sie unter [Nachrichten senden](../../sending/using/confirming-the-send.md).
 
-## Bausteine     {#blocks}
+## Bausteine      {#blocks}
 
 Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel, um auf die entsprechenden Versandparameter zugreifen zu können:
 
