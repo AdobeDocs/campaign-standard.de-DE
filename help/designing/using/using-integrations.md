@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,11 +49,11 @@ Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Verwenden von Produktlisten"
->abstract="Mit den Produktauflistungen können Sie auf eine Datenerfassung verweisen und sie im E-Mail-Inhalt anzeigen."
+>abstract="Mit den Produktlisten können Sie auf eine Datenerfassung verweisen und sie im E-Mail-Inhalt anzeigen."
 
 Mit Produktlisten können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen. Diese Listen stehen für Transaktions-E-Mails zur Verfügung. Einen speziellen Abschnitt zu dieser Funktion finden Sie [hier](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
-## Funktionen zur E-Mail-Erstellung im Vergleich     {#email-design-options-comparison}
+## Funktionen zur E-Mail-Erstellung im Vergleich      {#email-design-options-comparison}
 
 Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der folgenden Tabelle werden die wichtigsten Funktionen, Vorteile und Beschränkungen aufgeführt.
 
