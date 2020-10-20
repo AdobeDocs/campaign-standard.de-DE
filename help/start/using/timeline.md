@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ Das aktuelle Datum wird durch eine blaue senkrechte Linie symbolisiert, welche s
 
 Verwenden Sie die Symbole, um
 
-* ![](assets/timeline_zoom_in.png) den Umfang reduzieren oder die Detailgenauigkeit für einen begrenzteren Zeitraum erhöhen, bis Tage angezeigt werden
-* ![](assets/timeline_zoom_out.png) den Umfang erhöhen oder einen größeren Zeitraum anzeigen
+* ![](assets/timeline_zoom_in.png) den Umfang zu reduzieren oder die Detailgenauigkeit für einen begrenzteren Zeitraum zu erhöhen, bis Tage angezeigt werden
+* ![](assets/timeline_zoom_out.png) den Umfang zu vergrößern oder einen größeren Zeitraum anzuzeigen
 
 Klicken Sie auf den Pfeil rechts im Programmbalken, um seine untergeordneten Elemente anzuzeigen. Ein Programm kann Unterprogramme, Kampagnen und Landingpages enthalten. Die Anzeige von Kampagnen lässt sich auf die gleiche Weise erzeugen. Eine Kampagne kann E-Mails, SMS und Landingpages enthalten.
 
@@ -50,12 +50,12 @@ Wenn die in einem Programm oder einer Kampagne enthaltenen Elemente angezeigt we
 
 Jedem Element ist ein den Elementtyp repräsentierendes Symbol beigefügt:
 
-* ![](assets/timeline_program_icon.png) Program
-* ![](assets/timeline_campaign_icon.png) Campaign
-* ![](assets/timeline_lp_icon.png) Landing page
-* ![](assets/timeline_email_icon.png) Email
+* ![](assets/timeline_program_icon.png) Programm
+* ![](assets/timeline_campaign_icon.png) Kampagne
+* ![](assets/timeline_lp_icon.png) Landingpage
+* ![](assets/timeline_email_icon.png) E-Mail
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) Push notification
+* ![](assets/timeline_push_icon.png) Push-Benachrichtigung
 
 Ein farbiger Streifen am linken Rand eines jeden Balkens gibt Hinweis auf den Status des entsprechenden Elements:
 
