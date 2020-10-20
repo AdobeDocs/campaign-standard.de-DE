@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -36,14 +36,14 @@ Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werd
 
 Gehen Sie wie folgt vor, um einen Abonnement-Mechanismus zu erstellen:
 
-1. **Erstellen eines Dienstes** - Führen Sie die [in diesem Abschnitt](../../audiences/using/creating-a-service.md) beschriebenen Schritte aus, um einen Anmeldedienst zu erstellen
-1. **Link** freigeben - Erfahren Sie, wie Sie Ihren Dienst [auf dieser Seite fördern und freigeben können](../../audiences/using/promoting-a-service.md)
-1. **Abonnements** [überwachen - in diesem Abschnitt finden Sie mehrere Möglichkeiten, Abonnement zu Ihrem Dienst zu überwachen.](../../audiences/using/monitoring-subscriptions.md)
-1. **Abonnements** bestätigen - [diesem Lernprogramm](../../audiences/using/confirming-subscription-to-a-service.md) folgen, um eine Abonnement-Bestätigungsmeldung zu senden
+1. **Erstellen eines Dienstes** – führen Sie die [in diesem Abschnitt](../../audiences/using/creating-a-service.md) beschriebenen Schritte aus, um einen Abonnementdienst zu erstellen.
+1. **Link freigeben** – erfahren Sie [auf dieser Seite](../../audiences/using/promoting-a-service.md), wie Sie Ihren Dienst fördern und freigeben können.
+1. **Abonnements überwachen** – [in diesem Abschnitt](../../audiences/using/monitoring-subscriptions.md) finden Sie mehrere Möglichkeiten, Abonnements zu Ihrem Dienst zu überwachen.
+1. **Abonnements bestätigen** – folgen Sie [diesem Tutorial](../../audiences/using/confirming-subscription-to-a-service.md), um eine Nachricht über eine Anmeldebestätigung zu senden.
 
 ## Zusätzliche Ressourcen
 
 * [Anwendungsfall: Inkrementelle Abfrage bezüglich Dienst-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
 * [Anwendungsfall: Mehrere Abonnementstatus über eine Datei aktualisieren](../../automating/using/updating-subscriptions-from-file.md)
 * [Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden](../../automating/using/subscribing-profiles-from-file.md)
-* [Teilnahme und Ausschluss in der Kampagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Opt-in- und Opt-out-Verfahren in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
