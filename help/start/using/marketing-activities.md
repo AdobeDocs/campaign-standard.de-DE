@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -41,17 +41,17 @@ Wählen Sie in der Liste eine Aktivität aus, um auf ihren Inhalt zugreifen zu k
 
 Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](#creating-a-marketing-activity).
 
-## Symbole und Status von Marketingaktivitäten   {#marketing-activity-icons-and-statuses}
+## Symbole und Status von Marketingaktivitäten    {#marketing-activity-icons-and-statuses}
 
 Im Arbeitsbereich wird jeder Aktivitätstyp durch ein repräsentatives Symbol dargestellt:
 
-* ![](assets/marketing_program_icon.png) Program
-* ![](assets/marketing_campaign_icon.png) Campaign
-* ![](assets/marketing_email_icon.png) Email
+* ![](assets/marketing_program_icon.png) Programm
+* ![](assets/marketing_campaign_icon.png) Kampagne
+* ![](assets/marketing_email_icon.png) E-Mail
 * ![](assets/marketing_sms_icon.png) SMS
-* ![](assets/marketing_push_icon.png) Push notification
+* ![](assets/marketing_push_icon.png) Push-Benachrichtigung
 * ![](assets/marketing_lp_icon.png) In-App-Nachricht
-* ![](assets/marketing_lp_icon.png) Landing page
+* ![](assets/marketing_lp_icon.png) Landingpage
 * ![](assets/marketing_workflow_icon.png) Workflow
 
 Die Farbe des Symbols zeigt den Ausführungsstatus der Aktivität in Abhängigkeit von ihrer definierten Gültigkeit und ihrem Status an.
@@ -84,16 +84,16 @@ Weiterführende Informationen zu Programmen und Kampagnen finden Sie im Abschnit
 
 Je nach Kontext haben Sie verschiedene Möglichkeiten:
 
-* E-Mail erstellen - [Weitere Informationen](../../channels/using/creating-an-email.md)
-* SMS erstellen - [Weitere Informationen](../../channels/using/creating-an-sms-message.md)
-* Push-Benachrichtigung erstellen - [Weitere Informationen](../../channels/using/preparing-and-sending-a-push-notification.md)
-* In-App-Nachricht erstellen - [Weitere Informationen](../../channels/using/about-in-app-messaging.md)
-* Workflow erstellen - [Weitere Informationen](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* Landingpage erstellen - [Weitere Informationen](../../channels/using/getting-started-with-landing-pages.md)
-* Kampagne erstellen - [Weitere Informationen](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* Programm erstellen - [Weitere Informationen](../../start/using/programs-and-campaigns.md#creating-a-program)
+* E-Mail erstellen – [Weitere Informationen](../../channels/using/creating-an-email.md)
+* SMS erstellen – [Weitere Informationen](../../channels/using/creating-an-sms-message.md)
+* Push-Benachrichtigung erstellen – [Weitere Informationen](../../channels/using/preparing-and-sending-a-push-notification.md)
+* In-App-Nachricht erstellen – [Weitere Informationen](../../channels/using/about-in-app-messaging.md)
+* Workflow erstellen – [Weitere Informationen](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Landingpage erstellen – [Weitere Informationen](../../channels/using/getting-started-with-landing-pages.md)
+* Kampagne erstellen – [Weitere Informationen](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Programm erstellen – [Weitere Informationen](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Marketingaktivitäten können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. In diesem Fall können Sie eine beliebige Aktivität erstellen und die Marketing-Aktivität über die Eigenschaften der Aktivität mit einer übergeordneten Kampagne (oder mit einem übergeordneten Programm, wenn Sie ein Programm erstellen) verknüpfen.
+>Marketingaktivitäten können auch ausgehend von der Liste der Marketingaktivitäten erstellt werden. In diesem Fall können Sie eine beliebige Art von Aktivität erstellen und die Marketingaktivität über die Eigenschaften der Aktivität mit einer übergeordneten Kampagne (oder mit einem übergeordneten Programm, wenn Sie ein Programm erstellen) verknüpfen.
 
