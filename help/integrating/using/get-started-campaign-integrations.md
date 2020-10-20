@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Campaign-Integrationen
-description: Verwenden Sie andere Lösungen von Adobe und kombinieren Sie deren verschiedenen Funktionen mit Campaign.
+description: Verwenden Sie andere Lösungen von Adobe und kombinieren Sie ihre verschiedenen Funktionen mit Campaign.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,14 +52,14 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Dient der direkten Erstellung von E-Mail-Inhalten und mit der Adobe-Campaign-Datenbank verknüpften Formularen in Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Arbeiten mit Kampagne und Experience Manager</a>, <a href="https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrieren von Experience Manager und Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_AEM.html">Erstellen einer E-Mail mit Experience Manager und Kampagne</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Verwenden von Campaign und Experience Manager</a>, <a href="https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrieren von Experience Manager und Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_AEM.html">Erstellen einer E-Mail mit Experience Manager und Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic, Standard<br /> </td> 
    <td> Dient bei der Öffnung einer mit Adobe Campaign erstellten und gesendeten E-Mail dem Einfügen von durch Adobe Target dynamisch berechneten Bildern.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Arbeiten mit Kampagne und Zielgruppe</a>, <a href="https://docs.adobe.com/content/help/de-DE/target/using/integrate/campaign-and-target.html">Integration von Kampagne und Zielgruppe</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">Personalisieren von E-Mail-Bildern in Echtzeit</a> (Schritt 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Verwenden von Campaign und Target</a>, <a href="https://docs.adobe.com/content/help/de-DE/target/using/integrate/campaign-and-target.html">Integrieren von Campaign und Target</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">E-Mail-Bilder in Echtzeit personalisieren</a> Video (Schritt 3)
     </td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
   </tr> 
   <tr> 
    <td> Adobe Audience Manager und People Core Service (Profile &amp; Audiences)<br /> </td> 
-   <td> Dient dem Austausch von Zielgruppen zwischen den verschiedenen, von Ihnen verwendeten Adobe Experience Cloud-Anwendungen.<br /> </td> 
+   <td> Dient dem Austausch von Audiences zwischen den verschiedenen, von Ihnen verwendeten Adobe Experience Cloud-Anwendungen.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People Core Service (Profiles &amp; Audiences)</a><br /> </td> 
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Dreamweaver<br /> </td> 
    <td> Hiermit können Sie E-Mail-Inhalte in Dreamweaver bearbeiten und mit Adobe Campaign synchronisieren.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Personalisierte E-Mails mit Dreamweaver</a> -Video erstellen, Kampagne-Erweiterung für Dreamweaver <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">verwenden</a> 
+    Video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Personalisierte E-Mails mit Dreamweaver erstellen</a>, <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Verwenden der Campaign-Erweiterung für Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
