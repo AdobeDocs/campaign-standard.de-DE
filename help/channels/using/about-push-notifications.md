@@ -164,4 +164,4 @@ Auf dieser [Seite](../../reporting/using/indicator-calculation.md#push-notificat
 Ja, Deep-Links werden in Push-Nachrichten unterstützt. Deep-Links sollten Folgendes enthalten:
 
 * Sprache, die besagt, dass das Versand-Tracking deaktiviert werden muss, damit die Deep-Links funktionieren.
-* Appsflyer mit Branch als Partner, die das Deeplink-Tracking durchführen können. Weitere Informationen zur Integration von Branch und Adobe Campaign Standard finden Sie auf dieser [Seite](Https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer mit Branch als Partner, die das Deeplink-Tracking durchführen können. Weitere Informationen zur Integration von Branch und Adobe Campaign Standard finden Sie auf dieser [Seite](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
