@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 87%
 
 ---
 
@@ -105,3 +105,11 @@ Sehen Sie sich die folgenden Ressourcen an:
 * [Dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) zu den ersten Schritten mit Launch und dem Experience Platform SDK
 * [Dokumentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep) zur Aktualisierung auf das Experience Platform SDK
 * [Dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) zum Experience Platform SDK in Github
+
+## Beim Erstellen eines Push-Benachrichtigungs-Versands erhalte ich die Fehlermeldung &quot;Sie haben keinen Schreibzugriff auf Versand&quot;. {#write-access-error}
+
+Überprüfen Sie Folgendes:
+
+* Die mobile App sollte der Organisationseinheit des Benutzers zugeordnet werden, der Push-Versand erstellen und senden muss. Benutzer einer untergeordneten Organisationseinheit können keinen Push-Versand mit einer App erstellen, die der übergeordneten Organisationseinheit zugeordnet ist.
+
+* Kampagne oder Programm, in der der Push-Versand erstellt wird, sollte der Organisationseinheit des Benutzers zugeordnet werden, die Push-Versand erstellen und senden muss. Der Benutzer der untergeordneten Organisationseinheit kann keinen Push-Versand in einer Kampagne oder einem Programm erstellen, das der übergeordneten Unternehmenseinheit zugeordnet ist.
