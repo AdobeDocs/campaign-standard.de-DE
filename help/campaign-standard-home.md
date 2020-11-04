@@ -4,11 +4,11 @@ solution: Campaign
 title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
-translation-type: ht
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 93%
 
 ---
 
@@ -19,14 +19,16 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-* **[Kontrollgruppen](sending/using/control-group.md)**<br/>Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
+* **[Die aktualisierte Versionsplanung](rn/using/release-planning.md)**<br/>Für den kommenden Januar wurden der Versionsplanung hinzugefügt
 
-* **[KI-gestützte E-Mails](sending/using/predictive.md)**<br/>Design und Versand mit KI-gestützten E-Mails optimieren.
+* **[Kontrollgruppen](sending/using/control-group.md)**<br/>
+Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
 
-* **[Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/campaign-privacy.html)**<br/>
-Erfahren Sie mehr über die Tools von Adobe Campaign, die Sie bei der Einhaltung der Datenschutzbestimmungen unterstützen
+* **[KI-gestützte E-Mails](sending/using/predictive.md)**<br/>
+Design und Versand mit KI-gestützten E-Mails optimieren.
 
-* **[Externe API](automating/using/external-api.md)**<br/>Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
+* **[Externe API](automating/using/external-api.md)**<br/>
+Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
 
 * **[Erste Schritte mit mobilen Sendungen](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/>
 Weitere Informationen zu den allgemeinen Richtlinien für mobile Sendungen (SMS, Push, In-App).
