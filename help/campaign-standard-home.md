@@ -5,7 +5,7 @@ title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
+source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 93%
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Neue Funktionen
 
-* **[Die aktualisierte Versionsplanung](rn/using/release-planning.md)**<br/>Für den kommenden Januar wurden der Versionsplanung hinzugefügt
+* **[Aktualisierte Veröffentlichungsplanung](rn/using/release-planning.md)**<br/>Für Februar 2021 wurden die Versionsplanung um die nächsten Versionshinweise ergänzt
 
 * **[Kontrollgruppen](sending/using/control-group.md)**<br/>
 Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
