@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 4e338fb9399f85127e1d8e5f7f178a8d3d0a47cc
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -61,8 +61,6 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 1. Verwenden Sie im externen System den vom Control Panel heruntergeladenen öffentlichen Schlüssel, um die Daten für den Import in Campaign Standard zu verschlüsseln.
 
-   ![](assets/do-not-localize/gpg_external.png)
-
 1. Erstellen Sie einen Workflow in Campaign Standard, um die verschlüsselten Daten zu importieren und mithilfe des über das Control Panel installierten privaten Schlüssels zu entschlüsseln. Zu diesem Zweck wird folgender Workflow erstellt:
 
    ![](assets/gpg_workflow.png)
@@ -102,7 +100,7 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
    ![](assets/gpg_install.png)
 
-1. Erstellen Sie einen Workflow in Campaign Standard, um die Daten mithilfe des über das Control Panel installierten privaten Schlüssels zu verschlüsseln und zu exportieren. Zu diesem Zweck wird folgender Workflow erstellt:
+1. Erstellen Sie in Campaign Standard einen Workflow, um die Daten zu exportieren und mit dem privaten Schlüssel zu verschlüsseln, der über die Systemsteuerung installiert wurde. Zu diesem Zweck wird folgender Workflow erstellt:
 
    ![](assets/gpg-workflow-export.png)
 
@@ -127,5 +125,3 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
    ![](assets/gpg-transfer-encrypt.png)
 
 1. Sie können den Workflow jetzt ausführen. Nach der Ausführung werden die über die Abfrage abgerufenen Daten in eine verschlüsselte .gpg-Datei für den SFTP-Server exportiert.
-
-   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
