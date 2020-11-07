@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '6275'
-ht-degree: 100%
+source-wordcount: '6248'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Es wurde ein neuer Abschnitt zu Best Practices beim Versand hinzugefügt. [Mehr 
 
 Es wurde ein Abschnitt hinzugefügt, in dem die neuen Filter beschrieben werden, mit denen die Ereigniskonfigurationen nach ihrem Status und dem letzten Eingang eines Ereignisses durchsucht werden können – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
-## Aktualisierungen der Dokumentation – September 2020 {#doc-updates-september-2020}
+## September 2020 {#doc-updates-september-2020}
 
 Der Abschnitt &quot;Ereignis-Transaktionsnachrichten&quot; wurde neu organisiert und besser erklärt – [mehr dazu](../../channels/using/event-transactional-messages.md)
 
@@ -54,7 +54,7 @@ Die neue Integration von Campaign Standard mit Microsoft Dynamics 365 ist jetzt 
 
 Im Bericht zu den aktiven Profilen wurden Informationen zu anonymen Quellen hinzugefügt – [mehr dazu](../../audiences/using/active-profiles.md)
 
-## Dokumentationsaktualisierungen – August 2020 {#doc-updates-august-2020}
+## August 2020 {#doc-updates-august-2020}
 
 Ein neuer aktualisierter Abschnitt über die ersten Schritte mit Transaktionsnachrichten ist verfügbar. [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -62,7 +62,7 @@ Der Abschnitt **Einschränkungen bei Transaktionsnachrichten** wurde [hierher](.
 
 Der Abschnitt **Versandvorbereitung** wurde [hierher](../../sending/using/preparing-the-send.md) verschoben.
 
-## Dokumentationsaktualisierungen – Juli 2020 {#doc-updates-july-2020}
+## Juli 2020 {#doc-updates-july-2020}
 
 Es wurde ein neuer Abschnitt mit Richtlinien für die Überwachung in Campaign Standard hinzugefügt – [mehr dazu](../../administration/using/monitoring-guidelines.md)
 
@@ -76,7 +76,7 @@ Die Seite zur Datenschutzverwaltung in Campaign Standard wurde aktualisiert und 
 
 Neue KI-gestützte E-Mail-Funktionen: Sendezeitoptimierung und Profilbewertung – [mehr dazu](../../sending/using/predictive.md)
 
-## Aktualisierungen der Dokumentation – Juni 2020 {#doc-updates-june-2020}
+## Juni 2020{#doc-updates-june-2020}
 
 Anwendungsbeispiele für Workflows wurden aktualisiert und in thematische Bereiche neu angeordnet – [mehr dazu](../../automating/using/about-workflow-use-cases.md)
 
@@ -88,7 +88,7 @@ Die benutzerdefinierte Konfiguration des Litmus-Kontos wurde aus der Rendering-F
 
 Die Integration von Campaign Standard mit Microsoft Dynamics 365 ist derzeit nicht verfügbar. Ein neuer Connector wird derzeit entwickelt und wird in Zukunft verfügbar sein. Die entsprechenden Hilfeseiten wurden entfernt – [mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## Aktualisierungen der Dokumentation – Mai 2020 {#doc-updates-may-2020}
+## Mai 2020 {#doc-updates-may-2020}
 
 Die Übersichtsseite zu Campaign Standard wurde erweitert und in thematische Themen unterteilt – [mehr dazu](../../start/using/about-campaign-standard.md)
 
@@ -116,7 +116,7 @@ Es wurde ein Anwendungsfall hinzugefügt, mit dem Sie E-Mails des alten Editors 
 
 Es wurde ein Abschnitt mit häufig gestellten Fragen zum Email Designer hinzugefügt – [mehr dazu](../../designing/using/faq-email-designer.md)
 
-## Aktualisierungen der Dokumentation – April 2020 {#doc-updates-april-2020}
+## April 2020 {#doc-updates-april-2020}
 
 Die Dokumentation zur Integration von Microsoft Dynamics 365 mit Adobe Campaign Standard ist jetzt in der Hauptdokumentation verfügbar – [mehr dazu](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -166,9 +166,9 @@ Die Seite, auf der beschrieben wird, wie Sie den Betreff einer E-Mail testen kö
 
 Die Abschnitte für den Transaktionsnachrichtenversand wurden entsprechend den zahlreichen geringfügigen Aktualisierungen und Verbesserungen der Benutzeroberfläche aktualisiert – [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 
-Informationen zu den Limits externer API-Aktivitäten wurden aktualisiert – [mehr dazu](../../automating/using/external-api.md)
+Informationen zu den Limits externer API-Aktivitäten wurden aktualisiert – [Mehr dazu](../../automating/using/external-api.md)
 
-## Aktualisierungen der Dokumentation – März 2020 {#doc-updates-march-2020}
+## März 2020 {#doc-updates-march-2020}
 
 Genauere Informationen über den erweiterten MTA wurden der Hauptdokumentation hinzugefügt, insbesondere bezüglich der Regeln zum Umgang mit E-Mails und der Qualizierung von Bounce Messages – [mehr dazu](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -212,9 +212,9 @@ Die Dokumentation zum erweiterten MTA von Adobe Campaign ist jetzt verfügbar. I
 
 Es wurden Hinweise hinzugefügt, die darüber informieren, dass die URLs des Anwendungs-Servers und des Mirrorseiten-Servers sicher sein müssen, damit die Vorschau der Landingpage und der Mirrorseite über die Benutzeroberfläche von Campaign angezeigt werden kann – [mehr dazu](../../administration/using/branding.md#configuring-and-using-brands)
 
-Der Abschnitt zum Exportieren von Protokollen wurde aktualisiert, um über die Verfügbarkeit der Versandlog-ID in den Ressourcen Versandlogs und Trackinglogs zu informieren, mit der für jedes Protokoll eine eindeutige Kennung exportiert werden kann – [mehr dazu](../../automating/using/exporting-logs.md)
+Der Abschnitt zum Exportieren von Protokollen wurde aktualisiert, um über die Verfügbarkeit der Versandlog-ID in den Ressourcen Versandlogs und Trackinglogs zu informieren, mit der für jedes Protokoll eine eindeutige Kennung exportiert werden kann – [Mehr dazu](../../automating/using/exporting-logs.md)
 
-## Aktualisierungen der Dokumentation – Januar 2020 {#doc-updates-january-2020}
+## Januar 2020 {#doc-updates-january-2020}
 
 Die Dokumentation zur Zustellbarkeit wurde um einen neuen Abschnitt zur IP-Zertifizierung ergänzt – [mehr dazu](../../sending/using/ip-certification.md)
 
@@ -228,7 +228,7 @@ Die Dokumentation zum Verwenden von Campaign und Experience Manager wurde um den
 
 Die Startseite der API-Dokumentation wurde durch Weiterleitungen zu den verschiedenen Themen verbessert – [mehr dazu](../../api/using/get-started-apis.md)
 
-## Aktualisierungen der Dokumentation – Dezember 2019 {#doc-updates-december-2019}
+## Nov. - Dezember 2019 {#doc-updates-december-2019}
 
 Die Dokumentation zum Konfigurieren eines externen S3-Kontos wurde aktualisiert – [mehr dazu](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -237,8 +237,6 @@ Der Abschnitt zum Entwerfen von E-Mail-Inhalten wurde neu strukturiert – [mehr
 Die ersten Schritte zum Thema Zustellbarkeit wurden in die Hauptdokumentation integriert und aktualisiert – [mehr dazu](../../sending/using/about-deliverability.md)
 
 Die ersten Schritte zum Thema Exportieren/Importieren benutzerdefinierter Ressourcen wurden in die Hauptdokumentation integriert – [mehr dazu](../../automating/using/exporting-importing-custom-resources.md)
-
-## Aktualisierungen der Dokumentation – November 2019 {#doc-updates-november-2019}
 
 Ein neues Anwendungsbeispiel wurde hinzugefügt, in dem beschrieben wird, wie eine Kontrollgruppe mithilfe eines Workflows in Campaign Standard erstellt wird –
 
@@ -282,7 +280,7 @@ Ein neuer Abschnitt bezüglich der Formatierung von Links mithilfe von Email Des
 
 Der API-Dokumentation wurden Informationen zum Datenschutz hinzugefügt; [klicken Sie hier](../../api/using/creating-a-privacy-request.md).
 
-## Aktualisierungen der Dokumentation – Oktober 2019 {#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 Es wurde ein neuer Abschnitt bezüglich der Campaign Standard-Einstellungen hinzugefügt – [mehr dazu](../../administration/using/about-campaign-standard-settings.md)
 
@@ -292,8 +290,6 @@ Der Abschnitt „Transaktionsnachrichten“ wurde entsprechend den neuesten Aktu
 
 Das Kapitel „Landingpages“ wurde umstrukturiert. Es wurde außerdem um einen neuen Abschnitt erweitert, in dem die Schritte zur Einrichtung einer Landingpage beschrieben werden – [mehr dazu](../../channels/using/getting-started-with-landing-pages.md)
 
-## Aktualisierungen der Dokumentation – September 2019 {#doc-updates-september-2019}
-
 Im Abschnitt &quot;Push-Benachrichtigungen&quot; wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Profilinformationen erstellen und aktualisieren, die auf den Abonnementdaten für Mobile Apps basieren – [mehr dazu](../../channels/using/updating-profile-with-mobile-app-data.md)
 
 Ein neues Beispiel wurde hinzugefügt, das zeigt, wie eine E-Mail mit zusätzlichen Daten gesendet werden kann, die aus der Aktivität &quot;Datei laden&quot; abgerufen wurden – [mehr dazu](../../automating/using/sending-email-enriched-fields.md)
@@ -302,9 +298,9 @@ Ein neuer Abschnitt zur Verwendung von Fallen wurde hinzugefügt – [mehr dazu]
 
 Auf der Seite zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde zur Option **Launch_URL_Campaign** ein Hinweis hinzugefügt – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html)
 
-Das Handbuch zu Email Designer wurde neu organisiert – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
+Das Handbuch zu Email Designer wurde neu organisiert – [Mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Dokumentationsaktualisierungen – August 2019 {#doc-updates-august-2019}
+## August 2019 {#doc-updates-august-2019}
 
 Ein neuer Abschnitt mit Anwendungsfällen zu Workflows, bei denen Abfragen erforderlich sind, wurde hinzugefügt – [mehr dazu](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -356,7 +352,7 @@ Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisi
 
 Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder von benutzerdefinierten Ressourcen, Schlüsseln, Indizes und Links – [mehr dazu](../../developing/using/creating-or-extending-the-resource.md)
 
-## Dokumentationsaktualisierungen – Juli 2019 {#doc-updates-2019}
+## Juni - Juli 2019 {#doc-updates-2019}
 
 Eine neue Seite zu Einschränkungen bei Landingpages wurde hinzugefügt – [mehr dazu](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -943,4 +939,3 @@ URL-Änderung: Assets Core Service – [mehr dazu](../../integrating/using/worki
 URL-Änderung: People Core Service – [mehr dazu](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Das Handbuch zu Profilen und Audiences wurde umstrukturiert – [mehr dazu](../../audiences/using/get-started-profiles-and-audiences.md)
-
