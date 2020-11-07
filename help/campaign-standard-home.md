@@ -5,10 +5,10 @@ title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 93%
+source-wordcount: '221'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Neue Funktionen
 
-* **[Aktualisierte Veröffentlichungsplanung](rn/using/release-planning.md)**<br/>Für Februar 2021 wurden die Versionsplanung um die nächsten Versionshinweise ergänzt
+* **[Aktualisierte Veröffentlichungsplanung](rn/using/release-planning.md)**<br/> Die kommenden Versionshinweise vom Februar 2021 wurden zur Versionsplanung hinzugefügt
 
 * **[Kontrollgruppen](sending/using/control-group.md)**<br/>
 Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
@@ -33,7 +33,7 @@ Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in 
 * **[Erste Schritte mit mobilen Sendungen](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/>
 Weitere Informationen zu den allgemeinen Richtlinien für mobile Sendungen (SMS, Push, In-App).
 
-[Klicken Sie hier für weitere Updates.](rn/using/documentation-updates.md)
+[Weitere Updates](rn/using/documentation-updates.md)
 
 ## Wichtigste Seiten
 
