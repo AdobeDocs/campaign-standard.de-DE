@@ -11,7 +11,7 @@ topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Bei der Konfiguration eines externes Signals muss zuerst die Aktivität **[!UICO
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Bearbeiten Sie den Titel der Aktivität. Diesen Titel benötigen Sie bei der Konfiguration des Ursprungs-Workflows, der das **[!UICONTROL externe Signal]** auslöst.
 
-   Wenn Sie den Workflow mit Parametern aufrufen möchten, deklarieren Sie diese im Bereich **[!UICONTROL Parameter]**. Weiterführende Informationen hierzu finden Sie in diesem Abschnitt: [](../../automating/using/declaring-parameters-external-signal.md).
+   Wenn Sie den Workflow mit Parametern aufrufen möchten, deklarieren Sie diese im Bereich **[!UICONTROL Parameter]**. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +76,7 @@ Bei der Konfiguration eines externes Signals muss zuerst die Aktivität **[!UICO
 
    Wenn Sie eine **[!UICONTROL Ende]**-Aktivität festlegen, die einen weiteren Workflow auslöst, wird ihrem Symbol ein zusätzliches Signalsymbol hinzugefügt.
 
-   Wenn Sie den Workflow mit Parametern aufrufen möchten, verwenden Sie den Bereich **[!UICONTROL Parameter und Werte]**. Weiterführende Informationen hierzu finden Sie in diesem Abschnitt: [](../../automating/using/defining-parameters-calling-workflow.md).
+   Wenn Sie den Workflow mit Parametern aufrufen möchten, verwenden Sie den Bereich **[!UICONTROL Parameter und Werte]**. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
