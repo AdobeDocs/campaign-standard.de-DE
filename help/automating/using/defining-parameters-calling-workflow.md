@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workfl
 
 Vor der Definition der Parameter müssen folgende Voraussetzungen gegeben sein:
 
-* Die Parameter wurden in der Aktivität **[!UICONTROL Externes Signal]** deklariert. Siehe [](../../automating/using/declaring-parameters-external-signal.md).
+* Die Parameter wurden in der Aktivität **[!UICONTROL Externes Signal]** deklariert. Weiterführende Informationen finden Sie auf [dieser Seite](../../automating/using/declaring-parameters-external-signal.md).
 * Der Workflow, der die Signalaktivität enthält, wird ausgeführt.
 
 Gehen Sie zur Konfiguration der **[!UICONTROL Ende]**-Aktivität folgendermaßen vor:
@@ -33,7 +33,7 @@ Gehen Sie zur Konfiguration der **[!UICONTROL Ende]**-Aktivität folgendermaßen
 1. Wählen Sie den Workflow und die Aktivität &quot;Externes Signal&quot; aus, die aufgerufen werden sollen.
 1. Wählen Sie die Schaltfläche **[!UICONTROL Element erstellen]** aus, um einen Parameter hinzuzufügen. Geben Sie dann Namen und Wert ein.
 
-   * **[!UICONTROL Name]**: der Name, der in der Aktivität **[!UICONTROL Externes Signal]** angegeben wurde (siehe [](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Name]**: den Namen, der in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurde (siehe [diese Seite](../../automating/using/declaring-parameters-external-signal.md)).
    * **[!UICONTROL Wert]**: der Wert, der dem Parameter zugewiesen werden soll. Der Wert sollte der **Standardsyntax** entsprechen, die in [diesem Abschnitt](../../automating/using/advanced-expression-editing.md#standard-syntax) beschrieben wird.
 
    ![](assets/extsignal_definingparameters_2.png)
