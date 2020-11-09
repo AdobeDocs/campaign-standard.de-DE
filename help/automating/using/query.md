@@ -11,10 +11,10 @@ topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 100%
+source-wordcount: '1823'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 
 1. Im Tab **[!UICONTROL Transition]** können Sie mit der Option **[!UICONTROL Ausgehende Transition erzeugen]** im Anschluss an eine Abfrageaktivität eine ausgehende Transition hinzufügen, selbst wenn keine Daten abgefragt werden.
 
-   Der Segment-Code der ausgehenden Transition kann mit einem Standardausdruck und mit Ereignisvariablen personalisiert werden (siehe [](../../automating/using/customizing-workflow-external-parameters.md)).
+   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
