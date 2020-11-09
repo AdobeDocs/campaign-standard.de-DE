@@ -11,10 +11,10 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 100%
+source-wordcount: '963'
+ht-degree: 97%
 
 ---
 
@@ -64,7 +64,7 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
    * **[!UICONTROL Segment-Population begrenzen]**: begrenzt die Größe des Segments.
    * **[!UICONTROL Segment-Population filtern und begrenzen]**: Mithilfe dieser Funktion kann die Population des Segments gefiltert und in ihrer Größe begrenzt werden.
    * **[!UICONTROL Titel]**: Titel des Segments.
-   * **[!UICONTROL Segment-Code]**: der der Population des Segments zugewiesene Code. Der Segment-Code kann mit einem Standardausdruck und mit Ereignisvariablen personalisiert werden (siehe [](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment-Code]**: Code, der der Segmentpopulation zugewiesen wird. Der Segment-Code kann mithilfe von Standardvariablen für Ausdruck und Ereignis personalisiert werden (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Segment von der Population ausschließen]**: Hierdurch lässt sich das bestimmte Segment aus der Ausgabepopulation der Aktivität ausschließen. Diese Möglichkeit besteht nur, wenn die Option **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** ausgewählt wurde.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
       >[!NOTE]
       >
       >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]** auf 10, die Population mit dem Geschlecht **[!UICONTROL Weiblich]** auf 30 Personen begrenzen. Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validieren Sie die Konfiguration Ihres Segments.
