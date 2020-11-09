@@ -1,5 +1,5 @@
 ---
-title: Best Practices für Workflows
+title: Best Practices bei Workflows
 description: Hier erfahren Sie, welche Best Practices bei Workflows anzuwenden sind.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -10,15 +10,15 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1117'
+ht-degree: 98%
 
 ---
 
 
-# Best Practices für Workflows{#workflow-best-practices}
+# Best Practices bei Workflows{#workflow-best-practices}
 
 Mit Adobe Campaign können Sie zahlreiche Workflows einrichten und damit eine Fülle von Aufgaben ausführen. Doch beim Erstellen und Ausführen von Workflows ist große Vorsicht geboten, da eine nicht ordnungsgemäße Implementierung zu unzureichenden Leistungen, Fehlern und Plattformproblemen führen kann. Unten finden Sie deshalb eine Liste mit Best Practices sowie Tipps zur Fehlerbehebung.
 
@@ -110,7 +110,7 @@ Weiterführende Informationen dazu finden Sie in der [Planungsaktivität](../../
 
 ## Workflow mit Parametern abrufen{#workflow-with-parameters}
 
-Stellen Sie sicher, dass Name und Anzahl der Parameter mit der Definition beim Aufrufen des Workflows übereinstimmen (siehe [](../../automating/using/defining-parameters-calling-workflow.md)). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
+Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [this page](../../automating/using/defining-parameters-calling-workflow.md). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
 
 Stellen Sie sicher, dass alle Parameter in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurden. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
 
@@ -125,7 +125,7 @@ Um Packages zu exportieren, dürfen die exportierten Ressourcen keine Standardke
 Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit definiert wurden**. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** verwaltet werden.
 Weiterführende Informationen dazu finden Sie unter [Listenexport](../../automating/using/exporting-lists.md).
 
-## Problembehebung{#workflow-troubleshooting}
+## Fehlerbehebung{#workflow-troubleshooting}
 
 Adobe Campaign verfügt über unterschiedliche Protokolle, mit deren Hilfe Sie Workflow-Probleme lösen können.
 
