@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Der Bildschirm für die Definition von **[!UICONTROL Inhalt]** ist nur für den 
 >
 >Weiterführende Informationen zur Definition von Ausgabespalten finden Sie im Abschnitt zur Workflow-Aktivität [Dateiextraktion](../../automating/using/extract-file.md).
 
-## Dateistruktur definieren  {#defining-the-file-structure}
+## Dateistruktur definieren   {#defining-the-file-structure}
 
 Im **Dateistruktur**-Tab können Sie das Ausgabe-, Datums- und Zahlenformat der zu exportierenden Datei konfigurieren.
 
@@ -59,7 +59,7 @@ Im **Dateistruktur**-Tab können Sie das Ausgabe-, Datums- und Zahlenformat der 
 >
 >Die verfügbaren Optionen finden Sie im Abschnitt zur Workflow-Aktivität [Dateiextraktion](../../automating/using/extract-file.md).
 
-## Kopf- und Fußzeile definieren  {#defining-the-header-and-footer}
+## Kopf- und Fußzeile definieren   {#defining-the-header-and-footer}
 
 Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der Extraktionsdatei hinzufügen. Verwenden Sie dazu die Tabs **[!UICONTROL Kopfzeile]** und **[!UICONTROL Fußzeile]** im Konfigurationsbildschirm **[!UICONTROL Inhalt]**.
 
