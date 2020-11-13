@@ -10,16 +10,16 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
 ---
 
 
-# Beispiele für Abfragen   {#query-samples}
+# Beispiele für Abfragen    {#query-samples}
 
 In diesem Abschnitt wird der Anwendungsfall bei Verwendung einer **[!UICONTROL Abfrageaktivität]** erläutert. Weiterführende Informationen zur Verwendung einer **[!UICONTROL Abfrageaktivität]** finden Sie in [diesem Abschnitt](../../automating/using/query.md).
 
@@ -29,7 +29,7 @@ Das folgende Beispiel zeigt eine Abfrage von Männern zwischen 18 und 30 Jahren,
 
 ![](assets/query_sample_1.png)
 
-## Abfrage nach E-Mail-Attributen   {#targeting-on-email-attributes}
+## Abfrage nach E-Mail-Attributen    {#targeting-on-email-attributes}
 
 Das folgende Beispiel zeigt eine Abfrage von Profilen, deren E-Mail-Adressen-Domain &quot;orange.co.uk&quot; lautet.
 
@@ -39,7 +39,7 @@ Das folgende Beispiel zeigt eine Abfrage von Profilen, deren E-Mail-Adresse vorh
 
 ![](assets/query_sample_emailnotempty.png)
 
-## Abfrage von Profilen, deren Geburtstag heute ist   {#targeting-profiles-whose-birthday-is-today}
+## Abfrage von Profilen, deren Geburtstag heute ist    {#targeting-profiles-whose-birthday-is-today}
 
 Das folgende Beispiel zeigt eine Abfrage von Profilen, deren Geburtstag heute ist.
 
@@ -95,7 +95,7 @@ Das folgende Beispiel zeigt eine Abfrage von Profilen, die in den letzten sieben
 
    ![](assets/query_sample_7days2.png)
 
-## Abfrage von Profilen, die auf einen bestimmten Link geklickt haben   {#targeting-profiles-who-clicked-a-specific-link-}
+## Abfrage von Profilen, die auf einen bestimmten Link geklickt haben    {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. Ziehen Sie den Filter **[!UICONTROL Trackinglogs (tracking)]** in Ihre Abfrage.
 
