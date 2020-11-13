@@ -9,9 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss 
 >
 >Ermüdungsregeln sind mit Profil-Transaktionsnachrichten kompatibel. Näheres dazu finden Sie unter [Ermüdungsregeln](../../sending/using/fatigue-rules.md).
 
-## Profil-Transaktionsnachricht senden      {#sending-a-profile-transactional-message}
+## Profil-Transaktionsnachricht senden       {#sending-a-profile-transactional-message}
 
 Die Schritte für das Erstellen, Personalisieren und Publizieren einer Profil-Transaktionsnachricht sind mit denen einer Ereignis-Transaktionsnachricht identisch. Siehe [Ereignis-Transaktionsnachrichten](../../channels/using/event-transactional-messages.md).
 
@@ -60,7 +60,7 @@ Die Unterschiede sind unten aufgeführt.
 
 1. Speichern Sie Ihre Änderungen und publizieren Sie die Nachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Versand einer Profil-Transaktionsnachricht verfolgen      {#monitoring-a-profile-transactional-message-delivery}
+## Versand einer Profil-Transaktionsnachricht verfolgen       {#monitoring-a-profile-transactional-message-delivery}
 
 Nachdem die Nachricht publiziert wurde und Ihre Webseiten-Integration abgeschlossen ist, kann der Versand verfolgt werden.
 
