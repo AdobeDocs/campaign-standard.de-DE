@@ -10,68 +10,68 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# Implementieren der lokalen Verfolgung {#local-tracking}
+# Implementieren des lokalen Tracking {#local-tracking}
 
-## Informationen zur lokalen Verfolgung {#about-local-tracking}
+## Über das lokale Tracking {#about-local-tracking}
 
-Auf dieser Seite erfahren Sie, wie Sie sicherstellen können, dass die lokale Benachrichtigungsverfolgung korrekt implementiert wurde. Beachten Sie, dass dies bedeutet, dass die lokale Benachrichtigung bereits konfiguriert wurde.
+Auf dieser Seite erfahren Sie, wie Sie sicherstellen, dass das lokale Benachrichtigungs-Tracking korrekt implementiert wurde. Beachten Sie, dass dies voraussetzt, dass die lokale Benachrichtigung bereits konfiguriert wurde.
 
-Die Verfolgung lokaler Benachrichtigungen kann in drei Typen unterteilt werden:
+Das Tracking lokaler Benachrichtigungen kann in drei Typen unterteilt werden:
 
-* **Lokale Impressionen** : Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und im Benachrichtigungszentrum sitzt, aber überhaupt nicht berührt wurde. In den meisten Fällen sollte die Anzahl der Impressionen ähnlich sein, wenn nicht mit der der gelieferten Nummer identisch sein. Es stellt sicher, dass das Gerät die Meldung erhalten hat und diese Informationen an den Server zurückübergibt.
+* **Lokale Impressionen**: Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und im Benachrichtigungs-Center vorhanden ist, aber noch keine Aktivität stattgefunden hat. In den meisten Fällen sollte die Zahl der Impressionen ähnlich oder gar identisch mit der gesendeten Zahl sein. Dadurch wird sichergestellt, dass das Gerät die Nachricht erhalten hat und diese Informationen an den Server zurückgibt.
 
-* **Lokaler Klick** : Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und der Benutzer auf das Gerät geklickt hat. Der Benutzer wollte entweder die Benachrichtigung (die wiederum zur lokalen offenen Verfolgung wechselt) Ansicht oder die Benachrichtigung schließen.
+* **Lokaler Klick**: Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und der Anwender auf das Gerät geklickt hat. Der Anwender wollte die Benachrichtigung entweder ansehen oder verwerfen. Wenn er sie angesehen hat, wird sie beim lokalen Öffnungs-Tracking berücksichtigt.
 
-* **Lokal geöffnet** : Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und der Benutzer auf die Benachrichtigung geklickt hat, die die Anwendung geöffnet hat. Dies ähnelt dem lokalen Klick, es sei denn, ein lokaler Aufruf wird nicht ausgelöst, wenn die Benachrichtigung abgelehnt wurde.
+* **Lokale Öffnung**: Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und der Anwender auf die Benachrichtigung geklickt hat, wodurch die App geöffnet wurde. Dies ist ähnlich der lokalen Klick-Kategorie mit dem Unterschied, dass keine lokale Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.
 
-Um die Verfolgung für Adobe Campaign Standard zu implementieren, muss die Mobilanwendung das Mobile SDK in die Anwendung einschließen. Diese SDKs sind in verfügbar [!DNL Adobe Mobile Services].
+Um das Tracking für Adobe Campaign Standard zu implementieren, muss die Mobile App das Mobile SDK in die App integrieren. Diese SDKs sind in [!DNL Adobe Mobile Services] verfügbar.
 
-Zum Senden von Verfolgungsinformationen müssen drei Variablen gesendet werden: Zwei davon sind Teil der von Adobe Campaign erhaltenen Daten und die andere ist eine Aktionsvariable, die vorgibt, ob es sich um eine Impression, ein Klick oder ein Öffnen handelt.
+Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon gehören zu den von Adobe Campaign empfangenen Daten und die dritte ist eine Aktionsvariable, die bestimmt, ob es sich um eine Impression, einen Klick oder eine Öffnung handelt.
 
 | Variable | Wert |
 | :-: | :-: |
-| deliveryId | &quot;deliveryId&quot;aus eingehenden Daten (ähnlich wie bei der Push-Verfolgung, bei der &quot;_dld&quot;verwendet wird) |
-| broadlogId | &quot;breitlogId&quot;aus eingehenden Daten (ähnlich wie bei der Push-Verfolgung, bei der &quot;_mld&quot;verwendet wird) |
-| Aktion | &quot;1&quot;für &quot;Öffnen&quot;, &quot;2&quot;für &quot;Klicken&quot;und &quot;7&quot;für &quot;Impression&quot; |
+| deliveryId | &quot;deliveryId&quot; aus den eingehenden Daten (ähnlich dem Push-Tracking, wobei &quot;_dld&quot; verwendet wird) |
+| broadlogId | &quot;broadlogId&quot; aus den eingehenden Daten (ähnlich dem Push-Tracking, wobei &quot;_mld&quot; verwendet wird) |
+| Aktion | &quot;1&quot; für Öffnung, &quot;2&quot; für Klick und &quot;7&quot; für Impression |
 
-## Implementieren der lokalen Impressionsverfolgung {#implement-local-impression-tracking}
+## Implementieren des lokalen Impression-Tracking {#implement-local-impression-tracking}
 
-Zur Impressionsverfolgung müssen Sie den Wert &quot;7&quot;für die Aktion senden, wenn Sie die Funktionen &quot;collectionMessageInfo()&quot;oder &quot;trackAction()&quot;aufrufen.
+Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot; senden, wenn die Funktion collectMessageInfo() oder trackAction() aufgerufen wird.
 
 ### Für Android {#implement-local-impression-tracking-android}
 
-Das Adobe Experience Platform Mobile SDK Beginn die Impressionsverfolgung für lokale Benachrichtigungen, wenn diese ausgelöst werden.
+Das Adobe Experience Platform Mobile SDK startet beim Auslösen das Impression-Tracking für lokale Benachrichtigungen.
 
 ### Für iOS {#implement-local-impression-tracking-ios}
 
-Um zu erklären, wie die Impressionsverfolgung implementiert wird, müssen wir die drei Zustände einer Anwendung verstehen:
+Um zu erklären, wie das Impression Tracking implementiert wird, müssen wir die drei Zustände einer App verstehen:
 
-* **Vordergrund**: wenn die Anwendung aktuell aktiv ist und sich auf dem Bildschirm im Vordergrund befindet.
+* **Vordergrund**: Wenn die App aktuell aktiv ist und sich auf dem Bildschirm im Vordergrund befindet.
 
-* **Hintergrund**: wenn die Anwendung nicht auf dem Bildschirm angezeigt wird, der Prozess aber auch nicht geschlossen wird. Wenn Sie mit der Dublette auf die Schaltfläche &quot;Startseite&quot;klicken, werden in der Regel alle Anwendungen im Hintergrund angezeigt.
+* **Hintergrund**: Wenn die App sich nicht auf dem Bildschirm befindet, der Prozess jedoch nicht geschlossen ist. Wenn Sie auf die Schaltfläche &quot;Startseite&quot; doppelklicken, werden in der Regel alle im Hintergrund befindlichen Apps angezeigt.
 
-* **Aus/geschlossen**: wenn der Antragsprozess beendet wurde. Wenn eine Anwendung geschlossen wird, ruft Apple sie erst nach dem Neustart der Anwendung auf. Das bedeutet, dass Sie nie wirklich wissen können, wann die Benachrichtigung unter iOS erhalten wurde.
+* **Aus/geschlossen**: Wenn der App-Prozess beendet wurde. Wenn eine App geschlossen ist, ruft Apple die App erst nach ihrem Neustart auf. Dies bedeutet, dass Sie nie wirklich wissen können, wann die Benachrichtigung unter iOS empfangen wurde.
 
-Damit die Impressionsverfolgung während der Ausführung der Anwendung im Hintergrund weiterhin funktioniert, müssen wir &quot;Content-Available&quot;senden, um der Anwendung mitzuteilen, dass die Verfolgung durchgeführt werden muss.
+Damit das Impression-Tracking auch dann funktioniert, wenn sich die App im Hintergrund befindet, müssen wir &quot;Content-Available&quot; senden, um der App mitzuteilen, dass Tracking durchgeführt werden soll.
 
-Das Adobe Experience Platform Mobile SDK Beginn die Impressionsverfolgung für lokale Benachrichtigungen, wenn diese ausgelöst werden.
+Das Adobe Experience Platform Mobile SDK startet beim Auslösen das Impression-Tracking für lokale Benachrichtigungen.
 
 >[!CAUTION]
 >
->Die iOS-Impressionsverfolgung ist nicht korrekt und sollte nicht zuverlässig überprüft werden.
+>Das Impression-Tracking in iOS ist nicht präzise und sollte nicht als zuverlässig betrachtet werden.
 
-## Implementierung der Klick-Verfolgung {#implementing-click-tracking}
+## Implementieren von Klick-Tracking {#implementing-click-tracking}
 
-Zur Klick-Verfolgung müssen Sie den Wert &quot;2&quot;für die Aktion senden, wenn Sie die Funktionen &quot;collectionMessageInfo()&quot;oder &quot;trackAction()&quot;aufrufen.
+Für das Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot; senden, wenn die Funktion collectMessageInfo() oder trackAction() aufgerufen wird.
 
 ### Für Android {#implement-click-tracking-android}
 
@@ -79,7 +79,7 @@ Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
 
 * Der Anwender sieht die Benachrichtigung, löscht sie jedoch.
 
-* Der Benutzer sieht die Benachrichtigung und klickt darauf. Dies wird zu einer offenen Verfolgung.
+* Der Benutzer sieht die Benachrichtigung und klickt darauf. Dies führt zum Öffnungs-Tracking.
 
 Das erste Klickszenario wird vom Adobe Experience Platform Mobile SDK verfolgt.
 
@@ -120,7 +120,7 @@ func registerForPushNotifications() {
     }
 ```
 
-Um dann den Ausschluss zu bearbeiten und eine Verfolgungsinformationen zu senden, müssen Sie Folgendes hinzufügen:
+Um dann das Verwerfen zu handhaben und Tracking-Daten zu senden, müssen Sie Folgendes hinzufügen:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -143,17 +143,17 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-## Implementierung der offenen Verfolgung {#implement-open-tracking}
+## Implementieren von Öffnungs-Tracking {#implement-open-tracking}
 
-Sie müssen &quot;1&quot;und &quot;2&quot;senden, da der Benutzer auf die Benachrichtigung klicken muss, um die Anwendung zu öffnen. Wenn die Anwendung nicht über eine lokale Benachrichtigung gestartet/geöffnet wird, treten keine Ereignis zur Verfolgung auf.
+Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Benutzer zum Öffnen der App zunächst auf die Benachrichtigung klicken muss. Wenn die App nicht über eine lokale Benachrichtigung gestartet/geöffnet wird, treten keine Tracking-Ereignisse auf.
 
 ### Für Android {#implement-open-tracking-android}
 
-Um offen nachzuverfolgen, müssen wir Absichten schaffen. Zielobjekte ermöglichen es Android OS, Ihre Methode aufzurufen, wenn bestimmte Aktionen durchgeführt werden. In diesem Fall klicken Sie auf die Benachrichtigung, um die App zu öffnen.
+Um das Öffnen verfolgen zu können, müssen Sie einen Intent erstellen. Intent-Objekte ermöglichen es dem Android-OS, Ihre Methode aufzurufen, wenn bestimmte Aktionen ausgeführt werden. In diesem Fall ist dies das Klicken der Benachrichtigung, um die App zu öffnen.
 
-Dieser Code basiert auf der Implementierung des Klick-Impression-Tracking. Mit der Einstellung &quot;Absicht&quot;müssen Sie jetzt Verfolgungsinformationen zurück an Adobe Campaign senden. In diesem Fall wird die Android-Ansicht([!DNL Activity]), die die Benachrichtigung auslöste, durch das Klicken auf den Benutzer geöffnet oder in den Vordergrund gestellt. Das intent-Objekt in [!DNL Activity] enthält die Benachrichtigungsdaten, die zur Verfolgung von &quot;open&quot;verwendet werden können.
+Dieser Code basiert auf der Implementierung des Klick-Impression-Tracking. Mit festgelegtem Intent müssen Sie jetzt Tracking-Daten zurück an Adobe Campaign senden. In diesem Fall wird Android View ([!DNL Activity]), das die Benachrichtigung ausgelöst hat, aufgrund des Klicks des Benutzers geöffnet oder in den Vordergrund gestellt. Das Intent-Objekt in [!DNL Activity] enthält die Benachrichtigungsdaten, die zum Verfolgen von Öffnungen verwendet werden können.
 
-MainActivity.java (extension [!DNL Activity])
+MainActivity.java (erweitert [!DNL Activity])
 
 ```
 @Override
