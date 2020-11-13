@@ -9,9 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -57,8 +57,11 @@ Die sofortige Aufnahme eines XDM-Mappings in Adobe Experience Platform wird mit 
 >
 >Um den POST API-Aufruf zur Aufnahme ausführen zu können, muss der Benutzer über die Rolle **SQL-Funktionsausführung** verfügen, die von einem Campaign Standard-Administrator vergeben werden kann, indem er das folgende JS-Skript ausführt:
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
->REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>
+```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
 
 Der POST-Vorgang gibt Informationen zum erstellten Anfragestatus zurück:
 
