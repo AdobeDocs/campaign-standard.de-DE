@@ -9,9 +9,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Verwandtes Thema:
 * [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md)
 * [In der Zeitzone des Empfängers senden](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Allgemeine Profildaten  {#general-profile-data}
+## Allgemeine Profildaten   {#general-profile-data}
 
 Der Tab **[!UICONTROL Allgemein]** enthält die folgenden Informationen zum Profil:
 
@@ -56,13 +56,13 @@ Der Tab **[!UICONTROL Allgemein]** enthält die folgenden Informationen zum Prof
 
 ![](assets/profile_creation4.png)
 
-## Versand- und Trackinglogs  {#sending-and-tracking-logs}
+## Versand- und Trackinglogs   {#sending-and-tracking-logs}
 
 In den Tabs **[!UICONTROL Versandlogs]** und **[!UICONTROL Trackinglogs]** sind alle Sendungen an das Profil sowie alle zugehörigen Trackingdaten enthalten.
 
 Weiterführende Informationen zu Versand- und Trackinglogs finden Sie in den Abschnitten [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs) und [Nachrichten tracken](../../sending/using/tracking-messages.md).
 
-## Abonnements  {#subscriptions}
+## Abonnements   {#subscriptions}
 
 Die Abonnements des Kontakts werden im entsprechenden Tab aufgeführt. Weiterführende Informationen zum Abonnement eines Dienstes finden Sie in [diesem Abschnitt](../../audiences/using/about-subscriptions.md).
 
