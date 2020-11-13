@@ -9,9 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Auf diese Weise soll das Hinzufügen zur Blockierungsliste aufgrund von schädli
 >
 >Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandanalyse-Logs wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
-## Filterregel erstellen     {#creating-a-filtering-rule}
+## Filterregel erstellen      {#creating-a-filtering-rule}
 
 Sie können entsprechend Ihren Anforderungen eigene Filterregeln erstellen. Sie können beispielsweise die Zielpopulation von Newslettern so filtern, dass Abonnenten unter 18 Jahren keine Nachricht erhalten.
 
@@ -93,7 +93,7 @@ Standardmäßig werden für die Filterung **[!UICONTROL Profile]** herangezogen.
 
 ![](assets/typology_rule-order_2.png)
 
-## Anwendbarkeit einer Filterregel einschränken    {#restricting-the-applicability-of-a-filtering-rule}
+## Anwendbarkeit einer Filterregel einschränken     {#restricting-the-applicability-of-a-filtering-rule}
 
 Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht einschränken.
 
