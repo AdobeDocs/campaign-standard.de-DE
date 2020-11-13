@@ -9,11 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ In der Benutzeroberfläche von Adobe Campaign können Sie Ihre Abonnenten tracke
 Zur Verfolgung des An- und Abmeldeverhaltens bieten sich Ihnen verschiedene Optionen.
 
 * Sehen Sie sich die Liste der Personen im Dienst-Dashboard an, die Ihren Dienst abonniert haben. Siehe [Dienst-Dashboard](#service-dashboard).
-* Consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. Siehe [Abonnementverlauf](#subscription-history).
-* Display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. Siehe [Dienst- Berichte](#service-reports).
-* Find the list of services a person has subscribed from its **Profile**. Siehe [Ereignisverlauf eines Profils](#history-of-events-linked-to-a-profile).
+* Sehen Sie sich den Verlauf der An- und Abmeldungen im Tab **Abonnementverlauf** im Dienst-Dashboard an. Siehe [Abonnementverlauf](#subscription-history).
+* Öffnen Sie einen Bericht zur An- und Abmeldeentwicklung im Bereich **Bericht** des Dienstes. Siehe [Dienst-Berichte](#service-reports).
+* Öffnen Sie im Bereich **Profil** die Liste der Dienste, für die sich eine Person angemeldet hat. Siehe [Ereignisverlauf eines Profils](#history-of-events-linked-to-a-profile).
 
-## Dienst-Dashboard {#service-dashboard}
+## Dienst-Dashboard  {#service-dashboard}
 
 Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Dienst angemeldet sind:
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Di
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Abonnementverläufe {#subscription-history}
+## Abonnementverläufe  {#subscription-history}
 
 Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Dienst-Berichte {#service-reports}
+## Dienst-Berichte  {#service-reports}
 
 Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeigen:
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeige
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Ereignisverlauf eines Profils {#history-of-events-linked-to-a-profile}
+## Ereignisverlauf eines Profils  {#history-of-events-linked-to-a-profile}
 
 Um festzustellen, für welche Dienste sich ein Kontakt angemeldet hat, können Sie die Liste im Marketingverlauf des entsprechenden Profils zu Rate ziehen. Näheres hierzu finden Sie im Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md).
 
