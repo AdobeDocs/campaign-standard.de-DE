@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: wait,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 Die **[!UICONTROL Warten]**-Aktivität ermöglicht das zeitweise Aussetzen der Ausführung eines Teils eines Workflows. Die ausgehende Transition der Aktivität wird nach einer Frist aktiviert, die zwischen einigen Sekunden und mehreren Monaten liegen kann, wodurch die Ausführung der im Anschluss folgenden Aktivitäten ermöglicht wird.
 
-## Anwendungskontext {#context-of-use}
+## Anwendungskontext  {#context-of-use}
 
 Die **[!UICONTROL Warten]**-Aktivität ermöglicht es, einen bestimmten Zeitraum zwischen der Ausführung zweier Aktivitäten zu definieren. Beispielsweise kann man mehrere Tage nach einer E-Mail-Versandaktivität warten, dann die während dieser Zeitspanne erfolgten Öffnungen und Klicks analysieren, bevor man andere Verarbeitungsschritte (Erinnerungs-E-Mail, Audience-Erstellung etc.) unternimmt.
 
-## Konfiguration {#configuration}
+## Konfiguration  {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Warten]**-Aktivität in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
@@ -53,7 +53,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
 * Eine erste **[!UICONTROL Abfrage]** ermöglicht die Bestimmung der Zielgruppe, an die die Einladungs-E-Mail versandt wird.
 * Ein **[!UICONTROL E-Mail-Versand]** dient dazu, erstmalig die Einladung an die auf diese Weise ausgewählten Profile zu senden.
-* Ein **[!UICONTROL Warten]** von 24 Stunden zwischen dem Versand der Einladung und dem Fortgang des Workflows.
+* Eine **[!UICONTROL Warten]**-Aktivität von 24 Stunden platziert eine Pause zwischen dem Versand der Einladung und dem Fortgang des Workflows.
 * Eine zweite **[!UICONTROL Abfrage]** ermöglicht die Bestimmung der Zielgruppe mit den Profilen, die die erste Mail erhalten, aber nicht den darin enthaltenen Anmelde-Link angeklickt haben.
 * Ein zweiter **[!UICONTROL E-Mail-Versand]** dient dazu, eine Einladungs-Erinnerung an die in der zweiten Abfrage ausgewählten Personen zu senden.
 
