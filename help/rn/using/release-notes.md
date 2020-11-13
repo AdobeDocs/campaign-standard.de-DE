@@ -9,11 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2412'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 [Versionsplanung](../../rn/using/release-planning.md) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2020.md) | [Eingestellte Funktionen](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Version** vom Oktober der Systemsteuerung mit Domänenkonfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 ## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
