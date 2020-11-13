@@ -18,7 +18,7 @@ ht-degree: 92%
 ---
 
 
-# Parameter beim Aufruf des Workflows definieren    {#defining-the-parameters-when-calling-the-workflow}
+# Parameter beim Aufruf des Workflows definieren     {#defining-the-parameters-when-calling-the-workflow}
 
 In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workflows definieren können. Weiterführende Informationen zur Durchführung dieses Vorgang mit einem API-Aufruf finden Sie in der [REST-APIs-Dokumentation](../../api/using/triggering-a-signal-activity.md).
 
