@@ -1,5 +1,5 @@
 ---
-title: Problembehebung
+title: Fehlerbehebung
 description: Hier erfahren Sie, wie Sie Probleme bei der gemeinsamen Nutzung von Ressourcen beheben können.
 page-status-flag: never-activated
 uuid: 1c764dd8-e09f-4e8e-9ccd-88ab3d714284
@@ -9,16 +9,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
 
 ---
 
 
-# Problembehebung{#troubleshooting}
+# Fehlerbehebung{#troubleshooting}
 
 Bei der Verwendung der Integration mit Audience Manager oder People Core Service können Fehler auftreten.
 
