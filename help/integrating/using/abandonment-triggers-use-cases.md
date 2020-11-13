@@ -9,9 +9,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ In diesem Abschnitt finden Sie zwei Anwendungsbeispiele für die Integration von
 >
 >Die in diesem Abschnitt beschriebenen Anwendungsbeispiele verwenden die Experience-Cloud-Visitor-ID. Sie können dafür auch die Experience Cloud Declared ID verwenden. Hash- und verschlüsselte Declared IDs werden auch unterstützt. Sie können E-Mails/SMS an ein Profil senden, das nicht in Campaign vorhanden ist, indem Sie die verschlüsselte E-Mail-Adresse/Mobiltelefonnummer direkt entschlüsseln. In diesem Fall kann jedoch keine Personalisierung verwendet werden, die Profildaten verwendet.
 
-## Voraussetzungen: {#pre-requisites}
+## Voraussetzungen:  {#pre-requisites}
 
 Damit Sie diese Anwendungsbeispiele umsetzen können, benötigen Sie Zugriff auf folgende Lösungen/Core Services:
 
@@ -47,7 +47,7 @@ Weiterführende Informationen dazu finden Sie im Abschnitt [Lösungen und Dienst
 
 In diesem Anwendungsbeispiel erstellen wir einen einfachen Trigger, der jedes Mal ausgelöst wird, wenn ein Kunde einen Besuch auf der Website abbricht. Wir gehen in diesem Beispiel davon aus, dass DTM auf Ihrem System bereits Daten erfasst und zu Adobe Analytics sendet und Sie bereits alle Ereignisse erstellt haben.
 
-### Experience Cloud-Trigger erstellen {#creating-an-experience-cloud-trigger}
+### Experience Cloud-Trigger erstellen  {#creating-an-experience-cloud-trigger}
 
 1. Wählen Sie im Menü von Experience Cloud Activation Core Service die Option **[!UICONTROL Manage Triggers]**.
 
@@ -61,7 +61,7 @@ In diesem Anwendungsbeispiel erstellen wir einen einfachen Trigger, der jedes Ma
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Trigger in Adobe Campaign verwenden {#using-the-trigger-in-adobe-campaign}
+### Trigger in Adobe Campaign verwenden  {#using-the-trigger-in-adobe-campaign}
 
 Lassen Sie uns jetzt den erstellten Experience Cloud Trigger in Adobe Campaign verwenden.
 
@@ -76,7 +76,7 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. Wählen Sie den Kanal **[!UICONTROL E-Mail]** und die Zielgruppendimension **[!UICONTROL Echtzeit-Ereignis]** und danach **[!UICONTROL Erstellen]** aus.
+1. Wählen Sie den Kanal **[!UICONTROL E-Mail]**, die Zielgruppendimension **[!UICONTROL Echtzeit-Ereignis]** und danach **[!UICONTROL Erstellen]** aus.
 
    ![](assets/trigger_uc_browse_6bis.png)
 
@@ -94,7 +94,7 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_0.png)
 
-### Das Szenario {#running-the-scenario}
+### Das Szenario  {#running-the-scenario}
 
 1. Am Beginn dieses Anwendungsbeispiels steht eine E-Mail, die mit Adobe Campaign an Ihre Audience gesendet wurde.
 
@@ -120,11 +120,11 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_14.png)
 
-## Trigger für abgebrochene Suche {#search-abandonment-trigger}
+## Trigger für abgebrochene Suche  {#search-abandonment-trigger}
 
 In diesem Anwendungsbeispiel erstellen wir einen Trigger, um Besucher nochmals anzusprechen, die unsere Reisebuchungs-Website besucht, nach einem Reiseziel gesucht, keine passenden Ergebnisse gefunden und schließlich keine Buchung vorgenommen haben. Im Allgemeinen ist dieser Vorgang identisch zum vorherigen Anwendungsbeispiel (siehe [Trigger für abgebrochene Suche](#browse-abandonment-trigger)). Hier widmen wir uns aber intensiver der Frage, wie die Remarketing-E-Mail-Nachricht personalisiert werden kann.
 
-### Experience Cloud-Trigger erstellen {#creating-an-experience-cloud-trigger-1}
+### Experience Cloud-Trigger erstellen  {#creating-an-experience-cloud-trigger-1}
 
 Folgen Sie zur Erstellung des Experience-Cloud-Triggers der im vorherigen Anwendungsbeispiel beschriebenen Anleitung. Siehe [Experience Cloud-Trigger erstellen](#creating-an-experience-cloud-trigger). Der wesentliche Unterschied liegt in der Trigger-Definition.
 
@@ -132,10 +132,10 @@ Folgen Sie zur Erstellung des Experience-Cloud-Triggers der im vorherigen Anwend
 
 Mit dem Bereich **[!UICONTROL Metadaten einschließen]** können Sie die von Analytics erfassten Daten an die Trigger-Payload weiterleiten. In diesem Fall erstellen wir eine benutzerdefinierte eVar (z. B. eVar 3), um den vom Besucher eingegebenen Suchbegriff zu erfassen. Dieser Begriff wird dann in der an denselben Besucher gesendeten Transaktions-E-Mail verwendet.
 
-### Trigger in Adobe Campaign verwenden {#using-the-trigger-in-adobe-campaign-1}
+### Trigger in Adobe Campaign verwenden  {#using-the-trigger-in-adobe-campaign-1}
 
 1. Folgen Sie der im vorherigen Anwendungsbeispiel beschriebenen Anleitung, um den Trigger in Adobe Campaign zu erstellen. Siehe [Trigger in Adobe Campaign verwenden](#using-the-trigger-in-adobe-campaign). Der wesentliche Unterschied besteht darin, wie wir in Adobe Campaign die an die Trigger-Payload übermittelten Metadaten verwenden.
-1. Klicken Sie im Suchabbruch-Trigger, den Sie in Adobe Campaign erstellt haben, auf das Symbol **[!UICONTROL Ereignisinhalt und -anreicherung]**, um sich die Payload anzusehen, die an Adobe Campaign übermittelt werden.
+1. Klicken Sie im Suchabbruch-Trigger, den Sie in Adobe Campaign erstellt haben, auf das Symbol **[!UICONTROL Ereignisinhalt und -anreicherung]**, um sich die Payload anzusehen, die an Adobe Campaign übermittelt wird.
 
    ![](assets/trigger_uc_search_2.png)
 
@@ -151,7 +151,7 @@ Mit dem Bereich **[!UICONTROL Metadaten einschließen]** können Sie die von Ana
 
    ![](assets/trigger_uc_search_5.png)
 
-### Das Szenario {#running-the-scenario-1}
+### Das Szenario  {#running-the-scenario-1}
 
 1. Der Besucher geht zur Reisebuchungs-Website und sucht nach einem Reiseziel. In unserem Fall möchte der Besucher nach Japan reisen, findet aber kein passendes Angebot. Dies ist unsere Chance, diesen Besucher nochmals anzusprechen und ihm eine andere Reise anzubieten.
 
