@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,8 +84,8 @@ Dafür haben Benutzer lediglich den gewünschten Betrag in der angezeigten Dialo
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-Nachdem ein Filter konfiguriert wurde, können Sie ihn mithilfe der folgenden Syntax von Campaign Standard-APIs verwenden:
+Sobald ein Filter konfiguriert ist, können Sie ihn mithilfe dieser Syntax über Campaign Standard-APIs verwenden:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-For more on this, refer to the [Campaign Standard APIs documentation](../../api/using/filtering.md#custom-filters).
+Weiterführende Informationen finden Sie in der [Dokumentation zu Campaign Standard-APIs](../../api/using/filtering.md#custom-filters).
