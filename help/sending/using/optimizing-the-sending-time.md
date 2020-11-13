@@ -9,9 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -35,15 +35,15 @@ Mehrere Optionen sind verfügbar:
 
 * **[!UICONTROL Keine Optimierung]**: Der Versandzeitpunkt basiert auf der Zeitzone des Benutzers.
 
-   Wenn Ihre Zeitzone beispielsweise GMT+1 ist und Sie 9 Uhr in das Feld **[!UICONTROL Versandstart am]** eingeben, erhält ein Empfänger in der Zeitzone GMT+3 die Nachricht um 11 Uhr Ortszeit.
+   Wenn Ihre Zeitzone beispielsweise GMT+1 ist und Sie 9 Uhr in das Feld **[!UICONTROL Start des Versands am]** eingeben, erhält ein Empfänger in der Zeitzone GMT+3 die Nachricht um 11 Uhr Ortszeit.
 
-* **[!UICONTROL Gemäß der Zeitzone des Empfängers senden]**: Alle Empfänger erhalten die Nachricht unter Berücksichtigung ihrer Zeitzone.
+* **[!UICONTROL In der Zeitzone des Empfängers senden]**: Alle Empfänger erhalten die Nachricht unter Berücksichtigung ihrer Zeitzone.
 
-   Wenn Sie beispielsweise 9 Uhr in das Feld **[!UICONTROL Versandstart am]** eingeben, erhält ein Empfänger in der Zeitzone GMT+3 die Nachricht um 9 Uhr Ortszeit.
+   Wenn Sie beispielsweise 9 Uhr in das Feld **[!UICONTROL Start des Versands am]** eingeben, erhält ein Empfänger in der Zeitzone GMT+3 die Nachricht um 9 Uhr Ortszeit.
 
    Siehe [Nachrichten in der Zeitzone des Empfängers senden](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
-* **[!UICONTROL An dem durch die Formel definierten Datum senden]**: Jeder Empfänger erhält die Nachricht zu einem mit der speziellen Formel konfigurierten Zeitpunkt.
+* **[!UICONTROL Zu einem durch eine Formel definierten Datum senden]**: Jeder Empfänger erhält die Nachricht zu einem mit der speziellen Formel konfigurierten Zeitpunkt.
 
    Siehe [Versanddatum berechnen](../../sending/using/computing-the-sending-date.md).
 
