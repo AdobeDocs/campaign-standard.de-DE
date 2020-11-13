@@ -9,9 +9,9 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Die aktivierten Optionen im Bereich **[!UICONTROL Nicht mehr kontaktieren (auf B
 
 ![](assets/optin_landingpage_3.png)
 
-## Opt-in- und Opt-out-Landingpages einrichten    {#setting-up-opt-in-and-opt-out-landing-pages}
+## Opt-in- und Opt-out-Landingpages einrichten     {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Um Empfängern die Möglichkeit zu geben, sich an- oder abzumelden, müssen Sie eine **[!UICONTROL Profilakquise]**-Landingpage erstellen und veröffentlichen. Empfänger können dann entsprechend ihren Anforderungen die gewünschten Kanäle auswählen. Gehen Sie dazu wie folgt vor:
 
