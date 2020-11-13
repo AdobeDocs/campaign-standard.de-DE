@@ -9,9 +9,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
 ht-degree: 100%
 
@@ -66,4 +66,4 @@ Das Profil wurde der Liste hinzugefügt.
 **Verwandte Themen:**
 
 * [Über Landingpages](../../channels/using/getting-started-with-landing-pages.md)
-* [Profilimport](https://video.tv.adobe.com/v/24993?captions=ger)    Video
+* [Profilimport](https://video.tv.adobe.com/v/24993?captions=ger)     Video
