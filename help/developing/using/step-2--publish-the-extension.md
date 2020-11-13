@@ -9,9 +9,9 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: b57042e5-5073-4e79-a3e3-1eed824ac537
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Publikation]** auf das entsprechende Menü zu.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Publikation vorbereiten]**.
-1. Wählen Sie die Option **[!UICONTROL Create the Profiles &amp; Services Ext API]** aus.
+1. Wählen Sie die Option **[!UICONTROL Die Profiles &amp; Services Ext API erstellen]** aus.
 
    ![](assets/create-profile-and-services-api.png)
 
