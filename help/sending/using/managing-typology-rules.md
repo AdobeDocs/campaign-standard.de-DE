@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Die wichtigsten Schritte zum Erstellen einer Typologieregel sind:
 
 1. Bestätigen Sie nach Auswahl aller Typologien die Erstellung der Typologieregel mit **[!UICONTROL Erstellen]**.
 
-## Ausführungsreihenfolge von Typologieregeln    {#typology-rules-execution-order}
+## Ausführungsreihenfolge von Typologieregeln     {#typology-rules-execution-order}
 
 Die Typologieregeln werden in der Reihenfolge ausgeführt, die während der Zielgruppenbestimmung, Analyse und Nachrichtenpersonalisierung festgelegt wird.
 
