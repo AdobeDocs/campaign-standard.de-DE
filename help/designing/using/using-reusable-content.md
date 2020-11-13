@@ -9,9 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1868'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 * [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## Über Fragmente       {#about-fragments}
+## Über Fragmente        {#about-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
@@ -198,7 +198,7 @@ Nachdem Inhalt in die E-Mail-Struktur geladen wurde, können Sie den Stil jedes 
 >
 >Änderungen eines Fragments werden automatisch mit den E-Mails synchronisiert, in denen das Fragment verwendet wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Fragmente](#about-fragments).
 
-### Inhaltsfragment erstellen       {#creating-a-content-fragment}
+### Inhaltsfragment erstellen        {#creating-a-content-fragment}
 
 Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer oder in mehreren E-Mails verwenden.
 
@@ -236,7 +236,7 @@ Dieses Fragment kann jetzt in jeder mit Email Designer erstellten E-Mail verwend
 >
 >Sie können nur dann Personalisierungsfelder in einem Fragment einfügen, wenn es in einer E-Mail verwendet wird und gesperrt ist. Siehe [Über Fragmente](#about-fragments).
 
-### Inhalt als Fragment speichern       {#saving-content-as-a-fragment}
+### Inhalt als Fragment speichern        {#saving-content-as-a-fragment}
 
 Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Teil dieser E-Mail als Fragment speichern.
 
