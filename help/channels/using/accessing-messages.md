@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Der Zugriff auf Nachrichten erfolgt:
 * ausgehend von der Adobe-Campaign-Startseite,
 * ausgehend von der Liste der Marketingaktivitäten.
 
-## Zugriff auf Nachrichten in Kampagnen  {#accessing-messages-in-campaigns}
+## Zugriff auf Nachrichten in Kampagnen   {#accessing-messages-in-campaigns}
 
 Um auf die Liste der Marketingaktivitäten einer Kampagne zuzugreifen, gehen Sie folgendermaßen vor:
 
@@ -47,7 +47,7 @@ Um auf die Liste der Marketingaktivitäten einer Kampagne zuzugreifen, gehen Sie
 
    Um wiederkehrende Nachrichten zu filtern, aktivieren Sie die entsprechende Option.
 
-## Zugriff auf die Nachrichtenliste  {#accessing-the-message-list}
+## Zugriff auf die Nachrichtenliste   {#accessing-the-message-list}
 
 Um auf die vollständige Liste der Marketingaktivitäten aller Kampagnen zuzugreifen, gehen Sie folgendermaßen vor:
 
