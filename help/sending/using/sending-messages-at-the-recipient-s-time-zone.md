@@ -9,9 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -45,9 +45,9 @@ Im folgenden Beispiel möchten wir allen Kunden auf der ganzen Welt einen nur am
 
 1. Wählen Sie im Feld **[!UICONTROL Zeitzone des Kontaktdatums]** aus, in welcher Zeitzone Ihr Versand standardmäßig durchgeführt werden soll.
 
-   Wenn die **[!UICONTROL Zeitzone]** is left as **[!UICONTROL Standard]** lautet, erhält der Empfänger die Nachricht entsprechend der hier ausgewählten Zeitzone.
+   Wenn die **[!UICONTROL Zeitzone]** **[!UICONTROL Standard]** lautet, erhält der Empfänger die Nachricht entsprechend der hier ausgewählten Zeitzone.
 
-1. Wählen Sie im Dropdown-Menü **[!UICONTROL Versandzeitpunkt für jeden Empfänger optimieren]** die Option **[!UICONTROL In der Zeitzone des Empfängers senden aus]**. Dadurch erhalten die Empfänger die Valentinstags-E-Mail am 14. Februar ihrer Zeitzone.
+1. Wählen Sie im Dropdown-Menü **[!UICONTROL Versandzeitpunkt für jeden Empfänger optimieren]** die Option **[!UICONTROL In der Zeitzone des Empfängers senden]** aus. Dadurch erhalten die Empfänger die Valentinstags-E-Mail am 14. Februar ihrer Zeitzone.
 
    ![](assets/send-time_opt_valentine_3.png)
 
