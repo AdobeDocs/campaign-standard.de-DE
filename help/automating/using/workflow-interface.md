@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 
 ![](assets/wkf_overview.png)
 
-## Palette  {#palette}
+## Palette   {#palette}
 
 Die Palette befindet sich auf der linken Bildschirmseite. Die verfügbaren Aktivitäten sind verschiedenen Kategorien zugeordnet:
 
@@ -47,7 +47,7 @@ Jede Aktivität muss separat konfiguriert werden, bevor Sie den Workflow starten
 
 ![](assets/workflow_palette.png)
 
-## Arbeitsbereich  {#workspace}
+## Arbeitsbereich   {#workspace}
 
 Die zentrale Fläche im Editor bildet den Arbeitsbereich des Workflows. Hier werden die verwendeten Aktivitäten abgelegt, mithilfe von Transitionen in Beziehung gesetzt und konfiguriert.
 
@@ -122,7 +122,7 @@ Bei Markierung einer Aktivität erscheinen um diese herum die Quick-Action-Schal
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL Keine Ausführung]**<br/>Deaktiviert die Aktivität.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Vorgezogene Ausführung]**<br/>Löst die augenblickliche Ausführung der markierten Aktivität aus. Diese Schaltfläche steht nur für die Aktivitäten<span class="uicontrol">Planung</span>und<span class="uicontrol">Warten</span>zur Verfügung.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Vorgezogene Ausführung]**<br/>Löst die augenblickliche Ausführung der markierten Aktivität aus. Diese Schaltfläche steht nur für die Aktivitäten <span class="uicontrol">Planung</span> und <span class="uicontrol">Warten</span> zur Verfügung.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Auswahl löschen]**<br/>Löscht die markierten Aktivitäten.
 
