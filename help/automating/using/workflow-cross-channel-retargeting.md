@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 
 ![](assets/wf-complement-query.png)
 
-## E-Mail-Versand erstellen.{#creating-an-email-delivery}
+## E-Mail-Versand erstellen{#creating-an-email-delivery}
 
 1. Ziehen Sie einen [E-Mail-Versand](../../automating/using/email-delivery.md) per Drag &amp; Drop hinter jedes Segment.
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
