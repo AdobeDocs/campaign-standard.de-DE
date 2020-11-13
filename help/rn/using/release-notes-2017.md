@@ -9,9 +9,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4692'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicke
 
 Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-updates.md) für Adobe Campaign Standard an. Neuere Versionshinweise finden Sie auf dieser [Seite](../../rn/using/release-notes.md).
 
-## Version 17.10 - Oktober 2017           {#release-17-10---october-2017}
+## Version 17.10 - Oktober 2017            {#release-17-10---october-2017}
 
 **Neue Funktionen**
 
@@ -105,7 +105,7 @@ _Benutzerdefinierte Ressourcen_
 * Fehlerkorrektur – in Bildschirmen des Typs Liste werden jetzt keine Zeilen für benutzerdefinierte Ressourcen mehr angezeigt, die keine Daten enthalten.
 * Fehlerkorrektur – boolesche Felder mit dem Wert &#39;False&#39; werden jetzt in benutzerdefinierten Ressourcen angezeigt.
 
-## Version 17.9 - September 2017           {#release-17-9---september-2017}
+## Version 17.9 - September 2017            {#release-17-9---september-2017}
 
 **Neue Funktionen**
 
@@ -177,7 +177,7 @@ _Profile und Audiences_
 * Adobe Campaign erstellt jetzt einen Bericht, in dem die Anzahl der aktiven Profile angegeben wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../audiences/using/active-profiles.md).
 * Fehlerkorrektur – Profile können jetzt über die API &quot;Profile und Dienste&quot; einen Dienst abonnieren.
 
-## Version 17.7 - Juli 2017           {#release-17-7---july-2017}
+## Version 17.7 - Juli 2017            {#release-17-7---july-2017}
 
 **Neue Funktionen**
 
@@ -253,7 +253,7 @@ _Workflows_
 * Fehlerkorrektur – Im Erstellungsassistenten eines wiederkehrenden Versands kann jetzt eine Outbound-Transition eingestellt werden.
 * Fehlerkorrektur – jetzt kann eine Workflow-Abfrageaktivität auf der Basis eines benutzerdefinierten Ressourcenfeldes mit einer Auflistung verwendet werden, die zahlreiche Werte aufweist.
 
-## Version 17.5 - Mai 2017           {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017            {#release-17-5---may-2017}
 
 **Neue Funktionen**
 
@@ -300,7 +300,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – jetzt kann ein Push-Ereignis im Marketingverlauf eines Profils ausgewählt werden.
 * Die Verwendung von Push-Benachrichtigungen in Workflows wurde verbessert.
 
-## Version 17.4 - April 2017           {#release-17-4---april-2017}
+## Version 17.4 - April 2017            {#release-17-4---april-2017}
 
 **Neue Funktionen**
 
@@ -385,7 +385,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – jetzt wird eine Fehlermeldung angezeigt, wenn eine Android-Anwendung mit einer Mobile App verknüpft wird, die nicht auf MCPNS erstellt wurde.
 * Fehlerkorrektur – Benutzer können jetzt stillen Benachrichtigungen keine Töne mehr hinzufügen.
 
-## Version 17.2 - März 2017           {#release-17-2---march-2017}
+## Version 17.2 - März 2017            {#release-17-2---march-2017}
 
 **Neue Funktionen**
 
