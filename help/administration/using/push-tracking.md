@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 75%
 ## Informationen zu Push-Tracking {#about-push-tracking}
 
 Um sicherzustellen, dass die Push-Benachrichtigung vollständig entwickelt wurde, müssen Sie dafür sorgen, dass der Tracking-Anteil richtig implementiert wurde.
-Dies setzt voraus, dass Sie die ersten Teile der Push-Benachrichtigungs-Implementierung bereits implementiert haben:
+Dies setzt voraus, dass Sie die ersten Teile der Implementierung von Push-Benachrichtigungen bereits implementiert haben:
 
-* App-Benutzer registrieren
+* Registrieren des App-Anwenders
 * Verarbeiten einer Push-Benachrichtigung
 
 Das Push-Tracking ist in drei Typen unterteilt:
@@ -51,7 +51,7 @@ Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon
 
 ### Implementieren des Push-Impression-Tracking {#push-impression-tracking-android}
 
-For impression tracking, you will have to send value &quot;7&quot; for action when calling **[!UICONTROL trackAction()]** function.
+Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot; senden, wenn die Funktion **[!UICONTROL trackAction()]** aufgerufen wird.
 
 ```
 @Override
@@ -73,7 +73,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Implementieren des Klick-Tracking {#push-click-tracking-android}
 
-For click tracking, you will have to send value &quot;2&quot; for action when calling **[!UICONTROL trackAction()]** function.
+Für das Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot; senden, wenn die Funktion **[!UICONTROL trackAction()]** aufgerufen wird.
 
 Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
 
@@ -111,7 +111,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-In order for the **[!UICONTROL BroadcastReceiver]** to work you need to register it to the **[!UICONTROL AndroidManifest.xml]**
+Damit der **[!UICONTROL BroadcastReceiver]** funktioniert, müssen Sie ihn bei **[!UICONTROL AndroidManifest.xml]** registrieren.
 
 ```
 <manifest>
@@ -152,7 +152,7 @@ Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Anwender zum Öffnen 
 
 Um das Öffnen verfolgen zu können, müssen Sie einen Intent erstellen. Intent-Objekte ermöglichen es dem Android-OS, Ihre Methode aufzurufen, wenn bestimmte Aktionen ausgeführt werden. In diesem Fall ist es das Klicken auf die Benachrichtigung, um die App zu öffnen.
 
-Dieser Code basiert auf der Implementierung des Klick-Impression-Tracking. With **[!UICONTROL Intent]** set, you now need to send tracking info back to Adobe Campaign Standard. In this case, you need to set the **[!UICONTROL Open Intent]** to open to a certain view in your app, this will call the onResume method with the notification data in the **[!UICONTROL Intent Object]**.
+Dieser Code basiert auf der Implementierung des Klick-Impression-Tracking. Mit festgelegtem **[!UICONTROL Intent]** müssen Sie jetzt Tracking-Daten zurück an Adobe Campaign Standard senden. In diesem Fall müssen Sie den **[!UICONTROL Öffnungs-Intent]** so definieren, dass eine bestimmte Ansicht in Ihrer App geöffnet wird. Dadurch wird die onResume-Methode mit den Benachrichtigungsdaten im **[!UICONTROL Intent-Objekt]** aufgerufen.
 
 ```
 @Override
@@ -194,7 +194,7 @@ private void handleTracking() {
 
 ### Implementieren des Push-Impression-Tracking {#push-impression-tracking-iOS}
 
-For impression tracking, you will have to send value &quot;7&quot; for action when calling **[!UICONTROL trackAction()]** function.
+Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot; senden, wenn die Funktion **[!UICONTROL trackAction()]** aufgerufen wird.
 
 Um zu verstehen, wie iOS-Benachrichtigungen funktionieren, müssen die drei Status einer App beschrieben werden:
 
@@ -204,11 +204,11 @@ Um zu verstehen, wie iOS-Benachrichtigungen funktionieren, müssen die drei Stat
 
 Wenn eine App geschlossen ist, ruft Apple die App erst nach ihrem Neustart auf. Das bedeutet, dass Sie nicht erfahren können, wann die Benachrichtigung unter iOS empfangen wurde.
 
-In order to still have **[!UICONTROL Impression]** tracking working while the app is in the background we need to send **[!UICONTROL Content-Available]** to let the app know a tracking has to be done.
+Damit das **[!UICONTROL Impression]**-Tracking auch dann funktioniert, wenn sich die App im Hintergrund befindet, müssen wir **[!UICONTROL Content-Available]** senden, um der App mitzuteilen, dass ein Tracking durchgeführt werden soll.
 
 >[!CAUTION]
 >
->Die iOS-Impressionsverfolgung ist nicht genau und sollte nicht als zuverlässig angesehen werden.
+>Das Impression-Tracking in iOS ist nicht präzise und sollte nicht als zuverlässig betrachtet werden.
 
 Der folgende Code richtet sich an die App im Hintergrund:
 
@@ -250,7 +250,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Implementieren des Klick-Tracking {#push-click-tracking-iOS}
 
-For click tracking, you will have to send value &quot;2&quot; for action when calling **[!UICONTROL trackAction()]** function.
+Für das Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot; senden, wenn die Funktion **[!UICONTROL trackAction()]** aufgerufen wird.
 
 ```
 // AppDelegate.swift
@@ -291,7 +291,7 @@ Wenn Sie jetzt Push-Benachrichtigungen senden, müssen Sie eine Kategorie hinzuf
 
 ![](assets/tracking_push.png)
 
-Then to handle the **[!UICONTROL Dismiss]** and send a tracking info you need to add the following:
+Um dann das **[!UICONTROL Verwerfen]** zu handhaben und Tracking-Daten zu senden, müssen Sie Folgendes hinzufügen:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
