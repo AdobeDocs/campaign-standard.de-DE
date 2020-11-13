@@ -9,9 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # Über Datenverwaltungsaktivitäten{#about-data-management-activities}
 
-Öffnen Sie vom Menü auf der linken Bildschirmseite den Bereich **[!UICONTROL Data Management (ETL)]**.
+Öffnen Sie in der Palette auf der linken Bildschirmseite den Bereich **[!UICONTROL Daten-Management (ETL)]**.
 
 Mit diesen Aktivitäten können Sie Daten bearbeiten. Beispielsweise können Sie damit Daten importieren, gebündelt Daten in Datenbankfeldern aktualisieren, Dateien empfangen oder senden oder nicht identifizierte Daten mit bestehenden Ressourcen verknüpfen.
 
