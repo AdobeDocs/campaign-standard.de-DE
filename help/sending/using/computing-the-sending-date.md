@@ -9,9 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1114'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Sie können eine Formel definieren, um die Nachricht an jeden Empfänger an einem bestimmten Datum und zu einer bestimmten Uhrzeit zu senden.
 
-## Datumsformel anpassen {#customizing-date-formula}
+## Datumsformel anpassen  {#customizing-date-formula}
 
 Die Optimierung des Versandzeitpunkts ist beispielsweise während der Anlaufphase Ihrer Marketingaktivitäten nützlich.
 
@@ -68,8 +68,8 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
 1. Ziehen Sie einen **E-Mail-Versand** in den Workflow-Arbeitsbereich und öffnen Sie ihn. Siehe den Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
 1. Wählen Sie den Bereich **[!UICONTROL Planung]** im E-Mail-Dashboard und danach **[!UICONTROL Nachrichten werden automatisch am unten spezifizierten Datum gesendet]** aus.
-1. Definieren Sie im Feld **[!UICONTROL Versandstart am]** ein Kontaktdatum.
-1. Wählen Sie aus der Sedezeitoptimierungs-Dropdown-Liste **[!UICONTROL Versand zu einem durch eine Formel festgelegten Zeitpunkt aus]**.
+1. Definieren Sie im Feld **[!UICONTROL Start des Versands am]** ein Kontaktdatum.
+1. Wählen Sie aus der Sedezeitoptimierungs-Dropdown-Liste **[!UICONTROL Zu einem durch eine Formel definierten Datum senden]** aus.
 1. Wählen Sie die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** im Feld **[!UICONTROL Benutzerdefinierte Datumsformel]** aus.
 
    ![](assets/send-time_opt_formula_define.png)
@@ -102,7 +102,7 @@ Der Versand wird auf fünf Tage verteilt an alle Empfänger gesendet.
 >
 >Achten Sie bei der Validierung des Versands darauf, dass alle Daten in der Zukunft liegen. Ansonsten werden die Nachrichten unmittelbar nach der Validierung gesendet.
 
-## Ausdruck verwenden {#using-an-expression}
+## Ausdruck verwenden  {#using-an-expression}
 
 Die Versandzeitoptimierung ist auch für Callcenter-Kampagnen hilfreich. Damit können Sie gewährleisten, dass nicht alle Nachrichten zur selben Zeit beim Empfänger eintreffen. Dadurch kann Ihr Unternehmen die Anzahl der Anrufe entsprechend seiner Kapazität steuern.
 
@@ -120,10 +120,10 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
    * Definieren Sie die Segmentcodes:
 
-      * 8:00 AM - 10:00 AM: **0**. Die Nachricht wird an das erste Viertel der Zielpopulation um 8 Uhr gesendet (Kontaktdatum).
-      * 10:00 AM - 12:00 AM: **2**. Die Nachricht wird an das zweite Viertel der Zielpopulation um 10 Uhr gesendet (Kontaktdatum + 2 Stunden).
-      * 14:00 AM - 16:00 AM: **6**. Da das Callcenter zwischen 12 und 14 Uhr geschlossen ist, wird die Nachricht an das dritte Viertel der Zielpopulation um 14 Uhr gesendet (Kontaktdatum + 6 Stunden).
-      * 16:00 AM - 18:00 AM: **8**. Die Nachricht wird an das letzte Viertel der Zielpopulation um 16 Uhr gesendet (Kontaktdatum + 8 Stunden).
+      * 8:00 - 10:00: **0**. Die Nachricht wird an das erste Viertel der Zielpopulation um 8 Uhr gesendet (Kontaktdatum).
+      * 10:00 - 12:00: **2**. Die Nachricht wird an das zweite Viertel der Zielpopulation um 10 Uhr gesendet (Kontaktdatum + 2 Stunden).
+      * 14:00 - 16:00: **6**. Da das Callcenter zwischen 12 und 14 Uhr geschlossen ist, wird die Nachricht an das dritte Viertel der Zielpopulation um 14 Uhr gesendet (Kontaktdatum + 6 Stunden).
+      * 16:00 - 18:00: **8**. Die Nachricht wird an das letzte Viertel der Zielpopulation um 16 Uhr gesendet (Kontaktdatum + 8 Stunden).
 
       >[!NOTE]
       >
@@ -139,12 +139,12 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
 1. Ziehen Sie einen **E-Mail-Versand** in den Workflow-Arbeitsbereich und öffnen Sie ihn. Siehe den Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
 1. Wählen Sie im E-Mail-Dashboard den Bereich **[!UICONTROL Planung]** aus.
-1. Wählen Sie **[!UICONTROL Nachrichtenversand am unten angegebenen Datum aus]**.
-1. Definieren Sie im Feld **[!UICONTROL Versandstart am]** ein Kontaktdatum.
+1. Wählen Sie **[!UICONTROL Nachrichten werden automatisch am unten spezifizierten Datum gesendet]** aus.
+1. Definieren Sie im Feld **[!UICONTROL Start des Versands am]** ein Kontaktdatum.
 
    Wählen Sie für dieses Beispiel den 25. Mai, 8 Uhr aus.
 
-1. Wählen Sie aus der Sedezeitoptimierungs-Dropdown-Liste **[!UICONTROL Versand zu einem durch eine Formel festgelegten Zeitpunkt]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**.
+1. Wählen Sie aus der Sedezeitoptimierungs-Dropdown-Liste **[!UICONTROL Zu einem durch eine Formel definierten Datum senden]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**.
 
    ![](assets/send-time_opt_formula_expression.png)
 
@@ -158,7 +158,7 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
-   Dadurch können Sie das im Feld **[!UICONTROL Versandstart am]** spezifizierte Datum und die Uhrzeit abrufen.
+   Dadurch können Sie das im Feld **[!UICONTROL Start des Versands am]** spezifizierte Datum und die Uhrzeit abrufen.
 
    Wählen Sie in der Funktionsliste die Option **[!UICONTROL ToInteger aus]**. Wählen Sie in den verfügbaren Feldern **[!UICONTROL Zusatzdaten]** > **[!UICONTROL Segmentcode]** aus.
 
