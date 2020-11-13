@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Wählen Sie in der Liste eine Aktivität aus, um auf ihren Inhalt zugreifen zu k
 
 Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](#creating-a-marketing-activity).
 
-## Symbole und Status von Marketingaktivitäten    {#marketing-activity-icons-and-statuses}
+## Symbole und Status von Marketingaktivitäten     {#marketing-activity-icons-and-statuses}
 
 Im Arbeitsbereich wird jeder Aktivitätstyp durch ein repräsentatives Symbol dargestellt:
 
