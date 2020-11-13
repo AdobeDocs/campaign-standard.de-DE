@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
 ht-degree: 100%
 
@@ -159,9 +159,9 @@ In Adobe Campaign steht für den Push-Kanal ein vordefinierter Bericht zur Verf�
 
 Auf dieser [Seite](../../reporting/using/indicator-calculation.md#push-notification-delivery) erfahren Sie, wie die einzelnen Push-Metriken berechnet werden.
 
-### Werden Deep-Links in Push- und In-App-Nachrichten unterstützt? {#deeplink-push}
+### Werden Deeplinks in Push- und In-App-Nachrichten unterstützt? {#deeplink-push}
 
-Ja, Deep-Links werden in Push-Nachrichten unterstützt. Deep-Links sollten Folgendes enthalten:
+Ja, Deeplinks werden in Push-Nachrichten unterstützt. Deeplinks sollten Folgendes enthalten:
 
-* Sprache, die besagt, dass das Versand-Tracking deaktiviert werden muss, damit die Deep-Links funktionieren.
+* Sprache, die besagt, dass das Versand-Tracking deaktiviert werden muss, damit die Deeplinks funktionieren.
 * Appsflyer mit Branch als Partner, die das Deeplink-Tracking durchführen können. Weitere Informationen zur Integration von Branch und Adobe Campaign Standard finden Sie auf dieser [Seite](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
