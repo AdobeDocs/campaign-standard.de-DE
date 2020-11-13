@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Die Absenderadresse finden Sie im Feld **[!UICONTROL Von (E-Mail)]** in den Eige
 
 ![](assets/template-parameters.png)
 
-Die Adressdomäne muss mit der von Ihnen konfigurierten Subdomäne übereinstimmen.
+Die Adress-Domain entspricht der Subdomain, die Sie konfiguriert haben.
 
 Die Felder **[!UICONTROL Antworten an]** entsprechen der E-Mail-Adresse und dem Namen, die für Antworten verwendet werden.
 
