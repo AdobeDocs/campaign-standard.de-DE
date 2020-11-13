@@ -9,9 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
 Weitere Best Practices zum Design und zur allgemeinen Handhabung von Nachrichten werden im folgenden Abschnitt vorgestellt: [Best Practices zum Versand](../../sending/using/delivery-best-practices.md)
 
-### Einschränkungen in Email Designer      {#email-designer-limitations}
+### Einschränkungen in Email Designer       {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/using-reusable-content.md#about-fragments).
 
