@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
 context-tags: delivery,deployment,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Die Versandverarbeitung ist in Gang.
 >
 >Wenn die Nachricht terminiert wurde, wird sie gesendet, sobald der Zeitpunkt erreicht wurde. Weiterführende Informationen zum Terminieren von Nachrichten finden Sie in [diesem Abschnitt](../../sending/using/about-scheduling-messages.md).
 
-Wenn Sie einen wiederkehrenden Versand ohne Aggregat-Zeitraum verwenden, können Sie vor dem Senden der Nachrichten eine Bestätigung anfordern. Öffnen Sie dazu im Versand-Dashboard den Block **[!UICONTROL Planung]** und aktivieren Sie die entsprechende Option.
+Wenn Sie einen wiederkehrenden Versand ohne Aggregat-Zeitraum verwenden, können Sie vor dem Senden der Nachrichten eine Bestätigung anfordern. Öffnen Sie dazu im Versand-Dashboard die Kachel **[!UICONTROL Planung]** und aktivieren Sie die entsprechende Option.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
