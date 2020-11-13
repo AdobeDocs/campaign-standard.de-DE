@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: filtering-data
 discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Die Ausdrucksbearbeitung findet in folgenden Fällen Verwendung:
 * beim Bearbeiten eines Ausdrucks in einem Workflow; beispielsweise beim Hinzufügen von Zusatzdaten in eine Aktivität;
 * bei der Erstellung einer Sichtbarkeitsbedingung im HTML-Content-Editor. In diesem Fall handelt es sich um JavaScript-Ausdrücke. Die Verwendung der klassischen fortgeschrittenen Funktionen ist hier nicht möglich.
 
-## Ausdruck bearbeiten  {#edit-an-expression}
+## Ausdruck bearbeiten   {#edit-an-expression}
 
 Durch die Bearbeitung erweiterter Ausdrücke können Sie manuell Ausdrücke definieren, die Ihren spezifischen Bedürfnissen entsprechen.
 
@@ -67,7 +67,7 @@ Durch die Bearbeitung eines Ausdrucks können Sie den Audiences-Ausdruck persona
 * [Syntax von Ausdrücken](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 
-## Syntax von Ausdrücken  {#expression-syntax}
+## Syntax von Ausdrücken   {#expression-syntax}
 
 ### Standardsyntax {#standard-syntax}
 
@@ -96,7 +96,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 In diesem Beispiel werden die Profile ausgegeben, bei denen das Erstellungsdatum mit dem aktuellen Jahr und Monat übereinstimmt.
 
-### JavaScript-Syntax  {#javascript-syntax}
+### JavaScript-Syntax   {#javascript-syntax}
 
 Bei der Definition von Sichtbarkeitsbedingungen in einem Textblock des HTML-Inhaltseditiors sind Ausdrücke mit JavaScript-Syntax zu verwenden.
 
@@ -109,8 +109,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
    >[!NOTE]
-   >
-   >Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
+   Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
@@ -125,7 +124,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 In diesem Beispiel werden die Profile ausgegeben, die über 21 Jahre alt sind und deren Vorname angegeben ist (das Feld **firstName** enthält mindestens ein Zeichen).
 
-## Vergleichsoperatoren  {#comparison-operators}
+## Vergleichsoperatoren   {#comparison-operators}
 
 Bei manchen Regeln können Sie über den Abfrageeditor einen Wert auswählen.
 
