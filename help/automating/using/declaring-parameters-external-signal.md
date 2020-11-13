@@ -18,7 +18,7 @@ ht-degree: 80%
 ---
 
 
-# Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren    {#declaring-the-parameters-in-the-external-signal-activity}
+# Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren     {#declaring-the-parameters-in-the-external-signal-activity}
 
 Um einen Workflow mit Parametern aufzurufen, müssen Sie diese zunächst in der Aktivität **[!UICONTROL Externes Signal]** deklarieren.
 
