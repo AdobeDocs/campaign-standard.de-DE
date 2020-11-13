@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors 
 
 ![](assets/inapp_customize_4.png)
 
-### Medien    {#media}
+### Medien     {#media}
 
 Über die Dropdown-Liste **[!UICONTROL Medien]** können Sie Medien zu Ihrer In-App-Nachricht hinzufügen, um das Erlebnis für den Endnutzer attraktiv zu gestalten.
 
@@ -110,7 +110,7 @@ Sie können bei Bedarf zu Ihrer In-App-Nachricht auch einen Nachrichtentitel und
 
    ![](assets/inapp_customize_11.png)
 
-### Schaltflächen    {#buttons}
+### Schaltflächen     {#buttons}
 
 Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
@@ -132,7 +132,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
    ![](assets/inapp_customize_11.png)
 
-### Einstellungen    {#settings}
+### Einstellungen     {#settings}
 
 1. Wählen Sie in der Kategorie **[!UICONTROL Einstellungen]** eine helle oder dunkle Hintergrundfarbe aus.
 1. Wählen Sie über die Option **[!UICONTROL Schließen-Schaltfläche zeigen]** aus, ob eine Schließen-Schaltfläche angezeigt werden soll, mit der Benutzer die In-App-Nachricht entfernen können.
@@ -141,7 +141,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
    ![](assets/inapp_customize_7.png)
 
-## Nachricht vom Typ &quot;Lokale Benachrichtigung&quot; anpassen    {#customizing-a-local-notification-message-type}
+## Nachricht vom Typ &quot;Lokale Benachrichtigung&quot; anpassen     {#customizing-a-local-notification-message-type}
 
 Lokale Benachrichtigungen können nur von einer App zu einer bestimmten Zeit und abhängig von einem Ereignis ausgelöst werden. Mit lokalen Benachrichtigungen werden Benutzer über Prozesse in der App informiert, auch wenn kein Internetzugang vorhanden ist.
 Auf dieser [Seite](../../administration/using/local-tracking.md) erfahren Sie, wie Sie lokale Benachrichtigungen tracken.
