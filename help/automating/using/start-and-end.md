@@ -9,9 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Es ist empfehlenswert, einen Workflow mit einer **[!UICONTROL Ende]**-Aktivität
 1. Konfigurieren Sie bei Bedarf die **Ende**-Aktivität dahingehend, dass alle laufenden Aufgaben angehalten werden, sobald ihre eingehende Transition aktiviert wird. Aktivieren Sie hierzu die entsprechende Option.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Einen weiteren Workflow aktivieren {#triggering-another-workflow}
+## Einen weiteren Workflow aktivieren  {#triggering-another-workflow}
 
 Über den Tab **[!UICONTROL Externes Signal]** einer **[!UICONTROL Ende]**-Aktivität können Sie einen weiteren Workflow aktivieren. Lesen Sie diesbezüglich auch den Abschnitt [Externes Signal](../../automating/using/external-signal.md).
 
