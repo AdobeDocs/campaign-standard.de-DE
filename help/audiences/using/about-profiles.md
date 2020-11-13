@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: managing-profiles
 discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,6 +29,6 @@ Die Adobe-Campaign-Plattform ermöglicht die Verwaltung von Kontakten über den 
 
 ![](assets/marketing_history.png)
 
-Bei der Erstellung von Kampagnen kann die Versandzielgruppe aus Profilen nach einfachen oder erweiterten Kriterien zusammengestellt werden. Technisch gesehen handelt es sich bei einem Profil um einen Datenbankeintrag, der alle für das Targeting, Qualifizieren und Verfolgen von Verhaltensweisen erforderlichen Informationen enthält.
+Bei der Erstellung von Kampagnen kann die Versandzielgruppe aus Profilen nach einfachen oder erweiterten Kriterien zusammengestellt werden. Technisch betrachtet ist ein Profil ein Eintrag in einer Datenbank, der alle zur Zielgruppenbestimmung, zur Qualifizierung und zum Tracking von Verhalten erforderlichen Informationen enthält.
 
 Bei einem Profil kann es sich – je nach den in der Organisation verwendeten Bezeichnungen – um Kunden, Interessenten, Newsletter-Abonnenten, Empfänger, Benutzer etc. handeln. Unterschiedliche Typen von Profilen werden mit [Zielgruppendimensionen](../../automating/using/query.md#targeting-dimensions-and-resources) definiert.
