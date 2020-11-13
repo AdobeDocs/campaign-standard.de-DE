@@ -9,9 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Der E-Mail-Rendering-Bericht wird angezeigt. Siehe [Beschreibung des E-Mail-Rend
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 * [Abfrageeditor](../../automating/using/editing-queries.md#about-query-editor)
 
-## Beschreibung des E-Mail-Rendering-Berichts    {#email-rendering-report-description}
+## Beschreibung des E-Mail-Rendering-Berichts     {#email-rendering-report-description}
 
 Dieser Bericht enthält Informationen zum E-Mail-Rendering, d. h. zur Darstellung der E-Mail in der Inbox des Empfängers. E-Mail-Renderings können unterschiedlich aussehen, je nachdem ob die E-Mail in einem Browser, auf einem Mobilgerät oder über eine E-Mail-Anwendung geöffnet wird.
 
