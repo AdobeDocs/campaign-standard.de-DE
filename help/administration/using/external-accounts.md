@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 context-tags: extAccount,main;extAccount,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1832'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Externe Konten werden von technischen Prozessen, wie technischen Workflows oder 
 
 Das externe Konto wurde erstellt und ist nun in der Liste der Konten sichtbar. Es steht jetzt für Ihre Daten-/Dateitransfers oder Routing-Konfigurationen in Workflow-Aktivitäten und Versandeigenschaften bereit.
 
-## Externes SFTP-Konto       {#sftp-external-account}
+## Externes SFTP-Konto        {#sftp-external-account}
 
 Unterschiedliche Typen externer Konten erfordern die Angabe unterschiedlicher Informationen.
 
@@ -68,7 +68,7 @@ Geben Sie für ein externes SFTP-Konto die folgenden Details an:
 * Port-Nummer, z. B. **22**
 * SFTP-Server-Zugangsdaten: Kontoname und Passwort, die zur Verbindung mit dem Server verwendet werden
 
-### Empfehlungen für von Adobe gehostete SFTP-Server       {#adobe-hosted-sftp-server-recommendations}
+### Empfehlungen für von Adobe gehostete SFTP-Server        {#adobe-hosted-sftp-server-recommendations}
 
 Wenn Dateien und Daten für ETL-Zwecke verwaltet werden, werden diese Dateien auf einem von Adobe bereitgestellten gehosteten SFTP-Server gespeichert. Dieser SFTP-Server ist ein vorübergehender Speicherplatz, auf dem Sie die Aufbewahrung und Löschung von Dateien selbst kontrollieren können.
 
@@ -156,7 +156,7 @@ Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informa
 
 * Zugangsdaten zum AEM-Konto: Verwenden Sie das Konto, über das auf die Adobe-Experience-Manager-Instanz zugegriffen wird. Es sollte ein Konto sein, das Teil der campaign-remote-Gruppe in Adobe Experience Manager ist.
 
-## Externes Google-reCAPTCHA-Konto       {#google-recaptcha-external-account}
+## Externes Google-reCAPTCHA-Konto        {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
