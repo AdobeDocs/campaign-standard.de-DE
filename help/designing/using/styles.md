@@ -9,9 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]** angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
 
-## Element auswählen     {#selecting-an-element}
+## Element auswählen      {#selecting-an-element}
 
 Um ein Element in der Benutzeroberfläche von Email Designer auszuwählen, können Sie entweder:
 
@@ -47,7 +47,7 @@ Um eine Spalte auszuwählen, können Sie auch folgendermaßen vorgehen:
 
 In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
 
-## Einstellungen des Stils anpassen     {#adjusting-style-settings}
+## Einstellungen des Stils anpassen      {#adjusting-style-settings}
 
 1. Wählen Sie in Ihrer E-Mail ein Element aus. Weiterführende Informationen dazu finden Sie unter [Element auswählen](#selecting-an-element).
 1. Passen Sie die Einstellungen nach Bedarf an. Für jedes ausgewählte Element sind unterschiedliche Einstellungen verfügbar.
@@ -201,7 +201,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
 1. Speichern Sie Ihre Änderungen.
 
-## Inline-Styling-Attribute hinzufügen     {#adding-inline-styling-attributes}
+## Inline-Styling-Attribute hinzufügen      {#adding-inline-styling-attributes}
 
 Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen und im seitlichen Fenster seine Einstellungen anzeigen, können Sie seine Inline-Attribute und deren Werte ändern.
 
