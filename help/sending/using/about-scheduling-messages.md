@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ Unter **[!UICONTROL Planung]** können Sie Versandoptionen für E-Mails, SMS-Nac
 
    ![](assets/delivery_planning_1.png)
 
-* **[!UICONTROL Nachrichtenversand am unten angegebenen Datum]**: Nachrichten werden an einem späteren Datum gesendet. Geben Sie das gewünschte **Kontaktdatum** im Feld **Versandstart am** an.
+* **[!UICONTROL Nachrichten werden automatisch am unten spezifizierten Datum gesendet]**: Nachrichten werden an einem späteren Datum gesendet. Geben Sie das gewünschte **Kontaktdatum** im Feld **Versandstart am** an.
 
    Sie können den Versand vorbereiten und bestätigen, die Nachrichten werden aber erst zum ausgewählten Zeitpunkt gesendet. Informationen zur Vorbereitung und Validierung des Versands finden Sie in den Abschnitten [Versandvorbereitung](../../sending/using/preparing-the-send.md) und [Versand bestätigen](../../sending/using/confirming-the-send.md).
 
-   Mithilfe der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** können Sie die für den Versand zu berücksichtigende Zeitzone anpassen. Wenn Sie beispielsweise im Feld **[!UICONTROL Start des Versands von]** 9:00 Uhr eingeben und in der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** Brüssel, Kopenhagen, Madrid, Paris (GMT+1) auswählen, erhalten alle Empfänger die Nachricht um 9:00 Uhr Pariser Zeit. Folglich erhält ein Empfänger in Moskau (GMT+3) die Nachricht um 11:00 Uhr Moskauer Zeit.
+   Mithilfe der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** können Sie die für den Versand zu berücksichtigende Zeitzone anpassen. Wenn Sie beispielsweise im Feld **[!UICONTROL Start des Versands am]** 9:00 Uhr eingeben und in der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** Brüssel, Kopenhagen, Madrid, Paris (GMT+1) auswählen, erhalten alle Empfänger die Nachricht um 9:00 Uhr Pariser Zeit. Folglich erhält ein Empfänger in Moskau (GMT+3) die Nachricht um 11:00 Uhr Moskauer Zeit.
 
    Aktivieren Sie die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]**, wenn Sie den tatsächlichen Versand der Nachrichten von einer manuellen Bestätigung abhängig machen möchten. Standardmäßig ist diese Option aktiviert.
 
