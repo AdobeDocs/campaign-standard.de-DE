@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: filtering-data
 discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
 context-tags: queryFilter,overview;audience,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -33,13 +33,13 @@ Der Abfrageeditor kommt in verschiedenen Funktionen zum Einsatz:
 * Definition von **E-Mail-Zielgruppen**,
 * Definition von Populationen in **Workflow-Aktivitäten**.
 
-## Benutzeroberfläche des Abfrageeditors {#query-editor-interface}
+## Benutzeroberfläche des Abfrageeditors  {#query-editor-interface}
 
 Die Benutzeroberfläche des Abfrageeditors enthält eine **Palette** und einen **Arbeitsbereich**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette {#palette}
+### Palette  {#palette}
 
 Die Palette befindet sich auf der linken Seite des Tools und ist in zwei Tabs unterteilt, die wiederum aus mehreren, in thematische Blöcke aufgeteilten Elementen bestehen. Diese Tabs sind:
 
@@ -53,13 +53,13 @@ Die in den Tabs enthaltenen Elemente müssen im Arbeitsbereich platziert werden,
 * Definition von einfachen Regeln für frei wählbare Felder,
 * Definition von erweiterten Regeln zur Anwendung von Funktionen auf gewisse Felder.
 
-### Arbeitsbereich {#workspace}
+### Arbeitsbereich  {#workspace}
 
 Der Arbeitsbereich ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln, Audiences und Filter konfigurieren und kombinieren können, die aus der Palette hier abgelegt werden.
 
 Wenn Sie ein Element aus der Palette in den Arbeitsbereich ziehen, öffnet sich ein neues Fenster, mit dem sich [Abfragen erstellen](#creating-queries) lassen.
 
-## Abfragen erstellen {#creating-queries}
+## Abfragen erstellen  {#creating-queries}
 
 Mit dem Abfrageeditor können Sie eine Audience oder ein Testprofil in einer Nachricht oder eine Population in einem Workflow definieren und eine Audience vom Typ &quot;Abfrage&quot; erstellen.
 
@@ -117,7 +117,7 @@ Ihre Abfragen wurden jetzt erstellt und definiert. Dadurch können Sie eine Popu
 
 * [Erweiterte Funktionen](../../automating/using/advanced-expression-editing.md)
 * [Filter definieren](../../developing/using/configuring-filter-definition.md)
-* [Anwendungsfall: Erstellung einer einmaligen E-Mail-Versendung pro Woche](../../automating/using/workflow-weekly-offer.md)
-* [Anwendungsfall: Erstellung einer Standort-segmentierten Versendung](../../automating/using/workflow-segmentation-location.md)
+* [Anwendungsfall: Erstellung eines einmaligen E-Mail-Versands pro Woche](../../automating/using/workflow-weekly-offer.md)
+* [Anwendungsfall: Erstellung eines Standort-segmentierten Versands](../../automating/using/workflow-segmentation-location.md)
 * [Anwendungsfall: Erstellen von Versendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
-* [Anwendungsfall: Retargeting-Workflow für eine erneute Versendung an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Anwendungsfall: Retargeting-Workflow für einen erneuten Versand an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
