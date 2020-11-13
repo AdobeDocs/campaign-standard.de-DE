@@ -9,9 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1344'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Nachrichten können während der Versandvorbereitung auch ausgeschlossen werden,
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 * [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Fehlgeschlagene Sendungen für eine Nachricht identifizieren      {#identifying-delivery-failures-for-a-message}
+## Fehlgeschlagene Sendungen für eine Nachricht identifizieren       {#identifying-delivery-failures-for-a-message}
 
 Nachdem eine Nachricht gesendet wurde, können Sie im Tab **[!UICONTROL Versandlogs]** (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#sending-logs)) den Versandstatus für jedes Profil sowie den damit verbundenen Fehlertyp und die Ursache einsehen (siehe [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons)).
 
@@ -47,7 +47,7 @@ Nachdem eine Nachricht gesendet wurde, können Sie im Tab **[!UICONTROL Versandl
 
 Es steht auch ein entsprechender Bericht zur Verfügung. Dieser Bericht zeigt die Gesamtheit aller Statistiken zu bei Sendungen aufgetretenen Hard- und Softbounces und der automatischen Bounce-Verarbeitung. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/bounce-summary.md).
 
-## Typen und Ursachen für fehlgeschlagene Sendungen      {#delivery-failure-types-and-reasons}
+## Typen und Ursachen für fehlgeschlagene Sendungen       {#delivery-failure-types-and-reasons}
 
 Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
 
@@ -75,7 +75,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 | **[!UICONTROL Text zu lang]** | Ignoriert | Die Zeichenanzahl der SMS-Nachricht übersteigt das Limit. Weiterführende Informationen dazu finden Sie im Abschnitt [Kodierung, Länge und Tansliteration von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Zeichen wird in der Kodierung nicht unterstützt]** | Ignoriert | Die SMS-Nachricht enthält ein oder mehrere Zeichen, die von der Kodierung nicht unterstützt werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Zeichensatztabelle - GSM-Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
-## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand      {#retries-after-a-delivery-temporary-failure}
+## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand       {#retries-after-a-delivery-temporary-failure}
 
 Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
@@ -95,14 +95,14 @@ Wenn Sie zum Beispiel möchten, dass weitere Zustellversuche für einen Versand 
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
-## Synchrone und asynchrone Fehler      {#synchronous-and-asynchronous-errors}
+## Synchrone und asynchrone Fehler       {#synchronous-and-asynchronous-errors}
 
 Ein Versand kann sofort fehlschlagen (synchroner Fehler) oder zu einem späteren Zeitpunkt nach dem Versand (asynchroner Fehler).
 
 * **Synchroner Fehler**: Der vom Adobe-Campaign-Server angesprochene Remote-Server hat sofort eine Fehlermeldung zurückgegeben. Die Nachricht kann nicht an den Server des Profils gesendet werden.
 * **Asynchroner Fehler**: Eine Bounce Message oder ein Statusbericht (SR) wird vom Remote-Server verzögert zurückgesendet. Asynchrone Fehler können bis zu eine Woche nach einem Versand auftreten.
 
-## Bounce-Message-Qualifizierung      {#bounce-mail-qualification}
+## Bounce-Message-Qualifizierung       {#bounce-mail-qualification}
 
 Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück.
 
