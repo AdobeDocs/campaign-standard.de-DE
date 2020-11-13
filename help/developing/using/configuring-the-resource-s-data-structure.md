@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1840'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ In diesem Zusammenhang können im Tab **[!UICONTROL Datenstruktur]** folgende El
 * [Relationen](#defining-links-with-other-resources)
 * [Versandlogs](#defining-sending-logs-extension)
 
-## Felder zu einer Ressource hinzufügen    {#adding-fields-to-a-resource}
+## Felder zu einer Ressource hinzufügen     {#adding-fields-to-a-resource}
 
 Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die nicht im vordefinierten Datenmodell enthalten sind.
 
@@ -74,7 +74,7 @@ Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die 
 
 Die Felder Ihrer Ressource sind jetzt definiert.
 
-## Identifizierungsschlüssel definieren    {#defining-identification-keys}
+## Identifizierungsschlüssel definieren     {#defining-identification-keys}
 
 Jede Ressource muss mindestens einen Schlüssel zu ihrer eindeutigen Identifizierung aufweisen. Sie können beispielsweise einen Schlüssel definieren, der besagt, dass zwei Produkte in einer Verkaufstabelle nicht dieselbe ID aufweisen können.
 
@@ -102,7 +102,7 @@ Ihre Identifizierungsschlüssel für die Ressource werden jetzt erstellt.
 >
 >Weitere Informationen zu Best Practices beim Erstellen von Identifizierungsschlüsseln finden Sie in diesem [Abschnitt](../../developing/using/data-model-best-practices.md#keys).
 
-## Indexe definieren    {#defining-indexes}
+## Indexe definieren     {#defining-indexes}
 
 Indexe können eines oder mehrere Felder der Ressource referenzieren. Indexe ermöglichen es, Datensätze in der Datenbank zu sortieren, um sie leichter auffindbar zu machen. Auf diese Weise werden die SQL-Abfragen optimiert.
 
@@ -259,7 +259,7 @@ Weiterführende Informationen zu dynamischen Berichten finden Sie in der [Liste 
 >
 >Die Anzahl der an dynamische Berichte gesendeten Felder ist auf 20 begrenzt.
 
-## Eigenschaften einer Ressource bearbeiten    {#editing-resource-properties}
+## Eigenschaften einer Ressource bearbeiten     {#editing-resource-properties}
 
 Im Bildschirm der benutzerdefinierten Ressource werden im Bereich der **[!UICONTROL Zusammenfassung]** der Typ und der Status der neu erstellten Ressource angezeigt. Sie können den Zugriff auf die Ressource und ihre allgemeinen Eigenschaften bearbeiten.
 
