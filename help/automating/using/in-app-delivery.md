@@ -9,9 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Die Aktivität **In-App-Versand** ermöglicht das Konfigurieren des Versands von In-App-Nachrichten innerhalb eines Workflows. Mit In-App-Messaging haben Sie die Möglichkeit, in einer App eine Nachricht einzublenden, wenn ein Benutzer diese gerade verwendet. Weiterführende Informationen zum In-App-Versand finden Sie in diesem [Abschnitt](../../channels/using/about-in-app-messaging.md).
 
-## Anwendungskontext {#context-of-use}
+## Anwendungskontext  {#context-of-use}
 
 Die Aktivität **[!UICONTROL In-App-Versand]** dient insbesondere der Automatisierung des In-App-Versands an eine innerhalb desselben Workflows berechnete Zielgruppe.
 
@@ -34,7 +34,7 @@ Die Empfänger werden in vorangeschalteten Zielgruppenbestimmungsaktivitäten de
 
 Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparametern des Workflows ausgelöst. Sie können im Nachrichten-Dashboard auswählen, ob eine manuelle Bestätigung zum Nachrichtenversand erforderlich ist oder nicht (standardmäßig erforderlich). Sie können den Workflow entweder manuell starten oder eine Planung verwenden, um die Ausführung zu automatisieren.
 
-## Konfiguration      {#configuration}
+## Konfiguration       {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Abfrage]** in den Workflow-Arbeitsbereich. Bitte beachten Sie, dass die Zielgruppendimension der Aktivität **[!UICONTROL Abfrage]** im Tab **[!UICONTROL Eigenschaften]** entsprechend der in Schritt 4 ausgewählten Vorlage aktualisiert werden muss:
 
@@ -54,7 +54,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 1. Wählen Sie den In-App-Nachrichtentyp aus. Dieser hängt von den in der **[!UICONTROL Abfrage]**-Aktivität verwendeten Daten ab.
 
    * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils]**: Mit diesem Nachrichtentyp können Sie Adobe-Campaign-Profile auswählen, die sich für Ihre Mobile App angemeldet haben, und In-App-Nachrichten mit in Campaign verfügbaren Profilattributen personalisieren.
-   * **[!UICONTROL Alle Nutzer einer mobilen App auswählen]**: Mit diesem Nachrichtentyp können Sie eine Nachricht an alle Benutzer Ihrer Mobile App senden, selbst wenn in Campaign kein Profil existiert.
+   * **[!UICONTROL Alle Nutzer einer Mobile App auswählen]**: Mit diesem Nachrichtentyp können Sie eine Nachricht an alle Benutzer Ihrer Mobile App senden, selbst wenn in Campaign kein Profil existiert.
    * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils]**: Mit diesem Nachrichtentyp können Sie alle Benutzer einer Mobile App auswählen, von denen ein bekanntes oder unbekanntes mobiles Profil in Campaign existiert, und In-App-Nachrichten mit vom Mobilgerät empfangenen Profilattributen personalisieren.
 
    ![](assets/wkf_in_app_4.png)
@@ -75,8 +75,8 @@ Wenn Sie die Aktivität später erneut öffnen, gelangen Sie direkt in das Dashb
 
 Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachricht ausgelöst. Der in einem Workflow erstellte Nachrichtenversand muss noch bestätigt werden, nachdem der Workflow gestartet wurde. Sie können aber im Nachrichten-Dashboard die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** deaktivieren. Dies ist jedoch nur möglich, wenn die Nachricht in einem Workflow erstellt wurde. Ist diese Option deaktiviert, werden Nachrichten ohne weiteren Hinweis gesendet, sobald die Vorbereitung abgeschlossen ist.
 
-## Bemerkungen      {#remarks}
+## Bemerkungen       {#remarks}
 
 Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
 
-Ausgehend von den Elternsendungen, auf die über die Marketingaktivitätenliste zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL In-App-Versandaktivität]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der Schaltfläche ![](assets/wkf_dlv_detail_button.png) die Detailansicht der Kachel **[!UICONTROL Freigabe]** des übergeordneten Versands.
+Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketingaktivitäten zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL In-App-Versandaktivität]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der Schaltfläche ![](assets/wkf_dlv_detail_button.png) die Detailansicht der Kachel **[!UICONTROL Freigabe]** des übergeordneten Versands.
