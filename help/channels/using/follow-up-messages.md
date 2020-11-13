@@ -9,9 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Sie möchten eine höfliche Erinnerung an alle Kunden senden, die vor drei Tagen
 
 Jeder betroffene Kunde erhält eine Folgenachricht, die auf den gleichen Daten basiert, die schon in der ersten gesendeten E-Mail verwendet wurden.
 
-## Zugriff auf die Folgenachrichten    {#accessing-the-follow-up-messages}
+## Zugriff auf die Folgenachrichten     {#accessing-the-follow-up-messages}
 
 Nach der Erstellung und Publikation des gewünschten Ereignisses (im vorliegenden [Beispiel](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) &quot;Stehen gelassener Warenkorb&quot;) werden die entsprechende Transaktionsnachricht und Folgenachricht automatisch erstellt.
 
