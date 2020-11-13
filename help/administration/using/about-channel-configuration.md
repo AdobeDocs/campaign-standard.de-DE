@@ -9,9 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
 ht-degree: 100%
 
@@ -29,6 +29,6 @@ Es gibt folgende Möglichkeiten für die Konfiguration:
 * Nachrichteneigenschaften: Bei der Erstellung einer neuen Nachricht können Sie die Eigenschaften gemäß Ihren Bedürfnissen anpassen.
 * Für manche Kanäle sind zusätzliche optionale Konfigurationsmöglichkeiten verfügbar, wie zum Beispiel E-Mail-BCC.
 
-Das Menü **[!UICONTROL Kanäle]** enthält die technischen Parameter in Bezug auf die verschiedenen Anwendungskanäle (E-Mail, SMS) sowie die Typologie- und Quarantäneverwaltung.
+Das Menü **[!UICONTROL Kanal]** enthält die technischen Parameter in Bezug auf die verschiedenen Anwendungskanäle (E-Mail, SMS) sowie die Typologie- und Quarantäneverwaltung.
 
 Administratoren können auf diese Konfigurationen über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** zugreifen.
