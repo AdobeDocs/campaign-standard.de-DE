@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Es gibt mehrere Möglichkeiten, einen Versand zu überwachen und seine Wirkung z
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Versandlogs    {#delivery-logs}
+## Versandlogs     {#delivery-logs}
 
 ### Versandlogs {#sending-logs}
 
