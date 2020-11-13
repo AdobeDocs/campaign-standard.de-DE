@@ -9,9 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
 ht-degree: 100%
 
@@ -135,11 +135,11 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken       {#metrics}
+## Metriken        {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS       {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS        {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -260,7 +260,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen       {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen        {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -325,7 +325,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten       {#in-app-metrics}
+### Metriken zu In-App-Nachrichten        {#in-app-metrics}
 
 <table> 
  <thead> 
