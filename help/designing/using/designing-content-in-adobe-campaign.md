@@ -9,9 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email De
 
 **Fragmente**: Ein Fragment ist eine Komponente, die Sie in mehreren E-Mails wiederverwenden können.
 
-**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können..
+**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können.
 
 **Inhaltskomponenten**: Inhaltskomponenten sind rohe, noch leere Komponenten, die Sie in E-Mails einfügen und dort bearbeiten können.
 
@@ -144,7 +144,7 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Wenn Fragmente in E-Mails aktualisiert werden, die bereits vorbereitet wurden, wirkt sich dies nicht auf diese E-Mails aus.
 
-## Einschränkungen in Email Designer      {#email-designer-limitations}
+## Einschränkungen in Email Designer       {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/using-reusable-content.md#about-fragments).
 
