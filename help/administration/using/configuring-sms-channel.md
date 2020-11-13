@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Für den Versand von SMS-Nachrichten muss mindestens ein externes Konto von eine
 
 Weiterführende Informationen zur Erstellung und Bearbeitung von externen Konten finden Sie im Abschnitt [Externe Konten. ](../../administration/using/external-accounts.md) Der folgende Absatz behandelt die spezifischen Parameter externer Konten, die dem SMS-Versand dienen.
 
-## SMS-Routing definieren   {#defining-an-sms-routing}
+## SMS-Routing definieren    {#defining-an-sms-routing}
 
 Standardmäßig enthält die Anwendung das externe Konto **[!UICONTROL SMS-Routing durch SMPP]**. Die Erstellung weiterer Konten kann jedoch von Nutzen sein.
 
@@ -72,7 +72,7 @@ Wenn Sie das SMPP-Protokoll verwenden möchten, können Sie auch ein neues exter
 
 Jetzt können Sie mithilfe der neuen Routing-Konfiguration in Adobe Campaign SMS-Nachrichten senden.
 
-## SMS-Kodierung und -Formate   {#sms-encoding-and-formats}
+## SMS-Kodierung und -Formate    {#sms-encoding-and-formats}
 
 ### Kodierung, Länge und Tansliteration von SMS {#sms-encoding--length-and-transliteration}
 
@@ -101,7 +101,7 @@ Die Transliteration von Zeichen ist standardmäßig deaktiviert. Es wird empfohl
 
 Sollte Ihre SMS jedoch eine hohe Anzahl an Zeichen enthalten, die dem Unicode-Zeichensatz entstammen, können Sie diese Option wählen, um Ihre Versandkosten zu begrenzen.
 
-### Zeichensatztabelle - GSM-Standard   {#table-of-characters---gsm-standard}
+### Zeichensatztabelle - GSM-Standard    {#table-of-characters---gsm-standard}
 
 Der folgende Abschnitt zeigt den vom GSM-Standard unterstützten Zeichensatz. Jedes im Nachrichteninhalt enthaltene Zeichen, das nicht in der unten stehenden Tabelle aufgeführt ist, führt zur Konvertierung der gesamten Nachricht in das Binärformat (Unicode) und zur Splittung der SMS in Teilnachrichten, sobald sie 70 Zeichen überschreitet. Weiterführende Hinweise finden Sie im Abschnitt [Kodierung, Länge und Transliteration von SMS](#sms-encoding--length-and-transliteration).
 
@@ -317,13 +317,13 @@ Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt d
 
    ![](assets/sms_data_coding1.png)
 
-### Automatische Antwort auf MO   {#automatic-reply-sent-to-the-mo}
+### Automatische Antwort auf MO    {#automatic-reply-sent-to-the-mo}
 
 Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.
 
 Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md).
 
-## SMS-Eigenschaften konfigurieren   {#configuring-sms-properties}
+## SMS-Eigenschaften konfigurieren    {#configuring-sms-properties}
 
 Dieser Abschnitt behandelt die Liste von SMS-spezifischen Parametern in den Eigenschaften eines SMS-Versands bzw. einer SMS-Versandvorlage.
 
@@ -331,7 +331,7 @@ Die SMS-spezifischen Versandparameter befinden sich im Abschnitt **[!UICONTROL S
 
 ![](assets/sms_options.png)
 
-Im Abschnitt **[!UICONTROL Erweiterte Parameter]** :
+Aus dem Abschnitt **[!UICONTROL Erweiterte Parameter]**:
 
 * Die Option **[!UICONTROL Von]** erlaubt die Eingabe einer Zeichenkette zur Personalisierung des SMS-Absenders. Es ist der hier eingegebene Name, der auf dem Mobiltelefon des Empfängers als Absender erscheint.
 
@@ -343,7 +343,7 @@ Im Abschnitt **[!UICONTROL Erweiterte Parameter]** :
    >
    >Überprüfen Sie bezüglich der Änderung des Absenders die gültige Rechtslage Ihres Landes. Stellen Sie außerdem sicher, dass Ihr SMS-Provider diese Funktionalität anbietet.
 
-Im Abschnitt **[!UICONTROL Senden]** einer SMS-Vorlage:
+Aus dem Abschnitt **[!UICONTROL Senden]** einer SMS-Vorlage:
 
 * Die Option **[!UICONTROL Maximale Anzahl an SMS pro Nachricht]** bietet die Möglichkeit, die Anzahl an SMS-Nachrichten festzulegen, die zum Senden einer Nachricht verwendet werden sollen. Sollte eine Nachricht diese Anzahl überschreiten, wird sie nicht gesendet.
 
