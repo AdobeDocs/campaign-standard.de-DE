@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Die endgültige Abfrage sieht folgendermaßen aus:
 
 ![](assets/expression_editor_1.png)
 
-## E-Mail-Versand erstellen.{#creating-an-email-delivery}
+## E-Mail-Versand erstellen{#creating-an-email-delivery}
 
 1. Ziehen Sie die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md) in den Arbeitsbereich.
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
