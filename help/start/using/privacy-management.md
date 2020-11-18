@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '928'
 ht-degree: 54%
 
 ---
@@ -49,7 +49,7 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 
 * Das **Recht auf Vergessenwerden** (Löschungsanfrage), auch Datenlöschung genannt, bedeutet, dass das Datensubjekt vom Datenverantwortlichen verlangen kann, seine personenbezogenen Daten zu löschen, seine Daten nicht weiter zu verbreiten und mögliche Dritte anzuhalten, die Datenverarbeitung einzustellen.
 
-Weitere Informationen zum Erstellen von **Zugriffs** - und **Löschanforderungen** und zur Verarbeitung dieser Anforderungen durch Adobe Campaign finden Sie in den [Implementierungsschritten](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html).
+Weitere Informationen zum Erstellen von **Zugriffs** - und **Löschanforderungen** und zur Verarbeitung dieser Anforderungen durch Adobe Campaign finden Sie in den [Implementierungsschritten](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -71,7 +71,7 @@ Die Funktionen, die bei der Verwaltung einiger Aspekte der Zustimmung helfen, si
 
 Weitere Informationen zur Verwaltung von Zustimmungen finden Sie unter [Informationen zu Abonnements](../../audiences/using/about-subscriptions.md) und [Erste Schritte mit Landingpages](../../channels/using/getting-started-with-landing-pages.md).
 
-Zusätzlich zu den von Adobe Campaign bereitgestellten Tools für die Verwaltung von Zustimmungen haben Sie die Möglichkeit nachzuverfolgen, ob ein Verbraucher sich für den Verkauf von persönlichen Informationen entschieden hat. Siehe [diesen Abschnitt](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ccpa).
+Zusätzlich zu den von Adobe Campaign bereitgestellten Tools für die Verwaltung von Zustimmungen haben Sie die Möglichkeit nachzuverfolgen, ob ein Verbraucher sich für den Verkauf von persönlichen Informationen entschieden hat. Siehe [diesen Abschnitt](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Datenbeibehaltung {#data-retention}
 
