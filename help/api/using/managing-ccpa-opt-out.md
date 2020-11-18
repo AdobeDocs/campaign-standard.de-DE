@@ -9,11 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9240686a36146b45de6dfd07fc50a71fab663001
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ Der CCPA-Opt-out-Status eines Profils kann mithilfe des Profilattributs **ccpaOp
 >
 >Das Attribut &quot;CCPA-Opt-out&quot; ist erst ab Version 19.4 verfügbar. In 19.3-Umgebungen müssen Sie die Profilressource erweitern und ein boolesches Feld hinzufügen. Dieses Feld wird der API mit dem ausgewählten Titel hinzugefügt. Wir empfehlen Ihnen die Verwendung von &quot;Opt-out für CCPA&quot;.
 >
->Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ccpa).
+>Weitere Informationen finden Sie in der Dokumentation [Verwalten von Datenschutzanforderungen](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
