@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
+source-git-commit: 18cd7a2956a16972b41a797e580cc68ac76abdc8
 workflow-type: tm+mt
-source-wordcount: '6263'
+source-wordcount: '6267'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,7 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## November 2020 {#doc-updates-november-2020}
 
-Der Abschnitt &quot;Datenschutz&quot;wurde verschoben und um eine neue Seite erweitert: [Datenschutzverwaltung](../../start/using/privacy-management.md).
+Der Abschnitt &quot;Datenschutz&quot;wurde um zwei neue Seiten erweitert: [Datenschutzverwaltung](../../start/using/privacy-management.md) und [Verwaltung von Datenschutzanforderungen](../../start/using/privacy-requests.md).
 
 ## Version 20.4 - Oktober 2020 {#release-20-4---october-2020}
 
