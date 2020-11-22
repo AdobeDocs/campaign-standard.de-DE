@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Filterdefinition konfigurieren
 description: Hier erfahren Sie mehr über die Filterfunktion zur Verwaltung großer Datenmengen.
-page-status-flag: never-activated
-uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
