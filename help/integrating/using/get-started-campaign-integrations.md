@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Erste Schritte mit Campaign-Integrationen
 description: Verwenden Sie andere Lösungen von Adobe und kombinieren Sie ihre verschiedenen Funktionen mit Campaign.
-page-status-flag: never-activated
-uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
