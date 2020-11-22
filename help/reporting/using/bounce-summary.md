@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Bounces
 description: Über die Bounces im vordefinierten Bericht erhalten Sie Informationen zum Status Ihrer versendeten Kampagnen und über etwaige Versandfehler.
-page-status-flag: never-activated
-uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
