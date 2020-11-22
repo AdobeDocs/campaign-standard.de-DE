@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Mehrsprachige E-Mail erstellen
 description: Führen Sie diese Schritte aus, um eine mehrsprachige E-Mail an Empfänger mit unterschiedlichen bevorzugten Sprachen zu senden.
-page-status-flag: never-activated
-uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 
