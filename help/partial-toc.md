@@ -1,23 +1,14 @@
 ---
-cloud: experience-cloud
-product: adobe-campaign-standard
-audience: all
-user-guide-title: Benutzerhandbuch für Adobe Campaign Standard
-user-guide-url: https://www.adobe.com
-solution-title: Campaign Standard
-solution-hub-url: https://helpx.adobe.com/de/support/campaign/standard.html
-solution-image: assets/experience-cloud-logo-24.png
-getting-started-title: Erste Schritte
-getting-started-url: https://helpx.adobe.com/de/campaign/standard/start/user-guide.html
-tutorials-title: Tutorials23
-tutorials-url: https://helpx.adobe.com/de/campaign/tutorials.html
-other-title: Tutorials2
-other-url: https://helpx.adobe.com/campaign/tutorials.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.de-DE
-translation-type: ht
-source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
-workflow-type: ht
-source-wordcount: '51'
+keywords: Campaign Standard;home;popular topics
+solution: Campaign Standard
+product: campaign
+title: Produktdokumentation zu Adobe Campaign Standard
+description: Produktdokumentation zu Campaign Standard durchsuchen
+topic: Premium
+translation-type: tm+mt
+source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
+workflow-type: tm+mt
+source-wordcount: '30'
 ht-degree: 100%
 
 ---
