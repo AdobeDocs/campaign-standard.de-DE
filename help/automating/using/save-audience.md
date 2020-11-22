@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Audience-Speicherung
 description: Mithilfe der Audience-Speicherung können existierende Audiences aktualisiert oder neue erstellt werden. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 100%
 
@@ -67,7 +64,6 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
       >[!NOTE]
       >
       >Diese Option ist nur dann verfügbar, wenn durch Ihren Administrator die Funktion der Zielgruppenfreigabe an die Adobe Experience Cloud konfiguriert wurde. Weiterführende Informationen finden Sie in [Campaign und People Core Service verwenden](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Der Typ der gespeicherten oder zur Aktualisierung verfügbaren Audiences hängt von den im Workflow vorangeschalteten Aktivitäten ab.
 
    Die erstellte oder aktualisierte Audience ist vom Typ **[!UICONTROL Datei]**, wenn die Zielgruppendimension der Audience zum Zeitpunkt der Speicherung unbekannt ist (beispielsweise weil sie aus einem Dateiimport stammt).
