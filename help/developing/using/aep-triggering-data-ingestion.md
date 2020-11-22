@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Datenerfassung über APIs aktivieren
 description: Erfahren Sie, wie die Datenerfassung über APIs aktiviert wird.
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -57,7 +54,8 @@ Die sofortige Aufnahme eines XDM-Mappings in Adobe Experience Platform wird mit 
 >
 >Um den POST API-Aufruf zur Aufnahme ausführen zu können, muss der Benutzer über die Rolle **SQL-Funktionsausführung** verfügen, die von einem Campaign Standard-Administrator vergeben werden kann, indem er das folgende JS-Skript ausführt:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
