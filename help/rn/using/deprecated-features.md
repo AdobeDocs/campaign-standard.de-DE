@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  <tbody> 
   <tr> 
    <td> <p>Mit Campaign-Version 19.4. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Core Service von Adobe</a>.</p></br>
-   <p>Siehe auch <a href="https://helpx.adobe.com/de/campaign/kb/acs-privacy.html">Verwalten von Datenschutzanforderungen</a>.</p>
+   <p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/de/campaign/kb/acs-privacy.html">Verwalten von Datenschutzanfragen</a>.</p>
   <p> 
   <em>Geplantes Datum für die Entfernung: 2021.</em></p>
    </td> 
