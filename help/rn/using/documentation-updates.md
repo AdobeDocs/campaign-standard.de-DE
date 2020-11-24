@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '6267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## November 2020 {#doc-updates-november-2020}
 
-Der Abschnitt &quot;Datenschutz&quot;wurde um zwei neue Seiten erweitert: [Datenschutzverwaltung](../../start/using/privacy-management.md) und [Verwaltung von Datenschutzanforderungen](../../start/using/privacy-requests.md).
+Der Abschnitt zum Datenschutz wurde um zwei neue Seiten erweitert: [Datenschutzverwaltung](../../start/using/privacy-management.md) und [Verwaltung von Datenschutzanfragen](../../start/using/privacy-requests.md).
 
 ## Version 20.4 - Oktober 2020 {#release-20-4---october-2020}
 
@@ -229,7 +229,7 @@ Die Dokumentation zum Verwenden von Campaign und Experience Manager wurde um den
 
 Die Startseite der API-Dokumentation wurde durch Weiterleitungen zu den verschiedenen Themen verbessert – [mehr dazu](../../api/using/get-started-apis.md)
 
-## Nov. - Dezember 2019 {#doc-updates-december-2019}
+## November - Dezember 2019 {#doc-updates-december-2019}
 
 Die Dokumentation zum Konfigurieren eines externen S3-Kontos wurde aktualisiert – [mehr dazu](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -281,7 +281,7 @@ Ein neuer Abschnitt bezüglich der Formatierung von Links mithilfe von Email Des
 
 Der API-Dokumentation wurden Informationen zum Datenschutz hinzugefügt; [klicken Sie hier](../../api/using/creating-a-privacy-request.md).
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## September - Oktober 2019 {#doc-updates-october-2019}
 
 Es wurde ein neuer Abschnitt bezüglich der Campaign Standard-Einstellungen hinzugefügt – [mehr dazu](../../administration/using/about-campaign-standard-settings.md)
 
