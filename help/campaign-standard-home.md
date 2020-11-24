@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,17 @@ ht-degree: 92%
 
 ## Neue Funktionen
 
-* **[Aktualisierte Veröffentlichungsplanung](rn/using/release-planning.md)**<br/> Für Februar 2021 wurden die Versionsplanungen um die kommenden Versionshinweise ergänzt
+* **[Aktualisierte Versionsplanung](rn/using/release-planning.md)**<br/> Die bevorstehenden Veröffentlichungstermine im Februar 2021 wurden der Versionsplanung hinzugefügt
 
-* **[Kontrollgruppen](sending/using/control-group.md)**<br/>
-Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
+* **[Kontrollgruppen](sending/using/control-group.md)**<br/>Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
 
-* **[KI-gestützte E-Mails](sending/using/predictive.md)**<br/>
-Design und Versand mit KI-gestützten E-Mails optimieren.
+* **[KI-gestützte E-Mails](sending/using/predictive.md)**<br/>Design und Versand mit KI-gestützten E-Mails optimieren.
 
-* **[Externe API](automating/using/external-api.md)**<br/>
-Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
+* **[Externe APII](automating/using/external-api.md)**<br/>Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
 
-* **[Erste Schritte mit mobilen Sendungen](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/>
-Weitere Informationen zu den allgemeinen Richtlinien für mobile Sendungen (SMS, Push, In-App).
+* **[Erste Schritte mit mobilen Sendungen](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/> Weitere Informationen zu den allgemeinen Richtlinien für mobile Sendungen (SMS, Push, In-App).
 
-[Weitere Updates](rn/using/documentation-updates.md)
+[Weitere Aktualisierungen](rn/using/documentation-updates.md)
 
 ## Wichtigste Seiten
 
