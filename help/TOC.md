@@ -4,7 +4,7 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
-title: Campaign Standard-Anleitung
+title: Campaign Standard – Handbuch
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
