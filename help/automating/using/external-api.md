@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2285'
-ht-degree: 100%
+source-wordcount: '2172'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ Die Hauptmerkmale dieser Aktivität sind:
 
 ### Hinweise zur Abwärtskompatibilität {#from-beta-to-ga}
 
-Mit Version 20.4 von Campaign Standard wurden die Limits für die Größenbeschränkung für HTTP-Antwortdaten und das Antwort-Timeout gesenkt, um den Best Practices zu entsprechen (siehe Abschnitt &quot;Einschränkungen und Limits&quot;). Diese Änderungen der Limits wirken sich nicht auf bestehende externe API-Aktivitäten aus. Daher wird empfohlen, bestehende externe API-Aktivitäten in allen Workflows durch neue zu ersetzen.
-
-Wenn Sie ein Upgrade von Campaign Standard 20.2 (oder früher) durchführen, beachten Sie bitte, dass die externe API-Funktionalität in der Version 20.3 von Beta auf &quot;Allgemeine Verfügbarkeit&quot; verschoben wurde.
-
-Wenn Sie also in der Betaversion externe API-Aktivitäten verwendet haben, müssen Sie sie in allen Workflows durch allgemein verfügbare externe API-Aktivitäten ersetzen.  Workflows, die die Betaversion der externen API verwenden, funktionieren ab Version 20.3 von Campaign Standard nicht mehr.
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Diese Änderungen der Limits wirken sich nicht auf bestehende externe API-Aktivitäten aus. Daher wird empfohlen, bestehende externe API-Aktivitäten in allen Workflows durch neue zu ersetzen.
 
 Fügen Sie beim Ersetzen externer API-Aktivitäten die neue externe API-Aktivität zum Workflow hinzu, kopieren Sie manuell die Konfigurationsdetails und löschen Sie dann die alte Aktivität.
 
 >[!NOTE]
 >
 >Sie können keine aktivitätenspezifische Header-Werte kopieren, da diese in der Aktivität maskiert sind.
-
-Konfigurieren Sie anschließend andere Aktivitäten im Workflow, die auf Daten der externen API-Aktivität (Beta) verweisen bzw. solche Daten verwenden, sodass sie stattdessen auf Daten der neuen externen API-Aktivität verweisen bzw. solche Daten verwenden. Beispiele für Aktivitäten: E-Mail-Versand (Personalisierungsfelder), Anreicherungsaktivität usw.
 
 ### Einschränkungen und Limits {#guardrails}
 
