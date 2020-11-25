@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6267'
-ht-degree: 100%
+source-wordcount: '6339'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,12 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 ## November 2020 {#doc-updates-november-2020}
 
 Der Abschnitt zum Datenschutz wurde um zwei neue Seiten erweitert: [Datenschutzverwaltung](../../start/using/privacy-management.md) und [Verwaltung von Datenschutzanfragen](../../start/using/privacy-requests.md).
+
+Im Abschnitt Adobe Experience Platform Data Connector wurden Informationen zum Validierungsfehler bei der Datenzuordnung im Zusammenhang mit der Datenschutzverwaltung und zur Fehlerbehebung hinzugefügt. [Mehr dazu](../../developing/using/aep-mapping-activation.md)
+
+Der Abschnitt &quot;Persönliche Daten und Personen&quot;wurde mit einem Verwendungsfallszenario aktualisiert, um zu veranschaulichen, wie die verschiedenen Personen in Bezug auf die Privatsphäre interagieren. [Mehr dazu](../../start/using/privacy.md#use-case-scenario)
+
+Ein neuer Abschnitt mit häufig gestellten Fragen zum Datenschutz wurde hinzugefügt. [Mehr dazu](../../start/using/privacy-faq.md)
 
 ## Version 20.4 - Oktober 2020 {#release-20-4---october-2020}
 
