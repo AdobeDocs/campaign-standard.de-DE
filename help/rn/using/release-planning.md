@@ -6,9 +6,9 @@ description: Auf dieser Seite werden alle kommenden Versionen von Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in 
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>25. bis 26. Januar 2021<br /> </td>
+   <td>25. bis 27. Januar 2021<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
