@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,9 @@ Durch die Integration von Adobe Campaign Standard mit Dreamweaver kann E-Mail-In
 
    E-Mail-Entwickler müssen jetzt nicht mehr Text wie `[[FIRSTNAME_PLACEHOLDER]]` hinzufügen und auch nicht die Syntax Ihrer Datenmodell-Tabellen nachsehen. Die Campaign-Symbolleiste in Dreamweaver stellt eine direkte Verbindung zum Datenmodell Ihrer Campaign-Instanz her. Das bedeutet, dass Sie beliebige Personalisierungsdaten von z. B. Vorname zu Adresse ziehen können. Auch direkt in Campaign erstellte Inhaltsbausteine können direkt zu Dreamweaver gezogen werden.
 
-Diese Funktion wird im Detail im [Dreamweaver-Handbuch](https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html) beschrieben. Auch ein [Video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) ist zur Veranschaulichung verfügbar.
+Diese Funktion wird im Detail im [Dreamweaver-Handbuch](https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html) beschrieben.
+
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 ## Inhalt in Adobe Experience Manager bearbeiten {#editing-content-in-experience-manager}
 
@@ -146,7 +148,15 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
    <td> <strong>Weitere Informationen</strong><br /> </td> 
    <td> Siehe auch <a href="../../designing/using/designing-content-in-adobe-campaign.md">Über Email Designer</a>.<br /> </td> 
    <td> Siehe auch <a href="../../integrating/using/integrating-with-experience-manager.md">Integration mit Experience Manager</a>.<br /> </td> 
-   <td> Siehe auch <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver und Campaign</a> und dieses <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
+   <td> Siehe auch <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver und Campaign</a> und dieses <a href="#video">Video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
+
+## Tutorial-Video {#video}
+
+In diesem Video wird gezeigt, wie Inhalte für Adobe Campaign Standard mit Dreamweaver erstellt und bearbeitet werden.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
