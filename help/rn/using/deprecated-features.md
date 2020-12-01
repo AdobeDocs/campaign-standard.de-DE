@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 97%
+source-wordcount: '658'
+ht-degree: 90%
 
 ---
 
@@ -79,10 +79,10 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Ab Campaign-Version 19.0 wird der alte E-Mail-Editor nicht mehr unterstützt. Verwenden Sie <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">den neuen Email Designer</a>, um Ihren E-Mail-Inhalt zu erstellen und zu personalisieren. </p></br>
-   <p>In <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">diesem Abschnitt</a> erfahren Sie, wie Sie Ihre E-Mail-Vorlagen für den neuen Editor anpassen.</p></br>
+   <td> <p>Ab Campaign-Version 19.0 wird der alte E-Mail-Editor nicht mehr unterstützt. Verwenden Sie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Kampagne Email Designer</a>, um Ihren E-Mail-Inhalt zu erstellen und zu personalisieren. </p></br>
+   <p>In <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">diesem Abschnitt</a> erfahren Sie, wie Sie Ihre E-Mail-Vorlagen für den neuen Editor anpassen.</p></br>
   <p> 
-  <em>Geplantes Datum für die Entfernung: 2021.</em></p>
+  <em>Zielgruppen-Entfernungsdatum: Ende 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -114,7 +114,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Die <b>Neigungsbewertung </b> wurde in Adobe Experience Cloud Triggers eingestellt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte der Neigungsbewertung in den Anreicherungsschemas zu vermeiden, empfehlen wir, die Schemas zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Triggers erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign">Trigger in Campaign publizieren</a>.
+   <td> <p>Die <b>Neigungsbewertung </b> wurde in Adobe Experience Cloud Triggers eingestellt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte der Neigungsbewertung in den Anreicherungsschemas zu vermeiden, empfehlen wir, die Schemas zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Triggers erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html">Trigger in Campaign publizieren</a>.
 </p></br>
    </td> 
   </tr> 
@@ -145,7 +145,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign und Adobe Experience Cloud haben mit Campaign-Version 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 eingestellt. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Mehr dazu</a>.</p>
+   <td> <p>Adobe Campaign und Adobe Experience Cloud haben mit Campaign-Version 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 eingestellt. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Mehr dazu</a>.</p>
    </td> 
   </tr> 
  </tbody> 
