@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
 + Erste Schritte{#getting-started}
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Datenschutz {#privacy}
-      + [Datenschutz und Einverständnis](start/using/privacy.md)
-      + [Datenschutzverwaltung](start/using/privacy-management.md)
-      + [Datenschutzanfragen](start/using/privacy-requests.md)
-      + [Datenschutz FAQ](start/using/privacy-faq.md)
    + Benutzeroberfläche {#discovering-the-interface}
       + [Über die Benutzeroberfläche](start/using/about-the-interface.md)
       + [Benutzeroberfläche](start/using/interface-description.md)
       + [Listen anpassen](start/using/customizing-lists.md)
+      + [Barrierefreiheit](start/using/accessibility.md)
    + Verwenden von Marketingaktivitäten {#marketing-plans}
       + [Programme und Kampagnen](start/using/programs-and-campaigns.md)
       + [Marketingaktivitäten](start/using/marketing-activities.md)
       + [Vorlagen für Marketingaktivitäten](start/using/marketing-activity-templates.md)
       + [Planung](start/using/timeline.md)
+   + Datenschutz {#privacy}
+      + [Datenschutz und Einverständnis](start/using/privacy.md)
+      + [Datenschutzverwaltung](start/using/privacy-management.md)
+      + [Datenschutzanfragen](start/using/privacy-requests.md)
+      + [Datenschutz FAQ](start/using/privacy-faq.md)
 + Profile und Audiences {#profiles-and-audiences}
    + [Erste Schritte mit Profilen und Audiences](audiences/using/get-started-profiles-and-audiences.md)
    + Profile verwalten {#managing-profiles}
