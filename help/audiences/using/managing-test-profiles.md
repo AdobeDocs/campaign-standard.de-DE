@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## Über Testprofile {#about-test-profiles}
 
 Testprofile ermöglichen es, zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenkriterien entsprechen. Sie werden Audiences hinzugefügt, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Erhalt der Sendungen zu kontrollieren.
+
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 Testprofile werden im erweiterten Menü **[!UICONTROL Profile &amp; Audiences > Testprofile]** verwaltet.
 
@@ -65,10 +67,6 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
 Das Testprofil wurde der Liste der Profile hinzugefügt.
 
-**Verwandtes Thema:**
-
-Video [Creating a test profile](https://docs.adobe.com/content/help/de-DE/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html)
-
 ## Testprofile bearbeiten {#editing-test-profiles}
 
 Gehen Sie wie folgt vor, um ein bereits existierendes Testprofil zu bearbeiten bzw. seine Daten einzusehen oder es zu ändern:
@@ -79,3 +77,11 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Testprofil zu bearbeiten b
    ![](assets/test_profile_edit.png)
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Speichern]**, falls Sie Änderungen vorgenommen haben. Andernfalls können Sie oben im Bildschirm den Namen des Testprofils anklicken und dann in der sich öffnenden Dropdown-Liste **[!UICONTROL Testprofile]** auswählen, um zur Übersicht der Testprofile zurückzukehren.
+
+## Tutorial-Video {#video}
+
+In diesem Video wird gezeigt, wie ein Profil zum Testen erstellt wird.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
