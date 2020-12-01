@@ -5,10 +5,10 @@ product: campaign
 title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
-translation-type: ht
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
-workflow-type: ht
-source-wordcount: '221'
+translation-type: tm+mt
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -75,5 +75,5 @@ ht-degree: 100%
 | [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html) | [Campaign-APIs](api/using/get-started-apis.md) |
 | [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) | [Liste von Fehlermeldungen](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanung](rn/using/release-planning.md) | [Campaign-Datenmodell](developing/using/datamodel-introduction.md) |
-| [Eingestellte und entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html) | [Handbuch für mehrere Lösungen](integrating/using/get-started-campaign-integrations.md) |
+| [Eingestellte und entfernte Funktionen](rn/using/deprecated-features.md)) | [Handbuch für mehrere Lösungen](integrating/using/get-started-campaign-integrations.md) |
 | [Erste Schritte mit Campaign Standard](start/using/about-campaign-standard.md) | [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) |
