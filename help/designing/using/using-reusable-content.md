@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1868'
-ht-degree: 100%
+source-wordcount: '1883'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email De
 >[!NOTE]
 >
 > In Adobe Campaign Standard können Sie verschiedene Arten von Vorlagen erstellen, auf die Sie über das Menü **Ressourcen** > **Vorlagen** zugreifen können. In Email Designer werden Inhaltsvorlagen verwendet. Weitere Informationen finden Sie unter [Über Vorlagen](../../start/using/marketing-activity-templates.md).
+
+![](assets/do-not-localize/how-to-video.png) [Entdecken Sie, wie Sie Vorlagen in Videos erstellen](#video)
 
 ### Über Inhaltsvorlagen {#content-templates}
 
@@ -44,7 +46,6 @@ Bei der Bearbeitung von Inhalt mit Email Designer können Sie auch Inhaltsvorlag
 
 **Verwandte Themen:**
 
-* [In diesem Video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html) erfahren Sie, wie Sie Inhaltsvorlagen personalisieren können.
 * Weiterführende Informationen zum Bearbeiten von Inhalten finden Sie im Abschnitt [Über die Inhaltserstellung in E-Mails](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Inhaltsvorlage erstellen {#creating-a-content-template}
@@ -136,8 +137,16 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 **Verwandtes Thema**:
 
 * [E-Mails erstellen](../../channels/using/creating-an-email.md)
-* [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
+* [Einführungsvideo für Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+
+### Tutorial-Video {#video}
+
+In diesen Videos wird gezeigt, wie Sie eine eigene Vorlage erstellen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
 
 ## Über Fragmente        {#about-fragments}
 
