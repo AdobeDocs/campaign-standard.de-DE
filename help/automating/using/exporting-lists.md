@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 # Listenexport{#exporting-lists}
 
 In Adobe Campaign lassen sich Inhalte von Listen direkt in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. Durch das Exportieren einer Liste in eine Datei wird im Menü **[!UICONTROL Export-Audits]** ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
+
+![](assets/do-not-localize/how-to-video.png) [Erfahren Sie, wie Sie eine Liste im Video konfigurieren](#video)
 
 Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit** definiert wurden. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** verwaltet werden.
 
@@ -73,4 +75,11 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
-* Video [Configuring list](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
+
+## Tutorial-Video {#video}
+
+In diesem Video wird die Konfiguration von Listen erläutert.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
