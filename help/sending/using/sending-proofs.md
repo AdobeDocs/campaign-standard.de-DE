@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '611'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Wenn Sie die Nummer des Testversands in der Betreffzeile ausblenden möchten, ak
 
 **Verwandtes Thema:**
 
-* Video [Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
+* Video [Sending a test, preparing and sending an email](../../sending/using/get-started-sending-messages.md#video)
 * [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md)
 * [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
