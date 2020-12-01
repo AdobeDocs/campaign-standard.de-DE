@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1117'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Weiterführende Informationen dazu finden Sie in der [Planungsaktivität](../../
 
 ## Workflow mit Parametern abrufen{#workflow-with-parameters}
 
-Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [this page](../../automating/using/defining-parameters-calling-workflow.md). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
+Stellen Sie sicher, dass Name und Anzahl der Parameter mit der Definition beim Aufrufen des Workflows übereinstimmen (weitere Informationen finden Sie auf [dieser Seite](../../automating/using/defining-parameters-calling-workflow.md). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
 
 Stellen Sie sicher, dass alle Parameter in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurden. Andernfalls tritt ein Fehler beim Ausführen der Aktivität auf.
 
