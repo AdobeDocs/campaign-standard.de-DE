@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Adobe Campaign ermöglicht die Definition und Verwaltung von Genehmigungen, die 
 * **Organisationseinheiten**: ermöglichen ein hierarchisches Genehmigungsmodell für verschiedene Plattformobjekte (E-Mails, Workflows, Vorlagen, Benutzer, Profile etc.). Lesen Sie diesbezüglich auch den Abschnitt [Organisationseinheiten](../../administration/using/organizational-units.md).
 * **Benutzerrollen**: Gesamtheit an Einzelrechten zur Definition von Berechtigungen für Benutzer und Benutzergruppen. Lesen Sie diesbezüglich auch den Abschnitt [Liste der Rollen](../../administration/using/list-of-roles.md).
 
-   Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ansicht der Benutzeroberfläche und definieren ihren Zugriff auf die unterschiedlichen Funktionen. Weiterführende Informationen hierzu finden Sie in der [Tabelle mit Berechtigungen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ansicht der Benutzeroberfläche und definieren ihren Zugriff auf die unterschiedlichen Funktionen. Weiterführende Informationen hierzu finden Sie in der [Tabelle mit Berechtigungen](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >
->Bitte beachten Sie, dass geografische Einheiten nicht weiterverwendet werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
+>Bitte beachten Sie, dass geografische Einheiten nicht weiterverwendet werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../rn/using/deprecated-features.md).
 
 Rollen, Gruppen und Organisationseinheiten können vom funktionalen Administrator der Plattform über das Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit]** verwaltet werden.
 
