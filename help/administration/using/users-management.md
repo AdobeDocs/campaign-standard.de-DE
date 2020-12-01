@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 100%
+source-wordcount: '1273'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ In Adobe Campaign können Sie Ihren Benutzern verschiedene Rollen zuweisen und d
 In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweiligen Berechtigungen genauer beschrieben: [Benutzerrollen](../../administration/using/list-of-roles.md) und [Berechtigungen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weiterführende Informationen dazu finden Sie im [Handbuch zur Admin Console](https://helpx.adobe.com/de/enterprise/using/users.html).
+
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 Der Zugriff auf die Adobe Campaign-Benutzer erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]**.
 
@@ -151,3 +153,11 @@ Anschließend können Sie überprüfen, ob der Benutzer richtig mit Adobe Campai
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 Ihr Benutzer kann jetzt Adobe Campaign Standard verwenden.
+
+## Tutorial-Video (#video)
+
+In diesem Video wird gezeigt, wie Benutzerzugriffsrechte verwaltet werden.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
