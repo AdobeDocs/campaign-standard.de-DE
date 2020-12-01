@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereig
 
    Zur Bearbeitung des Felds **[!UICONTROL Bedingung]** stehen zwei Schaltflächen zur Verfügung, mit denen Ereignisvariablen aufgerufen und Ausdrücke durch die Kombination von Variablen und Funktionen bearbeitet werden können:
 
-   * ![](assets/extsignal_picker.png): Wählen Sie die Variable &quot;Ereignis&quot;unter allen Variablen aus, die im Workflow verfügbar sind (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png): Wählen Sie die Ereignisvariable aus den im Workflow verfügbaren Variablen aus (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
 
       ![](assets/wkf_test_activity_variables.png)
 
