@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # Dienst erstellen{#creating-a-service}
 
 Um Anmeldungen verwalten zu können, müssen Sie zunächst einen Dienst erstellen und konfigurieren. Durch die Konfiguration eines neuen Dienstes können Sie die Bestätigungs-E-Mails spezifizieren, welche die Nutzer erhalten, die sich vom Dienst an- oder abmelden. Außerdem definieren Sie dabei die Anmelde- und -Abmelde-Landingpages, die dem Dienst zugeordnet sind. Beispielsweise leitet ein in eine E-Mail eingefügter Anmelde-Link für einen Dienst den Nutzer zu der im Dienst angegebenen Anmelde-Landingpage weiter.
+
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 So konfigurieren Sie einen Dienst:
 
@@ -55,7 +57,14 @@ Nachdem ein Dienst erstellt wurde, können Sie damit beginnen, ihn zu bewerben.
 
 **Verwandte Themen:**
 
-* Video [Managing a service and subscriptions](https://docs.adobe.com/content/help/de-DE/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
 * [Dienst bewerben](../../audiences/using/promoting-a-service.md)
 * [Erstellen einer Audience aus Abonnenten](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Verknüpfen einer Landingpage mit einem Dienst ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Tutorial-Video {#video}
+
+In diesem Video wird gezeigt, wie ein Dienst erstellt und seine Abonnement verwaltet werden.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
