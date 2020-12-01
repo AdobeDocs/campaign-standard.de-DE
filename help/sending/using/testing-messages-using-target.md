@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 100%
+source-wordcount: '1587'
+ht-degree: 98%
 
 ---
 
@@ -35,11 +35,11 @@ Die wichtigsten Schritte sind:
 1. Nutzen Sie die **Vorschau** in Email Designer, um zu ermitteln, wie die Nachricht für die Profile angezeigt wird.
 1. Versenden Sie die Testsendungen.
 
-Weiterführende Informationen zum allgemeinen Verfahren finden Sie im Tutorial-Video, das [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html) verfügbar ist.
-
 >[!IMPORTANT]
 >
 >Mit dieser Funktion können Sie personenbezogene Daten des Profils an externe E-Mail-Adressen senden. Beachten Sie, dass eine Ausführung von Datenschutzanfragen (DSGVO und CCPA) in Campaign Standard NICHT zu einer externen Ausführung der Anfrage führen wird.
+
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 ## Auswählen von Profilen und Ersatzadressen {#selecting-profiles}
 
@@ -266,3 +266,11 @@ Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
 1. Die Testsendungen werden entsprechend der Konfiguration auf dem Tab **[!UICONTROL Profilersetzungen]** gesendet.
 
    ![](assets/substitution_uc_proofs.png)
+
+## Tutorial-Video {#video}
+
+In diesem Video wird gezeigt, wie Sie Ihre E-Mail-Nachrichten mithilfe der Ersetzung von Profilen testen können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
