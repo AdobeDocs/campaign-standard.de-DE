@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -64,5 +64,4 @@ Mit Campaign Standard-APIs können Sie Integrationen für Campaign erstellen und
 ## Zusätzliche Ressourcen
 
 * [Über Adobe Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md)
-* [Benutzerdefinierte Ressourcen erstellen (Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [Exportieren/Importieren benutzerdefinierter Ressourcen](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-cusres.html)
