@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ Nachdem Sie die Zielgruppe definiert und den Inhalt einer Nachricht erstellt hab
 Sobald die Marketing-Kampagnen ausgeführt und die verschiedenen Nachrichten gesendet wurden, können Sie diese mithilfe von Protokollen überwachen, um den Erfolg Ihrer Kampagne zu überprüfen und Tracking-Informationen zu den Empfängern abzurufen.
 
 Nutzen Sie schließlich die in Campaign Standard verfügbaren Zustellbarkeitsrichtlinien und Werkzeuge, um die Anzahl der zugestellten Nachrichten zu erhöhen und erfolgreiche Marketing-Kampagnen sicherzustellen.
+
+![](assets/do-not-localize/how-to-video.png) [Erfahren Sie, wie Sie eine Test-E-Mail senden, einen E-Mail-Versand im Video vorbereiten und senden können](#video)
 
 ## Vorbereiten und Testen {#prepare-test-send}
 
@@ -89,8 +91,14 @@ Mehr dazu:
 ## Zusätzliche Ressourcen
 
 * [E-Mails für A/B-Test entwerfen](../../channels/using/designing-an-a-b-test-email.md)
-* [Testversand, Vorbereiten und Senden einer E-Mail (Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [E-Mail-Versand und Berichte prüfen (Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Erste Schritte mit E-Mails](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
 * [Best Practices beim Versand](../../sending/using/delivery-best-practices.md)
 * [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
+
+## Tutorial-Video {#video}
+
+Dieses Video zeigt, wie Sie eine Test-E-Mail senden, einen E-Mail-Versand vorbereiten und dann in Campaign Standard senden können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
