@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 100%
+source-wordcount: '994'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ Sie können Transitionen vor oder nach der Ausführung des Workflows öffnen, um
 
 ![](assets/workflow_overview.png)
 
-
 ## Workflow erstellen   {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
+
+![](assets/do-not-localize/how-to-video.png) [Entdecken Sie, wie Sie einen Workflow in Video erstellen](#video)
 
 Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -67,14 +68,13 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
 1. Nach Bestätigung der Aktivitätserstellung werden Sie zum entsprechenden Dashboard weitergeleitet. Lesen Sie diesbezüglich auch den Abschnitt [Workflow-Oberfläche](../../automating/using/workflow-interface.md).
 
-1. Sobald der Workflow zur Konfiguration bereit ist, können Sie über die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** auf weitere Optionen zugreifen. Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
+1. Sobald der Workflow zur Konfiguration bereit ist, können Sie über die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** auf weitere Optionen zugreifen.
+
+   Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
+
+   Weitere Informationen zu den Eigenschaften von Workflows finden Sie auf [dieser Seite](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
-
-**Verwandtes Thema:**
-
-* Video [Creating a workflow](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
-* [Workflow-Eigenschaften](../../automating/using/managing-execution-options.md)
 
 ## Aktivitäten hinzufügen und verbinden {#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Dat
 1. Definieren Sie alle Optionen, die Sie zur Verarbeitung der Daten benötigen. Die möglichen Optionen für jede Aktivität erfahren Sie im jeweiligen Abschnitt dieser Dokumentation.
 1. Speichern Sie die Aktivität und wiederholen Sie das Verfahren für jede Aktivität im Workflow.
 1. Speichern Sie den Workflow.
+
+## Tutorial-Video {#video}
+
+In diesem Video wird gezeigt, wie ein Workflow erstellt wird.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
