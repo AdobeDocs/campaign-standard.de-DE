@@ -6,18 +6,18 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '2953'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+workflow-type: tm+mt
+source-wordcount: '2950'
+ht-degree: 99%
 
 ---
 
 
 # Versionshinweise 2020{#release-notes-2020}
 
-[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html)
+[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
@@ -291,7 +291,7 @@ ht-degree: 100%
 * Die organisatorische Einheit der Sicherheitsgruppe „Administratoren“ kann nicht mehr geändert werden.
 * Beim Erstellen eines Profils muss jetzt das Feld für die Organisationseinheit ausgefüllt werden.
 * Ein Experience Cloud Trigger kann jetzt nur gelöscht werden, wenn sowohl das Ereignis als auch die mit ihm verknüpfte Transaktionsvorlage gelöscht werden.
-* [!DNL Adobe Creative SDK] wurde eingestellt. Es wird jetzt in Campaign Standard nicht mehr unterstützt. Näheres dazu finden Sie auf der Seite [Veraltete und bereits entfernte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] wurde eingestellt. Es wird jetzt in Campaign Standard nicht mehr unterstützt. Näheres dazu finden Sie auf der Seite [Veraltete und bereits entfernte Funktionen](../../rn/using/deprecated-features.md).
 
 
 **Korrekturen**
