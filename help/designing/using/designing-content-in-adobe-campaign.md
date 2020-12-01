@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 100%
+source-wordcount: '1238'
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,9 @@ Email Designer ermöglicht die Bereitstellung von HTML-Code, der für responsive
 
 Email Designer ermöglicht die Erstellung von E-Mail-Inhalten und Vorlagen für E-Mail-Inhalte. Der Editor ist kompatibel mit einfachen E-Mails, Transaktions-E-Mails, A/B-Test-E-Mails, mehrsprachigen E-Mails und wiederkehrenden E-Mails.
 
-In diesen [Videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [Entdecken Sie den E-Mail-Designer im Video](#video)
 
 * Informationen zum Erstellen von E-Mail-Inhalten finden Sie unter [Erste Schritte mit Email Designer](../../designing/using/quick-start.md).
 * Eine Übersicht über Email Designer finden Sie unter [Verwenden von Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -158,3 +158,11 @@ Beachten Sie bei Fragmenten Folgendes:
 * [Landingpage erstellen](../../channels/using/designing-a-landing-page.md)
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
 * [Push-Benachrichtigung erstellen und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## Tutorial-Video {#video}
+
+In diesem Video erhalten Sie einen Überblick über den E-Mail-Designer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+In diesen [Videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können
