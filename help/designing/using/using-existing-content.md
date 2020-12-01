@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 98%
 
 ---
 
@@ -103,9 +103,11 @@ Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 1. Definieren Sie die URL, von der der Inhalt abgerufen werden soll.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-**Verwandtes Thema:**
+Entdecken Sie diese Funktion im Video.
 
-Video zum [Importieren von Inhalt von einer URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent)
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
 
 ### Während der Vorbereitung Inhalt von einer URL automatisch abrufen {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -162,7 +164,7 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 **Verwandtes Thema**:
 
 * [E-Mails erstellen](../../channels/using/creating-an-email.md)
-* [Einführungsvideo für Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ger)
+* [Einführungsvideo für Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## HTML-Inhalte konvertieren {#converting-an-html-content}
