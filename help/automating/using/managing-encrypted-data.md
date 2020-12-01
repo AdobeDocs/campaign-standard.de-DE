@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Sobald die Anfrage verarbeitet wurde, stehen im Feld **[!UICONTROL Vorab-Bearbei
 
 In diesem Anwendungsfall erstellen wir einen Workflow, um Daten, die in einem externen System verschlüsselt wurden, mithilfe eines im Control Panel generierten Schlüssels zu importieren.
 
-In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings) finden Sie außerdem ein Video, in dem gezeigt wird, wie Daten mit einem GPG-Schlüssel entschlüsselt werden können.
+In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=de#instance-settings) finden Sie außerdem ein Video, in dem gezeigt wird, wie Daten mit einem GPG-Schlüssel entschlüsselt werden können.
 
 Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
@@ -89,7 +89,7 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 In diesem Anwendungsfall wird ein Workflow erstellt, um Daten mit einem im Control Panel installierten Schlüssel zu verschlüsseln und zu exportieren.
 
-A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
+A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=de#instance-settings)).
 
 Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
@@ -97,7 +97,7 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
    ![](assets/gpg_install.png)
 
-1. Erstellen Sie in Campaign Standard einen Workflow, um die Daten zu exportieren und mit dem privaten Schlüssel zu verschlüsseln, der über die Systemsteuerung installiert wurde. Zu diesem Zweck wird folgender Workflow erstellt:
+1. Erstellen Sie einen Workflow in Campaign Standard, um die Daten mithilfe des über das Control Panel installierten privaten Schlüssels zu exportieren und zu verschlüsseln. Zu diesem Zweck wird folgender Workflow erstellt:
 
    ![](assets/gpg-workflow-export.png)
 
