@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 72fd9693fa089a7246bbb87fc10e6fcc4276eddd
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 94%
 
 ---
 
@@ -30,6 +30,8 @@ Als Cloud-basierte Lösung bietet Adobe Campaign Administratoren unterschiedlich
 >
 >Wenn Sie Fragen oder Anliegen zur Implementierung und Konfiguration haben, kontaktieren Sie Ihren Adobe-Kundenbetreuer.
 
+Beachten Sie, dass Admin-Benutzer, wenn Ihre Instanz auf AWS gehostet wird, auch die Systemsteuerung der Kampagne nutzen können, um die Einstellungen zu verwalten und Nutzungen für jede Ihrer Instanzen zu verfolgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+
 ## Menü &quot;Administration&quot; {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
@@ -45,7 +47,7 @@ Folgende Menüs stehen zur Verfügung:
 * [Instanzenkonfiguration](../../administration/using/branding.md) - erlaubt die Definition verschiedener Marken und ihrer Parameter (Logo, Trackingverwaltung, Domain der Landingpage-URLs etc.).
 * [Freigabe](../../automating/using/managing-packages.md) - bietet Zugriff auf die Package-Exporte und -Importe.
 * [Kundenmetriken](../../audiences/using/active-profiles.md): Adobe Campaign erstellt einen Bericht, in dem die Anzahl der aktiven Profile dargestellt wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung.
-* [Datenschutz-Tools](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html): In diesem Menü können Sie einen DSGVO-konformen Zugriff erstellen sowie Abfragen löschen und ihre Entwicklung verfolgen.
+* [Datenschutz-Tools](../../start/using/privacy-management.md): In diesem Menü können Sie einen DSGVO-konformen Zugriff erstellen sowie Abfragen löschen und ihre Entwicklung verfolgen.
 
 ## Benutzer und Sicherheit {#users-security}
 
@@ -100,8 +102,3 @@ Mehr dazu:
 * [Technische Workflows](../../administration/using/technical-workflows.md)
 * [Marken](../../administration/using/branding.md)
 * [Interne Benachrichtigungen senden](../../administration/using/sending-internal-notifications.md)
-
-## Zusätzliche Ressourcen
-
-* [Benutzerzugriffsrechte verwalten (Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
-* [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html)
