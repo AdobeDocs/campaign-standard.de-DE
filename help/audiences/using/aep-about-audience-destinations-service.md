@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Adobe Campaign Standard verwendet dann den Dienst **Audience Destinations**, um 
 
 Nach dem Erstellen eines Segments können Sie es als Audience für einen Versand in [Campaign Standard-Workflows](../../automating/using/aep-targeting-audiences.md) aktivieren. Darüber hinaus können Sie Kontextdaten aus Adobe Experience Platform verwenden, um Nachrichten zu [personalisieren](../../automating/using/aep-personalizing-campaigns.md) und dynamische Inhalte zu Ihren Kampagnen hinzuzufügen.
 
-Anleitungsvideos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) verfügbar.
+![](assets/do-not-localize/how-to-video.png) Anleitungsvideos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) verfügbar.
 
 In diesen Abschnitten verwendete Begriffe:
 
