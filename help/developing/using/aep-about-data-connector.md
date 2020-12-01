@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '789'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Experience Platform Data Connector ist für **Dateningenieure** gedacht, d
 
 Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen eines Daten-Mappings zwischen Campaign Standard und Adobe Experience Platform. Dies beginnt mit der Erstellung eines XDM-Schemas und eines Datensatzes.
 
-Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) verfügbar.
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 >[!NOTE]
 >Sobald Adobe Experience Platform Data Connector konfiguriert und Daten erfolgreich in Adobe Experience Platform integriert wurden, müssen Sie den Datensatz aktivieren, damit die Daten in das Echtzeit-Kundenprofil aufgenommen werden.
@@ -75,3 +75,11 @@ Videos sind auch auf [dieser Seite](https://docs.adobe.com/content/help/en/campa
 * Beschränkungen für Marketing-Aktionen werden erst nach Anwendung der DULE-Kennzeichnungen in Adobe Experience Platform wirksam. Davor sind alle Daten für alle Arten von Marketing-Aktionen verfügbar.
 
 * Die Batch-Vorgänge wird alle 15 Minuten ausgeführt und identifiziert die Datensätze, die sich seit dem letzten Batch geändert haben. Wenn sich alle Datensätze zum gleichen Zeitpunkt ändern, könnte bei der Erfassung aller Profile ein Leistungsengpass auftreten.
+
+## Tutorial-Video {#video}
+
+Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Connector.
+
+https://video.tv.adobe.com/v/27304?quality=12&amp;captions=ger
+
+Weitere Videos zum Adobe Experience Platform Data Connector finden Sie unter [hier](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html).
