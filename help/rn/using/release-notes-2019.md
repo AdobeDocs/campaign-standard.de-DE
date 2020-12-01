@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '7628'
+source-wordcount: '7629'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 # Versionshinweise 2019{#release-notes-2019}
 
-[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Neueste Versionshinweise](../../rn/using/release-notes.md) | [Eingestellte Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html)
+[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Neueste Versionshinweise](../../rn/using/release-notes.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ## Version 19.4 – Dezember 2019 {#release-19-4---october-2019}
 
@@ -35,7 +35,7 @@ ht-degree: 99%
    <p>Zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) stellen wir daher weitere Funktionen bereit, mit deren Hilfe Sie CCPA-konformes Verhalten sicherstellen können:</p>
    <ul>
     <li>Recht auf Zugriff und Recht auf Löschung: Dazu nutzen wir die Funktionen, die wir analog dazu für die DSGVO ergänzt haben – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">mehr dazu</a> </li>
-    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html">Eingestellte und entfernte Funktionen</a>.</p></li>
+    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Eingestellte und entfernte Funktionen</a>.</p></li>
     <li>Ein Feld für die <strong>Abmeldung gemäß CCPA</strong> wurde zur Profilressource hinzugefügt, über das Adobe Campaign-Benutzer nachverfolgen können, ob ein Kunde die Weitergabe seiner personenbezogenen Daten untersagt hat. <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa">Mehr dazu</a>.</li>
   </ul>
     <p>Weitere Informationen finden Sie in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/privacy/privacy-overview.html">diesem Video</a>.</p>
@@ -488,7 +488,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 **Sonstige Änderungen**
 
-* Adobe Campaign und Adobe Experience Cloud stellen mit Campaign Standard Release 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 ein. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. Näheres dazu finden Sie auf der Seite der [eingestellten und entfernten Funktionen](https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html).
+* Adobe Campaign und Adobe Experience Cloud stellen mit Campaign Standard Release 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 ein. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. Näheres dazu finden Sie auf der Seite der [eingestellten und entfernten Funktionen](../../rn/using/deprecated-features.md).
 * Das Feld **Ländercode** in der Profilressource wurde in **Länder-/Regionscode** umbenannt.
 
 **Korrekturen**
@@ -535,7 +535,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
      <li> Die Möglichkeit, <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">in der Vorbereitungsphase Inhalt von einer URL automatisch abzurufen</a> </li> 
      <li> Vollständig kompatible <a href="../../designing/using/using-reusable-content.md#content-templates">native Inhaltsvorlagen</a>. </li> 
     </ul> 
-    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://helpx.adobe.com/de/campaign/kb/acs-deprecated-and-removed-features.html">Seite</a>.</p> </td> 
+    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Seite</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlisten in Transaktions-E-Mails<br /> </td> 
