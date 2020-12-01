@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Gehen Sie zur Konfiguration der **[!UICONTROL Ende]**-Aktivität folgendermaßen
 1. Wählen Sie den Workflow und die Aktivität &quot;Externes Signal&quot; aus, die aufgerufen werden sollen.
 1. Wählen Sie die Schaltfläche **[!UICONTROL Element erstellen]** aus, um einen Parameter hinzuzufügen. Geben Sie dann Namen und Wert ein.
 
-   * **[!UICONTROL Name]**: den Namen, der in der Aktivität **[!UICONTROL Externes Signal]** deklariert wurde (siehe [diese Seite](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Name]**: der Name, der in der Aktivität **[!UICONTROL Externes Signal]** angegeben wurde (siehe [diese Seite](../../automating/using/declaring-parameters-external-signal.md)).
    * **[!UICONTROL Wert]**: der Wert, der dem Parameter zugewiesen werden soll. Der Wert sollte der **Standardsyntax** entsprechen, die in [diesem Abschnitt](../../automating/using/advanced-expression-editing.md#standard-syntax) beschrieben wird.
 
    ![](assets/extsignal_definingparameters_2.png)
