@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 92%
 
 ---
 
@@ -22,6 +22,8 @@ In Adobe Campaign dienen Profile standardmäßig der Bestimmung der Hauptzielgru
 >[!NOTE]
 >
 >Die Erstellung von Profilen ist auch mithilfe der Adobe Campaign Standard API möglich. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../api/using/creating-profiles.md).
+
+![](assets/do-not-localize/how-to-video.png) [Entdecken Sie, wie Sie Profile mit einem Videoworkflow importieren](#video)
 
 Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 
@@ -60,7 +62,10 @@ Das Profil wurde der Liste hinzugefügt.
 >[!NOTE]
 >Das Feld &quot;Bevorzugte Sprache&quot; wird verwendet, um beim Versand mehrsprachiger Nachrichten die Sprache auszuwählen. Weiterführende Informationen zu mehrsprachigen Nachrichten [finden Sie auf dieser Seite](../../channels/using/creating-a-multilingual-email.md).
 
-**Verwandte Themen:**
+## Tutorial-Video {#video}
 
-* [Über Landingpages](../../channels/using/getting-started-with-landing-pages.md)
-* [Profilimport](https://video.tv.adobe.com/v/24993?captions=ger)     Video
+In diesem Video wird gezeigt, wie Profil mit einem Workflow importiert werden.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
