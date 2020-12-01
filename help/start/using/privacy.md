@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 80%
+ht-degree: 83%
 
 ---
 
@@ -77,7 +77,7 @@ Bei der Verwaltung des Datenschutzes ist es wichtig zu definieren, welche Daten 
 
 Bei der Integration von Campaign mit anderen Experience Cloud-Lösungen, bei denen Audiences von einem System auf ein anderes übertragen werden können, wie z. B. mit [Audience Destination Service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager oder People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) oder anderen Lösungen wie [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), müssen Sie dem Schutz personenbezogener Daten besondere Aufmerksamkeit widmen.
 
-The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
+Die [wichtigsten Rechtsvorschriften](#privacy-regulations) beziehen sich auf die verschiedenen Einheiten, die Daten wie folgt verwalten:
 * Ein **Datenverantwortlicher** ist die Autorität, die die Mittel und den Zweck der Erfassung, Verwendung und Weitergabe personenbezogener Daten festlegt.
 * Ein **Auftragsverarbeiter** ist eine natürliche oder juristische Person, die personenbezogene Daten gemäß den Anweisungen des Datenverantwortlichen erfasst, verwendet oder weitergibt.
 * Eine **betroffene Person** ist eine lebende Person, deren personenbezogene Daten erfasst, verwendet oder weitergegeben werden und die direkt oder indirekt anhand dieser personenbezogenen Daten identifiziert werden kann.
@@ -121,7 +121,7 @@ Mit Adobe Campaign können Sie Daten, einschließlich persönlicher und vertraul
 
 ## Datenschutzverwaltung {#privacy-management}
 
-Die Datenschutzverwaltung bezieht sich auf alle Prozesse und Tools, mit denen Sie die Datenschutzbestimmungen (DSGVO, CCPA usw.) einhalten können. Get an overview of what Privacy management is on [this page](../../start/using/privacy-management.md).
+Die Datenschutzverwaltung bezieht sich auf alle Prozesse und Tools, mit denen Sie die Datenschutzbestimmungen (DSGVO, CCPA usw.) einhalten können. Verschaffen Sie sich auf [dieser Seite](../../start/using/privacy-management.md) einen Überblick über die Datenschutzverwaltung.
 
 Adobe Campaign bietet Ihnen verschiedene Funktionen zur Datenschutzverwaltung:
 * Einverständnisverwaltung, Datenbeibehaltung und Benutzerrollen. Siehe [diesen Abschnitt](#consent).
@@ -139,7 +139,7 @@ Zunächst bietet Adobe Campaign wichtige Funktionen, die für den Datenschutz un
 * **Datenbeibehaltung**: Alle integrierten standardmäßigen Protokolltabellen in Campaign verfügen über eine vordefinierte Beibehaltungsdauer, die üblicherweise auf maximal sechs Monate begrenzt ist. Mit Workflows können weitere Beibehaltungszeiträume eingerichtet werden. Weitere Informationen hierzu erhalten Sie von den Adobe-Beratern oder technischen Administratoren.
 * **Berechtigungs-Management**: Adobe Campaign bietet Ihnen die Möglichkeit, die den unterschiedlichen Campaign-Benutzern zugewiesenen Rechte mithilfe von vordefinierten oder benutzerdefinierten spezifischen Rollen zu verwalten. Damit können Sie festlegen, wer in Ihrem Unternehmen auf unterschiedliche Arten von Daten zugreifen, diese ändern und exportieren kann. Weitere Informationen hierzu finden Sie unter [Über die Zugriffsverwaltung](../../administration/using/about-access-management.md).
 
-For more on these features and how to manage them in Adobe Campaign, see [this section](../../start/using/privacy-management.md#consent-retention-roles).
+Weitere Informationen zu diesen Funktionen und deren Verwaltung in Adobe Campaign finden Sie in [diesem Abschnitt](../../start/using/privacy-management.md#consent-retention-roles).
 
 ### Datenschutzanfragen {#privacy-requests}
 
@@ -155,7 +155,7 @@ Die Implementierungsschritte zum Erstellen dieser Anfragen werden in [diesem Abs
 
 ## Tracking-Funktionen {#tracking-capabilities}
 
-Über Tracking-Funktionen ermöglicht Adobe Campaign mittels Sitzungs- und permanenten Cookies die Verfolgung des Verhaltens von Versandempfängern. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../sending/using/tracking-messages.md).
+Über Tracking-Funktionen ermöglicht Adobe Campaign mittels Sitzungs- und permanenten Cookies die Verfolgung des Verhaltens von Versandempfängern. Weitere Informationen zum Tracking finden Sie in [diesem Abschnitt](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
