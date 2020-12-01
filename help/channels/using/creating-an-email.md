@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 # E-Mails erstellen{#creating-an-email}
 
 Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/marketing-activities.md#creating-a-marketing-activity), ausgehend von der [Adobe Campaign-Startseite](../../start/using/interface-description.md#home-page) oder in der [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities). In Workflows lassen sich ebenfalls E-Mails zum einmaligen oder zum wiederkehrenden Versand erstellen.
+
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 1. Erstellen Sie eine neue Marketingaktivität vom Typ E-Mail und wählen Sie die E-Mail-Vorlage aus, die Sie verwenden möchten.
 
@@ -88,7 +90,14 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 **Verwandte Themen**:
 
-* Video [E-Mails erstellen](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 * Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
-* Video zur [Integration von Adobe Campaign und Dreamweaver](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+*  zur [Integration von Adobe Campaign und Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integration mit Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
+
+## Tutorial-Video {#video}
+
+In diesem Video wird gezeigt, wie eine E-Mail erstellt wird.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+
+Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
