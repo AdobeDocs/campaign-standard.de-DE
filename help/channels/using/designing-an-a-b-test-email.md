@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '849'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
    >Bei Gleichstand muss die Gewinnervariante manuell ausgewählt werden. Sie können eine Benachrichtigung für den Autor und den/die Bearbeiter einer E-Mail einrichten, wenn eine Variante ausgewählt wurde oder ausgewählt werden muss. Weiterführende Informationen dazu finden Sie im Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 Ihre E-Mail ist jetzt definiert und kann gesendet werden. Sie können Protokolle und Berichte aufrufen, um den Erfolg Ihrer Kampagne zu messen.
-
-**Verwandtes Thema**:
-
-Video zur [E-Mail-Erstellung](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## Über A/B-Test-Indikatoren {#about-a-b-test-indicators}
 
