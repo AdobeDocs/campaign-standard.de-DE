@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Der CCPA-Opt-out-Status eines Profils kann mithilfe des Profilattributs **ccpaOp
 >
 >Das Attribut &quot;CCPA-Opt-out&quot; ist erst ab Version 19.4 verfügbar. In 19.3-Umgebungen müssen Sie die Profilressource erweitern und ein boolesches Feld hinzufügen. Dieses Feld wird der API mit dem ausgewählten Titel hinzugefügt. Wir empfehlen Ihnen die Verwendung von &quot;Opt-out für CCPA&quot;.
 >
->Weitere Informationen finden Sie in der Dokumentation [Verwalten von Datenschutzanforderungen](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>Weitere Informationen finden Sie in der Dokumentation [Verwalten von Datenschutzanfragen](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
