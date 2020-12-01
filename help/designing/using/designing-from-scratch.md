@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2d28048590b52b81f27cd1cfe10be029bbc35197
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1271'
 ht-degree: 100%
 
 ---
@@ -100,7 +100,6 @@ Sie können einen **[!UICONTROL Inhaltsbaustein]**, einen **[!UICONTROL dynamisc
 >
 >Preheader sind nicht mit allen E-Mail-Programmen kompatibel. Wenn Preheader nicht unterstützt werden, werden sie nicht angezeigt.
 
-
 ## Verwenden von Inhaltskomponenten {#about-content-components}
 
 >[!CONTEXTUALHELP]
@@ -124,11 +123,11 @@ Wählen Sie **[!UICONTROL Fallback-Ansicht]** aus, um das Fallback-Bild in Email
 
 ### **[!UICONTROL Text]**
 
-    Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe des Textes in den **[!UICONTROL Komponenteneinstellungen]** anpassen.
+Verwenden Sie diese Komponente, um Text in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe des Textes in den **[!UICONTROL Komponenteneinstellungen]** anpassen.
 
 ### **[!UICONTROL Trennlinie]**
 
-    Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe der Trennlinie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
+Verwenden Sie diese Komponente, um eine Trennlinie in Ihre E-Mail einzufügen. Sie können die Farbe, den Stil und die Größe der Trennlinie in den **[!UICONTROL Komponenteneinstellungen]** auswählen.
 
 ### **[!UICONTROL HTML]**
 
@@ -142,17 +141,15 @@ Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten,
 
 Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den HTML-Code mithilfe der **[!UICONTROL HTML]**-Inhaltskomponente aus der Original-E-Mail kopieren und einfügen. Nur Benutzer, die mit HTML vertraut sind, sollten diese Schritte ausführen.
 
-<!-- A full example is presented below. -->
-
 >[!NOTE]
 >
 >Der neue Inhalt ist keine exakte Kopie der ursprünglichen E-Mail, aber mithilfe der unten stehenden Schritte können Sie eine Nachricht erstellen, die dem Original möglichst ähnelt.
 
-    **Vor dem Kopieren des Inhalts**
-    
-    1. Stellen Sie fest, welche Bereiche Ihrer ursprünglichen E-Mail Sie in späteren E-Mails wiederverwenden möchten.
-    1. Speichern Sie alle Bilder und Kreativelemente, die Sie verwenden möchten.
-    1. Wenn Sie ausreichende HTML-Kenntnisse haben, teilen Sie Ihren ursprünglichen HTML-Inhalt in unterschiedliche Teile auf.
+**Vor dem Kopieren des Inhalts**
+
+1. Stellen Sie fest, welche Bereiche Ihrer ursprünglichen E-Mail Sie in späteren E-Mails wiederverwenden möchten.
+1. Speichern Sie alle Bilder und Assets, die Sie verwenden möchten.
+1. Wenn Sie ausreichende HTML-Kenntnisse haben, teilen Sie Ihren ursprünglichen HTML-Inhalt in unterschiedliche Teile auf.
 
 ### Video {#video-settings}
 
@@ -161,7 +158,6 @@ Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den 
 >title="Videoeinstellungen"
 >abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen. Beachten Sie, dass Videos nicht auf allen E-Mail-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Zusätzliche Informationen"
-
 
 Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und geben Sie den Video-Link in die **[!UICONTROL Komponenteneinstellungen]** ein.
 
