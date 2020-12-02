@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '6331'
+source-wordcount: '6333'
 ht-degree: 98%
 
 ---
@@ -51,11 +51,11 @@ Den Best Practices bei Workflows wurde eine Empfehlung zur Anzahl der pro Workfl
 
 Es wurde ein neuer Abschnitt zu Best Practices beim Versand hinzugefügt. [Mehr dazu](../../sending/using/delivery-best-practices.md)
 
-Es wurde ein Abschnitt hinzugefügt, in dem die neuen Filter beschrieben werden, mit denen die Ereigniskonfigurationen nach ihrem Status und dem letzten Eingang eines Ereignisses durchsucht werden können – [mehr dazu](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
+Es wurde ein Abschnitt hinzugefügt, in dem die neuen Filter beschrieben werden, mit denen die Ereigniskonfigurationen nach ihrem Status und dem letzten Eingang eines Ereignisses durchsucht werden können – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## September 2020 {#doc-updates-september-2020}
 
-Der Abschnitt &quot;Ereignis-Transaktionsnachrichten&quot; wurde neu organisiert und besser erklärt – [mehr dazu](../../channels/using/editing-transactional-message.md)
+Der Abschnitt &quot;Ereignis-Transaktionsnachrichten&quot; wurde neu organisiert und besser erklärt – [mehr dazu](../../channels/using/event-transactional-messages.md)
 
 Es wurde ein Warnhinweis hinzugefügt, der Benutzer über Einschränkungen bei Berechtigungen im Zusammenhang mit dem Protokollzugriff warnt – [mehr dazu](../../administration/using/users-management.md)
 
@@ -135,7 +135,7 @@ Zusätzliche Ressourcen wurden zur Startseite der Dokumentation hinzugefügt –
 
 Informationen zum Experience Cloud ID-Dienst (ECID) wurden der Adobe Experience Platform Data Connector-Dokumentation hinzugefügt – [mehr dazu](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-Der Bereich &quot;Transaktionsnachrichten&quot;wurde um Informationen zum Zugriff auf die neuesten transaktionalen Ereignis und die aktualisierten Screenshots erweitert. [mehr dazu](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+Der Abschnitt &quot;Transaktionsnachrichten konfigurieren&quot; wurde um Informationen zum Zugriff auf die neuesten Transaktionsereignisse und aktualisierte Screenshots erweitert – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 Die Dokumentation zu Typologien und Typologieregeln wurde verbessert und mit zusätzlichen Informationen zu integrierten Typologieregeln aktualisiert – [mehr dazu](../../sending/using/about-typology-rules.md)
 
@@ -143,15 +143,15 @@ Bei der Aktivität **[!UICONTROL Dateiübertragung]** wurden der Aktion **[!UICO
 
 Die Dokumentation zu weiteren Zustellversuchen nach einem temporären Versandfehler wurde aktualisiert und enthält nun weitere Details dazu, wie zusätzliche Zustellversuche nach der Aktualisierung auf den erweiterten MTA verwaltet werden – [mehr dazu](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-Der Abschnitt &quot;Transaktionsnachricht löschen&quot; wurde verbessert und deutlicher erklärt – [mehr dazu](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
+Der Abschnitt &quot;Transaktionsnachricht löschen&quot; wurde verbessert und deutlicher erklärt – [mehr dazu](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-Der Abschnitt **Vorschau von Sendungen** wurde mit Beispielen für den mobilen Versand aktualisiert – [mehr dazu](../../sending/using/previewing-messages.md)
+Der Abschnitt **Vorschau von Sendungen** wurde mit Beispielen für den mobilen Versand aktualisiert –[mehr dazu](../../sending/using/previewing-messages.md)
 
-Best Practices für Transaktionsnachrichten und das Löschen nicht verwendeter Echtzeit-Ereignisse wurden hinzugefügt – [mehr dazu](../../channels/using/configuring-transactional-event.md#creating-an-event)
+Best Practices für Transaktionsnachrichten und das Löschen nicht verwendeter Echtzeit-Ereignisse wurden hinzugefügt – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 Der Abschnitt zum Konfigurieren des E-Mail-Kanals wurde aktualisiert und enthält nun Informationen zu allen E-Mail-Einstellungen, die jetzt vom erweiterten MTA von Adobe Campaign verwaltet werden – [mehr dazu](../../administration/using/configuring-email-channel.md)
 
-Der Bereich &quot;Transaktionsnachrichten&quot;wurde aktualisiert und enthält weitere Informationen zu den Rechten, die zur Bearbeitung von Ereignis-Konfigurationen und zur Erweiterung von Sammlungen in Transaktionsnachrichten erforderlich sind. [mehr dazu](../../channels/using/configuring-transactional-event.md)
+Der Abschnitt zum Konfigurieren von Transaktionsnachrichten wurde aktualisiert und enthält nun weiterführende Informationen zu den Berechtigungen, die zum Bearbeiten von Ereigniskonfigurationen und zum Anreichern von Kollektionen in Transaktionsnachrichten erforderlich sind – [mehr dazu](../../administration/using/configuring-transactional-messaging.md)
 
 ## Version 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -171,7 +171,7 @@ Beim Konfigurieren einer Mobile App wurden eine Einschränkung mit MCPNS hinzuge
 
 Dem Administratorhandbuch wurde ein neuer Abschnitt mit Konfigurationsrichtlinien hinzugefügt. Der Abschnitt zu kompatiblen Browsern und Betriebssystemen wurde aus den ersten Schritten in diesen Abschnitt verschoben. Dieser Abschnitt enthält auch die Technote zu Campaign Standard-Netzwerkendpunkten – [mehr dazu](../../administration/using/about-configuration-guidelines.md)
 
-Es gibt jetzt einen neuen Abschnitt zum Löschen einer Ereigniskonfiguration – [mehr dazu](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+Es gibt jetzt einen neuen Abschnitt zum Löschen einer Ereigniskonfiguration – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
 Die Seite, auf der beschrieben wird, wie Sie den Betreff einer E-Mail testen können, um die Öffnungsrate vorherzusagen, wurde aktualisiert und verbessert und enthält jetzt einen neuen Abschnitt zur [Fehlerbehebung](../../sending/using/testing-subject-line-email.md#troubleshooting) – [mehr dazu](../../sending/using/testing-subject-line-email.md)
 
@@ -281,7 +281,7 @@ Die Liste der Fehlermeldungen für Adobe Campaign wurde aktualisiert – [mehr d
 
 Die ersten Schritte zum Thema DSGVO wurden verbessert und erweitert. Es handelt sich nun um eine Dokumentation rund um die Gewährleistung von Datenschutz gemäß den Bestimmungen der DSGVO und des CCPA. [mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/campaign-privacy.html)
 
-Eine neue Grafik wurde hinzugefügt, die den Veröffentlichungsprozess von Transaktionsnachrichten aufzeigt – [mehr dazu](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
+Eine neue Grafik wurde hinzugefügt, die den Veröffentlichungsprozess von Transaktionsnachrichten aufzeigt – [mehr dazu](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 Die ersten Schritte zum Thema Best Practices bei der Zustellung wurden aktualisiert – [mehr dazu](../../sending/using/delivery-best-practices.md)
 
@@ -297,7 +297,7 @@ Es wurde ein neuer Abschnitt bezüglich der Campaign Standard-Einstellungen hinz
 
 Es wurde ein neuer Abschnitt hinzugefügt, in dem das automatische Versenden einer benutzerdefinierten Bestätigungs-E-Mail an Profile erläutert wird, die sich für einen spezifischen Dienst angemeldet haben – [mehr dazu](../../audiences/using/confirming-subscription-to-a-service.md)
 
-Der Abschnitt „Transaktionsnachrichten“ wurde entsprechend den neuesten Aktualisierungen der Benutzeroberfläche betreffend der Bearbeitung von Inhalten sowie E-Mail-Designer angepasst – [mehr dazu](../../channels/using/editing-transactional-message.md)
+Der Abschnitt „Transaktionsnachrichten“ wurde entsprechend den neuesten Aktualisierungen der Benutzeroberfläche betreffend der Bearbeitung von Inhalten sowie E-Mail-Designer angepasst – [mehr dazu](../../channels/using/event-transactional-messages.md)
 
 Das Kapitel „Landingpages“ wurde umstrukturiert. Es wurde außerdem um einen neuen Abschnitt erweitert, in dem die Schritte zur Einrichtung einer Landingpage beschrieben werden – [mehr dazu](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -427,7 +427,7 @@ Ein neuer Abschnitt zum Speichern von E-Mail-Inhalt als Fragment in E-Mail-Desig
 
 Der Abschnitt zur Link-Verwaltung wurde mit zusätzlichen Informationen zur Verwaltung getrackter URLs in E-Mail-Designer ergänzt – [mehr dazu](../../designing/using/links.md#inserting-a-link)
 
-Ein neuer Abschnitt wurde hinzugefügt, in dem der Wiederholungsvorgang bei Transaktionsnachrichten beschrieben wird – [mehr dazu](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
+Ein neuer Abschnitt wurde hinzugefügt, in dem der Wiederholungsvorgang bei Transaktionsnachrichten beschrieben wird – [mehr dazu](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
 
 Der Abschnitt zur Publikation einer Ressource mit einer API-Erweiterung wurde verständlicher gemacht und mit den aktuellen Änderungen in der Benutzeroberfläche ergänzt – [mehr dazu](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -505,7 +505,7 @@ Im Abschnitt zur Dateiextraktions-Aktivität wurde eine Beschreibung einer neuen
 
 Allgemeine Verfügbarkeit von E-Mail-Designer – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Produktlisten in Transaktions-E-Mails – [mehr dazu](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Produktlisten in Transaktions-E-Mails – [mehr dazu](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 Mobile-Ansicht in E-Mail-Designer – [mehr dazu](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -643,7 +643,7 @@ Creative Designer für E-Mails – [mehr dazu](../../designing/using/designing-c
 
 Mehrsprachige Push-Benachrichtigungen – [mehr dazu](../../channels/using/creating-a-multilingual-push-notification.md)
 
-Verwendung benutzerdefinierter Ressourcen in Transaktionsnachrichten – [mehr dazu](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
+Verwendung benutzerdefinierter Ressourcen in Transaktionsnachrichten – [mehr dazu](../../administration/using/configuring-transactional-messaging.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
@@ -651,7 +651,7 @@ Die GDPR API enthält Funktionen zur automatischen Verarbeitung von DSGVO-Abfrag
 
 Informationen zur Einrichtung von Landingpages wurden hinzugefügt, über die sich Empfänger auf die Blockierungsliste setzen lassen können – [mehr dazu](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-Der Abschnitt [Transaktionsnachrichten konfigurieren](../../channels/using/configuring-transactional-event.md) wurde neu angeordnet und ein [schrittweises Anwendungsbeispiel](../../channels/using/transactional-messaging-use-case.md) wurde hinzugefügt.
+Der Abschnitt [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md) wurde neu angeordnet und ein [schrittweises Anwendungsbeispiel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) wurde hinzugefügt.
 
 Eine Technote wurde hinzugefügt, in der erklärt wird, wie eine mehrsprachige CSV-Datei für Push-Benachrichtigungen erstellt wird – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/acs-generate-csv-multilingual-push.html)
 
@@ -937,7 +937,7 @@ Protokollexport für die externe Berichterstattung – [mehr dazu](../../automat
 
 Transaktionsnachrichten-API – [mehr dazu](../../api/using/get-started-apis.md)
 
-Marketingfunktionen für Transaktionsnachrichten - [Weitere Informationen](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+Marketing-Funktionen für Transaktionsnachrichten – [mehr dazu](../../channels/using/profile-transactional-messages.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
