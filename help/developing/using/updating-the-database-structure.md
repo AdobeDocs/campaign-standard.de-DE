@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
 
 >[!NOTE]
 >
->Wenn ein Feld einer für ein Ereignis verwendeten benutzerdefinierten Ressource geändert oder gelöscht wird, wird das zugehörige Ereignis automatisch depubliziert. Siehe [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md).
+>Wenn ein Feld einer für ein Ereignis verwendeten benutzerdefinierten Ressource geändert oder gelöscht wird, wird das zugehörige Ereignis automatisch depubliziert. Siehe [Rückgängigmachen der Veröffentlichung eines transaktionalen Ereignisses](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Publizieren]** auf das entsprechende Menü zu.
 1. Standardmäßig ist die Option **[!UICONTROL Änderungen seit der letzten Publikation ermitteln]** aktiv. Dies bedeutet, dass nur die Änderungen übernommen werden, die seit der letzten Publikation vorgenommen wurden.
@@ -68,7 +68,7 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
 
    ![](assets/schema_extension_31.png)
 
-## Ressource mit API-Erweiterung publizieren  {#publishing-a-resource-with-api-extension}
+## Ressource mit API-Erweiterung publizieren   {#publishing-a-resource-with-api-extension}
 
 In folgenden Fällen können Sie die Profiles &amp; Services API erstellen:
 
