@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '4692'
 ht-degree: 100%
@@ -493,7 +493,7 @@ _Workflows_
      <li> einen Abmelde-Link in die Nachricht einfügen </li> 
      <li> die Transaktionsnachrichten zur allgemeinen Versandberichterstattung hinzufügen </li> 
      <li> Die Transaktionsnachrichten für die Customer Journey nutzen </li> 
-    </ul> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">entsprechende Handbuch</a>.<br /> </td> 
+    </ul> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/profile-transactional-messages.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transaktionsnachrichten-API<br /> </td> 
