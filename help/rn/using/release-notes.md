@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 100%
@@ -112,7 +112,7 @@ ht-degree: 100%
 * Beim Publizieren einer benutzerdefinierten Ressource wird jetzt nach der Vorbereitung ein Bestätigungs-Popup angezeigt.
 * Die Popup-Meldung, die angezeigt wird, wenn eine benutzerdefinierte Ressource fehlschlägt, wurde verbessert.
 * Der Ausdruckseditor in Workflows wurde verbessert, um Ausführungsfehler zu vermeiden.  Es stehen [neue Funktionen](../../automating/using/customizing-workflow-external-parameters.md) zur Verfügung: Sie können in allen Aktivitäten verwendet werden, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Zusätzlich wird jetzt im Ausdruckseditor eine QuickInfo mit der Funktionsbeschreibung angezeigt.
-* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
+* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. ](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
 * Die Protokolle, die beim Exportieren von Packages angezeigt werden, wurden im Fehlerfall spezifischer und detaillierter hinsichtlich der aufgetretenen Fehler gestaltet.
 * Nach dem Senden einer Nachricht können Sie jetzt die Liste der [getrackten URLs](../../sending/using/tracking-messages.md) durchsuchen, filtern und exportieren.
 * Die automatische [Synchronisation zwischen Launch und Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ist jetzt allgemein verfügbar und standardmäßig aktiviert.
