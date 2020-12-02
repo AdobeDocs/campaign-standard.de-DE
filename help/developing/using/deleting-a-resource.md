@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
@@ -57,5 +57,4 @@ Ihre Ressource wird aus dem Datenmodell gelöscht.
 
 >[!NOTE]
 >
->Wenn ein Feld einer für ein Ereignis verwendeten benutzerdefinierten Ressource geändert oder gelöscht wird, wird das zugehörige Ereignis automatisch depubliziert. Siehe [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md).
-
+>Wenn ein Feld einer für ein Ereignis verwendeten benutzerdefinierten Ressource geändert oder gelöscht wird, wird das zugehörige Ereignis automatisch depubliziert. Siehe [Rückgängigmachen der Veröffentlichung eines transaktionalen Ereignisses](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
