@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 96%
@@ -50,7 +50,7 @@ Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-
 >title="Verwenden von Produktlisten"
 >abstract="Mit den Produktlisten können Sie auf eine Datenerfassung verweisen und sie im E-Mail-Inhalt anzeigen."
 
-Mit Produktlisten können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen. Diese Listen stehen für Transaktions-E-Mails zur Verfügung. Einen speziellen Abschnitt zu dieser Funktion finden Sie [hier](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Mit Produktlisten können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen. Diese Listen stehen für Transaktions-E-Mails zur Verfügung. Einen speziellen Abschnitt zu dieser Funktion finden Sie [hier](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
 ## Funktionen zur E-Mail-Erstellung im Vergleich       {#email-design-options-comparison}
 
