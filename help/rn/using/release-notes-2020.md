@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2950'
 ht-degree: 99%
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * Bei der Workflow-Aktivität **Anreicherung** wird beim Hinzufügen von Leerzeichen im Feld **Alias** kein neues Zeilenelement mehr erstellt. (CAMP-39229)
 * Bei der Durchführung eines Testversands kann jetzt nicht mehr jedes beliebige Testprofil als Zielgruppe ausgewählt werden.
-* Nach der Depublikation und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Mehr dazu](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+* Nach der Depublikation und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 * Die Schaltfläche **Speichern** verschwindet jetzt nicht mehr, wenn Änderungen an Workflows vorgenommen werden.
 * Beim manuellen Löschen einer Datenschutzanfrage in Campaign können nach deren Verarbeitung die mit der Anfrage verknüpften Daten auch nach der Bereinigung gelöscht werden.
 * Beim Anzeigen einer Vorschau oder beim Senden von Nachrichten mit Sonderzeichen aus Adobe Experience Manager tritt jetzt kein Fehler mehr auf.
