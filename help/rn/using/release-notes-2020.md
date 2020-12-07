@@ -6,20 +6,20 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2950'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Versionshinweise 2020{#release-notes-2020}
 
-[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 ## Version 20.3 – Mai 2020 {#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 99%
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 ## Version 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+>Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
