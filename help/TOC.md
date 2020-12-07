@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1664'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
       + [Datenschutz und Einverständnis](start/using/privacy.md)
       + [Datenschutzverwaltung](start/using/privacy-management.md)
       + [Datenschutzanfragen](start/using/privacy-requests.md)
-      + [Datenschutz FAQ](start/using/privacy-faq.md)
+      + [Häufig gestellte Fragen zum Datenschutz](start/using/privacy-faq.md)
 + Profile und Audiences {#profiles-and-audiences}
    + [Erste Schritte mit Profilen und Audiences](audiences/using/get-started-profiles-and-audiences.md)
    + Profile verwalten {#managing-profiles}
