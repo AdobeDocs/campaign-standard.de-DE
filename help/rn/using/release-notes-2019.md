@@ -6,18 +6,18 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7629'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Versionshinweise 2019{#release-notes-2019}
 
-[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Neueste Versionshinweise](../../rn/using/release-notes.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Neueste Versionshinweise](../../rn/using/release-notes.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE)
 
 ## Version 19.4 – Dezember 2019 {#release-19-4---october-2019}
 
@@ -35,7 +35,7 @@ ht-degree: 99%
    <p>Zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) stellen wir daher weitere Funktionen bereit, mit deren Hilfe Sie CCPA-konformes Verhalten sicherstellen können:</p>
    <ul>
     <li>Recht auf Zugriff und Recht auf Löschung: Dazu nutzen wir die Funktionen, die wir analog dazu für die DSGVO ergänzt haben – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">mehr dazu</a> </li>
-    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Eingestellte und entfernte Funktionen</a>.</p></li>
+    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE">Eingestellte und entfernte Funktionen</a>.</p></li>
     <li>Ein Feld für die <strong>Abmeldung gemäß CCPA</strong> wurde zur Profilressource hinzugefügt, über das Adobe Campaign-Benutzer nachverfolgen können, ob ein Kunde die Weitergabe seiner personenbezogenen Daten untersagt hat. <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa">Mehr dazu</a>.</li>
   </ul>
     <p>Weitere Informationen finden Sie in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/privacy/privacy-overview.html">diesem Video</a>.</p>
@@ -121,7 +121,7 @@ ht-degree: 99%
 **Korrekturen**
 
 * Fehlerkorrektur – Terminierte Berichte können nun sortiert oder durchsucht werden.
-* Fehlerkorrektur – Die UND- und ODER-Regeln für Auslöser werden nun nicht mehr miteinander vertauscht.
+* Fehlerkorrektur – Die UND- und ODER-Regeln für Triggers werden nun nicht mehr miteinander vertauscht.
 * Fehlerkorrektur – Die Eigenschaft für Mobilgeräte wird nun nicht mehr fälschlicherweise als &quot;In Launch gelöscht&quot; angezeigt. (CAMP-35382)
 * Fehlerkorrektur – Die Eigenschaften für Mobilgeräte von Adobe Launch können nun mit Adobe Campaign synchronisiert werden. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
 * Fehlerkorrektur – Push-Transaktionsnachrichten schlagen nun nicht mehr fehl, wenn Ereignisse mit Profildaten angereichert wurden. (CAMP-34385)
@@ -273,7 +273,7 @@ ht-degree: 99%
 
 ## Version 19.2.3 - Juni 2019 {#release-19-2-3---june-2019}
 
-**Email-Designer**
+**Email Designer**
 
 Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwendung von Fragmenten in Version 19.2 zu optimieren. Neu erstellte Fragmente funktionieren fehlerlos. Früher erstellte Fragmente werden grau dargestellt und müssen in das neue Format migriert werden. Klicken Sie dazu auf jedes Fragment und bestätigen Sie seine Migration in das neue Format. Wir empfehlen Ihnen, einige Fragmente zu testen, bevor Sie alle migrieren.
 
@@ -304,7 +304,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>Mit dem Control Panel können Sie Administratoraufgaben effizienter erledigen. So ermöglicht es Ihnen, die Serverkapazität zu überwachen und die Einstellungen der Instanzen zu verwalten (u. a. der SFTP-Server).</p><p>Weiterführende Informationen finden Sie im <a href="https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html">ausführlichen Handbuch</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">diesem Video</a>.</p></td> 
+   <td> <p>Mit dem Control Panel können Sie Administratoraufgaben effizienter erledigen. So ermöglicht es Ihnen, die Serverkapazität zu überwachen und die Einstellungen der Instanzen zu verwalten (u. a. der SFTP-Server).</p><p>Weiterführende Informationen finden Sie im <a href="https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html">ausführlichen Handbuch</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=de-DE">diesem Video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokale Benachrichtigungen<br /> </td> 
@@ -535,7 +535,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
      <li> Die Möglichkeit, <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">in der Vorbereitungsphase Inhalt von einer URL automatisch abzurufen</a> </li> 
      <li> Vollständig kompatible <a href="../../designing/using/using-reusable-content.md#content-templates">native Inhaltsvorlagen</a>. </li> 
     </ul> 
-    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Seite</a>.</p> </td> 
+    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE">Seite</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlisten in Transaktions-E-Mails<br /> </td> 
@@ -568,7 +568,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Die Liste der verfügbaren Länder bei der Definition einer Profiladresse wurde erweitert. (CAMP-26707)
 * Jetzt wird eine Fehlernachricht angezeigt, wenn versucht wird, einen integrierten Workflow zu importieren.
 
-**Email-Designer**
+**Email Designer**
 
 * Fehlerkorrektur – Jetzt wird die Funktion für die geografische Einheit auf einer E-Mail-Vorlage oder in einem Inhaltsfragment, die mit E-Mail-Designer erstellt wurden, nicht mehr aktiviert, obwohl diese Funktion in Adobe Campaign deaktiviert wurde. Zuvor war die Vorlage oder das Fragment nicht mehr verfügbar, wenn versucht wurde, nochmals auf sie zuzugreifen. (CAMP-28174)
 * Fehlerkorrektur – Jetzt können Bedingungen für dynamische Inhalte während der Bearbeitung von Inhalt mit E-Mail-Designer gespeichert werden. (CAMP-27905)
