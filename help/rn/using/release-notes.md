@@ -6,9 +6,9 @@ description: Auf dieser Seite finden Sie Informationen zum Inhalt der neuesten V
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2412'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [Versionsplanung](../../rn/using/release-planning.md) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2020.md) | [Eingestellte Funktionen](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 ## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
