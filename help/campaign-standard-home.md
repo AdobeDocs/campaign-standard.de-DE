@@ -5,9 +5,9 @@ product: campaign
 title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-* **[Aktualisierte Versionsplanung](rn/using/release-planning.md)**<br/> Die bevorstehenden Veröffentlichungstermine im Februar 2021 wurden der Versionsplanung hinzugefügt
+* **[Aktualisierte Versionsplanung](rn/using/release-planning.md)**<br/> Die bevorstehenden Veröffentlichungstermine im Februar 2021 wurden der Versionsplanung hinzugefügt.
 
-* **[Kontrollgruppen](sending/using/control-group.md)**<br/>Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
+* **[Kontrollgruppen](sending/using/control-group.md)**<br/> Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
 
-* **[KI-gestützte E-Mails](sending/using/predictive.md)**<br/>Design und Versand mit KI-gestützten E-Mails optimieren.
+* **[KI-gestützte E-Mails](sending/using/predictive.md)**<br/> Design und Versand mit KI-gestützten E-Mails optimieren.
 
-* **[Externe APII](automating/using/external-api.md)**<br/>Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
+* **[Externe APII](automating/using/external-api.md)**<br/> Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
 
 * **[Erste Schritte mit mobilen Sendungen](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/> Weitere Informationen zu den allgemeinen Richtlinien für mobile Sendungen (SMS, Push, In-App).
 
@@ -53,7 +53,7 @@ ht-degree: 100%
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Erstellen einer E-Mail</strong></a>
     </div>
-    <em>Erfahren Sie, wie Sie mit Email Designer responsive und personalisierte E-Mails erstellen.</em>
+    <em>Erfahren Sie, wie Sie mit Email Designer responsive und personalisierte E-Mails erstellen</em>
     <br>
   </td>
   <td valign="top">
