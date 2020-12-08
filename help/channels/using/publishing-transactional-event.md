@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 71%
+source-wordcount: '623'
+ht-degree: 69%
 
 ---
 
@@ -22,27 +22,27 @@ Sobald [configuration](../../channels/using/configuring-transactional-event.md) 
 
 >[!IMPORTANT]
 >
->Die Konfiguration und Veröffentlichung des Ereignisses muss von einem [administrator](../../administration/using/users-management.md#functional-administrators) durchgeführt werden.
+>Nur [Funktionaladministratoren ](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->haben die entsprechenden Berechtigungen zum Veröffentlichen von Ereignis-Konfigurationen.
 
 Eine Grafik, die den gesamten Veröffentlichungsprozess für Transaktionsnachrichten einschließlich der Konfigurationen für Veröffentlichungs- und Rückgängigmachen der Veröffentlichung von Ereignissen veranschaulicht, finden Sie in [diesem Abschnitt](../../channels/using/publishing-transactional-message.md).
 
 Nach der Veröffentlichung:
 * Die entsprechende Transaktionsnachricht wird automatisch erstellt. Siehe [Bearbeiten von Transaktionsnachrichten](../../channels/using/editing-transactional-message.md).
-* Die von Ihrem Website-Entwickler verwendete API wird bereitgestellt und die Transaktionsereignisse können jetzt gesendet werden. Siehe Integrate Ereignis trigating(../../channels/using/getting-started-with-transactional-msg.md#integrate-Ereignis-trigger).
+* Die von Ihrem Website-Entwickler verwendete API wird bereitgestellt und die Transaktionsereignisse können jetzt gesendet werden. Siehe [Integrieren Sie das Ereignis, das](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) auslöst.
 
-## Vorschau erstellen und Ereignis publizieren {#previewing-and-publishing-the-event}
+## Anzeigen einer Vorschau und Veröffentlichung eines Ereignisses {#previewing-and-publishing-the-event}
 
 Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen und es publizieren.
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL API-Vorschau]**, um eine Simulation der von Ihrem Web-Entwickler verwendeten REST-API anzuzeigen, bevor sie publiziert wird.
 
-   Nach der Publikation des Ereignisses dient diese Schaltfläche des Weiteren dazu, eine Vorschau der in Produktion befindlichen API anzuzeigen. Siehe Integrate Ereignis trigating(../../channels/using/getting-started-with-transactional-msg.md#integrate-Ereignis-trigger).
+   Nach der Publikation des Ereignisses dient diese Schaltfläche des Weiteren dazu, eine Vorschau der in Produktion befindlichen API anzuzeigen. Siehe [Integrieren Sie das Ereignis, das](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) auslöst.
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >Die REST-API variiert je nach ausgewähltem Kanal und nach ausgewählter Zielgruppendimension. Weiterführende Informationen zu den unterschiedlichen Konfigurationen finden Sie unter [Konfigurationen für Transaktionsereignisse](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
+   >Die REST-API variiert je nach ausgewähltem Kanal und nach ausgewählter Zielgruppendimension. Weitere Informationen zu den verschiedenen Konfigurationen finden Sie in [diesem Abschnitt](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 1. Starten Sie mit der Schaltfläche **[!UICONTROL Publizieren]** die Publikation.
 
@@ -66,11 +66,7 @@ Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen un
 
    >[!NOTE]
    >
-   >* Damit das Ereignis das Senden einer Transaktionsnachricht auslösen kann, müssen Sie die soeben erstellte Meldung ändern und veröffentlichen. Siehe die Abschnitte [Bearbeiten](../../channels/using/editing-transactional-message.md) und [Veröffentlichen einer Transaktionsnachricht](../../channels/using/publishing-transactional-message.md).
-      >
-      >
-   * Sie müssen auch [dieses Auslöser-Ereignis](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) in Ihre Website integrieren.
-
+   >Damit das Ereignis das Senden einer Transaktionsnachricht auslösen kann, müssen Sie die soeben erstellte Meldung ändern und veröffentlichen. Siehe die Abschnitte [Bearbeiten](../../channels/using/editing-transactional-message.md) und [Veröffentlichen einer Transaktionsnachricht](../../channels/using/publishing-transactional-message.md). Sie müssen auch [dieses Auslöser-Ereignis](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) in Ihre Website integrieren.
 
 1. Sobald Adobe Campaign-Beginn Ereignisse im Zusammenhang mit dieser Ereignis-Konfiguration erhalten, können Sie auf den Link **[!UICONTROL Neueste Transaktionsstipps]** unter **[!UICONTROL Verlauf]** klicken, um auf die neuesten Ereignis zuzugreifen, die von Ihrem Drittanbieter-Dienst gesendet und von Adobe Campaign verarbeitet wurden.
 
