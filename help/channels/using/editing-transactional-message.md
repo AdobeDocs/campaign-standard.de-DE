@@ -9,23 +9,27 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 73%
+source-wordcount: '1584'
+ht-degree: 63%
 
 ---
 
 
 # Bearbeiten einer Transaktionsnachricht {#editing-transactional-message}
 
-Nachdem Sie ein Ereignis<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> erstellt und veröffentlicht haben, wird die entsprechende Transaktionsnachricht automatisch erstellt. Die Schritte zum Konfigurieren und Veröffentlichen des Ereignisses finden Sie im Abschnitt [Konfigurieren eines transaktionalen Ereignisses](../../channels/using/configuring-transactional-event.md) und [Veröffentlichen eines transaktionalen Ereignisses](../../channels/using/publishing-transactional-event.md).
+Nachdem Sie ein Ereignis<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> erstellt und veröffentlicht haben, wird die entsprechende Transaktionsnachricht automatisch erstellt.
+
+Die Schritte zum Konfigurieren und Veröffentlichen des Ereignisses finden Sie im Abschnitt [Konfigurieren eines transaktionalen Ereignisses](../../channels/using/configuring-transactional-event.md) und [Veröffentlichen eines transaktionalen Ereignisses](../../channels/using/publishing-transactional-event.md).
 
 Die Schritte zum Zugriff, zur Bearbeitung und zum Personalisieren dieser Meldung werden nachfolgend beschrieben.
 
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
+>[!IMPORTANT]
+>
+>Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können auf Transaktionsnachrichten zugreifen und sie bearbeiten.
 
-Sobald Ihre Nachricht fertig ist, kann sie getestet und veröffentlicht werden. Siehe [Transaktionsnachricht lifecylce](../../channels/using/publishing-transactional-message.md).
+Sobald Ihre Nachricht fertig ist, kann sie getestet und veröffentlicht werden. Siehe [Testen einer Transaktionsnachricht](../../channels/using/testing-transactional-message.md) und [Transaktionsnachricht-Lebensdauer](../../channels/using/publishing-transactional-message.md).
 
 ## Transaktionsnachrichten aufrufen {#accessing-transactional-messages}
 
@@ -38,19 +42,19 @@ Aufrufen der erstellten Transaktionsnachricht:
 
 1. Klicken Sie auf die Nachricht Ihrer Wahl, um sie zu bearbeiten.
 
->[!IMPORTANT]
->
->Sie können nur dann auf Transaktionsnachrichten zugreifen, wenn Sie der Sicherheitsgruppe **[!UICONTROL Administratoren (alle Einheiten)]** angehören. Weitere Informationen finden Sie unter [Benutzerverwaltung](../../administration/using/users-management.md#functional-administrators).
+   ![](assets/message-center_message-board.png)
+
+Sie können auch direkt über den Link im linken Bereich des entsprechenden Ereignis-Konfigurationsbildschirms auf eine Transaktionsnachricht zugreifen. Siehe [Anzeigen und Veröffentlichen eines Ereignisses](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## Transaktionsnachricht personalisieren          {#personalizing-a-transactional-message}
 
-Gehen Sie folgendermaßen vor, um für eine Transaktionsnachricht eine Personalisierung einzurichten.
+Gehen Sie wie folgt vor, um eine Transaktionsnachricht zu bearbeiten und zu personalisieren.
 
 >[!NOTE]
 >
->In diesem Abschnitt wird beschrieben, wie Sie eine **Ereignis-basierte**-Transaktionsnachricht personalisieren.  Die Konfigurationsschritte zum Erstellen einer Ereignis-basierten Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+>In diesem Abschnitt wird beschrieben, wie Sie eine **Ereignis-basierte**-Transaktionsnachricht bearbeiten. Die **Profil-basierten** Transaktionsnachrichten-Spezifikationen sind [unter](#profile-transactional-message-specificities) detailliert.
 >
->Die **Profil-basierten** Transaktionsnachrichten-Spezifikationen sind [unter](#profile-transactional-message-specificities) detailliert.
+>Die Konfigurationsschritte zum Erstellen einer Ereignis-basierten Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
 Beispielsweise möchten Sie eine Benachrichtigung an Benutzer Ihrer Website senden, die Produkte zum Einkaufswagen hinzugefügt haben und die Site verlassen, ohne mit ihren Käufen fertig zu werden. Dieses Beispiel wird im Abschnitt [Geschäftsprinzip für Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) vorgestellt.
 
@@ -70,7 +74,7 @@ Beispielsweise möchten Sie eine Benachrichtigung an Benutzer Ihrer Website send
 
    ![](assets/message-center_7.png)
 
-1. Fügen Sie dann zur Anreicherung Ihres Nachrichteninhalts die gewünschten Felder hinzu, indem Sie diese in der Tabelle auswählen, mit der Sie Ihr Ereignis verknüpft haben. Wählen Sie in diesem Beispiel das Feld **[!UICONTROL title (salutation)]** in der Tabelle **[!UICONTROL Profil]** bis **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]**.
+1. Sie können auch den Inhalt Ihrer Nachricht bereichern. Fügen Sie dazu Felder aus der Tabelle hinzu, die Sie mit Ihrer Ereignis-Konfiguration verknüpft haben (siehe [Anreichern des Ereignisses](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). Wählen Sie in diesem Beispiel das Feld **[!UICONTROL title (salutation)]** aus der Tabelle **[!UICONTROL Profil]** bis **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -84,15 +88,15 @@ Beispielsweise möchten Sie eine Benachrichtigung an Benutzer Ihrer Website send
 
    ![](assets/message-center_9.png)
 
-   Die Vorschau zeigt, dass die Personalisierungsfelder wie gewünscht die im Testprofil angegebenen Informationen wiedergeben. Weitere Informationen hierzu finden Sie unter Definieren eines bestimmten Profils](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).[
+   Die Vorschau zeigt, dass die Personalisierungsfelder wie gewünscht die im Testprofil angegebenen Informationen wiedergeben. Weitere Informationen hierzu finden Sie unter Definieren eines bestimmten Profils[.](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)
 
 ## Produktlisten in Transaktionsnachrichten verwenden           {#using-product-listings-in-a-transactional-message}
 
-Sie können Produktlisten erstellen, die eine oder mehrere Datenkollektionen im Inhalt einer Transaktions-E-Mail referenzieren. Beispielsweise können Sie bei einem abgebrochenen Einkauf eine E-Mail versenden, in der alle Produkte samt Bild, Preis und Link aufgelistet sind, die sich beim Verlassen der Website im Warenkorb des Benutzers befanden.
+Beim Bearbeiten des Inhalts einer transaktionalen E-Mail können Sie Produktauflistungen erstellen, die auf eine oder mehrere Datensammlungen verweisen. In einer E-Mail zum Warenkorbabbruch können Sie z. B. eine Liste aller Produkte, die sich beim Verlassen Ihrer Website im Warenkorb befanden, mit einem Bild, dem Preis und einem Link zu den einzelnen Produkten einfügen.
 
 >[!IMPORTANT]
 >
->Produktlisten sind nur während der Bearbeitung von Transaktions-E-Mails in der Benutzeroberfläche von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) verfügbar.
+>Produktlisten stehen nur für E-Mail-Kanal zur Verfügung, wenn transaktionale E-Mail-Inhalte über die [E-Mail-Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)-Oberfläche bearbeitet werden.
 
 Um eine Liste mit Produkten aus einem abgebrochenen Einkauf in eine Transaktionsnachricht einzufügen, folgen Sie den unten stehenden Schritten.
 
@@ -204,7 +208,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Weiterführende Informationen zur Definition eines Testprofils in einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   Weiterführende Informationen zur Definition eines Testprofils in einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Profil-basierte Transaktionsnachricht-Spezifikationen {#profile-transactional-message-specificities}
 
@@ -214,9 +218,9 @@ Sie können Transaktionsnachrichten auf Grundlage von Kundenmarketing-Profilen s
 
 * Die Konfigurationsschritte zum Erstellen einer Profil-basierten Transaktionsnachricht sind in [diesem Abschnitt ](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) beschrieben.
 
-### Bearbeiten einer Profil-Transaktionsnachricht {#editing-profile-transactional-message}
+<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-Die Schritte zum Erstellen, Anpassen und Veröffentlichen einer Profil-Transaktionsnachricht sind meist die gleichen wie bei einer Ereignis-Transaktionsnachricht.
+Die Schritte zum Erstellen, Bearbeiten und Personalisieren einer Profil-Transaktionsnachricht sind meist die gleichen wie bei einer Ereignis-Transaktionsnachricht.
 
 Die Unterschiede sind unten aufgeführt.
 
@@ -235,29 +239,39 @@ Die Unterschiede sind unten aufgeführt.
 
 1. Speichern Sie Ihre Änderungen, bevor Sie die Nachricht veröffentlichen. Weiterführende Informationen dazu finden Sie unter [Transaktionsnachricht publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-### Versand einer Profil-Transaktionsnachricht verfolgen        {#monitoring-a-profile-transactional-message-delivery}
+<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
-Nachdem die Nachricht publiziert wurde und Ihre Webseiten-Integration abgeschlossen ist, kann der Versand verfolgt werden.
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-1. Der Zugriff auf den Versandlog der Nachricht ist über die Schaltfläche rechts unten in der **[!UICONTROL Freigabe]**-Kachel möglich.
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   Weitere Informationen zum Zugriff auf die Protokolle finden Sie unter [Überwachen eines Versands](../../sending/using/monitoring-a-delivery.md).
+1. Click the **[!UICONTROL Execution list]** tab.
 
-1. Wählen Sie den Tab **[!UICONTROL Versandlogs]** aus. In der **[!UICONTROL Status]**-Spalte zeigt **[!UICONTROL Gesendet]** an, dass sich ein Profil angemeldet hat.
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the latest execution delivery.
+
+   An **execution delivery** is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again
+
+1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Wählen Sie den Tab **[!UICONTROL Ausschlusslogs]** aus, um die Empfänger anzuzeigen, die von der Versandzielgruppe ausgeschlossen wurden, wie zum Beispiel Adressen auf der Blockierungsliste.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Profile, die sich abgemeldet haben, wurden durch die Typologieregel **[!UICONTROL Adresse auf Blockierungsliste]** ausgeschlossen.
+>[!NOTE]
+>
+>For more information on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
 
-Diese Regel ist Teil einer spezifischen Typologie, die für alle auf der **[!UICONTROL Profil]**-Tabelle basierenden Transaktionsnachrichten gilt.
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 
 ![](assets/message-center_marketing_typology.png)
 
-**Verwandte Themen**:
+**Related topics**:
 
-* Integrate-Ereignis-Triggerung(../../channels/using/getting-started-with-transactional-msg.md#integrate-Ereignis-trigger)
-* [Über Typologien und Typologieregeln](../../sending/using/about-typology-rules.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
