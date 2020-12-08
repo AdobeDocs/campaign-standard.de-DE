@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 824c91669bd717e5bf31dab9005e4c3b9e497edf
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 100%
+source-wordcount: '883'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Alle Objekte und Benutzer der Plattform sind einer Organisationseinheit zugeordn
 
 >[!IMPORTANT]
 >
->Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]** zugeordnet werden.
+>Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]** zugeordnet werden. Es wird empfohlen, die Option **Zugriffsberechtigungs-Verwaltungsfelder** hinzuzufügen, bevor Sie Profil importieren. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/organizational-units.md#partitioning-profiles).
 >
 >Standardmäßig wird die Organisationseinheit **[!UICONTROL Alle (all)]** der Sicherheitsgruppe **[!UICONTROL Administratoren]** zugewiesen. Sie ist schreibgeschützt und kann nicht geändert werden.
 
@@ -95,24 +95,24 @@ Im Gegensatz dazu bestehen für die Organisationseinheit &quot;Geometrixx &quot;
 
 ## Profile partitionieren {#partitioning-profiles}
 
+>[!IMPORTANT]
+>
+>Es wird empfohlen, diese Option vor dem Import von Profilen hinzuzufügen, da Profil ohne Organisationseinheiten von Benutzern nicht aufgerufen werden können.
+>
+>Wenn Sie Ihre Kundendatenbank bereits importiert haben, ist eine Aktualisierung erforderlich, um die Werte der Unternehmenseinheit für die bereits importierten Profil festzulegen.
+
 Falls Ihre Organisation die Profile isolieren möchte, die von den einzelnen Marken kontaktiert werden, müssen Sie Ihre Profile nach Organisationseinheiten partitionieren.
 
 Die Felder für die Organisationseinheiten sind in Ihren Profilen standardmäßig nicht verfügbar und müssen hinzugefügt werden.
 
-Auf Profile ohne Organisationseinheiten kann nach Erweiterung der Ressource nicht mehr zugegriffen werden.
-
->[!IMPORTANT]
->
->Es empfiehlt sich, diese Option vor dem Importieren von Profilen hinzuzufügen. Falls Sie Ihre Kundendatenbank bereits importiert haben, ist eine Aktualisierung erforderlich, um die Werte für Organisationseinheiten für bereits importierte Profile festzulegen.
-
 1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **Administration > Entwicklung > Benutzerdefinierte Ressourcen** auf das entsprechende Menü zu.
-1. Wählen Sie die **Profil**-Ressource aus oder erstellen Sie eine neue benutzerdefinierte Ressource, um die Profile zu erweitern.
+1. Wählen Sie die **Profil**-Ressource aus oder erstellen Sie eine neue benutzerdefinierte Ressource, um die Profile zu erweitern. Weitere Informationen zum Erweitern der Profil finden Sie auf dieser [Seite](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
 1. Aktivieren Sie die Option **Zugriffsberechtigungsverwaltung-Felder hinzufügen**, um die Organisationseinheiten in der Erweiterung der **Profil**-Ressource hinzuzufügen.
 
    ![](assets/user_management_9.png)
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
-1. Aktualisieren Sie die Struktur durch eine erneute Publikation. Weitere Informationen zur Publikation finden Sie im Abschnitt [Datenstruktur aktualisieren](../../developing/using/data-model-concepts.md).
+1. Aktualisieren Sie die Struktur durch eine erneute Publikation. Weitere Informationen zur Publikation finden Sie im Abschnitt [Datenstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
 
 Das Feld für Organisationseinheiten wird Ihren Profilen im Bereich **[!UICONTROL Zugriffsberechtigung]** hinzugefügt.
 
