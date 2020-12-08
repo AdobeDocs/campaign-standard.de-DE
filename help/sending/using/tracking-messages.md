@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 98%
 
 ---
 
@@ -72,8 +72,8 @@ Der **[!UICONTROL Trackinglogs]**-Tab zeigt den Verlauf des Trackings für den v
 Im obigen Beispiel hat sich der Empfänger folgendermaßen verhalten:
 
 * Er hat die Nachricht geöffnet.
+* Klicken Sie auf den Link Mirrorseite.
 * Er hat auf den benutzerspezifischen Link &quot;MEHR DAZU&quot; geklickt.
-* Er hat auf den Abmelde- und Mirrorseiten-Link geklickt.
 
 Die möglichen Werte in der Spalte **[!UICONTROL Typ]** sind:
 
@@ -87,6 +87,8 @@ Die möglichen Werte in der Spalte **[!UICONTROL Typ]** sind:
 >Für den Kanal **Push-Benachrichtigung** werden nur Klicks auf Mobile-App-Benachrichtigungen getrackt. In diesem Fall lautet der Wert **[!UICONTROL Klick auf Mobile-App-Benachrichtigung]**.
 
 Weiterführende Informationen zum Einfügen von Tracking-Links finden Sie auf [dieser Seite](../../designing/using/links.md#inserting-a-link).
+
+Der Bericht **[!UICONTROL Trackingindikatoren]** enthält die wichtigsten Indikatoren zum Tracking des Verhaltens nach dem Empfang einer E-Mail-Nachricht. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../reporting/using/tracking-indicators.md).
 
 ## Getrackte URLs {#tracked-urls}
 
