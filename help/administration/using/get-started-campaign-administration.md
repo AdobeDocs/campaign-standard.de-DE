@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '649'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Als Cloud-basierte Lösung bietet Adobe Campaign Administratoren unterschiedlich
 >
 >Wenn Sie Fragen oder Anliegen zur Implementierung und Konfiguration haben, kontaktieren Sie Ihren Adobe-Kundenbetreuer.
 
-Beachten Sie, dass Admin-Benutzer, wenn Ihre Instanz auf AWS gehostet wird, auch die Systemsteuerung der Kampagne nutzen können, um die Einstellungen zu verwalten und Nutzungen für jede Ihrer Instanzen zu verfolgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+Beachten Sie, dass Admin-Benutzer, wenn Ihre Instanz auf AWS gehostet wird, auch die Systemsteuerung der Kampagne nutzen können, um die Einstellungen zu verwalten und Nutzungen für jede Ihrer Instanzen zu verfolgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de).
 
 ## Menü &quot;Administration&quot; {#administration-menu}
 
@@ -74,7 +74,7 @@ Alle Kommunikationskanäle in Adobe Campaign müssen korrekt konfiguriert sein, 
 
 Konfigurieren Sie verschiedene **E-Mail**-Parameter: Verarbeitungsregeln für Bounce, Quarantänen, E-Mail-Eigenschaften und Routing-Parameter, Typologieregeln. Definieren Sie Routing-Konfigurationen und -Eigenschaften für den **SMS**-Kanal sowie SMS-Kodierung und -Formate.
 
-Richten Sie **Mobile Apps** ein, um In-App-Nachrichten und Push-Benachrichtigungen mit Adobe Experience Platform-SDKs zu senden und **Transaktionsnachrichten** zu konfigurieren, indem Sie Ereignisse erstellen und einrichten.
+Richten Sie **Mobilanwendungen** ein, um In-App-Nachrichten und Push-Benachrichtigungen mit Adobe Experience Platform-SDKs senden zu können.
 
 Mehr dazu:
 
@@ -82,7 +82,6 @@ Mehr dazu:
 * [E-Mail-Kanal konfigurieren](../../administration/using/configuring-email-channel.md)
 * [SMS-Kanal konfigurieren](../../administration/using/configuring-sms-channel.md)
 * [Mobile App konfigurieren](../../administration/using/configuring-a-mobile-application.md)
-* [Transaktionsnachrichten konfigurieren](../../administration/using/configuring-transactional-messaging.md)
 
 ## Anwendungskonfiguration {#application-settings}
 
