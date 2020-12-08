@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 4e157a582de836fa325d95593491c756209b205e
+source-git-commit: 951f358eb7139be8924aadf8461944d4318f03f1
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 87%
+source-wordcount: '680'
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 87%
 
 Wenn die [Transaktionsnachricht](../../channels/using/editing-transactional-message.md) zum Senden bereit ist, kann sie veröffentlicht werden.
 
-Die Schritte zum Testen, Veröffentlichen, Anhalten, Rückgängigmachen der Veröffentlichung und Löschen eines Ereignisses sind nachfolgend beschrieben. In diesem Abschnitt wird auch der Vorgang zum Wiederholen von Nachrichten beschrieben.
+Die Schritte zum Veröffentlichen, Anhalten, Rückgängigmachen der Veröffentlichung und Löschen einer Transaktionsnachricht sind nachfolgend beschrieben.
+
+>[!IMPORTANT]
+>
+>Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können auf Transaktionsnachrichten zugreifen und sie veröffentlichen.
 
 ## Publikationsprozess bei Transaktionsnachrichten {#transactional-messaging-pub-process}
 
@@ -28,63 +32,63 @@ Die nachstehende Tabelle zeigt den gesamten Prozess der Veröffentlichung von Tr
 
 ![](assets/message-center_pub-process.png)
 
-Weitere Informationen zum Veröffentlichen einer Transaktionsnachricht finden Sie unter [dieser Abschnitt](#publishing-a-transactional-message).
-Weitere Informationen zum Anhalten einer Transaktionsnachricht finden Sie unter [dieser Abschnitt](#suspending-a-transactional-message-publication).
-Weitere Informationen zum Rückgängigmachen der Veröffentlichung einer Transaktionsnachricht finden Sie unter [dieser Abschnitt](#unpublishing-a-transactional-message).
+**Verwandte Themen:**
+* [Transaktionsnachricht publizieren         ](#publishing-a-transactional-message)
+* [Anhalten einer Transaktionsnachricht](#suspending-a-transactional-message-publication)
+* [Transaktionsnachricht depublizieren         ](#unpublishing-a-transactional-message)
+* [Veröffentlichen eines Ereignisses](../../channels/using/publishing-transactional-event.md)
 
-Weitere Informationen zum Veröffentlichen und Rückgängigmachen der Veröffentlichung eines Ereignisses finden Sie unter [dieser Abschnitt](../../channels/using/publishing-transactional-event.md).
+<!--## Testing a transactional message {#testing-a-transactional-message}
 
-## Transaktionsnachricht testen {#testing-a-transactional-message}
+You first need to create a specific test profile that will allow you to properly check the transactional message.
 
-Zuerst müssen Sie ein spezifisches Testprofil erstellen, mit dem Sie die Transaktionsnachricht ordnungsgemäß überprüfen können.
+### Defining a specific test profile {#defining-specific-test-profile}
 
-### Spezifisches Testprofil definieren {#defining-specific-test-profile}
+Define a test profile that will be linked to your event, which will allow you to preview your message and send a relevant proof.
 
-Definieren Sie ein Profil, das mit Ihrem Ereignis verknüpft wird. Auf diese Weise können Sie eine Vorschau Ihrer Nachricht anzeigen und einen relevanten Testversand durchführen.
-
-1. Klicken Sie im Dashboard für Transaktionsnachrichten auf die Schaltfläche **[!UICONTROL Testprofil erstellen]**.
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
 
    ![](assets/message-center_test-profile.png)
 
-1. Geben Sie im Bereich **[!UICONTROL Für die Personalisierung verwendete Ereignisdaten]** die zu übermittelnden Daten im JSON-Format an. Bei den angegebenen Daten handelt es sich um den Inhalt, der in der Vorschau verwendet und dem Testprofil im Testversand übermittelt wird.
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data used for personalization]** section. This is the content that will be used when previewing the message and when the test profile receives the proof.
 
    ![](assets/message-center_event-data.png)
 
    >[!NOTE]
    >
-   >Sie können auch die Information von der Profiltabelle eingeben. Siehe [Anreichern des Ereignisses](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)<!--and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)-->.
+   >You can also enter the information relating to the profile table. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. Nach seiner Erstellung ist das Testprofil in der Transaktionsnachricht vorausgefüllt. Verwenden Sie den Block **[!UICONTROL Testprofile]** der Nachricht, um Ihre Testversand-Zielgruppe zu überprüfen.
+1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
 
    ![](assets/message-center_5.png)
 
-Sie haben außerdem die Möglichkeit, ausgehend vom Menü **[!UICONTROL Testprofile]** ein neues Testprofil zu erstellen bzw. ein bereits existierendes zu verwenden. Gehen Sie dazu wie folgt vor:
+You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. Verwenden Sie hierzu das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Testprofile]**.
-1. Wählen Sie im Abschnitt **[!UICONTROL Ereignis]** das soeben erstellte Ereignis aus. Im vorliegenden Beispiel handelt es sich um &quot;Warenkorbabbruch (EVTcartAbandonment)&quot;.
-1. Geben Sie im Tab **[!UICONTROL Ereignisdaten]** im Texteditor die zu übermittelnden Daten im JSON-Format an.
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
    ![](assets/message-center_3.png)
 
-1. Speichern Sie Ihre Änderungen.
-1. Rufen Sie die von Ihnen erstellte Nachricht auf und wählen Sie das aktualisierte Testprofil aus.
+1. Save your changes.
+1. Access the message that you created and select the updated test profile.
 
-**Verwandte Themen:**
+**Related topics:**
 
-* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
-* [Audiences erstellen](../../audiences/using/creating-audiences.md)
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
+* [Creating audiences](../../audiences/using/creating-audiences.md)
 
-### Testversand durchführen {#sending-proof}
+### Sending the proof {#sending-proof}
 
-Nachdem Sie ein oder mehrere spezifische Testprofile erstellt und Ihre Transaktionsnachricht gespeichert haben, können Sie einen Testversand durchführen.
+Once you have created one or more specific test profiles and saved your transactional message, you can send a proof to test it.
 
 ![](assets/message-center_10.png)
 
-Die Schritte zum Senden eines Testversands finden Sie im Abschnitt [Senden von Testversänden](../../sending/using/sending-proofs.md).
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
 ## Transaktionsnachricht publizieren          {#publishing-a-transactional-message}
 
-Nach Validierung der Transaktionsnachricht kann diese publiziert werden.
+Nachdem Sie Ihre Transaktionsnachricht bearbeitet und getestet haben, können Sie sie veröffentlichen. Klicken Sie einfach auf die Schaltfläche **[!UICONTROL Veröffentlichen]**.
 
 ![](assets/message-center_12.png)
 
@@ -94,17 +98,22 @@ Bei jeder Auslösung des Ereignisses &quot;Stehen gelassener Warenkorb&quot; wir
 
 ![](assets/message-center_13.png)
 
-### Publikation einer Transaktionsnachricht aussetzen           {#suspending-a-transactional-message-publication}
+**Verwandte Themen**:
+* [Bearbeiten einer Transaktionsnachricht](../../channels/using/editing-transactional-message.md)
+* [Transaktionsnachricht testen](../../channels/using/testing-transactional-message.md)
+* [Integrieren des auslösenden Ereignisses](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+## Publikation einer Transaktionsnachricht aussetzen           {#suspending-a-transactional-message-publication}
 
 Sie haben die Möglichkeit, die Publikation Ihrer Transaktionsnachricht mittels der Verwendung der Schaltfläche **[!UICONTROL Aussetzen]** zeitweise zu unterbinden, um beispielsweise die in der Nachricht enthaltenen Daten abzuändern. Die Ereignisse werden so nicht länger verarbeitet, sondern stattdessen in einer Warteschlange der Adobe Campaign-Datenbank aufbewahrt.
 
-Die in die Warteschlange gestellten Ereignis werden während eines Zeitraums aufbewahrt, der in der REST-API definiert ist (siehe [REST-API-Dokumentation](../../api/using/managing-transactional-messages.md) oder im Ereignis trigger, wenn Sie den Trigger-Hauptdienst verwenden (siehe [Info zu Adobe Experience Cloud-Auslöser](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Die in die Warteschlange gestellten Ereignis werden während eines Zeitraums aufbewahrt, der in der REST-API definiert ist (siehe [REST-API-Dokumentation](../../api/using/managing-transactional-messages.md)), oder im Trigger-Ereignis, wenn Sie den Trigger-Hauptdienst verwenden (siehe [Info zu Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
 Bei Verwendung der Schaltfläche **[!UICONTROL Wieder aufnehmen]** werden alle Ereignisse verarbeitet, sofern ihre Gültigkeit nicht abgelaufen ist. Diese Nachrichten beinhalten nun die während der Aussetzung der Vorlagenpublikation vorgenommenen Änderungen.
 
-### Transaktionsnachricht depublizieren           {#unpublishing-a-transactional-message}
+## Transaktionsnachricht depublizieren           {#unpublishing-a-transactional-message}
 
 Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publikation der Transaktionsnachricht und zudem des entsprechenden Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
 
@@ -122,7 +131,7 @@ Die Vorgehensweise zum Aussetzen einer Nachricht wird im Abschnitt [Publikation 
 
 Auf den Workflow **[!UICONTROL Datenbankbereinigung]**, der standardmäßig jeden Tag um 4 Uhr gestartet wird, kann über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungsparameter]** > **[!UICONTROL Workflows]** zugegriffen werden.
 
-### Transaktionsnachricht löschen {#deleting-a-transactional-message}
+## Transaktionsnachricht löschen {#deleting-a-transactional-message}
 
 Nachdem eine Transaktionsnachricht depubliziert wurde bzw. wenn eine Transaktionsnachricht noch nicht veröffentlicht wurde, können Sie sie aus der Liste der Transaktionsnachrichten löschen. Gehen Sie dazu wie folgt vor:
 
@@ -144,41 +153,96 @@ Transaktionsnachrichten können jedoch nur unter gewissen Voraussetzungen gelös
 
 * **Transaktionsnachrichten aus einer nativen Ereignisvorlage (interne Transaktionsnachrichten)**: Wenn eine interne Transaktionsnachricht die einzige Transaktionsnachricht ist, die mit dem entsprechenden internen Ereignis verknüpft ist, kann sie nicht gelöscht werden. Sie müssen zuerst eine andere Transaktionsnachricht erstellen, indem Sie sie duplizieren oder das Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Transaktionsnachrichten-Vorlagen]** verwenden.
 
-## Transaktionsnachricht erneut versenden           {#transactional-message-retry-process}
+<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
-Vorläufig nicht zugestellte Transaktionsnachrichten werden so lange automatisch erneut versendet, bis ihre Gültigkeit abgelaufen ist. Weiterführende Informationen zur Versandlaufzeit finden Sie in Abschnitt [Parameter für den Gültigkeitszeitraum](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-Wenn eine Transaktionsnachricht nicht gesendet werden kann, gibt es zwei Systeme, durch die erneute Zustellversuche unternommen werden.
+To monitor transactional messaging, you need to access **execution deliveries**. An execution delivery is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again.
 
-* Auf der Ebene der Transaktionsnachrichten kann eine Transaktionsnachricht fehlschlagen, bevor das Ereignis einem Ausführungsversand zugewiesen wurde, d. h. zwischen dem Ereignisempfang und der Versandvorbereitung. Siehe [Wiederholungsverfahren bei der Ereignisverarbeitung](#event-processing-retry-process).
-* Auf der Ebene des Versandverfahrens kann die Transaktionsnachricht nach der Zuweisung des Ereignisses zu einem Ausführungsversand wegen eines temporären Fehlers fehlschlagen. Siehe [Wiederholungsverfahren beim Nachrichtenversand](#message-sending-retry-process).
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-### Wiederholungsverfahren bei der Ereignisverarbeitung           {#event-processing-retry-process}
+   ![](assets/message-center_access_logs.png)
 
-Wenn ein Ereignis keinem Ausführungsversand zugewiesen werden kann, wird die Ereignisverarbeitung verschoben. Wiederholungen werden dann durchgeführt, bis das Ereignis einem neuen Ausführungsversand zugewiesen wird.
+1. Click the **[!UICONTROL Execution list]** tab.
+
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the execution delivery of your choice.
+
+   ![](assets/message-center_execution_delivery.png)
+
+1. Click again the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+
+   ![](assets/message-center_execution_access_logs.png)
+
+   For each execution delivery, you can consult the delivery logs as you would do for a standard delivery. For more on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+
+**Related topics**:
+* [Publishing a transactional message](#publishing-a-transactional-message)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+### Profile-based transactional message specificities {#profile-transactional-message-monitoring}
+
+For profile-based transactional messages, you can monitor the following profile information.
+
+Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
+
+![](assets/message-center_marketing_sending_logs.png)
+
+Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
+
+![](assets/message-center_marketing_exclusion_logs.png)
+
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+
+![](assets/message-center_marketing_typology.png)
+
+**Related topics**:
+
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
+
+## Transactional message retry process {#transactional-message-retry-process}
+
+A temporarily undelivered transactional message is subject to automatic retries that are performed until the delivery expires. For more on the delivery duration, see [Validity period parameters](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+
+When a transactional message fails to be sent, there are two retry systems:
+
+* At the transactional messaging level, a transactional message can fail before the event is assigned to an execution delivery, meaning between the event reception and the delivery preparation. See [Event processing retry process](#event-processing-retry-process).
+* At the sending process level, once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error. See [Message sending retry process](#message-sending-retry-process).
+
+The definition of **execution delivery** can be found in the [Monitoring transactional message delivery](#monitoring-transactional-message-delivery) section.
+
+### Event processing retry process {#event-processing-retry-process}
+
+When an event is triggered, it is assigned to an execution delivery.
+
+If the event cannot be assigned to an execution delivery, the event processing is postponed. Retries are then performed until it is assigned to a new execution delivery.
 
 >[!NOTE]
 >
->Ein verschobenes Ereignis wird nicht in den Versandlogs für Transaktionsnachrichten angezeigt, weil das Ereignis noch keinem Ausführungsversand zugeordnet ist.
+>A postponed event does not appear in the transactional message sending logs, because it is not assigned to an execution delivery yet.
 
-Beispielsweise kann es sein, dass das Ereignis keinem Ausführungsversand zugewiesen werden konnte, weil der Inhalt nicht korrekt war, es ein Problem mit den Zugriffsrechten oder dem Branding gab oder ein Fehler beim Anwenden von Typologieregeln erkannt wurde. In diesem Fall können Sie die Nachricht vorläufig anhalten, bearbeiten, um den Fehler zu beheben, und erneut publizieren. Das Wiederholungssystem weist die Nachricht daraufhin einem neuen Ausführungsversand zu.
+For example, the event could not be assigned to an execution delivery because its content was not correct, there was an issue with access rights or branding, an error was detected on applying typology rules, etc. In this case, you can pause the message, edit it to fix the problem and publish it again. The retry system will then assign it to a new execution delivery.
 
-### Wiederholungsverfahren beim Nachrichtenversand           {#message-sending-retry-process}
+### Message sending retry process {#message-sending-retry-process}
 
-Nachdem das Ereignis einem Ausführungsversand zugewiesen wurde, kann die Transaktionsnachricht aufgrund eines temporären Fehlers fehlschlagen, z. B. falls das Postfach des Empfängers voll ist. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error, if the recipient's mailbox is full for example. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
 >
->Wenn ein Ereignis einem Ausführungsversand zugewiesen wird, wird es nur dieses eine Mal in den Versandlogs dieses Ausführungsversands angezeigt. Die fehlgeschlagenen Sendungen werden im Tab **[!UICONTROL Liste der Ausführungen]** der Versandlogs der Transaktionsnachricht angezeigt.
+>When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Beschränkungen beim Wiederholungsvorgang {#limitations}
+### Retry process limitations {#limitations}
 
-**Aktualisierung der Versandlogs**
+**Sending logs update**
 
-Im Wiederholungsvorgang werden die Versandlogs des neuen Ausführungsversands nicht sofort aktualisiert (die Aktualisierung erfolgt über einen zeitversetzten Workflow). Das bedeutet, dass die Nachricht den Status **[!UICONTROL Ausstehend]** aufweisen könnte, selbst wenn das Transaktionsereignis vom neuen Ausführungsversand verarbeitet worden ist.
+In the retry process, the sending logs of the new execution delivery are not immediately updated (the update is performed through a scheduled workflow). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
-**Fehlgeschlagener Ausführungsversand**
+**Failed execution delivery**
 
-Ein Ausführungsversand kann nicht angehalten werden. Wenn jedoch ein aktueller Ausführungsversand fehlschlägt, wird ein neuer erstellt, sobald ein neues Ereignis empfangen wird, und alle neuen Ereignisse werden von diesem neuen Ausführungsversand verarbeitet. Vom fehlgeschlagenen Ausführungsversand werden keine neuen Ereignisse verarbeitet.
+You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-Wenn manche, einem Ausführungsversand bereits zugewiesenen Ereignisse verschoben wurden und dieser Ausführungsversand fehlschlägt, weist das Wiederholungssystem dem neuen Ausführungsversand nicht die verschobenen Ereignisse zu. Diese Ereignisse gehen verloren.
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
