@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
-translation-type: ht
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
-workflow-type: ht
-source-wordcount: '1664'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+workflow-type: tm+mt
+source-wordcount: '1687'
+ht-degree: 98%
 
 ---
 
@@ -119,11 +119,18 @@ ht-degree: 100%
       + [Briefpost-Inhalt definieren](channels/using/defining-the-direct-mail-content.md)
    + Transaktionsnachrichtenversand {#transactional-messaging}
       + [Erste Schritte mit Transaktionsnachrichten](channels/using/getting-started-with-transactional-msg.md)
-      + [Einschränkungen bei Transaktionsnachrichten](channels/using/transactional-messaging-limitations.md)
-      + [Ereignis-Transaktionsnachrichten](channels/using/event-transactional-messages.md)
-      + [Profil-Transaktionsnachrichten](channels/using/profile-transactional-messages.md)
+      + [Best Practices und Einschränkungen](channels/using/transactional-messaging-limitations.md)
+      + Ereigniskonfiguration {#event-configuration}
+         + [Konfigurieren eines transaktionalen Ereignisses](channels/using/configuring-transactional-event.md)
+         + [Veröffentlichen eines transaktionalen Ereignisses](channels/using/publishing-transactional-event.md)
+      + Bearbeitung von Transaktionsnachrichten {#transactional-message-edition}
+         + [Bearbeiten einer Transaktionsnachricht](channels/using/editing-transactional-message.md)
+         + [Transaktionsnachricht testen](channels/using/testing-transactional-message.md)
+         + [Lebenszyklus der Transaktionsnachricht](channels/using/publishing-transactional-message.md)
+         + [Durchführung und Überwachung](channels/using/transactional-message-execution.md)
       + [Push-Benachrichtigungen für Transaktionen](channels/using/transactional-push-notifications.md)
       + [Folgenachrichten](channels/using/follow-up-messages.md)
+      + [Anwendungsfall für Transaktionsnachrichten](channels/using/transactional-messaging-use-case.md)
    + Landingpages {#landing-pages}
       + [Erste Schritte mit Landingpages](channels/using/getting-started-with-landing-pages.md)
       + [Über Landingpage-Vorlagen](channels/using/landing-page-templates.md)
@@ -430,7 +437,6 @@ ht-degree: 100%
       + [E-Mail-Kanal konfigurieren](administration/using/configuring-email-channel.md)
       + [SMS-Kanal konfigurieren](administration/using/configuring-sms-channel.md)
       + [Mobile App konfigurieren](administration/using/configuring-a-mobile-application.md)
-      + [Transaktionsnachrichten konfigurieren](administration/using/configuring-transactional-messaging.md)
    + Mobile Kanäle konfigurieren {#configuring-mobile}
       + [Push-Tracking implementieren](administration/using/push-tracking.md)
       + [Bilder und Videos unter iOS hinzufügen](administration/using/image-push-notification.md)
