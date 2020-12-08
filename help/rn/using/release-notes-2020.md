@@ -6,9 +6,9 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+workflow-type: tm+mt
 source-wordcount: '2950'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Version 20.3 – Mai 2020 {#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Version 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+>Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
@@ -203,7 +203,7 @@ ht-degree: 100%
 
 * Bei der Workflow-Aktivität **Anreicherung** wird beim Hinzufügen von Leerzeichen im Feld **Alias** kein neues Zeilenelement mehr erstellt. (CAMP-39229)
 * Bei der Durchführung eines Testversands kann jetzt nicht mehr jedes beliebige Testprofil als Zielgruppe ausgewählt werden.
-* Nach der Depublikation und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Mehr dazu](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Nach der Depublikation und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Mehr dazu](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Die Schaltfläche **Speichern** verschwindet jetzt nicht mehr, wenn Änderungen an Workflows vorgenommen werden.
 * Beim manuellen Löschen einer Datenschutzanfrage in Campaign können nach deren Verarbeitung die mit der Anfrage verknüpften Daten auch nach der Bereinigung gelöscht werden.
 * Beim Anzeigen einer Vorschau oder beim Senden von Nachrichten mit Sonderzeichen aus Adobe Experience Manager tritt jetzt kein Fehler mehr auf.
