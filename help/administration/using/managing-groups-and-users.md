@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 96%
 
 ---
 
@@ -24,15 +24,18 @@ Sicherheitsgruppen sind eine Gruppe von Benutzern, die innerhalb Ihres Unternehm
 
 Benutzer müssen stets einer Sicherheitsgruppe angehören. Dadurch können Sie Benutzern spezifische Rollen und Unternehmenseinheiten zuweisen.
 
-Die für die verschiedenen Benutzerrollen jeweils verfügbaren Aktionen sind in den Tabellen auf der folgenden Seite aufgeführt: [Berechtigungen in Adobe Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+Die für die verschiedenen Benutzerrollen jeweils verfügbaren Aktionen sind in den Tabellen auf der folgenden Seite aufgeführt: [Berechtigungen in Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Standardmäßige Sicherheitsgruppen sind:
 
 * **[!UICONTROL Administratoren]**
 * **[!UICONTROL Versand-Supervisoren]**
-* **[!UICONTROL Message Center Agents]**
 * **[!UICONTROL Standardbenutzer]**
 * **[!UICONTROL Workflow-Supervisoren]**
+
+>[!IMPORTANT]
+>
+>Die Sicherheitsgruppen **[!UICONTROL Zugriff auf die Bereitstellungsparameter (Auslieferbarkeit)]** und **[!UICONTROL Message Center-Agenten (mcExec)]** sind nur intern und sollten nicht Benutzern zugewiesen werden.
 
 Ein Benutzer, der keiner Sicherheitsgruppe zugeordnet wurde, hat keinen Zugriff auf Adobe Campaign.
 
