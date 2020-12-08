@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 5%
 
 ---
@@ -66,10 +66,6 @@ Mit Adobe Campaign Standard können Sie E-Mails und Push-Benachrichtigungen auf 
 ![](assets/accessibility_6.png)
 
 ## Kontextuelle Hilfe {#contextual-help}
-
->[!NOTE]
->
-> Die kontextbezogene Hilfe steht nur bei Verwendung des E-Mail-Designers zur Verfügung.
 
 Die kontextbezogene Hilfe hilft Ihnen, die verschiedenen erforderlichen Felder und Funktionen besser zu verstehen. Sie führt Sie außerdem durch die Produktdokumentation, um weitere Informationen über die ausgewählte Funktion zu erhalten.
 
