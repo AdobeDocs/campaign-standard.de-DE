@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 # Triggers in Campaign verwenden{#using-triggers-in-campaign}
 
 ## In Campaign einen gemappten Trigger erstellen {#creating-a-mapped-trigger-in-campaign}
+
+>[!NOTE]
+>
+>Zum Erstellen von Auslösern benötigen Sie die Rolle **[!UICONTROL Administration]** oder müssen sich in der Gruppe **[!UICONTROL Administratoren]** befinden. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/list-of-roles.md).
 
 Stellen Sie sicher, dass die Verhaltensweisen, die Sie verfolgen möchten, im Vorhinein in Adobe Experience Cloud (**[!UICONTROL Triggers]** Core Service) definiert wurden. Weiterführende Informationen finden Sie in der [Dokumentation zur Adobe Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/activation/triggers.html). Beachten Sie, dass bei der Definition von Triggern die Alias aktiviert werden müssen. In Adobe Experience Cloud muss für jedes Verhalten (abgebrochener Webseitenbesuch/Formularabbruch, hinzugefügter/entfernter Artikel, abgelaufene Sitzung etc.) ein neuer Trigger hinzugefügt werden.
 
@@ -77,7 +81,7 @@ Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entspre
 
 Im Zuge der Erstellung und Publikation des Trigger-Ereignisses wird die entsprechende Transaktionsvorlage automatisch erstellt. Lesen Sie diesbezüglich auch den Abschnitt [In Campaign einen gemappten Trigger erstellen](#creating-a-mapped-trigger-in-campaign).
 
-Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Vorlage personalisiert, getestet und dann publiziert werden. Hierbei gilt das gleiche Prinzip wie für standardmäßige Transaktionsnachrichten. Lesen Sie diesbezüglich auch den Abschnitt [Transaktionsvorlagen verwalten](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Vorlage personalisiert, getestet und dann publiziert werden. Hierbei gilt das gleiche Prinzip wie für standardmäßige Transaktionsnachrichten. Weitere Informationen finden Sie im Abschnitt [Bearbeiten einer Transaktionsnachricht](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
