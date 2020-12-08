@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 84%
 
 ---
 
@@ -24,13 +24,18 @@ Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ans
 
 Weitere Informationen dazu finden Sie in der Tabelle [Rollen und Berechtigungen](/help/administration/using/assets/acs_rights.pdf), in der die Funktionen beschrieben werden, die je nach den ausgewählten Berechtigungen auf der Benutzeroberfläche verfügbar sind.
 
-[![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Rollen können über das Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Rollen]** verwaltet werden.
 
 Standardberechtigungen sind:
 
 * **[!UICONTROL Administration]**: Berechtigt zur allgemeinen Administration.
+
+   >[!NOTE]
+   >
+   >Wenn Sie Auslöser erstellen müssen, benötigen Sie die **[!UICONTROL Administration]**, um auf das Menü &quot;Auslöser&quot;zugreifen zu können. Weitere Informationen zu Auslösern finden Sie auf dieser [Seite](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+
 * **[!UICONTROL Datamodel]**: Berechtigt zur Durchführung von Veröffentlichungen und zur Erstellung von benutzerdefinierten Ressourcen.
 * **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Dazu muss die Rolle **[!UICONTROL Allgemeiner Import]** mit der **[!UICONTROL Workflow]**-Rolle verknüpft werden.
 * **[!UICONTROL Sendungen vorbereiten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten und Löschen von Sendungen. Benutzer mit dieser Rolle können einen Versand vorbereiten, aber nicht durchführen.
