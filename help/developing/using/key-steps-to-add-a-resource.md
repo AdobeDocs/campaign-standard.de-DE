@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 84%
@@ -25,7 +25,7 @@ Zur Erstellung einer neuen Ressource oder zur Erweiterung einer existierenden Re
 1. [Filterdefinition konfigurieren](../../developing/using/configuring-filter-definition.md)
 1. [Datenbankstruktur aktualisieren](../../developing/using/updating-the-database-structure.md)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Die Erstellung und Änderung von Ressourcen sind schwierige Vorgänge, die nur von erfahrenen Benutzern durchgeführt werden können.
 
@@ -34,4 +34,3 @@ Dieses Video zeigt, wie Sie benutzerdefinierte Ressourcen erstellen.
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
 Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
-
