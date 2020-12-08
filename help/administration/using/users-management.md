@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 98%
+source-wordcount: '1277'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 In Adobe Campaign können Sie Ihren Benutzern verschiedene Rollen zuweisen und dadurch festlegen, welchen Teil der Benutzeroberfläche sie verwenden können.
 
-In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweiligen Berechtigungen genauer beschrieben: [Benutzerrollen](../../administration/using/list-of-roles.md) und [Berechtigungen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweiligen Berechtigungen genauer beschrieben: [Benutzerrollen](../../administration/using/list-of-roles.md) und [Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weiterführende Informationen dazu finden Sie im [Handbuch zur Admin Console](https://helpx.adobe.com/de/enterprise/using/users.html).
 
@@ -37,7 +37,7 @@ Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie v
 
 * Video [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
-* [Liste der Berechtigungen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Typen von Benutzern {#type-of-users}
 
@@ -59,7 +59,7 @@ Vielmehr beschäftigen wir uns mit den drei wichtigsten Benutzertypen entspreche
 
 Funktionale Administratoren sind Benutzer, die Zugriff auf die meisten technischen Elemente der Benutzeroberfläche haben. Sie sind verantwortlich für die **[!UICONTROL Administration]** und richten die Plattform ein, damit sich Marketer voll und ganz auf den Versand ihrer Kampagnen konzentrieren können.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Nur funktionale Administratoren mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Einheiten können auf Versandlogs, Nachrichtenprotokolle, Trackinglogs, Ausschluss-Logs, Vorschlagsprotokolle und Abonnenten-Logs zugreifen. Ein Benutzer ohne Administratorrechte kann diese Protokolle ansprechen, muss aber mit einer verknüpften Tabelle (Profile, Versand) beginnen.
 
@@ -89,7 +89,7 @@ Dies sind ihre Hauptaufgaben:
 * [Fortgeschrittene Bearbeitung von Ausdrücken](../../automating/using/editing-queries.md#about-query-editor): Einsatz fortgeschrittener Funktionen zur Bearbeitung für Abfragen verwendeter Werte (Datumsangaben, Strings, numerische Felder, Sortierung usw.)
 * [Listen exportieren](../../automating/using/exporting-lists.md) und [Daten mithilfe von Importvorlagen importieren](../../automating/using/importing-data-with-import-templates.md)
 
-### Benutzer mit Grundkenntnissen         {#basic-users}
+### Benutzer mit Grundkenntnissen          {#basic-users}
 
 Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntnissen können Marketer Kampagnen personalisieren, versenden und überwachen, ohne sich über die technischen Feinheiten den Kopf zerbrechen zu müssen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Sendungen vorbereiten]**, **[!UICONTROL Workflow]** und **[!UICONTROL Sendungen starten]** zugewiesen werden. Diese Rollen sind in der vordefinierten Sicherheitsgruppe **[!UICONTROL Standardbenutzer]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
