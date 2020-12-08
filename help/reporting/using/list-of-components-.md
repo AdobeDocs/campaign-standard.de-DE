@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 100%
+source-wordcount: '1287'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Weiterführende Informationen zur Kompatibilität zwischen Dimensionen und Metriken finden Sie in dieser [Tabelle](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Wenn zwei Komponenten nicht kompatibel sind, zeigt die Zelle den Wert **Kein** an.
 
-![](assets/dynamic_report_compatibility.png)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 ## Dimensionen {#dimensions}
 
@@ -136,7 +136,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS        {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS         {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -257,7 +257,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen        {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen         {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -322,7 +322,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten        {#in-app-metrics}
+### Metriken zu In-App-Nachrichten         {#in-app-metrics}
 
 <table> 
  <thead> 
