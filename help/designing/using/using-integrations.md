@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-
 
 Mit Produktlisten können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen. Diese Listen stehen für Transaktions-E-Mails zur Verfügung. Einen speziellen Abschnitt zu dieser Funktion finden Sie [hier](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
-## Funktionen zur E-Mail-Erstellung im Vergleich       {#email-design-options-comparison}
+## Funktionen zur E-Mail-Erstellung im Vergleich        {#email-design-options-comparison}
 
 Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der folgenden Tabelle werden die wichtigsten Funktionen, Vorteile und Beschränkungen aufgeführt.
 
@@ -153,10 +153,10 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
  </tbody> 
 </table>
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video wird gezeigt, wie Inhalte für Adobe Campaign Standard mit Dreamweaver erstellt und bearbeitet werden.
+In diesem Video wird gezeigt, wie man Inhalte für Adobe Campaign Standard mit Dreamweaver erstellt und bearbeitet.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
