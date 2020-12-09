@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -30,13 +30,13 @@ Der Abfrageeditor kommt in verschiedenen Funktionen zum Einsatz:
 * Definition von **E-Mail-Zielgruppen**,
 * Definition von Populationen in **Workflow-Aktivitäten**.
 
-## Benutzeroberfläche des Abfrageeditors  {#query-editor-interface}
+## Benutzeroberfläche des Abfrageeditors   {#query-editor-interface}
 
 Die Benutzeroberfläche des Abfrageeditors enthält eine **Palette** und einen **Arbeitsbereich**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette  {#palette}
+### Palette   {#palette}
 
 Die Palette befindet sich auf der linken Seite des Tools und ist in zwei Tabs unterteilt, die wiederum aus mehreren, in thematische Blöcke aufgeteilten Elementen bestehen. Diese Tabs sind:
 
@@ -50,13 +50,13 @@ Die in den Tabs enthaltenen Elemente müssen im Arbeitsbereich platziert werden,
 * Definition von einfachen Regeln für frei wählbare Felder,
 * Definition von erweiterten Regeln zur Anwendung von Funktionen auf gewisse Felder.
 
-### Arbeitsbereich  {#workspace}
+### Arbeitsbereich   {#workspace}
 
 Der Arbeitsbereich ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln, Audiences und Filter konfigurieren und kombinieren können, die aus der Palette hier abgelegt werden.
 
 Wenn Sie ein Element aus der Palette in den Arbeitsbereich ziehen, öffnet sich ein neues Fenster, mit dem sich [Abfragen erstellen](#creating-queries) lassen.
 
-## Abfragen erstellen  {#creating-queries}
+## Abfragen erstellen   {#creating-queries}
 
 Mit dem Abfrageeditor können Sie eine Audience oder ein Testprofil in einer Nachricht oder eine Population in einem Workflow definieren und eine Audience vom Typ &quot;Abfrage&quot; erstellen.
 
