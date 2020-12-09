@@ -7,11 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '544'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -81,10 +81,10 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 * [Über die Bearbeitung von SMS und Push-Benachrichtigungen](../../channels/using/about-sms-and-push-content-design.md)
 * [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md)
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-Dieses Video zeigt, wie Sie einen SMS-Versand erstellen.
+In diesem Video wird gezeigt, wie man einen SMS-Versand erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
