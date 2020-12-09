@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Sie können die Audience entweder im Erstellungsassistenten oder durch Klicken i
 
 ![](assets/direct_mail_15.png)
 
-## Hauptzielgruppe definieren    {#defining-the-main-target}
+## Hauptzielgruppe definieren     {#defining-the-main-target}
 
 Bei Briefpost werden die Zielgruppenprofile in die Extraktionsdatei eingefügt, die Sie an Ihren Briefpost-Dienstleister senden.
 
@@ -32,7 +32,7 @@ Für jedes Zielgruppenprofil wird eine neue Zeile der Extraktionsdatei hinzugef�
 >
 >Achten Sie darauf, dass Ihre Profile eine Anschrift enthalten, da diese Information für den Briefpost-Dienstleister wesentlich ist. Beachten Sie außerdem, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist. Siehe [Empfehlungen](../../channels/using/about-direct-mail.md#recommendations).
 
-## Hinzufügen von Test- und Fallen-Profilen    {#adding-test-and-trap-profiles}
+## Hinzufügen von Test- und Fallen-Profilen     {#adding-test-and-trap-profiles}
 
 Fügen Sie Testprofile hinzu, sodass Sie Ihre Datei mit einer kleinen Anzahl von Profilen testen können. Dadurch können Sie rasch eine Beispieldatei erstellen, um ihren Aufbau zu testen und zu validieren, bevor Sie die eigentliche Datei vorbereiten. Siehe [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
