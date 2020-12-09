@@ -117,7 +117,7 @@ Wenn der Anmeldetoken existiert, erhält der entsprechende Benutzer eine Transak
 
 *&quot;Hallo, Jane Green, das Boarding hat soeben begonnen! Bitte gehen Sie zu Flugsteig B18.&quot;*
 
-## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt    {#transactional-push-notifications-targeting-a-profile}
+## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt     {#transactional-push-notifications-targeting-a-profile}
 
 Sie können eine transaktionale Push-Benachrichtigung **an die Adobe Campaign-Profil senden, die Ihre Mobilanwendung abonniert haben**. Dieser Versand kann [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) enthalten, z. B. den Vornamen des Empfängers, der direkt aus der Adobe Campaign-Datenbank abgerufen wird.
 
