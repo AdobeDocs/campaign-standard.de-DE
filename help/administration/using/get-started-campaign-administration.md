@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Als Cloud-basierte Lösung bietet Adobe Campaign Administratoren unterschiedlich
 >
 >Wenn Sie Fragen oder Anliegen zur Implementierung und Konfiguration haben, kontaktieren Sie Ihren Adobe-Kundenbetreuer.
 
-Beachten Sie, dass Admin-Benutzer, wenn Ihre Instanz auf AWS gehostet wird, auch die Systemsteuerung der Kampagne nutzen können, um die Einstellungen zu verwalten und Nutzungen für jede Ihrer Instanzen zu verfolgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de).
+Wenn Ihre Instanz auf AWS gehostet wird, können Admin-Benutzer auch das Campaign Control Panel nutzen, um Einstellungen zu verwalten und die Verwendung für jede Instanz zu verfolgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de).
 
 ## Menü &quot;Administration&quot; {#administration-menu}
 
