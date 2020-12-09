@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Wenn dies in den entsprechenden Spalten der Datei spezifiziert wird, können Sie
 
    Ihr Workflow kann nun ausgeführt werden. Nach der Ausführung können Sie die an- bzw. abgemeldeten Profile in der Detailansicht des Dienstes einsehen.
 
-## Beispiel: Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden    {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## Beispiel: Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden     {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 In diesem Beispiel wird dargestellt, wie man eine Datei mit Profilen importiert, um diese für einen existierenden Dienst anzumelden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile identifiziert werden können. Um sicherzustellen, dass sich keine Dubletten in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
 
