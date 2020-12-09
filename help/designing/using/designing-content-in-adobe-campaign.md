@@ -6,11 +6,11 @@ description: Erstellen Sie E-Mail-Inhalte von Grund auf neu, importieren Sie HTM
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1238'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Email Designer ermöglicht die Erstellung von E-Mail-Inhalten und Vorlagen für 
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Entdecken Sie den E-Mail-Designer im Video](#video)
+![](assets/do-not-localize/how-to-video.png) [Email Designer im Video kennenlernen](#video)
 
 * Informationen zum Erstellen von E-Mail-Inhalten finden Sie unter [Erste Schritte mit Email Designer](../../designing/using/quick-start.md).
 * Eine Übersicht über Email Designer finden Sie unter [Verwenden von Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -95,7 +95,7 @@ Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email De
 
 **Fragmente**: Ein Fragment ist eine Komponente, die Sie in mehreren E-Mails wiederverwenden können.
 
-**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können..
+**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können.
 
 **Inhaltskomponenten**: Inhaltskomponenten sind rohe, noch leere Komponenten, die Sie in E-Mails einfügen und dort bearbeiten können.
 
@@ -141,7 +141,7 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Wenn Fragmente in E-Mails aktualisiert werden, die bereits vorbereitet wurden, wirkt sich dies nicht auf diese E-Mails aus.
 
-## Einschränkungen in Email Designer       {#email-designer-limitations}
+## Einschränkungen in Email Designer        {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -159,10 +159,10 @@ Beachten Sie bei Fragmenten Folgendes:
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
 * [Push-Benachrichtigung erstellen und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video erhalten Sie einen Überblick über den E-Mail-Designer.
+In diesem Video erhalten Sie einen Überblick über Email Designer.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12&captions=ger)
 
 In diesen [Videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können
