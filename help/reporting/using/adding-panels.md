@@ -6,9 +6,9 @@ description: Dynamische Berichte ermöglichen es Ihnen, ein Bedienfeld hinzuzuf�
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ In diesen Bedienfeldern können Sie nach Bedarf Ihre Berichte erstellen. Sie kö
 
 Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
-## Freiformtabelle hinzufügen       {#adding-a-freeform-table}
+## Freiformtabelle hinzufügen        {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **Komponente** analysiert werden.
 
