@@ -6,28 +6,28 @@ description: Erfahren Sie mehr über die Adobe Campaign Standard-Funktionen zur 
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Datenschutzverwaltung {#privacy-management}
 
-Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign bietet eine Reihe von Tools, die Sie bei der Einhaltung der [Datenschutzverordnungen](#privacy-management-regulations) (einschließlich DSGVO, CCPA, PDPA, LGPD) unterstützen.
 
-Im Folgenden finden Sie die fünf wichtigsten Funktionen, die Adobe Campaign bietet, um die Bereitschaft zu GDPR und anderen Datenschutzbestimmungen sicherzustellen:
+Hier sind die fünf Hauptfunktionen von Adobe Campaign, um die Unterstützung der DSGVO und anderen Datenschutzbestimmungen sicherzustellen:
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **Zugriffsrecht**
+* **Recht auf Zugriff**
 
 * **Recht auf Löschen**
 
-Weitere Informationen dazu finden Sie unter [Zugriffsrecht und Recht auf Vergessen](#right-access-forgotten).
+Weitere Informationen hierzu finden Sie unter [Recht auf Zugriff und Recht auf Vergessenwerden](#right-access-forgotten).
 
 * **Einverständnisverwaltung**
 
@@ -35,17 +35,17 @@ Weitere Informationen dazu finden Sie unter [Zugriffsrecht und Recht auf Vergess
 
 * **Rights Management**
 
-Weitere Informationen finden Sie unter [Zustimmung, Treue und Rollen](#consent-retention-roles).
+Weitere Informationen hierzu finden Sie unter [Einverständnis, Datenbeibehaltung und Benutzerrollen](#consent-retention-roles).
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## Regulations on Privacy management {#privacy-management-regulations}
+## Verordnungen zur Datenschutzverwaltung {#privacy-management-regulations}
 
 Die Funktionen von Adobe Campaign helfen Ihnen bei der Einhaltung der folgenden Verordnungen:
 
-* Die **DSGVO** ([Datenschutz-Grundverordnung](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_de)) ist das Datenschutzgesetz der Europäischen Union (EU), in dem die Anforderungen an den Datenschutz in den Ländern der EU harmonisiert und neu geregelt werden. Unter den folgenden Links finden Sie allgemeine Informationen zum GDPR:
+* Die **DSGVO** ([Datenschutz-Grundverordnung](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_de)) ist das Datenschutzgesetz der Europäischen Union (EU), in dem die Anforderungen an den Datenschutz in den Ländern der EU harmonisiert und neu geregelt werden. Folgen Sie den unten stehenden Links, um allgemeine Informationen zur DSGVO zu erhalten:
 
    * https://www.adobe.com/de/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/de/marketing-cloud/campaign/general-data-protection-regulation.html
