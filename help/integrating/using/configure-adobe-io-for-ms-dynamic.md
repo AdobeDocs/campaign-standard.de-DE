@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie Adobe I/O für die Integration mit Microsoft 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ Nach dem Herunterladen können Sie die Datei entpacken, um die öffentlichen und
 
    ![](assets/adobeIO5.png)
 
-1. Auf dem nächsten Bildschirm wählen Sie Produktprofile aus, die diesem Projekt zugeordnet werden sollen. Select the product profile that contains in the solution: Campaign Standard
-product: campaign
-title: The tenant ID of your Campaign instance - [!UICONTROL Administrators]
+1. Auf dem nächsten Bildschirm wählen Sie Produktprofile aus, die diesem Projekt zugeordnet werden sollen. Wählen Sie das Produktprofil aus, das die Lösung enthält: Campaign Standard
+Produkt: Campaign
+Titel: Die Mandantenkennung Ihrer Campaign-Instanz – [!UICONTROL Administratoren]
 
    Beispiel: Campaign Standard – Ihre Campaign-Mandantenkennung – Administratoren
 
