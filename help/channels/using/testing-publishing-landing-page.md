@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie eine Landingpage in Adobe Campaign teste
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Vor der Publikation einer Landingpage müssen Sie Tests durchführen: Validieren Sie die Ausführung, konfigurieren Sie den Zugriff darauf und legen Sie das Funktionsende der Landingpage fest. Diese Maßnahmen sind erforderlich und müssen mit Sorgfalt ausgeführt werden.
 
-## Landingpage testen      {#testing-the-landing-page-}
+## Landingpage testen       {#testing-the-landing-page-}
 
 Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie wie folgt vor:
 
@@ -45,7 +45,7 @@ Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landin
 >
 >Um die Vorschau der Landingpage in der Campaign-Benutzeroberfläche anzuzeigen, muss die URL des Anwendungsservers sicher sein. Verwenden Sie in diesem Fall https:// anstelle von http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands) einzurichten.
 
-## Gültigkeitsparameter einrichten      {#setting-up-validity-parameters}
+## Gültigkeitsparameter einrichten       {#setting-up-validity-parameters}
 
 Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung vor der Publikation in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Landingpage automatisch offline gestellt. Gehen Sie wie folgt vor:
 
@@ -65,7 +65,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 >
 >Sie können auch ein Publikationsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum publiziert.
 
-## Landingpage publizieren      {#publishing-a-landing-page}
+## Landingpage publizieren       {#publishing-a-landing-page}
 
 Wenn Sie eine Landingpage publizieren, ist sie online für Besucher verfügbar.
 
