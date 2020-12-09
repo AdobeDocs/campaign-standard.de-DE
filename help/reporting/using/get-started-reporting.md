@@ -6,11 +6,11 @@ description: Analysieren Sie den Erfolg Ihrer Kampagnen mit integrierten oder be
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 Das dynamische Reporting ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Durch sie kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht.
 
-![](assets/do-not-localize/how-to-video.png) [Dynamischer Berichte im Video](#video)
+![](assets/do-not-localize/how-to-video.png) [Dynamische Berichte im Video kennenlernen](#video)
 
 ## Berichte verwalten und freigeben {#manage-share-reports}
 
@@ -78,10 +78,10 @@ Mehr dazu:
 * [Logs exportieren](../../automating/using/exporting-logs.md)
 * [Über die Integration von Campaign mit Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video erhalten Sie einen Überblick über die Berichte-Funktionen von Adobe Campaign Standard.
+In diesem Video erhalten Sie einen Überblick über die Berichtsfunktionen von Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
