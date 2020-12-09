@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Anmeldungen mit APIs löschen können.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## Löschen einer Dienstanmeldung für ein bestimmtes Profil  {#deleting-service-subscription}
+## Löschen einer Dienstanmeldung für ein bestimmtes Profil   {#deleting-service-subscription}
 
 Dies ist ein dreistufiges Verfahren.
 
