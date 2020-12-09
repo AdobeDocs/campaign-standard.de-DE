@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Datenschutz und Einverständnis
-description: Erfahren Sie mehr über Datenschutz, personenbezogene Daten und die Verwaltung der Zustimmung in Adobe Campaign Standard
+title: Datenschutz und Einverständniserklärung
+description: Erfahren Sie mehr über Datenschutz, personenbezogene Daten und die Einverständnisverwaltung in Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Um den Datenschutz korrekt zu handhaben und personenbezogene Daten zu verwalten,
 
 >[!NOTE]
 >
->For more on how GDPR, CCPA, PDPA, and LGPD apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
+>Weitere Informationen zur Anwendung von DSGVO, CCPA, PDPA und LGPD auf Adobe Campaign finden Sie in [diesem Abschnitt](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud – Datenschutz {#experience-cloud-privacy}
 
@@ -84,31 +84,31 @@ Die [wichtigsten Rechtsvorschriften](#privacy-regulations) beziehen sich auf die
 
 Als Unternehmen, das personenbezogene Daten erfasst und weitergibt, sind Sie daher der Datenverantwortliche, Ihre Kunden sind die betroffenen Personen und Adobe Campaign fungiert als Auftragsverarbeiter, wenn wir deren personenbezogenen Daten gemäß Ihren Anweisungen verarbeiten. Beachten Sie, dass es in Ihrer Verantwortung als Datenverantwortlicher liegt, die Beziehung zu den betroffenen Personen zu verwalten, z. B. bei der Verwaltung von [Datenschutzanfragen](#privacy-requests).
 
-### Verwendungsfallszenario {#use-case-scenario}
+### Anwendungsszenario {#use-case-scenario}
 
-Um zu veranschaulichen, wie die verschiedenen Personen interagieren, hier ein Beispiel für ein GDPR-Kundenerlebnis auf hoher Ebene.
+Um zu veranschaulichen, wie die verschiedenen Personas interagieren, finden Sie hier ein Beispiel für ein DSGVO-Kundenerlebnis auf hoher Ebene.
 
-In diesem Beispiel ist eine Airline-Firma der Adobe Campaign-Kunde. Diese Firma ist der **Data Controller** und alle Clients der Airline-Firma sind **Datensubjekte**. Laura ist in diesem Fall Kunde der Firma der Fluggesellschaft.
+In diesem Beispiel ist eine Fluggesellschaft der Kunde von Adobe Campaign. Diese Firma ist der **Datenverantwortliche** und alle Kunden der Fluggesellschaft sind **betroffene Personen**. Laura ist in diesem speziellen Fall eine Kundin der Fluggesellschaft.
 
-Die Personen in unserem Beispiel haben folgende Rollen:
+Die Personas in unserem Beispiel haben folgende Rollen:
 
-* **Laura** ist das **Datensubjekt**. Sie ist der Empfänger, der Nachrichten von der Airline-Firma erhält. Laura mag eine Vielfliegerin sein, kann aber irgendwann entscheiden, dass sie keine personalisierten Werbe- oder Marketingbotschaften von der Firma der Fluggesellschaft will. Sie wird die Firma der Fluggesellschaft bitten, ihre Vielfliegernummer zu löschen (je nach Vorgang).
+* **Laura** ist die **betroffene Person**. Sie ist die Empfängerin, die Nachrichten von der Fluggesellschaft erhält. Laura mag eine Vielfliegerin sein, kann aber irgendwann entscheiden, dass sie keine personalisierten Werbe- oder Marketing-Botschaften mehr von der Fluggesellschaft wünscht. Sie wird die Fluggesellschaft (anhand des entsprechenden Vorgangs) bitten, ihre Vielfliegernummer zu löschen.
 
-* **Anne** ist der **Datenkontrolleur** an der Firma der Fluggesellschaft. Sie erhält Lauras Anfrage, ruft brauchbare IDs ab, die zur Identifizierung des Datenbetreibers angefordert werden, und sendet die Anfrage in Adobe Campaign.
+* **Anne** ist die **Datenverantwortliche** der Fluggesellschaft. Sie erhält Lauras Anfrage, ruft nützliche IDs ab, die zur Identifizierung der betroffenen Person erforderlich sind, und sendet die Anfrage in Adobe Campaign.
 
-* **Adobe Campaign** ist der **Datenprozessor**.
+* **Adobe Campaign** ist der **Auftragsverarbeiter**.
 
 ![](assets/privacy-gdpr-flow.png)
 
 Dies ist das übliche Verfahren für ein derartiges Szenario:
 
-1. The **Data Subject** (Laura) sends a GDPR request to the **Data Controller**, via email, customer care or a web portal.
+1. Die **betroffene Person** (Laura) übermittelt per E-Mail, über die Kundenunterstützung oder über ein Web-Portal eine DSGVO-Anfrage an die **Datenverantwortliche**.
 
-1. The **Data Controller** (Anne) pushes the GDPR request to Campaign via the interface or using an API.
+1. Die **Datenverantwortliche** (Anne) sendet die DSGVO-Anfrage über die Benutzerschnittstelle oder eine API an Campaign.
 
-1. Once the **Data Processor** (Adobe Campaign) receives the information, it takes action on the GDPR request and sends a response or acknowledgement to the **Data Controller** (Anne).
+1. Nachdem der **Auftragsverarbeiter** (Adobe Campaign) die Informationen erhalten hat, wird er in Bezug auf die DSGVO-Anfrage aktiv und sendet eine Antwort oder eine Bestätigung an die **Datenverantwortliche** (Anne).
 
-1. The **Data Controller** (Anne) then reviews the information and sends it back to the **Data Subject** (Laura).
+1. Die **Datenverantwortliche** (Anne) prüft die Informationen und sendet sie an die **betroffene Person** (Laura).
 
 ## Datenakquise {#data-acquisition}
 
@@ -149,7 +149,7 @@ Adobe Campaign bietet zusätzliche Funktionen, mit denen Sie sich als Datenveran
 
 * Das **Recht auf Vergessenwerden** (Löschanfrage) berechtigt die betroffene Person dazu, vom Datenverantwortlichen die Löschung ihrer personenbezogenen Daten zu verlangen.
 
-The **Access** and **Delete** requests are presented in [this section](../../start/using/privacy-management.md#right-access-forgotten).
+**Zugriffs**- und **Löschanfragen** werden in [diesem Abschnitt](../../start/using/privacy-management.md#right-access-forgotten) angezeigt.
 
 Die Implementierungsschritte zum Erstellen dieser Anfragen werden in [diesem Abschnitt](../../start/using/privacy-requests.md) beschrieben. [Tutorials sind](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/privacy/privacy-overview.html) ebenfalls verfügbar.
 
