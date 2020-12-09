@@ -23,7 +23,7 @@ Greifen wir hierfür das im Abschnitt [Funktionsweise von Transaktionsnachrichte
 
 Sie möchten eine freundliche Erinnerung an alle Kunden senden, die die Benachrichtigung zum Warenkorbabbruch erhalten haben, diese aber nach drei Tagen nicht geöffnet haben. Sie erhalten eine Anschlussnachricht, die auf denselben Daten basiert, die in der ersten gesendeten E-Mail verwendet wurden.
 
-## Ereignis konfigurieren, um eine Folgenachricht zu senden        {#configuring-an-event-to-send-a-follow-up-message}
+## Ereignis konfigurieren, um eine Folgenachricht zu senden         {#configuring-an-event-to-send-a-follow-up-message}
 
 Um eine Folgemaßnahme zu senden, müssen Sie zunächst das Ereignis entsprechend der bereits erhaltenen Transaktionsnachricht konfigurieren.
 
@@ -36,7 +36,7 @@ Um eine Folgemaßnahme zu senden, müssen Sie zunächst das Ereignis entsprechen
 
 Mit Ausführung der Publikation werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Die Schritte zum Senden der Follow-up-Meldung sind in [diesem Abschnitt](#sending-a-follow-up-message) beschrieben.
 
-## Zugriff auf die Folgenachrichten      {#accessing-the-follow-up-messages}
+## Zugriff auf die Folgenachrichten       {#accessing-the-follow-up-messages}
 
 Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorlage notwendig. Allerdings kann die bei der Publikation des Ereignisses erstellte [Transaktionsnachricht](../../channels/using/editing-transactional-message.md) nicht als Vorlage verwendet werden. Hierfür müssen Sie eine spezifische Versandvorlage für Folgenachrichten erstellen, die diesen Ereignistyp und die Verwendung als Vorlage in Workflows unterstützt.
 
