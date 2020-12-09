@@ -6,11 +6,11 @@ description: Verwalten Sie XDM-Schemata, um Ihre Campaign Standard-Daten in Adob
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,10 +76,10 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 * Die Batch-Vorgänge wird alle 15 Minuten ausgeführt und identifiziert die Datensätze, die sich seit dem letzten Batch geändert haben. Wenn sich alle Datensätze zum gleichen Zeitpunkt ändern, könnte bei der Erfassung aller Profile ein Leistungsengpass auftreten.
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
 Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Connector.
 
 https://video.tv.adobe.com/v/27304?quality=12&amp;captions=ger
 
-Weitere Videos zum Adobe Experience Platform Data Connector finden Sie unter [hier](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html).
+Weitere Videos zum Adobe Experience Platform Data Connector finden Sie [hier](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html).
