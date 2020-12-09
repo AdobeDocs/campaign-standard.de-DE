@@ -6,11 +6,11 @@ description: Bereiten Sie Ihre Nachrichten vor und testen, planen, versenden und
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Sobald die Marketing-Kampagnen ausgeführt und die verschiedenen Nachrichten ges
 
 Nutzen Sie schließlich die in Campaign Standard verfügbaren Zustellbarkeitsrichtlinien und Werkzeuge, um die Anzahl der zugestellten Nachrichten zu erhöhen und erfolgreiche Marketing-Kampagnen sicherzustellen.
 
-![](assets/do-not-localize/how-to-video.png) [Erfahren Sie, wie Sie eine Test-E-Mail senden, einen E-Mail-Versand im Video vorbereiten und senden können](#video)
+![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie man eine Test-E-Mail sendet und einen E-Mail-Versand vorbereitet und ausführt.](#video)
 
 ## Vorbereiten und Testen {#prepare-test-send}
 
@@ -95,10 +95,10 @@ Mehr dazu:
 * [Best Practices beim Versand](../../sending/using/delivery-best-practices.md)
 * [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-Dieses Video zeigt, wie Sie eine Test-E-Mail senden, einen E-Mail-Versand vorbereiten und dann in Campaign Standard senden können.
+In diesem Video wird gezeigt, wie man eine Test-E-Mail sendet, einen E-Mail-Versand vorbereitet und dann in Campaign Standard ausführt.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/24013/?captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
