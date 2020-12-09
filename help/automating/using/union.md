@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: union,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Eine **[!UICONTROL Vereinigung]** dient der Zusammenfassung der Ergebnisse mehre
 >
 >Dabei müssen die Mengen nicht zwingend homogen sein.
 
-## Anwendungskontext   {#context-of-use}
+## Anwendungskontext    {#context-of-use}
 
 Eine **[!UICONTROL Vereinigung]** wird insbesondere im Rahmen einer Segmentierung, einer Audience-Erstellung oder der Zielgruppenbestimmung verwendet, um die Populationen der eingehenden Transitionen zusammenzuführen.
 
