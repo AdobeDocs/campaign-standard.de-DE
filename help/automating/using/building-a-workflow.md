@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Sie können Transitionen vor oder nach der Ausführung des Workflows öffnen, um
 
 ![](assets/workflow_overview.png)
 
-## Workflow erstellen   {#creating-a-workflow}
+## Workflow erstellen    {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
 
-![](assets/do-not-localize/how-to-video.png) [Entdecken Sie, wie Sie einen Workflow in Video erstellen](#video)
+![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie man einen Workflow erstellt](#video)
 
 Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -72,7 +72,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
    Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
 
-   Weitere Informationen zu den Eigenschaften von Workflows finden Sie auf [dieser Seite](../../automating/using/managing-execution-options.md).
+   Weitere Informationen zu Workflow-Eigenschaften finden Sie auf [dieser Seite](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -131,10 +131,10 @@ Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Dat
 1. Speichern Sie die Aktivität und wiederholen Sie das Verfahren für jede Aktivität im Workflow.
 1. Speichern Sie den Workflow.
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video wird gezeigt, wie ein Workflow erstellt wird.
+In diesem Video wird gezeigt, wie man einen Workflow erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
