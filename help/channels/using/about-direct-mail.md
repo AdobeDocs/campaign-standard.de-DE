@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Achten Sie darauf, dass in der Profilinformation die Option **[!UICONTROL Anschr
 
 ![](assets/direct_mail_22.png)
 
-### Postanschriften    {#postal-addresses}
+### Postanschriften     {#postal-addresses}
 
 Die Anschriftsfelder zum Hinzufügen in die Extraktionsdatei finden Sie im Knoten **[!UICONTROL Ort]**.
 
