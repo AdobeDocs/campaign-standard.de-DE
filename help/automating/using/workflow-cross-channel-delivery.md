@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Weiterführende Informationen zu Workflows und den in Adobe Campaign verfügbare
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Kommunikationskanäle](../../channels/using/get-started-communication-channels.md)
 
-## Workflow erstellen      {#creating-workflow}
+## Workflow erstellen       {#creating-workflow}
 
 Bestimmen Sie im ersten Schritt die Zielgruppe, die Sie mit Ihrer Kommunikation erreichen möchten. Nachfolgend wird diese dann je nach Kommunikationsmedium in zwei Gruppen unterteilt.
 
