@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Sie können am Jahrestag der Profilerstellung eines Kunden diesem ein Angebot pe
 1. Um Empfänger auszuwählen, ziehen Sie eine [](../../automating/using/query.md)Abfrageaktivität in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Fügen Sie **[!UICONTROL Profile]** hinzu und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
 
-### Abrufen von Profilen, die am selben Tag wie der Tag der Ausführung {#retrieving-profiles-created-on-the-same-day} erstellt wurden
+### Profile abrufen, die am Versandtag erstellt wurden {#retrieving-profiles-created-on-the-same-day}
 
 1. Ziehen Sie in **[!UICONTROL Profil]** das Feld **[!UICONTROL Erstellt]** in den Arbeitsbereich. Wählen Sie **[!UICONTROL Erweiterter Modus]** aus.
    ![](assets/advanced_mode.png)
@@ -65,7 +65,7 @@ Das Ergebnis sollte folgendermaßen aussehen:
 
 Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-### Retrieving profiles created on the same month as the month of execution{#retrieving-profiles-created-on-the-same-month}
+### Profile abrufen, die im Versandmonat erstellt wurden {#retrieving-profiles-created-on-the-same-month}
 
 1. Wählen Sie im **[!UICONTROL Abfrageeditor]** die erste Abfrage aus und duplizieren Sie sie.
 1. Öffnen Sie das Duplikat.
