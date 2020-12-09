@@ -6,9 +6,9 @@ description: Hier erhalten Sie Informationen über die Ergebnisse Ihrer Berichte
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand         {#email-delivery}
+## E-Mail-Versand          {#email-delivery}
 
 <table> 
  <thead> 
@@ -224,7 +224,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand         {#push-notification-delivery}
+## Push-Benachrichtigungsversand          {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -298,7 +298,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## In-App-Versand         {#in-app-delivery}
+## In-App-Versand          {#in-app-delivery}
 
 <table> 
  <thead> 
