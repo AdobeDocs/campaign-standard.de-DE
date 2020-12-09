@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie im alten Editor erstellte E-Mails in Email De
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
 ht-degree: 100%
 
