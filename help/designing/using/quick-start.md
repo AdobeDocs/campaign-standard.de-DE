@@ -6,9 +6,9 @@ description: Beginnen Sie in Email Designer mit dem Erstellen von E-Mail-Inhalte
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ Sie können das Design Ihrer E-Mail anpassen, beispielsweise den Abstand einer K
 
 Sie können Ihre E-Mail nun speichern und senden.
 
-### Erstellen von Inhalt aus einer vordefinierten Vorlage       {#building-content-from-an-out-of-the-box-template}
+### Erstellen von Inhalt aus einer vordefinierten Vorlage        {#building-content-from-an-out-of-the-box-template}
 
 Ihre E-Mails können Sie auch aus vordefinierten Vorlagen erstellen und diese personalisieren. Hier bieten sich zum Beispiel Willkommensnachrichten für Neukunden, Newsletter und Wiedereinstellungs-E-Mails an.
 
