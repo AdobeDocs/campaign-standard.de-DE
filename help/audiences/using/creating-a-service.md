@@ -7,11 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,10 +61,10 @@ Nachdem ein Dienst erstellt wurde, können Sie damit beginnen, ihn zu bewerben.
 * [Erstellen einer Audience aus Abonnenten](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Verknüpfen einer Landingpage mit einem Dienst ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video wird gezeigt, wie ein Dienst erstellt und seine Abonnement verwaltet werden.
+In diesem Video wird gezeigt, wie man einen Dienst erstellt und seine Abonnements verwaltet.
 
->[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
