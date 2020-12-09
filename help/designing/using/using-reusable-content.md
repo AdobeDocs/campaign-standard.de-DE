@@ -6,11 +6,11 @@ description: Beginnen Sie in Email Designer mit dem Erstellen wiederverwendbarer
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1883'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email De
 >
 > In Adobe Campaign Standard können Sie verschiedene Arten von Vorlagen erstellen, auf die Sie über das Menü **Ressourcen** > **Vorlagen** zugreifen können. In Email Designer werden Inhaltsvorlagen verwendet. Weitere Informationen finden Sie unter [Über Vorlagen](../../start/using/marketing-activity-templates.md).
 
-![](assets/do-not-localize/how-to-video.png) [Entdecken Sie, wie Sie Vorlagen in Videos erstellen](#video)
+![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie man Vorlagen erstellt](#video)
 
 ### Über Inhaltsvorlagen {#content-templates}
 
@@ -140,15 +140,15 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 * [Einführungsvideo für Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-### Tutorial-Video {#video}
+### Anleitungsvideo {#video}
 
-In diesen Videos wird gezeigt, wie Sie eine eigene Vorlage erstellen.
+In diesen Videos wird gezeigt, wie man eine eigene Vorlage erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
 
-## Über Fragmente        {#about-fragments}
+## Über Fragmente         {#about-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
@@ -204,7 +204,7 @@ Nachdem Inhalt in die E-Mail-Struktur geladen wurde, können Sie den Stil jedes 
 >
 >Änderungen eines Fragments werden automatisch mit den E-Mails synchronisiert, in denen das Fragment verwendet wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Über Fragmente](#about-fragments).
 
-### Inhaltsfragment erstellen        {#creating-a-content-fragment}
+### Inhaltsfragment erstellen         {#creating-a-content-fragment}
 
 Sie können Ihre eigenen Inhaltsfragmente erstellen und nach Bedarf in einer oder in mehreren E-Mails verwenden.
 
@@ -242,7 +242,7 @@ Dieses Fragment kann jetzt in jeder mit Email Designer erstellten E-Mail verwend
 >
 >Sie können nur dann Personalisierungsfelder in einem Fragment einfügen, wenn es in einer E-Mail verwendet wird und gesperrt ist. Siehe [Über Fragmente](#about-fragments).
 
-### Inhalt als Fragment speichern        {#saving-content-as-a-fragment}
+### Inhalt als Fragment speichern         {#saving-content-as-a-fragment}
 
 Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Teil dieser E-Mail als Fragment speichern.
 
