@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie die Betreffzeile einer E-Mail im Email Design
 audience: sending
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Bei der Analyse werden mehrere Indikatoren berechnet und es werden eine Reihe vo
 
 ![](assets/predictive_subject_line_example.png)
 
-## Modelle importieren      {#importing-models}
+## Modelle importieren       {#importing-models}
 
 Auf Ihrem Adobe-Campaign-Server laufen Modelle nicht standardmäßig. Für den Erhalt eines Modells und die Aktivierung der Funktion gibt es zwei Möglichkeiten:
 
