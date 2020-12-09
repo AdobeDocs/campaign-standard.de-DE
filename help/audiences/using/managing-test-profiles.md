@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Verwaltung von Testprofilen   {#managing-test-profiles}
+# Verwaltung von Testprofilen    {#managing-test-profiles}
 
 ## Über Testprofile {#about-test-profiles}
 
@@ -78,10 +78,10 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Testprofil zu bearbeiten b
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Speichern]**, falls Sie Änderungen vorgenommen haben. Andernfalls können Sie oben im Bildschirm den Namen des Testprofils anklicken und dann in der sich öffnenden Dropdown-Liste **[!UICONTROL Testprofile]** auswählen, um zur Übersicht der Testprofile zurückzukehren.
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video wird gezeigt, wie ein Profil zum Testen erstellt wird.
+In diesem Video wird gezeigt, wie man ein Testprofil erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
