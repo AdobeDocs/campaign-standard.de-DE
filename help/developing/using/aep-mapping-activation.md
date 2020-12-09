@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie Ihr Daten-Mapping aktivieren
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Wenn Sie alle Datenexportvorgänge überwachen möchten, gehen Sie zum Menü **[
 
 ![](assets/aep_statusmapping.png)
 
-Die Statusangaben für Datenaufzeichnungsaufträge sind:
+Status des Datenerfassungsvorgangs sind:
 
 * **[!UICONTROL Erstellt]**: Es wird ein Datenerfassungsvorgang erstellt und die Datenerfassung wird ausgeführt.
 * **[!UICONTROL Fehlgeschlagen]**: Ein Datenerfassungsvorgang ist fehlgeschlagen. Das Feld „Grund“ beschreibt den Grund des Fehlschlagens. Fehler können vorübergehend oder dauerhaft sein. Bei vorübergehenden Fehlern wird nach einem konfigurierten Intervall ein neuer Erfassungsvorgang erstellt. Als ersten Schritt zur Fehlerbehebung können Benutzer das Feld „Grund“ des Fehlers überprüfen. Wenn der Grund einen Benutzer zur Adobe Experience Platform-Benutzeroberfläche weiterleitet, kann sich der Benutzer dort anmelden und den Batch-Status im Datensatz prüfen, um den genauen Fehlergrund zu ermitteln.
@@ -50,18 +50,18 @@ In einigen Fällen erhalten Sie beim Veröffentlichen der Zuordnung den folgende
 
 ![](assets/aep_datamapping_ccpa.png)
 
-Dies tritt auf, wenn das XDM-Schema, das Sie verwenden, nicht mit dem neuesten XDM-Feld in Bezug auf die Datenschutzverwaltung aktualisiert wurde und das veraltete XDM-Feld &quot;ccpa&quot;enthält.
+Dies tritt auf, wenn das von Ihnen verwendete XDM-Schema nicht mit dem neuesten XDM-Feld für die Datenschutzverwaltung aktualisiert wurde und weiterhin das veraltete XDM-Feld &quot;ccpa&quot; enthält.
 
 Gehen Sie wie folgt vor, um das XDM-Schema zu aktualisieren:
 
-1. Gehen Sie zum Datensatz unter Adobe Experience Platform, indem Sie den Link auf der Seite &quot;XDM-Zuordnung&quot;verwenden.
+1. Gehen Sie zum Datensatz auf Adobe Experience Platform, indem Sie den Link auf der Seite mit der XDM-Zuordnung verwenden.
 
 1. Navigieren Sie zu Ihrem XDM-Schema.
 
-1. hinzufügen die Mischung &quot;Privatsphäre bereitstellen&quot;mit dem Schema.
+1. Fügen Sie dem Schema das Mixin &quot;Profile Privacy&quot; hinzu.
 
    ![](assets/aep_datamapping_privacyfield.png)
 
-1. Speichern Sie das Schema und versuchen Sie dann erneut, die Zuordnung zu veröffentlichen. Die Veröffentlichung sollte nun verabschiedet werden.
+1. Speichern Sie das Schema und versuchen Sie dann erneut, die Zuordnung zu veröffentlichen. Die Veröffentlichung sollte nun möglich sein.
 
    ![](assets/aep_save_mapping.png)
