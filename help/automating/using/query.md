@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1823'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 * Anreicherung von Daten beliebiger Adobe-Campaign-Tabellen;
 * Export von Daten.
 
-## Konfiguration     {#configuration}
+## Konfiguration      {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Abfrage]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png). Die Standardkonfiguration der Aktivität sieht die Suche nach Profilen vor.
@@ -62,7 +62,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Zielgruppendimensionen und Ressourcen     {#targeting-dimensions-and-resources}
+## Zielgruppendimensionen und Ressourcen      {#targeting-dimensions-and-resources}
 
 Mit Zielgruppendimensionen und Ressourcen können Sie definieren, auf welchen Elementen eine Abfrage basieren soll, um die Zielgruppe eines Versands zu bestimmen.
 
@@ -120,7 +120,7 @@ Nach dem Hinzufügen von Zusatzdaten können Sie die zunächst von der Abfrage a
 
 In [diesem Abschnitt](../../automating/using/personalizing-email-with-additional-data.md) wird ein Anwendungsfall vorgestellt, wie eine E-Mail mit zusätzlichen Daten personalisiert werden kann.
 
-### Einfaches Feld hinzufügen     {#adding-a-simple-field}
+### Einfaches Feld hinzufügen      {#adding-a-simple-field}
 
 Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres direkt in der ausgehenden Transition der Aktivität sichtbar. Dadurch lässt sich beispielsweise überprüfen, ob die aus der Abfrage hervorgehenden Daten Ihren Vorstellungen entsprechen.
 
@@ -133,7 +133,7 @@ Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres dire
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Aggregat hinzufügen     {#adding-an-aggregate}
+### Aggregat hinzufügen      {#adding-an-aggregate}
 
 Aggregate dienen der Berechnung von Werten, die auf Feldern der Zielgruppendimension oder auf Feldern aus mit der Zielgruppendimension in Relation stehenden Dimensionen basieren. Zum Beispiel: der Durchschnitt der von einem Profil erteilten Bestellungen.
 Bei Verwendung von Aggregat mit Abfrage kann die Funktion auf null zurückgesetzt werden, was dann als NULL gilt. Filtern Sie den aggregierten Wert auf dem Tab **[!UICONTROL Ergebnis verfeinern]** Ihrer Abfrage:
