@@ -7,11 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Dies sind die wichtigsten Schritte zum Einrichten einer Landingpage:
 
 Auf dieser Seite finden Sie Informationen zu den einzelnen Schritten sowie Hinweise zu den jeweiligen Dokumentationen, denen Sie weitere Details entnehmen können.
 
-![](assets/do-not-localize/how-to-video.png) [Entdecken Sie, wie Sie Landingpages im Video erstellen](#video)
+![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie Sie Landingpages erstellen](#video)
 
 **Verwandte Themen:**
 
@@ -132,10 +132,10 @@ Nach der Publikation ist Ihre Landingpage zur Nutzung bereit. Sie können nun ve
 
 Weiterführende Informationen zum Publizieren von Landingpages finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video wird das Erstellen und Bearbeiten einer Landingpage erläutert.
+In diesem Video wird gezeigt, wie man eine Landingpage erstellt und bearbeitet.
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
