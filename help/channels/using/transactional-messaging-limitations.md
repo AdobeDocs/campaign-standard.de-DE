@@ -39,7 +39,7 @@ Beim Konfigurieren und Veröffentlichen von transaktionalen Ereignissen können 
 * Es ist nicht möglich, eine Publikation rückgängig zu machen, Sie können aber ein Ereignis depublizieren: Dadurch wird der Zugriff auf das Ereignis und die damit verknüpften Transaktionsnachrichten gesperrt. Siehe [Ereignis depublizieren](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * Die einzige Transaktionsnachricht, die mit einem Ereignis verknüpft werden kann, ist die Nachricht, die automatisch beim Publizieren dieses Ereignisses erstellt wird. Siehe [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-## Personalisierung        {#personalization}
+## Personalisierung         {#personalization}
 
 Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ der Transaktionsnachricht ab. Unten finden Sie die Spezifikationen.
 
