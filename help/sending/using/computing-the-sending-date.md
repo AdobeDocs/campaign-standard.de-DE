@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie eine Nachricht an einem bestimmten Datum
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1114'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Sie können eine Formel definieren, um die Nachricht an jeden Empfänger an einem bestimmten Datum und zu einer bestimmten Uhrzeit zu senden.
 
-## Datumsformel anpassen  {#customizing-date-formula}
+## Datumsformel anpassen   {#customizing-date-formula}
 
 Die Optimierung des Versandzeitpunkts ist beispielsweise während der Anlaufphase Ihrer Marketingaktivitäten nützlich.
 
@@ -99,7 +99,7 @@ Der Versand wird auf fünf Tage verteilt an alle Empfänger gesendet.
 >
 >Achten Sie bei der Validierung des Versands darauf, dass alle Daten in der Zukunft liegen. Ansonsten werden die Nachrichten unmittelbar nach der Validierung gesendet.
 
-## Ausdruck verwenden  {#using-an-expression}
+## Ausdruck verwenden   {#using-an-expression}
 
 Die Versandzeitoptimierung ist auch für Callcenter-Kampagnen hilfreich. Damit können Sie gewährleisten, dass nicht alle Nachrichten zur selben Zeit beim Empfänger eintreffen. Dadurch kann Ihr Unternehmen die Anzahl der Anrufe entsprechend seiner Kapazität steuern.
 
