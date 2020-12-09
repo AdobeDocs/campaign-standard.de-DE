@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2172'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Die Hauptmerkmale dieser Aktivität sind:
 
 ### Hinweise zur Abwärtskompatibilität {#from-beta-to-ga}
 
-With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Diese Änderungen der Limits wirken sich nicht auf bestehende externe API-Aktivitäten aus. Daher wird empfohlen, bestehende externe API-Aktivitäten in allen Workflows durch neue zu ersetzen.
+Mit Version 20.4 von Campaign Standard wurden die Limits für die Größenbeschränkung für HTTP-Antwortdaten und das Antwort-Timeout gesenkt, um den Best Practices zu entsprechen (siehe [Einschränkungen und Limits](#guardrails)). Diese Änderungen der Limits wirken sich nicht auf bestehende externe API-Aktivitäten aus. Daher wird empfohlen, bestehende externe API-Aktivitäten in allen Workflows durch neue zu ersetzen.
 
 Fügen Sie beim Ersetzen externer API-Aktivitäten die neue externe API-Aktivität zum Workflow hinzu, kopieren Sie manuell die Konfigurationsdetails und löschen Sie dann die alte Aktivität.
 
