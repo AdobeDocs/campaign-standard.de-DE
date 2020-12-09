@@ -6,16 +6,16 @@ description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
 ht-degree: 100%
 
 ---
 
 
-# Ereignisvariablen überwachen     {#monitoring-the-events-variables}
+# Ereignisvariablen überwachen      {#monitoring-the-events-variables}
 
 Es ist möglich, die im Workflow verfügbaren Ereignisvariablen zu überwachen, einschließlich der deklarierten externen Parameter. Gehen Sie dazu wie folgt vor:
 
