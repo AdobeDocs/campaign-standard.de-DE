@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt I
 
 Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#storing-incoming-sms).
 
-## Eingehende SMS speichern     {#storing-incoming-sms}
+## Eingehende SMS speichern      {#storing-incoming-sms}
 
 Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit &quot;STOPP&quot; auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
 
