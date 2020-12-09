@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Es gibt mehrere Möglichkeiten, einen Versand zu überwachen und seine Wirkung z
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Versandlogs     {#delivery-logs}
+## Versandlogs      {#delivery-logs}
 
 ### Versandlogs {#sending-logs}
 
