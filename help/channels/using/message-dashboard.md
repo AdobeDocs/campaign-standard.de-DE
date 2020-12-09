@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Das Dashboard einer Nachricht enthält einen Arbeitsbereich mit verschiedenen Ka
 
 ![](assets/delivery_dashboard_2.png)
 
-## Graue Leiste       {#gray-bar}
+## Graue Leiste        {#gray-bar}
 
 Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 
@@ -35,7 +35,7 @@ Die graue Leiste enthält verschiedene auf Ihre Nachricht bezogene Symbole.
 * [Kanäle konfigurieren](../../administration/using/about-channel-configuration.md)
 * [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Symbolleiste       {#action-bar}
+## Symbolleiste        {#action-bar}
 
 Die Symbolleiste enthält verschiedene Schaltflächen, die die Bearbeitung der Nachricht ermöglichen.
 
@@ -53,7 +53,7 @@ Je nach angegebenen Parametern und Bearbeitungsfortschritt stehen gewisse Schalt
 
 * **[!UICONTROL Versand bestätigen]**: löst den endgültigen Versand der Nachricht aus. In der Kachel **[!UICONTROL Freigabe]** erscheint nun das Versandergebnis. Diese Schaltfläche erscheint erst nach Abschluss der Versandvorbereitung. Der Versand kann mithilfe der Schaltflächen **Versand anhalten** oder **[!UICONTROL Unterbrechen]** jederzeit unterbrochen werden. Weitere Informationen zum Bestätigen von Sendungen finden Sie unter [Nachrichten senden](../../sending/using/confirming-the-send.md).
 
-## Bausteine       {#blocks}
+## Bausteine        {#blocks}
 
 Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel, um auf die entsprechenden Versandparameter zugreifen zu können:
 
