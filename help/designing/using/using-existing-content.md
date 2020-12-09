@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie in Email Designer E-Mails aus vorhandenen Inh
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1237'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,11 +103,11 @@ Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 1. Definieren Sie die URL, von der der Inhalt abgerufen werden soll.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-Entdecken Sie diese Funktion im Video.
+ Funktion im Video kennenlernen.
 
->[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
 
 ### Während der Vorbereitung Inhalt von einer URL automatisch abrufen {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
