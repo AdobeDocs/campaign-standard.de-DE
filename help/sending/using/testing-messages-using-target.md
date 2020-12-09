@@ -7,11 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1587'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -267,10 +267,10 @@ Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
 
    ![](assets/substitution_uc_proofs.png)
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video wird gezeigt, wie Sie Ihre E-Mail-Nachrichten mithilfe der Ersetzung von Profilen testen können.
+In diesem Video wird gezeigt, wie Sie Ihre E-Mail-Nachrichten mithilfe der Profilersetzung testen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
