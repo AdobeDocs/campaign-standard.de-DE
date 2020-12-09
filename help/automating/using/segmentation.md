@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -88,7 +88,6 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
       >[!NOTE]
       >
       >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]** auf 10, die Population mit dem Geschlecht **[!UICONTROL Weiblich]** auf 30 Personen begrenzen. Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validieren Sie die Konfiguration Ihres Segments.
