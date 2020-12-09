@@ -6,11 +6,11 @@ description: 'In Adobe Campaign lassen sich die als Listen dargestellten Daten d
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 In Adobe Campaign lassen sich Inhalte von Listen direkt in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. Durch das Exportieren einer Liste in eine Datei wird im Menü **[!UICONTROL Export-Audits]** ein Protokolleintrag erstellt. Weiterführende Informationen zu Export-Audits finden Sie im Abschnitt [Log-Exporte überprüfen](../../administration/using/auditing-export-logs.md).
 
-![](assets/do-not-localize/how-to-video.png) [Erfahren Sie, wie Sie eine Liste im Video konfigurieren](#video)
+![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie Sie eine Liste konfigurieren](#video)
 
 Die Exportlisten-Option erlaubt standardmäßig den Export von maximal 100.000 Zeilen, die durch die Option **Nms_ExportListLimit** definiert wurden. Diese Option kann vom funktionalen Administrator im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** verwaltet werden.
 
@@ -76,10 +76,10 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
-In diesem Video wird die Konfiguration von Listen erläutert.
+In diesem Video wird die Konfiguration von Listen gezeigt.
 
->[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12&captions=ger)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
