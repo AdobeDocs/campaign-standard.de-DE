@@ -6,9 +6,9 @@ description: Hier erfahren Sie Näheres zur E-Mail-Rendering-Funktion.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Der E-Mail-Rendering-Bericht wird angezeigt. Siehe [Beschreibung des E-Mail-Rend
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 * [Abfrageeditor](../../automating/using/editing-queries.md#about-query-editor)
 
-## Beschreibung des E-Mail-Rendering-Berichts     {#email-rendering-report-description}
+## Beschreibung des E-Mail-Rendering-Berichts      {#email-rendering-report-description}
 
 Dieser Bericht enthält Informationen zum E-Mail-Rendering, d. h. zur Darstellung der E-Mail in der Inbox des Empfängers. E-Mail-Renderings können unterschiedlich aussehen, je nachdem ob die E-Mail in einem Browser, auf einem Mobilgerät oder über eine E-Mail-Anwendung geöffnet wird.
 
