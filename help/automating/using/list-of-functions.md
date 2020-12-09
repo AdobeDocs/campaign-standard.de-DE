@@ -6,9 +6,9 @@ description: Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktio
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1942'
 ht-degree: 100%
 
@@ -281,7 +281,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
  </tbody> 
 </table>
 
-## Geomarketing    {#geomarketing}
+## Geomarketing     {#geomarketing}
 
 Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
 
@@ -300,7 +300,7 @@ Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
  </tbody> 
 </table>
 
-## Numerisch    {#numerical}
+## Numerisch     {#numerical}
 
 Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
@@ -384,7 +384,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
  </tbody> 
 </table>
 
-## Sonstige    {#others}
+## Sonstige     {#others}
 
 In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 
@@ -478,7 +478,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  </tbody> 
 </table>
 
-## String    {#string}
+## String     {#string}
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
@@ -713,7 +713,7 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
  </tbody> 
 </table>
 
-## Darstellung    {#representation}
+## Darstellung     {#representation}
 
 Die Darstellungsfunktionen dienen der Ordnung von Werten.
 
