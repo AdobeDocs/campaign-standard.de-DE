@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für di
 
 Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
-## Anwendungskontext    {#context-of-use}
+## Anwendungskontext     {#context-of-use}
 
 Eine **[!UICONTROL Inkrementelle Abfrage]** muss mit einer **[!UICONTROL Planung]** einhergehen, um die Häufigkeit der Ausführung des Workflows und damit der Abfrage zu definieren.
 
