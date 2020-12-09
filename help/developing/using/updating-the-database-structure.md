@@ -24,7 +24,7 @@ Damit Ihre Änderungen am Datenmodell wirksam werden und Sie sie verwenden könn
 >
 >Benutzerdefinierte Ressourcen werden im Zuge der automatischen Aktualisierungen durch Adobe automatisch aktualisiert.
 
-## Benutzerdefinierte Ressource publizieren  {#publishing-a-custom-resource}
+## Benutzerdefinierte Ressource publizieren   {#publishing-a-custom-resource}
 
 Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert werden.
 
@@ -68,7 +68,7 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
 
    ![](assets/schema_extension_31.png)
 
-## Ressource mit API-Erweiterung publizieren   {#publishing-a-resource-with-api-extension}
+## Ressource mit API-Erweiterung publizieren    {#publishing-a-resource-with-api-extension}
 
 In folgenden Fällen können Sie die Profiles &amp; Services API erstellen:
 
