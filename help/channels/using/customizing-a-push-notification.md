@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1556'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Benutzer werden durch den Ton auf den Empfang einer Push-Benachrichtigung hingew
 
 Der Benutzer erhält die Push-Benachrichtigung und den Ton nur, wenn sein Telefon nicht stummgeschaltet ist.
 
-## Badge-Wert aktualisieren     {#refresh-the-badge-value}
+## Badge-Wert aktualisieren      {#refresh-the-badge-value}
 
 Mit einem Badge wird die Anzahl der neuen ungelesenen Nachrichten direkt auf dem App-Symbol angezeigt. Der Badge-Wert verschwindet, sobald der Benutzer den neuen Inhalt in der Anwendung öffnet oder liest.
 
@@ -67,7 +67,7 @@ Wenn eine Benachrichtigung auf einem Gerät empfangen wird, kann der Badge-Wert 
 
    ![](assets/push_notif_advanced_1.png)
 
-## Deeplink hinzufügen     {#add-a-deeplink}
+## Deeplink hinzufügen      {#add-a-deeplink}
 
 Mit einem Deeplink gelangen Benutzer direkt zu Inhalten, die in der Anwendung enthalten sind (anstatt eine Webseite zu öffnen).
 
@@ -84,7 +84,7 @@ Gehen Sie folgendermaßen vor, um einen Deeplink zu einer Push-Benachrichtigung 
 
    ![](assets/push_notif_advanced_4.png)
 
-## Aktion definieren     {#define-an-action}
+## Aktion definieren      {#define-an-action}
 
 Sie können eine Kategorie-Kennung hinzufügen, sofern eine in der Mobile App verfügbar ist, und dann Aktionsschaltflächen anzeigen. Mit diesen Benachrichtigungen können Benutzer rascher unterschiedliche Aufgaben ausführen, ohne die Anwendung öffnen oder darin navigieren zu müssen.
 
@@ -121,7 +121,7 @@ So fügen Sie Ihrer Push-Benachrichtigung ein Ablaufdatum hinzu:
 
 Wenn die Push-Benachrichtigung aber nicht vor dem Ende der Gültigkeitsdauer gesendet werden kann, wird sie verworfen.
 
-## Benutzerdefinierte Felder hinzufügen     {#add-custom-fields}
+## Benutzerdefinierte Felder hinzufügen      {#add-custom-fields}
 
 Mit benutzerdefinierten Feldern können Sie benutzerdefinierte Daten in der Payload in Form eines Schlüssel-/Werte-Paares übermitteln. Mit dieser Option haben Sie die Möglichkeit, neben den vordefinierten Schlüsseln auch Zusatzdaten an die Anwendung zu senden.
 
@@ -158,7 +158,7 @@ Gehen Sie folgendermaßen vor, um Rich-Media-Inhalte in Push-Benachrichtigungen 
 
    ![](assets/push_notif_advanced_2.png)
 
-## Verhalten von Benachrichtigungen für iOS ändern     {#change-the-notification-behavior-for-ios}
+## Verhalten von Benachrichtigungen für iOS ändern      {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
