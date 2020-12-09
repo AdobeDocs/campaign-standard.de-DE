@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Zur Erstellung einer neuen Ressource oder zur Erweiterung einer existierenden Re
 >
 >Die Erstellung und Änderung von Ressourcen sind schwierige Vorgänge, die nur von erfahrenen Benutzern durchgeführt werden können.
 
-Dieses Video zeigt, wie Sie benutzerdefinierte Ressourcen erstellen.
+In diesem Video wird gezeigt, wie man benutzerdefinierte Ressourcen erstellt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-Weitere Anleitungen zu Campaign Standards finden Sie unter [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
