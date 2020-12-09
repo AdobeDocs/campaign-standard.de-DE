@@ -6,16 +6,16 @@ description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
 ht-degree: 100%
 
 ---
 
 
-# Parameter beim Aufruf des Workflows definieren     {#defining-the-parameters-when-calling-the-workflow}
+# Parameter beim Aufruf des Workflows definieren      {#defining-the-parameters-when-calling-the-workflow}
 
 In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workflows definieren können. Weiterführende Informationen zur Durchführung dieses Vorgang mit einem API-Aufruf finden Sie in der [REST-APIs-Dokumentation](../../api/using/triggering-a-signal-activity.md).
 
