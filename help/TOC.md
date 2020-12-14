@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Hilfecenter für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
+user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1703'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 97%
       + [Erste Schritte mit Transaktionsnachrichten](channels/using/getting-started-with-transactional-msg.md)
       + [Best Practices und Einschränkungen](channels/using/transactional-messaging-limitations.md)
       + Ereigniskonfiguration {#event-configuration}
-         + [Konfigurieren eines transaktionalen Ereignisses](channels/using/configuring-transactional-event.md)
-         + [Veröffentlichen eines transaktionalen Ereignisses](channels/using/publishing-transactional-event.md)
+         + [Konfigurieren eines Transaktionsereignisses](channels/using/configuring-transactional-event.md)
+         + [Veröffentlichen eines Transaktionsereignisses](channels/using/publishing-transactional-event.md)
       + Bearbeitung von Transaktionsnachrichten {#transactional-message-edition}
          + [Bearbeiten einer Transaktionsnachricht](channels/using/editing-transactional-message.md)
-         + [Transaktionsnachricht testen](channels/using/testing-transactional-message.md)
-         + [Lebenszyklus der Transaktionsnachricht](channels/using/publishing-transactional-message.md)
+         + [Testen einer Transaktionsnachricht](channels/using/testing-transactional-message.md)
+         + [Lebenszyklus von Transaktionsnachrichten](channels/using/publishing-transactional-message.md)
          + [Durchführung und Überwachung](channels/using/transactional-message-execution.md)
       + [Push-Benachrichtigungen für Transaktionen](channels/using/transactional-push-notifications.md)
       + [Folgenachrichten](channels/using/follow-up-messages.md)
