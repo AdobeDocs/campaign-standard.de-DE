@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
+source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 45%
 
 ---
 
@@ -19,31 +19,33 @@ ht-degree: 100%
 
 Erfahren Sie mehr über die Unterstützung von Barrierefreiheit in Adobe Campaign Standard Workspace.
 
-Mit Funktionen der Barrierefreiheit sollen Produkte für Menschen mit visuellen, auditiven, kognitiven, motorischen und anderen Behinderungen nutzbar gemacht werden. Beispiele für Barrierefreiheitsfunktionen für Software-Produkte sind die Unterstützung von Bildschirmlesegeräten, Textäquivalente für Grafiken, Tastaturbefehle, die Änderung der Anzeigefarben auf hohen Kontrast usw.
+Mit Funktionen der Barrierefreiheit sollen Produkte für Menschen mit visuellen, auditiven, kognitiven, motorischen und anderen Behinderungen nutzbar gemacht werden. Beispiele für Barrierefreiheitsfunktionen für Softwareprodukte sind semantisch strukturierte Inhalte, Unterstützung von Bildschirmlesehilfen, Entsprechungen für Grafiken, Tastaturbefehle usw.
 
-Adobe Campaign Standard bietet einige Tools, die die Verwendung dieser Funktionen ermöglichen, z. B. Kontrast, Tastaturnavigation, kontextbezogene Hilfe und Responsive Resize.
+Adobe Campaign Standard bietet Funktionen, die die Verwendung von Kontrast, Beschriftungen, strukturierten Inhalten, Tastaturnavigation und kontextbezogener Hilfe erleichtern.
 
 ## Barrierefreiheitsfunktionen {#accessibility-features}
 
-### Kontrast {#contrast}
+### Kontrast und Farbe {#contrast}
 
-Es wurde versucht, in der Benutzeroberfläche von Adobe Campaign Standard genügend Kontrast bereitzustellen, um Benutzern mit Sehbehinderung oder eingeschränkter farblicher Wahrnehmungsfähigkeit ein barrierefreies Seherlebnis zu bieten.
+Die Adobe Campaign Standard-Benutzeroberfläche ist bestrebt, einen ausreichenden Kontrast in der Anwendung zu gewährleisten, um eine barrierefreie Anzeige für Benutzer mit Sehschwäche oder Farbmangel zu gewährleisten.
 
-* Die Symbole zum Anhalten und Abbrechen von Workflows wurden aktualisiert, um den Kontrast zwischen Hintergrund und Vordergrund zu verbessern.
-
-   ![](assets/accessibility_1.png)
-
-* Bei erfolgreichem Versand wurde großer, grüner Text angezeigt, der unzureichenden Kontrast zwischen Hintergrund und Vordergrund aufwies. Der Kontrast wurde mit einem Mindestverhältnis von 3:1 aktualisiert.
+* Große Texte und Überschriften wurden verbessert, um ein Kontrastverhältnis von 3:1 zu erreichen.
 
    ![](assets/accessibility_2.png)
 
-* In Adobe Campaign Standard werden Informationen oder Hierarchie nicht allein durch Farbe, Form oder Position kommuniziert.
+* Der Hilfeinhalt und der Text in der Anwendung wurden aktualisiert, um ein Kontrastverhältnis von 4,5:1 zu erreichen.
+
+* Die Symbole zum Anhalten und Abbrechen von Workflows wurden aktualisiert, um den Kontrast zwischen Hintergrund- und Vordergrundfarben zu verbessern.
+
+   ![](assets/accessibility_1.png)
+
+* Farbe, Form und Position sind nicht die einzigen Methoden, mit denen Informationen oder Hierarchien in der Anwendung kommuniziert werden können.
 
 ### Benutzeroberfläche {#user-interface}
 
-Die Benutzeroberfläche von Adobe Campaign Standard ermöglicht die einfache Anzeige und Wiedergabe von Inhalten, u. a. durch die Trennung von Vordergrund und Hintergrund und das Hinzufügen alternativer Texte zu den verfügbaren Schaltflächen.
+Die Adobe Campaign Standard-Benutzeroberfläche erleichtert allen Benutzern die Interaktion mit Inhalten, indem sie visuellen Elementen alternative Texte hinzufügen und die semantische Struktur verwenden, um Informationen sowohl visuell als auch programmatisch zu vermitteln.
 
-* Wenn der Benutzer ein erforderliches ID-Feld leer lässt, zeigt eine Grafik mit einem Fehlermeldungstext visuell an, welches Feld fehlerhaft ist.
+* Wenn der Benutzer ein erforderliches ID-Feld leer lässt, zeigt eine Grafik visuell an, welches Feld mit Fehlermeldungstext fehlerhaft ist und dass dieselben Informationen programmgesteuert an Benutzer mit Hilfstechnologien wie Bildschirmlesehilfen weitergeleitet werden.
 
    ![](assets/accessibility_3.png)
 
@@ -51,39 +53,35 @@ Die Benutzeroberfläche von Adobe Campaign Standard ermöglicht die einfache Anz
 
    ![](assets/accessibility_4.png)
 
-* Es wurden alternative Texte für Bildschaltflächen hinzugefügt, die gelesen werden können, anstatt eine Illustration anzuzeigen.
+* Es wurden alternative Texte für Bild- und barrierefreie Namen für Schaltflächen hinzugefügt, die mit Hilfstechnologien vorgelesen werden können, anstatt sich lediglich auf visuelle Hinweise zur Identifizierung von Elementen zu verlassen.
 
-   ![](assets/accessibility_5.png)
+<!--
+### Create responsive resize for multiple devices {#resize-devices}
 
-* Bei der Verwendung von Listen bleiben die Zellen der Datentabellenkopfzeilen in der Ecke der Tabelle nicht leer.
+When designing for multiple devices and platforms, it's important to create a seamless experience for screen sizes across mobile and desktop resolutions.
 
-### Responsive Resize für mehrere Geräte erstellen {#resize-devices}
-
-Bei der Entwicklung von Inhalten für mehrere Geräte und Plattformen ist es wichtig, ein nahtloses Erlebnis für Bildschirmgrößen mit allen mobilen und Desktop-Auflösungen zu erstellen.
-
-Mit Adobe Campaign Standard können Sie E-Mails und Push-Benachrichtigungen auf verschiedenen Geräten entwerfen und testen, z. B.: iPhone, Android-Geräte, iPad, Android-Tablet und Desktop.
+Adobe Campaign Standard allows you to design and test emails and push notifications on different devices such as: iPhone, Android devices, iPad, Android tablet and desktop.
 
 ![](assets/accessibility_6.png)
+-->
 
 ## Kontextuelle Hilfe {#contextual-help}
 
-Die kontextuelle Hilfe hilft Ihnen, die verschiedenen erforderlichen Felder und Funktionen besser zu verstehen. Sie führt Sie außerdem durch die Produktdokumentation, wo Sie weitere Informationen über die ausgewählte Funktion erhalten.
+Mithilfe der kontextbezogenen Hilfe können Sie die verschiedenen erforderlichen Felder und Funktionen besser verstehen. Sie führt Sie außerdem durch die Produktdokumentation, wo Sie weitere Informationen über die ausgewählte Funktion erhalten.
 
-Wenn Sie eine E-Mail entwerfen, können Sie den Cursor über die Informationsschaltfläche bewegen. Eine Kurzinfo mit Beschreibungen der Funktionen und Links zur Produktdokumentation wird angezeigt.
+Beim Entwerfen einer E-Mail können Sie auf eine QuickInfo zugreifen, die Beschreibungen der Funktionen und Links zur Produktdokumentation enthält.
 
 ![](assets/accessibility_7.png)
 
-## Unterstützung für Bildschirmlupen {#screen-magnifiers}
+## Unterstützung für Hilfstechnologie {#screen-magnifiers}
 
-Ein Bildschirmlesegerät liest Text, der auf dem Computer-Bildschirm angezeigt wird. Es werden auch nicht textuelle Informationen wie Schaltflächenbeschriftungen oder Bildbeschreibungen in der Anwendung gelesen, die in Tags oder Attributen zur Barrierefreiheit bereitgestellt werden.
-
-In Adobe Campaign Standard sind Inhalte und Funktionen auch dann noch verfügbar, wenn der Benutzer die Eigenschaften für den Textabstand außer Kraft setzt.
+Wir sind bestrebt, die Adobe Campaign Standard-Anwendung durch verschiedene Hilfstechnologien so nutzbar wie möglich zu machen, unter anderem durch modifizierte Tastaturen, Bildschirmvergrößerungssoftware, Bildschirmlesehilfen, Spracherkennungssoftware und andere Hilfsmittel.
 
 ## In Ihrer bevorzugten Sprache arbeiten {#languages}
 
 Adobe Campaign Standard ist in verschiedenen Sprachen erhältlich: Englisch, Französisch und Deutsch.
 
-Bitte beachten Sie, dass die Sprache bei der Installation eingerichtet wird und danach nicht mehr geändert werden kann.
+Bitte beachten Sie, dass die Sprache bei der Installation eingerichtet wurde und danach nicht mehr geändert werden kann.
 
 ## Tastaturbefehle {#shortcuts}
 
