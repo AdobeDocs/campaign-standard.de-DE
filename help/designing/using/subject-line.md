@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie in Email Designer die Betreffzeile und den Ab
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '386'
+translation-type: tm+mt
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+workflow-type: tm+mt
+source-wordcount: '352'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ Die Betreffzeile ist für die Vorbereitung und den Versand einer Nachricht unbed
    ![](assets/email_designer_subject.png)
 
 1. Sie können zur Betreffzeile auch Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die entsprechenden Symbole auswählen. Weiterführende Informationen dazu finden Sie unter [Personalisierung](../../designing/using/personalization.md).
-1. Sie können verschiedene Betreffzeilen ausprobieren, um eine Schätzung der E-Mail-Öffnungsrate zu erhalten, bevor Sie den Versand durchführen. Weitere Informationen dazu finden Sie unter [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md).
 
 ## E-Mail-Absender einer E-Mail definieren {#email-sender}
 
