@@ -1,22 +1,22 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Transaktionsnachrichten konfigurieren
-description: Hier erfahren Sie, wie Transaktionsnachrichten konfiguriert werden.
+title: Veröffentlichen eines Transaktionsereignisses
+description: Erfahren Sie, wie Sie eine Transaktionskonfiguration für Ereignisse Vorschau, Veröffentlichen, Rückgängigmachen der Veröffentlichung und Löschen durchführen.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 69%
+source-wordcount: '630'
+ht-degree: 68%
 
 ---
 
 
-# Veröffentlichen eines transaktionalen Ereignisses {#publishing-transactional-event}
+# Veröffentlichen eines Transaktionsereignisses {#publishing-transactional-event}
 
 Sobald [configuration](../../channels/using/configuring-transactional-event.md) abgeschlossen ist, kann das Ereignis veröffentlicht werden. Die Schritte zum Vorschauen, Veröffentlichen, Rückgängigmachen der Veröffentlichung und Löschen eines Ereignisses werden nachfolgend beschrieben.
 
@@ -74,7 +74,7 @@ Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen un
 
 Die Ereignisse (im JSON-Format) werden von den jüngsten hin zu den ältesten aufgelistet. Mit dieser Liste können Sie Daten wie den Inhalt oder Status eines Ereignisses zu Kontroll- und Debugging-Zwecken überprüfen.
 
-## Ereignis depublizieren     {#unpublishing-an-event}
+## Ereignis depublizieren      {#unpublishing-an-event}
 
 Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publikation des Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
 
