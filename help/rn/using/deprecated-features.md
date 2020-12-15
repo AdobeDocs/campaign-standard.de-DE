@@ -6,11 +6,11 @@ description: Auf dieser Seite finden Sie eingestellte und entfernte Funktionen v
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 93%
 
 ---
 
@@ -40,6 +40,18 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>Prädiktive Betreffzeile</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Ab dem 15. Dezember 2020 ist die Funktionalität der Prädiktive Betreffzeile veraltet.</p><br/>
+   <p>Wir empfehlen Ihnen, die AI-basierten E-Mail-Funktionen zur Analyse und Vorhersage offener Raten, optimaler Sendezeit und wahrscheinlicher Absturz auf Basis historischer Interaktionsmetriken zu nutzen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Mehr dazu</a></p></br>
+     <p>
+     <em>Entfernung der Zielgruppe: April 2021</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>Push-Benachrichtigungen mit SDK v4</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
    <td> <p>Mit Campaign-Version 19.4. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Coreservice von Adobe</a>.</p></br>
    <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=de-DE">Verwalten von Datenschutzanfragen</a>.</p>
   <p> 
-  <em>Geplantes Datum für die Entfernung: 2021.</em></p>
+  <em>Geplantes Datum für die Entfernung: April 2021.</em></p>
    </td> 
   </tr> 
  </tbody> 
