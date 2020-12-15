@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
-translation-type: ht
-source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
-workflow-type: ht
-source-wordcount: '1703'
+translation-type: tm+mt
+source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+workflow-type: tm+mt
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
@@ -162,7 +162,6 @@ ht-degree: 100%
       + [Sendungen in Vorschau anzeigen](sending/using/previewing-messages.md)
       + [Testversand durchführen](sending/using/sending-proofs.md)
       + [E-Mail-Nachrichten mit zielgerichteten Profilen testen](sending/using/testing-messages-using-target.md)
-      + [Betreffzeile einer E-Mail testen](sending/using/testing-subject-line-email.md)
       + [KI-gestützte E-Mails](sending/using/predictive.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
       + [Hinzufügen einer Kontrollgruppe](sending/using/control-group.md)
