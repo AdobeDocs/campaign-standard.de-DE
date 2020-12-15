@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Folgenachrichten
-description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen und publizieren.
+description: Erfahren Sie, wie Sie eine Follow-up-Nachricht erstellen, verwalten und senden.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 74%
+source-wordcount: '816'
+ht-degree: 73%
 
 ---
 
