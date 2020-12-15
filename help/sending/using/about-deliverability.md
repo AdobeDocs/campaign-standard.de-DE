@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '657'
+translation-type: tm+mt
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,6 @@ Folgende Faktoren können die Zustellbarkeit Ihrer E-Mails beeinträchtigen.
 Lesen Sie zunächst den Abschnitt über die Zustellbarkeits-Tools von Campaign Standard.
 * [Best Practices beim Versand](../../sending/using/delivery-best-practices.md)
 * [Absendername personalisieren](../../designing/using/personalization.md#personalizing-the-sender)
-* [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md)
 * [Versandzeitpunkt optimieren](../../sending/using/optimizing-the-sending-time.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
 * [E-Mail-Rendering](../../sending/using/email-rendering.md)
