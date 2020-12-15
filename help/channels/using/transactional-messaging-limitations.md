@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Einschränkungen bei Transaktionsnachrichten
-description: Erfahren Sie mehr über die wichtigsten Einschränkungen und Empfehlungen für Transaktionsnachrichten in Adobe Campaign Standard.
+description: Erfahren Sie mehr über die wichtigsten Empfehlungen und Einschränkungen für Transaktionsnachrichten in Adobe Campaign Standard.
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 83%
+source-wordcount: '768'
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-Im folgenden Abschnitt werden die Best Practices und Einschränkungen Liste, die Sie kennen sollten, bevor Sie mit der Erstellung von Transaktionsnachrichten beginnen.
+In diesem Abschnitt werden die Best Practices und Einschränkungen Liste, die Sie vor dem Erstellen von Transaktionsnachrichten beachten sollten.
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -38,6 +38,12 @@ Beim Konfigurieren und Veröffentlichen von transaktionalen Ereignissen können 
 * Nach der Erstellung des Ereignisses können Sie die Zielgruppendimension (**[!UICONTROL Echtzeit-Ereignis]** or **[!UICONTROL Profil]**) nicht mehr ändern. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Es ist nicht möglich, eine Publikation rückgängig zu machen, Sie können aber ein Ereignis depublizieren: Dadurch wird der Zugriff auf das Ereignis und die damit verknüpften Transaktionsnachrichten gesperrt. Siehe [Ereignis depublizieren](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * Die einzige Transaktionsnachricht, die mit einem Ereignis verknüpft werden kann, ist die Nachricht, die automatisch beim Publizieren dieses Ereignisses erstellt wird. Siehe [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+
+## Anzahl der Transaktionsnachrichten {#transactional-message-number}
+
+Die Anzahl der veröffentlichten Transaktionsnachrichten kann erhebliche Auswirkungen auf Ihre Plattform haben. Um eine optimale Leistung zu erzielen, sollte die Anzahl der veröffentlichten Transaktionsnachrichten unter 100 bleiben. Um dies sicherzustellen, machen Sie die Veröffentlichung oder das Löschen nicht verwendeter Transaktionsnachrichten rückgängig. Siehe [Rückgängigmachen der Veröffentlichung einer Transaktionsnachricht](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) und [Löschen einer Transaktionsnachricht](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+
+Um eine optimale Leistung zu gewährleisten, können Sie auch die Veröffentlichung oder das Löschen nicht verwendeter Ereignis rückgängig machen. Wenn Sie die Veröffentlichung eines Ereignisses rückgängig machen oder löschen, wird auch die Veröffentlichung oder Löschung der entsprechenden Transaktionsnachricht(n) sowie deren Versand und Trackinglogs (sofern vorhanden) rückgängig gemacht. Siehe [Rückgängigmachen der Veröffentlichung eines Ereignisses](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) und [Löschen eines Ereignisses](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Personalisierung         {#personalization}
 
