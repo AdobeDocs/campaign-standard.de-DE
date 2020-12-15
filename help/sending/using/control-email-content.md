@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '744'
+translation-type: tm+mt
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+workflow-type: tm+mt
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -36,14 +36,6 @@ Manche ISPs prüfen die Gültigkeit der Absenderadresse (Von), bevor sie Nachric
 ![](assets/delivery_content_edition16.png)
 
 Siehe auch den Abschnitt zur [Personalisierung des Absendernamens](../../designing/using/personalization.md#personalizing-the-sender).
-
-## Betreff {#subject-line}
-
-Beim Bearbeiten von E-Mails können Sie verschiedene Betreffzeilen ausprobieren und dabei eine jeweilige Einschätzung der Öffnungsrate erhalten, bevor Sie die E-Mail senden. Weitere Informationen dazu finden Sie unter [Betreffzeile einer E-Mail testen](../../sending/using/testing-subject-line-email.md).
-
-![](assets/predictive_subject_line_example.png)
-
-Weitere Informationen zum Definieren der Betreffzeile einer E-Mail finden Sie in [diesem Abschnitt](../../designing/using/subject-line.md).
 
 ## Versandzeitpunkt optimieren {#send-time-optimization}
 
