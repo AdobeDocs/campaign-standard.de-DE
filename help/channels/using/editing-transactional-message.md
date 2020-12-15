@@ -1,17 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Ereignis-Transaktionsnachrichten
-description: Hier erfahren Sie, wie Sie eine Ereignis-Transaktionsnachricht erstellen und publizieren.
-page-status-flag: never-activated
+title: Bearbeiten einer Transaktionsnachricht
+description: Erfahren Sie, wie Sie auf eine Transaktionsnachricht zugreifen, sie bearbeiten und personalisieren.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1585'
 ht-degree: 63%
 
 ---
@@ -46,7 +45,7 @@ Aufrufen der erstellten Transaktionsnachricht:
 
 Sie können auch direkt über den Link im linken Bereich des entsprechenden Ereignis-Konfigurationsbildschirms auf eine Transaktionsnachricht zugreifen. Siehe [Anzeigen und Veröffentlichen eines Ereignisses](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
-## Transaktionsnachricht personalisieren          {#personalizing-a-transactional-message}
+## Transaktionsnachricht personalisieren           {#personalizing-a-transactional-message}
 
 Gehen Sie wie folgt vor, um eine Transaktionsnachricht zu bearbeiten und zu personalisieren.
 
@@ -90,7 +89,7 @@ Beispielsweise möchten Sie eine Benachrichtigung an Benutzer Ihrer Website send
 
    Die Vorschau zeigt, dass die Personalisierungsfelder wie gewünscht die im Testprofil angegebenen Informationen wiedergeben. Weitere Informationen hierzu finden Sie unter Definieren eines bestimmten Profils[.](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)
 
-## Produktlisten in Transaktionsnachrichten verwenden           {#using-product-listings-in-a-transactional-message}
+## Produktlisten in Transaktionsnachrichten verwenden            {#using-product-listings-in-a-transactional-message}
 
 Beim Bearbeiten des Inhalts einer transaktionalen E-Mail können Sie Produktauflistungen erstellen, die auf eine oder mehrere Datensammlungen verweisen. In einer E-Mail zum Warenkorbabbruch können Sie z. B. eine Liste aller Produkte, die sich beim Verlassen Ihrer Website im Warenkorb befanden, mit einem Bild, dem Preis und einem Link zu den einzelnen Produkten einfügen.
 
