@@ -1,20 +1,16 @@
 ---
-title: Transaktionsnachrichten konfigurieren
-description: Hier erfahren Sie, wie Transaktionsnachrichten konfiguriert werden.
-page-status-flag: never-activated
-uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
-audience: administration
+solution: Campaign Standard
+product: campaign
+title: Anwendungsfall für Transaktionsnachrichten
+description: Entdecken Sie ein durchgehendes Beispiel der transaktionalen Messaging-Funktion des Adobe Campaigns.
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
-discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '526'
 ht-degree: 12%
 
 ---
