@@ -6,11 +6,11 @@ description: Führen Sie die folgenden Schritte aus, um eine Bestätigungsnachri
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c276c468627208b584a0342414cdbe382e349f50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1420'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,14 +45,14 @@ Eine Bestätigungs-E-Mail wird automatisch an jedes Profil gesendet, das den New
 
 Die Schritte zum Erstellen der Bestätigungs-E-Mail werden unten beschrieben. Da im Dienst auf die Transaktionsnachricht verwiesen wird, müssen Sie diesen zuerst erstellen.
 
-#### Ereignis erstellen     {#create-the-event-1}
+#### Ereignis erstellen      {#create-the-event-1}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
 1. Greifen Sie über das Adobe Campaign-Logo auf **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]** zu und erstellen Sie ein Ereignis.
 1. Geben Sie einen Titel ein und wählen Sie eine Zielgruppendimension und danach **[!UICONTROL Erstellen]** aus.
 
-   Die Konfigurationsschritte werden im Abschnitt [Konfigurieren eines transaktionalen Ereignisses](../../channels/using/configuring-transactional-event.md) beschrieben.
+   Die Konfigurationsschritte finden Sie im Abschnitt [Transaktionsereignis konfigurieren](../../channels/using/configuring-transactional-event.md).
 
 1. Wählen Sie im Bereich **[!UICONTROL Felder]** die Option **[!UICONTROL Element erstellen]** aus und fügen Sie **[!UICONTROL publicLabel]** in der Datenstruktur hinzu, um eine Abstimmung zu ermöglichen.
 
@@ -85,14 +85,14 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben publ
 1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Option **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** und nochmals **[!UICONTROL Transaktionsnachrichten]**.
 1. Wählen Sie die entsprechende Transaktions-E-Mail für das Ereignis aus, das Sie gerade veröffentlicht haben.
 
-1. Wählen Sie im Bereich **[!UICONTROL Inhalt]** eine E-Mail-Vorlage aus. Weitere Informationen zum Bearbeiten von Transaktionsnachrichten finden Sie unter [Bearbeiten von Transaktionsnachrichten](../../channels/using/editing-transactional-message.md).
+1. Wählen Sie im Bereich **[!UICONTROL Inhalt]** eine E-Mail-Vorlage aus. Weitere Informationen zur Bearbeitung von Transaktionsnachrichten finden Sie im Abschnitt [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md).
 1. Da Sie von der Ressource **[!UICONTROL Dienst]** aus auf alle Felder direkt zugreifen können, können Sie ein beliebiges Feld aus dem Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis (rtEvent)]** > **[!UICONTROL Ereigniskontext (ctx)]** > **[!UICONTROL Dienst]** auswählen, um Ihren Inhalt zu personalisieren.
 
    ![](assets/confirmation_personalization-service.png)
 
    Weitere Informationen zum Personalisieren einer Transaktionsnachricht finden Sie in [diesem Abschnitt](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. Sehen Sie sich Ihre Nachricht unter Verwendung eines Testprofils in der Vorschau an. Weitere Informationen hierzu finden Sie unter Definieren eines bestimmten Profils[.](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)
+1. Sehen Sie sich Ihre Nachricht unter Verwendung eines Testprofils in der Vorschau an. Weitere Informationen hierzu finden Sie unter [Spezifische Testprofile definieren](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 1. Wählen Sie **[!UICONTROL Speichern &amp; schließen]** aus, um den Inhalt zu speichern.
 1. Publizieren Sie die Transaktionsnachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
@@ -141,7 +141,7 @@ Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/g
 1. Greifen Sie über das Adobe Campaign-Logo auf **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]** zu und erstellen Sie ein Ereignis.
 1. Geben Sie einen Titel ein und wählen Sie eine Zielgruppendimension und danach **[!UICONTROL Erstellen]** aus.
 
-   Die Konfigurationsschritte werden im Abschnitt [Konfigurieren eines transaktionalen Ereignisses](../../channels/using/configuring-transactional-event.md) beschrieben.
+   Die Konfigurationsschritte finden Sie im Abschnitt [Transaktionsereignis konfigurieren](../../channels/using/configuring-transactional-event.md).
 
 1. Wählen Sie im Bereich **[!UICONTROL Felder]** die Option **[!UICONTROL Element erstellen]** aus und fügen Sie **[!UICONTROL serviceName]** in der Datenstruktur hinzu, um eine Abstimmung zu ermöglichen.
 
