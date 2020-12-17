@@ -6,11 +6,11 @@ description: 'Benutzer von Adobe Campaign verfügen über bestimmte Rollen. Im F
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1277'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 In Adobe Campaign können Sie Ihren Benutzern verschiedene Rollen zuweisen und dadurch festlegen, welchen Teil der Benutzeroberfläche sie verwenden können.
 
-In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweiligen Berechtigungen genauer beschrieben: [Benutzerrollen](../../administration/using/list-of-roles.md) und [Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweiligen Berechtigungen genauer beschrieben: [Benutzerrollen](../../administration/using/list-of-roles.md) und [Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de).
 
 Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weiterführende Informationen dazu finden Sie im [Handbuch zur Admin Console](https://helpx.adobe.com/de/enterprise/using/users.html).
 
@@ -37,7 +37,7 @@ Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie v
 
 * Video [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
-* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
 
 ## Typen von Benutzern {#type-of-users}
 
@@ -75,7 +75,7 @@ Dies sind ihre Hauptaufgaben:
 * [Daten-Packages exportieren und importieren](../../automating/using/managing-packages.md): Austausch von Ressourcen zwischen unterschiedlichen Adobe-Campaign-Instanzen mithilfe strukturierter XML-Dateien
 * [Logs exportieren](../../automating/using/exporting-logs.md) und [Importvorlagen definieren](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
-### Benutzer mit fortgeschrittenen Kenntnissen          {#advanced-users}
+### Benutzer mit fortgeschrittenen Kenntnissen           {#advanced-users}
 
 Diese Benutzer sind Marketing-Experten, die Adobe Campaign auf eine vorwiegend technische Art verwenden. Sie konfigurieren alle Elemente, die Marketer für den Versand und die Überwachung von Nachrichten verwenden.
 
@@ -158,6 +158,6 @@ Ihr Benutzer kann jetzt Adobe Campaign Standard verwenden.
 
 In diesem Video wird gezeigt, wie Benutzerzugriffsrechte verwaltet werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12&captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
