@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Testen einer Transaktionsnachricht
+title: Transaktionsnachrichten testen
 description: Erfahren Sie, wie Sie eine Transaktionsnachricht im Adobe Campaign testen.
 audience: channels
 content-type: reference
@@ -11,20 +11,20 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 73%
+ht-degree: 96%
 
 ---
 
 
-# Transaktionsnachricht testen {#testing-a-transactional-message}
+# Transaktionsnachrichten testen {#testing-a-transactional-message}
 
-Bevor Sie Ihre Transaktionsnachricht veröffentlichen, können Sie ein bestimmtes Profil erstellen, mit dem Sie die Nachricht ordnungsgemäß überprüfen können.
+Bevor Sie Ihre Transaktionsnachricht veröffentlichen, können Sie ein spezifisches Testprofil erstellen, mit dem Sie die Nachricht ordnungsgemäß überprüfen können.
 
 ## Spezifisches Testprofil definieren {#defining-specific-test-profile}
 
 Definieren Sie ein Profil, das mit Ihrem Ereignis verknüpft wird. Auf diese Weise können Sie eine Vorschau Ihrer Nachricht anzeigen und einen relevanten Testversand durchführen.
 
-1. Klicken Sie im Dashboard [Transaktionsnachricht](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) auf die Schaltfläche **[!UICONTROL Test-Profil erstellen]**.
+1. [Klicken Sie im Dashboard für Transaktionsnachrichten](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) auf die Schaltfläche **[!UICONTROL Testprofil erstellen]**.
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ Definieren Sie ein Profil, das mit Ihrem Ereignis verknüpft wird. Auf diese Wei
 
    >[!NOTE]
    >
-   >Wenn Sie Ihre Nachricht erweitert haben, können Sie auch Informationen zu einer anderen Tabelle eingeben, z. B. **[!UICONTROL Profil]**. Siehe [Anreichern des Ereignisses](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) und [Personalisieren einer Transaktionsnachricht](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >Wenn Sie Ihre Nachricht angereichert haben, können Sie auch Informationen zu einer anderen Tabelle eingeben, z. B. **[!UICONTROL Profil]**. Siehe [Ereignisse anreichern](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) und [Transaktionsnachrichten personalisieren](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. Nach seiner Erstellung ist das Testprofil in der Transaktionsnachricht vorausgefüllt. Verwenden Sie den Block **[!UICONTROL Testprofile]** der Nachricht, um Ihre Testversand-Zielgruppe zu überprüfen.
 
@@ -62,4 +62,4 @@ Nachdem Sie ein oder mehrere spezifische Testprofile erstellt und Ihre Transakti
 
 ![](assets/message-center_10.png)
 
-Die Schritte zum Senden eines Testversands finden Sie im Abschnitt [Senden von Testversänden](../../sending/using/sending-proofs.md).
+Lesen Sie diesbezüglich auch den Abschnitt [Testsendungen erzeugen](../../sending/using/sending-proofs.md).
