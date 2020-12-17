@@ -6,11 +6,11 @@ description: Hier erfahren Sie, wie Sie das Verhalten von Versandempfängern tra
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Tracking mit Adobe Campaign Standard bietet Ihnen Zugriff auf folgende Funktione
 </tr>
 </table>
 
-## Trackinglogs      {#tracking-logs}
+## Trackinglogs       {#tracking-logs}
 
 Der **[!UICONTROL Trackinglogs]**-Tab zeigt den Verlauf des Trackings für den vorliegenden Versand an. Angezeigt werden die zu allen gesendeten Nachrichten für die jeweils getrackten URLs gesammelten Informationen. Die Trackinginformationen in diesem Tab werden alle 10 Minuten aktualisiert.
 
@@ -72,7 +72,7 @@ Der **[!UICONTROL Trackinglogs]**-Tab zeigt den Verlauf des Trackings für den v
 Im obigen Beispiel hat sich der Empfänger folgendermaßen verhalten:
 
 * Er hat die Nachricht geöffnet.
-* Klicken Sie auf den Link Mirrorseite.
+* Er hat auf den Mirrorseite-Link geklickt.
 * Er hat auf den benutzerspezifischen Link &quot;MEHR DAZU&quot; geklickt.
 
 Die möglichen Werte in der Spalte **[!UICONTROL Typ]** sind:
