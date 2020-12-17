@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 77%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 Wenn die [Transaktionsnachricht](../../channels/using/editing-transactional-message.md) zum Senden bereit ist, kann sie veröffentlicht werden.
 
-Die Schritte zum Veröffentlichen, Anhalten, Rückgängigmachen der Veröffentlichung und Löschen einer Transaktionsnachricht sind nachfolgend beschrieben.
+Die Schritte zum Veröffentlichen, Aussetzen, Rückgängigmachen der Veröffentlichung und Löschen einer Transaktionsnachricht sind nachfolgend beschrieben.
 
 >[!IMPORTANT]
 >
@@ -28,15 +28,15 @@ Die Schritte zum Veröffentlichen, Anhalten, Rückgängigmachen der Veröffentli
 
 ## Publikationsprozess bei Transaktionsnachrichten {#transactional-messaging-pub-process}
 
-Die nachstehende Tabelle zeigt den gesamten Prozess der Veröffentlichung von Transaktionsnachrichten.
+Die nachstehende Tabelle zeigt den allgemeinen Publikationsprozess bei Transaktionsnachrichten.
 
 ![](assets/message-center_pub-process.png)
 
 **Verwandte Themen:**
-* [Transaktionsnachricht publizieren          ](#publishing-a-transactional-message)
-* [Anhalten einer Transaktionsnachricht](#suspending-a-transactional-message-publication)
-* [Transaktionsnachricht depublizieren          ](#unpublishing-a-transactional-message)
-* [Veröffentlichen eines Ereignisses](../../channels/using/publishing-transactional-event.md)
+* [Transaktionsnachrichten publizieren](#publishing-a-transactional-message)
+* [Transaktionsnachricht aussetzen](#suspending-a-transactional-message-publication)
+* [Veröffentlichung von Transaktionsnachrichten rückgängig machen](#unpublishing-a-transactional-message)
+* [Ereignisse publizieren](../../channels/using/publishing-transactional-event.md)
 
 <!--## Testing a transactional message {#testing-a-transactional-message}
 
@@ -86,9 +86,9 @@ Once you have created one or more specific test profiles and saved your transact
 
 The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
-## Transaktionsnachricht publizieren           {#publishing-a-transactional-message}
+## Transaktionsnachricht publizieren            {#publishing-a-transactional-message}
 
-Nachdem Sie Ihre Transaktionsnachricht bearbeitet und getestet haben, können Sie sie veröffentlichen. Klicken Sie einfach auf die Schaltfläche **[!UICONTROL Veröffentlichen]**.
+Nachdem Sie Ihre Transaktionsnachricht bearbeitet und getestet haben, kann diese publiziert werden. **[!UICONTROL Publizieren]** Sie die Änderungen mithilfe der gleichnamigen Schaltfläche.
 
 ![](assets/message-center_12.png)
 
@@ -99,21 +99,21 @@ Bei jeder Auslösung des Ereignisses &quot;Stehen gelassener Warenkorb&quot; wir
 ![](assets/message-center_13.png)
 
 **Verwandte Themen**:
-* [Bearbeiten einer Transaktionsnachricht](../../channels/using/editing-transactional-message.md)
-* [Testen einer Transaktionsnachricht](../../channels/using/testing-transactional-message.md)
-* [Integrieren des auslösenden Ereignisses](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md)
+* [Transaktionsnachrichten testen](../../channels/using/testing-transactional-message.md)
+* [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Publikation einer Transaktionsnachricht aussetzen            {#suspending-a-transactional-message-publication}
+## Publikation einer Transaktionsnachricht aussetzen             {#suspending-a-transactional-message-publication}
 
 Sie haben die Möglichkeit, die Publikation Ihrer Transaktionsnachricht mittels der Verwendung der Schaltfläche **[!UICONTROL Aussetzen]** zeitweise zu unterbinden, um beispielsweise die in der Nachricht enthaltenen Daten abzuändern. Die Ereignisse werden so nicht länger verarbeitet, sondern stattdessen in einer Warteschlange der Adobe Campaign-Datenbank aufbewahrt.
 
-Die in die Warteschlange gestellten Ereignis werden während eines Zeitraums aufbewahrt, der in der REST-API definiert ist (siehe [REST-API-Dokumentation](../../api/using/managing-transactional-messages.md)), oder im Trigger-Ereignis, wenn Sie den Trigger-Hauptdienst verwenden (siehe [Info zu Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Die in der Warteschlange befindlichen Ereignisse werden für einen Zeitraum aufbewahrt, der in der REST-API (siehe [REST-API-Dokumentation](../../api/using/managing-transactional-messages.md)) oder im Trigger-Ereignis definiert ist, wenn Sie den Triggers Core Service verwenden (siehe [Über Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
 Bei Verwendung der Schaltfläche **[!UICONTROL Wieder aufnehmen]** werden alle Ereignisse verarbeitet, sofern ihre Gültigkeit nicht abgelaufen ist. Diese Nachrichten beinhalten nun die während der Aussetzung der Vorlagenpublikation vorgenommenen Änderungen.
 
-## Transaktionsnachricht depublizieren            {#unpublishing-a-transactional-message}
+## Transaktionsnachricht depublizieren             {#unpublishing-a-transactional-message}
 
 Mithilfe der **[!UICONTROL Depublizieren]**-Schaltfläche lässt sich die Publikation der Transaktionsnachricht und zudem des entsprechenden Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
 
@@ -123,9 +123,9 @@ Selbst wenn das Ereignis auf Ihrer Webseite ausgelöst wird, werden die entsprec
 
 >[!NOTE]
 >
->Um die Nachricht erneut zu veröffentlichen, müssen Sie zur entsprechenden Ereignis-Konfiguration zurückkehren, [das Ereignis](../../channels/using/publishing-transactional-event.md) veröffentlichen und [die Meldung ](#publishing-a-transactional-message) veröffentlichen.
+>Zur erneuten Publikation der Nachricht müssen Sie zunächst zur entsprechenden Ereigniskonfiguration zurückkehren, [das Ereignis publizieren](../../channels/using/publishing-transactional-event.md) und anschließend [die Nachricht publizieren](#publishing-a-transactional-message).
 
-Wenn Sie eine ausgesetzte Transaktionsnachricht depublizieren, müssen Sie ggf. bis zu 24 Stunden warten, bevor Sie sie erneut publizieren können. In dieser Zeit können alle in die Warteschlange gesendeten Ereignisse durch den **[!UICONTROL Datenbankbereinigung]**-Workflow (cleanup) entfernt werden.
+Wenn Sie die Veröffentlichung einer ausgesetzten Transaktionsnachricht rückgängig machen, müssen Sie ggf. bis zu 24 Stunden warten, bevor Sie sie erneut publizieren können. In dieser Zeit können alle in die Warteschlange gesendeten Ereignisse durch den **[!UICONTROL Datenbankbereinigung]**-Workflow (cleanup) entfernt werden.
 
 Die Vorgehensweise zum Aussetzen einer Nachricht wird im Abschnitt [Publikation einer Transaktionsnachricht aussetzen](#suspending-a-transactional-message-publication) beschrieben.
 
