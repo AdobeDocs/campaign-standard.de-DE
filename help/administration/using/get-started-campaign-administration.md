@@ -6,11 +6,11 @@ description: Entdecken Sie die Benutzer- und -Berechtigungsverwaltung, Monitorin
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Alle Kommunikationskanäle in Adobe Campaign müssen korrekt konfiguriert sein, 
 
 Konfigurieren Sie verschiedene **E-Mail**-Parameter: Verarbeitungsregeln für Bounce, Quarantänen, E-Mail-Eigenschaften und Routing-Parameter, Typologieregeln. Definieren Sie Routing-Konfigurationen und -Eigenschaften für den **SMS**-Kanal sowie SMS-Kodierung und -Formate.
 
-Richten Sie **Mobilanwendungen** ein, um In-App-Nachrichten und Push-Benachrichtigungen mit Adobe Experience Platform-SDKs senden zu können.
+Richten Sie **Mobile Apps** ein, um In-App-Nachrichten und Push-Benachrichtigungen mit Adobe Experience Platform-SDKs senden zu können.
 
 Mehr dazu:
 
