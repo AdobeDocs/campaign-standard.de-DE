@@ -6,11 +6,11 @@ description: Hier finden Sie die Liste der in dynamischen Berichten enthaltenen 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Weiterführende Informationen zur Kompatibilität zwischen Dimensionen und Metriken finden Sie in dieser [Tabelle](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Wenn zwei Komponenten nicht kompatibel sind, zeigt die Zelle den Wert **Kein** an.
 
-[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+[![Bild](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=de)
 
 ## Dimensionen {#dimensions}
 
@@ -132,7 +132,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken         {#metrics}
+## Metriken          {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
