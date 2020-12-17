@@ -6,11 +6,11 @@ description: Erstellen Sie personalisierte Nachrichten auf verschiedenen Kanäle
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -73,10 +73,10 @@ Abhängig von Ihren Optionen sind Transaktionsnachrichten für die E-Mail-, SMS-
 Mehr dazu:
 
 * [Erste Schritte mit Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md)
-* [Konfigurieren eines transaktionalen Ereignisses](../../channels/using/configuring-transactional-event.md)
-* [Veröffentlichen eines transaktionalen Ereignisses](../../channels/using/publishing-transactional-event.md)
-* [Bearbeiten einer Transaktionsnachricht](../../channels/using/editing-transactional-message.md)
-* [Transaktionsnachricht publizieren          ](../../channels/using/publishing-transactional-message.md)
+* [Transaktionsereignis konfigurieren](../../channels/using/configuring-transactional-event.md)
+* [Transaktionsereignis publizieren](../../channels/using/publishing-transactional-event.md)
+* [Transaktionsnachricht bearbeiten](../../channels/using/editing-transactional-message.md)
+* [Transaktionsnachricht publizieren](../../channels/using/publishing-transactional-message.md)
 * [Push-Benachrichtigungen für Transaktionen](../../channels/using/transactional-push-notifications.md)
 * [Folgenachrichten](../../channels/using/follow-up-messages.md)
 
