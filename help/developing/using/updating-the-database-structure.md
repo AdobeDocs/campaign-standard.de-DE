@@ -7,11 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Damit Ihre Änderungen am Datenmodell wirksam werden und Sie sie verwenden könn
 >
 >Benutzerdefinierte Ressourcen werden im Zuge der automatischen Aktualisierungen durch Adobe automatisch aktualisiert.
 
-## Benutzerdefinierte Ressource publizieren   {#publishing-a-custom-resource}
+## Benutzerdefinierte Ressource publizieren    {#publishing-a-custom-resource}
 
 Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert werden.
 
 >[!NOTE]
 >
->Wenn ein Feld einer für ein Ereignis verwendeten benutzerdefinierten Ressource geändert oder gelöscht wird, wird das zugehörige Ereignis automatisch depubliziert. Siehe [Rückgängigmachen der Veröffentlichung eines transaktionalen Ereignisses](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Wenn ein Feld einer für ein Ereignis verwendeten benutzerdefinierten Ressource geändert oder gelöscht wird, wird das zugehörige Ereignis automatisch depubliziert. Siehe [Veröffentlichung von Transaktionsereignissen rückgängig machen](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Publizieren]** auf das entsprechende Menü zu.
 1. Standardmäßig ist die Option **[!UICONTROL Änderungen seit der letzten Publikation ermitteln]** aktiv. Dies bedeutet, dass nur die Änderungen übernommen werden, die seit der letzten Publikation vorgenommen wurden.
