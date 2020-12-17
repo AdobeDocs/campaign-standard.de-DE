@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie in Email Designer E-Mails mithilfe von Adobe 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -148,7 +148,7 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
    <td> <strong>Weitere Informationen</strong><br /> </td> 
    <td> Siehe auch <a href="../../designing/using/designing-content-in-adobe-campaign.md">Über Email Designer</a>.<br /> </td> 
    <td> Siehe auch <a href="../../integrating/using/integrating-with-experience-manager.md">Integration mit Experience Manager</a>.<br /> </td> 
-   <td> Siehe auch <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver und Campaign</a> und dieses <a href="#video">Video</a>.<br /> </td> 
+   <td> Siehe auch <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver und Campaign</a> und dieses <a href="#video">Video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,6 +157,6 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
 
 In diesem Video wird gezeigt, wie man Inhalte für Adobe Campaign Standard mit Dreamweaver erstellt und bearbeitet.
 
->[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
