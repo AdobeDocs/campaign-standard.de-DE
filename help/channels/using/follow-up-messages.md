@@ -10,33 +10,33 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 73%
+ht-degree: 98%
 
 ---
 
 
 # Folgenachrichten {#follow-up-messages}
 
-Eine Follow-up-Meldung ist eine vordefinierte Marketing-Versandvorlage, die in einem Workflow verwendet werden kann, um eine andere Kommunikation an die Empfänger einer bestimmten Transaktionsnachricht zu senden.
+Eine Folgenachricht ist eine vordefinierte Marketing-Versandvorlage, die in einem Workflow verwendet werden kann, um andere Mitteilungen an die Empfänger einer spezifischen Transaktionsnachricht zu senden.
 
 Greifen wir hierfür das im Abschnitt [Funktionsweise von Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) beschriebene Beispiel wieder auf: eine E-Mail-Benachrichtigung, die an Besucher Ihrer Webseite gesendet wird, die Artikel in ihrem Warenkorb hinzugefügt, aber die Webseite verlassen haben, ohne den Kauf abzuschließen.
 
-Sie möchten eine freundliche Erinnerung an alle Kunden senden, die die Benachrichtigung zum Warenkorbabbruch erhalten haben, diese aber nach drei Tagen nicht geöffnet haben. Sie erhalten eine Anschlussnachricht, die auf denselben Daten basiert, die in der ersten gesendeten E-Mail verwendet wurden.
+Sie möchten eine höfliche Erinnerung an alle Kunden senden, die vor drei Tagen die Benachrichtigung über einen stehen gelassenen Warenkorb erhalten, aber nicht geöffnet haben. Sie erhalten eine Folgenachricht, die auf denselben Daten basiert, die schon in der ersten gesendeten E-Mail verwendet wurden.
 
-## Ereignis konfigurieren, um eine Folgenachricht zu senden         {#configuring-an-event-to-send-a-follow-up-message}
+## Ereignis konfigurieren, um eine Folgenachricht zu senden          {#configuring-an-event-to-send-a-follow-up-message}
 
-Um eine Folgemaßnahme zu senden, müssen Sie zunächst das Ereignis entsprechend der bereits erhaltenen Transaktionsnachricht konfigurieren.
+Um eine Folgenachricht zu senden, müssen Sie zunächst das Ereignis entsprechend der bereits erhaltenen Transaktionsnachricht konfigurieren.
 
-1. Verwenden Sie dieselbe Ereigniskonfiguration wie für den Versand einer Ereignis-Transaktionsnachricht. Siehe [Konfigurieren eines transaktionalen Ereignisses](../../channels/using/configuring-transactional-event.md).
+1. Verwenden Sie dieselbe Ereigniskonfiguration wie für den Versand einer Ereignis-Transaktionsnachricht. Siehe [Transaktionsereignisse konfigurieren](../../channels/using/configuring-transactional-event.md).
 1. Aktivieren Sie bei der Konfiguration Ihres Ereignisses und vor seiner Publikation die Option **[!UICONTROL Folgenachrichten-Vorlage für dieses Ereignis erstellen]**.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. [Vorschau und Veröffentlichung des Ereignisses](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Erstellen Sie eine Vorschau und publizieren Sie das Ereignis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-Mit Ausführung der Publikation werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Die Schritte zum Senden der Follow-up-Meldung sind in [diesem Abschnitt](#sending-a-follow-up-message) beschrieben.
+Mit Ausführung der Publikation werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Die Schritte zum Senden der Folgenachricht sind in [diesem Abschnitt](#sending-a-follow-up-message) beschrieben.
 
-## Zugriff auf die Folgenachrichten       {#accessing-the-follow-up-messages}
+## Zugriff auf die Folgenachrichten        {#accessing-the-follow-up-messages}
 
 Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorlage notwendig. Allerdings kann die bei der Publikation des Ereignisses erstellte [Transaktionsnachricht](../../channels/using/editing-transactional-message.md) nicht als Vorlage verwendet werden. Hierfür müssen Sie eine spezifische Versandvorlage für Folgenachrichten erstellen, die diesen Ereignistyp und die Verwendung als Vorlage in Workflows unterstützt.
 
@@ -52,7 +52,7 @@ Nur die Folgenachrichten werden angezeigt.
 
 >[!IMPORTANT]
 >
->Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können auf Transaktionsnachrichten zugreifen und sie bearbeiten.
+>Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können Transaktionsnachrichten aufrufen und bearbeiten.
 
 ## Folgenachrichten senden {#sending-a-follow-up-message}
 
@@ -62,7 +62,7 @@ Nachdem Sie die Folgenachrichten-Versandvorlage erstellt haben, können Sie sie 
 
 1. Gehen Sie in die Liste der Marketingaktivitäten und erstellen Sie einen neuen Workflow.
 
-   Siehe [Erstellen eines Workflows](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   Siehe [Workflow erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
 1. Ziehen Sie eine **[!UICONTROL Planung]** in den Workflow und öffnen Sie sie. Wählen Sie für die Ausführungshäufigkeit einmal pro Tag aus.
 
@@ -84,15 +84,15 @@ Nachdem Sie die Folgenachrichten-Versandvorlage erstellt haben, können Sie sie 
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Wechseln Sie zur Registerkarte **[!UICONTROL Zielgruppe]** der Aktivität und ziehen Sie das Element **[!UICONTROL Versandlogs (Protokolle)]** aus der Palette in den Arbeitsbereich.
+1. Navigieren Sie zum Tab **[!UICONTROL Zielgruppe]** der Aktivität und ziehen Sie das Element **[!UICONTROL Versandlogs (logs)]** aus der Palette in den Arbeitsbereich.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Wählen Sie **[!UICONTROL Vorhanden]** aus, um alle Kunden, die die E-Mail erhalten haben, Zielgruppe.
+   Wählen Sie **[!UICONTROL Existiert]** aus, um alle Kunden in Ihre Zielgruppe einzubeziehen, die die E-Mail erhalten haben.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Verschieben Sie das Element **[!UICONTROL Trackinglogs (tracking)]** aus der Palette in den Arbeitsbereich und wählen Sie **[!UICONTROL Ist nicht vorhanden]**, um alle Kunden, die die E-Mail nicht geöffnet haben, Zielgruppe.
+1. Ziehen Sie das Element **[!UICONTROL Trackinglogs (tracking)]** aus der Palette in den Arbeitsbereich und wählen Sie **[!UICONTROL Existiert nicht]** aus, um alle Kunden in Ihre Zielgruppe einzubeziehen, die die E-Mail nicht geöffnet haben.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
@@ -110,7 +110,7 @@ Nachdem Sie die Folgenachrichten-Versandvorlage erstellt haben, können Sie sie 
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   Sie können auch einen [SMS-Versand](../../automating/using/sms-delivery.md) oder einen [Push-Benachrichtigungs-Versand](../../automating/using/push-notification-delivery.md)-Aktivität verwenden. Stellen Sie in diesem Fall sicher, dass Sie, während Sie Ihre Ereigniskonfiguration vornehmen, den Kanal **[!UICONTROL Mobiltelefon (SMS)]** oder **[!UICONTROL Mobile App]** auswählen. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
+   Sie können alternativ auch einen [SMS-Versand](../../automating/using/sms-delivery.md) oder die Aktivität [Push-Benachrichtigungs-Versand](../../automating/using/push-notification-delivery.md) verwenden. Stellen Sie in diesem Fall sicher, dass Sie, während Sie Ihre Ereigniskonfiguration vornehmen, den Kanal **[!UICONTROL Mobiltelefon (SMS)]** oder **[!UICONTROL Mobile App]** auswählen. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
 1. Öffnen Sie die Aktivität **E-Mail-Versand.** Aktivieren Sie im Erstellungsassistenten die Option **[!UICONTROL Folgenachrichten]** und wählen Sie die Folgenachrichten-Versandvorlage aus, die nach dem Publizieren des Ereignisses erstellt wurde.
 
