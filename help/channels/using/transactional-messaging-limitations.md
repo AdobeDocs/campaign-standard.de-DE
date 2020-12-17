@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
 
-# Best Practices und Einschränkungen für Transaktionsnachrichten {#transactional-messaging-limitations}
+# Best Practices und Einschränkungen bei Transaktionsnachrichten {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
@@ -26,13 +26,13 @@ In diesem Abschnitt werden die Best Practices und Einschränkungen Liste, die Si
 
 ## Berechtigungen {#permissions}
 
-Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können transaktionale Ereignis konfigurieren und auf Transaktionsnachrichten zugreifen.
+Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können Transaktionsereignisse konfigurieren und auf Transaktionsnachrichten zugreifen.
 
-## Konfiguration und Veröffentlichung von Ereignissen {#design-and-publication}
+## Konfiguration und Publikation von Ereignissen {#design-and-publication}
 
-Beim Konfigurieren und Veröffentlichen von transaktionalen Ereignissen können einige der erforderlichen Schritte nicht rückgängig gemacht werden. Achten Sie bitte auf folgende Einschränkungen:
+Bei der Konfiguration und Publikation von Transaktionsereignissen können manche Schritte nicht mehr rückgängig gemacht werden. Achten Sie bitte auf folgende Einschränkungen:
 
-* Die verfügbaren Kanal für Transaktionsnachrichten sind: **[!UICONTROL E-Mail]**, **[!UICONTROL Mobil (SMS)]** und **[!UICONTROL Push-Benachrichtigung]**.
+* Die für Transaktionsnachrichten verfügbaren Kanäle sind: **[!UICONTROL E-Mail]**, **[!UICONTROL Mobil (SMS)]** und **[!UICONTROL Push-Benachrichtigung]**.
 * Für jede Ereigniskonfiguration kann jeweils nur ein Kanal verwendet werden. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Nach der Erstellung des Ereignisses lässt sich der Kanal nicht mehr ändern. Deshalb müssen Sie den Mechanismus festlegen, über den eine Nachricht im Fall einer erfolglosen Sendung über einen anderen Kanal mit einem Workflow gesendet werden kann. Siehe [Workflow-Daten und -Prozesse](../../automating/using/get-started-workflows.md).
 * Nach der Erstellung des Ereignisses können Sie die Zielgruppendimension (**[!UICONTROL Echtzeit-Ereignis]** or **[!UICONTROL Profil]**) nicht mehr ändern. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
@@ -45,28 +45,28 @@ Die Anzahl der veröffentlichten Transaktionsnachrichten kann erhebliche Auswirk
 
 Um eine optimale Leistung zu gewährleisten, können Sie auch die Veröffentlichung oder das Löschen nicht verwendeter Ereignis rückgängig machen. Wenn Sie die Veröffentlichung eines Ereignisses rückgängig machen oder löschen, wird auch die Veröffentlichung oder Löschung der entsprechenden Transaktionsnachricht(n) sowie deren Versand und Trackinglogs (sofern vorhanden) rückgängig gemacht. Siehe [Rückgängigmachen der Veröffentlichung eines Ereignisses](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) und [Löschen eines Ereignisses](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Personalisierung         {#personalization}
+## Personalisierung          {#personalization}
 
 Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ der Transaktionsnachricht ab. Unten finden Sie die Spezifikationen.
 
 ### Ereignisbasierte Transaktionsnachrichten
 
-* Die Personalisierungsinformationen stammen von den im Ereignis selbst enthaltenen Daten. Siehe [Ereignis-basierte Transaktionsnachricht-Konfiguration](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* Die Personalisierungsinformationen stammen von den im Ereignis selbst enthaltenen Daten. Siehe [Konfiguration ereignisbasierter Transaktionsnachrichten](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * Sie können in einer Ereignis-Transaktionsnachricht **keine** Inhaltsbausteine für **[!UICONTROL Abmelde-Links]** verwenden.
-* Beim ereignisbasierten Transaktionsnachrichtenversand sollen ausschließlich die Daten verwendet werden, die im gesendeten Ereignis der Personalisierung von Empfängern und Nachrichteninhalten dienen. Der Inhalt Ihrer Transaktionsnachricht lässt sich jedoch durch die Verwendung von in der Adobe-Campaign-Datenbank enthaltenen Informationen anreichern. Siehe [Anreichern eines Ereignisses](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) und [Personalisieren einer Transaktionsnachricht](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+* Beim ereignisbasierten Transaktionsnachrichtenversand sollen ausschließlich die Daten verwendet werden, die im gesendeten Ereignis der Personalisierung von Empfängern und Nachrichteninhalten dienen. Der Inhalt Ihrer Transaktionsnachricht lässt sich jedoch durch die Verwendung von in der Adobe-Campaign-Datenbank enthaltenen Informationen anreichern. Siehe [Ereignisse anreichern](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) und [Transaktionsnachrichten personalisieren](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * Da Ereignis-Transaktionsnachrichten keine Profilinformationen enthalten, sind sie nicht mit Ermüdungsregeln kompatibel (auch nicht, wenn sie mit Profilen angereichert werden). 
 
 ### Profilbasierte Transaktionsnachrichten  
 
-* Die Personalisierungsinformationen können von den im Ereignis enthaltenen Daten oder von den abgestimmten Profildaten stammen. Siehe [Profil-basierte Transaktionsnachricht-Konfiguration](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) und [Profil-basierte Transaktionsnachricht-Spezifikationen](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* Die Personalisierungsinformationen können von den im Ereignis enthaltenen Daten oder von den abgestimmten Profildaten stammen. Siehe [Konfiguration profilbasierter Transaktionsnachrichten](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) und [Besonderheiten profilbasierter Transaktionsnachrichten](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * Sie **können in einer Profil-Transaktionsnachricht** Inhaltsbausteine für **[!UICONTROL Abmelde-Links]** verwenden. Siehe [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 * Ermüdungsregeln sind mit Profil-Transaktionsnachrichten kompatibel. Näheres dazu finden Sie unter [Ermüdungsregeln](../../sending/using/fatigue-rules.md).
 
 ### Produktlisten
 
-Beachten Sie, dass Produktauflistungen nur in transaktionalen **E-Mail-Nachrichten** verfügbar sind. Siehe [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Beachten Sie, dass Produktlisten nur in **E-Mail-Transaktionsnachrichten** verfügbar sind. Siehe [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
-## Marken {#permissions-and-branding}
+## Branding {#permissions-and-branding}
 
 Beim [Branding](../../administration/using/branding.md) bieten Transaktionsnachrichten weniger Flexibilität als Standardnachrichten. Adobe empfiehlt, alle in Transaktionsnachrichten verwendeten Marken mit der Organisationseinheit **[!UICONTROL Alle]**[ zu verknüpfen](../../administration/using/organizational-units.md). Weiterführende Informationen dazu finden Sie in der unten stehenden Erläuterung.
 
