@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie Transaktionsnachrichten mit APIs verwalten.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Über den Versand von Transaktionsnachrichten
 
-Nachdem Sie ein transaktives Ereignis erstellt und veröffentlicht haben, müssen Sie die Auslösung dieses Ereignisses in Ihre Website integrieren.
+Nachdem Sie ein Transaktionsereignis erstellt und veröffentlicht haben, müssen Sie die Aktivierung dieses Ereignisses in Ihre Website integrieren.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Beachten Sie, dass der API-Endpunkt für Transaktionsnachrichten auch während der API-Vorschau sichtbar ist.)
 
-* **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereignis-Konfiguration generiert (siehe [diesen Abschnitt](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereigniskonfiguration generiert (siehe [diesen Abschnitt](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### POST-Anfrage-Kopfzeile
 
