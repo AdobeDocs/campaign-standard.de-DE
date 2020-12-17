@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 824c91669bd717e5bf31dab9005e4c3b9e497edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Alle Objekte und Benutzer der Plattform sind einer Organisationseinheit zugeordn
 
 >[!IMPORTANT]
 >
->Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]** zugeordnet werden. Es wird empfohlen, die Option **Zugriffsberechtigungs-Verwaltungsfelder** hinzuzufügen, bevor Sie Profil importieren. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/organizational-units.md#partitioning-profiles).
+>Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]** zugeordnet werden. Es wird empfohlen, die Option **Zugriffsberechtigungs-Verwaltungsfelder** hinzuzufügen, bevor Sie Profile importieren. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/organizational-units.md#partitioning-profiles).
 >
 >Standardmäßig wird die Organisationseinheit **[!UICONTROL Alle (all)]** der Sicherheitsgruppe **[!UICONTROL Administratoren]** zugewiesen. Sie ist schreibgeschützt und kann nicht geändert werden.
 
@@ -40,7 +40,7 @@ Wenn einem Benutzer eine Organisationseinheit zugewiesen wird, wird diese Einhei
 >
 >Wenn ein Benutzer mehreren Gruppen mit verschiedenen zugeordneten Einheiten angehört, gelten bestimmte Regeln. Weiterführende Informationen finden Sie im Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md).
 
-## Einheiten erstellen und verwalten     {#creating-and-managing-units}
+## Einheiten erstellen und verwalten      {#creating-and-managing-units}
 
 Mit Organisationseinheiten können Sie Ihre Instanz nach der Organisation filtern, mit der Ihre Benutzer verknüpft sind. Diese Einheit kann eine Region, ein Land oder sogar eine Marke in Ihrer Instanz sein.
 
@@ -97,17 +97,17 @@ Im Gegensatz dazu bestehen für die Organisationseinheit &quot;Geometrixx &quot;
 
 >[!IMPORTANT]
 >
->Es wird empfohlen, diese Option vor dem Import von Profilen hinzuzufügen, da Profil ohne Organisationseinheiten von Benutzern nicht aufgerufen werden können.
+>Es wird empfohlen, diese Option vor dem Import von Profilen hinzuzufügen, da Profile ohne Organisationseinheiten von Benutzern nicht aufgerufen werden können.
 >
->Wenn Sie Ihre Kundendatenbank bereits importiert haben, ist eine Aktualisierung erforderlich, um die Werte der Unternehmenseinheit für die bereits importierten Profil festzulegen.
+>Falls Sie Ihre Kundendatenbank bereits importiert haben, ist eine Aktualisierung erforderlich, um die Werte für Organisationseinheiten für bereits importierte Profile festzulegen.
 
 Falls Ihre Organisation die Profile isolieren möchte, die von den einzelnen Marken kontaktiert werden, müssen Sie Ihre Profile nach Organisationseinheiten partitionieren.
 
 Die Felder für die Organisationseinheiten sind in Ihren Profilen standardmäßig nicht verfügbar und müssen hinzugefügt werden.
 
 1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **Administration > Entwicklung > Benutzerdefinierte Ressourcen** auf das entsprechende Menü zu.
-1. Wählen Sie die **Profil**-Ressource aus oder erstellen Sie eine neue benutzerdefinierte Ressource, um die Profile zu erweitern. Weitere Informationen zum Erweitern der Profil finden Sie auf dieser [Seite](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
-1. Aktivieren Sie die Option **Zugriffsberechtigungsverwaltung-Felder hinzufügen**, um die Organisationseinheiten in der Erweiterung der **Profil**-Ressource hinzuzufügen.
+1. Wählen Sie die **Profil**-Ressource aus oder erstellen Sie eine neue benutzerdefinierte Ressource, um die Profile zu erweitern. Weitere Informationen zum Erweitern von Profilen finden Sie auf dieser [Seite](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
+1. Aktivieren Sie die Option **Felder für die Zugriffsberechtigungsverwaltung hinzufügen**, um die Organisationseinheiten in der Erweiterung der **Profil**-Ressource hinzuzufügen.
 
    ![](assets/user_management_9.png)
 
