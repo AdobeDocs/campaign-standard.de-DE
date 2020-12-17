@@ -6,11 +6,11 @@ description: null
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Zum Erstellen von Auslösern benötigen Sie die Rolle **[!UICONTROL Administration]** oder müssen sich in der Gruppe **[!UICONTROL Administratoren]** befinden. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/list-of-roles.md).
+>Zum Erstellen von Triggers benötigen Sie die Rolle **[!UICONTROL Administration]** oder müssen der Sicherheitsgruppe **[!UICONTROL Administratoren]** angehören. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/list-of-roles.md).
 
 Stellen Sie sicher, dass die Verhaltensweisen, die Sie verfolgen möchten, im Vorhinein in Adobe Experience Cloud (**[!UICONTROL Triggers]** Core Service) definiert wurden. Weiterführende Informationen finden Sie in der [Dokumentation zur Adobe Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/activation/triggers.html). Beachten Sie, dass bei der Definition von Triggern die Alias aktiviert werden müssen. In Adobe Experience Cloud muss für jedes Verhalten (abgebrochener Webseitenbesuch/Formularabbruch, hinzugefügter/entfernter Artikel, abgelaufene Sitzung etc.) ein neuer Trigger hinzugefügt werden.
 
@@ -77,11 +77,11 @@ Nachdem Sie in Adobe Campaign ein Trigger-Ereignis basierend auf einem vorhanden
 
 Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsvorlage erzeugt. Diese Vorlage muss nun bearbeitet und publiziert werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen bearbeiten](../../start/using/marketing-activity-templates.md).
 
-## Transaktionsnachrichtenvorlage bearbeiten       {#editing-the-transactional-message-template}
+## Transaktionsnachrichtenvorlage bearbeiten        {#editing-the-transactional-message-template}
 
 Im Zuge der Erstellung und Publikation des Trigger-Ereignisses wird die entsprechende Transaktionsvorlage automatisch erstellt. Lesen Sie diesbezüglich auch den Abschnitt [In Campaign einen gemappten Trigger erstellen](#creating-a-mapped-trigger-in-campaign).
 
-Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Vorlage personalisiert, getestet und dann publiziert werden. Hierbei gilt das gleiche Prinzip wie für standardmäßige Transaktionsnachrichten. Weitere Informationen finden Sie im Abschnitt [Bearbeiten einer Transaktionsnachricht](../../channels/using/editing-transactional-message.md).
+Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Vorlage personalisiert, getestet und dann publiziert werden. Hierbei gilt das gleiche Prinzip wie für standardmäßige Transaktionsnachrichten. Weitere Informationen hierzu finden Sie unter [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
