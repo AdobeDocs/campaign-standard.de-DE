@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ans
 
 Weitere Informationen dazu finden Sie in der Tabelle [Rollen und Berechtigungen](/help/administration/using/assets/acs_rights.pdf), in der die Funktionen beschrieben werden, die je nach den ausgewählten Berechtigungen auf der Benutzeroberfläche verfügbar sind.
 
-[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
 
 Rollen können über das Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Rollen]** verwaltet werden.
 
@@ -34,7 +34,7 @@ Standardberechtigungen sind:
 
    >[!NOTE]
    >
-   >Wenn Sie Auslöser erstellen müssen, benötigen Sie die **[!UICONTROL Administration]**, um auf das Menü &quot;Auslöser&quot;zugreifen zu können. Weitere Informationen zu Auslösern finden Sie auf dieser [Seite](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Wenn Sie Trigger erstellen müssen, muss die **[!UICONTROL Administration]** das Menü &quot;Triggers&quot; aufrufen können. Weitere Informationen zu Triggers finden Sie auf dieser [Seite](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Berechtigt zur Durchführung von Veröffentlichungen und zur Erstellung von benutzerdefinierten Ressourcen.
 * **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Dazu muss die Rolle **[!UICONTROL Allgemeiner Import]** mit der **[!UICONTROL Workflow]**-Rolle verknüpft werden.
