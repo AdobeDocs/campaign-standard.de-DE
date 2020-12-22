@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6385'
-ht-degree: 99%
+source-wordcount: '6400'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Dezember 2020 {#doc-updates-december-2020}
 
-Der Abschnitt &quot;Transaktionsnachrichten&quot;wurde umstrukturiert und verbessert. Dazu gehört ein klarer Einstiegsabschnitt mit [erweiterten Schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) und ein [End-to-End-Anwendungsfall](../../channels/using/transactional-messaging-use-case.md), um den gesamten Prozess zu illustrieren. [Mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
+**Predictive Subject** Linecapability ist jetzt veraltet. [Mehr dazu](../../rn/using/deprecated-features.md)
 
-Der Abschnitt „Datenschutz“ wurde verschoben – [Mehr dazu](../../start/using/privacy.md)
+Der Abschnitt **Transaktionsnachrichten** für den Einstieg enthält jetzt [erweiterte Schema](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) und einen [End-to-End-Anwendungsfall](../../channels/using/transactional-messaging-use-case.md), um den Implementierungsprozess zu illustrieren. [Mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 
-Es wurde eine neue Seite zur Barrierefreiheit hinzugefügt, auf der Sie mehr über die Unterstützung der Barrierefreiheit in Adobe Campaign Standard Workspace erfahren. [Mehr dazu](../../start/using/accessibility.md)
+Der Abschnitt **Datenschutz** wurde [hier](../../start/using/privacy.md) verschoben.
 
-Im Abschnitt &quot;Transaktionsnachrichten&quot;wurde eine neue Einschränkung hinzugefügt, wonach die Anzahl der veröffentlichten Transaktionsnachrichten für eine optimale Performance unter 100 bleiben sollte. [mehr dazu](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+Eine neue Seite **Ein-/Ausgabehilfe** ist verfügbar: Es enthält Informationen zur Barrierefreiheitsunterstützung im Adobe Campaign Standard Workspace. [Mehr dazu](../../start/using/accessibility.md)
+
+Es wurde ein Warnhinweis hinzugefügt, der besagt, dass die Anzahl der veröffentlichten Transaktionsnachrichten für eine optimale Leistung unter 100 liegen sollte. [Mehr dazu](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+Die Seite für das SMS-Connector-Protokoll und die Einstellungen wurde [hier](../../administration/using/sms-protocol.md) verschoben.
+
+Der Abschnitt **Verwenden von Produktauflistungen in einer Transaktionsnachricht** wurde [hier](../../designing/using/using-product-listings.md) verschoben.
 
 ## November 2020 {#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Im Abschnitt zur Dateiextraktions-Aktivität wurde eine Beschreibung einer neuen
 
 Allgemeine Verfügbarkeit von E-Mail-Designer – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Produktlisten in Transaktions-E-Mails – [mehr dazu](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Produktlisten in Transaktions-E-Mails – [mehr dazu](../../designing/using/using-product-listings.md)
 
 Mobile-Ansicht in E-Mail-Designer – [mehr dazu](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
