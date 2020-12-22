@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 83%
@@ -64,7 +64,7 @@ Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ 
 
 ### Produktlisten
 
-Beachten Sie, dass Produktlisten nur in **E-Mail-Transaktionsnachrichten** verfügbar sind. Siehe [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Beachten Sie, dass Produktlisten nur in **E-Mail-Transaktionsnachrichten** verfügbar sind. Siehe [Produktlisten in Transaktionsnachrichten verwenden](../../designing/using/using-product-listings.md).
 
 ## Branding {#permissions-and-branding}
 
