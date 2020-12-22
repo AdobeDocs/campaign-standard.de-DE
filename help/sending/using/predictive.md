@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie die pr채diktive Sendezeit und Interaktionsbew
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '1070'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+workflow-type: tm+mt
+source-wordcount: '1073'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard bietet zwei neue Modelle f체r maschinelles Lernen: **Pr�
 >[!CAUTION]
 >Diese Funktion ist im Lieferumfang des Produkts nicht verf체gbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
 >
->Die Funktion erfordert die Verwendung eines Azure-Speichers, der vom Kunden zur Verf체gung gestellt werden muss.
+>Die Funktion erfordert die Verwendung einer Azurblauer oder Amazon S3 Datenspeicherung, die vom Kunden bereitgestellt werden muss.
 
 ## Pr채diktive Sendezeitoptimierung{#predictive-send-time}
 
