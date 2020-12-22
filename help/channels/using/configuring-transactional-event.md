@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '1747'
 ht-degree: 98%
@@ -68,7 +68,7 @@ Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem g
 
 Sie können zum Ereignisinhalt eine Kollektion von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
 
-Diese Kollektion kann in Transaktions-E-Mails verwendet werden, um [Produktlisten](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) zum Nachrichteninhalt hinzuzufügen, wie z. B. eine Liste mit Produkten einschließlich Preis, Referenznummer, Menge usw. für jedes Produkt auf der Liste.
+Diese Kollektion kann in Transaktions-E-Mails verwendet werden, um [Produktlisten](../../designing/using/using-product-listings.md) zum Nachrichteninhalt hinzuzufügen, wie z. B. eine Liste mit Produkten einschließlich Preis, Referenznummer, Menge usw. für jedes Produkt auf der Liste.
 
 1. Wählen Sie im Bereich **[!UICONTROL Kollektionen]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
 
@@ -96,7 +96,7 @@ Dies ist die API-Vorschau für dieses Beispiel:
 **Verwandte Themen:**
 
 * [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Produktlisten in Transaktionsnachrichten verwenden](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [Produktlisten in Transaktionsnachrichten verwenden](../../designing/using/using-product-listings.md)
 * [Transaktionsnachrichten publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Ereignis anreichern {#enriching-the-transactional-message-content}
