@@ -7,10 +7,10 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
 translation-type: tm+mt
-source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 100%
       + [Normaltext-, HTML- und mobile E-Mails bearbeiten](designing/using/plain-text-html-modes.md)
       + [E-Mails des alten Editors in Email Designer konvertieren](designing/using/converting-emails-from-legacy-editor.md)
    + [E-Mail-Inhalte personalisieren](designing/using/personalization.md)
+   + [Verwenden von Produktlisten](designing/using/using-product-listings.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
@@ -435,7 +436,6 @@ ht-degree: 100%
    + Kanäle konfigurieren {#configuring-channels}
       + [Über die Konfiguration von Kanälen](administration/using/about-channel-configuration.md)
       + [E-Mail-Kanal konfigurieren](administration/using/configuring-email-channel.md)
-      + [SMS-Kanal konfigurieren](administration/using/configuring-sms-channel.md)
       + [Mobile App konfigurieren](administration/using/configuring-a-mobile-application.md)
    + Mobile Kanäle konfigurieren {#configuring-mobile}
       + [Push-Tracking implementieren](administration/using/push-tracking.md)
@@ -446,6 +446,10 @@ ht-degree: 100%
       + [Häufig gestellte Fragen zur Integration des Experience Platform SDK](administration/using/aep-faq.md)
       + [Konfigurieren von Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+   + SMS-Kanal konfigurieren {#configuring-sms}
+      + [Implementierung des SMS-Kanals](administration/using/configuring-sms-channel.md)
+      + [Protokoll und Einstellungen für den SMS-Anschluss](administration/using/sms-protocol.md)
+      + [SMS-Fehlerbehebung](administration/using/troubleshooting-sms.md)
    + Anwendungskonfiguration {#application-settings}
       + [Über Campaign Standard-Einstellungen](administration/using/about-campaign-standard-settings.md)
       + [Externe Konten](administration/using/external-accounts.md)
