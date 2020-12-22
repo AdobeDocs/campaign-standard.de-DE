@@ -5,11 +5,11 @@ product: campaign
 title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-* **[Aktualisierte Versionsplanung](rn/using/release-planning.md)**<br/> Die bevorstehenden Veröffentlichungstermine im Februar 2021 wurden der Versionsplanung hinzugefügt.
+* **[Falsche feste ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Absprünge aktualisierenInformieren Sie sich darüber, wie Sie falsche Absprünge nach einem Gmail-Ausfall aktualisieren
+
+* **[Versionsplanung ](rn/using/release-planning.md)**<br/> Für Februar 2021 wurden die nächsten Versionshinweise zur Versionsplanung hinzugefügt
 
 * **[Kontrollgruppen](sending/using/control-group.md)**<br/> Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
 
@@ -75,5 +77,5 @@ ht-degree: 100%
 | [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/control-panel-home.html) | [Campaign-APIs](api/using/get-started-apis.md) |
 | [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) | [Liste von Fehlermeldungen](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Versionsplanung](rn/using/release-planning.md) | [Campaign-Datenmodell](developing/using/datamodel-introduction.md) |
-| [Eingestellte und entfernte Funktionen](rn/using/deprecated-features.md)) | [Handbuch für mehrere Lösungen](integrating/using/get-started-campaign-integrations.md) |
+| [Eingestellte und entfernte Funktionen](rn/using/deprecated-features.md) | [Handbuch für mehrere Lösungen](integrating/using/get-started-campaign-integrations.md) |
 | [Erste Schritte mit Campaign Standard](start/using/about-campaign-standard.md) | [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) |
