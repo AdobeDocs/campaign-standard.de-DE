@@ -88,7 +88,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Jetzt wird der Fehler angezeigt, wenn der Workflow **Datenbankbereinigung** fehlschlägt. (CAMP-26876)
 * Fehlerkorrektur – Jetzt können benutzerdefinierte Felder bei der Definition einer Push-Benachrichtigung gelöscht werden. (CAMP-25588)
 
-## Version 18.7 - Juli 2018           {#release-18-7---july-2018}
+## Version 18.7 - Juli 2018            {#release-18-7---july-2018}
 
 **Neue Funktionen?**
 
@@ -151,7 +151,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt werden in Creative Designer keine unerwünschten farbigen Schriften und Formatierungen mehr verursacht, wenn Text mit integrierten Stilelementen in einen Link umgewandelt oder dieser Link bearbeitet wird. (CAMP-26001)
 * Fehlerkorrektur – jetzt werden im Klick-Bericht die Prozentsätze für alle Bedingungen in Sendungen angezeigt, die dynamischen Content enthalten. Zuvor wurden nur die Klicks auf die Standardvariante angezeigt.
 
-## Version 18.6 - Juni 2018           {#release-18-6---june-2018}
+## Version 18.6 - Juni 2018            {#release-18-6---june-2018}
 
 **Neuheiten**
 
@@ -182,14 +182,14 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt können bei Push-Benachrichtigungen auch für Abonnenten Ermüdungsregeln verwendet werden, deren Profil nicht in der Datenbank ist. (CAMP-25344)
 * Fehlerkorrektur – jetzt erscheint keine Fehlermeldung mehr, wenn auf Versand-Ausschlusslogs zugegriffen wird. (CAMP-24724)
 * Fehlerkorrektur – jetzt können in Instanzen mit erweiterten Versandlogs Testsendungen vorbereitet werden.
-* Fehlerkorrektur – beim Publizieren von benutzerdefinierten Ressourcen mit aktivierter Erweiterung der **[!UICONTROL Versandlogs]** treten jetzt keine Fehler mehr auf.
+* Fehlerkorrektur – beim Veröffentlichen von benutzerdefinierten Ressourcen mit aktivierter Erweiterung der **[!UICONTROL Versandlogs]** treten jetzt keine Fehler mehr auf.
 * Fehlerkorrektur – jetzt wird die Versandlaufzeit im wiederkehrenden Versand berücksichtigt.
 * Fehlerkorrektur – jetzt können im Menü **[!UICONTROL Benutzerdefinierte Daten]** Daten für benutzerdefinierte Ressourcen mit über 100.000 Datensätzen sortiert werden. (CAMP-24308)
 * Fehlerkorrektur – jetzt werden benutzerdefinierte Profildimensionen bei der Verwendung der Suchfunktion in dynamischen Berichten berücksichtigt.
 * Fehlerkorrektur – jetzt werden internationale Daten auch in auf Kontoebene erstellten dynamischen Berichten korrekt angezeigt.
 * Jetzt kann ein Dienst ohne Anmelde- oder Abmeldebestätigungsnachricht erstellt werden.
 
-## Version 18.5 - Mai 2018           {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018            {#release-18-5---may-2018}
 
 **Neue Funktionen?**
 
@@ -261,7 +261,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – Creative Designer kann jetzt geladen werden. (CAMP-24573)
 * Fehlerkorrektur – jetzt werden im E-Mail-Betreff keine Zeichen mehr nach den Personalisierungsfeldern entfernt. (CAMP-24113)
 
-## Version 18.4 - April 2018           {#release-18-4---april-2018}
+## Version 18.4 - April 2018            {#release-18-4---april-2018}
 
 **Korrekturen**
 
@@ -287,7 +287,7 @@ _Benutzerdefinierte Ressourcen_
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr bei der Vorbereitung der benutzerdefinierten Ressource auf.
 
-## Version 18.3 - März 2018           {#release-18-3---march-2018}
+## Version 18.3 - März 2018            {#release-18-3---march-2018}
 
 **Neue Funktionen**
 
@@ -370,14 +370,14 @@ _Integrationen_
 * Assets werden jetzt schneller geladen, wenn versucht wird, ein Bild aus der Asset-Bibliothek von Experience Cloud in eine Nachricht einzufügen.
 * Fehlerkorrektur – jetzt kann das Fenster für die Asset-Auswahl immer geschlossen werden.
 * Sie können jetzt von der Detailansicht einer Datenquelle direkt auf ihren Workflow zugreifen und den Status des Workflows überprüfen.
-* Sie können jetzt das Triggers-Schema direkt aktualisieren, wenn Sie ein Trigger-Ereignis definieren oder bearbeiten. Durch diese Änderung müssen Sie den Trigger nicht mehr depublizieren und einen neuen erstellen.
+* Sie können jetzt das Triggers-Schema direkt aktualisieren, wenn Sie ein Trigger-Ereignis definieren oder bearbeiten. Durch diese Änderung müssen Sie die Veröffentlichung des Triggers nicht mehr aufheben und einen neuen erstellen.
 
 _Transaktionsnachrichten_
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr mit der Transaktionsnachrichtenvorlage auf, wenn die Versandressource erweitert wird.
 * Jetzt können Transaktionsnachrichten gelöscht werden.
 
-## Version 18.2 - Februar 2018           {#release-18-2---february-2018}
+## Version 18.2 - Februar 2018            {#release-18-2---february-2018}
 
 **Neue Funktionen**
 
@@ -441,7 +441,7 @@ Wir raten von der Nutzung von Internet Explorer Version 11 ab, da Anzeigeproblem
 
 Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign-Benutzeroberfläche verwendet werden. Diese werden in Version 18.3 korrigiert.
 
-## Version 18.1 - Januar 2018           {#release-18-1---january-2018}
+## Version 18.1 - Januar 2018            {#release-18-1---january-2018}
 
 **Neue Funktionen**
 
