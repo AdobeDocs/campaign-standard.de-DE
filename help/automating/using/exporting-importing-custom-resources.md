@@ -114,10 +114,10 @@ Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name d
 
    ![](assets/cusresources_import3.png)
 
-### Publizieren {#publish-structure}
+### Veröffentlichen{#publish-structure}
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Publikation]**.
-1. Verwenden Sie die Schaltflächen **[!UICONTROL Publikation vorbereiten]** und anschließend **[!UICONTROL Publizieren]**, um die Instanz mit den Daten der neuen benutzerdefinierten Ressourcen zu aktualisieren.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Veröffentlichung]**.
+1. Verwenden Sie die Schaltflächen **[!UICONTROL Veröffentlichung vorbereiten]** und anschließend **[!UICONTROL Veröffentlichen]**, um die Instanz mit den Daten der neuen benutzerdefinierten Ressourcen zu aktualisieren.
 1. Die dem installierten Package entsprechenden Menüeinträge werden in das Menü **[!UICONTROL Benutzerdefinierte Daten]** eingefügt.
 
    ![](assets/cusresources_import1.png)
@@ -126,7 +126,7 @@ Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name d
 
 In diesem Schritt werden wir die mit dem im vorangehenden Schritt in der Instanz installierten Package verknüpften **Daten importieren**.
 
-Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import und die Publikation.
+Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import und die Veröffentlichung.
 
 ### Package importieren {#importing-the-data-package}
 
@@ -137,7 +137,7 @@ Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import un
 
    ![](assets/cusresources_importdata.png)
 
-### Publizieren {#publish-data}
+### Veröffentlichen {#publish-data}
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Publikation]**.
-1. Verwenden Sie die Schaltflächen **[!UICONTROL Publikation vorbereiten]** und anschließend **[!UICONTROL Publizieren]**, um die Instanz mit den Daten der benutzerdefinierten Ressourcen zu aktualisieren.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Veröffentlichung]**.
+1. Verwenden Sie die Schaltflächen **[!UICONTROL Veröffentlichung vorbereiten]** und anschließend **[!UICONTROL Veröffentlichen]**, um die Instanz mit den Daten der benutzerdefinierten Ressourcen zu aktualisieren.
