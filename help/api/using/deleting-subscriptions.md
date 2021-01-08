@@ -19,7 +19,7 @@ ht-degree: 100%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## Löschen einer Dienstanmeldung für ein bestimmtes Profil   {#deleting-service-subscription}
+## Löschen einer Dienstanmeldung für ein bestimmtes Profil    {#deleting-service-subscription}
 
 Dies ist ein dreistufiges Verfahren.
 
