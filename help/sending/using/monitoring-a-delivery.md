@@ -46,7 +46,7 @@ Es gibt mehrere Möglichkeiten, einen Versand zu überwachen und seine Wirkung z
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Versandlogs      {#delivery-logs}
+## Versandlogs       {#delivery-logs}
 
 ### Versandlogs {#sending-logs}
 
