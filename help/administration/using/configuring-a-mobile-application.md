@@ -124,7 +124,7 @@ Ihr **[!UICONTROL Property Status]** sollte **[!UICONTROL Bereit zum Konfigurier
 
    ![](assets/launch_5.png)
 
-1. Damit diese Konfiguration wirksam werden kann, müssen die Änderungen in Experience Platform Launch publiziert werden.
+1. Damit diese Konfiguration wirksam werden kann, müssen die Änderungen in Experience Platform Launch veröffentlicht werden.
 
    Weitere Informationen finden Sie unter [Konfiguration veröffentlichen](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
