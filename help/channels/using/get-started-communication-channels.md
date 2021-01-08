@@ -74,9 +74,9 @@ Mehr dazu:
 
 * [Erste Schritte mit Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md)
 * [Transaktionsereignis konfigurieren](../../channels/using/configuring-transactional-event.md)
-* [Transaktionsereignis publizieren](../../channels/using/publishing-transactional-event.md)
+* [Transaktionsereignis veröffentlichen](../../channels/using/publishing-transactional-event.md)
 * [Transaktionsnachricht bearbeiten](../../channels/using/editing-transactional-message.md)
-* [Transaktionsnachricht publizieren](../../channels/using/publishing-transactional-message.md)
+* [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md)
 * [Push-Benachrichtigungen für Transaktionen](../../channels/using/transactional-push-notifications.md)
 * [Folgenachrichten](../../channels/using/follow-up-messages.md)
 
