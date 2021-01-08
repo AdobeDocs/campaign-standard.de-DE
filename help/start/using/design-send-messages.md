@@ -6,11 +6,11 @@ description: '"Hier erfahren Sie, wie Sie in Adobe Campaign Standard die Anzeige
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Mehr dazu**
 
@@ -77,7 +77,7 @@ Personalisierte Nachrichten sind wichtig, wenn Sie relevante Inhalte versenden, 
 * [Dynamische Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) in Ihre Nachrichten einfügen
 * [Vordefinierte Personalisierungsbausteine](../../designing/using/personalization.md#adding-a-content-block) einfügen
 * [Absender](../../designing/using/subject-line.md) einer E-Mail oder einer SMS personalisieren
-* [Betreffzeile ](../../designing/using/subject-line.md) einer E-Mail personalisieren
+* [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md)
 * [Bedingten Inhalt in einer E-Mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) oder [auf einer Landingpage](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) erstellen
 * [Dynamischen Text](../../channels/using/defining-dynamic-text.md) in eine SMS oder eine Push-Benachrichtigung einfügen
 
@@ -114,7 +114,7 @@ Mit Adobe Campaign können Sie jeden einzelnen Versand beobachten und verfolgen.
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Mehr dazu**
 
