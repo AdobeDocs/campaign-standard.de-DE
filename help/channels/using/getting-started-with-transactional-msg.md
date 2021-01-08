@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Erste Schritte mit Transaktionsnachrichten {#getting-started-with-transactional-messaging}
 
-## Übersicht  {#overview}
+## Übersicht   {#overview}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
@@ -91,23 +91,23 @@ Jeder dieser Schritte wird im Folgenden näher erläutert.
 >
 >Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können Transaktionsereignisse konfigurieren und auf Transaktionsnachrichten zugreifen.
 
-### Schritt 1: Ereigniskonfiguration erstellen und publizieren {#create-event-configuration}
+### Schritt 1: Ereigniskonfiguration erstellen und veröffentlichen {#create-event-configuration}
 
 <img src="assets/do-not-localize/icon_config.svg" width="60px">
 
 | Benutzer | Aktion | Ergebnis |
 |--- |--- |--- |
-| Dieser Schritt muss von einem Administrator durchgeführt werden, der [Administratorrechte](../../administration/using/users-management.md#functional-administrators) besitzt. | Konfigurieren Sie ein Ereignis mit dem Namen „Warenkorbabbruch“ und publizieren Sie diese Ereigniskonfiguration. | Die von Ihrem Website-Entwickler verwendete API wird bereitgestellt und eine Transaktionsnachricht automatisch erstellt. |
+| Dieser Schritt muss von einem Administrator durchgeführt werden, der [Administratorrechte](../../administration/using/users-management.md#functional-administrators) besitzt. | Konfigurieren Sie ein Ereignis mit dem Namen „Warenkorbabbruch“ und veröffentlichen Sie diese Ereigniskonfiguration. | Die von Ihrem Website-Entwickler verwendete API wird bereitgestellt und eine Transaktionsnachricht automatisch erstellt. |
 
-Das Erstellen und Veröffentlichen eines Ereignisses wird in den Abschnitten [Transaktionsereignisse konfigurieren](../../channels/using/configuring-transactional-event.md) und [Transaktionsereignisse publizieren](../../channels/using/publishing-transactional-event.md) beschrieben.
+Das Erstellen und Veröffentlichen eines Ereignisses wird in den Abschnitten [Transaktionsereignisse konfigurieren](../../channels/using/configuring-transactional-event.md) und [Transaktionsereignisse veröffentlichen](../../channels/using/publishing-transactional-event.md) beschrieben.
 
-### Schritt 2: Transaktionsnachricht bearbeiten und publizieren {#create-transactional-message}
+### Schritt 2: Transaktionsnachricht bearbeiten und veröffentlichen {#create-transactional-message}
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
 | Benutzer | Aktion | Ergebnis |
 |--- |--- |--- |
-| Dieser Schritt kann von einem Marketing-Benutzer durchgeführt werden, der [Administratorrechte](../../administration/using/users-management.md#functional-administrators) besitzt. | Bearbeiten und personalisieren Sie die Transaktionsnachricht, testen Sie sie und publizieren Sie sie dann. | Die Transaktionsnachricht ist dann versandfertig. |
+| Dieser Schritt kann von einem Marketing-Benutzer durchgeführt werden, der [Administratorrechte](../../administration/using/users-management.md#functional-administrators) besitzt. | Bearbeiten und personalisieren Sie die Transaktionsnachricht, testen Sie sie und veröffentlichen Sie sie dann. | Die Transaktionsnachricht ist dann versandfertig. |
 
 Weitere Informationen zum Bearbeiten und Veröffentlichen einer Transaktionsnachricht finden Sie unter [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md) und [Lebenszyklus von Transaktionsnachrichten](../../channels/using/publishing-transactional-message.md).
 
