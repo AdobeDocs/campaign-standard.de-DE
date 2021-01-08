@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Landingpage freigeben
-description: Hier erfahren Sie, wie Sie eine Landingpage in Adobe Campaign testen und publizieren können.
+description: Hier erfahren Sie, wie Sie eine Landingpage in Adobe Campaign testen und veröffentlichen können.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
@@ -15,13 +15,13 @@ ht-degree: 100%
 ---
 
 
-# Landingpage testen und publizieren{#testing-publishing--landing-page}
+# Landingpage testen und veröffentlichen{#testing-publishing--landing-page}
 
-## Über die Publikation von Landingpages {#about-landing-page-publication}
+## Über die Veröffentlichung von Landingpages {#about-landing-page-publication}
 
-Vor der Publikation einer Landingpage müssen Sie Tests durchführen: Validieren Sie die Ausführung, konfigurieren Sie den Zugriff darauf und legen Sie das Funktionsende der Landingpage fest. Diese Maßnahmen sind erforderlich und müssen mit Sorgfalt ausgeführt werden.
+Vor der Veröffentlichung einer Landingpage müssen Sie Tests durchführen: Validieren Sie die Ausführung, konfigurieren Sie den Zugriff darauf und legen Sie das Funktionsende der Landingpage fest. Diese Maßnahmen sind erforderlich und müssen mit Sorgfalt ausgeführt werden.
 
-## Landingpage testen       {#testing-the-landing-page-}
+## Landingpage testen        {#testing-the-landing-page-}
 
 Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie wie folgt vor:
 
@@ -45,15 +45,15 @@ Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landin
 >
 >Um die Vorschau der Landingpage in der Campaign-Benutzeroberfläche anzuzeigen, muss die URL des Anwendungsservers sicher sein. Verwenden Sie in diesem Fall https:// anstelle von http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands) einzurichten.
 
-## Gültigkeitsparameter einrichten       {#setting-up-validity-parameters}
+## Gültigkeitsparameter einrichten        {#setting-up-validity-parameters}
 
-Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung vor der Publikation in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Landingpage automatisch offline gestellt. Gehen Sie wie folgt vor:
+Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung vor der Veröffentlichung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Veröffentlichung der Landingpage automatisch aufgehoben. Gehen Sie wie folgt vor:
 
 1. Bearbeiten Sie die Landingpage-Eigenschaften über die Schaltfläche ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Definieren Sie im Bereich **[!UICONTROL Publikation]** das Ablaufdatum und die entsprechende Uhrzeit. Die Landingpage wird automatisch am angegebenen Datum depubliziert und ist dann nicht mehr verfügbar.
+1. Definieren Sie im Bereich **[!UICONTROL Veröffentlichung]** das Ablaufdatum und die entsprechende Uhrzeit. Die Veröffentlichung der Landingpage wird automatisch am angegebenen Datum aufgehoben und sie ist dann nicht mehr verfügbar.
 
    Sie können die Zeitzone auswählen, die für dieses Datum und die Uhrzeit berücksichtigt werden soll.
 
@@ -63,10 +63,10 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 
 >[!IMPORTANT]
 >
->Sie können auch ein Publikationsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum publiziert.
+>Sie können auch ein Veröffentlichungsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum veröffentlicht.
 
-## Landingpage publizieren       {#publishing-a-landing-page}
+## Landingpage veröffentlichen  {#publishing-a-landing-page}
 
-Wenn Sie eine Landingpage publizieren, ist sie online für Besucher verfügbar.
+Wenn Sie eine Landingpage veröffentlichen, ist sie online für Besucher verfügbar.
 
-Eine Landingpage-Depublizierung bzw. -Aktualisierung ist jederzeit über die Schaltfläche **[!UICONTROL Publizieren]** möglich. Wenn vor der erneuten Publikation die Landingpage nicht depubliziert wurde und ein Fehler auftritt, bleibt die erste Version online.
+Die Aufhebung der Veröffentlichung der Landingpage bzw. ihre Aktualisierung ist jederzeit über die Schaltfläche **[!UICONTROL Veröffentlichen]** möglich. Wenn vor der erneuten Veröffentlichung die Veröffentlichung der Landingpage nicht aufgehoben wurde und ein Fehler auftritt, bleibt die erste Version online.
