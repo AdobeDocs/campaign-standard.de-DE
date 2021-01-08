@@ -23,13 +23,13 @@ ht-degree: 100%
 
 Datenschutzanfragen werden mit einer **POST**-Anfrage erstellt.
 
-Bevor Sie Anfragen erstellen, müssen Sie den zu verwendenden Namensraum definieren. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Bevor Sie Anfragen erstellen, müssen Sie den zu verwendenden Namespace definieren. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 Die Payload muss folgende Parameter enthalten:
 
 * **name**: einen eindeutigen internen Namen
-* **namespace**: den Namen des in der Benutzeroberfläche von Campaign Standard konfigurierten Namensraums
-* **alignValue**: den Abstimmungswert, der auf dem im Namensraum definierten Abstimmschlüssel basiert
+* **namespace**: den Namen des in der Benutzeroberfläche von Campaign Standard konfigurierten Namespace
+* **alignValue**: den Abstimmungswert, der auf dem im Namespace definierten Abstimmschlüssel basiert
 * **label**: den Titel der Anfrage
 * **type**: den Anfragetyp; zulässige Werte sind &quot;access&quot; oder &quot;delete&quot;
 * **regulation**: die Art der Vorschrift; Beispiel: &quot;DSGVO&quot;, &quot;CCPA&quot;; dieser Parameter ist obligatorisch und ab Version 19.4 von Campaign Standard verfügbar. Bei Verwendung eines älteren Builds müssen Sie ihn nicht zur Payload hinzufügen.
@@ -38,7 +38,7 @@ Die Payload muss folgende Parameter enthalten:
 
 ***Beispielanfrage***
 
-Diese POST-Anfrage erstellt eine Datenschutzanfrage basierend auf einem E-Mail-Abstimmschlüssel, der im Namensraum AMCDS2 definiert ist:
+Diese POST-Anfrage erstellt eine Datenschutzanfrage basierend auf einem E-Mail-Abstimmschlüssel, der im Namespace AMCDS2 definiert ist:
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
