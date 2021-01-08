@@ -90,7 +90,7 @@ ht-degree: 100%
 
 **Sonstige Änderungen**
 
-* Die Benutzeroberfläche für die Publikation benutzerdefinierter Ressourcen wurde mit klareren Fehlermeldungen ausgestattet.
+* Die Benutzeroberfläche für die Veröffentlichung benutzerdefinierter Ressourcen wurde mit klareren Fehlermeldungen ausgestattet.
 * Nicht verwendete Versand-Mappings wurden aus der Benutzeroberfläche entfernt.
 * Unnötige Administratorrollen wurden aus der Benutzeroberfläche entfernt.
 * Checkboxes können in einer Landingpage jetzt zu Pflichtfeldern gemacht werden.
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 **Patches**
 
-* Während des Publikationsvorgangs einer benutzerdefinierten Ressource wird keine Geisterressource mehr erstellt.
+* Während des Veröffentlichungsvorgangs einer benutzerdefinierten Ressource wird keine Geisterressource mehr erstellt.
 * Die Anzeige des Marketing-Verlaufs von Profilen wird nicht mehr verhindert, wenn die Profilressource mit einer benutzerdefinierten Ressource erweitert wird. (CAMP-41009)
 * Der Inhalt von nativen Landingpage-Vorlagen wird beim Öffnen des Editors nicht mehr in französischer Sprache angezeigt. (CAMP-41639)
 * In Push-Benachrichtigungen mit dynamischem Inhalt wird nicht mehr Anzeige von Emojis verhindert. (CAMP-40715)
@@ -203,7 +203,7 @@ ht-degree: 100%
 
 * Bei der Workflow-Aktivität **Anreicherung** wird beim Hinzufügen von Leerzeichen im Feld **Alias** kein neues Zeilenelement mehr erstellt. (CAMP-39229)
 * Bei der Durchführung eines Testversands kann jetzt nicht mehr jedes beliebige Testprofil als Zielgruppe ausgewählt werden.
-* Nach der Depublikation und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Mehr dazu](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+* Nach der Aufhebung der Veröffentlichung und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Mehr dazu](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Die Schaltfläche **Speichern** verschwindet jetzt nicht mehr, wenn Änderungen an Workflows vorgenommen werden.
 * Beim manuellen Löschen einer Datenschutzanfrage in Campaign können nach deren Verarbeitung die mit der Anfrage verknüpften Daten auch nach der Bereinigung gelöscht werden.
 * Beim Anzeigen einer Vorschau oder beim Senden von Nachrichten mit Sonderzeichen aus Adobe Experience Manager tritt jetzt kein Fehler mehr auf.
@@ -309,7 +309,7 @@ ht-degree: 100%
 * Bei der Workflow-Aktivität „Externe API“ wurde ein Fehler behoben, durch den bei der Verknüpfung mit Anreicherungsaktivitäten die Aktivität fehlschlug.
 * Der Status von SMS-Nachrichten wird jetzt korrekt angezeigt.
 * Bei benutzerdefinierten Ressourcen tritt jetzt kein Fehler mehr auf, sodass unter unterschiedlichen API-Endpunkten keine doppelten Einträge mehr angezeigt werden.
-* Landingpages sind jetzt nach dem Publizieren verfügbar. (CAMP-38695)
+* Landingpages sind jetzt nach dem Veröffentlichen verfügbar. (CAMP-38695)
 * Beim Anzeigen von Daten aus einer Schnittmengentransition aus zwei verschiedenen Ressourcen tritt jetzt kein Fehler mehr auf. (CAMP-38974)
 * Der Auflistungswert in einer Versandvorlage kann jetzt korrekt definiert werden. (CAMP-38388)
 * Bei E-Mail-Massensendungen tritt jetzt kein Fehler mehr auf, bei dem der Versandstatus als „Ausstehend“ und der Gesendet-Status als „Fertig“ angezeigt wurde. (CAMP-35355)
