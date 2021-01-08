@@ -32,9 +32,9 @@ Im folgenden Diagramm wird beschrieben, wie diese Integration funktioniert.
 
 * Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zu Adobe Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/activation/triggers.html).
 * Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) an.
-* Erfahren Sie mehr in unseren zwei [Anwendungsbeispielen zur Abbruchsauslösung](../../integrating/using/abandonment-triggers-use-cases.md).
+* Erfahren Sie mehr in unseren zwei [Anwendungsbeispiele zu Triggern für die abgebrochene Suche](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Die Verwendung von Triggern     {#triggers-user-process}
+## Die Verwendung von Triggers  {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -43,14 +43,14 @@ Im folgenden Diagramm wird beschrieben, wie diese Integration funktioniert.
 Gehen Sie in Adobe Campaign wie folgt vor:
 
 1. Erstellen Sie ein mit einem bereits vorhandenen Trigger in Adobe Experience Cloud verknüpftes Trigger-Ereignis.
-1. Publizieren Sie das Trigger-Ereignis.
+1. Veröffentlichen Sie das Trigger-Ereignis.
 1. Definieren Sie den Inhalt der Transaktionsnachrichtenvorlage.
 1. Testen Sie die Vorlage (Testprofil erstellen und Testversand senden).
-1. Publizieren Sie die Transaktionsnachrichtenvorlage.
+1. Veröffentlichen Sie die Transaktionsnachrichtenvorlage.
 
 Vollständige Anwendungsbeispiele werden in [diesem Abschnitt](../../integrating/using/abandonment-triggers-use-cases.md) erläutert.
 
-## Wichtige Hinweise     {#important-notes}
+## Wichtige Hinweise      {#important-notes}
 
 Beachten Sie bei der Verwendung der Triggers-Campaign-Integration Folgendes:
 
