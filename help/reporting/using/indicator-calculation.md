@@ -23,7 +23,7 @@ ht-degree: 100%
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand          {#email-delivery}
+## E-Mail-Versand           {#email-delivery}
 
 <table> 
  <thead> 
@@ -224,7 +224,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand          {#push-notification-delivery}
+## Push-Benachrichtigungsversand           {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -298,7 +298,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## In-App-Versand          {#in-app-delivery}
+## In-App-Versand           {#in-app-delivery}
 
 <table> 
  <thead> 
@@ -341,7 +341,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Einzelne In-App-Klicks<br /> </td> 
+   <td> In-App-Einzelklicks<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
    <td> Für die Vorlage <span class="uicontrol">Nutzer auf Basis ihres Campaign-Profils in die Zielgruppe aufnehmen (inAppProfile)</span> ist Benutzer = Empfänger-ID.<br />Für die Vorlagen <span class="uicontrol">Alle Nutzer einer Mobile App in die Zielgruppe aufnehmen (inAppBroadcast)</span> und <span class="uicontrol">Nutzer auf Basis ihres Mobile-Profils in die Zielgruppe aufnehmen (inApp)</span> ist Benutzer = MC-ID oder eine andere Kennung, die eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
