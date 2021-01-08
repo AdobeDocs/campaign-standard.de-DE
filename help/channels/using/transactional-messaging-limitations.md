@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-In diesem Abschnitt werden die Best Practices und Einschränkungen Liste, die Sie vor dem Erstellen von Transaktionsnachrichten beachten sollten.
+In diesem Abschnitt finden Sie die Best Practices und Einschränkungen, die Sie kennen sollten, bevor Sie mit dem Erstellen von Transaktionsnachrichten beginnen.
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -28,24 +28,24 @@ In diesem Abschnitt werden die Best Practices und Einschränkungen Liste, die Si
 
 Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können Transaktionsereignisse konfigurieren und auf Transaktionsnachrichten zugreifen.
 
-## Konfiguration und Publikation von Ereignissen {#design-and-publication}
+## Konfiguration und Veröffentlichung von Ereignissen {#design-and-publication}
 
-Bei der Konfiguration und Publikation von Transaktionsereignissen können manche Schritte nicht mehr rückgängig gemacht werden. Achten Sie bitte auf folgende Einschränkungen:
+Bei der Konfiguration und Veröffentlichung von Transaktionsereignissen können manche Schritte nicht mehr rückgängig gemacht werden. Achten Sie bitte auf folgende Einschränkungen:
 
 * Die für Transaktionsnachrichten verfügbaren Kanäle sind: **[!UICONTROL E-Mail]**, **[!UICONTROL Mobil (SMS)]** und **[!UICONTROL Push-Benachrichtigung]**.
 * Für jede Ereigniskonfiguration kann jeweils nur ein Kanal verwendet werden. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Nach der Erstellung des Ereignisses lässt sich der Kanal nicht mehr ändern. Deshalb müssen Sie den Mechanismus festlegen, über den eine Nachricht im Fall einer erfolglosen Sendung über einen anderen Kanal mit einem Workflow gesendet werden kann. Siehe [Workflow-Daten und -Prozesse](../../automating/using/get-started-workflows.md).
-* Nach der Erstellung des Ereignisses können Sie die Zielgruppendimension (**[!UICONTROL Echtzeit-Ereignis]** or **[!UICONTROL Profil]**) nicht mehr ändern. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
-* Es ist nicht möglich, eine Publikation rückgängig zu machen, Sie können aber ein Ereignis depublizieren: Dadurch wird der Zugriff auf das Ereignis und die damit verknüpften Transaktionsnachrichten gesperrt. Siehe [Ereignis depublizieren](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
-* Die einzige Transaktionsnachricht, die mit einem Ereignis verknüpft werden kann, ist die Nachricht, die automatisch beim Publizieren dieses Ereignisses erstellt wird. Siehe [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+* Nach der Erstellung des Ereignisses können Sie die Zielgruppendimension (**[!UICONTROL Echtzeit-Ereignis]** oder **[!UICONTROL Profil]**) nicht mehr ändern. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
+* Es ist nicht möglich, eine Veröffentlichung rückgängig zu machen, Sie können aber die Veröffentlichung eines Ereignisses aufheben: Dadurch wird der Zugriff auf das Ereignis und die damit verknüpften Transaktionsnachrichten gesperrt. Siehe [Veröffentlichung eines Ereignisses aufheben](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+* Die einzige Transaktionsnachricht, die mit einem Ereignis verknüpft werden kann, ist die Nachricht, die automatisch beim Veröffentlichen dieses Ereignisses erstellt wird. Siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 ## Anzahl der Transaktionsnachrichten {#transactional-message-number}
 
-Die Anzahl der veröffentlichten Transaktionsnachrichten kann erhebliche Auswirkungen auf Ihre Plattform haben. Um eine optimale Leistung zu erzielen, sollte die Anzahl der veröffentlichten Transaktionsnachrichten unter 100 bleiben. Um dies sicherzustellen, machen Sie die Veröffentlichung oder das Löschen nicht verwendeter Transaktionsnachrichten rückgängig. Siehe [Rückgängigmachen der Veröffentlichung einer Transaktionsnachricht](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) und [Löschen einer Transaktionsnachricht](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+Die Anzahl der veröffentlichten Transaktionsnachrichten kann erhebliche Auswirkungen auf Ihre Plattform haben. Um eine optimale Leistung zu erzielen, sollte die Anzahl der veröffentlichten Transaktionsnachrichten unter 100 bleiben. Um dies sicherzustellen, heben Sie die Veröffentlichung nicht verwendeter Transaktionsnachrichten auf oder löschen Sie diese. Siehe [Veröffentlichung von Transaktionsnachrichten aufheben](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) und [Transaktionsnachricht löschen](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
-Um eine optimale Leistung zu gewährleisten, können Sie auch die Veröffentlichung oder das Löschen nicht verwendeter Ereignis rückgängig machen. Wenn Sie die Veröffentlichung eines Ereignisses rückgängig machen oder löschen, wird auch die Veröffentlichung oder Löschung der entsprechenden Transaktionsnachricht(n) sowie deren Versand und Trackinglogs (sofern vorhanden) rückgängig gemacht. Siehe [Rückgängigmachen der Veröffentlichung eines Ereignisses](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) und [Löschen eines Ereignisses](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+Um eine optimale Leistung zu gewährleisten, können Sie auch die Veröffentlichung nicht verwendeter Ereignisse aufheben oder diese löschen. Wenn Sie die Veröffentlichung eines Ereignisses aufheben oder dieses löschen, werden auch die Veröffentlichung der entsprechenden Transaktionsnachricht(en) sowie deren Versand- und Trackinglogs (falls vorhanden) aufgehoben oder gelöscht. Siehe [Veröffentlichung eines Ereignisses aufheben](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) und [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Personalisierung          {#personalization}
+## Personalisierung           {#personalization}
 
 Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ der Transaktionsnachricht ab. Unten finden Sie die Spezifikationen.
 
@@ -83,4 +83,4 @@ Deshalb müssen Sie im Fall von Multibranding bei Transaktionsnachrichten alle M
 ## Transaktionsnachrichten exportieren und importieren {#exporting-and-importing-transactional-messages}
 
 * Um eine Transaktionsnachricht zu exportieren, müssen Sie bei der [Erstellung des Package-Exports](../../automating/using/managing-packages.md#creating-a-package) die entsprechende Ereigniskonfiguration einbeziehen.
-* Nachdem die Transaktionsnachricht [in einem Package importiert wurde](../../automating/using/managing-packages.md#importing-a-package), wird sie nicht mehr in der Liste der Transaktionsnachrichten angezeigt. [Publizieren](../../channels/using/publishing-transactional-event.md) Sie die Ereigniskonfiguration, um die damit verbundene Transaktionsnachricht verfügbar zu machen.
+* Nachdem die Transaktionsnachricht [in einem Package importiert wurde](../../automating/using/managing-packages.md#importing-a-package), wird sie nicht mehr in der Liste der Transaktionsnachrichten angezeigt. [Veröffentlichen](../../channels/using/publishing-transactional-event.md) Sie die Ereigniskonfiguration, um die damit verbundene Transaktionsnachricht verfügbar zu machen.
