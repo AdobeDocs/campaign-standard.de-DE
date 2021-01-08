@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Push-Benachrichtigungen für Transaktionen
-description: Erfahren Sie, wie Sie transaktionale Push-Benachrichtigungen mit Adobe Campaign Standard senden.
+title: Transaktions-Push-Benachrichtigung
+description: Erfahren Sie, wie Sie Transaktions-Push-Benachrichtigungen mit Adobe Campaign Standard senden.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1363'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,13 +59,13 @@ Gehen Sie zur Konfiguration des Ereignisses folgendermaßen vor:
 
    <!--Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database.-->
 
-1. [Erstellen Sie eine Vorschau und publizieren Sie das Ereignis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Erstellen Sie eine Vorschau und veröffentlichen Sie das Ereignis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
    Bei der Vorschau des Ereignisses enthält die REST-API die Attribute &quot;registrationToken&quot;, &quot;application&quot; und &quot;pushPlatform&quot;, die für die Zielgruppenbestimmung des Versands verwendet werden.
 
    ![](assets/message-center_push_api.png)
 
-   Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktions-Push-Benachrichtigung erzeugt. Sie können jetzt die soeben erstellte Nachricht ändern und veröffentlichen (siehe [diesen Abschnitt](#sending-event-based-transactional-push-notification)).
+   Mit Ausführung der Veröffentlichung wird automatisch eine dem neuen Ereignis entsprechende Transaktions-Push-Benachrichtigung erzeugt. Sie können jetzt die soeben erstellte Nachricht ändern und veröffentlichen (siehe [diesen Abschnitt](#sending-event-based-transactional-push-notification)).
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
@@ -93,7 +93,7 @@ Das Unternehmen sendet eine einzige Transaktions-Push-Benachrichtigung pro Benut
 
 1. Sie können den Inhalt der Transaktionsnachricht auch anreichern, wenn Sie Zusatzinformationen aus der Adobe Campaign-Datenbank verwenden möchten (siehe[Ereignisse anreichern](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
 
-1. Speichern Sie Ihre Änderungen und publizieren Sie die Nachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Speichern Sie Ihre Änderungen und veröffentlichen Sie die Nachricht. Siehe [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 1. Senden Sie unter Verwendung einer Mobile App (WeFlight) unter Android (gcm) mithilfe der Adobe Campaign Standard-REST-API an einen Anmeldetoken (ABCDEF123456789) ein Ereignis, das die Boarding-Daten enthält:
 
@@ -117,7 +117,7 @@ Wenn der Anmelde-Token existiert, erhält der entsprechende Benutzer eine Transa
 
 *&quot;Hallo, Jane Green, das Boarding hat soeben begonnen! Bitte gehen Sie zu Flugsteig B18.&quot;*
 
-## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt      {#transactional-push-notifications-targeting-a-profile}
+## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt       {#transactional-push-notifications-targeting-a-profile}
 
 Sie können eine Transaktions-Push-Benachrichtigung **an die Adobe Campaign-Profile senden, die Ihre Mobile App abonniert haben**. Dieser Versand kann [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) enthalten, z. B. den Vornamen des Empfängers, der direkt aus der Adobe Campaign-Datenbank abgerufen wird.
 
@@ -153,11 +153,11 @@ Um eine Transaktions-Push-Benachrichtigung an die Adobe Campaign-Profile zu send
    >
    >Dieser Schritt ist bei profilbasierten Ereignissen obligatorisch.
 
-1. [Erstellen Sie eine Vorschau und publizieren Sie das Ereignis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Erstellen Sie eine Vorschau und veröffentlichen Sie das Ereignis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
    Bei der Vorschau des Ereignisses enthält die REST-API kein Attribut, das das Anmeldetoken, den App-Namen und die Push-Plattform spezifiziert, da diese Informationen aus der Ressource **[!UICONTROL Profil]** entnommen werden.
 
-   Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktions-Push-Benachrichtigung erzeugt. Sie können jetzt die soeben erstellte Nachricht ändern und veröffentlichen (siehe [diesen Abschnitt](#sending-profile-based-transactional-push-notification)).
+   Mit Ausführung der Veröffentlichung wird automatisch eine dem neuen Ereignis entsprechende Transaktions-Push-Benachrichtigung erzeugt. Sie können jetzt die soeben erstellte Nachricht ändern und veröffentlichen (siehe [diesen Abschnitt](#sending-profile-based-transactional-push-notification)).
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
@@ -173,7 +173,7 @@ Beispiel: Eine Fluglinie möchte allen Adobe-Campaign-Benutzern, die sich für i
 
    Weitere Informationen zur Bearbeitung eines Push-Benachrichtigungs-Inhalts finden Sie unter [Push-Benachrichtigung vorbereiten und senden](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Speichern Sie Ihre Änderungen und publizieren Sie die Nachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Speichern Sie Ihre Änderungen und veröffentlichen Sie die Nachricht. Siehe [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 1. Senden Sie unter Verwendung der Adobe Campaign Standard-REST-API ein Ereignis an ein Profil:
 
    ```
