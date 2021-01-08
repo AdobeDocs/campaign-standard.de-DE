@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Transaktionsereignis konfigurieren
-description: Erfahren Sie, wie Sie transaktionale Ereignis in Adobe Campaign konfigurieren.
+description: Erfahren Sie, wie Sie Transaktionsereignisse in Adobe Campaign konfigurieren.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -10,8 +10,8 @@ context-tags: null
 translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +26,9 @@ Um eine Transaktionsnachricht mit Adobe Campaign zu senden, müssen Sie zunächs
 
 Die Konfiguration variiert je nach dem zu sendenden [Typ der Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) und dem zu verwendenden Kanal. Weitere Informationen hierzu finden Sie unter [Spezifische Konfigurationen](#transactional-event-specific-configurations).
 
-Nach Abschluss der Konfiguration muss das Ereignis veröffentlicht werden. Siehe [Transaktionsereignisse publizieren](../../channels/using/publishing-transactional-event.md).
+Nach Abschluss der Konfiguration muss das Ereignis veröffentlicht werden. Siehe [Transaktionsereignisse veröffentlichen](../../channels/using/publishing-transactional-event.md).
 
-## Ereignis erstellen        {#creating-an-event}
+## Ereignis erstellen         {#creating-an-event}
 
 Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 
@@ -50,9 +50,9 @@ Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 
 >[!NOTE]
 >
->Die Anzahl der transaktionalen Ereignis kann sich auf Ihre Plattform auswirken. Um eine optimale Leistung sicherzustellen, müssen Sie sicherstellen, dass nicht verwendete Ereignis gelöscht werden. Siehe [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>Die Anzahl der Transaktionsereignisse kann sich auf Ihre Plattform auswirken. Um eine optimale Leistung zu gewährleisten, müssen Sie sicherstellen, dass nicht verwendete Ereignisse gelöscht werden. Siehe [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Ereignisattribute definieren         {#defining-the-event-attributes}
+## Ereignisattribute definieren          {#defining-the-event-attributes}
 
 Definieren Sie im Bereich **[!UICONTROL Felder]** die Attribute, die in den Ereignisinhalt integriert werden und im Anschluss zur Personalisierung der Transaktionsnachricht verwendet werden können.
 
@@ -62,9 +62,9 @@ Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem g
 
 >[!NOTE]
 >
->Wenn Sie eine mehrsprachige Transaktionsnachricht erstellen möchten, definieren Sie ein zusätzliches Ereignisattribut mit der ID **[!UICONTROL AC_language]**. Dies gilt nur für Transaktionsnachrichten. Nach der Publikation des Ereignisses sind die Schritte zur Bearbeitung des Inhalts einer mehrsprachigen Transaktionsnachricht dieselben wie für eine mehrsprachige Standard-E-Mail. Siehe [Mehrsprachige E-Mail erstellen](../../channels/using/creating-a-multilingual-email.md).
+>Wenn Sie eine mehrsprachige Transaktionsnachricht erstellen möchten, definieren Sie ein zusätzliches Ereignisattribut mit der ID **[!UICONTROL AC_language]**. Dies gilt nur für Transaktionsnachrichten. Nach der Veröffentlichung des Ereignisses sind die Schritte zur Bearbeitung des Inhalts einer mehrsprachigen Transaktionsnachricht dieselben wie für eine mehrsprachige Standard-E-Mail. Siehe [Mehrsprachige E-Mail erstellen](../../channels/using/creating-a-multilingual-email.md).
 
-## Datenkollektionen definieren         {#defining-data-collections}
+## Datenkollektionen definieren          {#defining-data-collections}
 
 Sie können zum Ereignisinhalt eine Kollektion von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
 
@@ -87,7 +87,7 @@ Diese Kollektion kann in Transaktions-E-Mails verwendet werden, um [Produktliste
 >
 >Die Anreicherungsschritte für die Elemente einer Kollektion entsprechen den Anweisungen im Abschnitt [Ereignis anreichern](#enriching-the-transactional-message-content). Beachten Sie, dass Sie beim Anreichern des Ereignisses keine Kollektion anreichern können: Dafür müssen Sie im Abschnitt **[!UICONTROL Kollektionen]** der Kollektion selbst eine Anreicherung hinzufügen.
 
-Nach der Publikation des Ereignisses sowie der Nachricht lässt sich diese Kollektion in den Transaktionsnachrichten verwenden.
+Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich diese Kollektion in den Transaktionsnachrichten verwenden.
 
 Dies ist die API-Vorschau für dieses Beispiel:
 
@@ -95,15 +95,15 @@ Dies ist die API-Vorschau für dieses Beispiel:
 
 **Verwandte Themen:**
 
-* [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+* [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 * [Produktlisten in Transaktionsnachrichten verwenden](../../designing/using/using-product-listings.md)
-* [Transaktionsnachrichten publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Transaktionsnachrichten veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Ereignis anreichern {#enriching-the-transactional-message-content}
 
 Sie können Transaktionsnachrichten mit Informationen aus der Adobe Campaign-Datenbank anreichern, um Ihre Nachrichten zu personalisieren. Ausgehend vom Nachnamen oder der CRM-ID eines jeden Empfängers können Sie beispielsweise Daten wie die jeweilige Adresse oder das Geburtsdatum oder jedes beliebige in der Profiltabelle hinzugefügte benutzerdefinierte Feld abrufen, um dem den Empfänger gesendeten Informationen zu personalisieren.
 
-Sie können Transaktionsnachrichten mit Daten aus der erweiterten **[!UICONTROL externen API &quot;Profile und Dienste&quot;]** anreichern. Weiterführende Informationen finden Sie unter [API erweitern: Erweiterung publizieren](../../developing/using/step-2--publish-the-extension.md).
+Sie können Transaktionsnachrichten mit Daten aus der erweiterten **[!UICONTROL externen API &quot;Profile und Dienste&quot;]** anreichern. Weiterführende Informationen finden Sie unter [API erweitern: Erweiterung veröffentlichen](../../developing/using/step-2--publish-the-extension.md).
 
 Diese Informationen können auch in neuen Ressourcen gespeichert werden. In diesem Fall muss die Ressource mit den Ressourcen **[!UICONTROL Profil]** oder **[!UICONTROL Dienst]** entweder direkt oder über eine andere Tabelle verknüpft werden. Beispielweise können Sie in der folgenden Konfiguration die Transaktionsnachricht mit Informationen aus der Ressource **[!UICONTROL Produkt]** wie etwa einer Produktkategorie oder einer Kennung anreichern, wenn die Ressource **[!UICONTROL Produkt]** mit der Ressource **[!UICONTROL Profil]** verknüpft ist.
 
@@ -137,13 +137,13 @@ Weitere Informationen zum Erstellen und Veröffentlichen von Ressourcen finden S
    >
    >Das Erstellen einer Anreicherung und das Auswählen einer Zielgruppen-Anreicherung basierend auf der **[!UICONTROL Profil]**-Ressource sind für profilbasierte Ereignis obligatorisch.
 
-Nach der Publikation des Ereignisses sowie der Nachricht lässt sich der Inhalt der Transaktionsnachricht über den Link anreichern.
+Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich der Inhalt der Transaktionsnachricht über den Link anreichern.
 
 **Verwandte Themen:**
 
-* [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+* [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 * [Transaktionsnachrichten personalisieren](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
-* [Transaktionsnachrichten publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Transaktionsnachrichten veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Durchsuchen von Transaktionsereignissen {#searching-transactional-events}
 
@@ -154,7 +154,7 @@ Gehen Sie wie unten beschrieben vor, um auf die bereits erstellten Transaktionse
 
    ![](assets/message-center_search-events.png)
 
-1. Sie können nach **[!UICONTROL Publikationsstatus]** filtern. Auf diese Weise können Sie beispielsweise nur die veröffentlichten Ereignisse anzeigen.
+1. Sie können nach **[!UICONTROL Veröffentlichungsstatus]** filtern. Auf diese Weise können Sie beispielsweise nur die veröffentlichten Ereignisse anzeigen.
 1. Sie können die Ereignisse auch nach **[!UICONTROL dem zuletzt erhaltenen Ereignis]** filtern. Wenn Sie z. B. 10 eingeben, werden nur die Ereigniskonfigurationen angezeigt, bei denen das letzte Ereignis vor 10 oder mehr Tagen eingegangen ist. Auf diese Weise können Sie anzeigen, welche Ereignisse während eines bestimmten Zeitraums inaktiv waren.
 
    ![](assets/message-center_last-event-received.png)
@@ -167,7 +167,7 @@ Gehen Sie wie unten beschrieben vor, um auf die bereits erstellten Transaktionse
 
 Die Konfiguration von Transaktionsereignissen variiert je nach dem [Typ der zu sendenden Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) (Ereignis oder Profil) und dem verwendeten Kanal.
 
-In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie im Abschnitt          [Ereignis erstellen](#creating-an-event).
+In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie im Abschnitt           [Ereignis erstellen](#creating-an-event).
 
 ### Ereignisbasierte Transaktionsnachrichten {#event-based-transactional-messages}
 
@@ -181,15 +181,15 @@ Um eine ereignisbasierte Transaktionsnachricht zu senden, erstellen und konfigur
 
    Wenn Sie jedoch zusätzliche Informationen aus der Adobe Campaign-Datenbank verwenden möchten, können Sie den Inhalt der Transaktionsnachricht anreichern (siehe [Inhalt von Transaktionsnachrichten anreichern](#enriching-the-transactional-message-content)).
 
-1. Erstellen Sie eine Vorschau und publizieren Sie das Ereignis (siehe [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
+1. Erstellen Sie eine Vorschau und veröffentlichen Sie das Ereignis (siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
    Bei der Vorschau des Ereignisses enthält die REST-API ein Attribut, mit dem entsprechend dem ausgewählten Kanal die E-Mail-Adresse, das Mobiltelefon oder die Push-Benachrichtigung spezifiziert wird.
 
-   Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht erzeugt. Damit das Ereignis den Versand der Transaktionsnachricht auslösen kann, muss die gerade erstellte Transaktionsnachricht [angepasst](../../channels/using/editing-transactional-message.md) und [publiziert](../../channels/using/publishing-transactional-message.md) werden.
+   Mit Ausführung der Veröffentlichung wird automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht erzeugt. Damit das Ereignis den Versand der Transaktionsnachricht auslösen kann, muss die gerade erstellte Transaktionsnachricht [angepasst](../../channels/using/editing-transactional-message.md) und [veröffentlicht](../../channels/using/publishing-transactional-message.md) werden.
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Profilbasierte Transaktionsnachrichten         {#profile-based-transactional-messages}
+### Profilbasierte Transaktionsnachrichten          {#profile-based-transactional-messages}
 
 Sie können Transaktionsnachrichten auf der Grundlage von Kundenprofilen senden, mit denen Sie Marketing-Typologieregeln anwenden, den Abmelde-Link einschließen, die Nachricht den globalen Versandberichten hinzufügen und sie in der Customer Journey nutzen können.
 
@@ -203,11 +203,11 @@ Um eine profilbasierte Transaktionsnachricht zu senden, erstellen und konfigurie
    >
    >Dieser Schritt ist bei profilbasierten Ereignissen obligatorisch.
 
-1. Erstellen Sie eine Vorschau und publizieren Sie das Ereignis (siehe [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
+1. Erstellen Sie eine Vorschau und veröffentlichen Sie das Ereignis (siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
    Bei der Vorschau des Ereignisses enthält die REST-API kein Attribut, mit dem die E-Mail-Adresse, das Mobiltelefon oder die Push-Benachrichtigung spezifiziert wird, da diese Daten von der Ressource **[!UICONTROL Profil]** abgerufen werden.
 
-   Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht erzeugt. Damit das Ereignis den Versand der Transaktionsnachricht auslösen kann, muss die gerade erstellte Transaktionsnachricht [angepasst](../../channels/using/editing-transactional-message.md) und [publiziert](../../channels/using/publishing-transactional-message.md) werden.
+   Mit Ausführung der Veröffentlichung wird automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht erzeugt. Damit das Ereignis den Versand der Transaktionsnachricht auslösen kann, muss die gerade erstellte Transaktionsnachricht [angepasst](../../channels/using/editing-transactional-message.md) und [veröffentlicht](../../channels/using/publishing-transactional-message.md) werden.
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
