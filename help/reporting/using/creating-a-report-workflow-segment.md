@@ -41,12 +41,12 @@ Damit Sie einen Bericht zu Ihrem Segmentcode erstellen können, müssen Sie Ihre
 
 1. Speichern Sie Ihre benutzerdefinierte Ressource.
 
-1. Danach müssen Sie Ihre benutzerdefinierte Ressource publizieren.
-Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Publizieren]** aus.
+1. Danach müssen Sie Ihre benutzerdefinierte Ressource veröffentlichen.
+Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Veröffentlichen]** aus.
 
    ![](assets/custom_profile_7.png)
 
-1. Wählen Sie **[!UICONTROL Publikation vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **[!UICONTROL Publizieren]** aus. Weiterführende Informationen zu benutzerdefinierten Ressourcen finden Sie auf dieser [Seite](../../developing/using/updating-the-database-structure.md).
+1. Wählen Sie **[!UICONTROL Veröffentlichung vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **[!UICONTROL Veröffentlichen]** aus. Weiterführende Informationen zu benutzerdefinierten Ressourcen finden Sie auf dieser [Seite](../../developing/using/updating-the-database-structure.md).
 
 Sie können jetzt damit beginnen, Ihren Workflow mit Segmentcodes zu erstellen.
 
