@@ -36,7 +36,7 @@ Sie können Transitionen vor oder nach der Ausführung des Workflows öffnen, um
 
 ![](assets/workflow_overview.png)
 
-## Workflow erstellen    {#creating-a-workflow}
+## Workflow erstellen     {#creating-a-workflow}
 
 Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
 
