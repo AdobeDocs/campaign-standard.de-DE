@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '7629'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -226,7 +226,7 @@ ht-degree: 100%
 
 * Fehlerkorrektur – DSGVO-Zugriffsanforderungen schlagen jetzt nicht mehr fehl.
 * Fehlerkorrektur – Beim Empfang mehrerer Triggers für ein einziges Profil werden diese jetzt nicht mehr verworfen.
-* Fehlerkorrektur – Jetzt wird nicht mehr fälschlicherweise nach dem Anmelden eine Fehlermeldung über die Publikation einer benutzerdefinierten Ressource angezeigt.
+* Fehlerkorrektur – Jetzt wird nicht mehr fälschlicherweise nach dem Anmelden eine Fehlermeldung über die Veröffentlichung einer benutzerdefinierten Ressource angezeigt.
 * Fehlerkorrektur – Wenn eine benutzerdefinierte Ressource erstellt oder erweitert wird, wird keine leere Seite mehr angezeigt.
 * Fehlerkorrektur – Eine Audience mit appSubscriptionrcp ist jetzt in einem Mobile-Versand als Zielgruppendimension zum Targeting verfügbar.
 * Fehlerkorrektur – E-Mail-Adressen von Hardbounces werden jetzt in die Quarantäne aufgenommen. (CAMP-24587)
@@ -360,7 +360,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 **Sonstige Änderungen**
 
 * Zum externen SMS-Konto wurde eine neue Option hinzugefügt. Hiermit kann die maximale Anzahl der für den SMS-Versand verantwortlichen MTA-Prozesse beschränkt werden, um die Anzahl der parallelen Verbindungen besser steuern zu können. Weiterführende Informationen dazu finden Sie in der Technote zum [SMS-Schnittstellenprotokoll und dessen Konfiguration](https://helpx.adobe.com/de/campaign/kb/sms-connector-protocol-and-settings.html).
-* Wird jetzt eine Ressource mit einer API-Erweiterung publiziert, deren API zuvor bereits publiziert wurde, wird diese API jedes Mal automatisch aktualisiert, wenn sie erneut publiziert wird. Früher musste diese Aktion manuell durchgeführt werden. Wurde die API nicht aktualisiert, konnte ein Fehler in den Profil- oder Service-Ressourcen dieser API auftreten. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+* Wird jetzt eine Ressource mit einer API-Erweiterung veröffentlicht, deren API zuvor bereits veröffentlicht wurde, wird diese API jedes Mal automatisch aktualisiert, wenn sie erneut veröffentlicht wird. Früher musste diese Aktion manuell durchgeführt werden. Wurde die API nicht aktualisiert, konnte ein Fehler in den Profil- oder Service-Ressourcen dieser API auftreten. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * In dynamischen Berichten wurde die Postleitzahl-Dimension entfernt. Verwenden Sie stattdessen die Dimensionen &quot;Stadt&quot;, &quot;Land&quot; und &quot;Bundesland&quot;.
 * Der Lebenszyklus-Ereignistrigger &quot;Erster Start&quot; für In-App-Nachrichten wurde entfernt.
 * Wird ein Package mit Sicherheitsgruppen exportiert, enthält es jetzt die den Gruppen zugewiesenen Rollen. (CAMP-32960)
@@ -370,13 +370,13 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Die Fehlernachrichten, die angezeigt werden, wenn der Zugriff auf ein Datenbankobjekt nicht möglich ist, sind jetzt besser verständlich.
 * In der Dateiextraktionsaktivität wurden die Javascript-Funktionen zur Definition des Namens einer zu exportierenden Datei aktualisiert. Im Ausgabefeld ist jetzt nur die formatDate-Funktion verfügbar. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/extract-file.md).
 * Der Mechanismus zur Kennungserzeugung für benutzerdefinierte Ressourcen wurde verbessert. Primärschlüssel für neue benutzerdefinierte Ressourcen sind jetzt standardmäßig 64 Bit lang.
-* Der Testmodus für die Publikation von benutzerdefinierten Ressourcen wurde verbessert. Jetzt wird Benutzern eine Warnung angezeigt, wenn die letzte Publikation einer benutzerdefinierten Ressource fehlgeschlagen ist und noch nicht korrigiert wurde. Wenn die Publikation einer benutzerdefinierten Ressource fehlschlägt, können Sie zur letzten funktionierenden Version zurückkehren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+* Der Testmodus für die Veröffentlichung von benutzerdefinierten Ressourcen wurde verbessert. Jetzt wird Benutzern eine Warnung angezeigt, wenn die letzte Veröffentlichung einer benutzerdefinierten Ressource fehlgeschlagen ist und noch nicht korrigiert wurde. Wenn die Veröffentlichung einer benutzerdefinierten Ressource fehlschlägt, können Sie zur letzten funktionierenden Version zurückkehren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 * Zur Dateiübertragungsaktivität wurde eine neue Option hinzugefügt. Damit können Sie im SFTP-Modus bei der Verwendung des Dateidownloads die Dateien sortieren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **Korrekturen**
 
 * Fehlerkorrektur – Jetzt tritt beim MTA kein Speicherleck mehr auf, wenn SMS-Einstellungen neu geladen werden.
-* Fehlerkorrektur – Datenbankaktualisierungen können jetzt im Reparaturmodus publiziert werden.
+* Fehlerkorrektur – Datenbankaktualisierungen können jetzt im Reparaturmodus veröffentlicht werden.
 * Fehlerkorrektur – Jetzt treten zwischen Berichten in Adobe Analytics und dynamischen Berichten in Adobe Campaign keine Abweichungen mehr auf. (CAMP-25393)
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr im Berichtfreigabe-Workflow auf.
 * Fehlerkorrektur – Benutzer können jetzt In-App-Nachrichten mit einer Medien-URL senden.
@@ -394,7 +394,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019            {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019             {#release-19-1-3---march-2019}
 
 **Verbesserungen bei Email Designer**
 
