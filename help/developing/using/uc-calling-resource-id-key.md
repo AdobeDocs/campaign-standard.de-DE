@@ -35,7 +35,7 @@ Verwandte Themen:
 >[!NOTE]
 > In [diesem Abschnitt](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) werden allgemeine Konzepte zum Konfigurieren von Identifizierungsschlüsseln beschrieben.
 
-1. Bevor Sie den Identifizierungsschlüssel konfigurieren, stellen Sie sicher, dass die Ressource mit den gewünschten Feldern erweitert und publiziert wurde. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../developing/using/creating-or-extending-the-resource.md).
+1. Bevor Sie den Identifizierungsschlüssel konfigurieren, stellen Sie sicher, dass die Ressource mit den gewünschten Feldern erweitert und veröffentlicht wurde. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration****/ Entwicklung****/ Benutzerdefinierte Ressourcen]** und öffnen Sie die Ressource **[!UICONTROL Profil]**.
 
@@ -84,7 +84,7 @@ Verwandte Themen:
 
    ![](assets/uc_idkey8.png)
 
-1. Die Filterdefinition ist jetzt konfiguriert. Sie können die Ressource publizieren, damit der Filter verfügbar ist.
+1. Die Filterdefinition ist jetzt konfiguriert. Sie können die Ressource veröffentlichen, damit der Filter verfügbar ist.
 
 ## Schritt 3: die Ressource über ihren Identifizierungsschlüssel aufrufen{#step-3-call-the-resource-based-on-its-identification-key}
 
