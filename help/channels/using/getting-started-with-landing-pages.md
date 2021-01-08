@@ -86,7 +86,7 @@ Erstellen Sie ausgehend von der im vorangehenden Schritt definierten Vorlage ein
 1. Erstellen Sie die Landingpage auf der Basis der gewünschten Vorlage.
 1. Geben Sie die allgemeinen Parameter der Landingpage ein (Titel, Beschreibung usw.).
 1. Sie werden anschließend zum Landingpage-Dashboard weitergeleitet. Bearbeiten Sie bei Bedarf die Eigenschaften der Landingpage (siehe [Landingpage konfigurieren](../../channels/using/configuring-landing-page.md)). Standardmäßig sind die Eigenschaften diejenigen, die in der Landingpage-Vorlage konfiguriert wurden.
-Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Die Landingpage wird dadurch automatisch am ausgewählten Datum depubliziert. Weiterführende Informationen zu Gültigkeitsparametern finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
+Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Die Veröffentlichung der Landingpage wird dadurch automatisch am ausgewählten Datum aufgehoben. Weiterführende Informationen zu Gültigkeitsparametern finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
 
    ![](assets/lp-steps3.png)
 
@@ -116,21 +116,21 @@ Wenn die Landingpage fertig ist, können Sie simulieren, wie sie ausgeführt wir
 >
 >Landingpage-Tests können nur mit Profilen und nicht mit Testprofilen durchgeführt werden. Wenn das Formular gesendet wird, werden die Daten des ausgewählten Profils aktualisiert. Um zu verhindern, dass echte Profile verändert werden, verwenden Sie ein erfundenes Kundenprofil.
 
-Sollte das während des Tests beobachtete Verhalten zufriedenstellend sein, können Sie nun die Landingpage publizieren und sie damit online verfügbar machen.
+Sollte das während des Tests beobachtete Verhalten zufriedenstellend sein, können Sie nun die Landingpage veröffentlichen und sie damit online verfügbar machen.
 
 Weiterführende Informationen zum Testen einer Landingpage finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Schritt 5 – Landingpage publizieren {#publish-the-landing-page}
+## Schritt 5 – Landingpage veröffentlichen {#publish-the-landing-page}
 
-Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Publizieren]** in der Symbolleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Publikation.
+Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Veröffentlichen]** in der Symbolleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Publikation.
 
-Durch die Publikation der Landingpage wird diese online verfügbar. Nach ihrer Publikation lässt sich die Landingpage weiterhin aktualisieren: Hierzu müssen Sie sie nach jeder Änderung erneut publizieren. Sie haben außerdem die Möglichkeit, Ihre Landingpage jederzeit zu depublizieren, damit sie nicht länger verfügbar ist.
+Durch die Veröffentlichung der Landingpage wird diese online verfügbar. Nach ihrer Veröffentlichung lässt sich die Landingpage weiterhin aktualisieren: Hierzu müssen Sie sie nach jeder Änderung erneut veröffentlichen. Sie haben außerdem die Möglichkeit, Ihre die Veröffentlichung der Landingpage jederzeit aufzuheben, damit sie nicht länger verfügbar ist.
 
 ![](assets/lp-steps6.png)
 
-Nach der Publikation ist Ihre Landingpage zur Nutzung bereit. Sie können nun verschiedene Zugriffsmechanismen definieren, um entweder neue Profile für Ihre Datenbank oder zusätzliche Informationen zu bereits existierenden Profilen hinzuzugewinnen.
+Nach der Veröffentlichung ist Ihre Landingpage zur Nutzung bereit. Sie können nun verschiedene Zugriffsmechanismen definieren, um entweder neue Profile für Ihre Datenbank oder zusätzliche Informationen zu bereits existierenden Profilen hinzuzugewinnen.
 
-Weiterführende Informationen zum Publizieren von Landingpages finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
+Weiterführende Informationen zum Veröffentlichen von Landingpages finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
 ## Anleitungsvideo {#video}
 
