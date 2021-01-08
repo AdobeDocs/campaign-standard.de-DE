@@ -211,7 +211,7 @@ Weitere Informationen zum Erweitern der Profilressource finden Sie in [diesem Ab
 
    ![](assets/privacy-ccpa-extend-screen.png)
 
-1. Gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Publizieren]**, bereiten Sie die Publikation vor und publizieren Sie die Änderungen. Weitere Informationen zum Publizieren einer Ressource finden Sie in [diesem Abschnitt](../../developing/using/updating-the-database-structure.md).
+1. Gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Veröffentlichen]**, bereiten Sie die Veröffentlichung vor und veröffentlichen Sie die Änderungen. Weitere Informationen zum Veröffentlichen einer Ressource finden Sie in [diesem Abschnitt](../../developing/using/updating-the-database-structure.md).
 
    ![](assets/privacy-ccpa-extend-pub.png)
 
