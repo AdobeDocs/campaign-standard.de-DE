@@ -10,8 +10,8 @@ context-tags: bounceReport,main;campaignCirculationReport,main;programCirculatio
 translation-type: tm+mt
 source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
