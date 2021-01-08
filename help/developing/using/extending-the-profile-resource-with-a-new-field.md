@@ -27,7 +27,7 @@ Gehen Sie dazu wie folgt vor:
 
 * [Schritt 1: Profil-Ressource erweitern](#step-1--extend-the-profile-resource)
 * [Schritt 2: Testprofil erweitern](#step-2--extend-the-test-profile)
-* [Schritt 3: Benutzerdefinierte Ressource publizieren](#step-3--publish-your-custom-resource)
+* [Schritt 3: Benutzerdefinierte Ressource veröffentlichen](#step-3--publish-your-custom-resource)
 * [Schritt 4: Profile mit einem Workflow aktualisieren und auswählen](#step-4--update-and-target-profiles-with-a-workflow)
 
 Das folgende Feld wird dann zu unseren Profilen hinzugefügt und kann für einen Versand ausgewählt werden:
@@ -40,7 +40,7 @@ Verwandte Themen:
 * [Verwaltung von Profilen](../../audiences/using/about-profiles.md)
 * [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
 
-## Schritt 1: Profil-Ressource erweitern     {#step-1--extend-the-profile-resource}
+## Schritt 1: Profil-Ressource erweitern      {#step-1--extend-the-profile-resource}
 
 Um das neue Feld **Interessen** für unsere Profile zu erstellen, müssen Sie zunächst die native Ressource **[!UICONTROL Profile (profile)]** erweitern.
 
@@ -92,9 +92,9 @@ Ihr Feld wird daraufhin konfiguriert. Jetzt wird es auf das Testprofil erweitert
 
 >[!NOTE]
 >
->Wenn Sie die Testprofil-Ressource nicht erweitern müssen, können Sie mit dem Schritt zum Publizieren fortfahren.
+>Wenn Sie die Testprofil-Ressource nicht erweitern müssen, können Sie mit dem Schritt zum Veröffentlichen fortfahren.
 
-## Schritt 2: Testprofil erweitern     {#step-2--extend-the-test-profile}
+## Schritt 2: Testprofil erweitern      {#step-2--extend-the-test-profile}
 
 Um zu überprüfen, ob das neu erstellte Feld korrekt konfiguriert ist, können Sie es testen, indem Sie Ihre Nachricht an Testprofile senden. Zunächst muss das neue Feld auch auf die Testprofile übertragen werden.
 
@@ -117,23 +117,23 @@ Um zu überprüfen, ob das neu erstellte Feld korrekt konfiguriert ist, können 
 1. Führen Sie dieselben Schritte 11 bis 13 der Anleitung zur Profilerweiterung durch, um dieses Feld im Bildschirm **[!UICONTROL Testprofil]** hinzuzufügen.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-Ihr neues Feld ist jetzt sowohl in den Profilen als auch in den Testprofilen verfügbar. Damit es korrekt konfiguriert wird, müssen Sie Ihre benutzerdefinierte Ressource publizieren.
+Ihr neues Feld ist jetzt sowohl in den Profilen als auch in den Testprofilen verfügbar. Damit es korrekt konfiguriert wird, müssen Sie Ihre benutzerdefinierte Ressource veröffentlichen.
 
-## Schritt 3: Benutzerdefinierte Ressource publizieren     {#step-3--publish-your-custom-resource}
+## Schritt 3: Benutzerdefinierte Ressource veröffentlichen  {#step-3--publish-your-custom-resource}
 
 Zur Übernahme der Änderungen der Ressourcen und deren Verwendung muss die Datenbank aktualisiert werden.
 
-1. Wählen Sie im erweiterten Menü **Administration** > **Entwicklung** und dann **Publizieren** aus.
-1. Standardmäßig ist die Option **[!UICONTROL Änderungen seit der letzten Publikation ermitteln]** aktiv. Dies bedeutet, dass nur die Änderungen übernommen werden, die seit der letzten Publikation vorgenommen wurden.
+1. Wählen Sie im erweiterten Menü **Administration** > **Entwicklung** und dann **Veröffentlichen** aus.
+1. Standardmäßig ist die Option **[!UICONTROL Änderungen seit der letzten Veröffentlichung ermitteln]** aktiv. Dies bedeutet, dass nur die Änderungen übernommen werden, die seit der letzten Veröffentlichung vorgenommen wurden.
 
    ![](assets/schema_extension_uc14.png)
 
-1. Wählen Sie **[!UICONTROL Publikation vorbereiten]** aus, um die Analyse zu starten, durch die Ihre Datenbank aktualisiert wird.
-1. Nach erfolgreicher Analyse können Sie unter Verwendung der Schaltfläche **Publizieren** die Konfigurationsänderungen übernehmen.
+1. Wählen Sie **[!UICONTROL Veröffentlichung vorbereiten]** aus, um die Analyse zu starten, durch die Ihre Datenbank aktualisiert wird.
+1. Nach erfolgreicher Analyse können Sie unter Verwendung der Schaltfläche **Veröffentlichen** die Konfigurationsänderungen übernehmen.
 
    ![](assets/schema_extension_uc17.png)
 
-1. Im Anschluss an die Publikation werden in der **Zusammenfassung** der entsprechenden Ressourcen der Status **Publiziert** und das letzte Publikationsdatum angezeigt.
+1. Im Anschluss an die Veröffentlichung werden in der **Zusammenfassung** der entsprechenden Ressourcen der Status **Veröffentlicht** und das letzte Veröffentlichungsdatum angezeigt.
 
    ![](assets/schema_extension_uc18.png)
 
@@ -143,7 +143,7 @@ Zur Übernahme der Änderungen der Ressourcen und deren Verwendung muss die Date
 
 Ihr neues Ressourcenfeld kann jetzt verwendet und beispielsweise bei einem Versand ausgewählt werden.
 
-## Schritt 4: Profile mit einem Workflow aktualisieren und auswählen     {#step-4--update-and-target-profiles-with-a-workflow}
+## Schritt 4: Profile mit einem Workflow aktualisieren und auswählen      {#step-4--update-and-target-profiles-with-a-workflow}
 
 Um Profile mit Daten aus dem neuen benutzerdefinierten Feld zu aktualisieren, können Sie mithilfe der Vorlage **[!UICONTROL Profilakquise]** eine Landingpage erstellen. Weiterführende Informationen zu Landingpages finden Sie auf dieser [Seite](../../channels/using/getting-started-with-landing-pages.md).
 
@@ -164,7 +164,7 @@ Zuerst muss eine Landingpage erstellt werden, über die das **Interessen**-Feld 
    ![](assets/schema_extension_uc22.png)
 
 1. Speichern Sie Ihre Landingpage und testen Sie sie, um festzustellen, ob die Felder korrekt konfiguriert sind.
-1. Wenn Ihre Landingpage bereit ist, wählen Sie **[!UICONTROL Publizieren]** aus.
+1. Wenn Ihre Landingpage bereit ist, wählen Sie **[!UICONTROL Veröffentlichen]** aus.
 
 Ihre Landingpage kann jetzt verwendet werden. Um die Profile zu aktualisieren, erstellen Sie einen Workflow, mit dem anschließend ein spezielles Angebot entsprechend den ausgewählten Interessen gesendet wird.
 
