@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# Ereignisvariablen überwachen      {#monitoring-the-events-variables}
+# Ereignisvariablen überwachen       {#monitoring-the-events-variables}
 
 Es ist möglich, die im Workflow verfügbaren Ereignisvariablen zu überwachen, einschließlich der deklarierten externen Parameter. Gehen Sie dazu wie folgt vor:
 
