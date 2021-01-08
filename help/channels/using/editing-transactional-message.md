@@ -10,8 +10,8 @@ context-tags: null
 translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 Nachdem Sie ein Ereignis<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> erstellt und veröffentlicht haben, wird die entsprechende Transaktionsnachricht automatisch erstellt.
 
-Die Schritte zum Konfigurieren und Veröffentlichen des Ereignisses finden Sie in den Abschnitten [Transaktionsereignisse konfigurieren](../../channels/using/configuring-transactional-event.md) und [Transaktionsereignisse publizieren](../../channels/using/publishing-transactional-event.md).
+Die Schritte zum Konfigurieren und Veröffentlichen des Ereignisses finden Sie in den Abschnitten [Transaktionsereignisse konfigurieren](../../channels/using/configuring-transactional-event.md) und [Transaktionsereignisse veröffentlichen](../../channels/using/publishing-transactional-event.md).
 
 Die Schritte zum Aufrufen, Bearbeiten und Personalisieren dieser Nachricht werden nachfolgend beschrieben.
 
@@ -43,9 +43,9 @@ Aufrufen der erstellten Transaktionsnachricht:
 
    ![](assets/message-center_message-board.png)
 
-Sie können auch direkt über den Link im linken Bereich des entsprechenden Ereigniskonfigurationsbildschirms auf eine Transaktionsnachricht zugreifen. Siehe [Vorschau erstellen und Ereignis publizieren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+Sie können auch direkt über den Link im linken Bereich des entsprechenden Ereigniskonfigurationsbildschirms auf eine Transaktionsnachricht zugreifen. Siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-## Transaktionsnachricht personalisieren            {#personalizing-a-transactional-message}
+## Transaktionsnachricht personalisieren             {#personalizing-a-transactional-message}
 
 Gehen Sie wie folgt vor, um eine Transaktionsnachricht zu bearbeiten und zu personalisieren.
 
@@ -234,7 +234,7 @@ Die Unterschiede sind unten aufgeführt.
 
 1. Außerdem haben Sie im Gegensatz zu auf Echtzeit-Ereignissen basierenden Konfigurationen **direkten Zugriff auf alle Profilinformationen**, um die Nachricht zu personalisieren. Sie können [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) wie bei jeder anderen Standard-Marketing-E-Mail hinzufügen.
 
-1. Speichern Sie Ihre Änderungen, bevor Sie die Nachricht veröffentlichen. Weiterführende Informationen dazu finden Sie unter [Transaktionsnachricht publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Speichern Sie Ihre Änderungen, bevor Sie die Nachricht veröffentlichen. Weiterführende Informationen dazu finden Sie unter [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 <!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
