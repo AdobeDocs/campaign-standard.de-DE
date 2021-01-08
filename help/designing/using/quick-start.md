@@ -115,7 +115,7 @@ Sie können das Design Ihrer E-Mail anpassen, beispielsweise den Abstand einer K
 
 Sie können Ihre E-Mail nun speichern und senden.
 
-### Erstellen von Inhalt aus einer vordefinierten Vorlage        {#building-content-from-an-out-of-the-box-template}
+### Erstellen von Inhalt aus einer vordefinierten Vorlage         {#building-content-from-an-out-of-the-box-template}
 
 Ihre E-Mails können Sie auch aus vordefinierten Vorlagen erstellen und diese personalisieren. Hier bieten sich zum Beispiel Willkommensnachrichten für Neukunden, Newsletter und Wiedereinstellungs-E-Mails an.
 
