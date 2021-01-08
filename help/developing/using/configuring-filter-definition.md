@@ -30,13 +30,13 @@ Sie können zum Beispiel einen Filter definieren, mit dem Sie alle Transaktionen
 
 Erweitern Sie dazu die Ressource **[!UICONTROL Profile]**, definieren Sie einen Filter und verknüpfen Sie ihn über eine Regel mit einer zuvor erstellten Transaktionstabelle. Definieren Sie in der Regel, dass der Transaktionspreis größer oder gleich einem bestimmten Parameter sein muss und das Transaktionsdatum in einem Zeitraum innerhalb der letzten drei Monate liegen muss.
 
-1. Beachten Sie dabei, dass Sie eine Transaktionstabelle erstellen und publizieren müssen. Siehe auch [Ressource erstellen oder erweitern](../../developing/using/creating-or-extending-the-resource.md).
+1. Beachten Sie dabei, dass Sie eine Transaktionstabelle erstellen und veröffentlichen müssen. Siehe auch [Ressource erstellen oder erweitern](../../developing/using/creating-or-extending-the-resource.md).
 
    >[!NOTE]
    >
    >In diesem Beispiel wird eine benutzerdefinierte Transaktionstabelle verwendet. Sie können diese auf Ihre eigenen Geschäftsanforderungen anpassen.
 
-1. Bevor Sie in der Ressource **[!UICONTROL Profile]** einen mit der Transaktionstabelle verknüpften Filter definieren, müssen Sie die Relation mit dieser Tabelle definieren und Ihre Änderungen publizieren. Siehe auch [Relationen mit anderen Ressourcen definieren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) und [Datenbankstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
+1. Bevor Sie in der Ressource **[!UICONTROL Profile]** einen mit der Transaktionstabelle verknüpften Filter definieren, müssen Sie die Relation mit dieser Tabelle definieren und Ihre Änderungen veröffentlichen. Siehe auch [Relationen mit anderen Ressourcen definieren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) und [Datenbankstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
 1. Wählen Sie im Tab **[!UICONTROL Definition]** des Definitionsbildschirms des neuen Filters die Transaktionstabelle aus.
 
    ![](assets/custom_resource_filter-definition_example-empty.png)
@@ -69,9 +69,9 @@ Erweitern Sie dazu die Ressource **[!UICONTROL Profile]**, definieren Sie einen 
 
    Sollten Sie mehrere konfigurierbare Felder definieren, können Sie die Reihenfolge ändern, in der diese in der Benutzeroberfläche angezeigt werden.
 
-1. Speichern Sie Ihre Änderungen und publizieren Sie die Ressourcen. Weiterführende Informationen finden Sie im Abschnitt [Datenbankstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
+1. Speichern Sie Ihre Änderungen und veröffentlichen Sie die Ressourcen. Weiterführende Informationen finden Sie im Abschnitt [Datenbankstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
 
-Sobald die Erweiterung der **[!UICONTROL Profile]**-Ressource publiziert wurde, ist der Filter für Benutzer in den Schnellzugriffen der [Abfrageeditor](../../automating/using/editing-queries.md)-Benutzeroberfläche sichtbar.
+Sobald die Erweiterung der **[!UICONTROL Profile]**-Ressource veröffentlicht wurde, ist der Filter für Benutzer in den Schnellzugriffen der [Abfrageeditor](../../automating/using/editing-queries.md)-Benutzeroberfläche sichtbar.
 
 Bei der Erstellung einer E-Mail können Benutzer auf diese Weise einfach ihre Audience so definieren, dass die Nachricht an alle Kunden gesendet wird, die in den letzten drei Monaten einen gewissen Betrag ausgegeben haben.
 
