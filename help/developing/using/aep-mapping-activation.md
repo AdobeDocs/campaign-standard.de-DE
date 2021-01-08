@@ -27,7 +27,7 @@ Je nach Ihren Mapping-Änderungen können Sie festlegen, alle Ihre Datensätze e
 
 ![](assets/aep_publishmapping.png)
 
-Auf der Freigabekachel können Sie auf das Publikationslog und die Exportprotokolle zugreifen.
+Auf der Freigabekachel können Sie auf das Veröffentlichungslog und die Exportprotokolle zugreifen.
 
 ![](assets/aep_publog.png)
 
