@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -46,10 +46,10 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Ab dem 15. Dezember 2020 ist die Funktionalität der Prädiktive Betreffzeile veraltet.</p><br/>
-   <p>Wir empfehlen Ihnen, die AI-basierten E-Mail-Funktionen zur Analyse und Vorhersage offener Raten, optimaler Sendezeit und wahrscheinlicher Absturz auf Basis historischer Interaktionsmetriken zu nutzen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Mehr dazu</a></p></br>
+   <td> <p> Ab dem 15. Dezember 2020 wird die Funktionalität der prädiktiven Betreffzeile nicht mehr unterstützt.</p><br/>
+   <p>Wir empfehlen Ihnen, die KI-gestützten E-Mail-Funktionen zu nutzen, um Öffnungsraten, optimale Sendezeiten und voraussichtliche Abwanderungszahlen anhand historischer Interaktionsmetriken zu analysieren und vorherzusagen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=de">Mehr dazu</a></p></br>
      <p>
-     <em>Entfernung der Zielgruppe: April 2021</em></p>
+     <em>Geplantes Datum für die Entfernung: April 2021.</em></p>
      </td> 
   </tr> 
   </tbody> 
@@ -130,7 +130,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Die <b>Neigungsbewertung </b> wurde in Adobe Experience Cloud Triggers eingestellt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte der Neigungsbewertung in den Anreicherungsschemas zu vermeiden, empfehlen wir, die Schemas zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Triggers erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de-DE">Trigger in Campaign publizieren</a>.
+   <td> <p>Die <b>Neigungsbewertung </b> wurde in Adobe Experience Cloud Triggers eingestellt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte der Neigungsbewertung in den Anreicherungsschemas zu vermeiden, empfehlen wir, die Schemas zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Triggers erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de-DE">Trigger in Campaign veröffentlichen</a>.
 </p></br>
    </td> 
   </tr> 
