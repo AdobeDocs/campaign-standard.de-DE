@@ -28,7 +28,7 @@ Im Tab **[!UICONTROL Eigenschaften]** lassen sich die allgemeinen Parameter der 
 
 ![](assets/activity-properties2.png)
 
-## Verwaltung ausgehender Transitionen von Aktivitäten        {#managing-an-activity-s-outbound-transitions}
+## Verwaltung ausgehender Transitionen von Aktivitäten         {#managing-an-activity-s-outbound-transitions}
 
 Standardmäßig verfügen bestimmte Aktivitäten nicht über ausgehende Transitionen. Sie haben jedoch die Möglichkeit, diese in den Tabs **[!UICONTROL Transitionen]** oder **[!UICONTROL Eigenschaften]** der Aktivität hinzuzufügen, um auf Ihre Population im selben Workflow andere Prozesse anzuwenden.
 
@@ -41,7 +41,7 @@ Je nach Aktivität lassen sich verschiedene Arten ausgehender Transitionen hinzu
 
 Es besteht die Möglichkeit, für die ausgehende Transition der Aktivität einen **[!UICONTROL Segmentcode]** anzugeben. Der Segmentcode ermöglicht es, die Herkunft von Teilmengen der Zielpopulation zu identifizieren, und kann im weiteren Verlauf für die Nachrichtenpersonalisierung verwendet werden.
 
-## Ausführungsoptionen von Aktivitäten        {#activity-execution-options}
+## Ausführungsoptionen von Aktivitäten         {#activity-execution-options}
 
 In einer Workflow-Aktivität erlaubt Ihnen der Tab **[!UICONTROL Ausführungsoptionen]** im Eigenschaften-Bildschirm insbesondere die Definition des Ausführungsmodus sowie des Verhaltens beim Auftritt von Fehlern.
 
