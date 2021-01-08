@@ -65,7 +65,7 @@ Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
 1. Füllen Sie den Registrierungsbildschirm für die App aus:
 
-   * Name: adobe campaign    `<stage or prod>`
+   * Name: adobe campaign     `<stage or prod>`
    * Unterstützter Kontotyp: **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis]** (Standardwert)
 
 Weiterführende Informationen zur Erstellung einer neuen Anwendung finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app).
@@ -118,7 +118,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
    * **[!UICONTROL Benutzername]** (E-Mail): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (z. B. adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL Anwendungs-ID]**: Kennung der Anwendung, die Sie in Azure AD registriert haben (das ist obligatorisch).
    * Sie können **[!UICONTROL URl der Anwendungs-ID]** und **[!UICONTROL Azure AD-Objektkennung]** leer lassen.
-   * **[!UICONTROL Vollständiger Name]**: Adobe-API.    `<stage or prod>`
+   * **[!UICONTROL Vollständiger Name]**: Adobe-API.     `<stage or prod>`
    * **[!UICONTROL E-Mail]**: identisch mit **[!UICONTROL Benutzername]** (oder der E-Mail-Adresse des Administrators, falls gewünscht).
 
    Weiterführende Informationen zur Erstellung von Anwendern finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
