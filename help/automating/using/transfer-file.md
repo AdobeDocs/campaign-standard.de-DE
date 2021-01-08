@@ -142,7 +142,7 @@ Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angege
     >
     >**//myserver/hello/myrecipients.csv** ist falsch.
 
-## Verlaufsparameter        {#historization-settings}
+## Verlaufsparameter         {#historization-settings}
 
 Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wird, werden die hoch- oder heruntergeladenen Dateien in einem bestimmten Ordner gespeichert. Für jede Aktivität **[!UICONTROL Dateiübertragung]** in einem Workflow wird ein Ordner erstellt. Deshalb ist es wichtig, die Größe dieses Ordners zu begrenzen, um physischen Platz auf dem Server zu sparen.
 
