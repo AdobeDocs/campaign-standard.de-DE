@@ -26,7 +26,7 @@ In diesem Beispiel erstellen wir das benutzerdefinierte Profilfeld **Treueprogra
 * [Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## Schritt 1: Erstellen Sie ein neues Profilfeld.     {#step-1--create-a-new-profile-field}
+## Schritt 1: Erstellen Sie ein neues Profilfeld.      {#step-1--create-a-new-profile-field}
 
 Zunächst muss das neue Profilfeld **Treueprogramm** erstellt werden, mit dem unseren Empfängern eine Treuestufe zugewiesen wird: Gold, Silber oder Bronze.
 
@@ -74,8 +74,8 @@ Gehen Sie dabei folgendermaßen vor:
 
    ![](assets/custom_profile_6.png)
 
-1. Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Publikation]**, um Ihre benutzerdefinierte Ressource zu publizieren.
-1. Wählen Sie **[!UICONTROL Publikation vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **[!UICONTROL Publizieren]** aus.
+1. Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Veröffentlichung]**, um Ihre benutzerdefinierte Ressource zu veröffentlichen.
+1. Wählen Sie **[!UICONTROL Veröffentlichung vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **[!UICONTROL Veröffentlichen]** aus.
 
    ![](assets/custom_profile_7.png)
 
@@ -83,7 +83,7 @@ Ihr neues Profilfeld kann jetzt verwendet und von Empfängern ausgewählt werden
 
 ![](assets/custom_profile_8.png)
 
-## Schritt 2: Erweitern Sie die Versandlogs mit dem Profilfeld.     {#step-2--extend-the-sending-logs-with-the-profile-field}
+## Schritt 2: Erweitern Sie die Versandlogs mit dem Profilfeld.      {#step-2--extend-the-sending-logs-with-the-profile-field}
 
 Nach der Erstellung des Profilfeldes müssen die Versandlogs mit unserem Profilfeld erweitert werden, um die zugehörige benutzerdefinierte Profildimension in dynamischen Berichten zu verwenden.
 
@@ -107,11 +107,11 @@ Bevor das Log mit unserem Profilfeld erweitert werden kann, muss das PII-Fenster
    Diese Option ist nur verfügbar, wenn zuvor das PII-Fenster akzeptiert wurde. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. Wählen Sie **[!UICONTROL Hinzufügen]** aus und speichern Sie danach Ihre benutzerdefinierte Ressource.
-1. Da die benutzerdefinierte Ressource verändert wurde, müssen wir sie publizieren, um die neuen Änderungen zu implementieren.
+1. Da die benutzerdefinierte Ressource verändert wurde, müssen wir sie veröffentlichen, um die neuen Änderungen zu implementieren.
 
-   Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Publikation]**, um Ihre benutzerdefinierte Ressource zu publizieren.
+   Wählen Sie im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Veröffentlichung]**, um Ihre benutzerdefinierte Ressource zu veröffentlichen.
 
-1. Wählen Sie **[!UICONTROL Publikation vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **[!UICONTROL Publizieren]** aus.
+1. Wählen Sie **[!UICONTROL Verffentlichung vorbereiten]** und nach Abschluss der Vorbereitung die Schaltfläche **[!UICONTROL Veröffentlichen]** aus.
 
    ![](assets/custom_profile_7.png)
 
@@ -119,9 +119,9 @@ Ihr benutzerdefiniertes Profil ist jetzt als benutzerdefinierte Profildimension 
 
 Nachdem Ihr Profilfeld erstellt und die Versandlogs damit erweitert wurden, können Sie für Ihre Nachrichten Zielgruppen auswählen.
 
-## Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.     {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.      {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
-Nachdem Ihr Profilfeld publiziert wurde, können Sie den Versand starten. In diesem Beispiel möchten wir jeden Empfänger, der am Treueprogramm teilnimmt, eine Nachricht senden.
+Nachdem Ihr Profilfeld veröffentlicht wurde, können Sie den Versand starten. In diesem Beispiel möchten wir jeden Empfänger, der am Treueprogramm teilnimmt, eine Nachricht senden.
 
 1. Wählen Sie im Tab **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL E-Mail]** aus.
 1. Wählen Sie einen **[!UICONTROL E-Mail-Typ]** aus und geben Sie dann die Eigenschaften Ihrer E-Mail ein.
@@ -143,7 +143,7 @@ Nachdem Ihr Profilfeld publiziert wurde, können Sie den Versand starten. In die
 
 Nachdem Ihre E-Mail an die ausgewählten Empfänger gesendet wurde, können Sie Ihre Daten filtern und die Wirkung des Versands in Berichten überprüfen.
 
-## Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.     {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.      {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
 Nach dem Versand Ihrer Nachricht können Sie die Berichte mithilfe Ihrer benutzerdefinierten Profildimension in der Tabelle **[!UICONTROL Profil]** aufschlüsseln.
 
