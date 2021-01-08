@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Transaktionsnachrichten testen
-description: Erfahren Sie, wie Sie eine Transaktionsnachricht im Adobe Campaign testen.
+description: Erfahren Sie, wie Sie eine Transaktionsnachricht in Adobe Campaign testen.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
