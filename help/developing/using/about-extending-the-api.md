@@ -21,12 +21,12 @@ In diesem Anwendungsbeispiel wird die Anzeige der erweiterten Felder für die be
 
 >[!NOTE]
 >
->Um die API publizieren zu können, muss Ihnen die Benutzerrolle **[!UICONTROL Datamodel]** zugewiesen sein.
+>Um die API veröffentlichen zu können, muss Ihnen die Benutzerrolle **[!UICONTROL Datamodel]** zugewiesen sein.
 
 Die Schritte zum Anzeigen erweiterter Felder in der öffentlichen API lauten wie folgt:
 
 1. [Erweiterungsfelder zur Profil-Ressource hinzufügen](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-1. [Erweiterung publizieren](../../developing/using/step-2--publish-the-extension.md)
+1. [Erweiterung veröffentlichen](../../developing/using/step-2--publish-the-extension.md)
 1. [API auf Verfügbarkeit der neuen erweiterten Felder überprüfen](../../developing/using/step-3--verify-the-extension.md)
 
 **Verwandte Themen:**
