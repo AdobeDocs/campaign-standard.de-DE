@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Folgenachrichten
-description: Erfahren Sie, wie Sie eine Follow-up-Nachricht erstellen, verwalten und senden.
+description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen, verwalten und senden.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,22 +23,22 @@ Greifen wir hierfür das im Abschnitt [Funktionsweise von Transaktionsnachrichte
 
 Sie möchten eine höfliche Erinnerung an alle Kunden senden, die vor drei Tagen die Benachrichtigung über einen stehen gelassenen Warenkorb erhalten, aber nicht geöffnet haben. Sie erhalten eine Folgenachricht, die auf denselben Daten basiert, die schon in der ersten gesendeten E-Mail verwendet wurden.
 
-## Ereignis konfigurieren, um eine Folgenachricht zu senden          {#configuring-an-event-to-send-a-follow-up-message}
+## Ereignis konfigurieren, um eine Folgenachricht zu senden           {#configuring-an-event-to-send-a-follow-up-message}
 
 Um eine Folgenachricht zu senden, müssen Sie zunächst das Ereignis entsprechend der bereits erhaltenen Transaktionsnachricht konfigurieren.
 
 1. Verwenden Sie dieselbe Ereigniskonfiguration wie für den Versand einer Ereignis-Transaktionsnachricht. Siehe [Transaktionsereignisse konfigurieren](../../channels/using/configuring-transactional-event.md).
-1. Aktivieren Sie bei der Konfiguration Ihres Ereignisses und vor seiner Publikation die Option **[!UICONTROL Folgenachrichten-Vorlage für dieses Ereignis erstellen]**.
+1. Aktivieren Sie bei der Konfiguration Ihres Ereignisses und vor seiner Veröffentlichung die Option **[!UICONTROL Folgenachrichten-Vorlage für dieses Ereignis erstellen]**.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. [Erstellen Sie eine Vorschau und publizieren Sie das Ereignis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Erstellen Sie eine Vorschau und veröffentlichen Sie das Ereignis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-Mit Ausführung der Publikation werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Die Schritte zum Senden der Folgenachricht sind in [diesem Abschnitt](#sending-a-follow-up-message) beschrieben.
+Mit Ausführung der Veröffentlichung werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Die Schritte zum Senden der Folgenachricht sind in [diesem Abschnitt](#sending-a-follow-up-message) beschrieben.
 
 ## Zugriff auf die Folgenachrichten        {#accessing-the-follow-up-messages}
 
-Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorlage notwendig. Allerdings kann die bei der Publikation des Ereignisses erstellte [Transaktionsnachricht](../../channels/using/editing-transactional-message.md) nicht als Vorlage verwendet werden. Hierfür müssen Sie eine spezifische Versandvorlage für Folgenachrichten erstellen, die diesen Ereignistyp und die Verwendung als Vorlage in Workflows unterstützt.
+Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorlage notwendig. Allerdings kann die bei der Veröffentlichung des Ereignisses erstellte [Transaktionsnachricht](../../channels/using/editing-transactional-message.md) nicht als Vorlage verwendet werden. Hierfür müssen Sie eine spezifische Versandvorlage für Folgenachrichten erstellen, die diesen Ereignistyp und die Verwendung als Vorlage in Workflows unterstützt.
 
 So greifen Sie auf diese Vorlage zu:
 
@@ -112,7 +112,7 @@ Nachdem Sie die Folgenachrichten-Versandvorlage erstellt haben, können Sie sie 
 
    Sie können alternativ auch einen [SMS-Versand](../../automating/using/sms-delivery.md) oder die Aktivität [Push-Benachrichtigungs-Versand](../../automating/using/push-notification-delivery.md) verwenden. Stellen Sie in diesem Fall sicher, dass Sie, während Sie Ihre Ereigniskonfiguration vornehmen, den Kanal **[!UICONTROL Mobiltelefon (SMS)]** oder **[!UICONTROL Mobile App]** auswählen. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
-1. Öffnen Sie die Aktivität **E-Mail-Versand.** Aktivieren Sie im Erstellungsassistenten die Option **[!UICONTROL Folgenachrichten]** und wählen Sie die Folgenachrichten-Versandvorlage aus, die nach dem Publizieren des Ereignisses erstellt wurde.
+1. Öffnen Sie die Aktivität **E-Mail-Versand.** Aktivieren Sie im Erstellungsassistenten die Option **[!UICONTROL Folgenachrichten]** und wählen Sie die Folgenachrichten-Versandvorlage aus, die nach dem Veröffentlichen des Ereignisses erstellt wurde.
 
    ![](assets/message-center_follow-up-template.png)
 
