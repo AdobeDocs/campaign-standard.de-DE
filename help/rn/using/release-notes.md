@@ -109,7 +109,7 @@ ht-degree: 100%
 
 * Es wurden Wiederholungsmechanismen für den Fall eines Fehlers beim Versuch hinzugefügt, eine Experience Platform-Audience mit der Aktivität **Audience lesen** zu importieren. (CAMP-43947, CAMP-43366)
 * Organisationseinheiten werden jetzt automatisch auf die Organisationseinheit des Benutzers eingestellt, der das Profil oder die Entität erstellt. Organisationseinheiten können nicht mehr entfernt und leer gelassen werden.
-* Beim Publizieren einer benutzerdefinierten Ressource wird jetzt nach der Vorbereitung ein Bestätigungs-Popup angezeigt.
+* Beim Veröffentlichen einer benutzerdefinierten Ressource wird jetzt nach der Vorbereitung ein Bestätigungs-Popup angezeigt.
 * Die Popup-Meldung, die angezeigt wird, wenn eine benutzerdefinierte Ressource fehlschlägt, wurde verbessert.
 * Der Ausdruckseditor in Workflows wurde verbessert, um Ausführungsfehler zu vermeiden.  Es stehen [neue Funktionen](../../automating/using/customizing-workflow-external-parameters.md) zur Verfügung: Sie können in allen Aktivitäten verwendet werden, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Zusätzlich wird jetzt im Ausdruckseditor eine QuickInfo mit der Funktionsbeschreibung angezeigt.
 * [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
@@ -130,7 +130,7 @@ ht-degree: 100%
 
 * Fehlerkorrektur – Ziel-Links können jetzt für Push-Benachrichtigungen oder In-App-Nachrichten verwendet werden, wenn Tracking aktiviert ist.
 * Fehlerkorrektur – Bei einem gebündelten Versand mit hoher Priorität wird diese jetzt in Transaktionsnachrichten berücksichtigt.
-* Fehlerkorrektur – Marken können jetzt Transaktions-E-Mails zugewiesen werden. Während des Publikationsschritts konnten mehrere Fehlermeldungen angezeigt werden. (CAMP-44988)
+* Fehlerkorrektur – Marken können jetzt Transaktions-E-Mails zugewiesen werden. Während des Veröffentlichungsschritts konnten mehrere Fehlermeldungen angezeigt werden. (CAMP-44988)
 * Fehlerkorrektur –Es können jetzt Informationen in Feldern in der Workflow-Benutzeroberfläche gespeichert werden, die numerische Werte erfordern. (CAMP-44025)
 * Fehlerkorrektur – Beim Verwenden einer **Testaktivität** in einem Workflow für Importvorlagen wird keine Fehlermeldung mehr angezeigt. (CAMP-42910)
 * Fehlerkorrektur – Es ist jetzt möglich, eine **Audience lesen**-Aktivität mit einem Auflistungstypfeld und in Verbindung mit den Aktivitäten **Vereinigung** und **Anreicherung** erfolgreich zu verwenden. (CAMP-42795)
@@ -154,7 +154,7 @@ ht-degree: 100%
 * Fehlerkorrektur – Der Import von Packages mit Transaktionsereignissen und Transaktionsnachrichten-Vorlagen funktioniert jetzt richtig. Der Importvorgang wurde bei 5 % angehalten. (CAMP-42544)
 * Fehlerkorrektur – Nach dem Ändern der Aktivität **Anreicherung** und dem Hinzufügen zusätzlicher Daten in einem Workflow treten keine Fehler (Uncaught TypeError – nicht abgefangener Typfehler) mehr auf. (CAMP-41877)
 * Fehlerkorrektur – Workflows können jetzt gelöscht werden. Die Logs mussten bereinigt werden, um den Workflow zu löschen. (CAMP-44144)
-* Fehlerkorrektur – Landingpages mit HTML-Code können jetzt problemlos erstellt werden. Obligatorische Kontrollkästchen wurden in Campaign nicht erkannt und waren auf der publizierten Landingpage nicht verfügbar. (CAMP-44181)
+* Fehlerkorrektur – Landingpages mit HTML-Code können jetzt problemlos erstellt werden. Obligatorische Kontrollkästchen wurden in Campaign nicht erkannt und waren auf der veröffentlichten Landingpage nicht verfügbar. (CAMP-44181)
 * Fehlerkorrektur – Workflows werden bei Verwendung der Aktivität **Warten** nicht mehr wiederholt. (CAMP-43981)
 * Fehlerkorrektur – Beim Senden von Transaktionsnachrichten kommt es nicht mehr vor, dass mehrere E-Mail-Adressen in einem Versand mehrmals als Ziel ausgewählt werden. (CAMP-44202)
 * Fehlerkorrektur – Bei der Verwendung der Profilersetzung mit targetData-Personalisierung treten keine Fehler mehr auf. (CAMP-44996)
@@ -170,13 +170,13 @@ ht-degree: 100%
 * Fehlerkorrektur – Nach dem Neustart des erweiterten MTA bei Instanzen mit Sharding-Konfiguration werden Nachrichten nicht mehr als ausstehend angezeigt.
 * Fehlerkorrektur – Die Anzahl der aktiven Profile stimmt jetzt mit der tatsächlichen Anzahl der ausgeführten Sendungen überein.
 * Fehlerkorrektur – Beim Suchen nach Ressourcen in einem Workflow im Abfrageeditor treten keine Latenzzeiten mehr auf.
-* Fehlerkorrektur – Bei der Auswahl der Option **Bei der Textsuche berücksichtigte Felder definieren** in einer benutzerdefinierten Ressource treten kein Fehler mehr auf. Wenn die Liste des Felds leer gelassen wurde, schlug die Publikation der benutzerdefinierten Ressource fehl.
+* Fehlerkorrektur – Bei der Auswahl der Option **Bei der Textsuche berücksichtigte Felder definieren** in einer benutzerdefinierten Ressource treten kein Fehler mehr auf. Wenn die Liste des Felds leer gelassen wurde, schlug die Veröffentlichung der benutzerdefinierten Ressource fehl.
 * Fehlerkorrektur – Beim Anzeigen der Übersicht über benutzerdefinierte Ressourcen mit einem großen Datenvolumen treten keine Leistungsprobleme mehr auf.
 * Fehlerkorrektur – Es ist jetzt möglich, einen Versand mit Profilersetzungen zu importieren.
 * Fehlerkorrektur – Wenn die Profilersetzung verwendet wird, können jetzt Testsendungen sofort ausgeführt werden, wenn der Versand geplant ist.
 * Fehlerkorrektur – Beim Hochladen eines Android-Schlüssels für eine mobile App wurde ein Fehler behoben. In der Meldung, die nach dem erfolgreichen Hochladen des Schlüssels angezeigt wurde, wurde der Wert des vorherigen Schlüssels angezeigt.
 * Fehlerkorrektur – Es können jetzt Testprofile von Transaktionsnachrichten erstellt werden, nachdem eine Ereigniskonfiguration mit einer Kollektion ohne Attribute erstellt wurde.
-* Fehlerkorrektur – Benutzerdefinierte Ressourcen können jetzt publiziert werden, nachdem ein neuer Filter mit einem Aggregat erstellt wurde.
+* Fehlerkorrektur – Benutzerdefinierte Ressourcen können jetzt veröffentlicht werden, nachdem ein neuer Filter mit einem Aggregat erstellt wurde.
 * Fehlerkorrektur – Die Öffnungsrate für Gmail-Empfänger wird jetzt korrekt getrackt. Dieser Fehler wurde durch den Gmail Image Proxy verursacht.
 * Fehlerkorrektur – Beim Importieren von Packages treten keine Fehler wegen zu wenig Arbeitsspeicher mehr auf.
 * Fehlerkorrektur – Die Aktion zum Aufheben der Verknüpfung von Experience Manager funktioniert jetzt, wenn der Experience Manager-Inhalt einen Pfad mit dem Zeichen &quot;%20&quot;enthält.
