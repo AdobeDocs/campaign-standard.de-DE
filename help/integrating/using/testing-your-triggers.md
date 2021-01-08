@@ -37,15 +37,15 @@ Wenn sich der Trigger erstellen lässt, fahren Sie mit dem nächsten Schritt for
 * Kennung der IMS-Organisation
 * Analytics-Unternehmensanmeldung (kann identisch mit dem Experience Cloud-Unternehmensnamen sein)
 
-**Versuchen Sie, den Trigger zu publizieren.**
+**Versuchen Sie, den Trigger zu veröffentlichen.**
 
 Folgen Sie dazu den Schritten im Abschnitt [In Campaign einen gemappten Trigger erstellen](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign).
 
-Wenn die Publikation erfolgreich ist, fahren Sie mit dem nächsten Schritt fort. Wenn nicht, kontaktieren Sie bitte Adobe, damit Ihre Instanz neu gestartet wird und Sie den Versuch wiederholen können.
+Wenn die Veröffentlichung erfolgreich ist, fahren Sie mit dem nächsten Schritt fort. Wenn nicht, kontaktieren Sie bitte Adobe, damit Ihre Instanz neu gestartet wird und Sie den Versuch wiederholen können.
 
 **Erstellen Sie den Trigger auf der Website.**
 
-Folgen Sie den Schritten im Abschnitt [Transaktionsnachrichtenvorlage bearbeiten](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template), um die Transaktionsvorlage zu bearbeiten und zu publizieren. Testen Sie dann die Erstellung des Triggers auf der Website.
+Folgen Sie den Schritten im Abschnitt [Transaktionsnachrichtenvorlage bearbeiten](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template), um die Transaktionsvorlage zu bearbeiten und zu veröffentlichen. Testen Sie dann die Erstellung des Triggers auf der Website.
 
 Wenn der Trigger von Analytics empfangen wird, fahren Sie mit dem nächsten Schritt fort. Wenn nicht, überprüfen Sie Folgendes:
 
@@ -71,7 +71,7 @@ Wenn dies der Fall ist, befolgen Sie diese Richtlinien:
 
 Wenn nicht, fahren Sie mit dem nächsten Schritt fort. Wenn dies der Fall ist, befolgen Sie diese Richtlinien:
 
-* Überprüfen Sie, ob die Transaktionsvorlage publiziert ist.
+* Überprüfen Sie, ob die Transaktionsvorlage veröffentlicht ist.
 * Stellen Sie sicher, dass das Profil nicht auf der Blockierungsliste steht.
 * Überprüfen Sie die Anwendung der Typologieregeln.
 * Überprüfen Sie die Logs der Transaktionsnachricht.
