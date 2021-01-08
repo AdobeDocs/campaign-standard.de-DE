@@ -45,7 +45,7 @@ Eine Bestätigungs-E-Mail wird automatisch an jedes Profil gesendet, das den New
 
 Die Schritte zum Erstellen der Bestätigungs-E-Mail werden unten beschrieben. Da im Dienst auf die Transaktionsnachricht verwiesen wird, müssen Sie diesen zuerst erstellen.
 
-#### Ereignis erstellen      {#create-the-event-1}
+#### Ereignis erstellen       {#create-the-event-1}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
@@ -74,13 +74,13 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis
    >
    >Auf diese Weise können Sie Personalisierungsfelder aus der Ressource **[!UICONTROL Dienst]** in der Transaktionsnachricht verwenden.
 
-1. Speichern Sie die Ereigniskonfiguration und wählen Sie **[!UICONTROL Publizieren]** aus, um das Ereignis zu publizieren.
+1. Speichern Sie die Ereigniskonfiguration und wählen Sie **[!UICONTROL Veröffentlichen]** aus, um das Ereignis zu veröffentlichen.
 
 Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die Transaktions-E-Mail erstellen.
 
-#### Bestätigungsnachricht erstellen      {#design-the-confirmation-message-1}
+#### Bestätigungsnachricht erstellen       {#design-the-confirmation-message-1}
 
-Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben publizierten Ereignis basiert.
+Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben veröffentlichten Ereignis basiert.
 
 1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Option **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** und nochmals **[!UICONTROL Transaktionsnachrichten]**.
 1. Wählen Sie die entsprechende Transaktions-E-Mail für das Ereignis aus, das Sie gerade veröffentlicht haben.
@@ -95,7 +95,7 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben publ
 1. Sehen Sie sich Ihre Nachricht unter Verwendung eines Testprofils in der Vorschau an. Weitere Informationen hierzu finden Sie unter [Spezifische Testprofile definieren](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 1. Wählen Sie **[!UICONTROL Speichern &amp; schließen]** aus, um den Inhalt zu speichern.
-1. Publizieren Sie die Transaktionsnachricht. Siehe [Transaktionsnachricht publizieren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Veröffentlichen Sie die Transaktionsnachricht. Siehe [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 ### Schritt 2: Dienst erstellen und konfigurieren {#step-2--create-and-configure-the-service-1}
 
@@ -134,7 +134,7 @@ Beim Verweisen auf die Bestätigungsnachricht über die Landingpage wird jedes M
 
 Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Da der Verweis auf die Transaktionsnachricht über die Landingpage erfolgt, müssen Sie diese zuerst erstellen.
 
-#### Ereignis erstellen      {#create-the-event-2}
+#### Ereignis erstellen       {#create-the-event-2}
 
 Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
@@ -160,7 +160,7 @@ Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/g
    >
    >Auf diese Weise können Sie Personalisierungsfelder aus der Ressource [!UICONTROL Dienst] in der Transaktionsnachricht verwenden.
 
-#### Bestätigungsnachricht erstellen      {#design-the-confirmation-message-2}
+#### Bestätigungsnachricht erstellen       {#design-the-confirmation-message-2}
 
 Die Schritte zum Erstellen der Transaktionsnachricht werden in diesem [Abschnitt](#design-the-confirmation-message-1) beschrieben.
 
@@ -173,7 +173,7 @@ Die Schritte zum Erstellen der Transaktionsnachricht werden in diesem [Abschnitt
 
 ### Schritt 3: Landingpage erstellen und konfigurieren {#step-3--create-and-configure-the-landing-page}
 
-Erstellen Sie eine Abonnement-Landingpage, die schließlich auf Ihrer Website publiziert wird.
+Erstellen Sie eine Abonnement-Landingpage, die schließlich auf Ihrer Website veröffentlicht wird.
 
 Gehen Sie wie folgt vor, um diese Landingpage zu erstellen und zu konfigurieren:
 
@@ -188,7 +188,7 @@ Gehen Sie wie folgt vor, um diese Landingpage zu erstellen und zu konfigurieren:
 
 1. Passen Sie den Inhalt der Landingpage an.
 
-1. [Testen und publizieren](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
+1. [Testen und veröffentlichen](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
 Jedes Mal, wenn jetzt ein Profil Ihren Newsletter abonniert, indem es die Landingpage ausfüllt und auf die Senden-Schaltfläche klickt, erhält es die von Ihnen definierte Bestätigungsnachricht, wobei die personalisierten Felder mit dem Dienst gemappt werden.
 
