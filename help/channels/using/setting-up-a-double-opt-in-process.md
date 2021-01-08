@@ -27,13 +27,13 @@ Das Prinzip dahinter ist folgendes: Der Besucher füllt ein Formular auf einer O
 
 Gehen Sie dazu folgendermaßen vor:
 
-1. Erstellen und publizieren Sie eine Landingpage, auf der sich Besucher registrieren und anmelden können. Diese Landingpage ist auf einer Website verfügbar. Besucher, die diese Landingpage ausfüllen und diese Informationen abschicken, werden in der Datenbank gespeichert, aber auf die Blockierungsliste gesetzt, damit sie keine Nachrichten vor der endgültigen Validierung erhalten (siehe [Verwaltung der Blockierungslisten in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Erstellen und veröffentlichen Sie eine Landingpage, auf der sich Besucher registrieren und anmelden können. Diese Landingpage ist auf einer Website verfügbar. Besucher, die diese Landingpage ausfüllen und diese Informationen abschicken, werden in der Datenbank gespeichert, aber auf die Blockierungsliste gesetzt, damit sie keine Nachrichten vor der endgültigen Validierung erhalten (siehe [Verwaltung der Blockierungslisten in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Erstellen und senden Sie automatisch die Anmelde-E-Mail mit einem Bestätigungs-Link. Diese E-Mail wird an die Personen gesendet, die ihre Informationen auf der Landingpage abgeschickt haben. Die E-Mail basiert auf einer E-Mail-Vorlage, mit der ‘abgemeldete’ Profile gehandhabt werden können.
 1. Richten Sie eine Weiterleitung zu einer Bestätigungs-Landingpage ein. Diese abschließende Landingpage weist eine Bestätigungs-Schaltfläche auf, die die Besucher anklicken müssen. Sie können eine Willkommens-E-Mail erstellen, die nach Abschluss des Bestätigungsprozesses gesendet wird und beispielsweise ein spezielles Angebot für neue Empfänger enthält.
 
 Diese Schritte müssen in Adobe Campaign in einer bestimmten Reihenfolge ausgeführt werden, damit alle Parameter ordnungsgemäß aktiviert werden.
 
-## Schritt 1: Bestätigungs-Landingpage erstellen        {#step-1--create-the-confirmation-landing-page}
+## Schritt 1: Bestätigungs-Landingpage erstellen         {#step-1--create-the-confirmation-landing-page}
 
 Um eine Anmeldung mit zweifacher Bestätigung einzurichten, muss zunächst die Bestätigungs-Landingpage erstellt werden: Diese Seite wird angezeigt, wenn ein Besucher die Bestätigungs-E-Mail anklickt, um sich zu registrieren.
 
@@ -65,15 +65,15 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [Testen und publizieren](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
+1. [Testen und veröffentlichen](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
-## Schritt 2: Bestätigungs-E-Mail erstellen        {#step-2--create-the-confirmation-email}
+## Schritt 2: Bestätigungs-E-Mail erstellen         {#step-2--create-the-confirmation-email}
 
 Nachdem die Bestätigungs-Landingpage fertig ist, kann die Bestätigungs-E-Mail erstellt werden. Diese E-Mail wird automatisch jedem Besucher gesendet, der die Akquise-Landingpage bestätigt. Diese Bestätigung wird als Ereignis erachtet und die E-Mail gilt als Transaktionsnachricht, die mit einer bestimmten Typologieregel verknüpft ist, wodurch Abmeldungen gehandhabt werden können.
 
 Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Führen Sie sie aus, bevor Sie die Akquise-Landingpage erstellen, da diese auf die E-Mail-Vorlage verweist.
 
-### Ereignis erstellen        {#create-the-event}
+### Ereignis erstellen         {#create-the-event}
 
 Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), da sie auf ein Ereignis reagiert, nämlich die Bestätigung des Formulars. Erstellen Sie zuerst das Ereignis und danach die Vorlage der Transaktionsnachricht.
 
@@ -90,7 +90,7 @@ Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/g
    Wenn Sie Dienste verwenden müssen, fügen Sie die Zielressource **[!UICONTROL Dienst]** hinzu und erstellen Sie ein Mapping über das Feld **[!UICONTROL serviceName]**. Weiterführende Informationen dazu finden Sie unter .
 
 1. Wählen Sie in der Dropdown-Liste für die **[!UICONTROL Zielgruppen-Anreicherung]** die Option **[!UICONTROL Profile]**.
-1. Wählen Sie **[!UICONTROL Publizieren]**, um das Ereignis zu veröffentlichen.
+1. Wählen Sie **[!UICONTROL Veröffentlichen]**, um das Ereignis zu veröffentlichen.
 
 Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die E-Mail-Vorlage erstellen. Diese Vorlage muss einen Link zur zuvor erstellten Landingpage **CONFIRMATION** aufweisen. Weiterführende Informationen dazu finden Sie im Abschnitt [Bestätigungsnachricht erstellen](#design-the-confirmation-message).
 
@@ -106,7 +106,7 @@ Erstellen Sie eine eigene [Typologie](../../sending/using/about-typology-rules.m
 
 Diese Typologie kann jetzt mit der Bestätigungs-E-Mail verknüpft werden.
 
-### Bestätigungsnachricht erstellen        {#design-the-confirmation-message}
+### Bestätigungsnachricht erstellen         {#design-the-confirmation-message}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf einem zuvor erstellen Ereignis basiert. Führen Sie die folgenden Schritte aus, um eine solche Nachricht zu erstellen:
 
@@ -117,9 +117,9 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf einem zuvor ers
    ![](assets/optin_email_selectlp.png)
 
 1. Bearbeiten Sie die Eigenschaften der E-Mail-Vorlage. Wählen Sie im Bereich **[!UICONTROL Erweiterte Parameter]** > **[!UICONTROL Vorbereitung]** die zuvor erstellte Typologie **TYPOLOGY_PROFILE**.
-1. Speichern und publizieren Sie die Transaktionsnachricht.
+1. Speichern und veröffentlichen Sie die Transaktionsnachricht.
 
-## Schritt 3: Akquise-Landingpage erstellen        {#step-3--create-the-acquisition-landing-page}
+## Schritt 3: Akquise-Landingpage erstellen         {#step-3--create-the-acquisition-landing-page}
 
 Erstellen Sie die ursprüngliche Akquise-Landingpage. Sie enthält ein Anmeldeformular, das daraufhin auf Ihrer Website veröffentlicht wird.
 
@@ -147,6 +147,6 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [Testen und publizieren](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
+1. [Testen und veröffentlichen](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
 Die Anmeldung mit zweifacher Bestätigung ist jetzt konfiguriert. Sie können diesen Vorgang von Anfang bis Ende ausführen und testen, indem Sie bei der öffentlichen URL dieser **[!UICONTROL ACQUISITION]**-Landingpage beginnen. Diese URL wird im Dashboard der Landingpage angezeigt.
