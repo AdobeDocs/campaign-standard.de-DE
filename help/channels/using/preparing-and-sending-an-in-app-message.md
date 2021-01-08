@@ -35,7 +35,7 @@ In Adobe Campaign sind drei Arten von In-App-Nachrichten verfügbar:
 
 ![](assets/diagram_inapp.png)
 
-## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden       {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden        {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 In Adobe Campaign sind Attribute zu mobilen Profilen, die von Mobilgeräten gesendet werden, in der Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** gespeichert. Dort können die Daten definiert werden, die über die Abonnenten Ihrer Apps gesammelt werden sollen.
 
@@ -49,7 +49,7 @@ Um eine sichere Personalisierung Ihrer In-App-Nachrichten zu ermöglichen, müss
 
 ![](assets/in_app_personal_data_2.png)
 
-Sobald die benutzerdefinierte Ressource **[!UICONTROL App-Abonnements]** konfiguriert und publiziert wurde, können Sie mit der Vorbereitung Ihres In-App-Versands mit der Vorlage **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]** beginnen. Zur Personalisierung stehen dann in der Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** nur nicht-sensible Felder zur Verfügung.
+Sobald die benutzerdefinierte Ressource **[!UICONTROL App-Abonnements]** konfiguriert und veröffentlicht wurde, können Sie mit der Vorbereitung Ihres In-App-Versands mit der Vorlage **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]** beginnen. Zur Personalisierung stehen dann in der Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** nur nicht-sensible Felder zur Verfügung.
 
 Wenn Sie eine Personalisierung mit den Feldern **Persönlich und vertraulich** durchführen möchten, empfehlen wir die Verwendung der Vorlage **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)]**, die zusätzliche Sicherheitsfunktionen aufweist, sodass die personenbezogenen Daten Ihrer Benutzer geschützt bleiben.
 
