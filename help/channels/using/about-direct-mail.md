@@ -50,7 +50,7 @@ Achten Sie darauf, dass in der Profilinformation die Option **[!UICONTROL Anschr
 
 ![](assets/direct_mail_22.png)
 
-### Postanschriften     {#postal-addresses}
+### Postanschriften      {#postal-addresses}
 
 Die Anschriftsfelder zum Hinzufügen in die Extraktionsdatei finden Sie im Knoten **[!UICONTROL Ort]**.
 
