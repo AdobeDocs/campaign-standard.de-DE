@@ -141,7 +141,7 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Wenn Fragmente in E-Mails aktualisiert werden, die bereits vorbereitet wurden, wirkt sich dies nicht auf diese E-Mails aus.
 
-## Einschränkungen in Email Designer        {#email-designer-limitations}
+## Einschränkungen in Email Designer         {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/using-reusable-content.md#about-fragments).
 
