@@ -41,7 +41,7 @@ Die erste Tabelle **Zusammenfassung der In-App-Interaktionen** ist in drei Kateg
 Die zweite Tabelle **In-App-Klicks &amp; -Abweisungen** ist in drei Kategorien unterteilt: nach Tag, nach Mobile App und nach Versand. Sie enthält alle verfügbaren Daten zum Verhalten der Empfänger in jedem Versand.
 
 * **[!UICONTROL In-App-Klicks]**: Gesamtzahl der Empfänger, die auf Schaltfläche 1 oder Schaltfläche 2 geklickt haben
-* **[!UICONTROL Einzelne In-App-Klicks]**: Gesamtzahl der Klicks auf Schaltfläche 1 oder Schaltfläche 2 durch Empfänger
+* **[!UICONTROL In-App-Einzelklicks]**: Gesamtzahl der Klicks auf Schaltfläche 1 oder Schaltfläche 2 durch Empfänger
 * **[!UICONTROL In-App-Abweisungen]**: Gesamtzahl der Nachrichten, die von Benutzern verworfen wurden, indem diese entweder die Schließen-Schaltfläche oder die automatische Funktion zum Entfernen der Nachricht verwendet haben
 * **[!UICONTROL Einzelne In-App-Abweisungen]**: Anzahl der verworfenen In-App-Nachrichten durch Empfänger
 
