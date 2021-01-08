@@ -30,7 +30,7 @@ Mithilfe der **[!UICONTROL Audience-Speicherung]** können existierende Audience
 
 Außerdem ermöglicht diese Aktivität den Export von Profilen in Form von Adobe-Experience-Cloud-Zielgruppen/Segmenten. Diese Zielgruppen können anschließend in anderen Lösungen in Adobe Experience Cloud verwendet werden. Weiterführende Informationen zu freigegebenen Zielgruppen finden Sie in [Campaign und People Core Service verwenden](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
-## Anwendungskontext   {#context-of-use}
+## Anwendungskontext    {#context-of-use}
 
 Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um innerhalb eines Workflows berechnete Populationen in dauerhaft wiederverwendbare Audiences umzuwandeln.
 
@@ -64,7 +64,6 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
       >[!NOTE]
       >
       >Diese Option ist nur dann verfügbar, wenn durch Ihren Administrator die Funktion der Zielgruppenfreigabe an die Adobe Experience Cloud konfiguriert wurde. Weiterführende Informationen finden Sie in [Campaign und People Core Service verwenden](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Der Typ der gespeicherten oder zur Aktualisierung verfügbaren Audiences hängt von den im Workflow vorangeschalteten Aktivitäten ab.
 
    Die erstellte oder aktualisierte Audience ist vom Typ **[!UICONTROL Datei]**, wenn die Zielgruppendimension der Audience zum Zeitpunkt der Speicherung unbekannt ist (beispielsweise weil sie aus einem Dateiimport stammt).
