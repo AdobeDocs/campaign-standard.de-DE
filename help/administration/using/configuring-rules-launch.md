@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Sie müssen in [!DNL Adobe Experience Platform Launch] Datenelemente und Regeln erstellen, damit personenbezogene Daten und andere Informationen von mobilen Apps an [!DNL Adobe Campaign Standard] gesendet werden können.
 
-Damit alle Konfigurationsänderungen in [!DNL Adobe Experience Platform Launch] in Kraft treten können, müssen Sie diese Änderungen publizieren. Weitere Informationen finden Sie unter [Publizieren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+Damit alle Konfigurationsänderungen in [!DNL Adobe Experience Platform Launch] in Kraft treten können, müssen Sie diese Änderungen veröffentlichen. Weitere Informationen finden Sie unter [Veröffentlichen](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
 Gehen Sie wie folgt vor, um Regeln in [!DNL Experience Platform Launch] zu erstellen:
 
