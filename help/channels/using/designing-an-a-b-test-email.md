@@ -26,7 +26,7 @@ Sie haben die Möglichkeit, Inhalt, Betreff oder Absender der E-Mail zu variiere
 >
 >In Adobe Experience Manager können keine A/B-Tests für E-Mails erstellt werden.
 
-## A/B-Test-E-Mail erstellen      {#creating-an-a-b-test-email}
+## A/B-Test-E-Mail erstellen       {#creating-an-a-b-test-email}
 
 Die Erstellung eines A/B-Tests erfolgt mithilfe des um eine Etappe erweiterten E-Mail-Erstellungsassistenten. Weiterführende Informationen zur Erstellung einer Standard-E-Mail finden Sie im Abschnitt [E-Mails erstellen](../../channels/using/creating-an-email.md).
 
