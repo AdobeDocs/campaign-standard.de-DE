@@ -259,7 +259,7 @@ ht-degree: 99%
       + [Triggers in Experience Cloud konfigurieren](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
       + [Trigger testen](integrating/using/testing-your-triggers.md)
-      + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
+      + [Anwendungsbeispiele zu Triggern für die abgebrochene Suche](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Erste Schritte mit der Integration von Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
       + [Daten zwischen Campaign und Dynamics 365 verwalten](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -395,7 +395,7 @@ ht-degree: 99%
    + Anwendungsbeispiel: API erweitern {#use-case--extending-the-api}
       + [Über die API-Erweiterung](developing/using/about-extending-the-api.md)
       + [Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [Schritt 2: Erweiterung publizieren](developing/using/step-2--publish-the-extension.md)
+      + [Schritt 2: Erweiterung veröffentlichen](developing/using/step-2--publish-the-extension.md)
       + [Schritt 3: Erweiterung überprüfen](developing/using/step-3--verify-the-extension.md)
    + Anwendungsbeispiele: Ressourcenerweiterung {#use-cases--extending-resources}
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
