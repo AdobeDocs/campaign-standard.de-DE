@@ -49,43 +49,43 @@ Gehen Sie hierzu wie folgt vor:
 
    ![](assets/remarketing_4.png)
 
-1. Sie können Ihre Triggers jetzt publizieren. Weitere Informationen dazu finden Sie unter [Trigger in Campaign publizieren](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+1. Sie können Ihre Triggers jetzt veröffentlichen. Weitere Informationen dazu finden Sie unter [Trigger in Campaign veröffentlichen](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
-## Trigger in Campaign publizieren {#publishing-trigger-in-campaign}
+## Trigger in Campaign veröffentlichen {#publishing-trigger-in-campaign}
 
-Nachdem Sie in Adobe Campaign ein Trigger-Ereignis basierend auf einem vorhandenen Adobe Experience Cloud-Trigger erstellt haben, müssen Sie es jetzt publizieren.
+Nachdem Sie in Adobe Campaign ein Trigger-Ereignis basierend auf einem vorhandenen Adobe Experience Cloud-Trigger erstellt haben, müssen Sie es jetzt veröffentlichen.
 
-1. Klicken Sie in Ihrem zuvor erstellten Trigger auf die Schaltfläche **[!UICONTROL Publizieren]**, um mit dem Publizieren des Trigger-Ereignisses zu beginnen.
+1. Klicken Sie in Ihrem zuvor erstellten Trigger auf die Schaltfläche **[!UICONTROL Veröffentlichen]**, um mit dem Veröffentlichen des Trigger-Ereignisses zu beginnen.
 
    ![](assets/trigger_publish_1.png)
 
-1. Sie können den Fortschritt Ihrer Trigger-Publikation unter **[!UICONTROL Publikation]** überprüfen.
+1. Sie können den Fortschritt Ihrer Trigger-Veröffentlichung unter **[!UICONTROL Veröffentlichung]** überprüfen.
 
    ![](assets/trigger_publish_2.png)
 
-1. Wenn die Publikation abgeschlossen ist, wird die folgende Meldung unter **[!UICONTROL Publikation]** angezeigt.
+1. Wenn die Veröffentlichung abgeschlossen ist, wird die folgende Meldung unter **[!UICONTROL Veröffentlichung]** angezeigt.
 
    ![](assets/trigger_publish_3.png)
 
-1. Wenn Sie nach dem Publizieren Ihres Trigger-Ereignisses das Trigger-Schema verändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Schema aktualisieren]** aus, um die letzten Änderungen abzurufen.
+1. Wenn Sie nach dem Veröffentlichen Ihres Trigger-Ereignisses das Trigger-Schema verändern müssen, wählen Sie die Schaltfläche **[!UICONTROL Schema aktualisieren]** aus, um die letzten Änderungen abzurufen.
 
-   Bitte beachten Sie, dass durch diese Aktion Ihr Trigger und Ihre Transaktionsnachricht depubliziert werden und Sie diese danach wieder publizieren müssen.
+   Bitte beachten Sie, dass durch diese Aktion die Veröffentlichung Ihres Triggers und Ihrer Transaktionsnachricht aufgehoben werden und Sie diese danach wieder veröffentlichen müssen.
 
    ![](assets/trigger_publish_4.png)
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Trigger in Experience Cloud zeigen]**, um die Trigger-Definition in Adobe Experience Cloud einzusehen.
 
-Mit Ausführung der Publikation wird automatisch eine dem neuen Ereignis entsprechende Transaktionsvorlage erzeugt. Diese Vorlage muss nun bearbeitet und publiziert werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen bearbeiten](../../start/using/marketing-activity-templates.md).
+Mit Ausführung der Veröffentlichung wird automatisch eine dem neuen Ereignis entsprechende Transaktionsvorlage erzeugt. Diese Vorlage muss nun bearbeitet und veröffentlicht werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen bearbeiten](../../start/using/marketing-activity-templates.md).
 
-## Transaktionsnachrichtenvorlage bearbeiten        {#editing-the-transactional-message-template}
+## Transaktionsnachrichtenvorlage bearbeiten         {#editing-the-transactional-message-template}
 
-Im Zuge der Erstellung und Publikation des Trigger-Ereignisses wird die entsprechende Transaktionsvorlage automatisch erstellt. Lesen Sie diesbezüglich auch den Abschnitt [In Campaign einen gemappten Trigger erstellen](#creating-a-mapped-trigger-in-campaign).
+Im Zuge der Erstellung und Veröffentlichung des Trigger-Ereignisses wird die entsprechende Transaktionsvorlage automatisch erstellt. Lesen Sie diesbezüglich auch den Abschnitt [In Campaign einen gemappten Trigger erstellen](#creating-a-mapped-trigger-in-campaign).
 
-Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Vorlage personalisiert, getestet und dann publiziert werden. Hierbei gilt das gleiche Prinzip wie für standardmäßige Transaktionsnachrichten. Weitere Informationen hierzu finden Sie unter [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md).
+Damit das Ereignis mit dem Versand einer Transaktionsnachricht einhergeht, muss diese Vorlage personalisiert, getestet und dann veröffentlicht werden. Hierbei gilt das gleiche Prinzip wie für standardmäßige Transaktionsnachrichten. Weitere Informationen hierzu finden Sie unter [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
->Bei der Depublikation der Vorlage wird automatisch auch das Trigger-Ereignis depubliziert.
+>Bei der Aufhebung der Veröffentlichung der Vorlage wird automatisch auch die Veröffentlichung des Trigger-Ereignisses aufgehoben.
 
 Im Zuge der Erstellung von Nachrichteninhalten haben Sie nun die Möglichkeit, Personalisierungsfelder zu verwenden, die auf vom Analytics-Trigger gesendeten Informationen beruhen. Wenn Sie die Ereignisdaten mit Profildaten aus Adobe Campaign anreichern, können Sie die Nachricht mittels dieser Informationen personalisieren. Um Ihre Nachricht zu personalisieren, wählen Sie im Knoten **[!UICONTROL Transaktionsereignis]** > **[!UICONTROL Ereignis-Kontext]** das gewünschte Feld aus.
 
