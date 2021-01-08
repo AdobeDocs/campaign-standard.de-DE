@@ -28,7 +28,7 @@ Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für di
 
 Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
-## Anwendungskontext     {#context-of-use}
+## Anwendungskontext      {#context-of-use}
 
 Eine **[!UICONTROL Inkrementelle Abfrage]** muss mit einer **[!UICONTROL Planung]** einhergehen, um die Häufigkeit der Ausführung des Workflows und damit der Abfrage zu definieren.
 
