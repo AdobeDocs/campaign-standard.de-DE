@@ -27,7 +27,7 @@ Inhaltsblöcken wie beispielsweise Eingabefeldern, Radiobuttons oder Checkboxes 
 * Wählen Sie aus der Dropdown-Liste **Feld** das Datenbankfeld aus, das dem Formularfeld zugeordnet werden soll.
 * Wenn die Option **Pflichtfeld** aktiviert ist, kann der Nutzer das Formular nicht absenden, ohne dieses Feld ausgefüllt zu haben. In diesem Fall wird eine Fehlermeldung angezeigt.
 
-## Mapping der Formularfelder     {#mapping-form-fields}
+## Mapping der Formularfelder      {#mapping-form-fields}
 
 Über Eingabefelder können Daten in der Campaign-Datenbank gespeichert bzw. dort aktualisiert werden. Dazu müssen Sie Blöcken wie Eingabe- oder Auswahlfeldern Datenbankfelder zuordnen. Gehen Sie wie folgt vor:
 
