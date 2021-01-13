@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Beim Versenden von SMS über einen SMS-Anbieter werden Sie mit drei verschiedene
 
 Sie müssen zwischen den Bestätigungen (RESP PDU, Teil des SMPP-Protokolls) und SR unterscheiden: SR ist eine Art SMS, die über das Netzwerk von Ende zu Ende gesendet wird, während eine Bestätigung nur eine Bestätigung ist, dass eine Übertragung erfolgreich war.
 
-Sowohl Bestätigungen als auch SR können Fehler auslösen, wobei die Unterscheidung zwischen den beiden hilft, die Fehlerbehebung durchzuführen.
+Sowohl Bestätigungen als auch SR können Trigger verursachen, wobei die Unterscheidung zwischen den beiden hilft, die Fehlerbehebung durchzuführen.
 
 ### Informationen, die von einer SMS gesendet werden{#information-sms}
 
@@ -104,11 +104,11 @@ Im getrennten Modus **Transmitter+Receiver** hängt die verwendete Verbindung vo
 
 Wenn beispielsweise ein MT gesendet wird, wird die Senderverbindung verwendet und das `RESP`, das den MT bestätigt, wird auch über den Transmitter-Kanal gesendet. Wenn Sie ein MO (oder ein SR) erhalten, wird die Receiver-Verbindung verwendet, um das MO zu empfangen und das `RESP` zu senden, das das MO bestätigt.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 In Adobe Campaign Standard ist die MT- und SR-Aussöhnung nativ zum MTA, sodass es keinen eigenen SMS-Prozess gibt.
 
-Ein erfolgreiches `SUBMIT_SM_RESP PDU` löst den Status der &quot;gesendeten&quot;Nachricht im Sendetprotokoll aus, während ein erfolgreiches `DELIVER_SM (SR) PDU` den Status der &quot;empfangenen&quot;Nachricht auslöst.
+Bei einem erfolgreichen `SUBMIT_SM_RESP PDU` wird der Status der &quot;gesendeten&quot;Nachricht im Sendetlog Trigger, während bei einem erfolgreichen `DELIVER_SM (SR) PDU` der Status der &quot;empfangenen&quot;Nachricht Trigger wird.
 
 ### Sicherheitsaspekte {#security-aspects}
 
@@ -500,7 +500,7 @@ Das Fenster ist die Anzahl der `SUBMIT_SM PDU`s, die gesendet werden können, oh
 
 Beispiel einer Übertragung mit einem maximalen Fenster von 4:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 Das Fenster hilft, den Durchsatz zu erhöhen, wenn die Netzwerkverbindung eine hohe Latenz aufweist.  Der Wert des Fensters muss mindestens der Anzahl der SMS/s entsprechen, multipliziert mit der Latenz des Links in Sekunden, damit der Connector nie auf ein `SUBMIT_SM_RESP` wartet, bevor die nächste Nachricht gesendet wird.
 Wenn das Fenster zu groß ist, können Sie bei Verbindungsproblemen mehr Duplikat-Nachrichten senden. Außerdem haben die meisten Anbieter eine sehr strenge Begrenzung für das Fenster und verweigern Nachrichten, die über die Grenze gehen.
@@ -636,7 +636,7 @@ Standardmäßig werden bis zu 10 alphanumerische Zeichen nach `id:` erfasst.
 
 Der Regex muss über genau eine Erfassungsgruppe mit einem Teil in Klammern verfügen. Klammern müssen den ID-Teil umgeben. Das regex-Format ist PCRE.
 
-Achten Sie beim Anpassen dieser Einstellung darauf, möglichst viel Kontext einzuschließen, um falsche Auslöser zu vermeiden. Wenn bestimmte Präfixe vorhanden sind, z. B. `id:` im Standard, müssen Sie sie in den Regex aufnehmen. Verwenden Sie außerdem so weit wie möglich Worttrennzeichen (\b), um zu vermeiden, dass Text in der Mitte eines Wortes erfasst wird.
+Achten Sie beim Anpassen dieser Einstellung darauf, möglichst viel Kontext einzuschließen, um falsche Trigger zu vermeiden. Wenn bestimmte Präfixe vorhanden sind, z. B. `id:` im Standard, müssen Sie sie in den Regex aufnehmen. Verwenden Sie außerdem so weit wie möglich Worttrennzeichen (\b), um zu vermeiden, dass Text in der Mitte eines Wortes erfasst wird.
 
 Wenn nicht genügend Kontext in den Regex aufgenommen wird, kann dies einen kleinen Sicherheitsfehler einleiten: der tatsächliche Inhalt der Nachricht kann in den SR aufgenommen werden. Wenn Sie nur ein bestimmtes ID-Format ohne Kontext verwenden, z. B. eine UUID, wird möglicherweise der eigentliche Textinhalt analysiert, z. B. eine UUID, die in das Textfeld eingebettet ist, anstatt der ID.
 
@@ -698,11 +698,11 @@ Ermöglicht das Hinzufügen eines benutzerdefinierten TLV. Dieses Feld legt den 
 
 Diese Einstellung erlaubt nur das Hinzufügen einer TLV-Option pro Nachricht.
 
-### Automatische Antwort auf MO     {#automatic-reply}
+### Automatische Antwort auf MO      {#automatic-reply}
 
 Mit dieser Funktion können Sie schnell auf MO antworten und per Kurzcode an Blockierungsliste senden.
 
-Die Spalten **Suchbegriff** und **Kurzcode** definieren Bedingungen, um die automatische Antwort auszulösen. Wenn beide Felder übereinstimmen, wird der MO gesendet und die zusätzliche Aktion ausgelöst. Um einen Platzhalter festzulegen, sollten Sie das Feld leer lassen. Suchbegriff wird mit dem ersten alphanumerischen Wort im MO-Text abgeglichen, wobei Interpunktion und vorangestellte Leerzeichen ignoriert werden. Das bedeutet, dass das Feld **Suchbegriff** keine Leerzeichen enthalten darf und ein einziges Wort sein muss.
+Die Spalten **Suchbegriff** und **Kurzcode** definieren Bedingungen zum Trigger der automatischen Antwort. Wenn beide Felder übereinstimmen, wird der MO gesendet und die zusätzliche Aktion ausgelöst. Um einen Platzhalter festzulegen, sollten Sie das Feld leer lassen. Suchbegriff wird mit dem ersten alphanumerischen Wort im MO-Text abgeglichen, wobei Interpunktion und vorangestellte Leerzeichen ignoriert werden. Das bedeutet, dass das Feld **Suchbegriff** keine Leerzeichen enthalten darf und ein einziges Wort sein muss.
 
 Die Einstellung **Suchbegriff** ist ein Präfix. Wenn Sie beispielsweise &quot;Anzeige&quot;angeben, stimmt dies mit &quot;Anzeige&quot;, &quot;ADAPT&quot;und &quot;ADOBE&quot;überein. Wenn Sie mehrere Suchbegriffe mit einem gemeinsamen Präfix haben, müssen Sie auf die Reihenfolge achten, da Suchbegriffe von oben nach unten verarbeitet werden.
 
@@ -758,7 +758,7 @@ Die Gültigkeitsdauer wird im Feld `validity_period` von `SUBMIT_SM PDU` übertr
 
 ## SMPP-Anschluss {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 Pfeile stellen den Datenfluss dar.
 
