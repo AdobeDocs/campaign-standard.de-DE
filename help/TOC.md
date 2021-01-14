@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 99%
       + [Normaltext-, HTML- und mobile E-Mails bearbeiten](designing/using/plain-text-html-modes.md)
       + [E-Mails des alten Editors in Email Designer konvertieren](designing/using/converting-emails-from-legacy-editor.md)
    + [E-Mail-Inhalte personalisieren](designing/using/personalization.md)
-   + [Verwenden von Produktlisten](designing/using/using-product-listings.md)
+   + [Produktlisten verwenden](designing/using/using-product-listings.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
@@ -162,7 +162,7 @@ ht-degree: 99%
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
       + [Sendungen in Vorschau anzeigen](sending/using/previewing-messages.md)
       + [Testversand durchführen](sending/using/sending-proofs.md)
-      + [E-Mail-Nachrichten mit zielgerichteten Profilen testen](sending/using/testing-messages-using-target.md)
+      + [E-Mail-Nachrichten mit ausgewählten Profilen testen](sending/using/testing-messages-using-target.md)
       + [KI-gestützte E-Mails](sending/using/predictive.md)
       + [E-Mail-Rendering](sending/using/email-rendering.md)
       + [Hinzufügen einer Kontrollgruppe](sending/using/control-group.md)
@@ -259,7 +259,7 @@ ht-degree: 99%
       + [Triggers in Experience Cloud konfigurieren](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
       + [Trigger testen](integrating/using/testing-your-triggers.md)
-      + [Anwendungsbeispiele zu Triggern für die abgebrochene Suche](integrating/using/abandonment-triggers-use-cases.md)
+      + [Anwendungsbeispiele zu Triggers für die abgebrochene Suche](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Erste Schritte mit der Integration von Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
       + [Daten zwischen Campaign und Dynamics 365 verwalten](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -353,7 +353,7 @@ ht-degree: 99%
          + [E-Mail mit angereicherten Feldern senden](automating/using/sending-email-enriched-fields.md)
          + [E-Mail mit Zusatzdaten personalisieren](automating/using/personalizing-email-with-additional-data.md)
          + [Wiederkehrende Push-Benachrichtigungen senden](automating/using/recurring-push-notifications.md)
-      + Segmentierung und Targeting {#segmentation-targeting}
+      + Segmentierung und Zielgruppenbestimmung {#segmentation-targeting}
          + [Beispiele für Abfragen ](automating/using/query-samples.md)
          + [Vereinigung von zwei eingegrenzten Audiences](automating/using/union-on-two-refined-audiences.md)
          + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
@@ -420,7 +420,7 @@ ht-degree: 99%
       + [Übersicht über das Datenmodell von Experience Platform](developing/using/aep-data-model-overview.md)
       + [Mapping-Definition](developing/using/aep-mapping-definition.md)
       + [Mapping-Aktivierung](developing/using/aep-mapping-activation.md)
-      + [Datenerfassung über APIs aktivieren](developing/using/aep-triggering-data-ingestion.md)
+      + [Datenaufnahme über APIs aktivieren](developing/using/aep-triggering-data-ingestion.md)
 + Verwalten{#administrating}
    + [Erste Schritte mit der Administration von Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Richtlinien für das Monitoring](administration/using/monitoring-guidelines.md)
@@ -447,8 +447,8 @@ ht-degree: 99%
       + [Konfigurieren von Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + SMS-Kanal konfigurieren {#configuring-sms}
-      + [Implementierung des SMS-Kanals](administration/using/configuring-sms-channel.md)
-      + [Protokoll und Einstellungen für den SMS-Anschluss](administration/using/sms-protocol.md)
+      + [SMS-Kanal implementieren](administration/using/configuring-sms-channel.md)
+      + [Protokoll und Einstellungen des SMS-Connectors](administration/using/sms-protocol.md)
       + [SMS-Fehlerbehebung](administration/using/troubleshooting-sms.md)
    + Anwendungskonfiguration {#application-settings}
       + [Über Campaign Standard-Einstellungen](administration/using/about-campaign-standard-settings.md)
