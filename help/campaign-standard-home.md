@@ -5,11 +5,11 @@ product: campaign
 title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '234'
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 ## Neue Funktionen
 
-* **[Falsche feste ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Absprünge aktualisierenInformieren Sie sich darüber, wie Sie falsche Absprünge nach einem Gmail-Ausfall aktualisieren
+* **[Aktualisieren falscher Hardbounces](https://helpx.adobe.com/de/campaign/kb/update-bounce-qualification.html)**<br/> Erfahren Sie, wie Sie falsche Hardbounces nach einem Gmail-Ausfall aktualisieren können.
 
-* **[Versionsplanung ](rn/using/release-planning.md)**<br/> Für Februar 2021 wurden die nächsten Versionshinweise zur Versionsplanung hinzugefügt
+* **[Versionsplanung](rn/using/release-planning.md)**<br/> Die bevorstehenden Veröffentlichungstermine im Februar 2021 wurden der Versionsplanung hinzugefügt.
 
 * **[Kontrollgruppen](sending/using/control-group.md)**<br/> Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
 
 * **[KI-gestützte E-Mails](sending/using/predictive.md)**<br/> Design und Versand mit KI-gestützten E-Mails optimieren.
 
-* **[Externe APII](automating/using/external-api.md)**<br/> Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
+* **[Externe API](automating/using/external-api.md)**<br/> Verwenden Sie die externe API-Aktivität, um Daten von einem externen System in den Workflow zu übertragen.
 
 * **[Erste Schritte mit mobilen Sendungen](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)**<br/> Weitere Informationen zu den allgemeinen Richtlinien für mobile Sendungen (SMS, Push, In-App).
 
