@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie E-Mail-Stile in Email Designer verwalten.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Um eine Spalte auszuwählen, können Sie auch folgendermaßen vorgehen:
 
 In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
 
-## Einstellungen des Stils anpassen        {#adjusting-style-settings}
+## Einstellungen des Stils anpassen         {#adjusting-style-settings}
 
 1. Wählen Sie in Ihrer E-Mail ein Element aus. Weiterführende Informationen dazu finden Sie unter [Element auswählen](#selecting-an-element).
 1. Passen Sie die Einstellungen nach Bedarf an. Für jedes ausgewählte Element sind unterschiedliche Einstellungen verfügbar.
@@ -184,7 +184,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Wählen Sie ein **[!UICONTROL Ziel]** aus, um festzulegen, in welchem Browserkontext Ihr Link geöffnet wird.
+1. Wählen Sie ein **[!UICONTROL Zielattribut]** aus, um festzulegen, in welchem Browserkontext Ihr Link geöffnet wird.
 
    ![](assets/stylelinks-target.png)
 
@@ -198,7 +198,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
 1. Speichern Sie Ihre Änderungen.
 
-## Inline-Styling-Attribute hinzufügen        {#adding-inline-styling-attributes}
+## Inline-Styling-Attribute hinzufügen         {#adding-inline-styling-attributes}
 
 Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen und im seitlichen Fenster seine Einstellungen anzeigen, können Sie seine Inline-Attribute und deren Werte ändern.
 
