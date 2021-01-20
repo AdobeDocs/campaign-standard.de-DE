@@ -6,9 +6,9 @@ description: Definieren Sie Zielgruppen-Populationen, wählen Sie Audiences, fil
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werde
 ## Zusätzliche Ressourcen
 
 * [Audience Ziel-Dienst verwenden](../../audiences/using/aep-about-audience-destinations-service.md)
-* [Microsoft Dynamics 365 verwenden](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Microsoft Dynamics 365 verwenden](../../integrating/using/d365-acs-get-started.md)
 * [Für Adobe freigegebene Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows zum Importieren von Profilen verwenden](../../automating/using/creating-import-workflow-templates.md)
 * [Videos zu Profilen und Audiences](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
