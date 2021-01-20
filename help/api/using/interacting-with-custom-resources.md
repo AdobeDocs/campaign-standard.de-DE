@@ -6,18 +6,18 @@ description: Erfahren Sie mehr über die Verwaltung benutzerdefinierter Ressourc
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 
 # Interagieren mit benutzerdefinierten Ressourcen {#interacting-with-custom-resources}
 
-Über den Endpunkt **/customResources** können Sie die benutzerdefinierten ACS-Ressourcen in REST verfügbar machen. Auf Grundlage dieser API ist eine Integration zwischen benutzerdefinierten Entitäten und externen Endpunkten möglich.
+Mit dem Endpunkt **/customResources** können Sie die benutzerdefinierten Kampagnen in REST verfügbar machen. Auf Grundlage dieser API ist eine Integration zwischen benutzerdefinierten Entitäten und externen Endpunkten möglich.
 
 Der Endpunkt /customResources verhält sich genauso wie der Endpunkt /profileAndServices.
 
