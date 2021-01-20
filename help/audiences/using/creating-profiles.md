@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie Profile erstellen und mithilfe von APIs 
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-translation-type: ht
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 * Import einer Profilliste von einer Datei über einen [Workflow](../../automating/using/creating-import-workflow-templates.md)
 * Datenerhebung online über [Landingpages](../../channels/using/getting-started-with-landing-pages.md)
 * Im Bulk-Modus über die [REST-API](../../api/using/get-started-apis.md)
-* Synchronisieren von Profilen in [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* Synchronisieren von Profilen in [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
 * Direkte Dateneingabe über die Benutzeroberfläche, wie unten beschrieben
 
 Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzeroberfläche erstellen können. Gehen Sie dazu folgendermaßen vor:
@@ -66,6 +66,6 @@ Das Profil wurde der Liste hinzugefügt.
 
 In diesem Video wird gezeigt, wie man Profile mit einem Workflow importiert.
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
