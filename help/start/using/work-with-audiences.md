@@ -6,9 +6,9 @@ description: '"Hier erfahren Sie, wie Sie in Adobe Campaign Standard die Anzeige
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
+workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Hand
 ### Synchronisieren von Profilen in Microsoft Dynamics 365
 
 Die Campaign Standard-Integration mit Microsoft Dynamics 365 ermöglicht Ihnen die Übermittlung von Kontaktdaten von Microsoft Dynamics 365 an die Campaign-Datenbank.
-Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingkampagnen verwendet werden. Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingkampagnen verwendet werden. Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
