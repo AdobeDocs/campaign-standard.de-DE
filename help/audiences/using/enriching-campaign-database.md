@@ -6,9 +6,9 @@ description: Hier erfahren Sie mehr über die verschiedenen Methoden zur Anreich
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Hand
 Die Campaign Standard-Integration mit Microsoft Dynamics 365 ermöglicht Ihnen die Übermittlung von Kontaktdaten von Microsoft Dynamics 365 an die Campaign-Datenbank.
 Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingkampagnen verwendet werden.
 
-Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
