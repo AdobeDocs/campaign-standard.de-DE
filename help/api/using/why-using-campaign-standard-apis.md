@@ -6,18 +6,18 @@ description: Erfahren Sie mehr über Campaign Standard-APIs und deren Verwendung
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 
 # Wozu dienen Campaign Standard-APIs? {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standard bietet APIs, damit sich vorhandene Systeme in die ACS-Plattform integrieren und reale Probleme in Echtzeit lösen lassen.
+Adobe Campaign Standard stellt APIs bereit, die die Integration bestehender Kampagnen in die Plattform ermöglichen, um Probleme in Echtzeit zu lösen.
 
 Öffentliche Websites wie die Anmelde- oder Abmeldeseite müssen eine Verbindung zu Backend-Systemen herstellen, um Profildaten speichern zu können. Backend-Systeme wie Adobe Campaign erlauben es, Profildaten zu erfassen und benutzerdefinierte Aktionen dafür auszuführen.
 
