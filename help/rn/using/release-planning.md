@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 505e2292639f617cbcedd8c7227529bf76d54508
+source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 96%
@@ -41,11 +41,11 @@ Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in 
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>25. bis 27. Januar 2021<br /> </td>
+   <td>1. bis 2. Februar 2021<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>1. bis 8. Februar 2021<br /> </td>
+   <td>08.02.2021<br /> </td>
   </tr>
  </tbody>
 </table>
