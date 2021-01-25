@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Alle Veröffentlichungsdaten können sich ändern: Wir empfehlen Ihnen, diese Se
 
 ## Version 21.1 – Februarversion {#release-21-1-release}
 
-Umgebungsaktualisierungen erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Ausführliche Informationen zu dieser Version finden Sie im Beginn [Versionshinweise](../../rn/using/release-notes.md), wenn die Stage Umgebung aktualisiert. Sollten Sie weitere Fragen haben, wenden Sie sich bitte an die [Kundenunterstützung von Adobe](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html).
+Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Weitere Informationen zu dieser Version werden den [Versionshinweisen](../../rn/using/release-notes.md) aufgeführt, sobald die Aktualisierungen der Staging-Umgebungen beginnen. Sollten Sie weitere Fragen haben, wenden Sie sich bitte an die [Kundenunterstützung von Adobe](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html).
 
 <table>
  <thead>
