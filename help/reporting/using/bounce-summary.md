@@ -7,18 +7,18 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
 
-# Bounces{#bounce-summary}
+# Bounce-Zusammenfassung{#bounce-summary}
 
-Dieser Bericht beschreibt die bei Versänden aufgetretenen Hard- und Soft-Fehler sowie die automatische Verarbeitung von Absprüngen (siehe [Verstehen von Versand-Fehlern](../../sending/using/understanding-delivery-failures.md)).
+Dieser Bericht enthält alle bei Sendungen aufgetretenen Hard- und Softbounces sowie die automatische Bounce-Verarbeitung (weitere Informationen finden Sie unter [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
