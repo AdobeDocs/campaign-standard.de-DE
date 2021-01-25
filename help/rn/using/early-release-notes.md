@@ -9,10 +9,10 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: a1a670f32201ba6b8fa4488a5ab3dd881aece097
+source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 5%
+source-wordcount: '2586'
+ht-degree: 4%
 
 ---
 
@@ -41,12 +41,13 @@ Diese Seite beschreibt neue Funktionen, Verbesserungen und Fehlerbehebungen, die
 <tbody> 
 <tr> 
 <td>
-<p>Email Feedback Service (EFS) ist ein skalierbarer Dienst, der das Feedback direkt von der erweiterten MTA erfasst und damit die Genauigkeit der Berichte verbessert. Diese Funktion wird als private Betaversion veröffentlicht und steht allen Kunden in zukünftigen Versionen schrittweise zur Verfügung.</p>
+<p>Email Feedback Service (EFS) ist ein skalierbarer Dienst, der die Genauigkeit der Berichte verbessert, indem E-Mail-Feedback direkt aus der erweiterten MTA erfasst werden.</p>
 <ul>
-<li>Alle Kategorien von Ereignissen werden erfasst: Verzögerungen, Auslieferung, Versand, Abbestellung (Link, Liste), Feedback (Spam-Beschwerden, Async-Ereignis).</li>
+<li>Alle Kategorien von Ereignissen werden erfasst: Verzögerungen, Auslieferung, Senden, Abbestellen (Link, Liste), Feedback (Spam-Beschwerden, asynchrone Ereignis).</li>
 <li>Die Berechnung von Sent/Delivered-Indikatoren basiert nun auf Echtzeitrückmeldungen der erweiterten MTA, um Genauigkeit und Reaktivität zu verbessern.</li>
 <li>EFS löst das Problem der zeitgleichen Absprünge des Berichte und nimmt 80% des Ladevorgangs vom InMail-Prozess ab.</li>
 </ul>
+<p>Diese Funktion wird als <strong>private Beta</strong> veröffentlicht und steht allen Kunden in zukünftigen Versionen schrittweise zur Verfügung.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -61,7 +62,8 @@ Diese Seite beschreibt neue Funktionen, Verbesserungen und Fehlerbehebungen, die
 <tbody> 
 <tr> 
 <td>
-<p>Die Integration mit Adobe Experience Manager wurde verbessert: Sie können jetzt mehrsprachige Inhalte einfacher aus Adobe Experience Manager importieren. Adobe Campaign Standard erkennt jetzt automatisch Sprachvarianten von Adobe Experience Manager-Inhalten und ermöglicht den Import und die Erstellung von Massenvarianten. Dadurch wird die Anzahl der Schritte, die ein Anwender ausführen muss, um eine mehrsprachige Kampagne auf der Grundlage von Adobe Experience Manager-Inhalten zu erstellen, erheblich vereinfacht.
+<p>Die Integration der Kampagne mit Adobe Experience Manager wurde verbessert: Sie können jetzt mehrsprachige Inhalte einfacher aus Adobe Experience Manager importieren. <p>
+<p>Adobe Campaign Standard erkennt jetzt automatisch Sprachvarianten von Adobe Experience Manager-Inhalten und ermöglicht den Import und die Erstellung von Massenvarianten. Dadurch wird die Anzahl der Schritte, die ein Anwender ausführen muss, um eine mehrsprachige Kampagne auf der Grundlage von Adobe Experience Manager-Inhalten zu erstellen, erheblich vereinfacht.</p>
 </p>
 </td> 
 </tr> 
@@ -90,27 +92,22 @@ Diese Seite beschreibt neue Funktionen, Verbesserungen und Fehlerbehebungen, die
 
 **Verbesserungen**
 
-* Die Integration von Microsoft Dynamics 365 wurde durch eine dedizierte Self-Service-Integrations-App und einen verbesserten Implementierungsprozess verbessert. [Mehr dazu](../../integrating/using/d365-acs-get-started.md)
+* **Die Microsoft Dynamics 365** -Integration wurde durch eine eigens entwickelte Self-Service-Integrations-App und einen verbesserten Implementierungsprozess verbessert. [Mehr dazu](../../integrating/using/d365-acs-get-started.md)
 
-* Es wurde ein Fehler behoben, der dazu führte, dass Versand aufgrund bestimmter Prozesse sehr langsam ausgeführt wurden. Dies war auf fehlerhafte Einheiten zurückzuführen, die für mehrere Parameter definiert wurden (z. B. Millisekunden anstelle von Sekunden).
+* Es wurde eine Verbesserung vorgenommen, um die Fehlerbehebung zu erleichtern, wenn Probleme mit dem **Transactional Messaging-Prozess** auftreten. Technische Administratoren der Adobe können nun die Ablaufverfolgung für jeden Prozess verwenden, ohne ihn neu zu starten.
 
-* Es wurde ein Fehler behoben, der auftrat, wenn das Mobile SDK eine offene Verfolgungsanfrage basierend auf der Bedingung gesendet hat, dass deliveryId/MessageID nicht null ist. Dies führt bei Versänden mit deaktivierter Verfolgung zu 404 Fehlern. Eine zusätzliche Variable (acsDeliveryTracking) mit Informationen zum Verfolgungsstatus des Versands wird jetzt in der Nutzlast gesendet. Diese Variable kann je nach dem festgelegten Verfolgungsstatus zwei Werte ein- oder ausblenden.
+* Mit der Liste **Profil** können Sie jetzt nach Datensätzen suchen, die auf einem der folgenden Felder basieren: E-Mail-, Vor-, Nachname- oder benutzerdefinierte Felder, die beim Erweitern der Profil-Ressource in der erweiterten Filterung hinzugefügt wurden. Diese Funktion ist auch in Campaign Standard-APIs verfügbar, die den Parameter filterType verwenden.
 
-* Es wurde eine Verbesserung vorgenommen, um die Fehlerbehebung bei Problemen mit dem Transaktionsnachrichtenprozess zu erleichtern. Technische Administratoren der Adobe können nun die Ablaufverfolgung für jeden Prozess verwenden, ohne ihn neu zu starten.
+* Ein Parameter wurde an die Anzahl der Container angepasst, die den Datenbankpooling-Prozess **Transaktionsnachrichten** ausführen. Dadurch kann die Last gleichmäßig auf alle verwendeten Container verteilt werden und eine optimale Leistung erzielen.
 
-* Mit der Liste &quot;Profil&quot;können Sie jetzt Datensätze anhand eines der folgenden Felder suchen: E-Mail-, Vor-, Nachname- oder benutzerdefinierte Felder, die beim Erweitern der Profil-Ressource in der erweiterten Filterung hinzugefügt wurden. Diese Funktion ist auch in Campaign Standard-APIs verfügbar, die den Parameter filterType verwenden.
+* Eine neue Funktion **GetOption** ist jetzt in Aktivitäten verfügbar, die Ereignis-Variablen verwenden, nachdem ein Workflow mit externen Parametern aufgerufen wurde. Damit können Sie den Wert einer bestimmten Funktion zurückgeben.
 
-* Ein Parameter wurde an die Anzahl der Container angepasst, die den Datenbankpooling für Transaktionsnachrichten ausführen. Dadurch kann die Last gleichmäßig auf alle verwendeten Container verteilt werden und eine optimale Leistung erzielen.
+* Eine neue Option ermöglicht es dem Campaign Standard, die Verfügbarkeit von **physischem Speicher** auf Ihrem System zu überprüfen, bevor ein Workflow gestartet wird. Ist der Arbeitsspeicher zu niedrig, wird die Ausführung des Arbeitsablaufs verzögert, bis der Systemspeicher diesen Schwellenwert erreicht. Dadurch wird eine weitere Leistungsminderung vermieden und das Risiko eines Ausfalls verringert. Der Arbeitsablauf wird automatisch fortgesetzt, sobald die Belastung des Servers nachlässt und der Arbeitsspeicher zunimmt. Beachten Sie, dass diese Option schreibgeschützt ist und nicht geändert werden kann.
 
-* Eine neue Funktion (GetOption) ist jetzt in Aktivitäten verfügbar, die Ereignis-Variablen verwenden, nachdem ein Workflow mit externen Parametern aufgerufen wurde. Damit können Sie den Wert einer bestimmten Funktion zurückgeben.
-
-* Eine neue technische Option wurde hinzugefügt. Dadurch kann Campaign Standard vor dem Starten eines Workflows prüfen, ob auf Ihrem System genügend physischer Speicher verfügbar ist. Ist der Arbeitsspeicher zu niedrig, wird die Ausführung des Arbeitsablaufs verzögert, bis der Systemspeicher diesen Schwellenwert erreicht. Dadurch soll eine weitere Leistungsminderung vermieden und das Risiko eines Ausfalls verringert werden. Bitte versuchen Sie, diesen Arbeitsablauf auf einen Zeitraum mit weniger Aktivität umzuplanen und versuchen Sie es erneut. Der Workflow wird automatisch fortgesetzt, sobald der Serverstress gelockert ist. Beachten Sie, dass diese Option schreibgeschützt ist und nicht geändert werden kann.
 
 **Sonstige Änderungen**
 
 * Es wurde ein Fehler in eine Warnung bei der Nachrichtenvorbereitung geändert, wenn die Beschränkung von 100 Inhaltsdownloads pro rollierender Stunde erreicht wurde. Beim Erreichen des Grenzwerts wird nun eine Warnung angezeigt, die den weiteren Versand ermöglicht.
-
-* Für Push-Transaktionsnachrichten, die auf Profile abzielen, ist jetzt ein neues Versand-Mapping (mapRtEventAppSubRcp) verfügbar. Die Versand-, Ausschluss- und Trackinglogs für diese Sendungen stehen nun in den Tabellen &quot;broadLogAppSubRcp&quot;, &quot;excludeLogAppSubRcp&quot; und &quot;trackingLogAppSubRcp&quot; zur Verfügung. Dadurch wird ein Fehler behoben, der dazu führte, dass die Versandanalyse beim Senden einer Push-Transaktionsnachricht mit der Zieldimension Profil fehlschlug.
 
 * Beim Anreichern von Transaktionsnachrichten-Inhalten werden die Links beim Abrufen von Daten aus der Profil-Tabelle nicht mehr abgerufen. Dadurch wird die Latenz bei der Nachrichtenvorbereitung verringert und aufgrund einer fehlerhaften Beziehung, die mit der Profil-Tabelle definiert wurde, werden leere Profil-Daten vermieden.
 
@@ -120,15 +117,13 @@ Diese Seite beschreibt neue Funktionen, Verbesserungen und Fehlerbehebungen, die
 
 * Die Aktivität **Übertragungsdatei** generiert jetzt eine zusätzliche Variable (filesCount), die die Anzahl der hochgeladenen oder heruntergeladenen Dateien enthält. (CAMP-45842)
 
-* Der SMS-Connector kann jetzt mit jeder Nachricht mehrere optionale Parameter senden.
+* Der **SMS-Connector** kann jetzt mit jeder Nachricht mehrere optionale Parameter senden.
 
-* Es wurde ein Fehler behoben, der verhinderte, dass Benutzer mit der Rolle &quot;DATENMODEL&quot;Versand-Protokollerweiterungen veröffentlichen konnten. Dieser Vorgang ist jetzt für die Rolle &quot;DATENMODEL&quot;verfügbar. (CAMP-46604)
-
-* Es wurde ein Problem in Workflows behoben, das beim Kopieren und Einfügen einer **Deduplizierung-Duplikate**-Aktivität auftrat, die einmal ausgeführt wurde und eine temporäre Ressource nutzte. Nach der Duplizierung wurde die Ressource der Aktivität automatisch auf &quot;Leer&quot;eingestellt, was zu Problemen in anderen Aktivitäten des Workflows führte. Nach dem Einfügen bleibt die Ressource der Aktivität gleich, damit der Fehler so schnell wie möglich und nicht später im Workflow ausgelöst wird. (CAMP-46903)
+* Benutzer mit der Rolle &quot;DATAMODEL&quot;können jetzt Versand-Protokollerweiterungen veröffentlichen. (CAMP-46604)
 
 * Die Fehlermeldung, die beim Versuch angezeigt wird, eine Ressource zu veröffentlichen, die auf eine benutzerdefinierte Ressource ausgerichtet ist, die nicht mehr vorhanden ist, wurde klarer formuliert. (CAMP-46893)
 
-* Die folgenden Sprachen wurden zur Liste &quot;Bevorzugte Sprache&quot;hinzugefügt: Indonesisch - Indonesien (in-id), Englisch - Schweden (en-se), Englisch - Asiatisch-Pazifischer Raum (en-ap), Englisch - Japan (en-jp), Spanisch - Lateinamerika (es-la). (CAMP-46351)
+* Die folgenden Sprachen wurden der Liste **Bevorzugte Sprache** hinzugefügt: Indonesisch - Indonesien (in-id), Englisch - Schweden (en-se), Englisch - Asiatisch-Pazifischer Raum (en-ap), Englisch - Japan (en-jp), Spanisch - Lateinamerika (es-la). (CAMP-46351)
 
 * Die Auswahl für Profil beim Testen einer Landingpage verwendet jetzt die profileBase-Ressource anstelle von Profil, um Zeitüberschreitungen zu verhindern.
 
@@ -138,19 +133,23 @@ Diese Seite beschreibt neue Funktionen, Verbesserungen und Fehlerbehebungen, die
 
 * Verbesserte Warn- und Fehlermeldungen in den Versand-Vorbereitungsprotokollen.
 
-* Verbesserte Fehlerprotokolle beim Versuch, eine Verbindung mit dem IMS herzustellen.
+* Verbesserte Fehlerprotokolle beim Versuch, eine Verbindung mit Adobe Identity Management Service (IMS) herzustellen.
 
-* Sie können jetzt die Dimensionen für Versand und Kampagne weiter filtern, indem Sie die Suchleiste im dynamischen Berichte verwenden.
+* Sie können jetzt die Dimensionen für Versand und Kampagne weiter filtern, indem Sie die Suchleiste in **Dynamischer Berichte** verwenden.
 
-* Das Gültigkeitsdatum der transaktionalen SMS-Nachricht kann jetzt durch den für den Ablaufparameter in der Transaktionsnachrichten-API festgelegten Wert definiert werden. (CAMP-36600)
+* Das Gültigkeitsdatum der transaktionalen SMS-Nachricht kann nun durch den für den Ablaufparameter in der **Transaktionsnachrichten-API** festgelegten Wert definiert werden. (CAMP-36600)
 
 * Im dynamischen Berichte zeigte der integrierte Bericht **Versand-Zusammenfassung** falsche Daten für die Metrik für die Abmeldung an. Eine neue Metrik mit dem Namen **Eindeutige Abmeldung** wurde hinzugefügt, um dies zu beheben. (CAMP-46445)
 
 **Korrekturen**
 
+* Es wurde ein Fehler behoben, der dazu führte, dass Versand aufgrund bestimmter Prozesse sehr langsam ausgeführt wurden. Dies war auf fehlerhafte Einheiten zurückzuführen, die für mehrere Parameter definiert wurden (z. B. Millisekunden anstelle von Sekunden).
+* Es wurde ein Problem in Workflows behoben, das beim Kopieren und Einfügen einer **Deduplizierung-Duplikate**-Aktivität auftrat, die einmal ausgeführt wurde und eine temporäre Ressource nutzte. Nach der Duplizierung wurde die Ressource der Aktivität automatisch auf &quot;Leer&quot;eingestellt, was zu Problemen in anderen Aktivitäten des Workflows führte. Nach dem Einfügen bleibt die Ressource der Aktivität gleich, damit der Fehler so schnell wie möglich und nicht später im Workflow ausgelöst wird. (CAMP-46903)
+* Es wurde ein Fehler behoben, der auftrat, wenn das Mobile SDK eine offene Verfolgungsanfrage basierend auf der Bedingung gesendet hat, dass deliveryID/MessageID nicht null ist. Dies führt bei Versänden mit deaktivierter Verfolgung zu 404 Fehlern. Eine zusätzliche Variable (acsDeliveryTracking) mit Informationen zum Verfolgungsstatus des Versands wird jetzt in der Nutzlast gesendet. Diese Variable kann je nach dem festgelegten Verfolgungsstatus zwei Werte ein- oder ausblenden.
 * Es wurde ein Fehler behoben, der verhinderte, dass Versandberichte ausgeführt wurden, wenn 5000 Zeilen angezeigt wurden.
 * Es wurde ein Problem mit A/B-Tests behoben, durch das verhindert wurde, dass der Inhalt der Variante B aktualisiert wurde, nachdem die Versandvorlage geändert wurde. (CAMP-45235)
 * Es wurde ein Fehler behoben, der dazu führte, dass der Transaktionsnachrichtenprozess blockiert wurde und das Senden von Nachrichten verhindert wurde.
+* Es wurde ein Fehler behoben, der dazu führte, dass die Analyse des Versands fehlschlug, wenn eine transaktionale Push-Nachricht mit der Dimension &quot;Profil-Zielgruppe&quot;gesendet wurde. Für Push-Transaktionsnachrichten, die auf Profile abzielen, ist jetzt ein neues Versand-Mapping (mapRtEventAppSubRcp) verfügbar. Die Versand-, Ausschluss- und Trackinglogs für diese Sendungen stehen nun in den Tabellen &quot;broadLogAppSubRcp&quot;, &quot;excludeLogAppSubRcp&quot; und &quot;trackingLogAppSubRcp&quot; zur Verfügung.
 * Es wurde ein Problem behoben, das zu Navigationsproblemen führen konnte, wenn auf einen internen Link geklickt wurde (z. B. beim Zugriff auf den übergeordneten Versand über einen Testversand-Zusammenfassungsbildschirm).
 * Es wurde ein Fehler behoben, der verhinderte, dass beim Erstellen eines Versands alle verfügbaren Inhaltsvorlagen für Experience Manager angezeigt wurden. (CAMP-45990)
 * Es wurde ein Fehler in Workflows behoben, der dazu führte, dass Fehlermeldungen nach dem Hinzufügen der Spalte **Grund** zur zusätzlichen Registerkarte &quot;Daten&quot;nicht in den Versandlogs angezeigt wurden. (CAMP-45139)
