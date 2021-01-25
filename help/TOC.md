@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -262,16 +262,16 @@ ht-degree: 97%
       + [Trigger testen](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zu Triggers für die abgebrochene Suche](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Erste Schritte mit der Microsoft Dynamics 365-Integration](integrating/using/d365-acs-get-started.md)
+      + [Erste Schritte mit der Integration von Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Best Practices und Einschränkungen](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Microsoft Dynamics 365 konfigurieren](integrating/using/d365-acs-configure-d365.md)
-      + [Kampagne und Adobe I/O konfigurieren](integrating/using/d365-acs-configure-adobe-io.md)
-      + Integrations-App {#configure-integration-tool} konfigurieren
+      + [Campaign und Adobe I/O konfigurieren](integrating/using/d365-acs-configure-adobe-io.md)
+      + Integrations-App konfigurieren {#configure-integration-tool}
          + [Erste Schritte mit der Integrations-App](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [Zugriff auf die Integrations-App](integrating/using/d365-acs-self-service-app-control-access.md)
          + [Systeme mit der Integrations-App verbinden](integrating/using/d365-acs-self-service-app-settings.md)
-         + [Synchronisierungs-Workflows verwalten](integrating/using/d365-acs-self-service-app-workflows.md)
-         + [Daten zwischen Microsoft Dynamics 365 und Kampagne zuordnen](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [Synchronisations-Workflows verwalten](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [Daten zwischen Microsoft Dynamics 365 und Campaign zuordnen](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Integration mit Microsoft Dynamics 365 verwenden](integrating/using/d365-acs-using-the-integration.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
