@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie die prädiktive Sendezeit und Interaktionsbew
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1073'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Erste Schritte mit KI-gestützten E-Mails{#journey-ai-ovv}
 
-Mit Campaign können Sie die Gestaltung und den Versand von Customer Journeys optimieren, um die Interaktionsvorlieben von Einzelpersonen vorherzusagen. Mit Journey AI kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen.
+Mit Campaign können Sie die Gestaltung und den Versand von Customer Journeys optimieren, um die Interaktionsvorlieben von Kontakten vorherzusagen. Mit Journey AI kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen.
 
 **Modelle für maschinelles Lernen**
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard bietet zwei neue Modelle für maschinelles Lernen: **Pr�
 >[!CAUTION]
 >Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
 >
->Die Funktion erfordert die Verwendung einer Azurblauer oder Amazon S3 Datenspeicherung, die vom Kunden bereitgestellt werden muss.
+>Die Funktion erfordert die Verwendung eines Azure- oder Amazon S3-Speichers, der vom Kunden zur Verfügung gestellt werden muss.
 
 ## Prädiktive Sendezeitoptimierung{#predictive-send-time}
 
