@@ -1,26 +1,26 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Produktlisten in Transaktionsnachrichten verwenden           '
-description: Erfahren Sie, wie Sie Produktauflistungen in Transaktionsnachrichten verwenden.
+title: 'Produktlisten in Transaktionsnachrichten verwenden            '
+description: Erfahren Sie, wie Sie Produktlisten in Transaktionsnachrichten verwenden.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Produktlisten in Transaktionsnachrichten verwenden            {#using-product-listings}
+# Produktlisten in Transaktionsnachrichten verwenden              {#using-product-listings}
 
 >[!IMPORTANT]
 >
->Produktlisten stehen nur für **transaktionale E-Mail-Nachrichten** über die [E-Mail-Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)-Schnittstelle zur Verfügung.
+>Produktlisten sind für **Transaktions-E-Mails** nur in der Benutzeroberfläche von [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) verfügbar.
 
 Beim Bearbeiten des Inhalts einer Transaktions-E-Mail können Sie Produktlisten erstellen, die auf eine oder mehrere Datenkollektionen verweisen. Beispielsweise können Sie bei einem abgebrochenen Einkauf eine E-Mail versenden, in der alle Produkte samt Bild, Preis und Link aufgelistet sind, die sich beim Verlassen der Website im Warenkorb des Benutzers befanden.
 
@@ -32,7 +32,7 @@ Sie können sich die erforderlichen Schritte zur Konfiguration von Produktlisten
 >
 >Adobe Campaign unterstützt keine verschachtelten Produktlisten, was bedeutet, dass Sie keine Produktliste in eine andere einfügen können.
 
-## Produktliste definieren          {#defining-a-product-listing}
+## Produktliste definieren           {#defining-a-product-listing}
 
 Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, müssen Sie zuerst auf Ereignisebene die Liste der Produkte und die Felder für jedes Produkt der Liste definieren, die angezeigt werden sollen. Weiterführende Informationen dazu finden Sie im Abschnitt [Datenkollektionen definieren](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
@@ -74,7 +74,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
    >
    >Wenn die Elemente in Ihrer Liste senkrecht dargestellt werden sollen (**[!UICONTROL Spalte]**), entspricht die Höchstzahl der Elemente der ausgewählten Strukturkomponente (2, 3 oder 4 Spalten). Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Produktliste befüllen          {#populating-the-product-listing}
+## Produktliste befüllen           {#populating-the-product-listing}
 
 Gehen Sie folgendermaßen vor, um eine Liste mit Produkten darzustellen, die von dem Ereignis stammen, das mit der Transaktions-E-Mail verknüpft ist.
 
