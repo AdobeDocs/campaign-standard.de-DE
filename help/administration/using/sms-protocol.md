@@ -226,7 +226,7 @@ Adobe Campaign Standard sendet nur dann eine `DELIVER_SM_RESP`, wenn alle Verarb
 
 Diese PDU wird nur verwendet, um zu überprüfen, ob die Verbindung live ist. Ihre Häufigkeit sollte entsprechend den Bedürfnissen des Providers festgelegt werden.
 
-Die Standardeinstellung von 60 Sekunden entspricht in den meisten Fällen den im externen Konto festgelegten Konfigurationen.
+Die Standardeinstellung von 60 Sekunden entspricht den meisten im externen Konto festgelegten Konfigurationen.
 
 #### ENQUIRE_LINK_RESP {#enquire-links-resp}
 
@@ -287,7 +287,7 @@ Die Felder `submit date` und `done date` enthalten Zeitstempel, die angeben, wan
 
 Das Feld &quot;stat&quot; ist wichtig, da es den Status der Nachricht angibt. Die einzigen wichtigen Status sind `DELIVRD`, `UNDELIV` und `REJECTD`. Der Status `DELIVRD` zeigt einen Erfolg an, die beiden anderen einen Fehler. Andere Werte sind möglich, aber es handelt sich in der Regel um Zwischenbenachrichtigungen, z. B. wenn der MT den Mobilnetzbetreiber erreicht, aber nicht das Mobiltelefon. Diese Zwischenbenachrichtigungen werden von Adobe Campaign ignoriert.
 
-Das Feld &quot;err&quot; enthält den Provider-spezifischen Fehler-Code. Der Provider muss eine Tabelle möglicher Fehler-Codes zusammen mit ihrer Bedeutung bereitstellen, damit dieser Wert interpretiert werden kann.
+Das Feld &quot;err&quot; enthält den Provider-spezifischen Fehler-Code. Um die Interpretation der Werte zu ermöglichen, muss der Provider eine Tabelle möglicher Fehler-Codes und deren Bedeutung bereitstellen.
 
 Schließlich enthält das Textfeld normalerweise den Anfang des Textes des MT. Dies wird von Adobe Campaign ignoriert und von einigen Providern nicht übertragen, um Lecks personenbezogener Daten und den Verbrauch von Netzwerkbandbreite zu vermeiden. Bei der Fehlersuche kann man durch das Auslesen dieses Felds den zu einem Test-MT passenden SR leichter erkennen.
 
@@ -337,7 +337,7 @@ Bei Kodierungsproblemen sollten Sie Folgendes überprüfen:
 
 * Sie sollten wissen, welche Zeichen zu welcher Kodierung gehören. GSM7 unterstützt diakritische Zeichen (Akzente) nicht vollständig. Besonders im Französischen, wo é und è zu GSM7 gehören, ê, â oder ï aber nicht. Dasselbe gilt für Spanisch.
 
-* Das C mit Unterhäkchen (ç) ist im GSM7-Alphabet nur in Großbuchstaben vorhanden, einige Telefone geben es jedoch in Kleinbuchstaben oder &quot;intelligenten&quot; Großbuchstaben wieder. Die allgemeine Empfehlung lautet, dies vollständig zu vermeiden und das Unterhäkchen zu entfernen oder auf UCS-2 umzusteigen.
+* Das C mit Unterhäkchen (ç) ist im GSM7-Alphabet nur in Großbuchstaben vorhanden, einige Telefone geben es jedoch in Kleinbuchstaben oder intelligenter Gross-/Kleinschreibung wieder. Die allgemeine Empfehlung lautet, dies vollständig zu vermeiden und das Unterhäkchen zu entfernen oder auf UCS-2 umzusteigen.
 
 * **Verwenden Sie kein ASCII in SMS**, es sei denn, dies wird vom SMSC-Provider ausdrücklich verlangt. Diese Kodierung verschwendet Speicherplatz, da sie 8-Bit-Zeichen und eine geringere Abdeckung als GSM7 aufweist. Diese Kodierung kann für CDMA-Netzwerke erforderlich sein, die in Nordamerika verwendet werden.
 
@@ -478,7 +478,7 @@ Die Angabe von Kurzwahlnummern ist für zwei Funktionen hilfreich:
 
 * Die Vorschau zeigt die Kurzwahlnummer an, wenn keine Anrufernummer angegeben wurde. Es wird das tatsächliche Verhalten auf dem Mobiltelefon widergespiegelt.
 
-* Die Einstellung der Blockierungsliste der automatischen Antwortfunktion sendet nur, um den Benutzer für eine bestimmte Kurzwahlnummer unter Quarantäne zu stellen.
+* Die Blockierungslisten-Einstellung der automatischen Antwortfunktion stellt Benutzer nur für die jeweilige Kurzwahlnummer unter Quarantäne.
 
 #### Anrufer-TON/-NPI, Empfänger-TON/-NPI {#ton-npi}
 
@@ -509,7 +509,7 @@ Berechnung der optimalen Formel für das Übertragungsfenster:
 
 * Messen Sie die maximale Latenz zwischen `SUBMIT_SM` und `SUBMIT_SM_RESP`.
 
-* Multiplizieren Sie diesen Wert in Sekunden mit dem maximalen Durchsatz an MT. Daraus ergibt sich der Wert für das optimale Übertragungsfenster.
+* Multiplizieren Sie diesen in Sekunden angegebenen Wert mit dem maximalen MT-Durchsatz. Daraus ergibt sich der Wert für das optimale Übertragungsfenster.
 
 Beispiel: Wenn Sie für den maximalen Durchsatz an MT 300 SMS/s eingestellt haben und die Latenz zwischen `SUBMIT_SM` und `SUBMIT_SM_RESP` im Durchschnitt 100 ms beträgt, wäre der optimale Wert `300×0.1 = 30`.
 
@@ -521,7 +521,7 @@ Um die Gesamtdurchsatzgrenze zu ermitteln, multiplizieren Sie diese Gesamtanzahl
 
 0 bedeutet keine Begrenzung, der MTA sendet MT so schnell wie möglich.
 
-Im Allgemeinen wird empfohlen, diese Einstellung unter 1.000 zu halten, da es unmöglich ist, einen genauen Durchsatz oberhalb dieser Zahl zu garantieren, es sei denn, es wurde mit der endgültigen Architektur und dem speziell angefragten SMPP-Provider ordnungsgemäß ein Benchmark durchgeführt. Möglicherweise ist es besser, die Anzahl der Verbindungen auf über 1.000 MT/s zu erhöhen.
+Im Allgemeinen wird empfohlen, diese Einstellung unter 1.000 zu halten, da es unmöglich ist, einen genauen Durchsatz oberhalb dieser Zahl zu garantieren, es sei denn, es wurde mit der endgültigen Architektur ordnungsgemäß ein Benchmark durchgeführt. Wenn Sie einen Durchsatz von über 1.000 benötigen, kontaktieren Sie bitte Ihren Provider. Möglicherweise ist es besser, die Anzahl der Verbindungen auf über 1.000 MT/s zu erhöhen.
 
 #### Dauer bis zu einer erneuten Verbindung {#time-reconnection}
 
@@ -636,7 +636,7 @@ Standardmäßig werden bis zu 10 alphanumerische Zeichen nach `id:` erfasst.
 
 Der Regex muss über genau eine Erfassungsgruppe mit einem Teil in Klammern verfügen. Der ID-Teil muss in Klammern eingeschlossen sein. Das Regex-Format ist PCRE.
 
-Achten Sie beim Anpassen dieser Einstellung darauf, so viel Kontext wie möglich einzubeziehen, um Fehlauslösungen zu vermeiden. Wenn bestimmte Präfixe vorhanden sind, z. B. `id:` im Standard, müssen Sie sie in den Regex aufnehmen. Verwenden Sie außerdem so weit wie möglich Worttrennzeichen (\b), um zu vermeiden, dass Text in der Mitte eines Wortes erfasst wird.
+Achten Sie beim Anpassen dieser Einstellung darauf, so viel Kontext wie möglich einzubeziehen, um Fehlauslösungen zu vermeiden. Wenn bestimmte Präfixe vorhanden sind, z. B. `id:` im standardisierten Präfix, müssen Sie sie in den Regex aufnehmen. Verwenden Sie außerdem so weit wie möglich Worttrennzeichen (\b), um zu vermeiden, dass Text in der Mitte eines Wortes erfasst wird.
 
 Wenn nicht genügend Kontext in den Regex aufgenommen wird, kann dies zu einer kleinen Sicherheitslücke führen: Der tatsächliche Inhalt der Nachricht kann in den SR aufgenommen werden. Wenn Sie nur ein bestimmtes ID-Format ohne Kontext verwenden, z. B. eine UUID, wird möglicherweise der eigentliche Textinhalt analysiert, z. B. eine UUID, die in das Textfeld eingebettet ist, anstatt der ID.
 
@@ -708,7 +708,7 @@ Die Einstellung **Schlüsselwort** ist ein Präfix. Wenn Sie beispielsweise &quo
 
 Die Spalte **Antwort** enthält den Antworttext. In diesem Bereich ist keine Personalisierung möglich. Wenn Sie dieses Feld leer lassen, wird keine Nachricht als Antwort gesendet, aber die zusätzliche Aktion wird trotzdem ausgelöst.
 
-Die Spalte **Zusätzliche Aktion** enthält eine zusätzliche Aktion, wenn sowohl **Schlüsselwort** als auch **Kurzwahlnummer** übereinstimmen. Eine leere Kurzwahlnummer stimmt mit allen Kurzwahlnummern überein. Sie können unter Quarantäne stellen oder aus der Quarantäne holen. Mit dem Wert &quot;Ohne&quot; wird auf den Text geantwortet. Wenn Sie eine **Zusätzliche Aktion** angeben, aber das Feld **Antwort** leer lassen, wird die Aktion ausgeführt, aber es wird keine Antwort gesendet. Quarantäne wird nur für die angegebene Kurzwahlnummer oder alle Kurzwahlnummern angewendet, wenn das Feld leer gelassen wird.
+Die Spalte **Zusätzliche Aktion** enthält eine zusätzliche Aktion, wenn sowohl **Schlüsselwort** als auch **Kurzwahlnummer** übereinstimmen. Eine leere Kurzwahlnummer stimmt mit allen Kurzwahlnummern überein. Sie können unter Quarantäne stellen oder aus der Quarantäne holen. Mit dem Wert &quot;Keine&quot; wird auf den Text geantwortet. Wenn Sie eine **Zusätzliche Aktion** angeben, aber das Feld **Antwort** leer lassen, wird die Aktion ausgeführt, aber es wird keine Antwort gesendet. Quarantäne wird nur für die angegebene Kurzwahlnummer oder alle Kurzwahlnummern angewendet, wenn das Feld leer gelassen wird.
 
 >[!IMPORTANT]
 >
@@ -770,7 +770,7 @@ Die Anzahl der Threads kann vom Kunden nicht geändert werden, da Konfigurations
 
 #### MT, SR und Broadlog-Einträge abgleichen {#matching-mt-sr}
 
-In Adobe Campaign ist eine Nachricht ein Broadlog-Eintrag. In Adobe Campaign Standard müssen externe Connectoren nur die funktionierende Broadlog-Tabelle kennen: `nmsBroadLogExec`. Ein Workflow ist dafür zuständig, Broadlog-Einträge wieder in ihre jeweiligen Zielgruppendimensionen zurückzukopieren (nmsBroadLogXXX).
+In Adobe Campaign ist eine Nachricht ein Broadlog-Eintrag. In Adobe Campaign Standard müssen externe Connectoren nur die funktionierende Broadlog-Arbeitstabelle kennen: `nmsBroadLogExec`. Ein Workflow ist dafür zuständig, Broadlog-Einträge wieder in ihre jeweiligen Zielgruppendimensionen zurückzukopieren (nmsBroadLogXXX).
 
 Leider erlaubt SMPP nicht, eine ID zusammen mit einer Nachricht zu senden: Der Provider versieht jeden MT mit einer MT-ID und stellt dann einen oder mehrere SR mit derselben ID zur Verfügung.
 
