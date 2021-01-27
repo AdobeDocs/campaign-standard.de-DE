@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen, verwalten
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Um eine Folgenachricht zu senden, müssen Sie zunächst das Ereignis entsprechen
 
 Mit Ausführung der Veröffentlichung werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Die Schritte zum Senden der Folgenachricht sind in [diesem Abschnitt](#sending-a-follow-up-message) beschrieben.
 
-## Zugriff auf die Folgenachrichten        {#accessing-the-follow-up-messages}
+## Zugriff auf die Folgenachrichten         {#accessing-the-follow-up-messages}
 
 Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorlage notwendig. Allerdings kann die bei der Veröffentlichung des Ereignisses erstellte [Transaktionsnachricht](../../channels/using/editing-transactional-message.md) nicht als Vorlage verwendet werden. Hierfür müssen Sie eine spezifische Versandvorlage für Folgenachrichten erstellen, die diesen Ereignistyp und die Verwendung als Vorlage in Workflows unterstützt.
 
