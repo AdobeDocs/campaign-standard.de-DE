@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Sie können in Campaign neue Entitäten Ihrer Organisation hinzufügen oder eine
 
 1. **Zustellbarkeitsrichtlinien prüfen**: Bevor Sie mit der Verwendung der neuen Domain beginnen, sollte die Strategie mit dem Adobe Zustellbarkeits-Team besprochen werden. Es hilft bei der Definition der Best Practices, wenn eine neue Affinität erstellt werden soll, um beispielsweise die IPs zwischen Domains aufzuteilen, bzw. wenn ein Hochlaufplan definiert werden soll. Weitere Informationen zu Best Practices für die Zustellbarkeit finden Sie [in diesem Abschnitt](../../sending/using/about-deliverability.md).
 
-## Marke einer E-Mail zuweisen          {#assigning-a-brand-to-an-email}
+## Marke einer E-Mail zuweisen           {#assigning-a-brand-to-an-email}
 
 ### Marken mit einer Vorlage verknüpfen {#linking-a-brand-to-a-template}
 
@@ -137,11 +137,11 @@ Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. G
 
 Ihre Vorlage ist nun mit der Marke verknüpft. Im E-Mail-Editor werden die für die Marke konfigurierten Daten in den Feldern **Standard-E-Mail-Adresse des Absenders**, **Name des Standard-Absenders** oder **Logo** verwendet.
 
-### Anwendungsbeispiel für Branding          {#branding-use-case}
+### Anwendungsbeispiel für Branding           {#branding-use-case}
 
 Im folgenden Beispiel geht es um die Erstellung einer neuen Marke zum Thema Reisen und ihre anschließende Verwendung in einer E-Mail.
 
-#### Neue Marke konfigurieren          {#configure-a-new-brand}
+#### Neue Marke konfigurieren           {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
@@ -159,7 +159,7 @@ Im folgenden Beispiel geht es um die Erstellung einer neuen Marke zum Thema Reis
 
 Die Marke wurde korrekt erstellt und konfiguriert. Sie ist nun zur Verwendung durch Marketingteams verfügbar.
 
-#### Neue Marke implementieren          {#implement-a-new-brand}
+#### Neue Marke implementieren           {#implement-a-new-brand}
 
 Der Versandbeauftragte ist für die Erstellung der Versandvorlagen verantwortlich, in denen die neue Marke verwendet wird. Gehen Sie dazu wie folgt vor:
 
@@ -178,7 +178,7 @@ Der Versandbeauftragte ist für die Erstellung der Versandvorlagen verantwortlic
 
    Die Versandvorlage lässt sich nun zur Erstellung von E-Mails verwenden, die an eine Audience gesendet werden.
 
-#### Die neue Marke in einem Versand verwenden          {#use-the-new-brand-in-a-delivery}
+#### Die neue Marke in einem Versand verwenden           {#use-the-new-brand-in-a-delivery}
 
 Um eine mit einer Marke verknüpfte E-Mail zu erstellen, gehen Sie wie folgt vor:
 
