@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Im **Dateistruktur**-Tab können Sie das Ausgabe-, Datums- und Zahlenformat der 
 >
 >Die verfügbaren Optionen finden Sie im Abschnitt zur Workflow-Aktivität [Dateiextraktion](../../automating/using/extract-file.md).
 
-## Kopf- und Fußzeile definieren     {#defining-the-header-and-footer}
+## Kopf- und Fußzeile definieren      {#defining-the-header-and-footer}
 
 Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der Extraktionsdatei hinzufügen. Verwenden Sie dazu die Tabs **[!UICONTROL Kopfzeile]** und **[!UICONTROL Fußzeile]** im Konfigurationsbildschirm **[!UICONTROL Inhalt]**.
 
