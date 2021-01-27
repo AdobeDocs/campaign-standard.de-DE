@@ -6,9 +6,9 @@ description: '"Jeder Kanal muss konfiguriert werden: technische Konfiguration, N
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 
