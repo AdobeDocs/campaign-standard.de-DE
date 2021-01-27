@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 100%
 
@@ -135,6 +135,6 @@ Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Dat
 
 In diesem Video wird gezeigt, wie man einen Workflow erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
