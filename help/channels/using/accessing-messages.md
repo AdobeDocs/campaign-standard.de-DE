@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Um auf die Liste der Marketingaktivitäten einer Kampagne zuzugreifen, gehen Sie
 
    Um wiederkehrende Nachrichten zu filtern, aktivieren Sie die entsprechende Option.
 
-## Zugriff auf die Nachrichtenliste     {#accessing-the-message-list}
+## Zugriff auf die Nachrichtenliste      {#accessing-the-message-list}
 
 Um auf die vollständige Liste der Marketingaktivitäten aller Kampagnen zuzugreifen, gehen Sie folgendermaßen vor:
 
