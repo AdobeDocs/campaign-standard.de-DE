@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
 
    ![](assets/schema_extension_31.png)
 
-## Ressource mit API-Erweiterung veröffentlichen  {#publishing-a-resource-with-api-extension}
+## Ressource mit API-Erweiterung veröffentlichen   {#publishing-a-resource-with-api-extension}
 
 In folgenden Fällen können Sie die Profiles &amp; Services API erstellen:
 
