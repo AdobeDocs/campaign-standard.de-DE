@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie in Email Designer E-Mails aus vorhandenen Inh
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Um existierenden Inhalt von einer URL abzurufen, gehen Sie wie folgt vor:
 
  Funktion im Video kennenlernen.
 
->[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
 
