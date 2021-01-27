@@ -5,9 +5,9 @@ title: DataModel
 description: Informationen zum Datenmodell
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ ht-degree: 100%
                <tr>
                   <td>mobilePhone</td>
                   <td>Mobile</td>
-                  <td>string (32)</td>
+                  <td>Zeichenfolge (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -148,7 +148,7 @@ ht-degree: 100%
                <tr>
                   <td>phone</td>
                   <td>Phone</td>
-                  <td>string (32)</td>
+                  <td>Zeichenfolge (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -166,7 +166,7 @@ ht-degree: 100%
                <tr>
                   <td>registrationToken</td>
                   <td>Registration Token</td>
-                  <td>string (256)</td>
+                  <td>Zeichenfolge (256)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -177,8 +177,8 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>sms</td>
-                  <td>Mobile</td>
-                  <td>string (255)</td>
+                  <td>Mobilnummer</td>
+                  <td>Zeichenfolge (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -196,13 +196,13 @@ ht-degree: 100%
                <tr>
                   <td>thumbnail</td>
                   <td>Thumbnail</td>
-                  <td>string (255)</td>
+                  <td>Zeichenfolge (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>Test profile</td>
-                  <td>string (255)</td>
+                  <td>Zeichenfolge (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -249,7 +249,7 @@ Nach Verwendung (byUsage)
         <th>Typ</th>
         </tr>
         <tr>
-        <td>trap</td>
+        <td>Falle</td>
         <td>boolean</td>
         </tr>
         <tr>
@@ -257,7 +257,7 @@ Nach Verwendung (byUsage)
         <td>boolean</td>
         </tr>
         <tr>
-        <td>proof</td>
+        <td>testversand</td>
         <td>boolean</td>
         </tr>
     </table>
