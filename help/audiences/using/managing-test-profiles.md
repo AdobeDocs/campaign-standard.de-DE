@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -82,6 +82,6 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Testprofil zu bearbeiten b
 
 In diesem Video wird gezeigt, wie man ein Testprofil erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
