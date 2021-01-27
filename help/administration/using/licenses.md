@@ -6,9 +6,9 @@ description: Hier erfahren Sie Wissenswertes zu auf Ihrer Instanz installierten 
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
