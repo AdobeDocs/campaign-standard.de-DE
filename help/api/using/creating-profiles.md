@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über das Erstellen von Profilen mit APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%
 
