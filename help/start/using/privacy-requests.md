@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Datenschutzanfragen in Adobe Campaign Standar
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 100%
 
