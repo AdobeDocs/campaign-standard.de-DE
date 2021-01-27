@@ -6,9 +6,9 @@ description: In diesem Tutorial erfahren Sie, wie Sie ein Package mit benutzerde
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import un
 
    ![](assets/cusresources_importdata.png)
 
-### Veröffentlichen {#publish-data}
+### Veröffentlichen{#publish-data}
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Veröffentlichung]**.
 1. Verwenden Sie die Schaltflächen **[!UICONTROL Veröffentlichung vorbereiten]** und anschließend **[!UICONTROL Veröffentlichen]**, um die Instanz mit den Daten der benutzerdefinierten Ressourcen zu aktualisieren.
