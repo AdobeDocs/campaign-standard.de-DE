@@ -6,9 +6,9 @@ description: Sie können Adobe-Campaign-Benutzer mithilfe von Rollen, Gruppen un
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%
 
