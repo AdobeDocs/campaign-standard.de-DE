@@ -6,9 +6,9 @@ description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvaria
 
 So kann mit ihnen beispielsweise definiert werden, welche Audience in der Aktivität **[!UICONTROL Audience lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu transferierenden Datei lautet. (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
 
-## Verwendung von Ereignisvariablen       {#using-events-variables}
+## Verwendung von Ereignisvariablen        {#using-events-variables}
 
 Ereignisvariablen werden innerhalb eines Ausdrucks verwendet, der die [Standardsyntax](../../automating/using/advanced-expression-editing.md#standard-syntax) berücksichtigen muss.
 
@@ -66,7 +66,7 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
    | IsNull | Gibt an, ob eine Zeichenfolge oder ein Datum null ist. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | Kodiert eine URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 
-## Aktivitäten mit Ereignisvariablen anpassen       {#customizing-activities-with-events-variables}
+## Aktivitäten mit Ereignisvariablen anpassen        {#customizing-activities-with-events-variables}
 
 Die im folgenden Abschnitt aufgelisteten Aktivitäten können mit Ereignisvariablen angepasst werden. Weiterführende Informationen zum Aufruf einer Variablen in einer Aktivität finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
