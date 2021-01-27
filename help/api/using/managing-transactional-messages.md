@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Transaktionsnachrichten mit APIs verwalten.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 100%
 
