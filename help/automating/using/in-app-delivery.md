@@ -6,9 +6,9 @@ description: Die Aktivität In-App-Versand ermöglicht das Konfigurieren des Ver
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Die Empfänger werden in vorangeschalteten Zielgruppenbestimmungsaktivitäten de
 
 Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparametern des Workflows ausgelöst. Sie können im Nachrichten-Dashboard auswählen, ob eine manuelle Bestätigung zum Nachrichtenversand erforderlich ist oder nicht (standardmäßig erforderlich). Sie können den Workflow entweder manuell starten oder eine Planung verwenden, um die Ausführung zu automatisieren.
 
-## Konfiguration         {#configuration}
+## Konfiguration          {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Abfrage]** in den Workflow-Arbeitsbereich. Bitte beachten Sie, dass die Zielgruppendimension der Aktivität **[!UICONTROL Abfrage]** im Tab **[!UICONTROL Eigenschaften]** entsprechend der in Schritt 4 ausgewählten Vorlage aktualisiert werden muss:
 
@@ -72,7 +72,7 @@ Wenn Sie die Aktivität später erneut öffnen, gelangen Sie direkt in das Dashb
 
 Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachricht ausgelöst. Der in einem Workflow erstellte Nachrichtenversand muss noch bestätigt werden, nachdem der Workflow gestartet wurde. Sie können aber im Nachrichten-Dashboard die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** deaktivieren. Dies ist jedoch nur möglich, wenn die Nachricht in einem Workflow erstellt wurde. Ist diese Option deaktiviert, werden Nachrichten ohne weiteren Hinweis gesendet, sobald die Vorbereitung abgeschlossen ist.
 
-## Bemerkungen         {#remarks}
+## Bemerkungen          {#remarks}
 
 Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
 
