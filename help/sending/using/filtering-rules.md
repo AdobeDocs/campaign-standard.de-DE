@@ -6,9 +6,9 @@ description: Mithilfe von Filterregeln können Sie die Zielgruppe Ihrer Nachrich
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Standardmäßig werden für die Filterung **[!UICONTROL Profile]** herangezogen.
 
 ![](assets/typology_rule-order_2.png)
 
-## Anwendbarkeit einer Filterregel einschränken       {#restricting-the-applicability-of-a-filtering-rule}
+## Anwendbarkeit einer Filterregel einschränken        {#restricting-the-applicability-of-a-filtering-rule}
 
 Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht einschränken.
 
