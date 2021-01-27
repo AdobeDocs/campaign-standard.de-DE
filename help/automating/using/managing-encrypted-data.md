@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie verschlüsselte Daten verwalten.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
 
@@ -127,10 +127,10 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 In diesem Video wird gezeigt, wie Daten mithilfe eines GPG-Schlüssels entschlüsselt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 In diesem Video wird gezeigt, wie Daten mithilfe eines GPG-Schlüssels verschlüsselt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
