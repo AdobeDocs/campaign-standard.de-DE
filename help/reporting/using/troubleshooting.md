@@ -6,9 +6,9 @@ description: Hier finden Sie häufig gestellte Fragen zu dynamischen Berichten.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Dies ergibt die folgende Tabelle:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong> <br /> </th> 
+   <th align="center"> <strong>Tag</strong> <br /> </th> 
    <th align="center"> <strong>Öffnungen</strong> <br /> </th> 
    <th align="center"> <strong>Einzelöffnungen</strong> <br /> </th> 
   </tr> 
