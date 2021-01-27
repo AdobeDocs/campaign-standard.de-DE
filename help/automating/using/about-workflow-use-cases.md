@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über Anwendungsfälle, die Sie mit Workflows in 
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu verstehen, in denen Workfl
 * [E-Mail mit Zusatzdaten personalisieren](../../automating/using/personalizing-email-with-additional-data.md)
 * [Wiederkehrende Push-Benachrichtigungen senden](../../automating/using/recurring-push-notifications.md)
 
-## Segmentierung und Targeting {#segmentation-and-targeting}
+## Segmentierung und Zielgruppenbestimmung {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
