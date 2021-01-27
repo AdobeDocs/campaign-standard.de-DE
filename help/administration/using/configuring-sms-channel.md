@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Wenn Sie das SMPP-Protokoll verwenden möchten, können Sie auch ein neues exter
 
 Jetzt können Sie mithilfe der neuen Routing-Konfiguration in Adobe Campaign SMS-Nachrichten senden.
 
-## SMS-Kodierung und -Formate      {#sms-encoding-and-formats}
+## SMS-Kodierung und -Formate       {#sms-encoding-and-formats}
 
 ### Kodierung, Länge und Tansliteration von SMS {#sms-encoding--length-and-transliteration}
 
@@ -98,7 +98,7 @@ Die Transliteration von Zeichen ist standardmäßig deaktiviert. Es wird empfohl
 
 Sollte Ihre SMS jedoch eine hohe Anzahl an Zeichen enthalten, die dem Unicode-Zeichensatz entstammen, können Sie diese Option wählen, um Ihre Versandkosten zu begrenzen.
 
-### Zeichensatztabelle - GSM-Standard      {#table-of-characters---gsm-standard}
+### Zeichensatztabelle - GSM-Standard       {#table-of-characters---gsm-standard}
 
 Der folgende Abschnitt zeigt den vom GSM-Standard unterstützten Zeichensatz. Jedes im Nachrichteninhalt enthaltene Zeichen, das nicht in der unten stehenden Tabelle aufgeführt ist, führt zur Konvertierung der gesamten Nachricht in das Binärformat (Unicode) und zur Splittung der SMS in Teilnachrichten, sobald sie 70 Zeichen überschreitet. Weiterführende Hinweise finden Sie im Abschnitt [Kodierung, Länge und Transliteration von SMS](#sms-encoding--length-and-transliteration).
 
@@ -314,13 +314,13 @@ Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt d
 
    ![](assets/sms_data_coding1.png)
 
-### Automatische Antwort auf MO      {#automatic-reply-sent-to-the-mo}
+### Automatische Antwort auf MO       {#automatic-reply-sent-to-the-mo}
 
 Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.
 
 Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md).
 
-## SMS-Eigenschaften konfigurieren      {#configuring-sms-properties}
+## SMS-Eigenschaften konfigurieren       {#configuring-sms-properties}
 
 Dieser Abschnitt behandelt die Liste von SMS-spezifischen Parametern in den Eigenschaften eines SMS-Versands bzw. einer SMS-Versandvorlage.
 
