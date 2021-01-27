@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Das Programm wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 >
 >Programme können auch in der Liste der Marketingaktivitäten erstellt werden.
 
-## Kampagnen erstellen     {#creating-a-campaign}
+## Kampagnen erstellen      {#creating-a-campaign}
 
 Zu Programmen und Unterprogrammen können Kampagnen hinzugefügt werden. Kampagnen können Marketingaktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows und Landingpages enthalten.
 
@@ -91,7 +91,7 @@ Die Kampagne wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 
 Kampagnen können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. Über das Eigenschaften-Fenster der Kampagne können Sie die Marketingaktivität mit einem Elternprogramm oder Unterprogramm verknüpfen.
 
-## Symbole und Status von Programmen und Kampagnen     {#programs-and-campaigns-icons-and-statuses}
+## Symbole und Status von Programmen und Kampagnen      {#programs-and-campaigns-icons-and-statuses}
 
 Jedem Programm und jeder Kampagne der Liste ist eine Miniaturansicht beigefügt sowie ein Symbol, dessen Farbe den Ausführungsstatus anzeigt. Dieser Status hängt von dem für das Programm oder die Kampagne definierten Gültigkeitszeitraum ab.
 
