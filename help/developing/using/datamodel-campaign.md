@@ -5,9 +5,9 @@ title: DataModel
 description: Informationen zum Datenmodell
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Beschriftung</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -163,7 +163,7 @@ ht-degree: 100%
                         <li>Started - started - 1</li>
                         <li>Editing - edition - 0</li>
                         <li>Finished - finished - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -182,7 +182,7 @@ ht-degree: 100%
                <tr>
                   <td>title</td>
                   <td>Campaign</td>
-                  <td>string (255)</td>
+                  <td>Zeichenfolge (255)</td>
                   <td> </td>
                </tr>
             </table>
@@ -241,7 +241,7 @@ Nach Status (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeration</td>
+    <td>auflistung</td>
     </tr>
 </table>
 
