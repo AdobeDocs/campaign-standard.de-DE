@@ -6,9 +6,9 @@ description: Entdecken Sie die Benutzer- und -Berechtigungsverwaltung, Monitorin
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
 
