@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Durch die Bearbeitung eines Ausdrucks können Sie den Audiences-Ausdruck persona
 * [Syntax von Ausdrücken](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 
-## Syntax von Ausdrücken {#expression-syntax}
+## Syntax von Ausdrücken  {#expression-syntax}
 
 ### Standardsyntax {#standard-syntax}
 
@@ -93,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 In diesem Beispiel werden die Profile ausgegeben, bei denen das Erstellungsdatum mit dem aktuellen Jahr und Monat übereinstimmt.
 
-### JavaScript-Syntax {#javascript-syntax}
+### JavaScript-Syntax  {#javascript-syntax}
 
 Bei der Definition von Sichtbarkeitsbedingungen in einem Textblock des HTML-Inhaltseditiors sind Ausdrücke mit JavaScript-Syntax zu verwenden.
 
@@ -106,8 +106,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
    >[!NOTE]
-   >
-   >Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
+   Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
@@ -122,7 +121,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 In diesem Beispiel werden die Profile ausgegeben, die über 21 Jahre alt sind und deren Vorname angegeben ist (das Feld **firstName** enthält mindestens ein Zeichen).
 
-## Vergleichsoperatoren {#comparison-operators}
+## Vergleichsoperatoren  {#comparison-operators}
 
 Bei manchen Regeln können Sie über den Abfrageeditor einen Wert auswählen.
 
@@ -156,7 +155,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
   <tr> 
    <td> <span class="uicontrol">Niedriger als</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> Der erste Wert muss streng kleiner als der zweite sein.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> gibt alle Profile aus, die vor weniger als 100 Tagen in der Datenbank erstellt wurden.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
   <tr> 
    <td> <span class="uicontrol">Kleiner oder gleich</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> Der erste Wert muss kleiner oder gleich dem zweiten sein.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> gibt alle Profile im Alter von 60 Jahren und jünger aus.<br /> </td> 
   </tr> 
