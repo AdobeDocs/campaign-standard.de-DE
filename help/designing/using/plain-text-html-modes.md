@@ -6,9 +6,9 @@ description: Entdecken Sie den Plain Text- und den HTML-Modus
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 100%
 
