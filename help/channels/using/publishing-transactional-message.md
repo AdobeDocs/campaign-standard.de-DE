@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Bei jeder Auslösung des Ereignisses &quot;Stehen gelassener Warenkorb&quot; wir
 * [Transaktionsnachrichten testen](../../channels/using/testing-transactional-message.md)
 * [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Veröffentlichung einer Transaktionsnachricht aussetzen             {#suspending-a-transactional-message-publication}
+## Veröffentlichung einer Transaktionsnachricht aussetzen              {#suspending-a-transactional-message-publication}
 
 Sie haben die Möglichkeit, die Veröffentlichung Ihrer Transaktionsnachricht mittels der Verwendung der Schaltfläche **[!UICONTROL Aussetzen]** zeitweise zu unterbinden, um beispielsweise die in der Nachricht enthaltenen Daten abzuändern. Die Ereignisse werden so nicht länger verarbeitet, sondern stattdessen in einer Warteschlange der Adobe Campaign-Datenbank aufbewahrt.
 
@@ -113,7 +113,7 @@ Die in der Warteschlange befindlichen Ereignisse werden für einen Zeitraum aufb
 
 Bei Verwendung der Schaltfläche **[!UICONTROL Wieder aufnehmen]** werden alle Ereignisse verarbeitet, sofern ihre Gültigkeit nicht abgelaufen ist. Diese Nachrichten beinhalten nun die während der Aussetzung der Vorlagenveröffentlichung vorgenommenen Änderungen.
 
-## Veröffentlichung einer Transaktionsnachricht aufheben  {#unpublishing-a-transactional-message}
+## Veröffentlichung einer Transaktionsnachricht aufheben   {#unpublishing-a-transactional-message}
 
 Mithilfe der **[!UICONTROL Veröffentlichung aufheben]**-Schaltfläche lässt sich die Veröffentlichung der Transaktionsnachricht und zudem des entsprechenden Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
 
