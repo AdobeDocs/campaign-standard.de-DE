@@ -6,9 +6,9 @@ description: Das Experience-Datenmodell (XDM) ist ein Standardsatz von Datensche
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 
@@ -46,4 +46,4 @@ Sie können die folgenden Aktionen über die XDM-Schema-API ausführen:
 * Schema-Deskriptoren anzeigen
 * Schema-Deskriptoren erstellen, aktualisieren und löschen
 
-Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
+Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
