@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Gehen Sie folgendermaßen vor, um den Dienst auszuwählen, der verknüpft werden
 
    Verwenden Sie in diesem Fall die Option **[!UICONTROL In der URL angegebener Dienst]**. Die Landingpage muss in den Parametern der jeweiligen Dienste referenziert werden.
 
-## Berechtigungen einrichten und Daten vorausfüllen      {#setting-permissions-and-pre-loading-data}
+## Berechtigungen einrichten und Daten vorausfüllen       {#setting-permissions-and-pre-loading-data}
 
 Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen oder zu einer bestimmten Organisationseinheit gehören.
 Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage geladen werden. Gehen Sie dazu wie folgt vor:
