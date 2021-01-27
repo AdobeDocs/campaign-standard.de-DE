@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Das folgende Beispiel zeigt eine Abfrage von Männern zwischen 18 und 30 Jahren,
 
 ![](assets/query_sample_1.png)
 
-## Abfrage nach E-Mail-Attributen      {#targeting-on-email-attributes}
+## Abfrage nach E-Mail-Attributen       {#targeting-on-email-attributes}
 
 Das folgende Beispiel zeigt eine Abfrage von Profilen, deren E-Mail-Adressen-Domain &quot;orange.co.uk&quot; lautet.
 
@@ -36,7 +36,7 @@ Das folgende Beispiel zeigt eine Abfrage von Profilen, deren E-Mail-Adresse vorh
 
 ![](assets/query_sample_emailnotempty.png)
 
-## Abfrage von Profilen, deren Geburtstag heute ist      {#targeting-profiles-whose-birthday-is-today}
+## Abfrage von Profilen, deren Geburtstag heute ist       {#targeting-profiles-whose-birthday-is-today}
 
 Das folgende Beispiel zeigt eine Abfrage von Profilen, deren Geburtstag heute ist.
 
@@ -92,7 +92,7 @@ Das folgende Beispiel zeigt eine Abfrage von Profilen, die in den letzten sieben
 
    ![](assets/query_sample_7days2.png)
 
-## Abfrage von Profilen, die auf einen bestimmten Link geklickt haben      {#targeting-profiles-who-clicked-a-specific-link-}
+## Abfrage von Profilen, die auf einen bestimmten Link geklickt haben       {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. Ziehen Sie den Filter **[!UICONTROL Trackinglogs (tracking)]** in Ihre Abfrage.
 
