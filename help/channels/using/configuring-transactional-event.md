@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1747'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 >
 >Die Anzahl der Transaktionsereignisse kann sich auf Ihre Plattform auswirken. Um eine optimale Leistung zu gewährleisten, müssen Sie sicherstellen, dass nicht verwendete Ereignisse gelöscht werden. Siehe [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Ereignisattribute definieren         {#defining-the-event-attributes}
+## Ereignisattribute definieren          {#defining-the-event-attributes}
 
 Definieren Sie im Bereich **[!UICONTROL Felder]** die Attribute, die in den Ereignisinhalt integriert werden und im Anschluss zur Personalisierung der Transaktionsnachricht verwendet werden können.
 
@@ -64,7 +64,7 @@ Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem g
 >
 >Wenn Sie eine mehrsprachige Transaktionsnachricht erstellen möchten, definieren Sie ein zusätzliches Ereignisattribut mit der ID **[!UICONTROL AC_language]**. Dies gilt nur für Transaktionsnachrichten. Nach der Veröffentlichung des Ereignisses sind die Schritte zur Bearbeitung des Inhalts einer mehrsprachigen Transaktionsnachricht dieselben wie für eine mehrsprachige Standard-E-Mail. Siehe [Mehrsprachige E-Mail erstellen](../../channels/using/creating-a-multilingual-email.md).
 
-## Datenkollektionen definieren         {#defining-data-collections}
+## Datenkollektionen definieren          {#defining-data-collections}
 
 Sie können zum Ereignisinhalt eine Kollektion von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
 
@@ -189,7 +189,7 @@ Um eine ereignisbasierte Transaktionsnachricht zu senden, erstellen und konfigur
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Profilbasierte Transaktionsnachrichten         {#profile-based-transactional-messages}
+### Profilbasierte Transaktionsnachrichten          {#profile-based-transactional-messages}
 
 Sie können Transaktionsnachrichten auf der Grundlage von Kundenprofilen senden, mit denen Sie Marketing-Typologieregeln anwenden, den Abmelde-Link einschließen, die Nachricht den globalen Versandberichten hinzufügen und sie in der Customer Journey nutzen können.
 
