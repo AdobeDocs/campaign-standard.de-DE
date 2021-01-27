@@ -6,9 +6,9 @@ description: Durch die Integration von Adobe Experience Manager können Sie Inha
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Folgende Voraussetzungen müssen erfüllt sein:
 
 Melden Sie sich bei Ihrer Adobe Experience Manager-Authoring-Instanz an, und greifen Sie über Ihre Website auf den Ordner mit den E-Mail-Inhalten zu.
 
->[!VIDEO](https://video.tv.adobe.com/v/29996?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29996)
 
 ## Neue E-Mail-Inhalte in Adobe Experience Manager erstellen {#creating-email-content-aem}
 
@@ -43,7 +43,7 @@ Standardmäßig stehen zwei vordefinierte Vorlagen zur Erstellung von E-Mail-Inh
 1. Erstellen Sie eine neue **[!UICONTROL Seite]** in Adobe Experience Manager.
 
 1. Wählen Sie die **[!UICONTROL Adobe Campaign-E-Mail]**-Vorlage aus. Die einzelnen Schritte finden Sie im folgenden Video.
-   >[!VIDEO](https://video.tv.adobe.com/v/29997?captions=ger)
+   >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Öffnen Sie Ihren neuen E-Mail-Inhalt.
 
@@ -51,7 +51,7 @@ Standardmäßig stehen zwei vordefinierte Vorlagen zur Erstellung von E-Mail-Inh
 
    Sehen Sie sich für weiterführende Informationen das folgende Video an:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/29999?captions=ger)
+   >[!VIDEO](https://video.tv.adobe.com/v/29999)
 
 ## E-Mails bearbeiten und senden {#editing-email-aem}
 
@@ -64,7 +64,7 @@ So erstellen Sie E-Mail-Inhalt in Adobe Experience Manager:
 1. Fügen Sie **[!UICONTROL Personalisierungsfelder]** über die Komponente **[!UICONTROL Text und Personalisierung]** hinzu. Jede Komponente entspricht einer bestimmten Nutzung: Einfügen von Bildern, Hinzufügen der Personalisierung usw.
 
    Sehen Sie sich für weiterführende Informationen das folgende Video an:
-   >[!VIDEO](https://video.tv.adobe.com/v/29998?captions=ger)
+   >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
 1. Wählen Sie im Tab **[!UICONTROL Workflow]** den Validierungs-Workflow **[!UICONTROL Für Adobe Campaign genehmigen]** aus. Sie können in Adobe Campaign nur E-Mails senden, deren Inhalt validiert wurde.
 
@@ -72,4 +72,4 @@ So erstellen Sie E-Mail-Inhalt in Adobe Experience Manager:
 
    Sehen Sie sich für weiterführende Informationen das folgende Video an:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/23721?captions=ger)
+   >[!VIDEO](https://video.tv.adobe.com/v/23721)
