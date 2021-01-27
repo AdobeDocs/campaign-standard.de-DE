@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie eine Nachricht im Inhaltseditor oder in 
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
 
