@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie den Erfolg Ihres Versands anhand der Wor
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
 
