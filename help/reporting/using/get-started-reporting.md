@@ -6,9 +6,9 @@ description: Analysieren Sie den Erfolg Ihrer Kampagnen mit integrierten oder be
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 
@@ -82,6 +82,6 @@ Mehr dazu:
 
 In diesem Video erhalten Sie einen Überblick über die Berichtsfunktionen von Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
