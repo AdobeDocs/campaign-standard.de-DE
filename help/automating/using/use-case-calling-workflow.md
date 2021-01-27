@@ -6,9 +6,9 @@ description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ In diesem Beispiel soll der Workflow mit den unten stehenden Parametern aufgeruf
 -d } 
 ```
 
-## Schritt 2: Workflow 1 konfigurieren       {#step-2--configuring-workflow-1}
+## Schritt 2: Workflow 1 konfigurieren        {#step-2--configuring-workflow-1}
 
 Workflow 1 wird folgendermaßen erstellt:
 
@@ -129,7 +129,7 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
 Workflow 1 ist somit konfiguriert. Erstellen Sie jetzt Workflow 2. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
-## Schritt 3: Workflow 2 konfigurieren       {#step-3--configuring-workflow-2}
+## Schritt 3: Workflow 2 konfigurieren        {#step-3--configuring-workflow-2}
 
 Workflow 2 wird folgendermaßen erstellt:
 
@@ -186,6 +186,6 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc14.png)
 
-## Workflows ausführen       {#executing-the-workflows}
+## Workflows ausführen        {#executing-the-workflows}
 
 Nach dem Erstellen der Workflows können diese ausgeführt werden. Achten Sie darauf, dass die beiden Workflows gestartet werden, bevor der API-Aufruf ausgeführt wird.
