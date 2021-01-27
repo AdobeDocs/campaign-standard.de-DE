@@ -6,9 +6,9 @@ description: Führen Sie die folgenden Schritte aus, um eine Bestätigungsnachri
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c276c468627208b584a0342414cdbe382e349f50
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis
 
 Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die Transaktions-E-Mail erstellen.
 
-#### Bestätigungsnachricht erstellen       {#design-the-confirmation-message-1}
+#### Bestätigungsnachricht erstellen        {#design-the-confirmation-message-1}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben veröffentlichten Ereignis basiert.
 
@@ -134,7 +134,7 @@ Beim Verweisen auf die Bestätigungsnachricht über die Landingpage wird jedes M
 
 Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Da der Verweis auf die Transaktionsnachricht über die Landingpage erfolgt, müssen Sie diese zuerst erstellen.
 
-#### Ereignis erstellen       {#create-the-event-2}
+#### Ereignis erstellen        {#create-the-event-2}
 
 Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
@@ -160,7 +160,7 @@ Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/g
    >
    >Auf diese Weise können Sie Personalisierungsfelder aus der Ressource [!UICONTROL Dienst] in der Transaktionsnachricht verwenden.
 
-#### Bestätigungsnachricht erstellen       {#design-the-confirmation-message-2}
+#### Bestätigungsnachricht erstellen        {#design-the-confirmation-message-2}
 
 Die Schritte zum Erstellen der Transaktionsnachricht werden in diesem [Abschnitt](#design-the-confirmation-message-1) beschrieben.
 
