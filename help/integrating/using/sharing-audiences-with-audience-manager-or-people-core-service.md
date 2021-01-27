@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie Ihre Audience in die unterschiedlichen A
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Ihre Audience wird jetzt in Ihre Adobe Campaign-Datenbank importiert. Wenn Segme
 
 >[!NOTE]
 >
->Beim Import von Audiences von Adobe Analytics nach Adobe Campaign müssen diese Audiences zuerst in People Core Service oder Audience Manager freigegeben werden. Dieser Prozess dauert 12 bis 24 Stunden, die zu den 24 bis 36 Stunden für die Synchronisation mit Campaign hinzugezählt werden müssen. In diesem speziellen Fall kann die Zielgruppenfreigabe bis zu 60 Stunden dauern. Weitere Informationen zur Adobe Analytics-Zielgruppenfreigabe in People Core Service und Audience Manager finden Sie in dieser [Dokumentation](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Beim Import von Audiences von Adobe Analytics nach Adobe Campaign müssen diese Audiences zuerst in People Core Service oder Audience Manager freigegeben werden. Dieser Prozess dauert 12 bis 24 Stunden, die zu den 24 bis 36 Stunden für die Synchronisation mit Campaign hinzugezählt werden müssen. In diesem speziellen Fall kann die Zielgruppenfreigabe bis zu 60 Stunden dauern. Weitere Informationen zur Adobe Analytics-Zielgruppenfreigabe in People Core Service und Audience Manager finden Sie in dieser [Dokumentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Audiences exportieren {#exporting-an-audience}
 
