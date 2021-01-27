@@ -5,9 +5,9 @@ title: DataModel
 description: Informationen zum Datenmodell
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 100%
 
@@ -209,7 +209,7 @@ ht-degree: 100%
                <tr>
                   <td>middleName</td>
                   <td>Middle name</td>
-                  <td>string (30)</td>
+                  <td>Zeichenfolge (30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -227,7 +227,7 @@ ht-degree: 100%
                <tr>
                   <td>mobilePhone</td>
                   <td>Mobile</td>
-                  <td>string (32)</td>
+                  <td>Zeichenfolge (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -239,7 +239,7 @@ ht-degree: 100%
                <tr>
                   <td>phone</td>
                   <td>Phone</td>
-                  <td>string (32)</td>
+                  <td>Zeichenfolge (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -322,7 +322,7 @@ ht-degree: 100%
                         <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                         <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                         <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                         <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                         <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                         <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -387,7 +387,7 @@ ht-degree: 100%
                <tr>
                   <td>title</td>
                   <td>Profile</td>
-                  <td>string (255)</td>
+                  <td>Zeichenfolge (255)</td>
                   <td> </td>
                </tr>
             </table>
@@ -431,7 +431,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>operator</td>
-<td>enumeration</td>
+<td>auflistung</td>
 </tr>
 <tr>
 <td>includeEnd</td>
@@ -443,7 +443,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>type</td>
-<td>enumeration</td>
+<td>auflistung</td>
 </tr>
 <tr>
 <td>day</td>
@@ -524,7 +524,7 @@ Geöffnet (hasOpenDelivery)
 <th>Typ</th>
 </tr>
 <tr>
-<td>delivery</td>
+<td>versand</td>
 <td>link</td>
 </tr>
 </table>
@@ -550,7 +550,7 @@ Empfangen (hasReceivedDelivery)
 <th>Typ</th>
 </tr>
 <tr>
-<td>delivery</td>
+<td>versand</td>
 <td>link</td>
 </tr>
 </table>
