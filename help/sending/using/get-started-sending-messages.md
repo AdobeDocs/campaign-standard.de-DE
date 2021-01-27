@@ -6,9 +6,9 @@ description: Bereiten Sie Ihre Nachrichten vor und testen, planen, versenden und
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 
@@ -99,6 +99,6 @@ Mehr dazu:
 
 In diesem Video wird gezeigt, wie man eine Test-E-Mail sendet, einen E-Mail-Versand vorbereitet und dann in Campaign Standard ausführt.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
