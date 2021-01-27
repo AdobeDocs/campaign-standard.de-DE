@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie eine Landingpage in Adobe Campaign teste
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landin
 >
 >Um die Vorschau der Landingpage in der Campaign-Benutzeroberfläche anzuzeigen, muss die URL des Anwendungsservers sicher sein. Verwenden Sie in diesem Fall https:// anstelle von http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands) einzurichten.
 
-## Gültigkeitsparameter einrichten        {#setting-up-validity-parameters}
+## Gültigkeitsparameter einrichten         {#setting-up-validity-parameters}
 
 Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung vor der Veröffentlichung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Veröffentlichung der Landingpage automatisch aufgehoben. Gehen Sie wie folgt vor:
 
@@ -65,7 +65,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 >
 >Sie können auch ein Veröffentlichungsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum veröffentlicht.
 
-## Landingpage veröffentlichen  {#publishing-a-landing-page}
+## Landingpage veröffentlichen   {#publishing-a-landing-page}
 
 Wenn Sie eine Landingpage veröffentlichen, ist sie online für Besucher verfügbar.
 
