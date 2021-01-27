@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Versandwarnungen verwendet werden.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Für jede Bedingung können Sie folgende Einstellungen festlegen:
 * [Häufigkeit der Versandwarnungen](#alerting-frequency)
 * [Symbole und Status von Marketingaktivitäten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Versandwarnungsbedingung erstellen        {#creating-a-delivery-alerting-criterion}
+### Versandwarnungsbedingung erstellen         {#creating-a-delivery-alerting-criterion}
 
 Sie können nach Bedarf neue Versandwarnungsbedingungen erstellen.
 
@@ -180,7 +180,7 @@ Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard
 
 [Ressource hinzufügen oder erweitern](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Versandwarnungsparameter        {#delivery-alerting-parameters}
+## Versandwarnungsparameter         {#delivery-alerting-parameters}
 
 ### Bedingungsparameter {#criteria-parameters}
 
@@ -217,7 +217,7 @@ Sie können diese Einstellung im Menü **[!UICONTROL Administration]** > **[!UIC
 >
 >Diese Option gilt für alle in Adobe Campaign definierten Dashboards. Es ist nicht möglich, für jedes Dashboard eine eigene Häufigkeit festzulegen.
 
-## Gründe für Versandwarnungen        {#delivery-alerting-reasons}
+## Gründe für Versandwarnungen         {#delivery-alerting-reasons}
 
 Mit der Funktion **Versandwarnung** von Adobe Campaign sind alle Benutzer von Adobe Campaign automatisch über den Ausführungsstatus des Versands über E-Mails und Dashboards informiert.
 
