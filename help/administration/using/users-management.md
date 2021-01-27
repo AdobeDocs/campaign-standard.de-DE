@@ -6,9 +6,9 @@ description: 'Benutzer von Adobe Campaign verfügen über bestimmte Rollen. Im F
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie v
 
 * Video [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
-* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Typen von Benutzern {#type-of-users}
 
@@ -89,7 +89,7 @@ Dies sind ihre Hauptaufgaben:
 * [Fortgeschrittene Bearbeitung von Ausdrücken](../../automating/using/editing-queries.md#about-query-editor): Einsatz fortgeschrittener Funktionen zur Bearbeitung für Abfragen verwendeter Werte (Datumsangaben, Strings, numerische Felder, Sortierung usw.)
 * [Listen exportieren](../../automating/using/exporting-lists.md) und [Daten mithilfe von Importvorlagen importieren](../../automating/using/importing-data-with-import-templates.md)
 
-### Benutzer mit Grundkenntnissen            {#basic-users}
+### Benutzer mit Grundkenntnissen             {#basic-users}
 
 Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntnissen können Marketer Kampagnen personalisieren, versenden und überwachen, ohne sich über die technischen Feinheiten den Kopf zerbrechen zu müssen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Sendungen vorbereiten]**, **[!UICONTROL Workflow]** und **[!UICONTROL Sendungen starten]** zugewiesen werden. Diese Rollen sind in der vordefinierten Sicherheitsgruppe **[!UICONTROL Standardbenutzer]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
@@ -158,6 +158,6 @@ Ihr Benutzer kann jetzt Adobe Campaign Standard verwenden.
 
 In diesem Video wird gezeigt, wie Benutzerzugriffsrechte verwaltet werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
