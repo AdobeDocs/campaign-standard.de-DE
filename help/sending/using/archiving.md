@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie E-Mails mit Adobe Campaign Standard unter Ver
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Nachdem die Aktivierung durchgeführt wurde, aktivieren Sie E-Mail-BCC in der E-
 >
 >Aktuell können die archivierten E-Mails nicht mit dem erweiterten MTA von Adobe Campaign gesendet werden, selbst wenn Sie bereits eine Aktualisierung auf den erweiterten MTA vorgenommen haben.
 
-## E-Mail-Archivierung aktivieren         {#activating-email-archiving}
+## E-Mail-Archivierung aktivieren          {#activating-email-archiving}
 
 Nach der Aktivierung wird E-Mail-BCC in der [E-Mail-Vorlage](../../start/using/marketing-activity-templates.md) über die folgende Option aktiviert:
 
