@@ -6,9 +6,9 @@ description: Durch die Integration von Adobe Target können Sie in Adobe Target 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 
