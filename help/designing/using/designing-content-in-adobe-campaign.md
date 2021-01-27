@@ -6,9 +6,9 @@ description: Erstellen Sie E-Mail-Inhalte von Grund auf neu, importieren Sie HTM
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email De
 
 **Fragmente**: Ein Fragment ist eine Komponente, die Sie in mehreren E-Mails wiederverwenden können.
 
-**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können.
+**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können..
 
 **Inhaltskomponenten**: Inhaltskomponenten sind rohe, noch leere Komponenten, die Sie in E-Mails einfügen und dort bearbeiten können.
 
@@ -163,6 +163,6 @@ Beachten Sie bei Fragmenten Folgendes:
 
 In diesem Video erhalten Sie einen Überblick über Email Designer.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
 In diesen [Videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können
