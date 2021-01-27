@@ -6,9 +6,9 @@ description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen E-Mail-Versan
 audience: channels
 content-type: reference
 topic-tags: email-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 
@@ -98,6 +98,6 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 In diesem Video wird gezeigt, wie man eine E-Mail erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
