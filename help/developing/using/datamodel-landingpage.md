@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 100%
 
@@ -174,54 +174,54 @@ ht-degree: 100%
       <tr>
          <td>designLanguage</td>
          <td>Design language</td>
-         <td>enumeration (string) (255)</td>
+         <td>auflistung (Zeichenfolge) (255)</td>
          <td>
             <ul>
-               <li>Greek - el - el</li>
-               <li>English - en - en</li>
-               <li>Chinese - zh - zh</li>
-               <li>French (France) - fr_FR - fr_FR</li>
-               <li>Vietnamese - vi - vi</li>
-               <li>Portuguese (Portugal) - pt_PT - pt_PT</li>
-               <li>Italian (Italy) - it_IT - it_IT</li>
-               <li>Italian - it - it</li>
-               <li>Dutch (Belgium) - nl_BE - nl_BE</li>
-               <li>Norwegian (Norway) - no_NO - no_NO</li>
-               <li>Dutch (Netherlands) - nl_NL - nl_NL</li>
-               <li>Arabic - ar - ar</li>
-               <li>English (United States) - en_US - en_US</li>
-               <li>Irish - ga - ga</li>
-               <li>Czech - cs - cs</li>
-               <li>Estonian - et - et</li>
-               <li>Indonesian - id - id</li>
-               <li>Spanish - es - es</li>
-               <li>Russian - ru - ru</li>
-               <li>Dutch - nl - nl</li>
-               <li>Walloon - wa - wa</li>
-               <li>Portuguese - pt - pt</li>
-               <li>French (Belgium) - fr_BE - fr_BE</li>
-               <li>Latvian - lv - lv</li>
-               <li>Lithuanian - lt - lt</li>
-               <li>Thai - th - th</li>
-               <li>English (United Kingdom) - en_GB - en_GB</li>
-               <li>French - fr - fr</li>
-               <li>Portuguese (Brazil) - pt_BR - pt_BR</li>
-               <li>German - de - de</li>
-               <li>Danish - da - da</li>
-               <li>Finnish - fi - fi</li>
-               <li>Hungarian - hu - hu</li>
-               <li>Swedish (Finland) - sv_FI - sv_FI</li>
-               <li>Japanese - ja - ja</li>
-               <li>Hebrew - he - he</li>
-               <li>Korean - ko - ko</li>
-               <li>Swedish - sv - sv</li>
-               <li>Sweden (Swedish) - sv_SE - sv_SE</li>
-               <li>Slovak - sk - sk</li>
-               <li>Maltese - mt - mt</li>
-               <li>Italian (Switzerland) - it_CH - it_CH</li>
-               <li>Polish - pl - pl</li>
-               <li>Slovene - sl - sl</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>Griechisch - el - el</li>
+               <li>Englisch - en - en</li>
+               <li>Chinesisch - zh - zh</li>
+               <li>Französisch (Frankreich) - fr_FR - fr_FR</li>
+               <li>Vietnamesisch - vi</li>
+               <li>Portugiesisch (Portugal) - pt_PT - pt_PT</li>
+               <li>Italienisch (Italien) - it_IT - it_IT</li>
+               <li>Italienisch - it - it</li>
+               <li>Niederländisch (Belgien) - nl_BE - nl_BE</li>
+               <li>Norwegisch (Norwegen) - no_NO - no_NO</li>
+               <li>Niederländisch (Niederlande) - nl_NL - nl_NL</li>
+               <li>Arabisch - ar - ar</li>
+               <li>Englisch (Vereinigte Staaten) - en_US - en_US</li>
+               <li>Irisch - ga - ga</li>
+               <li>Tschechisch - cs</li>
+               <li>Estnisch - et - et</li>
+               <li>Indonesisch - id - id</li>
+               <li>Spanisch - es - es</li>
+               <li>Russisch - ru - ru</li>
+               <li>Niederländisch - nl - nl</li>
+               <li>Wallonisch - wa - wa</li>
+               <li>Portugiesisch - pt</li>
+               <li>Französisch (Belgien) - fr_BE - fr_BE</li>
+               <li>Lettisch - lv - lv</li>
+               <li>litauisch - lt - lt</li>
+               <li>Thailändisch - th - th</li>
+               <li>Englisch (Vereinigtes Königreich) - en_GB - en_GB</li>
+               <li>Französisch - fr - fr</li>
+               <li>Portugiesisch (Brasilien) - pt_BR - pt_BR</li>
+               <li>Deutsch - de - de</li>
+               <li>Dänisch - da - da</li>
+               <li>Finnisch - fi - fi</li>
+               <li>Ungarisch - hu - hu</li>
+               <li>Schwedisch (Finnland) - sv_FI - sv_FI</li>
+               <li>Japanisch - ja - ja</li>
+               <li>Hebräisch - er - der</li>
+               <li>Koreanisch - ko - ko</li>
+               <li>Schwedisch - sv - sv</li>
+               <li>Schweden (Schwedisch) - sv_SE - sv_SE</li>
+               <li>Slowakisch - sk</li>
+               <li>Maltesisch - mt</li>
+               <li>Italienisch (Schweiz) - it_CH - it_CH</li>
+               <li>Polnisch - pl - pl</li>
+               <li>Slowenisch - sl - sl</li>
+               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -299,7 +299,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>label</td>
-         <td>Label</td>
+         <td>Beschriftung</td>
          <td>string (128)</td>
          <td> </td>
       </tr>
@@ -324,7 +324,7 @@ ht-degree: 100%
       <tr>
          <td>logicalStatus</td>
          <td>Execution status</td>
-         <td>enumeration (string) (255)</td>
+         <td>auflistung (Zeichenfolge) (255)</td>
          <td>
             <ul>
                <li>In progress - started - started</li>
@@ -332,7 +332,7 @@ ht-degree: 100%
                <li>Finished - finished - finished</li>
                <li>Warning - warning - warning</li>
                <li>Erroneous - error - error</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -357,7 +357,7 @@ ht-degree: 100%
       <tr>
          <td>name</td>
          <td>ID</td>
-         <td>string (64)</td>
+         <td>Zeichenfolge (64)</td>
          <td> </td>
       </tr>
       <tr>
@@ -410,7 +410,7 @@ ht-degree: 100%
             <ul>
                <li>Update - updateTarget - 1</li>
                <li>Unauthorized - unauthorized - 0</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -423,13 +423,13 @@ ht-degree: 100%
       <tr>
          <td>specificAction</td>
          <td>Specific action</td>
-         <td>enumeration (byte) </td>
+         <td>auflistung (Byte) </td>
          <td>
             <ul>
                <li>Blacklist - blackList - 3</li>
                <li>No specific action - none - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                <li>Subscription - subscription - 1</li>
             </ul>
          </td>
@@ -443,13 +443,13 @@ ht-degree: 100%
       <tr>
          <td>state</td>
          <td>Status</td>
-         <td>enumeration (byte) </td>
+         <td>auflistung (Byte) </td>
          <td>
             <ul>
                <li>Editing - edit - 0</li>
                <li>Publishing failed - failed - 99</li>
                <li>Closed - closed - 20</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                <li>Online - opened - 10</li>
             </ul>
          </td>
@@ -475,7 +475,7 @@ ht-degree: 100%
       <tr>
          <td>thumbnail</td>
          <td>Thumbnail</td>
-         <td>string (255)</td>
+         <td>Zeichenfolge (255)</td>
          <td> </td>
       </tr>
       <tr>
@@ -542,7 +542,7 @@ ht-degree: 100%
                <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -608,7 +608,7 @@ ht-degree: 100%
       <tr>
          <td>title</td>
          <td>Landing page</td>
-         <td>string (255)</td>
+         <td>Zeichenfolge (255)</td>
          <td> </td>
       </tr>
       <tr>
@@ -626,13 +626,13 @@ ht-degree: 100%
       <tr>
          <td>type</td>
          <td>Type</td>
-         <td>enumeration (byte) </td>
+         <td>auflistung (Byte) </td>
          <td>
             <ul>
                <li>Generic - generic - 0</li>
                <li>Unsubscription from a service - unsubscription - 3</li>
                <li>Blacklist - blackList - 4</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                <li>Acquisition - acquisition - 1</li>
                <li>Subscription to a service - subscription - 2</li>
             </ul>
@@ -689,7 +689,7 @@ Nach Status (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeration</td>
+    <td>auflistung</td>
     </tr>
 </table>
 
