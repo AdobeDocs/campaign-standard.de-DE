@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Der Package-Export wird im Abschnitt [Package exportieren](#exporting-a-package)
 >
 >Der Inhalt dieser beiden Packages kann nicht verändert werden. Diese Packages enthalten immer die aktuellsten Daten. Sie können [Ihre eigenen Packages erstellen](#creating-a-package), um bestimmte Elemente zu exportieren.
 
-### Package-Erstellung     {#creating-a-package}
+### Package-Erstellung      {#creating-a-package}
 
 Zum Export bestimmter Datensätze müssen Sie ein Package erstellen.
 
@@ -94,7 +94,7 @@ Zur Erstellung eines Packages benötigen Sie Administratorrechte.
 
 Ihr Package wurde erstellt und kann jetzt exportiert werden.
 
-### Package exportieren     {#exporting-a-package}
+### Package exportieren      {#exporting-a-package}
 
 Durch den Export von Packages können Sie einen bestimmten Status einer Ressource speichern. Diese können Sie in eine andere Instanz oder zu einem späteren Zeitpunkt in derselben Instanz wieder importieren
 
@@ -138,7 +138,7 @@ In der **[!UICONTROL Ausführungslogs]**-Ansicht werden alle Importetappen angez
 >
 >Diese Informationen sind schreibgeschützt.
 
-### Package importieren     {#importing-a-package}
+### Package importieren      {#importing-a-package}
 
 Ein Administrator kann ein zuvor aus einer Adobe-Campaign-Instanz exportiertes Package manuell importieren. Weiterführende Informationen finden Sie im Abschnitt [Package-Exporte](#package-exports).
 
