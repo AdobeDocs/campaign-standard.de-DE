@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie die prädiktive Sendezeit und Interaktionsbew
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 100%
 
