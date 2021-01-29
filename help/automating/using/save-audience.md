@@ -64,7 +64,6 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
       >[!NOTE]
       >
       >Diese Option ist nur dann verfügbar, wenn durch Ihren Administrator die Funktion der Zielgruppenfreigabe an die Adobe Experience Cloud konfiguriert wurde. Weiterführende Informationen finden Sie in [Campaign und People Core Service verwenden](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Der Typ der gespeicherten oder zur Aktualisierung verfügbaren Audiences hängt von den im Workflow vorangeschalteten Aktivitäten ab.
 
    Die erstellte oder aktualisierte Audience ist vom Typ **[!UICONTROL Datei]**, wenn die Zielgruppendimension der Audience zum Zeitpunkt der Speicherung unbekannt ist (beispielsweise weil sie aus einem Dateiimport stammt).
@@ -80,7 +79,7 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
 Das vorliegende Beispiel zeigt einen Workflow zur regelmäßigen Aktualisierung einer Audience, die aus einer Zielguppenbestimmung hervorgeht.
 
 * Er wird unter Verwendung einer **[!UICONTROL Planungsaktivität]** einmal im Monat ausgeführt.
-* Mithilfe einer **[!UICONTROL Abfrage]** werden alle Abonnenten der verschiedenen, in der Anwendung verwalteten Informationsdienste abgerufen.
+* Mithilfe einer **[!UICONTROL Abfrage]** werden alle Abonnenten der verschiedenen in der Anwendung verwalteten Anwendungsdienste abgerufen.
 * Die **[!UICONTROL Audience-Speicherung]** aktualisiert in diesem Fall die angegebene Audience, indem die Profile, die seit der letzten Ausführung des Workflows den Informationsdienst abbestellt haben, gelöscht und die neuen Abonnenten hinzugefügt werden.
 
 ![](assets/save_audience_example_1.png)
