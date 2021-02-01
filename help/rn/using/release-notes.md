@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87b17e36af2e4bc15a93291e340843060ba18d7b
+source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
 workflow-type: tm+mt
 source-wordcount: '2610'
-ht-degree: 5%
+ht-degree: 73%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 5%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>E-Mail-Feedback-Dienst</strong><br /> </th> 
+<th> <strong>Email Feedback Service</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Email Feedback Service (EFS) ist ein skalierbarer Dienst, der das Feedback direkt von der erweiterten MTA erfasst und damit die Genauigkeit der Berichte verbessert. Diese Funktion wird als private Betaversion veröffentlicht und steht allen Kunden in zukünftigen Versionen schrittweise zur Verfügung.</p>
+<p>Email Feedback Service (EFS) ist ein skalierbarer Dienst, der das Feedback direkt vom erweiterten MTA erfasst und damit die Reporting-Genauigkeit verbessert. Diese Funktion wird als private Beta veröffentlicht und wird in zukünftigen Versionen nach und nach allen Kunden zur Verfügung stehen.</p>
 <ul>
 <li>Alle Kategorien von Feedback werden nun für einen vollständigen und präzisen Berichte erfasst.</li>
 <li>Die Berechnung des Indikators <b>Ausgeliefert</b> basiert nun auf Echtzeitrückmeldungen der erweiterten MTA für eine verbesserte Genauigkeit und Reaktivität.</li>
@@ -55,7 +55,7 @@ ht-degree: 5%
 <tr> 
 <td>
 <p>Die Integration der Kampagne mit Adobe Experience Manager wurde verbessert: Sie können jetzt mehrsprachige Inhalte einfacher aus Adobe Experience Manager importieren. <p>
-<p>Adobe Campaign Standard erkennt jetzt automatisch Sprachvarianten von Adobe Experience Manager-Inhalten und ermöglicht den Import und die Erstellung von Massenvarianten. Dadurch wird die Anzahl der Schritte, die ein Anwender ausführen muss, um eine mehrsprachige Kampagne auf der Grundlage von Adobe Experience Manager-Inhalten zu erstellen, erheblich vereinfacht.</p>
+<p>Adobe Campaign Standard erkennt jetzt automatisch Sprachvarianten von Adobe Experience Manager-Inhalten und ermöglicht den Import und die Erstellung von Varianten in großer Zahl. Dadurch wird die Anzahl der Schritte, die ein Anwender ausführen muss, um eine mehrsprachige Kampagne auf der Grundlage von Adobe Experience Manager-Inhalten zu erstellen, erheblich verkürzt.</p>
 <p>Weitere Informationen finden Sie im <a href="../../integrating/using/creating-multilingual-email-aem.md">entsprechenden Handbuch</a>.
 </p>
 </td> 
@@ -72,11 +72,11 @@ ht-degree: 5%
 <tbody> 
 <tr> 
 <td>
-<p>Die Kopfzeilenleiste des Adobe Campaigns wurde geändert, um Ihr Erlebnis für alle Experience Cloud-Produkte und -Dienste zu vereinheitlichen und zu verbessern. Diese Änderungen sollen Ihnen das Leben erleichtern, unter anderem:</p>
+<p>Die Kopfzeile von Adobe Campaign wurde geändert, um das Erlebnis über alle Experience Cloud-Produkte und -Services hinweg zu vereinheitlichen und zu verbessern. Diese Änderungen sollen Ihnen die Nutzung erleichtern, unter anderem durch folgende Verbesserungen:</p>
 <ul>
 <li>Einfacherer Wechsel zwischen Ihren Organisationen oder zu einer anderen Anwendung.</li>
-<li>Verbesserte Benutzerhilfe - Die Suchergebnisse beinhalten auch Ergebnisse aus Community-Foren und weitere Videoinhalte, sodass Sie leichter auf weitere Inhalte zugreifen können, um die Anwendung optimal nutzen zu können. Wir haben auch einen Feedback-Mechanismus direkt im Menü Hilfe hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen auszutauschen.</li>
-<li>Verbesserte Benachrichtigungen - Die Dropdownliste Benachrichtigungen enthält jetzt zwei Registerkarten: eine für Ihre eigenen Produktbenachrichtigungen und eine für weitere globale Produktankündigungen.</li>
+<li>Verbesserte Benutzerhilfe – Durch die Einbindung von Experience League in das Produkt liefert die Suche auch Ergebnisse aus Community-Foren und mehr Videoinhalte, sodass Sie einfacheren Zugriff auf zusätzliche Inhalte haben und die Anwendung optimal nutzen können. Wir haben auch einen Feedback-Mechanismus direkt im Hilfemenü hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen zu teilen.</li>
+<li>Verbesserte Benachrichtigungen – Das Dropdown-Menü "Benachrichtigungen" enthält jetzt zwei Registerkarten: eine für Ihre eigenen Produktbenachrichtigungen und eine für mehr globale Produktankündigungen.</li>
 </ul>
 <p>Weitere Informationen finden Sie im <a href="../../start/using/interface-description.md#top-bar">entsprechenden Handbuch</a>.
 </p>
@@ -87,131 +87,131 @@ ht-degree: 5%
 
 **Verbesserungen**
 
-* **Die Microsoft Dynamics 365-** Integration wurde durch eine eigens entwickelte Self-Service-Integrations-App und einen verbesserten Implementierungsprozess verbessert. [Mehr dazu](../../integrating/using/d365-acs-get-started.md)
+* **Die Integration von Microsoft Dynamics 365 wurde durch ein spezielles Self-Service-Integrationsprogramm und einen verbesserten Implementierungsprozess verbessert.** [Mehr dazu](../../integrating/using/d365-acs-get-started.md)
 
-* Es wurde eine Verbesserung vorgenommen, um die Fehlerbehebung bei Problemen mit dem Transaktionsnachrichtenprozess zu erleichtern. Technische Administratoren der Adobe können nun die Ablaufverfolgung für jeden Prozess verwenden, ohne ihn neu zu starten.
+* Es wurde eine Verbesserung vorgenommen, um die Fehlerbehebung bei Problemen mit dem Transaktionsnachrichtenprozess zu erleichtern. Technische Adobe-Administratoren können nun die Rückverfolgung für jeden Prozess verwenden, ohne ihn neu zu starten.
 
-* Mit der Liste **Profil** können Sie jetzt nach Datensätzen suchen, die auf einem der folgenden Felder basieren: E-Mail-, Vor-, Nachname- oder benutzerdefinierte Felder, die beim Erweitern der Profil-Ressource in der erweiterten Filterung hinzugefügt wurden. Diese Funktion ist auch in Campaign Standard-APIs verfügbar, die den Parameter filterType verwenden. [Mehr dazu](../../audiences/using/integrated-customer-profile.md)
+* Mit der Liste **Profil** können Sie jetzt nach Datensätzen suchen, die auf einem der folgenden Felder basieren: E-Mail-, Vor-, Nachname- oder benutzerdefinierte Felder, die beim Erweitern der Profil-Ressource in der erweiterten Filterung hinzugefügt wurden. Diese Funktion ist auch in Campaign Standard-APIs verfügbar, die den Parameter &quot;filterType&quot; verwenden. [Mehr dazu](../../audiences/using/integrated-customer-profile.md)
 
-* Ein Parameter wurde an die Anzahl der Container angepasst, die den Datenbankpooling für Transaktionsnachrichten ausführen. Dadurch kann die Last gleichmäßig auf alle verwendeten Container verteilt werden und eine optimale Leistung erzielen.
+* Ein Parameter wurde an die Anzahl der Container angepasst, die den Datenbank-Pooling-Prozess für Transaktionsnachrichten ausführen. Dadurch kann die Last gleichmäßig auf alle verwendeten Container verteilt und eine optimale Leistung erzielt werden.
 
-* Eine neue Funktion **GetOption** ist jetzt in Aktivitäten verfügbar, die Ereignis-Variablen verwenden, nachdem ein Workflow mit externen Parametern aufgerufen wurde. Damit können Sie den Wert einer bestimmten Funktion zurückgeben. [Mehr dazu](../../automating/using/customizing-workflow-external-parameters.md)
+* Eine neue Funktion **GetOption** ist jetzt in Aktivitäten verfügbar, die Ereignis-Variablen verwenden, nachdem ein Workflow mit externen Parametern aufgerufen wurde. Damit können Sie den Wert einer angegebenen Funktion zurückgeben. [Mehr dazu](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Eine neue Option ermöglicht es dem Campaign Standard, die Verfügbarkeit von **physischem Speicher** auf Ihrem System zu überprüfen, bevor ein Workflow gestartet wird. Ist der Arbeitsspeicher zu niedrig, wird die Ausführung des Arbeitsablaufs verzögert, bis der Systemspeicher diesen Schwellenwert erreicht. Dadurch wird eine weitere Leistungsminderung vermieden und das Risiko eines Ausfalls verringert. Der Arbeitsablauf wird automatisch fortgesetzt, sobald die Belastung des Servers nachlässt und der Arbeitsspeicher zunimmt. Beachten Sie, dass diese Option schreibgeschützt ist und nicht geändert werden kann. [Mehr dazu](../../automating/using/best-practices-workflows.md#execution)
+* Eine neue Option ermöglicht es dem Campaign Standard, die Verfügbarkeit des physischen Speichers **auf Ihrem System zu überprüfen, bevor ein Workflow gestartet wird.** Steht zu wenig Speicher zur Verfügung, wird die Ausführung des Workflows verzögert, bis der Systemspeicher diesen Schwellenwert erreicht. Dadurch wird eine weitere Leistungsminderung vermieden und das Risiko eines Ausfalls verringert. Der Arbeitsablauf wird automatisch fortgesetzt, sobald die Belastung des Servers nachlässt und der Arbeitsspeicher zunimmt. Beachten Sie, dass diese Option schreibgeschützt ist und nicht geändert werden kann. [Mehr dazu](../../automating/using/best-practices-workflows.md#execution)
 
 * In Adobe Campaign Standard ist ein neuer Prozess verfügbar, mit dem Sie einfacher von der älteren SDK v4-Mobilanwendung zu **Adobe Experience Platform Mobile SDK** migrieren können. Mehr dazu erfahren Sie auf [dieser Seite](../../administration/using/sdkv4-migration.md).
 
 **Sonstige Änderungen**
 
-* Es wurde ein Fehler in eine Warnung bei der Nachrichtenvorbereitung geändert, wenn die Beschränkung von 100 Inhaltsdownloads pro rollierender Stunde erreicht wurde. Beim Erreichen des Grenzwerts wird nun eine Warnung angezeigt, die den weiteren Versand ermöglicht.
+* Es wurde ein Fehler in eine Warnung bei der Nachrichtenvorbereitung geändert, wenn die Begrenzung von 100 Inhalts-Downloads pro rollierender Stunde erreicht wird. Beim Erreichen des Grenzwerts wird nun eine Warnung angezeigt, wodurch der weitere Versand ermöglicht wird.
 
-* Beim Anreichern von Transaktionsnachrichten-Inhalten werden die Links beim Abrufen von Daten aus der Profil-Tabelle nicht mehr abgerufen. Dadurch wird die Latenz bei der Nachrichtenvorbereitung verringert und aufgrund einer fehlerhaften Beziehung, die mit der Profil-Tabelle definiert wurde, werden leere Profil-Daten vermieden.
+* Beim Anreichern des Transaktionsnachrichteninhalts werden die Links beim Abrufen von Daten aus der Profiltabelle nicht mehr abgefragt. Dies reduziert die Latenz bei der Nachrichtenvorbereitung und vermeidet leere Profildaten aufgrund einer fehlerhaften Relation, die für die Profiltabelle definiert ist.
 
-* Die technische Konfiguration der Instanz wurde zur Gewährleistung der Stabilität optimiert. (CAMP-45681)
+* Die technische Konfiguration der Instanz wurde zur Gewährleistung von Stabilität optimiert. (CAMP-45681)
 
-* Die Sitzungsverwaltung wurde verbessert, um den Arbeitsspeicher zu optimieren. (CAMP-45901, CAMP-46767)
+* Die Sitzungsverwaltung wurde verbessert, um den Speicher zu optimieren. (CAMP-45901, CAMP-46767)
 
-* Die Aktivität **Übertragungsdatei** generiert jetzt eine zusätzliche Variable (filesCount), die die Anzahl der hochgeladenen oder heruntergeladenen Dateien enthält. (CAMP-45842) [Weitere Informationen](../../automating/using/transfer-file.md#output-variables)
+* Die Aktivität **Dateiübertragung** generiert jetzt eine zusätzliche Variable (filesCount), die die Anzahl der hochgeladenen oder heruntergeladenen Dateien enthält. (CAMP-45842) [Mehr dazu](../../automating/using/transfer-file.md#output-variables)
 
 * Der SMS-Connector kann jetzt mit jeder Nachricht mehrere optionale Parameter senden. [Mehr dazu](../../administration/using/sms-protocol.md)
 
 * Benutzer mit der Rolle &quot;DATAMODEL&quot;können jetzt Versand-Protokollerweiterungen veröffentlichen. (CAMP-46604)
 
-* Die Fehlermeldung, die beim Versuch angezeigt wird, eine Ressource zu veröffentlichen, die auf eine benutzerdefinierte Ressource ausgerichtet ist, die nicht mehr vorhanden ist, wurde klarer formuliert. (CAMP-46893)
+* Die Fehlermeldung, die beim Versuch angezeigt wurde, eine Ressource zu veröffentlichen, die auf eine nicht mehr vorhandene benutzerdefinierte Ressource ausgerichtet ist, wurde klarer formuliert. (CAMP-46893)
 
 * Die folgenden Sprachen wurden der Liste **Bevorzugte Sprache** hinzugefügt: Indonesisch - Indonesien (in-id), Englisch - Schweden (en-se), Englisch - Asiatisch-Pazifischer Raum (en-ap), Englisch - Japan (en-jp), Spanisch - Lateinamerika (es-la). (CAMP-46351)
 
-* Die Auswahl für Profil beim Testen einer Landingpage verwendet jetzt die profileBase-Ressource anstelle von Profil, um Zeitüberschreitungen zu verhindern.
+* Die Profilauswahl beim Testen einer Landingpage verwendet nun die Ressource &quot;profilBase&quot; anstelle von &quot;profile&quot;, um Zeitüberschreitungen zu vermeiden.
 
 * Das SMPP-Protokollformat wurde verbessert.
 
-* Optionale Parameter für die Funktionen cryptString und decryptString JS wurden hinzugefügt, um sie mit den Adobe Campaign Classic APIs abzugleichen.
+* Den JS-Funktionen &quot;cryptString&quot; und &quot;decryptString&quot; wurden optionale Parameter zur Angleichung an die Adobe Campaign Classic-API hinzugefügt.
 
-* Verbesserte Warn- und Fehlermeldungen in den Versand-Vorbereitungsprotokollen.
+* Verbesserte Warn- und Fehlermeldungen in den Versandvorbereitungslogs.
 
 * Verbesserte Fehlerprotokolle beim Versuch, eine Verbindung mit Adobe Identity Management Service (IMS) herzustellen.
 
 * Sie können jetzt die Dimensionen **Versand** und **Kampagne** mithilfe der Suchleiste im dynamischen Berichte weiter filtern.
 
-* Das Gültigkeitsdatum der transaktionalen SMS-Nachricht kann jetzt durch den für den Ablaufparameter in der Transaktionsnachrichten-API festgelegten Wert definiert werden. (CAMP-36600)
+* Das Gültigkeitsdatum der SMS-Transaktionsnachricht kann jetzt durch den für den Ablaufparameter in der Transaktionsnachrichten-API festgelegten Wert definiert werden. (CAMP-36600)
 
-* Im dynamischen Berichte zeigte der integrierte Bericht **Versand-Zusammenfassung** falsche Daten für die Metrik für die Abmeldung an. Eine neue Metrik mit dem Namen **Eindeutige Abmeldung** wurde hinzugefügt, um dies zu beheben. (CAMP-46445)
+* Beim dynamischen Reporting zeigte der integrierte Bericht **Versandzusammenfassung** falsche Daten für die Metrik der Abmelderate an. Eine neue Metrik mit dem Namen **Eindeutige Abmeldung** wurde hinzugefügt, um dies zu beheben. (CAMP-46445)
 
 **Korrekturen**
 
-* Es wurde ein Fehler behoben, der dazu führte, dass Versand aufgrund bestimmter Prozesse sehr langsam ausgeführt wurden. Dies war auf fehlerhafte Einheiten zurückzuführen, die für mehrere Parameter definiert wurden (z. B. Millisekunden anstelle von Sekunden).
+* Es wurde ein Problem behoben, das dazu führte, dass der Versand aufgrund bestimmter Prozesse sehr langsam ausgeführt wurde. Dies lag daran, dass für mehrere Parameter falsche Einheiten definiert waren (z. B. Millisekunden statt Sekunden).
 
-* Es wurde ein Fehler behoben, der auftrat, wenn das Mobile SDK eine offene Verfolgungsanfrage basierend auf der Bedingung gesendet hat, dass deliveryId/MessageID nicht null ist. Dies führt bei Versänden mit deaktivierter Verfolgung zu 404 Fehlern. Eine zusätzliche Variable (acsDeliveryTracking) mit Informationen zum Verfolgungsstatus des Versands wird jetzt in der Nutzlast gesendet. Diese Variable kann je nach dem festgelegten Verfolgungsstatus zwei Werte ein- oder ausblenden. [Weitere Informationen](../../administration/using/push-tracking.md).
+* Es wurde ein Problem behoben, bei dem das Mobile SDK eine offene Tracking-Anfrage basierend auf der Bedingung sendete, dass deliveryId/MessageID nicht null ist. Dies führte bei Sendungen mit deaktiviertem Tracking zu 404-Fehlern. Eine zusätzliche Variable (acsDeliveryTracking) mit Informationen zum Tracking-Status des Versands wird jetzt in der Payload gesendet. Diese Variable kann je nach eingestelltem Tracking-Status zwei Werte haben: ein oder aus. [Mehr dazu](../../administration/using/push-tracking.md).
 
-* Es wurde ein Problem in Workflows behoben, das beim Kopieren und Einfügen einer **Deduplizierung-Duplikate**-Aktivität auftrat, die einmal ausgeführt wurde und eine temporäre Ressource nutzte. Nach der Duplizierung wurde die Ressource der Aktivität automatisch auf &quot;Leer&quot;eingestellt, was zu Problemen in anderen Aktivitäten des Workflows führte. Nach dem Einfügen bleibt die Ressource der Aktivität gleich, damit der Fehler so schnell wie möglich und nicht später im Workflow ausgelöst wird. (CAMP-46903)
+* Es wurde ein Problem in Workflows behoben, das beim Kopieren und Einfügen einer **Deduplizierungs**-Aktivität auftrat, die einmal ausgeführt worden war und eine temporäre Ressource nutzte. Nach der Duplizierung wurde die Ressource der Aktivität automatisch auf &quot;Leer&quot; eingestellt, was zu Problemen bei anderen Aktivitäten des Workflows führte. Nach dem Einfügen bleibt die Ressource der Aktivität die gleiche, damit der Fehler so schnell wie möglich und nicht später im Workflow ausgelöst wird. (CAMP-46903)
 
 * Es wurde ein Fehler behoben, der dazu führte, dass die Analyse des Versands beim Senden eines transaktionalen Push-Nachrichten-Targeting-Profils fehlschlug, indem ein neues [Zielgruppen-Mapping](../../administration/using/target-mappings-in-campaign.md) eingeführt wurde: **Profil - Echtzeit-Ereignis für Push** (*mapRtEventAppSubRcp*). Versand, Ausschluss und Trackinglogs für [transaktionale Push-Benachrichtigungen, die auf ein Profil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) abzielen, werden jetzt in *wideLogAppSubRcp*, *excludeLogAppSubRcp* und *trackingLogAppSubRcp* gespeichert. Tabellen.
-* Es wurde ein Fehler behoben, der verhinderte, dass Versandberichte ausgeführt wurden, wenn 5000 Zeilen angezeigt wurden.
-* Es wurde ein Problem mit A/B-Tests behoben, durch das verhindert wurde, dass der Inhalt der Variante B aktualisiert wurde, nachdem die Versandvorlage geändert wurde. (CAMP-45235)
-* Es wurde ein Fehler behoben, der dazu führte, dass der Transaktionsnachrichtenprozess blockiert wurde und das Senden von Nachrichten verhindert wurde.
-* Es wurde ein Problem behoben, das zu Navigationsproblemen führen konnte, wenn auf einen internen Link geklickt wurde (z. B. beim Zugriff auf den übergeordneten Versand über einen Testversand-Zusammenfassungsbildschirm).
-* Es wurde ein Fehler behoben, der verhinderte, dass beim Erstellen eines Versands alle verfügbaren Inhaltsvorlagen für Experience Manager angezeigt wurden. (CAMP-45990)
-* Es wurde ein Fehler in Workflows behoben, der dazu führte, dass Fehlermeldungen nach dem Hinzufügen der Spalte **Grund** zur zusätzlichen Registerkarte &quot;Daten&quot;nicht in den Versandlogs angezeigt wurden. (CAMP-45139)
-* Es wurde ein Problem behoben, das auftrat, wenn zwei App-Abonnement-Aufrufe dieselbe Marketing Cloud-ID hatten (&quot;Duplikat-Schlüsselwert verletzt den Fehler &quot;eindeutige Einschränkung&quot;).
-* Es wurde ein Problem behoben, das zu Langsamkeit-Problemen führen konnte, wenn Aktivitäten per Drag &amp; Drop in einen Workflow mit einer großen Anzahl von Aktivitäten **Abfrage** und **Read-Audience** gezogen wurden. (CAMP-44511)
-* Es wurde ein Fehler behoben, der am Ende der Vorbereitung der Transaktionsnachricht auftrat und das Hochladen von Weiterleitungsinformationen auf die Tracking-Server verhinderte.
-* Es wurde ein Problem behoben, durch das Fehlermeldungen angezeigt werden konnten, wenn versucht wurde, Importvorlagen zu öffnen oder Importaufträge zu vergehen, nachdem die Workflow-Ressource angepasst wurde. (CAMP-46183)
-* Es wurde ein Fehler behoben, der die Ausführung einer Aktivität **Lesen** verhinderte, wenn diese mit einem dynamischen Audiencen-Namen konfiguriert wurde. (CAMP-46047)
-* Es wurde ein Problem behoben, bei dem die Schaltfläche **Liste exportieren** nicht angezeigt wurde.
-* Es wurde ein Problem behoben, das zum Fehlschlagen des **Berichte-Aggregats**-Workflows führen konnte. (CAMP-45979)
-* Es wurde ein Problem behoben, das beim Erstellen einer benutzerdefinierten Ressource mit einem benutzerdefinierten zusammengesetzten Schlüssel (dynamischer Text/Datum) auftrat.
-* Es wurde ein Problem behoben, das die Anzeige von Daten zur Transition der Abfrage verhindern konnte. (CAMP-45669)
-* Korrektur von Problemen beim Speicherverbrauch im Zusammenhang mit der benutzerdefinierten Ressourcenveröffentlichung.
-* Es wurde ein Problem behoben, das beim Konfigurieren eines Versands für das Senden an ein bestimmtes Datum aufgetreten ist. Wurde der Versand dann so eingestellt, dass er sofort nach der Bestätigung versandt wird, ist die Vorbereitung des Versands fehlgeschlagen und das ursprünglich angegebene Datum wurde weiterhin berücksichtigt. (CAMP-44107)
-* Es wurde ein Problem behoben, das das Öffnen von Transaktionsvorlagen verhinderte. (CAMP-47181)
-* Es wurde ein Fehler im Veröffentlichungsprozess der Transaktionsnachricht behoben, der dazu führte, dass Duplikat-Typologien und Typologieregeln mit Namen, die die zulässige Zeichenfolgengröße überschreiten, angezeigt wurden. (CAMP-47104)
-* Es wurde ein Fehler in der Aktivität **Externe API** behoben, der auftrat, wenn ein Eingabeparameter einen nicht vorhandenen Datensatz zurückgab. (CAMP-47023)
-* Es wurde ein Problem behoben, das die erneute Verbindung des SMPP-Connectors verhindern konnte.
-* Es wurde ein Problem behoben, das in der Aktivität **Dateiübertragung** beim Herunterladen einer Datei mit einem Punkt in ihrem Namen auftrat. Die Zeichen nach dem Punkt wurden als Dateierweiterung betrachtet. (CAMP-46624)
-* Es wurde ein Fehler behoben, der dazu führte, dass Datenbankpooling nicht durchgeführt werden konnten, wodurch Transaktionsnachrichten in der Router-Warteschlange hängen blieben.
-* Es wurde ein Fehler behoben, der nicht verhinderte, dass die abgebrochenen Versandlogs gesendet wurden.
-* Es wurde ein Fehler behoben, der dazu führte, dass ein Workflow bei Verwendung einer **AND-join**-Aktivität fehlschlug. Die Aktivität änderte den Primär-Satz automatisch auf die letzte Transition, die mit ihr verbunden war, selbst wenn sie die erste verkabelte Transition anzeigte. (CAMP-46900)
-* Es wurde ein Fehler behoben, der dazu führte, dass Adressen, die erfolgreich unter Quarantäne gestellt wurden, ihren Status nicht korrekt auf &quot;Gültig&quot;festgelegt hatten, wodurch sie aus der Quarantäne entfernt wurden.
-* Es wurde ein Problem behoben, das die Anzeige personalisierter Felder verhinderte, wenn diese Sonderzeichen enthielten. (CAMP-46805)
-* Es wurde ein Problem behoben, das die Anzeige einer bestimmten detaillierten Ansicht für ein Profil verhinderte. Dies trat auf, wenn die Profil-Ressource mit benutzerdefinierten Feldern erweitert wurde und die Option **Hinzufügen einen personalisierten Feldabschnitt** aktiviert war.
-* Es wurde ein Fehler behoben, der beim Senden von transaktionalen Ereignissen den Fehlercode 500 zurückgeben konnte. (CAMP-46811)
-* Es wurde ein Problem behoben, durch das verhindert werden konnte, dass geplante E-Mail-Berichte empfangen werden. (CAMP-46891)
-* Es wurde ein Problem behoben, das beim Verknüpfen einer benutzerspezifischen Ressource mit der Profil-Ressource mit einem einfachen Link zur 1-Kardinalität auftrat. Beim Zugriff auf ein Profil mit leerem Feld für die benutzerdefinierte Ressource wird jetzt eine Fehlermeldung anstelle einer leeren Liste angezeigt.
-* Es wurde ein Fehler behoben, der bei der Verwendung der Ersetzung von Profilen in einem Workflow auftrat, bei dem die Seite die Versand-Profil nicht geladen hat, wenn das zu ersetzende Profil ausgewählt wurde. (CAMP-46522)
-* Es wurde eine Regression behoben, bei der der technische Arbeitsablauf **Datenbankbereinigung** versucht hat, abgelaufene Versand-Tabellen abzulegen, was zu folgenden Fehlern führte: (CAMP-46536)
+* Fehlerkorrektur – Versandberichte werden jetzt ausgeführt, wenn 5.000 Zeilen angezeigt werden.
+* Fehlerkorrektur – A/B-Tests funktionieren jetzt einwandfrei. Der Inhalt von Variante B kann jetzt aktualisiert werden, nachdem die Versandvorlage geändert wurde. (CAMP-45235)
+* Fehlerkorrektur – Der Transaktionsnachrichtenprozess wird jetzt nicht mehr blockiert, sodass Nachrichten problemlos gesendet werden können.
+* Fehlerkorrektur – Das Anklicken eines internen Links führt jetzt nicht mehr zu Navigationsproblemen (z. B. beim Zugriff auf den übergeordneten Versand über einen Bildschirm mit einer Testversand-Zusammenfassung).
+* Fehlerkorrektur – Beim Erstellen eines Versands werden jetzt alle verfügbaren Experience Manager-Inhaltsvorlagen angezeigt. (CAMP-45990)
+* Fehlerkorrektur – In Workflows werden jetzt Fehlermeldungen angezeigt, nachdem die Spalte **Grund** zur Registerkarte &quot;Zusatzdaten&quot; in den Versandlogs hinzugefügt wurde. (CAMP-45139)
+* Fehlerkorrektur – Jetzt tritt kein Problem mehr auf, wenn zwei Anwendungsabonnement-Aufrufe dieselbe Marketing Cloud-ID haben (Fehler &quot;Duplizierte Schlüsselwerte verletzen die Eindeutigkeitsbeschränkung&quot;).
+* Fehlerkorrektur – Es tritt kein Problem mehr mit verlangsamter Geschwindigkeit auf, wenn Aktivitäten per Drag-and-drop in einen Workflow gezogen wurden, der eine große Anzahl von **Abfrage**- und **Audience lesen**-Aktivitäten enthält. (CAMP-44511)
+* Fehlerkorrektur – Jetzt tritt am Ende der Vorbereitung der Transaktionsnachricht kein Fehler mehr auf, sodass Weiterleitungsinformationen auf die Tracking-Server geladen werden können.
+* Fehlerkorrektur – Beim Versuch, Importvorlagen oder frühere Importvorgänge nach dem Anpassen der Workflow-Ressource zu öffnen, werden keine Fehlermeldungen mehr angezeigt. (CAMP-46183)
+* Fehlerkorrektur – Die Ausführung der Aktivität **Audience lesen** wird jetzt nicht mehr verhindert, wenn diese mit einem dynamischen Audience-Namen konfiguriert wurde. (CAMP-46047)
+* Fehlerkorrektur – Die Schaltfläche **Liste exportieren** wird jetzt angezeigt.
+* Fehlerkorrektur – Der Workflow **Bericht-Aggregate** schlägt jetzt nicht mehr fehl. (CAMP-45979)
+* Fehlerkorrektur – Beim Erstellen einer benutzerdefinierten Ressource mit einem benutzerdefinierten zusammengesetzten Schlüssel (dynamischer Text-/Datumsinhalt) tritt jetzt kein Problem mehr auf.
+* Fehlerkorrektur – Die Anzeige von Abfragetransitionsdaten wird jetzt nicht mehr verhindert. (CAMP-45669)
+* Fehlerkorrektur – Bei der Veröffentlichung benutzerdefinierter Ressourcen tritt jetzt kein Problem mehr mit dem Speicherverbrauch auf.
+* Fehlerkorrektur – Beim Konfigurieren eines Versands für die Durchführung an einem bestimmten Datum tritt jetzt kein Problem mehr auf. Wurde der Versand so eingestellt, dass er nach der Bestätigung sofort ausgeführt wird, schlug die Versandvorbereitung fehl und das ursprünglich angegebene Datum wurde weiterhin verwendet. (CAMP-44107)
+* Fehlerkorrektur – Transaktionsvorlagen können jetzt problemlos geöffnet werden. (CAMP-47181)
+* Fehlerkorrektur – Im Veröffentlichungsprozess von Transaktionsnachrichten tritt jetzt kein Problem mehr auf, das zu duplizierten Typologien und Typologieregeln mit Namen führen kann, die die zulässige Zeichenfolgenlänge überschreiten. (CAMP-47104)
+* Fehlerkorrektur – In der Aktivität **Externe API** tritt jetzt kein Problem mehr auf, wenn ein Eingabeparameter einen nicht vorhandenen Datensatz zurückgibt. (CAMP-47023)
+* Fehlerkorrektur – Das erneute Verbinden des SMPP-Connectors wird jetzt nicht mehr verhindert.
+* Fehlerkorrektur – Jetzt tritt kein Problem mehr bei der Aktivität **Dateiübertragung** auf, wenn eine Datei mit einem Punkt im Namen heruntergeladen wird. Zuvor wurden die Zeichen nach dem Punkt als Dateierweiterung betrachtet. (CAMP-46624)
+* Fehlerkorrektur – Das Datenbank-Pooling wird jetzt nicht mehr verhindert, sodass keine Transaktionsnachrichten mehr in der Router-Warteschlange hängen bleiben.
+* Fehlerkorrektur – Abgebrochene Versandlogs werden jetzt nicht mehr gesendet.
+* Fehlerkorrektur – Workflows schlagen bei Verwendung der Aktivität **Und-Verknüpfung** nicht mehr fehl. Die Aktivität änderte die Hauptmenge automatisch auf die letzte Transition, die mit ihr verbunden war, selbst wenn in ihr die erste verbundene Transition angezeigt wurde. (CAMP-46900)
+* Fehlerkorrektur – Bei Adressen, die erfolgreich unter Quarantäne gestellt wurden, wird der Status nicht mehr fälschlicherweise auf &quot;Gültig&quot; gesetzt. Zuvor wurden solche Adressen wieder aus der Quarantäne entfernt.
+* Fehlerkorrektur – Personalisierte Felder können jetzt angezeigt werden, wenn sie Sonderzeichen enthalten. (CAMP-46805)
+* Fehlerkorrektur – Eine spezifische detaillierte Ansicht eines Profils kann jetzt angezeigt werden. Hierbei trat ein Problem auf, wenn die Profilressource mit benutzerdefinierten Feldern erweitert worden war und die Option **Abschnitt mit Personalisierungsfeldern hinzufügen** aktiviert war.
+* Fehlerkorrektur – Beim Senden von Transaktionsereignissen wird nicht mehr der Fehlercode 500 zurückgegeben. (CAMP-46811)
+* Fehlerkorrektur – Jetzt werden geplante E-Mail-Berichte zugestellt. (CAMP-46891)
+* Fehlerkorrektur – Jetzt kann eine benutzerdefinierte Ressource mit der Profilressource mit einer einfachen Relation mit Kardinalität 1 problemlos verknüpft werden. Beim Zugriff auf ein Profil mit einem leeren Feld für die benutzerdefinierte Ressource wird jetzt eine Fehlermeldung anstelle einer leeren Liste angezeigt.
+* Fehlerkorrektur – Wenn in einem Workflow die Profilersetzung verwendet wird, kann die Seite jetzt die Versandprofile laden, wenn das zu ersetzende Profil ausgewählt wird. (CAMP-46522)
+* Fehlerkorrektur – Es wurde eine Regression behoben, bei der der technische Workflow **Datenbankbereinigung** versucht hat, abgelaufene Versandarbeitstabellen abzulegen, was zu folgenden Fehlern führte: (CAMP-46536).
 
 ```
    PGS-220000 PostgreSQL error: ERROR: table ""wkdlv_24439460_data"" does not exist and WDB-200001 SQL statement 'DROP TABLE wkdlv_24448131_data' could not be executed.
 ```
 
-* Es wurde der folgende Fehler behoben, der in einigen Fällen bei der Verwendung des benutzerspezifischen Filters für benutzerdefinierte Ressourcen auftrat: (CAMP-46509)
+* Fehlerkorrektur – In einigen Fällen trat bei der Verwendung des benutzerdefinierten Filters für benutzerdefinierte Ressourcen der folgende Fehler auf: (CAMP-46509).
 
 ```
    The 'profile/xxxx' field used in the filter 'xxxxx' does not exist in custom resource 'xxx'
 ```
 
-* Es wurde ein Problem behoben, bei dem die Vorbereitung der Push-Benachrichtigung **zu lange dauerte, bis sie abgeschlossen war.** Dies wurde durch einen fehlenden Index an den transienten Arbeitstabellen verursacht.
-* Es wurde ein Fehler behoben, der auftrat, wenn die Option **Dimension zum Abgleich** in einer **Versöhnung**-Aktivität in einem Workflow verwendet wurde, wenn bereits eine Beziehung zwischen einer benutzerspezifischen Ressource und einer Profil-Ressource definiert war.
-* Es wurde ein Problem behoben, das beim Hinzufügen von Links über eine **Versöhnung**- oder **Anreicherung**-Aktivität auftrat. Ausgewählte Links wurden nicht in der Transition &quot;Ausgabe&quot;angezeigt.
-* Es wurde ein Fehler behoben, der beim Verwenden einer **Segmentierung**-Aktivität mit wiederkehrenden Versänden in einem Workflow dazu führte, dass der Versand an die falsche Audience gesendet wurde. (CAMP-46275, CAMP-46470)
-* Es wurde ein Fehler behoben, bei dem die Veröffentlichung benutzerdefinierter Ressourcen fehlschlug, wenn versucht wurde, die Profil-Ressource zu erweitern, um benutzerdefinierte Profil-Dimensionen für den dynamischen Berichte zu erstellen. (CAMP-46266)
-* Es wurde ein Fehler behoben, der beim Hinzufügen eines Links zu einer Datei-Importtabelle auftrat. Nachdem Sie der Aktivität **Dateiimport** eine **Anreicherung**-Aktivität hinzugefügt haben, verschwand der zuvor konfigurierte Link. (CAMP-46557)
+* Es wurde ein Problem behoben, bei dem die Vorbereitung der Push-Benachrichtigung **zu lange dauerte, bis sie abgeschlossen war.** Dies wurde durch einen fehlenden Index in den transienten Arbeitstabellen verursacht.
+* Fehlerkorrektur – Jetzt tritt kein Fehler mehr auf, wenn die Option **Dimension zur Abstimmung** in einer **Abstimmungs**-Aktivität in einem Workflow verwendet wird und bereits eine Relation zwischen einer benutzerdefinierten Ressource und einer Profilressource definiert ist.
+* Fehlerkorrektur – Beim Hinzufügen von Links über die Aktivität **Abstimmung** oder **Anreicherung** tritt kein Fehler mehr auf. Zuvor wurden ausgewählte Links nicht in der Ausgabetransition angezeigt.
+* Fehlerkorrektur – Beim Verwenden der Aktivität **Segmentierung** bei wiederkehrenden Sendungen in einem Workflow werden die Nachrichten nicht mehr an die falsche Audience gesendet. (CAMP-46275, CAMP-46470)
+* Fehlerkorrektur – Die Veröffentlichung von benutzerdefinierten Ressourcen schlägt jetzt nicht mehr fehl, wenn man die Profilressource zu erweitern versucht, um benutzerdefinierte Profildimensionen für das dynamische Reporting zu erstellen. (CAMP-46266)
+* Fehlerkorrektur – Beim Hinzufügen eines Links zu einer Dateiimporttabelle tritt jetzt kein Fehler mehr auf. Nach dem Hinzufügen einer **Anreicherungs**-Aktivität zur **Dateiimport**-Aktivität verschwand der zuvor konfigurierte Link. (CAMP-46557)
 * Es wurde ein Fehler behoben, der bei der Verwendung benutzerdefinierter Ressourcen, die mit Profil-Daten verknüpft sind, dazu führte, dass die Anzeigereihenfolge im Konfigurationsbildschirm **Details** beim Speichern geändert wurde. (CAMP-46312)
 * Es wurde ein Problem behoben, das die Anzeige von Daten im dynamischen Berichte aufgrund von Versänden, die auf einer benutzerdefinierten Versand-Zuordnung basieren, verhindern konnte.
 * Es wurde ein Fehler behoben, der dazu führte, dass Sie eine Sammlung mit einer falschen Ressourcendatei in einer Aktivität **Abfrage** nicht auswählen konnten.
-* Es wurde ein Fehler behoben, der dazu führen konnte, dass der InMail-Prozess die Absprünge falsch validierte.
-* Es wurde ein Fehler behoben, der beim Öffnen eines Profil-Bildschirms aufgrund eines Link-Fehlers auftrat.
-* Es wurde ein Problem behoben, das das Löschen von GDPR-Daten aus dem Bereinigungsarbeitsablauf verhinderte.
+* Fehlerkorrektur – Der InMail-Prozess validiert die Hardbounces jetzt richtig.
+* Fehlerkorrektur – Jetzt tritt beim Öffnen eines Profilbildschirms aufgrund eines Link-Fehlers kein Problem mehr auf.
+* Fehlerkorrektur – Das Löschen von DSGVO-Daten aus dem Bereinigungs-Workflow wird jetzt nicht mehr verhindert.
 * Es wurde ein Fehler behoben, der auftrat, wenn die Planungskonfiguration manuell mit der Tastatur in den E-Mail-Versand-Planparametern aktualisiert wurde.
-* Es wurde ein Problem behoben, durch das Sie möglicherweise ein Profil aufgrund falscher Parameter in der Einheit &quot;Unternehmen&quot;nicht bearbeiten konnten.
+* Fehlerkorrektur – Profile können jetzt bearbeitet werden, wenn die Parameter in der Organisationseinheit falsch sind.
 * Es wurde ein Fehler behoben, der dazu führte, dass das Erweiterungsfeld **Dienst** leer war und in den **E-Mail-Eigenschaften** nicht eingestellt werden konnte, selbst wenn es in der Versandvorlage festgelegt wurde.
-* Es wurde ein Fehler behoben, der dazu führte, dass Testversand länger verarbeitet werden konnten. (CAMP-45048)
-* Es wurde ein Problem behoben, das das Sortieren von Spalten in einem Profil-Übersichtsbildschirm verhinderte.
-* Es wurde ein Problem bei der Erstellung von Miniaturbildern behoben, das in Azurblauen in E-Mail-Varianten mit chinesischen Zeichen auftreten konnte. (CAMP-47152)
+* Fehlerkorrektur – Jetzt dauert die Verarbeitung von Testsendungen nicht mehr längere Zeit. (CAMP-45048)
+* Fehlerkorrektur – Das Sortieren von Spalten in einem Profilübersichtsbildschirm funktioniert jetzt fehlerfrei.
+* Fehlerkorrektur – Die Erstellung der Miniaturansicht auf Azure funktioniert jetzt bei E-Mail-Varianten, die chinesische Zeichen enthalten, einwandfrei. (CAMP-47152)
 * Es wurde ein Regressionsfehler behoben, der in Kampagne 20.4 eingeführt wurde und aufgrund der Filterung von Ereignissen, die von Gmail-Konten empfangen wurden, zu fehlerhaften Open Rate für Gmail führen konnte. (CAMP-46504)
-* Es wurde ein Problem behoben, durch das HTML-Inhalte nicht in eine Transaktionsnachrichtenvorlage importiert werden konnten. (CAMP-47318)
+* Fehlerkorrektur – HTML-Inhalt kann jetzt in eine Transaktionsnachrichtenvorlage importiert werden. (CAMP-47318)
 * Es wurde ein Problem behoben, durch das die Anzeige der Renderings im **Bericht zum E-Mail-Rendering** verlangsamt werden konnte. (CAMP-46226)
-* Es wurde ein Fehler behoben, der dazu führte, dass benutzerdefinierte Ressourcen, die mit einem Liste-Typ-Element in der Bildschirmdefinition konfiguriert wurden, nicht veröffentlicht werden konnten. (CAMP-47217)
+* Fehlerkorrektur – Benutzerdefinierte Ressourcen, die mit einem Element vom Typ &quot;Liste&quot; konfiguriert werden, können jetzt in der Bildschirmdefinition veröffentlicht werden. (CAMP-47217)
 * Es wurde ein Fehler im E-Mail-Designer behoben, der verhinderte, dass Zeilenunterteilungen in **Microsoft Outlook** korrekt dargestellt wurden, wenn sie oben im E-Mail-Inhalt platziert wurden. (CAMP-46294)
 * Es wurde ein Fehler behoben, der dazu führte, dass die KPIs-Abstimmung mit dem technischen Arbeitsablauf **Adobe Analytics** blockiert wurde. (CAMP-46576)
 * Es wurde ein Problem im **E-Mail-Designer** behoben, das verhindert hat, dass Fragmente automatisch in Suchfeldern angezeigt wurden, wenn Inhaltsblöcke eingefügt wurden. (CAMP-44205)
