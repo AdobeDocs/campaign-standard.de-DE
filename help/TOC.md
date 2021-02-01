@@ -7,10 +7,10 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 99%
+source-wordcount: '1755'
+ht-degree: 98%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 99%
       + [Integration von Campaign mit Experience Manager konfigurieren](integrating/using/configure-experience-manager.md)
       + [E-Mail-Inhalt in Adobe Experience Manager erstellen](integrating/using/creating-email-experience-manager.md)
       + [Campaign-Formular in Adobe Experience Manager erstellen](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Mehrsprachige E-Mail mit Adobe Experience Manager-Integration erstellen](integrating/using/creating-multilingual-email-aem.md)
    + Campaign und Target {#working-with-campaign-and-target}
       + [Über die Integration von Campaign mit Target](integrating/using/about-campaign-target-integration.md)
       + [Integration von Campaign mit Target konfigurieren](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 99%
       + [Häufig gestellte Fragen zur Integration des Experience Platform SDK](administration/using/aep-faq.md)
       + [Konfigurieren von Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+      + [Mobile Anwendungen von SDK v4 auf Adobe Experience Platform SDK migrieren](administration/using/sdkv4-migration.md)
    + SMS-Kanal konfigurieren {#configuring-sms}
       + [SMS-Kanal implementieren](administration/using/configuring-sms-channel.md)
       + [Protokoll und Einstellungen des SMS-Connectors](administration/using/sms-protocol.md)
