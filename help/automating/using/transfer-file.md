@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 100%
+source-wordcount: '1232'
+ht-degree: 93%
 
 ---
 
@@ -134,13 +134,15 @@ Zur Filterung der Dateien ist die Verwendung von Platzhaltern oder Jokern (zum B
 
 Entscheiden Sie, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL Dynamischen Dateipfad verwenden]** möchten. Mit der Option **[!UICONTROL Dynamischen Dateipfad verwenden]** können Sie einen Standardausdruck und Ereignisvariablen nutzen, um den Dateinamen für die Übertragung zu personalisieren. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../automating/using/customizing-workflow-external-parameters.md).
 
-Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angegeben werden. Die Dateien befinden sich im Verzeichnis **sftp&lt;yourinstancename>/**. Darüber hinaus können dem Speicherort übergeordnete Verzeichnisse nicht durchsucht werden. Beispiel:
+Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angegeben werden. Die Dateien befinden sich im Verzeichnis **sftp&lt;yourinstancename>/**. Darüber hinaus können dem Speicherort übergeordnete Verzeichnisse nicht durchsucht werden.
 
-    >**user&amp;lt;yourinstancename>/my_recipients.csv** ist richtig.
-    >
-    >**../hello/my_recipients.csv** ist falsch.
-    >
-    >**//myserver/hello/myrecipients.csv** ist falsch.
+Beispiel:
+
+`user&lt;yourinstancename>/my_recipients.csv` richtig ist.
+
+`../hello/my_recipients.csv` ist falsch.
+
+`//myserver/hello/myrecipients.csv` ist falsch.
 
 ## Verlaufsparameter         {#historization-settings}
 
@@ -159,3 +161,16 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 >[!NOTE]
 >
 >Wenn die Aktivität nicht ausgeführt wird, wird der Ordner weder überprüft noch geleert. Seien Sie deshalb achtsam beim Transfer großer Dateien.
+
+## Ausgabevariablen {#output-variables}
+
+Die Aktivität **[!UICONTROL Übertragungsdatei]** generiert Ereignis-Variablen als Ausgabe, die Sie in anderen Aktivitäten nutzen können, z. B. um die Anzahl der heruntergeladenen Dateien mit einer Aktivität [Test](../../automating/using/test.md) zu überprüfen.
+
+Beachten Sie, dass Ereignis-Variablen auch über ein externes Signal an einen anderen Workflow übergeben werden können (siehe [Anpassen eines Workflows mit externen Parametern](../../automating/using/customizing-workflow-external-parameters.md)).
+
+Verfügbare Ausgabevariablen sind:
+
+* **[!UICONTROL fileName]**: Name der übertragenen Dateien.
+* **[!UICONTROL filesCount]**: Anzahl der übertragenen Dateien.
+
+
