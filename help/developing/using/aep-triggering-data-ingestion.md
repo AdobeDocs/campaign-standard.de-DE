@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,8 @@ Die sofortige Aufnahme eines XDM-Mappings in Adobe Experience Platform wird mit 
 >
 >Um den POST API-Aufruf zur Aufnahme ausführen zu können, muss der Benutzer über die Rolle **SQL-Funktionsausführung** verfügen, die von einem Campaign Standard-Administrator vergeben werden kann, indem er das folgende JS-Skript ausführt:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -116,7 +117,7 @@ Der GET-Vorgang gibt die folgenden Informationen zurück:
 
 Mögliche Antworten auf den GET-Vorgang sind:
 
-* Aufnahmeanfrage erfolgreich abgeschlossen:
+* Anfrage erfolgreich starten:
 
    ```
    {
@@ -140,7 +141,7 @@ Mögliche Antworten auf den GET-Vorgang sind:
    }
    ```
 
-* Aufnahmeanfrage fehlgeschlagen mit einigen hochgeladenen Datensätzen im Batch:
+* Anfrage konnte nicht erfasst werden, wobei ein Datensatz unter einem Stapel hochgeladen wurde:
 
    ```
    {
