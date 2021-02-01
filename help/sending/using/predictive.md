@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Adobe Campaign Standard bietet zwei neue Modelle für maschinelles Lernen: **Pr�
 
 * **Prädiktive Interaktionsbewertung**: Die prädiktive Interaktionsbewertung sagt die Wahrscheinlichkeit voraus, dass sich ein Empfänger mit einer Nachricht beschäftigt, sowie die Wahrscheinlichkeit, dass er sich innerhalb von sieben Tagen nach dem nächsten E-Mail-Versand abmeldet. Die Wahrscheinlichkeiten werden je nach dem spezifischen Risiko des Rückzugs (mittel oder niedrig) weiter in Behälter unterteilt. Zusammen mit diesen liefert das Modell auch den Risikoperzentil-Rang, damit die Kunden den Rang eines bestimmten Kunden im Verhältnis zu anderen verstehen können.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
 >
 >Die Funktion erfordert die Verwendung eines Azure- oder Amazon S3-Speichers, der vom Kunden zur Verfügung gestellt werden muss.
