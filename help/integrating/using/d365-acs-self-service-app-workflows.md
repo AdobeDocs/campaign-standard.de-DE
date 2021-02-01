@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Auf der Seite **[!UICONTROL Workflows]** werden die Technischen Workflows und ih
 
 Die Integrationsanwendung umfasst drei Workflows:
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 zur Kampagne**
 * *Ansprechpartner* von Microsoft Dynamics 365 in Adobe Campaign senden
@@ -71,4 +71,4 @@ Wenn Sie einen Workflow bearbeiten, werden Ihre Updates NICHT sofort in die Rege
 
 Der Schaltfläche **Stopp** wird eine Warnmeldung hinzugefügt, um Sie darüber zu informieren, wann Sie a) Aktualisierungen am Workflow vorgenommen haben, b) jedoch keinen Stopp/Beginn dieses Workflows durchgeführt haben.
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
