@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Sie können Tabellen von Microsoft Dynamics 365 mit Kampagne- und Kampagne-Marke
 
 Die Seite **[!UICONTROL Microsoft Dynamics 365 to Kampagne]** zeigt eine Liste von Entitäten in Microsoft Dynamics 365 und die benutzerdefinierten Ressourcen in Adobe Campaign, mit denen sie synchronisiert werden. Sie können neue Zuordnungen hinzufügen, vorhandene Zuordnungen bearbeiten oder löschen.
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 In der folgenden Tabelle sind die einzelnen Spalten beschrieben:
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um eine neue Zuordnung zu erstellen:
 1. Verwenden Sie die Dropdown-Listen, um Microsoft Dynamics 365 und Kampagne Tabellen für die Zuordnung auszuwählen.
 Die meisten anderen Eingaben auf der Seite hängen davon ab, welche Tabellen Sie auswählen.
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >Sie können die einzelnen Tabellen nicht mehr als einmal zuordnen. Daher werden Sie bemerken, dass die Dropdownauswahl keine Tabellen enthält, die bereits zugeordnet wurden.
@@ -84,7 +84,7 @@ Anschließend können Sie mit der Zuordnungskonfiguration fortfahren. [Mehr dazu
 
 Wenn Sie eine vorhandene Zuordnung bearbeiten, sehen Sie, dass die Tabellenauswahl nicht bearbeitbar ist.
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 Dies geschieht standardmäßig, weil die weiter unten auf der Seite angezeigten Eingaben auf den mit diesen Tabellen verknüpften Feldern basieren. Wenn Sie die Tabellen ändern, sind alle mit diesen Tabellen verknüpften Felder ungültig.  Wenn Sie die Tabelle ändern möchten, der Sie zuordnen möchten, müssen Sie zur vorherigen Seite zurückkehren, die zu ändernde Zuordnung löschen und eine neue Zuordnung hinzufügen.
 
@@ -106,7 +106,7 @@ Sie können die folgenden Einstellungen definieren:
 
 Wenn Sie eine neue Microsoft Dynamics 365-Kampagne zur Tabellenzuordnung hinzufügen, müssen Sie das ID-Feld identifizieren.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 Der Microsoft Dynamics 365-Primärschlüssel ist schreibgeschützt, da die Anwendung ihn erkennt.
 
@@ -118,7 +118,7 @@ Zur Kampagne müssen Sie festlegen, welches Feld der eindeutige Schlüssel sein 
 
 Die primären Schlüssel sind immer die ersten Feldnamen, die im Abschnitt **[!UICONTROL Feldzuordnungen]** aufgeführt werden. Zur Erinnerung: Das folgende Symbol wird rechts angezeigt, um Sie daran zu erinnern, dass es sich hierbei um die Hauptschlüssel handelt.
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### hinzufügen anderen Feldzuordnungen
 
@@ -126,14 +126,14 @@ Im Abschnitt **[!UICONTROL Feldzuordnungen]** können Sie andere Feldzuordnungen
 
 Wählen Sie in den Listen die Felder Microsoft Dynamics 365 und Kampagne aus:
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 Diese Listen enthalten die Feldnamen, die mit den Microsoft Dynamics 365 und den Kampagnen verknüpft sind, die Sie oben auf der Seite ausgewählt haben.
 
 Mit dem Umschalter **[!UICONTROL Updates anwenden]** können Sie steuern, ob Updates auf dieses Feld von Microsoft Dynamics 365 auf die Kampagne übertragen werden:
-* Wenn ![](assets/d365-to-acs-icon-switch-on.png) eingeschaltet wird, werden Updates der Werte in Microsoft Dynamics 365 an Adobe Campaign weitergegeben, sobald die Updates vorgenommen werden.
+* Wenn ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png) eingeschaltet wird, werden Updates der Werte in Microsoft Dynamics 365 an Adobe Campaign weitergegeben, sobald die Updates vorgenommen werden.
 
-* Wenn Sie ![](assets/d365-to-acs-icon-switch-off.png) ausschalten, wird der Wert beim Laden (oder Wiedergeben) der Daten weitergegeben, inkrementelle Aktualisierungen des Felds in Microsoft Dynamics 365 werden jedoch nicht weitergegeben.
+* Wenn Sie ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png) ausschalten, wird der Wert beim Laden (oder Wiedergeben) der Daten weitergegeben, inkrementelle Aktualisierungen des Felds in Microsoft Dynamics 365 werden jedoch nicht weitergegeben.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Mit dem Umschalter **[!UICONTROL Updates anwenden]** können Sie steuern, ob Upd
 
 Wenn Sie Feldwerte auswählen, wird der Datentyp unter den Dropdown-Menüs angezeigt.   Dies ist bei der Zuordnung von Werten aus einem Feld zum anderen zu beachten.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ Auf der Seite **[!UICONTROL Kampagne zu Microsoft Dynamics 365]** können Sie er
 
 Die vier Metriken, die Sie steuern können, sind: **Sendet**, **Klicks**, **Öffnet** und **Absprünge**.
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 Wählen Sie **Ja** aus, um zu bestätigen, dass Ereignis dieses Typs zu Microsoft Dynamics 365 laufen sollen.
 
@@ -208,7 +208,7 @@ Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](..
 
 Denken Sie daran, dass Sie auf &quot;Speichern&quot;klicken müssen, um Ihre Auswahl zu speichern. Denken Sie auch daran, dass Sie den Workflow **Kampagne zu Microsoft Dynamics 365** beenden und dann auf &quot;Abspielen&quot;klicken müssen, um die Änderungen zu übernehmen.
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### Opt-in/Out-Synchronisierungsrichtung
 
