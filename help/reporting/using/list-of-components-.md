@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 100%
+source-wordcount: '1297'
+ht-degree: 98%
 
 ---
 
@@ -247,8 +247,12 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Anzahl der Empfänger, die den Versand geöffnet haben<br /> </td> 
   </tr> 
   <tr> 
+   <td> Individuelle Abmeldung<br /> </td> 
+   <td> Anzahl der Empfänger, die auf den Link Abmeldung geklickt haben.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Abmelderate<br /> </td> 
-   <td> Prozentsatz der Abmeldungen durch Empfänger in Bezug auf die gesendeten Nachrichten<br /> </td> 
+   <td> Anzahl der eindeutigen Abmeldung im Vergleich zu den bereitgestellten Nachrichten.<br /> </td> 
   </tr> 
   <tr> 
    <td> Abgemeldet<br /> </td> 
