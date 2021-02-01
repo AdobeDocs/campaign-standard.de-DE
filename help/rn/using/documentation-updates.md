@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6400'
-ht-degree: 100%
+source-wordcount: '6542'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 100%
 # Aktualisierungen der Dokumentation{#documentation-updates}
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
+
+## Version 21.1 - Februar 2021                  {#release-21-1---february-2021}
+
+**Neue Funktionen in der Version**
+
+E-Mail-Feedback-Dienst - [Weitere Informationen](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Verbesserungen der Adobe Experience Manager-Integration - [Weitere Informationen](../../integrating/using/creating-multilingual-email-aem.md)
+
+Benutzeroberfläche für einheitliche Experience Clouden - [Weitere Informationen](../../start/using/interface-description.md#top-bar)
+
+**Weitere Aktualisierungen der Dokumentation zu dieser Version**
+
+Es wurden Informationen darüber hinzugefügt, wie Sie anhand der E-Mail-Adresse, des Vornamens, Nachnamens oder eines benutzerspezifischen Profils nach einem bestimmten Element suchen können. [Mehr dazu](../../audiences/using/integrated-customer-profile.md)
+
+Es wurden Informationen zur neuen GetOption-Funktion hinzugefügt, mit der Sie den Wert einer bestimmten Funktion zurückgeben können, wenn ein Workflow mit externen Parametern aufgerufen wird. [Mehr dazu](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+Informationen wurden zur neuen Ausgabevariable **[!UICONTROL filesCount]** hinzugefügt, die nach der Verwendung einer **[!UICONTROL Übertragungsdatei]**-Aktivität verfügbar ist. [Mehr dazu](../../automating/using/transfer-file.md#output-variables)
+
+Der Abschnitt **Konfigurieren des E-Mail-Kanals** wurde aktualisiert, um zu klären, was die neuesten E-Mail-Einstellungen sind. Einige ältere Parameter, die für bestimmte Kunden noch verwendet werden, werden unten auf dieser Seite aufgelistet. [Mehr dazu](../../administration/using/configuring-email-channel.md)
 
 ## Dezember 2020 {#doc-updates-december-2020}
 
