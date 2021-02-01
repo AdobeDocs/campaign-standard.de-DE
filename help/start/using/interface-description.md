@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 100%
+source-wordcount: '1319'
+ht-degree: 86%
 
 ---
 
@@ -47,7 +47,7 @@ Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnel
 
 ## Symbolleiste            {#top-bar}
 
-Die Symbolleiste ist in jedem Bildschirm sichtbar und ermöglicht die Navigation durch die Funktionen von Adobe Campaign sowie den Zugriff auf die Benutzerdaten Ihres Adobe-Benutzerprofils, auf Benachrichtigungen, auf andere Dienste und Lösungen von Adobe Experience Cloud sowie auf die Dokumentation.
+Die obere Leiste ist auf jedem Bildschirm sichtbar und ermöglicht Ihnen die Navigation durch Adobe Campaign-Funktionen sowie den Zugriff auf das angeschlossene Adobe-Profil, Benachrichtigungen, Adobe Experience Cloud-Dienste und -Lösungen und die Dokumentation.
 
 Folgende Navigationsprinzipien kommen zur Anwendung:
 
@@ -57,13 +57,25 @@ Folgende Navigationsprinzipien kommen zur Anwendung:
 
 * Verwenden Sie den **[!UICONTROL Startseite]**-Link, um die Adobe-Campaign-Startseite anzuzeigen.
 * Über die Links **[!UICONTROL Marketingaktivitäten]**, **[!UICONTROL Programme &amp; Kampagnen]**, **[!UICONTROL Profile]**, **[!UICONTROL Audiences]** und **[!UICONTROL Berichte]** gelangen Sie zu den diese Funktionen betreffenden Bildschirmen.
-* Das **[!UICONTROL Hilfe]**-Symbol bietet Zugriff auf die technische Dokumentation und die kontextuelle Hilfe, auf Informationen zu Neuheiten, auf Versionsinformationen und rechtliche Hinweise sowie auf Links zur Community für Adobe Experience Cloud und zur Kundenunterstützung.
+* Mit dem Symbol **Umschalter für Lösungen** können Sie zwischen Ihren Unternehmen oder zu einer anderen Anwendung wechseln.
+* Über die Schaltfläche **[!UICONTROL Hilfe]** erhalten Sie Zugriff auf Adobe Campaign Standard-Dokumentation, -Videos, -Versionshinweise und -Veröffentlichungsplanung sowie Links zur Adobe Experience Cloud-Community und zur Kundenbetreuung.
+* Schaltfläche „Organisation“
+* Im Symbol **Benachrichtigungen** werden die aktuellen Warnungen oder Informationen angezeigt.
+* Das **Benutzer**-Symbol ermöglicht die Anzeige von Informationen zu Ihrem Profil. Er gibt Zugriff auf die Schaltfläche **[!UICONTROL Abmelden]** und den Bildschirm **[!UICONTROL Info]**.
+
+### Hilfe {#help}
+
+* **** Search bringt Adobe Experience League in das Produkt ein: Zu den Suchergebnissen gehören Dokumentation und Hilfe-Artikel, Ergebnisse aus Community-Foren und weitere Videoinhalte, sodass Sie leichter auf weitere Inhalte zugreifen können, um die Anwendung optimal nutzen zu können.
+* Tab **[!UICONTROL Hilfe]**
+   * Über Links erhalten Sie schnell Zugriff auf Adobe Campaign Standard-Dokumentation, -Videos und -Versionshinweise.
+   * **[!UICONTROL Mithilfe]** dieses Links können Sie auf die Inhaltsbibliothek des Adobe Campaigns zugreifen.
+   * **[!UICONTROL Community]**: Mit diesem Link können Sie auf das Forum zugreifen, das sich mit Fragen zu ACS beschäftigt.
+
+* **[!UICONTROL Mit dem]** Support-Register können Sie eine Support-Anfrage öffnen und uns per Telefon oder Twitter kontaktieren.
+
+* **[!UICONTROL Feedback]**  erleichtert die Berichterstattung über Probleme oder den Austausch Ihrer Ideen.
 
    ![](assets/ux_help.png)
-
-* Über das Symbol zur **Lösungsauswahl** können Sie zu einer anderen Adobe Experience Cloud-Lösung sowie zu den Profileinstellungen wechseln.
-* Im Symbol **Benachrichtigungen** werden die aktuellen Warnungen oder Informationen angezeigt.
-* Das **Benutzer**-Symbol ermöglicht die Anzeige von Informationen zu Ihrem Profil. Es ermöglicht außerdem das **[!UICONTROL Abmelden]** von der Lösung.
 
 ## Erweitertes Menü {#advanced-menu}
 
