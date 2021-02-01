@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 48%
 
 ---
 
@@ -22,18 +22,32 @@ Für jeden Kontakt in Ihrer Datenbank ist ein integriertes Kundenprofil verfügb
 
 Um auf das integrierte Kundenprofil zuzugreifen, gehen Sie folgendermaßen vor:
 
-1. Öffnen Sie auf der Adobe Campaign-Startseite die Karte **[!UICONTROL Kundenprofile]** oder den Tab **Profile**.
-1. Wählen Sie einen Kontakt aus.
+1. Klicken Sie in der Startseite &quot;Adobe Campaign&quot;auf die Karte **[!UICONTROL Kundendaten]** oder auf die Registerkarte **Profil**, um die Liste der Profil anzuzeigen.
+
+1. Um ein Profil anhand eines bestimmten Felds zu suchen, öffnen Sie den Suchbereich und wählen Sie das Feld aus, in dem Sie die Suche durchführen möchten.
+
+
+   ![](assets/profile-search.png)
+
+1. Geben Sie den zu suchenden Wert an und drücken Sie dann die Eingabetaste.
+
+   >[!NOTE]
+   >
+   >Beachten Sie, dass Suchvorgänge auf Basis der Felder für E-Mail, Vorname und Nachname sowie der benutzerdefinierten Felder durchgeführt werden können, die beim Erweitern der Ressource hinzugefügt wurden.
+   >
+   >Bei Suchvorgängen wird die Groß-/Kleinschreibung beachtet und nur bei Präfixen ausgeführt. So können Sie z. B. nicht mit den letzten Briefen seines Nachnamens nach einem Profil suchen.
+
+1. Wählen Sie einen Kontakt aus, um sein Profil zu öffnen.
 
    ![](assets/mkt_hist_access.png)
 
 Sie werden zum **Marketingverlauf** des Profils weitergeleitet.
 
-![](assets/mkt_hist_view.png)
-
 Auf dieser Seite werden Schlüsselinformationen zum Profil sowie die Liste der Ereignisse erfasst.
 
-Klicken Sie auf ein Ereignis in der Liste, um es zu öffnen. Dort können Sie auf die gesendete Nachricht oder den vom Profil abonnierten Dienst zugreifen.
+Klicken Sie auf ein Ereignis in der Liste, um es zu öffnen: Sie können auf die Nachrichten zugreifen, die gesendet wurden, oder auf die Dienste, die das Profil abonniert hat.
+
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
