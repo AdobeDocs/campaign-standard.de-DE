@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Der Bildschirm für die Definition von **[!UICONTROL Inhalt]** ist nur für den 
 
 1. Fügen Sie mithilfe der Schaltflächen **[!UICONTROL +]** oder **[!UICONTROL Element hinzufügen]** eine Ausgabespalte hinzu. In den **[!UICONTROL Ausgabespalten]** können Sie festlegen, welche Profilinformationen (Spalten) in die Ausgabedatei exportiert werden.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Achten Sie darauf, dass Ihre Profile eine Anschrift enthalten, da diese Information für den Briefpost-Dienstleister wesentlich ist. Beachten Sie außerdem, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist. Siehe [Empfehlungen](../../channels/using/about-direct-mail.md#recommendations).
 
