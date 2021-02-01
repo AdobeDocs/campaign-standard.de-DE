@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '1832'
-ht-degree: 100%
+source-wordcount: '1831'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Geben Sie für ein externes OAuth 2.0-Konto die folgenden Details an:
 * **Vertrauliche OAuth 2.0-Zugangsdaten**: Dieser Abschnitt ist für vertrauliche Zugangsdaten gedacht. Die Zugangsdaten werden nach dem Hinzufügen auf dem Bildschirm maskiert. Zu diesem Zeitpunkt sind sie weder lesbar noch bearbeitbar. Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
 * **Nicht vertrauliche OAuth 2.0-Zugangsdaten**: Dieser Abschnitt ist für nicht vertrauliche Zugangsdaten gedacht. Die Zugangsdaten werden nach dem Hinzufügen auf dem Bildschirm angezeigt. Sie können auch bearbeitet werden.  Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
 
-Klicken Sie nach Abschluss der Konfiguration auf **Connector testen**, um zu überprüfen, ob das externe Konto korrekt eingerichtet ist.
+Klicken Sie nach Eingabe der Kontoinformationen auf **Verbindung testen**, um zu überprüfen, ob das Externe Konto korrekt konfiguriert wurde.
 
 ![](assets/external_accounts_OAuth.png)
 
