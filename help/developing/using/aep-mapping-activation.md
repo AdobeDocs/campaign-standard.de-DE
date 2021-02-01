@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um das XDM-Schema zu aktualisieren:
 
 1. Navigieren Sie zu Ihrem XDM-Schema.
 
-1. Fügen Sie dem Schema das Mixin &quot;Profile Privacy&quot; hinzu.
+1. hinzufügen Sie die **[!UICONTROL Profil Privacy]**-Mischung mit dem Schema.
 
    ![](assets/aep_datamapping_privacyfield.png)
 
