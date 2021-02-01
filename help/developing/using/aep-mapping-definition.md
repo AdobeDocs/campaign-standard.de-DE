@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >Adobe Experience Platform Data Connector befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-In diesem Abschnitt erfahren Sie, wie Sie ein Campaign Standard-Feld auf ein XDM-Feld (Experience-Datenmodell) abbilden.
+In diesem Abschnitt erfahren Sie, wie Sie ein Feld &quot;Campaign Standard&quot;mit einem Feld für ein Erlebnisdatenmodell (XDM) zuordnen.
 
 Zur Durchführung dieser Aufgabe sind folgende Voraussetzungen erforderlich:
 
@@ -51,7 +51,7 @@ Im folgenden Bildschirm wird der Abschnitt **[!UICONTROL Feld-Mappings]** angeze
 
 Mit der Schaltfläche **[!UICONTROL Neues Feld-Mapping erstellen]** können Sie das Campaign Standard-Feld und den entsprechenden Feldpfadausdruck im XDM-Schema auswählen.
 
-Wenn Sie ein Campaign Standard-Feld nicht finden können, können Sie das Suchfeld verwenden, um nach dem Feld zu suchen. Derzeit funktioniert die Suche nur für Felder, die in der Hierarchie geöffnet sind.
+Wenn Sie kein Adobe Campaign Standard-Feld finden können, können Sie das Suchfeld verwenden, um nach dem Feld zu suchen. Derzeit funktioniert die Suche nur für Felder, die in der Hierarchie geöffnet sind.
 
 ![](assets/aep_mapfield.png)
 
