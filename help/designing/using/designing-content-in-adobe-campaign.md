@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1263'
 ht-degree: 100%
 
 ---
@@ -117,7 +117,9 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
    Sehen Sie sich Ihre Nachrichten in der Vorschau an, bevor Sie sie senden. Adobe Campaign ermöglicht es Ihnen, mithilfe von Litmus das E-Mail-Rendering zu testen. Weiterführende Informationen dazu finden Sie im Abschnitt [E-Mail-Rendering](../../sending/using/email-rendering.md).
 
-Weitere Best Practices zum Design und zur allgemeinen Handhabung von Nachrichten werden im folgenden Abschnitt vorgestellt: [Best Practices zum Versand](../../sending/using/delivery-best-practices.md).
+* Referrer-Meta-Tag wird in Email Designer nicht unterstützt.
+
+Weitere Empfehlungen zur Erstellung und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
 
 ### Aktualisieren von Fragmenten {#email-designer-updates}
 
