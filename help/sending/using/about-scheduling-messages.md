@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Über die Planung von Sendungen{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Wenn Sie den Zeitplan eines Versands ändern, müssen Sie den Versand erneut vorbereiten, indem Sie auf die Schaltfläche **Vorbereiten** und danach auf **Bestätigen** klicken.
 
@@ -42,7 +42,7 @@ Unter **[!UICONTROL Planung]** können Sie Versandoptionen für E-Mails, SMS-Nac
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Beim Duplizieren eines Versands werden alle Terminierungseinstellungen gelöscht. Der duplizierte Versand wird gestartet, sobald er validiert wurde, außer Sie geben ein neues Kontaktdatum an.
 
