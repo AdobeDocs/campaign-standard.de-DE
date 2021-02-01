@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '86'
+ht-degree: 69%
 
 ---
 
@@ -27,4 +27,4 @@ Dieser Bericht fasst alle Informationen zusammen, die den Durchsatz eines Versan
 
 >[!NOTE]
 >
->Auf der Seite **[!UICONTROL Versanddurchsatz]** wird die Durchsatzgeschwindigkeit bei der Weiterleitung Ihrer Nachrichten von Campaign über den erweiterten MTA von Adobe Campaign angezeigt.
+>Die Seite **[!UICONTROL Durchsatz des Versands]** zeigt die Durchsatzgeschwindigkeit für die Weiterleitung Ihrer Nachrichten von der Kampagne zum Adobe Campaign Enhanced MTA (Message Transfer Agent) an.
