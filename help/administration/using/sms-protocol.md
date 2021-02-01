@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '8382'
-ht-degree: 100%
+source-wordcount: '8666'
+ht-degree: 96%
 
 ---
 
@@ -521,7 +521,7 @@ Um die Gesamtdurchsatzgrenze zu ermitteln, multiplizieren Sie diese Gesamtanzahl
 
 0 bedeutet keine Begrenzung, der MTA sendet MT so schnell wie möglich.
 
-Im Allgemeinen wird empfohlen, diese Einstellung unter 1.000 zu halten, da es unmöglich ist, einen genauen Durchsatz oberhalb dieser Zahl zu garantieren, es sei denn, es wurde mit der endgültigen Architektur ordnungsgemäß ein Benchmark durchgeführt. Wenn Sie einen Durchsatz von über 1.000 benötigen, kontaktieren Sie bitte Ihren Provider. Möglicherweise ist es besser, die Anzahl der Verbindungen auf über 1.000 MT/s zu erhöhen.
+Es wird generell empfohlen, diese Einstellung unter 1000 zu halten, da es nicht möglich ist, einen genauen Durchsatz über dieser Zahl zu gewährleisten, es sei denn, die endgültige Architektur wird entsprechend bewertet. Wenn Sie einen Durchsatz von über 1000 benötigen, wenden Sie sich bitte an Ihren Provider. Möglicherweise ist es besser, die Anzahl der Verbindungen auf über 1.000 MT/s zu erhöhen.
 
 #### Dauer bis zu einer erneuten Verbindung {#time-reconnection}
 
@@ -698,6 +698,10 @@ Ermöglicht das Hinzufügen eines benutzerdefinierten TLV. Dieses Feld legt den 
 
 Diese Einstellung erlaubt nur das Hinzufügen einer TLV-Option pro Nachricht.
 
+>[!NOTE]
+>
+>Ab Version 21.1 ist es jetzt möglich, mehr als einen optionalen Parameter hinzuzufügen. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/sms-protocol.md#automatic-reply-tlv).
+
 ### Automatische Antwort auf MO       {#automatic-reply}
 
 Mit dieser Funktion können Sie schnell einen Antworttext an ein MO senden und das Senden pro Kurzwahlnummer an die Blockierungsliste handhaben.
@@ -715,6 +719,12 @@ Die Spalte **Zusätzliche Aktion** enthält eine zusätzliche Aktion, wenn sowoh
 >Die Einstellung &quot;Vollständige Telefonnummer senden&quot; wirkt sich auf das Verhalten des Quarantänemechanismus für automatische Antworten aus: Wenn &quot;Vollständige Telefonnummer senden&quot; nicht aktiviert ist, wird der unter Quarantäne gestellten Telefonnummer ein Pluszeichen (&quot;+&quot;) vorangestellt, damit sie mit dem internationalen Telefonnummernformat kompatibel ist.
 
 Alle Einträge in der Tabelle werden in der angegebenen Reihenfolge verarbeitet, bis eine Regel übereinstimmt. Wenn mehrere Regeln mit einem MO übereinstimmen, wird nur die oberste Regel angewendet.
+
+### Optionale Parameter für die automatische Antwort (TLV) {#automatic-reply-tlv}
+
+Ab Version 21.1 können Sie optionale Parameter zur automatischen Antwort MT hinzufügen. Sie werden als optionale TLV-Parameter zu `SUBMIT_SM PDU` der Antwort hinzugefügt, wie in Abschnitt 5.3 der [SMPP-Spezifikation](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(Seite 131) beschrieben.
+
+Weitere Informationen zu optionalen Parametern finden Sie in diesem [Abschnitt](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
 ## SMS-Versandvorlagenparameter {#sms-delivery-template-parameters}
 
@@ -754,7 +764,19 @@ Diese Einstellung wird im optionalen Feld `dest_addr_subunit` in der `SUBMIT_SM 
 
 #### Gültigkeitszeitraum {#validity-period}
 
-Der Gültigkeitszeitraum wird im Feld `validity_period` der `SUBMIT_SM PDU` übertragen. Das Datum wird immer im absoluten UTC-Zeitformat formatiert, das Datumsfeld endet mit &quot;00+&quot;.
+Der Gültigkeitszeitraum wird im Feld `validity_period` der `SUBMIT_SM PDU` übertragen. Das Datum wird immer als absolutes UTC-Zeitformat formatiert (das Datumsfeld endet mit &quot;00+&quot;).
+
+#### Optionale SMPP-Parameter (TLV) {#smpp-optional-parameters}
+
+Ab Version 21.1 können Sie jedem für diesen Versand gesendeten MT mehrere optionale Parameter hinzufügen. Diese optionalen Parameter werden der Antwort `SUBMIT_SM PDU` hinzugefügt, wie in Abschnitt 5.3 der [SMPP-Spezifikation](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(Seite 131) beschrieben.
+
+Jede Tabellenzeile stellt einen optionalen Parameter dar:
+
+* **Parameter**: Beschreibung des Parameters. Nicht an den Anbieter übermittelt.
+* **Tag-ID**: Tag des optionalen Parameters. Muss ein gültiges Hexadezimalformat im Format 0x1234 sein. Ungültige Werte führen zu einem Versand-Vorbereitungsfehler.
+* **Wert**: Wert des optionalen Felds. Wird als UTF-8 kodiert, wenn er an den Anbieter übermittelt wird. Das Kodierungsformat kann nicht geändert werden. Es ist nicht möglich, Binärwerte zu senden oder verschiedene Kodierungen wie UTF-16 oder GSM7 zu verwenden.
+
+Wenn ein optionaler Parameter dieselbe **Tag-ID** wie die **Dienst-Tag-ID** im Externe Konto definiert hat, hat der in dieser Tabelle definierte Wert Vorrang.
 
 ## SMPP-Connector {#ACS-SMPP-connector}
 
@@ -799,7 +821,9 @@ Diese Checkliste enthält eine Liste der Dinge, die Sie vor der Live-Schaltung �
 
 Vergewissern Sie sich, dass Sie keine alten externen SMS-Konten haben. Wenn Sie das Testkonto deaktiviert lassen, besteht das Risiko, dass es auf dem Produktionssystem wieder aktiviert wird und potenzielle Konflikte entstehen.
 
-Wenn Sie mehrere Konten in derselben Adobe Campaign-Instanz haben, die eine Verbindung zu demselben Provider herstellen, wenden Sie sich an den Provider, um sicherzustellen, dass tatsächlich zwischen den Verbindungen dieser Konten unterschieden wird. Für mehrere Konten mit denselben Anmeldedaten ist eine zusätzliche Konfiguration erforderlich.
+Vergewissern Sie sich, dass sich keine andere Instanz mit diesem Konto verbindet. Achten Sie insbesondere darauf, dass die Umgebung der Phase keine Verbindung zum Konto herstellt. Einige Anbieter unterstützen dies, aber es erfordert eine sehr spezifische Konfiguration sowohl auf der Adobe Campaign- als auch auf der Plattform des Anbieters.
+
+Wenn Sie mehrere Konten für dieselbe Instanz des Adobe Campaigns haben müssen, die eine Verbindung mit demselben Anbieter herstellen, wenden Sie sich an den Anbieter, um sicherzustellen, dass diese tatsächlich Verbindungen zwischen diesen Konten unterscheiden. Für mehrere Konten mit denselben Anmeldedaten ist eine zusätzliche Konfiguration erforderlich.
 
 ### Aktivieren der ausführlichen SMPP-Verfolgung während der Prüfungen {#enable-verbose}
 
