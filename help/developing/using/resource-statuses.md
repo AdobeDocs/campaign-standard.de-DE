@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ Im Übersichtsbildschirm der **[!UICONTROL benutzerdefinierten Ressourcen]** wir
    >
    >Die Option **[!UICONTROL Zurücksetzung abbrechen]** ist verfügbar, wenn die Ressource, die Sie zurücksetzen möchten, Relationen mit anderen Ressourcen mit dem Status &quot;Veröffentlicht&quot; aufweist. Mithilfe dieser Option lässt sich der Initialisierungsprozess umkehren. Die benutzerdefinierten Ressourcen nehmen auf diese Weise ihren ursprünglichen Status an.
 
-* **Veröffentlicht**: Die Ressource wurde veröffentlicht. Wenn eine veröffentlichte Ressource in der Folge geändert wird, fordert ein Hinweis den Benutzer auf, sie erneut zu veröffentlichen, um die letzten Änderungen zu übernehmen.
+* **Veröffentlicht**: Die Ressource wurde veröffentlicht. Wenn die Ressource nach dem letzten Änderungsdatum geändert wurde, wird eine Meldung angezeigt, in der Sie aufgefordert werden, die Ressource erneut zu veröffentlichen, um die neuesten Änderungen zu berücksichtigen.
 
 Durch Aktivierung der Option **[!UICONTROL Letzte Änderungen nicht veröffentlichen]** vermeiden Sie, dass Ihre Änderungen bei zukünftigen Veröffentlichungen berücksichtigt werden.
 
