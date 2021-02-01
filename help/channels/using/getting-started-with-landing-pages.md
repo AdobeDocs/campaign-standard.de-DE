@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Im folgenden Abschnitt finden Sie die Einschränkungen, die Sie kennen sollten, 
 
 * Landingpages sind auf **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]** und über die Anmeldung zu/Abmeldung von einem **[!UICONTROL Dienst]** möglich. Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Die Ansicht oder Aktualisierung von auf einer Landingpage eingegebenen Daten ist nur über die Ressourcen **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]** möglich.
 
@@ -112,7 +112,7 @@ Wenn die Landingpage fertig ist, können Sie simulieren, wie sie ausgeführt wir
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Landingpage-Tests können nur mit Profilen und nicht mit Testprofilen durchgeführt werden. Wenn das Formular gesendet wird, werden die Daten des ausgewählten Profils aktualisiert. Um zu verhindern, dass echte Profile verändert werden, verwenden Sie ein erfundenes Kundenprofil.
 
