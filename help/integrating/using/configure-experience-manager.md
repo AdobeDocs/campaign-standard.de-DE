@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor:
 
    ![](assets/aem_2.png)
 
-1. Duplizieren Sie dann im erweiterten Menü unter **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Versandvorlagen]** eine vorhandene Vorlage, um eine für Adobe Experience Manager spezifische E-Mail-Vorlage zu erstellen.
+1. Erstellen Sie anschließend im erweiterten Menü unter **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Versandvorlagen]** eine der vorhandenen Vorlagen, um eine für Adobe Experience Manager spezifische E-Mail-Vorlage zu erstellen.
 
    ![](assets/aem_3.png)
 
