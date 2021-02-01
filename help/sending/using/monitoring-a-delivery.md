@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 100%
@@ -19,7 +19,8 @@ ht-degree: 100%
 # Sendungen überwachen{#monitoring-a-delivery}
 
 Es gibt mehrere Möglichkeiten, einen Versand zu überwachen und seine Wirkung zu messen. Als funktionaler Administrator können Sie auf Nachrichtenprotokolle und Versandlogs zugreifen.
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >Nur funktionale [Administratoren](../../administration/using/users-management.md#functional-administrators) mit **[!UICONTROL Administratorrolle]** und Zugriff auf **alle** Einheiten können auf Versandlogs, Nachrichtenprotokolle, Trackinglogs, Ausschluss-Logs oder Abonnenten-Logs zugreifen. Ein Benutzer ohne Administratorrechte kann diese Protokolle ansprechen, muss aber mit einer verknüpften Tabelle (Profile, Versand) beginnen.
 
