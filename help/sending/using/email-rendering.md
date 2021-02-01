@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Zu diesem Zweck unterstützt Adobe Campaign das Rendering und stellt dessen Erge
 
 Die für das **E-Mail-Rendering** in Adobe Campaign verfügbaren Clients für Mobilgeräte, SMS und Webmail finden Sie auf der Litmus-[Website](https://litmus.com/email-testing) (wählen Sie dazu die Option zum **Ansehen aller E-Mail-Clients** aus).
 
-## E-Mail-Rendering-Bericht prüfen {#checking-the-email-rendering-report}
+## Generieren von E-Mail-Rendering {#checking-the-email-rendering-report}
 
 Nachdem Sie Ihren E-Mail-Versand erstellt und seinen Inhalt sowie die Zielpopulation definiert haben, folgen Sie den unten stehenden Schritten.
 
@@ -66,20 +66,21 @@ Der E-Mail-Rendering-Bericht wird angezeigt. Siehe [Beschreibung des E-Mail-Rend
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 * [Abfrageeditor](../../automating/using/editing-queries.md#about-query-editor)
 
-## Beschreibung des E-Mail-Rendering-Berichts       {#email-rendering-report-description}
+## Bericht zur E-Mail-Wiedergabe {#email-rendering-report-description}
 
 Dieser Bericht enthält Informationen zum E-Mail-Rendering, d. h. zur Darstellung der E-Mail in der Inbox des Empfängers. E-Mail-Renderings können unterschiedlich aussehen, je nachdem ob die E-Mail in einem Browser, auf einem Mobilgerät oder über eine E-Mail-Anwendung geöffnet wird.
 
->[!NOTE]
->
->Die Anzahl der verfügbaren Renderings ist in Ihrem Lizenzvertrag vermerkt. Mit jedem Versand, bei dem die Option **E-Mail-Rendering** aktiviert ist, werden Ihre verfügbaren Renderings (auch Token genannt) um eins verringert.
->
->Token gelten für jedes einzelne Rendering, und nicht für den gesamten E-Mail-Rendering-Bericht. Das bedeutet:
->
->**Jedes Mal**, wenn ein Inbox-Rendering-Bericht erstellt wird, wird pro E-Mail-Client ein Token abgezogen: ein Token für das Rendering in Outlook 2000, einer für das Rendering in Outlook , einer für das Rendering in Apple Mail usw.
->
->Wenn Sie **für denselben Versand** das E-Mail-Rendering wiederholen, wird die Anzahl der verfügbaren Token nochmals um die Anzahl der erzeugten Renderings reduziert.
+### Token für die E-Mail-Wiedergabe
 
+Die Anzahl der verfügbaren Renderings ist in Ihrem Lizenzvertrag vermerkt. Mit jedem Versand, bei dem die Option **E-Mail-Rendering** aktiviert ist, werden Ihre verfügbaren Renderings (auch Token genannt) um eins verringert.
+
+Token gelten für jedes einzelne Rendering, und nicht für den gesamten E-Mail-Rendering-Bericht. Das bedeutet:
+
+* **Jedes** Mal,wenn der Bericht zum E-Mail-Rendering generiert wird, wird ein Token pro Messaging-Client abgezogen: ein Token für das Rendern in Outlook 2000, eines für das Rendern in Outlook, eines für das Rendern von Apple Mail usw.
+
+* Wenn Sie **für denselben Versand** das E-Mail-Rendering wiederholen, wird die Anzahl der verfügbaren Token nochmals um die Anzahl der erzeugten Renderings reduziert.
+
+### Berichtszusammenfassung
 
 Die Zusammenfassung des Berichts zeigt die Anzahl an empfangenen, als Spam gekennzeichneten und nicht empfangenen Nachrichten oder die Anzahl an Nachrichten, deren Empfang ausstehend ist.
 
