@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 100%
+source-wordcount: '1166'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,10 @@ Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketi
 
 Standardmäßig wird empfohlen, nicht mehr als 20 Workflows gleichzeitig auszuführen. Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, damit die Gesamtleistung nicht beeinträchtigt wird. Adobe empfiehlt ebenso, die Ausführung von Workflows zeitlich zu verteilen.
 In bestimmten Situationen müssen Sie möglicherweise mehr als 20 Workflows ausführen. Dies gilt nicht für Workflows, die auf eine geplante Ausführung warten. Besprechen Sie die Anwendungsfälle bei Bedarf mit einem Campaign-Experten und kontaktieren Sie die Adobe-Kundenunterstützung, um das Limit zu erhöhen.
+
+>[!NOTE]
+>
+>Vor dem Starten eines Workflows überprüft [!DNL Campaign Standard], ob genügend Systemspeicher vorhanden ist, um den Workflow auszuführen. Wenn nicht genügend Arbeitsspeicher zur Verfügung steht, wird eine Meldung angezeigt, dass die Ausführung des Arbeitsablaufs verzögert wird, bis die Belastung des Servers zurückgeht und der Systemspeicher zunimmt.
 
 ### Häufigkeit
 
