@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 100%
+source-wordcount: '734'
+ht-degree: 94%
 
 ---
 
@@ -62,8 +62,9 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Ab Version 20.1 wird SDK v4 nicht mehr unterstützt. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Mehr dazu</a>.</p><br/>
-   <p>Das <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (früher als v5 bezeichnet) unterstützt ausschließlich kommende Adobe Experience Cloud-Funktionen.</p></br>
+   <td> <p> Ab Kampagne 20.1 ist SDK v4 nicht mehr unterstützt. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Mehr dazu</a>.</p><br/>
+   <p>Das <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (früher als v5 bezeichnet) unterstützt ausschließlich kommende Adobe Experience Cloud-Funktionen.</p>
+   <p>Hier erfahren Sie, wie Sie von SDK v4 zu Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">migrieren.</a></p></br>
      <p>
      <em>Target-Entfernungsdatum: 31. August 2021</em></p>
      </td> 
@@ -112,7 +113,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Ab Version 18.7 werden geografische Einheiten nicht mehr unterstützt. Organisationseinheiten und geografische Einheiten sind in Campaign identische Konzepte. Benutzer sollten ausschließlich Organisationseinheiten verwenden, um eine Hierarchie für Benutzerberechtigungen/den Datenzugriff zu erstellen. <a href="https://helpx.adobe.com/de/campaign/standard/administration/using/organizational-units.html">Mehr dazu</a>. Bitte beachten Sie, dass die Funktion ab Version 18.7 nicht mehr für neue Campaign Standard-Instanzen oder für vorhandene Instanzen ohne geografische Einheiten implementiert werden kann.</p>
+   <td> <p>Ab Kampagne 18.7 werden die geografischen Einheiten nicht mehr unterstützt. Organisationseinheiten und geografische Einheiten sind in Campaign identische Konzepte. Benutzer sollten ausschließlich Organisationseinheiten verwenden, um eine Hierarchie für Benutzerberechtigungen/den Datenzugriff zu erstellen. <a href="https://helpx.adobe.com/de/campaign/standard/administration/using/organizational-units.html">Mehr dazu</a>. Bitte beachten Sie, dass die Funktion ab Version 18.7 nicht mehr für neue Campaign Standard-Instanzen oder für vorhandene Instanzen ohne geografische Einheiten implementiert werden kann.</p>
    </td> 
   </tr> 
  </tbody> 
