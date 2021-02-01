@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,9 @@ Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereig
 
    Zur Bearbeitung des Felds **[!UICONTROL Bedingung]** stehen zwei Schaltflächen zur Verfügung, mit denen Ereignisvariablen aufgerufen und Ausdrücke durch die Kombination von Variablen und Funktionen bearbeitet werden können:
 
-   * ![](assets/extsignal_picker.png): Wählen Sie die Ereignisvariable aus den im Workflow verfügbaren Variablen aus (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
+   * ![](assets/extsignal_picker.png): Wählen Sie die Ereignisvariable aus den im Workflow verfügbaren Variablen aus (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md))..
+
+      Beispielsweise können Sie die Anzahl der heruntergeladenen Dateien nach einer [Dateiübertragung](../../automating/using/transfer-file.md)-Aktivität mit der Variablen **[!UICONTROL filesCount]** überprüfen.
 
       ![](assets/wkf_test_activity_variables.png)
 
