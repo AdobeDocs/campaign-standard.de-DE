@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 1e05db3fecc87a026750f40acb0ff063706e3f38
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Erfahren Sie mehr über Ihre Datenschutzverantwortung und wie Sie Datenschutzanf
 
 Wenn Sie zum ersten Mal zur Benutzeroberfläche navigieren, sollte eine Seite mit einer Kopfzeile wie folgt angezeigt werden:
 
-![](assets/d365-to-acs-ui-header.png)
+![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Bitte überprüfen Sie, ob die Auswahl &quot;ORG&quot; und &quot;INSTANCE&quot; 
 
 Wenn Sie die richtige Reihenfolge und Instanz haben, klicken Sie auf das Menü &quot;Hamburger&quot;, um ein Dropdown-Menü anzuzeigen. Klicken Sie dann auf **[!UICONTROL Einstellungen...]** im Dropdown-Menü, um die Seite zu besuchen, auf der Sie Ihre Anmeldedaten für Microsoft Dynamics 365 und Kampagne eingeben (siehe unten).
 
-![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 Füllen Sie auf der Seite **[!UICONTROL Einstellungen]** die folgenden Abschnitte aus:
 
@@ -94,11 +94,11 @@ Wenn Sie die obigen Voraussetzungen erfüllt haben und Ihre Anmeldedaten korrekt
 
 Klicken Sie auf der Seite **[!UICONTROL Workflows]** auf das Stiftsymbol, das dem Workflow **[!UICONTROL Microsoft Dynamics 365 to Kampagne]** zugeordnet ist, um die Konfiguration zu bearbeiten.
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
 Auf der Seite **[!UICONTROL Microsoft Dynamics 365 zu Kampagne]** können Sie auf die Liste der Tabellenzuordnungen zugreifen, die Sie konfiguriert haben.  Standardmäßig werden Sie mit einer vordefinierten Kontakt-/Profil-Zuordnung arbeiten. Alle anderen benutzerdefinierten Entitäten müssen separat konfiguriert werden.
 
-![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 Überprüfen Sie auf der Seite **[!UICONTROL Tabellenzuordnung bearbeiten]** den Abschnitt **[!UICONTROL Zuordnungen]**, um sicherzustellen, dass die Felder von Microsoft Dynamics 365 dem korrekten Feld in der Kampagne zugeordnet werden. Wenn Sie weitere Zuordnungen hinzufügen müssen, tun Sie dies jetzt ebenso wie alle Ersetzungen oder Filter. [Weitere Informationen](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
@@ -111,7 +111,7 @@ Wenn die Konfiguration korrekt ist, klicken Sie auf die Schaltfläche **[!UICONT
 >Wir empfehlen **strong**, dies zuerst in Ihren Stage- oder Dev-Umgebung auszuführen, bevor Sie in der Produktion ausgeführt werden. Bitte überprüfen Sie, ob die stage/dev-Instanz im Header ausgewählt ist.
 
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
 Nach der Ausführung sollten Sie in der Lage sein zu testen, indem Sie Einträge in Microsoft Dynamics 365 hinzufügen oder ändern und diese Änderungen in Adobe Campaign innerhalb weniger Minuten beobachten können. Wenn Sie diesen Prozess jederzeit beenden müssen, drücken Sie einfach die gleiche Taste, um ihn zu stoppen. [Mehr dazu](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
@@ -124,9 +124,9 @@ Mit der Kopfzeile in der Selbstbedienungs-App können Sie festlegen, welches Org
 
 Wählen Sie **ORG** und **INSTANCE** aus, die Sie Ansicht/Bearbeitung vornehmen möchten. Diese Felder erscheinen schreibgeschützt, können jedoch bearbeitet werden, wenn Sie den Mauszeiger darüber bewegen.
 
-Ein Dropdown-Menü wird angezeigt, wenn Sie auf die Schaltfläche mit den drei horizontalen Linien ![](assets/d365-to-acs-icon-hamburger.png) auf der rechten Seite der Kopfzeile klicken.
+Ein Dropdown-Menü wird angezeigt, wenn Sie auf die Schaltfläche mit den drei horizontalen Linien ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) auf der rechten Seite der Kopfzeile klicken.
 
-Die Einträge im Dropdown-Menü sind
+Die Einträge im Dropdown-Menü sind:
 
 * **Einstellungen**: Wenn Sie diese Option auswählen, werden Sie zu einem Bildschirm geleitet, auf dem Sie API-Anmeldeinformationen für Microsoft Dynamics 365 und Adobe Campaign sowie andere allgemeine Anwendungseinstellungen angeben können.
 
@@ -146,14 +146,14 @@ Breadcrumbs werden am oberen Rand einiger Bildschirme angezeigt, während Sie in
 
 Nachfolgend finden Sie ein Beispiel aus dem Bildschirm **[!UICONTROL Tabellenzuordnung bearbeiten]**, in dem die Breadcrumbs und der Seitentitel angezeigt werden. In diesem Fall können Sie auf den Text **[!UICONTROL Workflows]** oder **[!UICONTROL Microsoft Dynamics 365 klicken, um zur Kampagne]** zu einem der vorherigen Bildschirme zu wechseln. **[!UICONTROL Die]** Zuordnung von Tabellen bearbeiten in den Breadcrumbs ist in diesem Fall nicht anklickbar, da es sich um den aktuellen Bildschirm handelt.
 
-![](assets/d365-to-acs-breadcrumbs-ingress.png)
+![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### Allgemeine Schaltflächen {#app-buttons}
 
 Die folgenden Symbole werden auf mehreren Seiten in der Selbstbedienungs-App verwendet.
 
-![](assets/d365-to-acs-icon-add.png) - Hinzufügen einem neuen Artikel in eine Liste.
+![](assets/do-not-localize/d365-to-acs-icon-add.png) - Hinzufügen einem neuen Artikel in eine Liste.
 
-![](assets/d365-to-acs-icon-edit.png) - Bearbeiten Sie etwas, das bereits vorhanden ist
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Bearbeiten Sie etwas, das bereits vorhanden ist
 
-![](assets/d365-to-acs-icon-delete.png) - Löschen eines Elements aus einer Liste von Elementen
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Löschen eines Elements aus einer Liste von Elementen
