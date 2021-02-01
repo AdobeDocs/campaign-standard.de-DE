@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2172'
-ht-degree: 99%
+source-wordcount: '2196'
+ht-degree: 95%
 
 ---
 
@@ -114,13 +114,13 @@ Wenn das **Parsen validiert wird**, erscheint eine Meldung, die Sie auffordert, 
 
 ### Ausführung
 
-In diesem Tab können Sie den Endpunkt der Verbindung definieren. Mit dem Feld **[!UICONTROL URL]** können Sie den **HTTPS-Endpunkt** definieren, der Daten an die Kampagne sendet.
+In diesem Tab können Sie den Endpunkt der Verbindung definieren. Mit dem Feld **[!UICONTROL URL]** können Sie den **HTTPS-Endpunkt** definieren, mit dem Campaign Standard kommuniziert.
 
 Falls der Endpunkt dies benötigt, stehen zwei Authentifizierungsmechanismen zur Verfügung:
 
-* Einfache Authentifizierung: Geben Sie Ihren Benutzernamen und das Kennwort in das Feld **[!UICONTROL Header abrufen]** ein.
+* Grundlegende Authentifizierung: Geben Sie Ihre Benutzernamen-/Kennwortinformationen im Abschnitt **[!UICONTROL Anforderungsheader(s)]** ein.
 
-* OAuth-Authentifizierung: Durch Klicken auf **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** können Sie ein externes Konto auswählen, in dem die OAuth-Authentifizierung definiert ist. Weiterführende Informationen hierzu finden Sie im Abschnitt [Externe Konten](../../administration/using/external-accounts.md).
+* OAuth-Authentifizierung: Durch Klicken auf die in einem Externe Konto definierten Verbindungsparameter verwenden können Sie ein Externe Konto auswählen, in dem die OAuth-Authentifizierung definiert ist. **** Weiterführende Informationen hierzu finden Sie im Abschnitt [Externe Konten](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -155,6 +155,10 @@ In diesem Tab können Sie die **ausgehende Transition** und ihren Titel aktivier
 Dieser Tab ist in den meisten Workflow-Aktivitäten verfügbar. Lesen Sie für weiterführende Informationen den Abschnitt [Aktivitätseigenschaften](../../automating/using/activity-properties.md).
 
 ![](assets/externalAPI-options.png)
+
+## Test
+
+Zum Testen der Funktion der externen API mit einem einfachen Testendpunkt können Sie Postman Echo verwenden: https://docs.postman-echo.com.
 
 ## Fehlerbehebung
 
@@ -256,7 +260,7 @@ In diesen Lognachrichten werden Informationen zu unerwarteten Fehlerbedingungen 
    <td> <p>HTTP-Header-Schlüssel ist nicht erlaubt (Header-Schlüssel: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Ein HTTP-Header-Wert ist fehlerhaft (Header-Wert: '%s').</td> 
+   <td> WKF-560247 - Ein HTTP-Header-Wert ist ungültig (Header-Wert: '%s').</td> 
    <td> <p>HTTP-Header-Wert ist ungültig (Header-Wert: '%s'). </p>
     <p>Hinweis: Dieser Fehler wird protokolliert, wenn der benutzerdefinierte Header-Wert die <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>-Validierung nicht besteht.</p></td> 
   </tr> 
