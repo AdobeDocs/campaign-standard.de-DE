@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 98%
+source-wordcount: '1314'
+ht-degree: 88%
 
 ---
 
@@ -76,24 +76,27 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
-Die Anzahl der weiteren Versuche (wie viele weitere Zustellversuche am Tag nach dem Start des Versands ausgeführt werden sollen) und das Mindestintervall zwischen Zustellversuchen werden nun vom erweiterten MTA von Adobe Campaign verwaltet und hängen davon ab, wie gut eine IP-Adresse in einer bestimmten Domain sowohl historisch als auch aktuell abschneidet. Die Einstellungen für **weitere Zustellversuche** in Campaign werden ignoriert.
-Beachten Sie, dass Adobe Campaign Enhanced MTA für den Push-Kanal nicht verfügbar ist.
+Die Anzahl der weitere Zustellversuche (wie viele weitere Zustellversuche am Tag nach dem Start des Versands ausgeführt werden sollen) und die minimale Verzögerung zwischen den weiteren Zustellversuchen richtet sich nun danach, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft. <!--managed by the Adobe Campaign Enhanced MTA,--> Die Einstellungen für **weitere Zustellversuche** in Campaign werden ignoriert.
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 Um die Dauer eines Versands zu ändern, gehen Sie zu den erweiterten Parametern des Versands oder der Versandvorlage und bearbeiten Sie das Feld **[!UICONTROL Versandlaufzeit]** im Abschnitt [Gültigkeitszeitraum](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!IMPORTANT]
 >
->**Der Parameter**[!UICONTROL  Versandlaufzeit ]**in Ihren Campaign-Sendungen wird jetzt nur verwendet, wenn er 3,5 Tage oder weniger beträgt.** Wenn Sie einen Wert definieren, der 3,5 Tage überschreitet, wird der Wert nicht berücksichtigt, da er nun vom erweiterten MTA von Adobe Campaign verwaltet wird.
+>**Der Parameter**[!UICONTROL  Versandlaufzeit ]**in Ihren Campaign-Sendungen wird jetzt nur verwendet, wenn er 3,5 Tage oder weniger beträgt.** Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
 
-Wenn Sie zum Beispiel möchten, dass weitere Zustellversuche für einen Versand nach einem Tag enden sollen, können Sie die Versandlaufzeit auf **1d** festlegen. Der erweiterte MTA berücksichtigt diese Einstellung, indem Nachrichten nach einem Tag aus der Warteschlange für weitere Zustellversuche entfernt werden.
+Wenn Sie beispielsweise möchten, dass weitere Zustellversuche für einen Versand nach einem Tag anhalten, können Sie die Dauer des Versands auf **1d** festlegen und die Meldungen in der Warteschlange zum Wiederholen werden nach einem Tag entfernt.
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->Sobald eine Nachricht 3,5 Tage lang in der Warteschlange des erweiterten MTA war und nicht gesendet werden konnte, wird sie mit einem Timeout beendet; ihr Status wird von **[!UICONTROL Gesendet]** in **[!UICONTROL Fehlgeschlagen]** geändert (in den [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs)).
+>Sobald sich eine Nachricht seit maximal 3,5 Tagen in der Warteschlange für Wiederholungen befindet und die Bereitstellung fehlgeschlagen ist, wird sie mit einem Timeout beendet und ihr Status wird auf <!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Fehlgeschlagen]** in den [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs) aktualisiert.
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
-## Synchrone und asynchrone Fehler          {#synchronous-and-asynchronous-errors}
+## Synchrone und asynchrone Fehler  {#synchronous-and-asynchronous-errors}
 
 Ein Versand kann sofort fehlschlagen (synchroner Fehler) oder zu einem späteren Zeitpunkt nach dem Versand (asynchroner Fehler).
 
@@ -102,13 +105,13 @@ Ein Versand kann sofort fehlschlagen (synchroner Fehler) oder zu einem späteren
 
 ## Bounce-Message-Qualifizierung          {#bounce-mail-qualification}
 
-Bei Fehlermeldungen, bei denen der synchrone Versand fehlgeschlagen ist, bestimmt der erweiterte MTA den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück.
-
-Asynchrone Bounces werden weiterhin durch den InMail-Prozess mittels der Regeln für **[!UICONTROL Eingehende E-Mail]** qualifiziert. Der Zugriff auf diese Regeln erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Wählen Sie dann **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** und anschließend **[!UICONTROL Bounce Messages]**. Weiterführende Informationen zu dieser Regel finden Sie in diesem [Abschnitt](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Bei Fehlermeldungen mit Fehlern beim synchronen Versand bestimmt das Adobe Campaign Enhanced MTA (Message Transfer Agent) den Absprungtyp und die Absprungberechtigung und sendet diese Informationen an die Kampagne zurück.
 
 >[!NOTE]
 >
->Die Bounce-Message-Qualifizierung wird jetzt vom erweiterten MTA von Adobe Campaign verwaltet. Bounce-Qualifizierungen in der Tabelle **[!UICONTROL Nachrichtenqualifizierung]** von Campaign werden nicht mehr verwendet.
+>Bounce-Qualifizierungen in der Tabelle **[!UICONTROL Nachrichtenqualifizierung]** von Campaign werden nicht mehr verwendet.
+
+Asynchrone Bounces werden weiterhin durch den InMail-Prozess mittels der Regeln für **[!UICONTROL Eingehende E-Mail]** qualifiziert. Der Zugriff auf diese Regeln erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Wählen Sie dann **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** und anschließend **[!UICONTROL Bounce Messages]**. Weiterführende Informationen zu dieser Regel finden Sie in diesem [Abschnitt](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 <!--Bounces can have the following qualification statuses:
 
@@ -120,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Zustellbarkeit von Mails durch die Anmeldung mit zweifacher Bestätigung optimieren {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Optimieren der E-Mail-Zustellbarkeit mit dem Dublette-Opt-in-Mechanismus {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Die Anmeldung mit zweifacher Bestätigung zählt zu den Best Practices beim E-Mail-Versand. Die Plattform wird dadurch vor falschen oder ungültigen E-Mail-Adressen und Spambots geschützt, wodurch Spam-Beschwerden verhindert werden.
 
