@@ -6,10 +6,10 @@ title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
+source-git-commit: 540d14231cb08fa86067be9223160ae6cc4eefda
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Neue Funktionen
+
+* **[Kampagne 21.1 Februar Release ist live!](rn/using/release-notes.md)**<br/> Entdecken Sie neue Funktionen, neue Updates und Fehlerbehebungen
 
 * **[Aktualisieren falscher Hardbounces](https://helpx.adobe.com/de/campaign/kb/update-bounce-qualification.html)**<br/> Erfahren Sie, wie Sie falsche Hardbounces nach einem Gmail-Ausfall aktualisieren können.
 
