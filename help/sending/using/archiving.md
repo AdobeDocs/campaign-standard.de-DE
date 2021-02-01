@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ Nachdem die Aktivierung durchgeführt wurde, aktivieren Sie E-Mail-BCC in der E-
 
 >[!NOTE]
 >
->Aktuell können die archivierten E-Mails nicht mit dem erweiterten MTA von Adobe Campaign gesendet werden, selbst wenn Sie bereits eine Aktualisierung auf den erweiterten MTA vorgenommen haben.
+>Derzeit können die archivierten E-Mails nicht mit dem Adobe Campaign Enhanced MTA gesendet werden.
 
 ## E-Mail-Archivierung aktivieren          {#activating-email-archiving}
 
