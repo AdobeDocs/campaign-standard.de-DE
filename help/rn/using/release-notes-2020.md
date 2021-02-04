@@ -6,9 +6,9 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36e0f6be4dc8c1a6e4b0d8878d190f2abce99fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5328'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 [Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 ## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
@@ -64,19 +64,19 @@ ht-degree: 100%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Integration von Journey AI</strong><br /> </th> 
+<th> <strong>Integration von Journey-KI</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Wir freuen uns, Journey AI für alle Kunden von Adobe Campaign Standard anzukündigen.</p>
-  <p>Journey AI nutzt fortschrittliches maschinelles Lernen (ML), um es Unternehmen zu ermöglichen, die Gestaltung und Bereitstellung von Customer Journeys zu optimieren, indem sie die Interaktionsvorlieben jedes Einzelnen vorhersagen.</p>
-  <P>Journey AI besteht aus zwei ML-Funktionen:</p>
+  <td> <p>Wir freuen uns, Journey-KI für alle Kunden von Adobe Campaign Standard anzukündigen.</p>
+  <p>Journey-KI nutzt fortschrittliches maschinelles Lernen (ML), um es Unternehmen zu ermöglichen, die Gestaltung und Bereitstellung von Customer Journeys zu optimieren, indem sie die Interaktionsvorlieben jedes Einzelnen vorhersagen.</p>
+  <P>Journey-KI besteht aus zwei ML-Funktionen:</p>
 <ul> 
      <li> <strong>Prädiktive Interaktionsbewertung</strong>: Identifiziert auf intelligente Weise den bevorzugten Grad der Interaktion der Kunden, um Nachrichten besser auszurichten und zu personalisieren und so die Konversionen und die Kundenbindung zu erhöhen. Sehen Sie sich das <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">Anleitungsvideo</a> an.</li> 
      <li> <strong>Prädiktive Sendezeitoptimierung</strong> – Prognostiziert den bestmöglichen Zeitpunkt zum Senden von E-Mails an jede Einzelperson in einer Kampagne, um die Interaktionsraten zu maximieren und den ROI der E-Mail-Kampagne zu verbessern. Sehen Sie sich das <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">Anleitungsvideo</a> an.</li>
     </ul>
-  <p>Wenn Sie erfahren möchten, wie Sie mit Journey AI beginnen, lesen Sie bitte das <a href="../../sending/using/predictive.md">entsprechende Handbuch</a> und wenden Sie sich an Ihren Kundenbetreuer. Beachten Sie, dass Journey AI für Bestandskunden von Campaign kostenlos erhältlich ist, die Implementierungskosten jedoch ca. 50 Stunden betragen.</p>
+  <p>Wenn Sie erfahren möchten, wie Sie mit Journey-KI beginnen, lesen Sie bitte das <a href="../../sending/using/predictive.md">entsprechende Handbuch</a> und wenden Sie sich an Ihren Kundenbetreuer. Beachten Sie, dass Journey-KI für Bestandskunden von Campaign kostenlos erhältlich ist, die Implementierungskosten jedoch ca. 50 Stunden betragen.</p>
     </td> 
 </tr> 
 </tbody> 
@@ -236,7 +236,7 @@ ht-degree: 100%
 
 **Zusätzliche Funktionen** (ab 13. Juli)
 
-* **KI-gestützte Sendezeitoptimierung und Profilbewertung**: Sie können jetzt Design und Versand von Customer Journeys optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit der Journey-API kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen. [Mehr dazu](../../sending/using/predictive.md)
+* **KI-gestützte Sendezeitoptimierung und Profilbewertung**: Sie können jetzt Design und Versand von Customer Journeys optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit Journey-KI kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen. [Mehr dazu](../../sending/using/predictive.md)
 * **Brasiliens neue Datenschutzverordnung**: Zusätzlich zu den bereits in Campaign verfügbaren Datenschutzfunktionen hilft Ihnen Adobe, LGPD-konformes Verhalten (LGPD: brasilianische Datenschutzverordnung Lei Geral de Proteçao de Datos) sicherzustellen. Bei der Erstellung einer Datenschutzanfrage wurde dem Privacy Core Service die LGPD-Verordnung hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
 
 **Verbesserungen**
@@ -291,7 +291,7 @@ ht-degree: 100%
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 ## Version 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -329,7 +329,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+>Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
