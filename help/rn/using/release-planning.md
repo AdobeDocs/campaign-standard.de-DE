@@ -6,11 +6,11 @@ description: Auf dieser Seite werden alle kommenden Versionen von Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>08.02.2021<br /> </td>
+   <td>8. bis 15. Februar 2021<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -58,7 +58,7 @@ A: Die Änderungen sind in den [Versionshinweisen](../../rn/using/release-notes.
 
 **F: Was ist der Validierungsprozess?**
 
-A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse und Anwendungsfälle mit dieser neuen Version zu validieren und alle Probleme der [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) zu melden.
+A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse und Anwendungsfälle mit dieser neuen Version zu validieren und alle Probleme der [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) zu melden.
 
 **F: Kann während des Aktualisierungsprozesses auf die Instanz zugegriffen werden?**
 
@@ -80,4 +80,4 @@ A: Ja. Während der Aktualisierung können keine neuen E-Mails gesendet werden, 
 
 A: Wenn Sie sich bei Campaign anmelden, wird ein Benachrichtigungs-Popup mit der neuesten Version angezeigt.
 
-Wenden Sie sich bei weiteren Fragen an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Wenden Sie sich bei weiteren Fragen an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html).
