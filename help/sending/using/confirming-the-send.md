@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: b48e246ee515d2f250d866ed72d5765bf1ccb326
+source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '992'
 ht-degree: 21%
 
 ---
@@ -94,17 +94,9 @@ Wenn Meldungen mit weichem Zeilensprung aus der erweiterten MTA zurückgegeben w
 
 * Andernfalls ändert sich der Status in **[!UICONTROL Fehlgeschlagen]** und der **[!UICONTROL Ausgelieferte]**-Prozentsatz wird entsprechend verringert.
 
-<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, their status changes to **[!UICONTROL Failed]**.-->
-
-<!--For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).-->
-
 Daher sollten Sie bis zum Ende der Gültigkeitsdauer warten, um die finale **[!UICONTROL Ausgelieferte]** Prozentzahl und die endgültige Anzahl der tatsächlich gesendeten **[!UICONTROL und**[!UICONTROL  Fehlgeschlagenen ]**Meldungen anzuzeigen.]**
 
 ### Email Feedback Service (Beta) {#email-feedback-service}
-
->[!NOTE]
->
->Dieser Abschnitt gilt nur für E-Mail-Kanal.
 
 Mit der EFS-Funktion (Email Feedback Service) wird der Status jeder E-Mail genau gemeldet, da Feedback direkt vom Enhanced MTA (Message Transfer Agent) erfasst wird.
 
@@ -126,7 +118,7 @@ Wenn Meldungen mit festem Absprung aus der erweiterten MTA zurückgegeben werden
 
 Wenn Meldungen mit weichem Absprung aus dem erweiterten MTA zurückgegeben werden, ändert sich auch ihr Protokollstatus von **[!UICONTROL Ausstehend]** in **[!UICONTROL Fehlgeschlagen]** und der Prozentsatz **[!UICONTROL Absprünge + Fehler]** wird entsprechend erhöht. Der Prozentsatz **[!UICONTROL Ausgeliefert]** bleibt unverändert. Soft-bouncing-Meldungen werden dann während des gesamten Versands [Gültigkeitsdauer](../../administration/using/configuring-email-channel.md#validity-period-parameters) erneut versucht:
 
-* Wenn ein erneuter Versuch vor Ende der Gültigkeitsdauer erfolgreich war, wird der Status der Nachricht auf **[!UICONTROL Gesendet]** und der **[!UICONTROL Ausgeliefert]**-Prozentsatz entsprechend erhöht.
+* Wenn ein erneuter Versuch vor Ablauf der Gültigkeitsdauer erfolgreich war, wird der Status der Nachricht auf **[!UICONTROL Gesendet]** und der **[!UICONTROL Ausgeliefert]**-Prozentsatz entsprechend erhöht.
 
 * Andernfalls bleibt der Status **[!UICONTROL Fehlgeschlagen]**. Die Prozentsätze **[!UICONTROL Ausgeliefert]** und **[!UICONTROL Absprünge + Fehler]** bleiben unverändert.
 
