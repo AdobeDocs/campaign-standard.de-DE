@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard – Handbuch
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 + [Neueste Aktualisierungen](rn/using/documentation-updates.md)
 + Versionshinweise {#release-notes}
    + [Neueste Version](rn/using/release-notes.md)
-   + [Frühere Versionshinweise](rn/using/early-release-notes.md)
+   + [Frühzeitige Versionshinweise](rn/using/early-release-notes.md)
    + Frühere Versionen {#previous-releases}
       + [Versionshinweise 2020](rn/using/release-notes-2020.md)
       + [Versionshinweise 2019](rn/using/release-notes-2019.md)
@@ -265,15 +265,15 @@ ht-degree: 98%
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Erste Schritte mit der Integration von Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Best Practices und Einschränkungen](integrating/using/d365-acs-notices-and-recommendations.md)
-      + [Microsoft Dynamics 365 konfigurieren](integrating/using/d365-acs-configure-d365.md)
+      + [Microsoft Dynamics 365 konfigurieren](integrating/using/d365-acs-configure-d365.md)
       + [Campaign und Adobe I/O konfigurieren](integrating/using/d365-acs-configure-adobe-io.md)
-      + Integrations-App konfigurieren {#configure-integration-tool}
-         + [Erste Schritte mit der Integrations-App](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
-         + [Zugriff auf die Integrations-App](integrating/using/d365-acs-self-service-app-control-access.md)
-         + [Systeme mit der Integrations-App verbinden](integrating/using/d365-acs-self-service-app-settings.md)
+      + Integrationsanwendung konfigurieren{#configure-integration-tool}
+         + [Erste Schritte mit der Integrationsanwendung](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Zugriff auf die Integrationsanwendung](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [Systeme mit der Integrationsanwendung verbinden](integrating/using/d365-acs-self-service-app-settings.md)
          + [Synchronisations-Workflows verwalten](integrating/using/d365-acs-self-service-app-workflows.md)
-         + [Daten zwischen Microsoft Dynamics 365 und Campaign zuordnen](integrating/using/d365-acs-self-service-app-data-sync.md)
-      + [Integration mit Microsoft Dynamics 365 verwenden](integrating/using/d365-acs-using-the-integration.md)
+         + [Daten zwischen Microsoft Dynamics 365 und Campaign mappen](integrating/using/d365-acs-self-service-app-data-sync.md)
+      + [Microsoft Dynamics 365-Integration verwenden](integrating/using/d365-acs-using-the-integration.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
@@ -451,7 +451,7 @@ ht-degree: 98%
       + [Häufig gestellte Fragen zur Integration des Experience Platform SDK](administration/using/aep-faq.md)
       + [Konfigurieren von Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
-      + [Mobile Anwendungen von SDK v4 auf Adobe Experience Platform SDK migrieren](administration/using/sdkv4-migration.md)
+      + [Mobile Apps von SDK v4 auf Adobe Experience Platform SDK migrieren](administration/using/sdkv4-migration.md)
    + SMS-Kanal konfigurieren {#configuring-sms}
       + [SMS-Kanal implementieren](administration/using/configuring-sms-channel.md)
       + [Protokoll und Einstellungen des SMS-Connectors](administration/using/sms-protocol.md)
