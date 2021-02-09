@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
 source-wordcount: '6571'
 ht-degree: 97%
@@ -23,7 +23,7 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 **Neue Funktionen in der Version**
 
-E-Mail-Feedback-Dienst - [Weitere Informationen](../../sending/using/confirming-the-send.md#email-feedback-service)
+E-Mail-Feedback-Dienst - [Weitere Informationen](../../sending/using/confirming-the-send.md#message-indicators)
 
 Verbesserungen bei der Integration mit Adobe Experience Manager – [mehr dazu](../../integrating/using/creating-multilingual-email-aem.md)
 
