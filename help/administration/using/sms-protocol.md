@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
-source-wordcount: '8666'
-ht-degree: 96%
+source-wordcount: '8665'
+ht-degree: 95%
 
 ---
 
@@ -478,7 +478,7 @@ Die Angabe von Kurzwahlnummern ist für zwei Funktionen hilfreich:
 
 * Die Vorschau zeigt die Kurzwahlnummer an, wenn keine Anrufernummer angegeben wurde. Es wird das tatsächliche Verhalten auf dem Mobiltelefon widergespiegelt.
 
-* Die Blockierungslisten-Einstellung der automatischen Antwortfunktion stellt Benutzer nur für die jeweilige Kurzwahlnummer unter Quarantäne.
+* Die Einstellung &quot;Blockierungsliste&quot;der Funktion für die automatische Antwort sendet nur für einen bestimmten Kurzcode an die Quarantäne des Benutzers.
 
 #### Anrufer-TON/-NPI, Empfänger-TON/-NPI {#ton-npi}
 
@@ -702,9 +702,9 @@ Diese Einstellung erlaubt nur das Hinzufügen einer TLV-Option pro Nachricht.
 >
 >Ab Version 21.1 ist es jetzt möglich, mehr als einen optionalen Parameter hinzuzufügen. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/sms-protocol.md#automatic-reply-tlv).
 
-### Automatische Antwort auf MO       {#automatic-reply}
+### Automatische Antwort auf MO        {#automatic-reply}
 
-Mit dieser Funktion können Sie schnell einen Antworttext an ein MO senden und das Senden pro Kurzwahlnummer an die Blockierungsliste handhaben.
+Diese Funktion ermöglicht eine schnelle Antwort auf Text an MO und das Versenden von Code per Kurzcode an Blockierungsliste.
 
 Die Spalten **Schlüsselwort** und **Kurzwahlnummer** definieren Bedingungen, um die automatische Antwort auszulösen. Wenn beide Felder übereinstimmen, wird der MO gesendet und die zusätzliche Aktion ausgelöst. Um einen Platzhalter festzulegen, sollten Sie das Feld leer lassen. Das Schlüsselwort wird mit dem ersten alphanumerischen Wort im MO-Text abgeglichen, wobei Interpunktion und führende Leerzeichen ignoriert werden. Das bedeutet, dass das Feld **Schlüsselwort** keine Leerzeichen enthalten darf und ein einzelnes Wort sein muss.
 
