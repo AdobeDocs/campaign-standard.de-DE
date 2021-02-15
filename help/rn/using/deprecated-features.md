@@ -6,9 +6,9 @@ description: Auf dieser Seite finden Sie eingestellte und entfernte Funktionen v
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
   <tr> 
    <td> <p> Ab Campaign-Version 20.1 wird SDK v4 nicht mehr unterstützt. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Mehr dazu</a>.</p><br/>
    <p>Das <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (früher als v5 bezeichnet) unterstützt ausschließlich kommende Adobe Experience Cloud-Funktionen.</p>
-   <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=de-DE">Auf dieser Seite</a> erfahren Sie, wie Sie von SDK v4 auf Adobe Experience Platform Mobile SDK migrieren.</p></br>
+   <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=de">Auf dieser Seite</a> erfahren Sie, wie Sie vom SDK v4 zum Adobe Experience Platform Mobile SDK migrieren.</p></br>
      <p>
      <em>Target-Entfernungsdatum: 31. August 2021</em></p>
      </td> 
