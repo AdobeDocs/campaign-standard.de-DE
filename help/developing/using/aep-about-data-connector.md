@@ -6,11 +6,11 @@ description: Verwalten Sie XDM-Schemata, um Ihre Campaign Standard-Daten in Adob
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 ![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 >[!NOTE]
->Nachdem Adobe Experience Platform Data Connector konfiguriert und Daten erfolgreich in Adobe Experience Platform aufgenommen wurden, müssen Sie den Datensatz aktivieren, damit die Daten im Echtzeit-Kundendaten-Profil enthalten sind.
+>Sobald Adobe Experience Platform Data Connector konfiguriert und Daten erfolgreich in Adobe Experience Platform aufgenommen wurden, müssen Sie den Datensatz aktivieren, damit die Daten in das Echtzeit-Kundenprofil aufgenommen werden.
 >
 >Dies kann entweder über die APIs oder die Benutzeroberfläche von Adobe Experience Platform erfolgen. Weitere Informationen finden Sie in den entsprechenden Dokumentationen:
 >
@@ -80,6 +80,6 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Connector.
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=ger)
 
-Weitere Videos zum Adobe Experience Platform Data Connector finden Sie [hier](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html).
+Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html).
