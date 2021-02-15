@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: 'Übersicht  '
-description: In diesem Abschnitt wird beschrieben, wie Sie einen Workflow mit externen Parametern aufrufen.
+description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen Parametern aufgerufen wird.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
