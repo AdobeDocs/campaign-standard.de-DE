@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie mit APIs Profile abrufen können.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: da0aa6c111f3e44bb502c1e5c4ad7feff9108d81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -86,17 +86,17 @@ Darüber hinaus können Sie mit Campaign Standard-APIs nach Profilen suchen, die
    }
    ```
 
-## Suchen nach Profilen anhand eines Felds {#searching-field}
+## Anhand eines Felds nach Profilen suchen {#searching-field}
 
-Mit dem Parameter **[!UICONTROL filterType]** können Sie Profil auf Grundlage eines der folgenden Felder abrufen: E-Mail, Vorname, Nachname oder ein benutzerdefiniertes Feld, das beim Erweitern der Profil-Ressource in der erweiterten Filterung hinzugefügt wurde.
+Mit dem Parameter **[!UICONTROL filterType]** können Sie Profile anhand eines dieser Felder abrufen: E-Mail, Vorname, Nachname oder ein beliebiges benutzerdefiniertes Feld, das den erweiterten Filtern beim Erweitern der Profilressource hinzugefügt wurde.
 
 >[!NOTE]
 >
->Bei Suchvorgängen wird die Groß-/Kleinschreibung beachtet und nur bei Präfixen ausgeführt. So können Sie z. B. nicht mit den letzten Briefen seines Nachnamens nach einem Profil suchen.
+>Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, und es wird nur nach Präfixen gesucht. Sie können z. B. nicht anhand der letzten Buchstaben des Nachnamens nach einem Profil suchen.
 
 ***Beispielanfragen***
 
-* Beispielanforderung zum Filtern von Profilen auf Grundlage des Vornamens.
+* Beispielanfrage zum Filtern von Profilen anhand des Vornamens.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -106,7 +106,7 @@ Mit dem Parameter **[!UICONTROL filterType]** können Sie Profil auf Grundlage e
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Beispielanforderung zum Filtern von Profilen auf Basis des Nachnamens.
+* Beispielanfrage zum Filtern von Profilen anhand des Nachnamens.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
@@ -116,7 +116,7 @@ Mit dem Parameter **[!UICONTROL filterType]** können Sie Profil auf Grundlage e
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Beispielanforderung zum Filtern von Profilen auf Basis von E-Mails.
+* Beispielanfrage zum Filtern von Profilen anhand der E-Mail.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
@@ -126,7 +126,7 @@ Mit dem Parameter **[!UICONTROL filterType]** können Sie Profil auf Grundlage e
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Beispielanforderung zum Filtern von Profilen basierend auf dem benutzerdefinierten Feld &quot;Hobby&quot;.
+* Beispielanfrage zum Filtern von Profilen anhand des benutzerdefinierten Felds &quot;Hobby&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
