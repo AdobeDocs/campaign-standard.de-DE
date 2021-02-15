@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie Microsoft Dynamics 365 für die Integration m
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3ba3e0db816832ea57c124a9bea1fa82cf068859
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '999'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Erfahren Sie, wie Sie die Integration mit Microsoft Dynamics 365 konfigurieren u
 
 ## Übersicht
 
-Die allgemeine Beschreibung der Adobe Campaign Standard-Integration mit Microsoft Dynamics 365 finden Sie auf [dieser Seite](../../integrating/using/d365-acs-get-started.md).
+Die allgemeine Beschreibung der Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 finden Sie auf [dieser Seite](../../integrating/using/d365-acs-get-started.md).
 
 Für die Integration müssen mehrere Anwendungen konfiguriert werden. Dieser Artikel konzentriert sich jedoch auf die in Dynamics 365 erforderlichen Schritte.
 
@@ -37,11 +37,11 @@ Ein OAuth-Zugriffstoken ermöglicht es dem Integrations-Tool, sich über Web-API
 
 Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/27637?captions=ger)
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
-### Neue Anwendung registrieren {#register-a-new-app}
+### Neue Anwendung registrieren  {#register-a-new-app}
 
 1. Melden Sie sich mit Ihren Administratoranmeldedaten bei portal.azure.com an.
 
@@ -60,7 +60,7 @@ Weiterführende Informationen zur Erstellung einer neuen Anwendung finden Sie in
 
 >[!NOTE]
 >
->Microsoft Azurblau-Verzeichnis weist Ihrer App eine eindeutige Anwendungs-(Client-)ID zu. Sie benötigen diese ID später bei der Konfiguration von Dynamics 365 sowie beim Einrichten des Integrationstools.
+>Microsoft Azure Directory weist Ihrer App eine eindeutige Anwendungs-(Client-)Kennung zu. Sie benötigen diese Kennung später bei der Konfiguration von Dynamics 365 sowie bei der Einrichtung des Integrations-Tools.
 
 ### Client-Geheimnis generieren {#generate-a-client-secret}
 
@@ -143,5 +143,5 @@ Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/en-us/pr
 
 **Verwandte Themen**
 
-* [Adobe IO für Microsoft Dynamics 365 ](../../integrating/using/d365-acs-configure-adobe-io.md) Integration konfigurieren ist der nächste Schritt bei der Einrichtung der Integration
-* [Erste Schritte mit der Self-Service-Integration-](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) App enthält die vollständige Liste der Schritte, um die Integration in die Praxis umzusetzen.
+* Das [Konfigurieren von Adobe I/O für die Integration mit Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration.
+* [Erste Schritte mit der Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.
