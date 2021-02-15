@@ -3,11 +3,11 @@ solution: Campaign Standard
 product: campaign
 title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Verwandte Themen:
 
 1. Bevor Sie den Identifizierungsschlüssel konfigurieren, stellen Sie sicher, dass die Ressource mit den gewünschten Feldern erweitert und veröffentlicht wurde. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Wechseln Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Benutzerspezifische Ressourcen]** und öffnen Sie dann die Ressource **[!UICONTROL Profil]**.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Benutzerdefinierte Ressourcen]** und öffnen Sie die Ressource **[!UICONTROL Profil]**.
 
    ![](assets/uc_idkey1.png)
 
