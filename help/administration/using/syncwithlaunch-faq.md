@@ -6,9 +6,9 @@ description: Häufig gestellte Fragen zum technischen Workflow für Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Nur ein Administrator der Organisationseinheit „ALLE“ kann mobile Apps in Ad
 
 ## Ich kann eine konfigurierte mobile App in Adobe Campaign Standard nicht bearbeiten, und die mobilen Apps befinden sich im schreibgeschützten Modus. {#read-mode-mobile-app}
 
-Überprüfen Sie die Organisationseinheit der mobilen App im Abschnitt **[!UICONTROL Zugriffsberechtigung]**. Nur Benutzer der zugeordneten Organisationseinheit können die mobile App bearbeiten.
+Überprüfen Sie die Organisationseinheit der Mobile App im Abschnitt **[!UICONTROL Zugriffsberechtigung]**. Nur Benutzer der zugeordneten Organisationseinheit können die mobile App bearbeiten.
 
 Weiterführende Informationen zu Organisationseinheiten finden Sie auf dieser [Seite](../../administration/using/organizational-units.md).
 
