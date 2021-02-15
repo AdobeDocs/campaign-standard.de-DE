@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
 source-wordcount: '8665'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Weitere Informationen zu **Protokoll und Einstellungen des SMS-Connectors** für Adobe Campaign Classic finden Sie auf dieser [Seite](https://experienceleague.adobe.com/de/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages).
+>Weitere Informationen zu **Protokoll und Einstellungen des SMS-Connectors** für Adobe Campaign Classic finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=de#sending-messages).
 >
 >In diesem Dokument beziehen sich alle Informationen zum Protokoll, zum Feldnamen und zu Feldwerten auf die [Spezifikation von SMPP Version 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -521,7 +521,7 @@ Um die Gesamtdurchsatzgrenze zu ermitteln, multiplizieren Sie diese Gesamtanzahl
 
 0 bedeutet keine Begrenzung, der MTA sendet MT so schnell wie möglich.
 
-Es wird generell empfohlen, diese Einstellung unter 1000 zu halten, da es nicht möglich ist, einen genauen Durchsatz über dieser Zahl zu gewährleisten, es sei denn, die endgültige Architektur wird entsprechend bewertet. Wenn Sie einen Durchsatz von über 1000 benötigen, wenden Sie sich bitte an Ihren Provider. Möglicherweise ist es besser, die Anzahl der Verbindungen auf über 1.000 MT/s zu erhöhen.
+Im Allgemeinen wird empfohlen, diese Einstellung unter 1.000 zu halten, da es unmöglich ist, einen genauen Durchsatz oberhalb dieser Zahl zu garantieren, es sei denn, es wurde mit der endgültigen Architektur ordnungsgemäß ein Benchmark durchgeführt. Wenn Sie einen Durchsatz von über 1.000 benötigen, kontaktieren Sie Ihren Provider. Möglicherweise ist es besser, die Anzahl der Verbindungen auf über 1.000 MT/s zu erhöhen.
 
 #### Dauer bis zu einer erneuten Verbindung {#time-reconnection}
 
@@ -722,7 +722,7 @@ Alle Einträge in der Tabelle werden in der angegebenen Reihenfolge verarbeitet,
 
 ### Optionale Parameter für die automatische Antwort (TLV) {#automatic-reply-tlv}
 
-Ab Version 21.1 können Sie optionale Parameter zur automatischen Antwort MT hinzufügen. Sie werden als optionale TLV-Parameter zu `SUBMIT_SM PDU` der Antwort hinzugefügt, wie in Abschnitt 5.3 der [SMPP-Spezifikation](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(Seite 131) beschrieben.
+Ab Version 21.1 können Sie dem automatischen Antwort-MT optionale Parameter hinzufügen. Sie werden als optionale TLV-Parameter zur `SUBMIT_SM PDU` der Antwort hinzugefügt, wie in Abschnitt 5.3 der [SMPP-Spezifikation](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(Seite 131) beschrieben.
 
 Weitere Informationen zu optionalen Parametern finden Sie in diesem [Abschnitt](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
@@ -764,19 +764,19 @@ Diese Einstellung wird im optionalen Feld `dest_addr_subunit` in der `SUBMIT_SM 
 
 #### Gültigkeitszeitraum {#validity-period}
 
-Der Gültigkeitszeitraum wird im Feld `validity_period` der `SUBMIT_SM PDU` übertragen. Das Datum wird immer als absolutes UTC-Zeitformat formatiert (das Datumsfeld endet mit &quot;00+&quot;).
+Der Gültigkeitszeitraum wird im Feld `validity_period` der `SUBMIT_SM PDU` übertragen. Das Datum wird immer im absoluten UTC-Zeitformat formatiert (das Datumsfeld endet mit &quot;00+&quot;).
 
 #### Optionale SMPP-Parameter (TLV) {#smpp-optional-parameters}
 
-Ab Version 21.1 können Sie jedem für diesen Versand gesendeten MT mehrere optionale Parameter hinzufügen. Diese optionalen Parameter werden der Antwort `SUBMIT_SM PDU` hinzugefügt, wie in Abschnitt 5.3 der [SMPP-Spezifikation](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(Seite 131) beschrieben.
+Ab Version 21.1 können Sie jedem für diesen Versand gesendeten MT mehrere optionale Parameter hinzufügen. Diese optionalen Parameter werden zur `SUBMIT_SM PDU` der Antwort hinzugefügt, wie in Abschnitt 5.3 der [SMPP-Spezifikation](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (Seite 131) beschrieben.
 
 Jede Tabellenzeile stellt einen optionalen Parameter dar:
 
-* **Parameter**: Beschreibung des Parameters. Nicht an den Anbieter übermittelt.
-* **Tag-ID**: Tag des optionalen Parameters. Muss ein gültiges Hexadezimalformat im Format 0x1234 sein. Ungültige Werte führen zu einem Versand-Vorbereitungsfehler.
-* **Wert**: Wert des optionalen Felds. Wird als UTF-8 kodiert, wenn er an den Anbieter übermittelt wird. Das Kodierungsformat kann nicht geändert werden. Es ist nicht möglich, Binärwerte zu senden oder verschiedene Kodierungen wie UTF-16 oder GSM7 zu verwenden.
+* **Parameter**: Beschreibung des Parameters. Wird nicht an den Provider übermittelt.
+* **Tag-ID**: Tag des optionalen Parameters. Muss eine gültige Hexadezimalzahl im Format 0x1234 sein. Ungültige Werte führen zu einem Fehler bei der Versandvorbereitung.
+* **Wert**: Wert des optionalen Felds. Wird als UTF-8 kodiert, wenn er an den Provider übermittelt wird. Das Kodierungsformat kann nicht geändert werden. Es ist nicht möglich, Binärwerte zu senden oder verschiedene Kodierungen wie UTF-16 oder GSM-7 zu verwenden.
 
-Wenn ein optionaler Parameter dieselbe **Tag-ID** wie die **Dienst-Tag-ID** im Externe Konto definiert hat, hat der in dieser Tabelle definierte Wert Vorrang.
+Wenn die **Tag-ID** eines optionalen Parameters und die im externen Konto definierte **Dienst-Tag-ID** identisch sind, hat der in dieser Tabelle definierte Wert Vorrang.
 
 ## SMPP-Connector {#ACS-SMPP-connector}
 
@@ -821,9 +821,9 @@ Diese Checkliste enthält eine Liste der Dinge, die Sie vor der Live-Schaltung �
 
 Vergewissern Sie sich, dass Sie keine alten externen SMS-Konten haben. Wenn Sie das Testkonto deaktiviert lassen, besteht das Risiko, dass es auf dem Produktionssystem wieder aktiviert wird und potenzielle Konflikte entstehen.
 
-Vergewissern Sie sich, dass sich keine andere Instanz mit diesem Konto verbindet. Achten Sie insbesondere darauf, dass die Umgebung der Phase keine Verbindung zum Konto herstellt. Einige Anbieter unterstützen dies, aber es erfordert eine sehr spezifische Konfiguration sowohl auf der Adobe Campaign- als auch auf der Plattform des Anbieters.
+Vergewissern Sie sich, dass keine andere Instanz eine Verbindung zu diesem Konto herstellt. Achten Sie insbesondere darauf, dass die Staging-Umgebung keine Verbindung zum Konto herstellt. Einige Provider unterstützen dies, aber es erfordert eine sehr spezifische Konfiguration sowohl auf der Seite von Adobe Campaign als auch auf der Plattform des Providers.
 
-Wenn Sie mehrere Konten für dieselbe Instanz des Adobe Campaigns haben müssen, die eine Verbindung mit demselben Anbieter herstellen, wenden Sie sich an den Anbieter, um sicherzustellen, dass diese tatsächlich Verbindungen zwischen diesen Konten unterscheiden. Für mehrere Konten mit denselben Anmeldedaten ist eine zusätzliche Konfiguration erforderlich.
+Wenn Sie mehrere Konten in derselben Adobe Campaign-Instanz haben müssen, die eine Verbindung zu demselben Provider herstellen, wenden Sie sich an den Provider, um sicherzustellen, dass tatsächlich zwischen den Verbindungen dieser Konten unterschieden wird. Für mehrere Konten mit denselben Anmeldedaten ist eine zusätzliche Konfiguration erforderlich.
 
 ### Aktivieren der ausführlichen SMPP-Verfolgung während der Prüfungen {#enable-verbose}
 
