@@ -6,11 +6,11 @@ description: Durch die Integration von Audience Manager/People Core Service kön
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
