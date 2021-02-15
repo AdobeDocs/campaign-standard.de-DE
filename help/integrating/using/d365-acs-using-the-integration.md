@@ -4,32 +4,32 @@ description: Erfahren Sie, wie Sie die Integration von Microsoft Dynamics 365 mi
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1607'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 
-# Verwenden der Microsoft Dynamics 365-Integration
+# Integration mit Microsoft Dynamics 365 verwenden
 
-Es gibt mehrere Datenflüsse, die die Adobe Campaign Standard Integration mit Microsoft Dynamics 365 durchführt. Diese Flüsse sind in [dieser Seite](../../integrating/using/d365-acs-self-service-app-workflows.md) detailliert.
+Es gibt mehrere Datenflüsse, die durch die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 ausgeführt werden. Diese Flüsse werden auf [dieser Seite](../../integrating/using/d365-acs-self-service-app-workflows.md) im Detail beschrieben.
 
 Weitere Informationen zu den Datenflüssen finden Sie weiter unten in diesem Dokument im Abschnitt [Datenflüsse](#data-flows).
 
-## Adobe Campaign Standard-Benutzererfahrung
+## Verwendung von Adobe Campaign Standard
 
-Wenn ein Kontakt in Microsoft Dynamics 365 erstellt, geändert oder gelöscht wird (falls gelöscht), wird er an den Campaign Standard gesendet. Solche Kontakte werden im Bildschirm &quot;Profile&quot; in Campaign angezeigt und können in Marketing-Kampagnen gezielt ausgewählt werden. Siehe Bildschirm &quot;Profile&quot; unten.
+Wenn ein Kontakt in Microsoft Dynamics 365 erstellt, geändert oder gelöscht wird (falls &quot;Löschen&quot; aktiviert ist), wird er an Campaign Standard gesendet. Solche Kontakte werden im Bildschirm &quot;Profile&quot; in Campaign angezeigt und können in Marketing-Kampagnen ausgewählt werden. Siehe Bildschirm &quot;Profile&quot; unten.
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Wenn ein Ausschluss-Attribut in der Kampagne geändert wird, wird es in Dynamics 365 angezeigt, wenn Sie die Option **Unidirektionale (Kampagne zu Microsoft Dynamics 365)** oder **Bidirektionale** Opt-out-Konfiguration ausgewählt haben und wenn Sie dieses Attribut korrekt zugeordnet haben.
+Wenn ein Opt-out-Attribut in Campaign geändert wird, spiegelt sich das in Dynamics 365 wider, wenn Sie die Opt-out-Konfiguration **Unidirektional (Campaign zu Microsoft Dynamics 365)** oder **Bidirektional** gewählt haben und dieses Attribut korrekt zugeordnet wurde. 
 
-## Microsoft Dynamics 365
+## Verwendung von Microsoft Dynamics 365
 
-Die folgenden E-Mail-Marketing-Ereignisse werden von Kampagne zu Dynamics 365 gesendet und in der Microsoft Dynamics 365-Zeitschiene-Ansicht als benutzerdefinierte Aktivitäten angezeigt:
+Beim ausgehenden Datenfluss werden die folgenden E-Mail-Marketing-Ereignisse von Campaign an Dynamics 365 gesendet und in der Microsoft Dynamics 365-Timeline-Ansicht als benutzerdefinierte Aktivitäten angezeigt:
 
 * Adobe Campaign – E-Mail-Versand
 
@@ -43,9 +43,9 @@ Um die Timeline eines Kontakts anzuzeigen, navigieren Sie zu Ihrer Kontaktliste,
 
 >[!NOTE]
 >
->Die App **Adobe Campaign für Microsoft Dynamics 365** in AppSource muss in Ihrer Microsoft Dynamics 365-Instanz installiert werden, um diese Ereignisse Ansicht. [Weitere Informationen](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
+>Die Adobe-Anwendung **Adobe Campaign for Microsoft Dynamics 365** in AppSource muss in Ihrer Microsoft Dynamics 365-Instanz installiert werden, damit sich die Ereignisse anzeigen lassen. [Weitere Informationen](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
 
-Unten sehen Sie eine Momentaufnahme des Kontaktbildschirms für &quot;Dynamics User&quot;. In der Timeline-Ansicht werden Sie feststellen, dass Dynamics User eine E-Mail mit dem Namen der Kampagne &quot;2019LoyaltyCamp&quot;und dem Namen des Versands &quot;DM190&quot;gesendet wurde. &quot;Dynamics User&quot; hat die E-Mail geöffnet und auch auf eine URL in der E-Mail geklickt. Beide Aktionen führten zur Erstellung von Ereignissen, die auch unten angezeigt werden.  In der rechten Ecke finden Sie die Relationship Assistant (RA)-Karte, die derzeit eine Aufgabe zum Nachverfolgen der angeklickten URL enthält.
+Unten sehen Sie eine Abbildung des Kontaktbildschirms für &quot;Dynamics User&quot;. In der Timeline-Ansicht können Sie sehen, dass an &quot;Dynamics User&quot; eine E-Mail im Zusammenhang mit dem Kampagnennamen &quot;2019LoyaltyCamp&quot; und dem Versandnamen &quot;DM190&quot; gesendet wurde. &quot;Dynamics User&quot; hat die E-Mail geöffnet und auch auf eine URL in der E-Mail geklickt. Beide Aktionen führten zur Erstellung von Ereignissen, die auch unten angezeigt werden. In der rechten Ecke finden Sie die Relationship Assistant (RA)-Karte, die derzeit eine Aufgabe zum Nachverfolgen der angeklickten URL enthält.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
@@ -53,7 +53,7 @@ Unten finden Sie eine Nahaufnahme der Timeline-Ansicht für &quot;Dynamics User&
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-Nachfolgend sehen Sie eine Nahaufnahme der Relationship Assistant (RA)-Karte. Die AppSource-App enthält einen Workflow, der nach einem Adobe E-Mail-URL-Klick-Ereignis Ausschau hält. Wenn dieses Ereignis eintritt, wird eine Aufgabe erstellt und ein Fälligkeitsdatum festgelegt. Dadurch kann die Aufgabe in der RA-Karte angezeigt werden, was zusätzliche Transparenz gewährt. Für Adobe E-Mail-Bounce-Ereignisse gibt es einen ähnlichen Workflow. Dabei wird eine Aufgabe hinzugefügt, mit der eine ungültige E-Mail-Adresse abgeglichen wird. Dieser Workflow kann in der Lösung deaktiviert werden.
+Nachfolgend sehen Sie eine Nahaufnahme der RA-Karte (Relationship Assistant). Die AppSource-Anwendung enthält einen Workflow, der Klick-Ereignisse auf Adobe-E-Mail-URLs erfasst. Wenn ein solches Ereignis eintritt, wird eine Aufgabe erstellt und ein Fälligkeitsdatum festgelegt. Dadurch kann die Aufgabe in der RA-Karte angezeigt werden, was zusätzliche Transparenz bietet. Für Adobe E-Mail-Bounce-Ereignisse gibt es einen ähnlichen Workflow. Dabei wird eine Aufgabe hinzugefügt, mit der die ungültige E-Mail-Adresse abgeglichen wird. Diese Workflows können in der Lösung deaktiviert werden.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
@@ -67,37 +67,37 @@ Das Formular für E-Mail-URL-Klick-Ereignisse fügt ein zusätzliches Attribut f
 
 Im Folgenden finden Sie eine Liste der Attribute inklusive einer Beschreibung:
 
-* **Betrifft**: Gegenstand des Ereignisses; bestehend aus Kampagnen-ID und Versand-ID des E-Mail-Versands
+* **Betreff**: Betreff des Ereignisses; bestehend aus der Kennung der Kampagne und der Kennung des E-Mail-Versands
 
-* **Inhaber**: Der in den Schritten nach der Bereitstellung erstellte Anwendungsbenutzer
+* **Verantwortlicher**: Der in den Schritten nach der Bereitstellung erstellte Anwender
 
-* **Zu**: Name der Kontaktperson
+* **Bezug**: Name des Kontakts
 
-* **Name** der Kampagne: Die Kampagnen-ID in Campaign Standard
+* **Kampagnenname**: Die Kennung der Kampagne in Campaign Standard
 
-* **Name** des Versands: Die Versand-ID in Campaign Standard
+* **Versandname**: Die Versandkennung in Campaign Standard
 
-* **Datum gesendet/geöffnet/angeklickt/abgeschnitten**: Datum/Uhrzeit der Erstellung des Ereignisses
+* **Datum von Gesendet/Geöffnet/Angeklickt/Bounce**: Datum/Uhrzeit der Erstellung des Ereignisses
 
 * **Tracking-URL**: URL, auf die geklickt wurde
 
-* **Mirrorseiten-URL**: Die URL zur Mirrorseite der E-Mail, die gesendet/geöffnet/angeklickt/abgeschnitten wurde. Die Gültigkeitsdauer der E-Mail-Mirrorseite kann im Konfigurationsbildschirm der entsprechenden Kampagne-E-Mail-Kanal-Aktivität geändert werden. [Weitere Informationen](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+* **URL der Mirrorseite**: Die URL zur Mirrorseite der E-Mail, die gesendet, geöffnet, angeklickt oder als Bounce zurückgesendet wurde. Die Gültigkeitsdauer der E-Mail-Mirrorseite kann im Konfigurationsbildschirm der entsprechenden E-Mail-Kanalaktivität in Campaign geändert werden. [Weitere Informationen](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
->Wenn ein Opt-out-Attribut in Microsoft Dynamics 365 geändert wird, wird es in der Kampagne angezeigt, wenn Sie die Abmeldekonfiguration **Unidirektional (Kampagne zu Microsoft Dynamics 365)** oder **Bidirektional** ausgewählt haben und wenn Sie dieses Attribut korrekt zugeordnet haben.
+>Bei Opt-outs: Wenn ein Opt-out-Attribut in Microsoft Dynamics 365 geändert wird, spiegelt sich das in Campaign wider, wenn Sie die Opt-out-Konfiguration **Unidirektional (Campaign zu Microsoft Dynamics 365)** oder **Bidirektional** gewählt haben und dieses Attribut korrekt zugeordnet wurde.
 
 ## Datenflüsse {#data-flows}
 
-### Kontakt- und benutzerdefinierte Entitätsdaten
+### Eingang von Kontakten und benutzerdefinierten Entitäten
 
-Neue, aktualisierte und gelöschte Datensätze (Hinweis: gelöschte muss aktiviert sein) werden von der Microsoft Dynamics 365 Kontakttabelle an die Tabelle Kampagne Profil gesendet.
+Neue, aktualisierte und gelöschte Datensätze (Hinweis: &quot;gelöscht&quot; muss aktiviert sein) werden von der Kontakttabelle in Microsoft Dynamics 365 an die Profiltabelle in Campaign gesendet.
 
-Tabellenzuordnungen können in der Benutzeroberfläche der Integrationsanwendung konfiguriert werden, um Microsoft Dynamics 365-Tabellenattribute Kampagne-Tabellenattributen zuzuordnen. Das Tabellen-Mapping kann nach Bedarf geändert werden, um Attribute hinzuzufügen bzw. zu entfernen.
+Tabellen-Mappings können in der Benutzeroberfläche der Integrationsanwendung so konfiguriert werden, dass die Tabellenattribute in Microsoft Dynamics 365 den Tabellenattributen in Campaign zugeordnet werden. Das Tabellen-Mapping kann nach Bedarf geändert werden, um Attribute hinzuzufügen bzw. zu entfernen.
 
-Die anfängliche Ausführung des Datenflusses ist so ausgelegt, dass alle zugeordneten Datensätze, einschließlich der als &quot;inaktiv&quot; gekennzeichneten Datensätze, übertragen werden; Anschließend verarbeitet die Integration nur inkrementelle Aktualisierungen. Eine Ausnahme bilden Daten, die wiedergegeben werden oder für die ein Filter konfiguriert ist. Es können einfache, attributbasierte Filterregeln konfiguriert werden, um zu bestimmen, welche Datensätze mit der Kampagne synchronisiert werden sollen.
+Die erste Ausführung des Datenflusses dient der Übertragung aller zugeordneten Datensätze, einschließlich der als &quot;inaktiv&quot; gekennzeichneten Datensätze. Anschließend verarbeitet die Integration nur inkrementelle Aktualisierungen. Eine Ausnahme besteht, wenn die Daten erneut abgespielt werden oder ein Filter konfiguriert ist. Es besteht die Möglichkeit, grundlegende, attributbasierte Filterregeln zu konfigurieren, um zu bestimmen, welche Datensätze mit Campaign synchronisiert werden sollen.
 
-Grundlegende Ersatzregeln können in der Benutzeroberfläche der Integrationsanwendung konfiguriert werden, um einen Attributwert durch einen anderen Wert zu ersetzen (z. B. &quot;grün&quot;für &quot;#00FF00&quot;, &quot;F&quot;für 1 usw.).
+Grundlegende Ersetzungsregeln können in der Benutzeroberfläche der Integrationsanwendung so konfiguriert werden, dass ein Attributwert durch einen anderen Wert ersetzt wird (z. B. &quot;grün&quot; für &quot;#00FF00&quot;, &quot;F&quot; für 1 usw.).
 
 Je nach Datensatzvolumen muss möglicherweise Ihr Campaign-SFTP-Speicher für die erste Datenübertragung verwendet werden. [Weitere Informationen](#initial-data-transfer).
 
@@ -134,9 +134,9 @@ Bei der Konfiguration benutzerdefinierter Entitätsdatenflüsse ist Folgendes zu
 
 Eine umfassendere Übersicht über benutzerdefinierte Campaign-Ressourcen finden Sie [in diesem Abschnitt](../../developing/using/key-steps-to-add-a-resource.md).
 
-### Email Marketing Ereignis Flow{#email-marketing-event-flow}
+### Ereignisfluss beim E-Mail-Marketing{#email-marketing-event-flow}
 
-E-Mail-Marketing-Ereignis werden von der Kampagne an Microsoft Dynamics 365 gesendet, um in der Timeline-Ansicht angezeigt zu werden.
+E-Mail-Marketing-Ereignisse werden von Campaign an Microsoft Dynamics 365 gesendet, um in der Timeline-Ansicht angezeigt zu werden.
 
 Unterstützte Marketing-Ereignistypen:
 * Versand: E-Mail an den Empfänger gesendet
@@ -144,7 +144,7 @@ Unterstützte Marketing-Ereignistypen:
 * Klick: Vom Empfänger angeklickte URL innerhalb der E-Mail
 * Bounce: E-Mail an Empfänger erfuhr einen Hardbounce
 
-Die folgenden Ereignis-Attribute werden in Dynamics 365 angezeigt:
+Die folgenden Ereignisattribute werden in Dynamics 365 angezeigt:
 * Name der Marketing-Kampagne
 * Name des E-Mail-Versands
 * Zeitstempel
@@ -153,24 +153,24 @@ Die folgenden Ereignis-Attribute werden in Dynamics 365 angezeigt:
 
 E-Mail-Marketing-Ereignisse können nach Typ (Versand, Öffnung, Klick, Bounce) aktiviert bzw. deaktiviert werden, sodass nur die von Ihnen ausgewählten Ereignistypen an Dynamics 365 übergeben werden.
 
-### Ausschluss-Fluss {#opt-out-flow}
+### Opt-out-Fluss {#opt-out-flow}
 
-Die Opt-out-Werte (z. B. Blockierungsliste) werden zwischen den Systemen synchronisiert. Während des Einstiegs (Onboarding) stehen folgende Optionen zur Auswahl:
+Die Opt-out-Werte (z. B. Blockierungsliste) werden zwischen den Systemen synchronisiert. Während des Onboardings stehen folgende Optionen zur Auswahl:
 
-* **Unidirektional (Microsoft Dynamics 365 zur Kampagne)**: Dynamics 365 ist eine Quelle der Wahrheit für Opt-out-Möglichkeiten. Ausschlussattribute werden in einer Richtung von Dynamics 365 auf den Campaign Standard synchronisiert.&quot;
-* **Unidirektional (Kampagne zu Microsoft Dynamics 365)**: Campaign Standard ist die Quelle der Wahrheit für Opt-out. Ausschlussattribute werden von Campaign Standard zu Dynamics 365 in eine Richtung synchronisiert.
-* **Bidirektional**: Dynamics 365 UND Campaign Standard sind beide Wahrheitsquellen. Ausschlussattribute werden bidirektional zwischen Campaign Standard und Dynamics 365 synchronisiert
+* **Unidirektional (Microsoft Dynamics 365 zu Campaign)**: Dynamics 365 ist die &quot;Source of Truth&quot; für Opt-outs. Opt-out-Attribute werden in einer Richtung von Dynamics 365 nach Campaign Standard synchronisiert.
+* **Unidirektional (Campaign zu Microsoft Dynamics 365)**: Campaign Standard ist die &quot;Source of Truth&quot; für Opt-outs. Opt-out-Attribute werden in einer Richtung von Campaign Standard nach Dynamics 365 synchronisiert.
+* **Bidirektional**: Dynamics 365 UND Campaign Standard sind beide &quot;Sources of Truth&quot;. Opt-out-Attribute werden bidirektional zwischen Campaign Standard und Dynamics 365 synchronisiert.
 
 Wenn Sie über einen separaten Prozess zum Verwalten der Opt-out-Synchronisation zwischen den Systemen verfügen, kann alternativ der Opt-out-Datenfluss der Integration deaktiviert werden.
 
 >[!NOTE]
 >
->In der Benutzeroberfläche der Integrationsanwendung werden die Anwendungsfälle **Unidirektional (Microsoft Dynamics 365 zu Kampagne)** und **Bidirektional** für die Abmeldung konfiguriert. [Weitere Informationen](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+>In der Benutzeroberfläche der Integrationsanwendung werden die Opt-out-Anwendungsfälle **Unidirektional (Microsoft Dynamics 365 zu Campaign)** und **Bidirektional** in einem separaten Opt-out-Workflow konfiguriert. [Weitere Informationen](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
->Der Fall für das Abmeldeverfahren **Unidirektional (Kampagne zu Microsoft Dynamics 365)** ist eine Ausnahme. Es wird im Ingress-Workflow (Kontakt mit Profil) konfiguriert.
+>Der Opt-out-Anwendungsfall **Unidirektional (Campaign zu Microsoft Dynamics 365)** ist eine Ausnahme. Er wird im Eingangs-Workflow (Kontakt zu Profil) konfiguriert.
 
 
-Das Mapping des Opt-out-Flusses muss vom Kunden festgelegt werden, da die Geschäftsanforderungen zwischen den Unternehmen unterschiedlich sein können. In Campaign können nur die OOTB-Opt-out-Attribute für das Opt-out-Mapping verwendet werden:
+Das Mapping des Opt-out-Flusses muss vom Kunden festgelegt werden, da die Geschäftsanforderungen von Unternehmen zu Unternehmen unterschiedlich sein können. In Campaign können nur die OOTB-Opt-out-Attribute für das Opt-out-Mapping verwendet werden:
 
 * denyList
 * denyListEmail
@@ -181,8 +181,8 @@ Das Mapping des Opt-out-Flusses muss vom Kunden festgelegt werden, da die Gesch�
 * denyListPushnotification
 * ccpaOptOut
 
-In Dynamics 365 haben die meisten Ausschluss-Felder das Präfix &quot;donot&quot;. Sie können jedoch auch andere Attribute für Ausschluss-Zwecke verwenden, wenn die Datentypen kompatibel sind.
+In Dynamics 365 haben die meisten Opt-out-Felder das Präfix &quot;donot&quot;. Sie können jedoch auch andere Attribute zu Opt-out-Zwecken nutzen, solange die Datentypen kompatibel sind.
 
 ### Erste Datenübertragung {#initial-data-transfer}
 
-Die anfängliche Datenübertragung kann eine Weile dauern, je nachdem, wie viele Datensätze Sie von Microsoft Dynamics 365 abrufen. Nach der ersten Datenübertragung werden die inkrementellen Aktualisierungen von der Integration übernommen.
+Die erste Datenübertragung kann eine Weile dauern, je nachdem, wie viele Datensätze Sie von Microsoft Dynamics 365 aufnehmen. Nach der ersten Datenübertragung übernimmt die Integrationsanwendung die inkrementellen Aktualisierungen. 
