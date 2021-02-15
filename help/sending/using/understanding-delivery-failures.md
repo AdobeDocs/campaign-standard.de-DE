@@ -6,11 +6,11 @@ description: Hier erfahren Sie, wie Sie Zustellprobleme in Campaign vermeiden k�
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1314'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Nachrichten können während der Versandvorbereitung auch ausgeschlossen werden,
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 * [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Fehlgeschlagene Sendungen für eine Nachricht identifizieren         {#identifying-delivery-failures-for-a-message}
+## Fehlgeschlagene Sendungen für eine Nachricht identifizieren          {#identifying-delivery-failures-for-a-message}
 
 Nachdem eine Nachricht gesendet wurde, können Sie im Tab **[!UICONTROL Versandlogs]** (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#sending-logs)) den Versandstatus für jedes Profil sowie den damit verbundenen Fehlertyp und die Ursache einsehen (siehe [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons)).
 
@@ -57,18 +57,18 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 | Bezeichnung des Fehlers | Fehlertyp | Beschreibung |
 ---------|----------|---------
 | **[!UICONTROL Unbekannter Nutzer]** | Hard | Die Adresse existiert nicht. An dieses Profil werden keine weiteren Zustellversuche unternommen. |
-| **[!UICONTROL Adresse in Quarantäne]** | hart | Die Adresse wurde unter Quarantäne gestellt. |
+| **[!UICONTROL Adresse in Quarantäne]** | Hard | Die Adresse wurde unter Quarantäne gestellt. |
 | **[!UICONTROL Unerreichbar]** | Softbounce / Hardbounce | In der Versandkette der Nachricht ist ein Fehler aufgetreten (zum Beispiel zeitweilig unerreichbare Domain). Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
-| **[!UICONTROL Adresse leer]** | hart | Die Adresse ist nicht definiert. |
+| **[!UICONTROL Adresse leer]** | Hard | Die Adresse ist nicht definiert. |
 | **[!UICONTROL Postfach voll]** | Soft | Das Postfach dieses Benutzers ist voll und kann keine weiteren Nachrichten akzeptieren. Die Adresse kann aus der Quarantäne genommen werden, um einen erneuten Zustellversuch zu unternehmen. Diese Liste wird automatisch nach 30 Tagen entfernt. Damit die Adresse automatisch aus der Quarantäne genommen werden kann, muss der technische Workflow **[!UICONTROL Datenbankbereinigung]** gestartet sein. |
 | **[!UICONTROL Zurückgewiesen]** | Softbounce / Hardbounce | Die Adresse wurde wegen eines Sicherheits-Feedbacks unter Quarantäne gestellt, da die Nachricht als Spam gemeldet wurde. Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
 | **[!UICONTROL Dublette]** | Ignoriert | Die Adresse wurde in der Segmentierung bereits erkannt. |
-| **[!UICONTROL Unbestimmt]** | Weich | Die Adresse wird qualifiziert, da die Fehler noch nicht inkrementiert wurden. Dieser Fehlertyp tritt auf, wenn der Server eine bis dahin unbekannte Fehlermeldung sendet: Hierbei kann es sich um einen einmaligen Fehler handeln. Sollte er sich jedoch wiederholen, wird der Fehlerzähler erhöht, was die zuständigen technischen Mitarbeiter auf das Problem aufmerksam macht. |
+| **[!UICONTROL Unbestimmt]** | Soft | Die Adresse wird qualifiziert, da die Fehler noch nicht inkrementiert wurden. Dieser Fehlertyp tritt auf, wenn der Server eine bis dahin unbekannte Fehlermeldung sendet: Hierbei kann es sich um einen einmaligen Fehler handeln. Sollte er sich jedoch wiederholen, wird der Fehlerzähler erhöht, was die zuständigen technischen Mitarbeiter auf das Problem aufmerksam macht. |
 | **[!UICONTROL Fehler ignoriert]** | Ignoriert | Die Adresse befindet sich auf der Zulassungsliste und es wird in jedem Fall eine E-Mail gesendet. |
-| **[!UICONTROL Adresse auf Blockierungsliste]** | hart | Die Adresse wurde zum Zeitpunkt des Versands der Blockierungsliste hinzugefügt. |
+| **[!UICONTROL Adresse auf Blockierungsliste]** | Hard | Die Adresse wurde zum Zeitpunkt des Versands der Blockierungsliste hinzugefügt. |
 | **[!UICONTROL Konto deaktiviert]** | Softbounce / Hardbounce | Wenn das Konto längere Zeit nicht abgefragt wird, kann es vom Internetanbieter geschlossen werden, was den Versand an diese Empfängeradresse unmöglich macht. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]** zugewiesen und der Zustellversuch wird wiederholt. Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt. |
 | **[!UICONTROL Nicht angemeldet]** | Ignoriert | Das Mobiltelefon des Profils war beim Versand der Nachricht ausgeschaltet oder verfügte über keinen Netzempfang. |
-| **[!UICONTROL Ungültige Domain]** | Weich | Die Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
+| **[!UICONTROL Ungültige Domain]** | Soft | Die Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
 | **[!UICONTROL Text zu lang]** | Ignoriert | Die Zeichenanzahl der SMS-Nachricht übersteigt das Limit. Weiterführende Informationen dazu finden Sie im Abschnitt [Kodierung, Länge und Tansliteration von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Zeichen wird in der Kodierung nicht unterstützt]** | Ignoriert | Die SMS-Nachricht enthält ein oder mehrere Zeichen, die von der Kodierung nicht unterstützt werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Zeichensatztabelle - GSM-Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
@@ -76,7 +76,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
-Die Anzahl der weitere Zustellversuche (wie viele weitere Zustellversuche am Tag nach dem Start des Versands ausgeführt werden sollen) und die minimale Verzögerung zwischen den weiteren Zustellversuchen richtet sich nun danach, wie gut eine IP sowohl historisch als auch aktuell in einer bestimmten Domäne läuft. <!--managed by the Adobe Campaign Enhanced MTA,--> Die Einstellungen für **weitere Zustellversuche** in Campaign werden ignoriert.
+Die Anzahl der weiteren Versuche (wie viele weitere Zustellversuche am Tag nach dem Start des Versands ausgeführt werden sollen) und das Mindestintervall zwischen Verarbeitungsversuchen werden nun <!--managed by the Adobe Campaign Enhanced MTA,--> und hängen davon ab, wie gut eine IP-Adresse in einer bestimmten Domain sowohl historisch als auch aktuell abschneidet. Die Einstellungen für **weitere Zustellversuche** in Campaign werden ignoriert.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -86,13 +86,13 @@ Um die Dauer eines Versands zu ändern, gehen Sie zu den erweiterten Parametern 
 >
 >**Der Parameter**[!UICONTROL  Versandlaufzeit ]**in Ihren Campaign-Sendungen wird jetzt nur verwendet, wenn er 3,5 Tage oder weniger beträgt.** Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
 
-Wenn Sie beispielsweise möchten, dass weitere Zustellversuche für einen Versand nach einem Tag anhalten, können Sie die Dauer des Versands auf **1d** festlegen und die Meldungen in der Warteschlange zum Wiederholen werden nach einem Tag entfernt.
+Wenn Sie beispielsweise möchten, dass weitere Zustellversuche für einen Versand nach einem Tag gestoppt werden, können Sie die Versandlaufzeit mit **1d** festlegen. Die Nachrichten in der Wiederholungswarteschlange werden daraufhin nach einem Tag entfernt.
 
 <!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->Sobald sich eine Nachricht seit maximal 3,5 Tagen in der Warteschlange für Wiederholungen befindet und die Bereitstellung fehlgeschlagen ist, wird sie mit einem Timeout beendet und ihr Status wird auf <!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Fehlgeschlagen]** in den [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs) aktualisiert.
+>Nachdem eine Nachricht maximal 3,5 Tage lang in der Wiederholungswarteschlange war und nicht gesendet werden konnte, wird sie mit einer Zeitüberschreitung beendet. Ihr Status wird <!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Fehlgeschlagen]** geändert (in den [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs)).
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -105,7 +105,7 @@ Ein Versand kann sofort fehlschlagen (synchroner Fehler) oder zu einem späteren
 
 ## Bounce-Message-Qualifizierung          {#bounce-mail-qualification}
 
-Bei Fehlermeldungen mit Fehlern beim synchronen Versand bestimmt das Adobe Campaign Enhanced MTA (Message Transfer Agent) den Absprungtyp und die Absprungberechtigung und sendet diese Informationen an die Kampagne zurück.
+Bei Fehlermeldungen zu synchronen Versandfehlern bestimmt der erweiterte MTA (Message Transfer Agent) von Adobe Campaign den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück.
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Optimieren der E-Mail-Zustellbarkeit mit dem Dublette-Opt-in-Mechanismus {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Zustellbarkeit von E-Mails durch die Anmeldung mit zweifacher Bestätigung optimieren {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Die Anmeldung mit zweifacher Bestätigung zählt zu den Best Practices beim E-Mail-Versand. Die Plattform wird dadurch vor falschen oder ungültigen E-Mail-Adressen und Spambots geschützt, wodurch Spam-Beschwerden verhindert werden.
 
