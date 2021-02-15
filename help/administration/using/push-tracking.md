@@ -7,11 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df1ec680d0efcf69a00128a876a2e14ba0f6e771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 81%
 
 ## Informationen zu Push-Tracking {#about-push-tracking}
 
-Um sicherzustellen, dass die Push-Benachrichtigung vollständig entwickelt wurde, müssen Sie sicherstellen, dass der Verfolgungsabschnitt korrekt implementiert wurde, da nicht bei jeder Push-Benachrichtigung die Verfolgung aktiviert wurde. Um dies zu aktivieren, müssen Entwickler identifizieren, welche Versand die Verfolgung aktiviert haben, sendet Adobe Campaign Standard ein Flag mit dem Namen `_acsDeliveryTracking` mit zwei Werten **on** oder **off**. Der App-Entwickler sollte eine Verfolgungsanfrage nur auf Versänden senden, für die die Variable **auf** eingestellt ist.
+Damit die Push-Benachrichtigung vollständig eingerichtet ist, müssen Sie darauf achten, dass das Tracking korrekt implementiert wurde, da nicht bei jeder Push-Benachrichtigung das Tracking aktiviert ist. Zu diesem Zweck müssen Entwickler feststellen, bei welchen Sendungen das Tracking aktiviert ist. Adobe Campaign Standard sendet ein Flag mit dem Namen `_acsDeliveryTracking` mit den zwei Werten: **on** oder **off**. Der App-Entwickler sollte eine Tracking-Anfrage nur für Sendungen senden, deren Variable aktiviert ist (**on**).
 
 >[!IMPORTANT]
 >
->Diese Variable steht nicht für Versand zur Verfügung, die vor der Version 21.1 eingestellt wurden, oder für Versand, die benutzerdefinierte Vorlagen verwenden.
+>Diese Variable ist nicht verfügbar für Sendungen, die vor Version 21.1 eingerichtet wurden, oder für Sendungen, die benutzerdefinierte Vorlagen verwenden.
 
 Das Push-Tracking ist in drei Typen unterteilt:
 
@@ -50,7 +50,7 @@ Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon
 
 Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot; senden, wenn die Funktion **[!UICONTROL trackAction()]** aufgerufen wird.
 
-Versand, die vor Version 21.1 erstellt wurden, oder Versand mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
+Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -91,7 +91,7 @@ Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
 
 Dazu müssen Sie zwei Intents verwenden: eine zum Klicken auf die Benachrichtigung und eine andere zum Verwerfen der Benachrichtigung.
 
-Versand, die vor Version 21.1 erstellt wurden, oder Versand mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
+Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -174,7 +174,7 @@ Um das Öffnen verfolgen zu können, müssen Sie einen Intent erstellen. Intent-
 
 Dieser Code basiert auf der Implementierung des Klick-Impression-Tracking. Mit festgelegtem **[!UICONTROL Intent]** müssen Sie jetzt Tracking-Daten zurück an Adobe Campaign Standard senden. In diesem Fall müssen Sie den **[!UICONTROL Öffnungs-Intent]** so definieren, dass eine bestimmte Ansicht in Ihrer App geöffnet wird. Dadurch wird die onResume-Methode mit den Benachrichtigungsdaten im **[!UICONTROL Intent-Objekt]** aufgerufen.
 
-Versand, die vor Version 21.1 erstellt wurden, oder Versand mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
+Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -240,7 +240,7 @@ Damit das **[!UICONTROL Impression]**-Tracking auch dann funktioniert, wenn sich
 >
 >Das Impression-Tracking in iOS ist nicht präzise und sollte nicht als zuverlässig betrachtet werden.
 
-Versand, die vor Version 21.1 erstellt wurden, oder Versand mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
+Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
 Der folgende Code richtet sich an die App im Hintergrund:
 
@@ -297,7 +297,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 ### Implementieren des Klick-Tracking {#push-click-tracking-iOS}
 
 Für das Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot; senden, wenn die Funktion **[!UICONTROL trackAction()]** aufgerufen wird.
-Versand, die vor Version 21.1 erstellt wurden, oder Versand mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
+Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 // AppDelegate.swift
@@ -369,7 +369,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Anwender zum Öffnen der App zunächst auf die Benachrichtigung klicken muss. Wenn die App nicht über eine Push-Benachrichtigung gestartet/geöffnet wird, treten keine Tracking-Ereignisse auf.
 
-Versand, die vor Version 21.1 erstellt wurden, oder Versand mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
+Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 import Foundation
