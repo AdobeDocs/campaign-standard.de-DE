@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2196'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -118,9 +118,9 @@ In diesem Tab können Sie den Endpunkt der Verbindung definieren. Mit dem Feld *
 
 Falls der Endpunkt dies benötigt, stehen zwei Authentifizierungsmechanismen zur Verfügung:
 
-* Grundlegende Authentifizierung: Geben Sie Ihre Benutzernamen-/Kennwortinformationen im Abschnitt **[!UICONTROL Anforderungsheader(s)]** ein.
+* Einfache Authentifizierung: Geben Sie in den Abschnitt **[!UICONTROL Header abrufen]** Ihren Benutzernamen und Ihr Passwort ein.
 
-* OAuth-Authentifizierung: Durch Klicken auf die in einem Externe Konto definierten Verbindungsparameter verwenden können Sie ein Externe Konto auswählen, in dem die OAuth-Authentifizierung definiert ist. **** Weiterführende Informationen hierzu finden Sie im Abschnitt [Externe Konten](../../administration/using/external-accounts.md).
+* OAuth-Authentifizierung: Durch Klicken auf **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** können Sie ein externes Konto auswählen, in dem die OAuth-Authentifizierung definiert ist. Weiterführende Informationen hierzu finden Sie im Abschnitt [Externe Konten](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -156,9 +156,9 @@ Dieser Tab ist in den meisten Workflow-Aktivitäten verfügbar. Lesen Sie für w
 
 ![](assets/externalAPI-options.png)
 
-## Test
+## Testen
 
-Zum Testen der Funktion der externen API mit einem einfachen Testendpunkt können Sie Postman Echo verwenden: https://docs.postman-echo.com.
+Wenn Sie die Funktionalität der externen API mit einem einfachen Test-Endpunkt testen möchten, können Sie Postman Echo verwenden: https://docs.postman-echo.com.
 
 ## Fehlerbehebung
 
@@ -260,7 +260,7 @@ In diesen Lognachrichten werden Informationen zu unerwarteten Fehlerbedingungen 
    <td> <p>HTTP-Header-Schlüssel ist nicht erlaubt (Header-Schlüssel: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Ein HTTP-Header-Wert ist ungültig (Header-Wert: '%s').</td> 
+   <td> WKF-560247 - HTTP-Header-Wert ist ungültig (Header-Wert: '%s').</td> 
    <td> <p>HTTP-Header-Wert ist ungültig (Header-Wert: '%s'). </p>
     <p>Hinweis: Dieser Fehler wird protokolliert, wenn der benutzerdefinierte Header-Wert die <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>-Validierung nicht besteht.</p></td> 
   </tr> 
