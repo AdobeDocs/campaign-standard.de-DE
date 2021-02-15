@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 3a87f15ee7e934c39224cd7f64aafb80d73b433b
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Workflow mit externen Parametern anpassen       {#customizing-a-workflow-with-external-parameters}
+# Workflow mit externen Parametern anpassen        {#customizing-a-workflow-with-external-parameters}
 
 Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen aufgenommen und können zur Anpassung der Workflow-Aktivitäten verwendet werden.
 
 So kann mit ihnen beispielsweise definiert werden, welche Audience in der Aktivität **[!UICONTROL Audience lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu transferierenden Datei lautet. (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
 
-## Verwendung von Ereignisvariablen        {#using-events-variables}
+## Verwendung von Ereignisvariablen         {#using-events-variables}
 
 Ereignisvariablen werden innerhalb eines Ausdrucks verwendet, der die [Standardsyntax](../../automating/using/advanced-expression-editing.md#standard-syntax) berücksichtigen muss.
 
@@ -63,11 +63,11 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
    | DateFormat | Formatiert ein Datum mit dem im 2. Parameter angegebenen Format (Beispiel: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
    | FileName | Gibt den Namen eines Dateipfads zurück. | FileName(&lt;String>) |
    | FileExt | Gibt die Erweiterung eines Dateipfads zurück. | FileExt(&lt;String>) |
-   | GetOption | Gibt den Wert der angegebenen Funktion zurück. | GetOption(&lt;optionName>) |
+   | GetOption | Gibt den Wert der angegebenen Funktion zurück. | GetOption(&lt;optionName>)) |
    | IsNull | Gibt an, ob eine Zeichenfolge oder ein Datum null ist. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | Kodiert eine URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 
-## Aktivitäten mit Ereignisvariablen anpassen        {#customizing-activities-with-events-variables}
+## Aktivitäten mit Ereignisvariablen anpassen         {#customizing-activities-with-events-variables}
 
 Die im folgenden Abschnitt aufgelisteten Aktivitäten können mit Ereignisvariablen angepasst werden. Weiterführende Informationen zum Aufruf einer Variablen in einer Aktivität finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
