@@ -7,11 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Für jeden Kontakt in Ihrer Datenbank ist ein integriertes Kundenprofil verfügb
 
 Um auf das integrierte Kundenprofil zuzugreifen, gehen Sie folgendermaßen vor:
 
-1. Klicken Sie in der Startseite &quot;Adobe Campaign&quot;auf die Karte **[!UICONTROL Kundendaten]** oder auf die Registerkarte **Profil**, um die Liste der Profil anzuzeigen.
+1. Öffnen Sie auf der Adobe Campaign-Startseite die Karte **[!UICONTROL Kundenprofile]** oder den Tab **Profile**, um die Profilliste anzuzeigen.
 
 1. Um ein Profil anhand eines bestimmten Felds zu suchen, öffnen Sie den Suchbereich und wählen Sie das Feld aus, in dem Sie die Suche durchführen möchten.
 
@@ -33,9 +33,9 @@ Um auf das integrierte Kundenprofil zuzugreifen, gehen Sie folgendermaßen vor:
 
    >[!NOTE]
    >
-   >Beachten Sie, dass Suchvorgänge auf Basis der Felder für E-Mail, Vorname und Nachname sowie der benutzerdefinierten Felder durchgeführt werden können, die beim Erweitern der Ressource hinzugefügt wurden.
+   >Beachten Sie, dass Suchvorgänge basierend auf den Feldern &quot;E-Mail&quot;, &quot;Vorname&quot; und &quot;Nachname&quot; sowie auf benutzerdefinierten Feldern durchgeführt werden können, die beim Erweitern der Ressource hinzugefügt wurden.
    >
-   >Bei Suchvorgängen wird die Groß-/Kleinschreibung beachtet und nur bei Präfixen ausgeführt. So können Sie z. B. nicht mit den letzten Briefen seines Nachnamens nach einem Profil suchen.
+   >Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, und es wird nur nach Präfixen gesucht. Sie können z. B. nicht anhand der letzten Buchstaben des Nachnamens nach einem Profil suchen.
 
 1. Wählen Sie einen Kontakt aus, um sein Profil zu öffnen.
 
@@ -45,7 +45,7 @@ Sie werden zum **Marketingverlauf** des Profils weitergeleitet.
 
 Auf dieser Seite werden Schlüsselinformationen zum Profil sowie die Liste der Ereignisse erfasst.
 
-Klicken Sie auf ein Ereignis in der Liste, um es zu öffnen: Sie können auf die Nachrichten zugreifen, die gesendet wurden, oder auf die Dienste, die das Profil abonniert hat.
+Klicken Sie auf ein Ereignis in der Liste, um es zu öffnen. Dort können Sie auf die gesendeten Nachrichten oder die vom Profil abonnierten Dienste zugreifen.
 
 ![](assets/mkt_hist_view.png)
 
