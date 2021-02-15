@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie E-Mails mit Adobe Campaign Standard unter Ver
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Nachdem die Aktivierung durchgeführt wurde, aktivieren Sie E-Mail-BCC in der E-
 >
 >Adobe Campaign selbst ermöglicht keine Verwaltung von archivierten Dateien. Sie können aber die gewünschten Nachrichten an eine bestimmte Adresse senden, wo sie mithilfe eines externen Systems verarbeitet und archiviert werden.
 
-## Empfehlungen und Einschränkungen         {#recommendations-and-limitations}
+## Empfehlungen und Einschränkungen          {#recommendations-and-limitations}
 
 * Hierbei handelt es sich um eine optionale Funktion. Bitte prüfen Sie Ihren Lizenzvertrag und kontaktieren Sie den Ansprechpartner für Ihr Konto, um diese Funktion zu aktivieren.
 * Die gewünschte BCC-Adresse muss dem Adobe-Team übermittelt werden, das die Adresse für Sie konfigurieren wird.
@@ -38,7 +38,7 @@ Nachdem die Aktivierung durchgeführt wurde, aktivieren Sie E-Mail-BCC in der E-
 
 >[!NOTE]
 >
->Derzeit können die archivierten E-Mails nicht mit dem Adobe Campaign Enhanced MTA gesendet werden.
+>Derzeit können die archivierten E-Mails nicht mit dem erweiterten MTA von Adobe Campaign gesendet werden.
 
 ## E-Mail-Archivierung aktivieren          {#activating-email-archiving}
 
