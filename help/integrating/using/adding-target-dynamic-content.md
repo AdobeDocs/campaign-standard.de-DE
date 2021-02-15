@@ -6,11 +6,11 @@ description: Hier erfahren Sie, wie Sie dynamischen Inhalt von Adobe Target in A
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Bevor Sie auf das Bild in Adobe Campaign zugreifen, müssen Sie die folgenden Sc
 
 1. Sehen Sie sich die Vorschau der E-Mail an, um festzustellen, ob je nach ausgewähltem Profil das angezeigte Bild wechselt. Die Anzeige erfolgt in Abhängigkeit von den Parametern, die in Adobe Campaign und in der Aktivität in Adobe Target konfiguriert wurden.
 
-Ihr Versand mit dem dynamischen Bild kann jetzt gesendet werden. Die Ergebnisse sind in Adobe Target zu sehen.
+Ihr Versand mit dem dynamischen Bild kann jetzt durchgeführt werden. Die Ergebnisse sind in Adobe Target zu sehen.
 
 **Verwandte Themen:**
 
