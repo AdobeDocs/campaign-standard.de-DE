@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereig
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 * [Workflow mit externen Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-## Konfiguration     {#configuration}
+## Konfiguration      {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Test]**-Aktivität in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
@@ -49,7 +49,7 @@ Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereig
 
    * ![](assets/extsignal_picker.png): Wählen Sie die Ereignisvariable aus den im Workflow verfügbaren Variablen aus (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md))..
 
-      Beispielsweise können Sie die Anzahl der heruntergeladenen Dateien nach einer [Dateiübertragung](../../automating/using/transfer-file.md)-Aktivität mit der Variablen **[!UICONTROL filesCount]** überprüfen.
+      Beispielsweise können Sie die Anzahl der heruntergeladenen Dateien nach einer [Dateiübertragungsaktivität](../../automating/using/transfer-file.md) mit der Variablen **[!UICONTROL filesCount]** überprüfen.
 
       ![](assets/wkf_test_activity_variables.png)
 
