@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie Ihr Daten-Mapping aktivieren
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um das XDM-Schema zu aktualisieren:
 
 1. Navigieren Sie zu Ihrem XDM-Schema.
 
-1. hinzufügen Sie die **[!UICONTROL Profil Privacy]**-Mischung mit dem Schema.
+1. Fügen Sie dem Schema das Mixin **[!UICONTROL Profile Privacy]** hinzu.
 
    ![](assets/aep_datamapping_privacyfield.png)
 
