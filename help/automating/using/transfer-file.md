@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -138,13 +138,13 @@ Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angege
 
 Beispiel:
 
-`user&lt;yourinstancename>/my_recipients.csv` richtig ist.
+`user&lt;yourinstancename>/my_recipients.csv` Ist richtig.
 
 `../hello/my_recipients.csv` ist falsch.
 
 `//myserver/hello/myrecipients.csv` ist falsch.
 
-## Verlaufsparameter         {#historization-settings}
+## Verlaufsparameter          {#historization-settings}
 
 Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wird, werden die hoch- oder heruntergeladenen Dateien in einem bestimmten Ordner gespeichert. Für jede Aktivität **[!UICONTROL Dateiübertragung]** in einem Workflow wird ein Ordner erstellt. Deshalb ist es wichtig, die Größe dieses Ordners zu begrenzen, um physischen Platz auf dem Server zu sparen.
 
@@ -164,9 +164,9 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 
 ## Ausgabevariablen {#output-variables}
 
-Die Aktivität **[!UICONTROL Übertragungsdatei]** generiert Ereignis-Variablen als Ausgabe, die Sie in anderen Aktivitäten nutzen können, z. B. um die Anzahl der heruntergeladenen Dateien mit einer Aktivität [Test](../../automating/using/test.md) zu überprüfen.
+Die Aktivität **[!UICONTROL Dateiübertragung]** erzeugt Ereignisvariablen als Ausgabe, die Sie in anderen Aktivitäten nutzen können, z. B., um die Anzahl der heruntergeladenen Dateien mit der Aktivität [Test](../../automating/using/test.md) zu überprüfen.
 
-Beachten Sie, dass Ereignis-Variablen auch über ein externes Signal an einen anderen Workflow übergeben werden können (siehe [Anpassen eines Workflows mit externen Parametern](../../automating/using/customizing-workflow-external-parameters.md)).
+Beachten Sie, dass Ereignisvariablen auch über ein externes Signal an einen anderen Workflow übergeben werden können (siehe [Workflow mit externen Parametern anpassen](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Verfügbare Ausgabevariablen sind:
 
