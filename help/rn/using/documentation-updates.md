@@ -25,19 +25,19 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 E-Mail-Feedback-Dienst - [Weitere Informationen](../../sending/using/confirming-the-send.md#message-indicators)
 
-Verbesserungen bei der Integration mit Adobe Experience Manager – [mehr dazu](../../integrating/using/creating-multilingual-email-aem.md)
+Verbesserungen bei der Adobe Experience Manager-Integration – [mehr dazu](../../integrating/using/creating-multilingual-email-aem.md)
 
 Einheitliche Experience Cloud-Benutzeroberfläche – [mehr dazu](../../start/using/interface-description.md#top-bar)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Es wurden Informationen zur Suche nach einem Profil basierend auf E-Mail, Vorname, Nachname oder einem benutzerdefinierten Feld hinzugefügt. [Mehr dazu](../../audiences/using/integrated-customer-profile.md)
+Es wurden Informationen hinzugefügt, die beschreiben, wie anhand der E-Mail, des Vornamens, des Nachnamens oder eines beliebigen benutzerdefinierten Felds nach einem Profil gesucht werden kann. [Mehr dazu](../../audiences/using/integrated-customer-profile.md)
 
-Es wurden Informationen zur neuen GetOption-Funktion hinzugefügt, mit der Sie den Wert einer bestimmten Funktion zurückgeben können, wenn ein Workflow mit externen Parametern aufgerufen wird. [Mehr dazu](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+Es wurden Informationen über die neue Funktion GetOption hinzugefügt, mit der Sie den Wert einer bestimmten Funktion zurückgeben können, wenn Sie einen Workflow mit externen Parametern aufrufen. [Mehr dazu](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-Es wurden Informationen zur neuen Ausgabevariable **[!UICONTROL filesCount]** hinzugefügt, die nach der Verwendung einer **[!UICONTROL Dateiübertragungsaktivität]** verfügbar ist. [Mehr dazu](../../automating/using/transfer-file.md#output-variables)
+Es wurden Informationen über die neue Ausgabevariable **[!UICONTROL filesCount]** hinzugefügt, die nach Verwendung der Aktivität **[!UICONTROL Dateiübertragung]** verfügbar ist. [Mehr dazu](../../automating/using/transfer-file.md#output-variables)
 
-Der Abschnitt **E-Mail-Kanal konfigurieren** wurde aktualisiert, um die neuesten E-Mail-Einstellungen zu erläutern. Einige ältere Parameter, die für bestimmte Kunden noch verwendet werden, werden unten auf der Seite aufgelistet. [Mehr dazu](../../administration/using/configuring-email-channel.md)
+Der Abschnitt **E-Mail-Kanal konfigurieren** wurde aktualisiert, um zu verdeutlichen, was die neuesten anwendbaren E-Mail-Einstellungen sind. Einige ältere Parameter, die für bestimmte Kunden noch verwendet werden, werden unten auf der Seite aufgelistet. [Mehr dazu](../../administration/using/configuring-email-channel.md)
 
 ## Dezember 2020 {#doc-updates-december-2020}
 
