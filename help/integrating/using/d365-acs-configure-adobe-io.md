@@ -4,34 +4,34 @@ description: Erfahren Sie, wie Sie Adobe I/O für die Integration mit Microsoft 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Campaign Standard und Adobe I/O Configuration for the Microsoft Dynamics 365 integration
+# Konfiguration von Adobe Campaign Standard und Adobe I/O für die Integration mit Microsoft Dynamics 365
 
-In diesem Artikel wird erläutert, wie Adobe Campaign Standard und Adobe I/O so konfiguriert werden, dass die Integrationsanwendung Zugriff auf die Daten erhält.
+In diesem Artikel wird erläutert, wie Adobe Campaign Standard und Adobe I/O konfiguriert werden müssen, damit die Integrationsanwendung auf die Daten zugreifen kann.
 
-## Adobe Campaign Standard {#campaign-standard} konfigurieren
+## Adobe Campaign Standard konfigurieren {#campaign-standard}
 
-### Profil-Erweiterungen
+### Profilerweiterungen
 
-Bitte aktivieren Sie &quot;Profil Extensions&quot;in Adobe Campaign Standard.   Dies ist erforderlich, damit benutzerdefinierte Felder in der Profil-Ressource von Microsoft Dynamics 365 synchronisiert werden können.   Die Schritte zur Aktivierung dieser Funktionen sind:
+Bitte aktivieren Sie in Adobe Campaign Standard Profilerweiterungen.   Dies ist erforderlich, damit benutzerdefinierte Felder in der Profilressource von Microsoft Dynamics 365 synchronisiert werden können.   Die Aktivierungsschritte sind:
 
-1. Gehen Sie zu Einstellungen -> Administration -> Entwicklung -> Veröffentlichung.
-1. Klicken Sie auf &quot;Veröffentlichung vorbereiten&quot;, um eine Veröffentlichung vorzubereiten.
-1. Markieren Sie nach Abschluss der Vorbereitung die Option &quot;Profils &amp; Services Ext API erstellen&quot;und klicken Sie auf &quot;Veröffentlichen&quot;.
+1. Gehen Sie zu &quot;Einstellungen&quot; > &quot;Administration&quot; > &quot;Entwicklung&quot; > &quot;Veröffentlichung&quot;.
+1. Klicken Sie auf &quot;Publikation vorbereiten&quot;, um eine Veröffentlichung vorzubereiten.
+1. Nachdem die Vorbereitung abgeschlossen ist, aktivieren Sie &quot;Die Profiles &amp; Services Ext API erstellen&quot; und klicken Sie auf &quot;Veröffentlichen&quot;.
 
 ## Adobe I/O konfigurieren {#adobe-io}
 
-Mit Adobe I/O können Sie den API-Zugriff auf Adobe Campaign Standard- und andere Adoben aktivieren.   In diesem Artikel wird erläutert, wie Adobe I/O so konfiguriert werden kann, dass die Adobe Campaign Standard-Integration mit Microsoft Dynamics 365 Zugriff auf die Synchronisierung der Daten erhält.
+Mit Adobe I/O können Sie den API-Zugriff auf Adobe Campaign Standard sowie auf andere Adobe-Produkte aktivieren.   In diesem Artikel wird detailliert beschrieben, wie Sie Adobe I/O konfigurieren, um der Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 Zugriff zum Synchronisieren der Daten zu gewähren.
 
-### Übersicht  
+### Übersicht
 
 Bevor Sie die Einrichtungsschritte vor der Integration in diesem Artikel durchführen, wird davon ausgegangen, dass Sie bereits Administratorrechte für die Campaign Standard-Instanz Ihres Unternehmens erhalten haben.  Ist dies nicht der Fall, setzen Sie sich mit der Adobe-Kundenunterstützung in Verbindung, um die Bereitstellung von Campaign abzuschließen.
 
@@ -99,8 +99,8 @@ Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.
 
 **Verwandte Themen**
 
-* [Adobe IO für Microsoft Dynamics 365 ](../../integrating/using/d365-acs-configure-adobe-io.md) Integration konfigurieren ist der nächste Schritt bei der Einrichtung der Integration
-* [Die Übersicht über ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) die Integration-Selbstbedienungsanwendung enthält die vollständige Liste der Schritte, um die Integration in die Praxis umzusetzen.
+* Das [Konfigurieren von Adobe I/O für die Integration mit Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration.
+* Die [Übersicht über die Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.
 
 
 * [Adobe IO – Integration von Dienstkonten](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
