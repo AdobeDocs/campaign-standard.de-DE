@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1166'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ In bestimmten Situationen müssen Sie möglicherweise mehr als 20 Workflows ausf
 
 >[!NOTE]
 >
->Vor dem Starten eines Workflows überprüft [!DNL Campaign Standard], ob genügend Systemspeicher vorhanden ist, um den Workflow auszuführen. Wenn nicht genügend Arbeitsspeicher zur Verfügung steht, wird eine Meldung angezeigt, dass die Ausführung des Arbeitsablaufs verzögert wird, bis die Belastung des Servers zurückgeht und der Systemspeicher zunimmt.
+>Vor dem Starten eines Workflows überprüft [!DNL Campaign Standard], ob genügend Systemspeicher vorhanden ist, um den Workflow auszuführen. Wenn nicht genügend Speicher verfügbar ist, wird eine Meldung angezeigt, in der Sie darüber informiert werden, dass die Ausführung des Workflows verzögert wird, bis die Auslastung des Servers sinkt und wieder mehr Systemspeicher vorhanden ist.
 
 ### Häufigkeit
 
