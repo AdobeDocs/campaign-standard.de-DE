@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ Nur Benutzer mit der Benutzerrolle **[!UICONTROL Sendungen starten]** können de
 
 ## Nachricht senden {#sending-message}
 
-Nachdem die Vorbereitung abgeschlossen ist, befolgen Sie die folgenden Schritte, um Ihre Nachricht zu senden.
+Nachdem die Vorbereitung abgeschlossen ist, führen Sie die folgenden Schritte aus, um Ihre Nachricht zu senden.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Senden]** bestätigen in der Aktionsleiste der Nachricht.
+1. Klicken Sie in der Symbolleiste Ihrer Nachricht auf die Schaltfläche **[!UICONTROL Versand bestätigen]**.
 
    ![](assets/confirm_delivery.png)
 
-1. Schließen Sie den Senden ab, indem Sie auf die Schaltfläche **[!UICONTROL OK]** klicken.
+1. Schließen Sie den Sendevorgang ab, indem Sie auf die Schaltfläche **[!UICONTROL OK]** klicken.
 
    ![](assets/confirm_delivery1.png)
 
@@ -44,11 +44,11 @@ Nachdem die Vorbereitung abgeschlossen ist, befolgen Sie die folgenden Schritte,
 >
 >Wenn die Nachricht terminiert wurde, wird sie gesendet, sobald der Zeitpunkt erreicht wurde. Weiterführende Informationen zum Terminieren von Nachrichten finden Sie in [diesem Abschnitt](../../sending/using/about-scheduling-messages.md).
 
-Wenn Sie einen wiederkehrenden Versand ohne Aggregat-Zeitraum verwenden, können Sie vor dem Senden der Nachrichten eine Bestätigung anfordern. Öffnen Sie dazu beim Konfigurieren der Nachricht den Block **[!UICONTROL Plan]** des Versand-Dashboards und aktivieren Sie die dedizierte Option.
+Wenn Sie einen wiederkehrenden Versand ohne Aggregat-Zeitraum verwenden, können Sie vor dem Senden der Nachrichten eine Bestätigung anfordern. Öffnen Sie dazu bei der Konfiguration Ihrer Nachricht im Versand-Dashboard die Kachel **[!UICONTROL Planung]** und aktivieren Sie die entsprechende Option.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-## Die Meldungsindikatoren {#message-indicators}
+## Die Nachrichtenindikatoren {#message-indicators}
 
 Nach Abschluss des Versands an die Kontakte zeigt die **[!UICONTROL Freigabe]**-Kachel Ihre KPI-Daten (Key Performance Indicators) an:
 
@@ -65,79 +65,79 @@ Nach Abschluss des Versands an die Kontakte zeigt die **[!UICONTROL Freigabe]**-
 
 ![](assets/sending_delivery.png)
 
-Wenn die KPIs zu lange aktualisiert werden oder die Ergebnisse aus den sendenden Protokollen nicht berücksichtigt werden, klicken Sie im Fenster **[!UICONTROL Bereitstellung]** auf die Schaltfläche **[!UICONTROL Statistik berechnen]**.
+Wenn die Aktualisierung der KPIs zu lange dauert oder die Ergebnisse aus den Versandlogs nicht berücksichtigt werden, klicken Sie auf die Schaltfläche **[!UICONTROL Statistiken berechnen]** im Fenster **[!UICONTROL Freigabe]**.
 
 ![](assets/sending_delivery7.png)
 
-Die Nachricht kann im Verlauf eines der zielgerichteten Profil angezeigt werden. Näheres wird in Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md) beschrieben.
+Die Nachricht kann im Verlauf eines der Zielgruppenprofile angezeigt werden. Näheres wird in Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md) beschrieben.
 
-Nachdem eine Nachricht gesendet wurde, können Sie das Verhalten der Empfänger verfolgen und sie überwachen, um die Auswirkungen zu messen. Lesen Sie diesbezüglich auch diese Abschnitte:
+Nach dem Versand einer Nachricht können Sie das Verhalten des Empfängers verfolgen und beobachten, um die Wirkung der Nachricht zu messen. Lesen Sie diesbezüglich auch diese Abschnitte:
 
 * [Nachrichten tracken](../../sending/using/tracking-messages.md)
 * [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md)
 
-### Versand-Erfolgserfolg-Berichte {#delivered-status-report}
+### Berichte zum Versanderfolg {#delivered-status-report}
 
 >[!NOTE]
 >
->Dieser Abschnitt gilt nur für E-Mail-Kanal.
+>Dieser Abschnitt gilt nur für den E-Mail-Kanal.
 
-In der **[!UICONTROL Zusammenfassung]**-Ansicht jeder E-Mail werden die **[!UICONTROL Ausgelieferten]**-prozentualen Beginn zu 100 % und dann im gesamten Versand [die Gültigkeitsdauer](../../administration/using/configuring-email-channel.md#validity-period-parameters) schrittweise verringert, während die weichen und festen Absprünge zurückgemeldet werden<!--from the Enhanced MTA to Campaign-->.
+In der Ansicht **[!UICONTROL Zusammenfassung]** jeder E-Mail beginnt der Prozentsatz der **[!UICONTROL zugestellten]** Nachrichten bei 100 % und sinkt dann allmählich während des [Gültigkeitszeitraums](../../administration/using/configuring-email-channel.md#validity-period-parameters) des Versands, da die Soft- und Hardbounces zurückgemeldet werden<!--from the Enhanced MTA to Campaign-->.
 
-Tatsächlich werden alle Meldungen in den [Versandprotokollen](../../sending/using/monitoring-a-delivery.md#sending-logs) als **[!UICONTROL Gesendet]** angezeigt, sobald sie erfolgreich von der Kampagne an den Enhanced MTA (Message Transfer Agent) weitergeleitet werden. Sie bleiben in diesem Status, es sei denn, oder bis ein [bounce](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) für diese Meldung von der erweiterten MTA an die Kampagne zurückgesendet wird.
+Alle Nachrichten werden in den [Versandlogs](../../sending/using/monitoring-a-delivery.md#sending-logs) als **[!UICONTROL Gesendet]** angezeigt, sobald sie erfolgreich von Campaign an den erweiterten MTA (Message Transfer Agent) weitergeleitet wurden. Sie bleiben in diesem Status, es sei denn, ein [Bounce](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) wird für diese Nachricht vom erweiterten MTA an Campaign zurückgemeldet.
 
-Wenn Meldungen mit festem Absprung von der erweiterten MTA zurückgesendet werden, ändert sich ihr Status von **[!UICONTROL Gesendet]** in **[!UICONTROL Fehlgeschlagen]** und der **[!UICONTROL Ausgelieferte]**-Prozentsatz wird entsprechend verringert.
+Wenn vom erweiterten MTA Hardbounces zurückgemeldet werden, ändert sich der Status dieser Nachrichten von **[!UICONTROL Gesendet]** in **[!UICONTROL Fehlgeschlagen]** und der **[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend verringert.
 
-Wenn Meldungen mit weichem Zeilensprung aus der erweiterten MTA zurückgegeben werden, werden sie weiterhin als **[!UICONTROL Gesendet]** angezeigt und der **[!UICONTROL Ausgelieferte]**-Prozentsatz wird noch nicht aktualisiert. Soft-bouncing-Meldungen werden dann [erneut versucht](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) während der Gültigkeitsdauer des Versands:
+Wenn vom erweiterten MTA Softbounces zurückgemeldet werden, werden diese Nachrichten weiterhin als **[!UICONTROL Gesendet]** angezeigt und der **[!UICONTROL Zugestellt]**-Prozentsatz wird noch nicht aktualisiert. Nachrichten, bei denen ein Softbounce aufgetreten ist, erhalten dann während des Gültigkeitszeitraums des Versands [einen erneuten Zustellversuch](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure):
 
-* Wenn ein erneuter Versuch vor Ende der Gültigkeitsdauer erfolgreich war, bleibt der Meldungsstatus weiterhin **[!UICONTROL Gesendet]** und der **[!UICONTROL Ausgelieferte]**-Prozentsatz bleibt unverändert.
+* Wenn ein erneuter Versuch vor Ende der Gültigkeitszeitraums erfolgreich ist, bleibt der Nachrichtenstatus weiterhin **[!UICONTROL Gesendet]** und der **[!UICONTROL Zugestellt]**-Prozentsatz bleibt unverändert.
 
-* Andernfalls ändert sich der Status in **[!UICONTROL Fehlgeschlagen]** und der **[!UICONTROL Ausgelieferte]**-Prozentsatz wird entsprechend verringert.
+* Andernfalls ändert sich der Status in **[!UICONTROL Fehlgeschlagen]** und der **[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend verringert.
 
-Daher sollten Sie bis zum Ende der Gültigkeitsdauer warten, um die finale **[!UICONTROL Ausgelieferte]** Prozentzahl und die endgültige Anzahl der tatsächlich gesendeten **[!UICONTROL und**[!UICONTROL  Fehlgeschlagenen ]**Meldungen anzuzeigen.]**
+Daher sollten Sie bis zum Ende des Gültigkeitszeitraums warten, um den endgültigen **[!UICONTROL Zugestellt]**-Prozentsatz und die endgültige Anzahl der tatsächlich **[!UICONTROL gesendeten]** und **[!UICONTROL fehlgeschlagenen]** Nachrichten anzuzeigen.
 
 ### Email Feedback Service (Beta) {#email-feedback-service}
 
-Mit der EFS-Funktion (Email Feedback Service) wird der Status jeder E-Mail genau gemeldet, da Feedback direkt vom Enhanced MTA (Message Transfer Agent) erfasst wird.
+Mit der EFS-Funktion (Email Feedback Service) wird der Status jeder E-Mail genau gemeldet, da Feedback direkt vom erweiterten MTA (Message Transfer Agent) erfasst wird.
 
 >[!IMPORTANT]
 >
->Der E-Mail-Feedback-Dienst ist derzeit als Betafunktion verfügbar.
+>Der Email Feedback Service ist derzeit als Betafunktion verfügbar.
 
-Nachdem der Versand gestartet wurde, ändert sich der Prozentsatz für **[!UICONTROL Ausgeliefert]** nicht mehr, wenn die Nachricht erfolgreich von der Kampagne auf die erweiterte MTA übertragen wurde.
+Nachdem der Versand gestartet wurde, ändert sich der **[!UICONTROL Zugestellt]**-Prozentsatz nicht, wenn die Nachricht erfolgreich von Campaign an den erweiterten MTA weitergeleitet wurde.
 
 ![](assets/efs-sending.png)
 
-Die Versandlogs zeigen den Status **[!UICONTROL Ausstehend]** für jede Zieladresse an.
+Die Versandlogs zeigen für jede Zieladresse den Status **[!UICONTROL Ausstehend]** an.
 
 ![](assets/efs-pending.png)
 
-Wenn die Nachricht tatsächlich an die zielgerichteten Profil gesendet wird und diese Informationen in Echtzeit aus dem erweiterten MTA gemeldet werden, zeigen die Versandlogs den Status **[!UICONTROL Gesendet]** für jede Adresse an, die die Nachricht erfolgreich erhalten hat. Der Prozentsatz **[!UICONTROL Ausgeliefert]** wird mit jedem erfolgreichen Versand entsprechend erhöht.
+Wenn die Nachricht tatsächlich den Zielgruppenprofilen zugestellt wird und diese Informationen in Echtzeit vom erweiterten MTA gemeldet werden, zeigen die Versandlogs für jede Adresse, die die Nachricht erfolgreich erhalten hat, den Status **[!UICONTROL Gesendet]** an. Der **[!UICONTROL Zugestellt]**-Prozentsatz wird mit jedem erfolgreichen Versand entsprechend erhöht.
 
-Wenn Meldungen mit festem Absprung aus der erweiterten MTA zurückgegeben werden, ändert sich ihr Protokollstatus von **[!UICONTROL Ausstehend]** in **[!UICONTROL Fehlgeschlagen]** und der Prozentsatz **[!UICONTROL Absprünge + Fehler]** wird entsprechend erhöht.
+Wenn vom erweiterten MTA Hardbounces zurückgemeldet werden, ändert sich der Status dieser Nachrichten von **[!UICONTROL Ausstehend]** in **[!UICONTROL Fehlgeschlagen]** und der **[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht.
 
-Wenn Meldungen mit weichem Absprung aus dem erweiterten MTA zurückgegeben werden, ändert sich auch ihr Protokollstatus von **[!UICONTROL Ausstehend]** in **[!UICONTROL Fehlgeschlagen]** und der Prozentsatz **[!UICONTROL Absprünge + Fehler]** wird entsprechend erhöht. Der Prozentsatz **[!UICONTROL Ausgeliefert]** bleibt unverändert. Soft-bouncing-Meldungen werden dann während des gesamten Versands [Gültigkeitsdauer](../../administration/using/configuring-email-channel.md#validity-period-parameters) erneut versucht:
+Wenn vom erweiterten MTA Softbounces zurückgemeldet werden, ändert sich der Status dieser Nachrichten ebenfalls von **[!UICONTROL Ausstehend]** in **[!UICONTROL Fehlgeschlagen]** und der **[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht. Der **[!UICONTROL Zugestellt]**-Prozentsatz bleibt unverändert. Nachrichten, bei denen ein Softbounce aufgetreten ist, erhalten dann während des [Gültigkeitszeitraums](../../administration/using/configuring-email-channel.md#validity-period-parameters) des Versands einen erneuten Zustellversuch:
 
-* Wenn ein erneuter Versuch vor Ablauf der Gültigkeitsdauer erfolgreich war, wird der Status der Nachricht auf **[!UICONTROL Gesendet]** und der **[!UICONTROL Ausgeliefert]**-Prozentsatz entsprechend erhöht.
+* Wenn ein erneuter Versuch vor Ende der Gültigkeitszeitraums erfolgreich ist, ändert sich der Nachrichtenstatus in **[!UICONTROL Gesendet]** und der **[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend erhöht.
 
-* Andernfalls bleibt der Status **[!UICONTROL Fehlgeschlagen]**. Die Prozentsätze **[!UICONTROL Ausgeliefert]** und **[!UICONTROL Absprünge + Fehler]** bleiben unverändert.
+* Andernfalls bleibt der Status **[!UICONTROL Fehlgeschlagen]**. Die **[!UICONTROL Zugestellt]**- und **[!UICONTROL Bounces + Fehler]**-Prozentsätze bleiben unverändert.
 
 >[!NOTE]
 >
->Weitere Informationen zu harten und weichen Absprüngen finden Sie in [diesem Abschnitt](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Weitere Informationen zu Hard- und Softbounces finden Sie in [diesem Abschnitt](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Weitere Informationen zu weiteren Zustellversuchen nach einem temporären Fehler eines Versands finden Sie in [diesem Abschnitt](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>Weitere Informationen zu zusätzlichen Zustellversuchen nach einem vorübergehend fehlgeschlagenen Versand finden Sie in [diesem Abschnitt](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 
-### Von EFS {#changes-introduced-by-efs} eingeführte Änderungen
+### Durch EFS eingeführte Änderungen {#changes-introduced-by-efs}
 
-Die nachstehende Tabelle zeigt die Änderungen bei KPIs und dem Senden von Protokollstatus, die durch die EFS-Funktion eingeführt wurden.
+Die folgende Tabelle zeigt die Änderungen der KPIs und Versandlogstatus, die durch die EFS-Funktion eingeführt wurden.
 
-| Schritt in den sendenden Prozess<br> | KPI-Zusammenfassung<br>OHNE EFS | Protokollstatus senden<br>OHNE EFS | KPI-Zusammenfassung<br>MIT EFS | Protokollstatus<br>MIT EFS senden |
+| Schritt im<br>Versandprozess | KPI-Zusammenfassung<br>OHNE EFS | Versandlogstatus<br>OHNE EFS | KPI-Zusammenfassung<br>MIT EFS | Versandlogstatus<br>MIT EFS |
 |--- |--- |--- | --- | --- |
-| Nachricht wird erfolgreich von der Kampagne auf die erweiterte MTA weitergeleitet | <ul><li>**[!UICONTROL Ausgelieferte]** prozentuale Beginn zu 100 %</li><li>**[!UICONTROL Absprünge +]** Verursacher-Beginn bei 0 %</li></ul> | Gesendet | <ul><li>**[!UICONTROL Ausgelieferte]** prozentuale Beginn zu 0 %</li><li>**[!UICONTROL Absprünge +]** Verursacher-Beginn bei 0 %</li></ul> | Ausstehend |
-| Hartabschneidende Nachrichten werden aus der erweiterten MTA zurückgemeldet. | <ul><li>**[!UICONTROL Der]** gelieferte Prozentsatz wird entsprechend verringert</li><li>**[!UICONTROL Bounces +]** errorspercentage wird entsprechend erhöht</li></ul> | Fehlgeschlagen | <ul><li>Keine Änderung des Prozentsatzes **[!UICONTROL Ausgeliefert]**</li><li>**[!UICONTROL Bounces +]** errorspercentage wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
-| Soft-bouncing-Meldungen werden aus der erweiterten MTA zurückgemeldet | <ul><li>Keine Änderung des Prozentsatzes **[!UICONTROL Ausgeliefert]**</li><li>Keine Änderung des Prozentsatzes **[!UICONTROL Absprünge + Fehler]**</li></ul> | Gesendet | <ul><li>Keine Änderung des Prozentsatzes **[!UICONTROL Ausgeliefert]**</li><li>**[!UICONTROL Bounces +]** errorspercentage wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
-| Absprüngliche Meldungen: weitere Zustellversuche sind erfolgreich | <ul><li>Keine Änderung des Prozentsatzes **[!UICONTROL Ausgeliefert]**</li><li>Keine Änderung des Prozentsatzes **[!UICONTROL Absprünge + Fehler]**</li></ul> | Gesendet | <ul><li>**[!UICONTROL Der]** gelieferte Prozentsatz wird entsprechend erhöht</li><li>**[!UICONTROL Absprünge +]** Errorspercentage werden entsprechend verringert</li></ul> | Gesendet |
-| Weitere Zustellversuche mit Soft-Bouncing-Meldungen schlagen fehl | <ul><li>**[!UICONTROL Der]** gelieferte Prozentsatz wird entsprechend verringert</li><li>**[!UICONTROL Bounces +]** errorspercentage wird entsprechend erhöht</li></ul> | Fehlgeschlagen | <ul><li> Keine Änderung des Prozentsatzes **[!UICONTROL Ausgeliefert]** </li><li> Keine Änderung des Prozentsatzes **[!UICONTROL Absprünge + Fehler]** </li></ul> | Fehlgeschlagen |
+| Nachricht wird erfolgreich von Campaign an den erweiterten MTA weitergeleitet | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz beginnt bei 100 %</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz beginnt bei 0 %</li></ul> | Gesendet | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz beginnt bei 0 %</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz beginnt bei 0 %</li></ul> | Ausstehend |
+| Hardbounces werden vom erweiterten MTA zurückgemeldet. | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend verringert</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
+| Softbounces werden vom erweiterten MTA zurückgemeldet. | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>Keine Änderung des **[!UICONTROL Bounces + Fehler]**-Prozentsatzes</li></ul> | Gesendet | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
+| Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, sind erfolgreich | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>Keine Änderung des **[!UICONTROL Bounces + Fehler]**-Prozentsatzes</li></ul> | Gesendet | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend erhöht</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend verringert</li></ul> | Gesendet |
+| Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, schlagen fehl | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend verringert</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen | <ul><li> Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes </li><li> Keine Änderung des **[!UICONTROL Bounces + Fehler]**-Prozentsatzes </li></ul> | Fehlgeschlagen |
