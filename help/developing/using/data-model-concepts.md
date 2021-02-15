@@ -7,11 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Aus Ressourcenerweiterungen stammende Felder werden mit einem Präfix versehen. 
 
 >[!NOTE]
 >
->Eine Datenmodelldarstellung für die integrierten Ressourcen finden Sie auf [dieser Seite](../../developing/using/datamodel-introduction.md).
+>Eine Darstellung des Datenmodells für die nativen Ressourcen finden Sie auf [dieser Seite](../../developing/using/datamodel-introduction.md).
 
 Des Weiteren kann in den der neuen Ressource entsprechenden Bildschirmen die [Navigation konfiguriert werden](configuring-the-screen-definition.md).
 
