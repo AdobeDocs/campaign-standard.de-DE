@@ -6,11 +6,11 @@ description: Reichern Sie das Datenmodell von Campaign Standard mit benutzerdefi
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Erweitern Sie das Datenmodell von Campaign Standard mit Ihren eigenen Feldern un
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Die von Campaign verwendeten Daten werden durch verschiedene Ressourcen definiert, die in einem **vordefinierten Datenmodell** festgelegt werden. Das Datenmodell verfügt über eine native SQL-Struktur für eine Reihe von Marketing-Ressourcen: Versand, Audience, Landingpages, Profil usw. Jede Ressource enthält zugehörige Filter, mit denen Sie durch die Ressourcen navigieren können.
+Die von Campaign verwendeten Daten werden durch verschiedene Ressourcen definiert, die in einem **vordefinierten Datenmodell** festgelegt werden. Das Datenmodell verfügt über eine native SQL-Struktur für eine Reihe von Marketing-Ressourcen: Versand, Audience, Landingpages, Profil usw. Jede Ressource wird mit zugehörigen Filtern geliefert, sodass Sie durch die Ressourcen navigieren können.
 
 Im Menü **Diagnose** können Sie die von Campaign Standard generierten technischen Objekte auflisten: Datenschemata, Websites, Filter usw., um das Datenmodell und alle daran vorgenommenen Änderungen zu überwachen.
 
