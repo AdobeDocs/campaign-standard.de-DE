@@ -6,11 +6,11 @@ description: Hier finden Sie die Liste der in dynamischen Berichten enthaltenen 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e129cde33b24831122433bd4b400204f38799b11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken           {#metrics}
+## Metriken            {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
@@ -247,12 +247,12 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Anzahl der Empfänger, die den Versand geöffnet haben<br /> </td> 
   </tr> 
   <tr> 
-   <td> Individuelle Abmeldung<br /> </td> 
-   <td> Anzahl der Empfänger, die auf den Link Abmeldung geklickt haben.<br /> </td> 
+   <td> Einzelabmeldungen<br /> </td> 
+   <td> Die Anzahl der Empfänger, die den Abmelde-Link angeklickt haben.<br /> </td> 
   </tr> 
   <tr> 
    <td> Abmelderate<br /> </td> 
-   <td> Anzahl der eindeutigen Abmeldung im Vergleich zu den bereitgestellten Nachrichten.<br /> </td> 
+   <td> Anzahl der Einzelabmeldungen im Vergleich zu den zugestellten Nachrichten.<br /> </td> 
   </tr> 
   <tr> 
    <td> Abgemeldet<br /> </td> 
