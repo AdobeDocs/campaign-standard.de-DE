@@ -7,11 +7,11 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -51,8 +51,8 @@ Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Werkzeug zur Überwachung 
 Export-Audits ermöglichen es Ihnen, die auf Ihren Instanzen durchgeführten Exporte zu überwachen: Dateien, die von Workflows hochgeladen wurden, Listenexporte und Dateien, die von Briefpost-Nachrichten heruntergeladen wurden.
 [Mehr dazu](../../administration/using/auditing-export-logs.md)
 
-****
-LizenzenÜberwachen Sie im Menü &quot; **** Lizenzen&quot;Informationen zu Ihren Instanzen: installierte Lizenzen, Buildversionen und Vertragsabschlüsse akzeptiert.
+**Lizenzen**
+Im Menü **[!UICONTROL Lizenzen]** können Sie Informationen zu Ihren Instanzen überwachen: installierte Lizenzen, Build-Versionen und akzeptierte Bestimmungen.
 [Mehr dazu](../../administration/using/licenses.md)
 
 ## Überwachung von Workflows {#monitoring-workflows}
@@ -63,20 +63,20 @@ LizenzenÜberwachen Sie im Menü &quot; **** Lizenzen&quot;Informationen zu Ihre
 Die Befolgung von Best Practices und Richtlinien zur Fehlerbehebung bei der Verwendung von Workflows kann zur Leistungsverbesserung beitragen.
 [Mehr dazu](../../automating/using/best-practices-workflows.md)
 
-**Protokolle und**
-AufgabenDie Überwachung von Workflow-Protokollen ist ein wichtiger Schritt zur Analyse Ihrer Workflows und zur Gewährleistung ihrer ordnungsgemäßen Ausführung.
+**Protokolle und Aufgaben**
+Die Überwachung von Workflow-Protokollen ist ein wichtiger Schritt, um Ihre Workflows zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden.
 [Mehr dazu](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
-**Mit**
-NotificationsCampaign Standard können Sie Benachrichtigungen an Aufsichtsbehörden senden, um die Ausführung Ihrer Workflows zu überwachen und festzustellen, ob ein Fehler vorliegt, der Ihre Aufmerksamkeit erfordert.
+**Benachrichtigungen**
+Mit Campaign Standard können Sie Benachrichtigungen an Supervisoren senden, um die Ausführung Ihrer Workflows zu überwachen und festzustellen, ob ein Fehler vorliegt, der Ihre Aufmerksamkeit erfordert.
 [Mehr dazu](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Sendungen überwachen {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-****
-DeliverabilityCampaign Standard bietet mehrere Bereitstellungs-Tools, mit deren Hilfe Sie die Anzahl der erfolgreich ausgelieferten Nachrichten verbessern können: Berichte zum Durchsatz von Versänden, Optimierung der Sendezeit, Vorschau von Nachrichten, E-Mail-Rendering, Verwaltung von Quarantänen usw.
+**Zustellbarkeit**
+Campaign Standard bietet verschiedene Zustellbarkeits-Tools, mit denen Sie die Anzahl der erfolgreich zugestellten Nachrichten verbessern können: Berichte zum Versanddurchsatz, Optimierung des Sendezeitpunkts, Vorschau von Nachrichten, E-Mail-Rendering, Quarantäneverwaltung usw.
 [Mehr dazu](../../sending/using/about-deliverability.md)
 
 **Sendungen**
@@ -87,6 +87,6 @@ Sobald Ihre Nachrichten gesendet wurden, können Sie mithilfe detaillierter Prot
 Mit der Funktion für Versandwarnungen können Sie Warnungen einrichten, die bezüglich der Ausführung von Sendungen automatisch an eine Gruppe von Benutzern gesendet werden: fehlgeschlagene Sendungen oder Vorbereitung, schlechte Bounce-Rate, niedriger Durchsatz usw.
 [Mehr dazu](../../sending/using/receiving-alerts-when-failures-happen.md)
 
-**Dynamische**
-BerichterstellungDynamischer Berichte bietet verschiedene Berichte, die Ihnen helfen, über die Leistung Ihrer Versand auf dem Laufenden zu bleiben: Absprünge, am häufigsten angezeigte Versand nach Empfängern, Durchsatz der Versand usw.
+**Dynamisches Reporting**
+Das dynamische Reporting bietet verschiedene Berichte, mit denen Sie über die Leistung Ihrer Sendungen auf dem Laufenden gehalten werden können: Bounces, die von den Empfängern am häufigsten angesehenen Sendungen, der Durchsatz der Sendungen usw.
 [Mehr dazu](../../reporting/using/about-dynamic-reports.md)
