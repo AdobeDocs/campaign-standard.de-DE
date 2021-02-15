@@ -6,11 +6,11 @@ description: Erfahren Sie, wie die Datenerfassung über APIs aktiviert wird.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Der GET-Vorgang gibt die folgenden Informationen zurück:
 
 Mögliche Antworten auf den GET-Vorgang sind:
 
-* Anfrage erfolgreich starten:
+* Aufnahmeanfrage erfolgreich abgeschlossen:
 
    ```
    {
@@ -129,7 +129,7 @@ Mögliche Antworten auf den GET-Vorgang sind:
    }
    ```
 
-* Aufnahmeanfrage fehlgeschlagen mit 0 aufgenommenen Datensätzen:
+* Aufnahmeanfrage mit 0 aufgenommenen Datensätzen fehlgeschlagen:
 
    ```
    {
@@ -141,7 +141,7 @@ Mögliche Antworten auf den GET-Vorgang sind:
    }
    ```
 
-* Anfrage konnte nicht erfasst werden, wobei ein Datensatz unter einem Stapel hochgeladen wurde:
+* Aufnahmeanfrage mit einigen hochgeladenen Datensätzen im Batch fehlgeschlagen:
 
    ```
    {
