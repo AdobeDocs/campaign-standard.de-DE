@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1831'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Externe Konten werden von technischen Prozessen, wie technischen Workflows oder 
 
 Das externe Konto wurde erstellt und ist nun in der Liste der Konten sichtbar. Es steht jetzt für Ihre Daten-/Dateitransfers oder Routing-Konfigurationen in Workflow-Aktivitäten und Versandeigenschaften bereit.
 
-## Externes SFTP-Konto          {#sftp-external-account}
+## Externes SFTP-Konto           {#sftp-external-account}
 
 Unterschiedliche Typen externer Konten erfordern die Angabe unterschiedlicher Informationen.
 
@@ -101,7 +101,7 @@ Geben Sie für ein externes OAuth 2.0-Konto die folgenden Details an:
 * **Vertrauliche OAuth 2.0-Zugangsdaten**: Dieser Abschnitt ist für vertrauliche Zugangsdaten gedacht. Die Zugangsdaten werden nach dem Hinzufügen auf dem Bildschirm maskiert. Zu diesem Zeitpunkt sind sie weder lesbar noch bearbeitbar. Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
 * **Nicht vertrauliche OAuth 2.0-Zugangsdaten**: Dieser Abschnitt ist für nicht vertrauliche Zugangsdaten gedacht. Die Zugangsdaten werden nach dem Hinzufügen auf dem Bildschirm angezeigt. Sie können auch bearbeitet werden.  Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
 
-Klicken Sie nach Eingabe der Kontoinformationen auf **Verbindung testen**, um zu überprüfen, ob das Externe Konto korrekt konfiguriert wurde.
+Klicken Sie nach Eingabe der Kontoinformationen auf **Verbindung testen**, um zu überprüfen, ob das externe Konto korrekt konfiguriert wurde.
 
 ![](assets/external_accounts_OAuth.png)
 
@@ -187,7 +187,7 @@ Geben Sie für ein externes Microsoft Azure Blob Storage-Konto die folgenden Inf
 * Einen **[!UICONTROL Titel]** und eine **[!UICONTROL ID]** für Ihr externes Konto
 * **[!UICONTROL Typ]**: Microsoft Azure Blob Storage
 * Ihren **[!UICONTROL Kontonamen]** und Ihren **[!UICONTROL Kontoschlüssel]**. Auf dieser [Seite](https://docs.microsoft.com/de-DE/azure/storage/common/storage-account-keys-manage) erfahren Sie, wo Sie Ihren Kontonamen und Kontoschlüssel finden können.
-* Ihr **[!UICONTROL Endpunktsuffix]**. Es befindet sich im Azure Portal unter **[!UICONTROL Connection string]** im Menü **[!UICONTROL Access keys]**. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Ihr **[!UICONTROL Endpunktsuffix]**. Es befindet sich im Azure Portal unter **[!UICONTROL Connection string]** im Menü **[!UICONTROL Access keys]**. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.microsoft.com/de-DE/azure/storage/common/storage-account-keys-manage).
 * Den Namen Ihres **[!UICONTROL Containers]**. Wenn Sie mehr als einen Container verwenden möchten, müssen Sie so viele externe Konten wie Container einrichten.
 * Mit der Option **[!UICONTROL Parallelität]** können Sie die Geschwindigkeit von Dateiübertragungen präzisieren.
 
