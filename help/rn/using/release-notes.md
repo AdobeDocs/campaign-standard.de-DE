@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Neueste Version
-description: Auf dieser Seite finden Sie Informationen zum Inhalt der neuesten Version von Campaign Standard.
+title: Aktuelle Version
+description: Auf dieser Seite finden Sie Informationen zum Inhalt der aktuellen Version von Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2627'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Neueste Version{#latest-release}
+# Aktuelle Version{#latest-release}
 
 [Versionsplanung](../../rn/using/release-planning.md) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2020.md) | [Eingestellte Funktionen](../../rn/using/deprecated-features.md)
 
@@ -80,7 +80,7 @@ ht-degree: 98%
 </ul>
 <p>Weitere Informationen finden Sie im <a href="../../start/using/interface-description.md#top-bar">entsprechenden Handbuch</a>.
 </p>
-<p>HINWEIS: Diese Änderung wird schrittweise für alle Umgebung zwischen dem 10. Februar und dem 1. März eingeführt.
+<p>HINWEIS: Diese Änderung wird zwischen dem 10. Februar und dem 1. März schrittweise in allen Kundenumgebungen implementiert.
 </p>
 </td> 
 </tr> 
@@ -99,7 +99,7 @@ ht-degree: 98%
 
 * Eine neue **GetOption**-Funktion ist jetzt in Aktivitäten verfügbar, für die nach dem Aufruf eines Workflows mit externen Parametern Ereignisvariablen verwendet werden. Damit können Sie den Wert einer angegebenen Funktion zurückgeben. [Mehr dazu](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Eine neue Option ermöglicht es dem Campaign Standard, die Verfügbarkeit des physischen Speichers **auf Ihrem System zu überprüfen, bevor ein Workflow gestartet wird.** Steht zu wenig Speicher zur Verfügung, wird die Ausführung des Workflows verzögert, bis der Systemspeicher diesen Schwellenwert erreicht. Dadurch wird eine weitere Leistungsverschlechterung vermieden und das Risiko eines Ausfalls verringert. Der Workflow wird automatisch fortgesetzt, sobald die Auslastung des Servers abnimmt und der Speicher zunimmt. Beachten Sie, dass diese Option schreibgeschützt ist und nicht geändert werden kann. [Mehr dazu](../../automating/using/best-practices-workflows.md#execution)
+* Eine neue Option ermöglicht es Campaign Standard, die Verfügbarkeit von **physischem Speicher** auf Ihrem System zu überprüfen, bevor ein Workflow gestartet wird. Steht zu wenig Speicher zur Verfügung, wird die Ausführung des Workflows verzögert, bis der Systemspeicher diesen Schwellenwert erreicht. Dadurch wird eine weitere Leistungsverschlechterung vermieden und das Risiko eines Ausfalls verringert. Der Workflow wird automatisch fortgesetzt, sobald die Auslastung des Servers abnimmt und der Speicher zunimmt. Beachten Sie, dass diese Option schreibgeschützt ist und nicht geändert werden kann. [Mehr dazu](../../automating/using/best-practices-workflows.md#execution)
 
 * In Adobe Campaign Standard ist ein neuer Prozess verfügbar, der eine einfachere Migration von der älteren SDK v4-Mobile App auf das **Adobe Experience Platform Mobile SDK** ermöglicht. Mehr dazu erfahren Sie auf [dieser Seite](../../administration/using/sdkv4-migration.md).
 
@@ -119,7 +119,7 @@ ht-degree: 98%
 
 * Benutzer mit der Rolle &quot;DATAMODEL&quot; können jetzt Erweiterungen für Versandlogs veröffentlichen. (CAMP-46604)
 
-* Die Fehlermeldung, die beim Versuch angezeigt wurde, eine Ressource zu veröffentlichen, die auf eine nicht mehr vorhandene benutzerdefinierte Ressource ausgerichtet ist, wurde klarer formuliert. (CAMP-46893)
+* Die Fehlermeldung, die beim Veröffentlichen einer Ressource angezeigt wurde, für die eine nicht mehr vorhandene benutzerdefinierte Ressource als Zielgruppe festgelegt war, wurde klarer formuliert. (CAMP-46893)
 
 * Die folgenden Sprachen wurden zur Liste der **bevorzugten Sprachen** hinzugefügt: Indonesisch – Indonesien (in-id), Englisch – Schweden (en-se), Englisch – Asien-Pazifik (en-ap), Englisch – Japan (en-jp), Spanisch – Lateinamerika (es-la). (CAMP-46351)
 
@@ -141,7 +141,7 @@ ht-degree: 98%
 
 **Korrekturen**
 
-* Es wurde ein Problem behoben, das dazu führte, dass der Versand aufgrund bestimmter Prozesse sehr langsam ausgeführt wurde. Dies lag daran, dass für mehrere Parameter falsche Einheiten definiert waren (z. B. Millisekunden statt Sekunden).
+* Es wurde ein Problem behoben, das dazu führte, dass Sendungen aufgrund bestimmter Prozesse sehr langsam ausgeführt wurden. Dies lag daran, dass für mehrere Parameter falsche Einheiten definiert waren (z. B. Millisekunden statt Sekunden).
 
 * Es wurde ein Problem behoben, bei dem das Mobile SDK eine offene Tracking-Anfrage basierend auf der Bedingung sendete, dass deliveryId/MessageID nicht null ist. Dies führte bei Sendungen mit deaktiviertem Tracking zu 404-Fehlern. Eine zusätzliche Variable (acsDeliveryTracking) mit Informationen zum Tracking-Status des Versands wird jetzt in der Payload gesendet. Diese Variable kann je nach eingestelltem Tracking-Status zwei Werte haben: ein oder aus. [Mehr dazu](../../administration/using/push-tracking.md).
 
