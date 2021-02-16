@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: ht
-source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
-workflow-type: ht
-source-wordcount: '1166'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
+workflow-type: tm+mt
+source-wordcount: '1225'
+ht-degree: 95%
 
 ---
 
@@ -109,6 +109,8 @@ Sie können die jeweils nächsten zehn Ausführungen Ihrer Workflows in der Vors
 ![](assets/preview_scheduler.png)
 
 Weiterführende Informationen dazu finden Sie in der [Planungsaktivität](../../automating/using/scheduler.md).
+
+Beim Entwerfen eines geplanten Workflows, der mehrere Aktivitäten umfasst, müssen Sie sicherstellen, dass der Workflow erst dann neu geplant wird, wenn er abgeschlossen ist. Dazu müssen Sie Ihren Workflow konfigurieren, um die Ausführung zu verhindern, wenn eine oder mehrere Aufgaben einer vorherigen Ausführung noch ausstehen. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../automating/using/scheduled-workflows-execution.md).
 
 ## Workflow mit Parametern abrufen{#workflow-with-parameters}
 
