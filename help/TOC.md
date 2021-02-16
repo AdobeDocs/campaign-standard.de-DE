@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 breadcrumb-title: Hilfe
 title: Campaign Standard – Handbuch
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2dedadd1a2879be1aee62272f7b063a365206bd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
 ht-degree: 100%
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 # Adobe Campaign Standard – Hilfe {#using}
 
 + [Produktdokumentation](campaign-standard-home.md)
-+ [Neueste Aktualisierungen](rn/using/documentation-updates.md)
++ [Aktuelle Updates](rn/using/documentation-updates.md)
 + Versionshinweise {#release-notes}
-   + [Neueste Version](rn/using/release-notes.md)
+   + [Aktuelle Version](rn/using/release-notes.md)
    + [Frühzeitige Versionshinweise](rn/using/early-release-notes.md)
    + Frühere Versionen {#previous-releases}
       + [Versionshinweise 2020](rn/using/release-notes-2020.md)
@@ -86,7 +86,7 @@ ht-degree: 100%
       + [Versand optimieren](sending/using/optimize-delivery.md)
       + [Vorlagen verwenden](sending/using/use-templates.md)
       + [Personalisierte Inhalte erstellen](sending/using/design-and-personalize.md)
-      + [Die richtige Zielgruppe festlegen](sending/using/define-the-right-audience.md)
+      + [Die richtige Audience festlegen](sending/using/define-the-right-audience.md)
       + [Vor dem Senden prüfen](sending/using/check-before-sending.md)
       + [Tracken und überwachen](sending/using/track-and-monitor.md)
    + E-Mail-Nachrichten {#email-messages}
@@ -179,9 +179,9 @@ ht-degree: 100%
       + [Nachrichten tracken](sending/using/tracking-messages.md)
       + [Mit E-Mail-BCC archivieren](sending/using/archiving.md)
    + Nachrichten beobachten {#monitoring-messages}
-      + [Sendungen beobachten](sending/using/monitoring-a-delivery.md)
+      + [Versand beobachten](sending/using/monitoring-a-delivery.md)
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
-      + [Ursachen von fehlgeschlagenen Sendungen](sending/using/understanding-delivery-failures.md)
+      + [Ursachen für Fehler beim Versand](sending/using/understanding-delivery-failures.md)
       + [Funktionsweise der Quarantäneverwaltung](sending/using/understanding-quarantine-management.md)
    + Verwalten der Zustellbarkeit {#managing-deliverability}
       + [Über die Zustellbarkeit](sending/using/about-deliverability.md)
@@ -354,7 +354,7 @@ ht-degree: 100%
          + [Kanalübergreifenden Versand erstellen](automating/using/workflow-cross-channel-delivery.md)
          + [Dubletten vor einem Versand identifizieren](automating/using/identifying-duplicated-before-delivery.md)
          + [Versand zum Geburtstag](automating/using/birthday-delivery.md)
-         + [E-Mail- und Briefpostversand verbinden](automating/using/coupling-email-direct-mail.md)
+         + [E-Mail- und Briefpostsendungen verbinden](automating/using/coupling-email-direct-mail.md)
          + [E-Mail mit angereicherten Feldern senden](automating/using/sending-email-enriched-fields.md)
          + [E-Mail mit Zusatzdaten personalisieren](automating/using/personalizing-email-with-additional-data.md)
          + [Wiederkehrende Push-Benachrichtigungen senden](automating/using/recurring-push-notifications.md)
