@@ -257,7 +257,7 @@ Nach Verwendung (byUsage)
         <td>boolean</td>
         </tr>
         <tr>
-        <td>testversand</td>
+        <td>Testversand</td>
         <td>boolean</td>
         </tr>
     </table>
