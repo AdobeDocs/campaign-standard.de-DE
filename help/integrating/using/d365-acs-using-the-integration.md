@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Integration von Microsoft Dynamics 365 mi
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 100%
 
@@ -158,7 +158,7 @@ E-Mail-Marketing-Ereignisse können nach Typ (Versand, Öffnung, Klick, Bounce) 
 Die Opt-out-Werte (z. B. Blockierungsliste) werden zwischen den Systemen synchronisiert. Während des Onboardings stehen folgende Optionen zur Auswahl:
 
 * **Unidirektional (Microsoft Dynamics 365 zu Campaign)**: Dynamics 365 ist die &quot;Source of Truth&quot; für Opt-outs. Opt-out-Attribute werden in einer Richtung von Dynamics 365 nach Campaign Standard synchronisiert.
-* **Unidirektional (Campaign zu Microsoft Dynamics 365)**: Campaign Standard ist die &quot;Source of Truth&quot; für Opt-outs. Opt-out-Attribute werden in einer Richtung von Campaign Standard nach Dynamics 365 synchronisiert.
+* **Unidirektional (Campaign zu Microsoft Dynamics 365)**: Campaign Standard ist die &quot;Source of Truth&quot; für Opt-outs. Opt-out-Attribute werden in einer Richtung von Campaign Standard zu Dynamics 365 synchronisiert.
 * **Bidirektional**: Dynamics 365 UND Campaign Standard sind beide &quot;Sources of Truth&quot;. Opt-out-Attribute werden bidirektional zwischen Campaign Standard und Dynamics 365 synchronisiert.
 
 Wenn Sie über einen separaten Prozess zum Verwalten der Opt-out-Synchronisation zwischen den Systemen verfügen, kann alternativ der Opt-out-Datenfluss der Integration deaktiviert werden.
