@@ -68,7 +68,7 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## Komprimierung verwenden          {#using-compression}
+## Komprimierung verwenden           {#using-compression}
 
 Verwenden Sie für Importe und Exporte möglichst ZIP-Dateien. GZIP wird standardmäßig unterstützt. Beim Import von Dateien können Sie über die Workflow-Aktivität **[!UICONTROL Datei laden]** eine Vorbearbeitung hinzufügen. Bei der Datenextraktion können Sie über die Workflow-Aktivität **[!UICONTROL Dateiextraktion]** eine Nachbearbeitung hinzufügen.
 
@@ -83,7 +83,7 @@ Regelmäßige Importe müssen im Deltamodus durchgeführt werden. Damit wird gew
 
 Vollständige Importe sollten nur für das erstmalige Laden verwendet werden.
 
-## Konsistenz gewährleisten          {#maintaining-consistency}
+## Konsistenz gewährleisten           {#maintaining-consistency}
 
 Um die Konsistenz der Adobe-Campaign-Datenbank zu gewährleisten, befolgen Sie die unten stehenden Grundsätze:
 
