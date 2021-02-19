@@ -431,7 +431,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>operator</td>
-<td>auflistung</td>
+<td>Auflistung</td>
 </tr>
 <tr>
 <td>includeEnd</td>
@@ -443,7 +443,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>type</td>
-<td>auflistung</td>
+<td>Auflistung</td>
 </tr>
 <tr>
 <td>day</td>
@@ -524,7 +524,7 @@ Geöffnet (hasOpenDelivery)
 <th>Typ</th>
 </tr>
 <tr>
-<td>versand</td>
+<td>Versand</td>
 <td>link</td>
 </tr>
 </table>
@@ -550,7 +550,7 @@ Empfangen (hasReceivedDelivery)
 <th>Typ</th>
 </tr>
 <tr>
-<td>versand</td>
+<td>Versand</td>
 <td>link</td>
 </tr>
 </table>
