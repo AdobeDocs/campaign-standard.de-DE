@@ -69,7 +69,7 @@ Mehr dazu:
 * [Nachrichten tracken](../../sending/using/tracking-messages.md)
 * [Mit E-Mail-BCC archivieren](../../sending/using/archiving.md)
 * [Sendungen überwachen](../../sending/using/monitoring-a-delivery.md)
-* [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)
+* [Ursachen für Fehler beim Versand](../../sending/using/understanding-delivery-failures.md)
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 
 ## Zustellbarkeitsrichtlinien {#improve-deliverability}
