@@ -154,7 +154,7 @@ ht-degree: 100%
                <tr>
                   <td>deliveryMode</td>
                   <td>Delivery mode</td>
-                  <td>auflistung (Byte) </td>
+                  <td>Auflistung (Byte) </td>
                   <td>
                      <ul>
                         <li>Bulk delivery - bulk - 1</li>
@@ -204,7 +204,7 @@ ht-degree: 100%
                <tr>
                   <td>executionType</td>
                   <td>Execution type</td>
-                  <td>auflistung (Byte) </td>
+                  <td>Auflistung (Byte) </td>
                   <td>
                      <ul>
                         <li>Unique - oneTime - 0</li>
@@ -235,7 +235,7 @@ ht-degree: 100%
                <tr>
                   <td>icon</td>
                   <td>Icon</td>
-                  <td>auflistung (Byte) </td>
+                  <td>Auflistung (Byte) </td>
                   <td>
                      <ul>
                         <li>Transactional email - emailLightning - 60</li>
@@ -355,7 +355,7 @@ ht-degree: 100%
                <tr>
                   <td>messageType</td>
                   <td>Channel</td>
-                  <td>auflistung (Byte) </td>
+                  <td>Auflistung (Byte) </td>
                   <td>
                      <ul>
                         <li>Fax - 4</li>
@@ -402,7 +402,7 @@ ht-degree: 100%
                <tr>
                   <td>priority</td>
                   <td>Delivery priority</td>
-                  <td>auflistung (Byte) </td>
+                  <td>Auflistung (Byte) </td>
                   <td>
                      <ul>
                         <li>High - high - 20</li>
@@ -480,7 +480,7 @@ ht-degree: 100%
                <tr>
                   <td>state</td>
                   <td>Status</td>
-                  <td>auflistung (Byte) </td>
+                  <td>Auflistung (Byte) </td>
                   <td>
                      <ul>
                         <li>Start pending - startPending - 51</li>
@@ -568,7 +568,7 @@ ht-degree: 100%
                <tr>
                   <td>workflowStatus</td>
                   <td>Workflow status</td>
-                  <td>auflistung (Zeichenfolge) (255)</td>
+                  <td>Auflistung (Zeichenfolge) (255)</td>
                   <td>
                      <ul>
                         <li>In Verarbeitung - begonnen</li>
@@ -606,7 +606,7 @@ Nach Ausführungstyp (byExecutionType)
     </tr>
     <tr>
     <td>executeType</td>
-    <td>auflistung</td>
+    <td>Auflistung</td>
     </tr>
 </table>
 
@@ -619,7 +619,7 @@ Nach logischem Status (byLogicalStatus)
     </tr>
     <tr>
     <td>state</td>
-    <td>auflistung</td>
+    <td>Auflistung</td>
     </tr>
 </table>
 
@@ -679,7 +679,7 @@ Nach Publikationsstatus (byPublicationStatus)
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>auflistung</td>
+    <td>Auflistung</td>
     </tr>
 </table>
 
@@ -692,7 +692,7 @@ Nach Status (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>auflistung</td>
+    <td>Auflistung</td>
     </tr>
 </table>
 
