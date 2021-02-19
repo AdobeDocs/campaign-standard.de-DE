@@ -241,7 +241,7 @@ Nach Status (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>auflistung</td>
+    <td>Auflistung</td>
     </tr>
 </table>
 
