@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Ihr Daten-Mapping aktivieren
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 
