@@ -31,7 +31,7 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu verstehen, in denen Workfl
 * [Kanalübergreifenden Versand erstellen](../../automating/using/workflow-cross-channel-delivery.md)
 * [Dubletten vor einem Versand identifizieren](../../automating/using/identifying-duplicated-before-delivery.md)
 * [Versand zum Geburtstag](../../automating/using/birthday-delivery.md)
-* [E-Mail- und Briefpostversand verbinden](../../automating/using/coupling-email-direct-mail.md)
+* [E-Mail- und Briefpostsendungen verbinden](../../automating/using/coupling-email-direct-mail.md)
 * [E-Mail mit angereicherten Feldern senden](../../automating/using/sending-email-enriched-fields.md)
 * [E-Mail mit Zusatzdaten personalisieren](../../automating/using/personalizing-email-with-additional-data.md)
 * [Wiederkehrende Push-Benachrichtigungen senden](../../automating/using/recurring-push-notifications.md)
