@@ -191,7 +191,7 @@ ht-degree: 100%
                <tr>
                   <td>gender</td>
                   <td>Gender</td>
-                  <td>auflistung (Byte) </td>
+                  <td>Auflistung (Byte) </td>
                   <td>
                      <ul>
                         <li>Unspecified - unknown - 0</li>
@@ -476,7 +476,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>operator</td>
-<td>auflistung</td>
+<td>Auflistung</td>
 </tr>
 <tr>
 <td>includeEnd</td>
@@ -488,7 +488,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>type</td>
-<td>auflistung</td>
+<td>Auflistung</td>
 </tr>
 <tr>
 <td>day</td>
@@ -569,7 +569,7 @@ Geöffnet (hasOpenDelivery)
 <th>Typ</th>
 </tr>
 <tr>
-<td>versand</td>
+<td>Versand</td>
 <td>link</td>
 </tr>
 </table>
@@ -595,7 +595,7 @@ Empfangen (hasReceivedDelivery)
 <th>Typ</th>
 </tr>
 <tr>
-<td>versand</td>
+<td>Versand</td>
 <td>link</td>
 </tr>
 </table>
