@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Microsoft Dynamics 365 für die Integration m
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3ba3e0db816832ea57c124a9bea1fa82cf068859
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Ein OAuth-Zugriffstoken ermöglicht es dem Integrations-Tool, sich über Web-API
 
 Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
->[!VIDEO](https://video.tv.adobe.com/v/27637?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
@@ -53,7 +53,7 @@ Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
 1. Füllen Sie den Registrierungsbildschirm für die App aus:
 
-   * Name: adobe campaign      `<stage or prod>`
+   * Name: adobe campaign       `<stage or prod>`
    * Unterstützter Kontotyp: **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis]** (Standardwert)
 
 Weiterführende Informationen zur Erstellung einer neuen Anwendung finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app).
@@ -106,7 +106,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
    * **[!UICONTROL Benutzername]** (E-Mail): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (z. B. adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL Anwendungs-ID]**: Kennung der Anwendung, die Sie in Azure AD registriert haben (das ist obligatorisch).
    * Sie können **[!UICONTROL URl der Anwendungs-ID]** und **[!UICONTROL Azure AD-Objektkennung]** leer lassen.
-   * **[!UICONTROL Vollständiger Name]**: Adobe-API.      `<stage or prod>`
+   * **[!UICONTROL Vollständiger Name]**: Adobe-API.       `<stage or prod>`
    * **[!UICONTROL E-Mail]**: identisch mit **[!UICONTROL Benutzername]** (oder der E-Mail-Adresse des Administrators, falls gewünscht).
 
    Weiterführende Informationen zur Erstellung von Anwendern finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -119,7 +119,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
 
 1. Wählen Sie **[!UICONTROL OK]** aus.
 
-### Mandantenkennung abrufen  {#get-the-tenant-id}
+### Mandantenkennung abrufen   {#get-the-tenant-id}
 
 Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de/onedrive/find-your-office-365-tenant-id), um Ihre Mandanten-ID zu finden.  Sie benötigen diese ID während der Einrichtung vor der Integration im Integrations-Tool.
 
