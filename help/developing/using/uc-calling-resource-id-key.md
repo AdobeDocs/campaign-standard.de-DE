@@ -3,9 +3,9 @@ solution: Campaign Standard
 product: campaign
 title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
