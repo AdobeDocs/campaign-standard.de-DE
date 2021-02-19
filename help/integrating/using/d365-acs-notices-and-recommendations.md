@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Campaign Standard und Microsoft Dynamics 365 geme
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2470'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Bei der Bereitstellung der Integration können Sie angeben, welche Opt-out-Konfi
 * **Unidirektional (Campaign zu Microsoft Dynamics 365)**: Campaign Standard ist die &quot;Source of Truth&quot; für Opt-outs. Opt-out-Attribute werden in einer Richtung von Campaign Standard zu Dynamics 365 synchronisiert.
 * **Bidirektional**: Dynamics 365 UND Campaign Standard sind beide &quot;Sources of Truth&quot;. Opt-out-Attribute werden bidirektional zwischen Campaign Standard und Dynamics 365 synchronisiert.
 
-Wenn Sie über einen separaten Prozess zum Verwalten der Opt-Out-Synchronisation zwischen den Systemen verfügen, kann alternativ der Opt-Out-Datenfluss der Integration deaktiviert werden.
+Wenn Sie über einen separaten Prozess zum Verwalten der Opt-out-Synchronisation zwischen den Systemen verfügen, kann alternativ der Opt-out-Datenfluss der Integration deaktiviert werden.
 
 Die bidirektionale Opt-out-Konfiguration nutzt eine Logik, um zu bestimmen, welcher Wert in beide Systeme geschrieben werden soll. Die Logik vergleicht Zeitstempel zwischen den beiden Systemen (Änderung auf Datensatzebene in Dynamics 365, Änderung auf Attributebene in Campaign), um zu ermitteln, welches System sich durchsetzt. Wenn Campaign den aktuelleren Zeitstempel enthält, hat der Campaign-Wert Vorrang. Wenn Dynamics 365 den aktuelleren Zeitstempel enthält oder beide gleich sind, erhält opt-out=TRUE den Vorrang (vorausgesetzt, einer der Werte ist TRUE).
 
