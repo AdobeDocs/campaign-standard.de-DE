@@ -6,9 +6,9 @@ description: Verwalten Sie XDM-Schemata, um Ihre Campaign Standard-Daten in Adob
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
 
@@ -80,6 +80,6 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Connector.
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html).
