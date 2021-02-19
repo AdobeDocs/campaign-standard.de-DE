@@ -87,7 +87,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>status</td>
-        <td>auflistung</td>
+        <td>Auflistung</td>
         </tr>
         <tr>
         <td>type</td>
