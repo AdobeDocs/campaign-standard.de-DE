@@ -130,7 +130,7 @@ ht-degree: 100%
                <tr>
                   <td>mode</td>
                   <td>Mode</td>
-                  <td>auflistung (Byte) </td>
+                  <td>Auflistung (Byte) </td>
                   <td>
                      <ul>
                         <li>Viral - viral - 1</li>
