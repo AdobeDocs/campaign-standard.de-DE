@@ -174,7 +174,7 @@ ht-degree: 100%
       <tr>
          <td>designLanguage</td>
          <td>Design language</td>
-         <td>auflistung (Zeichenfolge) (255)</td>
+         <td>Auflistung (Zeichenfolge) (255)</td>
          <td>
             <ul>
                <li>Griechisch - el - el</li>
@@ -324,7 +324,7 @@ ht-degree: 100%
       <tr>
          <td>logicalStatus</td>
          <td>Execution status</td>
-         <td>auflistung (Zeichenfolge) (255)</td>
+         <td>Auflistung (Zeichenfolge) (255)</td>
          <td>
             <ul>
                <li>In progress - started - started</li>
@@ -423,7 +423,7 @@ ht-degree: 100%
       <tr>
          <td>specificAction</td>
          <td>Specific action</td>
-         <td>auflistung (Byte) </td>
+         <td>Auflistung (Byte) </td>
          <td>
             <ul>
                <li>Blacklist - blackList - 3</li>
@@ -443,7 +443,7 @@ ht-degree: 100%
       <tr>
          <td>state</td>
          <td>Status</td>
-         <td>auflistung (Byte) </td>
+         <td>Auflistung (Byte) </td>
          <td>
             <ul>
                <li>Editing - edit - 0</li>
@@ -626,7 +626,7 @@ ht-degree: 100%
       <tr>
          <td>type</td>
          <td>Type</td>
-         <td>auflistung (Byte) </td>
+         <td>Auflistung (Byte) </td>
          <td>
             <ul>
                <li>Generic - generic - 0</li>
@@ -689,7 +689,7 @@ Nach Status (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>auflistung</td>
+    <td>Auflistung</td>
     </tr>
 </table>
 
