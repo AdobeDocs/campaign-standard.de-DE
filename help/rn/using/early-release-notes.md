@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2587'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 
 * Benutzer mit der Rolle &quot;DATAMODEL&quot; können jetzt Erweiterungen für Versandlogs veröffentlichen. (CAMP-46604)
 
-* Die Fehlermeldung, die beim Versuch angezeigt wurde, eine Ressource zu veröffentlichen, die auf eine nicht mehr vorhandene benutzerdefinierte Ressource ausgerichtet ist, wurde klarer formuliert. (CAMP-46893)
+* Die Fehlermeldung, die beim Veröffentlichen einer Ressource angezeigt wurde, für die eine nicht mehr vorhandene benutzerdefinierte Ressource als Zielgruppe festgelegt war, wurde klarer formuliert. (CAMP-46893)
 
 * Die folgenden Sprachen wurden zur Liste der **bevorzugten Sprachen** hinzugefügt: Indonesisch – Indonesien (in-id), Englisch – Schweden (en-se), Englisch – Asien-Pazifik (en-ap), Englisch – Japan (en-jp), Spanisch – Lateinamerika (es-la). (CAMP-46351)
 
@@ -143,7 +143,7 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 
 **Korrekturen**
 
-* Es wurde ein Problem behoben, das dazu führte, dass der Versand aufgrund bestimmter Prozesse sehr langsam ausgeführt wurde. Dies lag daran, dass für mehrere Parameter falsche Einheiten definiert waren (z. B. Millisekunden statt Sekunden).
+* Es wurde ein Problem behoben, das dazu führte, dass Sendungen aufgrund bestimmter Prozesse sehr langsam ausgeführt wurden. Dies lag daran, dass für mehrere Parameter falsche Einheiten definiert waren (z. B. Millisekunden statt Sekunden).
 * Es wurde ein Problem in Workflows behoben, das beim Kopieren und Einfügen einer **Deduplizierungs**-Aktivität auftrat, die einmal ausgeführt worden war und eine temporäre Ressource nutzte. Nach der Duplizierung wurde die Ressource der Aktivität automatisch auf &quot;Leer&quot; eingestellt, was zu Problemen bei anderen Aktivitäten des Workflows führte. Nach dem Einfügen bleibt die Ressource der Aktivität die gleiche, damit der Fehler so schnell wie möglich und nicht später im Workflow ausgelöst wird. (CAMP-46903)
 * Fehlerkorrektur – Es besteht kein Problem mehr, bei dem das Mobile SDK eine offene Tracking-Anfrage basierend auf der Bedingung sendet, dass deliveryId/MessageID nicht null ist. Dies führte bei Sendungen mit deaktiviertem Tracking zu 404-Fehlern. Eine zusätzliche Variable (acsDeliveryTracking) mit Informationen zum Tracking-Status des Versands wird jetzt in der Payload gesendet. Diese Variable kann je nach eingestelltem Tracking-Status zwei Werte haben: ein oder aus.
 * Fehlerkorrektur – Versandberichte werden jetzt ausgeführt, wenn 5.000 Zeilen angezeigt werden.
