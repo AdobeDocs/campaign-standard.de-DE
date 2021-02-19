@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Für jedes Zielgruppenprofil wird eine neue Zeile der Extraktionsdatei hinzugef�
 >
 >Achten Sie darauf, dass Ihre Profile eine Anschrift enthalten, da diese Information für den Briefpost-Dienstleister wesentlich ist. Beachten Sie außerdem, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist. Siehe [Empfehlungen](../../channels/using/about-direct-mail.md#recommendations).
 
-## Hinzufügen von Test- und Fallen-Profilen      {#adding-test-and-trap-profiles}
+## Hinzufügen von Test- und Fallen-Profilen       {#adding-test-and-trap-profiles}
 
 Fügen Sie Testprofile hinzu, sodass Sie Ihre Datei mit einer kleinen Anzahl von Profilen testen können. Dadurch können Sie rasch eine Beispieldatei erstellen, um ihren Aufbau zu testen und zu validieren, bevor Sie die eigentliche Datei vorbereiten. Siehe [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
