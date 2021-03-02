@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -103,9 +103,9 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
       ![](assets/wkf_file_loading1.png)
 
-1. Sollte die Datei, deren Daten Sie laden möchten, in einer GZIP-Datei (.gz) komprimiert sein, wählen Sie im Feld **[!UICONTROL Vorab-Bearbeitungsetappe hinzufügen]** die Option **[!UICONTROL Datei-Dekomprimierung]** aus. Dadurch lässt sich die Datei dekomprimieren, bevor Sie mit dem Laden der Daten fortfahren. Diese Option steht nur zur Verfügung, wenn die Datei mit der in die Aktivität eingehenden Transition übermittelt wird.
+1. Wenn die Datei, aus der Sie die Daten laden möchten, in eine GZIP-Datei (.gz) komprimiert wird, wählen Sie im Feld **[!UICONTROL Hinzufügen eine Vorverarbeitungsstufe]** die Option **[!UICONTROL Dekomprimierung]**. Dadurch lässt sich die Datei dekomprimieren, bevor Sie mit dem Laden der Daten fortfahren. Diese Option steht nur zur Verfügung, wenn die Datei mit der in die Aktivität eingehenden Transition übermittelt wird.
 
-   Das Feld **[!UICONTROL Vorab-Bearbeitungsetappe hinzufügen]** ermöglicht Ihnen auch, eine Datei zu entschlüsseln, bevor Sie sie in die Datenbank importieren. Weitere Informationen zum Arbeiten mit verschlüsselten Dateien finden Sie in [diesem Abschnitt](../../automating/using/managing-encrypted-data.md)
+   Das Feld **[!UICONTROL Hinzufügen eine Vorverarbeitungsstufe]** ermöglicht Ihnen auch, eine Datei zu entschlüsseln, bevor Sie sie in die Datenbank importieren. Weitere Informationen zum Arbeiten mit verschlüsselten Dateien finden Sie in [diesem Abschnitt](../../automating/using/managing-encrypted-data.md)
 
 1. Mit der Option **[!UICONTROL Zurückweisungen in einer Datei speichern]** können Sie eine Datei herunterladen, die während des Imports aufgetretene Fehler enthält, und auf eine Anschlussvorgangsetappe anwenden. Wenn die Option aktiviert ist, wird der ausgehende Übergang in &quot;Zurückweisungen&quot; umbenannt.
 
