@@ -6,9 +6,9 @@ description: Auf dieser Seite finden Sie eingestellte und entfernte Funktionen v
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
 ht-degree: 100%
 
