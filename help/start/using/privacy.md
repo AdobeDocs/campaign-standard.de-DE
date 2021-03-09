@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Die [wichtigsten Rechtsvorschriften](#privacy-regulations) beziehen sich auf die
 
 Als Unternehmen, das personenbezogene Daten erfasst und weitergibt, sind Sie daher der Datenverantwortliche, Ihre Kunden sind die betroffenen Personen und Adobe Campaign fungiert als Auftragsverarbeiter, wenn wir deren personenbezogenen Daten gemäß Ihren Anweisungen verarbeiten. Beachten Sie, dass es in Ihrer Verantwortung als Datenverantwortlicher liegt, die Beziehung zu den betroffenen Personen zu verwalten, z. B. bei der Verwaltung von [Datenschutzanfragen](#privacy-requests).
 
-Bei der Integration von Campaign mit anderen Experience Cloud-Lösungen, bei denen Audiences von einem System auf ein anderes übertragen werden können, wie z. B. mit [Audience Destination Service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager oder People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) oder anderen Lösungen wie [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), müssen Sie dem Schutz personenbezogener Daten besondere Aufmerksamkeit widmen.
+Bei der Integration von Campaign mit anderen Experience Cloud-Lösungen, bei denen Audiences von einem System auf ein anderes übertragen werden können, wie z. B. mit [Audience Destination Service](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager oder People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) oder anderen Lösungen wie [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), müssen Sie dem Schutz personenbezogener Daten besondere Aufmerksamkeit widmen.
 
 ## Datenakquise {#data-acquisition}
 
