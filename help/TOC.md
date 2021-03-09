@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 breadcrumb-title: Hilfe
 title: Campaign Standard – Handbuch
-translation-type: ht
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
-workflow-type: ht
-source-wordcount: '1759'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
+workflow-type: tm+mt
+source-wordcount: '1756'
+ht-degree: 99%
 
 ---
 
@@ -70,10 +70,6 @@ ht-degree: 100%
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identifizieren von Opt-out-Profilen bei einem Versand](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Adobe Experience Platform verwenden {#working-with-adobe-experience-platform}
-      + [Über den Audience Destinations-Dienst](audiences/using/aep-about-audience-destinations-service.md)
-      + [Adobe Experience Platform-Audiences verwalten](audiences/using/aep-managing-audiences.md)
-      + [ Segment Builder verwenden](audiences/using/aep-using-segment-builder.md)
 + Kommunikationskanäle{#communication-channels}
    + [Erste Schritte mit Kommunikationskanälen](channels/using/get-started-communication-channels.md)
    + Über Kommunikationskanäle {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 100%
          + [Synchronisations-Workflows verwalten](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Daten zwischen Microsoft Dynamics 365 und Campaign mappen](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365-Integration verwenden](integrating/using/d365-acs-using-the-integration.md)
+   + Kampagne und Adobe Experience Platform {#adobe-experience-platform}
+      + Audience Destination Service {#audience-destinations}
+         + [Über den Audience Destinations-Dienst](integrating/using/aep-about-audience-destinations-service.md)
+         + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
+         + [ Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
+         + [Adobe Experience Platform-Audiences auswählen](integrating/using/aep-targeting-audiences.md)
+         + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform Data Connector {#data-connector}
+         + [Über Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
+         + [Übersicht über das Datenmodell von Experience Platform](integrating/using/aep-data-model-overview.md)
+         + [Mapping-Definition](integrating/using/aep-mapping-definition.md)
+         + [Mapping-Aktivierung](integrating/using/aep-mapping-activation.md)
+         + [Datenaufnahme über APIs aktivieren](integrating/using/aep-triggering-data-ingestion.md)
 + Prozesse und Daten verwalten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
@@ -379,9 +388,6 @@ ht-degree: 100%
          + [Profile in eine externe Datei exportieren](automating/using/exporting-profiles-in-file.md)
          + [Mehrere Abonnementstatus über eine Datei aktualisieren](automating/using/updating-subscriptions-from-file.md)
          + [Profile aus einer Datei für einen bestimmten Dienst anmelden](automating/using/subscribing-profiles-from-file.md)
-   + Adobe Experience Platform-Audiences verwenden {#working-with-aep-audiences}
-      + [Adobe Experience Platform-Audiences auswählen](automating/using/aep-targeting-audiences.md)
-      + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](automating/using/aep-personalizing-campaigns.md)
 + Entwickeln{#developing}
    + [Erste Schritte mit dem Campaign Standard-Datenmodell](developing/using/get-started-data-model.md)
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 100%
       + [Trackinglogs](developing/using/datamodel-tracking.md)
       + [Abmeldeereignis](developing/using/datamodel-unsubscription.md)
       + [Besucher](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Über Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
-      + [Übersicht über das Datenmodell von Experience Platform](developing/using/aep-data-model-overview.md)
-      + [Mapping-Definition](developing/using/aep-mapping-definition.md)
-      + [Mapping-Aktivierung](developing/using/aep-mapping-activation.md)
-      + [Datenaufnahme über APIs aktivieren](developing/using/aep-triggering-data-ingestion.md)
 + Verwalten{#administrating}
    + [Erste Schritte mit der Administration von Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Richtlinien für das Monitoring](administration/using/monitoring-guidelines.md)
