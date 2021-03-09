@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werde
 
 ## Zusätzliche Ressourcen
 
-* [Audience Ziel-Dienst verwenden](../../audiences/using/aep-about-audience-destinations-service.md)
+* [Audience Ziel-Dienst verwenden](../../integrating/using/aep-about-audience-destinations-service.md)
 * [Microsoft Dynamics 365 verwenden](../../integrating/using/d365-acs-get-started.md)
 * [Für Adobe freigegebene Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows zum Importieren von Profilen verwenden](../../automating/using/creating-import-workflow-templates.md)
