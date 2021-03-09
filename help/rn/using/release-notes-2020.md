@@ -6,9 +6,9 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: 36e0f6be4dc8c1a6e4b0d8878d190f2abce99fcd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+workflow-type: tm+mt
 source-wordcount: '5328'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 [Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
@@ -268,7 +268,7 @@ ht-degree: 100%
 
 **Experience Platform-Integrationen**
 
-* Die Aktivierung von Adobe [Experience Platform-Audiences](../../automating/using/aep-targeting-audiences.md) über die Aktivität **Audience lesen** wurde verbessert, um eine höhere Leistung und Stabilität zu erzielen. Darüber hinaus wurden Workflow-Logs in Bezug auf Aktivierungsvorgänge klarer und detaillierter gestaltet, was eine einfachere Überwachung und Fehlerbehebung beim Lesen von Adobe Experience Platform-Audiences ermöglicht.
+* Die Aktivierung von Adobe [Experience Platform-Audiences](../../integrating/using/aep-targeting-audiences.md) über die Aktivität **Audience lesen** wurde verbessert, um eine höhere Leistung und Stabilität zu erzielen. Darüber hinaus wurden Workflow-Logs in Bezug auf Aktivierungsvorgänge klarer und detaillierter gestaltet, was eine einfachere Überwachung und Fehlerbehebung beim Lesen von Adobe Experience Platform-Audiences ermöglicht.
 
 **Patches**
 
@@ -291,7 +291,7 @@ ht-degree: 100%
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Version 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -329,7 +329,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+>Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
@@ -361,7 +361,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe Experience Platform-Funktionen in Campaign Standard befinden sich derzeit in der Betaphase und können daher häufig ohne Vorankündigung aktualisiert werden. Weiterführende Informationen finden Sie im entsprechenden Handbuch: [Experience Platform-Connectoren ](../../developing/using/aep-about-data-connector.md), [Audience-Ziele](../../audiences/using/aep-about-audience-destinations-service.md)
+>Adobe Experience Platform-Funktionen in Campaign Standard befinden sich derzeit in der Betaphase und können daher häufig ohne Vorankündigung aktualisiert werden. Weiterführende Informationen finden Sie im entsprechenden Handbuch: [Experience Platform-Connectoren ](../../integrating/using/aep-about-data-connector.md), [Audience-Ziele](../../integrating/using/aep-about-audience-destinations-service.md)
 
 * In den Workflow-Protokollen zeigt Campaign nun alle zehn Minuten die Anzahl der Datensätze an, die vom derzeit ausgeführten Auftrag bereits verarbeitet wurden.
 * Ein Adobe Experience Platform-Profil, das aus der Datenbank gelöscht worden war, kann jetzt problemlos importiert werden.
@@ -408,7 +408,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Campaign-Daten in Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign erfasste Daten) auf das Adobe Experience Platform-Datenmodell (XDM) abbilden. </p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../developing/using/aep-about-data-connector.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html">Anleitungsvideo</a>.</p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-data-connector.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html">Anleitungsvideo</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Mit Audience Destinations können Sie Segmente von Adobe Experience Platform für Adobe Campaign freigeben.</p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../audiences/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">Anleitungsvideo</a>. </p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">Anleitungsvideo</a>. </p>
    </td> 
   </tr> 
  </tbody> 
