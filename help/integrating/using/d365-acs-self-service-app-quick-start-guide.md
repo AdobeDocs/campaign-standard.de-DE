@@ -6,10 +6,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -52,9 +52,9 @@ Anschließend können Sie mit der Verwendung des Integrations-Tools beginnen. Ge
 
 Öffnen Sie einen Browser und navigieren Sie zum Connector, der mit Ihrer Region verknüpft ist:
 
-* [Asien-Pazifik](http://d365-acs-ap.ea.adobe.com/)
-* [Europa, Naher Osten oder Afrika (EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [Nord- und Südamerika](http://d365-acs-na.ea.adobe.com/)
+* [Asien-Pazifik](https://d365-acs-ap.ea.adobe.com/)
+* [Europa, Naher Osten oder Afrika (EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [Nord- und Südamerika](https://d365-acs-am.ea.adobe.com/)
 
 ## Bestätigung der Datenschutzanfrage {#self-service-app-acknowledgement}
 
