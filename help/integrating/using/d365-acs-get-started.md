@@ -6,10 +6,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '842'
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ Drei Systeme müssen für diese Integration bereitgestellt und konfiguriert werd
 
 Support-Tickets können bei der Adobe-Kundenunterstützung erstellt werden.
 
-Bei Problemen mit dem Integrationsdatenfluss sollten Sie neben den folgenden Informationen auch die Report Suite als Teil der Problembeschreibung angeben:
+Bei Problemen mit Integrationsdatenflüssen sollten Sie die folgenden Informationen einschließen:
 
 * **Prozessverantwortlicher**: Technische Architekten
 * **ES-Prozess-ID**: Wurde während des Onboarding-Prozesses bereitgestellt
