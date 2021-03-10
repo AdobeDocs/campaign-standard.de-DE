@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Sicherheitsgruppen sind eine Gruppe von Benutzern, die innerhalb Ihres Unternehm
 
 Benutzer müssen stets einer Sicherheitsgruppe angehören. Dadurch können Sie Benutzern spezifische Rollen und Unternehmenseinheiten zuweisen.
 
-Weitere Informationen zu Rollen finden Sie in der Tabelle auf der folgenden Seite, welche Vorgänge je nach Rolle/Rolle des Benutzers verfügbar sind: [Adobe Campaign Standard-Genehmigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de).
+Die für die verschiedenen Benutzerrollen jeweils möglichen Aktionen sind in den Tabellen auf der folgenden Seite aufgeführt: [Berechtigungen in Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de).
 
 Standardmäßige Sicherheitsgruppen sind:
 
@@ -35,7 +35,7 @@ Standardmäßige Sicherheitsgruppen sind:
 
 >[!IMPORTANT]
 >
->Die Sicherheitsgruppen **[!UICONTROL Zugriff auf die Bereitstellungsparameter (Auslieferbarkeit)]** und **[!UICONTROL Message Center-Agenten (mcExec)]** sind nur interne Adoben und sollten keinem Benutzer zugewiesen werden.
+>Die Sicherheitsgruppen **[!UICONTROL Zugriff auf die Konfiguration der Zustellbarkeit (Deliverability)]** und **[!UICONTROL Message Center Agents (mcExec)]** sind Adobe vorbehalten und sollten nicht Benutzern zugewiesen werden.
 
 Um auf Adobe Campaign zugreifen zu können, muss jeder Benutzer einer Sicherheitsgruppe zugewiesen sein.
 
@@ -146,5 +146,5 @@ Ihre Benutzer sind jetzt einer Sicherheitsgruppe zugeordnet und können sich mit
 
 >[!IMPORTANT]
 >
->Wenn Benutzer aus einer Sicherheitsgruppe in der Admin-Konsole entfernt werden, bleiben sie Teil der Sicherheitsgruppe &quot;Adobe Campaign&quot;und können sich nicht mehr bei Adobe Campaign anmelden. Entfernen Sie in diesem Fall die E-Mail-Adressen der Benutzer aus der Admin Console, damit keine sensiblen Informationen an sie gesendet werden können.
+>Wenn Benutzer in der Admin Console aus einer Sicherheitsgruppe entfernt werden, sind sie weiterhin Mitglieder der Adobe Campaign-Sicherheitsgruppe, können sich aber nicht mehr in Adobe Campaign einloggen. Entfernen Sie in diesem Fall die E-Mail-Adressen der Benutzer aus der Admin Console, damit keine sensiblen Informationen an sie gesendet werden können.
 
