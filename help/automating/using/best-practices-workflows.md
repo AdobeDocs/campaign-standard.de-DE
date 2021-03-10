@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -108,11 +108,11 @@ Sie können die jeweils nächsten zehn Ausführungen Ihrer Workflows in der Vors
 
 ![](assets/preview_scheduler.png)
 
-Weiterführende Informationen dazu finden Sie in der [Planungsaktivität](../../automating/using/scheduler.md).
+Weiterführende Informationen dazu finden Sie unter [Planungsaktivität](../../automating/using/scheduler.md).
 
-Beim Entwerfen eines geplanten Workflows, der mehrere Aktivitäten umfasst, müssen Sie sicherstellen, dass der Workflow erst dann neu geplant wird, wenn er abgeschlossen ist. Dazu müssen Sie Ihren Workflow konfigurieren, um die Ausführung zu verhindern, wenn eine oder mehrere Aufgaben einer vorherigen Ausführung noch ausstehen. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../automating/using/scheduled-workflows-execution.md).
+Beim Entwerfen eines geplanten Workflows, der mehrere Aktivitäten umfasst, müssen Sie sicherstellen, dass der Workflow erst dann neu geplant wird, wenn er abgeschlossen ist. Dazu müssen Sie Ihren Workflow so konfigurieren, dass seine Ausführung verhindert wird, wenn eine oder mehrere Aufgaben einer vorherigen Ausführung noch ausstehen. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../automating/using/scheduled-workflows-execution.md).
 
-## Workflow mit Parametern abrufen{#workflow-with-parameters}
+## Workflow mit Parametern aufrufen{#workflow-with-parameters}
 
 Stellen Sie sicher, dass Name und Anzahl der Parameter mit der Definition beim Aufrufen des Workflows übereinstimmen (weitere Informationen finden Sie auf [dieser Seite](../../automating/using/defining-parameters-calling-workflow.md). Darüber hinaus müssen die Parametertypen den erwarteten Werten entsprechen.
 
