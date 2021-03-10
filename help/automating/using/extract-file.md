@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 
@@ -49,11 +49,11 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
    >
    >Sie können den Dateinamen mit der in diesem Feld befindlichen Funktion **[!UICONTROL formatDate]** spezifizieren.
 
-1. Wenn Sie möchten, können Sie die Ausgabedatei komprimieren, indem Sie **[!UICONTROL Komprimierung]** im Feld **[!UICONTROL Hinzufügen eine Nachbearbeitungsstufe]** auswählen. Die Ausgabedatei wird in eine GZIP-Datei (.gz) komprimiert.
+1. Sie können die Ausgabedatei bei Bedarf komprimieren, indem Sie im Feld **[!UICONTROL Nachbearbeitungsschritt hinzufügen]** die Option **[!UICONTROL Komprimierung]** auswählen. Die Ausgabedatei wird in eine GZIP-Datei (.gz) komprimiert.
 
-   Mit dem Feld **[!UICONTROL Hinzufügen einem Nachbearbeitungs-Schritt]** können Sie auch eine Datei verschlüsseln, bevor Sie sie extrahieren. Weitere Informationen zum Arbeiten mit verschlüsselten Dateien finden Sie in [diesem Abschnitt](../../automating/using/managing-encrypted-data.md)
+   Das Feld **[!UICONTROL Nachbearbeitungsschritt hinzufügen]** ermöglicht Ihnen auch, eine Datei zu verschlüsseln, bevor Sie sie extrahieren. Weitere Informationen zum Arbeiten mit verschlüsselten Dateien finden Sie in [diesem Abschnitt](../../automating/using/managing-encrypted-data.md)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Element]** erstellen, um eine Ausgabenspalte hinzuzufügen.
+1. Fügen Sie mithilfe der Schaltfläche **[!UICONTROL Element erstellen]** eine Ausgabespalte hinzu.
 
    ![](assets/wkf_data_export2.png)
 
