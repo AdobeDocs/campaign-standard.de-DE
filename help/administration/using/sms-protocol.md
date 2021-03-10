@@ -6,11 +6,11 @@ description: Erfahren Sie mehr über den SMS-Connector und dessen Konfiguration.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8665'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -478,7 +478,7 @@ Die Angabe von Kurzwahlnummern ist für zwei Funktionen hilfreich:
 
 * Die Vorschau zeigt die Kurzwahlnummer an, wenn keine Anrufernummer angegeben wurde. Es wird das tatsächliche Verhalten auf dem Mobiltelefon widergespiegelt.
 
-* Die Einstellung &quot;Blockierungsliste&quot;der Funktion für die automatische Antwort sendet nur für einen bestimmten Kurzcode an die Quarantäne des Benutzers.
+* Die Blockierungslisten-Einstellung der automatischen Antwortfunktion stellt Benutzer nur für die jeweilige Kurzwahlnummer unter Quarantäne.
 
 #### Anrufer-TON/-NPI, Empfänger-TON/-NPI {#ton-npi}
 
@@ -704,7 +704,7 @@ Diese Einstellung erlaubt nur das Hinzufügen einer TLV-Option pro Nachricht.
 
 ### Automatische Antwort auf MO        {#automatic-reply}
 
-Diese Funktion ermöglicht eine schnelle Antwort auf Text an MO und das Versenden von Code per Kurzcode an Blockierungsliste.
+Mit dieser Funktion können Sie schnell einen Antworttext an einen MO senden und das Senden an die Blockierungsliste durch Kurzwahlnummern handhaben.
 
 Die Spalten **Schlüsselwort** und **Kurzwahlnummer** definieren Bedingungen, um die automatische Antwort auszulösen. Wenn beide Felder übereinstimmen, wird der MO gesendet und die zusätzliche Aktion ausgelöst. Um einen Platzhalter festzulegen, sollten Sie das Feld leer lassen. Das Schlüsselwort wird mit dem ersten alphanumerischen Wort im MO-Text abgeglichen, wobei Interpunktion und führende Leerzeichen ignoriert werden. Das bedeutet, dass das Feld **Schlüsselwort** keine Leerzeichen enthalten darf und ein einzelnes Wort sein muss.
 
@@ -859,7 +859,7 @@ Vergewissern Sie sich, dass die `BIND_* PDUs` korrekt gesendet wurden. Am wichti
 
 Vergewissern Sie sich, dass nicht zu viele `BIND_* PDU`s vorhanden sind. Wenn es zu viele sind, kann das darauf hinweisen, dass die Verbindung instabil ist. Weitere Informationen finden Sie im Abschnitt [Probleme mit instabilen Verbindungen](../../administration/using/sms-protocol.md#issues-unstable-connection).
 
-#### INQUIRE_LINK {#enquire-link-pdus}
+#### ENQUIRE_LINK {#enquire-link-pdus}
 
 Vergewissern Sie sich, dass `ENQUIRE_LINK PDU`s regelmäßig ausgetauscht werden, wenn die Verbindung inaktiv ist.
 
