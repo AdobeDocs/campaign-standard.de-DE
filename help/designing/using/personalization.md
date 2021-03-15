@@ -6,11 +6,14 @@ description: Erfahren Sie, wie Sie eine E-Mail in Email Designer personalisieren
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: E-Mail-Design
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2715'
-ht-degree: 100%
+source-wordcount: '2720'
+ht-degree: 99%
 
 ---
 
