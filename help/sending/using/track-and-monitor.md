@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Erfahren Sie, wie Sie mit Adobe Campaign die gesendeten Nachrichten verfolgen und feststellen können, wie Ihre Empfänger auf Ihren Versand reagieren.
+feature: Zustellbarkeit
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 94%
 
 ---
 
