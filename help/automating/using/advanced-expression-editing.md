@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Workflows
+role: Datenarchitektur
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 100%
+source-wordcount: '1100'
+ht-degree: 99%
 
 ---
 
@@ -106,8 +109,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
    >[!NOTE]
-   >
-   >Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
+   Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
