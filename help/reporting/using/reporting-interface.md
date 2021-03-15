@@ -6,11 +6,14 @@ description: Hier erhalten Sie Informationen zur Benutzeroberfläche von dynamis
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: 'Reporting '
+role: Füllzeichen
+level: Anfänger
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '777'
+ht-degree: 99%
 
 ---
 
@@ -55,7 +58,7 @@ In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
 Über diese Tabs haben Sie Zugriff auf folgende Elemente:
 
-* **[!UICONTROL Bedienfelder]**: Fügt Ihrem Bericht ein leeres Bedienfeld oder eine Freiform hinzu, um Ihre Daten zu filtern. Weiterführende Informationen finden Sie im Abschnitt zum Hinzufügen von Bedienfeldern.
+* **[!UICONTROL Panels]**: Fügt Ihrem Bericht ein leeres Panel oder eine Freiform hinzu, um Ihre Daten zu filtern. Weiterführende Informationen finden Sie im Abschnitt zum Hinzufügen von Bedienfeldern.
 * **[!UICONTROL Visualisierungen]**: Legen Sie die gewünschten Visualisierungselemente ab, um Ihren Bericht grafisch aufzubereiten. Weiterführende Informationen finden Sie im Abschnitt zum Hinzufügen von Visualisierungen.
 * **[!UICONTROL Komponenten]**: Passen Sie Ihren Bericht mit unterschiedlichen Dimensionen, Metriken, Segmenten und Zeiträumen an.
 
