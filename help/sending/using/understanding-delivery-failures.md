@@ -6,11 +6,14 @@ description: Hier erfahren Sie, wie Sie Zustellprobleme in Campaign vermeiden k√
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: Zustellbarkeit
+role: Gesch√§ftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 100%
+source-wordcount: '1318'
+ht-degree: 99%
 
 ---
 
