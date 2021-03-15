@@ -6,11 +6,14 @@ description: Hier erfahren Sie Näheres zur E-Mail-Rendering-Funktion.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: Sendezeitoptimierung
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 99%
 
 ---
 
