@@ -6,11 +6,14 @@ description: Erfahren Sie, wie Sie E-Mails mit Adobe Campaign Standard unter Ver
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
+feature: Leistungsüberwachung
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 99%
 
 ---
 
