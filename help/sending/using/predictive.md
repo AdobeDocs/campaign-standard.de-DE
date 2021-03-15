@@ -6,11 +6,14 @@ description: Erfahren Sie, wie Sie die prädiktive Sendezeit und Interaktionsbew
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
+feature: Sendezeitoptimierung
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 100%
+source-wordcount: '1079'
+ht-degree: 99%
 
 ---
 
