@@ -6,11 +6,14 @@ description: Hier erfahren Sie mehr über die verschiedenen Methoden zur Anreich
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
+feature: Profile
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 99%
 
 ---
 
