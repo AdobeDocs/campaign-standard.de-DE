@@ -6,11 +6,13 @@ description: Erfahren Sie mehr über Anwendungsfälle, die Sie mit Workflows in 
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
+feature: Workflows
+role: Datenarchitektur
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 100%
+source-wordcount: '237'
+ht-degree: 99%
 
 ---
 
