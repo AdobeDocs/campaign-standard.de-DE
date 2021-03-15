@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 breadcrumb-title: Hilfe
 title: Campaign Standard – Handbuch
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -270,8 +270,8 @@ ht-degree: 99%
          + [Synchronisations-Workflows verwalten](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Daten zwischen Microsoft Dynamics 365 und Campaign mappen](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365-Integration verwenden](integrating/using/d365-acs-using-the-integration.md)
-   + Kampagne und Adobe Experience Platform {#adobe-experience-platform}
-      + Audience Destination Service {#audience-destinations}
+   + Campaign und Adobe Experience Platform {#adobe-experience-platform}
+      + Audience Destinations Service {#audience-destinations}
          + [Über den Audience Destinations-Dienst](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
          + [ Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
