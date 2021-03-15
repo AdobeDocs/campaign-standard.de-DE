@@ -6,11 +6,14 @@ description: Erfahren Sie, wie Sie in Email Designer die Betreffzeile und den Ab
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: E-Mail-Design
+role: Geschäftspraktiker
+level: Anfänger
 translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 98%
 
 ---
 
