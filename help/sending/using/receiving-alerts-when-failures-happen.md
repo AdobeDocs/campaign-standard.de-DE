@@ -6,11 +6,14 @@ description: Hier erfahren Sie, wie Versandwarnungen verwendet werden.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: Proofs
+role: Geschäftspraktiker
+level: Anfänger
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '2302'
+ht-degree: 99%
 
 ---
 
