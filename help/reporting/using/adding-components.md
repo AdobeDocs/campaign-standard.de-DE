@@ -6,11 +6,14 @@ description: Ziehen Sie Komponenten in Ihre Freiformtabelle, um Ihre Daten zu fi
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
+feature: 'Reporting '
+role: Füllzeichen
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +38,7 @@ Mit Komponenten können Sie Ihren Berichten unterschiedliche Dimensionen, Messwe
 
    * **Zeitraum**: Hier können Sie für Ihre Tabelle einen Zeitraum festlegen.
 
-1. Verschieben Sie Komponenten per Drag-and-Drop in ein Bedienfeld, um Ihre Daten zu filtern.
+1. Verschieben Sie Komponenten per Drag-and-Drop in ein Panel, um Ihre Daten zu filtern.
 
 Sie können beliebig viele Komponenten verschieben und miteinander vergleichen.
 
