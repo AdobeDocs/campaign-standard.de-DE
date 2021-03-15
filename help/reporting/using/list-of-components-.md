@@ -6,11 +6,14 @@ description: Hier finden Sie die Liste der in dynamischen Berichten enthaltenen 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: 'Reporting '
+role: Füllzeichen
+level: Anfänger
 translation-type: tm+mt
-source-git-commit: e129cde33b24831122433bd4b400204f38799b11
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 99%
 
 ---
 
