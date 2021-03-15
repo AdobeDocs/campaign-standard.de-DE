@@ -6,11 +6,14 @@ description: Hier erfahren Sie über die Möglichkeiten, mit Adobe Campaign Date
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
+feature: Workflows
+role: Datenarchitektur
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 99%
 
 ---
 
