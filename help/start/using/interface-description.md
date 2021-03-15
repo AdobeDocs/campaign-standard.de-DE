@@ -6,11 +6,14 @@ description: '"Hier erfahren Sie, wie der Adobe-Campaign-Arbeitsbereich – Star
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
-source-git-commit: 05a44f5baa66df70a57da9467baf71a953aed856
-workflow-type: ht
-source-wordcount: '1370'
-ht-degree: 100%
+feature: 'Übersicht  '
+role: Geschäftspraktiker
+level: Anfänger
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '1374'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +48,7 @@ Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnel
 * Die Karte **[!UICONTROL Profile]** bietet Zugriff auf die Liste aller in der Datenbank gespeicherten Kontakte und die Anzeige der jeden einzelnen Kontakt betreffenden Ereignisse. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
 * Die Karte **[!UICONTROL Audiences]** bietet Zugriff auf die Liste existierender Audiences. Von hier können Sie vorhandene Audiences abrufen und neue erstellen. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Audiences](../../audiences/using/about-audiences.md).
 
-## Symbolleiste            {#top-bar}
+## Symbolleiste             {#top-bar}
 
 Die Symbolleiste ist in jedem Bildschirm sichtbar und ermöglicht die Navigation durch die Funktionen von Adobe Campaign sowie den Zugriff auf die Benutzerdaten Ihres Adobe-Benutzerprofils, auf Benachrichtigungen, auf Adobe Experience Cloud-Lösungen sowie auf die Campaign-Dokumentation.
 
@@ -88,7 +91,7 @@ Verwenden Sie das **Adobe Campaign**-Symbol oben links im Bildschirm, um auf das
 
 Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen.
 
-### Marketingpläne            {#marketing-plans}
+### Marketingpläne             {#marketing-plans}
 
 Über das Symbol **[!UICONTROL Marketingpläne]** gelangen Sie zu folgenden Funktionen:
 
@@ -118,7 +121,7 @@ Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen
 
 Über das Symbol **[!UICONTROL Administration]** erhalten Sie Zugriff auf die erweiterten Funktionen, die nur vom funktionalen Administrator ausgeführt werden können. Weiterführende Informationen hierzu finden Sie im Abschnitt [Administration](../../administration/using/get-started-campaign-administration.md).
 
-## Zentraler Bereich            {#central-zone}
+## Zentraler Bereich             {#central-zone}
 
 Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamischen Zone, die beispielsweise eine Liste von Elementen oder diverse Karten enthält. Hier können die einzelnen Elemente bearbeitet oder neue Ressourcen erstellt werden.
 
@@ -146,7 +149,7 @@ Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs kann variieren:
 
    ![](assets/ux_workspace.png)
 
-## Symbolleiste            {#action-bar}
+## Symbolleiste             {#action-bar}
 
 Die im oberen Bildschirmbereich angezeigte Symbolleiste enthält für den aktuellen Bereich verfügbare Aktionsschaltflächen.
 
