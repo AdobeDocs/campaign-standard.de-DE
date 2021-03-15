@@ -6,11 +6,14 @@ description: Sie können auf einen eigenen Bericht mit Kundenmetriken zugreifen 
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: Profile
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 99%
 
 ---
 
