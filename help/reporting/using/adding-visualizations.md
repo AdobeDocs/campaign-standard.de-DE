@@ -6,11 +6,14 @@ description: Dynamische Berichte bieten mehrere Möglichkeiten von Visualisierun
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
+feature: 'Reporting '
+role: Füllzeichen
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '225'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +22,7 @@ ht-degree: 100%
 
 Im Tab **Visualisierungen** können Sie per Drag-and-Drop Visualisierungselemente wie Bereich, Kreis und Diagramm auswählen. Durch diese Elemente können Sie Ihre Daten unterschiedlich grafisch darstellen.
 
-1. Ziehen Sie im Tab **[!UICONTROL Visualisierungen]** ein Visualisierungselement in ein Bedienfeld.
+1. Ziehen Sie im Tab **[!UICONTROL Visualisierungen]** ein Visualisierungselement in ein Panel.
 
    ![](assets/dynamic_report_visualization_1.png)
 
