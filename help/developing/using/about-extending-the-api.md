@@ -6,11 +6,14 @@ description: Erfahren Sie, wie Sie für die benutzerdefinierten Ressourcenprofil
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: Datenmodell
+role: Entwickler
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 98%
 
 ---
 
