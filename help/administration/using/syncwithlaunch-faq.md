@@ -6,11 +6,14 @@ description: Häufig gestellte Fragen zum technischen Workflow für Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Instanzeinstellungen
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 99%
 
 ---
 
