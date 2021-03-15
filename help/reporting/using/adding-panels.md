@@ -6,40 +6,43 @@ description: Dynamische Berichte ermöglichen es Ihnen, ein Bedienfeld hinzuzuf�
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
+feature: 'Reporting '
+role: Füllzeichen
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 99%
 
 ---
 
 
-# Bedienfelder hinzufügen{#adding-panels}
+# Panels hinzufügen{#adding-panels}
 
 ## Leeres Bedienfeld hinzufügen {#adding-a-blank-panel}
 
 Um mit der Berichterstellung zu beginnen, fügen Sie einem vordefinierten oder benutzerdefinierten Bericht Bedienfelder hinzu. Jedes Bedienfeld enthält unterschiedliche Datensätze und besteht aus Freiformtabellen und Visualisierungen.
 
-In diesen Bedienfeldern können Sie nach Bedarf Ihre Berichte erstellen. Sie können beliebig viele Bedienfelder in Ihre Berichte einfügen, um Ihre Daten nach unterschiedlichen Zeiträumen zu filtern.
+In diesen Panels können Sie nach Bedarf Ihre Berichte erstellen. Sie können beliebig viele Panels in Ihre Berichte einfügen, um Ihre Daten nach unterschiedlichen Zeiträumen zu filtern.
 
-1. Klicken Sie auf das **Bedienfeldsymbol.** Sie können auch ein Bedienfeld hinzufügen, indem Sie das **Einfügen-Tab** und **Neues leeres Bedienfeld** auswählen.
+1. Klicken Sie auf das **Panel-Symbol**. Sie können auch ein Panel hinzufügen, indem Sie das **Einfügen-Tab** und **Neues leeres Panel** auswählen.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Ziehen Sie das **leere Bedienfeld** in Ihr Dashboard.
+1. Ziehen Sie das **leere Panel** in Ihr Dashboard.
 
    ![](assets/dynamic_report_panel.png)
 
-Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
+Dann können Sie eine Freiformtabelle in Ihr Panel einfügen, um mit der Datensuche zu beginnen.
 
-## Freiformtabelle hinzufügen         {#adding-a-freeform-table}
+## Freiformtabelle hinzufügen          {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **Komponente** analysiert werden.
 
 Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert und verschoben werden.
 
-1. Klicken Sie auf das **Bedienfeldsymbol**.
+1. Klicken Sie auf das **Panel-Symbol**.
 
    ![](assets/dynamic_report_panel_1.png)
 
