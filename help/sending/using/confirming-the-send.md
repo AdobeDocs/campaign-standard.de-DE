@@ -7,11 +7,14 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-translation-type: ht
-source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
-workflow-type: ht
-source-wordcount: '1021'
-ht-degree: 100%
+feature: Leistungsüberwachung
+role: Geschäftspraktiker
+level: Fortgeschr.
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 99%
 
 ---
 
@@ -134,9 +137,9 @@ Wenn vom erweiterten MTA Softbounces zurückgemeldet werden, ändert sich der St
 
 Die folgenden Tabellen zeigen die Änderungen der KPIs und Versandlog-Status, die durch die EFS-Funktion eingeführt wurden.
 
-**Mit E-Mail-Feedback-Service**
+**Mit Email Feedback Service**
 
-| Schritt im Sendeprozess | KPI-Zusammenfassung | Status der Versandlogs |
+| Schritt im Versandprozess | KPI-Zusammenfassung | Versandlogstatus |
 |--- |--- |--- |
 | Nachricht wird erfolgreich von Campaign an den Enhanced MTA weitergeleitet | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz beginnt bei 0 %</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz beginnt bei 0 %</li></ul> | Ausstehend |
 | Hardbounces werden vom erweiterten MTA zurückgemeldet. | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
@@ -144,12 +147,12 @@ Die folgenden Tabellen zeigen die Änderungen der KPIs und Versandlog-Status, di
 | Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, sind erfolgreich | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend erhöht</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend verringert</li></ul> | Gesendet |
 | Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, schlagen fehl | <ul><li> Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes </li><li> Keine Änderung des **[!UICONTROL Bounces + Fehler]**-Prozentsatzes </li></ul> | Fehlgeschlagen |
 
-**Ohne E-Mail-Feedback-Service**
+**Ohne Email Feedback Service**
 
-| Schritt im Sendeprozess | KPI-Zusammenfassung | Status der Versandlogs |
+| Schritt im Versandprozess | KPI-Zusammenfassung | Versandlogstatus |
 |--- |--- |--- |
-| Nachricht wird erfolgreich von Campaign an den erweiterten MTA weitergeleitet | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz beginnt bei 100 %</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz beginnt bei 0 %</li></ul> | Gesendet |
-| Hardbounces werden vom erweiterten MTA zurückgemeldet. | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend verringert</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
+| Nachricht wird erfolgreich von Campaign an den Enhanced MTA weitergeleitet | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz beginnt bei 100 %</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz beginnt bei 0 %</li></ul> | Gesendet |
+| Hardbounces werden vom Enhanced MTA zurückgemeldet. | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend verringert</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
 | Softbounces werden vom erweiterten MTA zurückgemeldet. | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>Keine Änderung des **[!UICONTROL Bounces + Fehler]**-Prozentsatzes</li></ul> | Gesendet |
 | Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, sind erfolgreich | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>Keine Änderung des **[!UICONTROL Bounces + Fehler]**-Prozentsatzes</li></ul> | Gesendet |
 | Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, schlagen fehl | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend verringert</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
