@@ -6,11 +6,14 @@ description: Erfahren Sie, wie Sie in Email Designer E-Mails mithilfe von Adobe 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: E-Mail-Design
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 99%
 
 ---
 
