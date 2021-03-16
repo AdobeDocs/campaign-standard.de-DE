@@ -10,9 +10,9 @@ feature: Instanzeinstellungen
 role: Administrator
 level: Erfahren
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '662'
 ht-degree: 99%
 
 ---
@@ -77,11 +77,6 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
    <td> <span class="uicontrol">KPI-Abstimmung mit Adobe Analytics</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> Dieser Workflow ruft die KPI-Daten einmal täglich vom Reporting-Dienst ab und stimmt sie mit den Daten in Adobe Analytics ab. Danach wird die Differenz bei Bedarf übertragen. Er wird standardmäßig täglich um 4.20 Uhr gestartet.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NMAC-Opt-outs</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Dieser Workflow aktualisiert die Abmeldungen von Benachrichtigungen auf Mobile-Geräten. Er wird standardmäßig alle sechs Stunden zwischen 1 Uhr und Mitternacht gestartet.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Message Center Lokale Archivierung</span> <br /> </td> 
