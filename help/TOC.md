@@ -7,10 +7,10 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '1751'
-ht-degree: 100%
+source-wordcount: '1754'
+ht-degree: 99%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 100%
       + [Datenschutzverwaltung](start/using/privacy-management.md)
       + [Datenschutzanfragen](start/using/privacy-requests.md)
       + [Häufig gestellte Fragen zum Datenschutz](start/using/privacy-faq.md)
+   + [Hilfe- und Supportoptionen](support.md)
 + Profile und Audiences {#profiles-and-audiences}
    + [Erste Schritte mit Profilen und Audiences](audiences/using/get-started-profiles-and-audiences.md)
    + Profile verwalten {#managing-profiles}
