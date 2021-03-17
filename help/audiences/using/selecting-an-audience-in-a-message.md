@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Audiences können im Zuge der Nachrichtenerstellung im Assistenten oder im Nachh
 
 1. Definieren Sie die **[!UICONTROL Hauptzielgruppe]** der E-Mail. Dies ist die tatsächliche Ziel-Audience der E-Mail.
 
-   Im Tab **[!UICONTROL Zielgruppe]** werden aus den identifizierten Profilen der Datenbank diejenigen ausgewählt, die den Versand erhalten sollen. Dies kann beispielsweise unter Verwendung des [Abfrageeditors](../../automating/using/editing-queries.md#creating-queries) geschehen.
+   Die Zielgruppe wird auf der Registerkarte **[!UICONTROL Zielgruppe]** definiert und setzt sich aus identifizierten Profilen aus Ihrer Datenbank zusammen. Dies kann beispielsweise unter Verwendung des [Abfrageeditors](../../automating/using/editing-queries.md#creating-queries) geschehen.
 
    Wenn Sie sich im Zielgruppe-Tab befinden, zeigt die Palette der **[!UICONTROL Schnellzugriffe]** nur vordefinierte Filter und Audiences, die sich auf identifizierte Profile beziehen. Der **[!UICONTROL Explorer]**-Tab bietet Zugriff auf fortgeschrittene Konfigurationen.
 
@@ -50,7 +50,7 @@ Audiences können im Zuge der Nachrichtenerstellung im Assistenten oder im Nachh
 
    >[!NOTE]
    >
-   >Beachten Sie beim Targeting einer Audience, dass die Definition der Audience nicht referenziert wird, sondern **in die Abfrage kopiert wird.** Wenn Sie Änderungen an der Audience vornehmen, nachdem sie in einer Abfrage als Ziel ausgewählt wurde, stellen Sie sicher, dass Sie die Abfrage erneut konfigurieren, um die neue Definition zu berücksichtigen.
+   >Beachten Sie beim Targeting einer Audience, dass die Definition der Audience nicht referenziert wird, sondern in die Abfrage **kopiert** wird. Wenn Sie Änderungen an der Audience vornehmen, nachdem sie in einer Abfrage als Ziel ausgewählt wurde, stellen Sie sicher, dass Sie die Abfrage erneut konfigurieren, um die neue Definition zu berücksichtigen.
 
 1. Definieren Sie die **[!UICONTROL Testprofile]**, die Sie für die E-Mail verwenden möchten. Die Testprofile erhalten Testsendungen, die Sie probeweise senden können, bevor Sie die endgültige E-Mail an die Hauptzielgruppe senden.
 
