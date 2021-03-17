@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ Drei Systeme müssen für diese Integration bereitgestellt und konfiguriert werd
 
 Support-Tickets können bei der Adobe-Kundenunterstützung erstellt werden.
 
-Bei Problemen mit Integrationsdatenflüssen sollten Sie die folgenden Informationen einschließen:
+Bei Problemen mit Integrationsdatenflüssen sollten Sie die folgenden Informationen angeben:
 
 * **Prozessverantwortlicher**: Technische Architekten
 * **ES-Prozess-ID**: Wurde während des Onboarding-Prozesses bereitgestellt
