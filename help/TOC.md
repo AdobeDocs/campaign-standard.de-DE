@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
-translation-type: ht
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
-workflow-type: ht
-source-wordcount: '1754'
+translation-type: tm+mt
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+workflow-type: tm+mt
+source-wordcount: '1743'
 ht-degree: 100%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 100%
       + [Funktionsweise der Quarantäneverwaltung](sending/using/understanding-quarantine-management.md)
    + Verwalten der Zustellbarkeit {#managing-deliverability}
       + [Über die Zustellbarkeit](sending/using/about-deliverability.md)
-      + [Einrichten einer neuen Plattform](sending/using/starting-new-platform.md)
       + [Kontrollieren von E-Mail-Inhalten](sending/using/control-email-content.md)
-      + [Verbessern Ihres Rufs](sending/using/improving-reputation.md)
-      + [IP-Zertifizierung](sending/using/ip-certification.md)
-      + [Technische Empfehlungen](sending/using/technical-recommendations.md)
       + [Zustellbarkeit überwachen](sending/using/monitor-deliverability.md)
       + [Fehlerbehebung](sending/using/troubleshooting.md)
    + Arbeiten mit Typologieregeln {#working-with-typology-rules}
