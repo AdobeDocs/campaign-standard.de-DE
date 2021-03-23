@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
 role: Datenarchitektur
-level: Fortgeschr.
+level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 99%
+source-wordcount: '525'
+ht-degree: 87%
 
 ---
 
@@ -41,9 +41,12 @@ Die Integration unterstützt zwei Typen von Adobe Experience Cloud-Kennungen:
 * **Declared ID**: Dieser Kennungstyp ermöglicht die Abstimmung beliebiger Datentypen mit Elementen der Adobe Campaign-Datenbank. Sie wird in Adobe Campaign als vordefinierter Abstimmschlüssel dargestellt. Beim Datenaustausch werden die Kennungen der Adobe Campaign-Datenbank verschlüsselt übertragen. Die verschlüsselten Kennungen werden mit den verschlüsselten Kennungen der importierten oder exportierten Adobe Marketing Cloud-Zielgruppe verglichen.
    <br>Diese Integration unterstützt reguläre Declared IDs, Declared IDs mit Hash-Kennung und verschlüsselte Declared IDs.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Declared ID funktioniert nur mit Adobe Audience Manager. Declared ID funktioniert nicht ohne Adobe Audience Manager.
+   >Deklarierte ID-Datenquelle kann jetzt auch mit der Integration des Hauptdienstes People verwendet werden.
+   >
+   >Wenn Sie die Integration des Hauptdiensts People verwenden und die Integration des Audience Managers hinzufügen möchten, benötigen Sie die Hilfe eines Adobe Audience Manager-Beraters, um zu vermeiden, dass alle beim Übergang zur Verwendung dieser deklarierten ID-Datenquelle in einem Adobe Audience Manager-Kontext erfassten ID-Synchronisierungen verloren gehen.
+
 
    Durch die Sicherheitsfunktion können verschlüsselte Daten in Datenquellen (z. B. PII) unter Verwendung der Declared ID und der Spezifikation des Verschlüsselungsalgorithmus freigegeben werden.
 
