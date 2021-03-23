@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 feature: Hilfe- und Supportoptionen
-role: Geschäftspraktiker
+role: Business Practitioner
 level: Anfänger
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 63%
+source-wordcount: '568'
+ht-degree: 64%
 
 ---
 
@@ -37,42 +37,50 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
 
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### Themen Fragen und Antworten
-
-Eine Reihe spezifischer Fragen und Antworten nach Themen:
-
-* [Zustellbarkeit](sending/using/monitor-deliverability.md)
-* [InApp- und Push-Benachrichtigungen](administration/using/aep-faq.md)
-* [Email Designer](designing/using/faq-email-designer.md)
-
-### Allgemeine Probleme
-
-* [Umgang mit Fehlern in Workflows](automating/using/monitoring-workflow-execution.md#error-management)
-* [Fehlerbehebung bei der Workflow-Ausführung](automating/using/best-practices-workflows.md)
-* [Fehlerbehebung bei APIs](api/using/troubleshooting.md)
-* [Fehlgeschlagene Sendungen](sending/using/understanding-delivery-failures.md)
-
-### Best Practices
-
-* [Best Practices bei Workflows](automating/using/best-practices-workflows.md)
-* [Workflow-Monitoring](automating/using/about-workflow-execution.md)
-* [Tracking-Verwaltung](sending/using/tracking-messages.md)
-* [Best Practices für die Zustellbarkeit](sending/using/about-deliverability.md)
-* [Importieren von Daten mit Workflows](automating/using/creating-import-workflow-templates.md)
-* [Zeitzonenverwaltung](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [Empfang von Warnungen bei Problemen](sending/using/receiving-alerts-when-failures-happen.md)
-* [Importieren oder Konvertieren von E-Mail-Inhalten](designing/using/using-existing-content.md)
-* [Best Practices beim Versand](sending/using/delivery-best-practices.md)
-
-### Anleitung
-
-* [Upgrade auf eine neue Version](rn/using/release-planning.md)
-* [Überwachen von Sendungen](sending/using/monitoring-a-delivery.md)
-* [Funktionsweise der Quarantäneverwaltung](sending/using/understanding-quarantine-management.md)
-* [Verwaltung von Datenschutz und Einverständniserklärungen](start/using/privacy-management.md)
-* [Erstellen einer Abfrage](automating/using/query.md)
-* [Beispiele für Abfragen](automating/using/query-samples.md)
-* [Konfigurieren von Mobile-Kanälen](https://helpx.adobe.com/campaiacs-mobile.html)
+<table>
+    <tr><td><strong>Themen Fragen und Antworten</strong></td><td><strong>Allgemeine Probleme</strong></td><td><strong>Best Practices</strong></td><td><strong>Anleitung</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="sending/using/monitor-deliverability.md">Zustellbarkeit</a></li>
+        <li><a href="administration/using/aep-faq.md">InApp- und Push-Benachrichtigungen</a></li>
+        <li><a href="designing/using/faq-email-designer.md">Email Designer </a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Umgang mit Fehlern in Workflows</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Fehlerbehebung bei der Workflow-Ausführung</a></li>
+        <li><a href="api/using/troubleshooting.md">API-Fehlerbehebung</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Verstehen Sie Versand-Fehler.</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="automating/using/best-practices-workflows.md">Best Practices bei Workflows</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">Workflow-Monitoring</a></li>
+        <li><a href="sending/using/tracking-messages.md">Tracking-Verwaltung</a></li>
+        <li><a href="sending/using/about-deliverability.md">Best Practices für die Zustellbarkeit</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">Importieren von Daten mit Workflows</a></li>
+        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Zeitzonenverwaltung</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Empfang von Warnungen bei Problemen</a></li>
+        <li><a href="designing/using/using-existing-content.md">Importieren oder Konvertieren von E-Mail-Inhalten</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Best Practices beim Versand</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="rn/using/release-planning.md">Upgrade auf eine neue Version</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">Überwachen von Sendungen</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">Funktionsweise der Quarantäneverwaltung</a></li>
+        <li><a href="start/using/privacy-management.md">Verwaltung von Datenschutz und Einverständniserklärungen</a></li>
+        <li><a href="automating/using/query.md">Erstellen einer Abfrage</a></li>
+        <li><a href="automating/using/query-samples.md">Beispiele für Abfragen</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Konfigurieren von Mobile-Kanälen</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Kampagne-Systemsteuerung
 
@@ -115,9 +123,7 @@ Treten Sie der Campaign Classic-Community bei: Suchen Sie nach Antworten in vorh
 
 ### Erstellen Sie ein Ticket oder starten Sie einen Chat
 
-Durch das Erstellen eines Tickets können Sie sich an das Adobe-Supportteam wenden, wenn Probleme mit Ihren Adobe-Produkten auftreten.
-
-Sie können in der Adobe Admin Console mit dem Adobe-Support chatten, um Ihre Probleme zu lösen.
+Durch das Erstellen eines Tickets können Sie sich an das Adobe-Supportteam wenden, wenn Probleme mit Ihren Adobe-Produkten auftreten. Sie können in der Adobe Admin Console mit dem Adobe-Support chatten, um Ihre Probleme zu lösen.
 
 Um ein Problem zu protokollieren oder eine Chat-Sitzung in diesem neuen System zu Beginn zu führen, stellen Sie eine Verbindung zu [Adobe Admin Console](https://adminconsole.adobe.com/overview) her.
 
