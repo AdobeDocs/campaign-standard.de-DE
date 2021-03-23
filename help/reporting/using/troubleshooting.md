@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: troubleshooting
 feature: 'Reporting '
 role: Füllzeichen
-level: Fortgeschr.
+level: Fortgeschrittene
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '690'
 ht-degree: 99%
 
 ---
@@ -65,21 +65,27 @@ Dies ergibt die folgende Tabelle:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Tag</strong> <br /> </th> 
+   <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>Öffnungen</strong> <br /> </th> 
    <th align="center"> <strong>Einzelöffnungen</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
+   <td align="center"> <strong> Day </strong><br /> </td> 
+   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 2</strong><br /> </td>
+  </tr> 
+  <tr>
+  <tr> 
    <td align="center"> Tag 1<br /> </td> 
-   <td align="center"> 6<br /> </td> 
+   <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
    <td align="center"> Tag 2<br /> </td> 
    <td align="center"> 3<br /> </td> 
-   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
   </tr> 
  </tbody> 
 </table>
