@@ -8,13 +8,13 @@ topic-tags: deliveries-best-practices
 index: y
 description: Erfahren Sie, wie Sie den sendenden Prozess im Upstream-Prozess sichern und optimieren können.
 feature: Zustellbarkeit
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Sie müssen die Zustellbarkeitsrate Ihrer Nachrichten steigern, damit Ihre Nachr
 
    * Konzentrieren Sie sich bei der Zustellbarkeit Ihrer E-Mail auf vier Hauptkategorien: Datenqualität, Nachricht und Inhalt, Versandinfrastruktur und Reputation. Detailliertere Informationen zu diesem Thema finden Sie in [diesem Abschnitt](../../sending/using/about-deliverability.md).
 
-* Wenden Sie beim Starten einer neuen Plattform die [auf dieser Seite](../../sending/using/starting-new-platform.md) näher ausgeführten Empfehlungen an.
+* Wenden Sie beim Starten einer neuen Plattform die auf [dieser Seite](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process) detaillierten Empfehlungen an.
 
 * Setzen Sie sich mit Ihrem Adobe-Support-Mitarbeiter in Verbindung, wenn Sie Hilfe benötigen.
 
