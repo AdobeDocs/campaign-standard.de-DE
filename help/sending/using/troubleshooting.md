@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Zustellbarkeit
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschrittene
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '480'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ Wenn das Problem fortbesteht, kontaktieren Sie den Zustellbarkeitsservice oder d
 
 * **Was ist der Unterschied zwischen einer E-Mail-Adresse auf einer Blockierungsliste und einer E-Mail-Adresse in Quarantäne?**
 
-   * Der Status **[!UICONTROL Auf Blockierungsliste]** ist das Ergebnis eines Feedback-Loops (wenn ein Empfänger eine E-Mail als Spam meldet).
+   * Der Status **[!UICONTROL Auf Blockierungsliste]** ist das Ergebnis einer [Feedback-Schleife](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (wenn eine Person eine Nachricht als Spam meldet).
 
    * Der Status **[!UICONTROL In Quarantäne]** ist das Ergebnis eines Soft- oder Hardbounce.
    Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
