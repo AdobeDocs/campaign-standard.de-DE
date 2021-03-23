@@ -8,13 +8,13 @@ topic-tags: deliveries-best-practices
 index: y
 description: Lernen Sie Best Practices im Zusammenhang mit der Versandgestaltung und dem Versand mit Adobe Campaign kennen.
 feature: Zustellbarkeit
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Lernen Sie Best Practices im Zusammenhang mit der Versandgestaltung und dem Vers
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Inhalt personalisieren](optimize-delivery.md)** – Korrekte Einstellungen anwenden
+**[Inhalt personalisieren](design-and-personalize.md)** – Korrekte Einstellungen anwenden
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
