@@ -7,13 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: Zustellbarkeit
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 99%
+source-wordcount: '1368'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ Nachrichten können während der Versandvorbereitung auch ausgeschlossen werden,
 
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 * [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Fehlgeschlagene Sendungen für eine Nachricht identifizieren          {#identifying-delivery-failures-for-a-message}
 
@@ -75,7 +76,12 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 | **[!UICONTROL Text zu lang]** | Ignoriert | Die Zeichenanzahl der SMS-Nachricht übersteigt das Limit. Weiterführende Informationen dazu finden Sie im Abschnitt [Kodierung, Länge und Tansliteration von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Zeichen wird in der Kodierung nicht unterstützt]** | Ignoriert | Die SMS-Nachricht enthält ein oder mehrere Zeichen, die von der Kodierung nicht unterstützt werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Zeichensatztabelle - GSM-Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
-## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand           {#retries-after-a-delivery-temporary-failure}
+
+**Verwandte Themen:**
+* [Hardbounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Softbounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
+## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand    {#retries-after-a-delivery-temporary-failure}
 
 Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
@@ -91,13 +97,12 @@ Um die Dauer eines Versands zu ändern, gehen Sie zu den erweiterten Parametern 
 
 Wenn Sie beispielsweise möchten, dass weitere Zustellversuche für einen Versand nach einem Tag gestoppt werden, können Sie die Versandlaufzeit mit **1d** festlegen. Die Nachrichten in der Wiederholungswarteschlange werden daraufhin nach einem Tag entfernt.
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >Nachdem eine Nachricht maximal 3,5 Tage lang in der Wiederholungswarteschlange war und nicht gesendet werden konnte, wird sie mit einer Zeitüberschreitung beendet. Ihr Status wird <!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Fehlgeschlagen]** geändert (in den [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs)).
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Synchrone und asynchrone Fehler   {#synchronous-and-asynchronous-errors}
 
@@ -114,9 +119,13 @@ Bei Fehlermeldungen zu synchronen Versandfehlern bestimmt der erweiterte MTA (Me
 >
 >Bounce-Qualifizierungen in der Tabelle **[!UICONTROL Nachrichtenqualifizierung]** von Campaign werden nicht mehr verwendet.
 
-Asynchrone Bounces werden weiterhin durch den InMail-Prozess mittels der Regeln für **[!UICONTROL Eingehende E-Mail]** qualifiziert. Der Zugriff auf diese Regeln erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Wählen Sie dann **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** und anschließend **[!UICONTROL Bounce Messages]**. Weiterführende Informationen zu dieser Regel finden Sie in diesem [Abschnitt](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchrone Bounces werden weiterhin durch den InMail-Prozess mittels der Regeln für **[!UICONTROL Eingehende E-Mail]** qualifiziert. Der Zugriff auf diese Regeln erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Wählen Sie dann **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** und anschließend **[!UICONTROL Bounce Messages]**. Weitere Informationen zu dieser Regel finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-<!--Bounces can have the following qualification statuses:
+Weitere Informationen zu Absprüngen und den verschiedenen Absprüngen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
