@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 feature: Übersicht
 role: Business Practitioner
 level: Anfänger
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
+workflow-type: tm+mt
 source-wordcount: '2482'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 <li>Die Berechnung des <b>Zugestellt</b>-Indikators basiert nun auf Echtzeit-Feedback des erweiterten MTA, um Genauigkeit und Reaktivität zu verbessern.</li>
 <li>EFS löst das Problem der Verzögerungen beim Reporting zu synchronen Bounces.</li>
 </ul>
-<p>Weitere Informationen finden Sie im <a href="../../sending/using/confirming-the-send.md#message-indicators">entsprechenden Handbuch</a>.
+<p>Weitere Informationen finden Sie im <a href="../../sending/using/confirming-the-send.md">entsprechenden Handbuch</a>.
 </p>
 </td> 
 </tr> 
