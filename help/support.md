@@ -11,10 +11,10 @@ feature: Hilfe- und Supportoptionen
 role: Business Practitioner
 level: Anfänger
 translation-type: tm+mt
-source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 64%
+source-wordcount: '593'
+ht-degree: 60%
 
 ---
 
@@ -44,7 +44,7 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
         <ul>
         <li><a href="sending/using/monitor-deliverability.md">Zustellbarkeit</a></li>
         <li><a href="administration/using/aep-faq.md">InApp- und Push-Benachrichtigungen</a></li>
-        <li><a href="designing/using/faq-email-designer.md">Email Designer </a></li>
+        <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -91,9 +91,13 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
 Das Control Panel ermöglicht Produktadministratoren von Adobe Campaign Standard effizienteres Arbeiten. Sie können damit die Einstellungen aller Instanzen verwalten und deren Nutzung erfassen.
 [Klicken Sie ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) hier für weitere Informationen.
 
+>[!NOTE]
+>
+>Die Systemsteuerung steht allen Administratoren zur Verfügung. Die Schritte zum Gewähren des Administratorzugriffs für einen Benutzer sind in [dieser Seite](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel) beschrieben.
+
 ### Zugriff auf das Control Panel
 
- Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. Es steht nur Administratoren zur Verfügung. [Klicken Sie ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) hier für weitere Informationen.
+ Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken Sie ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) hier für weitere Informationen.
 
 ### Control Panel – Häufig gestellte Fragen
 
@@ -115,7 +119,7 @@ Sie können Ihre Subdomänen und ihre Zertifikate überwachen. Mehr dazu:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Das neue Ticketing-System wurde durch [Adobe Admin Console](https://adminconsole.adobe.com/overview) ersetzt. Das neue System erfordert für jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie feststellen, dass Sie sich nicht mit Ihrer Adobe ID anmelden können, fordern Sie über Experience League Zugriff an. Das Team der Kundenunterstützung wird den Zugriff so schnell wie möglich einrichten. [Mehr dazu](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Das neue Ticketing-System wurde durch [Adobe Admin Console](https://adminconsole.adobe.com/overview) ersetzt. Das neue System erfordert für jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie feststellen, dass Sie sich nicht mit Ihrer Adobe ID anmelden können, fordern Sie über Experience League Zugriff an. Das Team der Kundenunterstützung wird den Zugriff so schnell wie möglich einrichten. [Weitere Infos](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Fragen an Experten
 
