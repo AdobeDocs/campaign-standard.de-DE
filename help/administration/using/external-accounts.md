@@ -11,10 +11,10 @@ feature: Instanzeinstellungen
 role: Administrator
 level: Erfahren
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 99%
+source-wordcount: '1836'
+ht-degree: 98%
 
 ---
 
@@ -91,9 +91,7 @@ SFTP-Server können über das Control Panel verwaltet werden. Weitere Informatio
 
 >[!NOTE]
 >
->Das Control Panel ist nur für Admin-Benutzer von Kunden verfügbar, die auf AWS gehostet werden.
->
->Überprüfen Sie [hier](https://docs.adobe.com/content/help/de-DE/control-panel/using/faq.html#ims-org-id), ob Ihre Instanz auf AWS gehostet wird.
+>Die Systemsteuerung steht allen Administratoren zur Verfügung. Die Schritte zum Gewähren des Administratorzugriffs für einen Benutzer sind in [dieser Seite](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel) beschrieben.
 
 ## OAuth 2.0-Konto {#oauth-account}
 
