@@ -7,13 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 feature: Profile
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 99%
+source-wordcount: '316'
+ht-degree: 91%
 
 ---
 
@@ -26,10 +26,9 @@ Adobe Campaign erstellt einen Bericht, in dem die Anzahl der aktiven Profile dar
 
 >[!NOTE]
 >
->Wenn Sie auf AWS gehostet werden und Campaign Standard aus Build 10368 verwenden, können Sie die Anzahl der in Ihren Instanzen verwendeten aktiven Profile auch direkt im Control Panel überwachen. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Wenn Sie Campaign Standard aus Build 10368 verwenden, können Sie auch die Anzahl der aktiven Profil, die auf Ihren Instanzen verwendet werden, direkt über die Systemsteuerung überwachen. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >Beachten Sie, dass die Metrik der aktiven Profile nur für **Marketing-Instanzen** verfügbar und relevant ist. Sie ist für Ausführungsinstanzen, d. h. MID (Mid-Sourcing)- und RT (Message Center-/Echtzeit-Messaging)-Instanzen, weder anwendbar noch verfügbar.
-
 
 Die Profile, die während der Versandvorbereitung ausgeschlossen wurden (Typologieregeln, Quarantänen, Kontrollgruppen), werden nicht berücksichtigt. Ein Profil, das mehrere Sendungen erhalten hat, wird nur einmal gezählt. Am Ende des Berichts finden Sie die Liste der aktiven Profile für jede Zielgruppendimension.
 
