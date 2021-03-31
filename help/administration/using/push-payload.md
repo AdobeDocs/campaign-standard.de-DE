@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instanzeinstellungen
+feature: Instanzeneinstellungen
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1152'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -211,9 +211,9 @@ Informationen zu Aspekten einer Android-Payload finden Sie unter [Messaging Conc
 |:-:|:-:|:-:|:-:|
 | Nachrichtentitel <br>Nachrichtentext | alert → title <br> alert → body | title <br>body | Diese Daten enthalten Details zur Warnmeldung.<br>Die Titel- und Textschlüssel geben den Inhalt der Warnung wieder. |
 | Ton abspielen | sound | sound | Ein benutzerdefinierter Ton, der mit der Warnung wiedergegeben wird. |
-| Badge-Wert | badge | Abzeichen | Ein ganzzahliger Wert, der als Badge für das Symbol der App verwendet wird. |
+| Badge-Wert | badge | badge | Ein ganzzahliger Wert, der als Badge für das Symbol der App verwendet wird. |
 | Deeplink hinzufügen  | uri | Nicht zutreffend | Mit einem Deeplink gelangen Benutzer direkt zu Inhalten, die in der Anwendung enthalten sind (anstatt eine Webseite zu öffnen). |
-| Kategorie | category | Kategorie | So zeigen Sie benutzerdefinierte Aktionen mit einer Remote-Benachrichtigung an. <br>Mit der Kategorietaste kann das System die Aktionen für diese Kategorie als Schaltflächen in der Warnoberfläche anzeigen. |
+| Kategorie | category | category | So zeigen Sie benutzerdefinierte Aktionen mit einer Remote-Benachrichtigung an. <br>Mit der Kategorietaste kann das System die Aktionen für diese Kategorie als Schaltflächen in der Warnoberfläche anzeigen. |
 | Benutzerdefinierte Felder | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Alle benutzerdefinierten Daten, die Sie an Ihre App senden möchten. |
 | URL für Rich-Media-Daten (Bild-, GIF-, Audio- und Videodateien)<br>(nur bei iOS 10 oder höher) | media-attachment-url | Nicht zutreffend | URL Ihrer Mediendateien, um Ihrer Benachrichtigung Rich-Inhalte hinzuzufügen. <br>Wenn Sie einen Wert für diese URL angeben, wird das Flag für veränderliche Inhalte (mutable-content) automatisch in die Payload gesendet. <br> (nur bei iOS 10 oder höher) |
 | Veränderliche Inhalte <br> (nur bei iOS 10 oder höher) | mutable-content | Nicht zutreffend | Die Notification Service-Erweiterung in Ihrer App &quot;erfasst&quot; alle Remote-Benachrichtigungen mit dem Schlüssel &quot;mutable-content&quot; und ermöglicht Ihnen die Verarbeitung/Bearbeitung des Inhalts der Anfrage-Payload, der dann zum Anpassen der Benachrichtigung verwendet werden kann. Anwendungsbeispiele für diese Funktion sind das Herunterladen und Anzeigen mehrerer Medien, wobei alle in der Push-Payload vorhandenen verschlüsselten Daten entschlüsselt werden. Weiterführende Informationen finden Sie unter [Payload einer Remote-Benachrichtigung ändern](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(nur bei iOS 10 oder höher) |
