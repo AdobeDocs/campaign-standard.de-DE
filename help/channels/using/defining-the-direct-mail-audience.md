@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 feature: Briefpost
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können die Audience entweder im Erstellungsassistenten oder durch Klicken i
 
 ![](assets/direct_mail_15.png)
 
-## Hauptzielgruppe definieren      {#defining-the-main-target}
+## Hauptzielgruppe definieren       {#defining-the-main-target}
 
 Bei Briefpost werden die Zielgruppenprofile in die Extraktionsdatei eingefügt, die Sie an Ihren Briefpost-Dienstleister senden.
 
