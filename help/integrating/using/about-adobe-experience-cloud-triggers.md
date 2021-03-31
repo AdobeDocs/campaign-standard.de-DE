@@ -7,14 +7,14 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: Triggers
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Trigger
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Im folgenden Diagramm wird beschrieben, wie diese Integration funktioniert.
 * Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) an.
 * Erfahren Sie mehr in unseren zwei [Anwendungsbeispiele zu Triggern für die abgebrochene Suche](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Die Verwendung von Triggers  {#triggers-user-process}
+## Die Verwendung von Triggers   {#triggers-user-process}
 
 >[!CAUTION]
 >
