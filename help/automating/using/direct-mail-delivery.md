@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
 feature: Workflows
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Mit der Aktivität **[!UICONTROL Briefpostversand]** können Sie eine Datei mit 
 * **Standardmäßig** wird Briefpost einmal gesendet.
 * **Wiederkehrende** Versandaktionen ermöglichen den wiederholten Versand der gleichen Briefpost an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
-## Anwendungskontext         {#context-of-use}
+## Anwendungskontext          {#context-of-use}
 
 Die Aktivität **[!UICONTROL Briefpostversand]** wird normalerweise verwendet, um automatisch eine Datei vorzubereiten, die Profildaten enthält. Diese Datei kann anschließend an einen Partner/Dienstleister gesendet werden, der für den eigentlichen Versand zuständig ist.
 
