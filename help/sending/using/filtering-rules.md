@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 feature: Typologieregeln
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Auf diese Weise soll das Hinzufügen zur Blockierungsliste aufgrund von schädli
 >
 >Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandanalyse-Logs wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
-## Filterregel erstellen        {#creating-a-filtering-rule}
+## Filterregel erstellen         {#creating-a-filtering-rule}
 
 Sie können entsprechend Ihren Anforderungen eigene Filterregeln erstellen. Sie können beispielsweise die Zielpopulation von Newslettern so filtern, dass Abonnenten unter 18 Jahren keine Nachricht erhalten.
 
