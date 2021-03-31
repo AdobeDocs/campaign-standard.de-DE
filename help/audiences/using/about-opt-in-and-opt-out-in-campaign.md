@@ -6,14 +6,14 @@ description: Opt-out eines Profils führt dazu, dass keinerlei Nachrichten mehr 
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: 'Audiences  '
-role: Geschäftspraktiker
+feature: Audiences
+role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
