@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
-role: Datenarchitektur
+role: Data Architect
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Die einzelnen Elemente der Export- oder Importliste werden standardmäßig in ab
 
 Klicken Sie zur Anzeige und Bearbeitung des Inhalts eines Elements auf dessen Titel. Lesen Sie diesbezüglich auch die Abschnitte [Package exportieren](#exporting-a-package) und [Package importieren](#importing-a-package).
 
-## Package-Exporte     {#package-exports}
+## Package-Exporte      {#package-exports}
 
 ### Standard-Packages {#standard-packages}
 
