@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 feature: Push-Benachrichtigung
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1560'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Benutzer werden durch den Ton auf den Empfang einer Push-Benachrichtigung hingew
 
 Der Benutzer erhält die Push-Benachrichtigung und den Ton nur, wenn sein Telefon nicht stummgeschaltet ist.
 
-## Badge-Wert aktualisieren       {#refresh-the-badge-value}
+## Badge-Wert aktualisieren        {#refresh-the-badge-value}
 
 Mit einem Badge wird die Anzahl der neuen ungelesenen Nachrichten direkt auf dem App-Symbol angezeigt. Der Badge-Wert verschwindet, sobald der Benutzer den neuen Inhalt in der Anwendung öffnet oder liest.
 
