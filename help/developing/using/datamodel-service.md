@@ -8,11 +8,11 @@ content-type: reference
 feature: Datenmodell
 role: Entwickler
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 99%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Beschriftung</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -133,12 +133,12 @@ ht-degree: 99%
                <tr>
                   <td>mode</td>
                   <td>Mode</td>
-                  <td>Auflistung (Byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>Viral - viral - 1</li>
                         <li>Newsletter - newsletter - 0</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -163,7 +163,7 @@ ht-degree: 99%
                <tr>
                   <td>publicLabel</td>
                   <td>Service label</td>
-                  <td>Zeichenfolge (128)</td>
+                  <td>string (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -211,13 +211,13 @@ ht-degree: 99%
                <tr>
                   <td>thumbnail</td>
                   <td>Thumbnail</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>Service</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
