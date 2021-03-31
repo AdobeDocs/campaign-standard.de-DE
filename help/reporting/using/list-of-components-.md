@@ -6,14 +6,14 @@ description: Hier finden Sie die Liste der in dynamischen Berichten enthaltenen 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 'Reporting '
-role: Füllzeichen
+feature: Berichte
+role: Leader
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken            {#metrics}
+## Metriken             {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
