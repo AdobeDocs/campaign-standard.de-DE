@@ -7,14 +7,14 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: 'Audiences  '
-role: Geschäftspraktiker
+feature: Audiences
+role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Gehen Sie zur Erstellung einer Audience vom Typ **Liste** wie folgt vor:
 
    ![](assets/audiences_list_4.png)
 
-## Audiences vom Typ Datei erstellen     {#creating-file-audiences}
+## Audiences vom Typ Datei erstellen      {#creating-file-audiences}
 
 In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Datei** mithilfe eines Dateiimports in einem Workflow beschrieben. Zusätzlich können Sie Audiences im Anschluss an eine Zielgruppenbestimmung in einem [Workflow](../../automating/using/get-started-workflows.md) oder im **[!UICONTROL Audiences]**-Menü mithilfe einer Abfrage erstellen.
 
