@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Triggers in Campaign verwenden
+title: Trigger in Campaign verwenden
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Trigger
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Triggers in Campaign verwenden{#using-triggers-in-campaign}
+# Trigger in Campaign verwenden{#using-triggers-in-campaign}
 
 ## In Campaign einen gemappten Trigger erstellen {#creating-a-mapped-trigger-in-campaign}
 
@@ -79,7 +79,7 @@ Nachdem Sie in Adobe Campaign ein Trigger-Ereignis basierend auf einem vorhanden
 
 Mit Ausführung der Veröffentlichung wird automatisch eine dem neuen Ereignis entsprechende Transaktionsvorlage erzeugt. Diese Vorlage muss nun bearbeitet und veröffentlicht werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen bearbeiten](../../start/using/marketing-activity-templates.md).
 
-## Transaktionsnachrichtenvorlage bearbeiten         {#editing-the-transactional-message-template}
+## Transaktionsnachrichtenvorlage bearbeiten          {#editing-the-transactional-message-template}
 
 Im Zuge der Erstellung und Veröffentlichung des Trigger-Ereignisses wird die entsprechende Transaktionsvorlage automatisch erstellt. Lesen Sie diesbezüglich auch den Abschnitt [In Campaign einen gemappten Trigger erstellen](#creating-a-mapped-trigger-in-campaign).
 
