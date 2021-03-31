@@ -6,14 +6,14 @@ description: Mit diesen Schritten können Sie über Landingpages in Adobe Campai
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landingpages
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Landing Pages
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1237'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 Diese Schritte müssen in Adobe Campaign in einer bestimmten Reihenfolge ausgeführt werden, damit alle Parameter ordnungsgemäß aktiviert werden.
 
-## Schritt 1: Bestätigungs-Landingpage erstellen         {#step-1--create-the-confirmation-landing-page}
+## Schritt 1: Bestätigungs-Landingpage erstellen          {#step-1--create-the-confirmation-landing-page}
 
 Um eine Anmeldung mit zweifacher Bestätigung einzurichten, muss zunächst die Bestätigungs-Landingpage erstellt werden: Diese Seite wird angezeigt, wenn ein Besucher die Bestätigungs-E-Mail anklickt, um sich zu registrieren.
 
@@ -131,7 +131,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 1. Erstellen Sie auf der Basis der Vorlage [Profilakquise (Akquise)](../../channels/using/getting-started-with-landing-pages.md) eine **[!UICONTROL neue Landingpage]**. Geben Sie den Titel &#39;**ACQUISITION**‘ ein.
 1. Bearbeiten Sie die Eigenschaften der Landingpage: Wählen Sie in **[!UICONTROL Vorgang]** > **[!UICONTROL Zusatzdaten]** die Option **[!UICONTROL Element hinzufügen]** aus und geben Sie folgenden Kontextpfad ein:
 
-   /context/Profil/blackList
+   /context/profile/blackList
 
    und wählen Sie den Wert **Wahr** aus.
 
