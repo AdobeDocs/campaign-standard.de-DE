@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 feature: Briefpost
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Der Bildschirm für die Definition von **[!UICONTROL Inhalt]** ist nur für den 
 >
 >Weiterführende Informationen zur Definition von Ausgabespalten finden Sie im Abschnitt zur Workflow-Aktivität [Dateiextraktion](../../automating/using/extract-file.md).
 
-## Dateistruktur definieren     {#defining-the-file-structure}
+## Dateistruktur definieren      {#defining-the-file-structure}
 
 Im **Dateistruktur**-Tab können Sie das Ausgabe-, Datums- und Zahlenformat der zu exportierenden Datei konfigurieren.
 
