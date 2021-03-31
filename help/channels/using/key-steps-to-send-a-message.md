@@ -6,81 +6,81 @@ description: Diese Schritte zeigen Ihnen, wie Sie Nachrichten mit Adobe Campaign
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 'Übersicht  '
-role: Geschäftspraktiker
+feature: Übersicht
+role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 
-# Wichtigste Schritte im Nachrichtenversand{#key-steps-to-send-a-message}
+# Wichtigste Schritte beim Nachrichtenversand{#key-steps-to-send-a-message}
 
-In diesem Abschnitt erfahren Sie, wie Sie personalisierte Nachrichten mit Adobe Campaign Standard erstellen und an eine zielgerichtete Audience senden.
+In diesem Abschnitt erfahren Sie, wie Sie mit Adobe Campaign Standard Nachrichten personalisieren und gezielt an eine bestimmte Audience senden können.
 
-Spezifische Informationen zum Erstellen und Konfigurieren der einzelnen Kommunikations-Kanal finden Sie in den folgenden Abschnitten:
+Näheres dazu, wie Sie die einzelnen Kommunikationskanäle erstellen und konfigurieren, finden Sie in den folgenden Abschnitten:
 
-* [E-Mails erstellen](../../channels/using/creating-an-email.md) 
+* [E-Mail erstellen](../../channels/using/creating-an-email.md)
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
 * [Briefpost-Versand erstellen](../../channels/using/creating-the-direct-mail.md)
-* [Erstellen einer Push-Benachrichtigung](../../channels/using/preparing-and-sending-a-push-notification.md).
+* [Mehrsprachige Push-Benachrichtigung erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [In-App-Nachricht vorbereiten und senden](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-Um etwas über die Best Practices beim Versand zu erfahren, besuchen Sie den Abschnitt [Best Practices beim Versand](../../sending/using/delivery-best-practices.md).
+Näheres über Best Practices beim Versand finden Sie in [diesem Abschnitt](../../sending/using/delivery-best-practices.md).
 
 ## Nachricht erstellen
 
-Nutzen Sie Campaign Standard [Marketing-Aktivitäten](../../start/using/marketing-activities.md), um eine E-Mail, eine SMS, eine Direktnachricht, eine Push-Benachrichtigung oder eine In-App-Nachricht zu erstellen.
+Verwenden Sie die [Marketing-Aktivitäten](../../start/using/marketing-activities.md) in Campaign Standard, um eine E-Mail oder SMS, einen Briefpostversand, eine Push-Benachrichtigung oder eine In-App-Nachricht zu erstellen.
 
 ![](assets/marketing-activities.png)
 
-Nachrichten können entweder aus der Liste der Marketingaktivitäten oder aus einem Workflow mit [dedizierten Aktivitäten](../../automating/using/about-channel-activities.md) erstellt werden.
+Nachrichten können entweder aus der Liste der Marketing-Aktivitäten oder aus einem Workflow mit [dedizierten Aktivitäten](../../automating/using/about-channel-activities.md) erstellt werden.
 
 ![](assets/steps-channel.png)
 
-## Audience definieren
+## Audience festlegen
 
-Definieren Sie die Empfänger Ihrer Nachricht. Verwenden Sie dazu den Editor [Abfrage](../../automating/using/editing-queries.md) im linken Bereich, um die in Ihrer Datenbank enthaltenen Daten zu filtern und Regeln zur Zielgruppe Ihrer Audience zu erstellen.
+Definieren Sie die Empfänger Ihrer Nachricht. Verwenden Sie dazu den [Abfrageeditor](../../automating/using/editing-queries.md) im linken Bereich, um die in Ihrer Datenbank enthaltenen Daten zu filtern und Regeln zur Bestimmung Ihrer Audience zu erstellen.
 
-Es stehen verschiedene Audiencen zur Verfügung:
+Es stehen verschiedene Audiences zur Verfügung:
 
-* **[!UICONTROL Targetis]** ist die wichtigste Zielgruppe Ihrer E-Mail,
-* **[!UICONTROL Testprofile]** sind die Profil, mit denen Sie Ihre E-Mail testen und validieren können (siehe  [Verwalten von Test-Profilen](../../audiences/using/managing-test-profiles.md)).
+* **[!UICONTROL Zielgruppe]** gibt die Hauptzielgruppe Ihrer E-Mail an,
+* **[!UICONTROL Testprofile]** sind die Profile, mit denen Sie Ihre E-Mail testen und validieren können (siehe [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)).
 
 ![](assets/steps-audience.png)
 
-## Entwerfen und Anpassen von Inhalten
+## Inhalt erstellen und personalisieren
 
-Entwerfen und personalisieren Sie im Block **[!UICONTROL Content]** den Inhalt Ihrer Nachricht mithilfe von Feldern aus Ihrer Datenbank. Weitere Informationen zum Entwerfen von Inhalten für einen bestimmten Kanal finden Sie in den Abschnitten oben auf dieser Seite.
+Im Block **[!UICONTROL Inhalt]** können Sie Ihre Nachricht mithilfe von Feldern aus Ihrer Datenbank erstellen und personalisieren. Weitere Informationen zur Erstellung von Inhalten für einen bestimmten Kanal finden Sie in den Abschnitten oben auf dieser Seite.
 
 ![](assets/steps-content.png)
 
 ## Vorbereiten und Testen
 
-[Die Nachricht ](../../sending/using/preparing-the-send.md) vorbereiten. Während dieses Vorgangs werden die Zielpopulation berechnet und die personalisierte Nachricht vorbereitet.
+Die Nachricht [vorbereiten](../../sending/using/preparing-the-send.md). Im Rahmen dieses Vorgangs wird die Zielpopulation berechnet und die personalisierte Nachricht vorbereitet.
 
 ![](assets/steps-prepare.png)
 
-**Überprüfen und testen Sie Ihre** Nachricht, bevor Sie sie mit den Campaign Standard-Funktionen senden: Vorschau, E-Mail-Rendering, Proof usw. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/previewing-messages.md).
+**Überprüfen und testen Sie Ihre Nachricht** anhand der Campaign Standard-Funktionen für Vorschau, E-Mail-Rendering, Testversand usw., bevor Sie sie absenden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/previewing-messages.md).
 
-Verwenden Sie den Block **[!UICONTROL Planen]**, um zu definieren, wann Ihre Nachrichten gesendet werden (siehe [Planen von Nachrichten](../../sending/using/about-scheduling-messages.md)).
+Verwenden Sie den Block **[!UICONTROL Planung]**, um zu definieren, wann Ihre Nachrichten gesendet werden (siehe [Versandplanung](../../sending/using/about-scheduling-messages.md)).
 
 ![](assets/steps-schedule.png)
 
 ## Senden und verfolgen
 
-Sobald die Nachricht fertig ist, können Sie den Versand bestätigen. Der Block **[!UICONTROL Bereitstellung]** zeigt den Sendefortschritt und das Ergebnis an.
+Sobald die Nachricht fertig ist, können Sie den Versand bestätigen. Im Block für die **[!UICONTROL Freigabe]** werden Fortschritt und Ergebnis des Versands angezeigt.
 
 ![](assets/steps-send.png)
 
-Es stehen mehrere Protokolle zur Verfügung, mit denen Sie den Versand Ihrer Nachrichten überwachen können (siehe [Überwachung eines Versands](../../sending/using/monitoring-a-delivery.md)). Sie können auch das Verhalten Ihrer Versand-Empfänger verfolgen, dank der [Verfolgungsfunktionen des Campaign Standards](../../sending/using/tracking-messages.md).
+Es stehen mehrere Protokolle zur Verfügung, mit denen Sie den Versand Ihrer Nachrichten überwachen können (siehe [Versand überwachen](../../sending/using/monitoring-a-delivery.md)). Sie können außerdem mithilfe der [Tracking-Funktionen](../../sending/using/tracking-messages.md) von Campaign Standard das Verhalten der Empfänger Ihres Versands verfolgen.
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-Messen Sie die Effektivität Ihrer Nachrichten und die Entwicklung Ihrer Sends und Kampagnen anhand verschiedener Indikatoren und Diagramme (siehe [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)).
+Messen Sie die Effektivität Ihrer Nachrichten und die Entwicklung Ihrer Sendungen und Kampagnen anhand verschiedener Indikatoren und Diagramme (siehe [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)).
 
 ![](assets/steps-reports.png)
