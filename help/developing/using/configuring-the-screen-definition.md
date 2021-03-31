@@ -10,11 +10,11 @@ context-tags: cusResource,main
 feature: Datenmodell
 role: Entwickler
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Im Tab **[!UICONTROL Bildschirmdefinition]** haben Sie folgende Möglichkeiten:
 * Anpassung der Anzeige der Liste mit den einzelnen Elementen der benutzerdefinierten Ressource;
 * Konfiguration des Detailbildschirms der einzelnen Elemente der Ressource.
 
-## Zugriff vom Navigationsmenü aus einrichten     {#enabling-access-from-the-navigation-menu}
+## Zugriff vom Navigationsmenü aus einrichten      {#enabling-access-from-the-navigation-menu}
 
 Wenn Sie für Ihre Ressource einen eigenen Bildschirm einrichten möchten, können Sie einen vom Navigationsmenü aus verfügbar machen.
 
