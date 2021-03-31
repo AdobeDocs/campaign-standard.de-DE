@@ -6,14 +6,14 @@ description: Hier erfahren Sie, wie das Opt-in- und Opt-out-Verfahren in Adobe C
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: 'Audiences  '
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Audiences
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Die aktivierten Optionen im Bereich **[!UICONTROL Nicht mehr kontaktieren (auf B
 
 ![](assets/optin_landingpage_3.png)
 
-## Opt-in- und Opt-out-Landingpages einrichten       {#setting-up-opt-in-and-opt-out-landing-pages}
+## Opt-in- und Opt-out-Landingpages einrichten        {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Um Empfängern die Möglichkeit zu geben, sich an- oder abzumelden, müssen Sie eine **[!UICONTROL Profilakquise]**-Landingpage erstellen und veröffentlichen. Empfänger können dann entsprechend ihren Anforderungen die gewünschten Kanäle auswählen. Gehen Sie dazu wie folgt vor:
 
