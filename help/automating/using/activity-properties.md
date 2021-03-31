@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Im Tab **[!UICONTROL Eigenschaften]** lassen sich die allgemeinen Parameter der 
 
 ![](assets/activity-properties2.png)
 
-## Verwaltung ausgehender Transitionen von Aktivitäten         {#managing-an-activity-s-outbound-transitions}
+## Verwaltung ausgehender Transitionen von Aktivitäten          {#managing-an-activity-s-outbound-transitions}
 
 Standardmäßig verfügen bestimmte Aktivitäten nicht über ausgehende Transitionen. Sie haben jedoch die Möglichkeit, diese in den Tabs **[!UICONTROL Transitionen]** oder **[!UICONTROL Eigenschaften]** der Aktivität hinzuzufügen, um auf Ihre Population im selben Workflow andere Prozesse anzuwenden.
 
