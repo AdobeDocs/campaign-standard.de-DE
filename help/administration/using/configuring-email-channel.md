@@ -7,14 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instanzeinstellungen
+feature: Instanzeneinstellungen
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2789'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
    Weiterführende Informationen zur Quarantäne finden Sie unter [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md).
 
-## E-Mail-Routing-Konten            {#email-routing-accounts}
+## E-Mail-Routing-Konten             {#email-routing-accounts}
 
 Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
