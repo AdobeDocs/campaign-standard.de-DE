@@ -6,14 +6,14 @@ description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen, verwalten
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Transaktionsnachrichtenversand
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Transaktionsnachrichten
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Greifen wir hierfür das im Abschnitt [Funktionsweise von Transaktionsnachrichte
 
 Sie möchten eine höfliche Erinnerung an alle Kunden senden, die vor drei Tagen die Benachrichtigung über einen stehen gelassenen Warenkorb erhalten, aber nicht geöffnet haben. Sie erhalten eine Folgenachricht, die auf denselben Daten basiert, die schon in der ersten gesendeten E-Mail verwendet wurden.
 
-## Ereignis konfigurieren, um eine Folgenachricht zu senden           {#configuring-an-event-to-send-a-follow-up-message}
+## Ereignis konfigurieren, um eine Folgenachricht zu senden            {#configuring-an-event-to-send-a-follow-up-message}
 
 Um eine Folgenachricht zu senden, müssen Sie zunächst das Ereignis entsprechend der bereits erhaltenen Transaktionsnachricht konfigurieren.
 
