@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Weiterführende Informationen zu Workflows und den in Adobe Campaign verfügbare
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Kommunikationskanäle](../../channels/using/get-started-communication-channels.md)
 
-## Workflow erstellen        {#creating-workflow}
+## Workflow erstellen         {#creating-workflow}
 
 Bestimmen Sie im ersten Schritt die Zielgruppe, die Sie mit Ihrer Kommunikation erreichen möchten. Nachfolgend wird diese dann je nach Kommunikationsmedium in zwei Gruppen unterteilt.
 
