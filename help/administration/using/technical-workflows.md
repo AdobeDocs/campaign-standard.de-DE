@@ -6,14 +6,14 @@ description: Technische Workflows sind vordefinierte Workflows für im Hintergru
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instanzeinstellungen
+feature: Instanzeneinstellungen
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
