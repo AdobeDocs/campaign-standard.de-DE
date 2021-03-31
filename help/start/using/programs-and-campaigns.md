@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
 feature: Kampagnen
-role: Geschäftspraktiker
+role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messe
 * [Planung](../../start/using/timeline.md)
 * [Über dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Programme erstellen     {#creating-a-program}
+## Programme erstellen      {#creating-a-program}
 
 Ein Programm ist die höchste Organisationsebene Es kann Unterprogramme, Kampagnen, Workflows und Landingpages enthalten.
 
