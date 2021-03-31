@@ -8,11 +8,11 @@ content-type: reference
 feature: Datenmodell
 role: Entwickler
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 99%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Beschriftung</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -160,7 +160,7 @@ ht-degree: 99%
                         <li>Started - started - 1</li>
                         <li>Editing - edition - 0</li>
                         <li>Finished - finished - 2</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -179,7 +179,7 @@ ht-degree: 99%
                <tr>
                   <td>title</td>
                   <td>Program</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
             </table>
