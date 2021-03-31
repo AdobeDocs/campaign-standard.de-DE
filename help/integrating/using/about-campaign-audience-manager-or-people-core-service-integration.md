@@ -6,8 +6,8 @@ description: Durch die Integration von Audience Manager/People Core Service kön
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Triggers
-role: Datenarchitektur
+feature: Trigger
+role: Data Architect
 level: Fortgeschritten
 translation-type: tm+mt
 source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
