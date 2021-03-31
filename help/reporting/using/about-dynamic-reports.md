@@ -6,14 +6,14 @@ description: Mit dynamischen Berichten können Sie Variablen und Dimensionen in 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 'Reporting '
-role: Füllzeichen
+feature: Berichte
+role: Leader
 level: Anfänger
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
