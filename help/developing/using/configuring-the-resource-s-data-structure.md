@@ -10,11 +10,11 @@ context-tags: cusResource,main
 feature: Datenmodell
 role: Entwickler
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1844'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ In diesem Zusammenhang können im Tab **[!UICONTROL Datenstruktur]** folgende El
 * [Relationen](#defining-links-with-other-resources)
 * [Versandlogs](#defining-sending-logs-extension)
 
-## Felder zu einer Ressource hinzufügen       {#adding-fields-to-a-resource}
+## Felder zu einer Ressource hinzufügen        {#adding-fields-to-a-resource}
 
 Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die nicht im vordefinierten Datenmodell enthalten sind.
 
