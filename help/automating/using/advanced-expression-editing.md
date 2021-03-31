@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Datenarchitektur
+role: Data Architect
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Die Ausdrucksbearbeitung findet in folgenden Fällen Verwendung:
 * beim Bearbeiten eines Ausdrucks in einem Workflow; beispielsweise beim Hinzufügen von Zusatzdaten in eine Aktivität;
 * bei der Erstellung einer Sichtbarkeitsbedingung im HTML-Content-Editor. In diesem Fall handelt es sich um JavaScript-Ausdrücke. Die Verwendung der klassischen fortgeschrittenen Funktionen ist hier nicht möglich.
 
-## Ausdruck bearbeiten {#edit-an-expression}
+## Ausdruck bearbeiten  {#edit-an-expression}
 
 Durch die Bearbeitung erweiterter Ausdrücke können Sie manuell Ausdrücke definieren, die Ihren spezifischen Bedürfnissen entsprechen.
 
@@ -158,7 +158,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
   <tr> 
    <td> <span class="uicontrol">Niedriger als</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> Der erste Wert muss streng kleiner als der zweite sein.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> gibt alle Profile aus, die vor weniger als 100 Tagen in der Datenbank erstellt wurden.<br /> </td> 
   </tr> 
@@ -172,7 +172,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
   <tr> 
    <td> <span class="uicontrol">Kleiner oder gleich</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> Der erste Wert muss kleiner oder gleich dem zweiten sein.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> gibt alle Profile im Alter von 60 Jahren und jünger aus.<br /> </td> 
   </tr> 
