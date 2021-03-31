@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 feature: Briefpost
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Achten Sie darauf, dass in der Profilinformation die Option **[!UICONTROL Anschr
 
 ![](assets/direct_mail_22.png)
 
-### Postanschriften      {#postal-addresses}
+### Postanschriften       {#postal-addresses}
 
 Die Anschriftsfelder zum Hinzufügen in die Extraktionsdatei finden Sie im Knoten **[!UICONTROL Ort]**.
 
