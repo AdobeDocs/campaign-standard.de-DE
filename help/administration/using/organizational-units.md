@@ -10,11 +10,11 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 feature: Zugriffsverwaltung
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Wenn einem Benutzer eine Organisationseinheit zugewiesen wird, wird diese Einhei
 >
 >Wenn ein Benutzer mehreren Gruppen mit verschiedenen zugeordneten Einheiten angehört, gelten bestimmte Regeln. Weiterführende Informationen finden Sie im Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md).
 
-## Einheiten erstellen und verwalten       {#creating-and-managing-units}
+## Einheiten erstellen und verwalten        {#creating-and-managing-units}
 
 Mit Organisationseinheiten können Sie Ihre Instanz nach der Organisation filtern, mit der Ihre Benutzer verknüpft sind. Diese Einheit kann eine Region, ein Land oder sogar eine Marke in Ihrer Instanz sein.
 
