@@ -7,13 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 feature: Profile
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Verwandtes Thema:
 * [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md)
 * [In der Zeitzone des Empfängers senden](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Allgemeine Profildaten     {#general-profile-data}
+## Allgemeine Profildaten      {#general-profile-data}
 
 Der Tab **[!UICONTROL Allgemein]** enthält die folgenden Informationen zum Profil:
 
