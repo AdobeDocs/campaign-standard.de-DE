@@ -6,14 +6,14 @@ description: Hier erfahren Sie, wie Sie Ihre Abonnenten tracken und den Erfolg I
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: 'Audiences  '
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Audiences
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Zur Verfolgung des An- und Abmeldeverhaltens bieten sich Ihnen verschiedene Opti
 * Öffnen Sie einen Bericht zur An- und Abmeldeentwicklung im Bereich **Bericht** des Dienstes. Siehe [Dienst-Berichte](#service-reports).
 * Öffnen Sie im Bereich **Profil** die Liste der Dienste, für die sich eine Person angemeldet hat. Siehe [Ereignisverlauf eines Profils](#history-of-events-linked-to-a-profile).
 
-## Dienst-Dashboard    {#service-dashboard}
+## Dienst-Dashboard     {#service-dashboard}
 
 Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Dienst angemeldet sind:
 
