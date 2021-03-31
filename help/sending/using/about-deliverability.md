@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -25,7 +25,7 @@ Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich an die Empfän
 
 Genauer gesagt bezieht sich die E-Mail-Zustellbarkeit auf den Satz von Merkmalen, die bestimmen, ob eine Nachricht ihr Ziel erreichen kann, über eine persönliche E-Mail-Adresse, innerhalb kurzer Zeit und mit der erwarteten Qualität in Bezug auf Inhalt und Format. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-Einen tieferen Einstieg in die Lieferbarkeit und weitere Informationen zu den wichtigsten Lieferbedingungen, -konzepten und -ansätzen finden Sie im Leitfaden [Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) zur Lieferbarkeit von Adoben.
+Einen tieferen Einstieg in die Lieferbarkeit und weitere Informationen zu den wichtigsten Lieferbedingungen, -konzepten und -ansätzen finden Sie im Leitfaden [Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de) zur Lieferbarkeit von Adoben.
 
 ## Verbesserung der Zustellbarkeit {#deliverability-key-points}
 
