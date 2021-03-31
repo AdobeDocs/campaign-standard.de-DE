@@ -6,14 +6,14 @@ description: Hier finden Sie häufig gestellte Fragen zu dynamischen Berichten.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: 'Reporting '
-role: Füllzeichen
-level: Fortgeschrittene
+feature: Berichte
+role: Leader
+level: Fortgeschritten
 translation-type: tm+mt
 source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Solche Ereignisse werden hinzugefügt, da **ein E-Mail-Klick auf eine E-Mail-Öf
 >
 >Da die eindeutige Anzahl auf einem HLL-basierten Sketch basiert, können zwischen den Zahlen kleine Unterschiede auftreten.
 
-## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet?      {#counts-recurring-deliveries}
+## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet?       {#counts-recurring-deliveries}
 
 Bei wiederkehrenden Sendungen und dem Versand von Transaktionsnachrichten werden die Zahlen sowohl den über- als auch den untergeordneten Sendungen zugeordnet.
 Nehmen Sie zum Beispiel einen wiederkehrenden Versand mit der Bezeichnung **R1**, der täglich an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt wird.
