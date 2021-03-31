@@ -7,13 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: Zustellbarkeit
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Eine E-Mail-Adresse oder Telefonnummer kann in Quarantäne kommen, weil z. B. da
 
 In diesem [Abschnitt](#conditions-for-sending-an-address-to-quarantine) werden die Regeln, die eine Quarantäne auslösen, näher erläutert.
 
-### Zustellbarkeit durch Quarantänen optimieren       {#optimizing-your-delivery-through-quarantines}
+### Zustellbarkeit durch Quarantänen optimieren        {#optimizing-your-delivery-through-quarantines}
 
 Die Profile, deren E-Mail-Adressen oder Telefonnummern unter Quarantäne sind, werden während der Nachrichtenvorbereitung automatisch ausgeschlossen (siehe [Für einen Versand in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-a-delivery)). Dies beschleunigt die Zustellung, da sich die Fehlerrate maßgeblich auf die Zustellgeschwindigkeit auswirkt.
 
