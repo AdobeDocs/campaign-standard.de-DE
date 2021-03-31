@@ -6,14 +6,14 @@ description: Hier erhalten Sie Informationen über die Ergebnisse Ihrer Berichte
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 'Reporting '
-role: Füllzeichen
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Berichte
+role: Leader
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand           {#email-delivery}
+## E-Mail-Versand            {#email-delivery}
 
 <table> 
  <thead> 
@@ -245,7 +245,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   </tr> 
   <tr> 
    <td> Zugestellt<br /> </td> 
-   <td> @delivery<br /> </td> 
+   <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
@@ -256,7 +256,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Bounce- + Fehlerrate<br /> </td> 
    <td> @rateBounces<br /> </td> 
-   <td> (@delivery/@sent)*100<br /> </td> 
+   <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Öffnungen<br /> </td> 
@@ -265,18 +265,18 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   </tr> 
   <tr> 
    <td> Öffnungsrate<br /> </td> 
-   <td> @rateOpen<br /> </td> 
+   <td> @rateOpens<br /> </td> 
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Einzelöffnungen<br /> </td> 
-   <td> @uniqueöffnet<br /> </td> 
-   <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
+   <td> @uniqueopens<br /> </td> 
+   <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressionen<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=delivery)<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
    <td> Einzelimpressionen<br /> </td> 
@@ -291,7 +291,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
+   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Durchklickrate<br /> </td> 
@@ -321,8 +321,8 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   </tr> 
   <tr> 
    <td> Zugestellt<br /> </td> 
-   <td> @delivery<br /> </td> 
-   <td> @count(status=delivery)<br /> </td> 
+   <td> @delivered<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
    <td> delivered=sent<br /> </td> 
   </tr> 
   <tr> 
@@ -334,7 +334,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelimpressionen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=Ansicht))<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
    <td> Für die Vorlage <span class="uicontrol">Nutzer auf Basis ihres Campaign-Profils in die Zielgruppe aufnehmen (inAppProfile)</span> ist Benutzer = Empfänger-ID.<br />Für die Vorlagen <span class="uicontrol">Alle Nutzer einer Mobile App in die Zielgruppe aufnehmen (inAppBroadcast)</span> und <span class="uicontrol">Nutzer auf Basis ihres Mobile-Profils in die Zielgruppe aufnehmen (inApp)</span> ist Benutzer = MC-ID oder eine andere Kennung, die eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
   </tr> 
   <tr> 
