@@ -6,14 +6,14 @@ description: Erfahren Sie mehr über den SMS-Connector und dessen Konfiguration.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instanzeinstellungen
+feature: Instanzeneinstellungen
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8669'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -705,7 +705,7 @@ Diese Einstellung erlaubt nur das Hinzufügen einer TLV-Option pro Nachricht.
 >
 >Ab Version 21.1 ist es jetzt möglich, mehr als einen optionalen Parameter hinzuzufügen. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/sms-protocol.md#automatic-reply-tlv).
 
-### Automatische Antwort auf MO        {#automatic-reply}
+### Automatische Antwort auf MO         {#automatic-reply}
 
 Mit dieser Funktion können Sie schnell einen Antworttext an einen MO senden und das Senden an die Blockierungsliste durch Kurzwahlnummern handhaben.
 
@@ -862,7 +862,7 @@ Vergewissern Sie sich, dass die `BIND_* PDUs` korrekt gesendet wurden. Am wichti
 
 Vergewissern Sie sich, dass nicht zu viele `BIND_* PDU`s vorhanden sind. Wenn es zu viele sind, kann das darauf hinweisen, dass die Verbindung instabil ist. Weitere Informationen finden Sie im Abschnitt [Probleme mit instabilen Verbindungen](../../administration/using/sms-protocol.md#issues-unstable-connection).
 
-#### INQUIRE_LINK {#enquire-link-pdus}
+#### ENQUIRE_LINK {#enquire-link-pdus}
 
 Vergewissern Sie sich, dass `ENQUIRE_LINK PDU`s regelmäßig ausgetauscht werden, wenn die Verbindung inaktiv ist.
 
