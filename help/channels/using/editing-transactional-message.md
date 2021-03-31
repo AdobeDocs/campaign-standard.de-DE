@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichtenversand
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Transaktionsnachrichten
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Aufrufen der erstellten Transaktionsnachricht:
 
 Sie können auch direkt über den Link im linken Bereich des entsprechenden Ereigniskonfigurationsbildschirms auf eine Transaktionsnachricht zugreifen. Siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-## Transaktionsnachricht personalisieren             {#personalizing-a-transactional-message}
+## Transaktionsnachricht personalisieren              {#personalizing-a-transactional-message}
 
 Gehen Sie wie folgt vor, um eine Transaktionsnachricht zu bearbeiten und zu personalisieren.
 
