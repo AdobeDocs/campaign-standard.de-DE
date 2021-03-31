@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 feature: Workflows
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1236'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ Beispiel:
 
 `//myserver/hello/myrecipients.csv` ist falsch.
 
-## Verlaufsparameter          {#historization-settings}
+## Verlaufsparameter           {#historization-settings}
 
 Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wird, werden die hoch- oder heruntergeladenen Dateien in einem bestimmten Ordner gespeichert. Für jede Aktivität **[!UICONTROL Dateiübertragung]** in einem Workflow wird ein Ordner erstellt. Deshalb ist es wichtig, die Größe dieses Ordners zu begrenzen, um physischen Platz auf dem Server zu sparen.
 
