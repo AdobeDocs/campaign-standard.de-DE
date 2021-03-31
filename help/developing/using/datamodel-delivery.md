@@ -8,11 +8,11 @@ content-type: reference
 feature: Datenmodell
 role: Entwickler
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,13 +157,13 @@ ht-degree: 99%
                <tr>
                   <td>deliveryMode</td>
                   <td>Delivery mode</td>
-                  <td>Auflistung (Byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>Bulk delivery - bulk - 1</li>
                         <li>Mid-sourcing - midSourcing - 4</li>
                         <li>Description - descriptive - 2</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>External - external - 0</li>
                      </ul>
                   </td>
@@ -207,13 +207,13 @@ ht-degree: 99%
                <tr>
                   <td>executionType</td>
                   <td>Execution type</td>
-                  <td>Auflistung (Byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>Unique - oneTime - 0</li>
                         <li>Continuous - continuous - 1</li>
                         <li>Message Center - messageCenter - 2</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -238,7 +238,7 @@ ht-degree: 99%
                <tr>
                   <td>icon</td>
                   <td>Icon</td>
-                  <td>Auflistung (Byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>Transactional email - emailLightning - 60</li>
@@ -252,7 +252,7 @@ ht-degree: 99%
                         <li>Mobile application - pushNotification - 40</li>
                         <li>Transactional SMS - smsLightning - 61</li>
                         <li>Email - email - 0</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -300,7 +300,7 @@ ht-degree: 99%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Beschriftung</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -321,7 +321,7 @@ ht-degree: 99%
                         <li>Finished - finished - finished</li>
                         <li>Warning - warning - warning</li>
                         <li>Erroneous - error - error</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -358,17 +358,17 @@ ht-degree: 99%
                <tr>
                   <td>messageType</td>
                   <td>Channel</td>
-                  <td>Auflistung (Byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Fax - 4</li>
-                        <li>Mobil (SMS) - sms - 1</li>
-                        <li>E-Mail - E-Mail - 0</li>
-                        <li>Telefon - Telefon - 2</li>
-                        <li>Briefpost - Papier - 3</li>
-                        <li>Mobilanwendung - pushNotification - 40</li>
-                        <li>Sonstige - sonstige - 120</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Fax - fax - 4</li>
+                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Email - email - 0</li>
+                        <li>Phone - phone - 2</li>
+                        <li>Direct mail - paper - 3</li>
+                        <li>Mobile application - pushNotification - 40</li>
+                        <li>Other - other - 120</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -405,11 +405,11 @@ ht-degree: 99%
                <tr>
                   <td>priority</td>
                   <td>Delivery priority</td>
-                  <td>Auflistung (Byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>High - high - 20</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Normal - normal - 10</li>
                      </ul>
                   </td>
@@ -483,7 +483,7 @@ ht-degree: 99%
                <tr>
                   <td>state</td>
                   <td>Status</td>
-                  <td>Auflistung (Byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>Start pending - startPending - 51</li>
@@ -503,7 +503,7 @@ ht-degree: 99%
                         <li>Stopped - cancelled - 85</li>
                         <li>Personalization in progress - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Arbitration in progress - targetArbitration - 13</li>
                      </ul>
                   </td>
@@ -523,13 +523,13 @@ ht-degree: 99%
                <tr>
                   <td>thumbnail</td>
                   <td>Delivery thumbnail</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>Delivery</td>
-                  <td>Zeichenfolge (255)</td>
+                  <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -571,15 +571,15 @@ ht-degree: 99%
                <tr>
                   <td>workflowStatus</td>
                   <td>Workflow status</td>
-                  <td>Auflistung (Zeichenfolge) (255)</td>
+                  <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
-                        <li>In Verarbeitung - begonnen</li>
-                        <li>Bearbeitung - Ausgabe - Ausgabe</li>
-                        <li>Fertig - fertig - fertig</li>
-                        <li>Warnung - Warnung - Warnung</li>
-                        <li>Fehler - Fehler - Fehler</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>In progress - started - started</li>
+                        <li>Editing - edition - edition</li>
+                        <li>Finished - finished - finished</li>
+                        <li>Warning - warning - warning</li>
+                        <li>Erroneous - error - error</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -608,8 +608,8 @@ Nach Ausführungstyp (byExecutionType)
     <th>Typ</th>
     </tr>
     <tr>
-    <td>executeType</td>
-    <td>Auflistung</td>
+    <td>executionType</td>
+    <td>enumeration</td>
     </tr>
 </table>
 
@@ -622,7 +622,7 @@ Nach logischem Status (byLogicalStatus)
     </tr>
     <tr>
     <td>state</td>
-    <td>Auflistung</td>
+    <td>enumeration</td>
     </tr>
 </table>
 
@@ -682,7 +682,7 @@ Nach Publikationsstatus (byPublicationStatus)
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>Auflistung</td>
+    <td>enumeration</td>
     </tr>
 </table>
 
@@ -695,7 +695,7 @@ Nach Status (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>Auflistung</td>
+    <td>enumeration</td>
     </tr>
 </table>
 
