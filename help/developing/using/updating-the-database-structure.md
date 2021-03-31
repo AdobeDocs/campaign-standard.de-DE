@@ -10,11 +10,11 @@ context-tags: deploy,main;eventCusResource,overview
 feature: Datenmodell
 role: Entwickler
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Damit Ihre Änderungen am Datenmodell wirksam werden und Sie sie verwenden könn
 >
 >Benutzerdefinierte Ressourcen werden im Zuge der automatischen Aktualisierungen durch Adobe automatisch aktualisiert.
 
-## Benutzerdefinierte Ressource veröffentlichen  {#publishing-a-custom-resource}
+## Benutzerdefinierte Ressource veröffentlichen   {#publishing-a-custom-resource}
 
 Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert werden.
 
