@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM-Integration
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
 1. Vergewissern Sie sich, dass im Einstellungsfeld die gewünschte Zusammenführungsrichtlinie ausgewählt ist.
 
-   Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des [Segment Builder-Benutzerhandbuchs](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des [Segment Builder-Benutzerhandbuchs](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -97,7 +97,7 @@ Das Symbol am Ende der einzelnen Felder enthält weitere Informationen zum Attri
 
 >[!NOTE]
 >
->Im folgenden Abschnitt finden Sie allgemeine Informationen zur Definition von Regeln. Weiterführende Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+>Im folgenden Abschnitt finden Sie allgemeine Informationen zur Definition von Regeln. Weiterführende Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
 
 Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
