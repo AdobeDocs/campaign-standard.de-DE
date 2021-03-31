@@ -2,26 +2,26 @@
 solution: Campaign Standard
 product: campaign
 title: Erste Schritte mit Transaktionsnachrichten
-description: Erfahren Sie, was Transaktionsnachrichten sind, und lernen Sie die wichtigsten Schritte zum Einrichten einer Transaktionsnachricht in Adobe Campaign Standard kennen.
+description: Machen Sie sich mit der Funktionsweise von Transaktionsnachrichten vertraut und lernen Sie die wichtigsten Schritte für die Einrichtung einer Transaktionsnachricht in Adobe Campaign Standard kennen.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichtenversand
-role: Geschäftspraktiker
+feature: Transaktionsnachrichten
+role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Erste Schritte mit Transaktionsnachrichten {#getting-started-with-transactional-messaging}
 
-## Übersicht   {#overview}
+## Übersicht    {#overview}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
