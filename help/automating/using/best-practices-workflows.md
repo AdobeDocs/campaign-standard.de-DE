@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Datenarchitektur
+role: Data Architect
 level: Anfänger
 translation-type: tm+mt
 source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
