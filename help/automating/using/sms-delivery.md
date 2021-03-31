@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Die **[!UICONTROL SMS-Versandaktivität]** ermöglicht den Versand von SMS inner
 * Bei **einmaligen** Versandaktionen handelt es sich um Standard-SMS, die nur einmal gesendet werden.
 * **Wiederkehrende** Versandaktionen ermöglichen den wiederholten Versand der gleichen SMS an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
-## Anwendungskontext         {#context-of-use}
+## Anwendungskontext          {#context-of-use}
 
 Der **[!UICONTROL SMS-Versand]** dient insbesondere der Automatisierung des Nachrichtenversands an eine innerhalb desselben Workflows berechnete Zielgruppe.
 
