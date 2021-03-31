@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
 feature: Workflows
-role: Datenarchitektur
+role: Data Architect
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 
 ![](assets/wkf_overview.png)
 
-## Palette     {#palette}
+## Palette      {#palette}
 
 Die Palette befindet sich auf der linken Bildschirmseite. Die verfügbaren Aktivitäten sind verschiedenen Kategorien zugeordnet:
 
