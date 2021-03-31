@@ -6,15 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Versandvorlagen ermöglichen eine höhere Effizienz durch vorgefertigte Szenarien für die meisten gängigen Aktivitäten."'
+description: '"Mit Versandvorlagen arbeiten Sie effizienter, da Sie mit ihnen bereits vorgefertigte Szenarien für die meisten gängigen Aktivitäten zur Verfügung haben."'
 feature: Zustellbarkeit
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
