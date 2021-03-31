@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichtenversand
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Transaktionsnachrichten
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Once you have created one or more specific test profiles and saved your transact
 
 The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
-## Transaktionsnachricht veröffentlichen  {#publishing-a-transactional-message}
+## Transaktionsnachricht veröffentlichen   {#publishing-a-transactional-message}
 
 Nachdem Sie Ihre Transaktionsnachricht bearbeitet und getestet haben, kann diese veröffentlicht werden. **[!UICONTROL Veröffentlichen]** Sie die Änderungen mithilfe der gleichnamigen Schaltfläche.
 
