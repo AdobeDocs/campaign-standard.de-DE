@@ -6,14 +6,14 @@ description: Führen Sie die folgenden Schritte aus, um eine Bestätigungsnachri
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: 'Audiences  '
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Audiences
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1424'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Eine Bestätigungs-E-Mail wird automatisch an jedes Profil gesendet, das den New
 
 Die Schritte zum Erstellen der Bestätigungs-E-Mail werden unten beschrieben. Da im Dienst auf die Transaktionsnachricht verwiesen wird, müssen Sie diesen zuerst erstellen.
 
-#### Ereignis erstellen       {#create-the-event-1}
+#### Ereignis erstellen        {#create-the-event-1}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
