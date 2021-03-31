@@ -6,14 +6,14 @@ description: 'Hier erfahren Sie, wie Sie die Integration von Adobe Experience Cl
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Trigger
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Das Adobe-Team benötigt die folgenden Informationen, um Triggers zu aktivieren:
 * Kennung der IMS-Organisation
 * Analytics-Unternehmensanmeldung (kann identisch mit dem Experience Cloud-Unternehmensnamen sein)
 
-## Lösungen und Dienste konfigurieren     {#configuring-solutions-and-services}
+## Lösungen und Dienste konfigurieren      {#configuring-solutions-and-services}
 
 Damit Sie diese Funktion verwenden können, benötigen Sie Zugriff auf folgende Lösungen/Core Services:
 
