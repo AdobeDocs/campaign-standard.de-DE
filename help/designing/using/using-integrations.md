@@ -6,14 +6,14 @@ description: Erfahren Sie, wie Sie in Email Designer E-Mails mithilfe von Adobe 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Design
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: E-Mail-Erstellung
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Inhalte können in Experience Manager bearbeitet und danach für mehrere E-Mail-
 
 Mit Produktlisten können Sie auf eine oder mehrere Datenerfassungen im E-Mail-Inhalt verweisen. Diese Listen stehen für Transaktions-E-Mails zur Verfügung. Einen speziellen Abschnitt zu dieser Funktion finden Sie [hier](../../designing/using/using-product-listings.md).
 
-## Funktionen zur E-Mail-Erstellung im Vergleich         {#email-design-options-comparison}
+## Funktionen zur E-Mail-Erstellung im Vergleich          {#email-design-options-comparison}
 
 Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der folgenden Tabelle werden die wichtigsten Funktionen, Vorteile und Beschränkungen aufgeführt.
 
@@ -151,7 +151,7 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
    <td> <strong>Weitere Informationen</strong><br /> </td> 
    <td> Siehe auch <a href="../../designing/using/designing-content-in-adobe-campaign.md">Über Email Designer</a>.<br /> </td> 
    <td> Siehe auch <a href="../../integrating/using/integrating-with-experience-manager.md">Integration mit Experience Manager</a>.<br /> </td> 
-   <td> Siehe auch <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver und Campaign</a> und dieses <a href="#video">Video</a>.<br /> </td> 
+   <td> Siehe auch <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver und Campaign</a> und dieses <a href="#video">Video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
