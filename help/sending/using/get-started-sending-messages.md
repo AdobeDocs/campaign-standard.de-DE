@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ Mehr dazu:
 
 * [Über die Zustellbarkeit](../../sending/using/about-deliverability.md)
 * [Zustellbarkeit überwachen](../../sending/using/monitor-deliverability.md)
-* [Best Practice-Handbuch zur Bereitstellung von Adoben](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Best Practice-Handbuch zur Bereitstellung von Adoben](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de)
 * [Steuern des Durchsatzes von Versänden](../../reporting/using/delivery-throughput.md)
 
 ## Zusätzliche Ressourcen
