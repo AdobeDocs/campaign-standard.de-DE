@@ -6,21 +6,21 @@ description: Hier erfahren Sie, wie Sie eine Nachricht im Inhaltseditor oder in 
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Seed-Adresse
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Testadresse
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Vorschau des Versands erzeugen {#previewing-messages}
 
-## Vorschau der E-Mail erzeugen   {#previewing-emails}
+## Vorschau der E-Mail erzeugen    {#previewing-emails}
 
 Mit Campaign Standard können Sie Nachrichten vor dem Versand in einer Vorschau anzeigen, um deren Personalisierung zu überprüfen und zu ermitteln, wie die Nachrichten bei Ihren Empfängern aussehen werden.
 
