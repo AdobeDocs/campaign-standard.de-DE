@@ -6,14 +6,14 @@ description: Erfahren Sie, wie Sie Adobe Campaign-Benutzern in Echtzeit Systembe
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instanzeinstellungen
+feature: Instanzeneinstellungen
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
