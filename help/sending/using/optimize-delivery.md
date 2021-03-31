@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Erfahren Sie, wie Sie den sendenden Prozess im Upstream-Prozess sichern und optimieren können.
+description: Erfahren Sie, wie Sie den vorgelagerten Versandprozess sichern und optimieren.
 feature: Zustellbarkeit
 role: Business Practitioner
 level: Fortgeschritten
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
