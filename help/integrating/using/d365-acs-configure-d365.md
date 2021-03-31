@@ -7,13 +7,13 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM-Integration
-role: Datenarchitektur
+role: Data Architect
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1005'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
-### Neue Anwendung registrieren  {#register-a-new-app}
+### Neue Anwendung registrieren   {#register-a-new-app}
 
 1. Melden Sie sich mit Ihren Administratoranmeldedaten bei portal.azure.com an.
 
