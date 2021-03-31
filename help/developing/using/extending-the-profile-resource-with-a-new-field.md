@@ -9,11 +9,11 @@ topic-tags: use-cases--extending-resources
 feature: Datenmodell
 role: Entwickler
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Verwandte Themen:
 * [Verwaltung von Profilen](../../audiences/using/about-profiles.md)
 * [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
 
-## Schritt 1: Profil-Ressource erweitern      {#step-1--extend-the-profile-resource}
+## Schritt 1: Profil-Ressource erweitern       {#step-1--extend-the-profile-resource}
 
 Um das neue Feld **Interessen** für unsere Profile zu erstellen, müssen Sie zunächst die native Ressource **[!UICONTROL Profile (profile)]** erweitern.
 
