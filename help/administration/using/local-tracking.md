@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instanzeinstellungen
+feature: Instanzeneinstellungen
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Das Tracking lokaler Benachrichtigungen kann in drei Typen unterteilt werden:
 
 * **Lokale Impressionen**: Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und im Benachrichtigungs-Center vorhanden ist, aber noch keine Aktivität stattgefunden hat. In den meisten Fällen sollte die Zahl der Impressionen ähnlich oder gar identisch mit der gesendeten Zahl sein. Dadurch wird sichergestellt, dass das Gerät die Nachricht erhalten hat und diese Informationen an den Server zurückgibt.
 
-* **Lokaler Klick** : Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und der Benutzer auf die Benachrichtigung geklickt hat. Der Anwender wollte die Benachrichtigung entweder ansehen oder verwerfen. Wenn er sie angesehen hat, wird sie beim lokalen Öffnungs-Tracking berücksichtigt.
+* **Lokaler Klick**: Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und der Anwender auf diese Benachrichtigung geklickt hat. Der Anwender wollte die Benachrichtigung entweder ansehen oder verwerfen. Wenn er sie angesehen hat, wird sie beim lokalen Öffnungs-Tracking berücksichtigt.
 
 * **Lokale Öffnung**: Wenn eine lokale Benachrichtigung an das Gerät gesendet wurde und der Anwender auf die Benachrichtigung geklickt hat, wodurch die App geöffnet wurde. Dies ist ähnlich der lokalen Klick-Kategorie mit dem Unterschied, dass keine lokale Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.
 
@@ -39,17 +39,17 @@ Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon
 
 | Variable | Wert |
 | :-: | :-: |
-| deliveryId | `deliveryId` aus eingehenden Daten (ähnlich wie bei der Push-Verfolgung, bei der  `_dld` die Daten verwendet werden) |
-| broadlogId | `broadlogId` aus eingehenden Daten (ähnlich wie bei der Push-Verfolgung, bei der  `_mld` die Daten verwendet werden) |
+| deliveryId | `deliveryId` aus den eingehenden Daten (ähnlich einem Push-Tracking, bei dem `_dld` verwendet wird) |
+| broadlogId | `broadlogId` aus den eingehenden Daten (ähnlich einem Push-Tracking, bei dem `_mld` verwendet wird) |
 | Aktion | &quot;1&quot; für Öffnung, &quot;2&quot; für Klick und &quot;7&quot; für Impression |
 
-## Implementieren der lokalen Impressionsverfolgung {#implement-local-impression-tracking}
+## Implementieren des lokalen Impressions-Tracking {#implement-local-impression-tracking}
 
-Das Adobe Experience Platform Mobile SDK sendet automatisch das Impressions-Ereignis für Android und iOS ohne zusätzliche Konfiguration.
+Das Adobe Experience Platform Mobile SDK sendet automatisch das Impressions-Ereignis sowohl für Android als auch für iOS ohne zusätzliche Konfiguration.
 
-## Implementieren der Klick-Verfolgung {#implementing-click-tracking}
+## Implementieren des Klick-Trackings {#implementing-click-tracking}
 
-Zur Klick-Verfolgung müssen Sie den Wert &quot;2&quot;für Aktion senden, wenn Sie die Funktionen `collectMessageInfo()` oder `trackAction()` aufrufen.
+Für das Klick-Tracking muss bei einer Aktion der Wert „2“ gesendet werden, wenn die Funktion `collectMessageInfo()` oder `trackAction()` aufgerufen wird.
 
 ### Für Android {#implement-click-tracking-android}
 
@@ -57,7 +57,7 @@ Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
 
 * Der Anwender sieht die Benachrichtigung, löscht sie jedoch.
 
-   Um Klick im Fall eines Kündigungsszenarios zu verfolgen, fügen Sie den Broadcast-Empfänger `NotificationDismissalHandler` in der AndroidManifest-Datei Ihres Anwendungsmoduls hinzu.
+   Um die Klicks für Abweisungsszenarien zu verfolgen, fügen Sie den Broadcast-Empfänger `NotificationDismissalHandler` in der AndroidManifest-Datei Ihres Anwendungsmoduls hinzu.
 
    ```
    <receiver
@@ -65,13 +65,13 @@ Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
    </receiver>
    ```
 
-* Der Benutzer sieht die Benachrichtigung und klickt darauf. Dies führt zum Öffnungs-Tracking.
+* Der Benutzer sieht die Benachrichtigung und klickt darauf. Dies führt zu einem Öffnungs-Tracking.
 
-   Dieses Szenario sollte einen Klick und einen offenen Klick erzeugen. Die Verfolgung dieses Klicks ist Teil der Implementierung, die zur Verfolgung des offenen Bereichs erforderlich ist. Siehe [Implementieren der offenen Verfolgung](#implement-open-tracking).
+   Dieses Szenario sollte einen Klick und eine Öffnung erzeugen. Das Tracking dieses Klicks ist Teil der Implementierung, die zum Tracking von Öffnungen erforderlich ist. Siehe [Implementieren des Öffnungs-Trackings](#implement-open-tracking).
 
 ### Für iOS {#implement-click-tracking-ios}
 
-Um die Klick-Tracking-Informationen zu senden, müssen Sie Folgendes hinzufügen:
+Um die Informationen zum Klick-Tracking zu senden, müssen Sie Folgendes hinzufügen:
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -102,7 +102,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## Implementieren der offenen Verfolgung {#implement-open-tracking}
+## Implementieren des Öffnungs-Trackings {#implement-open-tracking}
 
 Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Benutzer zum Öffnen der App zunächst auf die Benachrichtigung klicken muss. Wenn die App nicht über eine lokale Benachrichtigung gestartet/geöffnet wird, treten keine Tracking-Ereignisse auf.
 
