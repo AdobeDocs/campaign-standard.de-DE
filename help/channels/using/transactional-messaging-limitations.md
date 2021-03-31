@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichtenversand
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Transaktionsnachrichten
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Die Anzahl der veröffentlichten Transaktionsnachrichten kann erhebliche Auswirk
 
 Um eine optimale Leistung zu gewährleisten, können Sie auch die Veröffentlichung nicht verwendeter Ereignisse aufheben oder diese löschen. Wenn Sie die Veröffentlichung eines Ereignisses aufheben oder dieses löschen, werden auch die Veröffentlichung der entsprechenden Transaktionsnachricht(en) sowie deren Versand- und Trackinglogs (falls vorhanden) aufgehoben oder gelöscht. Siehe [Veröffentlichung eines Ereignisses aufheben](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) und [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Personalisierung           {#personalization}
+## Personalisierung            {#personalization}
 
 Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ der Transaktionsnachricht ab. Unten finden Sie die Spezifikationen.
 
