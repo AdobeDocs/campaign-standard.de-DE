@@ -6,14 +6,14 @@ description: Dynamische Berichte ermöglichen es Ihnen, ein Bedienfeld hinzuzuf�
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 'Reporting '
-role: Füllzeichen
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Berichte
+role: Leader
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ In diesen Panels können Sie nach Bedarf Ihre Berichte erstellen. Sie können be
 
 Dann können Sie eine Freiformtabelle in Ihr Panel einfügen, um mit der Datensuche zu beginnen.
 
-## Freiformtabelle hinzufügen          {#adding-a-freeform-table}
+## Freiformtabelle hinzufügen           {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **Komponente** analysiert werden.
 
