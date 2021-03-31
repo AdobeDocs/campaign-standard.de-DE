@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
 feature: In-App
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors 
 
 ![](assets/inapp_customize_4.png)
 
-### Medien       {#media}
+### Medien        {#media}
 
 Über die Dropdown-Liste **[!UICONTROL Medien]** können Sie Medien zu Ihrer In-App-Nachricht hinzufügen, um das Erlebnis für den Endnutzer attraktiv zu gestalten.
 
