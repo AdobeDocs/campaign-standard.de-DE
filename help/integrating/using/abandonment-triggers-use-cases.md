@@ -6,14 +6,14 @@ description: Anhand dieser Anwendungsbeispiele erfahren Sie, wie Sie die Integra
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Trigger
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ In diesem Abschnitt finden Sie zwei Anwendungsbeispiele für die Integration von
 >
 >Die in diesem Abschnitt beschriebenen Anwendungsbeispiele verwenden die Experience-Cloud-Visitor-ID. Sie können dafür auch die Experience Cloud Declared ID verwenden. Hash- und verschlüsselte Declared IDs werden auch unterstützt. Sie können E-Mails/SMS an ein Profil senden, das nicht in Campaign vorhanden ist, indem Sie die verschlüsselte E-Mail-Adresse/Mobiltelefonnummer direkt entschlüsseln. In diesem Fall kann jedoch keine Personalisierung verwendet werden, die Profildaten verwendet.
 
-## Voraussetzungen:    {#pre-requisites}
+## Voraussetzungen:     {#pre-requisites}
 
 Damit Sie diese Anwendungsbeispiele umsetzen können, benötigen Sie Zugriff auf folgende Lösungen/Core Services:
 
