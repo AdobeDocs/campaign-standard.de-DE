@@ -7,13 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Workflows
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Die Aktivität **[!UICONTROL Push-Benachrichtigung]** ermöglicht das Konfigurie
 * **Einmalige** Benachrichtigungen sind standardmäßige Mobile-App-Push-Benachrichtigungen, die einmal gesendet werden.
 * **Wiederkehrende** Versandaktionen ermöglichen den wiederholten Versand der gleichen Mobile-App-Push-Benachrichtigung über einen bestimmten Zeitraum an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
-## Anwendungskontext         {#context-of-use}
+## Anwendungskontext          {#context-of-use}
 
 Die Aktivität **[!UICONTROL Push-Benachrichtigung]** dient im Allgemeinen dazu, den Versand von Benachrichtigungen an eine innerhalb des gleichen Workflows berechnete Zielgruppe zu automatisieren.
 
