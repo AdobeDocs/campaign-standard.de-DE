@@ -6,14 +6,14 @@ description: Der Arbeitsbereich von Campaign bietet die benutzerfreundliche Adob
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 'Übersicht  '
-role: Geschäftspraktiker
+feature: Übersicht
+role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
