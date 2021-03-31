@@ -6,14 +6,14 @@ description: Hier erfahren Sie, wie Sie eine Landingpage in Adobe Campaign teste
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landingpages
-role: Geschäftspraktiker
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Landing Pages
+role: Business Practitioner
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 Vor der Veröffentlichung einer Landingpage müssen Sie Tests durchführen: Validieren Sie die Ausführung, konfigurieren Sie den Zugriff darauf und legen Sie das Funktionsende der Landingpage fest. Diese Maßnahmen sind erforderlich und müssen mit Sorgfalt ausgeführt werden.
 
-## Landingpage testen        {#testing-the-landing-page-}
+## Landingpage testen         {#testing-the-landing-page-}
 
 Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie wie folgt vor:
 
