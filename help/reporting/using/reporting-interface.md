@@ -6,14 +6,14 @@ description: Hier erhalten Sie Informationen zur Benutzeroberfläche von dynamis
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 'Reporting '
-role: Füllzeichen
+feature: Berichte
+role: Leader
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 * [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## Tabs     {#tabs}
+## Tabs      {#tabs}
 
 In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
@@ -150,4 +150,4 @@ Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang di
 
 **Verwandtes Thema:**
 
-* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
