@@ -1,12 +1,12 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Campaign – Best Practices beim Versand
+title: Best Practices für den Versand mit Campaign
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Lernen Sie Best Practices im Zusammenhang mit der Versandgestaltung und dem Versand mit Adobe Campaign kennen.
+description: Lernen Sie Best Practices im Zusammenhang mit der Erstellung und Durchführung eines Versands mit Adobe Campaign kennen.
 feature: Zustellbarkeit
 role: Business Practitioner
 level: Fortgeschritten
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 # Best Practices beim Versand {#delivery-best-practices}
 
-Lernen Sie Best Practices im Zusammenhang mit der Versandgestaltung und dem Versand mit Adobe Campaign kennen. Verwenden Sie die folgenden Links, um durch die Themen zu navigieren und Anleitungen zu finden.
+Lernen Sie Best Practices im Zusammenhang mit der Erstellung und Durchführung eines Versands mit Adobe Campaign kennen. Verwenden Sie die folgenden Links, um durch die Themen zu navigieren und Anleitungen zu finden.
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
