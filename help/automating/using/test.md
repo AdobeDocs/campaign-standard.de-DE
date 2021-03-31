@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 feature: Workflows
-role: Datenarchitektur
-level: Fortgeschr.
-translation-type: tm+mt
+role: Data Architect
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereig
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 * [Workflow mit externen Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-## Konfiguration      {#configuration}
+## Konfiguration       {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Test]**-Aktivität in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
