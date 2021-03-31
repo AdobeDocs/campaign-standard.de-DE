@@ -6,14 +6,14 @@ description: Hier erfahren Sie, wie Sie eine benutzerdefinierte Profildimension 
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 'Reporting '
-role: Füllzeichen
-level: Fortgeschr.
-translation-type: tm+mt
+feature: Berichte
+role: Leader
+level: Fortgeschritten
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ In diesem Beispiel erstellen wir das benutzerdefinierte Profilfeld **Treueprogra
 * [Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## Schritt 1: Erstellen Sie ein neues Profilfeld.      {#step-1--create-a-new-profile-field}
+## Schritt 1: Erstellen Sie ein neues Profilfeld.       {#step-1--create-a-new-profile-field}
 
 Zunächst muss das neue Profilfeld **Treueprogramm** erstellt werden, mit dem unseren Empfängern eine Treuestufe zugewiesen wird: Gold, Silber oder Bronze.
 
