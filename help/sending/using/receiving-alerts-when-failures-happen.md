@@ -6,14 +6,14 @@ description: Hier erfahren Sie, wie Versandwarnungen verwendet werden.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
-role: Geschäftspraktiker
+feature: Testversand
+role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2302'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Wenn Sie Benachrichtigungen, die auf bestimmten Bedingungen basieren, an untersc
 
 Immer wenn jetzt ein Versand die von Ihnen in diesem Dashboard definierten Bedingungen erfüllt, wird eine Warnung an die angegebene Benutzergruppe gesendet.
 
-## Versandwarnungsbedingungen        {#delivery-alerting-criteria}
+## Versandwarnungsbedingungen         {#delivery-alerting-criteria}
 
 ### Über Warnungsbedingungen {#about-alerting-criteria}
 
