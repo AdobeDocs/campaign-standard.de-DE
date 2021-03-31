@@ -6,14 +6,14 @@ description: '"Hier erfahren Sie, wie der Adobe-Campaign-Arbeitsbereich – Star
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 'Übersicht  '
-role: Geschäftspraktiker
+feature: Übersicht
+role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Alle Adobe-Campaign-Bildschirme weisen folgende Elemente auf:
 
 ![](assets/ux_interface_01.png)
 
-## Startseite            {#home-page}
+## Startseite             {#home-page}
 
 Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnellen Zugriff auf die am häufigsten verwendeten Funktionen bieten. Die Liste der auf der Campaign-Startseite vorhandenen Funktionen hängt von Ihrer Zugriffsberechtigung und den für Ihr Unternehmen konfigurierten Optionen ab.
 
