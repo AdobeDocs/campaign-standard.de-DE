@@ -7,10 +7,10 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 100%
+source-wordcount: '1750'
+ht-degree: 99%
 
 ---
 
@@ -439,6 +439,7 @@ ht-degree: 100%
    + Kanäle konfigurieren {#configuring-channels}
       + [Über die Konfiguration von Kanälen](administration/using/about-channel-configuration.md)
       + [E-Mail-Kanal konfigurieren](administration/using/configuring-email-channel.md)
+      + [Aktualisierung der Absprungqualifikation nach einem ISP-Ausfall](administration/using/update-bounce-qualification.md)
       + [Mobile App konfigurieren](administration/using/configuring-a-mobile-application.md)
    + Mobile Kanäle konfigurieren {#configuring-mobile}
       + [Push-Tracking implementieren](administration/using/push-tracking.md)
