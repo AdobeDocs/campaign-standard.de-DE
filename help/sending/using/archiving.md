@@ -9,14 +9,14 @@ topic-tags: sending-and-tracking-messages
 feature: Leistungsüberwachung
 role: Business Practitioner
 level: Fortgeschritten
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
+translation-type: tm+mt
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 95%
 
 ---
-
 
 # Archivieren mit E-Mail-BCC{#archiving-emails}
 
@@ -41,9 +41,9 @@ Nachdem die Aktivierung durchgeführt wurde, aktivieren Sie E-Mail-BCC in der E-
 
 >[!NOTE]
 >
->Derzeit können die archivierten E-Mails nicht mit dem erweiterten MTA von Adobe Campaign gesendet werden.
+>Derzeit werden die archivierten E-Mails noch vom alten Archivierungsmodul gesendet, das einen einfachen SMTP-Relais verwendet.
 
-## E-Mail-Archivierung aktivieren           {#activating-email-archiving}
+## E-Mail-Archivierung aktivieren            {#activating-email-archiving}
 
 Nach der Aktivierung wird E-Mail-BCC in der [E-Mail-Vorlage](../../start/using/marketing-activity-templates.md) über die folgende Option aktiviert:
 
