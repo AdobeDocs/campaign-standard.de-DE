@@ -7,14 +7,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
+exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 translation-type: tm+mt
-source-git-commit: 9edf26fa933e9faedecef3b381cb160230a51668
+source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 1%
 
 ---
-
 
 # Aktualisierung der Absprungqualifikation nach einem ISP-Ausfall {#update-bounce-qualification.md}
 
@@ -58,4 +58,3 @@ Sobald Sie die Liste der betroffenen Empfänger haben, können Sie diese entwede
 **Verwandte Themen:**
 * [Verstehen Sie Versand-Fehler.](../../sending/using/understanding-delivery-failures.md)
 * [Bounce-Message-Qualifizierung          ](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
