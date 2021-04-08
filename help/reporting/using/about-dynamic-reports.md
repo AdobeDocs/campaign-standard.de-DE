@@ -9,9 +9,9 @@ topic-tags: about-reporting
 feature: Berichte
 role: Leader
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
 ht-degree: 100%
 
