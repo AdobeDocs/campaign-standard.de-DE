@@ -9,11 +9,11 @@ topic-tags: managing-profiles
 feature: Profile
 role: Business Practitioner
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign erstellt einen Bericht, in dem die Anzahl der aktiven Profile dar
 
 >[!NOTE]
 >
->Wenn Sie Campaign Standard aus Build 10368 verwenden, können Sie auch die Anzahl der aktiven Profil, die auf Ihren Instanzen verwendet werden, direkt über die Systemsteuerung überwachen. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Wenn Sie Campaign Standard mit Build 10368 verwenden, können Sie die Anzahl der in Ihren Instanzen verwendeten aktiven Profile auch direkt über das Control Panel überwachen. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >Beachten Sie, dass die Metrik der aktiven Profile nur für **Marketing-Instanzen** verfügbar und relevant ist. Sie ist für Ausführungsinstanzen, d. h. MID (Mid-Sourcing)- und RT (Message Center-/Echtzeit-Messaging)-Instanzen, weder anwendbar noch verfügbar.
 
