@@ -9,11 +9,11 @@ topic-tags: about-administrating-adobe-campaign
 feature: Zugriffsverwaltung
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Als Cloud-basierte Lösung bietet Adobe Campaign Administratoren unterschiedlich
 >
 >Wenn Sie Fragen oder Anliegen zur Implementierung und Konfiguration haben, kontaktieren Sie Ihren Adobe-Kundenbetreuer.
 
-Beachten Sie, dass Admin-Benutzer auch die Systemsteuerung der Kampagne nutzen können, um die Einstellungen zu verwalten und Nutzungen für jede Ihrer Instanzen zu verfolgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de).
+Beachten Sie, dass Admin-Benutzer auch das Control Panel von Campaign nutzen können, um die Einstellungen zu verwalten und die Nutzung für jede Ihrer Instanzen zu verfolgen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de).
 
 ## Menü &quot;Administration&quot; {#administration-menu}
 
