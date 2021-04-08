@@ -9,11 +9,11 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Trigger
 role: Data Architect
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ Die Integration unterstützt zwei Typen von Adobe Experience Cloud-Kennungen:
 
    >[!NOTE]
    >
-   >Deklarierte ID-Datenquelle kann jetzt auch mit der Integration des Hauptdienstes People verwendet werden.
+   >Eine Declared ID-Datenquelle kann jetzt auch mit der Integration des People Core Service verwendet werden.
    >
-   >Wenn Sie die Integration des Hauptdiensts People verwenden und die Integration des Audience Managers hinzufügen möchten, benötigen Sie die Hilfe eines Adobe Audience Manager-Beraters, um zu vermeiden, dass alle beim Übergang zur Verwendung dieser deklarierten ID-Datenquelle in einem Adobe Audience Manager-Kontext erfassten ID-Synchronisierungen verloren gehen.
+   >Wenn Sie die People Core Service-Integration verwenden und die Audience Manager-Integration hinzufügen möchten, benötigen Sie die Hilfe eines Adobe Audience Manager-Beraters, um zu vermeiden, dass alle ID-Synchronisationen verloren gehen, die beim Wechsel zu dieser Declared ID-Datenquelle in einem Adobe Audience Manager-Kontext erfasst wurden.
 
 
    Durch die Sicherheitsfunktion können verschlüsselte Daten in Datenquellen (z. B. PII) unter Verwendung der Declared ID und der Spezifikation des Verschlüsselungsalgorithmus freigegeben werden.
