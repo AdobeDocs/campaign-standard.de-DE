@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 feature: Übersicht
 role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4696'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicke
 
 Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-updates.md) für Adobe Campaign Standard an. Neuere Versionshinweise finden Sie auf dieser [Seite](../../rn/using/release-notes.md).
 
-## Version 17.10 - Oktober 2017              {#release-17-10---october-2017}
+## Version 17.10 - Oktober 2017               {#release-17-10---october-2017}
 
 **Neue Funktionen**
 
@@ -403,7 +403,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell Versandzeitpunkt optimieren<br /> </td> 
