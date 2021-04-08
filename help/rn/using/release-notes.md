@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 feature: Übersicht
 role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2482'
 ht-degree: 100%
 
