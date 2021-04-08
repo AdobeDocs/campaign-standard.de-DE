@@ -9,9 +9,9 @@ topic-tags: troubleshooting
 feature: Berichte
 role: Leader
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Im Folgenden finden Sie eine Darstellung der Interaktion der Profile mit der ges
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong> <br /> </th> 
+   <th align="center"> <strong>Tag</strong> <br /> </th> 
    <th align="center"> <strong>Öffnungen</strong> <br /> </th> 
    <th align="center"> <strong>Einzelöffnungen</strong> <br /> </th> 
   </tr> 
@@ -72,8 +72,8 @@ Dies ergibt die folgende Tabelle:
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> Tag </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr>
@@ -108,7 +108,7 @@ Solche Ereignisse werden hinzugefügt, da **ein E-Mail-Klick auf eine E-Mail-Öf
 >
 >Da die eindeutige Anzahl auf einem HLL-basierten Sketch basiert, können zwischen den Zahlen kleine Unterschiede auftreten.
 
-## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet?       {#counts-recurring-deliveries}
+## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet?        {#counts-recurring-deliveries}
 
 Bei wiederkehrenden Sendungen und dem Versand von Transaktionsnachrichten werden die Zahlen sowohl den über- als auch den untergeordneten Sendungen zugeordnet.
 Nehmen Sie zum Beispiel einen wiederkehrenden Versand mit der Bezeichnung **R1**, der täglich an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt wird.
