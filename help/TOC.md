@@ -149,7 +149,7 @@ ht-degree: 99%
       + [Integrationen mit mehreren Lösungen verwenden](designing/using/using-integrations.md)
       + [Normaltext-, HTML- und mobile E-Mails bearbeiten](designing/using/plain-text-html-modes.md)
       + [E-Mails des alten Editors in Email Designer konvertieren](designing/using/converting-emails-from-legacy-editor.md)
-   + [E-Mail-Inhalte personalisieren](designing/using/personalization.md)
+   + [Personalisieren von E-Mail-Inhalten](designing/using/personalization.md)
    + [Produktlisten verwenden](designing/using/using-product-listings.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
@@ -176,7 +176,7 @@ ht-degree: 99%
       + [Nachrichten tracken](sending/using/tracking-messages.md)
       + [Mit E-Mail-BCC archivieren](sending/using/archiving.md)
    + Nachrichten beobachten {#monitoring-messages}
-      + [Versand beobachten](sending/using/monitoring-a-delivery.md)
+      + [Sendungen beobachten](sending/using/monitoring-a-delivery.md)
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
       + [Ursachen für Fehler beim Versand](sending/using/understanding-delivery-failures.md)
       + [Funktionsweise der Quarantäneverwaltung](sending/using/understanding-quarantine-management.md)
