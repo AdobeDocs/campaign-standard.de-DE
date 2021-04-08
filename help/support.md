@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: Hilfe und Support-Optionen
 role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
 <table>
-    <tr><td><strong>Fragen und Antworten nach Themen</strong></td><td><strong>Allgemeine Probleme</strong></td><td><strong>Best Practices</strong></td><td><strong>Anleitung</strong></td></tr>
+    <tr><td><strong>Fragen und Antworten nach Themen</strong></td><td><strong>Häufige Probleme</strong></td><td><strong>Best Practices</strong></td><td><strong>Anleitung</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
@@ -52,18 +52,18 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Umgang mit Fehlern in Workflows</a></li>
         <li><a href="automating/using/best-practices-workflows.md">Fehlerbehebung bei der Workflow-Ausführung</a></li>
         <li><a href="api/using/troubleshooting.md">API-Fehlerbehebung</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Verstehen Sie Versand-Fehler.</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Fehler beim Versand verstehen</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
         <li><a href="automating/using/best-practices-workflows.md">Best Practices bei Workflows</a></li>
         <li><a href="automating/using/about-workflow-execution.md">Überwachen von Workflows</a></li>
-        <li><a href="sending/using/tracking-messages.md">Tracking-Verwaltung</a></li>
+        <li><a href="sending/using/tracking-messages.md">Funktionsweise der Tracking-Verwaltung</a></li>
         <li><a href="sending/using/about-deliverability.md">Best Practices für die Zustellbarkeit</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">Importieren von Daten mit Workflows</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Zeitzonenverwaltung</a></li>
-        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Empfang von Warnungen bei Problemen</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Empfangen von Benachrichtigungen bei Fehlern</a></li>
         <li><a href="designing/using/using-existing-content.md">Importieren oder Konvertieren von E-Mail-Inhalten</a></li>
         <li><a href="sending/using/delivery-best-practices.md">Best Practices beim Versand</a></li>
         </ul>
@@ -76,13 +76,13 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
         <li><a href="start/using/privacy-management.md">Datenschutz- und Einverständnisverwaltung</a></li>
         <li><a href="automating/using/query.md">Erstellen einer Abfrage</a></li>
         <li><a href="automating/using/query-samples.md">Beispiele für Abfragen</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Konfigurieren von Mobile-Kanälen</a></li>
+        <li><a href="https://helpx.adobe.com/de/campaiacs-mobile.html">Konfigurieren von mobilen Kanälen</a></li>
         </ul>
     </td>
     </tr>
 </table>
 
-## Kampagne-Systemsteuerung
+## Campaign Control Panel
 
 <img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
 
@@ -93,11 +93,11 @@ Das Control Panel ermöglicht Produktadministratoren von Adobe Campaign Standard
 
 >[!NOTE]
 >
->Die Systemsteuerung steht allen Administratoren zur Verfügung. Die Schritte zum Gewähren des Administratorzugriffs für einen Benutzer sind in [dieser Seite](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel) beschrieben.
+>Das Control Panel steht allen Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 
 ### Zugriff auf das Control Panel
 
- Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel), um weitere Informationen zu erhalten.
+ Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=de#discover-control-panel), um weitere Informationen zu erhalten.
 
 ### Control Panel – Häufig gestellte Fragen
 
@@ -119,7 +119,7 @@ Sie können Ihre Subdomains und die ihnen zugehörigen Zertifikate überwachen. 
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Das neue Ticketing-System wurde durch [Adobe Admin Console](https://adminconsole.adobe.com/overview) ersetzt. Das neue System erfordert für jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie feststellen, dass Sie sich nicht mit Ihrer Adobe ID anmelden können, fordern Sie über Experience League Zugriff an. Das Team der Kundenunterstützung wird den Zugriff so schnell wie möglich einrichten. [Mehr dazu](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsole.adobe.com/overview). Das neue System erfordert für jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie feststellen, dass Sie sich nicht mit Ihrer Adobe ID anmelden können, fordern Sie über Experience League Zugriff an. Das Team der Kundenunterstützung wird den Zugriff so schnell wie möglich einrichten. [Mehr dazu](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Fragen an Experten
 
@@ -131,4 +131,4 @@ Durch das Erstellen eines Tickets können Sie sich an das Adobe-Supportteam wend
 
 Um in diesem neuen System ein Ticket zu erstellen oder eine Chat-Sitzung zu starten, müssen Sie sich mit [Adobe Admin Console](https://adminconsole.adobe.com/overview) verbinden.
 
-Gehen Sie dazu wie auf [dieser Seite](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) beschrieben vor.
+Gehen Sie dazu wie auf [dieser Seite](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) beschrieben vor.
