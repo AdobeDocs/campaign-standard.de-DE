@@ -10,11 +10,11 @@ description: Erfahren Sie, wie Sie den vorgelagerten Versandprozess sichern und 
 feature: Zustellbarkeit
 role: Business Practitioner
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Sie müssen die Zustellbarkeitsrate Ihrer Nachrichten steigern, damit Ihre Nachr
 
    * Konzentrieren Sie sich bei der Zustellbarkeit Ihrer E-Mail auf vier Hauptkategorien: Datenqualität, Nachricht und Inhalt, Versandinfrastruktur und Reputation. Detailliertere Informationen zu diesem Thema finden Sie in [diesem Abschnitt](../../sending/using/about-deliverability.md).
 
-* Wenden Sie beim Starten einer neuen Plattform die auf [dieser Seite](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process) detaillierten Empfehlungen an.
+* Beachten Sie beim Starten einer neuen Plattform die auf [dieser Seite](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=de#transition-process) näher ausgeführten Empfehlungen.
 
 * Setzen Sie sich mit Ihrem Adobe-Support-Mitarbeiter in Verbindung, wenn Sie Hilfe benötigen.
 
