@@ -10,11 +10,11 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketi
 
 ### Anzahl von Workflows
 
-Standardmäßig wird empfohlen, nicht mehr als 20 Workflows gleichzeitig auszuführen. Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, damit die Gesamtleistung nicht beeinträchtigt wird. Ebenso empfiehlt Adobe, die Ausführung des Workflows über einen bestimmten Zeitraum zu verteilen.
+Standardmäßig wird empfohlen, nicht mehr als 20 Workflows gleichzeitig auszuführen. Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, damit die Gesamtleistung nicht beeinträchtigt wird. In ähnlicher Weise empfiehlt Adobe, die Ausführung des Workflows über die Zeit zu verteilen.
 In bestimmten Situationen müssen Sie möglicherweise mehr als 20 Workflows ausführen. Dies gilt nicht für Workflows, die auf eine geplante Ausführung warten. Besprechen Sie die Anwendungsfälle bei Bedarf mit einem Campaign-Experten und kontaktieren Sie die Adobe-Kundenunterstützung, um das Limit zu erhöhen.
 
 >[!NOTE]
