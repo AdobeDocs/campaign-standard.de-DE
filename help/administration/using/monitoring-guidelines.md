@@ -10,11 +10,11 @@ index: y
 feature: Zugriffsverwaltung
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -35,12 +35,12 @@ Campaign Standard bietet verschiedene Möglichkeiten zur Überwachung Ihrer Inst
 
 **Systembenachrichtigungen**
 
-Die Benutzeroberfläche von Campaign Standard bietet einen Benachrichtigungsbereich, in dem Sie über die Vorgänge im System auf dem Laufenden gehalten werden können: Status von Ereignissen, Systemaktualisierungen, erforderliche Aktionen usw. [Mehr dazu](../../start/using/interface-description.md#top-bar)
+Die Benutzeroberfläche von Campaign Standard verfügt über einen Benachrichtigungsbereich, der Sie über die Vorgänge im System auf dem Laufenden hält: Ereignisstatus, Systemaktualisierungen, erforderliche Aktionen usw. [Mehr dazu](../../start/using/interface-description.md#top-bar)
 
 
 **Technische Workflows**
 
-Technische Workflows dienen der programmierten periodischen Ausführung von Server-Vorgängen. Um sicherzustellen, dass Ihre Instanz fehlerfrei ist und ordnungsgemäß funktioniert, müssen Sie sicherstellen, dass sie immer betriebsbereit ist. [Mehr dazu](../../administration/using/technical-workflows.md)
+Technische Workflows sind Vorgänge oder Aufgaben, die zur regelmäßigen Ausführung auf dem Server eingeplant werden. Um sicherzustellen, dass Ihre Instanz fehlerfrei ist und ordnungsgemäß funktioniert, müssen Sie sicherstellen, dass sie immer betriebsbereit ist. [Mehr dazu](../../administration/using/technical-workflows.md)
 
 **Control Panel**
 
@@ -48,20 +48,20 @@ Das Control Panel erlaubt Ihnen, verschiedene Einstellungen Ihrer Instanz zu ver
 
 >[!NOTE]
 >
->Die Systemsteuerung steht allen Administratoren zur Verfügung. Die Schritte zum Gewähren des Administratorzugriffs für einen Benutzer sind in [dieser Seite](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel) beschrieben.
+>Das Control Panel steht allen Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 
 **Technische Objekte**
 
-Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Tool zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert wurden: Schema, Webseiten, Stapelaufträge usw. [Mehr dazu](../../developing/using/monitoring-data-model-changes.md)
+Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Werkzeug zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: Datenschemas, Web-Seiten, Batch-Vorgänge usw. [Mehr dazu](../../developing/using/monitoring-data-model-changes.md)
 
 **Export-Audits**
 
-Mit Exportprüfungen können Sie die Exporte überwachen, die an Ihren Instanzen ausgeführt werden: Dateien, die aus Workflows, Listen exportiert und aus Direktnachrichten heruntergeladen wurden.
+Export-Audits ermöglichen es Ihnen, die auf Ihren Instanzen durchgeführten Exporte zu überwachen: Dateien, die von Workflows hochgeladen wurden, Listenexporte und Dateien, die von Briefpost-Nachrichten heruntergeladen wurden.
 [Mehr dazu](../../administration/using/auditing-export-logs.md)
 
 **Lizenzen**
 
-Überwachen Sie mithilfe des Menüs **[!UICONTROL Lizenzen]** Informationen zu Ihren Instanzen: installierte Lizenzen, Buildversionen und Vertragsabschlüsse akzeptiert.
+Im Menü **[!UICONTROL Lizenzen]** können Sie Informationen zu Ihren Instanzen überwachen: installierte Lizenzen, Build-Versionen und akzeptierte Vertragsbestimmungen.
 [Mehr dazu](../../administration/using/licenses.md)
 
 ## Überwachung von Workflows {#monitoring-workflows}
@@ -70,7 +70,7 @@ Mit Exportprüfungen können Sie die Exporte überwachen, die an Ihren Instanzen
 
 **Best Practices und Fehlerbehebung**
 
-Die Einhaltung bewährter Verfahren und Richtlinien zur Fehlerbehebung bei der Verwendung von Workflows können dabei helfen, die Leistung zu verbessern.
+Die Befolgung von Best Practices und Richtlinien zur Fehlerbehebung beim Verwenden von Workflows kann zur Leistungsverbesserung beitragen.
 [Mehr dazu](../../automating/using/best-practices-workflows.md)
 
 **Protokolle und Aufgaben**
@@ -80,7 +80,7 @@ Die Überwachung von Workflow-Protokollen ist ein wichtiger Schritt, um Ihre Wor
 
 **Benachrichtigungen**
 
-Campaign Standard ermöglicht es Ihnen, Benachrichtigungen an die Aufsichtsbehörden zu senden, um die Ausführung Ihrer Workflows zu überwachen und festzustellen, ob ein Fehler vorliegt, der Ihre Aufmerksamkeit erfordert.
+Mit Campaign Standard können Sie Benachrichtigungen an Supervisoren senden, um die Ausführung Ihrer Workflows zu überwachen und festzustellen, ob ein Fehler vorliegt, der Ihre Aufmerksamkeit erfordert.
 [Mehr dazu](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Sendungen überwachen {#monitoring-deliveries}
@@ -89,20 +89,20 @@ Campaign Standard ermöglicht es Ihnen, Benachrichtigungen an die Aufsichtsbehö
 
 **Zustellbarkeit**
 
-Campaign Standard bietet mehrere Bereitstellungs-Tools, mit denen Sie die Anzahl der erfolgreich ausgelieferten Nachrichten verbessern können: Berichte zum Durchsatz von Versänden, Optimierung der Sendezeit, Vorschau von Nachrichten, E-Mail-Rendering, Verwaltung von Quarantänen usw.
+Campaign Standard bietet verschiedene Zustellbarkeits-Tools, mit denen Sie die Anzahl der erfolgreich zugestellten Nachrichten verbessern können: Berichte zum Versanddurchsatz, Optimierung des Sendezeitpunkts, Vorschau von Nachrichten, E-Mail-Rendering, Quarantäneverwaltung usw.
 [Mehr dazu](../../sending/using/about-deliverability.md)
 
 **Sendungen**
 
-Sobald Ihre Nachrichten gesendet wurden, können Sie mit detaillierten Protokollen die Versand überwachen und den Erfolg Ihrer Kampagne messen sowie das Verhalten der Empfänger nachverfolgen.
+Sobald Ihre Nachrichten gesendet wurden, können Sie mithilfe detaillierter Protokolle die Sendungen überwachen, den Erfolg Ihrer Kampagne messen sowie das Verhalten der Empfänger verfolgen.
 [Mehr dazu](../../sending/using/monitoring-a-delivery.md)
 
-**Versandwarnung**
+**Versandwarnungen**
 
-Mit der Versand-Warnfunktion können Sie Warnungen einrichten, die automatisch an eine Benutzergruppe zur Ausführung von Versänden gesendet werden: fehlgeschlagenes Senden oder Aufbereiten, schlechtes Absprungverhältnis, niedriger Durchsatz usw.
+Mit der Funktion für Versandwarnungen können Sie Warnungen einrichten, die bezüglich der Ausführung von Sendungen automatisch an eine Gruppe von Benutzern gesendet werden: fehlgeschlagenes Senden/Vorbereiten, schlechte Bounce-Rate, niedriger Durchsatz usw.
 [Mehr dazu](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Dynamische Berichterstellung**
 
-Der dynamische Berichte bietet verschiedene Berichte, die Ihnen helfen, über die Leistung Ihrer Versand auf dem Laufenden zu bleiben: Absprünge, am häufigsten angezeigte Versand nach Empfängern, Durchsatz der Versand usw.
+Die dynamische Berichterstellung bietet verschiedene Reports, mit denen Sie sich über die Leistung Ihrer Sendungen auf dem Laufenden halten können: Bounces, die von den Empfängern am häufigsten angesehenen Sendungen, der Durchsatz der Sendungen usw.
 [Mehr dazu](../../reporting/using/about-dynamic-reports.md)
