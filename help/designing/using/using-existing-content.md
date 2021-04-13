@@ -8,11 +8,12 @@ content-type: reference
 topic-tags: editing-email-content
 feature: E-Mail-Erstellung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1242'
+source-wordcount: '1239'
 ht-degree: 100%
 
 ---
