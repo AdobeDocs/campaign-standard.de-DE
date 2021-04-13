@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: editing-email-content
 feature: E-Mail-Erstellung
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 100%
 
 ---
-
 
 # Erstellen neuer E-Mails {#designing-an-email-content-from-scratch}
 
