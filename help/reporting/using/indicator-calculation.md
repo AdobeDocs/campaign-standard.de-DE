@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: about-reporting
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '735'
+source-wordcount: '733'
 ht-degree: 100%
 
 ---
-
 
 # Indikatorberechnung{#indicator-calculation}
 
@@ -375,4 +375,3 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   </tr> 
  </tbody> 
 </table>
-
