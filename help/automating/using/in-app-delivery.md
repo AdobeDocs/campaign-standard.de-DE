@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '796'
+source-wordcount: '793'
 ht-degree: 100%
 
 ---
-
 
 # In-App-Versand{#in-app-delivery}
 
