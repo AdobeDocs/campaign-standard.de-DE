@@ -9,15 +9,15 @@ topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 feature: Audiences
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1021'
+source-wordcount: '1018'
 ht-degree: 100%
 
 ---
-
 
 # Audiences erstellen{#creating-audiences}
 
@@ -147,4 +147,3 @@ Ihr Ablaufdatum ist jetzt konfiguriert. Sobald dieses Datum erreicht ist, wird d
 Die zweite Möglichkeit zum Löschen einer Audience besteht darin, eine oder mehrere Audiences und danach die Schaltfläche **[!UICONTROL Element löschen]** auszuwählen.
 
 ![](assets/audience_delete_1.png)
-
