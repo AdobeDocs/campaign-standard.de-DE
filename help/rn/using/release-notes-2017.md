@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: campaign-standard-releases
 feature: Übersicht
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 translation-type: ht
-source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '4696'
+source-wordcount: '4693'
 ht-degree: 100%
 
 ---
-
 
 # Versionshinweise 2017{#release-notes}
 
@@ -543,4 +543,3 @@ _Integrationen_
 * Fehlerkorrektur – bei der Freigabe einer Ereignisauslösung in Adobe Campaign kommt es zu keinen Problemen mehr. Dieser Fehler trat auf, wenn die Metadaten &quot;Wahrscheinlichkeit eines erneuten Besuchs innerhalb von 30 Tagen&quot; zur Abbruchsauslösung in Adobe Experience Cloud hinzugefügt wurden.
 * Fehlerkorrektur – der technische Workflow löscht jetzt nicht mehr das Zieldimensionsfeld, wenn Audiences von People Core Service importiert werden. Darauf folgende Abfragen konnten keine importierten Audiences abrufen.
 * Fehlerkorrektur – durch die Aktivität **[!UICONTROL Audience-Speicherung]** eines Workflows wird kein Fehler mehr erzeugt, wenn die Option **[!UICONTROL In der Adobe Experience Cloud freigeben]** aktiviert ist.
-
