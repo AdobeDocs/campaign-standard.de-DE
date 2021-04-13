@@ -9,15 +9,15 @@ topic-tags: transactional-messaging
 context-tags: null
 feature: Transaktionsnachrichten
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '686'
+source-wordcount: '683'
 ht-degree: 100%
 
 ---
-
 
 # Lebenszyklus von Transaktionsnachrichten {#publishing-transactional-message}
 
