@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: direct-mail
 feature: Briefpost
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '232'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
-
 
 # An den Absender zurücksenden{#return-to-sender}
 
