@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: customizing-reports
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '932'
+source-wordcount: '930'
 ht-degree: 100%
 
 ---
-
 
 # Benutzerdefinierte Profildimension erstellen{#creating-a-custom-profile-dimension}
 
