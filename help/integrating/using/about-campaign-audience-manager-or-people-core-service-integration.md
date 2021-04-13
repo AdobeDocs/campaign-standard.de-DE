@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Trigger
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
 translation-type: ht
-source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '525'
+source-wordcount: '522'
 ht-degree: 100%
 
 ---
-
 
 # Über die Integration von Campaign mit Audience Manager oder People Core Service{#about-campaign-audience-manager-or-people-core-service-integration}
 
