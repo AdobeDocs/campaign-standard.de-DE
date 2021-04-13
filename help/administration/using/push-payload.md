@@ -9,15 +9,15 @@ topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 100%
 
 ---
-
 
 # Payload-Struktur der Push-Nachrichten verstehen {#push-payload}
 
