@@ -10,11 +10,11 @@ feature: Trigger
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '633'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 99%
 
 ---
 
@@ -66,13 +66,18 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Dient der Überprüfung des Erfolgs Ihres E-Mail-Versands direkt in Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Freigabe von Daten in Campaign mit Analytics</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">Share KPIs for integrated Campaign reporting</a> Video (Schritt 1))
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Freigabe von Daten in Campaign mit Analytics</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Share KPIs for integrated Campaign reporting</a> Video (Schritt 1))
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Audience Manager und People Core Service (Profile &amp; Audiences)<br /> </td> 
    <td> Dient dem Austausch von Audiences zwischen den verschiedenen, von Ihnen verwendeten Adobe Experience Cloud-Anwendungen.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People Core Service (Profiles &amp; Audiences)</a><br /> </td> 
+  </tr> 
+    <tr> 
+   <td>Adobe Echtzeit-Kundendatenplattform (RTCDP)<br /> </td> 
+   <td> Die Integration zwischen Adobe Campaign und Adobe Echtzeit-Kundendatenplattform (RTCDP) ermöglicht das Freigeben von Segmentdaten und das Importieren von Audiences in Adobe Campaign.</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">Erste Schritte mit Quellen und Zielen</a></td>
   </tr> 
   <tr> 
    <td> Assets Core Service und Assets On Demand<br /> </td> 
@@ -88,7 +93,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Experience Cloud Triggers<br /> </td> 
    <td> Ermöglicht den Versand personalisierter E-Mails über Adobe Campaign an Ihre Kunden als Reaktion auf bestimmte Verhaltensweisen, die von Adobe Analytics auf Ihrer Website beobachtet werden.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Verwenden von Experience Cloud Triggers in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Anwendungsbeispiele zur Abbruchsauslösung in Campaign</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">Trigger Remarketing Messages based on Site Activity</a> Video (Schritt 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Verwenden von Experience Cloud Triggers in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Anwendungsbeispiele zur Abbruchsauslösung in Campaign</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Trigger Remarketing Messages based on Site Activity</a> Video (Schritt 2)
     </td> 
   </tr> 
   <tr> 
