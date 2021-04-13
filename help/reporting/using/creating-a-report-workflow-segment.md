@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: customizing-reports
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '672'
+source-wordcount: '670'
 ht-degree: 100%
 
 ---
-
 
 # Einen Bericht auf der Basis von Workflow-Segmenten erstellen{#creating-a-report-workflow-segment}
 
