@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '291'
+source-wordcount: '288'
 ht-degree: 100%
 
 ---
-
 
 # Campaign-Nachrichten mit POI-Daten personalisieren{#personalizing-campaign-messages-with-point-of-interest-data}
 
@@ -67,4 +67,3 @@ Die E-Mail mit dem Angebot eines 10 %-Rabatts wird an Abonnenten gesendet, die:
 * [E-Mails erstellen](../../channels/using/creating-an-email.md)
 * [Inhalte erstellen](../../designing/using/personalization.md#example-email-personalization)
 * [Nachrichten senden](../../sending/using/confirming-the-send.md)
-
