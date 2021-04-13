@@ -9,15 +9,15 @@ topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 feature: Audiences
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '421'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
-
 
 # Audience in einer Nachricht auswählen{#selecting-an-audience-in-a-message}
 
@@ -63,4 +63,3 @@ Audiences können im Zuge der Nachrichtenerstellung im Assistenten oder im Nachh
 Nach Abschluss der Konfigurationen zeigt die Audiences-Kachel an, dass sowohl die Zielgruppe als auch Testprofile definiert wurden.
 
 ![](assets/delivery_audience_definition_3.png)
-
