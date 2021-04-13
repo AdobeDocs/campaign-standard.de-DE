@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: list-of-reports
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: 1d04bcd0-77f7-4bf0-a322-ec5cb5c1ce14
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
-
 
 # SMS-Bericht{#sms-report}
 
@@ -29,4 +29,3 @@ Die Tabelle **SMS summary** einschließlich ihrer Grafiken und Zusammenfassungsn
 * **Verarbeitet/gesendet**: die Anzahl an gesendeten SMS-Nachrichten.
 * **Zugestellt**: die Anzahl an zugestellten SMS-Nachrichten.
 * **Bounces + Fehler**: die Anzahl an Nachrichten, die nicht zugestellt werden konnten.
-
