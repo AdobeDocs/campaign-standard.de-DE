@@ -9,15 +9,15 @@ topic-tags: landing-pages
 context-tags: landingPage,main
 feature: Landing Pages
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '751'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
-
 
 # Konfigurieren einer Landingpage {#configuring-landing-page}
 
