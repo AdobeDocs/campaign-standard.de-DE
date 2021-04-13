@@ -9,15 +9,15 @@ topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Zustellbarkeit
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 0470b986-c00a-4441-8621-82c7112a9953
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
-
 
 # Fehlerbehebung{#troubleshooting}
 
