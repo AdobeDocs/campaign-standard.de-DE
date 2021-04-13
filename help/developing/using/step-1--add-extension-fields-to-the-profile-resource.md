@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 feature: Datenmodell
-role: Entwickler
-level: Erfahren
+role: Developer
+level: Experienced
+exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '80'
+source-wordcount: '78'
 ht-degree: 100%
 
 ---
-
 
 # Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen{#step-add-extension-fields-to-the-profile-resource}
 
@@ -26,4 +26,3 @@ ht-degree: 100%
 1. Wählen Sie die Ressource **[!UICONTROL Profil (profile)]** aus.
 1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 1. Fügen Sie das Feld **[!UICONTROL Angebotscode]** mit Typ **[!UICONTROL Text]** und Kennung **[!UICONTROL Marke]** zu den existierenden Feldern der Ressource hinzu.
-
