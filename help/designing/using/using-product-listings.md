@@ -9,15 +9,15 @@ topic-tags: editing-email-content
 context-tags: null
 feature: E-Mail-Erstellung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '926'
+source-wordcount: '923'
 ht-degree: 100%
 
 ---
-
 
 # Produktlisten in Transaktionsnachrichten verwenden               {#using-product-listings}
 
