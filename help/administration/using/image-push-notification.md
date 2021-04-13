@@ -9,15 +9,15 @@ topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '444'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
-
 
 # Bilder und Videos unter iOS hinzufügen {#image-push}
 
@@ -160,4 +160,3 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 Sie können jetzt testen, wie Ihre App und der in Schritt 2 erstellte Versand funktionieren. Weiterführende Informationen zum Vorbereiten und Senden Ihrer Push-Benachrichtigung finden Sie auf dieser [Seite](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)
-
