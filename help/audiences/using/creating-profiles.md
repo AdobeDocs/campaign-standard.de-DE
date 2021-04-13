@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: managing-profiles
 feature: Profile
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: 827df9f6-070c-466a-890c-e363de6b129b
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '400'
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
-
 
 # Profile erstellen{#creating-profiles}
 
