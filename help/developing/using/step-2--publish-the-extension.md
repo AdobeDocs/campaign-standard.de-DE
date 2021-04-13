@@ -6,16 +6,16 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 feature: Datenmodell
-role: Entwickler
-level: Erfahren
+role: Developer
+level: Experienced
+exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '113'
+source-wordcount: '111'
 ht-degree: 100%
 
 ---
-
 
 # Schritt 2: Erweiterung veröffentlichen{#step-publish-the-extension}
 
@@ -38,4 +38,3 @@ ht-degree: 100%
    ![](assets/extendpandsapi_diff.png)
 
 1. **[!UICONTROL Veröffentlichen]** Sie die Änderungen mithilfe der gleichnamigen Schaltfläche.
-
