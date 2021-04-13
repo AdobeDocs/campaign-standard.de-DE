@@ -9,15 +9,15 @@ topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1737'
+source-wordcount: '1735'
 ht-degree: 100%
 
 ---
-
 
 # SMS-Kanal konfigurieren{#configuring-sms-channel}
 
