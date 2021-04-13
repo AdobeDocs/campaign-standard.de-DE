@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: editing-email-content
 feature: E-Mail-Erstellung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '2720'
+source-wordcount: '2717'
 ht-degree: 100%
 
 ---
-
 
 # Personalisieren von E-Mail-Inhalten {#personalization}
 
@@ -430,4 +430,3 @@ Die Illustration zeigt die im dynamischen Inhalt für diese Altersgruppe konfigu
 
 * [Audiences erstellen](../../audiences/using/creating-audiences.md)
 * [Versandvorbereitung](../../sending/using/preparing-the-send.md)
-
