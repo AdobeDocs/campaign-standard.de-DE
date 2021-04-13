@@ -9,13 +9,13 @@ topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
-workflow-type: tm+mt
-source-wordcount: '2823'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '2821'
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
    Weiterführende Informationen zur Quarantäne finden Sie unter [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md).
 
-## E-Mail-Routing-Konten             {#email-routing-accounts}
+## E-Mail-Routing-Konten              {#email-routing-accounts}
 
 Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
@@ -311,7 +311,7 @@ Im Abschnitt **[!UICONTROL Zugriffsberechtigungen]** sind folgende Parameter ver
 
 ## Alte Einstellungen {#legacy-settings}
 
-Wenn Sie die neueste Version der Kampagne ausführen, gelten die unten beschriebenen Parameter und UI-Abschnitte weiterhin für Sie.****
+Auch wenn Sie **NICHT** die neueste Version von Campaign verwenden, gelten die im Folgenden beschriebenen Parameter und Abschnitte der Benutzeroberfläche für Sie.
 
 ### Weitere Zustellversuche {#legacy-retries}
 
@@ -343,7 +343,7 @@ Folgende Qualifikationsstatus von Bounces treten auf:
 
 >[!NOTE]
 >
->Bei Ausfall eines ISP werden per Kampagne gesendete E-Mails fälschlicherweise als Absprünge gekennzeichnet. Um dies zu korrigieren, müssen Sie die Absprungqualifikation aktualisieren. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/update-bounce-qualification.md).
+>Bei Ausfall eines ISP werden über Campaign gesendete E-Mails fälschlicherweise als Bounces gekennzeichnet. Um dies zu korrigieren, müssen Sie die Bounce-Qualifizierung aktualisieren. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
