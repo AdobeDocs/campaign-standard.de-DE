@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: monitoring-messages
 feature: Testversand
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '2302'
+source-wordcount: '2299'
 ht-degree: 100%
 
 ---
-
 
 # Warnungen bei Zustellproblemen erhalten{#receiving-alerts-when-failures-happen}
 
@@ -283,4 +283,3 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 * [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 * [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
