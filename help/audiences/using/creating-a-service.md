@@ -9,15 +9,15 @@ topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 feature: Audiences
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '472'
+source-wordcount: '469'
 ht-degree: 100%
 
 ---
-
 
 # Dienst erstellen{#creating-a-service}
 
