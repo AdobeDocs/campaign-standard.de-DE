@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: Leistungsüberwachung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
-workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Nachdem die Aktivierung durchgeführt wurde, aktivieren Sie E-Mail-BCC in der E-
 >
 >Adobe Campaign selbst ermöglicht keine Verwaltung von archivierten Dateien. Sie können aber die gewünschten Nachrichten an eine bestimmte Adresse senden, wo sie mithilfe eines externen Systems verarbeitet und archiviert werden.
 
-## Empfehlungen und Einschränkungen           {#recommendations-and-limitations}
+## Empfehlungen und Einschränkungen            {#recommendations-and-limitations}
 
 * Hierbei handelt es sich um eine optionale Funktion. Bitte prüfen Sie Ihren Lizenzvertrag und kontaktieren Sie den Ansprechpartner für Ihr Konto, um diese Funktion zu aktivieren.
 * Die gewünschte BCC-Adresse muss dem Adobe-Team übermittelt werden, das die Adresse für Sie konfigurieren wird.
@@ -41,7 +41,7 @@ Nachdem die Aktivierung durchgeführt wurde, aktivieren Sie E-Mail-BCC in der E-
 
 >[!NOTE]
 >
->Derzeit werden die archivierten E-Mails noch vom alten Archivierungsmodul gesendet, das einen einfachen SMTP-Relais verwendet.
+>Derzeit werden die archivierten E-Mails noch vom alten Archivierungsmodul gesendet, das ein einfaches SMTP-Relay verwendet.
 
 ## E-Mail-Archivierung aktivieren            {#activating-email-archiving}
 
