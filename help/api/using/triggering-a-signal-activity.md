@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
-level: Erfahren
+level: Experienced
+exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '326'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
-
 
 # Auslösen einer Signalaktivität {#triggering-a-signal-activity}
 
