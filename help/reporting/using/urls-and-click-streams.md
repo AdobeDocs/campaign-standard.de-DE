@@ -9,15 +9,15 @@ topic-tags: list-of-reports
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: f9bf39a3-7dca-429e-97bc-454b04f0d2a2
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # URLs und Clickstreams{#urls-and-click-streams}
 
@@ -31,4 +31,3 @@ Die Tabelle **Meistbesuchte Links** enthält für jeden Versand die verfügbaren
 
 * **Klicken**: Die Anzahl der Klicks auf einen Inhalt in einem Versand.
 * **Einzelklicks**: Die Anzahl der Empfänger, die einen Inhalt in einem Versand angeklickt haben.
-
