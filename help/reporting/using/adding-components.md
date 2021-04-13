@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: customizing-reports
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
-
 
 # Komponenten hinzufügen{#adding-components}
 
@@ -46,4 +46,3 @@ Sie können beliebig viele Komponenten verschieben und miteinander vergleichen.
 
 * [Liste von Komponenten](../../reporting/using/list-of-components-.md)
 * [Liste von Berichten](../../reporting/using/defining-the-report-period.md)
-
