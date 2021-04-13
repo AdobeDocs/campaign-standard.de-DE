@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: users-and-security
 feature: Zugriffsverwaltung
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
-
 
 # Über die Zugriffsverwaltung{#about-access-management}
 
@@ -48,4 +48,3 @@ Die Verwaltung von Benutzern erfolgt über die Admin Console. Näheres hierzu fi
 * [Organisationseinheiten](../../administration/using/organizational-units.md)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
 * [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md)
-
