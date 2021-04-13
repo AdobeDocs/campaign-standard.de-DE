@@ -9,15 +9,15 @@ index: y
 description: Erfahren Sie, wie Sie gängige Probleme bei der Gestaltung Ihres Nachrichteninhalts vermeiden, die die Ausführung des Versands behindern könnten. 
 feature: Zustellbarkeit
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 100%
 
 ---
-
 
 # Personalisierte Inhalte erstellen {#build-personalized-content}
 
