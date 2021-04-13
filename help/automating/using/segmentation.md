@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '967'
+source-wordcount: '964'
 ht-degree: 100%
 
 ---
-
 
 # Segmentierung{#segmentation}
 
@@ -91,7 +91,6 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
       >[!NOTE]
       >
       >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]** auf 10, die Population mit dem Geschlecht **[!UICONTROL Weiblich]** auf 30 Personen begrenzen. Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validieren Sie die Konfiguration Ihres Segments.
