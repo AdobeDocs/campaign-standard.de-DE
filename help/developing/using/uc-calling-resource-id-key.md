@@ -4,16 +4,16 @@ product: campaign
 title: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel
 description: Hier erfahren Sie, wie Sie eine Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen.
 feature: Datenmodell
-role: Entwickler
-level: Erfahren
+role: Developer
+level: Experienced
+exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 100%
 
 ---
-
 
 # Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel{#calling-a-resource-using-a-composite-identification-key}
 
