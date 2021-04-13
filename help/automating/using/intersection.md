@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
-
 
 # Schnittmenge{#intersection}
 
@@ -50,4 +50,3 @@ Die **[!UICONTROL Schnittmenge]** wird insbesondere verwendet, um die Population
 Unten stehende Abbildung zeigt die Schnittmenge aus zwei Abfrageaktivitäten, die alle Profile der Adobe-Campaign-Datenbank abrufen, die zwischen 18 und 27 Jahre alt sind bzw. deren E-Mail-Adresse korrekt angegeben ist.
 
 ![](assets/wkf_intersection_example.png)
-
