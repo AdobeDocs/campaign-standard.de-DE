@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
-level: Erfahren
+level: Experienced
+exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '694'
+source-wordcount: '691'
 ht-degree: 100%
 
 ---
-
 
 # Exportieren/Importieren benutzerdefinierter Ressourcen {#exporting-importing-custom-resources}
 
