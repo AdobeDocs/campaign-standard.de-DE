@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
-level: Erfahren
+level: Experienced
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '234'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
-
 
 # Profile abrufen {#retrieving-profiles}
 
