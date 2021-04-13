@@ -9,14 +9,14 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In-App
 role: Business Practitioner
+exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '935'
+source-wordcount: '933'
 ht-degree: 100%
 
 ---
-
 
 # Über In-App-Messaging{#about-in-app-messaging}
 
