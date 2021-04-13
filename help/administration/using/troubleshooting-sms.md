@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: configuring-channels
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '2700'
+source-wordcount: '2698'
 ht-degree: 100%
 
 ---
-
 
 # SMS-Fehlerbehebung {#sms-troubleshooting}
 
