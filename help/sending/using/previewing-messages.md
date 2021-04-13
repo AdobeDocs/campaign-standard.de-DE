@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 feature: Testadresse
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '655'
+source-wordcount: '652'
 ht-degree: 100%
 
 ---
-
 
 # Vorschau des Versands erzeugen {#previewing-messages}
 
