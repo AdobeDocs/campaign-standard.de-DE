@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Trigger
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 100%
 
 ---
-
 
 # Triggers in Experience Cloud konfigurieren{#configuring-triggers-in-experience-cloud}
 
@@ -115,4 +115,3 @@ Im Folgenden finden Sie eine Liste mit Best Practices und Einschränkungen für 
 >[!CAUTION]
 >
 >Ihre Website muss sich in derselben Domain befinden wie der Adobe Campaign-Server. Ist dies nicht der Fall, können Sie nicht die Besucher-ID verwenden, um anonyme Besucher der Website abzustimmen und zu kontaktieren.
-
