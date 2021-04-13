@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: campaign-standard-releases
 feature: Übersicht
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '7617'
+source-wordcount: '7614'
 ht-degree: 100%
 
 ---
-
 
 # Versionshinweise 2019{#release-notes-2019}
 
@@ -621,4 +621,3 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Der Versanddurchsatz für SMS-Nachrichten wurde verbessert und ist jetzt stabiler.
 * Fehlerkorrektur – Das Zeichen &quot;~&quot; kann jetzt in SMS-Nachrichten verwendet werden. (CAMP-29172)
 * Fehlerkorrektur – Bei der Option zur Versandzeitoptimierung tritt bei Sendungen kein Fehler mehr auf. (CAMP-29231)
-
