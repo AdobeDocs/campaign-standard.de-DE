@@ -9,15 +9,15 @@ topic-tags: transactional-messaging
 context-tags: null
 feature: Transaktionsnachrichten
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # Transaktionsnachrichten testen {#testing-a-transactional-message}
 
