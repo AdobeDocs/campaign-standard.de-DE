@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
-level: Erfahren
+level: Experienced
+exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '495'
+source-wordcount: '492'
 ht-degree: 100%
 
 ---
-
 
 # Wozu dienen Campaign Standard-APIs? {#why-using-campaign-standard-apis}
 
