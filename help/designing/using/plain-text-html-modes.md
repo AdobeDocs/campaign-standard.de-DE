@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: editing-email-content
 feature: E-Mail-Erstellung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '833'
+source-wordcount: '830'
 ht-degree: 100%
 
 ---
-
 
 # Bearbeiten von Plain Text-, HTML- und mobilen E-Mail-Formaten {#plain-text-and-html-modes}
 
