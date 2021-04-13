@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 feature: Übersicht
 role: Business Practitioner
-level: Anfänger
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '470'
-ht-degree: 100%
+level: Beginner
+exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
+translation-type: tm+mt
+source-git-commit: 6b0995f37251644f959425de5bfcc2620e0ef877
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 99%
 
 ---
-
 
 # Versionsplanung {#release-planning}
 
@@ -44,11 +44,11 @@ Weitere Informationen zu dieser Version werden in den [Versionshinweisen](../../
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>19. bis 20. April 2021<br /> </td>
+   <td>Bald verfügbar<br /> </td>
   </tr>
   <tr>
    <td> Produktion<br /> </td>
-   <td>26. April - 3. Mai 2021<br /> </td>
+   <td>Bald verfügbar<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ A: Die Änderungen sind in den [Versionshinweisen](../../rn/using/release-notes.
 
 **F: Was ist der Validierungsprozess?**
 
-A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse und Anwendungsfälle mit dieser neuen Version zu validieren und alle Probleme der [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) zu melden.
+A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse und Anwendungsfälle mit dieser neuen Version zu validieren und alle Probleme der [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) zu melden.
 
 **F: Kann während des Aktualisierungsprozesses auf die Instanz zugegriffen werden?**
 
@@ -87,4 +87,4 @@ A: Ja. Während der Aktualisierung können keine neuen E-Mails gesendet werden, 
 
 A: Wenn Sie sich bei Campaign anmelden, wird ein Benachrichtigungs-Popup mit der aktuellen Version angezeigt.
 
-Wenden Sie sich bei weiteren Fragen an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html).
+Wenden Sie sich bei weiteren Fragen an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
