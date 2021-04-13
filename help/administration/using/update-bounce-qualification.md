@@ -1,60 +1,60 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Aktualisierung der Absprungqualifikation nach einem ISP-Ausfall
-description: Erfahren Sie, wie Sie die Absprungqualifikation nach einem ISP-Ausfall aktualisieren.
+title: Bounce-Qualifizierung nach einem ISP-Ausfall aktualisieren
+description: Erfahren Sie, wie Sie die Bounce-Qualifizierung nach einem ISP-Ausfall aktualisieren.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Aktualisierung der Absprungqualifikation nach einem ISP-Ausfall {#update-bounce-qualification.md}
+# Bounce-Qualifizierung nach einem ISP-Ausfall aktualisieren {#update-bounce-qualification.md}
 
-Wenn Sie NICHT die neueste Version der Kampagne ausführen, gilt dieser Abschnitt möglicherweise für Sie. Wenden Sie sich an Ihren Kundenbetreuer.
+Wenn Sie NICHT die neueste Version von Campaign ausführen, gilt dieser Abschnitt möglicherweise für Sie. Wenden Sie sich an Ihren Adobe Campaign-Kundenbetreuer.
 
 ## Kontext
 
-Bei Ausfall eines ISP können per Kampagne gesendete E-Mails nicht erfolgreich an ihren Empfänger gesendet werden: Diese E-Mails werden fälschlicherweise als Absprünge gekennzeichnet.
+Bei Ausfall eines ISP können über Campaign versendete E-Mails nicht erfolgreich an ihren Empfänger zugestellt werden. Diese E-Mails werden dann fälschlicherweise als Bounces markiert.
 
-Im Dezember 2020 führte ein globales Problem bei Gmail dazu, dass einige E-Mail-Nachrichten, die an gültige Gmail-E-Mail-Adressen gesendet wurden, fälschlicherweise als ungültige E-Mail-Adressen von Gmail-Servern abgeschnitten wurden, wobei die folgende Antwort darauf lautet: *&quot;550-5.1.1 Das E-Mail-Konto, auf das Sie versucht haben zu erreichen, ist nicht vorhanden.&quot;*
+Im Dezember 2020 führte ein globales Problem bei Gmail dazu, dass einige E-Mail-Nachrichten, die an gültige Gmail-Adressen gesendet wurden, von Gmail-Servern fälschlicherweise als ungültige E-Mail-Adressen mit der folgenden Bounce-Antwort zurückgewiesen wurden: *&quot;550-5.1.1 Das E-Mail-Konto, das Sie zu erreichen versucht haben, existiert nicht.&quot;*
 
-Google hat erklärt, dass die Gmail-Ausfälle und Störungen, die dieses Problem verursacht haben, am 14. Dezember um 6:55 Uhr begonnen und am 15. Dezember um 18:09 Uhr EST beendet haben. Unsere Analyse der Daten zeigte am 16. Dezember um 2:06 Uhr EST eine sehr kurze Spitze in den Gmail-Absprüngen, die meisten am 15. Dezember zwischen 14:00 Uhr EST und 18:30 Uhr EST.
+Google hat angegeben, dass die Gmail-Ausfälle und -Störungen, die dieses Problem verursachten, am 14. Dezember um 6:55 Uhr begannen und am 15. Dezember um 18:09 Uhr EST endeten. Unsere Datenanalyse zeigte außerdem eine sehr kurze Spitze an Gmail-Bounces am 16. Dezember um 2:06 Uhr EST, wobei der Großteil am 15. Dezember zwischen 14:00 Uhr und 18:30 Uhr EST auftrat.
 
 >[!NOTE]
 >
->Sie können das Google Workspace-Status-Dashboard auf [dieser Seite](https://www.google.com/appsstatus#hl=en&amp;v=status) überprüfen.
+>Informationen dazu finden Sie im Google Workspace-Status-Dashboard auf [dieser Seite](https://www.google.com/appsstatus#hl=de&amp;v=status).
 
 
-Gemäß der standardmäßigen Absprungbearbeitungslogik hat Adobe Campaign diese Empfänger automatisch der Quarantäne-Liste mit der Einstellung **[!UICONTROL Status]** von **[!UICONTROL Quarantäne]** hinzugefügt. Um dies zu korrigieren, müssen Sie die Tabelle Ihrer Quarantäne in der Kampagne aktualisieren, indem Sie diese Empfänger suchen und entfernen oder deren **[!UICONTROL Status]** in **[!UICONTROL Gültig]** ändern, damit sie vom nächtlichen Bereinigungsarbeitsablauf entfernt werden.
+Gemäß der standardmäßigen Handhabung von Bounces hat Adobe Campaign diese Empfänger automatisch der Quarantäneliste mit dem **[!UICONTROL Status]** **[!UICONTROL Quarantäne]** hinzugefügt. Um dies zu korrigieren, müssen Sie Ihre Quarantänetabelle in Campaign aktualisieren, indem Sie diese Empfänger suchen und entfernen oder ihren **[!UICONTROL Status]** auf **[!UICONTROL Gültig]** ändern, damit der nächtliche Bereinigungs-Workflow sie entfernt.
 
-Um die Empfänger zu finden, die von dieser Gmail-Ausgabe betroffen waren, oder falls dies bei einem anderen ISP erneut passiert, lesen Sie bitte die unten stehenden Anweisungen.
+Um die Empfänger zu finden, die von diesem Gmail-Problem betroffen waren, oder für den Fall, dass dies bei einem anderen ISP erneut auftritt, lesen Sie bitte die folgenden Anweisungen.
 
 ## Aktualisierungsprozess
 
-Sie müssen eine Abfrage auf Ihrer Quarantänen-Tabelle ausführen, um alle Gmail- (oder andere ISP-) Empfänger auszufiltern, die möglicherweise von einem Ausfall betroffen waren, damit sie aus der Liste der Quarantäne entfernt und in zukünftige E-Mail-Versand der Kampagne aufgenommen werden können.
+Führen Sie eine Abfrage in Ihrer Quarantäne-Tabelle aus, um alle Gmail-Empfänger (oder Empfänger anderer ISPs) herauszufiltern, die möglicherweise von dem Ausfall betroffen waren, damit sie aus der Quarantäneliste entfernt und in zukünftige E-Mail-Sendungen von Campaign eingeschlossen werden können.
 
-Auf der Grundlage des Zeitrahmens des Vorfalls werden im Folgenden die Richtlinien für diese Abfrage empfohlen.
+Auf der Grundlage des Zeitrahmens des Vorfalls finden Sie im Folgenden die empfohlenen Richtlinien für diese Abfrage.
 
 >[!IMPORTANT]
 >
->Diese Daten/Zeiten basieren auf der Eastern Standard Zeitzone (EST). Passen Sie die Zeitzone Ihrer Instanz an.
+>Diese Daten/Zeiten basieren auf der Zeitzone &quot;Eastern Standard Time&quot; (EST). Passen Sie sie auf die Zeitzone Ihrer Instanz an.
 
-Für Instanzen von Kampagnen mit SMTP-Absprungantwortinformationen im Feld **[!UICONTROL Fehlertext]** der Liste Quarantäne:
+Für Campaign-Instanzen mit SMTP-Bounce-Antwortinformationen im Feld **[!UICONTROL Fehlertext]** der Quarantäneliste:
 
-* **Fehlertext (Quarantäne)** enthält &quot;550-5.1.1 Das E-Mail-Konto, das Sie erreichen wollten, ist nicht vorhanden&quot; UND  **Fehlertext (Quarantäne)** enthält &quot;support.google.com&quot; **
+* **Fehlertext (Quarantänetext)** enthält &quot;550-5.1.1 Das E-Mail-Konto, das Sie erreichen wollten, existiert nicht&quot; UND **Fehlertext (Quarantänetext)** enthält &quot;support.google.com&quot; **
 * **Status aktualisieren (@lastModified)** am oder nach dem 14.12.2020 6:55:00 Uhr
 * **Status aktualisieren (@lastModified)** am oder vor dem 16.12.2020 6.00:00 Uhr
 
-Sobald Sie die Liste der betroffenen Empfänger haben, können Sie diese entweder auf den Status **[!UICONTROL Gültig]** setzen, damit sie vom **[!UICONTROL Datenbankbereinigung]**-Arbeitsablauf aus der Liste der Quarantäne entfernt werden, oder sie einfach aus der Tabelle löschen.
+Sobald Sie die Liste der betroffenen Empfänger haben, können Sie diese entweder auf den Status **[!UICONTROL Gültig]** setzen, damit sie vom Workflow **[!UICONTROL Bereinigung der Datenbank]** aus der Quarantäneliste entfernt werden, oder sie einfach aus der Tabelle löschen.
 
 **Verwandte Themen:**
-* [Verstehen Sie Versand-Fehler.](../../sending/using/understanding-delivery-failures.md)
-* [Bounce-Message-Qualifizierung          ](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
+* [Ursachen für das Fehlschlagen von Sendungen](../../sending/using/understanding-delivery-failures.md)
+* [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
