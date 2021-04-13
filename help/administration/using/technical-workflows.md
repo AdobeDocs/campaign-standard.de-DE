@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: application-settings
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 translation-type: ht
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '662'
+source-wordcount: '660'
 ht-degree: 100%
 
 ---
-
 
 # Technische Workflows{#technical-workflows}
 
@@ -121,4 +121,3 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
   </tr> 
  </tbody> 
 </table>
-
