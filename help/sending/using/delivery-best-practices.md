@@ -9,15 +9,15 @@ index: y
 description: Lernen Sie Best Practices im Zusammenhang mit der Erstellung und Durchführung eines Versands mit Adobe Campaign kennen.
 feature: Zustellbarkeit
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 100%
 
 ---
-
 
 # Best Practices beim Versand {#delivery-best-practices}
 
