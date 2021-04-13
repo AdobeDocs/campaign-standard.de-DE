@@ -10,11 +10,11 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '184'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 87%
 
 ---
 
@@ -26,12 +26,13 @@ Der Endpunkt /customResources verhält sich genauso wie der Endpunkt /profileAnd
 
 Die benutzerdefinierten Ressourcen, die mit dieser API verfügbar werden, beinhalten:
 
-* alle mit der Profilentität verknüpften Entitäten
-* alle Entitäten, die mit den untergeordneten Elementen der Profilentität verknüpft sind
+* alle Entiten, die nicht unter /profileAndServicesExt verfügbar sind
 * alle Entitäten, die nicht mit dem Profil verknüpft sind, und für diese Entitäten auch die untergeordneten und weiter untergeordneten Elemente
+* standardmäßig alle Entitäten, die mit nichts verknüpft sind, sowie ihre Kinder und Enkel.
 
 >[!NOTE]
 >Die benutzerdefinierten Ressourcen, die unter /profileAndServicesExt verfügbar sind, werden nicht in der API /customResources bereitgestellt.
+
 
 Hier ein Beispiel zum Abrufen der Metadaten aus einer benutzerdefinierten Ressource:
 
