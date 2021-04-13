@@ -8,11 +8,11 @@ feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-* **[Campaign-Version 21.1 vom Februar ist online!](rn/using/release-notes.md)**<br/> Machen Sie sich mit den neuen Funktionen, Aktualisierungen und Fehlerbehebungen vertraut.
+* **[Kampagne - RTCDP-](integrating/using/get-started-sources-destinations.md)**<br/> IntegrationErfahren Sie, wie Daten zwischen Kampagne und Echtzeit-Kundendatenplattform (RTCDP) freigegeben werden
 
 * **[Aktualisieren falscher Hardbounces](https://helpx.adobe.com/de/campaign/kb/update-bounce-qualification.html)**<br/> Erfahren Sie, wie Sie falsche Hardbounces nach einem Gmail-Ausfall aktualisieren können.
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## Wichtigste Seiten
 
-<table style="table-layout:fixed">
+<table>
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
