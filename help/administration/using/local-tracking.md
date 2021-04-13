@@ -9,15 +9,15 @@ topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
 translation-type: ht
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 100%
 
 ---
-
 
 # Implementieren des lokalen Tracking {#local-tracking}
 
