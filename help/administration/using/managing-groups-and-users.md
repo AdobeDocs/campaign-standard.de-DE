@@ -9,15 +9,15 @@ topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 feature: Zugriffsverwaltung
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1020'
+source-wordcount: '1018'
 ht-degree: 100%
 
 ---
-
 
 # Gruppen und Benutzer verwalten{#managing-groups-and-users}
 
@@ -150,4 +150,3 @@ Ihre Benutzer sind jetzt einer Sicherheitsgruppe zugeordnet und können sich mit
 >[!IMPORTANT]
 >
 >Wenn Benutzer in der Admin Console aus einer Sicherheitsgruppe entfernt werden, sind sie weiterhin Mitglieder der Adobe Campaign-Sicherheitsgruppe, können sich aber nicht mehr in Adobe Campaign einloggen. Entfernen Sie in diesem Fall die E-Mail-Adressen der Benutzer aus der Admin Console, damit keine sensiblen Informationen an sie gesendet werden können.
-
