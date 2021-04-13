@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Trigger
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 61683639-3f71-4652-a138-acfc0e91e868
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
-
 
 # Campaign-Formular in Adobe Experience Manager erstellen {#creating-a-campaign-form-in-experience-manager}
 
