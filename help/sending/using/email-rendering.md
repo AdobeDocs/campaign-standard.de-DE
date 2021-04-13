@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 feature: Versandzeitpunkt optimieren
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '541'
+source-wordcount: '538'
 ht-degree: 100%
 
 ---
-
 
 # E-Mail-Rendering{#email-rendering}
 
