@@ -10,11 +10,11 @@ feature: Datenmodell
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '338'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 97%
 
 ---
 
@@ -66,5 +66,5 @@ Mit Campaign Standard-APIs können Sie Integrationen für Campaign erstellen und
 
 ## Zusätzliche Ressourcen
 
-* [Über Adobe Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md)
 * [Exportieren/Importieren benutzerdefinierter Ressourcen](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-cusres.html)
+* [Exportieren von Daten aus der Kampagne nach Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
