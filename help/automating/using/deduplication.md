@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
-
 
 # Deduplizierung{#deduplication}
 
