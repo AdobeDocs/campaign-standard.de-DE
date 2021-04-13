@@ -9,14 +9,14 @@ topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Versandzeitpunkt optimieren
 role: Business Practitioner
+exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '311'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
-
 
 # Über die Planung von Sendungen{#about-scheduling-messages}
 
@@ -53,4 +53,3 @@ Unter **[!UICONTROL Planung]** können Sie Versandoptionen für E-Mails, SMS-Nac
 * [Versandzeitpunkt optimieren](../../sending/using/optimizing-the-sending-time.md)
 * [Nachrichten in der Zeitzone des Empfängers senden](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 * [Versanddatum berechnen](../../sending/using/computing-the-sending-date.md)
-
