@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM-Integration
 role: Data Architect
-level: Erfahren
+level: Experienced
+exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '486'
+source-wordcount: '483'
 ht-degree: 100%
 
 ---
-
 
 # Datenaufnahme über APIs aktivieren {#triggering-data-ingestion-apis}
 
@@ -57,7 +57,8 @@ Die sofortige Aufnahme eines XDM-Mappings in Adobe Experience Platform wird mit 
 >
 >Um den POST API-Aufruf zur Aufnahme ausführen zu können, muss der Benutzer über die Rolle **SQL-Funktionsausführung** verfügen, die von einem Campaign Standard-Administrator vergeben werden kann, indem er das folgende JS-Skript ausführt:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
