@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 100%
 
 ---
-
 
 # Über die Integration von Campaign-POI-Daten{#about-campaign-points-of-interest-data-integration}
 
