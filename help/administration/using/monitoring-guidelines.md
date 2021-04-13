@@ -9,15 +9,15 @@ topic-tags: introduction
 index: y
 feature: Zugriffsverwaltung
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '513'
+source-wordcount: '511'
 ht-degree: 100%
 
 ---
-
 
 # Richtlinien für das Monitoring {#monitoring-guidelines}
 
