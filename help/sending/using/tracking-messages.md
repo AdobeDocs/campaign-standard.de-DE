@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: Leistungsüberwachung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
-
 
 # Nachrichten tracken{#tracking-messages}
 
