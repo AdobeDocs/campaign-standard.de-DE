@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: list-of-reports
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
-
 
 # In-App-Bericht{#in-app-report}
 
@@ -47,4 +47,3 @@ Die zweite Tabelle **In-App-Klicks &amp; -Abweisungen** ist in drei Kategorien u
 * **[!UICONTROL In-App-Einzelklicks]**: Gesamtzahl der Klicks auf Schaltfläche 1 oder Schaltfläche 2 durch Empfänger
 * **[!UICONTROL In-App-Abweisungen]**: Gesamtzahl der Nachrichten, die von Benutzern verworfen wurden, indem diese entweder die Schließen-Schaltfläche oder die automatische Funktion zum Entfernen der Nachricht verwendet haben
 * **[!UICONTROL Einzelne In-App-Abweisungen]**: Anzahl der verworfenen In-App-Nachrichten durch Empfänger
-
