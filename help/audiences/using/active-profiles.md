@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: managing-profiles
 feature: Profile
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 22516348-7695-4579-99eb-480e5b723ccc
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '316'
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # Aktive Profile{#active-profiles}
 
