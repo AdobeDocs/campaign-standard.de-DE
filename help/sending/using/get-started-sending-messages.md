@@ -7,15 +7,15 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # Erste Schritte mit Testen und Senden {#about-sending-messages-with-campaign}
 
