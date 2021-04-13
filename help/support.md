@@ -9,25 +9,25 @@ topic-tags: latest-release-notes
 hidefromtoc: true
 feature: Hilfe und Support-Optionen
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '593'
+source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # Hilfe- und Support-Optionen für Campaign Standard {#help-support-options}
 
 Benötigen Sie Unterstützung für Campaign Standard? Dann sind Sie hier genau richtig!
 
-Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Online-Ressourcen und das Supportportal. Sie können auch der Campaign-Community beitreten, dort Experten konsultieren oder alternativ dazu ein Ticket erstellen.
+Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Online-Ressourcen und das Supportportal. Sie können auch der Campaign-Community beitreten, die Experten fragen oder ein Ticket erstellen.
 
 <table>
     <tr>
-        <td><img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Allgemeine Probleme und Best Practices</a></p></td>
+        <td><img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Häufige Probleme und Best Practices</a></p></td>
         <td><img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Campaign Control Panel</a></p></td>
         <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Hilfe anfordern</a></p></td>
     </tr>
@@ -97,22 +97,22 @@ Das Control Panel ermöglicht Produktadministratoren von Adobe Campaign Standard
 
 ### Zugriff auf das Control Panel
 
- Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=de#discover-control-panel), um weitere Informationen zu erhalten.
+Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=de#discover-control-panel), um weitere Informationen zu erhalten.
 
-### Control Panel – Häufig gestellte Fragen
+### Control Panel – häufig gestellte Fragen
 
 [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de), um die häufig gestellten Fragen zum Campaign Control Panel aufzurufen.
 
 ### SFTP-Verwaltung
 
-Über das Control Panel können Sie alle SFTP-Server verwalten, die mit Campaign-Instanzen verbunden sind, auf die Sie Zugriff haben. Sie können ihre Speicherkapazitäten überwachen sowie das Setzen von IP-Adressen auf die Zulassungsliste und öffentliche SSH-Schlüssel verwalten. [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=de#sftp-management), um weitere Informationen zu erhalten.
+Über das Control Panel können Sie alle SFTP-Server verwalten, die mit den Campaign-Instanzen verbunden sind, auf die Sie Zugriff haben. Sie können ihre Speicherkapazitäten überwachen sowie IP-Adressen auf der Zulassungsliste und öffentliche SSH-Schlüssel verwalten. [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=de#sftp-management), um weitere Informationen zu erhalten.
 
-### Subdomains und Zertifikate
+### Sub-Domains und Zertifikate
 
-Sie können Ihre Subdomains und die ihnen zugehörigen Zertifikate überwachen. Mehr dazu:
+Sie können Ihre Sub-Domains und deren Zertifikate überwachen. Mehr dazu:
 
-* [Subdomain-Branding](https://experienceleague.adobe.com/docs/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de#subdomains-and-certificates)
-* [Einrichten einer neuen Subdomain](https://experienceleague.adobe.com/docs/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de#subdomains-and-certificates)
+* [Sub-Domain-Branding](https://experienceleague.adobe.com/docs/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de#subdomains-and-certificates)
+* [Einrichten einer neuen Sub-Domain](https://experienceleague.adobe.com/docs/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de#subdomains-and-certificates)
 * [Überwachung von SSL-Zertifikaten](https://experienceleague.adobe.com/docs/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de#subdomains-and-certificates)
 
 ## Hilfe anfordern
@@ -123,7 +123,7 @@ Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsol
 
 ### Fragen an Experten
 
-Treten Sie der Campaign Classic-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Treten Sie der Campaign Classic-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage der Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Erstellen Sie ein Ticket oder starten Sie einen Chat
 
