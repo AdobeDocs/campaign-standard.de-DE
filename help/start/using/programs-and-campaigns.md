@@ -9,15 +9,15 @@ topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
 feature: Kampagnen
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
-
 
 # Programme und Kampagnen{#programs-and-campaigns}
 
@@ -103,4 +103,3 @@ Jedem Programm und jeder Kampagne der Liste ist eine Miniaturansicht beigefügt 
 * Grün: Das Programm/die Kampagne hat sein/ihr Enddatum überschritten - Status **[!UICONTROL Abgeschlossen]**. Standardmäßig entspricht das Gültigkeitsstartdatum automatisch dem aktuellen Datum, und das Enddatum wird in Bezug auf das Startdatum berechnet (**T+186 Tage**). Bei Bedarf können Sie diese Daten in den Eigenschaften des Programms bzw. der Kampagne anpassen.
 
 ![](assets/programs_and_campaigns.png)
-
