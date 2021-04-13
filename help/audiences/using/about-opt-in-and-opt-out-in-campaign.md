@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 feature: Audiences
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
-
 
 # Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign{#about-opt-in-and-opt-out-in-campaign}
 
