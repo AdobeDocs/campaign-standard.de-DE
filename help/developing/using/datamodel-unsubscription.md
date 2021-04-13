@@ -6,16 +6,16 @@ description: Informationen zum Datenmodell
 audience: developing
 content-type: reference
 feature: Datenmodell
-role: Entwickler
-level: Erfahren
+role: Developer
+level: Experienced
+exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 100%
 
 ---
-
 
 # Abmeldeereignis (nms:rtEvent)
 
