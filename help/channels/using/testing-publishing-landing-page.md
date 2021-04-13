@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: landing-pages
 feature: Landing Pages
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: af849377-686f-45b3-bf6e-5069a8966987
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
-
 
 # Landingpage testen und veröffentlichen{#testing-publishing--landing-page}
 
