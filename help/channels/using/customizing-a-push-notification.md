@@ -9,15 +9,15 @@ topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 feature: Push-Benachrichtigung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1560'
+source-wordcount: '1557'
 ht-degree: 100%
 
 ---
-
 
 # Push-Benachrichtigung anpassen{#customizing-a-push-notification}
 
