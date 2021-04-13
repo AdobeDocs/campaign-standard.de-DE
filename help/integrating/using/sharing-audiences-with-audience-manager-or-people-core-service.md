@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service-Integration
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '861'
+source-wordcount: '858'
 ht-degree: 100%
 
 ---
-
 
 # Audiences mit Audience Manager oder People Core Service freigeben{#sharing-audiences-with-audience-manager-or-people-core-service}
 
@@ -84,4 +84,3 @@ Die Synchronisation von Adobe Campaign und People Core Service dauert 24 bis 36 
 
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Audiences](../../audiences/using/about-audiences.md)
-
