@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 feature: Datenmodell
-role: Entwickler
-level: Erfahren
+role: Developer
+level: Experienced
+exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '63'
+source-wordcount: '61'
 ht-degree: 100%
 
 ---
-
 
 # Schritt 3: Erweiterung überprüfen{#step-verify-the-extension}
 
@@ -31,4 +31,3 @@ ht-degree: 100%
    ![](assets/extendpandsapiview.png)
 
    Das Feld steht nun zur Verfügung und kann für weitere Entwicklungs- und Integrationszwecke genutzt werden.
-
