@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Trigger
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1026'
+source-wordcount: '1023'
 ht-degree: 100%
 
 ---
-
 
 # Anwendungsbeispiele zu Triggern für die abgebrochene Suche{#abandonment-triggers-use-cases}
 
@@ -164,4 +164,3 @@ Mit dem Bereich **[!UICONTROL Metadaten einschließen]** können Sie die von Ana
 1. Kurze Zeit später erhält derselbe Besucher/Empfänger eine Remarketing-Nachricht. In der Nachricht wird das kürzlich gesuchte Reiseziel genannt.
 
    ![](assets/trigger_uc_search_7.png)
-
