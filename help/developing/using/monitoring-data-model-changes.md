@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 feature: Datenmodell
-role: Entwickler
-level: Erfahren
+role: Developer
+level: Experienced
+exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
-
 
 # Änderungen an Datenmodellen verfolgen{#monitoring-data-model-changes}
 
@@ -35,4 +35,3 @@ Folgende Objekte sind sichtbar:
 * Filter
 * Navigation
 * Batch-Vorgänge
-
