@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Trigger
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '454'
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
-
 
 # Trigger testen{#testing-your-triggers}
 
@@ -84,4 +84,3 @@ Wenn die Nachricht nicht gültig ist, überprüfen Sie die folgenden Elemente:
 
 * Validieren Sie die Transaktionsvorlage der als ungültig gekennzeichneten Trigger-Anreicherungs-Personalisierungsfelder in den verknüpften eventCusResource-Kollektionen.
 * Validieren Sie das Nachrichtenformat.
-
