@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: Profile
 role: Business Practitioner
-level: Anfänger
+level: Beginner
+exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '608'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # Erste Schritte mit Profilen und Audiences{#about-profiles-and-audiences}
 
