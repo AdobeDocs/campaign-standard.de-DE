@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: cusResource,main
 feature: Datenmodell
-role: Entwickler
-level: Erfahren
+role: Developer
+level: Experienced
+exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '685'
+source-wordcount: '683'
 ht-degree: 100%
 
 ---
-
 
 # Bildschirmdefinition konfigurieren{#configuring-the-screen-definition}
 
