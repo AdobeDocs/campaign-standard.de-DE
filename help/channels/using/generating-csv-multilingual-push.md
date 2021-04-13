@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: email-messages
 feature: Push-Benachrichtigung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1145'
+source-wordcount: '1142'
 ht-degree: 100%
 
 ---
-
 
 # CSV-Datei für mehrsprachige Push-Benachrichtigungen erstellen{#generating-csv-multilingual-push}
 
