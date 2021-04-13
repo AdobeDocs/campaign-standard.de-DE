@@ -10,11 +10,11 @@ feature: Profile
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '605'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +88,7 @@ Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werde
 
 ## Zusätzliche Ressourcen
 
-* [Audience Ziel-Dienst verwenden](../../integrating/using/aep-about-audience-destinations-service.md)
+* [Adobe Experience Platform-Audiencen in die Kampagne integrieren](../../integrating/using/ingest-aep-data.md)
 * [Microsoft Dynamics 365 verwenden](../../integrating/using/d365-acs-get-started.md)
 * [Für Adobe freigegebene Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows zum Importieren von Profilen verwenden](../../automating/using/creating-import-workflow-templates.md)
