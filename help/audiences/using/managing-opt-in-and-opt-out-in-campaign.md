@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 feature: Audiences
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '333'
+source-wordcount: '330'
 ht-degree: 100%
 
 ---
-
 
 # Opt-in- und Opt-out-Verfahren in Campaign verwalten{#managing-opt-in-and-opt-out-in-campaign}
 
@@ -59,4 +59,3 @@ Um Empfängern die Möglichkeit zu geben, sich aus allen Sendungen ausschließen
 Sobald ein Empfänger den Link in der Landingpage auswählt, wird automatisch die Option **[!UICONTROL Nicht mehr kontaktieren (alle Kanäle)]** im Profil des Empfängers aktiviert.
 
 ![](assets/blocklisting_allchannels.png)
-
