@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: editing-email-content
 feature: E-Mail-Erstellung
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
-
 
 # E-Mails des alten Editors in Email Designer konvertieren {#converting-an-html-content}
 
