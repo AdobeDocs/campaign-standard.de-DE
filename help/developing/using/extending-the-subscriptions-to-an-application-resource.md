@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 feature: Datenmodell
-role: Entwickler
-level: Erfahren
+role: Developer
+level: Experienced
+exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 100%
 
 ---
-
 
 # App-Abonnements-Ressource erweitern{#extending-the-subscriptions-to-an-application-resource}
 
@@ -49,4 +49,3 @@ Diese Ressource kann erweitert werden, um die Daten festzulegen, die vom Mobilge
    ![](assets/in_app_personal_data_3.png)
 
 1. **[!UICONTROL Speichern]** und publizieren Sie dann Ihre benutzerdefinierte Ressource. Weiterführende Informationen zur Publikation benutzerdefinierter Ressourcen finden Sie auf dieser [Seite](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-
