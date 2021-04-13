@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: wait,main
 feature: Workflows
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
-
 
 # Warten{#wait}
 
@@ -56,4 +56,3 @@ Der Workflow stellt sich folgendermaßen dar:
 * Eine **[!UICONTROL Warten]**-Aktivität von 24 Stunden platziert eine Pause zwischen dem Versand der Einladung und dem Fortgang des Workflows.
 * Eine zweite **[!UICONTROL Abfrage]** ermöglicht die Bestimmung der Zielgruppe mit den Profilen, die die erste Mail erhalten, aber nicht den darin enthaltenen Anmelde-Link angeklickt haben.
 * Ein zweiter **[!UICONTROL E-Mail-Versand]** dient dazu, eine Einladungs-Erinnerung an die in der zweiten Abfrage ausgewählten Personen zu senden.
-
