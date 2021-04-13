@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: application-settings
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # Aktualisierungen und Wartungsmaßnahmen{#updates-and-maintenance-operations}
 
