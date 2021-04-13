@@ -9,15 +9,15 @@ topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Zustellbarkeit
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 5e523519-7192-4031-9d96-559af23074d9
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '749'
+source-wordcount: '746'
 ht-degree: 100%
 
 ---
-
 
 # Was ist Zustellbarkeit?{#about-deliverability}
 
