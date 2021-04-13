@@ -9,15 +9,15 @@ index: y
 description: '"Erfahren Sie, wie Sie im Anschluss an die Fertigstellung Ihrer Nachricht alle Prüfungen durchführen, bevor Sie sie versenden."'
 feature: Zustellbarkeit
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
-
 
 # Durchführen aller Prüfungen vor dem Senden {#perform-all-checks}
 
@@ -64,4 +64,3 @@ Wenn mehrere Versionen von Inhalten für den E-Mail-Versand vorhanden sind, kön
 * Wählen Sie die Version mit der höchsten Erfolgsquote aus und senden Sie sie an die restliche Zielgruppe.
 
 Weiterführende Informationen finden Sie [in diesem Abschnitt](../../channels/using/designing-an-a-b-test-email.md).
-
