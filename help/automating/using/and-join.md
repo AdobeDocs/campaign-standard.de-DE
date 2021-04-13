@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 100%
 
 ---
-
 
 # Und-Verknüpfung{#and-join}
 
@@ -45,4 +45,3 @@ Bei einer **[!UICONTROL Und-Verknüpfung]** wird die ausgehende Transition erst 
 Das folgende Beispiel zeigt die Ausführung der zwei Zweige eines Workflows, bevor diese in der **[!UICONTROL Und-Verknüpfung]** zusammenfließen. Die Dateiextraktion kann erst erfolgen, wenn die drei in die **[!UICONTROL Und-Verknüpfung]** eingehenden Transitionen aktiviert wurden.
 
 ![](assets/wkf_and-join_example.png)
-
