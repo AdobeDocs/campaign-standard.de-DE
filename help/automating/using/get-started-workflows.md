@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
-level: Anfänger
+level: Beginner
+exl-id: 26be942a-c252-458f-a590-eb235567ca67
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '523'
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
-
 
 # Erste Schritte mit Prozessen und Daten-Management {#get-started-processes-data-management}
 
