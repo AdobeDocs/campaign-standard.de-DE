@@ -9,15 +9,15 @@ topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Zustellbarkeit
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '801'
+source-wordcount: '798'
 ht-degree: 100%
 
 ---
-
 
 # Kontrollieren von E-Mail-Inhalten{#control-email-content}
 
