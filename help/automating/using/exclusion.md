@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
-
 
 # Ausschluss{#exclusion}
 
@@ -51,4 +51,3 @@ Aus den verschiedenen eingehenden Transitionen wird eine Hauptmenge bestimmt. Di
 Unten stehende Abbildung zeigt die Konfiguration zweier Abfrageaktivitäten, die alle Profile der Adobe-Campaign-Datenbank abrufen, die zwischen 18 und 27 Jahre alt sind bzw. deren E-Mail-Adresse nicht korrekt angegeben ist. Letztere werden dann von der Hauptmenge ausgeschlossen. Auf diese Weise wird in einem eventuell angeschlossenen Versand vermieden, Nachrichten an ungültige Adressen zu versenden.
 
 ![](assets/wkf_exclusion_example.png)
-
