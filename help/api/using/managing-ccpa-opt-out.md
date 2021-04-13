@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
-level: Erfahren
+level: Experienced
+exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 100%
 
 ---
-
 
 # Verwalten des CCPA-Opt-outs {#managing-ccpa-optout}
 
