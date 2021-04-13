@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: troubleshooting
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 translation-type: ht
-source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '690'
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
-
 
 # Fehlerbehebung{#troubleshooting}
 
