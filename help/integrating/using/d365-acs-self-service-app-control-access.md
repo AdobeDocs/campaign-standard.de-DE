@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM-Integration
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '428'
+source-wordcount: '425'
 ht-degree: 100%
 
 ---
-
 
 # Zugriff auf die Selfservice-Anwendung zur Integration von Adobe Campaign Standard mit Microsoft Dynamics 365
 
