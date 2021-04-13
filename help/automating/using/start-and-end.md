@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
-level: Fortgeschritten
+level: Intermediate
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '298'
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
-
 
 # Start und Ende{#start-and-end}
 
@@ -51,4 +51,3 @@ Es ist empfehlenswert, einen Workflow mit einer **[!UICONTROL Ende]**-Aktivität
 Unten stehende Abbildung zeigt einen komplexen Workflow mit einem **[!UICONTROL Start]** und mehreren **[!UICONTROL Ende]**-Aktivitäten. Die Option **[!UICONTROL Alle laufenden Aufgaben anhalten]** wurde beim ersten **[!UICONTROL Ende]** aktiviert. Dies bedeutet, dass nach Abschluss dieser Aufgabe der gesamte Workflow gestoppt wird. Das gleiche Ergebnis kann mit der Schaltfläche ![](assets/stop_darkgrey-24px.png) erzielt werden (siehe den Abschnitt[Symbolleiste](../../automating/using/workflow-interface.md#action-bar))..
 
 ![](assets/wkf_start_end_example.png)
-
