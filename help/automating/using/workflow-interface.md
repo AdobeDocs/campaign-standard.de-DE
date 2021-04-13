@@ -9,15 +9,15 @@ topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
 feature: Workflows
 role: Data Architect
-level: Anfänger
+level: Beginner
+exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '860'
+source-wordcount: '857'
 ht-degree: 100%
 
 ---
-
 
 # Workflow-Oberfläche{#workflow-interface}
 
@@ -157,4 +157,3 @@ Sie können auch mehrere Aktivitäten mit Copy &amp; Paste kopieren, sodass ein 
 Wählen Sie dabei die Aktivitäten aus, indem Sie rund um sie einen Kreis ziehen. Wählen Sie dann in der Symbolleiste die Schaltfläche **[!UICONTROL Auswahl kopieren]** aus (oder drücken Sie **Strg + C**). Danach können Sie die Aktivitäten an der gewünschten Position einfügen.
 
 ![](assets/wkf_copypaste3.png)
-
