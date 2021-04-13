@@ -9,15 +9,15 @@ topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Instanzeneinstellungen
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1333'
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
-
 
 # Marken {#branding}
 
@@ -200,4 +200,3 @@ Um eine mit einer Marke verknüpfte E-Mail zu erstellen, gehen Sie wie folgt vor
 1. Ihre E-Mail ist bereits konfiguriert. Sie haben die Möglichkeit, die Informationen der E-Mail zu überprüfen, bevor Sie sie mithilfe von Testprofilen testen und anschließend an Ihre Audience senden.
 
    ![](assets/branding_16.png)
-
