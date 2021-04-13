@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
 feature: Kontrollgruppen
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 553897d4-2652-453f-960e-bb2993889f37
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1468'
+source-wordcount: '1465'
 ht-degree: 100%
 
 ---
-
 
 # Kontrollgruppe hinzufügen {#adding-control-group}
 
