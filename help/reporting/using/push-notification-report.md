@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: list-of-reports
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '409'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # Bericht zu Push-Benachrichtigungen{#push-notification-report}
 
@@ -51,4 +51,3 @@ Die zweite Tabelle **Klicks &amp; Öffnungen in Push-Benachrichtigungen** ist in
 * **[!UICONTROL Einzelklicks]**: Anzahl der Interaktionen eines eindeutigen Benutzers mit der Push-Benachrichtigung, z. B. Klicks auf die Benachrichtigung oder die Schaltfläche
 * **[!UICONTROL Öffnungen]**: Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und vom Benutzer angeklickt wurden, sodass die App geöffnet wurde. Dies ist ähnlich der Push-Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.
 * **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
-
