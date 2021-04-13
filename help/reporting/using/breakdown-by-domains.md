@@ -9,15 +9,15 @@ topic-tags: list-of-reports
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 feature: Berichte
 role: Leader
-level: Fortgeschritten
+level: Intermediate
+exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '238'
+source-wordcount: '236'
 ht-degree: 100%
 
 ---
-
 
 # Verteilung nach Domain{#breakdown-by-domains}
 
@@ -41,4 +41,3 @@ Die zweite Tabelle **Trackingstatistiken** enthält die verfügbaren Daten bezü
 * **Abgemeldet**: Gesamtanzahl der Klicks auf den Abmelde-Link.
 * **Mirrorseite**: Die Anzahl der Klicks auf die Mirrorseite.
 * **Auf Blockierungsliste**: Zahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
