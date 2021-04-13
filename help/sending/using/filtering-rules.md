@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-typology-rules
 feature: Typologieregeln
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '724'
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
-
 
 # Filterregeln {#filtering-rules}
 
