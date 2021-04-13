@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: managing-subscriptions
 feature: Audiences
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
+exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
-
 
 # Anmeldungen verfolgen{#monitoring-subscriptions}
 
@@ -68,4 +68,3 @@ Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeige
 Um festzustellen, für welche Dienste sich ein Kontakt angemeldet hat, können Sie die Liste im Marketingverlauf des entsprechenden Profils zu Rate ziehen. Näheres hierzu finden Sie im Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)
-
