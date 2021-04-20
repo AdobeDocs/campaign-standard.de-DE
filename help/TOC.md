@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -270,9 +270,9 @@ ht-degree: 98%
    + Campaign und Adobe Experience Platform {#adobe-experience-platform}
       + Adobe Experience Platform-Quellen und -Ziele {#aep-sources-destinations}
          + [Erste Schritte mit Quellen und Zielen](integrating/using/get-started-sources-destinations.md)
-         + [Adobe Experience Platform-Audiencen in die Kampagne integrieren](integrating/using/ingest-aep-data.md)
-         + [Exportieren von Daten aus der Kampagne nach Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + Audience Destination Service (Beta) {#audience-destinations}
+         + [Adobe Experience Platform-Zielgruppen in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
+         + [Exportieren von Daten aus Campaign nach Adobe Experience Platform](integrating/using/export-campaign-data.md)
+      + Audience Destinations Service (Beta) {#audience-destinations}
          + [Über den Audience Destinations-Dienst](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
          + [ Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
