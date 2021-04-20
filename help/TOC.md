@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 100%
 
