@@ -6,7 +6,7 @@ description: Mit dem Berichtszeitraum Ihres Berichts können Sie Ihre Daten ents
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1fa05187-0488-4649-b903-079bfa4628f1

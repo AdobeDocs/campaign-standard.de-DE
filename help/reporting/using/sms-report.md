@@ -6,7 +6,7 @@ description: 'Im vordefinierten Bericht über SMS erfahren Sie über die Wirkung
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1d04bcd0-77f7-4bf0-a322-ec5cb5c1ce14

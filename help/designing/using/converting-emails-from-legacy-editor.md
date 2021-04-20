@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie im alten Editor erstellte E-Mails in Email De
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7

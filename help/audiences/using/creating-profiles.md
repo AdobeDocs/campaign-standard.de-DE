@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie Profile erstellen und mithilfe von APIs 
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profile
+feature: Profiles
 role: Business Practitioner
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b

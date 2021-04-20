@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Adobe Campaign konfiguriert werden muss, dam
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db

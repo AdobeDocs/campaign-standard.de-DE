@@ -6,7 +6,7 @@ description: Reichern Sie das Datenmodell von Campaign Standard mit benutzerdefi
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Datenmodell
+feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d

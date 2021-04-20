@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie vorgehen müssen, um eine Ressource im D
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-feature: Datenmodell
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd9747df-cf2f-4837-8438-d12e695cda47

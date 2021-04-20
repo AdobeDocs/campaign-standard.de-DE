@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie Nachrichten in der Zeitzone des Empfäng
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Testversand
+feature: Proofs
 role: Business Practitioner
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024

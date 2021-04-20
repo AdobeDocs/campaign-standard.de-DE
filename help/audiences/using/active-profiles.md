@@ -6,7 +6,7 @@ description: Sie können auf einen eigenen Bericht mit Kundenmetriken zugreifen 
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profile
+feature: Profiles
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc

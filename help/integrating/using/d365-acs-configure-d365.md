@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie Microsoft Dynamics 365 für die Integration m
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee

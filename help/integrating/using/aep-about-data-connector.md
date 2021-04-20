@@ -6,7 +6,7 @@ description: Verwalten Sie XDM-Schemata, um Ihre Campaign Standard-Daten in Adob
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c

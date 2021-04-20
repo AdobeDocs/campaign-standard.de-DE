@@ -6,7 +6,7 @@ description: Technische Workflows sind vordefinierte Workflows für im Hintergru
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57

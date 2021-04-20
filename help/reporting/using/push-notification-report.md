@@ -6,7 +6,7 @@ description: Im vordefinierten Bericht über Push-Benachrichtigungen erfahren Si
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0

@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie Zustellprobleme in Campaign vermeiden k√
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Zustellbarkeit
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa

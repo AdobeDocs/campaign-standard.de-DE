@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie dynamischen Inhalt von Adobe Target in A
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e

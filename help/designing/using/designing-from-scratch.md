@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie in Email Designer E-Mails aus neuen E-Mail-In
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2

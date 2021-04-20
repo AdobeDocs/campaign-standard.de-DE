@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie Bilder in E-Mails mit Email Designer verwalte
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2

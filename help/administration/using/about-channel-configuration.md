@@ -6,7 +6,7 @@ description: '"Jeder Kanal muss konfiguriert werden: technische Konfiguration, N
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898

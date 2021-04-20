@@ -6,7 +6,7 @@ description: Mit mehrsprachigen Push-Benachrichtigungen können Sie Benutzer in 
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-feature: Push-Benachrichtigung
+feature: Push
 role: Business Practitioner
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8

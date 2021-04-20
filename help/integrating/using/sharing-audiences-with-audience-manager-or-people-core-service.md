@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie Ihre Audience in die unterschiedlichen A
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People Core Service-Integration
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e

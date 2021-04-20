@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Campaign-Dynamics-Integrationsanwendung k
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547

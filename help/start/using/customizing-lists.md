@@ -6,7 +6,7 @@ description: '"Hier erfahren Sie, wie Sie in Adobe Campaign Standard die Anzeige
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Kampagnen
+feature: Campaigns
 role: Business Practitioner
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c

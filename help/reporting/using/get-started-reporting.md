@@ -6,7 +6,7 @@ description: Analysieren Sie den Erfolg Ihrer Kampagnen mit integrierten oder be
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016

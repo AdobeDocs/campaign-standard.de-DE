@@ -6,7 +6,7 @@ description: 'Benutzer von Adobe Campaign verfügen über bestimmte Rollen. Im F
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638

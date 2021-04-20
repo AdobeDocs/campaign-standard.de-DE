@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen, verwalten
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Transaktionsnachrichten
+feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26

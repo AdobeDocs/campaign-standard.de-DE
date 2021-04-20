@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie E-Mails mit Adobe Campaign Standard unter Ver
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Leistungsüberwachung
+feature: Performance Monitoring
 role: Business Practitioner
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b

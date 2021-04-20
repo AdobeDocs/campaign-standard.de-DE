@@ -6,7 +6,7 @@ description: Erstellen Sie E-Mail-Inhalte von Grund auf neu, importieren Sie HTM
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8

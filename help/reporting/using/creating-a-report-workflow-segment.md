@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie den Erfolg Ihres Versands anhand der Wor
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f

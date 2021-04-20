@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie die Adobe-Target-Integration konfigurier
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac

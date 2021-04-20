@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 654957b0-98b5-43f2-8699-4531859ef76e

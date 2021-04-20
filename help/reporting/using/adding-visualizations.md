@@ -6,7 +6,7 @@ description: Dynamische Berichte bieten mehrere Möglichkeiten von Visualisierun
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: a6bf2393-ebb8-49c8-bdc9-d243c227bee9

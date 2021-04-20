@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie mit der REST API auf das erweiterte Feld
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Datenmodell
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d

@@ -6,7 +6,7 @@ description: Durch das Hochladen einer CSV-Datei zum Generieren von Inhalten fü
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Push-Benachrichtigung
+feature: Push
 role: Business Practitioner
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656

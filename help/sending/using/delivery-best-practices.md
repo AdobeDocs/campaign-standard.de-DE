@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Lernen Sie Best Practices im Zusammenhang mit der Erstellung und Durchführung eines Versands mit Adobe Campaign kennen.
-feature: Zustellbarkeit
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a

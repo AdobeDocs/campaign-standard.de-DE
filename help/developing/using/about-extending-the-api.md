@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie für die benutzerdefinierten Ressourcenprofil
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Datenmodell
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431

@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: c527e890-2b49-4422-a866-e55a6468c54b

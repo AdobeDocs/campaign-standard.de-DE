@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie in Email Designer E-Mails mithilfe von Adobe 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470

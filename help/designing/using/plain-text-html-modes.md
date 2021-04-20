@@ -6,7 +6,7 @@ description: Entdecken Sie den Plain Text- und den HTML-Modus
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e

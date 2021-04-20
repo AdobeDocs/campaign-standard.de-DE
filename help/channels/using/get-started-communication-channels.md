@@ -6,7 +6,7 @@ description: Erstellen Sie personalisierte Nachrichten auf verschiedenen Kanäle
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Übersicht
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f

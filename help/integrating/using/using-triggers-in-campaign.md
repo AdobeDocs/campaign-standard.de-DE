@@ -5,7 +5,7 @@ title: Trigger in Campaign verwenden
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd

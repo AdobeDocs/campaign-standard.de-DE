@@ -6,7 +6,7 @@ description: Sie können Adobe-Campaign-Benutzer mithilfe von Rollen, Gruppen un
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb

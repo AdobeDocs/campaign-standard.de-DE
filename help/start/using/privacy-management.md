@@ -6,7 +6,7 @@ description: Erfahren Sie mehr über die Adobe Campaign Standard-Funktionen zur 
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Datenschutz
+feature: Privacy
 role: Business Practitioner
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a

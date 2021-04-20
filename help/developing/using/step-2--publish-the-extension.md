@@ -5,7 +5,7 @@ title: '"Schritt 2: Erweiterung veröffentlichen"'
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Datenmodell
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c

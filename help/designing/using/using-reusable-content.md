@@ -6,7 +6,7 @@ description: Beginnen Sie in Email Designer mit dem Erstellen wiederverwendbarer
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4

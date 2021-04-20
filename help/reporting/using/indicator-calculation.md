@@ -6,7 +6,7 @@ description: Hier erhalten Sie Informationen über die Ergebnisse Ihrer Berichte
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e

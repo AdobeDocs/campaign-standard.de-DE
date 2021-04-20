@@ -6,7 +6,7 @@ description: Entdecken Sie wichtige Funktionen, die Benutzeroberfläche und glob
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Übersicht
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39

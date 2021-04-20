@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie eine E-Mail in Email Designer personalisieren
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d

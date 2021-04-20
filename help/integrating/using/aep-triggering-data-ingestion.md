@@ -6,7 +6,7 @@ description: Erfahren Sie, wie die Datenerfassung über APIs aktiviert wird.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc

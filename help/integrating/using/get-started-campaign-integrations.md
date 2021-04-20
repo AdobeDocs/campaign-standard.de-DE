@@ -6,7 +6,7 @@ description: Verwenden Sie andere Lösungen von Adobe und kombinieren Sie ihre v
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442

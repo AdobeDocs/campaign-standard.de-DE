@@ -6,7 +6,7 @@ description: Durch die Integration von Adobe Experience Manager können Sie Form
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868

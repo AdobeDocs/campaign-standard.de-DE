@@ -6,7 +6,7 @@ description: Mithilfe von Filterregeln können Sie die Zielgruppe Ihrer Nachrich
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typologieregeln
+feature: Typology Rules
 role: Business Practitioner
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35

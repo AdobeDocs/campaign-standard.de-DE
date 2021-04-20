@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76

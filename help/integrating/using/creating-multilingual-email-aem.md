@@ -6,7 +6,7 @@ description: Durch die Integration von Adobe Experience Manager können Sie Inha
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc

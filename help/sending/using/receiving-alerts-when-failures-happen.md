@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Versandwarnungen verwendet werden.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Testversand
+feature: Proofs
 role: Business Practitioner
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d

@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie einen Versand vorbereiten.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Versandzeitpunkt optimieren
+feature: Send Time Optimization
 role: Business Practitioner
 level: Intermediate
 exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51

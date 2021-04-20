@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push-Benachrichtigung
+feature: Push
 role: Business Practitioner
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468

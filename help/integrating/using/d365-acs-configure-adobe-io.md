@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Adobe I/O für die Integration mit Microsoft 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82

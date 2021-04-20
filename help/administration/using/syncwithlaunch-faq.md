@@ -6,7 +6,7 @@ description: Häufig gestellte Fragen zum technischen Workflow für Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830

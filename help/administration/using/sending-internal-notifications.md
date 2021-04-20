@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie Adobe Campaign-Benutzern in Echtzeit Systembe
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5

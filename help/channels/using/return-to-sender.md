@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie sich vom Vorhandensein einer falschen An
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Briefpost
+feature: Direct Mail
 role: Business Practitioner
 level: Intermediate
 exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899

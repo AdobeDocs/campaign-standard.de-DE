@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie vorhandene Profile bearbeiten und auf Ko
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profile
+feature: Profiles
 role: Business Practitioner
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164

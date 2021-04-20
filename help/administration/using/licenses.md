@@ -6,7 +6,7 @@ description: Hier erfahren Sie Wissenswertes zu auf Ihrer Instanz installierten 
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc

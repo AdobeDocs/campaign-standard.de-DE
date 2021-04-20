@@ -6,7 +6,7 @@ description: Anhand dieser Anwendungsbeispiele erfahren Sie, wie Sie die Integra
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658

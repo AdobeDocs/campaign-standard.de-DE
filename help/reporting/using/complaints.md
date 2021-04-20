@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 8de120e9-014f-4faa-948b-843b2ec03f5e

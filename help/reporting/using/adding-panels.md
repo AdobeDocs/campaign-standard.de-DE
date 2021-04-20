@@ -6,7 +6,7 @@ description: Dynamische Berichte erm√∂glichen es Ihnen, ein Bedienfeld hinzuzuf√
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50

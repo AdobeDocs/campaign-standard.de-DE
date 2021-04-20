@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie eine Nachricht im Inhaltseditor oder in 
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Testadresse
+feature: Seed Address
 role: Business Practitioner
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85

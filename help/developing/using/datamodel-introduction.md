@@ -6,7 +6,7 @@ description: Erfahren Sie mehr über das Adobe Campaign-Datenmodell.
 audience: developing
 content-type: reference
 context-tags: cusResource,overview;eventCusResource,overview
-feature: Datenmodell
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c4d6d420-1058-4ca7-bb39-717c56329e05

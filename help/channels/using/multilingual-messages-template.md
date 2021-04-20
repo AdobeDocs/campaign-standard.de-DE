@@ -6,7 +6,7 @@ description: Hier erhalten Sie Informationen über die Definition und Ausführun
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Mehrsprachige Nachrichten
+feature: Multilingual Messages
 role: Business Practitioner
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be

@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie die Integration von Adobe Analytics konf
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Erfahren Sie, wie Sie im Anschluss an die Fertigstellung Ihrer Nachricht alle Prüfungen durchführen, bevor Sie sie versenden."'
-feature: Zustellbarkeit
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be

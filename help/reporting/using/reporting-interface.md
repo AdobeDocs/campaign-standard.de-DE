@@ -6,7 +6,7 @@ description: Hier erhalten Sie Informationen zur Benutzeroberfläche von dynamis
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1

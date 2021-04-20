@@ -6,7 +6,7 @@ description: Entdecken Sie die Benutzer- und -Berechtigungsverwaltung, Monitorin
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b

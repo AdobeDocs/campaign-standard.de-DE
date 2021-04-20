@@ -5,7 +5,7 @@ title: Erste Schritte mit Quellen und Zielen
 description: Weitere Informationen zu Adobe Experience Platform-Quellen und -Zielen.
 audience: integrating
 content-type: reference
-feature: Quellen und Ziele
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

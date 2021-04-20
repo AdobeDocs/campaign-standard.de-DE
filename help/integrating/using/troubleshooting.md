@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie Probleme bei der gemeinsamen Nutzung von
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c

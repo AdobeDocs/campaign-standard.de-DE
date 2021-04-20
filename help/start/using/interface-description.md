@@ -6,7 +6,7 @@ description: '"Hier erfahren Sie, wie der Adobe-Campaign-Arbeitsbereich – Star
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Übersicht
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74

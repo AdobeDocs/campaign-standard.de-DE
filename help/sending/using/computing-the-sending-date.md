@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie eine Nachricht an einem bestimmten Datum
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Leistungsüberwachung
+feature: Performance Monitoring
 role: Business Practitioner
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838

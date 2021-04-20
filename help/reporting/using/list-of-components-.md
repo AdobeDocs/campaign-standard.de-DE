@@ -6,7 +6,7 @@ description: Hier finden Sie die Liste der in dynamischen Berichten enthaltenen 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2

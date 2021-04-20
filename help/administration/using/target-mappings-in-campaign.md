@@ -6,7 +6,7 @@ description: Zielgruppen-Mappings sind technische Objekte, die Campaign zum Vers
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c

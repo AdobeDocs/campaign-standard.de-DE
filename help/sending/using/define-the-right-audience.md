@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Wenn Ihr Inhalt fertiggestellt ist, müssen Sie sorgfältig auswählen, wer Ihre Nachricht erhalten soll."'
-feature: Zustellbarkeit
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df

@@ -6,7 +6,7 @@ description: Im vordefinierten Bericht über In-App-Nachrichten erfahren Sie üb
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0

@@ -6,7 +6,7 @@ description: Hier erfahren Sie mehr über die verschiedenen Methoden zur Anreich
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profile
+feature: Profiles
 role: Business Practitioner
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458

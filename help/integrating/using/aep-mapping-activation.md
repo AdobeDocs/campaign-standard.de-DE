@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie Ihr Daten-Mapping aktivieren
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53

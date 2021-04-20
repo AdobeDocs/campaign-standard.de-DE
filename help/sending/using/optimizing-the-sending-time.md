@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie den Versandzeitpunkt festlegen und die Ã
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Versandzeitpunkt optimieren
+feature: Send Time Optimization
 role: Business Practitioner
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8

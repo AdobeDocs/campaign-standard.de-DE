@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie Links mit Email Designer verwalten.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197

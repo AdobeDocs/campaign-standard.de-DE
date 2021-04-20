@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Mit Versandvorlagen arbeiten Sie effizienter, da Sie mit ihnen bereits vorgefertigte Szenarien für die meisten gängigen Aktivitäten zur Verfügung haben."'
-feature: Zustellbarkeit
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc

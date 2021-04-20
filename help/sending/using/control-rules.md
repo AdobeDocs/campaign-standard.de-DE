@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie mithilfe von Kontrollregeln die Qualitä
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typologieregeln
+feature: Typology Rules
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f

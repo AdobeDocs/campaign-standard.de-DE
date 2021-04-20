@@ -6,7 +6,7 @@ description: Mit dynamischen Berichten können Sie Variablen und Dimensionen in 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7

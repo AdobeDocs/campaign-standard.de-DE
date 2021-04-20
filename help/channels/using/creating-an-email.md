@@ -6,7 +6,7 @@ description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen E-Mail-Versan
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: E-Mail
+feature: Email
 role: Business Practitioner
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727

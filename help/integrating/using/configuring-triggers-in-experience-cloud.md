@@ -6,7 +6,7 @@ description: 'Hier erfahren Sie, wie Sie die Integration von Adobe Experience Cl
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a

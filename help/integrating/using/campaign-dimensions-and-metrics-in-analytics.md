@@ -6,7 +6,7 @@ description: Hier erhalten Sie Informationen über die in Adobe Analytics verfü
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985

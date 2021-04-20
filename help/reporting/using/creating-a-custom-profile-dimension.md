@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie eine benutzerdefinierte Profildimension 
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82

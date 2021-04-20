@@ -6,7 +6,7 @@ description: SMS-Fehlerbehebung
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9

@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie Sie das Verhalten von Versandempfängern tra
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Leistungsüberwachung
+feature: Performance Monitoring
 role: Business Practitioner
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e

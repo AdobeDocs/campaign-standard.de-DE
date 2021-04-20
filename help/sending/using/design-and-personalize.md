@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Erfahren Sie, wie Sie gängige Probleme bei der Gestaltung Ihres Nachrichteninhalts vermeiden, die die Ausführung des Versands behindern könnten. 
-feature: Zustellbarkeit
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0

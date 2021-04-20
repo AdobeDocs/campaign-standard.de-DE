@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie ein Campaign Standard-Feld auf ein XDM-Feld (
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd

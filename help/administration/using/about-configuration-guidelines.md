@@ -6,7 +6,7 @@ description: Erfahren Sie mehr über Campaign Standard-Konfigurationsrichtlinien
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c

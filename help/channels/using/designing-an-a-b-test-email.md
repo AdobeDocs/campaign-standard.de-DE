@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
-feature: E-Mail
+feature: Email
 role: Business Practitioner
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5

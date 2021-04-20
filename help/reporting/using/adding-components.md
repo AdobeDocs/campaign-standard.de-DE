@@ -6,7 +6,7 @@ description: Ziehen Sie Komponenten in Ihre Freiformtabelle, um Ihre Daten zu fi
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a

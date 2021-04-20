@@ -6,7 +6,7 @@ description: Hier erfahren Sie, wie die Profil-Ressource erweitert wird.
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-feature: Datenmodell
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
