@@ -4,15 +4,15 @@ solution: Campaign Standard
 product: campaign
 title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
-feature: Overview
+feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## Neue Funktionen
 
-* **[Kampagne - RTCDP-](integrating/using/get-started-sources-destinations.md)**<br/> IntegrationErfahren Sie, wie Daten zwischen Kampagne und Echtzeit-Kundendatenplattform (RTCDP) freigegeben werden
+* **[Integration zwischen Campaign und RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Erfahren Sie, wie Sie Daten zwischen Campaign und der Adobe Echtzeit-Kundendatenplattform (RTCDP) austauschen können.
 
 * **[Aktualisieren falscher Hardbounces](https://helpx.adobe.com/de/campaign/kb/update-bounce-qualification.html)**<br/> Erfahren Sie, wie Sie falsche Hardbounces nach einem Gmail-Ausfall aktualisieren können.
 
