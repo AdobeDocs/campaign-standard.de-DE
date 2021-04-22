@@ -6,15 +6,15 @@ description: Definieren Sie Zielgruppen-Populationen, wählen Sie Audiences, fil
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: Profiles
+feature: Profile
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,8 +88,8 @@ Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werde
 
 ## Zusätzliche Ressourcen
 
-* [Adobe Experience Platform-Audiencen in die Kampagne integrieren](../../integrating/using/ingest-aep-data.md)
+* [Adobe Experience Platform-Audiences in Campaign aufnehmen](../../integrating/using/ingest-aep-data.md)
 * [Microsoft Dynamics 365 verwenden](../../integrating/using/d365-acs-get-started.md)
 * [Für Adobe freigegebene Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows zum Importieren von Profilen verwenden](../../automating/using/creating-import-workflow-templates.md)
-* [Videos zu Profilen und Audiences](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Videos zu Profilen und Audiences](https://docs.adobe.com/content/help/de/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
