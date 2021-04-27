@@ -9,23 +9,23 @@ feature: Quellen und Ziele
 role: Data Architect
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-translation-type: ht
-source-git-commit: 27cbb2f8a202b3361122fdadfcfe8d0820aa3cb3
-workflow-type: ht
-source-wordcount: '528'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 87%
 
 ---
 
 # Daten von Campaign nach Adobe Experience Platform exportieren {#sources}
 
-Um Campaign Standard-Daten in die Adobe Echtzeit-Kundendatenplattform (RTCDP) zu exportieren, müssen Sie zunächst einen Workflow in Campaign Standard erstellen, um die Daten, die Sie austauschen möchten, in Ihren S3- oder Azure-Blob-Speicherort zu exportieren.
+Um Campaign Standard-Daten in die Adobe Echtzeit-Kundendatenplattform (RTCDP) zu exportieren, müssen Sie zunächst einen Workflow in Campaign Standard erstellen, um die Daten, die Sie freigeben möchten, an Ihren Amazon Datenspeicherung Service (S3)- oder Blue Blob-Datenspeicherung-Speicherort zu exportieren.
 
 Nachdem der Workflow konfiguriert und Daten an Ihren Speicherort gesendet wurden, müssen Sie Ihren S3- oder Azure-Blob-Speicherort in Adobe Experience Platform als **Quelle** verbinden.
 
 >[!NOTE]
-
-Wir empfehlen, nur von Campaign erzeugte Daten (z. B. Sendungen, Öffnungen, Klicks usw.) nach Adobe Experience Platform zu exportieren. Daten, die in einer Drittanbieter-Quelle (wie Ihrem CRM-System) erfasst werden, sollten direkt in Adobe Experience Platform importiert werden.
+>
+>Wir empfehlen, nur von Campaign erzeugte Daten (z. B. Sendungen, Öffnungen, Klicks usw.) nach Adobe Experience Platform zu exportieren. Daten, die in einer Drittanbieter-Quelle (wie Ihrem CRM-System) erfasst werden, sollten direkt in Adobe Experience Platform importiert werden.
 
 ## Export-Workflow in Campaign Standard erstellen
 
@@ -55,7 +55,7 @@ Verwandte Themen:
 
 ## Speicherort als Quelle verbinden
 
-Die wichtigsten Schritte zum Verbinden Ihres S3- oder Azure-Blob-Speicherorts als **Quelle** in Adobe Experience Platform sind unten aufgeführt. Ausführliche Informationen zu jedem dieser Schritte finden Sie in der [Dokumentation zu Quell-Connectoren](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de).
+Die Hauptschritte zum Verbinden des Standorts der Amazon-Datenspeicherung-Service (S3) oder der Azurblase-Datenspeicherung als **Quelle** in der Erlebnisplattform für Adoben sind unten aufgeführt. Ausführliche Informationen zu jedem dieser Schritte finden Sie in der [Dokumentation zu Quell-Connectoren](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de).
 
 1. Erstellen Sie in Adobe Experience Platform im Menü **[!UICONTROL Quellen]** eine Verbindung zu Ihrem Speicherort:
 
