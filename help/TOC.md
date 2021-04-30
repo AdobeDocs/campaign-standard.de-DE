@@ -7,10 +7,10 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
 translation-type: tm+mt
-source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
+source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 100%
+source-wordcount: '1783'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 100%
       + [Versionshinweise 2017](rn/using/release-notes-2017.md)
    + [Versionsplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
+   + [Signaturproblem mit verfolgten URLs](rn/using/tracked-urls.md)
 + Erste Schritte{#getting-started}
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Benutzeroberfläche {#discovering-the-interface}
