@@ -10,11 +10,11 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1943'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -284,7 +284,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
  </tbody> 
 </table>
 
-## Geomarketing       {#geomarketing}
+## Geomarketing        {#geomarketing}
 
 Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
 
@@ -660,7 +660,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Nutzt den AES-Algorithmus (CBC-Blockmodus) zur Verschlüsselung einer Zeichenfolge (1. Parameter) mit einem Schlüssel (2. Parameter) und einem Initialisierungsvektor (3. Parameter). Der Schlüssel und der Initialisierungsvektor müssen in einer hexadezimalen Darstellung vorliegen (beginnend mit <strong>\x</strong>). Das Ergebnis wird in hexadezimaler Darstellung ohne <strong>\x</strong> dargestellt.<br /> Beachten Sie, dass die Schlüsselgröße 128 Bit, 192 Bit oder 256 Bit (16, 24, 32 hexadezimale Zeichen) betragen kann, wir aber die Verwendung von 256 Bit und einen zufälligen Initialisierungsvektor derselben Länge als Schlüssel empfehlen.<br /> </td> 
-   <td> crypt_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Beispiel: crypt_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Beispiel: encryption_aescbcEncrypt(michaelmuster@beispiel.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
