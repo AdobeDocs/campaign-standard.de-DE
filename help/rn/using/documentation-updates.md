@@ -11,10 +11,10 @@ role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 translation-type: tm+mt
-source-git-commit: d694ffb4f375a4ad18c1115e2b0475625332eabe
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
 workflow-type: tm+mt
 source-wordcount: '6808'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ Eine **Declared ID**-Datenquelle kann jetzt auch mit der People Core Service-Int
 
 Es wurden Informationen zur Implementierung des lokalen Trackings für Mobile Apps hinzugefügt. [Mehr dazu](../../administration/using/local-tracking.md)
 
-Der Abschnitt [Zustellbarkeit](../../sending/using/about-deliverability.md) wurde aktualisiert und enthält nun Links zum neuen [Adobe-Handbuch mit Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de). Alle allgemeinen Informationen zur Zustellbarkeit, die für verschiedene Adobe-Lösungen gelten können, wurden in den [Anhang des Handbuchs mit Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=de#additional-resources) verschoben.
+Der Abschnitt [Zustellbarkeit](../../sending/using/about-deliverability.md) wurde aktualisiert und enthält nun Links zum neuen [Adobe-Handbuch mit Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de). Alle allgemeinen Informationen zur Zustellbarkeit, die für verschiedene Adobe-Lösungen gelten können, wurden in den [Anhang des Handbuchs mit Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources) verschoben.
 
 ## Version 21.1 – Februar 2021 {#release-21-1---february-2021}
 
