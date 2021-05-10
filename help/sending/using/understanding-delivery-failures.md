@@ -6,15 +6,15 @@ description: Hier erfahren Sie, wie Sie Zustellprobleme in Campaign vermeiden k�
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
+feature: Zustellbarkeit
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ Nachdem eine Nachricht gesendet wurde, können Sie im Tab **[!UICONTROL Versandl
 
 Es steht auch ein entsprechender Bericht zur Verfügung. Dieser Bericht zeigt die Gesamtheit aller Statistiken zu bei Sendungen aufgetretenen Hard- und Softbounces und der automatischen Bounce-Verarbeitung. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/bounce-summary.md).
 
-## Typen und Ursachen für fehlgeschlagene Sendungen            {#delivery-failure-types-and-reasons}
+## Typen und Ursachen für fehlgeschlagene Sendungen             {#delivery-failure-types-and-reasons}
 
 Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
 
@@ -61,27 +61,27 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 | Bezeichnung des Fehlers | Fehlertyp | Beschreibung |
 ---------|----------|---------
 | **[!UICONTROL Unbekannter Nutzer]** | Hard | Die Adresse existiert nicht. An dieses Profil werden keine weiteren Zustellversuche unternommen. |
-| **[!UICONTROL Adresse in Quarantäne]** | Hard | Die Adresse wurde unter Quarantäne gestellt. |
+| **[!UICONTROL Adresse in Quarantäne]** | hart | Die Adresse wurde unter Quarantäne gestellt. |
 | **[!UICONTROL Unerreichbar]** | Softbounce / Hardbounce | In der Versandkette der Nachricht ist ein Fehler aufgetreten (zum Beispiel zeitweilig unerreichbare Domain). Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
-| **[!UICONTROL Adresse leer]** | Hard | Die Adresse ist nicht definiert. |
+| **[!UICONTROL Adresse leer]** | hart | Die Adresse ist nicht definiert. |
 | **[!UICONTROL Postfach voll]** | Soft | Das Postfach dieses Benutzers ist voll und kann keine weiteren Nachrichten akzeptieren. Die Adresse kann aus der Quarantäne genommen werden, um einen erneuten Zustellversuch zu unternehmen. Diese Liste wird automatisch nach 30 Tagen entfernt. Damit die Adresse automatisch aus der Quarantäne genommen werden kann, muss der technische Workflow **[!UICONTROL Datenbankbereinigung]** gestartet sein. |
 | **[!UICONTROL Zurückgewiesen]** | Softbounce / Hardbounce | Die Adresse wurde wegen eines Sicherheits-Feedbacks unter Quarantäne gestellt, da die Nachricht als Spam gemeldet wurde. Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
 | **[!UICONTROL Dublette]** | Ignoriert | Die Adresse wurde in der Segmentierung bereits erkannt. |
-| **[!UICONTROL Unbestimmt]** | Soft | Die Adresse wird qualifiziert, da die Fehler noch nicht inkrementiert wurden. Dieser Fehlertyp tritt auf, wenn der Server eine bis dahin unbekannte Fehlermeldung sendet: Hierbei kann es sich um einen einmaligen Fehler handeln. Sollte er sich jedoch wiederholen, wird der Fehlerzähler erhöht, was die zuständigen technischen Mitarbeiter auf das Problem aufmerksam macht. |
+| **[!UICONTROL Unbestimmt]** | Weich | Die Adresse wird qualifiziert, da die Fehler noch nicht inkrementiert wurden. Dieser Fehlertyp tritt auf, wenn der Server eine bis dahin unbekannte Fehlermeldung sendet: Hierbei kann es sich um einen einmaligen Fehler handeln. Sollte er sich jedoch wiederholen, wird der Fehlerzähler erhöht, was die zuständigen technischen Mitarbeiter auf das Problem aufmerksam macht. |
 | **[!UICONTROL Fehler ignoriert]** | Ignoriert | Die Adresse befindet sich auf der Zulassungsliste und es wird in jedem Fall eine E-Mail gesendet. |
-| **[!UICONTROL Adresse auf Blockierungsliste]** | Hard | Die Adresse wurde zum Zeitpunkt des Versands der Blockierungsliste hinzugefügt. |
+| **[!UICONTROL Adresse auf Blockierungsliste]** | hart | Die Adresse wurde zum Zeitpunkt des Versands der Blockierungsliste hinzugefügt. |
 | **[!UICONTROL Konto deaktiviert]** | Softbounce / Hardbounce | Wenn das Konto längere Zeit nicht abgefragt wird, kann es vom Internetanbieter geschlossen werden, was den Versand an diese Empfängeradresse unmöglich macht. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]** zugewiesen und der Zustellversuch wird wiederholt. Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt. |
 | **[!UICONTROL Nicht angemeldet]** | Ignoriert | Das Mobiltelefon des Profils war beim Versand der Nachricht ausgeschaltet oder verfügte über keinen Netzempfang. |
-| **[!UICONTROL Ungültige Domain]** | Soft | Die Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
+| **[!UICONTROL Ungültige Domain]** | Weich | Die Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
 | **[!UICONTROL Text zu lang]** | Ignoriert | Die Zeichenanzahl der SMS-Nachricht übersteigt das Limit. Weiterführende Informationen dazu finden Sie im Abschnitt [Kodierung, Länge und Tansliteration von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Zeichen wird in der Kodierung nicht unterstützt]** | Ignoriert | Die SMS-Nachricht enthält ein oder mehrere Zeichen, die von der Kodierung nicht unterstützt werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Zeichensatztabelle – GSM-Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
 
 **Verwandte Themen:**
 * [Hardbounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#hard-bounces)
-* [Softbounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#soft-bounces)
+* [Softbounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
-## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand            {#retries-after-a-delivery-temporary-failure}
+## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand             {#retries-after-a-delivery-temporary-failure}
 
 Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
@@ -104,14 +104,14 @@ Wenn Sie beispielsweise möchten, dass weitere Zustellversuche für einen Versan
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
-## Synchrone und asynchrone Fehler    {#synchronous-and-asynchronous-errors}
+## Synchrone und asynchrone Fehler     {#synchronous-and-asynchronous-errors}
 
 Ein Versand kann sofort fehlschlagen (synchroner Fehler) oder zu einem späteren Zeitpunkt nach dem Versand (asynchroner Fehler).
 
 * **Synchroner Fehler**: Der vom Adobe-Campaign-Server angesprochene Remote-Server hat sofort eine Fehlermeldung zurückgegeben. Die Nachricht kann nicht an den Server des Profils gesendet werden.
 * **Asynchroner Fehler**: Eine Bounce Message oder ein Statusbericht (SR) wird vom Remote-Server verzögert zurückgesendet. Asynchrone Fehler können bis zu eine Woche nach einem Versand auftreten.
 
-## Bounce-Message-Qualifizierung            {#bounce-mail-qualification}
+## Bounce-Message-Qualifizierung             {#bounce-mail-qualification}
 
 Bei Fehlermeldungen zu synchronen Versandfehlern bestimmt der erweiterte MTA (Message Transfer Agent) von Adobe Campaign den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück.
 
@@ -121,7 +121,7 @@ Bei Fehlermeldungen zu synchronen Versandfehlern bestimmt der erweiterte MTA (Me
 
 Asynchrone Bounces werden weiterhin durch den InMail-Prozess mittels der Regeln für **[!UICONTROL Eingehende E-Mail]** qualifiziert. Der Zugriff auf diese Regeln erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Wählen Sie dann **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** und anschließend **[!UICONTROL Bounce Messages]**. Weiterführende Informationen zu dieser Regel finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Weitere Informationen zu Bounces und den verschiedenen Arten von Bounces finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#metrics-for-deliverability).
+Weitere Informationen zu Bounces und den verschiedenen Arten von Bounces finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
