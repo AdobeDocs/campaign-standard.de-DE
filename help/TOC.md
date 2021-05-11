@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
       + [Versionshinweise 2017](rn/using/release-notes-2017.md)
    + [Versionsplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
-   + [Signaturproblem mit verfolgten URLs](rn/using/tracked-urls.md)
+   + [Problem mit Signaturen getrackter URLs](rn/using/tracked-urls.md)
 + Erste Schritte{#getting-started}
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Benutzeroberfläche {#discovering-the-interface}
