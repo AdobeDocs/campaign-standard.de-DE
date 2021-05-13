@@ -6,11 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +42,7 @@ ht-degree: 100%
       + [Vorlagen für Marketingaktivitäten](start/using/marketing-activity-templates.md)
       + [Planung](start/using/timeline.md)
    + Datenschutz {#privacy}
-      + [Datenschutz und Einverständnis](start/using/privacy.md)
+      + [Datenschutz und Einverständniserklärung](start/using/privacy.md)
       + [Datenschutzverwaltung](start/using/privacy-management.md)
       + [Datenschutzanfragen](start/using/privacy-requests.md)
       + [Häufig gestellte Fragen zum Datenschutz](start/using/privacy-faq.md)
@@ -55,8 +54,8 @@ ht-degree: 100%
       + [Profile erstellen](audiences/using/creating-profiles.md)
       + [Profile bearbeiten](audiences/using/editing-profiles.md)
       + [Integriertes Kundenprofil](audiences/using/integrated-customer-profile.md)
-      + [Aktive Profile](audiences/using/active-profiles.md)
-      + [Verwaltung von Testprofilen](audiences/using/managing-test-profiles.md)
+      + [Metriken und aktive Profil](audiences/using/active-profiles.md)
+      + [Verwaltung von Testprofilen     ](audiences/using/managing-test-profiles.md)
       + [Anreicherung der Campaign-Datenbank](audiences/using/enriching-campaign-database.md)
    + Verwaltung von Audiences {#managing-audiences}
       + [Über Audiences](audiences/using/about-audiences.md)
@@ -75,16 +74,16 @@ ht-degree: 100%
 + Kommunikationskanäle{#communication-channels}
    + [Erste Schritte mit Kommunikationskanälen](channels/using/get-started-communication-channels.md)
    + Über Kommunikationskanäle {#about-communication-channels}
-      + [Die wichtigsten Schritte im Nachrichtenversand](channels/using/key-steps-to-send-a-message.md)
+      + [Wichtigste Schritte im Nachrichtenversand](channels/using/key-steps-to-send-a-message.md)
       + [Zugriff auf Nachrichten](channels/using/accessing-messages.md)
       + [Nachrichten-Dashboards](channels/using/message-dashboard.md)
       + [Vorlagen für mehrsprachige Nachrichten](channels/using/multilingual-messages-template.md)
    + Best Practices beim Versand {#delivery-bestpractices}
       + [Best Practices erlernen](sending/using/delivery-best-practices.md)
-      + [Versand optimieren](sending/using/optimize-delivery.md)
+      + [Optimieren des Versands](sending/using/optimize-delivery.md)
       + [Vorlagen verwenden](sending/using/use-templates.md)
       + [Personalisierte Inhalte erstellen](sending/using/design-and-personalize.md)
-      + [Die richtige Audience festlegen](sending/using/define-the-right-audience.md)
+      + [Festlegen der richtigen Audience](sending/using/define-the-right-audience.md)
       + [Vor dem Senden prüfen](sending/using/check-before-sending.md)
       + [Tracken und überwachen](sending/using/track-and-monitor.md)
    + E-Mail-Nachrichten {#email-messages}
@@ -106,7 +105,7 @@ ht-degree: 100%
       + [Push-Benachrichtigung anpassen](channels/using/customizing-a-push-notification.md)
       + [Mehrsprachige Push-Benachrichtigungen erstellen](channels/using/creating-a-multilingual-push-notification.md)
       + [CSV-Datei für mehrsprachige Push-Benachrichtigungen erstellen](channels/using/generating-csv-multilingual-push.md)
-      + [Profilinformationen basierend auf Mobile App-Daten erstellen und aktualisieren](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten](channels/using/updating-profile-with-mobile-app-data.md)
    + In-App-Messaging {#in-app-messaging}
       + [Über In-App-Messaging](channels/using/about-in-app-messaging.md)
       + [In-App-Nachricht vorbereiten und senden](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -121,22 +120,22 @@ ht-degree: 100%
       + [Erste Schritte mit Transaktionsnachrichten](channels/using/getting-started-with-transactional-msg.md)
       + [Best Practices und Einschränkungen](channels/using/transactional-messaging-limitations.md)
       + Ereigniskonfiguration {#event-configuration}
-         + [Konfigurieren eines Transaktionsereignisses](channels/using/configuring-transactional-event.md)
-         + [Veröffentlichen eines Transaktionsereignisses](channels/using/publishing-transactional-event.md)
+         + [Transaktionsereignis konfigurieren](channels/using/configuring-transactional-event.md)
+         + [Transaktionsereignis veröffentlichen](channels/using/publishing-transactional-event.md)
       + Bearbeitung von Transaktionsnachrichten {#transactional-message-edition}
-         + [Bearbeiten einer Transaktionsnachricht](channels/using/editing-transactional-message.md)
-         + [Testen einer Transaktionsnachricht](channels/using/testing-transactional-message.md)
+         + [Transaktionsnachricht bearbeiten](channels/using/editing-transactional-message.md)
+         + [Transaktionsnachrichten testen](channels/using/testing-transactional-message.md)
          + [Lebenszyklus von Transaktionsnachrichten](channels/using/publishing-transactional-message.md)
          + [Durchführung und Überwachung](channels/using/transactional-message-execution.md)
-      + [Push-Benachrichtigungen für Transaktionen](channels/using/transactional-push-notifications.md)
+      + [Transaktions-Push-Benachrichtigung](channels/using/transactional-push-notifications.md)
       + [Folgenachrichten](channels/using/follow-up-messages.md)
       + [Anwendungsfall für Transaktionsnachrichten](channels/using/transactional-messaging-use-case.md)
    + Landingpages {#landing-pages}
-      + [Erste Schritte mit Landingpages](channels/using/getting-started-with-landing-pages.md)
+      + [Erste Schritte mit Landing Pages](channels/using/getting-started-with-landing-pages.md)
       + [Über Landingpage-Vorlagen](channels/using/landing-page-templates.md)
-      + [Landingpage konfigurieren](channels/using/configuring-landing-page.md)
+      + [Konfigurieren einer Landingpage](channels/using/configuring-landing-page.md)
       + [Landingpage erstellen](channels/using/designing-a-landing-page.md)
-      + [Daten von Landingpage-Formularen verwalten](channels/using/managing-landing-page-form-data.md)
+      + [Verwalten von Landingpage-Formulardaten](channels/using/managing-landing-page-form-data.md)
       + [Landingpage testen und veröffentlichen](channels/using/testing-publishing-landing-page.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
 + E-Mail-Inhalt gestalten {#designing-content}
@@ -151,7 +150,7 @@ ht-degree: 100%
       + [Normaltext-, HTML- und mobile E-Mails bearbeiten](designing/using/plain-text-html-modes.md)
       + [E-Mails des alten Editors in Email Designer konvertieren](designing/using/converting-emails-from-legacy-editor.md)
    + [Personalisieren von E-Mail-Inhalten](designing/using/personalization.md)
-   + [Produktlisten verwenden](designing/using/using-product-listings.md)
+   + [Verwenden von Produktlisten](designing/using/using-product-listings.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
    + [Links verwalten](designing/using/links.md)
    + [Bilder verwalten](designing/using/images.md)
@@ -161,9 +160,9 @@ ht-degree: 100%
    + Nachrichten vorbereiten und testen {#preparing-and-testing-messages}
       + [Sendungen in Vorschau anzeigen](sending/using/previewing-messages.md)
       + [Testversand durchführen](sending/using/sending-proofs.md)
-      + [E-Mail-Nachrichten mit ausgewählten Profilen testen](sending/using/testing-messages-using-target.md)
+      + [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](sending/using/testing-messages-using-target.md)
       + [KI-gestützte E-Mails](sending/using/predictive.md)
-      + [E-Mail-Rendering](sending/using/email-rendering.md)
+      + [Email rendering](sending/using/email-rendering.md)
       + [Hinzufügen einer Kontrollgruppe](sending/using/control-group.md)
       + [Fallen verwenden](sending/using/using-traps.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
@@ -175,21 +174,21 @@ ht-degree: 100%
    + Nachrichten senden und tracken {#sending-and-tracking-messages}
       + [Versand bestätigen](sending/using/confirming-the-send.md)
       + [Nachrichten tracken](sending/using/tracking-messages.md)
-      + [Mit E-Mail-BCC archivieren](sending/using/archiving.md)
+      + [Archivieren mit E-Mail-BCC](sending/using/archiving.md)
    + Nachrichten beobachten {#monitoring-messages}
-      + [Sendungen beobachten](sending/using/monitoring-a-delivery.md)
+      + [Sendungen überwachen](sending/using/monitoring-a-delivery.md)
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
-      + [Ursachen für Fehler beim Versand](sending/using/understanding-delivery-failures.md)
+      + [Ursachen von fehlgeschlagenen Sendungen](sending/using/understanding-delivery-failures.md)
       + [Funktionsweise der Quarantäneverwaltung](sending/using/understanding-quarantine-management.md)
    + Verwalten der Zustellbarkeit {#managing-deliverability}
       + [Über die Zustellbarkeit](sending/using/about-deliverability.md)
       + [Kontrollieren von E-Mail-Inhalten](sending/using/control-email-content.md)
-      + [Zustellbarkeit überwachen](sending/using/monitor-deliverability.md)
+      + [Überwachen der Zustellbarkeit](sending/using/monitor-deliverability.md)
       + [Fehlerbehebung](sending/using/troubleshooting.md)
    + Arbeiten mit Typologieregeln {#working-with-typology-rules}
       + [Über Typologien und Typologieregeln](sending/using/about-typology-rules.md)
       + [Typologien verwalten](sending/using/managing-typologies.md)
-      + [Typologieregeln verwalten](sending/using/managing-typology-rules.md)
+      + [Verwenden von Typologieregeln](sending/using/managing-typology-rules.md)
       + [Filterregeln](sending/using/filtering-rules.md)
       + [Ermüdungsregeln](sending/using/fatigue-rules.md)
       + [Kontrollregeln](sending/using/control-rules.md)
@@ -253,9 +252,9 @@ ht-degree: 100%
    + Campaign und Triggers {#working-with-campaign-and-triggers}
       + [Über Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Triggers in Experience Cloud konfigurieren](integrating/using/configuring-triggers-in-experience-cloud.md)
-      + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
+      + [Trigger in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
       + [Trigger testen](integrating/using/testing-your-triggers.md)
-      + [Anwendungsbeispiele zu Triggers für die abgebrochene Suche](integrating/using/abandonment-triggers-use-cases.md)
+      + [Anwendungsbeispiele zu Triggern für die abgebrochene Suche](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Erste Schritte mit der Integration von Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Best Practices und Einschränkungen](integrating/using/d365-acs-notices-and-recommendations.md)
@@ -267,16 +266,16 @@ ht-degree: 100%
          + [Systeme mit der Integrationsanwendung verbinden](integrating/using/d365-acs-self-service-app-settings.md)
          + [Synchronisations-Workflows verwalten](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Daten zwischen Microsoft Dynamics 365 und Campaign mappen](integrating/using/d365-acs-self-service-app-data-sync.md)
-      + [Microsoft Dynamics 365-Integration verwenden](integrating/using/d365-acs-using-the-integration.md)
+      + [Integration mit Microsoft Dynamics 365 verwenden](integrating/using/d365-acs-using-the-integration.md)
    + Campaign und Adobe Experience Platform {#adobe-experience-platform}
       + Adobe Experience Platform-Quellen und -Ziele {#aep-sources-destinations}
          + [Erste Schritte mit Quellen und Zielen](integrating/using/get-started-sources-destinations.md)
-         + [Adobe Experience Platform-Zielgruppen in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
-         + [Exportieren von Daten aus Campaign nach Adobe Experience Platform](integrating/using/export-campaign-data.md)
+         + [Adobe Experience Platform-Audiences in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
+         + [Daten von Campaign nach Adobe Experience Platform exportieren](integrating/using/export-campaign-data.md)
       + Audience Destinations Service (Beta) {#audience-destinations}
          + [Über den Audience Destinations-Dienst](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
-         + [ Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
+         + [Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
          + [Adobe Experience Platform-Audiences auswählen](integrating/using/aep-targeting-audiences.md)
          + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](integrating/using/aep-personalizing-campaigns.md)
       + Adobe Experience Platform Data Connector (Beta) {#data-connector}
@@ -285,7 +284,7 @@ ht-degree: 100%
          + [Mapping-Definition](integrating/using/aep-mapping-definition.md)
          + [Mapping-Aktivierung](integrating/using/aep-mapping-activation.md)
          + [Datenaufnahme über APIs aktivieren](integrating/using/aep-triggering-data-ingestion.md)
-+ Prozesse und Daten verwalten {#managing-processes-and-data}
++ Verwalten von Prozessen und Daten{#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
       + [Workflow-Oberfläche](automating/using/workflow-interface.md)
@@ -294,7 +293,7 @@ ht-degree: 100%
    + Workflow ausführen {#executing-a-workflow}
       + [Über die Ausführung von Workflows](automating/using/about-workflow-execution.md)
       + [Lebenszyklus eines Workflows](automating/using/workflow-life-cycle.md)
-      + [Ausführungsbefehle](automating/using/execution-commands.md)
+      + [Ausführungsbefehle     ](automating/using/execution-commands.md)
       + [Ausführung des Workflows überwachen](automating/using/monitoring-workflow-execution.md)
       + [Ausführungsoptionen verwalten](automating/using/managing-execution-options.md)
       + [Eigenschaften von Aktivitäten verwalten](automating/using/activity-properties.md)
@@ -302,8 +301,8 @@ ht-degree: 100%
    + Workflow mit externen Parametern aufrufen {#calling-workflow-external-parameters}
       + [Übersicht](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren](automating/using/declaring-parameters-external-signal.md)
-      + [Parameter beim Aufruf des Workflows definieren](automating/using/defining-parameters-calling-workflow.md)
-      + [Ereignisvariablen überwachen](automating/using/monitoring-events-variables.md)
+      + [Parameter beim Aufruf des Workflows definieren       ](automating/using/defining-parameters-calling-workflow.md)
+      + [Ereignisvariablen überwachen       ](automating/using/monitoring-events-variables.md)
       + [Workflow mit externen Parametern anpassen](automating/using/customizing-workflow-external-parameters.md)
       + [Anwendungsbeispiel](automating/using/use-case-calling-workflow.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
@@ -329,19 +328,19 @@ ht-degree: 100%
       + [Test](automating/using/test.md)
    + Kanalaktivitäten {#channel-activities}
       + [Über Kanalaktivitäten](automating/using/about-channel-activities.md)
-      + [E-Mail-Versand](automating/using/email-delivery.md)
+      + [E-Mail-Versand           ](automating/using/email-delivery.md)
       + [SMS-Versand](automating/using/sms-delivery.md)
-      + [Push-Benachrichtigungsversand](automating/using/push-notification-delivery.md)
+      + [Push-Benachrichtigungsversand           ](automating/using/push-notification-delivery.md)
       + [Briefpost-Versand](automating/using/direct-mail-delivery.md)
-      + [In-App-Versand](automating/using/in-app-delivery.md)
+      + [In-App-Versand           ](automating/using/in-app-delivery.md)
    + Datenverwaltungsaktivitäten {#data-management-activities}
       + [Über Datenverwaltungsaktivitäten](automating/using/about-data-management-activities.md)
-      + [Daten aktualisieren](automating/using/update-data.md)
+      + [Daten-Update](automating/using/update-data.md)
       + [Datei laden](automating/using/load-file.md)
       + [Dateiübertragung](automating/using/transfer-file.md)
       + [Abstimmung](automating/using/reconciliation.md)
       + [Dateiextraktion](automating/using/extract-file.md)
-      + [An-/Abmeldedienst](automating/using/subscription-services.md)
+      + [Anmeldedienste](automating/using/subscription-services.md)
       + [Externe API](automating/using/external-api.md)
    + Datenfilter {#filtering-data}
       + [Abfrageeditor](automating/using/editing-queries.md)
@@ -356,7 +355,7 @@ ht-degree: 100%
       + [Logs exportieren](automating/using/exporting-logs.md)
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
-      + [Anwendungsbeispiel: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
+      + [Anwendungsfall: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
    + Anwendungsbeispiele {#workflow-use-case}
       + [Über Workflow-Anwendungsfälle](automating/using/about-workflow-use-cases.md)
       + Sendungen {#deliveries}
@@ -366,19 +365,19 @@ ht-degree: 100%
          + [Kanalübergreifenden Versand erstellen](automating/using/workflow-cross-channel-delivery.md)
          + [Dubletten vor einem Versand identifizieren](automating/using/identifying-duplicated-before-delivery.md)
          + [Versand zum Geburtstag](automating/using/birthday-delivery.md)
-         + [E-Mail- und Briefpostsendungen verbinden](automating/using/coupling-email-direct-mail.md)
-         + [E-Mail mit angereicherten Feldern senden](automating/using/sending-email-enriched-fields.md)
+         + [E-Mail- und Briefpostversand verbinden](automating/using/coupling-email-direct-mail.md)
+         + [E-Mail mit erweiterten Feldern senden](automating/using/sending-email-enriched-fields.md)
          + [E-Mail mit Zusatzdaten personalisieren](automating/using/personalizing-email-with-additional-data.md)
          + [Wiederkehrende Push-Benachrichtigungen senden](automating/using/recurring-push-notifications.md)
       + Segmentierung und Zielgruppenbestimmung {#segmentation-targeting}
-         + [Beispiele für Abfragen ](automating/using/query-samples.md)
+         + [Beispiele für Abfragen](automating/using/query-samples.md)
          + [Vereinigung von zwei eingegrenzten Audiences](automating/using/union-on-two-refined-audiences.md)
          + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
          + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
          + [Inkrementelle Abfrage bezüglich Dienst-Abonnenten](automating/using/incremental-query-on-subscribers.md)
-         + [Segmentierung nach Altersgruppen](automating/using/segmentation-age-groups.md)
+         + [Segmentierung nach Altersklassen](automating/using/segmentation-age-groups.md)
          + [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](automating/using/using-resources-different-from-targeting-dimensions.md)
-      + Data Management {#data-management}
+      + Datenmanagement {#data-management}
          + [Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](automating/using/reconcile-file-audience-with-database.md)
          + [Daten einer importierten Datei deduplizieren](automating/using/deduplicating-data-imported-file.md)
          + [Profildaten mit in einer Datei enthaltenen Daten anreichern](automating/using/enriching-profile-data-file.md)
@@ -405,7 +404,7 @@ ht-degree: 100%
       + [Filterdefinition konfigurieren](developing/using/configuring-filter-definition.md)
       + [Datenbankstruktur aktualisieren](developing/using/updating-the-database-structure.md)
       + [Ressourcen löschen](developing/using/deleting-a-resource.md)
-      + [Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel](developing/using/uc-calling-resource-id-key.md)
+      + [Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen](developing/using/uc-calling-resource-id-key.md)
    + Anwendungsbeispiel: API erweitern {#use-case--extending-the-api}
       + [Über die API-Erweiterung](developing/using/about-extending-the-api.md)
       + [Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
@@ -417,14 +416,14 @@ ht-degree: 100%
    + Datamodel {#datamodel}
       + [Einleitung](developing/using/datamodel-introduction.md)
       + [Audience](developing/using/datamodel-audience.md)
-      + [Kampagne](developing/using/datamodel-campaign.md)
+      + [Campaign](developing/using/datamodel-campaign.md)
       + [Versand](developing/using/datamodel-delivery.md)
-      + [Landingpages](developing/using/datamodel-landingpage.md)
+      + [Landing Pages](developing/using/datamodel-landingpage.md)
       + [Marketingverlauf](developing/using/datamodel-history.md)
       + [Profil](developing/using/datamodel-profile.md)
-      + [Programm](developing/using/datamodel-program.md)
+      + [Program](developing/using/datamodel-program.md)
       + [Testempfänger](developing/using/datamodel-seed.md)
-      + [Dienst](developing/using/datamodel-service.md)
+      + [Service](developing/using/datamodel-service.md)
       + [Abonnementereignis](developing/using/datamodel-subscription.md)
       + [Trackinglogs](developing/using/datamodel-tracking.md)
       + [Abmeldeereignis](developing/using/datamodel-unsubscription.md)
@@ -444,24 +443,24 @@ ht-degree: 100%
    + Kanäle konfigurieren {#configuring-channels}
       + [Über die Konfiguration von Kanälen](administration/using/about-channel-configuration.md)
       + [E-Mail-Kanal konfigurieren](administration/using/configuring-email-channel.md)
-      + [Bounce-Qualifizierung nach einem ISP-Ausfall aktualisieren](administration/using/update-bounce-qualification.md)
+      + [Aktualisieren der Bounce-Qualifizierung nach einem ISP-Ausfall](administration/using/update-bounce-qualification.md)
       + [Mobile App konfigurieren](administration/using/configuring-a-mobile-application.md)
    + Mobile Kanäle konfigurieren {#configuring-mobile}
-      + [Push-Tracking implementieren](administration/using/push-tracking.md)
+      + [Implementieren von Push-Tracking](administration/using/push-tracking.md)
       + [Bilder und Videos unter iOS hinzufügen](administration/using/image-push-notification.md)
       + [Payload-Struktur der Push-Nachrichten verstehen](administration/using/push-payload.md)
       + [Lokales Benachrichtigungs-Tracking implementieren](administration/using/local-tracking.md)
-      + [Häufig gestellte Fragen zur Synchronisierung von Adobe Launch](administration/using/syncwithlaunch-faq.md)
+      + [Häufig gestellte Fragen zur Synchronisation von Adobe Launch](administration/using/syncwithlaunch-faq.md)
       + [Häufig gestellte Fragen zur Integration des Experience Platform SDK](administration/using/aep-faq.md)
-      + [Konfigurieren von Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
+      + [Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen konfigurieren](administration/using/configuring-rules-launch.md)
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
-      + [Mobile Apps von SDK v4 auf Adobe Experience Platform SDK migrieren](administration/using/sdkv4-migration.md)
+      + [Migrieren Ihrer Mobile App vom SDK v4 zum Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + SMS-Kanal konfigurieren {#configuring-sms}
       + [SMS-Kanal implementieren](administration/using/configuring-sms-channel.md)
       + [Protokoll und Einstellungen des SMS-Connectors](administration/using/sms-protocol.md)
       + [SMS-Fehlerbehebung](administration/using/troubleshooting-sms.md)
    + Anwendungskonfiguration {#application-settings}
-      + [Über Campaign Standard-Einstellungen](administration/using/about-campaign-standard-settings.md)
+      + [Über Einstellungen in Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Externe Konten](administration/using/external-accounts.md)
       + [Zielgruppen-Mappings in Campaign](administration/using/target-mappings-in-campaign.md)
       + [Technische Workflows](administration/using/technical-workflows.md)
@@ -472,15 +471,15 @@ ht-degree: 100%
 + Arbeiten mit APIs {#working-with-apis}
    + [Erste Schritte mit Campaign Standard-APIs](api/using/get-started-apis.md)
    + Über Campaign Standard-APIs {#about-campaign-standard-apis}
-      + [Wozu dienen Campaign Standard-APIs?](api/using/why-using-campaign-standard-apis.md)
+      + [Wozu dienen Campaign Standard-APIs](api/using/why-using-campaign-standard-apis.md)
       + [Einrichten von API-Zugriff](api/using/setting-up-api-access.md)
    + Globale Konzepte {#global-concepts}
-      + [Must-read](api/using/must-read.md)
+      + [Wichtige Informationen](api/using/must-read.md)
       + [Endpunkte](api/using/endpoints.md)
       + [Metadatenmechanismus](api/using/metadata-mechanism.md)
       + [Verben](api/using/verbs.md)
       + Zusätzliche Vorgänge {#additional-operations}
-         + [Sortierung](api/using/sorting.md)
+         + [Sortieren](api/using/sorting.md)
          + [Filter](api/using/filtering.md)
          + [Zählung](api/using/counting.md)
          + [Paginierung](api/using/pagination.md)
@@ -492,25 +491,25 @@ ht-degree: 100%
       + [Profile erstellen](api/using/creating-profiles.md)
    + Dienste und Abonnements verwalten {#managing-services-and-subscriptiopns}
       + [Dienst erstellen](api/using/creating-a-service.md)
-      + [Abonnements abrufen](api/using/retrieving-subscriptions.md)
+      + [Abrufen von Anmeldungen](api/using/retrieving-subscriptions.md)
       + [Abonnements ausführen](api/using/perform-subscriptions.md)
-      + [Abonnements löschen](api/using/deleting-subscriptions.md)
+      + [Löschen von Anmeldungen](api/using/deleting-subscriptions.md)
    + [Interaktion mit dem Marketing-Verlauf](api/using/interacting-with-marketing-history.md)
    + Datenschutzverwaltung {#privacy-management}
       + [Datenschutzanfrage erstellen](api/using/creating-a-privacy-request.md)
-      + [Datenschutzanfrage überwachen](api/using/monitoring-a-privacy-request.md)
-      + [Datenschutz-Datendateien abrufen](api/using/retrieving-privacy-data-files.md)
-      + [CCPA-Opt-out verwalten](api/using/managing-ccpa-opt-out.md)
-   + [Transaktionsnachrichten verwalten](api/using/managing-transactional-messages.md)
+      + [Überwachen einer Datenschutzanfrage](api/using/monitoring-a-privacy-request.md)
+      + [Abrufen von Datenschutzdateien](api/using/retrieving-privacy-data-files.md)
+      + [Verwalten des CCPA-Opt-outs](api/using/managing-ccpa-opt-out.md)
+   + [Verwalten von Transaktionsnachrichten](api/using/managing-transactional-messages.md)
    + Workflows verwalten {#managing-workflows}
-      + [Workflow kontrollieren](api/using/controlling-a-workflow.md)
-      + [Signalaktivität auslösen](api/using/triggering-a-signal-activity.md)
+      + [Steuern eines Workflows](api/using/controlling-a-workflow.md)
+      + [Auslösen einer Signalaktivität](api/using/triggering-a-signal-activity.md)
    + Organisationseinheiten verwalten {#managing-organizational-units}
-      + [Organisationseinheit eines Profils abrufen](api/using/retrieving-an-organizational-unit.md)
-      + [Organisationseinheit eines Profils aktualisieren](api/using/updating-profile-organizational-unit.md)
+      + [Abrufen der Organisationseinheit eines Profils](api/using/retrieving-an-organizational-unit.md)
+      + [Aktualisieren der Organisationseinheit eines Profils](api/using/updating-profile-organizational-unit.md)
       + [Attribute einer Organisationseinheit aktualisieren](api/using/updating-organizational-unit-attributes.md)
    + Geografische Einheiten verwalten {#managing-geographical-units}
-      + [Geografische Einheit eines Profils abrufen](api/using/retrieving-a-geographical-unit.md)
-      + [Geografische Einheit eines Profils aktualisieren](api/using/updating-a-geographical-unit.md)
+      + [Abrufen der geografischen Einheit eines Profils](api/using/retrieving-a-geographical-unit.md)
+      + [Aktualisieren der geografischen Einheit eines Profils](api/using/updating-a-geographical-unit.md)
       + [Attribute geografischer Einheiten aktualisieren](api/using/updating-geographical-unit-attributes.md)
    + [Fehlerbehebung](api/using/troubleshooting.md)
