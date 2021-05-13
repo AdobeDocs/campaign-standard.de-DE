@@ -1,45 +1,49 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Aktive Profile
-description: Sie können auf einen eigenen Bericht mit Kundenmetriken zugreifen und aktive Profile in Ihrer Campaign-Datenbank darstellen.
-audience: audiences
-content-type: reference
-topic-tags: managing-profiles
-feature: Profiles
+title: Kampagne Aktive Profil
+description: Erfahren Sie, wie Sie auf Kundenmetriken und aktive Profil zugreifen können
+feature: Profile
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '313'
-ht-degree: 100%
+source-git-commit: d2fcf2ca22bb5fe3632280f922dfed0972f6eb09
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 26%
 
 ---
 
-# Aktive Profile{#active-profiles}
+# Kundenmetriken {#customer-metrics}
 
-Adobe Campaign erstellt einen Bericht, in dem die Anzahl der aktiven Profile dargestellt wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung. Nur Administratoren haben Zugriff auf diesen Bericht. Er kann unter **[!UICONTROL Administration > Kundenmetriken abgerufen werden]**.
+Funktionsadministratoren der Kampagne können auf den Bericht **[!UICONTROL Kundenmetriken]** von **[!UICONTROL Administration > Kundenmetriken]** zugreifen.
 
 ![](assets/audience_active_profiles1.png)
 
+Dieser Bericht zeigt an:
+
+* die Experience Cloud-ID
+* die IMS-Organisations-ID
+* die Anzahl der **aktiven Profil**
+* die Liste der in der Instanz verfügbaren Zielgruppendimensionen
+
+Dieser Bericht wird monatlich durch den technischen Workflow **[!UICONTROL Rechnungsstellung]** erstellt.
+
+## Aktive Profile{#active-profiles}
+
+Gemäß Ihrem Vertrag wird jeder Ihrer Instanzen der Kampagne eine bestimmte Anzahl aktiver Profil bereitgestellt. Bitte beachten Sie Ihre Lizenzvereinbarung hinsichtlich der Anzahl der erworbenen aktiven Profil.
+
 >[!NOTE]
 >
->Wenn Sie Campaign Standard mit Build 10368 verwenden, können Sie die Anzahl der in Ihren Instanzen verwendeten aktiven Profile auch direkt über das Control Panel überwachen. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
->
->Beachten Sie, dass die Metrik der aktiven Profile nur für **Marketing-Instanzen** verfügbar und relevant ist. Sie ist für Ausführungsinstanzen, d. h. MID (Mid-Sourcing)- und RT (Message Center-/Echtzeit-Messaging)-Instanzen, weder anwendbar noch verfügbar.
+>Als Admin-Benutzer können Sie auch direkt über die Systemsteuerung die Anzahl der aktiven Profil überwachen, die auf Ihren Instanzen verwendet werden. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=de).
 
-Die Profile, die während der Versandvorbereitung ausgeschlossen wurden (Typologieregeln, Quarantänen, Kontrollgruppen), werden nicht berücksichtigt. Ein Profil, das mehrere Sendungen erhalten hat, wird nur einmal gezählt. Am Ende des Berichts finden Sie die Liste der aktiven Profile für jede Zielgruppendimension.
 
-Dieser Bericht wird monatlich durch den technischen Workflow **[!UICONTROL Rechnungsstellung]** erstellt. Er enthält die Anzahl der aktiven Profile, die während der letzten 12 Monate (rollierend) ausgewählt wurden.
-
-Beachten Sie, dass die Profile, die während der Versandvorbereitung ausgeschlossen wurden (Typologieregeln, Quarantänen), nicht berücksichtigt werden. Außerdem wird ein Profil, das mehrere Sendungen erhalten hat, nur einmal gezählt.
+Ein &quot;Profil&quot;ist ein Datensatz mit Informationen, die einen Endkunden, Potenzieller Kunde oder Interessenten repräsentieren. Profil werden als **aktiv** angesehen, wenn sie von einem Versand der Kampagne innerhalb der letzten 12 Monate über einen beliebigen Kanal angesprochen wurden. Die Profil, die bei der Vorbereitung des Versands (z. B. nach Typologieregeln oder Quarantänen) ausgeschlossen wurden, werden nicht berücksichtigt. Ein Profil, das mehrere Sendungen erhalten hat, wird nur einmal gezählt. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung.
 
 ![](assets/audience_active_profiles2.png)
 
-Am Ende des Berichts finden Sie die Liste der aktiven Profile, die vom Rechnungsstellungs-Workflow verarbeitet wurden.
+Am Ende des Berichts finden Sie die Liste der aktiven Profile für jede Zielgruppendimension. Er zeigt die Anzahl der aktiven Profil, die während der letzten 12 Monate als Ziel ausgewählt wurden.
 
-* Die Quelle **[!UICONTROL NmsRecipient]** umfasst alle Kunden, die mithilfe von Informationen aus ihrem Campaign Standard-Profil kontaktiert wurden.
+* Die **[!UICONTROL NmsRecipient]**-Quelle enthält alle Profil, die mithilfe von Informationen aus ihrem Campaign Standard-Profil kontaktiert wurden.
 
-* Auf der anderen Seite werden Kunden, die nur unter Verwendung einer bestimmten Information (E-Mail-Adresse, Telefonnummer) ohne Bezug zu ihrem Kampagnen-Profil kontaktiert wurden, der Quelle **[!UICONTROL Anonym]** zugeordnet.
+* Die Kundenquelle **[!UICONTROL anonym]** zeigt die Anzahl der Profil an, die ausschließlich mit einer bestimmten Information (E-Mail-Adresse, Telefonnummer) als Ziel ausgewählt wurden, ohne dass dabei das Profil der Kampagne im Zusammenhang stand.
