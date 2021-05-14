@@ -7,13 +7,12 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campaigns
+feature: Kampagnen
 role: Business Practitioner
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
+workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -33,7 +32,7 @@ Wählen Sie den Link **[!UICONTROL Marketingaktivitäten]** aus der Symbolleiste
 >
 >Auf die Liste kann ebenfalls von der Startseite ausgehend unter Verwendung der **[!UICONTROL Marketingaktivitäten]**-Karte zugegriffen werden.
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 Das **[!UICONTROL Suche]**-Menü erlaubt die Filterung der angezeigten Elemente nach unterschiedlichen Kriterien: nach Name (Titel und Kennung), Datum, Status oder Aktivitätstyp. Standardmäßig sind alle Aktivitätstypen, Programme ausgenommen, ausgewählt.
 
