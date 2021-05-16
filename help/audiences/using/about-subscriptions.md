@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: Über Abonnements
 description: Erfahren Sie mehr über Dienste und Abonnements in Campaign Standard.
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
 feature: Audiences
 role: Business Practitioner
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 87%
 
 ---
 
 # Über Abonnements{#about-subscriptions}
 
-In Adobe Campaign können Sie Newsletter und kanalübergreifende Sendungen mithilfe einer Reihe von **Diensten** erstellen und verwalten. Dabei können Nachrichten nur an Profile gesendet werden, die sich ausdrücklich für den Dienst angemeldet haben. Diese Profile werden mithilfe eines speziellen Filters bei der Erstellung einer Nachricht identifiziert.
+Verwenden Sie Adobe Campaign, um mithilfe eines Satzes von **services** Newsletter- und Cross-Kanal-Nachrichten zu erstellen und zu verwalten: Nachrichten werden nur an Profil gesendet, die den Dienst abonniert haben (Opt-in). Diese Profile werden mithilfe eines speziellen Filters bei der Erstellung einer Nachricht identifiziert.
 
 Sie können Anmeldemechanismen einrichten, um Ihren Kunden die Möglichkeit zu geben, sich vor allem über **E-Mails** und **Landingpages** für diese Dienste anzumelden.
 
