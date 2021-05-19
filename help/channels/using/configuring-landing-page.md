@@ -11,11 +11,10 @@ feature: Landing Pages
 role: Business Practitioner
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +56,7 @@ Gehen Sie folgendermaßen vor, um den Dienst auszuwählen, der verknüpft werden
 
    Verwenden Sie in diesem Fall die Option **[!UICONTROL In der URL angegebener Dienst]**. Die Landingpage muss in den Parametern der jeweiligen Dienste referenziert werden.
 
-## Berechtigungen einrichten und Daten vorausfüllen       {#setting-permissions-and-pre-loading-data}
+## Berechtigungen einrichten und Daten vorausfüllen        {#setting-permissions-and-pre-loading-data}
 
 Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen oder zu einer bestimmten Organisationseinheit gehören.
 Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage geladen werden. Gehen Sie dazu wie folgt vor:
@@ -70,12 +69,11 @@ Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage 
 
    Wenn dem Besucher ein in der Datenbank gespeichertes Profil zugeordnet werden konnte, werden die mit der Datenbank übereinstimmenden Felder des Anmeldeformulars vorausgefüllt und die Landingpage entsprechend personalisiert.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-Außerdem haben Sie folgende Möglichkeiten:
+Mit der Option **[!UICONTROL Unbekannte Besucher autorisieren]** können Sie auch jedem Besucher den Zugriff auf die Landingpage genehmigen.
 
-* Mithilfe der URL-Parameter können Sie über die Option **[!UICONTROL Besucheridentifizierung über URL-Parameter zulassen]** Besucher identifizieren. Wählen Sie dann den Ladeschlüssel aus und mappen Sie die Filterparameter mit den entsprechenden URL-Parametern.
-* Gewähren Sie allen Besuchern Zugriff auf die Landingpage, indem Sie die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]** auswählen.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 Landingpages können auch mit einer Organisationseinheit verknüpft werden. Dadurch wird wird festgelegt, auf welche Landingpage ein Benutzer Zugriff hat. So weisen Sie eine Organisationseinheit zu:
 
@@ -111,7 +109,7 @@ Nachdem Ihr externes Konto für Google reCAPTCHA V3 eingerichtet wurde, können 
 1. Aktivieren Sie die Option **[!UICONTROL reCAPTCHA verwenden, um die Website vor Spam und Missbrauch zu schützen]**.
 1. Wählen Sie das zuvor erstellte externe Google reCAPTCHA-Konto aus.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
