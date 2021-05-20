@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 * **[Integration zwischen Campaign und RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Erfahren Sie, wie Sie Daten zwischen Campaign und der Adobe Echtzeit-Kundendatenplattform (RTCDP) austauschen können.
 
-* **[Falsche feste ](https://helpx.adobe.com/de/campaign/kb/update-bounce-qualification.html)**<br/> Absprünge aktualisierenInformieren Sie sich, wie Sie falsche Absprünge nach einem E-Mail-Ausfall aktualisieren
+* **[Aktualisieren falscher Hardbounces](https://helpx.adobe.com/de/campaign/kb/update-bounce-qualification.html)**<br/> Erfahren Sie, wie Sie falsche Hardbounces nach einem E-Mail-Ausfall aktualisieren können.
 
 * **[Kontrollgruppen](sending/using/control-group.md)**<br/> Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
 
