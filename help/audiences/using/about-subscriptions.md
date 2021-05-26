@@ -8,15 +8,15 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
 source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Über Abonnements{#about-subscriptions}
 
-Verwenden Sie Adobe Campaign, um mithilfe eines Satzes von **services** Newsletter- und Cross-Kanal-Nachrichten zu erstellen und zu verwalten: Nachrichten werden nur an Profil gesendet, die den Dienst abonniert haben (Opt-in). Diese Profile werden mithilfe eines speziellen Filters bei der Erstellung einer Nachricht identifiziert.
+Mit Adobe Campaign können Sie Newsletter und kanalübergreifende Nachrichten mithilfe einer Reihe von **Services** erstellen und verwalten. Dabei werden Nachrichten nur an Profile gesendet, die sich ausdrücklich für den Dienst angemeldet haben. Diese Profile werden mithilfe eines speziellen Filters bei der Erstellung einer Nachricht identifiziert.
 
 Sie können Anmeldemechanismen einrichten, um Ihren Kunden die Möglichkeit zu geben, sich vor allem über **E-Mails** und **Landingpages** für diese Dienste anzumelden.
 
