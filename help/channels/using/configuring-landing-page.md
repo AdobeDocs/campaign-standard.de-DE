@@ -12,15 +12,15 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren einer Landingpage {#configuring-landing-page}
 
-## Versand einer Landingpage bestätigen       {#confirm-a-landing-page-submission}
+## Versand einer Landingpage bestätigen        {#confirm-a-landing-page-submission}
 
 Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie wie folgt vor:
 
@@ -71,7 +71,7 @@ Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage 
 
    ![](assets/lp_parameters_3_temp.png)
 
-Mit der Option **[!UICONTROL Unbekannte Besucher autorisieren]** können Sie auch jedem Besucher den Zugriff auf die Landingpage genehmigen.
+Sie können auch einem Besucher Zugriff auf die Landingpage gewähren, indem Sie die Option **[!UICONTROL Nicht-identifizierte Benutzer zulassen]** auswählen.
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
