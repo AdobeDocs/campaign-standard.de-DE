@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 7%
 
 ---
@@ -53,6 +53,9 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 * Die Asset Core Service-Integration mit Email Designer kann jetzt von Standardbenutzern verwendet werden.
 
 * Es wurde eine neue Meldung hinzugefügt, die bestätigt, dass die Migration von einer v4-Push-Anwendung zu einer v5-Push-Anwendung erfolgreich war.
+
+* Während der Erstellung von JSONWeb-Token zur Authentifizierung bei der Campaign Standard-API werden die Produktprofile jetzt **als** eingestuft. Das bedeutet, dass die der Sicherheitsgruppe zugewiesenen Organisationseinheiten und Rollen (die dem Produktprofil in Adobe I/O entsprechen) auf das für Campaign Standard Rest-API-Aufrufe erforderliche IMS-technische Konto angewendet werden. (CAMP-47479)
+
 
 **Korrekturen**
 
@@ -111,5 +114,3 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 * Es wurde ein Problem in Email Designer behoben, bei dem die Asset-Core-Service-Integration beim Versuch, ein Asset auszuwählen, weiterhin fehlschlug. (CAMP-47446)
 
 * Fehlerkorrektur - Es wurde ein Fehler behoben, der manche Sendungen von Journey Orchestrationen blockiert hat, da Campaign keine Zeitstempel mit einem exakten Wert (d. h. mit 00 enden) unterstützt, die von Ereignissen aus Journey Orchestration gesendet werden.
-
-* Der technische Workflow updateDeliveryIndicators wurde optimiert. Versandkennungen mit demselben Broadlog-/Trackinglog-Schema werden nun gruppiert. Dadurch wird die Anzahl der Abfragen begrenzt und die Leistung verbessert.
