@@ -6,7 +6,7 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 + [Aktuelle Updates](rn/using/documentation-updates.md)
 + Versionshinweise {#release-notes}
    + [Aktuelle Version](rn/using/release-notes.md)
-   + [Frühzeitige Versionshinweise](rn/using/early-release-notes.md)
+   + [Frühzeitige Versionshinweise](rn/using/e-release-notes.md)
    + Frühere Versionen {#previous-releases}
       + [Versionshinweise 2020](rn/using/release-notes-2020.md)
       + [Versionshinweise 2019](rn/using/release-notes-2019.md)
@@ -29,7 +29,7 @@ ht-degree: 99%
    + [Versionsplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
    + [Problem mit Signaturen getrackter URLs](rn/using/tracked-urls.md)
-+ Erste Schritte{#getting-started}
++ Erste Schritte {#getting-started}
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Benutzeroberfläche {#discovering-the-interface}
       + [Über die Benutzeroberfläche](start/using/about-the-interface.md)
@@ -223,7 +223,7 @@ ht-degree: 99%
       + [Komponenten hinzufügen](reporting/using/adding-components.md)
       + [Benutzerdefinierte Profildimension erstellen](reporting/using/creating-a-custom-profile-dimension.md)
       + [Erstellen eines Berichts auf der Basis von Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
-+ Mit anderen Lösungen integrieren {#integrating-with-adobe-cloud}
++ Integration mit anderen Lösungen {#integrating-with-adobe-cloud}
    + [Erste Schritte mit Campaign-Integrationen](integrating/using/get-started-campaign-integrations.md)
    + Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
       + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
@@ -284,7 +284,7 @@ ht-degree: 99%
          + [Mapping-Definition](integrating/using/aep-mapping-definition.md)
          + [Mapping-Aktivierung](integrating/using/aep-mapping-activation.md)
          + [Datenaufnahme über APIs aktivieren](integrating/using/aep-triggering-data-ingestion.md)
-+ Verwalten von Prozessen und Daten{#managing-processes-and-data}
++ Verwalten von Prozessen und Daten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
       + [Workflow-Oberfläche](automating/using/workflow-interface.md)
@@ -356,7 +356,7 @@ ht-degree: 99%
       + [Package-Verwaltung](automating/using/managing-packages.md)
       + [Listenexport](automating/using/exporting-lists.md)
       + [Anwendungsfall: Exportieren/Importieren benutzerdefinierter Ressourcen](automating/using/exporting-importing-custom-resources.md)
-   + Anwendungsbeispiele {#workflow-use-case}
+   + Anwendungsfälle {#workflow-use-case}
       + [Über Workflow-Anwendungsfälle](automating/using/about-workflow-use-cases.md)
       + Sendungen {#deliveries}
          + [Sendungen mit einem Komplement erstellen](automating/using/workflow-created-query-with-complement.md)
@@ -377,7 +377,7 @@ ht-degree: 99%
          + [Inkrementelle Abfrage bezüglich Dienst-Abonnenten](automating/using/incremental-query-on-subscribers.md)
          + [Segmentierung nach Altersklassen](automating/using/segmentation-age-groups.md)
          + [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](automating/using/using-resources-different-from-targeting-dimensions.md)
-      + Datenmanagement {#data-management}
+      + Daten-Management {#data-management}
          + [Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](automating/using/reconcile-file-audience-with-database.md)
          + [Daten einer importierten Datei deduplizieren](automating/using/deduplicating-data-imported-file.md)
          + [Profildaten mit in einer Datei enthaltenen Daten anreichern](automating/using/enriching-profile-data-file.md)
@@ -428,7 +428,7 @@ ht-degree: 99%
       + [Trackinglogs](developing/using/datamodel-tracking.md)
       + [Abmeldeereignis](developing/using/datamodel-unsubscription.md)
       + [Besucher](developing/using/datamodel-visitor.md)
-+ Verwalten{#administrating}
++ Verwaltung {#administrating}
    + [Erste Schritte mit der Administration von Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Richtlinien für das Monitoring](administration/using/monitoring-guidelines.md)
    + [Konfigurationsrichtlinien](administration/using/about-configuration-guidelines.md)
