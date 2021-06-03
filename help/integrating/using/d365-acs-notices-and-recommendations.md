@@ -6,15 +6,14 @@ description: Erfahren Sie, wie Campaign Standard und Microsoft Dynamics 365 geme
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '2473'
-ht-degree: 100%
+source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+workflow-type: tm+mt
+source-wordcount: '2513'
+ht-degree: 94%
 
 ---
 
@@ -170,19 +169,19 @@ Die folgenden Limits sollten bei der Verwendung dieser Integration berücksichti
 
    Bei der Schätzung des Gesamtaufrufvolumens der Campaign-Engine ist es wichtig, andere Quellen für Engine-Aufrufe zu berücksichtigen, einschließlich Landingpages, Web-Anwendungen, JSSP, APIs, Registrierungen von Mobile Apps usw.
 
-   Informationen zum Campaign-Package finden Sie hier: https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html
+   Informationen zum Adobe Campaign Standard-Package finden Sie hier: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html)
 
-* Die Integration unterstützt maximal 30 Millionen Kontakte.
+* Die Integration unterstützt maximal 15 Millionen Datensätze für die erste Synchronisierung mit Ressourcen in Campaign. Die inkrementelle Synchronisierung wird durch das Adobe Campaign Standard-Paket eingeschränkt.
 
-* Das Standardintegrationsangebot unterstützt bis zu fünf benutzerdefinierte Entitätenjeweils mit einer Größe von maximal 50 Spalten.
+* Das standardmäßige Integrationsangebot umfasst Unterstützung für bis zu 20 benutzerdefinierte Entitäten mit einer Größe von maximal 50 Spalten.
 
 * Sie müssen Ihre benutzerdefinierten Ressourcen erstellen und veröffentlichen, bevor Sie die Integration implementieren.
 
 * Die maximale Tabellentiefe beim Verknüpfen von Tabellen beträgt zwei (d. h. Tabelle1->Tabelle2->Tabelle3).
 
-* Microsoft Dynamics 365-Datentypen werden nur eingeschränkt unterstützt. Wenn Ihr Datenmodell einen anderen Datentyp als einfache Datentypen enthält (z. B. Zeichenfolgen, Ganzzahlen, Dezimalzahlen usw.), müssen Sie Ihr Datenmodell möglicherweise aktualisieren, bevor Sie die Integration verwenden.
+* Die Integration unterstützt bis zu 5 verknüpfte Spalten pro benutzerdefinierter Ressource. Die Verknüpfung mehrerer Spalten zwischen benutzerdefinierten Ressourcen kann erhebliche Leistungseinbußen zur Folge haben. **Einfache** Relation mit Kardinalität 0 oder 1 wird gegenüber  **1 einfachen Relation** mit Kardinalität bevorzugt.
 
-* Wenn Sie sich dafür entschieden haben, vorhandene Daten in benutzerdefinierten Campaign-Entitäten beizubehalten, müssen Sie die Daten für die Integration vorbereiten.
+* Die Integration unterstützt die Transformation zwischen primitiven Datentypen in Microsoft Dynamics 365 (Boolesch, Integer, Dezimal, Double, String, DateTime, Date) und Adobe Campaign Standard-Datentypen (Ganzzahl, boolesch, Gleitkommazahl, Dublette, Datum, Datum, Uhrzeit, Zeichenfolge). Erweiterte Datentypen werden als Zeichenfolgen interpretiert und wie besehen synchronisiert.
 
 * Möglicherweise müssen zwischen Adobe und dem Kunden Wartungsfenster für das Onboarding festgelegt werden.
 
