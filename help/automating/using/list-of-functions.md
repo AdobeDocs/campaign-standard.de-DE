@@ -10,11 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: ht
-source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
-workflow-type: ht
-source-wordcount: '1943'
-ht-degree: 100%
+source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+workflow-type: tm+mt
+source-wordcount: '1973'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +39,7 @@ Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Fu
 >
 >Es stehen zusätzliche Funktionen in allen Aktivitäten zur Verfügung, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md).
 
-## Datumsangaben {#dates}
+## Datum-Funktionen        {#dates}
 
 Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 
@@ -707,8 +706,16 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
    <td> <strong>Min</strong>, Minimum<br /> </td> 
    <td> Gibt den Mindestwert einer Spalte vom Typ Zahl, String oder Datum aus.<br /> </td> 
    <td> Min(&lt;Wert&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
+   <td> <strong>StringAgg</strong>, String aggregate<br /> </td> 
+   <td> Gibt die Verkettung der Werte einer Spalte vom Typ String zurück, getrennt durch das Zeichen im zweiten Argument (Standardtrennzeichen ist Komma).<br /> </td> 
+   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
+  </tr>
+
+
+
+<tr> 
    <td> <strong>Sum</strong>, Summe<br /> </td> 
    <td> Gibt die Summe der Werte einer Spalte vom Typ Zahl aus.<br /> </td> 
    <td> Sum(&lt;Wert&gt;)<br /> </td> 
