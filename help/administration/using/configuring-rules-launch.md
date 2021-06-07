@@ -7,15 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
+feature: Instanzeneinstellungen
 role: Administrator
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1087'
-ht-degree: 100%
+source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 96%
 
 ---
 
@@ -147,6 +146,10 @@ Ihre Benutzerdaten sind nun konfiguriert und können an Campaign gesendet werden
 
 ### In-App-Tracking-Postback {#inapp-tracking-postback}
 
+>[!NOTE]
+>
+>Wenn Sie Android ACPCore v1.4.0 oder höher/iOS ACPCore v2.3.0 oder höher verwenden, ist die Konfiguration von Tracking-Postbacks nicht erforderlich.
+
 Um Tracking-Daten zur Berichtserstellung über die Interaktion Ihrer Benutzer mit In-App-Nachrichten an [!DNL Adobe Campaign Standard] zu senden, erstellen Sie die folgende Regel in [!DNL Experience Platform Launch]:
 
 1. Wählen Sie in [!DNL Experience Platform Launch] im Dashboard Ihrer mobilen App die Registerkarte **[!UICONTROL Regeln]** und klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
@@ -180,6 +183,10 @@ Um Tracking-Daten zur Berichtserstellung über die Interaktion Ihrer Benutzer mi
    ![](assets/do-not-localize/rules_3.png)
 
 ### Tracking-Postback für Push-Benachrichtigungen {#push-tracking-postback}
+
+>[!NOTE]
+>
+>Wenn Sie Android ACPCore v1.4.0 oder höher/iOS ACPCore v2.3.0 oder höher verwenden, ist die Konfiguration von Tracking-Postbacks nicht erforderlich.
 
 Um Tracking-Daten an [!DNL Adobe Campaign Standard] zu senden, damit Ihre Push-Benachrichtigung und die Benutzerinteraktionen mit Ihrer Mobile App getrackt werden können, müssen Sie eine Regel in [!DNL Experience Platform Launch] erstellen.
 
