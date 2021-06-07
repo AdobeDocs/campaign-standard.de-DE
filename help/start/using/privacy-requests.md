@@ -6,14 +6,13 @@ description: Erfahren Sie, wie Sie Datenschutzanfragen in Adobe Campaign Standar
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
+feature: Datenschutz
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1830'
+source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
+workflow-type: tm+mt
+source-wordcount: '1734'
 ht-degree: 100%
 
 ---
@@ -156,21 +155,21 @@ Dies sind die unterschiedlichen Status einer Datenschutzanfrage:
 * **[!UICONTROL Beendet]**: Die Verarbeitung der Anfrage wurde ohne Fehler abgeschlossen.
 * **[!UICONTROL Fehler]**: Workflow ist fehlerhaft. Die Spalte **[!UICONTROL Anfragestatus]** in der Liste der Datenschutzanfragen zeigt den Grund an. Beispielsweise bedeutet **[!UICONTROL Fehlerdaten nicht gefunden]**, dass in der Datenbank keine Empfängerdaten gefunden wurden, die dem **[!UICONTROL Abstimmwert]** der betroffenen Person entsprechen.
 
-### Deaktivieren des zweistufigen Prozesses {#disabling-two-step-process}
+<!--### Disabling the 2-step process {#disabling-two-step-process}
 
-Der zweistufige Prozess wird vom Privacy Core Service nicht unterstützt.
+The Core Privacy Service does not support the 2-step process.
 
 >[!IMPORTANT]
 >
->Bevor Sie die Privacy Core Service-Integration zur Verwaltung Ihrer Datenschutzanfragen verwenden, müssen Sie den zweistufigen Prozess für Löschanfragen über die Campaign Standard-Benutzeroberfläche deaktivieren.
+>Before using the Core Privacy Service integration to manage your Privacy requests, you must disable the 2-step process for Delete requests from the Campaign Standard interface.
 
-Wenn diese Option nicht deaktiviert wird, bleiben alle mit dem Privacy Core Service verwalteten Löschanfragen im Status &quot;Ausstehend&quot; und werden nicht abgeschlossen.
+If this option is not disabled, all Delete requests managed with the Privacy Core Service will remain in pending state and will not complete.
 
-Standardmäßig ist der zweistufige Prozess aktiviert.
+By default, the 2-step process is activated.
 
-Um diesen Modus zu ändern, klicken Sie auf **[!UICONTROL Eigenschaften bearbeiten]** oben rechts auf dem Bildschirm **[!UICONTROL Datenschutzanfragen]** und deaktivieren Sie dann die Option **[!UICONTROL Zweistufigen Prozess aktivieren]**.
+To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)
+![](assets/privacy-disable-2-step-process.png)-->
 
 ## Opt-out aus dem Verkauf von personenbezogenen Daten (CCPA) {#sale-of-personal-information-ccpa}
 
