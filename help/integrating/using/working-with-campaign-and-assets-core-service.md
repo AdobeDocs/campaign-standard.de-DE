@@ -6,15 +6,14 @@ description: Dank der Integration von Assets Core Service können Sie alle inner
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: People Core Service Integration
+feature: People Core Service-Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: ef3480d3da9c5c0597af90c89a73a1aff0a87809
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +21,11 @@ ht-degree: 100%
 
 Die Integration von Assets Core Service bzw. Assets On Demand (je nach Konfiguration Ihrer Experience-Cloud-Umgebung) und Adobe Campaign ermöglicht die Verwendung von in Adobe Experience Cloud freigegebenen Assets in Adobe-Campaign-E-Mails und -Landingpages.
 
-Freigegebene Assets der Adobe Experience Cloud können in E-Mails und Landingpages wie nachfolgend beschrieben eingesetzt werden:
+>[!CAUTION]
+>
+> Die Integration mit Assets Core Service ist auf [Funktionale Administratoren](../../administration/using/users-management.md#functional-administrators) beschränkt.
+
+Freigegebene Ressourcen von Adobe Experience Cloud können wie folgt in E-Mails und Landingpages verwendet werden:
 
 1. Markieren Sie im Inhaltseditor einer E-Mail oder einer Landingpage einen Bild-Block und wählen Sie über das Kontextmenü die Option **[!UICONTROL Freigegebenes Bild aus Adobe Experience Cloud]** aus.
 
