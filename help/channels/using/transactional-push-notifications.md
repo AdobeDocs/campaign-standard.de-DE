@@ -7,15 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
+feature: Transaktionsnachrichten
 role: Business Practitioner
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1365'
-ht-degree: 100%
+source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+workflow-type: tm+mt
+source-wordcount: '1495'
+ht-degree: 91%
 
 ---
 
@@ -196,3 +195,37 @@ Der entsprechende Benutzer erhält eine Transaktions-Push-Benachrichtigung einsc
 >[!NOTE]
 >
 >Es gibt keine Felder für Anmeldetoken, Anwendung und Push-Plattform. In diesem Beispiel erfolgt die Abstimmung über das E-Mail-Feld.
+
+## Zielgruppen-Mapping in einer Transaktions-Push-Benachrichtigung ändern {#change-target-mapping}
+
+Transaktions-Push-Benachrichtigungen verwenden ein bestimmtes [Zielgruppen-Mapping](../../administration/using/target-mappings-in-campaign.md), das die technischen Einstellungen enthält, die zum Senden dieses Versandtyps erforderlich sind.
+
+Gehen Sie wie folgt vor, um dieses Zielgruppen-Mapping zu ändern:
+
+1. Wählen Sie in der Liste der Transaktionsnachrichten eine Push-Benachrichtigung aus.
+
+1. Klicken Sie im Nachrichten-Dashboard auf die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** .
+
+   ![](assets/message-center_push_edit.png)
+
+1. Erweitern Sie den Abschnitt **[!UICONTROL Erweiterte Parameter]** .
+
+1. Klicken Sie auf **[!UICONTROL Wählen Sie ein Element &quot;Zielgruppen-Mapping&quot;]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Wählen Sie ein Zielgruppen-Mapping aus der Liste aus.
+
+   >[!NOTE]
+   >
+   >Um eine optimale Versandvorbereitungszeit und -leistung beim Senden von **profilbasierten** Transaktions-Push-Benachrichtigungen zu erhalten, verwenden Sie das Zielgruppen-Mapping **[!UICONTROL Profil - Echtzeit-Ereignis für Push (mapRtEventAppSubRcp)]**.
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Bestätigen Sie Ihre Änderung und veröffentlichen Sie die Nachricht. Siehe [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!IMPORTANT]
+   >
+   >Sie müssen die Nachricht erneut veröffentlichen, damit die Änderung wirksam wird. Andernfalls wird das vorherige Zielgruppen-Mapping weiterhin verwendet.
+
+
