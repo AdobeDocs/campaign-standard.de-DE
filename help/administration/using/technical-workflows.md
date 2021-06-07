@@ -6,15 +6,14 @@ description: Technische Workflows sind vordefinierte Workflows für im Hintergru
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: Instanzeneinstellungen
 role: Administrator
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '660'
-ht-degree: 100%
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 96%
 
 ---
 
@@ -100,9 +99,14 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
    <td> Dieser Workflow synchronisiert die Adobe Launch-Eigenschaften für Mobilgeräte, die in Adobe Campaign Standard importiert wurden. Er wird alle 15 Minuten gestartet.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Update der Versandausführung</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> Dieser Workflow aktualisiert die Tracking-Indikatoren des Versands. Er wird standardmäßig alle zehn Minuten gestartet.<br /> </td> 
+   <td> <span class="uicontrol">Trackinglog-Wiederherstellung</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> Dieser Workflow synchronisiert die Adobe Launch-Eigenschaften für Mobilgeräte, die in Adobe Campaign Standard importiert wurden. Er wird alle 15 Minuten gestartet.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Trackinglogs wiederherstellen</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> Dieser Workflow stellt verlorene Trackinglogs wieder her. Beachten Sie, dass dieser technische Workflow in bestimmten Kontexten verwendet wird und sich nur auf die interne Verwendung durch die Adobe beschränkt. <br> Er wird standardmäßig alle zehn Minuten gestartet.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Aktualisierung der Versandindikatoren</span> <br /> </td> 
