@@ -10,11 +10,10 @@ feature: Berichte
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: ht
-source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 93%
 
 ---
 
@@ -176,8 +175,11 @@ Hier legen wir beispielsweise die **[!UICONTROL Obergrenze]** mit 500 und die **
 
 ![](assets/troubleshooting_3.png)
 
-Der Wert **K. A.** wird manchmal in Ihren dynamischen Berichten angegeben. Dafür gibt es zwei Gründe:
+Der Wert **K. A.** wird manchmal in Ihren dynamischen Berichten angegeben. Dies kann aus drei Gründen angezeigt werden:
 
 * Der Versand wurde gelöscht und wird hier als **K. A.** angegeben, sodass keine Diskrepanz in den Ergebnissen verursacht wird.
-* Wenn Sie die Dimension **[!UICONTROL Versand von Transaktionsnachrichten]** per Drag-and-Drop in Ihre Berichte ziehen, wird als Ergebnis möglicherweise der Wert **K. A.** angezeigt. Dies geschieht, weil der dynamische Bericht alle Sendungen abruft, auch wenn sie keine Transaktionsnachrichten sind.
-Dies kann auch passieren, wenn Sie die Dimension **[!UICONTROL Versand]** in Ihren Bericht ziehen. In diesem Fall stellt der Wert **K. A.** jedoch den Versand von Transaktionsnachrichten dar.
+* Wenn Sie die Dimension **[!UICONTROL Versand von Transaktionsnachrichten]** per Drag-and-Drop in Ihre Berichte ziehen, wird als Ergebnis möglicherweise der Wert **K. A.** angezeigt. Dies geschieht, weil der dynamische Bericht alle Sendungen abruft, auch wenn sie keine Transaktionsnachrichten sind. Dies kann auch passieren, wenn Sie die Dimension **[!UICONTROL Versand]** in Ihren Bericht ziehen. In diesem Fall stellt der Wert **K. A.** jedoch den Versand von Transaktionsnachrichten dar.
+* Wenn eine Dimension mit einer Metrik verwendet wird, die nicht mit der Dimension verbunden ist. Im folgenden Beispiel wird eine Aufschlüsselung mit der Dimension **[!UICONTROL Tracking-URL]** hinzugefügt, obwohl die **[!UICONTROL Klick]**-Anzahl in diesem Versand auf 0 gesetzt ist.
+
+   ![](assets/troubleshooting_4.png)
+
