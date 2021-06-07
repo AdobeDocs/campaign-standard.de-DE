@@ -11,11 +11,10 @@ feature: SMS
 role: Business Practitioner
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '687'
-ht-degree: 100%
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +58,10 @@ Gehen Sie dabei folgendermaßen vor:
    Wenn Empfänger beispielsweise in der folgenden Konfiguration das Schlüsselwort &quot;STOP&quot; senden, erhalten sie eine Abmeldebestätigung und ihre Telefonnummer wird mit dem Status **[!UICONTROL Auf Blockierungsliste]** unter Quarantäne gestellt. Der Status bezieht sich ausschließlich auf die Telefonnummer. Das Profil wird nicht auf die Blockierungsliste gesetzt, sodass der Empfänger nach wie vor E-Mail-Nachrichten erhält.
 
    ![](assets/sms_mo.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Unter **[!UICONTROL Erweiterte Parameter]** Ihres SMS-Versands **[!UICONTROL Eigenschaften]** können Sie einen bestimmten **[!UICONTROL Kurzwahlnummer]** festlegen, um automatisch Empfänger auszuschließen, die sich abgemeldet haben. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
 Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt Ihrer Nachrichten abgemeldet und unter Quarantäne gestellt. Die unter Quarantäne gestellten Empfänger sind in der Tabelle **[!UICONTROL Adressen]** aufgeführt, die über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Quarantänen]** abrufbar ist. Weiterführende Informationen zu Quarantänen finden Sie in diesem [Abschnitt](../../sending/using/understanding-quarantine-management.md).
 
