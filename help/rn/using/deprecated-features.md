@@ -6,15 +6,14 @@ description: Auf dieser Seite finden Sie eingestellte und entfernte Funktionen v
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 98%
 
 ---
 
@@ -43,22 +42,6 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>Prädiktive Betreffzeile</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> Ab dem 15. Dezember 2020 wird die Funktionalität der prädiktiven Betreffzeile nicht mehr unterstützt.</p><br/>
-   <p>Wir empfehlen Ihnen, die KI-gestützten E-Mail-Funktionen zu nutzen, um Öffnungsraten, optimale Sendezeiten und voraussichtliche Abwanderungszahlen anhand historischer Interaktionsmetriken zu analysieren und vorherzusagen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=de">Mehr dazu</a></p></br>
-     <p>
-     <em>Geplantes Datum für die Entfernung: April 2021.</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>Push-Benachrichtigungen mit SDK v4</strong><br /> </th> 
   </tr> 
@@ -71,22 +54,6 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
      <p>
      <em>Target-Entfernungsdatum: 31. August 2021</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Datenschutzanfragen – Campaign-API und -Benutzeroberfläche</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Mit Campaign-Version 19.4. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Coreservice von Adobe</a>.</p></br>
-   <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=de-DE">Verwalten von Datenschutzanfragen</a>.</p>
-  <p> 
-  <em>Geplantes Datum für die Entfernung: April 2021.</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,6 +92,37 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
 ## Entfernte Funktionen {#removed-features}
 
 In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus Campaign Standard entfernt wurden.
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Datenschutzanfragen – Campaign-API und -Benutzeroberfläche</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Mit Campaign-Version 21.2. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Coreservice von Adobe</a>.</p></br>
+   <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=de-DE">Verwalten von Datenschutzanfragen</a>.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>Prädiktive Betreffzeile</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Ab April 2021 wird die Funktion der prädiktiven Betreffzeile eingestellt.</p><br/>
+   <p>Wir empfehlen Ihnen, die KI-gestützten E-Mail-Funktionen zu nutzen, um Öffnungsraten, optimale Sendezeiten und voraussichtliche Abwanderungszahlen anhand historischer Interaktionsmetriken zu analysieren und vorherzusagen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=de">Mehr dazu</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
