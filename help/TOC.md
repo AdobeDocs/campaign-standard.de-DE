@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 99%
    + [Aktuelle Version](rn/using/release-notes.md)
    + [Frühzeitige Versionshinweise](rn/using/e-release-notes.md)
    + Frühere Versionen {#previous-releases}
+      + [Versionshinweise 2021](rn/using/release-notes-2021.md)
       + [Versionshinweise 2020](rn/using/release-notes-2020.md)
       + [Versionshinweise 2019](rn/using/release-notes-2019.md)
       + [Versionshinweise 2018](rn/using/release-notes-2018.md)
@@ -59,7 +60,7 @@ ht-degree: 99%
       + [Anreicherung der Campaign-Datenbank](audiences/using/enriching-campaign-database.md)
    + Verwaltung von Audiences {#managing-audiences}
       + [Über Audiences](audiences/using/about-audiences.md)
-      + [Audiences erstellen](audiences/using/creating-audiences.md)
+      + [Erstellen von Audiences](audiences/using/creating-audiences.md)
       + [Audience in einer Nachricht auswählen](audiences/using/selecting-an-audience-in-a-message.md)
    + Abonnements verwalten {#managing-subscriptions}
       + [Über Abonnements](audiences/using/about-subscriptions.md)
