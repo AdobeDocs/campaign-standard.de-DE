@@ -10,18 +10,15 @@ feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcd8963ed18ba274bec4dcd790d9a3e4af4ffd25
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '979'
 ht-degree: 6%
 
 ---
 
 # Aktuelle Version{#latest-release}
 
-## Version 21.2 - Juni 2021            {#release-21-2---june-2021}
-
-Die in dieser Campaign Standard-Version enthaltenen neuen Funktionen, Verbesserungen und Fehlerbehebungen sind unten aufgeführt.
 
 **Verbesserungen**
 
