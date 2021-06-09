@@ -6,15 +6,14 @@ description: Erfahren Sie, wie Sie ein Campaign Standard-Feld auf ein XDM-Feld (
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +43,7 @@ Zur Durchführung dieser Aufgabe sind folgende Voraussetzungen erforderlich:
 
 >[!NOTE]
 >
->Damit ein Batch in das Echtzeit-Kundenprofil oder den Identitätsdienst aufgenommen werden kann, muss der Datensatz für [Echtzeit-Kundenprofil aktiviert](https://docs.adobe.com/content/help/de-DE/experience-platform/rtcdp/intro/get-started.html) werden.
+>Damit ein Batch in das Echtzeit-Kundenprofil oder den Identitätsdienst aufgenommen werden kann, muss der Datensatz für [Echtzeit-Kundenprofil aktiviert](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html) werden.
 >
 >Wenn der ausgewählte Datensatz bereits in einem vorhandenen Daten-Mapping verwendet wird, wird ein Warnhinweis angezeigt, der Sie darüber informiert, dass Ihre Daten in Adobe Experience Platform möglicherweise überschrieben werden. Dies kann passieren, wenn es einige gemeinsame Empfänger in Daten-Mappings gibt, die den gleichen Datensatz verwenden.
 
@@ -64,7 +63,7 @@ Die in Campaign Standard definierten erweiterten Ressourcen werden wie alle nati
 
 Sie können die XDM-Erweiterung über die API anpassen und Ihre eigene Erweiterung definieren, um die Kontrolle über das Mapping zu verbessern.
 
-Weitere Informationen zur XDM-API finden Sie im [Tutorial zur Schema Registry-API](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
+Weitere Informationen zur XDM-API finden Sie im [Tutorial zur Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 Um ein Auflistungsfeld abzubilden, müssen Sie den Ausdruckseditor verwenden, um jeden Auflistungswert zu definieren, der dem XDM-Wert entspricht. So muss zum Beispiel postAdressfield wie folgt definiert werden:
 
