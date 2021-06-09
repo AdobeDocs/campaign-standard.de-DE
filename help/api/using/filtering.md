@@ -10,11 +10,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 98%
 
 ---
 
@@ -205,7 +204,7 @@ Wenn Sie einen benutzerdefinierten Filter verwenden möchten, müssen Sie ihn in
 Weiterführende Informationen finden Sie in der Campaign Standard-Dokumentation.
 
 * [Filterdefinition konfigurieren](https://helpx.adobe.com/de/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Anwendungsbeispiel: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Anwendungsbeispiel: Aufrufen einer Ressource mit einem zusammengesetzten Identifizierungsschlüssel](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
