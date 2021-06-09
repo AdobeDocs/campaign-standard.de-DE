@@ -10,10 +10,10 @@ feature: People Core Service-Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: ef3480d3da9c5c0597af90c89a73a1aff0a87809
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 84%
+source-wordcount: '177'
+ht-degree: 80%
 
 ---
 
@@ -39,5 +39,5 @@ Das entsprechende Bild wird nun eingefügt. Der Versand kann nach Bedarf persona
 
 **Verwandte Themen:**
 
-* [Assets und Freigabe](https://docs.adobe.com/content/help/de-DE/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets und Freigabe](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
 * [Inhaltseditor](../../designing/using/personalization.md#example-email-personalization)
