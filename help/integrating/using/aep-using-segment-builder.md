@@ -7,15 +7,14 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-Integration
 role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '898'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +24,9 @@ ht-degree: 100%
 >
 >Der Audience Destinations-Dienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Mit Segment Builder können Sie Audiences erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Echtzeit-Kundenprofil](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html) stammen.
+Mit Segment Builder können Sie Audiences erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de) stammen.
 
-In diesem Abschnitt werden allgemeine Konzepte zum Erstellen eines Segments vorgestellt. Detaillierte Informationen zu Segment Builder finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
+In diesem Abschnitt werden allgemeine Konzepte zum Erstellen eines Segments vorgestellt. Detaillierte Informationen zu Segment Builder finden Sie im [Segment Builder-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Die Benutzeroberfläche von Segment Builder sieht wie folgt aus:
 
@@ -49,7 +48,7 @@ Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
 1. Vergewissern Sie sich, dass im Einstellungsfeld die gewünschte Zusammenführungsrichtlinie ausgewählt ist.
 
-   Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des [Segment Builder-Benutzerhandbuchs](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
+   Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des [Segment Builder-Benutzerhandbuchs](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -67,7 +66,7 @@ Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
 Im linken Bereich werden alle Attribute, Ereignisse und Audiences aufgelistet, die zum Erstellen von Regeln zur Verfügung stehen.
 
-Die aufgeführten Felder sind Attribute, die durch Ihr Unternehmen erfasst und über das [Experience-Datenmodell-System (XDM)](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/home.html) zur Verfügung gestellt werden.
+Die aufgeführten Felder sind Attribute, die durch Ihr Unternehmen erfasst und über das [Experience-Datenmodell-System (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) zur Verfügung gestellt werden.
 
 Die Felder sind in Tabs unterteilt:
 
@@ -83,7 +82,7 @@ Die Felder sind in Tabs unterteilt:
 >
 >Bei der **Segmentierung mit mehreren Entitäten** können Sie Profildaten um zusätzliche Daten erweitern, die auf Produkten, Geschäften oder anderen nicht-profilbasierten Klassen beruhen. Sobald eine Verbindung besteht, stehen Daten aus zusätzlichen Klassen zur Verfügung, so als wären sie im Profilschema nativ vorhanden.
 >
->Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/multi-entity-segmentation.html).
+>Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
 
 Standardmäßig zeigt Segment Builder Felder an, in denen bereits Daten vorhanden sind. Um das vollständige Schema einschließlich der Felder anzuzeigen, für die keine Daten vorhanden sind, aktivieren Sie in den Einstellungen die Option **[!UICONTROL Gesamtes XDM-Schema anzeigen]**.
 
@@ -97,7 +96,7 @@ Das Symbol am Ende der einzelnen Felder enthält weitere Informationen zum Attri
 
 >[!NOTE]
 >
->Im folgenden Abschnitt finden Sie allgemeine Informationen zur Definition von Regeln. Weiterführende Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
+>Im folgenden Abschnitt finden Sie allgemeine Informationen zur Definition von Regeln. Weiterführende Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
