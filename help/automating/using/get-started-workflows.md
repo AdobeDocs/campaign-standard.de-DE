@@ -10,10 +10,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '520'
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+workflow-type: tm+mt
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
@@ -26,7 +25,7 @@ ht-degree: 100%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Daten importieren/exportieren</a></p></td></tr>
 </table>
 
-Adobe Campaign bietet eine umfassende grafische Oberfläche, die den Entwurf komplexer Arbeitsabläufe ermöglicht. Diese umfassen die Segmentierung von Zielgruppen, die Ausführung von Kampagnen, die Verarbeitung von Dateien usw. Erstellen Sie zum Beispiel einen Workflow, um eine Datei von einem Server herunterzuladen, sie zu entkomprimieren und die Datensätze in die Adobe-Campaign-Datenbank zu importieren.
+Adobe Campaign bietet eine umfassende grafische Oberfläche, die den Entwurf komplexer Arbeitsabläufe ermöglicht. Diese umfassen die Segmentierung von Zielgruppen, die Ausführung von Kampagnen, die Verarbeitung von Dateien usw. Erstellen Sie zum Beispiel einen Workflow, um eine Datei von einem Server herunterzuladen, sie zu entkomprimieren und die Datensätze in die Adobe Campaign-Datenbank zu importieren.
 
 Oder fordern Sie andere Benutzer auf, Aufgaben auszuführen oder zu validieren. Auf diese Weise ist es möglich, anderen Benutzern Aufgaben wie Inhaltsgestaltung, Zielgruppenbestimmung und Validierung von Testsendungen zuzuweisen, bevor eine Nachricht an die Empfänger verschickt wird.
 
@@ -92,6 +91,6 @@ Mehr dazu:
 
 ## Zusätzliche Ressourcen
 
-* [Video-Tutorials zu Prozessen und Daten-Management](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Video-Tutorials zu Prozessen und Daten-Management](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=de)
 * [Technische Workflows](../../administration/using/technical-workflows.md)
 * [Erste Schritte mit dem Campaign Standard-Datenmodell](../../developing/using/get-started-data-model.md)
