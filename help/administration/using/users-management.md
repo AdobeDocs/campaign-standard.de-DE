@@ -6,15 +6,14 @@ description: 'Benutzer von Adobe Campaign verfügen über bestimmte Rollen. Im F
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: Zugriffsverwaltung
 role: Administrator
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1279'
-ht-degree: 100%
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 99%
 
 ---
 
@@ -38,9 +37,9 @@ Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie v
 
 **Verwandte Themen:**
 
-* Video [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
+* Video [Managing user permissions](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
-* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Typen von Benutzern {#type-of-users}
 
@@ -92,7 +91,7 @@ Dies sind ihre Hauptaufgaben:
 * [Fortgeschrittene Bearbeitung von Ausdrücken](../../automating/using/editing-queries.md#about-query-editor): Einsatz fortgeschrittener Funktionen zur Bearbeitung für Abfragen verwendeter Werte (Datumsangaben, Strings, numerische Felder, Sortierung usw.)
 * [Listen exportieren](../../automating/using/exporting-lists.md) und [Daten mithilfe von Importvorlagen importieren](../../automating/using/importing-data-with-import-templates.md)
 
-### Benutzer mit Grundkenntnissen             {#basic-users}
+### Benutzer mit Grundkenntnissen              {#basic-users}
 
 Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntnissen können Marketer Kampagnen personalisieren, versenden und überwachen, ohne sich über die technischen Feinheiten den Kopf zerbrechen zu müssen. Solchen Benutzern sollten beispielsweise die vordefinierten Rollen **[!UICONTROL Sendungen vorbereiten]**, **[!UICONTROL Workflow]** und **[!UICONTROL Sendungen starten]** zugewiesen werden. Diese Rollen sind in der vordefinierten Sicherheitsgruppe **[!UICONTROL Standardbenutzer]** zusammengefasst. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/list-of-roles.md).
 
