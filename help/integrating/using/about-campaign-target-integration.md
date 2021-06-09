@@ -6,15 +6,14 @@ description: Durch die Integration von Adobe Target können Sie in Adobe Target 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 95%
 
 ---
 
@@ -30,4 +29,4 @@ Mit Adobe Target können verschiedene Datentypen zum Einsatz kommen:
 * Segmente im Zusammenhang mit der Visitor ID in Adobe Target, wenn die verwendeten Daten keinen rechtlichen Beschränkungen unterliegen;
 * Daten aus Adobe Target (user agent, IP address, Daten bezüglich der Geolokalisierung).
 
-Weiterführende Informationen über die Integration von Adobe Campaign und Adobe Target finden Sie im [Adobe Target-Portal](https://docs.adobe.com/content/help/de-DE/target/using/integrate/campaign-and-target.html).
+Weiterführende Informationen über die Integration von Adobe Campaign und Adobe Target finden Sie im [Adobe Target-Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
