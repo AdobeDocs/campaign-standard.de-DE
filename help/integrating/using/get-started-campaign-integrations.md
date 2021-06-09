@@ -10,10 +10,10 @@ feature: Trigger
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 91%
+source-wordcount: '714'
+ht-degree: 89%
 
 ---
 
@@ -29,7 +29,7 @@ Die Integration von Adobe Campaign mit verschiedenen Adobe Experience Cloud-Lös
 
 In Ihrer Arbeitsumgebung verfügen Sie unter Umständen über verschiedene Lösungen der Adobe Experience Cloud. Diese sind miteinander über Organisationen – auch Mandanten genannt – verbunden.
 
-Eine Organisation ist die Entität, mit der ein Administrator Gruppen und Benutzer konfigurieren und Anmeldungen in der Experience Cloud steuern kann. Eine Organisation ist wie eine Unternehmensanmeldung bei allen Produkten und Lösungen, die in der Experience Cloud enthalten sind. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. Weiterführende Informationen zur Verwaltung von Benutzern und Organisationen finden Sie im [Hilfeportal der Adobe Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/organizations.html).
+Eine Organisation ist die Entität, mit der ein Administrator Gruppen und Benutzer konfigurieren und Anmeldungen in der Experience Cloud steuern kann. Eine Organisation ist wie eine Unternehmensanmeldung bei allen Produkten und Lösungen, die in der Experience Cloud enthalten sind. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. Weiterführende Informationen zur Verwaltung von Benutzern und Organisationen finden Sie im [Hilfeportal der Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de).
 
 Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möchten, beachten Sie unsere [API-Dokumentation](../../api/using/get-started-apis.md).
 
@@ -58,7 +58,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Adobe Target<br /> </td> 
    <td> Dient bei der Öffnung einer mit Adobe Campaign erstellten und gesendeten E-Mail dem Einfügen von durch Adobe Target dynamisch berechneten Bildern.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Verwenden von Campaign und Target</a>, <a href="https://docs.adobe.com/content/help/de-DE/target/using/integrate/campaign-and-target.html">Integrieren von Campaign und Target</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">E-Mail-Bilder in Echtzeit personalisieren</a> Video (Schritt 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Verwenden von Campaign und Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrieren von Campaign und Target</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">E-Mail-Bilder in Echtzeit personalisieren</a> Video (Schritt 3)
     </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Hiermit können Sie E-Mail-Inhalte in Dreamweaver bearbeiten und mit Adobe Campaign synchronisieren.<br /> </td> 
    <td> 
-    Video <a href="https://docs.adobe.com/content/help/de/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Personalisierte E-Mails mit Dreamweaver erstellen</a>, <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Verwenden der Campaign-Erweiterung für Dreamweaver</a> 
+    Video <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Personalisierte E-Mails mit Dreamweaver erstellen</a>, <a href="https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Verwenden der Campaign-Erweiterung für Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
