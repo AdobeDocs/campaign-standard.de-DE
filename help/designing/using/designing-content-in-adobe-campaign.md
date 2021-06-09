@@ -6,15 +6,14 @@ description: Erstellen Sie E-Mail-Inhalte von Grund auf neu, importieren Sie HTM
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Email Design
+feature: E-Mail-Erstellung
 role: Business Practitioner
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1265'
-ht-degree: 100%
+source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
@@ -98,7 +97,7 @@ Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email De
 
 **Fragmente**: Ein Fragment ist eine Komponente, die Sie in mehreren E-Mails wiederverwenden können.
 
-**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können.
+**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können..
 
 **Inhaltskomponenten**: Inhaltskomponenten sind rohe, noch leere Komponenten, die Sie in E-Mails einfügen und dort bearbeiten können.
 
@@ -170,4 +169,4 @@ In diesem Video erhalten Sie einen Überblick über Email Designer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-In diesen [Videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können
+In diesen [Videos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können
