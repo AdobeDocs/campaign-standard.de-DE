@@ -6,25 +6,24 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '5329'
-ht-degree: 100%
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+workflow-type: tm+mt
+source-wordcount: '5303'
+ht-degree: 98%
 
 ---
 
 # Versionshinweise 2020{#release-notes-2020}
 
-[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE)
+[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Infos](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Infos](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 <tr> 
   <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Audience ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
 </p>
-<p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">Anleitungsvideo</a>.
+<p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">Anleitungsvideo</a>.
 </p>
 </td> 
 </tr> 
@@ -76,8 +75,8 @@ ht-degree: 100%
   <p>Journey-KI nutzt fortschrittliches maschinelles Lernen (ML), um es Unternehmen zu ermöglichen, die Gestaltung und Bereitstellung von Customer Journeys zu optimieren, indem sie die Interaktionsvorlieben jedes Einzelnen vorhersagen.</p>
   <P>Journey-KI besteht aus zwei ML-Funktionen:</p>
 <ul> 
-     <li> <strong>Prädiktive Interaktionsbewertung</strong>: Identifiziert auf intelligente Weise den bevorzugten Grad der Interaktion der Kunden, um Nachrichten besser auszurichten und zu personalisieren und so die Konversionen und die Kundenbindung zu erhöhen. Sehen Sie sich das <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">Anleitungsvideo</a> an.</li> 
-     <li> <strong>Prädiktive Sendezeitoptimierung</strong> – Prognostiziert den bestmöglichen Zeitpunkt zum Senden von E-Mails an jede Einzelperson in einer Kampagne, um die Interaktionsraten zu maximieren und den ROI der E-Mail-Kampagne zu verbessern. Sehen Sie sich das <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">Anleitungsvideo</a> an.</li>
+     <li> <strong>Prädiktive Interaktionsbewertung</strong>: Identifiziert auf intelligente Weise den bevorzugten Grad der Interaktion der Kunden, um Nachrichten besser auszurichten und zu personalisieren und so die Konversionen und die Kundenbindung zu erhöhen. Sehen Sie sich das <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">Anleitungsvideo</a> an.</li> 
+     <li> <strong>Prädiktive Sendezeitoptimierung</strong> – Prognostiziert den bestmöglichen Zeitpunkt zum Senden von E-Mails an jede Einzelperson in einer Kampagne, um die Interaktionsraten zu maximieren und den ROI der E-Mail-Kampagne zu verbessern. Sehen Sie sich das <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">Anleitungsvideo</a> an.</li>
     </ul>
   <p>Wenn Sie erfahren möchten, wie Sie mit Journey-KI beginnen, lesen Sie bitte das <a href="../../sending/using/predictive.md">entsprechende Handbuch</a> und wenden Sie sich an Ihren Kundenbetreuer. Beachten Sie, dass Journey-KI für Bestandskunden von Campaign kostenlos erhältlich ist, die Implementierungskosten jedoch ca. 50 Stunden betragen.</p>
     </td> 
@@ -210,7 +209,7 @@ ht-degree: 100%
 <li>Recht auf Zugriff und Recht auf Löschung: Hierfür werden die Funktionen genutzt, die für die DSGVO und PPDA hinzugefügt wurden – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">mehr dazu</a> </li>
 <li><p>Bei der Erstellung einer Datenschutzanfrage steht im Privacy Core Service nun eine Auswahl für die PDPA-Verordnung zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="../../rn/using/deprecated-features.md">Eingestellte und entfernte Funktionen</a>.</p></li>
 </ul>
-<p>Weitere Informationen finden Sie in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/privacy/privacy-overview.html">diesem Video</a>.</p>
+<p>Weitere Informationen finden Sie in <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">diesem Video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +230,7 @@ ht-degree: 100%
 <li>ein Array-Objekt aus einer JSON auswählen und verwenden, ohne die "Objektdaten" benennen zu müssen oder ohne dass sie sich auf der obersten Ebene befinden müssen.</li>
 </ul>
 <p><strong>Vorsicht:</strong> Kunden müssen in ihren Workflows alle externen API-Aktivitäten der Betaphase <strong>durch externe API-Aktivitäten der allgemeinen Verfügbarkeit</strong> ersetzen.  Workflows, die die Betaversion der externen API verwenden, funktionieren in 20.3 nicht mehr.</p>
-<p>Weiterführende Informationen finden Sie in der <a href="../../automating/using/external-api.md">ausführlichen Dokumentation</a> und in <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">diesem Video</a>.</p>
+<p>Weiterführende Informationen finden Sie in der <a href="../../automating/using/external-api.md">ausführlichen Dokumentation</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">diesem Video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -294,7 +293,7 @@ ht-degree: 100%
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -324,7 +323,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Zusätzlich zu Testprofilen können Sie Ihre E-Mails jetzt mit echten Zielgruppenprofilen testen. So können Sie eine genaue Darstellung der Nachricht erhalten, die das Profil empfangen wird: benutzerdefinierte Felder, dynamische und personalisierte Informationen, einschließlich zusätzlicher Daten aus Workflows usw. </p>
-    <p>Weiterführende Informationen finden Sie im <a href="../../sending/using/testing-messages-using-target.md">entsprechenden Handbuch</a> und in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">Tutorial-Video</a>. </p>
+    <p>Weiterführende Informationen finden Sie im <a href="../../sending/using/testing-messages-using-target.md">entsprechenden Handbuch</a> und in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">Tutorial-Video</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +331,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://docs.adobe.com/content/help/de-DE/control-panel/using/release-notes.html).
+>Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
@@ -411,7 +410,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Campaign-Daten in Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign erfasste Daten) auf das Adobe Experience Platform-Datenmodell (XDM) abbilden. </p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-data-connector.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html">Anleitungsvideo</a>.</p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-data-connector.md">ausführlichen Dokumentation</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">Anleitungsvideo</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +425,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Mit Audience Destinations können Sie Segmente von Adobe Experience Platform für Adobe Campaign freigeben.</p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a> und im <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">Anleitungsvideo</a>. </p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">Anleitungsvideo</a>. </p>
    </td> 
   </tr> 
  </tbody> 
