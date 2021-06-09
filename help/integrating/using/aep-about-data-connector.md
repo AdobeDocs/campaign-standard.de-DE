@@ -6,15 +6,14 @@ description: Verwalten Sie XDM-Schemata, um Ihre Campaign Standard-Daten in Adob
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 95%
 
 ---
 
@@ -39,15 +38,15 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 >
 >Dies kann entweder über die APIs oder die Benutzeroberfläche von Adobe Experience Platform erfolgen. Weitere Informationen finden Sie in den entsprechenden Dokumentationen:
 >
->* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://docs.adobe.com/content/help/de-DE/experience-platform/rtcdp/datasets/dataset.html)
->* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/api/getting-started.html)
+>* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 
 ## Schlüsselkonzepte {#key-concepts}
 
 * Vordefiniertes Mapping ist nur für Felder verfügbar, die standardmäßig in Campaign Standard bereitgestellt werden. Für die Erfassung aller benutzerdefinierten Felder und Ressourcen muss jeder Kunde sein eigenes Mapping definieren.
 
-* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. Dieser Wert kann mit [Adobe Experience Platform-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/home.html) geändert werden.
+* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. Dieser Wert kann mit [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) geändert werden.
 
 * Der Dateningenieur kann das Mapping von Campaign zu Adobe Experience Platform veröffentlichen, ändern und anhalten.
 
@@ -61,7 +60,7 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 * Der Experience-Cloud-ID-Service (ECID) ist eine Gerätekennung, die standardmäßig mit Experience-Ereignissen gesendet wird.
 
-   Es handelt sich dabei um eine eindeutige und beständige Kennung, mit der der Platform Identity Service denselben Besucher und seine Daten in verschiedenen Experience Cloud-Lösungen identifizieren kann. Weiterführende Informationen finden Sie in der Hilfe zum [Experience Cloud Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
+   Es handelt sich dabei um eine eindeutige und beständige Kennung, mit der der Platform Identity Service denselben Besucher und seine Daten in verschiedenen Experience Cloud-Lösungen identifizieren kann. Weiterführende Informationen finden Sie in der Hilfe zum [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
 
    >[!NOTE]
    >
@@ -71,7 +70,7 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 * Die vordefinierte Übertragung von Abonnementereignissen wird nicht unterstützt. Um Abonnementereignisse zu übertragen, können Sie ein entsprechendes XDM und einen Datensatz in Adobe Experience Platform erstellen und dann ein benutzerdefiniertes Daten-Mapping für diese Daten konfigurieren.
 
-* In Bezug auf Datenschutzanfragen (sowohl Zugriffs- als auch Löschaktionen) müssen Kunden separate Anfragen über den [Datenschutz-Coreservice](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests) stellen: eine für Campaign und eine für Adobe Experience Platform. Weitere Informationen hierzu finden Sie unter [Allgemeines zu Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#righttoaccess) und [Verwalten von Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
+* In Bezug auf Datenschutzanfragen (sowohl Zugriffs- als auch Löschaktionen) müssen Kunden separate Anfragen über den [Datenschutz-Coreservice](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests) stellen: eine für Campaign und eine für Adobe Experience Platform. Weitere Informationen hierzu finden Sie unter [Allgemeines zu Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#righttoaccess) und [Verwalten von Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
 
 * Für jedes XDM-Feld muss die DULE-Kennzeichnung in Adobe Experience Platform erfolgen. Es liegt in der Verantwortung des Kunden, DULE-Kennzeichnungen anzuwenden.
 
@@ -85,4 +84,4 @@ Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Co
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html).
+Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
