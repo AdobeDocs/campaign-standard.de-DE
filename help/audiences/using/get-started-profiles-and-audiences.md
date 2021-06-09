@@ -10,11 +10,10 @@ feature: Profile
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-translation-type: ht
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
-workflow-type: ht
-source-wordcount: '607'
-ht-degree: 100%
+source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 98%
 
 ---
 
@@ -51,13 +50,13 @@ Mehr dazu:
 
 * [Über Profile](../../audiences/using/about-profiles.md)
 * [Aktive Profile](../../audiences/using/active-profiles.md)
-* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
+* [Verwaltung von Testprofilen     ](../../audiences/using/managing-test-profiles.md)
 * [Anreicherung der Campaign-Datenbank](../../audiences/using/enriching-campaign-database.md)
 * [Über Audiences](../../audiences/using/about-audiences.md)
 * [Audience in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
 
-## Berechtigungen und Einverständniserklärungen {#permission}
+## Einverständnis der Benutzer {#permission}
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
@@ -92,4 +91,4 @@ Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werde
 * [Microsoft Dynamics 365 verwenden](../../integrating/using/d365-acs-get-started.md)
 * [Für Adobe freigegebene Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows zum Importieren von Profilen verwenden](../../automating/using/creating-import-workflow-templates.md)
-* [Videos zu Profilen und Audiences](https://docs.adobe.com/content/help/de/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Videos zu Profilen und Audiences](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
