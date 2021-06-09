@@ -9,15 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
+feature: Datenschutz
 role: Business Practitioner
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1480'
-ht-degree: 100%
+source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
+workflow-type: tm+mt
+source-wordcount: '1478'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 Adobe Campaign ist ein leistungsstarkes Tool zur Erfassung und Verarbeitung sehr großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen. Aus diesem Grund muss der Datenschutz sorgfältig gehandhabt werden.
 
-* Gehen Sie stets verantwortungsvoll und ethisch korrekt mit persönlichen Informationen um.
+* Gehen Sie stets verantwortungsvoll und ethisch korrekt mit personenbezogenen Informationen um.
 
 * Senden Sie keine unerwünschten E-Mails, Push-Benachrichtigungen und SMS-Nachrichten (&quot;Spam&quot;). Adobe glaubt fest an Permission Marketing, um den Kundenlebenszeitwert und die Treue zu fördern, und verbietet daher strikt die Verwendung von Adobe Campaign zum Versenden von unerbetenen Nachrichten.
 
@@ -75,7 +74,7 @@ Adobe Campaign ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise,
 
 Weitere Informationen zum Datenschutz in Adobe Experience Cloud finden Sie auf [dieser Seite](https://www.adobe.com/de/privacy/marketing-cloud.html).
 
-## Persönliche Daten und Personas {#personal-data}
+## Personenbezogene Daten und Personas {#personal-data}
 
 Bei der Verwaltung des Datenschutzes ist es wichtig zu definieren, welche Daten von wem mit Sorgfalt behandelt werden sollen.
 * **Personenbezogene Daten** sind Informationen, die eine lebende Person direkt oder indirekt identifizieren können.
@@ -86,13 +85,13 @@ Die [wichtigsten Rechtsvorschriften](#privacy-regulations) beziehen sich auf die
 * Ein **Auftragsverarbeiter** ist eine natürliche oder juristische Person, die personenbezogene Daten gemäß den Anweisungen des Datenverantwortlichen erfasst, verwendet oder weitergibt.
 * Eine **betroffene Person** ist eine lebende Person, deren personenbezogene Daten erfasst, verwendet oder weitergegeben werden und die direkt oder indirekt anhand dieser personenbezogenen Daten identifiziert werden kann.
 
-Als Unternehmen, das personenbezogene Daten erfasst und weitergibt, sind Sie daher der Datenverantwortliche, Ihre Kunden sind die betroffenen Personen und Adobe Campaign fungiert als Auftragsverarbeiter, wenn wir deren personenbezogenen Daten gemäß Ihren Anweisungen verarbeiten. Beachten Sie, dass es in Ihrer Verantwortung als Datenverantwortlicher liegt, die Beziehung zu den betroffenen Personen zu verwalten, z. B. bei der Verwaltung von [Datenschutzanfragen](#privacy-requests).
+Als Unternehmen, das personenbezogene Daten erfasst und weitergibt, sind Sie daher der Datenverantwortliche, Ihre Kunden sind die betroffenen Personen und Adobe Campaign fungiert als Auftragsverarbeiter, wenn wir deren personenbezogene Daten gemäß Ihren Anweisungen verarbeiten. Beachten Sie, dass es in Ihrer Verantwortung als Datenverantwortlicher liegt, die Beziehung zu den betroffenen Personen zu verwalten, z. B. bei der Verwaltung von [Datenschutzanfragen](#privacy-requests).
 
 Bei der Integration von Campaign mit anderen Experience Cloud-Lösungen, bei denen Audiences von einem System auf ein anderes übertragen werden können, wie z. B. mit [Audience Destination Service](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager oder People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) oder anderen Lösungen wie [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), müssen Sie dem Schutz personenbezogener Daten besondere Aufmerksamkeit widmen.
 
 ## Datenakquise {#data-acquisition}
 
-Mit Adobe Campaign können Sie Daten, einschließlich persönlicher und vertraulicher Daten, erfassen. Es ist daher unerlässlich, dass Sie das Einverständnis Ihrer Empfänger erhalten und überwachen.
+Mit Adobe Campaign können Sie Daten, einschließlich personenbezogener und vertraulicher Daten, erfassen. Es ist daher unerlässlich, dass Sie das Einverständnis Ihrer Empfänger erhalten und überwachen.
 
 * Fordern Sie die Empfänger immer auf, dem Empfang von Nachrichten zuzustimmen. Dazu müssen Sie Opt-out-Anfragen so schnell wie möglich erfüllen und das Einverständnis durch einen Anmeldeprozess mit zweifacher Bestätigung überprüfen. Weitere Informationen hierzu finden Sie unter [Opt-in- und Opt-out-Verfahren in Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) und unter [Anmeldung mit zweifacher Bestätigung einrichten](../../channels/using/setting-up-a-double-opt-in-process.md).
 * Importieren Sie keine betrügerischen Listen und verwenden Sie Fallen, um zu überprüfen, ob Ihre Kundendatei nicht betrügerisch verwendet wird. Weitere Informationen hierzu finden Sie unter [Fallen verwenden](../../sending/using/using-traps.md).
@@ -131,7 +130,7 @@ Adobe Campaign bietet zusätzliche Funktionen, mit denen Sie sich als Datenveran
 
 >[!NOTE]
 >
->Diese Tools helfen Ihnen bei der Einhaltung der Datenschutzbestimmungen von DSGVO, CCPA und PDPA. Weitere Informationen zu diesen Vorschriften finden Sie auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Diese Tools helfen Ihnen bei der Einhaltung der Datenschutzbestimmungen von DSGVO, CCPA und PDPA. Weitere Informationen zu diesen Vorschriften finden Sie auf [dieser Seite](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -139,7 +138,7 @@ Adobe Campaign bietet zusätzliche Funktionen, mit denen Sie sich als Datenveran
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-**Zugriffs**- und **Löschanfragen** werden auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#righttoaccess) erläutert. Die Implementierungsschritte zum Erstellen dieser Anfragen werden auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) beschrieben. [Tutorials sind](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/privacy/privacy-overview.html) ebenfalls verfügbar.
+**Zugriffs**- und **Löschanfragen** werden auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#righttoaccess) erläutert. Die Implementierungsschritte zum Erstellen dieser Anfragen werden auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) beschrieben. [Tutorials sind](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html) ebenfalls verfügbar.
 
 ## Tracking-Funktionen {#tracking-capabilities}
 
