@@ -7,14 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: In-App
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1398'
-ht-degree: 100%
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+workflow-type: tm+mt
+source-wordcount: '1394'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +98,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    * **[!UICONTROL Life-Cycle-Ereignisse]**: Native Life-Cycle-Ereignisse, die vom Adobe Mobile SDK unterstützt werden.
 
-      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/mobile-services/android/metrics.html).
+      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics-Ereignisse]**: Je nach der Konfiguration Ihrer Mobile App werden die folgenden drei Kategorien unterstützt: Adobe Analytics, Kontextdaten oder Ansichtsstatus.
 
@@ -118,7 +117,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
 1. Wenn Sie einen **[!UICONTROL Places]**-Trigger verwenden, werden Places-Kontextdaten, benutzerdefinierte Places-Metadaten oder der Places-Ereignistyp auf der Basis aller Bibliotheken und ihrer in Adobe Places erstellten POIs automatisch eingefügt.
 
-   Beachten Sie, dass dieser Trigger auf dem Gerät nur für die POIs aus den Bibliotheken angewendet wird, die in der Places-Erweiterung in Experience Platform Launch ausgewählt wurden. Weiterführende Informationen zur Places-Erweiterung und deren Installation finden Sie in dieser [Dokumentation](https://docs.adobe.com/content/help/de-DE/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Beachten Sie, dass dieser Trigger auf dem Gerät nur für die POIs aus den Bibliotheken angewendet wird, die in der Places-Erweiterung in Experience Platform Launch ausgewählt wurden. Weiterführende Informationen zur Places-Erweiterung und deren Installation finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Wählen Sie im Tab **[!UICONTROL Frequenz &amp; Dauer]** die Häufigkeit für Ihren Trigger, das Start- und Enddatum sowie den Wochentag und die Uhrzeit, zu der Ihre In-App-Nachricht aktiv sein soll.
 
