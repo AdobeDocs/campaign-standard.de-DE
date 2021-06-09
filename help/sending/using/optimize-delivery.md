@@ -7,19 +7,18 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Erfahren Sie, wie Sie den vorgelagerten Versandprozess sichern und optimieren.
-feature: Deliverability
+feature: Zustellbarkeit
 role: Business Practitioner
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '751'
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+workflow-type: tm+mt
+source-wordcount: '747'
 ht-degree: 100%
 
 ---
 
-# Versand optimieren {#optimize-delivery}
+# Optimieren des Versands {#optimize-delivery}
 
 Bevor Sie mit dem Erstellen von Sendungen beginnen, können Sie mehrere Maßnahmen treffen, um den vorgelagerten Versandprozess zu optimieren.
 
@@ -37,7 +36,7 @@ Mehrere Faktoren können die Server-Leistung direkt beeinflussen und die Plattfo
 
 * [Workflow-Ausführung](../../automating/using/about-workflow-execution.md): Die Überwachung Ihrer Workflows ist unverzichtbar, um Probleme mit der Leistung der Plattform zu vermeiden. Befolgen Sie die [auf dieser Seite](../../automating/using/monitoring-workflow-execution.md) aufgeführten Richtlinien. Weitere Informationen finden Sie im Abschnitt [Best Practices für den Workflow](../../automating/using/best-practices-workflows.md).
 
-* Sie können die Funktionen des [Campaign Control Panels](https://docs.adobe.com/content/help/de-DE/control-panel/using/discover-control-panel/key-features.html) nutzen, um Ihre Plattform mit Hilfe der [Leistungsüberwachungsfunktionen](https://docs.adobe.com/content/help/de-DE/control-panel/using/performance-monitoring/about-performance-monitoring.html) zu überwachen.
+* Sie können die Funktionen des [Campaign Control Panels](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de) nutzen, um Ihre Plattform mit Hilfe der [Leistungsüberwachungsfunktionen](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de) zu überwachen.
 
 ## Prüfen der Netzwerkkonfiguration {#network-config}
 
