@@ -6,14 +6,13 @@ description: Erstellen Sie personalisierte Nachrichten auf verschiedenen Kanäle
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
+feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '525'
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -41,7 +40,7 @@ Adobe Campaign ermöglicht die Harmonisierung aller Ihrer Marketing-Kanäle. Mit
 
 Mehr dazu:
 
-* [Die wichtigsten Schritte im Nachrichtenversand](../../channels/using/key-steps-to-send-a-message.md)
+* [Wichtigste Schritte im Nachrichtenversand](../../channels/using/key-steps-to-send-a-message.md)
 * [Zugriff auf Nachrichten](../../channels/using/accessing-messages.md)
 * [Nachrichten-Dashboards](../../channels/using/message-dashboard.md)
 * [Vorlagen für mehrsprachige Nachrichten](../../channels/using/multilingual-messages-template.md)
@@ -79,8 +78,8 @@ Mehr dazu:
 * [Transaktionsereignis konfigurieren](../../channels/using/configuring-transactional-event.md)
 * [Transaktionsereignis veröffentlichen](../../channels/using/publishing-transactional-event.md)
 * [Transaktionsnachricht bearbeiten](../../channels/using/editing-transactional-message.md)
-* [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md)
-* [Push-Benachrichtigungen für Transaktionen](../../channels/using/transactional-push-notifications.md)
+* [Transaktionsnachricht veröffentlichen  ](../../channels/using/publishing-transactional-message.md)
+* [Transaktions-Push-Benachrichtigung](../../channels/using/transactional-push-notifications.md)
 * [Folgenachrichten](../../channels/using/follow-up-messages.md)
 
 ## Landingpages {#landing-pages}
@@ -93,9 +92,9 @@ Darüber hinaus können Sie über Landingpages **vorhandene Profile erwerben ode
 
 Mehr dazu:
 
-* [Erste Schritte mit Landingpages](../../channels/using/getting-started-with-landing-pages.md)
+* [Erste Schritte mit Landing Pages](../../channels/using/getting-started-with-landing-pages.md)
 * [Landingpage-Vorlagen](../../channels/using/landing-page-templates.md)
-* [Daten von Landingpage-Formularen verwalten](../../channels/using/managing-landing-page-form-data.md)
+* [Verwalten von Landingpage-Formulardaten](../../channels/using/managing-landing-page-form-data.md)
 * [Anmeldung mit zweifacher Bestätigung einrichten](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Zusätzliche Ressourcen
@@ -105,5 +104,5 @@ Mehr dazu:
 * [E-Mail-Inhalte gestalten](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEM-Inhalte importieren](../../integrating/using/creating-email-experience-manager.md)
 * [Nachrichten mit Workflows senden](../../automating/using/about-channel-activities.md)
-* [Video-Tutorials zu Kommunikationskanälen](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Video-Tutorials zu Kommunikationskanälen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=de)
 * [Anwendungsfall: kanalübergreifenden Versand erstellen](../../automating/using/workflow-cross-channel-delivery.md)
