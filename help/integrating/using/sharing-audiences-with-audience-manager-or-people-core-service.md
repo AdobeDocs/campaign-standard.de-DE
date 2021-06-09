@@ -6,15 +6,14 @@ description: Hier erfahren Sie, wie Sie Ihre Audience in die unterschiedlichen A
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People Core Service Integration
+feature: People Core Service-Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '858'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '852'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 ## Audience importieren {#importing-an-audience}
 
-Durch die Integration von People Core Service kann eine Audience direkt in Adobe Campaign über einen technischen Workflow importiert werden, um Ihre Datenbank anzureichern. Weiterführende Informationen zur Zielgruppenfreigabe in People Core Service finden Sie in dieser [Dokumentation](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+Durch die Integration von People Core Service kann eine Audience direkt in Adobe Campaign über einen technischen Workflow importiert werden, um Ihre Datenbank anzureichern. Weiterführende Informationen zur Zielgruppenfreigabe in People Core Service finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de).
 
 Der Import von Audiences/Segmenten aus People Core Service in Adobe Campaign erfolgt über das Menü **[!UICONTROL Audiences]**. Nutzer müssen sich einfach nur per IMS verbinden (die Authentifizierung erfolgt über die Adobe ID).
 
@@ -48,7 +47,7 @@ Ihre Audience wird jetzt in Ihre Adobe Campaign-Datenbank importiert. Wenn Segme
 
 >[!NOTE]
 >
->Beim Import von Audiences von Adobe Analytics nach Adobe Campaign müssen diese Audiences zuerst in People Core Service oder Audience Manager freigegeben werden. Dieser Prozess dauert 12 bis 24 Stunden, die zu den 24 bis 36 Stunden für die Synchronisation mit Campaign hinzugezählt werden müssen. In diesem speziellen Fall kann die Zielgruppenfreigabe bis zu 60 Stunden dauern. Weitere Informationen zur Adobe Analytics-Zielgruppenfreigabe in People Core Service und Audience Manager finden Sie in dieser [Dokumentation](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Beim Import von Audiences von Adobe Analytics nach Adobe Campaign müssen diese Audiences zuerst in People Core Service oder Audience Manager freigegeben werden. Dieser Prozess dauert 12 bis 24 Stunden, die zu den 24 bis 36 Stunden für die Synchronisation mit Campaign hinzugezählt werden müssen. In diesem speziellen Fall kann die Zielgruppenfreigabe bis zu 60 Stunden dauern. Weitere Informationen zur Adobe Analytics-Zielgruppenfreigabe in People Core Service und Audience Manager finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Audiences exportieren {#exporting-an-audience}
 
@@ -78,7 +77,7 @@ Der Export einer Audience von Adobe Campaign in People Core Service kann in eine
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 1. Starten Sie Ihren Workflow, um Ihre Audience zu exportieren. Die Synchronisation von Adobe Campaign und People Core Service kann mehrere Stunden in Anspruch nehmen.
 
-Die Synchronisation von Adobe Campaign und People Core Service dauert 24 bis 36 Stunden. Danach ist Ihre neue Audience in People Core Service auffindbar und kann in anderen Adobe Experience Cloud-Lösungen verwendet werden. Weiterführende Informationen zur Verwendung einer in Adobe Campaign freigegebenen Audience in Adobe People Core Service finden Sie in dieser [Dokumentation](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/t-audience-create.html).
+Die Synchronisation von Adobe Campaign und People Core Service dauert 24 bis 36 Stunden. Danach ist Ihre neue Audience in People Core Service auffindbar und kann in anderen Adobe Experience Cloud-Lösungen verwendet werden. Weiterführende Informationen zur Verwendung einer in Adobe Campaign freigegebenen Audience in Adobe People Core Service finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
 
 **Verwandte Themen:**
 
