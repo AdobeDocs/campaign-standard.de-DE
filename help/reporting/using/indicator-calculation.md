@@ -6,15 +6,14 @@ description: Hier erhalten Sie Informationen über die Ergebnisse Ihrer Berichte
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Berichte
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 96%
 
 ---
 
@@ -191,7 +190,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
+   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -227,7 +226,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## Push-Benachrichtigungsversand            {#push-notification-delivery}
+## Push-Benachrichtigungsversand             {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -271,7 +270,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelöffnungen<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
+   <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressionen<br /> </td> 
@@ -291,7 +290,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
+   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Durchklickrate<br /> </td> 
@@ -301,7 +300,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
  </tbody> 
 </table>
 
-## In-App-Versand            {#in-app-delivery}
+## In-App-Versand             {#in-app-delivery}
 
 <table> 
  <thead> 
