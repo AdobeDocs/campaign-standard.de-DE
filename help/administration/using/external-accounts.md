@@ -7,14 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: Instanzeneinstellungen
 role: Administrator
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1834'
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+workflow-type: tm+mt
+source-wordcount: '1832'
 ht-degree: 100%
 
 ---
@@ -68,7 +67,7 @@ Geben Sie für ein externes SFTP-Konto die folgenden Details an:
 * Port-Nummer, z. B. **22**
 * SFTP-Server-Zugangsdaten: Kontoname und Passwort, die zur Verbindung mit dem Server verwendet werden
 
-### Empfehlungen für von Adobe gehostete SFTP-Server             {#adobe-hosted-sftp-server-recommendations}
+### Empfehlungen für von Adobe gehostete SFTP-Server              {#adobe-hosted-sftp-server-recommendations}
 
 Wenn Dateien und Daten für ETL-Zwecke verwaltet werden, werden diese Dateien auf einem von Adobe bereitgestellten gehosteten SFTP-Server gespeichert. Dieser SFTP-Server ist ein vorübergehender Speicherplatz, auf dem Sie die Aufbewahrung und Löschung von Dateien selbst kontrollieren können.
 
@@ -87,7 +86,7 @@ Um solche Probleme zu vermeiden, empfiehlt Adobe, die unten stehenden Best Pract
 
 Beachten Sie außerdem, dass die öffentlichen IPs, mit denen Sie die SFTP-Verbindung aufbauen, in der Campaign-Instanz auf der Zulassungsliste stehen müssen. Wenn Sie IP-Adressen auf eine Zulassungsliste setzen lassen möchten, senden Sie ein [Support-Ticket](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) und stellen Sie den öffentlichen Schlüssel zur Authentifizierung bereit.
 
-SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://docs.adobe.com/content/help/de-DE/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP-Server können über das Control Panel verwaltet werden. Weitere Informationen finden Sie in der [Control Panel-Dokumentation](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=de).
 
 >[!NOTE]
 >
@@ -154,7 +153,7 @@ Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informa
 
 * Zugangsdaten zum AEM-Konto: Verwenden Sie das Konto, über das auf die Adobe-Experience-Manager-Instanz zugegriffen wird. Es sollte ein Konto sein, das Teil der campaign-remote-Gruppe in Adobe Experience Manager ist.
 
-## Externes Google-reCAPTCHA-Konto             {#google-recaptcha-external-account}
+## Externes Google-reCAPTCHA-Konto              {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
@@ -188,7 +187,7 @@ Geben Sie für ein externes Microsoft Azure Blob Storage-Konto die folgenden Inf
 * Einen **[!UICONTROL Titel]** und eine **[!UICONTROL ID]** für Ihr externes Konto
 * **[!UICONTROL Typ]**: Microsoft Azure Blob Storage
 * Ihren **[!UICONTROL Kontonamen]** und Ihren **[!UICONTROL Kontoschlüssel]**. Auf dieser [Seite](https://docs.microsoft.com/de-DE/azure/storage/common/storage-account-keys-manage) erfahren Sie, wo Sie Ihren Kontonamen und Kontoschlüssel finden können.
-* Ihr **[!UICONTROL Endpunktsuffix]**. Es befindet sich im Azure Portal unter **[!UICONTROL Connection string]** im Menü **[!UICONTROL Access keys]**. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.microsoft.com/de-DE/azure/storage/common/storage-account-keys-manage).
+* Ihr **[!UICONTROL Endpunktsuffix]**. Es befindet sich im Azure Portal unter **[!UICONTROL Connection string]** im Menü **[!UICONTROL Access keys]**. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Den Namen Ihres **[!UICONTROL Containers]**. Wenn Sie mehr als einen Container verwenden möchten, müssen Sie so viele externe Konten wie Container einrichten.
 * Mit der Option **[!UICONTROL Parallelität]** können Sie die Geschwindigkeit von Dateiübertragungen präzisieren.
 
