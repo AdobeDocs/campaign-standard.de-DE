@@ -6,15 +6,14 @@ description: Durch die Integration von Adobe Experience Manager können Sie Inha
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +23,7 @@ Durch die Integration von Adobe Campaign Standard mit Adobe Experience Manager k
 
 Auf diese Weise profitieren Sie gleichermaßen von den fortgeschrittenen Funktionen zur Inhaltsgestaltung in Adobe Experience Manager und den außerordentlichen Versand- sowie Datenverwaltungsfähigkeiten von Adobe Campaign. Bitte beachten Sie, dass Sie für aus Adobe Experience Manager importierte Inhalte keine A/B-Tests durchführen können.
 
-Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 6.5 kompatibel. Im Folgenden finden Sie eine Übersicht der möglichen Aktionen. Weiterführende Informationen finden Sie in den Abschnitten [Konfiguration](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/integration/campaignstandard.html) und [Vorgehensweise](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) zur Integration.
+Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 6.5 kompatibel. Im Folgenden finden Sie eine Übersicht der möglichen Aktionen. Weiterführende Informationen finden Sie in den Abschnitten [Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html) und [Vorgehensweise](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) zur Integration.
 
 >[!NOTE]
 >
@@ -36,19 +35,19 @@ Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 
 
    Da E-Mail-Vorlagen in Adobe Experience Manager bearbeitet werden können, wäre es naheliegend, für die Bearbeitung aller Vorlagen Adobe Experience Manager zu verwenden. Bestimmte Vorlagen sind jedoch nicht einfach zu handhaben. Kundenspezifische, individualisierte Vorlagen sind für diese Integration nicht zu empfehlen und sollten direkt in Adobe Campaign Standard bearbeitet werden.
 
-   Weiterführende Informationen zu Vorlagen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/templates/templates.html).
+   Weiterführende Informationen zu Vorlagen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
 
 * **Stellen Sie sicher, dass der Externalizer bei der Implementierung konfiguriert wurde.**
 
    Bei der Implementierung von Experience Manager muss der Externalizer für Adobe Campaign Standard konfiguriert werden, damit ein Ressourcenpfad in eine URL umgewandelt werden kann. Dies ist erforderlich, um Ihre Bilder auf der Seite sichtbar zu machen. Wenn der Externalizer nicht richtig konfiguriert ist, enthalten Ihre E-Mails fehlerhafte Bilder.
 
-   Weiterführende Informationen zur Konfiguration des Externalizers finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/externalizer.html).
+   Weiterführende Informationen zur Konfiguration des Externalizers finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html).
 
 * **Organisieren Sie Ihre E-Mail-Vorlagen, um zu vermeiden, dass die falschen verwendet werden.**
 
    Indem Sie Vorlagen organisiert halten, stellen Sie sicher, dass diese in den ihrer Funktion entsprechenden Ordnern abgelegt werden, sodass nicht versehentlich die falschen verwendet werden. Bei der Implementierung sollten daher Pfade erstellt werden, um Vorlagen an den richtigen Speicherorten abzulegen.
 
-   Weiterführende Informationen zu Vorlagen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/templates/templates.html#template-availability).
+   Weiterführende Informationen zu Vorlagen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **Vordefinierten Komponenten erleichtern Ihnen den Einstieg.**
 
@@ -75,6 +74,6 @@ Um dies zu vermeiden, können Sie die Verknüpfung der Vorlage aufheben, nachdem
 * **Erstellen Sie mit Adobe Experience Manager verschiedene Varianten von E-Mails für Adobe Campaign Standard.**
 
    Mithilfe der Segmentierung ermöglicht es diese Integration, aus einer E-Mail mühelos mehrere Versionen erstellen.
-Informationen zum Einrichten der Segmentierung in Adobe Experience Manager und zum Erstellen von E-Mails mit zielgerichteten Inhalten finden Sie auf dieser [Seite](https://docs.adobe.com/help/de-DE/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem).
+Informationen zum Einrichten der Segmentierung in Adobe Experience Manager und zum Erstellen von E-Mails mit zielgerichteten Inhalten finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem).
 
 * **Für eine erfolgreiche Synchronisierung muss der Segmentname in Experience Manager exakt mit dem Segmentnamen in Campaign übereinstimmen.**
