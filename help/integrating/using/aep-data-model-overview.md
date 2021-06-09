@@ -6,15 +6,14 @@ description: Das Experience-Datenmodell (XDM) ist ein Standardsatz von Datensche
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-Integration
 role: Data Architect
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '252'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +33,7 @@ Der XDM-Arbeitsbereich bietet die Möglichkeit, Datenschemata anzuzeigen, zu ers
 
 Um auf die XDM-Benutzeroberfläche zuzugreifen, öffnen Sie Adobe Experience Platform. Navigieren Sie zum Fenster „Datenmodell“, um ein XDM-Schema zu erstellen oder zu erweitern.
 
-Lesen Sie die vollständige [Dokumentation zum XDM-Arbeitsbereich](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
+Lesen Sie die vollständige [Dokumentation zum XDM-Arbeitsbereich](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -49,4 +48,4 @@ Sie können die folgenden Aktionen über die XDM-Schema-API ausführen:
 * Schema-Deskriptoren anzeigen
 * Schema-Deskriptoren erstellen, aktualisieren und löschen
 
-Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
+Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
