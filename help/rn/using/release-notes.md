@@ -10,10 +10,10 @@ feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ Nachfolgend finden Sie die neuen Funktionen, Verbesserungen und Fehlerbehebungen
 * In Sendungen mit mehreren Varianten können Benutzer keine Sprachkopien mehr erstellen, wenn die Standardvariante gelöscht wurde. Bei der Erstellung einer Sprachkopie wird nun eine Meldung angezeigt. (CAMP-48235)
 
 * Der zweistufige Prozess zum Löschen von Profilen (veraltet ab Campaign-Version 19.4) ist jetzt standardmäßig deaktiviert. Zuvor musste sie vor der Verwendung des Privacy Core Service manuell über die Campaign-Benutzeroberfläche deaktiviert werden. Andernfalls verbleiben Löschanfragen im Status &quot;Ausstehend&quot;, ohne abgeschlossen zu sein.
-
-* Eine neue Aggregatfunktion &quot;StringAgg&quot; wurde eingeführt, um die Werte einer Spalte vom Typ Zeichenfolge zu verketten. (CAMP-47077) [Mehr dazu](../../automating/using/list-of-functions.md#aggregates)
 
 * In dynamischen Berichten wurde das Segment **Testversand ausschließen** entfernt. (CAMP-46161)
 
