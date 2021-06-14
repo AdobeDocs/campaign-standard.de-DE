@@ -12,9 +12,9 @@ role: Administrator
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1680'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Für den Versand von SMS-Nachrichten muss mindestens ein externes Konto von eine
 
 Weiterführende Informationen zur Erstellung und Bearbeitung von externen Konten finden Sie im Abschnitt [Externe Konten. ](../../administration/using/external-accounts.md) Der folgende Absatz behandelt die spezifischen Parameter externer Konten, die dem SMS-Versand dienen.
 
-## SMS-Routing definieren       {#defining-an-sms-routing}
+## SMS-Routing definieren  {#defining-an-sms-routing}
 
 Standardmäßig enthält die Anwendung das externe Konto **[!UICONTROL SMS-Routing durch SMPP]**. Die Erstellung weiterer Konten kann jedoch von Nutzen sein.
 
@@ -71,7 +71,7 @@ Wenn Sie das SMPP-Protokoll verwenden möchten, können Sie auch ein neues exter
 
 Jetzt können Sie mithilfe der neuen Routing-Konfiguration in Adobe Campaign SMS-Nachrichten senden.
 
-## SMS-Kodierung und -Formate        {#sms-encoding-and-formats}
+## SMS-Kodierung und -Formate  {#sms-encoding-and-formats}
 
 ### Kodierung, Länge und Tansliteration von SMS {#sms-encoding--length-and-transliteration}
 
@@ -100,7 +100,7 @@ Die Transliteration von Zeichen ist standardmäßig deaktiviert. Es wird empfohl
 
 Sollte Ihre SMS jedoch eine hohe Anzahl an Zeichen enthalten, die dem Unicode-Zeichensatz entstammen, können Sie diese Option wählen, um Ihre Versandkosten zu begrenzen.
 
-### Zeichensatztabelle - GSM-Standard        {#table-of-characters---gsm-standard}
+### Zeichensatztabelle - GSM-Standard  {#table-of-characters---gsm-standard}
 
 Der folgende Abschnitt zeigt den vom GSM-Standard unterstützten Zeichensatz. Jedes im Nachrichteninhalt enthaltene Zeichen, das nicht in der unten stehenden Tabelle aufgeführt ist, führt zur Konvertierung der gesamten Nachricht in das Binärformat (Unicode) und zur Splittung der SMS in Teilnachrichten, sobald sie 70 Zeichen überschreitet. Weiterführende Hinweise finden Sie im Abschnitt [Kodierung, Länge und Transliteration von SMS](#sms-encoding--length-and-transliteration).
 
@@ -316,13 +316,13 @@ Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt d
 
    ![](assets/sms_data_coding1.png)
 
-### Automatische Antwort auf MO        {#automatic-reply-sent-to-the-mo}
+### Automatische Antwort auf MO  {#automatic-reply-sent-to-the-mo}
 
 Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.
 
 Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md).
 
-## SMS-Eigenschaften konfigurieren        {#configuring-sms-properties}
+## SMS-Eigenschaften konfigurieren  {#configuring-sms-properties}
 
 Dieser Abschnitt behandelt die Liste von SMS-spezifischen Parametern in den Eigenschaften eines SMS-Versands bzw. einer SMS-Versandvorlage.
 
@@ -332,11 +332,11 @@ Die SMS-spezifischen Versandparameter befinden sich im Abschnitt **[!UICONTROL S
 
 Aus dem Abschnitt **[!UICONTROL Erweiterte Parameter]**:
 
-* Der **[!UICONTROL Kurzwahlnummer]** ermöglicht es Ihnen, eine bestimmte Kurzwahlnummer zu Ihrem Versand hinzuzufügen. Empfänger, die sich für diese spezifische Kurzwahlnummer entschieden haben, werden bei der Nachrichtenvorbereitung automatisch ausgeschlossen. Weiterführende Informationen zur Konfiguration von Kurzwahlnummern finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md).
+* Die **[!UICONTROL Kurzwahlnummer]** ermöglicht es Ihnen, eine bestimmte Kurzwahlnummer zu Ihrem Versand hinzuzufügen. Empfänger, die diese spezielle Kurzwahlnummer durch Opt-out abgewählt haben, werden bei der Nachrichtenvorbereitung automatisch ausgeschlossen. Weiterführende Informationen zur Konfiguration der Kurzwahlnummer finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >Wenn das Feld **[!UICONTROL Kurzwahlnummer]** leer bleibt, wird der Wert des Felds **[!UICONTROL Kurzwahlnummer]** verwendet, das im externen Konto festgelegt wurde.
+   >Wenn das Feld **[!UICONTROL Kurzwahlnummer]** leer bleibt, wird der Wert des Felds **[!UICONTROL Kurzwahlnummer]** verwendet, der im externen Konto festgelegt wurde.
 
 Aus dem Abschnitt **[!UICONTROL Senden]** einer SMS-Vorlage:
 
