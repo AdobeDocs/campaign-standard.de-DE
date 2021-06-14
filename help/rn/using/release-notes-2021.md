@@ -12,8 +12,8 @@ level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+source-wordcount: '2535'
+ht-degree: 100%
 
 ---
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * Es wurde ein Problem in Workflows behoben, das beim Kopieren und Einfügen einer **Deduplizierungs**-Aktivität auftrat, die einmal ausgeführt worden war und eine temporäre Ressource nutzte. Nach der Duplizierung wurde die Ressource der Aktivität automatisch auf &quot;Leer&quot; eingestellt, was zu Problemen bei anderen Aktivitäten des Workflows führte. Nach dem Einfügen bleibt die Ressource der Aktivität die gleiche, damit der Fehler so schnell wie möglich und nicht später im Workflow ausgelöst wird. (CAMP-46903)
 
-* Fehlerkorrektur - Die Versandanalyse schlägt jetzt beim Versand einer Push-Benachrichtigung mit Zielgruppenprofilen nicht mehr fehl, indem ein neues [Zielgruppen-Mapping](../../administration/using/target-mappings-in-campaign.md) eingeführt wird: **Profil - Echtzeit-Ereignis für Push** (*mapRtEventAppSubRcp*). Die Versand-, Ausschluss- und Trackinglogs für [profilbasierte Transaktions-Push-Benachrichtigungen](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) werden jetzt in den Tabellen *broadLogAppSubRcp*, *excludeLogAppSubRcp* und *trackingLogAppSubRcp* gespeichert.
+* Es wurden Probleme behoben, die dazu führten, dass die Versandanalyse beim Senden einer Transaktions-Push-Benachrichtigung an Profile fehlschlug, indem ein neues [Zielgruppen-Mapping](../../administration/using/target-mappings-in-campaign.md) eingeführt wurde: **Profil – Echtzeitereignis für Push** (*mapRtEventAppSubRcp*). Die Versand-, Ausschluss- und Trackinglogs für [profilbasierte Transaktions-Push-Benachrichtigungen](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) werden jetzt in den Tabellen *broadLogAppSubRcp*, *excludeLogAppSubRcp* und *trackingLogAppSubRcp* gespeichert.
 
    >[!IMPORTANT]
    >
-   >Aufgrund dieser Änderung wird bei der Verwendung einer (vor der Aktualisierung auf Adobe Campaign 21.1 erstellten) profilbasierten Push-Transaktionsbenachrichtigung empfohlen, das Zielgruppen-Mapping auf die neue zu aktualisieren und die Nachricht erneut zu veröffentlichen. Siehe die Schritte im Detail [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Die Verwendung des vorherigen Zielgruppen-Mappings **Profil - Echtzeit-Ereignis** (*mapRtEventRcp*) kann zu längeren Versandvorbereitungszeiten und Leistungsbeeinträchtigungen führen.
+   >Aufgrund dieser Änderung wird empfohlen, das Zielgruppen-Mapping zu aktualisieren und die Nachricht erneut zu veröffentlichen, wenn Sie eine vorhandene profilbasierte Transaktions-Push-Benachrichtigung verwenden (die vor dem Upgrade auf Adobe Campaign 21.1 erstellt wurde). Eine detaillierte Anleitung dazu finden Sie [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Die Verwendung des früheren Zielgruppen-Mappings **Profil – Echtzeitereignis** (*mapRtEventRcp*) kann zu längeren Versandvorbereitungszeiten und Leistungseinbußen führen.
 
 * Fehlerkorrektur – Versandberichte werden jetzt ausgeführt, wenn 5.000 Zeilen angezeigt werden.
 * Fehlerkorrektur – A/B-Tests funktionieren jetzt einwandfrei. Der Inhalt von Variante B kann jetzt aktualisiert werden, nachdem die Versandvorlage geändert wurde. (CAMP-45235)
