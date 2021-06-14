@@ -7,9 +7,9 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
 source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 + [Aktuelle Updates](rn/using/documentation-updates.md)
 + Versionshinweise {#release-notes}
    + [Aktuelle Version](rn/using/release-notes.md)
-   + [Frühzeitige Versionshinweise](rn/using/e-release-notes.md)
+   + [Frühere Versionshinweise](rn/using/e-release-notes.md)
    + Frühere Versionen {#previous-releases}
       + [Versionshinweise 2021](rn/using/release-notes-2021.md)
       + [Versionshinweise 2020](rn/using/release-notes-2020.md)
@@ -34,13 +34,13 @@ ht-degree: 99%
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Benutzeroberfläche {#discovering-the-interface}
       + [Über die Benutzeroberfläche](start/using/about-the-interface.md)
-      + [Benutzeroberfläche](start/using/interface-description.md)
+      + [Beschreibung der Benutzeroberfläche](start/using/interface-description.md)
       + [Listen anpassen](start/using/customizing-lists.md)
       + [Barrierefreiheit](start/using/accessibility.md)
-   + Verwenden von Marketingaktivitäten {#marketing-plans}
+   + Verwenden von Marketing-Aktivitäten {#marketing-plans}
       + [Programme und Kampagnen](start/using/programs-and-campaigns.md)
-      + [Marketingaktivitäten](start/using/marketing-activities.md)
-      + [Vorlagen für Marketingaktivitäten](start/using/marketing-activity-templates.md)
+      + [Marketing-Aktivitäten](start/using/marketing-activities.md)
+      + [Vorlagen für Marketing-Aktivitäten](start/using/marketing-activity-templates.md)
       + [Planung](start/using/timeline.md)
    + Datenschutz {#privacy}
       + [Datenschutz und Einverständniserklärung](start/using/privacy.md)
@@ -56,7 +56,7 @@ ht-degree: 99%
       + [Profile bearbeiten](audiences/using/editing-profiles.md)
       + [Integriertes Kundenprofil](audiences/using/integrated-customer-profile.md)
       + [Aktive Profile](audiences/using/active-profiles.md)
-      + [Verwaltung von Testprofilen     ](audiences/using/managing-test-profiles.md)
+      + [Verwaltung von Testprofilen](audiences/using/managing-test-profiles.md)
       + [Anreicherung der Campaign-Datenbank](audiences/using/enriching-campaign-database.md)
    + Verwaltung von Audiences {#managing-audiences}
       + [Über Audiences](audiences/using/about-audiences.md)
@@ -64,7 +64,7 @@ ht-degree: 99%
       + [Audience in einer Nachricht auswählen](audiences/using/selecting-an-audience-in-a-message.md)
    + Abonnements verwalten {#managing-subscriptions}
       + [Über Abonnements](audiences/using/about-subscriptions.md)
-      + [Dienst erstellen](audiences/using/creating-a-service.md)
+      + [Service erstellen](audiences/using/creating-a-service.md)
       + [Dienst bewerben](audiences/using/promoting-a-service.md)
       + [Anmeldungen verfolgen](audiences/using/monitoring-subscriptions.md)
       + [Abonnement eines Dienstes bestätigen](audiences/using/confirming-subscription-to-a-service.md)
@@ -127,12 +127,12 @@ ht-degree: 99%
          + [Transaktionsnachricht bearbeiten](channels/using/editing-transactional-message.md)
          + [Transaktionsnachrichten testen](channels/using/testing-transactional-message.md)
          + [Lebenszyklus von Transaktionsnachrichten](channels/using/publishing-transactional-message.md)
-         + [Durchführung und Überwachung](channels/using/transactional-message-execution.md)
+         + [Ausführung und Monitoring](channels/using/transactional-message-execution.md)
       + [Transaktions-Push-Benachrichtigung](channels/using/transactional-push-notifications.md)
       + [Folgenachrichten](channels/using/follow-up-messages.md)
       + [Anwendungsfall für Transaktionsnachrichten](channels/using/transactional-messaging-use-case.md)
    + Landingpages {#landing-pages}
-      + [Erste Schritte mit Landing Pages](channels/using/getting-started-with-landing-pages.md)
+      + [Erste Schritte mit Landingpages](channels/using/getting-started-with-landing-pages.md)
       + [Über Landingpage-Vorlagen](channels/using/landing-page-templates.md)
       + [Konfigurieren einer Landingpage](channels/using/configuring-landing-page.md)
       + [Landingpage erstellen](channels/using/designing-a-landing-page.md)
@@ -140,8 +140,8 @@ ht-degree: 99%
       + [Landingpage testen und veröffentlichen](channels/using/testing-publishing-landing-page.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
 + E-Mail-Inhalt gestalten {#designing-content}
-   + [Campaign E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
-   + [Erste Schritte mit dem Email Designer](designing/using/quick-start.md)
+   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
+   + [Erste Schritte mit Email Designer](designing/using/quick-start.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
    + E-Mail-Inhalte erstellen{#building-email-content}
       + [Erstellen neuer E-Mails](designing/using/designing-from-scratch.md)
@@ -163,7 +163,7 @@ ht-degree: 99%
       + [Testversand durchführen](sending/using/sending-proofs.md)
       + [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](sending/using/testing-messages-using-target.md)
       + [KI-gestützte E-Mails](sending/using/predictive.md)
-      + [Email rendering](sending/using/email-rendering.md)
+      + [E-Mail-Rendering](sending/using/email-rendering.md)
       + [Hinzufügen einer Kontrollgruppe](sending/using/control-group.md)
       + [Fallen verwenden](sending/using/using-traps.md)
       + [Versandvorbereitung](sending/using/preparing-the-send.md)
@@ -176,7 +176,7 @@ ht-degree: 99%
       + [Versand bestätigen](sending/using/confirming-the-send.md)
       + [Nachrichten tracken](sending/using/tracking-messages.md)
       + [Archivieren mit E-Mail-BCC](sending/using/archiving.md)
-   + Nachrichten beobachten {#monitoring-messages}
+   + Nachrichten überwachten {#monitoring-messages}
       + [Sendungen überwachen](sending/using/monitoring-a-delivery.md)
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
       + [Ursachen von fehlgeschlagenen Sendungen](sending/using/understanding-delivery-failures.md)
@@ -204,7 +204,7 @@ ht-degree: 99%
    + Liste von Berichten {#list-of-reports}
       + [Berichtszeitraum definieren](reporting/using/defining-the-report-period.md)
       + [Bounces](reporting/using/bounce-summary.md)
-      + [Verteilung nach Domain](reporting/using/breakdown-by-domains.md)
+      + [Aufschlüsselung nach Domains](reporting/using/breakdown-by-domains.md)
       + [Beschwerden](reporting/using/complaints.md)
       + [Versandzusammenfassung](reporting/using/delivery-summary.md)
       + [Versanddurchsatz](reporting/using/delivery-throughput.md)
@@ -217,7 +217,7 @@ ht-degree: 99%
       + [Abmeldungen](reporting/using/unsubscriptions.md)
       + [URLs und Clickstreams](reporting/using/urls-and-click-streams.md)
       + [Klicks](reporting/using/hot-clicks.md)
-      + [Dienstzusammenfassung](reporting/using/service-summary.md)
+      + [Service-Zusammenfassung](reporting/using/service-summary.md)
    + Berichte anpassen {#customizing-reports}
       + [Bedienfelder hinzufügen](reporting/using/adding-panels.md)
       + [Visualisierungen hinzufügen](reporting/using/adding-visualizations.md)
@@ -244,7 +244,7 @@ ht-degree: 99%
       + [Über die Integration von Campaign mit Audience Manager oder People Core Service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Integration mit Audience Manager oder People Core Service bereitstellen und konfigurieren](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Fehlerbehebung](integrating/using/troubleshooting.md)
-      + [Audiences mit Audience Manager oder People Core Service freigeben](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+      + [Audiences für Audience Manager oder People Core Service freigeben](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign und Assets Core Service verwenden](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign und Analytics für Mobilgeräte {#working-with-campaign-and-analytics-for-mobile}
       + [Über die Integration von Campaign-POI-Daten](integrating/using/about-campaign-points-of-interest-data-integration.md)
@@ -253,9 +253,9 @@ ht-degree: 99%
    + Campaign und Triggers {#working-with-campaign-and-triggers}
       + [Über Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Triggers in Experience Cloud konfigurieren](integrating/using/configuring-triggers-in-experience-cloud.md)
-      + [Trigger in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
+      + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
       + [Trigger testen](integrating/using/testing-your-triggers.md)
-      + [Anwendungsbeispiele zu Triggern für die abgebrochene Suche](integrating/using/abandonment-triggers-use-cases.md)
+      + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Erste Schritte mit der Integration von Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Best Practices und Einschränkungen](integrating/using/d365-acs-notices-and-recommendations.md)
@@ -274,7 +274,7 @@ ht-degree: 99%
          + [Adobe Experience Platform-Audiences in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
          + [Daten von Campaign nach Adobe Experience Platform exportieren](integrating/using/export-campaign-data.md)
       + Audience Destinations Service (Beta) {#audience-destinations}
-         + [Über den Audience Destinations-Dienst](integrating/using/aep-about-audience-destinations-service.md)
+         + [Über den Audience Destinations-Service](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
          + [Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
          + [Adobe Experience Platform-Audiences auswählen](integrating/using/aep-targeting-audiences.md)
@@ -294,7 +294,7 @@ ht-degree: 99%
    + Workflow ausführen {#executing-a-workflow}
       + [Über die Ausführung von Workflows](automating/using/about-workflow-execution.md)
       + [Lebenszyklus eines Workflows](automating/using/workflow-life-cycle.md)
-      + [Ausführungsbefehle     ](automating/using/execution-commands.md)
+      + [Ausführungsbefehle](automating/using/execution-commands.md)
       + [Ausführung des Workflows überwachen](automating/using/monitoring-workflow-execution.md)
       + [Ausführungsoptionen verwalten](automating/using/managing-execution-options.md)
       + [Eigenschaften von Aktivitäten verwalten](automating/using/activity-properties.md)
@@ -302,8 +302,8 @@ ht-degree: 99%
    + Workflow mit externen Parametern aufrufen {#calling-workflow-external-parameters}
       + [Übersicht](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren](automating/using/declaring-parameters-external-signal.md)
-      + [Parameter beim Aufruf des Workflows definieren       ](automating/using/defining-parameters-calling-workflow.md)
-      + [Ereignisvariablen überwachen       ](automating/using/monitoring-events-variables.md)
+      + [Parameter beim Aufruf des Workflows definieren](automating/using/defining-parameters-calling-workflow.md)
+      + [Ereignisvariablen überwachen](automating/using/monitoring-events-variables.md)
       + [Workflow mit externen Parametern anpassen](automating/using/customizing-workflow-external-parameters.md)
       + [Anwendungsbeispiel](automating/using/use-case-calling-workflow.md)
    + Zielgruppenbestimmungsaktivitäten {#targeting-activities}
@@ -329,11 +329,11 @@ ht-degree: 99%
       + [Test](automating/using/test.md)
    + Kanalaktivitäten {#channel-activities}
       + [Über Kanalaktivitäten](automating/using/about-channel-activities.md)
-      + [E-Mail-Versand           ](automating/using/email-delivery.md)
+      + [E-Mail-Versand](automating/using/email-delivery.md)
       + [SMS-Versand](automating/using/sms-delivery.md)
-      + [Push-Benachrichtigungsversand           ](automating/using/push-notification-delivery.md)
+      + [Push-Benachrichtigungsversand](automating/using/push-notification-delivery.md)
       + [Briefpost-Versand](automating/using/direct-mail-delivery.md)
-      + [In-App-Versand           ](automating/using/in-app-delivery.md)
+      + [In-App-Versand](automating/using/in-app-delivery.md)
    + Datenverwaltungsaktivitäten {#data-management-activities}
       + [Über Datenverwaltungsaktivitäten](automating/using/about-data-management-activities.md)
       + [Daten-Update](automating/using/update-data.md)
@@ -375,7 +375,7 @@ ht-degree: 99%
          + [Vereinigung von zwei eingegrenzten Audiences](automating/using/union-on-two-refined-audiences.md)
          + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
          + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
-         + [Inkrementelle Abfrage bezüglich Dienst-Abonnenten](automating/using/incremental-query-on-subscribers.md)
+         + [Inkrementelle Abfrage bezüglich Service-Abonnenten](automating/using/incremental-query-on-subscribers.md)
          + [Segmentierung nach Altersklassen](automating/using/segmentation-age-groups.md)
          + [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](automating/using/using-resources-different-from-targeting-dimensions.md)
       + Daten-Management {#data-management}
@@ -389,11 +389,11 @@ ht-degree: 99%
          + [Datenaktualisierung mittels Abstimmung](automating/using/data-update-reconciliation.md)
          + [Profile in eine externe Datei exportieren](automating/using/exporting-profiles-in-file.md)
          + [Mehrere Abonnementstatus über eine Datei aktualisieren](automating/using/updating-subscriptions-from-file.md)
-         + [Profile aus einer Datei für einen bestimmten Dienst anmelden](automating/using/subscribing-profiles-from-file.md)
+         + [Profile aus einer Datei für einen bestimmten Service anmelden](automating/using/subscribing-profiles-from-file.md)
 + Entwickeln{#developing}
    + [Erste Schritte mit dem Campaign Standard-Datenmodell](developing/using/get-started-data-model.md)
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
-      + [Datenmodelle](developing/using/data-model-concepts.md)
+      + [Konzepte von Datenmodellen](developing/using/data-model-concepts.md)
       + [Status der Ressourcen](developing/using/resource-statuses.md)
       + [Änderungen an Datenmodellen verfolgen](developing/using/monitoring-data-model-changes.md)
       + [Best Practices für Datenmodelle](developing/using/data-model-best-practices.md)
@@ -414,15 +414,15 @@ ht-degree: 99%
    + Anwendungsbeispiele: Ressourcenerweiterung {#use-cases--extending-resources}
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)
-   + Datamodel {#datamodel}
+   + Datenmodell {#datamodel}
       + [Einleitung](developing/using/datamodel-introduction.md)
       + [Audience](developing/using/datamodel-audience.md)
       + [Campaign](developing/using/datamodel-campaign.md)
       + [Versand](developing/using/datamodel-delivery.md)
-      + [Landing Pages](developing/using/datamodel-landingpage.md)
-      + [Marketingverlauf](developing/using/datamodel-history.md)
+      + [Landingpages](developing/using/datamodel-landingpage.md)
+      + [Marketing-Verlauf](developing/using/datamodel-history.md)
       + [Profil](developing/using/datamodel-profile.md)
-      + [Program](developing/using/datamodel-program.md)
+      + [Programm](developing/using/datamodel-program.md)
       + [Testempfänger](developing/using/datamodel-seed.md)
       + [Service](developing/using/datamodel-service.md)
       + [Abonnementereignis](developing/using/datamodel-subscription.md)
@@ -449,7 +449,7 @@ ht-degree: 99%
    + Mobile Kanäle konfigurieren {#configuring-mobile}
       + [Implementieren von Push-Tracking](administration/using/push-tracking.md)
       + [Bilder und Videos unter iOS hinzufügen](administration/using/image-push-notification.md)
-      + [Payload-Struktur der Push-Nachrichten verstehen](administration/using/push-payload.md)
+      + [Payload-Struktur der Push-Benachrichtigungen verstehen](administration/using/push-payload.md)
       + [Lokales Benachrichtigungs-Tracking implementieren](administration/using/local-tracking.md)
       + [Häufig gestellte Fragen zur Synchronisation von Adobe Launch](administration/using/syncwithlaunch-faq.md)
       + [Häufig gestellte Fragen zur Integration des Experience Platform SDK](administration/using/aep-faq.md)
@@ -465,7 +465,7 @@ ht-degree: 99%
       + [Externe Konten](administration/using/external-accounts.md)
       + [Zielgruppen-Mappings in Campaign](administration/using/target-mappings-in-campaign.md)
       + [Technische Workflows](administration/using/technical-workflows.md)
-      + [Marken](administration/using/branding.md)
+      + [Branding](administration/using/branding.md)
       + [Interne Benachrichtigungen senden](administration/using/sending-internal-notifications.md)
       + [Datenbeibehaltung](administration/using/data-retention.md)
       + [Aktualisierungen und Wartungsmaßnahmen](administration/using/updates-and-maintenance-operations.md)
@@ -490,8 +490,8 @@ ht-degree: 99%
       + [Profile abrufen](api/using/retrieving-profiles.md)
       + [Profile aktualisieren](api/using/updating-profiles.md)
       + [Profile erstellen](api/using/creating-profiles.md)
-   + Dienste und Abonnements verwalten {#managing-services-and-subscriptiopns}
-      + [Dienst erstellen](api/using/creating-a-service.md)
+   + Services und Abonnements verwalten {#managing-services-and-subscriptiopns}
+      + [Service erstellen](api/using/creating-a-service.md)
       + [Abrufen von Anmeldungen](api/using/retrieving-subscriptions.md)
       + [Abonnements ausführen](api/using/perform-subscriptions.md)
       + [Löschen von Anmeldungen](api/using/deleting-subscriptions.md)
