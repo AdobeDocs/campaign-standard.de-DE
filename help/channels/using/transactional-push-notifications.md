@@ -12,9 +12,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1495'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Wenn der Anmelde-Token existiert, erhält der entsprechende Benutzer eine Transa
 
 *&quot;Hallo, Jane Green, das Boarding hat soeben begonnen! Bitte gehen Sie zu Flugsteig B18.&quot;*
 
-## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt        {#transactional-push-notifications-targeting-a-profile}
+## Transaktions-Push-Benachrichtigung, bei der die Zielgruppenbestimmung durch ein Profil erfolgt  {#transactional-push-notifications-targeting-a-profile}
 
 Sie können eine Transaktions-Push-Benachrichtigung **an die Adobe Campaign-Profile senden, die Ihre Mobile App abonniert haben**. Dieser Versand kann [Personalisierungsfelder](../../designing/using/personalization.md#inserting-a-personalization-field) enthalten, z. B. den Vornamen des Empfängers, der direkt aus der Adobe Campaign-Datenbank abgerufen wird.
 
@@ -204,13 +204,13 @@ Gehen Sie wie folgt vor, um dieses Zielgruppen-Mapping zu ändern:
 
 1. Wählen Sie in der Liste der Transaktionsnachrichten eine Push-Benachrichtigung aus.
 
-1. Klicken Sie im Nachrichten-Dashboard auf die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** .
+1. Klicken Sie im Nachrichten-Dashboard auf die Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]**.
 
    ![](assets/message-center_push_edit.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Erweiterte Parameter]** .
+1. Erweitern Sie den Abschnitt **[!UICONTROL Erweiterte Parameter]**.
 
-1. Klicken Sie auf **[!UICONTROL Wählen Sie ein Element &quot;Zielgruppen-Mapping&quot;]**.
+1. Klicken Sie auf **[!UICONTROL Zielgruppen-Mapping-Element auswählen]**.
 
    ![](assets/message-center_push_target-mapping.png)
 
@@ -218,7 +218,7 @@ Gehen Sie wie folgt vor, um dieses Zielgruppen-Mapping zu ändern:
 
    >[!NOTE]
    >
-   >Um eine optimale Versandvorbereitungszeit und -leistung beim Senden von **profilbasierten** Transaktions-Push-Benachrichtigungen zu erhalten, verwenden Sie das Zielgruppen-Mapping **[!UICONTROL Profil - Echtzeit-Ereignis für Push (mapRtEventAppSubRcp)]**.
+   >Um eine optimale Versandvorbereitungszeit und Leistung beim Senden von **profilbasierten** Transaktions-Push-Benachrichtigungen zu erhalten, verwenden Sie das Zielgruppen-Mapping **[!UICONTROL Profil – Echtzeit-Ereignis für Push (mapRtEventAppSubRcp)]**.
 
    ![](assets/message-center_push_target-mapping_change.png)
 
