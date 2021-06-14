@@ -12,9 +12,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Bei der Analyse einer Nachricht wird standardmäßig von einer [Typologieregel](
 
 [In diesem Abschnitt](../../designing/using/personalization.md#adding-a-content-block) erfahren Sie, wie man einen Ausschluss-Link einfügt.
 
-### Größe der E-Mail {#email-size}
+### Größe der E-Mail  {#email-size}
 
 Um Leistungs- oder Zustellbarkeitsprobleme zu vermeiden, wird eine E-Mail mit einer maximalen Größe von **35 KB** empfohlen.
 
@@ -82,21 +82,21 @@ Um Ihre E-Mail unter dem Grenzwert zu halten, beachten Sie Folgendes:
 
 * Entfernen Sie redundante oder nicht verwendete Stile.
 
-* Verschieben Sie einen Teil des E-Mail-Inhalts auf eine [Landingpage](../../channels/using/getting-started-with-landing-pages.md)
+* Verschieben Sie einen Teil des E-Mail-Inhalts auf eine [Landingpage](../../channels/using/getting-started-with-landing-pages.md).
 
 * Minimieren Sie den Code.
 
 Testen Sie alle Änderungen vor dem endgültigen Senden..
 
-In Adobe Campaign ist die standardmäßige Maximalgröße einer E-Mail auf **100 MB** festgelegt. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+In Adobe Campaign ist die standardmäßige Maximalgröße einer E-Mail mit **100 MB** festgelegt. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
-Bei Erreichen des Grenzwerts schlägt die Nachricht fehl, die das Limit überschreitet, und in den Versandlogs wird eine Fehlermeldung angezeigt. Die anderen Nachrichten desselben Versands sind nicht betroffen. In diesem Fall müssen Sie den dynamischen Teil der E-Mail-Vorlage oder die vom Versand verwendeten Inhaltsfragmente anpassen. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+Wenn das Limit erreicht wird, schlägt die Nachricht, die das Limit überschreitet, fehl und es wird eine Fehlermeldung in den Versandlogs angezeigt. Die anderen Nachrichten desselben Versands sind nicht betroffen. In diesem Fall müssen Sie den dynamischen Teil der E-Mail-Vorlage oder die vom Versand verwendeten Inhaltsfragmente anpassen. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe empfiehlt, den Standardwert für die maximale Nachrichtengröße beizubehalten. Dieser Wert kann jedoch nur in der Option **[!UICONTROL Maximale Nachrichtengröße]** über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** durch [funktionale Administratoren](../../administration/using/users-management.md#functional-administrators) geändert werden.
+Adobe empfiehlt, den Standardwert für die maximale Nachrichtengröße beizubehalten. Dieser Wert kann jedoch nur durch [funktionale Administratoren](../../administration/using/users-management.md#functional-administrators) in der Option **[!UICONTROL Maximale Nachrichtengröße]** über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** geändert werden.
 
 >[!IMPORTANT]
 >
->Wenn Sie diesen Wert auf null setzen, wird keine Begrenzung angewendet.
+>Wenn Sie diesen Wert auf null setzen, wird keine Maximalgröße angewendet.
 
 ### Länge der SMS
 
