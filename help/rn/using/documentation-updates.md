@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6883'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 98%
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
-## Version 21.2 - Juni 2021            {#release-21-2---june-2021}
+## Version 21.2 – Juni 2021 {#release-21-2---june-2021}
 
-**Neue Funktionen in der Version**
+**Neue Funktionen in dieser Version**
 
-Validierung von Landingpages - Sie können Ihren Landingpages jetzt eine Option für eine obligatorische Vereinbarung hinzufügen. [Mehr dazu](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Validierung von Landingpages – Sie können Ihren Landingpages jetzt eine Option für eine obligatorische Vereinbarung hinzufügen. [Mehr dazu](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-Der Abschnitt **E-Mail-Größe** wurde mit Informationen zur maximalen Größe einer E-Mail aktualisiert, die jetzt standardmäßig auf 100 MB eingestellt ist. [mehr dazu](../../sending/using/design-and-personalize.md#email-size)
+Der Abschnitt **E-Mail-Größe** wurde mit Informationen zur maximalen Größe einer E-Mail aktualisiert, die jetzt standardmäßig mit 100 MB festgelegt ist. [mehr dazu](../../sending/using/design-and-personalize.md#email-size)
 
 **Weitere Dokumentationsaktualisierungen zu dieser Version**
 
@@ -616,7 +616,7 @@ Videos wurden aktualisiert und [hierher](https://experienceleague.adobe.com/docs
 
 Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
-## Version 18.9 - September 2018                          {#release-18-9---september-2018}
+## Version 18.9 - September 2018  {#release-18-9---september-2018}
 
 **Neue Funktionen in der Version**
 
@@ -632,7 +632,7 @@ Zusätzliche Informationen zum Löschen einer Audience – [mehr dazu](../../aud
 
 Aktualisierter Abschnitt zu Push-Benachrichtigungen in nativen Berichten. [mehr dazu](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juli 2018                           {#release-18-7---july-2018}
+## Version 18.7 - Juli 2018   {#release-18-7---july-2018}
 
 **Neue Funktionen in der Version**
 
@@ -710,7 +710,7 @@ Die Liste der unterstützten Analytics-Lösungen/Core Services für die Integrat
 
 Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Version 18.3 - März 2018                           {#release-18-3---march-2018}
+## Version 18.3 - März 2018   {#release-18-3---march-2018}
 
 **Neue Funktionen in der Version**
 
@@ -742,7 +742,7 @@ Die Liste der Hilfematerialien zur Integration von Campaign und Adobe-Lösungen 
 
 Die kontextuelle Hilfe von Campaign Standard wurde aktualisiert.
 
-## Version 18.2 - Februar 2018                           {#release-18-2---february-2018}
+## Version 18.2 - Februar 2018   {#release-18-2---february-2018}
 
 **Neue Funktionen in der Version**
 
@@ -786,7 +786,7 @@ Aktualisierte Informationen zu Versandproblemen und Quarantänen – [mehr dazu]
 
 Neue Abschnitte zu [Zielgruppen-Mappings](../../administration/using/target-mappings-in-campaign.md), [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - Januar 2018                           {#release-18-1---january-2018}
+## Version 18.1 - Januar 2018   {#release-18-1---january-2018}
 
 **Neue Funktionen in der Version**
 
@@ -814,7 +814,7 @@ Zusätzliche Informationen zu Verlaufsparametern der Dateiübertragungsaktivitä
 
 Die Anleitungen zur Konfiguration der Integration mit Audience Manager oder People Core Service wurden aktualisiert – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - Oktober 2017                           {#release-17-10---october-2017}
+## Version 17.10 - Oktober 2017   {#release-17-10---october-2017}
 
 **Neue Funktionen in der Version**
 
@@ -894,7 +894,7 @@ Aktualisierter Abschnitt zur Workflow-Aktivität &quot;Dateiübertragung&quot; �
 
 Zur Option &quot;Vor dem Nachrichtenversand Bestätigung einholen&quot; in der Workflow-Aktivität &quot;E-Mail-Versand&quot; wurden Informationen hinzugefügt – [mehr dazu](../../automating/using/email-delivery.md)
 
-## Version 17.7 - Juli 2017                           {#release-17-7---july-2017}
+## Version 17.7 - Juli 2017   {#release-17-7---july-2017}
 
 **Neue Funktionen in der Version**
 
@@ -926,7 +926,7 @@ Zur Anmeldung mit zweifacher Bestätigung wurde eine schrittweise Anleitung hinz
 
 Der Abschnitt zur Liste der Rollen wurde aktualisiert – [mehr dazu](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - Mai 2017                           {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017   {#release-17-5---may-2017}
 
 **Neue Funktionen in der Version**
 
@@ -948,7 +948,7 @@ Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
-## Version 17.4 - April 2017                           {#release-17-4---april-2017}
+## Version 17.4 - April 2017   {#release-17-4---april-2017}
 
 **Neue Funktionen in der Version**
 
@@ -978,7 +978,7 @@ Der Abschnitt zum Arbeiten mit Bildern in Campaign wurde aktualisiert – [mehr 
 
 Die Integration mit Adobe Analytics for Mobile (Point of Interest) wurde aktualisiert, einschließlich Konfigurationsschritten und Anwendungsbeispielen – [mehr dazu](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - März 2017                           {#release-17-2---march-2017}
+## Version 17.2 - März 2017   {#release-17-2---march-2017}
 
 **Neue Funktionen in der Version**
 
@@ -1006,7 +1006,7 @@ Die API-Dokumentation für Entwickler wurde durch neue Informationen und Code-Sn
 
 Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-audience.md) und [Externes Signal](../../automating/using/external-signal.md) wurden Beispiele hinzugefügt.
 
-## Version 17.1 - Januar 2017                           {#release-17-1---january-2017}
+## Version 17.1 - Januar 2017   {#release-17-1---january-2017}
 
 **Neue Funktionen in der Version**
 
