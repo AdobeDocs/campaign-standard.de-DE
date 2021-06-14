@@ -12,9 +12,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ Landingpages werden auf dieselbe Weise erstellt wie [Marketingaktivitäten](../.
 
 Zur Erstellung einer Landingpage müssen Sie den Inhalt der Seite selbst, der Bestätigungsseite und der Fehlerseite definieren. Mithilfe des Schalters unter der Symbolleiste können Sie jede dieser Seiten anzeigen und konfigurieren.
 
-Der Inhalt von Landingpages wird mithilfe des Inhaltseditors für Campaign erstellt.
+Der Inhalt der Landingpages wird im Campaign-Inhaltseditor gestaltet.
 
 >[!NOTE]
 >
->Wenn Ihre Instanz zum E-Mail-Design vor der Adobe Campaign Standard-Version 19.0 installiert wurde, haben Sie weiterhin Zugriff auf den alten E-Mail-Inhaltseditor. Die Benutzeroberfläche, Verwendung und Konfiguration entsprechen größtenteils der für Landingpages geltenden unten stehenden Beschreibung. Es kann jedoch sein, dass nicht alle Funktionen im Legacy-E-Mail-Inhaltseditor verfügbar oder auf dem aktuellen Stand sind, da er ab der Version 19.0 eingestellt wird. Wenn Sie Ihren E-Mail-Inhalt rasch auf einer Drag &amp; Drop-Benutzeroberfläche mithilfe einer Fülle von Funktionen bearbeiten möchten, verwenden Sie [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+>Wenn Ihre Instanz vor dem Erscheinen von Adobe Campaign Standard 19.0 installiert wurde, haben Sie für die E-Mail-Gestaltung immer noch Zugriff auf den alten Editor für E-Mail-Inhalte. Die Benutzeroberfläche, Verwendung und Konfiguration entsprechen größtenteils der für Landingpages geltenden unten stehenden Beschreibung. Es kann jedoch sein, dass nicht alle Funktionen im Legacy-E-Mail-Inhaltseditor verfügbar oder auf dem aktuellen Stand sind, da er ab der Version 19.0 eingestellt wird. Wenn Sie Ihren E-Mail-Inhalt rasch auf einer Drag &amp; Drop-Benutzeroberfläche mithilfe einer Fülle von Funktionen bearbeiten möchten, verwenden Sie [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Auf dieser Seite erfahren Sie die wichtigsten Informationen zum Inhaltseditor für Landingpages: Weiterführende Informationen zu den Aktionen, die häufig bei Marketingaktivitäten eingesetzt werden, finden Sie in den folgenden Abschnitten des Handbuchs zum **Entwerfen von E-Mail-Inhalten**:
 
 * [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block)
+* [Inhaltsbaustein hinzufügen](../../designing/using/personalization.md#adding-a-content-block)
 * [Link einfügen](../../designing/using/links.md#inserting-a-link)
 * [Bilder einfügen](../../designing/using/images.md)
 * [Allgemeine Best Practices bei der Inhaltserstellung](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
@@ -263,7 +263,7 @@ Die für ein Blockelement (Link, Personalisierungsfeld, Inhaltsbaustein etc.) de
 
 ![](assets/des_lp_content_4.png)
 
-### Rahmen und Hintergrund im Inhaltseditor hinzufügen        {#adding-a-border-and-a-background-in-the-content-editor}
+### Rahmen und Hintergrund im Inhaltseditor hinzufügen  {#adding-a-border-and-a-background-in-the-content-editor}
 
 Es besteht die Möglichkeit, verschiedene **Hintergrundfarben** aus der Farbpalette für die einzelnen Blöcke auszuwählen. Die Farbe wird jeweils auf den gesamten Block angewendet.
 
@@ -273,7 +273,7 @@ Außerdem können die einzelnen Blöcke mit verschiedenen **Rahmen** versehen we
 
 ![](assets/des_lp_content_6.png)
 
-### Textstil im Inhaltseditor ändern         {#changing-the-text-style-in-the-content-editor}
+### Textstil im Inhaltseditor ändern  {#changing-the-text-style-in-the-content-editor}
 
 Um einen Textstil zu ändern, muss sich der Cursor innerhalb eines Textblocks befinden.
 
@@ -287,7 +287,7 @@ Die Textausrichtung kann mit einer der drei Schaltflächen in der Palette links 
 
 Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Siehe [diesen Abschnitt](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Bilder in eine Landingpage einfügen         {#inserting-images-in-a-landing-page}
+### Bilder in eine Landingpage einfügen  {#inserting-images-in-a-landing-page}
 
 1. Wählen Sie im Inhalt der Landingpage einen Baustein aus, der ein Bild enthält.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Einfügen]**.
