@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
 source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ Gemäß Ihrem Vertrag erhalten alle Ihre Campaign-Instanzen eine bestimmte Anzah
 
 
 
-* Die Profile, die bei der Vorbereitung des Versands (z. B. durch Typologieregeln oder Quarantänemechanismus) ausgeschlossen wurden, werden nicht berücksichtigt.
+* Die Profile, die bei der Vorbereitung des Versands (z. B. durch Typologieregeln oder den Quarantänemechanismus) ausgeschlossen wurden, werden nicht berücksichtigt.
 
-* Empfänger von Transaktionsnachrichten werden für aktive Profile gezählt.
+* Empfänger von Transaktionsnachrichten werden als aktive Profile gezählt.
 
 * Ein Profil, das mehrere Sendungen erhalten hat, wird nur einmal gezählt.
 
 * Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung.
 
-Unten auf der Seite werden die Zielgruppendimensionen mit der Anzahl der Profile aufgelistet. Empfänger von Transaktionsnachrichten sind mit der Dimension **Anonymous** verknüpft.
+Unten auf der Seite werden die Zielgruppendimensionen mit der jeweiligen Anzahl der Profile aufgelistet. Empfänger von Transaktionsnachrichten sind mit der Dimension **Anonym** verknüpft.
 
 >[!NOTE]
 >
