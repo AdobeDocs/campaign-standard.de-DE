@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '728'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,8 +66,8 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Ab Version 19.0 von Campaign wird der alte E-Mail-Editor nicht mehr unterstützt. Verwenden Sie den <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=de-DE">E-Mail-Designer von Campaign</a>, um Ihre E-Mail-Inhalte zu erstellen und zu personalisieren. </p></br>
-   <p>In <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=de-DE">diesem Abschnitt</a> erfahren Sie, wie Sie Ihre E-Mail-Vorlagen für den neuen Editor anpassen.</p></br>
+   <td> <p>Ab Version 19.0 von Campaign wird der alte E-Mail-Editor nicht mehr unterstützt. Verwenden Sie den <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=de">E-Mail-Designer von Campaign</a>, um Ihre E-Mail-Inhalte zu erstellen und zu personalisieren. </p></br>
+   <p>In <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=de">diesem Abschnitt</a> erfahren Sie, wie Sie Ihre E-Mail-Vorlagen für den neuen Editor anpassen.</p></br>
   <p> 
   <em>Target-Entfernungsdatum: Ende 2021</em></p>
    </td> 
@@ -103,7 +103,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  <tbody> 
   <tr> 
    <td> <p>Mit Campaign-Version 21.2. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Coreservice von Adobe</a>.</p></br>
-   <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=de-DE">Verwalten von Datenschutzanfragen</a>.</p>
+   <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=de">Verwalten von Datenschutzanfragen</a>.</p>
   </td> 
   </tr> 
  </tbody> 
@@ -132,7 +132,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Die <b>Neigungsbewertung </b> wurde in Adobe Experience Cloud Triggers eingestellt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte der Neigungsbewertung in den Anreicherungsschemas zu vermeiden, empfehlen wir, die Schemas zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Triggers erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de-DE">Trigger in Campaign veröffentlichen</a>.
+   <td> <p>Die <b>Neigungsbewertung </b> wurde in Adobe Experience Cloud Triggers eingestellt. Infolgedessen wurde diese Option aus Adobe Campaign Standard entfernt. Um veraltete Werte der Neigungsbewertung in den Anreicherungsschemas zu vermeiden, empfehlen wir, die Schemas zu aktualisieren, um die neuesten Änderungen abzurufen und vorhandene Triggers erneut zu veröffentlichen. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de">Trigger in Campaign veröffentlichen</a>.
 </p></br>
    </td> 
   </tr> 
@@ -163,7 +163,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign und Adobe Experience Cloud haben mit Campaign-Version 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 eingestellt. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html?lang=de-DE">Mehr dazu</a>.</p>
+   <td> <p>Adobe Campaign und Adobe Experience Cloud haben mit Campaign-Version 19.2 (Frühling 2019) den Support für Microsoft Internet Explorer 11 eingestellt. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html?lang=de">Mehr dazu</a>.</p>
    </td> 
   </tr> 
  </tbody> 
