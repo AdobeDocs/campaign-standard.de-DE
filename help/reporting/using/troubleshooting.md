@@ -11,9 +11,9 @@ role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Solche Ereignisse werden hinzugefügt, da **ein E-Mail-Klick auf eine E-Mail-Öf
 >
 >Da die eindeutige Anzahl auf einem HLL-basierten Sketch basiert, können zwischen den Zahlen kleine Unterschiede auftreten.
 
-## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet?         {#counts-recurring-deliveries}
+## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet?  {#counts-recurring-deliveries}
 
 Bei wiederkehrenden Sendungen und dem Versand von Transaktionsnachrichten werden die Zahlen sowohl den über- als auch den untergeordneten Sendungen zugeordnet.
 Nehmen Sie zum Beispiel einen wiederkehrenden Versand mit der Bezeichnung **R1**, der täglich an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt wird.
@@ -179,7 +179,7 @@ Der Wert **K. A.** wird manchmal in Ihren dynamischen Berichten angegeben. Dies 
 
 * Der Versand wurde gelöscht und wird hier als **K. A.** angegeben, sodass keine Diskrepanz in den Ergebnissen verursacht wird.
 * Wenn Sie die Dimension **[!UICONTROL Versand von Transaktionsnachrichten]** per Drag-and-Drop in Ihre Berichte ziehen, wird als Ergebnis möglicherweise der Wert **K. A.** angezeigt. Dies geschieht, weil der dynamische Bericht alle Sendungen abruft, auch wenn sie keine Transaktionsnachrichten sind. Dies kann auch passieren, wenn Sie die Dimension **[!UICONTROL Versand]** in Ihren Bericht ziehen. In diesem Fall stellt der Wert **K. A.** jedoch den Versand von Transaktionsnachrichten dar.
-* Wenn eine Dimension mit einer Metrik verwendet wird, die nicht mit der Dimension verbunden ist. Im folgenden Beispiel wird eine Aufschlüsselung mit der Dimension **[!UICONTROL Tracking-URL]** hinzugefügt, obwohl die **[!UICONTROL Klick]**-Anzahl in diesem Versand auf 0 gesetzt ist.
+* Wenn eine Dimension mit einer Metrik verwendet wird, die sich nicht auf die Dimension bezieht. Im folgenden Beispiel wird eine Aufschlüsselung mit der Dimension **[!UICONTROL Tracking-URL]** hinzugefügt, obwohl die **[!UICONTROL Klick]**-Anzahl in diesem Versand auf 0 gesetzt ist.
 
    ![](assets/troubleshooting_4.png)
 
