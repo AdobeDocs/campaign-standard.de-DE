@@ -12,9 +12,9 @@ role: Administrator
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Gehen Sie wie folgt vor, um Regeln in [!DNL Experience Platform Launch] zu erste
 
 1. [Datenelemente erstellen](../../administration/using/configuring-rules-launch.md#create-data-elements)
 2. [Regeln für Anwendungsfälle erstellen](../../administration/using/configuring-rules-launch.md#create-data-elements), die Sie unterstützen möchten:
-   * [PII-Postback](../../administration/using/configuring-rules-launch.md#pii-postback)
+   * [Postback für personenbezogene Daten](../../administration/using/configuring-rules-launch.md#pii-postback)
    * [In-App-Tracking-Postback](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
    * [Tracking-Postback für Push-Benachrichtigungen](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
    * [Standort-Postback](../../administration/using/configuring-rules-launch.md#location-postback)
@@ -70,7 +70,7 @@ So erstellen Sie diese Datenelemente:
 
 Sie müssen Regeln für Folgendes erstellen:
 
-* [PII-Postback](../../administration/using/configuring-rules-launch.md#pii-postback)
+* [Postback für personenbezogene Daten](../../administration/using/configuring-rules-launch.md#pii-postback)
 * [In-App-Tracking-Postback](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
 * [Tracking-Postback für Push-Benachrichtigungen](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
 * [Standort-Postback](../../administration/using/configuring-rules-launch.md#location-postback)
@@ -148,7 +148,7 @@ Ihre Benutzerdaten sind nun konfiguriert und können an Campaign gesendet werden
 
 >[!NOTE]
 >
->Wenn Sie Android ACPCore v1.4.0 oder höher/iOS ACPCore v2.3.0 oder höher verwenden, ist die Konfiguration von Tracking-Postbacks nicht erforderlich.
+>Wenn Sie Android ACPCore v1.4.0 oder höher bzw. iOS ACPCore v2.3.0 oder höher verwenden, ist die Konfiguration von Tracking-Postbacks nicht erforderlich.
 
 Um Tracking-Daten zur Berichtserstellung über die Interaktion Ihrer Benutzer mit In-App-Nachrichten an [!DNL Adobe Campaign Standard] zu senden, erstellen Sie die folgende Regel in [!DNL Experience Platform Launch]:
 
@@ -186,7 +186,7 @@ Um Tracking-Daten zur Berichtserstellung über die Interaktion Ihrer Benutzer mi
 
 >[!NOTE]
 >
->Wenn Sie Android ACPCore v1.4.0 oder höher/iOS ACPCore v2.3.0 oder höher verwenden, ist die Konfiguration von Tracking-Postbacks nicht erforderlich.
+>Wenn Sie Android ACPCore v1.4.0 oder höher bzw. iOS ACPCore v2.3.0 oder höher verwenden, ist die Konfiguration von Tracking-Postbacks nicht erforderlich.
 
 Um Tracking-Daten an [!DNL Adobe Campaign Standard] zu senden, damit Ihre Push-Benachrichtigung und die Benutzerinteraktionen mit Ihrer Mobile App getrackt werden können, müssen Sie eine Regel in [!DNL Experience Platform Launch] erstellen.
 
