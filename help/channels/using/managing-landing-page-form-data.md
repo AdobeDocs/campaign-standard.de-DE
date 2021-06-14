@@ -12,9 +12,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 62%
 
 ## Landingpage über die Dateneigenschaften ändern{#changing-a-landing-page-form-data-properties}
 
-Inhaltsblöcken wie beispielsweise Eingabefeldern, Radiobuttons oder Checkboxes können Datenbankfelder zugeordnet werden. Markieren Sie dazu den Block und greifen Sie in der Palette auf **[!UICONTROL Formulardaten]** zu.
+Inhaltsblöcken wie beispielsweise Eingabefeldern, Radiobuttons oder Checkboxes können Datenbankfelder zugeordnet werden. Wählen Sie dazu den Block aus und rufen Sie die **[!UICONTROL Formulardaten]** in der Palette auf.
 
 ![](assets/delivery_content_9.png)
 
 * Wählen Sie aus der Dropdown-Liste **Feld** das Datenbankfeld aus, das dem Formularfeld zugeordnet werden soll.
 * Wenn die Option **Pflichtfeld** aktiviert ist, kann der Nutzer das Formular nicht absenden, ohne dieses Feld ausgefüllt zu haben. In diesem Fall wird eine Fehlermeldung angezeigt.
 
-## Mapping der Formularfelder       {#mapping-form-fields}
+## Mapping der Formularfelder  {#mapping-form-fields}
 
 Über Eingabefelder können Daten in der Campaign-Datenbank gespeichert bzw. dort aktualisiert werden. Dazu müssen Sie Blöcken wie Eingabe- oder Auswahlfeldern Datenbankfelder zuordnen. Gehen Sie wie folgt vor:
 
@@ -63,11 +63,11 @@ Gehen Sie wie folgt vor:
 1. Definieren Sie das **[!UICONTROL Mapping der Filterparameter]**: In diesem Bereich können Sie eine Beziehung zwischen den Formularfeldern und den im Abstimmschlüssel verwendeten Feldern herstellen.
 1. Wählen Sie eine **[!UICONTROL Aktualisierungsstrategie]**: Wenn der Abstimmschlüssel die Zuordnung eines Besuchers zu einem existierenden Profil der Datenbank ermöglicht, haben Sie die Wahl, das Profil mit den Formulardaten zu aktualisieren oder nicht.
 
-## Kontrollkästchen für Vereinbarungen {#agreement-checkbox}
+## Zustimmungs-Checkbox {#agreement-checkbox}
 
-Sie können ein Kontrollkästchen hinzufügen, das das Profil vor dem Senden der Landingpage prüfen muss.
+Sie können eine Checkbox hinzufügen, die das Profil vor dem Absenden eines Formulars auf der Landingpage markieren muss.
 
-So können Sie beispielsweise die Zustimmung der Benutzer zu Datenschutzrichtlinien einholen oder sie dazu bringen, Ihre Nutzungsbedingungen zu akzeptieren, bevor sie das Formular übermitteln.
+So können Sie beispielsweise die Zustimmung der Benutzer zu Datenschutzrichtlinien einholen oder sie dazu bringen, Ihre Nutzungsbedingungen zu akzeptieren, bevor sie ein Formular absenden.
 
 <!--This is particularly useful in the following case:
 
@@ -79,15 +79,15 @@ To avoid this, Adobe recommends you always add to your landing page a checkbox w
 
 >[!IMPORTANT]
 >
->Die Auswahl dieses Kontrollkästchens ist für Ihre Benutzer obligatorisch. Wenn diese Option nicht ausgewählt ist, kann sie die Landingpage nicht senden.
+>Das Markieren dieser Checkbox ist für Benutzer obligatorisch. Wenn sie nicht markiert wird, können Benutzer kein Formular über die Landingpage absenden.
 
-Gehen Sie wie folgt vor, um dieses Kontrollkästchen einzufügen und zu konfigurieren:
+Gehen Sie wie folgt vor, um eine Checkbox einzufügen und zu konfigurieren:
 
 1. Klicken Sie beim Erstellen der Landingpage auf **[!UICONTROL Quelle anzeigen]**.
 
    ![](assets/lp_show_source.png)
 
-1. Fügen Sie manuell ein Kontrollkästchen ein, wie im folgenden Beispiel:
+1. Fügen Sie wie im folgenden Beispiel gezeigt manuell eine Checkbox ein:
 
    ![](assets/lp_checkbox_code.png)
 
@@ -95,32 +95,32 @@ Gehen Sie wie folgt vor, um dieses Kontrollkästchen einzufügen und zu konfigur
    <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="You must agree with the terms and conditions before proceeding" />I agree with the terms and conditions</div>
    -->
 
-1. Klicken Sie auf **[!UICONTROL Quelle ausblenden]**.
+1. Klicken Sie auf **[!UICONTROL Quelle schließen]**.
 
-1. Das neue Kontrollkästchen wird angezeigt. Wählen Sie es aus.
+1. Die neue Checkbox wird angezeigt. Wählen Sie sie aus.
 
    ![](assets/lp_select_checkbox.png)
 
-1. Die entsprechende Dropdown-Liste wird im Abschnitt **[!UICONTROL Formulardaten]** der Palette angezeigt. Wählen Sie **[!UICONTROL Agreement]** aus der Liste aus.
+1. Die entsprechende Dropdown-Liste wird im Abschnitt **[!UICONTROL Formulardaten]** der Palette angezeigt. Wählen Sie **[!UICONTROL Zustimmung]** aus der Liste aus.
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >Das Element **[!UICONTROL Agreement]** wird keinem Feld der Campaign-Datenbank zugeordnet.
+   >Das Element **[!UICONTROL Zustimmung]** ist keinem Feld der Campaign-Datenbank zugeordnet.
 
-1. Klicken Sie auf das Symbol ![](assets/lp-properties-icon.png) neben **[!UICONTROL Formulardaten]**, um auf die erweiterten Eigenschaften des Kontrollkästchens zuzugreifen.
+1. Klicken Sie auf das Symbol ![](assets/lp-properties-icon.png) neben **[!UICONTROL Formulardaten]**, um auf die erweiterten Eigenschaften der Checkbox zuzugreifen.
 
 1. Sie können die Nachricht bei Bedarf bearbeiten.
 
    ![](assets/lp_agreement_message.png)
 
-   Dieser Text wird als Warnhinweis angezeigt, wenn der Benutzer das Kontrollkästchen vor dem Senden des Formulars nicht aktiviert hat.
+   Dieser Text wird als Warnhinweis angezeigt, wenn der Benutzer die Checkbox vor dem Absenden des Formulars nicht markiert hat.
 
    >[!NOTE]
    >
    >Diese Aktion ist standardmäßig obligatorisch und kann nicht geändert werden.
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
-Jetzt muss der Benutzer jedes Mal, wenn die Landingpage angezeigt wird, dieses Kontrollkästchen aktivieren, bevor er das Formular sendet. Andernfalls wird die Warnung angezeigt und der Benutzer kann das Formular erst senden, wenn das Kontrollkästchen aktiviert wurde.
+Jetzt müssen Benutzer immer vor dem Absenden des Formulars auf der Landingpage diese Checkbox markieren. Andernfalls wird ein Warnhinweis angezeigt und der Benutzer kann das Formular erst absenden, nachdem die Checkbox markiert wurde.
