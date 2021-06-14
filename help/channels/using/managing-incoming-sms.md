@@ -12,9 +12,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,13 +61,13 @@ Gehen Sie dabei folgendermaßen vor:
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Unter **[!UICONTROL Erweiterte Parameter]** Ihres SMS-Versands **[!UICONTROL Eigenschaften]** können Sie einen bestimmten **[!UICONTROL Kurzwahlnummer]** festlegen, um automatisch Empfänger auszuschließen, die sich abgemeldet haben. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+1. Unter **[!UICONTROL Erweiterte Parameter]** Ihrer SMS-Versand-**[!UICONTROL Eigenschaften]** können Sie eine bestimmte **[!UICONTROL Kurzwahlnummer]** festlegen, um automatisch Empfänger auszuschließen, die sich per Opt-out abgemeldet haben. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
 Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt Ihrer Nachrichten abgemeldet und unter Quarantäne gestellt. Die unter Quarantäne gestellten Empfänger sind in der Tabelle **[!UICONTROL Adressen]** aufgeführt, die über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Quarantänen]** abrufbar ist. Weiterführende Informationen zu Quarantänen finden Sie in diesem [Abschnitt](../../sending/using/understanding-quarantine-management.md).
 
 Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#storing-incoming-sms).
 
-## Eingehende SMS speichern        {#storing-incoming-sms}
+## Eingehende SMS speichern  {#storing-incoming-sms}
 
 Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit &quot;STOPP&quot; auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
 
