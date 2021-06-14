@@ -7,7 +7,7 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 title: Campaign Standard – Handbuch
 breadcrumb-title: Hilfe
 source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1785'
 ht-degree: 100%
 
