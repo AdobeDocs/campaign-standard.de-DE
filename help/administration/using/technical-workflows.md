@@ -11,9 +11,9 @@ role: Administrator
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
   <tr> 
    <td> <span class="uicontrol">Trackinglogs wiederherstellen</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Dieser Workflow stellt verlorene Trackinglogs wieder her. Beachten Sie, dass dieser technische Workflow in bestimmten Kontexten verwendet wird und sich nur auf die interne Verwendung durch die Adobe beschränkt. <br> Er wird standardmäßig alle zehn Minuten gestartet.<br /> </td> 
+   <td> Dieser Workflow stellt verlorene Trackinglogs wieder her. Beachten Sie, dass dieser technische Workflow nur in bestimmten Kontexten verwendet wird und auf die interne Verwendung durch Adobe beschränkt ist. <br> Er wird standardmäßig alle zehn Minuten gestartet.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Aktualisierung der Versandindikatoren</span> <br /> </td> 
