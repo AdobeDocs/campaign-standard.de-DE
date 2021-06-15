@@ -12,98 +12,98 @@ level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 98%
 
 ---
 
 
 # Aktuelle Version{#latest-release}
 
-## Version 21.2 - Juni 2021            {#release-21-2---june-2021}
+## Version 21.2 – Juni 2021 {#release-21-2---june-2021}
 
-Nachfolgend finden Sie die neuen Funktionen, Verbesserungen und Fehlerbehebungen der nächsten Campaign Standard-Version. Die in dieser Campaign Standard-Version enthaltenen neuen Funktionen, Verbesserungen und Fehlerbehebungen sind unten aufgeführt.
+Nachfolgend finden Sie die neuen Funktionen, Verbesserungen und Fehlerbehebungen der nächsten Campaign Standard-Version. Im Folgenden finden Sie die in dieser Campaign Standard-Version enthaltenen neuen Funktionen, Verbesserungen und Fehlerbehebungen.
 
 **Verbesserungen**
 
-* Beim Erstellen einer Landingpage können Sie jetzt ein obligatorisches Kontrollkästchen hinzufügen, das Profile vor dem Senden des Formulars auswählen müssen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+* Beim Erstellen einer Landingpage können Sie jetzt eine obligatorische Checkbox hinzufügen, die die Profile vor dem Absenden des Formulars markieren müssen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
 
-* Für die Trigger-Integration wurde die Fehlermeldung, die angezeigt wird, wenn in der Trigger-Payload keine Abstimmdaten eingehen, verbessert: &quot;Alias data missing in payload&quot;.
+* Für die Integration von Triggers wurde die Fehlermeldung verbessert, die angezeigt wird, wenn in der Trigger-Payload keine Abstimmdaten eingehen: &quot;In der Payload fehlen Alias-Daten&quot;.
 
 * Die Leistung beim Abrufen von Push-Benachrichtigungen aus der Warteschlange wurde verbessert.
 
 **Sonstige Änderungen**
 
-* Der URL-Signaturmechanismus für Tracking-Links wurde deaktiviert, um zu verhindern, dass einige gültige, signierte Tracking-Links nach der Änderung durch Sicherheitswerkzeuge von Drittanbietern fälschlicherweise blockiert wurden.
+* Der URL-Signaturmechanismus für Tracking-Links wurde deaktiviert, um zu verhindern, dass einige gültige, signierte Tracking-Links nach der Änderung durch Sicherheits-Tools von Drittanbietern fälschlicherweise blockiert werden.
 
 * In Sendungen mit mehreren Varianten können Benutzer keine Sprachkopien mehr erstellen, wenn die Standardvariante gelöscht wurde. Bei der Erstellung einer Sprachkopie wird nun eine Meldung angezeigt. (CAMP-48235)
 
-* Der zweistufige Prozess zum Löschen von Profilen (veraltet ab Campaign-Version 19.4) ist jetzt standardmäßig deaktiviert. Zuvor musste sie vor der Verwendung des Privacy Core Service manuell über die Campaign-Benutzeroberfläche deaktiviert werden. Andernfalls verbleiben Löschanfragen im Status &quot;Ausstehend&quot;, ohne abgeschlossen zu sein.
+* Der zweistufige Prozess zum Löschen von Profilen (eingestellt ab Campaign-Version 19.4) ist jetzt standardmäßig deaktiviert. Zuvor musste der Prozess vor der Verwendung von Privacy Core Service manuell über die Campaign-Benutzeroberfläche deaktiviert werden. Andernfalls verblieben Löschanfragen im Status &quot;Ausstehend&quot;, ohne abgeschlossen zu werden.
 
 * In dynamischen Berichten wurde das Segment **Testversand ausschließen** entfernt. (CAMP-46161)
 
-* Es wurde eine neue Warnmeldung hinzugefügt, die den Benutzer darüber informiert, wenn ein iOS-Zertifikat ohne den Wert &quot;platformPrincipal&quot;in die Campaign-Anwendung hochgeladen wird.
+* Es wurde eine neue Warnmeldung hinzugefügt, die den Benutzer darüber informiert, wenn ein iOS-Zertifikat ohne den Wert &quot;platformPrincipal&quot; in das Campaign-Programm hochgeladen wird.
 
-* Die maximale Größe einer E-Mail ist jetzt standardmäßig auf 100 MB festgelegt. Mit dieser Begrenzung können Fehler verhindert werden, die die Größe einer E-Mail auf unbestimmte Zeit erhöhen könnten und zu einem Systemabsturz führen können. (CAMP-47445) [Mehr dazu](../../sending/using/design-and-personalize.md#email-size)
+* Die maximale Größe einer E-Mail ist jetzt standardmäßig mit 100 MB festgelegt. Mit dieser Begrenzung können Fehler verhindert werden, durch die die Größe einer E-Mail unbegrenzt erhöht werden kann, was zu einem Systemabsturz führen könnte. (CAMP-47445) [Mehr dazu](../../sending/using/design-and-personalize.md#email-size)
 
-* Die Asset Core Service-Integration mit Email Designer kann jetzt von Standardbenutzern verwendet werden.
+* Die Integration von Asset Core Service mit Email Designer kann jetzt von Standardbenutzern verwendet werden.
 
-* Es wurde eine neue Meldung hinzugefügt, die bestätigt, dass die Migration von einer v4-Push-Anwendung zu einer v5-Push-Anwendung erfolgreich war.
+* Es wurde eine neue Meldung hinzugefügt, die bestätigt, dass die Migration von einer v4-Push-Benachrichtigungs-App zu einer v5-Push-Benachrichtigungs-App erfolgreich war.
 
-* Während der Erstellung von JSONWeb-Token zur Authentifizierung bei der Campaign Standard-API werden die Produktprofile jetzt **als** eingestuft. Das bedeutet, dass die der Sicherheitsgruppe zugewiesenen Organisationseinheiten und Rollen (die dem Produktprofil in Adobe I/O entsprechen) auf das für Campaign Standard Rest-API-Aufrufe erforderliche IMS-technische Konto angewendet werden. (CAMP-47479)
+* Während der Erstellung von JSON Web Token zur Authentifizierung bei der Campaign Standard-API werden die Produktprofile jetzt **berücksichtigt**. Das bedeutet, dass die der Sicherheitsgruppe (die dem Produktprofil in Adobe I/O entspricht) zugewiesenen Organisationseinheiten und -rollen auf das für Campaign Standard REST-API-Aufrufe erforderliche technische IMS-Konto angewendet werden. (CAMP-47479)
 
 **Korrekturen**
 
-* Fehlerkorrektur - Die Ablauffunktion für die Stapelverarbeitungsprotokolltabelle (**xtkjoblog**) wird jetzt angewendet. Dadurch konnte die Tabelle nicht korrekt bereinigt werden.
+* Fehlerkorrektur – Die Gültigkeitsoption für die Protokolltabelle (**xtkjoblog**) der Batch-Verarbeitung kann jetzt angewendet werden. Zuvor konnte die Tabelle nicht korrekt bereinigt werden.
 
-* Fehlerkorrektur - Die Reihenfolge von Filtern in einer **Segmentierung** -Workflow-Aktivität kann jetzt geändert werden. (CAMP-48357)
+* Fehlerkorrektur – Die Reihenfolge der Filter in einer **Segmentierungs**-Workflow-Aktivität kann jetzt geändert werden. (CAMP-48357)
 
-* Fehlerkorrektur - Es wurde eine Regression von 20.4 behoben, die dazu führte, dass Sendungen mit einem Nullwertfehler fehlschlugen. (CAMP-48591)
+* Fehlerkorrektur – Sendungen schlagen nicht mehr mit einem Nullwertfehler fehl, da eine Regression von 20.4 behoben wurde. (CAMP-48591)
 
-* Es wurde ein Problem behoben, das das Senden eines Berichts über das Menü **Freigeben** > **Bericht jetzt senden** oder **Bericht planmäßig senden** verhindert hat. (CAMP-47798)
+* Fehlerkorrektur – Das Senden eines Berichts über das Menü **Freigeben** > **Bericht jetzt senden** oder **Bericht planmäßig senden** ist jetzt möglich. (CAMP-47798)
 
-* Fehlerkorrektur - Es wurde eine Regression behoben, die aufgrund der Filterung von Tracking-Ereignissen, die von Gmail-Konten empfangen wurden, zu falschen Öffnungsraten für Gmail führen konnte. (CAMP-46504)
+* Fehlerkorrektur – Eine Regression wurde korrigiert, die zu falschen Öffnungsraten für Gmail geführt hatte, da von Gmail-Konten empfangene Tracking-Events gefiltert wurden. (CAMP-46504)
 
-* Verschiedene Probleme wurden behoben, die zu Datendiskrepanzen zwischen Berichten in Adobe Campaign Standard und Berichten in Adobe Analytics führten. (CAMP-47671, CAMP-47296)
+* Fehlerkorrektur – Zwischen Berichten in Adobe Campaign Standard und Berichten in Adobe Analytics gibt es jetzt keine Diskrepanzen mehr. (CAMP-47671, CAMP-47296)
 
-* Fehlerkorrektur - jetzt können Sie auf die Versandlogs zugreifen, nachdem die Vorbereitung fehlgeschlagen ist. (CAMP-48296)
+* Fehlerkorrektur – Der Zugriff auf die Versandlogs ist jetzt auch möglich, wenn die Vorbereitung fehlgeschlagen ist. (CAMP-48296)
 
-* Fehlerkorrektur - jetzt wird keine Fehlermeldung mehr angezeigt, wenn ein benutzerdefinierter Bericht bearbeitet, gelöscht oder gesendet wird. (CAMP-47789, CAMP-47798)
+* Fehlerkorrektur – Beim Versuch, einen benutzerdefinierten Bericht zu bearbeiten, zu löschen oder zu senden, wird keine Fehlermeldung mehr angezeigt. (CAMP-47789, CAMP-47798)
 
-* Es wurde ein Fehler behoben, der dazu führte, dass die API-Aufrufe beim Erstellen einer neuen benutzerdefinierten Ressource und Aktivieren der Option **Nicht synchronisieren** fehlschlugen. (CAMP-48014)
+* Fehlerkorrektur – Die API-Aufrufe beim Erstellen einer neuen benutzerdefinierten Ressource und beim Aktivieren der Option **Nicht synchronisieren** funktionieren jetzt fehlerfrei. (CAMP-48014)
 
-* Es wurde ein Problem behoben, bei dem benutzerdefinierte Ressourcen mit aktivierter Option **Nicht synchronisieren** auf ein Schema verweisen konnten, das neu entworfen oder gelöscht wurde. Dieses Problem verursachte einen Fehler beim Veröffentlichen der benutzerdefinierten Ressourcen.
+* Fehlerkorrektur – Benutzerdefinierte Ressourcen mit der aktivierten Option **Nicht synchronisieren** verweisen nicht mehr auf ein Schema, das neu entworfen oder gelöscht wurde. Dieses Problem verursachte einen Fehler beim Veröffentlichen der benutzerdefinierten Ressourcen.
 
-* Fehlerkorrektur - Es wurde ein SMS-Abmeldefehler bei der Verwendung mehrerer Kurzwahlnummern in demselben externen Konto behoben.
+* Fehlerkorrektur – Bei der Verwendung mehrerer Kurzwahlnummern im selben externen Konto tritt kein SMS-Opt-out-Fehler mehr auf.
 
-* Fehlerkorrektur - Nach der Publikation der Datenbank können Sie jetzt auf eine neue Versandwarnungsbedingung (&quot;Die Ressource, auf die Sie zugreifen möchten, ist nicht erreichbar&quot;) zugreifen. (CAMP-48221)
+* Fehlerkorrektur – Der Zugriff auf eine neue Versandwarnungsbedingung ist jetzt nach der Veröffentlichung der Datenbank möglich. Zuvor wurde die Nachricht &quot;Die Ressource, auf die Sie zuzugreifen versuchen, ist nicht erreichbar&quot; angezeigt. (CAMP-48221)
 
-* Fehlerkorrektur - Trackinglogs fehlen jetzt in einigen Campaign-Instanzen in dynamischen Berichten. Es wurde ein neuer [technischer Workflow](../../administration/using/technical-workflows.md) hinzugefügt, um diese Trackinglogs wiederherzustellen. (CAMP-47885)
+* Fehlerkorrektur – In Campaign-Instanzen mit dynamischem Reporting sind jetzt alle Trackinglogs vorhanden. Es wurde ein neuer [technischer Workflow](../../administration/using/technical-workflows.md) hinzugefügt, um die fehlenden Trackinglogs bereitzustellen. (CAMP-47885)
 
-* Fehlerkorrektur - In dynamischen Berichten werden jetzt keine Versanddaten mehr angezeigt. Berichte wurden auf 0 gesetzt. (CAMP-47480)
+* Fehlerkorrektur – In dynamischen Berichten werden Versanddaten jetzt angezeigt. Berichte wurden auf 0 gesetzt. (CAMP-47480)
 
-* Fehlerkorrektur - Der JavaScript-HTTP-Client des Servers kann jetzt eine Verbindung zu einer externen URL herstellen.
+* Fehlerkorrektur – Der Server-JavaScript-HTTP-Client kann sich jetzt mit einer externen URL verbinden.
 
-* Fehlerkorrektur - Die Aktivität **Inkrementelle Abfrage** wird jetzt nicht mehr zurückgesetzt, nachdem der interne Name des Workflows geändert wurde. Dies trat auf, wenn ein Datumsfeld als inkrementeller Modus verwendet wurde. (CAMP-47674)
+* Fehlerkorrektur – Wenn der interne Name des Workflows geändert wird, wird die Aktivität **Inkrementelle Abfrage** nicht mehr zurückgesetzt. Dies trat auf, wenn ein Datumsfeld als inkrementeller Modus verwendet wurde. (CAMP-47674)
 
-* Fehlerkorrektur - Die Miniaturansicht der Vorschau wird jetzt in der Versandzusammenfassung angezeigt, wenn eine mehrsprachige E-Mail mit der Adobe Experience Manager-Integration erstellt wird. Dieses Problem trat auf, wenn die Schaltfläche **Erstellung einer Sprachkopie** verwendet wurde, um die E-Mail-Varianten zu erstellen. (CAMP-47810)
+* Fehlerkorrektur – Wenn eine mehrsprachige E-Mail mit der Adobe Experience Manager-Integration erstellt wird, wird jetzt die Vorschau-Miniaturansicht in der Versandzusammenfassung angezeigt. Zuvor trat ein Problem, wenn die Schaltfläche **Erstellung von Sprachkopien** verwendet wurde, um die E-Mail-Varianten zu erstellen. (CAMP-47810)
 
-* Fehlerkorrektur - Benutzer können jetzt über den untergeordneten E-Mail- oder SMS-Versand auf den übergeordneten Versand zugreifen. (CAMP-47986)
+* Fehlerkorrektur – Benutzer können jetzt vom untergeordneten E-Mail- oder SMS-Versand aus auf den übergeordneten Versand zugreifen. (CAMP-47986)
 
-* Fehlerkorrektur - Beim Senden von Transaktionsnachrichten über die REST-API mit fehlendem benutzerdefiniertem Ereignis kommt es nicht mehr zu übermäßiger CPU- und Speicherbelegung. (CAMP-47147)
+* Fehlerkorrektur – Beim Senden von Transaktionsnachrichten über die REST-API mit einem fehlenden benutzerdefinierten Ereignis werden CPU und Speicher nicht mehr übermäßig belastet. (CAMP-47147)
 
-* Fehlerkorrektur - in der Transaktionsnachrichten-API wird der Versand von Echtzeit-Nachrichten jetzt nicht mehr verhindert.
+* Fehlerkorrektur – Das Senden von Echtzeitnachrichten mit der Transaktionsnachricht-API funktioniert jetzt reibungslos.
 
-* Es wurde ein Problem behoben, bei dem Berichte nach Verwendung der Option **Bericht nach Zeitplan senden** nicht empfangen wurden. (CAMP-48583, CAMP-47786)
+* Fehlerkorrektur – Nach Verwendung der Option **Bericht planmäßig senden** werden Berichte jetzt in jedem Fall empfangen. (CAMP-48583, CAMP-47786)
 
-* Es wurde ein Problem behoben, bei dem Berichte, die nach Verwendung der Option **Bericht jetzt senden** empfangen wurden, unvollständig waren und Daten fehlten. (CAMP-48583)
+* Fehlerkorrektur – Nach Verwendung der Option **Bericht jetzt senden** werden Berichte jetzt vollständig und alle Daten enthaltend empfangen. (CAMP-48583)
 
-* Fehlerkorrektur - In Email Designer werden die Bildabmessungen beim Hochladen eines Bildes jetzt nicht mehr eingeschränkt. (CAMP-47017)
+* Fehlerkorrektur – Beim Hochladen eines Bildes mit Email Designer behalten Bilder ihre ursprünglichen Abmessungen. (CAMP-47017)
 
-* Fehlerkorrektur - jetzt werden alle verfügbaren Experience Manager-Vorlagen angezeigt, wenn ein Versand erstellt wird. (CAMP-48132)
+* Fehlerkorrektur – Jetzt werden alle verfügbaren Experience Manager-Vorlagen angezeigt, wenn ein Versand erstellt wird. (CAMP-48132)
 
-* Fehlerkorrektur - der Kampagnen-Link auf der Zusammenfassungsseite eines gesendeten Versands leitet Benutzer nun zur entsprechenden Kampagne weiter. (CAMP-48012)
+* Fehlerkorrektur – Der Campaign-Link auf der Zusammenfassungsseite eines durchgeführten Versands leitet die Benutzer jetzt zuverlässig zu der zugehörigen Kampagne weiter. (CAMP-48012)
 
-* Es wurde ein Problem in Email Designer behoben, bei dem die Asset-Core-Service-Integration beim Versuch, ein Asset auszuwählen, weiterhin fehlschlug. (CAMP-47446)
+* Fehlerkorrektur – In Email Designer funktioniert jetzt die Integration von Asset Core Service, wenn ein Asset ausgewählt wird. (CAMP-47446)
 
-* Fehlerkorrektur - Es wurde ein Fehler behoben, der manche Sendungen von Journey Orchestrationen blockiert hat, da Campaign keine Zeitstempel mit einem exakten Wert (d. h. mit 00 enden) unterstützt, die von Ereignissen aus Journey Orchestration gesendet werden.
+* Fehlerkorrektur – Journey Orchestration-Sendungen werden jetzt nicht mehr blockiert. Zuvor unterstützte Campaign keine Zeitstempel mit einem exakten Wert (d. h. endend auf 00), die von Ereignissen in Journey Orchestration gesendet wurden.
