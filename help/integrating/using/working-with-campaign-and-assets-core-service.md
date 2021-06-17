@@ -13,7 +13,7 @@ exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -23,9 +23,9 @@ Die Integration von Assets Core Service bzw. Assets On Demand (je nach Konfigura
 
 >[!CAUTION]
 >
-> Die Integration mit Assets Core Service ist auf [Funktionale Administratoren](../../administration/using/users-management.md#functional-administrators) beschränkt.
+> Die Integration mit Assets Core Service ist auf [funktionale Administratoren](../../administration/using/users-management.md#functional-administrators) beschränkt.
 
-Freigegebene Ressourcen von Adobe Experience Cloud können wie folgt in E-Mails und Landingpages verwendet werden:
+Freigegebene Ressourcen von Adobe Experience Cloud können in E-Mails und Landingpages wie nachfolgend beschrieben eingesetzt werden:
 
 1. Markieren Sie im Inhaltseditor einer E-Mail oder einer Landingpage einen Bild-Block und wählen Sie über das Kontextmenü die Option **[!UICONTROL Freigegebenes Bild aus Adobe Experience Cloud]** aus.
 
