@@ -13,7 +13,7 @@ exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
-   <td> Dient bei der Öffnung einer mit Adobe Campaign erstellten und gesendeten E-Mail dem Einfügen von durch Adobe Target dynamisch berechneten Bildern.<br /> </td> 
+   <td> Ermöglicht Ihnen, durch Adobe Target dynamisch berechnete Bilder einzufügen, wenn eine mit Adobe Campaign erstellte und gesendete E-Mail geöffnet wird.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-target-integration.md">Verwenden von Campaign und Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrieren von Campaign und Target</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">E-Mail-Bilder in Echtzeit personalisieren</a> Video (Schritt 3)
     </td> 
@@ -79,7 +79,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Erste Schritte mit Quellen und Zielen</a></td>
   </tr> 
   <tr> 
-   <td> Adobe Asset Core Service und Assets On Demand<br /> </td> 
+   <td> Adobe Assets Core Service und Assets On Demand<br /> </td> 
    <td> Dient dem Einfügen von Assets aus Ihrer Adobe-Experience-Cloud-Bibliothek in mit Adobe Campaign erstellte E-Mails und Landingpages.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets Core Service</a> oder Assets On Demand<br /> </td> 
   </tr> 
@@ -97,8 +97,8 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
   </tr> 
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
-   <td> Ermöglicht den Versand von E-Mails, Push-Benachrichtigungen und SMS mithilfe der Transaktionsnachrichten-Funktionen von Adobe Campaign Standard im Kontext der Adobe-Journey Orchestration durch eine vordefinierte Aktion.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">Arbeiten mit Adobe Journey Orchestration und Adobe Campaign Standard</a><br /> </td> 
+   <td> Ermöglicht den Versand von E-Mails, Push-Benachrichtigungen und SMS unter Verwendung der Transaktionsnachrichten-Funktionen von Adobe Campaign Standard im Kontext von Adobe Journey Orchestration durch eine vorkonfigurierte Aktion.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=de">Arbeiten mit Adobe Journey Orchestration und Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
@@ -108,7 +108,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
   </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Platform SDKs<br /> </td> 
+   <td> Adobe Experience Platform-SDKs<br /> </td> 
    <td> Mithilfe der Experience Platform SDKs kann eine Mobile-App-Eigenschaft automatisch in Adobe Campaign aktiviert werden.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">Konfiguration einer Mobile App mithilfe von Experience Platform SDKs</a><br /> </td> 
   </tr> 
