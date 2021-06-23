@@ -11,7 +11,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Mehr dazu:
 * [Zugriff auf Nachrichten](../../channels/using/accessing-messages.md)
 * [Nachrichten-Dashboards](../../channels/using/message-dashboard.md)
 * [Vorlagen für mehrsprachige Nachrichten](../../channels/using/multilingual-messages-template.md)
-* [Vorlagen für Marketingaktivitäten](../../start/using/marketing-activity-templates.md)
+* [Vorlagen für Marketing-Aktivitäten](../../start/using/marketing-activity-templates.md)
 
 ## Kommunikationskanäle{#available-communication-channels}
 
@@ -78,7 +78,7 @@ Mehr dazu:
 * [Transaktionsereignis konfigurieren](../../channels/using/configuring-transactional-event.md)
 * [Transaktionsereignis veröffentlichen](../../channels/using/publishing-transactional-event.md)
 * [Transaktionsnachricht bearbeiten](../../channels/using/editing-transactional-message.md)
-* [Transaktionsnachricht veröffentlichen  ](../../channels/using/publishing-transactional-message.md)
+* [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md)
 * [Transaktions-Push-Benachrichtigung](../../channels/using/transactional-push-notifications.md)
 * [Folgenachrichten](../../channels/using/follow-up-messages.md)
 
@@ -92,7 +92,7 @@ Darüber hinaus können Sie über Landingpages **vorhandene Profile erwerben ode
 
 Mehr dazu:
 
-* [Erste Schritte mit Landing Pages](../../channels/using/getting-started-with-landing-pages.md)
+* [Erste Schritte mit Landingpages](../../channels/using/getting-started-with-landing-pages.md)
 * [Landingpage-Vorlagen](../../channels/using/landing-page-templates.md)
 * [Verwalten von Landingpage-Formulardaten](../../channels/using/managing-landing-page-form-data.md)
 * [Anmeldung mit zweifacher Bestätigung einrichten](../../channels/using/setting-up-a-double-opt-in-process.md)
@@ -104,5 +104,5 @@ Mehr dazu:
 * [E-Mail-Inhalte gestalten](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEM-Inhalte importieren](../../integrating/using/creating-email-experience-manager.md)
 * [Nachrichten mit Workflows senden](../../automating/using/about-channel-activities.md)
-* [Video-Tutorials zu Kommunikationskanälen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=de)
+* [Anleitungsvideo zu Kommunikationskanälen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=de)
 * [Anwendungsfall: kanalübergreifenden Versand erstellen](../../automating/using/workflow-cross-channel-delivery.md)
