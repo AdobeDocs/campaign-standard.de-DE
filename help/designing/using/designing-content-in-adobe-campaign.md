@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email De
 
 **Fragmente**: Ein Fragment ist eine Komponente, die Sie in mehreren E-Mails wiederverwenden können.
 
-**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können..
+**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können.
 
 **Inhaltskomponenten**: Inhaltskomponenten sind rohe, noch leere Komponenten, die Sie in E-Mails einfügen und dort bearbeiten können.
 
@@ -145,7 +145,7 @@ Beachten Sie bei Fragmenten Folgendes:
 
 * Wenn Fragmente in E-Mails aktualisiert werden, die bereits vorbereitet wurden, wirkt sich dies nicht auf diese E-Mails aus.
 
-## Einschränkungen in Email Designer           {#email-designer-limitations}
+## Einschränkungen in Email Designer            {#email-designer-limitations}
 
 * Personalisierungsfelder können nicht in einem Fragment verwendet werden. Weiterführende Informationen zu Fragmenten finden Sie in [diesem Abschnitt](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -169,4 +169,4 @@ In diesem Video erhalten Sie einen Überblick über Email Designer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-In diesen [Videos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können
+In diesen [Videos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=de#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können
