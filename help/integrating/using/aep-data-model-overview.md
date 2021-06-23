@@ -11,9 +11,9 @@ role: Data Architect
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Der XDM-Arbeitsbereich bietet die Möglichkeit, Datenschemata anzuzeigen, zu ers
 
 Um auf die XDM-Benutzeroberfläche zuzugreifen, öffnen Sie Adobe Experience Platform. Navigieren Sie zum Fenster „Datenmodell“, um ein XDM-Schema zu erstellen oder zu erweitern.
 
-Lesen Sie die vollständige [Dokumentation zum XDM-Arbeitsbereich](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Lesen Sie die vollständige [Dokumentation zum XDM-Arbeitsbereich](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ Sie können die folgenden Aktionen über die XDM-Schema-API ausführen:
 * Schema-Deskriptoren anzeigen
 * Schema-Deskriptoren erstellen, aktualisieren und löschen
 
-Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
