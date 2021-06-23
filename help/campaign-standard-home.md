@@ -8,10 +8,10 @@ feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-* **[Integration zwischen Campaign und RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Erfahren Sie, wie Sie Daten zwischen Campaign und der Adobe Echtzeit-Kundendatenplattform (RTCDP) austauschen können.
+* **[Apple Mail Privacy Protection - ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> FAQsErste Anleitungen als Reaktion auf Apple-Ankündigung zu iOS 15
 
-* **[Aktualisieren falscher Hardbounces](https://helpx.adobe.com/de/campaign/kb/update-bounce-qualification.html)**<br/> Erfahren Sie, wie Sie falsche Hardbounces nach einem E-Mail-Ausfall aktualisieren können.
+* **[Integration zwischen Campaign und RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Erfahren Sie, wie Sie Daten zwischen Campaign und der Adobe Echtzeit-Kundendatenplattform (RTCDP) austauschen können.
 
 * **[Kontrollgruppen](sending/using/control-group.md)**<br/> Messen Sie die Wirkung Ihrer Kampagnen, indem Sie einen Teil ihrer Audience ausschließen.
 
