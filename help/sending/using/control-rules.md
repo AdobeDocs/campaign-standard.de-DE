@@ -6,13 +6,12 @@ description: Hier erfahren Sie, wie Sie mithilfe von Kontrollregeln die Qualitä
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Typologieregeln
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ Mit Kontrollregeln können Sie die Gültigkeit und Qualität der Nachrichten vor
 Ein Satz von Standardregeln stellt die Standardkontrollen sicher. Die nachstehende Tabelle enthält Informationen zu diesen Regeln sowie zu deren Kanal und [Ausführungsphasen](#control-rules-execution-phases).
 
 | Titel | Kanal | Ausführungsphase | Beschreibung |
----------|----------|---------|---------
+|---------|----------|---------|---------
 | **[!UICONTROL A/B-Test]** | E-Mail | Zu Beginn der Personalisierung | Extrahiert die Testpopulation für einen Versand mit A/B-Test. |
 | **[!UICONTROL Prüfung der Versandgröße]** | Alle | Nach der Zielgruppenbestimmung | Überprüft die Größe der Nachrichten. |
 | **[!UICONTROL Prüfen, dass der E-Mail-Inhalt nicht leer ist]** | E-Mail | Nach der Zielgruppenbestimmung | Erzeugt einen Fehler, wenn der Inhalt der Nachricht leer ist. |
