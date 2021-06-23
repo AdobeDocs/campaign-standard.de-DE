@@ -11,9 +11,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Das Adobe-Team benötigt die folgenden Informationen, um Triggers zu aktivieren:
 * Kennung der IMS-Organisation
 * Analytics-Unternehmensanmeldung (kann identisch mit dem Experience Cloud-Unternehmensnamen sein)
 
-## Lösungen und Dienste konfigurieren      {#configuring-solutions-and-services}
+## Lösungen und Dienste konfigurieren       {#configuring-solutions-and-services}
 
 Damit Sie diese Funktion verwenden können, benötigen Sie Zugriff auf folgende Lösungen/Core Services:
 
@@ -97,7 +97,7 @@ Ein Adobe Experience Cloud-Trigger muss erst erstellt werden, damit er in Campai
 
 Erstellen Sie einen neuen Trigger in Experience Cloud und wählen Sie dabei die auf Ihrer Website verwendete Report Suite aus. Wählen Sie die richtige Dimension aus, damit der Trigger ausgelöst wird.
 
-Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) und in diesem [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two).
+Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=de) und in diesem [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Best Practices und Einschränkungen bei der Verwendung von Triggers {#triggers-best-practices-and-limitations}
 
