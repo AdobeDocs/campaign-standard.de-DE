@@ -4,15 +4,14 @@ description: Erfahren Sie, wie Sie die Campaign-Dynamics-Integrationsanwendung k
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '811'
-ht-degree: 100%
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +33,7 @@ Die Microsoft Dynamics 365-Zugangsdaten geben der Integrationsanwendung die Bere
 
 * **[!UICONTROL Mandant]**: In [diesem Abschnitt ](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id) erfahren Sie, wie Sie Ihre Mandantenkennung finden.
 
-* **[!UICONTROL URL]**: Die URL hat das Format https://&lt;Server-Name>.api.crm.dynamik.com/
+* **[!UICONTROL URL]**: Die URL hat das Format  `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### Adobe-API-Zugangsdaten
 
