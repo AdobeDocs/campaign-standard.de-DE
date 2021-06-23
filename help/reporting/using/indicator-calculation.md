@@ -11,9 +11,9 @@ role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikatoren, die in Berichten verwendet werden, sowie ihre Berechnungsformeln.
 
-## E-Mail-Versand            {#email-delivery}
+## E-Mail-Versand             {#email-delivery}
 
 <table> 
  <thead> 
@@ -190,7 +190,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
+   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=de#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -270,7 +270,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelöffnungen<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
+   <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=de#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressionen<br /> </td> 
@@ -290,7 +290,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> Einzelklicks<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
+   <td> Einzelklicks werden anhand von ThetaSketch-Konzepten berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=de#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Durchklickrate<br /> </td> 
