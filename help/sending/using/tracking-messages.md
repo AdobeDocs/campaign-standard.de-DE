@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Tracking-Informationen sind für jeden Kontakt in Ihrer Datenbank in **[!UICONTR
 Adobe Campaign verwendet zwei Arten von Cookies:
 
 * Sitzungs-Cookie (nlid). Er enthält die Kennung der an den Kontakt gesendeten E-Mail (broadlogId) und die Kennung der Nachrichtenvorlage (deliveryId). Er wird gesetzt, sobald der Kontakt eine in einer mit Adobe Campaign gesendeten E-Mail enthaltene URL anklickt, und ermöglicht, das Webverhalten des Kontakts zu verfolgen. Dieses Sitzungs-Cookie wird automatisch beim Schließen des Browsers gelöscht. Der Kontakt hat die Möglichkeit, das Setzen des Cookies zu verbieten, indem er seine Browser-Einstellungen dementsprechend ändert.
-* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Experience Cloud-Lösungen bei Website-Besuchen interagiert. Dieses Cookie wird [hier](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html) beschrieben.
+* Von verschiedenen Lösungen in Adobe Experience Cloud gemeinsam genutzter Cookie. Er ermöglicht die Identifizierung eines Internetbenutzers, der mit Experience Cloud-Lösungen bei Website-Besuchen interagiert. Dieses Cookie wird [hier](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=de) beschrieben.
 
 Tracking mit Adobe Campaign Standard bietet Ihnen Zugriff auf folgende Funktionen:
 
@@ -61,7 +61,7 @@ Tracking mit Adobe Campaign Standard bietet Ihnen Zugriff auf folgende Funktione
 </tr>
 </table>
 
-## Trackinglogs         {#tracking-logs}
+## Trackinglogs          {#tracking-logs}
 
 Der **[!UICONTROL Trackinglogs]**-Tab zeigt den Verlauf des Trackings für den vorliegenden Versand an. Angezeigt werden die zu allen gesendeten Nachrichten für die jeweils getrackten URLs gesammelten Informationen. Die Trackinginformationen in diesem Tab werden alle 10 Minuten aktualisiert.
 
