@@ -10,9 +10,8 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 100%
 
@@ -58,7 +57,7 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
    Darüber hinaus können Sie die folgenden Funktionen verwenden, die in allen Aktivitäten zur Verfügung stehen, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen (siehe [diesen Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Name | Beschreibung  | Syntax |
-   ---------|----------|---------
+   | ---------|----------|---------|
    | EndWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) endet. | EndWith(&lt;String>,&lt;String>) |
    | startWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) beginnt. | startWith(&lt;String>,&lt;String>) |
    | Extract | Gibt die ersten Zeichen einer Zeichenfolge mithilfe eines Trennzeichens zurück. | Extract(&lt;String>,&lt;Separator>) |
