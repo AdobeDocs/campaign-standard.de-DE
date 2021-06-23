@@ -12,13 +12,13 @@ role: Administrator
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1329'
 ht-degree: 100%
 
 ---
 
-# Marken{#branding}
+# Branding{#branding}
 
 ## Über Markenidentitäten {#about-brand-identity}
 
@@ -26,7 +26,7 @@ Jedes Unternehmen verfügt über Richtlinien bezüglich der Darstellung und tech
 
 Technische Administratoren haben die Möglichkeit, eine oder mehrere Marken zu definieren und auf die Identität der jeweiligen Marken bezogene Parameter zentral anzugeben, z. B.: das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Mit Adobe Campaign können diese Marken erstellt und mit verschiedenen Nachrichten oder Landingpages verknüpft werden. Diese Konfiguration wird in Vorlagen vorgenommen.
 
-## Marken konfigurieren und verwenden            {#configuring-and-using-brands}
+## Marken konfigurieren und verwenden             {#configuring-and-using-brands}
 
 Konfiguration und Verwendung von Marken basieren auf den folgenden Grundprinzipien:
 
