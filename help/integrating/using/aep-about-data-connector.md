@@ -11,9 +11,9 @@ role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,15 +38,15 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 >
 >Dies kann entweder über die APIs oder die Benutzeroberfläche von Adobe Experience Platform erfolgen. Weitere Informationen finden Sie in den entsprechenden Dokumentationen:
 >
->* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=de)
+>* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=de)
 
 
 ## Schlüsselkonzepte {#key-concepts}
 
 * Vordefiniertes Mapping ist nur für Felder verfügbar, die standardmäßig in Campaign Standard bereitgestellt werden. Für die Erfassung aller benutzerdefinierten Felder und Ressourcen muss jeder Kunde sein eigenes Mapping definieren.
 
-* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. Dieser Wert kann mit [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) geändert werden.
+* Adobe Experience Platform Data Connector leitet Profildaten in regelmäßigen Abständen durch die Plattform.&#x200B; Die Intervalldauer beträgt 15 Minuten. Dieser Wert kann mit [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de) geändert werden.
 
 * Der Dateningenieur kann das Mapping von Campaign zu Adobe Experience Platform veröffentlichen, ändern und anhalten.
 
@@ -70,7 +70,7 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 * Die vordefinierte Übertragung von Abonnementereignissen wird nicht unterstützt. Um Abonnementereignisse zu übertragen, können Sie ein entsprechendes XDM und einen Datensatz in Adobe Experience Platform erstellen und dann ein benutzerdefiniertes Daten-Mapping für diese Daten konfigurieren.
 
-* In Bezug auf Datenschutzanfragen (sowohl Zugriffs- als auch Löschaktionen) müssen Kunden separate Anfragen über den [Datenschutz-Coreservice](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests) stellen: eine für Campaign und eine für Adobe Experience Platform. Weitere Informationen hierzu finden Sie unter [Allgemeines zu Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#righttoaccess) und [Verwalten von Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
+* In Bezug auf Datenschutzanfragen (sowohl Zugriffs- als auch Löschaktionen) müssen Kunden separate Anfragen über den [Datenschutz-Coreservice](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de#how-to-use-privacy-service-to-manage-privacy-job-requests) stellen: eine für Campaign und eine für Adobe Experience Platform. Weitere Informationen hierzu finden Sie unter [Allgemeines zu Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#righttoaccess) und [Verwalten von Datenschutzanfragen](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
 
 * Für jedes XDM-Feld muss die DULE-Kennzeichnung in Adobe Experience Platform erfolgen. Es liegt in der Verantwortung des Kunden, DULE-Kennzeichnungen anzuwenden.
 
@@ -84,4 +84,4 @@ Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Co
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
+Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=de).
