@@ -1,8 +1,8 @@
 ---
 source-git-commit: b3d18858ec7f5206410f9b39a2fa5ad894921a60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 # Willkommen!
@@ -11,4 +11,4 @@ Dieses Projekt beinhaltet die technische Dokumentation für Campaign Standard. O
 
 Weiterführende Informationen zur Behebung von Problemen sowie Anleitungen und Best Practices finden Sie in unseren [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html).
 
-Videos zu den Funktionen von Adobe Campaign Standard finden Sie in unseren [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html).
+Videos zu den Funktionen von Adobe Campaign Standard finden Sie in unseren [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=de).
