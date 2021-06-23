@@ -11,9 +11,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Ein dynamisches Bild kann während der Bearbeitung einer E-Mail hinzugefügt wer
 
 Bevor Sie auf das Bild in Adobe Campaign zugreifen, müssen Sie die folgenden Schritte in Adobe Target durchführen:
 
-* [Umleitungsangebote](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html), in denen die URL der zu verwendenden Bilder anzugeben ist;
-* [Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html), die die durch Ihre Aktivität anzusprechenden Kontakte enthalten;
-* Aktivität vom Typ [formularbasierter Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html), in der eine Rawbox auszuwählen und entsprechend der Anzahl erstellter Umleitungsangebote Erlebnisse zu definieren sind. Für jedes Erlebnis ist eins der erstellten Umleitungsangebote auszuwählen.
+* [Umleitungsangebote](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=de), in denen die URL der zu verwendenden Bilder anzugeben ist;
+* [Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=de), die die durch Ihre Aktivität anzusprechenden Kontakte enthalten;
+* Aktivität vom Typ [formularbasierter Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=de), in der eine Rawbox auszuwählen und entsprechend der Anzahl erstellter Umleitungsangebote Erlebnisse zu definieren sind. Für jedes Erlebnis ist eins der erstellten Umleitungsangebote auszuwählen.
 * Erstellen Sie Segmente mit Informationen von Adobe Campaign, um Erlebnisse zu spezifizieren. Wenn Sie in den Angebotsauswahlregeln Daten aus Adobe Campaign verwenden möchten, müssen diese in der Adobe-Target-Rawbox angegeben werden.
 
 1. Erstellen Sie in Adobe Campaign einen E-Mail-Versand.
@@ -53,6 +53,6 @@ Ihr Versand mit dem dynamischen Bild kann jetzt durchgeführt werden. Die Ergebn
 
 **Verwandte Themen:**
 
-* [Adobe Target-Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
+* [Adobe Target-Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=de)
 * [Über die Inhaltserstellung in E-Mails](../../designing/using/designing-content-in-adobe-campaign.md)
-* Video [Personalize Email Images in Real-Time](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html)
+* Video zur [Personalisierung von E-Mail-Bildern in Echtzeit](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html)
