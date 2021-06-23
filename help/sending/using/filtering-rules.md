@@ -6,13 +6,12 @@ description: Mithilfe von Filterregeln können Sie die Zielgruppe Ihrer Nachrich
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Typologieregeln
 role: Business Practitioner
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ Mit Filterregeln können Sie einen Teil der Nachrichten-Zielgruppe anhand von in
 Die nachstehende Tabelle enthält Informationen zu vordefinierten Filterregeln sowie zu den zugehörigen Kanälen.
 
 | Titel | Kanal | Beschreibung |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL Adresse nicht angegeben]** | Alle | Schließt die Zielpopulation ohne angegebene Adresse (E-Mail, Anschrift usw. je nach ausgewähltem Kanal) aus. |
 | **[!UICONTROL Adresse auf Blockierungsliste]** | Alle | Schließt Adressen aus, die sich auf der Blockierungsliste befinden. |
 | **[!UICONTROL Dublette]** | Alle | Schließt Duplikate anhand des Felds **[!UICONTROL Adresse]** der Zielpopulation aus. |
