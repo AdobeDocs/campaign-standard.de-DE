@@ -12,7 +12,7 @@ role: Administrator
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2819'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
    Weiterführende Informationen zur Quarantäne finden Sie unter [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md).
 
-## E-Mail-Routing-Konten              {#email-routing-accounts}
+## E-Mail-Routing-Konten               {#email-routing-accounts}
 
 Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
