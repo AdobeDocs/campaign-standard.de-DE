@@ -11,9 +11,9 @@ feature: In-App
 role: Business Practitioner
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Um In-App-Nachrichten mithilfe des Experience Platform SDK über Mobile Apps sen
 
 Sehen Sie sich die folgenden Ressourcen an:
 
-* [Video-Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [Video-Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=de)
 * [Blogpost](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
