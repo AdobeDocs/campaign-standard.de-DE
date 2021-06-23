@@ -11,9 +11,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
 source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Zum Steuern eines Workflows stehen vier Ausführungsbefehle zur Verfügung:
 * Fortsetzen
 * Anhalten
 
-Weiterführende Informationen zu den Ausführungsbefehlen finden Sie in der [Campaign-Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Weiterführende Informationen zu den Ausführungsbefehlen finden Sie in der [Campaign-Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=de).
 
 <br/>
 
