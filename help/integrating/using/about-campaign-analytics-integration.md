@@ -11,9 +11,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,6 +34,6 @@ Eine Integration zwischen dem Core Service **Triggers** von Adobe Analytics mit 
 
 **Verwandte Themen:**
 
-* [Übersicht über die Integration von Campaign Standard mit Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Campaign Standard-Integration konfigurieren](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Übersicht über die Integration von Campaign Standard mit Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=de)
+* [Campaign Standard-Integration konfigurieren](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=de)
 * [Campaign-Dimensionen und -Metriken in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
