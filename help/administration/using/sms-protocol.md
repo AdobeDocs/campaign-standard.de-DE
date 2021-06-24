@@ -6,15 +6,14 @@ description: Erfahren Sie mehr über den SMS-Connector und dessen Konfiguration.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Instanzeneinstellungen
 role: Administrator
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '8667'
-ht-degree: 100%
+source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
+workflow-type: tm+mt
+source-wordcount: '8666'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Weitere Informationen zu **Protokoll und Einstellungen des SMS-Connectors** für Adobe Campaign Classic finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=de#sending-messages).
+>Weitere Informationen zu **Protokoll und Einstellungen des SMS-Connectors** für Adobe Campaign Classic finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >In diesem Dokument beziehen sich alle Informationen zum Protokoll, zum Feldnamen und zu Feldwerten auf die [Spezifikation von SMPP Version 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -251,7 +250,7 @@ Es gibt zwei Möglichkeiten, lange SMS zu senden:
 
 Weitere Informationen zum Protokoll und den Formaten finden Sie in der Beschreibung der Felder `esm_class`, `short_message` und `message_payload` der [SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu).
 
-### Durchsatzbegrenzung und Fenster{#throughput-capping}
+### Durchsatzbegrenzung und Fenster {#throughput-capping}
 
 Die meisten Provider verlangen eine Durchsatzbegrenzung für jede SMPP-Verbindung. Dies kann durch die Festlegung einer Anzahl von SMS im externen Konto erreicht werden. Beachten Sie, dass die Durchsatzdrosselung pro Verbindung erfolgt. Der gesamte effektive Durchsatz ist die Grenze pro Verbindung multipliziert mit der Anzahl Verbindungen insgesamt. Dies wird im Abschnitt [Simultane Verbindungen](../../administration/using/sms-protocol.md#connection-settings) beschrieben.
 
@@ -649,7 +648,7 @@ Wenn Meldungen mit einer unbekannten stat/err-Feldkombination auftreten, werden 
 
 Standardmäßig werden stat-Werte, die mit `DELIV` beginnen, z. B. `DELIVRD` in [Anhang B](../../administration/using/sms-protocol.md#sr-error-management), als erfolgreich betrachtet und stat-Werte, die Fehler aufweisen, z. B. `REJECTED`, `UNDELIV`, werden als Fehler betrachtet.
 
-#### ID-Format in der MT-Quittierung (resp){#id-format-mt}
+#### ID-Format in der MT-Quittierung (resp) {#id-format-mt}
 
 Dies zeigt das Format der ID an, die im Feld `message_id` der `SUBMIT_SM_RESP PDU` zurückgegeben wird.
 
@@ -707,7 +706,7 @@ Diese Einstellung erlaubt nur das Hinzufügen einer TLV-Option pro Nachricht.
 
 ### Automatische Antwort auf MO         {#automatic-reply}
 
-Mit dieser Funktion können Sie schnell einen Antworttext an einen MO senden und das Senden an die Blockierungsliste durch Kurzwahlnummern handhaben.
+Mit dieser Funktion können Sie schnell einen Antworttext an ein MO senden und das Senden pro Kurzwahlnummer an die Blockierungsliste handhaben.
 
 Die Spalten **Schlüsselwort** und **Kurzwahlnummer** definieren Bedingungen, um die automatische Antwort auszulösen. Wenn beide Felder übereinstimmen, wird der MO gesendet und die zusätzliche Aktion ausgelöst. Um einen Platzhalter festzulegen, sollten Sie das Feld leer lassen. Das Schlüsselwort wird mit dem ersten alphanumerischen Wort im MO-Text abgeglichen, wobei Interpunktion und führende Leerzeichen ignoriert werden. Das bedeutet, dass das Feld **Schlüsselwort** keine Leerzeichen enthalten darf und ein einzelnes Wort sein muss.
 
@@ -733,7 +732,7 @@ Weitere Informationen zu optionalen Parametern finden Sie in diesem [Abschnitt](
 
 Einige Parameter können pro Versandvorlage festlegt werden.
 
-### Feld &quot;Von&quot;{#from-field}
+### Feld &quot;Von&quot; {#from-field}
 
 Dieses Feld ist optional. Es ermöglicht das Überschreiben der Absenderadresse (oADC). Der Inhalt dieses Felds wird im Feld `source_addr` der `SUBMIT_SM PDU` eingefügt.
 
@@ -793,7 +792,7 @@ Die Anzahl der Threads kann vom Kunden nicht geändert werden, da Konfigurations
 
 ### Beschreibung des Verhaltens des SMPP-Connectors {#behavior-smpp-connector}
 
-#### MT, SR und Broadlog-Einträge abgleichen {#matching-mt-sr}
+#### Abgleichen von MT-, SR- und broadLog-Einträgen {#matching-mt-sr}
 
 In Adobe Campaign ist eine Nachricht ein Broadlog-Eintrag. In Adobe Campaign Standard müssen externe Connectoren nur die funktionierende Broadlog-Arbeitstabelle kennen: `nmsBroadLogExec`. Ein Workflow ist dafür zuständig, Broadlog-Einträge wieder in ihre jeweiligen Zielgruppendimensionen zurückzukopieren (nmsBroadLogXXX).
 
