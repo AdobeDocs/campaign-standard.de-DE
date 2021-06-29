@@ -6,19 +6,21 @@ description: Hier erfahren Sie, wie Sie den Erfolg Ihres Versands anhand der Wor
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Berichte
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '670'
-ht-degree: 100%
+source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
-# Einen Bericht auf der Basis von Workflow-Segmenten erstellen{#creating-a-report-workflow-segment}
+# Erstellen eines Berichts auf der Basis von Workflow-Segmenten{#creating-a-report-workflow-segment}
+
+>[!CAUTION]
+> **[!UICONTROL Der Segmentcode ]**kann nur E-Mail- und SMS-Sendungen ansprechen.
 
 Nachdem Sie einen Workflow erstellt und Ihre Population durch Filterung in unterschiedliche Zielgruppen unterteilt haben, können Sie die Effizienz Ihrer Marketingkampagnen anhand von den in diesem Zielgruppen-Workflow definierten Segmenten messen.
 So wählen Sie diese Segmente in Ihren Berichten aus:
@@ -29,6 +31,7 @@ So wählen Sie diese Segmente in Ihren Berichten aus:
 
 >[!CAUTION]
 >Um diese Daten erfassen zu können, müssen Sie zuerst die Nutzungsvereinbarung zur dynamischen Berichterstattung akzeptieren.
+>
 >Weiterführende Informationen zu dieser Vereinbarung finden Sie auf dieser [Seite](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Schritt 1: Aktualisieren der benutzerdefinierten Ressource &quot;Profile&quot; mit den Segmenten{#step-1--update-profiles-custom-resource-segments}
@@ -55,7 +58,7 @@ Sie können jetzt damit beginnen, Ihren Workflow mit Segmentcodes zu erstellen.
 
 Beachten Sie, dass Segmentcodes erfasst werden, sobald Sie den Segmentcode in der **[!UICONTROL Erweiterung der Versandlogs]** aktivieren.
 
-## Schritt 2: Erstellen eines Workflows mit Segmenten{#step-2--create-a-workflow-segments}
+## Schritt 2: Erstellen eines Workflows mit Segmenten {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >Wenn die Eingangstransition des E-Mail-Versands leer ist, wird standardmäßig der Segmentcode von der vorherigen Transition hinzugefügt.
