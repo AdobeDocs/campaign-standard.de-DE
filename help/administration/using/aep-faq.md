@@ -6,13 +6,12 @@ description: Häufig gestellte Fragen zur Integration des Adobe Experience Platf
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Instanzeneinstellungen
 role: Administrator
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ Im folgenden Abschnitt werden häufig gestellte Fragen zu dieser Synchronisation
 Weitere Informationen zu Push- oder In-App-Benachrichtigungen finden Sie in den folgenden häufig gestellten Fragen:
 
 * [Häufig gestellte Fragen zu Push-Benachrichtigungen](../../channels/using/about-push-notifications.md#push-faq)
-* [Häufig gestellte Fragen zu In-App-Nachrichten](../../channels/using/about-in-app-messaging.md#in-app-faq)
+* [Häufig gestellte Fragen zu In-App-Nachrichten](../../channels/using/in-app-faq.md)
 * [Häufig gestellte Fragen zur Synchronisierung mit dem technischen Workflows für Launch](../../administration/using/syncwithlaunch-faq.md)
 
 ## Nützliche Ressourcen vor dem Start {#resource-mobile-property}
@@ -106,7 +105,7 @@ Sehen Sie sich die folgenden Ressourcen an:
 * [Dokumentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep) zur Aktualisierung auf das Experience Platform SDK
 * [Dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) zum Experience Platform SDK in Github
 
-## Beim Erstellen eines Push-Benachrichtigungsversands erhalte ich die Fehlermeldung &quot;Sie haben keinen Schreibzugriff auf den Versand&quot;. {#write-access-error}
+## Beim Erstellen eines Push-Benachrichtigungsversands erhalte ich die Fehlermeldung &quot;Sie haben keinen Schreibzugriff auf den Versand&quot;.  {#write-access-error}
 
 Überprüfen Sie Folgendes:
 
