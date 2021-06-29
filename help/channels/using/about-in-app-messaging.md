@@ -10,9 +10,9 @@ context-tags: delivery,triggers,back
 feature: In-App
 role: Business Practitioner
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
-workflow-type: ht
-source-wordcount: '931'
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+workflow-type: tm+mt
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -43,76 +43,20 @@ Um In-App-Nachrichten mithilfe des Experience Platform SDK über Mobile Apps sen
 * [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](https://helpx.adobe.com/de/campaign/kb/configure-launch-rules-acs-use-cases.html)
 * [Handbuch zu Campaign Standard Mobile](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)
 
-## Häufig gestellte Fragen zu In-App-Nachrichten {#in-app-faq}
+## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden          {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-### Welche Ressourcen wären empfehlenswert, um mehr über den In-App-Kanal in Adobe Campaign Standard zu erfahren? {#resources-inapp}
+In Adobe Campaign sind Attribute zu mobilen Profilen, die von Mobilgeräten gesendet werden, in der Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** gespeichert. Dort können die Daten definiert werden, die über die Abonnenten Ihrer Apps gesammelt werden sollen.
 
-Sehen Sie sich die folgenden Ressourcen an:
+Diese Ressource muss erweitert werden, damit die gewünschten, vom Mobilgerät an Adobe Campaign gesendeten Daten gesammelt werden. Eine detaillierte Anleitung dazu finden Sie auf dieser [Seite](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
 
-* [Video-Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=de)
-* [Blogpost](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Um eine sichere Personalisierung Ihrer In-App-Nachrichten zu ermöglichen, müssen die Profilfelder der Mobile App entsprechend konfiguriert werden. Aktivieren Sie in **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** bei der Erstellung der neuen Profilfelder für eine Mobile App die Option **[!UICONTROL Persönlich und vertraulich]**, damit sie bei der Personalisierung von In-App-Nachrichten nicht verfügbar sind.
 
-### Welchen Zweck haben die Campaign-Erweiterungs-APIs setLinkageField und resetLinkageField? {#extensions-apis}
+>[!NOTE]
+>
+>Wenn zu dieser Tabelle bereits eine Implementierung mit einer benutzerdefinierten Ressourcenerweiterung besteht, empfehlen wir, die Felder entsprechend zu benennen, bevor sie zur Personalisierung von In-App-Nachrichten verwendet werden.
 
-Da In-App-Nachrichten vom SDK aus Campaign abgerufen werden, möchten wir einen sicheren Mechanismus bereitstellen, um sicherzustellen, dass In-App-Nachrichten mit PII-Daten nicht in böswillige Hände geraten. Daher verfügen wir über folgenden Mechanismus, um den sicheren Versand von Nachrichten an das Gerät zu gewährleisten:
+![](assets/in_app_personal_data_2.png)
 
-* Kunden markieren mobile Profilfelder (Tabelle appSubscriberRcp) als persönlich und vertraulich, wenn sie sicherstellen möchten, dass diese speziellen Informationen sicher zugestellt werden.
-* Als solche gekennzeichnete Felder können nur in der Profilvorlage (nicht in der AppSubscriber-Vorlage oder der Broadcast-Vorlage) verwendet werden, in die ein zusätzlicher Sicherheitsmechanismus integriert ist.
-* Mit der Profilvorlage erstellte Nachrichten können nur zugestellt werden, wenn sich der Benutzer bei der App angemeldet hat.
-* Um diesen sicheren Handshake zu ermöglichen, sollten Entwickler von Mobile Apps zusätzliche Authentifizierungsdetails mithilfe der setLinkageField-API übergeben. Bitte beachten Sie, dass die Verknüpfungsfelder diejenigen sind, die bei der Erweiterung der appSubscriberRcp-Tabelle als Verknüpfung zwischen mobilen Profilen und CRM-Profilen identifiziert werden.
-* Sie sollten die auf dem Gerät gespeicherten In-App-Nachrichten leeren und resetLinkagefields zurücksetzen, wenn sich der Benutzer mit resetLinkageField bei der App abmeldet. Dadurch wird sichergestellt, dass ein anderer Benutzer, der sich bei der App anmeldet, nicht die für den vorherigen Benutzer bestimmten Nachrichten sieht.
-* Informationen zur Client-seitigen Implementierung dieses Sicherheitsmechanismus finden Sie unter [Mobile SDK-APIs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
+Sobald die benutzerdefinierte Ressource **[!UICONTROL App-Abonnements]** konfiguriert und veröffentlicht wurde, können Sie mit der Vorbereitung Ihres In-App-Versands mit der Vorlage **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]** beginnen. Zur Personalisierung stehen dann in der Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** nur nicht-sensible Felder zur Verfügung.
 
-### Was muss ich tun, um In-App-Berichte in Campaign zu aktivieren? {#enable-inapp-reporting}
-
-Konfigurieren Sie ein Postback für das In-App-Tracking. Anweisungen dazu finden Sie [hier](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
-
-Informationen zur Implementierung des lokalen Benachrichtigungs-Tracking finden Sie auf dieser [Seite](../../administration/using/local-tracking.md).
-
-### Welche Berichte stehen für den In-App-Kanal zur Verfügung? {#report-inapp}
-
-In Adobe Campaign steht für den In-App-Kanal ein vordefinierter Bericht zur Verfügung. In dieser [Dokumentation](../../reporting/using/in-app-report.md) finden Sie weitere Informationen.
-
-Auf dieser [Seite](../../reporting/using/indicator-calculation.md#in-app-delivery) erfahren Sie, wie die einzelnen In-App-Metriken berechnet werden.
-
-### Unterstützen Sie mehrsprachige Inhaltsvarianten für In-App-Nachrichten ähnlich wie für Push-Nachrichten? {#multilingual-inapp}
-
-Für In-App-Nachrichten stehen derzeit keine mehrsprachigen Vorlagen zur Verfügung.
-
-Wenn das Ziel jedoch darin besteht, eine In-App-Nachricht in einer anderen Sprache als Englisch zu senden, können die Inhalte direkt in die verfügbaren Textfelder eingefügt werden.
-
-![](assets/faq_inapp.png)
-
-### Können Campaign-Personalisierungsfelder zu benutzerdefiniertem HTML hinzugefügt werden? {#custom-html-inapp}
-
-Nein, das wird noch nicht unterstützt.
-
-### Ich habe eine Warnmeldung konfiguriert, aber sie wird nicht auf dem Gerät angezeigt. {#alert-message}
-
-Für Warnmeldungen ist mindestens eine Schaltfläche zum Verwerfen erforderlich (der primäre oder sekundäre Dialog sollte eine Aktion zum Verwerfen aufweisen). Andernfalls ist es möglich, die Nachricht zu speichern, sie wird jedoch nicht empfangen.
-
-### Wenn lokale Benachrichtigungen den benutzerdefinierten Ton unter iOS nicht abspielen, wird dann stattdessen der Standardton abgespielt? {#local-notification-sound}
-
-Für einen benutzerdefinierten Ton unter iOS müssen Sie beim Erstellen einer lokalen Benachrichtigung einen Dateinamen mit Erweiterung angeben (z. B. sound.caf). Wenn diese Erweiterung nicht bereitgestellt wird, wird der Standardton verwendet.
-
-### Werden Deeplinks in In-App-Nachrichten unterstützt? {#inapp-deeplinks}
-
-Ja, Deeplinks werden in In-App-Nachrichten unterstützt. Deeplinks sollten Folgendes enthalten:
-
-* Sprache, die besagt, dass das Versand-Tracking deaktiviert werden muss, damit die Deeplinks funktionieren.
-* Appsflyer mit Branch als Partner, die das Deeplink-Tracking durchführen können. Weitere Informationen zur Integration von Branch und Adobe Campaign Standard finden Sie auf dieser [Seite](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
-
-### Kann eine In-App-Nachricht ausgelöst werden, wenn der Benutzer die App über eine Push-Benachrichtigung startet? {#inapp-push-trigger}
-
-Ja, diese Nachrichten werden auch als Daisy-Chain-Nachrichten bezeichnet. Befolgen Sie die nachstehenden Schritte:
-
-1. Erstellen Sie eine In-App-Nachricht.
-
-1. Definieren Sie ein benutzerdefiniertes Ereignis und wählen Sie es als Ereignis-Trigger für diese In-App-Nachricht aus, beispielsweise &quot;Trigger aus der Herbstvorschau-Push-Benachrichtigung&quot;.
-
-1. Definieren Sie beim Erstellen Ihrer Push-Nachricht eine benutzerdefinierte Variable, deren Wert als Ereignis festgelegt werden kann, das zum Auslösen von In-App-Nachrichten verwendet wird, beispielsweise Schlüssel = &quot;inappkey&quot; und Wert = &quot;Trigger aus der Herbstvorschau-Push-Benachrichtigung&quot;.
-
-1. Implementieren Sie den Ereignis-Trigger im Code der Mobile App wie folgt:
-
-   ![](assets/faq_inapp_2.png)
+Wenn Sie eine Personalisierung mit den Feldern **Persönlich und vertraulich** durchführen möchten, empfehlen wir die Verwendung der Vorlage **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)]**, die zusätzliche Sicherheitsfunktionen aufweist, sodass die personenbezogenen Daten Ihrer Benutzer geschützt bleiben.
