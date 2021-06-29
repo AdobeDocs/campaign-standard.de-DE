@@ -11,11 +11,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1233'
-ht-degree: 100%
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
+workflow-type: tm+mt
+source-wordcount: '1253'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 Die **[!UICONTROL Dateiübertragung]** dient dem Empfang und Versand von Dateien. Sie ermöglicht es des Weiteren, die Präsenz von Dateien zu testen und die in Adobe Campaign enthaltenen Dateien aufzulisten.
 
-## Anwendungskontext {#context-of-use}
+## Anwendungskontext       {#context-of-use}
 
 Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert. Bei der zu ladenden Datei kann es sich z. B. um eine Kontaktliste handeln.
 
@@ -105,6 +104,12 @@ Das S3-Protokoll ermöglicht den Download einer Datei über ein externes Konto o
 3. Geben Sie den Pfad der herunterzuladenden Datei an.
 
    ![](assets/wkf_file_transfer_08.png)
+
+   >[!CAUTION]
+   >
+   > Platzhalter werden in Amazon S3 nicht unterstützt.
+   >
+   > Um mehrere Dateien wie `my_file_02` und `my _file_3433` als Ziel festzulegen, können Sie die folgende Syntax verwenden: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Wenn Sie Ihre Quelldateien nach Abschluss der Übertragung löschen möchten, aktivieren Sie die Option **[!UICONTROL Quelldateien nach der Übertragung löschen]**.
 
