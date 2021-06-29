@@ -7,14 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: In-App
 role: Business Practitioner
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1161'
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+workflow-type: tm+mt
+source-wordcount: '1051'
 ht-degree: 100%
 
 ---
@@ -128,7 +127,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 1. Geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein, wenn Sie die Aktion **[!UICONTROL Weiterleiten]** auswählen.
 1. Überprüfen Sie den Inhalt Ihrer Nachricht im Vorschaufenster oder durch Anklicken der Vorschau-Schaltfläche.
 
-   Weiterführende Informationen dazu finden Sie auf der Seite [Vorschau einer In-App-Nachricht erstellen](#previewing-the-in-app-message).
+   Weiterführende Informationen dazu finden Sie auf der Seite [Vorschau einer In-App-Nachricht erstellen](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
@@ -190,18 +189,3 @@ Hier finden Sie auch eine Liste mit Anforderungen an benutzerdefinierte HTML-Dat
 ![](assets/inapp_customize_3.png)
 
 Nach dem Import Ihrer HTML-Datei können Sie sich im Vorschau-Fenster eine Vorschau Ihrer Datei auf unterschiedlichen Geräten ansehen.
-
-## Vorschau einer In-App-Nachricht erstellen {#previewing-the-in-app-message}
-
-Bevor Sie eine In-App-Nachricht senden, können Sie sie an Testprofilen testen, um zu sehen, wie die Nachricht beim Empfang dargestellt wird.
-
-1. Wählen Sie die **[!UICONTROL Vorschau]**-Schaltfläche aus.
-
-   ![](assets/inapp_sending_2.png)
-
-1. Wählen Sie die Schaltfläche **[!UICONTROL Testprofil auswählen]** und danach eines Ihrer Testprofile aus, um mit der Vorschau des Versands zu beginnen. Weiterführende Informationen zu Testprofilen erhalten Sie in [diesem Abschnitt](../../audiences/using/managing-test-profiles.md).
-1. Sehen Sie sich Ihre Nachricht auf verschiedenen Geräten an, wie Android-Geräten, iPhones und Tablets. Sie können dabei auch feststellen, ob in Ihre Personalisierungsfelder die richtigen Daten geladen werden.
-
-   ![](assets/inapp_sending_3.png)
-
-1. Jetzt können Sie Ihre Nachricht senden und ihre Wirkung mit Versandberichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../../reporting/using/in-app-report.md).
