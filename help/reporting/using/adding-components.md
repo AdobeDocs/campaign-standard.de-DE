@@ -6,15 +6,14 @@ description: Ziehen Sie Komponenten in Ihre Freiformtabelle, um Ihre Daten zu fi
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Berichte
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 84%
 
 ---
 
@@ -39,6 +38,16 @@ Mit Komponenten können Sie Ihren Berichten unterschiedliche Dimensionen, Messwe
    * **Zeitraum**: Hier können Sie für Ihre Tabelle einen Zeitraum festlegen.
 
 1. Verschieben Sie Komponenten per Drag-and-Drop in ein Panel, um Ihre Daten zu filtern.
+
+   ![](assets/dynamic_report_components_2.png)
+
+1. Nachdem Sie die Komponente per Drag-and-Drop verschoben haben, können Sie die Tabelle mit der Option **[!UICONTROL Zeileneinstellungen]** weiter konfigurieren.
+
+   ![](assets/dynamic_report_components_3.png)
+
+1. Sie können Ihre Tabelle auch weiter filtern, indem Sie auf das Symbol **Suchen** klicken. Mit dieser Suche können Sie nach bestimmten Ergebnissen suchen, z. B. nach einem bestimmten Versand oder Browser.
+
+   ![](assets/dynamic_report_components_4.png)
 
 Sie können beliebig viele Komponenten verschieben und miteinander vergleichen.
 
