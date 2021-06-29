@@ -7,15 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push
+feature: Push-Benachrichtigung
 role: Business Practitioner
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1557'
-ht-degree: 100%
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
+workflow-type: tm+mt
+source-wordcount: '1576'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +44,9 @@ Benutzer werden durch den Ton auf den Empfang einer Push-Benachrichtigung hingew
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Die Tondatei wird bei der Zustellung der Benachrichtigung abgespielt, wenn die Datei im Package der Mobile App definiert ist. Andernfalls wird der Standardton des Geräts verwendet.
+1. Die Tondatei wird bei der Zustellung der Benachrichtigung abgespielt, wenn die Datei im Package der Mobile App definiert ist. Sie können **default** festlegen, um den Standardton des Geräts abzuspielen.
+
+   Wenn das Feld **[!UICONTROL Ton abspielen]** leer gelassen wird, wird kein Ton abgespielt.
 
 Der Benutzer erhält die Push-Benachrichtigung und den Ton nur, wenn sein Telefon nicht stummgeschaltet ist.
 
