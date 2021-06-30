@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Die Microsoft Dynamics 365-Zugangsdaten geben der Integrationsanwendung die Bere
 
 * **[!UICONTROL Mandant]**: In [diesem Abschnitt ](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id) erfahren Sie, wie Sie Ihre Mandantenkennung finden.
 
-* **[!UICONTROL URL]**: Die URL hat das Format  `https://&lt;servername&gt;.api.crm.dynamics.com/`
+* **[!UICONTROL URL]**: Die URL hat das Format `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### Adobe-API-Zugangsdaten
 
