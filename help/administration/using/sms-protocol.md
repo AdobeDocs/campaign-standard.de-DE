@@ -11,9 +11,9 @@ role: Administrator
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8666'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Weitere Informationen zu **Protokoll und Einstellungen des SMS-Connectors** für Adobe Campaign Classic finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
+>Weitere Informationen zu **Protokoll und Einstellungen des SMS-Connectors** für Adobe Campaign Classic finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=de).
 >
 >In diesem Dokument beziehen sich alle Informationen zum Protokoll, zum Feldnamen und zu Feldwerten auf die [Spezifikation von SMPP Version 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
