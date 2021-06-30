@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 ## Neue Funktionen
 
-* **[Apple Mail Privacy Protection - ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> FAQsErste Anleitungen als Reaktion auf Apple-Ankündigung zu iOS 15
+* **[Häufig gestellte Fragen zum Datenschutz bei Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=de)**<br/> Erste Anleitungen als Reaktion auf die Apple-Ankündigung zu iOS 15
 
 * **[Integration zwischen Campaign und RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Erfahren Sie, wie Sie Daten zwischen Campaign und der Adobe Echtzeit-Kundendatenplattform (RTCDP) austauschen können.
 
