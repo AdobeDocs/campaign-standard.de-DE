@@ -8,10 +8,10 @@ feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: ht
-source-wordcount: '241'
-ht-degree: 100%
+source-git-commit: f094c6735a94a7b0d02f6c02e8fe494c10f2eb41
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 |---|---|
 | [Versionshinweise](rn/using/release-notes.md) | [Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Control Panel-Dokumentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de) | [Campaign-APIs](api/using/get-started-apis.md) |
-| [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) | [Liste von Fehlermeldungen](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Implementierungshandbuch](https://helpx.adobe.com/de/campaign/kb/campaign-standard-implementation-guide.html) | [Liste von Fehlermeldungen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [Versionsplanung](rn/using/release-planning.md) | [Campaign-Datenmodell](developing/using/datamodel-introduction.md) |
 | [Eingestellte und entfernte Funktionen](rn/using/deprecated-features.md) | [Handbuch für mehrere Lösungen](integrating/using/get-started-campaign-integrations.md) |
 | [Erste Schritte mit Campaign Standard](start/using/about-campaign-standard.md) | [Technotes](https://helpx.adobe.com/de/campaign/kb/acs-article-list.html) |
