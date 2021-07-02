@@ -10,10 +10,10 @@ feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 2daf09071482ab858c73bc8f4f287495e9f8be4b
+source-git-commit: b020d5c55ae8754bd792eb756dd5eb13ee988a66
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Wir empfehlen Ihnen, diese Seite regelmäßig zu besuchen, um nach Updates zu suchen.
 
-## Version 21.2 – Juni 2021 {#release-21-2-release}
+## Version 21.3 – Juni 2021 {#release-21-3-release}
 
 Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
@@ -43,11 +43,11 @@ Weitere Informationen über diese Version finden Sie in den [Versionshinweisen](
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>7. bis 8. Juni 2021<br /> </td>
+   <td>7.-8. September 2021<br /> </td>
   </tr>
   <tr>
-   <td> Produktion<br /> </td>
-   <td>14. bis 21. Juni 2021<br /> </td>
+   <td>Produktion<br /> </td>
+   <td>14.-21. September 2021<br /> </td>
   </tr>
  </tbody>
 </table>
