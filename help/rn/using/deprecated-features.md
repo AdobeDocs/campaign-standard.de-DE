@@ -10,10 +10,10 @@ feature: Übersicht
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 94%
 
 ---
 
@@ -39,6 +39,22 @@ In diesem Abschnitt werden Funktionen aufgeführt, die bei den aktuellen Campaig
 Im Allgemeinen werden Funktionen, die in einer zukünftigen Version entfernt werden sollen, zuerst als eingestellt gekennzeichnet, wobei eine Alternative bereitgestellt wird. Diese Funktionen sind für neue Campaign Standard-Kunden entweder nicht mehr verfügbar oder sollten für keine neue Implementierung verwendet werden. Sie werden auch aus der Produktdokumentation entfernt.
 
 Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellung zu prüfen und Pläne zur Änderung ihrer Implementierung zu erstellen, um die verfügbare Alternative zu nutzen. Achten Sie auf die geplante Version für die Entfernung, um Ihre Umgebungs- und Projektaktualisierungen zu planen.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Integration von Experience Cloud Assets</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Ab Juli 2021 ist Assets jetzt ein älterer Hauptdienst, der unterstützt wird. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">Weitere Informationen</a>.</p>
+   <p>Für eine neue Implementierung können Sie Experience Cloud Assets nicht mehr in Adobe Campaign Standard integrieren.</p>
+     <em>Geplantes Datum für die Entfernung: 2022.</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
