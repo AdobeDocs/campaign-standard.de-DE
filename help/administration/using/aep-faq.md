@@ -11,7 +11,7 @@ role: Administrator
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
 ht-degree: 100%
 
@@ -27,13 +27,13 @@ Weitere Informationen zu Push- oder In-App-Benachrichtigungen finden Sie in den 
 
 * [Häufig gestellte Fragen zu Push-Benachrichtigungen](../../channels/using/about-push-notifications.md#push-faq)
 * [Häufig gestellte Fragen zu In-App-Nachrichten](../../channels/using/in-app-faq.md)
-* [Häufig gestellte Fragen zur Synchronisierung mit dem technischen Workflows für Launch](../../administration/using/syncwithlaunch-faq.md)
+* [Häufig gestellte Fragen zur Synchronisierung mit dem technischen Workflow für Launch](../../administration/using/syncwithlaunch-faq.md)
 
 ## Nützliche Ressourcen vor dem Start {#resource-mobile-property}
 
 Weitere Informationen zur Integration des Adobe Experience Platform SDK mit Campaign Standard finden Sie in den folgenden Ressourcen:
 
-* Launch/Mobile [Übersichtsvideo](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Launch/Mobile [Übersichtsvideo](https://www.adobe.com/de/experience-platform/launch.html#acpl-mobile-video)
 * Launch/Mobile [Handbuch mit Tipps und Tricks](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Ist die Adobe Experience Platform SDK-Integration für sowohl Adobe Campaign Standard als auch Adobe Campaign Classic verfügbar? {#aep-validity}
@@ -92,7 +92,7 @@ Ja. Je nach Ihren geschäftlichen Anforderungen können Sie CollectPII-Aufrufe a
 
 Häufigkeit und Design von CollectPII-Aufrufen sollten von den Geschäftsanforderungen abhängen und nicht blind ausgelöst werden, da dies die DB zusätzlich belastet.
 
-### Wenn ich versuche, auf Adobe Experience Platform-Apps in Campaign oder Launch zuzugreifen, wird manchmal ein Fehler angezeigt, dass die Eigenschaft nicht verfügbar ist. {#aep-error}
+### Wenn ich versuche, auf Adobe Experience Platform-Apps in Campaign oder Launch zuzugreifen, wird manchmal ein Fehler angezeigt, in dem steht, dass die Eigenschaft nicht verfügbar ist. {#aep-error}
 
 Das ist ein bekanntes Problem und tritt aufgrund des Ablaufs des Tokens auf. In diesem Fall sollten Sie sich ab- und wieder anmelden.
 
