@@ -11,9 +11,9 @@ role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
 source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Mit Komponenten können Sie Ihren Berichten unterschiedliche Dimensionen, Messwe
 
    ![](assets/dynamic_report_components_3.png)
 
-1. Sie können Ihre Tabelle auch weiter filtern, indem Sie auf das Symbol **Suchen** klicken. Mit dieser Suche können Sie nach bestimmten Ergebnissen suchen, z. B. nach einem bestimmten Versand oder Browser.
+1. Sie können Ihre Tabelle auch weiter filtern, indem Sie auf das Symbol **Suchen** klicken. Mit dieser Suche können Sie nach bestimmten Ergebnissen suchen, z. B. nach einem Versand oder Browser.
 
    ![](assets/dynamic_report_components_4.png)
 
