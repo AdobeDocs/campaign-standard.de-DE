@@ -12,9 +12,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1576'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Benutzer werden durch den Ton auf den Empfang einer Push-Benachrichtigung hingew
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Die Tondatei wird bei der Zustellung der Benachrichtigung abgespielt, wenn die Datei im Package der Mobile App definiert ist. Sie können **default** festlegen, um den Standardton des Geräts abzuspielen.
+1. Die Tondatei wird bei der Zustellung der Benachrichtigung abgespielt, wenn die Datei im Package der Mobile App definiert ist. Sie können **Standard** festlegen, um den Standardton des Geräts abzuspielen.
 
    Wenn das Feld **[!UICONTROL Ton abspielen]** leer gelassen wird, wird kein Ton abgespielt.
 
