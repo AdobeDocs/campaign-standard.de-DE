@@ -11,16 +11,16 @@ role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Erstellen eines Berichts auf der Basis von Workflow-Segmenten{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Der Segmentcode ]**kann nur E-Mail- und SMS-Sendungen ansprechen.
+> **[!UICONTROL Der Segment-Code ]**kann nur E-Mail- und SMS-Sendungen auswählen.
 
 Nachdem Sie einen Workflow erstellt und Ihre Population durch Filterung in unterschiedliche Zielgruppen unterteilt haben, können Sie die Effizienz Ihrer Marketingkampagnen anhand von den in diesem Zielgruppen-Workflow definierten Segmenten messen.
 So wählen Sie diese Segmente in Ihren Berichten aus:
@@ -102,11 +102,11 @@ Zunächst müssen Sie einen Workflow mit unterschiedlichen Zielgruppen erstellen
 
 1. Klicken Sie auf **[!UICONTROL Starten]**, wenn Ihr Workflow fertig ist.
 
-Sie können jetzt auf Ihre Berichte zugreifen, um Ihre Segmentcodes zu tracken.
+Sie können jetzt auf Ihre Berichte zugreifen, um Ihre Segment-Codes zu tracken.
 
 ## Schritt 3: Erstellen eines dynamischen Berichts, um die Segmente zu filtern {#step-3--create-a-dynamic-report-filter-segments}
 
-Nachdem Sie mit Ihrem Workflow Nachrichten versendet haben, können Sie die Berichte mithilfe Ihrer Segmentcodes von Ihrem Workflow aufschlüsseln.
+Nachdem Sie mit Ihrem Workflow Nachrichten versendet haben, können Sie die Berichte mithilfe Ihrer Segment-Codes von Ihrem Workflow aufschlüsseln.
 
 1. Wählen Sie im Tab **[!UICONTROL Berichte]** einen nativen Bericht oder die Schaltfläche **[!UICONTROL Neues Projekt erstellen]** aus, um einen neuen Bericht zu erstellen.
 
