@@ -7,13 +7,12 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: Kampagnen
+role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
 
@@ -92,7 +91,7 @@ Die Kampagne wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 >
 >Abhängig von Ihrem Lizenzvertrag stehen Ihnen möglicherweise nur einige der Aktivitäten zur Verfügung.
 
-Kampagnen können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. Über das Eigenschaften-Fenster der Kampagne können Sie die Marketingaktivität mit einem Elternprogramm oder Unterprogramm verknüpfen.
+Kampagnen können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. Über das Eigenschaften-Fenster der Kampagne können Sie die Marketingaktivität mit einem über- oder untergeordneten Programm verknüpfen.
 
 ## Symbole und Status von Programmen und Kampagnen      {#programs-and-campaigns-icons-and-statuses}
 
