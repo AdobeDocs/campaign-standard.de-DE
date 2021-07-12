@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: Datenschutz
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Adobe Campaign bietet zusätzliche Funktionen, mit denen Sie sich als Datenveran
 
 >[!NOTE]
 >
->Diese Tools helfen Ihnen bei der Einhaltung der Datenschutzbestimmungen von DSGVO, CCPA und PDPA. Weitere Informationen zu diesen Vorschriften finden Sie auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Diese Tools helfen Ihnen bei der Einhaltung der Datenschutzbestimmungen von DSGVO, CCPA und PDPA. Weitere Informationen zu diesen Vorschriften finden Sie auf [dieser Seite](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
