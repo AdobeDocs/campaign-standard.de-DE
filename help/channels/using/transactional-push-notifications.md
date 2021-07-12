@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transaktionsnachrichten
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 100%
 
 ---
 
-# Push-Benachrichtigungen für Transaktionen{#transactional-push-notifications}
+# Transaktions-Push-Benachrichtigung{#transactional-push-notifications}
 
 Sie können mit Adobe Campaign Transaktions-Push-Benachrichtigungen an iOS- und Android-Mobilgeräte versenden. Diese Nachrichten werden auf Mobile Apps empfangen, die in Adobe Campaign unter Verwendung des Experience Cloud Mobile SDK eingerichtet werden.
 
@@ -39,7 +39,7 @@ Sie können Adobe Campaign verwenden, um eine **anonyme Transaktions-Push-Benach
 
 In diesem Fall werden nur **die im Ereignis selbst enthaltenen Daten zur Zielgruppenbestimmung verwendet**. Daten aus der integrierten Profildatenbank von Adobe Campaign werden nicht genutzt.
 
-### Ereignisbasierte Transaktions-Push-Benachrichtigung konfigurieren{#configuring-event-based-transactional-push-notification}
+### Ereignisbasierte Transaktions-Push-Benachrichtigung konfigurieren {#configuring-event-based-transactional-push-notification}
 
 Um eine Transaktions-Push-Benachrichtigung an alle Benutzer zu senden, die sich für den Empfang von Benachrichtigungen von Ihrer Mobile App angemeldet haben, erstellen und konfigurieren Sie zunächst ein Ereignis, bei dem die im Ereignis selbst enthaltenen Daten zur Zielgruppenbestimmung verwendet werden.
 
