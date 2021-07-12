@@ -6,13 +6,12 @@ description: Erfahren Sie, wie Sie in Email Designer die Betreffzeile und den Ab
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-Mail-Erstellung
+role: User
 level: Beginner
 exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%
 
@@ -57,5 +56,5 @@ Um den Absendernamen zu definieren, der im Header der gesendeten Nachrichten ang
 **Verwandte Themen:**
 
 * [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block)
+* [Inhaltsbaustein hinzufügen](../../designing/using/personalization.md#adding-a-content-block)
 * [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
