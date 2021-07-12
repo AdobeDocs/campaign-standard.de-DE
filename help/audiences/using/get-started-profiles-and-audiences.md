@@ -7,11 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: Profile
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Segmentieren Sie Ihre Datenbank in Audiences, um die Zielgruppen Ihrer Marketing
 
 Verwalten Sie die Berechtigungen und Einverständniserklärungen der Kunden mithilfe von Diensten und Landingpages, um einfache Opt-in- und Opt-out-Mechanismen einzurichten.
 
-## Segmentierung und Zielgruppenbestimmung {#segmenting-targeting}
+## Segmentierung und Targeting {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
