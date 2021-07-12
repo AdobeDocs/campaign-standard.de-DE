@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsnachrichten
+role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
 ---
 
-# Transaktionsereignisse veröffentlichen {#publishing-transactional-event}
+# Transaktionsereignis veröffentlichen {#publishing-transactional-event}
 
 Sobald die [Konfiguration](../../channels/using/configuring-transactional-event.md) abgeschlossen ist, kann das Ereignis veröffentlicht werden. Die Schritte zum Erstellen einer Vorschau, zum Veröffentlichen, zum Aufheben der Veröffentlichung und zum Löschen eines Ereignisses werden nachfolgend beschrieben.
 
