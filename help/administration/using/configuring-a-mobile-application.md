@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Instanzeneinstellungen
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Weiterführende Informationen finden Sie unter [Kanalspezifische Anwendungskonfi
 1. Falls erforderlich, können Sie Ihre Experience Platform Launch-Eigenschaft löschen.
 Weitere Informationen finden Sie unter [Experience Platform Launch-App löschen](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
-## Technischer Workflow &quot;Mobile App AEPSDK von Launch synchronisieren&quot; {#aepsdk-workflow}
+## Technischer Workflow &quot;Mobile App AEPSDK von Launch synchronisieren&quot;  {#aepsdk-workflow}
 
 Nachdem Sie Ihre Eigenschaft für Mobilgeräte in Experience Platform Launch erstellt und konfiguriert haben, synchronisiert der technische Workflow **[!UICONTROL Mobile App AEPSDK von Launch synchronisieren]** die in Adobe Campaign Standard importierten Adobe Launch-Eigenschaften für Mobilgeräte.
 
