@@ -7,13 +7,12 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Proofs
-role: Business Practitioner
+feature: Testversand
+role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
@@ -41,7 +40,7 @@ Es gibt zwei Typen von Testversandempfängern:
    >
    >Diese Funktion steht nur beim E-Mail-Kanal zur Verfügung.
 
-## Testversand durchführen {#sending-a-proof}
+## Durchführen eines Testversands {#sending-a-proof}
 
 Gehen Sie wie folgt vor, um Testsendungen vorzunehmen:
 
