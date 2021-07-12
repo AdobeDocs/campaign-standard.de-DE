@@ -6,13 +6,12 @@ description: Hier erfahren Sie mehr über die verschiedenen Methoden zur Anreich
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profiles
-role: Business Practitioner
+feature: Profile
+role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -40,7 +39,7 @@ Sie können zwei Arten von Vorlagen einrichten:
 
    Weiterführende Informationen zu Vorlagen zum Datenimport finden Sie im [entsprechenden Handbuch](../../automating/using/importing-data-with-import-templates.md).
 
-## Erfassen von Daten über Landingpages{#collecting-data-from-landing-pages}
+## Erfassen von Daten über Landingpages {#collecting-data-from-landing-pages}
 
 Landingpages sind Webformulare, die zur Datenerfassung und zur Erstellung oder Aktualisierung vorhandener Daten in Ihrer Datenbank verwendet werden können.
 
