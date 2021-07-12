@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Zustellbarkeit
+role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
 ---
 
-# Zustellbarkeit überwachen{#monitor-deliverability}
+# Überwachen der Zustellbarkeit{#monitor-deliverability}
 
 Im Folgenden finden Sie Details zum **[!UICONTROL Versanddurchsatz]**-Bericht sowie zu den unterschiedlichen von Adobe Campaign bereitgestellten Monitoring-Werkzeugen. Hier sind zusätzliche Tipps für das Monitoring der Zustellbarkeit:
 * Prüfen Sie regelmäßig den Versanddurchsatz für die gesamte Plattform, um festzustellen, ob er der ursprünglichen Einstellung entspricht.
