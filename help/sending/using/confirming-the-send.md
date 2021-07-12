@@ -7,13 +7,12 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Leistungsüberwachung
+role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 100%
 
@@ -77,7 +76,7 @@ Die Nachricht kann im Verlauf eines der Zielgruppenprofile angezeigt werden. Nä
 Nach dem Versand einer Nachricht können Sie das Verhalten des Empfängers verfolgen und beobachten, um die Wirkung der Nachricht zu messen. Lesen Sie diesbezüglich auch diese Abschnitte:
 
 * [Nachrichten tracken](../../sending/using/tracking-messages.md)
-* [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md)
+* [Sendungen überwachen](../../sending/using/monitoring-a-delivery.md)
 
 ### Berichte zum Versanderfolg {#delivered-status-report}
 
@@ -99,7 +98,7 @@ Wenn vom erweiterten MTA Softbounces zurückgemeldet werden, werden diese Nachri
 
 Daher sollten Sie bis zum Ende des Gültigkeitszeitraums warten, um den endgültigen Prozentsatz für **[!UICONTROL Zugestellt]** und die endgültige Anzahl der tatsächlich **[!UICONTROL gesendeten]** sowie der **[!UICONTROL fehlgeschlagenen]** Nachrichten anzuzeigen.
 
-### E-Mail-Feedback-Service (Beta) {#email-feedback-service}
+### Email Feedback Service (Beta) {#email-feedback-service}
 
 Mit der EFS-Funktion (Email Feedback Service) wird der Status jeder E-Mail genau gemeldet, da Feedback direkt vom erweiterten MTA (Message Transfer Agent) erfasst wird.
 
@@ -135,7 +134,7 @@ Wenn vom erweiterten MTA Softbounces zurückgemeldet werden, ändert sich der St
 
 ### Durch EFS eingeführte Änderungen {#changes-introduced-by-efs}
 
-Die folgenden Tabellen zeigen die Änderungen der KPIs und Versandlog-Status, die durch die EFS-Funktion eingeführt wurden.
+Die folgenden Tabellen zeigen die Änderungen der KPIs und Versandlogstatus, die durch die EFS-Funktion eingeführt wurden.
 
 **Mit Email Feedback Service**
 
