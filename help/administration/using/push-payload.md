@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instanzeneinstellungen
+role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 100%
 
 ---
 
-# Payload-Struktur der Push-Nachrichten verstehen {#push-payload}
+# Payload-Struktur der Push-Benachrichtigungen verstehen {#push-payload}
 
 Mit Adobe Campaign können Sie personalisierte und segmentierte Push-Benachrichtigungen auf iOS- und Android-Mobilgeräten an mobile Anwendungen (Mobile Apps) senden.
 
