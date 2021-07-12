@@ -6,13 +6,12 @@ description: Hier erfahren Sie, wie Versandwarnungen verwendet werden.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
-role: Business Practitioner
+feature: Testversand
+role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '2299'
 ht-degree: 100%
 
@@ -137,7 +136,7 @@ Für jede Bedingung können Sie folgende Einstellungen festlegen:
 
 * [Versandlogs](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Häufigkeit der Versandwarnungen](#alerting-frequency)
-* [Symbole und Status von Marketingaktivitäten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Symbole und Status von Marketingaktivitäten       ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Versandwarnungsbedingung erstellen         {#creating-a-delivery-alerting-criterion}
 
