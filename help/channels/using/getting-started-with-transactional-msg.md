@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsnachrichten
+role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 # Erste Schritte mit Transaktionsnachrichten {#getting-started-with-transactional-messaging}
 
-## Übersicht    {#overview}
+## Übersicht {#overview}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
@@ -57,7 +56,7 @@ Mit Adobe Campaign können Sie eine Benachrichtigungs-E-Mail an Kunden senden, d
 
 Die wichtigsten Schritte für die Einrichtung sind nachfolgend in [diesem Abschnitt](#key-steps) beschrieben.
 
-## Typen von Transaktionsnachrichten {#transactional-message-types}
+## Transaktionsnachrichtentypen {#transactional-message-types}
 
 In Adobe Campaign sind zwei Arten von Transaktionsnachrichten verfügbar.
 
@@ -136,7 +135,7 @@ Sobald ein Benutzer die Website verlässt, ohne die Produkte in seinem Warenkorb
 
 ## Verwandte Themen
 
-* [Die wichtigsten Schritte im Nachrichtenversand](../../channels/using/key-steps-to-send-a-message.md)
+* [Wichtigste Schritte im Nachrichtenversand](../../channels/using/key-steps-to-send-a-message.md)
 * [Erste Schritte mit Kommunikationskanälen](../../channels/using/get-started-communication-channels.md)
-* [Push-Benachrichtigungen für Transaktionen](../../channels/using/transactional-push-notifications.md)
+* [Transaktions-Push-Benachrichtigung](../../channels/using/transactional-push-notifications.md)
 * [Folgenachrichten](../../channels/using/follow-up-messages.md)
