@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 feature: Typologieregeln
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
