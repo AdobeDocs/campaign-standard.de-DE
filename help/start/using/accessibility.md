@@ -6,13 +6,12 @@ description: Erfahren Sie mehr über die Unterstützung von Barrierefreiheit in 
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: Campaigns
-role: Business Practitioner
+feature: Kampagnen
+role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -95,7 +94,7 @@ Bitte beachten Sie, dass die Sprache bei der Installation eingerichtet wird und 
 | Tab | Durch einzelne Elemente der Benutzeroberfläche navigieren |
 | Eingabe oder Leerzeichen | Ausgewähltes Element aktivieren |
 
-### Email Designer {#email-designer-shortcuts}
+### E-Mail Designer {#email-designer-shortcuts}
 
 | Tastenkombination | Aktion |
 |:-:|:-:|
@@ -125,7 +124,7 @@ Bitte beachten Sie, dass die Sprache bei der Installation eingerichtet wird und 
 
 ## Weitere Informationen {#further-reading}
 
-Adobe Campaign Standard ist bestrebt, eine wachsendes Maß an Barrierefreiheit zu gewährleisten und das Produkt so benutzerfreundlich wie möglich zu gestalten.
+Adobe Campaign Standard ist bestrebt, ein wachsendes Maß an Barrierefreiheit zu gewährleisten und das Produkt so benutzerfreundlich wie möglich zu gestalten.
 
 Wir empfehlen Ihnen, das [Adobe Accessibility Feedback-Formular](https://www.adobe.com/accessibility/feedback.html) zu verwenden, um Verbesserungsvorschläge und Probleme mit der Barrierefreiheit zu melden.
 
