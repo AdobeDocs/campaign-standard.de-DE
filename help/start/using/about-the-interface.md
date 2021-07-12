@@ -6,13 +6,12 @@ description: Der Arbeitsbereich von Campaign bietet die benutzerfreundliche Adob
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: Übersicht
+role: User
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -28,7 +27,7 @@ Die Benutzeroberfläche, Funktionen und Optionen von Campaign können je nach Ve
 
 Bitte beachten Sie, dass die Sprache bei der Installation eingerichtet wird und danach nicht mehr geändert werden kann.
 
-Um eine optimale Ergonomie zu gewährleisten und neuen Funktionalitäten Rechnung zu tragen, werden die Adobe-Campaign-Benutzeroberfläche sowie alle darin enthaltenen Elemente regelmäßig aktualisiert. Aus diesem Grund werden Sie womöglich Unterschiede zwischen der aktuell von Ihnen verwendeten Version und den in der vorliegenden Dokumentation abgebildeten Bildschirmen bemerken.
+Um den unterschiedlichen Verwendungszwecken und neuen Funktionalitäten Rechnung zu tragen, werden die Adobe Campaign-Benutzeroberfläche sowie alle darin enthaltenen Elemente regelmäßig aktualisiert. Aus diesem Grund werden Sie womöglich Unterschiede zwischen der aktuell von Ihnen verwendeten Version und den in der vorliegenden Dokumentation abgebildeten Bildschirmen bemerken.
 
 Alle Lösungen weisen die gleichen Navigationsprinzipien auf.
 
