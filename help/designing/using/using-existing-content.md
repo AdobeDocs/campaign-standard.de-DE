@@ -6,13 +6,12 @@ description: Erfahren Sie, wie Sie in Email Designer E-Mails aus vorhandenen Inh
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-Mail-Erstellung
+role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -171,7 +170,7 @@ Weiterführende Informationen zur Konvertierung einer vorhandenen E-Mail in eine
 * [Einführungsvideo für Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Neuen E-Mail-Inhalt gestalten](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTML-Inhalte konvertieren {#converting-an-html-content}
+## Konvertieren von HTML-Inhalten {#converting-an-html-content}
 
 Wenn Sie sich selbst ein Rahmenwerk aus modularen Vorlagen und Fragmenten erstellen möchten, um sie in künftigen E-Mails wiederzuverwenden und zu kombinieren, sollten Sie Ihre E-Mail-HTML-Inhalte in Email Designer-Vorlagen konvertieren.
 
