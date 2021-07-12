@@ -9,13 +9,12 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
-role: Business Practitioner
+feature: Datenschutz
+role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -36,7 +35,7 @@ Die unten aufgelisteten Elemente verlinken zu den wichtigsten Begriffen und Konz
 * [Recht auf Zugriff und Recht auf Vergessenwerden](../../start/using/privacy-management.md#right-access-forgotten)
 * [Einverständnis, Datenbeibehaltung und Benutzerrollen](../../start/using/privacy-management.md#consent-retention-roles)
 
-## Vorbereitung auf Datenschutzverordnungen{#privacy-regulations-readiness}
+## Vorbereitung auf Datenschutzverordnungen {#privacy-regulations-readiness}
 
 **Was empfiehlt Adobe Campaign, um die neuesten Datenschutzverordnungen einzuhalten?**
 
@@ -54,7 +53,7 @@ Adobe bietet keine Rechtsberatung. Sie sollten mit Ihrer eigenen Rechtsabteilung
 
 **Überarbeitung des Einverständnisprozesses**
 
-* Nennen und aktualisieren Sie alle für die DSGVO relevanten Kontaktpunkte der Datenerfassung (z. B.: Sprache, Verfahren zur Erteilung des Einverständnisses und Einverständnisprotokolle).
+* Nennen und aktualisieren Sie alle für die DSGVO relevanten Kontaktpunkte der Datenerfassung (z. B. Sprache, Verfahren zur Erteilung des Einverständnisses und Einverständnisprotokolle).
 
 * Achten Sie darauf, dass alle Marketing-E-Mails Abmelde-Links enthalten.
 
@@ -72,7 +71,7 @@ Adobe bietet keine Rechtsberatung. Sie sollten mit Ihrer eigenen Rechtsabteilung
 
 * Achten Sie darauf, dass jeder Benutzer von Adobe Campaign die entsprechenden Zugriffsberechtigungen für die Durchführung seiner Aufgaben hat, aber keine darüber hinausreichenden Rechte.
 
-## Benutzerinteraktion aufrecht erhalten{#preserve-user-engagement}
+## Benutzerinteraktion aufrechterhalten {#preserve-user-engagement}
 
 **Wie können Datenverantwortliche das Einverständnis ihrer Kunden erlangen, ohne die Benutzerinteraktion zu beeinträchtigen?**
 
@@ -82,7 +81,7 @@ Es kann sogar Fälle geben, in denen bestimmte Einverständniserklärungen aktua
 
 Anstatt diese zusätzlichen Anforderungen als Gefahr für die Werbewirtschaft zu erachten, könnten Marketing-Experten sie als echten Indikator für Markeninteraktion und -loyalität sowie Kundenzufriedenheit und Vertrauen nutzen.
 
-## Einverständnis verwalten{#manage-consent}
+## Einverständnisverwaltung {#manage-consent}
 
 **Wie können Datenverantwortliche das Einverständnis in Adobe Campaign verwalten?**
 
