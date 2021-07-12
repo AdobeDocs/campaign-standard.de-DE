@@ -8,11 +8,11 @@ topic-tags: deliveries-best-practices
 index: y
 description: Erfahren Sie, wie Sie gängige Probleme bei der Gestaltung Ihres Nachrichteninhalts vermeiden, die die Ausführung des Versands behindern könnten. 
 feature: Zustellbarkeit
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ Verwenden Sie responsive, in der Größe veränderbare Bilder. Beachten Sie, das
 
 Damit Empfänger auf die Bilder zugreifen können, müssen die in E-Mails und öffentlichen Ressourcen verwendeten Bilder, die mit Kampagnen verknüpft sind, auf einem extern zugänglichen Server gespeichert sein.
 
-## Ansehen der Nachricht in der Vorschau {#preview-msg}
+## Sehen Sie sich Ihre Nachricht in der Vorschau an {#preview-msg}
 
 Adobe empfiehlt eine Vorschau Ihrer Nachricht, um die Personalisierung zu überprüfen und festzustellen, wie Ihre Empfänger den Versand sehen werden.
 
