@@ -6,13 +6,12 @@ description: Erfahren Sie, wie Sie eine E-Mail in Email Designer personalisieren
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-Mail-Erstellung
+role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '2717'
 ht-degree: 100%
 
@@ -26,7 +25,7 @@ Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachr
 * Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](#adding-a-content-block).
 * Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](#personalizing-the-sender).
 * Betreff einer E-Mail personalisieren. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#subject-line).
-* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email).
+* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email)..
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
@@ -86,7 +85,7 @@ Der entsprechende Platzhalter wird zum Zeitpunkt der Personalisierung (d. h. b
 >
 >Bei von einem Workflow aus erstellten E-Mails stehen außerdem die innerhalb des Workflows berechneten Zusatzdaten in den Personalisierungsfeldern zur Verfügung. Weiterführende Informationen zur Hinzufügung von Zusatzdaten innerhalb von Workflows finden Sie im Abschnitt [Daten anreichern](../../automating/using/about-targeting-activities.md#enriching-data).
 
-## Inhaltsbausteine{#adding-a-content-block}
+## Inhaltsbaustein hinzufügen{#adding-a-content-block}
 
 Adobe Campaign bietet eine Reihe von vorkonfigurierten Inhaltsbausteinen. Diese Bausteine sind dynamisch und personalisierbar und sie weisen ein spezifisches Rendering auf. Sie ermöglichen beispielsweise das Einfügen einer bestimmten Anrede in Abhängigkeit von den verfügbaren Empfängerinformationen oder auch eines Links zur Mirrorseite.
 
@@ -179,7 +178,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourc
 **Verwandte Themen:**
 
 * [Personalisierungsfeld einfügen](#inserting-a-personalization-field)
-* [Inhaltsbausteine](#adding-a-content-block)
+* [Inhaltsbaustein hinzufügen](#adding-a-content-block)
 * [Dynamische Inhalte in einer E-Mail definieren](#defining-dynamic-content-in-an-email)
 
 ## Bildquellen personalisieren{#personalizing-an-image-source}
@@ -428,5 +427,5 @@ Die Illustration zeigt die im dynamischen Inhalt für diese Altersgruppe konfigu
 
 **Verwandte Themen:**
 
-* [Audiences erstellen](../../audiences/using/creating-audiences.md)
+* [Erstellen von Audiences](../../audiences/using/creating-audiences.md)
 * [Versandvorbereitung](../../sending/using/preparing-the-send.md)
