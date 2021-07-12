@@ -7,13 +7,12 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Wenn Ihr Inhalt fertiggestellt ist, müssen Sie sorgfältig auswählen, wer Ihre Nachricht erhalten soll."'
-feature: Deliverability
-role: Business Practitioner
+feature: Zustellbarkeit
+role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
 
