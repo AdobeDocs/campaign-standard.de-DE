@@ -5,13 +5,12 @@ title: Aktualisierungen und Wartungsmaßnahmen
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: Instanzeneinstellungen
+role: Admin
 level: Experienced
 exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
