@@ -6,13 +6,12 @@ description: Anhand von Ermüdungsregeln können Sie verhindern, dass einzelne P
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
-role: Business Practitioner
+feature: Typologieregeln
+role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '2447'
 ht-degree: 100%
 
@@ -32,7 +31,7 @@ Um Ermüdungsregeln zu implementieren, müssen Sie eine Höchstzahl von Nachrich
 
 Verwandte Themen:
 
-* [Vorbereitung](../../administration/using/configuring-email-channel.md#preparation)
+* [Vorbereitung             ](../../administration/using/configuring-email-channel.md#preparation)
 * [Typologien verwalten](../../sending/using/managing-typologies.md)
 * [Typologieregeln](../../sending/using/managing-typology-rules.md)
 * [Kommunikationsfrequenz zur Vermeidung von Kontaktmüdigkeit optimieren](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
