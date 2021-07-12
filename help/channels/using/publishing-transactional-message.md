@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsnachrichten
+role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 100%
 
@@ -36,9 +35,9 @@ Die nachstehende Tabelle zeigt den allgemeinen Veröffentlichungsprozess bei Tra
 ![](assets/message-center_pub-process.png)
 
 **Verwandte Themen:**
-* [Transaktionsnachrichten veröffentlichen](#publishing-a-transactional-message)
+* [Transaktionsnachricht veröffentlichen](#publishing-a-transactional-message)
 * [Transaktionsnachricht aussetzen](#suspending-a-transactional-message-publication)
-* [Veröffentlichung von Transaktionsnachrichten aufheben](#unpublishing-a-transactional-message)
+* [Veröffentlichung einer Transaktionsnachricht aufheben  ](#unpublishing-a-transactional-message)
 * [Ereignisse veröffentlichen](../../channels/using/publishing-transactional-event.md)
 
 <!--## Testing a transactional message {#testing-a-transactional-message}
@@ -89,7 +88,7 @@ Once you have created one or more specific test profiles and saved your transact
 
 The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
-## Transaktionsnachricht veröffentlichen   {#publishing-a-transactional-message}
+## Transaktionsnachricht veröffentlichen {#publishing-a-transactional-message}
 
 Nachdem Sie Ihre Transaktionsnachricht bearbeitet und getestet haben, kann diese veröffentlicht werden. **[!UICONTROL Veröffentlichen]** Sie die Änderungen mithilfe der gleichnamigen Schaltfläche.
 
@@ -102,7 +101,7 @@ Bei jeder Auslösung des Ereignisses &quot;Stehen gelassener Warenkorb&quot; wir
 ![](assets/message-center_13.png)
 
 **Verwandte Themen**:
-* [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md)
+* [Transaktionsnachricht bearbeiten](../../channels/using/editing-transactional-message.md)
 * [Transaktionsnachrichten testen](../../channels/using/testing-transactional-message.md)
 * [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
