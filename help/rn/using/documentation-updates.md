@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Übersicht
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '6883'
 ht-degree: 99%
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
-## Version 21.2 – Juni 2021 {#release-21-2---june-2021}
+## Version 21.2 - Juni 2021              {#release-21-2---june-2021}
 
 **Neue Funktionen in dieser Version**
 
@@ -60,9 +60,9 @@ Es wurden Informationen zur Implementierung des lokalen Trackings für Mobile Ap
 
 Der Abschnitt [Zustellbarkeit](../../sending/using/about-deliverability.md) wurde aktualisiert und enthält nun Links zum neuen [Adobe-Handbuch mit Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de). Alle allgemeinen Informationen zur Zustellbarkeit, die für verschiedene Adobe-Lösungen gelten können, wurden in den [Anhang des Handbuchs mit Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=de#additional-resources) verschoben.
 
-## Version 21.1 – Februar 2021 {#release-21-1---february-2021}
+## Version 21.1 - Februar 2021   {#release-21-1---february-2021}
 
-**Neue Funktionen in der Version**
+**Neue Funktionen in dieser Version**
 
 Email Feedback Service – [mehr dazu](../../sending/using/confirming-the-send.md#message-indicators)
 
@@ -112,7 +112,7 @@ Der Abschnitt **Transaktionsnachrichten** wurde neu organisiert und zur besseren
 
 Im Abschnitt „Adobe Experience Platform Data Connector“ wurden Informationen zum Validierungsfehler bei der Datenzuordnung im Zusammenhang mit der Datenschutzverwaltung und zur dessen Behebung hinzugefügt – [mehr dazu](../../integrating/using/aep-mapping-activation.md)
 
-## Version 20.4 - Oktober 2020 {#release-20-4---october-2020}
+## Version 20.4 - Oktober 2020   {#release-20-4---october-2020}
 
 **Neue Funktionen in der Version**
 
@@ -166,7 +166,7 @@ Die Seite zur Datenschutzverwaltung in Campaign Standard wurde aktualisiert und 
 
 Neue KI-gestützte E-Mail-Funktionen: Sendezeitoptimierung und Profilbewertung – [mehr dazu](../../sending/using/predictive.md)
 
-## Juni 2020{#doc-updates-june-2020}
+## Juni 2020 {#doc-updates-june-2020}
 
 Anwendungsbeispiele für Workflows wurden aktualisiert und in thematische Bereiche neu angeordnet – [mehr dazu](../../automating/using/about-workflow-use-cases.md)
 
@@ -186,7 +186,7 @@ Der Abschnitt zu den E-Mail-Kanal-Parametern wurde näher erläutert und enthäl
 
 Der Abschnitt zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs ist jetzt in der Hauptdokumentation verfügbar und enthält weitere Informationen zum technischen Workflow &quot;Mobile App AEPSDK von Launch synchronisieren&quot; – [mehr dazu](../../administration/using/configuring-a-mobile-application.md)
 
-## Version 20.3 - Mai 2020 {#release-20-3---may-2020}
+## Version 20.3 - Mai 2020   {#release-20-3---may-2020}
 
 **Neue Funktionen in der Version**
 
@@ -230,9 +230,9 @@ Best Practices für Transaktionsnachrichten und das Löschen nicht verwendeter E
 
 Der Abschnitt zum Konfigurieren des E-Mail-Kanals wurde aktualisiert und enthält nun Informationen zu allen E-Mail-Einstellungen, die jetzt vom erweiterten MTA von Adobe Campaign verwaltet werden – [mehr dazu](../../administration/using/configuring-email-channel.md)
 
-Der Abschnitt zu den Transaktionsnachrichten wurde aktualisiert und enthält nun weiterführende Informationen zu den Berechtigungen, die zum Bearbeiten von Ereigniskonfigurationen und zum Anreichern von Kollektionen in Transaktionsnachrichten erforderlich sind. [mehr dazu](../../channels/using/configuring-transactional-event.md)
+Der Abschnitt zu den Transaktionsnachrichten wurde aktualisiert und enthält nun weiterführende Informationen zu den Berechtigungen, die zum Bearbeiten von Ereigniskonfigurationen und zum Anreichern von Kollektionen in Transaktionsnachrichten erforderlich sind. [Mehr dazu](../../channels/using/configuring-transactional-event.md)
 
-## Version 20.2 - April 2020 {#release-20-2---april-2020}
+## Version 20.2 - April 2020   {#release-20-2---april-2020}
 
 **Neue Funktionen in der Version**
 
@@ -254,9 +254,9 @@ Es gibt jetzt einen neuen Abschnitt zum Löschen einer Ereigniskonfiguration –
 
 Die Abschnitte für den Transaktionsnachrichtenversand wurden entsprechend den zahlreichen geringfügigen Aktualisierungen und Verbesserungen der Benutzeroberfläche aktualisiert – [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 
-Informationen zu den Limits externer API-Aktivitäten wurden aktualisiert – [Mehr dazu](../../automating/using/external-api.md)
+Informationen zu den Limits externer API-Aktivitäten wurden aktualisiert – [mehr dazu](../../automating/using/external-api.md)
 
-## März 2020 {#doc-updates-march-2020}
+## März 2020 {#doc-updates-march-2020}
 
 Genauere Informationen über den erweiterten MTA wurden der Hauptdokumentation hinzugefügt, insbesondere bezüglich der Regeln zum Umgang mit E-Mails und der Qualizierung von Bounce Messages – [mehr dazu](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -274,7 +274,7 @@ Informationen wurden zur nativen Berechtigung **[!UICONTROL Workflows]** hinzuge
 
 Es wurden Informationen zum Feld **[!UICONTROL Verlauf in Tagen]** hinzugefügt, das in den Eigenschaften von Workflows verfügbar ist – [mehr dazu](../../automating/using/about-workflow-execution.md)
 
-## Version 20.1 – Februar 2020 {#release-20-1---february-2020}
+## Version 20.1 - Februar 2020   {#release-20-1---february-2020}
 
 **Neue Funktionen in der Version**
 
@@ -300,7 +300,7 @@ Die Dokumentation zum erweiterten MTA von Adobe Campaign ist jetzt verfügbar. I
 
 Es wurden Hinweise hinzugefügt, die darüber informieren, dass die URLs des Anwendungs-Servers und des Mirrorseiten-Servers sicher sein müssen, damit die Vorschau der Landingpage und der Mirrorseite über die Benutzeroberfläche von Campaign angezeigt werden kann – [mehr dazu](../../administration/using/branding.md#configuring-and-using-brands)
 
-Der Abschnitt zum Exportieren von Protokollen wurde aktualisiert, um über die Verfügbarkeit der Versandlog-ID in den Ressourcen Versandlogs und Trackinglogs zu informieren, mit der für jedes Protokoll eine eindeutige Kennung exportiert werden kann – [Mehr dazu](../../automating/using/exporting-logs.md)
+Der Abschnitt zum Exportieren von Protokollen wurde aktualisiert, um über die Verfügbarkeit der Versandlog-ID in den Ressourcen Versandlogs und Trackinglogs zu informieren, mit der für jedes Protokoll eine eindeutige Kennung exportiert werden kann – [mehr dazu](../../automating/using/exporting-logs.md)
 
 ## Januar 2020 {#doc-updates-january-2020}
 
@@ -344,7 +344,7 @@ Das Datenmodell wurde in die Dokumentation von Campaign Standard integriert – 
 
 Der API-Dokumentation wurde der neue API-Endpunkt **/customResources** hinzugefügt. [mehr dazu](../../api/using/interacting-with-custom-resources.md)
 
-## Version 19.4 – Oktober 2019 {#release-19-4---october-2019}
+## Version 19.4 - Oktober 2019   {#release-19-4---october-2019}
 
 **Neue Funktionen in der Version**
 
@@ -400,7 +400,7 @@ Der Abschnitt, in dem Inhaltsvorlagen und Fragmente beschrieben werden, wurde ak
 
 Ein neuer Abschnitt zum Speichern von E-Mail-Inhalt als Vorlage in E-Mail-Designer wurde hinzugefügt – [mehr dazu](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
-## Version 19.3 - Juli 2019 {#release-19-3---july-2019}
+## Version 19.3 - Juli 2019   {#release-19-3---july-2019}
 
 **Neue Funktionen in der Version**
 
@@ -452,7 +452,7 @@ Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisi
 
 Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder von benutzerdefinierten Ressourcen, Schlüsseln, Indizes und Links – [mehr dazu](../../developing/using/creating-or-extending-the-resource.md)
 
-## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
+## 19.2 - Version Mai 2019  {#release-19-2---may-2019}
 
 **Neue Funktionen in der Version**
 
@@ -472,7 +472,7 @@ Ein neuer Artikel zur Releaseplanung wurde veröffentlicht, in der bekannt gegeb
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
-Die folgende [Seite](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) ist von nun an die offizielle Videoseite für Adobe Campaign Standard.
+Die folgende [Seite](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=de) ist von nun an die offizielle Videoseite für Adobe Campaign Standard.
 
 Ein Abschnitt zur Datenbeibehaltung wurde hinzugefügt, einschließlich der standardmäßigen Aufbewahrungswerte für Standardtabellen – [mehr dazu](../../administration/using/data-retention.md)
 
@@ -520,7 +520,7 @@ Die Seite mit veralteten und entfernten Funktionen wurde aktualisiert – [mehr 
 
 Der Abschnitt zur Dreamweaver-Integration wurde aktualisiert und verbessert – [mehr dazu](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
-## Version 19.1 – Februar 2019 {#release-19-1---february-2019}
+## Version 19.1 - Februar 2019   {#release-19-1---february-2019}
 
 **Neue Funktionen in der Version**
 
@@ -576,7 +576,7 @@ Im Abschnitt zur Daten-Update-Aktivität wurden Informationen hinzugefügt, in d
 
 Im Abschnitt zur Dateiextraktions-Aktivität wurde eine Beschreibung einer neuen Option hinzugefügt, mit der der Dateierstellungsprozess deaktiviert werden kann, wenn die ausgehende Transition leer ist – [mehr dazu](../../automating/using/extract-file.md#configuration)
 
-## Version 19.0 - Januar 2019 {#release-19-0---january-2019}
+## Version 19.0 - Januar 2019   {#release-19-0---january-2019}
 
 **Neue Funktionen in der Version**
 
@@ -616,7 +616,7 @@ Videos wurden aktualisiert und [hierher](https://experienceleague.adobe.com/docs
 
 Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
-## Version 18.9 - September 2018  {#release-18-9---september-2018}
+## Version 18.9 - September 2018   {#release-18-9---september-2018}
 
 **Neue Funktionen in der Version**
 
@@ -656,7 +656,7 @@ Informationen zur Standardsprache bei einer mehrsprachigen Vorlage wurden hinzug
 
 Ab Version 18.7 enthält das Handbuch für Benutzer &amp; Sicherheit nicht mehr die eingestellte Funktion der geografische Einheit für neue Campaign-Standard-Instanzen und für bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden – [mehr dazu](../../rn/using/deprecated-features.md)
 
-## Version 18.6 - Juni 2018 {#release-18-6---june-2018}
+## Version 18.6 - Juni 2018              {#release-18-6---june-2018}
 
 **Neue Funktionen in der Version**
 
@@ -676,7 +676,7 @@ Im Abfrageaktivität-Abschnitt wurde ein Beispiel hinzugefügt, in dem erläuter
 
 In der API-Dokumentation wurde ein Abschnitt zu **benutzerdefinierten Filtern** hinzugefügt – [mehr dazu](../../api/using/filtering.md)
 
-## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018              {#release-18-5---may-2018}
 
 **Neue Funktionen in der Version**
 
@@ -854,7 +854,7 @@ Neuer Abschnitt zu Primärschlüsseln und zur Verwendung einer Kennung als Schl�
 
 Informationen zum Filtern mit einzelnen und mehreren Filtern in der API hinzugefügt – [mehr dazu](../../api/using/filtering.md)
 
-## Version 17.9 - September 2017 {#release-17-9---september-2017}
+## Version 17.9 - September 2017                {#release-17-9---september-2017}
 
 **Neue Funktionen in der Version**
 
@@ -960,7 +960,7 @@ Wiederkehrende Push-Benachrichtigungen – [mehr dazu](../../automating/using/pu
 
 Amazon Simple Storage Service (S3) Connector – [mehr dazu](../../administration/using/external-accounts.md)
 
-Integration von Dreamweaver live – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Integration von Dreamweaver live – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
