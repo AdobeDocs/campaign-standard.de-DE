@@ -7,11 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: Übersicht
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Mehr dazu:
 * [Vorlagen für mehrsprachige Nachrichten](../../channels/using/multilingual-messages-template.md)
 * [Vorlagen für Marketing-Aktivitäten](../../start/using/marketing-activity-templates.md)
 
-## Kommunikationskanäle{#available-communication-channels}
+## Kommunikationskanäle {#available-communication-channels}
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
@@ -82,7 +82,7 @@ Mehr dazu:
 * [Transaktions-Push-Benachrichtigung](../../channels/using/transactional-push-notifications.md)
 * [Folgenachrichten](../../channels/using/follow-up-messages.md)
 
-## Landingpages {#landing-pages}
+## Landingpages  {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
