@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsnachrichten
+role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1749'
 ht-degree: 100%
 
 ---
 
-# Transaktionsereignisse konfigurieren {#configuring-transactional-event}
+# Transaktionsereignis konfigurieren {#configuring-transactional-event}
 
 Um eine Transaktionsnachricht mit Adobe Campaign zu senden, müssen Sie zunächst die Struktur der Ereignisdaten beschreiben, indem Sie ein Ereignis erstellen und konfigurieren.
 
@@ -99,8 +98,8 @@ Dies ist die API-Vorschau für dieses Beispiel:
 **Verwandte Themen:**
 
 * [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Produktlisten in Transaktionsnachrichten verwenden](../../designing/using/using-product-listings.md)
-* [Transaktionsnachrichten veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Produktlisten in Transaktionsnachrichten verwenden              ](../../designing/using/using-product-listings.md)
+* [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Ereignis anreichern {#enriching-the-transactional-message-content}
 
@@ -145,8 +144,8 @@ Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich der I
 **Verwandte Themen:**
 
 * [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Transaktionsnachrichten personalisieren](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
-* [Transaktionsnachrichten veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Transaktionsnachricht personalisieren             ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
+* [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Durchsuchen von Transaktionsereignissen {#searching-transactional-events}
 
@@ -224,7 +223,7 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
 
-### Push-Benachrichtigungen für Transaktionen {#transactional-push-notifications}
+### Transaktions-Push-Benachrichtigung {#transactional-push-notifications}
 
 Sie können zwei Arten von Transaktions-Push-Benachrichtigungen versenden:
 * Eine anonyme Transaktions-Push-Benachrichtigung an alle Benutzer, die sich für den Erhalt von Benachrichtigungen von Ihrer Mobile App angemeldet haben. Siehe [Ereignisbasierte Transaktions-Push-Benachrichtigungen konfigurieren](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications).
