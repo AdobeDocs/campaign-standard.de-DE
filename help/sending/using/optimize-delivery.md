@@ -8,11 +8,11 @@ topic-tags: deliveries-best-practices
 index: y
 description: Erfahren Sie, wie Sie den vorgelagerten Versandprozess sichern und optimieren.
 feature: Zustellbarkeit
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Wenn Sie auf einer neuen Plattform erstmals E-Mails versenden, verwenden Sie mö
 
 * Die Quarantäneverwaltung hilft Ihnen auch, die Kosten des SMS-Versands zu senken, indem fehlerhafte Telefonnummern aus dem Versand ausgeschlossen werden.
 
-## Anmeldemöglichkeit mit doppelter Bestätigung (Double opt-in){#double-opt-in}
+## Anmeldemöglichkeit mit doppelter Bestätigung (Double opt-in) {#double-opt-in}
 
 Um den Nachrichtenversand an ungültige Adressen zu vermeiden, unnütze Kommunikation zu minimieren und die Reputation des Absenders zu schützen, empfiehlt Adobe die doppelte Anmeldung zur Bestätigung eines Abonnements. Damit können Sie sicherstellen, dass sich ein Empfänger absichtlich angemeldet hat.
 
