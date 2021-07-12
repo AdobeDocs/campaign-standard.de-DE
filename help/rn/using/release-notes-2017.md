@@ -7,11 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Übersicht
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '4689'
 ht-degree: 100%
 
@@ -402,7 +402,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell Versandzeitpunkt optimieren<br /> </td> 
@@ -467,7 +467,7 @@ _Workflows_
 * Fehlerkorrektur – der Inhalt der Zurückweisungs-Transition der Aktivität **[!UICONTROL Datei laden]** kann jetzt gelesen werden.
 * Fehlerkorrektur – vertauschte Spalten werden jetzt bei der Konfiguration der Aktivität **[!UICONTROL Datei laden]** berücksichtigt.
 
-## Version 17.1 - Januar 2017 {#release-17-1---january-2017}
+## Version 17.1 - Januar 2017   {#release-17-1---january-2017}
 
 **Neue Funktionen**
 
