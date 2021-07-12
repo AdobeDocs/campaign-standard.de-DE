@@ -6,13 +6,12 @@ description: '"Jeder Kanal muss konfiguriert werden: technische Konfiguration, N
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
-role: Administrator
+feature: Instanzeneinstellungen
+role: Admin
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
