@@ -7,13 +7,12 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Help and support options
-role: Business Practitioner
+feature: Hilfe und Support-Optionen
+role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 Benötigen Sie Unterstützung für Campaign Standard? Dann sind Sie hier genau richtig!
 
-Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Online-Ressourcen und das Supportportal. Sie können auch der Campaign-Community beitreten, die Experten fragen oder ein Ticket erstellen.
+Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Online-Ressourcen und das Support-Portal. Sie können auch der Campaign-Community beitreten, die Experten fragen oder ein Ticket erstellen.
 
 <table>
     <tr>
@@ -131,4 +130,4 @@ Durch das Erstellen eines Tickets können Sie sich an das Adobe-Supportteam wend
 
 Um in diesem neuen System ein Ticket zu erstellen oder eine Chat-Sitzung zu starten, müssen Sie sich mit [Adobe Admin Console](https://adminconsole.adobe.com/overview) verbinden.
 
-Gehen Sie dazu wie auf [dieser Seite](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) beschrieben vor.
+Gehen Sie dazu wie auf [dieser Seite](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) beschrieben vor.
