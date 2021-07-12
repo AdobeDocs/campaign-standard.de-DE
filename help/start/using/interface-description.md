@@ -6,19 +6,18 @@ description: '"Hier erfahren Sie, wie der Adobe-Campaign-Arbeitsbereich – Star
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: Übersicht
+role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
 
 ---
 
-# Benutzeroberfläche{#interface-description}
+# Beschreibung der Benutzeroberfläche{#interface-description}
 
 Adobe Campaign besitzt verschiedene Menüs und Bildschirme zur effektiven Verwaltung Ihrer Kampagnen.
 
@@ -27,7 +26,7 @@ Alle Adobe-Campaign-Bildschirme weisen folgende Elemente auf:
 * eine im oberen Bildschirmbereich gelegene Navigationsleiste,
 * ein erweitertes Menü zum Zugriff auf spezifische Funktionen und Konfigurationen,
 * einen zentralen Arbeitsbereich zur Bearbeitung der verschiedenen Elemente.
-* Ein seitliches Fenster, in dem je nach Kontext die angezeigten Elemente gefiltert oder gesucht werden können.
+* ein seitliches Fenster, in dem je nach Kontext die angezeigten Elemente gefiltert oder gesucht werden können.
 
 ![](assets/ux_interface_01.png)
 
@@ -45,7 +44,7 @@ Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnel
 * Die Karte **[!UICONTROL Marketingaktivitäten]** bietet Zugriff auf eine Liste aller Programme, Kampagnen und Marketingaktivitäten (E-Mails, SMS, Workflows, Landingpages), unabhängig vom Programm oder der Kampagne, der letztere angehören. Die Liste kann nach Name, Datum, Status oder Aktivitätstyp gefiltert werden. Weiterführende Informationen finden Sie im Abschnitt [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 * Die Karte **[!UICONTROL Programme &amp; Kampagnen]** bietet Zugriff auf die Liste aller Programme. Sie können an dieser Stelle insbesondere Kampagnen erstellen und verwalten. Weiterführende Informationen finden Sie im Abschnitt [Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * Die Karte **[!UICONTROL Planung]** bietet Zugriff auf eine zeitliche Übersicht Ihrer Marketingaktivitäten. Der Bildschirm bietet die Möglichkeit, aktuelle Programme und deren Inhalt anzuzeigen. Weiterführende Informationen finden Sie im Abschnitt [Planung](../../start/using/timeline.md).
-* Die Karte **[!UICONTROL Profile]** bietet Zugriff auf die Liste aller in der Datenbank gespeicherten Kontakte und die Anzeige der jeden einzelnen Kontakt betreffenden Ereignisse. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
+* Die Karte **[!UICONTROL Kundenprofile]** bietet Zugriff auf die Liste aller in der Datenbank gespeicherten Kontakte und die Anzeige der jeden einzelnen Kontakt betreffenden Ereignisse. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
 * Die Karte **[!UICONTROL Audiences]** bietet Zugriff auf die Liste existierender Audiences. Von hier können Sie vorhandene Audiences abrufen und neue erstellen. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Audiences](../../audiences/using/about-audiences.md).
 
 ## Symbolleiste             {#top-bar}
@@ -127,7 +126,7 @@ Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamische
 
 ![](assets/ux_genericscreen.png)
 
-Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs kann variieren:
+Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs können variieren:
 
 * Er kann die Form einer **Übersicht** im **[!UICONTROL Karten]**- oder **[!UICONTROL Listen]**-Modus annehmen, die diverse Elemente (beispielsweise Programme, Kampagnen, Profile etc.) enthält. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
 
