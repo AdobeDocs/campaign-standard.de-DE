@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: Landing Pages
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch eine
 
    ![](assets/lp_parameters_6.png)
 
-## Verknüpfen einer Landingpage mit einem Dienst {#linking-a-landing-page-to-a-service}
+## Verknüpfen einer Landingpage mit einem Dienst  {#linking-a-landing-page-to-a-service}
 
 Sie können ein Formular mit einem Dienst verknüpfen, sodass sich Profile beim Besuch der Landingpage für einen spezifischen Dienst anmelden können, wenn sie auf die Senden-Schaltfläche des Formulars klicken.
 
