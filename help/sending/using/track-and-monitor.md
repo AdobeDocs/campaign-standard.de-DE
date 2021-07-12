@@ -7,13 +7,12 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Erfahren Sie, wie Sie mit Adobe Campaign im Anschluss an den Nachrichtenversand die gesendeten Nachrichten tracken und feststellen können, wie die Empfänger auf sie reagieren.
-feature: Deliverability
-role: Business Practitioner
+feature: Zustellbarkeit
+role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
