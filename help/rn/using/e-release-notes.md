@@ -4,11 +4,12 @@ product: campaign
 title: Frühzeitige Versionshinweise
 description: Frühzeitige Versionshinweise
 feature: Übersicht
-role: Business Practitioner
+role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
@@ -24,7 +25,7 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 > Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
 
 
-## Version 21.2 – Juni 2021 {#release-21-2---june-2021}
+## Version 21.2 - Juni 2021              {#release-21-2---june-2021}
 
 **Verbesserungen**
 
