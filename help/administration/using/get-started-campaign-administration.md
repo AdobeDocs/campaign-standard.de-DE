@@ -2,17 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Erste Schritte mit der Administration von Campaign Standard
-description: Entdecken Sie die Benutzer- und -Berechtigungsverwaltung, Monitoring-Richtlinien, kanalspezifische Konfigurationen und Richtlinien für die Anwendungskonfiguration.
+description: Entdecken Sie die Benutzer- und Berechtigungsverwaltung, Monitoring-Richtlinien, kanalspezifische Konfigurationen und Richtlinien für die Anwendungskonfiguration.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Zugriffsverwaltung
+role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 100%
 
@@ -98,9 +97,9 @@ Definieren Sie eine oder mehrere **Marken** für Ihr Unternehmen und konfigurier
 
 Mehr dazu:
 
-* [Über Campaign Standard-Einstellungen](../../administration/using/about-campaign-standard-settings.md)
+* [Über Einstellungen in Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Externe Konten](../../administration/using/external-accounts.md)
 * [Zielgruppen-Mappings in Campaign](../../administration/using/target-mappings-in-campaign.md)
 * [Technische Workflows](../../administration/using/technical-workflows.md)
-* [Marken](../../administration/using/branding.md)
+* [Branding](../../administration/using/branding.md)
 * [Interne Benachrichtigungen senden](../../administration/using/sending-internal-notifications.md)
