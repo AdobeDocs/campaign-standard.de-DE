@@ -6,12 +6,11 @@ description: Bereiten Sie Ihre Nachrichten vor und testen, planen, versenden und
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
@@ -55,7 +54,7 @@ Mehr dazu:
 * [Versandplanung](../../sending/using/about-scheduling-messages.md)
 * [Über Typologien und Typologieregeln](../../sending/using/about-typology-rules.md)
 
-## Senden, Überwachen und Tracking{#send-track-messages}
+## Senden, Überwachen und Tracking {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
@@ -69,9 +68,9 @@ Mehr dazu:
 
 * [Versand bestätigen](../../sending/using/confirming-the-send.md)
 * [Nachrichten tracken](../../sending/using/tracking-messages.md)
-* [Mit E-Mail-BCC archivieren](../../sending/using/archiving.md)
+* [Archivieren mit E-Mail-BCC](../../sending/using/archiving.md)
 * [Sendungen überwachen](../../sending/using/monitoring-a-delivery.md)
-* [Ursachen für Fehler beim Versand](../../sending/using/understanding-delivery-failures.md)
+* [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 
 ## Zustellbarkeitsrichtlinien {#improve-deliverability}
@@ -85,7 +84,7 @@ Campaign Standard bietet verschiedene **Zustellbarkeits-Tools**, mit denen Sie d
 Mehr dazu:
 
 * [Über die Zustellbarkeit](../../sending/using/about-deliverability.md)
-* [Zustellbarkeit überwachen](../../sending/using/monitor-deliverability.md)
+* [Überwachen der Zustellbarkeit](../../sending/using/monitor-deliverability.md)
 * [Adobe-Handbuch mit den Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de)
 * [Steuern des Versanddurchsatzes](../../reporting/using/delivery-throughput.md)
 
