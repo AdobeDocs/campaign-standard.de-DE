@@ -7,13 +7,12 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Erfahren Sie, wie Sie im Anschluss an die Fertigstellung Ihrer Nachricht alle Prüfungen durchführen, bevor Sie sie versenden."'
-feature: Deliverability
-role: Business Practitioner
+feature: Zustellbarkeit
+role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -45,7 +44,7 @@ Zu diesem Zweck unterstützt Adobe Campaign das Rendering und stellt dessen Erge
 
 * Fähigkeiten zum E-Mail-Rendering sind entscheidend, um festzustellen, ob Ihre E-Mail-Kampagnen erfolgreich durch die Filter der großen ISPs (Internet Service Provider) und Webmail-Dienste befördert werden. Diese Tools senden vorab eine Kopie einer E-Mail an ein Netzwerk von Test-Posteingängen, damit Sie sehen, wie eine Nachricht in diesen Diensten dargestellt wird. Manche dieser Tools bieten auch Berichte und Code-Korrektur-Möglichkeiten, mit denen Sie Fehler rasch erkennen und beheben und so die Zustellbarkeit verbessern können.
 
-Weiterführende Informationen finden Sie [in diesem Abschnitt](../../sending/using/email-rendering.md).
+Weitere Informationen finden Sie in [diesem Abschnitt](../../sending/using/email-rendering.md).
 
 ## Nachrichten in Testsendungen {#proof-messages}
 
