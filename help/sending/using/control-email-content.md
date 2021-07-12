@@ -7,13 +7,12 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Zustellbarkeit
+role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 100%
 
@@ -57,7 +56,7 @@ Um das Nutzererlebnis zu verbessern und Empfänger dazu zu bewegen, Ihre E-Mail 
 
 Um die Öffnungsrate Ihrer Nachrichten zu erhöhen, können Sie auch für jeden Empfänger manuell einen Versandzeitpunkt festlegen. Jedes Profil erhält dann die Nachricht zum spezifizierten Zeitpunkt, falls möglich. Weitere Informationen dazu finden Sie unter [Versandzeitpunkt optimieren](../../sending/using/optimizing-the-sending-time.md).
 
-## Abmelde-Link und -Formular {#opt-out}
+## Ausschluss-Link und -Formular {#opt-out}
 
 Bei der Analyse einer Nachricht wird standardmäßig von einer Typologieregel überprüft, ob ein Abmelde-Link vorhanden ist. Ist dies nicht der Fall, wird ein Warnhinweis erstellt. Weitere Informationen zur Verwaltung von Links finden Sie in [diesem Abschnitt](../../designing/using/links.md).
 
