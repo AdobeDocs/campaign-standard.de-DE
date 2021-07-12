@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push
-role: Business Practitioner
+feature: Push-Benachrichtigung
+role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
 
