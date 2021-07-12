@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: introduction
 index: y
 feature: Zugriffsverwaltung
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 
