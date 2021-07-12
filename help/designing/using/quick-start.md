@@ -6,19 +6,18 @@ description: Beginnen Sie in Email Designer mit dem Erstellen von E-Mail-Inhalte
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-Mail-Erstellung
+role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
 ---
 
-# Erste Schritte mit dem Email Designer {#quick-start}
+# Erste Schritte mit Email Designer {#quick-start}
 
 Email Designer bietet vier Möglichkeiten zum Erstellen von E-Mails.
 
