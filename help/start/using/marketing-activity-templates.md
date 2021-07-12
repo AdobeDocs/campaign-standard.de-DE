@@ -6,19 +6,18 @@ description: '"Mit Vorlagen in Adobe Campaign können Sie Parameter entsprechend
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campaigns
-role: Business Practitioner
+feature: Kampagnen
+role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
 ---
 
-# Vorlagen für Marketingaktivitäten {#marketing-activity-templates}
+# Vorlagen für Marketing-Aktivitäten {#marketing-activity-templates}
 
 ## Über Vorlagen {#about-templates}
 
