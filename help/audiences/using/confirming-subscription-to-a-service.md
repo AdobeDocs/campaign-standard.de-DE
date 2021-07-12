@@ -7,12 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -42,7 +41,7 @@ Dazu müssen Sie eine Transaktions-E-Mail konfigurieren und vom gewünschten Die
 
 Wenn diese Nachricht über den Dienst konfiguriert wird, wird die Transaktionsnachricht zur Bestätigung nur gesendet, wenn ein Besucher diesen Dienst zum ersten Mal abonniert. Wenn ein Profil den Dienst bereits abonniert hat, wird keine weitere Bestätigungsnachricht an dieses Profil gesendet.
 
-### Schritt 1: Bestätigungs-E-Mail erstellen {#step-1--create-the-confirmation-email-1}
+### Schritt 1: Bestätigungs-E-Mail erstellen          {#step-1--create-the-confirmation-email-1}
 
 Eine Bestätigungs-E-Mail wird automatisch an jedes Profil gesendet, das den Newsletter abonniert (über eine Landingpage oder andere Wege). Das Abonnement gilt als Ereignis und die E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), die an jedes Profil gesendet wird, das den Dienst abonniert.
 
@@ -131,7 +130,7 @@ Sie können auch auf einer Abonnement-Landingpage einen Verweis auf die Bestäti
 
 Beim Verweisen auf die Bestätigungsnachricht über die Landingpage wird jedes Mal eine Nachricht gesendet, wenn auf der Landingpage die Sendefunktion aktiviert wird (auch wenn das Profil bereits ein Abonnement hat).
 
-### Schritt 1: Bestätigungs-E-Mail erstellen {#step-1--create-the-confirmation-email-2}
+### Schritt 1: Bestätigungs-E-Mail erstellen          {#step-1--create-the-confirmation-email-2}
 
 Über eine Landingpage wird automatisch eine Bestätigungs-E-Mail an jedes Profil gesendet, das den Newsletter abonniert. Das Abonnement gilt als Ereignis und die E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), die an jedes Profil gesendet wird, das den Dienst abonniert.
 
