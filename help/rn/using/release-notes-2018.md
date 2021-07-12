@@ -7,11 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Übersicht
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '5457'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Mit jeder Version werden neue Funktionen und Korrekturen veröffentlicht. Klicke
 
 Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-updates.md) für Adobe Campaign Standard an. Neuere Versionshinweise finden Sie auf dieser [Seite](../../rn/using/release-notes.md).
 
-## Version 18.9 - September 2018 {#release-18-9---september-2018}
+## Version 18.9 - September 2018   {#release-18-9---september-2018}
 
 **Neue Funktionen?**
 
@@ -43,7 +43,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Integration von Adobe Launch für Mobile Apps (Beta)<br /> </td> 
-   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -307,7 +307,7 @@ _Benutzerdefinierte Ressourcen_
     <ul> 
      <li> Recht auf Zugriff: Das Datensubjekt hat das Recht, eine Kopie seiner personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, zu erhalten. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
      <li> Recht auf Löschung: Das Datensubjekt hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
-    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer für E-Mail (Beta)<br /> </td> 
