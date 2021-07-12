@@ -4,11 +4,11 @@ product: campaign
 title: Campaign – Aktive Profile
 description: Erfahren Sie, wie Sie auf Kundenmetriken und aktive Profile zugreifen können.
 feature: Profile
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
 
