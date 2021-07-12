@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-feature: Direct Mail
-role: Business Practitioner
+feature: Briefpost
+role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 100%
 
@@ -43,7 +42,7 @@ Gehen Sie in Adobe Campaign folgendermaßen vor:
 
 * [Anwendungsfall: E-Mail- und Briefpostversand verbinden](../../automating/using/coupling-email-direct-mail.md)
 
-## Empfehlungen {#recommendations}
+## Empfehlungen        {#recommendations}
 
 ### Briefpost-Dienstleister {#direct-mail-providers}
 
