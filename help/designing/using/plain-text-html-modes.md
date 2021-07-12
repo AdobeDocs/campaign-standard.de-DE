@@ -6,19 +6,18 @@ description: Entdecken Sie den Plain Text- und den HTML-Modus
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-Mail-Erstellung
+role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%
 
 ---
 
-# Bearbeiten von Plain Text-, HTML- und mobilen E-Mail-Formaten {#plain-text-and-html-modes}
+# Bearbeiten von Plain Text-, HTML- und mobilen E-Mail-Formaten {#plain-text-and-html-modes}
 
 Mit Email Designer können Sie verschiedene Renderings Ihrer E-Mails bearbeiten. Sie können eine Textversion Ihrer E-Mail erstellen, die HTML-Quelle einer E-Mail bearbeiten und E-Mails für mobile Geräte entwerfen.
 
