@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Instanzeneinstellungen
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Sie müssen Regeln für Folgendes erstellen:
 * [Tracking-Postback für Push-Benachrichtigungen](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
 * [Standort-Postback](../../administration/using/configuring-rules-launch.md#location-postback)
 
-### PII-Postback {#pii-postback}
+### Postback für personenbezogene Daten {#pii-postback}
 
 >[!NOTE]
 >
