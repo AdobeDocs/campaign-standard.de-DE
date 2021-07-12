@@ -7,15 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push
-role: Business Practitioner
+feature: Push-Benachrichtigung
+role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 95%
 
 ---
 
@@ -85,13 +84,13 @@ Gehen Sie dann wie folgt vor, um jede Aktivität zu konfigurieren.
 
 ### Konfigurieren Sie die Aktivität **[!UICONTROL Planen]**
 
-Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Ausführungsfrequenz]** (z. B. &quot;Täglich&quot;), die **[!UICONTROL Zeit]** (z. B. 1:00:00 Uhr) und den **[!UICONTROL Start]** (z. B. das heutige Datum) fest.
+Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Ausführungsfrequenz]** (z. B. &quot;Täglich&quot;), die **[!UICONTROL Zeit]** (z. B. &quot;1:00:00 AM&quot;) und den **[!UICONTROL Start]** (z. B. das heutige Datum) fest.
 
 ![](assets/update_profile2.png)
 
 ### Konfigurieren Sie die Aktivität **[!UICONTROL Inkrementell abfragen]**.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** im Feld **[!UICONTROL Ressource]** auf das Symbol **[!UICONTROL Element auswählen]** und wählen Sie das Element **[!UICONTROL App-Abonnements (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** aus.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** auf das Symbol **[!UICONTROL Element]** des Felds **[!UICONTROL Ressource]** und wählen Sie dann das Element **[!UICONTROL App-Abonnements (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** aus.
 
    ![](assets/update_profile3.png)
 
