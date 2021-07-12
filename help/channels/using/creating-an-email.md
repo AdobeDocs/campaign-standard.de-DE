@@ -6,13 +6,12 @@ description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen E-Mail-Versan
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Email
-role: Business Practitioner
+feature: E-Mail
+role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -42,7 +41,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
    >[!NOTE]
    >
-   >Wenn Sie eine E-Mail von der Startseite oder der Marketingaktivitätenliste ausgehend erstellen, können Sie sie einer bereits existierenden Kampagne zuordnen. Wählen Sie diese unter den bereits existierenden Kampagnen aus.
+   >Wenn Sie eine E-Mail von der Startseite oder der Marketingaktivitätenliste ausgehend erstellen, können Sie sie einer bereits existierenden übergeordneten Kampagne zuordnen. Wählen Sie diese unter den bereits existierenden Kampagnen aus.
 
 1. Definieren Sie die Zielgruppe Ihrer Nachricht auf der Basis Ihrer betrieblichen Bedingungen. Siehe [Über Profile](../../audiences/using/about-profiles.md).
 
@@ -94,7 +93,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 **Verwandte Themen**:
 
 * Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
-*  zur [Integration von Adobe Campaign und Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
+* [ zur Integration von Adobe Campaign und Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integration mit Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
 ## Anleitungsvideo {#video}
