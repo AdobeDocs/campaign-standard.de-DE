@@ -6,25 +6,24 @@ description: Diese Schritte zeigen Ihnen, wie Sie Nachrichten mit Adobe Campaign
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
-role: Business Practitioner
+feature: Übersicht
+role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
 ---
 
-# Wichtigste Schritte beim Nachrichtenversand{#key-steps-to-send-a-message}
+# Wichtigste Schritte im Nachrichtenversand{#key-steps-to-send-a-message}
 
 In diesem Abschnitt erfahren Sie, wie Sie mit Adobe Campaign Standard Nachrichten personalisieren und gezielt an eine bestimmte Audience senden können.
 
 Näheres dazu, wie Sie die einzelnen Kommunikationskanäle erstellen und konfigurieren, finden Sie in den folgenden Abschnitten:
 
-* [E-Mail erstellen](../../channels/using/creating-an-email.md)
+* [E-Mails erstellen](../../channels/using/creating-an-email.md)
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
 * [Briefpost-Versand erstellen](../../channels/using/creating-the-direct-mail.md)
 * [Mehrsprachige Push-Benachrichtigung erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
