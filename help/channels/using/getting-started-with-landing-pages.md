@@ -8,17 +8,16 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
-role: Business Practitioner
+role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Landing Pages {#getting-started-with-landing-pages}
+# Erste Schritte mit Landingpages {#getting-started-with-landing-pages}
 
 Dies sind die wichtigsten Schritte zum Einrichten einer Landingpage:
 
@@ -30,7 +29,7 @@ Auf dieser Seite finden Sie Informationen zu den einzelnen Schritten sowie Hinwe
 
 **Verwandte Themen:**
 
-* [Dienst erstellen](../../audiences/using/creating-a-service.md)
+* [Service erstellen](../../audiences/using/creating-a-service.md)
 * [Anmeldung mit zweifacher Bestätigung einrichten](setting-up-a-double-opt-in-process.md)
 
 ## Einschränkungen bei Landingpages{#landing-page-limitations}
@@ -69,7 +68,7 @@ Hier wurde nur das erste Profil aktualisiert, da dessen Eintrag früher erfolgte
 
 * Landingpages funktionieren nur mit Profilen, nicht aber mit Testprofilen, weshalb Landingpages nicht im Zuge eines E-Mail-Testversands getestet werden können.
 
-## Schritt 1 – Landingpage-Vorlage konfigurieren{#configure-the-landing-page-template}
+## Schritt 1 – Landingpage-Vorlage konfigurieren {#configure-the-landing-page-template}
 
 Bevor Sie eine Landingpage einrichten, müssen Sie zunächst eine Landingpage-Vorlage entsprechend Ihren Anforderungen konfigurieren. Alle auf dieser Vorlage basierenden Landingpages werden dadurch mit den gewünschten Parametern vorkonfiguriert.
 
