@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsnachrichten
+role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
 ---
 
-# Ausführung und Überwachung von Transaktionsnachrichten{#transactional-messaging-execution}
+# Ausführung und Überwachung von Transaktionsnachrichten {#transactional-messaging-execution}
 
 ## Ausführungsversand von Transaktionsnachrichten {#transactional-message-execution-delivery}
 
@@ -30,7 +29,7 @@ Sobald die Nachricht veröffentlicht wurde und Ihre Site-Integration abgeschloss
 Ein **Ausführungsversand** ist eine technische Nachricht ohne Aktionen oder Funktionen, die einmal monatlich für jede Transaktionsnachricht und jedes Mal, wenn eine Transaktionsnachricht bearbeitet und erneut veröffentlicht wird, erstellt wird.
 
 **Verwandte Themen**:
-* [Transaktionsnachrichten veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Wiederholungsvorgang für Transaktionsnachrichten {#transactional-message-retry-process}
@@ -72,7 +71,7 @@ Ein Ausführungsversand kann nicht angehalten werden. Wenn jedoch ein aktueller 
 
 Wenn manche, einem Ausführungsversand bereits zugewiesenen Ereignisse als Teil eines Wiederholungsvorgangs verschoben wurden und dieser Ausführungsversand fehlschlägt, weist das Wiederholungssystem dem neuen Ausführungsversand nicht die verschobenen Ereignisse zu. Diese Ereignisse gehen verloren. Markieren Sie die [Versandlogs](#monitoring-transactional-message-delivery), um die möglicherweise betroffenen Empfänger anzuzeigen.
 
-## Transaktionsnachrichten überwachen{#monitoring-transactional-message-delivery}
+## Transaktionsnachrichten überwachen {#monitoring-transactional-message-delivery}
 
 Um eine Transaktionsnachricht zu überwachen, müssen Sie die entsprechenden [Ausführungssendungen](#transactional-message-execution-delivery) aufrufen.
 
