@@ -6,13 +6,12 @@ description: Hier erfahren Sie, wie Sie vorhandene Profile bearbeiten und auf Ko
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Profile
+role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
 
