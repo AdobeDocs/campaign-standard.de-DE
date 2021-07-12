@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Transaktionsnachrichten
+role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -67,7 +66,7 @@ Die wichtigsten Schritte zur Implementierung dieses Anwendungsfalls werden nachf
 
 1. Erstellen Sie eine Vorschau und veröffentlichen Sie das Ereignis (siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
-## Schritt 2: Transaktionsnachricht bearbeiten und veröffentlichen{#create-transactional-message}
+## Schritt 2: Transaktionsnachricht bearbeiten und veröffentlichen {#create-transactional-message}
 
 1. Wechseln Sie zu der Transaktionsnachricht, die beim Veröffentlichen des Ereignisses automatisch erstellt wurde. Siehe [Transaktionsnachrichten aufrufen](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
