@@ -7,12 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 feature: Landing Pages
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 100%
 
