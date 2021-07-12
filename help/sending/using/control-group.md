@@ -7,19 +7,18 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: Control Groups
-role: Business Practitioner
+feature: Kontrollgruppen
+role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 100%
 
 ---
 
-# Kontrollgruppe hinzufügen {#adding-control-group}
+# Hinzufügen einer Kontrollgruppe {#adding-control-group}
 
 Mithilfe von Kontrollgruppen können Sie vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, um die Wirkung Ihrer Kampagnen zu messen.
 
