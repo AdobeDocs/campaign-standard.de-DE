@@ -6,13 +6,12 @@ description: Führen Sie diese Schritte aus, um eine mehrsprachige E-Mail an Emp
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Email
-role: Business Practitioner
+feature: E-Mail
+role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 
