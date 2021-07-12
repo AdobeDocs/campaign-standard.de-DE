@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Zustellbarkeit
+role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 100%
 
 ---
 
-# Was ist Zustellbarkeit?{#about-deliverability}
+# Was ist Zustellbarkeit{#about-deliverability}
 
 Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich den Posteingang Ihrer Empfänger erreichen und nicht als unzustellbar zurückgesendet bzw. als Spam gekennzeichnet werden. [Hier erfahren Sie, warum Lieferbarkeit wichtig ist](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=de#why-deliverability-matters).
 
@@ -37,7 +36,7 @@ Probleme mit der Zustellbarkeit hängen in der Regel mit Maßnahmen zum Schutz v
 
 >[!NOTE]
 >
->Da Internet-Anbieter gezwungen sind, ständig neue, ausgereifte Filtertechniken zu entwickeln, um ihre Kunden vor Spammern zu schützen, ändern sich die für die Zustellbarkeit von E-Mails geltenden Kriterien und Regeln sehr oft. Konsultieren Sie deshalb das [Adobe-Handbuch mit Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de), das regelmäßig aktualisiert wird.
+>Da Internet-Anbieter gezwungen sind, ständig neue, ausgereifte Filtertechniken zu entwickeln, um ihre Kunden vor Spammern zu schützen, ändern sich die für die Zustellbarkeit von E-Mails geltenden Kriterien und Regeln sehr oft. Konsultieren Sie deshalb das [Adobe-Handbuch mit Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), das regelmäßig aktualisiert wird.
 
 ### Zustellrate
 
@@ -63,11 +62,11 @@ Adobe Campaign bietet eine Reihe von Tools zur Verfolgung und Verbesserung der Z
 Befolgen Sie beim Konfigurieren, Entwerfen und Testen Ihrer Nachricht die in den folgenden Abschnitten aufgeführten Best Practices. Die Nutzung aller von Adobe Campaign bereitgestellten Funktionen hilft Ihnen, die Zustellbarkeit zu verbessern.
 
 * [Best Practices beim Versand](../../sending/using/delivery-best-practices.md)
-* [E-Mail-Inhalte kontrollieren](../../sending/using/control-email-content.md)
+* [Kontrollieren von E-Mail-Inhalten](../../sending/using/control-email-content.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 
-### Einverständnis durch doppelten Opt-in überprüfen{#double-opt-in}
+### Einverständnis durch doppelten Opt-in überprüfen {#double-opt-in}
 
 Um das Senden von Nachrichten an ungültige Adressen zu vermeiden, unsachgemäße Kommunikation zu minimieren und die Reputation des Absenders zu verbessern, empfiehlt Adobe die Implementierung eines Mechanismus zum doppelten Opt-in. Dadurch können Sie sicherstellen, dass sich Ihre Empfänger absichtlich angemeldet haben.
 
@@ -85,7 +84,7 @@ Teilweise werden E-Mails von Providern automatisch als Spam eingestuft, wenn die
 
 Weiterführende Informationen hierzu finden Sie in den folgenden Abschnitten:
 
-* [Ursachen für Fehler beim Versand](../../sending/using/understanding-delivery-failures.md)
+* [Ursachen von fehlgeschlagenen Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md)
 * [Quarantäne vs. Blockierungsliste](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
@@ -97,7 +96,7 @@ Mit Adobe Campaign können Sie anhand einer Reihe von integrierten Echtzeitindik
 
 Weiterführende Informationen hierzu finden Sie in den folgenden Abschnitten:
 
-* [Zustellbarkeit überwachen](../../sending/using/monitor-deliverability.md)
+* [Überwachen der Zustellbarkeit](../../sending/using/monitor-deliverability.md)
 
    <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
