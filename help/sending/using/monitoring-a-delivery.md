@@ -7,13 +7,12 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Leistungsüberwachung
+role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
 
@@ -72,13 +71,13 @@ Alle Details zum Versandprotokoll sind schreibgeschützt. Sie können auch eine 
 >
 >Um das Rendering der Mirrorseite in der Campaign-Benutzeroberfläche anzuzeigen, muss die Server-URL der Mirrorseite sicher sein. Verwenden Sie in diesem Fall https:// anstelle von http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands) einzurichten.
 
-### Ausschlusslogs {#exclusion-logs}
+### Exclusion logs {#exclusion-logs}
 
 Der **[!UICONTROL Ausschlusslogs]**-Tab zeigt die Liste der vom Versand ausgeschlossenen Empfänger und den jeweiligen Ausschlussgrund an.
 
 ![](assets/sending_delivery4.png)
 
-### Ausschlussgründe {#exclusion-causes}
+### Exclusion causes {#exclusion-causes}
 
 Der **[!UICONTROL Ausschlussgründe]**-Tab zeigt die Anzahl an ausgeschlossenen Empfängern pro Ausschlussgrund an.
 
