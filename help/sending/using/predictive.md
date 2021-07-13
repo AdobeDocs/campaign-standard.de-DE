@@ -10,9 +10,9 @@ feature: Versandzeitpunkt optimieren
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -33,8 +33,7 @@ Adobe Campaign Standard bietet zwei neue Modelle für maschinelles Lernen: **Pr�
 
 >[!IMPORTANT]
 >Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
->
->Die Funktion erfordert die Verwendung eines Azure- oder Amazon S3-Speichers, der vom Kunden zur Verfügung gestellt werden muss.
+
 
 ## Prädiktive Sendezeitoptimierung{#predictive-send-time}
 
