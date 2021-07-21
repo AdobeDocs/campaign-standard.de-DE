@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1023'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Wenn Sie einen wiederkehrenden Versand ohne Aggregat-Zeitraum verwenden, können
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-## Die Nachrichtenindikatoren {#message-indicators}
+## Nachrichtenindikatoren {#message-indicators}
 
 Nach Abschluss des Versands an die Kontakte zeigt die **[!UICONTROL Freigabe]**-Kachel Ihre KPI-Daten (Key Performance Indicators) an:
 
