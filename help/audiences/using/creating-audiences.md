@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
 ht-degree: 100%
 
@@ -109,9 +109,9 @@ Damit diese Integration funktioniert, muss sie zuerst konfiguriert werden. Weite
 
 ![](assets/audience_peoplecore.png)
 
-## Audiences ändern {#editing-audiences}
+## Audiences bearbeiten {#editing-audiences}
 
-Die Vorgehensweise zur Änderung von Audiences hängt vom jeweiligen Typ ab:
+Die Vorgehensweise zur Bearbeitung von Audiences hängt vom jeweiligen Typ ab:
 
 * Greifen Sie zur Änderung einer Audience vom Typ **Abfrage** über das **[!UICONTROL Audiences]**-Menü oder die **[!UICONTROL Audiences]**-Karte auf der Adobe-Campaign-Startseite auf die Liste der Audiences zu.
 
