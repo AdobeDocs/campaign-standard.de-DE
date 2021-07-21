@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Opt-in- und Opt-out-Verfahren in einem Profil verwalten {#managing-opt-in-and-opt-out-from-a-profile}
 
-Ein Benutzer kann von einem Empfänger direkt im Profil-Tab **[!UICONTROL Allgemein]** an- oder abgemeldet werden.
+Ein Empfänger kann von einem Benutzer direkt im Profil-Tab **[!UICONTROL Allgemein]** an- oder abgemeldet werden.
 
 Die aktivierten Optionen im Bereich **[!UICONTROL Nicht mehr kontaktieren (auf Blockierungsliste)]** entsprechen den Kanälen, von denen sich der Empfänger abgemeldet hat. Wählen Sie die Kanäle entsprechend den Anforderungen des Empfängers aus.
 
