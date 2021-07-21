@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ Näheres dazu, wie Sie die einzelnen Kommunikationskanäle erstellen und konfigu
 
 * [E-Mails erstellen](../../channels/using/creating-an-email.md)
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
-* [Briefpost-Versand erstellen](../../channels/using/creating-the-direct-mail.md)
-* [Mehrsprachige Push-Benachrichtigung erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
+* [Briefpostversand erstellen](../../channels/using/creating-the-direct-mail.md)
+* [Push-Benachrichtigung erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [In-App-Nachricht vorbereiten und senden](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Näheres über Best Practices beim Versand finden Sie in [diesem Abschnitt](../../sending/using/delivery-best-practices.md).
