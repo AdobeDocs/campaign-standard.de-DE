@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Die nachstehende Tabelle zeigt den allgemeinen Veröffentlichungsprozess bei Tra
 **Verwandte Themen:**
 * [Transaktionsnachricht veröffentlichen](#publishing-a-transactional-message)
 * [Transaktionsnachricht aussetzen](#suspending-a-transactional-message-publication)
-* [Veröffentlichung einer Transaktionsnachricht aufheben  ](#unpublishing-a-transactional-message)
+* [Veröffentlichung einer Transaktionsnachricht aufheben](#unpublishing-a-transactional-message)
 * [Ereignisse veröffentlichen](../../channels/using/publishing-transactional-event.md)
 
 <!--## Testing a transactional message {#testing-a-transactional-message}
@@ -103,9 +103,9 @@ Bei jeder Auslösung des Ereignisses &quot;Stehen gelassener Warenkorb&quot; wir
 **Verwandte Themen**:
 * [Transaktionsnachricht bearbeiten](../../channels/using/editing-transactional-message.md)
 * [Transaktionsnachrichten testen](../../channels/using/testing-transactional-message.md)
-* [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [Ereignisaktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Veröffentlichung einer Transaktionsnachricht aussetzen              {#suspending-a-transactional-message-publication}
+## Veröffentlichung einer Transaktionsnachricht aussetzen {#suspending-a-transactional-message-publication}
 
 Sie haben die Möglichkeit, die Veröffentlichung Ihrer Transaktionsnachricht mittels der Verwendung der Schaltfläche **[!UICONTROL Aussetzen]** zeitweise zu unterbinden, um beispielsweise die in der Nachricht enthaltenen Daten abzuändern. Die Ereignisse werden so nicht länger verarbeitet, sondern stattdessen in einer Warteschlange der Adobe Campaign-Datenbank aufbewahrt.
 
