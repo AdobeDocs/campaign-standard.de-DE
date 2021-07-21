@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -86,10 +86,10 @@ Die wichtigsten Schritte zur Implementierung dieses Anwendungsfalls werden nachf
 
 1. Sobald der Inhalt fertig ist, speichern Sie die Änderungen und veröffentlichen Sie die Nachricht. Siehe [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-## Schritt 3: Ereignis-Aktivierung integrieren {#integrate-event-trigger}
+## Schritt 3: Ereignisaktivierung integrieren {#integrate-event-trigger}
 
 Integrieren Sie das Ereignis in Ihre Website. Siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 ## Schritt 4: Nachrichtenversand {#message-delivery}
 
-Sobald alle diese Schritte ausgeführt wurden, erhalten Kunden, sobald sie Produkte auf Ihrer Website erwerben, eine persönliche Bestätigungs-E-Mail mit Informationen zum Kauf.
+Nachdem alle diese Schritte ausgeführt wurden, erhalten Kunden beim Kauf von Produkten auf Ihrer Website eine persönliche Bestätigungs-E-Mail mit Informationen zum Kauf.
