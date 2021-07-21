@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Nachdem ein Dienst erstellt wurde, können Sie damit beginnen, ihn zu bewerben.
 
 * [Dienst bewerben](../../audiences/using/promoting-a-service.md)
 * [Erstellen einer Audience aus Abonnenten](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [Verknüpfen einer Landingpage mit einem Dienst ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+* [Verknüpfen einer Landingpage mit einem Service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
 ## Anleitungsvideo {#video}
 
