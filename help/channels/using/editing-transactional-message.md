@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Aufrufen der erstellten Transaktionsnachricht:
 
 Sie können auch direkt über den Link im linken Bereich des entsprechenden Ereigniskonfigurationsbildschirms auf eine Transaktionsnachricht zugreifen. Siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-## Transaktionsnachricht personalisieren              {#personalizing-a-transactional-message}
+## Transaktionsnachricht personalisieren {#personalizing-a-transactional-message}
 
 Gehen Sie wie folgt vor, um eine Transaktionsnachricht zu bearbeiten und zu personalisieren.
 
