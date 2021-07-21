@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS an Mobiltelefone senden zu
 
 **Verwandte Themen:**
 
-* [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md)
+* [Vorlagen verwalten](../../start/using/marketing-activity-templates.md)
 * [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS-Bericht](../../reporting/using/sms-report.md)
 * [Handbuch zu Campaign Standard Mobile](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)
@@ -58,4 +58,4 @@ Adobe Campaign enthält eine vorkonfigurierte Vorlage für Sendungen auf Mobilte
 
 **Verwandte Themen:**
 
-* [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md)
+* [Vorlagen verwalten](../../start/using/marketing-activity-templates.md)
