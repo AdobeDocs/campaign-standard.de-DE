@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Ein **Ausführungsversand** ist eine technische Nachricht ohne Aktionen oder Fun
 
 **Verwandte Themen**:
 * [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
-* [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [Ereignisaktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Wiederholungsvorgang für Transaktionsnachrichten {#transactional-message-retry-process}
 
@@ -41,7 +41,7 @@ Wenn eine Transaktionsnachricht nicht gesendet werden kann, gibt es zwei Systeme
 * Auf der Ebene der Transaktionsnachrichten kann eine Transaktionsnachricht fehlschlagen, bevor das Ereignis einem Ausführungsversand zugewiesen wurde, d. h. zwischen dem Ereignisempfang und der Versandvorbereitung. Siehe [Wiederholungsverfahren bei der Ereignisverarbeitung](#event-processing-retry-process).
 * Auf der Ebene des Versandverfahrens kann die Transaktionsnachricht nach der Zuweisung des Ereignisses zu einem Ausführungsversand wegen eines temporären Fehlers fehlschlagen. Siehe [Wiederholungsverfahren beim Nachrichtenversand](#message-sending-retry-process).
 
-### Wiederholungsverfahren bei der Ereignisverarbeitung              {#event-processing-retry-process}
+### Wiederholungsverfahren bei der Ereignisverarbeitung {#event-processing-retry-process}
 
 Wenn ein Ereignis aktiviert wird, wird es einem Ausführungsversand zugewiesen. Wenn ein Ereignis keinem Ausführungsversand zugewiesen werden kann, wird die Ereignisverarbeitung verschoben. Wiederholungen werden dann durchgeführt, bis das Ereignis einem neuen Ausführungsversand zugewiesen wird.
 
@@ -51,7 +51,7 @@ Wenn ein Ereignis aktiviert wird, wird es einem Ausführungsversand zugewiesen. 
 
 Beispielsweise kann es sein, dass das Ereignis keinem Ausführungsversand zugewiesen werden konnte, weil der Inhalt nicht korrekt war, es ein Problem mit den Zugriffsrechten oder dem Branding gab oder ein Fehler beim Anwenden von Typologieregeln erkannt wurde. In diesem Fall können Sie die Nachricht vorläufig anhalten, bearbeiten, um den Fehler zu beheben, und erneut veröffentlichen. Das Wiederholungssystem weist die Nachricht daraufhin einem neuen Ausführungsversand zu.
 
-### Wiederholungsverfahren beim Nachrichtenversand              {#message-sending-retry-process}
+### Wiederholungsverfahren beim Nachrichtenversand {#message-sending-retry-process}
 
 Nachdem das Ereignis einem Ausführungsversand zugewiesen wurde, kann die Transaktionsnachricht aufgrund eines temporären Fehlers fehlschlagen, z. B. falls das Postfach des Empfängers voll ist. Weiterführende Informationen dazu finden Sie in Abschnitt [Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
