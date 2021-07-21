@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Der Zugriff auf Nachrichten erfolgt:
 
 ## Zugriff auf Nachrichten in Kampagnen      {#accessing-messages-in-campaigns}
 
-Um auf die Liste der Marketingaktivitäten einer Kampagne zuzugreifen, gehen Sie folgendermaßen vor:
+Um auf die Liste der Marketing-Aktivitäten einer Kampagne zuzugreifen, gehen Sie folgendermaßen vor:
 
 1. Öffnen Sie in der Navigationsleiste am oberen Bildschirmrand die **[!UICONTROL Marketingaktivitäten]**.
 1. Wählen Sie **[!UICONTROL Marketingaktivitäten > Marketingpläne > Programme &amp; Kampagnen aus]**.
@@ -48,7 +48,7 @@ Um auf die Liste der Marketingaktivitäten einer Kampagne zuzugreifen, gehen Sie
 
 ## Zugriff auf die Nachrichtenliste      {#accessing-the-message-list}
 
-Um auf die vollständige Liste der Marketingaktivitäten aller Kampagnen zuzugreifen, gehen Sie folgendermaßen vor:
+Um auf die vollständige Liste der Marketing-Aktivitäten aller Kampagnen zuzugreifen, gehen Sie folgendermaßen vor:
 
 1. Öffnen Sie in der Navigationsleiste am oberen Bildschirmrand die **[!UICONTROL Marketingaktivitäten]**.
 
