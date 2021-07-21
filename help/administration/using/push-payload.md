@@ -12,7 +12,7 @@ role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1150'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ In diesem Abschnitt wird die Struktur einer Beispiel-Payload für verschiedene m
 
 Die Payload-Attribute und ihre Werte variieren je nach der Konfiguration in den erweiterten Optionen für Push-Benachrichtigungen. Dieser Abschnitt enthält auch ein Mapping zwischen diesen Konfigurationen in der Benutzeroberfläche von Campaign Standard und den Attributen in der Payload, um zu veranschaulichen, wie sich die Payload bei der Konfiguration einer Option in Campaign Standard verändert.
 
-### Für iOS-Mobile Apps {#payload-structure-ios}
+### Für iOS-Mobile-Apps {#payload-structure-ios}
 
 **Beispiel-Payload, die von Adobe Campaign an eine iOS-App gesendet wird:**
 
@@ -112,7 +112,7 @@ Der wichtigste Bereich der Payload ist das aps-Wörterbuch, das von Apple defini
 
 Ausführliche Informationen zu den Attributen in aps finden Sie in der Apple-Entwicklerdokumentation: [Creating the Remote Notification Payload](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
-### Für Android-Apps {#payload-structure-android}
+### Für Android-Mobile-Apps {#payload-structure-android}
 
 **Beispiel-Payload, gesendet von Adobe Campaign an Android-App**
 
