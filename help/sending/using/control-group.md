@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1465'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Alle Profile, die bei der Vorbereitung des Versands in die Kontrollgruppe eingeh
 
 ## Aus der Zielpopulation extrahieren {#extraction-target-population}
 
-Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung, einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielpopulation extrahieren.
+Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielpopulation extrahieren.
 
 ### Zielgruppenextraktion {#target-extraction}
 
