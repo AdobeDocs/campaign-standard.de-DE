@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
 ht-degree: 100%
 
@@ -29,11 +29,11 @@ Diese Funktion verwendet je nach Auswahl der Versandvorlage für Push-Benachrich
 
 Gehen Sie folgendermaßen vor, um mehrsprachige Inhaltsvarianten für Ihre Push-Benachrichtigungen zu verwenden:
 
-* [Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.      ](#step-1--upload-multilingual-content-variant)
-* [Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.      ](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.      ](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.](#step-1--upload-multilingual-content-variant)
+* [Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch.       {#step-1--upload-multilingual-content-variant}
+## Schritt 1: Laden Sie die mehrsprachige Inhaltsvariante hoch. {#step-1--upload-multilingual-content-variant}
 
 Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst die Inhaltsvarianten in einer mehrsprachigen Versandvorlage hochgeladen und der Versand erstellt werden.
 
