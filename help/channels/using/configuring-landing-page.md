@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # Konfigurieren einer Landingpage {#configuring-landing-page}
 
-## Versand einer Landingpage bestätigen        {#confirm-a-landing-page-submission}
+## Versand einer Landingpage bestätigen {#confirm-a-landing-page-submission}
 
 Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie wie folgt vor:
 
@@ -36,7 +36,7 @@ Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch eine
 
    ![](assets/lp_parameters_6.png)
 
-## Verknüpfen einer Landingpage mit einem Dienst  {#linking-a-landing-page-to-a-service}
+## Verknüpfen einer Landingpage mit einem Service  {#linking-a-landing-page-to-a-service}
 
 Sie können ein Formular mit einem Dienst verknüpfen, sodass sich Profile beim Besuch der Landingpage für einen spezifischen Dienst anmelden können, wenn sie auf die Senden-Schaltfläche des Formulars klicken.
 
