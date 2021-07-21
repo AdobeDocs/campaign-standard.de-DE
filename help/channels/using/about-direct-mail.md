@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Gehen Sie in Adobe Campaign folgendermaßen vor:
 
 * [Anwendungsfall: E-Mail- und Briefpostversand verbinden](../../automating/using/coupling-email-direct-mail.md)
 
-## Empfehlungen        {#recommendations}
+## Empfehlungen {#recommendations}
 
 ### Briefpost-Dienstleister {#direct-mail-providers}
 
