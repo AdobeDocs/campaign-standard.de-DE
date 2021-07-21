@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Mit Campaign können Sie einen Dienst folgendermaßen bewerben:
 
 * [Einfügen von Anmelde-Links für und Abmelde-Links von Diensten in E-Mails](../../designing/using/links.md#inserting-a-link)
 
-* [Einfügen von Links auf einer Anmelde- oder Abmelde-Landingpage in E-Mails](../../designing/using/links.md). In diesem Fall muss der Dienst direkt in den Eigenschaften der zugehörigen Landingpages referenziert werden (siehe [Verknüpfen einer Landingpage mit einem Dienst](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
+* [Einfügen von Links auf einer Anmelde- oder Abmelde-Landingpage in E-Mails](../../designing/using/links.md). In diesem Fall muss der Dienst direkt in den Eigenschaften der zugehörigen Landingpages referenziert werden (siehe [Verknüpfen einer Landingpage mit einem Service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
    >[!NOTE]
    >
