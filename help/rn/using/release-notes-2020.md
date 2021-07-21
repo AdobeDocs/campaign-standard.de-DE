@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5303'
 ht-degree: 100%
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 [Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Infos](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Infos](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
-## Version 20.4 - Oktober 2020   {#release-20-4---october-2020}
+## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
 **Neue Funktionen**
 
@@ -191,7 +191,7 @@ ht-degree: 100%
 
 
 
-## Version 20.3 - Mai 2020   {#release-20-3---may-2020}
+## Version 20.3 – Mai 2020 {#release-20-3---may-2020}
 
 **Neue Funktionen**
 
@@ -293,9 +293,9 @@ ht-degree: 100%
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
-## Version 20.2 - April 2020   {#release-20-2---april-2020}
+## Version 20.2 – April 2020 {#release-20-2---april-2020}
 
 **Neue Funktionen**
 
@@ -331,7 +331,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+>Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
 **Verbesserungen**
 
@@ -380,15 +380,15 @@ ht-degree: 100%
 * Jetzt kann in Workflows eine Aktivität mit mehreren eingehenden Transitionen problemlos ausgeführt werden.
 * Standardbenutzer können &quot;Abonnements für eine Anwendung&quot; jetzt als Zieldimension in einer Workflow-Abfrage oder einem Versand verwenden. (CAMP-37618)
 
-## Version 20.1.4 - Februar 2020   {#release-20-1-4---february-2020}
+## Version 20.1.4 – Februar 2020 {#release-20-1-4---february-2020}
 
 * Beim Öffnen der Aktivität **Audience lesen** in vorhandenen Workflows tritt jetzt kein Problem mehr auf. (CAMP-41002)
 
-## Version 20.1.3 - Februar 2020   {#release-20-1-3---february-2020}
+## Version 20.1.3 – Februar 2020 {#release-20-1-3---february-2020}
 
 * Jetzt tritt kein Regressionsproblem mehr auf, das in 20.1 von CAMP-39273 für Kunden eingeführt wurde, die diese Lücke nutzten. CAMP-39273 wurde zurückgesetzt.
 
-## Version 20.1.2 - Februar 2020   {#release-20-1-2---february-2020}
+## Version 20.1.2 – Februar 2020 {#release-20-1-2---february-2020}
 
 **Verbesserungen bei Email Designer**
 
@@ -396,7 +396,7 @@ ht-degree: 100%
 * Bei Verwendung dynamischer Inhalte wird jetzt kein Leerzeichen mehr hinzugefügt. (CAMP-40605)
 * Beim Konfigurieren einer Transaktions-E-Mail-Vorlage tritt jetzt kein Problem mehr auf. (CAMP-40604)
 
-## Version 20.1 - Februar 2020   {#release-20-1---february-2020}
+## Version 20.1 – Februar 2020 {#release-20-1---february-2020}
 
 **Neue Funktionen**
 
