@@ -12,7 +12,7 @@ role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1680'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Jetzt können Sie mithilfe der neuen Routing-Konfiguration in Adobe Campaign SMS
 
 ## SMS-Kodierung und -Formate  {#sms-encoding-and-formats}
 
-### Kodierung, Länge und Tansliteration von SMS {#sms-encoding--length-and-transliteration}
+### Codierung, Länge und Tansliteration von SMS {#sms-encoding--length-and-transliteration}
 
 Standardmäßig kommt in Bezug auf die maximal zulässige Zeichenanzahl einer SMS der Mobilfunkstandard GSM (Global System for Mobile Communications) zur Anwendung.
 
