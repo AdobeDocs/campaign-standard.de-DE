@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Es gibt mehrere Möglichkeiten, einen Versand zu überwachen und seine Wirkung z
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Versandlogs        {#delivery-logs}
+## Versandlogs {#delivery-logs}
 
 ### Versandlogs {#sending-logs}
 
@@ -71,14 +71,14 @@ Alle Details zum Versandprotokoll sind schreibgeschützt. Sie können auch eine 
 >
 >Um das Rendering der Mirrorseite in der Campaign-Benutzeroberfläche anzuzeigen, muss die Server-URL der Mirrorseite sicher sein. Verwenden Sie in diesem Fall https:// anstelle von http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands) einzurichten.
 
-### Exclusion logs {#exclusion-logs}
+### Ausschlusslogs {#exclusion-logs}
 
-Der **[!UICONTROL Ausschlusslogs]**-Tab zeigt die Liste der vom Versand ausgeschlossenen Empfänger und den jeweiligen Ausschlussgrund an.
+Der Tab **[!UICONTROL Ausschlusslogs]** zeigt die Liste der vom Versand ausgeschlossenen Empfänger und den jeweiligen Ausschlussgrund an.
 
 ![](assets/sending_delivery4.png)
 
-### Exclusion causes {#exclusion-causes}
+### Ausschlussgründe {#exclusion-causes}
 
-Der **[!UICONTROL Ausschlussgründe]**-Tab zeigt die Anzahl an ausgeschlossenen Empfängern pro Ausschlussgrund an.
+Der Tab **[!UICONTROL Ausschlussgründe]** zeigt die Anzahl an ausgeschlossenen Empfängern pro Ausschlussgrund an.
 
 ![](assets/sending_delivery5.png)
