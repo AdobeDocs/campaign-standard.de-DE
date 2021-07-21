@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Das Erstellen und Veröffentlichen eines Ereignisses wird in den Abschnitten [Tr
 
 Weitere Informationen zum Bearbeiten und Veröffentlichen einer Transaktionsnachricht finden Sie unter [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md) und [Lebenszyklus von Transaktionsnachrichten](../../channels/using/publishing-transactional-message.md).
 
-### Schritt 3: Ereignis-Aktivierung integrieren {#integrate-event-trigger}
+### Schritt 3: Ereignisaktivierung integrieren {#integrate-event-trigger}
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
