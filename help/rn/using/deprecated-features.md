@@ -11,9 +11,9 @@ role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,8 +48,8 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Ab Juli 2021 ist Assets jetzt ein älterer Hauptdienst, der unterstützt wird. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">Weitere Informationen</a>.</p>
-   <p>Für eine neue Implementierung können Sie Experience Cloud Assets nicht mehr in Adobe Campaign Standard integrieren.</p>
+   <td> <p> Ab Juli 2021 ist Assets ein veralteter Coreservice, der noch unterstützt wird. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=de">Mehr dazu</a>.</p>
+   <p>Bei einer Neuimplementierung können Sie Experience Cloud Assets nicht mehr in Adobe Campaign Standard integrieren.</p>
      <em>Geplantes Datum für die Entfernung: 2022.</em></p>
      </td> 
   </tr> 
