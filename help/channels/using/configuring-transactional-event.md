@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1749'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Dies ist die API-Vorschau für dieses Beispiel:
 **Verwandte Themen:**
 
 * [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Produktlisten in Transaktionsnachrichten verwenden              ](../../designing/using/using-product-listings.md)
+* [Produktlisten in Transaktionsnachrichten verwenden](../../designing/using/using-product-listings.md)
 * [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Ereignis anreichern {#enriching-the-transactional-message-content}
@@ -144,7 +144,7 @@ Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich der I
 **Verwandte Themen:**
 
 * [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Transaktionsnachricht personalisieren             ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
+* [Transaktionsnachricht personalisieren](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
 * [Transaktionsnachricht veröffentlichen](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Durchsuchen von Transaktionsereignissen {#searching-transactional-events}
@@ -169,7 +169,7 @@ Gehen Sie wie unten beschrieben vor, um auf die bereits erstellten Transaktionse
 
 Die Konfiguration von Transaktionsereignissen variiert je nach dem [Typ der zu sendenden Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) (Ereignis oder Profil) und dem verwendeten Kanal.
 
-In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie im Abschnitt            [Ereignis erstellen](#creating-an-event).
+In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie im Abschnitt             [Ereignis erstellen](#creating-an-event).
 
 ### Ereignisbasierte Transaktionsnachrichten {#event-based-transactional-messages}
 
