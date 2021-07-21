@@ -12,7 +12,7 @@ role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Die Überwachung von Workflow-Protokollen ist ein wichtiger Schritt, um Ihre Wor
 Mit Campaign Standard können Sie Benachrichtigungen an Supervisoren senden, um die Ausführung Ihrer Workflows zu überwachen und festzustellen, ob ein Fehler vorliegt, der Ihre Aufmerksamkeit erfordert.
 [Mehr dazu](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Sendungen überwachen {#monitoring-deliveries}
+## Überwachen von Sendungen {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
