@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # Marketing-Aktivitäten{#marketing-activities}
 
-## Über Marketingaktivitäten {#about-marketing-activities}
+## Über Marketing-Aktivitäten {#about-marketing-activities}
 
 Marketingaktivitäten können entweder ausgehend von ihnen übergeordneten Programmen und Kampagnen erstellt und verwaltet werden, oder aber über die Liste der Marketingaktivitäten.
 
@@ -61,7 +61,7 @@ Die Farbe des Symbols zeigt den Ausführungsstatus der Aktivität in Abhängigke
 * Gelb: Aktivität hat einen Warnhinweis ausgelöst - Status **[!UICONTROL Warnhinweis]**.
 * Rot: Aktivität hat einen Fehler ausgelöst - Status **[!UICONTROL Mit Fehlern]**.
 
-## Marketingaktivitäten erstellen {#creating-a-marketing-activity}
+## Marketing-Aktivitäten erstellen {#creating-a-marketing-activity}
 
 Ausgehend von einer Kampagne lassen sich unterschiedliche Arten von Nachrichten (**E-Mails**, **SMS**, **Push-Benachrichtigungen** etc.), Workflows und Landingpages erstellen.
 
