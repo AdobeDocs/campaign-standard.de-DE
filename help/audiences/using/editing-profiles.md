@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Verwandtes Thema:
 * [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md)
 * [In der Zeitzone des Empfängers senden](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Allgemeine Profildaten      {#general-profile-data}
+## Allgemeine Profildaten {#general-profile-data}
 
 Der Tab **[!UICONTROL Allgemein]** enthält die folgenden Informationen zum Profil:
 
