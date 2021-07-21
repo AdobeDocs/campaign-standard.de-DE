@@ -11,7 +11,7 @@ role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
 ht-degree: 100%
 
@@ -23,17 +23,17 @@ Sie können die Adobe Launch-Eigenschaften für Smartphones und Tablets über de
 
 Im folgenden Abschnitt werden häufig gestellte Fragen zu dieser Synchronisierung aufgelistet.
 
-## Ich habe eine Eigenschaft in [!DNL Launch] erstellt (Benutzer ohne Administratorrechte der Organisationseinheit „ALLE“). Meine mobile App befindet sich im Status „Bereit zum Konfigurieren“ in Adobe Campaign, kann jedoch nicht geöffnet/konfiguriert werden. {#configuring-property}
+## Ich habe eine Eigenschaft in [!DNL Launch] erstellt (Benutzer ohne Administratorrechte der Organisationseinheit &quot;ALLE&quot;). Meine Mobile App befindet sich im Status &quot;Bereit zum Konfigurieren&quot; in Adobe Campaign, kann jedoch nicht geöffnet/konfiguriert werden. {#configuring-property}
 
 Nur ein Administrator der Organisationseinheit „ALLE“ kann mobile Apps in Adobe Campaign Standard konfigurieren. Einmal konfiguriert, können nur Benutzer der zugeordneten Organisationseinheit die App bearbeiten. Weiterführende Informationen zu Organisationseinheiten finden Sie auf dieser [Seite](../../administration/using/organizational-units.md).
 
-## Ich kann eine konfigurierte mobile App in Adobe Campaign Standard nicht bearbeiten, und die mobilen Apps befinden sich im schreibgeschützten Modus. {#read-mode-mobile-app}
+## Ich kann eine konfigurierte Mobile App in Adobe Campaign Standard nicht bearbeiten, und die Mobile Apps befinden sich im schreibgeschützten Modus. {#read-mode-mobile-app}
 
 Überprüfen Sie die Organisationseinheit der Mobile App im Abschnitt **[!UICONTROL Zugriffsberechtigung]**. Nur Benutzer der zugeordneten Organisationseinheit können die mobile App bearbeiten.
 
 Weiterführende Informationen zu Organisationseinheiten finden Sie auf dieser [Seite](../../administration/using/organizational-units.md).
 
-## Ich bin ein Administrator mit der Organisationseinheit „ALLE“ in Adobe Campaign Standard, kann jedoch keine mobilen Apps konfigurieren. {#org-unit-mobile}
+## Ich bin ein Administrator mit der Organisationseinheit &quot;ALLE&quot; in Adobe Campaign Standard, kann jedoch keine Mobile Apps konfigurieren. {#org-unit-mobile}
 
 Ein Administrator mit der Organisationseinheit „ALLE“ sollte über Rechte für alle Eigenschaften für Mobilgeräte in [!DNL Launch] verfügen, um die mobile App zu konfigurieren.
 
@@ -49,7 +49,7 @@ Weiterführende Informationen zu Organisationseinheiten finden Sie auf dieser [S
 
 1. Vergewissern Sie sich anschließend, dass die Synchronisierung zwischen [!DNL Launch] und Adobe Campaign mit dem technischen Workflow **[!UICONTROL syncWithLaunch]** abgeschlossen ist.
 
-## Wie kann ich überprüfen, ob die Synchronisierung zwischen Adobe Campaign und Launch abgeschlossen ist? {#sync-campaign-launch}
+## Wie kann ich überprüfen, ob die Synchronisation zwischen Adobe Campaign und Launch abgeschlossen ist? {#sync-campaign-launch}
 
 1. Wählen Sie in Adobe Campaign Standard im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Workflows]** aus.
 
