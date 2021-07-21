@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7596'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
    <p>Zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) stellen wir daher weitere Funktionen bereit, mit deren Hilfe Sie CCPA-konformes Verhalten sicherstellen können:</p>
    <ul>
     <li>Recht auf Zugriff und Recht auf Löschung: Dazu nutzen wir die Funktionen, die wir analog dazu für die DSGVO ergänzt haben – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">mehr dazu</a> </li>
-    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Eingestellte und entfernte Funktionen</a>.</p></li>
+    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE">Eingestellte und entfernte Funktionen</a>.</p></li>
     <li>Ein Feld für die <strong>Abmeldung gemäß CCPA</strong> wurde zur Profilressource hinzugefügt, über das Adobe Campaign-Benutzer nachverfolgen können, ob ein Kunde die Weitergabe seiner personenbezogenen Daten untersagt hat. <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa">Mehr dazu</a>.</li>
   </ul>
     <p>Weitere Informationen finden Sie in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=de">diesem Video</a>.</p>
@@ -147,7 +147,7 @@ ht-degree: 100%
 * Fehlerkorrektur – Es kommt nun nicht mehr vor, dass ein Versand in &quot;Start ausstehend&quot; verbleibt, obwohl der Versand bereits abgeschlossen wurde. (CAMP-35355)
 * Fehlerkorrektur – Workflow-Logs werden nun auch dann angezeigt, wenn SQL-Logs aktiviert und dann deaktiviert wurden.
 
-## Version 19.3 - Juli 2019   {#release-19-3---july-2019}
+## Version 19.3 – Juli 2019 {#release-19-3---july-2019}
 
 **Neue Funktionen?**
 
@@ -267,13 +267,13 @@ ht-degree: 100%
 * Fehlerkorrektur – Jetzt können auch andere Benutzer als Admin-Benutzer Berichte speichern und planen. (CAMP-31133)
 * Fehlerkorrektur – Bei der Verwendung von &quot;|&quot; als Datumstrennzeichen in der Workflow-Aktivität &quot;Datei laden&quot; tritt kein Problem mehr auf. (CAMP-34706)
 
-## Version 19.2.4 - Juni 2019              {#release-19-2-4---june-2019}
+## Version 19.2.4 – Juni 2019 {#release-19-2-4---june-2019}
 
 **Email Designer**
 
 * Fehlerkorrektur – Benutzer können jetzt auch Fragmente bearbeiten, wenn im HTML-Code leere Style-Tags verwendet wurden. Dies ist eine Folgekorrektur von CAMP-33778 in Version 19.2.3.
 
-## Version 19.2.3 - Juni 2019              {#release-19-2-3---june-2019}
+## Version 19.2.3 – Juni 2019 {#release-19-2-3---june-2019}
 
 **Email Designer**
 
@@ -292,7 +292,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
 * Fehlerkorrektur – Der Inhalt einer Transaktionsnachricht kann jetzt mit Daten aus der Dienst-Ressource angereichert werden. (CAMP-33707)
 * Fehlerkorrektur – Landingpages werden jetzt nicht mehr auf die Blockierungsliste gesetzt, wenn Profile von einem Dienst abgemeldet werden.
 
-## 19.2 - Version Mai 2019  {#release-19-2---may-2019}
+## Version 19.2 – Mai 2019 {#release-19-2---may-2019}
 
 **Neue Funktionen?**
 
@@ -396,7 +396,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019                {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019   {#release-19-1-3---march-2019}
 
 **Verbesserungen bei Email Designer**
 
@@ -410,7 +410,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Typologieregeln können jetzt bearbeitet werden. (CAMP-31750)
 * Fehlerkorrektur – Der inMail-Vorgang hält jetzt nicht mehr unerwartet an. (CAMP-31238)
 
-## Version 19.1 - Februar 2019   {#release-19-1---february-2019}
+## Version 19.1 – Februar 2019 {#release-19-1---february-2019}
 
 **Neue Funktionen?**
 
@@ -516,7 +516,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt treten keine Abweichungen mehr zwischen den für einen In-App-Versand ausgewählten Profilen und den im Versand-Dashboard dargestellten Profilen auf. (CAMP-28722)
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr bei der Integration von Campaign mit Assets Core Service auf, sodass ein freigegebenes Asset in einer E-Mail ausgewählt werden kann.
 
-## Version 19.0 - Januar 2019   {#release-19-0---january-2019}
+## Version 19.0 – Januar 2019   {#release-19-0---january-2019}
 
 **Neue Funktionen?**
 
@@ -537,7 +537,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
      <li> Die Möglichkeit, <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">in der Vorbereitungsphase Inhalt von einer URL automatisch abzurufen</a> </li> 
      <li> Vollständig kompatible <a href="../../designing/using/using-reusable-content.md#content-templates">native Inhaltsvorlagen</a>. </li> 
     </ul> 
-    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=de">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Seite</a>.</p> </td> 
+    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=de">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE">Seite</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlisten in Transaktions-E-Mails<br /> </td> 
