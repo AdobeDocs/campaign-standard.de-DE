@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # Sendungen in Vorschau anzeigen {#previewing-messages}
 
-## Vorschau der E-Mail erzeugen             {#previewing-emails}
+## E-Mail-Vorschau erzeugen {#previewing-emails}
 
 Mit Campaign Standard können Sie Nachrichten vor dem Versand in einer Vorschau anzeigen, um deren Personalisierung zu überprüfen und zu ermitteln, wie die Nachrichten bei Ihren Empfängern aussehen werden.
 
@@ -49,11 +49,11 @@ Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer
 
 **Verwandte Themen**
 
-* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
-* [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md)
+* [Testprofile verwalten](../../audiences/using/managing-test-profiles.md)
+* [E-Mail-Nachrichten mit Zielgruppenprofilen testen](../../sending/using/testing-messages-using-target.md)
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
 
-## Vorschau der SMS-Nachricht erzeugen {#previewing-sms}
+## Vorschau von SMS-Nachrichten erzeugen {#previewing-sms}
 
 Bei **SMS**-Nachrichten können Sie mit Campaign Standard unter Verwendung von Testprofilen eine Vorschau der Nachricht anzeigen. So erhalten Sie eine genaue Darstellung der Nachricht, die ein bestimmtes Profil erhalten wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
@@ -85,7 +85,7 @@ Sie können nun je nach den ausgewählten Testprofilen die genaue Darstellung Ih
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
 * [SMS personalisieren](../../channels/using/personalizing-sms-messages.md)
 
-## Vorschau der Push-Benachrichtigung erzeugen {#previewing-push}
+## Vorschau von Push-Benachrichtigungen erzeugen {#previewing-push}
 
 Bei **Push-Benachrichtigungen** können Sie mit Campaign Standard unter Verwendung von Testprofilen eine Vorschau der Nachricht anzeigen. So erhalten Sie eine genaue Darstellung der Nachricht, die ein bestimmtes Profil empfangen wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
@@ -113,7 +113,7 @@ Sie können nun je nach ausgewähltem Testprofil die genaue Darstellung Ihrer Na
 * [Push-Benachrichtigung vorbereiten und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Push-Benachrichtigung anpassen](../../channels/using/customizing-a-push-notification.md)
 
-## Vorschau der In-App-Nachricht erzeugen {#previewing-in-app}
+## Vorschau von In-App-Nachrichten erzeugen {#previewing-in-app}
 
 Bei **In-App-Nachrichten** können Sie mit Campaign Standard unter Verwendung von Testprofilen eine Vorschau der Nachricht erzeugen. So erhalten Sie eine genaue Darstellung der Nachricht, die ein bestimmtes Profil erhalten wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
