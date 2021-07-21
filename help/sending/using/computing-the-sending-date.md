@@ -11,9 +11,9 @@ role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,17 +43,17 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
    * Füllen Sie das Feld **[!UICONTROL Segmentcode]** aus: Geben Sie manuell den gewünschten Zeitpunkt für den Versand der Nachricht ein.
 
-      Beispiel: Sie möchten den ersten Teilversand am 1. Juni um 10 Uhr (GMT+1) durchführen. Verwenden Sie das folgende Format: **JJJJ-MM-TT hh:mm:ss+tz**.
+      Beispiel: Sie möchten den ersten Teilversand am 1. Juni um 10 Uhr (GMT+1) durchführen. Verwenden Sie dazu das folgende Format: **JJJJ-MM-TT hh:mm:ss+tz**.
 
       ![](assets/send-time_opt_segment_configuration.png)
 
-      Um den nächsten Batch am nächsten Tag zu senden, geben Sie für das zweite Segment **2017-06-02 10:00:00+01** ein.
+      Um die nächste Teilsendung am nächsten Tag durchzuführen, geben Sie **2017-06-02 10:00:00+01** ein.
 
       Definieren Sie die nächsten Teilsendungen für die restlichen Segmente folgendermaßen:
 
-      * **03.06.2017 10:00:00+01**
-      * **04.06.2017 10:00:00+01**
-      * **05.06.2017 10:00:00+01**
+      * **2017-06-03 10:00:00+01**
+      * **2017-06-04 10:00:00+01**
+      * **2017-06-05 10:00:00+01**
    * Wählen Sie die Option **[!UICONTROL Segmentpopulation begrenzen]** aus.
 
       Wählen Sie im Tab **[!UICONTROL Begrenzung]** die Option **[!UICONTROL Zufällige Auswahl]** aus und geben Sie für jedes Segment den gewünschten Prozentsatz ein: 10 für die erste Teilsendung, 15 für die zweite etc.
