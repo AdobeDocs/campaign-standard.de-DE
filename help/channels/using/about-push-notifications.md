@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ Sehen Sie sich die folgenden Ressourcen an:
 
 Stellen Sie sicher, dass das Bereitstellungs-Team die Bereitstellung des Push-Kanals in Adobe Campaign Standard abgeschlossen hat. Implementieren Sie die setPushIdentifier-API aus dem SDK. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
 
-### Was benötige ich noch, um eine Push-Benachrichtigung zu senden, sobald ich das Push-Token und ECID in Campaign habe? {#sending-push}
+### Was benötige ich noch, um eine Push-Benachrichtigung zu senden, sobald ich das Push-Token und die ECID in Campaign habe? {#sending-push}
 
 Kunden müssen ein gültiges Push-Zertifikat im .pem-Format bereitstellen, um eine Push-Benachrichtigung zu senden. Für dieses Zertifikat ist kein Kennwort erforderlich.
 
@@ -111,7 +111,7 @@ Die folgende Meldung wird angezeigt.
 
 ![](assets/faq_2.png)
 
-### Kann ich gleichzeitig Produktions- und Sandbox-Zertifikate für die iOS-App hochladen (nicht zutreffend für Android)? {#prod-sandbox-certificate}
+### Kann ich gleichzeitig Produktions- und Sandbox-Zertifikate für die iOS-Mobile-App hochladen (nicht zutreffend für Android)? {#prod-sandbox-certificate}
 
 Nein, Apps funktionieren entweder im Sandbox- oder im Produktionsmodus und können nicht mehr in den anderen Modus (d. h. Sandbox- in Produktions-App) geändert werden, sobald sie eingerichtet wurden. Es wird empfohlen, dass Sie Ihre App zuerst im Sandbox-Modus testen und dann in den Produktionsmodus überleiten.
 
@@ -131,13 +131,13 @@ Vergewissern Sie sich, dass Sie die [hier](../../administration/using/push-paylo
 
 Beachten Sie, dass Campaign für Android nur Daten-Payloads unterstützt, keine Benachrichtigungs-Payloads.
 
-### Ich habe eine App im Abschnitt „Administration“ von Adobe Campaign Standard konfiguriert, aber die App ist nicht in den Versandeigenschaften verfügbar. {#mobile-app-unavailable}
+### Ich habe im Abschnitt &quot;Administration&quot; von Adobe Campaign Standard eine Mobile App konfiguriert, aber sie ist nicht in den Versandeigenschaften verfügbar. {#mobile-app-unavailable}
 
-Für eine App muss ein gültiges Push-Zertifikat hochgeladen werden, bevor sie in den Versandeigenschaften verfügbar gemacht werden kann.
+Für eine Mobile App muss ein gültiges Push-Zertifikat hochgeladen werden, bevor sie in den Versandeigenschaften verfügbar gemacht werden kann.
 
-### Ich habe alle Anweisungen auf dieser Seite ausprobiert und kann trotzdem keine Push-Benachrichtigungen von Campaign aus senden. {#push-troubleshoot}
+### Ich habe alle Anweisungen auf dieser Seite ausprobiert und kann in Campaign trotzdem keine Push-Benachrichtigungen senden. {#push-troubleshoot}
 
-Bitte eröffnen Sie ein Ticket für die Kundenunterstützung.
+Bitte reichen Sie ein Ticket für die Kundenunterstützung ein.
 
 ### Push-Benachrichtigungen werden von Campaign zugestellt, aber die Mediendatei wird nicht angezeigt.{#media-file-unavailable}
 
