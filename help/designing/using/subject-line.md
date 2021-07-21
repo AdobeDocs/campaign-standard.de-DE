@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Die Betreffzeile ist für die Vorbereitung und den Versand einer Nachricht unbed
 
 1. Sie können zur Betreffzeile auch Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzufügen, indem Sie die entsprechenden Symbole auswählen. Weiterführende Informationen dazu finden Sie unter [Personalisierung](../../designing/using/personalization.md).
 
-## E-Mail-Absender einer E-Mail definieren {#email-sender}
+## Definieren des E-Mail-Absenders einer E-Mail {#email-sender}
 
 Um den Absendernamen zu definieren, der im Header der gesendeten Nachrichten angezeigt wird, navigieren Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol).
 
