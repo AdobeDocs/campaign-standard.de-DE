@@ -11,7 +11,7 @@ role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1355'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Standardmäßig startet der technische Workflow alle 15 Minuten. Bei Bedarf kön
 
 Ihr Workflow wird jetzt neu gestartet und die von Adobe Launch in Adobe Campaign Standard importierten Eigenschaften für Mobilgeräte werden synchronisiert.
 
-## Adobe Experience Platform Launch-App in Adobe Campaign einrichten {#set-up-campaign}
+## Adobe Experience Platform Launch-Mobile-App in Adobe Campaign einrichten {#set-up-campaign}
 
 Um eine Eigenschaft für Mobilgeräte von Experience Platform Launch in Campaign zu verwenden, müssen Sie diese Eigenschaft auch in Adobe Campaign konfigurieren. Stellen Sie in Adobe Campaign sicher, dass der IMS-Benutzer zu den Standardbenutzer- und Administratorproduktprofilen gehört.
 
@@ -130,7 +130,7 @@ Ihr **[!UICONTROL Property Status]** sollte **[!UICONTROL Bereit zum Konfigurier
 
    Weitere Informationen finden Sie unter [Konfiguration veröffentlichen](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
-## Kanalspezifische App-Konfiguration in Adobe Campaign {#channel-specific-config}
+## Kanalspezifische Mobile-App-Konfiguration in Adobe Campaign {#channel-specific-config}
 
 Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-Sendungen verwendet werden. Sie können sie jetzt bei Bedarf weiter konfigurieren, um Ereignisse zu erstellen, die Ihre In-App-Nachrichten auslösen und/oder Push-Zertifikate hochladen.
 
@@ -164,7 +164,7 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
 1. Klicken Sie auf den Tab **[!UICONTROL Abonnenten der Mobile App]**, um eine Liste mit Abonnenten und anderen Informationen zu diesen Abonnenten anzuzeigen, z. B. ob sie sich von Ihren Benachrichtigungen abgemeldet haben.
 
-## Experience Platform Launch-App löschen {#delete-app}
+## Experience Platform Launch-Mobile-App löschen {#delete-app}
 
 Das Löschen der Experience Platform Launch-App kann nicht rückgängig gemacht werden.
 
