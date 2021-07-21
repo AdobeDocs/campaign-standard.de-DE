@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Wenn Sie auf einer neuen Plattform erstmals E-Mails versenden, verwenden Sie mö
 
 **Tipps**
 
-* Empfänger, deren Adressen sich in Quarantäne befinden, werden zum Zeitpunkt der Versandanalyse standardmäßig ausgeschlossen und fließen somit nicht in die Berechnung der Zielgruppe ein. Dies beschleunigt die Zustellung, da sich die Fehlerrate maßgeblich auf die Zustellgeschwindigkeit auswirkt. Eine E-Mail-Adresse kann zum Beispiel unter Quarantäne gestellt werden, weil das Postfach voll ist oder die Adresse nicht existiert. [Mehr dazu](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* Empfänger, deren Adressen sich in Quarantäne befinden, werden zum Zeitpunkt der Versandanalyse standardmäßig ausgeschlossen und fließen somit nicht in die Berechnung der Zielgruppe ein. Dies beschleunigt die Zustellung, da sich die Fehlerrate maßgeblich auf die Zustellgeschwindigkeit auswirkt. Eine E-Mail-Adresse kann zum Beispiel unter Quarantäne gestellt werden, weil das Postfach voll ist oder die Adresse nicht existiert. [Weitere Informationen](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign verwaltet fehlerhafte Adressen je nach zurückgegebenem Fehlertyp. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/understanding-quarantine-management.md).
 
