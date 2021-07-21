@@ -12,7 +12,7 @@ role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
 ht-degree: 100%
 
@@ -42,13 +42,13 @@ Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon
 | broadlogId | `broadlogId` aus den eingehenden Daten (ähnlich einem Push-Tracking, bei dem `_mld` verwendet wird) |
 | Aktion | &quot;1&quot; für Öffnung, &quot;2&quot; für Klick und &quot;7&quot; für Impression |
 
-## Implementieren des lokalen Impressions-Tracking {#implement-local-impression-tracking}
+## Implementieren des lokalen Impression-Tracking {#implement-local-impression-tracking}
 
-Das Adobe Experience Platform Mobile SDK sendet automatisch das Impressions-Ereignis sowohl für Android als auch für iOS ohne zusätzliche Konfiguration.
+Das Adobe Experience Platform Mobile SDK sendet automatisch das Impression-Ereignis sowohl für Android als auch für iOS ohne zusätzliche Konfiguration.
 
-## Implementieren des Klick-Trackings {#implementing-click-tracking}
+## Implementieren des Klick-Tracking {#implementing-click-tracking}
 
-Für das Klick-Tracking muss bei einer Aktion der Wert „2“ gesendet werden, wenn die Funktion `collectMessageInfo()` oder `trackAction()` aufgerufen wird.
+Für das Klick-Tracking muss bei einer Aktion der Wert &quot;2&quot; gesendet werden, wenn die Funktion `collectMessageInfo()` oder `trackAction()` aufgerufen wird.
 
 ### Für Android {#implement-click-tracking-android}
 
@@ -101,7 +101,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## Implementieren des Öffnungs-Trackings {#implement-open-tracking}
+## Implementieren des Öffnungs-Tracking {#implement-open-tracking}
 
 Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Benutzer zum Öffnen der App zunächst auf die Benachrichtigung klicken muss. Wenn die App nicht über eine lokale Benachrichtigung gestartet/geöffnet wird, treten keine Tracking-Ereignisse auf.
 
