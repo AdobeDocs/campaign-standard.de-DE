@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2299'
 ht-degree: 100%
 
@@ -136,9 +136,9 @@ Für jede Bedingung können Sie folgende Einstellungen festlegen:
 
 * [Versandlogs](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Häufigkeit der Versandwarnungen](#alerting-frequency)
-* [Symbole und Status von Marketingaktivitäten       ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Symbole und Status von Marketing-Aktivitäten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Versandwarnungsbedingung erstellen         {#creating-a-delivery-alerting-criterion}
+### Versandwarnungsbedingung erstellen {#creating-a-delivery-alerting-criterion}
 
 Sie können nach Bedarf neue Versandwarnungsbedingungen erstellen.
 
@@ -182,7 +182,7 @@ Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard
 
 [Ressource hinzufügen oder erweitern](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Versandwarnungsparameter         {#delivery-alerting-parameters}
+## Versandwarnungsparameter {#delivery-alerting-parameters}
 
 ### Bedingungsparameter {#criteria-parameters}
 
