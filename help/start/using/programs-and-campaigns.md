@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messe
 * [Planung](../../start/using/timeline.md)
 * [Über dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 
-## Programme erstellen      {#creating-a-program}
+## Programme erstellen {#creating-a-program}
 
 Ein Programm ist die höchste Organisationsebene Es kann Unterprogramme, Kampagnen, Workflows und Landingpages enthalten.
 
