@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -87,14 +87,14 @@ Bitte beachten Sie, dass die Sprache bei der Installation eingerichtet wird und 
 
 ## Tastaturbefehle {#shortcuts}
 
-### Homepage {#homepage-shortcuts}
+### Startseite {#homepage-shortcuts}
 
 | Tastenkombination | Aktion |
 |:-:|:-:|
 | Tab | Durch einzelne Elemente der Benutzeroberfläche navigieren |
 | Eingabe oder Leerzeichen | Ausgewähltes Element aktivieren |
 
-### E-Mail Designer {#email-designer-shortcuts}
+### Email Designer {#email-designer-shortcuts}
 
 | Tastenkombination | Aktion |
 |:-:|:-:|
