@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landingpages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Im Inhalt der Landingpage werden Eingabefelder verwendet, um Daten aus der Campa
 
 Dazu müssen diese Felder Datenbankfeldern zugeordnet werden.
 
-Sie können ihre Zuordnung über den Abschnitt **[!UICONTROL Formulardaten]** in der linken Palette definieren und verwalten.
+Sie können die Zuordnung über den Abschnitt **[!UICONTROL Formulardaten]** in der linken Palette definieren und verwalten.
 
 ![](assets/lp_form-data.png)
 
-## Mapping der Formularfelder  {#mapping-form-fields}
+## Zuordnung der Formularfelder {#mapping-form-fields}
 
-Um die Campaign-Datenbank Ihren Bedürfnissen entsprechend zu aktualisieren, verknüpfen Sie die entsprechenden Datenbankfelder mit den Bausteinen Eingabefeld, Radiobutton oder Checkbox Ihrer Landingpage.
+Um die Campaign-Datenbank gemäß Ihren Bedürfnissen zu aktualisieren, verknüpfen Sie die entsprechenden Datenbankfelder mit Bausteinen vom Typ Eingabefeld, Radiobutton oder Checkbox Ihrer Landingpage.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -48,31 +48,31 @@ Gehen Sie dazu wie folgt vor:
 
    >[!NOTE]
    >
-   >Weiterführende Informationen zur Verwendung des Kontrollkästchentyps in einer Landingpage finden Sie in den Abschnitten [Mehrere Dienstanmeldungen aktualisieren](#multiple-subscriptions) und [Kontrollkästchen Vereinbarung](#agreement-checkbox) .
+   >Weiterführende Informationen zur Verwendung des Checkbox-Typs in einer Landingpage finden Sie in den Abschnitten [Mehrere Dienstanmeldungen aktualisieren](#multiple-subscriptions) und [Zustimmungs-Checkbox](#agreement-checkbox).
 
 1. Wenn Sie einen Feldtyp auswählen, der nicht mit dem Datenbankfeld kompatibel ist, das derzeit im Bereich **[!UICONTROL Feld]** ausgewählt ist, wird eine Warnmeldung angezeigt. Wählen Sie für eine optimale Zuordnung einen geeigneten Wert aus.
 
    ![](assets/lp_field-type-warning.png)
 
-1. Verwenden Sie den Bereich **[!UICONTROL Feld]** , um ein Datenbankfeld auszuwählen, das mit dem Formularfeld verknüpft werden soll.
+1. Verwenden Sie den Bereich **[!UICONTROL Feld]**, um ein Datenbankfeld auszuwählen, das mit dem Formularfeld verknüpft werden soll.
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >Landingpages können nur mit den Ressourcen **[!UICONTROL Profile]** oder **[!UICONTROL Service]** zugeordnet werden.
+   >Landingpages können nur den Ressourcen **[!UICONTROL Profile]** oder **[!UICONTROL Service]** zugeordnet werden.
 
    In diesem Beispiel ordnen Sie das Feld **Name** Ihrer Landingpage dem Feld **[!UICONTROL Nachname]** der Ressource **[!UICONTROL Profile]** zu.
 
    ![](assets/lp_database-field-example.png)
 
-1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Pflichtfeld]**. In diesem Fall kann die Landingpage nur gesendet werden, wenn der Benutzer dieses Feld ausgefüllt hat.
+1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Pflichtfeld]**. In diesem Fall kann das Formular der Landingpage nur gesendet werden, wenn der Benutzer dieses Feld ausgefüllt hat.
 
    ![](assets/lp_mandatory-option.png)
 
-   Wenn kein Pflichtfeld ausgefüllt ist, wird eine Fehlermeldung angezeigt, wenn der Benutzer die Seite sendet.
+   Wenn ein Pflichtfeld nicht ausgefüllt wurde, erscheint eine Fehlermeldung, wenn der Benutzer das Formular sendet.
 
-1. Klicken Sie auf **[!UICONTROL Bestätigen]** , um Ihre Änderungen zu speichern.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**, um Ihre Änderungen zu speichern.
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -86,55 +86,55 @@ Gehen Sie wie folgt vor:
 
    ![](assets/lp_parameters_job.png)
 
-1. Wählen Sie den **[!UICONTROL Abstimmschlüssel]** aus: wird dieses Datenbankfeld verwendet, um zu bestimmen, ob der Besucher über ein bereits in der Adobe Campaign-Datenbank bekanntes Profil verfügt. Dies kann beispielsweise E-Mail-Adresse, Vorname, Nachname sein. Mit dem Abstimmschlüssel können Sie ein Profil gemäß dem unten definierten Parameter **[!UICONTROL Update strategy]** aktualisieren oder erstellen.
+1. Wählen Sie den **[!UICONTROL Abstimmschlüssel]** aus: Dieses Datenbankfeld wird verwendet, um zu bestimmen, ob der Besucher über ein bereits in der Adobe Campaign-Datenbank bekanntes Profil verfügt. Dies kann beispielsweise die E-Mail-Adresse, der Vorname oder der Nachname sein. Mit dem Abstimmschlüssel können Sie ein Profil gemäß dem unten definierten Parameter **[!UICONTROL Aktualisierungsstrategie]** aktualisieren oder erstellen.
 
-1. Definieren Sie das **[!UICONTROL Mapping der Filterparameter]**: In diesem Bereich können Sie eine Beziehung zwischen den Formularfeldern und den im Abstimmschlüssel verwendeten Feldern herstellen.
+1. Definieren Sie das **[!UICONTROL Formularparameter-Mapping]**: In diesem Bereich können Sie eine Beziehung zwischen den Formularfeldern und den im Abstimmschlüssel verwendeten Feldern herstellen.
 
-1. Wählen Sie **[!UICONTROL Aktualisierungsstrategie]** aus: Wenn der Abstimmschlüssel ein vorhandenes Datenbankprofil wiederherstellt, können Sie festlegen, dass dieses Profil mit den im Formular eingegebenen Daten aktualisiert wird, oder stattdessen diese Aktualisierung verhindern.
+1. Wählen Sie eine **[!UICONTROL Aktualisierungsstrategie]** aus: Wenn der Abstimmschlüssel ein existierendes Profil in der Datenbank findet, haben Sie die Wahl, das Profil mit den Formulardaten zu aktualisieren oder nicht.
 
    ![](assets/lp_parameters_update-strategy.png)
 
-## Mehrere Dienstanmeldungen {#multiple-subscriptions}
+## Mehrere Service-Abonnements {#multiple-subscriptions}
 
-Sie können mehrere Kontrollkästchen auf einer einzelnen Landingpage verwenden, damit sich Benutzer von mehreren Diensten aus anmelden oder abmelden können.
+Sie können mehrere Checkboxes auf einer Landingpage verwenden, damit sich Benutzer bei mehreren Services anmelden oder abmelden können.
 
 Gehen Sie dazu wie folgt vor:
 
 1. Bei der Erstellung der Landingpage:
 
-   * Wählen Sie einen Block und wählen Sie im Abschnitt **[!UICONTROL Formulardaten]** die Option **[!UICONTROL Kontrollkästchen]** als Feldtyp aus.
+   * Wählen Sie einen Baustein und im Abschnitt **[!UICONTROL Formulardaten]** die Option **[!UICONTROL Checkbox]** als Feldtyp aus.
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * Wenn Sie HTML-Kenntnisse haben, können Sie mithilfe der Schaltfläche **[!UICONTROL Quelle anzeigen]** auch manuell ein Kontrollkästchen einfügen.
+   * Wenn Sie HTML-Kenntnisse haben, können Sie mithilfe der Schaltfläche **[!UICONTROL Quelle anzeigen]** auch manuell eine Checkbox einfügen.
 
       ![](assets/lp_show_source.png)
 
-      Dadurch können Sie das Kontrollkästchen an beliebiger Stelle auf der Seite einfügen.
+      Damit können Sie die Checkbox an beliebiger Stelle auf der Seite einfügen.
 
       ![](assets/lp_manual-checkbox.png)
 
-1. Stellen Sie sicher, dass das Kontrollkästchen in Ihrem Inhalt aktiviert ist. Die Dropdownliste **[!UICONTROL Typ]** wird im Abschnitt **[!UICONTROL Formulardaten]** der linken Palette angezeigt. Wählen Sie **[!UICONTROL Dienst und Abonnement]** aus der Liste aus.
+1. Stellen Sie sicher, dass die Checkbox in Ihrem Inhalt ausgewählt ist. Die Dropdown-Liste Typ **** wird im Abschnitt **[!UICONTROL Formulardaten]** in der linken Palette angezeigt. Wählen Sie **[!UICONTROL Dienst und Abonnement]** aus der Liste aus.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. Wählen Sie eine Option aus der Dropdownliste **[!UICONTROL Verhalten]** aus.
+1. Wählen Sie eine Option aus der Dropdown-Liste **[!UICONTROL Verhalten]** aus.
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. Wählen Sie einen [service](../../audiences/using/creating-a-service.md) aus der entsprechenden Liste aus.
+1. Wählen Sie einen [Service](../../audiences/using/creating-a-service.md) aus der entsprechenden Liste aus.
 
    ![](assets/lp_checkbox-service.png)
 
-1. Stellen Sie sicher, dass die Option **[!UICONTROL Obligatorisch]** deaktiviert ist. Andernfalls haben Ihre Benutzer keine Wahl.
+1. Stellen Sie sicher, dass die Option **[!UICONTROL Pflichtfeld]** deaktiviert ist. Andernfalls haben Ihre Benutzer keine Wahl.
 
    ![](assets/lp_uncheck-mandatory.png)
 
-1. Um weitere Kontrollkästchen hinzuzufügen, mit denen Sie andere Dienste abonnieren können, wiederholen Sie die obigen Schritte so oft wie nötig.
+1. Um weitere Checkboxes hinzuzufügen, mit denen Benutzer zusätzliche Services abonnieren können, wiederholen Sie die obigen Schritte so oft wie nötig.
 
    ![](assets/lp_multiple-checkboxes.png)
 
-Nach der Veröffentlichung der Landingpage können Benutzer mehrere Kontrollkästchen auswählen, um mehrere Newsletter von derselben Seite aus zu abonnieren.
+Nach der Veröffentlichung der Landingpage können Benutzer auf derselben Seite mehrere Checkboxes auswählen, um mehrere Newsletter zu abonnieren.
 
 ## Zustimmungs-Checkbox {#agreement-checkbox}
 
@@ -150,11 +150,11 @@ Gehen Sie wie folgt vor, um eine Checkbox einzufügen und zu konfigurieren:
 
 1. Bei der Erstellung der Landingpage:
 
-   * Wählen Sie einen Block und wählen Sie im Abschnitt **[!UICONTROL Formulardaten]** die Option **[!UICONTROL Kontrollkästchen]** als Feldtyp aus.
+   * Wählen Sie einen Baustein und im Abschnitt **[!UICONTROL Formulardaten]** die Option **[!UICONTROL Checkbox]** als Feldtyp aus.
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * Wenn Sie HTML-Kenntnisse haben, können Sie mithilfe der Schaltfläche **[!UICONTROL Quelle anzeigen]** auch manuell ein Kontrollkästchen einfügen.
+   * Wenn Sie HTML-Kenntnisse haben, können Sie mithilfe der Schaltfläche **[!UICONTROL Quelle anzeigen]** auch manuell eine Checkbox einfügen.
 
       ![](assets/lp_show_source.png)
 
@@ -162,11 +162,11 @@ Gehen Sie wie folgt vor, um eine Checkbox einzufügen und zu konfigurieren:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 
-1. Stellen Sie sicher, dass das Kontrollkästchen aktiviert ist.
+1. Stellen Sie sicher, dass die Checkbox ausgewählt ist.
 
    ![](assets/lp_select_checkbox.png)
 
-1. Die Dropdownliste **[!UICONTROL Typ]** wird im Abschnitt **[!UICONTROL Formulardaten]** der linken Palette angezeigt. Wählen Sie **[!UICONTROL Zustimmung]** aus der Liste aus.
+1. Die Dropdown-Liste Typ **** wird im Abschnitt **[!UICONTROL Formulardaten]** in der linken Palette angezeigt. Wählen Sie **[!UICONTROL Zustimmung]** aus der Liste aus.
 
    ![](assets/lp_form_data_drop-down.png)
 
