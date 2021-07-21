@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2717'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachr
 * Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](#adding-a-content-block).
 * Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](#personalizing-the-sender).
 * Betreff einer E-Mail personalisieren. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#subject-line).
-* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email)..
+* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email).
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
@@ -290,9 +290,9 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
 **Verwandte Themen:**
 
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
-* [Ausdrucksbearbeitung](../../automating/using/editing-queries.md#about-query-editor)
+* [Erweiterten Ausdruck bearbeiten](../../automating/using/editing-queries.md#about-query-editor)
 
-### Prioritätsstufe             {#order-of-priority}
+### Prioritätsstufe {#order-of-priority}
 
 Bei der Definition eines dynamischen Inhalts im Ausdruckseditor wird folgende Priorität verwendet:
 
@@ -330,7 +330,7 @@ Gehen Sie bei der E-Mail-Erstellung wie folgt vor:
 
    Weiterführende Informationen zum Hinzufügen und Konfigurieren der Personalisierungsfelder finden Sie im Abschnitt [Personalisierungsfelder einfügen](#inserting-a-personalization-field).
 
-### Illustrationen konfigurieren {#configuring-images}
+### Bilder konfigurieren {#configuring-images}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
