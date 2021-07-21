@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Bevor Sie Ihre Transaktionsnachricht veröffentlichen, können Sie ein spezifisc
 
 ## Spezifisches Testprofil definieren {#defining-specific-test-profile}
 
-Definieren Sie ein Profil, das mit Ihrem Ereignis verknüpft wird. Auf diese Weise können Sie eine Vorschau Ihrer Nachricht anzeigen und einen relevanten Testversand durchführen.
+Definieren Sie ein Profil, das mit Ihrem Ereignis verknüpft wird. Auf diese Weise können Sie eine Vorschau Ihrer Nachricht anzeigen und einen entsprechenden Testversand durchführen.
 
 1. [Klicken Sie im Dashboard für Transaktionsnachrichten](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) auf die Schaltfläche **[!UICONTROL Testprofil erstellen]**.
 
@@ -55,8 +55,8 @@ Sie haben außerdem die Möglichkeit, ausgehend vom Menü **[!UICONTROL Testprof
 
 **Verwandte Themen:**
 
-* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
-* [Erstellen von Audiences](../../audiences/using/creating-audiences.md)
+* [Testprofile verwalten](../../audiences/using/managing-test-profiles.md)
+* [Audiences erstellen](../../audiences/using/creating-audiences.md)
 
 ## Testversand durchführen {#sending-proof}
 
