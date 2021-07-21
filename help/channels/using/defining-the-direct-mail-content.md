@@ -12,13 +12,13 @@ role: User
 level: Intermediate
 exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
 ---
 
-# Briefpost-Inhalt definieren{#defining-the-direct-mail-content}
+# Briefpostinhalt definieren{#defining-the-direct-mail-content}
 
 Sie können den Inhalt entweder im letzten Bildschirm des Erstellungsassistenten oder durch Klicken auf den Bereich **Inhalt** im Versand-Dashboard festlegen.
 
