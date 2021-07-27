@@ -6,14 +6,13 @@ description: Hier finden Sie die Liste der in dynamischen Berichten enthaltenen 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Berichte
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1298'
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+workflow-type: tm+mt
+source-wordcount: '1272'
 ht-degree: 100%
 
 ---
@@ -384,10 +383,6 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 
 ## Segmente {#segments}
 
->[!NOTE]
->
->Standardmäßig ist das Segment **[!UICONTROL Testversand ausschließen]** bereits ausgewählt, um Ihre Berichte zu filtern. Diese Auswahl kann jedoch bei Bedarf geändert werden.
-
 In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwendet werden, sowie ihre Definitionen.
 
 <table> 
@@ -461,10 +456,6 @@ In der Tabelle unten finden Sie die Liste der Segmente, die in Berichten verwend
   <tr> 
    <td> Alle Besuche<br /> </td> 
    <td> Jeder Empfänger<br /> </td> 
-  </tr> 
-    <tr> 
-   <td> Testversand ausschließen<br /> </td> 
-   <td> Testversand aus Ihren Berichten ausschließen<br /> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
