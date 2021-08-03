@@ -10,10 +10,10 @@ feature: Instanzeneinstellungen
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '699'
-ht-degree: 100%
+source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,12 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
    <td> <span class="uicontrol">Trackinglogs wiederherstellen</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> Dieser Workflow stellt verlorene Trackinglogs wieder her. Beachten Sie, dass dieser technische Workflow nur in bestimmten Kontexten verwendet wird und auf die interne Verwendung durch Adobe beschränkt ist. <br> Er wird standardmäßig alle zehn Minuten gestartet.<br /> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Update der Versandausführung</span> <br/> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
+   <td> Dieser Workflow kopiert die Broadlogs und Trackinglogs in die lokale Datenbank. Er wird standardmäßig alle zehn Minuten gestartet.<br/> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Aktualisierung der Versandindikatoren</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
