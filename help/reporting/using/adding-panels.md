@@ -11,15 +11,15 @@ role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
 source-git-commit: 8062995481a889d8865267e6134efa74648753f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Bedienfelder hinzufügen{#adding-panels}
 
-## Leeres Panel hinzufügen {#adding-a-blank-panel}
+## Leeres Bedienfeld hinzufügen {#adding-a-blank-panel}
 
 Um mit der Berichterstellung zu beginnen, fügen Sie einem vordefinierten oder benutzerdefinierten Bericht Bedienfelder hinzu. Jedes Bedienfeld enthält unterschiedliche Datensätze und besteht aus Freiformtabellen und Visualisierungen.
 
@@ -51,7 +51,7 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Fügen Sie im Feld **[!UICONTROL Segment hier ablegen]** ein **[!UICONTROL Segment]** aus der Registerkarte **[!UICONTROL Komponenten]** in die Symbolleiste ein.
+1. Fügen Sie im Feld **[!UICONTROL Segment hier ablegen]** ein **[!UICONTROL Segment]** aus der Registerkarte **[!UICONTROL Komponenten]** in die obere Leiste ein.
 
    ![](assets/dynamic_report_panel_3.png)
 
