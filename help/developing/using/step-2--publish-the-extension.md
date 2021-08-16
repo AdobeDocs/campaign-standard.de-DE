@@ -2,18 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: '"Schritt 2: Erweiterung veröffentlichen"'
+description: Erfahren Sie, wie Sie die Erweiterung in Campaign Standard veröffentlichen. Teil 2 einer Reihe.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Data Model
+feature: Datenmodell
 role: Developer
 level: Experienced
 exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 89%
 
 ---
 
