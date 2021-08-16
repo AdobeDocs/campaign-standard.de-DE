@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Trigger in Campaign verwenden
+description: Erstellen Sie ein Trigger-Ereignis in Adobe Campaign basierend auf einem vorhandenen Adobe Experience Cloud-Trigger.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,14 +10,14 @@ feature: Trigger
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
-# Trigger in Campaign verwenden{#using-triggers-in-campaign}
+# Triggers in Campaign verwenden{#using-triggers-in-campaign}
 
 ## In Campaign einen gemappten Trigger erstellen {#creating-a-mapped-trigger-in-campaign}
 
