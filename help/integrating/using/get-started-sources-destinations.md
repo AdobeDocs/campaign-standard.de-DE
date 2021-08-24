@@ -5,14 +5,12 @@ title: Erste Schritte mit Quellen und Zielen
 description: Weitere Informationen zu Adobe Experience Platform-Quellen und -Zielen.
 audience: integrating
 content-type: reference
-feature: Quellen und Ziele
 role: Data Architect
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
-translation-type: ht
-source-git-commit: 27cbb2f8a202b3361122fdadfcfe8d0820aa3cb3
-workflow-type: ht
-source-wordcount: '310'
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+workflow-type: tm+mt
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
