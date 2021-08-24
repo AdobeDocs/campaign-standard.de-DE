@@ -5,14 +5,12 @@ title: Daten von Campaign nach Adobe Experience Platform exportieren
 description: Erfahren Sie, wie Sie Daten von Campaign Standard nach Adobe Experience Platform exportieren.
 audience: integrating
 content-type: reference
-feature: Quellen und Ziele
 role: Data Architect
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-translation-type: ht
-source-git-commit: 4855585539653a0bb496d210b001765b5b557570
-workflow-type: ht
-source-wordcount: '534'
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+workflow-type: tm+mt
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -49,7 +47,7 @@ Beispiele für Daten-Management-Workflows sind im Abschnitt [Workflow-Anwendungs
 
 Verwandte Themen:
 
-* [Daten-Management-Aktivitäten](../../automating/using/about-data-management-activities.md)
+* [Datenverwaltungsaktivitäten](../../automating/using/about-data-management-activities.md)
 * [Über den Datenimport und -export](../../automating/using/about-data-import-and-export.md)
 
 
