@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Externe API
-description: Mit der Aktivität Externe API werden Daten aus einem externen Campaign Standard über einen HTTP-API-Aufruf in den Workflow integriert.
+description: Mit der externen API-Aktivität können Daten aus einem externen System über einen HTTP-API-Aufruf in den Campaign Standard-Workflow integriert werden.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -12,9 +12,9 @@ role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2217'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
