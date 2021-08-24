@@ -5,14 +5,12 @@ title: Adobe Experience Platform-Audiences in Campaign aufnehmen
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Audiences in Campaign Standard aufnehmen.
 audience: integrating
 content-type: reference
-feature: Quellen und Ziele
 role: Data Architect
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-translation-type: ht
-source-git-commit: 27cbb2f8a202b3361122fdadfcfe8d0820aa3cb3
-workflow-type: ht
-source-wordcount: '331'
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+workflow-type: tm+mt
+source-wordcount: '328'
 ht-degree: 100%
 
 ---
@@ -51,5 +49,5 @@ Beispiele für Daten-Management-Workflows sind im Abschnitt [Workflow-Anwendungs
 
 Verwandte Themen:
 
-* [Daten-Management-Aktivitäten](../../automating/using/about-data-management-activities.md)
+* [Datenverwaltungsaktivitäten](../../automating/using/about-data-management-activities.md)
 * [Über den Datenimport und -export](../../automating/using/about-data-import-and-export.md)
