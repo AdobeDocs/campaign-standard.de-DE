@@ -1,29 +1,29 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Trigger in Campaign verwenden
-description: Erstellen Sie ein Trigger-Ereignis in Adobe Campaign basierend auf einem vorhandenen Adobe Experience Cloud-Trigger.
+title: Triggers in Campaign verwenden
+description: Erstellen Sie ein Trigger-Ereignis in Adobe Campaign, das auf einem vorhandenen Adobe Experience Cloud-Trigger basiert.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Triggers in Campaign verwenden{#using-triggers-in-campaign}
 
-## In Campaign einen gemappten Trigger erstellen {#creating-a-mapped-trigger-in-campaign}
+## In Campaign einen zugeordneten Trigger erstellen {#creating-a-mapped-trigger-in-campaign}
 
 >[!NOTE]
 >
->Zum Erstellen von Triggers benötigen Sie die Rolle **[!UICONTROL Administration]** oder müssen der Sicherheitsgruppe **[!UICONTROL Administratoren]** angehören. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/list-of-roles.md).
+>Zum Erstellen von Triggern benötigen Sie die Rolle **[!UICONTROL Administration]** oder müssen der Sicherheitsgruppe der **[!UICONTROL Administratoren]** angehören. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/list-of-roles.md).
 
 Stellen Sie sicher, dass die Verhaltensweisen, die Sie verfolgen möchten, im Vorhinein in Adobe Experience Cloud (**[!UICONTROL Triggers]** Core Service) definiert wurden. Weiterführende Informationen finden Sie in der [Dokumentation zur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=de). Beachten Sie, dass bei der Definition von Triggern die Alias aktiviert werden müssen. In Adobe Experience Cloud muss für jedes Verhalten (abgebrochener Webseitenbesuch/Formularabbruch, hinzugefügter/entfernter Artikel, abgelaufene Sitzung etc.) ein neuer Trigger hinzugefügt werden.
 
