@@ -2,18 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Trigger testen
-description: Hier finden Sie Tipps zur Fehlerbehebung, die Ihnen bei der Lösung der häufigsten Probleme helfen, die bei der Verwendung von Trigger mit Adobe Campaign auftreten können.
+description: Die folgenden Tipps zur Fehlerbehebung helfen Ihnen, die häufigsten Probleme bei der Verwendung von Triggers in Adobe Campaign zu beheben.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
 source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
