@@ -6,14 +6,14 @@ description: Auf dieser Seite werden alle kommenden Versionen von Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Übersicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '426'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Wir empfehlen Ihnen, diese Seite regelmäßig zu besuchen, um nach Updates zu suchen.
 
-## Version 21.3 - Version September 2021 {#release-21-3-release}
+## Version 21.3 – September 2021 {#release-21-3-release}
 
 Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
-Ausführliche Informationen zu dieser Version finden Sie in den [Frühzeitige Versionshinweisen](../../rn/using/early-release-notes.md).
+Weitere Informationen über diese Version finden Sie in den [vorzeitigen Versionshinweisen](../../rn/using/early-release-notes.md).
 
 <table>
  <thead>
