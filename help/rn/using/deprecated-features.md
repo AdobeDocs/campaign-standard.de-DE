@@ -6,13 +6,13 @@ description: Auf dieser Seite finden Sie eingestellte und entfernte Funktionen v
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Übersicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '773'
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
+workflow-type: tm+mt
+source-wordcount: '727'
 ht-degree: 100%
 
 ---
@@ -39,22 +39,6 @@ In diesem Abschnitt werden Funktionen aufgeführt, die bei den aktuellen Campaig
 Im Allgemeinen werden Funktionen, die in einer zukünftigen Version entfernt werden sollen, zuerst als eingestellt gekennzeichnet, wobei eine Alternative bereitgestellt wird. Diese Funktionen sind für neue Campaign Standard-Kunden entweder nicht mehr verfügbar oder sollten für keine neue Implementierung verwendet werden. Sie werden auch aus der Produktdokumentation entfernt.
 
 Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellung zu prüfen und Pläne zur Änderung ihrer Implementierung zu erstellen, um die verfügbare Alternative zu nutzen. Achten Sie auf die geplante Version für die Entfernung, um Ihre Umgebungs- und Projektaktualisierungen zu planen.
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Integration von Experience Cloud Assets</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> Ab Juli 2021 ist Assets ein veralteter Coreservice, der noch unterstützt wird. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=de">Mehr dazu</a>.</p>
-   <p>Bei einer Neuimplementierung können Sie Experience Cloud Assets nicht mehr in Adobe Campaign Standard integrieren.</p>
-     <em>Geplantes Datum für die Entfernung: 2022.</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <table> 
  <thead> 
