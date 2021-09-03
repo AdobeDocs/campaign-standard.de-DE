@@ -10,10 +10,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '827'
+workflow-type: tm+mt
+source-wordcount: '826'
 ht-degree: 100%
 
 ---
