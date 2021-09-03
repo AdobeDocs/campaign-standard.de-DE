@@ -11,10 +11,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '788'
+workflow-type: tm+mt
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -29,7 +28,7 @@ Mit dieser Funktion können Sie eine Population mithilfe von Filtern und Regeln 
 
 Der Abfrageeditor kommt in verschiedenen Funktionen zum Einsatz:
 
-* Erstellung von **Audiences**,****
+* Erstellung von **Audiences** vom Typ **Abfrage**,
 * Definition von **E-Mail-Zielgruppen**,
 * Definition von Populationen in **Workflow-Aktivitäten**.
 
