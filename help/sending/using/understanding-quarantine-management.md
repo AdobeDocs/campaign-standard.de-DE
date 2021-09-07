@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 47%
@@ -41,7 +41,7 @@ Die Quarantäne- und die Blockierungsliste gelten nicht für dasselbe Objekt:
 
 * **** Die Quarantäne bezieht sich nur auf eine  **Adresse**  (oder Telefonnummer usw.) und nicht auf das Profil selbst. Beispielsweise könnte ein Profil, dessen E-Mail-Adresse unter Quarantäne gestellt wurde, sein Profil aktualisieren und eine neue Adresse eingeben, woraufhin erneut Nachrichten an Sendungen gesendet werden könnten. Wenn zwei Profile dieselbe Telefonnummer haben, sind beide ebenfalls betroffen, wenn die Nummer unter Quarantäne gestellt wird.
 
-   Die unter Quarantäne gestellten Adressen oder Telefonnummern werden in den [Ausschlusslogs](identifying-quarantined-addresses-for-a-delivery) (für einen Versand) oder in der [Quarantäneliste](#identifying-quarantined-addresses-for-the-entire-platform) (für die gesamte Plattform) angezeigt.
+   Die unter Quarantäne gestellten Adressen oder Telefonnummern werden in den [Ausschlusslogs](#identifying-quarantined-addresses-for-a-delivery) (für einen Versand) oder in der [Quarantäneliste](#identifying-quarantined-addresses-for-the-entire-platform) (für die gesamte Plattform) angezeigt.
 
 * Wenn Sie hingegen auf der **Blockierungsliste** sind, wird das **Profil** für einen bestimmten Kanal nicht mehr vom Versand angesprochen, z. B. nach einer Abmeldung (Opt-out). Wenn beispielsweise ein Profil auf der Blockierungsliste für den E-Mail-Kanal zwei E-Mail-Adressen hat, werden beide Adressen vom Versand ausgeschlossen. Weiterführende Informationen zum Blockierungslistenprozess finden Sie im Abschnitt [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
