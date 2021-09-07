@@ -10,10 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: ht
-source-wordcount: '807'
-ht-degree: 100%
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ In diesem [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-market
 
 Gehen Sie hierzu wie folgt vor:
 
-1. Verwenden Sie das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Klicken Sie links oben auf das Logo **Adobe** und wählen Sie **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud-Trigger]** aus.
 
    ![](assets/remarketing_1.png)
 

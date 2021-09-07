@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '2819'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '2816'
 ht-degree: 100%
 
 ---
@@ -332,7 +332,7 @@ Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce Messages]** und 
 
 ### Bounce-Message-Qualifizierung     {#legacy-bounce-mail-qualification}
 
-Der Zugriff auf die unterschiedlichen Bounce Messages und ihre jeweiligen Fehlertypen und -ursachen erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
+Der Zugriff auf die unterschiedlichen Bounce Messages und ihre jeweiligen Fehlertypen und -ursachen erfolgt über das **Adobe**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
 
 Folgende Qualifikationsstatus von Bounces treten auf:
 

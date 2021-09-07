@@ -6,14 +6,14 @@ description: '"Hier erfahren Sie, wie der Adobe-Campaign-Arbeitsbereich – Star
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Übersicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Die Symbolleiste ist in jedem Bildschirm sichtbar und ermöglicht die Navigation
 
 Folgende Navigationsprinzipien kommen zur Anwendung:
 
-* Das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm bietet Zugriff auf erweiterte Funktionen und Konfigurationen. Die angezeigten Menüs hängen von Ihrem Profil und Ihren Zugriffsberechtigungen ab.
+* Das **Adobe** -Logo oben links auf der Seite bietet Zugriff auf erweiterte Funktionen und Konfigurationen. Die angezeigten Menüs hängen von Ihrem Profil und Ihren Zugriffsberechtigungen ab.
 
    Das erweiterte Menü wird im Abschnitt [erweitertes Menü](#advanced-menu) beschrieben.
 
@@ -66,23 +66,21 @@ Folgende Navigationsprinzipien kommen zur Anwendung:
 
 ### Hilfe {#help}
 
-Die Symbolleiste ist in jedem Bildschirm sichtbar und ermöglicht die Navigation durch die Funktionen von Adobe Campaign sowie den Zugriff auf die Benutzerdaten Ihres Adobe-Benutzerprofils, auf Benachrichtigungen, auf andere Dienste und Lösungen von Adobe Experience Cloud sowie auf die Dokumentation.
+Über das Symbol **Hilfe** oben rechts können Sie Adobe Experience League aufrufen.
 
-Folgende Navigationsprinzipien kommen zur Anwendung:
+![](assets/ux_help.png)
 
-* Das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm bietet Zugriff auf erweiterte Funktionen und Konfigurationen. Die angezeigten Menüs hängen von Ihrem Profil und Ihren Zugriffsberechtigungen ab.
+Verwenden Sie das Feld **[!UICONTROL Suchen]**, um Anleitungen zu finden. In den Suchergebnissen finden Sie Dokumentations- und Hilfeartikel, Ergebnisse aus Community-Foren und Videoinhalte, damit Sie weitere Inhalte einfacher aufrufen und die Anwendung optimal nutzen können.
 
-   Das erweiterte Menü wird im Abschnitt [erweitertes Menü](#advanced-menu) beschrieben.
+Auf drei Tabs finden Sie Hilfe und Unterstützung:
 
-* Verwenden Sie den **[!UICONTROL Startseite]**-Link, um die Adobe-Campaign-Startseite anzuzeigen.
-* Über die Links **[!UICONTROL Marketingaktivitäten]**, **[!UICONTROL Programme &amp; Kampagnen]**, **[!UICONTROL Profile]**, **[!UICONTROL Audiences]** und **[!UICONTROL Berichte]** gelangen Sie zu den diese Funktionen betreffenden Bildschirmen.
-* Das **[!UICONTROL Hilfe]**-Symbol bietet Zugriff auf die technische Dokumentation und die kontextuelle Hilfe, auf Informationen zu Neuheiten, auf Versionsinformationen und rechtliche Hinweise sowie auf Links zur Community für Adobe Experience Cloud und zur Kundenunterstützung.
-
-   ![](assets/ux_help.png)
-
-* Über das Symbol zur **Lösungsauswahl** können Sie zu einer anderen Adobe Experience Cloud-Lösung sowie zu den Profileinstellungen wechseln.
-* Im Symbol **Benachrichtigungen** werden die aktuellen Warnungen oder Informationen angezeigt.
-* Das **Benutzer**-Symbol ermöglicht die Anzeige von Informationen zu Ihrem Profil. Es ermöglicht außerdem das **[!UICONTROL Abmelden]** von der Lösung.
+1. Der Tab **[!UICONTROL Hilfe]** enthält:
+   * einen schnellen Zugriff auf die Dokumentation von Adobe Campaign Standard mit kontextbezogenen Links.
+   * den Link **[!UICONTROL Lernen]**, über den Sie auf die Adobe Campaign-Kursbibliothek zugreifen können.
+   * den Link **[!UICONTROL Community]**, über den Sie auf das Forum zugreifen können, das sich mit Ihren Fragen zu Campaign beschäftigt.
+   * einen direkten Zugriff auf: Hilfezentrum, Kundenunterstützung, Experience Cloud-Produktstatus, Entwicklerverbindung, Versionshinweise, Versionsplanung und den Bildschirm **[!UICONTROL Info]**.
+1. Mit dem Tab **[!UICONTROL Support]** können Sie einen Support-Fall erstellen und uns per Telefon oder Twitter kontaktieren.
+1. Der Tab **[!UICONTROL Feedback]** ermöglicht die Meldung von Problemen oder die Übermittlung von Ideen.
 
 ## Erweitertes Menü {#advanced-menu}
 

@@ -6,14 +6,14 @@ description: Hier erfahren Sie, wie Sie Zustellprobleme in Campaign vermeiden k�
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Zustellbarkeit
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1365'
-ht-degree: 100%
+source-git-commit: 7efdb8aa4f931268cf9a0899179819cbc1f86757
+workflow-type: tm+mt
+source-wordcount: '1359'
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 ## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand             {#retries-after-a-delivery-temporary-failure}
 
-Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers des Typs **Ignoriert** fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
+Wenn eine Nachricht aufgrund eines temporären Fehlers fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
 Die Anzahl der weiteren Versuche (wie viele weitere Zustellversuche am Tag nach dem Start des Versands ausgeführt werden sollen) und das Mindestintervall zwischen Verarbeitungsversuchen werden nun <!--managed by the Adobe Campaign Enhanced MTA,--> und hängen davon ab, wie gut eine IP-Adresse in einer bestimmten Domain sowohl historisch als auch aktuell abschneidet. Die Einstellungen für **weitere Zustellversuche** in Campaign werden ignoriert.
 
@@ -118,9 +118,9 @@ Bei Fehlermeldungen zu synchronen Versandfehlern bestimmt der erweiterte MTA (Me
 >
 >Bounce-Qualifizierungen in der Tabelle **[!UICONTROL Nachrichtenqualifizierung]** von Campaign werden nicht mehr verwendet.
 
-Asynchrone Bounces werden weiterhin durch den InMail-Prozess mittels der Regeln für **[!UICONTROL Eingehende E-Mail]** qualifiziert. Der Zugriff auf diese Regeln erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Wählen Sie dann **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** und anschließend **[!UICONTROL Bounce Messages]**. Weiterführende Informationen zu dieser Regel finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchrone Bounces werden weiterhin vom InMail-Prozess über die Regeln für **[!UICONTROL Eingehende E-Mails]** qualifiziert. Der Zugriff auf diese Regeln erfolgt über das **Adobe**-Logo oben links im Bildschirm. Wählen Sie dann **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** und anschließend **[!UICONTROL Bounce Messages]**. Weiterführende Informationen zu dieser Regel finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Weitere Informationen zu Bounces und den verschiedenen Arten von Bounces finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#metrics-for-deliverability).
+Weitere Informationen zu Bounces und den verschiedenen Arten von Bounces finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
@@ -130,7 +130,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)-->
 

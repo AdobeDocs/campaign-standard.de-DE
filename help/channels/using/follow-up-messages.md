@@ -6,13 +6,13 @@ description: Hier erfahren Sie, wie Sie eine Folgenachricht erstellen, verwalten
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Transaktionsnachrichten
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '818'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorla
 
 So greifen Sie auf diese Vorlage zu:
 
-1. Wählen Sie oben links das **[!UICONTROL Adobe Campaign]**-Logo aus.
+1. Wählen Sie oben links das **Adobe**-Logo aus.
 1. Wählen Sie dann **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Versandvorlagen]**.
 1. Aktivieren Sie im linken Bereich die Option **[!UICONTROL Folgenachrichten]**.
 

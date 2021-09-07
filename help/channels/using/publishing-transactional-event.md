@@ -7,13 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichten
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '632'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -102,7 +102,7 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 Wenn die Veröffentlichung eines Ereignisses aufgehoben oder es noch nicht veröffentlicht wurde, können Sie es aus der Ereigniskonfigurationsliste löschen. Gehen Sie dazu wie folgt vor:
 
-1. Verwenden Sie das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
+1. Verwenden Sie das **Adobe**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
 1. Bewegen Sie den Mauszeiger über die gewünschte Ereigniskonfiguration und wählen Sie die Schaltfläche **[!UICONTROL Element löschen]**.
 
    ![](assets/message-center_delete-button.png)

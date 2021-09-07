@@ -7,13 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichten
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1749'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '1745'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Nach Abschluss der Konfiguration muss das Ereignis veröffentlicht werden. Siehe
 
 Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 
-1. Verwenden Sie das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
+1. Verwenden Sie das **Adobe**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
 1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
 1. Geben Sie für das Ereignis einen **[!UICONTROL Titel]** und eine **[!UICONTROL ID]** ein. Das Feld **[!UICONTROL ID]** ist ein Pflichtfeld und sollte mit dem Präfix &quot;EVT&quot; beginnen. Bei Nichtverwendung des EVT-Präfixes in Ihrer Kennung wird dieses automatisch hinzugefügt, sobald Sie die Schaltfläche **[!UICONTROL Erstellen verwenden]**.
 
@@ -151,7 +151,7 @@ Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich der I
 
 Gehen Sie wie unten beschrieben vor, um auf die bereits erstellten Transaktionsereignisse zuzugreifen und sie zu durchsuchen.
 
-1. Verwenden Sie das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
+1. Verwenden Sie das **Adobe**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Suche ein-/ausblenden]**.
 
    ![](assets/message-center_search-events.png)

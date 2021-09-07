@@ -6,14 +6,14 @@ description: Erfahren Sie, wie Sie eine E-Mail in Email Designer personalisieren
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '2717'
-ht-degree: 100%
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
+workflow-type: tm+mt
+source-wordcount: '2725'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachr
 * Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](#adding-a-content-block).
 * Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](#personalizing-the-sender).
 * Betreff einer E-Mail personalisieren. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#subject-line).
-* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email).
+* Bedingte Inhalte erstellen. Siehe [Definieren von dynamischen Inhalten in einer E-Mail](#defining-dynamic-content-in-an-email)..
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
@@ -53,7 +53,9 @@ Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht eine oder mehre
 
 >[!NOTE]
 >
->Die Personalisierung von URLs kann sich weder auf den Domain-Namen noch auf die URL-Erweiterung beziehen. Bei der Nachrichtenvorbereitung wird eine Fehlernachricht angezeigt, wenn die Personalisierung nicht korrekt ist. Bei der Auswahl eines Inhaltsbausteins dürfen Sie keine Elemente wie **Link zur Mirrorseite** auswählen. Dieser Typ von Inhaltsbausteinen darf nicht innerhalb eines Links verwendet werden.
+>Wenn der URL-Signaturmechanismus für Tracking-Links deaktiviert ist, kann die Personalisierung von URLs weder auf den Domänennamen noch auf die URL-Erweiterung angewendet werden. Bei der Nachrichtenvorbereitung wird eine Fehlernachricht angezeigt, wenn die Personalisierung nicht korrekt ist.
+>
+>Bei der Auswahl eines Inhaltsbausteins dürfen Sie keine Elemente wie **Link zur Mirrorseite** auswählen. Dieser Typ von Inhaltsbausteinen darf nicht innerhalb eines Links verwendet werden.
 
 ## Personalisierungsfeld einfügen{#inserting-a-personalization-field}
 

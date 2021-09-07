@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1018'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '1015'
 ht-degree: 100%
 
 ---
@@ -126,7 +126,7 @@ Jetzt werden die neu erstellten Sicherheitsgruppen in der Admin Console erstellt
 
 Der Administrator-Benutzer muss die Sicherheitsgruppen erstellen, die für die Zuweisung der Organisationseinheiten verwendet werden: Geometrixx und Geometrixx Clothes. Weiterführende Informationen zur Erstellung von Organisationseinheiten finden Sie in [Einheiten erstellen und verwalten](../../administration/using/organizational-units.md#creating-and-managing-units).
 
-1. Der Zugriff auf die Sicherheitsgruppe erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Sicherheitsgruppen]**.
+1. Der Zugriff auf die Sicherheitsgruppe erfolgt über das **Adobe**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Sicherheitsgruppen]**.
 1. Erstellen Sie die neue Sicherheitsgruppe und definieren Sie **[!UICONTROL Titel]** und **[!UICONTROL Kennung]**.
 
    Die Kennung muss mit der in der Admin Console verwendeten identisch sein.

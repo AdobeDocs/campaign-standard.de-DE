@@ -10,15 +10,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1023'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '1021'
 ht-degree: 100%
 
 ---
 
-# Anwendungsbeispiele zu Triggern für die abgebrochene Suche{#abandonment-triggers-use-cases}
+# Anwendungsbeispiele zur Abbruchsauslösung{#abandonment-triggers-use-cases}
 
 In diesem Abschnitt finden Sie zwei Anwendungsbeispiele für die Integration von Adobe Campaign mit Experience Cloud Triggers: In diesem Abschnitt finden Sie zwei Anwendungsbeispiele:
 
@@ -67,7 +66,7 @@ Lassen Sie uns jetzt den erstellten Experience Cloud Trigger in Adobe Campaign v
 
 Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience Cloud erstellten verknüpft ist.
 
-1. Um den Trigger in Adobe Campaign zu erstellen, verwenden Sie das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Um den Trigger in Adobe zu erstellen, verwenden Sie das **Adobe Campaign**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 

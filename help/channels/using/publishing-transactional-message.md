@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichten
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '683'
-ht-degree: 100%
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
 You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
 1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
@@ -137,7 +137,7 @@ Auf den Workflow **[!UICONTROL Datenbankbereinigung]**, der standardmäßig jede
 
 Nachdem die Veröffentlichung einer Transaktionsnachricht aufgehoben wurde bzw. wenn eine Transaktionsnachricht noch nicht veröffentlicht wurde, können Sie sie aus der Liste der Transaktionsnachrichten löschen. Gehen Sie dazu wie folgt vor:
 
-1. Verwenden Sie das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]**.
+1. Klicken Sie links oben auf das Logo **Adobe** und wählen Sie **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]** aus.
 1. Bewegen Sie den Mauszeiger über die Nachricht Ihrer Wahl.
 1. Wählen Sie die Schaltfläche **[!UICONTROL Element löschen]** aus.
 

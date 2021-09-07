@@ -6,13 +6,13 @@ description: 'Benutzer von Adobe Campaign verfügen über bestimmte Rollen. Im F
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1277'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '1273'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Administratoren können Benutzer über die Admin Console verwalten. Benutzer wer
 
 ![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Der Zugriff auf die Adobe Campaign-Benutzer erfolgt über das **[!UICONTROL Adobe Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]**.
+Der Zugriff auf die Adobe Campaign-Benutzer erfolgt über das **Adobe **-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]**.
 
 Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie von Adobe Campaign aus auf die Benutzeroberfläche zur Benutzerverwaltung zugreifen.
 
@@ -39,7 +39,7 @@ Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie v
 
 * Video zur [Verwaltung von Benutzerberechtigungen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=de)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
-* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Typen von Benutzern {#type-of-users}
 
@@ -156,7 +156,7 @@ Anschließend können Sie überprüfen, ob der Benutzer richtig mit Adobe Campai
 
 Ihr Benutzer kann jetzt Adobe Campaign Standard verwenden.
 
-## Anleitungsvideo (#video)
+## Anleitungsvideo {#video}
 
 In diesem Video wird gezeigt, wie Benutzerzugriffsrechte verwaltet werden.
 

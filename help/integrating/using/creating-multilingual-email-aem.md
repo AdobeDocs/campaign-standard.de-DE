@@ -10,11 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: b0b1c2978fea84c736f2c7c0fdeb91ab0bd1ac8c
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
@@ -127,5 +126,9 @@ Ihre Sprachkopien werden jetzt erstellt. Sie können Ihre Inhalte jetzt je nach 
 1. Wenn Ihre Inhalte oder Varianten in Adobe Experience Manager aktualisiert werden, können Sie sie direkt in Adobe Campaign Standard mit der Schaltfläche **[!UICONTROL AEM-Inhalte aktualisieren]** synchronisieren.
 
 1. Ihre E-Mail kann nun gesendet werden. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../sending/using/get-started-sending-messages.md).
+
+   >[!NOTE]
+   >
+   >Sie können eine E-Mail nicht in Adobe Campaign versenden, wenn sie AEM Inhalt verwendet, der noch nicht genehmigt wurde.
 
 Ihre Audience erhält Ihre E-Mail in der im jeweiligen **[!UICONTROL Profil]** eingestellten **[!UICONTROL bevorzugten Sprache]**. Weitere Informationen zum Bearbeiten von Profilen und bevorzugten Sprachen finden Sie auf dieser [Seite](../../audiences/using/editing-profiles.md).

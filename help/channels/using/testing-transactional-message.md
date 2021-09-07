@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichten
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,7 @@ Definieren Sie ein Profil, das mit Ihrem Ereignis verknüpft wird. Auf diese Wei
 
 Sie haben außerdem die Möglichkeit, ausgehend vom Menü **[!UICONTROL Testprofile]** ein neues Testprofil zu erstellen bzw. ein bereits existierendes zu verwenden. Gehen Sie dazu wie folgt vor:
 
-1. Verwenden Sie hierzu das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Testprofile]**.
+1. Klicken Sie links oben auf das Logo **Adobe** und wählen Sie **[!UICONTROL Profile und Zielgruppen]** > **[!UICONTROL Testprofile]** aus.
 1. Wählen Sie im Abschnitt **[!UICONTROL Ereignis]** das soeben erstellte Ereignis aus. Im vorliegenden Beispiel handelt es sich um &quot;Warenkorbabbruch (EVTcartAbandonment)&quot;.
 1. Geben Sie im Tab **[!UICONTROL Ereignisdaten]** im Texteditor die zu übermittelnden Daten im JSON-Format an.
 

@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Aktuelle Version
-description: Auf dieser Seite finden Sie Informationen zum Inhalt der aktuellen Version von Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: Vorzeitige Versionshinweise
+description: Vorzeitige Versionshinweise
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
+# Vorzeitige Versionshinweise {#new-release}
 
-# Aktuelle Version{#latest-release}
+Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen beschrieben, die in der nächsten Campaign Standard-Version enthalten sind.
+
+>[!CAUTION]
+>
+> Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
 
 ## Version 21.3 – September 2021 {#release-21-3---sept-2021}
-
-Nachfolgend finden Sie die neuen Funktionen, Verbesserungen und Fehlerbehebungen der neuesten Version von Campaign Standard.
 
 **Neue Funktionen**
 
@@ -98,7 +100,7 @@ Nachfolgend finden Sie die neuen Funktionen, Verbesserungen und Fehlerbehebungen
 
 * Beim Erstellen eines wiederkehrenden Versands in einem Workflow, der mit einem Adobe Experience Manager-Inhalt verknüpft ist, wird der Status der Inhaltsvalidierung nun vor dem Versenden überprüft.
 * Die Beschränkung der Datenbankverbindung ist jetzt mit dem Campaign-Package abgestimmt, um Verbindungsfehler zu vermeiden.
-* Eine neue Konsistenzprüfung in der Veröffentlichung benutzerdefinierter Ressourcen verhindert, dass Benutzer doppelte Indizes erstellen, wodurch die Veröffentlichung fehlschlägt. Eine verbesserte Fehlermeldung fordert den Benutzer auf, den Index bei Bedarf umzubenennen.
+* Es wurde eine Konsistenzprüfung beim Erstellen von Indizes in benutzerdefinierten Ressourcen hinzugefügt und die Fehlermeldungen wurden verbessert.
 
 **Sonstige Änderungen**
 

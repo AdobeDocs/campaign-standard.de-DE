@@ -10,16 +10,16 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '1437'
-ht-degree: 100%
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '1434'
+ht-degree: 98%
 
 ---
 
 # Integration von Campaign-POI-Daten konfigurieren{#configuring-campaign-points-of-interest-data-integration}
 
-## Integration von Campaign-POI-Daten mit Adobe Experience Platform SDKs konfigurieren{#configuring-campaign-poi-aep-sdk}
+## Integration von Campaign-POI-Daten konfigurieren mit Adobe Experience Platform SDKs {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Um Adobe Experience Platform Location Services mit Mobile Apps zu verwenden, die
 
 1. Stellen Sie sicher, dass Sie auf die Mobile App und die erfassten Standortdaten in Adobe Campaign Zugriff haben. Siehe [Auf Mobile Apps zugreifen, mit denen Standortdaten erfasst werden](#accessing-mobile-apps-used-to-collect-location-data) und [Erfasste Standortdaten abrufen](#accessing-collected-location-data).
 
-## Die Integration von POI-Daten in Campaign mithilfe von SDK V4 konfigurieren{#configuring-campaign-poi-sdkv4}
+## Die Integration von POI-Daten in Campaign mithilfe von SDK V4 konfigurieren {#configuring-campaign-poi-sdkv4}
 
 Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Administrator** in der Adobe-Campaign-Benutzeroberfläche konfiguriert werden.
 
@@ -58,11 +58,11 @@ Um die POI-Daten-Funktion mit Mobile Apps zu verwenden, die mit SDK V4 konfiguri
 1. Definieren Sie die Daten, die Sie von den Abonnenten Ihrer Mobile App erfassen möchten. Siehe [POI-Daten von Abonnenten erfassen](#collecting-subscribers--points-of-interest-data).
 1. Stellen Sie sicher, dass Sie auf die Mobile App und die erfassten Standortdaten in Adobe Campaign Zugriff haben. Siehe [Auf Mobile Apps zugreifen, mit denen Standortdaten erfasst werden](#accessing-mobile-apps-used-to-collect-location-data) und [Erfasste Standortdaten abrufen](#accessing-collected-location-data).
 
-### Eine Mobile App in Adobe Campaign mit SDK V4 einrichten{#setting-up-a-mobile-app-in-campaign}
+### Eine Mobile App in Adobe Campaign mit SDK V4 einrichten {#setting-up-a-mobile-app-in-campaign}
 
 Um POI-Daten mit Adobe Campaign erfassen zu können, müssen Sie die Mobile App konfigurieren, von der Adobe Campaign Daten erhält.
 
-1. Der Zugriff auf das entsprechende Menü erfolgt über das **[!UICONTROL Adobe-Campaign]**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App]**.
+1. Klicken Sie links oben auf das Logo **Adobe** und wählen Sie **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App]** aus.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]**, um eine App einzurichten.
 1. Füllen Sie das Feld **[!UICONTROL App-Name]** aus und klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -189,14 +189,14 @@ So definieren Sie POI zum Erfassen von Standortdaten:
 
 Eine spezielle benutzerdefinierte Ressource ermöglicht es Ihnen, die Daten zu definieren, die Sie in Bezug auf die Abonnenten Ihrer App abrufen möchten.
 
-Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) beschrieben.
+Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
 
 ## Auf Mobile Apps zugreifen, mit denen Standortdaten erfasst werden {#accessing-mobile-apps-used-to-collect-location-data}
 
 Um die in Adobe Campaign erfolgreich erstellten Anwendungen zu öffnen, gehen Sie folgendermaßen vor:
 
-1. Wählen Sie oben links das **[!UICONTROL Adobe Campaign]**-Logo aus.
+1. Wählen Sie oben links das **Adobe**-Logo aus.
 1. Wählen Sie je nach dem SDK **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App (SDK v4)]** oder **[!UICONTROL Mobile App (AEP SDK)]** aus.
 1. Wählen Sie eine Mobile App aus der Liste aus, um ihre Eigenschaften anzuzeigen.
 

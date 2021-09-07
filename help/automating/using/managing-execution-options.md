@@ -11,11 +11,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 8092eda6241e83a9bb4c23d8955cd12b6509432a
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 49%
 
 ---
 
@@ -39,6 +38,10 @@ Mögliche Optionen sind:
 
 * **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Hier können Sie die SQL-Abfragen aus dem Workflow in den Protokollen speichern.
 
+* **[!UICONTROL Diagnostischer Modus (Protokollierungsplan für langwierige Abfragen und Empfehlungen)]**: Aktivieren Sie diese Option, wenn der gesamte Ausführungsplan protokolliert werden soll. Sie ist standardmäßig deaktiviert.
+
+   Weiterführende Informationen zu dieser Option finden Sie in diesem Abschnitt [Abschnitt](#diagnostic-mode).
+
 * **[!UICONTROL Zwischenergebnis festhalten]**: Aktivieren Sie diese Option, wenn Sie in der Lage sein möchten, die Detailansicht der Transitionen zu visualisieren.
 
    >[!CAUTION]
@@ -50,3 +53,41 @@ Mögliche Optionen sind:
 * **[!UICONTROL Prioritätsstufe]**: Hier haben Sie die Möglichkeit, die Workflow-Ausführung in Ihrer Adobe Campaign-Instanz als eher vorrangig oder eher nachrangig zu kennzeichnen. Dieses Feld wird von Adobe-Teams nur zu Überwachungszwecken verwendet.
 
 Der Abschnitt **[!UICONTROL Umgang mit Fehlern]** enthält zusätzliche Optionen, mit denen Sie verwalten können, wie sich Workflows bei Fehlern verhalten. Diese Optionen werden im Abschnitt [Umgang mit Fehlern](../../automating/using/monitoring-workflow-execution.md#error-management) genauer beschrieben.
+
+## Diagnosemodus {#diagnostic-mode}
+
+>[!CAUTION]
+>
+>Diese Option kann sich erheblich auf Ihre Workflow-Leistung auswirken und sollte daher sparsam eingesetzt werden.
+
+Wenn diese Option aktiviert ist, protokolliert die Option **[!UICONTROL Diagnosemodus (Ausführungsplan für langwierige Abfragen protokollieren und Empfehlungen geben)]** im Abschnitt **[!UICONTROL Ausführung]** der Workflow-Eigenschaften den gesamten Ausführungsplan, wenn eine Abfrage mehr als eine Minute dauert.
+
+![](assets/wkf_diagnostic.png)
+
+Wenn die Abfrage länger als eine Minute dauert, wird der Ausführungsplan nach Aktivierung dieser Option und dem Start des Workflows protokolliert. Anschließend können Sie Ihren Ausführungsplan mit einer EXPLAIN ANALYZE abrufen.
+
+Weitere Informationen hierzu finden Sie in der [PostgreSQL-Dokumentation](https://www.postgresql.org/docs/9.4/using-explain.html).
+
+Wenn Sie eine Sequenzsuche in dieser Abfrage haben, bietet der **[!UICONTROL Diagnosemodus]** auch Empfehlungen zum Erstellen eines Index mithilfe eines Filterausdrucks.
+
+>[!NOTE]
+>
+> Diese Empfehlungen dienen nur zu Referenzzwecken und sollten entsprechend Ihrem Anwendungsfall sorgfältig verwendet werden.
+
+![](assets/wkf_diagnostic_4.png)
+
+Die folgenden beiden Bedingungen müssen während der Ausführung des Workflows erfüllt sein, um Empfehlungen für den Trigger zu erhalten:
+
+* Die Sequenzprüfung benötigt mehr als 40 % Zeit für die Abfrage.
+
+* Die resultierenden Zeilen nach der Sequenzüberprüfung betragen weniger als 1 % der gesamten in der Tabelle vorhandenen Zeilen.
+
+Sie können die Option im erweiterten Menü verwalten, indem Sie **[!UICONTROL Administration]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Optionen]** auswählen:
+
+* **[!UICONTROL Zeit der Ausführung der Abfrage (in Millisekunden) (DiagnosticModeQueryTime)]**: Im  **** Feld Wert können Sie eine neue Zeit für die Ausführung Ihrer Abfrage festlegen. Wenn die Ausführung der Abfrage diesen Wert überschreitet, wird der Ausführungsplan protokolliert.
+
+   ![](assets/wkf_diagnostic_2.png)
+
+* **[!UICONTROL Prozentsatz der seq-Scan-Zeit (DiagnosticModeSeqScanPercentage)]**: Im Feld  **** Wert können Sie den Prozentsatz der Abfragezeit ändern, der bei der Sequenzprüfung benötigt wird, damit die Empfehlung generiert wird.
+
+   ![](assets/wkf_diagnostic_3.png)
