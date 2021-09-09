@@ -10,10 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
-workflow-type: ht
-source-wordcount: '1943'
-ht-degree: 100%
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
+workflow-type: tm+mt
+source-wordcount: '1972'
+ht-degree: 99%
 
 ---
 
@@ -707,11 +707,12 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
    <td> Gibt den Mindestwert einer Spalte vom Typ Zahl, String oder Datum aus.<br /> </td> 
    <td> Min(&lt;Wert&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>, Zeichenfolgenaggregat<br /> </td>
+   <td> Gibt die Verkettung der Werte einer Spalte vom Typ Zeichenfolge zurück, getrennt durch das Zeichen im zweiten Argument (standardmäßiges Trennzeichen ist Komma).<br /> </td>
+   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong>, Summe<br /> </td> 
    <td> Gibt die Summe der Werte einer Spalte vom Typ Zahl aus.<br /> </td> 
    <td> Sum(&lt;Wert&gt;)<br /> </td> 
