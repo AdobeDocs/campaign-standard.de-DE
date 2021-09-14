@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: A/B-Tests durchführen
 description: Hier erhalten Sie Informationen über A/B-Tests. Führen Sie diese Schritte aus, um ausgehend von einem A/B-Test in Adobe Campaign eine E-Mail zu erstellen.
 audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
-feature: E-Mail
+feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '850'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '849'
 ht-degree: 100%
 
 ---

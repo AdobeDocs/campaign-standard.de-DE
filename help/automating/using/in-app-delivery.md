@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: In-App-Versand
 description: Die Aktivität In-App-Versand ermöglicht das Konfigurieren des Versands von In-App-Nachrichten innerhalb eines Workflows.
 audience: automating
@@ -10,15 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '793'
-ht-degree: 100%
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 97%
 
 ---
 
-# In-App-Versand{#in-app-delivery}
+# In-App-Versand            {#in-app-delivery}
 
 ## Beschreibung {#description}
 

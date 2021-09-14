@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Fehler und Bounces
 description: 'Im vordefinierten Bericht über Fehler und Bounces erhalten Sie Informationen zu Fehlern, die während des Versands aufgetreten sind. '
 audience: reporting
@@ -11,10 +9,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: c527e890-2b49-4422-a866-e55a6468c54b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '122'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '121'
 ht-degree: 100%
 
 ---

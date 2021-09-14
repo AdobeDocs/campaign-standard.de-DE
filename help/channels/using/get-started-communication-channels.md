@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Erste Schritte mit Kommunikationskanälen
 description: Erstellen Sie personalisierte Nachrichten auf verschiedenen Kanälen, verwenden Sie Vorlagen, erstellen Sie Landingpages und sehen Sie sich die Best Practices an.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Übersicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '523'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '522'
 ht-degree: 100%
 
 ---

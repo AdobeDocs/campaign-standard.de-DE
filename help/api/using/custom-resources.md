@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Benutzerdefinierte Ressourcen
 description: Erfahren Sie mehr über die Verwaltung benutzerdefinierter Ressourcen mit APIs.
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '205'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -77,6 +74,6 @@ Es wird eine Liste aller verknüpften benutzerdefinierten Ressourcen zurückgege
 
 Weiterführende Informationen zur Datenmodellerweiterung finden Sie in der Campaign-Dokumentation:
 
-* [Datenmodellkonzepte](../../developing/using/data-model-concepts.md)
+* [Konzepte von Datenmodellen](../../developing/using/data-model-concepts.md)
 * [Die API erweitern](../../developing/using/about-extending-the-api.md)
 * [Relationen mit anderen Ressourcen definieren](https://helpx.adobe.com/de/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

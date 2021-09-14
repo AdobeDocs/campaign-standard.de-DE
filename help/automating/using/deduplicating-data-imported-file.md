@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Daten einer importierten Datei deduplizieren
 description: In diesem Beispiel wird gezeigt, wie sich Daten einer importierten Datei vor dem Laden in die Datenbank deduplizieren lassen.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '340'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '339'
 ht-degree: 100%
 
 ---

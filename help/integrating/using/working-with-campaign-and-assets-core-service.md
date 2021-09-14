@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign und Assets Core Service verwenden
 description: Dank der Integration von Assets Core Service können Sie alle innerhalb von Adobe Experience Cloud geteilten Ressourcen in Ihren Nachrichten und Landingpages in Adobe Campaign verwenden.
 audience: integrating
@@ -10,7 +8,7 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%

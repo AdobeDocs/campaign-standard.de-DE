@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Verteilung nach Domain
 description: Im vordefinierten Bericht über die Verteilung nach Domain erhalten Sie Leistungsdaten Ihrer Sendungen aufgeschlüsselt nach der Domain Ihrer Kunden.
 audience: reporting
@@ -11,15 +9,14 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '236'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
 
-# Verteilung nach Domain{#breakdown-by-domains}
+# Aufschlüsselung nach Domains{#breakdown-by-domains}
 
 Dieser Bericht enthält die Leistungsdaten für jede in einer Audience eines E-Mail-Versands vertretenen Domain. Wenn es sich um einen Kampagnen- oder Programmbericht handelt, sind die Leistungsdaten für mehrere Audiences verfügbar. Diese Daten ermöglichen insbesondere eine nach Domain durchgeführte Analyse in Bezug auf spezifische Ereignisse, Beispielsweise Link-Anzeige, URL auf Blockierungsliste usw.
 

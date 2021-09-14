@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Audience-Speicherung
 description: Mithilfe der Audience-Speicherung können existierende Audiences aktualisiert oder neue erstellt werden. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '866'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '865'
 ht-degree: 100%
 
 ---
@@ -67,7 +64,6 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
       >[!NOTE]
       >
       >Diese Option ist nur dann verfügbar, wenn durch Ihren Administrator die Funktion der Zielgruppenfreigabe an die Adobe Experience Cloud konfiguriert wurde. Weiterführende Informationen finden Sie in [Campaign und People Core Service verwenden](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Der Typ der gespeicherten oder zur Aktualisierung verfügbaren Audiences hängt von den im Workflow vorangeschalteten Aktivitäten ab.
 
    Die erstellte oder aktualisierte Audience ist vom Typ **[!UICONTROL Datei]**, wenn die Zielgruppendimension der Audience zum Zeitpunkt der Speicherung unbekannt ist (beispielsweise weil sie aus einem Dateiimport stammt).
@@ -78,7 +74,7 @@ Die **[!UICONTROL Audience-Speicherung]** wird in erster Linie verwendet, um inn
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel {#example}
+## Beispiel  {#example}
 
 Das vorliegende Beispiel zeigt einen Workflow zur regelmäßigen Aktualisierung einer Audience, die aus einer Zielguppenbestimmung hervorgeht.
 

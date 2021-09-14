@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über die Integration von Campaign mit Target
 description: Durch die Integration von Adobe Target können Sie in Adobe Target erstellte dynamische Bilder in Adobe-Campaign-Nachrichten einfügen.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '165'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '164'
 ht-degree: 100%
 
 ---

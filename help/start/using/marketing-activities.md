@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Marketingaktivitäten
 description: '"Hier erfahren Sie, wie Sie Ihre Marketing-Aktivitäten erstellen und verwalten können. Dazu zählen Kampagnen, Sendungen von E-Mails, SMS und Push-Benachrichtigungen sowie Landingpages und Workflows. Sie können einfach eine neue Aktivität erstellen, eine vorhandene bearbeiten und deren Status und Gültigkeit einsehen."'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Kampagnen
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '501'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '500'
 ht-degree: 100%
 
 ---

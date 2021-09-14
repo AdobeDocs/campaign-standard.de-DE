@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Abfrageeditor
 description: Hiermit können Sie über vordefinierte Filter und Regeln eine Population erstellen.
 audience: automating
@@ -11,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%

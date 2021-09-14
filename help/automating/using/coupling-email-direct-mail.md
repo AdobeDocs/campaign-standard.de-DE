@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E-Mail- und Briefpostversand verbinden
 description: Dieser Anwendungsfall zeigt ein Beispiel für den E-Mail- und Briefpostversand aus einem Workflow.
 audience: channels
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '120'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '119'
 ht-degree: 100%
 
 ---

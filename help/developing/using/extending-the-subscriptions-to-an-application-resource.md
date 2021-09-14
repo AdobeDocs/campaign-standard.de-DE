@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: App-Abonnements-Ressource erweitern
 description: Erfahren Sie, wie Sie das Abonnement auf eine Anwendungsressource erweitern.
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '266'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '264'
 ht-degree: 100%
 
 ---

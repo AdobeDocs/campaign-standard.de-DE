@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Warten
 description: Die Warten-Aktivität ermöglicht das zeitweise Aussetzen der Ausführung eines Teils eines Workflows.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '309'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
@@ -43,7 +40,7 @@ Die **[!UICONTROL Warten]**-Aktivität ermöglicht es, einen bestimmten Zeitraum
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel {#example}
+## Beispiel  {#example}
 
 Das folgende Beispiel erläutert die **[!UICONTROL Warten]**-Aktivität anhand eines typischen Fallbeispiels. Darin wird eine E-Mail mit einer Einladung zu einem Ereignis verschickt. 24 Stunden nach dem Versand werden die E-Mail-Versandlogs analysiert und eine Erinnerungs-E-Mail an die Personen gesendet, die die erste E-Mail erhalten, sich aber nicht angemeldet haben.
 

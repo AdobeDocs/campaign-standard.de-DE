@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Datenbank anreichern
 description: Hier erfahren Sie mehr über die verschiedenen Methoden zur Anreicherung der Datenbank.
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profile
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '453'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '452'
 ht-degree: 100%
 
 ---

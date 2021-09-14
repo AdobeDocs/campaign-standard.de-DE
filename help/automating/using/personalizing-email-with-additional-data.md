@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E-Mail mit Zusatzdaten personalisieren
 description: In diesem Anwendungsfall wird vorgestellt, wie man verschiedene Arten von zusätzlichen Daten zu einer Abfrage hinzufügt und sie als Personalisierungsfelder in einer E-Mail verwendet.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '496'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '495'
 ht-degree: 100%
 
 ---

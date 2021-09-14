@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Organisationseinheiten
 description: Definieren Sie die Zugriffsebene Ihrer Benutzer mithilfe von Organisationseinheiten.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '885'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '883'
 ht-degree: 100%
 
 ---

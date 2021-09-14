@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Endpunkte
 description: Erfahren Sie mehr über die API-Endpunkte.
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '244'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '243'
 ht-degree: 100%
 
 ---

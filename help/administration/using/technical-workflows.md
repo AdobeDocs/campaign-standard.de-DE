@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Technische Workflows
 description: Technische Workflows sind vordefinierte Workflows für im Hintergrund ablaufende technische Prozesse in Adobe Campaign. Sie gewährleisten das korrekte Funktionieren der Plattform.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
-workflow-type: ht
-source-wordcount: '723'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
 
 ---

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transaktions-Push-Benachrichtigung
 description: Erfahren Sie, wie Sie Transaktions-Push-Benachrichtigungen mit Adobe Campaign Standard senden.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichten
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1495'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1493'
 ht-degree: 100%
 
 ---

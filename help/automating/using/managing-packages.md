@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Package-Verwaltung
 description: Administratoren können Packages definieren, mit denen der Austausch von Ressourcen zwischen verschiedenen Adobe-Campaign-Instanzen über strukturierte XML-Dateien ermöglicht wird.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1113'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1112'
 ht-degree: 100%
 
 ---

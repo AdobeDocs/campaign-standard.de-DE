@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über die Integration von Campaign mit Experience Manager
 description: Durch die Integration von Adobe Experience Manager können Sie Inhalte direkt in AEM erstellen und später in Adobe Campaign verwenden.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
-workflow-type: ht
-source-wordcount: '640'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '639'
 ht-degree: 100%
 
 ---
@@ -29,7 +27,7 @@ Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 
 >
 > Adobe Campaign Standard-Vorlagen sind in Adobe Experience Manager 6.5 nicht mehr verfügbar.
 
-## Tipps zur Verwendung der Integration von Campaign mit Experience Manager{#tips-aem}
+## Tipps zur Verwendung der Integration von Campaign mit Experience Manager {#tips-aem}
 
 * **Verwenden Sie eine für die Integration geeigneten Vorlage.**
 

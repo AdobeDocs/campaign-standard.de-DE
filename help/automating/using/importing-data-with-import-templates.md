@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Datenimport mit Importvorlagen
 description: Hier erfahren Sie, wie Sie für Ihre Campaign-Datenbank Daten sammeln können.
 audience: automating
@@ -10,10 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1150'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1149'
 ht-degree: 100%
 
 ---
@@ -112,4 +109,4 @@ Die Importvorlage ist jetzt für Benutzer zum Hochladen von Dateien verfügbar.
 **Verwandte Themen:**
 
 * [Workflows](../../automating/using/get-started-workflows.md)
-* [Beispiel: Import-Workflow-Vorlage](../../automating/using/creating-import-workflow-templates.md)
+* [Beispiel: Import-Workflow-Vorlage  ](../../automating/using/creating-import-workflow-templates.md)

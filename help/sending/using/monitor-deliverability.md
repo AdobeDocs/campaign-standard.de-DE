@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoring der Zustellbarkeit in Adobe Campaign Standard
 description: Verwenden Sie die von Adobe Campaign Standard bereitgestellten Werkzeuge zur Überwachung der Zustellbarkeit Ihrer Plattform.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Zustellbarkeit
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '326'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---

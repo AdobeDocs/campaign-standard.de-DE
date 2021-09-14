@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Wichtigste Schritte im Nachrichtenversand
 description: Diese Schritte zeigen Ihnen, wie Sie Nachrichten mit Adobe Campaign erstellen und senden können.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Übersicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '375'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '374'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: Informationen zum Datenmodell
 audience: developing
@@ -9,10 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '146'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '144'
 ht-degree: 100%
 
 ---
@@ -179,7 +176,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>title</td>
-        <td>Label</td>
+        <td>Titel</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
@@ -196,6 +193,6 @@ Nach Nachname, Vorname oder E-Mail (byText)</p>
         </tr>
         <tr>
         <td>text</td>
-        <td>string</td>
+        <td>Zeichenfolge</td>
         </tr>
     </table>

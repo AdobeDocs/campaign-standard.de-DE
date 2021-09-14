@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Datenbank mit externen Daten aktualisieren
 description: In diesem Anwendungsfall wird gezeigt, wie Sie Profile zur Adobe Campaign-Datenbank hinzufügen oder aktualisieren, wobei die Daten aus der Datei abgerufen werden.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '111'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '110'
 ht-degree: 100%
 
 ---

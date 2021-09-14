@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Die wichtigsten Schritte zum Hinzufügen einer Ressource
 description: Hier erfahren Sie, wie Sie vorgehen müssen, um eine Ressource im Datenmodell von Adobe Campaign hinzuzufügen.
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '107'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
@@ -30,7 +27,7 @@ Zur Erstellung einer neuen Ressource oder zur Erweiterung einer existierenden Re
 
 >[!IMPORTANT]
 >
->Die Erstellung und Änderung von Ressourcen sind schwierige Vorgänge, die nur von erfahrenen Benutzern durchgeführt werden können.
+>Die Erstellung und Änderung von Ressourcen sind heikle Aufgaben, die nur von erfahrenen Benutzern durchgeführt werden können.
 
 In diesem Video wird gezeigt, wie man benutzerdefinierte Ressourcen erstellt.
 

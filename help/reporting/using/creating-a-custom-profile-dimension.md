@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Benutzerdefinierte Profildimension erstellen
 description: Hier erfahren Sie, wie Sie eine benutzerdefinierte Profildimension auf der Basis von benutzerdefinierten Profildaten erstellen können.
 audience: reporting
@@ -10,10 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '930'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '929'
 ht-degree: 100%
 
 ---
@@ -24,10 +21,10 @@ Berichte können auch auf der Basis von benutzerdefinierten Profildaten erstellt
 
 In diesem Beispiel erstellen wir das benutzerdefinierte Profilfeld **Treueprogramme**, das in drei Stufen unterteilt ist: Gold, Silber und Bronze. Dieses benutzerdefinierte Profil wird dann erweitert, damit es als eine benutzerdefinierte Profildimension in dynamischen Berichten verwendet werden kann.
 
-* [Schritt 1: Erstellen Sie ein neues Profilfeld.](#step-1--create-a-new-profile-field)
-* [Schritt 2: Erweitern Sie die Versandlogs mit dem Profilfeld.](#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [Schritt 1: Erstellen Sie ein neues Profilfeld.      ](#step-1--create-a-new-profile-field)
+* [Schritt 2: Erweitern Sie die Versandlogs mit dem Profilfeld.      ](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Schritt 3: Erstellen Sie einen Versand an Empfänger, die am Treueprogramm teilnehmen.      ](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Schritt 4: Erstellen Sie einen dynamischen Bericht, um Empfänger mithilfe der benutzerdefinierten Profildimension zu filtern.      ](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Schritt 1: Erstellen Sie ein neues Profilfeld.       {#step-1--create-a-new-profile-field}
 

@@ -1,29 +1,26 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Frühzeitige Versionshinweise
-description: Frühzeitige Versionshinweise
-feature: Übersicht
+title: Vorzeitige Versionshinweise
+description: Vorzeitige Versionshinweise
+feature: Overview
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 45%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
-# Frühere Versionshinweise {#new-release}
+# Vorzeitige Versionshinweise {#new-release}
 
 Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen beschrieben, die in der nächsten Campaign Standard-Version enthalten sind.
 
 >[!CAUTION]
 >
 > Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
-
 
 ## Version 21.3 – September 2021 {#release-21-3---sept-2021}
 
@@ -62,13 +59,13 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 <tbody> 
 <tr> 
 <td>
-<p>Die neue Funktion "Audit-Protokoll"erfasst in Echtzeit eine umfassende Liste von Aktionen und Ereignissen, die in Adobe Campaign auftreten. Es bietet eine Self-Service-Möglichkeit, auf einen Datenverlauf zuzugreifen, um Fragen zu beantworten, z. B.:</p>
+<p>Die neue Audit-Protokoll-Funktionalität erfasst eine umfassende Liste von in Adobe Campaign auftretenden Aktionen und Ereignissen in Echtzeit. Sie beinhaltet eine Self-Service-Option für den Zugriff auf einen Datenverlauf, damit sich zum Beispiel folgende Fragen beantworten lassen:</p>
 <ul>
 <li>Was ist mit diesem Workflow passiert und wer hat ihn zuletzt aktualisiert?</li>
 <li>Wer hat die letzten Änderungen vorgenommen?</li>
 <li>Wie war der vorherige Status?</li>
 </ul>
-<p>Adobe Campaign führt nun Prüfungen für Erstellungs-, Bearbeitungs- und Löschaktionen durch: Workflows, Optionen, benutzerdefinierte Ressourcen. Änderungen dieser Elemente werden ebenfalls verfolgt.</p>
+<p>Adobe Campaign führt nun Prüfungen für Erstellungs-, Bearbeitungs- und Löschaktionen für Workflows, Optionen und benutzerdefinierte Ressourcen durch. Änderungen dieser Elemente werden ebenfalls verfolgt.</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -86,7 +83,7 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 <tbody> 
 <tr> 
 <td>
-<p>Sie können jetzt Campaign-Workflows im diagnostischen Modus ausführen. In diesem Modus werden Informationen protokolliert, die bei der Fehlerbehebung von Ausführungsproblemen helfen. Der gesamte Ausführungsplan wird protokolliert, wenn eine Workflow-Abfrage standardmäßig mehr als eine Minute in Anspruch nimmt.</p>
+<p>Sie können Campaign-Workflows jetzt im Diagnosemodus ausführen. In diesem Modus werden Informationen protokolliert, die bei der Fehlerbehebung von Problemen bei der Ausführung helfen. Wenn eine Workflow-Abfrage mehr als eine Minute dauert, wird standardmäßig der gesamte Ausführungsplan protokolliert.</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -96,13 +93,13 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 
 **Verbesserungen**
 
-* Beim Erstellen eines wiederkehrenden Versands in einem Workflow, der mit einem Adobe Experience Manager-Inhalt verknüpft ist, wird der Status der Inhaltsvalidierung nun vor dem Versand überprüft.
+* Beim Erstellen eines wiederkehrenden Versands in einem Workflow, der mit einem Adobe Experience Manager-Inhalt verknüpft ist, wird der Status der Inhaltsvalidierung nun vor dem Versenden überprüft.
 * Die Beschränkung der Datenbankverbindung ist jetzt mit dem Campaign-Package abgestimmt, um Verbindungsfehler zu vermeiden.
 * Es wurde eine Konsistenzprüfung beim Erstellen von Indizes in benutzerdefinierten Ressourcen hinzugefügt und die Fehlermeldungen wurden verbessert.
 
 **Korrekturen**
 
-* Fehlerkorrektur - Beim Import von E-Mail-Inhalt aus einer URL tritt kein Timeout-Fehler mehr auf. (CAMP-49054)
-* Es wurde ein Fehler (-69) behoben, der durch das Ende der Sitzung beim Zugriff auf eine mit Lesezeichen versehene URL oder beim Aktualisieren einer Seite über den Browser verursacht wurde. (CAMP-49003, CAMP-48930, CAMP-48894)
-* Fehlerkorrektur - Regeln werden jetzt vom alten Zustellbarkeits-Server auf den neuen Zustellbarkeits-Server synchronisiert. (CAMP-48923)
-* Fehlerkorrektur - Beim Laden einer E-Mail-Vorlage mit HTML-Tags in Email Designer tritt jetzt kein Fehler mehr auf. (CAMP-48243)
+* Fehlerkorrektur – Der Zeitüberschreitungsfehler beim Import von E-Mail-Inhalten aus einer URL wurde behoben. (CAMP-49054)
+* Fehlerkorrektur – Der Zugriff auf eine mit Lesezeichen versehene URL oder das Aktualisieren einer Seite im Browser führt nicht mehr zum Sitzungsende und zu einem Fehler (-69). (CAMP-49003, CAMP-48930, CAMP-48894)
+* Fehlerkorrektur – Regeln werden jetzt vom alten Zustellbarkeits-Server auf den neuen fehlerfrei synchronisiert. (CAMP-48923)
+* Fehlerkorrektur – E-Mail-Vorlagen mit HTML-Tags werden in Email Designer jetzt fehlerfrei geladen. (CAMP-48243)

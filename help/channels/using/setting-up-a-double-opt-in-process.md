@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Anmeldung mit zweifacher Bestätigung einrichten
 description: Mit diesen Schritten können Sie über Landingpages in Adobe Campaign eine Anmeldung mit zweifacher Bestätigung einrichten.
 audience: channels
@@ -10,9 +8,9 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1234'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1232'
 ht-degree: 100%
 
 ---

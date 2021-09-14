@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exportieren/Importieren benutzerdefinierter Ressourcen
 description: In diesem Tutorial erfahren Sie, wie Sie ein Package mit benutzerdefinierten Ressourcen exportieren und importieren können.
 audience: automating
@@ -10,10 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '691'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -117,7 +114,7 @@ Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name d
 
    ![](assets/cusresources_import3.png)
 
-### Veröffentlichen{#publish-structure}
+### Veröffentlichen {#publish-structure}
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Veröffentlichung]**.
 1. Verwenden Sie die Schaltflächen **[!UICONTROL Veröffentlichung vorbereiten]** und anschließend **[!UICONTROL Veröffentlichen]**, um die Instanz mit den Daten der neuen benutzerdefinierten Ressourcen zu aktualisieren.
@@ -140,7 +137,7 @@ Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import un
 
    ![](assets/cusresources_importdata.png)
 
-### Veröffentlichen{#publish-data}
+### Veröffentlichen {#publish-data}
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Entwicklung]** / **[!UICONTROL Veröffentlichung]**.
 1. Verwenden Sie die Schaltflächen **[!UICONTROL Veröffentlichung vorbereiten]** und anschließend **[!UICONTROL Veröffentlichen]**, um die Instanz mit den Daten der benutzerdefinierten Ressourcen zu aktualisieren.

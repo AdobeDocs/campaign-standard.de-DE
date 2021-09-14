@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Erstellen eines Berichts auf der Basis von Workflow-Segmenten
 description: Hier erfahren Sie, wie Sie den Erfolg Ihres Versands anhand der Workflow-Segmente in Ihren Berichten überprüfen.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
-workflow-type: ht
-source-wordcount: '679'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '678'
 ht-degree: 100%
 
 ---

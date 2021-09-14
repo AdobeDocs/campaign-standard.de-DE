@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Briefpost-Versand
 description: Die Aktivität für den Briefpostversand ermöglicht den Versand von einmaligen oder wiederkehrenden Briefpostsendungen innerhalb eines Workflows.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '965'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '964'
 ht-degree: 100%
 
 ---
@@ -83,7 +80,7 @@ Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachric
 
 ## Bemerkungen          {#remarks}
 
-Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Die Links im Übersichtsmenü der Briefpost ermöglichen einen direkten Zugriff auf verknüpfte Elemente (Workflow, Kampagne, Elternversand im Fall einer E-Mail zum wiederkehrenden Versand).
+Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Die Links im Übersichtsmenü der Briefpost ermöglichen einen direkten Zugriff auf verknüpfte Elemente (Workflow, Kampagne, übergeordneter Versand im Fall einer E-Mail zum wiederkehrenden Versand).
 
 ![](assets/wkf_display_parent_elements_direct_mail.png)
 

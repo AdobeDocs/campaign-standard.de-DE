@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Externes Signal
 description: Mit dieser Aktivität wird ein Workflow ausgelöst, wenn in einem anderen Workflow gewisse Bedingungen erfüllt werden.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '650'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---

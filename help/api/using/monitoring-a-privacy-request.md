@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Überwachen einer Datenschutzanfrage
 description: Erfahren Sie, wie Sie mit APIs eine Datenschutzanfrage überwachen können.
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '55'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '54'
 ht-degree: 100%
 
 ---

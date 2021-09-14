@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Steuern eines Workflows
 description: Erfahren Sie, wie Sie mit APIs einen Workflow steuern können.
 audience: developing
@@ -10,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
-source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
-workflow-type: ht
-source-wordcount: '95'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '94'
 ht-degree: 100%
 
 ---

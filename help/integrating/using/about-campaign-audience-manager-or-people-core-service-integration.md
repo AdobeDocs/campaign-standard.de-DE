@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über die Integration von Campaign mit Audience Manager oder People Core Service
 description: Durch die Integration von Audience Manager/People Core Service können Sie in den unterschiedlichen Adobe Experience Cloud-Lösungen Audiences oder Segmente freigeben.
 audience: integrating
@@ -10,10 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '522'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '521'
 ht-degree: 100%
 
 ---

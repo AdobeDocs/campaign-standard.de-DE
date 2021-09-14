@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Migration einer Mobile App vom SDK v4 zum Adobe Experience Platform SDK
 description: Mit diesem Dokument können Sie Ihre Mobile App vom SDK v4 zum Adobe Experience Platform SDK migrieren.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1360'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1358'
 ht-degree: 100%
 
 ---

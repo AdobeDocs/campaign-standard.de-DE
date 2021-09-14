@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Dienst erstellen
 description: Erfahren Sie, wie Sie mit APIs einen Dienst erstellen können.
 audience: developing
@@ -10,15 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '74'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '73'
 ht-degree: 100%
 
 ---
 
-# Dienst erstellen {#creating-a-service}
+# Service erstellen {#creating-a-service}
 
 Dienste lassen sich mit einer **POST**-Anfrage für die Dienstressource erstellen.
 

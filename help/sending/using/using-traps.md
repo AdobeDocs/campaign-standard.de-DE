@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Fallen verwenden
 description: Erfahren Sie, wie Sie Fallen in Nachrichten verwenden.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Testadresse
+feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '389'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---

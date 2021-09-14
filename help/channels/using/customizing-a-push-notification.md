@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Push-Benachrichtigung anpassen
 description: Hier erfahren Sie, wie Sie Ihre Push-Benachrichtigungen mithilfe erweiterter Optionen anpassen können.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push-Benachrichtigung
+feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1576'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1575'
 ht-degree: 100%
 
 ---

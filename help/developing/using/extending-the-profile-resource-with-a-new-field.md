@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Profil-Ressource um ein neues Feld erweitern
 description: Hier erfahren Sie, wie die Profil-Ressource erweitert wird.
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1156'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1154'
 ht-degree: 100%
 
 ---
@@ -28,10 +25,10 @@ In unserem Beispiel wird gezeigt, wie die Profile unter Verwendung einer Landing
 
 Gehen Sie dazu wie folgt vor:
 
-* [Schritt 1: Profil-Ressource erweitern](#step-1--extend-the-profile-resource)
-* [Schritt 2: Testprofil erweitern](#step-2--extend-the-test-profile)
-* [Schritt 3: Benutzerdefinierte Ressource veröffentlichen](#step-3--publish-your-custom-resource)
-* [Schritt 4: Profile mit einem Workflow aktualisieren und auswählen](#step-4--update-and-target-profiles-with-a-workflow)
+* [Schritt 1: Profil-Ressource erweitern      ](#step-1--extend-the-profile-resource)
+* [Schritt 2: Testprofil erweitern      ](#step-2--extend-the-test-profile)
+* [Schritt 3: Benutzerdefinierte Ressource veröffentlichen  ](#step-3--publish-your-custom-resource)
+* [Schritt 4: Profile mit einem Workflow aktualisieren und auswählen      ](#step-4--update-and-target-profiles-with-a-workflow)
 
 Das folgende Feld wird dann zu unseren Profilen hinzugefügt und kann für einen Versand ausgewählt werden:
 
@@ -40,8 +37,8 @@ Das folgende Feld wird dann zu unseren Profilen hinzugefügt und kann für einen
 Verwandte Themen:
 
 * [Über benutzerdefinierte Ressourcen](../../developing/using/data-model-concepts.md)
-* [Verwaltung von Profilen](../../audiences/using/about-profiles.md)
-* [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
+* [Profile verwalten](../../audiences/using/about-profiles.md)
+* [Testprofile verwalten](../../audiences/using/managing-test-profiles.md)
 
 ## Schritt 1: Profil-Ressource erweitern       {#step-1--extend-the-profile-resource}
 

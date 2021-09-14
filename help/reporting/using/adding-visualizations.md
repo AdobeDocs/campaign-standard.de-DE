@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Visualisierungen hinzufügen
 description: Dynamische Berichte bieten mehrere Möglichkeiten von Visualisierungen, mit denen eine grafische Darstellung zu Ihrem Bericht hinzugefügt werden kann.
 audience: reporting
@@ -10,10 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: a6bf2393-ebb8-49c8-bdc9-d243c227bee9
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '223'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '222'
 ht-degree: 100%
 
 ---

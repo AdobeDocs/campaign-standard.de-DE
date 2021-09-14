@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Verwalten verschlüsselter Daten
 description: Erfahren Sie, wie Sie verschlüsselte Daten verwalten.
 audience: automating
@@ -10,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
-workflow-type: ht
-source-wordcount: '953'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '952'
 ht-degree: 100%
 
 ---

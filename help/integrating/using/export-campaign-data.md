@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Daten von Campaign nach Adobe Experience Platform exportieren
 description: Erfahren Sie, wie Sie Daten von Campaign Standard nach Adobe Experience Platform exportieren.
 audience: integrating
@@ -8,8 +6,8 @@ content-type: reference
 role: Data Architect
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
-workflow-type: ht
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 

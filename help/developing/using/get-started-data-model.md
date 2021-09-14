@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Erste Schritte mit dem Campaign Standard-Datenmodell
 description: Reichern Sie das Datenmodell von Campaign Standard mit benutzerdefinierten Feldern und Ressourcen an und erweitern Sie REST-APIs, um erweiterte Felder sichtbar zu machen.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Datenmodell
+feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: ht
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
-workflow-type: ht
-source-wordcount: '340'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -38,7 +35,7 @@ Im Menü **Diagnose** können Sie die von Campaign Standard generierten technisc
 
 Mehr dazu:
 
-* [Datenmodellkonzepte](../../developing/using/data-model-concepts.md)
+* [Konzepte von Datenmodellen](../../developing/using/data-model-concepts.md)
 * [Best Practices für Datenmodelle](../../developing/using/data-model-best-practices.md)
 * [Beschreibung des Datenmodells](../../developing/using/datamodel-introduction.md)
 * [Änderungen an Datenmodellen verfolgen](../../developing/using/monitoring-data-model-changes.md)

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Zugriff auf Nachrichten
 description: '"Hier erfahren Sie, wie Sie auf Nachrichten und ihre erweiterten Funktionen zugreifen können: Erstellung, Zielgruppenbestimmung, Personalisierung, Durchführung und Reporting."'
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-feature: Übersicht
+feature: Overview
 role: User
 level: Intermediate
 exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '312'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '311'
 ht-degree: 100%
 
 ---

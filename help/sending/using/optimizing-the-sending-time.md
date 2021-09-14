@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Versandzeitpunkt optimieren
 description: Hier erfahren Sie, wie Sie den Versandzeitpunkt festlegen und die Öffnungsrate Ihrer Nachrichten verbessern.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Versandzeitpunkt optimieren
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '298'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '295'
 ht-degree: 100%
 
 ---

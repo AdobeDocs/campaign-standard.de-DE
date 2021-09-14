@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Anmeldungen verfolgen
 description: Hier erfahren Sie, wie Sie Ihre Abonnenten tracken und den Erfolg Ihrer Dienste mithilfe von Dashboards und Berichten messen.
 audience: audiences
@@ -10,9 +8,9 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '358'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '357'
 ht-degree: 100%
 
 ---

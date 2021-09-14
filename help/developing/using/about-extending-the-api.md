@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über die API-Erweiterung
 description: Erfahren Sie, wie Sie für die benutzerdefinierten Ressourcenprofile in der öffentlichen Profil-API erweiterte Felder verfügbar machen.
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '117'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Kanalübergreifender Versand
 description: Dieser Anwendungsfall zeigt, wie man einen kanalübergreifenden Versand erstellt.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '918'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '917'
 ht-degree: 100%
 
 ---
@@ -32,7 +29,7 @@ Weiterführende Informationen zu Workflows und den in Adobe Campaign verfügbare
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Kommunikationskanäle](../../channels/using/get-started-communication-channels.md)
 
-## Workflow erstellen         {#creating-workflow}
+## Workflow erstellen       {#creating-workflow}
 
 Bestimmen Sie im ersten Schritt die Zielgruppe, die Sie mit Ihrer Kommunikation erreichen möchten. Nachfolgend wird diese dann je nach Kommunikationsmedium in zwei Gruppen unterteilt.
 
@@ -46,7 +43,7 @@ Erstellen Sie also innerhalb des Programms oder der Kampagne Ihrer Wahl einen ne
 
 Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Workflow erstellen](../../automating/using/building-a-workflow.md) beschrieben.
 
-## Abfrageaktivität erstellen. {#creating-query-activity}
+## Abfrageaktivität erstellen.  {#creating-query-activity}
 
 Nach der Erstellung des Workflows werden Sie zu dessen Arbeitsbereich weitergeleitet.
 
@@ -64,7 +61,7 @@ Sie können eine auf ein oder mehrere Element(e) bezogene Abfrage erstellen.
 
 Verwenden Sie die Schaltfläche **[!UICONTROL Zählung]**, um die geschätzte Anzahl an Profilen anzuzeigen, auf die die Abfrage zutrifft.
 
-## Segmentierungsaktivität erstellen. {#creating-segmentation-activity}
+## Segmentierungsaktivität erstellen.  {#creating-segmentation-activity}
 
 Unterteilen Sie im nächsten Schritt Ihre mithilfe der Abfrage-Aktivität bestimmte Zielgruppe in zwei Segmente: das eine erhält eine E-Mail, das andere eine SMS.
 

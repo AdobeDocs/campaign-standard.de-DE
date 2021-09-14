@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '"Schritt 3: Erweiterung überprüfen"'
 description: Hier erfahren Sie, wie Sie mit der REST API auf das erweiterte Feld zugreifen können.
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '61'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '59'
 ht-degree: 100%
 
 ---

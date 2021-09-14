@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über Datenverwaltungsaktivitäten
 description: Die Datenverwaltungsaktivitäten können über die linke Bildschirmseite geöffnet werden.
 audience: automating
@@ -10,10 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: b780704c-210b-4cab-9016-91726a86de6d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '130'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
@@ -28,11 +25,11 @@ Mit diesen Aktivitäten können Sie Daten bearbeiten. Beispielsweise können Sie
 
 Im Bereich **[!UICONTROL Daten-Management (ETL)]** werden die folgenden Aktivitäten bereitgestellt:
 
-* [Daten aktualisieren](../../automating/using/update-data.md)
+* [Daten-Update](../../automating/using/update-data.md)
 * [Datei laden](../../automating/using/load-file.md)
 * [Dateiübertragung](../../automating/using/transfer-file.md)
 * [Abstimmung](../../automating/using/reconciliation.md)
 * [Dateiextraktion](../../automating/using/extract-file.md)
-* [An-/Abmeldedienst](../../automating/using/subscription-services.md)
+* [Anmeldedienste](../../automating/using/subscription-services.md)
 
 In den Aktivitäten **[!UICONTROL Daten-Management (ETL)]** können Sie **Segmentcodes** für die ausgehenden Transitionen definieren. Anschließend können Sie auf diesen Segmentcodes basierende Berichte erstellen, um die Effizienz Ihrer Marketingkampagnen zu messen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/creating-a-report-workflow-segment.md).

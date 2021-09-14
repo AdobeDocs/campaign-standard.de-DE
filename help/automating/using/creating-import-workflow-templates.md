@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Erstellen von Workflow-Vorlagen zum Importieren von Daten
 description: Erfahren Sie, wie Sie Workflow-Vorlagen zum Importieren von Daten erstellen.
 audience: automating
@@ -10,10 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1304'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1303'
 ht-degree: 100%
 
 ---

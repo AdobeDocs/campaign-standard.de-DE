@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Archivieren von Nachrichten in Adobe Campaign Standard
 description: Erfahren Sie, wie Sie E-Mails mit Adobe Campaign Standard unter Verwendung einer BCC-E-Mail-Adresse archivieren können.
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Leistungsüberwachung
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '377'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '375'
 ht-degree: 100%
 
 ---

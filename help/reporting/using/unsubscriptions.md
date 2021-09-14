@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Abmeldungen
 description: Im vordefinierten Bericht über Abmeldungen erfahren Sie, wie oft sich Kunden von Ihren Sendungen abgemeldet haben.
 audience: reporting
@@ -11,10 +9,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 02c24d66-f379-476d-9536-e652dc74bcf8
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '68'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '67'
 ht-degree: 100%
 
 ---

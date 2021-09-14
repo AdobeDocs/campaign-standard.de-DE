@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bedienfelder hinzufügen
 description: Dynamische Berichte ermöglichen es Ihnen, ein Bedienfeld hinzuzufügen, um Ihre Daten entsprechend dem ausgewählten Zeitraum zu filtern.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
-workflow-type: ht
-source-wordcount: '379'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '378'
 ht-degree: 100%
 
 ---

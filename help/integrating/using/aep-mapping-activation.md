@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mapping-Aktivierung
 description: Erfahren Sie, wie Sie Ihr Daten-Mapping aktivieren
 audience: administration
@@ -10,10 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '497'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '494'
 ht-degree: 100%
 
 ---

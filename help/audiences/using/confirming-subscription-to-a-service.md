@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Abonnement eines Dienstes bestätigen
 description: Führen Sie die folgenden Schritte aus, um eine Bestätigungsnachricht für Profile zu erstellen, die einen Dienst in Adobe Campaign abonnieren.
 audience: audiences
@@ -10,9 +8,9 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1421'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1420'
 ht-degree: 100%
 
 ---

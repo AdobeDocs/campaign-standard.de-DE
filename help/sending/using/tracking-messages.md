@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Nachrichten tracken
 description: Hier erfahren Sie, wie Sie das Verhalten von Versandempfängern tracken können.
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Leistungsüberwachung
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '507'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---

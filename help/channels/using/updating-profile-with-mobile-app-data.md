@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Erstellen und Aktualisieren von Profilinformationen auf Basis der von einer Mobile App erfassten Daten
 description: Erfahren Sie, wie Sie Profilinformationen auf Basis der von einer Mobile App erfassten Daten erstellen und aktualisieren.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push-Benachrichtigung
+feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1090'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1089'
 ht-degree: 100%
 
 ---

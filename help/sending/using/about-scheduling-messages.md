@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über die Planung von Sendungen
 description: Hier erfahren Sie, wie Sie den Nachrichtenversand zeitlich planen können.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Versandzeitpunkt optimieren
+feature: Send Time Optimization
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '309'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '306'
 ht-degree: 100%
 
 ---

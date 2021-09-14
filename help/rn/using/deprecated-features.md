@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Eingestellte und entfernte Funktionen von Campaign Standard
 description: Auf dieser Seite finden Sie eingestellte und entfernte Funktionen von Adobe Campaign Standard.
 audience: rn
@@ -10,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 81%

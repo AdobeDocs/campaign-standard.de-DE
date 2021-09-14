@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Datenstruktur der Ressource konfigurieren
 description: Hier erfahren Sie, wie Sie die Datenstruktur konfigurieren.
 audience: developing
@@ -11,10 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1842'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1840'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,7 @@ In diesem Zusammenhang können im Tab **[!UICONTROL Datenstruktur]** folgende El
 
 * [Felder](#adding-fields-to-a-resource)
 * [Identifizierungsschlüssel](#defining-identification-keys)
-* [Indexe](#defining-indexes)
+* [Indizes](#defining-indexes)
 * [Relationen](#defining-links-with-other-resources)
 * [Versandlogs](#defining-sending-logs-extension)
 

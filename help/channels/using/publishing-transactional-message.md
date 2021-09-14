@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Lebenszyklus von Transaktionsnachrichten
 description: Erfahren Sie, wie Sie eine Transaktionsnachricht veröffentlichen, unterbrechen, ihre Veröffentlichung aufheben und sie löschen.
 audience: channels
@@ -11,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 97%

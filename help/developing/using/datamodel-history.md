@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: Informationen zum Datenmodell
 audience: developing
@@ -9,10 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1206'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1204'
 ht-degree: 100%
 
 ---
@@ -325,7 +322,7 @@ ht-degree: 100%
                         <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                         <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                         <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                         <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                         <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                         <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -426,7 +423,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>relativeValue</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 <tr>
 <td>month</td>
@@ -463,7 +460,7 @@ Nach E-Mail (byEmail)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>
 
@@ -476,7 +473,7 @@ Nach Schlüssel (byKeysProfile)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>
 
@@ -489,7 +486,7 @@ Nach Name oder E-Mail (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Inhaltserstellung in Adobe Campaign
 description: Erstellen Sie E-Mail-Inhalte von Grund auf neu, importieren Sie HTML oder nutzen Sie vorhandene Vorlagen.
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: E-Mail-Erstellung
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1263'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1261'
 ht-degree: 100%
 
 ---
@@ -97,7 +95,7 @@ Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email De
 
 **Fragmente**: Ein Fragment ist eine Komponente, die Sie in mehreren E-Mails wiederverwenden können.
 
-**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können.
+**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können..
 
 **Inhaltskomponenten**: Inhaltskomponenten sind rohe, noch leere Komponenten, die Sie in E-Mails einfügen und dort bearbeiten können.
 

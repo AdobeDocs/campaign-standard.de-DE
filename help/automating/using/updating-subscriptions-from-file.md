@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mehrere Abonnementstatus über eine Datei aktualisieren
 description: Dieser Anwendungsfall zeigt, wie man eine Datei mit Profilen importiert und die Abonnements für mehrere in der Datei angegebene Dienste aktualisiert.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '427'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '426'
 ht-degree: 100%
 
 ---

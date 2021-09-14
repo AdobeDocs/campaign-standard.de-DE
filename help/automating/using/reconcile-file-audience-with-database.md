@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Eine Audience vom Typ "Datei" mit der Datenbank abstimmen
 description: In diesem Beispiel wird gezeigt, wie die Aktivität "Audience lesen" verwendet werden kann, um eine direkt über einen Dateiimport erstellte Audience abzustimmen.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '265'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '264'
 ht-degree: 100%
 
 ---

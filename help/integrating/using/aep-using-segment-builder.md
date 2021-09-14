@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segment Builder verwenden
 description: Erfahren Sie, wie Sie mit Segment Builder Audiences erstellen können.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '886'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '883'
 ht-degree: 100%
 
 ---
 
-# Verwenden von Segment Builder {#using-the-segment-builder}
+# Segment Builder verwenden {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
@@ -48,7 +46,7 @@ Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
 1. Vergewissern Sie sich, dass im Einstellungsfeld die gewünschte Zusammenführungsrichtlinie ausgewählt ist.
 
-   Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des [Segment Builder-Benutzerhandbuchs](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
+   Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des [Segment Builder-Benutzerhandbuchs](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -96,7 +94,7 @@ Das Symbol am Ende der einzelnen Felder enthält weitere Informationen zum Attri
 
 >[!NOTE]
 >
->Im folgenden Abschnitt finden Sie allgemeine Informationen zur Definition von Regeln. Weiterführende Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
+>Im folgenden Abschnitt finden Sie allgemeine Informationen zur Definition von Regeln. Weiterführende Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 

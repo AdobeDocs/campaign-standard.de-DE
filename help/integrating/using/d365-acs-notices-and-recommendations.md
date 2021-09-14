@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Management von Campaign- und Microsoft Dynamics 365-Daten
 description: Erfahren Sie, wie Campaign Standard und Microsoft Dynamics 365 gemeinsame Daten verwalten.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
-workflow-type: ht
-source-wordcount: '2513'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '2510'
 ht-degree: 100%
 
 ---
 
 # Best Practices und Einschränkungen {#acs-msdyn-best-practices}
 
-## Daten verwalten {#acs-msdyn-manage-data}
+## Verwalten von Daten {#acs-msdyn-manage-data}
 
 Bei der Synchronisation von Kontakten und benutzerdefinierten Entitäten verwendet diese Integration **Microsoft Dynamics 365 als &quot;Source of Truth&quot;**. Änderungen an synchronisierten Attributen sollten in Dynamics 365 und nicht in Adobe Campaign Standard vorgenommen werden. Wenn Änderungen in Campaign vorgenommen werden, können diese bei der Synchronisation in Campaign überschrieben werden, da die Synchronisation in eine Richtung verläuft.
 

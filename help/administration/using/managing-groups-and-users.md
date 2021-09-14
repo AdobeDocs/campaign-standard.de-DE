@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gruppen und Benutzer verwalten
 description: Hier erfahren Sie, wie Sie Sicherheitsgruppen erstellen und Benutzer verwalten können.
 audience: administration
@@ -11,7 +9,7 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 100%

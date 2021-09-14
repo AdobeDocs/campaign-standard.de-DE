@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: An-/Abmeldedienst
 description: Mithilfe der An-/Abmeldedienst-Aktivität lassen sich Profile gesammelt für Dienste an- bzw. von Diensten abmelden.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1176'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1175'
 ht-degree: 100%
 
 ---
 
-# An-/Abmeldedienst {#subscription-services}
+# Anmeldedienste {#subscription-services}
 
 ## Beschreibung {#description}
 

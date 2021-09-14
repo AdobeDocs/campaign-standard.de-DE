@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E-Mail-Versand
 description: Die E-Mail-Versandaktivität ermöglicht den Versand von einmaligen oder wiederkehrenden E-Mails innerhalb eines Workflows.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '904'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '903'
 ht-degree: 100%
 
 ---
 
-# E-Mail-Versand{#email-delivery}
+# E-Mail-Versand            {#email-delivery}
 
 ## Beschreibung {#description}
 
@@ -86,7 +83,7 @@ Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachric
 
 ## Bemerkungen          {#remarks}
 
-Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Die Links im Übersichtsmenü der E-Mail ermöglichen einen direkten Zugriff auf verknüpfte Elemente (Workflow, Kampagne, Elternversand im Fall einer E-Mail zum wiederkehrenden Versand).
+Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Die Links im Übersichtsmenü der E-Mail ermöglichen einen direkten Zugriff auf verknüpfte Elemente (Workflow, Kampagne, übergeordneter Versand im Fall einer E-Mail zum wiederkehrenden Versand).
 
 ![](assets/wkf_display_recurrent_executions_2.png)
 

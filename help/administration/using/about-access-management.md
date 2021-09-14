@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über die Zugriffsverwaltung
 description: Sie können Adobe-Campaign-Benutzer mithilfe von Rollen, Gruppen und Organisationseinheiten verwalten.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Zugriffsverwaltung
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '231'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '229'
 ht-degree: 100%
 
 ---

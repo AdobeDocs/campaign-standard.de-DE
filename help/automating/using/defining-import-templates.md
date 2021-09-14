@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Importvorlagen konfigurieren
 description: Importvorlagen ermöglichen die Einschränkung der nötigen Einstellungen und den rascheren Datenimport.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 100%
@@ -83,5 +80,5 @@ Die Importvorlage ist jetzt für Benutzer zum Hochladen von Dateien verfügbar.
 
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Datenimport und -export](../../automating/using/about-data-import-and-export.md)
-* [Beispiel: Import-Workflow-Vorlage](../../automating/using/creating-import-workflow-templates.md)
+* [Beispiel: Import-Workflow-Vorlage  ](../../automating/using/creating-import-workflow-templates.md)
 

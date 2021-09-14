@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Einschränkungen bei Transaktionsnachrichten
 description: Erfahren Sie mehr über die wichtigsten Empfehlungen und Einschränkungen für Transaktionsnachrichten in Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transaktionsnachrichten
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '770'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '768'
 ht-degree: 100%
 
 ---

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bearbeiten von Plain Text-, HTML- und mobilen E-Mail-Formaten
 description: Entdecken Sie den Plain Text- und den HTML-Modus
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-Mail-Erstellung
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '830'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '828'
 ht-degree: 100%
 
 ---

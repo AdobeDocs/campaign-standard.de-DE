@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '"Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen"'
 description: Hier erfahren Sie, wie die Profil-Ressource erweitert wird.
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '78'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '76'
 ht-degree: 100%
 
 ---

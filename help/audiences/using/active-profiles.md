@@ -1,15 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign – Aktive Profile
 description: Erfahren Sie, wie Sie auf Kundenmetriken und aktive Profile zugreifen können.
-feature: Profile
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '234'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
@@ -43,4 +41,3 @@ Unten auf der Seite werden die Zielgruppendimensionen mit der jeweiligen Anzahl 
 >[!NOTE]
 >
 >Als Administrator können Sie die Anzahl der in Ihren Instanzen verwendeten aktiven Profile auch direkt über das Control Panel überwachen. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=de).
-

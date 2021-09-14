@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Programme und Kampagnen
 description: Programme und Kampagnen in Adobe Campaign ermöglichen die Zusammenfassung und Abstimmung der ihnen zugeordneten Marketingaktivitäten. Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messen.
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Kampagnen
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '671'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '670'
 ht-degree: 100%
 
 ---

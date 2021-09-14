@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sendungen mit einem Komplement erstellen
 description: Dieser Anwendungsfall zeigt, wie man Sendungen mit einem Komplement erstellt.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '297'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -37,7 +34,7 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 
 ![](assets/wf-complement-query.png)
 
-## Erstellen Sie eine Segmentierungsaktivität. {#create-a-segmentation-activity}
+## Erstellen Sie eine Segmentierungsaktivität.  {#create-a-segmentation-activity}
 
 1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Targeting]**, eine [Segmentierungsaktivität](../../automating/using/segmentation.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Bewegen Sie den Mauszeiger über das Segment und wählen Sie dann ![](assets/edit_darkgrey-24px.png) aus, um Kunden auszuwählen, die dieses Jahr zur Datenbank hinzugefügt wurden.
@@ -56,7 +53,7 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 
 ## E-Mail-Versand erstellen {#create-an-email-delivery}
 
-1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Kanäle]** hinter jedes Segment eine Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md).
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Kanäle]** hinter jedes Segment die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md).
 1. Wählen Sie die Aktivität aus und danach ![](assets/edit_darkgrey-24px.png), um die Bearbeitung zu ermöglichen.
 1. Wählen Sie **[!UICONTROL Einmalige E-Mail]** und danach **[!UICONTROL Weiter]** aus.
 1. Wählen Sie eine E-Mail-Vorlage und danach **[!UICONTROL Weiter]** aus.

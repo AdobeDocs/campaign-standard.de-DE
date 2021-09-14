@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über die Integration von Campaign-POI-Daten
 description: Durch die Integration mit Adobe Campaign können Sie Ihren Mobile-App-Abonnenten anhand der von ihnen erfassten POI-Daten standortbasierte Marketing-Nachrichten senden.
 audience: integrating
@@ -10,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '197'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '196'
 ht-degree: 100%
 
 ---

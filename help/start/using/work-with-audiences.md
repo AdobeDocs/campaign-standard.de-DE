@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Listen anpassen
 description: '"Hier erfahren Sie, wie Sie in Adobe Campaign Standard die Anzeige anpassen und bei Bildschirmen des Typs Liste vorgehen, um Elemente zu sortieren, zu filtern, zu löschen oder zu duplizieren. Bildschirme vom Typ Liste ermöglichen die Anzeige der Elemente einer oder mehrerer Ressourcen."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
@@ -67,7 +64,7 @@ Darüber hinaus können Sie Vorlagen für den Datenimport einrichten. Die Verwen
 
 * **Vorlagen zum Datenimport**: Ebenso wie Workflow-Vorlagen sind auch dies Vorlagen, die auf Workflows basieren. Sie werden zum Hochladen von Dateien zur Aktualisierung der Datenbank eingerichtet. Nach der Konfiguration werden sie Benutzern mit einer vereinfachten Ansicht im Menü **[!UICONTROL Profile &amp; Audiences]** / **[!UICONTROL Importe]** zur Verfügung gestellt. Weiterführende Informationen zu Vorlagen zum Datenimport finden Sie im [entsprechenden Handbuch](../../automating/using/importing-data-with-import-templates.md).
 
-### Erfassen von Daten über Landingpages{#collecting-data-from-landing-pages}
+### Erfassen von Daten über Landingpages {#collecting-data-from-landing-pages}
 
 Landingpages sind Webformulare, die zur Datenerfassung und zur Erstellung oder Aktualisierung vorhandener Daten in Ihrer Datenbank verwendet werden können. Das Prinzip dahinter sieht folgendermaßen aus:
 
@@ -120,7 +117,7 @@ Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, d
 **Mehr dazu**
 
 * [Über Audiences](../../audiences/using/about-audiences.md)
-* [Audiences erstellen](../../audiences/using/creating-audiences.md)
+* [Erstellen von Audiences](../../audiences/using/creating-audiences.md)
 
 ## Datenschutzverwaltung {#privacy-management}
 

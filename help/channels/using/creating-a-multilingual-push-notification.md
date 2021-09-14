@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mehrsprachige Push-Benachrichtigungen erstellen
 description: Mit mehrsprachigen Push-Benachrichtigungen können Sie Benutzer in ihrer jeweiligen Sprache und Region ansprechen.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-feature: Push-Benachrichtigung
+feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '989'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '988'
 ht-degree: 100%
 
 ---

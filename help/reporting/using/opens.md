@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Öffnungen
 description: Im Bericht zu Öffnungen erfahren Sie, welcher Versand gemäß verschiedener Kriterien am häufigsten angesehen wurde.
 audience: reporting
@@ -11,10 +9,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 654957b0-98b5-43f2-8699-4531859ef76e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '67'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '66'
 ht-degree: 100%
 
 ---

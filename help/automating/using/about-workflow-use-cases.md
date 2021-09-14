@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über Workflow-Anwendungsfälle
 description: Erfahren Sie mehr über Anwendungsfälle, die Sie mit Workflows in Campaign Standard ausführen können.
 audience: automating
@@ -9,10 +7,9 @@ topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '235'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
@@ -33,24 +30,24 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu verstehen, in denen Workfl
 * [Kanalübergreifenden Versand erstellen](../../automating/using/workflow-cross-channel-delivery.md)
 * [Dubletten vor einem Versand identifizieren](../../automating/using/identifying-duplicated-before-delivery.md)
 * [Versand zum Geburtstag](../../automating/using/birthday-delivery.md)
-* [E-Mail- und Briefpostsendungen verbinden](../../automating/using/coupling-email-direct-mail.md)
-* [E-Mail mit angereicherten Feldern senden](../../automating/using/sending-email-enriched-fields.md)
+* [E-Mail- und Briefpostversand verbinden](../../automating/using/coupling-email-direct-mail.md)
+* [E-Mail mit erweiterten Feldern senden](../../automating/using/sending-email-enriched-fields.md)
 * [E-Mail mit Zusatzdaten personalisieren](../../automating/using/personalizing-email-with-additional-data.md)
 * [Wiederkehrende Push-Benachrichtigungen senden](../../automating/using/recurring-push-notifications.md)
 
-## Segmentierung und Zielgruppenbestimmung {#segmentation-and-targeting}
+## Segmentierung und Targeting {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [Beispiele für Abfragen ](../../automating/using/query-samples.md)
+* [Beispiele für Abfragen](../../automating/using/query-samples.md)
 * [Vereinigung von zwei eingegrenzten Audiences](../../automating/using/union-on-two-refined-audiences.md)
 * [Segmentierung nach Ort erstellen](../../automating/using/workflow-segmentation-location.md)
 * [Retargeting von Nicht-Öffnern](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Inkrementelle Abfrage bezüglich Dienst-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
-* [Segmentierung nach Altersgruppen](../../automating/using/segmentation-age-groups.md)
+* [Inkrementelle Abfrage bezüglich Service-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
+* [Segmentierung nach Altersklassen](../../automating/using/segmentation-age-groups.md)
 * [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Data Management {#management}
+## Daten-Management {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
@@ -64,6 +61,6 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu verstehen, in denen Workfl
 * [Datenaktualisierung mittels Abstimmung](../../automating/using/data-update-reconciliation.md)
 * [Profile in eine externe Datei exportieren](../../automating/using/exporting-profiles-in-file.md)
 * [Mehrere Abonnementstatus über eine Datei aktualisieren](../../automating/using/updating-subscriptions-from-file.md)
-* [Profile aus einer Datei für einen bestimmten Dienst anmelden](../../automating/using/subscribing-profiles-from-file.md)
+* [Profile aus einer Datei für einen bestimmten Service anmelden](../../automating/using/subscribing-profiles-from-file.md)
 * [Importieren von Daten, die mit einem vom Control Panel generierten Schlüssel verschlüsselt wurden](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
 * [Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

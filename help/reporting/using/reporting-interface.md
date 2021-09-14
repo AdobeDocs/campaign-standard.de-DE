@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Benutzeroberfläche für die Berichterstellung
 description: Hier erhalten Sie Informationen zur Benutzeroberfläche von dynamischen Berichten und zur Navigation durch die verschiedenen Tabs und Menüs.
 audience: reporting
@@ -10,10 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '775'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '774'
 ht-degree: 100%
 
 ---
@@ -150,4 +147,4 @@ Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang di
 
 **Verwandtes Thema:**
 
-* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

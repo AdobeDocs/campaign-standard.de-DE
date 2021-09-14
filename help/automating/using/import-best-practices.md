@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Best Practices beim Datenimport
 description: Erfahren Sie mehr über die Best Practices, die beim Importieren von Daten in die Datenbank anzuwenden sind.
 audience: automating
@@ -9,11 +7,10 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '582'
-ht-degree: 100%
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +40,7 @@ Ein Beispiel für eine allgemeine Workflow-Vorlage zum Datenimport finden Sie in
 
 **Verwandte Themen:**
 
-* [Aktivität „Datei laden“](../../automating/using/load-file.md)
+* [Datei laden Aktivität](../../automating/using/load-file.md)
 * [Aktivität „Abstimmung“](../../automating/using/reconciliation.md)
 * [Aktivität „Segmentierung“](../../automating/using/segmentation.md)
 * [Aktivität „Deduplizierung“](../../automating/using/deduplication.md)
@@ -58,7 +55,7 @@ Beispiel:
 * Trennzeichen: Tabulator oder Semikolon
 * Erste Zeile mit Headern
 * Keine Zeichenketten-Qualifizierer
-* Datumsformat: JJJJ/MM/TT hh:mm:ss
+* Datumsformat: JJJJ/MM/TT HH:mm:SS
 
 Beispiel einer zu importierenden Datei:
 
@@ -76,7 +73,7 @@ Verwenden Sie für Importe und Exporte möglichst ZIP-Dateien. GZIP wird standar
 
 **Verwandte Themen:**
 
-* [Aktivität „Datei laden“](../../automating/using/load-file.md)
+* [Datei laden Aktivität](../../automating/using/load-file.md)
 * [Aktivität „Dateiextraktion“](../../automating/using/extract-file.md)
 
 ## Im Deltamodus importieren {#importing-in-delta-mode}

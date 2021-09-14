@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Vorschau der Nachricht erzeugen
 description: Hier erfahren Sie, wie Sie eine Nachricht im Inhaltseditor oder in Email Designer in der Vorschau anzeigen können.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Testadresse
+feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '652'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---

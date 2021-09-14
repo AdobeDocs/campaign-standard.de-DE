@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Datenbeibehaltung
 description: Die vordefinierte Beibehaltungsdauer von Standard-Protokolltabellen in Campaign beträgt normalerweise maximal 6 Monate. Erfahren Sie mehr über die standardmäßigen Beibehaltungswerte für Standardtabellen.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instanzeneinstellungen
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: ht
-source-wordcount: '162'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '160'
 ht-degree: 100%
 
 ---

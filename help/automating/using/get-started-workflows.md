@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Erste Schritte mit Prozessen und Daten-Management
 description: Automatisieren Sie Prozesse mit Workflows, verwalten Sie Daten und Audiences, senden Sie Nachrichten und vieles mehr.
 audience: automating
@@ -10,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
-workflow-type: ht
-source-wordcount: '518'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---

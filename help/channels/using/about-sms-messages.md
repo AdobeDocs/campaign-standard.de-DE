@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über SMS-Nachrichten
 description: Hier erhalten Sie die wichtigsten Informationen zum SMS-Kanal in Adobe Campaign.
 audience: channels
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '290'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '289'
 ht-degree: 100%
 
 ---

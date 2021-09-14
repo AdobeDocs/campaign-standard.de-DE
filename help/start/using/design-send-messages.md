@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Listen anpassen
 description: '"Hier erfahren Sie, wie Sie in Adobe Campaign Standard die Anzeige anpassen und bei Bildschirmen des Typs Liste vorgehen, um Elemente zu sortieren, zu filtern, zu löschen oder zu duplizieren. Bildschirme vom Typ Liste ermöglichen die Anzeige der Elemente einer oder mehrerer Ressourcen."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
@@ -59,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, weisegtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lakinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus weisektetur, pulvinar elementum dui.
 
 **Mehr dazu**
 
@@ -107,14 +104,14 @@ Mit Adobe Campaign können Sie jeden einzelnen Versand beobachten und verfolgen.
 **Mehr dazu**
 
 * [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)
-* [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md)
+* [Sendungen überwachen](../../sending/using/monitoring-a-delivery.md)
 * [Nachrichten tracken](../../sending/using/tracking-messages.md)
 
 ## Berichte einrichten
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, weihnachtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihen maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus sektetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, weisegtetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, ein Lakinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris weihtetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus weisektetur, pulvinar elementum dui.
 
 **Mehr dazu**
 

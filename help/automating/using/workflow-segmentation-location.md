@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentierung am Standort
 description: Dieser Anwendungsfall zeigt, wie man eine Segmentierung am Standort durchgeführt.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '324'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -37,7 +34,7 @@ Sie können Kunden eine E-Mail mit Angeboten in lokalen Geschäften schicken.
 
 ![](assets/wf-complement-query.png)
 
-## Segmentierungsaktivität erstellen.{#creating-a-segmentation-activity}
+## Segmentierungsaktivität erstellen. {#creating-a-segmentation-activity}
 
 1. Ziehen Sie eine [Segmentierungsaktivität](../../automating/using/segmentation.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Wählen Sie ein Segment aus und öffnen Sie danach eine Transition, um Personen in der ersten Stadt auszuwählen. In unserem Fall ist das Boston.

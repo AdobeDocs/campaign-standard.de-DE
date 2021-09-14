@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Deduplizierung
 description: Mithilfe der Deduplizierungs-Aktivität lassen sich Dubletten in Ergebnissen aus eingehenden Aktivitäten löschen.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '607'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '606'
 ht-degree: 100%
 
 ---

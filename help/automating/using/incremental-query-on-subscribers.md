@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Inkrementelle Abfrage bezüglich Dienst-Abonnenten
 description: Im folgenden Beispiel wird gezeigt, wie eine inkrementelle Abfrageaktivität konfiguriert wird, um Abonnenten eines Dienstes zu filtern.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '218'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
 
-# Inkrementelle Abfrage bezüglich Dienst-Abonnenten {#example--incremental-query-on-subscribers-to-a-service}
+# Inkrementelle Abfrage bezüglich Service-Abonnenten {#example--incremental-query-on-subscribers-to-a-service}
 
 Im folgenden Beispiel wird die Konfiguration der Aktivität **[!UICONTROL Inkrementelle Abfrage]** illustriert, die der Filterung der Profile der Adobe-Campaign-Datenbank dient, die Abonnenten des Diensts **Running-Newsletter** sind, um diesen eine Willkommens-E-Mail mit einem Sonderangebots-Code zu senden.
 

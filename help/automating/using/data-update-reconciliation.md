@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Datenaktualisierung mittels Abstimmung
 description: Das folgende Beispiel zeigt einen Workflow zur Erstellung einer Profil-Audience, die direkt aus einer importierten Datei mit neuen Kunden erzeugt wird.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '129'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '128'
 ht-degree: 100%
 
 ---

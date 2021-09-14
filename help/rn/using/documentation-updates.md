@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aktualisierungen der Dokumentation
 description: Hier erhalten Sie Informationen über Dokumentationsaktualisierungen für Adobe Campaign Standard.
 audience: rn
@@ -10,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: b80e09a141aa0725533ceda07330699b5667d301
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6985'
 ht-degree: 98%
@@ -226,7 +224,7 @@ Ein neuer Abschnitt zum Thema Datenschutz und Einverständnis wurde der Hauptdok
 
 Es wurde ein Anwendungsfall hinzugefügt, mit dem Sie E-Mails des alten Editors in den Email Designer konvertieren können – [mehr dazu](../../designing/using/converting-emails-from-legacy-editor.md)
 
-Es wurde ein Abschnitt mit häufig gestellten Fragen zum Email Designer hinzugefügt – [mehr dazu](../../designing/using/faq-email-designer.md)
+Es wurde ein Abschnitt mit häufig gestellten Fragen zum Email Designer hinzugefügt – [Mehr dazu](../../designing/using/faq-email-designer.md)
 
 ## April 2020 {#doc-updates-april-2020}
 
@@ -322,7 +320,7 @@ Die Dokumentation zum erweiterten MTA von Adobe Campaign ist jetzt verfügbar. I
 
 Es wurden Hinweise hinzugefügt, die darüber informieren, dass die URLs des Anwendungs-Servers und des Mirrorseiten-Servers sicher sein müssen, damit die Vorschau der Landingpage und der Mirrorseite über die Benutzeroberfläche von Campaign angezeigt werden kann – [mehr dazu](../../administration/using/branding.md#configuring-and-using-brands)
 
-Der Abschnitt zum Exportieren von Protokollen wurde aktualisiert, um über die Verfügbarkeit der Versandlog-ID in den Ressourcen Versandlogs und Trackinglogs zu informieren, mit der für jedes Protokoll eine eindeutige Kennung exportiert werden kann – [mehr dazu](../../automating/using/exporting-logs.md)
+Der Abschnitt zum Exportieren von Protokollen wurde aktualisiert, um über die Verfügbarkeit der Versandlog-ID in den Ressourcen Versandlogs und Trackinglogs zu informieren, mit der für jedes Protokoll eine eindeutige Kennung exportiert werden kann – [Mehr dazu](../../automating/using/exporting-logs.md)
 
 ## Januar 2020 {#doc-updates-january-2020}
 

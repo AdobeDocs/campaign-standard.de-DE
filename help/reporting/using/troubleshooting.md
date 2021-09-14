@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Fehlerbehebung
 description: Hier finden Sie häufig gestellte Fragen zu dynamischen Berichten.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Berichte
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
-workflow-type: ht
-source-wordcount: '727'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '726'
 ht-degree: 100%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 100%
 
 In diesem Abschnitt finden Sie häufig gestellte Fragen zu dynamischen Berichten.
 
-## Bei Einzelöffnungen und Einzelklicks entspricht die Zahl in der Aggregat-Zeile nicht der Zahl in den einzelnen Zeilen. {#unique-open-clicks-no-match}
+## Bei Einzelöffnungen und Einzelklicks entspricht die Zahl in der Aggregat-Zeile nicht der Zahl in den einzelnen Zeilen.  {#unique-open-clicks-no-match}
 
 Dies ist zu erwarten.
 Im folgenden Beispiel möchten wir dieses Verhalten erläutern.
@@ -92,7 +90,7 @@ Dies ergibt die folgende Tabelle:
 >
 >Die eindeutige Anzahl basiert auf einem HLL-basierten Sketch. Dies kann bei großen Zahlen zu leichten Ungenauigkeiten führen.
 
-## Die Anzahl der Öffnungen stimmt nicht mit der Anzahl in der Datenbank überein. {#open-counts-no-match-database}
+## Die Anzahl der Öffnungen stimmt nicht mit der Anzahl in der Datenbank überein.  {#open-counts-no-match-database}
 
 Der Grund dafür kann darin liegen, dass bei dynamischen Berichten heuristische Modelle verwendet werden, um Öffnungen zu tracken, selbst wenn die Aktion **[!UICONTROL Öffnungen]** nicht getrackt werden kann.
 

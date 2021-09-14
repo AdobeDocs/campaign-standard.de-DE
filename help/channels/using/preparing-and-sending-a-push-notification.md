@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Eine Push-Benachrichtig erstellen und senden
 description: Diese Schritte zeigen Ihnen, wie Sie mit Adobe Campaign einen einmaligen Push-Benachrichtigungs-Versand erstellen können.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push-Benachrichtigung
+feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '910'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '909'
 ht-degree: 100%
 
 ---

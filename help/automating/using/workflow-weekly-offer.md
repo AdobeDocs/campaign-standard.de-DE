@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Wöchentlichen Versand erstellen
 description: Dieser Anwendungsfall zeigt, wie man einen wöchentlichen Versand erstellt.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '298'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -44,7 +41,7 @@ Sie haben die Möglichkeit, beispielsweise jeden Dienstag allen Kunden eine E-Ma
 >
 >Um Ihren Workflow in einer bestimmten Zeitzone auszuführen, richten Sie in den **[!UICONTROL Ausführungsoptionen]** die Zeitzone für Ihren Zeitplan im Feld **[!UICONTROL Zeitzone]** ein. Standardmäßig ist die ausgewählte Zeitzone die in den Eigenschaften des Workflows definierte Zeitzone (siehe [Workflow erstellen](../../automating/using/building-a-workflow.md)).
 
-## Abfrageaktivität erstellen{#creating-a-query-activity}
+## Abfrageaktivität erstellen. {#creating-a-query-activity}
 
 1. Um Empfänger auszuwählen, ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Targeting]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Profil]** die Option **[!UICONTROL E-Mail]** in den Arbeitsbereich.

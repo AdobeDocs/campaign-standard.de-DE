@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Verwenden von Versandvorlagen
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Mit Versandvorlagen arbeiten Sie effizienter, da Sie mit ihnen bereits vorgefertigte Szenarien für die meisten gängigen Aktivitäten zur Verfügung haben."'
-feature: Zustellbarkeit
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '830'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '829'
 ht-degree: 100%
 
 ---

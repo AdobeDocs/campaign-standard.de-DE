@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Verwalten des CCPA-Opt-outs
 description: Erfahren Sie, wie Sie mit APIs das CCPA-Opt-out verwalten können.
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '149'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '148'
 ht-degree: 100%
 
 ---

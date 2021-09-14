@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Best Practices für Datenmodelle in Adobe Campaign Standard
 description: Erfahren Sie mehr über Best Practices beim Entwerfen Ihres Adobe Campaign Standard-Datenmodells.
 audience: developing
@@ -11,10 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1558'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1556'
 ht-degree: 100%
 
 ---
@@ -30,7 +27,7 @@ In diesem Dokument werden die wichtigsten Empfehlungen beim Entwerfen Ihres Adob
 >
 >Eine Datenmodelldarstellung der nativen Ressourcen finden Sie auf [dieser Seite](../../developing/using/datamodel-introduction.md).
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Das Adobe Campaign-System ist äußerst flexibel und kann über die ursprüngliche Implementierung hinaus erweitert werden. Obwohl die Möglichkeiten unbegrenzt sind, ist es wichtig, die richtigen Entscheidungen zu treffen und eine solide Grundlage zu schaffen, um mit der Entwicklung Ihres Datenmodells zu beginnen.
 

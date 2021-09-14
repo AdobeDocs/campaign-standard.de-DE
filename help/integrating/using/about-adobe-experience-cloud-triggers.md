@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Über Adobe Experience Cloud Triggers
 description: Durch das Verfolgen bestimmter Verhaltensmuster Ihrer Kunden durch Adobe Analytics können Sie ihnen personalisierte E-Mails in Adobe Campaign senden.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '475'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '474'
 ht-degree: 100%
 
 ---

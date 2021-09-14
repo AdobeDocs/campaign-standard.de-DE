@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E-Mails erstellen
 description: Diese Schritte zeigen Ihnen, wie Sie einen einmaligen E-Mail-Versand mit Adobe Campaign erstellen können.
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: E-Mail
+feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '561'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '560'
 ht-degree: 100%
 
 ---

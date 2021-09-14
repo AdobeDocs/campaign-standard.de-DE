@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Best Practices bei Workflows
 description: Hier erfahren Sie, welche Best Practices bei Workflows anzuwenden sind.
 audience: automating
@@ -11,11 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1226'
-ht-degree: 100%
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1225'
+ht-degree: 99%
 
 ---
 
@@ -103,7 +100,7 @@ Bei der Erstellung eines Workflows wird für jede Aktivität ein Name generiert 
 
 Zum Duplizieren vorhandener Aktivitäten können Sie Copy &amp; Paste verwenden. Dadurch bleiben die ursprünglich definierten Einstellungen unverändert. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Duplizieren von Workflow-Aktivitäten](../../automating/using/workflow-interface.md).
 
-### Aktivität &quot;Planung&quot;{#acheduler-activity}
+### Planungsaktivität{#acheduler-activity}
 
 Pro Workflow-Verzweigung darf nur eine einzige **[!UICONTROL Planungsaktivität]** verwendet werden. Wenn dieselbe Verzweigung eines Workflows mehrere Planungen enthält, die miteinander verknüpft sind, steigt die Anzahl der auszuführenden Aufgaben exponentiell an, wodurch die Datenbank überlastet würde.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign
 description: Opt-out eines Profils führt dazu, dass keinerlei Nachrichten mehr an dieses gesendet werden, auch nicht über einzelne Kanäle.
 audience: audiences
@@ -10,7 +8,7 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: 6b293db5bc8f299a3237aa83c003339f0e697c6f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 81%
