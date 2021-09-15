@@ -288,11 +288,11 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
 
 * **[!UICONTROL Zeichenkodierung]**: Aktivieren Sie die Option **[!UICONTROL Kodierung erzwingen]**, wenn Sie die Nachrichtenkodierung erzwingen möchten, und wählen Sie dann die gewünschte Kodierungsmethode aus.
 * **[!UICONTROL Bounce Messages]**: Bounce Messages werden standardmäßig in der Fehler-Inbox der Plattform empfangen (definiert unter **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail]** > **[!UICONTROL Konfiguration).]** Um eine bestimmte Fehleradresse für eine E-Mail zu definieren, geben Sie die jeweilige Adresse im Feld **[!UICONTROL Fehleradresse]** ein.
-* **[!UICONTROL Zusätzliche SMTP-Header]**: Mit dieser Option können Sie Ihren Nachrichten zusätzliche SMTP-Header hinzufügen. Das im Feld **[!UICONTROL Header]** eingegebene Skript muss pro Zeile auf einen einzelnen Header (im Format **Name:Wert**) verweisen. Werte werden bei Bedarf automatisch verschlüsselt.
+* **[!UICONTROL Zusätzliche SMTP-Header]**: Mit dieser Option können Sie Ihren Nachrichten zusätzliche SMTP-Header hinzufügen. Das im Feld **[!UICONTROL Header]** eingegebene Script muss pro Zeile auf einen einzelnen Header (im Format **Name:Wert**) verweisen. Werte werden bei Bedarf automatisch verschlüsselt.
 
    >[!IMPORTANT]
    >
-   >Das Hinzufügen zusätzlicher SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Skripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
+   >Das Hinzufügen eines Scripts für zusätzliche SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Scripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
 ### Liste der Parameter für Zugriffsberechtigung  {#list-of-access-authorization-parameters}
 
@@ -304,7 +304,7 @@ Im Abschnitt **[!UICONTROL Zugriffsberechtigungen]** sind folgende Parameter ver
    >
    >Zur Konfiguration von Organisationseinheiten gehen Sie in das Menü **Administration** > **Benutzer &amp; Sicherheit**.
 
-* Die Felder **[!UICONTROL Erstellt von]**, **[!UICONTROL Erstellt am]**, **[!UICONTROL Geändert von]** und **[!UICONTROL Geändert am]** werden automatisch ausgefüllt.
+* Die Felder **[!UICONTROL Erstellt von]**, **[!UICONTROL Erstellt am]**, **[!UICONTROL Geändert von]** und **[!UICONTROL Zuletzt geändert]** werden automatisch ausgefüllt.
 
 ## Alte Einstellungen {#legacy-settings}
 
@@ -330,7 +330,7 @@ Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce Messages]** und 
 
 ### Bounce-Message-Qualifizierung     {#legacy-bounce-mail-qualification}
 
-Der Zugriff auf die unterschiedlichen Bounce Messages und ihre jeweiligen Fehlertypen und -ursachen erfolgt über das **Adobe**-Logo oben links im Bildschirm. Verwenden Sie dann die Schaltflächen **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
+Um die unterschiedlichen Bounces und ihre jeweiligen Fehlertypen und -ursachen aufzulisten, klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
 
 Folgende Qualifikationsstatus von Bounces treten auf:
 

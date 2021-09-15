@@ -11,7 +11,7 @@ exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1331'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Alle Adobe-Campaign-Bildschirme weisen folgende Elemente auf:
 * eine im oberen Bildschirmbereich gelegene Navigationsleiste,
 * ein erweitertes Menü zum Zugriff auf spezifische Funktionen und Konfigurationen,
 * einen zentralen Arbeitsbereich zur Bearbeitung der verschiedenen Elemente.
-* ein seitliches Fenster, in dem je nach Kontext die angezeigten Elemente gefiltert oder gesucht werden können.
+* ein seitliches Panel, in dem je nach Kontext die angezeigten Elemente gefiltert oder gesucht werden können.
 
 ![](assets/ux_interface_01.png)
 
-## Startseite             {#home-page}
+## Startseite {#home-page}
 
 Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnellen Zugriff auf die am häufigsten verwendeten Funktionen bieten. Die Liste der auf der Campaign-Startseite vorhandenen Funktionen hängt von Ihrer Zugriffsberechtigung und den für Ihr Unternehmen konfigurierten Optionen ab.
 
@@ -45,13 +45,13 @@ Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnel
 * Die Karte **[!UICONTROL Kundenprofile]** bietet Zugriff auf die Liste aller in der Datenbank gespeicherten Kontakte und die Anzeige der jeden einzelnen Kontakt betreffenden Ereignisse. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
 * Die Karte **[!UICONTROL Audiences]** bietet Zugriff auf die Liste existierender Audiences. Von hier können Sie vorhandene Audiences abrufen und neue erstellen. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Audiences](../../audiences/using/about-audiences.md).
 
-## Symbolleiste             {#top-bar}
+## Symbolleiste {#top-bar}
 
 Die Symbolleiste ist in jedem Bildschirm sichtbar und ermöglicht die Navigation durch die Funktionen von Adobe Campaign sowie den Zugriff auf die Benutzerdaten Ihres Adobe-Benutzerprofils, auf Benachrichtigungen, auf Adobe Experience Cloud-Lösungen sowie auf die Campaign-Dokumentation.
 
 Folgende Navigationsprinzipien kommen zur Anwendung:
 
-* Das **Adobe** -Logo oben links auf der Seite bietet Zugriff auf erweiterte Funktionen und Konfigurationen. Die angezeigten Menüs hängen von Ihrem Profil und Ihren Zugriffsberechtigungen ab.
+* Das **Adobe**-Logo oben links im Bildschirm bietet Zugriff auf erweiterte Funktionen und Konfigurationen. Die angezeigten Menüs hängen von Ihrem Profil und Ihren Zugriffsberechtigungen ab.
 
    Das erweiterte Menü wird im Abschnitt [erweitertes Menü](#advanced-menu) beschrieben.
 

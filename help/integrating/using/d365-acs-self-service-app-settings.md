@@ -4,13 +4,13 @@ description: Erfahren Sie, wie Sie die Campaign-Dynamics-Integrationsanwendung k
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM-Integration
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
-workflow-type: ht
-source-wordcount: '808'
+workflow-type: tm+mt
+source-wordcount: '805'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,6 @@ Ein weiterer Grund für die Einrichtung des SFTP-Servers wäre, wenn Sie den Opt
 >[!IMPORTANT]
 >
 >Sie sind für die Informationen verantwortlich, die Sie aus den SFTP-Ordnern abrufen und herunterladen. Wenn die Informationen personenbezogene Daten enthalten, sind Sie für die Einhaltung der geltenden Datenschutzgesetze und -bestimmungen verantwortlich. [Weitere Informationen](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
-
 
 Informationen zur Definition der Campaign-SFTP-Einstellungen für die Integration mit Microsoft Dynamics 365 finden Sie im folgenden Abschnitt:
 

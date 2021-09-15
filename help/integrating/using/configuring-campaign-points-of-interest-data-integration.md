@@ -11,13 +11,13 @@ exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1434'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Integration von Campaign-POI-Daten konfigurieren{#configuring-campaign-points-of-interest-data-integration}
 
-## Integration von Campaign-POI-Daten konfigurieren mit Adobe Experience Platform SDKs {#configuring-campaign-poi-aep-sdk}
+## Integration von Campaign-POI-Daten konfigurieren  mit Adobe Experience Platform-SDKs {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Um die POI-Daten-Funktion mit Mobile Apps zu verwenden, die mit SDK V4 konfiguri
 
 Um POI-Daten mit Adobe Campaign erfassen zu können, müssen Sie die Mobile App konfigurieren, von der Adobe Campaign Daten erhält.
 
-1. Klicken Sie links oben auf das Logo **Adobe** und wählen Sie **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App]** aus.
+1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App]**.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]**, um eine App einzurichten.
 1. Füllen Sie das Feld **[!UICONTROL App-Name]** aus und klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -68,21 +68,21 @@ Um POI-Daten mit Adobe Campaign erfassen zu können, müssen Sie die Mobile App 
 
 Im Bereich **[!UICONTROL Eigenschaften der Mobile App]** werden zwei URLs aufgelistet: **[!UICONTROL PII-Abruf-Endpunkt]** und **[!UICONTROL Ortungsdienste-Endpunkt]**. Diese werden in der Adobe-Mobile-Services-Benutzeroberfläche verwendet. Siehe [Mobile App in Adobe Mobile Services konfigurieren](#configuring-a-mobile-app-in-adobe-mobile-services).
 
-* Über die URL für den **[!UICONTROL PII-Abruf-Endpoint]** ruft die Mobile App bei ihrem Start die Experience Cloud-Kennung und den Anmeldetoken des jeweiligen Benutzers ab. Wenn sich ein Benutzer bei der App mit seinen Zugangsdaten, wie E-Mail, Vorname, Nachname etc., anmeldet, werden auch diese Daten erfasst und verwendet, um den Anmeldetoken des Benutzers mit einem Adobe Campaign-Profil abzugleichen.
+* Über die URL für den **[!UICONTROL PII-Abruf-Endpunkt]** ruft die Mobile App bei ihrem Start die Experience Cloud-Kennung und den Anmeldetoken des jeweiligen Benutzers ab. Wenn sich ein Benutzer bei der App mit seinen Zugangsdaten, wie E-Mail, Vorname, Nachname etc., anmeldet, werden auch diese Daten erfasst und verwendet, um den Anmeldetoken des Benutzers mit einem Adobe Campaign-Profil abzugleichen.
 * Mit der URL **[!UICONTROL Ortungsdienst-Endpunkt]** werden Standortdaten wie der Längen- und Breitengrad und die Entfernung des Benutzers von einem POI (Point of Interest) erfasst.
 
 Sie können diese Werte jetzt in Adobe Mobile Services verwenden, um die Konfiguration wie im Abschnitt [Mobile App in Adobe Mobile Services konfigurieren](#configuring-a-mobile-app-in-adobe-mobile-services) beschrieben abzuschließen.
 
 ![](assets/poi_mobile_app_properties.png)
 
-### Eine Mobile App mit V4 in Adobe Mobile Services konfigurieren {#configuring-a-mobile-app-in-adobe-mobile-services}
+### Eine V4-Mobile App in Adobe Mobile Services konfigurieren {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 Um die von Adobe Mobile Services erfassten Daten an Adobe Campaign zu senden, müssen Sie in der Mobile-Services-Benutzeroberfläche Postbacks konfigurieren.
 
 Des Weiteren benötigen Sie spezielle Informationen, die Sie in den in Adobe Campaign eingerichteten Parametern der Mobile App finden (siehe [Mobile App in Campaign einrichten](#setting-up-a-mobile-app-in-campaign)):
 
 * **[!UICONTROL Kennung der IMS-Organisation]**
-* **[!UICONTROL PII-Abruf-Endpoint]**
+* **[!UICONTROL PII-Abruf-Endpunkt]**
 * **[!UICONTROL Ortungsdienst-Endpunkt]**
 
 Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe Analytics. Wenn Sie kein Benutzer von Adobe Analytics sind, kontaktieren Sie Ihren Adobe-Campaign-Administrator.
@@ -100,7 +100,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
 1. Erstellen Sie ein Postback.
 
    * Wählen Sie **[!UICONTROL PII]** als **[!UICONTROL Postback-Typ]** aus.
-   * Kopieren Sie in das Feld **[!UICONTROL URL]** den Servernamen gefolgt von der URL **[!UICONTROL PII-Abruf-Endpoint]** von der in der Adobe Campaign-Benutzeroberfläche konfigurierten Mobile App. Siehe [Mobile App in Campaign einrichten](#setting-up-a-mobile-app-in-campaign).
+   * Kopieren Sie in das Feld **[!UICONTROL URL]** den Servernamen gefolgt von der URL **[!UICONTROL PII-Abruf-Endpunkt]** von der in der Adobe Campaign-Benutzeroberfläche konfigurierten Mobile App. Siehe [Mobile App in Campaign einrichten](#setting-up-a-mobile-app-in-campaign).
    * Füllen Sie das Feld **[!UICONTROL Post-Körper]** folgendermaßen aus:
 
       Für iOS:
@@ -162,11 +162,11 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
 
 >[!NOTE]
 >
->Weitere Informationen zur Konfiguration von Postbacks finden Sie im [Adobe Mobile Services-Handbuch](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=de).
+>Weitere Informationen zur Konfiguration von Postbacks finden Sie in der [Dokumentation zu Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=de).
 
 ### SDK in Mobile Apps integrieren {#integrating-the-sdk-into-a-mobile-application}
 
-Mit dem Mobile-Core-Service-SDK (Software Developer Kit) kann eine Mobile App in Adobe Campaign integriert werden.
+Mit dem Mobile-Coreservice-SDK (Software Developer Kit) kann eine Mobile App in Adobe Campaign integriert werden.
 
 Dieser Schritt wird auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
@@ -185,7 +185,7 @@ So definieren Sie POI zum Erfassen von Standortdaten:
 
 ### POI-Daten von Abonnenten erfassen {#collecting-subscribers--points-of-interest-data}
 
-Eine spezielle benutzerdefinierte Ressource ermöglicht es Ihnen, die Daten zu definieren, die Sie in Bezug auf die Abonnenten Ihrer App abrufen möchten.
+Eine spezielle benutzerdefinierte Ressource ermöglicht es Ihnen, die Daten zu definieren, die Sie von den Abonnenten Ihrer Mobile App erfassen möchten.
 
 Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
@@ -194,7 +194,7 @@ Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](htt
 
 Um die in Adobe Campaign erfolgreich erstellten Anwendungen zu öffnen, gehen Sie folgendermaßen vor:
 
-1. Wählen Sie oben links das **Adobe**-Logo aus.
+1. Klicken Sie oben links auf das **Adobe**-Logo.
 1. Wählen Sie je nach dem SDK **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App (SDK v4)]** oder **[!UICONTROL Mobile App (AEP SDK)]** aus.
 1. Wählen Sie eine Mobile App aus der Liste aus, um ihre Eigenschaften anzuzeigen.
 

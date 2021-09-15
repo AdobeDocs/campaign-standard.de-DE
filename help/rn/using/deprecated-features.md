@@ -11,7 +11,7 @@ exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integration mit dem Audience Destinations-Dienst</strong><br /> </th> 
+   <th> <strong>Integration mit Audience Destinations Service</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Ab Version 21.3 von Campaign Standard wird die Integration mit dem Audience Destinations-Dienst nicht mehr unterstützt. </p>
-   <p>Für eine neue Implementierung können Sie den Audience Destinations-Dienst nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Weitere Informationen</a>.</p>
+   <td> <p> Ab Version 21.3 von Campaign Standard wird die Integration mit Audience Destinations Service nicht mehr unterstützt. </p>
+   <p>Bei neuen Implementierungen können Sie Audience Destinations Service nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=de">Weitere Informationen</a>.</p>
      <em>Geplantes Datum für die Entfernung: 2022.</em></p>
      </td> 
   </tr> 
@@ -57,13 +57,13 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integration mit Adobe Experience Platform Data Connector</strong><br /> </th> 
+   <th> <strong>Integration mit dem Adobe Experience Platform Data Connector</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Ab Campaign Standard-Version 21.3 wird die Integration mit Adobe Experience Platform Data Connector nicht mehr unterstützt. </p>
-   <p>Für eine neue Implementierung können Sie Adobe Experience Platform Data Connector nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Weitere Informationen</a>.</p>
+   <td> <p> Ab Campaign Standard-Version 21.3 wird die Integration mit dem Adobe Experience Platform Data Connector nicht mehr unterstützt. </p>
+   <p>Bei einer neuen Implementierung können Sie den Adobe Experience Platform Data Connector nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Weitere Informationen</a>.</p>
      <em>Geplantes Datum für die Entfernung: 2022.</em></p>
      </td> 
   </tr> 
@@ -117,8 +117,8 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  <tbody> 
   <tr> 
    <td> <p> Ab Campaign-Version 20.1 wird SDK v4 nicht mehr unterstützt. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Mehr dazu</a>.</p><br/>
-   <p>Das <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (früher als v5 bezeichnet) unterstützt jetzt ausschließlich kommende Adobe Experience Cloud-Funktionen.</p>
-   <p>Ab dem 31. August 2021 können Kunden die SDKs der Version 4 weiterhin herunterladen und verwenden. Es wird jedoch keine Unterstützung der Kundenunterstützung und kein Zugriff auf Foren mehr geben.</p>
+   <p>Das <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile-SDK</a> (früher als v5 bezeichnet) unterstützt ausschließlich künftige Adobe Experience Cloud-Funktionen.</p>
+   <p>Nach dem 31. August 2021 können Kunden die SDKs der Version 4 weiterhin herunterladen und verwenden. Es wird jedoch kein Support durch die Kundenunterstützung und kein Zugriff auf Foren mehr bereitgestellt.</p>
    <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=de">Auf dieser Seite</a> erfahren Sie, wie Sie vom SDK v4 zum Adobe Experience Platform Mobile SDK migrieren.</p></br>
      </td> 
   </tr> 

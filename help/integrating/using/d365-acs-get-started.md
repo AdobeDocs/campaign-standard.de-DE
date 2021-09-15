@@ -9,10 +9,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '845'
+workflow-type: tm+mt
+source-wordcount: '842'
 ht-degree: 100%
 
 ---
@@ -30,7 +29,6 @@ Für diese Integration sind die folgenden Software-Versionen erforderlich:
 >[!CAUTION]
 >
 >Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
-
 
 ## Grundsätze
 
@@ -58,7 +56,6 @@ Die wichtigsten Vorteile sind:
 >[!CAUTION]
 >
 >Diese Integration verwendet Dynamics 365 als &quot;Source of Truth&quot; für die Synchronisation von Kontakten und benutzerdefinierten Entitäten.  Änderungen an synchronisierten Attributen sollten in Dynamics 365 und nicht in Adobe Campaign Standard vorgenommen werden.  Wenn Änderungen in Campaign vorgenommen werden, kann es sein, dass sie bei der Synchronisation wieder überschrieben werden.
-
 
 ## Wichtige Schritte zum Implementieren der Integration mit Microsoft Dynamics 365 {#request-and-implement-this-integration}
 
@@ -93,7 +90,6 @@ Drei Systeme müssen für diese Integration bereitgestellt und konfiguriert werd
 >Für jedes System müssen diese Schritte von einem **Administrator** ausgeführt werden.
 >
 >Die Schritte in dieser Dokumentation helfen Ihnen beim Erstellen von Integrationen/Registrierungen, die die Zuweisung von Berechtigungen und/oder Administratorzugriff erfordern.  Sie müssen vor der Ausführung sicherstellen, dass diese Schritte den Richtlinien Ihres Unternehmens entsprechen, und die Schritte dann sorgfältig durchführen.
-
 
 ### Support anfordern
 

@@ -131,7 +131,7 @@ Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Dat
 1. Speichern Sie die Aktivität und wiederholen Sie das Verfahren für jede Aktivität im Workflow.
 1. Speichern Sie den Workflow.
 
-## Anleitungsvideo {#video}
+## Tutorial {#video}
 
 In diesem Video wird gezeigt, wie man einen Workflow erstellt.
 

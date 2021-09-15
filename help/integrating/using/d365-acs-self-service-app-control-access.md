@@ -9,10 +9,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '425'
+workflow-type: tm+mt
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
@@ -32,7 +31,6 @@ In diesem Abschnitt erfahren Sie, wie Sie Zugriff auf die Selfservice-Anwendung 
 >[!IMPORTANT]
 >
 > Für diese Schritte benötigen Sie die **Administratorrolle** in Experience Cloud für Ihr Unternehmen.
-
 
 1. Gehen Sie zu https://experience.adobe.com/ und melden Sie sich bei Adobe Experience Cloud an.
 1. Rufen Sie die **Admin Console** auf.

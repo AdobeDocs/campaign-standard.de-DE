@@ -12,7 +12,7 @@ exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ Mögliche Optionen sind:
 
 * **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Hier können Sie die SQL-Abfragen aus dem Workflow in den Protokollen speichern.
 
-* **[!UICONTROL Diagnostischer Modus (Protokollierungsplan für langwierige Abfragen und Empfehlungen)]**: Aktivieren Sie diese Option, wenn der gesamte Ausführungsplan protokolliert werden soll. Sie ist standardmäßig deaktiviert.
+* **[!UICONTROL Diagnosemodus (Ausführungsplan von lang laufenden Abfragen protokollieren und Empfehlungen geben)]**: Aktivieren Sie diese Option, wenn der gesamte Ausführungsplan protokolliert werden soll. Dies ist standardmäßig deaktiviert.
 
-   Weiterführende Informationen zu dieser Option finden Sie in diesem Abschnitt [Abschnitt](#diagnostic-mode).
+   Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#diagnostic-mode).
 
 * **[!UICONTROL Zwischenergebnis festhalten]**: Aktivieren Sie diese Option, wenn Sie in der Lage sein möchten, die Detailansicht der Transitionen zu visualisieren.
 
@@ -56,36 +56,36 @@ Der Abschnitt **[!UICONTROL Umgang mit Fehlern]** enthält zusätzliche Optionen
 
 >[!CAUTION]
 >
->Diese Option kann sich erheblich auf Ihre Workflow-Leistung auswirken und sollte daher sparsam eingesetzt werden.
+>Diese Option kann sich erheblich auf Ihre Workflow-Leistung auswirken und sollte daher wohl überlegt eingesetzt werden.
 
-Wenn diese Option aktiviert ist, protokolliert die Option **[!UICONTROL Diagnosemodus (Ausführungsplan für langwierige Abfragen protokollieren und Empfehlungen geben)]** im Abschnitt **[!UICONTROL Ausführung]** der Workflow-Eigenschaften den gesamten Ausführungsplan, wenn eine Abfrage mehr als eine Minute dauert.
+Wenn diese Option aktiviert ist, protokolliert die Option **[!UICONTROL Diagnosemodus (Ausführungsplan von lang laufenden Abfragen protokollieren und Empfehlungen geben)]** im Abschnitt **[!UICONTROL Ausführung]** der Workflow-Eigenschaften den gesamten Ausführungsplan, wenn eine Abfrage mehr als eine Minute dauert.
 
 ![](assets/wkf_diagnostic.png)
 
-Wenn die Abfrage länger als eine Minute dauert, wird der Ausführungsplan nach Aktivierung dieser Option und dem Start des Workflows protokolliert. Anschließend können Sie Ihren Ausführungsplan mit einer EXPLAIN ANALYZE abrufen.
+Wenn Sie diese Option aktivieren und Ihren Workflow starten, wird der Ausführungsplan protokolliert, wenn Ihre Abfrage länger als eine Minute dauert. Anschließend können Sie Ihren Ausführungsplan mit EXPLAIN ANALYZE abrufen.
 
-Weitere Informationen hierzu finden Sie in der [PostgreSQL-Dokumentation](https://www.postgresql.org/docs/9.4/using-explain.html).
+Weiterführende Informationen dazu finden Sie in der [Dokumentation zu PostgreSQL](https://www.postgresql.org/docs/9.4/using-explain.html).
 
 Wenn Sie eine Sequenzsuche in dieser Abfrage haben, bietet der **[!UICONTROL Diagnosemodus]** auch Empfehlungen zum Erstellen eines Index mithilfe eines Filterausdrucks.
 
 >[!NOTE]
 >
-> Diese Empfehlungen dienen nur zu Referenzzwecken und sollten entsprechend Ihrem Anwendungsfall sorgfältig verwendet werden.
+> Diese Empfehlungen dienen nur zu Referenzzwecken und sollten entsprechend Ihrem Anwendungsfall sorgfältig gewählt werden.
 
 ![](assets/wkf_diagnostic_4.png)
 
-Die folgenden beiden Bedingungen müssen während der Ausführung des Workflows erfüllt sein, um Empfehlungen für den Trigger zu erhalten:
+Die folgenden beiden Bedingungen müssen während der Ausführung des Workflows erfüllt sein, um Empfehlungen auszulösen:
 
-* Die Sequenzprüfung benötigt mehr als 40 % Zeit für die Abfrage.
+* Die Dauer der Sequenzsuche ist länger als 40 % der Abfrage.
 
-* Die resultierenden Zeilen nach der Sequenzüberprüfung betragen weniger als 1 % der gesamten in der Tabelle vorhandenen Zeilen.
+* Die resultierenden Zeilen nach der Sequenzsuche betragen weniger als 1 % der gesamten in der Tabelle vorhandenen Zeilen.
 
-Sie können die Option im erweiterten Menü verwalten, indem Sie **[!UICONTROL Administration]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Optionen]** auswählen:
+Sie können die Option im erweiterten Menü verwalten, indem Sie **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** auswählen:
 
-* **[!UICONTROL Zeit der Ausführung der Abfrage (in Millisekunden) (DiagnosticModeQueryTime)]**: Im  **** Feld Wert können Sie eine neue Zeit für die Ausführung Ihrer Abfrage festlegen. Wenn die Ausführung der Abfrage diesen Wert überschreitet, wird der Ausführungsplan protokolliert.
+* **[!UICONTROL Zeit der Abfrageausführung (in Millisekunden) (DiagnosticModeQueryTime)]**: Im Feld **[!UICONTROL Wert]** können Sie eine neue Zeit für die Ausführung Ihrer Abfrage festlegen. Wenn die Ausführung der Abfrage diesen Wert überschreitet, wird der Ausführungsplan protokolliert.
 
    ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Prozentsatz der seq-Scan-Zeit (DiagnosticModeSeqScanPercentage)]**: Im Feld  **** Wert können Sie den Prozentsatz der Abfragezeit ändern, der bei der Sequenzprüfung benötigt wird, damit die Empfehlung generiert wird.
+* **[!UICONTROL Prozentsatz der Sequenz-Scan-Zeit (DiagnosticModeSeqScanPercentage)]**: Im Feld **[!UICONTROL Wert]** können Sie den Prozentsatz der Abfragezeit ändern, die die Sequenzsuche benötigen soll, damit die Empfehlung erzeugt wird.
 
    ![](assets/wkf_diagnostic_3.png)

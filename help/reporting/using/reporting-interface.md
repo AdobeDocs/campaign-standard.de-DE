@@ -42,7 +42,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 
 **Verwandte Themen:**
 
-* [Bedienfelder hinzufügen](../../reporting/using/adding-panels.md)
+* [Panels hinzufügen](../../reporting/using/adding-panels.md)
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 * [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
@@ -67,7 +67,7 @@ Die Symbolleiste befindet sich über Ihrem Arbeitsbereich. Sie besteht aus versc
 
 **Verwandte Themen:**
 
-* [Bedienfelder hinzufügen](../../reporting/using/adding-panels.md)
+* [Panels hinzufügen](../../reporting/using/adding-panels.md)
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 

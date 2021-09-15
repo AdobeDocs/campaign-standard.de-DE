@@ -76,7 +76,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
 
-## Anleitungsvideo {#video}
+## Tutorial {#video}
 
 In diesem Video wird die Konfiguration von Listen gezeigt.
 

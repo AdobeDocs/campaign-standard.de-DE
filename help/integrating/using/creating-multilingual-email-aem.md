@@ -11,7 +11,7 @@ exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -127,6 +127,6 @@ Ihre Sprachkopien werden jetzt erstellt. Sie können Ihre Inhalte jetzt je nach 
 
    >[!NOTE]
    >
-   >Sie können eine E-Mail nicht in Adobe Campaign versenden, wenn sie AEM Inhalt verwendet, der noch nicht genehmigt wurde.
+   >Sie können eine E-Mail in Adobe Campaign nicht versenden, wenn in ihr AEM-Inhalt verwendet wird, der nicht genehmigt wurde.
 
 Ihre Audience erhält Ihre E-Mail in der im jeweiligen **[!UICONTROL Profil]** eingestellten **[!UICONTROL bevorzugten Sprache]**. Weitere Informationen zum Bearbeiten von Profilen und bevorzugten Sprachen finden Sie auf dieser [Seite](../../audiences/using/editing-profiles.md).

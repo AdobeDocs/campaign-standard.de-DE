@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Campaign und Assets Core Service verwenden{#working-with-campaign-and-assets-core-service}
+# Campaign und Assets Coreservice verwenden{#working-with-campaign-and-assets-core-service}
 
 Die Integration von Assets Core Service bzw. Assets On Demand (je nach Konfiguration Ihrer Experience Cloud-Umgebung) und Adobe Campaign ermöglicht die Verwendung von in Adobe Experience Cloud freigegebenen Assets in Adobe Campaign-E-Mails und -Landingpages.
 

@@ -12,7 +12,7 @@ exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Auf den Workflow **[!UICONTROL Datenbankbereinigung]**, der standardmäßig jede
 
 Nachdem die Veröffentlichung einer Transaktionsnachricht aufgehoben wurde bzw. wenn eine Transaktionsnachricht noch nicht veröffentlicht wurde, können Sie sie aus der Liste der Transaktionsnachrichten löschen. Gehen Sie dazu wie folgt vor:
 
-1. Klicken Sie links oben auf das Logo **Adobe** und wählen Sie **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]** aus.
+1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]**.
 1. Bewegen Sie den Mauszeiger über die Nachricht Ihrer Wahl.
 1. Wählen Sie die Schaltfläche **[!UICONTROL Element löschen]** aus.
 

@@ -8,10 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '651'
+workflow-type: tm+mt
+source-wordcount: '648'
 ht-degree: 100%
 
 ---
@@ -48,8 +47,7 @@ Diese Integrationsanwendung liest zuerst Daten ein und schreibt dann Daten in da
 >[!NOTE]
 >Wenn Ihre Microsoft Dynamics 365- und/oder Campaign-Datensätze nicht aktualisiert werden, sollten Sie zunächst prüfen, ob eine große Anzahl von Datensätzen darauf wartet, in das Ziel geschrieben zu werden.
 
-
-## Workflow-Status {#workflow-status}
+## Workflow status {#workflow-status}
 
 Die Spalte **[!UICONTROL Status]** gibt den Status der Hintergrundprozesse an, die mit dem Workflow verknüpft sind. Mögliche Werte:
 

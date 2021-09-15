@@ -9,10 +9,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1947'
+workflow-type: tm+mt
+source-wordcount: '1944'
 ht-degree: 100%
 
 ---
@@ -23,7 +22,6 @@ Sie können Tabellen von Microsoft Dynamics 365 mit Campaign und Campaign-Market
 
 >[!IMPORTANT]
 >Sie müssen den Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** anhalten und wieder starten, damit Ihre Änderungen berücksichtigt werden. [Mehr dazu](../../integrating/using/d365-acs-self-service-app-workflows.md)
-
 
 ## Tabellen von Microsoft Dynamics 365 Campaign zuordnen
 
@@ -57,8 +55,6 @@ Hier finden Sie eine Beschreibung der einzelnen Spalten in dieser Tabelle:
       >[!IMPORTANT]
       >
       > Es wird dringend empfohlen, den Integrations-Workflow anzuhalten, wenn Sie Änderungen in Adobe Campaign Standard oder Microsoft Dynamics 365 veröffentlichen. Zu diesen Änderungen gehören Aktualisierungen von Ressourcen/Entitäten (und den zugehörigen Feldern), Links, Spalten mit Kennungen usw., die derzeit von der Integration verwendet werden.
-
-
 
 
 ## Neues Mapping erstellen {#add-a-new-mapping}
@@ -142,7 +138,6 @@ Mit dem Schalter **[!UICONTROL Aktualisierungen anwenden]** können Sie steuern,
 >
 >Klicken Sie auf die Spaltenüberschrift **[!UICONTROL Aktualisierungen anwenden]**, um **alle** Schalter zu aktivieren oder zu deaktivieren.
 
-
 Wenn Sie Feldwerte auswählen, wird der Datentyp unter den Dropdown-Menüs angezeigt.   Dies ist beim Mapping von Werten von einem Feld auf ein anderes zu beachten.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
@@ -181,7 +176,6 @@ Die Option **[!UICONTROL Möchten Sie Datensätze in Adobe Campaign Standard lö
 >[!NOTE]
 >
 > Wenn keine Filter hinzugefügt werden, werden alle geänderten Datensätze an Adobe Campaign weitergegeben.
-
 
 ### Erweiterte Einstellungen {#advanced-settings}
 

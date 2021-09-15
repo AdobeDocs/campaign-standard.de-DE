@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 **Verbesserungen bezüglich der Sicherheit**
 
 * Die Sicherheit wurde zum Schutz vor SSRF-Angriffen verbessert. (CAMP-47836)
-* Die Liste der Benutzer ist jetzt nur noch auf Administratoren beschränkt. (CAMP-47260)
+* Die Liste der Benutzer ist jetzt auf Administratoren beschränkt. (CAMP-47260)
 * Umgebungsvariablen können nicht mehr als Teil der Parametererweiterung in einer URL verwendet werden. (CAMP-47268)
 
 **Verbesserungen**
@@ -102,40 +102,40 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 
 **Sonstige Änderungen**
 
-* Der Adobe Experience Platform Data Connector- und Audience Destinations-Dienst wird jetzt mit Campaign Standard nicht mehr unterstützt. Wenn Sie diese Funktionen verwenden, müssen Sie zu Adobe-Quellen und -Zielen wechseln und Ihre Implementierung anpassen. [Weitere Informationen](../../integrating/using/get-started-sources-destinations.md)   
+* Der Adobe Experience Platform Data Connector- und Audience Destinations-Service wird jetzt von Campaign Standard nicht mehr unterstützt. Wenn Sie diese Funktionen verwenden, müssen Sie zu Adobe-Quellen und -Zielen wechseln und Ihre Implementierung anpassen. [Weitere Informationen](../../integrating/using/get-started-sources-destinations.md)   
 * Veraltete und entfernte Funktionen sind auf [dieser Seite](deprecated-features.md) aufgeführt.
 * Die neue Aggregatfunktion &quot;StringAgg&quot; wurde eingeführt, um die Werte einer Spalte vom Typ Zeichenfolge zu verketten. (CAMP-47077)
-* Der technische Workflow **Aktualisierung der Versandindikatoren** (updateDeliveryIndicators) wurde verbessert, um die Leistung zu verbessern.
+* Der technische Workflow **Aktualisierung der Versandindikatoren** (updateDeliveryIndicators) wurde verbessert, um die Leistung zu steigern.
 * In-App-Messaging-Vorlagen sind jetzt für alle in Campaign Standard unterstützten Sprachen verfügbar.
 * Die Versandvorbereitungszeit wurde für Transaktionsnachrichten optimiert, indem die Anzahl der Aufrufe an den Tracking-Server während der Versandanalyse reduziert wurde.
 * Eine neue Warnmeldung informiert Benutzer über eine hohe Absprungrate.
-* Verbesserte Protokollfehlermeldungen und -warnungen, um das Debugging zu vereinfachen, wenn die Trackinglogs nicht ordnungsgemäß abgerufen werden konnten. (CAMP-48939, CAMP-47360)
-* Sie können jetzt URLs, einschließlich des Domänennamens, vollständig personalisieren. [Weitere Infos](../../designing/using/personalization.md#personalizing-urls)
+* Protokollfehlermeldungen und -warnungen wurden verbessert, um die Fehlerbehebung zu vereinfachen, wenn die Trackinglogs nicht ordnungsgemäß abgerufen werden können. (CAMP-48939, CAMP-47360)
+* Sie können jetzt URLs, einschließlich des Domain-Namens, vollständig personalisieren. [Weitere Infos](../../designing/using/personalization.md#personalizing-urls)
 
 **Korrekturen**
 
 * Fehlerkorrektur – Der Zeitüberschreitungsfehler beim Import von E-Mail-Inhalten aus einer URL wurde behoben. (CAMP-49054)
-* Es wurde ein Fehler (-69) behoben, der durch ein Ende der Sitzung verursacht wurde, wenn auf eine mit Lesezeichen versehene URL zugegriffen oder eine Seite über den Browser aktualisiert wurde. (CAMP-49003, CAMP-48930, CAMP-48894)
+* Fehlerkorrektur – Der Zugriff auf eine mit Lesezeichen versehene URL oder das Aktualisieren einer Seite im Browser führt nicht mehr zum Sitzungsende und zu einem Fehler (-69). (CAMP-49003, CAMP-48930, CAMP-48894)
 * Fehlerkorrektur – Regeln werden jetzt vom alten Zustellbarkeits-Server auf den neuen fehlerfrei synchronisiert. (CAMP-48923)
 * Fehlerkorrektur – E-Mail-Vorlagen mit HTML-Tags werden in Email Designer jetzt fehlerfrei geladen. (CAMP-48243)
-* Fehlerkorrektur - Adobe Experience Manager-Inhalt wird jetzt beim Erstellen von Transaktionsnachrichten mit Email Designer geladen. (CAMP-49075)
-* Es wurde ein Problem in der Benutzeroberfläche behoben, bei dem zwischen der oberen Leiste und dem Inhalt zu viel Abstand hinzugefügt wurde.
-* Fehlerkorrektur - Bei Transaktionsnachrichten tritt jetzt kein Veröffentlichungsfehler mehr auf, wenn Campaign-Inhaltsbausteine in Adobe Experience Manager-Inhalten verwendet werden. (CAMP-49233)
-* Fehlerkorrektur - jetzt wird keine Fehlermeldung mehr angezeigt, wenn die Authentifizierung fehlschlägt. Der Benutzer wird nun zur Anmeldeseite weitergeleitet.
-* Es wurde ein Problem mit der Token-Anzeige behoben, das Benutzer daran hinderte, einen Bericht zu bearbeiten oder freizugeben.
-* Fehlerkorrektur - Es wurde ein Problem bei der Veröffentlichung einer benutzerdefinierten Ressource mit einem Filterausdruck mit 1:n-Tabellenbeziehungen behoben. (CAMP-48740)
-* Fehlerkorrektur - jetzt können in Workflow-Transitionen Versandkontaktdaten abgerufen werden. (CAMP-48871)
-* Fehlerkorrektur - jetzt kann die Erweiterung von Versandlogs während der Erstellung einer benutzerdefinierten Profildimension aktiviert werden.
-* Fehlerkorrektur - Sendungen mit mehreren Sprachvarianten schlagen jetzt nicht mehr fehl. Wenn ein Benutzer die Standardsprache löscht, muss ab jetzt eine andere Sprachvariante als Standard festgelegt werden, bevor Sprachkopien erstellt werden. (CAMP-48235)
-* Es wurde ein Problem behoben, bei dem E-Mail-Nachrichten in Outlook zusätzliche Leerzeichen anzeigten, wenn der Benutzer beim Entwerfen der Nachricht die Option **Nur auf Mobilgeräten anzeigen** ausgewählt hatte. (CAMP-48902)
-* Fehlerkorrektur - Das letzte Ausführungsdatum des Felds für die inkrementelle Abfrageaktivität fehlt jetzt im Tab **Verarbeitete Daten** , nachdem der inkrementelle Abfrage-Workflow ausgeführt wurde. (CAMP-48879)
-* Fehlerkorrektur - in der Workflow-Aktivität **Segmentierung** können Sie jetzt einen dynamischen Segmentcode ordnungsgemäß definieren. (CAMP-48727)
-* Fehlerkorrektur - der Speichern eines Workflows nach dessen Bearbeitung erfolgt nun fehlerfrei und zufällig. (CAMP-48695)
-* Fehlerkorrektur - Jetzt können benutzerdefinierte Ressourcen veröffentlicht werden, da das Datenschema eines Triggers auch nach dem Löschen des Triggers beibehalten wird. (CAMP-48523)
-* Fehlerkorrektur - Feedback-Schleifenanfragen werden jetzt berücksichtigt, da der InMail-Prozess die zu aktualisierenden Versandlogs nicht abrufen konnte. (CAMP-48705)
-* Fehlerkorrektur - Die Ausschlussoptionen in der Workflow-Aktivität **Ausschluss** können jetzt ordnungsgemäß definiert werden.(CAMP-48355)
-* Fehlerkorrektur - Jetzt tritt kein Fehler mehr auf, wenn Anreicherungsaktivitäten in Workflows Abonnements oder Abmeldungen von einem Dienst erfordern. Dieses Problem führte zum Absturz.
-* Fehlerkorrektur - Workflows können jetzt ausgeführt werden.
-* Fehlerkorrektur - Benutzer können jetzt vordefinierte Sicherheitsgruppen in der Benutzeroberfläche umbenennen oder löschen.
-* Fehlerkorrektur - Benutzer können jetzt einen unvollständigen Ereignisveröffentlichungsauftrag löschen.
-* Fehlerkorrektur - Der Datenbankbereinigungs-Workflow schlägt jetzt nicht mehr mit einem Fehler fehl. (CAMP-49097)
+* Fehlerkorrektur – Adobe Experience Manager-Inhalt wird jetzt beim Erstellen von Transaktionsnachrichten mit Email Designer geladen. (CAMP-49075)
+* Fehlerkorrektur – In der Benutzeroberfläche wird zwischen der oberen Leiste und dem Inhalt nicht mehr zu viel Abstand hinzugefügt.
+* Fehlerkorrektur – Bei Transaktionsnachrichten tritt jetzt kein Veröffentlichungsfehler mehr auf, wenn Campaign-Inhaltsbausteine in Adobe Experience Manager-Inhalten verwendet werden. (CAMP-49233)
+* Fehlerkorrektur – Jetzt wird keine Fehlermeldung mehr angezeigt, wenn die Authentifizierung fehlschlägt. Der Benutzer wird nun zur Anmeldeseite weitergeleitet.
+* Fehlerkorrektur – In der Token-Anzeige tritt kein Fehler mehr auf, der Benutzer daran hindert, einen Bericht zu bearbeiten oder freizugeben.
+* Fehlerkorrektur – Die Veröffentlichung einer benutzerdefinierten Ressource mit einem Filterausdruck mit 1:n-Tabellenbeziehungen funktioniert jetzt problemlos. (CAMP-48740)
+* Fehlerkorrektur – Jetzt kann in Workflow-Transitionen das Versandkontaktdatum abgerufen werden. (CAMP-48871)
+* Fehlerkorrektur – Jetzt können Versandlogs während der Erstellung einer benutzerdefinierten Profildimension problemlos erweitert werden.
+* Fehlerkorrektur – Sendungen mit mehreren Sprachvarianten schlagen jetzt nicht mehr fehl. Wenn ein Benutzer die Standardsprache löscht, muss ab jetzt eine andere Sprachvariante als Standard festgelegt werden, bevor Sprachkopien erstellt werden. (CAMP-48235)
+* Fehlerkorrektur – E-Mail-Nachrichten zeigen in Outlook keine zusätzlichen Leerzeichen mehr an, wenn der Benutzer beim Entwerfen der Nachricht die Option **Nur auf Mobilgeräten anzeigen** ausgewählt hat. (CAMP-48902)
+* Fehlerkorrektur – Das Feld &quot;Letzter Ausführungstag der inkrementellen Abfrageaktivität&quot; fehlt jetzt nicht mehr in der Registerkarte **Verarbeitete Daten**, nachdem der inkrementelle Abfrage-Workflow ausgeführt wurde. (CAMP-48879)
+* Fehlerkorrektur – in der Workflow-Aktivität **Segmentierung** können Sie jetzt einen dynamischen Segment-Code ordnungsgemäß definieren. (CAMP-48727)
+* Fehlerkorrektur – Das Speichern eines Workflows nach dessen Bearbeitung erfolgt nun zuverlässig und fehlerfrei. (CAMP-48695)
+* Fehlerkorrektur – Jetzt können benutzerdefinierte Ressourcen problemlos veröffentlicht werden, da das Datenschema eines Triggers nach dem Löschen des Triggers nicht mehr beibehalten wird. (CAMP-48523)
+* Fehlerkorrektur – Feedback-Schleifenanfragen werden jetzt berücksichtigt, da der InMail-Prozess die zu aktualisierenden Versandlogs jetzt zuverlässig abrufen kann. (CAMP-48705)
+* Fehlerkorrektur – Die Ausschlussoptionen in der Workflow-Aktivität **Ausschluss** können jetzt ordnungsgemäß definiert werden.(CAMP-48355)
+* Fehlerkorrektur – Jetzt tritt kein Fehler mehr auf, wenn Anreicherungsaktivitäten in Workflows Anmeldungen zu oder Abmeldungen von einem Dienst beinhalten. Dieses Problem führte zum Absturz.
+* Fehlerkorrektur – Workflows können jetzt zuverlässig ausgeführt werden.
+* Fehlerkorrektur – Benutzer können jetzt native Sicherheitsgruppen in der Benutzeroberfläche umbenennen oder löschen.
+* Fehlerkorrektur – Benutzer können jetzt einen unvollständigen Ereignisveröffentlichungsvorgang löschen.
+* Fehlerkorrektur – Der Datenbankbereinigungs-Workflow kann jetzt fehlerfrei ausgeführt werden. (CAMP-49097)

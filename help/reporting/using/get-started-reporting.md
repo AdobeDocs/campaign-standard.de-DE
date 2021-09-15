@@ -67,7 +67,7 @@ Erstellen Sie Berichte anhand **benutzerdefinierter Profildaten**, die während 
 
 Mehr dazu:
 
-* [Bedienfelder hinzufügen](../../reporting/using/adding-panels.md)
+* [Panels hinzufügen](../../reporting/using/adding-panels.md)
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 * [Benutzerdefinierte Profildimension erstellen](../../reporting/using/creating-a-custom-profile-dimension.md)
@@ -78,7 +78,7 @@ Mehr dazu:
 * [Logs exportieren](../../automating/using/exporting-logs.md)
 * [Über die Integration von Campaign mit Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Anleitungsvideo {#video}
+## Tutorial {#video}
 
 In diesem Video erhalten Sie einen Überblick über die Berichtsfunktionen von Adobe Campaign Standard.
 

@@ -9,10 +9,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1107'
+workflow-type: tm+mt
+source-wordcount: '1104'
 ht-degree: 100%
 
 ---
@@ -27,10 +26,10 @@ Bevor Sie mit dem Integrations-Tool beginnen, müssen Sie die mit der Integratio
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-* [Erste Schritte mit der Integration mit Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
+* [Erste Schritte mit der Integration von Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Best Practices und Einschränkungen bei der Integration](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Wichtige Schritte zur Implementierung dieser Integration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
-* [Microsoft Dynamics 365-Integration verwenden](../../integrating/using/d365-acs-using-the-integration.md)
+* [Integration mit Microsoft Dynamics 365 verwenden](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## Voraussetzungen {#self-service-app-prerequisites}
 
@@ -112,7 +111,6 @@ Wenn die Konfiguration korrekt ist, klicken Sie neben dem Workflow **[!UICONTROL
 >[!IMPORTANT]
 >
 >Wir empfehlen **dringend**, dass Sie diese zuerst in Ihrer Staging- oder Entwicklungsumgebung ausführen, bevor Sie sie in der Produktion starten. Überprüfen Sie, ob die Staging-/Entwicklungsinstanz in der Kopfzeile ausgewählt ist.
-
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 

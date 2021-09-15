@@ -11,7 +11,7 @@ exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '2725'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht eine oder mehre
 
 >[!NOTE]
 >
->Wenn der URL-Signaturmechanismus für Tracking-Links deaktiviert ist, kann die Personalisierung von URLs weder auf den Domänennamen noch auf die URL-Erweiterung angewendet werden. Bei der Nachrichtenvorbereitung wird eine Fehlernachricht angezeigt, wenn die Personalisierung nicht korrekt ist.
+>Wenn der URL-Signaturmechanismus für Trackinglinks deaktiviert ist, kann die Personalisierung von URLs weder auf den Domain-Namen noch auf die URL-Erweiterung angewendet werden. Bei der Nachrichtenanalyse wird eine Fehlernachricht angezeigt, wenn die Personalisierung nicht korrekt ist.
 >
 >Bei der Auswahl eines Inhaltsbausteins dürfen Sie keine Elemente wie **Link zur Mirrorseite** auswählen. Dieser Typ von Inhaltsbausteinen darf nicht innerhalb eines Links verwendet werden.
 

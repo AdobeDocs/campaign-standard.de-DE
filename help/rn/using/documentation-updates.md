@@ -11,7 +11,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6985'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 **Neue Funktionen in dieser Version**
 
-Verbesserte Benutzeroberfläche für einheitliche Experience Cloud - [mehr dazu](../../start/using/interface-description.md#top-bar)
+Verbesserte einheitliche Experience Cloud-Benutzeroberfläche – [mehr dazu](../../start/using/interface-description.md#top-bar)
 
-Neue Funktion &quot;Audit-Protokoll&quot;- [mehr dazu](../../administration/using/audit.md)
+Neue Funktion &quot;Audit-Protokoll&quot; – [mehr dazu](../../administration/using/audit.md)
 
-Workflow-Diagnosemodus - [mehr dazu](../../automating/using/managing-execution-options.md)
+Workflow-Diagnosemodus – [mehr dazu](../../automating/using/managing-execution-options.md)
 
 **Weitere Dokumentationsaktualisierungen zu dieser Version**
 
-Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie eine Adresse aus der Quarantäneliste entfernt werden kann - [Mehr dazu](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie eine Adresse aus der Quarantäneliste entfernt werden kann. [Mehr dazu](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 Der Abschnitt **Quarantäne vs. Blockierungsliste** wurde klarer formuliert. [Mehr dazu](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
@@ -62,7 +62,7 @@ Die Seite **Versionsplanung** wurde mit neuen Daten aktualisiert. [Mehr dazu](..
 
 ## April 2021 {#doc-updates-april-2021}
 
-Ein neuer Abschnitt wurde hinzugefügt, in dem beschrieben wird, wie Sie mit Adobe Experience Platform-Quellen und -Zielen arbeiten, um Daten zwischen der Echtzeit-Kundendatenplattform von Campaign Standard und Adobe (RTCDP) freizugeben. [Mehr dazu](../../integrating/using/get-started-sources-destinations.md)
+Ein neuer Abschnitt beschreibt die Verwendung von Adobe Experience Platform-Quellen und -Zielen, um Daten zwischen Campaign Standard und der Adobe Echtzeit-Kundendatenplattform (RTCDP) auszutauschen. [Mehr dazu](../../integrating/using/get-started-sources-destinations.md)
 
 ## März 2021 {#doc-updates-march-2021}
 
@@ -414,7 +414,7 @@ Ein neuer Abschnitt mit Anwendungsfällen zu Workflows, bei denen Abfragen erfor
 
 Im Abschnitt mit der Workflow-Fehlerbehebung wurde eine Beschreibung hinzugefügt, wie SQL-Abfragen in der Protokolltabelle angezeigt werden können – [mehr dazu](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Ein neuer Hilfeartikel wurde hinzugefügt, der Informationen über untergeordnete Domänen und die Verwaltung von Zertifikaten im Control Panel enthält – [mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=de)
+Ein neuer Hilfeartikel wurde hinzugefügt, der Informationen über Subdomains und die Verwaltung von Zertifikaten im Control Panel enthält – [mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=de)
 
 Der Abschnitt, in dem Inhaltsvorlagen und Fragmente beschrieben werden, wurde aktualisiert – [mehr dazu](../../designing/using/using-reusable-content.md#content-templates)
 

@@ -218,7 +218,7 @@ ht-degree: 100%
       + [Klicks](reporting/using/hot-clicks.md)
       + [Service-Zusammenfassung](reporting/using/service-summary.md)
    + Berichte anpassen {#customizing-reports}
-      + [Bedienfelder hinzufügen](reporting/using/adding-panels.md)
+      + [Panels hinzufügen](reporting/using/adding-panels.md)
       + [Visualisierungen hinzufügen](reporting/using/adding-visualizations.md)
       + [Komponenten hinzufügen](reporting/using/adding-components.md)
       + [Benutzerdefinierte Profildimension erstellen](reporting/using/creating-a-custom-profile-dimension.md)

@@ -42,7 +42,7 @@ Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorla
 
 So greifen Sie auf diese Vorlage zu:
 
-1. Wählen Sie oben links das **Adobe**-Logo aus.
+1. Klicken Sie oben links auf das **Adobe**-Logo.
 1. Wählen Sie dann **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Versandvorlagen]**.
 1. Aktivieren Sie im linken Bereich die Option **[!UICONTROL Folgenachrichten]**.
 
