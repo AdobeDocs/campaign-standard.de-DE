@@ -1,6 +1,6 @@
 ---
 title: Komponenten hinzufügen
-description: Ziehen Sie Komponenten in Ihre Freiformtabelle, um Ihre Daten zu filtern und Ihren Bericht zu erstellen.
+description: Ziehen Sie Komponenten per Drag-and-Drop in Ihre Freiformtabelle, um Ihre Daten zu filtern und Ihren Bericht zu erstellen.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 

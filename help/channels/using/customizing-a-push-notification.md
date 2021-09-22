@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1565'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 In Adobe Campaign stehen Ihnen zur Anpassung von Push-Benachrichtigungen bei deren Erstellung eine Reihe erweiterter Optionen zur Verfügung.
 
-Erfahrene Benutzer können bezüglich der Konfiguration von Mobile Apps in Adobe Campaign folgende TechNote zu Rate ziehen: [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+Erfahrene Benutzer können bezüglich der Konfiguration von Mobile Apps in Adobe Campaign folgende TechNote zu Rate ziehen: [Understanding Campaign Standard Push Notifications Payload Structure](../../administration/using/push-payload.md).
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ Gehen Sie folgendermaßen vor, um Rich-Media-Inhalte in Push-Benachrichtigungen 
 1. Öffnen Sie die Push-Benachrichtigung und greifen Sie auf den Bereich **[!UICONTROL Erweiterte Optionen]** zu.
 1. Geben Sie für jedes Format – iOS und Android – die URL Ihrer Datei in das Feld **[!UICONTROL URL für Rich-Media-Daten]** ein.
 
-   Unter iOS 10 oder höher können Sie Bild-, GIF-, Audio- und Videodateien einfügen. Bei früheren iOS-Versionen wird die Push-Benachrichtigung ohne Rich-Inhalte angezeigt. Eine detaillierte Anleitung zum Anzeigen von Bildern in einer Push-Benachrichtigung in Adobe Campaign auf einem iOS-Gerät finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/display-image-push.html).
+   Unter iOS 10 oder höher können Sie Bild-, GIF-, Audio- und Videodateien einfügen. Bei früheren iOS-Versionen wird die Push-Benachrichtigung ohne Rich-Inhalte angezeigt. Eine detaillierte Anleitung zum Anzeigen von Bildern in einer Push-Benachrichtigung in Adobe Campaign auf einem iOS-Gerät finden Sie auf dieser [Seite](../../administration/using/image-push-notification.md).
 
    Unter Android können Sie nur Bilder einfügen.
 

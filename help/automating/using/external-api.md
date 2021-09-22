@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2216'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -116,9 +116,9 @@ Wenn das **Parsen validiert wird**, erscheint eine Meldung, die Sie auffordert, 
 
 In diesem Tab können Sie den Endpunkt der Verbindung definieren. Mit dem Feld **[!UICONTROL URL]** können Sie den **HTTPS-Endpunkt** definieren, mit dem Campaign Standard kommuniziert.
 
-Falls der Endpunkt dies benötigt, stehen zwei Authentifizierungsmechanismen zur Verfügung:
+Wenn der Endpunkt dies benötigt, sind zwei Arten von Authentifizierungsmethoden verfügbar:
 
-* Einfache Authentifizierung: Geben Sie in den Abschnitt **[!UICONTROL Header abrufen]** Ihren Benutzernamen und Ihr Passwort ein.
+* Grundlegende Authentifizierung: Geben Sie im Abschnitt **[!UICONTROL Request Header(s)]** Ihre Benutzernamen-/Kennwortinformationen ein.
 
 * OAuth-Authentifizierung: Durch Klicken auf **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** können Sie ein externes Konto auswählen, in dem die OAuth-Authentifizierung definiert ist. Weiterführende Informationen hierzu finden Sie im Abschnitt [Externe Konten](../../administration/using/external-accounts.md).
 
@@ -325,7 +325,7 @@ The workflow is presented as follows:
 ![](assets/externalAPI_activity_example1.png)
 
 1. Drag and drop an **External API** activity
-    1. Parse the JSON sample responsa as {"data":[{"code":"value"}]}.
+    1. Parse the JSON sample response as {"data":[{"code":"value"}]}.
     1. Add the **Rest endpoint URL** and define authentication setting if needed
     ![](assets/externalAPI_activity_example2.png)
     1. In the **column definition** tab, add a new column called **code** that will store the code value.
@@ -351,6 +351,6 @@ The workflow is presented as follows:
     1. The transition **Data Structure** will contain:
         ![](assets/externalAPI_activity_example7.png)
 1. Finally drag and drop a **Send via Email** activity.
-    You can modify your email template by adding the **code** personnalized field.
+    You can modify your email template by adding the **code** personalized field.
 
 -->

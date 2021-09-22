@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ Im Folgenden finden Sie die in der neuesten Campaign Standard-Version enthaltene
 
 * Beim Erstellen eines wiederkehrenden Versands in einem Workflow, der mit einem Adobe Experience Manager-Inhalt verknüpft ist, wird der Status der Inhaltsvalidierung nun vor dem Versenden überprüft.
 * Die Beschränkung der Datenbankverbindung ist jetzt mit dem Campaign-Package abgestimmt, um Verbindungsfehler zu vermeiden.
-* Eine neue Konsistenzprüfung bei der Veröffentlichung benutzerdefinierter Ressourcen verhindert, dass Benutzer doppelte Indizes erstellen, wodurch die Veröffentlichung fehlschlägt. Eine verbesserte Fehlermeldung fordert den Benutzer auf, den Index bei Bedarf umzubenennen.
+* Eine neue Konsistenzprüfung bei der Veröffentlichung benutzerdefinierter Ressourcen verhindert, dass Benutzer doppelte Indizes erstellen, wodurch die Veröffentlichung fehlschlägt. Eine verbesserte Fehlermeldung fordert den Benutzer auf, den Index bei Bedarf umzubenennen. [Weitere Informationen](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)   
 
 **Sonstige Änderungen**
 

@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,10 @@ Zur Übernahme der Änderungen der Ressourcen muss die Datenbank aktualisiert we
    Weiterführende Informationen zu Aktionen bei der Profiles &amp; Services API finden Sie im Abschnitt [Ressource mit API-Erweiterung veröffentlichen](#publishing-a-resource-with-api-extension).
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >Da doppelte Indizes dazu führen, dass die Veröffentlichung fehlschlägt, wird im Vorbereitungsschritt überprüft, ob der für die Ressource definierte Index bereits mit demselben Namen für eine andere Ressource vorhanden ist. In diesem Fall wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, den Index umzubenennen. Siehe [Indizes definieren](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Nach erfolgreicher Analyse können Sie unter Verwendung der Schaltfläche **[!UICONTROL Veröffentlichen]** die Konfigurationsänderungen übernehmen.
 1. Im Anschluss an die Veröffentlichung werden in der **[!UICONTROL Zusammenfassung]** der entsprechenden Ressourcen der Status **[!UICONTROL Veröffentlicht]** und das letzte Veröffentlichungsdatum angezeigt.

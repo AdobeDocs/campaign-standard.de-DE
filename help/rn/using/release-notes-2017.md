@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '4688'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -499,7 +499,7 @@ _Workflows_
    <td> Transaktionsnachrichten-API<br /> </td> 
    <td> Die Transaktionsnachrichten-API ist jetzt über <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a> verfügbar, wodurch die Verwendung und Überwachung vereinfacht wird:<br /> 
     <ul> 
-     <li> Sie profitieren von den Berichterstellungs- und Überwachungsfunktionen der Plattform adobe.io. </li> 
+     <li> Sie können von den Reporting- und Überwachungsfunktionen der Plattform adobe.io profitieren. </li> 
      <li> Die Authentifizierung erfolgt nun über einen adobe.io-Token anstatt über die IP-Zulassungsauflistung, wodurch das Sicherheitsverfahren vereinfacht wird. </li> 
      <li> Alle APIs sind jetzt auf einer einzigen Plattform integriert. Damit wird es einfacher, Ihrer Integration Funktionen für Transaktionsnachrichten hinzuzufügen, wenn Sie bereits die Profiles &amp; Services API unterstützen. </li> 
     </ul> </td> 

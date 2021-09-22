@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Umgang mit Fehlern in Workflows</a></li>
         <li><a href="automating/using/best-practices-workflows.md">Fehlerbehebung bei der Workflow-Ausführung</a></li>
         <li><a href="api/using/troubleshooting.md">API-Fehlerbehebung</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Fehler beim Versand verstehen</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Ursachen für das Fehlschlagen von Sendungen</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -72,7 +72,7 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
         <li><a href="start/using/privacy-management.md">Datenschutz- und Einverständnisverwaltung</a></li>
         <li><a href="automating/using/query.md">Erstellen einer Abfrage</a></li>
         <li><a href="automating/using/query-samples.md">Beispiele für Abfragen</a></li>
-        <li><a href="https://helpx.adobe.com/de/campaiacs-mobile.html">Konfigurieren von mobilen Kanälen</a></li>
+        <li><a href="administration/using/push-tracking.md">Konfigurieren von mobilen Kanälen</a></li>
         </ul>
     </td>
     </tr>
@@ -119,12 +119,12 @@ Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsol
 
 ### Fragen an Experten
 
-Treten Sie der Campaign Classic-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage der Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Treten Sie der Campaign Classic-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage der Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Erstellen Sie ein Ticket oder starten Sie einen Chat
 
 Durch das Erstellen eines Tickets können Sie sich an das Adobe-Supportteam wenden, wenn Probleme mit Ihren Adobe-Produkten auftreten. Sie können in der Adobe Admin Console mit dem Adobe-Support chatten, um Ihre Probleme zu lösen.
 
-Um in diesem neuen System ein Ticket zu erstellen oder eine Chat-Sitzung zu starten, müssen Sie sich mit [Adobe Admin Console](https://adminconsole.adobe.com/overview) verbinden.
+Um in diesem neuen System ein Ticket zu erstellen oder eine Chat-Sitzung zu starten, stellen Sie eine Verbindung zur [Adobe Admin Console](https://adminconsole.adobe.com/overview) her.
 
-Gehen Sie dazu wie auf [dieser Seite](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) beschrieben vor.
+Befolgen Sie das auf [dieser Seite](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) beschriebene Verfahren.

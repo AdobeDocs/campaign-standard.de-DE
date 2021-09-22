@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -159,7 +159,7 @@ Wenn die `DELIVER_SM PDU` nicht erfolgreich quittiert wurde, sollten Sie Folgend
 
 Wenn Sie alle Probleme behoben haben, sich aber noch einige ungültige SR in den Puffern des Providers befinden, können Sie diese mit der Option **Anzahl ungültiger ID-Quittierungen** überspringen. Dies sollte mit Vorsicht verwendet und so schnell wie möglich auf 0 zurückgesetzt werden, nachdem die Puffer bereinigt wurden.
 
-## Problem bei der Verarbeitung von MO (und Blockierungsauflistung/automatische Antwort){#issue-process-MO}
+## Problem bei der Verarbeitung von MO (und Blockierungsliste/automatische Antwort){#issue-process-MO}
 
 * Aktivieren Sie SMPP-Traces während der Tests. Wenn Sie TLS nicht aktivieren, sollten Sie bei der Fehlerbehebung bei MO eine Netzwerkaufzeichnung durchführen, um zu überprüfen, ob die PDUs die richtigen Informationen enthalten und ordnungsgemäß formatiert sind.
 

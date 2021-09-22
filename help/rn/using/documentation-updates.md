@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6985'
-ht-degree: 100%
+source-wordcount: '6964'
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ Die Übersichtsseite zu Campaign Standard wurde erweitert und in thematische The
 
 Der Abschnitt zu den E-Mail-Kanal-Parametern wurde näher erläutert und enthält jetzt weitere Informationen zu den Feldern für zulässige Masken und zur Kennung für die Versandberichte – [mehr dazu](../../administration/using/configuring-email-channel.md)
 
-Der Abschnitt zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs ist jetzt in der Hauptdokumentation verfügbar und enthält weitere Informationen zum technischen Workflow &quot;Mobile App AEPSDK von Launch synchronisieren&quot; – [mehr dazu](../../administration/using/configuring-a-mobile-application.md)
+Die Konfiguration einer Mobile App mit Adobe Experience Platform SDKs ist jetzt in der Hauptdokumentation mit weiteren Informationen zum technischen Workflow Mobile App AEPSDK von Launch synchronisieren verfügbar. [Mehr dazu](../../administration/using/configuring-a-mobile-application.md)
 
 ## Version 20.3 – Mai 2020 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ Ein Anwendungsbeispiel zum Erweitern der benutzerdefinierte Ressource für Profi
 
 Eine Beschreibung zum Verknüpfen von benutzerdefinierten Ressourcen wurde hinzugefügt – [mehr dazu](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-Eine neue Technote wurde hinzugefügt, in der beschrieben wird, wie ein Bild in einer Push-Benachrichtigung in Adobe Campaign Standard angezeigt wird – [mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/display-image-push.html)
+Eine neue Technote wurde hinzugefügt, in der beschrieben wird, wie ein Bild in einer Push-Benachrichtigung in Adobe Campaign Standard angezeigt wird – [mehr dazu](../../administration/using/image-push-notification.md)
 
-Eine neue Technote zur Implementierung von Tracking von Push-Benachrichtigungen wurde hinzugefügt – [mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/push-tracking.html)
+Eine neue Technote zur Implementierung von Tracking von Push-Benachrichtigungen wurde hinzugefügt – [mehr dazu](../../administration/using/push-tracking.md)
 
 Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [mehr dazu](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ Der Abschnitt &#39;Benutzerdefinierte Ressourcen&#39; wurde besser erklärt, ind
 
 Die [Technote](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html) zur Integration von Adobe Experience Cloud Mobile SDK mit einer Mobile App zum Empfang von Push-Benachrichtigungen in Adobe Campaign Standard wurde aktualisiert und ausführlicher gestaltet.
 
-Eine Technote wurde hinzugefügt, in der der Aufbau der in einer Mobile App empfangenen Payload erläutert wird – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Eine Technote wurde hinzugefügt, in der der Aufbau der in einer Mobile App empfangenen Payload erläutert wird – [mehr dazu](../../administration/using/push-payload.md)
 
 Der [Abschnitt](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) zur Push-Kanal-Konfiguration wurde durch neue Payload-Daten ergänzt, die je nach Betriebssystem hinzugefügt werden, wenn Postbacks in der Adobe Mobile Services-Benutzeroberfläche definiert werden.
 

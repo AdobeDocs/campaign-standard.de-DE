@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 100%
+source-wordcount: '1797'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 100%
       + [Zugriff auf Nachrichten](channels/using/accessing-messages.md)
       + [Nachrichten-Dashboards](channels/using/message-dashboard.md)
       + [Vorlagen für mehrsprachige Nachrichten](channels/using/multilingual-messages-template.md)
+      + [Erste Schritte mit Mobile-Kanälen](channels/using/mobile-guide.md)
    + Best Practices beim Versand {#delivery-bestpractices}
       + [Best Practices erlernen](sending/using/delivery-best-practices.md)
       + [Optimieren des Versands](sending/using/optimize-delivery.md)

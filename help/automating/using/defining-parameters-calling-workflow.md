@@ -8,14 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
 
 ---
 
-# Parameter beim Aufruf des Workflows definieren       {#defining-the-parameters-when-calling-the-workflow}
+# Parameter beim Aufruf des Workflows definieren {#defining-the-parameters-when-calling-the-workflow}
 
 In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workflows definieren können. Weiterführende Informationen zur Durchführung dieses Vorgang mit einem API-Aufruf finden Sie in der [REST-APIs-Dokumentation](../../api/using/triggering-a-signal-activity.md).
 

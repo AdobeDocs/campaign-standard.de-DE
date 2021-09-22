@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Der Endpunkt /customResources verhält sich genauso wie der Endpunkt /profileAnd
 
 Die benutzerdefinierten Ressourcen, die mit dieser API verfügbar werden, beinhalten:
 
-* alle Entitäten, die nicht unter /profileAndServicesExt verfügbar sind
+* alle Entitäten, die nicht unter /profileAndServicesExt verfügbar gemacht werden
 * alle Entitäten, die nicht mit dem Profil verknüpft sind, und für diese Entitäten auch die untergeordneten und weiter untergeordneten Elemente
 * standardmäßig alle Entitäten, die mit nichts verknüpft sind, sowie deren untergeordneten und weiter untergeordneten Elemente.
 

@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -72,7 +72,8 @@ Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im 
 
 Das HTTP-Protokoll ermöglicht den Download einer Datei über ein externes Konto oder mithilfe einer URL.
 
-Bei diesem Protokoll können Sie die Option **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** auswählen. Wählen Sie in diesem Fall das gewünschte Konto aus und geben Sie den Pfad der herunterzuladenden Datei an.
+Mit diesem Protokoll können Sie die Option **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** auswählen. Wählen Sie in diesem Fall das gewünschte Konto aus und geben Sie den Pfad der herunterzuladenden Datei an.
+
 ![](assets/wkf_file_transfer_03.png)
 
 Sie können sich auch für die Option **[!UICONTROL Schnelle Konfiguration]** entscheiden. Sie müssen nur die URL in das URL-Feld eingeben.
@@ -82,7 +83,7 @@ Sie können sich auch für die Option **[!UICONTROL Schnelle Konfiguration]** en
 
 Das SFTP-Protokoll ermöglicht den Download einer Datei mithilfe einer URL oder über ein externes Konto.
 
-Bei diesem Protokoll können Sie die Option **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** auswählen; wählen Sie anschließend das gewünschte Konto aus und geben Sie den Pfad der herunterzuladenden Datei an.
+Mit diesem Protokoll können Sie die Option **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** auswählen, dann das gewünschte Konto auswählen und den Pfad der herunterzuladenden Datei angeben.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]

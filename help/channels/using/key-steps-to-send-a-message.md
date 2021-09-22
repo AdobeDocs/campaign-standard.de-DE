@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Verwenden Sie die [Marketing-Aktivitäten](../../start/using/marketing-activitie
 
 ![](assets/marketing-activities.png)
 
-Nachrichten können entweder aus der Liste der Marketing-Aktivitäten oder aus einem Workflow mit [dedizierten Aktivitäten](../../automating/using/about-channel-activities.md) erstellt werden.
+Nachrichten können entweder aus der Liste der Marketingaktivitäten oder aus einem Workflow mit [dedizierten Aktivitäten](../../automating/using/about-channel-activities.md) erstellt werden.
 
 ![](assets/steps-channel.png)
 

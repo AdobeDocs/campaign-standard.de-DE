@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -78,7 +78,7 @@ Mit [Importvorlagen](../../automating/using/importing-data-with-import-templates
 
 Durch das [Exportieren von Protokollen](../../automating/using/exporting-logs.md) können Sie Protokolldaten über einen einfachen Workflow exportieren und die Ergebnisse Ihrer Marketing-Kampagnen in Ihren eigenen Berichts- oder BI-Tools analysieren.
 
-Nutzen Sie [Packages](../../automating/using/managing-packages.md)um Ressourcen zwischen verschiedenen Campaign-Instanzen auszutauschen, um beispielsweise die Konfiguration einer Instanz zu replizieren oder um Daten von einem Server auf einen anderen zu übertragen, einschließlich benutzerdefinierter Ressourcen.
+Nutzen Sie [Packages](../../automating/using/managing-packages.md) , um Ressourcen zwischen verschiedenen Kampagneninstanzen auszutauschen, z. B. um die Konfiguration einer Instanz zu replizieren oder um Daten von einem Server auf einen anderen zu übertragen, einschließlich benutzerdefinierter Ressourcen.
 
 Schließlich können Sie mit dem [Listenexport](../../automating/using/exporting-lists.md) beliebige Listen aus Campaign Standard exportieren, z. B. die Liste der Testprofile, die Liste der E-Mail-Adressen in Quarantäne usw.
 

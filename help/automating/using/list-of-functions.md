@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1972'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -386,7 +386,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
 ## Sonstige {#others}
 
-In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
+Diese Tabelle enthält die restlichen verfügbaren Funktionen.
 
 <table> 
  <tbody> 
@@ -536,12 +536,12 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Konkatenation von zwei als Parameter übergebenen Strings, fügt, wenn nötig, Leerstellen hinzu.<br /> </td> 
+   <td> Verkettet die beiden als Parameter übergebenen Strings. fügt, wenn nötig, Leerstellen hinzu.<br /> </td> 
    <td> JuxtWords(&lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Konkatenation von drei als Parameter übergebenen Strings, fügt, wenn nötig, Leerstellen hinzu.<br /> </td> 
+   <td> Verkettet die drei als Parameter übergebenen Strings. fügt, wenn nötig, Leerstellen hinzu.<br /> </td> 
    <td> JuxtWords3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 

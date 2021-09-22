@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -149,7 +149,7 @@ Um eine Aktivität zu duplizieren, gehen Sie wie folgt vor:
 
 1. Die Aktivität wird mit allen zuvor konfigurierten Einstellungen dupliziert.
 
-Sie können auch mehrere Aktivitäten mit Copy &amp; Paste kopieren, sodass ein gesamter Workflow dupliziert werden kann.
+Es ist auch möglich, mehrere Aktivitäten zu kopieren und einzufügen, sodass Sie einen gesamten Workflow duplizieren können.
 
 Wählen Sie dabei die Aktivitäten aus, indem Sie rund um sie einen Kreis ziehen. Wählen Sie dann in der Symbolleiste die Schaltfläche **[!UICONTROL Auswahl kopieren]** aus (oder drücken Sie **Strg + C**). Danach können Sie die Aktivitäten an der gewünschten Position einfügen.
 

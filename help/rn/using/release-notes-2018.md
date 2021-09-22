@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '5456'
-ht-degree: 100%
+source-wordcount: '5459'
+ht-degree: 99%
 
 ---
 
@@ -249,8 +249,8 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt weisen alle Roh-Berichtereignisse damit verknüpfte Tracking-Ereignisse auf, da das Feld eventDate jetzt ordnungsgemäß befüllt wird.
 * Fehlerkorrektur – personalisierte Felder werden jetzt im Vorschaufenster eines Push-Benachrichtigungsversands angezeigt.
 * Fehlerkorrektur – jetzt wird der Nachrichtentext einer Push-Benachrichtigung im Vorschaufenster mit Zeilenumbruch angezeigt.
-* Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn ein wiederkehrender Versand mithilfe eines Workflows gesendet wird und die Hauptzielgruppe leer ist.
-* Fehlerkorrektur – auf ein Zielgruppen-Mapping kann jetzt auch dann zugegriffen werden, wenn es mit einem nicht vorhandenen Schema verknüpft ist.
+* Fehlerkorrektur - Beim Versand eines wiederkehrenden Versands über einen Workflow tritt kein Fehler mehr auf, wenn die Hauptzielgruppe leer ist.
+* Fehlerkorrektur - Der Zugriff auf ein Zielgruppen-Mapping ist jetzt möglich, wenn es mit einem nicht vorhandenen Schema verknüpft ist.
 * Fehlerkorrektur – beim Import einer komprimierten Datei mithilfe einer Datei-laden-Aktivität tritt jetzt kein Fehler mehr auf. (CAMP-24309)
 * Fehlerkorrektur – jetzt tritt bei der Durchführung eines wiederkehrenden Versands kein PostgreSQL-Fehler mehr auf. (CAMP-23613)
 * Fehlerkorrektur – jetzt wird keine Fehlermeldung mehr angezeigt, wenn eine REST-API-Anfrage mit einem leeren JSON-Attribut gesendet wird. (CAMP-23506)
@@ -469,7 +469,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
      <li> Bilder oder andere Mediendateien herunterladen und als Anhänge zu einer Benachrichtigung hinzufügen </li> 
      <li> Den Text oder Titel einer Benachrichtigung ändern </li> 
      <li> Eine Thread-Id zur einer Benachrichtigung hinzufügen </li> 
-    </ul> Weiterführende Informationen zu den Funktionen "Inhalt verfügbar" und "Veränderlicher Inhalt" finden Sie im <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">entsprechenden Handbuch</a>.<br /> <strong>Achtung:</strong> Damit Kunden diese Aktualisierungen der Push-Benachrichtigungen nutzen können, müssen sie ihre Mobile Apps aktualisieren. Weiterführende Informationen finden Sie in <a href="https://helpx.adobe.com/de/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">dieser Technote</a>.<br /> </td> 
+    </ul> Weiterführende Informationen zu den Funktionen "Inhalt verfügbar" und "Veränderlicher Inhalt" finden Sie im <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">entsprechenden Handbuch</a>.<br /> <strong>Achtung:</strong> Damit Kunden diese Aktualisierungen der Push-Benachrichtigungen nutzen können, müssen sie ihre Mobile Apps aktualisieren. Weiterführende Informationen finden Sie in <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">dieser Technote</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Zeitzonenoptimierte Sendungen<br /> </td> 

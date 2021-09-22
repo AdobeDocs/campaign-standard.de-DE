@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 88%
 
 ---
 
@@ -87,38 +87,38 @@ Bitte beachten Sie, dass die Sprache bei der Installation eingerichtet wird und 
 
 ### Startseite {#homepage-shortcuts}
 
-| Tastenkombination | Aktion |
-|:-:|:-:|
-| Tab | Durch einzelne Elemente der Benutzeroberfläche navigieren |
-| Eingabe oder Leerzeichen | Ausgewähltes Element aktivieren |
+| Aktion | Tastenkombination |
+| --- | --- |
+| Durch einzelne Elemente der Benutzeroberfläche navigieren | Tab |
+| Ausgewähltes Element aktivieren | Eingabe oder Leertaste |
 
 ### Email Designer {#email-designer-shortcuts}
 
-| Tastenkombination | Aktion |
-|:-:|:-:|
-| STRG + Z | Rückgängig |
-| STRG + Y | Wiederholen |
+| Aktion | Windows-Tastaturbefehl | macOS-Tastaturbefehl |
+| --- | --- | --- |
+| Rückgängig | Strg + Z | Befehl + Z |
+| Wiederholen | Strg + Y | Umschalt + Befehl + Z |
 
 ### Dynamische Berichte {#report-shortcuts}
 
-| Tastenkombination | Aktion |
-|:-:|:-:|
-| STRG + O | Projekt öffnen |
-| STRG + S | Speichern |
-| Umschalten + STRG + S | Speichern unter |
-| Alt + R | Projekt aktualisieren |
-| Umschalten + STRG + V | CSV herunterladen |
-| Alt + P | Drucken |
-| STRG + Z | Rückgängig |
-| STRG + Umschalten + Z | Wiederholen |
-| Alt + B | Neues leeres Bedienfeld |
-| Alt + A | Neue Freiform |
-| Alt + 1 | Neue Freiform-Tabelle |
-| Alt + 2 | Neue Zeile |
-| Alt + 3 | Neue Leiste |
-| Alt + S | Bericht jetzt senden |
-| Umschalten + Alt + S | Bericht planmäßig senden |
-| Umschalten + Alt + L | Terminierte Berichte |
+| Aktion | Windows-Tastaturbefehl | macOS-Tastaturbefehl |
+| --- | --- | --- |
+| Projekt öffnen | Strg + O | Befehl + O |
+| Speichern | Strg + S | Befehl + S |
+| Speichern unter | Umschalt + Strg + S | Umschalt + Befehl + S |
+| Projekt aktualisieren | Alt + R | Befehl + R |
+| CSV-Datei herunterladen | Umschalt + Strg + V | Umschalt + Befehl + V |
+| Drucken | Alt + P | Befehl + P |
+| Rückgängig | Strg + Z | Befehl + Z |
+| Wiederholen | Strg + Y | Umschalt + Befehl + Z |
+| Neues leeres Bedienfeld | Alt + B | Option + B |
+| Neue Freiform | Alt + A | Option + A |
+| Neue Freiform-Tabelle | Alt + 1 | Option + 1 |
+| Neue Zeile | Alt + 2 | Option + 2 |
+| Neue Leiste | Alt + 3 | Option + 3 |
+| Bericht jetzt senden | Alt + S | Option + S |
+| Bericht planmäßig senden | Umschalten + Alt + S | Umschalt + Option + S |
+| Terminierte Berichte | Umschalt + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Weitere Informationen {#further-reading}
 
