@@ -8,10 +8,10 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 100%
+source-wordcount: '1231'
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Passen Sie die Bestätigungsseite an, damit der neue Abonnent darüber informiert wird, dass er diese Anmeldung bestätigen muss.
+1. Passen Sie die Bestätigungsseite an, um neue Abonnenten darüber zu informieren, dass sie ihr Abonnement validieren müssen.
 
    ![](assets/optin_acquisition_page2.png)
 

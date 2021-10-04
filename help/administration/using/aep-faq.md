@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 98%
+source-wordcount: '945'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ Weitere Informationen zur Integration des Adobe Experience Platform SDK mit Camp
 
 ## Ist die Adobe Experience Platform SDK-Integration für sowohl Adobe Campaign Standard als auch Adobe Campaign Classic verfügbar? {#aep-validity}
 
-Ja, die [!DNL Adobe Experience Platform SDK] Integration ist für Adobe Campaign Standard und Adobe Campaign Classic verfügbar. Sie müssen die entsprechende **[!UICONTROL Extension]** über [!DNL Adobe Launch] installieren, um die Integration zu aktivieren.
+Ja, die [!DNL Adobe Experience Platform SDK] Integration ist für Adobe Campaign Standard und Adobe Campaign Classic verfügbar. Sie müssen die entsprechende **[!UICONTROL Erweiterung]** über [!DNL Adobe Launch] installieren, um die Integration zu aktivieren.
 
 Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 

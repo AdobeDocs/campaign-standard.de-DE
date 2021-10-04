@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1147'
+ht-degree: 98%
 
 ---
 
@@ -220,7 +220,7 @@ Informationen zu Aspekten einer Android-Payload finden Sie unter [Messaging Conc
 
 ### So rufen Sie Payload-Daten in Mobile-App-Code ab {#payload-information}
 
-Die Payload-Daten, die vom App-Server gesendet werden, werden vom Mobile-App-Code in einem Event-Handler empfangen, der mitteilt, dass eine Push-Benachrichtigung empfangen wurde. Dieses Ereignis variiert je nach verwendeter mobiler Plattform und je nachdem, ob die App im Vordergrund oder Hintergrund ausgeführt wird. Die folgende Dokumentation hilft Ihnen dabei, den Event-Handler zu ermitteln, den Sie je nach Anwendungsfall benötigen.
+Die Payload-Daten, die vom App-Server gesendet werden, werden vom Mobile-App-Code in einem Event-Handler empfangen, der mitteilt, dass eine Push-Benachrichtigung empfangen wurde. Dieses Ereignis variiert je nach verwendeter mobiler Plattform und je nachdem, ob die App im Vordergrund oder Hintergrund ausgeführt wird. Die folgende Dokumentation hilft Ihnen dabei, den Ereignis-Handler zu identifizieren, den Sie basierend auf Ihrem Anwendungsfall behandeln möchten.
 
 * iOS-Apps: Abschnitt **Umgang mit Remote-Benachrichtigungen** in [Remote-Benachrichtigungen](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Android-Apps: [Empfangen von Nachrichten in einer Android-Client-App](https://firebase.google.com/docs/cloud-messaging/android/receive)

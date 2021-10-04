@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Um das neue Feld **Interessen** für unsere Profile zu erstellen, müssen Sie zu
 
 1. Wählen Sie **[!UICONTROL Element hinzufügen]** und danach beliebig viele Werte aus, indem Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Kennung]** hinzufügen und **[!UICONTROL Hinzufügen]** auswählen.
 
-   In unserem Beispiel sollen die Werte &quot;Bücher&quot;, &quot;Ausstellungen&quot;, &quot;Filme&quot; und &quot;k. A.&quot; erstellt werden, die in den Profilen zur Auswahl stehen werden.
+   Erstellen Sie in diesem Beispiel die Werte &quot;Bücher&quot;, &quot;Ausstellungen&quot;, &quot;Filme&quot;und &quot;K/A&quot;für Profile, die zwischen diesen Optionen wählen können.
 
    ![](assets/schema_extension_uc11.png)
 

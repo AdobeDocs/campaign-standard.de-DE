@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 100%
+source-wordcount: '1414'
+ht-degree: 94%
 
 ---
 
@@ -116,11 +116,11 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben ver�
 
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus und speichern Sie den Dienst.
 
-Jetzt erhält jedes Profil, das diesen Dienst abonniert, die von Ihnen definierte Transaktionsnachricht, deren personalisierten Felder mit dem ausgewählten Dienst gemappt sind.
+Wenn sich nun Profile für diesen Dienst anmelden, erhalten sie die von Ihnen definierte Transaktionsnachricht mit personalisierten Feldern, die dem ausgewählten Dienst zugeordnet sind.
 
 >[!NOTE]
 >
->Die Nachricht wird gesendet, wenn sich ein Benutzer zum ersten Mal für das Abonnement anmeldet.
+>Eine Nachricht wird nur gesendet, wenn sich der Benutzer zum ersten Mal anmeldet.
 
 ## Bestätigungsnachricht über eine Landingpage konfigurieren {#configuring-confirmation-message-from-landing-page}
 
@@ -190,8 +190,8 @@ Gehen Sie wie folgt vor, um diese Landingpage zu erstellen und zu konfigurieren:
 
 1. [Testen und veröffentlichen](../../channels/using/testing-publishing-landing-page.md) Sie die Landingpage.
 
-Jedes Mal, wenn jetzt ein Profil Ihren Newsletter abonniert, indem es die Landingpage ausfüllt und auf die Senden-Schaltfläche klickt, erhält es die von Ihnen definierte Bestätigungsnachricht, wobei die personalisierten Felder mit dem Dienst gemappt werden.
+Wenn nun Profile durch Senden der Landingpage Ihren Newsletter abonnieren, erhalten sie die Bestätigungsnachricht, die Sie mit personalisierten Feldern definiert haben, die dem Dienst zugeordnet sind.
 
 >[!NOTE]
 >
->Diese Nachricht wird jedes Mal gesendet, wenn auf der Landingpage auf die Senden-Schaltfläche geklickt wird, auch wenn das Profil bereits ein Abonnement hat.
+>Eine Nachricht wird jedes Mal gesendet, wenn die Landingpage gesendet wird, auch wenn das Profil bereits ein Abonnement hat.

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 100%
+source-wordcount: '1821'
+ht-degree: 96%
 
 ---
 
@@ -141,7 +141,7 @@ Externe Konten vom Typ Adobe Experience Manager werden bei der Integration von C
 
 Der Vorgang und die Anforderungen für diese Integration sind in [diesem Dokument](../../integrating/using/get-started-campaign-integrations.md) beschrieben.
 
-Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informationen:
+Beim Einrichten dieses neuen externen Kontos müssen Sie die folgenden Details angeben:
 
 * Server: Geben Sie die URL des Adobe-Experience-Manager-Servers an. Beispiel:
 
@@ -157,9 +157,9 @@ Zum Einrichten dieses neuen externen Kontos benötigen Sie die folgenden Informa
 >
 >Für die Konfiguration von Google reCAPTCHA ist ein Google-Konto erforderlich.
 
-Mithilfe von Google reCAPTCHA können Sie Ihre Landingpage vor Spam und Missbrauch durch Bots schützen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. Auf dieser [Seite](https://www.google.com/recaptcha/admin/create) können Sie Ihre Website registrieren. Wählen Sie den Typ &quot;V3 reCAPTCHA&quot;.
+Mithilfe von Google reCAPTCHA können Sie Ihre Landingpage vor Spam und Missbrauch durch Bots schützen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. Auf dieser [Seite](https://www.google.com/recaptcha/admin/create) können Sie Ihre Website registrieren. Sie müssen den V3 reCAPTCHA-Typ auswählen.
 
-Damit Sie Google reCAPTCHA V3 zu Ihrer Landingpage hinzufügen können, müssen Sie sie zunächst in Ihrem externen Konto konfigurieren. Weiterführende Information zum Hinzufügen zu Ihrer Landingpage finden Sie in diesem [Abschnitt](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Um die Google reCAPTCHA V3 zu Ihrer Landingpage hinzuzufügen, konfigurieren Sie sie in Ihrem externen Konto. Weiterführende Information zum Hinzufügen zu Ihrer Landingpage finden Sie in diesem [Abschnitt](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Geben Sie für ein externes Google-reCAPTCHA-V3-Konto die folgenden Details an:
 
@@ -186,7 +186,7 @@ Geben Sie für ein externes Microsoft Azure Blob Storage-Konto die folgenden Inf
 * **[!UICONTROL Typ]**: Microsoft Azure Blob Storage
 * Ihren **[!UICONTROL Kontonamen]** und Ihren **[!UICONTROL Kontoschlüssel]**. Auf dieser [Seite](https://docs.microsoft.com/de-DE/azure/storage/common/storage-account-keys-manage) erfahren Sie, wo Sie Ihren Kontonamen und Kontoschlüssel finden können.
 * Ihr **[!UICONTROL Endpunktsuffix]**. Es befindet sich im Azure Portal unter **[!UICONTROL Connection string]** im Menü **[!UICONTROL Access keys]**. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Den Namen Ihres **[!UICONTROL Containers]**. Wenn Sie mehr als einen Container verwenden möchten, müssen Sie so viele externe Konten wie Container einrichten.
+* Den Namen Ihres **[!UICONTROL Containers]**. Wenn Sie mehr als einen Container verwenden möchten, erstellen Sie so viele externe Konten wie Container.
 * Mit der Option **[!UICONTROL Parallelität]** können Sie die Geschwindigkeit von Dateiübertragungen präzisieren.
 
 ![](assets/external_accounts_4.png)

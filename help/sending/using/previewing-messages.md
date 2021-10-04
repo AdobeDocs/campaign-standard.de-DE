@@ -8,10 +8,10 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 100%
+source-wordcount: '649'
+ht-degree: 97%
 
 ---
 
@@ -41,11 +41,11 @@ Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer
 
    ![](assets/sending_test-profile.png)
 
-1. Um den **[!UICONTROL Vorschau]**-Modus zu beenden, wählen Sie im Bildschirm links oben die Schaltfläche **[!UICONTROL Bearbeiten]** aus.
+1. Um den Modus **[!UICONTROL Vorschau]** zu beenden, klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** oben links im Bildschirm.
 
    ![](assets/sending_preview_edit.png)
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Testprofile verwalten](../../audiences/using/managing-test-profiles.md)
 * [E-Mail-Nachrichten mit Zielgruppenprofilen testen](../../sending/using/testing-messages-using-target.md)

@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Lassen Sie uns jetzt den erstellten Experience Cloud Trigger in Adobe Campaign v
 
 Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience Cloud erstellten verknüpft ist.
 
-1. Um den Trigger in Adobe zu erstellen, verwenden Sie das **Adobe Campaign**-Logo oben links im Bildschirm und anschließend die Schaltflächen **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Um den Trigger in Adobe Campaign zu erstellen, klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und wählen Sie dann **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud-Trigger]** aus.
 
    ![](assets/remarketing_1.png)
 
@@ -101,7 +101,7 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Er klickt auf einen Link, über den er auf Ihre Website gelangt. In diesem Fall wird der Empfänger vom Banner zur Startseite der Reisebuchungs-Website weitergeleitet.
+1. Der Empfänger klickt auf einen Link, der ihn zu Ihrer Website bringt. In diesem Fall wird der Empfänger vom Banner zur Startseite der Reisebuchungs-Website weitergeleitet.
 
    ![](assets/trigger_uc_browse_11.png)
 

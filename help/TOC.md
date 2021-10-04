@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
-source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1798'
 ht-degree: 99%
 
 ---
@@ -273,15 +273,15 @@ ht-degree: 99%
          + [Erste Schritte mit Quellen und Zielen](integrating/using/get-started-sources-destinations.md)
          + [Adobe Experience Platform-Audiences in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
          + [Daten von Campaign nach Adobe Experience Platform exportieren](integrating/using/export-campaign-data.md)
-      + Audience Destinations Service (Beta) {#audience-destinations}
+      + Audience Destinations Service (Betaversion) {#audience-destinations}
          + [Über den Audience Destinations-Service](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
          + [Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
          + [Adobe Experience Platform-Audiences auswählen](integrating/using/aep-targeting-audiences.md)
          + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform Data Connector (Beta) {#data-connector}
+      + Adobe Experience Platform Data Connector (Betaversion) {#data-connector}
          + [Über Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-         + [Übersicht über das Datenmodell von Experience Platform](integrating/using/aep-data-model-overview.md)
+         + [Übersicht über das Experience Platform-Datenmodell](integrating/using/aep-data-model-overview.md)
          + [Mapping-Definition](integrating/using/aep-mapping-definition.md)
          + [Mapping-Aktivierung](integrating/using/aep-mapping-activation.md)
          + [Datenaufnahme über APIs aktivieren](integrating/using/aep-triggering-data-ingestion.md)

@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Rollen, Gruppen und Organisationseinheiten können vom funktionalen Administrato
 
 ![](assets/user_management_1.png)
 
-Die Verwaltung von Benutzern erfolgt über die Admin Console. Näheres hierzu finden Sie im Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) oder der [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
+Benutzer werden in der Admin Console verwaltet (siehe Abschnitt [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) oder die [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 

@@ -8,27 +8,25 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 97%
+source-wordcount: '672'
+ht-degree: 85%
 
 ---
 
 # Verwalten von Transaktionsnachrichten {#managing-transactional-messages}
 
-## Über den Versand von Transaktionsnachrichten
-
 Nachdem Sie ein Transaktionsereignis erstellt und veröffentlicht haben, müssen Sie die Aktivierung dieses Ereignisses in Ihre Website integrieren.
 
 >[!NOTE]
 >
->Die Konfiguration eines Ereignisses wird in [diesem Abschnitt](../../channels/using/configuring-transactional-event.md) erläutert.
+>Die Ereigniskonfiguration wird in [diesem Abschnitt](../../channels/using/configuring-transactional-event.md) beschrieben.
 
-Sie möchten zum Beispiel, dass ein &quot;Warenkorbabbruch&quot; ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Warenkorb gekauft hat. Dazu muss Ihr Web-Entwickler die REST Transactional Messages-API verwenden.
+Sie möchten zum Beispiel, dass ein &quot;Warenkorbabbruch&quot; ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Warenkorb gekauft hat. Als Web-Entwickler müssen Sie dazu die REST Transactional Messages-API verwenden.
 
-1. Der Entwickler sendet anhand der POST-Methode eine Anfrage, die das [Senden des Transaktionsereignisses](#sending-a-transactional-event) auslöst.
-1. Die Antwort auf die POST-Anfrage enthält einen Primärschlüssel, mit dem der Entwickler eine oder mehrere Anfragen über eine GET-Anfrage senden kann. So kann er den [Ereignisstatus](#transactional-event-status) abrufen.
+1. Senden Sie eine Anfrage gemäß der POST-Methode, bei der das [Senden des Transaktionsereignisses](#sending-a-transactional-event) Trigger wird.
+1. Die Antwort auf die POST-Anfrage enthält einen Primären Schlüssel, mit dem Sie eine oder mehrere Anfragen über eine GET-Anfrage senden können. Sie können dann den [Ereignisstatus](#transactional-event-status) abrufen.
 
 ## Senden eines Transaktionsereignisses {#sending-a-transactional-event}
 
@@ -46,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   (Beachten Sie, dass der API-Endpunkt für Transaktionsnachrichten auch während der API-Vorschau sichtbar ist.)
+   Beachten Sie, dass der API-Endpunkt für Transaktionsnachrichten auch während der API-Vorschau sichtbar ist.
 
 * **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereigniskonfiguration generiert (siehe [diesen Abschnitt](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 

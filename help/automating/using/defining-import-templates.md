@@ -4,10 +4,10 @@ description: Importvorlagen ermöglichen die Einschränkung der nötigen Einstel
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Diese Standardvorlagen sind schreibgeschützt und für Standardbenutzer nicht si
 
 1. Gehen Sie in den **[!UICONTROL Workflow]**-Tab. Ergänzen Sie hier bei Bedarf den standardmäßig angebotenen Workflow mit weiteren Aktivitäten.
 
-   Weiterführende Informationen zur Konfiguration der Workflow-Aktivitäten erfahren Sie im Anwendungsbeispiel in diesem Abschnitt: [Beispiel: Import-Workflow-Vorlage](../../automating/using/creating-import-workflow-templates.md). In diesem Anwendungsbeispiel wird gezeigt, wie ein Workflow für den wiederholten Import von Profilen aus einer CRM-Lösung in der Adobe-Campaign-Datenbank erstellt wird.
+   Weiterführende Informationen zur Konfiguration der Workflow-Aktivitäten erfahren Sie im Anwendungsbeispiel in diesem Abschnitt: [Beispiel: Import-Workflow-Vorlage](../../automating/using/creating-import-workflow-templates.md). Dieses Anwendungsbeispiel hilft Ihnen bei der Einrichtung eines Workflows, der zum wiederholten Import von Profilen aus einem CRM-System in der Adobe Campaign-Datenbank verwendet werden kann.
 
 1. Speichern Sie die Vorlage, damit die Konfiguration des Workflows berücksichtigt wird.
 1. Laden Sie im **[!UICONTROL Eigenschaften]**-Tab eine Beispieldatei hoch. Neben den für den Import erforderlichen Spalten kann die Beispieldatei auch Daten enthalten, die es ermöglichen, den vereinfachten Import nach der Workflow-Erstellung zu testen. Die Beispieldatei steht nun auch späteren Benutzern zur Verfügung, die mithilfe der Vorlage einen Import durchführen.

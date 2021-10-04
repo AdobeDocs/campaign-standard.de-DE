@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '7595'
-ht-degree: 100%
+source-wordcount: '7594'
+ht-degree: 99%
 
 ---
 
@@ -158,8 +158,8 @@ ht-degree: 100%
  </thead> 
  <tbody> 
   <tr> 
-   <td> Externe API-Aktivität (öffentliche Beta-Version)<br /> </td> 
-   <td> <p>Zur umfassenderen Personalisierung ermöglicht die externe API-Aktivität, Daten aus externen Systemen über einen REST-API-Aufruf in einen Workflow zu übertragen. Bei den REST-Endpunkten kann es sich um ein Customer Management System, Adobe I/O Runtime oder einen REST-Endpunkt von Adobe Experience Cloud (z. B. Data Platform, Target, Analytics, Campaign) handeln.</p><p>Diese Funktion ist derzeit in einer öffentlichen Beta-Version verfügbar.</p><p>Weiterführende Informationen finden Sie im <a href="../../automating/using/external-api.md">entsprechenden Handbuch</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=de">diesem Video</a>.</p></td> 
+   <td> Externe API-Aktivität (öffentliche Betaversion)<br /> </td> 
+   <td> <p>Zur umfassenderen Personalisierung ermöglicht die externe API-Aktivität, Daten aus externen Systemen über einen REST-API-Aufruf in einen Workflow zu übertragen. Bei den REST-Endpunkten kann es sich um ein Customer Management System, Adobe I/O Runtime oder einen REST-Endpunkt von Adobe Experience Cloud (z. B. Data Platform, Target, Analytics, Campaign) handeln.</p><p>Diese Funktion ist derzeit in einer öffentlichen Betaversion verfügbar.</p><p>Weiterführende Informationen finden Sie im <a href="../../automating/using/external-api.md">entsprechenden Handbuch</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=de">diesem Video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Bericht zu Workflow-Segmenten<br /> </td> 
@@ -454,7 +454,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
    Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/using-reusable-content.md#content-templates).
 
-* Unser neues On-Boarding ermöglicht Ihnen eine raschere E-Mail-Erstellung und einfacheren Zugriff auf Handbücher und Tutorials.
+* Unsere neue Onboarding-Erfahrung hilft Ihnen, mit der E-Mail-Erstellung schneller zu beginnen und Ihnen den Zugriff auf Dokumentation und Tutorials zu erleichtern.
 
    Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
@@ -547,9 +547,9 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
   </tr> 
   <tr> 
    <td> Verbesserungen der Betaversion von In-App Messaging<br /> </td> 
-   <td> <p>Die Betafunktion In-App Messaging wurde folgendermaßen verbessert:</p> 
+   <td> <p>Die Funktion In-App Messaging in der Betaversion wurde folgendermaßen verbessert:</p> 
     <ul> 
-     <li> Der In-App-Betakanal entspricht der DSGVO. </li> 
+     <li> Der In-App-Kanal der Betaversion entspricht der DSGVO. </li> 
      <li> Integration mit Analytics-APIs, um Triggers-Dropdown-Listen mit Daten zu befüllen </li> 
      <li> Intuitive Optik und Beschreibung von Versandvorlagen </li> 
      <li> Verbesserte Bedienbarkeit der Authoring-Benutzeroberfläche </li> 

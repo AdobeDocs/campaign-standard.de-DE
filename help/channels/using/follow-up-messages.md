@@ -8,10 +8,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 100%
+source-wordcount: '814'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorla
 
 So greifen Sie auf diese Vorlage zu:
 
-1. Klicken Sie oben links auf das **Adobe**-Logo.
+1. Klicken Sie links oben auf das Logo **Adobe**.
 1. Wählen Sie dann **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Versandvorlagen]**.
 1. Aktivieren Sie im linken Bereich die Option **[!UICONTROL Folgenachrichten]**.
 

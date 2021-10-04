@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 95%
+source-wordcount: '457'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-A
    ![](assets/export_list_mode_switch.png)
 
 1. Ordnen Sie die Spalten der Liste mithilfe der Schaltfläche **[!UICONTROL Liste konfigurieren]** oben rechts so an, wie sie exportiert werden sollen. Neben den so ausgewählten Spalten wird auch der Primärschlüssel der Ressource exportiert.
-1. Bei Bedarf können die Daten gefiltert werden. Verwenden Sie die Schaltfläche links oben, um das Suchemenü einzublenden.
+1. Bei Bedarf können die Daten gefiltert werden. Klicken Sie dazu auf die Schaltfläche oben links, um den Suchbereich anzuzeigen.
 
    Wenn der Export ausgehend von einer Liste mit Ressourcen verschiedenen Typs konfiguriert wird, ist diese zunächst zu filtern, sodass nur ein Ressourcentyp angezeigt wird.
 
@@ -76,7 +76,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 In diesem Video wird die Konfiguration von Listen gezeigt.
 

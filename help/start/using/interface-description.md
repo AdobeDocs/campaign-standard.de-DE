@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Die Symbolleiste ist in jedem Bildschirm sichtbar und ermöglicht die Navigation
 
 Folgende Navigationsprinzipien kommen zur Anwendung:
 
-* Das **Adobe**-Logo oben links im Bildschirm bietet Zugriff auf erweiterte Funktionen und Konfigurationen. Die angezeigten Menüs hängen von Ihrem Profil und Ihren Zugriffsberechtigungen ab.
+* Das **Adobe** -Logo oben links auf der Seite bietet Zugriff auf erweiterte Funktionen und Konfigurationen. Die angezeigten Menüs hängen von Ihrem Profil und Ihren Zugriffsberechtigungen ab.
 
    Das erweiterte Menü wird im Abschnitt [erweitertes Menü](#advanced-menu) beschrieben.
 
@@ -82,7 +82,7 @@ Auf drei Tabs finden Sie Hilfe und Unterstützung:
 
 ## Erweitertes Menü {#advanced-menu}
 
-Verwenden Sie das **Adobe Campaign**-Symbol oben links im Bildschirm, um auf das erweiterte Menü zuzugreifen. Das erweiterte Menü variiert je nach Vertrag und Benutzerberechtigung.
+Das erweiterte Menü wird durch Klicken auf das Symbol **Adobe Campaign** oben links auf jedem Bildschirm angezeigt. Das erweiterte Menü variiert je nach Vertrag und Benutzerberechtigung.
 
 Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen.
 

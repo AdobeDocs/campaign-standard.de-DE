@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 85%
 
 ---
 
@@ -30,10 +30,10 @@ Standardberechtigungen sind:
 
    >[!NOTE]
    >
-   >Wenn Sie mit Experience Cloud Triggers arbeiten, benötigen Sie die Berechtigung zur **[!UICONTROL Administration]**, um auf das Menü „Experience Cloud Triggers“ zugreifen zu können. Weitere Informationen zu Experience Cloud Triggers finden Sie auf [dieser Seite](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Wenn Sie mit Experience Cloud-Triggern arbeiten, benötigen Sie die Berechtigung **[!UICONTROL Administration]** , um auf das Menü &quot;Experience Cloud-Trigger&quot;zugreifen zu können. Weitere Informationen zu Experience Cloud Triggers finden Sie auf [dieser Seite](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Berechtigt zur Durchführung von Veröffentlichungen und zur Erstellung von benutzerdefinierten Ressourcen.
-* **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Dazu muss die Rolle **[!UICONTROL Allgemeiner Import]** mit der **[!UICONTROL Workflow]**-Rolle verknüpft werden.
+* **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Damit dies funktioniert, müssen Sie die Rolle **[!UICONTROL Generischer Import]** mit der Rolle **[!UICONTROL Workflow]** verknüpfen.
 * **[!UICONTROL Sendungen vorbereiten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten und Löschen von Sendungen. Benutzer mit dieser Rolle können einen Versand vorbereiten, aber nicht durchführen.
 * **[!UICONTROL Sendungen starten]**: Berechtigung zum Erstellen, Ändern, Vorbereiten, Senden und Löschen von Sendungen.
 * **[!UICONTROL Workflow]**: Berechtigung zum Verwalten der Ausführung von Workflows (Start, Stopp, Pause usw.). Benutzer mit dieser Rolle können auch in einem Workflow keine Sendungen durchführen.

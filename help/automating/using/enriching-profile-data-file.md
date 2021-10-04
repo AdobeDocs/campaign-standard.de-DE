@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '548'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Der Workflow setzt sich aus folgenden Aktivitäten zusammen:
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   Bei dieser Beispieldatei verwenden wir die E-Mail-Adresse zur Abstimmung der Daten mit den Datenbankprofilen. Sie können auch eindeutige Kennungen aktivieren, wie in [diesem Dokument](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources) beschrieben wird.
+   Verwenden Sie in dieser Beispieldatei die E-Mail-Adresse, um die Daten mit den Datenbankprofilen abzustimmen. Sie können auch eindeutige Kennungen aktivieren, wie in [diesem Dokument](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources) beschrieben wird.
 
 * Die Aktivität [Anreicherung](../../automating/using/enrichment.md), mit der eine Relation zwischen den aus der Datei geladenen Transaktionsdaten und den in der **[!UICONTROL Abfrage]** ausgewählten Profilen erstellt wird. Die Relation wird in der Aktivität im Tab **[!UICONTROL Erweiterte Relationen]** definiert. Die Relation basiert auf der von der Aktivität **[!UICONTROL Datei laden]** stammenden Transition. Als Abstimmkriterien werden das Feld &quot;E-Mail&quot; der Profilressource und die Spalte &quot;customer&quot; der importierten Datei verwendet.
 

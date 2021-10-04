@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1347'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Die Implementierung von Push-Benachrichtigungen und In-App-Nachrichten muss von erfahrenen Benutzern vorgenommen werden. Wenn Sie Hilfe brauchen, kontaktieren Sie bitte Ihren Adobe-Kundenbetreuer oder Professional Services-Partner.
+>Die Implementierung von Push-Benachrichtigungen und In-App-Nachrichten muss von erfahrenen Benutzern vorgenommen werden. Wenden Sie sich zur Unterstützung an Ihren Adobe Account Manager oder Professional Services Partner.
 
 Um Push-Benachrichtigungen und In-App-Nachrichten mithilfe der Experience Platform SDK-Anwendung zu senden, muss in Adobe Experience Platform Launch eine Mobile App eingerichtet und diese in Adobe Campaign konfiguriert werden.
 
@@ -85,9 +85,9 @@ Ihr Workflow wird jetzt neu gestartet und die von Adobe Launch in Adobe Campaign
 
 ## Adobe Experience Platform Launch-Mobile-App in Adobe Campaign einrichten {#set-up-campaign}
 
-Um eine Eigenschaft für Mobilgeräte von Experience Platform Launch in Campaign zu verwenden, müssen Sie diese Eigenschaft auch in Adobe Campaign konfigurieren. Stellen Sie in Adobe Campaign sicher, dass der IMS-Benutzer zu den Standardbenutzer- und Administratorproduktprofilen gehört.
+Um eine Eigenschaft für mobile Experience Platform Launch in Campaign zu verwenden, müssen Sie diese Eigenschaft auch in Adobe Campaign konfigurieren. Stellen Sie in Adobe Campaign sicher, dass der IMS-Benutzer zu den Standardbenutzer- und Administratorproduktprofilen gehört.
 
-Warten Sie, bis der technische Workflow ausgeführt und die Launch-Eigenschaft für Mobilgeräte mit Adobe Campaign synchronisiert wird. Sie können sie dann in Adobe Campaign konfigurieren.
+Sie müssen warten, bis der technische Workflow ausgeführt und die Launch-Eigenschaft für Mobilgeräte mit Adobe Campaign synchronisiert wird. Sie können sie dann in Adobe Campaign konfigurieren.
 
 Weitere Informationen zum technischen Workflow &quot;Mobile App AEPSDK von Launch synchronisieren&quot; finden Sie in diesem [Abschnitt](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
