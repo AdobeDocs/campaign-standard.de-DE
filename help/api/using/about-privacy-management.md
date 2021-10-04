@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Datenschutzverwaltung mit APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---
@@ -27,4 +27,4 @@ Der Datenschutz-API-Endpunkt lautet **/privacy/privacyTool**. Eine Beschreibung 
 
 Das CCPA-Opt-out wird mithilfe des Profilattributs **ccpaOptOut** verwaltet.
 
-Weiterführende Informationen zu Adobe Campaign Standard und zur Einhaltung von Datenschutzbestimmungen finden Sie in der [entsprechenden Dokumentation](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html).
+Weiterführende Informationen zu Adobe Campaign Standard und zur Einhaltung von Datenschutzbestimmungen finden Sie in der [entsprechenden Dokumentation](../../start/using/privacy-requests.md).
