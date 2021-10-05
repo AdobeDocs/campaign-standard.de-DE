@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 **Verwandte Themen**:
 
-* Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
+* Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](../../channels/using/key-steps-to-send-a-message.md)
 * [ Integration von Adobe Campaign und Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integration mit Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 

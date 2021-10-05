@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS an Mobiltelefone senden zu
 * [Vorlagen verwalten](../../start/using/marketing-activity-templates.md)
 * [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS-Bericht](../../reporting/using/sms-report.md)
-* [Handbuch zu Campaign Standard Mobile](https://helpx.adobe.com/de/campaign/kb/acs-mobile.html)
+* [Handbuch zu Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## SMS-Versandvorlage {#sms-delivery-template}
 

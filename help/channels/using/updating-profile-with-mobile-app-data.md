@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1075'
 ht-degree: 99%
 
 ---
@@ -32,8 +32,8 @@ Ziel dieses Anwendungsfalls ist die Erstellung oder Aktualisierung eines Campaig
 Zur Aktivierung von Push-Benachrichtigungen in Campaign Standard müssen mehrere Konfigurationsschritte ausgeführt werden. Erst danach können Profile auf Basis der Abonnementdaten einer Mobile App erstellt oder aktualisiert werden:
 
 1. [Erstellen einer Mobile App](../../administration/using/configuring-a-mobile-application.md)
-1. [Integrieren des Adobe Mobile SDK mit der Mobile App](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html)
-1. [Konfigurieren von Adobe Campaign für das Senden von Push-Benachrichtigungen](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html)
+1. [Integrieren des Adobe Mobile SDK mit der Mobile App](../../administration/using/supported-mobile-use-cases.md)
+1. [Konfigurieren von Adobe Campaign für das Senden von Push-Benachrichtigungen](../../administration/using/configuring-a-mobile-application.md)
 
 ## Schritt 1: Erweitern der Profilressource für Push-Benachrichtigungen/Abonnements
 

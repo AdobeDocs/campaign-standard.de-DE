@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 98%
 
 ---
@@ -216,7 +216,7 @@ Informationen zu Aspekten einer Android-Payload finden Sie unter [Messaging Conc
 | Veränderliche Inhalte <br> (nur bei iOS 10 oder höher) | mutable-content | Nicht zutreffend | Die Notification Service-Erweiterung in Ihrer App &quot;erfasst&quot; alle Remote-Benachrichtigungen mit dem Schlüssel &quot;mutable-content&quot; und ermöglicht Ihnen die Verarbeitung/Bearbeitung des Inhalts der Anfrage-Payload, der dann zum Anpassen der Benachrichtigung verwendet werden kann. Anwendungsbeispiele für diese Funktion sind das Herunterladen und Anzeigen mehrerer Medien, wobei alle in der Push-Payload vorhandenen verschlüsselten Daten entschlüsselt werden. Weiterführende Informationen finden Sie unter [Payload einer Remote-Benachrichtigung ändern](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(nur bei iOS 10 oder höher) |
 | Inhalt verfügbar | content-available | Nicht zutreffend | Wenn Sie diese Option auswählen, wird das Aufwecken einer iOS-App aktiviert, die sie sich im Hintergrund bzw. ausgesetzten Zustand befindet. Aufwecken bedeutet, dass die App im Hintergrund ausgeführt wird und der für den Empfang der Daten-Payload der Push-Benachrichtigung zuständige Event-Handler die Kontrolle erhält und die Daten für beliebige Berechnungen verwenden kann, zum Beispiel zum Erstellen und Anzeigen benutzerdefinierter Push-Benachrichtigungen. Weiterführende Informationen finden Sie unter [App bei Benachrichtigungsversand wecken](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL der Rich-Media-Inhalte (Grafikdateien)<br>(nur bei Android verfügbar) | Nicht zutreffend | media-attachment-url | URL der Grafikdateien, um der Benachrichtigung Rich-Inhalte hinzuzufügen. |
-| Nicht zutreffend | _mId<br>_dId | _mId <br>_dId | Werte von &quot;broadlogId&quot; und &quot;deliveryId&quot;.<br>Diese Attribute sind erforderlich, wenn Ihre App einen Tracking-Postback aufrufen möchte, um zu verfolgen, wann die Push-Benachrichtigung angeklickt/geöffnet wurde. Diese Daten werden vom App-Server ohne Benutzereingriff intern berechnet und gesendet.<br>Informationen zu Postbacks finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| Nicht zutreffend | _mId<br>_dId | _mId <br>_dId | Werte von &quot;broadlogId&quot; und &quot;deliveryId&quot;.<br>Diese Attribute sind erforderlich, wenn Ihre App einen Tracking-Postback aufrufen möchte, um zu verfolgen, wann die Push-Benachrichtigung angeklickt/geöffnet wurde. Diese Daten werden vom App-Server ohne Benutzereingriff intern berechnet und gesendet.<br>Informationen zu Postbacks finden Sie auf dieser [Seite](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### So rufen Sie Payload-Daten in Mobile-App-Code ab {#payload-information}
 

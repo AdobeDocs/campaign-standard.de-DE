@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,3 @@ Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist
 1. Planen Sie den Versand mit der Option **[!UICONTROL Versand nach Bestätigung]**.
 1. Nachdem Ihre E-Mail gesendet wurde, können Sie Protokolle und Berichte aufrufen, um den Erfolg Ihrer Kampagne zu messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../../reporting/using/about-dynamic-reports.md).
 
-**Verwandtes Thema:**
-
-* [Mehrsprachige Zielgruppen mit einem einzigen Workflow ansprechen](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

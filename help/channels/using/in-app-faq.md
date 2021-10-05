@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '668'
 ht-degree: 97%
 
 ---
@@ -39,7 +39,7 @@ Da In-App-Nachrichten vom SDK aus Campaign abgerufen werden, möchten wir einen 
 
 ## Was muss ich tun, um In-App-Berichte in Campaign zu aktivieren? {#enable-inapp-reporting}
 
-Konfigurieren Sie ein Postback für das In-App-Tracking. Anweisungen dazu finden Sie [hier](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+Konfigurieren Sie ein Postback für das In-App-Tracking. Anweisungen dazu finden Sie [hier](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
 Informationen zur Implementierung des lokalen Benachrichtigungs-Tracking finden Sie auf dieser [Seite](../../administration/using/local-tracking.md).
 
