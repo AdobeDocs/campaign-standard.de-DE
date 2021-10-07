@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Sie können Kunden eine E-Mail mit Angeboten in lokalen Geschäften schicken.
 
 ![](assets/wf-complement-query.png)
 
-## Segmentierungsaktivität erstellen. {#creating-a-segmentation-activity}
+## Segmentierungsaktivität erstellen{#creating-a-segmentation-activity}
 
 1. Ziehen Sie eine [Segmentierungsaktivität](../../automating/using/segmentation.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Wählen Sie ein Segment aus und öffnen Sie danach eine Transition, um Personen in der ersten Stadt auszuwählen. In unserem Fall ist das Boston.
