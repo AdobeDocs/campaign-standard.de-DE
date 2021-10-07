@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 
@@ -46,4 +46,4 @@ Sie können die folgenden Aktionen über die XDM-Schema-API ausführen:
 * Schema-Deskriptoren anzeigen
 * Schema-Deskriptoren erstellen, aktualisieren und löschen
 
-Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
