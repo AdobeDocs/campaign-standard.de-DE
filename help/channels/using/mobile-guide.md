@@ -1,20 +1,21 @@
 ---
 title: Handbuch zu Campaign Standard Mobile
-description: Erfahren Sie mehr über die allgemeinen Richtlinien für den mobilen Versand in Adobe Campaign Standard, z. B. wie Sie Ihre Mobile Apps konfigurieren oder Push-Benachrichtigungen und In-App-Nachrichten erstellen.
+description: Erfahren Sie mehr über die allgemeinen Richtlinien für mobile Sendungen in Adobe Campaign Standard, z. B. wie Sie Ihre Mobile Apps konfigurieren oder Push-Benachrichtigungen und In-App-Nachrichten erstellen.
 audience: channels
 content-type: reference
 topic-tags: mobile-guide
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: e583ba4e93b16389be9d06c4b7fa8eebf4ee3cfc
-workflow-type: tm+mt
+exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
+source-git-commit: ebb05c9f9b5501eeda11b16be79fbb4226c0a6fe
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Mobile-Kanälen {#mobile-guide}
+# Erste Schritte mit mobilen Kanälen {#mobile-guide}
 
 <table style="table-layout:fixed">
 <tr>
@@ -26,15 +27,15 @@ ht-degree: 44%
 <td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Erfahren Sie, wie Sie In-App-Nachrichten erstellen</br><a href="#create-inapp">Hier klicken</a></p></td></tr>
 </table>
 
-## Über den Versand über Mobilgeräte {#about-mobile}
+## Über den Versand an Mobilgeräte {#about-mobile}
 
 Mit Adobe Campaign können Sie personalisierte Nachrichten auf verschiedenen Kanälen erstellen und versenden, den Kampagnenerfolg messen und die Ergebnisse in Berichten detailliert darstellen.
 
-Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene Kanäle durchführen:
+Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei verschiedene Kanäle durchführen:
 
-* SMS, siehe Abschnitt Über SMS-Nachrichten .
-* Push-Benachrichtigungen, siehe Abschnitt Über Push-Benachrichtigungen .
-* In-App-Nachrichten, siehe Abschnitt Über In-App-Nachrichten .
+* SMS, siehe Abschnitt &quot;Über SMS-Nachrichten&quot;.
+* Push-Benachrichtigungen, siehe Abschnitt &quot;Über Push-Benachrichtigungen&quot;.
+* In-App-Nachrichten, siehe Abschnitt &quot;Über In-App-Nachrichten&quot;.
 
 ## Mobile App für Push-Benachrichtigungen konfigurieren {#configuration-push}
 
@@ -51,7 +52,7 @@ Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene
     <div>
     <p><strong>Die Struktur der Payload von Push-Benachrichtigungen in Campaign Standard</strong></p>
     </div>
-    <p>Erfahren Sie mehr über die Struktur der Payload, die in Mobile Apps empfangen wird, wenn eine Push-Benachrichtigung erfolgreich von Adobe Campaign Standard an eine App gesendet wird.</br><a href="../../administration/using/push-payload.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Erfahren Sie mehr über die Struktur der Payload, die in Mobile Apps empfangen wird, wenn Adobe Campaign Standard erfolgreich eine Push-Benachrichtigung an diese App sendet.</br><a href="../../administration/using/push-payload.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -67,7 +68,7 @@ Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene
     <div>
     <p><strong>Implementieren von Push-Tracking</strong></p>
     </div>
-    <p>Erfahren Sie, wie Sie sicherstellen, dass das Tracking von Push-Benachrichtigungen unter iOS und Android korrekt implementiert wurde.</br><a href="../../administration/using/push-tracking.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Erfahren Sie, wie Sie sicherstellen können, dass das Tracking von Push-Benachrichtigungen unter iOS und Android richtig implementiert wurde.</br><a href="../../administration/using/push-tracking.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -86,9 +87,9 @@ Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene
   </td>
   <td>
     <div>
-    <p><strong>Unterstützte Anwendungsfälle für Mobilgeräte mit Adobe Experience Platform SDKs</strong></p>
+    <p><strong>Unterstützte Anwendungsfälle für Mobilgeräte unter Verwendung von Adobe Experience Platform SDKs</strong></p>
     </div>
-    <p>Erfahren Sie mehr über Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard mithilfe der Adobe Experience Platform SDKs unterstützt werden.</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard durch die Verwendung von Adobe Experience Platform SDKs unterstützt werden.</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -97,7 +98,7 @@ Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene
     <div>
     <p><strong>Adobe Experience Platform Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen konfigurieren</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klicken Sie </strong></a> hier , um mit der Erstellung von Datenelementen und Regeln in Adobe Experience Platform Launch zu beginnen, um personenbezogene Daten und andere Daten von Apps an Adobe Campaign Standard zu senden.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klicken Sie hier</strong></a>, um mit der Erstellung von Datenelementen und Regeln in Adobe Experience Platform Launch zu beginnen, um personenbezogene Daten und andere Daten von Mobile Apps an Adobe Campaign Standard zu senden.</p>
     <br>
   </td>
   <td>
@@ -118,14 +119,14 @@ Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene
     <div>
     <p><strong>Push-Benachrichtigung vorbereiten und senden</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Hier erfahren Sie, </strong></a> wie Sie Ihre Push-Benachrichtigung vorbereiten und dann an Ihre Zielgruppe senden.</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Hier erfahren Sie</strong></a>, wie Sie Ihre Push-Benachrichtigung vorbereiten und dann an Ihre Zielgruppe senden.</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>Push-Benachrichtigung anpassen</strong></p>
     </div>
-    <p>Zur Feinabstimmung Ihres Versands bietet Adobe Campaign beim Entwerfen einer Push-Benachrichtigung Zugriff auf eine Reihe von Optionen.</br><a href="../../channels/using/customizing-a-push-notification.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>In Adobe Campaign stehen Ihnen zur Anpassung von Sendungen bei der Erstellung von Push-Benachrichtigungen eine Reihe von Optionen zur Verfügung.</br><a href="../../channels/using/customizing-a-push-notification.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -155,21 +156,21 @@ Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene
     <div>
     <p><strong>In-App-Nachricht vorbereiten und senden</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Hier erfahren Sie, </strong></a> wie Sie Ihre In-App-Nachrichten vorbereiten und an Ihre Zielgruppe senden können.</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Hier erfahren Sie</strong></a>, wie Sie Ihre In-App-Nachrichten vorbereiten und an Ihre Zielgruppe senden können.</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>In-App-Nachrichten anpassen</strong></p>
     </div>
-    <p>Zur Feinabstimmung Ihres Versands bietet Adobe Campaign beim Entwerfen einer In-App-Nachricht Zugriff auf eine Reihe erweiterter Optionen.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>In Adobe Campaign stehen Ihnen zur Anpassung von Sendungen bei der Erstellung von In-App-Nachrichten eine Reihe erweiterter Optionen zur Verfügung.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
 <tr>
   <td>
     <div>
-    <p><strong>Nachricht vom Typ "Lokale Benachrichtigung" anpassen       </strong></p>
+    <p><strong>Nachricht vom Typ "Lokale Benachrichtigung" anpassen</strong></p>
     </div>
     <p>Lokale Benachrichtigungen können nur von einer App zu einer bestimmten Zeit und abhängig von einem Ereignis ausgelöst werden. </br><a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
@@ -192,15 +193,15 @@ Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene
     <div>
     <p><strong>SMS erstellen</strong></p>
     </div>
-    <p>Die Erstellung eines SMS-Versands ist der Erstellung einer üblichen E-Mail sehr ähnlich. </br>Die Schritte  <a href="../../channels/using/creating-an-sms-message.md"><strong>detailliert </strong></a> beschreiben die Konfiguration, die für diesen Kanal spezifisch ist.</br></p>
+    <p>Die Erstellung eines SMS-Versands ist der Erstellung einer üblichen E-Mail sehr ähnlich. </br>Die hier <a href="../../channels/using/creating-an-sms-message.md"><strong>beschriebenen Schritte</strong></a> beschreiben die Konfiguration, die speziell für diesen Kanal nötig ist.</br></p>
     <br>
   </td>
   <td>
     <div>
-    <p><strong>SMS anpassen
+    <p><strong>SMS-Nachrichten anpassen
 </strong></p>
     </div>
-    <p>Zur Feinabstimmung Ihres Versands bietet Adobe Campaign beim Entwerfen einer SMS-Nachricht Zugriff auf eine Reihe erweiterter Optionen.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>In Adobe Campaign stehen Ihnen zur Anpassung von Sendungen bei der Erstellung von SMS-Nachrichten eine Reihe erweiterter Optionen zur Verfügung.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
     <br>
   </td>
 </tr>
@@ -209,22 +210,22 @@ Mit Adobe Campaign Standard können Sie Mobile-Sendungen über drei verschiedene
     <div>
     <p><strong>Eingehende SMS verwalten</strong></p>
     </div>
-    <p>Wenn ein Profil auf eine per Campaign gesendete SMS-Nachricht antwortet, können Sie die automatisch an ihn gesendeten Nachrichten sowie die auszuführende Aktion konfigurieren. Anpassen eines lokalen Benachrichtigungstyps</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Hier klicken, um weitere Informationen zu erhalten.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Wenn ein Profil auf eine per Campaign gesendete SMS-Nachricht antwortet, können Sie die automatisch an das Profil zu sendenden Nachrichten sowie die auszuführende Aktion konfigurieren.</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>SMS-Bericht</strong></p>
     </div>
-    <p>Der Bericht SMS bietet Informationen zu SMS-Sendungen, wie die Anzahl der zugestellten Nachrichten und die Bounces.</br><a href="../../reporting/using/sms-report.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Der SMS-Bericht bietet Informationen zu SMS-Sendungen, wie die Anzahl der zugestellten Nachrichten und die Bounces.</br><a href="../../reporting/using/sms-report.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
 </table>
 
-## Fehlerbehebung bei Mobilgeräten {#mobile-troubleshooting}
+## Fehlerbehebung bei Sendungen an Mobilgeräte {#mobile-troubleshooting}
 
-Die folgenden Seiten helfen Ihnen bei der Lösung der häufigsten Probleme bei der Verwendung des mobilen Versands in Adobe Campaign Classic.
+Die folgenden Seiten helfen Ihnen, die häufigsten Probleme zu lösen, die beim Versand an Mobilgeräte in Adobe Campaign Classic auftreten.
 
 <table style="table-layout:fixed">
 <tr>
@@ -248,5 +249,3 @@ Die folgenden Seiten helfen Ihnen bei der Lösung der häufigsten Probleme bei d
   </td>
 </tr>
 </table>
-
-
