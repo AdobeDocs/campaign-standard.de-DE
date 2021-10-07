@@ -10,7 +10,7 @@ role: Data Architect
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -126,7 +126,7 @@ Nach Abschluss des Vorgangs werden weitere Informationen angezeigt:
 
 ### Systemaktualisierung {#system-updates}
 
-Die Liste der Package-Importe entält insbesondere die im Zuge von Aktualisierungen durch Adobe vorgenommenen automatischen Importe.
+Die Liste der Package-Importe enthält insbesondere die im Zuge von Aktualisierungen durch Adobe vorgenommenen automatischen Importe.
 
 ![](assets/packages_15.png)
 
