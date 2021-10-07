@@ -9,13 +9,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
 ht-degree: 100%
 
 ---
 
-# Interagieren mit dem Marketingverlauf {#interacting-with-marketing-history}
+# Interagieren mit dem Marketing-Verlauf {#interacting-with-marketing-history}
 
 Über den Endpunkt **Verlauf** können Sie mit dem Marketingverlauf eines Profils interagieren.
 So können Sie z. B. die Mirrorseite für einen Versand abrufen, der an ein Profil gesendet wurde. Gehen Sie dazu wie folgt vor:
