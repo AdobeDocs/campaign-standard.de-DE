@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Hintergrundeinstellungen"
->abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Clients unterstützt wird."
+>abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihre Inhalte personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Clients unterstützt wird."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Zusätzliche Informationen"
 
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
