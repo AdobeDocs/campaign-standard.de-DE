@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Mit **[!UICONTROL Targeting]**-Aktivitäten können Sie **Segmentcodes** für di
 
 ## Datenauswahl {#selecting-data}
 
-Sie können Daten mit den folgenden Aktivitäten auswählen:
+Sie können Daten mithilfe der folgenden Aktivitäten auswählen:
 
 * Eine **[!UICONTROL Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe Campaign-Datenbank zusammensetzt. Siehe den Abschnitt [Abfrage](../../automating/using/query.md).
 * Eine **[!UICONTROL Inkrementelle Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe-Campaign-Datenbank zusammensetzt. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen. Siehe den Abschnitt [Inkrementelle Abfrage](../../automating/using/incremental-query.md).
