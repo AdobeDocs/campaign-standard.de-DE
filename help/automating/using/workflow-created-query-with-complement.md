@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
 1. Geben Sie die Eigenschaften des Workflows ein und wählen Sie **[!UICONTROL Erstellen]** aus.
 
-## Erstellen Sie eine Abfrageaktivität {#create-a-query-activity}
+## Abfrageaktivität erstellen {#create-a-query-activity}
 
 1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
@@ -34,7 +34,7 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 
 ![](assets/wf-complement-query.png)
 
-## Erstellen Sie eine Segmentierungsaktivität.  {#create-a-segmentation-activity}
+## Segmentierungsaktivität erstellen {#create-a-segmentation-activity}
 
 1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Targeting]**, eine [Segmentierungsaktivität](../../automating/using/segmentation.md) in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Bewegen Sie den Mauszeiger über das Segment und wählen Sie dann ![](assets/edit_darkgrey-24px.png) aus, um Kunden auszuwählen, die dieses Jahr zur Datenbank hinzugefügt wurden.
