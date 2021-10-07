@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,13 +40,13 @@ Ein Beispiel für eine allgemeine Workflow-Vorlage zum Datenimport finden Sie in
 
 **Verwandte Themen:**
 
-* [Datei laden Aktivität](../../automating/using/load-file.md)
-* [Aktivität „Abstimmung“](../../automating/using/reconciliation.md)
-* [Aktivität „Segmentierung“](../../automating/using/segmentation.md)
-* [Aktivität „Deduplizierung“](../../automating/using/deduplication.md)
-* [Aktivität „Daten-Update“](../../automating/using/update-data.md)
+* [Datei laden  Aktivität](../../automating/using/load-file.md)
+* [Aktivität &quot;Abstimmung&quot;](../../automating/using/reconciliation.md)
+* [Aktivität &quot;Segmentierung&quot;](../../automating/using/segmentation.md)
+* [Aktivität &quot;Deduplizierung&quot;](../../automating/using/deduplication.md)
+* [Aktivität &quot;Daten-Update&quot;](../../automating/using/update-data.md)
 
-## Dateiformate mit einfach strukturierten Daten verwenden          {#using-flat-file-formats}
+## Dateiformate mit einfach strukturierten Daten verwenden {#using-flat-file-formats}
 
 Das effizienteste Format für Importe sind flache Dateien, die im Bulk-Modus auf Datenbankebene importiert werden können.
 
@@ -55,7 +55,7 @@ Beispiel:
 * Trennzeichen: Tabulator oder Semikolon
 * Erste Zeile mit Headern
 * Keine Zeichenketten-Qualifizierer
-* Datumsformat: JJJJ/MM/TT HH:mm:SS
+* Datumsformat: JJJJ/MM/TT hh:mm:ss
 
 Beispiel einer zu importierenden Datei:
 
@@ -73,8 +73,8 @@ Verwenden Sie für Importe und Exporte möglichst ZIP-Dateien. GZIP wird standar
 
 **Verwandte Themen:**
 
-* [Datei laden Aktivität](../../automating/using/load-file.md)
-* [Aktivität „Dateiextraktion“](../../automating/using/extract-file.md)
+* [Datei laden  Aktivität](../../automating/using/load-file.md)
+* [Aktivität &quot;Dateiextraktion&quot;](../../automating/using/extract-file.md)
 
 ## Im Deltamodus importieren {#importing-in-delta-mode}
 
