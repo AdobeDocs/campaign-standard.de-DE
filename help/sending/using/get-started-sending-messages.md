@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Nachdem Sie die Zielgruppe definiert und den Inhalt einer Nachricht erstellt hab
 
 Sobald die Marketing-Kampagnen ausgeführt und die verschiedenen Nachrichten gesendet wurden, können Sie diese mithilfe von Protokollen überwachen, um den Erfolg Ihrer Kampagne zu überprüfen und Tracking-Informationen zu den Empfängern abzurufen.
 
-Nutzen Sie schließlich die im Campaign Standard verfügbaren Zustellbarkeitsrichtlinien und Werkzeuge, um die Anzahl der zugestellten Nachrichten zu erhöhen und erfolgreiche Marketingkampagnen sicherzustellen.
+Nutzen Sie schließlich die in Campaign Standard verfügbaren Zustellbarkeitsrichtlinien und Tools, um die Anzahl der zugestellten Nachrichten zu erhöhen und den Erfolg Ihrer Marketing-Kampagnen sicherzustellen.
 
 ![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie man eine Test-E-Mail sendet und einen E-Mail-Versand vorbereitet und ausführt.](#video)
 
@@ -77,7 +77,7 @@ Mehr dazu:
 
 Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich an die Empfängerpostfächer zugestellt und nicht als unzustellbar zurückgesendet bzw. als Spam gekennzeichnet werden.
 
-Campaign Standard bietet verschiedene **Zustellbarkeits-Tools**, mit denen Sie die Anzahl der erfolgreich zugestellten Nachrichten verbessern können: Versanddurchsatz-Berichte, Versandzeitoptimierung, Nachrichtenvorschau, E-Mail-Rendering, Quarantäneverwaltung usw.
+Campaign Standard bietet verschiedene **Zustellbarkeits-Tools**, mit denen Sie die Anzahl der erfolgreich zugestellten Nachrichten verbessern können: Berichte zum Versanddurchsatz, Optimierung des Sendezeitpunkts, Vorschau von Nachrichten, E-Mail-Rendering, Quarantäneverwaltung usw.
 
 Mehr dazu:
 
