@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Darüber hinaus können Sie mit Campaign Standard-APIs nach Profilen suchen, die
    }
    ```
 
-## Suche nach Profilen basierend auf einem Feld {#searching-field}
+## Anhand eines Felds nach Profilen suchen {#searching-field}
 
 Mit dem Parameter **[!UICONTROL filterType]** können Sie Profile anhand eines dieser Felder abrufen: E-Mail, Vorname, Nachname oder ein beliebiges benutzerdefiniertes Feld, das den erweiterten Filtern beim Erweitern der Profilressource hinzugefügt wurde.
 
