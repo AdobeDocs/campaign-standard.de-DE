@@ -10,9 +10,9 @@ role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2216'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -116,9 +116,9 @@ Wenn das **Parsen validiert wird**, erscheint eine Meldung, die Sie auffordert, 
 
 In diesem Tab können Sie den Endpunkt der Verbindung definieren. Mit dem Feld **[!UICONTROL URL]** können Sie den **HTTPS-Endpunkt** definieren, mit dem Campaign Standard kommuniziert.
 
-Wenn der Endpunkt dies benötigt, sind zwei Arten von Authentifizierungsmethoden verfügbar:
+Falls der Endpunkt dies benötigt, stehen zwei Authentifizierungsmechanismen zur Verfügung:
 
-* Grundlegende Authentifizierung: Geben Sie im Abschnitt **[!UICONTROL Request Header(s)]** Ihre Benutzernamen-/Kennwortinformationen ein.
+* Einfache Authentifizierung: Geben Sie in den Abschnitt **[!UICONTROL Header abrufen]** Ihren Benutzernamen und Ihr Passwort ein.
 
 * OAuth-Authentifizierung: Durch Klicken auf **[!UICONTROL In einem externen Konto definierte Verbindungsparameter verwenden]** können Sie ein externes Konto auswählen, in dem die OAuth-Authentifizierung definiert ist. Weiterführende Informationen hierzu finden Sie im Abschnitt [Externe Konten](../../administration/using/external-accounts.md).
 
