@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 90%
 
 ## Was ist der Unterschied zwischen Inhaltsbausteinen und Inhaltsfragmenten?
 
-Inhaltsbausteine und Inhaltsfragmente sind Teile wiederverwendbarer Inhalte, die in mehreren E-Mails verwendet werden. Sie werden verwendet, um E-Mails einheitlich zu gestalten und die Erstellung von E-Mails zu optimieren/zu standardisieren. Die Unterschiede zwischen Inhaltsbausteinen und Inhaltsfragmenten entsprechen dem Grad der möglichen Anpassung.
+Inhaltsbausteine und Inhaltsfragmente sind Teile wiederverwendbarer Inhalte, die in mehreren E-Mails verwendet werden. Sie werden verwendet, um E-Mails einheitlich zu gestalten und die Erstellung von E-Mails zu optimieren/zu standardisieren. Inhaltsbausteine und Inhaltsfragmente unterscheiden sich im Grad der möglichen Anpassung.
 
 * Bei Inhaltsbausteinen handelt es sich um reines HTML, in den HTML-Code manuell eingefügt wird (keine benutzerfreundliche Benutzeroberfläche, sondern direkter Quellcode). Obwohl diese Funktionalität eigentlich für Personen mit HTML-Kenntnissen bereitgestellt wird, erlaubt sie einen Grad der Personalisierung, der in Inhaltsfragmenten nicht verfügbar ist.
 
-* Inhaltsfragmente sind visuelle Inhalte, die mit Email Designer über die benutzerfreundliche Benutzeroberfläche erstellt werden. Es ist jedoch nicht möglich, den Inhalt zu personalisieren. Wenn eine Personalisierung erforderlich ist, kann sie nur über Inhaltsbausteine erfolgen.
+* Inhaltsfragmente sind visuelle Inhalte, die über Email Designer mithilfe seiner benutzerfreundlichen Benutzeroberfläche erstellt werden. Es ist jedoch nicht möglich, den Inhalt zu personalisieren. Wenn eine Personalisierung erforderlich ist, kann diese nur über Inhaltsbausteine erfolgen.
 
 ## Wie kann ich einem Element aus der HTML-Struktur einen Abstand hinzufügen?
 
