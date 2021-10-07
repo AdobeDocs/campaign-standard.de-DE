@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Auf dieser Seite wird beschrieben, wie Sie den Aufnahmestatus Ihrer Daten-Mappin
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie die APIs verwenden, muss das Daten-Mapping zunächst in der Benutzeroberfläche von Campaign Standard konfiguriert und publiziert worden sein. Lesen Sie diesbezüglich auch diese Abschnitte:
+Bevor Sie die APIs verwenden, muss das Daten-Mapping zunächst in der Benutzeroberfläche von Campaign Standard konfiguriert und veröffentlicht worden sein. Lesen Sie diesbezüglich auch diese Abschnitte:
 
 * [Mapping-Definition](../../integrating/using/aep-mapping-definition.md)
 * [Mapping-Aktivierung](../../integrating/using/aep-mapping-activation.md)
@@ -54,7 +54,8 @@ Die sofortige Aufnahme eines XDM-Mappings in Adobe Experience Platform wird mit 
 >
 >Um den POST API-Aufruf zur Aufnahme ausführen zu können, muss der Benutzer über die Rolle **SQL-Funktionsausführung** verfügen, die von einem Campaign Standard-Administrator vergeben werden kann, indem er das folgende JS-Skript ausführt:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
