@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ![](assets/and_join.png)
 
-Die **[!UICONTROL Und-Verknüpfung]** ermöglicht es, die Ausführung verschiedener Workflow-Zweige zu synchronisieren.
+Die **[!UICONTROL Und-Verknüpfung]** ermöglicht es, die Ausführung verschiedener Workflow-Verzweigungen zu synchronisieren.
 
 ## Anwendungskontext {#context-of-use}
 
@@ -30,7 +30,7 @@ Bei einer **[!UICONTROL Und-Verknüpfung]** wird die ausgehende Transition erst 
 
 ## Konfiguration {#configuration}
 
-1. Ziehen Sie verschiedene Aktivitäten, z. B. Abfragen in den Workflow-Arbeitsbereich, um mindestens zwei Zweige zu bilden.
+1. Ziehen Sie verschiedene Aktivitäten, z. B. Abfragen, in den Workflow-Arbeitsbereich, um mindestens zwei Verzweigungen zu bilden.
 1. Ziehen Sie eine **[!UICONTROL Und-Verknüpfung]** in den Arbeitsbereich.
 1. Schließen Sie die Aktivität an die zwei verschiedenen Zweige an, um diese zu synchronisieren.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
