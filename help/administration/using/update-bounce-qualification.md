@@ -7,9 +7,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,8 +47,8 @@ Auf der Grundlage des Zeitrahmens des Vorfalls werden im Folgenden die Richtlini
 Für Campaign-Instanzen mit SMTP-Bounce-Antwortinformationen im Feld **[!UICONTROL Fehlertext]** der Quarantäneliste:
 
 * **Fehlertext (Quarantänetext)** enthält &quot;550-5.1.1 Das E-Mail-Konto, das Sie erreichen wollten, existiert nicht&quot; UND **Fehlertext (Quarantänetext)** enthält &quot;support.google.com&quot; **
-* **Status aktualisieren (@lastModified)** am oder nach dem 14.12.2020 um 6:55:00 Uhr
-* **Status aktualisieren (@lastModified)** am oder vor dem 16.12.2020 um 6.:00:00 Uhr
+* **Statusaktualisierung (@lastModified)** später als 14.12.2020 6:55:00 Uhr
+* **Statusaktualisierung (@lastModified)** früher als 16.12.2020 6:00:00 Uhr
 
 Sobald Sie die Liste der betroffenen Empfänger haben, können Sie diese entweder auf den Status **[!UICONTROL Gültig]** setzen, damit sie vom Workflow **[!UICONTROL Datenbankbereinigung]** aus der Quarantäneliste entfernt werden, oder sie einfach aus der Tabelle löschen.
 
