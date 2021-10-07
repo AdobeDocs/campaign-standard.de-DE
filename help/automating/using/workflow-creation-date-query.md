@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Sie können am Jahrestag der Profilerstellung eines Kunden diesem ein Angebot pe
 
 ![](assets/time_zone.png)
 
-## Abfrageaktivität erstellen.  {#creating-a-query-activity}
+## Abfrageaktivität erstellen {#creating-a-query-activity}
 
 1. Um Empfänger auszuwählen, ziehen Sie eine [](../../automating/using/query.md)Abfrageaktivität in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Fügen Sie **[!UICONTROL Profile]** hinzu und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
@@ -65,7 +65,7 @@ Das Ergebnis sollte folgendermaßen aussehen:
 
 Wählen Sie **[!UICONTROL Bestätigen]** aus.
 
-### Profile abrufen, die im Versandmonat erstellt wurden {#retrieving-profiles-created-on-the-same-month}
+### Profile abrufen, die im Versandmonat erstellt wurden{#retrieving-profiles-created-on-the-same-month}
 
 1. Wählen Sie im **[!UICONTROL Abfrageeditor]** die erste Abfrage aus und duplizieren Sie sie.
 1. Öffnen Sie das Duplikat.
