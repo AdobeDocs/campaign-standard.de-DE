@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1972'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -220,7 +220,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Konvertiert einen String in Datum+Zeitzone.<br /> Beispiel: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> Konvertiert einen String in Datum+Zeitzone.<br /> Beispiel: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asien/Teheran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -386,7 +386,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
 ## Sonstige {#others}
 
-Diese Tabelle enthält die restlichen verfügbaren Funktionen.
+In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 
 <table> 
  <tbody> 
@@ -536,12 +536,12 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Verkettet die beiden als Parameter übergebenen Strings. fügt, wenn nötig, Leerstellen hinzu.<br /> </td> 
+   <td> Verkettet die zwei als Parameter übergebenen Zeichenfolgen. Im zurückgegebenen Wert wird zwischen den einzelnen Zeichenfolgen ein Leerzeichen eingefügt.<br /> </td> 
    <td> JuxtWords(&lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Verkettet die drei als Parameter übergebenen Strings. fügt, wenn nötig, Leerstellen hinzu.<br /> </td> 
+   <td> Verkettet die drei als Parameter übergebenen Zeichenfolgen. Im zurückgegebenen Wert wird zwischen den einzelnen Zeichenfolgen ein Leerzeichen eingefügt.<br /> </td> 
    <td> JuxtWords3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
