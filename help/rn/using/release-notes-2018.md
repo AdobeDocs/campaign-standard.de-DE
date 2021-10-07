@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5459'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Integration von Adobe Launch für Mobile Apps (Beta)<br /> </td> 
-   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -249,8 +249,8 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 * Fehlerkorrektur – jetzt weisen alle Roh-Berichtereignisse damit verknüpfte Tracking-Ereignisse auf, da das Feld eventDate jetzt ordnungsgemäß befüllt wird.
 * Fehlerkorrektur – personalisierte Felder werden jetzt im Vorschaufenster eines Push-Benachrichtigungsversands angezeigt.
 * Fehlerkorrektur – jetzt wird der Nachrichtentext einer Push-Benachrichtigung im Vorschaufenster mit Zeilenumbruch angezeigt.
-* Fehlerkorrektur - Beim Versand eines wiederkehrenden Versands über einen Workflow tritt kein Fehler mehr auf, wenn die Hauptzielgruppe leer ist.
-* Fehlerkorrektur - Der Zugriff auf ein Zielgruppen-Mapping ist jetzt möglich, wenn es mit einem nicht vorhandenen Schema verknüpft ist.
+* Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn ein wiederkehrender Versand mithilfe eines Workflows gesendet wird und die Hauptzielgruppe leer ist.
+* Fehlerkorrektur – auf ein Zielgruppen-Mapping kann jetzt auch dann zugegriffen werden, wenn es mit einem nicht vorhandenen Schema verknüpft ist.
 * Fehlerkorrektur – beim Import einer komprimierten Datei mithilfe einer Datei-laden-Aktivität tritt jetzt kein Fehler mehr auf. (CAMP-24309)
 * Fehlerkorrektur – jetzt tritt bei der Durchführung eines wiederkehrenden Versands kein PostgreSQL-Fehler mehr auf. (CAMP-23613)
 * Fehlerkorrektur – jetzt wird keine Fehlermeldung mehr angezeigt, wenn eine REST-API-Anfrage mit einem leeren JSON-Attribut gesendet wird. (CAMP-23506)
@@ -305,7 +305,7 @@ _Benutzerdefinierte Ressourcen_
     <ul> 
      <li> Recht auf Zugriff: Das Datensubjekt hat das Recht, eine Kopie seiner personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, zu erhalten. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
      <li> Recht auf Löschung: Das Datensubjekt hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
-    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer für E-Mail (Beta)<br /> </td> 
@@ -469,7 +469,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
      <li> Bilder oder andere Mediendateien herunterladen und als Anhänge zu einer Benachrichtigung hinzufügen </li> 
      <li> Den Text oder Titel einer Benachrichtigung ändern </li> 
      <li> Eine Thread-Id zur einer Benachrichtigung hinzufügen </li> 
-    </ul> Weiterführende Informationen zu den Funktionen "Inhalt verfügbar" und "Veränderlicher Inhalt" finden Sie im <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">entsprechenden Handbuch</a>.<br /> <strong>Achtung:</strong> Damit Kunden diese Aktualisierungen der Push-Benachrichtigungen nutzen können, müssen sie ihre Mobile Apps aktualisieren. Weiterführende Informationen finden Sie in <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">dieser Technote</a>.<br /> </td> 
+    </ul> Weiterführende Informationen zu den Funktionen "Inhalt verfügbar" und "Veränderlicher Inhalt" finden Sie im <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">entsprechenden Handbuch</a>.<br /> <strong>Achtung:</strong> Damit Kunden diese Aktualisierungen der Push-Benachrichtigungen nutzen können, müssen sie ihre Mobile Apps aktualisieren. Weiterführende Informationen finden Sie in <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=de">dieser Technote</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Zeitzonenoptimierte Sendungen<br /> </td> 
