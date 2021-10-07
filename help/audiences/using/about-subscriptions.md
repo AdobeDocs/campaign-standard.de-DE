@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Abonnements können auch mithilfe der Adobe Campaign Standard API verwaltet werd
 
 Gehen Sie wie folgt vor, um einen Abonnement-Mechanismus zu erstellen:
 
-1. **Erstellen eines Dienstes**  - führen Sie die  [in diesem ](../../audiences/using/creating-a-service.md) Abschnitt beschriebenen Schritte aus, um einen Anmeldedienst zu erstellen.
+1. **Erstellen eines Services** – führen Sie die [in diesem Abschnitt](../../audiences/using/creating-a-service.md) beschriebenen Schritte aus, um einen Abonnement-Service zu erstellen.
 1. **Link freigeben** – erfahren Sie [auf dieser Seite](../../audiences/using/promoting-a-service.md), wie Sie Ihren Dienst fördern und freigeben können.
 1. **Abonnements überwachen** – [in diesem Abschnitt](../../audiences/using/monitoring-subscriptions.md) finden Sie mehrere Möglichkeiten, Abonnements zu Ihrem Dienst zu überwachen.
 1. **Abonnements bestätigen** – folgen Sie [diesem Tutorial](../../audiences/using/confirming-subscription-to-a-service.md), um eine Nachricht über eine Anmeldebestätigung zu senden.
