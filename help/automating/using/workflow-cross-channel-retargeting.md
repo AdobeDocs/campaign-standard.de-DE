@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
 1. Geben Sie die Eigenschaften des Workflows ein und wählen Sie **[!UICONTROL Erstellen]** aus.
 
-## Abfrageaktivität erstellen.{#creating-a-query-activity}
+## Abfrageaktivität erstellen{#creating-a-query-activity}
 
 1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
