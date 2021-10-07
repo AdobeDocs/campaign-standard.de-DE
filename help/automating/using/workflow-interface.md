@@ -10,9 +10,9 @@ role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Gewisse Funktionen stehen nur im Arbeitsbereich zur Verfügung:
 
 ## Symbolleiste {#action-bar}
 
-Je nach im Arbeitsbereich ausgewählten Elementen oder Workflow-Status sind in der Symbolleiste unterschiedliche Schaltflächen verfügbar.
+Je nach den im Arbeitsbereich ausgewählten Elementen oder dem Workflow-Status sind in der Symbolleiste unterschiedliche Schaltflächen verfügbar.
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Aktivität öffnen]**<br/>Erlaubt die Bearbeitung der Workflow-Eigenschaften.
 
@@ -149,7 +149,7 @@ Um eine Aktivität zu duplizieren, gehen Sie wie folgt vor:
 
 1. Die Aktivität wird mit allen zuvor konfigurierten Einstellungen dupliziert.
 
-Es ist auch möglich, mehrere Aktivitäten zu kopieren und einzufügen, sodass Sie einen gesamten Workflow duplizieren können.
+Sie können auch mehrere Aktivitäten mit Copy-and-Paste kopieren, sodass ein gesamter Workflow dupliziert werden kann.
 
 Wählen Sie dabei die Aktivitäten aus, indem Sie rund um sie einen Kreis ziehen. Wählen Sie dann in der Symbolleiste die Schaltfläche **[!UICONTROL Auswahl kopieren]** aus (oder drücken Sie **Strg + C**). Danach können Sie die Aktivitäten an der gewünschten Position einfügen.
 
