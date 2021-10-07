@@ -9,13 +9,13 @@ role: Data Architect
 level: Intermediate
 exl-id: e6148b40-f608-4aab-81f6-756608c6828e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
 ht-degree: 100%
 
 ---
 
-# Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren        {#declaring-the-parameters-in-the-external-signal-activity}
+# Parameter in der Aktivität &quot;Externes Signal&quot; deklarieren {#declaring-the-parameters-in-the-external-signal-activity}
 
 Um einen Workflow mit Parametern aufzurufen, müssen Sie diese zunächst in der Aktivität **[!UICONTROL Externes Signal]** deklarieren.
 
