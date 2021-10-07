@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Ist die Löschanfrage erfolgreich, lautet der Antwortstatus &quot;204 Kein Inhal
 
 ***Beispielanfrage***
 
-Die folgenden Beispiel-Payloads zeigen, wie Sie ein Profil von einem Dienst abmelden können. Führen Sie zuerst eine GET-Anfrage aus, um das Profil abzurufen.
+Die folgenden beispielhaften Payloads zeigen, wie Sie ein Profil von einem Service abmelden können. Führen Sie zuerst eine GET-Anfrage aus, um das Profil abzurufen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
