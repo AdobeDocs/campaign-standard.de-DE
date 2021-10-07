@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
    ![](assets/wkf_data_export1.png)
 
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
-1. Geben Sie den Titel der **Ausgabedatei** an. Der Dateiname wird automatisch mit dem Datum und der Uhrzeit der Erstellung ergänzt, um seine Eindeutigkeit zu gewährleisten, z. B.: Beispiel: recipients_20150815_081532.txt für eine Datei, die am 15. August 2015 bei 08:15:32 generiert wurde.
+1. Geben Sie den Titel der **Ausgabedatei** an. Der Dateiname wird automatisch mit dem Datum und der Uhrzeit der Erstellung ergänzt, um seine Eindeutigkeit zu gewährleisten, z. B.: Beispiel: recipients_20150815_081532.txt für eine Datei, die am 15. August 2015 um 08:15:32 Uhr erstellt wurde.
 
    >[!NOTE]
    >
