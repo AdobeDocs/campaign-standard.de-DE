@@ -9,7 +9,7 @@ role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Im Tab **Bearbeiten** haben Sie folgende Möglichkeiten:
 
 Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zu Ihrem Dashboard hinzufügen:
 
-* **Neues leeres Bedienfeld**: Fügt ein neues leeres Bedienfeld zu Ihrem Dashboard hinzu.
+* **Neues leeres Panel**: Fügt ein Neues leeres Panel zu Ihrem Dashboard hinzu.
 * **Neue Freiform**: Fügt eine neue Freiformtabelle zu Ihrem Dashboard hinzu.
 * **Neue Zeile**: Fügt ein neues Liniendiagramm zu Ihrem Dashboard hinzu.
 * **Neuer Balken**: Fügt ein neues Balkendiagramm zu Ihrem Dashboard hinzu.
@@ -71,7 +71,7 @@ Die Symbolleiste befindet sich über Ihrem Arbeitsbereich. Sie besteht aus versc
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 
-### Projekt-Tab      {#project-tab}
+### Projekt-Tab {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -92,13 +92,13 @@ Im Tab **Bearbeiten** haben Sie folgende Möglichkeiten:
 * **Rückgängig**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
 * **Alle löschen**: Löscht alle Bedienfelder in Ihrem Dashboard.
 
-### Einfügen-Tab      {#insert-tab}
+### Einfügen-Tab {#insert-tab}
 
 ![](assets/tab_insert.png)
 
 Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zu Ihrem Dashboard hinzufügen:
 
-* **Neues leeres Bedienfeld**: Fügt ein neues leeres Bedienfeld zu Ihrem Dashboard hinzu.
+* **Neues leeres Panel**: Fügt ein Neues leeres Panel zu Ihrem Dashboard hinzu.
 * **Neue Freiform**: Fügt eine neue Freiformtabelle zu Ihrem Dashboard hinzu.
 * **Neue Zeile**: Fügt ein neues Liniendiagramm zu Ihrem Dashboard hinzu.
 * **Neuer Balken**: Fügt ein neues Balkendiagramm zu Ihrem Dashboard hinzu.
@@ -147,4 +147,4 @@ Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang di
 
 **Verwandtes Thema:**
 
-* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
