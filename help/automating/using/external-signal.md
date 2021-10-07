@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Beachten Sie, dass die Aktivität **[!UICONTROL Externes Signal]** von mehreren 
 **Verwandte Themen**
 
 * [Anwendungsfall: Aktivität &quot;Externes Signal&quot; und Datenimport](../../automating/using/external-signal-data-import.md)
-* [Anwendungsfall: Aufruf eines Workflows zum Erstellen einer Audience aus einer Datei mit externen Parametern](../../automating/using/use-case-calling-workflow.md)
+* [Anwendungsfall: Aufruf eines Workflows über eine Datei mithilfe von Parametern, um eine Audience zu erstellen](../../automating/using/use-case-calling-workflow.md)
 
 ## Konfiguration {#configuration}
 
