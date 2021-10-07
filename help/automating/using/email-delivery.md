@@ -10,13 +10,13 @@ role: Data Architect
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
 ---
 
-# E-Mail-Versand            {#email-delivery}
+# E-Mail-Versand{#email-delivery}
 
 ## Beschreibung {#description}
 
@@ -44,7 +44,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 
 * [Anwendungsfall: Erstellung eines einmaligen E-Mail-Versands pro Woche](../../automating/using/workflow-weekly-offer.md)
 * [Anwendungsfall: Erstellung eines Standort-segmentierten Versands](../../automating/using/workflow-segmentation-location.md)
-* [Anwendungsfall: Erstellen von Versendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
+* [Anwendungsfall: Erstellen von Sendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md)
 * [Anwendungsfall: Retargeting-Workflow für einen erneuten Versand an Nicht-Öffner](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Anwendungsfall: Versand zum Geburtstag](../../automating/using/birthday-delivery.md)
 
