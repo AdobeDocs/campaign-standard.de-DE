@@ -6,7 +6,7 @@ role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Dies sind die Schritte für diesen Anwendungsfall:
 Verwandte Themen:
 
 * [Ressource erstellen oder erweitern](../../developing/using/creating-or-extending-the-resource.md)
-* [Identifizierungsschlüssel definieren       ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Identifizierungsschlüssel definieren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard-REST-APIs](../../api/using/get-started-apis.md)
 
 ## Schritt 1: Identifizierungsschlüssel konfigurieren{#step-1-configure-the-identification-key}
