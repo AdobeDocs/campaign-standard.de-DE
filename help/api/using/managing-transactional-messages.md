@@ -11,7 +11,7 @@ exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -142,4 +142,4 @@ In der Antwort können Sie im Feld &quot;Status&quot; ermitteln, ob das Ereignis
 * **Versand fehlgeschlagen**: Bei der Verarbeitung des Ereignisses ist ein Versandfehler aufgetreten.
 * **Routing fehlgeschlagen**: Die Routing-Phase ist fehlgeschlagen. Dies kann beispielsweise geschehen, wenn der angegebene Ereignistyp nicht gefunden werden kann.
 * **Zu alt**: Das Ereignis ist abgelaufen, bevor es verarbeitet werden konnte. Das kann verschiedene Gründe haben, z. B. wenn ein Senden mehrmals fehlschlägt (was dazu führt, dass das Ereignis nicht mehr aktuell ist) oder der Server Ereignisse nach einer Überlastung nicht mehr verarbeiten kann.
-* **targetingFailed**: Campaign Standard konnte einen Link, der für die Nachrichten-Zielgruppenbestimmung verwendet wird, nicht anreichern.
+* **Targeting fehlgeschlagen**: Campaign Standard konnte einen Link, der für das Nachrichten-Targeting verwendet wird, nicht anreichern.

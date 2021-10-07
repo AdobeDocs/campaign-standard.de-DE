@@ -11,7 +11,7 @@ exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-A
 
    Ein Popup zur Bestätigung erscheint. Sobald Sie den Export bestätigt haben, wird die Datei automatisch auf Ihr Gerät geladen.
 
-Die Datei wird im CSV-Format mit der Erweiterung .TXT generiert. Sie wird nach der exportierten Ressource und dem Exportdatum benannt. Beispiel: Der Name profileBase_20150426_120253.txt wird auf einen am 26. April 2015 um 12:02:53 durchgeführten Profilexport angewendet. Sie ist im UTF-8-Format kodiert.
+Die Datei wird im CSV-Format mit der Erweiterung .TXT generiert. Sie wird nach der exportierten Ressource und dem Exportdatum benannt. Zum Beispiel: profileBase_20150426_120253.txt für einen am 26. April 2015 um 12:02:53 Uhr erfolgten Export von Profilen. Sie ist im UTF-8-Format kodiert.
 
 Numerische Werte und Daten berücksichtigen die Standortparameter (Locale) des Benutzers, der den Export ausführt. Beispiel: TT-MM-JJJJ oder MM-TT-JJJJ.
 
@@ -76,7 +76,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
 
-## Anleitungsvideo {#video}
+## Tutorial {#video}
 
 In diesem Video wird die Konfiguration von Listen gezeigt.
 

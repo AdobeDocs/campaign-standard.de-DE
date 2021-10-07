@@ -11,7 +11,7 @@ exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -77,4 +77,4 @@ Um ein XDM-Mapping zu bearbeiten, öffnen Sie es, ändern Sie die gewünschten I
 
 >[!IMPORTANT]
 >
->Wenn Sie zunächst einen Wert im Abschnitt **[!UICONTROL Feld-Mappings]** bearbeiten und dann außerhalb des Felds klicken, wird die Änderung erst dann auf der Benutzeroberfläche angezeigt, wenn Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken. Dieses Verhalten tritt nur einmal auf, wenn die Bearbeitung für **[!UICONTROL Feldzuordnungen]** die erste Bearbeitung auf der Seite ist.
+>Wenn Sie zunächst einen Wert im Abschnitt **[!UICONTROL Feld-Mappings]** bearbeiten und dann außerhalb des Felds klicken, wird die Änderung erst dann auf der Benutzeroberfläche angezeigt, wenn Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken. Dieses Verhalten tritt nur einmal auf, wenn die Bearbeitung bei **[!UICONTROL Feld-Mappings]** die erste Bearbeitung auf der Seite ist.

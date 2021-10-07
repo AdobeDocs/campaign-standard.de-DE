@@ -11,7 +11,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Da In-App-Nachrichten vom SDK aus Campaign abgerufen werden, möchten wir einen 
 * Kunden markieren mobile Profilfelder (Tabelle appSubscriberRcp) als persönlich und vertraulich, wenn sie sicherstellen möchten, dass diese speziellen Informationen sicher zugestellt werden.
 * Als solche gekennzeichnete Felder können nur in der Profilvorlage (nicht in der AppSubscriber-Vorlage oder der Broadcast-Vorlage) verwendet werden, in die ein zusätzlicher Sicherheitsmechanismus integriert ist.
 * Mit der Profilvorlage erstellte Nachrichten können nur zugestellt werden, wenn sich der Benutzer bei der App angemeldet hat.
-* Um diesen sicheren Handshake zu erleichtern, sollten Entwickler mobiler Apps zusätzliche Authentifizierungsdetails mithilfe der setLinkageField-API weitergeben. Bitte beachten Sie, dass die Verknüpfungsfelder diejenigen sind, die bei der Erweiterung der appSubscriberRcp-Tabelle als Verknüpfung zwischen mobilen Profilen und CRM-Profilen identifiziert werden.
+* Um diesen sicheren Handshake zu ermöglichen, sollten Entwickler von Mobile Apps zusätzliche Authentifizierungsdetails mithilfe der setLinkageField-API übergeben. Bitte beachten Sie, dass die Verknüpfungsfelder diejenigen sind, die bei der Erweiterung der appSubscriberRcp-Tabelle als Verknüpfung zwischen mobilen Profilen und CRM-Profilen identifiziert werden.
 * Sie sollten die auf dem Gerät gespeicherten In-App-Nachrichten leeren und resetLinkagefields zurücksetzen, wenn sich der Benutzer mit resetLinkageField bei der App abmeldet. Dadurch wird sichergestellt, dass ein anderer Benutzer, der sich bei der App anmeldet, nicht die für den vorherigen Benutzer bestimmten Nachrichten sieht.
 * Informationen zur Client-seitigen Implementierung dieses Sicherheitsmechanismus finden Sie unter [Mobile SDK-APIs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
 

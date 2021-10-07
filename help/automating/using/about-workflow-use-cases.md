@@ -35,7 +35,7 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu erkennen, in denen Workflo
 * [E-Mail mit Zusatzdaten personalisieren](../../automating/using/personalizing-email-with-additional-data.md)
 * [Wiederkehrende Push-Benachrichtigungen senden](../../automating/using/recurring-push-notifications.md)
 
-## Segmentierung und Targeting {#segmentation-and-targeting}
+## Segmentierung und Zielgruppenbestimmung {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 

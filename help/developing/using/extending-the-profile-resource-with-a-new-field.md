@@ -25,10 +25,10 @@ In unserem Beispiel wird gezeigt, wie die Profile unter Verwendung einer Landing
 
 Gehen Sie dazu wie folgt vor:
 
-* [Schritt 1: Profil-Ressource erweitern      ](#step-1--extend-the-profile-resource)
-* [Schritt 2: Testprofil erweitern      ](#step-2--extend-the-test-profile)
-* [Schritt 3: Benutzerdefinierte Ressource veröffentlichen  ](#step-3--publish-your-custom-resource)
-* [Schritt 4: Profile mit einem Workflow aktualisieren und auswählen      ](#step-4--update-and-target-profiles-with-a-workflow)
+* [Schritt 1: Profil-Ressource erweitern](#step-1--extend-the-profile-resource)
+* [Schritt 2: Testprofil erweitern](#step-2--extend-the-test-profile)
+* [Schritt 3: Benutzerdefinierte Ressource veröffentlichen](#step-3--publish-your-custom-resource)
+* [Schritt 4: Profile mit einem Workflow aktualisieren und auswählen](#step-4--update-and-target-profiles-with-a-workflow)
 
 Das folgende Feld wird dann zu unseren Profilen hinzugefügt und kann für einen Versand ausgewählt werden:
 
@@ -40,7 +40,7 @@ Verwandte Themen:
 * [Profile verwalten](../../audiences/using/about-profiles.md)
 * [Testprofile verwalten](../../audiences/using/managing-test-profiles.md)
 
-## Schritt 1: Profil-Ressource erweitern       {#step-1--extend-the-profile-resource}
+## Schritt 1: Profil-Ressource erweitern {#step-1--extend-the-profile-resource}
 
 Um das neue Feld **Interessen** für unsere Profile zu erstellen, müssen Sie zunächst die native Ressource **[!UICONTROL Profile (profile)]** erweitern.
 
