@@ -10,7 +10,7 @@ role: Data Architect
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Durch die Bearbeitung eines Ausdrucks können Sie den Audiences-Ausdruck persona
 
 **Verwandte Themen:**
 
-* [Syntax von Ausdrücken ](../../automating/using/advanced-expression-editing.md#expression-syntax)
+* [Syntax von Ausdrücken](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 
 ## Syntax von Ausdrücken  {#expression-syntax}
@@ -106,8 +106,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
    >[!NOTE]
-   >
-   >Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
+   Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
@@ -156,7 +155,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
   <tr> 
    <td> <span class="uicontrol">Niedriger als</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> Der erste Wert muss streng kleiner als der zweite sein.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> gibt alle Profile aus, die vor weniger als 100 Tagen in der Datenbank erstellt wurden.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
   <tr> 
    <td> <span class="uicontrol">Kleiner oder gleich</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> Der erste Wert muss kleiner oder gleich dem zweiten sein.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> gibt alle Profile im Alter von 60 Jahren und jünger aus.<br /> </td> 
   </tr> 
