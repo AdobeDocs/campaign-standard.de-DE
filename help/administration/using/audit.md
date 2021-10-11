@@ -7,11 +7,10 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
-exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '528'
-ht-degree: 100%
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -106,7 +105,6 @@ Gehen Sie dabei folgendermaßen vor:
       >[!NOTE]
       >
       >Wenn die Option **[!UICONTROL XtkAudit_Enable_All]** auf 0 gesetzt ist, wird die Funktion **[!UICONTROL Audit-Protokoll]** unabhängig von anderen individuellen Optionswerten vollständig deaktiviert.
-
    ![](assets/audit-trail_5.png)
 
 1. Wählen Sie auf der Seite **[!UICONTROL Optionen]** für den **[!UICONTROL Wert (ganze Zahl)]** &quot;0&quot;, um das **[!UICONTROL Audit-Protokoll]** zu deaktivieren, und &quot;1&quot;, um es zu aktivieren.

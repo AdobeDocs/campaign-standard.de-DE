@@ -8,8 +8,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+workflow-type: tm+mt
 source-wordcount: '5302'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 [Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de)
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
@@ -84,8 +84,8 @@ ht-degree: 100%
 
 **Verbesserungen**
 
-* **Datenschutzverwaltung**: Das **CCPA-Opt-out**-Feld, das über die Campaign-Benutzeroberfläche und die API verfügbar war, wird jetzt auch über den Privacy Core Service unterstützt. In diesem Feld können Adobe Campaign-Benutzer verfolgen, ob ein Verbraucher sich vom Verkauf persönlicher Informationen abgemeldet hat. [Mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa)
-* **Verbesserungen bei der Workflow-Ausführung** (Beta): Im Rahmen einer globalen Initiative für Workflows wurden einige wichtige Verbesserungen entwickelt, um die Speicherverwaltung zu stabilisieren, die Latenz zu verringern und den von Workflows während der Ausführung verbrauchten Speicher zu optimieren. Diese Verbesserungen befinden sich derzeit in der Beta-Phase und stehen nur einer Reihe von Kunden zur Verfügung. Die allgemeine Verfügbarkeit ist für Anfang 2021 geplant.
+* **Datenschutzverwaltung**: Das **CCPA-Opt-out**-Feld, das über die Campaign-Benutzeroberfläche und die API verfügbar war, wird jetzt auch über den Privacy Core Service unterstützt. In diesem Feld können Adobe Campaign-Benutzer verfolgen, ob ein Verbraucher sich vom Verkauf personenbezogener Informationen abgemeldet hat. [Mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa)
+* **Verbesserungen bei der Workflow-Ausführung** (Beta): Im Rahmen einer globalen Initiative für Workflows wurden einige wichtige Verbesserungen entwickelt, um die Speicherverwaltung zu stabilisieren, die Latenz zu verringern und den von Workflows während der Ausführung verbrauchten Speicher zu optimieren. Diese Verbesserungen befinden sich derzeit in der Betaversion und stehen nur einer Reihe von Kunden zur Verfügung. Die allgemeine Verfügbarkeit ist für Anfang 2021 geplant.
 * Um die Sicherheit zu verbessern, verwendet Campaign jetzt einen **Signaturmechanismus** zum Verfolgen von Links in E-Mails.
 * Die Konfiguration mobiler Apps wurde durch **klarere Fehlermeldungen** beim Hochladen von iOS-Zertifikaten oder Android-Schlüsseln verbessert.
 * **Die Verwaltung von SMS- Fehlern** wurde verbessert, um zu verhindern, dass zu viele Profile zur Quarantäne-Liste hinzugefügt werden. Standardmäßig werden SMS-Fehler jetzt als Softbounces anstelle von Hardbounces konfiguriert. Mehr dazu erfahren Sie auf [dieser Seite](https://helpx.adobe.com/de/campaign/kb/sms-connector-protocol-and-settings.html).
@@ -221,7 +221,7 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Die <strong>externe API-Aktivität </strong> wechselt von der Betaphase in die allgemeine Verfügbarkeit. Diese Version bietet zusätzliche Flexibilität für das Parsen des Textes von JSON-Antworten. Sie können jetzt:</p>
+  <td> <p>Die <strong>externe API-Aktivität </strong> wechselt von der Betaversion in die allgemeine Verfügbarkeit. Diese Version bietet zusätzliche Flexibilität für das Parsen des Textes von JSON-Antworten. Sie können jetzt:</p>
 <ul>
 <li>eine verschachtelte JSON mit einer maximalen Tiefe von zehn Ebenen analysieren; </li>
 <li>ausgewählte Eigenschaften als Blattknoten aus einer JSON analysieren und auf eine Tabellenzeile abflachen;</li>
@@ -291,7 +291,7 @@ ht-degree: 100%
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.2 – April 2020 {#release-20-2---april-2020}
 
@@ -329,7 +329,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
+>Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 **Verbesserungen**
 
@@ -361,7 +361,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe Experience Platform-Funktionen in Campaign Standard befinden sich derzeit in der Betaphase und können daher häufig ohne Vorankündigung aktualisiert werden. Weiterführende Informationen finden Sie im entsprechenden Handbuch: [Experience Platform-Connectoren ](../../integrating/using/aep-about-data-connector.md), [Audience-Ziele](../../integrating/using/aep-about-audience-destinations-service.md)
+>Adobe Experience Platform-Funktionen in Campaign Standard befinden sich derzeit in der Betaversion und können daher häufig ohne Vorankündigung aktualisiert werden. Weiterführende Informationen finden Sie im entsprechenden Handbuch: [Experience Platform-Connectoren ](../../integrating/using/aep-about-data-connector.md), [Audience-Ziele](../../integrating/using/aep-about-audience-destinations-service.md)
 
 * In den Workflow-Protokollen zeigt Campaign nun alle zehn Minuten die Anzahl der Datensätze an, die vom derzeit ausgeführten Auftrag bereits verarbeitet wurden.
 * Ein Adobe Experience Platform-Profil, das aus der Datenbank gelöscht worden war, kann jetzt problemlos importiert werden.
@@ -402,12 +402,12 @@ ht-degree: 100%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Adobe Experience Platform Data Connector (Beta)</strong><br /> </th> 
+   <th> <strong>Adobe Experience Platform Data Connector (Betaversion)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Campaign-Daten in Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign erfasste Daten) auf das Adobe Experience Platform-Datenmodell (XDM) abbilden. </p>
+   <td> <p>Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Campaign-Daten in Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign aufgenommene Daten) auf das Adobe Experience Platform-Datenmodell (XDM) abbilden. </p>
     <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-data-connector.md">ausführlichen Dokumentation</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=de">Anleitungsvideo</a>.</p>
    </td> 
   </tr> 
@@ -417,7 +417,7 @@ ht-degree: 100%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Audience Destinations (Beta) </strong><br /> </th> 
+   <th> <strong>Audience Destinations (Betaversion) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
