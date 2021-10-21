@@ -9,9 +9,9 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    * **[!UICONTROL Places]**: Die folgenden drei Kategorien nutzen Echtzeit-Standortdaten, um kontextuell relevante mobile Erlebnisse bereitzustellen: Places-Kontextdaten, benutzerdefinierte Places-Metadaten oder Places-Ereignistyp.
 
-      Weiterführende Informationen zu Adobe Places finden Sie in der [Places-Dokumentation](https://experienceleague.adobe.com/docs/places/using/home.html).
+      Weiterführende Informationen zu Adobe Places finden Sie in der [Places-Dokumentation](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de).
    ![](assets/inapp_creating_4.png)
 
 1. Bei der Verwendung der Funktion **[!UICONTROL Analytics-Ereignisse]** werden Adobe Analytics- und Ansichtsstatus-Ereignisse abhängig von den in der Analytics-Erweiterung in Adobe Experience Platform Launch konfigurierten Report Suites automatisch mit Daten befüllt, während Kontextdaten-Ereignisse manuell hinzugefügt werden müssen.
