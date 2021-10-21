@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Aus
 
    ![](assets/update_profile_createelement.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abgleichfeld aus. Sie können hier z. B. das Feld „email“, „crmId“ oder „marketingCloudId“ des Profils auswählen. Verwenden Sie in diesem Beispiel das Feld &quot;E-Mail (cusEmail)&quot;.
+1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abgleichfeld aus. Sie können hier z. B. das Feld &quot;email&quot;, &quot;crmId&quot; oder &quot;marketingCloudId&quot; des Profils auswählen. Verwenden Sie in diesem Beispiel das Feld &quot;E-Mail (cusEmail)&quot;.
 
 1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgeglichen werden sollen. Dies kann das E-Mail-Feld des Profils oder ein beliebiges erweitertes Feld wie „crmId“ oder „marketingCloudId“ sein. In diesem Beispiel wählen Sie das Feld „E-Mail (email)“ aus, um es dem Feld „E-Mail (cusEmail)“ der Tabelle „appSubscriptionRcp“ zuzuordnen.
 
