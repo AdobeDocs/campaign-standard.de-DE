@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Die wichtigsten Schritte sind:
 >
 >Mit dieser Funktion können Sie personenbezogene Daten des Profils an externe E-Mail-Adressen senden. Beachten Sie, dass eine Ausführung von Datenschutzanfragen (DSGVO und CCPA) in Campaign Standard NICHT zu einer externen Ausführung der Anfrage führen wird.
 
-![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](#video).
 
 ## Auswählen von Profilen und Ersatzadressen {#selecting-profiles}
 
@@ -190,7 +190,7 @@ Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
 1. Richten Sie den Workflow ein, um eine Audience aus der Datei zu erstellen. Fügen Sie dazu die folgenden Aktivitäten hinzu und konfigurieren Sie sie:
 
    * Aktivität **[!UICONTROL Datei laden]**: Importiert die CSV-Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/load-file.md)).
-   * Aktivität **[!UICONTROL Abstimmung]**: Verknüpft Informationen aus der Datei mit Informationen aus der Datenbank. Verwenden Sie in diesem Beispiel die E-Mail-Adresse des Profils als Abstimmfeld (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/reconciliation.md)).
+   * Aktivität **[!UICONTROL Abstimmung]**: Verknüpft Informationen aus der Datei mit Informationen aus der Datenbank. In diesem Beispiel verwenden wir die E-Mail-Adresse des Profils als Abstimmungsfeld (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/reconciliation.md)).
    * Aktivität **[!UICONTROL Audience-Speicherung]**: Erstellt eine Audience basierend auf der importierten Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/save-audience.md)).
 
    ![](assets/substitution_uc2.png)
