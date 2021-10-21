@@ -5,9 +5,9 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1798'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -254,7 +254,7 @@ ht-degree: 99%
       + [Über Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Triggers in Experience Cloud konfigurieren](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
-      + [Trigger testen](integrating/using/testing-your-triggers.md)
+      + [Testen Ihrer Trigger](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Erste Schritte mit der Integration von Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
@@ -454,7 +454,7 @@ ht-degree: 99%
       + [Lokales Benachrichtigungs-Tracking implementieren](administration/using/local-tracking.md)
       + [Häufig gestellte Fragen zur Synchronisation von Adobe Launch](administration/using/syncwithlaunch-faq.md)
       + [Häufig gestellte Fragen zur Integration des Experience Platform SDK](administration/using/aep-faq.md)
-      + [Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen konfigurieren](administration/using/configuring-rules-launch.md)
+      + [Konfigurieren von Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migrieren Ihrer Mobile App vom SDK v4 zum Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + SMS-Kanal konfigurieren {#configuring-sms}
@@ -498,7 +498,7 @@ ht-degree: 99%
       + [Löschen von Anmeldungen](api/using/deleting-subscriptions.md)
    + [Interaktion mit dem Marketing-Verlauf](api/using/interacting-with-marketing-history.md)
    + Datenschutzverwaltung {#privacy-management}
-      + [Datenschutzanfrage erstellen](api/using/creating-a-privacy-request.md)
+      + [Erstellen einer Datenschutzanfrage](api/using/creating-a-privacy-request.md)
       + [Überwachen einer Datenschutzanfrage](api/using/monitoring-a-privacy-request.md)
       + [Abrufen von Datenschutzdateien](api/using/retrieving-privacy-data-files.md)
       + [Verwalten des CCPA-Opt-outs](api/using/managing-ccpa-opt-out.md)
