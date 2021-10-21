@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1709'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Als Datenverantwortlicher sind Sie daher außerdem verpflichtet, die Identität 
 
 ### Namespaces {#namesspaces}
 
-Bevor Sie Datenschutzanfragen erstellen, definieren Sie den Namespace, den Sie verwenden werden. Der Namespace ist der Schlüssel, anhand dessen die Identität der betroffenen Person in der Adobe Campaign-Datenbank identifiziert wird. Standardmäßig sind zwei Namespaces verfügbar: E-Mail und Mobiltelefon. Wenn Sie einen anderen Namespace benötigen (z. B. ein benutzerdefiniertes Profilfeld) führen Sie diese Schritte aus.
+Bevor Sie Datenschutzanfragen erstellen können, müssen Sie den Namespace definieren, den Sie verwenden möchten. Der Namespace ist der Schlüssel, anhand dessen die Identität der betroffenen Person in der Adobe Campaign-Datenbank identifiziert wird. Standardmäßig sind zwei Namespaces verfügbar: E-Mail und Mobiltelefon. Wenn Sie einen anderen Namespace benötigen (z. B. ein benutzerdefiniertes Profilfeld) führen Sie diese Schritte aus.
 
 Weitere Informationen zum Erstellen eines Namespace finden Sie in diesem [Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=de#privacy).
 
@@ -53,7 +53,7 @@ Weitere Informationen zum Erstellen eines Namespace finden Sie in diesem [Tutori
 >
 >Wenn Sie mehrere Namespaces verwenden, erstellen Sie pro Namespace eine Datenschutzanfrage.
 
-1. Klicken Sie links oben auf das Adobe Campaign-Logo und wählen Sie **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]** aus.
+1. Klicken Sie im Bildschirm oben links auf das Adobe Campaign-Logo und verwenden Sie dann die Schaltflächen **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
    ![](assets/privacy-namespaces.png)
 
@@ -75,9 +75,9 @@ Weitere Informationen zum Erstellen eines Namespace finden Sie in diesem [Tutori
 
    Weitere Informationen zu Identity-Namespaces finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de).
 
-1. Je ein Identity Service Namespace wird je einem Namespace in Campaign zugeordnet. Sie müssen angeben, wie der Namespace in Campaign abgestimmt werden soll.
+1. Je ein Identity Service Namespace wird je einem Namespace in Campaign zugeordnet. Dazu müssen Sie angeben, wie der Namespace in Campaign abgestimmt werden soll.
 
-   Wählen Sie ein Zielgruppen-Mapping aus (**[!UICONTROL Empfänger]**, **[!UICONTROL Echtzeit-Ereignis]** oder **[!UICONTROL Abonnements für eine Anwendung]**). Wenn Sie mehrere Zielgruppen-Mappings verwenden möchten, erstellen Sie pro Zielgruppen-Mapping einen Namespace.
+   Wählen Sie ein Zielgruppen-Mapping aus (**[!UICONTROL Empfänger]**, **[!UICONTROL Echtzeit-Ereignis]** oder **[!UICONTROL Abonnements für eine Anwendung]**). Wenn Sie mehrere Zielgruppen-Mappings verwenden möchten, müssen Sie pro Zielgruppen-Mapping einen Namespace erstellen.
 
    ![](assets/privacy-namespace-target-mapping.png)
 
@@ -127,9 +127,9 @@ Wenn Sie benutzerdefinierte Ressourcen erstellt haben, für die eine Relation zu
 
 Weitere Informationen zum Ändern benutzerdefinierter Ressourcen finden Sie in [diesem Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=de#privacy).
 
-Damit dies funktioniert, müssen Sie in der benutzerdefinierten Ressource die Option **[!UICONTROL Das Löschen des Zieldatensatzes zieht das Löschen der durch die Relation]** referenzierten Datensätze nach sich:
+Wählen Sie zu diesem Zweck in der benutzerdefinierten Ressource die Option **[!UICONTROL Das Löschen des Zieldatensatzes zieht das Löschen der durch die Relation referenzierten Datensätze nach sich]** aus:
 
-1. Klicken Sie oben links auf das Adobe Campaign-Logo und wählen Sie dann **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Benutzerdefinierte Ressourcen]** aus.
+1. Klicken Sie auf das Adobe Campaign-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Benutzerdefinierte Ressourcen]**.
 
 1. Wählen Sie eine benutzerdefinierte Ressource aus, für die eine Relation zur Profilressource (Typ &quot;own&quot;) besteht.
 
@@ -177,7 +177,7 @@ Die Konfiguration und Verwendung von Zugriffs- und Löschanfragen sind für DSGV
 
 Zusätzlich zu den von Campaign bereitgestellten Tools für die [Einverständnisverwaltung](../../start/using/privacy-management.md#consent-management) können Sie verfolgen, ob ein Verbraucher dem Verkauf seiner personenbezogenen Daten widersprochen hat.
 
-Wenn Benutzer über Ihr System entscheiden, dass sie nicht zulassen, dass ihre personenbezogenen Daten an Dritte verkauft werden, können Sie diese Informationen speichern und nachverfolgen.
+Wenn Benutzer über Ihr System entscheiden, dass sie den Verkauf ihrer personenbezogenen Daten an Dritte nicht zulassen, können Sie diese Informationen speichern und nachverfolgen.
 
 >[!NOTE]
 >
@@ -189,7 +189,7 @@ Wenn Benutzer über Ihr System entscheiden, dass sie nicht zulassen, dass ihre p
 
 ### Voraussetzungen für benutzerdefinierte Tabellen {#ccpa-prerequisite}
 
-Ab Version 19.4 verfügen die Campaign-Benutzeroberfläche und die API nativ über das Feld **[!UICONTROL CCPA-Opt-out]**. Standardmäßig ist das Feld für die **[!UICONTROL Standard-Profilressource]** verfügbar.
+Ab Version 19.4 verfügen die Campaign-Benutzeroberfläche und die API nativ über das Feld **[!UICONTROL CCPA-Opt-out]**. Standardmäßig ist das Feld für die Standard-**[!UICONTROL Profilressource]** verfügbar.
 
 Wenn Sie eine benutzerdefinierte Profilressource verwenden, müssen Sie die Ressource erweitern und das Feld hinzufügen. Es wird empfohlen, einen anderen Namen als das native Feld zu verwenden. Beispiel: **[!UICONTROL Opt-out für CCPA]** (optoutccpa). Wenn ein neues Feld erstellt wird, wird es automatisch von der Campaign-API unterstützt.
 
