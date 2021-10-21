@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Alle Objekte und Benutzer der Plattform sind einer Organisationseinheit zugeordn
 >
 >Standardmäßig wird die Organisationseinheit **[!UICONTROL Alle (all)]** der Sicherheitsgruppe **[!UICONTROL Administratoren]** zugewiesen. Sie ist schreibgeschützt und kann nicht geändert werden.
 
-Der Zugriff eines Benutzers auf Objekte übergeordneter Einheiten ist schreibgeschützt. Dieser Benutzer hat Lese- und Schreibzugriff auf alle Objekte seiner Einheit und untergeordneten Einheiten. Benutzer haben keinen Zugriff auf Objekte aus Parallelzweigen.
+Der Zugriff eines Benutzers auf Objekte übergeordneter Einheiten ist schreibgeschützt. Ein Benutzer verfügt über Lese- und Schreibzugriff auf Objekte seiner Einheit sowie untergeordneter Einheiten. Benutzer haben keinen Zugriff auf Objekte aus Parallelzweigen.
 
 Standardmäßig sind nur die Einheiten **[!UICONTROL Alle]** verfügbar.
 
@@ -79,17 +79,17 @@ Wie sich die Zuweisung unterschiedlicher Einheiten zu unterschiedlichen Sicherhe
 
 1. Gehen Sie analog vor, um die zweite Vorlage zu erstellen, die der zuvor generierten Organisationseinheit &quot;Geometrixx Clothes&quot; zugeordnet wurde.
 
-Benutzer, die den Gruppen **Standardbenutzer** und **Geometrixx Clothes** zugewiesen sind, können beide Vorlagen sehen. Aufgrund der hierarchischen Struktur der Organisationseinheiten haben sie Lese- und Schreibzugriff auf die mit der Geometrixx Clothes-Einheit verknüpfte Vorlage und nur Lesezugriff auf die mit der Geometrixx verknüpfte Vorlage.
+Benutzer, die den Gruppen **Standardbenutzer** und **Geometrixx Clothes** zugewiesen sind, können beide Vorlagen sehen. Wegen der hierarchischen Struktur der Organisationseinheiten besitzen diese Benutzer Lese- und Schreibrechte für die Vorlage, die mit der Einheit &quot;Geometrixx Clothes&quot; verknüpft ist, und nur Leserechte für die Vorlage, die mit der Einheit &quot;Geometrixx&quot; verknüpft ist.
 
 ![](assets/manage_units_7.png)
 
-Da die Geometrixx Clothes-Einheit eine untergeordnete Einheit von Geometrixx ist, wird die folgende Meldung angezeigt, wenn Benutzer versuchen, die Geometrixx zu ändern:
+Da die Einheit &quot;Geometrixx Clothes&quot; eine untergeordnete Einheit von &quot;Geometrixx&quot; ist, erscheint die folgende Nachricht, wenn der Benutzer versucht, die Vorlage &quot;Geometrixx&quot; zu ändern:
 
 ![](assets/manage_units_8.png)
 
-Mit Organisationseinheiten kann der Zugriff auf verschiedene Funktionen wie etwa Profile eingeschränkt werden. Wenn unsere Geometrixx Clothes-Benutzer beispielsweise auf den Tab **[!UICONTROL Profile]** zugreifen, können sie die Profile mit der Organisationseinheit &quot;Geometrixx Clothes&quot; vollständig aufrufen und ändern.
+Mit Organisationseinheiten kann der Zugriff auf verschiedene Funktionen wie etwa Profile eingeschränkt werden. Unser Benutzer &quot;Geometrixx Clothes&quot; könnte beispielsweise auf der Registerkarte **[!UICONTROL Profile]** umfassend auf die Profile in der Organisationseinheit &quot;Geometrixx Clothes&quot; zugreifen und diese verändern.
 
-Die Profile mit Organisationseinheit Geometrixx sind dagegen schreibgeschützt. Bei der Änderung eines Profils wird die folgende Fehlermeldung angezeigt: **[!UICONTROL Sie verfügen nicht über die erforderlichen Berechtigungen, um die &#39;profile&#39;-Ressource von ID]** zu ändern.
+Im Gegensatz dazu bestehen für die Organisationseinheit &quot;Geometrixx &quot; nur Leserechte und die folgende Fehlermeldung wird angezeigt, wenn unser Benutzer versucht, ein Profil zu ändern: **[!UICONTROL Sie verfügen nicht über die erforderlichen Rechte, um die Ressource &quot;Profil&quot; mit der ID]** zu ändern.
 
 ![](assets/manage_units_10.png)
 
