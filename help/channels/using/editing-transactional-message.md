@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '675'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Sobald Ihre Nachricht fertig ist, kann sie getestet und veröffentlicht werden. 
 
 Aufrufen der erstellten Transaktionsnachricht:
 
-1. Klicken Sie links oben auf das Logo **Adobe**.
+1. Klicken Sie oben links auf das **Adobe**-Logo.
 1. Wählen Sie **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]** aus.
 
    ![](assets/message-center_4.png)
