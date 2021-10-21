@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1679'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,9 +56,9 @@ Wenn Sie das SMPP-Protokoll verwenden möchten, können Sie auch ein neues exter
 
    Hier können Sie den maximalen Durchsatz für ausgehende Nachrichten (&quot;MT&quot;, Mobile Terminated) festlegen. Bei Angabe von &quot;0&quot; im entsprechenden Feld ist der Durchsatz unbegrenzt.
 
-   Die Werte aller Felder, die der Dauer entsprechen, müssen in Sekunden angegeben werden.
+   Alle Werte, die eine Dauer angeben, sind in Sekunden auszudrücken.
 
-1. Definieren Sie die SMS-C-spezifischen Parameter, falls Sie ein bestimmtes Kodierungs-Mapping definieren müssen. Weiterführende Informationen hierzu finden Sie im Abschnitt [SMSC-Besonderheiten](#smsc-specifics).
+1. Konfigurieren Sie die Parameter für SMS-C, falls Sie ein spezifisches Codierungs-Mapping definieren müssen. Weiterführende Informationen hierzu finden Sie im Abschnitt [SMSC-Besonderheiten](#smsc-specifics).
 
    Aktivieren Sie die Option **[!UICONTROL Vollständige Telefonnummer senden (Zeichen und nicht Ziffern senden)]**, wenn Sie die Konformität mit dem SMPP-Protokoll nicht wahren und das Vorzeichen **[!UICONTROL +]** an den Server des SMS-Anbieters (SMS-C) übertragen möchten.
 
