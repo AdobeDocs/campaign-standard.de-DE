@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '570'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Das Tracking lokaler Benachrichtigungen kann in drei Typen unterteilt werden:
 
 Um das Tracking für Adobe Campaign Standard zu implementieren, muss die Mobile App das Mobile SDK in die App integrieren. Diese SDKs sind in [!DNL Adobe Mobile Services] verfügbar.
 
-Zum Senden von Tracking-Informationen müssen drei Variablen gesendet werden: zwei davon gehören zu den von Adobe Campaign empfangenen Daten, die andere ist eine Aktionsvariable, die bestimmt, ob es sich um eine Impression, einen Klick oder eine Öffnung handelt.
+Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon gehören zu den von Adobe Campaign empfangenen Daten und die dritte ist eine Aktionsvariable, die bestimmt, ob es sich um eine Impression, einen Klick oder eine Öffnung handelt.
 
 | Variable | Wert |
 | :-: | :-: |
@@ -46,7 +46,7 @@ Das Adobe Experience Platform Mobile SDK sendet automatisch das Impression-Ereig
 
 ## Implementieren des Klick-Tracking {#implementing-click-tracking}
 
-Für das Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot; senden, wenn die Funktionen `collectMessageInfo()` oder `trackAction()` aufgerufen werden.
+Für das Klick-Tracking muss für die Aktion der Wert &quot;2&quot; gesendet werden, wenn die Funktion `collectMessageInfo()` oder `trackAction()` aufgerufen wird.
 
 ### Für Android {#implement-click-tracking-android}
 
@@ -68,7 +68,7 @@ Um Klicks zu verfolgen, müssen zwei Szenarien implementiert werden:
 
 ### Für iOS {#implement-click-tracking-ios}
 
-Um die Klick-Tracking-Informationen zu senden, müssen Sie Folgendes hinzufügen:
+Um die Informationen zum Klick-Tracking zu senden, müssen Sie Folgendes hinzufügen:
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -99,15 +99,15 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## Implementieren des Öffnungs-Tracking {#implement-open-tracking}
+## Implementieren des Öffnungs-Trackings {#implement-open-tracking}
 
-Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Benutzer auf die Benachrichtigung klicken muss, um die Anwendung zu öffnen. Wenn die App nicht über eine lokale Benachrichtigung gestartet/geöffnet wird, treten keine Tracking-Ereignisse auf.
+Sie müssen &quot;1&quot; und &quot;2&quot; senden, da der Benutzer zum Öffnen der Anwendung zunächst auf die Benachrichtigung klicken muss. Wenn die Anwendung nicht über eine lokale Benachrichtigung gestartet/geöffnet wird, treten keine Tracking-Ereignisse auf.
 
 ### Für Android {#implement-open-tracking-android}
 
-Um Öffnungen zu verfolgen, müssen wir einen Intent erstellen. Intent-Objekte ermöglichen es dem Android-OS, Ihre Methode aufzurufen, wenn bestimmte Aktionen ausgeführt werden. In diesem Fall ist dies das Klicken der Benachrichtigung, um die App zu öffnen.
+Um das Öffnen verfolgen zu können, müssen Sie einen Intent erstellen. Intent-Objekte ermöglichen es dem Android-OS, Ihre Methode aufzurufen, wenn bestimmte Aktionen ausgeführt werden. In diesem Fall ist dies das Klicken der Benachrichtigung, um die App zu öffnen.
 
-Dieser Code basiert auf der Implementierung des Klick-Impression-Tracking. Mit festgelegtem Intent müssen Sie jetzt Tracking-Informationen zurück an Adobe Campaign senden. In diesem Fall wird Android View ([!DNL Activity]), das die Benachrichtigung ausgelöst hat, aufgrund des Klicks des Benutzers geöffnet oder in den Vordergrund gestellt. Das Intent-Objekt in [!DNL Activity] enthält die Benachrichtigungsdaten, die zum Verfolgen von Öffnungen verwendet werden können.
+Dieser Code basiert auf der Implementierung des Klick-Impression-Tracking. Mit festgelegtem Intent müssen Sie jetzt Tracking-Daten zurück an Adobe Campaign senden. In diesem Fall wird Android View ([!DNL Activity]), das die Benachrichtigung ausgelöst hat, aufgrund des Klicks des Benutzers geöffnet oder in den Vordergrund gestellt. Das Intent-Objekt in [!DNL Activity] enthält die Benachrichtigungsdaten, die zum Verfolgen von Öffnungen verwendet werden können.
 
 MainActivity.java (erweitert [!DNL Activity])
 
