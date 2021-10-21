@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ Im Folgenden finden Sie die standardmäßige Dauer der Beibehaltung für Standar
 
 Die Beibehaltungsdauer für benutzerdefinierte Tabellen kann mithilfe standardmäßiger Workflow-Funktionen festgelegt werden.
 
-Wenden Sie sich an Adobe-Berater oder technische Administratoren, um mehr über die Beibehaltung zu erfahren oder die Beibehaltung für benutzerdefinierte Tabellen festzulegen.
+Wenden Sie sich an einen Adobe-Berater oder technischen Administrator, um mehr über die Beibehaltung zu erfahren oder Beibehaltung für benutzerdefinierte Tabellen festzulegen.
