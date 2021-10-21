@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2815'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -330,7 +330,7 @@ Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce Messages]** und 
 
 ### Bounce-Message-Qualifizierung     {#legacy-bounce-mail-qualification}
 
-Um die verschiedenen Bounces und die zugehörigen Fehlertypen und -ursachen aufzulisten, klicken Sie oben links auf das Logo **Adobe** und wählen Sie dann **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]** aus.
+Um die unterschiedlichen Bounces und ihre jeweiligen Fehlertypen und -ursachen aufzulisten, klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf  **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
 
 Folgende Qualifikationsstatus von Bounces treten auf:
 
