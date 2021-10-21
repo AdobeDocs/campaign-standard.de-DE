@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Weitere Informationen zur Integration des Adobe Experience Platform SDK mit Camp
 
 ## Ist die Adobe Experience Platform SDK-Integration für sowohl Adobe Campaign Standard als auch Adobe Campaign Classic verfügbar? {#aep-validity}
 
-Ja, die [!DNL Adobe Experience Platform SDK] Integration ist für Adobe Campaign Standard und Adobe Campaign Classic verfügbar. Sie müssen die entsprechende **[!UICONTROL Erweiterung]** über [!DNL Adobe Launch] installieren, um die Integration zu aktivieren.
+Ja, die [!DNL Adobe Experience Platform SDK]-Integration ist für Adobe Campaign Standard und Adobe Campaign Classic verfügbar. Sie müssen die entsprechende **[!UICONTROL Erweiterung]** über [!DNL Adobe Launch] installieren, um die Integration zu aktivieren.
 
 Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
@@ -76,7 +76,7 @@ Gehen Sie dazu wie folgt vor:
 
 ## Was muss ich tun, um ein mobiles Profil in Campaign anzureichern? {#enrich-mobile-profile}
 
-Sie müssen ein CollectPII-Postback konfigurieren (siehe diese [Seite](../../administration/using/configuring-rules-launch.md#pii-postback)) und die CollectPII-API vom SDK implementieren (siehe diese [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Sie müssen ein CollectPII-Postback konfigurieren (siehe diese [Seite](../../administration/using/configuring-rules-launch.md#pii-postback)) und die CollectPII-API aus dem SDK implementieren (siehe diese [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## Wie oft sollte ein CollectPII-Aufruf ausgelöst werden? {#collect-pii}
 
