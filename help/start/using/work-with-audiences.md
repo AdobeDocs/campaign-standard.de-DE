@@ -5,9 +5,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Campaign Standard bietet verschiedene Tools zur Erweiterung Ihrer Marketing-Date
 
 Mit Workflows können Sie Daten erfassen und mithilfe von [**[!UICONTROL Datenverwaltungsaktivitäten]**](../../automating/using/about-data-management-activities.md) in die Campaign-Datenbank importieren. Allgemeine Informationen und Best Practices zum Importieren von Daten über Workflows werden in [diesem Abschnitt](../../automating/using/about-data-import-and-export.md) erläutert.
 
-Darüber hinaus können Sie Vorlagen für den Datenimport einrichten. Die Verwendung von Importvorlagen ist eine Best Practice, um regelmäßig Dateien mit derselben Struktur zu importieren. Sie können zwei Arten von Vorlagen einrichten:
+Darüber hinaus können Sie Vorlagen für den Datenimport einrichten. Die Verwendung von Importvorlagen empfiehlt sich als Best Practice, wenn Sie regelmäßig Dateien mit derselben Struktur importieren müssen. Sie können zwei Arten von Vorlagen einrichten:
 
 * **Workflow-Vorlagen**: Hierbei handelt es sich um vorkonfigurierte Workflows, die Sie einmal entsprechend Ihren Anforderungen einrichten und jedes Mal wiederverwenden können, wenn Sie Daten importieren und die Datenbank aktualisieren möchten. Ein Beispiel für eine Workflow-Vorlage zum Importieren von Daten finden Sie in [diesem Abschnitt](../../automating/using/creating-import-workflow-templates.md).
 
