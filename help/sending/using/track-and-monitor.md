@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Verfolgen und überwachen {#track-and-monitor}
 
-Sie haben auf die Senden-Schaltfläche geklickt? Lassen Sie uns sehen, was dann passiert. Nach dem Versand der Nachrichten ermöglicht es Ihnen Adobe Campaign die gesendeten Nachrichten zu verfolgen und festzustellen, wie Ihre Empfänger darauf reagieren. Dies hilft Ihnen, den künftigen Versand zu verbessern und Ihre nächsten Kampagnen zu optimieren.
+Sie haben auf die Senden-Schaltfläche geklickt? Lassen Sie uns sehen, was dann passiert. Nach dem Versand der Nachrichten ermöglicht es Ihnen Adobe Campaign die gesendeten Nachrichten zu verfolgen und festzustellen, wie Ihre Empfänger darauf reagieren. Dadurch können Sie den zukünftigen Versand verbessern und Ihre nächsten Kampagnen optimieren.
 
 ## Sendungen überwachen {#monitoring-deliveries}
 
