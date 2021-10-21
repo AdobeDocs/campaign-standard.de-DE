@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Das Aktualisieren von Profilen erfolgt über eine **PATCH**-Anfrage.
 
 1. Der erste Schritt besteht aus dem **Abrufen des Profils**.
 
-1. Führen Sie in einer zweiten Anfrage eine **PATCH-Anfrage** für das Profil mit den ausgefüllten Informationen in der Payload aus.
+1. Im zweiten Schritt führen wir eine **PATCH-Anfrage** für das Profil mit den ausgefüllten Informationen in der Payload aus.
 
 1. Um zu überprüfen, ob die PATCH-Anfrage das Profil aktualisiert hat, können wir eine letzte GET-Anfrage ausführen.
 
