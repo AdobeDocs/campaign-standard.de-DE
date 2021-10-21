@@ -8,9 +8,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Im Fenster **[!UICONTROL Lizenzen]** finden Sie die auf Ihrer Instanz installier
 
 ![](assets/license_1.png)
 
-Bei einem neuen Build oder einer neuen Funktion können sich die Lizenzbedingungen ändern und müssen von einem funktionalen Administrator der Instanz akzeptiert werden.
+Mit der Veröffentlichung eines neuen Builds oder einer neuen Funktion kann sich die Lizenzvereinbarung ändern. Diese muss dann von einem funktionalen Administrator der Instanz akzeptiert werden.
 
 Wenn sich ein Standardbenutzer einloggt, erscheint das folgende Fenster. Vonseiten des Standardbenutzers ist keine Aktion erforderlich. Standardbenutzer können Adobe Campaign weiterhin verwenden, indem sie die Schaltfläche **[!UICONTROL OK]** auswählen.
 
