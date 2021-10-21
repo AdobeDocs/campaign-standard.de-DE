@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2444'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Verwandte Themen:
 
 Um eine Typologieregel vom Typ **[!UICONTROL Ermüdung]** zu erstellen und zu konfigurieren, gehen Sie folgendermaßen vor:
 
-1. Klicken Sie auf das Adobe Campaign-Logo oben links auf der Benutzeroberfläche und wählen Sie dann **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** > **[!UICONTROL Typologieregeln]** aus.
+1. Klicken Sie auf das Adobe Campaign-Logo oben links im Bildschirm und wählen Sie dann die Optionen **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** > **[!UICONTROL Typologieregeln]** aus.
 
    ![](assets/fatigue4.png)
 
