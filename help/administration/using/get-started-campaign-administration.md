@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Beachten Sie, dass Admin-Benutzer auch das Control Panel von Campaign nutzen kö
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-Die verschiedenen Verwaltungsvorgänge in Adobe Campaign werden über das Menü **[!UICONTROL Administration]** ausgeführt, auf das Sie durch Klicken auf das Adobe Campaign-Logo oben links zugreifen können. Auf diesen Bereich der Benutzeroberfläche können nur funktionale Plattform-Administratoren zugreifen.
+Die verschiedenen Administrationsvorgänge in Adobe Campaign werden über das Menü ]**Administration**[!UICONTROL  ausgeführt, das durch Klicken auf das Adobe Campaign-Logos oben links aufgerufen werden kann. Auf diesen Bereich der Benutzeroberfläche können nur funktionale Plattform-Administratoren zugreifen.
 
 Folgende Menüs stehen zur Verfügung:
 
