@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Für dieses Verfahren sind die folgenden Elemente erforderlich:
 * Mandant für Adobe Target,
 * Adobe-Target-Rawbox für Adobe Campaign.
 
-1. Wählen Sie im erweiterten Menü über das Adobe Campaign -Logo oben links **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]** aus.
+1. Wählen Sie im erweiterten Menü über das Adobe Campaign-Logo oben links im Bildschirm die Schaltflächen  **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Optionen]**.
 1. Um die Server- und Mandantenoptionen für Adobe Target zu konfigurieren, füllen Sie die folgenden Felder aus:
 
    * **[!UICONTROL TNT_TenantName]**, Name des Mandanten für Adobe Target. Dieser Wert entspricht dem Adobe-Target-**[!UICONTROL Client-Namen]**.
