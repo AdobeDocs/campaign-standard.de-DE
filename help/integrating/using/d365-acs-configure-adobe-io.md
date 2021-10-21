@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Nach dem Herunterladen können Sie die Datei entpacken, um die öffentlichen und
 
    ![](assets/adobeIO6.png)
 
-1. Auf dem nächsten Bildschirm sehen Sie die Details Ihres neuen Adobe IO-Projekts. Klicken Sie oben links im Bildschirm auf **[!UICONTROL Zum Projekt hinzufügen]** und wählen Sie **API** aus der Dropdown-Liste aus.
+1. Auf dem nächsten Bildschirm sehen Sie die Details Ihres neuen Adobe IO-Projekts. Klicken Sie oben links im Bildschirm auf **[!UICONTROL Zum Projekt hinzufügen]** und wählen Sie in der Dropdown-Liste die Option **API** aus.
 
    ![](assets/adobeIO7.png)
 
@@ -91,7 +91,7 @@ Nach dem Herunterladen können Sie die Datei entpacken, um die öffentlichen und
 
 1. Klicken Sie im nächsten Bildschirm auf **[!UICONTROL Save the configured API]**.  Sie kehren zum Bildschirm mit den Projektdetails zurück.
 
-1. Klicken Sie nun oben links im Bildschirm auf **[!UICONTROL Zum Projekt hinzufügen]** und wählen Sie **API** aus der Dropdown-Liste aus, wie Sie es zuvor getan haben.
+1. Klicken Sie nun oben links im Bildschirm auf **[!UICONTROL Zum Projekt hinzufügen]** und wählen Sie wie zuvor in der Dropdown-Liste die Option **API** aus.
 
 1. Wählen Sie im nächsten Bildschirm die I/O Management-API aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -105,6 +105,6 @@ Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.
 * Die [Übersicht über die Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.
 
 
-* [Adobe IO – Integration von Dienstkonten](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe IO – Integration von Service-Konten](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard – Einrichtung von API-Zugriff](../../api/using/setting-up-api-access.md)
 * [Campaign Standard – Integration mit Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
