@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1117'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen konfigurieren {#configuring-rules-launch}
+# Konfigurieren von Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen {#configuring-rules-launch}
 
-Erstellen Sie in [!DNL Adobe Experience Platform Launch] Datenelemente und Regeln, um personenbezogene Daten und andere Daten von Apps an [!DNL Adobe Campaign Standard] zu senden.
+Erstellen Sie in [!DNL Adobe Experience Platform Launch] Datenelemente und Regeln, damit personenbezogene Daten und andere Informationen von Mobile Apps an [!DNL Adobe Campaign Standard] gesendet werden können.
 
 Damit alle Konfigurationsänderungen in [!DNL Adobe Experience Platform Launch] in Kraft treten können, müssen Sie diese Änderungen veröffentlichen. Weitere Informationen finden Sie unter [Veröffentlichen](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
@@ -77,7 +77,7 @@ Sie müssen Regeln für Folgendes erstellen:
 
 >[!NOTE]
 >
->Um personenbezogene Daten von einer App an Adobe Campaign zu senden, müssen Sie eine SDK-API implementieren. Weitere Informationen finden Sie unter [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Um personenbezogene Informationen von einer Mobile App an Adobe Campaign zu senden, müssen Sie eine SDK-API implementieren. Weitere Informationen finden Sie unter [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
 Um PII-Daten an [!DNL Adobe Campaign Standard] zu senden, erstellen Sie eine Regel in [!DNL Experience Platform Launch]:
 
@@ -189,7 +189,7 @@ Um Tracking-Daten zur Berichtserstellung über die Interaktion Ihrer Benutzer mi
 >
 >Wenn Sie Android ACPCore v1.4.0 oder höher bzw. iOS ACPCore v2.3.0 oder höher verwenden, ist die Konfiguration von Tracking-Postbacks nicht erforderlich.
 
-Um Tracking-Daten an [!DNL Adobe Campaign Standard] zu senden, mit dem Sie Ihre Push-Benachrichtigungsversand und die Interaktion Ihrer Benutzer mit Ihrer Mobile App verfolgen können, müssen Sie eine Regel in [!DNL Experience Platform Launch] erstellen.
+Um Tracking-Daten an [!DNL Adobe Campaign Standard] zu senden, damit Ihre Push-Benachrichtigung und die Benutzerinteraktionen mit Ihrer Mobile App getrackt werden können, müssen Sie eine Regel in [!DNL Experience Platform Launch] erstellen.
 
 Weitere Informationen zum Push-Tracking finden Sie im Abschnitt [Push-Tracking](../../administration/using/push-tracking.md).
 
@@ -264,7 +264,7 @@ Verwenden Sie die trackAction-API, um App-Aktionen zu tracken. Weitere Informati
 
    >[!NOTE]
    >
-   >Im obigen Beispiel müssen die Datenelemente auf der rechten Seite in [!DNL Experience Platform Launch] konfiguriert werden, indem die Schritte unter [Erstellen von Datenelementen](../../administration/using/configuring-rules-launch.md#create-data-elements) genutzt werden. Die Datenelemente auf der linken Seite werden in [!DNL Adobe Campaign Standard] unterstützt und müssen nicht konfiguriert werden. Wenn Sie zusätzliche Daten benötigen, müssen Sie benutzerdefinierte Ressourcenerweiterungen in [!DNL Adobe Campaign Standard] durchführen.
+   >Im obigen Beispiel müssen die Datenelemente auf der rechten Seite in [!DNL Experience Platform Launch] konfiguriert werden. Nutzen Sie dazu die Schritte unter [Erstellen von Datenelementen](../../administration/using/configuring-rules-launch.md#create-data-elements). Die Datenelemente auf der linken Seite werden in [!DNL Adobe Campaign Standard] unterstützt und müssen nicht konfiguriert werden. Wenn Sie zusätzliche Daten benötigen, müssen Sie in [!DNL Adobe Campaign Standard] benutzerdefinierte Ressourcenerweiterungen ausführen.
 
 1. Geben Sie unter **[!UICONTROL Content-Typ]** den Wert **application/json** ein.
 
