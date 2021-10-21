@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ Nachdem Sie ein Transaktionsereignis erstellt und veröffentlicht haben, müssen
 
 >[!NOTE]
 >
->Die Ereigniskonfiguration wird in [diesem Abschnitt](../../channels/using/configuring-transactional-event.md) beschrieben.
+>Näheres zur Konfiguration von Ereignissen finden Sie in [diesem Abschnitt](../../channels/using/configuring-transactional-event.md).
 
-Sie möchten zum Beispiel, dass ein &quot;Warenkorbabbruch&quot; ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Warenkorb gekauft hat. Als Web-Entwickler müssen Sie dazu die REST Transactional Messages-API verwenden.
+Sie möchten zum Beispiel, dass ein &quot;Warenkorbabbruch&quot; ausgelöst wird, wenn ein Kunde Ihre Website verlässt, bevor er die Produkte in seinem Warenkorb gekauft hat. Dazu muss Ihr Web-Entwickler die REST Transactional Messages-API verwenden.
 
-1. Senden Sie eine Anfrage gemäß der POST-Methode, bei der das [Senden des Transaktionsereignisses](#sending-a-transactional-event) Trigger wird.
-1. Die Antwort auf die POST-Anfrage enthält einen Primären Schlüssel, mit dem Sie eine oder mehrere Anfragen über eine GET-Anfrage senden können. Sie können dann den [Ereignisstatus](#transactional-event-status) abrufen.
+1. Senden Sie anhand der POST-Methode eine Anfrage, die das [Senden des Transaktionsereignisses](#sending-a-transactional-event) auslöst.
+1. Die Antwort auf die POST-Anfrage enthält einen Primärschlüssel, mit dem Sie eine oder mehrere Anfragen über eine GET-Anfrage senden können. Sie können dann den [Ereignisstatus](#transactional-event-status) abrufen.
 
 ## Senden eines Transaktionsereignisses {#sending-a-transactional-event}
 
