@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ In Adobe Campaign können Sie Ihren Benutzern verschiedene Rollen zuweisen und d
 
 In den folgenden Abschnitten werden die einzelnen Benutzerrollen und die jeweiligen Berechtigungen genauer beschrieben: [Benutzerrollen](../../administration/using/list-of-roles.md) und [Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de).
 
-Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weitere Informationen hierzu finden Sie in der [Admin Console](https://helpx.adobe.com/de/enterprise/using/users.html) -Dokumentation.
+Administratoren können Benutzer über die Admin Console verwalten. Benutzer werden dadurch automatisch mit Adobe Campaign synchronisiert. Weiterführende Informationen dazu finden Sie in der Dokumentation zur ](https://helpx.adobe.com/de/enterprise/using/users.html)Admin Console[.
 
 ![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](#video).
 
-Um die Benutzer in Adobe Campaign anzuzeigen, klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und wählen Sie **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]** aus.
+Die Anzeige der Adobe Campaign-Benutzer erfolgt über das **Adobe**-Logo oben links im Bildschirm. Klicken Sie dann auf **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]**.
 
 Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie von Adobe Campaign aus auf die Benutzeroberfläche zur Benutzerverwaltung zugreifen.
 
@@ -37,18 +37,18 @@ Mithilfe der Schaltfläche **[!UICONTROL Benutzeradministration]** können Sie v
 
 * Video zur [Verwaltung von Benutzerberechtigungen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=de)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)
-* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [Liste der Berechtigungen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
 
 ## Typen von Benutzern {#type-of-users}
 
-Diese Unterteilung der Benutzer ist nicht zwingend vorgeschrieben, sondern dient nur der Darstellung der häufigsten Verwendungsfälle von Adobe Campaign.
+Diese Unterteilung der Benutzer ist nicht zwingend vorgeschrieben, sondern dient nur der Darstellung der häufigsten Anwendungsfälle von Adobe Campaign.
 
-In diesem Abschnitt lernen Sie die wichtigsten Typen von Adobe Campaign-Benutzern kennen. Weiterführende Informationen zu bestimmten Rollen, die ein Benutzer besitzen kann (Sendungen starten, exportieren, Sendungen vorbereiten usw.), finden Sie auf den Seiten [Liste der Rollen](../../administration/using/list-of-roles.md) und [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) .
+In diesem Abschnitt werden die wichtigsten Typen von Adobe Campaign-Benutzern erläutert. Weiterführende Informationen zu bestimmten Rollen, die ein Benutzer besitzen kann (Sendungen starten, exportieren, Sendungen vorbereiten usw.), finden Sie auf den Seiten [Liste der Rollen](../../administration/using/list-of-roles.md) und [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) .
 
 Vielmehr beschäftigen wir uns mit den drei wichtigsten Benutzertypen entsprechend ihrem Aufgabenbereich in Adobe Campaign:
 
 * [Funktionale Administratoren](#functional-administrators): Dies sind die technisch ausgerichteten Benutzer in Ihrem Unternehmen.
-* [Erweiterte Benutzer](#advanced-users): Sie richten alle Elemente ein, die Marketer für den Versand und die Überwachung von Nachrichten benötigen.
+* [Benutzer mit fortgeschrittenen Kenntnissen](#advanced-users): Sie richten alle Elemente ein, die Marketer für den Versand und die Überwachung von Nachrichten benötigen.
 * [Benutzer mit Grundkenntnissen](#basic-users): Dies sind die Marketer, die Kampagnen personalisieren, versenden und überwachen.
 
 >[!NOTE]
@@ -104,7 +104,7 @@ Dies sind ihre Hauptaufgaben:
 
 ## Benutzer erstellen {#creating-a-user}
 
-Um einen Benutzer zu Ihrer Instanz hinzuzufügen, müssen Sie ihn zunächst in der Admin Console erstellen, bevor Sie ihn in Adobe Campaign Standard verwalten.
+Um einen Benutzer zu Ihrer Instanz hinzuzufügen, müssen Sie ihn zuerst in der Admin Console erstellen und danach in Adobe Campaign Standard verwalten.
 
 1. Wählen Sie dazu im erweiterten Menü **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Benutzer]** und danach **[!UICONTROL Benutzeradministration]** aus, um die Admin Console aufzurufen.
 
@@ -120,7 +120,7 @@ Um einen Benutzer zu Ihrer Instanz hinzuzufügen, müssen Sie ihn zunächst in d
 
    ![](assets/create_user_3.png)
 
-1. Weisen Sie Ihrem Benutzer auf der Registerkarte **[!UICONTROL Produkte]** zuweisen eine oder mehrere Sicherheitsgruppen zu. Weiterführende Informationen zu Sicherheitsgruppen finden Sie auf dieser [Seite](../../administration/using/managing-groups-and-users.md).
+1. Weisen Sie dem Benutzer auf der Registerkarte **[!UICONTROL Produkte zuweisen]** eine oder mehrere Sicherheitsgruppen zu. Weiterführende Informationen zu Sicherheitsgruppen finden Sie auf dieser [Seite](../../administration/using/managing-groups-and-users.md).
 
    Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
@@ -130,7 +130,7 @@ Der Benutzer wird jetzt erstellt. Er erhält eine E-Mail, in der er an folgendes
 
 ![](assets/create_user_5.png)
 
-Beim Signieren in Ihrer Instanz wird dieser Benutzer mit Adobe Campaign Standard synchronisiert.
+Beim Anmelden bei Ihrer Instanz wird dieser Benutzer mit Adobe Campaign Standard synchronisiert.
 
 Anschließend können Sie überprüfen, ob der Benutzer richtig mit Adobe Campaign synchronisiert wurde:
 
