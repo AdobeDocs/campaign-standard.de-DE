@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 
 1. Wenn Sie Testprofile hinzufügen (siehe [Test- und Fallen-Profile hinzufügen](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), können Sie Ihren Versand testen, bevor Sie die endgültige Datei fertigstellen. Dadurch können Sie eine Beispieldatei erstellen, die nur die ausgewählten Testprofile enthält.
 
-   Klicken Sie auf **[!UICONTROL Test]**, um die Beispieldatei zu erstellen. Klicken Sie links oben auf **[!UICONTROL Zusammenfassung]** und wählen Sie dann **[!UICONTROL Testsendungen]** aus. Wählen Sie auf der linken Bildschirmseite den Testversand aus und danach **[!UICONTROL Datei herunterladen]**.
+   Klicken Sie auf **[!UICONTROL Test]**, um die Beispieldatei zu erstellen. Wählen Sie links oben  **[!UICONTROL Zusammenfassung]** aus und danach **[!UICONTROL Testsendungen]**. Wählen Sie auf der linken Bildschirmseite den Testversand aus und danach **[!UICONTROL Datei herunterladen]**.
 
    >[!NOTE]
    >
