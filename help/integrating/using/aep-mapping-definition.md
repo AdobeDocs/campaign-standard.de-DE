@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Sie können die XDM-Erweiterung über die API anpassen und Ihre eigene Erweiteru
 
 Weitere Informationen zur XDM-API finden Sie im [Tutorial zur Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
 
-Um ein Auflistungsfeld abzubilden, müssen Sie den Ausdruckseditor verwenden, um jeden Auflistungswert zu definieren, der dem XDM-Wert entspricht. Das Feld postaladdress muss beispielsweise folgendermaßen definiert sein:
+Um ein Auflistungsfeld abzubilden, müssen Sie den Ausdruckseditor verwenden, um jeden Auflistungswert zu definieren, der dem XDM-Wert entspricht. So muss zum Beispiel &quot;postaladdressfield&quot; wie folgt definiert werden:
 
 ![](assets/aep_enummapping.png)
 
