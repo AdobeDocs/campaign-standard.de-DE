@@ -9,9 +9,9 @@ role: Leader
 level: Intermediate
 exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 >
 >Bitte beachten Sie, dass Sie die Metrik **[!UICONTROL Nachrichtentyp]** in die Tabellen ziehen müssen, um Ihre Daten nach Versandtypen (in diesem Fall Push-Benachrichtigungen) aufzuschlüsseln.
 
-Der Bericht zu **Push-Benachrichtigungen** liefert Details zur Marketing-Performance von Push-Benachrichtigungen in Adobe Campaign. Dieser vordefinierte Bericht zeigt, wie Benutzer mit Push-Benachrichtigungen, Mobile Apps und Sendungen interagieren.
+Der Bericht zu **Push-Benachrichtigungen** liefert Details zur Marketing-Performance von Push-Benachrichtigungen in Adobe Campaign. Dieser native Bericht zeigt, wie Benutzer mit Push-Benachrichtigungen, Mobile Apps und Sendungen interagieren.
 
 Die Mobile App muss entsprechend konfiguriert werden, um Push-Benachrichtigungen zu tracken. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/push-tracking.md).
 
