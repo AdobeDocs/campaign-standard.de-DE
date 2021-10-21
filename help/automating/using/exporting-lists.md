@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-A
    ![](assets/export_list_mode_switch.png)
 
 1. Ordnen Sie die Spalten der Liste mithilfe der Schaltfläche **[!UICONTROL Liste konfigurieren]** oben rechts so an, wie sie exportiert werden sollen. Neben den so ausgewählten Spalten wird auch der Primärschlüssel der Ressource exportiert.
-1. Bei Bedarf können die Daten gefiltert werden. Klicken Sie dazu auf die Schaltfläche oben links, um den Suchbereich anzuzeigen.
+1. Bei Bedarf können die Daten gefiltert werden. Verwenden Sie hierfür die Schaltfläche links oben, um das Such-Menü einzublenden.
 
    Wenn der Export ausgehend von einer Liste mit Ressourcen verschiedenen Typs konfiguriert wird, ist diese zunächst zu filtern, sodass nur ein Ressourcentyp angezeigt wird.
 
