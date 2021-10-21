@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1014'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Wenn Sie den Zugriff eines Benutzers beschränken möchten, fügen Sie ihn nicht
 >
 >Beachten Sie, dass in der Admin Console Sicherheitsgruppen als Profile bezeichnet werden.
 
-Wenn die vorhandenen Gruppen für Ihre Anforderungen nicht ausreichend sind, können Sie auch eigene Sicherheitsgruppen erstellen. Sie können von Administratoren verwaltet werden, die Zugriff auf die Adobe Campaign-Verwaltungsmenüs und die Admin Console haben. Weiterführende Informationen zur Admin Console finden Sie in dieser [Dokumentation](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
+Wenn die vorkonfigurierten Gruppen zur Verwaltung Ihrer Benutzer nicht ausreichend sind, können Sie auch eigene Sicherheitsgruppen erstellen. Sicherheitsgruppen können von Administratoren verwaltet werden, die sowohl auf das Menü &quot;Administration&quot; von Adobe Campaign als auch auf die Admin Console zugreifen können. Weitere Informationen zur Admin Console finden Sie in dieser [Dokumentation](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
 Hier müssen wir zunächst die beiden vorhandenen Gruppen &quot;Standardbenutzer&quot; und &quot;Administrator&quot; unseren Benutzern zuweisen. Diese Sicherheitsgruppen schränken manche Funktionen von Adobe Campaign ein: Die Standardbenutzer haben elementaren Zugriff auf Adobe Campaign, während der Administrator beispielsweise auf die Administratormenüs zugreifen kann.
 
@@ -63,7 +63,7 @@ Im Anschluss erstellen wir die Sicherheitsgruppen &quot;Geometrixx&quot; und &qu
 
 Weisen Sie zunächst eine der vorhandenen Sicherheitsgruppen Ihren Benutzern zu:
 
-1. Wählen Sie in der Admin Console Ihre Instanz und dann den Tab **Benutzer** aus.
+1. Wählen Sie in der Admin Console zuerst Ihre Instanz und dann die Registerkarte **Benutzer** aus.
 
    ![](assets/manage_security_group_2.png)
 
@@ -78,7 +78,7 @@ Weisen Sie zunächst eine der vorhandenen Sicherheitsgruppen Ihren Benutzern zu:
 
 Sobald Ihre beiden Benutzer mit den vordefinierten **[!UICONTROL Administrator]**- und **[!UICONTROL Standardbenutzer]**-Sicherheitsgruppen verknüpft sind, die unseren Benutzern ihre Rollen zuweisen, kann der Administrator jetzt die beiden Sicherheitsgruppen **Geometrixx** und **Geometrixx Clothes** erstellen. Damit werden unseren Benutzern zusätzlich zu den vordefinierten Sicherheitsgruppen auch Organisationseinheiten zugewiesen.
 
-1. Wählen Sie in der Admin Console Ihre Instanz und dann den Tab **Products** aus.
+1. Wählen Sie in der Admin Console zuerst Ihre Instanz und dann die Registerkarte **Produkte** aus.
 1. Verwenden Sie die Schaltfläche **Neues Profil**, um die Sicherheitsgruppe **Geometrixx** zu erstellen.
 
    ![](assets/create_security_1.png)
@@ -124,10 +124,10 @@ Die neu erstellten Sicherheitsgruppen werden jetzt in der Admin Console erstellt
 
 Der Administrator-Benutzer muss die Sicherheitsgruppen erstellen, die für die Zuweisung der Organisationseinheiten verwendet werden: Geometrixx und Geometrixx Clothes. Weiterführende Informationen zur Erstellung von Organisationseinheiten finden Sie in [Einheiten erstellen und verwalten](../../administration/using/organizational-units.md#creating-and-managing-units).
 
-1. Klicken Sie links oben auf das Logo **Adobe** und wählen Sie **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Sicherheitsgruppen]** aus.
+1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Administration > Benutzer &amp; Sicherheit > Sicherheitsgruppen]**.
 1. Erstellen Sie die neue Sicherheitsgruppe und definieren Sie **[!UICONTROL Titel]** und **[!UICONTROL Kennung]**.
 
-   Die Kennung muss mit der in der Admin Console ausgewählten übereinstimmen.
+   Die Kennung muss mit der in der Admin Console ausgewählten identisch sein.
 
 1. Weisen Sie im Feld **[!UICONTROL Benutzerzugriff]** eine Organisationseinheit zu. In unserem Beispiel wird der Geometrixx-Sicherheitsgruppe die Organisationseinheit **[!UICONTROL Alle]** zugewiesen.
 
@@ -146,4 +146,4 @@ Ihre Benutzer sind jetzt einer Sicherheitsgruppe zugeordnet und können sich mit
 
 >[!IMPORTANT]
 >
->Wenn Benutzer aus einer Sicherheitsgruppe in der Admin Console entfernt werden, bleiben sie Teil der Adobe Campaign-Sicherheitsgruppe und können sich nicht mehr bei Adobe Campaign anmelden. Entfernen Sie in diesem Fall die E-Mail-Adressen der Benutzer aus der Admin Console, damit keine sensiblen Informationen an sie gesendet werden können.
+>Wenn Benutzer in der Admin Console aus einer Sicherheitsgruppe entfernt werden, sind sie weiterhin Mitglieder der Adobe Campaign-Sicherheitsgruppe, können sich aber nicht mehr in Adobe Campaign einloggen. Entfernen Sie in diesem Fall die E-Mail-Adressen der Benutzer aus der Admin Console, damit keine sensiblen Informationen an sie gesendet werden können.
