@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '881'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Alle Objekte und Benutzer der Plattform sind einer Organisationseinheit zugeordn
 >
 >Standardmäßig wird die Organisationseinheit **[!UICONTROL Alle (all)]** der Sicherheitsgruppe **[!UICONTROL Administratoren]** zugewiesen. Sie ist schreibgeschützt und kann nicht geändert werden.
 
-Der Zugriff eines Benutzers auf Objekte übergeordneter Einheiten ist schreibgeschützt. Ein Benutzer verfügt über Lese- und Schreibzugriff auf Objekte seiner Einheit sowie untergeordneter Einheiten. Benutzer haben keinen Zugriff auf Objekte aus Parallelzweigen.
+Der Zugriff eines Benutzers auf Objekte übergeordneter Einheiten ist schreibgeschützt. Dieser Benutzer hat Lese- und Schreibzugriff auf alle Objekte seiner Einheit und untergeordneten Einheiten. Benutzer haben keinen Zugriff auf Objekte aus Parallelzweigen.
 
 Standardmäßig sind nur die Einheiten **[!UICONTROL Alle]** verfügbar.
 

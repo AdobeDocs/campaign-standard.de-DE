@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '1237'
-ht-degree: 100%
+source-git-commit: 0d645de54106d49452a846ee650335607dbf21d3
+workflow-type: tm+mt
+source-wordcount: '1307'
+ht-degree: 93%
 
 ---
 
@@ -141,7 +141,17 @@ Die Remote URL, von der der Inhalt abgerufen wird, kann personalisiert werden. G
 
    >[!NOTE]
    >
-   >Die verfügbaren Personalisierungsfelder werden nur mit den Attributen **Versand** verknüpft (Erstellungsdatum der E-Mail, Status, Kampagnentitel etc.).
+   >Die verfügbaren Personalisierungsfelder sind mit **Versand** nur -Attribute (Erstellungsdatum der E-Mail, Status, Kampagnentitel usw.).
+
+Wenn der Download von Inhalten beim ersten Versuch fehlschlägt, kann er zweimal wiederholt werden:
+
+1. Der zweite Versuch beginnt 50 ms nach dem ersten Versuch.
+1. Der dritte Versuch beginnt 100 ms nach dem zweiten Versuch.
+
+Diese Wiederholungen sind in diesen Fällen hilfreich:
+
+* Ein kurzzeitiger Dienstfehler auf einem entfernten Server
+* Serverausfall auf einem Cluster. In diesem Fall ist es wahrscheinlicher, dass die Neuversuche dank des Lastenausgleichs an einen funktionierenden Server erfolgreich sind.
 
 ### Kompatibilitätsmodus {#compatibility-mode}
 

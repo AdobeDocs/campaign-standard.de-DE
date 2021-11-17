@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -92,7 +92,7 @@ Mit dem Parameter **[!UICONTROL filterType]** können Sie Profile anhand eines d
 
 >[!NOTE]
 >
->Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, und es wird nur nach Präfixen gesucht. Sie können z. B. nicht anhand der letzten Buchstaben des Nachnamens nach einem Profil suchen.
+>Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, und es wird nur nach Präfixen gesucht. Sie können beispielsweise nicht mithilfe der letzten Buchstaben des Nachnamens nach einem Profil suchen.
 
 ***Beispielanfragen***
 

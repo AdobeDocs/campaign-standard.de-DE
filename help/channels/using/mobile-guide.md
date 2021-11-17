@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: ebb05c9f9b5501eeda11b16be79fbb4226c0a6fe
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -210,7 +210,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Eingehende SMS verwalten</strong></p>
     </div>
-    <p>Wenn ein Profil auf eine per Campaign gesendete SMS-Nachricht antwortet, können Sie die automatisch an das Profil zu sendenden Nachrichten sowie die auszuführende Aktion konfigurieren.</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Wenn ein Profil auf eine per Campaign gesendete SMS-Nachricht antwortet, können Sie automatisch gesendete Nachrichten sowie die auszuführende Aktion konfigurieren. Der Typ einer lokalen Benachrichtigung kann angepasst werden</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicken Sie hier für weitere Informationen.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
     <br>
   </td>
   <td>

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '4688'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -208,7 +208,7 @@ _Profile und Audiences_
   </tr> 
   <tr> 
    <td> Briefpost-Kanal - Rücksendungen an den Absender<br /> </td> 
-   <td> Der Austausch einfach strukturierter Dateien, die Rücksendeinformation enthalten, mit Briefpost-Dienstleistern wird jetzt unterstützt. Durch diese Verbesserung des Briefpost-Kanals können entsprechende Anschriften von der künftigen Kommunikation ausgeschlossen werden.<br /> Zusätzlich können Marketer sich über fehlerhafte Adressen informieren lassen und mit dem Kunden über andere Kanäle in Kontakt treten oder ihn auffordern, seine Anschrift zu aktualisieren. Dadurch sparen Marketer auch Marketingausgaben, da keine Mails mehr an falsche Adressen gesendet werden. <br /> Briefpost ist als zusätzlicher Kanal verfügbar. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/return-to-sender.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Der Austausch einfach strukturierter Dateien, die Rücksendeinformation enthalten, mit Briefpost-Dienstleistern wird jetzt unterstützt. Durch diese Verbesserung des Briefpost-Kanals können entsprechende Anschriften von der künftigen Kommunikation ausgeschlossen werden.<br /> Auf diese Weise können Marketer über eine falsche Adresse informiert und mit dem Kunden über andere Kanäle in Kontakt treten oder ihn dazu ermutigen, seine Anschrift zu aktualisieren. Dadurch sparen Marketer auch Marketingausgaben, da keine Mails mehr an falsche Adressen gesendet werden. <br /> Briefpost ist als zusätzlicher Kanal verfügbar. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/return-to-sender.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,7 +400,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell Versandzeitpunkt optimieren<br /> </td> 

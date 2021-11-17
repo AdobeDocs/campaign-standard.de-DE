@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -101,11 +101,11 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Der Empfänger klickt auf einen Link, über den er auf Ihre Website gelangt. In diesem Fall wird der Empfänger vom Banner zur Startseite der Reisebuchungs-Website weitergeleitet.
+1. Der Empfänger klickt auf einen Link, über den er zu Ihrer Website gelangt. In diesem Fall wird der Empfänger vom Banner zur Startseite der Reisebuchungs-Website weitergeleitet.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. Der Empfänger öffnet die Angebote-Seite, bricht seinen Besuch aber ab. Nach 10 Minuten startet Adobe Campaign mit dem Versand der Transaktionsnachricht.
+1. Der Empfänger besucht die Seite &quot;Angebote&quot;, stoppt jedoch plötzlich seinen Besuch. Nach 10 Minuten startet Adobe Campaign mit dem Versand der Transaktionsnachricht.
 
    ![](assets/trigger_uc_browse_12.png)
 

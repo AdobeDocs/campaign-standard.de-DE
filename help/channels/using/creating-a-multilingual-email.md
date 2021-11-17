@@ -8,16 +8,16 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Mehrsprachige E-Mail erstellen{#creating-a-multilingual-email}
 
-Sie können eine mehrsprachige E-Mail an Profile mit unterschiedlichen bevorzugten Sprachen senden: Jedes Profil erhält eine E-Mail-Variante in der bevorzugten Sprache.
+Sie können eine mehrsprachige E-Mail an Profile mit unterschiedlichen Sprachen senden: Jedes Profil erhält eine Variante der E-Mail in der bevorzugten Sprache.
 
 Überprüfen Sie zunächst, ob eine mehrsprachige E-Mail-Vorlage verfügbar ist. Ist dies nicht der Fall, erfahren Sie in [diesem Abschnitt](../../channels/using/multilingual-messages-template.md), wie Sie eine erstellen können.
 

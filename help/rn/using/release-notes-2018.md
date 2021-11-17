@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
-source-wordcount: '5459'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '5457'
+ht-degree: 99%
 
 ---
 
@@ -36,12 +36,12 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
  </thead> 
  <tbody> 
   <tr> 
-   <td> In-App-Messaging (Beta)<br /> </td> 
+   <td> In-App-Messaging (Betaversion)<br /> </td> 
    <td> In-App-Messaging ermöglicht Ihnen, Mobile-App-Benutzer wirkungsvoller anzusprechen, da In-App-Messaging kontextuelle Interaktionen ermöglicht und Benutzer erreicht werden können, die sich von Push-Benachrichtigungen abgemeldet haben. Die Nutzung von In-App-Messaging gemeinsam mit Push-Benachrichtigungen ermöglicht ein stark personalisiertes und relevantes Benutzererlebnis. Dies wiederum sorgt für mehr Konversionen und bessere Kundenbindung.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-in-app-messaging.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration von Adobe Launch für Mobile Apps (Beta)<br /> </td> 
-   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Integration von Adobe Launch für Mobile Apps (Betaversion)<br /> </td> 
+   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -303,12 +303,12 @@ _Benutzerdefinierte Ressourcen_
    <td> EU-Datenschutz-Grundverordnung (DSGVO)<br /> </td> 
    <td> Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), die am 25. Mai 2018 in Kraft tritt und in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe Campaign-Kunden, die Daten von Personen erfassen, die in der EU wohnhaft sind.<br /> Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können:<br /> 
     <ul> 
-     <li> Recht auf Zugriff: Das Datensubjekt hat das Recht, eine Kopie seiner personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, zu erhalten. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
-     <li> Recht auf Löschung: Das Datensubjekt hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
-    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+     <li> Recht auf Zugriff: ermöglicht dem Datensubjekt, eine Kopie seiner personenbezogenen Daten zu erhalten, die vom Datenverantwortlichen erfasst werden, einschließlich möglicherweise in Adobe Campaign gespeicherter Daten. </li> 
+     <li> Recht auf Löschen: berechtigt die betroffene Person, ihre vom Datenverantwortlichen erfassten personenbezogenen Daten löschen zu lassen, einschließlich möglicherweise in Adobe Campaign gespeicherter Daten. </li> 
+    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Creative Designer für E-Mail (Beta)<br /> </td> 
+   <td> Creative Designer für E-Mail (Betaversion)<br /> </td> 
    <td> Der neue Creative Designer von Adobe Campaign ermöglicht ein vollständig integriertes Erstellungserlebnis in Campaign und sorgt für die rasche und einfache Gestaltung attraktiver, individuell personalisierter E-Mails, ohne dass auch nur eine einzige Zeile Code geschrieben werden muss. Mithilfe seiner leistungsstarken Drag &amp; Drop-Benutzeroberfläche können Sie mit Creative Designer einfach E-Mails erstellen. Sie können dabei mit einer leeren Seite beginnen oder vorhandene Inhaltsfragmente oder Vorlagen verwenden. <br /> Die wichtigsten Funktionen von Creative Designer ermöglichen Folgendes:<br /> 
     <ul> 
      <li> Optische Gestaltung und Erstellung vollständig personalisierter, responsiver E-Mails mithilfe einer Drag &amp; Drop-Benutzeroberfläche optimiert durch native Creative-Cloud-Integrationen </li> 

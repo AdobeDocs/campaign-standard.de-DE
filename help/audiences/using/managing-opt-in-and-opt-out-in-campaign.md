@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Sie können auch eine Landingpage vom Typ **[!UICONTROL Blockierungsliste]** ein
    ![](assets/optin_landingpage_1.png)
 
 1. Speichern Sie die Landingpage und veröffentlichen Sie sie.
-1. Die Kontrollkästchen in der Landingpage sind bereits entsprechend dem Profil-Tab **[!UICONTROL Allgemein]** markiert. Der Empfänger kann die Kanäle entsprechend seinen Anforderungen beliebig auswählen oder löschen und das Formular senden.
+1. Die Kontrollkästchen in der Landingpage sind bereits entsprechend dem Profil-Tab **[!UICONTROL Allgemein]** markiert. Der Benutzer kann die Kanäle entsprechend seinen Anforderungen auswählen oder die Auswahl aufheben und das Formular senden.
 
    ![](assets/optin_landingpage_2.png)
 

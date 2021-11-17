@@ -9,10 +9,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -127,7 +127,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
    ![](assets/message-center_loop_fallback.png)
 
-   Der Fallback-Inhalt wird angezeigt, wenn die Kollektion beim Auslösen des Triggers leer ist. Das ist beispielsweise dann der Fall, wenn ein Kunde nichts im Warenkorb liegen hat.
+   Der Fallback-Inhalt wird angezeigt, wenn die Sammlung beim Auslösen des Ereignisses leer ist, z. B. wenn ein Kunde nichts im Warenkorb hat.
 
 1. Bearbeiten Sie im Einstellungsbereich den Stil der Produktliste. Weitere Informationen dazu finden Sie im Abschnitt [E-Mail-Stile verwalten](../../designing/using/styles.md).
 1. Sehen Sie sich die E-Mail in der Vorschau an, indem Sie ein Testprofil verwenden, das mit dem entsprechenden Transaktionsereignis verknüpft ist und für das Sie Kollektionsdaten definiert haben. Fügen Sie für das Testprofil, das Sie verwenden möchten, beispielsweise die folgenden Informationen zum Abschnitt **[!UICONTROL Ereignisdaten]** hinzu:
