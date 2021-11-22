@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
 
@@ -138,7 +138,7 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
    ![](assets/inapp_customize_7.png)
 
-## Nachricht vom Typ &quot;Lokale Benachrichtigung&quot; anpassen        {#customizing-a-local-notification-message-type}
+## Nachricht vom Typ &quot;Lokale Benachrichtigung&quot; anpassen {#customizing-a-local-notification-message-type}
 
 Lokale Benachrichtigungen können nur von einer App zu einer bestimmten Zeit und abhängig von einem Ereignis ausgelöst werden. Mit lokalen Benachrichtigungen werden Benutzer über Prozesse in der App informiert, auch wenn kein Internetzugang vorhanden ist.
 Auf dieser [Seite](../../administration/using/local-tracking.md) erfahren Sie, wie Sie lokale Benachrichtigungen tracken.

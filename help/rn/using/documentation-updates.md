@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6964'
 ht-degree: 100%
 
@@ -298,13 +298,13 @@ Es wurden Informationen zum Feld **[!UICONTROL Verlauf in Tagen]** hinzugefügt,
 
 **Neue Funktionen in der Version**
 
-Adobe Experience Platform Data Connector (Beta) – [mehr dazu](../../integrating/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (Betaversion) – [mehr dazu](../../integrating/using/aep-about-data-connector.md)
 
-Audience Destinations (Beta) – [mehr dazu](../../integrating/using/aep-about-audience-destinations-service.md)
+Audience Destinations (Betaversion)– [mehr dazu](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Die Dokumentation zur Datenschutzverwaltung wurde aktualisiert und enthält Informationen zum Erstellen des CCPA-Opt-out-Felds für benutzerdefinierte Profilressourcen – [mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html)
+Die Dokumentation zur Datenschutzverwaltung wurde aktualisiert und enthält Informationen zum Erstellen des CCPA-Opt-out-Felds für benutzerdefinierte Profilressourcen – [mehr dazu](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 Die Versionshinweise wurden neu organisiert und verbessert – [mehr dazu](../../rn/using/release-notes.md)
 
@@ -404,7 +404,7 @@ Ein neues Beispiel wurde hinzugefügt, das zeigt, wie eine E-Mail mit zusätzlic
 
 Ein neuer Abschnitt zur Verwendung von Fallen wurde hinzugefügt – [mehr dazu](../../sending/using/using-traps.md)
 
-Auf der Seite zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde zur Option **Launch_URL_Campaign** ein Hinweis hinzugefügt – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html)
+Auf der Seite zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde zur Option **Launch_URL_Campaign** ein Hinweis hinzugefügt – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 Das Handbuch zu Email Designer wurde neu organisiert – [Mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -424,7 +424,7 @@ Ein neuer Abschnitt zum Speichern von E-Mail-Inhalt als Vorlage in E-Mail-Design
 
 **Neue Funktionen in der Version**
 
-Externe API-Aktivität (öffentliche Beta-Version) – [mehr dazu](../../automating/using/external-api.md)
+Externe API-Aktivität (öffentliche Betaversion) – [mehr dazu](../../automating/using/external-api.md)
 
 Bericht zu Workflow-Segmenten – [mehr dazu](../../reporting/using/creating-a-report-workflow-segment.md)
 
@@ -476,7 +476,7 @@ Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinz
 
 **Neue Funktionen in der Version**
 
-Control Panel – [mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
+Control Panel – [mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Lokale Benachrichtigungen – [mehr dazu](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -606,7 +606,7 @@ Produktlisten in Transaktions-E-Mails – [mehr dazu](../../designing/using/usin
 
 Mobile-Ansicht in E-Mail-Designer – [mehr dazu](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
-Verbesserung von In-App-Messaging (Beta) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
+Verbesserung von In-App-Messaging (Betaversion) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
@@ -630,9 +630,9 @@ Informationen zu einer neuen Option in der Dateiextraktionsaktivität wurden hin
 
 Der Abschnitt zur Konfiguration einer Mobile App mit SDK V4 wurde [hierher](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) verschoben.
 
-Der Abschnitt zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde [hierher](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html) verschoben.
+Der Abschnitt zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde [hierher](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) verschoben.
 
-Videos wurden aktualisiert und [hierher](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=de) verschoben.
+Videos wurden aktualisiert und [hierher](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) verschoben.
 
 Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
@@ -640,9 +640,9 @@ Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../.
 
 **Neue Funktionen in der Version**
 
-In-App-Messaging (Beta) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
+Verbesserung von In-App-Messaging (Betaversion) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
-Integration von Adobe Launch für Mobile Apps (Beta) – [mehr dazu ](../../sending/using/managing-typologies.md)
+Integration von Adobe Launch für Mobile Apps (Betaversion) – [mehr dazu ](../../sending/using/managing-typologies.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
@@ -662,7 +662,7 @@ Automatischer Import von Inhalten von einer URL während der Nachrichtenvorberei
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Eine neue Technote zum SMS-Schnittstellenprotokoll und dessen Konfiguration wurde hinzugefügt – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/sms-connector-protocol-and-settings.html)
+Eine neue Technote zum SMS-Schnittstellenprotokoll und dessen Konfiguration wurde hinzugefügt – [mehr dazu](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Die Dokumentation zur Integration von Experience Manager mit Adobe Campaign wurde aktualisiert – [mehr dazu](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -734,7 +734,7 @@ Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert �
 
 **Neue Funktionen in der Version**
 
-EU-Datenschutz-Grundverordnung (DSGVO) – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html)
+EU-Datenschutz-Grundverordnung (DSGVO) – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 Creative Designer für E-Mails – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -864,7 +864,7 @@ Die [Technote](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html)
 
 Eine Technote wurde hinzugefügt, in der der Aufbau der in einer Mobile App empfangenen Payload erläutert wird – [mehr dazu](../../administration/using/push-payload.md)
 
-Der [Abschnitt](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) zur Push-Kanal-Konfiguration wurde durch neue Payload-Daten ergänzt, die je nach Betriebssystem hinzugefügt werden, wenn Postbacks in der Adobe Mobile Services-Benutzeroberfläche definiert werden.
+Der [Abschnitt](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) zur Push-Kanal-Konfiguration wurde durch neue Payload-Daten ergänzt, die je nach Betriebssystem hinzugefügt werden, wenn Postbacks in der Adobe Mobile Services-Benutzeroberfläche definiert werden.
 
 In der SMS-Dokumentation wurde der Abschnitt zu [automatischen SMS-Antworten](../../channels/using/managing-incoming-sms.md#managing-stop-sms) genauer erklärt.
 
@@ -960,11 +960,11 @@ Das Handbuch &quot;Sendungen&quot; wurde umstrukturiert und in &quot;Kanäle&quo
 
 Zahlreiche Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 
-Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with your mobile app&quot; – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html)
+Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with your mobile app&quot; – [mehr dazu](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
@@ -990,9 +990,9 @@ Das Workflow-Hasndbuch wurde umstrukturiert und erweitert. Dies ermöglicht das 
 
 Die Indikatorberechnung ist jetzt für dynamische Berichte verfügbar, einschließlich einer vollständigen Beschreibung und der Berechnungsformel – [mehr dazu](../../reporting/using/indicator-calculation.md)
 
-Ein neuer Abschnitt zur Konfiguration von Adobe Mobile Services wurde hinzugefügt, sodass Push-Benachrichtigungen und Point-of-Interest-Daten in Adobe Campaign verwendet werden können – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html)
+Ein neuer Abschnitt zur Konfiguration von Adobe Mobile Services wurde hinzugefügt, sodass Push-Benachrichtigungen und Point-of-Interest-Daten in Adobe Campaign verwendet werden können – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-Die Abschnitte zur Mobile-App-Konfiguration und -Implementierung wurden aktualisiert, einschließlich detaillierter Schritte zum Einrichten und Senden von Push-Benachrichtigungen – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html)
+Die Abschnitte zur Mobile-App-Konfiguration und -Implementierung wurden aktualisiert, einschließlich detaillierter Schritte zum Einrichten und Senden von Push-Benachrichtigungen – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Der Abschnitt zum Arbeiten mit Bildern in Campaign wurde aktualisiert – [mehr dazu](../../designing/using/images.md#setting-up-image-properties)
 
@@ -1004,7 +1004,7 @@ Die Integration mit Adobe Analytics for Mobile (Point of Interest) wurde aktuali
 
 Dynamische Berichterstellung – [mehr dazu](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-Integration (Labs) – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de)
+Dreamweaver-Integration (Labs) – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Manuelle Optimierung des Versandzeitpunkts – [mehr dazu](../../sending/using/optimizing-the-sending-time.md)
 

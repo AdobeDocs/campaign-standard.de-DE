@@ -10,7 +10,7 @@ role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ Bei Markierung einer Aktivität erscheinen um diese herum die Quick-Action-Schal
 
 ## Workflow-Aktivitäten duplizieren {#duplicating-workflow-activities}
 
-Sie können in einem Workflow Aktivitäten duplizieren, indem Sie sie mit Copy &amp; Paste in denselben Workflow oder einen anderen Workflow derselben Campaign-Instanz einfügen.
+Sie können in einem Arbeitsbereich Aktivitäten duplizieren, indem Sie sie mit Copy &amp; Paste in denselben Workflow oder einen anderen Workflow derselben Campaign-Instanz einfügen.
 
 Die Konfiguration der duplizierten Aktivitäten bleibt dabei unverändert. Bei Versandaktivitäten (E-Mail, SMS, Push-Benachrichtigungen etc.) wird das an die Aktivität angehängte Versandobjekt dupliziert.
 

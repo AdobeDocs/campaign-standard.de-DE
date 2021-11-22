@@ -1,6 +1,6 @@
 ---
 title: Übersicht über das Experience-Datenmodell
-description: Das Experience-Datenmodell (XDM) ist ein Standardsatz von Datenschemata, in die Daten eingebunden und mit Adobe Experience Platform-Lösungen und -Produkten verwendet werden können.
+description: Das Experience-Datenmodell (XDM) ist ein Standardsatz von Datenschemata, in die Daten aufgenommen und mit Adobe Experience Platform-Lösungen und -Produkten verwendet werden können.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
+>Adobe Experience Platform Data Connector befindet sich derzeit in der Betaversion, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaversion), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Das Experience-Datenmodell (XDM) ist ein Standardsatz von Datenschemata, in die Daten eingebunden und mit Adobe Experience Platform-Lösungen und -Produkten verwendet werden können.
+Das Experience-Datenmodell (XDM) ist ein Standardsatz von Datenschemata, in die Daten aufgenommen und mit Adobe Experience Platform-Lösungen und -Produkten verwendet werden können.
 
 Die Erstellung und Verwaltung von XDM-Schemata ist mit einer speziellen API oder mit der XDM-Benutzeroberfläche möglich.
 
@@ -46,4 +46,4 @@ Sie können die folgenden Aktionen über die XDM-Schema-API ausführen:
 * Schema-Deskriptoren anzeigen
 * Schema-Deskriptoren erstellen, aktualisieren und löschen
 
-Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
+Alle Details zum Bearbeiten von API-Aufrufen finden Sie im [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).

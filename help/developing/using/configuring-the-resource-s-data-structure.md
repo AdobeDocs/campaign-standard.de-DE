@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1840'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Die erstellten Indexe werden in der Liste des Bereichs **[!UICONTROL Index]** an
 Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Element erstellen]**, um eine Relation zu einer Zielressource zu erstellen.
-1. Wählen Sie **[!UICONTROL Zielgruppenressource auswählen]** aus.
+1. Wählen Sie **[!UICONTROL Zielressource auswählen]** aus.
 
    ![](assets/schema_extension_28.png)
 
@@ -187,7 +187,7 @@ In diesem Beispiel möchten wir eine Relation zwischen der neuen Ressource **Bes
 
 1. Erstellen Sie Ihre neue Ressource **Bestellung**.
 1. Um eine Relation mit der benutzerdefinierten Ressource **Profile** herzustellen, erweitern Sie den Bereich **[!UICONTROL Relationen]** im Tab **[!UICONTROL Datenstruktur]** und wählen Sie **[!UICONTROL Element erstellen]** aus.
-1. Wählen Sie die Zielgruppen-Ressource aus, hier **[!UICONTROL Profile (profile)]**.
+1. Wählen Sie die Zielressource aus, hier **[!UICONTROL Profile (profile)]**.
 1. Behalten Sie für unser Beispiel den ausgewählten Relationstyp **[!UICONTROL Einfache Relation mit Kardinalität 1]** bei.
 
    ![](assets/custom_resource_link_to_profile_2.png)

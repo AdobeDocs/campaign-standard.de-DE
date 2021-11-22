@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 100%
 
@@ -96,13 +96,13 @@ Wenn vom erweiterten MTA Softbounces zurückgemeldet werden, werden diese Nachri
 
 Daher sollten Sie bis zum Ende des Gültigkeitszeitraums warten, um den endgültigen Prozentsatz für **[!UICONTROL Zugestellt]** und die endgültige Anzahl der tatsächlich **[!UICONTROL gesendeten]** sowie der **[!UICONTROL fehlgeschlagenen]** Nachrichten anzuzeigen.
 
-### Email Feedback Service (Beta) {#email-feedback-service}
+### Email Feedback Service (Betaversion) {#email-feedback-service}
 
 Mit der EFS-Funktion (Email Feedback Service) wird der Status jeder E-Mail genau gemeldet, da Feedback direkt vom erweiterten MTA (Message Transfer Agent) erfasst wird.
 
 >[!IMPORTANT]
 >
->Der Email Feedback Service ist derzeit als Betafunktion verfügbar.
+>Der Email Feedback Service ist derzeit als Funktion der Betaversion verfügbar.
 
 Nachdem der Versand gestartet wurde, ändert sich der **[!UICONTROL Zugestellt]**-Prozentsatz nicht, wenn die Nachricht erfolgreich von Campaign an den erweiterten MTA weitergeleitet wurde.
 

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Adobe Campaign Standard bietet APIs, die es ermöglichen, bestehende Systeme mit der Campaign-Plattform zu integrieren, um Probleme in Echtzeit zu lösen.
 
-Öffentliche Websites wie die Anmelde- oder Abmeldeseite müssen eine Verbindung zu Backend-Systemen herstellen, um Profildaten speichern zu können. Backend-Systeme wie Adobe Campaign erlauben es, Profildaten zu erfassen und benutzerdefinierte Aktionen dafür auszuführen.
+Öffentliche Websites wie die Anmelde- oder Abmeldeseite müssen eine Verbindung zu Backend-Systemen herstellen, um Profildaten speichern zu können. Backend-Systeme wie Adobe Campaign erlauben es, Profildaten aufzunehmen und benutzerdefinierte Aktionen dafür auszuführen.
 
 Hier einige Beispiele:
 

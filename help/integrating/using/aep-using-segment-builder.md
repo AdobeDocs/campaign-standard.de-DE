@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Der Audience Destinations-Dienst befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaphase), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
+>Der Audience Destinations-Dienst befindet sich derzeit in der Betaversion, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaversion), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
 Mit Segment Builder können Sie Audiences erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de) stammen.
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
 1. Vergewissern Sie sich, dass im Einstellungsfeld die gewünschte Zusammenführungsrichtlinie ausgewählt ist.
 
-   Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des [Segment Builder-Benutzerhandbuchs](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
+   Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie im entsprechenden Abschnitt des [Segment Builder-Benutzerhandbuchs](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -72,7 +72,7 @@ Die Felder sind in Tabs unterteilt:
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Ereignisse]**: Aktivitäten, die Verbraucher identifizieren, die mit den Touchpoints Ihres Unternehmens auf bestimmte Weise interagiert haben, z. B. &quot;alle Personen, die in zwei Wochen zweimal bestellt haben&quot;. Diese können aus Adobe Analytics gestreamt oder mithilfe von ETL-Tools anderer Anbieter direkt in die Adobe Experience Platform integriert werden.
+* **[!UICONTROL Ereignisse]**: Aktivitäten, die Verbraucher identifizieren, die mit den Touchpoints Ihres Unternehmens auf bestimmte Weise interagiert haben, z. B. &quot;alle Personen, die in zwei Wochen zweimal bestellt haben&quot;. Diese können aus Adobe Analytics gestreamt oder mithilfe von ETL-Tools anderer Anbieter direkt in Adobe Experience Platform aufgenommen werden.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -94,7 +94,7 @@ Das Symbol am Ende der einzelnen Felder enthält weitere Informationen zum Attri
 
 >[!NOTE]
 >
->Im folgenden Abschnitt finden Sie allgemeine Informationen zur Definition von Regeln. Weiterführende Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
+>Im folgenden Abschnitt finden Sie allgemeine Informationen zur Definition von Regeln. Weiterführende Informationen finden Sie im [Segment Builder-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 

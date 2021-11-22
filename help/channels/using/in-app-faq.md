@@ -7,13 +7,13 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: ht
+exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
 ---
-
 
 # Häufig gestellte Fragen zu In-App-Nachrichten {#in-app-faq}
 

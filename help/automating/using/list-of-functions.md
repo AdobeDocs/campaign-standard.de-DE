@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Über Funktionen {#about-functions}
 
-Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden. Auf diese können Sie in der Palette über das Element **[!UICONTROL Ausdruck]** zugreifen. Weiterführende Hinweise hierzu finden Sie in einem [gesonderten Abschnitt](../../automating/using/advanced-expression-editing.md).
+Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden. Hierfür können Sie in der Palette über das Element **[!UICONTROL Ausdruck]** verwenden, das Sie im Arbeitsbereich nutzen können. Weiterführende Hinweise hierzu finden Sie in einem [gesonderten Abschnitt](../../automating/using/advanced-expression-editing.md).
 
 Ziehen Sie das Element in den Workflow-Arbeitsbereich und geben Sie die gewünschte Funktion manuell ein. Unten stehend finden Sie eine Liste der kompatiblen Funktionen.
 
