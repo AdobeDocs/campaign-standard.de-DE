@@ -11,25 +11,25 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Versionsplanung {#release-planning}
 
-Adobe verbessert kontinuierlich seine Lösungen, indem neue Funktionen, Verbesserungen und Fehlerbehebungen hinzugefügt werden.
+Adobe aktualisiert laufend seine Lösungen durch neue Funktionen, Verbesserungen und Fehlerkorrekturen.
 
 Mit jeder neuen Version werden alle Adobe Campaign Standard-Instanzen aktualisiert. Für diese Aktualisierung ist keine Maßnahme Ihrerseits erforderlich.
 
-Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-Instanzen aktualisiert, damit Sie neue Funktionen testen und Ihre Konfiguration bei Bedarf anpassen können. Produktionsinstanzen werden dann aktualisiert.
+Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-Instanzen aktualisiert, damit Sie neue Funktionen testen und Ihre Konfiguration bei Bedarf anpassen können. Danach werden die Produktionsinstanzen aktualisiert.
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen.
 
-## Version 22.1 - Version Februar 2022 {#release-22-1-release}
+## Version 22.1 – Februar 2022 {#release-22-1-release}
 
 Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
-Ausführliche Informationen zu dieser Version finden Sie im Abschnitt [Versionshinweise](../../rn/using/release-notes.md) am Datum der Aktualisierung der Staging-Umgebung.
+Weitere Informationen zu dieser Version werden in den [Versionshinweisen](../../rn/using/release-notes.md) aufgeführt, sobald die Aktualisierungen der Staging-Umgebung beginnen.
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Ausführliche Informationen zu dieser Version finden Sie im Abschnitt [Versionsh
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>8.-9. Februar 2022<br /> </td>
+   <td>8. bis 9. Februar 2022<br /> </td>
   </tr>
   <tr>
    <td>Produktion<br /> </td>
-   <td>15.-22. Februar 2022<br /> </td>
+   <td>15. bis 22. Februar 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -72,13 +72,13 @@ A: Nein. Für die Dauer einiger Minuten werden keine Nachrichten gesendet. Nach 
 
 **F: Werden Workflows fortgesetzt und Sendungen weiterhin durchgeführt?**
 
-A: Nein. Während der Build-Aktualisierung werden Workflow-Server und MTA angehalten. Daher werden Workflows nicht ausgeführt und Sendungen innerhalb weniger Minuten nicht durchgeführt. Es ist keine Aktion erforderlich: Die Workflows werden erneut gestartet, sobald die Instanz aktualisiert wurde.
+A: Nein. Während der Build-Aktualisierung werden Workflow-Server und MTA angehalten. Das bedeutet, dass Workflows und Sendungen für die Dauer einiger Minuten nicht durchgeführt werden. Es ist keine Aktion erforderlich: Die Workflows werden erneut gestartet, sobald die Instanz aktualisiert wurde.
 
 **F: Funktionieren Tracking-Links in Nachrichten während der Aktualisierung?**
 
 A: Ja. Während der Aktualisierung können keine neuen E-Mails gesendet werden, aber Tracking-Links, die in bereits gesendeten E-Mails enthalten sind, funktionieren.
 
-**F: Woher weiß ich, dass das Upgrade abgeschlossen ist?**
+**F: Woran ist zu erkennen, dass die Aktualisierung abgeschlossen ist?**
 
 A: Wenn Sie sich bei Campaign anmelden, wird ein Benachrichtigungs-Popup mit der aktuellen Version angezeigt.
 

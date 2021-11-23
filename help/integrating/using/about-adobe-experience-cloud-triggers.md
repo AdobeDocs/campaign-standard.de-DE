@@ -12,7 +12,7 @@ exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Durch die Integration von Adobe Campaign mit dem Experience Cloud Activation Cor
 
 In Adobe Experience Cloud werden die verschiedenen Trigger definiert, also jene Verhaltensweisen von Kunden, die Sie verfolgen möchten. Dabei kann es sich beispielsweise um Kunden handeln, die ihren Besuch auf Ihrer Website abgebrochen haben, auf Ihrer Website gesucht, aber nichts gekauft haben oder sogar Kunden, deren Sitzung abgelaufen ist. Bei der Erstellung von Triggern bestimmen Sie die Trigger-Bedingung sowie die Daten, die im Falle der Auslösung des Ereignisses an Adobe Campaign gesendet werden (pload).
 
-In Adobe Campaign werden der zuvor erstellte Trigger ausgewählt, die Ereignisdaten mit Datamart-Daten angereichert und eine mit diesem Trigger verknüpfte Transaktionsnachrichtenvorlage definiert. Wenn beispielsweise ein Kunde seinen Besuch auf Ihrer Website abbricht, wird ein Ereignis an Adobe Campaign gesendet, das dieses Ereignis dann über eine Remarketing-E-Mail nutzen kann, die innerhalb von 15 Minuten an den Kunden gesendet wird.
+In Adobe Campaign werden der zuvor erstellte Trigger ausgewählt, die Ereignisdaten mit Datamart-Daten angereichert und eine mit diesem Trigger verknüpfte Transaktionsnachrichtenvorlage definiert. Bricht zum Beispiel ein Kunde seinen Besuch auf Ihrer Website ab, wird ein Ereignis an Adobe Campaign gesendet, wodurch eine Remarketing-E-Mail erstellt werden kann, die innerhalb von 15 Minuten an den Kunden gesendet wird.
 
 Im folgenden Diagramm wird beschrieben, wie diese Integration funktioniert.
 

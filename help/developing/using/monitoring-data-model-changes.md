@@ -11,13 +11,13 @@ exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
 source-git-commit: 5fef74296a4790102c75e609c270e52d5ead1d58
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
 # Änderungen an Datenmodellen verfolgen{#monitoring-data-model-changes}
 
-Aus dem **[!UICONTROL Diagnose]** können Sie die von der Anwendung generierten technischen Objekte anzeigen, um sie zu analysieren.
+Im Menü **[!UICONTROL Diagnose]** können Sie die von der Anwendung erzeugten technischen Objekte sehen und analysieren.
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ Sie können die Liste filtern:
 
 * Sie können native Datenschemata, Webseiten, Filter und Navigationsobjekte ein- oder ausschließen.
 * Sie können Objekte nach ihrem Namen suchen.
-* Sie können Batch-Aufträge nach Status, Startdatum und Enddatum filtern.
+* Sie können Batch-Vorgänge nach Status, Startdatum und Enddatum filtern.
 
-Sie können die angezeigte Liste in einer Datei im TXT-Format mit kommagetrennten Werten herunterladen.
+Sie können die angezeigte Liste in einer Datei im TXT-Format mit durch Komma getrennten Werten herunterladen.
 
 Sie können die Details des ausgewählten Objekts anzeigen.
 

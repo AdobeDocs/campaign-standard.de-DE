@@ -11,7 +11,7 @@ exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1231'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Passen Sie die Bestätigungsseite an, um neue Abonnenten darüber zu informieren, dass sie ihr Abonnement validieren müssen.
+1. Passen Sie die Bestätigungsseite an, damit neue Abonnenten darüber informiert werden, dass sie ihr Abonnement bestätigen müssen.
 
    ![](assets/optin_acquisition_page2.png)
 

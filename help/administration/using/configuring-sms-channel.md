@@ -12,7 +12,7 @@ exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -316,7 +316,7 @@ Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt d
 
 ### Automatische Antwort auf MO  {#automatic-reply-sent-to-the-mo}
 
-Wenn ein Profil auf eine per Campaign gesendete SMS-Nachricht antwortet, können Sie Nachrichten, die automatisch an dieses Profil zurückgesendet werden, sowie die auszuführende Aktion konfigurieren.
+Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.
 
 Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md).
 

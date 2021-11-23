@@ -12,7 +12,7 @@ exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Um auf das integrierte Kundenprofil zuzugreifen, gehen Sie folgendermaßen vor:
    >
    >Beachten Sie, dass Suchvorgänge basierend auf den Feldern &quot;E-Mail&quot;, &quot;Vorname&quot; und &quot;Nachname&quot; sowie auf benutzerdefinierten Feldern durchgeführt werden können, die beim Erweitern der Ressource hinzugefügt wurden.
    >
-   >Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, und es wird nur nach Präfixen gesucht. Sie können beispielsweise nicht mithilfe der letzten Buchstaben des Nachnamens nach einem Profil suchen.
+   >Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, und es wird nur nach Präfixen gesucht. Sie können beispielsweise nicht anhand der letzten Buchstaben des Nachnamens nach einem Profil suchen.
 
 1. Wählen Sie einen Kontakt aus, um sein Profil zu öffnen.
 

@@ -11,7 +11,7 @@ exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '5457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -303,8 +303,8 @@ _Benutzerdefinierte Ressourcen_
    <td> EU-Datenschutz-Grundverordnung (DSGVO)<br /> </td> 
    <td> Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), die am 25. Mai 2018 in Kraft tritt und in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe Campaign-Kunden, die Daten von Personen erfassen, die in der EU wohnhaft sind.<br /> Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können:<br /> 
     <ul> 
-     <li> Recht auf Zugriff: ermöglicht dem Datensubjekt, eine Kopie seiner personenbezogenen Daten zu erhalten, die vom Datenverantwortlichen erfasst werden, einschließlich möglicherweise in Adobe Campaign gespeicherter Daten. </li> 
-     <li> Recht auf Löschen: berechtigt die betroffene Person, ihre vom Datenverantwortlichen erfassten personenbezogenen Daten löschen zu lassen, einschließlich möglicherweise in Adobe Campaign gespeicherter Daten. </li> 
+     <li> Recht auf Zugriff: Die betroffene Person hat das Recht, eine Kopie seiner personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, zu erhalten. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
+     <li> Recht auf Löschung: Die betroffene Person hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
     </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 

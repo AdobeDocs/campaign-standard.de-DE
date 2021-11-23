@@ -11,7 +11,7 @@ exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ Opt-out-Profile werden automatisch zum Zeitpunkt der Versandanalyse ausgeschloss
 
 >[!NOTE]
 >
->Im Unterschied zur Quarantäne, die sich auf **eine E-Mail-Adresse** und **eine Telefonnummer** bezieht, gilt das Opt-out für **Profile**. Wird ein Profil mit Opt-out abgemeldet, werden somit alle damit verknüpften Adressen vom Versand ausgeschlossen. Wenn jedoch ein Benutzer zwei Profile in der Datenbank hat, werden die Sendungen an diesen Benutzer weitergeleitet, da nur eines seiner Profile abgemeldet wird. Um sicherzustellen, dass alle Adressen ausgeschlossen sind, fügen Sie sie zu den unter Quarantäne gestellten Adressen hinzu. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>Im Unterschied zur Quarantäne, die sich auf **eine E-Mail-Adresse** und **eine Telefonnummer** bezieht, gilt das Opt-out für **Profile**. Wird ein Profil mit Opt-out abgemeldet, werden somit alle damit verknüpften Adressen vom Versand ausgeschlossen. Wenn die Datenbank jedoch zwei Profile eines Benutzers enthält, wird dieser weiterhin Sendungen erhalten, da nur eines seiner Profile abgemeldet wurde. Um alle seine Adressen auszuschließen, fügen Sie sie den Quarantäneadressen hinzu. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 Weiterführende Informationen zum Abonnement von Diensten finden Sie auf [dieser Seite](../../audiences/using/about-subscriptions.md).

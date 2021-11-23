@@ -16,7 +16,7 @@ exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -113,8 +113,8 @@ Als Datenverantwortlicher müssen Sie sicherstellen, dass beim Erhalt einer Lös
 
 ## Erneuter Opt-in {#opt-in-again}
 
-**Kann sich eine betroffene Person, deren Daten aus Adobe Campaign gelöscht wurde, zu einem späteren Zeitpunkt erneut anmelden?**
+**Kann sich eine betroffene Person, deren Daten aus Adobe Campaign gelöscht wurden, zu einem späteren Zeitpunkt noch einmal anmelden?**
 
-Eine betroffene Person kann sich erneut anmelden oder als neuer Empfänger hinzugefügt werden, nachdem ihre Daten aus Adobe Campaign gelöscht wurden.
+Eine betroffene Person kann sich zu einem späteren Zeitpunkt wieder anmelden oder als neuer Empfänger hinzugefügt werden, nachdem ihre Daten aus Adobe Campaign gelöscht wurden.
 
 Sie können das Audit-Protokoll verwenden, in dem angegeben wird, wann die vorherige Löschung durchgeführt und der neue Empfänger angelegt wurde.

@@ -11,15 +11,15 @@ exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # An den Absender zurücksenden{#return-to-sender}
 
-Der Austausch einfach strukturierter Dateien, die Rücksendeinformation enthalten, mit Briefpost-Dienstleistern wird unterstützt. Auf diese Weise können entsprechende Anschriften von der künftigen Kommunikation ausgeschlossen werden. Auf diese Weise können Sie auch über eine falsche Adresse informiert werden und mit dem Kunden über andere Kanäle in Kontakt treten oder ihn zur Aktualisierung seiner Anschrift auffordern.
+Der Austausch einfach strukturierter Dateien, die Rücksendeinformation enthalten, mit Briefpost-Dienstleistern wird unterstützt. Auf diese Weise können entsprechende Anschriften von der künftigen Kommunikation ausgeschlossen werden. Zusätzlich können Sie sich über fehlerhafte Adressen informieren lassen und mit dem Kunden über andere Kanäle in Kontakt treten oder ihn auffordern, seine Anschrift zu aktualisieren.
 
-Beispielsweise hat ein Kontakt an einen neuen Ort gezogen und Ihnen die neue Anschrift nicht mitgeteilt. Der Provider ruft die Liste mit fehlerhaften Adressen ab und sendet diese Informationen an Adobe Campaign, wo die fehlerhaften Adressen automatisch auf die Blockierungsliste gesetzt werden.
+Beispiel: Ein Kontakt ist umgezogen und hat Ihnen nicht seine neue Anschrift mitgeteilt. Der Provider ruft die Liste mit fehlerhaften Adressen ab und sendet diese Informationen an Adobe Campaign, wo die fehlerhaften Adressen automatisch auf die Blockierungsliste gesetzt werden.
 
 Damit dies funktioniert, ist im Inhalt der Standard-Versandvorlage für die Briefpost eine Versandlog-ID enthalten. Dadurch kann Adobe Campaign das Profil und die Versanddaten mit den vom Provider zurückgesendeten Informationen synchronisieren.
 

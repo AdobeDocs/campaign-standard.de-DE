@@ -12,7 +12,7 @@ exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Benutzer werden durch den Ton auf den Empfang einer Push-Benachrichtigung hingew
 
    Wenn das Feld **[!UICONTROL Ton abspielen]** leer gelassen wird, wird kein Ton abgespielt.
 
-Der Benutzer erhält dann die Push-Benachrichtigung und den Ton nur, wenn sein Telefon nicht stummgeschaltet ist.
+Der Benutzer empfängt die Push-Benachrichtigung und den Ton nur, wenn sein Telefon nicht stummgeschaltet ist.
 
 ## Badge-Wert aktualisieren        {#refresh-the-badge-value}
 
