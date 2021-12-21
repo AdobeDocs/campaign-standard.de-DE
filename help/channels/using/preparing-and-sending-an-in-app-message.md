@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
+source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1259'
+ht-degree: 97%
 
 ---
 
@@ -58,7 +58,9 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
    * **[!UICONTROL Alle Nutzer einer mobilen App auswählen (inAppBroadcast)]**
    * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]**
 
-1. Geben Sie die Eigenschaften der In-App-Nachricht ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]** die entsprechende Mobile App aus. Hinweis: Wenn Sie Ihre Mobile App nicht mit Adobe Campaign Standard konfiguriert haben, wird sie nicht in der Liste angezeigt. Weiterführende Informationen zur Konfiguration von Mobile Apps finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Geben Sie die Eigenschaften der In-App-Nachricht ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]** die entsprechende Mobile App aus.
+
+   Wenn keine Anwendungen in der Dropdown-Liste angezeigt werden, stellen Sie sicher, dass Ihre Mobile Apps in einer **Konfiguriert** state. Anwendungen in einer **Bereit zur Konfiguration** Der Status wird nicht in der Liste angezeigt. Weiterführende Informationen zur Konfiguration von Mobile Apps finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -126,7 +128,8 @@ Bevor Sie eine In-App-Nachricht senden, können Sie sie an Testprofilen testen, 
    ![](assets/inapp_sending_2.png)
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL Testprofil auswählen]** und danach eines Ihrer Testprofile aus, um mit der Vorschau des Versands zu beginnen. Weiterführende Informationen zu Testprofilen erhalten Sie in [diesem Abschnitt](../../audiences/using/managing-test-profiles.md).
-1. Sehen Sie sich Ihre Nachricht auf verschiedenen Geräten an, wie Android-Geräten, iPhones und Tablets. Sie können dabei auch feststellen, ob in Ihre Personalisierungsfelder die richtigen Daten geladen werden.
+1. Sehen Sie sich Ihre Nachricht auf verschiedenen Geräten an, wie Android-Geräten, iPhones und Tablets. Sie können dabei auch feststellen, ob Ihre Personalisierungsfelder die richtigen Daten abrufen.
+
 
    ![](assets/inapp_sending_3.png)
 
