@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 >
 > Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
 
-## Version 21.3 – September 2021 {#release-21-3---sept-2021}
+## Version 22.1 – Februar 2022 {#feb-2022}
 
 
 **Neue Funktionen**
@@ -31,75 +31,46 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Einheitliche Experience Cloud-Benutzeroberfläche</strong><br /> </th> 
+<th> <strong>Sicherheitsupdate für Sicherheitslücken in Apache Log4j</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Die Kopfzeile von Adobe Campaign wurde geändert, um das Erlebnis über alle Experience Cloud-Produkte und -Services hinweg zu vereinheitlichen und zu verbessern. Diese Änderungen sollen Ihnen die Nutzung erleichtern, unter anderem durch folgende Verbesserungen:</p>
-<ul>
-<li>Einfacherer Wechsel zwischen Ihren Organisationen oder zu einer anderen Anwendung.</li>
-<li>Verbesserte Benutzerhilfe – Durch die Einbindung von Experience League in das Produkt liefert die Suche auch Ergebnisse aus Community-Foren und mehr Videoinhalte, sodass Sie einfacheren Zugriff auf zusätzliche Inhalte haben und die Anwendung optimal nutzen können. Wir haben auch einen Feedback-Mechanismus direkt im Hilfemenü hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen zu teilen.</li>
-<li>Verbesserte Benachrichtigungen – Das Dropdown-Menü "Benachrichtigungen" enthält jetzt zwei Registerkarten: eine für Ihre eigenen Produktbenachrichtigungen und eine für mehr globale Produktankündigungen.</li>
-</ul>
-<!--<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
-</p>-->
+<p>Apache log4j hat die gemeldeten Sicherheitslücken in Apache log4j v2.17.1 behoben. Adobe Campaign Standard verwendet Apache log4j und in dieser Version enthält dieses neueste Apache log4j v2.17.1 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
 
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Audit-Protokoll</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Die neue Audit-Protokoll-Funktionalität erfasst eine umfassende Liste von in Adobe Campaign auftretenden Aktionen und Ereignissen in Echtzeit. Sie beinhaltet eine Self-Service-Option für den Zugriff auf einen Datenverlauf, damit sich zum Beispiel folgende Fragen beantworten lassen:</p>
-<ul>
-<li>Was ist mit diesem Workflow passiert und wer hat ihn zuletzt aktualisiert?</li>
-<li>Wer hat die letzten Änderungen vorgenommen?</li>
-<li>Wie war der vorherige Status?</li>
-</ul>
-<p>Adobe Campaign führt nun Prüfungen für Erstellungs-, Bearbeitungs- und Löschaktionen für Workflows, Optionen und benutzerdefinierte Ressourcen durch. Änderungen dieser Elemente werden ebenfalls verfolgt.</p>
-<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>-->
-</td> 
-</tr> 
-</tbody> 
-</table>
+**Sicherheitskorrekturen**
 
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Workflow-Diagnosemodus</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Sie können Campaign-Workflows jetzt im Diagnosemodus ausführen. In diesem Modus werden Informationen protokolliert, die bei der Fehlerbehebung von Problemen bei der Ausführung helfen. Wenn eine Workflow-Abfrage mehr als eine Minute dauert, wird standardmäßig der gesamte Ausführungsplan protokolliert.</p>
-<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>-->
-</td> 
-</tr> 
-</tbody> 
-</table>
+* Neuer URL-Signaturmechanismus für Tracking in dieser Version. Der vorherige Mechanismus war deaktiviert worden, um zu verhindern, dass einige gültige, signierte Tracking-Links nach der Änderung durch Sicherheitswerkzeuge von Drittanbietern fälschlicherweise blockiert wurden. (CAMP-48983)
 
 **Verbesserungen**
 
-* Beim Erstellen eines wiederkehrenden Versands in einem Workflow, der mit einem Adobe Experience Manager-Inhalt verknüpft ist, wird der Status der Inhaltsvalidierung nun vor dem Versenden überprüft.
-* Die Beschränkung der Datenbankverbindung ist jetzt mit dem Campaign-Package abgestimmt, um Verbindungsfehler zu vermeiden.
-* Es wurde eine Konsistenzprüfung beim Erstellen von Indizes in benutzerdefinierten Ressourcen hinzugefügt und die Fehlermeldungen wurden verbessert.
+* Die Verarbeitung von Berichtsdaten wurde verbessert, um zu vermeiden, dass das System überlastet wird. (CAMP-47578)
+* Nach dem Versand Ihrer In-App-Nachrichten können Sie jetzt Ihren Versand deaktivieren. Auf diese Weise können Sie Ihren Versand löschen, ohne Berichtsdaten zu verlieren. (CAMP-48469)
+* Um Probleme zu vermeiden, können Benutzer für eine benutzerdefinierte Tabellenspalte nicht mehr denselben Namen wie für den automatischen Primären Schlüssel in der Datenbank verwenden. `"<dataType><resourceName>Id"`. (CAMP-49358)
+* Sie können jetzt Ihren Versand überwachen und die Auftragsprotokolle mit dem neuen **Auftragsverlauf** aus dem Dashboard Ihrer Nachrichten. (CAMP-49840)
 
-**Korrekturen**
+**Patches**
 
-* Fehlerkorrektur – Der Zeitüberschreitungsfehler beim Import von E-Mail-Inhalten aus einer URL wurde behoben. (CAMP-49054)
-* Fehlerkorrektur – Der Zugriff auf eine mit Lesezeichen versehene URL oder das Aktualisieren einer Seite im Browser führt nicht mehr zum Sitzungsende und zu einem Fehler (-69). (CAMP-49003, CAMP-48930, CAMP-48894)
-* Fehlerkorrektur – Regeln werden jetzt vom alten Zustellbarkeits-Server auf den neuen fehlerfrei synchronisiert. (CAMP-48923)
-* Fehlerkorrektur – E-Mail-Vorlagen mit HTML-Tags werden in Email Designer jetzt fehlerfrei geladen. (CAMP-48243)
+* Es wurde ein Problem mit der **Bericht jetzt senden** Option in dynamischen Berichten: Die PDF-Generierungsaufträge schlugen mit Sendungen einschließlich Mehrfachvarianten fehl. (CAMP-49120)
+* Es wurde ein Problem behoben, durch das Benutzer Adobe Experience Manager (AEM)-Inhalte nicht in ihren Adobe Campaign Standard-Sendungen aktualisieren oder deren Verknüpfung aufheben konnten, wenn duplizierte Inhalte in AEM gleichen Schlüssel (cq:uuid) freigegeben wurden. (CAMP-49161)
+* Fehlerkorrektur - der Zugriff auf eine Instanz, in der Seiten nicht geladen werden, Sendungen nicht geöffnet werden konnten oder ausstehende Änderungen nicht gespeichert werden konnten, funktioniert nun fehlerfrei. (CAMP-50195)
+* Fehlerkorrektur - Versandwarnungsbedingungen können jetzt geöffnet werden, wenn das Feld **Versandfilter** Dieses Kriterium wurde nicht erfüllt. (CAMP-49093)
+* Fehlerkorrektur - Beim Bearbeiten der **Sekundär** in In-App-Sendungen, die die Berücksichtigung von Änderungen verhinderten. (CAMP-50250)
+* Es wurde ein Fehler in japanischen Instanzen behoben, durch den Benutzer mehrmals am Tag als **Ausführungsfrequenz** im **Planung** Aktivität. (CAMP-50247)
+* Fehlerkorrektur - Bei der Arbeit mit einer japanischen Benutzeroberfläche wird jetzt bei der Auswahl einer Uhrzeit in der Aktivität Planung keine Fehlermeldung mehr angezeigt. (CAMP-49289)
+* Fehlerkorrektur - in Push-Benachrichtigungsberichten werden verworfene Push-Benachrichtigungen jetzt nicht mehr als **Öffnen** anstelle von **Impression**. (CAMP-45980)
+* Fehlerkorrektur - Beim Öffnen eines Berichts treten jetzt keine Fehler mehr auf. (CAMP-49222)
+* Fehlerkorrektur - Die E-Mail-Vorbereitung schlägt jetzt nicht mehr fehl, nachdem ein Link zu AEM Inhalt gelöscht wurde. (CAMP-49877)
+* Um verschiedene Probleme zu lösen, wurde der Wiederholungsmechanismus für Sendungen, einschließlich aus einer URL importierter Inhalte, verbessert. (CAMP-48888)
+* Fehlerkorrektur - jetzt tritt kein Fehler mehr auf, nachdem ein neuer Filter in einer benutzerdefinierten Ressource erstellt und als Abstimmschlüssel in einer Landingpage verwendet wurde. Wenn die benutzerdefinierte Ressource erneut publiziert wurde, wurde der Filter aus der Liste der verfügbaren Abstimmschlüssel für die Landingpage entfernt. (CAMP-49516)
+* Fehlerkorrektur - Auf Landingpages tritt jetzt kein Fehler mehr auf, wenn dynamische Bedingungen mit Kontrollkästchen verwendet werden. (CAMP-48604)
+* Es wurde ein Problem behoben, das in einem **Abfrage** -Aktivität bei Verwendung der Filterbedingung &quot;Ein oder vor Oktober&quot;. Bei der Arbeit von einer Instanz, die auf eine europäische Zeitzone festgelegt ist, wurde im ausgewählten Monat für den Filter September anstelle Oktober angezeigt, da beim Konvertieren der Zeitzone ein Problem aufgetreten ist. (CAMP-48602)
+* Um die Zustellbarkeit zu optimieren, sendet Adobe Campaign jetzt E-Mails mit 7-Bit-Kodierung anstelle von 8-Bit-Kodierung. Dadurch wird verhindert, dass Zwischen-Relais die DKIM-Signatur ungültig machen, was sich auf die Authentizität der Nachrichten auswirken könnte. (CAMP-49016)
+* Die Leistung beim Duplizieren von Zielgruppen wurde verbessert, um Probleme beim Arbeiten mit großen Zielgruppen zu vermeiden. (CAMP-49639)
+* Fehlerkorrektur - Benutzerdefinierte Filter zeigen jetzt die richtigen Ergebnisse an, wenn sie in einer **Abfrage** Aktivität. (CAMP-49417)
+* Fehlerkorrektur - bei der Verwendung eines Fragments in einem Versand mit einem Komma im Namen wird keine Fehlermeldung mehr angezeigt. Das Problem wurde behoben. Kommas können jetzt in Fragmentnamen verwendet werden. (CAMP-49216)
