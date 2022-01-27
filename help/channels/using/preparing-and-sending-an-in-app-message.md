@@ -9,9 +9,9 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
 1. Geben Sie die Eigenschaften der In-App-Nachricht ein und wählen Sie im Feld **[!UICONTROL Mobile App einem Versand zuordnen]** die entsprechende Mobile App aus.
 
-   Wenn keine Anwendungen in der Dropdown-Liste angezeigt werden, stellen Sie sicher, dass Ihre Mobile Apps in einer **Konfiguriert** state. Anwendungen in einer **Bereit zur Konfiguration** Der Status wird nicht in der Liste angezeigt. Weiterführende Informationen zur Konfiguration von Mobile Apps finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   Wenn keine Programme in der Dropdown-Liste angezeigt werden, stellen Sie sicher, dass sich Ihre Mobile Apps im Status **Konfiguriert** befinden. Programme, die sich im Status **Bereit zur Konfiguration** befinden, erscheinen nicht in der Liste. Weiterführende Informationen zur Konfiguration von Mobile Apps finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
