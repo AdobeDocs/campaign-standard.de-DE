@@ -9,9 +9,9 @@ role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Workflows können in unterschiedlichsten Kontexten zum Einsatz kommen:
 
 >[!IMPORTANT]
 >
-> Adobe empfiehlt Kunden, nicht mehr als 20 Workflows gleichzeitig auszuführen und die Workflow-Ausführung im Laufe der Zeit zu priorisieren und zu verteilen. Weitere Informationen hierzu finden Sie in den Best Practices unter [diese Seite](../../automating/using/best-practices-workflows.md).
+> Adobe empfiehlt Kunden, nicht mehr als 20 aktive Workflows gleichzeitig auszuführen und die Ausführung von Workflows zu priorisieren sowie über die Zeit zu verteilen. Weitere Informationen hierzu finden Sie in den Best Practices auf [dieser Seite](../../automating/using/best-practices-workflows.md).
 
 ## Workflow-Aktivitäten {#workflow-activities}
 
