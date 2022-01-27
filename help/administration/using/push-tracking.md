@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -232,11 +232,11 @@ Um zu verstehen, wie iOS-Benachrichtigungen funktionieren, müssen die drei Stat
 * **Hintergrund**: Wenn die App sich nicht auf dem Bildschirm befindet, der Prozess jedoch nicht geschlossen ist. Wenn Sie auf die Schaltfläche &quot;Startseite&quot; doppelklicken, werden in der Regel alle im Hintergrund befindlichen Apps angezeigt.
 * **Aus/geschlossen**: Eine App, deren Prozess beendet wurde.
 
-Damit das **[!UICONTROL Impression]**-Tracking auch dann funktioniert, wenn sich die App im Hintergrund befindet, müssen wir **[!UICONTROL Content-Available]** senden, um der App mitzuteilen, dass ein Tracking durchgeführt werden soll.
+Damit das **[!UICONTROL Impression]**-Tracking auch dann funktioniert, wenn das Programm im Hintergrund läuft, müssen wir **[!UICONTROL Content-Available]** senden, um dem Programm mitzuteilen, dass ein Tracking durchgeführt werden soll.
 
 >[!CAUTION]
 >
-> Wenn eine App geschlossen ist, ruft Apple die App erst nach ihrem Neustart auf. Das bedeutet, dass Sie nicht erfahren können, wann die Benachrichtigung unter iOS empfangen wurde. </br> Aus diesem Grund ist das Impression-Tracking in iOS möglicherweise nicht präzise und sollte daher nicht als zuverlässig betrachtet werden.
+> Wenn ein Programm geschlossen ist, ruft Apple das Programm erst nach dessen Neustart auf. Das bedeutet, dass Sie nicht erfahren, wenn die Benachrichtigung unter iOS empfangen wird. </br> Aus diesem Grund ist das Impression-Tracking unter iOS möglicherweise nicht präzise und sollte daher nicht als zuverlässig betrachtet werden.
 
 Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
