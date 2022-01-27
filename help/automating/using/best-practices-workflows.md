@@ -10,9 +10,9 @@ role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketi
 
 ### Anzahl von Workflows
 
-Standardmäßig empfehlen wir **nicht mehr als 20 aktive Workflows gleichzeitig ausführen** (Dies gilt nicht für Workflows, die auf eine geplante Ausführung warten). Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, damit die Gesamtleistung nicht beeinträchtigt wird.
+Standardmäßig empfehlen wir, **nicht mehr als 20 aktive Workflows gleichzeitig auszuführen** (dies gilt nicht für Workflows, die auf eine geplante Ausführung warten). Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, damit die Gesamtleistung nicht beeinträchtigt wird.
 
 In bestimmten Situationen müssen Sie möglicherweise mehr als 20 Workflows ausführen. Besprechen Sie die Anwendungsfälle bei Bedarf mit einem Campaign-Experten und kontaktieren Sie die Adobe-Kundenunterstützung, um das Limit zu erhöhen.
 
 >[!IMPORTANT]
 >
->Auch wenn Sie die Schwelle von 20 Workflows nicht erreichen, empfiehlt Adobe, **die Ausführung des Workflows im Zeitverlauf verteilen**. Eine lähmende Ausführung Ihrer Workflows sorgt für eine bessere Leistung Ihrer Instanz.
+>Auch wenn Sie den Schwellenwert von 20 Workflows nicht erreichen, empfiehlt Adobe, **die Ausführung des Workflows über die Zeit zu verteilen**. Wenn Sie die Ausführung Ihrer Workflows zeitlich staffeln, verbessern Sie die Leistung Ihrer Instanz.
 
 Vor dem Starten eines Workflows überprüft [!DNL Campaign Standard], ob genügend Systemspeicher vorhanden ist, um den Workflow auszuführen. Wenn nicht genügend Speicher verfügbar ist, wird eine Meldung angezeigt, in der Sie darüber informiert werden, dass die Ausführung des Workflows verzögert wird, bis die Auslastung des Servers sinkt und wieder mehr Systemspeicher vorhanden ist.
 
