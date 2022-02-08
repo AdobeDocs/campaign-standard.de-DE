@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
@@ -91,7 +91,7 @@ Jeder dieser Schritte wird im Folgenden näher erläutert.
 
 ### Schritt 1: Ereigniskonfiguration erstellen und veröffentlichen {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | Benutzer | Aktion | Ergebnis |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ Das Erstellen und Veröffentlichen eines Ereignisses wird in den Abschnitten [Tr
 
 ### Schritt 2: Transaktionsnachricht bearbeiten und veröffentlichen {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+<!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
 | Benutzer | Aktion | Ergebnis |
 |--- |--- |--- |
@@ -111,7 +111,7 @@ Weitere Informationen zum Bearbeiten und Veröffentlichen einer Transaktionsnach
 
 ### Schritt 3: Ereignisaktivierung integrieren {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="55px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
 <!--**Event triggering integration**-->
 
@@ -125,7 +125,7 @@ Weitere Informationen zur Verwendung der Campaign REST-API zum Verwalten von Tra
 
 ### Schritt 4: Nachrichtenversand {#message-delivery}
 
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
 Sobald alle diese Schritte ausgeführt wurden, kann die Nachricht gesendet werden.
 

@@ -1,23 +1,34 @@
 ---
 title: Aktualisierungen der Dokumentation
-description: Hier erhalten Sie Informationen über Dokumentationsaktualisierungen für Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+description: Hier erhalten Sie Informationen über Dokumentationsaktualisierungen für Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
 workflow-type: tm+mt
-source-wordcount: '6964'
-ht-degree: 100%
+source-wordcount: '7126'
+ht-degree: 97%
 
 ---
 
 # Aktualisierungen der Dokumentation{#documentation-updates}
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
+
+## Februar 2022 {#doc-updates-feb-2022}
+
+Verbesserter Wiederholungsmechanismus für Sendungen, einschließlich aus einer URL importiertem Inhalt. [Mehr dazu](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+Es wurde ein Warnhinweis zu Schlüsselwörtern hinzugefügt, die automatische SMS-Antworten von Triggern enthalten: dürfen nur alphanumerische Zeichen enthalten. [Mehr dazu](../../channels/using/managing-incoming-sms.md)
+
+Die Zugriffsebene der Optionen, die die Prüfung steuern, wurde aktualisiert: frühere Optionen zum Aktivieren/Deaktivieren [Audit-Protokoll](../../administration/using/audit.md) nicht zugänglich waren [funktionale Administratoren](../../administration/using/users-management.md#functional-administrators). Mit dieser Änderung wird die Zugriffsstufe der Prüfung geändert, um funktionalen Administratoren die Kontrolle zu ermöglichen. [Mehr dazu](../../administration/using/audit.md#enable-disable-audit)
+
+Es wurde ein Hinweis zum Abschnitt A/B-Test-E-Mail hinzugefügt: Wenn die Gesamtbevölkerung weniger als 50.000 Menschen umfasst, muss jede Variante mindestens 10 % der Gesamtbevölkerung ausmachen. Andernfalls wird in den Protokollen eine Warnung angezeigt. [Mehr dazu](../../channels/using/designing-an-a-b-test-email.md)
+
+Die Beschreibung der **[!UICONTROL Quelldateien nach der Übertragung löschen]** in der **Dateiübertragung** -Aktivität, einschließlich einer Erinnerung an die manuelle Überwachung der Größe des archivierten Inhalts im SFTP-Verzeichnis, falls die Option nicht ausgewählt ist. [Mehr dazu](../../automating/using/transfer-file.md)
+
+Alle veralteten Links im **Datenschutz** Abschnitte. [Mehr dazu](../../start/using/privacy.md)
 
 ## Version 21.3 – September 2021 {#release-21-3---september-2021}
 
@@ -84,7 +95,7 @@ Der Abschnitt [Zustellbarkeit](../../sending/using/about-deliverability.md) wurd
 
 **Neue Funktionen in dieser Version**
 
-Email Feedback Service – [mehr dazu](../../sending/using/confirming-the-send.md#message-indicators)
+E-Mail-Feedback-Service – [mehr dazu](../../sending/using/confirming-the-send.md#message-indicators)
 
 Verbesserungen bei der Adobe Experience Manager-Integration – [mehr dazu](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -590,7 +601,7 @@ Informationen zur Option, mit der die Zurückweisungen in einer Datei gespeicher
 
 Ein neuer Abschnitt zum Duplizieren von Workflow-Aktivitäten mit Copy &amp; Paste wurde hinzugefügt – [mehr dazu](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Zur neuen Option wurden Informationen in der Abfrage-Aktivität ([mehr dazu](../../automating/using/query-samples.md)) und der Segmentierungs-Aktivität ([mehr dazu](../../automating/using/segmentation.md)) hinzugefügt. Mit dieser Option kann an die Aktivität eine ausgehende Transition angeschlossen werden, wenn die Datenabfrage kein Ergebnis ausgegeben hat.
+Zur neuen Option wurden Informationen in der Abfrage-Aktivität ([mehr dazu](../../automating/using/query-samples.md)) und der Segmentierungs-Aktivität ([mehr dazu](../../automating/using/segmentation.md)) hinzugefügt. Mit dieser Option kann an die Aktivität eine ausgehende Transition angeschlossen werden, wenn sie keine Daten abgerufen hat.
 
 Im Abschnitt zur Daten-Update-Aktivität wurden Informationen hinzugefügt, in der das neue Batch-Größe-Feld beschrieben wird, mit dem die maximale Batch-Größe der hochzuladenden Daten definiert werden kann – [mehr dazu](../../automating/using/update-data.md#configuration)
 
