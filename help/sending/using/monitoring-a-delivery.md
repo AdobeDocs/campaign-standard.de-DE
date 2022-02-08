@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 91%
 
 ---
 
@@ -37,6 +37,12 @@ Es gibt mehrere Möglichkeiten, einen Versand zu überwachen und seine Wirkung z
    Mithilfe der Schaltfläche **[!UICONTROL Liste exportieren]** kann das Protokoll exportiert werden.
 
    ![](assets/sending_delivery2.png)
+
+* **Auftragsprotokolle**: Eine Liste der vom Versand ausgelösten Batch-Aufträge kann über das Nachrichten-Dashboard durch Auswahl von **[!UICONTROL Auftragsverlauf]** von **[!UICONTROL Zusammenfassung]** Dropdown-Liste.
+
+   Wählen Sie einen beliebigen Auftrag aus der Liste aus, um die Details des ausgewählten Auftrags anzuzeigen **[!UICONTROL Batch-Auftrag]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **Versandwarnungen**: Um Erfolge und Fehlschläge beim Versand zu verfolgen, ist Adobe Campaign mit einem E-Mail-Warnsystem ausgestattet, über das Benutzer Benachrichtigungen zu wichtigen Systemaktivitäten erhalten.
 * **Berichte**: Im Nachrichten-Dashboard können Sie für diese Nachricht mehrere Berichte aufrufen. Zusätzlich ist über das Menü **[!UICONTROL Berichte]** eine vollständige Liste integrierter oder benutzerdefinierter Berichte mit Metriken zu Ihrer Nachricht oder Kampagne abrufbar.

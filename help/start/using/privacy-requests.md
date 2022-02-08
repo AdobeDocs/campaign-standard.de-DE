@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 100%
+source-wordcount: '1701'
+ht-degree: 94%
 
 ---
 
@@ -23,9 +23,7 @@ Diese Informationen gelten für DSGVO, CCPA, PDPA und LGPD. Weitere Informatione
 
 Die Möglichkeit zum Opt-out aus dem Verkauf von personenbezogenen Daten, die sich speziell auf den CCPA bezieht, wird in [diesem Abschnitt](#sale-of-personal-information-ccpa) erläutert.
 
->[!IMPORTANT]
->
->Ab Version 19.4 wird die Verwendung der Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen nicht mehr unterstützt. Für alle DSGVO-, CCPA-, PDPA- oder LGPD-Zugriffs- und Löschanfragen müssen Sie die Integrationsmethode des [Privacy Core Service](#create-privacy-request) verwenden.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## Datenschutzanfragen {#about-privacy-requests}
 
@@ -89,15 +87,17 @@ Weitere Informationen zum Erstellen eines Namespace finden Sie in diesem [Tutori
 
 ### Erstellen einer Datenschutzanfrage {#create-privacy-request}
 
->[!IMPORTANT]
->
->Die **Privacy Core Service**-Integration ist die Methode, die Sie für alle Zugriffs- und Löschanfragen verwenden sollten.
->
->Ab Version 19.4 wird die Verwendung der Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen nicht mehr unterstützt. Verwenden Sie den Privacy Core Service für alle DSGVO-, CCPA-, PDPA- oder LGPD-Zugriffs- und Löschanfragen.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
 Durch die Integration von Privacy Core Service können Sie Datenschutzanfragen in einer Umgebung mit mehreren Lösungen über nur einen einzigen JSON API-Aufruf automatisieren. Die vom Privacy Core Service an alle Experience Cloud-Lösungen übertragenen Datenschutzanfragen werden von Campaign mithilfe eines speziellen Workflows automatisch verarbeitet.
 
 Weitere Informationen zum Erstellen von Datenschutzanfragen mittels Privacy Core Service finden Sie in der Dokumentation zum [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de).
+
+>[!IMPORTANT]
+>
+>Um eine Anfrage mit dem benutzerdefinierten Namespace-Typ zu senden, nutzen Sie die [JSON-Methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} und fügen Sie die namespaceId zur Anforderung hinzu oder verwenden Sie die [API-Aufruf](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;}, um die Anfrage zu erstellen.
+>
+>Verwenden Sie nur die [Benutzeroberfläche für Datenschutz](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} zum Senden von Anfragen mithilfe des Standard-Namespace-Typs.
 
 Jeder Privacy Core Service-Vorgang wird in mehrere Datenschutzanfragen in Campaign aufgeteilt, je nachdem, wie viele Namespaces verwendet werden, wobei eine Anfrage einem Namespace entspricht. Außerdem kann ein Vorgang in mehreren Instanzen ausgeführt werden. Daher werden für einen Vorgang mehrere Dateien erstellt. Wenn sich eine Anfrage beispielsweise auf zwei Namespaces bezieht und drei Instanzen betrifft, werden insgesamt sechs Dateien gesendet. Eine Datei pro Namespace und Instanz.
 
@@ -189,7 +189,7 @@ Wenn Benutzer über Ihr System entscheiden, dass sie den Verkauf ihrer personenb
 
 ### Voraussetzungen für benutzerdefinierte Tabellen {#ccpa-prerequisite}
 
-Ab Version 19.4 verfügen die Campaign-Benutzeroberfläche und die API nativ über das Feld **[!UICONTROL CCPA-Opt-out]**. Standardmäßig ist das Feld für die Standard-**[!UICONTROL Profilressource]** verfügbar.
+Die **[!UICONTROL CCPA-Opt-out]** -Feld ist in der Campaign-Benutzeroberfläche und der API nativ verfügbar. Standardmäßig ist das Feld für die Standard-**[!UICONTROL Profilressource]** verfügbar.
 
 Wenn Sie eine benutzerdefinierte Profilressource verwenden, müssen Sie die Ressource erweitern und das Feld hinzufügen. Es wird empfohlen, einen anderen Namen als das native Feld zu verwenden. Beispiel: **[!UICONTROL Opt-out für CCPA]** (optoutccpa). Wenn ein neues Feld erstellt wird, wird es automatisch von der Campaign-API unterstützt.
 

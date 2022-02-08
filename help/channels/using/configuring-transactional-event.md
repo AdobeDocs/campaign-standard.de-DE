@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 100%
+source-wordcount: '1776'
+ht-degree: 98%
 
 ---
 
@@ -122,6 +122,10 @@ Weitere Informationen zum Erstellen und Veröffentlichen von Ressourcen finden S
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld in der ausgewählten Ressource mit einem zuvor von Ihnen zum Ereignis hinzugefügten Feld zu verknüpfen (siehe [Ereignisattribute definieren](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie eine Bedingung definieren, mit der mehrere Empfänger ausgewählt werden können (z. B. ein Feld, das für mehrere Profile denselben Wert aufweisen kann), wird nur ein Profil ausgewählt.
 
 1. In unserem Beispiel stimmen wir die Felder **[!UICONTROL Nachname]** und **[!UICONTROL Vorname]** mit den entsprechenden Feldern der Ressource **[!UICONTROL Profil]** ab.
 

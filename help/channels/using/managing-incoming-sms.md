@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '724'
+ht-degree: 99%
 
 ---
 
@@ -34,6 +34,10 @@ Gehen Sie dabei folgendermaßen vor:
 1. Wählen Sie das Schlüsselwort aus, das diese automatische Antwort auslöst. Bei den Schlüsselwörtern kann die Groß-/Kleinschreibung ignoriert werden. Wenn beispielsweise in unserem Beispiel die Empfänger das Schlüsselwort &quot;STOP&quot; senden, erhalten sie die automatische Antwort.
 
    Lassen Sie diese Spalte leer, wenn Sie unabhängig vom Schlüsselwort dieselbe Antwort senden möchten.
+
+   >[!IMPORTANT]
+   >
+   >Nur alphanumerische Zeichen sind zulässig.
 
    ![](assets/sms_mo_2.png)
 

@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Die [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html)-Integration ist die Methode, die Sie für alle Zugriffs- und Löschanfragen verwenden sollten. Mit Version 19.4. wurde die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen eingestellt. Weiterführende Informationen zu veralteten und entfernten Funktionen von Campaign Standard finden Sie auf [dieser Seite](../../rn/using/deprecated-features.md).
+>Die [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html)-Integration ist die Methode, die Sie für alle Zugriffs- und Löschanfragen verwenden sollten. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Datenschutzanfragen werden mit einer **POST**-Anfrage erstellt.
 
-Bevor Sie Anfragen erstellen, müssen Sie den zu verwendenden Namespace definieren. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenschutzverwaltung](https://helpx.adobe.com/de/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Bevor Sie Anfragen erstellen, müssen Sie den zu verwendenden Namespace definieren. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenschutzverwaltung](../../start/using/privacy-requests.md).
 
 Die Payload muss folgende Parameter enthalten:
 

@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
+workflow-type: tm+mt
+source-wordcount: '1336'
+ht-degree: 94%
 
 ---
 
@@ -160,6 +160,18 @@ Nach erfolgreicher Vorbereitung und Validierung Ihres Versands können Sie die N
    ![](assets/inapp_sending_7.png)
 
 1. Messen Sie die Wirksamkeit Ihrer In-App-Nachrichten mit Versandberichten. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../../reporting/using/in-app-report.md).
+
+1. Nach dem Versand Ihrer In-App-Nachrichten können Sie den Versand deaktivieren. Dies kann nützlich sein, wenn Sie einen bestimmten Versand stoppen möchten oder wenn Sie beispielsweise einen neuen Versand mit demselben Trigger ausführen möchten.
+
+   Klicken **[!UICONTROL Deaktivieren]** then **[!UICONTROL Ok]** , um die Deaktivierungsanfrage zu starten.
+
+   ![](assets/inapp_sending_8.png)
+
+1. Nachdem die Anfrage gesendet wurde, wird Ihr Versand deaktiviert und es wird keine andere Nachricht gesendet.
+
+   Beachten Sie, dass Ihre Berichte für diesen Versand weiterhin verfügbar sein werden.
+
+   ![](assets/inapp_sending_9.png)
 
 **Verwandte Themen:**
 

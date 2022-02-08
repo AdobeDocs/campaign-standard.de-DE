@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e6939330e0f9a519507f467cc56e3d5a9a995b17
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 100%
+source-wordcount: '1006'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 
 ## Über Sicherheitsgruppen {#about-security-groups}
 
+>[!IMPORTANT]
+>
+>Die Sicherheitsgruppen **[!UICONTROL Zugriff auf die Konfiguration der Zustellbarkeit (Deliverability)]** und **[!UICONTROL Message Center Agents (mcExec)]** sind Adobe vorbehalten und sollten nicht Benutzern zugewiesen werden.
+
 Sicherheitsgruppen sind eine Gruppe von Benutzern, die innerhalb Ihres Unternehmens dieselben Rollen und Berechtigungen besitzen.
 
-Benutzer müssen stets einer Sicherheitsgruppe angehören. Dadurch können Sie Benutzern spezifische Rollen und Organisationseinheiten zuweisen.
+Benutzer müssen stets einer Sicherheitsgruppe angehören. Dadurch können Sie Benutzern spezifische Rollen und Organisationseinheiten zuweisen. Um den Zugriff eines Benutzers zu beschränken, fügen Sie ihn nicht zur Kampagne hinzu **[!UICONTROL Standardbenutzer]** -Gruppe, da diese mit **[!UICONTROL Alle]** Organisationseinheit.
 
 Die für die verschiedenen Benutzerrollen jeweils möglichen Aktionen sind in den Tabellen auf der folgenden Seite aufgeführt: [Berechtigungen in Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de).
 
@@ -33,17 +37,7 @@ Standardmäßige Sicherheitsgruppen sind:
 * **[!UICONTROL Standardbenutzer]**
 * **[!UICONTROL Workflow-Supervisoren]**
 
->[!IMPORTANT]
->
->Die Sicherheitsgruppen **[!UICONTROL Zugriff auf die Konfiguration der Zustellbarkeit (Deliverability)]** und **[!UICONTROL Message Center Agents (mcExec)]** sind Adobe vorbehalten und sollten nicht Benutzern zugewiesen werden.
-
-Um auf Adobe Campaign zugreifen zu können, muss jeder Benutzer einer Sicherheitsgruppe zugewiesen sein.
-
-Wenn Sie den Zugriff eines Benutzers beschränken möchten, fügen Sie ihn nicht der Campaign Standard-Benutzergruppe hinzu, da diese der Organisationseinheit **[!UICONTROL Alle]** zugeordnet ist.
-
->[!NOTE]
->
->Standardmäßig wird die Organisationseinheit **[!UICONTROL Alle (all)]** der Sicherheitsgruppe **[!UICONTROL Administratoren]** zugewiesen. Sie ist schreibgeschützt und kann nicht geändert werden.
+Beachten Sie, dass diese integrierten Sicherheitsgruppen schreibgeschützt sind und nicht geändert werden können. Informationen zum Erstellen einer eigenen Sicherheitsgruppe mit einer Reihe spezifischer Rollen finden Sie im folgenden Abschnitt.
 
 ## Sicherheitsgruppe erstellen und Benutzer zuordnen {#creating-a-security-group-and-assigning-users}
 

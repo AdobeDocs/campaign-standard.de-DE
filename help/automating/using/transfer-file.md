@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 100%
+source-wordcount: '1294'
+ht-degree: 95%
 
 ---
 
@@ -54,11 +54,13 @@ Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im 
    * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
    * [Auf dem Adobe Campaign-Server vorhandene Datei(en)](#files-server-configuration-wf)
 
-1. Im Bereich **[!UICONTROL Weitere Optionen]**, der je nach gewähltem Protokoll angezeigt wird, ist die Konfiguration weiterer Protokollparameter möglich. Sie haben folgende Möglichkeiten:
+1. Im Bereich **[!UICONTROL Weitere Optionen]**, der je nach gewähltem Protokoll angezeigt wird, ist die Konfiguration weiterer Protokollparameter möglich.
 
-   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**
-   * **[!UICONTROL Passiven Modus deaktivieren]**
-   * **[!UICONTROL Alle Dateien auflisten]**: Die Option ist bei Aktivierung der Aktion **[!UICONTROL Dateiauflistung]** im Tab **[!UICONTROL Allgemein]** auswählbar. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
+   Sie haben folgende Möglichkeiten:
+
+   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: löscht die Dateien auf dem Remote-Server. Wenn Sie diese Option deaktiviert lassen, achten Sie darauf, die Größe des archivierten Inhalts im SFTP-Verzeichnis manuell zu überwachen.
+   * **[!UICONTROL Passiven Modus deaktivieren]**: ermöglicht Ihnen, den Verbindungsports anzugeben, der für die Datenübertragung verwendet werden soll.
+   * **[!UICONTROL Alle Dateien auflisten]**: Diese Option ist verfügbar, wenn Sie die **[!UICONTROL Dateiauflistung]** in der **[!UICONTROL Allgemein]** Registerkarte. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
 
 1. Im Bereich **[!UICONTROL Bei Abwesenheit von Dateien]** des Tabs **[!UICONTROL Erweiterte Optionen]** können Sie bestimmen, was geschehen soll, wenn die gewünschten Dateien beim Start der Aktivität nicht auffindbar sind.
 

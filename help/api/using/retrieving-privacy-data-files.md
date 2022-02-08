@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '165'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Die [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html)-Integration ist die Methode, die Sie für alle Zugriffs- und Löschanfragen verwenden sollten. Mit Version 19.4. wurde die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen eingestellt. Weiterführende Informationen zu veralteten und entfernten Funktionen von Campaign Standard finden Sie auf [dieser Seite](../../rn/using/deprecated-features.md).
+>Die [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html)-Integration ist die Methode, die Sie für alle Zugriffs- und Löschanfragen verwenden sollten. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Gehen Sie wie folgt in drei Schritten vor, um die Datei abzurufen, die alle mit einem Abstimmungswert verknüpften Informationen enthält:
 

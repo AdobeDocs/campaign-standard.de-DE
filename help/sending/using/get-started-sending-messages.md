@@ -7,10 +7,10 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Mehr dazu:
 ## Zusätzliche Ressourcen
 
 * [E-Mails für A/B-Test entwerfen](../../channels/using/designing-an-a-b-test-email.md)
-* [Erste Schritte mit E-Mails](https://helpx.adobe.com/de/campaign/kb/acs-get-started-with-emails.html)
+* [Erste Schritte mit Nachrichten](../../channels/using/key-steps-to-send-a-message.md)
 * [Best Practices beim Versand](../../sending/using/delivery-best-practices.md)
 * [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
 
