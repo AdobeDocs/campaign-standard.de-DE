@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 100%
+source-wordcount: '868'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
    * **[!UICONTROL Variantenanzahl]**: Sie haben die Wahl zwischen zwei oder drei Varianten. Wenn Sie drei Varianten wählen, lässt sich Ihre Entscheidung nach der Validierung dieser Etappe des Assistenten nicht mehr abändern.
    * **[!UICONTROL Gewinnerstrategie]**: Definieren Sie das Kriterium zur Auswahl der Gewinnervariante.
    * **[!UICONTROL Verteilung der Zielgruppe]**: Legen Sie fest, zu welchem Anteil die Zielgruppe auf die verschiedenen Varianten verteilt werden soll. Der verbleibende Anteil erhält die Gewinnervariante, sobald diese feststeht. Dabei erfolgt die Auswahl aus den Profilen der Zielgruppe nach dem Zufallsprinzip.
+
+      >[!NOTE]
+      >
+      >Wenn die Gesamtpopulation weniger als 50.000 beträgt, muss jede Variante mindestens 10 % der Gesamtpopulation ausmachen.
+
    * **[!UICONTROL Versandmethode der Gewinnervariante]**: Entscheiden Sie, ob der Versand der Gewinnervariante automatisch ausgelöst werden soll, sobald diese feststeht, oder ob Sie den Versand an die verbleibende Population manuell bestätigen möchten.
    * **[!UICONTROL Testdauer]**: Geben Sie die Dauer des Tests an. Die Gewinnervariante wird nach Ablauf dieser Dauer automatisch bestimmt. Es besteht die Möglichkeit, die Gewinnervariante vor Ablauf des Tests manuell im E-Mail-Dashboard auszuwählen.
 
@@ -88,4 +93,4 @@ Ihre E-Mail ist jetzt definiert und kann gesendet werden. Sie können Protokolle
 
 Im E-Mail-Dashboard sind mehrere Indikatoren verfügbar, mit denen Sie Ihren A/B-Test auswerten können: Anzahl der Klicks, Öffnungen, Bounces usw.
 
-Der Indikator **[!UICONTROL Geschätzte Empfänger-Reaktivität]** vergleicht die Anzahl der Empfänger, die auf die E-Mail geklickt haben, mit der Anzahl der Empfänger, die die E-Mail geöffnet haben. Beispiel: Zehn Empfänger haben die E-Mail geöffnet und fünf Empfänger haben darauf geklickt. Die Reaktionsrate beträgt somit 50 %.
+Der Indikator **[!UICONTROL Geschätzte Empfänger-Reaktivität]** vergleicht die Anzahl der Empfänger, die auf die E-Mail geklickt haben, mit der Anzahl der Empfänger, die die E-Mail geöffnet haben. Wenn beispielsweise zehn Empfänger die E-Mail geöffnet und fünf Empfänger darauf geklickt haben, beträgt die Reaktionsrate 50 %.
