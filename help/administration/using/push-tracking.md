@@ -1,17 +1,14 @@
 ---
 title: Implementieren von Push-Tracking
-description: Mit diesem Dokument können Sie sicherstellen, dass das Tracking von Push-Benachrichtigungen unter iOS und Android richtig implementiert wurde.
+description: Erfahren Sie, wie Sie sicherstellen können, dass das Tracking von Push-Benachrichtigungen unter iOS und Android richtig implementiert wurde
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
-workflow-type: ht
-source-wordcount: '969'
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+workflow-type: tm+mt
+source-wordcount: '967'
 ht-degree: 100%
 
 ---

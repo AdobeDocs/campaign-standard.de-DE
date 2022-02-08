@@ -1,17 +1,15 @@
 ---
 title: Log-Exporte überprüfen
-description: Administratoren können die aus Adobe Campaign vorgenommenen Exporte verfolgen.
+description: Erfahren Sie, wie Administratoren die aus Adobe Campaign vorgenommenen Exporte verfolgen können.
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 89%
 
 ---
 

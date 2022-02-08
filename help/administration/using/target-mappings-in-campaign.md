@@ -1,6 +1,6 @@
 ---
 title: Zielgruppen-Mappings in Campaign
-description: Zielgruppen-Mappings sind technische Objekte, die Campaign zum Versenden von Nachrichten verwendet. Sie enthalten alle technischen Parameter, die für den Versand benötigt werden.
+description: Weitere Informationen zum Zielgruppen-Mapping finden Sie in Campaign Standard .
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 91%
 
 ---
 

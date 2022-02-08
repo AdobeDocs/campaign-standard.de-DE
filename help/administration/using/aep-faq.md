@@ -2,13 +2,11 @@
 title: Häufig gestellte Fragen zur Integration des Adobe Experience Platform SDK und Adobe Campaign
 description: Häufig gestellte Fragen zur Integration des Adobe Experience Platform SDK und Adobe Campaign
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%

@@ -1,17 +1,15 @@
 ---
-title: Häufig gestellte Fragen zur Synchronisierung mit dem technischen Workflows für Launch
-description: Häufig gestellte Fragen zum technischen Workflow für Launch.
+title: Häufig gestellte Fragen zur Synchronisierung mit dem technischen Workflow für Launch
+description: Häufige Fragen zum technischen Workflow von Adobe Launch
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 98%
 
 ---
 

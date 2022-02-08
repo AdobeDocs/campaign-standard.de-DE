@@ -1,15 +1,12 @@
 ---
 title: Organisationseinheiten
-description: Definieren Sie die Zugriffsebene Ihrer Benutzer mithilfe von Organisationseinheiten.
+description: Definieren Sie die Zugriffsebene Ihrer Benutzer mithilfe von Organisationseinheiten
 audience: administration
-content-type: reference
-topic-tags: users-and-security
-context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 100%
