@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
+source-git-commit: 3b13f9b896cc240e5d9d9eebed42074a84addba8
 workflow-type: tm+mt
-source-wordcount: '7165'
+source-wordcount: '7171'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 97%
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
-## Februar 2022 {#doc-updates-feb-2022}
+## Version 22.1 – Februar 2022 {#release-22-1}
+
+**In der Version enthaltene Verbesserungen**
 
 ## Version 22.1 – Februar 2022 {#release-22-1}
 
