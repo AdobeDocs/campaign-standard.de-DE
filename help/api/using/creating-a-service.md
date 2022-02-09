@@ -1,21 +1,18 @@
 ---
-title: Dienst erstellen
-description: Erfahren Sie, wie Sie mit APIs einen Dienst erstellen können.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+title: Service erstellen
+description: Erfahren Sie, wie Sie mit APIs einen Dienst erstellen können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 100%
+source-wordcount: '75'
+ht-degree: 93%
 
 ---
 
-# Service erstellen {#creating-a-service}
+# Dienst mit APIs erstellen{#creating-a-service-api}
 
 Dienste lassen sich mit einer **POST**-Anfrage für die Dienstressource erstellen.
 

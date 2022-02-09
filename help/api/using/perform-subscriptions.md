@@ -1,21 +1,18 @@
 ---
 title: Vornehmen von Anmeldungen
-description: Erfahren Sie, wie Sie mit APIs Anmeldungen vornehmen können.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Erfahren Sie, wie Sie mit APIs Anmeldungen vornehmen können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 96%
 
 ---
 
-# Vornehmen von Anmeldungen {#performing-subscriptions}
+# Abonnements mit APIs durchführen{#performing-subscriptions}
 
 ## Methode 1: Anmelden eines Profils für einen Dienst
 

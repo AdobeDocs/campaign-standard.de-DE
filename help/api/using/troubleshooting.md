@@ -1,21 +1,18 @@
 ---
 title: Fehlerbehebung
-description: Erfahren Sie mehr über häufige Probleme bei Campaign Standard-APIs.
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
+description: Erfahren Sie mehr über häufige Probleme bei Campaign Standard-APIs
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 100%
 
 ---
 
-# Fehlerbehebung {#troubleshooting}
+# Fehlerbehebung bei APIs {#troubleshooting}
 
 * **Wenn Sie zur Adobe.io-Konsole wechseln, erhalten Sie den folgenden Fehler: &quot;Die Adobe I/O-Konsole steht nur ausgewählten Mitgliedern von Unternehmenskonten zur Verfügung. Wenden Sie sich an Ihren Systemadministrator, wenn Sie meinen, Zugriff zu benötigen.&quot;**
 
@@ -87,7 +84,7 @@ Entweder ist Ihr Token ungültig (unzulässiger IMS-Aufruf zum Generieren eines 
 
 * **Ich kann mein Profil nach der Erstellung nicht sehen**
 
-Je nach Instanzkonfiguration muss das erstellte Profil einer **orgUnit** zugeordnet werden. Informationen zum Hinzufügen dieses Felds zu Ihrer Erstellung finden Sie in [diesem Abschnitt](../../api/using/creating-profiles.md).
+Je nach Instanzkonfiguration muss das erstellte Profil einer **orgUnit** zugeordnet werden. Informationen zum Hinzufügen dieses Felds zu Ihrer Erstellung finden Sie in [diesem Abschnitt](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

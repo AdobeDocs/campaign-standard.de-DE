@@ -1,21 +1,18 @@
 ---
 title: Profile aktualisieren
-description: Erfahren Sie, wie Sie mit APIs Profile aktualisieren können.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Erfahren Sie, wie Sie mit APIs Profile aktualisieren können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '96'
+ht-degree: 95%
 
 ---
 
-# Profile aktualisieren {#updating-profiles}
+# Profile mit APIs aktualisieren{#updating-profiles-api}
 
 Das Aktualisieren von Profilen erfolgt über eine **PATCH**-Anfrage.
 

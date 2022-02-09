@@ -1,21 +1,18 @@
 ---
-title: Interagieren mit dem Marketingverlauf
-description: Erfahren Sie, wie Sie mit dem Marketingverlauf von Profilen interagieren können.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+title: Interagieren mit dem Marketing-Verlauf
+description: Erfahren Sie, wie Sie mit dem Marketingverlauf von Profilen interagieren können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
 
 ---
 
-# Interagieren mit dem Marketing-Verlauf {#interacting-with-marketing-history}
+# Interagieren mit dem Marketing-Verlauf{#interacting-with-marketing-history}
 
 Über den Endpunkt **Verlauf** können Sie mit dem Marketingverlauf eines Profils interagieren.
 So können Sie z. B. die Mirrorseite für einen Versand abrufen, der an ein Profil gesendet wurde. Gehen Sie dazu wie folgt vor:
