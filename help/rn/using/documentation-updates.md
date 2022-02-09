@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
+source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
 workflow-type: tm+mt
-source-wordcount: '7126'
+source-wordcount: '7165'
 ht-degree: 97%
 
 ---
@@ -18,17 +18,27 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Februar 2022 {#doc-updates-feb-2022}
 
+## Version 22.1 – Februar 2022 {#release-22-1}
+
+**In der Version enthaltene Verbesserungen**
+
 Verbesserter Wiederholungsmechanismus für Sendungen, einschließlich aus einer URL importiertem Inhalt. [Mehr dazu](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-Es wurde ein Warnhinweis zu Schlüsselwörtern hinzugefügt, die automatische SMS-Antworten von Triggern enthalten: dürfen nur alphanumerische Zeichen enthalten. [Mehr dazu](../../channels/using/managing-incoming-sms.md)
-
 Die Zugriffsebene der Optionen, die die Prüfung steuern, wurde aktualisiert: frühere Optionen zum Aktivieren/Deaktivieren [Audit-Protokoll](../../administration/using/audit.md) nicht zugänglich waren [funktionale Administratoren](../../administration/using/users-management.md#functional-administrators). Mit dieser Änderung wird die Zugriffsstufe der Prüfung geändert, um funktionalen Administratoren die Kontrolle zu ermöglichen. [Mehr dazu](../../administration/using/audit.md#enable-disable-audit)
+
+Die neue **Auftragsverlauf** wurde zum Nachrichten-Dashboard hinzugefügt. [mehr dazu](../../sending/using/monitoring-a-delivery.md)
+
+**Sonstige Änderungen**
+
+Es wurde ein Warnhinweis zu Schlüsselwörtern hinzugefügt, die automatische SMS-Antworten von Triggern enthalten: dürfen nur alphanumerische Zeichen enthalten. [Mehr dazu](../../channels/using/managing-incoming-sms.md)
 
 Es wurde ein Hinweis zum Abschnitt A/B-Test-E-Mail hinzugefügt: Wenn die Gesamtbevölkerung weniger als 50.000 Menschen umfasst, muss jede Variante mindestens 10 % der Gesamtbevölkerung ausmachen. Andernfalls wird in den Protokollen eine Warnung angezeigt. [Mehr dazu](../../channels/using/designing-an-a-b-test-email.md)
 
 Die Beschreibung der **[!UICONTROL Quelldateien nach der Übertragung löschen]** in der **Dateiübertragung** -Aktivität, einschließlich einer Erinnerung an die manuelle Überwachung der Größe des archivierten Inhalts im SFTP-Verzeichnis, falls die Option nicht ausgewählt ist. [Mehr dazu](../../automating/using/transfer-file.md)
 
 Alle veralteten Links im **Datenschutz** Abschnitte. [Mehr dazu](../../start/using/privacy.md)
+
+Es wurde ein direkter Link zur Dokumentation zum Campaign Control Panel in der Inhaltsdokumentationstabelle des Campaign Standards hinzugefügt.
 
 ## Version 21.3 – September 2021 {#release-21-3---september-2021}
 
