@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen konfigurieren
-description: Erfahren Sie, wie Sie Adobe Experience Platform Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen konfigurieren.
+description: Erfahren Sie, wie Sie die Adobe Experience Platform Launch-Regeln konfigurieren, um Anwendungsfälle von Adobe Campaign Standard zu unterstützen.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1120'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
