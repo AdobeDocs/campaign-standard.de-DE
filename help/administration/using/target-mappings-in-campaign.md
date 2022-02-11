@@ -1,6 +1,6 @@
 ---
 title: Zielgruppen-Mappings in Campaign
-description: Weitere Informationen zum Zielgruppen-Mapping finden Sie in Campaign Standard .
+description: Erfahren Sie mehr über das Zielgruppen-Mapping in Campaign Standard
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
