@@ -1,15 +1,15 @@
 ---
-title: Richtlinien für das Monitoring
-description: Auf dieser Seite finden Sie allgemeine Richtlinien zur Überwachung von Campaign Standard
+title: Richtlinien für das Überwachen
+description: Diese Seite enthält allgemeine Richtlinien für das Überwachen von Campaign Standard
 audience: production
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
