@@ -1,13 +1,13 @@
 ---
-title: Bild aus einer Push-Benachrichtigung von Adobe Campaign Standard anzeigen
-description: Hier erfahren Sie, wie Sie ein Bild aus einer Adobe Campaign-Push-Benachrichtigung auf einem iOS-Gerät anzeigen
+title: Anzeigen eines Bildes aus einer Push-Benachrichtigung von Adobe Campaign Standard
+description: Hier erfahren Sie, wie Sie ein Bild aus einer Push-Benachrichtigung von Adobe Campaign auf einem iOS-Gerät anzeigen
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
