@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1701'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Weitere Informationen zum Erstellen von Datenschutzanfragen mittels Privacy Core
 
 >[!IMPORTANT]
 >
->Um eine Anfrage mit dem benutzerdefinierten Namespace-Typ zu senden, nutzen Sie die [JSON-Methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} und fügen Sie die namespaceId zur Anforderung hinzu oder verwenden Sie die [API-Aufruf](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;}, um die Anfrage zu erstellen.
+>Um eine Anfrage mit dem benutzerdefinierten Namespace-Typ zu senden, nutzen Sie die [JSON-Methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#json){target=&quot;_blank&quot;} und fügen Sie die namespaceId zur Anforderung hinzu. Alternativ können Sie den [API-Aufruf](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=de#access-delete){target=&quot;_blank&quot;} für die Anfrage verwenden.
 >
->Verwenden Sie nur die [Benutzeroberfläche für Datenschutz](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} zum Senden von Anfragen mithilfe des Standard-Namespace-Typs.
+>Verwenden Sie nur die [Datenschutz-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#request-builder){target=&quot;_blank&quot;} zum Senden von Anfragen mithilfe des standardmäßigen Namespace-Typs.
 
 Jeder Privacy Core Service-Vorgang wird in mehrere Datenschutzanfragen in Campaign aufgeteilt, je nachdem, wie viele Namespaces verwendet werden, wobei eine Anfrage einem Namespace entspricht. Außerdem kann ein Vorgang in mehreren Instanzen ausgeführt werden. Daher werden für einen Vorgang mehrere Dateien erstellt. Wenn sich eine Anfrage beispielsweise auf zwei Namespaces bezieht und drei Instanzen betrifft, werden insgesamt sechs Dateien gesendet. Eine Datei pro Namespace und Instanz.
 
@@ -189,7 +189,7 @@ Wenn Benutzer über Ihr System entscheiden, dass sie den Verkauf ihrer personenb
 
 ### Voraussetzungen für benutzerdefinierte Tabellen {#ccpa-prerequisite}
 
-Die **[!UICONTROL CCPA-Opt-out]** -Feld ist in der Campaign-Benutzeroberfläche und der API nativ verfügbar. Standardmäßig ist das Feld für die Standard-**[!UICONTROL Profilressource]** verfügbar.
+Die Campaign-Benutzeroberfläche und die API verfügen standardmäßig über das Feld **[!UICONTROL CCPA-Opt-out]**. Standardmäßig ist das Feld für die Standard-**[!UICONTROL Profilressource]** verfügbar.
 
 Wenn Sie eine benutzerdefinierte Profilressource verwenden, müssen Sie die Ressource erweitern und das Feld hinzufügen. Es wird empfohlen, einen anderen Namen als das native Feld zu verwenden. Beispiel: **[!UICONTROL Opt-out für CCPA]** (optoutccpa). Wenn ein neues Feld erstellt wird, wird es automatisch von der Campaign-API unterstützt.
 
