@@ -9,9 +9,9 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1336'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -161,9 +161,9 @@ Nach erfolgreicher Vorbereitung und Validierung Ihres Versands können Sie die N
 
 1. Messen Sie die Wirksamkeit Ihrer In-App-Nachrichten mit Versandberichten. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../../reporting/using/in-app-report.md).
 
-1. Nach dem Versand Ihrer In-App-Nachrichten können Sie den Versand deaktivieren. Dies kann nützlich sein, wenn Sie einen bestimmten Versand stoppen möchten oder wenn Sie beispielsweise einen neuen Versand mit demselben Trigger ausführen möchten.
+1. Nach dem Versand Ihrer In-App-Nachrichten können Sie jetzt Ihren Versand deaktivieren. Dies kann nützlich sein, wenn Sie beispielsweise einen bestimmten Versand stoppen möchten oder wenn Sie einen neuen Versand mit demselben Trigger ausführen möchten.
 
-   Klicken **[!UICONTROL Deaktivieren]** then **[!UICONTROL Ok]** , um die Deaktivierungsanfrage zu starten.
+   Klicken Sie auf **[!UICONTROL Deaktivieren]** und dann auf **[!UICONTROL OK]**, um die Deaktivierungsanfrage zu starten.
 
    ![](assets/inapp_sending_8.png)
 
