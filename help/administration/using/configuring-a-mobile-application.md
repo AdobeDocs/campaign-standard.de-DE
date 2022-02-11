@@ -1,15 +1,15 @@
 ---
 title: Mobile App konfigurieren
-description: Erfahren Sie, wie Sie Adobe Campaign so konfigurieren, dass Push-Benachrichtigungen oder In-App-Nachrichten mit dem Experience Platform SDK gesendet werden
+description: Hier erfahren Sie, wie Adobe Campaign konfiguriert werden muss, damit Push-Benachrichtigungen oder In-App-Nachrichten unter Verwendung des Experience Platform SDK gesendet werden können
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
