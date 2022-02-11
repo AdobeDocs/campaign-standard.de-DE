@@ -1,15 +1,15 @@
 ---
 title: Die Struktur der Payload von Push-Benachrichtigungen in Campaign Standard
-description: Erfahren Sie mehr über die Struktur der in Mobile Apps empfangenen Payload.
+description: Erfahren Sie mehr über die Struktur der in Mobile Apps empfangenen Payload
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
