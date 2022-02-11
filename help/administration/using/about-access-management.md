@@ -1,15 +1,15 @@
 ---
 title: Über die Zugriffsverwaltung
-description: Erfahren Sie, wie Sie Ihre Adobe Campaign-Benutzer mithilfe von Rollen, Gruppen und Organisationseinheiten verwalten.
+description: Erfahren Sie, wie Sie Ihre Adobe Campaign-Benutzer mithilfe von Rollen, Gruppen und Organisationseinheiten verwalten können.
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
