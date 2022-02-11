@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ So greifen Sie auf das Audit-Protokoll Ihrer Instanz zu:
 
 >[!NOTE]
 >
-> Nur funktionale Administratoren können das Audit-Protokoll aktivieren oder deaktivieren. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/users-management.md#functional-administrators).
+> Nur funktionale Administratoren können das Audit-Protokoll aktivieren oder deaktivieren. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/users-management.md#functional-administrators).
 
 Das Audit-Protokoll kann für eine bestimmte Aktivität einfach aktiviert oder deaktiviert werden.
 
