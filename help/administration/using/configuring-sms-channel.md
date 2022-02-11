@@ -1,15 +1,15 @@
 ---
-title: SMS-Kanal konfigurieren
-description: Erfahren Sie mehr über die SMS-Konfigurationsschritte, einschließlich Routing, Kodierung, Formate und erweiterten Eigenschaften
+title: Konfigurieren des SMS-Kanals
+description: Erfahren Sie mehr über die SMS-Konfigurationsschritte, einschließlich Routing, Codierung, Formate und erweiterte Eigenschaften
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
