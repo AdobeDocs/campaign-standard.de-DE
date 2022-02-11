@@ -1,15 +1,15 @@
 ---
 title: Erste Schritte mit der Administration von Campaign Standard
-description: Erfahren Sie mehr über Benutzer- und Berechtigungsverwaltung, Überwachungsrichtlinien, kanalspezifische Konfigurationen und Richtlinien für Anwendungseinstellungen
+description: Erfahren Sie mehr über die Verwaltung von Benutzern und Berechtigungen, Überwachungsrichtlinien, kanalspezifische Konfigurationen und Richtlinien für Programmeinstellungen
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
