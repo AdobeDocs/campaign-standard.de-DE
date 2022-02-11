@@ -1,5 +1,5 @@
 ---
-title: Gruppen und Benutzer verwalten
+title: Verwalten von Gruppen und Benutzern
 description: Hier erfahren Sie, wie Sie Sicherheitsgruppen erstellen und Benutzer verwalten können
 audience: administration
 feature: Access Management
@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1006'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 Sicherheitsgruppen sind eine Gruppe von Benutzern, die innerhalb Ihres Unternehmens dieselben Rollen und Berechtigungen besitzen.
 
-Benutzer müssen stets einer Sicherheitsgruppe angehören. Dadurch können Sie Benutzern spezifische Rollen und Organisationseinheiten zuweisen. Um den Zugriff eines Benutzers zu beschränken, fügen Sie ihn nicht zur Kampagne hinzu **[!UICONTROL Standardbenutzer]** -Gruppe, da diese mit **[!UICONTROL Alle]** Organisationseinheit.
+Benutzer müssen stets einer Sicherheitsgruppe angehören. Dadurch können Sie Benutzern spezifische Rollen und Organisationseinheiten zuweisen. Wenn Sie den Zugriff eines Benutzers beschränken möchten, fügen Sie diesen nicht der **[!UICONTROL Standard-Benutzergruppe]** von Campaign hinzu, da diese der Organisationseinheit **[!UICONTROL Alle]** zugeordnet ist.
 
 Die für die verschiedenen Benutzerrollen jeweils möglichen Aktionen sind in den Tabellen auf der folgenden Seite aufgeführt: [Berechtigungen in Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de).
 
@@ -36,7 +36,7 @@ Standardmäßige Sicherheitsgruppen sind:
 
 Beachten Sie, dass diese integrierten Sicherheitsgruppen schreibgeschützt sind und nicht geändert werden können. Informationen zum Erstellen einer eigenen Sicherheitsgruppe mit einer Reihe spezifischer Rollen finden Sie im folgenden Abschnitt.
 
-## Sicherheitsgruppe erstellen und Benutzer zuordnen {#creating-a-security-group-and-assigning-users}
+## Erstellen einer Sicherheitsgruppe und Zuweisen von Benutzern {#creating-a-security-group-and-assigning-users}
 
 >[!IMPORTANT]
 >
