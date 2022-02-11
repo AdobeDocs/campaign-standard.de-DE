@@ -1,15 +1,15 @@
 ---
 title: Migration einer Mobile App vom SDK v4 zum Adobe Experience Platform SDK
-description: Erfahren Sie, wie Sie Ihre Mobile App von SDK v4 auf das Adobe Experience Platform SDK migrieren.
+description: Erfahren Sie, wie Sie Ihre Mobile App vom SDK v4 zum Adobe Experience Platform SDK migrieren können
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1356'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
