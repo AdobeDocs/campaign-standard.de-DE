@@ -10,9 +10,9 @@ role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Es gibt mehrere Möglichkeiten, einen Versand zu überwachen und seine Wirkung z
 
    ![](assets/sending_delivery2.png)
 
-* **Auftragsprotokolle**: Eine Liste der vom Versand ausgelösten Batch-Aufträge kann über das Nachrichten-Dashboard durch Auswahl von **[!UICONTROL Auftragsverlauf]** von **[!UICONTROL Zusammenfassung]** Dropdown-Liste.
+* **Auftragsprotokolle**: Eine Liste der durch den Versand ausgelösten Batch-Aufträge kann vom Nachrichten-Dashboard aus aufgerufen werden, indem Sie **[!UICONTROL Auftragsverlauf]** aus der Dropdown-Liste **[!UICONTROL Zusammenfassung]** auswählen.
 
-   Wählen Sie einen beliebigen Auftrag aus der Liste aus, um die Details des ausgewählten Auftrags anzuzeigen **[!UICONTROL Batch-Auftrag]**.
+   Wählen Sie einen beliebigen Auftrag aus der Liste aus, um die Details des ausgewählten **[!UICONTROL Batch-Auftrags]** anzuzeigen.
 
    ![](assets/sending_delivery8.png)
 
