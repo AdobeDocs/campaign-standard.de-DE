@@ -12,7 +12,7 @@ exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -58,13 +58,13 @@ Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im 
 
    Sie haben folgende Möglichkeiten:
 
-   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: löscht die Dateien auf dem Remote-Server. Wenn Sie diese Option deaktiviert lassen, achten Sie darauf, die Größe des archivierten Inhalts im SFTP-Verzeichnis manuell zu überwachen.
+   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: Löscht die Dateien auf dem Remote-Server. Wenn Sie diese Option deaktiviert lassen, achten Sie darauf, die Größe des archivierten Inhalts im SFTP-Verzeichnis manuell zu überwachen.
 
    * **[!UICONTROL Sortieren von Dateien]**: ermöglicht die alphanumerische Sortierung von Dateien. Standardmäßig ist diese Option deaktiviert.
 
       <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL Alle Dateien auflisten]**: Diese Option ist verfügbar, wenn Sie die **[!UICONTROL Dateiauflistung]** in der **[!UICONTROL Allgemein]** Registerkarte. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
+   * **[!UICONTROL Alle Dateien auflisten]**: Diese Option ist verfügbar, wenn die Aktion **[!UICONTROL Dateiauflistung]** auf der Registerkarte **[!UICONTROL Allgemein]** ausgewählt wird. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
 
 1. Im Bereich **[!UICONTROL Bei Abwesenheit von Dateien]** des Tabs **[!UICONTROL Erweiterte Optionen]** können Sie bestimmen, was geschehen soll, wenn die gewünschten Dateien beim Start der Aktivität nicht auffindbar sind.
 
