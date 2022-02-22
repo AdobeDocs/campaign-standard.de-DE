@@ -1,18 +1,18 @@
 ---
-title: Profile abrufen
+title: Abrufen von Profilen
 description: Erfahren Sie, wie Sie mit APIs Profile abrufen können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Profile mit APIs abrufen {#retrieving-profiles}
+# Abrufen von Profilen mit APIs {#retrieving-profiles}
 
 Profile lassen sich mit einer **GET**-Anfrage abrufen.
 
