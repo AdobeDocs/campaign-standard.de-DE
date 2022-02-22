@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Bei diesem Protokoll können Sie die Option **[!UICONTROL In einem externen Kont
 Sie können sich auch für die Option **[!UICONTROL Schnelle Konfiguration]** entscheiden. Sie müssen nur die URL in das URL-Feld eingeben.
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Folgen Sie den Anweisungen]**, **[!UICONTROL Den HTTP-Rückgabecode ignorieren]** und **[!UICONTROL Hinzufügen empfangener HTTP-Header zur Datei]** sind die zusätzlichen Optionen, die verfügbar sind, wenn Sie das HTTP-Protokoll auswählen.
+Wenn Sie das HTTP-Protokoll auswählen, sind die zusätzlichen verfügbaren Optionen **[!UICONTROL Weiterleitungen verfolgen]**, **[!UICONTROL HTTP-Rückgabecode ignorieren]** und **[!UICONTROL Empfangene HTTP-Header zur Datei hinzufügen]**.
 
 ### Konfiguration mit SFTP {#SFTP-configuration-wf}
 
