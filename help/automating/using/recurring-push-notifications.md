@@ -1,18 +1,18 @@
 ---
-title: Wiederkehrende Push-Benachrichtigung mithilfe von Workflows versenden
+title: Versenden wiederkehrender Push-Benachrichtigung mithilfe von Workflows
 description: In diesem Beispiel wird eine personalisierte Push-Benachrichtigung am ersten Tag des Monats um 20 Uhr an die Abonnenten Ihrer Mobile App in ihrer jeweiligen Zeitzone gesendet
 feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
 source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# Wiederkehrende Push-Benachrichtigung mithilfe von Workflows versenden {#sending-a-recurring-push-notification-with-a-workflow}
+# Versenden wiederkehrender Push-Benachrichtigung mithilfe von Workflows {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)
 
