@@ -1,14 +1,14 @@
 ---
-title: Löschen von Anmeldungen
-description: Erfahren Sie, wie Sie Anmeldungen mit APIs löschen können
+title: Löschen von Abonnements
+description: Erfahren Sie, wie Sie Abonnements mit APIs löschen können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Die folgenden beispielhaften Payloads zeigen, wie Sie ein Profil von einem Servi
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Es wird die Anmeldungs-URL für das Profil zurückgegeben.
+Gibt die Anmeldungs-URL für das Profil zurück.
 
 ```
   {
