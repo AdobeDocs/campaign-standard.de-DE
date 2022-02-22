@@ -1,12 +1,12 @@
 ---
 title: Interagieren mit dem Marketing-Verlauf
-description: Erfahren Sie, wie Sie mit dem Marketingverlauf von Profilen interagieren können
+description: Erfahren Sie, wie Sie mit dem Marketing-Verlauf von Profilen interagieren können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
 ht-degree: 100%
 
