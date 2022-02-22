@@ -1,18 +1,18 @@
 ---
-title: Vornehmen von Anmeldungen
+title: Durchführen von Abonnements
 description: Erfahren Sie, wie Sie mit APIs Anmeldungen vornehmen können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Abonnements mit APIs durchführen{#performing-subscriptions}
+# Durchführen von Abonnements mit APIs{#performing-subscriptions}
 
 ## Methode 1: Anmelden eines Profils für einen Dienst
 
@@ -26,7 +26,7 @@ Führen Sie eine GET-Anfrage aus, um das Profil abzurufen.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Es wird die Anmeldungs-URL für das Profil zurückgegeben.
+Gibt die Anmeldungs-URL für das Profil zurück.
 
 ```
   {
