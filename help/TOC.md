@@ -5,7 +5,7 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ ht-degree: 100%
       + [Audience in einer Nachricht auswählen](audiences/using/selecting-an-audience-in-a-message.md)
    + Abonnements verwalten {#managing-subscriptions}
       + [Über Abonnements](audiences/using/about-subscriptions.md)
-      + [Service erstellen](audiences/using/creating-a-service.md)
+      + [Erstellen eines Service](audiences/using/creating-a-service.md)
       + [Dienst bewerben](audiences/using/promoting-a-service.md)
       + [Anmeldungen verfolgen](audiences/using/monitoring-subscriptions.md)
       + [Abonnement eines Dienstes bestätigen](audiences/using/confirming-subscription-to-a-service.md)
@@ -489,13 +489,13 @@ ht-degree: 100%
    + [Interaktion mit benutzerdefinierten Ressourcen](api/using/interacting-with-custom-resources.md)
    + Profile verwalten {#managing-profiles}
       + [Profile abrufen](api/using/retrieving-profiles.md)
-      + [Profile aktualisieren](api/using/updating-profiles.md)
+      + [Aktualisieren von Profilen](api/using/updating-profiles.md)
       + [Profile erstellen](api/using/creating-profiles-api.md)
    + Services und Abonnements verwalten {#managing-services-and-subscriptiopns}
-      + [Service erstellen](api/using/creating-a-service.md)
-      + [Abrufen von Anmeldungen](api/using/retrieving-subscriptions.md)
+      + [Erstellen eines Service](api/using/creating-a-service.md)
+      + [Abrufen von Abonnements](api/using/retrieving-subscriptions.md)
       + [Abonnements ausführen](api/using/perform-subscriptions.md)
-      + [Löschen von Anmeldungen](api/using/deleting-subscriptions.md)
+      + [Löschen von Abonnements](api/using/deleting-subscriptions.md)
    + [Interaktion mit dem Marketing-Verlauf](api/using/interacting-with-marketing-history.md)
    + Datenschutzverwaltung {#privacy-management}
       + [Erstellen einer Datenschutzanfrage](api/using/creating-a-privacy-request.md)
