@@ -1,14 +1,14 @@
 ---
 title: Aktualisierungen der Dokumentation
-description: Hier erhalten Sie Informationen über Dokumentationsaktualisierungen für Adobe Campaign Standard
+description: Hier erhalten Sie Informationen über die letzten Dokumentationsaktualisierungen für Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 71f8348488596598f3d3b4f439dc25fb10ab8433
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7164'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,23 +20,23 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 **In der Version enthaltene Verbesserungen**
 
-Verbesserter Wiederholungsmechanismus für Sendungen, einschließlich aus einer URL importiertem Inhalt. [Mehr dazu](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+Verbesserter Mechanismus zur Wiederholung von Sendungen mit Inhalten, die von einer URL importiert wurden. [Weitere Informationen](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-Die Zugriffsebene der Optionen, die die Prüfung steuern, wurde aktualisiert: frühere Optionen zum Aktivieren/Deaktivieren [Audit-Protokoll](../../administration/using/audit.md) nicht zugänglich waren [funktionale Administratoren](../../administration/using/users-management.md#functional-administrators). Mit dieser Änderung wird die Zugriffsstufe der Prüfung geändert, um funktionalen Administratoren die Kontrolle zu ermöglichen. [Mehr dazu](../../administration/using/audit.md#enable-disable-audit)
+Die Zugriffsebene der Optionen, die den Audit steuern, wurde aktualisiert: frühere Optionen zum Aktivieren/Deaktivieren des [Audit-Protokolls](../../administration/using/audit.md) waren für [funktionale Administratoren](../../administration/using/users-management.md#functional-administrators) nicht zugänglich. Jetzt wurde die Zugriffsebene der Audits geändert, um funktionalen Administratoren die Kontrolle zu ermöglichen. [Weitere Informationen](../../administration/using/audit.md#enable-disable-audit)
 
-Die neue **Auftragsverlauf** wurde zum Nachrichten-Dashboard hinzugefügt. [mehr dazu](../../sending/using/monitoring-a-delivery.md)
+Das neue Dropdown-Menü **Vorgangsverlauf** wurde zum Nachrichten-Dashboard hinzugefügt. [mehr dazu](../../sending/using/monitoring-a-delivery.md)
 
 **Sonstige Änderungen**
 
-Es wurde ein Warnhinweis zu Schlüsselwörtern hinzugefügt, die automatische SMS-Antworten von Triggern enthalten: dürfen nur alphanumerische Zeichen enthalten. [Mehr dazu](../../channels/using/managing-incoming-sms.md)
+Es wurde ein Warnhinweis zu Schlüsselwörtern hinzugefügt, die automatische SMS-Antworten auslösen: Sie dürfen nur alphanumerische Zeichen enthalten. [Weitere Informationen](../../channels/using/managing-incoming-sms.md)
 
-Es wurde ein Hinweis zum Abschnitt A/B-Test-E-Mail hinzugefügt: Wenn die Gesamtbevölkerung weniger als 50.000 Menschen umfasst, muss jede Variante mindestens 10 % der Gesamtbevölkerung ausmachen. Andernfalls wird in den Protokollen eine Warnung angezeigt. [Mehr dazu](../../channels/using/designing-an-a-b-test-email.md)
+Es wurde ein Hinweis zum Abschnitt über A/B-Test-E-Mails hinzugefügt: Wenn die Gesamtpopulation weniger als 50.000 umfasst, muss jede Variante mindestens 10 % der Gesamtpopulation ausmachen. Andernfalls wird in den Protokollen eine Warnung angezeigt. [Weitere Informationen](../../channels/using/designing-an-a-b-test-email.md)
 
-Die Beschreibung der **[!UICONTROL Quelldateien nach der Übertragung löschen]** in der **Dateiübertragung** -Aktivität, einschließlich einer Erinnerung an die manuelle Überwachung der Größe des archivierten Inhalts im SFTP-Verzeichnis, falls die Option nicht ausgewählt ist. [Mehr dazu](../../automating/using/transfer-file.md)
+Die Beschreibung der Option **[!UICONTROL Quelldateien nach der Übertragung löschen]** in der Aktivität **Dateiübertragung** wurde aktualisiert, einschließlich einer Erinnerung daran, die Größe des archivierten Inhalts im SFTP-Verzeichnis manuell zu überwachen, falls die Option nicht ausgewählt ist. [Weitere Informationen](../../automating/using/transfer-file.md)
 
-Alle veralteten Links im **Datenschutz** Abschnitte. [Mehr dazu](../../start/using/privacy.md)
+Alle veralteten Links in den Abschnitten zum **Datenschutz** wurden aktualisiert. [Weitere Informationen](../../start/using/privacy.md)
 
-Es wurde ein direkter Link zur Dokumentation zum Campaign Control Panel in der Inhaltsdokumentationstabelle des Campaign Standards hinzugefügt.
+Im Inhaltsverzeichnis der Campaign Standard-Dokumentation wurde ein direkter Link zur Control Panel-Dokumentation von Campaign hinzugefügt.
 
 ## Version 21.3 – September 2021 {#release-21-3---september-2021}
 
@@ -323,7 +323,7 @@ Audience Destinations (Betaversion)– [mehr dazu](../../integrating/using/aep-a
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Die Dokumentation zur Datenschutzverwaltung wurde aktualisiert und enthält Informationen zum Erstellen des CCPA-Opt-out-Felds für benutzerdefinierte Profilressourcen – [mehr dazu](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+Die Dokumentation zur Datenschutzverwaltung wurde aktualisiert und enthält Informationen zum Erstellen des CCPA-Opt-out-Felds für benutzerdefinierte Profilressourcen – [mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html)
 
 Die Versionshinweise wurden neu organisiert und verbessert – [mehr dazu](../../rn/using/release-notes.md)
 
@@ -423,7 +423,7 @@ Ein neues Beispiel wurde hinzugefügt, das zeigt, wie eine E-Mail mit zusätzlic
 
 Ein neuer Abschnitt zur Verwendung von Fallen wurde hinzugefügt – [mehr dazu](../../sending/using/using-traps.md)
 
-Auf der Seite zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde zur Option **Launch_URL_Campaign** ein Hinweis hinzugefügt – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+Auf der Seite zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde zur Option **Launch_URL_Campaign** ein Hinweis hinzugefügt – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html)
 
 Das Handbuch zu Email Designer wurde neu organisiert – [Mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -495,7 +495,7 @@ Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinz
 
 **Neue Funktionen in der Version**
 
-Control Panel – [mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+Control Panel – [mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
 
 Lokale Benachrichtigungen – [mehr dazu](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -649,9 +649,9 @@ Informationen zu einer neuen Option in der Dateiextraktionsaktivität wurden hin
 
 Der Abschnitt zur Konfiguration einer Mobile App mit SDK V4 wurde [hierher](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) verschoben.
 
-Der Abschnitt zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde [hierher](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) verschoben.
+Der Abschnitt zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde [hierher](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html) verschoben.
 
-Videos wurden aktualisiert und [hierher](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) verschoben.
+Videos wurden aktualisiert und [hierher](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=de) verschoben.
 
 Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [mehr dazu](../../administration/using/users-management.md)
 
@@ -681,7 +681,7 @@ Automatischer Import von Inhalten von einer URL während der Nachrichtenvorberei
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Eine neue Technote zum SMS-Schnittstellenprotokoll und dessen Konfiguration wurde hinzugefügt – [mehr dazu](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+Eine neue Technote zum SMS-Schnittstellenprotokoll und dessen Konfiguration wurde hinzugefügt – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Die Dokumentation zur Integration von Experience Manager mit Adobe Campaign wurde aktualisiert – [mehr dazu](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -753,7 +753,7 @@ Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert �
 
 **Neue Funktionen in der Version**
 
-EU-Datenschutz-Grundverordnung (DSGVO) – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+EU-Datenschutz-Grundverordnung (DSGVO) – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html)
 
 Creative Designer für E-Mails – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -883,7 +883,7 @@ Die [Technote](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html)
 
 Eine Technote wurde hinzugefügt, in der der Aufbau der in einer Mobile App empfangenen Payload erläutert wird – [mehr dazu](../../administration/using/push-payload.md)
 
-Der [Abschnitt](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) zur Push-Kanal-Konfiguration wurde durch neue Payload-Daten ergänzt, die je nach Betriebssystem hinzugefügt werden, wenn Postbacks in der Adobe Mobile Services-Benutzeroberfläche definiert werden.
+Der [Abschnitt](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) zur Push-Kanal-Konfiguration wurde durch neue Payload-Daten ergänzt, die je nach Betriebssystem hinzugefügt werden, wenn Postbacks in der Adobe Mobile Services-Benutzeroberfläche definiert werden.
 
 In der SMS-Dokumentation wurde der Abschnitt zu [automatischen SMS-Antworten](../../channels/using/managing-incoming-sms.md#managing-stop-sms) genauer erklärt.
 
@@ -979,11 +979,11 @@ Das Handbuch &quot;Sendungen&quot; wurde umstrukturiert und in &quot;Kanäle&quo
 
 Zahlreiche Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 
-Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with your mobile app&quot; – [mehr dazu](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with your mobile app&quot; – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html)
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [mehr dazu](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
@@ -1009,9 +1009,9 @@ Das Workflow-Hasndbuch wurde umstrukturiert und erweitert. Dies ermöglicht das 
 
 Die Indikatorberechnung ist jetzt für dynamische Berichte verfügbar, einschließlich einer vollständigen Beschreibung und der Berechnungsformel – [mehr dazu](../../reporting/using/indicator-calculation.md)
 
-Ein neuer Abschnitt zur Konfiguration von Adobe Mobile Services wurde hinzugefügt, sodass Push-Benachrichtigungen und Point-of-Interest-Daten in Adobe Campaign verwendet werden können – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+Ein neuer Abschnitt zur Konfiguration von Adobe Mobile Services wurde hinzugefügt, sodass Push-Benachrichtigungen und Point-of-Interest-Daten in Adobe Campaign verwendet werden können – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html)
 
-Die Abschnitte zur Mobile-App-Konfiguration und -Implementierung wurden aktualisiert, einschließlich detaillierter Schritte zum Einrichten und Senden von Push-Benachrichtigungen – [mehr dazu](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+Die Abschnitte zur Mobile-App-Konfiguration und -Implementierung wurden aktualisiert, einschließlich detaillierter Schritte zum Einrichten und Senden von Push-Benachrichtigungen – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html)
 
 Der Abschnitt zum Arbeiten mit Bildern in Campaign wurde aktualisiert – [mehr dazu](../../designing/using/images.md#setting-up-image-properties)
 
@@ -1023,7 +1023,7 @@ Die Integration mit Adobe Analytics for Mobile (Point of Interest) wurde aktuali
 
 Dynamische Berichterstellung – [mehr dazu](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-Integration (Labs) – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-Integration (Labs) – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de)
 
 Manuelle Optimierung des Versandzeitpunkts – [mehr dazu](../../sending/using/optimizing-the-sending-time.md)
 
