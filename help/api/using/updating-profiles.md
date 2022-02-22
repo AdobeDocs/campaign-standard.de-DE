@@ -1,18 +1,18 @@
 ---
-title: Profile aktualisieren
+title: Aktualisieren von Profilen
 description: Erfahren Sie, wie Sie mit APIs Profile aktualisieren können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Profile mit APIs aktualisieren{#updating-profiles-api}
+# Aktualisieren von Profilen mit APIs{#updating-profiles-api}
 
 Das Aktualisieren von Profilen erfolgt über eine **PATCH**-Anfrage.
 
