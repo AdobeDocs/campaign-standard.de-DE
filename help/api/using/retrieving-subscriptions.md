@@ -1,14 +1,14 @@
 ---
-title: Abrufen von Anmeldungen
-description: Erfahren Sie, wie Sie mit APIs Anmeldungen abrufen können
+title: Abrufen von Abonnements
+description: Erfahren Sie, wie Sie mit APIs Abonnements abrufen können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
