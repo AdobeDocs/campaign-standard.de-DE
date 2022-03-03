@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '2815'
-ht-degree: 100%
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+workflow-type: tm+mt
+source-wordcount: '2841'
+ht-degree: 99%
 
 ---
 
@@ -234,6 +234,7 @@ Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 * **[!UICONTROL Tracking aktivieren]**: Aktivierung/Deaktivierung des Trackings der in den Nachrichten enthaltenen URLs. Über das Symbol **[!UICONTROL Links]** in der Symbolleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Ablaufdatum des Trackings]**: Festlegung der Dauer, für die das URL-Tracking aktiv sein soll.
 * **[!UICONTROL Ersatz-URL für abgelaufene URLs]**: Hier kann die URL für eine Webseite eingetragen werden, die nach dem Ablauf des Trackings angezeigt wird.
+* **[!UICONTROL Tracking-Pixel oben in der E-Mail verwenden]**: ermöglicht es Ihnen, das Tracking-Pixel am Anfang der E-Mail statt am Ende zu verschieben.
 
 ### Erweiterte Parameter {#advanced-parameters}
 

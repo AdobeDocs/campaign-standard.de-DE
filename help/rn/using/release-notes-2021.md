@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 97d1de796397f4f801d97790cec39a94734d2af7
-workflow-type: ht
-source-wordcount: '4571'
-ht-degree: 100%
+source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
+workflow-type: tm+mt
+source-wordcount: '4587'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,8 @@ Im Folgenden finden Sie die in der neuesten Campaign Standard-Version enthaltene
 * Die Versandvorbereitungszeit wurde für Transaktionsnachrichten optimiert, indem die Anzahl der Aufrufe an den Tracking-Server während der Versandanalyse reduziert wurde.
 * Eine neue Warnmeldung informiert Benutzer über eine hohe Absprungrate.
 * Protokollfehlermeldungen und -warnungen wurden verbessert, um die Fehlerbehebung zu vereinfachen, wenn die Trackinglogs nicht ordnungsgemäß abgerufen werden können. (CAMP-48939, CAMP-47360)
-* Sie können jetzt URLs, einschließlich des Domain-Namens, vollständig personalisieren. [Weitere Infos](../../designing/using/personalization.md#personalizing-urls)
+* Sie können jetzt URLs, einschließlich des Domain-Namens, vollständig personalisieren. [Weitere Informationen](../../designing/using/personalization.md#personalizing-urls)
+* Testversand- und Fallen-Profile wurden jetzt in dynamischen Berichten aus der Berechnung der Versandleistung ausgeschlossen. (CAMP-47338)
 
 **Korrekturen**
 
