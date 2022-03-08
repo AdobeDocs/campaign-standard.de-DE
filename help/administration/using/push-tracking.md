@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Das Push-Tracking ist in drei Typen unterteilt:
 
 * **Push-Öffnung**: Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und der Anwender auf die Benachrichtigung geklickt hat, wodurch die App geöffnet wurde.  Dies ist ähnlich der Push-Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.
 
-Um das Tracking für Campaign Standard zu implementieren, muss die Mobile App die Adobe Experience Platform SDKs enthalten. Diese SDKs sind im Abschnitt [Dokumentation zu Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+Um das Tracking für Campaign Standard zu implementieren, muss die Mobile App die Adobe Experience Platform-SDKs enthalten. Diese SDKs sind im Abschnitt [Dokumentation zu Adobe Experience Platform-SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks) verfügbar.
 
 Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon gehören zu den von Campaign Standard empfangenen Daten, eine ist eine Aktionsvariable, die bestimmt, ob es sich um eine **Impression**, einen **Klick** oder eine **Öffnung** handelt.
 
@@ -45,7 +45,7 @@ Zum Senden von Tracking-Daten müssen drei Variablen gesendet werden. Zwei davon
 
 ### Implementieren des Push-Impression-Tracking {#push-impression-tracking-android}
 
-Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot;senden, wenn `collectMessageInfo()` oder `trackAction()` Funktionen.
+Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot; senden, wenn die Funktionen `collectMessageInfo()` oder `trackAction()` aufgerufen werden.
 
 Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
@@ -86,7 +86,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Implementieren des Klick-Tracking {#push-click-tracking-android}
 
-Für Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot;senden, wenn Sie `collectMessageInfo()` oder `trackAction()` Funktionen.
+Für das Klick-Tracking muss bei einer Aktion der Wert &quot;2&quot; gesendet werden, wenn die Funktionen `collectMessageInfo()` oder `trackAction()` aufgerufen werden.
 Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
 
 * Der Anwender sieht die Benachrichtigung, löscht sie jedoch.
@@ -248,7 +248,7 @@ private void handleTracking() {
 
 ### Implementieren des Push-Impression-Tracking {#push-impression-tracking-iOS}
 
-Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot;senden, wenn `collectMessageInfo()` oder `trackAction()` Funktionen.
+Für das Impression-Tracking müssen Sie bei einer Aktion den Wert &quot;7&quot; senden, wenn die Funktionen `collectMessageInfo()` oder `trackAction()` aufgerufen werden.
 
 Um zu verstehen, wie iOS-Benachrichtigungen funktionieren, müssen die drei Status einer App beschrieben werden:
 
@@ -332,7 +332,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Implementieren des Klick-Tracking {#push-click-tracking-iOS}
 
-Für Klick-Tracking müssen Sie bei einer Aktion den Wert &quot;2&quot;senden, wenn Sie `collectMessageInfo()` oder `trackAction()` Funktionen.
+Für das Klick-Tracking muss bei einer Aktion der Wert &quot;2&quot; gesendet werden, wenn die Funktionen `collectMessageInfo()` oder `trackAction()` aufgerufen werden.
 Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
