@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2841'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -234,7 +234,7 @@ Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 * **[!UICONTROL Tracking aktivieren]**: Aktivierung/Deaktivierung des Trackings der in den Nachrichten enthaltenen URLs. Über das Symbol **[!UICONTROL Links]** in der Symbolleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Ablaufdatum des Trackings]**: Festlegung der Dauer, für die das URL-Tracking aktiv sein soll.
 * **[!UICONTROL Ersatz-URL für abgelaufene URLs]**: Hier kann die URL für eine Webseite eingetragen werden, die nach dem Ablauf des Trackings angezeigt wird.
-* **[!UICONTROL Tracking-Pixel oben in der E-Mail verwenden]**: ermöglicht es Ihnen, das Tracking-Pixel am Anfang der E-Mail statt am Ende zu verschieben.
+* **[!UICONTROL Tracking-Pixel oben in der E-Mail verwenden]**: ermöglicht es Ihnen, das Tracking-Pixel an den Anfang der E-Mail statt an das Ende zu verschieben.
 
 ### Erweiterte Parameter {#advanced-parameters}
 
@@ -328,7 +328,7 @@ Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce Messages]** und 
 
 ### Bounce-Message-Qualifizierung     {#legacy-bounce-mail-qualification}
 
-Um die unterschiedlichen Bounces und ihre jeweiligen Fehlertypen und -ursachen aufzulisten, klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf  **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
+Um die unterschiedlichen Bounces und ihre jeweiligen Fehlertypen und -ursachen aufzulisten, klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
 
 Folgende Qualifikationsstatus von Bounces treten auf:
 
