@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 * Sie können jetzt Ihren Versand überwachen und die Vorgangslogs über das neue Dropdown-Menü **Vorgangsverlauf** im Dashboard Ihrer Nachrichten verfolgen. [Weitere Informationen](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Die Stabilität und Datenbanksicherheit wurde durch Reduzierung von toten Tupeln verbessert. Diese treten auf, wenn im Laufe der Zeit eine große Anzahl von Nachrichten über alle Kanäle gesendet wird. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Im Mail Transfer Agent (MTA) von Campaign wurden Verbesserungen implementiert, um sicherzustellen, dass Datenbankverbindungen im Fall eines Datenbankabsturzes oder eines erneuten Starts automatisch aktualisiert werden. (CAMP-48063)
-* Eine neue Tracking-Option **Tracking-Pixel am oberen Rand der E-Mail verwenden** wurde zu E-Mail-Eigenschaften hinzugefügt, mit denen Sie das Tracking-Pixel an den Anfang der E-Mail statt am Ende verschieben können. (CAMP-49672)
+* Die neue Tracking-Option **Tracking-Pixel oben in der E-Mail verwenden** wurde zu den E-Mail-Eigenschaften hinzugefügt. Damit können Sie das Tracking-Pixel an den Anfang der E-Mail statt an das Ende verschieben. (CAMP-49672)
 
 **Patches**
 
