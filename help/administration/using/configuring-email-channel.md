@@ -6,16 +6,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: ht
-source-wordcount: '2841'
-ht-degree: 100%
+source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
+workflow-type: tm+mt
+source-wordcount: '2882'
+ht-degree: 79%
 
 ---
 
 # E-Mail-Kanal konfigurieren{#configuring-email-channel}
 
-Als Campaign-[Administrator](../../administration/using/users-management.md#functional-administrators) können Sie Einstellungen für den E-Mail-Kanal konfigurieren. Zu den erweiterten Einstellungen gehören allgemeine E-Mail-Kanal-Parameter, E-Mail-Routing-Konten, Regeln zum Umgang mit E-Mails sowie E-Mail-Eigenschaften. Auf dieser Seite erfahren Sie, wie Sie die Standardwerte der allgemeinen E-Mail- und Versandparameter bearbeiten können.
+Als Campaign-[Administrator](../../administration/using/users-management.md#functional-administrators) können Sie Einstellungen für den E-Mail-Kanal konfigurieren. Zu den erweiterten Einstellungen gehören allgemeine E-Mail-Kanal-Parameter, E-Mail-Routing-Konten, Regeln zum Umgang mit E-Mails sowie E-Mail-Eigenschaften. Auf dieser Seite erfahren Sie, wie Sie die Standardwerte für die allgemeinen E-Mail- und Versandparameter bearbeiten.
 
 ## Parameter für den E-Mail-Kanal {#email-channel-parameters}
 
@@ -28,7 +28,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
    Im Abschnitt **[!UICONTROL Header-Parameter für ausgehende E-Mails]** werden die autorisierten E-Mail-Adressen aufgelistet, mit denen Sie E-Mails an Ihre Empfänger senden können (Absenderadresse) und diese in die Lage versetzen können, automatisierte Antworten wie asynchrone Bounces, Abwesenheitsantworten usw. (Fehleradresse) zurückzusenden. Adobe Campaign prüft während der Vorbereitung der Nachricht, ob die eingegebenen Adressen gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten.
    * Sowohl Absender- als auch Fehleradressen werden von Adobe eingerichtet. Diese Felder dürfen nicht leer sein.
    * Sie können diese Felder nicht bearbeiten. Wenden Sie sich zum Aktualisieren einer Adresse an das Team der Kundenunterstützung von Adobe.
-   * Um eine weitere Adresse hinzuzufügen, können Sie über das [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de) eine neue Subdomain einrichten oder sich an das Team der Kundenunterstützung von Adobe wenden. Beachten Sie, dass bei Verwendung mehrerer Masken diese durch Kommas getrennt werden.
+   * Um eine weitere Adresse hinzuzufügen, können Sie [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de) , um eine neue Subdomain einzurichten, oder wenden Sie sich an die Kundenunterstützung von Adobe. Beachten Sie, dass bei Verwendung mehrerer Masken diese durch Kommas getrennt werden.
    * Es wird empfohlen, Adressen mit einem Stern wie *@yourdomain.com festzulegen: Sie können jede Adresse verwenden, die mit Ihrem Subdomain-Namen endet.
 
 * **Zustellbarkeit**
@@ -40,7 +40,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
    Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts.
 
-   Im Feld **[!UICONTROL Dauer des Nachrichtenversands]** können Sie den Zeitraum angeben, in dem Nachrichten im Versand, bei denen ein temporärer Fehler oder ein Softbounce auftritt, wiederholt werden.
+   Wenn eine Nachricht in einem Versand aufgrund eines temporären Fehlers oder eines Softbounce zurückgewiesen wird, versucht Campaign erneut, diese Nachricht jeden Tag zu senden. Verwenden Sie die **[!UICONTROL Dauer des Nachrichtenversands]** -Feld, um den Zeitrahmen anzugeben, während weitere Versuche durchgeführt werden können.
 
    >[!IMPORTANT]
    >
@@ -62,7 +62,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
    Geben Sie im Feld **[!UICONTROL Intervall zwischen zwei signifikanten Fehlern]** einen Wert an, um die Zeit zu definieren, die die Anwendung im Falle eines Softbounce-Fehlers wartet, bevor sie den Fehlerzähler inkrementiert. Der Standardwert lautet **1d** (für einen Tag).
 
-   Wenn der Wert **[!UICONTROL Maximale Anzahl an Fehlern vor der Quarantäne]** erreicht ist, wird die E-Mail-Adresse unter Quarantäne gestellt. Der Standardwert lautet **5**: Die Adresse wird beim fünften Fehler unter Quarantäne gestellt. Dies bedeutet, dass der Kontakt automatisch von den nächsten Sendungen ausgeschlossen wird.
+   Wenn der Wert **[!UICONTROL Maximale Anzahl an Fehlern vor der Quarantäne]** erreicht ist, wird die E-Mail-Adresse unter Quarantäne gestellt. Der Standardwert ist **&quot;5&quot;**: die Adresse beim fünften Fehler unter Quarantäne gestellt wurde. Dies bedeutet, dass der Kontakt automatisch von den nächsten Sendungen ausgeschlossen wird.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    Weiterführende Informationen zur Quarantäne finden Sie unter [Funktionsweise der Quarantäneverwaltung](../../sending/using/understanding-quarantine-management.md).
@@ -142,9 +142,9 @@ Identifizieren Sie am oberen Rand des E-Mail-Parameter-Fensters die E-Mail unter
 >
 >Die Kennung muss eindeutig sein.
 
-Das Feld **[!UICONTROL Marke]** dient der Auswahl der dem Versand zugeordneten Marke. Weiterführende Informationen zur Verwendung und Konfiguration von Marken finden Sie im Abschnitt [Marken](../../administration/using/branding.md).
+Verwenden Sie die **[!UICONTROL Marke]** -Feld, um die mit dem Versand verknüpfte Marke auszuwählen. Weiterführende Informationen zur Verwendung und Konfiguration von Marken finden Sie im Abschnitt [Marken](../../administration/using/branding.md).
 
-Im Feld **[!UICONTROL Kampagne]** kann die mit der E-Mail verknüpfte Kampagne eingetragen werden.
+Im **[!UICONTROL Kampagne]** Geben Sie die mit der E-Mail verknüpfte Kampagne ein.
 
 Außerdem kann im entsprechenden Feld eine **[!UICONTROL Beschreibung]** eingetragen werden. Das Bild, das in der Miniaturansicht der E-Mail innerhalb der Listen angezeigt wird, kann ebenfalls geändert werden.
 
@@ -177,7 +177,8 @@ Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei
 
 #### SMTP-Testmodus {#smtp-test-mode}
 
-Mit der Option **[!UICONTROL SMTP-Testmodus aktivieren]** können Sie den Versand von E-Mails über eine SMTP-Verbindung testen, ohne tatsächlich Nachrichten zu senden.
+Verwenden Sie die **[!UICONTROL SMTP-Testmodus aktivieren]** Option zum Testen des Versands von E-Mails über eine SMTP-Verbindung, ohne dass tatsächlich Nachrichten gesendet werden.
+
 Die Nachrichten werden verarbeitet, bis eine Verbindung mit dem SMTP-Server hergestellt wurde, sie werden aber nicht gesendet.
 
 ![](assets/smtp-test-mode.png)
@@ -205,36 +206,35 @@ Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]** sind folgende Parameter verf�
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Versandlaufzeit]** / **[!UICONTROL Gültigkeitsgrenze für den Nachrichtenversand]**: Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts. In diesem Feld lässt sich die Dauer festlegen, innerhalb derer Nachrichten verschickt werden können.
+* **[!UICONTROL Versandlaufzeit]** / **[!UICONTROL Gültigkeitsgrenze für den Nachrichtenversand]**: Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts. Verwenden Sie dieses Feld, um den Zeitraum anzugeben, in dem die Nachrichten gesendet werden können.
 
    >[!IMPORTANT]
    >
    >**Sie müssen einen Wert von bis zu 3,5 Tagen definieren.** Wenn Sie einen Wert von mehr als 3,5 Tagen festlegen, wird dieser nicht berücksichtigt.
+   >
+   >Der Parameter **[!UICONTROL Versandlaufzeit]** gilt nicht für Transaktionsnachrichten. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/getting-started-with-transactional-msg.md).
 
 * **[!UICONTROL Ressourcen-Gültigkeit]** / **[!UICONTROL Ressourcen]**: In diesem Feld wird die Gültigkeit der hochgeladenen Ressourcen (insbesondere Mirrorseite und Bilder) festgelegt. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
-* **[!UICONTROL Verwaltung der Mirrorseite]**: Bei der Mirrorseite handelt es sich um eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Sie hat den gleichen Inhalt wie die E-Mail. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde. Die Erzeugung der Seite lässt sich in diesem Feld konfigurieren:
-
-   >[!IMPORTANT]
-   >
-   >Die Erstellung der Mirrorseite setzt voraus, dass für die E-Mail ein HTML-Inhalt bestimmt worden ist.
+* **[!UICONTROL Verwaltung der Mirrorseite]**: Bei der Mirrorseite handelt es sich um eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Sie hat den gleichen Inhalt wie die E-Mail. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde. Verwenden Sie dieses Feld, um die Erstellung dieser Seite zu ändern:
 
    * **[!UICONTROL Mirrorseite erzeugen, wenn der Link im E-Mail-Inhalt erscheint]** (Standardmodus): Die Mirrorseite wird erstellt, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wird.
    * **Mirrorseitenerzeugung forcieren**: Erstellt eine Mirrorseite, selbst wenn im Versandinhalt kein entsprechender Link enthalten ist.
    * **Keine Mirrorseite erzeugen**: Generiert keine Mirrorseite, selbst wenn in den Nachrichten der entsprechende Link enthalten ist.
    * **Über die Nachrichtenkennung zugängliche Mirrorseite erzeugen**: Diese Option ermöglicht den Zugriff auf den Inhalt der Mirrorseite (einschließlich aller Personalisierungsinformationen) über das Versandlog-Fenster.
 
->[!NOTE]
->
->Der Parameter **[!UICONTROL Versandlaufzeit]** gilt nicht für Transaktionsnachrichten. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/getting-started-with-transactional-msg.md).
+   >[!IMPORTANT]
+   >
+   >Die Mirrorseite wird nur erzeugt, wenn für die E-Mail ein HTML-Inhalt definiert wurde.
+
 
 ### Tracking-Parameter  {#tracking-parameters}
 
 Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
-* **[!UICONTROL Tracking aktivieren]**: Aktivierung/Deaktivierung des Trackings der in den Nachrichten enthaltenen URLs. Über das Symbol **[!UICONTROL Links]** in der Symbolleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/links.md#about-tracked-urls).
-* **[!UICONTROL Ablaufdatum des Trackings]**: Festlegung der Dauer, für die das URL-Tracking aktiv sein soll.
-* **[!UICONTROL Ersatz-URL für abgelaufene URLs]**: Hier kann die URL für eine Webseite eingetragen werden, die nach dem Ablauf des Trackings angezeigt wird.
-* **[!UICONTROL Tracking-Pixel oben in der E-Mail verwenden]**: ermöglicht es Ihnen, das Tracking-Pixel an den Anfang der E-Mail statt an das Ende zu verschieben.
+* **[!UICONTROL Tracking aktivieren]**: Verwenden Sie diese Option, um das Tracking der Nachrichten-URLs zu aktivieren/deaktivieren. Über das Symbol **[!UICONTROL Links]** in der Symbolleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Gültigkeitsdauer des Trackings]**: Verwenden Sie diese Option, um die Dauer zu definieren, für die das Tracking in den URLs aktiviert wird.
+* **[!UICONTROL Ersatz-URL für abgelaufene URLs]**: Verwenden Sie diese Option, um eine URL für eine Fallback-Webseite einzugeben: wird angezeigt, sobald das Tracking abgelaufen ist.
+* **[!UICONTROL Tracking-Pixel oben in der E-Mail verwenden]**: Verwenden Sie diese Option, um das Tracking-Pixel am Anfang der E-Mail statt am Ende zu verschieben. Standardmäßig befindet sich dieses Pixel am unteren Rand Ihrer E-Mails. Wenn Sie große Nachrichten senden, sollten Sie dieses Pixel anstelle des unteren Pixels an den Anfang Ihrer E-Mails verschieben, um das Öffnungs-Tracking zu verbessern. Andernfalls könnte das Tracking-Pixel von einigen E-Mail-Anbietern reduziert werden.
 
 ### Erweiterte Parameter {#advanced-parameters}
 
@@ -250,7 +250,7 @@ Das Einfügen und Verwenden des Personalisierungsinhalts ist in der Dokumentatio
 
 #### Zielgruppen-Kontext  {#target-context}
 
-Im Zielgruppen-Kontext werden die für die Zielgruppenbestimmung (im Bildschirm zur Audience-Erstellung) und die Personalisierung (Definition von Personalisierungsfeldern, im HTML-Inhaltseditor) der E-Mail verwendeten Tabellen angegeben.
+Definieren Sie im Zielgruppenkontext eine Reihe von Tabellen, die für das E-Mail-Targeting (im Bildschirm zur Zielgruppendefinition) und die Personalisierung (Definition von Personalisierungsfeldern im Inhaltseditor für HTML) verwendet werden.
 
 #### Routing {#routing}
 
@@ -270,15 +270,15 @@ Die Vorbereitung von Nachrichten ist im Abschnitt [Nachrichten validieren](../..
    >
    >Typologien, zu denen Sie über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** gelangen, werden [in diesem Abschnitt](../../sending/using/about-typology-rules.md) beschrieben.
 
-* **[!UICONTROL Titel während der Versandvorbereitung berechnen]**: Ermöglicht die Berechnung des Titelwerts der E-Mail während der Nachrichtenvorbereitung mithilfe von Personalisierungsfeldern, Inhaltsbausteinen und dynamischem Text.
+* **[!UICONTROL Titel während der Versandvorbereitung berechnen]**: Verwenden Sie diese Option, um den Titelwert der E-Mail während der Nachrichtenvorbereitung mithilfe von Personalisierungsfeldern, Inhaltsbausteinen und dynamischem Text zu berechnen.
 
    Sie können auch den Versandtitel mit Ereignisvariablen personalisieren, die in der Aktivität &quot;Externes Signal&quot; des Workflows deklariert wurden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Bei dieser Option werden in der Vorbereitungsphase SQL-Abfragelogs im Protokoll gespeichert.
+* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Verwenden Sie diese Option, um während der Vorbereitungsphase SQL-Abfrageprotokolle zum Protokoll hinzuzufügen.
 
 #### Testversandeinstellungen {#proof-settings}
 
-In diesem Abschnitt können Sie das Standardpräfix konfigurieren, das in der Betreffzeile des Testversands verwendet werden soll. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/sending-proofs.md).
+In diesem Abschnitt können Sie das Standardpräfix konfigurieren, das in der Betreffzeile der Testversand-Nachrichten verwendet werden soll. Weitere Informationen zu Testsendungen finden Sie unter [diesem Abschnitt](../../sending/using/sending-proofs.md).
 
 ### Liste der E-Mail-SMTP-Parameter {#list-of-email-smtp-parameters}
 
@@ -296,7 +296,7 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
 
 Im Abschnitt **[!UICONTROL Zugriffsberechtigungen]** sind folgende Parameter verfügbar:
 
-* Das Feld **[!UICONTROL Organisationseinheit]** ermöglicht es, den Zugang für diese E-Mail auf bestimmte Nutzer zu begrenzen. Die der spezifizierten Einheit oder den übergeordneten Einheiten zugeteilten Nutzer haben Lese- und Schreibzugriff auf diese E-Mail. Der Zugriff der den untergeordneten Einheiten zugeteilten Nutzer auf diese E-Mail ist schreibgeschützt.
+* Die **[!UICONTROL Organisationseinheit]** dient dazu, den Zugriff auf diese E-Mail auf bestimmte Benutzer zu beschränken. Die der spezifizierten Einheit oder den übergeordneten Einheiten zugeteilten Nutzer haben Lese- und Schreibzugriff auf diese E-Mail. Der Zugriff der den untergeordneten Einheiten zugeteilten Nutzer auf diese E-Mail ist schreibgeschützt.
 
    >[!NOTE]
    >
@@ -318,17 +318,17 @@ Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im 
 
 ### Versandlaufzeit {#legacy-delivery-duration}
 
-Im Parameter **[!UICONTROL Dauer des Nachrichtenversands]** im [Konfigurationsmenü](#email-channel-parameters) können Sie den Zeitraum angeben, in dem Nachrichten im Versand, bei denen ein temporärer Fehler oder ein Softbounce auftritt, wiederholt werden.
+Verwenden Sie die **[!UICONTROL Dauer des Nachrichtenversands]** -Parameter in der [Konfigurationsmenü](#email-channel-parameters) um den Zeitraum anzugeben, in dem Nachrichten im Versand, bei denen ein temporärer Fehler oder ein Softbounce auftritt, wiederholt werden.
 
-Mit dem Parameter **[!UICONTROL Versandlaufzeit]** oder **[!UICONTROL Gültigkeitsgrenze für den Nachrichtenversand]** im Abschnitt [Parameter für den Gültigkeitszeitraum](#validity-period-parameters) können Sie die Dauer festlegen, in der die Nachrichten versendet werden können.
+Verwenden Sie die **[!UICONTROL Versandlaufzeit]** oder **[!UICONTROL Gültigkeitsgrenze für den Nachrichtenversand]** -Parameter in der [Parameter für den Gültigkeitszeitraum](#validity-period-parameters) um die Dauer festzulegen, während der die Nachrichten gesendet werden können.
 
 ### Regeln zum Umgang mit E-Mails  {#legacy-email-processing-rules}
 
-Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce Messages]** und **[!UICONTROL Domain-Verwaltung]** können von Administratoren über **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** [Menü](#email-processing-rules) aufgerufen und geändert werden.
+Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce Messages]** und **[!UICONTROL Domain-Verwaltung]** können von Administratoren über **[!UICONTROL Administration > Kanäle > E-Mail > Regeln zum Umgang mit E-Mails]** Menü aufgerufen und geändert werden. [Weitere Informationen](#email-processing-rules).
 
-### Bounce-Message-Qualifizierung     {#legacy-bounce-mail-qualification}
+### Bounce-Message-Qualifizierung {#legacy-bounce-mail-qualification}
 
-Um die unterschiedlichen Bounces und ihre jeweiligen Fehlertypen und -ursachen aufzulisten, klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
+Um die verschiedenen Absprünge sowie die zugehörigen Fehlertypen und -ursachen aufzulisten, klicken Sie auf die Schaltfläche **Adobe** -Logo oben links und anschließend **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
 
 Folgende Qualifikationsstatus von Bounces treten auf:
 
@@ -338,12 +338,12 @@ Folgende Qualifikationsstatus von Bounces treten auf:
 
 >[!NOTE]
 >
->Bei Ausfall eines ISP werden über Campaign gesendete E-Mails fälschlicherweise als Bounces gekennzeichnet. Um dies zu korrigieren, müssen Sie die Bounce-Qualifizierung aktualisieren. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/update-bounce-qualification.md).
+>Bei Ausfall eines ISP werden über Campaign gesendete E-Mails fälschlicherweise als Bounces gekennzeichnet. Um dies zu korrigieren, müssen Sie die Bounce-Qualifizierung aktualisieren. [Weitere Informationen](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### Reporting zum Zugestellt-Indikator {#legacy-delivered-status-report}
 
-In der Ansicht **[!UICONTROL Zusammenfassung]** jeder Nachricht steigt der **[!UICONTROL Zugestellt]**-Prozentsatz während des Gültigkeitszeitraums des Versands schrittweise an, da die Soft- und Hardbounces zurückgemeldet werden.
+Im **[!UICONTROL Zusammenfassung]** Ansicht jeder Nachricht, **[!UICONTROL Zugestellt]** Der Prozentsatz steigt während der gesamten Gültigkeitsdauer des Versands schrittweise an, da Softbounces und Hardbounces zurückgemeldet werden.
 
-Nachrichten mit Softbounces werden nach dem ersten Tag des Versands als **[!UICONTROL fehlgeschlagen]** angezeigt und an jedem weiteren Tag des Gültigkeitszeitraums wird ein erneuter Zustellversuch unternommen.
+Softbounce-Nachrichten werden als **[!UICONTROL Fehlgeschlagen]** am ersten Tag nach dem Versand. Diese Nachrichten werden täglich wiederholt, bis die Gültigkeitsdauer des Versands endet.
