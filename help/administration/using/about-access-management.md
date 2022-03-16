@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Rollen, Gruppen und Organisationseinheiten können vom funktionalen Administrato
 
 ![Menü &quot;Benutzerverwaltung&quot;](assets/user_management_1.png)
 
-Benutzer werden in der Admin Console verwaltet. Weitere Informationen finden Sie unter [Gruppen und Benutzer verwalten](../../administration/using/managing-groups-and-users.md) und im Abschnitt [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
+Benutzer werden in der Admin Console verwaltet. Weitere Informationen finden Sie unter [Verwalten von Gruppen und Benutzern](../../administration/using/managing-groups-and-users.md) und in der [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
-![Auf Produktprofile zugreifen](assets/user_management_6.png)
+![Zugriff auf Produktprofile](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >
