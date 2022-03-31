@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Profilen mit APIs
+title: Abrufen von Profilen mit APIs
 description: Erfahren Sie mehr über das Erstellen von Profilen mit APIs.
 audience: developing
 content-type: reference
@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
