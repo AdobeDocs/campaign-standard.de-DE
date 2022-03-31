@@ -1,14 +1,14 @@
 ---
-title: API-Fehlerbehebung
+title: Fehlerbehebung bei APIs
 description: Erfahren Sie mehr über häufige Probleme bei Campaign Standard-APIs
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
