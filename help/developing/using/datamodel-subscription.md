@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 96%
     <tr>
         <td>serverUrl</td>
         <td>ServerUrl</td>
-        <td>Zeichenfolge </td>
+        <td>string </td>
         <td> </td>
     </tr>
 </table>
@@ -87,7 +87,7 @@ Nach E-Mail (byEmail)
     </tr>
     <tr>
     <td>email</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     </tr>
 </table>
 
@@ -104,6 +104,6 @@ Nach Status oder Typ (byStatusOrType)
         </tr>
         <tr>
         <td>type</td>
-        <td>Zeichenfolge</td>
+        <td>string</td>
         </tr>
     </table>
