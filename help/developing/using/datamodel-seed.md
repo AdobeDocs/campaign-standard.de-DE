@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -190,7 +190,7 @@ ht-degree: 98%
                <tr>
                   <td>targetData</td>
                   <td>Extension</td>
-                  <td>Zeichenfolge </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
@@ -224,7 +224,7 @@ Nach Ereignistyp (byEventType)
         </tr>
         <tr>
         <td>eventType</td>
-        <td>Zeichenfolge</td>
+        <td>string</td>
         </tr>
     </table>
 
@@ -237,7 +237,7 @@ Nach Name oder Titel (byText)
         </tr>
         <tr>
         <td>text</td>
-        <td>Zeichenfolge</td>
+        <td>string</td>
         </tr>
     </table>
 
