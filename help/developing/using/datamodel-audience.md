@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ ht-degree: 99%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Titel</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -184,7 +184,7 @@ ht-degree: 99%
                <tr>
                   <td>rejectFilename</td>
                   <td>Rejection file</td>
-                  <td>Zeichenfolge </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
@@ -249,7 +249,7 @@ Nach Filterdimension (byFilteringResource)
     </tr>
     <tr>
     <td>filteringResource</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     </tr>
 </table>
 
@@ -262,7 +262,7 @@ Nach Name oder Titel (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     </tr>
 </table>
 
@@ -279,6 +279,6 @@ Nach Typ (byType)
     </tr>
     <tr>
     <td>isAMC</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     </tr>
 </table>
