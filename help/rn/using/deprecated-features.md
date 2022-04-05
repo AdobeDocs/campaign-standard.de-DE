@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 97%
@@ -133,7 +133,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Mit Campaign-Version 21.2. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Coreservice von Adobe</a>.</p></br>
+   <td> <p>Mit Campaign-Version 21.2. wurde die Campaign-API und -Benutzeroberfläche für Zugriffs- und Löschanfragen eingestellt. Der zweistufige Löschvorgang für Profile ist nicht verfügbar. Verwenden Sie <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Privacy Coreservice von Adobe</a>.</p></br>
    <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=de">Verwalten von Datenschutzanfragen</a>.</p>
   </td> 
   </tr> 

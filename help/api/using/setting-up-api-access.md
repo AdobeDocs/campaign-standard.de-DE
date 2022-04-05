@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Um eine sichere Service-to-Service-Adobe I/O-API-Sitzung herzustellen, muss jede
    * &lt;ORGANIZATION>: Ihre Produktionsinstanz,
    * &lt;ORGANIZATION-mkt-stage>: Ihre Staging-Instanz.
 
-   Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um den Wert Ihrer Organisationskennung zu erhalten. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://www.adobe.io/authentication.html">Adobe I/O-Dokumentation</a>).
+   Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um den Wert Ihrer Organisationskennung zu erhalten. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe I/O-Dokumentation</a>).
 
 * **&lt;ACCESS_TOKEN>**: Ihr persönlicher Zugriffstoken, der beim Austausch Ihres JSON-Web-Token über eine POST-Anfrage abgerufen wurde.
 

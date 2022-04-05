@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: ht
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Die [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html)-Integration ist die Methode, die Sie für alle Zugriffs- und Löschanfragen verwenden sollten. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>Die [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)-Integration ist die Methode, die Sie für alle Zugriffs- und Löschanfragen verwenden sollten. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Datenschutzanfragen werden mit einer **POST**-Anfrage erstellt.
 

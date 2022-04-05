@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '2510'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Bei der Integration werden keine datenschutzbezogenen Löschvorgänge für betro
 
 Wenn Sie die Integration so konfiguriert haben, dass beim Löschen eines Kontakts in Dynamics 365 reguläre Aufrufe zum Löschen von Profilen an Campaign gesendet werden, sollten Sie die folgenden Schritte ausführen. Stellen Sie sicher, dass während dieses Vorgangs keine Aktualisierungen am betreffenden Datensatz vorgenommen werden.
 
-1. Datenschutzbezogene Löschanfrage an [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html) senden
+1. Datenschutzbezogene Löschanfrage an [Adobe Experience Platform Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) senden
 
 1. Anfrage bis zum erfolgreichen Abschluss überwachen
 

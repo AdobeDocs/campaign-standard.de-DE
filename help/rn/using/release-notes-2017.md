@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '4688'
-ht-degree: 100%
+source-wordcount: '4678'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,8 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
   </tr> 
   <tr> 
    <td> Inhaltserstellung: Import aus einer URL<br /> </td> 
-   <td> Durch den Import aus einer URL können Sie rasch auf Kreativinhalte auf einer Website zugreifen, um E-Mails zu erstellen. Zusätzlich können Sie Ihre Kreativprozesse optimieren, indem Sie Dritten ermöglichen, Inhalte direkt über eine URL zu teilen. Importierte Inhalte können flexibel als Teil eines Einzelversands oder auf Vorlagenebene verwendet werden, was eine konsistente Präsentation der Marke in allen Kampagnen ermöglicht, egal ob es sich um auf Workflows basierte Nachrichten oder um Transaktionsnachrichten handelt oder ob sie A/B-Tests oder multivariate Tests beinhalten. Beim Import aus einer URL werden alle Links automatisch umgewandelt und getrackt, damit die E-Mail-Leistung mithilfe dynamischer Berichte überwacht werden kann.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/using-existing-content.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch den Import aus einer URL können Sie rasch Kreativinhalte von einer Website abrufen, um E-Mails zu erstellen.
+Zusätzlich können Sie Ihre Kreativprozesse optimieren, indem Sie Dritten ermöglichen, Inhalte direkt über eine URL zu teilen. Importierte Inhalte können flexibel als Teil eines Einzelversands oder auf Vorlagenebene verwendet werden, was eine konsistente Präsentation der Marke in allen Kampagnen ermöglicht, egal ob es sich um auf Workflows basierte Nachrichten oder um Transaktionsnachrichten handelt oder ob sie A/B-Tests oder multivariate Tests beinhalten. Beim Import aus einer URL werden alle Links automatisch umgewandelt und getrackt, damit die E-Mail-Leistung mithilfe dynamischer Berichte überwacht werden kann.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/using-existing-content.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -327,7 +328,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver verfügbar<br /> </td> 
-   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Integrationserweiterung von Adobe Campaign, die hier heruntergeladen werden kann: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br />. Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
+   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Installation der Adobe Campaign Integration-Erweiterung. Weiterführende Informationen finden Sie in diesem Abschnitt <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
