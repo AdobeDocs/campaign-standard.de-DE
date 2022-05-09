@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Titel</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -135,7 +135,7 @@ ht-degree: 100%
                      <ul>
                         <li>Viral - viral - 1</li>
                         <li>Newsletter - newsletter - 0</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -184,7 +184,7 @@ ht-degree: 100%
                <tr>
                   <td>subScenarioEventType</td>
                   <td>SubScenarioEventType</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -232,7 +232,7 @@ ht-degree: 100%
                <tr>
                   <td>unsubScenarioEventType</td>
                   <td>UnsubScenarioEventType</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -284,7 +284,7 @@ Nach Name oder Titel (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>
 
@@ -297,6 +297,6 @@ Nach Zielgruppen-Ressource (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>

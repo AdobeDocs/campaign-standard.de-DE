@@ -5,10 +5,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: ht
-source-wordcount: '357'
-ht-degree: 100%
+source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 * **Wenn Sie zur Adobe.io-Konsole wechseln, erhalten Sie den folgenden Fehler: &quot;Die Adobe I/O-Konsole steht nur ausgewählten Mitgliedern von Unternehmenskonten zur Verfügung. Wenden Sie sich an Ihren Systemadministrator, wenn Sie meinen, Zugriff zu benötigen.&quot;**
 
-API-Schlüssel können Sie nur für die IMS-Organisationen erstellen, deren Administrator Sie sind. Wenn diese Nachricht angezeigt wird und Sie API-Schlüssel erstellen möchten, fragen Sie einen Administrator der IMS-Organisation.
+Sie können nur API-Schlüssel für die Organisationen erstellen, deren Administrator Sie sind. Wenn diese Nachricht angezeigt wird und Sie API-Schlüssel erstellen möchten, fragen Sie einen Administrator der Organisation.
 
 * **Bei einer Anfrage an Adobe.io erhalten Sie {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profil ist ungültig&quot;}**
 

@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Folgen Sie dazu den Schritten im Abschnitt [In Campaign einen gemappten Trigger 
 Wenn sich der Trigger erstellen lässt, fahren Sie mit dem nächsten Schritt fort. Wenn nicht, bedeutet dies, dass die Verbindung zum Trigger-Ziel fehlgeschlagen ist. Überprüfen Sie, ob Triggers in Experience Cloud (Activation Services) bereitgestellt wurde. Ist dies nicht der Fall, kontaktieren Sie bitte Ihren Adobe-Kundenbetreuer oder Professional Services-Partner. Die folgenden Informationen werden benötigt:
 
 * Experience Cloud-Unternehmensname
-* Kennung der IMS-Organisation
+* Organization ID (Organisationskennung)
 * Analytics-Unternehmensanmeldung (kann identisch mit dem Experience Cloud-Unternehmensnamen sein)
 
 **Versuchen Sie, den Trigger zu veröffentlichen.**

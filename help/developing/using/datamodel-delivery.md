@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -64,13 +64,13 @@ ht-degree: 100%
                <tr>
                   <td>alertMessage</td>
                   <td>Warning message</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>alertMode</td>
                   <td>Warning type</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -136,7 +136,7 @@ ht-degree: 100%
                <tr>
                   <td>contextResourceType</td>
                   <td>Resource type</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -160,7 +160,7 @@ ht-degree: 100%
                         <li>Bulk delivery - bulk - 1</li>
                         <li>Mid-sourcing - midSourcing - 4</li>
                         <li>Description - descriptive - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                         <li>External - external - 0</li>
                      </ul>
                   </td>
@@ -210,7 +210,7 @@ ht-degree: 100%
                         <li>Unique - oneTime - 0</li>
                         <li>Continuous - continuous - 1</li>
                         <li>Message Center - messageCenter - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -249,7 +249,7 @@ ht-degree: 100%
                         <li>Mobile application - pushNotification - 40</li>
                         <li>Transactional SMS - smsLightning - 61</li>
                         <li>Email - email - 0</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -297,7 +297,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Titel</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -318,7 +318,7 @@ ht-degree: 100%
                         <li>Finished - finished - finished</li>
                         <li>Warning - warning - warning</li>
                         <li>Erroneous - error - error</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -362,10 +362,10 @@ ht-degree: 100%
                         <li>Mobile (SMS) - sms - 1</li>
                         <li>Email - email - 0</li>
                         <li>Phone - phone - 2</li>
-                        <li>Direct mail - paper - 3</li>
+                        <li>Briefpost - Papier - 3</li>
                         <li>Mobile application - pushNotification - 40</li>
-                        <li>Other - other - 120</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Sonstiges - Sonstiges - 120</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -406,7 +406,7 @@ ht-degree: 100%
                   <td>
                      <ul>
                         <li>High - high - 20</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                         <li>Normal - normal - 10</li>
                      </ul>
                   </td>
@@ -450,7 +450,7 @@ ht-degree: 100%
                <tr>
                   <td>ribbonMessage</td>
                   <td>Ribbon message</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -500,7 +500,7 @@ ht-degree: 100%
                         <li>Stopped - cancelled - 85</li>
                         <li>Personalization in progress - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                         <li>Arbitration in progress - targetArbitration - 13</li>
                      </ul>
                   </td>
@@ -574,9 +574,9 @@ ht-degree: 100%
                         <li>In progress - started - started</li>
                         <li>Editing - edition - edition</li>
                         <li>Finished - finished - finished</li>
-                        <li>Warning - warning - warning</li>
-                        <li>Erroneous - error - error</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Warnung - Warnung - Warnhinweis</li>
+                        <li>Fehlerhaft - error - error</li>
+                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -632,11 +632,11 @@ Nach Name oder Titel (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
     <tr>
     <td>mc</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -649,7 +649,7 @@ Nach Zeiträumen (byPeriod)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -666,7 +666,7 @@ Nach Zeiträumen (byStartPeriod)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 

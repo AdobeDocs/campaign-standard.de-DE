@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Die Funktion muss von Adobe in Adobe Campaign aktiviert werden. Bitte kontaktier
 Das Adobe-Team benötigt die folgenden Informationen, um Triggers zu aktivieren:
 
 * Experience Cloud-Unternehmensname
-* Kennung der IMS-Organisation
+* Organization ID (Organisationskennung)
 * Analytics-Unternehmensanmeldung (kann identisch mit dem Experience Cloud-Unternehmensnamen sein)
 
 ## Lösungen und Dienste konfigurieren       {#configuring-solutions-and-services}
@@ -101,7 +101,7 @@ Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Adobe Exp
 
 Im Folgenden finden Sie eine Liste mit Best Practices und Einschränkungen für die Verwendung der Integration von Campaign mit Triggers.
 
-* Wenn mehrere Instanzen von Campaign Standard ausgeführt werden, können Triggers von allen empfangen werden, vorausgesetzt sie weisen dieselbe IMS-Organisationskennung auf. Auch Analytics muss dieselbe IMS-Organisationskennung aufweisen.
+* Wenn mehrere Instanzen von Campaign Standard vorhanden sind, können Trigger von allen Instanzen empfangen werden, solange sie sich in derselben Organisation befinden. Analytics muss auch dieselbe Organisation aufweisen.
 * Das Erstellen eines Triggers im Trigger Core Service unter Verwendung von Ereignissen in zwei unterschiedlichen Report Suites ist nicht möglich.
 * Trigger basieren auf Transaktionsnachrichten. Transaktionsnachrichten werden verwendet, wenn eine Nachricht sehr schnell gesendet werden muss. Transaktionsnachrichten können nicht in einer Warteschlange aufbewahrt und dann gemeinsam gesendet werden.
 * Trigger sind nicht deterministisch. Wenn ein Trigger erstellt wird, werden alle mit dem Cookie verknüpften Alias gesendet. Im Fall von gemeinsam verwendeten Browsern, wie z. B. bei Verkaufsständen, Bibliotheken, Internetcafés oder gemeinsam genutzten Geräten zu Hause (Ehepartner melden sich auf demselben Gerät an), kann kein Mapping zur richtigen Kennung durchgeführt werden. Alle bei der Anmeldung mit dem Browser verwendeten Kennungen werden an Campaign gesendet. Campaign sendet dann eine Nachricht auf der Basis der ersten Abstimmung. Wenn mehrere &quot;email IDs&quot; für die Abstimmung in Frage kommen, sendet Campaign keine E-Mail. Es gibt keine Möglichkeit für Campaign festzustellen, welche die richtige E-Mail-Kennung ist, wenn sie nicht von Analytics erfasst und gesendet wird.
