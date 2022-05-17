@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '868'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
   <tr> 
    <td> <p> Ab Version 21.3 von Campaign Standard wird die Integration mit Audience Destinations Service nicht mehr unterstützt. </p>
    <p>Bei neuen Implementierungen können Sie Audience Destinations Service nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=de">Weitere Informationen</a>.</p>
-     <em>Geplantes Entfernungsdatum: September 2022</em></p>
+     <em>Geplantes Datum für die Entfernung: September 2022</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -63,8 +63,8 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  <tbody> 
   <tr> 
    <td> <p> Ab Campaign Standard-Version 21.3 wird die Integration mit dem Adobe Experience Platform Data Connector nicht mehr unterstützt. </p>
-   <p>Bei einer neuen Implementierung können Sie den Adobe Experience Platform Data Connector nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Weitere Informationen</a>.</p>
-     <em>Geplantes Entfernungsdatum: September 2022</em></p>
+   <p>Bei einer neuen Implementierung können Sie den Adobe Experience Platform Data Connector nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=de">Weitere Informationen</a>.</p>
+     <em>Geplantes Datum für die Entfernung: September 2022</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -178,7 +178,7 @@ In diesem Abschnitt werden Funktionen und Leistungsmerkmale aufgelistet, die aus
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] wurde eingestellt. Daher kann die Bildbearbeitung auf Basis von [!DNL Creative SDK] in Campaign Standard-E-Mails ist ab Campaign-Version 20.2 nicht mehr verfügbar.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] wurde eingestellt. Infolgedessen ist die Bildbearbeitung mit [!DNL Creative SDK] in Campaign Standard-E-Mails ab der Version Campaign 20.2 nicht mehr verfügbar.</p></br>
    </td> 
   </tr> 
  </tbody> 
