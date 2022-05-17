@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 100%
+source-wordcount: '1605'
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 Zusätzlich zu [Testprofilen](../../audiences/using/managing-test-profiles.md) können Sie auch eine E-Mail-Nachricht testen, indem Sie sich in die Position eines der Zielgruppenprofile versetzen. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfangen wird (benutzerdefinierte Felder, dynamische und personalisierte Informationen, einschließlich zusätzlicher Daten von Workflows usw.).
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Diese Funktion ist nur bei E-Mail-Nachrichten verfügbar.
+>Mit dieser Funktion können Sie personenbezogene Daten des Profils an externe E-Mail-Adressen senden. Beachten Sie, dass eine Ausführung von Datenschutzanfragen (DSGVO und CCPA) in Campaign Standard NICHT zu einer externen Ausführung der Anfrage führen wird.
 
 Die wichtigsten Schritte sind:
 
@@ -35,9 +35,9 @@ Die wichtigsten Schritte sind:
 1. Nutzen Sie die **Vorschau** in Email Designer, um zu ermitteln, wie die Nachricht für die Profile angezeigt wird.
 1. Versenden Sie die Testsendungen.
 
->[!IMPORTANT]
->
->Mit dieser Funktion können Sie personenbezogene Daten des Profils an externe E-Mail-Adressen senden. Beachten Sie, dass eine Ausführung von Datenschutzanfragen (DSGVO und CCPA) in Campaign Standard NICHT zu einer externen Ausführung der Anfrage führen wird.
+   >[!IMPORTANT]
+   >
+   >Die Testsendungen werden von [!DNL Campaign Standard] als Standardlieferungen. Daher werden durch den Versand von Testsendungen mithilfe der Profilersetzung den Versand- und Trackinglogs der ausgewählten Profile Datensätze hinzugefügt.
 
 ![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](#video).
 
