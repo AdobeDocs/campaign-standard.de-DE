@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 37%
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 
 **Verbesserung**
 
-* **Adobe Notification Service** - Campaign verfügt über einen Benachrichtigungsdienst für Adoben, mit dem Experience Cloud-Lösungen Benutzer über das gesamte Experience Cloud auf Aktivitäten aufmerksam machen können, die für sie wichtig sind. Ab Version 22.2 wurde das Benutzererlebnis verbessert: Benachrichtigungen werden priorisiert und produktgenerierte Benachrichtigungen werden von Ankündigungen zum Adobe-Status getrennt. Wenn sich die Benachrichtigung auf einen bestimmten Workflow bezieht, können Sie nun direkt über die E-Mail oder die In-Produkt-Benachrichtigung auf den entsprechenden Workflow zugreifen.  Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+* **Adobe Notification Service** - Campaign wird mit dem Adobe Notification Service geliefert, der es Experience Cloud-Lösungen ermöglicht, Nutzer/innen in der gesamten Experience Cloud über Aktivitäten zu informieren, die für sie wichtig sind. Ab Version 22.2 wurde das Nutzererlebnis verbessert: Benachrichtigungen werden priorisiert und produkterzeugte Benachrichtigungen werden von Adobe-Statusmeldungen getrennt. Wenn sich die Benachrichtigung auf einen bestimmten Workflow bezieht, kannst du jetzt auch direkt aus der E-Mail oder der produktinternen Benachrichtigung auf den entsprechenden Workflow zugreifen.  Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 
 **Sicherheitsaktualisierung**
 
-* Diese Version enthält eine Sicherheitsaktualisierung, um die Apache-Sicherheitslücke zu schließen und die Sicherheit Ihrer Instanzumgebung zu erhöhen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html){target=&quot;_blank&quot;}.
+* Diese Version enthält eine Sicherheitsaktualisierung, um die Apache-Sicherheitslücke zu schließen und die Sicherheit Ihrer Instanzumgebung zu erhöhen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=de){target=&quot;_blank&quot;}.
 
