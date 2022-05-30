@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Die wichtigsten Schritte sind:
 
    >[!IMPORTANT]
    >
-   >Die Testsendungen werden von [!DNL Campaign Standard] als Standardlieferungen. Daher werden durch den Versand von Testsendungen mithilfe der Profilersetzung den Versand- und Trackinglogs der ausgewählten Profile Datensätze hinzugefügt.
+   >Die Testsendungen werden von [!DNL Campaign Standard] als Standardlieferungen verarbeitet. Daher werden durch den Versand von Testsendungen mithilfe der Profilersetzung den Versand- und Trackinglogs der ausgewählten Profile Datensätze hinzugefügt.
 
 ![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](#video).
 
