@@ -108,6 +108,7 @@ Gehen Sie dabei folgendermaßen vor:
       >[!NOTE]
       >
       >Wenn die Option **[!UICONTROL XtkAudit_Enable_All]** auf 0 gesetzt ist, wird die Funktion **[!UICONTROL Audit-Protokoll]** unabhängig von anderen individuellen Optionswerten vollständig deaktiviert.
+
    ![](assets/audit-trail_5.png)
 
 1. Wählen Sie auf der Seite **[!UICONTROL Optionen]** für den **[!UICONTROL Wert (ganze Zahl)]** &quot;0&quot;, um das **[!UICONTROL Audit-Protokoll]** zu deaktivieren, und &quot;1&quot;, um es zu aktivieren.
