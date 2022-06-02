@@ -8,8 +8,8 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Das zuvor in DTM referenzierte Alias muss in Experience Cloud People Core Servic
 
    >[!NOTE]
    >
-   >Sie können Trigger für sowohl anonyme als auch angemeldete Benutzer abstimmen. Im Fall von anonymen Benutzern ist zu beachten, dass das Profil in Adobe Campaign existieren muss und dem Benutzer zuvor eine E-Mail gesendet worden sein muss. Dazu ist die Konfiguration der Besucher-ID ausreichend. Wenn Sie jedoch Trigger für angemeldete Benutzer abstimmen möchten, muss eine Declared ID-Datenquelle eingerichtet werden. Lesen Sie diesbezüglich auch den Abschnitt [Konfiguration der Datenquelle](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Sie können Trigger für sowohl anonyme als auch angemeldete Benutzer abstimmen. Im Fall von anonymen Benutzern ist zu beachten, dass das Profil in Adobe Campaign existieren muss und dem Benutzer zuvor eine E-Mail gesendet worden sein muss. Dazu ist die Konfiguration der Besucher-ID ausreichend. Wenn Sie jedoch Trigger für angemeldete Benutzer abstimmen möchten, muss eine Declared ID-Datenquelle eingerichtet werden. Lesen Sie diesbezüglich auch den Abschnitt [Konfiguration der Datenquelle](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Trigger in der Experience Cloud-Benutzeroberfläche erstellen       {#creating-a-trigger-in-the-experience-cloud-interface}
 

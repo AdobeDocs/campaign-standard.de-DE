@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind. '
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -242,7 +242,7 @@ ht-degree: 100%
       + [Campaign-Dimensionen und -Metriken in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign und Audience Manager oder People Core Service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Über die Integration von Campaign mit Audience Manager oder People Core Service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Integration mit Audience Manager oder People Core Service bereitstellen und konfigurieren](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [Integration mit Audience Manager oder People Core Service bereitstellen und konfigurieren](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Fehlerbehebung](integrating/using/troubleshooting.md)
       + [Audiences für Audience Manager oder People Core Service freigeben](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign und Assets Core Service verwenden](integrating/using/working-with-campaign-and-assets-core-service.md)
