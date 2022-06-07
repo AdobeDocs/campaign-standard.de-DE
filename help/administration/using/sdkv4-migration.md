@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '1356'
-ht-degree: 100%
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
+source-wordcount: '1349'
+ht-degree: 93%
 
 ---
 
@@ -43,7 +43,7 @@ Nach dem Upgrade einer Mobile App von der Adobe SDK-Version v4 auf Adobe Experie
 |:-:|
 | Die Mobile App wird unter **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App (Adobe Experience Platform SDK)]** verfügbar sein. Vor der Migration war sie unter **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Mobile App (SDK V4)]** verfügbar. |
 | Der **[!UICONTROL PII-Abruf-Endpunkt]** der Mobile App ändert sich. Der ältere **[!UICONTROL PII-Abruf-Endpunkt]** funktioniert weiterhin und gesendete Daten gehen nicht verloren. |
-| Die Mobile App wird in Adobe Experience Platform Launch mit einer **[!UICONTROL Eigenschaft für Smartphones und Tablets]** verknüpft. Sie wird als neu erstellte Mobile App verarbeitet. |
+| Die Anwendung wird an ein Tag gebunden **[!UICONTROL Mobileigenschaft]**. Sie wird als neu erstellte Mobile App verarbeitet. |
 | Die ursprüngliche Adobe Experience Platform SDK-Mobile-App, die bei der Migration verwendet wurde, wird nicht als separate Anwendung vorhanden sein. Nur die migrierte SDK v4-Mobile-App wird verfügbar sein. |
 
 ## Ihre Mobile App vom SDK v4 zum Adobe Experience Platform SDK migrieren {#how-to-migrate}
@@ -53,9 +53,9 @@ Vor der Migration sollten Sie die folgenden Empfehlungen berücksichtigen:
 * Der Migrationsprozess kann nicht rückgängig gemacht werden.
 * Sie sollten die Migration nicht für mehrere Mobile Apps gleichzeitig durchführen. Sie sollten auch sicherstellen, dass die Migration einer Mobile App nicht von mehreren Fenstern gleichzeitig ausgelöst wird.
 * Stellen Sie vor der Migration sicher, dass Ihnen die **[!UICONTROL Organisationseinheit]** der Mobile App, die Sie migrieren möchten, und der Adobe Experience Platform-Mobile-App, die Sie für die Migration verwenden, zugewiesen ist.
-* Nach der Migration wird die Mobile App zu einer Adobe Experience Platform SDK-Mobile-App. Die Änderungen werden mit der entsprechenden Launch-**[!UICONTROL Eigenschaft für Smartphones und Tablets]** verknüpft.
+* Nach der Migration wird die Mobile App zu einer Adobe Experience Platform SDK-Mobile-App. Die Änderungen werden mit dem entsprechenden Tag verknüpft **[!UICONTROL Mobileigenschaft]**.
 
-1. Erstellen Sie in Adobe Experience Platform Launch eine neue **[!UICONTROL Eigenschaft für Smartphones und Tablets]**. Weitere Informationen hierzu finden Sie in der [Adobe Experience Platform Launch-Dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Erstellen Sie eine neue **[!UICONTROL Mobileigenschaft]** in der Datenerfassungs-Benutzeroberfläche. Weitere Informationen hierzu finden Sie im Abschnitt [Dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 
 1. Wählen Sie in Adobe Campaign Standard im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Workflows]** aus und öffnen Sie den Workflow **[!UICONTROL syncWithLaunch]**. Überprüfen Sie, ob der Workflow ohne Fehler beendet wurde.
 
@@ -88,7 +88,7 @@ Vor der Migration sollten Sie die folgenden Empfehlungen berücksichtigen:
 Nach dieser Migration werden in der migrierten Mobile App Abonnenten, die mit der v4-Version der Mobile App erfasst wurden, und neue Abonnenten, die mit der AEP-Version der Mobile App erfasst wurden, verfügbar sein.
 
 Um die beiden verschiedenen Abonnententypen zu unterscheiden, können Sie ein neues benutzerdefiniertes Feld vom Typ **[!UICONTROL Text]** hinzufügen. Erweitern Sie dazu die benutzerdefinierte Ressource **[!UICONTROL App-Abonnements (appSubscriptionRcp)]** beispielsweise als `sdkversion` oder `appVersion`. Weitere Informationen zum Erweitern einer benutzerdefinierten Ressource finden Sie auf dieser [Seite](../../developing/using/creating-or-extending-the-resource.md).
-Anschließend müssen Sie die zugehörige Launch-**[!UICONTROL Eigenschaft für Smartphones und Tablets]** so konfigurieren, dass dieser benutzerdefinierte Feldwert im Aufruf &quot;PII-Abruf&quot; gesendet wird, und die Konfiguration Ihrer Mobile App entsprechend ändern.
+Anschließend müssen Sie das zugehörige Tag konfigurieren **[!UICONTROL Mobileigenschaft]** um diesen benutzerdefinierten Feldwert im PII-Abruf zu senden und Ihre Mobile App-Konfiguration entsprechend zu ändern.
 
 ## Häufig gestellte Fragen {#faq}
 
@@ -106,7 +106,7 @@ A: In der Liste werden nur geeignete Anwendungen Ihrer **[!UICONTROL Organisatio
 
 ### F: Warum kann die Adobe Experience Platform SDK-Mobile-App mit dem Eigenschaftenstatus &quot;Konfiguriert&quot; nicht für die Migration verwendet werden? {#property-status}
 
-A: Beim Migrationsprozess werden die SDK v4-Abonnenten und -Attribute beibehalten. Von der Adobe Experience Platform SDK-Mobile-App werden nur die Launch-bezogenen Informationen gespeichert. Abonnenten und andere Daten der Adobe Experience Platform SDK-Mobile-App gehen verloren. Um Datenverluste zu vermeiden, können nur Adobe Experience Platform SDK-Mobile-Apps mit dem **[!UICONTROL Eigenschaftenstatus]** **[!UICONTROL Bereit zum Konfigurieren]** migriert werden.
+A: Beim Migrationsprozess werden die SDK v4-Abonnenten und -Attribute beibehalten. Sie speichert nur die Tag-bezogenen Informationen aus der Adobe Experience Platform SDK-Anwendung. Abonnenten und andere Daten der Adobe Experience Platform SDK-Mobile-App gehen verloren. Um Datenverluste zu vermeiden, können nur Adobe Experience Platform SDK-Mobile-Apps mit dem **[!UICONTROL Eigenschaftenstatus]** **[!UICONTROL Bereit zum Konfigurieren]** migriert werden.
 
 ### F: Wo finde ich nach der Migration meine vorherige SDK v4-Mobile-App? {#v4-app-not-visible}
 

@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 100%
+source-wordcount: '991'
+ht-degree: 89%
 
 ---
 
@@ -88,15 +88,16 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
       >[!NOTE]
       >
       >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]** auf 10, die Population mit dem Geschlecht **[!UICONTROL Weiblich]** auf 30 Personen begrenzen. Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validieren Sie die Konfiguration Ihres Segments.
 1. Fügen Sie so viele Segmente wie nötig hinzu, indem Sie die Etappen 6 bis 10 dieser Prozedur erneut durchlaufen.
 1. Passen Sie bei Bedarf die Parameter des **[!UICONTROL Erweiterte Optionen]**-Tabs der Aktivität an:
 
-   * Aktivieren Sie die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]**, wenn ein Mitglied der Eingangspopulation mehreren Segmenten gleichzeitig angehören soll. Die Ausgabepopulation der Aktivität kann in diesem Fall die Eingangspopulation übersteigen.
-   * Aktivieren Sie die Option **[!UICONTROL Alle Segmentcodes konkatenieren]**, wenn die Eingangspopulation bereits über einen Segment-Code verfügt und Sie diesen beibehalten möchten. Der innerhalb der Aktivität zugewiesene Segmentcode wird dem ursprünglichen Segmentcode hinzugefügt.
-   * Aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population nutzen möchten. Siehe [Anwendungsfall: Erstellen von Sendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md).
+   * Die **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** -Option definiert, wie Profile verwaltet werden, die zu mehreren Segmenten gehören:
+      * Wenn die Option nicht aktiviert ist, wird die **[!UICONTROL Segmentierung]** -Aktivität überprüft, ob ein Profil in mehreren ausgehenden Transitionen nicht vorhanden ist, selbst wenn dieses Profil die Kriterien mehrerer Teilmengen erfüllt.
+      * Wenn die Option aktiviert ist, können die Profile in mehreren Teilmengen gefunden werden, wenn sie ihren Filterkriterien entsprechen.
+   * Wenn der eingehenden Population bereits ein Segment-Code zugewiesen wurde, den Sie beibehalten möchten, überprüfen Sie die **[!UICONTROL Den Code jedes Segments verketten]** -Option. Der innerhalb der Aktivität zugewiesene Segmentcode wird dem ursprünglichen Segmentcode hinzugefügt.
+   * Wenn Sie die verbleibende Population ausnutzen müssen, überprüfen Sie die **[!UICONTROL Komplement erzeugen]** -Option. Siehe [Anwendungsfall: Erstellen von Sendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.

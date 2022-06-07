@@ -9,7 +9,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Typologieregeln sind Geschäftsregeln, mit denen Sie eine Nachricht prüfen und 
 
 Typologieregeln sind verfügbar über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** > **[!UICONTROL Typologieregeln]**.
 
-Standardmäßig sind mehrere vordefinierte **Filter**- und **Kontroll**-Typologieregeln verfügbar. Sie werden in den Abschnitten [Filterregeln](../../sending/using/fatigue-rules.md) und [Kontrollregeln](../../sending/using/control-rules.md) genauer beschrieben.
+Standardmäßig sind mehrere vordefinierte **Filter**- und **Kontroll**-Typologieregeln verfügbar. Sie werden in den Abschnitten [Filterregeln](../../sending/using/filtering-rules.md) und [Kontrollregeln](../../sending/using/control-rules.md) genauer beschrieben.
 
 Je nach Bedarf können Sie bestehende Typologieregeln ändern oder neue erstellen, mit Ausnahme von **[!UICONTROL Kontrollregeln]**, die schreibgeschützt sind und sich nicht ändern lassen.
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -96,9 +96,9 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
 <tr>
   <td>
     <div>
-    <p><strong>Adobe Experience Platform Launch-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen konfigurieren</strong></p>
+    <p><strong>Konfigurieren von Tag-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klicken Sie hier</strong></a>, um mit der Erstellung von Datenelementen und Regeln in Adobe Experience Platform Launch zu beginnen, um personenbezogene Daten und andere Daten von Mobile Apps an Adobe Campaign Standard zu senden.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Hier klicken</strong></a> , um mit der Erstellung von Datenelementen und Regeln in der Datenerfassungs-Benutzeroberfläche zu beginnen, um personenbezogene Daten und andere Daten von Apps an Adobe Campaign Standard zu senden.</p>
     <br>
   </td>
   <td>

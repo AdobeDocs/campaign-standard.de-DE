@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Mobile Apps, über die Push-Benachrichtigungen empfangen werden, müssen von ein
 
 Durch die Konfiguration von sowohl Adobe Campaign als auch Adobe Mobile Services können Sie die Daten Ihrer Mobile Apps für Ihre Kampagnen verwenden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md).
 
-Um Push-Benachrichtigungen mithilfe einer Experience Cloud SDK-Anwendung zu senden, muss in Adobe Experience Platform Launch eine Mobile App eingerichtet und in Adobe Campaign konfiguriert werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+Um Push-Benachrichtigungen mit einer Experience Cloud SDK-Anwendung zu senden, muss eine Mobile App in der Datenerfassungs-Benutzeroberfläche eingerichtet und in Adobe Campaign konfiguriert werden. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Schritt 2: Push-Benachrichtigung in Adobe Campaign anpassen {#customize-push}
 
