@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -24,11 +24,18 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
 
 ## Version 22.2 – Juni 2022 {#rn-2022}
 
-**Verbesserung**
+**Verbesserungen**
 
 * **Adobe Notification Service** - Campaign wird mit dem Adobe Notification Service geliefert, der es Experience Cloud-Lösungen ermöglicht, Nutzer/innen in der gesamten Experience Cloud über Aktivitäten zu informieren, die für sie wichtig sind. Ab Version 22.2 wurde das Nutzererlebnis verbessert: Benachrichtigungen werden priorisiert und produkterzeugte Benachrichtigungen werden von Adobe-Statusmeldungen getrennt. Wenn sich die Benachrichtigung auf einen bestimmten Workflow bezieht, kannst du jetzt auch direkt aus der E-Mail oder der produktinternen Benachrichtigung auf den entsprechenden Workflow zugreifen.  Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **Optimierung beim Start des Workflows** - Adobe hat eine neue Funktion hinzugefügt, mit der die Anzahl der Workflows angepasst werden kann, die etwa zur selben Zeit beginnen. Dies würde helfen, CPU-Spitzen zu vermeiden, die zu Dienstunterbrechungen oder Ausfallzeiten geführt haben könnten. Adobe würde es nach Version 22.2 aktivieren. Es gibt kein weiteres Aktionselement für den Kunden in Bezug auf dasselbe.
+
+* **Zugänglichkeit** - Adobe hat viele Fehlerbehebungen vorgenommen, um die Benutzerfreundlichkeit der Anwendung zu verbessern. Diese Funktionen sind derzeit nur für eine Reihe früherer Anwender verfügbar und werden in der ACS-Version 22.3 für alle Kunden eingeführt. Beispiele für Verbesserungen der Barrierefreiheit:
+
+   * Sicherstellen, dass auf jedem Bildschirm ein sichtbarer Fokusindikator für fokussierbare Elemente vorhanden ist
+   * Seitenmarkierungen für einfachere Navigation erstellen
+   * Hinzufügen von Namen, Rolle, Wert und Status für viele Steuerelemente
+   * Beheben von Problemen mit der dynamischen Fokusreihenfolge auf den Hauptbildschirmen
 
 **Sicherheitsaktualisierung**
 
