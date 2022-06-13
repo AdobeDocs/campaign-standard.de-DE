@@ -5,9 +5,9 @@ user-guide-description: 'Hilfezentrum für die wichtigsten Funktionen, Aufgaben,
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Aktuelle Updates](rn/using/documentation-updates.md)
 + Versionshinweise {#release-notes}
    + [Aktuelle Version](rn/using/release-notes.md)
-   + [Frühere Versionshinweise](rn/using/e-release-notes.md)
+   + [Vorzeitige Versionshinweise](rn/using/e-release-notes.md)
    + Frühere Versionen {#previous-releases}
       + [Versionshinweise 2021](rn/using/release-notes-2021.md)
       + [Versionshinweise 2020](rn/using/release-notes-2020.md)
@@ -452,7 +452,7 @@ ht-degree: 99%
       + [Bilder und Videos unter iOS hinzufügen](administration/using/image-push-notification.md)
       + [Payload-Struktur der Push-Benachrichtigungen verstehen](administration/using/push-payload.md)
       + [Lokales Benachrichtigungs-Tracking implementieren](administration/using/local-tracking.md)
-      + [Häufig gestellte Fragen zu Tags bei der Adobe Experience Platform-Synchronisierung](administration/using/syncwithlaunch-faq.md)
+      + [Häufig gestellte Fragen zur Synchronisierung von Tags in Adobe Experience Platform](administration/using/syncwithlaunch-faq.md)
       + [Häufig gestellte Fragen zur Integration des Experience Platform SDK](administration/using/aep-faq.md)
       + [Konfigurieren von Tag-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
