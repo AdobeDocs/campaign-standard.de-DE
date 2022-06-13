@@ -9,9 +9,9 @@ role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -115,14 +115,14 @@ Im Tab **[!UICONTROL Freigabe]** können Sie Adobe-Campaign-Benutzern Berichte m
 
       ![](assets/tab_share_4.png)
 
-   1. Wählen Sie die Empfänger aus der Dropdown-Liste aus. Beachten Sie, dass Sie keine Benutzer außerhalb Ihrer Organisation auswählen können.
+   1. Wählen Sie die Empfänger aus der Dropdown-Liste aus. Beachten Sie, dass Sie keine Benutzer außerhalb Ihres Unternehmens auswählen können.
    1. Aktivieren Sie **[!UICONTROL Planungsoptionen anzeigen]**, wenn Sie wiederkehrende E-Mails senden möchten. Dies ist auch durch die Auswahl von **[!UICONTROL Bericht senden]** im Tab **[!UICONTROL Freigabe]** möglich.
    1. Klicken Sie auf **[!UICONTROL Jetzt senden]**. Ihre Empfänger erhalten dann eine E-Mail mit Ihrem Bericht im Anhang.
 
 * **[!UICONTROL Bericht senden]**: Terminieren Sie Ihren Bericht und senden Sie wiederkehrende E-Mails an Empfänger.
 
    1. Bei Bedarf können Sie im Fenster **[!UICONTROL Bericht senden]** eine Beschreibung hinzufügen.
-   1. Wählen Sie die Empfänger aus der Dropdown-Liste aus. Beachten Sie, dass Sie keine Benutzer außerhalb Ihrer Organisation auswählen können.
+   1. Wählen Sie die Empfänger aus der Dropdown-Liste aus. Beachten Sie, dass Sie keine Benutzer außerhalb Ihres Unternehmens auswählen können.
 
       ![](assets/tab_share_5.png)
 
@@ -147,4 +147,4 @@ Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang di
 
 **Verwandtes Thema:**
 
-* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
