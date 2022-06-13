@@ -9,9 +9,9 @@ role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -181,12 +181,12 @@ Der Wert **K. A.** wird manchmal in Ihren dynamischen Berichten angegeben. Dies 
 
    ![](assets/troubleshooting_4.png)
 
-## Versandberichte zeigen bei Verwendung der benutzerdefinierten Target-Zuordnung unvollständige Daten an
+## Versandberichte zeigen bei Verwendung von benutzerdefinierten Zielgruppen-Mappings unvollständige Daten an
 
-Wenn Sie importierte benutzerdefinierte Target-Zuordnungen in Sendungen verwenden und in den verschiedenen Berichten keine Daten angezeigt werden, könnte dies bedeuten, dass die Berichterstellungsanreicherungen für diese Target-Zuordnungen nicht erstellt wurden.
+Wenn Sie in Sendungen importierte benutzerdefinierte Zielgruppen-Mappings verwenden und in den verschiedenen Berichten keine Daten angezeigt werden, kann das bedeuten, dass die Berichtsanreicherungen für diese Zielgruppen-Mappings nicht erstellt wurden.
 
-So beheben Sie Folgendes:
+So beheben Sie das Problem:
 
-* Nach dem Import Ihres Target-Mappings aus einer XML müssen Sie auch die Berichterstellung importieren.
+* Nach dem Importieren Ihres Zielgruppen-Mappings aus einer XML-Datei müssen Sie auch die Berichtsanreicherung importieren.
 
-* Anstelle des Imports Ihres Target-Mappings können Sie es direkt in Adobe Campaign Standard erstellen, wodurch automatisch die Berichterstellungsanreicherung erstellt wird.
+* Anstelle des Imports Ihres Zielgruppen-Mappings können Sie es auch direkt in Adobe Campaign Standard erstellen, wodurch die Berichtsanreicherung automatisch erstellt wird.
