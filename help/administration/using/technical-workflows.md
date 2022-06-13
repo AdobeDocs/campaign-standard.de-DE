@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -92,12 +92,12 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
    <tr> 
    <td> <span class="uicontrol">Mit Launch synchronisieren </span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Synchronisiert die in Adobe Campaign Standard importierten Tag-Eigenschaften für Mobilgeräte. Er wird alle 15 Minuten gestartet.<br /> </td> 
+   <td> Dieser Workflow synchronisiert die Tag-Eigenschaften für Mobilgeräte, die in Adobe Campaign Standard importiert wurden. Er wird alle 15 Minuten gestartet.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Trackinglog-Wiederherstellung</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Synchronisiert die in Adobe Campaign Standard importierten Tag-Eigenschaften für Mobilgeräte. Er wird alle 15 Minuten gestartet.<br /> </td> 
+   <td> Dieser Workflow synchronisiert die Tag-Eigenschaften für Mobilgeräte, die in Adobe Campaign Standard importiert wurden. Er wird alle 15 Minuten gestartet.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Trackinglogs wiederherstellen</span> <br /> </td> 
