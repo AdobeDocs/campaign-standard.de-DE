@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ Push-Benachrichtigungen werden von Experience Platform SDKs unterstützt.
 
 Mobile Apps, über die Push-Benachrichtigungen empfangen werden, müssen von einem Administrator in der Adobe-Campaign-Benutzeroberfläche konfiguriert werden.
 
-Durch die Konfiguration von sowohl Adobe Campaign als auch Adobe Mobile Services können Sie die Daten Ihrer Mobile Apps für Ihre Kampagnen verwenden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md).
+Durch die Konfiguration von sowohl Adobe Campaign als auch Adobe Mobile Services können Sie die Daten Ihrer Mobile Apps für Ihre Kampagnen verwenden. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/configuring-a-mobile-application.md).
 
-Um Push-Benachrichtigungen mit einer Experience Cloud SDK-Anwendung zu senden, muss eine Mobile App in der Datenerfassungs-Benutzeroberfläche eingerichtet und in Adobe Campaign konfiguriert werden. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+Um Push-Benachrichtigungen mithilfe einer Experience Cloud SDK-Anwendung zu senden, muss in der Datenerfassungs-UI eine Mobile App eingerichtet und in Adobe Campaign konfiguriert werden. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Schritt 2: Push-Benachrichtigung in Adobe Campaign anpassen {#customize-push}
 
 In Adobe Campaign stehen Ihnen zur Anpassung von Push-Benachrichtigungen bei deren Erstellung eine Reihe erweiterter Optionen zur Verfügung.
 
-1. Push-Benachrichtigung erstellen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Push-Benachrichtigung erstellen. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. Rufen Sie auf Ihrer Seite mit den Inhalten für Push-Benachrichtigungen den Abschnitt **[!UICONTROL Erweiterte Optionen]** auf.
 
