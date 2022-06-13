@@ -9,15 +9,15 @@ role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1423'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Integration von Campaign-POI-Daten konfigurieren{#configuring-campaign-points-of-interest-data-integration}
 
-## Integration von Campaign-POI-Daten konfigurieren  mit Adobe Experience Platform-SDKs {#configuring-campaign-poi-aep-sdk}
+## Integration von Campaign-POI-Daten konfigurieren   mit Adobe Experience Platform-SDKs {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Adminis
 
 Um Adobe Experience Platform Location Services mit Mobile Apps zu verwenden, die mit dem Adobe Experience Platform SDK konfiguriert wurden, gehen Sie folgendermaßen vor:
 
-1. Fügen Sie die **[!UICONTROL Orte]** und **[!UICONTROL Places Monitor]** Erweiterungen Ihrer App-Konfiguration in der Datenerfassungs-Benutzeroberfläche. Richten Sie in Adobe Campaign Ihre Mobile App ein. Siehe [Installieren der Places-Erweiterung](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=de#install-the-places-extension-in-adobe-experience-platform-launch?lang=de) und [Installieren der Erweiterung Places Monitor](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html?lang=de#install-the-places-monitor-extension-in-experience-platform-launch?lang=de).
+1. Fügen Sie die Erweiterungen **[!UICONTROL Places]** und **[!UICONTROL Places Monitor]** zu Ihrer Mobile-App-Konfiguration in der Datenerfassungs-UI hinzu. Richten Sie in Adobe Campaign Ihre Mobile App ein. Weiterführende Informationen dazu finden Sie im Abschnitt zur [Installation der Places-Erweiterung](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=de#install-the-places-extension-in-adobe-experience-platform-launch?lang=de) und zur [Installation der Places Monitor-Erweiterung](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html?lang=de#install-the-places-monitor-extension-in-experience-platform-launch?lang=de).
 
-1. Nachdem Sie Ihre Erweiterungen eingerichtet haben, erstellen Sie Datenelemente in der Datenerfassungs-Benutzeroberfläche, um Daten aus diesen Erweiterungen abzurufen. Weiterführende Informationen zum Erstellen von Datenelementen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
+1. Erstellen Sie nach dem Einrichten der Erweiterungen Datenelemente in der Datenerfassungs-UI, um Daten aus diesen Erweiterungen abzurufen. Weiterführende Informationen zum Erstellen von Datenelementen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
 
-1. Anschließend müssen Sie in der Datenerfassungs-Benutzeroberfläche Regeln zur Unterstützung mobiler Anwendungsfälle zwischen POI und Adobe Campaign erstellen.\
+1. Anschließend müssen Sie in der Datenerfassungs-UI Regeln für mobile Anwendungsfälle zwischen POI und Adobe Campaign erstellen.\
    Eine Regel wird ausgelöst, wenn ein Benutzer einen durch Geofencing gekennzeichneten **[!UICONTROL Point of Interest]** betritt. Weiterführende Informationen zum Erstellen von Regeln finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#Locationpostback).
 
 1. Definieren Sie Ihre **[!UICONTROL Points of Interest]** in Places. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Erstellen eines Point of Interest](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=de).
@@ -187,7 +187,7 @@ So definieren Sie POI zum Erfassen von Standortdaten:
 
 Eine spezielle benutzerdefinierte Ressource ermöglicht es Ihnen, die Daten zu definieren, die Sie von den Abonnenten Ihrer Mobile App erfassen möchten.
 
-Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) beschrieben.
+Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
 ## Auf Mobile Apps zugreifen, mit denen Standortdaten erfasst werden {#accessing-mobile-apps-used-to-collect-location-data}
 
