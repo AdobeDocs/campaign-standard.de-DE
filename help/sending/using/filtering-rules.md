@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um eine Typologieregel zum Filtern zu erstellen:
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Wählen Sie die **[!UICONTROL Alter]** und definieren Sie die Filterbedingungen so, dass das Alter der Abonnenten unter 18 Jahren liegt.
+1. Wählen Sie das Feld **[!UICONTROL Alter]** und definieren Sie die Filterbedingungen so, dass das Mindestalter der Abonnenten weniger als 18 beträgt.
 
    ![](assets/typology_create-rule-age.png)
 
