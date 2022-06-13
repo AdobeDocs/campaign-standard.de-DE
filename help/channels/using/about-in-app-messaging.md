@@ -9,9 +9,9 @@ feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 In-App-Messaging ist ein Messaging-Kanal, mit dem Sie in einer App eine Nachricht einblenden können, wenn ein Benutzer diese gerade verwendet. Dieser Nachrichtentyp ist eine Ergänzung zu Push-Benachrichtigungen, mit denen Nachrichten direkt an die Benachrichtigungszentrale des Telefons des Benutzers gesendet werden. Weiterführende Informationen zu Push-Benachrichtigungen erhalten Sie in [diesem Abschnitt](../../channels/using/about-push-notifications.md).
 
-Dieser Kanal erfordert die Integration von Mobile Apps mit dem Adobe Experience Platform SDK. Diese Apps müssen in der Datenerfassungs-Benutzeroberfläche aktiviert werden, bevor sie in Adobe Campaign für In-App-Sendungen verfügbar sind.
+Dieser Kanal erfordert die Integration von Mobile Apps mit dem Adobe Experience Platform SDK. Diese Mobile Apps müssen in der Datenerfassungs-UI aktiviert werden, damit sie in Adobe Campaign für In-App-Sendungen verfügbar sind.
 
 ![](assets/launch_campaign.png)
 
@@ -27,7 +27,7 @@ Um In-App-Nachrichten mithilfe des Experience Platform SDK über Mobile Apps sen
 
 1. Sie benötigen in Adobe Campaign Zugriff auf den **[!UICONTROL In-App]**-Kanal. Wenn Sie keinen Zugriff auf diesen Kanal haben, kontaktieren Sie das für Ihr Konto zuständige Team.
 
-1. Um Anwendungsfälle für Mobilgeräte in Adobe Campaign Standard mit einer Experience Cloud SDK-Anwendung zu nutzen, muss eine mobile App in der Datenerfassungs-Benutzeroberfläche erstellt und in Adobe Campaign Standard konfiguriert werden. Eine Schritt-für-Schritt-Anleitung hierzu finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md).
+1. Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard in Kombination mit einer Experience Cloud SDK-Anwendung unterstützt werden, erfordern eine in der Datenerfassungs-UI erstellte und in Adobe Campaign Standard konfigurierte Mobile App. Eine Schritt-für-Schritt-Anleitung hierzu finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md).
 
 1. Nach der Konfiguration können Sie Ihre In-App-Nachricht vorbereiten. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
