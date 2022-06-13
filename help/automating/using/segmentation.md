@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -94,10 +94,10 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
 1. Fügen Sie so viele Segmente wie nötig hinzu, indem Sie die Etappen 6 bis 10 dieser Prozedur erneut durchlaufen.
 1. Passen Sie bei Bedarf die Parameter des **[!UICONTROL Erweiterte Optionen]**-Tabs der Aktivität an:
 
-   * Die **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** -Option definiert, wie Profile verwaltet werden, die zu mehreren Segmenten gehören:
-      * Wenn die Option nicht aktiviert ist, wird die **[!UICONTROL Segmentierung]** -Aktivität überprüft, ob ein Profil in mehreren ausgehenden Transitionen nicht vorhanden ist, selbst wenn dieses Profil die Kriterien mehrerer Teilmengen erfüllt.
-      * Wenn die Option aktiviert ist, können die Profile in mehreren Teilmengen gefunden werden, wenn sie ihren Filterkriterien entsprechen.
-   * Wenn der eingehenden Population bereits ein Segment-Code zugewiesen wurde, den Sie beibehalten möchten, überprüfen Sie die **[!UICONTROL Den Code jedes Segments verketten]** -Option. Der innerhalb der Aktivität zugewiesene Segmentcode wird dem ursprünglichen Segmentcode hinzugefügt.
-   * Wenn Sie die verbleibende Population ausnutzen müssen, überprüfen Sie die **[!UICONTROL Komplement erzeugen]** -Option. Siehe [Anwendungsfall: Erstellen von Sendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md).
+   * Die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** definiert, wie Profile verwaltet werden, die zu mehreren Segmenten gehören:
+      * Wenn die Option nicht aktiviert ist, prüft die Aktivität **[!UICONTROL Segmentierung]**, ob in verschiedenen ausgehenden Transitionen kein Profil vorhanden ist, selbst wenn das Profil die Kriterien unterschiedlicher Teilmengen erfüllt.
+      * Wenn die Option aktiviert ist, können die Profile in mehreren Teilmengen gefunden werden, falls sie ihren Filterkriterien entsprechen.
+   * Wenn der eingehenden Population bereits ein Segment-Code zugewiesen wurde, den Sie beibehalten möchten, aktivieren Sie die Option **[!UICONTROL Alle Segment-Codes konkatenieren]**. Der innerhalb der Aktivität zugewiesene Segment-Code wird dem ursprünglichen Segment-Code hinzugefügt.
+   * Wenn Sie die verbleibende Population nutzen müssen, aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**. Siehe [Anwendungsfall: Erstellen von Sendungen mit einem Komplement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
