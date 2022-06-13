@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -62,17 +62,17 @@ Vor dem Versand Ihrer Push-Benachrichtigungen sollten Sie auf Folgendes achten:
 
 1. Sie benötigen in Adobe Campaign Zugriff auf den Kanal **[!UICONTROL Push-Benachrichtigungen]**. Wenn Sie keinen Zugriff auf diesen Kanal haben, kontaktieren Sie das für Ihr Konto zuständige Team.
 
-1. Vergewissern Sie sich, dass Ihr Benutzer über die erforderlichen Berechtigungen in Adobe Campaign Standard und Tags in Adobe Experience Platform verfügt.
+1. Prüfen Sie, ob Ihr Anwender über die erforderlichen Berechtigungen in Adobe Campaign Standard und Tags in Adobe Experience Platform verfügt.
 
-1. Erstellen Sie in der Datenerfassungs-Benutzeroberfläche eine mobile Eigenschaft. Weiterführende Informationen finden Sie unter [Eigenschaft für Mobilgeräte einrichten](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Erstellen Sie in der Datenerfassungs-UI eine Eigenschaft für Mobilgeräte. Weiterführende Informationen finden Sie unter [Eigenschaft für Mobilgeräte einrichten](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. Installieren Sie in der Datenerfassungs-Benutzeroberfläche das **[!UICONTROL Adobe Campaign Standard]** -Erweiterung.
+1. Installieren Sie in der Datenerfassungs-UI die Erweiterung **[!UICONTROL Adobe Campaign Standard]**.
 
-1. Konfigurieren Sie in Adobe Campaign Standard die Eigenschaft für Mobilgeräte, die Sie in der Benutzeroberfläche für die Datenerfassung erstellt haben. Weitere Informationen finden Sie unter [Einrichten Ihrer Tag-Anwendung in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Konfigurieren Sie in Adobe Campaign Standard die Eigenschaft für Mobilgeräte, die Sie in der Datenerfassungs-UI erstellt haben. Weiterführende Informationen finden Sie unter [Einrichten der Tag-App in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Fügen Sie die kanalspezifische Konfiguration für Ihre Mobile App-Einrichtung hinzu. Weiterführende Informationen finden Sie unter [Kanalspezifische Anwendungskonfiguration in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Informationen zur Unterstützung von Anwendungsfallimplementierungen für Mobilgeräte finden Sie in den detaillierten Anweisungen zu Erweiterungen, Tag-Regeln und der SDK-Implementierung in [Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard mithilfe der Adobe Experience Platform SDKs unterstützt werden](../../administration/using/configuring-rules-launch.md).
+1. Informationen zu Fallimplementierungen für Mobilgeräte finden Sie in den ausführlichen Anweisungen zu Erweiterungen, Tag-Regeln und der SDK-Implementierung in [Mobile Anwendungsfälle, die in Adobe Campaign Standard mit den Adobe Experience Platform SDKs unterstützt werden](../../administration/using/configuring-rules-launch.md).
 
 ## Häufig gestellte Fragen zu Push-Benachrichtigungen {#push-faq}
 
