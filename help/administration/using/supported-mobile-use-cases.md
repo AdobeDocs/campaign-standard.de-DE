@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Standard unterstützt die folgenden Anwendungsfälle:
 
 Zum Konfigurieren dieser Anwendungsfälle benötigen Sie die folgenden Erweiterungen:
 
-* **[!DNL Adobe Campaign Standard]** <br>Informationen zum Installieren und Konfigurieren der Campaign Standard-Erweiterung finden Sie unter [Konfigurieren der Campaign Standard-Erweiterung in der Benutzeroberfläche für die Datenerfassung](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Informationen zum Installieren und Konfigurieren der Campaign Standard-Erweiterung finden Sie unter [Campaign Standard-Erweiterung in der Datenerfassungs-UI konfigurieren](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]** (wird automatisch installiert). <br>Weitere Informationen zur Mobile Core-Erweiterung finden Sie unter [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]** (wird automatisch installiert). <br>Weitere Informationen zur Profil-Erweiterung finden Sie unter [Profil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 
