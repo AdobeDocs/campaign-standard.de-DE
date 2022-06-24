@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 66aed3668dc0eb2041312dcbaebe7c36f54b13a5
 workflow-type: ht
-source-wordcount: '468'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -36,10 +36,6 @@ Auf dieser Seite werden neue Funktionen, Verbesserungen und Fehlerbehebungen bes
    * Erstellen von Seitenmarkierungen für eine einfachere Navigation
    * Hinzufügen von Name, Rolle, Wert und Status für viele Steuerelemente
    * Beheben von Problemen mit der dynamischen Fokusreihenfolge auf Hauptbildschirmen
-
-**Sicherheitsaktualisierung**
-
-* Apache Tomcat wurde von Version 7 auf Version 8.5 aktualisiert.
 
 
 **Patches**
