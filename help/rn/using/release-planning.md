@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 8b049f7decc95d3959feb0193bf51287422ddaec
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen.
 
-## Version 22.2 – Juni 2022 {#release-22-2-release}
+## Version 22.3 – September 2022 {#release-22-3-release}
 
 Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
@@ -41,11 +41,11 @@ Weitere Informationen zu dieser Version sind in den frühzeitigen Versionshinwei
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>7. bis 8. Juni 2022<br /> </td>
+   <td>6.-7. September 2022<br /> </td>
   </tr>
   <tr>
    <td>Produktion<br /> </td>
-   <td>14. bis 21. Juni 2022<br /> </td>
+   <td>13.-29. September 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ A: Die Änderungen sind in den [Versionshinweisen](../../rn/using/release-notes.
 
 **F: Was ist der Validierungsprozess?**
 
-A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse und Anwendungsfälle mit dieser neuen Version zu validieren und alle Probleme der [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) zu melden.
+A: Wenn Ihre Staging-Instanz aktualisiert wird, empfiehlt Adobe, Ihre Prozesse und Anwendungsfälle mit dieser neuen Version zu validieren und alle Probleme der [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) zu melden.
 
 **F: Kann während des Aktualisierungsprozesses auf die Instanz zugegriffen werden?**
 
@@ -82,4 +82,4 @@ A: Ja. Während der Aktualisierung können keine neuen E-Mails gesendet werden, 
 
 A: Wenn Sie sich bei Campaign anmelden, wird ein Benachrichtigungs-Popup mit der aktuellen Version angezeigt.
 
-Wenden Sie sich bei weiteren Fragen an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html).
+Wenden Sie sich bei weiteren Fragen an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
