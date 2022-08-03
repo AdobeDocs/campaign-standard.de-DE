@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Nutzen Sie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de), um die Erlebnisse Ihrer Kunden zu optimieren, indem Sie auf der Grundlage großer, komplexer Datensätze zielgenaue Audiences erstellen. Adobe Experience Platform fasst Profildaten, Verhaltensdaten und Daten mehrerer Entitäten über Online- und Offline-Quellen hinweg zusammen, einschließlich Adobe Analytics. So erhalten Sie eine 360-Grad-Ansicht Ihres Kunden und können Kundenerlebnisse effektiv verwalten.
 
-Adobe Campaign Standard verwendet dann den Dienst **Audience Destinations**, um von Adobe Experience Platform für mehrstufige und/oder kanalübergreifende Kampagnenprogramme eine Kollektion von Profilen abzurufen, die als **Audiences** bezeichnet werden.
+Adobe Campaign Standard verwendet dann den Dienst **Audience Destinations**, um von Adobe Experience Platform für mehrstufige und/oder kanalübergreifende Kampagnenprogramme eine Sammlung von Profilen abzurufen, die als **Audiences** bezeichnet werden.
 
 **Audiences** werden durch anfängliches Einrichten von **Segmenten** erstellt, bei denen es sich im Prinzip um einen Regelsatz handelt, der auf praktisch jeder Variablen (z. B. Profil-, Ereignis-, Multi-Entitäts-Daten) innerhalb eines Kundenprofils von Adobe Experience Platform basieren kann, um eine multidimensionale Zielgruppe zu erstellen. Allgemeine Konzepte zu Diensten für Echtzeit-Kundenprofile und Segmentierung werden in diesen Dokumenten erläutert:
 
@@ -47,6 +47,6 @@ In diesen Abschnitten verwendete Begriffe:
 
    Beispiel: &quot;Männer > 50 Jahre alt.&quot;
 
-* **Audience**: Eine Kollektion von Profilen, die Segmentregeln entsprechen.
+* **Audience**: Eine Sammlung von Profilen, die Segmentregeln entsprechen.
 
    Beispiel: Liste von Profilen, die allen Männern über 50 Jahren in Ihrer Datenbank entspricht.
