@@ -7,8 +7,8 @@ level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '4678'
 ht-degree: 100%
 
 ---
@@ -399,7 +399,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell Versandzeitpunkt optimieren<br /> </td> 

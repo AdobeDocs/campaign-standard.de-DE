@@ -1,17 +1,15 @@
 ---
 title: Versionshinweise 2018
 description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard von 2018 und aufgelistet.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -126,7 +124,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 **Neuheiten**
 
 * Die Integration von Adobe Campaign mit Adobe Target ermöglicht jetzt die Verwendung der [Berechtigungsfunktion](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=de) von Target. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
-* Benutzerdefinierte Ressourcen, die über eine owncopy-Relation mit der Profilressource verbunden sind, werden jetzt von DSGVO-Zugriffs- bzw. Löschanfragen berücksichtigt. Für einfache Relationen mit Kardinalität 1 und Kollektionsrelationen mit Kardinalität N muss in der benutzerdefinierten Ressource die Option &quot;Beim Löschen/Duplizieren des Ziel-Datensatzes werden auch die von der Relation referenzierten Datensätze gelöscht/dupliziert&quot; ausgewählt werden. Für einfache Relationen mit Kardinalität 0 oder 1 muss die Option &quot;Beim Löschen/Duplizieren des Datensatzes wird auch der von der Relation referenzierte Ziel-Datensatz gelöscht/dupliziert&quot; ausgewählt werden.
+* Benutzerdefinierte Ressourcen, die über eine owncopy-Relation mit der Profilressource verbunden sind, werden jetzt von DSGVO-Zugriffs- bzw. Löschanfragen berücksichtigt. Für einfache Relationen mit Kardinalität 1 und Sammlungsrelationen mit Kardinalität N muss in der benutzerdefinierten Ressource die Option &quot;Beim Löschen/Duplizieren des Ziel-Datensatzes werden auch die von der Relation referenzierten Datensätze gelöscht/dupliziert&quot; ausgewählt werden. Für einfache Relationen mit Kardinalität 0 oder 1 muss die Option &quot;Beim Löschen/Duplizieren des Datensatzes wird auch der von der Relation referenzierte Ziel-Datensatz gelöscht/dupliziert&quot; ausgewählt werden.
 
 **Sonstige Änderungen**
 
@@ -138,7 +136,7 @@ Sehen Sie sich [Dokumentationsaktualisierungen](../../rn/using/documentation-upd
 **Korrekturen**
 
 * Fehlerkorrektur – bei der Verwendung des Filters &quot;Nach E-Mail&quot; werden jetzt Ergebnisse ausgegeben. (CAMP-23420)
-* Fehlerkorrektur – jetzt können keine Standardbenutzer mehr auf bestimmte Funkionen oder Bildschirme zugreifen, die auf Administratoren beschränkt sind (/rest/head/*-Endpunkte, Bildschirme für Transaktionsnachrichten sowie Profil- und Audience-Importe).
+* Fehlerkorrektur - Standardbenutzer können jetzt auf bestimmte Funktionen oder Bildschirme zugreifen, die auf Administratoren beschränkt sind (/rest/head/&#42; -Endpunkte, Transaktionsnachrichten-Bildschirme, Profile und Zielgruppen-Importbildschirme).
 * Fehlerkorrektur – in DSGVO-Löschanfragen können jetzt benutzerdefinierte Ressourcen auch dann bearbeitet werden, wenn deren Name mit einer Zahl beginnt.
 * Fehlerkorrektur – mit der Audience-Speicherungsaktivität können jetzt in Adobe Experience Cloud App-Abonnenten freigegeben werden.
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr in der Dateiübertragungsaktivität auf, wenn der Dateiname Leerzeichen enthält. (CAMP-25936)

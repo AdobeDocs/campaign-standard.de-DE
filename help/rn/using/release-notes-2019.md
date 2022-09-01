@@ -7,8 +7,8 @@ level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '7594'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 100%
    <p>Zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) stellen wir daher weitere Funktionen bereit, mit deren Hilfe Sie CCPA-konformes Verhalten sicherstellen können:</p>
    <ul>
     <li>Recht auf Zugriff und Recht auf Löschung: Dazu nutzen wir die Funktionen, die wir analog dazu für die DSGVO ergänzt haben – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">mehr dazu</a> </li>
-    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de">Eingestellte und entfernte Funktionen</a>.</p></li>
+    <li><p>Bei der Erstellung einer Datenschutzanfrage steht nun eine Auswahl für den Regulierungstyp (DSGVO oder CCPA) im Privacy Core Service zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Eingestellte und entfernte Funktionen</a>.</p></li>
     <li>Ein Feld für die <strong>Abmeldung gemäß CCPA</strong> wurde zur Profilressource hinzugefügt, über das Adobe Campaign-Benutzer nachverfolgen können, ob ein Kunde die Weitergabe seiner personenbezogenen Daten untersagt hat. <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa">Mehr dazu</a>.</li>
   </ul>
     <p>Weitere Informationen finden Sie in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=de">diesem Video</a>.</p>
@@ -533,7 +533,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
      <li> Die Möglichkeit, <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">in der Vorbereitungsphase Inhalt von einer URL automatisch abzurufen</a> </li> 
      <li> Vollständig kompatible <a href="../../designing/using/using-reusable-content.md#content-templates">native Inhaltsvorlagen</a>. </li> 
     </ul> 
-    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=de">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de">Seite</a>.</p> </td> 
+    <p>Weiterführende Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">ausführlichen Dokumentation</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=de">diesem Video</a>. Unten finden Sie alle Verbesserungen und Fehlerkorrekturen.</p><p>Aus diesem Grund wird der bisherige E-Mail-Inhaltseditor eingestellt. Weiterführende Informationen dazu finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Seite</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Produktlisten in Transaktions-E-Mails<br /> </td> 
