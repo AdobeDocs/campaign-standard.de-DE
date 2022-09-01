@@ -1,16 +1,14 @@
 ---
 title: Versionshinweise 2017
 description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard von 2017 und aufgelistet.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: ht
-source-wordcount: '4678'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -370,7 +368,7 @@ _Integrationen_
 
 _Audiences und Abfragen_
 
-* Fehlerkorrektur – Summen- und Durchschnitts-Aggregate für eine Kollektion können jetzt im Abfrageeditor verwendet werden.
+* Fehlerkorrektur – Summen- und Durchschnitts-Aggregate für eine Sammlung können jetzt im Abfrageeditor verwendet werden.
 * Fehlerkorrektur – der Abfrageeditor kann jetzt nach der Änderung der Filterressource erneut geladen werden.
 
 _Berichte_
