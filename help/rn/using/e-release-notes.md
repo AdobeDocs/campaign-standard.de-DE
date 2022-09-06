@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 3f9adbf4e8c9066b1954a1443654d82ee7b53fea
+source-git-commit: 93f1a6cb0727859f3c3f645366a9d2dc25795a79
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 20%
+source-wordcount: '183'
+ht-degree: 19%
 
 ---
 
@@ -23,8 +23,7 @@ Auf dieser Seite werden Verbesserungen und Fehlerbehebungen beschrieben, die in 
 >
 > Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
 
-## Version 22.3 – September 2022 {#e-rn-2022}
-
+## Version 22.3 - Herbst/Winter 2022 {#e-rn-2022}
 
 ### Verbesserung{#e-rn-improvements}
 

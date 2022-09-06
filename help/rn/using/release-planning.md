@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
+source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen.
 
-## Version 22.3 – September 2022 {#release-22-3-release}
+## Version 22.3 - Herbst/Winter 2022 {#release-22-3-release}
 
 Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
@@ -34,18 +34,18 @@ Weitere Informationen über diese Version finden Sie in den [vorzeitigen Version
 <table>
  <thead>
   <tr>
-   <th> Umgebung<br /> </th>
+   <th> Umgebungen<br /> </th>
    <th> Datumsangaben<br /> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>6.-7. September 2022<br /> </td>
+   <td>8. September 2022 - Anfang 2023<br /> </td>
   </tr>
   <tr>
    <td>Produktion<br /> </td>
-   <td>13.-29. September 2022<br /> </td>
+   <td>15. September 2022 - Anfang 2023<br /> </td>
   </tr>
  </tbody>
 </table>
