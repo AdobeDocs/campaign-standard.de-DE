@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '963'
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ Weitere Informationen zum Erstellen von **Zugriffs-** und **Löschanfragen** und
 Zusätzlich zu den neuen Funktionen für das **Recht auf Zugriff** und das **Recht auf Vergessenwerden** bietet Adobe Campaign weitere für den Datenschutz wichtige Funktionen:
 
 * [Einverständnisverwaltung](#consent-management): Abonnement-Funktion für die Verwaltung von Einstellungen
-* [Datenbeibehaltung](#data-retention): Fristen für die Datenbeibehaltung für alle Standard-Log-Tabellen; zusätzliche Fristen für die Datenbeibehaltung können mit Workflows eingerichtet werden
+* [Datenbeibehaltung](../../administration/using/data-retention.md): Fristen für die Datenbeibehaltung für alle Standard-Log-Tabellen; zusätzliche Fristen für die Datenbeibehaltung können mit Workflows eingerichtet werden
 * [Berechtigungs-Management](#rights-management): Der Datenzugriff wird über spezifische Berechtigungen verwaltet
 
 ### Einverständnisverwaltung {#consent-management}
@@ -95,27 +95,6 @@ Die Funktionen, die bei der Verwaltung bestimmter Aspekte des Einverständnisses
 Weitere Informationen zur Einverständnisverwaltung finden Sie unter [Informationen zu Abonnements](../../audiences/using/about-subscriptions.md) und [Erste Schritte mit Landingpages](../../channels/using/getting-started-with-landing-pages.md).
 
 Zusätzlich zu den von Adobe Campaign bereitgestellten Tools für die Einverständnisverwaltung können Sie verfolgen, ob ein Benutzer dem Verkauf seiner personenbezogenen Daten widersprochen hat. Siehe [diesen Abschnitt](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
-
-### Datenbeibehaltung {#data-retention}
-
-Die nativen Log-Tabellen in Campaign verfügen über eine vordefinierte Beibehaltungsdauer, die üblicherweise auf maximal sechs Monate begrenzt ist.
-
-Im Folgenden finden Sie die standardmäßige Beibehaltungsdauer für Standardtabellen. Beachten Sie, dass diese Beibehaltungswerte von den technischen Adobe-Administratoren während der Implementierung festgelegt werden und daher je nach Kundenanforderungen variieren können.
-
-* **Konsolidiertes Tracking**: 6 Monate
-* **Versandlogs**: 6 Monate
-* **Trackinglogs**: 6 Monate
-* **Ereignisse**: 1 Monat
-* **Statistiken zur Ereignisverarbeitung**: 6 Monate
-* **Ereignisse mit Verlauf**: 6 Monate
-* **Vorläufige Entitäten**: 7 Tage
-* **Ignorierte Pipeline-Ereignisse**: 1 Monat
-* **Versandwarnungen**: 1 Monat
-* **Export-Audit**: 6 Monate
-
-Ähnlich wie beim Löschvorgang kann auch mithilfe von Standard-Workflow-Funktionen die Beibehaltungsdauer für benutzerdefinierte Tabellen festgelegt werden.
-
-Wenden Sie sich an einen Adobe-Berater oder technischen Administrator, um mehr über die Beibehaltung zu erfahren oder um festzustellen, ob Sie eine Beibehaltung für benutzerdefinierte Tabellen festlegen müssen.
 
 ### Rights Management {#rights-management}
 
