@@ -8,18 +8,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '5302'
+source-wordcount: '5272'
 ht-degree: 100%
 
 ---
 
 # Versionshinweise 2020{#release-notes-2020}
 
-[Versionsplanung](https://helpx.adobe.com/de/campaign/kb/acs-release-planning.html) | [Control Panel-Versionen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2019.md) | [Eingestellte Funktionen](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de)
-
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
 ![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
@@ -165,19 +163,19 @@ ht-degree: 100%
 * Fehlerkorrektur – In einem Workflow kann jetzt die Aktivität **Audience lesen** mit einer Audience mit einer anderen Zielgruppendimension als **Profil** verwendet werden. (CAMP-41885)
 * Fehlerkorrektur – Wenn der technische Workflow **updateEventsStatus** zum Abrufen des Ereignisverlaufs zu lange benötigt (wenn der Workflow angehalten wird), treten keine Fehler mehr auf. Das nicht verwendete Aggregatfeld &quot;sumQueueTime&quot; wurde aus dem Workflow entfernt, um das Problem zu lösen. (CAMP-43920)
 * Fehlerkorrektur – Bei der Bereitstellung benutzerdefinierter Ressourcen treten keine Speicherprobleme mehr auf. (CAMP-42909)
-* Fehlerkorrektur – Wenn Attribute in Kollektionen fehlen, treten in Transaktionsnachrichten keine Fehler mehr auf. Jetzt werden alle fehlenden Attribute mit einem Standardwert definiert und in die Payload aufgenommen. (CAMP-42882)
+* Fehlerkorrektur – Wenn Attribute in Sammlungen fehlen, treten in Transaktionsnachrichten keine Fehler mehr auf. Jetzt werden alle fehlenden Attribute mit einem Standardwert definiert und in die Payload aufgenommen. (CAMP-42882)
 * Fehlerkorrektur – Die Leistung bei Abfragen von Versandlogs der Echtzeit-Ereignisse wird nicht mehr beeinträchtigt. (CAMP-42759)
 * Fehlerkorrektur – Dateierweiterungen in Großbuchstaben können jetzt mit freigegebenen Assets verwendet werden. (CAMP-44159)
 * Fehlerkorrektur – Die Verbindung zu einem externen Konto kann nicht mehr vor dessen Erstellung getestet werden. Die Schaltfläche **Verbindung testen** wird jetzt erst nach Erstellung des externen Kontos angezeigt.
 * Fehlerkorrektur – Nach dem Neustart des erweiterten MTA bei Instanzen mit Sharding-Konfiguration werden Nachrichten nicht mehr als ausstehend angezeigt.
 * Fehlerkorrektur – Die Anzahl der aktiven Profile stimmt jetzt mit der tatsächlichen Anzahl der ausgeführten Sendungen überein.
-* Fehlerkorrektur – Beim Suchen nach Ressourcen in einem Workflow im Abfrageeditor treten keine Latenzzeiten mehr auf.
+* Fehlerkorrektur – Beim Suchen nach Ressourcen in einem Workflow im Abfrageeditor treten keine Latenzen mehr auf.
 * Fehlerkorrektur – Bei der Auswahl der Option **Bei der Textsuche berücksichtigte Felder definieren** in einer benutzerdefinierten Ressource treten kein Fehler mehr auf. Wenn die Liste des Felds leer gelassen wurde, schlug die Veröffentlichung der benutzerdefinierten Ressource fehl.
 * Fehlerkorrektur – Beim Anzeigen der Übersicht über benutzerdefinierte Ressourcen mit einem großen Datenvolumen treten keine Leistungsprobleme mehr auf.
 * Fehlerkorrektur – Es ist jetzt möglich, einen Versand mit Profilersetzungen zu importieren.
 * Fehlerkorrektur – Wenn die Profilersetzung verwendet wird, können jetzt Testsendungen sofort ausgeführt werden, wenn der Versand geplant ist.
 * Fehlerkorrektur – Beim Hochladen eines Android-Schlüssels für eine mobile App wurde ein Fehler behoben. In der Meldung, die nach dem erfolgreichen Hochladen des Schlüssels angezeigt wurde, wurde der Wert des vorherigen Schlüssels angezeigt.
-* Fehlerkorrektur – Es können jetzt Testprofile von Transaktionsnachrichten erstellt werden, nachdem eine Ereigniskonfiguration mit einer Kollektion ohne Attribute erstellt wurde.
+* Fehlerkorrektur – Es können jetzt Testprofile von Transaktionsnachrichten erstellt werden, nachdem eine Ereigniskonfiguration mit einer Sammlung ohne Attribute erstellt wurde.
 * Fehlerkorrektur – Benutzerdefinierte Ressourcen können jetzt veröffentlicht werden, nachdem ein neuer Filter mit einem Aggregat erstellt wurde.
 * Fehlerkorrektur – Die Öffnungsrate für Gmail-Empfänger wird jetzt korrekt getrackt. Dieser Fehler wurde durch den Gmail Image Proxy verursacht.
 * Fehlerkorrektur – Beim Importieren von Packages treten keine Fehler wegen zu wenig Arbeitsspeicher mehr auf.
@@ -348,7 +346,7 @@ ht-degree: 100%
 * HTML-Tags werden jetzt nicht mehr in der E-Mail angezeigt, wenn von HTML-Inhalten auf Nur-Text umgestellt wird. (CAMP-41138)
 * Das Rendering von Schaltflächen ist jetzt auch mit nur einem definierten Rand möglich.
 * Beim HTML-Einzug wird jetzt die Fußzeile von E-Mails in Microsoft Outlook nicht mehr nach links verschoben. (CAMP-40987)
-* Personalisierungsfelder, die ein in HTML definiertes Kollektionsattribut verwenden, werden jetzt beim Wechsel zum Nur-Text-Modus nicht mehr in den Nur-Text-Inhalt kopiert. (CAMP-40365)
+* Personalisierungsfelder, die ein in HTML definiertes Sammlungsattribut verwenden, werden jetzt beim Wechsel zum Nur-Text-Modus nicht mehr in den Nur-Text-Inhalt kopiert. (CAMP-40365)
 * Links können jetzt in ein ausgewähltes Textsegment eingefügt wurden. (CAMP-41406)
 * Beim Auswählen einer Zeitzone im Abfrageeditor wird jetzt das Datum geändert. (CAMP-38277)
 

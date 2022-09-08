@@ -8,17 +8,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
-workflow-type: ht
-source-wordcount: '4587'
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+workflow-type: tm+mt
+source-wordcount: '4569'
 ht-degree: 100%
 
 ---
 
 # Versionshinweise 2021{#release-notes-2021}
-
-[Versionsplanung](../../rn/using/release-planning.md) | [Control Panel-Versionen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2020.md) | [Eingestellte Funktionen](../../rn/using/deprecated-features.md)
-
 
 ## Version 21.3 – September 2021 {#release-21-3---sept-2021}
 
@@ -417,7 +414,7 @@ Im Folgenden finden Sie die in der kommenden Campaign Standard-Version enthalten
 * Fehlerkorrektur – Beim Hinzufügen eines Links zu einer Dateiimporttabelle tritt jetzt kein Fehler mehr auf. Nach dem Hinzufügen einer **Anreicherungs**-Aktivität zur **Dateiimport**-Aktivität verschwand der zuvor konfigurierte Link. (CAMP-46557)
 * Fehlerkorrektur – Die Verwendung benutzerdefinierter Ressourcen, die mit Profildaten verknüpft sind, führt jetzt nicht mehr dazu, dass die Anzeigereihenfolge auf dem **Detailkonfigurationsbildschirm** beim Speichern geändert wird. (CAMP-46312)
 * Fehlerkorrektur – Im dynamischen Reporting werden jetzt auch dann Daten angezeigt, wenn Sendungen vorhanden sind, die auf einem benutzerdefinierten Versand-Mapping basieren.
-* Fehlerkorrektur – Jetzt ist es möglich, eine Kollektion mit einem falschen Ressourcenziel in einer Workflow-**Abfrageaktivität** auszuwählen.
+* Fehlerkorrektur – Jetzt ist es möglich, eine Sammlung mit einem falschen Ressourcenziel in einer Workflow-**Abfrageaktivität** auszuwählen.
 * Fehlerkorrektur – Der InMail-Prozess validiert die Hardbounces jetzt richtig.
 * Fehlerkorrektur – Jetzt tritt beim Öffnen eines Profilbildschirms aufgrund eines Link-Fehlers kein Problem mehr auf.
 * Fehlerkorrektur – Das Löschen von DSGVO-Daten aus dem Bereinigungs-Workflow wird jetzt nicht mehr verhindert.

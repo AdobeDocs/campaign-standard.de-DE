@@ -4,16 +4,43 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
 # Versionshinweise 2022{#release-notes-2022}
 
-[Versionsplanung](../../rn/using/release-planning.md) | [Control Panel-Versionen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de) | [Aktualisierungen der Dokumentation](../../rn/using/documentation-updates.md) | [Frühere Versionshinweise](../../rn/using/release-notes-2020.md) | [Eingestellte Funktionen](../../rn/using/deprecated-features.md)
+## Version 22.2 – Juni 2022 {#june-2022}
+
+**Verbesserungen**
+
+* **Adobe Notification Service** - Campaign wird mit dem Adobe Notification Service geliefert, der es Experience Cloud-Lösungen ermöglicht, Nutzer/innen in der gesamten Experience Cloud über Aktivitäten zu informieren, die für sie wichtig sind. Ab Version 22.2 wurde das Nutzererlebnis verbessert: Benachrichtigungen werden priorisiert und produkterzeugte Benachrichtigungen werden von Adobe-Statusmeldungen getrennt. Wenn sich die Benachrichtigung auf einen bestimmten Workflow bezieht, kannst du jetzt auch direkt aus der E-Mail oder der produktinternen Benachrichtigung auf den entsprechenden Workflow zugreifen.  Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **Barrierefreiheit** – Adobe hat viele Fehlerbehebungen vorgenommen, um die Benutzerfreundlichkeit der Anwendung zu erhöhen. Diese Funktionen sind derzeit nur für eine Reihe früherer Anwender verfügbar und werden in zukünftigen Versionen für alle Kunden eingeführt. Beispiele für Verbesserungen bei der Barrierefreiheit:
+
+   * Sicherstellen, dass auf jedem Bildschirm eine sichtbare Fokusanzeige für fokussierbare Elemente vorhanden ist
+   * Erstellen von Seitenmarkierungen für eine einfachere Navigation
+   * Hinzufügen von Name, Rolle, Wert und Status für viele Steuerelemente
+   * Beheben von Problemen mit der dynamischen Fokusreihenfolge auf Hauptbildschirmen
+
+
+**Patches**
+
+* Fehlerkorrektur: Der technische Workflow für die Rechnungsstellung funktioniert jetzt einwandfrei. (CAMP-51029)
+* Fehlerkorrektur: Die fehlende Microsoft Edge-Browser-Kategorie wurde in Tracking-Berichten hinzugefügt. Sie wurde zuvor mit Microsoft Chrome-Öffnungen kategorisiert. (CAMP-51165)
+* Fehlerkorrektur: Es wurde ein Problem mit DSGVO-Anfragen behoben, bei dem Daten aus untergeordneten Tabellen nicht gelöscht wurden. (CAMP-48276)
+* Fehlerkorrektur: Die Sichtbarkeitsbedingung eines Fragments in einer Transaktionsnachrichtenvorlage wird jetzt in Email Designer gespeichert. (CAMP-50338)
+* Fehlerkorrektur: Es wurde ein Fehler in Campaign-Berichten behoben, der dazu führte, dass der Datumsbereich nicht berücksichtigt wurde. (CAMP-50991)
+* Fehlerkorrektur: Geplante E-Mails schlagen nun nicht mehr fehl. Zuvor konnte die Versandanalyse nicht gestartet werden, da der Versand noch den Status &quot;Erneuter Versuch steht aus&quot; aufwies. (CAMP-50302)
+* Fehlerkorrektur: In Email Designer tritt jetzt kein Fehler mehr auf, wenn eine E-Mail mit einer Profilersetzung in der Vorschau angezeigt wird. (CAMP-49312)
+* Fehlerkorrektur: Es wurde ein Problem mit einem leerem Wert in benutzerdefinierten Auflistungen behoben: Wenn Sie eine benutzerdefinierte Ressource mit einem Feld erstellen, das eine Textauflistung darstellt und nur einen Wert enthält, wird dieser Wert jetzt standardmäßig festgelegt, sodass Sie eine Abfrage für dieses Feld als einfache Anfrage erstellen können. (CAMP-50606)
 
 
 ## Version 22.1 – Februar 2022 {#feb-2022}

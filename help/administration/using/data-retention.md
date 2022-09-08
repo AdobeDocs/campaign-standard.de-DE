@@ -6,18 +6,34 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 88%
 
 ---
 
 # Datenbeibehaltung{#data-retention}
 
-Die vordefinierte Beibehaltungsdauer von Standard-Protokolltabellen in Campaign beträgt normalerweise maximal 6 Monate.
+Standard-Log-Tabellen in Campaign verfügen über vordefinierte Beibehaltungszeiträume, die die Dauer ihrer Datenspeicherung einschränken.
 
 Im Folgenden finden Sie die standardmäßige Dauer der Beibehaltung für Standardtabellen. Beachten Sie, dass diese Beibehaltungswerte von den technischen Adobe-Administratoren während der Implementierung festgelegt werden und daher je nach Kundenanforderungen variieren können.
+
++++[!DNL Campaign Standard] 22.3 oder höher
+
+* **Konsolidiertes Tracking**: 1 Monate
+* **Versandlogs**: 1 Monate
+* **Trackinglogs**: 1 Monate
+* **Ereignisse**: 1 Monat
+* **Statistiken zur Ereignisverarbeitung**: 1 Monate
+* **Ereignisse mit Verlauf**: 1 Monate
+* **Vorläufige Entitäten**: 7 Tage
+* **Ignorierte Pipeline-Ereignisse**: 1 Monat
+* **Versandwarnungen**: 1 Monat
+* **Export-Audit**: 1 Monate
++++
+
++++ Vorherige [!DNL Campaign Standard] builds
 
 * **Konsolidiertes Tracking**: 6 Monate
 * **Versandlogs**: 6 Monate
@@ -29,6 +45,7 @@ Im Folgenden finden Sie die standardmäßige Dauer der Beibehaltung für Standar
 * **Ignorierte Pipeline-Ereignisse**: 1 Monat
 * **Versandwarnungen**: 1 Monat
 * **Export-Audit**: 6 Monate
++++
 
 Die Beibehaltungsdauer für benutzerdefinierte Tabellen kann mithilfe standardmäßiger Workflow-Funktionen festgelegt werden.
 

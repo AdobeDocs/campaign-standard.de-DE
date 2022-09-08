@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 163cd5bf2091a4655bf1bc2c733fdaa4757b3f36
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 31%
 
 ---
 
@@ -18,30 +18,16 @@ ht-degree: 100%
 ![Control Panel](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version**. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de){target=&quot;_blank&quot;}.
 
 
-## Version 22.2 – Juni 2022 {#june-2022}
+## Version 22.3 – September 2022 {#sept-22}
 
-**Verbesserungen**
+### Sicherheitsupdate{#rn-security}
 
-* **Adobe Notification Service** - Campaign wird mit dem Adobe Notification Service geliefert, der es Experience Cloud-Lösungen ermöglicht, Nutzer/innen in der gesamten Experience Cloud über Aktivitäten zu informieren, die für sie wichtig sind. Ab Version 22.2 wurde das Nutzererlebnis verbessert: Benachrichtigungen werden priorisiert und produkterzeugte Benachrichtigungen werden von Adobe-Statusmeldungen getrennt. Wenn sich die Benachrichtigung auf einen bestimmten Workflow bezieht, kannst du jetzt auch direkt aus der E-Mail oder der produktinternen Benachrichtigung auf den entsprechenden Workflow zugreifen.  Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+Diese Version umfasst die folgende Sicherheitsaktualisierung: Apache Tomcat wurde von v7.0 auf v8.0 aktualisiert.
 
-* **Optimierung beim Workflow-Start** – Adobe hat eine neue Funktion hinzugefügt, mit der die Anzahl der Workflows angepasst werden kann, die etwa zur selben Zeit beginnen. Dadurch würden sich CPU-Spitzen vermeiden lassen, die ggf. zu Service-Unterbrechungen oder Ausfallzeiten geführt hätten. Adobe würde die Funktion nach Version 22.2 aktivieren. Es gibt kein weiteres Aktionselement für den Kunden diesbezüglich.
+### Fehlerbehebungen{#e-rn-fixes}
 
-* **Barrierefreiheit** – Adobe hat viele Fehlerbehebungen vorgenommen, um die Benutzerfreundlichkeit der Anwendung zu erhöhen. Diese Funktionen sind derzeit nur für eine Reihe frühzeitiger Anwender verfügbar und werden in der ACS-Version 22.3 für alle Kunden eingeführt. Beispiele für Verbesserungen bei der Barrierefreiheit:
-
-   * Sicherstellen, dass auf jedem Bildschirm eine sichtbare Fokusanzeige für fokussierbare Elemente vorhanden ist
-   * Erstellen von Seitenmarkierungen für eine einfachere Navigation
-   * Hinzufügen von Name, Rolle, Wert und Status für viele Steuerelemente
-   * Beheben von Problemen mit der dynamischen Fokusreihenfolge auf Hauptbildschirmen
-
-
-**Patches**
-
-* Fehlerkorrektur: Der technische Workflow für die Rechnungsstellung funktioniert jetzt einwandfrei. (CAMP-51029)
-* Fehlerkorrektur: Die fehlende Microsoft Edge-Browser-Kategorie wurde in Tracking-Berichten hinzugefügt. Sie wurde zuvor mit Microsoft Chrome-Öffnungen kategorisiert. (CAMP-51165)
-* Fehlerkorrektur: Es wurde ein Problem mit DSGVO-Anfragen behoben, bei dem Daten aus untergeordneten Tabellen nicht gelöscht wurden. (CAMP-48276)
-* Fehlerkorrektur: Die Sichtbarkeitsbedingung eines Fragments in einer Transaktionsnachrichtenvorlage wird jetzt in Email Designer gespeichert. (CAMP-50338)
-* Fehlerkorrektur: Es wurde ein Fehler in Campaign-Berichten behoben, der dazu führte, dass der Datumsbereich nicht berücksichtigt wurde. (CAMP-50991)
-* Fehlerkorrektur: Geplante E-Mails schlagen nun nicht mehr fehl. Zuvor konnte die Versandanalyse nicht gestartet werden, da der Versand noch den Status &quot;Erneuter Versuch steht aus&quot; aufwies. (CAMP-50302)
-* Fehlerkorrektur: In Email Designer tritt jetzt kein Fehler mehr auf, wenn eine E-Mail mit einer Profilersetzung in der Vorschau angezeigt wird. (CAMP-49312)
-* Fehlerkorrektur: Es wurde ein Problem mit einem leerem Wert in benutzerdefinierten Auflistungen behoben: Wenn Sie eine benutzerdefinierte Ressource mit einem Feld erstellen, das eine Textauflistung darstellt und nur einen Wert enthält, wird dieser Wert jetzt standardmäßig festgelegt, sodass Sie eine Abfrage für dieses Feld als einfache Anfrage erstellen können. (CAMP-50606)
+* Es wurde ein Problem mit terminierten Berichten behoben, die eine Stunde vor dem geplanten Zeitpunkt ausgelöst wurden. (CAMP-51502)
+* Fehlerkorrektur - Die Versandindikatoren im Versand-Dashboard stimmen jetzt mit den Versandlogs überein (nms:broadLogRcp). (CAMP-51127)
+* Fehlerkorrektur - Die Erweiterung benutzerdefinierter Ressourcen mit ACS Connector (Prime-Angebot) ist jetzt möglich. (CAMP-51033)
+* Der Veröffentlichungsprozess für Antworten auf Datenschutzanfragen wurde verbessert, um Verzögerungen zu vermeiden. (CAMP-50613)
 
