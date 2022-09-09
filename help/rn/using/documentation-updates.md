@@ -5,16 +5,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
+source-git-commit: 5814bf107a252793911cd34c0dceed35ce58bf69
 workflow-type: tm+mt
-source-wordcount: '7258'
-ht-degree: 100%
+source-wordcount: '7288'
+ht-degree: 99%
 
 ---
 
 # Aktualisierungen der Dokumentation{#documentation-updates}
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
+
+## Version 22.3 - Herbst/Winter 2022 {#release-22-3}
+
+Versionshinweise für Campaign Standard 22.3 Version Herbst/Winter wurden veröffentlicht. [Weitere Informationen](release-notes.md)
+
+Die Aufbewahrungsfristen von Daten wurden aktualisiert, um Änderungen in Version 22.3 widerzuspiegeln. [Weitere Informationen](../../administration/using/data-retention.md)
+
 
 ## Version 22.2 – Juni 2022 {#release-22-2}
 
@@ -285,7 +292,7 @@ Best Practices für Transaktionsnachrichten und das Löschen nicht verwendeter E
 
 Der Abschnitt zum Konfigurieren des E-Mail-Kanals wurde aktualisiert und enthält nun Informationen zu allen E-Mail-Einstellungen, die jetzt vom erweiterten MTA von Adobe Campaign verwaltet werden – [Weitere Informationen](../../administration/using/configuring-email-channel.md)
 
-Der Abschnitt zu den Transaktionsnachrichten wurde aktualisiert und enthält nun weiterführende Informationen zu den Berechtigungen, die zum Bearbeiten von Ereigniskonfigurationen und zum Anreichern von Kollektionen in Transaktionsnachrichten erforderlich sind. [Weitere Informationen](../../channels/using/configuring-transactional-event.md)
+Der Abschnitt zu den Transaktionsnachrichten wurde aktualisiert und enthält nun weiterführende Informationen zu den Berechtigungen, die zum Bearbeiten von Ereigniskonfigurationen und zum Anreichern von Sammlungen in Transaktionsnachrichten erforderlich sind. [Weitere Informationen](../../channels/using/configuring-transactional-event.md)
 
 ## Version 20.2 – April 2020 {#release-20-2---april-2020}
 
@@ -538,7 +545,7 @@ Informationen zur neuen Sortieroption in der Aktivität **Dateitransfer** wurden
 Die [REST-APIs-Dokumentation](../../api/using/get-started-apis.md) wurde aktualisiert:
 
 * Ein neuer Abschnitt wurde hinzugefügt mit allgemeinen Informationen zur Verwendung von Campaign Standard-REST-APIs.
-* Eine Kollektion vordefinierter API-Anfragen für häufige Anwendungsfälle wurde bereitgestellt.
+* Eine Sammlung vordefinierter API-Anfragen für häufige Anwendungsfälle wurde bereitgestellt.
 * Ein neuer Abschnitt zur Verwaltung von Organisationseinheiten wurde hinzugefügt.
 * Informationen zur Erstellung eines Dienstes wurden hinzugefügt.
 * Informationen, wie ein Workflow mit Parametern ausgeführt werden kann, wurden hinzugefügt.
