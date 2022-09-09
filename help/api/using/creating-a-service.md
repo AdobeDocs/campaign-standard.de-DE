@@ -1,13 +1,13 @@
 ---
-title: Erstellen eines Service
+title: Erstellen eines Service mit APIs
 description: Erfahren Sie, wie Sie mit APIs einen Service erstellen können
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: ht
-source-wordcount: '75'
+source-git-commit: 02f1ef1f960cf98b5277b2db960e61ae20e22209
+workflow-type: tm+mt
+source-wordcount: '77'
 ht-degree: 100%
 
 ---
