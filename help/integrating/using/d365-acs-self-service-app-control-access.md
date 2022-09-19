@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ In diesem Abschnitt erfahren Sie, wie Sie Zugriff auf die Selfservice-Anwendung 
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-## Benutzern Zugriff gewähren {#add-users-to-profile}
+## Gewähren von Zugriff für Benutzende {#add-users-to-profile}
 
 Wählen Sie auf der Seite **[!UICONTROL Produkte]** Ihre Campaign-Instanz aus und führen Sie die folgenden Schritte aus:
 
