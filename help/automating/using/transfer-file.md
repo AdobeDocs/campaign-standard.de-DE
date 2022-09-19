@@ -145,9 +145,10 @@ Das Microsoft Azure Blob-Protokoll erlaubt Ihnen Zugriff auf einen Blob in einem
 ### Konfiguration mit Dateien, die auf dem Adobe Campaign-Server vorhanden sind {#files-server-configuration-wf}
 
 Das Protokoll **[!UICONTROL Auf dem Adobe Campaign-Server vorhandene Datei(en)]** entspricht dem Repository, das die abzurufenden Dateien enthält.
-Zur Filterung der Dateien ist die Verwendung von Platzhaltern oder Jokern (zum Beispiel * oder ?) möglich.
+Zur Filterung der Dateien ist die Verwendung von Metazeichen oder Platzhaltern (zum Beispiel &#42; oder ?) möglich.
 
-Entscheiden Sie, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL Dynamischen Dateipfad verwenden]** möchten. Mit der Option **[!UICONTROL Dynamischen Dateipfad verwenden]** können Sie einen Standardausdruck und Ereignisvariablen nutzen, um den Dateinamen für die Übertragung zu personalisieren. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../automating/using/customizing-workflow-external-parameters.md).
+Entscheiden Sie, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL dynamischen Dateipfad verwenden]** möchten. 
+Mit der Option **[!UICONTROL Dynamischen Dateipfad verwenden]** können Sie mit einem Standardausdruck und Ereignisvariablen den Dateinamen für die Übertragung personalisieren. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../automating/using/customizing-workflow-external-parameters.md).
 
 Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angegeben werden. Die Dateien befinden sich im Verzeichnis **sftp&lt;yourinstancename>/**. Darüber hinaus können dem Speicherort übergeordnete Verzeichnisse nicht durchsucht werden.
 
