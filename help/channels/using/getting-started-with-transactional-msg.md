@@ -10,9 +10,9 @@ role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Jeder dieser Schritte wird im Folgenden näher erläutert.
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| Ereignis erstellen | Benutzer | Aktion | Ergebnis |
+| Erstellen eines Ereignisses | Benutzer | Aktion | Ergebnis |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_config.svg" width="60px"> | Dieser Schritt muss von einem Administrator durchgeführt werden, der [Administratorrechte](../../administration/using/users-management.md#functional-administrators) besitzt. | Konfigurieren Sie ein Ereignis mit dem Namen „Warenkorbabbruch“ und veröffentlichen Sie diese Ereigniskonfiguration. | Die von Ihrem Website-Entwickler verwendete API wird bereitgestellt und eine Transaktionsnachricht automatisch erstellt. |
 
@@ -99,7 +99,7 @@ Das Erstellen und Veröffentlichen eines Ereignisses wird in den Abschnitten [Tr
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| Nachricht bearbeiten | Benutzer | Aktion | Ergebnis |
+| Bearbeiten der Nachricht | Benutzer | Aktion | Ergebnis |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | Dieser Schritt kann von einem Marketing-Benutzer durchgeführt werden, der [Administratorrechte](../../administration/using/users-management.md#functional-administrators) besitzt. | Bearbeiten und personalisieren Sie die Transaktionsnachricht, testen Sie sie und veröffentlichen Sie sie dann. | Die Transaktionsnachricht ist dann versandfertig. |
 
@@ -111,7 +111,7 @@ Weitere Informationen zum Bearbeiten und Veröffentlichen einer Transaktionsnach
 
 Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Ereignisses in Ihre Webseite integriert werden.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.-->**Zu diesem Zweck muss der Web-Entwickler Ihrer Seite die Adobe Campaign Standard-REST-API verwenden**.
 
-| Implementieren des Triggers | Benutzer | Aktion | Ergebnis |
+| Implementieren des Auslösers | Benutzer | Aktion | Ergebnis |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_api.svg" width="55px"> | Dieser Schritt wird vom Entwickler Ihrer Website ausgeführt. | Verwenden Sie die REST-Transaktionsnachrichten-API, um das Ereignis in Ihre Website zu integrieren. | Das Ereignis wird ausgelöst, wenn ein Kunde seinen Warenkorb abbricht. |
 
@@ -121,11 +121,11 @@ Weitere Informationen zur Verwendung der Campaign REST-API zum Verwalten von Tra
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-Sobald alle oben genannten Schritte ausgeführt wurden, kann die Nachricht gesendet werden.
+Sobald alle oben genannten Schritte ausgeführt wurden, kann die Nachricht versendet werden.
 
-| Nachricht senden | Benutzer | Aktion | Ergebnis |
+| Versenden der Nachricht | Benutzer | Aktion | Ergebnis |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Dieser Schritt wird von Kunden ausgeführt, die Ihre Website besuchen. | Sobald ein Benutzer die Website verlässt, ohne die Produkte in seinem Warenkorb zu bestellen, wird das entsprechende Campaign-Ereignis ausgelöst. | Der Benutzer erhält automatisch eine Benachrichtigungs-E-Mail. |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Dieser Schritt wird von den Kunden ausgeführt, die Ihre Website besuchen. | Sobald ein Benutzer oder eine Benutzerin die Website verlässt, ohne die Produkte in seinem/ihrem Warenkorb zu bestellen, wird das entsprechende Campaign-Ereignis ausgelöst. | Der Benutzer erhält automatisch eine Benachrichtigungs-E-Mail. |
 
 ## Verwandte Themen
 
