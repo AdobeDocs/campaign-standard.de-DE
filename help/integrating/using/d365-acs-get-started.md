@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Die wichtigsten Vorteile sind:
 >
 >Diese Integration verwendet Dynamics 365 als &quot;Source of Truth&quot; für die Synchronisation von Kontakten und benutzerdefinierten Entitäten.  Änderungen an synchronisierten Attributen sollten in Dynamics 365 und nicht in Adobe Campaign Standard vorgenommen werden.  Wenn Änderungen in Campaign vorgenommen werden, kann es sein, dass sie bei der Synchronisation wieder überschrieben werden.
 
-## Wichtige Schritte zum Implementieren der Integration mit Microsoft Dynamics 365 {#request-and-implement-this-integration}
+## Wichtige Schritte zum Implementieren der Integration mit Microsoft Dynamics 365{#request-and-implement-this-integration}
 
 Um diese Integration bereitzustellen, müssen Sie die folgenden Schritte ausführen.
 
@@ -77,7 +77,7 @@ Details des Flussdiagramms (sind mit den oben genannten Schritten verknüpft):
    >
    > Wenn Sie die Opt-out-Konfiguration &quot;bidirektional“ oder &quot;Synchronisation von Campaign mit Dynamics 365&quot; benötigen, müssen Sie die Anfrage an Ihren technischen Ansprechpartner bei Adobe stellen, damit die Opt-out-Workflows in Ihrer Campaign-Instanz eingerichtet werden können. [Weitere Informationen](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
-### Diese Integration konfigurieren {#configure-this-integration}
+### Konfigurieren dieser Integration {#configure-this-integration}
 
 Drei Systeme müssen für diese Integration bereitgestellt und konfiguriert werden:
 
