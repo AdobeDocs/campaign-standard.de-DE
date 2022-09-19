@@ -1,5 +1,5 @@
 ---
-title: 'Erste Schritte mit dem Integrations-Tool '
+title: Erste Schritte mit dem Integrations-Tool
 description: Erste Schritte mit dem Integrations-Tool
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Weitere Informationen finden Sie in den folgenden Abschnitten:
 * [Erste Schritte mit der Integration von Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Best Practices und Einschränkungen bei der Integration](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Wichtige Schritte zur Implementierung dieser Integration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
-* [Integration mit Microsoft Dynamics 365 verwenden](../../integrating/using/d365-acs-using-the-integration.md)
+* [Verwenden der Integration mit Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## Voraussetzungen {#self-service-app-prerequisites}
 
@@ -37,20 +37,20 @@ Sie müssen Microsoft Dynamics 365 und Adobe Campaign Standard so konfigurieren,
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-* [Microsoft Dynamics 365 für die Integration mit Campaign konfigurieren](../../integrating/using/d365-acs-configure-d365.md)
-* [Adobe I/O konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md)
-* [Benutzerdefinierte Campaign-Ressourcen und benutzerdefinierte Microsoft Dynamics 365-Entitäten zuordnen](../../integrating/using/d365-acs-notices-and-recommendations.md)
+* [Konfigurieren von Microsoft Dynamics 365 für die Integration mit Campaign](../../integrating/using/d365-acs-configure-d365.md)
+* [Konfigurieren von Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [Zuordnen von benutzerdefinierten Campaign-Ressourcen und benutzerdefinierten Microsoft Dynamics 365-Entitäten](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## Wichtige Schritte zum Konfigurieren der Selfservice-Integrationsanwendung {#self-service-app-configuration-steps}
 
 Anschließend können Sie mit der Verwendung des Integrations-Tools beginnen. Gehen Sie wie folgt vor:
 
-1. [Zugriff auf die Integrationsanwendung erhalten](../../integrating/using/d365-acs-self-service-app-control-access.md)
-1. [Integrationsanwendung für Ihre Verwendung konfigurieren](../../integrating/using/d365-acs-self-service-app-settings.md)
-1. [Datensynchronisation implementieren](../../integrating/using/d365-acs-self-service-app-data-sync.md)
-1. [Synchronisations-Workflows konfigurieren](../../integrating/using/d365-acs-self-service-app-workflows.md)
+1. [Zugriff auf die Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-control-access.md)
+1. [Konfigurieren der Integrationsanwendung für Ihre Verwendung](../../integrating/using/d365-acs-self-service-app-settings.md)
+1. [Implementieren der Datensynchronisation](../../integrating/using/d365-acs-self-service-app-data-sync.md)
+1. [Konfigurieren von Synchronisations-Workflows](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
-## Verknüpfung mit der Integrationsanwendung herstellen {#self-service-app-link}
+## Herstellen einer Verknüpfung mit der Integrationsanwendung {#self-service-app-link}
 
 Öffnen Sie einen Browser und navigieren Sie zum Connector, der mit Ihrer Region verknüpft ist:
 
@@ -63,7 +63,7 @@ Anschließend können Sie mit der Verwendung des Integrations-Tools beginnen. Ge
 Wenn Sie die Selfservice-Benutzeroberfläche zum ersten Mal aufrufen, wird Ihnen eine Datenschutzbestätigung angezeigt. Sie müssen jeweils bestätigen, dass Sie Ihre Rolle bei der Durchführung von Datenschutzanfragen in Campaign und Microsoft Dynamics 365 verstehen, bevor Sie fortfahren können.
 In [diesem Abschnitt](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy) erfahren Sie mehr über Ihre Verantwortung für den Datenschutz und darüber, wie Sie Datenschutzanfragen verwalten können.
 
-## Ihre Zugangsdaten einrichten {#self-service-app-credentials}
+## Einrichten Ihrer Zugangsdaten {#self-service-app-credentials}
 
 Wenn Sie die Benutzeroberfläche zum ersten Mal aufrufen, sollten Sie folgende Seite mit einer Kopfzeile sehen:
 
@@ -90,7 +90,7 @@ Füllen Sie auf der Seite **[!UICONTROL Einstellungen]** die folgenden Abschnitt
 
 [Hier](../../integrating/using/d365-acs-self-service-app-settings.md) erfahren Sie, wo die Informationen für die einzelnen Eingaben zu finden sind. Wenn Sie fertig sind, klicken Sie unten auf die Schaltfläche **[!UICONTROL Speichern]**.
 
-## Erstkonfiguration prüfen {#self-service-app-initial-config}
+## Prüfen der Erstkonfiguration {#self-service-app-initial-config}
 
 Wenn Sie die obigen Voraussetzungen erfüllt und Ihre Zugangsdaten korrekt hinzugefügt haben, können Sie mit der Seite **[!UICONTROL Workflows]** fortfahren. Weitere Informationen zu den Workflows der Integrationsanwendung finden Sie auf [dieser Seite](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
