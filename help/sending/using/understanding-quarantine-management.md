@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1309'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->Mit zunehmendem Alter der Datenbank steigt auch die Zahl der Adressen in Quarantäne. Wenn man beispielsweise davon ausgeht, dass eine E-Mail-Adresse eine Lebensdauer von etwa drei Jahren hat und dass die Empfängertabelle pro Jahr um 50 % wächst, lässt sich der Quarantänezuwachs wie folgt berechnen: Ende von Jahr 1: (1*0,33)/(1+0,5)=22 %. Ende von Jahr 2: ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+>Mit zunehmendem Alter der Datenbank steigt auch die Zahl der Adressen in Quarantäne. Wenn man beispielsweise davon ausgeht, dass eine E-Mail-Adresse eine Lebensdauer von etwa drei Jahren hat und dass die Empfängertabelle pro Jahr um 50 % wächst, lässt sich der Quarantänezuwachs wie folgt berechnen: Ende 1. Jahr: (1&#42;0,33)/(1 + 0,5) = 22 %. Ende 2. Jahr: ((1,22 &#42; 0,33) + 0,33) / (1,5 + 0,75) = 32,5 %.
 
 Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können. Sie können nach Adresse, Status und/oder Kanal filtern.
 
@@ -104,6 +104,7 @@ Bei Bedarf können Sie eine Adresse manuell aus der Quarantäneliste entfernen. 
 Führen Sie einen der folgenden Schritte aus, um eine Adresse manuell aus der Quarantäneliste zu entfernen.
 
 >[!IMPORTANT]
+>
 >Das manuelle Löschen einer E-Mail-Adresse aus der Quarantäne bedeutet, dass Sie den Versand an diese Adresse wieder aufnehmen. Dies kann sich daher erheblich auf Ihre Zustellbarkeit und IP-Reputation auswirken und letztendlich dazu führen, dass Ihre IP-Adresse oder Versand-Domain blockiert wird. Gehen Sie besonders vorsichtig vor, wenn Sie erwägen, eine Adresse aus der Quarantäne zu nehmen. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
 
 * Wählen Sie die Adresse aus der Liste **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]** aus und klicken Sie auf **[!UICONTROL Element löschen]**.
@@ -125,6 +126,7 @@ In den folgenden Fällen werden die Adressen automatisch aus der Quarantänelist
 Ihr Status ändert sich dann in **[!UICONTROL Gültig]**.
 
 >[!IMPORTANT]
+>
 >Empfänger mit einer Adresse in **[!UICONTROL Quarantäne]** oder dem Status **[!UICONTROL Auf Blockierungsliste]** werden niemals automatisch entfernt, auch wenn sie eine E-Mail empfangen.
 
 Die maximale Anzahl erneuter Zustellversuche im Status **[!UICONTROL Mit Fehlern]** und das Mindestintervall zwischen den erneuten Zustellversuchen basieren nun sowohl auf der historischen als auch der aktuellen Leistung einer IP-Adresse bei einer bestimmten Domain.
@@ -145,6 +147,7 @@ Adobe Campaign verwaltet Quarantänen entsprechend dem Fehlertyp und dem Grund, 
 Wenn ein Benutzer eine E-Mail als Spam kennzeichnet ([Feedback Loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=de#feedback-loops)), wird die Nachricht automatisch an ein von Adobe verwaltetes technisches Postfach weitergeleitet. Die E-Mail-Adresse des Benutzers wird dann automatisch unter Quarantäne gestellt und der Status in **[!UICONTROL Auf Blockierungsliste]** geändert. Der Status bezieht sich ausschließlich auf die Adresse und das Profil wird nicht auf die Blockierungsliste gesetzt, sodass der Empfänger nach wie vor SMS-Nachrichten und Push-Benachrichtigungen erhält.
 
 >[!NOTE]
+>
 >Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
 
 Bei Adressen in Quarantäne (siehe [Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-the-entire-platform)) zeigt das Feld **[!UICONTROL Fehlerursache]** an, warum die Quarantäne ausgelöst wurde.
