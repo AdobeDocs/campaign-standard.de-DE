@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ Sie können die **Versandlogs** extrahieren, um zu vergleichen, wie sich die Kon
 
 >[!IMPORTANT]
 >
->Für den Zugriff auf Versandlogs benötigen Sie eine [Administratorrolle](../../administration/using/users-management.md#functional-administrators) und als Teil der **[!UICONTROL Alle]** [Organisationseinheit](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>Für den Zugriff auf Versandlogs müssen Sie eine [Administratorrolle](../../administration/using/users-management.md#functional-administrators) haben und Teil der [Organisationseinheit](../../administration/using/organizational-units.md) **[!UICONTROL Alle]** sein. <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Versandlogs überprüfen {#checking-logs}
 
