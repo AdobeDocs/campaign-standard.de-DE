@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5413'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td> Integration von Adobe Launch für Mobile Apps (Betaversion)<br /> </td> 
-   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,7 +130,7 @@ ht-degree: 99%
 **Korrekturen**
 
 * Fehlerkorrektur – bei der Verwendung des Filters &quot;Nach E-Mail&quot; werden jetzt Ergebnisse ausgegeben. (CAMP-23420)
-* Fehlerkorrektur - Standardbenutzer können jetzt auf bestimmte Funktionen oder Bildschirme zugreifen, die auf Administratoren beschränkt sind (/rest/head/&#42; -Endpunkte, Transaktionsnachrichten-Bildschirme, Profile und Zielgruppen-Importbildschirme).
+* Fehlerkorrektur – Jetzt können keine Standardbenutzenden mehr auf bestimmte Funktionen oder Bildschirme zugreifen, die Administrierenden vorbehalten sind (/rest/head/&#42;-Endpunkte, Bildschirme für Transaktionsnachrichten sowie Profil- und Audience-Importe).
 * Fehlerkorrektur – in DSGVO-Löschanfragen können jetzt benutzerdefinierte Ressourcen auch dann bearbeitet werden, wenn deren Name mit einer Zahl beginnt.
 * Fehlerkorrektur – mit der Audience-Speicherungsaktivität können jetzt in Adobe Experience Cloud App-Abonnenten freigegeben werden.
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr in der Dateiübertragungsaktivität auf, wenn der Dateiname Leerzeichen enthält. (CAMP-25936)
@@ -297,7 +297,7 @@ _Benutzerdefinierte Ressourcen_
     <ul> 
      <li> Recht auf Zugriff: Die betroffene Person hat das Recht, eine Kopie seiner personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, zu erhalten. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
      <li> Recht auf Löschung: Die betroffene Person hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
-    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer für E-Mail (Betaversion)<br /> </td> 
