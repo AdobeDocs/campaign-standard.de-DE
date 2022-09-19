@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1944'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Hier finden Sie eine Beschreibung der einzelnen Spalten in dieser Tabelle:
       > Es wird dringend empfohlen, den Integrations-Workflow anzuhalten, wenn Sie Änderungen in Adobe Campaign Standard oder Microsoft Dynamics 365 veröffentlichen. Zu diesen Änderungen gehören Aktualisierungen von Ressourcen/Entitäten (und den zugehörigen Feldern), Links, Spalten mit Kennungen usw., die derzeit von der Integration verwendet werden.
 
 
-## Neues Mapping erstellen {#add-a-new-mapping}
+## Erstellen eines neuen Mappings {#add-a-new-mapping}
 
 Gehen Sie wie folgt vor, um ein neues Mapping zu erstellen:
 
@@ -87,7 +87,7 @@ Wenn Sie ein vorhandenes Mapping bearbeiten, werden Sie bemerken, dass die Tabel
 
 Das ist so gewollt, weil die Eingaben weiter unten auf der Seite auf den Feldern basieren, die mit diesen Tabellen verbunden sind. Das Ändern der Tabellen würde alle mit diesen Tabellen verknüpften Felder ungültig machen.  Wenn Sie die Tabelle ändern möchten, der das Mapping zugeordnet werden soll, müssen Sie zur vorherigen Seite zurückkehren, das zu ändernde Mapping löschen und ein neues Mapping hinzufügen.
 
-### Einzelnes Tabellen-Mapping konfigurieren {#new-mapping-settings}
+### Konfigurieren eines einzelnen Tabellen-Mappings {#new-mapping-settings}
 
 In diesem Abschnitt erfahren Sie, wie Sie ein **einzelnes** Mapping einer Microsoft Dynamics 365-Tabelle auf eine Adobe Campaign-Tabelle konfigurieren.
 
