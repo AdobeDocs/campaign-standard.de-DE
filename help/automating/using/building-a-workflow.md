@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '975'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
    ![](assets/workflow_creation_2.png)
 
-   Benennen Sie den Workflow im Feld **Titel** und passen Sie gegebenenfalls die Kennung an. Titel und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfänger nicht sichtbar.
+   Benennen Sie den Workflow im Feld **Titel** und passen Sie gegebenenfalls die Kennung an.
 
    >[!NOTE]
    >
