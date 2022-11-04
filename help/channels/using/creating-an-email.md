@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
@@ -31,9 +31,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
    >
    >Vorlagen für Folgenachrichten und A/B-Tests werden standardmäßig verborgen. Aktivieren Sie die Optionen auf der linken Seite (seitliches Fenster **[!UICONTROL Filter]**), um sie anzuzeigen.
 
-1. Geben Sie die allgemeinen E-Mail-Eigenschaften an. Benennen Sie die Aktivität im Feld **Titel** und passen Sie gegebenenfalls die Kennung an.
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
+1. Geben Sie die allgemeinen E-Mail-Eigenschaften an. Benennen Sie die Aktivität im Feld **Titel** und passen Sie gegebenenfalls die Kennung an. Titel und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfänger nicht sichtbar.
 
    Fügen Sie bei Bedarf eine Beschreibung hinzu. Diese ist im Kampagneninhalt sichtbar.
 
