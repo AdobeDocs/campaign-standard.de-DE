@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,12 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 1. Geben Sie die allgemeinen Eigenschaften des Versands ein.
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >Titel und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfänger nicht sichtbar.
+   >
+   >Achten Sie darauf, dass das ID-Feld keinen Leerraum enthält, um Diskrepanzen zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
 
 1. Definieren Sie die Audience, die in der Extraktionsdatei enthalten sein soll, sowie die Profile, die getestet und mit Fallen versehen werden sollen. Siehe [Briefpost-Audience definieren](../../channels/using/defining-the-direct-mail-audience.md).
 
