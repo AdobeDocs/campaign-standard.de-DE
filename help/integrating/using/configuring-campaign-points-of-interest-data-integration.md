@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 100%
 
@@ -187,7 +187,7 @@ So definieren Sie POI zum Erfassen von Standortdaten:
 
 Eine spezielle benutzerdefinierte Ressource ermöglicht es Ihnen, die Daten zu definieren, die Sie von den Abonnenten Ihrer Mobile App erfassen möchten.
 
-Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) beschrieben.
+Dieser Schritt wird auf der Seite [Eine Mobile App mit SDK V4 konfigurieren](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
 ## Auf Mobile Apps zugreifen, mit denen Standortdaten erfasst werden {#accessing-mobile-apps-used-to-collect-location-data}
 

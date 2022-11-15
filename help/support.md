@@ -1,5 +1,5 @@
 ---
-title: 'Hilfe- und Support-Optionen für Campaign Standard '
+title: Hilfe- und Support-Optionen für Campaign Standard
 description: Benötigen Sie Unterstützung für Campaign Standard? Dann sind Sie hier genau richtig!
 audience: rns
 content-type: reference

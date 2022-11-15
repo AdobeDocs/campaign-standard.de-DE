@@ -61,7 +61,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
    >
    >Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Leistungssteigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
 
-1. Im Tab **[!UICONTROL Transition]** können Sie mit der Option **[!UICONTROL Ausgehende Transition erzeugen]** im Anschluss an eine Abfrageaktivität eine ausgehende Transition hinzufügen, selbst wenn keine Daten abgefragt werden.
+1. Auf der Registerkarte **[!UICONTROL Transition]** können Sie mit der Option **[!UICONTROL Ausgehende Transition erzeugen]** im Anschluss an eine Abfrageaktivität eine ausgehende Transition hinzufügen, selbst wenn keine Daten abgerufen werden.
 
    Der Segment-Code der ausgehenden Transition kann mit einem Standardausdruck und mit Ereignisvariablen personalisiert werden (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
 
@@ -109,9 +109,9 @@ Mithilfe des Tabs **[!UICONTROL Zusatzdaten]** der Aktivitäten **[!UICONTROL Ab
 
 * einfache Daten
 * Aggregate
-* Kollektionen
+* Sammlungen
 
-Im Fall von Aggregaten und Kollektionen wird automatisch ein **[!UICONTROL Alias]** definiert, um komplexen Ausdrücken eine technische Kennung zuzuweisen. Dieser Alias, der eindeutig sein muss, erlaubt es, Aggregate und Kollektionen leicht zu finden. Sie können den automatisch erzeugten Alias so anpassen, dass Sie ihm einen leicht wiederzuerkennenden Namen verleihen.
+Im Fall von Aggregaten und Sammlungen wird automatisch ein **[!UICONTROL Alias]** definiert, um komplexen Ausdrücken eine technische Kennung zuzuweisen. Dieser Alias, der eindeutig sein muss, erlaubt es, Aggregate und Sammlungen leicht zu finden. Sie können den automatisch erzeugten Alias so anpassen, dass Sie ihm einen leicht wiederzuerkennenden Namen verleihen.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Bei Verwendung von Aggregat mit Abfrage kann die Funktion auf null zurückgesetz
 Hinweis: Wenn Sie eine Sortierung auf Ihr Aggregat anwenden müssen, sollten Sie Nullwerte herausfiltern. Andernfalls wird der NULL-Wert als höchste Zahl angezeigt.
 
 1. Rufen Sie den Tab **[!UICONTROL Zusatzdaten]** auf und fügen Sie ein neues Element hinzu.
-1. Wählen Sie im sich öffnenden Fenster im Feld **[!UICONTROL Ausdruck]** die Kollektion aus, die Sie zur Aggregaterstellung verwenden möchten.
+1. Wählen Sie im sich öffnenden Fenster im Feld **[!UICONTROL Ausdruck]** die Sammlung aus, die Sie zur Aggregaterstellung verwenden möchten.
 
    Es wird automatisch ein **[!UICONTROL Alias]** erzeugt. Dieser kann bei Bedarf im **[!UICONTROL Zusatzdaten]**-Tab der Abfrage angepasst werden.
 
@@ -159,7 +159,7 @@ Hinweis: Wenn Sie eine Sortierung auf Ihr Aggregat anwenden müssen, sollten Sie
 
    ![](assets/enrichment_add_aggregate.png)
 
-   Es besteht die Möglichkeit, mehrere, sich auf Felder der ausgewählten Kollektion beziehende Aggregate hinzuzufügen. Stellen Sie sicher, dass die vergebenen Titel eine korrekte Unterscheidung der verschiedenen Spalten in der Detailansicht der Daten in der ausgehenden Transition ermöglichen.
+   Es besteht die Möglichkeit, mehrere, sich auf Felder der ausgewählten Sammlung beziehende Aggregate hinzuzufügen. Stellen Sie sicher, dass die vergebenen Titel eine korrekte Unterscheidung der verschiedenen Spalten in der Detailansicht der Daten in der ausgehenden Transition ermöglichen.
 
    Es besteht außerdem die Möglichkeit, die automatisch für jedes Aggregat erzeugten Alias anzupassen.
 
@@ -175,43 +175,43 @@ Hinweis: Wenn Sie eine Sortierung auf Ihr Aggregat anwenden müssen, sollten Sie
 >
 >Die Erstellung eines ein Aggregat enthaltenden Ausdrucks kann nicht direkt über das Feld **[!UICONTROL Ausdruck]** im Fenster **[!UICONTROL Neue Zusatzdaten]** vorgenommen werden.
 
-### Hinzufügen einer Kollektion {#adding-a-collection}
+### Hinzufügen einer Sammlung {#adding-a-collection}
 
 1. Rufen Sie den Tab **[!UICONTROL Zusatzdaten]** auf und fügen Sie ein neues Element hinzu.
-1. Wählen Sie im sich öffnenden Fenster im Feld **[!UICONTROL Ausdruck]** die Kollektion aus, die Sie hinzufügen möchten. Es wird automatisch ein **[!UICONTROL Alias]** erzeugt. Dieser kann bei Bedarf im **[!UICONTROL Zusatzdaten]**-Tab der Abfrage angepasst werden.
-1. Bestätigen Sie die Angaben mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]**. Im sich öffnenden Fenster haben Sie die Möglichkeit, die Kollektionsdaten, die Sie anzeigen möchten, zu verfeinern.
-1. Wählen Sie im **[!UICONTROL Parameter]**-Tab die Option **[!UICONTROL Kollektion]** aus und definieren Sie die Anzahl an Kollektionszeilen, die hinzugefügt werden sollen. Wenn Sie beispielsweise für jedes Profil die letzten drei Bestellungen abfragen möchten, müssen Sie im Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** die Ziffer „3“ angeben.
+1. Wählen Sie im sich öffnenden Fenster im Feld **[!UICONTROL Ausdruck]** die Sammlung aus, die Sie hinzufügen möchten. Es wird automatisch ein **[!UICONTROL Alias]** erzeugt. Dieser kann bei Bedarf im **[!UICONTROL Zusatzdaten]**-Tab der Abfrage angepasst werden.
+1. Bestätigen Sie die Angaben mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]**. Im sich öffnenden Fenster haben Sie die Möglichkeit, die Sammlungsdaten, die Sie anzeigen möchten, zu verfeinern.
+1. Wählen Sie im **[!UICONTROL Parameter]**-Tab die Option **[!UICONTROL Sammlung]** aus und definieren Sie die Anzahl an Sammlungszeilen, die hinzugefügt werden sollen. Wenn Sie beispielsweise für jedes Profil die letzten drei Bestellungen abfragen möchten, müssen Sie im Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** die Ziffer „3“ angeben.
 
    >[!NOTE]
    >
    >Nur Ziffern größer oder gleich 1 sind zulässig.
 
-1. Definieren Sie im **[!UICONTROL Daten]**-Tab für jede Zeile die Felder der Kollektion, die angezeigt werden sollen.
+1. Definieren Sie im **[!UICONTROL Daten]**-Tab für jede Zeile die Felder der Sammlung, die angezeigt werden sollen.
 
    ![](assets/enrichment_add_collection.png)
 
-1. Bei Bedarf können Sie einen Filter hinzufügen, um die zu berücksichtigenden Zeilen der Kollektion zu begrenzen.
+1. Bei Bedarf können Sie einen Filter hinzufügen, um die zu berücksichtigenden Zeilen der Sammlung zu begrenzen.
 
    Lesen Sie diesbezüglich auch den Abschnitt [Hinzugefügte Daten filtern](#filtering-added-data).
 
 1. Bei Bedarf können Sie eine Sortierung für die Daten definieren.
 
-   Wenn Sie beispielsweise im **[!UICONTROL Parameter]**-Tab angegeben haben, dass drei Zeilen ausgegeben werden sollen, und Sie die drei neuesten Bestellungen abfragen möchten, können Sie eine Sortierung in absteigender Reihenfolge für das Datumsfeld („date“) der den Transaktionen entsprechenden Kollektion definieren.
+   Wenn Sie beispielsweise im **[!UICONTROL Parameter]**-Tab angegeben haben, dass drei Zeilen ausgegeben werden sollen, und Sie die drei neuesten Bestellungen abfragen möchten, können Sie eine Sortierung in absteigender Reihenfolge für das Datumsfeld („date“) der den Transaktionen entsprechenden Sammlung definieren.
 
 1. Lesen Sie diesbezüglich auch den Abschnitt [Hinzugefügte Daten sortieren](#sorting-additional-data).
-1. **[!UICONTROL Validieren]** Sie die Kollektionserstellung mithilfe der entsprechenden Schaltfläche.
+1. **[!UICONTROL Validieren]** Sie die Sammlungserstellung mithilfe der entsprechenden Schaltfläche.
 
 ### Hinzugefügte Daten filtern {#filtering-added-data}
 
-Beim Hinzufügen von Aggregaten oder Kollektionen besteht die Möglichkeit, einen zusätzlichen Filter zu bestimmen, um die angezeigten Daten zu begrenzen.
+Beim Hinzufügen von Aggregaten oder Sammlungen besteht die Möglichkeit, einen zusätzlichen Filter zu bestimmen, um die angezeigten Daten zu begrenzen.
 
-Wenn Sie beispielsweise nur die Zeilen einer Transaktionskollektion abrufen möchten, bei denen der Transaktionsbetrag 50 Euro übersteigt, können Sie im **[!UICONTROL Filter]**-Tab für das dem Transaktionsbetrag entsprechende Feld eine Bedingung hinzufügen.
+Wenn Sie beispielsweise nur die Zeilen einer Transaktionssammlung abrufen möchten, bei denen der Transaktionsbetrag 50 Euro übersteigt, können Sie im **[!UICONTROL Filter]**-Tab für das dem Transaktionsbetrag entsprechende Feld eine Bedingung hinzufügen.
 
 ![](assets/enrichment_filter_data.png)
 
 ### Hinzugefügte Daten sortieren {#sorting-additional-data}
 
-Beim Hinzufügen von Aggregaten oder Kollektionen zu Daten einer Abfrage können Sie angeben, ob Sie einen Filter – in aufsteigender bzw. absteigender Reihenfolge – anwenden möchten, der auf dem Wert des Feldes oder des definierten Ausdrucks basiert.
+Beim Hinzufügen von Aggregaten oder Sammlungen zu Daten einer Abfrage können Sie angeben, ob Sie einen Filter – in aufsteigender bzw. absteigender Reihenfolge – anwenden möchten, der auf dem Wert des Feldes oder des definierten Ausdrucks basiert.
 
 Wenn Sie beispielsweise für ein Profil nur die neueste Transaktion beibehalten möchten, müssen Sie im **[!UICONTROL Parameter]**-Tab im Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** die Ziffer „1“ angeben und mithilfe des **[!UICONTROL Sortierung]**-Tabs das dem Transaktionsdatum entsprechende Feld in absteigender Reihenfolge sortieren.
 

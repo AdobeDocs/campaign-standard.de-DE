@@ -1,5 +1,5 @@
 ---
-title: 'Campaign-Formular in Adobe Experience Manager erstellen '
+title: Campaign-Formular in Adobe Experience Manager erstellen
 description: Durch die Integration von Adobe Experience Manager können Sie Formulare direkt in AEM einrichten, um Profile zu erstellen und zu aktualisieren oder Abonnements zu verwalten.
 audience: integrating
 content-type: reference

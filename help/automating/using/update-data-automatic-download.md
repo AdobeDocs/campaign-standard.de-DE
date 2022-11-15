@@ -1,6 +1,6 @@
 ---
 title: Daten basierend auf einem automatischen Datei-Download aktualisieren
-description: 'Das folgende Beispiel zeigt das Laden einer Datei, die mithilfe einer Dateiübertragung abgerufen wurde. Im Anschluss erlauben die enthaltenen Daten die Aktualisierung der Datenbank. '
+description: Das folgende Beispiel zeigt das Laden einer Datei, die mithilfe einer Dateiübertragung abgerufen wurde. Im Anschluss erlauben die enthaltenen Daten die Aktualisierung der Datenbank.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

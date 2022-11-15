@@ -4,8 +4,9 @@ description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard 
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -96,4 +97,3 @@ ht-degree: 100%
 * Die Leistung beim Duplizieren von Audiences wurde verbessert, um Probleme beim Arbeiten mit großen Audiences zu vermeiden. (CAMP-49639)
 * Fehlerkorrektur – Benutzerdefinierte Filter zeigen jetzt die richtigen Ergebnisse an, wenn sie in einer **Abfrage**-Aktivität verwendet werden. (CAMP-49417)
 * Fehlerkorrektur – bei der Verwendung eines Fragments in einem Versand, dessen Name ein Komma enthält, wird jetzt keine Fehlermeldung mehr angezeigt. Das Problem wurde behoben. Kommas können jetzt in Fragmentnamen verwendet werden. (CAMP-49216)
-

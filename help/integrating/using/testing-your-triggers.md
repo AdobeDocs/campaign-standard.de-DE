@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
 source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -80,5 +80,5 @@ Wenn nicht, fahren Sie mit dem nächsten Schritt fort. Wenn dies der Fall ist, b
 
 Wenn die Nachricht nicht gültig ist, überprüfen Sie die folgenden Elemente:
 
-* Validieren Sie die Transaktionsvorlage der als ungültig gekennzeichneten Trigger-Anreicherungs-Personalisierungsfelder in den verknüpften eventCusResource-Kollektionen.
+* Validieren Sie die Transaktionsvorlage der als ungültig gekennzeichneten Trigger-Anreicherungs-Personalisierungsfelder in den verknüpften eventCusResource-Sammlungen.
 * Validieren Sie das Nachrichtenformat.

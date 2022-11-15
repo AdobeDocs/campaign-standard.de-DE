@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Wenn Ihr Inhalt fertiggestellt ist, müssen Sie sorgfältig auswählen, wer Ihre Nachricht erhalten soll."'
+description: "Wenn Ihr Inhalt fertiggestellt ist, müssen Sie sorgfältig auswählen, wer Ihre Nachricht erhalten soll."
 feature: Deliverability
 role: User
 level: Intermediate

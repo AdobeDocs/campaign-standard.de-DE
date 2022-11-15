@@ -147,7 +147,7 @@ Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
    Diese Relationstypen sind verfügbar:
 
    * **[!UICONTROL Einfache Relation mit Kardinalität 1]**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
-   * **[!UICONTROL Kollektionsrelation mit Kardinalität N]**: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, aber eine Entität in der Zieltabelle kann nur maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
+   * **[!UICONTROL Sammlungsrelation mit Kardinalität N]**: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, aber eine Entität in der Zieltabelle kann nur maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
    * **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Eine Entität in der Quelltabelle kann nur mit maximal einer oder keiner Entität in der Zieltabelle in Beziehung stehen. Bitte beachten Sie, dass dieser **[!UICONTROL Relationstyp]** Leistungsprobleme verursachen kann.
 
    ![](assets/schema_extension_29.png)

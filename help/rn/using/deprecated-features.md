@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellun
  <tbody> 
   <tr> 
    <td> <p> Ab Campaign Standard-Version 21.3 wird die Integration mit dem Adobe Experience Platform Data Connector nicht mehr unterstützt. </p>
-   <p>Bei einer neuen Implementierung können Sie den Adobe Experience Platform Data Connector nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=de">Weitere Informationen</a>.</p>
+   <p>Bei einer neuen Implementierung können Sie den Adobe Experience Platform Data Connector nicht mehr in Adobe Campaign Standard integrieren. Sie können Campaign und Adobe Experience Platform jedoch über Quellen und Ziele integrieren. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Weitere Informationen</a>.</p>
      <em>Geplantes Datum für die Entfernung: 2023.</em></p>
      </td> 
   </tr> 

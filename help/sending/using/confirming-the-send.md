@@ -96,13 +96,13 @@ Wenn vom erweiterten MTA Softbounces zurückgemeldet werden, werden diese Nachri
 
 Daher sollten Sie bis zum Ende des Gültigkeitszeitraums warten, um den endgültigen Prozentsatz für **[!UICONTROL Zugestellt]** und die endgültige Anzahl der tatsächlich **[!UICONTROL gesendeten]** sowie der **[!UICONTROL fehlgeschlagenen]** Nachrichten anzuzeigen.
 
-### Email Feedback Service (Betaversion) {#email-feedback-service}
+### E-Mail-Feedback-Service (Betaversion) {#email-feedback-service}
 
-Mit der EFS-Funktion (Email Feedback Service) wird der Status jeder E-Mail genau gemeldet, da Feedback direkt vom erweiterten MTA (Message Transfer Agent) erfasst wird.
+Mit der EFS-Funktion (E-Mail-Feedback-Service) wird der Status jeder E-Mail genau gemeldet, da Feedback direkt vom erweiterten MTA (Message Transfer Agent) erfasst wird.
 
 >[!IMPORTANT]
 >
->Der Email Feedback Service ist derzeit als Funktion der Betaversion verfügbar.
+>Der E-Mail-Feedback-Service ist derzeit als Funktion der Betaversion verfügbar.
 
 Nachdem der Versand gestartet wurde, ändert sich der **[!UICONTROL Zugestellt]**-Prozentsatz nicht, wenn die Nachricht erfolgreich von Campaign an den erweiterten MTA weitergeleitet wurde.
 
@@ -134,7 +134,7 @@ Wenn vom erweiterten MTA Softbounces zurückgemeldet werden, ändert sich der St
 
 Die folgenden Tabellen zeigen die Änderungen der KPIs und Versandlogstatus, die durch die EFS-Funktion eingeführt wurden.
 
-**Mit Email Feedback Service**
+**Mit E-Mail-Feedback-Service**
 
 | Schritt im Versandprozess | KPI-Zusammenfassung | Versandlogstatus |
 |--- |--- |--- |
@@ -144,7 +144,7 @@ Die folgenden Tabellen zeigen die Änderungen der KPIs und Versandlogstatus, die
 | Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, sind erfolgreich | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend erhöht</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend verringert</li></ul> | Gesendet |
 | Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, schlagen fehl | <ul><li> Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes </li><li> Keine Änderung des **[!UICONTROL Bounces + Fehler]**-Prozentsatzes </li></ul> | Fehlgeschlagen |
 
-**Ohne Email Feedback Service**
+**Ohne E-Mail-Feedback-Service**
 
 | Schritt im Versandprozess | KPI-Zusammenfassung | Versandlogstatus |
 |--- |--- |--- |

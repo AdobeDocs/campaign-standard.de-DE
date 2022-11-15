@@ -1,6 +1,6 @@
 ---
 title: Integriertes Kundenprofil
-description: '"Sie können alle Kundeninteraktionen in einer gemeinsamen Übersicht verfolgen: Das integrierte Kundenprofil von Adobe Campaign wird während des gesamten Lebenszyklus eines Kunden aktualisiert."'
+description: "Sie können alle Kundeninteraktionen in einer gemeinsamen Übersicht verfolgen: Das integrierte Kundenprofil von Adobe Campaign wird während des gesamten Lebenszyklus eines Kunden aktualisiert."
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles

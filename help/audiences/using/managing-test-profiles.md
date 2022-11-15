@@ -1,5 +1,5 @@
 ---
-title: 'Verwaltung von Testprofilen '
+title: Verwaltung von Testprofilen
 description: Erfahren Sie, wie Sie Testprofile verwalten.
 audience: sending
 content-type: reference

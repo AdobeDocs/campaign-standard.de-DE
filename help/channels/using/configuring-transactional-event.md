@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1776'
 ht-degree: 100%
 
@@ -66,28 +66,28 @@ Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem g
 
 ## Datenkollektionen definieren          {#defining-data-collections}
 
-Sie können zum Ereignisinhalt eine Kollektion von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
+Sie können zum Ereignisinhalt eine Sammlung von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
 
-Diese Kollektion kann in Transaktions-E-Mails verwendet werden, um [Produktlisten](../../designing/using/using-product-listings.md) zum Nachrichteninhalt hinzuzufügen, wie z. B. eine Liste mit Produkten einschließlich Preis, Referenznummer, Menge usw. für jedes Produkt auf der Liste.
+Diese Sammlung kann in Transaktions-E-Mails verwendet werden, um [Produktlisten](../../designing/using/using-product-listings.md) zum Nachrichteninhalt hinzuzufügen, wie z. B. eine Liste mit Produkten einschließlich Preis, Referenznummer, Menge usw. für jedes Produkt auf der Liste.
 
-1. Wählen Sie im Bereich **[!UICONTROL Kollektionen]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
+1. Wählen Sie im Bereich **[!UICONTROL Sammlungen]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
 
    ![](assets/message-center_collection_create.png)
 
-1. Fügen Sie Ihrer Kollektion einen Titel und eine Kennung hinzu.
+1. Fügen Sie Ihrer Sammlung einen Titel und eine Kennung hinzu.
 1. Fügen Sie alle Felder hinzu, die Sie für jedes Produkt der Liste in der Transaktionsnachricht anzeigen möchten.
 
    Für dieses Beispiel haben wir folgende Felder hinzugefügt:
 
    ![](assets/message-center_collection_fields.png)
 
-1. Auf dem Tab **[!UICONTROL Anreicherung]** können Sie die einzelnen Elemente der Kollektion anreichern. Auf diese Weise können Sie die Elemente der entsprechenden Produktliste mit Informationen aus der Adobe Campaign-Datenbank oder aus anderen von Ihnen erstellten Ressourcen personalisieren.
+1. Auf dem Tab **[!UICONTROL Anreicherung]** können Sie die einzelnen Elemente der Sammlung anreichern. Auf diese Weise können Sie die Elemente der entsprechenden Produktliste mit Informationen aus der Adobe Campaign-Datenbank oder aus anderen von Ihnen erstellten Ressourcen personalisieren.
 
 >[!NOTE]
 >
->Die Anreicherungsschritte für die Elemente einer Kollektion entsprechen den Anweisungen im Abschnitt [Ereignis anreichern](#enriching-the-transactional-message-content). Beachten Sie, dass Sie beim Anreichern des Ereignisses keine Kollektion anreichern können: Dafür müssen Sie im Abschnitt **[!UICONTROL Kollektionen]** der Kollektion selbst eine Anreicherung hinzufügen.
+>Die Anreicherungsschritte für die Elemente einer Sammlung entsprechen den Anweisungen im Abschnitt [Ereignis anreichern](#enriching-the-transactional-message-content). Beachten Sie, dass Sie beim Anreichern des Ereignisses keine Sammlung anreichern können: Dafür müssen Sie im Abschnitt **[!UICONTROL Sammlungen]** der Sammlung selbst eine Anreicherung hinzufügen.
 
-Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich diese Kollektion in den Transaktionsnachrichten verwenden.
+Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich diese Sammlung in den Transaktionsnachrichten verwenden.
 
 Dies ist die API-Vorschau für dieses Beispiel:
 

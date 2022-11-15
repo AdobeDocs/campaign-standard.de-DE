@@ -60,7 +60,8 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen:
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
-1. Fügen Sie ein Personalisierungsfeld hinzu und wählen Sie aus dem Knoten **[!UICONTROL Zusätzliche Daten (targetData)]** die zusätzlichen Daten aus, die in der Erweiterungsaktivität festgelegt wurden (hier Kontonummer). Dadurch kann die Kontonummer jedes Profils im E-Mail-Inhalt dynamisch verwendet werden.
+1. Fügen Sie ein Personalisierungsfeld hinzu und wählen Sie aus dem Knoten **[!UICONTROL Zusätzliche Daten (targetData)]** die zusätzlichen Daten aus, die in der Erweiterungsaktivität festgelegt wurden (hier Kontonummer). Dadurch kann die Kontonummer jedes Profils im E-Mail-Inhalt dynamisch abgerufen werden.
+
 
    ![](assets/load_file_perso_field.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Übersicht  '
+title: Übersicht
 description: In diesem Abschnitt wird beschrieben, wie ein Workflow mit externen Parametern aufgerufen wird.
 audience: automating
 content-type: reference

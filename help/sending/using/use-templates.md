@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Mit Versandvorlagen arbeiten Sie effizienter, da Sie mit ihnen bereits vorgefertigte Szenarien für die meisten gängigen Aktivitäten zur Verfügung haben."'
+description: "Mit Versandvorlagen arbeiten Sie effizienter, da Sie mit ihnen bereits vorgefertigte Szenarien für die meisten gängigen Aktivitäten zur Verfügung haben."
 feature: Deliverability
 role: User
 level: Intermediate

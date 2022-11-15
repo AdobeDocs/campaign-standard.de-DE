@@ -45,7 +45,7 @@ Der Ursprungs-Workflow stellt sich folgendermaßen dar:
 Der Ziel-Workflow stellt sich folgendermaßen dar:
 
 * Die Aktivität [Externes Signal](../../automating/using/external-signal.md) wartet, bis der Ursprungs-Workflow abgeschlossen ist.
-* Eine [Abfrage](../../automating/using/query.md#enriching-data)-Aktivität reichert die Profile mit einer Kollektion an, die das letzte Kaufdatum abruft.
+* Eine [Abfrage](../../automating/using/query.md#enriching-data)-Aktivität reichert die Profile mit einer Sammlung an, die das letzte Kaufdatum abruft.
 * Die Aktivität [Daten-Update](../../automating/using/update-data.md) speichert die Zusatzdaten in einem dafür vorgesehenen benutzerdefinierten Feld. Beachten Sie, dass die Profil-Ressource um das Feld **Letztes Kaufdatum** erweitert wurde.
 
 ![](assets/signal_example_source2.png)

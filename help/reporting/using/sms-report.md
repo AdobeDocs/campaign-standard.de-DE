@@ -1,6 +1,6 @@
 ---
 title: SMS-Bericht
-description: 'Im vordefinierten Bericht über SMS erfahren Sie über die Wirkung Ihrer SMS-Sendungen. '
+description: Im vordefinierten Bericht über SMS erfahren Sie über die Wirkung Ihrer SMS-Sendungen.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

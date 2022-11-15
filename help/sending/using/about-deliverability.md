@@ -43,7 +43,7 @@ Die Zustellrate ist der Anteil der Nachrichten, die die Postfächer der Empfäng
 Bei Adobe Campaign hängt die Zustellrate von zahlreichen Faktoren ab, insbesondere von:
 
 * Korrekte Konfiguration der Instanzen: Wenden Sie sich zwecks Hilfe an Ihren Adobe-Support-Mitarbeiter.
-* Legitime Netzwerkkonfiguration: siehe [diesen Abschnitt](../../sending/using/optimize-delivery.md#network-config) und [Einrichtung von Domains und Strategie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy?lang=de).
+* Legitime Netzwerkkonfiguration: siehe [diesen Abschnitt](../../sending/using/optimize-delivery.md#network-config) und [Einrichtung von Domains und Strategie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=de#domain-setup-and-strategy).
 * Reputation Ihrer IP-Adresse: siehe [IP-Strategie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=de#ip-strategy).
 * Qualität der Zieladressen: siehe [Quarantäne-Management](../../sending/using/optimize-delivery.md#quarantine-management).
 * Ein niedriger Anteil von [Beschwerden](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de) und [Hardbounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#hard-bounces).

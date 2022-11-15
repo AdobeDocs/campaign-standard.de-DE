@@ -1,5 +1,5 @@
 ---
-title: 'Erstellen und Verwenden wiederverwendbarer Inhalte '
+title: Erstellen und Verwenden wiederverwendbarer Inhalte
 description: Beginnen Sie in Email Designer mit dem Erstellen wiederverwendbarer E-Mail-Inhalte.
 audience: designing
 content-type: reference

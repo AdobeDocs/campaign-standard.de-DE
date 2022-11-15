@@ -1,5 +1,5 @@
 ---
-title: '"Schritt 2: Erweiterung veröffentlichen"'
+title: "Schritt 2: Erweiterung veröffentlichen"
 description: Erfahren Sie, wie Sie die Erweiterung in Campaign Standard veröffentlichen. Teil 2 einer Reihe.
 audience: developing
 content-type: reference

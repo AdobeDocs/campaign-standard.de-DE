@@ -1,5 +1,5 @@
 ---
-title: 'E-Mails des alten Editors in Email Designer konvertieren '
+title: E-Mails des alten Editors in Email Designer konvertieren
 description: Erfahren Sie, wie Sie im alten Editor erstellte E-Mails in Email Designer konvertieren können.
 audience: designing
 content-type: reference

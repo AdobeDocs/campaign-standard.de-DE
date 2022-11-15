@@ -26,7 +26,7 @@ In der Antwort werden die Hauptmetadaten der Ressource zurückgegeben (alle ande
 * Der Knoten **Inhalt** gibt die Felder der Ressource zurück. Für jedes Feld im Knoten **Inhalt** können wir folgende Felder finden:
 
    * &quot;apiName&quot;: Name des Attributs, das in den APIs verwendet wird.
-   * &quot;type&quot;: Dies ist die übergeordnete Typdefinition (Zeichenfolge, Zahl, Link, Kollektion, Auflistung...).
+   * &quot;type&quot;: Dies ist die übergeordnete Typdefinition (Zeichenfolge, Zahl, Link, Sammlung, Auflistung...).
    * &quot;dataPolicy&quot;: Der Wert des Felds muss den angegebenen Regeln entsprechen. Wenn die Regel &quot;dataPolicy&quot; beispielsweise auf &quot;email&quot; gesetzt ist, muss der Wert eine gültige E-Mail-Adresse sein. Während eines PATCH- oder POST-Vorgangs kann &quot;dataPolicy&quot; den Wert überprüfen oder den umzuwandelnden Wert ändern (z. B. smartCase).
    * &quot;category&quot;: Gibt die Kategorie des Felds im Abfrageeditor an.
    * &quot;resType&quot;: Dies ist der technische Typ.

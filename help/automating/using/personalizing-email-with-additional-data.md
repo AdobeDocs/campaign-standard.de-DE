@@ -39,14 +39,14 @@ Der Workflow stellt sich folgendermaßen dar:
 1. Definieren Sie im **[!UICONTROL Zusatzdaten]**-Tab der Abfrage die verschiedenen Daten, die in der E-Mail angezeigt werden sollen:
 
    * Treuepunkte anhand eines einfachen Felds aus der Dimension **Profile.** Lesen Sie diesbezüglich auch den Abschnitt [Einfaches Feld hinzufügen](../../automating/using/query.md#adding-a-simple-field).
-   * Die Anzahl an bestellten Artikeln und der Gesamtbetrag anhand von zwei auf der Transaktionskollektion basierenden Aggregaten. Fügen Sie letztere im **[!UICONTROL Daten]**-Tab des Fensters zur Aggregatkonfiguration hinzu (Aggregate **Count** und **Sum**). Lesen Sie diesbezüglich auch den Abschnitt [Aggregat hinzufügen](../../automating/using/query.md#adding-an-aggregate).
-   * Betrag, Datum und Artikel der letzten Transaktion, die anhand einer Kollektion ermittelt werden.
+   * Die Anzahl an bestellten Artikeln und der Gesamtbetrag anhand von zwei auf der Transaktionssammlung basierenden Aggregaten. Fügen Sie letztere im **[!UICONTROL Daten]**-Tab des Fensters zur Aggregatkonfiguration hinzu (Aggregate **Count** und **Sum**). Lesen Sie diesbezüglich auch den Abschnitt [Aggregat hinzufügen](../../automating/using/query.md#adding-an-aggregate).
+   * Betrag, Datum und Artikel der letzten Transaktion, die anhand einer Sammlung ermittelt werden.
 
-      Fügen Sie hierzu im **[!UICONTROL Daten]**-Tab des Fensters zur Kollektionskonfiguration die verschiedenen anzuzeigenden Felder hinzu.
+      Fügen Sie hierzu im **[!UICONTROL Daten]**-Tab des Fensters zur Sammlungskonfiguration die verschiedenen anzuzeigenden Felder hinzu.
 
-      Damit nur die neueste Transaktion ausgegeben wird, ist im Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** die Ziffer „1“ anzugeben und das Kollektionsfeld **Datum** im Tab **[!UICONTROL Sortierung]** in absteigender Reihenfolge zu sortieren.
+      Damit nur die neueste Transaktion ausgegeben wird, ist im Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** die Ziffer „1“ anzugeben und das Sammlungsfeld **Datum** im Tab **[!UICONTROL Sortierung]** in absteigender Reihenfolge zu sortieren.
 
-      Lesen Sie diesbezüglich auch die Abschnitte [Kollektion hinzufügen](../../automating/using/query.md#adding-a-collection) und [Hinzugefügte Daten sortieren](../../automating/using/query.md#sorting-additional-data).
+      Lesen Sie diesbezüglich auch die Abschnitte [Sammlung hinzufügen](../../automating/using/query.md#adding-a-collection) und [Hinzugefügte Daten sortieren](../../automating/using/query.md#sorting-additional-data).
    ![](assets/enrichment_example4.png)
 
 1. Wenn Sie prüfen möchten, ob die Daten in der ausgehenden Transition der Aktivität korrekt übermittelt werden, starten Sie den Workflow an dieser Stelle (bevor Sie die **[!UICONTROL E-Mail-Versand]**-Aktivität anschließen) und öffnen Sie die aus der Abfrage ausgehende Transition.

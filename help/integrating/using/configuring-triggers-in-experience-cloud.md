@@ -1,6 +1,6 @@
 ---
 title: Triggers in Experience Cloud konfigurieren
-description: 'Hier erfahren Sie, wie Sie die Integration von Adobe Experience Cloud Triggers konfigurieren müssen, um auf der Basis des bisherigen Kundenverhaltens personalisierte Sendungen durchzuführen. '
+description: Hier erfahren Sie, wie Sie die Integration von Adobe Experience Cloud Triggers konfigurieren müssen, um auf der Basis des bisherigen Kundenverhaltens personalisierte Sendungen durchzuführen.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Im Folgenden finden Sie eine Liste mit Best Practices und Einschränkungen für 
 * Trigger sind nicht deterministisch. Wenn ein Trigger erstellt wird, werden alle mit dem Cookie verknüpften Alias gesendet. Im Fall von gemeinsam verwendeten Browsern, wie z. B. bei Verkaufsständen, Bibliotheken, Internetcafés oder gemeinsam genutzten Geräten zu Hause (Ehepartner melden sich auf demselben Gerät an), kann kein Mapping zur richtigen Kennung durchgeführt werden. Alle bei der Anmeldung mit dem Browser verwendeten Kennungen werden an Campaign gesendet. Campaign sendet dann eine Nachricht auf der Basis der ersten Abstimmung. Wenn mehrere &quot;email IDs&quot; für die Abstimmung in Frage kommen, sendet Campaign keine E-Mail. Es gibt keine Möglichkeit für Campaign festzustellen, welche die richtige E-Mail-Kennung ist, wenn sie nicht von Analytics erfasst und gesendet wird.
 * In Campaign kann kein Payload-Inhalt gespeichert werden. Mit Triggers können keine Profildaten aktualisiert werden.
 * Kundenattribute werden in Triggers nicht unterstützt (d. h. nur Report-Suite-Daten können zur Definition von Triggers-Geschäftsregeln verwendet werden).
-* Kollektionen von Kollektionen werden in Campaign nicht unterstützt.
+* Sammlungen von Sammlungen werden in Campaign nicht unterstützt.
 
 >[!CAUTION]
 >

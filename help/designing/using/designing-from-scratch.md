@@ -1,5 +1,5 @@
 ---
-title: 'Erstellen neuer E-Mails '
+title: Erstellen neuer E-Mails
 description: Erfahren Sie, wie Sie in Email Designer E-Mails aus neuen E-Mail-Inhalten erstellen.
 audience: designing
 content-type: reference

@@ -1,13 +1,13 @@
 ---
 title: Technische Workflows
-description: 'Erfahren Sie mehr über technische Workflows '
+description: Erfahren Sie mehr über technische Workflows
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 100%
 

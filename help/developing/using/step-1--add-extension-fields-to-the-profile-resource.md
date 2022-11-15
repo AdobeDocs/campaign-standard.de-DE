@@ -1,5 +1,5 @@
 ---
-title: '"Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen"'
+title: "Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen"
 description: Hier erfahren Sie, wie die Profil-Ressource erweitert wird.
 audience: developing
 content-type: reference

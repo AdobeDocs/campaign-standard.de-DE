@@ -52,7 +52,7 @@ So konfigurieren Sie die Aktivität **[!UICONTROL Anreicherung]**:
    Wenn Sie eine neue Relation definieren, wählen Sie die eingehenden Datensätze aus, die mit der Hauptmenge verknüpft werden sollen. Definieren Sie anschließend den Typ der Relation. Je nach eingehenden Daten und Datenmodell sind mehrere Typen von Relationen verfügbar:
 
    * **[!UICONTROL Einfache Relation mit Kardinalität 1]**: Jeder eingehende Datensatz wird genau einem Datensatz der Hauptmenge zugeordnet. Jeder Datensatz der Hauptmenge ist einem Datensatz der verknüpften Menge zugeordnet.
-   * **[!UICONTROL Kollektionsrelation mit Kardinalität N]**: 0, 1 oder mehr (N) Datensätze der verknüpften Menge können 1 Datensatz der Hauptmenge zugeordnet werden.
+   * **[!UICONTROL Sammlungsrelation mit Kardinalität N]**: 0, 1 oder mehr (N) Datensätze der verknüpften Menge können 1 Datensatz der Hauptmenge zugeordnet werden.
    * **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Datensätze der Hauptmenge können 0 oder maximal 1 Datensatz der verknüpften Menge zugeordnet werden.
 
    Nachdem die **[!UICONTROL Kardinalität]** definiert ist, legen Sie ein **[!UICONTROL Abstimmkriterium]** fest. Der **[!UICONTROL Quellausdruck]** der Abstimmkriterien kann ein Feld der Zielressource, ein [Ausdruck](../../automating/using/advanced-expression-editing.md) oder ein in Anführungszeichen angegebener Wert sein.
@@ -63,7 +63,7 @@ So konfigurieren Sie die Aktivität **[!UICONTROL Anreicherung]**:
    >
    >Sie können nur Relationen zwischen der Hauptmenge und den anderen eingehenden Transitionen definieren, die mit der Aktivität **[!UICONTROL Anreicherung]** verknüpft sind. Verwenden Sie für einfachere Fälle, bei denen Relationen mit Datenbankressourcen definiert werden sollen, die Aktivität [Abstimmung](../../automating/using/reconciliation.md).
 
-1. Definieren Sie die Zusatzdaten im Tab **[!UICONTROL Zusatzdaten]** der Aktivität. Sie können Zusatzdaten definieren (einfache Felder, Aggregate und Kollektionen), die mit der Zielgruppendimension der Hauptmenge verknüpft sind oder auf den Relationen basieren, die im Tab **[!UICONTROL Erweiterte Relationen]** der Aktivität **[!UICONTROL Anreicherung]** erstellt wurden.
+1. Definieren Sie die Zusatzdaten im Tab **[!UICONTROL Zusatzdaten]** der Aktivität. Sie können Zusatzdaten definieren (einfache Felder, Aggregate und Sammlungen), die mit der Zielgruppendimension der Hauptmenge verknüpft sind oder auf den Relationen basieren, die im Tab **[!UICONTROL Erweiterte Relationen]** der Aktivität **[!UICONTROL Anreicherung]** erstellt wurden.
 
    Lesen Sie diesbezüglich auch den Abschnitt [Daten anreichern](../../automating/using/query.md#enriching-data).
 

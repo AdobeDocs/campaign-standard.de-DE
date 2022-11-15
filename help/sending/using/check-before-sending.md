@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Erfahren Sie, wie Sie im Anschluss an die Fertigstellung Ihrer Nachricht alle Prüfungen durchführen, bevor Sie sie versenden."'
+description: "Erfahren Sie, wie Sie im Anschluss an die Fertigstellung Ihrer Nachricht alle Prüfungen durchführen, bevor Sie sie versenden."
 feature: Deliverability
 role: User
 level: Intermediate

@@ -1,6 +1,6 @@
 ---
 title: Audience in einer Nachricht auswählen
-description: '"Hier erhalten Sie eine schrittweise Anleitung zur Auswahl von Audiences einer E-Mail: Hauptzielgruppe und Testprofile."'
+description: "Hier erhalten Sie eine schrittweise Anleitung zur Auswahl von Audiences einer E-Mail: Hauptzielgruppe und Testprofile."
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences

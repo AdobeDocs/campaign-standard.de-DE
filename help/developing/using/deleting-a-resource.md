@@ -1,6 +1,6 @@
 ---
 title: Ressourcen löschen
-description: 'Hier erfahren Sie, wie Sie eine Ressource löschen können. '
+description: Hier erfahren Sie, wie Sie eine Ressource löschen können.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource

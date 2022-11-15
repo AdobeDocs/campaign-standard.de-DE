@@ -106,7 +106,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
    >[!NOTE]
-   >Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
+   Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
@@ -143,42 +143,42 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
    <td> =<br /> </td> 
    <td> ==<br /> </td> 
    <td> Der erste Wert muss mit dem zweiten identisch sein.<br /> </td> 
-   <td> <strong>@lastName = Martin</strong> gibt die Profile aus, deren Nachname exakt 'Martin' ist.<br /> </td> 
+   <td> <strong>@lastName = Martin</strong> ruft die Profile ab, deren Nachname exakt 'Martin' ist.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Größer als</span> <br /> </td> 
    <td> &gt;<br /> </td> 
    <td> &gt;<br /> </td> 
    <td> Der erste Wert muss streng größer als der zweite sein.<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> gibt alle Profile aus, deren Alter '50' übersteigt, also '51', '52' etc.<br /> </td> 
+   <td> <strong>@age &gt; 50</strong> ruft Profile ab, deren Alter '50' übersteigt, also '51', '52' etc.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Niedriger als</span> <br /> </td> 
    <td> &lt;<br /> </td> 
    <td> &lt;<br /> </td> 
    <td> Der erste Wert muss streng kleiner als der zweite sein.<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)</strong> gibt alle Profile aus, die vor weniger als 100 Tagen in der Datenbank erstellt wurden.<br /> </td> 
+   <td> <strong>@created &lt; DaysAgo(100)</strong> ruft Profile ab, die vor weniger als 100 Tagen in der Datenbank erstellt wurden.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Größer oder gleich</span> <br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> Der erste Wert muss größer oder gleich dem zweiten sein.<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong> gibt alle Profile im Alter von 30 Jahren und älter aus.<br /> </td> 
+   <td> <strong>@age &gt;= 30</strong> ruft Profile mit einem Alter von 30 Jahren und älter ab.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Kleiner oder gleich</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> Der erste Wert muss kleiner oder gleich dem zweiten sein.<br /> </td> 
-   <td> <strong>@age &lt;= 60</strong> gibt alle Profile im Alter von 60 Jahren und jünger aus.<br /> </td> 
+   <td> <strong>@age &lt;= 60</strong> ruft Profile mit einem Alter von 60 Jahren und jünger ab.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Unterschiedlich </span> <br /> </td> 
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
    <td> Der erste Wert muss sich vom zweiten unterscheiden.<br /> </td> 
-   <td> <strong>@Sprache != Englisch</strong> gibt alle Profile aus, für die im Feld Sprache nicht Englisch angegeben ist.<br /> </td> 
+   <td> <strong>@Sprache != Englisch</strong> ruft Profile ab, für die im Feld „Sprache“ nicht Englisch angegeben ist.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Enthält</span> <br /> </td> 
@@ -206,7 +206,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
    <td> IS NULL<br /> </td> 
    <td> K. A.<br /> </td> 
    <td> Der erste Wert muss einen Nullwert ausgeben.<br /> </td> 
-   <td> <strong>@mobilePhone IS NULL</strong> gibt alle Profile aus, für die keine Mobiltelefonnummer angegeben wurde.<br /> </td> 
+   <td> <strong>@mobilePhone IS NULL</strong> ruft Profile ab, für die keine Mobiltelefonnummer angegeben wurde.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

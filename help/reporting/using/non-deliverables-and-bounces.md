@@ -1,6 +1,6 @@
 ---
 title: Fehler und Bounces
-description: 'Im vordefinierten Bericht über Fehler und Bounces erhalten Sie Informationen zu Fehlern, die während des Versands aufgetreten sind. '
+description: Im vordefinierten Bericht über Fehler und Bounces erhalten Sie Informationen zu Fehlern, die während des Versands aufgetreten sind.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

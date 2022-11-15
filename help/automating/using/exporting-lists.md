@@ -1,6 +1,6 @@
 ---
 title: Listenexport
-description: 'In Adobe Campaign lassen sich die als Listen dargestellten Daten direkt von einem Übersichtsbildschirm in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können. '
+description: In Adobe Campaign lassen sich die als Listen dargestellten Daten direkt von einem Übersichtsbildschirm in eine Datei exportieren, die Sie zu einem späteren Zeitpunkt verwenden können.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data

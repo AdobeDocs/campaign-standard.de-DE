@@ -1,6 +1,6 @@
 ---
 title: Marketingaktivitäten
-description: '"Hier erfahren Sie, wie Sie Ihre Marketing-Aktivitäten erstellen und verwalten können. Dazu zählen Kampagnen, Sendungen von E-Mails, SMS und Push-Benachrichtigungen sowie Landingpages und Workflows. Sie können einfach eine neue Aktivität erstellen, eine vorhandene bearbeiten und deren Status und Gültigkeit einsehen."'
+description: "Hier erfahren Sie, wie Sie Ihre Marketing-Aktivitäten erstellen und verwalten können. Dazu zählen Kampagnen, Sendungen von E-Mails, SMS und Push-Benachrichtigungen sowie Landingpages und Workflows. Sie können einfach eine neue Aktivität erstellen, eine vorhandene bearbeiten und deren Status und Gültigkeit einsehen."
 audience: start
 content-type: reference
 topic-tags: marketing-plans

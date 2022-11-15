@@ -1,5 +1,5 @@
 ---
-title: '"Schritt 3: Erweiterung überprüfen"'
+title: "Schritt 3: Erweiterung überprüfen"
 description: Hier erfahren Sie, wie Sie mit der REST API auf das erweiterte Feld zugreifen können.
 audience: developing
 content-type: reference

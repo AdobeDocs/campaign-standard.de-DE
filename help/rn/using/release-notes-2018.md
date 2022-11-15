@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5413'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Integration von Adobe Launch für Mobile Apps (Betaversion)<br /> </td> 
-   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Launch mit Adobe Campaign wird jetzt die Aktivierung einer Mobile-App-Eigenschaft in Campaign mit dem Mobile SDK V5 vereinfacht und automatisiert.<br /> Lesen Sie für weiterführende Informationen das <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,7 +297,7 @@ _Benutzerdefinierte Ressourcen_
     <ul> 
      <li> Recht auf Zugriff: Die betroffene Person hat das Recht, eine Kopie seiner personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, zu erhalten. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
      <li> Recht auf Löschung: Die betroffene Person hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
-    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
+    </ul> Lesen Sie für weiterführende Informationen das <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer für E-Mail (Betaversion)<br /> </td> 

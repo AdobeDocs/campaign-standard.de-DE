@@ -1,5 +1,5 @@
 ---
-title: 'Produktlisten in Transaktionsnachrichten verwenden            '
+title: Produktlisten in Transaktionsnachrichten verwenden
 description: Erfahren Sie, wie Sie Produktlisten in Transaktionsnachrichten verwenden.
 audience: designing
 content-type: reference
@@ -49,7 +49,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
 
    ![](assets/message-center_loop_palette.png)
 
-1. Wählen Sie aus, wie die Elemente der Kollektion dargestellt werden sollen:
+1. Wählen Sie aus, wie die Elemente der Sammlung dargestellt werden sollen:
 
    * **[!UICONTROL Zeile]**: horizontal, also alle Elemente einer Reihe untereinander.
    * **[!UICONTROL Spalte]**: vertikal, also alle Elemente in einer Reihe nebeneinander.
@@ -66,7 +66,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
 
 1. Wählen Sie in der Dropdown-Liste **[!UICONTROL 1. Element]** das Element aus, das in der Liste der E-Mail als erstes Element erscheinen soll.
 
-   Wenn Sie z. B. &quot;2&quot; auswählen, wird das erste Element der Kollektion nicht in der E-Mail angezeigt. Die Produktliste beginnt in diesem Fall mit dem zweiten Element.
+   Wenn Sie z. B. &quot;2&quot; auswählen, wird das erste Element der Sammlung nicht in der E-Mail angezeigt. Die Produktliste beginnt in diesem Fall mit dem zweiten Element.
 
 1. Wählen Sie die Höchstzahl der Elemente aus, die in der Liste angezeigt werden sollen.
 
@@ -127,10 +127,10 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
    ![](assets/message-center_loop_fallback.png)
 
-   Der Fallback-Inhalt wird angezeigt, wenn die Kollektion beim Auslösen des Triggers leer ist. Das ist beispielsweise dann der Fall, wenn ein Kunde nichts im Warenkorb liegen hat.
+   Der Fallback-Inhalt wird angezeigt, wenn die Sammlung beim Auslösen des Triggers leer ist. Das ist beispielsweise dann der Fall, wenn ein Kunde nichts im Warenkorb liegen hat.
 
 1. Bearbeiten Sie im Einstellungsbereich die Formatvorlagen der Produktliste. Weitere Informationen dazu finden Sie im Abschnitt [E-Mail-Stile verwalten](../../designing/using/styles.md).
-1. Sehen Sie sich die E-Mail in der Vorschau an, indem Sie ein Testprofil verwenden, das mit dem entsprechenden Transaktionsereignis verknüpft ist und für das Sie Kollektionsdaten definiert haben. Fügen Sie für das Testprofil, das Sie verwenden möchten, beispielsweise die folgenden Informationen zum Abschnitt **[!UICONTROL Ereignisdaten]** hinzu:
+1. Sehen Sie sich die E-Mail in der Vorschau an, indem Sie ein Testprofil verwenden, das mit dem entsprechenden Transaktionsereignis verknüpft ist und für das Sie Sammlungsdaten definiert haben. Fügen Sie für das Testprofil, das Sie verwenden möchten, beispielsweise die folgenden Informationen zum Abschnitt **[!UICONTROL Ereignisdaten]** hinzu:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 

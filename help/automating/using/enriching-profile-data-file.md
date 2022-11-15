@@ -45,17 +45,17 @@ Der Workflow setzt sich aus folgenden Aktivitäten zusammen:
 
    Nachdem die Relation erstellt wurde, werden zwei Sätze von **[!UICONTROL Zusatzdaten]** hinzugefügt:
 
-   * Eine Kollektion von zwei Zeilen, die den zwei letzten Transaktionen eines jeden Profils entsprechen. Für diese Kollektion werden der Produktname, das Transaktionsdatum und der Preis des Produkts als Zusatzdaten hinzugefügt. Die Daten werden absteigend sortiert. So erstellen Sie die Kollektion im Tab **[!UICONTROL Zusatzdaten]**:
+   * Eine Sammlung von zwei Zeilen, die den zwei letzten Transaktionen eines jeden Profils entsprechen. Für diese Sammlung werden der Produktname, das Transaktionsdatum und der Preis des Produkts als Zusatzdaten hinzugefügt. Die Daten werden absteigend sortiert. So erstellen Sie die Sammlung im Tab **[!UICONTROL Zusatzdaten]**:
 
       Wählen Sie die zuvor definierte Relation im Tab **[!UICONTROL Erweiterte Relationen]** der Aktivität aus.
 
       ![](assets/enrichment_example_workflow3.png)
 
-      Aktivieren Sie **[!UICONTROL Kollektion]** und wählen Sie die Anzahl der Zeilen aus, die abgerufen werden sollen (in diesem Beispiel 2). Auf dieser Bildschirmseite können Sie den **[!UICONTROL Alias]** und den **[!UICONTROL Titel]** der Kollektion eingeben. Diese Werte sind bei den nachfolgenden Aktivitäten des Workflows sichtbar, wenn auf diese Kollektion Bezug genommen wird.
+      Aktivieren Sie **[!UICONTROL Sammlung]** und wählen Sie die Anzahl der Zeilen aus, die abgerufen werden sollen (in diesem Beispiel 2). Auf dieser Bildschirmseite können Sie den **[!UICONTROL Alias]** und den **[!UICONTROL Titel]** der Sammlung eingeben. Diese Werte sind bei den nachfolgenden Aktivitäten des Workflows sichtbar, wenn auf diese Sammlung Bezug genommen wird.
 
       ![](assets/enrichment_example_workflow4.png)
 
-      Wählen Sie als **[!UICONTROL Daten]**, die in der Kollektion beibehalten werden sollen, die Spalten aus, die im endgültigen Versand verwendet werden.
+      Wählen Sie als **[!UICONTROL Daten]**, die in der Sammlung beibehalten werden sollen, die Spalten aus, die im endgültigen Versand verwendet werden.
 
       ![](assets/enrichment_example_workflow6.png)
 

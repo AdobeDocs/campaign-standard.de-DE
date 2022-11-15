@@ -155,7 +155,7 @@ Um eine Transaktions-Push-Benachrichtigung an die Adobe Campaign-Profile zu send
 
 1. [Erstellen Sie eine Vorschau und veröffentlichen Sie das Ereignis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-   Bei der Vorschau des Ereignisses enthält die REST-API kein Attribut, das das Anmeldetoken, den App-Namen und die Push-Plattform spezifiziert, da diese Informationen aus der Ressource **[!UICONTROL Profil]** entnommen werden.
+   Bei der Vorschau des Ereignisses enthält die REST-API kein Attribut, das das Anmeldetoken, den App-Namen und die Push-Plattform spezifiziert, da diese Informationen aus der Ressource **[!UICONTROL Profil]** abgerufen werden.
 
    Mit Ausführung der Veröffentlichung wird automatisch eine dem neuen Ereignis entsprechende Transaktions-Push-Benachrichtigung erzeugt. Sie können jetzt die soeben erstellte Nachricht ändern und veröffentlichen (siehe [diesen Abschnitt](#sending-profile-based-transactional-push-notification)).
 

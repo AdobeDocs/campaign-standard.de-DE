@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Folgende Verben stehen zur Ausführung von Operationen auf die Ressourcen zur Verfügung:
 
-* `GET`: ruft ein Element oder eine Kollektion von Elementen ab.
+* `GET`: ruft ein Element oder eine Sammlung von Elementen ab.
 * `POST`: erstellt eine Ressource mit Parametern.
 * `PATCH`: aktualisiert eine Ressource mit Parametern.
 * `DELETE`: löscht eine Ressource.
@@ -30,7 +30,7 @@ Folgende Verben stehen zur Ausführung von Operationen auf die Ressourcen zur Ve
 
 ***Beispielanfragen***
 
-* Beispielhafte GET-Anfrage für die Profilkollektion.
+* Beispielhafte GET-Anfrage für die Profilsammlung.
 
 
    ```

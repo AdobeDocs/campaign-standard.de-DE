@@ -1,5 +1,5 @@
 ---
-title: 'Beispiele für Abfragen '
+title: Beispiele für Abfragen
 description: In diesem Abschnitt wird der Anwendungsfall bei Verwendung einer Abfrageaktivität erläutert.
 audience: automating
 content-type: reference

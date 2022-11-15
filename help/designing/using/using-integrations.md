@@ -1,5 +1,5 @@
 ---
-title: 'Erstellen von E-Mails mit Adobe Campaign-Integrationen '
+title: Erstellen von E-Mails mit Adobe Campaign-Integrationen
 description: Erfahren Sie, wie Sie in Email Designer E-Mails mithilfe von Adobe Campaign-Integrationen erstellen.
 audience: designing
 content-type: reference

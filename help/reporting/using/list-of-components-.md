@@ -1,5 +1,5 @@
 ---
-title: 'Liste von Komponenten '
+title: Liste von Komponenten
 description: Hier finden Sie die Liste der in dynamischen Berichten enthaltenen Komponenten sowie ihre Definitionen.
 audience: reporting
 content-type: reference

@@ -1,5 +1,5 @@
 ---
-title: 'Erstellen von E-Mails aus vorhandenen Inhalten '
+title: Erstellen von E-Mails aus vorhandenen Inhalten
 description: Erfahren Sie, wie Sie in Email Designer E-Mails aus vorhandenen Inhalten erstellen.
 audience: designing
 content-type: reference

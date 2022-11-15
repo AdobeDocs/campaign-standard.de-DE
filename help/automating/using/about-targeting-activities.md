@@ -63,7 +63,7 @@ Mithilfe des Tabs **[!UICONTROL Zusatzdaten]** der Aktivitäten **[!UICONTROL Ab
 
 * einfache Daten
 * Aggregate
-* Kollektionen
+* Sammlungen
 
 **Verwandte Themen:**
 
