@@ -11,7 +11,7 @@ exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
    >
    >Vorlagen für Folgenachrichten und A/B-Tests werden standardmäßig verborgen. Aktivieren Sie die Optionen auf der linken Seite (seitliches Fenster **[!UICONTROL Filter]**), um sie anzuzeigen.
 
-1. Geben Sie die allgemeinen E-Mail-Eigenschaften an. Benennen Sie die Aktivität im Feld **Titel** und passen Sie gegebenenfalls die Kennung an.
+1. Geben Sie die allgemeinen E-Mail-Eigenschaften an. Geben Sie im Feld **Titel** einen Namen ein und passen Sie gegebenenfalls die Kennung an.
 
    >[!NOTE]
    >
-   >Titel und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfänger nicht sichtbar.
+   >Name und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfangenden nicht sichtbar.
    >
-   >Achten Sie darauf, dass das ID-Feld keinen Leerraum enthält, um Diskrepanzen zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
+   >Achten Sie darauf, dass das ID-Feld kein Leerzeichen enthält, um Unstimmigkeiten zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
 
    Fügen Sie bei Bedarf eine Beschreibung hinzu. Diese ist im Kampagneninhalt sichtbar.
 

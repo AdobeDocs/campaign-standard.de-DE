@@ -12,7 +12,7 @@ exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefo
 
    >[!NOTE]
    >
-   >Titel und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfänger nicht sichtbar.
+   >Name und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfangenden nicht sichtbar.
    >
-   >Achten Sie darauf, dass das ID-Feld keinen Leerraum enthält, um Diskrepanzen zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
+   >Achten Sie darauf, dass das ID-Feld kein Leerzeichen enthält, um Unstimmigkeiten zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
 
 1. Wählen Sie die zu kontaktierende Audience aus. Sie können eine bestehende Audience auswählen oder direkt eine Population erstellen, indem Sie Regeln definieren und kombinieren.
 

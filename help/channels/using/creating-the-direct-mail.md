@@ -12,7 +12,7 @@ exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 
    >[!NOTE]
    >
-   >Titel und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfänger nicht sichtbar.
+   >Name und Kennung der Aktivität erscheinen in der Benutzeroberfläche, sind jedoch für die Nachrichtenempfangenden nicht sichtbar.
    >
-   >Achten Sie darauf, dass das ID-Feld keinen Leerraum enthält, um Diskrepanzen zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
+   >Achten Sie darauf, dass das ID-Feld kein Leerzeichen enthält, um Unstimmigkeiten zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
 
 1. Definieren Sie die Audience, die in der Extraktionsdatei enthalten sein soll, sowie die Profile, die getestet und mit Fallen versehen werden sollen. Siehe [Briefpost-Audience definieren](../../channels/using/defining-the-direct-mail-audience.md).
 
@@ -60,7 +60,7 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 
 1. Wenn Sie Testprofile hinzufügen (siehe [Test- und Fallen-Profile hinzufügen](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), können Sie Ihren Versand testen, bevor Sie die endgültige Datei fertigstellen. Dadurch können Sie eine Beispieldatei erstellen, die nur die ausgewählten Testprofile enthält.
 
-   Klicken Sie auf **[!UICONTROL Test]**, um die Beispieldatei zu erstellen. Wählen Sie links oben  **[!UICONTROL Zusammenfassung]** aus und danach **[!UICONTROL Testsendungen]**. Wählen Sie auf der linken Bildschirmseite den Testversand aus und danach **[!UICONTROL Datei herunterladen]**.
+   Klicken Sie auf **[!UICONTROL Test]**, um die Beispieldatei zu erstellen. Wählen Sie links oben **[!UICONTROL Zusammenfassung]** aus und danach **[!UICONTROL Testsendungen]**. Wählen Sie auf der linken Bildschirmseite den Testversand aus und danach **[!UICONTROL Datei herunterladen]**.
 
    >[!NOTE]
    >
