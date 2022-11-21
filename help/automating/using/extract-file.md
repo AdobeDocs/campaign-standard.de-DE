@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 92%
 
 ---
 
@@ -73,6 +73,12 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
 1. Klicken Sie auf den **[!UICONTROL Dateistruktur]**-Tab, um das Ausgabe-, Datums- und Zahlenformat der zu exportierenden Datei zu konfigurieren.
 
    Wenn Sie Auflistungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Auflistungen exportieren]**. Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie Daten in eine CSV-Datei mit einer bestimmten Kodierung extrahieren möchten, wählen Sie zunächst das Ausgabeformat &quot;Text&quot;aus. Wählen Sie die gewünschte Kodierung aus der Dropdown-Liste aus und ändern Sie dann das Ausgabeformat in &quot;CSV (Excel)&quot;.
 
 1. Wählen Sie im Tab **[!UICONTROL Eigenschaften]** die Option **[!UICONTROL Keine Datei erstellen, wenn die eingehende Transition leer ist]** aus, um zu verhindern, dass leere Dateien erstellt und auf SFTP-Server hochgeladen werden, wenn die eingehende Transition leer ist.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
