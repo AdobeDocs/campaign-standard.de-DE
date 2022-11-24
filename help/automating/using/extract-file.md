@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
 
    >[!NOTE]
    >
-   >Wenn Sie Daten in eine CSV-Datei mit einer bestimmten Kodierung extrahieren möchten, wählen Sie zunächst das Ausgabeformat &quot;Text&quot;aus. Wählen Sie die gewünschte Kodierung aus der Dropdown-Liste aus und ändern Sie dann das Ausgabeformat in &quot;CSV (Excel)&quot;.
+   >Wenn Sie Daten in eine CSV-Datei mit einer bestimmten Codierung extrahieren möchten, wählen Sie zunächst das Ausgabeformat „Text“ aus. Wählen Sie die gewünschte Codierung aus der Dropdown-Liste aus und ändern Sie dann das Ausgabeformat in „CSV (Excel)“.
 
 1. Wählen Sie im Tab **[!UICONTROL Eigenschaften]** die Option **[!UICONTROL Keine Datei erstellen, wenn die eingehende Transition leer ist]** aus, um zu verhindern, dass leere Dateien erstellt und auf SFTP-Server hochgeladen werden, wenn die eingehende Transition leer ist.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
