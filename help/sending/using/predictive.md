@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 78%
@@ -20,6 +20,7 @@ ht-degree: 78%
 Mit Campaign können Sie die Gestaltung und den Versand von Customer Journeys optimieren, um die Interaktionsvorlieben von Kontakten vorherzusagen. Mit der auf KI und maschinellem Lernen basierenden Sendezeitoptimierung und der prädiktiven Interaktionsbewertung von Adobe Campaign können Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderung auf der Grundlage historischer Interaktionsmetriken analysiert und vorhergesagt werden.
 
 >[!IMPORTANT]
+>
 >Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
 
 Adobe Campaign bietet zwei neue Modelle für maschinelles Lernen: **Prädiktive Sendezeitoptimierung** und **Prädiktive Interaktionsbewertung**. Bei diesen beiden Modellen handelt es sich um Modelle für maschinelles Lernen, die speziell für die Erstellung und Bereitstellung besserer Customer Journeys entwickelt wurden.
@@ -35,6 +36,7 @@ Die prädiktive Sendezeitoptimierung prognostiziert für jedes Empfängerprofil 
 Innerhalb des prädiktiven Sendezeit-Optimierungsmodells gibt es zwei Untermodelle:
 
 * **Die prädiktive Sendezeit für Öffnungen ist die beste Zeit, zu der eine Kommunikation an den Kunden gesendet werden muss, um Öffnungen zu maximieren.**
+
 * **Die prädiktive Sendezeit für Klicks ist die beste Zeit, zu der eine Kommunikation an den Kunden gesendet werden muss, um Klicks zu maximieren.**
 
 **Modelleingabe**: Versandlogs, Trackinglogs und Profilattribute (Nicht-PII)
@@ -77,6 +79,7 @@ Standardmäßig geben die Profilbewertungen die beste Tageszeit für jeden Woche
 ### Nachrichten zum besten Zeitpunkt senden{#use-predictive-send-time}
 
 Damit die E-Mails zum optimalen Zeitpunkt pro Profil gesendet werden, muss der Versand mit der Option **[!UICONTROL Zu einem durch eine Formel definierten Datum senden]** geplant werden.
+
 Erfahren Sie [in diesem Abschnitt](../../sending/using/computing-the-sending-date.md), wie Sie das Versanddatum berechnen.
 
 Die Formel muss mit der besten Tageszeit des jeweiligen Tages ausgefüllt werden, an dem der Versand ausgeführt werden soll.
@@ -86,7 +89,7 @@ Die Formel muss mit der besten Tageszeit des jeweiligen Tages ausgefüllt werden
 Beispiel einer Formel:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
