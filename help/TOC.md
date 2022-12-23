@@ -5,7 +5,7 @@ user-guide-description: Hilfezentrum für die wichtigsten Funktionen, Aufgaben, 
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
 source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1814'
 ht-degree: 100%
 
