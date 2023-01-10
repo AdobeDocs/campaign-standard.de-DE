@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Mit Campaign können Sie die Gestaltung und den Versand von Customer Journeys op
 
 Adobe Campaign bietet zwei neue Modelle für maschinelles Lernen: **Prädiktive Sendezeitoptimierung** und **Prädiktive Interaktionsbewertung**. Bei diesen beiden Modellen handelt es sich um Modelle für maschinelles Lernen, die speziell für die Erstellung und Bereitstellung besserer Customer Journeys entwickelt wurden.
 
-* **Prädiktive Sendezeitoptimierung** sagt für jedes Empfängerprofil voraus, welche die beste Sendezeit für E-Mail-Öffnungen oder Klicks und Push-Öffnungen ist. Für jedes Empfängerprofil kann anhand von Werten festgestellt werden, was die beste Sendezeit für jeden Wochentag ist und welcher Wochentag beim Senden die besten Ergebnisse liefert.
+* **Die prädiktive Sendezeitoptimierung** prognostiziert für jedes Empfängerprofil den besten Sendezeitpunkt für E-Mail-Öffnungen oder -Klicks und für Öffnungen von Push-Nachrichten. Für jedes Empfängerprofil kann anhand von Werten festgestellt werden, was die beste Sendezeit für jeden Wochentag ist und welcher Wochentag beim Senden die besten Ergebnisse liefert.
 
-* **Prädiktive Interaktionsbewertung**: prognostiziert die Wahrscheinlichkeit, mit der ein Empfänger mit einer Nachricht interagiert, sowie die Wahrscheinlichkeit, dass er sich innerhalb der nächsten sieben Tage nach dem nächsten E-Mail-Versand abmeldet. Die Wahrscheinlichkeiten werden je nach vorhergesagter Interaktion mit Ihrem Inhalt in verschiedene Kategorien eingeteilt: hoch, mittel oder niedrig. Diese Modelle liefern auch den prozentualen Rang des Abmelderisikos für die Kundinnen und Kunden, um zu verdeutlichen, wo der Rang einer/eines bestimmten Kundin/Kunden im Vergleich zu anderen liegt.
+* Die **prädiktive Interaktionsbewertung** sagt die Wahrscheinlichkeit voraus, mit der ein Empfänger mit einer Nachricht interagiert, sowie die Wahrscheinlichkeit, mit der er sich innerhalb der nächsten sieben Tage nach dem nächsten E-Mail-Versand abmeldet. Die Wahrscheinlichkeiten werden je nach vorhergesagter Interaktion mit Ihrem Inhalt in verschiedene Kategorien eingeteilt: hoch, mittel oder niedrig. Diese Modelle liefern auch den prozentualen Rang des Abo-Abmelderisikos für die Kundinnen und Kunden, um zu verdeutlichen, wo der Rang einer/eines bestimmten Kundin/Kunden im Vergleich zu anderen liegt.
 
 ## Prädiktive Sendezeitoptimierung{#predictive-send-time}
 
@@ -45,20 +45,20 @@ Innerhalb des prädiktiven Sendezeit-Optimierungsmodells gibt es zwei Untermodel
 
 Ausgabedetails
 
-* Berechnet die beste Tageszeit für den Versand einer E-Mail an den 7 Wochentagen mit 1-Stunden-Intervallen (z. B.: 9:00 Uhr, 10:00 Uhr, 11:00 Uhr)
+* Berechnet die beste Tageszeit für den Versand einer E-Mail an den sieben Wochentagen in Intervallen von einer Stunde (z. B.: 9:00 Uhr, 10:00 Uhr, 11:00 Uhr).
 * Das Modell zeigt den besten Tag der Woche und die beste Stunde an diesem Tag an.
 * Jede optimale Zeit wird zweimal berechnet: einmal zur Maximierung der Öffnungsrate und einmal zur Maximierung der Klickrate.
 * Es werden 16 Felder angegeben (14 für die Wochentage und 2 für die ganze Woche):
 
-* Optimale Zeit für den Versand einer E-Mail zur Optimierung der Klicks für Montag - Werte zwischen 0 und 23
+* Die beste Zeit zum Senden einer E-Mail, um Klicks für Montag zu optimieren – Werte zwischen 0 und 23
 
-* Optimale Zeit für den Versand einer E-Mail zur Optimierung der Öffnungen für Montag - Werte zwischen 0 und 23
+* Die beste Zeit zum Senden einer E-Mail, um Öffnungen für Montag zu optimieren – Werte zwischen 0 und 23
 * ...
-* Optimale Zeit für den Versand einer E-Mail zur Optimierung der Klicks für Sonntag - Werte zwischen 0 und 23
-* Optimale Zeit zum Senden einer E-Mail zur Optimierung der Öffnungen für Sonntag - Werte zwischen 0 und 23
+* Die beste Zeit zum Senden einer E-Mail, um Klicks für Sonntag zu optimieren – Werte zwischen 0 und 23
+* Die beste Zeit zum Senden einer E-Mail, um Öffnungen für Sonntag zu optimieren – Werte zwischen 0 und 23
 * ...
-* Optimaler Tag für den Versand einer E-Mail zur Optimierung der Öffnungen über die ganze Woche - Montag bis Sonntag
-* Optimale Zeit für den Versand einer E-Mail zur Optimierung der Öffnungen über die ganze Woche - Werte zwischen 0 und 23
+* Der beste Tag zum Senden einer E-Mail, um die Öffnungen für die ganze Woche zu optimieren – Montag bis Sonntag
+* Die beste Zeit zum Senden einer E-Mail, um Öffnungen für die ganze Woche zu optimieren – Werte zwischen 0 und 23
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Ausgabedetails
 >
 >Diese prädiktiven Funktionen sind nur für E-Mail- und Push-Kanäle verfügbar.
 
-Nach der Implementierung in Campaign reichern die Funktionen für maschinelles Lernen die Profildaten mit neuen Tabs mit den besten Öffnungs- /Klickbewertungen an. Die Metriken werden mithilfe technischer Workflows berechnet und in Campaign eingebracht.
+Nach der Implementierung in Campaign reichern die Funktionen für maschinelles Lernen die Profildaten mit neuen Registerkarten mit den besten Öffnungs-/Klickbewertungen an. Die Metriken werden mithilfe technischer Workflows berechnet und in Campaign eingebracht.
 
 Um auf diese Metriken zuzugreifen:
 
@@ -80,7 +80,7 @@ Standardmäßig geben die Profilbewertungen die beste Tageszeit für jeden Woche
 
 ### Nachrichten zum besten Zeitpunkt senden{#use-predictive-send-time}
 
-Damit die E-Mails zum optimalen Zeitpunkt pro Profil gesendet werden, muss der Versand mit der Option **[!UICONTROL Zu einem durch eine Formel definierten Datum senden]** geplant werden.
+Damit die E-Mails zum optimalen Zeitpunkt je nach Profil gesendet werden, muss der Versand mit der Option **[!UICONTROL Zu einem durch eine Formel definierten Datum senden]** geplant werden.
 
 Erfahren Sie [in diesem Abschnitt](../../sending/using/computing-the-sending-date.md), wie Sie das Versanddatum berechnen.
 
@@ -105,20 +105,20 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 Die Bewertung prädiktiver Interaktionen sagt die Wahrscheinlichkeit voraus, mit der Empfangende mit einer Nachricht interagieren, sowie die Wahrscheinlichkeit, mit der sie sich innerhalb der nächsten sieben Tage nach dem nächsten E-Mail-Versand abmelden.
 
-Die Wahrscheinlichkeiten werden je nach vorhergesagter Interaktion mit Ihrem Inhalt in verschiedene Kategorien eingeteilt: hoch, mittel oder niedrig. Diese Modelle liefern auch den prozentualen Rang des Abmelderisikos für die Kundinnen und Kunden, um zu verdeutlichen, wo der Rang einer/eines bestimmten Kundin/Kunden im Vergleich zu anderen liegt.
+Die Wahrscheinlichkeiten werden je nach vorhergesagter Interaktion mit Ihrem Inhalt in verschiedene Kategorien eingeteilt: hoch, mittel oder niedrig. Diese Modelle liefern auch den prozentualen Rang des Abo-Abmelderisikos für die Kundinnen und Kunden, um zu verdeutlichen, wo der Rang einer/eines bestimmten Kundin/Kunden im Vergleich zu anderen liegt.
 
-Die prädiktive Interaktionsbewertung ermöglicht Ihnen Folgendes:
+Mit der Bewertung prädiktiver Interaktionen können Sie Folgendes tun:
 
-* **Auswählen einer Zielgruppe**: Mithilfe der Abfrageaktivität können Sie die Audience auswählen, mit der eine bestimmte Nachricht interagiert werden soll
-* **Ausschluss einer Zielgruppe**: Mithilfe der Abfrageaktivität können Sie die Audience entfernen, die sich wahrscheinlicher abmeldet
-* **Personalisieren**: Personalisieren Sie Nachrichten basierend auf dem Grad der Interaktion (stark interaktive Benutzer erhalten eine andere Nachricht als nicht interaktive).
+* **Eine Audience auswählen**: Mithilfe der Abfrageaktivität können Sie die Audience auswählen, an die eine bestimmte Nachricht gesendet werden soll.
+* **Ausschluss einer Audience**: Mithilfe der Abfrageaktivität können Sie die Audience entfernen, die mit höherer Wahrscheinlichkeit das Abo beendet
+* **Personalisieren**: Personalisieren Sie die Nachricht basierend auf dem Grad der Interaktion (hochgradig interaktive Benutzende erhalten eine andere Nachricht als nicht interaktive).
 
 Dieses Modell verwendet mehrere Bewertungen, um Folgendes anzugeben:
 
 * **Interaktionsbewertung für Öffnungen/Interaktionsbewertung für Klicks**: Dieser Wert entspricht der Wahrscheinlichkeit, mit der sich ein Abonnent mit einer bestimmte Nachricht beschäftigt (Öffnung oder Klick). Die Werte liegen zwischen 0,0 und 1,0.
-* **Abmeldewahrscheinlichkeit**: Dieser Wert entspricht der Wahrscheinlichkeit, dass der Empfänger sich von einem E-Mail-Kanal abmeldet, nachdem er eine E-Mail geöffnet hat. Die Werte liegen zwischen 0,0 und 1,0.
-* **Bindungsgrad**: Dieser Wert unterteilt Benutzer in drei Stufen: niedrig, mittel und hoch. Dabei bedeutet &quot;hoch&quot;, dass sie höchstwahrscheinlich bei der Marke bleiben, und &quot;niedrig&quot;, dass sie sich wahrscheinlich abmelden.
-* **Perzentilrang der Bindung**: Rang des Profils in Bezug auf die Abmeldewahrscheinlichkeit. Die Werte liegen zwischen 0,0 und 1,0. Wenn der Perzentilrang der Bindung beispielsweise 0,953 beträgt, bleibt dieser Empfänger mit größerer Wahrscheinlichkeit bei der Marke und hat eine geringere Wahrscheinlichkeit, sich abzumelden, als 95,3 % aller Empfänger.
+* **Abmeldewahrscheinlichkeit**: Dieser Wert entspricht der Wahrscheinlichkeit, dass der Empfänger ein E-Mail-Kanal-Abo beendet, nachdem er eine E-Mail geöffnet hat. Die Werte liegen zwischen 0,0 und 1,0.
+* **Bindungsgrad**: Dieser Wert unterteilt Benutzende in drei Stufen: niedrig, mittel und hoch. Dabei bedeutet &quot;hoch&quot;, dass sie höchstwahrscheinlich bei der Marke bleiben, und &quot;niedrig&quot;, dass sie sich wahrscheinlich das Abo beenden.
+* **Perzentilrang der Bindung**: Rang des Profils in Bezug auf die Abmeldewahrscheinlichkeit. Die Werte liegen zwischen 0,0 und 1,0. Wenn der Perzentilrang der Bindung beispielsweise 0,953 beträgt, bleibt dieser Empfänger mit größerer Wahrscheinlichkeit bei der Marke und hat eine geringere Wahrscheinlichkeit das Abo zu beenden als 95,3 % aller Empfänger.
 
 >[!NOTE]
 >
