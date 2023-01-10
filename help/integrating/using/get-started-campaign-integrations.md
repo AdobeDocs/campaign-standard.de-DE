@@ -63,7 +63,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Adobe Analytics<br /> </td> 
    <td> Dient der Überprüfung des Erfolgs Ihres E-Mail-Versands direkt in Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Freigabe von Daten in Campaign mit Analytics</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Share KPIs for integrated Campaign reporting</a> Video (Schritt 1))
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Freigabe von Daten in Campaign mit Analytics</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">Share KPIs for integrated Campaign reporting</a> Video (Schritt 1))
     </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> Ermöglicht den Versand personalisierter E-Mails über Adobe Campaign an Ihre Kunden als Reaktion auf bestimmte Verhaltensweisen, die von Adobe Analytics auf Ihrer Website beobachtet werden.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Verwenden von Experience Cloud Triggers in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Anwendungsbeispiele zur Abbruchsauslösung in Campaign</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Trigger Remarketing Messages based on Site Activity</a> Video (Schritt 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Verwenden von Experience Cloud Triggers in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Anwendungsbeispiele zur Abbruchsauslösung in Campaign</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">Trigger Remarketing Messages based on Site Activity</a> Video (Schritt 2)
     </td> 
   </tr> 
     <tr> 
