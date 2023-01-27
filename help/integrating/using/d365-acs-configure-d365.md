@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 100%
+source-wordcount: '1001'
+ht-degree: 98%
 
 ---
 
@@ -41,22 +41,20 @@ Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
-### Neue Anwendung registrieren {#register-a-new-app}
+### Neue Anwendung registrieren   {#register-a-new-app}
 
-1. Melden Sie sich mit Ihren Administratoranmeldedaten bei portal.azure.com an.
+1. Melden Sie sich unter Ihrer Administratoranmeldung bei [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
 1. Wählen Sie im Menü links **[!UICONTROL Azure Active Directory]** und dann im angezeigten Untermenü **[!UICONTROL App-Registrierungen]** aus.
 
 1. Wählen Sie oben im Bildschirm **[!UICONTROL Neue Registrierung]** aus.
-
-   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Füllen Sie den Registrierungsbildschirm für die App aus:
 
    * Name: adobe campaign       `<stage or prod>`
    * Unterstützter Kontotyp: **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis]** (Standardwert)
 
-Weiterführende Informationen zur Erstellung einer neuen Anwendung finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app).
+Weiterführende Informationen zur Erstellung einer neuen Anwendung finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,8 +63,6 @@ Weiterführende Informationen zur Erstellung einer neuen Anwendung finden Sie in
 ### Client-Geheimnis generieren {#generate-a-client-secret}
 
 1. Wählen Sie im Bildschirm mit der App-Übersicht im Untermenü auf der linken Seite **[!UICONTROL Zertifikate und Geheimnisse > Neues Client-Geheimnis]** aus.
-
-   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Geben Sie eine Beschreibung ein, legen Sie eine Laufzeit fest und wählen Sie **[!UICONTROL OK]** aus.
 
@@ -81,13 +77,9 @@ Ihr Client-Geheimnis wird jetzt erstellt. Bewahren Sie den Wert vorübergehend f
 
 1. Wählen Sie in diesem Bildschirm oder im Bildschirm mit der App-Übersicht im Untermenü links **[!UICONTROL API-Berechtigungen]** aus.  Nachdem Sie **[!UICONTROL Berechtigung hinzufügen]** ausgewählt haben, wählen Sie **[!UICONTROL Dynamics CRM]** im Menü aus.
 
-   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
-
 1. Markieren Sie anschließend die Checkbox für **[!UICONTROL user_impersonation]** und wählen Sie die Schaltfläche **[!UICONTROL Berechtigungen hinzufügen]** aus.
 
-   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
-
-Weiterführende Informationen zum Einrichten von Berechtigungen finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
+Weiterführende Informationen zum Einrichten von Berechtigungen finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
 
 ### App-Anwender erstellen
 
@@ -109,7 +101,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
    * **[!UICONTROL Vollständiger Name]**: Adobe-API.       `<stage or prod>`
    * **[!UICONTROL E-Mail]**: identisch mit **[!UICONTROL Benutzername]** (oder der E-Mail-Adresse des Administrators, falls gewünscht).
 
-   Weiterführende Informationen zur Erstellung von Anwendern finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   Weiterführende Informationen zur Erstellung von Anwendern finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. Wählen Sie das Anwendersymbol aus und laden Sie ein Adobe Campaign-Symbol hoch. Dies ist das Symbol, das in der Timeline-Ansicht angezeigt wird, wenn in Dynamics 365 neue Adobe-Ereignisse erscheinen.
 
@@ -128,7 +120,8 @@ Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de
 Gehen Sie wie folgt vor, um die Dynamics 365-App in die Campaign Standard-Umgebung zu integrieren:
 
 1. Navigieren Sie zum folgenden Link: [https://appsource.microsoft.com/de-de/marketplace/apps](https://appsource.microsoft.com/de-de/marketplace/apps) und suchen Sie in der Suchleiste nach _Adobe Campaign for Dynamics 365_.
-Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview) navigieren.
+Alternativ können Sie zu dieser [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
+{target="_blank"}.
 1. Befolgen Sie die Anweisungen zum Installieren der App für Ihre Dynamics 365-Instanz.
 1. Nach der Installation navigieren Sie zu Ihrer Dynamics 365-Instanz und melden Sie sich als Administrator an.
 1. Wählen Sie das Zahnradsymbol oben rechts und dann **[!UICONTROL Erweiterte Einstellungen]** aus. Wählen Sie im oberen Banner das Dropdown-Menü neben **[!UICONTROL Einstellungen]** und dann **[!UICONTROL Prozesse]** unter **[!UICONTROL Process Center]** aus.
