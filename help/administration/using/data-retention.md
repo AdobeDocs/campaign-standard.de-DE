@@ -6,47 +6,32 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 18%
 
 ---
 
 # Datenspeicherung{#data-retention}
 
-Die Standard-Protokolltabellen in Campaign verfügen über voreingestellte Speicherungszeiträume, die die Dauer der Datenspeicherung begrenzen.
+Standard-Log-Tabellen in Campaign verfügen über vordefinierte Beibehaltungszeiträume, mit denen ihre Datenspeicherdauer begrenzt wird, um eine Überlastung Ihres Systems zu vermeiden.
 
-Im Folgenden finden Sie die standardmäßige Dauer der Beibehaltung für Standardtabellen. Beachten Sie, dass diese Beibehaltungswerte von den technischen Adobe-Administratoren während der Implementierung festgelegt werden und daher je nach Kundenanforderungen variieren können.
+Die Konfiguration der Datenaufbewahrung wird von technischen Administratoren der Adobe während der Implementierung festgelegt. Die Werte können je nach Kundenanforderungen für jede Implementierung variieren.
 
-+++[!DNL Campaign Standard] 22.3 oder höher
+Wenden Sie sich an Berater oder technische Administratoren der Adobe, um mehr über die für Ihre Umgebung geltenden Aufbewahrungsfristen zu erfahren oder benutzerdefinierte Aufbewahrungsfristen festzulegen.
 
-* **Konsolidiertes Tracking**: 1 Monat
-* **Versandlogs**: 1 Monat
-* **Trackinglogs**: 1 Monat
+Beachten Sie, dass es bei Verwendung der standardmäßigen Workflow-Funktionalität möglich ist, Beibehaltungszeiträume für jede benutzerdefinierte Tabelle einzurichten.
+
+Nachfolgend finden Sie die standardmäßigen Aufbewahrungsfristen für Standardtabellen. Wenn möglich und abhängig von Ihrer Datennutzung empfiehlt Ihnen die Adobe, zu den empfohlenen Aufbewahrungszeiträumen zu wechseln, um die Leistung Ihrer Campaign-Instanz zu verbessern.
+
+* **Konsolidiertes Tracking**: 6 Monate (empfohlen): 1 Monat)
+* **Versandlogs**: 6 Monate (empfohlen): 1 Monat)
+* **Trackinglogs**: 6 Monate (empfohlen): 1 Monat)
 * **Ereignisse**: 1 Monat
-* **Statistiken zur Ereignisverarbeitung**: 1 Monat
-* **Ereignisse mit Verlauf**: 1 Monat
+* **Statistiken zur Ereignisverarbeitung**: 6 Monate (empfohlen: 1 Monat)
+* **Ereignisse mit Verlauf**: 6 Monate (empfohlen): 1 Monat)
 * **Vorläufige Entitäten**: 7 Tage
 * **Ignorierte Pipeline-Ereignisse**: 1 Monat
 * **Versandwarnungen**: 1 Monat
-* **Export-Audit**: 1 Monat
-+++
-
-+++ Vorherige [!DNL Campaign Standard]-Builds
-
-* **Konsolidiertes Tracking**: 6 Monate
-* **Versandlogs**: 6 Monate
-* **Trackinglogs**: 6 Monate
-* **Ereignisse**: 1 Monat
-* **Statistiken zur Ereignisverarbeitung**: 6 Monate
-* **Ereignisse mit Verlauf**: 6 Monate
-* **Vorläufige Entitäten**: 7 Tage
-* **Ignorierte Pipeline-Ereignisse**: 1 Monat
-* **Versandwarnungen**: 1 Monat
-* **Export-Audit**: 6 Monate
-+++
-
-Die Beibehaltungsdauer für benutzerdefinierte Tabellen kann mithilfe standardmäßiger Workflow-Funktionen festgelegt werden.
-
-Wenden Sie sich an einen Adobe-Berater oder technischen Administrator, um mehr über die Beibehaltung zu erfahren oder Beibehaltung für benutzerdefinierte Tabellen festzulegen.
+* **Export-Audit**: 6 Monate (empfohlen: 1 Monat)
