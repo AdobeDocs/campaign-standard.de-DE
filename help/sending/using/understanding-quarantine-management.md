@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 100%
+source-wordcount: '1408'
+ht-degree: 81%
 
 ---
 
@@ -97,25 +97,14 @@ Definieren Sie die Adresse (oder Telefonnummer usw.) und den Kanaltyp. Sie könn
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### Adresse aus der Quarantäne nehmen {#removing-a-quarantined-address}
+## Adresse aus der Quarantäne nehmen {#removing-a-quarantined-address}
 
-Bei Bedarf können Sie eine Adresse manuell aus der Quarantäneliste entfernen. Zusätzlich werden Adressen, die bestimmten Bedingungen entsprechen, durch den Workflow **[!UICONTROL Datenbankbereinigung]** automatisch aus der Quarantäneliste gelöscht. (Weitere Informationen zu technischen Workflows finden Sie in [diesem Abschnitt](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
-Führen Sie einen der folgenden Schritte aus, um eine Adresse manuell aus der Quarantäneliste zu entfernen.
 
->[!IMPORTANT]
->
->Das manuelle Löschen einer E-Mail-Adresse aus der Quarantäne bedeutet, dass Sie den Versand an diese Adresse wieder aufnehmen. Dies kann sich daher erheblich auf Ihre Zustellbarkeit und IP-Reputation auswirken und letztendlich dazu führen, dass Ihre IP-Adresse oder Versand-Domain blockiert wird. Gehen Sie besonders vorsichtig vor, wenn Sie erwägen, eine Adresse aus der Quarantäne zu nehmen. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
 
-* Wählen Sie die Adresse aus der Liste **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]** aus und klicken Sie auf **[!UICONTROL Element löschen]**.
+### Automatische Aktualisierungen {#unquarantine-auto}
 
-   ![](assets/quarantine-delete-address.png)
-
-* Wählen Sie eine Adresse aus und ändern Sie ihren **[!UICONTROL Status]** in **[!UICONTROL Gültig]**.
-
-   ![](assets/quarantine-valid-status.png)
-
-   Sie können ihren Status auch in **[!UICONTROL Auf Zulassungsliste]** ändern. In diesem Fall bleibt die Adresse auf der Quarantäneliste, aber sie wird systematisch als Ziel ausgewählt, selbst wenn ein Fehler auftritt.
+Adressen, die bestimmten Bedingungen entsprechen, werden vom Datenbankbereinigungs-Workflow automatisch aus der Quarantäneliste gelöscht. Weitere Informationen zu technischen Workflows finden Sie unter [diesem Abschnitt](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 In den folgenden Fällen werden die Adressen automatisch aus der Quarantäneliste entfernt:
 
@@ -125,11 +114,43 @@ In den folgenden Fällen werden die Adressen automatisch aus der Quarantänelist
 
 Ihr Status ändert sich dann in **[!UICONTROL Gültig]**.
 
+Die maximale Anzahl erneuter Zustellversuche im Status **[!UICONTROL Mit Fehlern]** und das Mindestintervall zwischen den erneuten Zustellversuchen basieren nun sowohl auf der historischen als auch der aktuellen Leistung einer IP-Adresse bei einer bestimmten Domain.
+
+
 >[!IMPORTANT]
 >
->Empfänger mit einer Adresse in **[!UICONTROL Quarantäne]** oder dem Status **[!UICONTROL Auf Blockierungsliste]** werden niemals automatisch entfernt, auch wenn sie eine E-Mail empfangen.
+>Empfänger mit einer Adresse in einer **[!UICONTROL Quarantäne]** oder **[!UICONTROL Auf die Blockierungsliste gesetzt]** -Status nicht entfernt werden, selbst wenn sie eine E-Mail erhalten.
 
-Die maximale Anzahl erneuter Zustellversuche im Status **[!UICONTROL Mit Fehlern]** und das Mindestintervall zwischen den erneuten Zustellversuchen basieren nun sowohl auf der historischen als auch der aktuellen Leistung einer IP-Adresse bei einer bestimmten Domain.
+
+### Manuelle Aktualisierungen {#unquarantine-manual}
+
+Sie können die Quarantäne für eine Adresse auch manuell aufheben.  Um eine Adresse manuell aus der Quarantäneliste zu entfernen, können Sie sie aus der Quarantäneliste nehmen oder ihren Status in **[!UICONTROL Gültig]**.
+
+* Wählen Sie die Adresse aus der Liste **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]** aus und klicken Sie auf **[!UICONTROL Element löschen]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* Wählen Sie eine Adresse aus und ändern Sie ihren **[!UICONTROL Status]** in **[!UICONTROL Gültig]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+
+### Massenaktualisierungen {#unquarantine-bulk}
+
+Möglicherweise müssen Sie Massenaktualisierungen auf der Quarantäneliste durchführen, z. B. im Falle eines ISP-Ausfalls. In diesem Fall werden E-Mails fälschlicherweise als Bounces gekennzeichnet, da sie ihrem Empfänger nicht erfolgreich zugestellt werden können. Diese Adressen müssen aus der Quarantäneliste entfernt werden.
+
+Erstellen Sie dazu einen Workflow und fügen Sie eine **[!UICONTROL Abfrage]** Aktivität in Ihrer Quarantänetabelle, um alle betroffenen Empfänger herauszufiltern. Nach der Identifizierung können sie aus der Quarantäneliste entfernt und in künftige Campaign-E-Mail-Sendungen aufgenommen werden.
+
+Auf der Grundlage des Zeitrahmens des Vorfalls werden im Folgenden die Richtlinien für diese Abfrage empfohlen.
+
+* **Fehlertext (Quarantänetext)** enthält &quot;550-5.1.1&quot;UND **Fehlertext (Quarantänetext)** enthält &quot;support.ISP.com&quot;
+
+   wobei &quot;support.ISP.com&quot;sein kann: z. B. &quot;support.apple.com&quot;oder &quot;support.google.com&quot;
+
+* **Status aktualisieren (@lastModified)** am oder nach MM/TT/JJJJ HH:MM:SS AM
+* **Status aktualisieren (@lastModified)** am oder vor MM/TT/JJJJ HH:MM:SS PM
+
+Wenn Sie über die Liste der betroffenen Empfänger verfügen, fügen Sie eine **[!UICONTROL Daten aktualisieren]** Aktivität zum Festlegen des Status ihrer E-Mail-Adresse auf **[!UICONTROL Gültig]** sodass sie von der Quarantäneliste entfernt werden **[!UICONTROL Datenbankbereinigung]** Arbeitsablauf. Sie können sie auch einfach aus der Quarantänetabelle löschen.
 
 ## Ursachen für Quarantänen {#conditions-for-sending-an-address-to-quarantine}
 
