@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: bfa34136950218d2fd56870247d39be00c725427
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7318'
 ht-degree: 100%
 
@@ -322,7 +322,7 @@ Es gibt jetzt einen neuen Abschnitt zum Löschen einer Ereigniskonfiguration –
 
 Die Abschnitte für den Transaktionsnachrichtenversand wurden entsprechend den zahlreichen geringfügigen Aktualisierungen und Verbesserungen der Benutzeroberfläche aktualisiert – [Weitere Informationen](../../channels/using/getting-started-with-transactional-msg.md)
 
-Informationen zu den Limits externer API-Aktivitäten wurden aktualisiert – [Weitere Informationen](../../automating/using/external-api.md)
+Informationen zu den Schutzmaßnahmen für externe API-Aktivitäten wurden aktualisiert – [Weitere Informationen](../../automating/using/external-api.md)
 
 ## März 2020 {#doc-updates-march-2020}
 
