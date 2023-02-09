@@ -1,6 +1,6 @@
 ---
-title: Adobe I/O für die Integration mit Microsoft Dynamics 365 konfigurieren
-description: Erfahren Sie, wie Sie Adobe I/O für die Integration mit Microsoft Dynamics 365 konfigurieren.
+title: Integration von Adobe Developer mit Microsoft Dynamics 365 konfigurieren
+description: Erfahren Sie, wie Sie die Integration von Adobe Developer für Microsoft Dynamics 365 konfigurieren.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -8,14 +8,14 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 100%
+ht-degree: 74%
 
 ---
 
-# Konfiguration von Adobe Campaign Standard und Adobe I/O für die Integration mit Microsoft Dynamics 365
+# Adobe Campaign Standard- und Adobe Developer-Konfiguration für die Integration mit Microsoft Dynamics 365
 
 In diesem Artikel wird erläutert, wie Adobe Campaign Standard und Adobe I/O konfiguriert werden müssen, damit die Integrationsanwendung auf die Daten zugreifen kann.
 
@@ -43,13 +43,13 @@ Bevor Sie die Einrichtungsschritte vor der Integration in diesem Artikel durchf�
 
 ### Konfiguration 
 
-Sie müssen ein neues Adobe-IO-Projekt erstellen und für die Integration konfigurieren.
+Sie müssen ein neues Adobe Developer-Projekt erstellen und für die Integration konfigurieren.
 
 #### Neues Projekt erstellen
 
 Gehen Sie dazu wie folgt vor:
 
-1. Navigieren Sie zur [Adobe IO Konsole](https://console.adobe.io/home#) und wählen Sie Ihre Adobe Organizations-ID aus dem Dropdown-Menü oben rechts aus.
+1. Navigieren Sie zu [Adobe Developer-Konsole](https://console.adobe.io/home#) und wählen Sie Ihre Organisations-ID der Adobe aus dem Dropdown-Menü oben rechts im Bildschirm aus.
 
 1. Klicken Sie anschließend unter **[!UICONTROL Schnellstart]** auf **[!UICONTROL Neues Projekt erstellen]**.
 
@@ -63,13 +63,13 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/adobeIO3.png)
 
-1. Auf dem nächsten Bildschirm haben Sie die Möglichkeit, Ihren eigenen öffentlichen Schlüssel hochzuladen oder Adobe IO das Schlüsselpaar für Sie generieren zu lassen. Diese Anweisungen entsprechen der letztgenannten Option. Wenn Sie sich dafür entscheiden, Adobe IO das Schlüsselpaar generieren zu lassen, klicken Sie auf Option 1. Klicken Sie dann auf die Schaltfläche **[!UICONTROL Generate keypair]**.
+1. Auf dem nächsten Bildschirm haben Sie die Möglichkeit, Ihren eigenen öffentlichen Schlüssel hochzuladen oder Adobe Developer das Schlüsselpaar für Sie generieren zu lassen. Diese Anweisungen entsprechen der letztgenannten Option. Wenn Sie sich dafür entscheiden, Adobe Developer das Schlüsselpaar generieren zu lassen, klicken Sie auf Option 1. Klicken Sie dann auf **[!UICONTROL Generieren von keypair]** Schaltfläche.
 
    ![](assets/adobeIO4.png)
 
 1. Auf dem nächsten Bildschirm werden Sie aufgefordert, den Download-Speicherort der Zip-Datei für das Schlüsselpaar zu nennen und auszuwählen.
 
-Nach dem Herunterladen können Sie die Datei entpacken, um die öffentlichen und privaten Schlüssel anzuzeigen. Adobe IO hat den öffentlichen Schlüssel bereits auf Ihr Adobe IO-Projekt angewendet. Sie müssen Ihren privaten Schlüssel für später aufbewahren. Der private Schlüssel wird während der Einrichtung des Integrations-Tools vor der Integration verwendet.
+Nach dem Herunterladen können Sie die Datei entpacken, um die öffentlichen und privaten Schlüssel anzuzeigen. Adobe Developer hat den öffentlichen Schlüssel bereits auf Ihr Adobe Developer-Projekt angewendet. Sie müssen Ihren privaten Schlüssel für später aufbewahren. Der private Schlüssel wird während der Einrichtung des Integrations-Tools vor der Integration verwendet.
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**, um fortzufahren.
 
@@ -83,7 +83,7 @@ Nach dem Herunterladen können Sie die Datei entpacken, um die öffentlichen und
 
    ![](assets/adobeIO6.png)
 
-1. Auf dem nächsten Bildschirm sehen Sie die Details Ihres neuen Adobe IO-Projekts. Klicken Sie oben links im Bildschirm auf **[!UICONTROL Zum Projekt hinzufügen]** und wählen Sie in der Dropdown-Liste die Option **API** aus.
+1. Auf dem nächsten Bildschirm sehen Sie die Details Ihres neuen Adobe Developer-Projekts. Klicken Sie oben links im Bildschirm auf **[!UICONTROL Zum Projekt hinzufügen]** und wählen Sie in der Dropdown-Liste die Option **API** aus.
 
    ![](assets/adobeIO7.png)
 
@@ -101,10 +101,10 @@ Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.
 
 **Verwandte Themen**
 
-* Das [Konfigurieren von Adobe I/O für die Integration mit Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration.
+* [Integration von Adobe Developer mit Microsoft Dynamics 365 konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration
 * Die [Übersicht über die Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.
 
 
-* [Adobe IO – Integration von Service-Konten](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer - Integration von Dienstkonten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard – Einrichtung von API-Zugriff](../../api/using/setting-up-api-access.md)
 * [Campaign Standard – Integration mit Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)

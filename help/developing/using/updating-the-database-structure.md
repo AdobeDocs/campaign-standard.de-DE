@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 100%
+source-wordcount: '815'
+ht-degree: 98%
 
 ---
 
@@ -105,4 +105,4 @@ Bei der Differenzanalyse handelt es sich um einen notwendigen Schritt, da währe
 >
 >Bei dieser Veröffentlichung wird die API **[!UICONTROL profilesAndServicesExt]** aktualisiert. Die API **[!UICONTROL profilesAndServices]** wird nicht aktualisiert.
 
-Lesen Sie für weiterführende Informationen zur Adobe Campaign-API die entsprechende Adobe Campaign-Dokumentation auf [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).
+Weitere Informationen zu Adobe Campaign Standard-APIs finden Sie unter [diesem Abschnitt](../../api/using/get-started-apis.md).

@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1001'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -136,5 +136,5 @@ Alternativ können Sie zu dieser [link](https://appsource.microsoft.com/en-us/pr
 
 **Verwandte Themen**
 
-* Das [Konfigurieren von Adobe I/O für die Integration mit Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration.
+* [Integration von Adobe Developer mit Microsoft Dynamics 365 konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration
 * [Erste Schritte mit der Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.

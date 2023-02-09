@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
-workflow-type: ht
-source-wordcount: '7318'
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+workflow-type: tm+mt
+source-wordcount: '7268'
 ht-degree: 100%
 
 ---
@@ -422,7 +422,7 @@ Microsoft Dynamics 365-Integration (GA) – [mehr dazu](../../integrating/using/
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Die Liste der Fehlermeldungen für Adobe Campaign wurde aktualisiert – [Weitere Informationen](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Die Liste der Fehlermeldungen für Adobe Campaign wurde aktualisiert – [Weitere Informationen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de)
 
 Die ersten Schritte zum Thema DSGVO wurden verbessert und erweitert. Es handelt sich nun um eine Dokumentation rund um die Gewährleistung von Datenschutz gemäß den Bestimmungen der DSGVO und des CCPA. [Weitere Informationen](https://helpx.adobe.com/content/help/de/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ Ein neuer Abschnitt zu empfohlenen Updates von E-Mail-Designer wurde hinzugefüg
 
 Ein neuer Abschnitt über Best Practices bei Workflows wurde hinzugefügt – [Weitere Informationen](../../automating/using/best-practices-workflows.md)
 
-Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de)
 
 Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder von benutzerdefinierten Ressourcen, Schlüsseln, Indizes und Links – [Weitere Informationen](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ Ein Anwendungsbeispiel wurde hinzugefügt, das zeigt, wie ein Profil mithilfe ei
 
 Eine Empfehlung bezüglich der Verwendung wiederkehrender Sendungen ohne Aggregat-Zeitraum beim Aufruf eines Workflows mit Parametern wurde hinzugefügt – [Weitere Informationen](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de)
 
 Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder von benutzerdefinierten Ressourcen, Schlüsseln, Indizes und Links – [Weitere Informationen](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ Eine neue Technote wurde hinzugefügt, in der beschrieben wird, wie ein Bild in 
 
 Eine neue Technote zur Implementierung von Tracking von Push-Benachrichtigungen wurde hinzugefügt – [Weitere Informationen](../../administration/using/push-tracking.md)
 
-Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de)
 
 Die Dokumentation zur Integration von Triggers mit Campaign wurde aktualisiert – [Weitere Informationen](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ In der API-Dokumentation wurde ein Abschnitt zu **benutzerdefinierten Filtern** 
 
 **Neue Funktionen in der Version**
 
-DSGVO: Core Service-Integration – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html)
+DSGVO: Core Service-Integration – [mehr dazu](../../start/using/privacy-management.md)
 
 Verbesserung von Push-Benachrichtigungen – detailliertes Versand-Feedback – [mehr dazu](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ Für mehr Übersichtlichkeit wurde das Inhaltseditor-Handbuch neu strukturiert �
 
 **Neue Funktionen in der Version**
 
-EU-Datenschutz-Grundverordnung (DSGVO) – [mehr dazu](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_GDPR.html)
+EU-Datenschutz-Grundverordnung (DSGVO) – [mehr dazu](../../start/using/privacy.md)
 
 Creative Designer für E-Mails – [mehr dazu](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ Anreicherungsaktivität: Reichern Sie Daten auf der Basis eingehender Transition
 
 Die meisten URLs für die Integration von Campaign und Adobe-Lösungen wurden geändert! Überprüfen Sie Ihre Lesezeichen! – [Weitere Informationen](../../integrating/using/get-started-campaign-integrations.md)
 
-Datamodel v1 ist jetzt mit der SQL-Struktur für native Ressourcen verfügbar – [mehr dazu](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/developing/datamodel/datamodel-audience.html)
+Datamodel v1 ist jetzt mit der SQL-Struktur für native Ressourcen verfügbar – [mehr dazu](../../developing/using/datamodel-introduction.md)
 
 Zusätzliche Informationen zur Vorbereitung einer Nachricht in einem Versand – [mehr dazu](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ Eine Dokumentation zu Berichten über aktive Profile wurde hinzugefügt – [Wei
 
 Die Dokumentation zur [Versandwarnung](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) wurde aktualisiert und enthält jetzt einen Abschnitt zur Problembehebung sowie Tipps zu den verfügbaren Optionen beim Empfang von Warnungen.
 
-Ein neues Erste-Schritte-Handbuch ist verfügbar: Es enthält Best Practices für den Versand mit Adobe Campaign, von der Erstellung von Nachrichten über die Zielgruppenbestimmung bis zum Senden und Verfolgen von Nachrichten – [Weitere Informationen](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html)
+Ein neues Erste-Schritte-Handbuch ist verfügbar: Es enthält Best Practices für den Versand mit Adobe Campaign, von der Erstellung von Nachrichten über die Zielgruppenbestimmung bis zum Senden und Verfolgen von Nachrichten – [Weitere Informationen](../../sending/using/delivery-best-practices.md)
 
 Die Dokumentation zu Folgenachrichten wurde mit einem verbesserten Anwendungsbeispiel ergänzt – [Weitere Informationen](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

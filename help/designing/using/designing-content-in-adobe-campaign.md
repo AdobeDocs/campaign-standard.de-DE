@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1252'
 ht-degree: 100%
 
 ---
@@ -119,7 +119,7 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
 * Referrer-Meta-Tag wird in Email Designer nicht unterstützt.
 
-Weitere Empfehlungen zur Erstellung und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand](https://docs.campaign.adobe.com/doc/standard/getting_started/de/ACS_DeliveryBestPractices.html).
+Weitere Empfehlungen zur Erstellung und zu allgemeinen Themen in Bezug auf Nachrichten finden Sie in diesem Adobe Campaign-Handbuch: [Best Practices beim Versand](../../sending/using/delivery-best-practices.md).
 
 ### Aktualisieren von Fragmenten {#email-designer-updates}
 

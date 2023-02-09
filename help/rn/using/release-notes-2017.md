@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4634'
-ht-degree: 100%
+source-wordcount: '4627'
+ht-degree: 99%
 
 ---
 
@@ -393,7 +393,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen bereit.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren.<br /> In der ersten Release ist die Integration als "Labs"-Funktion verfügbar, die nur mit der Betaversion von Dreamweaver (Pre Release) funktioniert. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuell Versandzeitpunkt optimieren<br /> </td> 
@@ -490,9 +490,9 @@ _Workflows_
   </tr> 
   <tr> 
    <td> Transaktionsnachrichten-API<br /> </td> 
-   <td> Die Transaktionsnachrichten-API ist jetzt über <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a> verfügbar, wodurch die Verwendung und Überwachung vereinfacht wird:<br /> 
+   <td> Die Transaktionsnachrichten-API ist jetzt verfügbar, was die Verwendung und Überwachung vereinfacht:<br /> 
     <ul> 
-     <li> Sie profitieren von den Reporting- und Überwachungsfunktionen der Plattform adobe.io. </li> 
+     <li> Sie profitieren von den Reporting- und Überwachungsfunktionen der Adobe Developer-Plattform. </li> 
      <li> Die Authentifizierung erfolgt nun über einen adobe.io-Token anstatt über die IP-Zulassungsauflistung, wodurch das Sicherheitsverfahren vereinfacht wird. </li> 
      <li> Alle APIs sind jetzt auf einer einzigen Plattform integriert. Damit wird es einfacher, Ihrer Integration Funktionen für Transaktionsnachrichten hinzuzufügen, wenn Sie bereits die Profiles &amp; Services API unterstützen. </li> 
     </ul> </td> 
