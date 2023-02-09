@@ -22,7 +22,7 @@ Mit der Selfservice-Integrationsanwendung zur Integration von Adobe Campaign Sta
 
 ## Konzepte und Einschränkungen {#concepts-and-restrictions}
 
-Bevor Sie mit dem Integrations-Tool beginnen, müssen Sie die mit der Integration verbundenen Konzepte und Limits verstehen und einige erste Schritte unternehmen, um Zugriff zu erhalten.
+Bevor Sie mit dem Integrations-Tool beginnen, müssen Sie die mit der Integration verbundenen Konzepte und Leitplanken verstehen und einige erste Schritte unternehmen, um Zugriff zu erhalten.
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 

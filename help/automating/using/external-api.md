@@ -38,7 +38,7 @@ Die Hauptmerkmale dieser Aktivität sind:
 
 ### Hinweise zur Abwärtskompatibilität {#from-beta-to-ga}
 
-Mit Version 20.4 von Campaign Standard wurden die Limits für die Größenbeschränkung für HTTP-Antwortdaten und das Antwort-Timeout gesenkt, um den Best Practices zu entsprechen (siehe [Einschränkungen und Limits](#guardrails)). Diese Änderungen der Limits wirken sich nicht auf bestehende externe API-Aktivitäten aus. Daher wird empfohlen, bestehende externe API-Aktivitäten in allen Workflows durch neue zu ersetzen.
+Mit Version 20.4 von Campaign Standard wurden die Leitplanken für die Größenbeschränkung für HTTP-Antwortdaten und das Antwort-Timeout abgesenkt, um den Best Practices zu entsprechen (siehe [Einschränkungen und Limits](#guardrails)). Diese Änderungen der Limits wirken sich nicht auf bestehende externe API-Aktivitäten aus. Daher wird empfohlen, bestehende externe API-Aktivitäten in allen Workflows durch neue zu ersetzen.
 
 Fügen Sie beim Ersetzen externer API-Aktivitäten die neue externe API-Aktivität zum Workflow hinzu, kopieren Sie manuell die Konfigurationsdetails und löschen Sie dann die alte Aktivität.
 
@@ -46,9 +46,9 @@ Fügen Sie beim Ersetzen externer API-Aktivitäten die neue externe API-Aktivit�
 >
 >Sie können keine aktivitätenspezifische Header-Werte kopieren, da diese in der Aktivität maskiert sind.
 
-### Einschränkungen und Limits {#guardrails}
+### Einschränkungen und Leitplanken {#guardrails}
 
-Für diese Aktivität gelten die folgenden Limits:
+Für diese Aktivität gelten die folgenden Schutzmaßnahmen:
 
 * Größenbeschränkung für HTTP-Antwortdaten von 5 MB (Hinweis: Dies ist eine Änderung gegenüber der Beschränkung von 50 MB in der vorherigen Version).
 * Die Zeitüberschreitung bei Anfragen beträgt 1 Minute (Hinweis: Dies ist eine Änderung gegenüber der Zeitüberschreitung von 10 Minuten in der vorherigen Version).
@@ -56,7 +56,7 @@ Für diese Aktivität gelten die folgenden Limits:
 * Andere URLs als HTTPS werden abgelehnt.
 * Erlaubt sind Abfrage-Header vom Typ &quot;Accept: application/json&quot; und Antwort-Header vom Typ &quot;Content-Type: application/json&quot;.
 
-Es wurden spezielle Limits eingeführt:
+Es wurden spezielle Schutzmaßnahmen eingeführt:
 
 * **Max. JSON-Tiefe**: begrenzt die maximale Tiefe einer benutzerdefinierten verschachtelten JSON, die auf 10 Ebenen verarbeitet werden kann.
 * **Max. JSON-Schlüssellänge**: begrenzt die maximale Länge des internen Schlüssels auf 255. Dieser Schlüssel ist mit der Spaltenkennung verknüpft.

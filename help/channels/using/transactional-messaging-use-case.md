@@ -78,7 +78,7 @@ Die wichtigsten Schritte zur Implementierung dieses Anwendungsfalls werden nachf
 
    ![](assets/message-center_usecase7.png)
 
-   Wählen Sie dazu **[!UICONTROL Personalisierungsfeld einfügen]** aus der Kontextsymbolleiste aus. Öffnen Sie unter dem Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Transaktionsereignis]** > **[!UICONTROL Ereigniskontext]** den Knoten, der der benutzerdefinierten Ressource **[!UICONTROL Kauf]** entspricht und wählen Sie ein beliebiges Feld aus.
+   Wählen Sie dazu **[!UICONTROL Personalisierungsfeld einfügen]** aus der kontextuellen Symbolleiste aus. Öffnen Sie unter dem Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Transaktionsereignis]** > **[!UICONTROL Ereigniskontext]** den Knoten, der der benutzerdefinierten Ressource **[!UICONTROL Kauf]** entspricht und wählen Sie ein beliebiges Feld aus.
 
 1. Sie können Ihre Nachricht mit einem spezifischen Testprofil testen. Siehe [Transaktionsnachricht testen](../../channels/using/testing-transactional-message.md#testing-a-transactional-message).
 

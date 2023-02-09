@@ -66,7 +66,7 @@ ht-degree: 100%
       <tr>
          <td>cache</td>
          <td>Cache</td>
-         <td>Zeichenfolge </td>
+         <td>string </td>
          <td> </td>
       </tr>
       <tr>
@@ -78,13 +78,13 @@ ht-degree: 100%
       <tr>
          <td>closedLog</td>
          <td>'Landing page closed' log</td>
-         <td>Zeichenfolge </td>
+         <td>string </td>
          <td> </td>
       </tr>
       <tr>
          <td>contextResourceType</td>
          <td>ContextResourceType</td>
-         <td>Zeichenfolge </td>
+         <td>string </td>
          <td> </td>
       </tr>
       <tr>
@@ -177,39 +177,39 @@ ht-degree: 100%
          <td>enumeration (string) (255)</td>
          <td>
             <ul>
-               <li>Griechisch - el - el</li>
+               <li>Greek - el - el</li>
                <li>English - en - en</li>
                <li>Chinese - zh - zh</li>
                <li>French (France) - fr_FR - fr_FR</li>
-               <li>Vietnamesisch - vi - vi</li>
+               <li>Vietnamese - vi - vi</li>
                <li>Portuguese (Portugal) - pt_PT - pt_PT</li>
                <li>Italian (Italy) - it_IT - it_IT</li>
                <li>Italian - it - it</li>
                <li>Dutch (Belgium) - nl_BE - nl_BE</li>
-               <li>Norwegisch (Norwegen) - no_NO - no_NO</li>
-               <li>Niederländisch (Niederlande) - nl_NL - nl_NL</li>
-               <li>Arabisch - ar - ar</li>
+               <li>Norwegian (Norway) - no_NO - no_NO</li>
+               <li>Dutch (Netherlands) - nl_NL - nl_NL</li>
+               <li>Arabic - ar - ar</li>
                <li>English (United States) - en_US - en_US</li>
                <li>Irish - ga - ga</li>
                <li>Czech - cs - cs</li>
                <li>Estonian - et - et</li>
-               <li>Indonesisch - id - id</li>
-               <li>Spanisch - es - es</li>
-               <li>Russisch - ru - ru</li>
+               <li>Indonesian - id - id</li>
+               <li>Spanish - es - es</li>
+               <li>Russian - ru - ru</li>
                <li>Dutch - nl - nl</li>
                <li>Walloon - wa - wa</li>
                <li>Portuguese - pt - pt</li>
                <li>French (Belgium) - fr_BE - fr_BE</li>
-               <li>Lettisch - lv - lv</li>
-               <li>Litauisch - lt - lt</li>
+               <li>Latvian - lv - lv</li>
+               <li>Lithuanian - lt - lt</li>
                <li>Thai - th - th</li>
-               <li>English (UK) - en_GB - en_GB</li>
+               <li>English (United Kingdom) - en_GB - en_GB</li>
                <li>French - fr - fr</li>
                <li>Portuguese (Brazil) - pt_BR - pt_BR</li>
                <li>German - de - de</li>
                <li>Danish - da - da</li>
-               <li>Finland - fi - fi</li>
-               <li>Ungarisch - hu - hu</li>
+               <li>Finnish - fi - fi</li>
+               <li>Hungarian - hu - hu</li>
                <li>Swedish (Finland) - sv_FI - sv_FI</li>
                <li>Japanese - ja - ja</li>
                <li>Hebrew - he - he</li>
@@ -219,9 +219,9 @@ ht-degree: 100%
                <li>Slovak - sk - sk</li>
                <li>Maltese - mt - mt</li>
                <li>Italian (Switzerland) - it_CH - it_CH</li>
-               <li>Polnisch - pl - pl</li>
+               <li>Polish - pl - pl</li>
                <li>Slovene - sl - sl</li>
-               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -240,7 +240,7 @@ ht-degree: 100%
       <tr>
          <td>errorContextResourceType</td>
          <td>ErrorContextResourceType</td>
-         <td>Zeichenfolge </td>
+         <td>string </td>
          <td> </td>
       </tr>
       <tr>
@@ -299,7 +299,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>label</td>
-         <td>Titel</td>
+         <td>Label</td>
          <td>string (128)</td>
          <td> </td>
       </tr>
@@ -332,7 +332,7 @@ ht-degree: 100%
                <li>Finished - finished - finished</li>
                <li>Warning - warning - warning</li>
                <li>Erroneous - error - error</li>
-               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -381,7 +381,7 @@ ht-degree: 100%
       <tr>
          <td>publicUrl</td>
          <td>Public URL</td>
-         <td>Zeichenfolge </td>
+         <td>string </td>
          <td> </td>
       </tr>
       <tr>
@@ -410,7 +410,7 @@ ht-degree: 100%
             <ul>
                <li>Update - updateTarget - 1</li>
                <li>Unauthorized - unauthorized - 0</li>
-               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -429,7 +429,7 @@ ht-degree: 100%
                <li>Blacklist - blackList - 3</li>
                <li>No specific action - none - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
-               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Subscription - subscription - 1</li>
             </ul>
          </td>
@@ -449,7 +449,7 @@ ht-degree: 100%
                <li>Editing - edit - 0</li>
                <li>Publishing failed - failed - 99</li>
                <li>Closed - closed - 20</li>
-               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Online - opened - 10</li>
             </ul>
          </td>
@@ -469,7 +469,7 @@ ht-degree: 100%
       <tr>
          <td>testUrl</td>
          <td>Test URL</td>
-         <td>Zeichenfolge </td>
+         <td>string </td>
          <td> </td>
       </tr>
       <tr>
@@ -542,7 +542,7 @@ ht-degree: 100%
                <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -620,7 +620,7 @@ ht-degree: 100%
       <tr>
          <td>trackingUrlName</td>
          <td>Tracking URL name</td>
-         <td>Zeichenfolge </td>
+         <td>string </td>
          <td> </td>
       </tr>
       <tr>
@@ -632,7 +632,7 @@ ht-degree: 100%
                <li>Generic - generic - 0</li>
                <li>Unsubscription from a service - unsubscription - 3</li>
                <li>Blacklist - blackList - 4</li>
-               <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Acquisition - acquisition - 1</li>
                <li>Subscription to a service - subscription - 2</li>
             </ul>
@@ -641,7 +641,7 @@ ht-degree: 100%
       <tr>
          <td>uuid</td>
          <td>Security ID</td>
-         <td>Zeichenfolge </td>
+         <td>string </td>
          <td> </td>
       </tr>
       <tr>
@@ -676,7 +676,7 @@ Nach Name oder Titel (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     </tr>
 </table>
 
@@ -702,7 +702,7 @@ Nach Zielgruppen-Ressource (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>Zeichenfolge</td>
+<td>string</td>
 </tr>
 </table>
 

@@ -40,7 +40,7 @@ ht-degree: 100%
                <tr>
                   <td>email</td>
                   <td>False</td>
-                  <td>Zeichenfolge</td>
+                  <td>string</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -52,13 +52,13 @@ ht-degree: 100%
                <tr>
                   <td>mobilePhone</td>
                   <td>False</td>
-                  <td>Zeichenfolge</td>
+                  <td>string</td>
                   <td>False</td>
                </tr>
                <tr>
                   <td>serverUrl</td>
                   <td>True</td>
-                  <td>Zeichenfolge</td>
+                  <td>string</td>
                   <td>False</td>
                </tr>
             </table>
@@ -74,7 +74,7 @@ byEmail
     </tr>
     <tr>
     <td>email</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     </tr>
 </table>
 
@@ -91,6 +91,6 @@ byStatusOrType
         </tr>
         <tr>
         <td>type</td>
-        <td>Zeichenfolge</td>
+        <td>string</td>
         </tr>
     </table>

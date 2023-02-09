@@ -41,7 +41,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
 
    Wählen Sie beispielsweise den einspaltigen Aufbau aus und fügen Sie eine Textkomponente, eine Bildkomponente und eine Schaltflächen-Komponente hinzu. Weiterführende Informationen dazu finden Sie unter [Inhaltskomponenten verwenden](../../designing/using/designing-from-scratch.md#about-content-components).
 
-1. Wählen Sie die soeben erstellte Strukturkomponente und danach in der Symbolleiste das Symbol zum **[!UICONTROL Aktivieren einer Produktliste]** aus.
+1. Wählen Sie die soeben erstellte Strukturkomponente und danach in der kontextuellen Symbolleiste das Symbol zum **[!UICONTROL Aktivieren einer Produktliste]** aus.
 
    ![](assets/message-center_loop_create.png)
 
@@ -92,7 +92,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
    Das von Ihnen ausgewählte Personalisierungsfeld wird jetzt im Einstellungsbereich angezeigt.
 
-1. Wählen Sie in der dedizierten Symbolleiste an der gewünschten Position **[!UICONTROL Personalisierungsfeld einfügen]** aus.
+1. Wählen Sie in der kontextuellen Symbolleiste an der gewünschten Position **[!UICONTROL Personalisierungsfeld einfügen]** aus.
 
    ![](assets/message-center_loop_product.png)
 
@@ -103,7 +103,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
    Das von Ihnen ausgewählte Personalisierungsfeld wird jetzt an der gewünschten Position im E-Mail-Inhalt dargestellt.
 
 1. Gehen Sie beim Einfügen des Preises analog vor.
-1. Wählen Sie den Text und dann in der dedizierten Symbolleiste **[!UICONTROL Link einfügen]** aus.
+1. Wählen Sie den Text und dann in der kontextuellen Symbolleiste **[!UICONTROL Link einfügen]** aus.
 
    ![](assets/message-center_loop_link_insert.png)
 

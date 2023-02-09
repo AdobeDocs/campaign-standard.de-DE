@@ -87,7 +87,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Titel</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -157,7 +157,7 @@ ht-degree: 100%
                         <li>Started - started - 1</li>
                         <li>Editing - edition - 0</li>
                         <li>Finished - finished - 2</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -205,7 +205,7 @@ Nach Name oder Titel (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     </tr>
 </table>
 
@@ -222,7 +222,7 @@ Nach Zeiträumen (byPeriod)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     </tr>
 </table>
 

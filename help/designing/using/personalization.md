@@ -65,7 +65,7 @@ Adobe Campaign bietet die Möglichkeit, Felder aus der Datenbank, beispielsweise
 
 Um ein Personalisierungsfeld einzufügen, gehen Sie folgendermaßen vor:
 
-1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. Klicken Sie in einen Textbaustein und wählen Sie dann in der kontextuellen Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -95,7 +95,7 @@ Adobe Campaign bietet eine Reihe von vorkonfigurierten Inhaltsbausteinen. Diese 
 
 So fügen Sie einen Inhaltsbaustein hinzu:
 
-1. Klicken Sie in einen Textbaustein und wählen Sie dann in der dedizierten Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Inhaltsbaustein einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. Klicken Sie in einen Textbaustein und wählen Sie dann in der kontextuellen Symbolleiste das **[!UICONTROL Personalisierungssymbol]** und danach **[!UICONTROL Inhaltsbaustein einfügen]** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie [in diesem Abschnitt](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
@@ -235,7 +235,7 @@ Es besteht die Möglichkeit, für eine E-Mail multiple Inhalte zu erstellen, die
 Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtbarkeitsbedingungen](#defining-a-visibility-condition).
 
 1. Wählen Sie ein Fragment, eine Komponente oder ein Element aus. Wählen Sie für dieses Beispiel ein Bild aus.
-1. Wählen Sie in der dedizierten Symbolleiste das Symbol für **[!UICONTROL dynamischen Inhalt]** aus.
+1. Wählen Sie in der kontextuellen Symbolleiste das Symbol für **[!UICONTROL dynamischen Inhalt]** aus.
 
    ![](assets/dynamic_content_2.png)
 
@@ -381,7 +381,7 @@ Gehen Sie wie folgt vor:
 
 1. Markieren Sie die anzupassende Strukturkomponente und fügen Sie einen dynamischen Inhalt hinzu.
 1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
-1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der dedizierten Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
+1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der kontextuellen Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
 
    ![](assets/delivery_content_53.png)
 
@@ -395,7 +395,7 @@ Gehen Sie wie folgt vor:
 
 1. Markieren Sie die anzupassende Strukturkomponente und fügen Sie einen dynamischen Inhalt hinzu.
 1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
-1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der dedizierten Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
+1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der kontextuellen Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
 1. Markieren Sie in der sich öffnenden Liste das **[!UICONTROL Anrede]**-Feld.
 1. Gehen Sie analog vor, um das Feld **[!UICONTROL Nachname]** hinzuzufügen.
 

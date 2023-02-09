@@ -322,7 +322,7 @@ ht-degree: 100%
                         <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                         <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                         <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                         <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                         <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -423,7 +423,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>relativeValue</td>
-<td>Zeichenfolge</td>
+<td>string</td>
 </tr>
 <tr>
 <td>month</td>
@@ -460,7 +460,7 @@ Nach E-Mail (byEmail)
 </tr>
 <tr>
 <td>email</td>
-<td>Zeichenfolge</td>
+<td>string</td>
 </tr>
 </table>
 
@@ -473,7 +473,7 @@ Nach Schlüssel (byKeysProfile)
 </tr>
 <tr>
 <td>email</td>
-<td>Zeichenfolge</td>
+<td>string</td>
 </tr>
 </table>
 
@@ -486,7 +486,7 @@ Nach Name oder E-Mail (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>Zeichenfolge</td>
+<td>string</td>
 </tr>
 </table>
 

@@ -251,9 +251,9 @@ Beim Überfahren eines Elements mit der Maus wird dieses farblich unterlegt. Auf
 
 ![](assets/des_lp_content_2.png)
 
-Anhand der verschiedenen in der Palette oder der dedizierten Symbolleiste zur Verfügung stehenden Schaltflächen kann der Block dann geändert, dupliziert oder gelöscht werden.
+Anhand der verschiedenen in der Palette oder der kontextuellen Symbolleiste zur Verfügung stehenden Schaltflächen kann der Block dann geändert, dupliziert oder gelöscht werden.
 
-Aktivieren Sie die Textbearbeitung durch einen zweiten Klick in den Block. Der Rahmen um den Block verfärbt sich grün. Danach können Sie Text auswählen oder eingeben. Anhand der verfügbaren Optionen in der Palette und der dedizierten Symbolleiste können Sie beispielsweise Links hinzufügen oder die Textformatierung anpassen.
+Aktivieren Sie die Textbearbeitung durch einen zweiten Klick in den Block. Der Rahmen um den Block verfärbt sich grün. Danach können Sie Text auswählen oder eingeben. Anhand der verfügbaren Optionen in der Palette und der kontextuellen Symbolleiste können Sie beispielsweise Links hinzufügen oder die Textformatierung anpassen.
 
 ![](assets/des_lp_content_3.png)
 
@@ -292,7 +292,7 @@ Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribu
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. Wählen Sie in der dedizierten Symbolleiste die Option **[!UICONTROL Lokales Bild]**.
+1. Wählen Sie in der kontextuellen Symbolleiste die Option **[!UICONTROL Lokales Bild]**.
 
    ![](assets/des_insert_images_lp_2.png)
 

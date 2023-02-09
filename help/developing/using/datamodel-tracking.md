@@ -40,13 +40,13 @@ ht-degree: 100%
                <tr>
                   <td>logs</td>
                   <td>Logs</td>
-                  <td>Zeichenfolge </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pointerTo</td>
                   <td>PointerTo</td>
-                  <td>Zeichenfolge </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>

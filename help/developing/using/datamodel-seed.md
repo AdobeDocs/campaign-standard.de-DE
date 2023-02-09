@@ -190,7 +190,7 @@ ht-degree: 100%
                <tr>
                   <td>targetData</td>
                   <td>Extension</td>
-                  <td>Zeichenfolge </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
@@ -224,7 +224,7 @@ Nach Ereignistyp (byEventType)
         </tr>
         <tr>
         <td>eventType</td>
-        <td>Zeichenfolge</td>
+        <td>string</td>
         </tr>
     </table>
 
@@ -237,7 +237,7 @@ Nach Name oder Titel (byText)
         </tr>
         <tr>
         <td>text</td>
-        <td>Zeichenfolge</td>
+        <td>string</td>
         </tr>
     </table>
 

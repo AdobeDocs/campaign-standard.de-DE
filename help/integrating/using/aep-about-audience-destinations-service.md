@@ -33,7 +33,7 @@ Adobe Campaign Standard verwendet dann den Dienst **Audience Destinations**, um 
 * [Echtzeit-Kundenprofil – Überblick ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
 * [Übersicht über den Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
 
-Nach dem Erstellen eines Segments können Sie es als Audience für einen Versand in [Campaign Standard-Workflows](../../integrating/using/aep-targeting-audiences.md) aktivieren. Darüber hinaus können Sie Kontextdaten aus Adobe Experience Platform verwenden, um Nachrichten zu [personalisieren](../../integrating/using/aep-personalizing-campaigns.md) und dynamische Inhalte zu Ihren Kampagnen hinzuzufügen.
+Nach dem Erstellen eines Segments können Sie es als Audience für einen Versand in [Campaign Standard-Workflows](../../integrating/using/aep-targeting-audiences.md) aktivieren. Darüber hinaus können Sie kontextuelle Daten aus Adobe Experience Platform verwenden, um Nachrichten zu [personalisieren](../../integrating/using/aep-personalizing-campaigns.md) und dynamische Inhalte zu Ihren Kampagnen hinzuzufügen.
 
 ![](assets/do-not-localize/how-to-video.png) Anleitungsvideos sind auch auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html?lang=de) verfügbar.
 

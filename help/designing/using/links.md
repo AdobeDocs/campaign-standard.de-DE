@@ -27,7 +27,7 @@ Alle Elemente einer Seite können mit Links belegt werden: Bilder, Wörter, Wort
 >
 >Auf den unten stehenden Bildern sehen Sie, wie Sie einen Link mit [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) einfügen können.
 
-1. Wählen Sie zuerst ein Element aus und danach in der dedizierten Symbolleiste die Option **[!UICONTROL Link einfügen]**.
+1. Wählen Sie ein Element aus und klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Link einfügen]**.
 
    ![](assets/des_insert_link.png)
 

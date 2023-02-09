@@ -176,7 +176,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>title</td>
-        <td>Titel</td>
+        <td>Label</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
@@ -193,6 +193,6 @@ Nach Nachname, Vorname oder E-Mail (byText)</p>
         </tr>
         <tr>
         <td>text</td>
-        <td>Zeichenfolge</td>
+        <td>string</td>
         </tr>
     </table>

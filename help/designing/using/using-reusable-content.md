@@ -167,7 +167,7 @@ So nutzen Sie Fragmente in Email Designer optimal:
 
 Wenn Fragmente zu einer E-Mail hinzugefügt werden, sind sie standardmäßig gesperrt. Wenn Sie ein Fragment für eine bestimmte E-Mail ändern möchten, können Sie die Synchronisation mit dem ursprünglichen Fragment aufheben, indem Sie es in der E-Mail, in der es verwendet wird, entsperren. Danach werden die Änderungen nicht mehr synchronisiert.
 
-Um ein Fragment in einer E-Mail zu entsperren, wählen Sie zuerst das Fragment aus und danach das Sperrsymbol in der dedizierten Symbolleiste.
+Um ein Fragment in einer E-Mail zu entsperren, wählen Sie zuerst das Fragment aus und danach das Sperrsymbol in der kontextuellen Symbolleiste.
 
 ![](assets/des_unlocking_fragment.png)
 

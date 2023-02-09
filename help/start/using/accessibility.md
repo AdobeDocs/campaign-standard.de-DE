@@ -21,7 +21,7 @@ Erfahren Sie mehr über die Unterstützung von Barrierefreiheit in Adobe Campaig
 
 Mit Funktionen der Barrierefreiheit sollen Produkte für Menschen mit visuellen, auditiven, kognitiven, motorischen und anderen Behinderungen nutzbar gemacht werden. Beispiele für Funktionen zur Barrierefreiheit von Software-Produkten sind semantisch strukturierte Inhalte, Unterstützung von Bildschirmlesehilfen, Textäquivalente für Grafiken, Tastaturbefehle usw.
 
-Adobe Campaign Standard bietet Funktionen, die die Nutzung erleichtern, wie z. B. Kontrast, Beschriftungen, strukturierte Inhalte, Tastaturnavigation und kontextbezogene Hilfe.
+Adobe Campaign Standard bietet Funktionen, die die Nutzung erleichtern, wie z. B. Kontrast, Beschriftungen, strukturierte Inhalte, Tastaturnavigation und kontextuelle Hilfe.
 
 ## Funktionen zur Barrierefreiheit {#accessibility-features}
 

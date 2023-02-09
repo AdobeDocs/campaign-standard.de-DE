@@ -62,7 +62,6 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen:
 
 1. Fügen Sie ein Personalisierungsfeld hinzu und wählen Sie aus dem Knoten **[!UICONTROL Zusätzliche Daten (targetData)]** die zusätzlichen Daten aus, die in der Erweiterungsaktivität festgelegt wurden (hier Kontonummer). Dadurch kann die Kontonummer jedes Profils im E-Mail-Inhalt dynamisch abgerufen werden.
 
-
    ![](assets/load_file_perso_field.png)
 
 1. Speichern Sie die E-Mail und starten Sie den Workflow.

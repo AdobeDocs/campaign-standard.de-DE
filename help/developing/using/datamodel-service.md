@@ -93,7 +93,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Titel</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -135,7 +135,7 @@ ht-degree: 100%
                      <ul>
                         <li>Viral - viral - 1</li>
                         <li>Newsletter - newsletter - 0</li>
-                        <li>UNGÜLTIGER WERT - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -184,7 +184,7 @@ ht-degree: 100%
                <tr>
                   <td>subScenarioEventType</td>
                   <td>SubScenarioEventType</td>
-                  <td>Zeichenfolge </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
@@ -232,7 +232,7 @@ ht-degree: 100%
                <tr>
                   <td>unsubScenarioEventType</td>
                   <td>UnsubScenarioEventType</td>
-                  <td>Zeichenfolge </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
@@ -284,7 +284,7 @@ Nach Name oder Titel (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>Zeichenfolge</td>
+<td>string</td>
 </tr>
 </table>
 
@@ -297,6 +297,6 @@ Nach Zielgruppen-Ressource (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>Zeichenfolge</td>
+<td>string</td>
 </tr>
 </table>

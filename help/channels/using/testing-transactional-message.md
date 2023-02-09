@@ -22,7 +22,7 @@ Bevor Sie Ihre Transaktionsnachricht veröffentlichen, können Sie ein spezifisc
 
 ## Spezifisches Testprofil definieren {#defining-specific-test-profile}
 
-Definieren Sie ein Profil, das mit Ihrem Ereignis verknüpft wird. Auf diese Weise können Sie eine Vorschau Ihrer Nachricht anzeigen und einen entsprechenden Testversand durchführen.
+Definieren Sie ein Testprofil, das mit Ihrem Ereignis verknüpft wird. Auf diese Weise können Sie eine Vorschau Ihrer Nachricht anzeigen und einen entsprechenden Testversand durchführen.
 
 1. [Klicken Sie im Dashboard für Transaktionsnachrichten](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) auf die Schaltfläche **[!UICONTROL Testprofil erstellen]**.
 

@@ -92,7 +92,7 @@ Der Bericht **[!UICONTROL Trackingindikatoren]** enthält die wichtigsten Indika
 
 ## Getrackte URLs {#tracked-urls}
 
-Der Tab **[!UICONTROL Getrackte URLs]** gibt Auskunft über die in der gesendeten Nachricht enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
+Die Registerkarte **[!UICONTROL Getrackte URLs]** gibt Auskunft über die in der gesendeten Nachricht enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
 
 ![](assets/sending_delivery6.png)
 

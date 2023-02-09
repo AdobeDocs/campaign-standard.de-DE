@@ -73,7 +73,7 @@ Verwenden Sie das Feld **[!UICONTROL Suchen]**, um Anleitungen zu finden. In den
 Auf drei Tabs finden Sie Hilfe und Unterstützung:
 
 1. Der Tab **[!UICONTROL Hilfe]** enthält:
-   * einen schnellen Zugriff auf die Dokumentation von Adobe Campaign Standard mit kontextbezogenen Links.
+   * einen schnellen Zugriff auf die Dokumentation von Adobe Campaign Standard mit kontextuellen Links.
    * den Link **[!UICONTROL Lernen]**, über den Sie auf die Adobe Campaign-Kursbibliothek zugreifen können.
    * den Link **[!UICONTROL Community]**, über den Sie auf das Forum zugreifen können, das sich mit Ihren Fragen zu Campaign beschäftigt.
    * einen direkten Zugriff auf: Hilfezentrum, Kundenunterstützung, Experience Cloud-Produktstatus, Entwicklerverbindung, Versionshinweise, Versionsplanung und den Bildschirm **[!UICONTROL Info]**.

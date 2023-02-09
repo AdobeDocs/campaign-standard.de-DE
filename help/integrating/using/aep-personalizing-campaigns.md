@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >Der Audience Destinations-Dienst befindet sich derzeit in der Betaversion, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaversion), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 >
->**Push**- und **In-App**-Kanäle stehen noch nicht zur Personalisierung mit Kontextdaten aus Adobe Experience Platform zur Verfügung.
+>**Push**- und **In-App**-Kanäle stehen noch nicht zur Personalisierung mit kontextuellen Daten aus Adobe Experience Platform zur Verfügung.
 
 Sobald Ihr Workflow mit einer [Adobe Experience Platform-Audience](../../integrating/using/aep-about-audience-destinations-service.md) konfiguriert wurde, können Sie Nachrichten mit Profilattributen personalisieren, die ausschließlich im Experience-Datenmodell (XDM) vorhanden sind.
 

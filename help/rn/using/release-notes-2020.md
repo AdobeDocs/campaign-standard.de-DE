@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Juni** mit der Überwachung aktiver Profile, der Prüfung der Subdomain-Zustellbarkeit und der GPG-Schlüsselverwaltung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
 ## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 **Verbesserungen bei Email Designer**
 
-* Wir haben das Benutzererlebnis in Email Designer mit der **neuen dynamischen kontextbezogenen Hilfe** verbessert, die Benutzeroberfläche und Dokumentation vollständig miteinander verbindet und einen einfachen Zugriff auf die neuesten Hilfeinhalte bietet.
+* Wir haben das Benutzererlebnis in Email Designer mit der **neuen dynamischen kontextuellen Hilfe** verbessert, die Benutzeroberfläche und Dokumentation vollständig miteinander verbindet und einen einfachen Zugriff auf die neuesten Hilfeinhalte bietet.
 * Fehlerkorrektur – Zeilenumbrüche in einer Nachricht werden beim Bearbeiten der Textversion nicht mehr entfernt. (CAMP-44483)
 * Fehlerkorrektur – Die Textversion einer HTML-Vorlage wird jetzt automatisch generiert und synchronisiert. (CAMP-44195)
 * Fehlerkorrektur – Das Ändern der Bildgröße funktioniert jetzt richtig. Nach dem Senden der Nachrichten wurden die Bilder in Microsoft Outlook nicht richtig angezeigt. (CAMP-44656)
@@ -289,7 +289,7 @@ ht-degree: 100%
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
 ## Version 20.2 – April 2020 {#release-20-2---april-2020}
 
@@ -327,13 +327,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+>Im April werden im Control Panel von Campaign neue Funktionen veröffentlicht, einschließlich der Google TXT-Datensatzverwaltung, der Überwachung der Datenbankkapazität und eines E-Mail-Warnsystems. Weiterführende Informationen zu diesen Funktionen finden Sie im [Versionshinweis zum Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
 **Verbesserungen**
 
 * Das Anwendererlebnis beim Transaktionsnachrichtenversand wurde verbessert; zudem wurde die Konsistenz der Benutzeroberfläche erhöht. [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard ermöglicht es Ihnen jetzt, mithilfe zusätzlicher Daten aus Workflows Testsendungen an Testprofile vorzunehmen.
-* Limits für die externe API-Aktivität wurden aktualisiert. [Mehr dazu](../../automating/using/external-api.md)
+* Schutzmaßnahmen für die externe API-Aktivität wurden aktualisiert. [Mehr dazu](../../automating/using/external-api.md)
 
 **Verbesserungen bei Email Designer**
 

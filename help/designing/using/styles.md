@@ -40,7 +40,7 @@ Im Strukturbaum können Sie eine präziseren Auswahl vornehmen. Sie können die 
 Um eine Spalte auszuwählen, können Sie auch folgendermaßen vorgehen:
 
 1. Wählen Sie eine Strukturkomponente (direkt in der E-Mail oder unter Verwendung des Strukturbaums in der linken **Palette**).
-1. Wählen Sie in der **dedizierten Symbolleiste** die Option **[!UICONTROL Spalte auswählen]**, um die gewünschte Spalte auszuwählen.
+1. Wählen Sie in der **kontextuellen Symbolleiste** die Option **[!UICONTROL Spalte auswählen]**, um die gewünschte Spalte auszuwählen.
 
 In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
 
@@ -85,7 +85,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 
 ## Formatierungsausrichtung {#about-alignment}
 
-* **Textausrichtung**: Platzieren Sie den Cursor auf einem Text und richten Sie ihn über die dedizierte Symbolleiste aus.
+* **Textausrichtung**: Platzieren Sie den Cursor auf einem Text und richten Sie ihn über die kontextuelle Symbolleiste aus.
 
    ![](assets/des_text_alignment.png)
 
@@ -104,7 +104,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 >title="Hintergrundeinstellungen"
 >abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihre Inhalte personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Clients unterstützt wird."
 
-Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
+Für die Einstellung von Hintergründen mit E-Mail-Designer empfiehlt Adobe Folgendes:
 
 1. Wenden Sie eine Hintergrundfarbe auf den Hauptteil Ihrer E-Mail an, wenn das Design es so verlangt.
 1. Meistens wird die Hintergrundfarbe auf Spaltenebene festgelegt.
@@ -149,7 +149,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente bestehend aus drei Spalten anpassen. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder unter Verwendung des Strukturbaums in der linken **Palette** aus.
-1. Wählen Sie in der **dedizierten Symbolleiste** mit der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
+1. Wählen Sie in der **kontextuellen Symbolleiste** mit der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
 
    ![](assets/des_selecting_column.png)
 
