@@ -88,6 +88,7 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
       >[!NOTE]
       >
       >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]** auf 10, die Population mit dem Geschlecht **[!UICONTROL Weiblich]** auf 30 Personen begrenzen. Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validieren Sie die Konfiguration Ihres Segments.
