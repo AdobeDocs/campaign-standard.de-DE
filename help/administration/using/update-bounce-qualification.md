@@ -4,16 +4,14 @@ description: Erfahren Sie, wie Sie die Bounce-Qualifizierung nach einem ISP-Ausf
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '434'
 ht-degree: 100%
 
 ---
 
-# Bounce-Qualifizierung nach einem ISP-Ausfall aktualisieren {#update-bounce-qualification.md}
-
-Wenn Sie NICHT die neueste Version von Campaign ausführen, gilt dieser Abschnitt möglicherweise für Sie. Wenden Sie sich an Ihren Adobe Campaign-Kundenbetreuer.
+# Aktualisieren der Bounce-Qualifizierung nach einem ISP-Ausfall {#update-bounce-qualification.md}
 
 ## Kontext
 
