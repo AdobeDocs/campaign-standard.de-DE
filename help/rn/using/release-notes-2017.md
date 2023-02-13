@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4627'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -490,9 +490,9 @@ _Workflows_
   </tr> 
   <tr> 
    <td> Transaktionsnachrichten-API<br /> </td> 
-   <td> Die Transaktionsnachrichten-API ist jetzt verfügbar, was die Verwendung und Überwachung vereinfacht:<br /> 
+   <td> Die Transaktionsnachrichten-API ist jetzt verfügbar, wodurch die Verwendung und Überwachung vereinfacht wird:<br /> 
     <ul> 
-     <li> Sie profitieren von den Reporting- und Überwachungsfunktionen der Adobe Developer-Plattform. </li> 
+     <li> Sie können von den Berichts- und Monitoring-Funktionen der Adobe Developer-Plattform profitieren. </li> 
      <li> Die Authentifizierung erfolgt nun über einen adobe.io-Token anstatt über die IP-Zulassungsauflistung, wodurch das Sicherheitsverfahren vereinfacht wird. </li> 
      <li> Alle APIs sind jetzt auf einer einzigen Plattform integriert. Damit wird es einfacher, Ihrer Integration Funktionen für Transaktionsnachrichten hinzuzufügen, wenn Sie bereits die Profiles &amp; Services API unterstützen. </li> 
     </ul> </td> 
