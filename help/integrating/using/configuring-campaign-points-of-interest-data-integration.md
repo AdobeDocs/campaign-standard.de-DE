@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1405'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Adminis
 
 Um Adobe Experience Platform Location Services mit Mobile Apps zu verwenden, die mit dem Adobe Experience Platform SDK konfiguriert wurden, gehen Sie folgendermaßen vor:
 
-1. Fügen Sie die **[!UICONTROL Orte]** Erweiterung auf Ihre Mobile-App-Konfiguration in der Datenerfassungs-Benutzeroberfläche. Richten Sie in Adobe Campaign Ihre Mobile App ein. Siehe [Installieren der Places-Erweiterung](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=de#install-the-places-extension-in-adobe-experience-platform-launch?lang=de).
+1. Fügen Sie die Erweiterung **[!UICONTROL Places]** zur Konfiguration Ihrer Mobile App in der Benutzeroberfläche „Datenerfassung“ hinzu. Richten Sie in Adobe Campaign Ihre Mobile App ein. Siehe [Installieren der Places-Erweiterung](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=de#install-the-places-extension-in-adobe-experience-platform-launch?lang=de).
 
 1. Erstellen Sie nach dem Einrichten der Erweiterungen Datenelemente in der Datenerfassungs-UI, um Daten aus diesen Erweiterungen abzurufen. Weiterführende Informationen zum Erstellen von Datenelementen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
 
