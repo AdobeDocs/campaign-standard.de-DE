@@ -1,6 +1,6 @@
 ---
-title: Integration von Adobe Developer mit Microsoft Dynamics 365 konfigurieren
-description: Erfahren Sie, wie Sie die Integration von Adobe Developer für Microsoft Dynamics 365 konfigurieren.
+title: Konfigurieren von Adobe Developer für die Integration mit Microsoft Dynamics 365
+description: Erfahren Sie, wie Sie Adobe Developer für die Integration mit Microsoft Dynamics 365 konfigurieren
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -43,13 +43,13 @@ Bevor Sie die Einrichtungsschritte vor der Integration in diesem Artikel durchf�
 
 ### Konfiguration 
 
-Sie müssen ein neues Adobe Developer-Projekt erstellen und für die Integration konfigurieren.
+Sie müssen ein neues Adobe Developer-Projekt erstellen und es für die Integration konfigurieren.
 
 #### Neues Projekt erstellen
 
 Gehen Sie dazu wie folgt vor:
 
-1. Navigieren Sie zu [Adobe Developer-Konsole](https://console.adobe.io/home#) und wählen Sie Ihre Organisations-ID der Adobe aus dem Dropdown-Menü oben rechts im Bildschirm aus.
+1. Gehen Sie zur [Adobe Developer Console](https://console.adobe.io/home#) und wählen Sie Ihre Adobe Organisations-ID aus dem Dropdown-Menü oben rechts aus.
 
 1. Klicken Sie anschließend unter **[!UICONTROL Schnellstart]** auf **[!UICONTROL Neues Projekt erstellen]**.
 
@@ -63,7 +63,7 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/adobeIO3.png)
 
-1. Auf dem nächsten Bildschirm haben Sie die Möglichkeit, Ihren eigenen öffentlichen Schlüssel hochzuladen oder Adobe Developer das Schlüsselpaar für Sie generieren zu lassen. Diese Anweisungen entsprechen der letztgenannten Option. Wenn Sie sich dafür entscheiden, Adobe Developer das Schlüsselpaar generieren zu lassen, klicken Sie auf Option 1. Klicken Sie dann auf **[!UICONTROL Generieren von keypair]** Schaltfläche.
+1. Auf dem nächsten Bildschirm haben Sie die Möglichkeit, Ihren eigenen öffentlichen Schlüssel hochzuladen oder das Schlüsselpaar von Adobe Developer generieren zu lassen. Diese Anweisungen entsprechen der letztgenannten Option. Wenn Sie sich dafür entscheiden, Adobe Developer das Schlüsselpaar generieren zu lassen, klicken Sie auf Option 1. Klicken Sie dann auf die Schaltfläche **[!UICONTROL Schlüsselpaar generieren]**.
 
    ![](assets/adobeIO4.png)
 
@@ -101,10 +101,10 @@ Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.
 
 **Verwandte Themen**
 
-* [Integration von Adobe Developer mit Microsoft Dynamics 365 konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration
+* [Konfigurieren von Adobe Developer für die Microsoft Dynamics 365-Integration](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration
 * Die [Übersicht über die Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.
 
 
-* [Adobe Developer - Integration von Dienstkonten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer – Integration von Service-Konten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard – Einrichtung von API-Zugriff](../../api/using/setting-up-api-access.md)
 * [Campaign Standard – Integration mit Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
