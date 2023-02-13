@@ -5,9 +5,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, d
 
 Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe-Campaign-Kunden, die Daten von Personen erfassen, die in der EU wohnhaft sind. Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können.
 
-Siehe [diesem Abschnitt](../../start/using/privacy.md) , um mehr über die Tools und Funktionen zu erfahren, die Adobe Campaign bietet, um Sie bei der Einhaltung der DSGVO zu unterstützen.
+In [diesem Abschnitt](../../start/using/privacy.md) erfahren Sie mehr über die Werkzeuge und Funktionen, die Adobe Campaign Ihnen zur Verfügung stellt, um die Einhaltung der DSGVO zu gewährleisten.
 
 **Mehr dazu**
 
