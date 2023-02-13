@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
 ### Neue Anwendung registrieren   {#register-a-new-app}
 
-1. Melden Sie sich unter Ihrer Administratoranmeldung bei [portal.azure.com](https://portal.azure.com){target="_blank"}.
+1. Melden Sie sich unter Ihrem Administrator-Login bei [portal.azure.com](https://portal.azure.com){target="_blank"} an.
 
 1. Wählen Sie im Menü links **[!UICONTROL Azure Active Directory]** und dann im angezeigten Untermenü **[!UICONTROL App-Registrierungen]** aus.
 
@@ -99,7 +99,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
    * **[!UICONTROL Anwendungs-ID]**: Kennung der Anwendung, die Sie in Azure AD registriert haben (das ist obligatorisch).
    * Sie können **[!UICONTROL URl der Anwendungs-ID]** und **[!UICONTROL Azure AD-Objektkennung]** leer lassen.
    * **[!UICONTROL Vollständiger Name]**: Adobe-API.       `<stage or prod>`
-   * **[!UICONTROL E-Mail]**: identisch mit **[!UICONTROL Benutzername]** (oder der E-Mail-Adresse des Administrators, falls gewünscht).
+   * **[!UICONTROL E-Mail]**: identisch mit **[!UICONTROL Benutzername]** (oder der E-Mail-Adresse der Administratorin oder des Administrators, falls gewünscht).
 
    Weiterführende Informationen zur Erstellung von Anwendern finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
@@ -120,7 +120,7 @@ Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de
 Gehen Sie wie folgt vor, um die Dynamics 365-App in die Campaign Standard-Umgebung zu integrieren:
 
 1. Navigieren Sie zum folgenden Link: [https://appsource.microsoft.com/de-de/marketplace/apps](https://appsource.microsoft.com/de-de/marketplace/apps) und suchen Sie in der Suchleiste nach _Adobe Campaign for Dynamics 365_.
-Alternativ können Sie zu dieser [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
+Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview) gehen
 {target="_blank"}.
 1. Befolgen Sie die Anweisungen zum Installieren der App für Ihre Dynamics 365-Instanz.
 1. Nach der Installation navigieren Sie zu Ihrer Dynamics 365-Instanz und melden Sie sich als Administrator an.
@@ -136,5 +136,5 @@ Alternativ können Sie zu dieser [link](https://appsource.microsoft.com/en-us/pr
 
 **Verwandte Themen**
 
-* [Integration von Adobe Developer mit Microsoft Dynamics 365 konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration
+* [Konfigurieren von Adobe Developer für die Microsoft Dynamics 365-Integration](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration.
 * [Erste Schritte mit der Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.
