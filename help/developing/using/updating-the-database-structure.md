@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,4 +105,4 @@ Bei der Differenzanalyse handelt es sich um einen notwendigen Schritt, da währe
 >
 >Bei dieser Veröffentlichung wird die API **[!UICONTROL profilesAndServicesExt]** aktualisiert. Die API **[!UICONTROL profilesAndServices]** wird nicht aktualisiert.
 
-Weitere Informationen zu Adobe Campaign Standard-APIs finden Sie unter [diesem Abschnitt](../../api/using/get-started-apis.md).
+Weitere Informationen zu Adobe Campaign Standard-APIs finden Sie in [diesem Abschnitt](../../api/using/get-started-apis.md).
