@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Campaign Standard
-description: Hier kann man die wichtigsten Funktionen, die Benutzeroberfläche und die globalen Richtlinien kennenlernen.
+description: Einführung in die wichtigsten Funktionen, die Benutzeroberfläche und globale Richtlinien.
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
