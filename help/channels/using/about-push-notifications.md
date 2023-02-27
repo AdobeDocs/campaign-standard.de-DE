@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1260'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Vor dem Versand Ihrer Push-Benachrichtigungen sollten Sie auf Folgendes achten:
 
 1. Prüfen Sie, ob Ihr Anwender über die erforderlichen Berechtigungen in Adobe Campaign Standard und Tags in Adobe Experience Platform verfügt.
 
-1. Erstellen Sie in der Datenerfassungs-UI eine Eigenschaft für Mobilgeräte. Weiterführende Informationen finden Sie unter [Eigenschaft für Mobilgeräte einrichten](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Erstellen Sie in der Datenerfassungs-UI eine Eigenschaft für Mobilgeräte. Weiterführende Informationen finden Sie unter [Eigenschaft für Mobilgeräte einrichten](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. Installieren Sie in der Datenerfassungs-UI die Erweiterung **[!UICONTROL Adobe Campaign Standard]**.
 
@@ -87,7 +87,7 @@ Sehen Sie sich die folgenden Ressourcen an:
 
 ### Was muss ich tun, um in Campaign ein Push-Token zu erwerben? {#push-token-acquisition}
 
-Stellen Sie sicher, dass das Bereitstellungs-Team die Bereitstellung des Push-Kanals in Adobe Campaign Standard abgeschlossen hat. Implementieren Sie die setPushIdentifier-API aus dem SDK. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Stellen Sie sicher, dass das Bereitstellungs-Team die Bereitstellung des Push-Kanals in Adobe Campaign Standard abgeschlossen hat. Implementieren Sie die setPushIdentifier-API aus dem SDK. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
 ### Was benötige ich noch, um eine Push-Benachrichtigung zu senden, sobald ich das Push-Token und die ECID in Campaign habe? {#sending-push}
 
@@ -144,7 +144,7 @@ App-Entwickler müssen die Unterstützung für Mediendateien in der App bearbeit
 Gehen Sie wie folgt vor:
 
 * Konfigurieren Sie ein Postback für das Push-Tracking. Anweisungen dazu finden Sie [hier](../../administration/using/configuring-a-mobile-application.md).
-* Implementieren Sie die trackAction-API vom Mobile Core. Weitere Informationen finden Sie auf dieser [Seite.](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference)
+* Implementieren Sie die trackAction-API vom Mobile Core. Weitere Informationen finden Sie auf dieser [Seite.](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/)
 
 Detailliertere Anweisungen finden Sie auf dieser [Seite](../../administration/using/push-tracking.md).
 

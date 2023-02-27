@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '942'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Weitere Informationen zur Integration des Adobe Experience Platform SDK mit Camp
 
 Ja, die [!DNL Adobe Experience Platform SDK]-Integration ist für Adobe Campaign Standard und Adobe Campaign Classic verfügbar. Sie müssen die entsprechende **[!UICONTROL Erweiterung]** über die [!DNL Data Collection UI] installieren, um die Integration zu aktivieren.
 
-Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+Weitere Informationen hierzu finden Sie in diesem Abschnitt [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Welche Funktionen ermöglicht die Adobe Experience Platform SDK-Integration in Adobe Campaign? {#aep-capabilities}
 
@@ -65,16 +65,16 @@ Gehen Sie dazu wie folgt vor:
 1. Konfigurieren Sie eine **[!UICONTROL mobile Eigenschaft]** in [!DNL Launch].
 1. Installieren Sie die Adobe Campaign Standard-Erweiterung. Beachten Sie, dass die Adobe Campaign Standard-Erweiterung auch die **[!UICONTROL Mobile Core]**-, **[!UICONTROL Profil]**- und **[!UICONTROL Lifecycle]**-Erweiterungen erfordert, die standardmäßig in [!DNL Launch] installiert sind.
    * Benutzer sollten den Sitzungs-Timeout in der **[!UICONTROL Mobile Core]**-Erweiterung konfigurieren, was sich auf die Häufigkeit der Lebenszyklusereignisse auswirkt.
-   * Sobald die Erweiterung konfiguriert ist, sollten Benutzer mithilfe von Cocoapods für iOS und Gradle für Android entsprechende Abhängigkeiten in der Mobile App hinzufügen. Folgen Sie den Anweisungen [hier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+   * Sobald die Erweiterung konfiguriert ist, sollten Benutzer mithilfe von Cocoapods für iOS und Gradle für Android entsprechende Abhängigkeiten in der Mobile App hinzufügen. Folgen Sie den Anweisungen [hier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * Verwenden Sie immer die aktuellen Versionen der Bibliotheken.
-   * Registrieren Sie die **[!UICONTROL Campaign]**-, **[!UICONTROL UserProfile]**-, **[!UICONTROL Identity]**-, **[!UICONTROL Lifecycle]**- und **[!UICONTROL Signal]**-Erweiterungen in der Mobile App. Folgen Sie den Anweisungen [hier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * Registrieren Sie die **[!UICONTROL Campaign]**-, **[!UICONTROL UserProfile]**-, **[!UICONTROL Identity]**-, **[!UICONTROL Lifecycle]**- und **[!UICONTROL Signal]**-Erweiterungen in der Mobile App. Folgen Sie den Anweisungen [hier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * Nachdem die Erweiterungen registriert sind, starten Sie ACPCore. Stellen Sie für Android sicher, dass Sie setApplication mit onCreate () festlegen. Befolgen Sie der Anleitung zur mobilen Installation für Ihre Eigenschaft für Mobilgeräte in Launch.
-   * Die folgenden SDK-APIs sind ebenfalls erforderlich. Implementieren Sie die „Lifecycle Start“- und „Lifecycle Pause“-APIs, wie [hier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) für Android und hier für iOS beschrieben.
+   * Die folgenden SDK-APIs sind ebenfalls erforderlich. Implementieren Sie die „Lifecycle Start“- und „Lifecycle Pause“-APIs, wie [hier](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) für Android und hier für iOS beschrieben.
 1. Konfigurieren Sie eine **[!UICONTROL Mobile Property]** in Adobe Campaign Standard. Folgen Sie dem Verfahren [hier](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Was muss ich tun, um ein mobiles Profil in Campaign anzureichern? {#enrich-mobile-profile}
 
-Sie müssen ein CollectPII-Postback konfigurieren (siehe diese [Seite](../../administration/using/configuring-rules-launch.md#pii-postback)) und die CollectPII-API aus dem SDK implementieren (siehe diese [Seite](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Sie müssen ein CollectPII-Postback konfigurieren (siehe diese [Seite](../../administration/using/configuring-rules-launch.md#pii-postback)) und die CollectPII-API aus dem SDK implementieren (siehe diese [Seite](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## Wie oft sollte ein CollectPII-Aufruf ausgelöst werden? {#collect-pii}
 
@@ -96,9 +96,9 @@ Das ist ein bekanntes Problem und tritt aufgrund des Ablaufs des Tokens auf. In 
 
 Sehen Sie sich die folgenden Ressourcen an:
 
-* [Dokumentation](https://aep-sdks.gitbook.io/docs/) zum Experience Platform SDK
-* [Dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) zu den ersten Schritten mit Launch und dem Experience Platform SDK
-* [Dokumentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep) zur Aktualisierung auf das Experience Platform SDK
+* [Dokumentation](https://developer.adobe.com/client-sdks/documentation/) zum Experience Platform SDK
+* [Dokumentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) zu den ersten Schritten mit Launch und dem Experience Platform SDK
+* [Dokumentation](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks) zur Aktualisierung auf das Experience Platform SDK
 * [Dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) zum Experience Platform SDK in Github
 
 ## Beim Erstellen eines Push-Benachrichtigungsversands erhalte ich die Fehlermeldung &quot;Sie haben keinen Schreibzugriff auf den Versand&quot;.  {#write-access-error}

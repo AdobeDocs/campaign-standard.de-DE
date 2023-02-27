@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ Vor der Migration sollten Sie die folgenden Empfehlungen berücksichtigen:
 * Stellen Sie vor der Migration sicher, dass Ihnen die **[!UICONTROL Organisationseinheit]** der Mobile App, die Sie migrieren möchten, und der Adobe Experience Platform-Mobile-App, die Sie für die Migration verwenden, zugewiesen ist.
 * Nach der Migration wird die Mobile App zu einer Adobe Experience Platform SDK-Mobile-App. Die Änderungen werden mit dem entsprechenden Tag **[!UICONTROL Eigenschaft für Mobilgeräte]** verknüpft.
 
-1. Erstellen Sie in der Datenerfassungs-UI eine neue **[!UICONTROL Eigenschaft für Mobilgeräte]**. Weiterführende Informationen dazu finden Sie in der [Dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Erstellen Sie in der Datenerfassungs-UI eine neue **[!UICONTROL Eigenschaft für Mobilgeräte]**. Weiterführende Informationen dazu finden Sie in der [Dokumentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. Wählen Sie in Adobe Campaign Standard im erweiterten Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungskonfiguration]** > **[!UICONTROL Workflows]** aus und öffnen Sie den Workflow **[!UICONTROL syncWithLaunch]**. Überprüfen Sie, ob der Workflow ohne Fehler beendet wurde.
 

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 100%
+source-wordcount: '1170'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Erstellen Sie in der Datenerfassungs-UI Datenelemente und Regeln, damit personenbezogene Daten und andere Informationen von Mobile Apps an [!DNL Adobe Campaign Standard] gesendet werden können.
 
-Damit alle Konfigurationsänderungen in der Datenerfassungs-UI in Kraft treten können, müssen Sie diese Änderungen veröffentlichen. Weitere Informationen finden Sie unter [Veröffentlichen](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+Damit alle Konfigurationsänderungen in der Datenerfassungs-UI in Kraft treten können, müssen Sie diese Änderungen veröffentlichen. Weitere Informationen finden Sie unter [Veröffentlichen](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 Gehen Sie wie folgt vor, um Regeln in der Datenerfassungs-UI zu erstellen:
 
@@ -77,7 +77,7 @@ Sie müssen Regeln für Folgendes erstellen:
 
 >[!NOTE]
 >
->Um personenbezogene Informationen von einer Mobile App an Adobe Campaign zu senden, müssen Sie eine SDK-API implementieren. Weitere Informationen finden Sie unter [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Um personenbezogene Informationen von einer Mobile App an Adobe Campaign zu senden, müssen Sie eine SDK-API implementieren. Weitere Informationen finden Sie unter [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 Zum Senden von personenbezogenen Daten an [!DNL Adobe Campaign Standard] erstellen Sie eine Regel in der Datenerfassungs-UI:
 

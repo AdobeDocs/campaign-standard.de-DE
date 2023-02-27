@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '7268'
-ht-degree: 100%
+source-wordcount: '7269'
+ht-degree: 99%
 
 ---
 
@@ -330,7 +330,7 @@ Genauere Informationen über den erweiterten MTA wurden der Hauptdokumentation h
 
 Der Abschnitt zum Archivieren mit E-Mail-BCC wurde verschoben und aktualisiert – [Weitere Informationen](../../sending/using/archiving.md)
 
-Die Dokumentation zur Konfiguration einer mobilen App und zugehörige Seiten wurden aktualisiert, da SDK V4 entfernt wurde – [Weitere Informationen](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+Die Dokumentation zur Konfiguration einer mobilen App und zugehörige Seiten wurden aktualisiert, da SDK V4 entfernt wurde – [Weitere Informationen](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
 
 Die Dokumentation zur Integration von Adobe Campaign Standard mit Adobe Experience Manager wurde aktualisiert und verbessert – [Weitere Informationen](../../integrating/using/configure-experience-manager.md)
 

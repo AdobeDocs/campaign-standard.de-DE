@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Da In-App-Nachrichten vom SDK aus Campaign abgerufen werden, möchten wir einen 
 * Mit der Profilvorlage erstellte Nachrichten können nur zugestellt werden, wenn sich der Benutzer bei der App angemeldet hat.
 * Um diesen sicheren Handshake zu ermöglichen, sollten Entwickler von Mobile Apps zusätzliche Authentifizierungsdetails mithilfe der setLinkageField-API übergeben. Bitte beachten Sie, dass die Verknüpfungsfelder diejenigen sind, die bei der Erweiterung der appSubscriberRcp-Tabelle als Verknüpfung zwischen mobilen Profilen und CRM-Profilen identifiziert werden.
 * Sie sollten die auf dem Gerät gespeicherten In-App-Nachrichten leeren und resetLinkagefields zurücksetzen, wenn sich der Benutzer mit resetLinkageField bei der App abmeldet. Dadurch wird sichergestellt, dass ein anderer Benutzer, der sich bei der App anmeldet, nicht die für den vorherigen Benutzer bestimmten Nachrichten sieht.
-* Informationen zur Client-seitigen Implementierung dieses Sicherheitsmechanismus finden Sie unter [Mobile SDK-APIs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
+* Informationen zur Client-seitigen Implementierung dieses Sicherheitsmechanismus finden Sie unter [Mobile SDK-APIs](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 ## Was muss ich tun, um In-App-Berichte in Campaign zu aktivieren? {#enable-inapp-reporting}
 
