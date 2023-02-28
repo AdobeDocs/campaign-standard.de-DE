@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 83%
 
 ---
 
@@ -42,13 +42,10 @@ Die Aktivität **[!UICONTROL Abstimmung]** dient hauptsächlich der Datenverwalt
 
    Im Anschluss können Sie zum Beispiel eine Audience speichern, die Datenbank aktualisieren etc.
 
-Die Aktivität **[!UICONTROL Abstimmung]** kann beispielsweise auf eine Datenladeaktivität folgen, die nicht standardmäßige Daten in die Datenbank importiert.
+Beispiel: die **[!UICONTROL Abstimmung]** -Aktivität kann auf eine Datenladeaktivität folgen, um nicht standardmäßige Daten in die Datenbank zu importieren.
 
-**Verwandte Themen:**
+Während **Anreicherung** Mithilfe der Aktivität können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen (mithilfe einer **Anreicherung** -Aktivität, um Daten aus mehreren Sätzen zu kombinieren oder Links zu einer temporären Ressource zu erstellen), wird die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit vorhandenen Ressourcen. Der Abstimmvorgang bedeutet, dass die Daten der verknüpften Dimensionen bereits in der Datenbank gespeichert sind. Anwendungsbeispiele finden Sie unter [diesem Abschnitt](#use-cases-reconciliation).
 
-* [Anwendungsfall: Datenabstimmung mithilfe von Relationen](../../automating/using/reconciliation-using-relations.md)
-* [Anwendungsfall: Datenaktualisierung mittels Abstimmung](../../automating/using/data-update-reconciliation.md)
-* [Anwendungsfall: Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}
 
@@ -70,3 +67,12 @@ Die Aktivität **[!UICONTROL Abstimmung]** kann beispielsweise auf eine Datenlad
    * **[!UICONTROL In die Ausgabepopulation einschließen]**: Alle Daten der eingehenden Transition werden in der ausgehenden Transition beibehalten.
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
+
+
+## Anwendungsfälle{#use-cases-reconciliation}
+
+Erfahren Sie, wie Sie diese Aktivität in den folgenden Anwendungsfällen verwenden können:
+
+* [Anwendungsfall: Datenabstimmung mithilfe von Relationen](../../automating/using/reconciliation-using-relations.md)
+* [Anwendungsfall: Datenaktualisierung mittels Abstimmung](../../automating/using/data-update-reconciliation.md)
+* [Anwendungsfall: Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
