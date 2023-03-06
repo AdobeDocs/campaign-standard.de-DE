@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
 source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ Die Aktivität **[!UICONTROL Abstimmung]** dient hauptsächlich der Datenverwalt
 
    Im Anschluss können Sie zum Beispiel eine Audience speichern, die Datenbank aktualisieren etc.
 
-Beispiel: die **[!UICONTROL Abstimmung]** -Aktivität kann auf eine Datenladeaktivität folgen, um nicht standardmäßige Daten in die Datenbank zu importieren.
+Die Aktivität **[!UICONTROL Abstimmung]** kann beispielsweise auf eine Datenladeaktivität folgen, um nicht standardmäßige Daten in die Datenbank zu importieren.
 
-Während **Anreicherung** Mithilfe der Aktivität können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen (mithilfe einer **Anreicherung** -Aktivität, um Daten aus mehreren Sätzen zu kombinieren oder Links zu einer temporären Ressource zu erstellen), wird die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit vorhandenen Ressourcen. Der Abstimmvorgang bedeutet, dass die Daten der verknüpften Dimensionen bereits in der Datenbank gespeichert sind. Anwendungsbeispiele finden Sie unter [diesem Abschnitt](#use-cases-reconciliation).
+Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen. So können Sie mit der Aktivität **Anreicherung** Daten aus mehreren Datensätzen kombinieren oder Verknüpfungen zu einer temporären Ressource erstellen. Dagegen ermöglicht Ihnen die Aktivität **Abstimmung**, nicht identifizierte Daten mit bestehenden Ressourcen zu verknüpfen. Der Abstimmungsvorgang setzt voraus, dass die Daten der verknüpften Dimensionen bereits in der Datenbank vorhanden sind. Weitere Anwendungsbeispiele sind in [diesem Abschnitt](#use-cases-reconciliation) verfügbar.
 
 
 ## Konfiguration {#configuration}
