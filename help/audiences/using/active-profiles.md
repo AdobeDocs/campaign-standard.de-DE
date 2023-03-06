@@ -6,19 +6,19 @@ role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
 source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Aktive Profile{#active-profiles}
 
-Sie können auf die Details der aktiven Profile über die **[!UICONTROL Kundenmetriken]** Bericht. Dieser Bericht steht nur funktionalen Administratoren von Campaign zur Verfügung. Um auf diesen Bericht zuzugreifen, klicken Sie auf das Adobe Campaign-Symbol oben links im [Benutzeroberfläche](../../start/using/interface-description.md#advanced-menu)und navigieren Sie zu **[!UICONTROL Administration > Kundenmetriken]**.
+Sie können auf die Details der aktiven Profile über den Bericht **[!UICONTROL Kundenmetriken]** zugreifen. Dieser Bericht ist nur für funktionale Administratoren und Administratorinnen in Campaign verfügbar. Um auf diesen Bericht zuzugreifen, klicken Sie auf das Adobe Campaign-Symbol oben links in der [Benutzeroberfläche](../../start/using/interface-description.md#advanced-menu) und gehen Sie zu **[!UICONTROL Administration > Kundenmetriken]**.
 
 ![](assets/audience_customer_metrics.png)
 
-Dieser Bericht wird monatlich durch den technischen Workflow **[!UICONTROL Abrechnung]** generiert und zeigt die Anzahl der **aktiven Profile** an. Weitere Informationen zu technischen Workflows finden Sie unter [diese Seite](../../administration/using/technical-workflows.md).
+Dieser Bericht wird monatlich durch den technischen Workflow **[!UICONTROL Abrechnung]** generiert und zeigt die Anzahl der **aktiven Profile** an. Weitere Informationen zu technischen Workflows finden Sie auf [dieser Seite](../../administration/using/technical-workflows.md).
 
 Ein &quot;Profil&quot; ist ein Datensatz mit Informationen, die einen Endkunden, Interessenten oder Lead repräsentieren. Profile werden als **aktiv** angesehen, wenn sie innerhalb der letzten 12 Monate über einen beliebigen Kanal durch einen Campaign-Versand angesprochen wurden.
 
