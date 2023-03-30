@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
    + Transaktionsnachrichtenversand {#transactional-messaging}
       + [Erste Schritte mit Transaktionsnachrichten](channels/using/getting-started-with-transactional-msg.md)
       + [Best Practices und Einschränkungen](channels/using/transactional-messaging-limitations.md)
+      + [Aktualisierungen der Berechtigungen für Transaktionsnachrichten](channels/using/transactional-message-permission.md)
       + Ereigniskonfiguration {#event-configuration}
          + [Transaktionsereignis konfigurieren](channels/using/configuring-transactional-event.md)
          + [Transaktionsereignis veröffentlichen](channels/using/publishing-transactional-event.md)
