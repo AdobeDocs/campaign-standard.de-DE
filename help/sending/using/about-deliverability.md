@@ -94,7 +94,7 @@ Mit Adobe Campaign können Sie anhand einer Reihe von integrierten Echtzeitindik
 
 Weiterführende Informationen hierzu finden Sie in den folgenden Abschnitten:
 
-* [Überwachen der Zustellbarkeit](../../sending/using/monitor-deliverability.md)
+* [Zustellbarkeit überwachen](../../sending/using/monitor-deliverability.md)
 
    <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)

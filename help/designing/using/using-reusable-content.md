@@ -249,7 +249,7 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Tei
 
 * Strukturen, die Personalisierungsfelder, dynamische Inhalte oder ein anderes Fragment enthalten, können nicht als Fragment gespeichert werden.
 * Sie können nur nebeneinander liegende Strukturen auswählen.
-<!-- - You cannot select an empty structure.-->
+   <!-- - You cannot select an empty structure.-->
 
 1. Wählen Sie bei der Bearbeitung einer E-Mail in Email Designer in der Hauptsymbolleiste **[!UICONTROL Als Fragment speichern]** aus.
 

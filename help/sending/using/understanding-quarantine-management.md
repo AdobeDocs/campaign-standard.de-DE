@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 100%
+source-wordcount: '1474'
+ht-degree: 95%
 
 ---
 
@@ -49,7 +49,7 @@ Die Quarantäne und die Blockierungsliste gelten nicht für dasselbe Objekt:
 >
 >Die Quarantäne beinhaltet den Status **Auf Blockierungsliste**, der angewendet wird, wenn Empfänger Ihre Nachricht als Spam melden oder auf eine SMS mit einem Schlüsselwort wie &quot;STOPP&quot; antworten. In diesem Fall wird die betroffene Adresse oder Telefonnummer des Profils unter Quarantäne gestellt und erhält den Status **[!UICONTROL Auf Blockierungsliste]**. Weiterführende Informationen zur Verwaltung von STOPP-SMS-Nachrichten finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+&lt;!—Wenn ein Benutzer auf eine SMS-Nachricht mit einem Schlüsselwort wie STOP antwortet, um sich vom SMS-Versand abzumelden, wird sein Profil nicht wie im E-Mail-Abmeldevorgang zur Blockierungsliste hinzugefügt. Stattdessen wird die Telefonnummer des Profils mit der **[!UICONTROL Auf Blockierungsliste]** Status. Dieser Status bezieht sich ausschließlich auf die Telefonnummer, d. h. das Profil erhält weiterhin E-Mail-Nachrichten.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## In Quarantäne befindliche Adressen identifizieren   {#identifying-quarantined-addresses}
 
