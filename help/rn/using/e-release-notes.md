@@ -1,13 +1,27 @@
 ---
-source-git-commit: 48b6c5de8871e9e1f12c91474376abc53a199bc8
+title: Vorzeitige Versionshinweise
+description: Vorzeitige Versionshinweise
+feature: Overview
+role: User
+level: Beginner
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
+
+
+# Vorzeitige Versionshinweise {#e-new-release}
+
+Auf dieser Seite werden Verbesserungen und Fehlerbehebungen beschrieben, die in der nächsten Campaign Standard-Version enthalten sind.
 >[!CAUTION]
 >
 > Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
+
 ## Version 22.3.2 {#dec-22}
 
 ### Sicherheits-Update{#rn-security2}
