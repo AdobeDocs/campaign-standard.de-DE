@@ -5,9 +5,9 @@ user-guide-description: Hilfezentrum für die wichtigsten Funktionen, Aufgaben, 
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
 source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -142,8 +142,8 @@ ht-degree: 99%
       + [Landingpage testen und veröffentlichen](channels/using/testing-publishing-landing-page.md)
       + [Anmeldung mit zweifacher Bestätigung einrichten](channels/using/setting-up-a-double-opt-in-process.md)
 + E-Mail-Inhalt gestalten {#designing-content}
-   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
-   + [Erste Schritte mit Email Designer](designing/using/quick-start.md)
+   + [Campaign E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
+   + [Erste Schritte mit E-Mail-Designer](designing/using/quick-start.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
    + E-Mail-Inhalte erstellen{#building-email-content}
       + [Erstellen neuer E-Mails](designing/using/designing-from-scratch.md)
@@ -151,7 +151,7 @@ ht-degree: 99%
       + [Wiederverwendbaren Inhalt verwenden](designing/using/using-reusable-content.md)
       + [Integrationen mit mehreren Lösungen verwenden](designing/using/using-integrations.md)
       + [Normaltext-, HTML- und mobile E-Mails bearbeiten](designing/using/plain-text-html-modes.md)
-      + [E-Mails des alten Editors in Email Designer konvertieren](designing/using/converting-emails-from-legacy-editor.md)
+      + [E-Mails des alten Editors in E-Mail-Designer konvertieren](designing/using/converting-emails-from-legacy-editor.md)
    + [Personalisieren von E-Mail-Inhalten](designing/using/personalization.md)
    + [Verwenden von Produktlisten](designing/using/using-product-listings.md)
    + [E-Mail-Stile verwalten](designing/using/styles.md)
