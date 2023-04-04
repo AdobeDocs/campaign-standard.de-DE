@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen.
 
-## Version 23.1 - Frühjahr/Sommer 2023 {#release-23-1-release}
+## Version 23.1 – Version Frühjahr/Sommer 2023 {#release-23-1-release}
 
 Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
@@ -41,11 +41,11 @@ Ausführliche Informationen zu dieser Version sind in den [Versionshinweisen](re
  <tbody>
   <tr>
    <td>Staging<br /> </td>
-   <td>11. April 2023 - Juli 2023<br /> </td>
+   <td>11. April 2023 – Juli 2023<br /> </td>
   </tr>
   <tr>
    <td>Produktion<br /> </td>
-   <td>18. April 2023 - Juli 2023<br /> </td>
+   <td>18. April 2023 – Juli 2023<br /> </td>
   </tr>
  </tbody>
 </table>
