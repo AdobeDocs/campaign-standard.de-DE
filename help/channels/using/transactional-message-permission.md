@@ -11,50 +11,50 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Berechtigung für Transaktionsnachrichten {#transactional-message-permission}
 
-In Adobe Campaign Standard können Benutzer ohne Administrator-Sicherheitsgruppe derzeit nicht auf Ereignisse zugreifen, Ereignisse erstellen oder veröffentlichen, was zu Problemen für Geschäftsbenutzer führt, die Ereignisse konfigurieren und veröffentlichen müssen, aber keine Administratorrechte haben.
+Derzeit können Benutzerinnen und Benutzer ohne die Sicherheitsgruppe „Administrator“ in Adobe Campaign Standard nicht auf Ereignisse zugreifen, sie erstellen oder veröffentlichen. Dies führt zu Problemen für Geschäftsanwenderinnen und -anwender, die Ereignisse konfigurieren und veröffentlichen müssen, aber nicht über Administratorrechte verfügen.
 
 Die Zugriffskontrolle auf Transaktionsnachrichten wurde folgendermaßen verbessert:
 
-* Eine neue **[!UICONTROL Rolle]** aufgerufen **MC-Benutzer** wurde hinzugefügt, damit Benutzer, die keine Administratoren sind, Transaktionsereignisse verwalten können. Die **MC-Benutzer** -Rolle bietet diesen Benutzern die Möglichkeit, auf Transaktionsereignisse und -nachrichten zuzugreifen, sie zu erstellen, zu veröffentlichen und deren Veröffentlichung aufzuheben.
+* Eine neue **[!UICONTROL Rolle]** mit der Bezeichnung **MC USER** wurde hinzugefügt, damit Benutzerinnen und Benutzer, die keine Administratoren sind, Transaktionsereignisse verwalten können. Die Rolle **MC USER** bietet diesen Benutzerinnen und Benutzern die Möglichkeit, auf Transaktionsereignisse und -nachrichten zuzugreifen, sie zu erstellen, zu veröffentlichen und ihre Veröffentlichung aufzuheben.
 
-* Die untergeordneten Sendungen sind nun auf die **[!UICONTROL Organisationseinheit]** der Sicherheitsgruppe, zu der der Benutzer gehört, der die Nachrichtenvorlage erstellt, anstatt sich auf die **[!UICONTROL Organisationseinheit]** des **Message Center Agent (mcExec)** Sicherheitsgruppe.
+* Untergeordnete Sendungen sind nun auf die **[!UICONTROL Organisationseinheit]** der Sicherheitsgruppe festgelegt, zu der die Benutzerin oder der Benutzer gehört, die oder der die Nachrichtenvorlage erstellt, anstatt auf die **[!UICONTROL Organisationseinheit]** der Sicherheitsgruppe **Message Center Agent (mcExec)** beschränkt zu sein.
 
-* Die Standardeinstellung **Message Center-Ausführung (mcExec)** Kampagne, die die untergeordneten Sendungen von Transaktionsnachrichten erfasst, ist jetzt auf die Organisationseinheit eingestellt **Alle** Möglichkeit für alle Benutzer, Berichte über untergeordnete Sendungen anzuzeigen.
+* Die Standardkampagne von **Message Center Execution (mcExec)**, die die untergeordneten Sendungen von Transaktionsnachrichten erfasst, ist jetzt auf die Organisationseinheit **Alle** festgelegt, sodass alle Benutzerinnen und Benutzer Berichte von untergeordneten Sendungen anzeigen können.
 
-So weisen Sie die **MC-Benutzer** Rolle:
+So weisen Sie die Rolle **MC USER** zu:
 
-1. Erstellen Sie eine neue **[!UICONTROL Sicherheitsgruppe]** oder ein vorhandenes aktualisieren. [Weitere Informationen](../../administration/using/managing-groups-and-users.md).
+1. Erstellen Sie eine neue **[!UICONTROL Sicherheitsgruppe]** oder aktualisieren Sie eine vorhandene. [Weitere Informationen](../../administration/using/managing-groups-and-users.md).
 
-1. Klicken **[!UICONTROL Element erstellen]** , um Ihrer Sicherheitsgruppe Rollen zuzuweisen.
+1. Klicken Sie auf **[!UICONTROL Element erstellen]**, um Ihrer Sicherheitsgruppe Rollen zuzuweisen.
 
    ![](assets/event_access_1.png)
 
-1. MC-Benutzer auswählen **[!UICONTROL Rolle]** und klicken Sie auf **[!UICONTROL Bestätigen]**.
+1. Wählen Sie die **[!UICONTROL Rolle]** „MC USER“ aus und klicken Sie auf **[!UICONTROL Bestätigen]**.
 
    >[!IMPORTANT]
    >
-   > Gehen Sie beim Zuweisen der Benutzerrolle MC vorsichtig vor, da diese Benutzern die Möglichkeit gibt, die Veröffentlichung von Ereignissen aufzuheben.
+   > Gehen Sie beim Zuweisen der Rolle „MC USER“ vorsichtig vor, da diese Rolle Benutzerinnen und Benutzer die Möglichkeit gibt, die Veröffentlichung von Ereignissen aufzuheben.
 
    ![](assets/event_access_2.png)
 
 1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Speichern]**.
 
-Benutzer, die damit verknüpft sind **[!UICONTROL Sicherheitsgruppe]** kann jetzt auf Transaktionsereignisse und -nachrichten zugreifen, sie erstellen und veröffentlichen.
+Benutzerinnen und Benutzer, die mit dieser **[!UICONTROL Sicherheitsgruppe]** verknüpft sind, können jetzt auf Transaktionsereignisse und -nachrichten zugreifen, sie erstellen und veröffentlichen.
 
 In der folgenden Tabelle sind die Auswirkungen dieser Funktion auf die Zugriffskontrolle aufgeführt:
 
 | Objekte | Vor dieser Änderung | Nach dieser Änderung |
 |:-: | :--: | :-:|
-| Message Center Execution (mcExec) campaign | **Message Center-Ausführung (mcExec)** Kampagne auf die Organisationseinheit der **Message Center Agent (mcExec)** Sicherheitsgruppe. | **Message Center-Ausführung (mcExec)** Kampagne auf die Organisationseinheit eingestellt **Alle** , damit alle untergeordneten Sendungen dieser Kampagne zugeordnet werden können.</br> Alle Benutzer können die Berichte über die untergeordneten Sendungen anzeigen, haben jedoch nur Lesezugriff auf den Versandinhalt. |
-| Untergeordnete Sendungen | Untergeordnete Sendungen werden auf die **Organisationseinheit** des **Message Center Agent (mcExec)** Sicherheitsgruppe. | Die untergeordneten Sendungen werden auf die **Organisationseinheit** der Sicherheitsgruppe, zu der der Benutzer gehört, der die Nachrichtenvorlage erstellt. |
-| Nachrichtenvorlage | Nachrichtenvorlagen werden auf die **Organisationseinheit** des **Message Center Agent (mcExec)** Sicherheitsgruppe. | Nachrichtenvorlagen werden auf die **Organisationseinheit** der Sicherheitsgruppe, zu der der Benutzer gehört, der die Nachrichtenvorlage erstellt. |
-| Transaktionsereignisse | Nur Benutzer innerhalb der **Administrator** Sicherheitsgruppe kann Ereignisse erstellen und veröffentlichen. | Die **MC-Benutzer** -Rolle ermöglicht Benutzern das Erstellen und Veröffentlichen von Ereignissen. |
-| Transaktionsnachrichtenvorlagen | Transaktionsnachrichten-Vorlagen sind auf die Organisationseinheit eingestellt **Alle**. | Transaktionsnachrichtenvorlage wird auf die **Organisationseinheit** der Sicherheitsgruppe, zu der der Benutzer gehört, der die Nachrichtenvorlage erstellt. |
+| Die Kampagne „Message Center Execution (mcExec)“ | Die Kampagne **Message Center Execution (mcExec)** ist auf die Organisationseinheit der Sicherheitsgruppe **Message Center Agent (mcExec)** festgelegt. | Die Kampagne **Message Center Execution (mcExec)** ist auf die Organisationseinheit **Alle** festgelegt, damit alle untergeordneten Sendungen dieser Kampagne zugeordnet werden können.</br> Alle Benutzerinnen und Benutzer können Berichte über untergeordneten Sendungen anzeigen, haben jedoch nur Lesezugriff auf den Versandinhalt. |
+| Untergeordnete Sendungen | Untergeordnete Sendungen sind auf die **Organisationseinheit** der Sicherheitsgruppe **Message Center Agent (mcExec)** festgelegt. | Untergeordnete Sendungen werden auf die **Organisationseinheit** der Sicherheitsgruppe festgelegt, zu der die Benutzerin oder der Benutzer gehört, die oder der die Nachrichtenvorlage erstellt. |
+| Nachrichtenvorlage | Nachrichtenvorlagen sind auf die **Organisationseinheit** der Sicherheitsgruppe **Message Center Agent (mcExec)** festgelegt. | Nachrichtenvorlagen werden auf die **Organisationseinheit** der Sicherheitsgruppe festgelegt, zu der die Benutzerin oder der Benutzer gehört, die oder der die Nachrichtenvorlage erstellt. |
+| Transaktionsereignisse | Nur Benutzerinnen und Benutzer innerhalb der Sicherheitsgruppe **Administrator** können Ereignisse erstellen und veröffentlichen. | Die Rolle **MC USER** ermöglicht Benutzerinnen und Benutzern das Erstellen und Veröffentlichen von Ereignissen. |
+| Vorlagen für Transaktionsnachrichten | Vorlagen für Transaktionsnachrichten sind auf die Organisationseinheit **Alle** festgelegt. | Die Vorlage für Transaktionsnachrichten wird auf die **Organisationseinheit** der Sicherheitsgruppe festgelegt, zu der die Benutzerin oder der Benutzer gehört, die oder der die Nachrichtenvorlage erstellt. |
