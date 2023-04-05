@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -22,21 +22,19 @@ Auf dieser Seite werden Verbesserungen und Fehlerbehebungen beschrieben, die in 
 >
 > Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
 
-## Version 22.3.2 {#dec-22}
+## Version 23.1 – Version Frühjahr/Sommer 2023 {#apr-23}
 
-### Sicherheits-Update{#rn-security2}
+### Verbesserungen {#e-rn-improvements}
 
-Diese Version umfasst die folgende Sicherheitsaktualisierung: Debian wurde auf v11.0 aktualisiert.
+* Der Push-Benachrichtigungsdienst wurde modernisiert, um die Wartung zu optimieren. (CAMP-47959)
+* Der SMS-Nachrichtendienst wurde modernisiert, um die Stabilität zu verbessern. (CAMP-52217)
+* Die vordefinierten **Workflow zur Berichterstellung für Anreicherung** wurde hinzugefügt. Führen Sie nach dem Import eines Zielgruppen-Mappings von einer Instanz in eine andere einfach den Workflow aus, um die entsprechenden Berichterstattungseinträge zu importieren. (CAMP-52452)
 
-## Version 22.3 – Herbst/Winter 2022 {#sept-22}
+### Korrekturen {#e-rn-patches}
 
-### Sicherheits-Update{#rn-security}
-
-Diese Version umfasst die folgende Sicherheitsaktualisierung: Apache Tomcat wurde von v7.0 auf v8.0 aktualisiert.
-
-### Fehlerbehebungen{#e-rn-fixes}
-
-* Fehlerkorrektur – Terminierte Berichte werden jetzt nicht mehr eine Stunde vor dem geplanten Zeitpunkt ausgelöst. (CAMP-51502)
-* Fehlerkorrektur – Die Versandindikatoren im Versand-Dashboard stimmen jetzt mit den Versandlogs überein (nms:broadLogRcp). (CAMP-51127)
-* Fehlerkorrektur – Die Erweiterung benutzerdefinierter Ressourcen mit dem ACS-Connector (Prime-Angebot) ist jetzt möglich. (CAMP-51033)
-* Der Veröffentlichungsprozess für Antworten auf Datenschutzanfragen wurde verbessert, um Verzögerungen zu vermeiden. (CAMP-50613)
+* Fehlerkorrektur - Jetzt tritt kein Timeout-Fehler mehr auf, wenn die **Klickposition** Bericht. (CAMP-51582)
+* Fehlerkorrektur - Die Integration mit der **Orte** Dienst. (CAMP-51923)
+* Fehlerkorrektur - Die Workflow-Planung funktioniert jetzt ordnungsgemäß. (CAMP-52003)
+* Fehlerkorrektur - Aufschlüsselungsdetails werden jetzt angezeigt, wenn die PDF-Version eines benutzerdefinierten dynamischen Berichts mit einer großen Datenmenge angezeigt wird. (CAMP-52178)
+* Fehlerkorrektur - Beim Zugriff auf Berichte wird jetzt kein Fehler mehr angezeigt. (CAMP-52500)
+* Fehlerkorrektur - Die **MTA-Instanzen für dieses Konto begrenzen** Parameter des SMS-Connectors auf alle Kanäle anwenden, anstatt nur auf SMS anzuwenden. (CAMP-52640)
