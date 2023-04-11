@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 16%
 * Der SMS-Nachrichtendienst wurde verbessert, um eine bessere Stabilität zu erreichen. (CAMP-52217)
 * Adobe hat viele Fehlerbehebungen zur Barrierefreiheit vorgenommen, um die Benutzerfreundlichkeit der Anwendung zu verbessern. Im Folgenden finden Sie einige Beispiele für Verbesserungen der Barrierefreiheit:
    * Die Barrierefreiheit der Benutzeroberfläche wurde in vielen Bildschirmen optimiert.
-   * Die Anwendung wurde für Touchscreen-Benutzer verzaubert.
+   * Die Anwendung wurde für Touchscreen-Benutzer verbessert.
    * Die Farbe mehrerer Elemente auf der Benutzeroberfläche wurde geändert, um die Sichtbarkeit zu verbessern.
 
 ### Sonstige Änderungen  {#e-rn-changes}
