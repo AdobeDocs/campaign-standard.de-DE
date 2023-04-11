@@ -5,14 +5,33 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
 
 # Versionshinweise 2022{#release-notes-2022}
+
+## Version 22.3.2 {#feb-23}
+
+### Sicherheits-Update{#rn-security2}
+
+Diese Version umfasst die folgende Sicherheitsaktualisierung: Debian wurde auf v11.0 aktualisiert.
+
+## Version 22.3 – Herbst/Winter 2022 {#sept-22}
+
+### Sicherheits-Update{#rn-security}
+
+Diese Version umfasst die folgende Sicherheitsaktualisierung: Apache Tomcat wurde von v7.0 auf v8.0 aktualisiert.
+
+### Fehlerbehebungen{#rn-fixes}
+
+* Fehlerkorrektur – Terminierte Berichte werden jetzt nicht mehr eine Stunde vor dem geplanten Zeitpunkt ausgelöst. (CAMP-51502)
+* Fehlerkorrektur – Die Versandindikatoren im Versand-Dashboard stimmen jetzt mit den Versandlogs überein (nms:broadLogRcp). (CAMP-51127)
+* Fehlerkorrektur – Die Erweiterung benutzerdefinierter Ressourcen mit dem ACS-Connector (Prime-Angebot) ist jetzt möglich. (CAMP-51033)
+* Der Veröffentlichungsprozess für Antworten auf Datenschutzanfragen wurde verbessert, um Verzögerungen zu vermeiden. (CAMP-50613)
 
 ## Version 22.2 – Juni 2022 {#june-2022}
 

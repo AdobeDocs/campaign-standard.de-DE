@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '259'
+ht-degree: 16%
 
 ---
 
@@ -17,22 +17,26 @@ ht-degree: 0%
 
 ![Control Panel](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version**. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de){target="_blank"}.
 
-## Version 22.3.2 {#feb-23}
+## Version 23.1 – Version Frühjahr/Sommer 2023 {#apr-23}
 
-### Sicherheits-Update{#rn-security2}
+### Verbesserungen {#e-rn-improvements}
 
-Diese Version umfasst die folgende Sicherheitsaktualisierung: Debian wurde auf v11.0 aktualisiert.
+* Der Push-Benachrichtigungsdienst wurde modernisiert, um den Support zu verbessern. (CAMP-47959)
+* Der SMS-Nachrichtendienst wurde verbessert, um eine bessere Stabilität zu erreichen. (CAMP-52217)
+* Adobe hat viele Fehlerbehebungen zur Barrierefreiheit vorgenommen, um die Benutzerfreundlichkeit der Anwendung zu verbessern. Im Folgenden finden Sie einige Beispiele für Verbesserungen der Barrierefreiheit:
+   * Die Barrierefreiheit der Benutzeroberfläche wurde in vielen Bildschirmen optimiert.
+   * Die Anwendung wurde für Touchscreen-Benutzer verzaubert.
+   * Die Farbe mehrerer Elemente auf der Benutzeroberfläche wurde geändert, um die Sichtbarkeit zu verbessern.
 
-## Version 22.3 – Herbst/Winter 2022 {#sept-22}
+### Sonstige Änderungen  {#e-rn-changes}
 
-### Sicherheits-Update{#rn-security}
+* Die vordefinierten **Workflow zur Berichterstellung für Anreicherung** wurde hinzugefügt. Führen Sie nach dem Import eines Zielgruppen-Mappings von einer Instanz in eine andere einfach den Workflow aus, um die entsprechenden Berichterstattungseinträge zu importieren. (CAMP-52452)
 
-Diese Version umfasst die folgende Sicherheitsaktualisierung: Apache Tomcat wurde von v7.0 auf v8.0 aktualisiert.
+### Behobene Probleme{#e-rn-patches}
 
-### Fehlerbehebungen{#e-rn-fixes}
-
-* Fehlerkorrektur – Terminierte Berichte werden jetzt nicht mehr eine Stunde vor dem geplanten Zeitpunkt ausgelöst. (CAMP-51502)
-* Fehlerkorrektur – Die Versandindikatoren im Versand-Dashboard stimmen jetzt mit den Versandlogs überein (nms:broadLogRcp). (CAMP-51127)
-* Fehlerkorrektur – Die Erweiterung benutzerdefinierter Ressourcen mit dem ACS-Connector (Prime-Angebot) ist jetzt möglich. (CAMP-51033)
-* Der Veröffentlichungsprozess für Antworten auf Datenschutzanfragen wurde verbessert, um Verzögerungen zu vermeiden. (CAMP-50613)
-
+* Fehlerkorrektur - Jetzt tritt kein Timeout-Fehler mehr auf, wenn die **Klickposition** Bericht. (CAMP-51582)
+* Fehlerkorrektur - Die Integration mit der **Orte** Dienst. (CAMP-51923)
+* Fehlerkorrektur - Die Workflow-Planung funktioniert jetzt ordnungsgemäß. (CAMP-52003)
+* Fehlerkorrektur - Aufschlüsselungsdetails werden jetzt angezeigt, wenn die PDF-Version eines benutzerdefinierten dynamischen Berichts mit einer großen Datenmenge angezeigt wird. (CAMP-52178)
+* Fehlerkorrektur - Beim Zugriff auf Berichte wird jetzt kein Fehler mehr angezeigt. (CAMP-52500)
+* Fehlerkorrektur - Die **MTA-Instanzen für dieses Konto begrenzen** Parameter des SMS-Connectors auf alle Kanäle anwenden, anstatt nur auf SMS anzuwenden. (CAMP-52640)
