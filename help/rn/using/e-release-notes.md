@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Auf dieser Seite werden Verbesserungen und Fehlerbehebungen beschrieben, die in 
 
 ### Verbesserungen {#e-rn-improvements}
 
-* Der Push-Benachrichtigungsdienst wurde modernisiert, um den Support zu verbessern. (CAMP-47959)
-* Der SMS-Nachrichtendienst wurde verbessert, um eine bessere Stabilität zu erreichen. (CAMP-52217)
-* Adobe hat viele Fehlerbehebungen zur Barrierefreiheit vorgenommen, um die Benutzerfreundlichkeit der Anwendung zu verbessern. Im Folgenden finden Sie einige Beispiele für Verbesserungen der Barrierefreiheit:
-   * Die Barrierefreiheit der Benutzeroberfläche wurde in vielen Bildschirmen optimiert.
-   * Die Anwendung wurde für Touchscreen-Benutzer verzaubert.
+* Der Push-Benachrichtigungsdienst wurde modernisiert, um die Wartung zu verbessern. (CAMP-47959)
+* Der SMS-Nachrichtendienst wurde modernisiert, um die Stabilität zu verbessern. (CAMP-52217)
+* Adobe hat viele Fehlerbehebungen zur Barrierefreiheit vorgenommen, um die generelle Benutzerfreundlichkeit der Anwendung zu verbessern. Im Folgenden sehen Sie einige Beispiele für verbesserte Barrierefreiheit:
+   * Die Barrierefreiheit der Benutzeroberfläche wurde auf vielen Bildschirmen optimiert.
+   * Die Anwendung wurde für Benutzerinnen und Benutzer von Touchscreens verbessert.
    * Die Farbe mehrerer Elemente auf der Benutzeroberfläche wurde geändert, um die Sichtbarkeit zu verbessern.
 
 ### Sonstige Änderungen  {#e-rn-changes}
