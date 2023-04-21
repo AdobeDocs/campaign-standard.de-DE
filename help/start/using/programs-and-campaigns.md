@@ -1,6 +1,6 @@
 ---
 title: Programme und Kampagnen
-description: Programme und Kampagnen in Adobe Campaign ermöglichen die Zusammenfassung und Abstimmung der ihnen zugeordneten Marketingaktivitäten. Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messen.
+description: Programme und Kampagnen in Adobe Campaign ermöglichen die Zusammenfassung und Abstimmung der ihnen zugeordneten Marketing-Aktivitäten. Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messen.
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -20,14 +20,14 @@ ht-degree: 100%
 
 ## Über Pläne, Programme und Kampagnen {#about-plans--programs-and-campaigns}
 
-Adobe Campaign ermöglicht die Konzeption von Marketingkampagnen, innerhalb derer Sie verschiedene Aktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows oder Landingpages erstellen und verwalten können. Kampagnen und deren Inhalte können in Programmen zusammengefasst werden.
+Adobe Campaign ermöglicht die Konzeption von Marketing-Kampagnen, innerhalb derer Sie verschiedene Aktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows oder Landingpages erstellen und verwalten können. Kampagnen und deren Inhalte können in Programmen zusammengefasst werden.
 
-Programme und Kampagnen erlauben die Zusammenfassung und übersichtliche Anzeige der ihnen zugeordneten Marketingaktivitäten.
+Programme und Kampagnen erlauben die Zusammenfassung und übersichtliche Anzeige der ihnen zugeordneten Marketing-Aktivitäten.
 
-* Ein **Programm** kann weitere Programme, Kampagnen, Workflows oder Landingpages enthalten. Programme werden in der Planung angezeigt und helfen Ihnen, Ihre Marketingaktivitäten zu ordnen: Sie können sie getrennt nach Land, Marke, Einheit etc. anzeigen.
-* Mit einer **Kampagne** können Sie alle gewünschten Marketingaktivitäten in einer einzigen Einheit zusammenfassen. Eine Kampagne kann E-Mails, SMS, Push-Benachrichtigungen, Briefpost, Workflows und Landingpages enthalten.
+* Ein **Programm** kann weitere Programme, Kampagnen, Workflows oder Landingpages enthalten. Programme werden in der Planung angezeigt und helfen Ihnen, Ihre Marketing-Aktivitäten zu ordnen: Sie können sie getrennt nach Land, Marke, Einheit etc. anzeigen.
+* Mit einer **Kampagne** können Sie alle gewünschten Marketing-Aktivitäten in einer einzigen Einheit zusammenfassen. Eine Kampagne kann E-Mails, SMS, Push-Benachrichtigungen, Briefpost, Workflows und Landingpages enthalten.
 
-Zur optimalen Organisation Ihrer Marketingpläne empfiehlt Adobe die folgende Hierarchie: Programm > Unterprogramme > Kampagnen > Workflows > Sendungen.
+Zur optimalen Organisation Ihrer Marketing-Pläne empfiehlt Adobe die folgende Hierarchie: Programm > Unterprogramme > Kampagnen > Workflows > Sendungen.
 
 Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messen. Sie können beispielsweise Berichte auf Kampagnenebene erstellen, um Daten zu allen in dieser Kampagne enthaltenen Sendungen zu aggregieren.
 
@@ -62,11 +62,11 @@ Das Programm wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 
 >[!NOTE]
 >
->Programme können auch in der Liste der Marketingaktivitäten erstellt werden.
+>Programme können auch in der Liste der Marketing-Aktivitäten erstellt werden.
 
 ## Kampagnen erstellen      {#creating-a-campaign}
 
-Zu Programmen und Unterprogrammen können Kampagnen hinzugefügt werden. Kampagnen können Marketingaktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows und Landingpages enthalten.
+Zu Programmen und Unterprogrammen können Kampagnen hinzugefügt werden. Kampagnen können Marketing-Aktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows und Landingpages enthalten.
 
 1. Wählen Sie auf der Adobe-Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]** aus und greifen Sie auf ein Programm oder Unterprogramm zu.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]** und wählen Sie danach **[!UICONTROL Kampagne]** aus.
@@ -83,13 +83,13 @@ Zu Programmen und Unterprogrammen können Kampagnen hinzugefügt werden. Kampagn
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus, um die Erstellung der Kampagne zu bestätigen.
 
-Die Kampagne wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]**, um Ihrer Kampagne Marketingaktivitäten hinzuzufügen.
+Die Kampagne wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]**, um Ihrer Kampagne Marketing-Aktivitäten hinzuzufügen.
 
 >[!NOTE]
 >
 >Abhängig von Ihrem Lizenzvertrag stehen Ihnen möglicherweise nur einige der Aktivitäten zur Verfügung.
 
-Kampagnen können auch ausgehend von der Marketingaktivitäten-Liste erstellt werden. Über das Eigenschaften-Fenster der Kampagne können Sie die Marketingaktivität mit einem über- oder untergeordneten Programm verknüpfen.
+Kampagnen können auch ausgehend von der Marketing-Aktivitäten-Liste erstellt werden. Über das Eigenschaften-Fenster der Kampagne können Sie die Marketing-Aktivität mit einem über- oder untergeordneten Programm verknüpfen.
 
 ## Symbole und Status von Programmen und Kampagnen      {#programs-and-campaigns-icons-and-statuses}
 

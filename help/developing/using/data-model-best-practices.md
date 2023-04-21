@@ -59,7 +59,7 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 
 ### Daten für Adobe Campaign {#data-for-campaign}
 
-Welche Daten sollten an Adobe Campaign gesendet werden? Es ist äußerst wichtig festzustellen, welche Daten Sie für Ihre Marketingaktivitäten benötigen.
+Welche Daten sollten an Adobe Campaign gesendet werden? Es ist äußerst wichtig festzustellen, welche Daten Sie für Ihre Marketing-Aktivitäten benötigen.
 
 >[!NOTE]
 >

@@ -93,7 +93,7 @@ Dank der funktionalen Administratoren und Benutzer mit fortgeschrittenen Kenntni
 
 Dies sind ihre Hauptaufgaben:
 
-* [Programme und Kampagnen verwalten](../../start/using/programs-and-campaigns.md): Erstellen von Marketingkampagnen einschließlich unterschiedlicher Arten von Aktivitäten (E-Mails, SMS, Push-Benachrichtigungen, Workflows, Landingpages)
+* [Programme und Kampagnen verwalten](../../start/using/programs-and-campaigns.md): Erstellen von Marketing-Kampagnen einschließlich unterschiedlicher Arten von Aktivitäten (E-Mails, SMS, Push-Benachrichtigungen, Workflows, Landingpages)
 * [Profile verwalten](../../audiences/using/about-profiles.md) und [testen](../../audiences/using/managing-test-profiles.md): Verwalten und Testen von Versandempfängern; fügen Sie Informationen wie den Vornamen, Nachnamen, Kontaktinformationen, Abonnements, E-Mails usw. hinzu.
 * [Nachrichten erstellen und senden](../../sending/using/confirming-the-send.md): Erstellen der Nachricht, Auswahl der Audience, Definition des Nachrichteninhalts und der Personalisierungsobjekte, Durchführen von Testsendungen und Senden der endgültigen Nachricht an die Audience
 * [Landingpages erstellen und veröffentlichen](../../channels/using/getting-started-with-landing-pages.md): Erstellen und Verwalten von diversen Diensten, die Sie Ihren Kunden anbieten möchten, z. B. Formulare zur An- oder Abmeldung für ein Abonnement

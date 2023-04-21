@@ -39,7 +39,7 @@ Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst d
 >
 >Sie können diesen Schritt überspringen, wenn Sie für jede Sprache manuell eine Variante erstellen möchten.
 
-1. Wählen Sie in den **[!UICONTROL Marketingaktivitäten]** die Schaltfläche **[!UICONTROL Erstellen]** und danach **[!UICONTROL Push-Benachrichtigung]** aus.
+1. Wählen Sie in den **[!UICONTROL Marketing-Aktivitäten]** die Schaltfläche **[!UICONTROL Erstellen]** und danach **[!UICONTROL Push-Benachrichtigung]** aus.
 1. Wählen Sie die Vorlage **[!UICONTROL Mehrsprachige Push-Benachrichtigungen an Campaign-Profile senden]** aus, wenn Sie die Adobe Campaign-Profile erfassen möchten, die sich für Ihre Mobile App oder die Vorlage **[!UICONTROL Mehrsprachige Push-Benachrichtigung an App-Abonnenten senden]** angemeldet haben. Auf diese Weise senden Sie allen Benutzern eine Push-Benachrichtigung, die sich für den Erhalt von Benachrichtigungen von Ihrer Mobile App angemeldet haben.
 
    ![](assets/multivariant_push_2.png)

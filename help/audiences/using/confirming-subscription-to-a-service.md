@@ -49,7 +49,7 @@ Die Schritte zum Erstellen der Bestätigungs-E-Mail werden unten beschrieben. Da
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
-1. Greifen Sie über das Adobe Campaign-Logo auf **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]** zu und erstellen Sie ein Ereignis.
+1. Greifen Sie über das Adobe Campaign-Logo auf **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]** zu und erstellen Sie ein Ereignis.
 1. Geben Sie einen Titel ein und wählen Sie eine Zielgruppendimension und danach **[!UICONTROL Erstellen]** aus.
 
    Die Konfigurationsschritte finden Sie im Abschnitt [Transaktionsereignis konfigurieren](../../channels/using/configuring-transactional-event.md).
@@ -82,7 +82,7 @@ Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die Transaktions-E
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben veröffentlichten Ereignis basiert.
 
-1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Option **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** und nochmals **[!UICONTROL Transaktionsnachrichten]**.
+1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Option **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** und nochmals **[!UICONTROL Transaktionsnachrichten]**.
 1. Wählen Sie die entsprechende Transaktions-E-Mail für das Ereignis aus, das Sie gerade veröffentlicht haben.
 
 1. Wählen Sie im Bereich **[!UICONTROL Inhalt]** eine E-Mail-Vorlage aus. Weitere Informationen zur Bearbeitung von Transaktionsnachrichten finden Sie im Abschnitt [Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md).
@@ -138,7 +138,7 @@ Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Da der Ver
 
 Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
-1. Greifen Sie über das Adobe Campaign-Logo auf **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]** zu und erstellen Sie ein Ereignis.
+1. Greifen Sie über das Adobe Campaign-Logo auf **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]** zu und erstellen Sie ein Ereignis.
 1. Geben Sie einen Titel ein und wählen Sie eine Zielgruppendimension und danach **[!UICONTROL Erstellen]** aus.
 
    Die Konfigurationsschritte finden Sie im Abschnitt [Transaktionsereignis konfigurieren](../../channels/using/configuring-transactional-event.md).

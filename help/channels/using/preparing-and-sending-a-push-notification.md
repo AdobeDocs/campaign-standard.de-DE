@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Etappen:
 
-1. Erstellen Sie im Fenster **[!UICONTROL Marketingaktivitäten]** [eine neue Marketingaktivität](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+1. Erstellen Sie im Fenster **[!UICONTROL Marketing-Aktivitäten]**[eine neue Marketing-Aktivität](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
    Eine einzelne Push-Benachrichtigung kann auch in einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder auf der [Startseite](../../start/using/interface-description.md#home-page) von Adobe Campaign erstellt werden.
 

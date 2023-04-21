@@ -52,7 +52,7 @@ Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Hand
 ## Synchronisieren von Profilen in Microsoft Dynamics 365
 
 Die Campaign Standard-Integration mit Microsoft Dynamics 365 ermöglicht Ihnen die Übermittlung von Kontaktdaten von Microsoft Dynamics 365 an die Campaign-Datenbank.
-Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingkampagnen verwendet werden.
+Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketing-Kampagnen verwendet werden.
 
 Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](../../integrating/using/d365-acs-get-started.md).
 

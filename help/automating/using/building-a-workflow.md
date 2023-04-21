@@ -38,11 +38,11 @@ Sie können Transitionen vor oder nach der Ausführung des Workflows öffnen, um
 
 ## Workflow erstellen      {#creating-a-workflow}
 
-Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketingaktivitätenliste.
+Die Erstellung von Workflows erfolgt im Rahmen von Programmen oder Kampagnen oder in der Marketing-Aktivitätenliste.
 
 ![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie man einen Workflow erstellt](#video)
 
-Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+Lesen Sie diesbezüglich auch den Abschnitt [Marketing-Aktivitäten erstellen](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
 1. Im Rahmen der Workflow-Erstellung ist zunächst die Workflow-Vorlage auszuwählen, die Sie verwenden möchten.
 
@@ -60,7 +60,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](..
 
    >[!NOTE]
    >
-   >Wenn Sie einen Workflow von der Marketingaktivitätenliste ausgehend erstellen, können Sie ihn einer bereits existierenden übergeordneten Kampagne zuordnen. Fügen Sie bei Bedarf eine Beschreibung hinzu.
+   >Wenn Sie einen Workflow von der Marketing-Aktivitätenliste ausgehend erstellen, können Sie ihn einer bereits existierenden übergeordneten Kampagne zuordnen. Fügen Sie bei Bedarf eine Beschreibung hinzu.
 
    Fügen Sie bei Bedarf eine Beschreibung hinzu. Diese ist im Kampagneninhalt sichtbar.
 

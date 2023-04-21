@@ -21,7 +21,7 @@ Die folgenden Tipps zur Fehlerbehebung helfen Ihnen, die häufigsten Probleme be
 
 **Ist die Funktion aktiviert?**
 
-Um zu überprüfen, ob die Integration von Triggers mit Campaign aktiviert ist, wählen Sie das Adobe Campaign-Logo in der oberen linken Ecke und danach **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]**. Das Element **[!UICONTROL Experience Cloud Triggers]** sollte sichtbar werden.
+Um zu überprüfen, ob die Integration von Triggers mit Campaign aktiviert ist, wählen Sie das Adobe Campaign-Logo in der oberen linken Ecke und danach **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]**. Das Element **[!UICONTROL Experience Cloud Triggers]** sollte sichtbar werden.
 
 Ist dies der Fall, fahren Sie mit dem nächsten Schritt fort.
 

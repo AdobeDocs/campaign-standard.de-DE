@@ -42,6 +42,6 @@ Nach dem Start kann ein Workflow zwei weitere Status aufweisen:
 
    Bei der Ausführung des Workflows ist ein Fehler aufgetreten. Die Ausführung wurde angehalten und ein Eingreifen des Benutzers ist erforderlich. Mithilfe der Schaltfläche ![](assets/printpreview_darkgrey-24px.png) gelangen Sie in das Workflow-Protokoll, dem Sie die Fehlerursache entnehmen können (siehe [Monitoring](../../automating/using/monitoring-workflow-execution.md)).
 
-Die Liste der Marketingaktivitäten ermöglicht die Anzeige aller Workflows inklusive ihrer Status. Weiterführende Informationen dazu finden Sie im Abschnitt [Marketingaktivitäten verwalten](../../start/using/marketing-activities.md#about-marketing-activities).
+Die Liste der Marketing-Aktivitäten ermöglicht die Anzeige aller Workflows inklusive ihrer Status. Weiterführende Informationen dazu finden Sie im Abschnitt [Marketing-Aktivitäten verwalten](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)

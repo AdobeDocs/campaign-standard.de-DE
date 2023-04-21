@@ -53,7 +53,7 @@ Der Export von Audiences aus Adobe Campaign in Audience Manager oder People Core
 
 Der Export einer Audience von Adobe Campaign in People Core Service kann in einem neuen Workflow und nur von Benutzern durchgeführt werden, die per IMS verbunden sind (die Authentifizierung erfolgt über die Adobe ID).
 
-1. Erstellen Sie ausgehend von einem Programm, einer Kampagne oder der Marketingaktivitätenliste einen neuen Workflow.
+1. Erstellen Sie ausgehend von einem Programm, einer Kampagne oder der Marketing-Aktivitätenliste einen neuen Workflow.
 1. Verwenden Sie die diversen zur Verfügung stehenden Aktivitäten, um eine Gruppe von Profilen auszuwählen.
 1. Platzieren Sie im Anschluss an die Zielgruppenbestimmung die Aktivität **[!UICONTROL Audience-Speicherung]** im Workflow-Diagramm und öffnen Sie sie.
 1. Wählen Sie **[!UICONTROL In Adobe Experience Cloud freigeben]** aus.

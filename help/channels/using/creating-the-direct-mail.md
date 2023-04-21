@@ -24,7 +24,7 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 >
 >Es besteht außerdem die Möglichkeit, eine Briefpost-Aktivität in einem Workflow hinzuzufügen. Weitere Informationen hierzu finden Sie im [Workflow](../../automating/using/direct-mail-delivery.md)-Handbuch.
 
-1. Erstellen Sie einen neuen Briefpost-Versand. Ein Versand kann über die Adobe-Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketingaktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
+1. Erstellen Sie einen neuen Briefpost-Versand. Ein Versand kann über die Adobe Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketing-Aktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
 
    ![](assets/direct_mail_1.png)
 

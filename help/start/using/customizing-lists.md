@@ -22,7 +22,7 @@ Bildschirme vom Typ **Liste** ermöglichen die Anzeige der Elemente einer oder m
 Adobe Campaign bietet zwei Arten von Listen:
 
 * **Homogene** Listen enthalten nur Ressourcen eines Typs. Die Profilliste enthält beispielsweise nur Profile.
-* **Heterogene** Listen enthalten Ressourcen verschiedener Typen. Die Marketingaktivitätenliste beispielsweise enthält Landingpages, Workflows, E-Mails, SMS etc.
+* **Heterogene** Listen enthalten Ressourcen verschiedener Typen. Die Marketing-Aktivitätenliste beispielsweise enthält Landingpages, Workflows, E-Mails, SMS etc.
 
 Listen werden in Spalten angezeigt. Jede Spalte kann in auf- oder absteigender Reihenfolge einzeln sortiert werden.
 

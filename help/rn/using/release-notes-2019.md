@@ -197,7 +197,7 @@ ht-degree: 100%
 
 **Sonstige Verbesserungen**
 
-* Durch die Integration mit Adobe Experience Platform Location Services ist Adobe Campaign jetzt in der Lage, standortbasierte Marketingnachrichten über das Experience Platform SDK an die Abonnenten einer Mobile App zu senden. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* Durch die Integration mit Adobe Experience Platform Location Services ist Adobe Campaign jetzt in der Lage, standortbasierte Marketing-Nachrichten über das Experience Platform SDK an die Abonnenten einer Mobile App zu senden. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * Die Berichterstellungsfunktion wurde verbessert. Um diese Funktion nutzen zu können, müssen Sie die Nutzungsvereinbarung zur dynamischen Berichterstattung akzeptieren. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * In Workflows wurde eine neue Option hinzugefügt, um die nächsten zehn Ausführungen eines Workflows in der Vorschau anzuzeigen. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/scheduler.md).
 * In der Planungsaktivität gibt es eine neue Option, mit der Sie einen bestimmten Tag einer bestimmten Woche für monatliche Sendungen auswählen können. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/scheduler.md).

@@ -39,7 +39,7 @@ Beispiel:
 
 ## Workflows duplizieren{#duplicating-workflows}
 
-Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketingaktivitäten]** den Mauszeiger über den jeweiligen Workflow und wählen Sie **[!UICONTROL Element duplizieren]** aus. Nach dem Duplizieren werden Änderungen des Workflows nicht in die Kopie des Workflows übernommen. Die Kopie des Workflows kann bearbeitet werden.
+Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketing-Aktivitäten]** den Mauszeiger über den jeweiligen Workflow und wählen Sie **[!UICONTROL Element duplizieren]** aus. Nach dem Duplizieren werden Änderungen des Workflows nicht in die Kopie des Workflows übernommen. Die Kopie des Workflows kann bearbeitet werden.
 
 ![](assets/duplicating_workflow.png)
 

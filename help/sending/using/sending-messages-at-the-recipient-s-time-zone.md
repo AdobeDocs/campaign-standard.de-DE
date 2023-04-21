@@ -27,7 +27,7 @@ Zum Senden einer Nachricht in der Zeitzone des Empfängers können Sie auch die 
 
 Im folgenden Beispiel möchten wir allen Kunden auf der ganzen Welt einen nur am Valentinstag gültigen Gutschein-Code senden. Damit die Empfänger genügend Zeit haben, den Gutschein noch am selben Tag einzulösen, müssen sie Ihre Nachricht am 14. Februar um 8 Uhr in ihrer jeweiligen Zeitzone erhalten.
 
-1. Beginnen Sie mit der Erstellung Ihres Versands – in unserem Fall einer E-Mail – im Tab **[!UICONTROL Marketingaktivitäten]**. Weiterführende Informationen zur Versanderstellung finden Sie in diesem [Abschnitt](../../channels/using/creating-an-email.md).
+1. Beginnen Sie mit der Erstellung Ihres Versands – in unserem Fall einer E-Mail – im Tab **[!UICONTROL Marketing-Aktivitäten]**. Weiterführende Informationen zur Versanderstellung finden Sie in diesem [Abschnitt](../../channels/using/creating-an-email.md).
 1. Klicken Sie nach der Erstellung Ihrer Valentinstags-E-Mail auf **[!UICONTROL Erstellen]**, um das Versand-Dashboard zu öffnen. Weiterführende Informationen zur Erstellung von E-Mails finden Sie auf dieser [Seite](../../designing/using/personalization.md#example-email-personalization).
 
    ![](assets/send-time_opt_valentine_1.png)

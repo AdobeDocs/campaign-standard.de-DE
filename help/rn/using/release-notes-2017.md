@@ -109,7 +109,7 @@ _Benutzerdefinierte Ressourcen_
  <tbody> 
   <tr> 
    <td> Bibliothek für E-Mail-Vorlagen<br /> </td> 
-   <td> Neu: 18 neue responsive Vorlagen in zwei attraktiven Motiven namens Astro und Feather. Diese anpassbaren Vorlagen sind branchenunabhängig und können sofort verwendet werden. Die Vorlagen enthalten Inhalte für eine Vielzahl von Nutzungsszenarien und ermöglichen Ihnen damit, E-Mail-Marketingkampagnen rascher, effizienter und attraktiver zu konzipieren und durchzuführen.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/using-reusable-content.md#content-templates">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Neu: 18 neue responsive Vorlagen in zwei attraktiven Motiven namens Astro und Feather. Diese anpassbaren Vorlagen sind branchenunabhängig und können sofort verwendet werden. Die Vorlagen enthalten Inhalte für eine Vielzahl von Nutzungsszenarien und ermöglichen Ihnen damit, E-Mail-Marketing-Kampagnen rascher, effizienter und attraktiver zu konzipieren und durchzuführen.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/using-reusable-content.md#content-templates">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dynamische Berichterstellung mit Profildaten<br /> </td> 
@@ -201,7 +201,7 @@ _Profile und Audiences_
   </tr> 
   <tr> 
    <td> Briefpost-Kanal - Rücksendungen an den Absender<br /> </td> 
-   <td> Der Austausch einfach strukturierter Dateien, die Rücksendeinformation enthalten, mit Briefpost-Dienstleistern wird jetzt unterstützt. Durch diese Verbesserung des Briefpost-Kanals können entsprechende Anschriften von der künftigen Kommunikation ausgeschlossen werden.<br /> Zusätzlich können Marketer sich über fehlerhafte Adressen informieren lassen und mit dem Kunden über andere Kanäle in Kontakt treten oder ihn auffordern, seine Anschrift zu aktualisieren. Dadurch sparen Marketer auch Marketingausgaben, da keine Mails mehr an falsche Adressen gesendet werden. <br /> Briefpost ist als zusätzlicher Kanal verfügbar. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/return-to-sender.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Der Austausch einfach strukturierter Dateien, die Rücksendeinformation enthalten, mit Briefpost-Dienstleistern wird jetzt unterstützt. Durch diese Verbesserung des Briefpost-Kanals können entsprechende Anschriften von der künftigen Kommunikation ausgeschlossen werden.<br /> Zusätzlich können Marketer sich über fehlerhafte Adressen informieren lassen und mit dem Kunden über andere Kanäle in Kontakt treten oder ihn auffordern, seine Anschrift zu aktualisieren. Dadurch sparen Marketer auch Marketing-Ausgaben, da keine Mails mehr an falsche Adressen gesendet werden. <br /> Briefpost ist als zusätzlicher Kanal verfügbar. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/return-to-sender.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -287,7 +287,7 @@ _Berichte_
 
 _Push-Benachrichtigungen_
 
-* Fehlerkorrektur – jetzt kann ein Push-Ereignis im Marketingverlauf eines Profils ausgewählt werden.
+* Fehlerkorrektur – jetzt kann ein Push-Ereignis im Marketing-Verlauf eines Profils ausgewählt werden.
 * Die Verwendung von Push-Benachrichtigungen in Workflows wurde verbessert.
 
 ## Version 17.4 - April 2017 {#release-17-4---april-2017}
@@ -389,7 +389,7 @@ _Push-Benachrichtigungen_
  <tbody> 
   <tr> 
    <td> Dynamische Berichterstellung<br /> </td> 
-   <td> Die dynamische Berichterstellung ermöglicht neuartige, vollständig anpassbare und in Echtzeit aktualisierte Berichte. Diese Funktion basiert auf anpassbaren Pivot-Tabellen und Grafiken. Per Drag &amp; Drop können Sie darin Variablen und Dimensionen verschieben und so die Effizienz und Wirksamkeit Ihrer Marketingkampagnen analysieren. Mit der dynamischen Berichterstattung können Sie Berichte individuell erstellen und speichern.<br /> Lesen Sie für weiterführende Informationen das <a href="../../reporting/using/about-dynamic-reports.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Die dynamische Berichterstellung ermöglicht neuartige, vollständig anpassbare und in Echtzeit aktualisierte Berichte. Diese Funktion basiert auf anpassbaren Pivot-Tabellen und Grafiken. Per Drag &amp; Drop können Sie darin Variablen und Dimensionen verschieben und so die Effizienz und Wirksamkeit Ihrer Marketing-Kampagnen analysieren. Mit der dynamischen Berichterstattung können Sie Berichte individuell erstellen und speichern.<br /> Lesen Sie für weiterführende Informationen das <a href="../../reporting/using/about-dynamic-reports.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 

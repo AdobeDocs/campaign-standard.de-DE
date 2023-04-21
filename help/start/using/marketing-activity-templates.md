@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## Über Vorlagen {#about-templates}
 
-Bei der Erstellung einer Marketingaktivität ist im ersten Schritt des Assistenten ein Aktivitätstyp auszuwählen. Die verfügbaren Typen basieren jeweils auf einer Vorlage. Diese Vorlagen erlauben es, je nach Bedarf gewisse Parameter im Voraus zu konfigurieren. Vorlagen können vollständig oder nur teilweise konfiguriert sein. Die Vorlagenverwaltung erfolgt durch den funktionalen Administrator.
+Bei der Erstellung einer Marketing-Aktivität ist im ersten Schritt des Assistenten ein Aktivitätstyp auszuwählen. Die verfügbaren Typen basieren jeweils auf einer Vorlage. Diese Vorlagen erlauben es, je nach Bedarf gewisse Parameter im Voraus zu konfigurieren. Vorlagen können vollständig oder nur teilweise konfiguriert sein. Die Vorlagenverwaltung erfolgt durch den funktionalen Administrator.
 
-Der Endbenutzer verfügt über eine vereinfachte Benutzeroberfläche. Zur Erstellung einer neuen Marketingaktivität wählt er den gewünschten, auf einer Vorlage basierenden Typ aus. Technische Konfigurationen können ignoriert werden. Dies wurde bereits vom funktionalen Administrator in der Vorlage vorkonfiguriert.
+Der Endbenutzer verfügt über eine vereinfachte Benutzeroberfläche. Zur Erstellung einer neuen Marketing-Aktivität wählt er den gewünschten, auf einer Vorlage basierenden Typ aus. Technische Konfigurationen können ignoriert werden. Dies wurde bereits vom funktionalen Administrator in der Vorlage vorkonfiguriert.
 
 Beispielsweise können Sie im Fall einer E-Mail-Vorlage den HTML-Inhalt, die Audience und andere Versandparameter automatisch ausfüllen lassen: den Zeitplan, die Testprofile, die allgemeinen Eigenschaften Ihrer Sendungen, die erweiterten Parameter etc. Dadurch sparen Sie Zeit bei der Erstellung einer neuen Aktivität.
 
@@ -29,7 +29,7 @@ Beispielsweise können Sie im Fall einer E-Mail-Vorlage den HTML-Inhalt, die Aud
 
 Für jede Marketing-Aktivität sind standardmäßig eine oder mehrere minimal konfigurierte Vorlagen in der Anwendung enthalten. Diese vordefinierten Vorlagen können nicht geändert oder gelöscht werden.
 
-Für folgende Marketingaktivitäten stehen Vorlagen zur Verfügung:
+Für folgende Marketing-Aktivitäten stehen Vorlagen zur Verfügung:
 
 * Programme
 * Kampagnen
@@ -54,11 +54,11 @@ Nachrichtenvorlagen können vom funktionalen Administrator der Plattform im Men�
 
    ![](assets/template_3.png)
 
-1. Konfigurieren Sie die gewünschten Einstellungen wie beim [Erstellen einer neuen Marketingaktivität](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+1. Konfigurieren Sie die gewünschten Einstellungen wie beim [Erstellen einer neuen Marketing-Aktivität](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
    ![](assets/template_4.png)
 
-Diese Vorlagen können bei der Erstellung einer Marketingaktivität von Benutzern mit Standardberechtigung im ersten Bildschirm des Assistenten ausgewählt werden.
+Diese Vorlagen können bei der Erstellung einer Marketing-Aktivität von Benutzern mit Standardberechtigung im ersten Bildschirm des Assistenten ausgewählt werden.
 
 ## Vorlagen verwenden {#using-a-template}
 
@@ -66,9 +66,9 @@ Im Folgenden wird die Verwendung einer zuvor erstellten Vorlage dargestellt.
 
 >[!NOTE]
 >
->Die Erstellung einer auf Vorlagen basierenden Marketingaktivität erfolgt i. d. R. durch Benutzer mit Standardberechtigung.
+>Die Erstellung einer auf Vorlagen basierenden Marketing-Aktivität erfolgt i. d. R. durch Benutzer mit Standardberechtigung.
 
-1. Erstellen Sie eine neue Marketingaktivität.
+1. Erstellen Sie eine neue Marketing-Aktivität.
 
    ![](assets/template_5.png)
 
@@ -76,6 +76,6 @@ Im Folgenden wird die Verwendung einer zuvor erstellten Vorlage dargestellt.
 
    ![](assets/template_6.png)
 
-   Die Marketingaktivität übernimmt die in der Vorlage definierten Parameter.
+   Die Marketing-Aktivität übernimmt die in der Vorlage definierten Parameter.
 
    ![](assets/template_7.png)

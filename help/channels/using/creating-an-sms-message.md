@@ -29,7 +29,7 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefo
 * ein externes Konto vom Typ **[!UICONTROL Routing]**, das für den Kanal **[!UICONTROL Mobiltelefon (SMS)]** mit dem Versandmodus **[!UICONTROL Gebündelter Versand]** konfiguriert wurde. Lesen Sie diesbezüglich auch den Abschnitt [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 * Eine Versandvorlage, die auf das externe Konto Bezug nimmt
 
-1. Erstellen Sie einen SMS-Versand. Ein Versand kann über die Adobe-Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketingaktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
+1. Erstellen Sie einen SMS-Versand. Ein Versand kann über die Adobe Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketing-Aktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
 
    Es besteht außerdem die Möglichkeit, eine SMS-Aktivität in einem Workflow hinzuzufügen. Weitere Informationen hierzu finden Sie im [Workflow](../../automating/using/sms-delivery.md)-Handbuch.
 

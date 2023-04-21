@@ -314,7 +314,7 @@ Pro dynamischer Inhalt lässt sich lediglich eine Prioritätsstufe festlegen.
 
 ## Beispiel: E-Mail-Personalisierung{#example-email-personalization}
 
-Im vorliegenden Beispiel hat ein Mitglied des Marketingteams eine E-Mail erstellt, um einige Kunden darüber zu informieren, dass es ein exklusives Sonderangebot für sie gibt. Der E-Mail-Inhalt soll je nach Alter der Empfänger personalisiert werden. Empfänger zwischen 18 und 27 Jahren sollen eine E-Mail mit einer anderen Illustration und einer anderen Anrede erhalten als Empfänger über 27 Jahre.
+Im vorliegenden Beispiel hat ein Mitglied des Marketing-Teams eine E-Mail erstellt, um einige Kunden darüber zu informieren, dass es ein exklusives Sonderangebot für sie gibt. Der E-Mail-Inhalt soll je nach Alter der Empfänger personalisiert werden. Empfänger zwischen 18 und 27 Jahren sollen eine E-Mail mit einer anderen Illustration und einer anderen Anrede erhalten als Empfänger über 27 Jahre.
 
 Gehen Sie bei der E-Mail-Erstellung wie folgt vor:
 

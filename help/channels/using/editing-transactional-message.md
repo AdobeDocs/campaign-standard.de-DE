@@ -35,7 +35,7 @@ Sobald Ihre Nachricht fertig ist, kann sie getestet und veröffentlicht werden. 
 Aufrufen der erstellten Transaktionsnachricht:
 
 1. Klicken Sie oben links auf das **Adobe**-Logo.
-1. Wählen Sie **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]** aus.
+1. Wählen Sie **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Transaktionsnachrichten]** aus.
 
    ![](assets/message-center_4.png)
 

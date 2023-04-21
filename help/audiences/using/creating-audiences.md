@@ -51,7 +51,7 @@ In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Liste** beschri
 
 Gehen Sie zur Erstellung einer Audience vom Typ **Liste** wie folgt vor:
 
-1. Wählen Sie im Tab **Marketingaktivitäten** die Option **Erstellen** und dann **Workflow**.
+1. Wählen Sie im Tab **Marketing-Aktivitäten** die Option **Erstellen** und dann **Workflow**.
 
    ![](assets/audiences_list_1.png)
 
@@ -81,7 +81,7 @@ In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Datei** mithilf
 
 Gehen Sie zur Erstellung einer Audience vom Typ **Datei** wie folgt vor:
 
-1. Wählen Sie im Tab **Marketingaktivitäten** die Option **Erstellen** und dann **Workflow**.
+1. Wählen Sie im Tab **Marketing-Aktivitäten** die Option **Erstellen** und dann **Workflow**.
 1. Platzieren und konfigurieren Sie eine **[!UICONTROL Datei-laden]**-Aktivität im Workflow-Arbeitsbereich, um eine Population zu importieren, deren Dimension zum Zeitpunkt der Workflow-Ausführung **unbekannt** ist. Weiterführende Informationen zur Konfiguration und Verwendung dieser Aktivität finden Sie im Abschnitt [Datei laden](../../automating/using/load-file.md).
 
    ![](assets/audience_files_1.png)

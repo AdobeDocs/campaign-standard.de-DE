@@ -159,7 +159,7 @@ Im folgenden Beispiel geht es um die Erstellung einer neuen Marke zum Thema Reis
 
    ![](assets/branding_12.png)
 
-Die Marke wurde korrekt erstellt und konfiguriert. Sie ist nun zur Verwendung durch Marketingteams verfügbar.
+Die Marke wurde korrekt erstellt und konfiguriert. Sie ist nun zur Verwendung durch Marketing-Teams verfügbar.
 
 #### Schritt 2: Neue Marke implementieren             {#implement-a-new-brand}
 
@@ -184,7 +184,7 @@ Der Versandbeauftragte ist für die Erstellung der Versandvorlagen verantwortlic
 
 Um eine mit einer Marke verknüpfte E-Mail zu erstellen, gehen Sie wie folgt vor:
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]** im Menü **[!UICONTROL Marketingaktivitäten]** aus.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Erstellen]** im Menü **[!UICONTROL Marketing-Aktivitäten]** aus.
 
    ![](assets/branding_14.png)
 

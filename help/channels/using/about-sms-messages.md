@@ -28,7 +28,7 @@ Die Inhalt-Kachel von SMS bietet ebenfalls die Möglichkeit der Erstellung, Anpa
 
 SMS, die das GSM-Alphabet verwenden, sind auf 160 Zeichen begrenzt, in Unicode verfasste SMS auf 70 Zeichen. Beachten Sie, dass gewisse Sonderzeichen einen Einfluss auf die Nachrichtenlänge haben können. Lesen Sie diesbezüglich auch den Abschnitt [SMS-Kodierung](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
-SMS-Nachrichten können im Menü **[!UICONTROL Marketingaktivitäten]**, im Rahmen einer Kampagne oder in einem Workflow erstellt werden. Siehe [SMS erstellen](../../channels/using/creating-an-sms-message.md).
+SMS-Nachrichten können im Menü **[!UICONTROL Marketing-Aktivitäten]**, im Rahmen einer Kampagne oder in einem Workflow erstellt werden. Siehe [SMS erstellen](../../channels/using/creating-an-sms-message.md).
 
 Folgende Voraussetzungen müssen gegeben sein, um SMS an Mobiltelefone senden zu können:
 

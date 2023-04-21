@@ -25,7 +25,7 @@ Mit Campaign Standard-APIs können Sie **Integrationen** für Adobe Campaign Sta
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profile</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="Bedingungen" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Dienste und Abonnements</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="Bedingungen" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Benutzerdefinierte Ressourcen</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="Bedingungen" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Marketingverlauf</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="Bedingungen" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Marketing-Verlauf</a></p></td>
 </tr>
 <tr>
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="Bedingungen" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Datenschutzverwaltung</a></p></td>

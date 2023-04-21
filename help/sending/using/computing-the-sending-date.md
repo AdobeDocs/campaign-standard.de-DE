@@ -33,7 +33,7 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
 ![](assets/send-time_opt_workflow1.png)
 
-1. Gehen Sie in die Liste der Marketingaktivitäten und erstellen Sie einen neuen Workflow. Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Gehen Sie in die Liste der Marketing-Aktivitäten und erstellen Sie einen neuen Workflow. Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
 1. Ziehen Sie eine **Abfrage** in den Workflow-Arbeitsbereich und öffnen Sie sie. Siehe den Abschnitt [Abfrage](../../automating/using/query.md).
 1. Wählen Sie eine Audience aus, z. B. alle Ihre Gold-Kunden und klicken Sie auf **[!UICONTROL Bestätigen]**, um die Abfrage zu speichern.
 1. Ziehen Sie eine **Segmentierung** in den Workflow-Arbeitsbereich und öffnen Sie sie. Siehe den Abschnitt [Segmentierung](../../automating/using/segmentation.md).
@@ -109,7 +109,7 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
 ![](assets/send-time_opt_workflow2.png)
 
-1. Gehen Sie in die Liste der Marketingaktivitäten und erstellen Sie einen neuen Workflow. Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Gehen Sie in die Liste der Marketing-Aktivitäten und erstellen Sie einen neuen Workflow. Lesen Sie diesbezüglich auch den Abschnitt [Workflows erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
 1. Ziehen Sie eine **Abfrage** in den Workflow-Arbeitsbereich und öffnen Sie sie. Siehe den Abschnitt [Abfrage](../../automating/using/query.md).
 1. Wählen Sie eine Audience aus, z. B. 35 Profile, und klicken Sie auf **[!UICONTROL Bestätigen]**, um die Abfrage zu speichern.
 1. Ziehen Sie eine **Segmentierung** in den Workflow-Arbeitsbereich und öffnen Sie sie. Siehe den Abschnitt [Segmentierung](../../automating/using/segmentation.md).

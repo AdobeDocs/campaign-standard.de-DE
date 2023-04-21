@@ -31,7 +31,7 @@ In diesem [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-market
 
 Gehen Sie hierzu wie folgt vor:
 
-1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 

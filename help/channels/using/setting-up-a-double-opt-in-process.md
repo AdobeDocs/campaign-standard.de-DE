@@ -110,7 +110,7 @@ Diese Typologie kann jetzt mit der Bestätigungs-E-Mail verknüpft werden.
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf einem zuvor erstellen Ereignis basiert. Führen Sie die folgenden Schritte aus, um eine solche Nachricht zu erstellen:
 
-1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Option **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** und nochmals **[!UICONTROL Transaktionsnachrichten]**.
+1. Wählen Sie ausgehend vom Adobe Campaign-Logo die Option **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** und nochmals **[!UICONTROL Transaktionsnachrichten]**.
 1. Bearbeiten Sie die E-Mail-Vorlage **CONFIRM** und personalisieren Sie sie. Sie können einen vorhandenen Inhalt hochladen oder eine Standardvorlage verwenden.
 1. Fügen Sie einen Link zur Landingpage **CONFIRMATION** hinzu und wählen Sie dann **[!UICONTROL Bestätigen]**, um die Änderungen zu speichern.
 

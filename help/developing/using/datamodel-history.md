@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Marketingverlauf (nms:history)
+# Marketing-Verlauf (nms:history)
 
 ## Objektbeschreibung
 

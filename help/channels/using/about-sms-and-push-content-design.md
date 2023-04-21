@@ -22,7 +22,7 @@ Mit dem Inhaltseditor können Sie den Inhalt von SMS und Push-Benachrichtigungen
 
 In diesem Abschnitt wird der Inhaltseditor für SMS- und Push-Nachrichten beschrieben, einschließlich dessen [Benutzeroberfläche](../../channels/using/sms-and-push-content-editor-interface.md).
 
-In den folgenden Abschnitten werden die für Marketingaktivitäten am häufigsten erforderlichen Aktionen beschrieben:
+In den folgenden Abschnitten werden die für Marketing-Aktivitäten am häufigsten erforderlichen Aktionen beschrieben:
 
 * Weiterführende Informationen zur Personalisierung des Inhalts von SMS oder Push-Benachrichtigungen finden Sie in den Abschnitten [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field) und [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 * Weiterführende Informationen zur Definition von bedingtem Text in einer SMS-Nachricht oder Push-Benachrichtigung finden Sie im Abschnitt [Dynamische Texte definieren](../../channels/using/defining-dynamic-text.md).

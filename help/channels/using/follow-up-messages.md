@@ -60,7 +60,7 @@ Nachdem Sie die Folgenachrichten-Versandvorlage erstellt haben, können Sie sie 
 
 <!--You need to set up a workflow targeting the event corresponding to the transactional message that was already received.-->
 
-1. Gehen Sie in die Liste der Marketingaktivitäten und erstellen Sie einen neuen Workflow.
+1. Gehen Sie in die Liste der Marketing-Aktivitäten und erstellen Sie einen neuen Workflow.
 
    Siehe [Workflow erstellen](../../automating/using/building-a-workflow.md#creating-a-workflow).
 

@@ -39,9 +39,9 @@ Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnel
 * Die Karte **[!UICONTROL Briefpost erstellen]** bietet Zugriff auf einen Erstellungsassistenten für Briefpost. Weiterführende Informationen finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/creating-the-direct-mail.md).
 * Die Karte **[!UICONTROL Push-Benachrichtigung erstellen]** bietet Zugriff auf einen Erstellungs-Assistenten für Benachrichtigungen. Hier können Sie die Art der Push-Benachrichtigung festlegen, die Empfänger auswählen und den Inhalt definieren. Weiterführende Informationen finden Sie im Abschnitt [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
 * Die Karte **[!UICONTROL In-App-Nachricht erstellen]** bietet Zugriff auf einen In-App-Erstellungs-Assistenten. Mit diesem Assistenten können Sie den Typ der zu erstellenden In-App-Nachricht auswählen und deren Eigenschaften, Audiences und Inhalte definieren. Weiterführende Informationen finden Sie im Abschnitt [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md).
-* Die Karte **[!UICONTROL Marketingaktivitäten]** bietet Zugriff auf eine Liste aller Programme, Kampagnen und Marketingaktivitäten (E-Mails, SMS, Workflows, Landingpages), unabhängig vom Programm oder der Kampagne, der letztere angehören. Die Liste kann nach Name, Datum, Status oder Aktivitätstyp gefiltert werden. Weiterführende Informationen finden Sie im Abschnitt [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
+* Die Karte **[!UICONTROL Marketing-Aktivitäten]** bietet Zugriff auf eine Liste aller Programme, Kampagnen und Marketing-Aktivitäten (E-Mails, SMS, Workflows, Landingpages), unabhängig vom Programm oder der Kampagne, der letztere angehören. Die Liste kann nach Name, Datum, Status oder Aktivitätstyp gefiltert werden. Weiterführende Informationen finden Sie im Abschnitt [Liste der Marketing-Aktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 * Die Karte **[!UICONTROL Programme &amp; Kampagnen]** bietet Zugriff auf die Liste aller Programme. Sie können an dieser Stelle insbesondere Kampagnen erstellen und verwalten. Weiterführende Informationen finden Sie im Abschnitt [Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* Die Karte **[!UICONTROL Planung]** bietet Zugriff auf eine zeitliche Übersicht Ihrer Marketingaktivitäten. Der Bildschirm bietet die Möglichkeit, aktuelle Programme und deren Inhalt anzuzeigen. Weiterführende Informationen finden Sie im Abschnitt [Planung](../../start/using/timeline.md).
+* Die Karte **[!UICONTROL Planung]** bietet Zugriff auf eine zeitliche Übersicht Ihrer Marketing-Aktivitäten. Der Bildschirm bietet die Möglichkeit, aktuelle Programme und deren Inhalt anzuzeigen. Weiterführende Informationen finden Sie im Abschnitt [Planung](../../start/using/timeline.md).
 * Die Karte **[!UICONTROL Kundenprofile]** bietet Zugriff auf die Liste aller in der Datenbank gespeicherten Kontakte und die Anzeige der jeden einzelnen Kontakt betreffenden Ereignisse. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Profilen](../../audiences/using/about-profiles.md).
 * Die Karte **[!UICONTROL Audiences]** bietet Zugriff auf die Liste existierender Audiences. Von hier können Sie vorhandene Audiences abrufen und neue erstellen. Weiterführende Informationen finden Sie im Abschnitt [Verwaltung von Audiences](../../audiences/using/about-audiences.md).
 
@@ -86,11 +86,11 @@ Klicken Sie auf das **Adobe Campaign**-Symbol oben links im Bildschirm, um auf d
 
 Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen.
 
-### Marketingpläne             {#marketing-plans}
+### Marketing-Pläne {#marketing-plans}
 
-Über das Symbol **[!UICONTROL Marketingpläne]** gelangen Sie zu folgenden Funktionen:
+Über das Symbol **[!UICONTROL Marketing-Pläne]** gelangen Sie zu folgenden Funktionen:
 
-* **[!UICONTROL Marketingaktivitäten]** - siehe Abschnitt [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
+* **[!UICONTROL Marketing-Aktivitäten]** - siehe Abschnitt [Liste der Marketing-Aktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 * **[!UICONTROL Programme &amp; Kampagnen]** - siehe Abschnitt [Programmliste](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * **[!UICONTROL Planung]** - siehe Abschnitt [Planung](../../start/using/timeline.md).
 * **[!UICONTROL Transaktionsnachrichten]** mit den Untermenüs **[!UICONTROL Sendungen]** und **[!UICONTROL Ereigniskonfiguration]** – siehe Abschnitt [Transaktionsnachrichtenversand](../../channels/using/getting-started-with-transactional-msg.md).

@@ -62,6 +62,6 @@ Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeige
 
 ## Ereignisverlauf eines Profils     {#history-of-events-linked-to-a-profile}
 
-Um festzustellen, für welche Dienste sich ein Kontakt angemeldet hat, können Sie die Liste im Marketingverlauf des entsprechenden Profils zu Rate ziehen. Näheres hierzu finden Sie im Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md).
+Um festzustellen, für welche Dienste sich ein Kontakt angemeldet hat, können Sie die Liste im Marketing-Verlauf des entsprechenden Profils zu Rate ziehen. Näheres hierzu finden Sie im Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)

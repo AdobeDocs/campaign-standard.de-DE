@@ -147,7 +147,7 @@ ht-degree: 100%
 
 **Neuheiten**
 
-* Die API **[!UICONTROL Verlauf]** wurde zu Adobe.IO hinzugefügt. Damit können Sie Informationen zum Marketingverlauf eines Profils abrufen: Anzahl der Touchpoints, gesendete Nachrichten, URL der Mirrorseite etc. Weiterführende Informationen dazu finden Sie im [entsprechenden Anwendungsbeispiel](../../api/using/interacting-with-marketing-history.md) .
+* Die API **[!UICONTROL Verlauf]** wurde zu Adobe.IO hinzugefügt. Damit können Sie Informationen zum Marketing-Verlauf eines Profils abrufen: Anzahl der Touchpoints, gesendete Nachrichten, URL der Mirrorseite etc. Weiterführende Informationen dazu finden Sie im [entsprechenden Anwendungsbeispiel](../../api/using/interacting-with-marketing-history.md) .
 * Der technische Workflow **[!UICONTROL Datenbankbereinigung]** wurde optimiert, um eine bessere Leistung der Datenbanksicherung zu gewährleisten.
 * Creative Designer für E-Mail ist jetzt auch in Französisch und Deutsch verfügbar.
 
@@ -447,7 +447,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
  <tbody> 
   <tr> 
    <td> Reporting für die Ermüdungsverwaltung<br /> </td> 
-   <td> In diesem konfigurierbaren Bericht ist innerhalb eines bestimmten Zeitraums vor dem Versanddatum zu sehen, wie sich die Ermüdungsregeln auf E-Mail-, Push-, SMS- und Briefpost-Sendungen auswirken. Durch diese Übersicht können Marketer alle miteinander in Konflikt stehenden Kampagnen auf einen einzigen Blick erkennen. Dies ermöglicht es ihnen, Marketingkampagnen entsprechend zu planen, die Ermüdungsregeln optimal zu definieren und Nachrichten zu hierarchisieren.<br /> Lesen Sie für weiterführende Informationen das <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">entsprechende Handbuch</a>.<br /> </td> 
+   <td> In diesem konfigurierbaren Bericht ist innerhalb eines bestimmten Zeitraums vor dem Versanddatum zu sehen, wie sich die Ermüdungsregeln auf E-Mail-, Push-, SMS- und Briefpost-Sendungen auswirken. Durch diese Übersicht können Marketer alle miteinander in Konflikt stehenden Kampagnen auf einen einzigen Blick erkennen. Dies ermöglicht es ihnen, Marketing-Kampagnen entsprechend zu planen, die Ermüdungsregeln optimal zu definieren und Nachrichten zu hierarchisieren.<br /> Lesen Sie für weiterführende Informationen das <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Berichtfreigabe<br /> </td> 

@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Über die Inhaltserstellung für Landingpages {#about-content-design}
 
-Landingpages werden auf dieselbe Weise erstellt wie [Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
+Landingpages werden auf dieselbe Weise erstellt wie [Marketing-Aktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 
 Zur Erstellung einer Landingpage müssen Sie den Inhalt der Seite selbst, der Bestätigungsseite und der Fehlerseite definieren. Mithilfe des Schalters unter der Symbolleiste können Sie jede dieser Seiten anzeigen und konfigurieren.
 
@@ -30,7 +30,7 @@ Der Inhalt der Landingpages wird im Campaign-Inhaltseditor gestaltet.
 >
 >Wenn Ihre Instanz vor dem Erscheinen von Adobe Campaign Standard 19.0 installiert wurde, haben Sie für die E-Mail-Gestaltung immer noch Zugriff auf den alten Editor für E-Mail-Inhalte. Die Benutzeroberfläche, Verwendung und Konfiguration entsprechen größtenteils der für Landingpages geltenden unten stehenden Beschreibung. Es kann jedoch sein, dass nicht alle Funktionen im Legacy-E-Mail-Inhaltseditor verfügbar oder auf dem aktuellen Stand sind, da er ab der Version 19.0 eingestellt wird. Wenn Sie Ihren E-Mail-Inhalt rasch auf einer Drag &amp; Drop-Benutzeroberfläche mithilfe einer Fülle von Funktionen bearbeiten möchten, verwenden Sie [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
-Auf dieser Seite erfahren Sie die wichtigsten Informationen zum Inhaltseditor für Landingpages: Weiterführende Informationen zu den Aktionen, die häufig bei Marketingaktivitäten eingesetzt werden, finden Sie in den folgenden Abschnitten des Handbuchs zum **Entwerfen von E-Mail-Inhalten**:
+Auf dieser Seite erfahren Sie die wichtigsten Informationen zum Inhaltseditor für Landingpages: Weiterführende Informationen zu den Aktionen, die häufig bei Marketing-Aktivitäten eingesetzt werden, finden Sie in den folgenden Abschnitten des Handbuchs zum **Entwerfen von E-Mail-Inhalten**:
 
 * [Personalisierungsfeld einfügen](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Inhaltsbaustein hinzufügen](../../designing/using/personalization.md#adding-a-content-block)

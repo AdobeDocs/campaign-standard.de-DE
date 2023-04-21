@@ -29,9 +29,9 @@ Um den unterschiedlichen Verwendungszwecken und neuen Funktionalitäten Rechnung
 
 Alle Lösungen weisen die gleichen Navigationsprinzipien auf.
 
-Die wichtigsten Schritte bei der Erstellung und Koordinierung einer Marketingkampagne mit Adobe Campaign sind:
+Die wichtigsten Schritte bei der Erstellung und Koordinierung einer Marketing-Kampagne mit Adobe Campaign sind:
 
-* **Vorbereitung** – In dieser Anfangsphase kann der Benutzer den Zweck und das Ziel der Kampagne formulieren, d. h. den Marketingplan entwickeln, die Zielgruppe identifizieren, den Inhalt und den Erstellungsmodus, das erwartete Ergebnis und das dafür verantwortliche Personal definieren.
+* **Vorbereitung** – In dieser Anfangsphase kann der Benutzer den Zweck und das Ziel der Kampagne formulieren, d. h. den Marketing-Plan entwickeln, die Zielgruppe identifizieren, den Inhalt und den Erstellungsmodus, das erwartete Ergebnis und das dafür verantwortliche Personal definieren.
 * **Zielgruppenbestimmung** – In diesem Arbeitsschritt kann der Benutzer den Datenerfassungsmodus, die Struktur, die Segmentierung, Audiences, Testadressen, Tests, Filterbedingungen etc. bestimmen. Auch An- und Abmeldemöglichkeiten werden in dieser Phase eingerichtet. Siehe [Profile und Audiences](../../audiences/using/about-profiles.md).
 * **Erstellen von Nachrichten und Inhalten** – In dieser Phase wird der [Kommunikationskanal](../../channels/using/get-started-communication-channels.md) ausgewählt. Sie können auch [Landingpages](../../channels/using/getting-started-with-landing-pages.md) erstellen, um Profile zu erfassen oder zu aktualisieren und Ihre Datenbank zu erweitern. Siehe [E-Mails erstellen](../../channels/using/creating-an-email.md), [SMS erstellen](../../channels/using/creating-an-sms-message.md), [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md), [In-App-Nachricht erstellen](../../channels/using/about-in-app-messaging.md), [Briefpost-Versand erstellen](../../channels/using/creating-the-direct-mail.md).
 * **Test und Versand** – die Ausführungsphase umfasst die Validierung von Inhalt und Zielgruppe (mittels Vorschau und Testsendungen) sowie den eigentlichen Versand der Nachrichten. Siehe [Test und Versand](../../sending/using/get-started-sending-messages.md).

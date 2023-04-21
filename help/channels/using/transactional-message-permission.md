@@ -10,8 +10,9 @@ hidefromtoc: true
 feature: Transactional Messaging
 role: User
 level: Intermediate
-source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: ht
+exl-id: 995da330-6c86-444b-86b2-61d887f37db4
+source-git-commit: aa0a6a38a1b53db1e0712d295995dd9ec91794a1
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 

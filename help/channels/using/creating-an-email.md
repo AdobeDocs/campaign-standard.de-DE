@@ -17,13 +17,13 @@ ht-degree: 100%
 
 # E-Mails erstellen{#creating-an-email}
 
-Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/marketing-activities.md#creating-a-marketing-activity), ausgehend von der [Adobe Campaign-Startseite](../../start/using/interface-description.md#home-page) oder in der [Liste der Marketingaktivitäten](../../start/using/marketing-activities.md#about-marketing-activities). In Workflows lassen sich ebenfalls E-Mails zum einmaligen oder zum wiederkehrenden Versand erstellen.
+Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/marketing-activities.md#creating-a-marketing-activity), ausgehend von der [Adobe Campaign-Startseite](../../start/using/interface-description.md#home-page) oder in der [Liste der Marketing-Aktivitäten](../../start/using/marketing-activities.md#about-marketing-activities). In Workflows lassen sich ebenfalls E-Mails zum einmaligen oder zum wiederkehrenden Versand erstellen.
 
 ![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](#video).
 
-1. Erstellen Sie eine neue Marketingaktivität vom Typ E-Mail und wählen Sie die E-Mail-Vorlage aus, die Sie verwenden möchten.
+1. Erstellen Sie eine neue Marketing-Aktivität vom Typ E-Mail und wählen Sie die E-Mail-Vorlage aus, die Sie verwenden möchten.
 
-   Für jede Marketingaktivität werden mehrere Standardvorlagen angeboten. Dadurch können Sie bestimmte Parameter nach Bedarf vorkonfigurieren und Ihrem Versand eine Marke zuweisen. Weiterführende Informationen dazu finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md).
+   Für jede Marketing-Aktivität werden mehrere Standardvorlagen angeboten. Dadurch können Sie bestimmte Parameter nach Bedarf vorkonfigurieren und Ihrem Versand eine Marke zuweisen. Weiterführende Informationen dazu finden Sie im Abschnitt [Marketingaktivitäten-Vorlagen](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
@@ -45,7 +45,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
    >[!NOTE]
    >
-   >Wenn Sie eine E-Mail von der Startseite oder der Marketingaktivitätenliste ausgehend erstellen, können Sie sie einer bereits existierenden übergeordneten Kampagne zuordnen. Wählen Sie diese unter den bereits existierenden Kampagnen aus.
+   >Wenn Sie eine E-Mail von der Startseite oder der Marketing-Aktivitätenliste ausgehend erstellen, können Sie sie einer bereits existierenden übergeordneten Kampagne zuordnen. Wählen Sie diese unter den bereits existierenden Kampagnen aus.
 
 1. Definieren Sie die Zielgruppe Ihrer Nachricht auf der Basis Ihrer betrieblichen Bedingungen. Siehe [Über Profile](../../audiences/using/about-profiles.md).
 

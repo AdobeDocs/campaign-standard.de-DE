@@ -488,7 +488,7 @@ Außerdem wurde der Abschnitt mit Informationen darüber ergänzt, wie der Titel
 
 Ein neuer Abschnitt wurde hinzugefügt, in dem erläutert wird, wie ein Benutzer in Adobe Campaign Standard erstellt werden kann – [Weitere Informationen](../../administration/using/users-management.md)
 
-Jetzt ist ein neuer Artikel mit Tipps verfügbar, um Marketingkampagnen zu vereinfachen, einschließlich Links zur Produktdokumentation und zu Tutorials –[Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html)
+Jetzt ist ein neuer Artikel mit Tipps verfügbar, um Marketing-Kampagnen zu vereinfachen, einschließlich Links zur Produktdokumentation und zu Tutorials –[Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html)
 
 Für dynamische Berichte wurde ein Abschnitt zur Fehlerbehebung hinzugefügt – [Weitere Informationen](../../reporting/using/troubleshooting.md)
 

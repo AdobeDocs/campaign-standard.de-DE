@@ -54,7 +54,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 1. Wählen Sie den Versandtyp der Push-Benachrichtigung aus:
 
    * **[!UICONTROL Einzelne Benachrichtigung]**: Die Push-Benachrichtigung wird ein einziges Mal versendet. Sie können an dieser Stelle entscheiden, ob Sie der Aktivität eine ausgehende Transition hinzufügen möchten oder nicht. Die unterschiedlichen Transitionstypen werden in Etappe 7 dieser Prozedur beschrieben.
-   * **[!UICONTROL Wiederkehrende Benachrichtigung]**: Die Push-Benachrichtigung wird wiederholt versendet. Die Frequenz des Versands wird in der Aktivität **[!UICONTROL Planung]** definiert. Wählen Sie einen Aggregatzeitraum für die wiederkehrenden Sendungen aus. Auf diese Weise werden alle Sendungen, die im angegebenen Zeitraum versendet wurden, in einer Push-Benachrichtigung zusammengefasst, die auch **wiederkehrende Ausführung** genannt wird. Diese ist in der Marketingaktivitätenliste der Anwendung zugänglich.
+   * **[!UICONTROL Wiederkehrende Benachrichtigung]**: Die Push-Benachrichtigung wird wiederholt versendet. Die Frequenz des Versands wird in der Aktivität **[!UICONTROL Planung]** definiert. Wählen Sie einen Aggregatzeitraum für die wiederkehrenden Sendungen aus. Auf diese Weise werden alle Sendungen, die im angegebenen Zeitraum versendet wurden, in einer Push-Benachrichtigung zusammengefasst, die auch **wiederkehrende Ausführung** genannt wird. Diese ist in der Marketing-Aktivitätenliste der Anwendung zugänglich.
 
       Es besteht beispielsweise die Möglichkeit, die Ausführungen einer täglich gesendeten Geburtstagsnachricht pro Monat zu aggregieren. Auf diese Weise lässt sich ein monatlicher Versandbericht für eine täglich gesendete Nachrichten generieren.
 
@@ -74,6 +74,6 @@ Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachric
 
 ## Bemerkungen          {#remarks}
 
-Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
+Auf die von einem Workflow aus erstellten Sendungen kann in der Marketing-Aktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
 
 Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketing-Aktivitäten zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL Push-Benachrichtigung]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der **[!UICONTROL -Schaltfläche die Detailansicht der Kachel]** Freigabe![](assets/wkf_dlv_detail_button.png) des übergeordneten Versands.

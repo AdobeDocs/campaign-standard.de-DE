@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CAUTION]
 > **[!UICONTROL Der Segment-Code ]**kann nur E-Mail- und SMS-Sendungen auswählen.
 
-Nachdem Sie einen Workflow erstellt und Ihre Population durch Filterung in unterschiedliche Zielgruppen unterteilt haben, können Sie die Effizienz Ihrer Marketingkampagnen anhand von den in diesem Zielgruppen-Workflow definierten Segmenten messen.
+Nachdem Sie einen Workflow erstellt und Ihre Population durch Filterung in unterschiedliche Zielgruppen unterteilt haben, können Sie die Effizienz Ihrer Marketing-Kampagnen anhand von den in diesem Zielgruppen-Workflow definierten Segmenten messen.
 So wählen Sie diese Segmente in Ihren Berichten aus:
 
 * [Schritt 1: Aktualisieren der benutzerdefinierten Ressource &quot;Profile&quot; mit den Segmenten](#step-1--update-profiles-custom-resource-segments)

@@ -42,7 +42,7 @@ In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch 
 
 **Profile sind einzelne in der Datenbank gespeicherte Kontakte.** Jedes Profil entspricht einem Datensatz in der Datenbank, welcher alle nötigen Informationen zu seiner Qualifizierung, Verwendung in Zielgruppen und zum Tracking enthält: Adobe Campaign verfolgt alle von Online- und Offline-Kanälen ausgehenden Interaktionen und vereint sie zu einem gemeinsamen Profil.
 
-**Audiences bestehen aus Listen mit Profilen, die nach einem oder mehreren Kriterien zusammengestellt werden.** Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences entsprechend den verfügbaren Informationen, dem Verhalten und dem Marketingverlauf Ihrer Kontakte, um Ihre Marketingkampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern, Probe-Audiences oder auf einer unbegrenzten Anzahl an Kriterien basierende Zielgruppen erstellen.
+**Audiences bestehen aus Listen mit Profilen, die nach einem oder mehreren Kriterien zusammengestellt werden.** Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences entsprechend den verfügbaren Informationen, dem Verhalten und dem Marketing-Verlauf Ihrer Kontakte, um Ihre Marketing-Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern, Probe-Audiences oder auf einer unbegrenzten Anzahl an Kriterien basierende Zielgruppen erstellen.
 
 Mehr dazu:
 

@@ -37,7 +37,7 @@ Hierzu sind zur Identifizierung der Empfänger die Erstellung einer Abfrage und 
 
 Erstellen Sie also innerhalb des Programms oder der Kampagne Ihrer Wahl einen neuen Workflow:
 
-1. Wählen Sie dazu in **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
+1. Wählen Sie dazu in **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
 1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
 1. Geben Sie die Eigenschaften des Workflows ein und wählen Sie **[!UICONTROL Erstellen]** aus.
 
@@ -154,4 +154,4 @@ Durch Starten des Workflows wird die mithilfe der **[!UICONTROL Abfrageaktivitä
 
 Verwenden Sie zur Ausführung des Workflows die Schaltfläche **[!UICONTROL Start]** in der Symbolleiste.
 
-Sie können über das Adobe Campaign-Logo auf das erweiterte Menü **[!UICONTROL Marketingpläne]** > **[!UICONTROL Marketingaktivitäten]** und damit auf Ihre Sendungen zugreifen. Klicken Sie auf eine Sendung und verwenden Sie anschließend die Schaltfläche **[!UICONTROL Berichte]**, um die ihr zugehörigen [Versandberichte](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports) abzurufen, darunter etwa die Versandzusammenfassung, die Öffnungsrate oder das E-Mail-Rendering entsprechend dem vom Empfänger verwendeten E-Mail-Client.
+Sie können über das Adobe Campaign-Logo auf das erweiterte Menü **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Marketing-Aktivitäten]** und damit auf Ihre Sendungen zugreifen. Klicken Sie auf eine Sendung und verwenden Sie anschließend die Schaltfläche **[!UICONTROL Berichte]**, um die ihr zugehörigen [Versandberichte](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports) abzurufen, darunter etwa die Versandzusammenfassung, die Öffnungsrate oder das E-Mail-Rendering entsprechend dem vom Empfänger verwendeten E-Mail-Client.

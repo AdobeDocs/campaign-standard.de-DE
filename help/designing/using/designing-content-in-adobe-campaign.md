@@ -39,7 +39,7 @@ Email Designer ermöglicht die Erstellung von E-Mail-Inhalten und Vorlagen für 
 
 Zur Erstellung Ihrer E-Mails können Sie auch vordefinierte Vorlagen wählen oder vorhandene Inhalte aus anderen Quellen laden. Siehe [Auswahl vorhandener Inhalte](../../designing/using/using-existing-content.md#selecting-an-existing-content).
 
-Sie können die Wirksamkeit Ihrer Marketingkampagnen verbessern, indem Sie Ihre Inhalte personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field) und [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
+Sie können die Wirksamkeit Ihrer Marketing-Kampagnen verbessern, indem Sie Ihre Inhalte personalisieren. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field) und [Inhaltsbausteine](../../designing/using/personalization.md#adding-a-content-block).
 
 Zusätzlich können Sie dynamische Inhalte definieren, die je nach Profil angepasst werden. Siehe [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) und [Dynamische Inhalte in einer Landingpage definieren](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
 
@@ -109,7 +109,7 @@ Um Email Designer optimal zu nutzen und E-Mails möglichst einfach zu erstellen,
 
 * Verwenden Sie zum Importieren von ZIP-Dateien mit HTML-Inhalten reguläres CSS. SCSS-Stylesheets werden nicht unterstützt.
 
-* Die einfache Erstellung und Wiederverwendung von Inhaltsfragmenten hilft Ihnen, Ihre Marketingkampagnen konsistent zu halten und damit Ihr Branding zu stärken.
+* Die einfache Erstellung und Wiederverwendung von Inhaltsfragmenten hilft Ihnen, Ihre Marketing-Kampagnen konsistent zu halten und damit Ihr Branding zu stärken.
 
    Siehe [Inhaltsfragment erstellen](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 

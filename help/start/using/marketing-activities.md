@@ -1,5 +1,5 @@
 ---
-title: Marketingaktivitäten
+title: Marketing-Aktivitäten
 description: "Hier erfahren Sie, wie Sie Ihre Marketing-Aktivitäten erstellen und verwalten können. Dazu zählen Kampagnen, Sendungen von E-Mails, SMS und Push-Benachrichtigungen sowie Landingpages und Workflows. Sie können einfach eine neue Aktivität erstellen, eine vorhandene bearbeiten und deren Status und Gültigkeit einsehen."
 audience: start
 content-type: reference
@@ -20,15 +20,15 @@ ht-degree: 100%
 
 ## Über Marketing-Aktivitäten {#about-marketing-activities}
 
-Marketingaktivitäten können entweder ausgehend von ihnen übergeordneten Programmen und Kampagnen erstellt und verwaltet werden, oder aber über die Liste der Marketingaktivitäten.
+Marketing-Aktivitäten können entweder ausgehend von ihnen übergeordneten Programmen und Kampagnen erstellt und verwaltet werden, oder aber über die Liste der Marketing-Aktivitäten.
 
-Die Marketingaktivitätenliste enthält alle existierenden Aktivitäten, unabhängig von den Programmen oder Kampagnen, in denen sie erstellt wurden. Programme, Kampagnen, Sendungen (E-Mails, SMS und Push-Benachrichtigungen), Landingpages und Workflows werden ohne Berücksichtigung hierarchischer Strukturen gelistet.
+Die Marketing-Aktivitätenliste enthält alle existierenden Aktivitäten, unabhängig von den Programmen oder Kampagnen, in denen sie erstellt wurden. Programme, Kampagnen, Sendungen (E-Mails, SMS und Push-Benachrichtigungen), Landingpages und Workflows werden ohne Berücksichtigung hierarchischer Strukturen gelistet.
 
-Wählen Sie den Link **[!UICONTROL Marketingaktivitäten]** aus der Symbolleiste am oberen Bildschirmrand aus, um auf die Liste der Marketingaktivitäten zuzugreifen.
+Wählen Sie den Link **[!UICONTROL Marketing-Aktivitäten]** aus der Symbolleiste am oberen Bildschirmrand aus, um auf die Liste der Marketing-Aktivitäten zuzugreifen.
 
 >[!NOTE]
 >
->Auf die Liste kann ebenfalls von der Startseite ausgehend unter Verwendung der **[!UICONTROL Marketingaktivitäten]**-Karte zugegriffen werden.
+>Auf die Liste kann ebenfalls von der Startseite ausgehend unter Verwendung der **[!UICONTROL Marketing-Aktivitäten]**-Karte zugegriffen werden.
 
 ![](assets/marketing_activities.png)
 
@@ -36,9 +36,9 @@ Das **[!UICONTROL Suche]**-Menü erlaubt die Filterung der angezeigten Elemente 
 
 Wählen Sie in der Liste eine Aktivität aus, um auf ihren Inhalt zugreifen zu können.
 
-Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketingaktivitäten erstellen](#creating-a-marketing-activity).
+Mit der Schaltfläche **[!UICONTROL Erstellen]** kann eine neue Aktivität erstellt werden. Lesen Sie diesbezüglich auch den Abschnitt [Marketing-Aktivitäten erstellen](#creating-a-marketing-activity).
 
-## Symbole und Status von Marketingaktivitäten        {#marketing-activity-icons-and-statuses}
+## Symbole und Status von Marketing-Aktivitäten {#marketing-activity-icons-and-statuses}
 
 Im Arbeitsbereich wird jeder Aktivitätstyp durch ein repräsentatives Symbol dargestellt:
 
@@ -71,7 +71,7 @@ Ausgehend von einem Programm lassen sich weitere Programme, Kampagnen, Workflows
 
 Weiterführende Informationen zu Programmen und Kampagnen finden Sie im Abschnitt [Programme und Kampagnen](../../start/using/programs-and-campaigns.md).
 
-1. Gehen Sie zur Erstellung einer neuen Marketingaktivität in das Dashboard eines Programms oder einer Kampagne und fügen Sie mithilfe der Schaltfläche **[!UICONTROL Erstellen]** ein Element hinzu.
+1. Gehen Sie zur Erstellung einer neuen Marketing-Aktivität in das Dashboard eines Programms oder einer Kampagne und fügen Sie mithilfe der Schaltfläche **[!UICONTROL Erstellen]** ein Element hinzu.
 
    ![](assets/marketing_activiy_creation_1.png)
 
@@ -92,4 +92,4 @@ Je nach Kontext haben Sie verschiedene Möglichkeiten:
 
 >[!NOTE]
 >
->Marketingaktivitäten können auch ausgehend von der Liste der Marketingaktivitäten erstellt werden. In diesem Fall können Sie eine beliebige Art von Aktivität erstellen und die Marketingaktivität über die Eigenschaften der Aktivität mit einer übergeordneten Kampagne (oder mit einem übergeordneten Programm, wenn Sie ein Programm erstellen) verknüpfen.
+>Marketing-Aktivitäten können auch ausgehend von der Marketing-Aktivitäten-Liste erstellt werden. In diesem Fall können Sie eine beliebige Art von Aktivität erstellen und die Marketing-Aktivität über die Eigenschaften der Aktivität mit einer übergeordneten Kampagne (oder mit einem übergeordneten Programm, wenn Sie ein Programm erstellen) verknüpfen.

@@ -100,7 +100,7 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 Wenn die Veröffentlichung eines Ereignisses aufgehoben oder es noch nicht veröffentlicht wurde, können Sie es aus der Ereigniskonfigurationsliste löschen. Gehen Sie dazu wie folgt vor:
 
-1. Klicken sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Marketingpläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
+1. Klicken Sie auf das  **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
 1. Bewegen Sie den Mauszeiger über die gewünschte Ereigniskonfiguration und wählen Sie die Schaltfläche **[!UICONTROL Element löschen]**.
 
    ![](assets/message-center_delete-button.png)

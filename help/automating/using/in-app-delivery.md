@@ -74,6 +74,6 @@ Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachric
 
 ## Bemerkungen          {#remarks}
 
-Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
+Auf die von einem Workflow aus erstellten Sendungen kann in der Marketing-Aktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
 
-Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketingaktivitäten zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL In-App-Versandaktivität]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der Schaltfläche ![](assets/wkf_dlv_detail_button.png) die Detailansicht der Kachel **[!UICONTROL Freigabe]** des übergeordneten Versands.
+Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketing-Aktivitäten zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL In-App-Versandaktivität]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der Schaltfläche ![](assets/wkf_dlv_detail_button.png) die Detailansicht der Kachel **[!UICONTROL Freigabe]** des übergeordneten Versands.

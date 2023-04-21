@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor weniger als einem Jahr in die Datenbank aufgenommen wurden, und eine andere E-Mail an Kunden, die vor mehr als einem Jahr aufgenommen wurden.
 
-1. Wählen Sie dazu in **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
+1. Wählen Sie dazu in **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
 1. Wählen Sie als Workflow-Typ **[!UICONTROL Neuer Workflow]** und danach **[!UICONTROL Weiter]** aus.
 1. Geben Sie die Eigenschaften des Workflows ein und wählen Sie **[!UICONTROL Erstellen]** aus.
 

@@ -51,7 +51,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 1. Wählen Sie den Versandtyp der SMS aus:
 
    * **[!UICONTROL SMS]**: Die SMS wird ein einziges Mal versendet. Sie können an dieser Stelle entscheiden, ob Sie der Aktivität eine ausgehende Transition hinzufügen möchten oder nicht. Die unterschiedlichen Transitionstypen werden in Etappe 7 dieser Prozedur beschrieben.
-   * **[!UICONTROL SMS zum wiederkehrenden Versand]**: Die SMS wird wiederholt versendet. Die Frequenz des Versands wird in einer vorangeschalteten **[!UICONTROL Planung]** definiert. Wählen Sie einen Aggregatzeitraum für die wiederkehrenden Sendungen aus. Auf diese Weise werden alle Sendungen, die im angegebenen Zeitraum versendet wurden, in einer Ansicht zusammengefasst, die auch **wiederkehrende Ausführung** genannt wird. Diese ist in der Marketingaktivitätenliste der Anwendung zugänglich.
+   * **[!UICONTROL SMS zum wiederkehrenden Versand]**: Die SMS wird wiederholt versendet. Die Frequenz des Versands wird in einer vorangeschalteten **[!UICONTROL Planung]** definiert. Wählen Sie einen Aggregatzeitraum für die wiederkehrenden Sendungen aus. Auf diese Weise werden alle Sendungen, die im angegebenen Zeitraum versendet wurden, in einer Ansicht zusammengefasst, die auch **wiederkehrende Ausführung** genannt wird. Diese ist in der Marketing-Aktivitätenliste der Anwendung zugänglich.
 
       Es besteht beispielsweise die Möglichkeit, die Ausführungen einer täglich gesendeten Geburtstags-SMS pro Monat zu aggregieren. Auf diese Weise lässt sich ein monatlicher Versandbericht für eine täglich gesendete SMS generieren.
 
@@ -71,8 +71,8 @@ Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachric
 
 ## Bemerkungen          {#remarks}
 
-Auf die von einem Workflow aus erstellten Sendungen kann in der Marketingaktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Die Links im Übersichtsmenü der SMS ermöglichen einen direkten Zugriff auf verknüpfte Elemente (Workflow, Kampagne, übergeordneter Versand im Fall einer SMS zum wiederkehrenden Versand).
+Auf die von einem Workflow aus erstellten Sendungen kann in der Marketing-Aktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Die Links im Übersichtsmenü der SMS ermöglichen einen direkten Zugriff auf verknüpfte Elemente (Workflow, Kampagne, übergeordneter Versand im Fall einer SMS zum wiederkehrenden Versand).
 
 Die Ausführungen wiederkehrender Sendungen sind jedoch standardmäßig ausgeblendet. Um sie anzuzeigen, aktivieren Sie im Suchmenü der Marketing-Aktivitäten die Option **[!UICONTROL Wiederkehrende Ausführungen anzeigen]**.
 
-Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketingaktivitäten oder direkt über die verknüpften wiederkehrenden Ausführungen zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL SMS-Versandaktivität]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der Schaltfläche ![](assets/wkf_dlv_detail_button.png) die Detailansicht der Kachel **[!UICONTROL Freigabe]** des übergeordneten Versands.
+Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketing-Aktivitäten oder direkt über die verknüpften wiederkehrenden Ausführungen zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL SMS-Versandaktivität]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der Schaltfläche ![](assets/wkf_dlv_detail_button.png) die Detailansicht der Kachel **[!UICONTROL Freigabe]** des übergeordneten Versands.

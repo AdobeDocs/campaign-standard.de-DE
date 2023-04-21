@@ -82,7 +82,7 @@ Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Hand
 ### Synchronisieren von Profilen in Microsoft Dynamics 365
 
 Die Campaign Standard-Integration mit Microsoft Dynamics 365 ermöglicht Ihnen die Übermittlung von Kontaktdaten von Microsoft Dynamics 365 an die Campaign-Datenbank.
-Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketingkampagnen verwendet werden. Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](../../integrating/using/d365-acs-get-started.md).
+Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketing-Kampagnen verwendet werden. Weiterführende Informationen zu dieser Integration finden Sie im [entsprechenden Handbuch](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ Mit Campaign Standard-APIs können Sie Prozesse zum Aktualisieren der Datenbank 
 
 Adobe Campaign vereint fortschrittliche Analyse- und Zielgruppenbestimmungsfunktionen, damit Sie relevante und effiziente Nachrichten versenden und mit Kunden effektiv interagieren können.
 
-Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, die verfügbare Informationen, das Verhalten, die Sprache, die Einstellungen und den Marketingverlauf Ihrer Kontakte berücksichtigen, um Ihre unterschiedlichen Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern oder auf einer unbegrenzten Anzahl von Kriterien basierende Zielgruppen erstellen.
+Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, die verfügbare Informationen, das Verhalten, die Sprache, die Einstellungen und den Marketing-Verlauf Ihrer Kontakte berücksichtigen, um Ihre unterschiedlichen Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern oder auf einer unbegrenzten Anzahl von Kriterien basierende Zielgruppen erstellen.
 
 **Mehr dazu**
 

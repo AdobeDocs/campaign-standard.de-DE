@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Adobe Experience Manager-Inhalte in eine Adobe Campaign-E-Mail importieren {#creating-email-aem}
 
-Mithilfe dieses Dokuments lernen Sie, in Adobe Experience Manager E-Mail-Inhalte zu erstellen und zu verwalten und diese anschließend für Ihre Marketingkampagnen zu verwenden, indem Sie sie in Ihre Adobe Campaign Standard-E-Mails importieren.
+Mithilfe dieses Dokuments lernen Sie, in Adobe Experience Manager E-Mail-Inhalte zu erstellen und zu verwalten und diese anschließend für Ihre Marketing-Kampagnen zu verwenden, indem Sie sie in Ihre Adobe Campaign Standard-E-Mails importieren.
 
 Folgende Voraussetzungen müssen erfüllt sein:
 

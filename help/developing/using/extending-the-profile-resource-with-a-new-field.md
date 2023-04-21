@@ -151,7 +151,7 @@ In unserem Beispiel sollen in einem Workflow Profile ausgewählt werden, bei den
 
 Zuerst muss eine Landingpage erstellt werden, über die das **Interessen**-Feld der Profile der Zielgruppe aktualisiert wird:
 
-1. Wählen Sie im Tab **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Landingpage]** aus.
+1. Wählen Sie im Tab **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Landingpage]** aus.
 1. Wählen Sie einen Landingpage-Typ aus. Wählen Sie hier **[!UICONTROL Profilakquise]** aus, da die Profile aktualisiert werden müssen.
 1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 1. Klicken Sie auf den Baustein **[!UICONTROL Inhalt]**, um den Inhalt der Landingpage zu bearbeiten.
@@ -168,7 +168,7 @@ Zuerst muss eine Landingpage erstellt werden, über die das **Interessen**-Feld 
 
 Ihre Landingpage kann jetzt verwendet werden. Um die Profile zu aktualisieren, erstellen Sie einen Workflow, mit dem anschließend ein spezielles Angebot entsprechend den ausgewählten Interessen gesendet wird.
 
-1. Wählen Sie im Tab **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
+1. Wählen Sie im Tab **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
 1. Ziehen Sie die Aktivität **[!UICONTROL Abfrage]** in den Arbeitsbereich, um die entsprechenden Profile oder Audiences auszuwählen.
 1. Ziehen Sie die Aktivität **[!UICONTROL E-Mail-Versand]** in den Arbeitsbereich, um die E-Mail zu konfigurieren, die einen Link zur Landingpage enthält. Wählen Sie **[!UICONTROL Ausgehende Transition mit der Population hinzufügen]** aus.
 
