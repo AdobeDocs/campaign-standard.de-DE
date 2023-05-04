@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich der I
 
 Gehen Sie wie unten beschrieben vor, um auf die bereits erstellten Transaktionsereignisse zuzugreifen und sie zu durchsuchen.
 
-1. Klicken Sie auf das  **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
+1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Suche ein-/ausblenden]**.
 
    ![](assets/message-center_search-events.png)
@@ -195,7 +195,7 @@ Um eine ereignisbasierte Transaktionsnachricht zu senden, erstellen und konfigur
 
 ### Profilbasierte Transaktionsnachrichten          {#profile-based-transactional-messages}
 
-Sie können Transaktionsnachrichten auf der Grundlage von Kundenprofilen senden, mit denen Sie Marketing-Typologieregeln anwenden, den Abmelde-Link einschließen, die Nachricht den globalen Versandberichten hinzufügen und sie in der Customer Journey nutzen können.
+Sie können Transaktionsnachrichten auf der Grundlage von Kundenprofilen versenden, was Ihnen die Anwendung von Marketing-Typologieregeln, das Einfügen eines „Abo stornieren“-Links, das Hinzufügen der Nachricht zu den globalen Versandberichten und die Nutzung der Nachricht in der Customer Journey ermöglicht.
 
 Um eine profilbasierte Transaktionsnachricht zu senden, erstellen und konfigurieren Sie zunächst ein Ereignis, bei dem **Daten aus der Adobe Campaign-Datenbank** zur Zielgruppenbestimmung verwendet werden.
 
