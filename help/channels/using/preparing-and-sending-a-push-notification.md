@@ -93,7 +93,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
    ![](assets/push_send_1.png)
 
-1. Nach dem erfolgreichen Abschluss der Vorbereitung werden im Fenster **[!UICONTROL Freigabe]** die folgenden KPIs angezeigt: **[!UICONTROL Zielgruppe]** und **[!UICONTROL Zu senden]**. Beachten Sie, dass die Anzahl der Profile in **[!UICONTROL Zu senden]** aufgrund von Ausschlüssen niedriger ist als in **[!UICONTROL Zielgruppe]**. Die Ausschlüsse können durch Auswahl der Schaltfläche ![](assets/lp_link_properties.png) am unteren Rand des Fensters **[!UICONTROL Freigabe]** aufgerufen werden.
+1. Nach dem erfolgreichen Abschluss der Vorbereitung werden im Fenster **[!UICONTROL Bereitstellung]** die folgenden KPIs angezeigt: **[!UICONTROL Zielgruppe]** und **[!UICONTROL Zu senden]**. Beachten Sie, dass die Anzahl der Profile in **[!UICONTROL Zu senden]** aufgrund von Ausschlüssen niedriger ist als in **[!UICONTROL Zielgruppe]**. Die Ausschlüsse können durch Auswahl der Schaltfläche ![](assets/lp_link_properties.png) am unteren Rand des Fensters **[!UICONTROL Bereitstellung]** aufgerufen werden.
 
    ![](assets/push_send_2.png)
 
@@ -110,11 +110,11 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 1. Wählen Sie dann **[!UICONTROL Bestätigen]** aus, um mit dem Versand der Push-Benachrichtigungen zu beginnen.
 1. Prüfen Sie den Status Ihres Versands über das Nachrichten-Dashboard und die entsprechenden Protokolle. Weiterführende Informationen dazu finden Sie unter [Nachrichten versenden](../../sending/using/confirming-the-send.md) und [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-   In diesem Beispiel wird im Nachrichten-Dashboard angezeigt, dass Adobe Campaign versucht hat, zwei Push-Benachrichtigungen zu senden: eine wurde erfolgreich zugestellt und die andere ist fehlgeschlagen. Wenn Sie feststellen möchten, warum der Versand Fehler enthält, wählen Sie die Schaltfläche ![](assets/lp_link_properties.png) am unteren Rand des Fensters **[!UICONTROL Freigabe]** aus.
+   In diesem Beispiel wird im Nachrichten-Dashboard angezeigt, dass Adobe Campaign versucht hat, zwei Push-Benachrichtigungen zu senden: eine wurde erfolgreich zugestellt und die andere ist fehlgeschlagen. Wenn Sie feststellen möchten, warum der Versand Fehler enthält, wählen Sie die Schaltfläche ![](assets/lp_link_properties.png) am unteren Rand des Fensters **[!UICONTROL Bereitstellung]** aus.
 
    ![](assets/push_send_4.png)
 
-1. Wählen Sie im Fenster **[!UICONTROL Freigabe]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann auf die Blockierungsliste gesetzt und erhält keine weiteren Sendungen mehr.
+1. Wählen Sie im Fenster **[!UICONTROL Bereitstellung]** den Tab **[!UICONTROL Versandlogs]** aus, um auf die Liste gesendeter Push-Benachrichtigungen und ihren Status zuzugreifen. Bei diesem Versand wurde die eine Push-Benachrichtigung erfolgreich gesendet, während die andere wegen eines fehlerhaften Geräte-Tokens fehlgeschlagen ist. Dieser Abonnent wird dann auf die Blockierungsliste gesetzt und erhält keine weiteren Sendungen mehr.
 
    >[!NOTE]
    >
