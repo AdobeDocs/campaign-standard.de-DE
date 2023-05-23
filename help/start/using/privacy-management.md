@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '825'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Um Sie bei der Einhaltung der Datenschutzverordnungen zu unterstützen, ermögli
 
 Weitere Informationen zum Erstellen von **Zugriffs-** und **Löschanfragen** und zur Verarbeitung dieser Anfragen durch Adobe Campaign finden Sie in den [Implementierungsschritten](../../start/using/privacy-requests.md#about-privacy-requests).
 
-[Hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=de#privacy) finden Sie auch Tutorials zur Datenschutzverwaltung in Campaign Standard.
+[Hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html#privacy) finden Sie auch Tutorials zur Datenschutzverwaltung in Campaign Standard.
 
 >[!NOTE]
 >

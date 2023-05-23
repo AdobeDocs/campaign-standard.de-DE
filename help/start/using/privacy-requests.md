@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 98%
+source-wordcount: '1669'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Als Datenverantwortlicher sind Sie daher außerdem verpflichtet, die Identität 
 
 Bevor Sie Datenschutzanfragen erstellen können, müssen Sie den Namespace definieren, den Sie verwenden möchten. Der Namespace ist der Schlüssel, anhand dessen die Identität der betroffenen Person in der Adobe Campaign-Datenbank identifiziert wird. Standardmäßig sind zwei Namespaces verfügbar: E-Mail und Mobiltelefon. Wenn Sie einen anderen Namespace benötigen (z. B. ein benutzerdefiniertes Profilfeld) führen Sie diese Schritte aus.
 
-Weitere Informationen zum Erstellen eines Namespace finden Sie in diesem [Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=de#privacy).
+Weitere Informationen zum Erstellen eines Namespace finden Sie in diesem [Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy).
 
 >[!NOTE]
 >
@@ -95,9 +95,9 @@ Weitere Informationen zum Erstellen von Datenschutzanfragen mittels Privacy Core
 
 >[!IMPORTANT]
 >
->Um eine Anfrage mit dem benutzerdefinierten Namespace-Typ zu senden, nutzen Sie die [JSON-Methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=de#access-delete){target="_blank"} , um die Anfrage zu stellen.
+>Um eine Anfrage mit dem benutzerdefinierten Namespace-Typ zu senden, nutzen Sie die [JSON-Methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} , um die Anfrage zu stellen.
 >
->Verwenden Sie nur die [Benutzeroberfläche für Datenschutz](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#request-builder){target="_blank"} , um Anfragen mit dem Standard-Namespace-Typ zu senden.
+>Verwenden Sie nur die [Benutzeroberfläche für Datenschutz](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} , um Anfragen mit dem Standard-Namespace-Typ zu senden.
 
 Jeder Privacy Core Service-Vorgang wird in mehrere Datenschutzanfragen in Campaign aufgeteilt, je nachdem, wie viele Namespaces verwendet werden, wobei eine Anfrage einem Namespace entspricht. Außerdem kann ein Vorgang in mehreren Instanzen ausgeführt werden. Daher werden für einen Vorgang mehrere Dateien erstellt. Wenn sich eine Anfrage beispielsweise auf zwei Namespaces bezieht und drei Instanzen betrifft, werden insgesamt sechs Dateien gesendet. Eine Datei pro Namespace und Instanz.
 
@@ -125,7 +125,7 @@ Dies sind die Ressourcen, die bei der Durchführung von Datenschutzanfragen stan
 
 Wenn Sie benutzerdefinierte Ressourcen erstellt haben, für die eine Relation zur Profilressource (Typ „own“) besteht, werden auch diese berücksichtigt. Wenn Sie beispielsweise eine Transaktionen-Ressource haben, für die eine Relation mit der Profilressource vorhanden ist und eine Transaktionendetails-Ressource, für die eine Relation mit der Transaktionen-Ressource besteht, werden beide berücksichtigt.
 
-Weitere Informationen zum Ändern benutzerdefinierter Ressourcen finden Sie in [diesem Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=de#privacy).
+Weitere Informationen zum Ändern benutzerdefinierter Ressourcen finden Sie in [diesem Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy).
 
 Wählen Sie zu diesem Zweck in der benutzerdefinierten Ressource die Option **[!UICONTROL Das Löschen des Zieldatensatzes zieht das Löschen der durch die Relation referenzierten Datensätze nach sich]** aus:
 

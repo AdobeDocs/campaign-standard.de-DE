@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7269'
-ht-degree: 100%
+source-wordcount: '7263'
+ht-degree: 99%
 
 ---
 
@@ -562,7 +562,7 @@ Das Automating-Benutzerhandbuch wurde mit Links zu verwandten Workflow-Aktivitä
 
 Der Abschnitt über die Indikatorberechnung für dynamische Berichte wurde aktualisiert – [Weitere Informationen](../../reporting/using/indicator-calculation.md)
 
-Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=de)
+Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Die Liste der Funktionen für Workflows wurde aktualisiert – [Weitere Informationen](../../automating/using/list-of-functions.md)
 
@@ -840,7 +840,7 @@ Die Aktivität **[!UICONTROL An-/Abmeldedienst]** wurde aktualisiert und unterst
 
 Eine schrittweise Anleitung zur Versandvorbereitung wurde hinzugefügt – [Weitere Informationen](../../sending/using/preparing-the-send.md)
 
-Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de) (PDF)
+Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)
 
 Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion wurde hinzugefügt – [Weitere Informationen](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1012,7 +1012,7 @@ Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with y
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [Weitere Informationen](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 

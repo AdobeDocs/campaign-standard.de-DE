@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Führen Sie die folgenden Schritte aus, um die Konfiguration abzuschließen:
    * Stellen Sie in Adobe Campaign Standard sicher, dass der IMS-Benutzer zu den Standardbenutzer- und Administratorproduktprofilen gehört. In diesem Schritt kann sich der Anwender bei Adobe Campaign Standard anmelden, zur Seite &quot;Experience Platform SDK&quot; der Mobile App navigieren und die Mobile-App-Eigenschaften anzeigen, die Sie in der Datenerfassungs-UI erstellt haben.
 
    * Stellen Sie in der Datenerfassungs-UI sicher, dass Ihr IMS-Benutzer Teil eines Experience Platform Launch-Produktprofils ist.
-In diesem Schritt kann sich der Benutzer bei der Datenerfassungs-UI anmelden, um die Eigenschaften zu erstellen und anzuzeigen. Weiterführende Informationen zu Produktprofilen in der Datenerfassungs-UI finden Sie unter [Produktprofil erstellen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=en#gain-admin-rights-for-a-tags-product-profile?lang=de). Im Produktprofil sollten keine Berechtigungen für das Unternehmen oder die Eigenschaften festgelegt sein, aber der Benutzer sollte sich trotzdem anmelden können.
+In diesem Schritt kann sich der Benutzer bei der Datenerfassungs-UI anmelden, um die Eigenschaften zu erstellen und anzuzeigen. Weiterführende Informationen zu Produktprofilen in der Datenerfassungs-UI finden Sie unter [Produktprofil erstellen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). Im Produktprofil sollten keine Berechtigungen für das Unternehmen oder die Eigenschaften festgelegt sein, aber der Benutzer sollte sich trotzdem anmelden können.
 
    Um zusätzliche Aufgaben wie die Installation einer Erweiterung, die Veröffentlichung einer Anwendung, die Konfiguration von Umgebungen usw. durchzuführen, müssen Sie im Produktprofil Berechtigungen festlegen.
 

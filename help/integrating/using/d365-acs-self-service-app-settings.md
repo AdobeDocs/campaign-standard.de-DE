@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -77,15 +77,15 @@ Sie müssen Folgendes angeben:
 
 Machen Sie sich in diesen Abschnitten mit der SFTP-Verwaltung über das [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de) vertraut:
 
-* [Über die SFTP-Verwaltung](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=de#sftp-management)
+* [Über die SFTP-Verwaltung](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
 
-* [SFTP-Speicherverwaltung](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=de#installing-ssh-key)
+* [SFTP-Speicherverwaltung](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [IP-Bereiche hinzufügen](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=de#sftp-management)
+* [IP-Bereiche hinzufügen](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [Schlüssel verwalten](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=de#sftp-management)
+* [Schlüssel verwalten](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [Bei Ihrem SFTP-Server anmelden](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=de#sftp-management)
+* [Bei Ihrem SFTP-Server anmelden](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 Sobald die Konfiguration abgeschlossen ist, melden Sie sich mit dem privaten Schlüssel beim SFTP-Server an und erstellen Sie das Verzeichnis &quot;d365_loads/exports&quot;.
 

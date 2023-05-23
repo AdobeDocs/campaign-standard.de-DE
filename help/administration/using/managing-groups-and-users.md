@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Sicherheitsgruppen sind eine Gruppe von Benutzern, die innerhalb Ihres Unternehm
 
 Benutzer müssen stets einer Sicherheitsgruppe angehören. Dadurch können Sie Benutzern spezifische Rollen und Organisationseinheiten zuweisen. Wenn Sie den Zugriff eines Benutzers beschränken möchten, fügen Sie diesen nicht der **[!UICONTROL Standard-Benutzergruppe]** von Campaign hinzu, da diese der Organisationseinheit **[!UICONTROL Alle]** zugeordnet ist.
 
-Die für die verschiedenen Benutzerrollen jeweils möglichen Aktionen sind in den Tabellen auf der folgenden Seite aufgeführt: [Berechtigungen in Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de).
+Die für die verschiedenen Benutzerrollen jeweils möglichen Aktionen sind in den Tabellen auf der folgenden Seite aufgeführt: [Berechtigungen in Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Standardmäßige Sicherheitsgruppen sind:
 
