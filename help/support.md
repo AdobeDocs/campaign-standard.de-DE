@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
 ### Was ist das Control Panel?
 
 Das Control Panel ermöglicht Produktadministratoren von Adobe Campaign Standard effizienteres Arbeiten. Sie können damit die Einstellungen aller Instanzen verwalten und deren Nutzung erfassen.
-[Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel), um weitere Informationen zu erhalten.
+[Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de#discover-control-panel), um weitere Informationen zu erhalten.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Das Control Panel ermöglicht Produktadministratoren von Adobe Campaign Standard
 
 ### Zugriff auf das Control Panel
 
-Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel), um weitere Informationen zu erhalten.
+Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=de#discover-control-panel), um weitere Informationen zu erhalten.
 
 ### Control Panel – häufig gestellte Fragen
 
@@ -107,9 +107,9 @@ Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken S
 
 Sie können Ihre Sub-Domains und deren Zertifikate überwachen. Mehr dazu:
 
-* [Sub-Domain-Branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
-* [Einrichten einer neuen Sub-Domain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
-* [Überwachung von SSL-Zertifikaten](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
+* [Sub-Domain-Branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=de#subdomains-and-certificates)
+* [Einrichten einer neuen Sub-Domain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de#subdomains-and-certificates)
+* [Überwachung von SSL-Zertifikaten](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#subdomains-and-certificates)
 
 ## Hilfe anfordern
 
