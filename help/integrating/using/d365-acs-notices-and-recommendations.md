@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2474'
 ht-degree: 100%
 
 ---
@@ -43,11 +43,6 @@ Wenn Sie die Integration so konfiguriert haben, dass beim Löschen eines Kontakt
 
 1. Überprüfen, ob der Datensatz aus beiden Systemen entfernt wurde
 
-Nachstehend finden Sie Links, die Sie bei der Implementierung von datenschutzbezogenen Anfragen in Bezug auf den Zugriff oder die Löschung in jedem System unterstützen:
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/de-de/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)
 
 >[!IMPORTANT]
 >
@@ -111,11 +106,11 @@ Durch diese Integration werden Kontakte und benutzerdefinierte Entitäten von Mi
 
 Da bei dieser Integration das Feld **[!UICONTROL externalId]** in Campaign zum Synchronisieren von Campaign-Profildatensätzen mit Dynamics 365-Kontaktdatensätzen verwendet wird, muss dieses Campaign-Feld (**[!UICONTROL externalId]**) mit der Microsoft Dynamics 365- **[!UICONTROL contactId]** für diejenigen Datensätze ausgefüllt werden, die in Microsoft Dynamics 365 synchronisiert werden sollen.  Benutzerdefinierte Entitäten werden ebenfalls mit einer eindeutigen Microsoft Dynamics 365-ID synchronisiert. Die benutzerdefinierte Entität in Campaign muss dieses ID-Attribut als Tabellenspalte enthalten. Die Spalte &quot;externalId&quot; kann verwendet werden, um diesen Attributwert zu speichern, ist jedoch nicht für benutzerdefinierte Entitäten in Campaign erforderlich.
 
-Denken Sie daran, dass Microsoft Dynamics 365 weiter die &quot;Source of Truth&quot; bleibt und die Campaign-Profildaten überschrieben werden können, wenn die Integration Aktualisierungen auf der Seite von Dynamics 365 erkennt.  Je nach Ihrer vorhandenen Implementierung können auch andere Schritte zum Aktivieren der Integration erforderlich sein. Daher wird empfohlen, eng mit Ihrem technischen Ansprechpartner bei Adobe zusammenzuarbeiten.
+Denken Sie daran, dass Microsoft Dynamics 365 weiter die &quot;Source of Truth&quot; bleibt und die Campaign-Profildaten überschrieben werden können, wenn die Integration Aktualisierungen auf der Seite von Dynamics 365 erkennt.  Je nach Ihrer vorhandenen Bereitstellung können auch andere Schritte zum Aktivieren der Integration erforderlich sein. Daher wird empfohlen, eng mit Ihrem technischen Ansprechpartner bei Adobe zusammenzuarbeiten.
 
 >[!NOTE]
 >
->Aufgrund der Komplexität vorhandener Kundenimplementierungen sollten Sie sich bei der Planung und Einrichtung der Integration von Ihrem technischen Ansprechpartner von Adobe unterstützen lassen.
+>Aufgrund der Komplexität vorhandener Kundenbereitstellungen sollten Sie sich bei der Planung und Einrichtung der Integration von Ihrem technischen Ansprechpartner von Adobe unterstützen lassen.
 
 ### Häufigkeit der Datensynchronisation
 
