@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 100%
+source-wordcount: '988'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Für die Integration müssen mehrere Anwendungen konfiguriert werden. Dieser Art
 
 ## Voraussetzungen
 
-Bevor Sie die in diesem Dokument beschriebenen Einrichtungsschritte vor der Integration durchführen, wird davon ausgegangen, dass Sie bereits eine Bereitstellung vorgenommen haben und Administratorzugriff auf die Microsoft Dynamics 365-Instanz Ihres Unternehmens haben.  Ist dies nicht der Fall, müssen Sie sich mit der Kundenunterstützung von Microsoft in Verbindung setzen, um die Dynamics 365-Bereitstellung abzuschließen.
+Bevor Sie die Einrichtung vor der Integration in diesem Dokument durchführen, wird davon ausgegangen, dass Sie bereits eine Bereitstellung vorgenommen haben und Administratorzugriff auf die Microsoft Dynamics 365-Instanz Ihres Unternehmens haben.  Ist dies nicht der Fall, müssen Sie sich mit der Kundenunterstützung von Microsoft in Verbindung setzen, um die Dynamics 365-Bereitstellung abzuschließen.
 
 Wenn Sie die Integration sowohl für die Staging- als auch für die Produktionsumgebung konfigurieren, müssen Sie die folgenden Schritte für Ihre Staging- und Produktions-Dynamics 365-Instanzen durchführen. Die folgenden Anweisungen variieren geringfügig, je nachdem, ob Sie eine Staging- oder Produktions-Dynamics 365-Instanz konfigurieren (z. B. wählen Sie für die Produktionsinstanz &quot;prod&quot; für `<stage or prod>` aus).
 
@@ -113,15 +113,14 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
 
 ### Mandantenkennung abrufen   {#get-the-tenant-id}
 
-Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de/onedrive/find-your-office-365-tenant-id), um Ihre Mandanten-ID zu finden.  Sie benötigen diese ID während der Einrichtung vor der Integration im Integrations-Tool.
+Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de/onedrive/find-your-office-365-tenant-id), um Ihre Mandanten-ID zu finden.  Sie benötigen diese ID bei der Einrichtung vor der Integration im Integrations-Tool.
 
 ## Campaign Standard für Microsoft Dynamics 365 installieren {#install-appsource-app}
 
 Gehen Sie wie folgt vor, um die Dynamics 365-App in die Campaign Standard-Umgebung zu integrieren:
 
-1. Navigieren Sie zum folgenden Link: [https://appsource.microsoft.com/de-de/marketplace/apps](https://appsource.microsoft.com/de-de/marketplace/apps) und suchen Sie in der Suchleiste nach _Adobe Campaign for Dynamics 365_.
-Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview) gehen
-{target="_blank"}.
+1. Navigieren Sie zu [Microsoft Business Apps](https://appsource.microsoft.com/de-de/marketplace/apps)und suchen Sie in der Suchleiste nach _Adobe Campaign Standard_ .
+Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview) gehen.{target="_blank"}
 1. Befolgen Sie die Anweisungen zum Installieren der App für Ihre Dynamics 365-Instanz.
 1. Nach der Installation navigieren Sie zu Ihrer Dynamics 365-Instanz und melden Sie sich als Administrator an.
 1. Wählen Sie das Zahnradsymbol oben rechts und dann **[!UICONTROL Erweiterte Einstellungen]** aus. Wählen Sie im oberen Banner das Dropdown-Menü neben **[!UICONTROL Einstellungen]** und dann **[!UICONTROL Prozesse]** unter **[!UICONTROL Process Center]** aus.
