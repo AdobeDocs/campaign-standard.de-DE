@@ -8,16 +8,16 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 0c8710b3e1cc679fa907758a4bf5542d892c737c
-workflow-type: ht
+source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
+workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
 # Sortieren
 
-Sortiervorgänge sind in auf- oder absteigender Reihenfolge verfügbar. Verwenden Sie dazu in Ihrer Anfrage den Parameter **%20desc** oder **%20asc**.
+Die Sortierung ist standardmäßig in aufsteigender Reihenfolge verfügbar. Um in absteigender Reihenfolge zu sortieren, hängen Sie **%20desc** der **_order** -Wert.
 
 Um zu erfahren, ob sich ein Feld sortieren lässt, prüfen Sie den Parameter &quot;sortable&quot; in den Metadaten der Ressource. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../api/using/metadata-mechanism.md).
 
@@ -28,7 +28,7 @@ Um zu erfahren, ob sich ein Feld sortieren lässt, prüfen Sie den Parameter &qu
 * Beispielhafte GET-Anfrage zum Abrufen von E-Mails in der Datenbank in alphabetischer Reihenfolge.
 
   ```
-  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20asc \
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
