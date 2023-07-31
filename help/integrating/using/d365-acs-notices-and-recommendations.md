@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2474'
 ht-degree: 100%
 
@@ -154,15 +154,15 @@ Die folgenden Leitplanken sollten bei der Verwendung dieser Integration berücks
 
 * Sie müssen das richtige Campaign-Package lizenzieren, um das durch die Integration generierte Aufrufvolumen der Engine zu unterstützen. Eine Überschreitung des zulässigen Aufrufvolumens der Engine könnte zu einer Verschlechterung der Leistung von Campaign führen.
 
-   Verwenden Sie Folgendes, um das durch die Integration generierte Engine-Aufrufvolumen abzuschätzen:
+  Verwenden Sie Folgendes, um das durch die Integration generierte Engine-Aufrufvolumen abzuschätzen:
 
    * Einfügungen von Datensätzen (d. h. neuer Datensatz): 1 Engine-Aufruf
    * Löschungen von Datensätzen: 1 Engine-Aufruf
    * Aktualisierungen von Datensätzen: 2 Engine-Aufrufe (nur 1 Aufruf, wenn der Zieldatensatz mit dem Quelldatensatz identisch ist, d. h., wenn keine Änderung am Campaign-Datensatz erfolgt)
 
-   Bei der Schätzung des Gesamtaufrufvolumens der Campaign-Engine ist es wichtig, andere Quellen für Engine-Aufrufe zu berücksichtigen, einschließlich Landingpages, Web-Anwendungen, JSSP, APIs, Registrierungen von Mobile Apps usw.
+  Bei der Schätzung des Gesamtaufrufvolumens der Campaign-Engine ist es wichtig, andere Quellen für Engine-Aufrufe zu berücksichtigen, einschließlich Landingpages, Web-Anwendungen, JSSP, APIs, Registrierungen von Mobile Apps usw.
 
-   Informationen zum Adobe Campaign Standard-Package finden Sie hier: [https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html)
+  Informationen zum Adobe Campaign Standard-Package finden Sie hier: [https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html)
 
 * Die Integration unterstützt maximal 15 Millionen Einträge für die erste Synchronisation mit Ressourcen in Campaign. Die inkrementelle Synchronisation wird durch das Adobe Campaign Standard-Package eingeschränkt.
 
