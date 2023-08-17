@@ -57,13 +57,13 @@ Ein Ausführungsversand ist eine nicht funktionelle und nicht ausführbare techn
 
 * Jedes Mal, wenn ein wiederkehrender Versand ausgeführt oder aktualisiert wird.
 
-   Wenn der Workflow für diesen Versand beispielsweise einmal im Monat ausgeführt wird, gibt es einen Ausführungsversand pro Monat. Zusätzlich wird jedes Mal, wenn der Inhalt des Versands aktualisiert wird, ein zusätzlicher Ausführungsversand erstellt.
+  Wenn der Workflow für diesen Versand beispielsweise einmal im Monat ausgeführt wird, gibt es einen Ausführungsversand pro Monat. Zusätzlich wird jedes Mal, wenn der Inhalt des Versands aktualisiert wird, ein zusätzlicher Ausführungsversand erstellt.
 
-   Weiterführende Informationen zu wiederkehrendem E-Mail-Versand finden Sie im Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
+  Weiterführende Informationen zu wiederkehrendem E-Mail-Versand finden Sie im Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
 
 * Standardmäßig einmal im Monat für Transaktionsnachrichten und jedes Mal, wenn eine Transaktionsnachricht bearbeitet und wieder publiziert wird
 
-   Weitere Informationen zu Transaktionsnachrichten finden Sie unter [Erste Schritte mit Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md).
+  Weitere Informationen zu Transaktionsnachrichten finden Sie unter [Erste Schritte mit Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

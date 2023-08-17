@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeige
 
 1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
 1. Wählen Sie den gewünschten Dienst aus, um sein Dashboard anzuzeigen.
-1. Klicken Sie in der Symbolleiste auf die Schaltfläche **Berichte** und im Auswahlbildschirm auf **Abonnement-Verfolgung**.
+1. Klicken Sie in der Aktionsleiste auf die Schaltfläche **Berichte** und im Auswahlbildschirm auf **Abonnement-Verfolgung**.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 

@@ -44,9 +44,9 @@ Um zu überprüfen, ob eine oder mehrere Aufgaben aus einer vorherigen Workflow-
 
    * Die erste Regel filtert sowohl die aktuelle Aufgabe (query2) als auch die nächste zum aktuellen Workflow gehörende Zeitplanaufgabe (schedule2) heraus.
 
-      >[!NOTE]
-      >
-      >Wenn eine **[!UICONTROL Planungsaktivität]** startet, wird sofort eine weitere Zeitplanaufgabe hinzugefügt, die zum nächsten geplanten Zeitpunkt ausgeführt wird und den Workflow startet. Daher ist es wichtig, sowohl die Abfrage als auch die Zeitplanaufgaben zu filtern, wenn nach ausstehenden Aufgaben aus einer vorherigen Ausführung gesucht wird.
+     >[!NOTE]
+     >
+     >Wenn eine **[!UICONTROL Planungsaktivität]** startet, wird sofort eine weitere Zeitplanaufgabe hinzugefügt, die zum nächsten geplanten Zeitpunkt ausgeführt wird und den Workflow startet. Daher ist es wichtig, sowohl die Abfrage als auch die Zeitplanaufgaben zu filtern, wenn nach ausstehenden Aufgaben aus einer vorherigen Ausführung gesucht wird.
 
    * Die zweite Regel ermittelt, ob Aufgaben aus einer früheren Ausführung des Workflows noch aktiv (ausstehend) sind, was dem Ausführungsstatus 0 entspricht.
 

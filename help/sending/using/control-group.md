@@ -48,23 +48,23 @@ Wählen Sie unter **[!UICONTROL Zielgruppenextraktion]** eine der folgenden Opti
 
 * **[!UICONTROL Zufällige Auswahl]**: Beim Vorbereiten des Versands extrahiert Adobe Campaign zufällig eine Anzahl von Profilen, die dem Prozentwert oder der Maximalzahl entsprechen, die Sie als [Größenbeschränkung](#size-limit) festlegen.
 
-   Wenn Sie den Schwellenwert im Abschnitt **[!UICONTROL Begrenzungen]** auf 10 setzen, besteht die Kontrollgruppe aus 10 %, die zufällig aus der Zielgruppe ausgewählt werden.<!--Change screenshot to match example)-->
+  Wenn Sie den Schwellenwert im Abschnitt **[!UICONTROL Begrenzungen]** auf 10 setzen, besteht die Kontrollgruppe aus 10 %, die zufällig aus der Zielgruppe ausgewählt werden.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Nur die ersten Datensätze nach dem Sortieren beibehalten]**: Mit dieser Option können Sie eine Begrenzung festlegen, die auf einer oder mehreren Sortierreihenfolgen basiert.
 
-   Beispiel:
+  Beispiel:
 
    * Wählen Sie das Feld **[!UICONTROL Alter]** als Sortierkriterium aus.
    * Definieren Sie 100 als Schwellenwert im Abschnitt **[!UICONTROL Begrenzungen]** (siehe [Größenbeschränkung](#size-limit)).
    * Lassen Sie die Option **[!UICONTROL Absteigende Sortierung]** aktiviert.
 
-   Die Kontrollgruppe wird folglich aus den 100 ältesten Empfängern bestehen.<!--Change screenshot to match example)-->
+  Die Kontrollgruppe wird folglich aus den 100 ältesten Empfängern bestehen.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   Es kann interessant sein, eine Kontrollgruppe zu definieren, die Profile umfasst, die wenige oder häufige Käufe tätigen, und ihr Verhalten mit dem der kontaktierten Empfänger zu vergleichen.
+  Es kann interessant sein, eine Kontrollgruppe zu definieren, die Profile umfasst, die wenige oder häufige Käufe tätigen, und ihr Verhalten mit dem der kontaktierten Empfänger zu vergleichen.
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ Unabhängig davon, ob Sie **[!UICONTROL Zufällige Auswahl]** oder **[!UICONTROL
 
 * Wählen Sie **[!UICONTROL Größe (in % der Anfangspopulation)]** aus und füllen Sie den entsprechenden Rahmen aus.
 
-   Wenn Sie beispielsweise 10 festlegen, führt Adobe Campaign abhängig von der oben ausgewählten Option Folgendes aus:
+  Wenn Sie beispielsweise 10 festlegen, führt Adobe Campaign abhängig von der oben ausgewählten Option Folgendes aus:
    * Zufällige Extraktion von 10 % der Zielpopulation.
    * Wenn Sie das Feld **[!UICONTROL Alter]** als Sortierkriterium ausgewählt haben, extrahieren Sie die ältesten 10 % der Profile aus der Zielpopulation.
 
-   >[!NOTE]
-   >
-   >Wenn Sie die Option **[!UICONTROL Absteigende Sortierung]** deaktivieren, werden die jüngsten 10 % der Profile extrahiert.
+  >[!NOTE]
+  >
+  >Wenn Sie die Option **[!UICONTROL Absteigende Sortierung]** deaktivieren, werden die jüngsten 10 % der Profile extrahiert.
 
 * Wählen Sie **[!UICONTROL Maximale Größe]** aus und füllen Sie den entsprechenden Rahmen aus.
 
-   Wenn Sie z. B. 100 festlegen, wird Adobe Campaign:
+  Wenn Sie z. B. 100 festlegen, wird Adobe Campaign:
    * zufällig 100 Profile aus der Zielpopulation extrahieren.
    * Wenn Sie das Feld **[!UICONTROL Alter]** als Sortierkriterium ausgewählt haben, extrahieren Sie die 100 ältesten Profile aus der Zielpopulation.
 
-   >[!NOTE]
-   >
-   >Wenn Sie die Option **[!UICONTROL Absteigende Sortierung]** deaktivieren, werden die 100 jüngsten Profile extrahiert.
+  >[!NOTE]
+  >
+  >Wenn Sie die Option **[!UICONTROL Absteigende Sortierung]** deaktivieren, werden die 100 jüngsten Profile extrahiert.
 
 ## Eine bestimmte Population ausschließen {#excluding-specific-population}
 
@@ -163,11 +163,11 @@ Um zu sehen, welche Profile nach dem Senden der Nachricht aus der Zielgruppe ent
 
 * Im Tab **[!UICONTROL Versandlogs]** werden die extrahierten und ausgeschlossenen Profile angezeigt. Sie haben den Status **[!UICONTROL Ignoriert]** und **[!UICONTROL Kontrollgruppe]** als Ursache des Fehlschlagens.
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * Sie können auch den Tab **[!UICONTROL Ausschlussgründe]** überprüfen, um die Anzahl der Profile anzuzeigen, die nicht im Versand enthalten waren.
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### Kontrollgruppenprotokolle verwenden {#using-logs}
 

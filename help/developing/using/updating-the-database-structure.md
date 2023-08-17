@@ -83,11 +83,11 @@ Sie können diese Option im Veröffentlichungsbildschirm auswählen.
 
 * Wenn die API noch nicht veröffentlicht wurde (d. h. wenn Sie die Ressource nie erweitert haben oder diese Option oder diese oder eine andere Ressource noch nie aktiviert haben), können Sie auswählen, ob Sie sie erstellen möchten oder nicht.
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * Wenn die API bereits veröffentlicht wurde (d. h. wenn Sie die Ressource schon erweitert und diese Option aktiviert haben), wird die API-Aktualisierung erzwungen.
 
-   Nachdem die API erstellt wurde, wird sie bei jeder neuen Veröffentlichung automatisch aktualisiert. Dadurch wird verhindert, dass die Profil- oder Dienst-Ressource dieser API fehlerhaft werden und Ihrer Instanz schaden könnte.
+  Nachdem die API erstellt wurde, wird sie bei jeder neuen Veröffentlichung automatisch aktualisiert. Dadurch wird verhindert, dass die Profil- oder Dienst-Ressource dieser API fehlerhaft werden und Ihrer Instanz schaden könnte.
 
 Beachten Sie, dass standardmäßig die benutzerdefinierte Ressource integriert ist. Wenn Sie aber zur Gewährleistung eines bestimmten Verhaltens diese Ressource nicht veröffentlichen möchten, können Sie die Option **[!UICONTROL Diese Ressource in APIs verbergen]** in **[!UICONTROL Eigenschaften der Ressource]** auswählen.
 

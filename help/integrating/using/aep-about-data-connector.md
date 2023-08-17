@@ -41,7 +41,6 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 >* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=de)
 >* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=de)
 
-
 ## Schlüsselkonzepte {#key-concepts}
 
 * Vordefiniertes Mapping ist nur für Felder verfügbar, die standardmäßig in Campaign Standard bereitgestellt werden. Für die Aufnahme aller benutzerdefinierten Felder und Ressourcen muss jeder Kunde sein eigenes Mapping definieren.
@@ -60,11 +59,11 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 * Der Experience-Cloud-ID-Service (ECID) ist eine Gerätekennung, die standardmäßig mit Experience-Ereignissen gesendet wird.
 
-   Es handelt sich dabei um eine eindeutige und beständige Kennung, mit der der Platform Identity Service denselben Besucher und seine Daten in verschiedenen Experience Cloud-Lösungen identifizieren kann. Weiterführende Informationen finden Sie in der Hilfe zum [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+  Es handelt sich dabei um eine eindeutige und beständige Kennung, mit der der Platform Identity Service denselben Besucher und seine Daten in verschiedenen Experience Cloud-Lösungen identifizieren kann. Weiterführende Informationen finden Sie in der Hilfe zum [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
 
-   >[!NOTE]
-   >
-   >Hinweis: Wenn sich zwei oder mehr Profile das gleiche Gerät teilen, ist die ECID für diese beiden Profile im Unified Identity Service identisch.
+  >[!NOTE]
+  >
+  >Hinweis: Wenn sich zwei oder mehr Profile das gleiche Gerät teilen, ist die ECID für diese beiden Profile im Unified Identity Service identisch.
 
 ## Einschränkungen {#limitations}
 

@@ -73,7 +73,7 @@ Wenn manche, einem Ausführungsversand bereits zugewiesenen Ereignisse als Teil 
 
 Um eine Transaktionsnachricht zu überwachen, müssen Sie die entsprechenden [Ausführungssendungen](#transactional-message-execution-delivery) aufrufen.
 
-1. Um das Versandlog der Nachricht anzuzeigen, klicken Sie auf das Symbol unten rechts in der Kachel **[!UICONTROL Implementierung]**.
+1. Um das Versandlog der Nachricht anzuzeigen, klicken Sie auf das Symbol unten rechts in der Kachel **[!UICONTROL Bereitstellung]**.
 
    ![](assets/message-center_access_logs.png)
 
@@ -85,7 +85,7 @@ Um eine Transaktionsnachricht zu überwachen, müssen Sie die entsprechenden [Au
 
    ![](assets/message-center_execution_delivery.png)
 
-1. Klicken Sie erneut auf das Symbol unten rechts in der Kachel **[!UICONTROL Implementierung]**.
+1. Klicken Sie erneut auf das Symbol unten rechts in der Kachel **[!UICONTROL Bereitstellung]**.
 
    ![](assets/message-center_execution_access_logs.png)
 

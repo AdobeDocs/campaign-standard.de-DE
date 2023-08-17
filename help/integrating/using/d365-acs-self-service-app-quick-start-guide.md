@@ -111,6 +111,7 @@ Wenn die Konfiguration korrekt ist, klicken Sie neben dem Workflow **[!UICONTROL
 >[!IMPORTANT]
 >
 >Wir empfehlen **dringend**, dass Sie diese zuerst in Ihrer Staging- oder Entwicklungsumgebung ausführen, bevor Sie sie in der Produktion starten. Überprüfen Sie, ob die Staging-/Entwicklungsinstanz in der Kopfzeile ausgewählt ist.
+>
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 

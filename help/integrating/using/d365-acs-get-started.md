@@ -29,6 +29,7 @@ Für diese Integration sind die folgenden Software-Versionen erforderlich:
 >[!CAUTION]
 >
 >Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
+>
 
 ## Grundsätze
 
@@ -56,6 +57,7 @@ Die wichtigsten Vorteile sind:
 >[!CAUTION]
 >
 >Diese Integration verwendet Dynamics 365 als &quot;Source of Truth&quot; für die Synchronisation von Kontakten und benutzerdefinierten Entitäten.  Änderungen an synchronisierten Attributen sollten in Dynamics 365 und nicht in Adobe Campaign Standard vorgenommen werden.  Wenn Änderungen in Campaign vorgenommen werden, kann es sein, dass sie bei der Synchronisation wieder überschrieben werden.
+>
 
 ## Wichtige Schritte zum Implementieren der Integration mit Microsoft Dynamics 365{#request-and-implement-this-integration}
 
@@ -73,9 +75,9 @@ Details des Flussdiagramms (sind mit den oben genannten Schritten verknüpft):
 * **Schritt 4**: Das Adobe-Onboarding-Team stellt Ihnen den Zugriff auf die Benutzeroberfläche der Integrationsanwendung zur Verfügung.
 * **Schritt 5**: Sie können Ihre Daten-Mappings, Ersetzungen, Filter usw. konfigurieren und Ihre Integration über die Benutzeroberfläche der Integrationsanwendung testen.
 
-   >[!IMPORTANT]
-   >
-   > Wenn Sie die Opt-out-Konfiguration &quot;bidirektional“ oder &quot;Synchronisation von Campaign mit Dynamics 365&quot; benötigen, müssen Sie die Anfrage an Ihren technischen Ansprechpartner bei Adobe stellen, damit die Opt-out-Workflows in Ihrer Campaign-Instanz eingerichtet werden können. [Weitere Informationen](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+  >[!IMPORTANT]
+  >
+  > Wenn Sie die Opt-out-Konfiguration &quot;bidirektional“ oder &quot;Synchronisation von Campaign mit Dynamics 365&quot; benötigen, müssen Sie die Anfrage an Ihren technischen Ansprechpartner bei Adobe stellen, damit die Opt-out-Workflows in Ihrer Campaign-Instanz eingerichtet werden können. [Weitere Informationen](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Konfigurieren dieser Integration {#configure-this-integration}
 
@@ -90,6 +92,7 @@ Drei Systeme müssen für diese Integration bereitgestellt und konfiguriert werd
 >Für jedes System müssen diese Schritte von einem **Administrator** ausgeführt werden.
 >
 >Die Schritte in dieser Dokumentation helfen Ihnen beim Erstellen von Integrationen/Registrierungen, die die Zuweisung von Berechtigungen und/oder Administratorzugriff erfordern.  Sie müssen vor der Ausführung sicherstellen, dass diese Schritte den Richtlinien Ihres Unternehmens entsprechen, und die Schritte dann sorgfältig durchführen.
+>
 
 ### Support anfordern
 

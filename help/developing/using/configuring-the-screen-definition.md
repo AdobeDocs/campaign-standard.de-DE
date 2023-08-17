@@ -96,9 +96,9 @@ An dieser Stelle kann eine dedizierte Symbolleiste für den Bildschirm der benut
 
 * **[!UICONTROL Erstellen zulassen]** - ermöglicht es, die Erstellung von Elementen der benutzerdefinierten Ressource zu aktivieren. Auf diese Weise können Benutzer zusätzliche Datensätze hinzufügen.
 
-   >[!NOTE]
-   >
-   >Um diese Option verfügbar zu machen, ist der Detailbildschirm der Ressource zu aktivieren.
+  >[!NOTE]
+  >
+  >Um diese Option verfügbar zu machen, ist der Detailbildschirm der Ressource zu aktivieren.
 
 * **[!UICONTROL Duplizieren zulassen]** - ermöglicht die Duplizierung von mit der benutzerdefinierten Ressource verknüpften Datensätzen.
 * **[!UICONTROL Löschen zulassen]** - ermöglicht es, mit der benutzerdefinierten Ressource verknüpfte Datensätze zu löschen.

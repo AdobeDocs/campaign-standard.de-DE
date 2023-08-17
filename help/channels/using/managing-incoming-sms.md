@@ -83,7 +83,7 @@ Gehen Sie dabei folgendermaßen vor:
 
    ![](assets/sms_config_mo_2.png)
 
-1. Wählen Sie im Tab **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]**.
+1. Wählen Sie im Tab **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 

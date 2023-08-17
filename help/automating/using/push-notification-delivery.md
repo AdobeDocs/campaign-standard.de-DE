@@ -45,23 +45,23 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie die Aktivität **[!UICONTROL Push-Benachrichtigung]** in Ihren Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 
    >[!NOTE]
    >
-   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) iim Schnellzugriff bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Diese Schaltfläche ist speziell für die Aktivität **[!UICONTROL Push-Benachrichtigung]** vorgesehen. Auf die Eigenschaften der Push-Benachrichtigung können Sie über die Symbolleiste des Push-Dashboards zugreifen.
+   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) iin der Schnellaktion bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Diese Schaltfläche ist speziell für die Aktivität **[!UICONTROL Push-Benachrichtigung]** vorgesehen. Auf die Eigenschaften der Push-Benachrichtigung können Sie über die Aktionsleiste des Push-Dashboards zugreifen.
 
 1. Wählen Sie den Versandtyp der Push-Benachrichtigung aus:
 
    * **[!UICONTROL Einzelne Benachrichtigung]**: Die Push-Benachrichtigung wird ein einziges Mal versendet. Sie können an dieser Stelle entscheiden, ob Sie der Aktivität eine ausgehende Transition hinzufügen möchten oder nicht. Die unterschiedlichen Transitionstypen werden in Etappe 7 dieser Prozedur beschrieben.
    * **[!UICONTROL Wiederkehrende Benachrichtigung]**: Die Push-Benachrichtigung wird wiederholt versendet. Die Frequenz des Versands wird in der Aktivität **[!UICONTROL Planung]** definiert. Wählen Sie einen Aggregatzeitraum für die wiederkehrenden Sendungen aus. Auf diese Weise werden alle Sendungen, die im angegebenen Zeitraum versendet wurden, in einer Push-Benachrichtigung zusammengefasst, die auch **wiederkehrende Ausführung** genannt wird. Diese ist in der Marketing-Aktivitätenliste der Anwendung zugänglich.
 
-      Es besteht beispielsweise die Möglichkeit, die Ausführungen einer täglich gesendeten Geburtstagsnachricht pro Monat zu aggregieren. Auf diese Weise lässt sich ein monatlicher Versandbericht für eine täglich gesendete Nachrichten generieren.
+     Es besteht beispielsweise die Möglichkeit, die Ausführungen einer täglich gesendeten Geburtstagsnachricht pro Monat zu aggregieren. Auf diese Weise lässt sich ein monatlicher Versandbericht für eine täglich gesendete Nachrichten generieren.
 
 1. Wählen Sie einen Benachrichtigungstyp aus. Die Typen stammen aus Push-Benachrichtigungsvorlagen, die im Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Versandvorlagen]** definiert sind.
 1. Bestimmen Sie die allgemeinen Eigenschaften für die Push-Benachrichtigung und ordnen Sie sie gegebenenfalls einer existierenden Kampagne zu. Der Titel der Versandaktivität des Workflows wird mit dem Titel der Push-Benachrichtigung aktualisiert.
 1. Definieren Sie den Inhalt der Push-Benachrichtigung. Siehe [Push-Benachrichtigungen erstellen](../../channels/using/preparing-and-sending-a-push-notification.md).
-1. Die Aktivität **[!UICONTROL Push-Benachrichtigung]** verfügt standardmäßig über keinerlei ausgehende Transitionen. Wenn Sie der Aktivität **[!UICONTROL Push-Benachrichtigung]** eine ausgehende Transition hinzufügen möchten, gehen Sie zum Tab **[!UICONTROL Allgemein]** der erweiterten Aktivitätsoptionen (Schaltfläche ![](assets/dlv_activity_params-24px.png) im Schnellzugriff der Aktivität) und aktivieren Sie eine der folgenden Optionen:
+1. Die Aktivität **[!UICONTROL Push-Benachrichtigung]** verfügt standardmäßig über keinerlei ausgehende Transitionen. Wenn Sie der Aktivität **[!UICONTROL Push-Benachrichtigung]** eine ausgehende Transition hinzufügen möchten, gehen Sie zum Tab **[!UICONTROL Allgemein]** der erweiterten Aktivitätsoptionen (Schaltfläche ![](assets/dlv_activity_params-24px.png) in der Schnellaktion der Aktivität) und aktivieren Sie eine der folgenden Optionen:
 
    * **[!UICONTROL Ausgehende Transition ohne Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die exakt dieselbe Population enthält wie die eingehende Transition.
    * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, der die Benachrichtigung gesendet wurde. Der Teil der Zielgruppe, der in der Versandvorbereitung ausgeschlossen wurde, ist von dieser Transition ebenfalls ausgeschlossen.
@@ -76,4 +76,4 @@ Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachric
 
 Auf die von einem Workflow aus erstellten Sendungen kann in der Marketing-Aktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
 
-Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketing-Aktivitäten zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL Push-Benachrichtigung]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der **[!UICONTROL -Schaltfläche die Detailansicht der Kachel]** Freigabe![](assets/wkf_dlv_detail_button.png) des übergeordneten Versands.
+Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketing-Aktivitäten zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL Push-Benachrichtigung]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der **[!UICONTROL -Schaltfläche die Detailansicht der Kachel]** Bereitstellung![](assets/wkf_dlv_detail_button.png) des übergeordneten Versands.

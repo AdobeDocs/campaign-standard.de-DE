@@ -102,15 +102,15 @@ Gehen Sie dazu wie folgt vor:
 
    * Wählen Sie einen Baustein und im Abschnitt **[!UICONTROL Formulardaten]** die Option **[!UICONTROL Checkbox]** als Feldtyp aus.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Wenn Sie HTML-Kenntnisse haben, können Sie mithilfe der Schaltfläche **[!UICONTROL Quelle anzeigen]** auch manuell eine Checkbox einfügen.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      Damit können Sie die Checkbox an beliebiger Stelle auf der Seite einfügen.
+     Damit können Sie die Checkbox an beliebiger Stelle auf der Seite einfügen.
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
 1. Stellen Sie sicher, dass die Checkbox in Ihrem Inhalt ausgewählt ist. Die Dropdown-Liste Typ **** wird im Abschnitt **[!UICONTROL Formulardaten]** in der linken Palette angezeigt. Wählen Sie **[!UICONTROL Dienst und Abonnement]** aus der Liste aus.
 
@@ -150,13 +150,13 @@ Gehen Sie wie folgt vor, um eine Checkbox einzufügen und zu konfigurieren:
 
    * Wählen Sie einen Baustein und im Abschnitt **[!UICONTROL Formulardaten]** die Option **[!UICONTROL Checkbox]** als Feldtyp aus.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Wenn Sie HTML-Kenntnisse haben, können Sie mithilfe der Schaltfläche **[!UICONTROL Quelle anzeigen]** auch manuell eine Checkbox einfügen.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 

@@ -43,7 +43,7 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie per Drag &amp; Drop eine **[!UICONTROL Segmentierung]** in Ihren Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Wählen Sie im Tab **[!UICONTROL Allgemein]** den **[!UICONTROL Ressourcentyp]** aus, für den die Segmentierung durchgeführt werden soll:
 
    * **[!UICONTROL Datenbank-Ressource]**, wenn sich die Segmentierung auf bereits in der Datenbank existierende Daten bezieht. Wählen Sie die **[!UICONTROL Filterdimension]** entsprechend den Daten aus, die Sie segmentieren möchten. Standardmäßig bezieht sich die Segmentierung auf **Profile**.
@@ -85,9 +85,9 @@ Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivit
    * **[!UICONTROL Durch Datengruppierung]**: Die Segmentpopulation kann in Abhängigkeit von Werten eines bestimmten Felds der eingehenden Population begrenzt werden. Wählen Sie das Feld aus, nach dem die Population gruppiert werden soll, und geben Sie die zu verwendenden Werte an.
    * **[!UICONTROL Durch Datengruppierung (in %)]**: Die Segmentpopulation kann in Abhängigkeit von Werten eines bestimmten Felds der eingehenden Population auf einen bestimmten Prozentsatz begrenzt werden. Wählen Sie das Feld aus, nach dem die Population gruppiert werden soll, und geben Sie die zu verwendenden Werte an.
 
-      >[!NOTE]
-      >
-      >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]** auf 10, die Population mit dem Geschlecht **[!UICONTROL Weiblich]** auf 30 Personen begrenzen. Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
+     >[!NOTE]
+     >
+     >Für jeden Wert kann eine unterschiedliche Begrenzung gewählt werden. Beispielsweise lässt sich eine Gruppierung für das Feld **[!UICONTROL Geschlecht]** festlegen und die Population mit dem Geschlecht **[!UICONTROL Männlich]** auf 10, die Population mit dem Geschlecht **[!UICONTROL Weiblich]** auf 30 Personen begrenzen. Bei der Verwendung mehrerer, der Datengruppierung dienender Felder müssen alle Gruppierungen dieselbe Größe aufweisen.
 
    ![](assets/wkf_segment_limit_by_grouping.png)
 

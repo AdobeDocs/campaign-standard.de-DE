@@ -47,13 +47,13 @@ Es gibt zwei Möglichkeiten, die HTML-Version der E-Mail zu bearbeiten:
 
 * Wählen Sie **[!UICONTROL Bearbeiten]** > **[!UICONTROL HTML]** aus, um die HTML-Version der gesamten E-Mail aufzurufen.
 
-   ![](assets/email_designer_html1.png)
+  ![](assets/email_designer_html1.png)
 
 * Wählen Sie in der WYSIWYG-Benutzeroberfläche ein Element und danach das Symbol **[!UICONTROL Quellcode]** aus
 
-   Nur der Quellcode des ausgewählten Elements wird angezeigt. Sie können den Quellcode bearbeiten, wenn das ausgewählte Element eine **[!UICONTROL HTML]**-Inhaltskomponente ist. Andere Komponenten sind schreibgeschützt, können aber in der vollständigen HTML-Version der E-Mail bearbeitet werden.
+  Nur der Quellcode des ausgewählten Elements wird angezeigt. Sie können den Quellcode bearbeiten, wenn das ausgewählte Element eine **[!UICONTROL HTML]**-Inhaltskomponente ist. Andere Komponenten sind schreibgeschützt, können aber in der vollständigen HTML-Version der E-Mail bearbeitet werden.
 
-   ![](assets/email_designer_html2.png)
+  ![](assets/email_designer_html2.png)
 
 Wenn Sie den HTML-Code ändern, könnte es sein, dass Ihre E-Mails nicht mehr responsiv sind. Deshalb sollten Sie diese Funktion unbedingt unter Verwendung der Schaltfläche **[!UICONTROL Vorschau]** testen. Siehe [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md).
 

@@ -66,34 +66,34 @@ Abfragen können während der Versanderstellung im **[!UICONTROL Audience]**-Fen
 
    * Bei einem String- bzw. numerischen **Feld**: Geben Sie den Vergleichsoperator und einen Wert an.
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * Bei einem **Feld** vom Typ Datum bzw. Datum und Uhrzeit können Sie entweder ein präzises Datum, einen Abstand zwischen zwei präzisen Daten oder ein Datum bzw. einen Zeitraum angeben, die jeweils auf das Ausführungsdatum der Abfrage bezogen sind.
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * Bei einem booleschen **Feld**: Aktivieren Sie die Optionen, die den für das Feld möglichen Werten zugeordnet sind.
    * Bei einer **Gruppierung**: Wählen Sie das Gruppierungsfeld aus, für das Sie die Regel erstellen möchten, und definieren Sie dann die Bedingung auf die gleiche Weise wie für die anderen Felder.
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * Bei einer **1:1**-Relation mit einer anderen Datenbank-Ressource: Wählen Sie direkt einen Wert aus der Zieltabelle aus.
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * Bei einer **1:n**-Relation mit einer anderen Datenbank-Ressource: Sie können eine auf die Felder dieser zweiten Ressource bezogene Unterabfrage erstellen.
 
-      Die Angabe einer Unterbedingung ist nicht zwingend erforderlich.
+     Die Angabe einer Unterbedingung ist nicht zwingend erforderlich.
 
-      Sie können beispielsweise nur den Operator **[!UICONTROL Existiert]** für die Trackinglogs von Profilen auswählen und die Regel validieren. Auf diese Weise gibt die Regel all die Profile aus, für die Trackinglogs existieren.
+     Sie können beispielsweise nur den Operator **[!UICONTROL Existiert]** für die Trackinglogs von Profilen auswählen und die Regel validieren. Auf diese Weise gibt die Regel all die Profile aus, für die Trackinglogs existieren.
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * **Vordefinierte Filter** - je nach im Filter definierten Kriterien Elemente auswählen oder eingeben.
 
-      Zur Erleichterung der Erstellung komplexer, wiederholt vorkommender Abfragen haben Administratoren die Möglichkeit, Filter zu erstellen. Diese werden im Abfrageeditor in Form von vorkonfigurierten Regeln angezeigt und ermöglichen es, die Anzahl der von Benutzern vorzunehmenden Schritte zu begrenzen.
+     Zur Erleichterung der Erstellung komplexer, wiederholt vorkommender Abfragen haben Administratoren die Möglichkeit, Filter zu erstellen. Diese werden im Abfrageeditor in Form von vorkonfigurierten Regeln angezeigt und ermöglichen es, die Anzahl der von Benutzern vorzunehmenden Schritte zu begrenzen.
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. Benennen Sie gegebenenfalls Ihre Regel. Dieser Name ist dann im Arbeitsbereich sichtbar. Wenn kein Name angegeben wird, wird ein automatischer Text angezeigt, der die Regelbedingungen zusammenfasst.
 1. Verschachteln Sie verschiedene Elemente im Arbeitsbereich, um sie zu Gruppen und/oder Gruppenniveaus zu kombinieren. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus:
@@ -102,7 +102,7 @@ Abfragen können während der Versanderstellung im **[!UICONTROL Audience]**-Fen
    * **[!UICONTROL ODER]** bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die wenigstens einem der Kriterien entsprechen, werden berücksichtigt.
    * Ausschlusskriterien **[!UICONTROL EXCEPT]**: schließt die dem ersten Kriterium entsprechenden Elemente aus, wenn sie auch dem zweiten Kriterium entsprechen.
 
-1. Mithilfe der Schaltflächen ![](assets/count.png) und ![](assets/preview.png) in der Symbolleiste können Sie jetzt die Anzahl der in der Ergebnismenge Ihrer Abfrage enthaltenen Datensätze berechnen bzw. eine Vorschau davon anzeigen.
+1. Mithilfe der Schaltflächen ![](assets/count.png) und ![](assets/preview.png) in der Aktionsleiste können Sie jetzt die Anzahl der in der Ergebnismenge Ihrer Abfrage enthaltenen Datensätze berechnen bzw. eine Vorschau davon anzeigen.
 
    ![](assets/query_editor_combining_rules.png)
 

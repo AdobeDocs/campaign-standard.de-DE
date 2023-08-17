@@ -36,7 +36,7 @@ Nachdem Sie Ihren E-Mail-Versand erstellt und seinen Inhalt sowie die Zielpopula
    ![](assets/email_rendering_06.png)
 
 1. Bestätigen Sie Ihre Abfrage und speichern Sie Ihre Änderungen.
-1. Verwenden Sie hierzu die Schaltfläche **[!UICONTROL Testen]** in der Symbolleiste.
+1. Verwenden Sie hierzu die Schaltfläche **[!UICONTROL Testen]** in der Aktionsleiste.
 
    ![](assets/email_rendering_07.png)
 

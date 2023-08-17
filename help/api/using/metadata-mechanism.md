@@ -31,7 +31,7 @@ In der Antwort werden die Hauptmetadaten der Ressource zurückgegeben (alle ande
    * &quot;category&quot;: Gibt die Kategorie des Felds im Abfrageeditor an.
    * &quot;resType&quot;: Dies ist der technische Typ.
 
-      Wenn &quot;type&quot; mit dem Wert &quot;link&quot; oder &quot;collection&quot; ausgefüllt wird, ist der resTarget-Wert der Name der Ressource, auf die der Link abzielt.
+     Wenn &quot;type&quot; mit dem Wert &quot;link&quot; oder &quot;collection&quot; ausgefüllt wird, ist der resTarget-Wert der Name der Ressource, auf die der Link abzielt.
 Wenn &quot;type&quot; mit dem Wert &quot;enumeration&quot; ausgefüllt wird, wird ein Feld &quot;values&quot; hinzugefügt und jeder Auflistungswert im Knoten **Werte** detailliert beschrieben.
 
 * Der Knoten **Filter** gibt die URL zum Abrufen der zugehörigen Filter zurück. Weiterführende Informationen zu Filtern finden Sie in [diesem Abschnitt](../../api/using/filtering.md).

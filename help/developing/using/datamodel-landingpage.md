@@ -436,7 +436,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>start</td>
-         <td>Deployment date</td>
+         <td>Bereitstellungsdatum</td>
          <td>date </td>
          <td> </td>
       </tr>

@@ -22,6 +22,7 @@ Sie können Tabellen von Microsoft Dynamics 365 mit Campaign und Campaign-Market
 
 >[!IMPORTANT]
 >Sie müssen den Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** anhalten und wieder starten, damit Ihre Änderungen berücksichtigt werden. [Mehr dazu](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>
 
 ## Tabellen von Microsoft Dynamics 365 Campaign zuordnen
 
@@ -43,19 +44,19 @@ Hier finden Sie eine Beschreibung der einzelnen Spalten in dieser Tabelle:
 
    * Klicken Sie auf das Symbol **[!UICONTROL Daten erneut abspielen]**, um alle Daten in der Microsoft Dynamics 365-Tabelle erneut zu synchronisieren. Normalerweise synchronisiert die Integrationsanwendung nur die Daten in Microsoft Dynamics 365, die kürzlich geändert wurden.  In einigen Fällen (z. B. wenn Sie eine Änderung vorgenommen oder einen Fehler gemacht haben) möchten Sie jedoch möglicherweise, dass alle Daten erneut synchronisiert werden.  Klicken Sie in diesen Fällen auf diese Schaltfläche. Beim nächsten Anhalten/Starten des Workflows **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** beginnt dann die Synchronisation Ihrer Daten.
 
-      Wenn Sie auf die Schaltfläche **[!UICONTROL Daten erneut abspielen]** klicken und die Prüfungen erfolgreich sind, wird das Symbol deaktiviert. Dies bedeutet, dass die Daten für dieses Tabellen-Mapping-Paar bei der nächsten Ausführung des Workflows **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** erneut synchronisiert werden.
+     Wenn Sie auf die Schaltfläche **[!UICONTROL Daten erneut abspielen]** klicken und die Prüfungen erfolgreich sind, wird das Symbol deaktiviert. Dies bedeutet, dass die Daten für dieses Tabellen-Mapping-Paar bei der nächsten Ausführung des Workflows **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** erneut synchronisiert werden.
 
-      Sie können die Daten nicht erneut abspielen, wenn Folgendes zutrifft:
+     Sie können die Daten nicht erneut abspielen, wenn Folgendes zutrifft:
 
       * Die Backlog-Metrik enthält 2.000.000 (oder mehr) Elemente, die mit dem Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** verknüpft sind (auf der Seite **[!UICONTROL Workflows]** angezeigt).
       * Die Microsoft Dynamics 365-Tabelle enthält 2.000.000 oder mehr Datensätze.
 
-      Die Anzahl der Datensätze, die erneut synchronisiert werden müssen, variiert. Wenn Sie eine große Anzahl von Datensätzen haben, kann es einige Zeit dauern, bis der Synchronisationsvorgang abgeschlossen ist. Während die Integrationsanwendung den Synchronisationsvorgang abschließt, können Sie in der **[!UICONTROL Backlog]**-Metrik auf der Seite **[!UICONTROL Workflows]** entsprechende Informationen abrufen.
+     Die Anzahl der Datensätze, die erneut synchronisiert werden müssen, variiert. Wenn Sie eine große Anzahl von Datensätzen haben, kann es einige Zeit dauern, bis der Synchronisationsvorgang abgeschlossen ist. Während die Integrationsanwendung den Synchronisationsvorgang abschließt, können Sie in der **[!UICONTROL Backlog]**-Metrik auf der Seite **[!UICONTROL Workflows]** entsprechende Informationen abrufen.
 
-      >[!IMPORTANT]
-      >
-      > Es wird dringend empfohlen, den Integrations-Workflow anzuhalten, wenn Sie Änderungen in Adobe Campaign Standard oder Microsoft Dynamics 365 veröffentlichen. Zu diesen Änderungen gehören Aktualisierungen von Ressourcen/Entitäten (und den zugehörigen Feldern), Links, Spalten mit Kennungen usw., die derzeit von der Integration verwendet werden.
-
+     >[!IMPORTANT]
+     >
+     > Es wird dringend empfohlen, den Integrations-Workflow anzuhalten, wenn Sie Änderungen in Adobe Campaign Standard oder Microsoft Dynamics 365 veröffentlichen. Zu diesen Änderungen gehören Aktualisierungen von Ressourcen/Entitäten (und den zugehörigen Feldern), Links, Spalten mit Kennungen usw., die derzeit von der Integration verwendet werden.
+     >
 
 ## Erstellen eines neuen Mappings {#add-a-new-mapping}
 
@@ -137,6 +138,7 @@ Mit dem Schalter **[!UICONTROL Aktualisierungen anwenden]** können Sie steuern,
 >[!NOTE]
 >
 >Klicken Sie auf die Spaltenüberschrift **[!UICONTROL Aktualisierungen anwenden]**, um **alle** Schalter zu aktivieren oder zu deaktivieren.
+>
 
 Wenn Sie Feldwerte auswählen, wird der Datentyp unter den Dropdown-Menüs angezeigt.   Dies ist beim Mapping von Werten von einem Feld auf ein anderes zu beachten.
 
@@ -169,13 +171,14 @@ Filter können durch Angabe folgender Informationen spezifiziert werden:
 * einen Wert (von Microsoft Dynamics 365).
 Wenn der Feldname, der Vergleichswert und der Wert für einen bestimmten Datensatz als wahr ausgewertet werden, wird der Datensatz an Adobe Campaign weitergegeben.
 
-Sie können entscheiden, wie diese Filter ausgewertet werden, indem Sie das Eingabefeld mit der Bezeichnung **[!UICONTROL Filtervergleichsoperator auswählen]** aktivieren.  Wenn Sie **Und** auswählen, müssen alle Filter wahr sein, damit ein Datensatz an Campaign übertragen wird. Wenn Sie **Oder** auswählen, wird der Datensatz weitergegeben, wenn einer von ihnen wahr ist.
+Sie können entscheiden, wie diese Filter ausgewertet werden, indem Sie das Eingabefeld mit der Bezeichnung **[!UICONTROL Filtervergleichsoperator auswählen]** aktivieren.  Wenn Sie **Und** auswählen, müssen alle Filter wahr sein, damit ein Datensatz an Campaign übertragen wird. Wenn Sie **Oder** auswählen, wird der Datensatz weitergegeben, wenn einer von ihnen als „wahr“ ausgewertet wird.
 
 Die Option **[!UICONTROL Möchten Sie Datensätze in Adobe Campaign Standard löschen, die aus Microsoft Dynamics 365 herausgefiltert werden?]** steuert, ob herausgefilterte Datensätze aus Campaign gelöscht werden sollen. Wenn Sie **Nein** auswählen, verbleiben die Datensätze in Adobe Campaign. Wenn Sie **Ja** auswählen, werden sie von der Integrationslogik gelöscht.
 
 >[!NOTE]
 >
 > Wenn keine Filter hinzugefügt werden, werden alle geänderten Datensätze an Adobe Campaign weitergegeben.
+>
 
 ### Erweiterte Einstellungen {#advanced-settings}
 

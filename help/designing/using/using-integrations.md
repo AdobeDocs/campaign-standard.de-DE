@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -25,15 +25,15 @@ Durch die Integration von Adobe Campaign Standard mit Dreamweaver kann E-Mail-In
 
 * **Bidirektionale Synchronisation**
 
-   Wenn eine Änderung an einem Produkt vorgenommen wird, wird sie auch vom anderen in Echtzeit übernommen. Wenn Sie die Textfarbe in Dreamweaver verändern möchten, ist diese Änderung unmittelbar in Campaign zu sehen. Wenn Sie Code in Dreamweaver oder Campaign auswählen, ist diese Auswahl in diesen beiden Produkten identisch, da die Zeilennummern übereinstimmen. Dies ist sehr hilfreich, wenn Sie nach einer bestimmten Stelle im Code suchen.
+  Wenn eine Änderung an einem Produkt vorgenommen wird, wird sie auch vom anderen in Echtzeit übernommen. Wenn Sie die Textfarbe in Dreamweaver verändern möchten, ist diese Änderung unmittelbar in Campaign zu sehen. Wenn Sie Code in Dreamweaver oder Campaign auswählen, ist diese Auswahl in diesen beiden Produkten identisch, da die Zeilennummern übereinstimmen. Dies ist sehr hilfreich, wenn Sie nach einer bestimmten Stelle im Code suchen.
 
 * **Hochladen lokaler Bilder in Adobe Campaign über Dreamweaver**
 
-   Bei der Erstellung oder Bearbeitung einer E-Mail in Dreamweaver können Sie einfach ein auf Ihrem Desktop oder lokalen PC ausgewähltes Bild verwenden. Dreamweaver hat schon immer diese Möglichkeit geboten. Jetzt wird aber die lokale Datei unmittelbar zum Adobe Campaign-Server hochgeladen, wenn Dreamweaver und Campaign verbunden sind, ohne dass Bilder manuell hochgeladen werden müssen, wenn sich der Inhalt ändert. Zusätzlich wird damit sichergestellt, dass immer die aktuellen Bilder in Campaign vorhanden sind.
+  Bei der Erstellung oder Bearbeitung einer E-Mail in Dreamweaver können Sie einfach ein auf Ihrem Desktop oder lokalen PC ausgewähltes Bild verwenden. Dreamweaver hat schon immer diese Möglichkeit geboten. Jetzt wird aber die lokale Datei unmittelbar zum Adobe Campaign-Server hochgeladen, wenn Dreamweaver und Campaign verbunden sind, ohne dass Bilder manuell hochgeladen werden müssen, wenn sich der Inhalt ändert. Zusätzlich wird damit sichergestellt, dass immer die aktuellen Bilder in Campaign vorhanden sind.
 
 * **Campaign-Personalisierung in Dreamweaver hinzufügen**
 
-   E-Mail-Entwickler müssen jetzt nicht mehr Text wie `[[FIRSTNAME_PLACEHOLDER]]` hinzufügen und auch nicht die Syntax Ihrer Datenmodell-Tabellen nachsehen. Die Campaign-Symbolleiste in Dreamweaver stellt eine direkte Verbindung zum Datenmodell Ihrer Campaign-Instanz her. Das bedeutet, dass Sie beliebige Personalisierungsdaten von z. B. Vorname zu Adresse ziehen können. Auch direkt in Campaign erstellte Inhaltsbausteine können direkt zu Dreamweaver gezogen werden.
+  E-Mail-Entwickler müssen jetzt nicht mehr Text wie `[[FIRSTNAME_PLACEHOLDER]]` hinzufügen und auch nicht die Syntax Ihrer Datenmodell-Tabellen nachsehen. Die Campaign-Symbolleiste in Dreamweaver stellt eine direkte Verbindung zum Datenmodell Ihrer Campaign-Instanz her. Das bedeutet, dass Sie beliebige Personalisierungsdaten von z. B. Vorname zu Adresse ziehen können. Auch direkt in Campaign erstellte Inhaltsbausteine können direkt zu Dreamweaver gezogen werden.
 
 Diese Funktion wird im Detail im [Dreamweaver-Handbuch](https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html) beschrieben.
 

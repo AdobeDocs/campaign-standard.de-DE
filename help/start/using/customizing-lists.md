@@ -28,7 +28,7 @@ Listen werden in Spalten angezeigt. Jede Spalte kann in auf- oder absteigender R
 
 Listenelemente können über ihr Kontrollkästchen markiert werden. Die Markierung von einem oder mehreren Elementen ermöglicht verschiedene Aktionen, insbesondere die Bearbeitung, Duplizierung oder das Löschen der ausgewählten Elemente.
 
-Beim Überfahren eines Listenelements mit der Maus werden die **Quick Actions** angezeigt. Diese ermöglichen verschiedene das entsprechende Element betreffende Aktionen wie Bearbeitung, Markierung, Löschung oder Detailanzeige.
+Beim Überfahren eines Listenelements mit der Maus werden die **Schnellaktionen** angezeigt. Diese ermöglichen verschiedene das entsprechende Element betreffende Aktionen wie Bearbeitung, Markierung, Löschung oder Detailanzeige.
 
 ![](assets/overview_list_quickactions.png)
 
@@ -38,11 +38,11 @@ Es besteht die Möglichkeit, Spalten einer Liste anzuzeigen oder auszublenden. G
 
    ![](assets/export_list_mode_switch.png)
 
-1. Verwenden Sie die Schaltfläche ![](assets/columnsettings.png) der Symbolleiste, um auf das Fenster zur Listenkonfiguration zuzugreifen.
+1. Verwenden Sie die Schaltfläche ![](assets/columnsettings.png) in der Aktionsleiste, um auf das Fenster zur Listenkonfiguration zuzugreifen.
 
    ![](assets/list_configuration1.png)
 
-1. Fügen Sie die anzuzeigenden Spalten hinzu, indem Sie sie in der Liste links im Bildschirm markieren und dann mithilfe der Schaltfläche ![](assets/arrowright.png) der Symbolleiste nach rechts kopieren.
+1. Fügen Sie die anzuzeigenden Spalten hinzu, indem Sie sie in der Liste links im Bildschirm markieren und dann mithilfe der Schaltfläche ![](assets/arrowright.png) in der Aktionsleiste nach rechts kopieren.
 
    Die verfügbaren Spalten hängen von der der Liste zugrunde liegenden Ressource ab.
 
@@ -52,7 +52,7 @@ Es besteht die Möglichkeit, Spalten einer Liste anzuzeigen oder auszublenden. G
    * **[!UICONTROL ASC]**: Die Spalte wird in aufsteigender Reihenfolge sortiert.
    * **[!UICONTROL DESC]**: Die Spalte wird in absteigender Reihenfolge sortiert.
 
-1. Löschen Sie die Spalten, die nicht angezeigt werden sollten, indem Sie die Kästchen der zu löschenden Spalten markieren. Bestätigen Sie dann mit der Schaltfläche ![](assets/delete.png) in der Symbolleiste den Löschvorgang.
+1. Löschen Sie die Spalten, die nicht angezeigt werden sollten, indem Sie die Kästchen der zu löschenden Spalten markieren. Bestätigen Sie dann mit der Schaltfläche ![](assets/delete.png) in der Aktionsleiste den Löschvorgang.
 1. Abschließend können Sie die Reihenfolge der Spaltenanzeige bestimmen, indem Sie die Spalte, deren Platzierung geändert werden soll, markieren. Verwenden Sie dann zum Verschieben der Spalten die Pfeile ![](assets/arrowdown.png) und ![](assets/arrowup.png).
 1. Bestätigen Sie die Listenkonfiguration mithilfe der Schaltfläche **[!UICONTROL OK]**.
 

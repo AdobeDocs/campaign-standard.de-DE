@@ -88,9 +88,9 @@ Im Bereich gibt es zwei obligatorische Attribute:
 
 * Das zweite Attribut ist &quot;data-nl-expr&quot;, der Pfad des Personalisierungsfelds. Wenn Sie z. B. das Personalisierungsfeld &quot;firstName&quot; aus der Benutzeroberfläche einfügen, lautet der Navigationspfad **[!UICONTROL Kontext (context)]** > **[!UICONTROL Profil (profile)]** > **[!UICONTROL Vorname (firstname)]** (wie in der Abbildung unten gezeigt). In diesem Fall lautet der Pfad
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 

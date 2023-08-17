@@ -38,11 +38,11 @@ Ziel dieses Workflows ist es, eine Profilliste in eine externe Datei zu exportie
 
    * CSV als Ausgabeformat,
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * Datumsformat,
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. Validieren Sie die Aktivität.
 1. Platzieren Sie nun im Anschluss an die **[!UICONTROL Dateiextraktion]** eine [Dateiübertragung](../../automating/using/transfer-file.md), um die Extraktionsdatei mittels eines externen Kontos abrufen zu können.

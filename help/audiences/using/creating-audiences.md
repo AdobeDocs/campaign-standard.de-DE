@@ -113,11 +113,11 @@ Die Vorgehensweise zur Bearbeitung von Audiences hängt vom jeweiligen Typ ab:
 
 * Greifen Sie zur Änderung einer Audience vom Typ **Abfrage** über das **[!UICONTROL Audiences]**-Menü oder die **[!UICONTROL Audiences]**-Karte auf der Adobe-Campaign-Startseite auf die Liste der Audiences zu.
 
-   Öffnen Sie die gewünschte Audience. Alle Elemente einer bereits konfigurierten Audience können geändert werden.
+  Öffnen Sie die gewünschte Audience. Alle Elemente einer bereits konfigurierten Audience können geändert werden.
 
-   >[!CAUTION]
-   >
-   >Wenn Sie die **[!UICONTROL Filterdimension]** einer Abfrage ändern, gehen bereits konfigurierte Regeln verloren.
+  >[!CAUTION]
+  >
+  >Wenn Sie die **[!UICONTROL Filterdimension]** einer Abfrage ändern, gehen bereits konfigurierte Regeln verloren.
 
 * Um eine Audience vom Typ **Liste** oder vom Typ **Datei** zu ändern, öffnen Sie den Workflow, von dem aus sie erstellt wurde, und ändern Sie die Aktivität **[!UICONTROL Audience-Speicherung]** ab. Starten Sie den Workflow, damit die Änderungen für die Audience übernommen werden.
 * Weiterführende Informationen dazu, wie Sie Audiences vom Typ **Experience Cloud** bearbeiten, finden Sie im Abschnitt [Importieren/Exportieren von Audiences mit People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).

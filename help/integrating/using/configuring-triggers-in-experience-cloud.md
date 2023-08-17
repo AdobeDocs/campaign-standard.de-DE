@@ -35,15 +35,15 @@ Damit Sie diese Funktion verwenden können, benötigen Sie Zugriff auf folgende 
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select oder Standard.
 * Experience Cloud Triggers Core Service
 
-   ![](assets/trigger_uc_prereq_1.png)
+  ![](assets/trigger_uc_prereq_1.png)
 
 * Experience Cloud DTM Core Service
 
-   ![](assets/trigger_uc_prereq_2.png)
+  ![](assets/trigger_uc_prereq_2.png)
 
 * Experience Cloud Visitor ID und Experience Cloud People Core Service
 
-   ![](assets/trigger_uc_prereq_3.png)
+  ![](assets/trigger_uc_prereq_3.png)
 
 Zusätzlich benötigen Sie eine funktionierende Website.
 

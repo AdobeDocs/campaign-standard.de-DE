@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Interagieren mit dem Marketing-Verlauf{#interacting-with-marketing-history}
 
-Über den Endpunkt **Verlauf** können Sie mit dem Marketingverlauf eines Profils interagieren.
+Über den Endpunkt **Verlauf** können Sie mit dem Marketing-Verlauf eines Profils interagieren.
 So können Sie z. B. die Mirrorseite für einen Versand abrufen, der an ein Profil gesendet wurde. Gehen Sie dazu wie folgt vor:
 
 1. Führen Sie eine GET-Anfrage für den Endpunkt **Verlauf** und den Primärschlüssel des Profils aus.
@@ -25,7 +25,7 @@ So können Sie z. B. die Mirrorseite für einen Versand abrufen, der an ein Prof
 
 ***Beispielanfrage***
 
-Rufen Sie mit einer GET-Anfrage den Marketingverlauf des Profils ab.
+Rufen Sie mit einer GET-Anfrage den Marketing-Verlauf des Profils ab.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \

@@ -20,7 +20,7 @@ Adobe Campaign ermöglicht die Definition und Verwaltung von Genehmigungen, die 
 * **Organisationseinheiten**: ermöglichen ein hierarchisches Genehmigungsmodell für verschiedene Plattformobjekte (E-Mails, Workflows, Vorlagen, Benutzer, Profile etc.). Lesen Sie diesbezüglich auch den Abschnitt [Organisationseinheiten](../../administration/using/organizational-units.md).
 * **Benutzerrollen**: Gesamtheit an Einzelrechten zur Definition von Berechtigungen für Benutzer und Benutzergruppen. Lesen Sie diesbezüglich auch den Abschnitt [Liste der Rollen](../../administration/using/list-of-roles.md).
 
-   Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ansicht der Benutzeroberfläche und definieren ihren Zugriff auf die unterschiedlichen Funktionen. Weiterführende Informationen hierzu finden Sie in der [Tabelle mit Berechtigungen](../../administration/using/list-of-roles.md).
+  Gemeinsam mit Organisationseinheiten bieten Rollen Benutzern eine gefilterte Ansicht der Benutzeroberfläche und definieren ihren Zugriff auf die unterschiedlichen Funktionen. Weiterführende Informationen hierzu finden Sie in der [Tabelle mit Berechtigungen](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >

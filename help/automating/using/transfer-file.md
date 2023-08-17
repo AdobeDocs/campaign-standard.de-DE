@@ -37,7 +37,7 @@ Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im 
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Dateiübertragung]** in den Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Wählen Sie mithilfe der entsprechenden Dropdown-Liste die von der Aktivität auszuführende **[!UICONTROL Aktion]** aus:
 
    ![](assets/wkf_file_transfer_01.png)
@@ -62,7 +62,7 @@ Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im 
 
    * **[!UICONTROL Sortieren von Dateien]**: ermöglicht die alphanumerische Sortierung von Dateien. Standardmäßig ist diese Option deaktiviert.
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
    * **[!UICONTROL Alle Dateien auflisten]**: Diese Option ist verfügbar, wenn die Aktion **[!UICONTROL Dateiauflistung]** auf der Registerkarte **[!UICONTROL Allgemein]** ausgewählt wird. Mithilfe dieser Option können alle auf dem Server verfügbaren Dateien in der Ereignisvariable **vars.filenames** verzeichnet werden. Darin sind die Dateinamen durch die Zeichen **&#39;n&#39;** getrennt.
 

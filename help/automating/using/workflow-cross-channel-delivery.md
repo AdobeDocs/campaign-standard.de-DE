@@ -152,6 +152,6 @@ Nach der Konfiguration Ihrer Sendungen kann der Workflow gestartet werden.
 
 Durch Starten des Workflows wird die mithilfe der **[!UICONTROL Abfrageaktivität]** ermittelte Population segmentiert, damit die Populationssegmente anschließend einen E-Mail- bzw. SMS-Versand erhalten.
 
-Verwenden Sie zur Ausführung des Workflows die Schaltfläche **[!UICONTROL Start]** in der Symbolleiste.
+Verwenden Sie zur Ausführung des Workflows die Schaltfläche **[!UICONTROL Start]** in der Aktionsleiste.
 
 Sie können über das Adobe Campaign-Logo auf das erweiterte Menü **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Marketing-Aktivitäten]** und damit auf Ihre Sendungen zugreifen. Klicken Sie auf eine Sendung und verwenden Sie anschließend die Schaltfläche **[!UICONTROL Berichte]**, um die ihr zugehörigen [Versandberichte](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports) abzurufen, darunter etwa die Versandzusammenfassung, die Öffnungsrate oder das E-Mail-Rendering entsprechend dem vom Empfänger verwendeten E-Mail-Client.

@@ -25,7 +25,7 @@ Das **[!UICONTROL Audit-Protokoll]** erfasst in Echtzeit zahlreiche Aktionen und
 
 * **Audit-Protokoll für benutzerdefinierte Ressourcen**: Überprüft die Aktivität und die letzte Änderung an den benutzerdefinierten Ressourcen.
 
-   Weiterführende Informationen zu **[!UICONTROL benutzerdefinierten Ressourcen]** finden Sie auf dieser [Seite](../../developing/using/key-steps-to-add-a-resource.md).
+  Weiterführende Informationen zu **[!UICONTROL benutzerdefinierten Ressourcen]** finden Sie auf dieser [Seite](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **Audit-Protokoll für Workflows**: Überprüft die Aktivität und die letzte Änderung an Workflows. Zusätzlich wird auch der Status Ihrer Workflows angezeigt, z. B.:
 
@@ -43,11 +43,11 @@ Das **[!UICONTROL Audit-Protokoll]** erfasst in Echtzeit zahlreiche Aktionen und
    * Workflow-Neustart mit gleichem Benutzer
    * Unbekannter Workflow-Neustart-Befehl
 
-   Weiterführende Informationen zu **[!UICONTROL Workflows]** finden Sie auf dieser [Seite](../../automating/using/get-started-workflows.md).
+  Weiterführende Informationen zu **[!UICONTROL Workflows]** finden Sie auf dieser [Seite](../../automating/using/get-started-workflows.md).
 
 * **Audit-Protokoll für Optionen**: Überprüft die Aktivität und die letzte Änderung an Optionen.
 
-   Weiterführende Informationen zu **[!UICONTROL Optionen]** finden Sie auf dieser [Seite](../../administration/using/about-campaign-standard-settings.md).
+  Weiterführende Informationen zu **[!UICONTROL Optionen]** finden Sie auf dieser [Seite](../../administration/using/about-campaign-standard-settings.md).
 
 Beachten Sie, dass die Beibehaltungsdauer standardmäßig 30 Tage beträgt.
 
@@ -105,9 +105,9 @@ Gehen Sie dabei folgendermaßen vor:
    * **[!UICONTROL XtkAudit_CusResource]** Option zur Verwaltung des Audit-Protokolls für benutzerdefinierte Ressourcen.
    * **[!UICONTROL XtkAudit_Enable_All]** Option zum Verwalten des Audit-Protokolls für alle Entitäten.
 
-      >[!NOTE]
-      >
-      >Wenn die Option **[!UICONTROL XtkAudit_Enable_All]** auf 0 gesetzt ist, wird die Funktion **[!UICONTROL Audit-Protokoll]** unabhängig von anderen individuellen Optionswerten vollständig deaktiviert.
+     >[!NOTE]
+     >
+     >Wenn die Option **[!UICONTROL XtkAudit_Enable_All]** auf 0 gesetzt ist, wird die Funktion **[!UICONTROL Audit-Protokoll]** unabhängig von anderen individuellen Optionswerten vollständig deaktiviert.
 
    ![](assets/audit-trail_5.png)
 

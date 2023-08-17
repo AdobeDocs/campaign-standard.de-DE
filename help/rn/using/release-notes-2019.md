@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7562'
 ht-degree: 100%
 
@@ -239,7 +239,7 @@ ht-degree: 100%
 * Fehlerkorrektur – In Listen kann jetzt beim Konfigurieren das Feld &quot;Symbol&quot; eingefügt werden. (CAMP-34585)
 * Fehlerkorrektur – &quot;|&quot; und &quot;%&quot; können jetzt in der Workflow-Aktivität &quot;Datei laden&quot; als Separatoren für das Datum oder die Uhrzeit verwendet werden. (CAMP-34706)
 * Fehlerkorrektur – In Landingpages können jetzt Sichtbarkeitsbedingungen mit Checkboxes verwendet werden. (CAMP-34802)
-* Fehlerkorrektur – In der Anreicherungsaktivität werden jetzt im Tab &quot;Zusatzdaten&quot; Felder angezeigt, wenn die Filterdimension auf Trackinglogs und die Zielgruppendimension auf Profil eingestellt ist.
+* Fehlerkorrektur – In der Aktivität „Anreicherung“ werden jetzt im Tab „Zusatzdaten“ Felder angezeigt, wenn die Filterdimension auf Trackinglogs und die Zielgruppendimension auf Profil eingestellt ist.
 * Fehlerkorrektur – Beim Export der Ressource &quot;Workflow-Vorlage&quot; wird kein Warnhinweis mehr angezeigt.
 * Fehlerkorrektur – Beim Erstellen eines neuen Profils kann das Feld &quot;Code für Land/Region&quot; jetzt gespeichert werden, nachdem es im Dialogfeld ausgewählt wurde.
 * Fehlerkorrektur – Bei der Verwendung der Briefpost-Importvorlage (updateQuarantinesDeliveryLogsDirectMail) treten jetzt keine Fehler mehr auf.
@@ -367,7 +367,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * In der Dateiextraktionsaktivität wurden die Javascript-Funktionen zur Definition des Namens einer zu exportierenden Datei aktualisiert. Im Ausgabefeld ist jetzt nur die formatDate-Funktion verfügbar. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/extract-file.md).
 * Der Mechanismus zur Kennungserzeugung für benutzerdefinierte Ressourcen wurde verbessert. Primärschlüssel für neue benutzerdefinierte Ressourcen sind jetzt standardmäßig 64 Bit lang.
 * Der Testmodus für die Veröffentlichung von benutzerdefinierten Ressourcen wurde verbessert. Jetzt wird Benutzern eine Warnung angezeigt, wenn die letzte Veröffentlichung einer benutzerdefinierten Ressource fehlgeschlagen ist und noch nicht korrigiert wurde. Wenn die Veröffentlichung einer benutzerdefinierten Ressource fehlschlägt, können Sie zur letzten funktionierenden Version zurückkehren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-* Zur Dateiübertragungsaktivität wurde eine neue Option hinzugefügt. Damit können Sie im SFTP-Modus bei der Verwendung des Dateidownloads die Dateien sortieren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/transfer-file.md). (CAMP-33109)
+* Zur Dateiübertragungsaktivität wurde eine neue Option hinzugefügt. Damit können Sie im SFTP-Modus bei der Verwendung des Datei-Downloads die Dateien sortieren. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **Korrekturen**
 
@@ -448,19 +448,19 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 
 * Es wurden vier von Behance Künstlern designte, responsive E-Mail-Vorlagen hinzugefügt.
 
-   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/using-reusable-content.md#content-templates).
+  Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/using-reusable-content.md#content-templates).
 
 * Unser neues Onboarding ermöglicht Ihnen eine raschere E-Mail-Erstellung und einfacheren Zugriff auf Handbücher und Tutorials.
 
-   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
+  Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Jetzt können Sie die Anzahl und Breite von Spalten nach Belieben konfigurieren.
 
-   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+  Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * Wenn Sie in der Mobile-Ansicht arbeiten, können Sie nun bestimmte Komponenten für diese Ansicht verbergen, um so den Platz optimal zu nutzen.
 
-   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+  Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * Sie können jetzt zusätzlich zu den bereits verfügbaren Kanälen auch benutzerdefinierte Social-Media-Kanäle zu Ihrer E-Mail-Vorlage hinzufügen.
 * Fehlerkorrektur – Jetzt können Sie im Strukturmenü hinunterscrollen, wenn mehr als 18 Strukturen verwendet werden. (CAMP-31173)
@@ -480,7 +480,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Die Zeitzonen-Dropdown-Liste auf dem Profilerstellungs-Bildschirm wurde aus dem Adressbereich in den oberen Bereich des Bildschirms verschoben.
 * Jetzt können bei der Konfiguration von benutzerdefinierten Ressourcen-Bildschirmen Trennlinien hinzugefügt werden, sodass Felder in Kategorien zusammengefasst werden können.
 
-   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
+  Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
 **Sonstige Änderungen**
 
@@ -597,7 +597,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt werden die Verbindungen zum SMPP Simulator nicht mehr unterbrochen. Das war der Fall, wenn von Adobe Campaign ein leeres Passwort gesendet wurde.
 * Fehlerkorrektur – Jetzt können Kampagnen versendet werden, wenn SMS-Verbindungen instabil sind.
 * Fehlerkorrektur – Gelöschte Sendungen werden jetzt nicht mehr in dynamischen Berichten angezeigt.
-* Fehlerkorrektur – Zusatzdaten können jetzt aus Versandlogs, Trackinglogs und Ausschlusslog-Tabellen abgerufen werden, wenn in einem Workflow eine Anreicherungsaktivität verwendet wird.
+* Fehlerkorrektur – Zusatzdaten können jetzt aus Versandlogs, Trackinglogs und Ausschlusslog-Tabellen abgerufen werden, wenn in einem Workflow eine Aktivität „Anreicherung“ verwendet wird.
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr bei DSGVO-Löschanfragen auf, wenn der Relationstyp &quot;Sammlungsrelation mit Kardinalität N&quot; und die Option &quot;Das Löschen des Zieldatensatzes zieht das Löschen der durch die Relation referenzierten Datensätze nach sich&quot; verwendet wird.
 * Fehlerkorrektur – Bei der Berichtfreigabe tritt jetzt kein Fehler mehr auf.
 * Fehlerkorrektur – Beim Versand von Push-Benachrichtigungen treten jetzt keine Durchsatzprobleme mehr auf.

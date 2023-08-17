@@ -28,23 +28,23 @@ Mögliche Optionen sind:
 
 * **[!UICONTROL Verlauf in Tagen]**: Gibt die Anzahl der Tage an, nach denen der Verlauf bereinigt werden muss. Der Verlauf enthält Elemente, die mit dem Workflow verbunden sind: Protokolle, Aufgaben, Ereignisse (technische Objekte, die mit dem Workflow-Ablauf verknüpft sind) sowie Dateien, die von der Aktivität **[!UICONTROL Dateiübertragung]** heruntergeladen wurden. Der Standardwert bei nativen Workflow-Vorlagen beträgt 30 Tage.
 
-   Die Bereinigung des Verlaufs erfolgt durch den technischen Workflow für die Datenbankbereinigung, der standardmäßig täglich ausgeführt wird (siehe [Liste der technischen Workflows](../../administration/using/technical-workflows.md)).
+  Die Bereinigung des Verlaufs erfolgt durch den technischen Workflow für die Datenbankbereinigung, der standardmäßig täglich ausgeführt wird (siehe [Liste der technischen Workflows](../../administration/using/technical-workflows.md)).
 
-   >[!IMPORTANT]
-   >
-   >Wenn das Feld **[!UICONTROL Verlauf in Tagen]** leer gelassen wird, wird sein Wert als „1“ betrachtet; der Verlauf wird also nach einem Tag bereinigt.
+  >[!IMPORTANT]
+  >
+  >Wenn das Feld **[!UICONTROL Verlauf in Tagen]** leer gelassen wird, wird sein Wert als „1“ betrachtet; der Verlauf wird also nach einem Tag bereinigt.
 
 * **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Hier können Sie die SQL-Abfragen aus dem Workflow in den Protokollen speichern.
 
 * **[!UICONTROL Diagnosemodus (Ausführungsplan von lang laufenden Abfragen protokollieren und Empfehlungen geben)]**: Aktivieren Sie diese Option, wenn der gesamte Ausführungsplan protokolliert werden soll. Dies ist standardmäßig deaktiviert.
 
-   Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#diagnostic-mode).
+  Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#diagnostic-mode).
 
 * **[!UICONTROL Zwischenergebnis festhalten]**: Aktivieren Sie diese Option, wenn Sie in der Lage sein möchten, die Detailansicht der Transitionen zu visualisieren.
 
-   >[!CAUTION]
-   >
-   >Diese Option belegt viel Speicherplatz. Sie hilft Ihnen aber bei der Erstellung eines Workflows, dessen Konfiguration und Verhalten fehlerfrei sind. Aktivieren Sie sie nicht bei Produktionsinstanzen.
+  >[!CAUTION]
+  >
+  >Diese Option belegt viel Speicherplatz. Sie hilft Ihnen aber bei der Erstellung eines Workflows, dessen Konfiguration und Verhalten fehlerfrei sind. Aktivieren Sie sie nicht bei Produktionsinstanzen.
 
 * **[!UICONTROL In der Engine ausführen (nicht im Produktionsmodus benutzen)]**: Ermöglicht Ihnen, den Workflow lokal auszuführen, um die Entwicklungsumgebung zu testen.
 
@@ -84,8 +84,8 @@ Sie können die Option im erweiterten Menü verwalten, indem Sie **[!UICONTROL A
 
 * **[!UICONTROL Zeit der Abfrageausführung (in Millisekunden) (DiagnosticModeQueryTime)]**: Im Feld **[!UICONTROL Wert]** können Sie eine neue Zeit für die Ausführung Ihrer Abfrage festlegen. Wenn die Ausführung der Abfrage diesen Wert überschreitet, wird der Ausführungsplan protokolliert.
 
-   ![](assets/wkf_diagnostic_2.png)
+  ![](assets/wkf_diagnostic_2.png)
 
 * **[!UICONTROL Prozentsatz der Sequenz-Scan-Zeit (DiagnosticModeSeqScanPercentage)]**: Im Feld **[!UICONTROL Wert]** können Sie den Prozentsatz der Abfragezeit ändern, die die Sequenzsuche benötigen soll, damit die Empfehlung erzeugt wird.
 
-   ![](assets/wkf_diagnostic_3.png)
+  ![](assets/wkf_diagnostic_3.png)

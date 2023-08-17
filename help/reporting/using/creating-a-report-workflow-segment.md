@@ -18,7 +18,7 @@ ht-degree: 100%
 # Erstellen eines Berichts auf der Basis von Workflow-Segmenten{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Der Segment-Code ]**kann nur E-Mail- und SMS-Sendungen auswählen.
+> **[!UICONTROL Der Segment-Code]** kann nur E-Mail- und SMS-Sendungen auswählen.
 
 Nachdem Sie einen Workflow erstellt und Ihre Population durch Filterung in unterschiedliche Zielgruppen unterteilt haben, können Sie die Effizienz Ihrer Marketing-Kampagnen anhand von den in diesem Zielgruppen-Workflow definierten Segmenten messen.
 So wählen Sie diese Segmente in Ihren Berichten aus:

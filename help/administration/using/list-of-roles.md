@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -25,9 +25,9 @@ Standardberechtigungen sind:
 
 * **[!UICONTROL Administration]**: Berechtigt zur allgemeinen Administration.
 
-   >[!NOTE]
-   >
-   >Wenn Sie mit Experience Cloud Triggers arbeiten, benötigen Sie die Berechtigung **[!UICONTROL Administration]**, um auf das Menü &quot;Experience Cloud Triggers&quot; zugreifen zu können. Weitere Informationen zu Experience Cloud Triggers finden Sie auf [dieser Seite](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >[!NOTE]
+  >
+  >Wenn Sie mit Experience Cloud Triggers arbeiten, benötigen Sie die Berechtigung **[!UICONTROL Administration]**, um auf das Menü &quot;Experience Cloud Triggers&quot; zugreifen zu können. Weitere Informationen zu Experience Cloud Triggers finden Sie auf [dieser Seite](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Berechtigt zur Durchführung von Veröffentlichungen und zur Erstellung von benutzerdefinierten Ressourcen.
 * **[!UICONTROL Allgemeiner Import]**: Berechtigt zum allgemeinen Import von Daten. Dazu muss die Rolle **[!UICONTROL Allgemeiner Import]** mit der Rolle **[!UICONTROL Workflow]** verknüpft werden.

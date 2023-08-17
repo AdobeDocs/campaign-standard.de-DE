@@ -31,11 +31,11 @@ Um auf den Inhaltseditor für SMS und Push-Benachrichtigungen zuzugreifen, gehen
 
 * Wählen Sie im Dashboard einer SMS den Block **[!UICONTROL Inhalt]** aus.
 
-   ![](assets/des_sms_content.png)
+  ![](assets/des_sms_content.png)
 
 * Wählen Sie im Dashboard einer Push-Benachrichtigung neben dem Feld **[!UICONTROL Nachrichtentext]** das Stiftsymbol aus.
 
-   ![](assets/des_push_body.png)
+  ![](assets/des_push_body.png)
 
 **Verwandte Themen:**
 

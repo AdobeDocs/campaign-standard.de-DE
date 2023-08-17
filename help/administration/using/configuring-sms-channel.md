@@ -49,7 +49,7 @@ Wenn Sie das SMPP-Protokoll verwenden möchten, können Sie auch ein neues exter
 
    Aktivieren Sie **[!UICONTROL Eingehende MO in Datenbank speichern]**, wenn alle eingehenden SMS-Nachrichten in der inSMS-Tabelle gespeichert werden sollen. Weiterführende Information zum Abrufen von eingehenden SMS-Nachrichten finden Sie in diesem [Abschnitt](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
-   Mit der Option **[!UICONTROL Echtzeit-KPI-Aktualisierungen während SR-Verarbeitung aktivieren]** können die KPIs **[!UICONTROL Zugestellt]** oder **[!UICONTROL Bounces + Fehler]** nach dem Versand in Echtzeit aktualisiert werden. Diese KPIs befinden sich im Fenster **[!UICONTROL Freigabe]** und werden direkt auf Grundlage des vom Provider empfangenen SR (Status Report) neu berechnet.
+   Mit der Option **[!UICONTROL Echtzeit-KPI-Aktualisierungen während SR-Verarbeitung aktivieren]** können die KPIs **[!UICONTROL Zugestellt]** oder **[!UICONTROL Bounces + Fehler]** nach dem Versand in Echtzeit aktualisiert werden. Diese KPIs befinden sich im Fenster **[!UICONTROL Bereitstellung]** und werden direkt auf Grundlage des vom Provider empfangenen SR (Status Report) neu berechnet.
 
    ![](assets/sms_connection_1.png)
 
@@ -280,7 +280,7 @@ CR: Wagenrücklauf
 
 **Doppelt zählende Zeichen**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### SMSC-Besonderheiten {#smsc-specifics}
 
@@ -305,15 +305,15 @@ Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt d
    * Er versucht, das GSM-Alphabet zu verwenden und ordnet diesem den Wert **DATA_CODING = 0** zu.
    * Falls die Verwendung des GSM-Alphabets nicht möglich ist, verwendet er **UCS2** und ordnet den Wert **DATA_CODING = 8** zu.
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * Wenn die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** aktiviert wurde, haben Sie die Möglichkeit, die Kodierungen zu definieren, die Sie verwenden möchten, und ihnen im Feld **[!UICONTROL DATA_CODING]** die entsprechenden Werte zuzuordnen. Adobe Campaign verwendet die Kodierungen in der Reihenfolge ihres Erscheinens in der Liste. Wenn die Verwendung der ersten Kodierung nicht möglich ist, wird die zweite verwendet usw.
 
-   Die Reihenfolge der Deklarierung ist entscheidend. Wir empfehlen Ihnen, die Liste aufsteigend nach den entstehenden **Kosten** zu ordnen, um die Kodierungen zu favorisieren, die eine größere Anzahl von Zeichen pro SMS erlauben.
+  Die Reihenfolge der Deklarierung ist entscheidend. Wir empfehlen Ihnen, die Liste aufsteigend nach den entstehenden **Kosten** zu ordnen, um die Kodierungen zu favorisieren, die eine größere Anzahl von Zeichen pro SMS erlauben.
 
-   Deklarieren Sie nur die Kodierungen, die Sie tatsächlich verwenden möchten. Deklarieren Sie hingegen keine vom SMSC angebotenen Kodierungen in der Liste, die nicht Ihrer Verwendung entsprechen.
+  Deklarieren Sie nur die Kodierungen, die Sie tatsächlich verwenden möchten. Deklarieren Sie hingegen keine vom SMSC angebotenen Kodierungen in der Liste, die nicht Ihrer Verwendung entsprechen.
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### Automatische Antwort auf MO  {#automatic-reply-sent-to-the-mo}
 
@@ -333,19 +333,19 @@ Aus dem Abschnitt **[!UICONTROL Erweiterte Parameter]**:
 
 * Die **[!UICONTROL Kurzwahlnummer]** ermöglicht es Ihnen, eine bestimmte Kurzwahlnummer zu Ihrem Versand hinzuzufügen. Empfänger, die diese spezielle Kurzwahlnummer durch Opt-out abgewählt haben, werden bei der Nachrichtenvorbereitung automatisch ausgeschlossen. Weiterführende Informationen zur Konfiguration der Kurzwahlnummer finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >Wenn das Feld **[!UICONTROL Kurzwahlnummer]** leer bleibt, wird der Wert des Felds **[!UICONTROL Kurzwahlnummer]** verwendet, der im externen Konto festgelegt wurde.
+  >[!NOTE]
+  >
+  >Wenn das Feld **[!UICONTROL Kurzwahlnummer]** leer bleibt, wird der Wert des Felds **[!UICONTROL Kurzwahlnummer]** verwendet, der im externen Konto festgelegt wurde.
 
 Aus dem Abschnitt **[!UICONTROL Senden]** einer SMS-Vorlage:
 
 * Die Option **[!UICONTROL Maximale Anzahl an SMS pro Nachricht]** bietet die Möglichkeit, die Anzahl an SMS-Nachrichten festzulegen, die zum Senden einer Nachricht verwendet werden sollen. Sollte eine Nachricht diese Anzahl überschreiten, wird sie nicht gesendet.
 
-   >[!IMPORTANT]
-   >
-   >Die Verwendung von Personalisierungsfeldern oder bedingtem Text im SMS-Inhalt kann dazu führen, dass die Nachrichtenlänge und somit die Anzahl erforderlicher SMS für die jeweiligen Empfänger variieren. Lesen Sie diesbezüglich auch den Abschnitt [SMS personalisieren](../../channels/using/personalizing-sms-messages.md).
+  >[!IMPORTANT]
+  >
+  >Die Verwendung von Personalisierungsfeldern oder bedingtem Text im SMS-Inhalt kann dazu führen, dass die Nachrichtenlänge und somit die Anzahl erforderlicher SMS für die jeweiligen Empfänger variieren. Lesen Sie diesbezüglich auch den Abschnitt [SMS personalisieren](../../channels/using/personalizing-sms-messages.md).
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * Im Feld **[!UICONTROL Übermittlungsmodus]** können Sie die Versandmethode für SMS-Nachrichten festlegen:
 

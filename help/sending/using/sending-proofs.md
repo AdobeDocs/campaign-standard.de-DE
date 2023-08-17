@@ -26,17 +26,17 @@ Es gibt zwei Typen von Testversandempfängern:
 
 * **Testprofile** ermöglichen es, zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenkriterien entsprechen.
 
-   Sie können Audiences hinzugefügt werden, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Empfang der Sendungen zu kontrollieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
+  Sie können Audiences hinzugefügt werden, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Empfang der Sendungen zu kontrollieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >Um Testsendungen vornehmen zu können, muss die Audience Ihrer Nachricht mindestens ein Testprofil enthalten.
+  >[!NOTE]
+  >
+  >Um Testsendungen vornehmen zu können, muss die Audience Ihrer Nachricht mindestens ein Testprofil enthalten.
 
 * **Ersatzprofile** ermöglichen es, sich selbst in die Position eines der angesprochenen Profile zu versetzen und eine genaue Darstellung der Nachricht zu erhalten, die das Profil empfangen wird. Weiterführende Informationen finden Sie unter [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md).
 
-   >[!NOTE]
-   >
-   >Diese Funktion steht nur beim E-Mail-Kanal zur Verfügung.
+  >[!NOTE]
+  >
+  >Diese Funktion steht nur beim E-Mail-Kanal zur Verfügung.
 
 ## Durchführen eines Testversands {#sending-a-proof}
 

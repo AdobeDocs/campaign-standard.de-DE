@@ -33,7 +33,7 @@ Bei einer **[!UICONTROL Und-Verknüpfung]** wird die ausgehende Transition erst 
 1. Ziehen Sie verschiedene Aktivitäten, z. B. Abfragen, in den Workflow-Arbeitsbereich, um mindestens zwei Verzweigungen zu bilden.
 1. Ziehen Sie eine **[!UICONTROL Und-Verknüpfung]** in den Arbeitsbereich.
 1. Schließen Sie die Aktivität an die zwei verschiedenen Zweige an, um diese zu synchronisieren.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Wählen Sie die in der ausgehenden Transition beizubehaltende Hauptmenge aus. Wenn keine Hauptmenge angegeben wird, wird die in der ausgehenden Transition übermittelte Population nach dem Zufallsprinzip ermittelt.
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 

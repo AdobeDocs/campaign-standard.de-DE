@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 100%
 
@@ -56,6 +56,7 @@ Ein weiterer Grund für die Einrichtung des SFTP-Servers wäre, wenn Sie den Opt
 >[!IMPORTANT]
 >
 >Sie sind für die Informationen verantwortlich, die Sie aus den SFTP-Ordnern abrufen und herunterladen. Wenn die Informationen personenbezogene Daten enthalten, sind Sie für die Einhaltung der geltenden Datenschutzgesetze und -bestimmungen verantwortlich. [Weitere Informationen](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>
 
 Informationen zur Definition der Campaign-SFTP-Einstellungen für die Integration mit Microsoft Dynamics 365 finden Sie im folgenden Abschnitt:
 

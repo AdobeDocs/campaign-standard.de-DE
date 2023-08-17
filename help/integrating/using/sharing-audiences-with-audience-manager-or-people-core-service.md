@@ -24,7 +24,7 @@ Durch die Integration von People Core Service kann eine Audience direkt in Adobe
 Der Import von Audiences/Segmenten aus People Core Service in Adobe Campaign erfolgt über das Menü **[!UICONTROL Audiences]**. Nutzer müssen sich einfach nur per IMS verbinden (die Authentifizierung erfolgt über die Adobe ID).
 
 1. Greifen Sie auf das **[!UICONTROL Audiences]**-Menü zu.
-1. Verwenden Sie in der Symbolleiste die **[!UICONTROL Erstellen]**-Schaltfläche, um zum Bildschirm zur Audience-Erstellung zu gelangen.
+1. Verwenden Sie in der Aktionsleiste die **[!UICONTROL Erstellen]**-Schaltfläche, um zum Bildschirm zur Audience-Erstellung zu gelangen.
 1. Vergeben Sie einen Titel für die neue Audience.
 1. Setzen Sie den **[!UICONTROL Typ]** der Audience auf **[!UICONTROL Experience Cloud]**, um anzugeben, dass es sich bei der zu erstellenden Audience um eine aus People Core Service importierte Zielgruppe handelt.
 1. Wählen Sie über das Feld **[!UICONTROL Name der freigegebenen Zielgruppe]** die zu importierende Zielgruppe aus. Nur Segmente können importiert werden. Granulare Daten wie Schlüssel/Wert-Paare, Merkmale und Regeln werden nicht unterstützt.

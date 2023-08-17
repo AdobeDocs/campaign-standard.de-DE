@@ -51,14 +51,15 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
    * **[!UICONTROL Gewinnerstrategie]**: Definieren Sie das Kriterium zur Auswahl der Gewinnervariante.
    * **[!UICONTROL Verteilung der Zielgruppe]**: Legen Sie fest, zu welchem Anteil die Zielgruppe auf die verschiedenen Varianten verteilt werden soll. Der verbleibende Anteil erhält die Gewinnervariante, sobald diese feststeht. Dabei erfolgt die Auswahl aus den Profilen der Zielgruppe nach dem Zufallsprinzip.
 
-      >[!NOTE]
-      >
-      >Wenn die Gesamtpopulation weniger als 50.000 beträgt, muss jede Variante mindestens 10 % der Gesamtpopulation ausmachen.
+     >[!NOTE]
+     >
+     >Wenn die Gesamtpopulation weniger als 50.000 beträgt, muss jede Variante mindestens 10 % der Gesamtpopulation ausmachen.
 
    * **[!UICONTROL Versandmethode der Gewinnervariante]**: Entscheiden Sie, ob der Versand der Gewinnervariante automatisch ausgelöst werden soll, sobald diese feststeht, oder ob Sie den Versand an die verbleibende Population manuell bestätigen möchten.
    * **[!UICONTROL Testdauer]**: Geben Sie die Dauer des Tests an. Die Gewinnervariante wird nach Ablauf dieser Dauer automatisch bestimmt. Es besteht die Möglichkeit, die Gewinnervariante vor Ablauf des Tests manuell im E-Mail-Dashboard auszuwählen.
 
-      Der Test muss mindestens eine Stunde dauern, damit die Trackingdaten gesammelt und korrekt für die Auswahl der Gewinnervariante berücksichtigt werden können.
+     Der Test muss mindestens eine Stunde dauern, damit die Trackingdaten gesammelt und korrekt für die Auswahl der Gewinnervariante berücksichtigt werden können.
+
    ![](assets/ab_parameters.png)
 
 1. Gehen Sie nach der Definition der A/B-Test-Parameter zur nächsten Etappe des Assistenten über und definieren Sie den E-Mail-Inhalt. Je nach zuvor ausgewählter Vorlage können Sie verschiedene Betreffe, verschiedene Absendernamen oder verschiedene Inhalte angeben. Bedienen Sie sich des Karussels, um zwischen den verschiedenen Varianten hin und her zu wechseln. Lesen Sie für weiterführende Informationen den Abschnitt [Inhaltseditor](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -75,7 +76,7 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
 1. Prüfen Sie Ihre E-Mail dem A/B-Test durch den Versand von Testsendungen.
 1. Bestätigen Sie nach Abschluss der Vorbereitung den Start des A/B-Tests. Nach der Bestätigung lassen sich die A/B-Test-Parameter nicht mehr abändern.
 
-   Der A/B-Test beginnt am dem Tag, der in der **[!UICONTROL Planung]** definiert ist. Sie können den Fortschritt anhand der Kacheln **[!UICONTROL A/B-Test]** und **[!UICONTROL Freigabe]** verfolgen.
+   Der A/B-Test beginnt am dem Tag, der in der **[!UICONTROL Planung]** definiert ist. Sie können den Fortschritt anhand der Kacheln **[!UICONTROL A/B-Test]** und **[!UICONTROL Bereitstellung]** verfolgen.
 
    Sollten Sie die Testdauer verkürzen wollen, können Sie jederzeit manuell die Gewinnervariante auswählen.
 

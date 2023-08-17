@@ -35,7 +35,7 @@ Verwenden Sie die Symbole, um
 * ![](assets/timeline_zoom_in.png) den Umfang zu reduzieren oder die Detailgenauigkeit für einen begrenzteren Zeitraum zu erhöhen, bis Tage angezeigt werden
 * ![](assets/timeline_zoom_out.png) den Umfang zu vergrößern oder einen größeren Zeitraum anzuzeigen
 
-Klicken Sie auf den Pfeil rechts im Programmbalken, um seine untergeordneten Elemente anzuzeigen. Ein Programm kann Unterprogramme, Kampagnen und Landingpages enthalten. Die Anzeige von Kampagnen lässt sich auf die gleiche Weise erzeugen. Eine Kampagne kann E-Mails, SMS und Landingpages enthalten.
+Klicken Sie auf den Pfeil rechts im Programmbalken, um seine untergeordneten Elemente anzuzeigen. Ein Programm kann Unterprogramme, Kampagnen und Landingpages enthalten. Die Anzeige von Kampagnen lässt sich auf die gleiche Weise bereitstellen. Eine Kampagne kann E-Mails, SMS und Landingpages enthalten.
 
 >[!NOTE]
 >

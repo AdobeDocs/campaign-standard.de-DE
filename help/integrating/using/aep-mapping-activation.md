@@ -21,13 +21,13 @@ ht-degree: 100%
 >
 >Adobe Experience Platform Data Connector befindet sich derzeit in der Betaversion, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaversion), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Nach Abschluss der Mapping-Definition können Sie das Mapping veröffentlichen. Nach der Freigabe wird die Datenreplikation zwischen Campaign Standard und Adobe Experience Platform automatisch gestartet. Sie können die Replikation jederzeit beenden, indem Sie auf die Schaltfläche **[!UICONTROL Beenden]** klicken.
+Nach Abschluss der Mapping-Definition können Sie das Mapping veröffentlichen. Nach der Bereitstellung wird die Datenreplikation zwischen Campaign Standard und Adobe Experience Platform automatisch gestartet. Sie können die Replikation jederzeit beenden, indem Sie auf die Schaltfläche **[!UICONTROL Beenden]** klicken.
 
 Je nach Ihren Mapping-Änderungen können Sie festlegen, alle Ihre Datensätze erneut an die Adobe Experience Platform zu senden.
 
 ![](assets/aep_publishmapping.png)
 
-Auf der Freigabekachel können Sie auf das Veröffentlichungslog und die Exportprotokolle zugreifen.
+Auf der Bereitstellungs-Kachel können Sie auf das Veröffentlichungslog und die Exportprotokolle zugreifen.
 
 ![](assets/aep_publog.png)
 

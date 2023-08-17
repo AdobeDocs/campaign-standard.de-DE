@@ -166,7 +166,7 @@ Gehen Sie folgendermaßen vor, um Rich-Media-Inhalte in Push-Benachrichtigungen 
 
 Bei iOS 10 oder höher sind für Push-Benachrichtigungen im Bereich **[!UICONTROL Erweiterte Optionen]** zwei zusätzliche Optionen verfügbar: **[!UICONTROL Veränderlicher Inhalt]** und **[!UICONTROL Inhalt verfügbar]**.
 
-Wenn die Option **[!UICONTROL Veränderlicher Inhalt]** aktiviert ist und/oder eine URL für Rich-Media-Daten hinzugefügt wird, wird das Flag für veränderlichen Inhalt in der Push-Payload gesendet. Dadurch kann der Inhalt der Push-Benachrichtigung durch eine im iOS SDK enthaltene Erweiterung verändert werden. Weiterführende Informationen dazu finden Sie im [Handbuch für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).
+Wenn die Option **[!UICONTROL Veränderlicher Inhalt]** aktiviert ist und/oder eine URL für Rich-Media-Daten hinzugefügt wird, wird das Flag für veränderlichen Inhalt in der Push-Payload gesendet. Dadurch kann der Inhalt der Push-Benachrichtigung durch eine im iOS SDK enthaltene Erweiterung verändert werden. Weiterführende Informationen dazu finden Sie im [Apple-Entwickler-Handbuch](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).
 
 Danach können Sie mithilfe Ihrer Mobile-App-Erweiterungen den Inhalt oder die Darstellung von Push-Benachrichtigungen, die über Adobe Campaign gesendet werden, weiter verändern. Mit dieser Option haben Sie beispielsweise folgende Möglichkeiten:
 

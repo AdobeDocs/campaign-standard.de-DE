@@ -45,7 +45,7 @@ Es besteht die Möglichkeit, für die ausgehende Transition der Aktivität einen
 
 In einer Workflow-Aktivität erlaubt Ihnen der Tab **[!UICONTROL Ausführungsoptionen]** im Eigenschaften-Bildschirm insbesondere die Definition des Ausführungsmodus sowie des Verhaltens beim Auftritt von Fehlern.
 
-Markieren Sie zum Zugriff auf diese Optionen die gewünschte Aktivität im Workflow und öffnen Sie sie in der Symbolleiste unter Verwendung der Schaltfläche ![](assets/edit_darkgrey-24px.png).
+Markieren Sie zum Zugriff auf diese Optionen die gewünschte Aktivität im Workflow und öffnen Sie sie in der Aktionsleiste unter Verwendung der Schaltfläche ![](assets/edit_darkgrey-24px.png).
 
 ![](assets/wkf_advanced_parameters.png)
 

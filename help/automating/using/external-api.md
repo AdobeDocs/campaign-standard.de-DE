@@ -96,7 +96,7 @@ Der JSON-Parser ist so konzipiert, dass er mit einigen Ausnahmen standardmäßig
 Die JSON-Definition des Musters muss die **folgenden Merkmale** aufweisen:
 
 * **Array-Elemente** müssen Eigenschaften der ersten Ebene enthalten (tiefere Ebenen werden nicht unterstützt).
-   **Eigenschaftsnamen** werden zu Spaltennamen für das Ausgabeschema der temporären Ausgabetabelle.
+  **Eigenschaftsnamen** werden zu Spaltennamen für das Ausgabeschema der temporären Ausgabetabelle.
 * Zu erfassende **JSON-Elemente** dürfen innerhalb der JSON-Antwort maximal 10 Verschachtelungsebenen aufweisen.
 * Die Definition von **Column name** basiert auf dem ersten Element des &quot;data&quot;-Array.
 Die Spaltendefinitionen (Hinzufügen/Entfernen) und der Wert des Eigenschaftentyps können im Tab **Spaltendefinition** bearbeitet werden.

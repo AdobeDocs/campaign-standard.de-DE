@@ -35,16 +35,16 @@ Alle Elemente einer Seite können mit Links belegt werden: Bilder, Wörter, Wort
 
    * **Externer Link**: Fügen Sie einen Link auf eine externe URL ein.
 
-      Sie können für die URLs eine Personalisierung festlegen. Siehe [URLs personalisieren](personalization.md#personalizing-urls).
+     Sie können für die URLs eine Personalisierung festlegen. Siehe [URLs personalisieren](personalization.md#personalizing-urls).
 
    * **Landingpage**: für den Zugriff auf eine Adobe Campaign-Landingpage.
    * **Anmelde-Link**: ermöglicht die Anmeldung für einen Adobe Campaign-Dienst.
    * **Abmelde-Link**: ermöglicht die Abmeldung von einem Adobe Campaign-Dienst.
    * **Eine Aktion definierender Link**: ermöglicht die Angabe einer Aktion, die durch Auswahl des Landingpage-Elements ausgelöst wird.
 
-      >[!NOTE]
-      >
-      >Dieser Linktyp steht nur für Landingpages zur Verfügung.
+     >[!NOTE]
+     >
+     >Dieser Linktyp steht nur für Landingpages zur Verfügung.
 
 1. Sie können den Text ändern, den ein Empfänger zu sehen bekommt.
 1. Sie können das Browserverhalten festlegen, wenn der Benutzer den Link auswählt (z. B. neues Fenster öffnen).
@@ -77,7 +77,7 @@ Bei der Bearbeitung einer E-Mail mit [Email Designer](../../designing/using/desi
 
 Adobe Campaign bietet Ihnen die Möglichkeit, das Verhalten der Empfänger zu verfolgen, wenn sie eine in einer E-Mail enthaltene URL anklicken. Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../sending/using/tracking-messages.md#about-tracking).
 
-Im Symbol **[!UICONTROL Links]** in der Symbolleiste wird automatisch die Liste aller getrackten URLs Ihres Inhalts angezeigt.
+Im Symbol **[!UICONTROL Links]** in der Aktionsleiste wird automatisch die Liste aller getrackten URLs Ihres Inhalts angezeigt.
 
 ![](assets/des_links.png)
 

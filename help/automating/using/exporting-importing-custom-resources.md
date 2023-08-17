@@ -25,13 +25,13 @@ Folgende Voraussetzungen müssen erfüllt sein:
 
 * **Eine oder mehrere benutzerdefinierte Ressourcen**, die verfügbar und veröffentlicht sind.
 
-   Darüber hinaus müssen Sie einen eindeutigen Schlüssel für diese Ressourcen definiert haben, da die automatischen Primärschlüssel nicht in die Packages exportiert werden. Die Ressource kann daher über einen Primärschlüssel und einen zusätzlichen eindeutigen Schlüssel verfügen, um die Einzigartigkeit der Datensätze zu gewährleisten.
+  Darüber hinaus müssen Sie einen eindeutigen Schlüssel für diese Ressourcen definiert haben, da die automatischen Primärschlüssel nicht in die Packages exportiert werden. Die Ressource kann daher über einen Primärschlüssel und einen zusätzlichen eindeutigen Schlüssel verfügen, um die Einzigartigkeit der Datensätze zu gewährleisten.
 * Der Benutzer muss über die für Package-Erstellung und -Export **erforderlichen Berechtigungen** verfügen.
 
 Zusätzliche Ressourcen:
 
 * [Package-Verwaltung](../../automating/using/managing-packages.md)
-* [Package-Freigabe: Grundprinzip](../../developing/using/data-model-concepts.md)
+* [Package-Bereitstellung: Grundprinzip](../../developing/using/data-model-concepts.md)
 * [Ressource hinzufügen oder erweitern](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Struktur exportieren {#exporting-the-structure}
@@ -40,7 +40,7 @@ In diesem Schritt nehmen wir einen ersten Package-Export vor, der die Beschreibu
 
 Unser Beispiel umfasst zwei benutzerdefinierte Ressourcen: **Artikel** und **Bestellungen**.
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Freigabe]** / **[!UICONTROL Package-Exporte]**.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Bereitstellung]** / **[!UICONTROL Package-Exporte]**.
 
    Wir werden ein neues Package erstellen, um die **[!UICONTROL Benutzerdefinierte Ressource (cusResource)]** zu exportieren, die mit den beiden benutzerdefinierten Ressourcen &quot;Artikel&quot; und &quot;Bestellungen&quot; gefiltert wurde.
 
@@ -104,7 +104,7 @@ Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name d
 ### Package importieren {#importing-the-structure-package}
 
 1. Loggen Sie sich in die **Zielinstanz** ein, in die Sie die gerade erstellten Packages importieren möchten.
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Freigabe]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der aus dem ersten Export hervorgehenden Datei zu erstellen.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Bereitstellung]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der aus dem ersten Export hervorgehenden Datei zu erstellen.
 1. Ziehen Sie die **Strukturdatei** in den dafür vorgesehenen Bereich. Es werden die Formate ZIP oder XML unterstützt.
 
    ![](assets/cusresources_import2.png)
@@ -130,7 +130,7 @@ Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import un
 
 ### Package importieren {#importing-the-data-package}
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Freigabe]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der die Daten enthaltenden Datei zu erstellen.
+1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Bereitstellung]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der die Daten enthaltenden Datei zu erstellen.
 1. Ziehen Sie die Datendatei in den dafür vorgesehenen Bereich. Es werden die Formate ZIP oder XML unterstützt.
 1. Ändern Sie den Titel z. B. in &quot;Daten importieren&quot; und wählen Sie **[!UICONTROL Speichern]** aus.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Import starten]**.

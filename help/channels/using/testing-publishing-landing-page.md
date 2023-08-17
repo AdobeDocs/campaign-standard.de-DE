@@ -25,7 +25,7 @@ Vor der Veröffentlichung einer Landingpage müssen Sie Tests durchführen: Vali
 
 Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie wie folgt vor:
 
-1. Verwenden Sie hierzu die Schaltfläche **[!UICONTROL Testen]** in der Symbolleiste der Landingpage.
+1. Verwenden Sie hierzu die Schaltfläche **[!UICONTROL Testen]** in der Aktionsleiste der Landingpage.
 1. Wenn auf der Landingpage Abonnements verarbeitet werden sollen, wählen Sie auf dem Testbildschirm ein Testprofil und einen Testdienst.
 
    ![](assets/lp_test_2.png)
@@ -43,7 +43,7 @@ Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landin
 
 >[!NOTE]
 >
->Um die Vorschau der Landingpage in der Campaign-Benutzeroberfläche anzuzeigen, muss die URL des Anwendungsservers sicher sein. Verwenden Sie in diesem Fall https:// anstelle von http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands) einzurichten.
+>Um die Vorschau der Landingpage in der Campaign-Benutzeroberfläche anzuzeigen, muss die URL des Anwendungs-Servers sicher sein. Verwenden Sie in diesem Fall https:// anstelle von http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands) einzurichten.
 
 ## Gültigkeitsparameter einrichten         {#setting-up-validity-parameters}
 
@@ -63,7 +63,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 
 >[!IMPORTANT]
 >
->Sie können auch ein Veröffentlichungsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum veröffentlicht.
+>Sie können auch ein Bereitstellungsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum veröffentlicht.
 
 ## Landingpage veröffentlichen   {#publishing-a-landing-page}
 

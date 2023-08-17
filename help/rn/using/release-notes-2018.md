@@ -47,15 +47,15 @@ ht-degree: 100%
 * In den Broadlogs wird jetzt zwischen der maximalen Anzahl der Verbindungen und der maximalen Anzahl der Nachrichten pro Stunde unterschieden. Wenn das Limit erreicht wurde, wird jetzt der Grund für den beschränkten Durchsatz angegeben. Zuvor wurde in beiden Fällen dieselbe Mitteilung angezeigt (‘quota met’).
 * Bei der Konfiguration einer Mobile App in Campaign ist es jetzt für den Benutzer ersichtlich, ob das iOS-Zertifikat und der Android-Server-Schlüssel erfolgreich hochgeladen wurden und wie ihr Ablaufdatum lautet.
 
-   Weiterführende Informationen finden Sie im entsprechenden Handbuch zur Konfiguration einer Mobile App mit [SDK V4](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) und [SDK V5](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
+  Weiterführende Informationen finden Sie im entsprechenden Handbuch zur Konfiguration einer Mobile App mit [SDK V4](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) und [SDK V5](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
 
 * Benutzer einer bestimmten Mobile App können nun direkt als Zielgruppe ausgewählt werden, indem Sie die entsprechende Mobile App bei der Definition der Campaign-Eigenschaften auswählen. Diese Funktion ist für sowohl den Push- als auch den In-App-Messaging-Kanal verfügbar.
 
-   Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
+  Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
 * Bei der Auswahl eines Inhaltsbausteins über die Creative-Designer-Benutzeroberfläche werden jetzt alle Inhaltsbausteine auf der Liste geladen und angezeigt. (CAMP-27311)
 
-   Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../designing/using/personalization.md#adding-a-content-block).
+  Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../designing/using/personalization.md#adding-a-content-block).
 
 **Korrekturen**
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 * Fehlerkorrektur – Die Auswahl von Diensten wird jetzt nicht mehr im Formular aufgehoben, wenn Landingpages über 25 Dienste enthalten. (CAMP-26572)
 * Fehlerkorrektur – Bei der Verwendung des Dateitransfers können jetzt in Workflows externe Konten mit einer SFTP-URL konfiguriert werden. (CAMP-26475)
 * Fehlerkorrektur – Der Dienstzusammenfassungsbericht wird jetzt aktualisiert. (CAMP-26301)
-* Fehlerkorrektur – In Workflows wird bei der Verwendung einer Anreicherungsaktivität jetzt in benutzerdefinierten Feldern das korrekte Datum angezeigt. (CAMP-26242)
+* Fehlerkorrektur – In Workflows wird bei der Verwendung einer Aktivität „Anreicherung“ jetzt in benutzerdefinierten Feldern das korrekte Datum angezeigt. (CAMP-26242)
 * Fehlerkorrektur – Das Datum des Abonnements eines Dienstes wird jetzt aktualisiert, wenn es über einen Dateiimport importiert wird.
 * Fehlerkorrektur – Dateien werden jetzt auch dann korrekt importiert, wenn ein Workflow eine Datei-laden-Aktivität enthält (CAMP-27068).
 * Fehlerkorrektur – In Dienstzusammenfassungsberichten wird jetzt nicht mehr die falsche Anzahl von Abonnements angezeigt (CAMP-25587).
@@ -153,12 +153,12 @@ ht-degree: 100%
 
 **Sonstige Änderungen**
 
-* Bei gesendeten Nachrichten wurde im Fenster **[!UICONTROL Freigabe]** die Schaltfläche **[!UICONTROL Statistiken berechnen]** hinzugefügt. Damit können Sie die aktuellen KPIs abrufen, z. B. wenn die Ergebnisse des Versands zu langsam aktualisiert werden oder nicht berücksichtigt wurden. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../sending/using/confirming-the-send.md).
+* Bei gesendeten Nachrichten wurde im Fenster **[!UICONTROL Bereitstellung]** die Schaltfläche **[!UICONTROL Statistiken berechnen]** hinzugefügt. Damit können Sie die aktuellen KPIs abrufen, z. B. wenn die Ergebnisse des Versands zu langsam aktualisiert werden oder nicht berücksichtigt wurden. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../sending/using/confirming-the-send.md).
 * Funktionale Administratoren können jetzt im nativen technischen Workflow **Zustellbarkeit** die Anzahl aufeinanderfolgender Fehler definieren, die in der JavaScript-Aktivität **Regel-Update** ignoriert werden sollen. Standardmäßig beträgt der Feldwert 0, was bedeutet, dass alle Fehler ignoriert werden.
 * Die SQL-Abfrage zur Verwaltung der Zugriffsbeschränkungen auf Einheiten wurde optimiert.
 * Jetzt können Abonnementdaten in der Aktivität **[!UICONTROL Aktualisierung]** hinzugefügt, aktualisiert oder gelöscht werden (nms:appSubscriptionRcp table).
 * Der technische Workflow **[!UICONTROL Update der Versandausführung]** wurde in zwei Workflows unterteilt, um die Leistung zu verbessern: **[!UICONTROL Update der Versandausführung]**: Hiermit wird das Tracking des Versands aktualisiert. Dieser Workflow wird standardmäßig alle zehn Minuten gestartet. **[!UICONTROL Aktualisierung der Versandindikatoren]**: Hiermit werden die Versand-KPIs aktualisiert. Dieser Workflow wird standardmäßig jede Stunde gestartet. Weiterführende Informationen zu technischen Workflows finden Sie in diesem [Abschnitt](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* Wenn Nachrichten versendet werden, kann der Status im Bereich **[!UICONTROL Freigabe]** jetzt zwei Werte aufweisen: **[!UICONTROL Senden]**: Die Nachrichten werden gesendet. **[!UICONTROL Senden (erneuter Versuch)]**: Ein erneuter Versuch wird unternommen.
+* Wenn Nachrichten versendet werden, kann der Status im Bereich **[!UICONTROL Bereitstellung]** jetzt zwei Werte aufweisen: **[!UICONTROL Senden]**: Die Nachrichten werden gesendet. **[!UICONTROL Senden (erneuter Versuch)]**: Ein erneuter Versuch wird unternommen.
 * Benutzer mit der Benutzerrolle **[!UICONTROL Versandvorbereitung]** können jetzt Testsendungen durchführen. (CAMP-24313)
 * Die Option **TLS über SMPP aktivieren** wurde zum externen Konto **SMS-Routing durch SMPP** hinzugefügt. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
@@ -386,7 +386,7 @@ _Transaktionsnachrichten_
    <td> Die Workflow-Aktivität <strong>An-/Abmeldedienst</strong> ermöglicht es Ihnen jetzt, eine Profilliste für mehrere Dienste an- bzw. abzumelden. Importieren Sie in Ihren Workflow eine Datei mit Profilen sowie dem Aktionstyp und Dienst für jedes Profil. Die Aktivität <strong>An-/Abmeldedienst</strong> führt unter Verwendung dieser Informationen alle Ihre Profilan- und -abmeldungen dynamisch und gleichzeitig durch.<br /> Lesen Sie für weiterführende Informationen das <a href="../../automating/using/subscription-services.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Anreicherungsaktivität - Anreicherung von Daten auf der Basis eingehender Transitionen<br /> </td> 
+   <td> Aktivität „Anreicherung“ - Anreicherung von Daten auf der Basis eingehender Transitionen<br /> </td> 
    <td> Mit der neuen Workflow-Aktivität <span class="uicontrol">Anreicherung</span> können Sie die eingehenden Transitionen nutzen, um die ausgehenden Transitionen mit Zusatzdaten anzureichern. Mithilfe der Anreicherungsaktivität können Sie bei der Auswahl von Profilen deren Daten mit Zusatzdaten anreichern, die nicht in der Datenbank gespeichert sind (sondern z. B. in einer importierten Datei).<br /> Lesen Sie für weiterführende Informationen das <a href="../../automating/using/enrichment.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 

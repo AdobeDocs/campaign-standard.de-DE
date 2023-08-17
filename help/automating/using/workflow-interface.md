@@ -57,7 +57,7 @@ Bei Aktivitäten, die Daten verarbeiten, enthalten die ausgehenden Transitionen 
 >Diese Option belegt viel Speicherplatz. Sie hilft Ihnen aber bei der Erstellung eines Workflows, dessen Konfiguration und Verhalten fehlerfrei sind. Aktivieren Sie sie nicht bei Produktionsinstanzen.
 
 
-Bei Markierung einer Aktivität erscheinen um diese herum die Quick Actions, die den Schnellzugriff auf diverse Aktionen ermöglichen. Um beispielsweise eine Aktivität zu konfigurieren, können Sie diese markieren und mithilfe der Quick-Action-Schaltfläche ![](assets/edit_darkgrey-24px_table.png) öffnen.
+Bei Markierung einer Aktivität erscheinen um diese herum die Quick Actions, die den Schnellzugriff auf diverse Aktionen ermöglichen. Um beispielsweise eine Aktivität zu konfigurieren, können Sie diese markieren und mithilfe der Schnellaktions-Schaltfläche ![](assets/edit_darkgrey-24px_table.png) öffnen.
 
 Gewisse Funktionen stehen nur im Arbeitsbereich zur Verfügung:
 
@@ -69,9 +69,9 @@ Gewisse Funktionen stehen nur im Arbeitsbereich zur Verfügung:
 
 ![](assets/workflow_workspace.png)
 
-## Symbolleiste {#action-bar}
+## Aktionsleiste {#action-bar}
 
-Je nach den im Arbeitsbereich ausgewählten Elementen oder dem Workflow-Status sind in der Symbolleiste unterschiedliche Schaltflächen verfügbar.
+Je nach den im Arbeitsbereich ausgewählten Elementen oder dem Workflow-Status sind in der Aktionsleiste unterschiedliche Schaltflächen verfügbar.
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Aktivität öffnen]**<br/>Erlaubt die Bearbeitung der Workflow-Eigenschaften.
 
@@ -103,9 +103,9 @@ Je nach den im Arbeitsbereich ausgewählten Elementen oder dem Workflow-Status s
 
 <img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Einfügen]**<br/>Fügt die kopierten Aktivitäten ein.
 
-## Quick Actions {#quick-actions}
+## Schnellaktionen {#quick-actions}
 
-Bei Markierung einer Aktivität erscheinen um diese herum die Quick-Action-Schaltflächen, die den direkten Zugriff auf gewisse Funktionen ermöglichen.
+Bei Markierung einer Aktivität erscheinen um diese herum die Schnellaktions-Schaltflächen, die den direkten Zugriff auf gewisse Funktionen ermöglichen.
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Aktivität öffnen]**<br/>Öffnet die ausgewählte Aktivität.
 
@@ -135,7 +135,7 @@ Die Konfiguration der duplizierten Aktivitäten bleibt dabei unverändert. Bei V
 
 Um eine Aktivität zu duplizieren, gehen Sie wie folgt vor:
 
-1. Wählen Sie die Aktivität und danach im Schnellzugriff die Schaltfläche **[!UICONTROL Auswahl kopieren]** aus.
+1. Wählen Sie die Aktivität und danach in der Schnellaktion die Schaltfläche **[!UICONTROL Auswahl kopieren]** aus.
 
    Sie können auch die Tastenkombination **Strg + C** verwenden.
 
@@ -151,6 +151,6 @@ Um eine Aktivität zu duplizieren, gehen Sie wie folgt vor:
 
 Sie können auch mehrere Aktivitäten mit Copy-and-Paste kopieren, sodass ein gesamter Workflow dupliziert werden kann.
 
-Wählen Sie dabei die Aktivitäten aus, indem Sie rund um sie einen Kreis ziehen. Wählen Sie dann in der Symbolleiste die Schaltfläche **[!UICONTROL Auswahl kopieren]** aus (oder drücken Sie **Strg + C**). Danach können Sie die Aktivitäten an der gewünschten Position einfügen.
+Wählen Sie dabei die Aktivitäten aus, indem Sie rund um sie einen Kreis ziehen. Wählen Sie dann in der Aktionsleiste die Schaltfläche **[!UICONTROL Auswahl kopieren]** aus (oder drücken Sie **Strg+C**). Danach können Sie die Aktivitäten an der gewünschten Position einfügen.
 
 ![](assets/wkf_copypaste3.png)

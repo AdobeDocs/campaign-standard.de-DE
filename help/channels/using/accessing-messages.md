@@ -24,14 +24,14 @@ Der Zugriff auf Nachrichten erfolgt:
 
 * innerhalb einer Kampagne,
 * ausgehend von der Adobe-Campaign-Startseite,
-* ausgehend von der Liste der Marketingaktivitäten.
+* ausgehend von der Liste der Marketing-Aktivitäten.
 
 ## Zugriff auf Nachrichten in Kampagnen      {#accessing-messages-in-campaigns}
 
 Um auf die Liste der Marketing-Aktivitäten einer Kampagne zuzugreifen, gehen Sie folgendermaßen vor:
 
-1. Öffnen Sie in der Navigationsleiste am oberen Bildschirmrand die **[!UICONTROL Marketingaktivitäten]**.
-1. Wählen Sie **[!UICONTROL Marketingaktivitäten > Marketingpläne > Programme &amp; Kampagnen aus]**.
+1. Öffnen Sie in der Navigationsleiste am oberen Bildschirmrand die **[!UICONTROL Marketing-Aktivitäten]**.
+1. Wählen Sie **[!UICONTROL Marketing-Aktivitäten > Marketing-Pläne > Programme &amp; Kampagnen aus]**.
 
    Sie können auch direkt von der Startseite aus auf die Karte **[!UICONTROL Programme &amp; Kampagnen]** zugreifen. Lesen Sie den Abschnitt [Programme und Kampagnen](../../start/using/programs-and-campaigns.md) für weiterführende Informationen.
 
@@ -48,11 +48,11 @@ Um auf die Liste der Marketing-Aktivitäten einer Kampagne zuzugreifen, gehen Si
 
 Um auf die vollständige Liste der Marketing-Aktivitäten aller Kampagnen zuzugreifen, gehen Sie folgendermaßen vor:
 
-1. Öffnen Sie in der Navigationsleiste am oberen Bildschirmrand die **[!UICONTROL Marketingaktivitäten]**.
+1. Öffnen Sie in der Navigationsleiste am oberen Bildschirmrand die **[!UICONTROL Marketing-Aktivitäten]**.
 
-   Sie können auch direkt über die Karte **[!UICONTROL Marketingaktivitäten]** auf der Startseite darauf zugreifen. Weiterführende Informationen zur Liste der Marketingaktivitäten finden Sie im Abschnitt [Marketingaktivitäten verwalten](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+   Sie können auch direkt über die Karte **[!UICONTROL Marketing-Aktivitäten]** auf der Startseite darauf zugreifen. Weiterführende Informationen zur Liste der Marketing-Aktivitäten finden Sie im Abschnitt [Marketing-Aktivitäten verwalten](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
-1. Um die angezeigten Marketingaktivitäten nach Namen, Datum, Status oder Typ zu filtern, stehen links im Bildschirm verschiedene Felder zur **[!UICONTROL Suche]** zur Verfügung.
+1. Um die angezeigten Marketing-Aktivitäten nach Namen, Datum, Status oder Typ zu filtern, stehen links im Bildschirm verschiedene Felder zur **[!UICONTROL Suche]** zur Verfügung.
 
 ![](assets/delivery_list_2.png)
 
@@ -65,6 +65,6 @@ Der Status einer Nachricht wird auf ihrer Karte durch eine bestimmte Farbe symbo
 * **[!UICONTROL Abgeschlossen]** (grün): Versand wurde ohne Fehler beendet.
 * **[!UICONTROL Mit Fehlern]** (rot): Versand wurde abgebrochen oder bei der Vorbereitung bzw. dem Versand ist ein Fehler aufgetreten.
 
-   >[!NOTE]
-   >
-   >Oberhalb der Karte kann ein gelbes Banner erscheinen, wenn das Eingreifen eines Benutzers erforderlich ist, beispielsweise wenn eine Versandvalidierung aussteht.
+  >[!NOTE]
+  >
+  >Oberhalb der Karte kann ein gelbes Banner erscheinen, wenn das Eingreifen eines Benutzers erforderlich ist, beispielsweise wenn eine Versandvalidierung aussteht.

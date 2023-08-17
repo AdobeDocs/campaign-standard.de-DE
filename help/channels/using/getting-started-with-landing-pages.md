@@ -9,7 +9,7 @@ feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Weiterführende Informationen zum Testen einer Landingpage finden Sie in [diesem
 
 ## Schritt 5 – Landingpage veröffentlichen {#publish-the-landing-page}
 
-Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Veröffentlichen]** in der Symbolleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Publikation.
+Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Veröffentlichen]** in der Aktionsleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Publikation.
 
 Durch die Veröffentlichung der Landingpage wird diese online verfügbar. Nach ihrer Veröffentlichung lässt sich die Landingpage weiterhin aktualisieren: Hierzu müssen Sie sie nach jeder Änderung erneut veröffentlichen. Sie haben außerdem die Möglichkeit, Ihre die Veröffentlichung der Landingpage jederzeit aufzuheben, damit sie nicht länger verfügbar ist.
 

@@ -53,7 +53,7 @@ Folgende Navigationsprinzipien kommen zur Anwendung:
 
 * Über das **Adobe**-Logo oben links im Bildschirm haben Sie Zugriff auf erweiterte Funktionen und Konfigurationen. Die angezeigten Menüs hängen von Ihrem Profil und Ihren Zugriffsberechtigungen ab.
 
-   Das erweiterte Menü wird im Abschnitt [erweitertes Menü](#advanced-menu) beschrieben.
+  Das erweiterte Menü wird im Abschnitt [erweitertes Menü](#advanced-menu) beschrieben.
 
 * Verwenden Sie den **[!UICONTROL Startseite]**-Link, um die Adobe-Campaign-Startseite anzuzeigen.
 * Über die Links **[!UICONTROL Marketingaktivitäten]**, **[!UICONTROL Programme &amp; Kampagnen]**, **[!UICONTROL Profile]**, **[!UICONTROL Audiences]** und **[!UICONTROL Berichte]** gelangen Sie zu den diese Funktionen betreffenden Bildschirmen.
@@ -126,25 +126,25 @@ Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs können variieren
 
 * Er kann die Form einer **Übersicht** im **[!UICONTROL Karten]**- oder **[!UICONTROL Listen]**-Modus annehmen, die diverse Elemente (beispielsweise Programme, Kampagnen, Profile etc.) enthält. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   Ein Zähler gibt Auskunft über die Anzahl der vorhandenen Elemente. Bei mehr als 30 Elementen wird die tatsächliche Anzahl durch Klick auf den Zähler angezeigt.
+  Ein Zähler gibt Auskunft über die Anzahl der vorhandenen Elemente. Bei mehr als 30 Elementen wird die tatsächliche Anzahl durch Klick auf den Zähler angezeigt.
 
 * Er kann die Form eines **Dashboards** annehmen, das die Konfigurationen einer Aktivität zusammenfassend darstellt. In diesem Fall ermöglichen interaktive Kacheln die Trennung und unabhängige Konfiguration der verschiedenen Konzepte.
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * Er kann - bei Erstellung eines neuen Elements - die Form eines **Auswahlbildschirms** annehmen, der die Auswahl des Elementtyps (Kampagnen, Sendungen etc.) ermöglicht. Der gleiche Auswahlbildschirm steht beim Zugriff auf Berichte zur Verfügung.
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * Für Workflows und den Abfrageeditor wird der **Arbeitsbereich** um eine Palette ergänzt, die die Konzeption des gewünschten Objekts ermöglicht.
 
-   Die Elemente können aus der Palette in den Arbeitsbereich gezogen und zur Konfiguration des aktuellen Objekts verwendet werden.
+  Die Elemente können aus der Palette in den Arbeitsbereich gezogen und zur Konfiguration des aktuellen Objekts verwendet werden.
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
-## Symbolleiste             {#action-bar}
+## Aktionsleiste {#action-bar}
 
 Die im oberen Bildschirmbereich angezeigte Symbolleiste enthält für den aktuellen Bereich verfügbare Aktionsschaltflächen.
 
@@ -152,6 +152,6 @@ Die im oberen Bildschirmbereich angezeigte Symbolleiste enthält für den aktuel
 
 Die angezeigten Schaltflächen können allgemeiner Natur sein (Suche, Filter etc.) oder aber spezifisch für den jeweiligen Bildschirm:
 
-* Schaltflächen bezüglich der **Arbeitsbereiche** werden im jeweiligen Abschnitt zur [Symbolleiste](../../automating/using/workflow-interface.md#action-bar) im Workflow-Handbuch erläutert.
+* Schaltflächen bezüglich der **Arbeitsbereiche** werden im jeweiligen Abschnitt zur [Aktionsleiste](../../automating/using/workflow-interface.md#action-bar) im Workflow-Handbuch erläutert.
 * Schaltflächen bezüglich **Dashboards** werden im Abschnitt [Nachrichten-Dashboards](../../channels/using/message-dashboard.md) näher erläutert.
 * Schaltflächen bezüglich **Listen** werden unten stehend im Abschnitt [Listen anpassen](../../start/using/customizing-lists.md) erläutert.

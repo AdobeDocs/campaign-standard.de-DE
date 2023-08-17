@@ -51,17 +51,17 @@ Um Klicks zu verfolgen, müssen zwei Szenarien implementiert werden:
 
 * Der Anwender sieht die Benachrichtigung, löscht sie jedoch.
 
-   Um die Klicks für Abweisungsszenarien zu verfolgen, fügen Sie den Broadcast-Empfänger `NotificationDismissalHandler` in der AndroidManifest-Datei Ihres Anwendungsmoduls hinzu.
+  Um die Klicks für Abweisungsszenarien zu verfolgen, fügen Sie den Broadcast-Empfänger `NotificationDismissalHandler` in der AndroidManifest-Datei Ihres Anwendungsmoduls hinzu.
 
-   ```
-   <receiver
-   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
-   </receiver>
-   ```
+  ```
+  <receiver
+  android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+  </receiver>
+  ```
 
 * Der Benutzer sieht die Benachrichtigung und klickt darauf. Dies führt zu einem Öffnungs-Tracking.
 
-   Dieses Szenario sollte einen Klick und eine Öffnung erzeugen. Das Tracking dieses Klicks ist Teil der Implementierung, die zum Tracking von Öffnungen erforderlich ist. Siehe [Implementieren des Öffnungs-Trackings](#implement-open-tracking).
+  Dieses Szenario sollte einen Klick und eine Öffnung erzeugen. Das Tracking dieses Klicks ist Teil der Implementierung, die zum Tracking von Öffnungen erforderlich ist. Siehe [Implementieren des Öffnungs-Trackings](#implement-open-tracking).
 
 ### Für iOS {#implement-click-tracking-ios}
 

@@ -63,11 +63,11 @@ In der Adobe Campaign-Benutzeroberfläche haben Sie folgende Möglichkeiten:
 * Die Bedingungsparameter für jedes Dashboard ändern. Siehe [Bedingungsparameter](#criteria-parameters).
 * Für jedes Dashboard eine Empfängergruppe definieren.
 
-   Beispiel: Sie möchten die Benutzer mit Administratorrechten nur über fehlgeschlagene Sendungen informieren. Sie möchten aber auch, dass Mitarbeiter der Marketingabteilung von den Sendungen mit zu hoher Softbounce-Fehlerrate informiert werden. Sie müssen daher zwei unterschiedliche Dashboards erstellen und die Bedingungen für jede Empfängergruppe definieren.
+  Beispiel: Sie möchten die Benutzer mit Administratorrechten nur über fehlgeschlagene Sendungen informieren. Sie möchten aber auch, dass Mitarbeiter der Marketing-Abteilung von den Sendungen mit zu hoher Softbounce-Fehlerrate informiert werden. Sie müssen daher zwei unterschiedliche Dashboards erstellen und die Bedingungen für jede Empfängergruppe definieren.
 
 * Öffnen Sie den Verlauf aller gesendeten Warnungen für jedes Dashboard.
 
-   Bei der Auswahl eines Dashboards wird standardmäßig die zuletzt gesendete Warnung für dieses Dashboard angezeigt. Alle gesendeten Warnungen sind auf der linken Bildschirmseite aufgelistet. Wählen Sie ein Objekt in der **[!UICONTROL Verlauf]**-Liste aus, um die entsprechenden Warnungen zu öffnen.
+  Bei der Auswahl eines Dashboards wird standardmäßig die zuletzt gesendete Warnung für dieses Dashboard angezeigt. Alle gesendeten Warnungen sind auf der linken Bildschirmseite aufgelistet. Wählen Sie ein Objekt in der **[!UICONTROL Verlauf]**-Liste aus, um die entsprechenden Warnungen zu öffnen.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -120,15 +120,15 @@ Für jede Bedingung können Sie folgende Einstellungen festlegen:
 
 * **[!UICONTROL Indikatoren zum Hinzufügen in Warnungen]**: Dies sind die Spalten im Bereich **[!UICONTROL Details]** einer Benachrichtigung bei Sendungen, die der ausgewählten Bedingung entsprechen.
 
-   ![](assets/delivery-alerting_notification_colums.png)
+  ![](assets/delivery-alerting_notification_colums.png)
 
 * **[!UICONTROL Warnungstyp]**: Dies sind der Titel und die Farbe, die neben der Versandbedingung in der Zusammenfassung der Benachrichtigung angezeigt werden.
 
-   ![](assets/delivery-alerting_notification_labels.png)
+  ![](assets/delivery-alerting_notification_labels.png)
 
 * **[!UICONTROL Bedingungsfrequenz]**: Wenn eine Bedingung für einen Versand erfüllt ist, wird sie in jeder im Überwachungszeitraum gesendeten Benachrichtigung wiederholt. Ansonsten wird für einen Versand nur eine einzige Warnung pro Tag und Art der Warnung (beim ersten Auftreten) gemäß der Warnungsbedingung gesendet.
 
-   Standardmäßig ist diese Option für alle Bedingungen auf einmal täglich festgelegt.
+  Standardmäßig ist diese Option für alle Bedingungen auf einmal täglich festgelegt.
 
 **Verwandte Themen:**
 
@@ -191,15 +191,15 @@ Im Tab **[!UICONTROL Bedingungsparameter]** eines [Versandwarnungs-Dashboards](#
 * **[!UICONTROL Mindestgröße der Versandzielgruppe]**: Wenn Sie in diesem Feld beispielsweise 100 eingeben, wird eine Benachrichtigung nur für Sendungen gesendet, deren Zielgruppe mindestens 100 Empfänger umfasst. Dieser Parameter gilt für alle Bedingungen.
 * **[!UICONTROL Monitoring-Zeitraum vor und nach dem Kontaktdatum (in Stunden)]**: Anzahl der Stunden vor und nach der aktuellen Zeit. Berücksichtigt werden nur Sendungen, deren Kontaktdatum in diesem Zeitraum liegt. Dieser Parameter gilt für alle Bedingungen. Standardmäßig ist der Wert dieses Feldes mit 24 Stunden festgelegt.
 
-   Weiterführende Informationen zum Kontaktdatum finden Sie in Abschnitt [Über die Versandplanung](../../sending/using/about-scheduling-messages.md).
+  Weiterführende Informationen zum Kontaktdatum finden Sie in Abschnitt [Über die Versandplanung](../../sending/using/about-scheduling-messages.md).
 
 * **[!UICONTROL Maximale Softbounce-Fehlerrate]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Softbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes mit 0,05 (5 %) Stunden festgelegt.
 
-   Weiterführende Informationen zu Softbounce-Fehlern finden Sie in den Abschnitten [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) und [Liste der Versandfehlertypen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Weiterführende Informationen zu Softbounce-Fehlern finden Sie in den Abschnitten [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) und [Liste der Versandfehlertypen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Maximale Hardbounce-Fehlerrate]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Hardbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes mit 0,05 (5 %) Stunden festgelegt.
 
-   Weiterführende Informationen zu Hardbounce-Fehlern finden Sie in den Abschnitten [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) und [Liste der Versandfehlertypen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Weiterführende Informationen zu Hardbounce-Fehlern finden Sie in den Abschnitten [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) und [Liste der Versandfehlertypen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Mindestens erforderliche Zeit für Versand im Status &#39;Start ausstehend&#39; (in Minuten)]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Status **[!UICONTROL Start ausstehend]** die in diesem Feld definierte Dauer übersteigt. **[!UICONTROL Start ausstehend]** bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.
 * **[!UICONTROL Mindestdauer (in Minuten) für die Berechnung des Durchsatzes]**: Nur Sendungen, deren Dauer länger ist als der spezifizierte Wert (mit Status **[!UICONTROL Gestartet]**), werden für die Bedingung **[!UICONTROL Sendungen mit geringem Durchsatz]** berücksichtigt.
@@ -236,7 +236,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
    * Ein Problem bei der Zustellbarkeit
    * Ein fehlerhafter Workflow
 
-   Wenn der Versand durch einen Workflow ausgelöst wird, prüfen Sie, ob der Workflow korrekt gestartet wurde. Weiterführende Informationen dazu finden Sie unter [Workflow ausführen](../../automating/using/about-workflow-execution.md). Sollten die Probleme fortbestehen, wenden Sie sich an Ihren Adobe-Campaign-Administrator.
+  Wenn der Versand durch einen Workflow ausgelöst wird, prüfen Sie, ob der Workflow korrekt gestartet wurde. Weiterführende Informationen dazu finden Sie unter [Workflow ausführen](../../automating/using/about-workflow-execution.md). Sollten die Probleme fortbestehen, wenden Sie sich an Ihren Adobe-Campaign-Administrator.
 
 * **[!UICONTROL Sendungen mit fehlgeschlagener Vorbereitung]**: Bei der Versandvorbereitung kann in folgenden Fällen ein Fehler auftreten:
 
@@ -245,35 +245,33 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
    * Die Zielgruppe fehlt.
    * Der Versand übersteigt das Größenlimit.
 
-   Weiterführende Informationen dazu finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md). Diese Fehler werden jedoch normalerweise während der Nachrichtenanalyse erkannt. Näheres dazu finden Sie unter [Kontrollregeln](../../sending/using/control-rules.md).
+  Weiterführende Informationen dazu finden Sie im Abschnitt [Versandvorbereitung](../../sending/using/preparing-the-send.md). Diese Fehler werden jedoch normalerweise während der Nachrichtenanalyse erkannt. Näheres dazu finden Sie unter [Kontrollregeln](../../sending/using/control-rules.md).
 
 * Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Softbounce-Fehlerrate]** sind:
 
    * Der Server des Empfängers ist ausgefallen.
    * Das Postfach des Empfängers ist voll.
 
-   Weitere Informationen erhalten Sie in den Tabs **[!UICONTROL Ausschlusslogs]** und **[!UICONTROL Ausschlussgründe]** des Versandlogs. Siehe [Ausschlusslogs](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  Weitere Informationen erhalten Sie in den Tabs **[!UICONTROL Ausschlusslogs]** und **[!UICONTROL Ausschlussgründe]** des Versandlogs. Siehe [Ausschlusslogs](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Hardbounce-Fehlerrate]** sind:
+  Mögliche Gründe für die Warnung **[!UICONTROL Versand mit zu hoher Hardbounce-Fehlerrate]** sind:
 
    * Der Empfänger wird auf die Blockierungsliste gesetzt, was bedeutet, dass er nicht mehr kontaktiert werden möchte.
    * Die E-Mail-Adresse des Empfängers existiert nicht.
    * Die Domain des Empfängers existiert nicht.
    * Der Server des Empfängers blockiert die Zustellung.
 
-   Um Soft- und Hardbounce-Fehler zu vermeiden, folgen Sie den unten stehenden Empfehlungen:
+  Um Soft- und Hardbounce-Fehler zu vermeiden, folgen Sie den unten stehenden Empfehlungen:
 
    * Erstellen Sie Filter-Typologieregeln, um einen Teil der Zielgruppe während der Versandanalyse auszuschließen, wie etwa Empfänger in Quarantäne. Näheres dazu finden Sie unter [Filterregel erstellen](../../sending/using/filtering-rules.md).
    * Aktualisieren Sie regelmäßig Ihre Kundendatenbank, um eine gute Quarantäneverwaltung zu gewährleisten. Näheres dazu erfahren Sie unter [Über Quarantänen](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * Im Allgemeinen sollten Sie versuchen, die Zustellbarkeit möglichst zu verbessern. Näheres dazu finden Sie in der Dokumentation von Adobe Campaign im Abschnitt [Zustellbarkeit](../../sending/using/about-deliverability.md). Wenden Sie sich außerdem an Ihren Adobe Campaign-Administrator um Hilfe.
 
-
-
 * **[!UICONTROL Sendungen mit lange ausstehendem Start]**: Normalerweise bedeutet das, dass es ein Problem auf MTA-Ebene gibt (Message Transfer Agent). Der Prozess wartet auf die Verfügbarkeit von Ressourcen. Möglicherweise wurde der MTA noch nicht gestartet.
 
-   **[!UICONTROL Sendungen mit geringem Durchsatz]**: Hierbei handelt es sich ebenfalls um ein Problem mit der Zustellbarkeit, das darauf hinweist, dass der MTA zu langsam ist.
+  **[!UICONTROL Sendungen mit geringem Durchsatz]**: Hierbei handelt es sich ebenfalls um ein Problem mit der Zustellbarkeit, das darauf hinweist, dass der MTA zu langsam ist.
 
-   Wenden Sie sich an Ihren Adobe-Campaign-Administrator, um Näheres dazu zu erfahren.
+  Wenden Sie sich an Ihren Adobe-Campaign-Administrator, um Näheres dazu zu erfahren.
 
 **Verwandte Themen:**
 

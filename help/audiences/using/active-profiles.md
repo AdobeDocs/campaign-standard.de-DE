@@ -41,3 +41,4 @@ Unten auf der Seite werden die Zielgruppendimensionen mit der jeweiligen Anzahl 
 >[!NOTE]
 >
 >Als Administrator können Sie die Anzahl der in Ihren Instanzen verwendeten aktiven Profile auch direkt über das Control Panel überwachen. Weitere Informationen hierzu finden Sie in der [Control Panel-Dokumentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=de).
+>

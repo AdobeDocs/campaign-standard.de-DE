@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -45,9 +45,9 @@ So konfigurieren Sie einen Dienst:
    * **[!UICONTROL Keine Nachricht]**: Mit diesem Modus können Sie einen Dienst ohne Bestätigungsnachricht erstellen.
    * **[!UICONTROL Standardnachricht]**: Bei diesem Modus wird die standardmäßige Bestätigungs-Transaktionsnachricht für An- oder Abmeldungen verwendet. Die Standard-Bestätigungsnachrichten sind allgemein gehalten und für alle Dienste identisch, die den Standardmodus verwenden.
 
-      >[!NOTE]
-      >
-      >Sie können eine Standardnachricht ändern, indem Sie im Bereich **[!UICONTROL Diensteigenschaften]** auf deren Titel klicken oder indem Sie die Nachricht in der Liste der Transaktionsnachrichten von Adobe Campaign auswählen, nachdem Sie das Feld **[!UICONTROL Interne Transaktionsnachrichten zeigen]** aktiviert haben.
+     >[!NOTE]
+     >
+     >Sie können eine Standardnachricht ändern, indem Sie im Bereich **[!UICONTROL Diensteigenschaften]** auf deren Titel klicken oder indem Sie die Nachricht in der Liste der Transaktionsnachrichten von Adobe Campaign auswählen, nachdem Sie das Feld **[!UICONTROL Interne Transaktionsnachrichten zeigen]** aktiviert haben.
 
    * **[!UICONTROL Benutzerdefinierte Nachricht]**: In diesem Modus können Sie benutzerdefinierte Bestätigungsnachrichten verwenden, die für jeden Dienst anders sind. Wählen Sie hierfür die Option **[!UICONTROL Benutzerdefinierte Konfiguration des Anmeldeereignisses]** aus. Diese Konfiguration ist mit einer bestimmten [Transaktionsnachrichtenvorlage](../../channels/using/getting-started-with-transactional-msg.md) verknüpft. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bestätigen des Abonnements eines Dienstes](../../audiences/using/confirming-subscription-to-a-service.md).
 

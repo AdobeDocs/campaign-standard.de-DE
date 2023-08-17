@@ -38,15 +38,15 @@ Wenn Sie eine Ressource erstellen oder erweitern möchten, gehen Sie wie folgt v
 
    * **[!UICONTROL Neue Ressource erstellen]**: Füllen Sie die Felder **[!UICONTROL Titel]** und **[!UICONTROL ID]** aus. Das Feld **[!UICONTROL Kennung]** ist ein Pflichtfeld. Falls kein Titel angegeben wird, wird dieser automatisch ausgehend von der Kennung vergeben.
 
-      ![](assets/schema_extension_2.png)
+     ![](assets/schema_extension_2.png)
 
-      >[!NOTE]
-      >
-      >Verwenden Sie maximal 30 Zeichen.
+     >[!NOTE]
+     >
+     >Verwenden Sie maximal 30 Zeichen.
 
    * **[!UICONTROL Existierende Ressource erweitern]**: Wählen Sie die zu erweiternde Ressource aus.
 
-      ![](assets/schema_extension_10.png)
+     ![](assets/schema_extension_10.png)
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus, um die Ressource zu erstellen. Diese erhält daraufhin den Status **[!UICONTROL Entwurf]**, falls es sich um eine neue Ressource handelt, oder den Status **[!UICONTROL In Bearbeitung]** im Fall einer Erweiterung.
 

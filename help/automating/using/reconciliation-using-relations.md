@@ -34,32 +34,32 @@ Der Workflow besteht aus folgenden Aktivitäten:
    * E-Mail-Adresse des Kunden
    * Artikelnummer des gekauften Produkts
 
-   ```
-   date;client;product
-   2015-05-19 09:00:00;mail1@email.com;ZZ1
-   2015-05-19 09:01:00;mail2@email.com;ZZ2
-   2015-05-19 09:01:01;mail3@email.com;ZZ2
-   2015-05-19 09:01:02;mail4@email.com;ZZ2
-   2015-05-19 09:02:00;mail5@email.com;ZZ3
-   2015-05-19 09:03:00;mail6@email.com;ZZ4
-   2015-05-19 09:04:00;mail7@email.com;ZZ5
-   2015-05-19 09:05:00;mail8@email.com;ZZ7
-   2015-05-19 09:06:00;mail9@email.com;ZZ6
-   ```
+  ```
+  date;client;product
+  2015-05-19 09:00:00;mail1@email.com;ZZ1
+  2015-05-19 09:01:00;mail2@email.com;ZZ2
+  2015-05-19 09:01:01;mail3@email.com;ZZ2
+  2015-05-19 09:01:02;mail4@email.com;ZZ2
+  2015-05-19 09:02:00;mail5@email.com;ZZ3
+  2015-05-19 09:03:00;mail6@email.com;ZZ4
+  2015-05-19 09:04:00;mail7@email.com;ZZ5
+  2015-05-19 09:05:00;mail8@email.com;ZZ7
+  2015-05-19 09:06:00;mail9@email.com;ZZ6
+  ```
 
 * [Abstimmung](../../automating/using/reconciliation.md) zur Zuweisung der Verkaufsdaten zu Datenbankprofilen sowie Produkten. Es ist also notwendig, eine Relation der Dateidaten mit der Profil- sowie mit der Produkttabelle zu definieren. Diese Konfiguration erfolgt im **[!UICONTROL Relationen]**-Tab der Aktivität:
 
    * Relation zu den **Profilen**: die Spalte **Kunde** der Datei ist dem Feld **E-Mail** der Dimension **Profile** zugeordnet.
    * Relation zu den **Produkten**: die Spalte **Produkte** der Datei ist dem Feld **productCode** der Dimension **Profile** zugeordnet.
 
-   Die eingehenden Daten werden um Spalten zur Referenzierung der Fremdschlüssel der verbundenen Dimensionen erweitert.
+  Die eingehenden Daten werden um Spalten zur Referenzierung der Fremdschlüssel der verbundenen Dimensionen erweitert.
 
-   ![](assets/reconciliation_example3.png)
+  ![](assets/reconciliation_example3.png)
 
 * [Daten-Update](../../automating/using/update-data.md) zur Bestimmung der anhand der importierten Daten zu aktualisierenden Datenbankfelder. Da die Daten in der vorangehenden Aktivität bereits als der Dimension **Transaktionen** zugehörig identifiziert wurden, besteht nun hier die Möglichkeit der direkten Verwendung der Identifizierungsoption **[!UICONTROL Über die Zielgruppendimension]**.
 
-   Bei der Verwendung der Option zur automatischen Erkennung der zu aktualisierenden Felder werden die in der vorangehenden Aktivität konfigurierten Relationen (zu Profilen und Artikeln) der Liste **[!UICONTROL Zu aktualisierende Felder]** hinzugefügt. Dabei müssen Sie sich außerdem vergewissern, dass die den jeweiligen Transaktionsdaten entsprechenden Felder korrekt zu dieser Liste hinzugefügt werden.
+  Bei der Verwendung der Option zur automatischen Erkennung der zu aktualisierenden Felder werden die in der vorangehenden Aktivität konfigurierten Relationen (zu Profilen und Artikeln) der Liste **[!UICONTROL Zu aktualisierende Felder]** hinzugefügt. Dabei müssen Sie sich außerdem vergewissern, dass die den jeweiligen Transaktionsdaten entsprechenden Felder korrekt zu dieser Liste hinzugefügt werden.
 
-   ![](assets/reconciliation_example5.png)
+  ![](assets/reconciliation_example5.png)
 
-   ![](assets/reconciliation_example4.png)
+  ![](assets/reconciliation_example4.png)

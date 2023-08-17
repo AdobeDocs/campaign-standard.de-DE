@@ -31,6 +31,7 @@ In diesem Abschnitt erfahren Sie, wie Sie Zugriff auf die Selfservice-Anwendung 
 >[!IMPORTANT]
 >
 > Für diese Schritte benötigen Sie die **Administratorrolle** in Experience Cloud für Ihr Unternehmen.
+>
 
 1. Gehen Sie zu https://experience.adobe.com/ und melden Sie sich bei Adobe Experience Cloud an.
 1. Rufen Sie die **Admin Console** auf.
@@ -45,6 +46,7 @@ In diesem Abschnitt erfahren Sie, wie Sie Zugriff auf die Selfservice-Anwendung 
    >[!IMPORTANT]
    >
    >Die restlichen Schritte in diesem Abschnitt müssen für jede Ihrer Campaign-Instanzen (Entwicklung, Text, Produktion) ausgeführt werden.
+   >
 
 1. Klicken Sie auf die erste Instanz, die Sie konfigurieren möchten.
 

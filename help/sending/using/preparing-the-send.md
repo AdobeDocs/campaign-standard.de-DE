@@ -19,17 +19,17 @@ ht-degree: 100%
 
 In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Sobald die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am [geplanten Datum und zur geplanten Uhrzeit](../../sending/using/about-scheduling-messages.md) gesendet werden.
 
-1. Klicken Sie in der Symbolleiste auf die Schaltfläche **Vorbereiten**, um die Vorbereitung zu starten.
+1. Klicken Sie in der Aktionsleiste auf die Schaltfläche **Vorbereiten**, um die Vorbereitung zu starten.
 
    ![](assets/preparing_delivery_2.png)
 
-1. In der Kachel **[!UICONTROL Freigabe]** werden zunächst der Vorbereitungsfortschritt und dann das Ergebnis der Vorbereitung angezeigt: die Anzahl der in der Zielgruppe enthaltenen Kontakte und zu sendenden Nachrichten usw.
+1. In der Kachel **[!UICONTROL Bereitstellung]** werden zunächst der Vorbereitungsfortschritt und dann das Ergebnis der Vorbereitung angezeigt: die Anzahl der in der Zielgruppe enthaltenen Kontakte und zu sendenden Nachrichten usw.
 
    Abhängig von der Größe der Ziel-Population kann dieser Vorgang einige Zeit in Anspruch nehmen.
 
    ![](assets/preparing_delivery.png)
 
-1. Die Schaltfläche **Anhalten** in der Symbolleiste ermöglicht es, die Vorbereitung jederzeit zu unterbrechen.
+1. Die Schaltfläche **Anhalten** in der Aktionsleiste ermöglicht es, die Vorbereitung jederzeit zu unterbrechen.
 
    Dies ist mit keinerlei Risiko verbunden, da in dieser Phase keine Nachrichten gesendet werden. Je nach Größe der Zielgruppe kann die Dauer der Versandvorbereitung variieren.
 
@@ -43,7 +43,7 @@ In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für
 
    ![](assets/preparing_delivery_4.png)
 
-1. Das Fenster **[!UICONTROL Freigabe]** wird geöffnet. Korrigieren Sie etwaige Fehler und starten Sie die Vorbereitung erneut.
+1. Das Fenster **[!UICONTROL Bereitstellung]** wird geöffnet. Korrigieren Sie etwaige Fehler und starten Sie die Vorbereitung erneut.
 
    Der letzte Logeintrag zeigt eventuelle Fehler und deren Anzahl an. Ein spezifisches Symbol verdeutlicht den Fehlertyp: Ein gelbes Symbol kennzeichnet beispielsweise einen nicht blockierenden Verarbeitungsfehler, während ein rotes Symbol einen Fehler bezeichnet, der den Versand der Nachrichten verhindert.
 

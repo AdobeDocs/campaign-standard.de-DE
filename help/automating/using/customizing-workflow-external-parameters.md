@@ -44,28 +44,28 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
 
 * ![](assets/extsignal_picker.png): Wählen Sie die Ereignisvariable aus den im Workflow verfügbaren Variablen aus.
 
-   ![](assets/wkf_test_activity_variables.png)
+  ![](assets/wkf_test_activity_variables.png)
 
 * ![](assets/extsignal_expression_editor.png): Hier können Sie Ausdrücke durch eine Kombination von Variablen und Funktionen bearbeiten (siehe [diese Seite](../../automating/using/advanced-expression-editing.md)).
 
-   ![](assets/wkf_test_activity_variables_expression.png)
+  ![](assets/wkf_test_activity_variables_expression.png)
 
-   Diese Liste bietet Funktionen, mit denen Sie komplexe Filtervorgänge durchführen können. Diese Funktionen sind in [diesem Abschnitt](../../automating/using/list-of-functions.md) ausführlich beschrieben.
+  Diese Liste bietet Funktionen, mit denen Sie komplexe Filtervorgänge durchführen können. Diese Funktionen sind in [diesem Abschnitt](../../automating/using/list-of-functions.md) ausführlich beschrieben.
 
-   Darüber hinaus können Sie die folgenden Funktionen verwenden, die in allen Aktivitäten zur Verfügung stehen, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen (siehe [diesen Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+  Darüber hinaus können Sie die folgenden Funktionen verwenden, die in allen Aktivitäten zur Verfügung stehen, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen (siehe [diesen Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-   | Name | Beschreibung  | Syntax |
-   | ---------|----------|---------|
-   | EndWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) endet. | EndWith(&lt;String>,&lt;String>) |
-   | startWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) beginnt. | startWith(&lt;String>,&lt;String>) |
-   | Extract | Gibt die ersten Zeichen einer Zeichenfolge mithilfe eines Trennzeichens zurück. | Extract(&lt;String>,&lt;Separator>) |
-   | ExtractRight | Gibt die letzten Zeichen einer Zeichenfolge mithilfe eines Trennzeichens zurück. | ExtractRight(&lt;String>,&lt;Separator>) |
-   | DateFormat | Formatiert ein Datum mit dem im 2. Parameter angegebenen Format (Beispiel: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
-   | FileName | Gibt den Namen eines Dateipfads zurück. | FileName(&lt;String>) |
-   | FileExt | Gibt die Erweiterung eines Dateipfads zurück. | FileExt(&lt;String>) |
-   | GetOption | Gibt den Wert der angegebenen Funktion zurück. | GetOption(&lt;optionName>)) |
-   | IsNull | Gibt an, ob eine Zeichenfolge oder ein Datum null ist. | IsNull(&lt;String/date>) |
-   | UrlUtf8Encode | Kodiert eine URL in UTF8. | UrlUtf8Encode(&lt;String>) |
+  | Name | Beschreibung  | Syntax |
+  | ---------|----------|---------|
+  | EndWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) endet. | EndWith(&lt;String>,&lt;String>) |
+  | startWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) beginnt. | startWith(&lt;String>,&lt;String>) |
+  | Extract | Gibt die ersten Zeichen einer Zeichenfolge mithilfe eines Trennzeichens zurück. | Extract(&lt;String>,&lt;Separator>) |
+  | ExtractRight | Gibt die letzten Zeichen einer Zeichenfolge mithilfe eines Trennzeichens zurück. | ExtractRight(&lt;String>,&lt;Separator>) |
+  | DateFormat | Formatiert ein Datum mit dem im 2. Parameter angegebenen Format (Beispiel: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
+  | FileName | Gibt den Namen eines Dateipfads zurück. | FileName(&lt;String>) |
+  | FileExt | Gibt die Erweiterung eines Dateipfads zurück. | FileExt(&lt;String>) |
+  | GetOption | Gibt den Wert der angegebenen Funktion zurück. | GetOption(&lt;optionName>)) |
+  | IsNull | Gibt an, ob eine Zeichenfolge oder ein Datum null ist. | IsNull(&lt;String/date>) |
+  | UrlUtf8Encode | Kodiert eine URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 
 ## Aktivitäten mit Ereignisvariablen anpassen         {#customizing-activities-with-events-variables}
 
@@ -112,17 +112,17 @@ Jetzt sind in der Liste der Personalisierungsfelder die deklarierten Ereignisvar
 
 * Definieren Sie den Namen der für den Versand zu verwendenden Vorlage.
 
-   >[!NOTE]
-   >
-   >Diese Aktion ist nur für den **wiederkehrenden** Versand verfügbar.
+  >[!NOTE]
+  >
+  >Diese Aktion ist nur für den **wiederkehrenden** Versand verfügbar.
 
-   ![](assets/extsignal_activities_template.png)
+  ![](assets/extsignal_activities_template.png)
 
 * Personalisieren Sie den Versand: Bei der Auswahl eines Personalisierungsfeldes zur Konfiguration eines Versands sind Ereignisvariablen im Element **[!UICONTROL Workflow-Parameter]** verfügbar. Sie können sie für ein beliebiges Personalisierungsfeld verwenden, z. B. zur Definition des Betreffs oder des Absenders.
 
-   Die Versandpersonalisierung wird im Detail in [diesem Abschnitt](../../designing/using/personalization.md) beschrieben.
+  Die Versandpersonalisierung wird im Detail in [diesem Abschnitt](../../designing/using/personalization.md) beschrieben.
 
-   ![](assets/extsignal_activities_perso.png)
+  ![](assets/extsignal_activities_perso.png)
 
 **Segmentcode**: Definieren Sie den Segmentcode auf der Basis von Ereignisvariablen.
 

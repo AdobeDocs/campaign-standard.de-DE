@@ -36,35 +36,35 @@ Der Log-Export kann von Standardbenutzern durchgeführt werden. Private Ressourc
 
    * Wählen Sie im Tab **[!UICONTROL Eigenschaften]** als Zielressource **Versandlogs** (broadLogRcp) aus.
 
-      ![](assets/export_logs_query_properties.png)
+     ![](assets/export_logs_query_properties.png)
 
    * Spezifizieren Sie im Tab **[!UICONTROL Zielgruppe]** eine Bedingung zum Abrufen aller Versandlogs, die Sendungen im Jahr 2016 oder danach entsprechen. Weiterführende Informationen hierzu finden Sie im Abschnitt [Abfragetool](../../automating/using/editing-queries.md#creating-queries).
 
-      ![](assets/export_logs_query_target.png)
+     ![](assets/export_logs_query_target.png)
 
    * Wählen Sie im Tab **[!UICONTROL Verarbeitete Daten]** die Option **[!UICONTROL Datumsfeld verwenden]** und danach **lastModified** aus. Bei der nächsten Ausführung des Workflows werden nur Logs abgerufen, die nach der letzten Ausführung geändert oder erstellt wurden.
 
-      ![](assets/export_logs_query_processeddata.png)
+     ![](assets/export_logs_query_processeddata.png)
 
-      In diesem Tab ist nach der ersten Ausführung des Workflows das Datum der jeweils letzten Ausführung zu sehen, welches wiederum für die nächste Ausführung herangezogen wird. Es wird automatisch bei jeder Ausführung des Workflows aktualisiert. Sie können diesen Wert auch überschreiben, indem Sie einen neuen eingeben.
+     In diesem Tab ist nach der ersten Ausführung des Workflows das Datum der jeweils letzten Ausführung zu sehen, welches wiederum für die nächste Ausführung herangezogen wird. Es wird automatisch bei jeder Ausführung des Workflows aktualisiert. Sie können diesen Wert auch überschreiben, indem Sie einen neuen eingeben.
 
 1. Fügen Sie die Aktivität **[!UICONTROL Dateiextraktion]** hinzu, mit der die abgefragten Daten in einer Datei exportiert werden:
 
    * Geben Sie im Tab **[!UICONTROL Extraktion]** den Namen der Datei ein.
 
-      Wenn Sie die Option **[!UICONTROL Datum und Uhrzeit zum Dateinamen hinzufügen]** auswählen, wird dieser Name automatisch mit dem Datum des Exports ausgefüllt, um sicherzustellen, dass alle extrahierten Dateien eindeutig sind. Wählen Sie die Spalten, die in Ihrer Datei exportiert werden sollen. Hier können Sie Daten von verwandten Ressourcen auswählen, wie etwa Versand- oder Profilinformationen.
+     Wenn Sie die Option **[!UICONTROL Datum und Uhrzeit zum Dateinamen hinzufügen]** auswählen, wird dieser Name automatisch mit dem Datum des Exports ausgefüllt, um sicherzustellen, dass alle extrahierten Dateien eindeutig sind. Wählen Sie die Spalten, die in Ihrer Datei exportiert werden sollen. Hier können Sie Daten von verwandten Ressourcen auswählen, wie etwa Versand- oder Profilinformationen.
 
-      >[!NOTE]
-      >
-      >Um eine eindeutige Kennung für jedes Protokoll zu exportieren, wählen Sie das Element **[!UICONTROL Versandlog-ID]** aus.
+     >[!NOTE]
+     >
+     >Um eine eindeutige Kennung für jedes Protokoll zu exportieren, wählen Sie das Element **[!UICONTROL Versandlog-ID]** aus.
 
-      Zum Ordnen der endgültigen Datei können Sie eine Sortierung vornehmen. Beispielsweise können Sie wie unten gezeigt das Log-Datum sortieren.
+     Zum Ordnen der endgültigen Datei können Sie eine Sortierung vornehmen. Beispielsweise können Sie wie unten gezeigt das Log-Datum sortieren.
 
-      ![](assets/export_logs_extractfile_extraction.png)
+     ![](assets/export_logs_extractfile_extraction.png)
 
    * Geben Sie im Tab **[!UICONTROL Dateistruktur]** das Format der Ausgabedatei an.
 
-      Wenn Sie Auflistungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Auflistungen exportieren]**. Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
+     Wenn Sie Auflistungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Auflistungen exportieren]**. Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
 
 1. Fügen Sie die Aktivität **[!UICONTROL Dateiübertragung]** hinzu, und konfigurieren Sie sie, um die neu erstellte Datei vom Adobe Campaign-Server an einen anderen Speicherort zu übertragen, von wo Sie darauf zugreifen können, wie z. B. einen SFTP-Server.
 

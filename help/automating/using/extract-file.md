@@ -42,7 +42,7 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
 
    ![](assets/wkf_data_export1.png)
 
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Geben Sie den Titel der **Ausgabedatei** an. Der Dateiname wird automatisch mit dem Datum und der Uhrzeit der Erstellung ergänzt, um seine Eindeutigkeit zu gewährleisten, z. B.: Beispiel: recipients_20150815_081532.txt für eine Datei, die am 15. August 2015 um 08:15:32 Uhr erstellt wurde.
 
    >[!NOTE]

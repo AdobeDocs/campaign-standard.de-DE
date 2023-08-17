@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen:
    * Ziehen Sie das Element **Versandlogs (logs)** in den Arbeitsbereich und wählen Sie **Existiert** aus, um alle Kunden in die Zielgruppe einzuschließen, die die E-Mail erhalten haben.
    * Ziehen Sie das Element **Trackinglogs (tracking)** in den Arbeitsbereich und wählen Sie **Existiert nicht** aus, um nur Kunden in die Zielgruppe einzuschließen, die die E-Mail nicht geöffnet haben.
 
-      ![](assets/wkf_push_example_2.png)
+     ![](assets/wkf_push_example_2.png)
 
 1. Definieren Sie dann über die Aktivität [Push-Benachrichtigungsversand](../../automating/using/push-notification-delivery.md) den Inhalt der Nachricht. Sie haben die Möglichkeit, sie unter Verwendung von Personalisierungsfeldern an den jeweiligen Empfänger anzupassen:
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen:
    * Wählen Sie in der Kachel **[!UICONTROL Planung]** die Option **[!UICONTROL Nachrichten werden automatisch in der unten spezifizierten Zeitzone gesendet]** aus. In unserem Beispiel wird im Workflow **[!UICONTROL Planung]** als **[!UICONTROL Zeitzone des Kontaktdatums]** „Pacific“ ausgewählt.
    * Wählen Sie im Feld **[!UICONTROL Versandzeitpunkt für jeden Empfänger optimieren]** die Option **[!UICONTROL In der Zeitzone des Empfängers senden]** aus.
 
-      ![](assets/wkf_push_example_4.png)
+     ![](assets/wkf_push_example_4.png)
 
 1. Wählen Sie nun zur Ausführung des wiederkehrenden Workflows die Schaltfläche **[!UICONTROL Starten]** aus.
 

@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Landingpages werden auf dieselbe Weise erstellt wie [Marketing-Aktivitäten](../../start/using/marketing-activities.md#about-marketing-activities).
 
-Zur Erstellung einer Landingpage müssen Sie den Inhalt der Seite selbst, der Bestätigungsseite und der Fehlerseite definieren. Mithilfe des Schalters unter der Symbolleiste können Sie jede dieser Seiten anzeigen und konfigurieren.
+Zur Erstellung einer Landingpage müssen Sie den Inhalt der Seite selbst, der Bestätigungsseite und der Fehlerseite definieren. Mithilfe des Schalters unter der Aktionsleiste können Sie jede dieser Seiten anzeigen und konfigurieren.
 
 Der Inhalt der Landingpages wird im Campaign-Inhaltseditor gestaltet.
 
@@ -55,7 +55,7 @@ Der Inhaltseditor besteht aus drei Bereichen. In diesen Bereichen können Sie de
 1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Sie können eine Vorlage auswählen und den Anzeigemodus wechseln.
 1. Im **Hauptarbeitsbereich** ermöglicht eine kontextabhängige Symbolleiste die direkte Bearbeitung des Inhalts. Sie können beispielsweise ein Bild mit einem Link belegen, die Schriftart anpassen, ein Feld löschen etc.
 
-Die **Symbolleiste** enthält Schaltflächen, die die Bearbeitung des angezeigten Inhalts ermöglichen.
+Die **Aktionsleiste** enthält Schaltflächen, die die Bearbeitung des angezeigten Inhalts ermöglichen.
 
 ![](assets/des_lp_content_9.png)
 

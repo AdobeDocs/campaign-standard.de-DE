@@ -45,23 +45,23 @@ In der Dropdown-Liste **[!UICONTROL Layout]** können Sie je nach Anforderungen 
 
 * **[!UICONTROL Ganze Seite]**: Mit dieser Einstellung ist der gesamte Bildschirm ausgefüllt.
 
-   Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
+  Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
 
 * **[!UICONTROL Großes Modal-Bild]**: Mit dieser Einstellung wird ein großes Fenster im Stil eines Warnhinweises angezeigt, wobei Ihre Anwendung noch im Hintergrund sichtbar ist.
 
-   Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
+  Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
 
 * **[!UICONTROL Kleines Modal-Bild]**: Mit dieser Einstellung wird ein kleines Fenster im Stil eines Warnhinweises angezeigt, wobei Ihre Anwendung noch im Hintergrund sichtbar ist.
 
-   Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
+  Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
 
 * **[!UICONTROL Warnhinweis]**: Mit dieser Einstellung wird ein Warnhinweis gemäß dem jeweiligen Betriebssystem angezeigt.
 
-   Von diesem Layout werden nur Text- und Schaltflächenkomponenten unterstützt.
+  Von diesem Layout werden nur Text- und Schaltflächenkomponenten unterstützt.
 
 * **[!UICONTROL Lokale Benachrichtigung]**: Dieser Layouttyp wird als Bannernachricht angezeigt.
 
-   Sie unterstützt nur Ton, Text und Ziel. Weiterführende Informationen zur lokalen Benachrichtigung finden Sie in [Nachricht vom Typ &quot;Lokale Benachrichtigung&quot; anpassen](#customizing-a-local-notification-message-type).
+  Sie unterstützt nur Ton, Text und Ziel. Weiterführende Informationen zur lokalen Benachrichtigung finden Sie in [Nachricht vom Typ &quot;Lokale Benachrichtigung&quot; anpassen](#customizing-a-local-notification-message-type).
 
 Die Vorschau eines jeden Layout-Typs kann im rechten Fenster des Inhaltseditors auf verschiedenen Geräten, wie Smartphones und Tablets, unterschiedlichen Plattformen, z. B. Android oder iOS, und in unterschiedlichen Ausrichtungen, wie Hoch- oder Querformat, angesehen werden.
 

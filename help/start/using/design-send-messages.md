@@ -90,7 +90,7 @@ Personalisierte Nachrichten sind wichtig, wenn Sie relevante Inhalte versenden, 
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Adobe Campaign bietet nicht nur leistungsstarke native Reporting-Vorlagen, sondern ermöglicht auch die Erstellung benutzerdefinierter Berichte auf Versand-, Kampagnen-, Benutzer- oder Segmentebene. Verfolgen Sie Ihre Nachrichten und verstehen Sie das Verhalten Ihrer Kunden, indem Sie deren Profile nach und nach mit Daten anreichern. Mithilfe der Reporting- und Analyse-Tools schlagen Sie aus jeder neuen Kampagne Kapital, während Sie Ihre Marketing-Aktivitäten besser abstimmen und deren Erfolg sowie ihr Kosten-Nutzen-Verhältnis optimieren.
+Adobe Campaign bietet nicht nur leistungsstarke native Reporting-Vorlagen, sondern ermöglicht auch die Erstellung benutzerdefinierter Berichte auf Versand-, Kampagnen-, Benutzer- oder Segmentebene. Verfolgen Sie Ihre Nachrichten und verstehen Sie das Verhalten Ihrer Kunden, indem Sie deren Profile nach und nach mit Daten anreichern. Mithilfe der Reporting- und Analyse-Tools schlagen Sie aus jeder neuen Kampagne Kapital, während Sie Ihre Marketing-Aktionen besser abstimmen und deren Erfolg sowie ihr Kosten-Nutzen-Verhältnis optimieren.
 
 Die Benutzeroberfläche erlaubt einen schnellen und einfachen Zugriff auf die wichtigsten Indikatoren und Versandstatistiken:
 

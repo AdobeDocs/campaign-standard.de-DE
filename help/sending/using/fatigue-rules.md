@@ -99,9 +99,9 @@ Folgende Kanäle stehen zur Verfügung:
 * Briefpost
 * Mobile App: Mit diesem Kanal können Sie Push-Benachrichtigungen an Profile oder an App-Abonnenten senden. Wenn Sie Benachrichtigungen an Profile senden, können die Ermüdungsregeln für alle Kanäle verwendet werden.
 
-   >[!IMPORTANT]
-   >
-   >Ermüdungsregeln sind jedoch nicht kompatibel mit an App-Abonnenten gesendete Push-Benachrichtigungen. Wenn Sie Nachrichten an App-Abonnenten senden, werden die Ermüdungsregeln nicht angewendet.
+  >[!IMPORTANT]
+  >
+  >Ermüdungsregeln sind jedoch nicht kompatibel mit an App-Abonnenten gesendete Push-Benachrichtigungen. Wenn Sie Nachrichten an App-Abonnenten senden, werden die Ermüdungsregeln nicht angewendet.
 
 * Alle Kanäle: Mit dieser Option können Sie die Regel auf alle Kanäle anwenden. Beispielsweise können Sie festlegen, monatlich kanalübergreifend maximal drei Nachrichten zu versenden. Wenn Sie in der Vorwoche zwei E-Mails an ein Profil gesendet haben und diesem Profil heute eine Push-Benachrichtigung senden möchten, wird dieses Profil ausgeschlossen.
 
@@ -135,11 +135,11 @@ Dann haben Sie zwei Möglichkeiten:
 
 * Wählen Sie ein Profilfeld aus: Die Schwelle ändert sich für jedes Profil entsprechend dem ausgewählten Feld. Wenn Sie beispielsweise die Profil-Ressource durch das Feld &#39;Kommunikationshäufigkeit&#39; erweitert haben, wählen Sie das Feld mithilfe der Schaltfläche rechts vom Feld **[!UICONTROL Schwellenformel]** und danach Ihr Feld aus. Für jedes Profil übernimmt die Schwelle den im Feld &#39;Kommunikationshäufigkeit‘ angegebenen Wert.
 
-   ![](assets/fatigue21.png)
+  ![](assets/fatigue21.png)
 
 * Definieren Sie eine Formel: Verwenden Sie die zweite Schaltfläche rechts neben dem Feld **[!UICONTROL Schwellenformel]**, um eine erweiterte Schwellenformel zu definieren. Sie können beispielsweise die Anzahl der genehmigten Nachrichten entsprechend dem Segment indexieren, zu dem das Profil gehört. Dies bedeutet, dass ein Profil, das zum Segment &#39;Web&#39; gehört, mehr Nachrichten erhalten kann als andere Profile. Mit einer Formel vom Typ **[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]** wird der Versand von fünf Nachrichten an Profile des Web-Segments und an drei anderer Segmente genehmigt.
 
-   ![](assets/fatigue14.png)
+  ![](assets/fatigue14.png)
 
 **Schwelle für Profile und Sendungen präzisieren**
 
@@ -168,7 +168,7 @@ Um die berücksichtigten Sendungen auf einen Zeitraum von zwei Wochen zu beschr�
 
 ## Ermüdungsergebnisse ansehen        {#viewing-the-fatigue-results}
 
-Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie bereits eine bestimmte Anzahl an Sendungen erhalten haben. Der Zugriff auf die Ausführungsergebnisse der Ermüdungsregel ist über die Schaltfläche unten rechts in der **[!UICONTROL Freigabe]**-Kachel möglich.
+Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie bereits eine bestimmte Anzahl an Sendungen erhalten haben. Der Zugriff auf die Ausführungsergebnisse der Ermüdungsregel ist über die Schaltfläche unten rechts in der Kachel **[!UICONTROL Bereitstellung]** möglich.
 
 ![](assets/fatigue22.png)
 
@@ -176,15 +176,15 @@ In drei Tabs werden die Durchführungsergebnisse der Ermüdungsregel, einschlie�
 
 * Versandlogs:
 
-   ![](assets/fatigue17.png)
+  ![](assets/fatigue17.png)
 
 * Ausschlusslogs:
 
-   ![](assets/fatigue18.png)
+  ![](assets/fatigue18.png)
 
 * Ausschlussgründe:
 
-   ![](assets/fatigue19.png)
+  ![](assets/fatigue19.png)
 
 ## Bericht mit der Zusammenfassung zu Ermüdungsregeln ansehen        {#viewing-the-fatigue-rule-summary-report}
 
@@ -221,33 +221,33 @@ Es gibt viele Möglichkeiten zur Verwendung der Ermüdungsfunktion. Hier sind ei
 
 * Erstellen Sie eine Ermüdungsregel mit einer **konstanten Schwelle**, die für **alle Kanäle** gilt:
 
-   Angenommen, Sie erstellen eine Regel für mehrere Kanäle mit einer konstanten Schwelle von 3 über einen beweglichen Zeitraum von 7 Tagen.
+  Angenommen, Sie erstellen eine Regel für mehrere Kanäle mit einer konstanten Schwelle von 3 über einen beweglichen Zeitraum von 7 Tagen.
 
-   In der vorangegangenen Woche haben Ihre Premium-Profile eine Promotion-E-Mail und eine Transaktions-Remarketing-E-Mail erhalten. Außerdem haben Sie eine SMS geplant, die nächste Woche gesendet wird. Heute möchten Sie eine Push-Benachrichtigung an alle Ihre Profile senden. Die Premium-Profile werden aus der heutigen Push-Benachrichtigung ausgeschlossen, da ihre maximale Nachrichtenanzahl über einen Zeitraum von zwei Wochen bereits erreicht wurde.
+  In der vorangegangenen Woche haben Ihre Premium-Profile eine Promotion-E-Mail und eine Transaktions-Remarketing-E-Mail erhalten. Außerdem haben Sie eine SMS geplant, die nächste Woche gesendet wird. Heute möchten Sie eine Push-Benachrichtigung an alle Ihre Profile senden. Die Premium-Profile werden aus der heutigen Push-Benachrichtigung ausgeschlossen, da ihre maximale Nachrichtenanzahl über einen Zeitraum von zwei Wochen bereits erreicht wurde.
 
-   ![](assets/fatigue23.png)
+  ![](assets/fatigue23.png)
 
 * Erstellen Sie eine Ermüdungsregel mit einer **variablen Schwelle** auf der Basis eines **Profilfelds**:
 
-   Sie haben die Profil-Ressource mit dem Feld &#39;Kommunikationsbeschränkung&#39; erweitert, um für jedes Profil eine andere Schwelle festzulegen. Definieren Sie in Ihrer Ermüdungsregel eine variable Schwelle auf der Basis dieses Feldes und wählen Sie einen beweglichen Zeitraum von zwei Tagen aus. Sehen wir uns als Beispiel zwei Profile an: John hat eine Kommunikationsbeschränkung von 1 und David hat eine Schwelle von 2. Beide haben bereits gestern eine E-Mail mit einem Newsletter erhalten. Sie möchten ihnen heute noch eine E-Mail schicken. Nur David wird eine erhalten, da John von der Zielgruppe ausgeschlossen wurde.
+  Sie haben die Profil-Ressource mit dem Feld &#39;Kommunikationsbeschränkung&#39; erweitert, um für jedes Profil eine andere Schwelle festzulegen. Definieren Sie in Ihrer Ermüdungsregel eine variable Schwelle auf der Basis dieses Feldes und wählen Sie einen beweglichen Zeitraum von zwei Tagen aus. Sehen wir uns als Beispiel zwei Profile an: John hat eine Kommunikationsbeschränkung von 1 und David hat eine Schwelle von 2. Beide haben bereits gestern eine E-Mail mit einem Newsletter erhalten. Sie möchten ihnen heute noch eine E-Mail schicken. Nur David wird eine erhalten, da John von der Zielgruppe ausgeschlossen wurde.
 
-   ![](assets/fatigue24.png)
+  ![](assets/fatigue24.png)
 
 * Erstellen Sie eine Ermüdungsregel mit einer **Schwellenformel**:
 
-   Sie möchten die Schwelle dem Alter Ihrer Profile anpassen. Für Profile unter 40 möchten Sie ein Limit von 4 und für ältere Profile ein Limit von 2 festlegen. Anstatt diese Schwelle für jedes Profil über ein erweitertes Feld festzulegen, können Sie direkt in Ihrer Ermüdungsregel eine Formel erstellen, mit der die Schwelle entsprechend dem Alter Ihrer Profile berechnet wird. In unserem Beispiel wäre die Formel **[!UICONTROL Iif (@age&lt;40, 4, 2)]**.
+  Sie möchten die Schwelle dem Alter Ihrer Profile anpassen. Für Profile unter 40 möchten Sie ein Limit von 4 und für ältere Profile ein Limit von 2 festlegen. Anstatt diese Schwelle für jedes Profil über ein erweitertes Feld festzulegen, können Sie direkt in Ihrer Ermüdungsregel eine Formel erstellen, mit der die Schwelle entsprechend dem Alter Ihrer Profile berechnet wird. In unserem Beispiel wäre die Formel **[!UICONTROL Iif (@age&lt;40, 4, 2)]**.
 
-   ![](assets/fatigue25.png)
+  ![](assets/fatigue25.png)
 
-   >[!NOTE]
-   >
-   >Dieser Abschnitt enthält auch ein Beispiel mit einer schrittweisen Anleitung zu einer Ermüdungsregel, in der eine Schwellenformel verwendet wird.
+  >[!NOTE]
+  >
+  >Dieser Abschnitt enthält auch ein Beispiel mit einer schrittweisen Anleitung zu einer Ermüdungsregel, in der eine Schwellenformel verwendet wird.
 
 * Erstellen Sie eine Ermüdungsregel zur **Präzisierung der Schwelle** für Profile und Sendungen:
 
-   Sie haben die Profil-Ressource mit dem Feld &#39;Punktzahl&#39; und die Sendungen-Ressource mit dem Feld &#39;Typ&#39; erweitert. Sie möchten eine konstante Schwelle von 3 definieren, doch von der Zählung sollen alle Sendungen des Typs &#39;Warnung&#39; oder &#39;Schwarzer Freitag&#39; sowie alle Profile mit einer Punktzahl größer als 10 ausgeschlossen werden. Wenn die Regel ausgeführt wird, werden innerhalb der vorangegangenen und geplanten Sendungen alle Sendungen gezählt, die nicht vom Typ &#39;Warnung&#39; oder &#39;Schwarzer Freitag&#39; sind und an Profile gesendet werden, deren Punktzahl unter 10 liegt.
+  Sie haben die Profil-Ressource mit dem Feld &#39;Punktzahl&#39; und die Sendungen-Ressource mit dem Feld &#39;Typ&#39; erweitert. Sie möchten eine konstante Schwelle von 3 definieren, doch von der Zählung sollen alle Sendungen des Typs &#39;Warnung&#39; oder &#39;Schwarzer Freitag&#39; sowie alle Profile mit einer Punktzahl größer als 10 ausgeschlossen werden. Wenn die Regel ausgeführt wird, werden innerhalb der vorangegangenen und geplanten Sendungen alle Sendungen gezählt, die nicht vom Typ &#39;Warnung&#39; oder &#39;Schwarzer Freitag&#39; sind und an Profile gesendet werden, deren Punktzahl unter 10 liegt.
 
-   ![](assets/fatigue26.png)
+  ![](assets/fatigue26.png)
 
 Im Folgenden finden Sie ein Beispiel mit einer schrittweisen Anleitung zur Erstellung einer Ermüdungsregel, in der eine Schwellenformel verwendet wird.
 

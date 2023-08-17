@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7263'
 ht-degree: 100%
 
@@ -816,7 +816,7 @@ Die kontextuelle Hilfe von Campaign Standard wurde aktualisiert.
 
 Anmeldung: Eine Liste mit Profilen für mehrere Dienste an- oder abmelden – [mehr dazu](../../automating/using/subscription-services.md)
 
-Anreicherungsaktivität: Reichern Sie Daten auf der Basis eingehender Transitionen an – [mehr dazu](../../automating/using/enrichment.md)
+Aktivität „Anreicherung“: Reichern Sie Daten auf der Basis eingehender Transitionen an – [mehr dazu](../../automating/using/enrichment.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 

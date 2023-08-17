@@ -35,9 +35,9 @@ Die Tabelle **Bounce-Gründe** enthält für jeden Versand alle verfügbaren Dat
 * **[!UICONTROL Postfach voll]**: Fehler, der erzeugt wird, wenn die Inbox des Empfängers voll ist. Vor der Generierung dieses Fehlers werden fünf Zustellversuche unternommen.
 * **[!UICONTROL Nicht angemeldet]**: Fehler, der erzeugt wird, wenn das Mobiltelefon des Empfängers zum Zeitpunkt des Nachrichtenversands ausgeschaltet oder nicht mit dem Netz verbunden ist.
 
-   >[!NOTE]
-   >
-   >Dieser Fehler bezieht sich nur auf Sendungen über den Mobile-Kanal.
+  >[!NOTE]
+  >
+  >Dieser Fehler bezieht sich nur auf Sendungen über den Mobile-Kanal.
 
 * **[!UICONTROL Abgelehnt]**: Fehler, der erzeugt wird, wenn eine Adresse von einem ISP (Internet Service Provider) abgelehnt wird, wenn beispielsweise eine Sicherheitsregel von einer Anti-Spam-Software angewendet wurde.
 

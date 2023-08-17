@@ -358,9 +358,9 @@ Im Folgenden finden Sie die in der kommenden Campaign Standard-Version enthalten
 
 * Es wurden Probleme behoben, die dazu führten, dass die Versandanalyse beim Senden einer Transaktions-Push-Benachrichtigung an Profile fehlschlug, indem ein neues [Zielgruppen-Mapping](../../administration/using/target-mappings-in-campaign.md) eingeführt wurde: **Profil – Echtzeitereignis für Push** (*mapRtEventAppSubRcp*). Die Versand-, Ausschluss- und Trackinglogs für [profilbasierte Transaktions-Push-Benachrichtigungen](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) werden jetzt in den Tabellen *broadLogAppSubRcp*, *excludeLogAppSubRcp* und *trackingLogAppSubRcp* gespeichert.
 
-   >[!IMPORTANT]
-   >
-   >Aufgrund dieser Änderung wird empfohlen, das Zielgruppen-Mapping zu aktualisieren und die Nachricht erneut zu veröffentlichen, wenn Sie eine vorhandene profilbasierte Transaktions-Push-Benachrichtigung verwenden (die vor dem Upgrade auf Adobe Campaign 21.1 erstellt wurde). Eine detaillierte Anleitung dazu finden Sie [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Die Verwendung des früheren Zielgruppen-Mappings **Profil – Echtzeitereignis** (*mapRtEventRcp*) kann zu längeren Versandvorbereitungszeiten und Leistungseinbußen führen.
+  >[!IMPORTANT]
+  >
+  >Aufgrund dieser Änderung wird empfohlen, das Zielgruppen-Mapping zu aktualisieren und die Nachricht erneut zu veröffentlichen, wenn Sie eine vorhandene profilbasierte Transaktions-Push-Benachrichtigung verwenden (die vor dem Upgrade auf Adobe Campaign 21.1 erstellt wurde). Eine detaillierte Anleitung dazu finden Sie [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Die Verwendung des früheren Zielgruppen-Mappings **Profil – Echtzeitereignis** (*mapRtEventRcp*) kann zu längeren Versandvorbereitungszeiten und Leistungseinbußen führen.
 
 * Fehlerkorrektur – Versandberichte werden jetzt ausgeführt, wenn 5.000 Zeilen angezeigt werden.
 * Fehlerkorrektur – A/B-Tests funktionieren jetzt einwandfrei. Der Inhalt von Variante B kann jetzt aktualisiert werden, nachdem die Versandvorlage geändert wurde. (CAMP-45235)

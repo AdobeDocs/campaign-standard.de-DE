@@ -49,7 +49,7 @@ Bei Adobe Campaign hängt die Zustellrate von zahlreichen Faktoren ab, insbesond
 * Ein niedriger Anteil von [Beschwerden](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de) und [Hardbounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#hard-bounces).
 * Inhalt Ihrer Nachricht: Siehe [Kontrollieren von E-Mail-Inhalten](../../sending/using/control-email-content.md).
 * Nachrichtenauthentifizierung (SPF, DKIM, DMARC): siehe [diesen Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=de#authentication).
-* Reputation des Absenders: Informationen darüber, wie die wichtigsten Internet-Anbieter die Reputation eines Absenders bewerten, finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=de).
+* Reputation des Absenders: Informationen darüber, wie die wichtigsten Internet-Anbieter die Reputation eines Absenders auswerten, finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=de).
 
 ## Campaign-Tools für die Zustellbarkeit {#deliverability-tools}
 
@@ -95,8 +95,7 @@ Mit Adobe Campaign können Sie anhand einer Reihe von integrierten Echtzeitindik
 Weiterführende Informationen hierzu finden Sie in den folgenden Abschnitten:
 
 * [Zustellbarkeit überwachen](../../sending/using/monitor-deliverability.md)
-
-   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+  <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 

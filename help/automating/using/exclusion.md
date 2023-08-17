@@ -33,8 +33,8 @@ Aus den verschiedenen eingehenden Transitionen wird eine Hauptmenge bestimmt. Di
 ## Konfiguration      {#configuration}
 
 1. Ziehen Sie einen **[!UICONTROL Ausschluss]** in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
-1. Wählen Sie im Feld **[!UICONTROL Hauptmenge]** die eingehende Transition aus, aus der die Elemente der anderen eingehenden Transitionen ausgeschlossen werden sollen. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten.
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Wählen Sie im Feld **[!UICONTROL Hauptmenge]** die eingehende Transition aus, Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten.
 
    >[!NOTE]
    >

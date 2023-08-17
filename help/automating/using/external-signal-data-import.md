@@ -24,17 +24,17 @@ Der Ursprungs-Workflow stellt sich folgendermaßen dar:
 
 * Die Aktivität [Datei laden](../../automating/using/load-file.md) lädt eine Datei mit neuen Kaufdaten hoch. Beachten Sie, dass die [Datenbank entsprechend erweitert wurde](../../developing/using/data-model-concepts.md), da Kaufdaten nicht standardmäßig im Datamart vorhanden sind.
 
-   Beispiel:
+  Beispiel:
 
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2015;dannymars@example.com;A2;799
-   aze124;28/05/2015;dannymars@example.com;A7;8
-   aze125;31/07/2015;john.smith@example.com;A7;8
-   aze126;14/12/2015;john.smith@example.com;A10;4
-   aze127;02/01/2016;dannymars@example.com;A3;79
-   aze128;04/03/2016;clara.smith@example.com;A8;149
-   ```
+  ```
+  tcode;tdate;customer;product;tamount
+  aze123;21/05/2015;dannymars@example.com;A2;799
+  aze124;28/05/2015;dannymars@example.com;A7;8
+  aze125;31/07/2015;john.smith@example.com;A7;8
+  aze126;14/12/2015;john.smith@example.com;A10;4
+  aze127;02/01/2016;dannymars@example.com;A3;79
+  aze128;04/03/2016;clara.smith@example.com;A8;149
+  ```
 
 * Die Aktivität [Abstimmung](../../automating/using/reconciliation.md) erstellt Relationen zwischen den importierten Daten und der Datenbank, sodass die Transaktionsdaten ordnungsgemäß mit den Profilen und Produkten verknüpft werden.
 * Durch die Aktivität [Daten-Update](../../automating/using/update-data.md) werden die eingehenden Daten eingefügt und die Transaktionsquelle der Datenbank entsprechend aktualisiert.

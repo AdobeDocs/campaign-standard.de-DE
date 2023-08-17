@@ -73,7 +73,6 @@ Dieser Anwendungsfall ermöglicht es Ihnen, eine Email Designer-Vorlage zu erste
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-
 1. Kehren Sie zur mobilen Ansicht zurück und prüfen Sie, ob Ihr Inhalt korrekt angezeigt wird, und speichern Sie Ihre Änderungen.
 
 ## Anwendungsbeispiel

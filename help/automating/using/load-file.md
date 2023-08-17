@@ -57,7 +57,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 >Die Daten der Beispieldatei werden für die Konfiguration der Aktivität verwendet aber nicht importiert. Es wird empfohlen, Beispieldateien mit einer geringen Anzahl an Datensätzen zu verwenden.
 
 1. Ziehen Sie eine **[!UICONTROL Datei laden]**-Aktivität in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Laden Sie die Beispieldatei hoch, die die Definition der Struktur ermöglicht, die die schließlich zu importierende Datei aufweisen soll.
 
    ![](assets/wkf_file_loading.png)
@@ -71,19 +71,19 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
    * Sollte die Struktur nicht Ihren Erwartungen entsprechen, können Sie die Option **[!UICONTROL Struktur über eine andere Datei erkennen]** nutzen.
    * Sie können die Standarderkennungsparameter verändern, um Sie Ihrer Datei anzupassen. Im Feld **[!UICONTROL Dateityp]** können Sie angeben, ob die zu importierende Datei aus Spalten mit fester Länge bestehen soll. In diesem Fall müssen Sie im Tab **[!UICONTROL Spaltendefinition]** auch die maximale Zeichenanzahl für jede Spalte festlegen.
 
-      Im Bereich **[!UICONTROL Dateiformat]** befinden sich alle Optionen, die die korrekte Umsetzung der Dateidaten ermöglichen. Sie können diese ändern und anschließend unter Berücksichtigung der neuen Parameter die Struktur der zuletzt in der Aktivität geladenen Datei erneut erkennen lassen. Verwenden Sie dazu die Schaltfläche **[!UICONTROL Konfiguration anwenden]**. Sie können beispielsweise ein anderes Spaltentrennzeichen angeben.
+     Im Bereich **[!UICONTROL Dateiformat]** befinden sich alle Optionen, die die korrekte Umsetzung der Dateidaten ermöglichen. Sie können diese ändern und anschließend unter Berücksichtigung der neuen Parameter die Struktur der zuletzt in der Aktivität geladenen Datei erneut erkennen lassen. Verwenden Sie dazu die Schaltfläche **[!UICONTROL Konfiguration anwenden]**. Sie können beispielsweise ein anderes Spaltentrennzeichen angeben.
 
-      >[!NOTE]
-      >
-      >Bei diesem Vorgang wird lediglich die letzte in der Aktivität geladene Datei berücksichtigt. Sollte die erkannte Datei umfangreich sein, erstreckt sich die Datenvorschau lediglich auf die ersten 30 Zeilen.
+     >[!NOTE]
+     >
+     >Bei diesem Vorgang wird lediglich die letzte in der Aktivität geladene Datei berücksichtigt. Sollte die erkannte Datei umfangreich sein, erstreckt sich die Datenvorschau lediglich auf die ersten 30 Zeilen.
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      Im Bereich **[!UICONTROL Dateiformat]** können Sie mit der Option **[!UICONTROL Spalten in der Datei bezüglich der Spaltendefinitionen prüfen]** überprüfen, ob die Spalten der hochgeladenen Datei mit der Spaltendefinition übereinstimmen.
+     Im Bereich **[!UICONTROL Dateiformat]** können Sie mit der Option **[!UICONTROL Spalten in der Datei bezüglich der Spaltendefinitionen prüfen]** überprüfen, ob die Spalten der hochgeladenen Datei mit der Spaltendefinition übereinstimmen.
 
-      Wenn die Anzahl und/oder der Name der Spalten nicht zur Spaltendefinition passt, erscheint bei der Ausführung des Workflows eine Fehlermeldung. Wenn die Option nicht aktiviert ist, wird in der Protokolldatei ein Warnhinweis angezeigt.
+     Wenn die Anzahl und/oder der Name der Spalten nicht zur Spaltendefinition passt, erscheint bei der Ausführung des Workflows eine Fehlermeldung. Wenn die Option nicht aktiviert ist, wird in der Protokolldatei ein Warnhinweis angezeigt.
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. Prüfen Sie im **[!UICONTROL Spaltendefinition]**-Tab das Datenformat jeder Spalte und passen Sie gegebenenfalls die Parameter an.
 
@@ -101,7 +101,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
    * im vorangehenden Schritt geladen wurde, oder
    * es sich dabei um eine neue zu ladende lokale Datei handelt. Wenn im Workflow bereits das Laden einer ersten Datei definiert wurde, wird die Option **[!UICONTROL Andere lokale Datei laden]** angezeigt. Sie ermöglicht den Upload einer anderen Datei, falls die erste nicht das gewünschte Ergebnis erzielt.
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. Sollte die Datei, deren Daten Sie laden möchten, in einer GZIP-Datei (.gz) komprimiert sein, wählen Sie im Feld **[!UICONTROL Vorab-Bearbeitungsetappe hinzufügen]** die Option **[!UICONTROL Dekomprimierung]** aus. Dadurch lässt sich die Datei dekomprimieren, bevor Sie mit dem Laden der Daten fortfahren. Diese Option steht nur zur Verfügung, wenn die Datei mit der in die Aktivität eingehenden Transition übermittelt wird.
 
@@ -123,7 +123,7 @@ Wenn nach dem Ausführen des Workflows ein Fehler bei der Aktivität auftritt, l
 
 Beim Laden einer Beispieldatei wird das Spaltenformat automatisch erkannt und jedem Datentyp werden Standardparameter zugewiesen. Diese Standardparameter können angepasst werden, um einen bestimmten Umgang mit gewissen Daten vorzuschreiben, insbesondere in Bezug auf Fehler oder Leerwerte.
 
-Wählen Sie hierfür aus dem Schnellzugriff der zu bearbeitenden Spalte die Option **[!UICONTROL Eigenschaften bearbeiten]** aus. Das Detailfenster des Spaltenformats wird geöffnet.
+Wählen Sie hierfür aus der Schnellaktion der zu bearbeitenden Spalte die Option **[!UICONTROL Eigenschaften bearbeiten]** aus. Das Detailfenster des Spaltenformats wird geöffnet.
 
 ![](assets/wkf_file_loading4.png)
 
@@ -137,7 +137,7 @@ Verschiedene Optionen zum Umgang mit den Spaltenwerten stehen zur Auswahl:
 
    * **[!UICONTROL Maximale Zeichenanzahl]**: Angabe der maximal zulässigen Zeichenanzahl für Spalten vom Typ Zeichenfolge.
 
-      Dieses Feld muss ausgefüllt werden, wenn Dateien geladen werden, die aus Spalten mit fester Länge bestehen.
+     Dieses Feld muss ausgefüllt werden, wenn Dateien geladen werden, die aus Spalten mit fester Länge bestehen.
 
    * **[!UICONTROL Umgang mit Groß-/Kleinschreibung]**: Angabe, ob bei Daten vom Typ **Text** die Schreibung der geladenen Werte angepasst werden soll.
    * **[!UICONTROL Umgang mit Leerzeichen]**: Angabe, ob für Daten vom Typ **Text** gewisse Leerzeichen eines Strings ignoriert werden sollen.
@@ -154,9 +154,9 @@ Verschiedene Optionen zum Umgang mit den Spaltenwerten stehen zur Auswahl:
    * **[!UICONTROL Bei fehlender Neukodifizierung Standardwert verwenden]**: Ersetzt den Fehler verursachenden Wert durch einen Standardwert, welcher im Feld **[!UICONTROL Standardwert]** definiert wird, es sei denn, für den fehlerhaften Wert wurde eine Umwandlung definiert (siehe Option **[!UICONTROL Neukodifizierung der Werte]** weiter oben).
    * **[!UICONTROL Bei fehlender Neukodifizierung Zeile zurückweisen]**: Die gesamte Zeile wird nicht verarbeitet, es sei denn, für den fehlerhaften Wert wurde eine Umwandlung definiert (siehe Option **[!UICONTROL Neukodifizierung der Werte]** weiter oben).
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Die Fehlerverarbeitung]** bezieht sich auf Fehler, die die in der Importdatei angegebenen Werte betreffen. Hierbei kann es sich beispielsweise um einen falschen Datentyp handeln (das ausgeschriebene Wort &quot;vier&quot; bei einer Spalte vom Typ &quot;Ganze Zahl&quot;), einen String, der die maximal zulässige Anzahl an Zeichen überschreitet, ein Datum mit dem falschen Trennzeichen etc. Diese Option bezieht sich jedoch nicht auf Fehler, die aus dem Umgang mit Leerwerten resultieren.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Die Fehlerverarbeitung]** bezieht sich auf Fehler, die die in der Importdatei angegebenen Werte betreffen. Hierbei kann es sich beispielsweise um einen falschen Datentyp handeln (das ausgeschriebene Wort &quot;vier&quot; bei einer Spalte vom Typ &quot;Ganze Zahl&quot;), einen String, der die maximal zulässige Anzahl an Zeichen überschreitet, ein Datum mit dem falschen Trennzeichen etc. Diese Option bezieht sich jedoch nicht auf Fehler, die aus dem Umgang mit Leerwerten resultieren.
 
 * **[!UICONTROL Standardwert]**: Angabe des Standardwerts, der im Bezug auf den jeweils definierten Umgang mit Fehlern zum Tragen kommt.
 * **[!UICONTROL Umgang mit leeren Werten]**: Definition, wie beim Laden der Daten mit leeren Werten verfahren werden soll.

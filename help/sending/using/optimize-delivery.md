@@ -30,7 +30,7 @@ Mehrere Faktoren können die Server-Leistung direkt beeinflussen und die Plattfo
 
 * Auslastung des Servers: Wenn Campaign viele verschiedene Aufgaben gleichzeitig ausführt, kann die Leistung verlangsamt werden. Der Server muss alle eingehenden und ausgehenden Daten für alle Sendungen koordinieren, um sicherzustellen, dass die Daten korrekt sind und rechtzeitig gesendet werden.
 
-   **Tipp**: Koordinieren Sie die zeitliche Durchführung von Sendungen mit anderen Team-Mitgliedern, um eine optimale Leistung zu gewährleisten.
+  **Tipp**: Koordinieren Sie die zeitliche Durchführung von Sendungen mit anderen Team-Mitgliedern, um eine optimale Leistung zu gewährleisten.
 
 * [Workflow-Ausführung](../../automating/using/about-workflow-execution.md): Die Überwachung Ihrer Workflows ist unverzichtbar, um Probleme mit der Leistung der Plattform zu vermeiden. Befolgen Sie die [auf dieser Seite](../../automating/using/monitoring-workflow-execution.md) aufgeführten Richtlinien. Weitere Informationen finden Sie im Abschnitt [Best Practices für den Workflow](../../automating/using/best-practices-workflows.md).
 

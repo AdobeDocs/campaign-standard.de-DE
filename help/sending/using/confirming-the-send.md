@@ -30,7 +30,7 @@ Nur Benutzer mit der Benutzerrolle **[!UICONTROL Sendungen starten]** können de
 
 Nachdem die Vorbereitung abgeschlossen ist, führen Sie die folgenden Schritte aus, um Ihre Nachricht zu senden.
 
-1. Klicken Sie in der Symbolleiste Ihrer Nachricht auf die Schaltfläche **[!UICONTROL Versand bestätigen]**.
+1. Klicken Sie in der Aktionsleiste Ihrer Nachricht auf die Schaltfläche **[!UICONTROL Versand bestätigen]**.
 
    ![](assets/confirm_delivery.png)
 
@@ -38,7 +38,7 @@ Nachdem die Vorbereitung abgeschlossen ist, führen Sie die folgenden Schritte a
 
    ![](assets/confirm_delivery1.png)
 
-1. Warten Sie, während die Nachricht gesendet wird. Die Kachel **[!UICONTROL Freigabe]** zeigt den Verarbeitungsfortschritt an.
+1. Warten Sie, während die Nachricht gesendet wird. Die Kachel **[!UICONTROL Bereitstellung]** zeigt den Verarbeitungsfortschritt an.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Wenn Sie einen wiederkehrenden Versand ohne Aggregat-Zeitraum verwenden, können
 
 ## Nachrichtenindikatoren {#message-indicators}
 
-Nach Abschluss des Versands an die Kontakte zeigt die **[!UICONTROL Freigabe]**-Kachel Ihre KPI-Daten (Key Performance Indicators) an:
+Nach Abschluss des Versands an die Kontakte zeigt die Kachel **[!UICONTROL Bereitstellung]** Ihre KPI-Daten (Key Performance Indicators) an:
 
 * Anzahl zu sendender Nachrichten
 * Anzahl gesendeter Nachrichten
@@ -59,13 +59,13 @@ Nach Abschluss des Versands an die Kontakte zeigt die **[!UICONTROL Freigabe]**-
 * Anteil offener Nachrichten
 * Anteil an Nachrichten, in denen geklickt wurde (im Fall von E-Mails).
 
-   >[!NOTE]
-   >
-   >Die **[!UICONTROL Öffnungsrate]** und die **[!UICONTROL Clickthrough-Rate]** werden stündlich aktualisiert.
+  >[!NOTE]
+  >
+  >Die **[!UICONTROL Öffnungsrate]** und die **[!UICONTROL Clickthrough-Rate]** werden stündlich aktualisiert.
 
 ![](assets/sending_delivery.png)
 
-Wenn die Aktualisierung der KPIs zu lange dauert oder die Ergebnisse aus den Versandlogs nicht berücksichtigt werden, klicken Sie auf die Schaltfläche **[!UICONTROL Statistiken berechnen]** im Fenster **[!UICONTROL Freigabe]**.
+Wenn die Aktualisierung der KPIs zu lange dauert oder die Ergebnisse aus den Versandlogs nicht berücksichtigt werden, klicken Sie auf die Schaltfläche **[!UICONTROL Statistiken berechnen]** im Fenster **[!UICONTROL Bereitstellung]**.
 
 ![](assets/sending_delivery7.png)
 

@@ -40,11 +40,11 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>**: die Endpunkte der Transaktionsnachrichten-API.
 
-   Der Name des API-Endpunkts für Transaktionsnachrichten hängt von der Konfiguration Ihrer Instanz ab. Er entspricht dem Wert &quot;mc&quot;, gefolgt von Ihrer persönlichen Organisationskennung. Nehmen wir als Beispiel das Unternehmen Geometrixx mit der Organisationskennung &quot;geometrixx&quot;. In diesem Fall sieht die POST-Anfrage wie folgt aus:
+  Der Name des API-Endpunkts für Transaktionsnachrichten hängt von der Konfiguration Ihrer Instanz ab. Er entspricht dem Wert &quot;mc&quot;, gefolgt von Ihrer persönlichen Organisationskennung. Nehmen wir als Beispiel das Unternehmen Geometrixx mit der Organisationskennung &quot;geometrixx&quot;. In diesem Fall sieht die POST-Anfrage wie folgt aus:
 
-   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
+  `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   Beachten Sie, dass der API-Endpunkt für Transaktionsnachrichten auch während der API-Vorschau sichtbar ist.
+  Beachten Sie, dass der API-Endpunkt für Transaktionsnachrichten auch während der API-Vorschau sichtbar ist.
 
 * **&lt;eventID>**: der Ereignistyp, den Sie senden möchten. Diese ID wird beim Erstellen der Ereigniskonfiguration generiert (siehe [diesen Abschnitt](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
@@ -135,7 +135,7 @@ Antwort auf die POST-Anfrage.
 In der Antwort können Sie im Feld &quot;Status&quot; ermitteln, ob das Ereignis verarbeitet wurde oder nicht:
 
 * **Ausstehend**: Das Ereignis steht aus – das Ereignis erhält diesen Status, wenn es gerade ausgelöst wurde.
-* **Verarbeitung**: Das Ereignis muss noch versandt werden – es wird in eine Nachricht umgewandelt und die Nachricht wird gesendet.
+* **Verarbeitung läuft**: Das Ereignis muss noch versandt werden – es wird in eine Nachricht umgewandelt und die Nachricht wird gesendet.
 * **Angehalten**: Der Ereignisvorgang wurde angehalten. Das Ereignis wird nicht mehr verarbeitet, sondern in einer Warteschlange in der Adobe Campaign-Datenbank aufbewahrt. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
 * **Verarbeitet**: Das Ereignis wurde verarbeitet und die Nachricht wurde erfolgreich gesendet.
 * **Ignoriert**: Das Ereignis wurde vom Versand ignoriert, normalerweise dann, wenn eine Adresse unter Quarantäne steht.

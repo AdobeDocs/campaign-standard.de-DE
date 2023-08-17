@@ -30,7 +30,7 @@ Im Tab **Projekt** haben Sie folgende Möglichkeiten:
 
 Im Tab **Bearbeiten** haben Sie folgende Möglichkeiten:
 
-* **Rückgängig**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
+* **Rückgängig**: Bricht die zuletzt im Dashboard ausgeführte Aktion ab.
 * **Alle löschen**: Löscht alle Bedienfelder in Ihrem Dashboard.
 
 Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zu Ihrem Dashboard hinzufügen:
@@ -89,7 +89,7 @@ Im Tab **Projekt** haben Sie folgende Möglichkeiten:
 
 Im Tab **Bearbeiten** haben Sie folgende Möglichkeiten:
 
-* **Rückgängig**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
+* **Rückgängig**: Bricht die zuletzt im Dashboard ausgeführte Aktion ab.
 * **Alle löschen**: Löscht alle Bedienfelder in Ihrem Dashboard.
 
 ### Einfügen-Tab {#insert-tab}

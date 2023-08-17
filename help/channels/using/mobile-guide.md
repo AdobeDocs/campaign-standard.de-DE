@@ -193,7 +193,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>SMS erstellen</strong></p>
     </div>
-    <p>Die Erstellung eines SMS-Versands ist der Erstellung einer üblichen E-Mail sehr ähnlich. </br>Die hier <a href="../../channels/using/creating-an-sms-message.md"><strong>beschriebenen Schritte</strong></a> beschreiben die Konfiguration, die speziell für diesen Kanal nötig ist.</br></p>
+    <p>Die Erstellung eines SMS-Versands ist der Erstellung einer üblichen E-Mail sehr ähnlich. </br>Die hier <a href="../../channels/using/creating-an-sms-message.md"><strong>beschriebenen Schritte</strong></a> beschreiben die Konfiguration, die speziell für diesen Kanal nötig ist.</p>
     <br>
   </td>
   <td>
@@ -201,7 +201,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <p><strong>SMS-Nachrichten anpassen
 </strong></p>
     </div>
-    <p>In Adobe Campaign stehen Ihnen zur Anpassung von Sendungen bei der Erstellung von SMS-Nachrichten eine Reihe erweiterter Optionen zur Verfügung.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>In Adobe Campaign stehen Ihnen zur Anpassung von Sendungen bei der Erstellung von SMS-Nachrichten eine Reihe erweiterter Optionen zur Verfügung.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -210,7 +210,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Eingehende SMS verwalten</strong></p>
     </div>
-    <p>Wenn ein Profil auf eine per Campaign gesendete SMS-Nachricht antwortet, können Sie die automatisch an das Profil zu sendenden Nachrichten sowie die auszuführende Aktion konfigurieren. Anpassen eines Nachrichtentyps für lokale Benachrichtigungen</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Wenn ein Profil auf eine per Campaign gesendete SMS-Nachricht antwortet, können Sie die automatisch an das Profil zu sendenden Nachrichten sowie die auszuführende Aktion konfigurieren. Anpassen eines Nachrichtentyps für lokale Benachrichtigungen</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
   <td>

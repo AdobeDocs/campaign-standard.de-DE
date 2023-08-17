@@ -41,23 +41,23 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
    * Füllen Sie das Feld **[!UICONTROL Segmentcode]** aus: Geben Sie manuell den gewünschten Zeitpunkt für den Versand der Nachricht ein.
 
-      Beispiel: Sie möchten den ersten Teilversand am 1. Juni um 10 Uhr (GMT+1) durchführen. Verwenden Sie dazu das folgende Format: **JJJJ-MM-TT hh:mm:ss+tz**.
+     Beispiel: Sie möchten den ersten Teilversand am 1. Juni um 10 Uhr (GMT+1) durchführen. Verwenden Sie dazu das folgende Format: **JJJJ-MM-TT hh:mm:ss+tz**.
 
-      ![](assets/send-time_opt_segment_configuration.png)
+     ![](assets/send-time_opt_segment_configuration.png)
 
-      Um die nächste Teilsendung am nächsten Tag durchzuführen, geben Sie **2017-06-02 10:00:00+01** ein.
+     Um die nächste Teilsendung am nächsten Tag durchzuführen, geben Sie **2017-06-02 10:00:00+01** ein.
 
-      Definieren Sie die nächsten Teilsendungen für die restlichen Segmente folgendermaßen:
+     Definieren Sie die nächsten Teilsendungen für die restlichen Segmente folgendermaßen:
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
+
    * Wählen Sie die Option **[!UICONTROL Segmentpopulation begrenzen]** aus.
 
-      Wählen Sie im Tab **[!UICONTROL Begrenzung]** die Option **[!UICONTROL Zufällige Auswahl]** aus und geben Sie für jedes Segment den gewünschten Prozentsatz ein: 10 für die erste Teilsendung, 15 für die zweite etc.
+     Wählen Sie im Tab **[!UICONTROL Begrenzung]** die Option **[!UICONTROL Zufällige Auswahl]** aus und geben Sie für jedes Segment den gewünschten Prozentsatz ein: 10 für die erste Teilsendung, 15 für die zweite etc.
 
-      ![](assets/send-time_opt_segment_limitation.png)
-
+     ![](assets/send-time_opt_segment_limitation.png)
 
 1. Wählen Sie **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** aus und danach **[!UICONTROL Bestätigen]**.
 
@@ -122,13 +122,12 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
       * 14:00 - 16:00: **6**. Da das Callcenter zwischen 12 und 14 Uhr geschlossen ist, wird die Nachricht an das dritte Viertel der Zielpopulation um 14 Uhr gesendet (Kontaktdatum + 6 Stunden).
       * 16:00 - 18:00: **8**. Die Nachricht wird an das letzte Viertel der Zielpopulation um 16 Uhr gesendet (Kontaktdatum + 8 Stunden).
 
-      >[!NOTE]
-      >
-      >Das Kontaktdatum wird später im Workflow in der E-Mail-Versand-Aktivität definiert.
+     >[!NOTE]
+     >
+     >Das Kontaktdatum wird später im Workflow in der E-Mail-Versand-Aktivität definiert.
 
    * Wählen Sie die Option **[!UICONTROL Segmentpopulation begrenzen]** aus.
    * Wählen Sie im Tab **[!UICONTROL Begrenzung]** die Option **[!UICONTROL Zufällige Auswahl]** aus und geben Sie für jedes Segment den gewünschten Prozentsatz ein: **25**.
-
 
 1. Wählen Sie **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** aus und danach **[!UICONTROL Bestätigen]**.
 

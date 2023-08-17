@@ -27,7 +27,7 @@ Das folgende Beispiel zeigt das Laden einer Datei, die mithilfe einer Dateiüber
 Gehen Sie wie folgt vor, um den Workflow zu erstellen:
 
 1. Ziehen Sie eine [Dateiübertragung](../../automating/using/transfer-file.md) in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Konfigurieren Sie die Aktivität so, dass sie die gewünschte Datei abruft. Wählen Sie im **[!UICONTROL Protokoll]**-Tab **SFTP** aus.
 1. Aktivieren Sie die Option **In einem externen Konto definierte Verbindungsparameter verwenden**.
 1. Geben Sie den Namen des externen Kontos an.
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen:
 
 1. Validieren Sie die Aktivität.
 1. Schließen Sie eine [Datei laden](../../automating/using/load-file.md)-Aktivität an die Aktivität **[!UICONTROL Dateiübertragung]** an.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Quick Actions angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Schnellaktionen angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Aktivieren Sie im Tab **[!UICONTROL Ausführung]** im Bereich **[!UICONTROL Zu ladende Datei]** die Option **[!UICONTROL Datei der eingehenden Transition verwenden]**.
 
    ![](assets/wkf_file_loading8.png)

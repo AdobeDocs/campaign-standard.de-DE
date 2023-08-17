@@ -43,13 +43,13 @@ Um eine sichere Service-to-Service-Adobe I/O-API-Sitzung herzustellen, muss jede
    * &lt;ORGANIZATION>: Ihre Produktionsinstanz,
    * &lt;ORGANIZATION-mkt-stage>: Ihre Staging-Instanz.
 
-   Um den Wert der ORGANISATIONS-ID zu erhalten, wenden Sie sich wahlweise an Ihre Administrierenden oder Ihre technische Kontaktperson bei Adobe. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-Dokumentation</a>).
+  Um den Wert der ORGANISATIONS-ID zu erhalten, wenden Sie sich wahlweise an Ihre Administrierenden oder Ihre technische Kontaktperson bei Adobe. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-Dokumentation</a>).
 
 * **&lt;ACCESS_TOKEN>**: Ihr persönlicher Zugriffstoken, der beim Austausch Ihres JSON-Web-Token über eine POST-Anfrage abgerufen wurde.
 
 * **&lt;API_KEY>**: Ihr persönlicher API-Schlüssel. Er wird in Adobe I/O bereitgestellt, nachdem eine neue Integration mit Adobe Campaign Service erstellt wurde.
 
-   ![Alternativtext](assets/tenant.png)
+  ![Alternativtext](assets/tenant.png)
 
 ## Fehlerbehebung
 

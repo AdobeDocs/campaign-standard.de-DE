@@ -1,6 +1,6 @@
 ---
 title: Anreicherung
-description: Die Anreicherungsaktivität ist eine erweiterte Aktivität, mit der Zusatzdaten definierte werden können, die in Ihrem Workflow verarbeitet werden.
+description: Die Aktivität „Anreicherung“ ist eine erweiterte Aktivität, mit der Zusatzdaten definierte werden können, die in Ihrem Workflow verarbeitet werden.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -42,7 +42,7 @@ Mit der Aktivität **[!UICONTROL Anreicherung]** können Sie die eingehende Tran
 So konfigurieren Sie die Aktivität **[!UICONTROL Anreicherung]**:
 
 1. Ziehen Sie eine **[!UICONTROL Anreicherung]** in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Wenn es für die Aktivität mehrere eingehende Transitionen gibt, wählen Sie die **[!UICONTROL Hauptmenge aus]**. Zu dieser Hauptmenge werden die in dieser Aktivität konfigurierten Zusatzdaten in der ausgehenden Transition hinzugefügt.
 
    Wenn die Hauptmenge bereits Zusatzdaten enthält, können Sie auswählen, ob Sie diese behalten oder entfernen möchten. Wenn Sie die Option **[!UICONTROL Alle Zusatzdaten der Hauptmenge beibehalten]** deaktivieren, werden nur die in der **[!UICONTROL Anreicherung]** konfigurierten Zusatzdaten in der ausgehenden Transition behalten.

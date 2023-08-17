@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ Es wurde versucht, in der Benutzeroberfläche von Adobe Campaign Standard genüg
 
 * Großer Text und Überschriften wurden verbessert, um ein Kontrastverhältnis von 3:1 zu erreichen.
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * Hilfeinhalte und der Textkörper in der Anwendung wurden aktualisiert, um ein Kontrastverhältnis von 4,5:1 zu erreichen.
 
 * Die Symbole zum Aussetzen und Abbrechen von Workflows wurden aktualisiert, um den Kontrast zwischen Hintergrund und Vordergrund zu verbessern.
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * Farbe, Form und Position sind nicht die einzigen Methoden, mit denen Informationen oder Hierarchien in der Anwendung kommuniziert werden können.
 
@@ -47,11 +47,11 @@ Die Adobe Campaign Standard-Benutzeroberfläche erleichtert allen Benutzern die 
 
 * Wenn der Benutzer ein erforderliches ID-Feld leer lässt, zeigt eine Grafik das fehlerhafte Feld mit einem Fehlermeldungstext visuell an. Dieselben Informationen werden Benutzern programmgesteuert mit Hilfstechnologien wie Bildschirmlesehilfen übermittelt.
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * Inhalte, die beim Bewegen des Mauszeigers oder beim Fokussieren angezeigt werden, können vom Benutzer verworfen werden und verdecken keine anderen Inhalte.
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * Alternative Texte für Bilder und barrierefreie Namen für Schaltflächen wurden hinzugefügt und können mit Hilfstechnologien vorgelesen werden, sodass der Benutzer nicht ausschließlich auf visuelle Hinweise zur Identifizierung von Elementen angewiesen ist.
 

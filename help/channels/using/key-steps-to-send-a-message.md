@@ -70,7 +70,7 @@ Verwenden Sie den Block **[!UICONTROL Planung]**, um zu definieren, wann Ihre Na
 
 ## Senden und verfolgen
 
-Sobald die Nachricht fertig ist, können Sie den Versand bestätigen. Im Block für die **[!UICONTROL Freigabe]** werden Fortschritt und Ergebnis des Versands angezeigt.
+Sobald die Nachricht fertig ist, können Sie den Versand bestätigen. Im Block für die **[!UICONTROL Bereitstellung]** werden Fortschritt und Ergebnis des Versands angezeigt.
 
 ![](assets/steps-send.png)
 

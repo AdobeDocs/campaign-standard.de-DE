@@ -42,17 +42,17 @@ Bedingungen können auf **Funktionen** oder **Variablen** basieren, z. B. Ereig
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Test]**-Aktivität in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Definieren Sie die Attribute einer jeden Bedingung:
 
    Zur Bearbeitung des Felds **[!UICONTROL Bedingung]** stehen zwei Schaltflächen zur Verfügung, mit denen Ereignisvariablen aufgerufen und Ausdrücke durch die Kombination von Variablen und Funktionen bearbeitet werden können:
 
    * ![](assets/extsignal_picker.png): Wählen Sie die Ereignisvariable aus den im Workflow verfügbaren Variablen aus (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md))..
 
-      Beispielsweise können Sie die Anzahl der heruntergeladenen Dateien nach einer [Dateiübertragungsaktivität](../../automating/using/transfer-file.md) mit der Variablen **[!UICONTROL filesCount]** überprüfen.
+     Beispielsweise können Sie die Anzahl der heruntergeladenen Dateien nach einer [Dateiübertragungsaktivität](../../automating/using/transfer-file.md) mit der Variablen **[!UICONTROL filesCount]** überprüfen.
 
-      ![](assets/wkf_test_activity_variables.png)
+     ![](assets/wkf_test_activity_variables.png)
 
    * ![](assets/extsignal_expression_editor.png): Hier können Sie Ausdrücke durch eine Kombination von Variablen und Funktionen bearbeiten. Weiterführende Informationen zum Ausdruckseditor finden Sie in [diesem Abschnitt](../../automating/using/advanced-expression-editing.md).
 
-      ![](assets/wkf_test_activity_variables_expression.png)
+     ![](assets/wkf_test_activity_variables_expression.png)

@@ -70,11 +70,11 @@ Die Felder sind in Tabs unterteilt:
 
 * **[!UICONTROL Attribute]**: Vorhandene Profilattribute, die aus Ihrer Adobe Campaign-Datenbank und/oder Adobe Experience Platform stammen können. Sie beziehen sich auf statische Daten, die mit einem Profil verknüpft sind (z. B. E-Mail-Adresse, Wohnsitzland, Status im Treueprogramm usw.).
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
 * **[!UICONTROL Ereignisse]**: Aktivitäten, die Verbraucher identifizieren, die mit den Touchpoints Ihres Unternehmens auf bestimmte Weise interagiert haben, z. B. &quot;alle Personen, die in zwei Wochen zweimal bestellt haben&quot;. Diese können aus Adobe Analytics gestreamt oder mithilfe von ETL-Tools anderer Anbieter direkt in Adobe Experience Platform aufgenommen werden.
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >

@@ -46,6 +46,7 @@ Diese Integrationsanwendung liest zuerst Daten ein und schreibt dann Daten in da
 
 >[!NOTE]
 >Wenn Ihre Microsoft Dynamics 365- und/oder Campaign-Datensätze nicht aktualisiert werden, sollten Sie zunächst prüfen, ob eine große Anzahl von Datensätzen darauf wartet, in das Ziel geschrieben zu werden.
+>
 
 ## Workflow-Status {#workflow-status}
 
@@ -64,7 +65,7 @@ Nachfolgend sind mögliche Aktionen aufgeführt.
 
 * **Starten**: Mit der Schaltfläche &quot;Start&quot; können Sie einen angehaltenen Workflow wieder starten. Diese Schaltfläche wird nur angezeigt, wenn die mit dem Workflow verbundenen Prozesse derzeit angehalten sind. Die Prozesse ändern sich zuerst in &quot;WIRD GESTARTET&quot; und dann in &quot;WIRD AUSGEFÜHRT&quot;. Die mit dem Workflow verknüpften Daten werden erst dann synchronisiert, wenn sich der Workflow im Zustand &quot;WIRD AUSGEFÜHRT&quot; befindet.
 
-   Die Schaltfläche &quot;Starten&quot; ist ein Umschalter. Wenn die Workflow-Prozesse bereits gestartet wurden, ändert sich die Schaltfläche in eine **Stoppen**-Schaltfläche.
+  Die Schaltfläche &quot;Starten&quot; ist ein Umschalter. Wenn die Workflow-Prozesse bereits gestartet wurden, ändert sich die Schaltfläche in eine **Stoppen**-Schaltfläche.
 
 * **Anhalten**: Mit einer **Anhalten**-Schaltfläche können Sie einen laufenden Workflow anhalten. Diese Schaltfläche wird nur angezeigt, wenn die mit dem Workflow verknüpften Prozesse aktuell ausgeführt werden.
 

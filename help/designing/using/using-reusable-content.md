@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 100%
 
@@ -249,7 +249,7 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Tei
 
 * Strukturen, die Personalisierungsfelder, dynamische Inhalte oder ein anderes Fragment enthalten, können nicht als Fragment gespeichert werden.
 * Sie können nur nebeneinander liegende Strukturen auswählen.
-   <!-- - You cannot select an empty structure.-->
+  <!-- - You cannot select an empty structure.-->
 
 1. Wählen Sie bei der Bearbeitung einer E-Mail in Email Designer in der Hauptsymbolleiste **[!UICONTROL Als Fragment speichern]** aus.
 

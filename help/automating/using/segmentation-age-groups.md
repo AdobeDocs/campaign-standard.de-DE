@@ -30,14 +30,14 @@ Der Workflow ist wie folgt gestaltet:
 * Mittels einer [Abfrage](../../automating/using/query.md)-Aktivität werden Profile ausgewählt, in denen Geburtsdatum und E-Mail-Adresse angegeben sind.
 * Mittels einer [Segmentierung](../../automating/using/segmentation.md) werden drei auf verschiedene ausgehende Transitionen verteilte Segmente erstellt: 18–25 Jahre, 26–32 Jahre und älter als 32 Jahre. Die Auswahl der in den jeweiligen Segmenten enthaltenen Profile geschieht wie folgt:
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * Filterung der Profile nach Alter je nach für das Segment definierter Altersklasse;
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * Begrenzung der Segmentgröße durch eine **[!UICONTROL Zufällige Auswahl]**, die mit der Beschränkung **[!UICONTROL Maximale Größe]** von 100 einhergeht.
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
 * Mittels der an die ausgehenden Transitionen angeschlossenen [E-Mail-Versand](../../automating/using/email-delivery.md)-Aktivitäten lässt sich für jedes Segment ein spezifischer Inhalt erstellen.

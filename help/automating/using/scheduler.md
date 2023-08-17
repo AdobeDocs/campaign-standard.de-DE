@@ -44,7 +44,7 @@ Beim Entwerfen eines geplanten Workflows, der mehrere Aktivitäten umfasst, müs
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Planung]** in den Workflow.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Definieren Sie die **[!UICONTROL Ausführungsfrequenz]**:
 
    * **[!UICONTROL Einmal]** - der Workflow wird nur einmal ausgeführt.

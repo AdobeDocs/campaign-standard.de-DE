@@ -123,7 +123,7 @@ Nachdem Ihr Profilfeld erstellt und die Versandlogs damit erweitert wurden, kön
 
 Nachdem Ihr Profilfeld veröffentlicht wurde, können Sie den Versand starten. In diesem Beispiel möchten wir jeden Empfänger, der am Treueprogramm teilnimmt, eine Nachricht senden.
 
-1. Wählen Sie im Tab **[!UICONTROL Marketingaktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL E-Mail]** aus.
+1. Wählen Sie im Tab **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL E-Mail]** aus.
 1. Wählen Sie einen **[!UICONTROL E-Mail-Typ]** aus und geben Sie dann die Eigenschaften Ihrer E-Mail ein.
 1. Um Teilnehmer am Treueprogramm auszuwählen, ziehen Sie die Aktivität **[!UICONTROL Profile (Attribute)]** in den Arbeitsbereich.
 1. Wählen Sie das zuvor von Ihnen erstellte Feld aus der Dropdown-Liste **[!UICONTROL Feld]** aus.

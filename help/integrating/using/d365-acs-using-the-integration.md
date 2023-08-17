@@ -120,6 +120,7 @@ Die Integration unterstützt sowohl verknüpfte als auch nicht verknüpfte Tabel
 >[!IMPORTANT]
 >
 >Wenn ein benutzerdefinierter Ressourcendatensatz in Campaign personenbezogene Daten enthält, gelten besondere Empfehlungen. Weiterführende Informationen finden Sie [in diesem Abschnitt](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>
 
 Bei der Konfiguration benutzerdefinierter Entitätsdatenflüsse ist Folgendes zu beachten:
 
@@ -169,6 +170,7 @@ Wenn Sie über einen separaten Prozess zum Verwalten der Opt-out-Synchronisation
 >In der Benutzeroberfläche der Integrationsanwendung werden die Opt-out-Anwendungsfälle **Unidirektional (Microsoft Dynamics 365 zu Campaign)** und **Bidirektional** in einem separaten Opt-out-Workflow konfiguriert. [Weitere Informationen](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >Der Opt-out-Anwendungsfall **Unidirektional (Campaign zu Microsoft Dynamics 365)** ist eine Ausnahme. Er wird im Eingangs-Workflow (Kontakt zu Profil) konfiguriert.
+>
 
 Das Mapping des Opt-out-Flusses muss vom Kunden festgelegt werden, da die Geschäftsanforderungen von Unternehmen zu Unternehmen unterschiedlich sein können. In Campaign können nur die OOTB-Opt-out-Attribute für das Opt-out-Mapping verwendet werden:
 

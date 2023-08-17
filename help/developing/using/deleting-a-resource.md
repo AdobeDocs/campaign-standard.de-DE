@@ -24,12 +24,12 @@ Eine Ressource muss den **[!UICONTROL Entwurf]**-Status aufweisen, um gelöscht 
 
 >[!IMPORTANT]
 >
->Das Zurücksetzen und Löschen einer benutzerdefinierten Ressource sind heikle Verfahren, die sich auf andere Ressourcen auswirken können. Diese Vorgänge dürfen nur von einem erfahrenen Benutzer durchgeführt werden.
+>Das Zurücksetzen und Löschen einer benutzerdefinierten Ressource sind heikle Verfahren, die sich auf andere Ressourcen auswirken können. Diese Aktionen dürfen nur von einem erfahrenen Benutzer durchgeführt werden.
 
 Um eine veröffentlichte Ressource zurückzusetzen und zu löschen, gehen Sie folgendermaßen vor:
 
 1. Wählen Sie die zurückzusetzende Ressource aus.
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Zurücksetzen]** in der Symbolleiste.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Zurücksetzen]** in der Aktionsleiste.
 
    ![](assets/schema_extension_uc26.png)
 
@@ -37,7 +37,7 @@ Um eine veröffentlichte Ressource zurückzusetzen und zu löschen, gehen Sie fo
 
    >[!IMPORTANT]
    >
-   >Dieser Vorgang kann nicht rückgängig gemacht werden: Die Datenbanktabelle der Ressource oder die Spalten und deren Daten werden permanent gelöscht, wenn die Änderung veröffentlicht wird. Dadurch können auch die Verknüpfungen mit anderen benutzerdefinierten Ressourcen beeinträchtigt werden. Nur die Ressource-Definition wird weiterhin verfügbar sein.
+   >Diese Aktion kann nicht rückgängig gemacht werden: Die Datenbanktabelle der Ressource oder die Spalten und deren Daten werden permanent gelöscht, wenn die Änderung publiziert wird. Dadurch können auch die Verknüpfungen mit anderen benutzerdefinierten Ressourcen beeinträchtigt werden. Nur die Ressource-Definition wird weiterhin verfügbar sein.
 
    ![](assets/schema_extension_uc27.png)
 

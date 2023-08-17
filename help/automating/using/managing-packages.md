@@ -49,7 +49,7 @@ Der Package-Export wird im Abschnitt [Package exportieren](#exporting-a-package)
 * Das **[!UICONTROL Plattform]**-Package enthält alle Ressourcen, die im Zuge der technischen Konfiguration hinzugefügt werden: benutzerdefinierte Ressourcen, benutzerdefinierte Ressourcensets, Triggers und Anwendungsoptionen vom Typ **[!UICONTROL System]**.
 * Das **[!UICONTROL Administration]**-Package enthält alle Objekte, die im Zuge der anwendungsbezogenen Konfiguration hinzugefügt werden: z. B. Kampagnenvorlagen, Inhaltsvorlagen, Versandvorlagen, Landingpage-Vorlagen, Programmvorlagen und Workflow-Vorlagen.
 
-   Es enthält auch die folgenden Objekte: Inhaltsbausteine, Zielgruppen-Mappings, externe Konten, Organisationseinheiten, Anwendungsoptionen vom Typ **[!UICONTROL Benutzer]**, Rollen, Typologien, Typologieregeln und Benutzer.
+  Es enthält auch die folgenden Objekte: Inhaltsbausteine, Zielgruppen-Mappings, externe Konten, Organisationseinheiten, Anwendungsoptionen vom Typ **[!UICONTROL Benutzer]**, Rollen, Typologien, Typologieregeln und Benutzer.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ Nach Abschluss des Vorgangs werden weitere Informationen angezeigt:
 
 * **[!UICONTROL Der Exportstatus]** gibt Auskunft darüber, ob der Export korrekt ausgeführt wurde.
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * Im **[!UICONTROL Protokoll]**-Tab werden alle Logs zu diesem und früheren Exporten angezeigt. Darin ist der Status aller früher durchgeführten Exporte zu sehen.
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Nach Abschluss des Vorgangs werden weitere Informationen angezeigt:
 * **[!UICONTROL Der Importstatus]** gibt Auskunft darüber, ob der Import korrekt ausgeführt wurde.
 * In der **[!UICONTROL Ausführungslogs]**-Ansicht werden alle Importetappen und insbesondere Fehler angezeigt. Ein bereits importiertes Package kann nicht erneut importiert werden.
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 Nur sein Titel und seine Kennung können angepasst werden. Sie können nur den Titel und die Kennung ändern.
 

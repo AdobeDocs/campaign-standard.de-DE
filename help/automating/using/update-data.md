@@ -36,13 +36,13 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie ein **[!UICONTROL Daten-Update]** in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der im Schnellzugriff angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Geben Sie im Feld **[!UICONTROL Aktionstyp]** an, auf welche Weise die Daten aktualisiert werden sollen:
 
    * **[!UICONTROL Hinzufügen oder aktualisieren]** – fügt neue Daten zur Datenbank hinzu oder aktualisiert existierende Datensätze.
    * **[!UICONTROL Nur hinzufügen]** – fügt nur neue Daten hinzu, existierende Datensätze werden nicht verändert. Wenn Abstimmkriterien definiert wurden, werden nur nicht abgestimmte Datensätze hinzugefügt.
 
-      Kreuzen Sie die Option **[!UICONTROL Ausgehende Transition für Zurückweisungen erzeugen]** an, wenn die importierten Daten bestimmte, bereits in der Datenbank vorhandene Datensätze enthalten, um Fehler zu vermeiden.
+     Kreuzen Sie die Option **[!UICONTROL Ausgehende Transition für Zurückweisungen erzeugen]** an, wenn die importierten Daten bestimmte, bereits in der Datenbank vorhandene Datensätze enthalten, um Fehler zu vermeiden.
 
    * **[!UICONTROL Aktualisieren]** – aktualisiert Daten existierender Datensätze, fügt keine neuen Datensätze hinzu.
    * **[!UICONTROL Löschen]** – löscht in der Datenbank existierende Daten.

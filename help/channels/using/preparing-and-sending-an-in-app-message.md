@@ -21,12 +21,12 @@ In Adobe Campaign sind drei Arten von In-App-Nachrichten verfügbar:
 
 * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)]**: Mit diesem Nachrichtentyp können Sie Adobe Campaign-Profile (CRM-Profile) auswählen, die sich für Ihre Mobile App angemeldet haben. Dieser Nachrichtentyp kann mit allen in Adobe Campaign verfügbaren Profilattributen personalisiert werden, erfordert aber einen sicheren Handshake zwischen dem Mobile SDK und dem In-App-Messaging-Dienst von Campaign, um sicherzustellen, dass Nachrichten mit personenbezogenen und sensiblen Informationen nur von autorisierten Benutzern verwendet werden.
 
-   Um diesen Nachrichtentyp mit den Geräten der Benutzer herunterzuladen, muss das Mobile SDK Verknüpfungsfelder zur Verknüpfung eines mobilen Profils mit einem CRM-Profil in Adobe Campaign senden. Weiterführende Informationen zu SDK APIs zur Unterstützung von In-App-Nachrichten finden Sie auf dieser [Seite](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
+  Um diesen Nachrichtentyp mit den Geräten der Benutzer herunterzuladen, muss das Mobile SDK Verknüpfungsfelder zur Verknüpfung eines mobilen Profils mit einem CRM-Profil in Adobe Campaign senden. Weiterführende Informationen zu SDK APIs zur Unterstützung von In-App-Nachrichten finden Sie auf dieser [Seite](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 * **[!UICONTROL Alle Nutzer einer Mobile App auswählen (inAppBroadcast)]**: Mit diesem Nachrichtentyp können Sie Nachrichten an alle (aktuellen oder künftigen) Benutzer Ihrer Mobile App senden, selbst wenn in Adobe Campaign kein Profil existiert. Bei der Anpassung der Nachrichten ist daher keine Personalisierung möglich, da das Benutzerprofil in Adobe Campaign ggf. gar nicht existiert.
 * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]**: Mit diesem Nachrichtentyp können Sie alle bekannten oder anonymen Benutzer einer Mobile App auswählen, von denen ein mobiles Profil in Campaign existiert. Dieser Nachrichtentyp kann nur mit nicht-personenbezogenen und nicht-sensiblen Attributen personalisiert werden und benötigt auch keinen sicheren Handshake zwischen dem Mobile SDK und dem In-App-Messaging-Dienst von Adobe Campaign.
 
-   Weiterführende Informationen zur Verwendung personenbezogener und sensibler Daten finden Sie im Abschnitt [Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+  Weiterführende Informationen zur Verwendung personenbezogener und sensibler Daten finden Sie im Abschnitt [Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
@@ -40,7 +40,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
 1. Wählen Sie ausgehend von der Startseite von Adobe Campaign die Karte **[!UICONTROL In-App-Messaging]** aus.
 
-   Sie können eine In-App-Nachricht auch im Tab **Marketingaktivitäten** erstellen, indem Sie die Schaltfläche **[!UICONTROL Erstellen]** auswählen.
+   Sie können eine In-App-Nachricht auch im Tab **Marketing-Aktivitäten** erstellen, indem Sie die Schaltfläche **[!UICONTROL Erstellen]** auswählen.
 
    Eine In-App-Nachricht kann auch in einer Kampagne, auf der Startseite von Adobe Campaign oder in einem Workflow erstellt werden.
 
@@ -76,19 +76,20 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    * **[!UICONTROL Mobile-App-Ereignisse]**: Benutzerdefinierte Ereignisse, die in Ihrer Mobile App implementiert sind.
 
-      Weiterführende Informationen zum Erstellen von Ereignissen finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md).
+     Weiterführende Informationen zum Erstellen von Ereignissen finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md).
 
    * **[!UICONTROL Life-Cycle-Ereignisse]**: Native Life-Cycle-Ereignisse, die vom Adobe Mobile SDK unterstützt werden.
 
-      Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=de).
+     Weiterführende Informationen zu Life-Cycle-Ereignissen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=de).
 
    * **[!UICONTROL Analytics-Ereignisse]**: Je nach der Konfiguration Ihrer Mobile App werden die folgenden drei Kategorien unterstützt: Adobe Analytics, Kontextdaten oder Ansichtsstatus.
 
-      Bitte beachten Sie, dass diese Ereignisse nur verfügbar sind, wenn Sie eine Adobe Analytics-Lizenz besitzen.
+     Bitte beachten Sie, dass diese Ereignisse nur verfügbar sind, wenn Sie eine Adobe Analytics-Lizenz besitzen.
 
    * **[!UICONTROL Places]**: Die folgenden drei Kategorien nutzen Echtzeit-Standortdaten, um kontextuell relevante mobile Erlebnisse bereitzustellen: Places-Kontextdaten, benutzerdefinierte Places-Metadaten oder Places-Ereignistyp.
 
-      Weiterführende Informationen zu Adobe Places finden Sie in der [Places-Dokumentation](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de).
+     Weiterführende Informationen zu Adobe Places finden Sie in der [Places-Dokumentation](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de).
+
    ![](assets/inapp_creating_4.png)
 
 1. Bei der Verwendung der Funktion **[!UICONTROL Analytics-Ereignisse]** werden Adobe Analytics- und Ansichtsstatus-Ereignisse abhängig von den in der Analytics-Erweiterung in der Datenerfassungs-UI konfigurierten Report Suites automatisch mit Daten befüllt, während Kontextdaten-Ereignisse manuell hinzugefügt werden müssen.
@@ -143,9 +144,9 @@ Nach erfolgreicher Vorbereitung und Validierung Ihres Versands können Sie die N
 
    ![](assets/inapp_sending_4.png)
 
-1. Nach dem erfolgreichen Abschluss der Vorbereitung werden im Fenster **Freigabe** die folgenden KPIs angezeigt: **Zielgruppe** und **Zu senden**.
+1. Nach dem erfolgreichen Abschluss der Vorbereitung werden im Fenster **Bereitstellung** die folgenden KPIs angezeigt: **Zielgruppe** und **Zu senden**.
 
-   Sie können durch Auswahl der Schaltfläche ![](assets/lp_link_properties.png) das Freigabe-Fenster auf potenzielle Ausschlüsse oder Versandfehler prüfen.
+   Sie können durch Auswahl der Schaltfläche ![](assets/lp_link_properties.png) das Bereitstellungs-Fenster auf potenzielle Ausschlüsse oder Versandfehler prüfen.
 
    ![](assets/inapp_sending_5.png)
 
