@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
-source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
-source-wordcount: '1818'
+source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
+workflow-type: ht
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---
@@ -271,22 +271,21 @@ ht-degree: 100%
          + [Daten zwischen Microsoft Dynamics 365 und Campaign mappen](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Integration mit Microsoft Dynamics 365 verwenden](integrating/using/d365-acs-using-the-integration.md)
    + Campaign und Adobe Experience Platform {#adobe-experience-platform}
-      + Adobe Experience Platform-Quellen und -Ziele {#aep-sources-destinations}
-         + [Erste Schritte mit Quellen und Zielen](integrating/using/get-started-sources-destinations.md)
-         + [Adobe Experience Platform-Audiences in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
-         + [Daten von Campaign nach Adobe Experience Platform exportieren](integrating/using/export-campaign-data.md)
-      + Audience Destinations Service (Betaversion) {#audience-destinations}
-         + [Über den Audience Destinations-Service](integrating/using/aep-about-audience-destinations-service.md)
-         + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
-         + [Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
-         + [Adobe Experience Platform-Audiences auswählen](integrating/using/aep-targeting-audiences.md)
-         + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform Data Connector (Betaversion) {#data-connector}
-         + [Über Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-         + [Übersicht über das Experience Platform-Datenmodell](integrating/using/aep-data-model-overview.md)
-         + [Mapping-Definition](integrating/using/aep-mapping-definition.md)
-         + [Mapping-Aktivierung](integrating/using/aep-mapping-activation.md)
-         + [Datenaufnahme über APIs aktivieren](integrating/using/aep-triggering-data-ingestion.md)
+      + [Erste Schritte mit Quellen und Zielen](integrating/using/get-started-sources-destinations.md)
+      + [Adobe Experience Platform-Audiences in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
+      + [Daten von Campaign nach Adobe Experience Platform exportieren](integrating/using/export-campaign-data.md)
+         + Audience Destinations Service (Betaversion) {#audience-destinations}
+            + [Über den Audience Destinations-Service](integrating/using/aep-about-audience-destinations-service.md)
+            + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
+            + [Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
+            + [Adobe Experience Platform-Audiences auswählen](integrating/using/aep-targeting-audiences.md)
+            + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](integrating/using/aep-personalizing-campaigns.md)
+         + Adobe Experience Platform Data Connector (Betaversion) {#data-connector}
+            + [Über Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
+            + [Übersicht über das Experience Platform-Datenmodell](integrating/using/aep-data-model-overview.md)
+            + [Mapping-Definition](integrating/using/aep-mapping-definition.md)
+            + [Mapping-Aktivierung](integrating/using/aep-mapping-activation.md)
+            + [Datenaufnahme über APIs aktivieren](integrating/using/aep-triggering-data-ingestion.md)
 + Verwalten von Prozessen und Daten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
