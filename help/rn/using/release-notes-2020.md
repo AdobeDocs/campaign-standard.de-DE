@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '5272'
+source-wordcount: '5216'
 ht-degree: 100%
 
 ---
@@ -266,7 +266,7 @@ ht-degree: 100%
 
 **Experience Platform-Integrationen**
 
-* Die Aktivierung von Adobe [Experience Platform-Audiences](../../integrating/using/aep-targeting-audiences.md) über die Aktivität **Audience lesen** wurde verbessert, um eine höhere Leistung und Stabilität zu erzielen. Darüber hinaus wurden Workflow-Logs in Bezug auf Aktivierungsvorgänge klarer und detaillierter gestaltet, was eine einfachere Überwachung und Fehlerbehebung beim Lesen von Adobe Experience Platform-Audiences ermöglicht.
+* Die Aktivierung von Adobe Experience Platform-Audiences über die Aktivität **Audience lesen** wurde verbessert, um eine höhere Leistung und Stabilität zu erzielen. Darüber hinaus wurden Workflow-Logs in Bezug auf Aktivierungsvorgänge klarer und detaillierter gestaltet, was eine einfachere Überwachung und Fehlerbehebung beim Lesen von Adobe Experience Platform-Audiences ermöglicht.
 
 **Patches**
 
@@ -359,7 +359,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe Experience Platform-Funktionen in Campaign Standard befinden sich derzeit in der Betaversion und können daher häufig ohne Vorankündigung aktualisiert werden. Weiterführende Informationen finden Sie im entsprechenden Handbuch: [Experience Platform-Connectoren ](../../integrating/using/aep-about-data-connector.md), [Audience-Ziele](../../integrating/using/aep-about-audience-destinations-service.md)
+>Adobe Experience Platform-Funktionen in Campaign Standard befinden sich derzeit in der Betaversion und können daher häufig ohne Vorankündigung aktualisiert werden. Weiterführende Informationen finden Sie im entsprechenden Handbuch: Experience Platform-Connectoren , Audience-Ziele
 
 * In den Workflow-Protokollen zeigt Campaign nun alle zehn Minuten die Anzahl der Datensätze an, die vom derzeit ausgeführten Auftrag bereits verarbeitet wurden.
 * Ein Adobe Experience Platform-Profil, das aus der Datenbank gelöscht worden war, kann jetzt problemlos importiert werden.
@@ -406,7 +406,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Campaign-Daten in Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign aufgenommene Daten) auf das Adobe Experience Platform-Datenmodell (XDM) abbilden. </p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-data-connector.md">ausführlichen Dokumentation</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=de">Anleitungsvideo</a>.</p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +421,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Mit Audience Destinations können Sie Segmente von Adobe Experience Platform für Adobe Campaign freigeben.</p>
-    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden. Weitere Informationen zu dieser Funktion und den Bedingungen für ihre Aktivierung finden Sie in der <a href="../../integrating/using/aep-about-audience-destinations-service.md">ausführlichen Dokumentation</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html?lang=de">Anleitungsvideo</a>. </p>
+    <p>Bitte beachten Sie, dass diese Funktion nur für Kunden verfügbar ist, die auf Azure gehostet werden.</p>
    </td> 
   </tr> 
  </tbody> 

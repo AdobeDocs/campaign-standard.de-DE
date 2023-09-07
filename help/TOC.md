@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
-source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
-workflow-type: ht
-source-wordcount: '1812'
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+workflow-type: tm+mt
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
@@ -274,18 +274,6 @@ ht-degree: 100%
       + [Erste Schritte mit Quellen und Zielen](integrating/using/get-started-sources-destinations.md)
       + [Adobe Experience Platform-Audiences in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
       + [Daten von Campaign nach Adobe Experience Platform exportieren](integrating/using/export-campaign-data.md)
-         + Audience Destinations Service (Betaversion) {#audience-destinations}
-            + [Über den Audience Destinations-Service](integrating/using/aep-about-audience-destinations-service.md)
-            + [Adobe Experience Platform-Audiences verwalten](integrating/using/aep-managing-audiences.md)
-            + [Segment Builder verwenden](integrating/using/aep-using-segment-builder.md)
-            + [Adobe Experience Platform-Audiences auswählen](integrating/using/aep-targeting-audiences.md)
-            + [Kampagnen mithilfe von Adobe Experience Platform-Attributen personalisieren](integrating/using/aep-personalizing-campaigns.md)
-         + Adobe Experience Platform Data Connector (Betaversion) {#data-connector}
-            + [Über Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-            + [Übersicht über das Experience Platform-Datenmodell](integrating/using/aep-data-model-overview.md)
-            + [Mapping-Definition](integrating/using/aep-mapping-definition.md)
-            + [Mapping-Aktivierung](integrating/using/aep-mapping-activation.md)
-            + [Datenaufnahme über APIs aktivieren](integrating/using/aep-triggering-data-ingestion.md)
 + Verwalten von Prozessen und Daten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
    + Allgemeine Funktionsweise von Workflows {#workflow-general-operation}
@@ -517,3 +505,4 @@ ht-degree: 100%
       + [Attribute geografischer Einheiten aktualisieren](api/using/updating-geographical-unit-attributes.md)
    + [Fehlerbehebung](api/using/troubleshooting.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
+
