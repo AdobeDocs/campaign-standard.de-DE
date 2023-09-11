@@ -14,9 +14,9 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Die [wichtigsten Rechtsvorschriften](#privacy-regulations) beziehen sich auf die
 
 Als Unternehmen, das personenbezogene Daten erfasst und weitergibt, sind Sie daher der Datenverantwortliche, Ihre Kunden sind die betroffenen Personen und Adobe Campaign fungiert als Auftragsverarbeiter, wenn wir deren personenbezogene Daten gemäß Ihren Anweisungen verarbeiten. Beachten Sie, dass es in Ihrer Verantwortung als Datenverantwortlicher liegt, die Beziehung zu den betroffenen Personen zu verwalten, z. B. bei der Verwaltung von [Datenschutzanfragen](#privacy-requests).
 
-Bei der Integration von Campaign mit anderen Experience Cloud-Lösungen, bei denen Audiences von einem System auf ein anderes übertragen werden können, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager oder People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)oder mit anderen Lösungen wie [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)müssen Sie dem Schutz personenbezogener Daten besondere Aufmerksamkeit widmen.
+Bei der Integration von Campaign mit anderen Experience Cloud-Lösungen, bei denen Zielgruppen von einem System in ein anderes übertragen werden können, wie [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager oder People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), oder mit anderen Lösungen wie [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), müssen Sie dem Schutz personenbezogener Daten besondere Aufmerksamkeit schenken.
 
 ## Datenakquise {#data-acquisition}
 
