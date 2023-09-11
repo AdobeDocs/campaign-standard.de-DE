@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7253'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Der Abschnitt, in dem die wichtigsten Schritte zum Senden einer Nachricht aufgef
 
 Es wurden Informationen hinzugefügt, die präzisieren, dass bei der Auswahl einer Audience in einer Abfrage deren Definition kopiert und nicht referenziert wird. [Weitere Informationen](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-Informationen zum Audience Destinations Service und Adobe Experience Platform Data Connector wurden in einem neuen Abschnitt zusammengefasst.
+Informationen zu Audience Destinations Service und Adobe Experience Platform Data Connector wurden in einem neuen Abschnitt zusammengefasst.
 
 Eine **Declared ID**-Datenquelle kann jetzt auch mit der People Core Service-Integration verwendet werden. In der Dokumentation zur Integration von Campaign mit Audience Manager oder People Core Service wurden Informationen hinzugefügt. [Weitere Informationen](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -178,7 +178,7 @@ Der Abschnitt zum **Datenschutz** wurde um zwei neue Seiten erweitert: [Datensch
 
 Der Abschnitt **Transaktionsnachrichten** wurde neu organisiert und zur besseren Navigation an einer Stelle zusammengefasst. [Weitere Informationen](../../channels/using/getting-started-with-transactional-msg.md)
 
-Im Abschnitt „Adobe Experience Platform Data Connector“ wurden Informationen zum Validierungsfehler bei der Datenzuordnung im Zusammenhang mit der Datenschutzverwaltung und zur dessen Behebung hinzugefügt –
+Im Abschnitt „Adobe Experience Platform Data Connector“ wurden Informationen zum Validierungsfehler bei der Datenzuordnung im Zusammenhang mit der Datenschutzverwaltung und zu dessen Behebung hinzugefügt –
 
 ## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
 
@@ -280,7 +280,7 @@ Die Dokumentation zur Integration von Microsoft Dynamics 365 mit Adobe Campaign 
 
 Zusätzliche Ressourcen wurden zur Startseite der Dokumentation hinzugefügt – [Weitere Informationen](../../campaign-standard-home.md)
 
-Informationen zum Experience Cloud ID-Dienst (ECID) wurden der Adobe Experience Platform Data Connector-Dokumentation hinzugefügt –
+Informationen zum Experience Cloud ID-Dienst (ECID) wurden der Dokumentation zu Adobe Experience Platform Data Connector hinzugefügt –
 
 Der Abschnitt zu den Transaktionsnachrichten wurde um Informationen zum Zugriff auf die neuesten Transaktionsereignisse und aktualisierte Screenshots erweitert. [Weitere Informationen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -346,9 +346,9 @@ Es wurden Informationen zum Feld **[!UICONTROL Verlauf in Tagen]** hinzugefügt,
 
 **Neue Funktionen in dieser Version**
 
-Adobe Experience Platform Data Connector (Betaversion)
+Adobe Experience Platform Data Connector (Beta-Version)
 
-Audience Destinations (Betaversion)
+Audience Destinations (Beta-Version)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
