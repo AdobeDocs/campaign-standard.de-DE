@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 28%
+source-wordcount: '250'
+ht-degree: 29%
 
 ---
 
@@ -31,9 +31,9 @@ Auf dieser Seite werden Verbesserungen und Fehlerbehebungen beschrieben, die in 
 
 ### Verbesserungen {#e-rn-improvements}
 
-* **Integration mit Adobe Experience Manager**. Bei der Erstellung einer Versandvorlage für Transaktionsnachrichten in Adobe Experience Manager können Sie die Nachricht nun personalisieren, indem Sie die in Campaign Standard definierten Personalisierungsfelder auswählen und verwenden. In Adobe Experience Manager ist eine neue Dropdown-Liste verfügbar.
+* **Integration mit Adobe Experience Manager**. Bei der Erstellung einer personalisierten Versandvorlage für Transaktionsnachrichten in Adobe Experience Manager können Sie jetzt die im Campaign Standard definierten Personalisierungsfelder in einer Dropdown-Liste auswählen und verwenden.
 
-* **Cookie-Ablauf** - Der standardmäßige Ablauf von Cookies ist nun entsprechend der französischen Verordnung auf 6 Monate eingestellt.
+* **Cookie-Ablauf** - Der standardmäßige Ablauf von Cookies ist jetzt auf 6 Monate eingestellt, um den Empfehlungen der französischen Datenschutzagentur (CNIL) zu entsprechen.
 
 * **Verbesserung der Profilsuche** - Die Profilsuche wurde so optimiert, dass Suchzeitüberschreitungsszenarien reduziert werden können.
 
