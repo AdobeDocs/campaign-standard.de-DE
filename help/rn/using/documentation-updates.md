@@ -5,16 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '7253'
-ht-degree: 100%
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+workflow-type: tm+mt
+source-wordcount: '7302'
+ht-degree: 98%
 
 ---
 
 # Aktualisierungen der Dokumentation{#documentation-updates}
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
+
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## September 2023 {#doc-updates-sept-2023}
+
+* Die neue Benutzeroberfläche für Experience Cloud-Trigger ist jetzt verfügbar. Es bietet ein intuitives Erlebnis, um das Verhalten von Verbrauchern zu verwalten und Benutzererlebnisse zu personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+## Version 23.1 - Frühjahr/Sommer 2023 {#release-23-1}
+
+Versionshinweise für die Version Campaign Standard 23.1 vom Frühling/Sommer 2023 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
+
 
 ## November 2022 {#doc-updates-november-2022}
 
@@ -24,7 +37,7 @@ Auf der Seite der Workflow-Aktivität **[!UICONTROL Datei extrahieren]** wurden 
 
 ## Version 22.3 – Herbst/Winter 2022 {#release-22-3}
 
-Die Versionshinweise für die Herbst-/Winter-Version von Campaign Standard 22.3 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
+Versionshinweise für Campaign Standard 22.3 Version Herbst/Winter 2022 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -226,7 +239,7 @@ Es wurde ein neuer Abschnitt mit Richtlinien für die Überwachung in Campaign S
 
 Der Abschnitt zu den Schutzmechanismen und Begrenzungen für externe APIs wurde aktualisiert – [Weitere Informationen](../../automating/using/external-api.md#guardrails)
 
-Die Seite mit der Übersicht über die Datenschutzverwaltung wurde aktualisiert und enthält nun Informationen zum thailändischen Datenschutzgesetz (PDPA) und zum brasilianischen Datenschutzgesetz (Lei Geral de Proteção de Dados, LGPD) – [Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+Die Seite mit der Übersicht über die Datenschutzverwaltung wurde aktualisiert und enthält jetzt Informationen zum thailändischen Datenschutzgesetz (PDPA) und zum brasilianischen Datenschutzgesetz (Lei Geral de Proteção de Dados, LGPD). [Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Das Handbuch zu mobilen Kanälen wurde überarbeitet und verbessert. Eine neue Anleitung zum Konfigurieren von mobilen Kanälen mit technischer Dokumentation zur Mobilkonfiguration wurde hinzugefügt – [Weitere Informationen](../../administration/using/push-tracking.md)
 
@@ -396,7 +409,7 @@ Die ersten Schritte zum Thema Exportieren/Importieren benutzerdefinierter Ressou
 
 Ein neues Anwendungsbeispiel wurde hinzugefügt, in dem beschrieben wird, wie eine Kontrollgruppe mithilfe eines Workflows in Campaign Standard erstellt wird –
 
-Informationen zu den Eigenschaften von Landingpages wurden in einen eigenen Abschnitt verschoben – [Weitere Informationen](../../channels/using/configuring-landing-page.md)
+Informationen zu den Eigenschaften von Landingpages wurden in einen eigenen Abschnitt verschoben - [Weitere Informationen](../../channels/using/configuring-landing-page.md)
 
 Die Control Panel-Dokumentation wurde in den neuen kollaborativen Dokumentationssatz integriert. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
 
@@ -484,7 +497,7 @@ Zur Implementierung und Nutzung des Microsoft Dynamics 365-Connectors wurden neu
 
 Im Abschnitt [Workflow mit Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md) wurde ein Hinweis zur Versandvorbereitung und zum Aggregat-Zeitraum hinzugefügt.
 
-Außerdem wurde der Abschnitt mit Informationen darüber ergänzt, wie der Titel eines Versands mit Ereignisvariablen personalisiert werden kann, die in der Aktivität &quot;Externes Signal&quot; des Workflows deklariert wurden – [Weitere Informationen](../../automating/using/external-signal.md)
+Es wurden Informationen darüber hinzugefügt, wie der Titel eines Versands mit Ereignisvariablen personalisiert werden kann, die in der Aktivität &quot;Externes Signal&quot; des Workflows deklariert wurden. [Weitere Informationen](../../automating/using/external-signal.md)
 
 Ein neuer Abschnitt wurde hinzugefügt, in dem erläutert wird, wie ein Benutzer in Adobe Campaign Standard erstellt werden kann – [Weitere Informationen](../../administration/using/users-management.md)
 
@@ -770,7 +783,7 @@ Informationen zu Trackinglog-Typen wurden hinzugefügt – [Weitere Informatione
 
 Der Abschnitt zur Abfrageaktivität wurde mit Abfragebeispielen ergänzt – [Weitere Informationen](../../automating/using/query.md#query-samples)
 
-Der Abschnitt zu den Blockierungslisten wurde in &quot;Funktionsweise des Opt-in- und Opt-out-Verfahrens&quot; umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [Weitere Informationen](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Der Abschnitt zur Blockierungsliste wurde in &quot;Funktionsweise des Opt-in- und Opt-out-Verfahrens&quot; umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [Weitere Informationen](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Best Practices für die Verwendung der von Adobe gehosteten SFTP-Server – [Weitere Informationen](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1012,7 +1025,7 @@ Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with y
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [Weitere Informationen](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+Die Tabelle mit Berechtigungen wurde überarbeitet, um die Funktion bestimmter Rollen klarer zu gestalten. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
