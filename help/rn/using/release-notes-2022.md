@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Diese Version umfasst die folgende Sicherheitsaktualisierung: Apache Tomcat wurd
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Barrierefreiheit** – Adobe hat viele Fehlerbehebungen im Bereich der Barrierefreiheit vorgenommen, um die Benutzerfreundlichkeit der Anwendung zu erhöhen. Diese Funktionen sind derzeit nur für einige frühzeitige Benutzende verfügbar und werden in zukünftigen Versionen allen Kunden und Kundinnen zur Verfügung stehen. Beispiele für Verbesserungen bei der Barrierefreiheit:
+* **Zugänglichkeit** - Adobe hat viele Fehlerbehebungen vorgenommen, um die Benutzerfreundlichkeit der Anwendung zu verbessern. Diese Funktionen sind derzeit nur für einige frühzeitige Benutzende verfügbar und werden in zukünftigen Versionen allen Kunden und Kundinnen zur Verfügung stehen. Beispiele für Verbesserungen bei der Barrierefreiheit:
 
    * Sicherstellen, dass auf jedem Bildschirm eine sichtbare Fokusanzeige für fokussierbare Elemente vorhanden ist
    * Erstellen von Seitenmarkierungen für eine einfachere Navigation
@@ -111,7 +111,7 @@ Diese Version umfasst die folgende Sicherheitsaktualisierung: Apache Tomcat wurd
 * Um verschiedene Probleme zu lösen, wurde der Wiederholungsmechanismus für Sendungen, einschließlich aus einer URL importierter Inhalte, verbessert. [Weitere Informationen](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, nachdem ein neuer Filter in einer benutzerdefinierten Ressource erstellt und als Abstimmschlüssel in einer Landingpage verwendet wurde. Wenn die benutzerdefinierte Ressource erneut veröffentlicht wurde, wurde der Filter aus der Liste der verfügbaren Abstimmschlüssel für die Landingpage entfernt. (CAMP-49516)
 * Fehlerkorrektur – Auf Landingpages tritt jetzt kein Fehler mehr auf, wenn dynamische Bedingungen mit Kontrollkästchen verwendet werden. (CAMP-48604)
-* Es wurde ein Problem behoben, das in einer **Abfrage**-Aktivität bei Verwendung der Filterbedingung &quot;In oder vor Oktober&quot; auftrat. Bei der Arbeit in einer auf eine europäische Zeitzone festgelegten Instanz wurde als ausgewählter Monat für den Filter September anstelle Oktober angezeigt, da beim Konvertieren der Zeitzone ein Problem aufgetreten war. (CAMP-48602)
+* Es wurde ein Problem behoben, das in einem **Abfrage** -Aktivität bei Verwendung der Filterbedingung &quot;Ein oder vor Oktober&quot;. Bei der Arbeit in einer auf eine europäische Zeitzone festgelegten Instanz wurde als ausgewählter Monat für den Filter September anstelle Oktober angezeigt, da beim Konvertieren der Zeitzone ein Problem aufgetreten war. (CAMP-48602)
 * Um die Zustellbarkeit zu optimieren, sendet Adobe Campaign jetzt E-Mails mit 7-Bit-Codierung anstelle von 8-Bit-Codierung. Dadurch wird verhindert, dass Zwischenrelais die DKIM-Signatur ungültig machen, was sich auf die Authentizität der Nachrichten auswirken könnte. (CAMP-49016)
 * Die Leistung beim Duplizieren von Audiences wurde verbessert, um Probleme beim Arbeiten mit großen Audiences zu vermeiden. (CAMP-49639)
 * Fehlerkorrektur – Benutzerdefinierte Filter zeigen jetzt die richtigen Ergebnisse an, wenn sie in einer **Abfrage**-Aktivität verwendet werden. (CAMP-49417)

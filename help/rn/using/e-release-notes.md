@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 31%
+source-wordcount: '235'
+ht-degree: 28%
 
 ---
 
@@ -45,3 +45,11 @@ Auf dieser Seite werden Verbesserungen und Fehlerbehebungen beschrieben, die in 
 
   Diese Änderungen werden mit den nächsten Benutzeroberflächen- und Dokumentationsversionen schrittweise eingeführt.
 
+### Sonstige Änderungen  {#e-rn-other-changes}
+
+* Transaktionsnachrichten unterstützen jetzt die Verwendung mehrerer kommagetrennter Affinitäten.
+
+### Fehlerbehebungen {#e-rn-fixes}
+
+* Fehlerkorrektur - Es wurde eine Regression behoben, die bei der Verwendung großer Workflows Leistungsprobleme verursachen konnte. (CAMP-53369)
+* Fehlerkorrektur - Der E-Mail-Link in einem Workflow-Warnhinweis oder einer Benachrichtigung funktioniert jetzt. (CAMP-51874)

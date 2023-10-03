@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
+source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
 
@@ -16,6 +16,40 @@ ht-degree: 100%
 # Aktuelle Version{#latest-release}
 
 ![Control Panel](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version**. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de){target="_blank"}.
+
+
+
+## Version 23.2 – Version vom Herbst/Winter 2023 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>Diese Version ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
+
+### Verbesserungen {#fall-23-rn-improvements}
+
+* **Integration mit Adobe Experience Manager**. Bei der Erstellung einer personalisierten Versandvorlage für Transaktionsnachrichten in Adobe Experience Manager können Sie jetzt die im Campaign Standard definierten Personalisierungsfelder in einer Dropdown-Liste auswählen und verwenden. [Weitere Informationen](../../integrating/using/creating-email-experience-manager.md)
+
+* **Cookie-Ablauf** - Der standardmäßige Ablauf von Cookies ist jetzt auf 6 Monate eingestellt, um den Empfehlungen der französischen Datenschutzagentur (CNIL) zu entsprechen.
+
+* **Verbesserung der Profilsuche** - Die Profilsuche wurde so optimiert, dass Suchzeitüberschreitungsszenarien reduziert werden können.
+
+* **Lokalisierung** - Die Übersetzungen des Begriffs &quot;Zielgruppe&quot;bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurden für alle Digital Experience-Produkte in den folgenden Sprachen harmonisiert:
+
+   * Deutsch: Zielgruppe
+   * Brasilianisches Portugiesisch: público-alvo
+   * Spanisch: público destinatario
+
+  Diese Änderungen werden mit den nächsten Benutzeroberflächen- und Dokumentationsversionen schrittweise eingeführt.
+
+
+### Sonstige Änderungen  {#fall-23-rn-other-changes}
+
+* Transaktionsnachrichten unterstützen jetzt die Verwendung mehrerer kommagetrennter Affinitäten.
+
+### Fehlerbehebungen {#fall-23-rn-fixes}
+
+* Fehlerkorrektur - Es wurde eine Regression behoben, die bei der Verwendung großer Workflows Leistungsprobleme verursachen konnte. (CAMP-53369)
+* Fehlerkorrektur - Der E-Mail-Link in einem Workflow-Warnhinweis oder einer Benachrichtigung funktioniert jetzt. (CAMP-51874)
 
 ## Version 23.1 – Version Frühjahr/Sommer 2023 {#apr-23}
 
