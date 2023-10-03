@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '454'
 ht-degree: 62%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 62%
 
 * **Integration mit Adobe Experience Manager**. Bei der Erstellung einer personalisierten Versandvorlage für Transaktionsnachrichten in Adobe Experience Manager können Sie jetzt die im Campaign Standard definierten Personalisierungsfelder in einer Dropdown-Liste auswählen und verwenden. [Weitere Informationen](../../integrating/using/creating-email-experience-manager.md)
 
-* **Cookie-Ablauf** - Der standardmäßige Ablauf von Cookies ist jetzt auf 6 Monate eingestellt, um den Empfehlungen der französischen Datenschutzagentur (CNIL) zu entsprechen.
+* **Cookie-Ablauf** - Die standardmäßige Cookie-Gültigkeit ist jetzt auf 6 Monate eingestellt, um den Empfehlungen der französischen Datenschutzagentur (CNIL) zu entsprechen.
 
 * **Verbesserung der Profilsuche** - Die Profilsuche wurde so optimiert, dass Suchzeitüberschreitungsszenarien reduziert werden können.
 
@@ -44,12 +44,12 @@ ht-degree: 62%
 
 ### Sonstige Änderungen  {#fall-23-rn-other-changes}
 
-* Transaktionsnachrichten unterstützen jetzt die Verwendung mehrerer kommagetrennter Affinitäten.
+* Transaktionsnachrichten unterstützen jetzt die Verwendung mehrerer kommagetrennter Affinitäten. [Weitere Informationen](../../sending/using/managing-typologies.md)
 
 ### Fehlerbehebungen {#fall-23-rn-fixes}
 
 * Fehlerkorrektur - Es wurde eine Regression behoben, die bei der Verwendung großer Workflows Leistungsprobleme verursachen konnte. (CAMP-53369)
-* Fehlerkorrektur - Der E-Mail-Link in einem Workflow-Warnhinweis oder einer Benachrichtigung funktioniert jetzt. (CAMP-51874)
+* Fehlerkorrektur - Der Link in einer Workflow-E-Mail-Warnung oder -Benachrichtigung funktioniert jetzt. (CAMP-51874)
 
 ## Version 23.1 – Version Frühjahr/Sommer 2023 {#apr-23}
 
