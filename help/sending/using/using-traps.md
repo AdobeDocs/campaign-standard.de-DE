@@ -9,10 +9,10 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 76%
 
 ---
 
@@ -62,4 +62,6 @@ Beim Senden von Transaktionsnachrichten können Traps verwendet werden. In diese
 
 >[!NOTE]
 >
->Bei Verwendung eines Testprofils als Falle werden die entsprechenden zusätzlichen Daten für alle angereicherten Felder in einer Nachricht nach dem Zufallsprinzip aus einem echten Zielgruppenprofil ausgewählt und dem Fallen-Testprofil zugewiesen. Weiterführende Informationen zur Anreicherung finden Sie in [diesem Beispiel](../../automating/using/enriching-profile-data-file.md).
+>Bei der Verwendung eines Testprofils als Falle werden bei allen angereicherten Feldern in einer Nachricht die entsprechenden zusätzlichen Daten zufällig aus einem echten Zielgruppenprofil ausgewählt und dem Fallen-Testprofil zugewiesen. Beachten Sie jedoch, dass die Versandvorbereitung fehlschlägt, wenn das tatsächliche Zielgruppenprofil aufgrund von Typologieregeln, die während der ersten Nachrichtenvorbereitung angewendet werden, ausgeschlossen wird. Dieser Fehler tritt auf, weil die angereicherten Feldwerte nicht durch das Fallen-Profil ersetzt werden können. Daher können Typologieregeln vom Typ Ausschluss nicht ordnungsgemäß auf die tatsächlichen Empfänger angewendet werden.
+>
+>Um dies zu verhindern, vermeiden Sie die gleichzeitige Verwendung von Fallen-Testprofilen mit Filter- oder Ermüdungsregeln in Ihrer Transaktionstypologie. Erfahren Sie mehr über die Anreicherung. Weiterführende Informationen zur Anreicherung finden Sie in [diesem Beispiel](../../automating/using/enriching-profile-data-file.md).

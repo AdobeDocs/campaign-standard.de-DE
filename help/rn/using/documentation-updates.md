@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '7302'
-ht-degree: 98%
+source-wordcount: '7322'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been publ
 ## September 2023 {#doc-updates-sept-2023}
 
 * Die neue Benutzeroberfläche für Experience Cloud-Trigger ist jetzt verfügbar. Es bietet ein intuitives Erlebnis, um das Verhalten von Verbrauchern zu verwalten und Benutzererlebnisse zu personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+* Es wurde ein Hinweis zur Verwendung von Fallen-Testprofilen in Kombination mit Filter- oder Ermüdungsregeln hinzugefügt. [Weitere Informationen](../../sending/using/using-traps.md)
 
 ## Version 23.1 - Frühjahr/Sommer 2023 {#release-23-1}
 
