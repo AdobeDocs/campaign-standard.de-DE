@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Ein Adobe Experience Cloud-Trigger muss erst erstellt werden, damit er in Campai
 
 Erstellen Sie einen neuen Trigger in Experience Cloud und wählen Sie dabei die auf Ihrer Website verwendete Report Suite aus. Wählen Sie die richtige Dimension aus, damit der Trigger ausgelöst wird.
 
-Siehe Abschnitt [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=de).
+Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=de).
 
 ## Best Practices und Einschränkungen bei der Verwendung von Triggers {#triggers-best-practices-and-limitations}
 
