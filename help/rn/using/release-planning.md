@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen.
 
-## Version 23.2 – Version vom Herbst/Winter 2023 {#release-23-2-release}
+## Version 23.2 – Version Herbst/Winter 2023 {#release-23-2-release}
 
 Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
@@ -45,11 +45,11 @@ Ausführliche Informationen zu dieser Version sind in den [Versionshinweisen](re
  <tbody>
   <tr>
    <td>Schritt </td>
-   <td>3.-9. Oktober 2023 </td>
+   <td>3.–9. Oktober 2023 </td>
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>12.-18. Oktober 2023 </td>
+   <td>12.–18. Oktober 2023 </td>
   </tr>
  </tbody>
 </table>
