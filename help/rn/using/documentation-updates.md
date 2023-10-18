@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7338'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Version 23.2 – Herbst/Winter 2023 {#release-23-2}
 
-Versionshinweise für Campaign Standard 23.2 Version Herbst/Winter 2023 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
+Die Versionshinweise für die Version Herbst/Winter von Campaign Standard 23.2 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
 
 ## Oktober 2023 {#doc-updates-oct-2023}
 
-* Die neue Benutzeroberfläche für Experience Cloud-Trigger ist jetzt verfügbar. Es bietet ein intuitives Erlebnis, um das Verhalten von Verbrauchern zu verwalten und Benutzererlebnisse zu personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+* Die neue Benutzeroberfläche für Experience Cloud Triggers ist jetzt verfügbar. Sie bietet ein intuitives Erlebnis, um das Verhalten von Verbraucherinnen und Verbrauchern zu verwalten und Benutzererlebnisse zu personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=de){target="_blank"}.
 
 * Es wurde ein Hinweis zur Verwendung von Fallen-Testprofilen in Kombination mit Filter- oder Ermüdungsregeln hinzugefügt. [Weitere Informationen](../../sending/using/using-traps.md)
 
-## Version 23.1 - Frühjahr/Sommer 2023 {#release-23-1}
+## Version 23.1 – Frühjahr/Sommer 2023 {#release-23-1}
 
-Versionshinweise für die Version Campaign Standard 23.1 vom Frühling/Sommer 2023 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
+Die Versionshinweise für die Version Frühjahr/Sommer von Campaign Standard 23.1 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
 
 
 ## November 2022 {#doc-updates-november-2022}
@@ -39,7 +39,7 @@ Auf der Seite der Workflow-Aktivität **[!UICONTROL Datei extrahieren]** wurden 
 
 ## Version 22.3 – Herbst/Winter 2022 {#release-22-3}
 
-Versionshinweise für Campaign Standard 22.3 Version Herbst/Winter 2022 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
+Die Versionshinweise für die Version Herbst/Winter von Campaign Standard 22.3 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -241,7 +241,7 @@ Es wurde ein neuer Abschnitt mit Richtlinien für die Überwachung in Campaign S
 
 Der Abschnitt zu den Schutzmechanismen und Begrenzungen für externe APIs wurde aktualisiert – [Weitere Informationen](../../automating/using/external-api.md#guardrails)
 
-Die Seite mit der Übersicht über die Datenschutzverwaltung wurde aktualisiert und enthält jetzt Informationen zum thailändischen Datenschutzgesetz (PDPA) und zum brasilianischen Datenschutzgesetz (Lei Geral de Proteção de Dados, LGPD). [Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+Die Seite mit der Übersicht über die Datenschutzverwaltung wurde aktualisiert und enthält nun Informationen zum thailändischen Datenschutzgesetz (PDPA) und zum brasilianischen Datenschutzgesetz (Lei Geral de Proteção de Dados, LGPD). [Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Das Handbuch zu mobilen Kanälen wurde überarbeitet und verbessert. Eine neue Anleitung zum Konfigurieren von mobilen Kanälen mit technischer Dokumentation zur Mobilkonfiguration wurde hinzugefügt – [Weitere Informationen](../../administration/using/push-tracking.md)
 
@@ -285,9 +285,9 @@ Im Abschnitt zur Profilersetzung wurden Informationen zum Limit von 500 Zeichen 
 
 Ein neuer Abschnitt zum Thema Datenschutz und Einverständnis wurde der Hauptdokumentation hinzugefügt – [Weitere Informationen](../../start/using/privacy.md)
 
-Es wurde ein Anwendungsfall hinzugefügt, mit dem Sie E-Mails des alten Editors in den Email Designer konvertieren können – [Weitere Informationen](../../designing/using/converting-emails-from-legacy-editor.md)
+Es wurde ein Anwendungsfall hinzugefügt, mit dem Sie E-Mails des alten Editors in den E-Mail-Designer konvertieren können – [Weitere Informationen](../../designing/using/converting-emails-from-legacy-editor.md)
 
-Es wurde ein Abschnitt mit häufig gestellten Fragen zum Email Designer hinzugefügt – [Weitere Informationen](../../designing/using/faq-email-designer.md)
+Es wurde ein Abschnitt mit häufig gestellten Fragen zum E-Mail-Designer hinzugefügt – [Weitere Informationen](../../designing/using/faq-email-designer.md)
 
 ## April 2020 {#doc-updates-april-2020}
 
@@ -349,7 +349,7 @@ Die Dokumentation zur Konfiguration einer mobilen App und zugehörige Seiten wur
 
 Die Dokumentation zur Integration von Adobe Campaign Standard mit Adobe Experience Manager wurde aktualisiert und verbessert – [Weitere Informationen](../../integrating/using/configure-experience-manager.md)
 
-Die Dokumentation zu Campaign Email Designer und zugehörige Seiten wurden aktualisiert, da [!DNL Adobe Creative SDK] entfernt wurde – [Weitere Informationen](../../rn/using/deprecated-features.md)
+Die Dokumentation zu Campaign E-Mail-Designer und zugehörige Seiten wurden aktualisiert, da [!DNL Adobe Creative SDK] entfernt wurde – [Weitere Informationen](../../rn/using/deprecated-features.md)
 
 Ein neuer Abschnitt über Best Practices für Datenmodelle in Campaign Standard ist jetzt verfügbar – [Weitere Informationen](../../developing/using/data-model-best-practices.md)
 
@@ -411,7 +411,7 @@ Die ersten Schritte zum Thema Exportieren/Importieren benutzerdefinierter Ressou
 
 Ein neues Anwendungsbeispiel wurde hinzugefügt, in dem beschrieben wird, wie eine Kontrollgruppe mithilfe eines Workflows in Campaign Standard erstellt wird –
 
-Informationen zu den Eigenschaften von Landingpages wurden in einen eigenen Abschnitt verschoben - [Weitere Informationen](../../channels/using/configuring-landing-page.md)
+Informationen zu den Eigenschaften von Landingpages wurden in einen eigenen Abschnitt verschoben. [Weitere Informationen](../../channels/using/configuring-landing-page.md)
 
 Die Control Panel-Dokumentation wurde in den neuen kollaborativen Dokumentationssatz integriert. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
 
@@ -447,7 +447,7 @@ Die ersten Schritte zum Thema Best Practices beim Versand wurden aktualisiert �
 
 Ein neuer Abschnitt wurde hinzugefügt: Dieser beinhaltet eine Übersicht über die verschiedenen Methoden zur Anreicherung der Campaign Standard-Datenbank – [Weitere Informationen](../../audiences/using/enriching-campaign-database.md)
 
-Ein neuer Abschnitt bezüglich der Formatierung von Links mithilfe von Email Designer wurde ergänzt – [Weitere Informationen](../../designing/using/styles.md#about-styling-links)
+Ein neuer Abschnitt bezüglich der Formatierung von Links mithilfe von E-Mail-Designer wurde ergänzt – [Weitere Informationen](../../designing/using/styles.md#about-styling-links)
 
 Der API-Dokumentation wurden Informationen zum Datenschutz hinzugefügt; [klicken Sie hier](../../api/using/creating-a-privacy-request.md).
 
@@ -469,7 +469,7 @@ Ein neuer Abschnitt zur Verwendung von Fallen wurde hinzugefügt – [Weitere In
 
 Auf der Seite zur Konfiguration einer Mobile App mit Adobe Experience Platform SDKs wurde zur Option **Launch_URL_Campaign** ein Hinweis hinzugefügt – [Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html)
 
-Das Handbuch zu Email Designer wurde neu organisiert – [Weitere Informationen](../../designing/using/designing-content-in-adobe-campaign.md)
+Das Handbuch zu E-Mail-Designer wurde neu organisiert – [Weitere Informationen](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## August 2019 {#doc-updates-august-2019}
 
@@ -499,7 +499,7 @@ Zur Implementierung und Nutzung des Microsoft Dynamics 365-Connectors wurden neu
 
 Im Abschnitt [Workflow mit Parametern aufrufen](../../automating/using/calling-a-workflow-with-external-parameters.md) wurde ein Hinweis zur Versandvorbereitung und zum Aggregat-Zeitraum hinzugefügt.
 
-Es wurden Informationen darüber hinzugefügt, wie der Titel eines Versands mit Ereignisvariablen personalisiert werden kann, die in der Aktivität &quot;Externes Signal&quot; des Workflows deklariert wurden. [Weitere Informationen](../../automating/using/external-signal.md)
+Außerdem wurde der Abschnitt mit Informationen darüber ergänzt, wie der Titel eines Versands mit Ereignisvariablen personalisiert werden kann, die in der Aktivität „Externes Signal“ des Workflows deklariert wurden. [Weitere Informationen](../../automating/using/external-signal.md)
 
 Ein neuer Abschnitt wurde hinzugefügt, in dem erläutert wird, wie ein Benutzer in Adobe Campaign Standard erstellt werden kann – [Weitere Informationen](../../administration/using/users-management.md)
 
@@ -785,7 +785,7 @@ Informationen zu Trackinglog-Typen wurden hinzugefügt – [Weitere Informatione
 
 Der Abschnitt zur Abfrageaktivität wurde mit Abfragebeispielen ergänzt – [Weitere Informationen](../../automating/using/query.md#query-samples)
 
-Der Abschnitt zur Blockierungsliste wurde in &quot;Funktionsweise des Opt-in- und Opt-out-Verfahrens&quot; umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [Weitere Informationen](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Der Abschnitt zu den Blockierungslisten wurde in „Funktionsweise des Opt-in- und Opt-out-Verfahrens“ umbenannt. Jetzt enthält der Abschnitt Informationen, wie ein Opt-in zu bestimmten Kanälen verwaltet wird und wie Landingpages zum Verwalten von Opt-ins und Opt-outs erstellt werden – [Weitere Informationen](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Best Practices für die Verwendung der von Adobe gehosteten SFTP-Server – [Weitere Informationen](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1027,7 +1027,7 @@ Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with y
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [Weitere Informationen](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, um die Funktion bestimmter Rollen klarer zu gestalten. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
