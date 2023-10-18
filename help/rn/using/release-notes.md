@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 62%
 
 
 
-## Version 23.2 – Version vom Herbst/Winter 2023 {#fall-23}
+## Version 23.2 – Version Herbst/Winter 2023 {#fall-23}
 
 >[!AVAILABILITY]
 >
@@ -27,13 +27,13 @@ ht-degree: 62%
 
 ### Verbesserungen {#fall-23-rn-improvements}
 
-* **Integration mit Adobe Experience Manager**. Bei der Erstellung einer personalisierten Versandvorlage für Transaktionsnachrichten in Adobe Experience Manager können Sie jetzt die im Campaign Standard definierten Personalisierungsfelder in einer Dropdown-Liste auswählen und verwenden. [Weitere Informationen](../../integrating/using/creating-email-experience-manager.md)
+* **Integration mit Adobe Experience Manager**. Bei der Erstellung einer personalisierten Versandvorlage für Transaktionsnachrichten in Adobe Experience Manager können Sie jetzt die in Campaign Standard definierten Personalisierungsfelder in einer Dropdown-Liste auswählen und verwenden. [Weitere Informationen](../../integrating/using/creating-email-experience-manager.md)
 
-* **Cookie-Ablauf** - Die standardmäßige Cookie-Gültigkeit ist jetzt auf 6 Monate eingestellt, um den Empfehlungen der französischen Datenschutzagentur (CNIL) zu entsprechen.
+* **Cookie-Gültigkeit** – Der standardmäßige Gültigkeit von Cookies ist jetzt auf 6 Monate eingestellt und entspricht damit den Empfehlungen der französischen Datenschutzagentur (CNIL).
 
-* **Verbesserung der Profilsuche** - Die Profilsuche wurde so optimiert, dass Suchzeitüberschreitungsszenarien reduziert werden können.
+* **Verbesserung der Profilsuche** – Die Profilsuche wurde so optimiert, dass Zeitüberschreitungsszenarien bei Suchen reduziert werden können.
 
-* **Lokalisierung** - Die Übersetzungen des Begriffs &quot;Zielgruppe&quot;bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurden für alle Digital Experience-Produkte in den folgenden Sprachen harmonisiert:
+* **Lokalisierung** – Die Übersetzungen des Begriffs „audience“ bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurden für alle Digital Experience-Produkte in den folgenden Sprachen harmonisiert:
 
    * Deutsch: Zielgruppe
    * Brasilianisches Portugiesisch: público-alvo
@@ -48,8 +48,8 @@ ht-degree: 62%
 
 ### Fehlerbehebungen {#fall-23-rn-fixes}
 
-* Fehlerkorrektur - Es wurde eine Regression behoben, die bei der Verwendung großer Workflows Leistungsprobleme verursachen konnte. (CAMP-53369)
-* Fehlerkorrektur - Der Link in einer Workflow-E-Mail-Warnung oder -Benachrichtigung funktioniert jetzt. (CAMP-51874)
+* Fehlerkorrektur – Es wurde eine Regression behoben, die bei der Verwendung großer Workflows Leistungsprobleme verursachen konnte. (CAMP-53369)
+* Fehlerkorrektur – Der Link in einer Workflow-E-Mail-Warnung oder -Benachrichtigung funktioniert jetzt. (CAMP-51874)
 
 ## Version 23.1 – Version Frühjahr/Sommer 2023 {#apr-23}
 
