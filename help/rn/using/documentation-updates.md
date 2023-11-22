@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: ht
-source-wordcount: '7338'
-ht-degree: 100%
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+workflow-type: tm+mt
+source-wordcount: '7375'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,9 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Version 23.2 – Herbst/Winter 2023 {#release-23-2}
 
-Die Versionshinweise für die Version Herbst/Winter von Campaign Standard 23.2 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
+* Die Versionshinweise für die Version Herbst/Winter von Campaign Standard 23.2 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
+
+* JWT (JSON Web Tokens) wird derzeit abgeschrieben und durch OAuth ersetzt. Die Umstellung erfolgt schrittweise innerhalb der kommenden Campaign-Versionen. Die Dokumentation wird entsprechend diesen Aktualisierungen aktualisiert.
 
 ## Oktober 2023 {#doc-updates-oct-2023}
 
@@ -29,7 +31,6 @@ Die Versionshinweise für die Version Herbst/Winter von Campaign Standard 23.2 w
 ## Version 23.1 – Frühjahr/Sommer 2023 {#release-23-1}
 
 Die Versionshinweise für die Version Frühjahr/Sommer von Campaign Standard 23.1 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
-
 
 ## November 2022 {#doc-updates-november-2022}
 
