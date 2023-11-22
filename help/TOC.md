@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Hilfezentrum für die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Campaign Standard erforderlich sind.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Adobe Campaign Standard – Dokumentation
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
-workflow-type: ht
-source-wordcount: '1761'
-ht-degree: 100%
+source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
+workflow-type: tm+mt
+source-wordcount: '1768'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
       + [Häufig gestellte Fragen zum Datenschutz](start/using/privacy-faq.md)
    + [Hilfe- und Support-Optionen](support.md)
 + Profile und Audiences {#profiles-and-audiences}
-   + [Erste Schritte mit Profilen und Audiences](audiences/using/get-started-profiles-and-audiences.md)
+   + [Erste Schritte mit Profilen und Zielgruppen](audiences/using/get-started-profiles-and-audiences.md)
    + Profile verwalten {#managing-profiles}
       + [Über Profile](audiences/using/about-profiles.md)
       + [Profile erstellen](audiences/using/creating-profiles.md)
@@ -58,7 +58,7 @@ ht-degree: 100%
       + [Verwaltung von Testprofilen](audiences/using/managing-test-profiles.md)
       + [Anreicherung der Campaign-Datenbank](audiences/using/enriching-campaign-database.md)
    + Verwaltung von Audiences {#managing-audiences}
-      + [Über Audiences](audiences/using/about-audiences.md)
+      + [Über Zielgruppen](audiences/using/about-audiences.md)
       + [Erstellen von Audiences](audiences/using/creating-audiences.md)
       + [Audience in einer Nachricht auswählen](audiences/using/selecting-an-audience-in-a-message.md)
    + Abonnements verwalten {#managing-subscriptions}
@@ -269,6 +269,7 @@ ht-degree: 100%
          + [Systeme mit der Integrationsanwendung verbinden](integrating/using/d365-acs-self-service-app-settings.md)
          + [Synchronisations-Workflows verwalten](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Daten zwischen Microsoft Dynamics 365 und Campaign mappen](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [Migrieren von Anmeldedaten von JWT zu OAuth Server-zu-Server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Integration mit Microsoft Dynamics 365 verwenden](integrating/using/d365-acs-using-the-integration.md)
    + Campaign und Adobe Experience Platform {#adobe-experience-platform}
       + [Erste Schritte mit Quellen und Zielen](integrating/using/get-started-sources-destinations.md)
@@ -405,7 +406,7 @@ ht-degree: 100%
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datenmodell {#datamodel}
       + [Einleitung](developing/using/datamodel-introduction.md)
-      + [Audience](developing/using/datamodel-audience.md)
+      + [Zielgruppe](developing/using/datamodel-audience.md)
       + [Campaign](developing/using/datamodel-campaign.md)
       + [Versand](developing/using/datamodel-delivery.md)
       + [Landingpages](developing/using/datamodel-landingpage.md)

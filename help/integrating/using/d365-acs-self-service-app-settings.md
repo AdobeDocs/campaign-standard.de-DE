@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -39,11 +39,10 @@ Die Microsoft Dynamics 365-Zugangsdaten geben der Integrationsanwendung die Bere
 
 Die Adobe Campaign-Zugangsdaten werden mit [Adobe I/O](https://www.adobe.io/) generiert. Sie müssen zuerst den Bildschirm [Adobe I/O konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) aufrufen und den Anweisungen folgen, bevor Sie die erforderlichen Felder in diesem Abschnitt ausfüllen können.
 
-In der folgenden Abbildung wird die Zuordnung zwischen Adobe I/O und den Eingaben im Einstellungsbildschirm im Detail erläutert.
+* Wählen Sie als Authentifizierungstyp Oauth aus, da die JWT-basierte Authentifizierung nicht mehr unterstützt wird.
+* In der folgenden Abbildung wird die Zuordnung zwischen Adobe I/O und den Eingaben im Einstellungsbildschirm im Detail erläutert.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *Privater Schlüssel*: Der Prozess zum Definieren dieses Schlüssels beginnt mit einem Klick auf die Schaltfläche &quot;Generate public/private keypair&quot;. Dadurch wird eine ZIP-Datei erstellt, die Sie herunterladen müssen. Entpacken Sie danach die Datei. Sie erhalten zwei Dateien mit den Namen &quot;certificate_pub.crt&quot; und &quot;private.key&quot;. Bewahren Sie die Datei &quot;private.key&quot; an einem sicheren Ort auf und geben Sie sie nicht weiter. Öffnen Sie die Datei &quot;private.key&quot; in einem Texteditor. Kopieren Sie den gesamten Wert im Texteditor (Strg-A, dann Strg-C auf einem PC oder Cmd-A, dann Cmd-C auf einem Mac). Dies sollte die Zeilen mit &quot;BEGIN PRIVATE KEY&quot; und &quot;END PRIVATE KEY&quot; komplett einschließen. Fügen Sie den gesamten mehrzeiligen Text in das Eingabefeld &quot;Privater Schlüssel&quot; im Einstellungsbildschirm ein.
 
 * *URL*: Dieser Wert entspricht dem Muster https\://mc.adobe.io/&lt;Name-der-Campaign-Instanz>. Die Kopfzeile der Integrationsanwendung enthält sowohl &quot;Org&quot; als auch &quot;Instanz&quot;. Der Teil &quot;Name-der-Campaign-Instanz&quot; der URL entspricht einfach dem in diesem Instanzwert gefundenen Namen.
 
