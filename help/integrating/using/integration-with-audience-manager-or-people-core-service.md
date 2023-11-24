@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 90%
 
 ---
 
@@ -124,10 +124,16 @@ So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 
 Für die Konfiguration der Integration mit People Core Service oder Audience Manager muss auch der Campaign Tracking Server konfiguriert werden.
 
-Stellen Sie sicher, dass der Campaign Tracking Server auf der Domain (CNAME) registriert ist. Mehr Informationen zur Konfiguration von Domain-Namen finden Sie in [diesem Artikel](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
+Damit freigegebene Zielgruppen mit der Besucher-ID funktionieren, sollte die Tracking-Server-Domäne eine Subdomäne der angeklickten URL oder der Haupt-Website sein.
+
+>[!IMPORTANT]
+>
+> Stellen Sie sicher, dass der Campaign Tracking Server in der Domäne (CNAME) registriert ist. Mehr Informationen zur Konfiguration von Domain-Namen finden Sie in [diesem Artikel](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
 
 ### Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst. {#step-4--configure-the-visitor-id-service}
 
 Falls Ihr Visitor-ID-Dienst nie in Ihren Web-Parametern und Webseiten konfiguriert wurde, finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=de) oder im folgenden [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) nähere Informationen dazu.
+
+Synchronisieren Sie Kunden-IDs mit der Declared ID mithilfe der `setCustomerID` -Funktion im Experience Cloud ID-Dienst mit dem Integrationscode: `AdobeCampaignID`. Die `AdobeCampaignID` sollte mit dem Wert des Abstimmschlüssels übereinstimmen, der in der in [Schritt 2: Konfigurieren der Datenquellen](#step-2--configure-the-data-sources).
 
 Die Konfiguration und Bereitstellung sind jetzt abgeschlossen. Die Integration kann somit zum Import und Export von Audiences und Segmenten verwendet werden.
