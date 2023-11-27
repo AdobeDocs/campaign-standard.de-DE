@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Der Zugriff auf Adobe Campaign Standard-APIs lässt sich mit den folgenden Schri
 
    >[!AVAILABILITY]
    >
-   >JWT (JSON Web Tokens) wird derzeit abgeschrieben und durch OAuth ersetzt. Die Umstellung erfolgt schrittweise innerhalb der kommenden Campaign-Versionen. Die Dokumentation wird entsprechend diesen Aktualisierungen aktualisiert.
+   >JWT (JSON Web Tokens) wird gerade eingestellt und durch OAuth ersetzt. Die Umstellung erfolgt schrittweise innerhalb der kommenden Campaign-Versionen. Die Dokumentation wird entsprechend diesen Aktualisierungen ebenfalls aktualisiert.
 
 1. **Tauschen Sie Ihr JWT über eine POST-Anfrage gegen einen Zugriffstoken** aus. Dieser Zugriffstoken muss in allen Kopfzeilen Ihrer API-Anfragen verwendet werden.
 
