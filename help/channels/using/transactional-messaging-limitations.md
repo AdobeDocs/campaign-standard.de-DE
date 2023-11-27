@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Bei der Konfiguration und Veröffentlichung von Transaktionsereignissen können 
 
 ## Anzahl der Transaktionsnachrichten {#transactional-message-number}
 
-Die Anzahl der veröffentlichten Transaktionsnachrichten kann erhebliche Auswirkungen auf Ihre Plattform haben. Um eine optimale Leistung zu erzielen, sollte die Anzahl der veröffentlichten Transaktionsnachrichten unter 100 bleiben. Andernfalls kann es zu Leistungsbeeinträchtigungen kommen. Um dies sicherzustellen, heben Sie die Veröffentlichung nicht verwendeter Transaktionsnachrichten auf oder löschen Sie sie, um die oben genannte Schutzmaßnahme zu erfüllen. Siehe [Veröffentlichung von Transaktionsnachrichten aufheben](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) und [Transaktionsnachricht löschen](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+Die Anzahl der veröffentlichten Transaktionsnachrichten kann erhebliche Auswirkungen auf Ihre Plattform haben. Um eine optimale Leistung zu erzielen, sollte die Anzahl der veröffentlichten Transaktionsnachrichten unter 100 bleiben. Andernfalls kann es zu Leistungsbeeinträchtigungen kommen. Um dies sicherzustellen, heben Sie die Veröffentlichung nicht verwendeter Transaktionsnachrichten auf oder löschen Sie sie, damit der oben genannte Schutzmechanismus wirkt. Siehe [Veröffentlichung von Transaktionsnachrichten aufheben](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) und [Transaktionsnachricht löschen](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 Um eine optimale Leistung zu gewährleisten, können Sie auch die Veröffentlichung nicht verwendeter Ereignisse aufheben oder diese löschen. Wenn Sie die Veröffentlichung eines Ereignisses aufheben oder dieses löschen, werden auch die Veröffentlichung der entsprechenden Transaktionsnachricht(en) sowie deren Versand- und Trackinglogs (falls vorhanden) aufgehoben oder gelöscht. Siehe [Veröffentlichung eines Ereignisses aufheben](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) und [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
