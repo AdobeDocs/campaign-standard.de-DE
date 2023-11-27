@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Die Microsoft Dynamics 365-Zugangsdaten geben der Integrationsanwendung die Bere
 
 Die Adobe Campaign-Zugangsdaten werden mit [Adobe I/O](https://www.adobe.io/) generiert. Sie müssen zuerst den Bildschirm [Adobe I/O konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) aufrufen und den Anweisungen folgen, bevor Sie die erforderlichen Felder in diesem Abschnitt ausfüllen können.
 
-* Wählen Sie als Authentifizierungstyp Oauth aus, da die JWT-basierte Authentifizierung nicht mehr unterstützt wird.
+* Wählen Sie als Authentifizierungstyp „Oauth“ aus, da die JWT-basierte Authentifizierung nicht mehr unterstützt wird.
 * In der folgenden Abbildung wird die Zuordnung zwischen Adobe I/O und den Eingaben im Einstellungsbildschirm im Detail erläutert.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
