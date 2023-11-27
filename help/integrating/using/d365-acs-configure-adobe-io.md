@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -59,11 +59,11 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/adobeIO2.png)
 
-1. Wählen Sie die Adobe Campaign aus und klicken Sie auf **[!UICONTROL Nächste]**.
+1. Wählen Sie Adobe Campaign aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](assets/adobeIO3.png)
 
-1. Auf dem nächsten Bildschirm haben Sie die Möglichkeit, den Authentifizierungstyp auszuwählen. Sie können entweder OAuth Server-zu-Server oder Service Account (JWT) auswählen. Beachten Sie, dass die Anmeldedaten für Service-Konten (JWT) nicht mehr für neue Projekte empfohlen werden und nicht mehr für die neueren OAuth Server-zu-Server-Anmeldedaten empfohlen werden. Die Anweisungen in diesem Handbuch gelten nur für die OAuth Server-zu-Server-Authentifizierung.
+1. Auf dem nächsten Bildschirm haben Sie die Möglichkeit, den Authentifizierungstyp auszuwählen. Sie können entweder „OAuth-Server-zu-Server“ oder „Service-Konto (JWT)“ auswählen. Beachten Sie, dass die Anmeldedaten für Service-Konten (JWT) für neue Projekte nicht mehr empfohlen werden, sondern stattdessen die neueren OAuth-Server-zu-Server-Anmeldedaten verwendet werden sollten. Die Anweisungen in diesem Handbuch gelten nur für die Authentifizierung mit OAuth-Server-zu-Server.
 
    ![](assets/adobeIO4.png)
 
@@ -98,4 +98,4 @@ Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.
 * [Adobe Developer – Integration von Service-Konten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard – Einrichtung von API-Zugriff](../../api/using/setting-up-api-access.md)
 * [Campaign Standard – Integration mit Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
-* [Migrieren von Anmeldedaten von JWT zu OAuth Server-zu-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) enthält die Schritte zum Migrieren von Anmeldedaten von JWT zu OAuth Server zu Server.
+* [Migrieren von Anmeldeinformationen von JWT zu OAuth-Server-zu-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) enthält die Schritte zum Migrieren von Anmeldeinformationen von JWT zu OAuth-Server-zu-Server.
