@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 100%
+source-wordcount: '1333'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Auf drei Tabs finden Sie Hilfe und Unterstützung:
    * den Link **[!UICONTROL Lernen]**, über den Sie auf die Adobe Campaign-Kursbibliothek zugreifen können.
    * den Link **[!UICONTROL Community]**, über den Sie auf das Forum zugreifen können, das sich mit Ihren Fragen zu Campaign beschäftigt.
    * einen direkten Zugriff auf: Hilfezentrum, Kundenunterstützung, Experience Cloud-Produktstatus, Entwicklerverbindung, Versionshinweise, Versionsplanung und den Bildschirm **[!UICONTROL Info]**.
-1. Mit dem Tab **[!UICONTROL Support]** können Sie einen Support-Fall erstellen und uns per Telefon oder Twitter kontaktieren.
+1. Die **[!UICONTROL Support]** tab ermöglicht Ihnen, einen Support-Fall zu öffnen und uns per Telefon oder X (ehemals Twitter) zu kontaktieren.
 1. Der Tab **[!UICONTROL Feedback]** ermöglicht die Meldung von Problemen oder die Übermittlung von Ideen.
 
 ## Erweitertes Menü {#advanced-menu}
