@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 74%
 
 ---
 
@@ -43,6 +43,7 @@ Standardmäßig stehen zwei vordefinierte Vorlagen zur Erstellung von E-Mail-Inh
 1. Erstellen Sie eine neue **[!UICONTROL Seite]** in Adobe Experience Manager.
 
 1. Wählen Sie die **[!UICONTROL Adobe Campaign-E-Mail]**-Vorlage aus. Die einzelnen Schritte finden Sie im folgenden Video.
+
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Öffnen Sie Ihren neuen E-Mail-Inhalt.
@@ -64,12 +65,42 @@ So erstellen Sie E-Mail-Inhalt in Adobe Experience Manager:
 1. Fügen Sie **[!UICONTROL Personalisierungsfelder]** über die Komponente **[!UICONTROL Text und Personalisierung]** hinzu. Jede Komponente entspricht einer bestimmten Nutzung: Einfügen von Bildern, Hinzufügen der Personalisierung usw.
 
    Sehen Sie sich für weiterführende Informationen das folgende Video an:
+
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
 1. Wählen Sie im Tab **[!UICONTROL Workflow]** den Validierungs-Workflow **[!UICONTROL Für Adobe Campaign genehmigen]** aus. Sie können in Adobe Campaign nur E-Mails senden, deren Inhalt validiert wurde.
 
-1. Nach der Definition des Inhalts und der Versandparameter können Sie die E-Mail in Adobe Campaign Standard validieren, vorbereiten und senden.
+So senden Sie Ihre E-Mail in Adobe Campaign Standard:
 
-   Sehen Sie sich für weiterführende Informationen das folgende Video an:
+1. Nachdem die Inhalts- und Versandparameter definiert wurden, erstellen Sie eine E-Mail basierend auf einer AEM E-Mail-Vorlage in Adobe Campaign Standard.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/23721)
++++ Erfahren Sie mehr über AEM spezifische Vorlage.
+
+   1. Greifen Sie über das erweiterte Menü auf **[!UICONTROL Ressourcen]** `>` **[!UICONTROL Vorlagen]** `>` **[!UICONTROL Versandvorlagen]**.
+
+      ![](assets/aem_templates_1.png)
+
+   1. Duplizieren oder wählen Sie eine der Versandvorlagen aus.
+
+   1. Aus dem **[!UICONTROL Eigenschaften]** der Vorlage in der **[!UICONTROL Inhalt]** Dropdown-Liste auswählen **[!UICONTROL Adobe Experience Manager as Content-Modus]** und Ihrem Adobe Experience Manager-Konto.
+
+      ![](assets/aem_templates_2.png)
+
++++
+
+   ![](assets/aem_send_1.png)
+
+1. Füllen Sie die Eigenschaften Ihrer E-Mail aus und klicken Sie auf **[!UICONTROL Erstellen]** , um Ihren AEM Inhalt auswählen zu können.
+
+1. Zugriff auf **[!UICONTROL Inhalt]** blockieren.
+
+   ![](assets/aem_send_2.png)
+
+1. Aus dem **[!UICONTROL Adobe Experience Manager-Inhalte verwenden]** Menü, klicken **[!UICONTROL Link AEM Inhalt]**.
+
+   Wählen Sie dann den Inhalt aus, den Sie in Ihrer E-Mail verwenden möchten.
+
+   ![](assets/aem_send_3.png)
+
+1. Passen Sie Ihre E-Mail weiter an, indem Sie zusätzliche Parameter wie Zielgruppen und Ausführungsplanung im Dashboard angeben. Nach der Konfiguration können Sie nun den E-Mail-Versand durchführen. [Weitere Informationen](../../sending/using/confirming-the-send.md)
+
