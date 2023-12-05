@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 90%
 
 ---
 
@@ -34,6 +34,26 @@ In diesem Abschnitt werden Funktionen aufgeführt, die bei den aktuellen Campaig
 Im Allgemeinen werden Funktionen, die in einer zukünftigen Version entfernt werden sollen, zuerst als eingestellt gekennzeichnet, wobei eine Alternative bereitgestellt wird. Diese Funktionen sind für neue Campaign Standard-Kunden entweder nicht mehr verfügbar oder sollten für keine neue Implementierung verwendet werden. Sie werden auch aus der Produktdokumentation entfernt.
 
 Kunden wird empfohlen, die Nutzung der Funktion in ihrer aktuellen Bereitstellung zu prüfen und Pläne zur Änderung ihrer Implementierung zu erstellen, um die verfügbare Alternative zu nutzen. Achten Sie auf die geplante Version für die Entfernung, um Ihre Umgebungs- und Projektaktualisierungen zu planen.
+
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>SDK V4 für mobile Anwendungen</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Die Unterstützung für die SDKs der Adobe Experience Platform Mobile-Version 4 wurde am 31. August 2021 eingestellt. Wenn Sie noch diese ältere Version des SDK in Adobe Campaign Standard verwenden, müssen Sie Ihre Implementierung mit dem Adobe Experience Platform SDK aktualisieren <strong>vor Ende Juni 2024</strong>. </p></br>
+   <p>Lesen <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=de">diesem Artikel</a> , um zu erfahren, wie Sie Ihre Implementierung anpassen und zum neuesten Experience Platform SDK wechseln können.</p></br>
+   <p><strong>Vorsicht</strong>: Das SDK V4 wird ab Campaign Standard Ende Juni 2024 nicht mehr unterstützt.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 
 <table> 
