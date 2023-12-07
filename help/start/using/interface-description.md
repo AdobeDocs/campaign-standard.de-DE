@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
-workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
 
@@ -77,8 +77,8 @@ Auf drei Tabs finden Sie Hilfe und Unterstützung:
    * den Link **[!UICONTROL Lernen]**, über den Sie auf die Adobe Campaign-Kursbibliothek zugreifen können.
    * den Link **[!UICONTROL Community]**, über den Sie auf das Forum zugreifen können, das sich mit Ihren Fragen zu Campaign beschäftigt.
    * einen direkten Zugriff auf: Hilfezentrum, Kundenunterstützung, Experience Cloud-Produktstatus, Entwicklerverbindung, Versionshinweise, Versionsplanung und den Bildschirm **[!UICONTROL Info]**.
-1. Die **[!UICONTROL Support]** tab ermöglicht Ihnen, einen Support-Fall zu öffnen und uns per Telefon oder X (ehemals Twitter) zu kontaktieren.
-1. Der Tab **[!UICONTROL Feedback]** ermöglicht die Meldung von Problemen oder die Übermittlung von Ideen.
+1. Mit der Registerkarte **[!UICONTROL Support]** können Sie einen Support-Fall erstellen und uns per Telefon oder über X (ehemals Twitter) kontaktieren.
+1. Die Registerkarte **[!UICONTROL Feedback]** macht es einfacher, Probleme zu melden oder Ihre Ideen mitzuteilen.
 
 ## Erweitertes Menü {#advanced-menu}
 
@@ -124,7 +124,7 @@ Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamische
 
 Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs können variieren:
 
-* Er kann die Form einer **Übersicht** im **[!UICONTROL Karten]**- oder **[!UICONTROL Listen]**-Modus annehmen, die diverse Elemente (beispielsweise Programme, Kampagnen, Profile etc.) enthält. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
+* Eine **Liste**, die verschiedene Elemente wie Programme, Kampagnen, Profile usw. enthält. Diese Elemente können im Modus **[!UICONTROL Karte]** oder **[!UICONTROL Liste]** angezeigt werden. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
 
   ![](assets/ux_liste.png)
 
