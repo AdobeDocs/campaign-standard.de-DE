@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
-workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 90%
+workflow-type: ht
+source-wordcount: '829'
+ht-degree: 100%
 
 ---
 
@@ -124,16 +124,16 @@ So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 
 Für die Konfiguration der Integration mit People Core Service oder Audience Manager muss auch der Campaign Tracking Server konfiguriert werden.
 
-Damit freigegebene Zielgruppen mit der Besucher-ID funktionieren, sollte die Tracking-Server-Domäne eine Subdomäne der angeklickten URL oder der Haupt-Website sein.
+Damit freigegebene Zielgruppen mit der Besucher-ID funktionieren, sollte die Tracking-Server-Domain eine Subdomain der angeklickten URL oder der Haupt-Website sein.
 
 >[!IMPORTANT]
 >
-> Stellen Sie sicher, dass der Campaign Tracking Server in der Domäne (CNAME) registriert ist. Mehr Informationen zur Konfiguration von Domain-Namen finden Sie in [diesem Artikel](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
+> Stellen Sie sicher, dass der Campaign Tracking Server auf der Domain (CNAME) registriert ist. Mehr Informationen zur Konfiguration von Domain-Namen finden Sie in [diesem Artikel](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
 
 ### Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst. {#step-4--configure-the-visitor-id-service}
 
 Falls Ihr Visitor-ID-Dienst nie in Ihren Web-Parametern und Webseiten konfiguriert wurde, finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=de) oder im folgenden [Video](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) nähere Informationen dazu.
 
-Synchronisieren Sie Kunden-IDs mit der Declared ID mithilfe der `setCustomerID` -Funktion im Experience Cloud ID-Dienst mit dem Integrationscode: `AdobeCampaignID`. Die `AdobeCampaignID` sollte mit dem Wert des Abstimmschlüssels übereinstimmen, der in der in [Schritt 2: Konfigurieren der Datenquellen](#step-2--configure-the-data-sources).
+Synchronisieren Sie Kunden-IDs mit der Declared ID mithilfe der `setCustomerID`-Funktion im ID-Dienst von Experience Cloud mit dem Integrations-Code: `AdobeCampaignID`. Die `AdobeCampaignID` sollte mit dem Wert des Abgleichsschlüssels übereinstimmen, der in der Empfängerdatenquelle festgelegt ist, die in [Schritt 2: Konfigurieren Sie die Datenquellen](#step-2--configure-the-data-sources) festgelegt wurde.
 
-Die Konfiguration und Bereitstellung sind jetzt abgeschlossen. Die Integration kann somit zum Import und Export von Audiences und Segmenten verwendet werden.
+Die Konfiguration und Bereitstellung sind jetzt abgeschlossen. Die Integration kann somit zum Import und Export von Zielgruppen und Segmenten verwendet werden.
