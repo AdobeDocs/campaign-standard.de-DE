@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '888'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Weitere Informationen zur Integration des Adobe Experience Platform SDK mit Camp
 
 Ja, die [!DNL Adobe Experience Platform SDK]-Integration ist für Adobe Campaign Standard und Adobe Campaign Classic verfügbar. Sie müssen die entsprechende **[!UICONTROL Erweiterung]** über die [!DNL Data Collection UI] installieren, um die Integration zu aktivieren.
 
-Weitere Informationen hierzu finden Sie auf dieser [Seite]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Welche Funktionen ermöglicht die Adobe Experience Platform SDK-Integration in Adobe Campaign? {#aep-capabilities}
 
@@ -98,7 +98,7 @@ Sehen Sie sich die folgenden Ressourcen an:
 
 * [Dokumentation](https://developer.adobe.com/client-sdks/documentation/) zum Experience Platform SDK
 * [Dokumentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) zu den ersten Schritten mit Launch und dem Experience Platform SDK
-* [Dokumentation](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks) zur Aktualisierung auf das Experience Platform SDK
+* [Dokumentation](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/) zur Aktualisierung auf das Experience Platform SDK
 * [Dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) zum Experience Platform SDK in Github
 
 ## Beim Erstellen eines Push-Benachrichtigungsversands erhalte ich die Fehlermeldung &quot;Sie haben keinen Schreibzugriff auf den Versand&quot;.  {#write-access-error}

@@ -8,16 +8,16 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 100%
+source-wordcount: '1346'
+ht-degree: 95%
 
 ---
 
-# Integration von Campaign-POI-Daten konfigurieren{#configuring-campaign-points-of-interest-data-integration}
+# Integration von Campaign-POI-Daten konfigurieren  {#configuring-campaign-points-of-interest-data-integration}
 
-## Integration von Campaign-POI-Daten konfigurieren   mit Adobe Experience Platform-SDKs {#configuring-campaign-poi-aep-sdk}
+## Integration von Campaign-POI-Daten mit Adobe Experience Platform SDKs konfigurieren {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Adminis
 
 Um Adobe Experience Platform Location Services mit Mobile Apps zu verwenden, die mit dem Adobe Experience Platform SDK konfiguriert wurden, gehen Sie folgendermaßen vor:
 
-1. Fügen Sie die Erweiterung **[!UICONTROL Places]** zur Konfiguration Ihrer Mobile App in der Benutzeroberfläche „Datenerfassung“ hinzu. Richten Sie in Adobe Campaign Ihre Mobile App ein. Siehe [Installieren der Places-Erweiterung](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=de#install-the-places-extension-in-adobe-experience-platform-launch?lang=de).
+1. Fügen Sie die Erweiterung **[!UICONTROL Places]** zur Konfiguration Ihrer Mobile App in der Benutzeroberfläche „Datenerfassung“ hinzu. Richten Sie in Adobe Campaign Ihre Mobile App ein. Siehe [Installieren der Places-Erweiterung](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Erstellen Sie nach dem Einrichten der Erweiterungen Datenelemente in der Datenerfassungs-UI, um Daten aus diesen Erweiterungen abzurufen. Weiterführende Informationen zum Erstellen von Datenelementen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
 
@@ -68,7 +68,7 @@ Um POI-Daten mit Adobe Campaign erfassen zu können, müssen Sie die Mobile App 
 
 Im Bereich **[!UICONTROL Eigenschaften der Mobile App]** werden zwei URLs aufgelistet: **[!UICONTROL PII-Abruf-Endpunkt]** und **[!UICONTROL Ortungsdienste-Endpunkt]**. Diese werden in der Adobe-Mobile-Services-Benutzeroberfläche verwendet. Siehe [Mobile App in Adobe Mobile Services konfigurieren](#configuring-a-mobile-app-in-adobe-mobile-services).
 
-* Über die URL für den **[!UICONTROL PII-Abruf-Endpunkt]** ruft die Mobile App bei ihrem Start die Experience Cloud-Kennung und den Anmeldetoken des jeweiligen Benutzers ab. Wenn sich ein Benutzer bei der App mit seinen Zugangsdaten, wie E-Mail, Vorname, Nachname etc., anmeldet, werden auch diese Daten erfasst und verwendet, um den Anmeldetoken des Benutzers mit einem Adobe Campaign-Profil abzugleichen.
+* Über die URL für den **[!UICONTROL PII-Abruf-Endpunkt]** ruft die Mobile App bei ihrem Start die Experience Cloud-Kennung und den Anmeldetoken des jeweiligen Benutzers ab. Wenn sich ein Benutzer bei der App mit seinen Zugangsdaten, wie E-Mail, Vorname, Nachname etc., anmeldet, werden auch diese Daten erfasst und verwendet, um den Anmeldetoken des Benutzers mit einem Adobe-Campaign-Profil abzustimmen.
 * Mit der URL **[!UICONTROL Ortungsdienst-Endpunkt]** werden Standortdaten wie der Längen- und Breitengrad und die Entfernung des Benutzers von einem POI (Point of Interest) erfasst.
 
 Sie können diese Werte jetzt in Adobe Mobile Services verwenden, um die Konfiguration wie im Abschnitt [Mobile App in Adobe Mobile Services konfigurieren](#configuring-a-mobile-app-in-adobe-mobile-services) beschrieben abzuschließen.
@@ -130,7 +130,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
      ```
 
    * Wählen Sie für **Inhaltstyp** die Option **[!UICONTROL application/json]**.
-   * Wählen Sie unter **Welche Daten-Tags lösen den Postback aus?** ein beliebiges Ereignis, normalerweise **[!UICONTROL Gestartet]** und **[!UICONTROL Ist vorhanden]**.
+   * Im **Welche Daten-Tags Trigger der Postback?** auswählen, normalerweise ein beliebiges Ereignis **[!UICONTROL Gestartet]** und **[!UICONTROL exists]**.
    * Klicken Sie auf **[!UICONTROL Speichern und aktivieren]**.
 
 1. Erstellen Sie ein zweites Postback.
@@ -157,7 +157,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
      ```
 
    * Wählen Sie für **Inhaltstyp** die Option **[!UICONTROL application/json]**.
-   * Wählen Sie unter **Welche Daten-Tags lösen den Postback aus?** die Option **[!UICONTROL campaign.test]** und **[!UICONTROL Ist vorhanden]**.
+   * Im **Welche Daten-Tags Trigger der Postback?** auswählen **[!UICONTROL campaign.test]** und **[!UICONTROL exists]**.
    * Klicken Sie auf **[!UICONTROL Speichern und aktivieren]**.
 
 >[!NOTE]
@@ -166,7 +166,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
 
 ### SDK in Mobile Apps integrieren {#integrating-the-sdk-into-a-mobile-application}
 
-Mit dem Mobile-Coreservice-SDK (Software Developer Kit) kann eine Mobile App in Adobe Campaign integriert werden.
+Das Software Development Kit (SDK) des Mobile Core Service erleichtert die Integration einer Mobile App in Adobe Campaign.
 
 Dieser Schritt wird auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
