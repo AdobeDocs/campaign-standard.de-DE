@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 88%
 
 ---
 
@@ -23,11 +23,34 @@ Mit jeder neuen Version werden alle Adobe Campaign Standard-Instanzen aktualisie
 
 Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-Instanzen aktualisiert, damit Sie neue Funktionen testen und Ihre Konfiguration bei Bedarf anpassen können. Danach werden die Produktionsinstanzen aktualisiert.
 
-Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen.
+Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen. Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
-## Version 23.2 – Version Herbst/Winter 2023 {#release-23-2-release}
+## Version 24.1 - Winter-Version 2024 {#release-24-1-release}
 
-Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
+Ausführliche Informationen zu dieser Version finden Sie im Abschnitt [Versionshinweise](release-notes.md) eine Woche vor dem Beginn der Aktualisierungen der Staging-Umgebung.
+
+<table>
+ <thead>
+  <tr>
+   <th> Umgebungen </th>
+   <th> Daten </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Schritt </td>
+   <td>16. Januar - 13. Februar 2024 </td>
+  </tr>
+  <tr>
+   <td>Produktion </td>
+   <td>23. Januar - 20. Februar 2024 </td>
+  </tr>
+ </tbody>
+</table>
+
+
+## Version 23.2 - Version 2023 Herbst Limited {#release-23-2-release}
+
 
 >[!AVAILABILITY]
 >
