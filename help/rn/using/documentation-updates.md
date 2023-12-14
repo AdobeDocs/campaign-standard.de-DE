@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
 workflow-type: tm+mt
-source-wordcount: '7250'
+source-wordcount: '7279'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 99%
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
-## Version 23.2 – Herbst/Winter 2023 {#release-23-2}
+## Dezember 2023 {#doc-updates-dec-2023}
+
+Einige wichtige Änderungen am FCM-Dienst (Android Firebase Cloud Messaging) werden 2024 veröffentlicht und wirken sich auf Ihre Implementierung von Adobe Campaign aus. Weitere Informationen finden Sie unter [diese Technote](../../administration/using/push-technote.md).
+
+## Version 23.2 - Herbst 2023 {#release-23-2}
 
 * Die Versionshinweise für die Version Herbst/Winter von Campaign Standard 23.2 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
 
