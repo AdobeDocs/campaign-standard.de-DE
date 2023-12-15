@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '5216'
-ht-degree: 100%
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '5272'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 100%
 <tbody> 
 <tr> 
   <td> <p>Wir freuen uns, Journey-KI für alle Kunden von Adobe Campaign Standard anzukündigen.</p>
-  <p>Journey-KI nutzt fortschrittliches maschinelles Lernen (ML), um es Unternehmen zu ermöglichen, die Gestaltung und Bereitstellung von Customer Journeys zu optimieren, indem sie die Interaktionsvorlieben jedes Einzelnen vorhersagen.</p>
+  <p>Journey AI verwendet fortschrittliches maschinelles Lernen (ML), um es Unternehmen zu ermöglichen, das Design und die Bereitstellung von Journey zu optimieren, indem sie die Interaktionsvorlieben jedes Einzelnen vorhersagen.</p>
   <P>Journey-KI besteht aus zwei ML-Funktionen:</p>
 <ul> 
      <li> <strong>Prädiktive Interaktionsbewertung</strong>: Identifiziert auf intelligente Weise den bevorzugten Grad der Interaktion der Kunden, um Nachrichten besser auszurichten und zu personalisieren und so die Konversionen und die Kundenbindung zu erhöhen. Sehen Sie sich das <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=de">Anleitungsvideo</a> an.</li> 
@@ -235,7 +236,7 @@ ht-degree: 100%
 **Zusätzliche Funktionen** (ab 13. Juli)
 
 * **KI-gestützte Sendezeitoptimierung und Profilbewertung**: Sie können jetzt Design und Versand von Customer Journeys optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit Journey-KI kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen. [Mehr dazu](../../sending/using/predictive.md)
-* **Brasiliens neue Datenschutzverordnung**: Zusätzlich zu den bereits in Campaign verfügbaren Datenschutzfunktionen hilft Ihnen Adobe, LGPD-konformes Verhalten (LGPD: brasilianische Datenschutzverordnung Lei Geral de Proteçao de Datos) sicherzustellen. Bei der Erstellung einer Datenschutzanfrage wurde dem Privacy Core Service die LGPD-Verordnung hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
+* **Brasiliens neue Datenschutzverordnung** - Zusätzlich zu den bereits in Campaign verfügbaren Datenschutzfunktionen hilft Adobe Ihnen bei der Vorbereitung auf das brasilianische Lei Geral de Proteçao de Datos (LGPD). Bei der Erstellung einer Datenschutzanfrage wurde dem Privacy Core Service die LGPD-Verordnung hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
 
 **Verbesserungen**
 
@@ -274,7 +275,7 @@ ht-degree: 100%
 * Die Anzeige des Marketing-Verlaufs von Profilen wird nicht mehr verhindert, wenn die Profilressource mit einer benutzerdefinierten Ressource erweitert wird. (CAMP-41009)
 * Der Inhalt von nativen Landingpage-Vorlagen wird beim Öffnen des Editors nicht mehr in französischer Sprache angezeigt. (CAMP-41639)
 * In Push-Benachrichtigungen mit dynamischem Inhalt wird nicht mehr Anzeige von Emojis verhindert. (CAMP-40715)
-* In der Aktivität **Deduplizierung** wird einer der ausgehenden ergänzenden Transitionen kein falscher Segment-Code mehr zugewiesen. (CAMP-41400)
+* In der Aktivität **Deduplizierung** wird einer der ausgehenden komplementären Transitionen kein falscher Segment-Code mehr zugewiesen. (CAMP-41400)
 * Das Löschen geplanter Berichte wird jetzt nicht mehr verhindert. (CAMP-41302)
 * Zwischen dem Versand-Dashboard und dem Bericht **Versandzusammenfassung** bestehen keine Abweichungen mehr. (CAMP-41145)
 * In heruntergeladenen Berichten tritt jetzt kein Anzeigeproblem mit Zeichenüberschneidungen mehr auf.
@@ -283,7 +284,7 @@ ht-degree: 100%
 * Die Funktion &quot;charIndex&quot; funktioniert jetzt in einem Workflow mit einer **Ende**- oder **Dateiübertragungs**-Aktivität.
 * Jetzt tritt kein Fehler mehr in Workflows auf, wenn eine Aktivität vom Typ **Anreicherung** mit zwei Eingabeaktivitäten verwendet wurde, einschließlich Zielgruppenressourcen, die eine Relation zueinander aufweisen. (CAMP-42133)
 * Die Ausführung eines Workflows bei Verwendung unbekannter Funktionen ist jetzt möglich. (CAMP-41873)
-* Beim Erstellen von Audiences mithilfe mehrerer Aktivitäten vom Typ **Audience-Speicherung** mit ergänzenden ausgehenden Transitionen tritt jetzt kein Problem mehr auf. (CAMP-39992)
+* Beim Erstellen von Zielgruppen mithilfe mehrerer Aktivitäten vom Typ **Zielgruppe speichern** mit komplementären ausgehenden Transitionen tritt jetzt kein Problem mehr auf. (CAMP-39992)
 * Bei der Verwendung von Personalisierung in Transaktions-E-Mails treten jetzt keine Datenabweichungen mehr auf. (CAMP-41842)
 * Beim Löschen von benutzerdefinierten Feldern in Sendungen mit Push-Benachrichtigungen tritt jetzt kein Problem mehr auf. (CAMP-37586)
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
