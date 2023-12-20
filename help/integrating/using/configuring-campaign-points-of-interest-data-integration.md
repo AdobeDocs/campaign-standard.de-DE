@@ -9,15 +9,15 @@ role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1346'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Integration von Campaign-POI-Daten konfigurieren  {#configuring-campaign-points-of-interest-data-integration}
+# Konfigurieren der Integration von Campaign-POI-Daten  {#configuring-campaign-points-of-interest-data-integration}
 
-## Integration von Campaign-POI-Daten mit Adobe Experience Platform SDKs konfigurieren {#configuring-campaign-poi-aep-sdk}
+## Konfigurieren der Integration von Campaign-POI-Daten mit Adobe Experience Platform SDKs {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
      ```
 
    * Wählen Sie für **Inhaltstyp** die Option **[!UICONTROL application/json]**.
-   * Im **Welche Daten-Tags Trigger der Postback?** auswählen, normalerweise ein beliebiges Ereignis **[!UICONTROL Gestartet]** und **[!UICONTROL exists]**.
+   * Wählen Sie in **Welche Daten-Tags lösen den Postback aus?** ein beliebiges Ereignis aus, typischerweise **[!UICONTROL Gestartet]** und **[!UICONTROL ist vorhanden]**.
    * Klicken Sie auf **[!UICONTROL Speichern und aktivieren]**.
 
 1. Erstellen Sie ein zweites Postback.
@@ -157,7 +157,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
      ```
 
    * Wählen Sie für **Inhaltstyp** die Option **[!UICONTROL application/json]**.
-   * Im **Welche Daten-Tags Trigger der Postback?** auswählen **[!UICONTROL campaign.test]** und **[!UICONTROL exists]**.
+   * Wählen Sie in **Welche Daten-Tags lösen den Postback aus?** die Optionen **[!UICONTROL campaign.test]** und **[!UICONTROL ist vorhanden]** aus.
    * Klicken Sie auf **[!UICONTROL Speichern und aktivieren]**.
 
 >[!NOTE]
@@ -166,7 +166,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
 
 ### SDK in Mobile Apps integrieren {#integrating-the-sdk-into-a-mobile-application}
 
-Das Software Development Kit (SDK) des Mobile Core Service erleichtert die Integration einer Mobile App in Adobe Campaign.
+Mit dem Mobile-Coreservice-SDK (Software Developer Kit) kann eine Mobile App in Adobe Campaign integriert werden.
 
 Dieser Schritt wird auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) beschrieben.
 
