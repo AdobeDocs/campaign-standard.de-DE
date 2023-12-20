@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen. Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
-## Version 24.1 - Winter-Version 2024 {#release-24-1-release}
+## Version 24.1 – Winterversion 2024 {#release-24-1-release}
 
-Ausführliche Informationen zu dieser Version finden Sie im Abschnitt [Versionshinweise](release-notes.md) eine Woche vor dem Beginn der Aktualisierungen der Staging-Umgebung.
+Detaillierte Informationen zu dieser Version werden in den [Versionshinweisen](release-notes.md) eine Woche vor Beginn der Aktualisierung der Staging-Umgebungen verfügbar sein.
 
 <table>
  <thead>
@@ -39,17 +39,17 @@ Ausführliche Informationen zu dieser Version finden Sie im Abschnitt [Versionsh
  <tbody>
   <tr>
    <td>Schritt </td>
-   <td>16. Januar - 13. Februar 2024 </td>
+   <td>16. Januar – 13. Februar 2024 </td>
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>23. Januar - 20. Februar 2024 </td>
+   <td>23. Januar – 20. Februar 2024 </td>
   </tr>
  </tbody>
 </table>
 
 
-## Version 23.2 - Version 2023 Herbst Limited {#release-23-2-release}
+## Version 23.2 – Eingeschränkte Herbstversion 2023 {#release-23-2-release}
 
 
 >[!AVAILABILITY]
