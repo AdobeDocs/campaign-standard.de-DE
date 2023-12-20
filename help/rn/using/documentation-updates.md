@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adob
 
 ## Dezember 2023 {#doc-updates-dec-2023}
 
-Einige wichtige Änderungen am FCM-Dienst (Android Firebase Cloud Messaging) werden 2024 veröffentlicht und wirken sich auf Ihre Implementierung von Adobe Campaign aus. Weitere Informationen finden Sie unter [diese Technote](../../administration/using/push-technote.md).
+Einige wichtige Änderungen am FCM-Dienst (Android Firebase Cloud Messaging) werden 2024 veröffentlicht und wirken sich auf Ihre Implementierung von Adobe Campaign aus. Weitere Informationen finden Sie in [dieser Technote](../../administration/using/push-technote.md).
 
-## Version 23.2 - Herbst 2023 {#release-23-2}
+## Version 23.2 – Herbst 2023 {#release-23-2}
 
 * Die Versionshinweise für die Version Herbst/Winter von Campaign Standard 23.2 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
 
@@ -236,7 +236,7 @@ Im Bericht zu den aktiven Profilen wurden Informationen zu anonymen Quellen hinz
 
 Ein neuer aktualisierter Abschnitt über die ersten Schritte mit Transaktionsnachrichten ist verfügbar. [Weitere Informationen](../../channels/using/getting-started-with-transactional-msg.md)
 
-Die **Einschränkungen bei Transaktionsnachrichten** Abschnitt wurde verschoben [here](../../channels/using/transactional-messaging-limitations.md).
+Der Abschnitt **Einschränkungen bei Transaktionsnachrichten** wurde [hierher](../../channels/using/transactional-messaging-limitations.md) verschoben.
 
 Der Abschnitt **Versandvorbereitung** wurde [hierher](../../sending/using/preparing-the-send.md) verschoben.
 
@@ -350,7 +350,7 @@ Genauere Informationen über den erweiterten MTA wurden der Hauptdokumentation h
 
 Der Abschnitt zum Archivieren mit E-Mail-BCC wurde verschoben und aktualisiert – [Weitere Informationen](../../sending/using/archiving.md)
 
-Die Dokumentation zur Konfiguration einer mobilen App und zugehörige Seiten wurden aktualisiert, da SDK V4 entfernt wurde – [Weitere Informationen](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+Die Dokumentation zur Konfiguration einer mobilen App und zugehörige Seiten wurden aktualisiert, da SDK V4 entfernt wurde – [Weitere Informationen](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=de)
 
 Die Dokumentation zur Integration von Adobe Campaign Standard mit Adobe Experience Manager wurde aktualisiert und verbessert – [Weitere Informationen](../../integrating/using/configure-experience-manager.md)
 
@@ -930,7 +930,7 @@ Der Abschnitt &#39;Benutzerdefinierte Ressourcen&#39; wurde besser erklärt, ind
 
 Die [Technote](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html) zur Integration von Adobe Experience Cloud Mobile SDK mit einer Mobile App zum Empfang von Push-Benachrichtigungen in Adobe Campaign Standard wurde aktualisiert und ausführlicher gestaltet.
 
-Eine Technote wurde hinzugefügt, in der der Aufbau der in einer Mobile App empfangenen Payload erläutert wird – [mehr dazu](../../administration/using/push-payload.md)
+Eine Technote wurde hinzugefügt, in der der Aufbau der in einer Mobile App empfangenen Payload erläutert wird. [mehr dazu](../../administration/using/push-payload.md)
 
 Der [Abschnitt](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) zur Push-Kanal-Konfiguration wurde durch neue Payload-Daten ergänzt, die je nach Betriebssystem hinzugefügt werden, wenn Postbacks in der Adobe Mobile Services-Benutzeroberfläche definiert werden.
 
