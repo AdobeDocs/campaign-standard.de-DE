@@ -10,9 +10,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5272'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 <tbody> 
 <tr> 
   <td> <p>Wir freuen uns, Journey-KI für alle Kunden von Adobe Campaign Standard anzukündigen.</p>
-  <p>Journey AI verwendet fortschrittliches maschinelles Lernen (ML), um es Unternehmen zu ermöglichen, das Design und die Bereitstellung von Journey zu optimieren, indem sie die Interaktionsvorlieben jedes Einzelnen vorhersagen.</p>
+  <p>Journey-KI nutzt fortschrittliches maschinelles Lernen (ML), um es Unternehmen zu ermöglichen, die Gestaltung und den Versand von Customer Journeys zu optimieren, indem sie die Interaktionsvorlieben jeder und jedes Einzelnen vorhersagen.</p>
   <P>Journey-KI besteht aus zwei ML-Funktionen:</p>
 <ul> 
      <li> <strong>Prädiktive Interaktionsbewertung</strong>: Identifiziert auf intelligente Weise den bevorzugten Grad der Interaktion der Kunden, um Nachrichten besser auszurichten und zu personalisieren und so die Konversionen und die Kundenbindung zu erhöhen. Sehen Sie sich das <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=de">Anleitungsvideo</a> an.</li> 
@@ -236,7 +236,7 @@ ht-degree: 98%
 **Zusätzliche Funktionen** (ab 13. Juli)
 
 * **KI-gestützte Sendezeitoptimierung und Profilbewertung**: Sie können jetzt Design und Versand von Customer Journeys optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit Journey-KI kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen. [Mehr dazu](../../sending/using/predictive.md)
-* **Brasiliens neue Datenschutzverordnung** - Zusätzlich zu den bereits in Campaign verfügbaren Datenschutzfunktionen hilft Adobe Ihnen bei der Vorbereitung auf das brasilianische Lei Geral de Proteçao de Datos (LGPD). Bei der Erstellung einer Datenschutzanfrage wurde dem Privacy Core Service die LGPD-Verordnung hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
+* **Brasiliens neue Datenschutzverordnung**: Zusätzlich zu den bereits in Campaign verfügbaren Datenschutzfunktionen hilft Ihnen Adobe, LGPD-konformes Verhalten (LGPD: brasilianische Datenschutzverordnung Lei Geral de Proteção de Datos) sicherzustellen. Bei der Erstellung einer Datenschutzanfrage wurde dem Privacy Core Service die LGPD-Verordnung hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
 
 **Verbesserungen**
 
