@@ -12,7 +12,7 @@ exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -59,7 +59,7 @@ Die Aktionsleiste enthält Schaltflächen, die die Bearbeitung des angezeigten I
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Personalisierungsfeld einfügen</span> <br /> </td> 
    <td> SMS und Push-Benachrichtigung<br /> </td> 
-   <td> Fügt den Wert eines Datenbankfelds in den Inhalt ein. Siehe <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Personalisierungsfelder einfügen</a>.<br /> </td> 
+   <td> Fügt den Wert eines Datenbankfelds in den Inhalt ein. Siehe <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Personalisierungsfeld einfügen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 

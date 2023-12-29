@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2005'
 ht-degree: 100%
 
 ---
@@ -48,10 +48,10 @@ Hier finden Sie eine Beschreibung der einzelnen Spalten in dieser Tabelle:
 
      Sie können die Daten nicht erneut abspielen, wenn Folgendes zutrifft:
 
-      * Die Backlog-Metrik enthält 2.000.000 (oder mehr) Elemente, die mit dem Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** verknüpft sind (auf der Seite **[!UICONTROL Workflows]** angezeigt).
+      * Die Metrik „Rückstand“ enthält 2.000.000 (oder mehr) Elemente, die mit dem Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** verknüpft sind (auf der Seite **[!UICONTROL Workflows]** angezeigt).
       * Die Microsoft Dynamics 365-Tabelle enthält 2.000.000 oder mehr Datensätze.
 
-     Die Anzahl der Datensätze, die erneut synchronisiert werden müssen, variiert. Wenn Sie eine große Anzahl von Datensätzen haben, kann es einige Zeit dauern, bis der Synchronisationsvorgang abgeschlossen ist. Während die Integrationsanwendung den Synchronisationsvorgang abschließt, können Sie in der **[!UICONTROL Backlog]**-Metrik auf der Seite **[!UICONTROL Workflows]** entsprechende Informationen abrufen.
+     Die Anzahl der Datensätze, die erneut synchronisiert werden müssen, variiert. Wenn Sie eine große Anzahl von Datensätzen haben, kann es einige Zeit dauern, bis der Synchronisationsvorgang abgeschlossen ist. Während die Integrationsanwendung den Synchronisationsvorgang abschließt, können Sie in der Metrik **[!UICONTROL Rückstand]** auf der Seite **[!UICONTROL Workflows]** entsprechende Informationen abrufen.
 
      >[!IMPORTANT]
      >

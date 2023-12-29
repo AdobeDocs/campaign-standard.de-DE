@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '179'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,6 @@ Gehen Sie zur Erstellung eines Adobe Campaign-Formulars auf Ihrer AEM-Seite wie
    * **Adobe Campaign: Dienstabmeldung**
 
 1. Bearbeiten Sie den Formularinhalt, indem Sie verschiedene Felder und Komponenten hinzufügen, die Sie den Feldern der Adobe-Campaign-Datenbank zuordnen können.
-1. Testen und publizieren Sie das Formular, damit sich über Ihre AEM-Seite darauf zugreifen lässt.
+1. Testen und veröffentlichen Sie das Formular, damit sich über Ihre AEM-Seite darauf zugreifen lässt.
 
 Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=de).

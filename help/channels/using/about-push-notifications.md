@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1227'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Diese Ressource muss erweitert werden, damit die gewünschten, vom Mobilgerät a
 
 In Adobe Campaign sind zwei Arten von Push-Benachrichtigungen verfügbar:
 
-* Mit Benachrichtigungen vom Typ **[!UICONTROL Warnung/Nachricht/Badge]** können Sie standardmäßige textbasierte Nachrichten mit zusätzlichem Inhalt versenden (Ton, Badge, Deeplink usw.), die Sie im Abschnitt **[!UICONTROL Erweiterte Optionen]** definieren können.
+* **[!UICONTROL Alert/Message/Badge]** Mit Typbenachrichtigungen können Sie standardmäßige textbasierte Nachrichten mit zusätzlichem Inhalt versenden (Ton, Badge, Deeplink usw.) die Sie in der Variablen **[!UICONTROL Erweiterte Optionen]** Abschnitt.
 
   Diese Benachrichtigungstypen ermöglichen es Ihnen, einen Titel und eine Nachricht hinzuzufügen, in denen Sie Personalisierungsfelder verwenden können. Zum Personalisieren der Nachricht muss die Vorlage **[!UICONTROL Push-Benachrichtigung für Profile senden]** ausgewählt sein.
 

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '680'
 ht-degree: 100%
 
 ---
@@ -115,7 +115,7 @@ Bei Verwendung der Schaltfläche **[!UICONTROL Wieder aufnehmen]** werden alle E
 
 ## Veröffentlichung einer Transaktionsnachricht aufheben   {#unpublishing-a-transactional-message}
 
-Mithilfe der **[!UICONTROL Veröffentlichung aufheben]**-Schaltfläche lässt sich die Veröffentlichung der Transaktionsnachricht und zudem des entsprechenden Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
+Mithilfe der Schaltfläche **[!UICONTROL Veröffentlichung aufheben]** lässt sich die Veröffentlichung der Transaktionsnachricht und zudem des entsprechenden Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
 
 ![](assets/message-center_unpublish-template.png)
 

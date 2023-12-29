@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '661'
 ht-degree: 100%
 
 ---
@@ -40,9 +40,9 @@ Opt-out-Status (z. B. Blockierungsliste) können in Microsoft Dynamics 365 mit A
 >
 >Es wird dringend empfohlen, den Workflow **Microsoft Dynamics 365 zu Campaign** zu stoppen, bevor Sie Änderungen in Adobe Campaign Standard oder Microsoft Dynamics 365 veröffentlichen. Zu diesen Änderungen gehören Aktualisierungen von Ressourcen/Entitäten (und den zugehörigen Feldern), Links, Spalten mit Kennungen usw., die derzeit von der Integration verwendet werden. Andernfalls kann es zu Datenverlusten und/oder zu einem unerwarteten Abbruch des Workflows kommen.
 
-## Workflow-Backlog
+## Workflow-Rückstand
 
-Diese Integrationsanwendung liest zuerst Daten ein und schreibt dann Daten in das Ziel. Die Spalte **[!UICONTROL Backlog]** gibt die Anzahl der Datensätze an, die in die Warteschlange gestellt wurden und darauf warten, geschrieben zu werden. Es ist zu erwarten, dass dieser Wert zunimmt, wenn Sie eine große Datenmenge verarbeiten müssen (z. B. wenn Sie die Integration zum ersten Mal ausführen, die Daten erneut abspielen usw.). 
+Diese Integrationsanwendung liest zuerst Daten ein und schreibt dann Daten in das Ziel. Die Spalte **[!UICONTROL Rückstand]** gibt die Anzahl der Einträge an, die in die Warteschlange gestellt wurden und darauf warten, geschrieben zu werden. Es ist zu erwarten, dass dieser Wert zunimmt, wenn Sie eine große Datenmenge verarbeiten müssen (z. B. wenn Sie die Integration zum ersten Mal ausführen, die Daten erneut abspielen usw.). 
 
 >[!NOTE]
 >Wenn Ihre Microsoft Dynamics 365- und/oder Campaign-Datensätze nicht aktualisiert werden, sollten Sie zunächst prüfen, ob eine große Anzahl von Datensätzen darauf wartet, in das Ziel geschrieben zu werden.

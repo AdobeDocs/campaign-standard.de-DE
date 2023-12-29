@@ -11,7 +11,7 @@ exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Unser Beispiel umfasst zwei benutzerdefinierte Ressourcen: **Artikel** und **Bes
 
 1. Konfigurieren Sie die **[!UICONTROL Benutzerdefinierte Ressource]** im Detail, indem Sie in den Filterbedingungen die beiden Ressourcen **Artikel** und **Bestellungen** auswählen.
 
-   Vergessen Sie dabei nicht, den logischen Operator zu ändern. Dieser muss **ODER** lauten, damit die Struktur beider Ressourcen, &quot;Artikel&quot; und &quot;Bestellungen&quot;, in das Package integriert wird.
+   Vergessen Sie dabei nicht, den logischen Operator zu ändern. Der Wert muss auf **ODER** , sodass die Struktur der Ressource &quot;products&quot; und der Ressource &quot;orders&quot; in das Package integriert ist.
 
    ![](assets/cusresources_export3.png)
 

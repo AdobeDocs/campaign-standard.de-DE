@@ -39,7 +39,7 @@ Nachrichten können entweder über die Liste der Marketing-Aktivitäten oder üb
 
 ![](assets/steps-channel.png)
 
-## Audience festlegen
+## Zielgruppe definieren
 
 Definieren Sie die Empfänger Ihrer Nachricht. Verwenden Sie dazu den [Abfrageeditor](../../automating/using/editing-queries.md) im linken Bereich, um die in Ihrer Datenbank enthaltenen Daten zu filtern und Regeln zur Bestimmung Ihrer Audience zu erstellen.
 

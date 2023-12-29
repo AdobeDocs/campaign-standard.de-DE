@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 99%
 
 ---
 
@@ -63,7 +63,7 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
   | DateFormat | Formatiert ein Datum mit dem im 2. Parameter angegebenen Format (Beispiel: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
   | FileName | Gibt den Namen eines Dateipfads zurück. | FileName(&lt;String>) |
   | FileExt | Gibt die Erweiterung eines Dateipfads zurück. | FileExt(&lt;String>) |
-  | GetOption | Gibt den Wert der angegebenen Funktion zurück. | GetOption(&lt;optionName>)) |
+  | GetOption | Gibt den Wert der angegebenen Funktion zurück. | GetOption(&lt;optionname>) |
   | IsNull | Gibt an, ob eine Zeichenfolge oder ein Datum null ist. | IsNull(&lt;String/date>) |
   | UrlUtf8Encode | Kodiert eine URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 

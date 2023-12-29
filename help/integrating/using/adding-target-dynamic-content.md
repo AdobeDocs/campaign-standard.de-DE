@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Bevor Sie auf das Bild in Adobe Campaign zugreifen, müssen Sie die folgenden Sc
    Im Rahmen der Integration werden nur statische Bilder unterstützt. Der weitere Inhalt kann nicht personalisiert werden.
 
 1. Geben Sie den Namen der in Adobe Target definierten Rawbox an.
-1. Wenn Sie in Ihren Einstellungen in Adobe Target Unternehmensberechtigungen verwenden, fügen Sie die entsprechende Eigenschaft in dieses Feld ein. Weitere Informationen zu Unternehmensberechtigungen in Target finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=de). Dieses Feld ist optional und nicht erforderlich, wenn Sie keine Berechtigungen auf Unternehmensebene in Target verwenden.
+1. Wenn Sie in Ihren Einstellungen in Adobe Target Berechtigungen auf Unternehmensebene verwenden, fügen Sie in diesem Feld die entsprechende Eigenschaft hinzu. Weiterführende Informationen zu Berechtigungen auf Unternehmensebene in Target finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=de). Dieses Feld ist optional und nicht erforderlich, wenn Sie keine Berechtigungen auf Unternehmensebene in Target verwenden.
 1. Stellen Sie im Bereich **[!UICONTROL Zusätzliche Entscheidungsparameter]** die Verbindung zwischen den in den Adobe Target-Segmenten definierten Feldern und den Feldern in Adobe Campaign her.
 
    Die in Adobe Campaign verwendeten Felder müssen zuvor in der Rawbox angegeben werden. Definieren Sie in diesem Beispiel je nach Geschlecht des Empfängers unterschiedliche Erlebnisse.

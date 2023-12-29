@@ -11,7 +11,7 @@ level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1817'
 ht-degree: 100%
 
 ---
@@ -392,13 +392,13 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>reconciliationFilter (queryFilterBase)</td>
-         <td>Reconciliation key</td>
+         <td>Abstimmungsschlüssel</td>
          <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>reconciliationFilterMapping</td>
-         <td>Reconciliation key parameters</td>
+         <td>Parameter des Abstimmungsschlüssels</td>
          <td>collection </td>
          <td> </td>
       </tr>
@@ -749,7 +749,7 @@ Im gegebenen Zeitraum präsent (byCalendar)
         </tr>
     </table>
 
-Innerhalb des angegebenen Zeitraums publiziert (byPlanning)
+Innerhalb des angegebenen Zeitraums veröffentlicht (byPlanning)
 
 <table>
     <tr>

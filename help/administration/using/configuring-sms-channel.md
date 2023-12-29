@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 100%
+source-wordcount: '1707'
+ht-degree: 99%
 
 ---
 
@@ -280,7 +280,7 @@ CR: Wagenrücklauf
 
 **Doppelt zählende Zeichen**
 
-^ { } [~] | €
+} [~] | €
 
 ### SMSC-Besonderheiten {#smsc-specifics}
 

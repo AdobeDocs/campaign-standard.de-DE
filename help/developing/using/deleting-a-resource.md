@@ -37,7 +37,7 @@ Um eine veröffentlichte Ressource zurückzusetzen und zu löschen, gehen Sie fo
 
    >[!IMPORTANT]
    >
-   >Diese Aktion kann nicht rückgängig gemacht werden: Die Datenbanktabelle der Ressource oder die Spalten und deren Daten werden permanent gelöscht, wenn die Änderung publiziert wird. Dadurch können auch die Verknüpfungen mit anderen benutzerdefinierten Ressourcen beeinträchtigt werden. Nur die Ressource-Definition wird weiterhin verfügbar sein.
+   >Diese Aktion kann nicht rückgängig gemacht werden: Die Datenbanktabelle der Ressource oder die Spalten und deren Daten werden permanent gelöscht, wenn die Änderung veröffentlicht wird. Dadurch können auch die Verknüpfungen mit anderen benutzerdefinierten Ressourcen beeinträchtigt werden. Nur die Ressource-Definition wird weiterhin verfügbar sein.
 
    ![](assets/schema_extension_uc27.png)
 

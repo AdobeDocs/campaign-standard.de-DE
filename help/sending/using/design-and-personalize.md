@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 100%
+source-wordcount: '1049'
+ht-degree: 91%
 
 ---
 
@@ -84,7 +84,7 @@ Um Ihre E-Mail unter dem Grenzwert zu halten, beachten Sie Folgendes:
 
 * Minimieren Sie den Code.
 
-Testen Sie alle Änderungen vor dem endgültigen Senden..
+Testen Sie alle Änderungen vor dem endgültigen Senden.
 
 In Adobe Campaign ist die standardmäßige Maximalgröße einer E-Mail mit **100 MB** festgelegt. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
@@ -100,7 +100,7 @@ Adobe empfiehlt, den Standardwert für die maximale Nachrichtengröße beizubeha
 
 Standardmäßig kommt in Bezug auf die maximal zulässige Zeichenanzahl einer SMS der Mobilfunkstandard GSM (Global System for Mobile Communications) zur Anwendung. SMS, die das GSM-Alphabet verwenden, sind auf 160 Zeichen begrenzt oder auf 153 Zeichen pro SMS bei Nachrichten, die in mehreren Teilen gesendet werden.
 
-Transliteration bezeichnet in einer SMS die Ersetzung eines Zeichens durch ein anderes, wenn das ursprüngliche Zeichen nicht von GSM unterstützt wird. Die Verwendung von Personalisierungsfeldern im SMS-Inhalt führt u. U. dazu, dass nicht von GSM unterstützte Zeichen eingefügt werden. Sie können die Transliteration von Zeichen zulassen, indem Sie die entsprechende Option im Tab mit den Parametern des SMPP-Kanals des entsprechenden **[!UICONTROL externen Kontos]** aktivieren.
+Transliteration bezeichnet die Ersetzung eines Zeichens einer SMS durch ein anderes, wenn dieses Zeichen nicht vom GSM-Standard berücksichtigt wird. Die Verwendung von Personalisierungsfeldern im SMS-Inhalt führt u. U. zu Zeichen, die nicht von GSM unterstützt werden. Sie können die Transliteration von Zeichen zulassen, indem Sie die entsprechende Option im Tab Parameter des SMPP-Kanals des entsprechenden **[!UICONTROL Externes Konto]**.
 Weiterführende Informationen finden Sie [in diesem Abschnitt](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Tipps**:
@@ -117,7 +117,7 @@ Responsives E-Mail-Design stellt sicher, dass eine E-Mail auf jedem Gerät optim
 
 * Verwenden Sie responsive E-Mail-HTML anstelle von Web-HTML.
 
-* Verwenden Sie den Vorschaumodus und Testsendungen, um das Rendering auf möglichst vielen Geräten zu testen.. Erfahren Sie, wie Sie vor dem Senden einer Nachricht eine [Vorschau](../../sending/using/previewing-messages.md) erstellen.
+* Verwenden Sie den Vorschaumodus und senden Sie Testsendungen, um das Rendering auf möglichst vielen Geräten zu testen. Erfahren Sie, wie Sie vor dem Senden einer Nachricht eine [Vorschau](../../sending/using/previewing-messages.md) erstellen.
 
 * Campaign Email Designer enthält Vorlagen für responsive Designs für Mobilgeräte. Weiterführende Informationen finden Sie auf [dieser Seite](../../designing/using/using-reusable-content.md#content-templates).
 

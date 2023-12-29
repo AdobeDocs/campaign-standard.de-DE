@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5411'
-ht-degree: 100%
+source-wordcount: '5442'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Benutzerverwaltung<br /> </td> 
-   <td> Ab Version 18.7 steht die Funktion der geografischen Einheiten nicht mehr für neue Campaign Standard-Instanzen sowie bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden, zur Verfügung.<br /> Weiterführende Informationen finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE">Seite</a>.<br /> </td> 
+   <td> Ab Version 18.7 steht die Funktion der geografischen Einheiten nicht mehr für neue Campaign Standard-Instanzen sowie bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden, zur Verfügung.<br /> Weiterführende Informationen dazu finden Sie in diesem Abschnitt <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -362,7 +362,7 @@ _Integrationen_
 * Assets werden jetzt schneller geladen, wenn versucht wird, ein Bild aus der Asset-Bibliothek von Experience Cloud in eine Nachricht einzufügen.
 * Fehlerkorrektur – jetzt kann das Fenster für die Asset-Auswahl immer geschlossen werden.
 * Sie können jetzt von der Detailansicht einer Datenquelle direkt auf ihren Workflow zugreifen und den Status des Workflows überprüfen.
-* Sie können jetzt das Triggers-Schema direkt aktualisieren, wenn Sie ein Trigger-Ereignis definieren oder bearbeiten. Durch diese Änderung müssen Sie die Veröffentlichung des Triggers nicht mehr aufheben und einen neuen erstellen.
+* Sie können jetzt das Triggers-Schema direkt aktualisieren, wenn Sie ein Trigger-Ereignis definieren oder bearbeiten. Durch diese Änderung müssen Sie die Veröffentlichung des Triggers nicht mehr aufheben und keinen neuen erstellen.
 
 _Transaktionsnachrichten_
 
@@ -403,7 +403,7 @@ _E-Mails, SMS und Briefpost_
 
 * Die Leistung der Versandvorbereitungsphase wurde verbessert.
 * Fehlerkorrektur – mehrere Probleme mit Trackinglogs wurden behoben, die in manchen Situationen fehlerhaft waren.
-* Fehlerkorrektur – jetzt tritt kein Fehler mehr beim Kontaktdatum auf, wenn es zwischen der Vorbereitung und der Bestätigung eines Versands geändert wird. Wenn das Kontaktdatum jetzt nach der Vorbereitung geändert wird, muss der Versand erneut vorbereitet werden, bevor er bestätigt werden kann. Weiterführende Informationen dazu finden Sie im [entsprechenden Handbuch](../../sending/using/preparing-the-send.md)..
+* Fehlerkorrektur – jetzt tritt kein Fehler mehr beim Kontaktdatum auf, wenn es zwischen der Vorbereitung und der Bestätigung eines Versands geändert wird. Wenn das Kontaktdatum jetzt nach der Vorbereitung geändert wird, muss der Versand erneut vorbereitet werden, bevor er bestätigt werden kann. Siehe [Detaillierte Dokumentation](../../sending/using/preparing-the-send.md).
 
 _Push-Benachrichtigungen_
 
@@ -455,7 +455,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
   </tr> 
   <tr> 
    <td> Neue Push-Funktionen<br /> </td> 
-   <td> Vorschau bei Push-Nachrichten - Jetzt können Sie sich mit der neuen Vorschaufunktion des Inhaltseditors schon vor dem Versand ansehen, wie Push-Benachrichtigungen auf iOS- und Android-Geräten des Empfängers aussehen werden.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">entsprechende Handbuch</a>.<br /> Inhalt verfügbar - Wenn Apps über einen längeren Zeitraum hinweg nicht geöffnet werden, sind ihre Daten möglicherweise veraltet. Folglich müssen die Daten bei der nächsten Öffnung der App aktualisiert oder ersetzt werden, was zu einer Verzögerung bei der Verwendung der App führen kann. Mit der Funktion "Inhalt verfügbar" können Adobe Campaign-Benutzer eine App aktivieren, damit ihre Daten beim Senden einer Push-Benachrichtigung im Hintergrund aktualisiert werden. Dies ermöglicht verbesserte Kontinuität und Kontrolle bei der Nutzung der App.<br /> Veränderlicher Inhalt - Dank dieser Funktion können Adobe Campaign-Benutzer nun mit Mobile-App-Erweiterungen Inhalte oder Darstellungen empfangener Push-Benachrichtigungen, die über Adobe Campaign gesendet wurden, weiter verändern. Mit der Funktion "Veränderlicher Inhalt" haben Sie beispielsweise folgende Möglichkeiten: <br /> 
+   <td> Vorschau bei Push-Nachrichten - Jetzt können Sie sich mit der neuen Vorschaufunktion des Inhaltseditors schon vor dem Versand ansehen, wie Push-Benachrichtigungen auf iOS- und Android-Geräten des Empfängers aussehen werden.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">entsprechende Handbuch</a>.<br /> Inhalt verfügbar - Wenn Apps über einen längeren Zeitraum hinweg nicht geöffnet werden, sind ihre Daten möglicherweise veraltet. Folglich müssen die Daten bei der nächsten Öffnung der App aktualisiert oder ersetzt werden, was zu einer Verzögerung bei der Verwendung der App führen kann. Mit der Funktion "Inhalt verfügbar" können Adobe Campaign-Benutzer eine App aktivieren, damit ihre Daten beim Senden einer Push-Benachrichtigung im Hintergrund aktualisiert werden. Dies ermöglicht verbesserte Kontinuität und Kontrolle beim Benutzererlebnis in der App.<br /> Veränderlicher Inhalt - Dank dieser Funktion können Adobe Campaign-Benutzer nun mit Mobile-App-Erweiterungen Inhalte oder Darstellungen empfangener Push-Benachrichtigungen, die über Adobe Campaign gesendet wurden, weiter verändern. Mit der Funktion "Veränderlicher Inhalt" haben Sie beispielsweise folgende Möglichkeiten: <br /> 
     <ul> 
      <li> In einem verschlüsselten Format gesendete Daten entschlüsseln </li> 
      <li> Bilder oder andere Mediendateien herunterladen und als Anhänge zu einer Benachrichtigung hinzufügen </li> 
@@ -512,6 +512,6 @@ _Profile und Audiences_
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn in einer Audience-Abfrage mehrere Filter hinzugefügt werden.
 * Fehlerkorrektur – jetzt tritt kein Anzeigeproblem mehr auf, wenn ein Profilbild geändert wird.
-* Ein Tooltip wurde hinzugefügt, in dem nach der Zählung der Population einer Abfrage die exakte Anzahl dargestellt wird.
+* Eine QuickInfo wurde hinzugefügt, in dem nach der Zählung der Population einer Abfrage die exakte Anzahl dargestellt wird.
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn Benutzer versuchen, eine Audience auszuwählen oder ein Audience-Auswahl-Fenster zu schließen.
 * Die Liste verfügbarer Funktionen wurde im Ausdruckseditor aktualisiert. Die Funktionen **FormatCurrency** und **ConvertCurrency** wurden entfernt.

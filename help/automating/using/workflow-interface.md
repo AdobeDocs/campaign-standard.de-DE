@@ -12,7 +12,7 @@ exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,10 +22,10 @@ Im Rahmen von Programmen und Kampagnen dienen Workflows der Automatisierung von 
 
 Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 
-* [Palette](#palette) mit den verfügbaren Aktivitäten.
+* Die [Palette](#palette), der auf die verfügbaren Aktivitäten verweist.
 * [Arbeitsbereich](#workspace), in dem Aktivitäten angeordnet und konfiguriert werden
 * [Symbolleiste](#action-bar) mit Schaltflächen, die die Interaktion mit dem Workflow und seinen Komponenten ermöglichen
-* [Quick Actions](#quick-actions), die um eine ausgewählte Aktivität herum angezeigt werden und den Schnellzugriff auf diverse Aktionen ermöglichen
+* [Schnellaktionen](#quick-actions), die um eine ausgewählte Aktivität herum angezeigt werden und den Schnellzugriff auf diverse Aktionen ermöglichen
 
 ![](assets/wkf_overview.png)
 
@@ -57,7 +57,7 @@ Bei Aktivitäten, die Daten verarbeiten, enthalten die ausgehenden Transitionen 
 >Diese Option belegt viel Speicherplatz. Sie hilft Ihnen aber bei der Erstellung eines Workflows, dessen Konfiguration und Verhalten fehlerfrei sind. Aktivieren Sie sie nicht bei Produktionsinstanzen.
 
 
-Bei Markierung einer Aktivität erscheinen um diese herum die Quick Actions, die den Schnellzugriff auf diverse Aktionen ermöglichen. Um beispielsweise eine Aktivität zu konfigurieren, können Sie diese markieren und mithilfe der Schnellaktions-Schaltfläche ![](assets/edit_darkgrey-24px_table.png) öffnen.
+Bei Markierung einer Aktivität erscheinen um diese herum die Schnellaktionen, die den Schnellzugriff auf diverse Aktionen ermöglichen. Um beispielsweise eine Aktivität zu konfigurieren, können Sie diese markieren und mithilfe der Schnellaktions-Schaltfläche ![](assets/edit_darkgrey-24px_table.png) öffnen.
 
 Gewisse Funktionen stehen nur im Arbeitsbereich zur Verfügung:
 

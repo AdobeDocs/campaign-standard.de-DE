@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
    <td> Adobe Analytics<br /> </td> 
    <td> Dient der Überprüfung des Erfolgs Ihres E-Mail-Versands direkt in Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Freigabe von Daten in Campaign mit Analytics</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">Share KPIs for integrated Campaign reporting</a> Video (Schritt 1))
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Freigeben von Campaign-Daten für Analytics</a>, <a href="https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html">KPIs für integrierte Campaign-Berichte freigeben</a> video (Schritt 1)
     </td> 
   </tr> 
   <tr> 

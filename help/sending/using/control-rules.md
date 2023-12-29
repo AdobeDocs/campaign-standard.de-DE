@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 94%
 
 ---
 
@@ -54,4 +54,4 @@ Kontrollregeln können auf verschiedene Phasen des Lebenszyklus eines Versands a
 
 * **Zu Beginn der Personalisierung**: Gilt, wenn sich die Prüfung auf die Validierung der Nachrichtenpersonalisierung bezieht. Die Nachrichtenpersonalisierung erfolgt während der Analysephase.
 
-* **Am Ende der Analyse**: Wenn eine Prüfung verlangt, dass die Nachrichtenpersonalisierung abgeschlossen ist.
+* **Am Ende der Analyse**: Wenn für eine Überprüfung die Nachrichtenpersonalisierung abgeschlossen sein muss.

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 100%
+source-wordcount: '1320'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ Sie können die Aktivität darüber hinaus dazu nutzen, Daten abzurufen, die im 
 
    Sie haben folgende Möglichkeiten:
 
-   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: Löscht die Dateien auf dem Remote-Server. Wenn Sie diese Option deaktiviert lassen, achten Sie darauf, die Größe des archivierten Inhalts im SFTP-Verzeichnis manuell zu überwachen.
+   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: löscht die Dateien auf dem Remote-Server. Wenn Sie diese Option deaktiviert lassen, müssen Sie die Größe des archivierten Inhalts im SFTP-Verzeichnis manuell überwachen.
 
    * **[!UICONTROL Sortieren von Dateien]**: ermöglicht die alphanumerische Sortierung von Dateien. Standardmäßig ist diese Option deaktiviert.
 

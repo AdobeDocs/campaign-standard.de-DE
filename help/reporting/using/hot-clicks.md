@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '495'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ Ein Ausführungsversand ist eine nicht funktionelle und nicht ausführbare techn
 
   Weiterführende Informationen zu wiederkehrendem E-Mail-Versand finden Sie im Abschnitt [E-Mail-Versand](../../automating/using/email-delivery.md).
 
-* Standardmäßig einmal im Monat für Transaktionsnachrichten und jedes Mal, wenn eine Transaktionsnachricht bearbeitet und wieder publiziert wird
+* Standardmäßig einmal im Monat für Transaktionsnachrichten und jedes Mal, wenn eine Transaktionsnachricht bearbeitet und wieder veröffentlicht wird
 
   Weitere Informationen zu Transaktionsnachrichten finden Sie unter [Erste Schritte mit Transaktionsnachrichten](../../channels/using/getting-started-with-transactional-msg.md).
 

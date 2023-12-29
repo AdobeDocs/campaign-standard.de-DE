@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1201'
+workflow-type: tm+mt
+source-wordcount: '1248'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ Diese Version umfasst die folgende Sicherheitsaktualisierung: Apache Tomcat wurd
 * Fehlerkorrektur: Es wurde ein Problem mit DSGVO-Anfragen behoben, bei dem Daten aus untergeordneten Tabellen nicht gelöscht wurden. (CAMP-48276)
 * Fehlerkorrektur: Die Sichtbarkeitsbedingung eines Fragments in einer Transaktionsnachrichtenvorlage wird jetzt in E-Mail-Designer gespeichert. (CAMP-50338)
 * Fehlerkorrektur: Es wurde ein Fehler in Campaign-Berichten behoben, der dazu führte, dass der Datumsbereich nicht berücksichtigt wurde. (CAMP-50991)
-* Fehlerkorrektur: Geplante E-Mails schlagen nun nicht mehr fehl. Zuvor konnte die Versandanalyse nicht gestartet werden, da der Versand noch den Status &quot;Erneuter Versuch steht aus&quot; aufwies. (CAMP-50302)
+* Fehlerkorrektur: Geplante E-Mails schlagen nun nicht mehr fehl. Zuvor konnte die Versandanalyse nicht gestartet werden, da der Versand noch den Status „Weitere Versuche ausstehend“ aufwies. (CAMP-50302)
 * Fehlerkorrektur: In E-Mail-Designer tritt jetzt kein Fehler mehr auf, wenn eine E-Mail mit einer Profilersetzung in der Vorschau angezeigt wird. (CAMP-49312)
 * Fehlerkorrektur: Es wurde ein Problem mit einem leerem Wert in benutzerdefinierten Auflistungen behoben: Wenn Sie eine benutzerdefinierte Ressource mit einem Feld erstellen, das eine Textauflistung darstellt und nur einen Wert enthält, wird dieser Wert jetzt standardmäßig festgelegt, sodass Sie eine Abfrage für dieses Feld als einfache Anfrage erstellen können. (CAMP-50606)
 

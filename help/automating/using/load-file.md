@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 100%
+source-wordcount: '1528'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-Wenn nach dem Ausführen des Workflows ein Fehler bei der Aktivität auftritt, lesen Sie die Protokolle, um weitere Details zu den Werten zu erhalten, die in der Datei falsch sind. Weiterführende Informationen zur Workflow-Logs finden Sie in [diesem Abschnitt](../../automating/using/monitoring-workflow-execution.md).
+Wenn nach dem Ausführen des Workflows ein Fehler bei der Aktivität auftritt, lesen Sie die Protokolle, um weitere Details zu den Werten zu erhalten, die in der Datei falsch sind. Weitere Informationen zu Workflow-Logs finden Sie unter [diesem Abschnitt](../../automating/using/monitoring-workflow-execution.md).
 
 ## Spaltenformat           {#column-format}
 

@@ -45,7 +45,7 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
 1. Ziehen Sie das **[!UICONTROL Freiformfeld]** in Ihr Dashboard.
 
-   Sie können auch eine Tabelle hinzufügen, indem Sie in einem leeren Bedienfeld den Tab **[!UICONTROL Einfügen]** und anschließend **[!UICONTROL Neue Freiform]** oder **[!UICONTROL Neue Freiform-Tabelle]** auswählen.
+   Sie können auch eine Tabelle hinzufügen, indem Sie in einem leeren Bedienfeld die Registerkarte **[!UICONTROL Einfügen]** und anschließend **[!UICONTROL Neue Freiform]** oder **[!UICONTROL Neue Freiformtabelle]** auswählen.
 
    ![](assets/dynamic_report_panel_2.png)
 

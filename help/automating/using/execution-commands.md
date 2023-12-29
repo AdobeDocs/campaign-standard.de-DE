@@ -64,4 +64,4 @@ Die Schaltfläche ![](assets/checkdisable.png) deaktiviert die markierten Aktivi
 
 >[!NOTE]
 >
->Die der Bearbeitung einer bestimmten Aktivität dienenden Aktionen können auch über den Schnellzugriff geöffnet werden, der bei der Markierung einer Aktivität angezeigt wird.
+>Auf die der Bearbeitung einer bestimmten Aktivität dienenden Aktionen kann auch über die Schnellaktionen zugegriffen werden, die bei der Markierung einer Aktivität angezeigt werden.

@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4695'
 ht-degree: 100%
 
 ---
@@ -352,7 +352,7 @@ Im Folgenden finden Sie die in der kommenden Campaign Standard-Version enthalten
 
 * Es wurde ein Problem behoben, das dazu führte, dass Sendungen aufgrund bestimmter Prozesse sehr langsam ausgeführt wurden. Dies lag daran, dass für mehrere Parameter falsche Einheiten definiert waren (z. B. Millisekunden statt Sekunden).
 
-* Es wurde ein Problem behoben, bei dem das Mobile SDK eine offene Tracking-Anfrage basierend auf der Bedingung sendete, dass deliveryId/MessageID nicht null ist. Dies führte bei Sendungen mit deaktiviertem Tracking zu 404-Fehlern. Eine zusätzliche Variable (acsDeliveryTracking) mit Informationen zum Tracking-Status des Versands wird jetzt in der Payload gesendet. Diese Variable kann je nach eingestelltem Tracking-Status zwei Werte haben: ein oder aus. [Mehr dazu](../../administration/using/push-tracking.md).
+* Es wurde ein Problem behoben, bei dem das Mobile SDK eine offene Tracking-Anfrage basierend auf der Bedingung sendete, dass deliveryId/MessageID nicht null ist. Dies führte bei Sendungen mit deaktiviertem Tracking zu 404-Fehlern. Eine zusätzliche Variable (acsDeliveryTracking) mit Informationen zum Tracking-Status des Versands wird jetzt in der Payload gesendet. Diese Variable kann je nach eingestelltem Tracking-Status zwei Werte haben: ein oder aus. [Weitere Informationen](../../administration/using/push-tracking.md).
 
 * Es wurde ein Problem in Workflows behoben, das beim Kopieren und Einfügen einer **Deduplizierungs**-Aktivität auftrat, die einmal ausgeführt worden war und eine temporäre Ressource nutzte. Nach der Duplizierung wurde die Ressource der Aktivität automatisch auf &quot;Leer&quot; eingestellt, was zu Problemen bei anderen Aktivitäten des Workflows führte. Nach dem Einfügen bleibt die Ressource der Aktivität die gleiche, damit der Fehler so schnell wie möglich und nicht später im Workflow ausgelöst wird. (CAMP-46903)
 

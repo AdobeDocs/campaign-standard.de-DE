@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ In den [Eigenschaften des Workflows](../../automating/using/managing-execution-o
 
 Mögliche Optionen sind:
 
-* **[!UICONTROL Supervisoren]**: Hier wird die Gruppe von Personen festgelegt, die im Fall eines fehlerhaften Workflows benachrichtigt werden (E-Mail und In-App-Benachrichtigung). Sollte keine Gruppe angegeben sein, wird niemand benachrichtigt. Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Verantwortliche]**: Hier wird die Gruppe von Personen festgelegt, die im Fall eines fehlerhaften Workflows benachrichtigt werden (E-Mail und In-App-Benachrichtigung). Sollte keine Gruppe angegeben sein, wird niemand benachrichtigt. Weiterführende Informationen zu Adobe Campaign-Benachrichtigungen finden Sie in Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **[!UICONTROL Bei Fehler]**: Hier lassen sich mögliche Reaktionen bei Auftreten eines Fehlers festlegen. Zwei Optionen stehen zur Wahl:
 
@@ -69,4 +69,4 @@ Mögliche Optionen sind:
 
    * Bei Angabe von **[!UICONTROL 0]** bzw. bis zum Erreichen der angegebenen Fehleranzahl werden die fehlerhaften Aktivitäten ignoriert. Die anderen Workflow-Zweige werden regulär ausgeführt.
 
-   * Bei Erreichen der angegebenen Anzahl wird der gesamte Workflow ausgesetzt und nimmt den Status **[!UICONTROL Mit Fehlern]** an.  Sollten zuvor Supervisoren bestimmt worden sein, werden diese automatisch per E-Mail benachrichtigt. Weiterführende Informationen dazu finden Sie im Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+   * Bei Erreichen der angegebenen Anzahl wird der gesamte Workflow ausgesetzt und nimmt den Status **[!UICONTROL Mit Fehlern]** an.  Sollten zuvor Verantwortliche bestimmt worden sein, werden diese automatisch per E-Mail benachrichtigt. Weiterführende Informationen dazu finden Sie im Abschnitt [Benachrichtigungen in Adobe Campaign](../../administration/using/sending-internal-notifications.md).

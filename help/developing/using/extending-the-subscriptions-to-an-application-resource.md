@@ -45,4 +45,4 @@ Diese Ressource kann erweitert werden, um die Daten festzulegen, die vom Mobilge
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Speichern]** und publizieren Sie dann Ihre benutzerdefinierte Ressource. Weiterführende Informationen zur Publikation benutzerdefinierter Ressourcen finden Sie auf dieser [Seite](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. **[!UICONTROL Speichern]** und veröffentlichen Sie dann Ihre benutzerdefinierte Ressource. Weiterführende Informationen zur Veröffentlichung benutzerdefinierter Ressourcen finden Sie auf dieser [Seite](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).

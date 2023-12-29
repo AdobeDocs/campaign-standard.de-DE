@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 
 
   Bei der Implementierung von Experience Manager muss der Externalizer für Adobe Campaign Standard konfiguriert werden, damit ein Ressourcenpfad in eine URL umgewandelt werden kann. Dies ist erforderlich, um Ihre Bilder auf der Seite sichtbar zu machen. Wenn der Externalizer nicht richtig konfiguriert ist, enthalten Ihre E-Mails fehlerhafte Bilder.
 
-  Weiterführende Informationen zur Konfiguration des Externalizers finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html?lang=de).
+  Informationen zur Konfiguration des Externalizers finden Sie in diesem Abschnitt [page](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html?lang=de).
 
 * **Organisieren Sie Ihre E-Mail-Vorlagen, um zu vermeiden, dass die falschen verwendet werden.**
 

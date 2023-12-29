@@ -10,7 +10,7 @@ level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1652'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Unten finden Sie eine Nahaufnahme der Timeline-Ansicht für &quot;Dynamics User&
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-Nachfolgend sehen Sie eine Nahaufnahme der RA-Karte (Relationship Assistant). Die AppSource-Anwendung enthält einen Workflow, der Klick-Ereignisse auf Adobe-E-Mail-URLs erfasst. Wenn ein solches Ereignis eintritt, wird eine Aufgabe erstellt und ein Fälligkeitsdatum festgelegt. Dadurch kann die Aufgabe in der RA-Karte angezeigt werden, was zusätzliche Transparenz bietet. Für Adobe E-Mail-Bounce-Ereignisse gibt es einen ähnlichen Workflow. Dabei wird eine Aufgabe hinzugefügt, mit der die ungültige E-Mail-Adresse abgeglichen wird. Diese Workflows können in der Lösung deaktiviert werden.
+Nachfolgend sehen Sie eine Nahaufnahme der RA-Karte (Relationship Assistant). Die AppSource-Anwendung enthält einen Workflow, der Klick-Ereignisse auf Adobe-E-Mail-URLs erfasst. Wenn ein solches Ereignis eintritt, wird eine Aufgabe erstellt und ein Fälligkeitsdatum festgelegt. Dadurch kann die Aufgabe in der RA-Karte angezeigt werden, was zusätzliche Transparenz bietet. Für Adobe E-Mail-Bounce-Ereignisse gibt es einen ähnlichen Workflow. Dabei wird eine Aufgabe hinzugefügt, mit der die ungültige E-Mail-Adresse abgestimmt wird. Diese Workflows können in der Lösung deaktiviert werden.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 

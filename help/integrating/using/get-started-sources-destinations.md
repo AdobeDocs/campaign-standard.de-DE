@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '292'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Über Quellen und Ziele
 
-Mit Adobe Experience Platform können Sie Daten zwischen Campaign Standard und der Adobe Echtzeit-Kundendatenplattform (RTCDP) austauschen. Auf diese Weise können Sie Adobe Experience Platform-Audiences in Ihren Campaign-Workflows auswählen und dann Daten, die sich auf diese Audiences beziehen, wie Sendungen, Öffnungen und Klicks, an die Adobe Echtzeit-Kundendatenplattform zurücksenden.
+Mit Adobe Experience Platform können Sie Daten zwischen Campaign Standard und der Adobe Echtzeit-Kundendatenplattform (RTCDP) austauschen. Auf diese Weise können Sie Adobe Experience Platform-Zielgruppen in Ihren Campaign-Workflows auswählen und dann Daten, die sich auf diese Zielgruppen beziehen, wie Sendungen, Öffnungen und Klicks, an Adobe Real-Time Customer Data Platform zurücksenden.
 
 * Mit **Zielen** können Sie Adobe Experience Platform-Audiences in Campaign Standard aufnehmen. Auf diese Weise können Sie bekannte und unbekannte Daten für Ihre Marketing-Kampagnen aktivieren.
 * Mit **Quellen** exportieren Sie Campaign Standard-Daten (z. B. Sendungen, Öffnungen, Klicks) nach Adobe Experience Platform. Auf diese Weise können Sie Daten, die Sie aus unterschiedlichen Quellen erfassen, an einem Ort zusammenfassen und die daraus gewonnenen Erkenntnisse nutzen.

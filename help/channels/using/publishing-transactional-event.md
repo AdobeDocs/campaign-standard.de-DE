@@ -76,7 +76,7 @@ Die Ereignisse (im JSON-Format) werden von den jüngsten hin zu den ältesten au
 
 ## Veröffentlichung eines Ereignisses aufheben   {#unpublishing-an-event}
 
-Mithilfe der **[!UICONTROL Veröffentlichung aufheben]**-Schaltfläche lässt sich die Veröffentlichung des Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
+Mithilfe der Schaltfläche **[!UICONTROL Veröffentlichung aufheben]** lässt sich die Veröffentlichung des Ereignisses abbrechen, wodurch auch die Ressource aus der REST-API gelöscht wird, die dem zuvor von Ihnen erstellten Ereignis entspricht.
 
 Selbst wenn das Ereignis auf Ihrer Webseite ausgelöst wird, werden die entsprechenden Nachrichten nun nicht mehr gesendet und auch nicht in der Datenbank gespeichert.
 
@@ -84,7 +84,7 @@ Selbst wenn das Ereignis auf Ihrer Webseite ausgelöst wird, werden die entsprec
 
 >[!NOTE]
 >
->Sollten Sie die entsprechende Transaktionsnachricht bereits veröffentlicht haben, wird die Transaktionsnachrichtenveröffentlichung ebenfalls abgebrochen. Siehe [Veröffentlichung der Transaktionsnachricht aufheben](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message).
+>Sollten Sie die entsprechende Transaktionsnachricht bereits veröffentlicht haben, wird die Transaktionsnachrichtenveröffentlichung ebenfalls abgebrochen. Siehe [Veröffentlichung einer Transaktionsnachricht aufheben](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message).
 
 Verwenden Sie die Schaltfläche **[!UICONTROL Veröffentlichen]**, um die neue REST-API zu erzeugen.
 

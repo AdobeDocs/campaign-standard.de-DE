@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '994'
 ht-degree: 100%
 
 ---
@@ -30,9 +30,9 @@ Die für die verschiedenen Benutzerrollen jeweils möglichen Aktionen sind in de
 Standardmäßige Sicherheitsgruppen sind:
 
 * **[!UICONTROL Administratoren]**
-* **[!UICONTROL Versand-Supervisoren]**
+* **[!UICONTROL Versand-Verantwortliche]**
 * **[!UICONTROL Standardbenutzer]**
-* **[!UICONTROL Workflow-Supervisoren]**
+* **[!UICONTROL Workflow-Verantwortliche]**
 
 Beachten Sie, dass diese integrierten Sicherheitsgruppen schreibgeschützt sind und nicht geändert werden können. Informationen zum Erstellen einer eigenen Sicherheitsgruppe mit einer Reihe spezifischer Rollen finden Sie im folgenden Abschnitt.
 

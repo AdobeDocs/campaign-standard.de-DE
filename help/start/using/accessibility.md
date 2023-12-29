@@ -69,7 +69,7 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 Die kontextuelle Hilfe hilft Ihnen, die verschiedenen erforderlichen Felder und Funktionen besser zu verstehen. Sie führt Sie außerdem durch die Produktdokumentation, wo Sie weitere Informationen über die ausgewählte Funktion erhalten.
 
-Beim Entwerfen einer E-Mail können Sie auf einen Tooltipp zugreifen, der Funktionsbeschreibungen und Links zur Produktdokumentation enthält.
+Beim Entwerfen einer E-Mail können Sie auf eine QuickInfo zugreifen, die Funktionsbeschreibungen und Links zur Produktdokumentation enthält.
 
 ![](assets/accessibility_7.png)
 

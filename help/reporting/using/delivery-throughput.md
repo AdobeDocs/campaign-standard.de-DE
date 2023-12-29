@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 53bb4efb-949e-4831-af0d-e7af0ffa6b81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 Dieser Bericht fasst alle Informationen zusammen, die den Durchsatz eines Versands bzw. mehrerer Sendungen betreffen. Der Bericht zeigt folgende Kennzahlen:
 
 * Anzahl der verarbeiteten Nachrichten pro Stunde,
-* Die Tabelle **[!UICONTROL 5 häufigste Zustellungen]** und die jeweiligen Zusammenfassungen enthalten die fünf Sendungen mit der höchsten Anzahl an zugestellten Nachrichten.
+* Die Tabelle **[!UICONTROL 5 häufigste Zustellungen]** und die komplementären Zusammenfassungen enthalten die fünf Sendungen mit der höchsten Anzahl an zugestellten Nachrichten.
 
 ![](assets/delivery_reports_1.png)
 

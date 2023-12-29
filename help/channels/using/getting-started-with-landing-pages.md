@@ -121,9 +121,9 @@ Weiterführende Informationen zum Testen einer Landingpage finden Sie in [diesem
 
 ## Schritt 5 – Landingpage veröffentlichen {#publish-the-landing-page}
 
-Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Veröffentlichen]** in der Aktionsleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Publikation.
+Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Veröffentlichen]** in der Aktionsleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Veröffentlichung.
 
-Durch die Veröffentlichung der Landingpage wird diese online verfügbar. Nach ihrer Veröffentlichung lässt sich die Landingpage weiterhin aktualisieren: Hierzu müssen Sie sie nach jeder Änderung erneut veröffentlichen. Sie haben außerdem die Möglichkeit, Ihre die Veröffentlichung der Landingpage jederzeit aufzuheben, damit sie nicht länger verfügbar ist.
+Durch die Veröffentlichung der Landingpage wird diese online verfügbar. Nach ihrer Veröffentlichung lässt sich die Landingpage weiterhin aktualisieren: Hierzu müssen Sie sie nach jeder Änderung erneut veröffentlichen. Sie haben außerdem die Möglichkeit, die Veröffentlichung Ihrer Landingpage jederzeit aufzuheben, damit sie nicht länger verfügbar ist.
 
 ![](assets/lp-steps6.png)
 

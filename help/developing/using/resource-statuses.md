@@ -26,7 +26,7 @@ Im Übersichtsbildschirm der **[!UICONTROL benutzerdefinierten Ressourcen]** wir
 **Veröffentlichungsstatus**
 
 * **Entwurf**: Die Ressource wurde neu erstellt oder zurückgesetzt. Sie muss veröffentlicht werden, um die Tabellen und Datenbankfelder sowie die entsprechenden APIs zu erzeugen. Eine zurückgesetzte Ressource wird im Zuge der Veröffentlichung automatisch deaktiviert.
-* **Initialisierung ausstehend**: Der Benutzer hat die Zurücksetzung der Ressource angefordert. Die Initialisierung erfolgt im Zuge der nächsten Veröffentlichung. Sowohl bei der Zurücksetzung als auch bei der Vorbereitung der Veröffentlichung werden mehrere Warnmeldungen angezeigt, um den Benutzer zu informieren, .
+* **Initialisierung ausstehend**: Die Zurücksetzung erfolgt während der nächsten Veröffentlichung. Die Initialisierung erfolgt im Zuge der nächsten Veröffentlichung. Sowohl bei der Zurücksetzung als auch bei der Vorbereitung der Veröffentlichung werden mehrere Warnmeldungen angezeigt, um den Benutzer zu informieren, .
 
   Weiterführende Informationen zum Zurücksetzen finden Sie im Abschnitt [Ressource löschen](../../developing/using/deleting-a-resource.md).
 

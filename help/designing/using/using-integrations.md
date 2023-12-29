@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '706'
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,7 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
   </tr> 
   <tr> 
    <td> <strong>Audience</strong><br /> </td> 
-   <td> Marketer, die Flexibilität schätzen und HTML-Komponenten in Kombination mit Drag &amp; Drop-Funktionen verwenden möchten<br /> </td> 
+   <td> Marketingexperten, die die Flexibilität behalten möchten, HTML-Komponenten in Kombination mit Drag &amp; Drop-Funktionen zu verwenden<br /> </td> 
    <td> Marketer, die bereits Experience Manager verwenden und Standard-E-Mail-Vorlagen mit wenig Personalisierung verwenden möchten<br /> </td> 
    <td> Entwickler, die Code für E-Mail-Inhalte selbst schreiben möchten und eine direkte Integration mit Adobe Campaign wünschen<br /> </td> 
   </tr> 

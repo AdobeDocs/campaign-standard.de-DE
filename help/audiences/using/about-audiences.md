@@ -1,5 +1,5 @@
 ---
-title: Über Audiences
+title: Über Zielgruppen
 description: Hier erfahren Sie, wie Sie Audiences mithilfe einer Abfrage, einer Liste oder einer Datei erstellen oder aus Adobe Experience Cloud importieren.
 audience: audiences
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Über Audiences{#about-audiences}
+# Über Zielgruppen{#about-audiences}
 
 Eine Audience ist eine Liste mit Profilen basierend auf Regeln und Attributen.
 

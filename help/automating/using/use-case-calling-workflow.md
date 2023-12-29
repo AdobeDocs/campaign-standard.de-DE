@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 100%
+source-wordcount: '1077'
+ht-degree: 98%
 
 ---
 
@@ -23,9 +23,9 @@ Dabei soll ein Workflow durch einen API-Aufruf mit externen Parametern ausgelös
 
 Führen Sie dazu folgende Aktionen aus:
 
-1. Führen Sie einen **API-Aufruf** aus, um Workflow 1 mit externen Parametern auszulösen. Siehe [Schritt 1: API-Aufruf konfigurieren](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call)..
-1. **Erstellen Sie Workflow 1**: Mit dem Workflow wird eine Datei übertragen und in die Datenbank geladen. Danach wird getestet, ob die Daten leer sind oder nicht, und schließlich werden die Profile in der Audience gespeichert. Abschließend wird Workflow 2 ausgelöst. Siehe [Schritt 2: Workflow 1 konfigurieren](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1)..
-1. **Erstellen Sie Workflow 2**: Mit diesem Workflow wird die Audience gelesen, die in Workflow 1 erstellt wurde. Danach wird eine personalisierte Nachricht an die Profile gesendet, wobei ein Segmentcode verwendet wird, in den die Parameter eingefügt werden. Siehe [Schritt 3: Workflow 2 konfigurieren](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)..
+1. Führen Sie einen **API-Aufruf** aus, um Workflow 1 mit externen Parametern auszulösen. Siehe [Schritt 1: Konfigurieren des API-Aufrufs](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
+1. **Erstellen Sie Workflow 1**: Mit dem Workflow wird eine Datei übertragen und in die Datenbank geladen. Danach wird getestet, ob die Daten leer sind oder nicht, und schließlich werden die Profile in der Audience gespeichert. Abschließend wird Workflow 2 ausgelöst. Siehe [Schritt 2: Workflow 1 konfigurieren](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **Erstellen Sie Workflow 2**: Mit diesem Workflow wird die Audience gelesen, die in Workflow 1 erstellt wurde. Danach wird eine personalisierte Nachricht an die Profile gesendet, wobei ein Segmentcode verwendet wird, in den die Parameter eingefügt werden. Siehe [Schritt 3: Workflow 2 konfigurieren](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 

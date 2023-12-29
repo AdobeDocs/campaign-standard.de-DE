@@ -6,7 +6,7 @@ topic: Premium
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 + Administration{#administration}
    + [Ermüdungsregeln](sending/using/fatigue-rules.md)
-   + [Über Typologieregeln](sending/using/about-typology-rules.md)
-   + [Über Typologieregeln  - Liste](sending/using/about-typology-rules.md#typology-rules)
+   + [Über Typologieregeln ](sending/using/about-typology-rules.md)
+   + [Über Typologieregeln - Liste](sending/using/about-typology-rules.md#typology-rules)
    + [E-Mail-Kanal konfigurieren](administration/using/configuring-email-channel.md)
    + [Filterregeln](sending/using/filtering-rules.md)
 + Start{#starting}

@@ -24,7 +24,7 @@ Adobe Campaign enthält ein vordefiniertes Datenmodell. Dieses Datenmodell kann 
 >
 >Die Erstellung und Änderung von Ressourcen sind heikle Aufgaben, die nur von erfahrenen Benutzern durchgeführt werden können.
 
-Das über das Adobe Campaign-Logo verfügbare Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** dient der Verwaltung von **benutzerdefinierten Ressourcen**, ihrer **Publikation** und dem **Zugriff auf Diagnose-Tools**.
+Das über das Adobe Campaign-Logo verfügbare Menü **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** dient der Verwaltung von **benutzerdefinierten Ressourcen**, ihrer **Veröffentlichung** und dem **Zugriff auf Diagnose-Tools**.
 
 Die von Adobe Campaign verwendeten Daten werden mithilfe verschiedener Ressourcen beschrieben. Es besteht die Möglichkeit der **Anreicherung des zur Verfügung gestellten Datenmodells** durch benutzerdefinierte Ressourcen.
 

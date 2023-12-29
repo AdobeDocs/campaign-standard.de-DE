@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
@@ -116,7 +116,7 @@ Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, d
 
 **Mehr dazu**
 
-* [Über Audiences](../../audiences/using/about-audiences.md)
+* [Über Zielgruppen](../../audiences/using/about-audiences.md)
 * [Erstellen von Audiences](../../audiences/using/creating-audiences.md)
 
 ## Datenschutzverwaltung {#privacy-management}

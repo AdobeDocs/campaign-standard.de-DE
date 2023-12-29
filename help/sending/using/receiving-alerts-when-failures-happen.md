@@ -10,7 +10,7 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2305'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ Dashboards werden verwendet, um die Empfänger der Benachrichtigungen zu verwalt
 
 >[!NOTE]
 >
->Um Dashboards und Warnungsbedingungen öffnen und konfigurieren zu können, müssen Sie über Administratorrechte verfügen oder der Sicherheitsgruppe **Versand-Supervisoren** angehören. Standardbenutzer können nicht auf Dashboards in Adobe Campaign zugreifen, sondern haben nur die Möglichkeit, Warnnachrichten zu empfangen. Weiterführende Informationen zu Benutzern und zur Sicherheit in Adobe Campaign finden Sie in den Abschnitten [Typen von Benutzern](../../administration/using/users-management.md) und [Über Sicherheitsgruppen](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>Um Dashboards und Warnungsbedingungen öffnen und konfigurieren zu können, müssen Sie über Administratorrechte verfügen oder der Sicherheitsgruppe **Versand-Verantwortliche** angehören. Standardbenutzer können nicht auf Dashboards in Adobe Campaign zugreifen, sondern haben nur die Möglichkeit, Warnnachrichten zu empfangen. Weiterführende Informationen zu Benutzern und zur Sicherheit in Adobe Campaign finden Sie in den Abschnitten [Typen von Benutzern](../../administration/using/users-management.md) und [Über Sicherheitsgruppen](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 In der Adobe Campaign-Benutzeroberfläche haben Sie folgende Möglichkeiten:
 

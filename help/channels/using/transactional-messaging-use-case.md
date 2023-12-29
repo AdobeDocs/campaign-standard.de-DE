@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Die wichtigsten Schritte zur Implementierung dieses Anwendungsfalls werden nachf
 
 ## Schritt 1: Ereigniskonfiguration erstellen und veröffentlichen {#create-event-configuration}
 
-1. Erstellen Sie ein neues Ereignis mit dem Kanal **[!UICONTROL E-Mail]**. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
+1. Erstellen Sie ein neues Ereignis mit dem **[!UICONTROL Email]** -Kanal. Siehe [Ereignis erstellen](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
 1. Wählen Sie die Zielgruppendimension **[!UICONTROL Profil]** aus, um eine [profilbasierte Transaktionsnachricht](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) zu erstellen.
 
@@ -62,7 +62,7 @@ Die wichtigsten Schritte zur Implementierung dieses Anwendungsfalls werden nachf
 
    ![](assets/message-center_usecase5.png)
 
-1. Erstellen Sie eine Vorschau und veröffentlichen Sie das Ereignis (siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
+1. Vorschau erstellen und Ereignis veröffentlichen Siehe [Vorschau erstellen und Ereignis veröffentlichen](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 ## Schritt 2: Transaktionsnachricht bearbeiten und veröffentlichen {#create-transactional-message}
 
@@ -70,11 +70,11 @@ Die wichtigsten Schritte zur Implementierung dieses Anwendungsfalls werden nachf
 
 1. Bearbeiten und personalisieren Sie die Nachricht. Siehe [Profil-Transaktionsnachrichten bearbeiten](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message).
 
-1. Durch Abgleich mit dem Feld &quot;CRM-ID&quot;, das Sie der Ressource **[!UICONTROL Profil]** hinzugefügt haben, haben Sie direkten Zugriff auf alle Profilinformationen, um Ihre Nachricht zu [personalisieren](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. Durch Abstimmung mit dem Feld „CRM-ID“, das Sie der Ressource **[!UICONTROL Profil]** hinzugefügt haben, haben Sie direkten Zugriff auf alle Profilinformationen, um Ihre Nachricht zu [personalisieren](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/message-center_usecase6.png)
 
-1. Durch Abgleich mit dem Feld &quot;Produkt-ID&quot; können Sie den Inhalt der Nachricht mit Informationen zu den Käufen des Kunden anreichern, indem Sie ein Feld aus der Ressource **[!UICONTROL Kauf]** hinzufügen.
+1. Durch Abstimmung mit dem Feld „Produkt-ID“ können Sie den Inhalt der Nachricht mit Informationen zu den Käufen des Kunden anreichern, indem Sie ein Feld aus der Ressource **[!UICONTROL Kauf]** hinzufügen.
 
    ![](assets/message-center_usecase7.png)
 

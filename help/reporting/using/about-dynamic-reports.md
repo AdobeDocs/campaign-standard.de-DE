@@ -10,8 +10,8 @@ level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 100%
+source-wordcount: '835'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ Gewisse Berichte stehen mitunter nicht unmittelbar nach einem Versand zur Verfü
 
 Es gibt zwei Kategorien von dynamischen Berichten:
 
-* **Vorlagen** können geändert werden, indem sie ausgehend von der Vorlage mit der Option **Speichern als** (**Projekt > Speichern als...**) kopiert werden.
+* **Vorlagen**, die durch Kopieren mithilfe der **Speichern unter** option (**Projekt > Speichern unter.**) in der Vorlage.
 * **Benutzerdefinierte Berichte** (blau) können direkt durch die Auswahl der Schaltfläche **Neues Projekt erstellen** auf der **Berichte**-Startseite erstellt werden.
 
 >[!NOTE]

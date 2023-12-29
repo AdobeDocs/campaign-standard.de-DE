@@ -69,4 +69,4 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung v
 
 Wenn Sie eine Landingpage veröffentlichen, ist sie online für Besucher verfügbar.
 
-Die Aufhebung der Veröffentlichung der Landingpage bzw. ihre Aktualisierung ist jederzeit über die Schaltfläche **[!UICONTROL Veröffentlichen]** möglich. Wenn vor der erneuten Veröffentlichung die Veröffentlichung der Landingpage nicht aufgehoben wurde und ein Fehler auftritt, bleibt die erste Version online.
+Die Aufhebung der Veröffentlichung einer Landingpage bzw. ihre Aktualisierung ist jederzeit über die Schaltfläche **[!UICONTROL Veröffentlichen]** möglich. Wenn vor der erneuten Veröffentlichung die Veröffentlichung der Landingpage nicht aufgehoben wurde und ein Fehler auftritt, bleibt die erste Version online.

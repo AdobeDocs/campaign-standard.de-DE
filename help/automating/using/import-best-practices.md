@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Ein Beispiel für eine allgemeine Workflow-Vorlage zum Datenimport finden Sie in
 
 **Verwandte Themen:**
 
-* [Datei laden  Aktivität](../../automating/using/load-file.md)
+* [Aktivität &quot;Datei laden&quot;](../../automating/using/load-file.md)
 * [Aktivität &quot;Abstimmung&quot;](../../automating/using/reconciliation.md)
 * [Aktivität &quot;Segmentierung&quot;](../../automating/using/segmentation.md)
 * [Aktivität &quot;Deduplizierung&quot;](../../automating/using/deduplication.md)
@@ -73,7 +73,7 @@ Verwenden Sie für Importe und Exporte möglichst ZIP-Dateien. GZIP wird standar
 
 **Verwandte Themen:**
 
-* [Datei laden  Aktivität](../../automating/using/load-file.md)
+* [Aktivität &quot;Datei laden&quot;](../../automating/using/load-file.md)
 * [Aktivität &quot;Dateiextraktion&quot;](../../automating/using/extract-file.md)
 
 ## Im Deltamodus importieren {#importing-in-delta-mode}
@@ -86,7 +86,7 @@ Vollständige Importe sollten nur für das erstmalige Laden verwendet werden.
 
 Um die Konsistenz der Adobe-Campaign-Datenbank zu gewährleisten, befolgen Sie die unten stehenden Grundsätze:
 
-* Wenn die importierten Daten einer Referenztabelle in Adobe Campaign entsprechen, sollten sie im Workflow mit dieser Tabelle abgeglichen werden. Nicht übereinstimmende Datensätze sollten abgelehnt werden.
+* Wenn die importierten Daten einer Referenztabelle in Adobe Campaign entsprechen, sollten sie im Workflow mit dieser Tabelle abgestimmt werden. Nicht übereinstimmende Datensätze sollten abgelehnt werden.
 * Achten Sie darauf, dass die importierten Daten (E-Mail, Telefonnummer, Postanschrift) stets **&quot;bereinigt&quot;** werden und dass diese Bereinigung zuverlässig ist und sich im Laufe der Jahre nicht verändert. Andernfalls könnten in der Datenbank Duplikate entstehen. Da Adobe Campaign keine Tools zum &quot;unscharfen&quot; Abgleich besitzt, ist es dann sehr schwierig, diese Duplikate zu verwalten und zu entfernen.
 * Transaktionsdaten sollten einen Abstimmschlüssel aufweisen und mit den bestehenden Daten abgestimmt werden, damit keine Duplikate entstehen.
 * **Importieren Sie verknüpfte Dateien in der richtigen Reihenfolge**. Wenn der Import aus mehreren miteinander verbundenen Dateien besteht, sollte im Workflow darauf geachtet werden, dass die Dateien in der richtigen Reihenfolge importiert werden. Wenn der Import einer Datei fehlschlägt, werden auch die anderen nicht importiert.

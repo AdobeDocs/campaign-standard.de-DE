@@ -11,7 +11,7 @@ level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1154'
 ht-degree: 100%
 
 ---
@@ -119,7 +119,7 @@ Zum Senden von personenbezogenen Daten an [!DNL Adobe Campaign Standard] erstell
    "{%contextdata.lastName%}" }
    ```
 
-   Die ID für Marketing Cloud ermöglicht Ihnen den Abgleich Ihrer App-Abonnenten mit den Empfängern in der Datenbank und ist daher erforderlich. Sie können je nach Ihren Geschäftsanforderungen weitere Schlüssel-Werte-Paare angeben. Im obigen Beispiel werden E-Mail, Vorname und Nachname von der App übergeben.
+   Die ID für Marketing Cloud ermöglicht Ihnen die Abstimmung Ihrer App-Abonnenten mit den Empfängern in der Datenbank und ist daher erforderlich. Sie können je nach Ihren Geschäftsanforderungen weitere Schlüssel-Werte-Paare angeben. Im obigen Beispiel werden E-Mail, Vorname und Nachname von der App übergeben.
 
    Die Schlüssel (z. B. cusEmail, cusFirstName und cusLastName) sollten mit den Feld-IDs übereinstimmen, die in Ihrer benutzerdefinierten Ressource in der Adobe Campaign Standard-Instanz definiert sind. Die Wertvariablen (z. B. E-Mail, Vorname und Nachname) sollten mit den Schlüsseln in den JSON-Daten übereinstimmen, die von der mobilen App gesendet werden, während die collectPII-API von AMS aus dem App-Code aufgerufen wird.
 

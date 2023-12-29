@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1447'
 ht-degree: 100%
 
 ---
 
 # Hinzufügen einer Kontrollgruppe {#adding-control-group}
 
-Mithilfe von Kontrollgruppen können Sie vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, um die Wirkung Ihrer Kampagnen zu messen.
+Mithilfe von Kontrollgruppen können Sie vermeiden, dass Nachrichten an einen Teil Ihrer Zielgruppe gesendet werden, um die Wirkung Ihrer Kampagnen zu messen.
 
 Erstellen Sie dazu in Adobe Campaign eine <b>Kontrollgruppe</b>, wenn Sie die Zielgruppe Ihres Versands definieren. Profile werden der Kontrollgruppe nach dem Zufallsprinzip, gefiltert oder ungefiltert oder auf der Grundlage von Kriterien hinzugefügt.
 

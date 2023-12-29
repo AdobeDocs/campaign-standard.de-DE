@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 100%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -135,7 +135,7 @@ Verwenden Sie diese Komponente, um die unterschiedlichen Teile Ihrer existierend
 
 >[!NOTE]
 >
->Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline vorhanden sind, fügen Sie die entsprechende CSS-Datei im         **head**-Abschnitt des HTML-Codes ein. Andernfalls ist die E-Mail nicht responsiv. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
+>Eine kostenfreie HTML-Komponente ist beschränkt bearbeitbar. Wenn nicht alle Stile inline referenziert sind, fügen Sie die entsprechende CSS-Datei im **head** des HTML-Codes, da die E-Mail sonst nicht responsiv ist. Verwenden Sie die Schaltfläche **[!UICONTROL Vorschau]**, um Ihren Inhalt zu testen (siehe [Vorschau von Nachrichten ansehen](../../sending/using/previewing-messages.md)).
 
 Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten, empfiehlt Adobe, eine neue Nachricht zu erstellen und den Inhalt aus der existierenden E-Mail in Fragmente und Komponenten einzufügen.
 

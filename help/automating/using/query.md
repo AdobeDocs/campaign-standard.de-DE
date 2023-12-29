@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1870'
-ht-degree: 100%
+source-wordcount: '1878'
+ht-degree: 97%
 
 ---
 
@@ -180,7 +180,7 @@ Hinweis: Wenn Sie eine Sortierung auf Ihr Aggregat anwenden müssen, sollten Sie
 1. Rufen Sie den Tab **[!UICONTROL Zusatzdaten]** auf und fügen Sie ein neues Element hinzu.
 1. Wählen Sie im sich öffnenden Fenster im Feld **[!UICONTROL Ausdruck]** die Sammlung aus, die Sie hinzufügen möchten. Es wird automatisch ein **[!UICONTROL Alias]** erzeugt. Dieser kann bei Bedarf im **[!UICONTROL Zusatzdaten]**-Tab der Abfrage angepasst werden.
 1. Bestätigen Sie die Angaben mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]**. Im sich öffnenden Fenster haben Sie die Möglichkeit, die Sammlungsdaten, die Sie anzeigen möchten, zu verfeinern.
-1. Wählen Sie im **[!UICONTROL Parameter]**-Tab die Option **[!UICONTROL Sammlung]** aus und definieren Sie die Anzahl an Sammlungszeilen, die hinzugefügt werden sollen. Wenn Sie beispielsweise für jedes Profil die letzten drei Bestellungen abfragen möchten, müssen Sie im Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** die Ziffer „3“ angeben.
+1. Im **[!UICONTROL Parameter]** Registerkarte auswählen **[!UICONTROL Sammlung]** und legen Sie die Anzahl der Zeilen der Kollektion fest, die Sie hinzufügen möchten. Wenn Sie beispielsweise die drei neuesten Bestellungen von jedem Profil abrufen möchten, geben Sie im Feld **[!UICONTROL Anzahl der zurückzugebenden Zeilen]** -Feld.
 
    >[!NOTE]
    >

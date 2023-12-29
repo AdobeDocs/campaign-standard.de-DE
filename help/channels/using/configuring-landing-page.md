@@ -99,7 +99,7 @@ Sie können Google reCAPTCHA V3 auf Ihrer Landingpage einrichten, um sie vor Spa
 
 Nachdem Ihr externes Konto für Google reCAPTCHA V3 eingerichtet wurde, können Sie es zu Ihrer Landingpage hinzufügen:
 
-1. Öffnen Sie vor dem Publizieren Ihrer Landingpage die Seiteneigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard.
+1. Öffnen Sie vor dem Veröffentlichen Ihrer Landingpage die Seiteneigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard.
 
    ![](assets/lp_parameters_google3.png)
 

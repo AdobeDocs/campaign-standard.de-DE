@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Profilen und Audiences
+title: Erste Schritte mit Profilen und Zielgruppen
 description: Definieren Sie Zielgruppen-Populationen, wählen Sie Audiences, filtern Sie Empfänger, erfassen Sie Daten und aktualisieren Sie Profile.
 audience: audiences
 content-type: reference
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '591'
 ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Profilen und Audiences{#about-profiles-and-audiences}
+# Erste Schritte mit Profilen und Zielgruppen{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -50,7 +50,7 @@ Mehr dazu:
 * [Aktive Profile](../../audiences/using/active-profiles.md)
 * [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
 * [Anreicherung der Campaign-Datenbank](../../audiences/using/enriching-campaign-database.md)
-* [Über Audiences](../../audiences/using/about-audiences.md)
+* [Über Zielgruppen](../../audiences/using/about-audiences.md)
 * [Audience in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
 

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1079'
 ht-degree: 100%
 
 ---
@@ -40,13 +40,13 @@ Zur Aktivierung von Push-Benachrichtigungen in Campaign Standard müssen mehrere
 Um in der Profilressource PII-Daten eintragen oder aktualisieren zu können, müssen Sie die gewünschten Felder zunächst zur Profilressource hinzufügen. Gehen Sie wie folgt vor:
 
 * Ermitteln Sie, welche PII-Felder von der Mobile App übertragen werden.
-* Ermitteln Sie, welches Feld zur Verknüpfung der PII-Daten mit den Profildaten abgeglichen werden soll.
+* Ermitteln Sie, welches Feld zur Verknüpfung der PII-Daten mit den Profildaten abgestimmt werden soll.
 
 ![](assets/update_profile1.png)
 
 In diesem Beispiel zeigt der Abschnitt **[!UICONTROL Felder]** die von der Mobile App übertragenen PII-Daten. Im Abschnitt **[!UICONTROL Profilrelation]** ist das Feld angegeben, das zum Abgleich der PII-Daten mit den Profildaten verwendet wird. **cusEmail** wird hier mit **@email** abgeglichen.
 
-Die Zuordnung der Profildaten ist während der Erweiterung der Ressource **[!UICONTROL App-Abonnements]** schreibgeschützt. Sie wird lediglich für den Abgleich verwendet. Um das Profil abgleichen zu können, muss es mit den erforderlichen Daten in das System eingetragen werden. In diesem Fall muss eine E-Mail-Adresse im Profil mit einer E-Mail-Adresse aus der „Collect PII“ übereinstimmen, damit die Abgleichung erfolgt:
+Die Zuordnung der Profildaten ist während der Erweiterung der Ressource **[!UICONTROL App-Abonnements]** schreibgeschützt. Sie wird lediglich für die Abstimmung verwendet. Um das Profil abstimmen zu können, muss es mit den erforderlichen Daten in das System eingetragen werden. In diesem Fall muss eine E-Mail-Adresse im Profil mit einer E-Mail-Adresse aus der „Collect PII“ übereinstimmen, damit die Abgleichung erfolgt:
 
 * Von einer Mobile App wird „Collect PII“ für einen Benutzer empfangen, dessen Vorname „Jane“, Nachname „Doe“ und E-Mail-Adresse „janedoe@doe.com“ lauten.
 * Die Profildaten mit der E-Mail-Adresse „janedoe@doe.com“ müssen bereits separat vorhanden sein (d. h., die Daten müssen entweder manuell eingegeben oder aus einer anderen Ressource übernommen worden sein).
@@ -63,7 +63,7 @@ Mittels eines Workflows kann ein Administrator in Campaign Standard die AppSubsc
 Dies sind die wichtigsten Schritte der Workflow-Erstellung:
 
 1. Abrufen einer Liste der neuesten Abonnements mit der Aktivität **[!UICONTROL Abfragen]** oder **[!UICONTROL Inkrementell abfragen]**
-1. Zuordnen der PII-Daten zum Profil durch die Aktivität **[!UICONTROL Abgleichen]**
+1. Zuordnen der PII-Daten zum Profil durch die Aktivität **[!UICONTROL Abstimmung]**
 1. Hinzufügen eines Prüfprozesses
 1. Erstellen oder Aktualisieren der PII-Daten im Profil durch die Aktivität **[!UICONTROL Daten aktualisieren]**
 
@@ -102,13 +102,13 @@ Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Aus
 
 ### Konfigurieren Sie die Aktivität **[!UICONTROL Daten aktualisieren]**.
 
-1. Vergewissern Sie sich auf der Registerkarte **[!UICONTROL Identifizierung]**, dass das Feld **[!UICONTROL Zu aktualisierende Dimension]** auf &quot;Profile (profile)&quot; gesetzt ist, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld als Abgleichkriterium hinzuzufügen.
+1. Vergewissern Sie sich auf der Registerkarte **[!UICONTROL Identifizierung]**, dass das Feld **[!UICONTROL Zu aktualisierende Dimension]** auf „Profile (profile)“ gesetzt ist, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Element erstellen]**, um ein Feld als Abstimmungskriterium hinzuzufügen.
 
    ![](assets/update_profile_createelement.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abgleichfeld aus. Sie können hier z. B. das Feld &quot;email&quot;, &quot;crmId&quot; oder &quot;marketingCloudId&quot; des Profils auswählen. Verwenden Sie in diesem Beispiel das Feld &quot;E-Mail (cusEmail)&quot;.
+1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abstimmungsfeld aus. Sie können hier z. B. das Feld &quot;email&quot;, &quot;crmId&quot; oder &quot;marketingCloudId&quot; des Profils auswählen. Verwenden Sie in diesem Beispiel das Feld &quot;E-Mail (cusEmail)&quot;.
 
-1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgeglichen werden sollen. Dies kann das E-Mail-Feld des Profils oder ein beliebiges erweitertes Feld wie „crmId“ oder „marketingCloudId“ sein. In diesem Beispiel wählen Sie das Feld „E-Mail (email)“ aus, um es dem Feld „E-Mail (cusEmail)“ der Tabelle „appSubscriptionRcp“ zuzuordnen.
+1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgestimmt werden sollen. Dies kann das E-Mail-Feld des Profils oder ein beliebiges erweitertes Feld wie „crmId“ oder „marketingCloudId“ sein. In diesem Beispiel wählen Sie das Feld „E-Mail (email)“ aus, um es dem Feld „E-Mail (cusEmail)“ der Tabelle „appSubscriptionRcp“ zuzuordnen.
 
    ![](assets/update_profile7.png)
 

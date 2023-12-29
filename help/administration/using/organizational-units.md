@@ -109,7 +109,7 @@ Die Felder für die Organisationseinheiten sind in Ihren Profilen standardmäßi
    ![](assets/user_management_9.png)
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
-1. Aktualisieren Sie die Struktur durch eine erneute Publikation. Weitere Informationen zur Publikation finden Sie im Abschnitt [Datenstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
+1. Aktualisieren Sie die Struktur durch eine erneute Veröffentlichung. Weitere Informationen zur Veröffentlichung finden Sie im Abschnitt [Datenstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
 
 Das Feld für Organisationseinheiten wird Ihren Profilen im Bereich **[!UICONTROL Zugriffsberechtigung]** hinzugefügt.
 

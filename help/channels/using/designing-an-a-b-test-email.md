@@ -11,7 +11,7 @@ level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '873'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
 1. Prüfen Sie Ihre E-Mail dem A/B-Test durch den Versand von Testsendungen.
 1. Bestätigen Sie nach Abschluss der Vorbereitung den Start des A/B-Tests. Nach der Bestätigung lassen sich die A/B-Test-Parameter nicht mehr abändern.
 
-   Der A/B-Test beginnt am dem Tag, der in der **[!UICONTROL Planung]** definiert ist. Sie können den Fortschritt anhand der Kacheln **[!UICONTROL A/B-Test]** und **[!UICONTROL Bereitstellung]** verfolgen.
+   Der A/B-Test startet an dem in der **[!UICONTROL Versandplanung]** angegebenen Datum. Sie können seinen Verlauf mithilfe der Kacheln **[!UICONTROL A/B-Test]** und **[!UICONTROL Freigabe]** verfolgen.
 
    Sollten Sie die Testdauer verkürzen wollen, können Sie jederzeit manuell die Gewinnervariante auswählen.
 
