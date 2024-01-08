@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite rege
 
 ## Version 24.1 – Winterversion 2024 {#release-24-1-release}
 
-Detaillierte Informationen zu dieser Version werden in den [Versionshinweisen](release-notes.md) eine Woche vor Beginn der Aktualisierung der Staging-Umgebungen verfügbar sein.
+Weitere Informationen über diese Version finden Sie in den [vorzeitigen Versionshinweisen](e-release-notes.md).
 
 <table>
  <thead>
