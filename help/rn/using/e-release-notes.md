@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ Adobe Campaign Standard 24.1 unterstützt jetzt p8-Authentifizierungszertifikate
 
 ### Fehlerbehebungen {#e-rn-fixes}
 
-* Fehlerkorrektur - Bounce-E-Mail-Adressen können jetzt nach 30 Tagen aus der Quarantäne genommen werden. (CAMP-52977)
-* Fehlerkorrektur - Der Workflow Versandwarnung wird jetzt nicht mehr mit folgendem Fehler angehalten: `division by zero`. (CAMP-49786)
+* Fehlerkorrektur – Bounce-E-Mail-Adressen können jetzt nach 30 Tagen aus der Quarantäne genommen werden. (CAMP-52977)
+* Fehlerkorrektur – Der Workflow „Versandwarnung“ wird jetzt nicht mehr mit folgendem Fehler angehalten: `division by zero`. (CAMP-49786)
