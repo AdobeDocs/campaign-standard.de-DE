@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
+source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1706'
 ht-degree: 99%
 
 ---
@@ -27,7 +27,7 @@ Weiterführende Informationen zur Erstellung und Bearbeitung von externen Konten
 
 Standardmäßig enthält die Anwendung das externe Konto **[!UICONTROL SMS-Routing durch SMPP]**. Die Erstellung weiterer Konten kann jedoch von Nutzen sein.
 
-Wenn Sie das SMPP-Protokoll verwenden möchten, können Sie auch ein neues externes Konto erstellen. Weitere Informationen zum SMS-Protokoll und zu den Einstellungen finden Sie in dieser [Technote](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=de).
+Wenn Sie das SMPP-Protokoll verwenden möchten, können Sie auch ein neues externes Konto erstellen. Weitere Informationen zum SMS-Protokoll und zu den Einstellungen finden Sie in dieser [Technote](../../administration/using/sms-protocol.md).
 
 1. Ein neues externes Konto können Sie über **[!UICONTROL Administration > Anwendungskonfiguration > Externe Konten]** erstellen.
 1. Definieren Sie den Kontotyp mit **[!UICONTROL Routing]**, den Kanal mit **[!UICONTROL Mobiltelefon (SMS)]** und den Versandmodus mit **[!UICONTROL Gebündelter Versand]**.
