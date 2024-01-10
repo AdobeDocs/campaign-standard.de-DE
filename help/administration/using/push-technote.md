@@ -7,15 +7,15 @@ role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Künftige Änderungen am Push-Benachrichtigungskanal {#push-upgrade}
 
-Sie können Campaign verwenden, um Push-Benachrichtigungen an Android- und iOS-Geräte zu senden. Dazu benötigt Campaign bestimmte Abonnementdienste. Einige wichtige Änderungen am Android Firebase Cloud Messaging (FCM)-Dienst werden mit der Winterversion 24.1 veröffentlicht und wirken sich auf Ihre Adobe Campaign-Implementierung aus. Darüber hinaus ändert Adobe bei iOS-Apps die Art und Weise, wie Administratoren Zertifikate konfigurieren können.
+Sie können Campaign verwenden, um Push-Benachrichtigungen an Android- und iOS-Geräte zu senden. Dazu benötigt Campaign bestimmte Abonnementdienste. Mit der Winterversion 24.1 2024 werden einige wichtige Änderungen am FCM-Dienst (Android Firebase Cloud Messaging) veröffentlicht, die sich auf Ihre Implementierung von Adobe Campaign auswirken werden. Darüber hinaus ändert Adobe bei iOS-Apps die Art und Weise, wie Administratoren Zertifikate konfigurieren können.
 
 ## Was hat sich geändert? {#push-changes}
 
@@ -27,7 +27,7 @@ Derzeit verwendet Adobe Campaign Standard ältere HTTP-APIs, um Android-Push-Ben
 
 ### iOS {#push-ios}
 
-Adobe aktualisiert außerdem Adobe Campaign Standard für den iOS-Kanal für Push-Benachrichtigungen und ändert die Art und Weise, wie Admins Zertifikate für ihre iOS-Anwendungen konfigurieren können. Ab der Winterversion 24.2.2024 müssen Administratoren die iOS-Zertifikate über die Benutzeroberfläche von Adobe Campaign Standard in den Eigenschaften Ihrer Mobile App hochladen.
+Adobe aktualisiert außerdem Adobe Campaign Standard für den iOS-Kanal für Push-Benachrichtigungen und ändert die Art und Weise, wie Admins Zertifikate für ihre iOS-Anwendungen konfigurieren können. Ab der Winterversion 24.2 2024 müssen Admins die iOS-Zertifikate über die Benutzeroberfläche von Adobe Campaign Standard in den Eigenschaften Ihrer Mobile App hochladen.
 
 ## Sind Sie betroffen? {#push-impact}
 
@@ -35,7 +35,7 @@ Sie sind davon betroffen, wenn Sie als Benutzerin oder Benutzer von Campaign Sta
 
 ## Wie wird die Migration durchgeführt? {#push-migration}
 
-Diese Updates erfordern ein Campaign Standard-Build-Upgrade auf die Winterversion 24.1, da sie sich auf die Konfiguration und Berechtigungsverwaltung für Mobilkanäle auswirken.
+Diese Updates erfordern eine Aktualisierung des Campaign Standard-Builds auf die Winterversion 24.1.2024, da sie sich auf die mobile Kanalkonfiguration und Berechtigungsverwaltung auswirken.
 
 In Kürze werden detaillierte Anweisungen bereitgestellt, um einen reibungslosen Übergangsprozess zu erleichtern.
 
