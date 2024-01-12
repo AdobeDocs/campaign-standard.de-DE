@@ -9,20 +9,24 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: d0ef11f26a52603107af28231d70821b44753abb
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 93%
 
 ---
 
 # Klicks{#hot-clicks}
 
+>[!IMPORTANT]
+>
+>Der Klickbericht zeigt ausschließlich die HTML-Version der E-Mail an und unterstützt nicht die Textversion.
+
 Dieser Bericht kann über die Schaltfläche **[!UICONTROL Berichte]** in jedem Versand oder jeder Transaktionsnachricht geöffnet werden.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-Er zeigt den (HTML- und/oder Text-) Inhalt der Nachricht sowie den Prozentsatz der Klicks auf jeden Link.
+Er zeigt den Nachrichteninhalt mit dem Prozentsatz der Klicks auf jeden Link an.
 
 ![](assets/delivery_reports_10.png)
 
