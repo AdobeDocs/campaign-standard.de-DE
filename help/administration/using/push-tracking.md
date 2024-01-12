@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 100%
+source-wordcount: '943'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,11 @@ Damit die Push-Benachrichtigung vollständig eingerichtet ist, müssen Sie darau
 
 Das Push-Tracking ist in drei Typen unterteilt:
 
-* **Push-Impressionen**: Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und im Benachrichtigungs-Center sitzt, aber noch nicht angefasst wurde.  Dies gilt als Impression.  In den meisten Fällen sollte die Zahl der Impressionen ähnlich oder gar identisch mit der gesendeten Zahl sein. Dadurch wird sichergestellt, dass das Gerät die Nachricht erhalten und diese Informationen an den Server zurückgegeben hat.
+* **Push-Impressionen** - Wenn eine Push-Benachrichtigung erfolgreich an das Gerät gesendet wurde und sich ohne Benutzerinteraktion im Benachrichtigungszentrum befindet.
 
 * **Push-Klick**: Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und der Anwender auf das Gerät geklickt hat.  Der Anwender wollte die Benachrichtigung entweder ansehen oder verwerfen. Wenn er sie angesehen hat, wird sie beim Push-Öffnungs-Tracking berücksichtigt.
 
-* **Push-Öffnung**: Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und der Anwender auf die Benachrichtigung geklickt hat, wodurch die App geöffnet wurde.  Dies ist ähnlich der Push-Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.
+* **Push Open** - Wenn eine Push-Benachrichtigung an das Gerät gesendet wurde und der Benutzer auf die Benachrichtigung geklickt hat, wodurch die App geöffnet wurde. Dies ist ähnlich der Push-Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.
 
 Um das Tracking für Campaign Standard zu implementieren, muss die Mobile App die Adobe Experience Platform-SDKs enthalten. Diese SDKs sind im Abschnitt [Dokumentation zu Adobe Experience Platform-SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks) verfügbar.
 
