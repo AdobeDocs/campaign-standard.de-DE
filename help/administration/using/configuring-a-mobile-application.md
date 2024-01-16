@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
+source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 91%
+source-wordcount: '1376'
+ht-degree: 89%
 
 ---
 
@@ -153,7 +153,7 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
      Geben Sie die folgenden Anwendungsdetails ein:
 
       * **App-ID (iOS Bundle ID)**: Siehe [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) für weitere Informationen zur Bundle-ID.
-      * **Datei mit iOS-Zertifikat (P8)**: Ziehen Sie die .p8-Authentifizierungstaste per Drag-and-Drop.
+      * **Datei mit iOS-Zertifikat (P8)**: Ziehen Sie die .p8-Authentifizierungstaste per Drag-and-Drop. Anweisungen zum Generieren der .p8-Authentifizierungsdatei finden Sie in Ihrem [Apple-Entwicklerkonto](https://developer.apple.com/account/ios/authkey/create).
       * **Schlüssel-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) für weitere Informationen zur Schlüssel-ID.
       * **iOS-Team-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) für weitere Informationen zur iOS-Team-ID.
 
@@ -165,7 +165,7 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
      Geben Sie die folgenden Anwendungsdetails ein:
 
       * **App-ID (Android-Paketname)**: Siehe [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) für weitere Informationen zum Paketnamen.
-      * **Android-Schlüssel-Datei (JSON)**: Ziehen Sie die .json-Datei mit dem privaten Schlüssel per Drag-and-Drop.
+      * **Android-Schlüssel-Datei (JSON)**: Ziehen Sie die .json-Datei mit dem privaten Schlüssel per Drag-and-Drop. Anweisungen zum Generieren der .json-Datei mit privatem Schlüssel finden Sie im Abschnitt [Entwicklerdokumentation für Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
 
         ![](assets/mobile_app_android_config.png)
 +++
