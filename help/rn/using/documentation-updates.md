@@ -5,16 +5,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
+source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
 workflow-type: tm+mt
-source-wordcount: '7279'
-ht-degree: 100%
+source-wordcount: '7297'
+ht-degree: 99%
 
 ---
 
 # Aktualisierungen der Dokumentation{#documentation-updates}
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
+
+## Version 24.1 - Winter 2024 {#release-24-1}
+
+Versionshinweise für die Version Campaign Standard 24.1 Winter 2024 wurden veröffentlicht. [Weitere Informationen](release-notes.md)
 
 ## Dezember 2023 {#doc-updates-dec-2023}
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite rege
 
 ## Version 24.1 – Winterversion 2024 {#release-24-1-release}
 
-Weitere Informationen über diese Version finden Sie in den [frühzeitigen Versionshinweisen](e-release-notes.md).
+Ausführliche Informationen zu dieser Version finden Sie im Abschnitt [Versionshinweise](release-notes.md) wenn Aktualisierungen der Staging-Umgebung beginnen.
 
 <table>
  <thead>
@@ -47,37 +47,6 @@ Weitere Informationen über diese Version finden Sie in den [frühzeitigen Versi
   </tr>
  </tbody>
 </table>
-
-
-## Version 23.2 – Eingeschränkte Herbstversion 2023 {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->Diese Version ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
-
-Ausführliche Informationen zu dieser Version sind in den [Versionshinweisen](release-notes.md) zu finden.
-
-<table>
- <thead>
-  <tr>
-   <th> Umgebungen </th>
-   <th> Daten </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Schritt </td>
-   <td>3.–9. Oktober 2023 </td>
-  </tr>
-  <tr>
-   <td>Produktion </td>
-   <td>12.–18. Oktober 2023 </td>
-  </tr>
- </tbody>
-</table>
-
-Wenden Sie sich für weitere Fragen an den [Kundendienst von Adobe](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html).
 
 ## Fragen und Antworten {#questions-and-answers}
 
