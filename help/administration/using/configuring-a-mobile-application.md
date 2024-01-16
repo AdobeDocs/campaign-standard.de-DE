@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 100%
+source-wordcount: '1340'
+ht-degree: 91%
 
 ---
 
@@ -146,15 +146,31 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
    Das entsprechende Ereignis ist jetzt bei der Erstellung einer In-App-Nachricht auf der Registerkarte „Triggers“ verfügbar. Weitere Informationen finden Sie unter [In-App-Nachricht vorbereiten und senden](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. Geben Sie im Mobile-App-Dashboard im Bereich **[!UICONTROL Gerätespezifische Parameter]** die Anwendungsdetails für jedes Gerät an, einschließlich des Zertifikats für iOS und des Server-Schlüssels für Android.
+1. Im **[!UICONTROL Gerätespezifische Einstellungen]** im Dashboard einer Mobile App können Sie für jedes Gerät die Anwendungsdetails angeben.
 
-   Nach dem Hochladen Ihres Zertifikats werden Sie in einer Nachricht benachrichtigt, dass der Upload erfolgreich war. Außerdem wird das Ablaufdatum Ihres Zertifikats angezeigt.
+   * +++ Für iOS
 
-   >[!NOTE]
-   >
-   >Nachdem Sie das Zertifikat in Adobe Campaign Standard erfolgreich hinzugefügt haben, können Sie Ihre Einstellungen jetzt nicht mehr ändern, da der MCPNS-App nur eine APNS-Plattform (Produktion oder Sandbox) hinzugefügt werden kann.
+     Geben Sie die folgenden Anwendungsdetails ein:
 
-   ![](assets/launch_8.png)
+      * **App-ID (iOS Bundle ID)**: Siehe [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) für weitere Informationen zur Bundle-ID.
+      * **Datei mit iOS-Zertifikat (P8)**: Ziehen Sie die .p8-Authentifizierungstaste per Drag-and-Drop.
+      * **Schlüssel-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) für weitere Informationen zur Schlüssel-ID.
+      * **iOS-Team-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) für weitere Informationen zur iOS-Team-ID.
+
+        ![](assets/mobile_app_ios_config.png)
++++
+
+   * +++ Für Android
+
+     Geben Sie die folgenden Anwendungsdetails ein:
+
+      * **App-ID (Android-Paketname)**: Siehe [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) für weitere Informationen zum Paketnamen.
+      * **Android-Schlüssel-Datei (JSON)**: Ziehen Sie die .json-Datei mit dem privaten Schlüssel per Drag-and-Drop.
+
+        ![](assets/mobile_app_android_config.png)
++++
+
+1. Nach dem Hochladen Ihres Zertifikats werden Sie in einer Nachricht benachrichtigt, dass der Upload erfolgreich war. Außerdem wird das Ablaufdatum Ihres Zertifikats angezeigt.
 
 1. Klicken Sie auf den Tab **[!UICONTROL Abonnenten der Mobile App]**, um eine Liste mit Abonnenten und anderen Informationen zu diesen Abonnenten anzuzeigen, z. B. ob sie sich von Ihren Benachrichtigungen abgemeldet haben.
 
