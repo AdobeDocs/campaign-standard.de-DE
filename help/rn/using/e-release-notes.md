@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: d6421cda301eed85fddf2df7b2d6fc2cf1db96b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Auf dieser Seite werden Verbesserungen und Fehlerbehebungen beschrieben, die in 
 >
 > Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
 
-## Version 24.1 – Winterversion 2024 {#winter-24}
+## Version 24.1 – Version Winter 2024 {#winter-24}
 
 ### Verbesserungen {#e-rn-improvements}
 
