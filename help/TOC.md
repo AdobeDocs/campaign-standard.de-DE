@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation für Adobe Campaign Standard.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Campaign Standard – Dokumentation
 source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1769'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
