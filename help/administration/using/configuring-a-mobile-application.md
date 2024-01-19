@@ -9,7 +9,7 @@ exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -146,7 +146,7 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
    Das entsprechende Ereignis ist jetzt bei der Erstellung einer In-App-Nachricht auf der Registerkarte „Triggers“ verfügbar. Weitere Informationen finden Sie unter [In-App-Nachricht vorbereiten und senden](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. Im **[!UICONTROL Gerätespezifische Einstellungen]** im Dashboard einer Mobile App können Sie für jedes Gerät die Anwendungsdetails angeben.
+1. Im Abschnitt **[!UICONTROL Gerätespezifische Einstellungen]** im Dashboard einer Mobile App können Sie für jedes Gerät die Anwendungsdetails angeben.
 
    * +++ Für iOS
 
@@ -172,7 +172,7 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
 1. Nach dem Hochladen Ihres Zertifikats werden Sie in einer Nachricht benachrichtigt, dass der Upload erfolgreich war. Außerdem wird das Ablaufdatum Ihres Zertifikats angezeigt.
 
-1. Klicken Sie auf den Tab **[!UICONTROL Abonnenten der Mobile App]**, um eine Liste mit Abonnenten und anderen Informationen zu diesen Abonnenten anzuzeigen, z. B. ob sie sich von Ihren Benachrichtigungen abgemeldet haben.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Abonnenten der Mobile App]**, um eine Liste mit Abonnierenden und anderen Informationen zu diesen Abonnierenden anzuzeigen, z. B. ob sie sich von Ihren Benachrichtigungen abgemeldet haben.
 
 ## Löschen einer Mobile App {#delete-app}
 
