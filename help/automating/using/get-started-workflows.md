@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: 31f62227736daf4f215fcbe1cf7b0a0a8574cda3
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '506'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 100%
 </table>
 
 Adobe Campaign bietet eine umfassende grafische Oberfläche, die den Entwurf komplexer Arbeitsabläufe ermöglicht. Diese umfassen die Segmentierung von Zielgruppen, die Ausführung von Kampagnen, die Verarbeitung von Dateien usw. Erstellen Sie zum Beispiel einen Workflow, um eine Datei von einem Server herunterzuladen, sie zu entkomprimieren und die Datensätze in die Adobe Campaign-Datenbank zu importieren.
-
-Ein Workflow kann auch Benutzerinnen und Benutzer einbeziehen, indem er ihnen Aufgaben zuweist oder sie ausgeführte Aufgaben genehmigen lässt. Auf diese Weise ist es möglich, anderen Benutzern Aufgaben wie Inhaltsgestaltung, Zielgruppenbestimmung und Validierung von Testsendungen zuzuweisen, bevor eine Nachricht an die Empfänger verschickt wird.
 
 Workflows können in unterschiedlichsten Kontexten zum Einsatz kommen:
 
