@@ -6,16 +6,18 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: ht
-source-wordcount: '338'
-ht-degree: 100%
+source-git-commit: f6190139e474800a88ece6fa7d4c6aa3e296e492
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 96%
 
 ---
 
 # Künftige Änderungen am Push-Benachrichtigungskanal {#push-upgrade}
 
 Sie können Campaign verwenden, um Push-Benachrichtigungen an Android- und iOS-Geräte zu senden. Dazu benötigt Campaign bestimmte Abonnementdienste. Mit der Winterversion 24.1 2024 werden einige wichtige Änderungen am FCM-Dienst (Android Firebase Cloud Messaging) veröffentlicht, die sich auf Ihre Implementierung von Adobe Campaign auswirken werden. Darüber hinaus ändert Adobe bei iOS-Apps die Art und Weise, wie Administratoren Zertifikate konfigurieren können.
+
+[Erfahren Sie mehr über die Konfiguration Ihrer Mobile-App-Zertifikate in Adobe Campaign Standard.](configuring-a-mobile-application.md#channel-specific-config)
 
 ## Was hat sich geändert? {#push-changes}
 
