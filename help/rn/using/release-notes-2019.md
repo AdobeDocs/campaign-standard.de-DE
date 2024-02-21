@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7680'
 ht-degree: 100%
@@ -61,7 +61,7 @@ ht-degree: 100%
 * Das Popup-Fenster für die Zustimmung zur Nutzung dynamischer Berichte wurde aktualisiert und beinhaltet jetzt die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365. Durch Akzeptieren der Bedingungen werden für die Integration von Adobe Campaign Standard mit Microsoft Dynamics 365 und für die Erstellung dynamischer Berichte Profildaten mit einbezogen – [mehr dazu](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Fehlerkorrektur – Beim Empfang von Versandwarnungen werden nun keine falschen Kontaktdaten mehr angezeigt.
 * Wenn ein Transaktionsnachrichtenereignis mit einem unbekannten Kontextparameter gesendet wird, gibt Campaign jetzt die Fehlermeldung &quot;400&quot; anstelle von &quot;500&quot; aus. (CAMP-28632)
-* In dynamischen Berichten wurde für das **Ausschließen des Testversands** ein neues Segment hinzugefügt. Zum Filtern Ihrer Berichte ist dieses Segment jetzt standardmäßig ausgewählt – [mehr dazu](../../reporting/using/list-of-components-.md#segments)
+* In dynamischen Berichten wurde für das **Ausschließen des Testversands** ein neues Segment hinzugefügt. Zum Filtern Ihrer Berichte ist dieses Segment jetzt standardmäßig ausgewählt – [mehr dazu](../../reporting/using/list-of-components.md#segments)
 * Zu Push-Benachrichtigungen wurde eine Option zum Festlegen der **Ablauffrist einer Nachricht** hinzugefügt. Damit können Sie ein Ablaufdatum angeben, an dem die Nachricht nicht mehr von Apple (APNS) bzw. Android (FCM) gesendet wird – [mehr dazu](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Die Aktivität **Datei laden** wurde dahingehend verbessert, dass Workflow-Logs nun klarer und detaillierter über den Fehler informieren, der auftritt, wenn das Laden einer Datei fehlgeschlagen ist. Die durch Aktivieren der Option **Zurückweisungen in einer Datei speichern** generierte ausgehende Transition wurde in **Zurückweisungen** umbenannt – [mehr dazu](../../automating/using/load-file.md)
 * Zu den Versandlogs wurden Logs mit Bezug auf mehrsprachige Nachrichten hinzugefügt, anhand derer besser nachvollzogen werden kann, warum Sendungen aufgrund von fehlenden Sprachen in den hochgeladenen CSV-Dateien fehlgeschlagen sind.
@@ -106,7 +106,7 @@ ht-degree: 100%
 * Die Vorschau für die Payload-Berechnung enthält nun benutzerdefinierte Feldgrößen, wodurch verhindert wird, dass der Versand von Push-Benachrichtigungen fehlschlägt. (CAMP-35303)
 * Der Name der **Datei mit den Zurückweisungen** in der Aktivität **Datei laden** kann jetzt genauso personalisiert werden wie die **Datenexport-Aktivität**.
 * Alle benutzerdefinierten Entitäten, die nicht mit einer vordefinierten Entität verknüpft sind, können nun über die API aufgerufen werden.
-* Die Datenbankleistung wurde bei der Verarbeitung großer Ressourcen verbessert.
+* Die Datenbank-Performance wurde bei der Verarbeitung großer Ressourcen verbessert.
 * Die Beschreibungen für einige beim Versand von SMS-Nachrichten auftretende Fehler wurden klarer formuliert. (CAMP-36558)
 * Beim Ausführen der Aktivität **Planung** in einem Workflow, bei dem diese entweder direkt oder über verschiedene Aktivitäten mit sich selbst verbunden ist, wird jetzt eine Fehlermeldung angezeigt, da dies dazu führen könnte, dass sich der Workflow-Server aufhängt.
 * Verschiedene Verbesserungen wurden vorgenommen, um die Behebung von Fehlern bei Transaktionsnachrichten zu erleichtern: Der Link &quot;Daten&quot; wurde im Bildschirm zur Ereigniskonfiguration in &quot;Letzte Transaktionsereignisse&quot; umbenannt und listet die empfangenen Ereignisse nun in absteigender Reihenfolge auf. Außerdem wurde ein neuer Transaktionsstatus namens &quot;targetingFailed&quot; erstellt. Kann das Transaktionsnachrichtenmodul eine Verknüpfung, die für die Zielgruppenbestimmung von Nachrichten verwendet wird, nicht anreichern, erhält das Transaktionsereignis nun diesen neuen Status (anstelle des Status &quot;routingFailed&quot;).
@@ -159,7 +159,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Bericht zu Workflow-Segmenten<br /> </td> 
-   <td> <p>Mit dieser Funktion können Marketingexperten die Leistung ihres Versands nach Segmentcode aufschlüsseln. Wenn Sie einen Workflow erstellen und eine Segmentierungsaktivität verwenden, um der Versandpopulation Segmente zuzuweisen, können diese Segmente nun demselben Versand zugeordnet werden. Auf diese Weise können Sie die Öffnungs- und Klickstatistiken in mehreren Segmenten desselben Versands anzeigen.</p><p>Weiterführende Informationen finden Sie in der <a href="../../reporting/using/creating-a-report-workflow-segment.md">ausführlichen Dokumentation</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/reporting/report-on-workflow-segments.html?lang=de">diesem Video</a>.</p></td>
+   <td> <p>Mit dieser Funktion können Marketing-Fachleute ihre Versand-Performance nach Segment-Codes aufschlüsseln. Wenn Sie einen Workflow erstellen und eine Segmentierungsaktivität verwenden, um der Versandpopulation Segmente zuzuweisen, können diese Segmente nun demselben Versand zugeordnet werden. Auf diese Weise können Sie die Öffnungs- und Klickstatistiken in mehreren Segmenten desselben Versands anzeigen.</p><p>Weiterführende Informationen finden Sie in der <a href="../../reporting/using/creating-a-report-workflow-segment.md">ausführlichen Dokumentation</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/reporting/report-on-workflow-segments.html?lang=de">diesem Video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ ht-degree: 100%
 * In der Planungsaktivität gibt es eine neue Option, mit der Sie einen bestimmten Tag einer bestimmten Woche für monatliche Sendungen auswählen können. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/scheduler.md).
 * Beim Erstellen eines wiederkehrenden Versands ohne Aggregat-Zeitraum ermöglicht das Versand-Dashboard jetzt die Anforderung einer Bestätigung, bevor die Nachrichten gesendet werden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/confirming-the-send.md).
 * Sie können jetzt den Versandtitel mit Ereignisvariablen personalisieren, die in der Aktivität &quot;Externes Signal&quot; des Workflows deklariert wurden. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/calling-a-workflow-with-external-parameters.md).
-* Die DSGVO-Löschabfrage wurde verbessert, um eine bessere Leistung zu erzielen. (CAMP-33504)
+* Die DSGVO-Löschabfrage wurde verbessert, um eine bessere Performance zu erzielen. (CAMP-33504)
 * Die &quot;ftp&quot;-Option wurde aus der Konfigurationsoberfläche für externe Konten entfernt. (CAMP-34472)
 * Sie können jetzt die SMTP-Testmodus-Option für jede E-Mail aktivieren und deaktivieren. Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
@@ -256,7 +256,7 @@ ht-degree: 100%
 
 **Verbesserungen**
 
-* Die DSGVO-Löschabfrage wurde verbessert, um eine bessere Leistung zu erzielen.
+* Die DSGVO-Löschabfrage wurde verbessert, um eine bessere Performance zu erzielen.
 * Fehlerkorrektur – Nach dem Upgrade 19.2 stürzt die Website nicht mehr ab. (CAMP-34862)
 * Fehlerkorrektur – Jetzt können auch andere Benutzer als Admin-Benutzer Berichte speichern und planen. (CAMP-31133)
 * Fehlerkorrektur – Bei der Verwendung von &quot;|&quot; als Datumstrennzeichen in der Workflow-Aktivität &quot;Datei laden&quot; tritt kein Problem mehr auf. (CAMP-34706)
@@ -343,10 +343,10 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
 
 **Verbesserungen bei Transaktionsnachrichten**
 
-Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um seine Funktionsweise und Leistung zu optimieren.
+Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um seine Funktionsweise und Performance zu optimieren.
 
 * Die Dauer von Transaktionsnachrichten wurde verlängert, damit alle Nachrichten gesendet werden können, bevor sie ihre Gültigkeit verlieren, insbesondere wenn der Vorgang wiederholt wird.
-* Die Leistung von Transaktionsnachrichten wurde erhöht, indem die Last auf unterschiedliche Versand-Threads aufgeteilt wurde.
+* die Performance von Transaktionsnachrichten wurde erhöht, indem die Last auf unterschiedliche Versand-Threads aufgeteilt wurde.
 * Der Versand von Transaktionsnachrichten wurde optimiert, damit gleichzeitig mehrere Analysen derselben Nachricht durchgeführt werden können.
 * Fehlerkorrektur – Durchsatz und Latenz bei Transaktions-Push-Benachrichtigungen sind jetzt einheitlich.
 * Fehlerkorrektur – Beim Versand von Transaktionsnachrichten wird jetzt die korrekte Zielgruppe angezeigt.
@@ -418,7 +418,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
  <tbody> 
   <tr> 
    <td> Verbesserungen bei Push-Kanal-Berichten<br /> </td> 
-   <td> <p>Bei Berichten für den Push-Kanal wurden mehrere Verbesserungen vorgenommen, damit die Benutzerinteraktion intuitiver gemessen werden kann. In dieser Version werden drei unterschiedliche Metriken für Push-Kanäle eingeführt: Impressionen, Klicks, Öffnungen (App-Öffnungen). Damit können Benutzerinteraktion mit Push-Benachrichtigungen effizienter gemessen und analysiert werden. Gleichzeitig wurden auch die Definition und Implementierung dieser Metriken standardisiert. Darüber hinaus wurde der Bericht zu Push-Benachrichtigungen durch visuelle Darstellungen und Metriken verbessert.</p><p> Lesen Sie für weiterführende Informationen das <a href="../../reporting/using/push-notification-report.md">entsprechende Handbuch</a>.</p> </td> 
+   <td> <p>Bei Berichten für den Push-Kanal wurden mehrere Verbesserungen vorgenommen, damit die Benutzerinteraktion intuitiver gemessen werden kann. In dieser Version werden drei unterschiedliche Metriken für Push-Kanäle eingeführt: Impressions, Klicks, Öffnungen (App-Öffnungen). Damit können Benutzerinteraktion mit Push-Benachrichtigungen effizienter gemessen und analysiert werden. Gleichzeitig wurden auch die Definition und Implementierung dieser Metriken standardisiert. Darüber hinaus wurde der Bericht zu Push-Benachrichtigungen durch visuelle Darstellungen und Metriken verbessert.</p><p> Lesen Sie für weiterführende Informationen das <a href="../../reporting/using/push-notification-report.md">entsprechende Handbuch</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Launch-Integration für Mobile App<br /> </td> 

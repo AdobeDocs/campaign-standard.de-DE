@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation für Adobe Campaign Standard.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Campaign Standard – Dokumentation
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
@@ -201,7 +201,7 @@ ht-degree: 100%
    + Über Reporting {#about-reporting}
       + [Über dynamische Berichte](reporting/using/about-dynamic-reports.md)
       + [Benutzeroberfläche für die Berichterstellung](reporting/using/reporting-interface.md)
-      + [Liste von Komponenten](reporting/using/list-of-components-.md)
+      + [Liste von Komponenten](reporting/using/list-of-components.md)
       + [Indikatorberechnung](reporting/using/indicator-calculation.md)
       + [Fehlerbehebung](reporting/using/troubleshooting.md)
    + Liste von Berichten {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Integration von Campaign mit Experience Manager konfigurieren](integrating/using/configure-experience-manager.md)
       + [E-Mail-Inhalt in Adobe Experience Manager erstellen](integrating/using/creating-email-experience-manager.md)
-      + [Campaign-Formular in Adobe Experience Manager erstellen](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Campaign-Formular in Adobe Experience Manager erstellen](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Mehrsprachige E-Mail mit Adobe Experience Manager-Integration erstellen](integrating/using/creating-multilingual-email-aem.md)
    + Campaign und Target {#working-with-campaign-and-target}
       + [Über die Integration von Campaign mit Target](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [Datenbankstruktur aktualisieren](developing/using/updating-the-database-structure.md)
       + [Ressourcen löschen](developing/using/deleting-a-resource.md)
       + [Ressource mit einem zusammengesetzten Identifizierungsschlüssel aufrufen](developing/using/uc-calling-resource-id-key.md)
-   + Anwendungsbeispiel: API erweitern {#use-case--extending-the-api}
+   + Anwendungsbeispiel: API erweitern {#use-case-extending-the-api}
       + [Über die API-Erweiterung](developing/using/about-extending-the-api.md)
-      + [Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [Schritt 2: Erweiterung veröffentlichen](developing/using/step-2--publish-the-extension.md)
-      + [Schritt 3: Erweiterung überprüfen](developing/using/step-3--verify-the-extension.md)
+      + [Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [Schritt 2: Erweiterung veröffentlichen](developing/using/step-2-publish-the-extension.md)
+      + [Schritt 3: Erweiterung überprüfen](developing/using/step-3-verify-the-extension.md)
    + Anwendungsbeispiele: Ressourcenerweiterung {#use-cases--extending-resources}
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)

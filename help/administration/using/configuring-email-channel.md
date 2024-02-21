@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2910'
-ht-degree: 100%
+source-wordcount: '2941'
+ht-degree: 97%
 
 ---
 
@@ -25,11 +25,15 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
 * **Felder für zulässige Masken**
 
-  Im Abschnitt **[!UICONTROL Header-Parameter für ausgehende E-Mails]** werden die autorisierten E-Mail-Adressen aufgelistet, mit denen Sie E-Mails an Ihre Empfänger senden können (Absenderadresse) und diese in die Lage versetzen können, automatisierte Antworten wie asynchrone Bounces, Abwesenheitsantworten usw. (Fehleradresse) zurückzusenden. Adobe Campaign prüft während der Vorbereitung der Nachricht, ob die eingegebenen Adressen gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten.
+  Im Abschnitt **[!UICONTROL Header-Parameter für ausgehende E-Mails]** werden die autorisierten E-Mail-Adressen aufgelistet, mit denen Sie E-Mails an Ihre Empfänger senden können (Absenderadresse) und diese in die Lage versetzen können, automatisierte Antworten wie asynchrone Bounces, Abwesenheitsantworten usw. (Fehleradresse).
+
+  Adobe Campaign prüft während der Vorbereitung der Nachricht, ob die eingegebenen Adressen gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten.
+
    * Sowohl Absender- als auch Fehleradressen werden von Adobe eingerichtet. Diese Felder dürfen nicht leer sein.
    * Sie können diese Felder nicht bearbeiten. Wenden Sie sich zum Aktualisieren einer Adresse an das Team der Kundenunterstützung von Adobe.
    * Um eine weitere Adresse hinzuzufügen, können Sie über das [Control Panel in Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de) eine neue Subdomain einrichten oder sich an das Team der Kundenunterstützung von Adobe wenden. Beachten Sie, dass bei Verwendung mehrerer Masken diese durch Kommas getrennt werden.
-   * Es wird empfohlen, Adressen mit einem Stern wie *@yourdomain.com festzulegen: Sie können jede Adresse verwenden, die mit Ihrem Subdomain-Namen endet.
+   * Es empfiehlt sich, Adressen mithilfe eines Sterns wie **@yourdomain.com**: ermöglicht es Ihnen, jede Adresse zu verwenden, die mit Ihrem Subdomain-Namen endet.
+   * Campaign unterstützt standardmäßig Google und Yahoo **One-Click List-Unsubscribe** Funktion. Beachten Sie, dass bei einer Änderung des Kopfzeilenwerts in benutzerdefinierten Vorlagen die Einhaltung von Google/Yahoo möglicherweise beeinträchtigt wird. **One-Click List-Unsubscribe**.
 
 * **Zustellbarkeit**
 
@@ -222,7 +226,7 @@ Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]** sind folgende Parameter verf�
 
   >[!IMPORTANT]
   >
-  >Die Mirror-Seite wird nur erzeugt, wenn für die E-Mail ein HTML-Inhalt definiert wurde.
+  >Die Mirrorseite wird nur erzeugt, wenn für die E-Mail ein HTML-Inhalt definiert wurde.
   >
 
 

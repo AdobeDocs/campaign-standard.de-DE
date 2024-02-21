@@ -9,7 +9,7 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 100%
@@ -148,7 +148,7 @@ Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
 
    * **[!UICONTROL Einfache Relation mit Kardinalität 1]**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
    * **[!UICONTROL Sammlungsrelation mit Kardinalität N]**: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, aber eine Entität in der Zieltabelle kann nur maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
-   * **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Eine Entität in der Quelltabelle kann nur mit maximal einer oder keiner Entität in der Zieltabelle in Beziehung stehen. Bitte beachten Sie, dass dieser **[!UICONTROL Relationstyp]** Leistungsprobleme verursachen kann.
+   * **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Eine Entität in der Quelltabelle kann nur mit maximal einer oder keiner Entität in der Zieltabelle in Beziehung stehen. Bitte beachten Sie, dass dieser **[!UICONTROL Relationstyp]** Performance-Probleme verursachen kann.
 
    ![](assets/schema_extension_29.png)
 
@@ -250,7 +250,7 @@ Um eine neue mit der Profil-Dimension verknüpfte Unterdimension zu erstellen, a
 
 Sie können die benutzerdefinierte Felder-Dimension von einem dynamischen Bericht in eine Freiformtabelle ziehen.
 
-Weiterführende Informationen zu dynamischen Berichten finden Sie in der [Liste von Komponenten](../../reporting/using/list-of-components-.md).
+Weiterführende Informationen zu dynamischen Berichten finden Sie in der [Liste von Komponenten](../../reporting/using/list-of-components.md).
 
 >[!IMPORTANT]
 >

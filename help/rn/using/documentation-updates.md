@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7297'
 ht-degree: 100%
 
@@ -178,7 +178,7 @@ Es wurden Informationen hinzugefügt, wie sichergestellt werden kann, dass ein g
 
 Die Funktion **Prädiktive Betreffzeile** wurde eingestellt. [Weitere Informationen](../../rn/using/deprecated-features.md)
 
-Der Abschnitt **Erste Schritte mit Transaktionsnachrichten** enthält jetzt [erweiterte Schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) für ein besseres Verständnis des Vorgangs.
+Der Abschnitt **Erste Schritte mit Transaktionsnachrichten** enthält jetzt [erweiterte Schemata](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) für ein besseres Verständnis des Vorgangs.
 
 Es steht nun ein durchgängiger Anwendungsfall zur Veranschaulichung des Implementierungsprozesses für Transaktionsnachrichten zur Verfügung. [Weitere Informationen](../../channels/using/transactional-messaging-use-case.md)
 
@@ -186,7 +186,7 @@ Der Abschnitt **Datenschutz** wurde [hierher](../../start/using/privacy.md) vers
 
 Eine neue **Barrierefreiheit**-Seite ist verfügbar: Sie enthält Informationen zur Unterstützung der Barrierefreiheit im Adobe Campaign Standard-Arbeitsbereich. [Weitere Informationen](../../start/using/accessibility.md)
 
-Es wurde ein Warnhinweis hinzugefügt, wonach die Anzahl der veröffentlichten Transaktionsnachrichten für eine optimale Leistung unter 100 bleiben sollte. [Weitere Informationen](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+Es wurde ein Warnhinweis hinzugefügt, wonach die Anzahl der veröffentlichten Transaktionsnachrichten für eine optimale Performance unter 100 bleiben sollte. [Weitere Informationen](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 Die Seite für das Protokoll und die Einstellungen des SMS-Connectors wurde [hierher](../../administration/using/sms-protocol.md) verschoben.
 
@@ -854,7 +854,7 @@ Die Versionshinweise wurden auf verschiedenen Seiten neu angeordnet, sodass Sie 
 
 Der Abschnitt über **[!UICONTROL die Verwendung von Typologien]** wurde übersichtlicher gestaltet – [Weitere Informationen](../../sending/using/about-typology-rules.md)
 
-Eine neue Option ist jetzt verfügbar, mit der die Leistung gesteigert werden kann, wenn in einer **[!UICONTROL Abfrage]** zahlreiche Zusatzdaten definiert werden – [Weitere Informationen](../../automating/using/query-samples.md)
+Eine neue Option ist jetzt verfügbar, mit der die Performance gesteigert werden kann, wenn in einer **[!UICONTROL Abfrage]** zahlreiche Zusatzdaten definiert werden – [Weitere Informationen](../../automating/using/query-samples.md)
 
 Das Beispiel für den Profilimport wurde aktualisiert und enthält jetzt Tipps, wie Sie Ihre Profile für den Empfang von Briefpost konfigurieren können – [Weitere Informationen](../../automating/using/about-data-import-and-export.md)
 
@@ -898,7 +898,7 @@ Der Abschnitt zur Diensterstellung wurde aktualisiert – [Weitere Informationen
 
 Anwendungsbeispiele zum besseren Verständnis von Sicherheitsgruppen und Einheiten wurden hinzugefügt – [Weitere Informationen](../../administration/using/organizational-units.md)
 
-Verbesserte Definitionen und Berechnungen von Dimensionen, Metriken und Segmenten in dynamischen Berichten – [Weitere Informationen](../../reporting/using/list-of-components-.md)
+Verbesserte Definitionen und Berechnungen von Dimensionen, Metriken und Segmenten in dynamischen Berichten – [Weitere Informationen](../../reporting/using/list-of-components.md)
 
 Zusätzliche Informationen zum Abrufen von eingehenden SMS-Nachrichten mit einem Workflow – [Weitere Informationen](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ Verbesserung bei der gesammelten Anmeldung – [mehr dazu](../../automating/usin
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Detaillierte Liste aller in dynamischen Berichten verfügbaren Komponenten sowie Formeländerungen – [Weitere Informationen](../../reporting/using/list-of-components-.md)
+Detaillierte Liste aller in dynamischen Berichten verfügbaren Komponenten sowie Formeländerungen – [Weitere Informationen](../../reporting/using/list-of-components.md)
 
 Detaillierte Liste von mit Adobe Analytics geteilten KPIs – [Weitere Informationen](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ Die Dokumentation zum E-Mail-Rendering wurde aktualisiert – [Weitere Informati
 
 Die Tabelle mit Indikatorberechnungen für Berichte wurde aktualisiert – [Weitere Informationen](../../reporting/using/indicator-calculation.md)
 
-Die Dokumentation zur Berichterstellung wurde mit vier neuen Metriken ergänzt – [Weitere Informationen](../../reporting/using/list-of-components-.md)
+Die Dokumentation zur Berichterstellung wurde mit vier neuen Metriken ergänzt – [Weitere Informationen](../../reporting/using/list-of-components.md)
 
 Eine Dokumentation zur Erstellung eindeutiger Profilkennungen wurde hinzugefügt – [Weitere Informationen](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 

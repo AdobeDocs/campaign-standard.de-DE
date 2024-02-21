@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 99%
@@ -50,7 +50,7 @@ Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 
 >[!NOTE]
 >
->Die Anzahl der Transaktionsereignisse kann sich auf Ihre Plattform auswirken. Um eine optimale Leistung zu gewährleisten, müssen Sie sicherstellen, dass nicht verwendete Ereignisse gelöscht werden. Siehe [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>Die Anzahl der Transaktionsereignisse kann sich auf Ihre Plattform auswirken. Um eine optimale Performance zu gewährleisten, müssen Sie sicherstellen, dass nicht verwendete Ereignisse gelöscht werden. Siehe [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Ereignisattribute definieren          {#defining-the-event-attributes}
 
@@ -103,7 +103,7 @@ Dies ist die API-Vorschau für dieses Beispiel:
 
 Sie können Transaktionsnachrichten mit Informationen aus der Adobe Campaign-Datenbank anreichern, um Ihre Nachrichten zu personalisieren. Ausgehend vom Nachnamen oder der CRM-ID eines jeden Empfängers können Sie beispielsweise Daten wie die jeweilige Adresse oder das Geburtsdatum oder jedes beliebige in der Profiltabelle hinzugefügte benutzerdefinierte Feld abrufen, um dem den Empfänger gesendeten Informationen zu personalisieren.
 
-Sie können Transaktionsnachrichten mit Daten aus der erweiterten **[!UICONTROL externen API &quot;Profile und Dienste&quot;]** anreichern. Weiterführende Informationen finden Sie unter [API erweitern: Erweiterung veröffentlichen](../../developing/using/step-2--publish-the-extension.md).
+Sie können Transaktionsnachrichten mit Daten aus der erweiterten **[!UICONTROL externen API &quot;Profile und Dienste&quot;]** anreichern. Weiterführende Informationen finden Sie unter [API erweitern: Erweiterung veröffentlichen](../../developing/using/step-2-publish-the-extension.md).
 
 Diese Informationen können auch in neuen Ressourcen gespeichert werden. In diesem Fall muss die Ressource mit den Ressourcen **[!UICONTROL Profil]** oder **[!UICONTROL Dienst]** entweder direkt oder über eine andere Tabelle verknüpft werden. Beispielweise können Sie in der folgenden Konfiguration die Transaktionsnachricht mit Informationen aus der Ressource **[!UICONTROL Produkt]** wie etwa einer Produktkategorie oder einer Kennung anreichern, wenn die Ressource **[!UICONTROL Produkt]** mit der Ressource **[!UICONTROL Profil]** verknüpft ist.
 
