@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation für Adobe Campaign Standard.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Campaign Standard – Dokumentation
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
@@ -402,7 +402,7 @@ ht-degree: 100%
       + [Schritt 1: Erweiterungsfelder zur Profil-Ressource hinzufügen](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [Schritt 2: Erweiterung veröffentlichen](developing/using/step-2-publish-the-extension.md)
       + [Schritt 3: Erweiterung überprüfen](developing/using/step-3-verify-the-extension.md)
-   + Anwendungsbeispiele: Ressourcenerweiterung {#use-cases--extending-resources}
+   + Anwendungsbeispiele: Ressourcenerweiterung {#use-cases-extending-resources}
       + [Profil-Ressource um ein neues Feld erweitern](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [App-Abonnements-Ressource erweitern](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datenmodell {#datamodel}
