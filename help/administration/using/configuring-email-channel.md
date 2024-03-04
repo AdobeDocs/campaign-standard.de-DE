@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2967'
 ht-degree: 97%
 
 ---
@@ -33,7 +33,6 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
    * Sie können diese Felder nicht bearbeiten. Wenden Sie sich zum Aktualisieren einer Adresse an das Team der Kundenunterstützung von Adobe.
    * Um eine weitere Adresse hinzuzufügen, können Sie über das [Control Panel in Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de) eine neue Subdomain einrichten oder sich an das Team der Kundenunterstützung von Adobe wenden. Beachten Sie, dass bei Verwendung mehrerer Masken diese durch Kommas getrennt werden.
    * Es empfiehlt sich, Adressen mithilfe eines Sterns wie **@yourdomain.com**: ermöglicht es Ihnen, jede Adresse zu verwenden, die mit Ihrem Subdomain-Namen endet.
-   * Campaign unterstützt standardmäßig Google und Yahoo **One-Click List-Unsubscribe** Funktion. Beachten Sie, dass bei einer Änderung des Kopfzeilenwerts in benutzerdefinierten Vorlagen die Einhaltung von Google/Yahoo möglicherweise beeinträchtigt wird. **One-Click List-Unsubscribe**.
 
 * **Zustellbarkeit**
 
@@ -294,6 +293,14 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
   >[!IMPORTANT]
   >
   >Das Hinzufügen eines Scripts für zusätzliche SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Scripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
+
+  Ab dem 1. Juni 2024, Google und Yahoo! werden die Absender verpflichten, **One-Click List-Unsubscribe**. Campaign unterstützt diese Funktion standardmäßig. [Weitere Informationen zu dieser Änderung](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+
+  >[!CAUTION]
+  >
+  >Wenn Sie den Kopfzeilenwert im **[!UICONTROL Zusätzliche SMTP-Header]** Ihrer E-Mail-Vorlagen kann dies die Einhaltung der **One-Click List-Unsubscribe** Anforderung von Google und Yahoo!
+
+  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Liste der Parameter für Zugriffsberechtigung  {#list-of-access-authorization-parameters}
 
