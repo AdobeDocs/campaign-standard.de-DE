@@ -10,9 +10,9 @@ role: Data Architect
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -200,7 +200,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
    <td> NOT<br /> </td> 
    <td> K. A.<br /> </td> 
    <td> Negative Form des Operators <span class="uicontrol">ist wie</span>. Hier dürfen die ausgegebenen Daten nicht dem angegebenen Wert ähneln. Auch in diesem Fall ist der Platzhalter <span class="uicontrol">%</span> zu verwenden.<br /> </td> 
-   <td> <strong>@lastName NOT Schmi%t</strong>. Hier entsprechen die Empfänger dem Namen 'Schmied%h' (also Smith usw.) als Ergebnis nicht zurückgegeben werden.<br /> </td> 
+   <td> <strong>@lastName NOT Schmi%t</strong>. Hier werden die Empfängerinnen und Empfänger, die dem Namen „Schmi%t“ entsprechen (also Schmidt, Schmitt etc.), nicht als Ergebnis zurückgegeben.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Ist leer</span> <br /> </td> 

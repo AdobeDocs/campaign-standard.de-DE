@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4637'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
   <tr> 
    <td> Inhaltserstellung: Import aus einer URL<br /> </td> 
    <td> Durch den Import aus einer URL können Sie rasch Kreativinhalte von einer Website abrufen, um E-Mails zu erstellen.
-Zusätzlich können Sie Ihre Kreativprozesse optimieren, indem Sie Dritten ermöglichen, Inhalte direkt über eine URL zu teilen. Importierte Inhalte können flexibel als Teil eines Einzelversands oder auf Vorlagenebene verwendet werden, was eine konsistente Präsentation der Marke in allen Kampagnen ermöglicht, egal ob es sich um auf Workflows basierte Nachrichten oder um Transaktionsnachrichten handelt oder ob sie A/B-Tests oder multivariate Tests beinhalten. Beim Import aus einer URL werden alle Links automatisch umgewandelt und getrackt, damit die E-Mail-Leistung mithilfe dynamischer Berichte überwacht werden kann.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/using-existing-content.md">entsprechende Handbuch</a>.<br /> </td> 
+Zusätzlich können Sie Ihre Kreativprozesse optimieren, indem Sie Dritten ermöglichen, Inhalte direkt über eine URL zu teilen. Importierte Inhalte können flexibel als Teil eines Einzelversands oder auf Vorlagenebene verwendet werden, was eine konsistente Präsentation der Marke in allen Kampagnen ermöglicht, egal ob es sich um auf Workflows basierte Nachrichten oder um Transaktionsnachrichten handelt oder ob sie A/B-Tests oder multivariate Tests beinhalten. Beim Import aus einer URL werden alle Links automatisch umgewandelt und getrackt, damit die E-Mail-Performance mithilfe dynamischer Berichte überwacht werden kann.<br /> Lesen Sie für weiterführende Informationen das <a href="../../designing/using/using-existing-content.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -181,7 +181,7 @@ _Profile und Audiences_
  <tbody> 
   <tr> 
    <td> Mehrsprachige E-Mail- und SMS-Sendungen<br /> </td> 
-   <td> Definition und Ausführung mehrsprachiger E-Mail- und SMS-Sendungen im Rahmen eines einzigen Versands in der bevorzugten Sprache Ihrer automatisch segmentierten Kunden. Zusätzlich können Sie Leistungsberichte zu jedem Versand aufgeschlüsselt nach Sprachen und Personen erstellen.<br /> Immer mehr Unternehmen stehen vor dem Problem, im Zuge ihrer internationalen Expansion mehrsprachige Inhalte versenden zu müssen. Deshalb ist der optimierte Versand lokalisierter Nachrichten ein wesentlicher Teil einer effektiven Kundenkommunikationsstrategie für multinationale Unternehmen, Unternehmen in Ländern mit mehreren Sprachen und Unternehmen, die ihre Inhalte unabhängig vom Wohnort ihrer Kunden auf sprachlicher Ebene weiter personalisieren möchten. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/creating-a-multilingual-email.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Definition und Ausführung mehrsprachiger E-Mail- und SMS-Sendungen im Rahmen eines einzigen Versands in der bevorzugten Sprache Ihrer automatisch segmentierten Kunden. Zusätzlich können Sie Performance-Berichte zu jedem Versand aufgeschlüsselt nach Sprachen und Personen erstellen.<br /> Immer mehr Unternehmen stehen vor dem Problem, im Zuge ihrer internationalen Expansion mehrsprachige Inhalte versenden zu müssen. Deshalb ist der optimierte Versand lokalisierter Nachrichten ein wesentlicher Teil einer effektiven Kundenkommunikationsstrategie für multinationale Unternehmen, Unternehmen in Ländern mit mehreren Sprachen und Unternehmen, die ihre Inhalte unabhängig vom Wohnort ihrer Kunden auf sprachlicher Ebene weiter personalisieren möchten. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/creating-a-multilingual-email.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign-Benachrichtigungen<br /> </td> 
@@ -197,7 +197,7 @@ _Profile und Audiences_
   </tr> 
   <tr> 
    <td> KPI-Freigabe von Campaign für Analytics<br /> </td> 
-   <td> Gemeinsame Nutzung von Kampagnendaten mit Adobe Analytics, um E-Mail-Marketingmetriken in Campaign gemeinsam mit anderen Marketing- und Werbeaktivitäten anhand von Konversionen zu messen, wodurch Sie sich einen Überblick über das Kundenverhalten vor und nach dem Anklicken verschaffen können.<br /> Direktes Verfolgen der Gesamtleistung und Erkennen von Synergien mit externen Programmen in Analytics. Lassen Sie die Erkenntnisse aus dieser kombinierten Ansicht wiederum in Ihre Kampagnen einfließen. Damit können Sie schließlich die Öffnungs-, Klick- und Konversionsraten steigern und die Einnahmen sowie die Gesamtleistung der Kampagne verbessern. <br /> Hierzu ist Adobe Analytics erforderlich. Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-analytics-integration.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Gemeinsame Nutzung von Kampagnendaten mit Adobe Analytics, um E-Mail-Marketingmetriken in Campaign gemeinsam mit anderen Marketing- und Werbeaktivitäten anhand von Konversionen zu messen, wodurch Sie sich einen Überblick über das Kundenverhalten vor und nach dem Anklicken verschaffen können.<br /> Direktes Verfolgen der Gesamt-Performance und Erkennen von Synergien mit externen Programmen in Analytics. Lassen Sie die Erkenntnisse aus dieser kombinierten Ansicht wiederum in Ihre Kampagnen einfließen. Damit können Sie schließlich die Öffnungs-, Klick- und Konversionsraten steigern und die Einnahmen sowie die Gesamt-Performance der Kampagne verbessern. <br /> Hierzu ist Adobe Analytics erforderlich. Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-analytics-integration.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Briefpost-Kanal - Rücksendungen an den Absender<br /> </td> 
@@ -320,7 +320,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver verfügbar<br /> </td> 
-   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Installation der Adobe Campaign Integration-Erweiterung. Weiterführende Informationen dazu finden Sie in diesem Abschnitt <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
+   <td> Die Integration zwischen Adobe Campaign und Dreamweaver ist jetzt verfügbar. Sie funktioniert mit der aktuellsten Version von Dreamweaver (17.0.2).<br /> Dies erfordert die Installation der Erweiterung zur Integration von Adobe Campaign. Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

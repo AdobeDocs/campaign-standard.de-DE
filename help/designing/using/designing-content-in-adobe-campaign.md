@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1252'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Wenn Sie keine Vorlage auswählen, können Sie über die Startseite von Email De
 
 **Fragmente**: Ein Fragment ist eine Komponente, die Sie in mehreren E-Mails wiederverwenden können.
 
-**Strukturkomponenten**: Strukturelle Elemente, die das Layout der E-Mail definieren.
+**Strukturkomponenten**: Strukturkomponenten sind Strukturelemente, mit denen Sie das Layout einer E-Mail festlegen können.
 
 **Inhaltskomponenten**: Inhaltskomponenten sind rohe, noch leere Komponenten, die Sie in E-Mails einfügen und dort bearbeiten können.
 

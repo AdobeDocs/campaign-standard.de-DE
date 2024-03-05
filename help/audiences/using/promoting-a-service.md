@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ Mit Campaign können Sie einen Dienst folgendermaßen bewerben:
 
   >[!NOTE]
   >
-  >Es ist auch wichtig, den Abonnenten die Möglichkeit zu geben, sich abzumelden. Fügen Sie dazu einen Dienst ein <b>Abmelde-Link</b> in der Bestätigungs-E-Mail (definiert in den Diensteigenschaften), die automatisch an die neuen Abonnenten gesendet wird, sowie in zukünftigen Newsletter-E-Mails.
+  >Es ist auch wichtig, den Abonnierenden die Möglichkeit zu geben, sich abzumelden. Fügen Sie dazu einen Dienst <b>Abmelde-Link</b> in die Bestätigungs-E-Mail (definiert in den Eigenschaften des Dienstes) ein, die automatisch an die neuen Abonnierenden gesendet wird, sowie in zukünftige Newsletter-E-Mails.
 
 * Durch Einbettung einer An- oder Abmelde-Landingpage in eine Webseite: Die Landingpage-URLs müssen verschlüsselte Parameter wie den zugeordneten Dienst und die Kennung des die Seite aufrufenden Profils enthalten. Diese Kennung kann in den Landingpage-Parametern definiert werden (siehe [Konfigurieren einer Landingpage](../../channels/using/configuring-landing-page.md)).

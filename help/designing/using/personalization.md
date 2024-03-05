@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2753'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachr
 * Vordefinierte Personalisierungsbausteine einfügen. Siehe [Inhaltsbausteine](#adding-a-content-block).
 * Absender einer E-Mail personalisieren. Siehe [Personalisierung für den Absender einrichten](#personalizing-the-sender).
 * Betreff einer E-Mail personalisieren. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#subject-line).
-* Bedingte Inhalte erstellen. Siehe [Dynamische Inhalte in einer E-Mail definieren](#defining-dynamic-content-in-an-email).
+* Bedingte Inhalte erstellen. Weitere Informationen finden Sie unter [Definieren dynamischer Inhalte in einer E-Mail](#defining-dynamic-content-in-an-email).
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
@@ -217,7 +217,7 @@ Diese Option steht nur für folgende Elemente zur Verfügung: ADDRESS, BLOCKQUOT
 
 Weiterführende Informationen zum Ausdruckseditor finden Sie im Abschnitt [Ausdrucksbearbeitung](../../automating/using/editing-queries.md#about-query-editor).
 
-Diese Bedingungen übernehmen die XTK-Ausdruckssyntax (z. B. **context.profile.email !=&#39;&#39;** oder **context.profile.status=&#39;0&#39;**). Standardmäßig werden alle Felder angezeigt.
+Diese Bedingungen übernehmen die XTK-Ausdruckssyntax (z. B. **context.profile.email !=&#39;&#39;** oder **context.profile.status=&#39;0&#39;**). Standardmäßig werden alle Felder angezeigt.
 
 >[!NOTE]
 >

@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Verwenden Sie hierzu die Aktivität [Segmentierung](../../automating/using/segme
 
 ![](assets/wkf_segment_activity.png)
 
-Die **Email** enthält die Zielgruppe die Empfänger, für die zwar eine E-Mail-Adresse, aber keine Mobiltelefonnummer definiert wurde. Die **SMS** enthält die Empfänger, deren Profil die Mobiltelefonnummer enthält.
+Die Gruppe **E-Mail** zielt auf die Empfängerinnen und Empfänger ab, die über eine E-Mail-Adresse verfügen, aber keine Mobiltelefonnummer haben. Die Gruppe **SMS** enthält die Empfängerinnen und Empfänger, deren Mobiltelefonnummer in ihrem Profil gespeichert ist.
 
 Gehen sie wie folgt vor, um die erste Transition (E-Mail) zu konfigurieren:
 
@@ -112,9 +112,9 @@ Die zweite Transition ist jetzt ebenfalls konfiguriert.
 
 ## Sendungen erstellen {#creating-deliveries}
 
-Analog zu den zwei zuvor erstellten Transitionen müssen Sie nun zwei Versandtypen an die aus der Aktivität &quot;Segmentierung&quot; ausgehenden Transitionen anschließen: die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md) und die Aktivität [SMS-Versand](../../automating/using/sms-delivery.md).
+Analog zu den zwei zuvor erstellten Transitionen müssen Sie nun zwei Typen von Sendungen an die aus der Segmentierungsaktivität ausgehenden Transitionen anschließen: die Aktivität [E-Mail-Versand](../../automating/using/email-delivery.md) und die Aktivität [SMS-Versand](../../automating/using/sms-delivery.md).
 
-Mit Adobe Campaign können Sie Sendungen zu einem Workflow hinzufügen. Wählen Sie dazu einen Versand aus dem **[!UICONTROL Kanäle]** Kategorie der Aktivitäts-Palette Ihres Workflows.
+Mit Adobe Campaign können Sie Sendungen zu einem Workflow hinzufügen. Wählen Sie dazu einen Versand aus der Kategorie **[!UICONTROL Kanäle]** in der Aktivitätenpalette Ihres Workflows.
 
 ![](assets/wkf_segment_deliveries1.png)
 
@@ -154,4 +154,4 @@ Durch Starten des Workflows wird die mithilfe der **[!UICONTROL Abfrageaktivitä
 
 Verwenden Sie zur Ausführung des Workflows die Schaltfläche **[!UICONTROL Start]** in der Aktionsleiste.
 
-Auf Ihre Sendungen können Sie über die **[!UICONTROL Marketingpläne]** > **[!UICONTROL Marketingaktivitäten]** erweitertes Menü über das Adobe Campaign-Logo. Klicken Sie auf den Versand und anschließend auf die **[!UICONTROL Berichte]** -Schaltfläche zum Zugriff auf [Versandberichte](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), wie die Versandzusammenfassung, die Öffnungsrate oder das E-Mail-Rendering entsprechend dem E-Mail-Posteingang der Empfänger.
+Sie können Ihre Sendungen über das erweiterte Menü **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Marketing-Aktivitäten]** über das Adobe Campaign-Logo aufrufen. Klicken Sie auf den Versand und dann auf die Schaltfläche **[!UICONTROL Berichte]**, um auf die [Versandberichte](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports) zuzugreifen, wie z. B. die Versandzusammenfassung, die Öffnungsrate oder die Darstellung der E-Mail je nach Posteingang der Nachrichten der Empfängerinnen und Empfänger.

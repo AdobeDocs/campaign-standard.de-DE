@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Im folgenden Diagramm wird beschrieben, wie diese Integration funktioniert.
 
 **Verwandte Themen:**
 
-* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html).
+* Lesen Sie mehr zu den unterschiedlichen Typen von Triggern in der [Dokumentation zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=de).
 * Sehen Sie sich das Video [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/de/marketing-cloud/how-to/email-marketing.html#step-two) an.
 * Erfahren Sie mehr in unseren zwei [Anwendungsbeispiele zu Triggern für die abgebrochene Suche](../../integrating/using/abandonment-triggers-use-cases.md).
 

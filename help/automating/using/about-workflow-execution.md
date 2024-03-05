@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Workflows werden grundsätzlich manuell gestartet, können jedoch anschließend 
 >
 > Adobe empfiehlt Kunden, nicht mehr als 20 aktive Workflows gleichzeitig auszuführen und die Ausführung von Workflows zu priorisieren sowie über die Zeit zu verteilen. Weitere Informationen hierzu finden Sie in den Best Practices auf [dieser Seite](../../automating/using/best-practices-workflows.md).
 
-Aktionen im Zusammenhang mit der Ausführung (Start, Stopp, Pause usw.) are **asynchron** Prozesse: Der Befehl wird gespeichert und wird wirksam, sobald der Server verfügbar ist, um ihn anzuwenden.
+Aktionen im Zusammenhang mit der Ausführung (Start, Stopp, Pause usw.) sind **asynchrone** Prozesse: der Befehl wird gespeichert und erst dann ausgeführt, wenn der Server verfügbar ist.
 
 Die Übermittlung der Ergebnisse der einzelnen Workflow-Aktivitäten erfolgt über Transitionen, welche in Form von Pfeilen dargestellt werden.
 

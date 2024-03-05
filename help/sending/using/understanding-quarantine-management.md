@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1487'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Die Quarantäne und die Blockierungsliste gelten nicht für dasselbe Objekt:
 >
 >Die Quarantäne beinhaltet den Status **Auf Blockierungsliste**, der angewendet wird, wenn Empfänger Ihre Nachricht als Spam melden oder auf eine SMS mit einem Schlüsselwort wie &quot;STOPP&quot; antworten. In diesem Fall wird die betroffene Adresse oder Telefonnummer des Profils unter Quarantäne gestellt und erhält den Status **[!UICONTROL Auf Blockierungsliste]**. Weiterführende Informationen zur Verwaltung von STOPP-SMS-Nachrichten finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-&lt;!—Wenn ein Benutzer auf eine SMS-Nachricht mit einem Schlüsselwort wie STOP antwortet, um sich vom SMS-Versand abzumelden, wird sein Profil nicht wie im E-Mail-Abmeldevorgang zur Blockierungsliste hinzugefügt. Stattdessen wird die Telefonnummer des Profils mit der **[!UICONTROL Auf Blockierungsliste]** -Status. Dieser Status bezieht sich ausschließlich auf die Telefonnummer, d. h. das Profil erhält weiterhin E-Mail-Nachrichten.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+&lt;!Wenn eine Benutzerin bzw. ein Benutzer auf eine SMS-Nachricht mit einem Schlüsselwort wie „STOPP“ antwortet, um sich vom SMS-Versand abzumelden, wird ihr bzw. sein Profil nicht wie bei einem E-Mail-Abmeldevorgang auf die Blockierungsliste gesetzt. Stattdessen wird die Telefonnummer des Profils unter Quarantäne gestellt und erhält den Status **[!UICONTROL Auf Blockierungsliste]**. Dieser Status bezieht sich ausschließlich auf die Telefonnummer, d. h. das Profil erhält weiterhin E-Mail-Nachrichten.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## In Quarantäne befindliche Adressen identifizieren   {#identifying-quarantined-addresses}
 
@@ -116,7 +116,7 @@ Die maximale Anzahl erneuter Zustellversuche im Status **[!UICONTROL Mit Fehlern
 
 >[!IMPORTANT]
 >
->Empfängerinnen und Empfänger mit einer Adresse im Status **[!UICONTROL Quarantäne]** oder **[!UICONTROL Auf Blockierungsliste]** werden niemals entfernt, auch wenn sie eine E-Mail erhalten.
+Empfängerinnen und Empfänger mit einer Adresse im Status **[!UICONTROL Quarantäne]** oder **[!UICONTROL Auf Blockierungsliste]** werden niemals entfernt, auch wenn sie eine E-Mail erhalten.
 
 
 ### Manuelle Aktualisierungen {#unquarantine-manual}
@@ -166,7 +166,7 @@ Wenn ein Benutzer eine E-Mail als Spam kennzeichnet ([Feedback Loop](https://exp
 
 >[!NOTE]
 >
->Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
+Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
 
 Bei Adressen in Quarantäne (siehe [Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-the-entire-platform)) zeigt das Feld **[!UICONTROL Fehlerursache]** an, warum die Quarantäne ausgelöst wurde.
 

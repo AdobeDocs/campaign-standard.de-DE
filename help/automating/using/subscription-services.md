@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1181'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Wenn dies in den entsprechenden Spalten der Datei spezifiziert wird, können Sie
 
      In dieser Spalte muss der Vorgang als &quot;Boolesch&quot; oder &quot;Integer&quot; angegeben werden. Mit **0** melden Sie einen Datensatz ab und mit **1** melden Sie ihn an.
 
-     Wenn die in einer importierten Datei enthaltenen Werte nicht den oben genannten Anforderungen entsprechen, können Sie weiterhin die Variable [Neukodifizierung der Werte](../../automating/using/load-file.md#column-format) -Option verfügbar im **[!UICONTROL Datei laden]** -Aktivität.
+     Falls die in einer importierten Datei enthaltenen Werte nicht den obigen Anforderungen entsprechen, können Sie in der Aktivität **[!UICONTROL Datei laden]** die Option [Neukodifizierung der Werte](../../automating/using/load-file.md#column-format) verwenden.
 
 1. Wenn die eingehenden Daten eine Spalte enthalten, die dem Abonnementdatum des Profils für den Dienst entspricht, wählen Sie sie aus. Sie können sie leer lassen. In diesem Fall wird aber kein Abonnementdatum bei der Durchführung des Workflows eingerichtet.
 1. Definieren Sie den Ursprung des Abonnements. Sie können dazu den Wert eines der Felder der eingehenden Daten oder eine beliebige Konstante verwenden, indem Sie die Option **[!UICONTROL Konstante als Ursprung festlegen]** aktivieren. Sie können diese Option auch leer lassen. In diesem Fall wird aber kein Ursprung bei der Durchführung des Workflows festgelegt.

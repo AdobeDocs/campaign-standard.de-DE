@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4695'
 ht-degree: 100%
 
@@ -101,13 +101,13 @@ Im Folgenden finden Sie die in der neuesten Campaign Standard-Version enthaltene
 * Der Adobe Experience Platform Data Connector- und Audience Destinations-Service wird jetzt von Campaign Standard nicht mehr unterstützt. Wenn Sie diese Funktionen verwenden, müssen Sie zu Adobe-Quellen und -Zielen wechseln und Ihre Implementierung anpassen. [Weitere Informationen](../../integrating/using/get-started-sources-destinations.md)   
 * Veraltete und entfernte Funktionen sind auf [dieser Seite](deprecated-features.md) aufgeführt.
 * Die neue Aggregatfunktion &quot;StringAgg&quot; wurde eingeführt, um die Werte einer Spalte vom Typ Zeichenfolge zu verketten. (CAMP-47077) [Mehr dazu](../../automating/using/list-of-functions.md#aggregates)
-* Der technische Workflow **Aktualisierung der Versandindikatoren** (updateDeliveryIndicators) wurde verbessert, um die Leistung zu steigern.
+* Der technische Workflow **Aktualisierung der Versandindikatoren** (updateDeliveryIndicators) wurde verbessert, um die Performance zu steigern.
 * In-App-Messaging-Vorlagen sind jetzt für alle in Campaign Standard unterstützten Sprachen verfügbar.
 * Die Versandvorbereitungszeit wurde für Transaktionsnachrichten optimiert, indem die Anzahl der Aufrufe an den Tracking-Server während der Versandanalyse reduziert wurde.
 * Eine neue Warnmeldung informiert Benutzer über eine hohe Absprungrate.
 * Protokollfehlermeldungen und -warnungen wurden verbessert, um die Fehlerbehebung zu vereinfachen, wenn die Trackinglogs nicht ordnungsgemäß abgerufen werden können. (CAMP-48939, CAMP-47360)
 * Sie können jetzt URLs, einschließlich des Domain-Namens, vollständig personalisieren. [Weitere Informationen](../../designing/using/personalization.md#personalizing-urls)
-* Testversand- und Trap-Profile wurden jetzt in dynamischen Berichten aus der dynamischen Berechnung der Versandleistung ausgeschlossen. (CAMP-47338)
+* Testversand- und Trap-Profile wurden jetzt in dynamischen Berichten aus der dynamischen Berechnung der Versand-Performance ausgeschlossen. (CAMP-47338)
 
 **Korrekturen**
 
@@ -148,7 +148,7 @@ Im Folgenden finden Sie die in der kommenden Campaign Standard-Version enthalten
 
 * Für die Integration von Triggers wurde die Fehlermeldung verbessert, die angezeigt wird, wenn in der Trigger-Payload keine Abstimmdaten eingehen: &quot;In der Payload fehlen Alias-Daten&quot;.
 
-* Die Leistung beim Abrufen von Push-Benachrichtigungen aus der Warteschlange wurde verbessert.
+* die Performance beim Abrufen von Push-Benachrichtigungen aus der Warteschlange wurde verbessert.
 
 **Sonstige Änderungen**
 
@@ -304,11 +304,11 @@ Im Folgenden finden Sie die in der kommenden Campaign Standard-Version enthalten
 
 * In der Liste **Profile** können Sie jetzt nach Datensätzen suchen, die auf einem dieser Felder basieren: E-Mail, Vorname, Nachname oder benutzerdefinierte Felder, die den erweiterten Filtern beim Erweitern der Profilressource hinzugefügt wurden. Diese Funktion ist auch in Campaign Standard-APIs verfügbar, die den Parameter &quot;filterType&quot; verwenden. [Mehr dazu](../../audiences/using/integrated-customer-profile.md)
 
-* Ein Parameter wurde an die Anzahl der Container angepasst, die den Datenbank-Pooling-Prozess für Transaktionsnachrichten ausführen. Dadurch kann die Last gleichmäßig auf alle verwendeten Container verteilt und eine optimale Leistung erzielt werden.
+* Ein Parameter wurde an die Anzahl der Container angepasst, die den Datenbank-Pooling-Prozess für Transaktionsnachrichten ausführen. Dadurch kann die Last gleichmäßig auf alle verwendeten Container verteilt und eine optimale Performance erzielt werden.
 
 * Eine neue **GetOption**-Funktion ist jetzt in Aktivitäten verfügbar, für die nach dem Aufruf eines Workflows mit externen Parametern Ereignisvariablen verwendet werden. Damit können Sie den Wert einer angegebenen Funktion zurückgeben. [Mehr dazu](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Eine neue Option ermöglicht es Campaign Standard, die Verfügbarkeit von **physischem Speicher** auf Ihrem System zu überprüfen, bevor ein Workflow gestartet wird. Steht zu wenig Speicher zur Verfügung, wird die Ausführung des Workflows verzögert, bis der Systemspeicher diesen Schwellenwert erreicht. Dadurch wird eine weitere Leistungsverschlechterung vermieden und das Risiko eines Ausfalls verringert. Der Workflow wird automatisch fortgesetzt, sobald die Auslastung des Servers abnimmt und der Speicher zunimmt. Beachten Sie, dass diese Option schreibgeschützt ist und nicht geändert werden kann. [Mehr dazu](../../automating/using/best-practices-workflows.md#execution)
+* Eine neue Option ermöglicht es Campaign Standard, die Verfügbarkeit von **physischem Speicher** auf Ihrem System zu überprüfen, bevor ein Workflow gestartet wird. Steht zu wenig Speicher zur Verfügung, wird die Ausführung des Workflows verzögert, bis der Systemspeicher diesen Schwellenwert erreicht. Dadurch wird eine weitere Performance-Verschlechterung vermieden und das Risiko eines Ausfalls verringert. Der Workflow wird automatisch fortgesetzt, sobald die Auslastung des Servers abnimmt und der Speicher zunimmt. Beachten Sie, dass diese Option schreibgeschützt ist und nicht geändert werden kann. [Mehr dazu](../../automating/using/best-practices-workflows.md#execution)
 
 * In Adobe Campaign Standard ist ein neuer Prozess verfügbar, der eine einfachere Migration von der älteren SDK v4-Mobile App auf das **Adobe Experience Platform Mobile SDK** ermöglicht. Mehr dazu erfahren Sie auf [dieser Seite](../../administration/using/sdkv4-migration.md).
 
@@ -360,7 +360,7 @@ Im Folgenden finden Sie die in der kommenden Campaign Standard-Version enthalten
 
   >[!IMPORTANT]
   >
-  >Aufgrund dieser Änderung wird empfohlen, das Zielgruppen-Mapping zu aktualisieren und die Nachricht erneut zu veröffentlichen, wenn Sie eine vorhandene profilbasierte Transaktions-Push-Benachrichtigung verwenden (die vor dem Upgrade auf Adobe Campaign 21.1 erstellt wurde). Eine detaillierte Anleitung dazu finden Sie [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Die Verwendung des früheren Zielgruppen-Mappings **Profil – Echtzeitereignis** (*mapRtEventRcp*) kann zu längeren Versandvorbereitungszeiten und Leistungseinbußen führen.
+  >Aufgrund dieser Änderung wird empfohlen, das Zielgruppen-Mapping zu aktualisieren und die Nachricht erneut zu veröffentlichen, wenn Sie eine vorhandene profilbasierte Transaktions-Push-Benachrichtigung verwenden (die vor dem Upgrade auf Adobe Campaign 21.1 erstellt wurde). Eine detaillierte Anleitung dazu finden Sie [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Die Verwendung des früheren Zielgruppen-Mappings **Profil – Echtzeitereignis** (*mapRtEventRcp*) kann zu längeren Versandvorbereitungszeiten und Performance-Einbußen führen.
 
 * Fehlerkorrektur – Versandberichte werden jetzt ausgeführt, wenn 5.000 Zeilen angezeigt werden.
 * Fehlerkorrektur – A/B-Tests funktionieren jetzt einwandfrei. Der Inhalt von Variante B kann jetzt aktualisiert werden, nachdem die Versandvorlage geändert wurde. (CAMP-45235)

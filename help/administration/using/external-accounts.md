@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1778'
 ht-degree: 100%
 
@@ -205,7 +205,7 @@ Beim Konfigurieren Ihres externen Kontos müssen Sie einen der **[!UICONTROL Kon
 Mit der Option **[!UICONTROL Parallelität]** können Sie die Geschwindigkeit von Dateiübertragungen genau einstellen.
 Die Option stellt die Anzahl der Threads dar, die bei der Durchführung der Dateiübertragung verwendet werden. Jeder dieser Threads lädt einen Teil von ca. 1 MB aus dem Blob-Speicher herunter. Diese werden dann in die Warteschlange gestellt, um auf die Festplatte geschrieben zu werden. Beachten Sie, dass bei Erhöhung der Thread-Zahl auch die Auslastung der Ressourcen steigt, die von der Anwendung zur Dateiübertragung genutzt werden.
 
-Nach Abschluss der Dateiübertragung finden Sie Leistungsmetriken in den Workflow-Logs.
+Nach Abschluss der Dateiübertragung finden Sie Performance-Metriken in den Workflow-Logs.
 
 **Weitere Zustellversuche**
 

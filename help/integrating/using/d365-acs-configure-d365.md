@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
 1. Füllen Sie den Registrierungsbildschirm für die App aus:
 
-   * Name: adobe campaign `<stage or prod>`
+   * Name: Adobe Campaign `<stage or prod>`
    * Unterstützter Kontotyp: **[!UICONTROL Nur Konten in diesem Organisationsverzeichnis]** (Standardwert)
 
 Weiterführende Informationen zur Erstellung einer neuen Anwendung finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app){target="_blank"}.

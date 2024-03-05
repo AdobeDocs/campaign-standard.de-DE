@@ -10,9 +10,9 @@ role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefo
    >
    >Sie können globale, kanalübergreifende Ermüdungsregeln festlegen, mit denen Profile, die bereits zu oft angesprochen wurden, automatisch von Kampagnen ausgeschlossen werden. Näheres dazu finden Sie unter [Ermüdungsregeln](../../sending/using/fatigue-rules.md).
 
-1. Führen Sie Testsendungen durch, um Ihre Nachricht zu überprüfen und zu validieren und das Inbox-Rendering zu überprüfen. Siehe [Testversand durchführen](../../sending/using/sending-proofs.md) Abschnitt.
+1. Führen Sie Testsendungen durch, um Ihre Nachricht zu überprüfen und zu validieren und das Inbox-Rendering zu überwachen. Weiterführende Informationen finden Sie im Abschnitt [Durchführen eines Testversands](../../sending/using/sending-proofs.md).
 1. Bestätigen Sie den Versand der Nachricht. Der Versand erfolgt an dem von Ihnen festgelegten Zeitpunkt.
 
    ![](assets/sms_creation_7.png)

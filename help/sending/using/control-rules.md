@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -50,8 +50,8 @@ Kontrollregeln können auf verschiedene Phasen des Lebenszyklus eines Versands a
 
 * **Nach der Zielgruppenbestimmung**: Durch eine Ausführung nach der Zielgruppenbestimmung kennen Sie den Umfang der Zielgruppe und können die Kontrollregel entsprechend anwenden.
 
-  So wird beispielsweise die Kontrollregel **Prüfung der Testversandgröße** nach der Zielgruppenbestimmung angewendet: Diese Regel verhindert die Vorbereitung der Nachrichtenpersonalisierung, wenn zu viele Testversand-Empfänger vorhanden sind.
+  So wird beispielsweise die Kontrollregel **Prüfen der Testversandgröße** nach der Zielgruppenbestimmung angewendet: Diese Regel verhindert die Vorbereitung der Nachrichtenpersonalisierung, wenn zu viele Testversand-Empfängerinnen und -Empfänger vorhanden sind.
 
 * **Zu Beginn der Personalisierung**: Gilt, wenn sich die Prüfung auf die Validierung der Nachrichtenpersonalisierung bezieht. Die Nachrichtenpersonalisierung erfolgt während der Analysephase.
 
-* **Am Ende der Analyse**: Wenn für eine Überprüfung die Nachrichtenpersonalisierung abgeschlossen sein muss.
+* **Am Ende der Analyse**: Wenn eine Prüfung verlangt, dass die Nachrichtenpersonalisierung abgeschlossen ist.

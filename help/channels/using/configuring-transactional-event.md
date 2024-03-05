@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Gehen Sie wie unten beschrieben vor, um auf die bereits erstellten Transaktionse
 
 Die Konfiguration von Transaktionsereignissen variiert je nach dem [Typ der zu sendenden Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) (Ereignis oder Profil) und dem verwendeten Kanal.
 
-In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weitere Informationen zu den allgemeinen Schritten zum Konfigurieren eines Ereignisses finden Sie unter [Ereignis erstellen](#creating-an-event).
+In den folgenden Abschnitten wird beschrieben, welche Konfiguration für die jeweilige Transaktionsnachricht festgelegt werden sollte. Weiterführende Informationen zu den allgemeinen Schritten bei der Konfiguration eines Ereignisses finden Sie unter [Erstellen eines Ereignisses](#creating-an-event).
 
 ### Ereignisbasierte Transaktionsnachrichten {#event-based-transactional-messages}
 

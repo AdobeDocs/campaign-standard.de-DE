@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5442'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td> Benutzerverwaltung<br /> </td> 
-   <td> Ab Version 18.7 steht die Funktion der geografischen Einheiten nicht mehr für neue Campaign Standard-Instanzen sowie bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden, zur Verfügung.<br /> Weiterführende Informationen dazu finden Sie in diesem Abschnitt <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE">page</a>.<br /> </td> 
+   <td> Ab Version 18.7 steht die Funktion der geografischen Einheiten nicht mehr für neue Campaign Standard-Instanzen sowie bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden, zur Verfügung.<br /> Weitere Informationen finden Sie auf dieser <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=de-DE">Seite</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,7 +148,7 @@ ht-degree: 99%
 **Neuheiten**
 
 * Die API **[!UICONTROL Verlauf]** wurde zu Adobe.IO hinzugefügt. Damit können Sie Informationen zum Marketing-Verlauf eines Profils abrufen: Anzahl der Touchpoints, gesendete Nachrichten, URL der Mirrorseite etc. Weiterführende Informationen dazu finden Sie im [entsprechenden Anwendungsbeispiel](../../api/using/interacting-with-marketing-history.md) .
-* Der technische Workflow **[!UICONTROL Datenbankbereinigung]** wurde optimiert, um eine bessere Leistung der Datenbanksicherung zu gewährleisten.
+* Der technische Workflow **[!UICONTROL Datenbankbereinigung]** wurde optimiert, um eine bessere Performance der Datenbanksicherung zu gewährleisten.
 * Creative Designer für E-Mail ist jetzt auch in Französisch und Deutsch verfügbar.
 
 **Sonstige Änderungen**
@@ -157,7 +157,7 @@ ht-degree: 99%
 * Funktionale Administratoren können jetzt im nativen technischen Workflow **Zustellbarkeit** die Anzahl aufeinanderfolgender Fehler definieren, die in der JavaScript-Aktivität **Regel-Update** ignoriert werden sollen. Standardmäßig beträgt der Feldwert 0, was bedeutet, dass alle Fehler ignoriert werden.
 * Die SQL-Abfrage zur Verwaltung der Zugriffsbeschränkungen auf Einheiten wurde optimiert.
 * Jetzt können Abonnementdaten in der Aktivität **[!UICONTROL Aktualisierung]** hinzugefügt, aktualisiert oder gelöscht werden (nms:appSubscriptionRcp table).
-* Der technische Workflow **[!UICONTROL Update der Versandausführung]** wurde in zwei Workflows unterteilt, um die Leistung zu verbessern: **[!UICONTROL Update der Versandausführung]**: Hiermit wird das Tracking des Versands aktualisiert. Dieser Workflow wird standardmäßig alle zehn Minuten gestartet. **[!UICONTROL Aktualisierung der Versandindikatoren]**: Hiermit werden die Versand-KPIs aktualisiert. Dieser Workflow wird standardmäßig jede Stunde gestartet. Weiterführende Informationen zu technischen Workflows finden Sie in diesem [Abschnitt](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* Der technische Workflow **[!UICONTROL Update der Versandausführung]** wurde in zwei Workflows unterteilt, um die Performance zu verbessern: **[!UICONTROL Update der Versandausführung]**: Hiermit wird das Tracking des Versands aktualisiert. Dieser Workflow wird standardmäßig alle zehn Minuten gestartet. **[!UICONTROL Aktualisierung der Versandindikatoren]**: Hiermit werden die Versand-KPIs aktualisiert. Dieser Workflow wird standardmäßig jede Stunde gestartet. Weiterführende Informationen zu technischen Workflows finden Sie in diesem [Abschnitt](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * Wenn Nachrichten versendet werden, kann der Status im Bereich **[!UICONTROL Bereitstellung]** jetzt zwei Werte aufweisen: **[!UICONTROL Senden]**: Die Nachrichten werden gesendet. **[!UICONTROL Senden (erneuter Versuch)]**: Ein erneuter Versuch wird unternommen.
 * Benutzer mit der Benutzerrolle **[!UICONTROL Versandvorbereitung]** können jetzt Testsendungen durchführen. (CAMP-24313)
 * Die Option **TLS über SMPP aktivieren** wurde zum externen Konto **SMS-Routing durch SMPP** hinzugefügt. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
@@ -267,7 +267,7 @@ _E-Mails, SMS und Briefpost_
 
 _Workflows_
 
-* Die Speicherverwaltung und Workflow-Leistung wurden verbessert.
+* Die Speicherverwaltung und Workflow-Performance wurden verbessert.
 
 _Reporting_
 
@@ -401,9 +401,9 @@ _Plattform_
 
 _E-Mails, SMS und Briefpost_
 
-* Die Leistung der Versandvorbereitungsphase wurde verbessert.
+* die Performance der Versandvorbereitungsphase wurde verbessert.
 * Fehlerkorrektur – mehrere Probleme mit Trackinglogs wurden behoben, die in manchen Situationen fehlerhaft waren.
-* Fehlerkorrektur – jetzt tritt kein Fehler mehr beim Kontaktdatum auf, wenn es zwischen der Vorbereitung und der Bestätigung eines Versands geändert wird. Wenn das Kontaktdatum jetzt nach der Vorbereitung geändert wird, muss der Versand erneut vorbereitet werden, bevor er bestätigt werden kann. Siehe [Detaillierte Dokumentation](../../sending/using/preparing-the-send.md).
+* Fehlerkorrektur – jetzt tritt kein Fehler mehr beim Kontaktdatum auf, wenn es zwischen der Vorbereitung und der Bestätigung eines Versands geändert wird. Wenn das Kontaktdatum jetzt nach der Vorbereitung geändert wird, muss der Versand erneut vorbereitet werden, bevor er bestätigt werden kann. Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../../sending/using/preparing-the-send.md).
 
 _Push-Benachrichtigungen_
 
@@ -421,7 +421,7 @@ _Workflows_
 * Fehlerkorrektur – die Reihenfolge der ausgehenden Transitionen wird jetzt in der Aktivität **[!UICONTROL Segmentierung]** nicht mehr geändert.
 * Fehlerkorrektur – beim Lesen von mithilfe eines Workflows gespeicherten Audiences, die ein Auflistungsfeld enthalten, tritt kein Fehler mehr auf.
 * Fehlerkorrektur – die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** bleibt jetzt nicht mehr aktiviert, nachdem sie bei der Definition der Planung eines in einem Workflow erstellten Versands deaktiviert wurde.
-* Das automatische Löschen von Dubletten (DISTINCT-Klausel) kann jetzt in **[!UICONTROL Abfrage]**-Aktivitäten mit einer neuen Option im Tab **[!UICONTROL Zusatzdaten]** deaktiviert werden. Die Deaktivierung dieser Option wird zur Leistungsverbesserung empfohlen, wenn zahlreiche (über 100) zusätzliche Elemente definiert werden.
+* Das automatische Löschen von Dubletten (DISTINCT-Klausel) kann jetzt in **[!UICONTROL Abfrage]**-Aktivitäten mit einer neuen Option im Tab **[!UICONTROL Zusatzdaten]** deaktiviert werden. Die Deaktivierung dieser Option wird zur Performance-Verbesserung empfohlen, wenn zahlreiche (über 100) zusätzliche Elemente definiert werden.
 
 _Integrationen_
 
@@ -478,7 +478,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
 
 _Plattform_
 
-* Die Profilsuche wurde optimiert, um die Leistung zu verbessern.
+* Die Profilsuche wurde optimiert, um die Performance zu verbessern.
 * Die interne Kennung von Standard-Sicherheitsgruppen ermöglicht jetzt Standardbenutzern nur mehr schreibgeschützten Zugriff.
 
 _E-Mails, SMS und Briefpost_

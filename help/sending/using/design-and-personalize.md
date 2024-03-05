@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Bei der Analyse einer Nachricht wird standardmäßig von einer [Typologieregel](
 
 ### Größe der E-Mail  {#email-size}
 
-Um Leistungs- oder Zustellbarkeitsprobleme zu vermeiden, wird eine E-Mail mit einer maximalen Größe von **35 KB** empfohlen.
+Um Performance- oder Zustellbarkeitsprobleme zu vermeiden, wird eine E-Mail mit einer maximalen Größe von **35 KB** empfohlen.
 
 Um Ihre E-Mail unter dem Grenzwert zu halten, beachten Sie Folgendes:
 
@@ -100,7 +100,7 @@ Adobe empfiehlt, den Standardwert für die maximale Nachrichtengröße beizubeha
 
 Standardmäßig kommt in Bezug auf die maximal zulässige Zeichenanzahl einer SMS der Mobilfunkstandard GSM (Global System for Mobile Communications) zur Anwendung. SMS, die das GSM-Alphabet verwenden, sind auf 160 Zeichen begrenzt oder auf 153 Zeichen pro SMS bei Nachrichten, die in mehreren Teilen gesendet werden.
 
-Transliteration bezeichnet die Ersetzung eines Zeichens einer SMS durch ein anderes, wenn dieses Zeichen nicht vom GSM-Standard berücksichtigt wird. Die Verwendung von Personalisierungsfeldern im SMS-Inhalt führt u. U. zu Zeichen, die nicht von GSM unterstützt werden. Sie können die Transliteration von Zeichen zulassen, indem Sie die entsprechende Option im Tab Parameter des SMPP-Kanals des entsprechenden **[!UICONTROL Externes Konto]**.
+Die Transliteration besteht darin, ein Zeichen einer SMS durch ein anderes zu ersetzen, wenn dieses Zeichen vom GSM-Standard nicht berücksichtigt wird. Beachten Sie, dass durch das Einfügen von Personalisierungsfeldern in den Inhalt Ihrer SMS-Nachricht Zeichen eingeführt werden können, die von der GSM-Kodierung nicht berücksichtigt werden. Sie können die Transliteration von Zeichen zulassen, indem Sie das entsprechende Kästchen auf der Registerkarte „SMPP-Kanaleinstellungen“ des entsprechenden **[!UICONTROL externen Kontos]** markieren.
 Weiterführende Informationen finden Sie [in diesem Abschnitt](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Tipps**:
@@ -117,7 +117,7 @@ Responsives E-Mail-Design stellt sicher, dass eine E-Mail auf jedem Gerät optim
 
 * Verwenden Sie responsive E-Mail-HTML anstelle von Web-HTML.
 
-* Verwenden Sie den Vorschaumodus und senden Sie Testsendungen, um das Rendering auf möglichst vielen Geräten zu testen. Erfahren Sie, wie Sie vor dem Senden einer Nachricht eine [Vorschau](../../sending/using/previewing-messages.md) erstellen.
+* Verwenden Sie den Vorschaumodus und Testsendungen, um das Rendering auf möglichst vielen Geräten zu testen. Erfahren Sie, wie Sie vor dem Senden einer Nachricht eine [Vorschau](../../sending/using/previewing-messages.md) erstellen.
 
 * Campaign Email Designer enthält Vorlagen für responsive Designs für Mobilgeräte. Weiterführende Informationen finden Sie auf [dieser Seite](../../designing/using/using-reusable-content.md#content-templates).
 

@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,19 +59,19 @@ Die Aktionsleiste enthält Schaltflächen, die die Bearbeitung des angezeigten I
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Personalisierungsfeld einfügen</span> <br /> </td> 
    <td> SMS und Push-Benachrichtigung<br /> </td> 
-   <td> Fügt den Wert eines Datenbankfelds in den Inhalt ein. Siehe <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Personalisierungsfeld einfügen</a>.<br /> </td> 
+   <td> Fügt den Wert eines Datenbankfelds in den Inhalt ein. Weitere Informationen finden Sie unter <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Einfügen eines Personalisierungsfeldes</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Inhaltsbaustein einfügen</span> <br /> </td> 
    <td> SMS und Push-Benachrichtigung<br /> </td> 
-   <td> Fügt einen personalisierten Inhaltsbaustein ein. Siehe <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">Inhaltsbausteine</a>.<br /> </td> 
+   <td> Fügt einen personalisierten Inhaltsbaustein ein. Weitere Informationen finden Sie unter <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">Einfügen eines Inhaltsbausteins</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Dynamischen Text aktivieren</span> <br /> </td> 
    <td> SMS und Push-Benachrichtigung<br /> </td> 
-   <td> Ermöglicht das Einfügen von dynamischem Text in den Nachrichtenkörper. Siehe <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Dynamische Texte definieren</a>.<br /> </td> 
+   <td> Ermöglicht das Einfügen von dynamischem Text in den Nachrichtenkörper. Weitere Informationen finden Sie unter <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Definieren von dynamischem Text</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 

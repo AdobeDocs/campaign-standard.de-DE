@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1878'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 
    >[!NOTE]
    >
-   >Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Leistungssteigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
+   >Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Performance-Steigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
 
 1. Auf der Registerkarte **[!UICONTROL Transition]** können Sie mit der Option **[!UICONTROL Ausgehende Transition erzeugen]** im Anschluss an eine Abfrageaktivität eine ausgehende Transition hinzufügen, selbst wenn keine Daten abgerufen werden.
 
@@ -121,7 +121,7 @@ Nach dem Hinzufügen von Zusatzdaten können Sie die zunächst von der Abfrage a
 
 >[!NOTE]
 >
->Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Leistungssteigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
+>Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Performance-Steigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
 
 In [diesem Abschnitt](../../automating/using/personalizing-email-with-additional-data.md) wird ein Anwendungsfall vorgestellt, wie eine E-Mail mit zusätzlichen Daten personalisiert werden kann.
 
@@ -180,7 +180,7 @@ Hinweis: Wenn Sie eine Sortierung auf Ihr Aggregat anwenden müssen, sollten Sie
 1. Rufen Sie den Tab **[!UICONTROL Zusatzdaten]** auf und fügen Sie ein neues Element hinzu.
 1. Wählen Sie im sich öffnenden Fenster im Feld **[!UICONTROL Ausdruck]** die Sammlung aus, die Sie hinzufügen möchten. Es wird automatisch ein **[!UICONTROL Alias]** erzeugt. Dieser kann bei Bedarf im **[!UICONTROL Zusatzdaten]**-Tab der Abfrage angepasst werden.
 1. Bestätigen Sie die Angaben mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]**. Im sich öffnenden Fenster haben Sie die Möglichkeit, die Sammlungsdaten, die Sie anzeigen möchten, zu verfeinern.
-1. Im **[!UICONTROL Parameter]** Registerkarte auswählen **[!UICONTROL Sammlung]** und legen Sie die Anzahl der Zeilen der Kollektion fest, die Sie hinzufügen möchten. Wenn Sie beispielsweise die drei neuesten Bestellungen von jedem Profil abrufen möchten, geben Sie im Feld **[!UICONTROL Anzahl der zurückzugebenden Zeilen]** -Feld.
+1. Auf der Registerkarte **[!UICONTROL Parameter]** wählen Sie **[!UICONTROL Sammlung]** und legen die Anzahl der Zeilen der Sammlung fest, die Sie hinzufügen möchten. Wenn Sie z. B. die drei letzten Einkäufe jedes Profils abrufen möchten, geben Sie „3“ in das Feld **[!UICONTROL Anzahl an auszugebenden Zeilen]** ein.
 
    >[!NOTE]
    >

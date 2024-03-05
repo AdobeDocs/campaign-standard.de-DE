@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Das Anfordern einer zusätzlichen Bestätigung ist keine zuverlässige Methode: 
 
 Der Nachrichteneditor von Adobe Campaign ist mit einer **Anti-Spam-Analyse** ausgestattet, mit der sich für E-Mails das Risiko bestimmen lässt, von Anti-Spam-Tools des Empfängers als Spam eingestuft zu werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md).
 
-Klicken Sie im Inhaltseditor der Nachricht auf **[!UICONTROL Vorschau]**. Eine Nachricht warnt Sie, wenn bei der Anti-Spam-Prüfung ein hohes Risiko für diese Nachricht festgestellt wurde. Klicks **[!UICONTROL Anti-Spam-Analyse]** um Details anzuzeigen.
+Wählen Sie im Inhaltseditor für die Nachricht die Option **[!UICONTROL Vorschau]** aus. Wenn die Anti-Spam-Prüfung ein hohes Risiko für die Nachricht feststellt, werden Sie durch eine Mitteilung gewarnt. Klicken Sie auf **[!UICONTROL Anti-Spam-Analyse]**, um Details anzuzeigen.
 
 ![](assets/sending_anti-spam_analysis.png)
 

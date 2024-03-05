@@ -10,9 +10,9 @@ role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Der Arbeitsbereich besteht aus verschiedenen Kacheln. Klicken Sie in eine Kachel
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Bereitstellung]**: gibt Auskunft über den Fortschritt der Vorbereitung oder des Versands der Nachricht. Mithilfe der Schaltfläche unten rechts in der Kachel lässt sich das Analyse- und Versandprotokoll anzeigen. Diese Kachel erscheint erst nach abgeschlossener Versandvorbereitung. Weiterführende Informationen dazu finden Sie hier. Siehe [Versand bestätigen](../../sending/using/confirming-the-send.md).
-* **[!UICONTROL Zielgruppe]**: dient der Bestimmung der Hauptzielgruppe der Nachricht sowie der Testprofile. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
-* **[!UICONTROL Zeitplan]**: dient der Angabe des Versanddatums der Nachricht. Siehe [Planung](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Bereitstellung]**: gibt Auskunft über den Fortschritt der Vorbereitung oder des Versands der Nachricht. Mithilfe der Schaltfläche unten rechts in der Kachel lässt sich das Analyse- und Versandprotokoll anzeigen. Diese Kachel erscheint erst nach abgeschlossener Versandvorbereitung. Für weitere Informationen hierzu. Siehe [Bestätigen des Sendens](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Zielgruppe]**: ermöglicht es Ihnen, das Hauptzielgruppe der Nachricht sowie die Testprofile festzulegen. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellen von Zielgruppen](../../audiences/using/creating-audiences.md).
+* **[!UICONTROL Planung]**: dient der Bestimmung des Versanddatums der Nachricht. Siehe [Planung](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Inhalt]**: dient der Definition und Vorschau des Nachrichteninhalts. Siehe [Wichtigste Schritte im Nachrichtenversand](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Warnhinweise {#warnings}
@@ -88,6 +88,6 @@ Im Folgenden finden Sie eine Liste der Warnhinweise, die angezeigt werden könne
 
   Einige dieser vordefinierten Transaktionsnachrichten-Vorlagen sind native Landingpage-Vorlagen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/landing-page-templates.md).
 
-* *&quot;Diese Nachricht ist eine Vorlage für technische Transaktionsnachrichten. Sie können sie nicht ändern oder veröffentlichen.&quot;*
+* *„Diese Nachricht ist eine technische Transaktionsnachrichten-Vorlage. Sie können sie nicht ändern oder veröffentlichen.“*
 
   Dieser Warnhinweis wird in leeren, nicht bearbeitbaren Transaktionsnachrichten-Vorlagen angezeigt. Weiterführende Informationen zu Transaktionsnachrichten finden Sie in [diesem Abschnitt](../../channels/using/getting-started-with-transactional-msg.md).

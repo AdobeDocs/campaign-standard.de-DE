@@ -9,7 +9,7 @@ role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
 ht-degree: 100%
 
@@ -271,12 +271,12 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> Einzelöffnungen werden anhand von ThetaSketch-Konzepten von einzelnen Empfänger-IDs berechnet. Weiterführende Informationen hierzu finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=de#unique-open-clicks-no-match">Beispiel</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressionen<br /> </td> 
+   <td> Impressions<br /> </td> 
    <td> @impressions<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Einzelimpressionen<br /> </td> 
+   <td> Einzel-Impressions<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
@@ -323,13 +323,13 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> delivered=sent<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressionen<br /> </td> 
+   <td> Impressions<br /> </td> 
    <td> @impressions<br /> </td> 
    <td> @count(status=view) oder @count(status=button 1 click + button 2 click + dismissals)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Einzelimpressionen<br /> </td> 
+   <td> Einzel-Impressions<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
    <td> Für die Vorlage <span class="uicontrol">Nutzer auf Basis ihres Campaign-Profils in die Zielgruppe aufnehmen (inAppProfile)</span> ist Benutzer = Empfänger-ID.<br />Für die Vorlagen <span class="uicontrol">Alle Nutzer einer Mobile App in die Zielgruppe aufnehmen (inAppBroadcast)</span> und <span class="uicontrol">Nutzer auf Basis ihres Mobile-Profils in die Zielgruppe aufnehmen (inApp)</span> ist Benutzer = MC-ID oder eine andere Kennung, die eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
@@ -349,7 +349,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> In-App-Klickrate<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> Gesamtklicks auf Schaltfläche 1 oder Schaltfläche 2/Gesamtzahl der Impressionen * 100<br /> </td> 
+   <td> Gesamtklicks auf Schaltfläche 1 oder Schaltfläche 2/Gesamtzahl der Impressions * 100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -367,7 +367,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
   <tr> 
    <td> In-App-Abweisungsrate<br /> </td> 
    <td> @dismissalrate<br /> </td> 
-   <td> Gesamtzahl der Schließungen/Gesamtimpressionen * 100<br /> </td> 
+   <td> Gesamtzahl der Schließungen/Gesamt-Impressions * 100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
