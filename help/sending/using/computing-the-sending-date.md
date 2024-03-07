@@ -8,10 +8,10 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 100%
+source-wordcount: '1137'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Diese Abfolge kann mit einem Workflow terminiert werden.
 
    * Füllen Sie das Feld **[!UICONTROL Segmentcode]** aus: Geben Sie manuell den gewünschten Zeitpunkt für den Versand der Nachricht ein.
 
-     Beispiel: Sie möchten den ersten Teilversand am 1. Juni um 10 Uhr (GMT+1) durchführen. Verwenden Sie dazu das folgende Format: **JJJJ-MM-TT hh:mm:ss+tz**.
+     Beispiel: Sie möchten den ersten Teilversand am 1. Juni um 10 Uhr (GMT+1) durchführen. Verwenden Sie das folgende Format: **`YYYY-MM-DD hh:mm:ss+tz`**.
 
      ![](assets/send-time_opt_segment_configuration.png)
 

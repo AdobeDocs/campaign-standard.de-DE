@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
-workflow-type: ht
-source-wordcount: '1487'
-ht-degree: 100%
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+workflow-type: tm+mt
+source-wordcount: '1475'
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ Die maximale Anzahl erneuter Zustellversuche im Status **[!UICONTROL Mit Fehlern
 
 >[!IMPORTANT]
 >
->Empfängerinnen und Empfänger mit einer Adresse im Status **[!UICONTROL Quarantäne]** oder **[!UICONTROL Auf Blockierungsliste]** werden niemals entfernt, auch wenn sie eine E-Mail erhalten.
+Empfängerinnen und Empfänger mit einer Adresse im Status **[!UICONTROL Quarantäne]** oder **[!UICONTROL Auf Blockierungsliste]** werden niemals entfernt, auch wenn sie eine E-Mail erhalten.
 
 
 ### Manuelle Aktualisierungen {#unquarantine-manual}
@@ -142,10 +142,10 @@ Auf der Grundlage des Zeitrahmens des Vorfalls werden im Folgenden die empfohlen
 
 * **Fehlertext (Quarantänetext)** enthält „550-5.1.1“ UND **Fehlertext (Quarantänetext)** enthält „support.ISP.com“,
 
-  wobei „support.ISP.com“ Folgendes sein kann: „support.apple.com“ oder „support.google.com“ zum Beispiel
+  wobei „support.ISP.com“ zum Beispiel: „support.apple.com“ oder „support.google.com“ sein kann
 
-* **Aktualisierungsstatus (@lastModified)** am oder nach MM/TT/JJJJ HH:MM:SS AM
-* **Aktualisierungsstatus (@lastModified)** am oder vor MM/TT/JJJJ HH:MM:SS PM
+* **Status aktualisieren (@lastModified)** auf oder nach `MM/DD/YYYY HH:MM:SS AM`
+* **Status aktualisieren (@lastModified)** auf oder vor  `MM/DD/YYYY HH:MM:SS PM`
 
 Sobald Sie die Liste der betroffenen Empfängerinnen und Empfänger haben, fügen Sie die Aktivität **[!UICONTROL Daten aktualisieren]** hinzu, um den Status der E-Mail-Adressen auf **[!UICONTROL Gültig]** zu setzen, damit sie durch den Workflow **[!UICONTROL Datenbankbereinigung]** aus der Quarantäneliste entfernt werden. Sie können sie auch einfach aus der Quarantänetabelle löschen.
 
@@ -166,7 +166,7 @@ Wenn ein Benutzer eine E-Mail als Spam kennzeichnet ([Feedback Loop](https://exp
 
 >[!NOTE]
 >
->Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
+Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
 
 Bei Adressen in Quarantäne (siehe [Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-the-entire-platform)) zeigt das Feld **[!UICONTROL Fehlerursache]** an, warum die Quarantäne ausgelöst wurde.
 
