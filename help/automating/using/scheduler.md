@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 61%
 
 ---
 
@@ -48,17 +48,45 @@ Beim Entwerfen eines geplanten Workflows, der mehrere Aktivitäten umfasst, müs
 1. Definieren Sie die **[!UICONTROL Ausführungsfrequenz]**:
 
    * **[!UICONTROL Einmal]** - der Workflow wird nur einmal ausgeführt.
-   * **[!UICONTROL Mehrmals pro Tag]** - der Workflow wird wiederholt zu bestimmten Zeiten am Tag ausgeführt. Sie können Ausführungen zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
+   * **[!UICONTROL Mehrmals pro Tag]** - der Workflow wird wiederholt zu bestimmten Zeiten am Tag ausgeführt.
    * **[!UICONTROL Täglich]** - der Workflow wird jeden Tag einmal zu einem bestimmten Zeitpunkt ausgeführt.
    * **[!UICONTROL Wöchentlich]** - der Workflow wird wiederholt zu bestimmten Zeiten in der Woche ausgeführt.
    * **[!UICONTROL Monatlich]** - der Workflow wird wiederholt zu bestimmten Zeiten im Monat ausgeführt. Sie können die Monate auswählen, in denen der Workflow ausgeführt werden soll. Sie können für die Ausführung von Workflows auch bestimmte Wochentage des Monats auswählen, z. B. am zweiten Dienstag des Monats.
    * **[!UICONTROL Jährlich]** - der Workflow wird wiederholt zu bestimmten Zeiten im Jahr ausgeführt.
 
-1. Definieren Sie die Ausführungsdetails. Je nach gewählter Frequenz sind verschiedene Parameter (Uhrzeit, Ausführungsintervall, bestimmte Tage etc.) zu konfigurieren.
+1. Konfigurieren Sie die Ausführungsparameter entsprechend Ihren Anforderungen. Die verfügbaren Optionen variieren je nach der ausgewählten Ausführungshäufigkeit (Ausführungszeit oder -tage, Ausführungsintervall etc.).
 
    >[!NOTE]
    >
-   >Das Feld **[!UICONTROL Ausführungsintervall]** ermöglicht es, den Rhythmus des Workflow-Starts weiter zu verfeinern. Wenn Sie beispielsweise eine tägliche Ausführungsfrequenz wählen und bei der Ausführungsintervall den Wert **2** (Tage) angeben, wird der Workflow alle zwei Tage gestartet. Dieser Wert kann nicht weniger als 10 Minuten betragen. Wenn die Ausführungsintervall den Standardwert (= **0**) aufweist, wird nur die Ausführungsfrequenz berücksichtigt.
+   >Die **[!UICONTROL Wiederholungshäufigkeit]** in den Ausführungsfrequenzen Täglich und Monatlich können Sie die Startzeiten des Workflows festlegen. Wenn Sie beispielsweise eine tägliche Ausführungsfrequenz wählen und bei der Ausführungsintervall den Wert **2** (Tage) angeben, wird der Workflow alle zwei Tage gestartet. Dieser Wert kann nicht weniger als 10 Minuten betragen. Wenn die Wiederholungshäufigkeit auf **0** (auch Standardwert), wird diese Option nicht berücksichtigt und der Workflow wird entsprechend der angegebenen Ausführungshäufigkeit ausgeführt.
+
+   Beim Festlegen der Ausführungsfrequenz auf **[!UICONTROL Mehrmals pro Tag]** können Sie zwischen der Ausführung des Workflows zu bestimmten Tageszeiten oder in regelmäßigen Abständen am Tag wählen.
+
++++ Erfahren Sie, wie Sie eine **[!UICONTROL &quot;Mehrmals am Tag&quot;]** Ausführungsfrequenz
+
+   * Um den Workflow mehrmals zu bestimmten Zeiten während des Tages auszuführen, aktivieren Sie **[!UICONTROL Bestimmte Zeiten]** und klicken Sie auf **[!UICONTROL Element hinzufügen]** , um die gewünschte Ausführungszeit anzugeben. Fügen Sie so viele Male wie nötig hinzu, um Ihre Anforderungen zu erfüllen.
+
+   * Um den Workflow täglich auszuführen, aktivieren Sie **[!UICONTROL Periodisch]** und konfigurieren Sie dann die Ausführungsdauer:
+
+      1. Im **[!UICONTROL Wiederholungsverarbeitung nach folgender Häufigkeit (z. B. 2h)]** das Intervall angeben, in dem der Workflow ausgeführt werden soll (z. B. alle 30 Minuten, alle 2 Stunden).
+
+         >[!NOTE]
+         >
+         >Diese Option ermöglicht auch die tägliche, monatliche oder jährliche Wiederholungshäufigkeit. Beachten Sie, dass der Workflow in diesem Fall nicht mehrmals täglich ausgeführt wird, sondern in Abhängigkeit von der in diesem Feld festgelegten Häufigkeit.
+         >
+         > Wenn Ihr Workflow nicht mehrere Ausführungen innerhalb eines Tages erfordert, sondern stattdessen täglich, monatlich oder jährlich ausgeführt werden muss, empfiehlt es sich, die **[!UICONTROL Täglich]**, **[!UICONTROL Monatlich]** oder **[!UICONTROL Jährlich]** verfügbaren Optionen in **[!UICONTROL Ausführungsfrequenz]** Dropdown-Liste.
+
+      1. Im **[!UICONTROL Starten]**/**[!UICONTROL Ende]** die Uhrzeit, zu der die Workflow-Ausführung beginnen und enden soll.
+
+         Wenn keine Endzeit angegeben ist, wird die Ausführung um 00 Uhr beendet:00:00 Stunden und die nächste Ausführung beginnt am nächsten Tag zur angegebenen Startzeit.
+
+      1. Im **[!UICONTROL Starten]** Datumsfeld das Datum, an dem die erste Ausführung beginnen soll.
+
+   Im folgenden Beispiel wird die Aktivität so konfiguriert, dass der Workflow ab dem 1. März alle 2 Stunden zwischen 8 und 17 Uhr ausgeführt wird.
+
+   ![](assets/wkf_scheduler_day.png)
+
++++
 
 1. Definieren Sie den Ablauf der Ausführungsplanung:
 
