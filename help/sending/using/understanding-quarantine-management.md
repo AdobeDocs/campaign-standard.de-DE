@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -144,8 +144,8 @@ Auf der Grundlage des Zeitrahmens des Vorfalls werden im Folgenden die empfohlen
 
   wobei „support.ISP.com“ zum Beispiel: „support.apple.com“ oder „support.google.com“ sein kann
 
-* **Status aktualisieren (@lastModified)** auf oder nach `MM/DD/YYYY HH:MM:SS AM`
-* **Status aktualisieren (@lastModified)** auf oder vor  `MM/DD/YYYY HH:MM:SS PM`
+* **Statusaktualisierung (@lastModified)** am oder später als `MM/DD/YYYY HH:MM:SS AM`
+* **Statusaktualisierung (@lastModified)** am oder früher als `MM/DD/YYYY HH:MM:SS PM`
 
 Sobald Sie die Liste der betroffenen Empfängerinnen und Empfänger haben, fügen Sie die Aktivität **[!UICONTROL Daten aktualisieren]** hinzu, um den Status der E-Mail-Adressen auf **[!UICONTROL Gültig]** zu setzen, damit sie durch den Workflow **[!UICONTROL Datenbankbereinigung]** aus der Quarantäneliste entfernt werden. Sie können sie auch einfach aus der Quarantänetabelle löschen.
 

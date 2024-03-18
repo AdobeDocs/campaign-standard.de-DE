@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 Auf dieser Seite erfahren Sie, wie Sie einen Workflow entwickeln, durch den Profildaten erstellt bzw. aktualisiert werden, sobald eine Mobile App die von ihr erfassten PII-Daten auf regelmäßiger Basis überträgt.
 
-* **PII** steht für &quot;persönlich identifizierbare Informationen&quot;. PII können beliebige Daten sein, auch Informationen, die normalerweise nicht in der Profiltabelle Ihrer Adobe Campaign-Datenbank enthalten sind, z. B. Analytics for Mobile-[POIs](../../integrating/using/about-campaign-points-of-interest-data-integration.md). Die PII wird vom Mobile-App-Entwickler definiert, in der Regel gemeinsam mit einem Marketing-Experten.
+* **PII** steht für „persönlich identifizierbare bzw. personenbezogene Informationen“. PII können beliebige Daten sein, auch Informationen, die normalerweise nicht in der Profiltabelle Ihrer Adobe Campaign-Datenbank enthalten sind, z. B. Analytics for Mobile-[POIs](../../integrating/using/about-campaign-points-of-interest-data-integration.md). Die PII wird vom Mobile-App-Entwickler definiert, in der Regel gemeinsam mit einem Marketing-Experten.
 * **Collect PII** (PII erfassen) ist eine HTTP-POST-Operation, die von einer Mobile App initiiert und an eine Rest-API in Adobe Campaign Standard übergeben wird.
 
 Ziel dieses Anwendungsfalls ist die Erstellung oder Aktualisierung eines Campaign Standard-Profils, wenn die von einer Mobile App zurückgegebenen PII-Daten profilrelevante Daten enthalten.
@@ -48,8 +48,8 @@ In diesem Beispiel zeigt der Abschnitt **[!UICONTROL Felder]** die von der Mobil
 
 Die Zuordnung der Profildaten ist während der Erweiterung der Ressource **[!UICONTROL App-Abonnements]** schreibgeschützt. Sie wird lediglich für die Abstimmung verwendet. Um das Profil abstimmen zu können, muss es mit den erforderlichen Daten in das System eingetragen werden. In diesem Fall muss eine E-Mail-Adresse im Profil mit einer E-Mail-Adresse aus der „Collect PII“ übereinstimmen, damit die Abgleichung erfolgt:
 
-* Collect PII wird von einer Mobile App für einen Benutzer empfangen, dessen Vorname &quot;Jane&quot;, Nachname &quot;Doe&quot; und E-Mail-Adresse janedoe@doe.com lautet.
-* Die Profildaten müssen separat vorhanden sein (z. B. müssen die Daten manuell eingegeben werden oder aus einer anderen Ressource stammen), wobei die E-Mail-Adresse des Profils janedoe@doe.com lautet.
+* Von einer Mobile App wird „Collect PII“ für eine Benutzerin empfangen, deren Vorname „Jane“, Nachname „Doe“ und E-Mail-Adresse „janedoe@doe.com“ lauten.
+* Die Profildaten mit der E-Mail-Adresse „janedoe@doe.com“ müssen bereits separat vorhanden sein (d. h., die Daten müssen entweder manuell eingegeben oder aus einer anderen Ressource übernommen worden sein).
 
 **Verwandte Themen:**
 
@@ -88,7 +88,7 @@ Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Aus
 
 ### Konfigurieren Sie die Aktivität **[!UICONTROL Inkrementelle Abfrage]**.
 
-1. Im **[!UICONTROL Eigenschaften]** klicken Sie auf die **[!UICONTROL Element auswählen]** des **[!UICONTROL Ressource]** und wählen Sie anschließend die **[!UICONTROL App-Abonnements (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** -Element.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** im Feld **[!UICONTROL Ressource]** auf das Symbol **[!UICONTROL Element auswählen]** und wählen Sie das Element **[!UICONTROL App-Abonnements (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** aus.
 
    ![](assets/update_profile3.png)
 

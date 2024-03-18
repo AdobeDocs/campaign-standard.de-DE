@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2959'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
 * **Felder für zulässige Masken**
 
-  Im Abschnitt **[!UICONTROL Header-Parameter für ausgehende E-Mails]** werden die autorisierten E-Mail-Adressen aufgelistet, mit denen Sie E-Mails an Ihre Empfänger senden können (Absenderadresse) und diese in die Lage versetzen können, automatisierte Antworten wie asynchrone Bounces, Abwesenheitsantworten usw. (Fehleradresse).
+  Im Abschnitt **[!UICONTROL Header-Parameter für ausgehende E-Mails]** werden die autorisierten E-Mail-Adressen aufgelistet, mit denen Sie E-Mails an Ihre Empfänger senden können (Absenderadresse) und diese in die Lage versetzen können, automatisierte Antworten wie asynchrone Bounces, Abwesenheitsantworten usw. (Fehleradresse) zurückzusenden.
 
   Adobe Campaign prüft während der Vorbereitung der Nachricht, ob die eingegebenen Adressen gültig sind. Auf diese Weise vermeiden Sie die Verwendung von Adressen, die Probleme bei der Zustellbarkeit bereiten könnten.
 
    * Sowohl Absender- als auch Fehleradressen werden von Adobe eingerichtet. Diese Felder dürfen nicht leer sein.
    * Sie können diese Felder nicht bearbeiten. Wenden Sie sich zum Aktualisieren einer Adresse an das Team der Kundenunterstützung von Adobe.
    * Um eine weitere Adresse hinzuzufügen, können Sie über das [Control Panel in Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de) eine neue Subdomain einrichten oder sich an das Team der Kundenunterstützung von Adobe wenden. Beachten Sie, dass bei Verwendung mehrerer Masken diese durch Kommas getrennt werden.
-   * Es empfiehlt sich, Adressen mithilfe eines Sterns wie **@yourdomain.com**: ermöglicht es Ihnen, jede Adresse zu verwenden, die mit Ihrem Subdomain-Namen endet.
+   * Es wird empfohlen, Adressen mit einem Stern wie **@yourdomain.com** festzulegen: Sie können jede Adresse verwenden, die mit Ihrem Subdomain-Namen endet.
 
 * **Zustellbarkeit**
 
@@ -294,11 +294,11 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
   >
   >Das Hinzufügen eines Scripts für zusätzliche SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Scripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-  Ab dem 1. Juni 2024, Google und Yahoo! werden die Absender verpflichten, **One-Click List-Unsubscribe**. Campaign unterstützt diese Funktion standardmäßig.
+  Ab dem 1. Juni 2024, verlangen Google und Yahoo von Absenderinnen und Absendern die Einhaltung der Vorschrift, eine **Ein-Klick-Abmeldung** anzubieten. Campaign unterstützt diese Funktion standardmäßig.
 
   >[!CAUTION]
   >
-  >Wenn Sie den Kopfzeilenwert im **[!UICONTROL Zusätzliche SMTP-Header]** Ihrer E-Mail-Vorlagen kann dies die Einhaltung der **One-Click List-Unsubscribe** Anforderung von Google und Yahoo!
+  >Wenn Sie den Header-Wert im Abschnitt **[!UICONTROL Zusätzliche SMTP-Header]** in Ihrer E-Mail-Vorlage anpassen, kann dies die Konformität mit der **Ein-Klick-Abmeldung von der Liste** von Google und Yahoo beeinträchtigen.
 
 ### Liste der Parameter für Zugriffsberechtigung  {#list-of-access-authorization-parameters}
 

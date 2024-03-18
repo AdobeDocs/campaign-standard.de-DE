@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 
    * Für die Vorlage **[!UICONTROL Alle Nutzer einer Mobile App auswählen (inAppBroadcast)]** sollte als Zielgruppendimension **[!UICONTROL mobileApp (mobileAppV5)]** ausgewählt werden.
    * Für die Vorlage **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)]** sollte als Zielgruppendimension **[!UICONTROL Profil (profile)]** ausgewählt werden.
-   * Die Zielgruppendimension sollte auf **[!UICONTROL App-Abonnements (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** für die **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]** Vorlage.
+   * Für die Vorlage **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils (inApp)]** sollte als Zielgruppendimension **[!UICONTROL Abonnements für eine Anwendung (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** ausgewählt werden.
 
 1. Ziehen Sie die Aktivität **[!UICONTROL In-App-Versand]** in Ihren Workflow.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
