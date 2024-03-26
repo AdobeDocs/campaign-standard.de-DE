@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ Die maximale Anzahl erneuter Zustellversuche im Status **[!UICONTROL Mit Fehlern
 
 >[!IMPORTANT]
 >
->Empfängerinnen und Empfänger mit einer Adresse im Status **[!UICONTROL Quarantäne]** oder **[!UICONTROL Auf Blockierungsliste]** werden niemals entfernt, auch wenn sie eine E-Mail erhalten.
+Empfängerinnen und Empfänger mit einer Adresse im Status **[!UICONTROL Quarantäne]** oder **[!UICONTROL Auf Blockierungsliste]** werden niemals entfernt, auch wenn sie eine E-Mail erhalten.
 
 
 ### Manuelle Aktualisierungen {#unquarantine-manual}
@@ -166,7 +166,7 @@ Wenn ein Benutzer eine E-Mail als Spam kennzeichnet ([Feedback Loop](https://exp
 
 >[!NOTE]
 >
->Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
+Bei der Quarantänefunktion in Adobe Campaign wird die Groß-/Kleinschreibung beachtet. Achten Sie darauf, E-Mail-Adressen in Kleinbuchstaben zu importieren, damit sie später nicht erneut verwendet werden.
 
 Bei Adressen in Quarantäne (siehe [Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren](#identifying-quarantined-addresses-for-the-entire-platform)) zeigt das Feld **[!UICONTROL Fehlerursache]** an, warum die Quarantäne ausgelöst wurde.
 

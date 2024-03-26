@@ -31,8 +31,8 @@ Die erste Tabelle **Zusammenfassung der In-App-Interaktionen** ist in drei Kateg
 
 * **[!UICONTROL Verarbeitet/gesendet]**: Die Gesamtzahl der gesendeten In-App-Nachrichten
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten In-App-Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten
-* **[!UICONTROL Impressionen]**: Gesamtzahl der In-App-Nachrichten, die von den Empfängern gesehen wurden, abhängig davon, ob die Trigger-Bedingung erfüllt worden ist.
-* **[!UICONTROL Einzelimpressionen]**: Anzahl der Impressionen eines Empfängers
+* **[!UICONTROL Impressions]**: Gesamtzahl der In-App-Nachrichten, die von den Empfängern gesehen wurden, abhängig davon, ob die Trigger-Bedingung erfüllt worden ist.
+* **[!UICONTROL Einzel-Impressions]**: Anzahl der Impressions eines Empfängers
 * **[!UICONTROL In-App-Klickrate]**: Prozentsatz der Benutzer, die auf Schaltfläche 1 oder Schaltfläche 2 geklickt haben, verglichen mit den Benutzern, die die Nachricht gesehen haben
 * **[!UICONTROL In-App-Abweisungsrate]**: Prozentsatz der In-App-Nachrichten, die von Empfängern verworfen wurden.
 

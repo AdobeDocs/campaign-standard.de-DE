@@ -125,7 +125,7 @@ ht-degree: 100%
 * Die Beschriftungen im Reporting-Arbeitsbereich wurden verbessert.
 * Es wurde ein neuer Validierungsschritt hinzugefügt, um das Löschen von technischen Objekten in Transaktionsnachrichten zu verhindern.
 * Auf der Registerkarte **Liste der Ausführungen** einer Transaktionsnachricht wurde ein neuer Filter zum Versandstatus hinzugefügt, um die Fehlerbehebung zu verbessern.
-* Um die Leistung zu verbessern und die Ausführungszeit zu optimieren, wurden unbenutzte Indizes entfernt, basierend auf den Nutzungsstatistiken von Tabellen, die in einer vorläufigen Analyse für mehr als 350 Kunden identifiziert wurden. Die betroffenen Tabellen sind: nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsempfänger, nmsseedmember, nmsservice, nmssubhistorcp, nmsaudience, xtkworkflow.
+* Um die Performance zu verbessern und die Ausführungszeit zu optimieren, wurden unbenutzte Indizes entfernt, basierend auf den Nutzungsstatistiken von Tabellen, die in einer vorläufigen Analyse für mehr als 350 Kunden identifiziert wurden. Die betroffenen Tabellen sind: nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsempfänger, nmsseedmember, nmsservice, nmssubhistorcp, nmsaudience, xtkworkflow.
 
 **Korrekturen**
 
@@ -165,14 +165,14 @@ ht-degree: 100%
 * Fehlerkorrektur – Wenn der technische Workflow **updateEventsStatus** zum Abrufen des Ereignisverlaufs zu lange benötigt (wenn der Workflow angehalten wird), treten keine Fehler mehr auf. Das nicht verwendete Aggregatfeld &quot;sumQueueTime&quot; wurde aus dem Workflow entfernt, um das Problem zu lösen. (CAMP-43920)
 * Fehlerkorrektur – Bei der Bereitstellung benutzerdefinierter Ressourcen treten keine Speicherprobleme mehr auf. (CAMP-42909)
 * Fehlerkorrektur – Wenn Attribute in Sammlungen fehlen, treten in Transaktionsnachrichten keine Fehler mehr auf. Jetzt werden alle fehlenden Attribute mit einem Standardwert definiert und in die Payload aufgenommen. (CAMP-42882)
-* Fehlerkorrektur – Die Leistung bei Abfragen von Versandlogs der Echtzeit-Ereignisse wird nicht mehr beeinträchtigt. (CAMP-42759)
+* Fehlerkorrektur – die Performance bei Abfragen von Versandlogs der Echtzeit-Ereignisse wird nicht mehr beeinträchtigt. (CAMP-42759)
 * Fehlerkorrektur – Dateierweiterungen in Großbuchstaben können jetzt mit freigegebenen Assets verwendet werden. (CAMP-44159)
 * Fehlerkorrektur – Die Verbindung zu einem externen Konto kann nicht mehr vor dessen Erstellung getestet werden. Die Schaltfläche **Verbindung testen** wird jetzt erst nach Erstellung des externen Kontos angezeigt.
 * Fehlerkorrektur – Nach dem Neustart des erweiterten MTA bei Instanzen mit Sharding-Konfiguration werden Nachrichten nicht mehr als ausstehend angezeigt.
 * Fehlerkorrektur – Die Anzahl der aktiven Profile stimmt jetzt mit der tatsächlichen Anzahl der ausgeführten Sendungen überein.
 * Fehlerkorrektur – Beim Suchen nach Ressourcen in einem Workflow im Abfrageeditor treten keine Latenzen mehr auf.
 * Fehlerkorrektur – Bei der Auswahl der Option **Bei der Textsuche berücksichtigte Felder definieren** in einer benutzerdefinierten Ressource treten kein Fehler mehr auf. Wenn die Liste des Felds leer gelassen wurde, schlug die Veröffentlichung der benutzerdefinierten Ressource fehl.
-* Fehlerkorrektur – Beim Anzeigen der Übersicht über benutzerdefinierte Ressourcen mit einem großen Datenvolumen treten keine Leistungsprobleme mehr auf.
+* Fehlerkorrektur – Beim Anzeigen der Übersicht über benutzerdefinierte Ressourcen mit einem großen Datenvolumen treten keine Performance-Probleme mehr auf.
 * Fehlerkorrektur – Es ist jetzt möglich, einen Versand mit Profilersetzungen zu importieren.
 * Fehlerkorrektur – Wenn die Profilersetzung verwendet wird, können jetzt Testsendungen sofort ausgeführt werden, wenn der Versand geplant ist.
 * Fehlerkorrektur – Beim Hochladen eines Android-Schlüssels für eine mobile App wurde ein Fehler behoben. In der Meldung, die nach dem erfolgreichen Hochladen des Schlüssels angezeigt wurde, wurde der Wert des vorherigen Schlüssels angezeigt.
@@ -267,7 +267,7 @@ ht-degree: 100%
 
 **Experience Platform-Integrationen**
 
-* Die Aktivierung von Adobe Experience Platform-Zielgruppen über die Aktivität **Zielgruppe lesen** wurde verbessert, um eine höhere Leistung und Stabilität zu erzielen. Darüber hinaus wurden Workflow-Logs in Bezug auf Aktivierungsvorgänge klarer und detaillierter gestaltet, was eine einfachere Überwachung und Fehlerbehebung beim Lesen von Adobe Experience Platform-Audiences ermöglicht.
+* Die Aktivierung von Adobe Experience Platform-Zielgruppen über die Aktivität **Zielgruppe lesen** wurde verbessert, um eine höhere Performance und Stabilität zu erzielen. Darüber hinaus wurden Workflow-Logs in Bezug auf Aktivierungsvorgänge klarer und detaillierter gestaltet, was eine einfachere Überwachung und Fehlerbehebung beim Lesen von Adobe Experience Platform-Audiences ermöglicht.
 
 **Patches**
 

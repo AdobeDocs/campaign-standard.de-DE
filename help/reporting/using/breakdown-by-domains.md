@@ -1,6 +1,6 @@
 ---
 title: Verteilung nach Domain
-description: Im vordefinierten Bericht über die Verteilung nach Domain erhalten Sie Leistungsdaten Ihrer Sendungen aufgeschlüsselt nach der Domain Ihrer Kunden.
+description: Im vordefinierten Bericht über die Verteilung nach Domain erhalten Sie Performance-Daten Ihrer Sendungen aufgeschlüsselt nach der Domain Ihrer Kunden.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Aufschlüsselung nach Domains{#breakdown-by-domains}
 
-Dieser Bericht enthält die Leistungsdaten für jede in einer Audience eines E-Mail-Versands vertretenen Domain. Wenn es sich um einen Kampagnen- oder Programmbericht handelt, sind die Leistungsdaten für mehrere Audiences verfügbar. Diese Daten ermöglichen insbesondere eine nach Domain durchgeführte Analyse in Bezug auf spezifische Ereignisse, Beispielsweise Link-Anzeige, URL auf Blockierungsliste usw.
+Dieser Bericht enthält die Performance-Daten für jede in einer Zielgruppe eines E-Mail-Versands vertretenen Domain. Wenn es sich um einen Kampagnen- oder Programmbericht handelt, sind die Performance-Daten für mehrere Zielgruppen verfügbar. Diese Daten ermöglichen insbesondere eine nach Domain durchgeführte Analyse in Bezug auf spezifische Ereignisse, Beispielsweise Link-Anzeige, URL auf Blockierungsliste usw.
 
 ![](assets/delivery_reports_6.png)
 

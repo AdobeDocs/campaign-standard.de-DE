@@ -53,7 +53,7 @@ Bei Adobe Campaign hängt die Zustellrate von zahlreichen Faktoren ab, insbesond
 
 ## Campaign-Tools für die Zustellbarkeit {#deliverability-tools}
 
-Adobe Campaign bietet eine Reihe von Tools zur Verfolgung und Verbesserung der Zustellbarkeitsleistung Ihrer Plattform. Auf dieser Seite finden Sie auch die wichtigsten Grundsätze, die Sie beachten sollten, um bei der Verwendung von Campaign die Zustellbarkeit zu optimieren.
+Adobe Campaign bietet eine Reihe von Tools zur Verfolgung und Verbesserung der Zustellbarkeits-Performance Ihrer Plattform. Auf dieser Seite finden Sie auch die wichtigsten Grundsätze, die Sie beachten sollten, um bei der Verwendung von Campaign die Zustellbarkeit zu optimieren.
 
 ### Sorgfältiges Erstellen Ihrer Nachricht
 

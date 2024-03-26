@@ -175,7 +175,7 @@ Ihre Landingpage kann jetzt verwendet werden. Um die Profile zu aktualisieren, e
    ![](assets/schema_extension_uc3.png)
 
 1. Erstellen und gestalten Sie Ihre E-Mail nach Bedarf. Weiterführende Informationen zur Personalisierung von E-Mails finden Sie auf dieser [Seite](../../designing/using/quick-start.md).
-1. Fügen Sie zu Ihrer E-Mail eine Schaltfläche hinzu, mit der Profile zu Ihrer Landingpage weitergeleitet werden.
+1. Fügen Sie zu Ihrer E-Mail eine Schaltfläche hinzu, mit der Profile zu Ihrer Landingpage umgeleitet werden.
 1. Wählen Sie die hinzugefügte Schaltfläche aus und klicken Sie danach auf der linken Seite in den ![](assets/schema_extension_uc7.png)**[!UICONTROL Link]**-Bereich.
 
    ![](assets/schema_extension_uc23.png)

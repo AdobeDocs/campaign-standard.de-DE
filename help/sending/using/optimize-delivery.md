@@ -22,19 +22,19 @@ Bevor Sie mit dem Erstellen von Sendungen beginnen, können Sie mehrere Maßnahm
 
 Im folgenden Abschnitt werden Best Practices und empfohlene Verfahren für die optimale Konfiguration von Adobe Campaign erläutert. Durch die Einhaltung dieser Empfehlungen vermeiden Sie mögliche Probleme später im Prozess.
 
-## Leistung der Plattform
+## Performance der Plattform
 
-Mehrere Faktoren können die Server-Leistung direkt beeinflussen und die Plattform verlangsamen:
+Mehrere Faktoren können die Server-Performance direkt beeinflussen und die Plattform verlangsamen:
 
 * Anzahl und Art der Personalisierungselemente: Durch Personalisierung in E-Mails werden Daten für jeden Empfänger aus der Datenbank abgerufen. Bei vielen Personalisierungselementen erhöht sich dadurch die Datenmenge, die zur Vorbereitung des Versands benötigt wird.  Weiterführende Informationen zur Personalisierung von E-Mails finden Sie in [diesem Abschnitt](../../designing/using/personalization.md).
 
-* Auslastung des Servers: Wenn Campaign viele verschiedene Aufgaben gleichzeitig ausführt, kann die Leistung verlangsamt werden. Der Server muss alle eingehenden und ausgehenden Daten für alle Sendungen koordinieren, um sicherzustellen, dass die Daten korrekt sind und rechtzeitig gesendet werden.
+* Auslastung des Servers: Wenn Campaign viele verschiedene Aufgaben gleichzeitig ausführt, kann die Performance verlangsamt werden. Der Server muss alle eingehenden und ausgehenden Daten für alle Sendungen koordinieren, um sicherzustellen, dass die Daten korrekt sind und rechtzeitig gesendet werden.
 
-  **Tipp**: Koordinieren Sie die zeitliche Durchführung von Sendungen mit anderen Team-Mitgliedern, um eine optimale Leistung zu gewährleisten.
+  **Tipp**: Koordinieren Sie die zeitliche Durchführung von Sendungen mit anderen Team-Mitgliedern, um eine optimale Performance zu gewährleisten.
 
-* [Workflow-Ausführung](../../automating/using/about-workflow-execution.md): Die Überwachung Ihrer Workflows ist unverzichtbar, um Probleme mit der Leistung der Plattform zu vermeiden. Befolgen Sie die [auf dieser Seite](../../automating/using/monitoring-workflow-execution.md) aufgeführten Richtlinien. Weitere Informationen finden Sie im Abschnitt [Best Practices für den Workflow](../../automating/using/best-practices-workflows.md).
+* [Workflow-Ausführung](../../automating/using/about-workflow-execution.md): Die Überwachung Ihrer Workflows ist unverzichtbar, um Probleme mit der Performance der Plattform zu vermeiden. Befolgen Sie die [auf dieser Seite](../../automating/using/monitoring-workflow-execution.md) aufgeführten Richtlinien. Weitere Informationen finden Sie im Abschnitt [Best Practices für den Workflow](../../automating/using/best-practices-workflows.md).
 
-* Sie können die [Funktionen des Campaign Control Panels](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de) nutzen, um Ihre Plattform mit Hilfe der Funktionen zur [Leistungsüberwachung](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de) zu überwachen.
+* Sie können die [Funktionen des Campaign Control Panels](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de) nutzen, um Ihre Plattform mit Hilfe der Funktionen zur [Performance-Überwachung](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de) zu überwachen.
 
 ## Prüfen der Netzwerkkonfiguration {#network-config}
 

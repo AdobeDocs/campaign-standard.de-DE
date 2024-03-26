@@ -216,7 +216,7 @@ Gehen Sie wie folgt vor, um dieses Zielgruppen-Mapping zu ändern:
 
    >[!NOTE]
    >
-   >Um eine optimale Versandvorbereitungszeit und Leistung beim Senden von **profilbasierten** Transaktions-Push-Benachrichtigungen zu erhalten, verwenden Sie das Zielgruppen-Mapping **[!UICONTROL Profil – Echtzeit-Ereignis für Push (mapRtEventAppSubRcp)]**.
+   >Um eine optimale Versandvorbereitungszeit und Performance beim Senden von **profilbasierten** Transaktions-Push-Benachrichtigungen zu erhalten, verwenden Sie das Zielgruppen-Mapping **[!UICONTROL Profil – Echtzeit-Ereignis für Push (mapRtEventAppSubRcp)]**.
 
    ![](assets/message-center_push_target-mapping_change.png)
 

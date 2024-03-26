@@ -126,7 +126,7 @@ Wenn Sie sich in der Region EMEA oder APAC befinden, werden einige Ihrer Daten i
 
 >[!IMPORTANT]
 >
->Bestimmte Aktionen (z. B. anfängliche Aufnahme von Datensätzen, erneutes Abspielen von Datensatzdaten usw.) können dazu führen, dass eine große Anzahl von Datensätzen von Microsoft Dynamics 365 in Ihre Adobe Campaign-Instanz aufgenommen wird. Um das Risiko von Leistungsproblemen zu verringern, wird empfohlen, alle Campaign-Prozesse anzuhalten (z. B. keine Marketing-Aktivitäten, keine laufenden Workflows usw.), bis die große Menge an Datensätzen in Campaign aufgenommen wurde.
+>Bestimmte Aktionen (z. B. anfängliche Aufnahme von Datensätzen, erneutes Abspielen von Datensatzdaten usw.) können dazu führen, dass eine große Anzahl von Datensätzen von Microsoft Dynamics 365 in Ihre Adobe Campaign-Instanz aufgenommen wird. Um das Risiko von Performance-Problemen zu verringern, wird empfohlen, alle Campaign-Prozesse anzuhalten (z. B. keine Marketing-Aktivitäten, keine laufenden Workflows usw.), bis die große Menge an Datensätzen in Campaign aufgenommen wurde.
 
 ### Benutzerdefinierte Entitäten
 
@@ -152,7 +152,7 @@ Eine umfassendere Übersicht über benutzerdefinierte Campaign-Ressourcen finden
 
 Die folgenden Leitplanken sollten bei der Verwendung dieser Integration berücksichtigt werden. Wenden Sie sich an Ihren technischen Adobe-Support-Mitarbeiter, wenn Sie glauben, dass Sie diese Leitplanken überschreiten.
 
-* Sie müssen das richtige Campaign-Package lizenzieren, um das durch die Integration generierte Aufrufvolumen der Engine zu unterstützen. Eine Überschreitung des zulässigen Aufrufvolumens der Engine könnte zu einer Verschlechterung der Leistung von Campaign führen.
+* Sie müssen das richtige Campaign-Package lizenzieren, um das durch die Integration generierte Aufrufvolumen der Engine zu unterstützen. Eine Überschreitung des zulässigen Aufrufvolumens der Engine könnte zu einer Verschlechterung der Performance von Campaign führen.
 
   Verwenden Sie Folgendes, um das durch die Integration generierte Engine-Aufrufvolumen abzuschätzen:
 
@@ -172,7 +172,7 @@ Die folgenden Leitplanken sollten bei der Verwendung dieser Integration berücks
 
 * Die maximale Tabellentiefe beim Verknüpfen von Tabellen beträgt zwei (d. h. Tabelle1->Tabelle2->Tabelle3).
 
-* Die Integration unterstützt bis zu 5 verknüpfte Spalten pro benutzerdefinierter Ressource. Die Verknüpfung mehrerer Spalten zwischen benutzerdefinierten Ressourcen kann erhebliche Leistungseinbußen zur Folge haben. **Einfache Relation mit Kardinalität 0 oder 1** wird gegenüber **Einfacher Relation mit Kardinalität 1** bevorzugt.
+* Die Integration unterstützt bis zu 5 verknüpfte Spalten pro benutzerdefinierter Ressource. Die Verknüpfung mehrerer Spalten zwischen benutzerdefinierten Ressourcen kann erhebliche Performance-Einbußen zur Folge haben. **Einfache Relation mit Kardinalität 0 oder 1** wird gegenüber **Einfacher Relation mit Kardinalität 1** bevorzugt.
 
 * Die Integration unterstützt die Transformation zwischen einfachen Datentypen in Microsoft Dynamics 365 (boolesch, Ganzzahl, Dezimal, Doublette, Zeichenfolge, Datum + Uhrzeit, Datum) und Adobe Campaign Standard-Datentypen (Ganzzahl, boolesch, Gleitkommazahl, Doublette, Datum, Datum + Uhrzeit, Zeichenfolge). Komplexere Datentypen werden als Zeichenfolgen interpretiert und in der jeweils vorliegenden Form synchronisiert.
 

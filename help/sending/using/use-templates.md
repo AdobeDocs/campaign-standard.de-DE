@@ -64,7 +64,7 @@ Weiterführende Informationen zur Personalisierung von Absendernamen finden Sie 
 
 ## SMS-Absendernamen personalisieren
 
-In den Eigenschaften einer SMS-Vorlage können Sie im Bereich **Erweiterte Parameter** in der Option **Von** eine Zeichenkette zur Personalisierung des SMS-Absenders eingeben. Dieser Name erscheint als Absender auf dem Mobiltelefon des Empfängers.
+In den Eigenschaften einer SMS-Vorlage können Sie im Bereich **Erweiterte Parameter** in der Option **Von** eine Zeichenfolge zur Personalisierung des SMS-Absenders eingeben. Dieser Name erscheint als Absender auf dem Mobiltelefon des Empfängers.
 
 Bleibt das entsprechende Feld leer, wird die im externen Konto angegebene Anrufernummer verwendet. Sollte auch dort keine Anrufernummer gespeichert sein, wird die Kurzwahlnummer verwendet. Weiterführende Informationen dazu finden Sie im Abschnitt [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md).
 

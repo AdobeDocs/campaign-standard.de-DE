@@ -56,7 +56,7 @@ Der Abschnitt **[!UICONTROL Umgang mit Fehlern]** enthält zusätzliche Optionen
 
 >[!CAUTION]
 >
->Diese Option kann sich erheblich auf Ihre Workflow-Leistung auswirken und sollte daher wohl überlegt eingesetzt werden.
+>Diese Option kann sich erheblich auf Ihre Workflow-Performance auswirken und sollte daher wohl überlegt eingesetzt werden.
 
 Wenn diese Option aktiviert ist, protokolliert die Option **[!UICONTROL Diagnosemodus (Ausführungsplan von lang laufenden Abfragen protokollieren und Empfehlungen geben)]** im Abschnitt **[!UICONTROL Ausführung]** der Workflow-Eigenschaften den gesamten Ausführungsplan, wenn eine Abfrage mehr als eine Minute dauert.
 

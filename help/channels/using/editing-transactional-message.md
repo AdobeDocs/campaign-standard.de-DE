@@ -65,7 +65,7 @@ Sie möchten z. B. eine Benachrichtigung an Ihre Website-Benutzer senden, die Pr
 
    >[!NOTE]
    >
-   >Bei dem Link zum stehen gelassenen Warenkorb handelt es sich um einen Link auf eine externe URL, die den Kunden zu seinem Warenkorb weiterleitet. Diese Konfiguration wird außerhalb von Adobe Campaign vorgenommen.
+   >Bei dem Link zum abgebrochenen Warenkorb handelt es sich um einen Link auf eine externe URL, die den Kunden zu seinem Warenkorb umleitet. Diese Konfiguration wird außerhalb von Adobe Campaign vorgenommen.
 
 1. In unserem Beispiel möchten Sie drei Felder hinzufügen, die Sie beim [Erstellen des Ereignisses](../../channels/using/configuring-transactional-event.md) definiert haben: Vorname, letztes angesehenes Produkt, Gesamtbetrag des Warenkorbs. Fügen Sie dazu ein [Personalisierungsfeld](../../designing/using/personalization.md#inserting-a-personalization-field) in den Nachrichteninhalt ein.
 

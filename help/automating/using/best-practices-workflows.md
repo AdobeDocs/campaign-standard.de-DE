@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Best Practices bei Workflows{#workflow-best-practices}
 
-Mit Adobe Campaign können Sie zahlreiche Workflows einrichten und damit eine Fülle von Aufgaben ausführen. Doch beim Erstellen und Ausführen von Workflows ist große Vorsicht geboten, da eine nicht ordnungsgemäße Implementierung zu unzureichenden Leistungen, Fehlern und Plattformproblemen führen kann. Unten finden Sie deshalb eine Liste mit Best Practices sowie Tipps zur Fehlerbehebung.
+Mit Adobe Campaign können Sie zahlreiche Workflows einrichten und damit eine Fülle von Aufgaben ausführen. Doch beim Erstellen und Ausführen von Workflows ist große Vorsicht geboten, da eine nicht ordnungsgemäße Implementierung zu unzureichender Performance, Fehlern und Plattformproblemen führen kann. Unten finden Sie deshalb eine Liste mit Best Practices sowie Tipps zur Fehlerbehebung.
 
 >[!NOTE]
 >
@@ -47,13 +47,13 @@ Sie können Workflows duplizieren. Bewegen Sie dazu in den **[!UICONTROL Marketi
 
 ### Anzahl von Workflows
 
-Standardmäßig empfehlen wir, **nicht mehr als 20 aktive Workflows gleichzeitig auszuführen** (dies gilt nicht für Workflows, die auf eine geplante Ausführung warten). Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, damit die Gesamtleistung nicht beeinträchtigt wird.
+Standardmäßig empfehlen wir, **nicht mehr als 20 aktive Workflows gleichzeitig auszuführen** (dies gilt nicht für Workflows, die auf eine geplante Ausführung warten). Nach Erreichen dieses Limits werden Workflows in die Warteschlange gestellt, damit die Gesamt-Performance nicht beeinträchtigt wird.
 
 In bestimmten Situationen müssen Sie möglicherweise mehr als 20 Workflows ausführen. Besprechen Sie die Anwendungsfälle bei Bedarf mit einem Campaign-Experten und kontaktieren Sie die Adobe-Kundenunterstützung, um das Limit zu erhöhen.
 
 >[!IMPORTANT]
 >
->Auch wenn Sie den Schwellenwert von 20 Workflows nicht erreichen, empfiehlt Adobe, **die Ausführung des Workflows über die Zeit zu verteilen**. Wenn Sie die Ausführung Ihrer Workflows zeitlich staffeln, verbessern Sie die Leistung Ihrer Instanz.
+>Auch wenn Sie den Schwellenwert von 20 Workflows nicht erreichen, empfiehlt Adobe, **die Ausführung des Workflows über die Zeit zu verteilen**. Wenn Sie die Ausführung Ihrer Workflows zeitlich staffeln, verbessern Sie die Performance Ihrer Instanz.
 
 Vor dem Starten eines Workflows überprüft [!DNL Campaign Standard], ob genügend Systemspeicher vorhanden ist, um den Workflow auszuführen. Wenn nicht genügend Speicher verfügbar ist, wird eine Meldung angezeigt, in der Sie darüber informiert werden, dass die Ausführung des Workflows verzögert wird, bis die Auslastung des Servers sinkt und wieder mehr Systemspeicher vorhanden ist.
 
@@ -80,7 +80,7 @@ Mit den Eigenschaften des Workflows können Sie eine bestimmte Zeitzone definier
 
 ### Anzahl der Aktivitäten pro Workflow {#number-activities}
 
-Wir empfehlen, bis zu 100 Aktivitäten in einem Workflow zu verwenden. Bei über 100 Aktivitäten können beim Erstellen und Konfigurieren Ihres Workflows Leistungsprobleme auftreten.
+Wir empfehlen, bis zu 100 Aktivitäten in einem Workflow zu verwenden. Bei über 100 Aktivitäten können beim Erstellen und Konfigurieren Ihres Workflows Performance-Probleme auftreten.
 
 ### Workflow-Erstellung
 

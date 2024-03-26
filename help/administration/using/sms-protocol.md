@@ -9,7 +9,7 @@ exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '8640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -458,7 +458,7 @@ Bei Aktivierung wird der eingehende MO in der inSMS-Tabelle der Datenbank gespei
 
 Wenn diese Option aktiviert ist, werden die KPIs in Echtzeit auf der Hauptseite für den Versand aktualisiert, wenn ein Fehler-SR empfangen wird.
 
-Der Nachteil kann eine niedrige Leistung aufgrund der dadurch erzeugten Datenbankinhalte sein. Wenn diese Option deaktiviert ist, werden Statistiken vom **syncfromexec**-Workflow aktualisiert, der alle 20 Minuten ausgeführt wird.
+Der Nachteil kann eine niedrige Performance aufgrund der dadurch erzeugten Datenbankinhalte sein. Wenn diese Option deaktiviert ist, werden Statistiken vom **syncfromexec**-Workflow aktualisiert, der alle 20 Minuten ausgeführt wird.
 
 #### Anrufernummer {#source-number}
 
@@ -831,7 +831,7 @@ Auch wenn Sie die Logs nicht selbst überprüfen können, kann der Support Ihnen
 ### Testen Ihrer SMS {#test}
 
 * **SMS mit allen möglichen Zeichen senden**
-Wenn Sie SMS mit Nicht-GSM- oder Nicht-ASCII-Zeichen senden müssen, versuchen Sie, einige Nachrichten mit möglichst vielen verschiedenen Zeichen zu senden. Wenn Sie eine benutzerdefinierte Zeichenzuordnungstabelle einrichten, senden Sie mindestens eine SMS für alle möglichen `data_coding` -Werte.
+Wenn Sie SMS mit Nicht-GSM- oder Nicht-ASCII-Zeichen senden müssen, versuchen Sie, einige Nachrichten mit möglichst vielen verschiedenen Zeichen zu senden. Wenn Sie eine benutzerdefinierte Zeichen-Mapping-Tabelle einrichten, senden Sie mindestens eine SMS für alle möglichen `data_coding`-Werte.
 
 * **Überprüfen Sie, ob SR ordnungsgemäß verarbeitet werden**
 Die SMS sollte im Versandlog als empfangen markiert sein. Das Versandlog sollte erfolgreich sein und wie folgt aussehen:
@@ -840,7 +840,7 @@ Vergewissern Sie sich, dass Sie den Namen des Versand-Providers geändert haben.
 
 * **Überprüfen, ob MO verarbeitet werden**
 Wenn Sie MO verarbeiten müssen (automatische Antworten, MO-Speicherung in der Datenbank usw.), versuchen Sie, einige Tests durchzuführen. Senden Sie ein paar SMS für alle automatischen Antwortschlüsselwörter und prüfen Sie, ob die Antwort schnell genug ist, also nicht länger als ein paar Sekunden dauert.
-Überprüfen Sie im Protokoll, ob Adobe Campaign mit einer erfolgreichen Antwort antwortet `DELIVER_SM_RESP` (command_status=0).
+Prüfen Sie im Protokoll, ob Adobe Campaign mit einem erfolgreichen `DELIVER_SM_RESP` (command_status=0) antwortet.
 
 ### Überprüfen der PDUs {#check-pdus}
 

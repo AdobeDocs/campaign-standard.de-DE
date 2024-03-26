@@ -46,7 +46,7 @@ Das Control Panel erlaubt Ihnen, verschiedene Einstellungen Ihrer Instanz zu ver
 
 **Technische Objekte**
 
-Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Werkzeug zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: Datenschemas, Web-Seiten, Batch-Vorgänge usw. [Mehr dazu](../../developing/using/monitoring-data-model-changes.md)
+Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Werkzeug zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: Datenschemata, Web-Seiten, Batch-Vorgänge usw. [Mehr dazu](../../developing/using/monitoring-data-model-changes.md)
 
 **Export-Audits**
 
@@ -64,7 +64,7 @@ Im Menü **[!UICONTROL Lizenzen]** können Sie Informationen zu Ihren Instanzen 
 
 **Best Practices und Fehlerbehebung**
 
-Die Befolgung von Best Practices und Richtlinien zur Fehlerbehebung beim Verwenden von Workflows kann zur Leistungsverbesserung beitragen.
+Die Befolgung von Best Practices und Richtlinien zur Fehlerbehebung beim Verwenden von Workflows kann zur Performance-Verbesserung beitragen.
 [Mehr dazu](../../automating/using/best-practices-workflows.md)
 
 **Protokolle und Aufgaben**

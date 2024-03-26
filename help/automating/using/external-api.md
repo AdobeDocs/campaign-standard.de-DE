@@ -52,7 +52,7 @@ Für diese Aktivität gelten die folgenden Schutzmaßnahmen:
 
 * Größenbeschränkung für HTTP-Antwortdaten von 5 MB (Hinweis: Dies ist eine Änderung gegenüber der Beschränkung von 50 MB in der vorherigen Version).
 * Die Zeitüberschreitung bei Anfragen beträgt 1 Minute (Hinweis: Dies ist eine Änderung gegenüber der Zeitüberschreitung von 10 Minuten in der vorherigen Version).
-* HTTP-Weiterleitungen sind nicht zulässig.
+* HTTP-Umleitungen sind nicht zulässig.
 * Andere URLs als HTTPS werden abgelehnt.
 * Erlaubt sind Abfrage-Header vom Typ &quot;Accept: application/json&quot; und Antwort-Header vom Typ &quot;Content-Type: application/json&quot;.
 

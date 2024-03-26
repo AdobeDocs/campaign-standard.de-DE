@@ -40,7 +40,7 @@ Das folgende Beispiel zeigt einen SMS-Inhalt mit Personalisierungsfeldern, welch
 >
 >Überprüfen Sie bezüglich der Änderung des Absenders die gültige Rechtslage Ihres Landes. Stellen Sie außerdem sicher, dass Ihr SMS-Provider diese Funktionalität anbietet.
 
-Die Option **[!UICONTROL Von]** erlaubt die Eingabe einer Zeichenkette zur Personalisierung des SMS-Absenders. Es ist der hier eingegebene Name, der auf dem Mobiltelefon des Empfängers als Absender der SMS erscheint.
+Die Option **[!UICONTROL Von]** erlaubt die Eingabe einer Zeichenfolge zur Personalisierung des SMS-Absenders. Es ist der hier eingegebene Name, der auf dem Mobiltelefon des Empfängers als Absender der SMS erscheint.
 
 Bleibt das entsprechende Feld leer, wird die im externen Konto angegebene Anrufernummer verwendet. Sollte auch dort keine Anrufernummer gespeichert sein, wird die Kurzwahlnummer verwendet. Weiterführende Informationen zu SMS-spezifischen externen Konten finden Sie im Abschnitt [SMS-Routing definieren](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 

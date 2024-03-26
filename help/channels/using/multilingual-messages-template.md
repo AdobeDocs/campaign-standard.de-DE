@@ -1,6 +1,6 @@
 ---
 title: Vorlagen für mehrsprachige Nachrichten
-description: Hier erhalten Sie Informationen über die Definition und Ausführung mehrsprachiger E-Mail- und SMS-Sendungen im Rahmen eines einzigen Versands in der bevorzugten Sprache Ihrer automatisch segmentierten Kunden. Zusätzlich können Sie Leistungsberichte zu jedem Versand aufgeschlüsselt nach Sprachen und Personen erstellen.
+description: Hier erhalten Sie Informationen über die Definition und Ausführung mehrsprachiger E-Mail- und SMS-Sendungen im Rahmen eines einzigen Versands in der bevorzugten Sprache Ihrer automatisch segmentierten Kunden. Zusätzlich können Sie Performance-Berichte zu jedem Versand aufgeschlüsselt nach Sprachen und Personen erstellen.
 audience: start
 content-type: reference
 topic-tags: managing-templates

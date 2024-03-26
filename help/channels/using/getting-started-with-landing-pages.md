@@ -85,7 +85,7 @@ Erstellen Sie ausgehend von der im vorangehenden Schritt definierten Vorlage ein
 1. Erstellen Sie die Landingpage auf der Basis der gewünschten Vorlage.
 1. Geben Sie die allgemeinen Parameter der Landingpage ein (Titel, Beschreibung usw.).
 1. Sie werden anschließend zum Landingpage-Dashboard weitergeleitet. Bearbeiten Sie bei Bedarf die Eigenschaften der Landingpage (siehe [Landingpage konfigurieren](../../channels/using/configuring-landing-page.md)). Standardmäßig sind die Eigenschaften diejenigen, die in der Landingpage-Vorlage konfiguriert wurden.
-Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Die Veröffentlichung der Landingpage wird dadurch automatisch am ausgewählten Datum aufgehoben. Weiterführende Informationen zu Gültigkeitsparametern finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
+Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Performance in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Die Veröffentlichung der Landingpage wird dadurch automatisch am ausgewählten Datum aufgehoben. Weiterführende Informationen zu Gültigkeitsparametern finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
 
    ![](assets/lp-steps3.png)
 

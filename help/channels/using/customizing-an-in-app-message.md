@@ -115,14 +115,14 @@ Sie können maximal zwei Schaltflächen zu Ihrer In-App-Nachricht hinzufügen.
 
    ![](assets/inapp_customize_12.png)
 
-1. Wählen Sie aus, welche der zwei Aktionen mit Ihrer primären Schaltfläche verbunden werden soll: **[!UICONTROL Beenden]** und **[!UICONTROL Weiterleiten]**.
+1. Wählen Sie aus, welche der zwei Aktionen mit Ihrer primären Schaltfläche verbunden werden soll: **[!UICONTROL Beenden]** und **[!UICONTROL Umleiten]**.
 1. Geben Sie bei Bedarf in der Kategorie **[!UICONTROL Sekundär]** Text für eine zweite Schaltfläche in Ihrer In-App-Nachricht ein.
 1. Wählen Sie die mit der zweiten Schaltfläche verbundene Aktion aus.
-1. Wenn Sie die Aktion **[!UICONTROL Weiterleiten]** auswählen, geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein.
+1. Wenn Sie die Aktion **[!UICONTROL Umleiten]** auswählen, geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein.
 
    ![](assets/inapp_customize_13.png)
 
-1. Geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein, wenn Sie die Aktion **[!UICONTROL Weiterleiten]** auswählen.
+1. Geben Sie Ihre Web-URL oder Ihren Deeplink im Feld **[!UICONTROL Ziel-URL]** ein, wenn Sie die Aktion **[!UICONTROL Umleiten]** auswählen.
 1. Überprüfen Sie den Inhalt Ihrer Nachricht im Vorschaufenster oder durch Anklicken der Vorschau-Schaltfläche.
 
    Weiterführende Informationen dazu finden Sie auf der Seite [Vorschau einer In-App-Nachricht erstellen](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message).
@@ -160,7 +160,7 @@ So passen Sie lokale Benachrichtigungen an:
 
    ![](assets/inapp_customize_19.png)
 
-1. Geben Sie im Feld **[!UICONTROL Deeplink-URL]** ein Ziel an, zu dem Ihre Benutzer weitergeleitet werden sollen, wenn sie mit Ihrer lokalen Benachrichtigung interagieren.
+1. Geben Sie im Feld **[!UICONTROL Deeplink-URL]** ein Ziel an, zu dem Ihre Benutzer umgeleitet werden sollen, wenn sie mit Ihrer lokalen Benachrichtigung interagieren.
 1. Wenn Sie benutzerdefinierte Daten in der Payload in Form eines Schlüssel-Wert-Paares senden möchten, fügen Sie benutzerdefinierte Felder zu Ihrer lokalen Benachrichtigung hinzu. Wählen Sie in der Kategorie **[!UICONTROL Benutzerdefinierte Felder]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
 1. Geben Sie Ihre **[!UICONTROL Schlüssel]** und danach die mit jedem Schlüssel verknüpften **[!UICONTROL Werte]** ein.
 

@@ -56,9 +56,9 @@ Der Klicks-Bericht stellt den Nachrichteninhalt (HTML und/oder Text) mit dem Pro
 
 Weiterführende Informationen dazu finden Sie auf der Seite [Klicks-Bericht](../../reporting/using/hot-clicks.md).
 
-## Tipps zur Versandleistung {#performance-tips}
+## Tipps zur Versand-Performance {#performance-tips}
 
-* Bewahren Sie auf der Instanz keine fehlgeschlagenen Sendungen auf, da dadurch temporäre Tabellen gespeichert werden, was wiederum die Leistung beeinträchtigt.
+* Bewahren Sie auf der Instanz keine fehlgeschlagenen Sendungen auf, da dadurch temporäre Tabellen gespeichert werden, was wiederum die Performance beeinträchtigt.
 
 * Entfernen Sie nicht mehr benötigte Sendungen und inaktive Empfänger aus der Datenbank, um eine hohe Qualität der Adressen zu gewährleisten.
 

@@ -39,7 +39,7 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 >Dies kann entweder über die APIs oder die Benutzeroberfläche von Adobe Experience Platform erfolgen. Weitere Informationen finden Sie in den entsprechenden Dokumentationen:
 >
 >* [Datensatz für Echtzeit-Kundenprofile aktivieren](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=de)
->* [Datensatz für Echtzeit-Kundenprofile und Identitätsdienst mithilfe von APIs konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=de)
+>* [Datensatz für Echtzeit-Kundenprofile und Identity Service mithilfe von APIs konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=de)
 
 ## Schlüsselkonzepte {#key-concepts}
 
@@ -75,7 +75,7 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 * Beschränkungen für Marketing-Aktionen werden erst nach Anwendung der DULE-Kennzeichnungen in Adobe Experience Platform wirksam. Davor sind alle Daten für alle Arten von Marketing-Aktionen verfügbar.
 
-* Die Batch-Vorgänge wird alle 15 Minuten ausgeführt und identifiziert die Datensätze, die sich seit dem letzten Batch geändert haben. Wenn sich alle Datensätze zum gleichen Zeitpunkt ändern, könnte bei der Aufnahme aller Profile ein Leistungsengpass auftreten.
+* Die Batch-Vorgänge wird alle 15 Minuten ausgeführt und identifiziert die Datensätze, die sich seit dem letzten Batch geändert haben. Wenn sich alle Datensätze zum gleichen Zeitpunkt ändern, könnte bei der Aufnahme aller Profile ein Performance-Engpass auftreten.
 
 ## Anleitungsvideo {#video}
 

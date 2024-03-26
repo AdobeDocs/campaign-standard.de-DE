@@ -125,7 +125,7 @@ Beheben von Problemen mit der Verbindungsstabilität:
 
 * Wenn alle diese Schritte funktionieren, können Sie sicher sein, dass das Problem auf der Seite des Providers liegt. Er muss dann die Fehlersuche auf seiner Plattform durchführen.
 
-* Wenn es funktioniert, der Durchsatz jedoch inkonsistent ist, versuchen Sie, das Übertragungsfenster anzupassen und den MT-Durchsatz zu verringern. Für diese Anpassung müssen Sie mit dem Provider zusammenarbeiten. Adobe Campaign kann Nachrichten sehr schnell senden, so dass Leistungsprobleme auf den Geräten des Providers auftreten können.
+* Wenn es funktioniert, der Durchsatz jedoch inkonsistent ist, versuchen Sie, das Übertragungsfenster anzupassen und den MT-Durchsatz zu verringern. Für diese Anpassung müssen Sie mit dem Provider zusammenarbeiten. Adobe Campaign kann Nachrichten sehr schnell senden, so dass Performance-Probleme auf den Geräten des Providers auftreten können.
 
 ## MT wird dupliziert (dieselbe SMS wird mehrmals hintereinander gesendet){#duplicated-MT}
 
@@ -251,7 +251,7 @@ In einigen Fällen ist die Aufzeichnung des Netzwerk-Traffic nicht erforderlich.
 
 * TLS aktiviert: Der TLS-Traffic ist von vornherein verschlüsselt, sodass er nicht aufgezeichnet werden kann.
 
-* Leistungsprobleme: Die Logs enthalten alle erforderlichen Informationen zum Verfolgen von Leistungsproblemen.
+* Performance-Probleme: Die Logs enthalten alle erforderlichen Informationen zum Verfolgen von Performance-Problemen.
 
 * Timing-Probleme (`retry timing`, `enquire_link`-Zeitraum, Durchsatzbegrenzung usw.)
 

@@ -47,7 +47,7 @@ Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landin
 
 ## Gültigkeitsparameter einrichten         {#setting-up-validity-parameters}
 
-Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Leistung vor der Veröffentlichung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Veröffentlichung der Landingpage automatisch aufgehoben. Gehen Sie wie folgt vor:
+Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Performance vor der Veröffentlichung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Veröffentlichung der Landingpage automatisch aufgehoben. Gehen Sie wie folgt vor:
 
 1. Bearbeiten Sie die Landingpage-Eigenschaften über die Schaltfläche ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard.
 

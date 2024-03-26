@@ -43,7 +43,7 @@ Zur Durchführung dieser Aufgabe sind folgende Voraussetzungen erforderlich:
 
 >[!NOTE]
 >
->Damit ein Batch in das Echtzeit-Kundenprofil oder den Identitätsdienst aufgenommen werden kann, muss der Datensatz für [Echtzeit-Kundenprofil aktiviert](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=de) werden.
+>Damit ein Batch in das Echtzeit-Kundenprofil oder den Identity Service aufgenommen werden kann, muss der Datensatz für [das Echtzeit-Kundenprofil aktiviert](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=de) werden.
 >
 >Wenn der ausgewählte Datensatz bereits in einem vorhandenen Daten-Mapping verwendet wird, wird ein Warnhinweis angezeigt, der Sie darüber informiert, dass Ihre Daten in Adobe Experience Platform möglicherweise überschrieben werden. Dies kann passieren, wenn es einige gemeinsame Empfänger in Daten-Mappings gibt, die den gleichen Datensatz verwenden.
 

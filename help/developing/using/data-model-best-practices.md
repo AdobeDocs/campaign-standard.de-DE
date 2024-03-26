@@ -75,7 +75,7 @@ Wenn ein Attribut nicht in eine dieser Kategorien fällt, benötigen Sie es wahr
 
 ### Datentypen {#data-types}
 
-Um eine gute Architektur und Systemleistung sicherzustellen, befolgen Sie die folgenden Best Practices, wenn Sie Daten in Adobe Campaign einrichten:
+Um eine gute Architektur und System-Performance sicherzustellen, befolgen Sie die folgenden Best Practices, wenn Sie Daten in Adobe Campaign einrichten:
 * Die Länge eines Zeichenfolgenfelds sollte immer mit der Spalte definiert werden. Standardmäßig beträgt die maximale Länge in Adobe Campaign 255 Zeichen. Adobe empfiehlt jedoch, das Feld zu kürzen, wenn Sie bereits wissen, dass auch eine kürzere Länge ausreicht.
 * Es ist akzeptabel, dass ein Feld in Adobe Campaign kürzer ist als im Quellsystem, wenn Sie sicher sind, dass die Länge im Quellsystem zu groß ist und nicht benötigt wird. Dies könnte eine kürzere Zeichenfolge oder kleinere Ganzzahl in Adobe Campaign bedeuten.
 
@@ -112,7 +112,7 @@ When an out-of-the-box resource has both an internal auto-generated and an inter
 
 Beim Erstellen einer benutzerdefinierten Ressource stehen Ihnen zwei Optionen zur Verfügung:
 
-* Eine Kombination aus automatisch erstelltem Schlüssel und internem benutzerdefiniertem Schlüssel. Diese Option ist interessant, wenn Ihr Systemschlüssel ein zusammengesetzter Schlüssel oder keine Ganzzahl ist. Ganzzahlen bieten höhere Leistungen in umfangreichen Tabellen und in Verbindung mit anderen Tabellen.
+* Eine Kombination aus automatisch erstelltem Schlüssel und internem benutzerdefiniertem Schlüssel. Diese Option ist interessant, wenn Ihr Systemschlüssel ein zusammengesetzter Schlüssel oder keine Ganzzahl ist. Ganzzahlen bieten höhere Performance in umfangreichen Tabellen und in Verbindung mit anderen Tabellen.
 * Verwendung des Primärschlüssels als Primärschlüssel des externen Systems. Diese Lösung wird in der Regel bevorzugt, da sie das Importieren und Exportieren von Daten durch einen einheitlichen Schlüssel zwischen verschiedenen Systemen vereinfacht.
 
 Identifizierungsschlüssel sollten nicht als Referenz in Workflows verwendet werden.
@@ -123,8 +123,8 @@ Identifizierungsschlüssel sollten nicht als Referenz in Workflows verwendet wer
 
 Adobe Campaign fügt allen in einer Ressource definierten primären und internen Schlüsseln automatisch einen [Index](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) hinzu.
 
-* Adobe empfiehlt, zusätzliche Indizes zu definieren, da dies die Leistung verbessern kann.
-* Fügen Sie jedoch nicht zu viele Indizes hinzu, da sie Speicherplatz in der Datenbank belegen. Zahlreiche Indizes können sich auch negativ auf die Leistung auswirken.
+* Adobe empfiehlt, zusätzliche Indizes zu definieren, da dies die Performance verbessern kann.
+* Fügen Sie jedoch nicht zu viele Indizes hinzu, da sie Speicherplatz in der Datenbank belegen. Zahlreiche Indizes können sich auch negativ auf die Performance auswirken.
 * Wählen Sie die zu definierenden Indizes sorgfältig aus.
 
 <!--For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
@@ -142,9 +142,9 @@ Die Definition von Relationen zu anderen Ressourcen wird in [diesem Abschnitt](.
 
 <!--For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).-->
 
-## Leistung {#performance}
+## Performance {#performance}
 
-Befolgen Sie die nachstehenden Best Practices, um eine bessere Leistung sicherzustellen.
+Befolgen Sie die nachstehenden Best Practices, um eine bessere Performance sicherzustellen.
 
 ### Allgemeine Empfehlungen {#general-recommendations}
 
@@ -152,7 +152,7 @@ Befolgen Sie die nachstehenden Best Practices, um eine bessere Leistung sicherzu
 * Vermeiden Sie die Verknüpfung mit nicht indizierten Feldern beim Aufbau von Daten in Workflows.
 * Vergewissern Sie sich, dass Prozesse wie Import und Export außerhalb der Geschäftszeiten ausgeführt werden.
 * Stellen Sie sicher, dass ein Zeitplan für alle täglichen Aktivitäten vorhanden ist und halten Sie sich an ihn.
-* Wenn einer oder mehrere der täglichen Prozesse fehlschlagen und sie am selben Tag noch ausgeführt werden müssen, stellen Sie sicher, dass beim Starten des manuellen Prozesses keine Konflikte auftreten, da dies die Systemleistung beeinträchtigen könnte.
+* Wenn einer oder mehrere der täglichen Prozesse fehlschlagen und sie am selben Tag noch ausgeführt werden müssen, stellen Sie sicher, dass beim Starten des manuellen Prozesses keine Konflikte auftreten, da dies die System-Performance beeinträchtigen könnte.
 * Stellen Sie sicher, dass keine der täglichen Kampagnen während des Importvorgangs oder bei der Ausführung eines manuellen Prozesses ausgeführt wird.
 * Verwenden Sie eine oder mehrere Referenztabellen, anstatt ein Feld in jeder Zeile zu duplizieren. Bei Verwendung von Schlüssel/Wert-Paaren ist es empfehlenswert, einen numerischen Schlüssel zu wählen.
 * Eine kurze Zeichenfolge ist weiterhin zulässig. Falls Referenztabellen bereits in einem externen System vorhanden sind, erleichtert die Wiederverwendung derselben die Datenintegration mit Adobe Campaign.
@@ -160,7 +160,7 @@ Befolgen Sie die nachstehenden Best Practices, um eine bessere Leistung sicherzu
 ### 1-zu-n-Beziehungen {#one-to-many-relationships}
 
 * Das Datendesign beeinflusst Benutzerfreundlichkeit und Funktionalität. Wenn Sie Ihr Datenmodell mit zahlreichen 1-zu-n-Beziehungen entwickeln, wird es für Benutzer schwieriger, in der Anwendung eine sinnvolle Logik zu erstellen. Für technisch nicht versierte Marketing-Experten kann es schwierig sein, eine 1-zu-n-Filterlogik zu entwerfen und zu verstehen.
-* Es wird empfohlen, alle wichtigen Felder in einer Tabelle zu vereinen, da Benutzer so leichter Abfragen erstellen können. Unter Umständen kann die Leistung auch verbessert werden, wenn einige Felder in mehreren Tabellen dupliziert werden, wenn dadurch ein Join vermieden werden kann.
+* Es wird empfohlen, alle wichtigen Felder in einer Tabelle zu vereinen, da Benutzer so leichter Abfragen erstellen können. Unter Umständen kann die Performance auch verbessert werden, wenn einige Felder in mehreren Tabellen dupliziert werden, wenn dadurch ein Join vermieden werden kann.
 * Bestimmte integrierte Funktionen können nicht auf 1-zu-n Beziehungen verweisen, z. B. die Angebotsgewichtungsformel und Sendungen.
 
 ### Große Tabellen {#large-tables}
