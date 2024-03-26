@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch wurde als Suite mit Datenerfassungstechnologien in Adobe Experience Platform umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere Aktualisierungen der Terminologie vorgenommen. Weiterführende Informationen finden Sie im [folgenden Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=de). Hier erhalten Sie eine Zusammenfassung zur veränderten Terminologie.
+> Adobe Experience Platform Launch wurde als Suite mit Datenerfassungstechnologien in Adobe Experience Platform umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere Aktualisierungen der Terminologie vorgenommen. Weitere Informationen finden Sie unter [nachstehendes Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=de){target="_blank"} für eine konsolidierte Übersicht über die terminologischen Änderungen.
 
 Hinweis: Die Implementierung von Push-Benachrichtigungen und In-App-Nachrichten muss von erfahrenen Benutzern vorgenommen werden. Um Unterstützung zu erhalten, kontaktieren Sie Ihren Adobe-Kundenbetreuer oder Professional Services-Partner.
 
@@ -39,6 +39,7 @@ Führen Sie die folgenden Schritte aus, um die Konfiguration abzuschließen:
    Ist dies nicht der Fall, kontaktieren Sie das für Ihr Konto zuständige Team.
 
 1. Prüfen Sie, ob Ihr Anwender über die erforderlichen Berechtigungen in Adobe Campaign Standard und Tags in Adobe Experience Platform verfügt.
+
    * Stellen Sie in Adobe Campaign Standard sicher, dass der IMS-Benutzer zu den Standardbenutzer- und Administratorproduktprofilen gehört. In diesem Schritt kann sich der Anwender bei Adobe Campaign Standard anmelden, zur Seite &quot;Experience Platform SDK&quot; der Mobile App navigieren und die Mobile-App-Eigenschaften anzeigen, die Sie in der Datenerfassungs-UI erstellt haben.
 
    * Stellen Sie in der Datenerfassungs-UI sicher, dass Ihr IMS-Benutzer Teil eines Experience Platform Launch-Produktprofils ist.
@@ -152,10 +153,10 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
      Geben Sie die folgenden Anwendungsdetails ein:
 
-      * **App-ID (iOS Bundle ID)**: Siehe [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) für weitere Informationen zur Bundle-ID.
-      * **Datei mit iOS-Zertifikat (P8)**: Ziehen Sie den .p8-Authentifizierungsschlüssel per Drag-and-Drop. Anweisungen zum Generieren der .p8-Authentifizierungsdatei finden Sie in Ihrem [Apple-Entwicklerkonto](https://developer.apple.com/account/ios/authkey/create).
-      * **Schlüssel-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) für weitere Informationen zur Schlüssel-ID.
-      * **iOS-Team-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) für weitere Informationen zur iOS-Team-ID.
+      * **App-ID (iOS Bundle ID)**: Siehe [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} für weitere Informationen zur Bundle-ID.
+      * **Datei mit iOS-Zertifikat (P8)**: Ziehen Sie den .p8-Authentifizierungsschlüssel per Drag-and-Drop. Anweisungen zum Generieren der .p8-Authentifizierungsdatei finden Sie in Ihrem [Apple-Entwicklerkonto](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **Schlüssel-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} für weitere Informationen zur Schlüssel-ID.
+      * **iOS-Team-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} für weitere Informationen zur iOS-Team-ID.
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
      Geben Sie die folgenden Anwendungsdetails ein:
 
-      * **App-ID (Android-Paketname)**: Siehe [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) für weitere Informationen zum Paketnamen.
-      * **Android-Schlüssel-Datei (JSON)**: Ziehen Sie die JSON-Datei mit dem privaten Schlüssel per Drag-and-Drop. Anweisungen zum Generieren der .json-Datei mit privatem Schlüssel finden Sie im Abschnitt [Entwicklerdokumentation für Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **App-ID (Android-Paketname)**: Siehe [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} für weitere Informationen zum Paketnamen.
+      * **Android-Schlüssel-Datei (JSON)**: Ziehen Sie die JSON-Datei mit dem privaten Schlüssel per Drag-and-Drop. Anweisungen zum Generieren der .json-Datei mit privatem Schlüssel finden Sie im Abschnitt [Entwicklerdokumentation für Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
