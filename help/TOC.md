@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation für Adobe Campaign Standard.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Campaign Standard – Dokumentation
-source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1768'
 ht-degree: 100%
 
 ---
@@ -448,7 +448,7 @@ ht-degree: 100%
       + [Konfigurieren von Tag-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migrieren Ihrer Mobile App vom SDK v4 zum Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [Künftige Änderungen am Push-Benachrichtigungskanal](administration/using/push-technote.md)
+      + [Änderungen am Push-Benachrichtigungskanal](administration/using/push-technote.md)
    + SMS-Kanal konfigurieren {#configuring-sms}
       + [SMS-Kanal implementieren](administration/using/configuring-sms-channel.md)
       + [Protokoll und Einstellungen des SMS-Connectors](administration/using/sms-protocol.md)

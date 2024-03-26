@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 37%
@@ -31,7 +31,7 @@ Um einen unterbrechungsfreien Dienst sicherzustellen, müssen Sie Ihre bei Adobe
 
 Im Rahmen der kontinuierlichen Bemühungen von Google, seine Dienste zu verbessern, werden die veralteten FCM-APIs am **20. Juni 2024** eingestellt. Weitere Informationen zum HTTP-Protokoll von Firebase Cloud Messaging finden Sie in der [Google Firebase-Dokumentation](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Ab Version 24.2 unterstützt Adobe Campaign Standard die HTTP v1-APIs zum Senden von Android-Push-Benachrichtigungen.
+Start [Version 24.1](../../rn/using/release-notes.md)unterstützt Adobe Campaign Standard die HTTP v1-APIs zum Senden von Android-Push-Benachrichtigungen.
 
 ### Sind Sie betroffen? {#fcm-impact}
 
@@ -49,7 +49,7 @@ Der Übergang zu den neuesten APIs ist obligatorisch, um eine Dienstverzerrung z
 
 #### Voraussetzungen {#fcm-transition-prerequisites}
 
-* Die Unterstützung **HTTP v1-APs** -Modus wurde in Version 24.1 hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Version von Campaign Standard](../../rn/using/release-notes.md).
+* Die Unterstützung **HTTP v1-API** -Modus wurde in Version 24.1 hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Version von Campaign Standard](../../rn/using/release-notes.md).
 
 * Die JSON-Datei des Kontos des Firebase Admin SDK-Dienstes ist erforderlich, damit die Mobile App auf HTTP v1 verschoben wird. In der [Dokumentation zu Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} erfahren Sie, wie Sie diese Datei erhalten.
 
@@ -118,7 +118,7 @@ Wenn Ihre aktuelle Implementierung für die Verbindung mit dem APNs auf zertifik
 
 #### Voraussetzungen {#ios-transition-prerequisites}
 
-* Die Unterstützung **Token-basierte Authentifizierung** -Modus wurde in Version 24.1 hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Version von Campaign Standard](../../rn/using/release-notes.md).
+* Die Unterstützung **Token-basierte Authentifizierung** -Modus wurde hinzugefügt in [Version 24.1](../../rn/using/release-notes.md). Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Version von Campaign Standard](../../rn/using/release-notes.md).
 
 * Sie benötigen einen Signierschlüssel für die APNs-Authentifizierungs-Token, um die Token zu erzeugen, die Ihr Server verwendet. Sie fordern diesen Schlüssel über Ihr Apple-Entwicklerkonto an, wie im [Apple-Entwickler-Handbuch](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} beschrieben.
 
