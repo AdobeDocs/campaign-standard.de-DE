@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -336,9 +336,9 @@ Im Folgenden finden Sie die in der kommenden Campaign Standard-Version enthalten
 
 * Das SMPP-Protokollformat wurde verbessert.
 
-* Es wurden optionale Parameter zu den JS-Funktionen &quot;cryptString&quot;und &quot;decryptString&quot;hinzugefügt, die mit den Adobe Campaign Standard-APIs übereinstimmen.
+* Den JS-Funktionen „cryptString“ und „decryptString“ wurden optionale Parameter zur Angleichung an die Adobe Campaign Standard-APIs hinzugefügt.
 
-* Verbesserte Warn- und Fehlermeldungen in den Versandvorbereitungslogs.
+* Verbesserte Warn- und Fehlermeldungen in den Versandvorbereitungsprotokollen.
 
 * Verbesserte Fehlerprotokolle beim Versuch, eine Verbindung zum Adobe Identity Management Service (IMS) herzustellen.
 
