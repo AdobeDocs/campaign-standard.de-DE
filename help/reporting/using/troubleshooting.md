@@ -9,9 +9,9 @@ role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 8625a26686570d555d7f5614b38536c248ee16a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1228'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -191,24 +191,24 @@ So beheben Sie das Problem:
 
 * Anstelle des Imports Ihres Zielgruppen-Mappings können Sie es auch direkt in Adobe Campaign Standard erstellen, wodurch die Berichtsanreicherung automatisch erstellt wird.
 
-## Diskrepanz zwischen der Spaltenüberschriftsnummer und der Zeilensumme
+## Diskrepanz zwischen der Spaltentitelnummer und der Summe der Zeilen
 
-In den folgenden Fällen wird eine Diskrepanz zwischen der Spaltenüberschriftsnummer und der Summe aller Zeilen erwartet:
+In den folgenden Fällen wird eine Diskrepanz zwischen der Spaltentitelnummer und der Summe aller Zeilen erwartet:
 
-* **Einzelmetriken**: Durch die Verwendung eindeutiger Metriken kann die in der Kopfzeile angezeigte Gesamtanzahl geändert werden, da sie auf Empfänger-IDs statt auf einer einfachen Summe von Zeilenanzahl basiert. Folglich kann ein einzelnes Profil mehrere Ereignisse über verschiedene Dimensionen hinweg Trigger haben, was zu mehreren Zeilen im Datensatz führt. In der Kopfzeile wird jedoch jedes Profil nur einmal gezählt.
-
-  Beispiel:
-
-   * Wenn ein Profil A eine E-Mail an drei verschiedenen Tagen öffnet, zeigt die Aufschlüsselung nach Tag A in drei Zeilen an, aber in der Kopfzeile A wird als 1 gezählt.
-
-   * Wenn Profil A am selben Tag auf drei verschiedene Links in einer E-Mail klickt, wird für die Aufschlüsselung nach Tracking-URL A in drei Zeilen angezeigt, für die Kopfzeile A jedoch als 1 gezählt. Dasselbe gilt für Aufschlüsselungen nach Gerät und Browser.
-
-* **Metriken öffnen**: Die Anzahl der Öffnungen wird durch Aggregation der Summe der tatsächlichen Öffnungen und der Unique Click-Ereignisse (pro Empfänger-ID) ermittelt. Dies gilt nicht für Fälle, in denen kein Open-Event aufgetreten ist, da ein E-Mail-Link nicht ohne ein open-Ereignis angeklickt werden kann.
+* **Eindeutige Metriken**: Durch die Verwendung eindeutiger Metriken kann sich die in der Kopfzeile angezeigte Gesamtanzahl ändern, da sie auf Empfängerkennungen und nicht auf einer einfachen Summe der Zeilenanzahl basiert. Daher kann ein einzelnes Profil mehrere Ereignisse über verschiedene Dimensionen hinweg auslösen, was zu mehreren Zeilen im Datensatz führt. In der Kopfzeile wird jedes Profil jedoch nur einmal gezählt.
 
   Beispiel:
 
-   * Wenn Profil A eine getrackte E-Mail öffnet (mit URL U1), wird es als offenes Ereignis registriert, wobei die URL als null notiert ist. Wenn Sie später auf U1 klicken, wird ein Klickereignis generiert. Obwohl der Klick eines A auf U1 auch als geöffnetes Ereignis gezählt wird, gibt es kein bestimmtes open-Ereignis für U1. Daher wird A nur einmal in der eindeutigen Anzahl der Öffnungen gezählt.
+   * Wenn Profil A eine E-Mail an drei verschiedenen Tagen öffnet, wird A in der Aufschlüsselung nach Tag in drei Zeilen angezeigt. In der Kopfzeile wird A jedoch als 1 gezählt.
 
-   * Ein Profil R öffnet eine E-Mail am 1. Tag, registriert ein geöffnetes Ereignis und klickt auf einen Link. In den nächsten zwei Tagen öffnet R die E-Mail erneut und klickt erneut auf den Link, wodurch täglich ein Klickereignis generiert wird. Während die Interaktion von R täglich in der Öffnungsnummer verfolgt wird, wird R nur einmal in der Spaltenüberschrift gezählt, wobei der Schwerpunkt auf eindeutigen Interaktionen liegt.
+   * Wenn Profil A am selben Tag auf drei verschiedene Links in einer E-Mail klickt, wird A für die Aufschlüsselung nach Tracking-URL in drei Zeilen angezeigt. In der Kopfzeile wird A jedoch als 1 gezählt. Dasselbe gilt für Aufschlüsselungen nach Gerät und Browser.
 
-* **Negatives Ereignis**: In Berichten bedeutet negiertes Ereignis Versandversuche, die ursprünglich als erfolgreich markiert, aber nach Wiederholungen letztendlich fehlgeschlagen waren. Diese sind durch einen Zählerwert von -1 gekennzeichnet. Um Verwirrung zu vermeiden, werden diese negativen Zählungen aus den angezeigten Versandmetrikzahlen ausgeschlossen. Daher stimmt die Summe aller Zeilen für die Versandmetrik möglicherweise nicht mit der Spaltenüberschriftsnummer überein.
+* **Öffnungsmetriken**: Die Anzahl der Öffnungen wird durch die Aggregation der Summe der tatsächlichen Öffnungsereignisse und der Einzelklickereignisse (pro Empfängerkennung) ermittelt. Dabei werden Fälle ausgeschlossen, in denen kein Öffnungsereignis aufgetreten ist, da es ohne ein Öffnungsereignis nicht möglich ist, auf einen E-Mail-Link zu klicken.
+
+  Beispiel:
+
+   * Wenn Profil A eine nachverfolgte E-Mail öffnet (mit URL U1), wird dies als Öffnungsereignis registriert, wobei die URL als Null aufgezeichnet wird. Beim späteren Klicken auf U1 wird ein Klickereignis generiert. Obwohl der Klick von A auf U1 auch als Öffnungsereignis gezählt wird, gibt es kein spezifisches Öffnungsereignis für U1. Daher wird A nur einmal in der Anzahl der Einzelöffnungen gezählt.
+
+   * Profil R öffnet eine E-Mail am ersten Tag, was als Öffnungsereignis registriert wird, und klickt auf einen Link. In den nächsten zwei Tagen öffnet R die E-Mail erneut und klickt wieder auf den Link, wodurch jeden Tag ein Klickereignis generiert wird. Während die Interaktion von R täglich in der Zahl der Öffnungen verfolgt wird, wird R im Spaltentitel nur einmal gezählt, da der Schwerpunkt auf eindeutigen Interaktionen liegt.
+
+* **Negiertes Ereignis**: In Berichten beschreibt ein negiertes Ereignis Versandversuche, die ursprünglich als erfolgreich gekennzeichnet wurden, nach weiteren Zustellversuchen jedoch letztendlich fehlgeschlagen sind. Diese werden durch die Anzahl „-1“ angegeben. Um Verwirrung zu vermeiden, wird diese negative Anzahl aus den angezeigten Versandmetriken ausgeschlossen. Daher stimmt die Summe aller Zeilen für die Versandmetrik möglicherweise nicht mit der Spaltentitelnummer überein.
