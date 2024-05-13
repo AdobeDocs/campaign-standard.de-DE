@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '2959'
-ht-degree: 100%
+source-wordcount: '2984'
+ht-degree: 99%
 
 ---
 
@@ -294,7 +294,9 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
   >
   >Das Hinzufügen eines Scripts für zusätzliche SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Scripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-  Ab dem 1. Juni 2024, verlangen Google und Yahoo von Absenderinnen und Absendern die Einhaltung der Vorschrift, eine **Ein-Klick-Abmeldung** anzubieten. Campaign unterstützt diese Funktion standardmäßig.
+  Ab dem 1. Juni 2024, verlangen Google und Yahoo von Absenderinnen und Absendern die Einhaltung der Vorschrift, eine **Ein-Klick-Abmeldung** anzubieten. Campaign unterstützt diese Funktion standardmäßig für Versandvorlagen.
+
+  Zur Anwendung **One-Click List-Unsubscribe** für alle Nicht-Vorlagen-E-Mail-Sendungen müssen Sie die **[!UICONTROL Kopfzeilen aus Versandvorlagen kopieren]** technischer Arbeitsablauf. [Weitere Informationen](technical-workflows.md)
 
   >[!CAUTION]
   >
@@ -332,7 +334,7 @@ Mit dem Parameter **[!UICONTROL Versandlaufzeit]** oder **[!UICONTROL Gültigkei
 
 ### Regeln zum Umgang mit E-Mails  {#legacy-email-processing-rules}
 
-Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce-Mails]** und **[!UICONTROL Domain-Verwaltung]** können von Administratoren über das Menü **[!UICONTROL Administration > Kanäle > E-Mail > E-Mail-Verarbeitungsregeln]** aufgerufen und geändert werden. [Weitere Informationen](#email-processing-rules).
+Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce-Mails]** und **[!UICONTROL Domain-Verwaltung]** können von Administratoren über das Menü **[!UICONTROL Administration > Kanäle > E-Mail > E-Mail-Verarbeitungsregeln]** aufgerufen und geändert werden. [Weitere Informationen](#email-processing-rules)
 
 ### Qualifizierung von Bounce-Mails {#legacy-bounce-mail-qualification}
 

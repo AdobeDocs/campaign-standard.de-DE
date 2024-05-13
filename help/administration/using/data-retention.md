@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 47%
 
 ---
 
@@ -35,3 +35,31 @@ Nachfolgend finden Sie die standardmäßigen Aufbewahrungsfristen für Standardt
 * **Ignorierte Pipeline-Ereignisse**: 1 Monat
 * **Versandwarnungen**: 1 Monat
 * **Export-Audit**: 6 Monate (empfohlen: 1 Monat)
+
+## Aufbewahrungsfrist für Sendungen {#deliveries}
+
+Standardmäßig ist die Aufbewahrungsfrist für Sendungen unbegrenzt.
+
+Wenn Ihre Instanz jedoch eine hohe Versandmenge enthält, können Sie die **NmsCleanup_DeliveryPurgeDelay** -Option verfügbar über **[!UICONTROL Administration]** > **[!UICONTROL Anwendungseinstellungen]** Menü.
+
+Jedes Mal, wenn **[!UICONTROL Datenbankbereinigung]** -Workflow ausgeführt wird, werden die Sendungen gelöscht, die die für diese Option festgelegten Bedingungen erfüllen.
+
+Diese Aktion kann dazu beitragen, Prozesse wie die **[!UICONTROL Kopfzeilen aus Versandvorlagen kopieren]** Arbeitsablauf.
+
+>[!NOTE]
+>
+>Weitere Informationen zu technischen Workflows finden Sie unter [diesem Abschnitt](technical-workflows.md).
+
+
+Der Standardwert für die **NmsCleanup_DeliveryPurgeDelay** Option ist `-1`. In diesem Fall wird kein Versand gelöscht.
+
+Wenn Sie beispielsweise `180`, werden alle Sendungen, die keine Vorlagen sind und in den letzten 180 Tagen nicht aktualisiert wurden, gelöscht, wenn die Variable **[!UICONTROL Datenbankbereinigung]** Workflow ausgeführt wird.
+
+>[!NOTE]
+>
+>* Marketing- oder Transaktionsversandvorlagen werden nicht gelöscht.
+>
+>* Bei wiederkehrenden Sendungen werden untergeordnete Sendungen, deren Aggregat-Zeitraum auf Monat oder Jahr festgelegt ist, nicht gelöscht.
+
+Beim Aktualisieren der **NmsCleanup_DeliveryPurgeDelay** -Option, wird empfohlen, schrittweise mehrere Iterationen durchzuführen. Sie können beispielsweise den Wert auf 300 Tage, dann auf 180 Tage, dann auf 120 Tage usw. setzen, um sicherzustellen, dass die Iterationen mindestens 2 Tage voneinander entfernt sind. Andernfalls wird die **[!UICONTROL Datenbankbereinigung]** Der Workflow kann aufgrund einer großen Anzahl von zu löschenden Sendungen viel länger dauern.
+
