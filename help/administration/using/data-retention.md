@@ -1,5 +1,5 @@
 ---
-title: Datenbeibehaltung
+title: Datenspeicherung
 description: Erfahren Sie mehr über die standardmäßigen Beibehaltungswerte für Standardtabellen
 audience: administration
 feature: Instance Settings
@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -36,24 +36,24 @@ Nachfolgend finden Sie die standardmäßigen Aufbewahrungsfristen für Standardt
 * **Versandwarnungen**: 1 Monat
 * **Export-Audit**: 6 Monate (empfohlen: 1 Monat)
 
-## Aufbewahrungsfrist für Sendungen {#deliveries}
+## Aufbewahrungszeitraum für Sendungen {#deliveries}
 
-Standardmäßig ist die Aufbewahrungsfrist für Sendungen unbegrenzt.
+Standardmäßig ist der Aufbewahrungszeitraum für Sendungen unbegrenzt.
 
-Wenn Ihre Instanz jedoch eine hohe Versandmenge enthält, können Sie die **NmsCleanup_DeliveryPurgeDelay** -Option verfügbar über **[!UICONTROL Administration]** > **[!UICONTROL Anwendungseinstellungen]** Menü.
+Wenn Sie jedoch ein hohes Volumen an Sendungen auf Ihrer Instanz haben, können Sie die Option **NmsCleanup_DeliveryPurgeDelay** aktualisieren, die im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungseinstellungen]** verfügbar ist.
 
-Jedes Mal, wenn **[!UICONTROL Datenbankbereinigung]** -Workflow ausgeführt wird, werden die Sendungen gelöscht, die die für diese Option festgelegten Bedingungen erfüllen.
+Jedes Mal, wenn der Workflow **[!UICONTROL Datenbankbereinigung]** ausgeführt wird, werden die Sendungen gelöscht, die die für diese Option festgelegten Bedingungen erfüllen.
 
-Diese Aktion kann dazu beitragen, Prozesse wie die **[!UICONTROL Kopfzeilen aus Versandvorlagen kopieren]** Arbeitsablauf.
+Diese Aktion kann dazu beitragen, Prozesse wie den Workflow **[!UICONTROL Kopfzeilen aus Versandvorlagen kopieren]** zu beschleunigen.
 
 >[!NOTE]
 >
->Weitere Informationen zu technischen Workflows finden Sie unter [diesem Abschnitt](technical-workflows.md).
+>Weitere Informationen zu technischen Workflows finden Sie in [diesem Abschnitt](technical-workflows.md).
 
 
-Der Standardwert für die **NmsCleanup_DeliveryPurgeDelay** Option ist `-1`. In diesem Fall wird kein Versand gelöscht.
+Der Standardwert für die Option **NmsCleanup_DeliveryPurgeDelay** ist `-1`. In diesem Fall wird kein Versand gelöscht.
 
-Wenn Sie beispielsweise `180`, werden alle Sendungen, die keine Vorlagen sind und in den letzten 180 Tagen nicht aktualisiert wurden, gelöscht, wenn die Variable **[!UICONTROL Datenbankbereinigung]** Workflow ausgeführt wird.
+Wenn Sie ihn beispielsweise auf `180` festlegen, werden alle Sendungen ohne Vorlagen gelöscht, die in den letzten 180 Tagen nicht aktualisiert wurden, wenn der Workflow **[!UICONTROL Datenbankbereinigung]** ausgeführt wird.
 
 >[!NOTE]
 >
@@ -61,5 +61,5 @@ Wenn Sie beispielsweise `180`, werden alle Sendungen, die keine Vorlagen sind un
 >
 >* Bei wiederkehrenden Sendungen werden untergeordnete Sendungen, deren Aggregat-Zeitraum auf Monat oder Jahr festgelegt ist, nicht gelöscht.
 
-Beim Aktualisieren der **NmsCleanup_DeliveryPurgeDelay** -Option, wird empfohlen, schrittweise mehrere Iterationen durchzuführen. Sie können beispielsweise den Wert auf 300 Tage, dann auf 180 Tage, dann auf 120 Tage usw. setzen, um sicherzustellen, dass die Iterationen mindestens 2 Tage voneinander entfernt sind. Andernfalls wird die **[!UICONTROL Datenbankbereinigung]** Der Workflow kann aufgrund einer großen Anzahl von zu löschenden Sendungen viel länger dauern.
+Bei der Aktualisierung der Option **NmsCleanup_DeliveryPurgeDelay** wird empfohlen, schrittweise mit mehreren Ausführungen vorzugehen. Sie können beispielsweise den Wert auf 300 Tage, dann auf 180 Tage, dann auf 120 Tage usw. setzen. Dabei sollten Sie sicherstellen, dass die Ausführungen mindestens 2 Tage voneinander entfernt sind. Andernfalls kann der Workflow **[!UICONTROL Datenbankbereinigung]** aufgrund einer großen Anzahl von zu löschenden Sendungen viel länger dauern.
 

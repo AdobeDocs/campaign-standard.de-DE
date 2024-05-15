@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -49,10 +49,10 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
    <td> Dieser Workflow übermittelt per E-Mail den Aktivitätsbericht des Systems an den fakturierungsverantwortlichen Benutzer ('billing'). Er wird standardmäßig automatisch täglich um 1 Uhr gestartet.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Kopfzeilen aus Versandvorlagen kopieren</span> <br /> </td> 
+   <td> <span class="uicontrol">Header aus Versandvorlagen kopieren</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Dieser Workflow kopiert die für E-Mail-Versandvorlagen festgelegten SMTP-Header in die entsprechenden untergeordneten Sendungen, die keine Vorlagen sind. Von diesem Workflow werden nur E-Mail-Marketing-Sendungen erfasst. SMTP-Header werden nicht in Transaktionsnachrichten und Testsendungen kopiert. <br> Dieser Workflow wird nicht regelmäßig ausgeführt. Er muss vom Benutzer für jede Verwendung gestartet werden. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Wenn Ihre Instanz eine große Anzahl von Sendungen enthält, können Sie die Option NmsCleanup_DeliveryPurgeDelay in der <strong>Anwendungseinstellungen</strong>. Wenn Sie die SMTP-Header einer Vorlage ändern, müssen Sie den Workflow nach der Änderung erneut ausführen, damit die korrigierten Header in Nicht-Vorlagen-Sendungen kopiert werden.<a href="data-retention.md#deliveries">Weitere Infos</a>
-   <br /> </td> 
+   <td> Dieser Workflow kopiert die für E-Mail-Versandvorlagen festgelegten SMTP-Header in die entsprechenden untergeordneten Sendungen ohne Vorlagen. Von diesem Workflow werden nur E-Mail-Marketing-Sendungen erfasst. SMTP-Header werden nicht in Transaktionssendungen und Testsendungen kopiert. <br> Dieser Workflow wird nicht regelmäßig ausgeführt. Er muss von den Benutzenden für jede Verwendung gestartet werden. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Wenn Ihre Instanz ein großes Volumen von Sendungen enthält, können Sie die Option NmsCleanup_DeliveryPurgeDelay in den <strong>Anwendungseinstellungen</strong> aktualisieren. Wenn Sie die SMTP-Header einer Vorlage ändern, müssen Sie den Workflow nach der Änderung erneut ausführen, damit die korrigierten Header in Sendungen ohne Vorlagen kopiert werden.<a href="data-retention.md#deliveries">Weitere Informationen</a>
+   <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Datenbankbereinigung</span> <br /> </td> 

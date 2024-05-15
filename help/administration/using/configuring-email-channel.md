@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2984'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -233,7 +233,7 @@ Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]** sind folgende Parameter verf�
 
 Im Abschnitt **[!UICONTROL Tracking]** sind folgende Parameter verfügbar:
 
-* **[!UICONTROL Tracking aktivieren]**: Verwenden Sie diese Option, um das Tracking der Nachrichten-URLs zu aktivieren/deaktivieren. Über das Symbol **[!UICONTROL Links]** in der Aktionsleiste von Email Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Tracking aktivieren]**: Verwenden Sie diese Option, um das Tracking der Nachrichten-URLs zu aktivieren/deaktivieren. Über das Symbol **[!UICONTROL Links]** in der Aktionsleiste von E-Mail-Designer können Sie das Tracking der einzelnen in Nachrichten enthaltenen URLs verwalten. Siehe [Über getrackte URLs](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Ablaufdatum des Trackings]**: Verwenden Sie diese Option, um die Dauer zu definieren, für die das URL-Tracking aktiv sein soll.
 * **[!UICONTROL Ersatz-URL für abgelaufene URLs]**: Verwenden Sie diese Option, um eine Fallback-URL für eine Web-Seite einzugeben: Sie wird angezeigt, wenn das Tracking abgelaufen ist.
 * **[!UICONTROL Tracking-Pixel oben in der E-Mail verwenden]**: Verwenden Sie diese Option, um das Tracking-Pixel an den Anfang der E-Mail statt an das Ende zu setzen. Standardmäßig befindet sich dieses Pixel am unteren Rand Ihrer E-Mails. Wenn Sie große Nachrichten senden, sollten Sie dieses Pixel anstatt an das Ende an den Anfang Ihrer E-Mails setzen, um das Öffnungs-Tracking zu verbessern. Andernfalls könnte nämlich das Tracking-Pixel von einigen E-Mail-Anbietern abgeschnitten werden.
@@ -296,7 +296,7 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
 
   Ab dem 1. Juni 2024, verlangen Google und Yahoo von Absenderinnen und Absendern die Einhaltung der Vorschrift, eine **Ein-Klick-Abmeldung** anzubieten. Campaign unterstützt diese Funktion standardmäßig für Versandvorlagen.
 
-  Zur Anwendung **One-Click List-Unsubscribe** für alle Nicht-Vorlagen-E-Mail-Sendungen müssen Sie die **[!UICONTROL Kopfzeilen aus Versandvorlagen kopieren]** technischer Arbeitsablauf. [Weitere Informationen](technical-workflows.md)
+  Um die **Ein-Klick-Abmeldung** auf alle E-Mail-Sendungen ohne Vorlage anzuwenden, müssen Sie den technischen Workflow **[!UICONTROL Header aus Versandvorlagen kopieren]** ausführen. [Weitere Informationen](technical-workflows.md)
 
   >[!CAUTION]
   >
