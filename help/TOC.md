@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation für Adobe Campaign Standard.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Campaign Standard – Dokumentation
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1754'
 ht-degree: 100%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 100%
    + [Aktuelle Version](rn/using/release-notes.md)
    + [Vorzeitige Versionshinweise](rn/using/e-release-notes.md)
    + Frühere Versionen {#previous-releases}
-      + [Versionshinweise 2023](rn/using/release-notes-2023.md)
-      + [Versionshinweise 2022](rn/using/release-notes-2022.md)
-      + [Versionshinweise 2021](rn/using/release-notes-2021.md)
-      + [Versionshinweise 2020](rn/using/release-notes-2020.md)
-      + [Versionshinweise 2019](rn/using/release-notes-2019.md)
-      + [Versionshinweise 2018](rn/using/release-notes-2018.md)
-      + [Versionshinweise 2017](rn/using/release-notes-2017.md)
+      + [2023](rn/using/release-notes-2023.md)
+      + [2022](rn/using/release-notes-2022.md)
+      + [2021](rn/using/release-notes-2021.md)
+      + [2020](rn/using/release-notes-2020.md)
+      + [2019](rn/using/release-notes-2019.md)
+      + [2018](rn/using/release-notes-2018.md)
+      + [2017](rn/using/release-notes-2017.md)
    + [Versionsplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
    + [Problem mit Signaturen getrackter URLs](rn/using/tracked-urls.md)
