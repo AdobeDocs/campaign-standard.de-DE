@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: ce90272c423400163d5ff497c6995a1bf1927ee4
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 38%
 
 ---
 
@@ -22,11 +22,17 @@ ht-degree: 100%
 
 ### Verbesserungen {#e-rn-improvements}
 
-Adobe Campaign Standard 24.1 verwendet die HTTP v1-APIs zum Senden von Android-Push-Benachrichtigungen, um die Kompatibilität mit anstehenden FCM-Änderungen sicherzustellen. Weitere Informationen finden Sie in [dieser Technote](../../administration/using/push-technote.md).
+* **Android-Push-Benachrichtigungen** - Adobe Campaign Standard 24.1 verwendet die HTTP v1-APIs zum Senden von Android-Push-Benachrichtigungen, um die Kompatibilität mit anstehenden FCM-Änderungen sicherzustellen. Weitere Informationen finden Sie in [dieser Technote](../../administration/using/push-technote.md).
 
-Adobe Campaign Standard 24.1 unterstützt jetzt p8-Authentifizierungszertifikate für iOS-Push-Benachrichtigungen. Ihre Implementierung muss angepasst werden, um diese Änderungen zu aktivieren. Weitere Informationen finden Sie in [dieser Technote](../../administration/using/push-technote.md).
+* **Push-Benachrichtigungen in iOS** - Adobe Campaign Standard 24.1 unterstützt jetzt p8-Authentifizierungszertifikate für iOS-Push-Benachrichtigungen. Ihre Implementierung muss angepasst werden, um diese Änderungen zu aktivieren. Weitere Informationen finden Sie in [dieser Technote](../../administration/using/push-technote.md).
 
-Ab dem 1. Juni 2024, verlangen Google und Yahoo von Absenderinnen und Absendern die Einhaltung der Vorschrift, eine Ein-Klick-Abmeldung anzubieten. Campaign unterstützt diese Funktion jetzt standardmäßig. Weiterführende Informationen finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
+**One-Click List-Unsubscribe** - Ab dem 1. Juni 2024, Google und Yahoo! von Absenderinnen und Absendern die Einhaltung der Vorschrift, eine Ein-Klick-Abmeldung anzubieten. Campaign unterstützt diese Funktion jetzt standardmäßig. Weiterführende Informationen finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
+
+* **Infrastruktur** - Die Postgres-Datenbank wurde von Version 11.22 auf Version 12.17 aktualisiert.
+
+* **CTA-Tracking** - Wenn die Benutzer eine personalisierte URL öffnen und darauf klicken, wird die aufgelöste personalisierte URL jetzt anstelle der codierten personalisierten URL verfolgt. Diese Änderung ist standardmäßig nicht aktiviert. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, damit sie in Ihrer Campaign-Instanz aktiviert wird.
+
+* **Dropdown-Liste für Personalisierungsfelder** - Bei der Erstellung von Vorlagen für Transaktions-E-Mail-Nachrichten in Adobe Experience Manager können Sie jetzt Personalisierungsfelder aus einer Dropdown-Liste auswählen. Diese Änderung ist standardmäßig nicht aktiviert. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, damit sie in Ihrer Campaign-Instanz aktiviert wird.
 
 ### Fehlerbehebungen {#e-rn-fixes}
 

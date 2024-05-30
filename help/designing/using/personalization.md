@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
 source-wordcount: '2753'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Sie haben die Möglichkeit, den Absendernamen je nach Zielgruppe zu personalisie
 >
 >Header-Parameter dürfen nicht leer sein. Die Angabe der Absenderadresse ist für den E-Mail-Versand zwingend erforderlich (gemäß RFC-Standard). Adobe Campaign führt eine Syntax-Prüfung der angegebenen E-Mail-Adressen durch.
 
-## URLs personalisieren{#personalizing-urls}
+## URLs personalisieren {#personalizing-urls}
 
 Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht eine oder mehrere URLs zu personalisieren, indem Sie Personalisierungsfelder, Inhaltsbausteine oder dynamische Inhalte an diese anschließen. Gehen Sie wie folgt vor:
 
@@ -85,7 +85,7 @@ Der entsprechende Platzhalter wird zum Zeitpunkt der Personalisierung (d. h. b
 >
 >Bei von einem Workflow aus erstellten E-Mails stehen außerdem die innerhalb des Workflows berechneten Zusatzdaten in den Personalisierungsfeldern zur Verfügung. Weiterführende Informationen zur Hinzufügung von Zusatzdaten innerhalb von Workflows finden Sie im Abschnitt [Daten anreichern](../../automating/using/about-targeting-activities.md#enriching-data).
 
-## Inhaltsbaustein hinzufügen{#adding-a-content-block}
+## Inhaltsbaustein hinzufügen {#adding-a-content-block}
 
 Adobe Campaign bietet eine Reihe von vorkonfigurierten Inhaltsbausteinen. Diese Bausteine sind dynamisch und personalisierbar und sie weisen ein spezifisches Rendering auf. Sie ermöglichen beispielsweise das Einfügen einer bestimmten Anrede in Abhängigkeit von den verfügbaren Empfängerinformationen oder auch eines Links zur Mirrorseite.
 
