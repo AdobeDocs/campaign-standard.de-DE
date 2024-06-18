@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -225,7 +225,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
 
 ## Fehlerbehebung bei Sendungen an Mobilgeräte {#mobile-troubleshooting}
 
-Die folgenden Seiten helfen Ihnen bei der Lösung der häufigsten Probleme bei der Verwendung des mobilen Versands in Adobe Campaign Standard.
+Die folgenden Seiten helfen Ihnen, die häufigsten Probleme zu lösen, die beim Versand an Mobilgeräte in Adobe Campaign Standard auftreten.
 
 <table style="table-layout:fixed">
 <tr>

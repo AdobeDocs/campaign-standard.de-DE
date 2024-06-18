@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de
 Gehen Sie wie folgt vor, um die Dynamics 365-App in die Campaign Standard-Umgebung zu integrieren:
 
 1. Navigieren Sie zu [Microsoft Business Apps](https://appsource.microsoft.com/de-de/marketplace/apps) und suchen Sie in der Suchleiste nach _Adobe Campaign Standard_ .
-Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/de/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview) gehen.{target="_blank"}
+Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/de/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"} gehen.
 1. Befolgen Sie die Anweisungen zum Installieren der App für Ihre Dynamics 365-Instanz.
 1. Nach der Installation navigieren Sie zu Ihrer Dynamics 365-Instanz und melden Sie sich als Administrator an.
 1. Wählen Sie das Zahnradsymbol oben rechts und dann **[!UICONTROL Erweiterte Einstellungen]** aus. Wählen Sie im oberen Banner das Dropdown-Menü neben **[!UICONTROL Einstellungen]** und dann **[!UICONTROL Prozesse]** unter **[!UICONTROL Process Center]** aus.

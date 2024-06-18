@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Alle Elemente einer Seite können mit Links belegt werden: Bilder, Wörter, Wort
 
    ![](assets/des_insert_link.png)
 
-1. Wählen Sie den gewünschten Linktyp aus.
+1. Wählen Sie den gewünschten Link-Typ aus.
 
    * **Externer Link**: Fügen Sie einen Link auf eine externe URL ein.
 
