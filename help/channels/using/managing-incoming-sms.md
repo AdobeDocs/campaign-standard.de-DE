@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Gehen Sie dabei folgendermaßen vor:
 
    ![](assets/sms_config_mo_2.png)
 
-1. Wählen Sie im Tab **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]**.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 

@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -45,6 +45,6 @@ Es ist empfehlenswert, einen Workflow mit einer **[!UICONTROL Ende]**-Aktivität
 
 ## Beispiel {#example}
 
-Unten stehende Abbildung zeigt einen komplexen Workflow mit einem **[!UICONTROL Start]** und mehreren **[!UICONTROL Ende]**-Aktivitäten. Die Option **[!UICONTROL Alle laufenden Aufgaben anhalten]** wurde beim ersten **[!UICONTROL Ende]** aktiviert. Nach Abschluss der Aufgabe wird der gesamte Workflow angehalten. Er hat die gleiche Wirkung wie die ![](assets/stop_darkgrey-24px.png) wurde ausgewählt (siehe [Symbolleiste](../../automating/using/workflow-interface.md#action-bar) Abschnitt).
+Unten stehende Abbildung zeigt einen komplexen Workflow mit einem **[!UICONTROL Start]** und mehreren **[!UICONTROL Ende]**-Aktivitäten. Die Option **[!UICONTROL Alle laufenden Aufgaben anhalten]** wurde beim ersten **[!UICONTROL Ende]** aktiviert. Dies bedeutet, dass nach Abschluss dieser Aufgabe der gesamte Workflow gestoppt wird. Das gleiche Ergebnis kann mit der Schaltfläche ![](assets/stop_darkgrey-24px.png) erzielt werden (siehe Abschnitt [Aktionsleiste](../../automating/using/workflow-interface.md#action-bar)).
 
 ![](assets/wkf_start_end_example.png)

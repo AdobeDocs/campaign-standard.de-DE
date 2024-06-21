@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1017'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Datei** mithilf
 
 Gehen Sie zur Erstellung einer Audience vom Typ **Datei** wie folgt vor:
 
-1. Wählen Sie im Tab **Marketing-Aktivitäten** die Option **Erstellen** und dann **Workflow**.
+1. Wählen Sie auf der Registerkarte **Marketing-Aktivitäten** die Option **Erstellen** und dann **Workflow**.
 1. Platzieren und konfigurieren Sie eine **[!UICONTROL Datei-laden]**-Aktivität im Workflow-Arbeitsbereich, um eine Population zu importieren, deren Dimension zum Zeitpunkt der Workflow-Ausführung **unbekannt** ist. Weiterführende Informationen zur Konfiguration und Verwendung dieser Aktivität finden Sie im Abschnitt [Datei laden](../../automating/using/load-file.md).
 
    ![](assets/audience_files_1.png)

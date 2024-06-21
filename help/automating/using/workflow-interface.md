@@ -10,9 +10,9 @@ role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Im Rahmen von Programmen und Kampagnen dienen Workflows der Automatisierung von 
 
 Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 
-* Die [Palette](#palette), der auf die verfügbaren Aktivitäten verweist.
+* [Palette](#palette) mit den verfügbaren Aktivitäten
 * [Arbeitsbereich](#workspace), in dem Aktivitäten angeordnet und konfiguriert werden
 * [Symbolleiste](#action-bar) mit Schaltflächen, die die Interaktion mit dem Workflow und seinen Komponenten ermöglichen
 * [Schnellaktionen](#quick-actions), die um eine ausgewählte Aktivität herum angezeigt werden und den Schnellzugriff auf diverse Aktionen ermöglichen
