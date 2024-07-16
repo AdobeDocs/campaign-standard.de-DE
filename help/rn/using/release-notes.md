@@ -1,22 +1,42 @@
 ---
-title: Aktuelle Version
+title: Neueste Versionshinweise
 description: Auf dieser Seite finden Sie Informationen zum Inhalt der aktuellen Version von Campaign Standard.
 feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 79%
 
 ---
 
 
-# Aktuelle Version{#latest-release}
+# Neueste Versionshinweise {#latest-release}
 
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
+
+
+## Frühzeitige Versionshinweise {#e-new-release}
+
+In diesem Abschnitt werden die in der nächsten Campaign Standard-Version enthaltenen Verbesserungen und Änderungen aufgelistet.
+
+>[!CAUTION]
+>
+>Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der Seite [Versionsplanung](../../rn/using/release-planning.md) .
+
+**Version 24.2 - Sommerversion 2024**
+
+* **Veröffentlichungsdatum**: August 2024 (eingeschränkte Verfügbarkeit) - [Mehr erfahren](../../rn/using/release-planning.md).
+
+* **Migration zu OAuth-Server-zu-Server-Anmeldedaten**
+
+  Ab dieser Version sind ausgehende Campaign-Integrationen in Adobe-Lösungen und -Apps auf OAuth-Server-zu-Server-Anmeldedaten angewiesen, weil die Anmeldedatenoption „Service-Konto (JWT)“ eingestellt wurde. Adobe führt die Migration von JWT zu OAuth für Ihre ausgehenden Integrationen durch, z. B. die Integration von Campaign-Analytics oder die Integration von Experience Cloud Triggers.
+
+  Wenn Sie eingehende Integrationen mit Campaign implementiert haben und [Kampagnen-APIs](../../api/using/get-started-apis.md) verwenden, müssen Sie Ihr technisches Konto wie in [dieser Dokumentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"} beschrieben migrieren. Vorhandene Service-Konto-Anmeldedaten (JWT) funktionieren nicht mehr am 27. Januar 2025. **.**
+
 
 ## Version 24.1 – Version Winter 2024 {#winter-24}
 

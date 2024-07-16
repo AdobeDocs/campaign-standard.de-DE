@@ -9,9 +9,9 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '697'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,10 @@ Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich den Posteingan
 Genauer gesagt bezieht sich die E-Mail-Zustellbarkeit auf die Menge der Merkmale, die die Fähigkeit einer Nachricht bestimmen, über eine persönliche E-Mail-Adresse innerhalb kurzer Zeit und mit der erwarteten Qualität in Bezug auf Inhalt und Format ihr Ziel zu erreichen. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
 Einen tieferen Einblick in das Thema der Zustellbarkeit und weitere Informationen zu den wichtigsten Bedingungen, Konzepten und Ansätzen zur Zustellbarkeit erhalten Sie im [Adobe-Handbuch mit den Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de).
+
+>[!NOTE]
+>
+>Die Beauftragung des Zustellbarkeits-Teams ist vertraglich geregelt. Kundinnen und Kunden sollten sich an den Adobe-Support wenden, um diesbezügliche Informationen zu erhalten.
 
 ## Verbessern der Zustellbarkeit {#deliverability-key-points}
 
@@ -38,7 +42,7 @@ Probleme mit der Zustellbarkeit hängen in der Regel mit Maßnahmen zum Schutz v
 
 ### Zustellrate
 
-Die Zustellrate ist der Anteil der Nachrichten, die die Postfächer der Empfänger im Vergleich zur gesamten Anzahl der versendeten Nachrichten erreicht haben. Um die Zustellbarkeit zu verbessern, können Sie versuchen, diese Rate zu erhöhen.
+Die Zustellbarkeitsrate ist der Anteil der Nachrichten, die die Postfächer der Empfängerinnen und Empfänger erreicht haben, im Vergleich zur gesamten Anzahl der versendeten Nachrichten. Um die Zustellbarkeit zu verbessern, können Sie versuchen, diese Rate zu erhöhen.
 
 Bei Adobe Campaign hängt die Zustellrate von zahlreichen Faktoren ab, insbesondere von:
 
