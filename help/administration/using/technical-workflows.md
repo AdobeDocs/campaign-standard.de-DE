@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: ht
-source-wordcount: '843'
+source-wordcount: '795'
 ht-degree: 100%
 
 ---
@@ -58,13 +58,7 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
    <td> <span class="uicontrol">Datenbankbereinigung</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> Dieser Workflow dient der Datenbankwartung. Er berechnet diverse Statistiken und Vorgänge und bereinigt obsolete Daten gemäß den definierten Parametern. Er wird standardmäßig täglich um 4 Uhr gestartet.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Planungen</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> Dieser Workflow analysiert die im Planungskalender verzeichneten Sendungen (Erstellung von Planungslogs). Er wird standardmäßig täglich um 1 Uhr gestartet. <br />
-   Der Workflow „Planungen“ ist ein veralteter Workflow, der jetzt in Campaign Standard gestoppt wurde und nicht mehr funktioniert.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Freigegebene Zielgruppe importieren</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
