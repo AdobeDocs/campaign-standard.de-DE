@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -136,6 +136,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 Die Anmeldung mit zweifacher Bestätigung zählt zu den Best Practices beim E-Mail-Versand. Die Plattform wird dadurch vor falschen oder ungültigen E-Mail-Adressen und Spambots geschützt, wodurch Spam-Beschwerden verhindert werden.
 
-Der Versand einer E-Mail zur Bestätigung der Benutzervereinbarung ist vor der Speicherung dieser Profile in Ihrer Campaign-Datenbank grundsätzlich erforderlich: Der Besucher füllt eine Online-Landingpage aus, erhält dann eine E-Mail und muss auf den Bestätigungs-Link klicken, um die Anmeldung abzuschließen.
+Das Prinzip dahinter ist folgendes: Die Besucherin bzw. der Besucher füllt ein Formular auf einer Online-Landingpage aus, erhält dann eine E-Mail und muss auf den Bestätigungs-Link klicken, um die Anmeldung abzuschließen. Erst dann wird die Person als „Profil“ in der Campaign-Datenbank gespeichert.
 
 Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/setting-up-a-double-opt-in-process.md).
