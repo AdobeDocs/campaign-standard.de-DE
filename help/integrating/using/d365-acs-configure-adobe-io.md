@@ -98,4 +98,4 @@ Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.
 * [Adobe Developer – Integration von Service-Konten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard – Einrichtung von API-Zugriff](../../api/using/setting-up-api-access.md)
 * [Campaign Standard – Integration mit Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
-* [Migrieren von Anmeldeinformationen von JWT zu OAuth-Server-zu-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) enthält die Schritte zum Migrieren von Anmeldeinformationen von JWT zu OAuth-Server-zu-Server.
+* [Migrieren von Anmeldedaten von JWT zu OAuth-Server-zu-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) enthält die Schritte zum Migrieren von Anmeldedaten von JWT zu OAuth-Server-zu-Server.

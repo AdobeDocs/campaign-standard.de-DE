@@ -10,7 +10,7 @@ role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2224'
 ht-degree: 100%
 
@@ -301,15 +301,15 @@ In diesen Lognachrichten werden Informationen zu unerwarteten Fehlerbedingungen 
   </tr>
   <tr> 
    <td> WKF-560283 – Abrufen des OAuth-Zugriffs-Tokens fehlgeschlagen.</td> 
-   <td> <p>Die häufigste Ursache dieses Fehlers ist eine Fehlkonfiguration des externen Kontos (z. B.: Verwendung des externen Kontos ohne Prüfung, ob die Verbindung erfolgreich hergestellt wurde). Möglicherweise werden die URL-/Zugangsdaten im externen Konto geändert.</p></td>
+   <td> <p>Die häufigste Ursache dieses Fehlers ist eine Fehlkonfiguration des externen Kontos (z. B.: Verwendung des externen Kontos ohne Prüfung, ob die Verbindung erfolgreich hergestellt wurde). Möglicherweise werden die URL-/Anmeldedaten im externen Konto geändert.</p></td>
   </tr>
   <tr> 
    <td> CRL-290199 – Seite nicht erreichbar unter: %s.</td> 
    <td> <p>Diese Fehlermeldung wird auf dem Bildschirm der Benutzeroberfläche des externen Kontos angezeigt, wenn dieses für OAuth eingerichtet wird. Sie bedeutet, dass die URL für den externen Autorisierungs-Server entweder falsch oder geändert wurde oder der Server mit "Seite nicht gefunden" antwortet.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 – Unvollständige/falsche Zugriffsdaten.</td> 
-   <td> <p>Diese Fehlermeldung wird auf dem Bildschirm der Benutzeroberfläche des externen Kontos angezeigt, wenn dieses für OAuth eingerichtet wird. Sie bedeutet, dass die Zugangsdaten entweder falsch sind oder andere erforderliche Zugangsdaten für die Verbindung mit dem Autorisierungs-Server fehlen.
+   <td> CRL-290200 – Unvollständige/falsche Anmeldedaten.</td> 
+   <td> <p>Diese Fehlermeldung wird auf dem Bildschirm der Benutzeroberfläche des externen Kontos angezeigt, wenn dieses für OAuth eingerichtet wird. Sie bedeutet, dass die Anmeldedaten entweder falsch sind oder andere erforderliche Anmeldedaten für die Verbindung mit dem Autorisierungs-Server fehlen.
 </p></td>
   </tr>
  </tbody> 

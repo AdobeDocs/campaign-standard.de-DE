@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 100%
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 # Systeme mit der Integrationsanwendung verbinden
 
-## Zugangsdaten zur Integrationsanwendung hinzufügen
+## Anmeldedaten zur Integrationsanwendung hinzufügen
 
-Im Bildschirm **[!UICONTROL Einstellungen]** können Sie die Zugangsdaten für Microsoft Dynamics 365 und die Adobe-API spezifizieren. Sie können auch die Einstellungen für die Adobe Campaign-SFTP-Instanz konfigurieren.
+Im Bildschirm **[!UICONTROL Einstellungen]** können Sie die Anmeldedaten für Microsoft Dynamics 365 und die Adobe-API spezifizieren. Sie können auch die Einstellungen für die Adobe Campaign-SFTP-Instanz konfigurieren.
 
-### Microsoft Dynamics 365-Zugangsdaten
+### Microsoft Dynamics 365-Anmeldedaten
 
-Die Microsoft Dynamics 365-Zugangsdaten geben der Integrationsanwendung die Berechtigung, Ihre Daten aus Microsoft Dynamics 365 abzurufen.  Sie müssen zunächst die Schritte auf dem Bildschirm [Microsoft Dynamics 365 für die Integration mit Campaign konfigurieren](../../integrating/using/d365-acs-configure-d365.md) ausführen, um die Werte zu generieren, die danach in diesen Bildschirm eingefügt werden. Die unten beschriebenen Eingaben beziehen sich auf diesen Bildschirm.
+Die Microsoft Dynamics 365-Anmeldedaten geben der Integrationsanwendung die Berechtigung, Ihre Daten aus Microsoft Dynamics 365 abzurufen.  Sie müssen zunächst die Schritte auf dem Bildschirm [Microsoft Dynamics 365 für die Integration mit Campaign konfigurieren](../../integrating/using/d365-acs-configure-d365.md) ausführen, um die Werte zu generieren, die danach in diesen Bildschirm eingefügt werden. Die unten beschriebenen Eingaben beziehen sich auf diesen Bildschirm.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
@@ -35,9 +35,9 @@ Die Microsoft Dynamics 365-Zugangsdaten geben der Integrationsanwendung die Bere
 
 * **[!UICONTROL URL]**: Die URL hat das Format `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
-### Adobe-API-Zugangsdaten
+### Adobe-API-Anmeldedaten
 
-Die Adobe Campaign-Zugangsdaten werden mit [Adobe I/O](https://www.adobe.io/) generiert. Sie müssen zuerst den Bildschirm [Adobe I/O konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) aufrufen und den Anweisungen folgen, bevor Sie die erforderlichen Felder in diesem Abschnitt ausfüllen können.
+Die Adobe Campaign-Anmeldedaten werden mit [Adobe I/O](https://www.adobe.io/) generiert. Sie müssen zuerst den Bildschirm [Adobe I/O konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) aufrufen und den Anweisungen folgen, bevor Sie die erforderlichen Felder in diesem Abschnitt ausfüllen können.
 
 * Wählen Sie als Authentifizierungstyp „Oauth“ aus, da die JWT-basierte Authentifizierung nicht mehr unterstützt wird.
 * In der folgenden Abbildung wird die Zuordnung zwischen Adobe I/O und den Eingaben im Einstellungsbildschirm im Detail erläutert.

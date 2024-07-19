@@ -63,7 +63,7 @@ Anschließend können Sie mit der Verwendung des Integrations-Tools beginnen. Ge
 Wenn Sie die Selfservice-Benutzeroberfläche zum ersten Mal aufrufen, wird Ihnen eine Datenschutzbestätigung angezeigt. Sie müssen jeweils bestätigen, dass Sie Ihre Rolle bei der Durchführung von Datenschutzanfragen in Campaign und Microsoft Dynamics 365 verstehen, bevor Sie fortfahren können.
 In [diesem Abschnitt](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy) erfahren Sie mehr über Ihre Verantwortung für den Datenschutz und darüber, wie Sie Datenschutzanfragen verwalten können.
 
-## Einrichten Ihrer Zugangsdaten {#self-service-app-credentials}
+## Einrichten Ihrer Anmeldedaten {#self-service-app-credentials}
 
 Wenn Sie die Benutzeroberfläche zum ersten Mal aufrufen, sollten Sie folgende Seite mit einer Kopfzeile sehen:
 
@@ -79,20 +79,20 @@ Stellen Sie sicher, dass für &quot;ORG&quot; und &quot;INSTANZ&quot; diejenigen
 >
 > Wenn Sie den Connector zum ersten Mal konfigurieren und/oder diesen Prozess noch nicht kennen, empfehlen wir Ihnen **dringend**, die Staging- oder Entwicklungsinstanz auszuwählen. Sie sollten sicherstellen, dass Ihre Konfiguration funktioniert, bevor Sie die Einrichtung in der Produktion vornehmen.
 
-Wenn Sie die richtige Organisation und Instanz ausgewählt haben, klicken Sie auf das Dreistrich-Symbol, um ein Dropdown-Menü anzuzeigen. Klicken Sie dann im Dropdown-Menü auf **[!UICONTROL Einstellungen...]**, um die Seite aufzurufen, auf der Sie Ihre Zugangsdaten für Microsoft Dynamics 365 und Campaign eingeben (siehe unten).
+Wenn Sie die richtige Organisation und Instanz ausgewählt haben, klicken Sie auf das Dreistrich-Symbol, um ein Dropdown-Menü anzuzeigen. Klicken Sie dann im Dropdown-Menü auf **[!UICONTROL Einstellungen...]**, um die Seite aufzurufen, auf der Sie Ihre Anmeldedaten für Microsoft Dynamics 365 und Campaign eingeben (siehe unten).
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 Füllen Sie auf der Seite **[!UICONTROL Einstellungen]** die folgenden Abschnitte aus:
 
-* Microsoft Dynamics 365-Zugangsdaten
-* Adobe-Zugangsdaten
+* Microsoft Dynamics 365-Anmeldedaten
+* Adobe-Anmeldedaten
 
 [Hier](../../integrating/using/d365-acs-self-service-app-settings.md) erfahren Sie, wo die Informationen für die einzelnen Eingaben zu finden sind. Wenn Sie fertig sind, klicken Sie unten auf die Schaltfläche **[!UICONTROL Speichern]**.
 
 ## Prüfen der Erstkonfiguration {#self-service-app-initial-config}
 
-Wenn Sie die obigen Voraussetzungen erfüllt und Ihre Zugangsdaten korrekt hinzugefügt haben, können Sie mit der Seite **[!UICONTROL Workflows]** fortfahren. Weitere Informationen zu den Workflows der Integrationsanwendung finden Sie auf [dieser Seite](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Wenn Sie die obigen Voraussetzungen erfüllt und Ihre Anmeldedaten korrekt hinzugefügt haben, können Sie mit der Seite **[!UICONTROL Workflows]** fortfahren. Weitere Informationen zu den Workflows der Integrationsanwendung finden Sie auf [dieser Seite](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 Klicken Sie auf der Seite **[!UICONTROL Workflows]** auf das Stiftsymbol für den Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]**, um die Konfiguration zu bearbeiten.
 
@@ -130,7 +130,7 @@ Wenn Sie auf die Schaltfläche mit den drei horizontalen Linien ![](assets//do-n
 
 Die Optionen im Dropdown-Menü sind:
 
-* **Einstellungen**: Wenn Sie diese Option auswählen, gelangen Sie zu einem Bildschirm, auf dem Sie API-Zugangsdaten für Microsoft Dynamics 365 und Adobe Campaign sowie andere allgemeine Anwendungseinstellungen eingeben können.
+* **Einstellungen**: Wenn Sie diese Option auswählen, gelangen Sie zu einem Bildschirm, auf dem Sie API-Anmeldedaten für Microsoft Dynamics 365 und Adobe Campaign sowie andere allgemeine Anwendungseinstellungen eingeben können.
 
 * **Dokumentation**: Hier finden Sie einen Link zur Adobe Campaign-Dokumentation, die sich speziell auf diese Integration bezieht.
 

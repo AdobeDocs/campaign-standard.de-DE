@@ -11,7 +11,7 @@ exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -115,11 +115,11 @@ Sie können Ihre Sub-Domains und deren Zertifikate überwachen. Mehr dazu:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsole.adobe.com/overview). Das neue System erfordert für jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie sich nicht mit Ihrer Adobe ID anmelden können, beantragen Sie den Zugang über die Experience League, und das Kundenunterstützungs-Team wird ihn so schnell wie möglich einrichten. [Mehr dazu](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsole.adobe.com/overview). Das neue System erfordert für jede Benutzerin und jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie sich nicht mit Ihrer Adobe ID anmelden können, beantragen Sie den Zugang über die Experience League, und das Kundenunterstützungs-Team wird ihn so schnell wie möglich einrichten. [Mehr dazu](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Fragen an Experten
 
-Beitritt zur Campaign-Community: Suchen Sie nach Antworten in bestehenden Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Treten Sie der Campaign-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Erstellen Sie ein Ticket oder starten Sie einen Chat
 

@@ -58,7 +58,7 @@ Alle diese Verordnungen gelten für Adobe Campaign-Kunden, die Daten für betrof
 
 >[!NOTE]
 >
->Weitere Informationen zu personenbezogenen Daten und zu den verschiedenen Entitäten, die Daten verwalten (Datenverantwortlicher, Auftragsverarbeiter und betroffene Person), finden Sie unter [Personenbezogene Daten und Personas](../../start/using/privacy.md#personal-data).
+>Weitere Informationen zu personenbezogenen Daten und zu den verschiedenen Entitäten, die Daten verwalten (Datenverantwortliche, Auftragsverarbeiter und betroffene Personen), finden Sie unter [Personenbezogene Daten und Personas](../../start/using/privacy.md#personal-data).
 
 ## Recht auf Zugriff und Recht auf Vergessenwerden {#right-access-forgotten}
 

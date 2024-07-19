@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
 source-git-commit: 620ae1adc6f804e90c10daeb5fa4df42ce106885
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Nach dem Upgrade einer Mobile App von der Adobe SDK-Version v4 auf Adobe Experie
 |:-:|
 | Es gibt keine Auswirkungen auf bestehende Sendungen und Kampagnen, die die migrierte SDK V4-Mobile-App verwenden. |
 | Der Name der Mobile App wird beibehalten. |
-| Die Zugangsdaten für die iOS- und Android-Plattform werden beibehalten. |
+| Die Anmeldedaten für die iOS- und Android-Plattform werden beibehalten. |
 | Alle Abonnenten der Mobile App und ihre Daten werden beibehalten. |
 | Die bestehende SDK v4-Mobile-App sendet weiterhin Daten (PII-Daten, Abonnenten- und Token-Informationen) an Adobe Campaign Standard. |
 | Die **[!UICONTROL Organisationseinheit]** der Mobile App wird beibehalten. |

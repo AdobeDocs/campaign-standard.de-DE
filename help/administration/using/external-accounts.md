@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1778'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Externe Konten werden von technischen Prozessen, wie technischen Workflows oder 
 1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
 1. Geben Sie einen Titel ein. Der Titel und die Kennung werden verwendet, wenn Sie in Workflows externe Konten auswählen möchten.
 1. Wählen Sie den Kontotyp aus, den Sie erstellen möchten.
-1. Konfigurieren Sie den Zugriff auf das Konto, indem Sie die Zugangsdaten, die Server-Adresse, die Port-Nummer und/oder gegebenenfalls die Schlüssel spezifizieren.
+1. Konfigurieren Sie den Zugriff auf das Konto, indem Sie die Anmeldedaten, die Server-Adresse, die Port-Nummer und/oder gegebenenfalls die Schlüssel spezifizieren.
 
    Die nötigen Informationen werden normalerweise vom Anbieter des Servers bereitgestellt, mit dem Sie eine Verbindung herstellen möchten.
 
@@ -60,7 +60,7 @@ Geben Sie für ein externes SFTP-Konto die folgenden Details an:
 
 * Serveradresse, z. B. **ftp.domain.com**
 * Port-Nummer, z. B. **22**
-* SFTP-Server-Zugangsdaten: Kontoname und Passwort, die zur Verbindung mit dem Server verwendet werden
+* SFTP-Server-Anmeldedaten: Kontoname und Passwort, die zur Verbindung mit dem Server verwendet werden
 
 ### Empfehlungen für von Adobe gehostete SFTP-Server {#adobe-hosted-sftp-server-recommendations}
 
@@ -91,10 +91,10 @@ SFTP-Server können über das Control Panel verwaltet werden. Weitere Informatio
 
 Geben Sie für ein externes OAuth 2.0-Konto die folgenden Details an:
 
-* Ein **Grant-Typ**: Es werden nur **Client-Zugangsdaten** unterstützt.
+* Ein **Grant-Typ**: Es werden nur **Client-Anmeldedaten** unterstützt.
 * Eine **sichere API-URL**: Geben Sie den Autorisierungsendpunkt ein.
-* **Vertrauliche OAuth 2.0-Zugangsdaten**: Dieser Abschnitt ist für vertrauliche Zugangsdaten gedacht. Die Zugangsdaten werden nach dem Hinzufügen auf dem Bildschirm maskiert. Zu diesem Zeitpunkt sind sie weder lesbar noch bearbeitbar. Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
-* **Nicht vertrauliche OAuth 2.0-Zugangsdaten**: Dieser Abschnitt ist für nicht vertrauliche Zugangsdaten gedacht. Die Zugangsdaten werden nach dem Hinzufügen auf dem Bildschirm angezeigt. Sie können auch bearbeitet werden.  Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
+* **Vertrauliche OAuth 2.0-Anmeldedaten**: Dieser Abschnitt ist für vertrauliche Anmeldedaten gedacht. Die Anmeldedaten werden nach dem Hinzufügen auf dem Bildschirm maskiert. Zu diesem Zeitpunkt sind sie weder lesbar noch bearbeitbar. Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
+* **Nicht vertrauliche OAuth 2.0-Anmeldedaten**: Dieser Abschnitt ist für nicht vertrauliche Anmeldedaten gedacht. Die Anmeldedaten werden nach dem Hinzufügen auf dem Bildschirm angezeigt. Sie können auch bearbeitet werden.  Wenn für den Autorisierungsendpunkt bestimmte Zugangsdaten anstelle des POST-Hauptteilparameters in die HTTP-Autorisierungskopfzeile eingefügt werden müssen, können Sie für diese Zugangsdaten die Option &quot;In Kopfzeile einschließen&quot; auswählen.
 
 Klicken Sie nach Eingabe der Kontoinformationen auf **Verbindung testen**, um zu überprüfen, ob das externe Konto korrekt konfiguriert wurde.
 
@@ -102,7 +102,7 @@ Klicken Sie nach Eingabe der Kontoinformationen auf **Verbindung testen**, um zu
 
 >[!NOTE]
 >
->Die Zugangsdaten &quot;Content-Type: application/x-www-form-urlencoded&quot; und &quot;grant_type=client_credentials&quot; werden dem API-Aufruf automatisch hinzugefügt. Sie müssen sie daher nicht im Abschnitt für Zugangsdaten hinzufügen.
+>Die Anmeldedaten &quot;Content-Type: application/x-www-form-urlencoded&quot; und &quot;grant_type=client_credentials&quot; werden dem API-Aufruf automatisch hinzugefügt. Sie müssen sie daher nicht im Abschnitt für Anmeldedaten hinzufügen.
 
 ## Externes Amazon-S3-Konto {#amazon-s3-external-account}
 
@@ -146,7 +146,7 @@ Beim Einrichten dieses neuen externen Kontos müssen Sie die folgenden Informati
   http://aem.domain.com:4502
   ```
 
-* Zugangsdaten zum AEM-Konto: Verwenden Sie das Konto, über das auf die Adobe-Experience-Manager-Instanz zugegriffen wird. Es sollte ein Konto sein, das Teil der campaign-remote-Gruppe in Adobe Experience Manager ist.
+* Anmeldedaten zum AEM-Konto: Verwenden Sie das Konto, über das auf die Adobe-Experience-Manager-Instanz zugegriffen wird. Es sollte ein Konto sein, das Teil der campaign-remote-Gruppe in Adobe Experience Manager ist.
 
 ## Externes Google-reCAPTCHA-Konto {#google-recaptcha-external-account}
 

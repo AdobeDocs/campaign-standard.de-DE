@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2305'
 ht-degree: 100%
 
@@ -182,7 +182,7 @@ Nach der Erstellung können diese Bedingungen zu einem Versandwarnungs-Dashboard
 
 ## Versandwarnungsparameter {#delivery-alerting-parameters}
 
-### Bedingungsparameter {#criteria-parameters}
+### Kriterienparameter {#criteria-parameters}
 
 Im Tab **[!UICONTROL Bedingungsparameter]** eines [Versandwarnungs-Dashboards](#creating-a-delivery-alerting-dashboard) können Sie die in diesem Dashboard ausgewählten Bedingungen festlegen.
 
@@ -193,11 +193,11 @@ Im Tab **[!UICONTROL Bedingungsparameter]** eines [Versandwarnungs-Dashboards](#
 
   Weiterführende Informationen zum Kontaktdatum finden Sie in Abschnitt [Über die Versandplanung](../../sending/using/about-scheduling-messages.md).
 
-* **[!UICONTROL Maximale Softbounce-Fehlerrate]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Softbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes mit 0,05 (5 %) Stunden festgelegt.
+* **[!UICONTROL Maximale Softbounce-Fehlerrate]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Softbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes auf 0,05 (5 %) festgelegt.
 
   Weiterführende Informationen zu Softbounce-Fehlern finden Sie in den Abschnitten [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) und [Liste der Versandfehlertypen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Maximale Hardbounce-Fehlerrate]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Hardbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes mit 0,05 (5 %) Stunden festgelegt.
+* **[!UICONTROL Maximale Hardbounce-Fehlerrate]**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Hardbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes auf 0,05 (5 %) festgelegt.
 
   Weiterführende Informationen zu Hardbounce-Fehlern finden Sie in den Abschnitten [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) und [Liste der Versandfehlertypen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
