@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
+source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Die Bereitstellung und Konfiguration von Audience Manager und People Core in Ado
 
 Durch die Integration von Audience Manager (AAM) oder People Core Service können Sie Audiences oder Segmente in Adobe Campaign importieren und exportieren.
 
-Diese Integration muss zuerst konfiguriert werden. Um die Bereitstellung dieser Integration anzufordern, schreiben Sie eine E-Mail an [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) unter Angabe folgender Informationen:
+Diese Integration muss zuerst konfiguriert werden. Um die Bereitstellung dieser Integration anzufordern, wenden Sie sich mit den folgenden Informationen an den Adobe-Support:
 
 <table> 
  <tbody> 
