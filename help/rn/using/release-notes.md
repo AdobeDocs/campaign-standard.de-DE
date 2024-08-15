@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## Frühzeitige Versionshinweise {#e-new-release}
-
-In diesem Abschnitt werden Verbesserungen und Änderungen beschrieben, die in der nächsten Version von Campaign Standard enthalten sein werden.
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**Version 24.2 – Version Sommer 2024**
+## Version 24.2 – Version Sommer 2024 {#summer-24}
 
-* **Veröffentlichungsdatum**: August 2024 (eingeschränkte Verfügbarkeit) – [Weitere Informationen](../../rn/using/release-planning.md).
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **Migration zu OAuth-Server-zu-Server-Anmeldedaten**
+### Verbesserung {#summer-24-rn-improvements}
 
-  Ab dieser Version sind ausgehende Campaign-Integrationen in Adobe-Lösungen und -Apps auf OAuth-Server-zu-Server-Anmeldedaten angewiesen, weil die Anmeldedatenoption „Service-Konto (JWT)“ eingestellt wurde. Adobe führt die Migration von JWT zu OAuth für Ihre ausgehenden Integrationen durch, z. B. die Integration von Campaign-Analytics oder die Integration von Experience Cloud Triggers.
+**Migration zu OAuth-Server-zu-Server-Anmeldedaten**
 
-  Wenn Sie eingehende Integrationen mit Campaign implementiert haben und [Campaign-APIs](../../api/using/get-started-apis.md) verwenden, müssen Sie Ihr technisches Konto gemäß den Anweisungen in [dieser Dokumentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"} migrieren. Bestehende Anmeldedaten für Service-Konten (JWT) sind noch bis zum **27. Januar 2025** gültig.
+Ab dieser Version sind ausgehende Campaign-Integrationen in Adobe-Lösungen und -Apps auf OAuth-Server-zu-Server-Anmeldedaten angewiesen, weil die Anmeldedatenoption „Service-Konto (JWT)“ eingestellt wurde. Adobe führt die Migration von JWT zu OAuth für Ihre ausgehenden Integrationen durch, z. B. die Integration von Campaign-Analytics oder die Integration von Experience Cloud Triggers.
 
+Wenn Sie eingehende Integrationen mit Campaign implementiert haben und [Campaign-APIs](../../api/using/get-started-apis.md) verwenden, müssen Sie Ihr technisches Konto gemäß den Anweisungen in [dieser Dokumentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"} migrieren. Bestehende Anmeldedaten für Service-Konten (JWT) sind noch bis zum **27. Januar 2025** gültig.
+
+### Fehlerbehebungen {#summer-24-rn-fixes}
+
+* Fehlerkorrektur - Die Workflow-Planung startet jetzt nicht mehr vor der geplanten Zeit. (CAMP-55412)
+* Fehlerkorrektur - Beim Duplizieren von benutzerdefinierten Feldern in Transaktions-Push-Benachrichtigungen tritt jetzt kein Fehler mehr auf. (CAMP-54459)
+* Es wurden Probleme behoben, die sich auf die Benutzerfreundlichkeit der Planung von Uhrzeit und Datum für In-App-Nachrichten auswirkten. (CAMP-54495)
+* Es wurde ein Fehler behoben, der dazu führte, dass Tracking bei der Verwendung der Funktion &quot;Benutzerspezifischer Tracking-Alias&quot;nicht funktionierte und der gesamte Link dynamisch war. (CAMP-56044)
+* Es wurde ein Fehler behoben, der dazu führte, dass bei der Suche nach bestimmten Vorlagen eine begrenzte Anzahl von Vorlagen angezeigt wurde. (CAMP-55273)
+* Die folgenden Sprachen wurden zur Dropdown-Liste der bevorzugten Sprachen hinzugefügt: en_kz (Englisch - Kasachstan) und en_ua (Englisch - Ukraine). (CAMP-55336)
+* Es wurde ein Fehler behoben, der dazu führte, dass die Schaltflächen zur Zeitanpassung in den Planungseinstellungen nicht funktionierten. (CAMP-53602)
+* Fehlerkorrektur - Es wurden mehrere Probleme mit der Benutzeroberfläche in Bezug auf die Zeitanpassungsleiste in den Planungseinstellungen behoben. (CAMP-55291)
 
 ## Version 24.1 – Version Winter 2024 {#winter-24}
 
