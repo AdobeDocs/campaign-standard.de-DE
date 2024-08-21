@@ -8,7 +8,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -42,14 +42,14 @@ Wenn Sie eingehende Integrationen mit Campaign implementiert haben und [Campaign
 
 ### Fehlerbehebungen {#summer-24-rn-fixes}
 
-* Fehlerkorrektur - Die Workflow-Planung startet jetzt nicht mehr vor der geplanten Zeit. (CAMP-55412)
-* Fehlerkorrektur - Beim Duplizieren von benutzerdefinierten Feldern in Transaktions-Push-Benachrichtigungen tritt jetzt kein Fehler mehr auf. (CAMP-54459)
-* Es wurden Probleme behoben, die sich auf die Benutzerfreundlichkeit der Planung von Uhrzeit und Datum für In-App-Nachrichten auswirkten. (CAMP-54495)
-* Es wurde ein Fehler behoben, der dazu führte, dass Tracking bei der Verwendung der Funktion &quot;Benutzerspezifischer Tracking-Alias&quot;nicht funktionierte und der gesamte Link dynamisch war. (CAMP-56044)
-* Es wurde ein Fehler behoben, der dazu führte, dass bei der Suche nach bestimmten Vorlagen eine begrenzte Anzahl von Vorlagen angezeigt wurde. (CAMP-55273)
-* Die folgenden Sprachen wurden zur Dropdown-Liste der bevorzugten Sprachen hinzugefügt: en_kz (Englisch - Kasachstan) und en_ua (Englisch - Ukraine). (CAMP-55336)
-* Es wurde ein Fehler behoben, der dazu führte, dass die Schaltflächen zur Zeitanpassung in den Planungseinstellungen nicht funktionierten. (CAMP-53602)
-* Fehlerkorrektur - Es wurden mehrere Probleme mit der Benutzeroberfläche in Bezug auf die Zeitanpassungsleiste in den Planungseinstellungen behoben. (CAMP-55291)
+* Fehlerkorrektur – Die Workflow-Planung startet jetzt nicht mehr vor der geplanten Zeit. (CAMP-55412)
+* Fehlerkorrektur – Beim Duplizieren benutzerdefinierter Felder in Push-Benachrichtigungen zu Transaktionen tritt jetzt kein Fehler mehr auf. (CAMP-54459)
+* Fehlerkorrektur – Die Verwendung der Uhrzeit- und Datumsplanung für In-App-Messaging funktioniert jetzt ordnungsgemäß. (CAMP-54495)
+* Fehlerkorrektur – Das Tracking funktioniert jetzt ordnungsgemäß, wenn die Funktion für den benutzerdefinierten Tracking-Alias verwendet wird und der gesamte Link dynamisch ist. (CAMP-56044)
+* Fehlerkorrektur – Bei der Suche nach bestimmten Vorlagen ist die Anzahl der angezeigten Vorlagen jetzt nicht mehr begrenzt. (CAMP-55273)
+* Die folgenden Sprachen wurden der Dropdown-Liste der bevorzugten Sprachen hinzugefügt: en_kz (Englisch – Kasachstan) und en_ua (Englisch – Ukraine). (CAMP-55336)
+* Fehlerkorrektur – Die Schaltflächen zum Anpassen der Zeit funktionieren jetzt in den Planungseinstellungen. (CAMP-53602)
+* Es wurden mehrere Probleme mit der Benutzeroberfläche in Bezug auf die Leiste zum Anpassen der Zeit in den Planungseinstellungen behoben. (CAMP-55291)
 
 ## Version 24.1 – Version Winter 2024 {#winter-24}
 
