@@ -6,14 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
 # Datenspeicherung{#data-retention}
+
+>[!NOTE]
+>
+>Die Datenberichterstellung ist nur für die letzten drei Jahre verfügbar. Weitere Informationen zu Datenaufbewahrungszeiträumen erhalten Sie von Adobe-Beratern oder Ihren technischen Administratoren.
 
 Die Standard-Protokolltabellen in Campaign haben voreingestellte Aufbewahrungsfristen, die die Dauer der Datenspeicherung begrenzen, um eine Überlastung Ihres Systems zu vermeiden.
 
