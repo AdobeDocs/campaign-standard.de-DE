@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
+source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -38,8 +38,6 @@ Workflows können in unterschiedlichsten Kontexten zum Einsatz kommen:
 
 ## Workflow-Aktivitäten {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
-
 Es stehen verschiedene Aktivitäten zur Verfügung, mit denen Sie Ihre Workflows entwerfen können.
 
 [Zielgruppenbestimmungsaktivitäten](../../automating/using/about-targeting-activities.md) dienen der Definition einer oder mehrerer Zielpopulationen, welche im Anschluss durch die Aktivitäten &quot;Schnittmenge&quot;, &quot;Vereinigung&quot; und &quot;Ausschluss&quot; gesplittet oder zusammengefasst werden können.
@@ -56,8 +54,6 @@ Mehr dazu:
 
 ## Daten filtern {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="15px">
-
 Verwenden Sie den **Abfrageeditor**, um Daten aus Ihrer Datenbank zu filtern und eine Population zu erstellen, um Ihre Empfänger besser zu erreichen. Der Abfrageeditor steht für verschiedene Aktionen in Campaign Standard zur Verfügung: Erstellen von Audiences für Abfragetypen, Definieren von Versandzielen oder Populationen in Workflow-Aktivitäten.
 
 Der Abfrageneditor enthält **vordefinierte Filter und Regeln** für eine schnelle und einfache Filterung. Sie können jedoch auch die **erweiterte Ausdrucksbearbeitung** verwenden. Auf diese Weise können Sie Bedingungen manuell eingeben und Funktionen verwenden, um eigene Regeln zu bilden.
@@ -69,8 +65,6 @@ Mehr dazu:
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 
 ## Daten importieren/exportieren {#import-export-data}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standard verfügt über verschiedene **Daten-Management-Funktionen** zum Importieren und Exportieren von Daten.
 
