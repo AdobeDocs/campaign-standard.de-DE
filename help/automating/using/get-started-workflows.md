@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 47f47a624b8a1d941d1ab4b49e67f0260ac68cf1
+source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Workflows können in unterschiedlichsten Kontexten zum Einsatz kommen:
 
 ## Workflow-Aktivitäten {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
 
 Es stehen verschiedene Aktivitäten zur Verfügung, mit denen Sie Ihre Workflows entwerfen können.
 
@@ -56,7 +56,7 @@ Mehr dazu:
 
 ## Daten filtern {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+<img src="assets/do-not-localize/icon_filter.svg" width="15px">
 
 Verwenden Sie den **Abfrageeditor**, um Daten aus Ihrer Datenbank zu filtern und eine Population zu erstellen, um Ihre Empfänger besser zu erreichen. Der Abfrageeditor steht für verschiedene Aktionen in Campaign Standard zur Verfügung: Erstellen von Audiences für Abfragetypen, Definieren von Versandzielen oder Populationen in Workflow-Aktivitäten.
 
@@ -70,7 +70,7 @@ Mehr dazu:
 
 ## Daten importieren/exportieren {#import-export-data}
 
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standard verfügt über verschiedene **Daten-Management-Funktionen** zum Importieren und Exportieren von Daten.
 
