@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Die Datenberichterstellung ist nur für die letzten drei Jahre verfügbar. Weitere Informationen zu Datenaufbewahrungszeiträumen erhalten Sie von Adobe-Beratern oder Ihren technischen Administratoren.
+>Datenberichte sind nur für die letzten drei Jahre verfügbar. Weitere Informationen zu Datenspeicherungszeiträumen erhalten Sie vom Adobe-Beratungspersonal oder von Ihren technischen Admins.
 
 Die Standard-Protokolltabellen in Campaign haben voreingestellte Aufbewahrungsfristen, die die Dauer der Datenspeicherung begrenzen, um eine Überlastung Ihres Systems zu vermeiden.
 

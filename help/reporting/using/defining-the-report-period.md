@@ -9,9 +9,9 @@ role: Leader
 level: Intermediate
 exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
 source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->Die Datenberichterstellung ist nur für die letzten drei Jahre verfügbar. Weitere Informationen zu Datenaufbewahrungszeiträumen erhalten Sie von Adobe-Beratern oder Ihren technischen Administratoren.
+>Datenberichte sind nur für die letzten drei Jahre verfügbar. Weitere Informationen zu Datenspeicherungszeiträumen erhalten Sie vom Adobe-Beratungspersonal oder von Ihren technischen Admins.
 
 Bevor Sie einen Bericht erstellen oder öffnen, müssen Sie einen Zeitraum festlegen. Rechts oben neben dem Bericht können Sie auf den jeweiligen Zeitraum zugreifen.
 
