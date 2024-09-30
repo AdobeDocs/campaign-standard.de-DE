@@ -3,10 +3,10 @@ keywords: Campaign Standard;home;popular topics
 title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 91%
 
 ---
 
@@ -18,17 +18,17 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
+>[!TAB Übergang zu Campaign v8]
+
+Wir freuen uns, Ihnen mitteilen zu können, dass Adobe Campaign Standard-Benutzer jetzt berechtigt sind, auf Adobe Campaign Managed Cloud Services v8 umzustellen.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+
 >[!TAB Campaign-Version 24.2 ist online!]
 
 Entdecken Sie die neuen Funktionen, Verbesserungen und Fehlerbehebungen der Version 24.2 von Campaign Standard.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
-
->[!TAB KI-gestützte E-Mails]
-
-Optimieren von Gestaltung und Versand mit KI-gestützten E-Mails
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
 >[!TAB Campaign – RTCDP-Integration]
 
