@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '883'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,8 @@ Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 * [Schnellaktionen](#quick-actions), die um eine ausgewählte Aktivität herum angezeigt werden und den Schnellzugriff auf diverse Aktionen ermöglichen
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie man einen Workflow erstellt](#video)
 
 ## Palette      {#palette}
 
@@ -154,3 +156,11 @@ Sie können auch mehrere Aktivitäten mit Copy-and-Paste kopieren, sodass ein ge
 Wählen Sie dabei die Aktivitäten aus, indem Sie rund um sie einen Kreis ziehen. Wählen Sie dann in der Aktionsleiste die Schaltfläche **[!UICONTROL Auswahl kopieren]** aus (oder drücken Sie **Strg+C**). Danach können Sie die Aktivitäten an der gewünschten Position einfügen.
 
 ![](assets/wkf_copypaste3.png)
+
+## Tutorial {#video}
+
+In diesem Video wird gezeigt, wie man einen Workflow erstellt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
