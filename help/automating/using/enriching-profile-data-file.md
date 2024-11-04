@@ -9,16 +9,16 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
 
 # Profildaten mit in einer Datei enthaltenen Daten anreichern {#enriching-profile-data-with-data-contained-in-a-file}
 
-Dieses Beispiel zeigt, wie Sie die Daten des Profils mit den in einer Datei enthaltenen Kaufdaten anreichern können. In diesem Fall werden die Kaufdaten in einem Drittanbietersystem gespeichert. Von jedem Profil können mehrere Käufe in der Datei gespeichert sein. Ziel des Workflows ist es, eine E-Mail an die Zielprofile zu senden, die mindestens zwei Artikel gekauft haben, um ihnen für ihre Kundentreue zu danken.
+In diesem Beispiel sehen Sie, wie Sie Profildaten mit in einer Datei enthaltenen Kaufdaten anreichern können. In unserem Beispiel sind die Kaufdaten in einem Fremdsystem gespeichert. Von jedem Profil können mehrere Käufe in der Datei gespeichert sein. Ziel des Workflows ist es, eine E-Mail an die Zielprofile zu senden, die mindestens zwei Artikel gekauft haben, um ihnen für ihre Kundentreue zu danken.
 
 Der Workflow setzt sich aus folgenden Aktivitäten zusammen:
 
