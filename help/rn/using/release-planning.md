@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
+source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen. Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
-## Version 24.2 – Version Sommer 2024 {#release-24-2-release}
+## Version 25.1 – Version Winter 2025 {#release-25-1-release}
 
 Weitere Informationen zu dieser Version werden den [Versionshinweisen](release-notes.md) hinzugefügt, sobald die Aktualisierungen der Staging-Umgebungen beginnen.
 
@@ -33,20 +33,20 @@ Weitere Informationen zu dieser Version werden den [Versionshinweisen](release-n
  <thead>
   <tr>
    <th> Umgebungen </th>
-   <th> Eingeschränkte Verfügbarkeit </th>
-   <th> Allgemeine Verfügbarkeit </th>
+   <th> Daten</th>
+   <!--th> General Availability </th-->
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Schritt </td>
-   <td>6.–13. August 2024 </td>
-   <td>2025 – Daten müssen noch bestätigt werden</td>
+   <td>7. Januar - 4. Februar 2025 </td>
+   <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>20.–27. August 2024 </td>
-   <td>2025 – Daten müssen noch bestätigt werden</td>
+   <td>13. Januar - 25. Februar 2025 </td>
+   <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
 </table>
