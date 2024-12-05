@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Wenn Sie einen wiederkehrenden Versand ohne Aggregat-Zeitraum verwenden, können
 
 >[!NOTE]
 >
-> Das Dashboard **Freigabe** enthält Daten für einen schnellen Überblick, die möglicherweise nicht mit den Zahlen in dynamischen Berichten übereinstimmen. Für genaue und zuverlässige Informationen empfehlen wir die Verwendung der dynamischen Berichterstellung als &quot;Source of Truth&quot;. [Weitere Informationen](../../reporting/using/get-started-reporting.md)
+> Das **Bereitstellungs-Dashboard** liefert Daten für einen schnellen Überblick, die möglicherweise nicht mit den Zahlen in dynamischen Berichten übereinstimmen. Zum Erhalt genauer und zuverlässiger Informationen sollten Sie dynamische Berichte als „Source of Truth“ verwenden. [Weitere Informationen](../../reporting/using/get-started-reporting.md)
 
 Nach Abschluss des Versands an die Kontakte zeigt die Kachel **[!UICONTROL Bereitstellung]** Ihre KPI-Daten (Key Performance Indicators) an:
 

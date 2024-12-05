@@ -10,7 +10,7 @@ role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Die Workflow-Benutzeroberfläche weist folgende Elemente auf:
 
 ![](assets/do-not-localize/how-to-video.png) [Erfahren Sie im Video, wie man einen Workflow erstellt](#video)
 
-## Palette      {#palette}
+## Palette {#palette}
 
 Die Palette befindet sich auf der linken Bildschirmseite. Die verfügbaren Aktivitäten sind verschiedenen Kategorien zugeordnet:
 
