@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 76%
 
 ---
 
@@ -18,19 +18,32 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
-<!--
-## Early release notes {#e-new-release}
 
-This section lists improvements and changes included in the next Campaign Standard release.
+## Frühzeitige Versionshinweise {#e-new-release}
+
+In diesem Abschnitt werden Verbesserungen und Änderungen beschrieben, die in der nächsten Version von Campaign Standard enthalten sein werden.
 
 >[!CAUTION]
 >
->This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
--->
+>Dieser Inhalt kann ohne vorherige Ankündigung bis zum Aktualisierungsdatum der Staging-Umgebung geändert werden. Weitere Informationen finden Sie auf der [Seite mit der Versionsplanung](../../rn/using/release-planning.md).
 
-## Version 24.2 – Version Sommer 2024 {#summer-24}
+### Version 25.1 – Version Winter 2025 {#winter-25}
 
-**Veröffentlichungsdatum**: August 2024 (eingeschränkte Verfügbarkeit) – [Weitere Informationen](../../rn/using/release-planning.md).
+#### Sicherheitskorrekturen {#winter-25-security}
+
+* Diese Version beinhaltet Sicherheitskorrekturen.
+* Diese Version enthält die folgende Sicherheitsaktualisierung: Apache Tomcat wurde auf Version 10.1.33 aktualisiert.
+
+#### Weitere Fehlerbehebungen {#winter-25-fixes}
+
+* Korrektur eines Duplikatsproblems in Vorlagen (CAMP-56340)
+* Fehlerkorrektur - Es wurde eine Tracking-Regression behoben, wenn dynamische URLs in Adobe Experience Manager-Vorlagen verwendet wurden. (CAMP-51932)
+* Es wurde ein Leistungsproblem beim Abrechnungsprozess behoben (CAMP-56796).
+* Fehlerkorrektur - Es wurde ein HTML-Kodierungsproblem mit dem Zeichen `>` auf JSSP-Webseiten behoben (CAMP-56497)
+* Fehlerkorrektur - Bei der Verwendung der Option **In ausgewählten Zeilen anzeigen** in dynamischen Berichten tritt jetzt kein Fehler mehr auf. (CAMP-55895)
+
+
+## Version 24.2 - Sommerversion 2024 (LA) {#summer-24}
 
 ### Verbesserung {#summer-24-rn-improvements}
 
@@ -50,25 +63,3 @@ Wenn Sie eingehende Integrationen mit Campaign implementiert haben und [Campaign
 * Die folgenden Sprachen wurden der Dropdown-Liste der bevorzugten Sprachen hinzugefügt: en_kz (Englisch – Kasachstan) und en_ua (Englisch – Ukraine). (CAMP-55336)
 * Fehlerkorrektur – Die Schaltflächen zum Anpassen der Zeit funktionieren jetzt in den Planungseinstellungen. (CAMP-53602)
 * Es wurden mehrere Probleme mit der Benutzeroberfläche in Bezug auf die Leiste zum Anpassen der Zeit in den Planungseinstellungen behoben. (CAMP-55291)
-
-## Version 24.1 – Version Winter 2024 {#winter-24}
-
-### Verbesserungen {#e-rn-improvements}
-
-* **Android-Push-Benachrichtigungen**: Adobe Campaign Standard 24.1 verwendet die HTTP v1-APIs zum Senden von Android-Push-Benachrichtigungen, um die Kompatibilität mit anstehenden FCM-Änderungen sicherzustellen. Weitere Informationen finden Sie in [dieser Technote](../../administration/using/push-technote.md).
-
-* **iOS-Push-Benachrichtigungen**: Adobe Campaign Standard 24.1 unterstützt jetzt p8-Authentifizierungszertifikate für iOS-Push-Benachrichtigungen. Ihre Implementierung muss angepasst werden, um diese Änderungen zu aktivieren. Weitere Informationen finden Sie in [dieser Technote](../../administration/using/push-technote.md).
-
-* **Ein-Klick-Abmeldung**: Ab dem 1. Juni 2024 verlangen Google und Yahoo! von Absenderinnen und Absendern die Einhaltung der Vorschrift, eine Ein-Klick-Abmeldung anzubieten. Campaign unterstützt diese Funktion jetzt standardmäßig. Weiterführende Informationen finden Sie in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
-
-* **Infrastruktur**: Die Postgres-Datenbank wurde von Version 11.22 auf Version 12.17 aktualisiert.
-
-* **CTA-Tracking**: Wenn Benutzende eine personalisierte URL öffnen und darauf klicken, wird jetzt die aufgelöste personalisierte URL anstelle der codierten personalisierten URL getrackt. Diese Änderung ist nicht standardmäßig aktiviert. Wenden Sie sich an Ihre Adobe-Kontaktperson, damit sie in Ihrer Campaign-Instanz aktiviert wird.
-
-* **Dropdown-Liste für Personalisierungsfelder**: Beim Erstellen von Vorlagen für Transaktions-E-Mail-Nachrichten in Adobe Experience Manager können Sie jetzt Personalisierungsfelder aus einer Dropdown-Liste auswählen. Diese Änderung ist nicht standardmäßig aktiviert. Wenden Sie sich an Ihre Adobe-Kontaktperson, damit sie in Ihrer Campaign-Instanz aktiviert wird.
-
-### Fehlerbehebungen {#e-rn-fixes}
-
-* Fehlerkorrektur – Bounce-E-Mail-Adressen können jetzt nach 30 Tagen aus der Quarantäne genommen werden. (CAMP-52977)
-* Fehlerkorrektur – Der Workflow „Versandwarnung“ wird jetzt nicht mehr mit folgendem Fehler angehalten: `division by zero`. (CAMP-49786)
-
