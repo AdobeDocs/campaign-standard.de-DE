@@ -1,17 +1,18 @@
 ---
-title: Versionshinweise 2024
+title: Versionshinweise 2024
 description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard von 2024 aufgelistet.
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
-workflow-type: tm+mt
+exl-id: 26616ecc-a009-485c-b13d-d4e0c23969f2
+source-git-commit: f5e8b3f1a2c235094eedf32199ea792cfa891fcd
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
 ---
 
-# Versionshinweise 2024 {#release-notes-2024}
+# Versionshinweise 2024 {#release-notes-2024}
 
 ## Version 24.1 – Version Winter 2024 {#winter-24}
 
@@ -33,4 +34,3 @@ ht-degree: 100%
 
 * Fehlerkorrektur – Bounce-E-Mail-Adressen können jetzt nach 30 Tagen aus der Quarantäne genommen werden. (CAMP-52977)
 * Fehlerkorrektur – Der Workflow „Versandwarnung“ wird jetzt nicht mehr mit folgendem Fehler angehalten: `division by zero`. (CAMP-49786)
-

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -29,21 +29,21 @@ In diesem Abschnitt werden Verbesserungen und Änderungen beschrieben, die in de
 
 ### Version 25.1 – Version Winter 2025 {#winter-25}
 
-#### Sicherheitskorrekturen {#winter-25-security}
+#### Korrekturen von Sicherheitsproblemen {#winter-25-security}
 
-* Diese Version beinhaltet Sicherheitskorrekturen.
-* Diese Version enthält die folgende Sicherheitsaktualisierung: Apache Tomcat wurde auf Version 10.1.33 aktualisiert.
+* Diese Version enthält mehrere Korrekturen von Sicherheitsproblemen.
+* Diese Version umfasst die folgende Sicherheitsaktualisierung: Apache Tomcat wurde auf v10.1.33 aktualisiert.
 
-#### Weitere Fehlerbehebungen {#winter-25-fixes}
+#### Andere Fehlerbehebungen {#winter-25-fixes}
 
-* Korrektur eines Duplikatsproblems in Vorlagen (CAMP-56340)
-* Fehlerkorrektur - Es wurde eine Tracking-Regression behoben, wenn dynamische URLs in Adobe Experience Manager-Vorlagen verwendet wurden. (CAMP-51932)
-* Es wurde ein Leistungsproblem beim Abrechnungsprozess behoben (CAMP-56796).
-* Fehlerkorrektur - Es wurde ein HTML-Kodierungsproblem mit dem Zeichen `>` auf JSSP-Webseiten behoben (CAMP-56497)
-* Fehlerkorrektur - Bei der Verwendung der Option **In ausgewählten Zeilen anzeigen** in dynamischen Berichten tritt jetzt kein Fehler mehr auf. (CAMP-55895)
+* Fehlerkorrektur – In Vorlagen tritt jetzt kein Duplikatproblem mehr auf (CAMP-56340).
+* Fehlerkorrektur – Es wurde eine Tracking-Regression behoben, die auftrat, wenn in Adobe Experience Manager-Vorlagen dynamische URLs verwendet wurden (CAMP-51932).
+* Fehlerkorrektur – Beim Abrechnungsprozess treten jetzt keine Leistungsprobleme mehr auf (CAMP-56796).
+* Fehlerkorrektur – Es wurde ein HTML-Kodierungsproblem mit dem Zeichen „`>`“ auf JSSP-Web-Seiten behoben (CAMP-56497).
+* Fehlerkorrektur – Bei der Verwendung der Option **In ausgewählten Zeilen anzeigen** in dynamischen Berichten tritt jetzt kein Fehler mehr auf (CAMP-55895).
 
 
-## Version 24.2 - Sommerversion 2024 (LA) {#summer-24}
+## Version 24.2 – Version Sommer 2024 (LA) {#summer-24}
 
 ### Verbesserung {#summer-24-rn-improvements}
 
