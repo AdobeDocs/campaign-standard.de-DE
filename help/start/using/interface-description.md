@@ -1,6 +1,6 @@
 ---
-title: Benutzeroberfläche
-description: "Hier erfahren Sie, wie der Adobe-Campaign-Arbeitsbereich – Startseite, Symbolleisten und erweiterte Menüs – verwendet wird."
+title: Beschreibung der Benutzeroberfläche
+description: Hier erfahren Sie, wie der Adobe-Campaign-Arbeitsbereich – Startseite, Symbolleisten und erweiterte Menüs – verwendet wird.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

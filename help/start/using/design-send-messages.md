@@ -1,13 +1,13 @@
 ---
 title: Listen anpassen
-description: "Hier erfahren Sie, wie Sie in Adobe Campaign Standard die Anzeige anpassen und bei Bildschirmen des Typs Liste vorgehen, um Elemente zu sortieren, zu filtern, zu löschen oder zu duplizieren. Bildschirme vom Typ Liste ermöglichen die Anzeige der Elemente einer oder mehrerer Ressourcen."
+description: Hier erfahren Sie, wie Sie in Adobe Campaign Standard die Anzeige anpassen und bei Bildschirmen des Typs Liste vorgehen, um Elemente zu sortieren, zu filtern, zu löschen oder zu duplizieren. Bildschirme vom Typ Liste ermöglichen die Anzeige der Elemente einer oder mehrerer Ressourcen.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
