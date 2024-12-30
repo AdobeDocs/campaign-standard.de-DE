@@ -1,10 +1,10 @@
 ---
-title: Festlegen der richtigen Audience
+title: Definieren der richtigen Zielgruppe
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "Wenn Ihr Inhalt fertiggestellt ist, müssen Sie sorgfältig auswählen, wer Ihre Nachricht erhalten soll."
+description: Wenn Sie Ihren Inhalt fertig haben, erfahren Sie, wie Sie sorgfältig definieren, wer Ihre Nachricht erhalten wird.
 feature: Deliverability
 role: User
 level: Intermediate
@@ -12,7 +12,7 @@ exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 

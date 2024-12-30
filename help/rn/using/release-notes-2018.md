@@ -9,7 +9,7 @@ exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '5442'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -305,7 +305,7 @@ _Benutzerdefinierte Ressourcen_
     <ul> 
      <li> Optische Gestaltung und Erstellung vollständig personalisierter, responsiver E-Mails mithilfe einer Drag &amp; Drop-Benutzeroberfläche optimiert durch native Creative-Cloud-Integrationen </li> 
      <li> Erstellung und Speicherung einer E-Mail Inhaltsvorlage und Verwendung gespeicherter Vorlagen zur Vereinfachung der E-Mail-Erstellung </li> 
-     <li> Erstellung und Speicherung von Inhaltsfragmenten (z. B. Header, Footer, Artikel) Optimierung des Inhaltserstellungsprozesses und Gewährleistung von Markenkonsistenz </li> 
+     <li> Erstellen und speichern Sie Inhaltsfragmente (wie Kopf- und Fußzeilen, Artikel usw.), um die Inhaltserstellung zu optimieren und die Markenkonsistenz sicherzustellen </li> 
      <li> Nahtloser Wechsel zwischen der Erstellung in der Drag &amp; Drop-Benutzeroberfläche und der direkten Bearbeitung von HTML-Code einer E-Mail per Tastendruck </li> 
     </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weiterführende Informationen finden Sie im <a href="../../designing/using/designing-content-in-adobe-campaign.md">entsprechenden Handbuch</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">Video</a>.<br />. </td> 
   </tr> 

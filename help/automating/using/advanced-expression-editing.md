@@ -107,7 +107,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
 
   >[!NOTE]
   >
-  >Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
+  Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
 
 * Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
 
@@ -200,7 +200,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
    <td> NOT<br /> </td> 
    <td> K. A.<br /> </td> 
    <td> Negative Form des Operators <span class="uicontrol">ist wie</span>. Hier dürfen die ausgegebenen Daten nicht dem angegebenen Wert ähneln. Auch in diesem Fall ist der Platzhalter <span class="uicontrol">%</span> zu verwenden.<br /> </td> 
-   <td> <strong>@lastName NOT Schmi%t</strong>. Hier werden die Empfängerinnen und Empfänger, die dem Namen „Schmi%t“ entsprechen (also Schmidt, Schmitt etc.), nicht als Ergebnis zurückgegeben.<br /> </td> 
+   <td> <strong>@lastName NOT Schmi%t</strong>. Alle Empfänger mit Nachnamen Schmiedt, Schmidt, Schmitt etc. werden ausgeschlossen.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Ist leer</span> <br /> </td> 

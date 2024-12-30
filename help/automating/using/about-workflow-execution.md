@@ -24,7 +24,7 @@ Workflows werden grundsätzlich manuell gestartet, können jedoch anschließend 
 >
 > Adobe empfiehlt Kunden, nicht mehr als 20 aktive Workflows gleichzeitig auszuführen und die Ausführung von Workflows zu priorisieren sowie über die Zeit zu verteilen. Weitere Informationen hierzu finden Sie in den Best Practices auf [dieser Seite](../../automating/using/best-practices-workflows.md).
 
-Aktionen im Zusammenhang mit der Ausführung (Start, Stopp, Pause usw.) sind **asynchrone** Prozesse: der Befehl wird gespeichert und erst dann ausgeführt, wenn der Server verfügbar ist.
+Bei Aktionen bezüglich der Ausführung des Workflows (Start, Stopp, Pause etc.) handelt es sich um **asynchrone** Prozesse, d. h. der jeweilige Befehl wird gespeichert und erst dann ausgeführt, wenn ein Server verfügbar ist.
 
 Die Übermittlung der Ergebnisse der einzelnen Workflow-Aktivitäten erfolgt über Transitionen, welche in Form von Pfeilen dargestellt werden.
 

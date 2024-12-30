@@ -12,7 +12,7 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
 source-wordcount: '5272'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 100%
 * Fehlerkorrektur – Die Prozentwerte für Klicks-Berichte werden jetzt angezeigt, wenn Inhalte aus einer URL importiert werden. (CAMP-44468)
 * Fehlerkorrektur – Beim Auswählen eines Profils, das im Zusammenhang mit der Profilersetzung verwendet werden sollte, wird kein Timeout-Fehler mehr angezeigt. (CAMP-44746)
 * Fehlerkorrektur – Instanzen funktionieren jetzt nach der Bereitstellung von benutzerdefinierten Ressourcen, die falsche Link-Definitionen enthalten. (CAMP-44406)
-* Fehlerkorrektur – Es werden keine leeren verknüpften Entitäten (Typologien, Marken usw.) nach dem Kopieren und Einfügen eines Versands in eine Kampagnenvorlage erstellt. (CAMP-44765)
+* Fehlerkorrektur - Jetzt werden keine leeren verknüpften Entitäten (Typologien, Marken usw.) mehr erstellt, nachdem ein Versand kopiert und in eine Kampagnenvorlage eingefügt wurde. (CAMP-44765)
 * Fehlerkorrektur – Im Falle eines Datenbankabsturzes oder eines einfachen Datenbankneustarts unter Azure werden Testsendungen nicht mehr aufgrund einer fehlerhaften Handhabung von Versandvorbereitungstabellen verhindert.
 * Fehlerkorrektur – Es können jetzt Links mit Experience Manager-Inhalten in einem Versand mit mehrsprachigen Inhalten gelöscht werden. (CAMP-44029)
 * Fehlerkorrektur – In dynamischen Berichten können Dimensionen jetzt gefiltert werden, ohne dass eine Fehlermeldung angezeigt wird. (CAMP-43097)

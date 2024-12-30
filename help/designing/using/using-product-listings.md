@@ -1,5 +1,5 @@
 ---
-title: Produktlisten in Transaktionsnachrichten verwenden
+title: 'Produktlisten in Transaktionsnachrichten verwenden            '
 description: Erfahren Sie, wie Sie Produktlisten in Transaktionsnachrichten verwenden.
 audience: designing
 content-type: reference

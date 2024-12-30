@@ -1,10 +1,10 @@
 ---
-title: Vor dem Senden prüfen
+title: Prüfen vor dem Senden
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "Erfahren Sie, wie Sie im Anschluss an die Fertigstellung Ihrer Nachricht alle Prüfungen durchführen, bevor Sie sie versenden."
+description: Sobald Ihre Nachricht fertig ist, erfahren Sie, wie Sie alle Prüfungen vor dem Senden durchführen
 feature: Deliverability
 role: User
 level: Intermediate
@@ -12,7 +12,7 @@ exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Weitere Informationen finden Sie in [diesem Abschnitt](../../sending/using/email
 
 ## Nachrichten in Testsendungen {#proof-messages}
 
-Mit Testsendungen können Sie den Abmelde-Link, die Mirrorseite und andere Links testen, die Nachricht validieren, die Anzeige von Bildern überprüfen, mögliche Fehler erkennen etc. Außerdem können Sie Ihr Design und die Darstellung auf verschiedenen Geräten testen.
+Mit Testsendungen können Sie den Ausschluss-Link, die Mirrorseite und andere Links testen, die Nachricht validieren, die Anzeige von Bildern überprüfen und mögliche Fehler erkennen. Außerdem können Sie das Design und die Darstellung auf verschiedenen Geräten testen.
 
 Weiterführende Informationen finden Sie [in diesem Abschnitt](../../sending/using/sending-proofs.md).
 

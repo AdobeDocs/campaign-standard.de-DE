@@ -1,6 +1,6 @@
 ---
 title: Zugriff auf Nachrichten
-description: "Hier erfahren Sie, wie Sie auf Nachrichten und ihre erweiterten Funktionen zugreifen können: Erstellung, Zielgruppenbestimmung, Personalisierung, Durchführung und Reporting."
+description: 'Hier erfahren Sie, wie Sie auf Nachrichten und ihre erweiterten Funktionen zugreifen können: Erstellung, Targeting, Personalisierung, Durchführung und Reporting.'
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels

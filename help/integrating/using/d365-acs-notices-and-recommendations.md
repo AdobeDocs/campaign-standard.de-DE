@@ -11,7 +11,7 @@ exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '2526'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -126,7 +126,7 @@ Wenn Sie sich in der Region EMEA oder APAC befinden, werden einige Ihrer Daten i
 
 >[!IMPORTANT]
 >
->Bestimmte Aktionen (z. B. anfängliche Aufnahme von Datensätzen, erneutes Abspielen von Datensatzdaten usw.) können dazu führen, dass eine große Anzahl von Datensätzen von Microsoft Dynamics 365 in Ihre Adobe Campaign-Instanz aufgenommen wird. Um das Risiko von Performance-Problemen zu verringern, wird empfohlen, alle Campaign-Prozesse anzuhalten (z. B. keine Marketing-Aktivitäten, keine laufenden Workflows usw.), bis die große Menge an Datensätzen in Campaign aufgenommen wurde.
+>Bestimmte Aktionen Ihrerseits (z. B. anfängliche Aufnahme von Datensätzen, Wiederholung von Datensatzdaten usw.) können dazu führen, dass eine große Anzahl von Datensätzen von Microsoft Dynamics 365 in Ihre Adobe Campaign-Instanz aufgenommen wird. Um das Risiko von Leistungsproblemen zu verringern, wird empfohlen, alle Campaign-Prozesse (z. B. keine Marketing-Aktivität, keine Ausführung von Workflows usw.) zu stoppen, bis die große Menge an Datensätzen in Campaign aufgenommen wurde.
 
 ### Benutzerdefinierte Entitäten
 

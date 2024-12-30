@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Personalisierte Inhalte erstellen {#build-personalized-content}
+# Erstellen personalisierter Inhalte {#build-personalized-content}
 
 Versuchen Sie beim Entwerfen Ihres Nachrichteninhalts gängige Probleme zu vermeiden, die den Versand verhindern könnten. In den meisten Fällen beziehen sich mögliche Fehler auf [Personalisierung](../../designing/using/personalization.md), Formatierung bei der [Verwendung eines vorhandenen Inhalts](../../designing/using/using-existing-content.md) – und [Konvertierung eines HTML-Inhalts](../../designing/using/using-existing-content.md#converting-an-html-content) – sowie auf [Bilder](../../designing/using/images.md).
 
