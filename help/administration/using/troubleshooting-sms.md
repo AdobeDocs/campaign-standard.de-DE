@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '2710'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -141,7 +141,7 @@ Verringerung der Anzahl von Duplikaten bei einer Wiederholung:
 
 ## Problem bei der Verarbeitung von SR (Empfangsbestätigungen) {#issue-process-SR}
 
-* Sie müssen SMPP-Traces aktivieren, um jegliche Art von SR-Fehlerbehebung durchzuführen.
+* Sie müssen die SMPP-Verfolgung aktivieren, um jegliche Art von SR-Fehlerbehebung durchzuführen.
 
 * Überprüfen Sie, ob die `DELIVER_SM PDU` vom Provider kommt und korrekt formuliert ist.
 

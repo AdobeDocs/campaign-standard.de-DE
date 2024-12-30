@@ -1,5 +1,5 @@
 ---
-title: Verwaltung von Testprofilen
+title: 'Verwaltung von Testprofilen '
 description: Erfahren Sie, wie Sie Testprofile verwalten.
 audience: sending
 content-type: reference
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
