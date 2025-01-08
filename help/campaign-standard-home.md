@@ -3,10 +3,10 @@ keywords: Campaign Standard;home;popular topics
 title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaign Standard und die Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](rn/using/release-notes.md). Aktuelle Informationen zu den neuesten Änderungen in unserer Dokumentation finden Sie auf der [Seite mit den Dokumentationsaktualisierungen](rn/using/documentation-updates.md).
+Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaign Standard und die Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](rn/using/release-notes.md).
 
 >[!BEGINTABS]
 
@@ -24,9 +24,9 @@ Wir freuen uns, Ihnen mitteilen zu können, dass Adobe Campaign Standard-Benutze
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/de/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB Campaign-Version 24.2 ist online!]
+>[!TAB Campaign-Version 25.1 ist online!]
 
-Entdecken Sie die neuen Funktionen, Verbesserungen und Fehlerbehebungen der Version 24.2 von Campaign Standard.
+Erfahren Sie mehr über Verbesserungen und Fehlerbehebungen in Version 25.1 von Campaign Standard.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
