@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Andere Fehlerbehebungen {#winter-25-fixes}
 
 
-* URL &#39;Datenschema&#39; im Bildschirm &#39;Abonnementzusammenfassung&#39; korrigiert (CAMP-56168, CAMP-56296)
-* Fehlerkorrektur - Die Ermüdungsregeln werden jetzt nicht mehr umgangen, wenn die Option **Nachricht sofort senden** verwendet wird (CAMP-56866, CAMP-57033)
+* Fehlerkorrektur – Die Datenschema-URL im Bildschirm für die Zusammenfassung des Abonnements ist jetzt richtig (CAMP-56168, CAMP-56296).
+* Fehlerkorrektur – Die Ermüdungsregeln werden jetzt nicht mehr umgangen, wenn die Option **Nachricht sofort senden** verwendet wird (CAMP-56866, CAMP-57033).
 * Fehlerkorrektur – In Vorlagen tritt jetzt kein Duplikatproblem mehr auf (CAMP-56340).
 * Fehlerkorrektur – Es wurde eine Tracking-Regression behoben, die auftrat, wenn in Adobe Experience Manager-Vorlagen dynamische URLs verwendet wurden (CAMP-51932).
 * Fehlerkorrektur – Beim Abrechnungsprozess treten jetzt keine Leistungsprobleme mehr auf (CAMP-56796).
