@@ -8,8 +8,8 @@ level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
 source-git-commit: 64da7ac09e1b0fbf13ba1e563b6dc7be995b1640
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '542'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Das **[!UICONTROL Audit-Protokoll]** bietet Ihnen Zugriff auf den vollständigen Verlauf der Änderungen, die in Ihrer Instanz vorgenommen wurden.
 
-Das **[!UICONTROL Audit-Protokoll]** erfasst in Echtzeit zahlreiche Aktionen und Ereignisse, die in Ihrer Adobe Campaign-Instanz auftreten. Es bietet eine Möglichkeit für den Zugriff auf einen Datenverlauf, um zum Beispiel folgende Fragen zu beantworten: Was ist mit Ihren Workflows, benutzerdefinierten Ressourcen und Optionen geschehen und wer hat sie zuletzt aktualisiert? Was haben Ihre Benutzer in der Instanz getan?
+Das **[!UICONTROL Audit-Protokoll]** erfasst in Echtzeit zahlreiche Aktionen und Ereignisse, die in Ihrer Adobe Campaign Standard-Instanz auftreten. Es bietet eine Möglichkeit für den Zugriff auf einen Datenverlauf, um zum Beispiel folgende Fragen zu beantworten: Was ist mit Ihren Workflows, benutzerdefinierten Ressourcen und Optionen geschehen und wer hat sie zuletzt aktualisiert? Was haben Ihre Benutzer in der Instanz getan?
 
 ![](assets/audit-trail.png)
 

@@ -26,7 +26,7 @@ Ein **[!UICONTROL Daten-Update]** ermöglicht eine gebündelte Aktualisierung de
 
 ## Anwendungskontext {#context-of-use}
 
-Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwendet, um die neuen Daten in die Adobe-Campaign-Datenbank zu integrieren. Die Art der Datenbankaktualisierung kann über verschiedene Optionen definiert werden.
+Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwendet, um die neuen Daten in die Adobe Campaign-Datenbank zu integrieren. Die Art der Datenbankaktualisierung kann über verschiedene Optionen definiert werden.
 
 **Verwandte Themen:**
 

@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '671'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messe
 
 Ein Programm ist die höchste Organisationsebene Es kann Unterprogramme, Kampagnen, Workflows und Landingpages enthalten.
 
-1. Wählen Sie auf der Adobe-Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]** aus.
+1. Wählen Sie auf der Adobe Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]** aus.
 1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
 1. Wählen Sie im **[!UICONTROL Erstellmodus]**-Bildschirm unter den verfügbaren Vorlagen den gewünschten Programmtyp aus.
 
@@ -68,7 +68,7 @@ Das Programm wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 
 Zu Programmen und Unterprogrammen können Kampagnen hinzugefügt werden. Kampagnen können Marketing-Aktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows und Landingpages enthalten.
 
-1. Wählen Sie auf der Adobe-Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]** aus und greifen Sie auf ein Programm oder Unterprogramm zu.
+1. Wählen Sie auf der Adobe Campaign-Startseite die Karte **[!UICONTROL Programme &amp; Kampagnen]** aus und greifen Sie auf ein Programm oder Unterprogramm zu.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Erstellen]** und wählen Sie danach **[!UICONTROL Kampagne]** aus.
 1. Wählen Sie im **[!UICONTROL Erstellmodus]**-Bildschirm den gewünschten Kampagnentyp aus.
 

@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Kanalübergreifenden Versand erstellen{#cross-channel-delivery}
 
-Anhand dieses typischen Anwendungsbeispiels wird insbesondere die folgende Adobe-Campaign-Funktion vorgestellt: Erstellung eines Workflows zum kanalübergreifenden Versand.
+Anhand dieses typischen Anwendungsbeispiels wird insbesondere die folgende Adobe Campaign-Funktion vorgestellt: Erstellung eines Workflows zum kanalübergreifenden Versand.
 
 Das Ziel besteht darin, aus den Empfängern der Datenbank eine Audience auszuwählen und diese in zwei gesonderte Gruppen zu unterteilen, um der ersten Gruppe eine E-Mail und der zweiten Gruppe eine SMS zukommen zu lassen.
 

@@ -29,7 +29,7 @@ Je nach Konfiguration sind die folgenden Arten von Bildern verfügbar:
 
 >[!CAUTION]
 >
->Wenn Sie ein Bild direkt durch Bearbeiten der HTML-Version der E-Mail hinzufügen möchten, dürfen Sie keine **externen Dateien in einem &lt;script>-Tag** der HTML-Seite aufrufen. Der Adobe-Campaign-Server erlaubt keinen Import derartiger Dateien.
+>Wenn Sie ein Bild direkt durch Bearbeiten der HTML-Version der E-Mail hinzufügen möchten, dürfen Sie keine **externen Dateien in einem &lt;script>-Tag** der HTML-Seite aufrufen. Der Adobe Campaign-Server erlaubt keinen Import derartiger Dateien.
 
 ### Bilder in eine E-Mail einfügen       {#inserting-images-in-an-email}
 

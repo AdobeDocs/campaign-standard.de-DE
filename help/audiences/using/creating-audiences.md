@@ -11,8 +11,8 @@ level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1017'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 In diesem Abschnitt wird die Erstellung einer Audience vom Typ **Abfrage** beschrieben. Audiences lassen sich des Weiteren in einem [Workflow](../../automating/using/get-started-workflows.md) mithilfe eines Dateiimports oder einer Zielgruppenbestimmung erstellen.
 
-Ausgehend von der Audience-Liste erfolgt die Erstellung von Audiences entweder mittels Abfrage von Adobe-Campaign-Profilen oder durch Importieren einer Zielgruppe aus Adobe Experience Cloud.
+Ausgehend von der Audience-Liste erfolgt die Erstellung von Audiences entweder mittels Abfrage von Adobe Campaign-Profilen oder durch Importieren einer Zielgruppe aus Adobe Experience Cloud.
 
 1. Der Zugriff auf die Audience-Liste erfolgt über den Tab bzw. die Karte **[!UICONTROL Audiences]**.
 
@@ -111,7 +111,7 @@ Damit diese Integration funktioniert, muss sie zuerst konfiguriert werden. Weite
 
 Die Vorgehensweise zur Bearbeitung von Audiences hängt vom jeweiligen Typ ab:
 
-* Greifen Sie zur Änderung einer Audience vom Typ **Abfrage** über das **[!UICONTROL Audiences]**-Menü oder die **[!UICONTROL Audiences]**-Karte auf der Adobe-Campaign-Startseite auf die Liste der Audiences zu.
+* Greifen Sie zur Änderung einer Audience vom Typ **Abfrage** über das **[!UICONTROL Audiences]**-Menü oder die **[!UICONTROL Audiences]**-Karte auf der Adobe Campaign-Startseite auf die Liste der Audiences zu.
 
   Öffnen Sie die gewünschte Audience. Alle Elemente einer bereits konfigurierten Audience können geändert werden.
 

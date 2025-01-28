@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Schritt 2: Erweiterung veröffentlichen{#step-publish-the-extension}
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Veröffentlichung]** auf das entsprechende Menü zu.
+1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration]** > **[!UICONTROL Entwicklung]** > **[!UICONTROL Veröffentlichung]** auf das entsprechende Menü zu.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Veröffentlichung vorbereiten]**.
 1. Wählen Sie die Option **[!UICONTROL Die Profiles &amp; Services Ext API erstellen]** aus.
 

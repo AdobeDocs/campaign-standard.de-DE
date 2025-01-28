@@ -26,7 +26,7 @@ Diese Konfiguration wird im Bereich **[!UICONTROL Automatische Antwort auf MO]**
 
 Gehen Sie dabei folgendermaßen vor:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration > Anwendungskonfiguration > externe Konten]** und dann über das externe Konto **[!UICONTROL SMS-Routing durch SMPP]** auf das entsprechende Menü zu.
+1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration > Anwendungskonfiguration > externe Konten]** und dann über das externe Konto **[!UICONTROL SMS-Routing durch SMPP]** auf das entsprechende Menü zu.
 1. Klicken Sie unter der Kategorie **[!UICONTROL Automatische Antwort auf MO]** auf **[!UICONTROL Element erstellen]**, um Ihre automatische Antwort zu konfigurieren.
 
    ![](assets/sms_mo_1.png)

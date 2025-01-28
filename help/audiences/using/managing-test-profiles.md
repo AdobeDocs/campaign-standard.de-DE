@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
 ## Testprofile erstellen {#creating-test-profiles}
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos auf das erweiterte Menü **Profile &amp; Audiences > Testprofile** zu, um die Liste mit Testprofilen aufzurufen.
+1. Greifen Sie mithilfe des Adobe Campaign-Logos auf das erweiterte Menü **Profile &amp; Audiences > Testprofile** zu, um die Liste mit Testprofilen aufzurufen.
 
    ![](assets/test_profile_creation_1.png)
 

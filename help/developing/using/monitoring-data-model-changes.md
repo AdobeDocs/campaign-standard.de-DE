@@ -1,6 +1,6 @@
 ---
 title: Änderungen an Datenmodellen verfolgen
-description: Hier erfahren Sie, wie Sie eine Diagnose des Adobe-Campaign-Datenmodells erstellen können.
+description: Hier erfahren Sie, wie Sie eine Diagnose des Adobe Campaign-Datenmodells erstellen können.
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources

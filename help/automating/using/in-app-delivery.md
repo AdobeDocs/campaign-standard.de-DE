@@ -50,7 +50,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 
 1. Wählen Sie den In-App-Nachrichtentyp aus. Dieser hängt von den in der **[!UICONTROL Abfrage]**-Aktivität verwendeten Daten ab.
 
-   * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils]**: Mit diesem Nachrichtentyp können Sie Adobe-Campaign-Profile auswählen, die sich für Ihre Mobile App angemeldet haben, und In-App-Nachrichten mit in Campaign verfügbaren Profilattributen personalisieren.
+   * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils]**: Mit diesem Nachrichtentyp können Sie Adobe Campaign-Profile auswählen, die sich für Ihre Mobile App angemeldet haben, und In-App-Nachrichten mit in Campaign verfügbaren Profilattributen personalisieren.
    * **[!UICONTROL Alle Nutzer einer Mobile App auswählen]**: Mit diesem Nachrichtentyp können Sie eine Nachricht an alle Benutzer Ihrer Mobile App senden, selbst wenn in Campaign kein Profil existiert.
    * **[!UICONTROL Nutzer der Zielgruppe auf der Basis ihres mobilen Profils]**: Mit diesem Nachrichtentyp können Sie alle Benutzer einer Mobile App auswählen, von denen ein bekanntes oder unbekanntes mobiles Profil in Campaign existiert, und In-App-Nachrichten mit vom Mobilgerät empfangenen Profilattributen personalisieren.
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2305'
+ht-degree: 100%
 
 ---
 
@@ -236,7 +236,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
    * Ein Problem bei der Zustellbarkeit
    * Ein fehlerhafter Workflow
 
-  Wenn der Versand durch einen Workflow ausgelöst wird, prüfen Sie, ob der Workflow korrekt gestartet wurde. Weiterführende Informationen dazu finden Sie unter [Workflow ausführen](../../automating/using/about-workflow-execution.md). Sollten die Probleme fortbestehen, wenden Sie sich an Ihren Adobe-Campaign-Administrator.
+  Wenn der Versand durch einen Workflow ausgelöst wird, prüfen Sie, ob der Workflow korrekt gestartet wurde. Weiterführende Informationen dazu finden Sie unter [Workflow ausführen](../../automating/using/about-workflow-execution.md). Sollten die Probleme fortbestehen, wenden Sie sich an Ihren Adobe Campaign-Administrator.
 
 * **[!UICONTROL Sendungen mit fehlgeschlagener Vorbereitung]**: Bei der Versandvorbereitung kann in folgenden Fällen ein Fehler auftreten:
 
@@ -271,7 +271,7 @@ Hier sind einige mögliche Gründe für den Erhalt von Warnungsbenachrichtigunge
 
   **[!UICONTROL Sendungen mit geringem Durchsatz]**: Hierbei handelt es sich ebenfalls um ein Problem mit der Zustellbarkeit, das darauf hinweist, dass der MTA zu langsam ist.
 
-  Wenden Sie sich an Ihren Adobe-Campaign-Administrator, um Näheres dazu zu erfahren.
+  Wenden Sie sich an Ihren Adobe Campaign-Administrator, um Näheres dazu zu erfahren.
 
 **Verwandte Themen:**
 

@@ -130,7 +130,7 @@ Die dedizierte **Symbolleiste** ist ein kontextuelles Element der Editor-Oberfl�
    <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Link zu einer Landingpage</span> <br /> </td> 
    <td> Jegliches Element<br /> </td> 
-   <td> Ermöglicht den Zugriff auf eine Adobe-Campaign-Landingpage. Weiterführende Informationen zur Konfiguration eines Links finden Sie im Abschnitt <a href="../../designing/using/links.md#inserting-a-link">Link einfügen</a>.<br /> </td> 
+   <td> Ermöglicht den Zugriff auf eine Adobe Campaign-Landingpage. Weiterführende Informationen zur Konfiguration eines Links finden Sie im Abschnitt <a href="../../designing/using/links.md#inserting-a-link">Link einfügen</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Zur Verfolgung des An- und Abmeldeverhaltens bieten sich Ihnen verschiedene Opti
 
 Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Dienst angemeldet sind:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
+1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
 1. Wählen Sie den gewünschten Dienst aus, um sein Dashboard anzuzeigen.
 1. Die Liste der angemeldeten Kontakte ist im Tab **Abonnements** verfügbar.
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Di
 
 Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
+1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
 1. Wählen Sie den gewünschten Dienst aus, um sein Dashboard anzuzeigen.
 1. Gehen Sie in den Tab **Abonnement-Verlauf**, um die zeitliche Verteilung der An- und Abmeldungen anzuzeigen.
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
 Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeigen:
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
+1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **Profile &amp; Audiences** > **Dienste** auf die Liste der Dienste zu.
 1. Wählen Sie den gewünschten Dienst aus, um sein Dashboard anzuzeigen.
 1. Klicken Sie in der Aktionsleiste auf die Schaltfläche **Berichte** und im Auswahlbildschirm auf **Abonnement-Verfolgung**.
 

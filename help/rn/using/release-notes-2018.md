@@ -68,7 +68,7 @@ ht-degree: 99%
 * Fehlerkorrektur – Das Datum des Abonnements eines Dienstes wird jetzt aktualisiert, wenn es über einen Dateiimport importiert wird.
 * Fehlerkorrektur – Dateien werden jetzt auch dann korrekt importiert, wenn ein Workflow eine Datei-laden-Aktivität enthält (CAMP-27068).
 * Fehlerkorrektur – In Dienstzusammenfassungsberichten wird jetzt nicht mehr die falsche Anzahl von Abonnements angezeigt (CAMP-25587).
-* Fehlerkorrektur – Die Daten in Adobe-Analytics- und Adobe-Campaign-Berichten weichen jetzt nicht mehr voneinander ab. (CAMP-25393)
+* Fehlerkorrektur – Die Daten in Adobe-Analytics- und Adobe Campaign-Berichten weichen jetzt nicht mehr voneinander ab. (CAMP-25393)
 * Fehlerkorrektur – Benutzer mit beschränktem Zugriff können sich jetzt anmelden. (CAMP-27381)
 * Fehlerkorrektur – Die Liste der Adobe-Experience-Manager-Inhalte kann jetzt angezeigt werden, wenn eine E-Mail mit Creative Designer bearbeitet wird. (CAMP-27181)
 * Fehlerkorrektur – Creative Designer kann jetzt geöffnet werden und erzeugt keinen Fehler mehr. (CAMP-27304)

@@ -1,6 +1,6 @@
 ---
 title: Bildschirmdefinition konfigurieren
-description: Hier erfahren Sie, wie Sie auf der Basis der Ressource-Datenstruktur neue Adobe-Campaign-Bildschirme definieren.
+description: Hier erfahren Sie, wie Sie auf der Basis der Ressource-Datenstruktur neue Adobe Campaign-Bildschirme definieren.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource

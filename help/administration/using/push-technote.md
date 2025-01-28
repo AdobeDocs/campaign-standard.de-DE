@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1158'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Die Migration zu den neuesten APIs ist obligatorisch, um Dienstunterbrechungen z
 
 #### Voraussetzungen {#fcm-transition-prerequisites}
 
-* Die Unterstützung des **HTTP v1-API**-Modus wurde in Version 24.1 hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Campaign Classic-Version](../../rn/using/release-notes.md) zu aktualisieren. 
+* Die Unterstützung des **HTTP v1-API**-Modus wurde in Version 24.1 hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Campaign Standard-Version](../../rn/using/release-notes.md) zu aktualisieren. 
 
 * Die JSON-Datei des Kontos des Firebase Admin SDK-Dienstes ist erforderlich, damit die Mobile App auf HTTP v1 verschoben wird. In der [Dokumentation zu Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} erfahren Sie, wie Sie diese Datei erhalten.
 

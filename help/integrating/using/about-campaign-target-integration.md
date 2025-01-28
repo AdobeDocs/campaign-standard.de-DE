@@ -1,6 +1,6 @@
 ---
 title: Über die Integration von Campaign mit Target
-description: Durch die Integration von Adobe Target können Sie in Adobe Target erstellte dynamische Bilder in Adobe-Campaign-Nachrichten einfügen.
+description: Durch die Integration von Adobe Target können Sie in Adobe Target erstellte dynamische Bilder in Adobe Campaign-Nachrichten einfügen.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
@@ -23,7 +23,7 @@ Durch diese Integration erhalten Empfänger über Adobe Campaign E-Mails mit ein
 
 Mit Adobe Target können verschiedene Datentypen zum Einsatz kommen:
 
-* Daten aus dem Adobe-Campaign-Datamart;
+* Daten aus dem Adobe Campaign-Datamart;
 * Segmente im Zusammenhang mit der Visitor ID in Adobe Target, wenn die verwendeten Daten keinen rechtlichen Beschränkungen unterliegen;
 * Daten aus Adobe Target (user agent, IP address, Daten bezüglich der Geolokalisierung).
 

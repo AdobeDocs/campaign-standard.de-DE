@@ -1,6 +1,6 @@
 ---
 title: Package-Verwaltung
-description: Administratoren können Packages definieren, mit denen der Austausch von Ressourcen zwischen verschiedenen Adobe-Campaign-Instanzen über strukturierte XML-Dateien ermöglicht wird.
+description: Administratoren können Packages definieren, mit denen der Austausch von Ressourcen zwischen verschiedenen Adobe Campaign-Instanzen über strukturierte XML-Dateien ermöglicht wird.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Package-Verwaltung{#managing-packages}
 
-Administratoren können Packages definieren, mit denen der Austausch von Ressourcen zwischen verschiedenen Adobe-Campaign-Instanzen über strukturierte XML-Dateien ermöglicht wird. Packages können Konfigurationsparameter oder Daten enthalten.
+Administratoren können Packages definieren, mit denen der Austausch von Ressourcen zwischen verschiedenen Adobe Campaign-Instanzen über strukturierte XML-Dateien ermöglicht wird. Packages können Konfigurationsparameter oder Daten enthalten.
 
 Sie kommen insbesondere zur Replikation von Daten oder Parametern auf andere Server bzw. Instanzen zur Anwendung.
 
@@ -40,7 +40,7 @@ Klicken Sie zur Anzeige und Bearbeitung des Inhalts eines Elements auf dessen Ti
 
 >[!IMPORTANT]
 >
->Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe-Campaign-Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert &quot;SDM&quot; bzw. &quot;sdm&quot; enthält.
+>Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe Campaign Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert &quot;SDM&quot; bzw. &quot;sdm&quot; enthält.
 >
 >Wenn Sie versuchen, Packages zu exportieren, die Standard-Kennungen enthalten, wird beispielsweise folgender Fehler angezeigt: &quot;Die Entität vom Typ &#39;Marken (Branding)&#39; verwendet eine Standard-Kennung (&#39;BRD1&#39;), die beim Package-Import einen Konflikt auslösen könnte. Ändern Sie die Kennung und wiederholen Sie den Vorgang.&quot;
 
@@ -100,7 +100,7 @@ Durch den Export von Packages können Sie einen bestimmten Status einer Ressourc
 
 >[!CAUTION]
 >
->Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe-Campaign-Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert &quot;SDM&quot; bzw. &quot;sdm&quot; enthält.
+>Der Package-Export ist nicht zulässig, wenn die zu exportierenden Ressourcen Standard-Kennungen aufweisen. Deshalb ist es notwendig, die Kennungen exportierbarer Ressourcen so abzuändern, dass sie sich von den automatisch vergebenen Kennungen in Adobe Campaign Standard unterscheiden. Zum Beispiel darf beim Export von Testprofilen keine Kennung verwendet werden, die den Wert &quot;SDM&quot; bzw. &quot;sdm&quot; enthält.
 
 1. Wählen Sie in **[!UICONTROL Administration]** > **[!UICONTROL Freigabe]** > **[!UICONTROL Package-Exporte]** ein Package, um dessen Details anzuzeigen.
 1. Prüfen Sie, ob das Package die gewünschten Daten enthält.
@@ -140,7 +140,7 @@ In der **[!UICONTROL Ausführungslogs]**-Ansicht werden alle Importetappen angez
 
 ### Package importieren      {#importing-a-package}
 
-Ein Administrator kann ein zuvor aus einer Adobe-Campaign-Instanz exportiertes Package manuell importieren. Weiterführende Informationen finden Sie im Abschnitt [Package-Exporte](#package-exports).
+Ein Administrator kann ein zuvor aus einer Adobe Campaign-Instanz exportiertes Package manuell importieren. Weiterführende Informationen finden Sie im Abschnitt [Package-Exporte](#package-exports).
 
 Der manuelle Package-Import erfolgt in zwei Schritten: Eine Datei muss zunächst hochgeladen werden, bevor ihr Inhalt importiert werden kann.
 

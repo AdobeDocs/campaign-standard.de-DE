@@ -107,7 +107,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 
 ![](assets/tab_share_1.png)
 
-Im Tab **[!UICONTROL Freigabe]** können Sie Adobe-Campaign-Benutzern Berichte mit einmaligen oder wiederkehrenden E-Mails senden. Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang.
+Im Tab **[!UICONTROL Freigabe]** können Sie Adobe Campaign-Benutzern Berichte mit einmaligen oder wiederkehrenden E-Mails senden. Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang.
 
 * **[!UICONTROL Bericht jetzt senden]**: Senden Sie Ihren Bericht an eine Liste ausgewählter Empfänger mit einer einmaligen E-Mail.
 

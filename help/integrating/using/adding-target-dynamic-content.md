@@ -1,6 +1,6 @@
 ---
 title: Dynamische Inhalte aus Target einfügen
-description: Hier erfahren Sie, wie Sie dynamischen Inhalt von Adobe Target in Adobe-Campaign-Sendungen einfügen können.
+description: Hier erfahren Sie, wie Sie dynamischen Inhalt von Adobe Target in Adobe Campaign-Sendungen einfügen können.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target

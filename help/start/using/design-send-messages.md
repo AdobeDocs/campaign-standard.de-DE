@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
-Sichern Sie sich die Aufmerksamkeit Ihrer Kunden und verbessern Sie die Öffnungsrate mithilfe einer weitreichenden Personalisierung von Inhalt und Nachrichten-Headern, die dem jeweiligen Profil, den Vorlieben und dem Verhalten von Kunden angepasst sind. Die Adobe-Campaign-Datenbank aggregiert alle zu Ihren Kontakten verfügbaren Informationen und bietet so die Möglichkeit, ersteren individuelle und relevante Nachrichten über verschiedene Kanäle hinweg anzubieten.
+Sichern Sie sich die Aufmerksamkeit Ihrer Kunden und verbessern Sie die Öffnungsrate mithilfe einer weitreichenden Personalisierung von Inhalt und Nachrichten-Headern, die dem jeweiligen Profil, den Vorlieben und dem Verhalten von Kunden angepasst sind. Die Adobe Campaign-Datenbank aggregiert alle zu Ihren Kontakten verfügbaren Informationen und bietet so die Möglichkeit, ersteren individuelle und relevante Nachrichten über verschiedene Kanäle hinweg anzubieten.
 
 Personalisierte Nachrichten sind wichtig, wenn Sie relevante Inhalte versenden, personalisierte Erlebnisse anbieten und die Öffnungs- und Konversionsraten steigern möchten. Es gibt verschiedene Möglichkeiten, um kanalübergreifende Nachrichten in Adobe Campaign zu personalisieren. Diese Personalisierungsmöglichkeiten können abhängig von den jeweiligen Profilen mit Bedingungen kombiniert werden. Sie haben folgende Möglichkeiten:
 

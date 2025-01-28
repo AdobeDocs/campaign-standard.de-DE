@@ -1,6 +1,6 @@
 ---
 title: Datenbankstruktur aktualisieren
-description: Hier erfahren Sie, wie Sie die Adobe-Campaign-Datenbank aktualisieren.
+description: Hier erfahren Sie, wie Sie die Adobe Campaign-Datenbank aktualisieren.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1306'
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Technische Administratoren haben die Möglichkeit, eine oder mehrere Marken zu d
 
 Konfiguration und Verwendung von Marken basieren auf den folgenden Grundprinzipien:
 
-1. Erstellung und Konfiguration der Marke – dieser Vorgang erfordert spezielle Berechtigungen und ist dem technischen Adobe-Campaign-Administrator vorbehalten. Die Schritte zur Einführung einer neuen Marke in Campaign sind [in diesem Abschnitt](#creating-a-brand) beschrieben.
+1. Erstellung und Konfiguration der Marke – dieser Vorgang erfordert spezielle Berechtigungen und ist dem technischen Adobe Campaign-Administrator vorbehalten. Die Schritte zur Einführung einer neuen Marke in Campaign sind [in diesem Abschnitt](#creating-a-brand) beschrieben.
 1. Erstellung einer oder mehrerer Versand- und Landingpage-Vorlagen für die Marke. Lesen Sie diesbezüglich auch den Abschnitt [Vorlagen erstellen](../../start/using/marketing-activity-templates.md).
 1. Erstellung von auf den Vorlagen basierenden Nachrichten und Landingpages. Lesen Sie diesbezüglich auch die Abschnitte [E-Mails erstellen](../../channels/using/creating-an-email.md) und [Landingpages erstellen](../../channels/using/designing-a-landing-page.md).
 
 >[!IMPORTANT]
 >
->Marken können nicht vom Endnutzer erstellt oder geändert werden. Diese Aktionen müssen von einem technischen Adobe-Campaign-Administrator vorgenommen werden. Bei Fragen wenden Sie sich an die Adobe-Kundenunterstützung.
+>Marken können nicht vom Endnutzer erstellt oder geändert werden. Diese Aktionen müssen von einem technischen Adobe Campaign-Administrator vorgenommen werden. Bei Fragen wenden Sie sich an die Adobe-Kundenunterstützung.
 >
 >Multibranding kann nicht in Verbindung mit Transaktionsnachrichten verwendet werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Transaktionsnachrichten und Branding](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 

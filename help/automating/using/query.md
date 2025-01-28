@@ -1,6 +1,6 @@
 ---
 title: Abfrage
-description: Eine Abfrage dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe-Campaign-Datenbank zusammensetzt.
+description: Eine Abfrage dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe Campaign-Datenbank zusammensetzt.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -36,7 +36,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 **[!UICONTROL Abfragen]** kommen in verschiedenen Kontexten zum Einsatz:
 
 * Segmentierung von Populationen, um beispielsweise Zielgruppen und Audiences zu definieren;
-* Anreicherung von Daten beliebiger Adobe-Campaign-Tabellen;
+* Anreicherung von Daten beliebiger Adobe Campaign-Tabellen;
 * Export von Daten.
 
 ## Konfiguration        {#configuration}
@@ -55,7 +55,7 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
    >
    >Beachten Sie beim Targeting einer Audience, dass die Definition der Audience nicht referenziert wird, sondern in die Abfrage **kopiert** wird. Wenn Sie Änderungen an der Audience vornehmen, nachdem sie in einer Abfrage als Ziel ausgewählt wurde, stellen Sie sicher, dass Sie die Abfrage erneut konfigurieren, um die neue Definition zu berücksichtigen.
 
-1. Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für die Zielpopulation definieren. Diese Daten werden in Zusatzspalten gespeichert und können ausschließlich für den laufenden Workflow verwendet werden. Sie können insbesondere Daten aus Tabellen der Adobe-Campaign-Datenbank hinzufügen, die mit der Zielgruppendimension der Abfrage in Relation stehen. Lesen Sie diesbezüglich auch den Abschnitt [Daten anreichern](#enriching-data).
+1. Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für die Zielpopulation definieren. Diese Daten werden in Zusatzspalten gespeichert und können ausschließlich für den laufenden Workflow verwendet werden. Sie können insbesondere Daten aus Tabellen der Adobe Campaign-Datenbank hinzufügen, die mit der Zielgruppendimension der Abfrage in Relation stehen. Lesen Sie diesbezüglich auch den Abschnitt [Daten anreichern](#enriching-data).
 
    >[!NOTE]
    >

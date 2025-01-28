@@ -11,14 +11,14 @@ level: Beginner
 exl-id: 65310e00-567f-4fae-89bc-b1d5591fca77
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
 # Über Profile{#about-profiles}
 
-Die Adobe-Campaign-Plattform ermöglicht die Verwaltung von Kontakten über den gesamten Zyklus hinweg, von der Erstellung bzw. dem Import über die Zielgruppenbestimmung und das Tracking bis hin zur Aktualisierung. Kontakte werden in der Datenbank in Form von Profilen mit den entsprechenden Informationen – Nachname, Vorname, Adressdaten, Abonnements, Sendungen etc. – gespeichert.
+Die Adobe Campaign-Plattform ermöglicht die Verwaltung von Kontakten über den gesamten Zyklus hinweg, von der Erstellung bzw. dem Import über die Zielgruppenbestimmung und das Tracking bis hin zur Aktualisierung. Kontakte werden in der Datenbank in Form von Profilen mit den entsprechenden Informationen – Nachname, Vorname, Adressdaten, Abonnements, Sendungen etc. – gespeichert.
 
 >[!NOTE]
 >

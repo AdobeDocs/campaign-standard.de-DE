@@ -27,7 +27,7 @@ Vergewissern Sie sich zunächst, dass Sie über folgende Elemente verfügen:
 
 * Adobe-Experience-Manager-**Authoring**-Instanz zur Erstellung der Inhalte,
 * Adobe-Experience-Manager-**Publishing**-Instanz zur Veröffentlichung der Inhalte,
-* Adobe-Campaign-Instanz.
+* Adobe Campaign-Instanz.
 
 ## Konfiguration in Adobe Campaign Standard {#config-acs}
 

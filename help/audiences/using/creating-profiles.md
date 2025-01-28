@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Ein Profil kann in Campaign folgendermaßen erstellt oder aktualisiert werden:
 
 Hier ist ein Beispiel dafür, wie Sie ein neues Profil direkt in der Benutzeroberfläche erstellen können. Gehen Sie dazu folgendermaßen vor:
 
-1. Öffnen Sie auf der Adobe-Campaign-Startseite die Karte **Kundenprofile** oder den Tab **Profile**, um die Profilliste aufzurufen.
+1. Öffnen Sie auf der Adobe Campaign-Startseite die Karte **Kundenprofile** oder den Tab **Profile**, um die Profilliste aufzurufen.
 
    ![](assets/profile_creation_1.png)
 

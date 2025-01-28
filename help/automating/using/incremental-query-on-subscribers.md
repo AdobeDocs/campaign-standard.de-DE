@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Inkrementelle Abfrage bezüglich Service-Abonnenten {#example--incremental-query-on-subscribers-to-a-service}
 
-Im folgenden Beispiel wird die Konfiguration der Aktivität **[!UICONTROL Inkrementelle Abfrage]** illustriert, die der Filterung der Profile der Adobe-Campaign-Datenbank dient, die Abonnenten des Diensts **Running-Newsletter** sind, um diesen eine Willkommens-E-Mail mit einem Sonderangebots-Code zu senden.
+Im folgenden Beispiel wird die Konfiguration der Aktivität **[!UICONTROL Inkrementelle Abfrage]** illustriert, die der Filterung der Profile der Adobe Campaign-Datenbank dient, die Abonnenten des Diensts **Running-Newsletter** sind, um diesen eine Willkommens-E-Mail mit einem Sonderangebots-Code zu senden.
 
 Der Workflow besteht aus folgenden Aktivitäten:
 

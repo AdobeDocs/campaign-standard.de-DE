@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >Ihre Mobile App sollte bereits mit dem Adobe Experience Platform SDK in Adobe Campaign Standard konfiguriert sein. Eine detaillierte Anleitung finden Sie auf dieser [Seite](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
 
-Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Administrator** in der Adobe-Campaign-Benutzeroberfläche konfiguriert werden.
+Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Administrator** in der Adobe Campaign-Benutzeroberfläche konfiguriert werden.
 
 Um Adobe Experience Platform Location Services mit Mobile Apps zu verwenden, die mit dem Adobe Experience Platform SDK konfiguriert wurden, gehen Sie folgendermaßen vor:
 
@@ -40,7 +40,7 @@ Um Adobe Experience Platform Location Services mit Mobile Apps zu verwenden, die
 
 ## Die Integration von POI-Daten in Campaign mithilfe von SDK V4 konfigurieren {#configuring-campaign-poi-sdkv4}
 
-Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Administrator** in der Adobe-Campaign-Benutzeroberfläche konfiguriert werden.
+Mobile Apps, mit denen Standortdaten erfasst werden, müssen von einem **Administrator** in der Adobe Campaign-Benutzeroberfläche konfiguriert werden.
 
 Um die POI-Daten-Funktion mit Mobile Apps zu verwenden, die mit SDK V4 konfiguriert wurden, gehen Sie folgendermaßen vor:
 
@@ -68,7 +68,7 @@ Um POI-Daten mit Adobe Campaign erfassen zu können, müssen Sie die Mobile App 
 
 Im Bereich **[!UICONTROL Eigenschaften der Mobile App]** werden zwei URLs aufgelistet: **[!UICONTROL PII-Abruf-Endpunkt]** und **[!UICONTROL Ortungsdienste-Endpunkt]**. Diese werden in der Adobe-Mobile-Services-Benutzeroberfläche verwendet. Siehe [Mobile App in Adobe Mobile Services konfigurieren](#configuring-a-mobile-app-in-adobe-mobile-services).
 
-* Über die URL für den **[!UICONTROL PII-Abruf-Endpunkt]** ruft die Mobile App bei ihrem Start die Experience Cloud-Kennung und den Anmeldetoken des jeweiligen Benutzers ab. Wenn sich ein Benutzer bei der App mit seinen Anmeldedaten, wie E-Mail, Vorname, Nachname etc., anmeldet, werden auch diese Daten erfasst und verwendet, um den Anmeldetoken des Benutzers mit einem Adobe-Campaign-Profil abzustimmen.
+* Über die URL für den **[!UICONTROL PII-Abruf-Endpunkt]** ruft die Mobile App bei ihrem Start die Experience Cloud-Kennung und den Anmeldetoken des jeweiligen Benutzers ab. Wenn sich ein Benutzer bei der App mit seinen Anmeldedaten, wie E-Mail, Vorname, Nachname etc., anmeldet, werden auch diese Daten erfasst und verwendet, um den Anmeldetoken des Benutzers mit einem Adobe Campaign-Profil abzustimmen.
 * Mit der URL **[!UICONTROL Ortungsdienst-Endpunkt]** werden Standortdaten wie der Längen- und Breitengrad und die Entfernung des Benutzers von einem POI (Point of Interest) erfasst.
 
 Sie können diese Werte jetzt in Adobe Mobile Services verwenden, um die Konfiguration wie im Abschnitt [Mobile App in Adobe Mobile Services konfigurieren](#configuring-a-mobile-app-in-adobe-mobile-services) beschrieben abzuschließen.
@@ -85,7 +85,7 @@ Des Weiteren benötigen Sie spezielle Informationen, die Sie in den in Adobe Cam
 * **[!UICONTROL PII-Abruf-Endpunkt]**
 * **[!UICONTROL Ortungsdienst-Endpunkt]**
 
-Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe Analytics. Wenn Sie kein Benutzer von Adobe Analytics sind, kontaktieren Sie Ihren Adobe-Campaign-Administrator.
+Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe Analytics. Wenn Sie kein Benutzer von Adobe Analytics sind, kontaktieren Sie Ihren Adobe Campaign-Administrator.
 
 1. Melden Sie sich bei [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/) an.
 1. Erstellen Sie eine Mobile-App oder wählen Sie eine bestehende aus.
@@ -94,7 +94,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
 
    >[!CAUTION]
    >
-   >Dieses Unternehmen muss mit dem in der Adobe-Campaign-Instanz verwendeten übereinstimmen.
+   >Dieses Unternehmen muss mit dem in der Adobe Campaign-Instanz verwendeten übereinstimmen.
 
 1. Klicken Sie auf **[!UICONTROL Postbacks verwalten]**.
 1. Erstellen Sie ein Postback.
@@ -199,7 +199,7 @@ Um die in Adobe Campaign erfolgreich erstellten Anwendungen zu öffnen, gehen Si
 
    ![](assets/poi_mobile_app_subscribers.png)
 
-Eine Liste der Abonnenten der App wird auch im Tab **[!UICONTROL Abonnenten der Mobile App]** angezeigt. Die Abonnenten sind alle Benutzer, die die Anwendung auf ihrem Mobilgerät installiert haben. Die Profile in der Adobe-Campaign-Datenbank werden mit einem Anmeldetoken identifiziert.
+Eine Liste der Abonnenten der App wird auch im Tab **[!UICONTROL Abonnenten der Mobile App]** angezeigt. Die Abonnenten sind alle Benutzer, die die Anwendung auf ihrem Mobilgerät installiert haben. Die Profile in der Adobe Campaign-Datenbank werden mit einem Anmeldetoken identifiziert.
 
 ## Erfasste Standortdaten abrufen        {#accessing-collected-location-data}
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Campaign besitzt verschiedene Menüs und Bildschirme zur effektiven Verwaltung Ihrer Kampagnen.
 
-Alle Adobe-Campaign-Bildschirme weisen folgende Elemente auf:
+Alle Adobe Campaign-Bildschirme weisen folgende Elemente auf:
 
 * eine im oberen Bildschirmbereich gelegene Navigationsleiste,
 * ein erweitertes Menü zum Zugriff auf spezifische Funktionen und Konfigurationen,
@@ -55,7 +55,7 @@ Folgende Navigationsprinzipien kommen zur Anwendung:
 
   Das erweiterte Menü wird im Abschnitt [erweitertes Menü](#advanced-menu) beschrieben.
 
-* Verwenden Sie den **[!UICONTROL Startseite]**-Link, um die Adobe-Campaign-Startseite anzuzeigen.
+* Verwenden Sie den **[!UICONTROL Startseite]**-Link, um die Adobe Campaign-Startseite anzuzeigen.
 * Über die Links **[!UICONTROL Marketingaktivitäten]**, **[!UICONTROL Programme &amp; Kampagnen]**, **[!UICONTROL Profile]**, **[!UICONTROL Audiences]** und **[!UICONTROL Berichte]** gelangen Sie zu den diese Funktionen betreffenden Bildschirmen.
 * Mit dem Symbol **Lösungsschalter** können Sie zwischen Ihren Organisationen oder zu einer anderen Anwendung wechseln.
 * Das Symbol **[!UICONTROL Hilfe]** wird [unten](#help) beschrieben.

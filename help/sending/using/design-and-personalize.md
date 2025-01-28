@@ -24,7 +24,7 @@ Versuchen Sie beim Entwerfen Ihres Nachrichteninhalts gängige Probleme zu verme
 
 Um allgemeine Probleme bei der Zustellung Ihrer Nachrichten zu verhindern und das Benutzererlebnis zu verbessern, können Sie Ihre Nachrichten in Adobe Campaign personalisieren.
 
-Sie können die Empfängerdaten verwenden, die in der Adobe-Campaign-Datenbank gespeichert sind oder mithilfe von Tracking, Landingpages, Abonnements etc. erfasst wurden.
+Sie können die Empfängerdaten verwenden, die in der Adobe Campaign-Datenbank gespeichert sind oder mithilfe von Tracking, Landingpages, Abonnements etc. erfasst wurden.
 Die Grundlagen der Personalisierung werden in [diesem Abschnitt](../../designing/using/personalization.md) dargestellt.
 
 Stellen Sie sicher, dass Ihr Nachrichteninhalt korrekt aufgebaut ist, um oft mit der Personalisierung in Verbindung stehende Probleme zu verhindern.

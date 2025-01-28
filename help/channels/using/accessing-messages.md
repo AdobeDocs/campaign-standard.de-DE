@@ -23,7 +23,7 @@ Hierzu bietet die Lösung weitreichende Funktionen, die von der Zielgruppenbesti
 Der Zugriff auf Nachrichten erfolgt:
 
 * innerhalb einer Kampagne,
-* ausgehend von der Adobe-Campaign-Startseite,
+* ausgehend von der Adobe Campaign-Startseite,
 * ausgehend von der Liste der Marketing-Aktivitäten.
 
 ## Zugriff auf Nachrichten in Kampagnen      {#accessing-messages-in-campaigns}

@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Je nach Ihren Anforderungen haben Sie mehrere Möglichkeiten, Daten mit Adobe Campaign zu importieren und exportieren:
 
-* **Packages**: Packages sind XML-Dateien, mit denen Konfigurationen und Datensätze von einer Adobe-Campaign-Instanz zur einer anderen transferiert werden können. Auch Systemaktualisierungen werden mit Package-Importen durchgeführt.
+* **Packages**: Packages sind XML-Dateien, mit denen Konfigurationen und Datensätze von einer Adobe Campaign-Instanz zur einer anderen transferiert werden können. Auch Systemaktualisierungen werden mit Package-Importen durchgeführt.
 * **Listen**: Alle Listenfenster können konfiguriert und die angezeigten Daten können in eine Datei exportiert werden.
 * **Workflows**: Hier erfolgt der Import von Daten über Dateien, mit denen die Datenbank aktualisiert oder E-Mails gesendet werden können. Sie können auch Daten auswählen und in Dateien exportieren. Workflows sind die beste Möglichkeit, regelmäßige Aktualisierungen, wie etwa Profilimporte, automatisch durchzuführen.
 

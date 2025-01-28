@@ -51,7 +51,7 @@ Zusätzlich benötigen Sie eine funktionierende Website.
 
 >[!CAUTION]
 >
->Die Subdomain-Konfiguration ist ein Schlüsselelement der Zustellbarkeit der E-Mails. Adobe-Campaign-E-Mails müssen von derselben Domain gesendet werden, die von der Website verwendet wird.
+>Die Subdomain-Konfiguration ist ein Schlüsselelement der Zustellbarkeit der E-Mails. Adobe Campaign-E-Mails müssen von derselben Domain gesendet werden, die von der Website verwendet wird.
 
 Um diese Anwendungsbeispiele auszuführen, müssen Sie [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) und [Campaign](#configuring-triggers-and-aliases-in-campaign) konfigurieren.
 

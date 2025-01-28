@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ In diesem Dokument erfahren Sie, wie Sie ein Bild aus einer iOS-Push-Benachricht
 
 Push-Benachrichtigungen werden von Experience Platform SDKs unterstützt.
 
-Mobile Apps, über die Push-Benachrichtigungen empfangen werden, müssen von einem Administrator in der Adobe-Campaign-Benutzeroberfläche konfiguriert werden.
+Mobile Apps, über die Push-Benachrichtigungen empfangen werden, müssen von einem Administrator in der Adobe Campaign-Benutzeroberfläche konfiguriert werden.
 
 Durch die Konfiguration von sowohl Adobe Campaign als auch Adobe Mobile Services können Sie die Daten Ihrer Mobile Apps für Ihre Kampagnen verwenden. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../../administration/using/configuring-a-mobile-application.md).
 

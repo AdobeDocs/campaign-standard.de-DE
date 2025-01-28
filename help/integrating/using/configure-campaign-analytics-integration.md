@@ -19,11 +19,11 @@ ht-degree: 100%
 
 Durch diese Integration können Sie Ihre KPI-Daten direkt von Adobe Campaign an Adobe Analytics Standard oder Premium übertragen.
 
-Für die Integration von Adobe Campaign mit Adobe Analytics müssen Sie zunächst das externe mit Adobe Analytics verknüpfte Konto konfigurieren.
+Für die Integration von Adobe Campaign Standard mit Adobe Analytics müssen Sie zunächst das externe mit Adobe Analytics verknüpfte Konto konfigurieren.
 
 Externe Konten und technische Workflows können nur vom funktionalen Administrator der Plattform verwaltet werden.
 
-1. Greifen Sie mithilfe des Adobe-Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration > Anwendungskonfiguration > externe Konten auf das entsprechende Menü zu]**.
+1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm und der Schaltflächen **[!UICONTROL Administration > Anwendungskonfiguration > externe Konten auf das entsprechende Menü zu]**.
 1. Wählen Sie das externe Konto **[!UICONTROL KPIs mit Adobe Analytics teilen]** aus.
 
    ![](assets/analytics_2.png)
@@ -35,7 +35,7 @@ Externe Konten und technische Workflows können nur vom funktionalen Administrat
    ![](assets/analytics_1.png)
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Report Suites aktualisieren]**.
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Standard-Report-Suite von Analytics]** die Adobe-Analytics-Report-Suite aus, die Sie mit Adobe-Campaign-Daten anreichern möchten.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Standard-Report-Suite von Analytics]** die Adobe-Analytics-Report-Suite aus, die Sie mit Adobe Campaign-Daten anreichern möchten.
 
    Ihr externes Konto steht nun bereit und ist mit Adobe Analytics verknüpft. Sie können es jederzeit deaktivieren, indem Sie die Option **[!UICONTROL Aktiviert]** aktivieren.
 

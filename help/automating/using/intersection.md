@@ -44,6 +44,6 @@ Die **[!UICONTROL Schnittmenge]** wird insbesondere verwendet, um die Population
 
 ## Beispiel  {#example}
 
-Unten stehende Abbildung zeigt die Schnittmenge aus zwei Abfrageaktivitäten, die alle Profile der Adobe-Campaign-Datenbank abrufen, die zwischen 18 und 27 Jahre alt sind bzw. deren E-Mail-Adresse korrekt angegeben ist.
+Unten stehende Abbildung zeigt die Schnittmenge aus zwei Abfrageaktivitäten, die alle Profile der Adobe Campaign-Datenbank abrufen, die zwischen 18 und 27 Jahre alt sind bzw. deren E-Mail-Adresse korrekt angegeben ist.
 
 ![](assets/wkf_intersection_example.png)

@@ -55,12 +55,12 @@ Drei schreibgeschützte Vorlagen stehen standardmäßig zur Verfügung:
 * **[!UICONTROL Aktualisierung von Briefpost-Quarantänen und Versandlogs]**: Diese Vorlage dient als Grundlage für neue Importe, mit denen Briefpost-Quarantänen und -Versandlogs aktualisiert werden können. Der dieser Vorlage zugrunde liegende Workflow enthält die folgenden Aktivitäten:
 * **[!UICONTROL Datenimport]**: Diese Vorlage ermöglicht Importe, die Daten aus einer Datei zur Datenbank hinzufügen. Der dieser Vorlage zugrunde liegende Workflow enthält die folgenden Aktivitäten:
 
-   * **[!UICONTROL Datei laden]** – lädt Daten einer Datei auf den Adobe-Campaign-Server.
+   * **[!UICONTROL Datei laden]** – lädt Daten einer Datei auf den Adobe Campaign-Server.
    * **[!UICONTROL Daten-Update]** – fügt die in der Datei enthaltenen Daten zur Datenbank hinzu.
 
 * **[!UICONTROL Listenimport]**: Diese Vorlage ermöglicht Importe, die ausgehend von den Daten einer Datei Audiences vom Typ **Liste** erstellen. Der dieser Vorlage zugrunde liegende Workflow enthält die folgenden Aktivitäten:
 
-   * **[!UICONTROL Datei laden]** – lädt Daten einer Datei auf den Adobe-Campaign-Server.
+   * **[!UICONTROL Datei laden]** – lädt Daten einer Datei auf den Adobe Campaign-Server.
    * **[!UICONTROL Abstimmung]** – ordnet, wenn möglich, den importierten Daten eine Zielgruppendimension zu. Dies erlaubt im Anschluss die Erstellung einer Audience vom Typ **Liste**. Sollte die Zielgruppendimension der importierten Daten nicht bekannt sein, ist die erstellte Audience vom Typ **Datei**. Siehe [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
    * **[!UICONTROL Audience-Speicherung]** – speichert die importierten Daten als Audience vom Typ **Liste**. Der Name der gespeicherten Audience entspricht dem Namen der importierten Datei, dem das Datum und die Uhrzeit des Imports als Suffix beigefügt werden. Beispiel: &#39;profiles_20150406_151448&#39;.
 
@@ -78,7 +78,7 @@ Diese Standardvorlagen sind schreibgeschützt und für Standardbenutzer nicht si
 
 1. Gehen Sie in den **[!UICONTROL Workflow]**-Tab. Ergänzen Sie hier bei Bedarf den standardmäßig angebotenen Workflow mit weiteren Aktivitäten.
 
-   Weiterführende Informationen zur Konfiguration der Workflow-Aktivitäten erfahren Sie im Anwendungsbeispiel in diesem Abschnitt: [Beispiel: Import-Workflow-Vorlage](../../automating/using/creating-import-workflow-templates.md). In diesem Anwendungsbeispiel wird gezeigt, wie ein Workflow für den wiederholten Import von Profilen aus einer CRM-Lösung in der Adobe-Campaign-Datenbank erstellt wird.
+   Weiterführende Informationen zur Konfiguration der Workflow-Aktivitäten erfahren Sie im Anwendungsbeispiel in diesem Abschnitt: [Beispiel: Import-Workflow-Vorlage](../../automating/using/creating-import-workflow-templates.md). In diesem Anwendungsbeispiel wird gezeigt, wie ein Workflow für den wiederholten Import von Profilen aus einer CRM-Lösung in der Adobe Campaign-Datenbank erstellt wird.
 
 1. Speichern Sie die Vorlage, damit die Konfiguration des Workflows berücksichtigt wird.
 1. Laden Sie im **[!UICONTROL Eigenschaften]**-Tab eine Beispieldatei hoch. Neben den für den Import erforderlichen Spalten kann die Beispieldatei auch Daten enthalten, die es ermöglichen, den vereinfachten Import nach der Workflow-Erstellung zu testen. Die Beispieldatei steht nun auch späteren Benutzern zur Verfügung, die mithilfe der Vorlage einen Import durchführen.

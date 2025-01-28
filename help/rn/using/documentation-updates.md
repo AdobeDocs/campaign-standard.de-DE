@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: a2a524eb3d90bbe41064bdcb078f69d483f90dac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7297'
 ht-degree: 100%
 
@@ -749,7 +749,7 @@ In diesem [Abschnitt](../../designing/using/using-existing-content.md#editing-ex
 
 Informationen zur Standardsprache bei einer mehrsprachigen Vorlage wurden hinzugefügt – [Weitere Informationen](../../channels/using/multilingual-messages-template.md)
 
-Ab Version 18.7 enthält das Handbuch für Benutzer &amp; Sicherheit nicht mehr die eingestellte Funktion der geografische Einheit für neue Campaign-Standard-Instanzen und für bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden – [Weitere Informationen](../../rn/using/deprecated-features.md)
+Ab Version 18.7 enthält das Handbuch für Benutzer &amp; Sicherheit nicht mehr die eingestellte Funktion der geografische Einheit für neue Campaign Standard-Instanzen und für bestehende Instanzen, für die keine geografischen Einheiten erstellt wurden – [Weitere Informationen](../../rn/using/deprecated-features.md)
 
 ## Version 18.6 – Juni 2018 {#release-18-6---june-2018}
 

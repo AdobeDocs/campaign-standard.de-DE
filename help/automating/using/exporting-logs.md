@@ -68,7 +68,7 @@ Der Log-Export kann von Standardbenutzern durchgeführt werden. Private Ressourc
 
 1. Fügen Sie die Aktivität **[!UICONTROL Dateiübertragung]** hinzu, und konfigurieren Sie sie, um die neu erstellte Datei vom Adobe Campaign-Server an einen anderen Speicherort zu übertragen, von wo Sie darauf zugreifen können, wie z. B. einen SFTP-Server.
 
-   * Wählen Sie im Tab **[!UICONTROL Allgemein]** die Option **[!UICONTROL Datei-Upload]** aus, da die Datei vom Adobe-Campaign-Server an einen anderen Server gesendet werden soll.
+   * Wählen Sie im Tab **[!UICONTROL Allgemein]** die Option **[!UICONTROL Datei-Upload]** aus, da die Datei vom Adobe Campaign-Server an einen anderen Server gesendet werden soll.
    * Spezifizieren Sie im Tab **[!UICONTROL Protokoll]** die Transferparameter, und wählen Sie das zu verwendende [externe Konto](../../administration/using/external-accounts.md#creating-an-external-account) aus.
 
 1. Fügen Sie die Aktivität **[!UICONTROL Ende]** hinzu, um sicherzustellen, dass der Upload korrekt beendet wird, und speichern Sie den Workflow.
