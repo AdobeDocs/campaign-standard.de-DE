@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '1264'
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
+workflow-type: ht
+source-wordcount: '1261'
 ht-degree: 100%
 
 ---
@@ -157,7 +157,6 @@ Wenn Sie Inhalt haben, der nicht wiederhergestellt werden kann, können Sie den 
 >id="ac_edition_video"
 >title="Videoeinstellungen"
 >abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen. Beachten Sie, dass Videos nicht auf allen E-Mail-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Zusätzliche Informationen"
 
 Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und geben Sie den Video-Link in die **[!UICONTROL Komponenteneinstellungen]** ein.
 
