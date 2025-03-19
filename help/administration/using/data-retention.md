@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 69%
 
 ---
 
@@ -39,31 +39,40 @@ Nachfolgend finden Sie die standardmäßigen Aufbewahrungsfristen für Standardt
 * **Ignorierte Pipeline-Ereignisse**: 1 Monat
 * **Versandwarnungen**: 1 Monat
 * **Export-Audit**: 6 Monate (empfohlen: 1 Monat)
+* **Sendungen**: 2 Jahre
 
 ## Aufbewahrungszeitraum für Sendungen {#deliveries}
 
-Standardmäßig ist der Aufbewahrungszeitraum für Sendungen unbegrenzt.
+<!-- By default, the retention period for deliveries is unlimited.-->
 
-Wenn Sie jedoch ein hohes Volumen an Sendungen auf Ihrer Instanz haben, können Sie die Option **NmsCleanup_DeliveryPurgeDelay** aktualisieren, die im Menü **[!UICONTROL Administration]** > **[!UICONTROL Anwendungseinstellungen]** verfügbar ist.
+Ab dem 1. Juni 2025 bleiben nur noch Sendungen aus den letzten zwei Jahren im System verfügbar. Weitere Informationen finden Sie unten:
 
-Jedes Mal, wenn der Workflow **[!UICONTROL Datenbankbereinigung]** ausgeführt wird, werden die Sendungen gelöscht, die die für diese Option festgelegten Bedingungen erfüllen.
+* Sendungen, die älter als zwei Jahre sind, werden dauerhaft entfernt und sind nicht mehr zugänglich.
+* Diese Bereinigung umfasst nur gesendete und fehlgeschlagene Sendungen. Wiederkehrende Sendungen, Versandentwürfe und Vorlagen sind davon nicht betroffen.
+* Sobald ein Versand entfernt wurde, werden auch alle verknüpften Tracking- oder Versandinformationen dauerhaft gelöscht.
+* Marketing- oder Transaktionsversandvorlagen werden nicht gelöscht.
+* Bei wiederkehrenden Sendungen werden untergeordnete Sendungen, deren Aggregat-Zeitraum auf Monat oder Jahr festgelegt ist, nicht gelöscht.
 
-Diese Aktion kann dazu beitragen, Prozesse wie den Workflow **[!UICONTROL Kopfzeilen aus Versandvorlagen kopieren]** zu beschleunigen.
+Wenn Sie Prozesse wie den Workflow **[!UICONTROL Kopfzeilen aus Versandvorlagen kopieren]** beschleunigen möchten, kann die Aufbewahrungsfrist für Sendungen reduziert werden. Wenden Sie sich dazu bitte an Ihren Adobe-Support-Mitarbeiter.
 
->[!NOTE]
->
->Weitere Informationen zu technischen Workflows finden Sie in [diesem Abschnitt](technical-workflows.md).
+<!--
 
+However, if there is a high volume of deliveries on your instance, you can update the **NmsCleanup_DeliveryPurgeDelay** option available from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
 
-Der Standardwert für die Option **NmsCleanup_DeliveryPurgeDelay** ist `-1`. In diesem Fall wird kein Versand gelöscht.
+Each time the **[!UICONTROL Database cleanup]** workflow is run, the deliveries meeting the conditions set for this option will be deleted.
 
-Wenn Sie ihn beispielsweise auf `180` festlegen, werden alle Sendungen ohne Vorlagen gelöscht, die in den letzten 180 Tagen nicht aktualisiert wurden, wenn der Workflow **[!UICONTROL Datenbankbereinigung]** ausgeführt wird.
+-->
 
->[!NOTE]
->
->* Marketing- oder Transaktionsversandvorlagen werden nicht gelöscht.
->
->* Bei wiederkehrenden Sendungen werden untergeordnete Sendungen, deren Aggregat-Zeitraum auf Monat oder Jahr festgelegt ist, nicht gelöscht.
+<!--
 
-Bei der Aktualisierung der Option **NmsCleanup_DeliveryPurgeDelay** wird empfohlen, schrittweise mit mehreren Ausführungen vorzugehen. Sie können beispielsweise den Wert auf 300 Tage, dann auf 180 Tage, dann auf 120 Tage usw. setzen. Dabei sollten Sie sicherstellen, dass die Ausführungen mindestens 2 Tage voneinander entfernt sind. Andernfalls kann der Workflow **[!UICONTROL Datenbankbereinigung]** aufgrund einer großen Anzahl von zu löschenden Sendungen viel länger dauern.
+When updating the **NmsCleanup_DeliveryPurgeDelay** option, it is recommended to proceed gradually with multiple iterations. For example, you can start by setting the value to 300 days, then 180 days, then 120 days, and so on - making sure iterations are at least 2 days apart. Otherwise, the **[!UICONTROL Database cleanup]** workflow may take much longer because of a large number of deliveries to delete.
+
+This action can help speeding up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow. Learn more on technical workflows in [this section](technical-workflows.md).
+
+The default value for the **NmsCleanup_DeliveryPurgeDelay** option is `-1`. In this case, no delivery is deleted.
+
+For example, if you set it to `180`, any non-template deliveries that have not been updated in the last 180 days will be deleted when the **[!UICONTROL Database cleanup]** workflow is run.
+
+-->
+
 
