@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: bd4b6d0d7d8fae6b14a41dc9001027d8154c9222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Nachfolgend finden Sie die standardmäßigen Aufbewahrungsfristen für Standardt
 * **Ignorierte Pipeline-Ereignisse**: 1 Monat
 * **Versandwarnungen**: 1 Monat
 * **Export-Audit**: 6 Monate (empfohlen: 1 Monat)
-* **Sendungen**: 2 Jahre
+* **Sendungen**: 2 Jahre
 
 ## Aufbewahrungszeitraum für Sendungen {#deliveries}
 
 <!-- By default, the retention period for deliveries is unlimited.-->
 
-Ab dem 1. Juni 2025 bleiben nur noch Sendungen aus den letzten zwei Jahren im System verfügbar. Weitere Informationen finden Sie unten:
+Ab dem 1. Juni 2025 sind nur noch Sendungen aus den letzten zwei Jahren im System verfügbar. Weitere Informationen finden Sie nachfolgend:
 
 * Sendungen, die älter als zwei Jahre sind, werden dauerhaft entfernt und sind nicht mehr zugänglich.
 * Diese Bereinigung umfasst nur gesendete und fehlgeschlagene Sendungen. Wiederkehrende Sendungen, Versandentwürfe und Vorlagen sind davon nicht betroffen.
@@ -53,7 +53,7 @@ Ab dem 1. Juni 2025 bleiben nur noch Sendungen aus den letzten zwei Jahren im Sy
 * Marketing- oder Transaktionsversandvorlagen werden nicht gelöscht.
 * Bei wiederkehrenden Sendungen werden untergeordnete Sendungen, deren Aggregat-Zeitraum auf Monat oder Jahr festgelegt ist, nicht gelöscht.
 
-Wenn Sie Prozesse wie den Workflow **[!UICONTROL Kopfzeilen aus Versandvorlagen kopieren]** beschleunigen möchten, kann die Aufbewahrungsfrist für Sendungen reduziert werden. Wenden Sie sich dazu bitte an Ihren Adobe-Support-Mitarbeiter.
+Wenn Sie Prozesse wie den Workflow **[!UICONTROL Header aus Versandvorlagen kopieren]** beschleunigen möchten, kann die Aufbewahrungsfrist für Sendungen reduziert werden. Bitte wenden Sie sich zu diesem Zweck an Ihre Kontaktperson beim Adobe-Support.
 
 <!--
 
