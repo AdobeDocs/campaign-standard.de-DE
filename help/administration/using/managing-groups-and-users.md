@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -105,9 +105,9 @@ Sobald Ihre beiden Benutzer mit den vordefinierten **[!UICONTROL Administrator]*
 
    * werden die Rollen der unterschiedlichen Gruppen kumuliert. In unserem Beispiel befinden sich die Benutzer in zwei unterschiedlichen Gruppen: eine Gruppe hat Zugriff auf Rollen und die andere auf Einheiten.
    * Dann wird die in der Hierarchie am höchsten angesiedelte Einheit verwendet (siehe Beispiel im Abschnitt [Organisationseinheiten](../../administration/using/organizational-units.md)).
-   * Wenn die dem Benutzer zugewiesenen Organisationseinheiten parallele Zweige in der Hierarchie sind, d. h. sie keine gemeinsame zugewiesene übergeordnete Einheit haben, wählt das System die Organisationseinheit für den Benutzer aus, und der Benutzer hätte Zugriff auf die vom System ausgewählte Organisationseinheit und ihre untergeordneten Elemente.
+   * Wenn sich die der Benutzerin bzw. dem Benutzer zugewiesenen Organisationseinheiten in parallelen Zweigen in der Hierarchie befinden, d. h. sie haben keine gemeinsame zugewiesene übergeordnete Einheit, wählt das System die Organisationseinheit für die Benutzerin bzw. den Benutzer aus und diese Person hätte Zugriff auf die vom System ausgewählte Organisationseinheit und ihre untergeordneten Elemente.
 
-1. Gehen Sie analog vor, um die Geometrixx-Clothes-Sicherheitsgruppe Ihrem Standardbenutzer zuzuweisen.
+1. Gehen Sie analog vor, um die Geometrixx-Clothes-Sicherheitsgruppe Ihrer Standardbenutzerin bzw. Ihrem Standardbenutzer zuzuweisen.
 
    ![](assets/manage_security_group_9.png)
 
