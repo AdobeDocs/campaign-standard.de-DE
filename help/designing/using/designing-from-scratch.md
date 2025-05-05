@@ -30,7 +30,7 @@ Dies sind die wichtigsten Schritte zum Erstellen und Gestalten eines neuen E-Mai
 1. Sehen Sie sich die E-Mail in der Vorschau an.
 1. Speichern Sie den Inhalt und fahren Sie mit der Nachricht fort, nachdem Sie eine Audience definiert und den Versandzeitpunkt festgelegt haben.
 
-Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true) an.
+Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v/330101/?autoplay=true&hidetitle=true&captions=ger) an.
 
 >[!NOTE]
 >

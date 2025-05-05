@@ -104,6 +104,6 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 In diesem Video wird gezeigt, wie man eine E-Mail erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30221?quality=12&captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

@@ -82,6 +82,6 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Testprofil zu bearbeiten b
 
 In diesem Video wird gezeigt, wie man ein Testprofil erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30205?quality=12&captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

@@ -156,6 +156,6 @@ Ihr Benutzer kann jetzt Adobe Campaign Standard verwenden.
 
 In diesem Video wird gezeigt, wie Benutzerzugriffsrechte verwaltet werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35933?quality=12&captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

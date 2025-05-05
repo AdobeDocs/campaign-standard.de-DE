@@ -127,10 +127,10 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 In diesem Video wird gezeigt, wie Daten mithilfe eines GPG-Schlüssels entschlüsselt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41349?quality=12&captions=ger)
 
 In diesem Video wird gezeigt, wie Daten mithilfe eines GPG-Schlüssels verschlüsselt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41335?quality=12&captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

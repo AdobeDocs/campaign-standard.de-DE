@@ -271,6 +271,6 @@ Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
 
 In diesem Video wird gezeigt, wie Sie Ihre E-Mail-Nachrichten mithilfe der Profilersetzung testen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36450?quality=12&captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
