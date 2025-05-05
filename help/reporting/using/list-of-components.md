@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Weiterführende Informationen zur Kompatibilität zwischen Dimensionen und Metriken finden Sie in dieser [Tabelle](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Wenn zwei Komponenten nicht kompatibel sind, zeigt die Zelle den Wert **Kein** an.
 
-[![Bild](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+[![Bild](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=de)
 
 ## Dimensionen {#dimensions}
 
