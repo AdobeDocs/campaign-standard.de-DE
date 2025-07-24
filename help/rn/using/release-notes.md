@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 77%
 
 ---
 
@@ -26,6 +26,21 @@ This section lists improvements and changes included in the next Campaign Standa
 >This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 
 -->
+
+## Version 25.2 – Version Sommer 2025 {#summer-25}
+
+### Korrekturen von Sicherheitsproblemen {#summer-25-security}
+
+* Diese Version enthält mehrere Korrekturen von Sicherheitsproblemen.
+* Diese Version umfasst die folgende Sicherheitsaktualisierung: PostgreSQL 14.18, Migration von CentOS zu Rocky für Azure-Instanzen.
+
+### Andere Fehlerbehebungen {#summer-25-fixes}
+
+* Verbesserte Handhabung der Sequenzerschöpfung, um die Systemzuverlässigkeit zu erhöhen. (CAMP-57281)
+* Allgemeine Aktualisierungen zur Produktstabilisierung. (CAMP-57339)
+* Verbessertes dynamisches Reporting für bessere Stabilität und geringere Dateninkongruenzen. (CAMP-58157)
+* Es wurde ein Problem behoben, bei dem Text in Dropdown-Menüs nicht korrekt eingeschlossen wurde. (CAMP-57360)
+* Die Reporting-Funktion wurde aktualisiert, um zu verhindern, dass Benutzer Daten abfragen, die älter als zwei Jahre sind. (CAMP-59262)
 
 ## Version 25.1.2 {#25.1.2}
 
