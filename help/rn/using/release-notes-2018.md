@@ -307,7 +307,7 @@ _Benutzerdefinierte Ressourcen_
      <li> Erstellung und Speicherung einer E-Mail Inhaltsvorlage und Verwendung gespeicherter Vorlagen zur Vereinfachung der E-Mail-Erstellung </li> 
      <li> Erstellen und speichern Sie Inhaltsfragmente (wie Kopf- und Fußzeilen, Artikel usw.), um die Inhaltserstellung zu optimieren und die Markenkonsistenz sicherzustellen </li> 
      <li> Nahtloser Wechsel zwischen der Erstellung in der Drag &amp; Drop-Benutzeroberfläche und der direkten Bearbeitung von HTML-Code einer E-Mail per Tastendruck </li> 
-    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weiterführende Informationen finden Sie im <a href="../../designing/using/designing-content-in-adobe-campaign.md">entsprechenden Handbuch</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">Video</a>.<br />. </td> 
+    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weiterführende Informationen finden Sie im <a href="../../designing/using/designing-content-in-adobe-campaign.md">entsprechenden Handbuch</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">Video</a>.<br />. </td> 
   </tr> 
   <tr> 
    <td> Versand mehrsprachiger Push-Benachrichtigungen<br /> </td> 
