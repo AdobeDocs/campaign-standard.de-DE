@@ -621,7 +621,7 @@ Der Abschnitt zur Dreamweaver-Integration wurde aktualisiert und verbessert – 
 
 Verbesserungen bei Push-Kanal-Berichten – [mehr dazu](../../reporting/using/push-notification-report.md)
 
-Integration von Adobe Launch für Mobile Apps – [mehr dazu ](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
+Integration von Adobe Launch für Mobile Apps – [mehr dazu &#x200B;](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
 
 Mobile In-App-Nachrichten – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
@@ -717,7 +717,7 @@ Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [Weitere Informa
 
 Verbesserung von In-App-Messaging (Betaversion) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
-Integration von Adobe Launch für Mobile Apps (Betaversion) – [mehr dazu ](../../sending/using/managing-typologies.md)
+Integration von Adobe Launch für Mobile Apps (Betaversion) – [mehr dazu &#x200B;](../../sending/using/managing-typologies.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
