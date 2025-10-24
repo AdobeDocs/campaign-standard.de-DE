@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a2a524eb3d90bbe41064bdcb078f69d483f90dac
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
 workflow-type: tm+mt
-source-wordcount: '7297'
-ht-degree: 100%
+source-wordcount: '7298'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Einige wichtige Änderungen am FCM-Dienst (Android Firebase Cloud Messaging) wer
 
 ## Oktober 2023 {#doc-updates-oct-2023}
 
-* Die neue Benutzeroberfläche für Experience Cloud Triggers ist jetzt verfügbar. Sie bietet ein intuitives Erlebnis, um das Verhalten von Verbraucherinnen und Verbrauchern zu verwalten und Benutzererlebnisse zu personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=de){target="_blank"}.
+* Die neue Benutzeroberfläche für Experience Cloud Triggers ist jetzt verfügbar. Sie bietet ein intuitives Erlebnis, um das Verhalten von Verbraucherinnen und Verbrauchern zu verwalten und Benutzererlebnisse zu personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=de){target="_blank"}
 
 * Es wurde ein Hinweis zur Verwendung von Fallen-Testprofilen in Kombination mit Filter- oder Ermüdungsregeln hinzugefügt. [Weitere Informationen](../../sending/using/using-traps.md)
 
@@ -70,7 +70,7 @@ Die Verwendung des SMTP-Testmodus wurde detailliert beschrieben. [Weitere Inform
 
 ## März 2022 {#doc-updates-march-2022}
 
-Es wurde ein Hinweis eingefügt, wonach das Versenden von Nachweisen mit Profilersatz den Protokollen der ausgewählten Profile Einträge hinzufügt. [Weitere Informationen](../../sending/using/testing-messages-using-target.md)
+Es wurde ein Hinweis hinzugefügt, wonach das Senden von Testsendungen mit Profilersetzung den Protokollen der ausgewählten Profile Einträge hinzufügt. [Weitere Informationen](../../sending/using/testing-messages-using-target.md)
 
 ## Version 22.1 – Februar 2022 {#release-22-1}
 
@@ -145,7 +145,7 @@ Neue Seite mit **Hilfe und Support-Optionen**. [Weitere Informationen](../../sup
 
 Der Abschnitt, in dem die wichtigsten Schritte zum Senden einer Nachricht aufgeführt sind, wurde um weitere Informationen und Verweise erweitert. [Weitere Informationen](../../channels/using/key-steps-to-send-a-message.md)
 
-Es wurden Informationen hinzugefügt, die präzisieren, dass bei der Auswahl einer Audience in einer Abfrage deren Definition kopiert und nicht referenziert wird. [Weitere Informationen](../../audiences/using/selecting-an-audience-in-a-message.md)
+Es wurden Informationen hinzugefügt, die präzisieren, dass bei der Auswahl einer Zielgruppe in einer Abfrage deren Definition kopiert und nicht referenziert wird. [Weitere Informationen](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 Informationen zu Audience Destinations Service und Adobe Experience Platform Data Connector wurden in einem neuen Abschnitt zusammengefasst.
 
@@ -353,7 +353,7 @@ Informationen zu den Schutzmaßnahmen für externe API-Aktivitäten wurden aktua
 
 ## März 2020 {#doc-updates-march-2020}
 
-Genauere Informationen über den erweiterten MTA wurden der Hauptdokumentation hinzugefügt, insbesondere bezüglich der Regeln zum Umgang mit E-Mails und der Qualizierung von Bounce Messages – [Weitere Informationen](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Genauere Informationen über den erweiterten MTA wurden der Hauptdokumentation hinzugefügt, insbesondere bezüglich der Regeln zum Umgang mit E-Mails und der Qualifizierung von Bounce Messages – [Weitere Informationen](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 Der Abschnitt zum Archivieren mit E-Mail-BCC wurde verschoben und aktualisiert – [Weitere Informationen](../../sending/using/archiving.md)
 
@@ -589,7 +589,7 @@ Das Automating-Benutzerhandbuch wurde mit Links zu verwandten Workflow-Aktivitä
 
 Der Abschnitt über die Indikatorberechnung für dynamische Berichte wurde aktualisiert – [Weitere Informationen](../../reporting/using/indicator-calculation.md)
 
-Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=de)
+Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Die Liste der Funktionen für Workflows wurde aktualisiert – [Weitere Informationen](../../automating/using/list-of-functions.md)
 
@@ -689,7 +689,7 @@ Das Handbuch zur Inhaltserstellung wurde aktualisiert und enthält jetzt Informa
 
 Die Dokumentation zum [In-App Messaging](../../channels/using/about-in-app-messaging.md) und zu [Push-Benachrichtigungen](../../channels/using/about-push-notifications.md) wurde aktualisiert.
 
-Informationen zu den unterschiedlichen Arten von Audiences in Adobe Campaign wurden hinzugefügt – [Weitere Informationen](../../audiences/using/about-audiences.md)
+Informationen zu den unterschiedlichen Arten von Zielgruppen in Adobe Campaign wurden hinzugefügt – [Weitere Informationen](../../audiences/using/about-audiences.md)
 
 Das Kapitel &quot;Benutzer &amp; Sicherheit&quot; wurde aktualisiert, da die Verwendung geografischer Einheiten eingestellt wurde – [Weitere Informationen](../../administration/using/organizational-units.md)
 
@@ -723,7 +723,7 @@ Integration von Adobe Launch für Mobile Apps (Betaversion) – [mehr dazu ](../
 
 Aktualisiertes Handbuch zu Push-Benachrichtigungen einschließlich Änderungen der Benutzeroberfläche – [Weitere Informationen](../../channels/using/about-push-notifications.md)
 
-Zusätzliche Informationen zum Löschen einer Audience – [Weitere Informationen](../../audiences/using/creating-audiences.md#deleting-audiences)
+Zusätzliche Informationen zum Löschen einer Zielgruppe – [Weitere Informationen](../../audiences/using/creating-audiences.md#deleting-audiences)
 
 Aktualisierter Abschnitt zu Push-Benachrichtigungen in nativen Berichten. [Weitere Informationen](../../reporting/using/push-notification-report.md)
 
@@ -867,7 +867,7 @@ Die Aktivität **[!UICONTROL An-/Abmeldedienst]** wurde aktualisiert und unterst
 
 Eine schrittweise Anleitung zur Versandvorbereitung wurde hinzugefügt – [Weitere Informationen](../../sending/using/preparing-the-send.md)
 
-Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de) (PDF)
+Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)
 
 Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion wurde hinzugefügt – [Weitere Informationen](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with y
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [Weitere Informationen](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
@@ -1087,7 +1087,7 @@ Push-Benachrichtigungen: Verbesserungen – [mehr dazu](../../channels/using/abo
 
 Workflows: Neue Signal-Aktivität – [mehr dazu](../../automating/using/external-signal.md)
 
-Workflows: Neue Audience-lesen-Aktivität – [mehr dazu](../../automating/using/read-audience.md)
+Workflows: Neue Zielgruppe-lesen-Aktivität – [mehr dazu](../../automating/using/read-audience.md)
 
 Points of Interest-Daten – [mehr dazu](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -1099,7 +1099,7 @@ Triggers-Integration: zwei Anwendungsbeispiele wurden hinzugefügt – [Weitere 
 
 Die API-Dokumentation für Entwickler wurde durch neue Informationen und Code-Snippets ergänzt und ist jetzt benutzerfreundlicher – [Weitere Informationen](../../api/using/get-started-apis.md)
 
-Zu den neuen Workflow-Aktivitäten [Audience lesen](../../automating/using/read-audience.md) und [Externes Signal](../../automating/using/external-signal.md) wurden Beispiele hinzugefügt.
+Zu den neuen Workflow-Aktivitäten [Zielgruppe lesen](../../automating/using/read-audience.md) und [Externes Signal](../../automating/using/external-signal.md) wurden Beispiele hinzugefügt.
 
 ## Version 17.1 - Januar 2017   {#release-17-1---january-2017}
 
@@ -1121,4 +1121,4 @@ URL-Änderung: Assets Core Service – [mehr dazu](../../integrating/using/worki
 
 URL-Änderung: People Core Service – [mehr dazu](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Das Handbuch zu Profilen und Audiences wurde umstrukturiert – [Weitere Informationen](../../audiences/using/get-started-profiles-and-audiences.md)
+Das Handbuch zu Profilen und Zielgruppen wurde umstrukturiert – [Weitere Informationen](../../audiences/using/get-started-profiles-and-audiences.md)
