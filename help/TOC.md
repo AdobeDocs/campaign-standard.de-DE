@@ -7,7 +7,7 @@ breadcrumb-title: Campaign Standard – Dokumentation
 source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
 workflow-type: tm+mt
 source-wordcount: '1753'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 100%
    + [Aktuelle Dokumentationsaktualisierungen](rn/using/documentation-updates.md)
 + Erste Schritte {#getting-started}
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Benutzeroberfläche {#discovering-the-interface}
+   + Kennenlernen der Benutzeroberfläche {#discovering-the-interface}
       + [Über die Benutzeroberfläche](start/using/about-the-interface.md)
       + [Beschreibung der Benutzeroberfläche](start/using/interface-description.md)
       + [Listen anpassen](start/using/customizing-lists.md)
       + [Barrierefreiheit](start/using/accessibility.md)
-   + Verwenden von Marketing-Aktivitäten {#marketing-plans}
+   + Arbeiten mit Marketing-Aktivitäten {#marketing-plans}
       + [Programme und Kampagnen](start/using/programs-and-campaigns.md)
       + [Marketing-Aktivitäten](start/using/marketing-activities.md)
       + [Vorlagen für Marketing-Aktivitäten](start/using/marketing-activity-templates.md)
@@ -48,7 +48,7 @@ ht-degree: 100%
       + [Datenschutzanfragen](start/using/privacy-requests.md)
       + [Häufig gestellte Fragen zum Datenschutz](start/using/privacy-faq.md)
    + [Hilfe- und Support-Optionen](support.md)
-+ Profile und Audiences {#profiles-and-audiences}
++ Profile und Zielgruppen  {#profiles-and-audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audiences/using/get-started-profiles-and-audiences.md)
    + Profile verwalten {#managing-profiles}
       + [Über Profile](audiences/using/about-profiles.md)
@@ -60,8 +60,8 @@ ht-degree: 100%
       + [Anreicherung der Campaign-Datenbank](audiences/using/enriching-campaign-database.md)
    + Verwaltung von Audiences {#managing-audiences}
       + [Über Zielgruppen](audiences/using/about-audiences.md)
-      + [Erstellen von Audiences](audiences/using/creating-audiences.md)
-      + [Audience in einer Nachricht auswählen](audiences/using/selecting-an-audience-in-a-message.md)
+      + [Erstellen von Zielgruppen](audiences/using/creating-audiences.md)
+      + [Zielgruppe in einer Nachricht auswählen](audiences/using/selecting-an-audience-in-a-message.md)
    + Abonnements verwalten {#managing-subscriptions}
       + [Über Abonnements](audiences/using/about-subscriptions.md)
       + [Erstellen eines Service](audiences/using/creating-a-service.md)
@@ -72,7 +72,7 @@ ht-degree: 100%
       + [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in- und Opt-out-Verfahren in Campaign verwalten](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identifizieren von Opt-out-Profilen bei einem Versand](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-+ Kommunikationskanäle{#communication-channels}
++ Kommunikationskanäle {#communication-channels}
    + [Erste Schritte mit Kommunikationskanälen](channels/using/get-started-communication-channels.md)
    + Über Kommunikationskanäle {#about-communication-channels}
       + [Wichtigste Schritte im Nachrichtenversand](channels/using/key-steps-to-send-a-message.md)
@@ -85,7 +85,7 @@ ht-degree: 100%
       + [Optimieren des Versands](sending/using/optimize-delivery.md)
       + [Vorlagen verwenden](sending/using/use-templates.md)
       + [Erstellen personalisierter Inhalte](sending/using/design-and-personalize.md)
-      + [Festlegen der richtigen Audience](sending/using/define-the-right-audience.md)
+      + [Festlegen der richtigen Zielgruppe](sending/using/define-the-right-audience.md)
       + [Vor dem Senden prüfen](sending/using/check-before-sending.md)
       + [Tracken und überwachen](sending/using/track-and-monitor.md)
    + E-Mail-Nachrichten {#email-messages}
@@ -113,13 +113,13 @@ ht-degree: 100%
       + [In-App-Nachricht vorbereiten und senden](channels/using/preparing-and-sending-an-in-app-message.md)
       + [In-App-Nachricht anpassen](channels/using/customizing-an-in-app-message.md)
       + [Häufig gestellte Fragen zu In-App-Nachrichten](channels/using/in-app-faq.md)
-   + Briefpost {#direct-mail}
+   + Direkt-Mail {#direct-mail}
       + [Über Briefpost](channels/using/about-direct-mail.md)
       + [An den Absender zurücksenden](channels/using/return-to-sender.md)
       + [Briefpost erstellen](channels/using/creating-the-direct-mail.md)
-      + [Briefpost-Audience definieren](channels/using/defining-the-direct-mail-audience.md)
+      + [Briefpost-Zielgruppe definieren](channels/using/defining-the-direct-mail-audience.md)
       + [Briefpost-Inhalt definieren](channels/using/defining-the-direct-mail-content.md)
-   + Transaktionsnachrichtenversand {#transactional-messaging}
+   + Transaktionsnachrichten {#transactional-messaging}
       + [Erste Schritte mit Transaktionsnachrichten](channels/using/getting-started-with-transactional-msg.md)
       + [Best Practices und Einschränkungen](channels/using/transactional-messaging-limitations.md)
       + [Aktualisierungen der Berechtigungen für Transaktionsnachrichten](channels/using/transactional-message-permission.md)
@@ -179,7 +179,7 @@ ht-degree: 100%
       + [Versand bestätigen](sending/using/confirming-the-send.md)
       + [Nachrichten tracken](sending/using/tracking-messages.md)
       + [Archivieren mit E-Mail-BCC](sending/using/archiving.md)
-   + Nachrichten überwachten {#monitoring-messages}
+   + Nachrichten beobachten {#monitoring-messages}
       + [Sendungen überwachen](sending/using/monitoring-a-delivery.md)
       + [Warnungen bei Zustellproblemen erhalten](sending/using/receiving-alerts-when-failures-happen.md)
       + [Ursachen von fehlgeschlagenen Sendungen](sending/using/understanding-delivery-failures.md)
@@ -212,7 +212,7 @@ ht-degree: 100%
       + [Versandzusammenfassung](reporting/using/delivery-summary.md)
       + [Versanddurchsatz](reporting/using/delivery-throughput.md)
       + [In-App-Bericht](reporting/using/in-app-report.md)
-      + [Fehler und Bounces](reporting/using/non-deliverables-and-bounces.md)
+      + [Unzustellbare Nachrichten und Bounces](reporting/using/non-deliverables-and-bounces.md)
       + [Öffnungen](reporting/using/opens.md)
       + [Bericht zu Push-Benachrichtigungen](reporting/using/push-notification-report.md)
       + [SMS-Bericht](reporting/using/sms-report.md)
@@ -221,7 +221,7 @@ ht-degree: 100%
       + [URLs und Clickstreams](reporting/using/urls-and-click-streams.md)
       + [Klicks](reporting/using/hot-clicks.md)
       + [Service-Zusammenfassung](reporting/using/service-summary.md)
-   + Berichte anpassen {#customizing-reports}
+   + Anpassen von Berichten {#customizing-reports}
       + [Panels hinzufügen](reporting/using/adding-panels.md)
       + [Visualisierungen hinzufügen](reporting/using/adding-visualizations.md)
       + [Komponenten hinzufügen](reporting/using/adding-components.md)
@@ -239,7 +239,7 @@ ht-degree: 100%
       + [Über die Integration von Campaign mit Target](integrating/using/about-campaign-target-integration.md)
       + [Integration von Campaign mit Target konfigurieren](integrating/using/configuring-the-campaign-target-integration.md)
       + [Dynamische Inhalte aus Target einfügen](integrating/using/adding-target-dynamic-content.md)
-   + Campaign und Analytics {#working-with-campaign-and-analytics}
+   + Campaign und Analysen {#working-with-campaign-and-analytics}
       + [Über die Integration von Campaign mit Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Integration von Campaign mit Analytics konfigurieren](integrating/using/configure-campaign-analytics-integration.md)
       + [Campaign-Dimensionen und -Metriken in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
@@ -253,7 +253,7 @@ ht-degree: 100%
       + [Über die Integration von Campaign-POI-Daten](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Integration von Campaign-POI-Daten konfigurieren](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Campaign-Nachrichten mit POI-Daten personalisieren](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign und Triggers {#working-with-campaign-and-triggers}
+   + Campaign und Trigger {#working-with-campaign-and-triggers}
       + [Über Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Triggers in Experience Cloud konfigurieren](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
@@ -264,17 +264,17 @@ ht-degree: 100%
       + [Best Practices und Einschränkungen](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Microsoft Dynamics 365 konfigurieren](integrating/using/d365-acs-configure-d365.md)
       + [Campaign und Adobe I/O konfigurieren](integrating/using/d365-acs-configure-adobe-io.md)
-      + Integrationsanwendung konfigurieren{#configure-integration-tool}
+      + Konfigurieren der Integrationsanwendung {#configure-integration-tool}
          + [Erste Schritte mit der Integrationsanwendung](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [Zugriff auf die Integrationsanwendung](integrating/using/d365-acs-self-service-app-control-access.md)
          + [Systeme mit der Integrationsanwendung verbinden](integrating/using/d365-acs-self-service-app-settings.md)
          + [Synchronisations-Workflows verwalten](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Daten zwischen Microsoft Dynamics 365 und Campaign mappen](integrating/using/d365-acs-self-service-app-data-sync.md)
          + [Migrieren von Anmeldedaten von JWT zu OAuth-Server-zu-Server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
-      + [Integration mit Microsoft Dynamics 365 verwenden](integrating/using/d365-acs-using-the-integration.md)
+      + [Verwenden der Integration mit Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign und Adobe Experience Platform {#adobe-experience-platform}
       + [Erste Schritte mit Quellen und Zielen](integrating/using/get-started-sources-destinations.md)
-      + [Adobe Experience Platform-Audiences in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
+      + [Adobe Experience Platform-Zielgruppen in Campaign aufnehmen](integrating/using/ingest-aep-data.md)
       + [Daten von Campaign nach Adobe Experience Platform exportieren](integrating/using/export-campaign-data.md)
 + Verwalten von Prozessen und Daten {#managing-processes-and-data}
    + [Erste Schritte mit der Verwaltung von Daten und Prozessen](automating/using/get-started-workflows.md)
@@ -305,8 +305,8 @@ ht-degree: 100%
       + [Schnittmenge](automating/using/intersection.md)
       + [Ausschluss](automating/using/exclusion.md)
       + [Segmentierung](automating/using/segmentation.md)
-      + [Audience lesen](automating/using/read-audience.md)
-      + [Audience-Speicherung](automating/using/save-audience.md)
+      + [Zielgruppe lesen](automating/using/read-audience.md)
+      + [Zielgruppe speichern](automating/using/save-audience.md)
       + [Deduplizierung](automating/using/deduplication.md)
       + [Anreicherung](automating/using/enrichment.md)
    + Ausführungsaktivitäten {#execution-activities}
@@ -325,7 +325,7 @@ ht-degree: 100%
       + [Push-Benachrichtigungsversand](automating/using/push-notification-delivery.md)
       + [Briefpost-Versand](automating/using/direct-mail-delivery.md)
       + [In-App-Versand](automating/using/in-app-delivery.md)
-   + Datenverwaltungsaktivitäten {#data-management-activities}
+   + Daten-Management-Aktivitäten {#data-management-activities}
       + [Über Datenverwaltungsaktivitäten](automating/using/about-data-management-activities.md)
       + [Daten-Update](automating/using/update-data.md)
       + [Datei laden](automating/using/load-file.md)
@@ -355,7 +355,7 @@ ht-degree: 100%
          + [Sendungen zum Erstellungsdatum von Profilen erstellen](automating/using/workflow-creation-date-query.md)
          + [Wöchentlichen Versand erstellen](automating/using/workflow-weekly-offer.md)
          + [Kanalübergreifenden Versand erstellen](automating/using/workflow-cross-channel-delivery.md)
-         + [Dubletten vor einem Versand identifizieren](automating/using/identifying-duplicated-before-delivery.md)
+         + [Duplikate vor einem Versand identifizieren](automating/using/identifying-duplicated-before-delivery.md)
          + [Versand zum Geburtstag](automating/using/birthday-delivery.md)
          + [E-Mail- und Briefpostversand verbinden](automating/using/coupling-email-direct-mail.md)
          + [E-Mail mit erweiterten Feldern senden](automating/using/sending-email-enriched-fields.md)
@@ -363,14 +363,14 @@ ht-degree: 100%
          + [Wiederkehrende Push-Benachrichtigungen senden](automating/using/recurring-push-notifications.md)
       + Segmentierung und Zielgruppenbestimmung {#segmentation-targeting}
          + [Beispiele für Abfragen](automating/using/query-samples.md)
-         + [Vereinigung von zwei eingegrenzten Audiences](automating/using/union-on-two-refined-audiences.md)
+         + [Vereinigung von zwei eingegrenzten Zielgruppen](automating/using/union-on-two-refined-audiences.md)
          + [Segmentierung nach Ort erstellen](automating/using/workflow-segmentation-location.md)
          + [Retargeting von Nicht-Öffnern](automating/using/workflow-cross-channel-retargeting.md)
          + [Inkrementelle Abfrage bezüglich Service-Abonnenten](automating/using/incremental-query-on-subscribers.md)
          + [Segmentierung nach Altersklassen](automating/using/segmentation-age-groups.md)
          + [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](automating/using/using-resources-different-from-targeting-dimensions.md)
       + Daten-Management {#data-management}
-         + [Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](automating/using/reconcile-file-audience-with-database.md)
+         + [Eine Zielgruppe vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](automating/using/reconcile-file-audience-with-database.md)
          + [Daten einer importierten Datei deduplizieren](automating/using/deduplicating-data-imported-file.md)
          + [Profildaten mit in einer Datei enthaltenen Daten anreichern](automating/using/enriching-profile-data-file.md)
          + [Aktivität &quot;Externes Signal&quot; und Datenimport](automating/using/external-signal-data-import.md)
@@ -381,7 +381,7 @@ ht-degree: 100%
          + [Profile in eine externe Datei exportieren](automating/using/exporting-profiles-in-file.md)
          + [Mehrere Abonnementstatus über eine Datei aktualisieren](automating/using/updating-subscriptions-from-file.md)
          + [Profile aus einer Datei für einen bestimmten Service anmelden](automating/using/subscribing-profiles-from-file.md)
-+ Entwickeln{#developing}
++ Entwickeln {#developing}
    + [Erste Schritte mit dem Campaign Standard-Datenmodell](developing/using/get-started-data-model.md)
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Konzepte von Datenmodellen](developing/using/data-model-concepts.md)
@@ -449,7 +449,7 @@ ht-degree: 100%
       + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migrieren Ihrer Mobile App vom SDK v4 zum Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
       + [Änderungen am Push-Benachrichtigungskanal](administration/using/push-technote.md)
-   + SMS-Kanal konfigurieren {#configuring-sms}
+   + Konfigurieren des SMS-Kanals {#configuring-sms}
       + [SMS-Kanal implementieren](administration/using/configuring-sms-channel.md)
       + [Protokoll und Einstellungen des SMS-Connectors](administration/using/sms-protocol.md)
       + [SMS-Fehlerbehebung](administration/using/troubleshooting-sms.md)
@@ -502,7 +502,7 @@ ht-degree: 100%
       + [Abrufen der Organisationseinheit eines Profils](api/using/retrieving-an-organizational-unit.md)
       + [Aktualisieren der Organisationseinheit eines Profils](api/using/updating-profile-organizational-unit.md)
       + [Attribute einer Organisationseinheit aktualisieren](api/using/updating-organizational-unit-attributes.md)
-   + Geografische Einheiten verwalten {#managing-geographical-units}
+   + Verwaltung geografischer Einheiten {#managing-geographical-units}
       + [Abrufen der geografischen Einheit eines Profils](api/using/retrieving-a-geographical-unit.md)
       + [Aktualisieren der geografischen Einheit eines Profils](api/using/updating-a-geographical-unit.md)
       + [Attribute geografischer Einheiten aktualisieren](api/using/updating-geographical-unit-attributes.md)
