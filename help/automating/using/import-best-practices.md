@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 100%
@@ -87,7 +88,7 @@ Vollständige Importe sollten nur für das erstmalige Laden verwendet werden.
 Um die Konsistenz der Adobe Campaign-Datenbank zu gewährleisten, befolgen Sie die unten stehenden Grundsätze:
 
 * Wenn die importierten Daten einer Referenztabelle in Adobe Campaign entsprechen, sollten sie im Workflow mit dieser Tabelle abgestimmt werden. Nicht übereinstimmende Datensätze sollten abgelehnt werden.
-* Achten Sie darauf, dass die importierten Daten (E-Mail, Telefonnummer, Postanschrift) stets **&quot;bereinigt&quot;** werden und dass diese Bereinigung zuverlässig ist und sich im Laufe der Jahre nicht verändert. Andernfalls könnten in der Datenbank Duplikate entstehen. Da Adobe Campaign keine Tools zum &quot;unscharfen&quot; Abgleich besitzt, ist es dann sehr schwierig, diese Duplikate zu verwalten und zu entfernen.
+* Achten Sie darauf, dass die importierten Daten (E-Mail, Telefonnummer, Briefpostanschrift) stets **&quot;bereinigt&quot;** werden und dass diese Bereinigung zuverlässig ist und sich im Laufe der Jahre nicht verändert. Andernfalls könnten in der Datenbank Duplikate entstehen. Da Adobe Campaign keine Tools zum &quot;unscharfen&quot; Abgleich besitzt, ist es dann sehr schwierig, diese Duplikate zu verwalten und zu entfernen.
 * Transaktionsdaten sollten einen Abstimmschlüssel aufweisen und mit den bestehenden Daten abgestimmt werden, damit keine Duplikate entstehen.
 * **Importieren Sie verknüpfte Dateien in der richtigen Reihenfolge**. Wenn der Import aus mehreren miteinander verbundenen Dateien besteht, sollte im Workflow darauf geachtet werden, dass die Dateien in der richtigen Reihenfolge importiert werden. Wenn der Import einer Datei fehlschlägt, werden auch die anderen nicht importiert.
 * Achten Sie beim Datenimport auf die **Deduplizierung**, die Abstimmung und die Gewährleistung der Konsistenz.

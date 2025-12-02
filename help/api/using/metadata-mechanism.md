@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
@@ -26,13 +27,13 @@ In der Antwort werden die Hauptmetadaten der Ressource zurückgegeben (alle ande
 * Der Knoten **Inhalt** gibt die Felder der Ressource zurück. Für jedes Feld im Knoten **Inhalt** können wir folgende Felder finden:
 
    * &quot;apiName&quot;: Name des Attributs, das in den APIs verwendet wird.
-   * &quot;type&quot;: Dies ist die übergeordnete Typdefinition (Zeichenfolge, Zahl, Link, Sammlung, Auflistung...).
+   * &quot;type&quot;: Dies ist die übergeordnete Typdefinition (Zeichenfolge, Zahl, Link, Sammlung, Aufzählung...).
    * &quot;dataPolicy&quot;: Der Wert des Felds muss den angegebenen Regeln entsprechen. Wenn die Regel &quot;dataPolicy&quot; beispielsweise auf &quot;email&quot; gesetzt ist, muss der Wert eine gültige E-Mail-Adresse sein. Während eines PATCH- oder POST-Vorgangs kann &quot;dataPolicy&quot; den Wert überprüfen oder den umzuwandelnden Wert ändern (z. B. smartCase).
-   * &quot;category&quot;: Gibt die Kategorie des Felds im Abfrageeditor an.
+   * &quot;category&quot;: Gibt die Kategorie des Felds im Abfrage-Editor an.
    * &quot;resType&quot;: Dies ist der technische Typ.
 
      Wenn &quot;type&quot; mit dem Wert &quot;link&quot; oder &quot;collection&quot; ausgefüllt wird, ist der resTarget-Wert der Name der Ressource, auf die der Link abzielt.
-Wenn &quot;type&quot; mit dem Wert &quot;enumeration&quot; ausgefüllt wird, wird ein Feld &quot;values&quot; hinzugefügt und jeder Auflistungswert im Knoten **Werte** detailliert beschrieben.
+Wenn &quot;type&quot; mit dem Wert &quot;enumeration&quot; ausgefüllt wird, wird ein Feld &quot;values&quot; hinzugefügt und jeder Aufzählungswert im Knoten **Werte** detailliert beschrieben.
 
 * Der Knoten **Filter** gibt die URL zum Abrufen der zugehörigen Filter zurück. Weiterführende Informationen zu Filtern finden Sie in [diesem Abschnitt](../../api/using/filtering.md).
 

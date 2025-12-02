@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 100%
@@ -70,4 +71,4 @@ Führen Sie die folgenden Schritte aus, um Adobe Experience Manager mit Adobe Ca
 
 1. Stellen Sie dann die Verbindung zwischen Adobe Experience Manager und Adobe Campaign her, indem Sie einen dedizierten **[!UICONTROL Cloud Service]** konfigurieren. Siehe diesen [Abschnitt](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=de#connecting-aem-to-adobe-campaign?lang=de).
 
-1. Konfigurieren Sie jetzt den Externalizer in Adobe Experience Manager auf Ihrer Authoring-Instanz. Siehe diesen [Abschnitt](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=de#configuring-the-externalizer).
+1. Konfigurieren Sie jetzt den Externalizer in Adobe Experience Manager auf Ihrer Autoreninstanz. Siehe diesen [Abschnitt](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=de#configuring-the-externalizer).

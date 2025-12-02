@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -18,7 +19,7 @@ ht-degree: 100%
 
 # Inkrementelle Abfrage bezüglich Service-Abonnenten {#example--incremental-query-on-subscribers-to-a-service}
 
-Im folgenden Beispiel wird die Konfiguration der Aktivität **[!UICONTROL Inkrementelle Abfrage]** illustriert, die der Filterung der Profile der Adobe Campaign-Datenbank dient, die Abonnenten des Diensts **Running-Newsletter** sind, um diesen eine Willkommens-E-Mail mit einem Sonderangebots-Code zu senden.
+Im folgenden Beispiel wird die Konfiguration der Aktivität **[!UICONTROL Inkrementelle Abfrage]** illustriert, die der Filterung der Profile der Adobe Campaign-Datenbank dient, die Abonnenten des Diensts **Running-Newsletter** sind, um diesen eine Begrüßungs-E-Mail mit einem Sonderangebots-Code zu senden.
 
 Der Workflow besteht aus folgenden Aktivitäten:
 
@@ -38,4 +39,4 @@ Der Workflow besteht aus folgenden Aktivitäten:
 
   Definieren Sie den Inhalt Ihrer E-Mail und fügen Sie den Willkommenscode für ein Sonderangebot ein. Weitere Informationen hierzu finden Sie in den Abschnitten zum [Definieren von E-Mail-Inhalten](../../designing/using/personalization.md).
 
-Starten Sie nun die Ausführung des Workflows. Jede Woche erhalten neue Abonnenten die Willkommens-E-Mail mit dem Sonderangebotscode.
+Starten Sie nun die Ausführung des Workflows. Jede Woche erhalten neue Abonnenten die Begrüßungs-E-Mail mit dem Sonderangebotscode.

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
@@ -30,7 +31,7 @@ Der Lebenszyklus eines Workflows gestaltet sich in drei Hauptetappen:
 
 * **Abgeschlossen** (grün)
 
-  Ein Workflow ist abgeschlossen, wenn keine Aufgaben mehr zur Verarbeitung anstehen, oder wenn die Ausführung ausdrücklich angehalten wurde.
+  Ein Workflow ist abgeschlossen, wenn keine Aufgaben mehr zur Verarbeitung anstehen, oder wenn die Ausführung der Instanz ausdrücklich angehalten wurde.
 
 Nach dem Start kann ein Workflow zwei weitere Status aufweisen:
 
@@ -40,7 +41,7 @@ Nach dem Start kann ein Workflow zwei weitere Status aufweisen:
 
 * **Fehlerhaft** (rot)
 
-  Bei der Ausführung des Workflows ist ein Fehler aufgetreten. Die Ausführung wurde angehalten und ein Eingreifen des Benutzers ist erforderlich. Mithilfe der Schaltfläche ![](assets/printpreview_darkgrey-24px.png) gelangen Sie in das Workflow-Protokoll, dem Sie die Fehlerursache entnehmen können (siehe [Monitoring](../../automating/using/monitoring-workflow-execution.md)).
+  Bei der Ausführung des Workflows ist ein Fehler aufgetreten. Der Workflow wurde angehalten und ein Eingreifen des Benutzers ist erforderlich. Mithilfe der Schaltfläche ![](assets/printpreview_darkgrey-24px.png) gelangen Sie in das Workflow-Protokoll, dem Sie die Fehlerursache entnehmen können (siehe [Monitoring](../../automating/using/monitoring-workflow-execution.md)).
 
 Die Liste der Marketing-Aktivitäten ermöglicht die Anzeige aller Workflows inklusive ihrer Status. Weiterführende Informationen dazu finden Sie im Abschnitt [Marketing-Aktivitäten verwalten](../../start/using/marketing-activities.md#about-marketing-activities).
 

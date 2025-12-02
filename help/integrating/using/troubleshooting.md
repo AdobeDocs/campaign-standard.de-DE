@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
@@ -34,7 +35,7 @@ Achten Sie in diesem Fall darauf, dass die folgenden Elemente richtig konfigurie
 
   Wenn mehrere Datenquellen definiert sind, wird die Option **[!UICONTROL Priorität]** verwendet. Mit dieser Option wird festgelegt, welche Datenquelle mit den entsprechend der definierten Reihenfolge erhaltenen Alias abgeglichen wird. **[!UICONTROL Priorität]** wird nur für die Triggers-Implementierung benötigt.
 
-  Prüfen Sie, ob der Abstimmschlüssel korrekt ist. Der Export und Import von Audiences wird mit dem Hash-Wert/verschlüsselten Wert dieses Felds durchgeführt.
+  Prüfen Sie, ob der Abstimmschlüssel korrekt ist. Der Export und Import von Zielgruppen wird mit dem Hash-Wert/verschlüsselten Wert dieses Felds durchgeführt.
 
   Prüfen Sie im Fall von Hashing oder Verschlüsselung der Declared ID, ob dieselben Parameter/Verschlüsselungsalgorithmen auf Ihrer Website verwendet werden.
 
@@ -48,4 +49,4 @@ Achten Sie in diesem Fall darauf, dass die folgenden Elemente richtig konfigurie
 
   Möglicherweise werden Audiences in Experience Cloud nicht freigegeben, da der technische Workflow angehalten oder ausgesetzt wurde. Öffnen Sie den Workflow **[!UICONTROL Freigegebene Zielgruppe importieren]** durch direkte Auswahl der Option **[!UICONTROL Workflow Freigegebene Zielgruppe importieren zeigen]** in Ihrer Datenquelle.
 
-Es kann vorkommen, dass manche Daten bei der Freigabe einer Audience über People Core Service oder beim Import einer Audience fehlen. Es werden nämlich nur Datensätze übertragen, deren Kennung (&#39;Visitor ID&#39; oder &#39;Declared ID&#39;) mit der Profildimension abgestimmt werden konnte. Von Adobe Campaign nicht erkannte Kennungen, die People-Core-Service-Segmenten entstammen, werden nicht importiert.
+Es kann vorkommen, dass manche Daten bei der Freigabe einer Zielgruppe über People Core Service oder beim Import einer Zielgruppe fehlen. Es werden nämlich nur Datensätze übertragen, deren Kennung (&#39;Visitor ID&#39; oder &#39;Declared ID&#39;) mit der Profildimension abgestimmt werden konnte. Von Adobe Campaign nicht erkannte Kennungen, die People-Core-Service-Segmenten entstammen, werden nicht importiert.

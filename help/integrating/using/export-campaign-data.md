@@ -3,13 +3,14 @@ title: Daten von Campaign nach Adobe Experience Platform exportieren
 description: Erfahren Sie, wie Sie Daten von Campaign Standard nach Adobe Experience Platform exportieren.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +22,7 @@ Nachdem der Workflow konfiguriert und Daten an Ihren Speicherort gesendet wurden
 
 >[!NOTE]
 >
->Wir empfehlen, nur in Campaign generierte Daten (z. B. Sendungen, Öffnungen, Klicks usw.) nach Adobe Experience Platform zu exportieren. Daten, die in einer Drittanbieter-Quelle (wie Ihrem CRM-System) aufgenommen werden, sollten direkt in Adobe Experience Platform importiert werden.
+>Wir empfehlen, nur von Campaign erzeugte Daten (z. B. Sendungen, Öffnungen, Klicks usw.) nach Adobe Experience Platform zu exportieren. Daten, die in einer Drittanbieter-Quelle (wie Ihrem CRM-System) aufgenommen werden, sollten direkt in Adobe Experience Platform importiert werden.
 
 ## Export-Workflow in Campaign Standard erstellen
 

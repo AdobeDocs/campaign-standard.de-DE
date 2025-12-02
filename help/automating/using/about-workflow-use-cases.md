@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
@@ -28,7 +29,7 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu verstehen, in denen Workfl
 * [Sendungen zum Erstellungsdatum von Profilen erstellen](../../automating/using/workflow-creation-date-query.md)
 * [Wöchentlichen Versand erstellen](../../automating/using/workflow-weekly-offer.md)
 * [Kanalübergreifenden Versand erstellen](../../automating/using/workflow-cross-channel-delivery.md)
-* [Dubletten vor einem Versand identifizieren](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Duplikate vor einem Versand identifizieren](../../automating/using/identifying-duplicated-before-delivery.md)
 * [Versand zum Geburtstag](../../automating/using/birthday-delivery.md)
 * [E-Mail- und Briefpostversand verbinden](../../automating/using/coupling-email-direct-mail.md)
 * [E-Mail mit erweiterten Feldern senden](../../automating/using/sending-email-enriched-fields.md)
@@ -40,7 +41,7 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu verstehen, in denen Workfl
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Beispiele für Abfragen](../../automating/using/query-samples.md)
-* [Vereinigung von zwei eingegrenzten Audiences](../../automating/using/union-on-two-refined-audiences.md)
+* [Vereinigung von zwei eingegrenzten Zielgruppen](../../automating/using/union-on-two-refined-audiences.md)
 * [Segmentierung nach Ort erstellen](../../automating/using/workflow-segmentation-location.md)
 * [Retargeting von Nicht-Öffnern](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Inkrementelle Abfrage bezüglich Service-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
@@ -51,7 +52,7 @@ Sie helfen Ihnen dabei, die verschiedenen Kontexte zu verstehen, in denen Workfl
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
+* [Eine Zielgruppe vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
 * [Daten einer importierten Datei deduplizieren](../../automating/using/deduplicating-data-imported-file.md)
 * [Profildaten mit in einer Datei enthaltenen Daten anreichern](../../automating/using/enriching-profile-data-file.md)
 * [Aktivität &quot;Externes Signal&quot; und Datenimport](../../automating/using/external-signal-data-import.md)

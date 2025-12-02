@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 100%
@@ -54,7 +55,7 @@ In diesem Anwendungsbeispiel erstellen wir einen einfachen Trigger, der jedes Ma
 
    ![](assets/trigger_uc_browse_2.png)
 
-1. Für dieses Anwendungsbeispiel benötigen wir einen einfachen Abbruch-Trigger. Wir müssen nun die Besucher identifizieren, die unsere Reisebuchungs-Website besuchen, sich die Angebote ansehen, aber keine Reise buchen. Sobald wir diese Audience identifiziert haben, möchten wir innerhalb kurzer Zeit wieder Kontakt mit ihr aufnehmen. In unserem Beispiel möchten wir den Trigger nach 10 Minuten senden.
+1. Für dieses Anwendungsbeispiel benötigen wir einen einfachen Abbruch-Trigger. Wir müssen nun die Besucher identifizieren, die unsere Reisebuchungs-Website besuchen, sich die Angebote ansehen, aber keine Reise buchen. Sobald wir diese Zielgruppe identifiziert haben, möchten wir innerhalb kurzer Zeit wieder Kontakt mit ihr aufnehmen. In unserem Beispiel möchten wir den Trigger nach 10 Minuten senden.
 
    ![](assets/trigger_uc_browse_3.png)
 
@@ -93,7 +94,7 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
 ### Das Szenario     {#running-the-scenario}
 
-1. Am Beginn dieses Anwendungsbeispiels steht eine E-Mail, die mit Adobe Campaign an Ihre Audience gesendet wurde.
+1. Am Beginn dieses Anwendungsbeispiels steht eine E-Mail, die mit Adobe Campaign an Ihre Zielgruppe gesendet wurde.
 
    ![](assets/trigger_uc_browse_9.png)
 
@@ -105,7 +106,7 @@ Erstellen Sie in Adobe Campaign einen Trigger, der mit dem zuvor in Experience C
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. Der Empfänger öffnet die Seite &quot;Angebote&quot;, bricht seinen Besuch aber ab. Nach 10 Minuten startet Adobe Campaign mit dem Versand der Transaktionsnachricht.
+1. Der Empfänger öffnet die Seite &quot;Angebote&quot;, stoppt seinen Besuch aber. Nach 10 Minuten startet Adobe Campaign mit dem Versand der Transaktionsnachricht.
 
    ![](assets/trigger_uc_browse_12.png)
 

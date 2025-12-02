@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
@@ -108,7 +109,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Ausführliche Informationen zum Status von XDM-Mapping-Anfragen und den zugehörigen Vorgängen finden Sie in der Benutzeroberfläche von Campaign Standard im Menü **[!UICONTROL Status des Datenexports zu Platform]** (siehe [Mapping-Aktivierung ](../../integrating/using/aep-mapping-activation.md)).
+>Ausführliche Informationen zum Status von XDM-Mapping-Anfragen und den zugehörigen Aufträgen finden Sie in der Benutzeroberfläche von Campaign Standard im Menü **[!UICONTROL Status des Datenexports zu Platform]** (siehe [Mapping-Aktivierung ](../../integrating/using/aep-mapping-activation.md)).
 
 Der GET-Vorgang gibt die folgenden Informationen zurück:
 

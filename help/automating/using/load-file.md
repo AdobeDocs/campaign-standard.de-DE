@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1528'
 ht-degree: 100%
@@ -46,7 +47,7 @@ Sie haben folgende Möglichkeiten:
 * [Anwendungsfall: Datenbank mit externen Daten aktualisieren](../../automating/using/update-database-file.md)
 * [Anwendungsfall: Daten basierend auf einem automatischen Datei-Download aktualisieren](../../automating/using/update-data-automatic-download.md)
 * [Anwendungsfall: E-Mail mit erweiterten Feldern senden](../../automating/using/sending-email-enriched-fields.md)
-* [Anwendungsfall: Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
+* [Anwendungsfall: Eine Zielgruppe vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Konfiguration {#configuration}
 

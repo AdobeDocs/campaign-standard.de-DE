@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -46,7 +47,7 @@ Der Workflow setzt sich folgendermaßen zusammen:
 
 * Aktivität [Deduplizierung](../../automating/using/deduplication.md). Die Deduplizierung erfolgt direkt nach dem Dateiimport und vor der Einfügung der Daten in die Datenbank. Sie basiert folglich auf der von der **[!UICONTROL Datei-laden]**-Aktivität erzeugten **[!UICONTROL temporären Ressource]**.
 
-  Im vorliegenden Beispiel soll pro in der Datei enthaltener E-Mail-Adresse ausschließlich ein Eintrag beibehalten werden. Die Identifizierung der Dubletten erfolgt also mittels der Spalte **email** der temporären Ressource. Nun tauchen zwei E-Mail-Adressen aber jeweils zweimal in der Datei auf. Zwei Zeilen werden also als Dubletten angesehen.
+  Im vorliegenden Beispiel soll pro in der Datei enthaltener E-Mail-Adresse ausschließlich ein Eintrag beibehalten werden. Die Identifizierung der Duplikate erfolgt also mittels der Spalte **email** der temporären Ressource. Nun tauchen zwei E-Mail-Adressen aber jeweils zweimal in der Datei auf. Zwei Zeilen werden also als Duplikate angesehen.
 
   ![](assets/deduplication_example2_dedup.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
@@ -36,13 +37,13 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Validieren Sie die Aktivität.
-1. Schließen Sie eine [Datei laden](../../automating/using/load-file.md)-Aktivität an die Aktivität **[!UICONTROL Dateiübertragung]** an.
+1. Ziehen Sie per Drag-and-Drop eine Aktivität [Datei laden](../../automating/using/load-file.md) in Ihren Workflow und platzieren Sie sie nach der Aktivität **[!UICONTROL Datei übertragen]**.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Schnellaktionen angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Aktivieren Sie im Tab **[!UICONTROL Ausführung]** im Bereich **[!UICONTROL Zu ladende Datei]** die Option **[!UICONTROL Datei der eingehenden Transition verwenden]**.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Konfigurieren Sie die Aktivität wie oben beschrieben.
-1. Schließen Sie nun ein [Daten-Update](../../automating/using/update-data.md) an die **[!UICONTROL Datei laden]**-Aktivität an und konfigurieren Sie es.
+1. Ziehen Sie nun per Drag-and-Drop eine Aktivität [Daten katualisieren](../../automating/using/update-data.md) in Ihren Workflow und platzieren Sie sie nach der Aktivität **[!UICONTROL Datei laden]** und konfigurieren Sie sie.
 
 Starten Sie den Workflow. Die gewünschte Datei wird geladen, die Daten werden extrahiert und die Adobe Campaign-Datenbank wird angereichert.

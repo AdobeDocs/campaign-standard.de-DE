@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 100%

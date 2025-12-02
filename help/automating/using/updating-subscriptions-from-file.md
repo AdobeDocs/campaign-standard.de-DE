@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -18,7 +19,7 @@ ht-degree: 100%
 
 # Mehrere Abonnementstatus über eine Datei aktualisieren {#updating-multiple-subscription-statuses-from-a-file}
 
-Dieses Beispiel zeigt, wie eine Datei mit Profilen importiert wird und ihre Anmeldungen bei mehreren in der Datei spezifizierten Diensten durchgeführt werden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile mit einer Verknüpfung zu Diensten identifiziert werden können. Um sicherzustellen, dass sich keine Dubletten in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
+Dieses Beispiel zeigt, wie eine Datei mit Profilen importiert wird und ihre Anmeldungen bei mehreren in der Datei spezifizierten Diensten durchgeführt werden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile mit einer Verknüpfung zu Diensten identifiziert werden können. Um sicherzustellen, dass sich keine Duplikate in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
 
 Der Workflow stellt sich folgendermaßen dar:
 
@@ -57,7 +58,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
   ![](assets/subscription_example_service_relation.png)
 
-* Eine [Deduplizierung](../../automating/using/deduplication.md) zur Identifizierung eventueller Dubletten wird auf der Basis des **email**-Felds der (aus der Abstimmung hervorgegangenen) temporären Ressource durchgeführt. Die Eliminierung von Dubletten ist wichtig, da andernfalls die Anmeldung für einen Dienst für alle Daten fehlschlägt.
+* Eine [Deduplizierung](../../automating/using/deduplication.md) zur Identifizierung eventueller Duplikate wird auf der Basis des **email**-Felds der (aus der Abstimmung hervorgegangenen) temporären Ressource durchgeführt. Die Eliminierung von Duplikaten ist wichtig, da andernfalls die Anmeldung für einen Dienst für alle Daten fehlschlägt.
 
   ![](assets/subscription_activity_example5.png)
 

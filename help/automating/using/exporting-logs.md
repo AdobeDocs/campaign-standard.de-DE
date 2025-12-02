@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
@@ -64,7 +65,7 @@ Der Log-Export kann von Standardbenutzern durchgeführt werden. Private Ressourc
 
    * Geben Sie im Tab **[!UICONTROL Dateistruktur]** das Format der Ausgabedatei an.
 
-     Wenn Sie Auflistungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Auflistungen exportieren]**. Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
+     Wenn Sie Aufzählungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Aufzählungen exportieren]**. Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
 
 1. Fügen Sie die Aktivität **[!UICONTROL Dateiübertragung]** hinzu, und konfigurieren Sie sie, um die neu erstellte Datei vom Adobe Campaign-Server an einen anderen Speicherort zu übertragen, von wo Sie darauf zugreifen können, wie z. B. einen SFTP-Server.
 

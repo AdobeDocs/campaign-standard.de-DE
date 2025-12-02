@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -38,11 +39,11 @@ Zugriff auf diese Funktion besteht bei allen Bildschirmen, die eine **Listen**-A
 1. Bei Bedarf können die Spalten sortiert werden.
 1. Verwenden Sie dann die Schaltfläche ![](assets/exportlistbutton.png), um den Export zu starten.
 
-   Ein Popup zur Bestätigung erscheint. Sobald Sie den Export bestätigt haben, wird die Datei automatisch auf Ihr Gerät geladen.
+   Ein Popup zur Bestätigung des Exports erscheint. Sobald Sie den Export bestätigt haben, wird die Datei automatisch auf Ihr Gerät geladen.
 
 Die Datei wird im CSV-Format mit der Erweiterung .TXT generiert. Sie wird nach der exportierten Ressource und dem Exportdatum benannt. Zum Beispiel: profileBase_20150426_120253.txt für einen am 26. April 2015 um 12:02:53 Uhr erfolgten Export von Profilen. Sie ist im UTF-8-Format kodiert.
 
-Numerische Werte und Daten berücksichtigen die Standortparameter (Locale) des Benutzers, der den Export ausführt. Beispiel: TT-MM-JJJJ oder MM-TT-JJJJ.
+Numerische Werte und Daten berücksichtigen die Standortparameter (Gebietsschema) des Benutzers, der den Export ausführt. Beispiel: TT-MM-JJJJ oder MM-TT-JJJJ.
 
 Zum Export größerer Datenmengen ist die Erstellung eines spezifischen Workflows erforderlich. Weiterführende Informationen finden Sie im Abschnitt [Dateiextraktion](../../automating/using/extract-file.md).
 
@@ -80,6 +81,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 In diesem Video wird die Konfiguration von Listen gezeigt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30203/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

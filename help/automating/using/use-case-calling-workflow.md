@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 100%
@@ -19,12 +20,12 @@ ht-degree: 100%
 
 Im folgenden Anwendungsbeispiel wird gezeigt, wie Sie einen Workflow mit Parametern innerhalb Ihrer Workflows abrufen können.
 
-Dabei soll ein Workflow durch einen API-Aufruf mit externen Parametern ausgelöst werden. Durch diesen Workflow werden aus einer Datei Daten in Ihre Datenbank geladen und eine entsprechende Audience erstellt. Nach der Erstellung der Audience wird ein zweiter Workflow ausgelöst, durch den eine Nachricht gesendet wird, die mit den externen, im API-Aufruf definierten Parametern personalisiert wurde.
+Dabei soll ein Workflow durch einen API-Aufruf mit externen Parametern ausgelöst werden. Durch diesen Workflow werden aus einer Datei Daten in Ihre Datenbank geladen und eine entsprechende Zielgruppe erstellt. Nach der Erstellung der Zielgruppe wird ein zweiter Workflow ausgelöst, durch den eine Nachricht gesendet wird, die mit den externen, im API-Aufruf definierten Parametern personalisiert wurde.
 
 Führen Sie dazu folgende Aktionen aus:
 
 1. Führen Sie einen **API-Aufruf** aus, um Workflow 1 mit externen Parametern auszulösen. Siehe [Schritt 1: API-Aufruf konfigurieren](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
-1. **Erstellen Sie Workflow 1**: Mit dem Workflow wird eine Datei übertragen und in die Datenbank geladen. Danach wird getestet, ob die Daten leer sind oder nicht, und schließlich werden die Profile in der Audience gespeichert. Abschließend wird Workflow 2 ausgelöst. Siehe [Schritt 2: Workflow 1 konfigurieren](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **Erstellen Sie Workflow 1**: Mit dem Workflow wird eine Datei übertragen und in die Datenbank geladen. Danach wird getestet, ob die Daten leer sind oder nicht, und schließlich werden die Profile in der Zielgruppe gespeichert. Abschließend wird Workflow 2 ausgelöst. Siehe [Schritt 2: Workflow 1 konfigurieren](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
 1. **Erstellen Sie Workflow 2**: Mit diesem Workflow wird die Zielgruppe gelesen, die in Workflow 1 erstellt wurde. Danach wird eine personalisierte Nachricht an die Profile gesendet, wobei ein Segment-Code verwendet wird, in den die Parameter eingefügt werden. Siehe [Schritt 3: Workflow 2 konfigurieren](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
@@ -67,7 +68,7 @@ Workflow 1 wird folgendermaßen erstellt:
 * Aktivität **[!UICONTROL Datei laden]**: Lädt Daten aus der importierten Datei in die Datenbank.
 * **[!UICONTROL Aktivität Daten-Update]**: Fügt Daten aus der importierten Datei in die Datenbank ein oder aktualisiert die Datenbank.
 * **[!UICONTROL Aktivität Test]**: Prüft, ob importierte Daten verfügbar sind.
-* **[!UICONTROL Aktivität Audience-Speicherung]**: Wenn die Datei Daten enthält, werden die Profile in einer Audience gespeichert.
+* **[!UICONTROL Zielgruppe-speichern]**-Aktivität: Wenn die Datei Daten enthält, werden die Profile in einer Zielgruppe gespeichert.
 * **[!UICONTROL Aktivität Ende]**: Ruft Workflow 2 mit den gewünschten Parametern auf.
 
 ![](assets/extsignal_uc_wkf1.png)
@@ -110,8 +111,8 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc5.png)
 
-1. Wenn Daten abgerufen werden, speichern Sie sie in einer Audience. Fügen Sie zu diesem Zweck die Aktivität **[!UICONTROL Audience-Speicherung]** zur Transition **Target not empty** hinzu und öffnen Sie sie.
-1. Wählen Sie die Option **[!UICONTROL Dynamischen Titel verwenden]** aus und fügen Sie dann den Parameter **fileToTarget** als den Titel der Audience ein:
+1. Wenn Daten abgerufen werden, speichern Sie sie in einer Zielgruppe. Fügen Sie zu diesem Zweck die Aktivität **[!UICONTROL Zielgruppe speichern]** zur Transition **Target not empty** hinzu und öffnen Sie sie.
+1. Wählen Sie die Option **[!UICONTROL Dynamischen Titel verwenden]** aus und fügen Sie dann den Parameter **fileToTarget** als den Titel der Zielgruppe ein:
 
    ```
    $(vars/@fileToTarget)
@@ -134,8 +135,8 @@ Workflow 1 ist somit konfiguriert. Erstellen Sie jetzt Workflow 2. Weiterführen
 Workflow 2 wird folgendermaßen erstellt:
 
 * **[!UICONTROL Aktivität Externes Signal]**: Die Parameter müssen deklariert werden, damit sie im Workflow verwendet werden können.
-* Aktivität **[!UICONTROL Audience lesen]**: Liest die in Workflow 1 gespeicherte Audience.
-* Aktivität **[!UICONTROL E-Mail-Versand]**: Sendet eine wiederkehrende durch Parameter personalisierte Nachricht an die entsprechende Audience.
+* Aktivität **[!UICONTROL Zielgruppe lesen]**: Liest die in Workflow 1 gespeicherte Zielgruppe.
+* Aktivität **[!UICONTROL E-Mail-Versand]**: Sendet eine wiederkehrende durch Parameter personalisierte Nachricht an die entsprechende Zielgruppe.
 
 ![](assets/extsignal_uc_wkf2.png)
 
@@ -147,8 +148,8 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc8.png)
 
-1. Verwenden Sie die in Workflow 1 gespeicherte Audience. Platzieren Sie zu diesem Zweck die Aktivität **[!UICONTROL Audience lesen]** in den Workflow und öffnen Sie sie.
-1. Wählen Sie die Option **[!UICONTROL Dynamische Audience verwenden]** aus und verwenden Sie den Parameter **fileToTarget** als den Namen der zu lesenden Audience:
+1. Verwenden Sie die in Workflow 1 gespeicherte Zielgruppe. Platzieren Sie zu diesem Zweck die Aktivität **[!UICONTROL Zielgruppe lesen]** in den Workflow und öffnen Sie sie.
+1. Wählen Sie die Option **[!UICONTROL Dynamische Audience verwenden]** aus und verwenden Sie den Parameter **fileToTarget** als den Namen der zu lesenden Zielgruppe:
 
    ```
    $(vars/@fileToTarget)
@@ -168,7 +169,7 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc10.png)
 
-1. Platzieren Sie die Aktivität **[!UICONTROL E-Mail-Versand]** in den Workflow, um eine Nachricht an die Audience zu senden.
+1. Platzieren Sie die Aktivität **[!UICONTROL E-Mail-Versand]** in den Workflow, um eine Nachricht an die Zielgruppe zu senden.
 1. Identifizieren Sie die in der Nachricht zu verwendenden Parameter, um sie mit dem Parameter **discountDesc** zu personalisieren. Öffnen Sie dazu die erweiterten Optionen der Aktivität und fügen Sie den Namen und den Wert des Parameters hinzu.
 
    ![](assets/extsignal_uc10b.png)

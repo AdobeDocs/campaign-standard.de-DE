@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
@@ -26,7 +27,7 @@ Eine **[!UICONTROL Inkrementelle Abfrage]** dient der Filterung und Extraktion e
 
 Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für die Zielpopulation definieren. Diese Daten werden in Zusatzspalten gespeichert und können ausschließlich für den laufenden Workflow verwendet werden.
 
-Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
+Die Aktivität verwendet den Abfrage-Editor, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
 ## Anwendungskontext       {#context-of-use}
 

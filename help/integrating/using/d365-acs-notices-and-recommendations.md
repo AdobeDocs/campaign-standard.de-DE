@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 97%
@@ -102,7 +103,7 @@ Ihre Campaign-SFTP-Datenspeicherung muss in den unten angegebenen Anwendungsbeis
 
 ### Bestehende Campaign-Daten
 
-Durch diese Integration werden Kontakte und benutzerdefinierte Entitäten von Microsoft Dynamics 365 nach Campaign synchronisiert. Campaign-Datensätze, die außerhalb der Integration erstellt werden (d. h. nicht vom Synchronisationsvorgang), werden durch die Integration nicht geändert, einschließlich der zum Zeitpunkt der Integrationskonfiguration vorhandenen Campaign-Datensätze.
+Durch diese Integration werden Kontakte und benutzerdefinierte Entitäten von Microsoft Dynamics 365 nach Campaign synchronisiert. Campaign-Datensätze, die außerhalb der Integration erstellt werden (d. h. nicht vom Synchronisationsauftrag), werden durch die Integration nicht geändert, einschließlich der zum Zeitpunkt der Integrationskonfiguration vorhandenen Campaign-Datensätze.
 
 Da bei dieser Integration das Feld **[!UICONTROL externalId]** in Campaign zum Synchronisieren von Campaign-Profildatensätzen mit Dynamics 365-Kontaktdatensätzen verwendet wird, muss dieses Campaign-Feld (**[!UICONTROL externalId]**) mit der Microsoft Dynamics 365- **[!UICONTROL contactId]** für diejenigen Datensätze ausgefüllt werden, die in Microsoft Dynamics 365 synchronisiert werden sollen.  Benutzerdefinierte Entitäten werden ebenfalls mit einer eindeutigen Microsoft Dynamics 365-ID synchronisiert. Die benutzerdefinierte Entität in Campaign muss dieses ID-Attribut als Tabellenspalte enthalten. Die Spalte &quot;externalId&quot; kann verwendet werden, um diesen Attributwert zu speichern, ist jedoch nicht für benutzerdefinierte Entitäten in Campaign erforderlich.
 

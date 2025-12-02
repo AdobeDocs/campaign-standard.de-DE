@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 100%
@@ -71,7 +72,7 @@ Wenn dies in den entsprechenden Spalten der Datei spezifiziert wird, können Sie
 
 ## Beispiel: Profile bei einem spezifischen Dienst nach dem Import einer Datei anmelden       {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-In diesem Beispiel wird dargestellt, wie man eine Datei mit Profilen importiert, um diese für einen existierenden Dienst anzumelden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile identifiziert werden können. Um sicherzustellen, dass sich keine Dubletten in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
+In diesem Beispiel wird dargestellt, wie man eine Datei mit Profilen importiert, um diese für einen existierenden Dienst anzumelden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile identifiziert werden können. Um sicherzustellen, dass sich keine Duplikate in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
 
 Der Workflow stellt sich folgendermaßen dar:
 
@@ -100,7 +101,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
   ![](assets/subscription_activity_example3.png)
 
-* **[!UICONTROL Deduplizierung]** zur Identifizierung eventueller Dubletten, basierend auf dem **email**-Feld der (aus der Abstimmung hervorgegangenen) temporären Ressource. Sollten die aus der Datei importierten Daten Dubletten enthalten, wird die Anmeldung für einen Dienst für alle Datensätze fehlschlagen.
+* **[!UICONTROL Deduplizierung]** zur Identifizierung eventueller Duplikate, basierend auf dem **email**-Feld der (aus der Abstimmung hervorgegangenen) temporären Ressource. Sollten die aus der Datei importierten Daten Duplikate enthalten, wird die Anmeldung für einen Dienst für alle Datensätze fehlschlagen.
 
   ![](assets/subscription_activity_example5.png)
 
@@ -110,7 +111,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
 ## Beispiel: Mehrere Abonnementstatus über eine Datei aktualisieren {#example--updating-multiple-subscription-statuses-from-a-file}
 
-Dieses Beispiel zeigt, wie eine Datei mit Profilen importiert wird und ihre Anmeldungen bei mehreren in der Datei spezifizierten Diensten durchgeführt werden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile mit einer Verknüpfung zu Diensten identifiziert werden können. Um sicherzustellen, dass sich keine Dubletten in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
+Dieses Beispiel zeigt, wie eine Datei mit Profilen importiert wird und ihre Anmeldungen bei mehreren in der Datei spezifizierten Diensten durchgeführt werden. Auf den Dateiimport muss eine Abstimmungsaktivität folgen, damit die importierten Daten als Profile mit einer Verknüpfung zu Diensten identifiziert werden können. Um sicherzustellen, dass sich keine Duplikate in der Datei befinden, wird eine Deduplizierung auf die Daten angewendet.
 
 Der Workflow stellt sich folgendermaßen dar:
 
@@ -149,7 +150,7 @@ Der Workflow stellt sich folgendermaßen dar:
 
   ![](assets/subscription_example_service_relation.png)
 
-* Eine **[!UICONTROL Deduplizierung]** zur Identifizierung eventueller Dubletten wird auf der Basis des **email**-Felds der (aus der Abstimmung hervorgegangenen) temporären Ressource durchgeführt. Die Eliminierung von Dubletten ist wichtig, da andernfalls die Anmeldung für einen Dienst für alle Daten fehlschlägt.
+* Eine **[!UICONTROL Deduplizierung]** zur Identifizierung eventueller Duplikate wird auf der Basis des **email**-Felds der (aus der Abstimmung hervorgegangenen) temporären Ressource durchgeführt. Die Eliminierung von Duplikaten ist wichtig, da andernfalls die Anmeldung für einen Dienst für alle Daten fehlschlägt.
 
   ![](assets/subscription_activity_example5.png)
 

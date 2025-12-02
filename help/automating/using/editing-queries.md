@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
@@ -18,21 +19,21 @@ ht-degree: 100%
 
 # Abfrageeditor{#editing-queries}
 
-## Über den Abfrageeditor {#about-query-editor}
+## Über den Abfrage-Editor {#about-query-editor}
 
-Der Adobe Campaign Abfrageeditor ist ein Assistent, der die Filterung der in der Datenbank enthaltenen Informationen ermöglicht.
+Der Adobe Campaign Abfrage-Editor ist ein Assistent, der die Filterung der in der Datenbank enthaltenen Informationen ermöglicht.
 
 Mit dieser Funktion können Sie eine Population mithilfe von Filtern und Regeln erstellen, damit Sie Ihre Empfänger optimal ansprechen können.
 
 Der Abfrageeditor kommt in verschiedenen Funktionen zum Einsatz:
 
-* Erstellung von **Audiences** vom Typ **Abfrage**,
+* Erstellung von **Zielgruppen** vom Typ **Abfrage**,
 * Definition von **E-Mail-Zielgruppen**,
 * Definition von Populationen in **Workflow-Aktivitäten**.
 
-## Benutzeroberfläche des Abfrageeditors     {#query-editor-interface}
+## Benutzeroberfläche des Abfrage-Editors     {#query-editor-interface}
 
-Die Benutzeroberfläche des Abfrageeditors enthält eine **Palette** und einen **Arbeitsbereich**.
+Die Benutzeroberfläche des Abfrage-Editors enthält eine **Palette** und einen **Arbeitsbereich**.
 
 ![](assets/query_editor_overview.png)
 
@@ -45,22 +46,22 @@ Die Palette befindet sich auf der linken Seite des Tools und ist in zwei Tabs un
 
 Die in den Tabs enthaltenen Elemente müssen im Arbeitsbereich platziert werden, damit sie konfiguriert und bei der Abfrage berücksichtigt werden können. Je nach ausgewählter Zielgruppendimension (siehe [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources)) stehen folgende Optionen zur Verfügung:
 
-* Auswahl einzelner Audiences oder Profile,
+* Auswahl einzelner Zielgruppen oder Profile,
 * Verwendung vordefinierter Filter,
 * Definition von einfachen Regeln für frei wählbare Felder,
 * Definition von erweiterten Regeln zur Anwendung von Funktionen auf gewisse Felder.
 
 ### Arbeitsbereich     {#workspace}
 
-Der Arbeitsbereich ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln, Audiences und Filter konfigurieren und kombinieren können, die aus der Palette hier abgelegt werden.
+Der Arbeitsbereich ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln, Zielgruppen und Filter konfigurieren und kombinieren können, die aus der Palette hier abgelegt werden.
 
 Wenn Sie ein Element aus der Palette in den Arbeitsbereich ziehen, öffnet sich ein neues Fenster, mit dem sich [Abfragen erstellen](#creating-queries) lassen.
 
 ## Abfragen erstellen     {#creating-queries}
 
-Mit dem Abfrageeditor können Sie eine Audience oder ein Testprofil in einer Nachricht oder eine Population in einem Workflow definieren und eine Audience vom Typ &quot;Abfrage&quot; erstellen.
+Mit dem Abfrage-Editor können Sie eine Zielgruppe oder ein Testprofil in einer Nachricht oder eine Population in einem Workflow definieren und eine Zielgruppe vom Typ &quot;Abfrage&quot; erstellen.
 
-Abfragen können während der Versanderstellung im **[!UICONTROL Audience]**-Fenster oder während der Workflow-Erstellung in der Aktivität **Abfrage** definiert werden.
+Abfragen können während der Versanderstellung im **[!UICONTROL Zielgruppe]**-Fenster oder während der Workflow-Erstellung in der Aktivität **Abfrage** definiert werden.
 
 1. Ziehen Sie ein Element aus der Palette in den Arbeitsbereich. Der Regeleditor öffnet sich.
 
@@ -91,7 +92,7 @@ Abfragen können während der Versanderstellung im **[!UICONTROL Audience]**-Fen
 
    * **Vordefinierte Filter** - je nach im Filter definierten Kriterien Elemente auswählen oder eingeben.
 
-     Zur Erleichterung der Erstellung komplexer, wiederholt vorkommender Abfragen haben Administratoren die Möglichkeit, Filter zu erstellen. Diese werden im Abfrageeditor in Form von vorkonfigurierten Regeln angezeigt und ermöglichen es, die Anzahl der von Benutzern vorzunehmenden Schritte zu begrenzen.
+     Zur Erleichterung der Erstellung komplexer, wiederholt vorkommender Abfragen haben Administratoren die Möglichkeit, Filter zu erstellen. Diese werden im Abfrage-Editor in Form von vorkonfigurierten Regeln angezeigt und ermöglichen es, die Anzahl der von Benutzern vorzunehmenden Schritte zu begrenzen.
 
      ![](assets/query-editor_filter_email-audience_filter.png)
 

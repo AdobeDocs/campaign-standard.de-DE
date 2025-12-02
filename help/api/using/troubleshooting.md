@@ -2,13 +2,14 @@
 title: Fehlerbehebung bei APIs
 description: Erfahren Sie mehr über häufige Probleme bei Campaign Standard-APIs
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 96%
 
 ---
 
@@ -74,7 +75,7 @@ In der Antwort muss der Wert ORGANISATION_ID mit dem in Ihrer ersten GET-Anfrage
 }
 ```
 
-* **Wenn Sie eine Anfrage an Adobe.io richten, erhalten Sie {&quot;code&quot;:500, &quot;message&quot;:&quot;Oh. Da ist etwas schiefgelaufen. Überprüfen Sie Ihren URI und versuchen Sie es erneut.&quot;}**
+* **Bei einer Anfrage an Adobe.io erhalten Sie {„code“:500, „message“:„Oops. Da ist etwas schiefgelaufen. Überprüfen Sie Ihren URI und versuchen Sie es erneut.&quot;}**
 
 Adobe.io deklariert Ihren ungültigen URI: Der von Ihnen angefragte URI ist höchstwahrscheinlich ungültig. Wenn Sie in Adobe.io den Campaign-Dienst wählen, erhalten Sie eine Auswahl mit einer Liste möglicher Organisationskennungen. Sie müssen dafür sorgen, dass die von Ihnen gewählte Option mit der Eingabe in Ihrer URL übereinstimmt.
 

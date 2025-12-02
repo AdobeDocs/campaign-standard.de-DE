@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 100%
@@ -40,7 +41,7 @@ Die Aktivität **[!UICONTROL Abstimmung]** dient hauptsächlich der Datenverwalt
 
 * Mithilfe des Tabs **[!UICONTROL Identifizierung]** lassen sich eingehende Daten den Spalten einer bereits in der Adobe Campaign-Datenbank existierenden Dimension zuordnen. Die aus der Aktivität ausgehenden Daten werden so als der bestimmten Dimension zugehörig identifiziert.
 
-  Im Anschluss können Sie zum Beispiel eine Audience speichern, die Datenbank aktualisieren etc.
+  Im Anschluss können Sie zum Beispiel eine Zielgruppe speichern, die Datenbank aktualisieren etc.
 
 Die Aktivität **[!UICONTROL Abstimmung]** kann beispielsweise auf eine Datenladeaktivität folgen, um nicht standardmäßige Daten in die Datenbank zu importieren.
 
@@ -49,7 +50,7 @@ Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, d
 
 ## Konfiguration {#configuration}
 
-1. Ziehen Sie eine **[!UICONTROL Abstimmung]** in den Workflow-Arbeitsbereich und schließen Sie diese an eine Transition mit einer Population an, deren Zieldimension nicht direkt Adobe Campaign entstammt. Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Ziehen Sie eine **[!UICONTROL Abstimmung]** in den Workflow-Arbeitsbereich und schließen Sie diese an eine Transition mit einer Population an, deren Zielgruppendimension nicht direkt Adobe Campaign entstammt. Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 1. Nutzen Sie zur Definition von Beziehungen zwischen eingehenden Daten und anderen Dimensionen der Datenbank den Tab **[!UICONTROL Relationen]**.
 
@@ -75,4 +76,4 @@ Erfahren Sie, wie Sie diese Aktivität in den folgenden Anwendungsfällen verwen
 
 * [Anwendungsfall: Datenabstimmung mithilfe von Relationen](../../automating/using/reconciliation-using-relations.md)
 * [Anwendungsfall: Datenaktualisierung mittels Abstimmung](../../automating/using/data-update-reconciliation.md)
-* [Anwendungsfall: Eine Audience vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)
+* [Anwendungsfall: Eine Zielgruppe vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)

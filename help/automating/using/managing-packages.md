@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
@@ -82,7 +83,7 @@ Zur Erstellung eines Packages benötigen Sie Administratorrechte.
 
    ![](assets/packages_4.png)
 
-1. Daraufhin öffnet sich das Abfragetool und Sie können die zu exportierenden Elemente filtern. Weiterführende Informationen hierzu finden Sie im Abschnitt [Abfragetool](../../automating/using/editing-queries.md#creating-queries).
+1. Daraufhin öffnet sich der Abfrage-Editor und Sie können die zu exportierenden Elemente filtern. Weiterführende Informationen hierzu finden Sie im Abschnitt [Abfragetool](../../automating/using/editing-queries.md#creating-queries).
 
    ![](assets/packages_5.png)
 

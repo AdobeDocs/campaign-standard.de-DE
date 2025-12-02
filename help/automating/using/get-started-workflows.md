@@ -1,14 +1,15 @@
 ---
 title: Erste Schritte mit Prozessen und Daten-Management
-description: Automatisieren Sie Prozesse mit Workflows, verwalten Sie Daten und Audiences, senden Sie Nachrichten und vieles mehr.
+description: Automatisieren Sie Prozesse mit Workflows, verwalten Sie Daten und Zielgruppen, senden Sie Nachrichten und vieles mehr.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -54,9 +55,9 @@ Mehr dazu:
 
 ## Daten filtern {#filter-data}
 
-Verwenden Sie den **Abfrageeditor**, um Daten aus Ihrer Datenbank zu filtern und eine Population zu erstellen, um Ihre Empfänger besser zu erreichen. Der Abfrageeditor steht für verschiedene Aktionen in Campaign Standard zur Verfügung: Erstellen von Audiences für Abfragetypen, Definieren von Versandzielen oder Populationen in Workflow-Aktivitäten.
+Verwenden Sie den **Abfrage-Editor**, um Daten aus Ihrer Datenbank zu filtern und eine Population zu erstellen, um Ihre Empfänger besser zu erreichen. Der Abfrage-Editor steht für verschiedene Aktionen in Campaign Standard zur Verfügung: Erstellen von Zielgruppen für Abfragetypen, Definieren von Versandzielen oder Populationen in Workflow-Aktivitäten.
 
-Der Abfrageneditor enthält **vordefinierte Filter und Regeln** für eine schnelle und einfache Filterung. Sie können jedoch auch die **erweiterte Ausdrucksbearbeitung** verwenden. Auf diese Weise können Sie Bedingungen manuell eingeben und Funktionen verwenden, um eigene Regeln zu bilden.
+Der Abfrage-Editor enthält **vordefinierte Filter und Regeln** für eine schnelle und einfache Filterung. Sie können jedoch auch die **erweiterte Ausdrucksbearbeitung** verwenden. Auf diese Weise können Sie Bedingungen manuell eingeben und Funktionen verwenden, um eigene Regeln zu bilden.
 
 Mehr dazu:
 

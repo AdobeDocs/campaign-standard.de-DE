@@ -6,12 +6,13 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
 hidefromtoc: true
-source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
@@ -24,7 +25,7 @@ ht-degree: 100%
 >
 >Der Audience Destinations-Dienst wird jetzt nicht mehr unterstützt. Eingestellte Funktionen sind weiterhin verfügbar, werden jedoch weder weiter verbessert noch unterstützt. Weiterführende Informationen finden Sie auf [dieser Seite](../../rn/using/deprecated-features.md)
 
-Nutzen Sie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de), um die Erlebnisse Ihrer Kunden zu optimieren, indem Sie auf der Grundlage großer, komplexer Datensätze zielgenaue Audiences erstellen. Adobe Experience Platform fasst Profildaten, Verhaltensdaten und Daten mehrerer Entitäten über Online- und Offline-Quellen hinweg zusammen, einschließlich Adobe Analytics. So erhalten Sie eine 360-Grad-Ansicht Ihres Kunden und können Kundenerlebnisse effektiv verwalten.
+Nutzen Sie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de), um die Erlebnisse Ihrer Kunden zu optimieren, indem Sie auf der Grundlage großer, komplexer Datensätze zielgenaue Zielgruppen erstellen. Adobe Experience Platform fasst Profildaten, Verhaltensdaten und Daten mehrerer Entitäten über Online- und Offline-Quellen hinweg zusammen, einschließlich Adobe Analytics. So erhalten Sie eine 360-Grad-Ansicht Ihres Kunden und können Kundenerlebnisse effektiv verwalten.
 
 Adobe Campaign Standard verwendet dann den Dienst **Audience Destinations**, um von Adobe Experience Platform für mehrstufige und/oder kanalübergreifende Kampagnenprogramme eine Sammlung von Profilen abzurufen, die als **Audiences** bezeichnet werden.
 
@@ -33,7 +34,7 @@ Adobe Campaign Standard verwendet dann den Dienst **Audience Destinations**, um 
 * [Echtzeit-Kundenprofil – Überblick ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
 * [Übersicht über den Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
 
-Nach dem Erstellen eines Segments können Sie es als Audience für einen Versand in [Campaign Standard-Workflows](../../integrating/using/aep-targeting-audiences.md) aktivieren. Darüber hinaus können Sie kontextuelle Daten aus Adobe Experience Platform verwenden, um Nachrichten zu [personalisieren](../../integrating/using/aep-personalizing-campaigns.md) und dynamische Inhalte zu Ihren Kampagnen hinzuzufügen.
+Nach dem Erstellen eines Segments können Sie es als Zielgruppe für einen Versand in [Campaign Standard-Workflows](../../integrating/using/aep-targeting-audiences.md) aktivieren. Darüber hinaus können Sie kontextuelle Daten aus Adobe Experience Platform verwenden, um Nachrichten zu [personalisieren](../../integrating/using/aep-personalizing-campaigns.md) und dynamische Inhalte zu Ihren Kampagnen hinzuzufügen.
 
 ![](assets/do-not-localize/how-to-video.png) Anleitungsvideos sind auch auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html?lang=de) verfügbar.
 
@@ -43,10 +44,10 @@ In diesen Abschnitten verwendete Begriffe:
 
   Beispiel: &quot;Max Mustermann ist ein 55-jähriger Mann.&quot;
 
-* **Segment**: Ein Satz von Regeln, der eine Untergruppe von Profilen aus Ihrer Datenbank definiert, wobei Attribute und Ereignisdaten verwendet werden.
+* **Segment**: Ein Satz von Regeln, der eine Teilmenge von Profilen aus Ihrer Datenbank definiert, wobei Attribute und Ereignisdaten verwendet werden.
 
   Beispiel: &quot;Männer > 50 Jahre alt.&quot;
 
-* **Audience**: Eine Sammlung von Profilen, die Segmentregeln entsprechen.
+* **Zielgruppe**: Eine Sammlung von Profilen, die Segmentregeln entsprechen.
 
   Beispiel: Liste von Profilen, die allen Männern über 50 Jahren in Ihrer Datenbank entspricht.

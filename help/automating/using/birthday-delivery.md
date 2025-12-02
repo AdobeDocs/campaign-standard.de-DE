@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -28,7 +29,7 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen:
 
   ![](assets/wkf_delivery_example_2.png)
 
-* Die auf die Planung folgende [Abfrage](../../automating/using/query.md) ruft alle Profile aus der Datenbank ab, die am aktuellen Datum Geburtstag haben und deren E-Mail-Adresse bekannt ist. Der Geburtstagsfilter ist standardmäßig im Abfragetool enthalten.
+* Die Aktivität [Abfrage](../../automating/using/query.md) ermöglicht es, bei jeder Ausführung des Workflows die Profile zu berechnen, die eine E-Mail-Adresse angegeben haben und deren Geburtstag auf den aktuellen Tag fällt. Der Geburtstagsfilter ist standardmäßig im Abfragetool enthalten.
 
   ![](assets/wkf_delivery_example_3.png)
 

@@ -1,21 +1,22 @@
 ---
-title: Adobe Experience Platform-Audiences in Campaign aufnehmen
-description: Erfahren Sie, wie Sie Adobe Experience Platform-Audiences in Campaign Standard aufnehmen.
+title: Adobe Experience Platform-Zielgruppen in Campaign aufnehmen
+description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen in Campaign Standard aufnehmen.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform-Audiences in Campaign aufnehmen {#destinations}
+# Adobe Experience Platform-Zielgruppen in Campaign aufnehmen {#destinations}
 
-Um Adobe Experience Platform-Audiences in Campaign aufzunehmen und sie in Ihren Workflows zu verwenden, müssen Sie zunächst Adobe Campaign als ein Adobe Experience Platform-**Ziel** verbinden und mit dem zu exportierenden Segment konfigurieren.
+Um Adobe Experience Platform-Zielgruppen in Campaign aufzunehmen und sie in Ihren Workflows zu verwenden, müssen Sie zunächst Adobe Campaign als ein Adobe Experience Platform-**Ziel** verbinden und mit dem zu exportierenden Segment konfigurieren.
 
 Nachdem das Ziel konfiguriert ist, werden die Daten an Ihren Speicherort exportiert. Zur Aufnahme der Daten muss in Campaign Standard noch ein spezieller Workflow erstellt werden.
 

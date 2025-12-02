@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
@@ -68,12 +69,12 @@ Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möcht
   </tr> 
   <tr> 
    <td> Adobe Audience Manager und People Core Service (Profile &amp; Audiences)<br /> </td> 
-   <td> Dient dem Austausch von Audiences zwischen den verschiedenen, von Ihnen verwendeten Adobe Experience Cloud-Anwendungen.<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People Core Service (Profiles &amp; Audiences)</a><br /> </td> 
+   <td> Dient dem Austausch von Zielgruppen zwischen den verschiedenen, von Ihnen verwendeten Adobe Experience Cloud-Anwendungen.<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People Core Service (Profile und Zielgruppen)</a><br /> </td> 
   </tr> 
    <tr> 
    <td> Adobe Echtzeit-Kundendatenplattform (RTCDP)<br /> </td> 
-   <td> Die Integration zwischen Adobe Campaign und Adobe Echtzeit-Kundendatenplattform (RTCDP) ermöglicht das Freigeben von Segmentdaten und das Importieren von Audiences in Adobe Campaign.</td>
+   <td> Die Integration zwischen Adobe Campaign und Adobe Echtzeit-Kundendatenplattform (RTCDP) ermöglicht das Freigeben von Segmentdaten und das Importieren von Zielgruppen in Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Erste Schritte mit Quellen und Zielen</a></td>
   </tr> 
   <tr> 

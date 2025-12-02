@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
@@ -72,7 +73,7 @@ Die Art der Datenextraktion wird im Zuge der Aktivitätskonfiguration definiert.
 
 1. Klicken Sie auf den **[!UICONTROL Dateistruktur]**-Tab, um das Ausgabe-, Datums- und Zahlenformat der zu exportierenden Datei zu konfigurieren.
 
-   Wenn Sie Auflistungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Auflistungen exportieren]**. Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
+   Wenn Sie Aufzählungswerte exportieren, aktivieren Sie die Option **[!UICONTROL Titel anstelle der internen Werte der Aufzählungen exportieren]**. Mit dieser Option können Sie kürzere Titel abrufen, die einfacher verständlich sind als IDs.
 
    ![](assets/extract-file-file-structure.png)
 

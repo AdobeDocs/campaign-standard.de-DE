@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -26,11 +27,11 @@ Die Reaktionszeit beträgt mindestens 10 Minuten.
 Im Folgenden wird beschrieben, wie Sie Abonnenten, die innerhalb der letzten zwei Wochen Ihr Geschäft in Boston besucht haben, eine E-Mail senden können:
 
 1. Erstellen Sie eine E-Mail-Marketing-Aktivität.
-1. Ziehen Sie beim Bestimmen der Versand-Audience das Element **[!UICONTROL App-Abonnements]** in den Arbeitsbereich.
+1. Ziehen Sie beim Bestimmen der Versand-Zielgruppe das Element **[!UICONTROL App-Abonnements]** in den Arbeitsbereich.
 
    ![](assets/poi_subscriptions_app.png)
 
-   Die Verwaltung von Audiences wird im Abschnitt [Audiences bestimmen](../../audiences/using/creating-audiences.md) beschrieben.
+   Die Verwaltung von Zielgruppen wird im Abschnitt [Zielgruppen bestimmen](../../audiences/using/creating-audiences.md) beschrieben.
 
 1. Ziehen Sie im Fenster **[!UICONTROL Regel hinzufügen - Profil/App-Abonnements]** das Element **[!UICONTROL POI-Standortmitgliedschaft]** in den Arbeitsbereich.
 
@@ -43,7 +44,7 @@ Im Folgenden wird beschrieben, wie Sie Abonnenten, die innerhalb der letzten zwe
 1. Wählen Sie im Feld **[!UICONTROL Filtertyp]** die Option **[!UICONTROL Relativ]** aus.
 1. Markieren Sie die Option **[!UICONTROL In den letzten Tagen]** und geben Sie im entsprechenden Feld **[!UICONTROL 15]** ein.
 1. Geben Sie an, wie oft der Benutzer den POI besucht haben muss.
-1. Klicken Sie auf **[!UICONTROL Validieren]**, um Ihre Audience zu speichern.
+1. Klicken Sie auf **[!UICONTROL Validieren]**, um Ihre Zielgruppe zu speichern.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 

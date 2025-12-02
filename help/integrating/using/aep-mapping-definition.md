@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
@@ -65,11 +66,11 @@ Sie können die XDM-Erweiterung über die API anpassen und Ihre eigene Erweiteru
 
 Weitere Informationen zur XDM-API finden Sie im [Tutorial zur Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
 
-Um ein Auflistungsfeld abzubilden, müssen Sie den Ausdruckseditor verwenden, um jeden Auflistungswert zu definieren, der dem XDM-Wert entspricht. So muss zum Beispiel &quot;postaladdressfield&quot; wie folgt definiert werden:
+Um ein Aufzählungsfeld abzubilden, müssen Sie den Ausdruckseditor verwenden, um jeden Aufzählungswert zu definieren, der dem XDM-Wert entspricht. So muss zum Beispiel &quot;postaladdressfield&quot; wie folgt definiert werden:
 
 ![](assets/aep_enummapping.png)
 
-Wenn der XDM-Wert als Auflistung im XDM-Schema definiert ist, können Sie die native EXDM-Funktion verwenden, die die **lif**-Syntax automatisch ersetzt.
+Wenn der XDM-Wert als Aufzählung im XDM-Schema definiert ist, können Sie die native EXDM-Funktion verwenden, die die **lif**-Syntax automatisch ersetzt.
 
 ![](assets/aep_enummappingexdm.png)
 

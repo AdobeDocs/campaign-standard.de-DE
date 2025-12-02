@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 100%
@@ -39,7 +40,7 @@ Die Ausdrucksbearbeitung findet in folgenden Fällen Verwendung:
 
 Durch die Bearbeitung erweiterter Ausdrücke können Sie manuell Ausdrücke definieren, die Ihren spezifischen Bedürfnissen entsprechen.
 
-Die Ausdrucksbearbeitung kann während der Erstellung einer E-Mail im Audience-Fenster oder während der Workflow-Erstellung in der Abfrage-Aktivität erfolgen.
+Die Ausdrucksbearbeitung kann während der Erstellung einer E-Mail im Zielgruppe-Fenster oder während der Workflow-Erstellung in der Abfrage-Aktivität erfolgen.
 
 1. Öffnen Sie den Ausdruckseditor in einem der im Abschnitt [Über die Ausdrucksbearbeitung](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing) beschriebenen Anwendungskontexte. Der Editor setzt sich aus folgenden Elementen zusammen:
 
@@ -55,9 +56,9 @@ Die Ausdrucksbearbeitung kann während der Erstellung einer E-Mail im Audience-F
 
    Es ist möglich, Workflow-Ereignisvariablen zur Erstellung eines Ausdrucks zu verwenden. Weiterführende Informationen dazu finden Sie im Abschnitt [Aktivitäten mit Ereignisvariablen anpassen](../../automating/using/customizing-workflow-external-parameters.md).
 
-1. Benennen Sie gegebenenfalls Ihre Regel. Dieser Name erscheint dann anstelle des automatischen Namens im Arbeitsbereich des Abfragetools.
+1. Benennen Sie gegebenenfalls Ihre Regel. Dieser Name erscheint dann anstelle des automatischen Namens im Arbeitsbereich des Abfrage-Editors.
 
-Durch die Bearbeitung eines Ausdrucks können Sie den Audiences-Ausdruck personalisieren und Ihre Population gezielter ansprechen.
+Durch die Bearbeitung eines Ausdrucks können Sie den Zielgruppen-Ausdruck personalisieren und Ihre Population gezielter ansprechen.
 
 **Verwandte Themen:**
 
@@ -124,7 +125,7 @@ In diesem Beispiel werden die Profile ausgegeben, die über 21 Jahre alt sind un
 
 ## Vergleichsoperatoren  {#comparison-operators}
 
-Bei manchen Regeln können Sie über den Abfrageeditor einen Wert auswählen.
+Bei manchen Regeln können Sie über den Abfrage-Editor einen Wert auswählen.
 
 Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft werden.
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
@@ -60,7 +61,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Marketing-Aktivitäten erstellen](.
 
    >[!NOTE]
    >
-   >Wenn Sie einen Workflow von der Marketing-Aktivitätenliste ausgehend erstellen, können Sie ihn einer bereits existierenden übergeordneten Kampagne zuordnen. Fügen Sie bei Bedarf eine Beschreibung hinzu.
+   >Wenn Sie einen Workflow von der Marketing-Aktivitätenliste ausgehend erstellen, können Sie ihn einer bereits existierenden übergeordneten Kampagne zuordnen. Sie können diesen Workflow mit einer Kampagne verknüpfen, indem Sie eine bereits erstellte Kampagne auswählen.
 
    Fügen Sie bei Bedarf eine Beschreibung hinzu. Diese ist im Kampagneninhalt sichtbar.
 
@@ -135,6 +136,6 @@ Die Aktivitäten sind nicht standardmäßig konfiguriert und verarbeiten die Dat
 
 In diesem Video wird gezeigt, wie man einen Workflow erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30204?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

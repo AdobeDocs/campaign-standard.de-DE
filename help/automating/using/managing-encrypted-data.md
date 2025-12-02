@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows, Encryption
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
@@ -127,10 +128,10 @@ Die Schritte zum Ausführen dieses Anwendungsfalls lauten wie folgt:
 
 In diesem Video wird gezeigt, wie Daten mithilfe eines GPG-Schlüssels entschlüsselt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/41349?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 In diesem Video wird gezeigt, wie Daten mithilfe eines GPG-Schlüssels verschlüsselt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/41335?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
 hidefromtoc: true
-source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 100%
@@ -75,12 +76,12 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 * Beschränkungen für Marketing-Aktionen werden erst nach Anwendung der DULE-Kennzeichnungen in Adobe Experience Platform wirksam. Davor sind alle Daten für alle Arten von Marketing-Aktionen verfügbar.
 
-* Die Batch-Vorgänge wird alle 15 Minuten ausgeführt und identifiziert die Datensätze, die sich seit dem letzten Batch geändert haben. Wenn sich alle Datensätze zum gleichen Zeitpunkt ändern, könnte bei der Aufnahme aller Profile ein Performance-Engpass auftreten.
+* Die Batch-Aufträge wird alle 15 Minuten ausgeführt und identifiziert die Datensätze, die sich seit dem letzten Batch geändert haben. Wenn sich alle Datensätze zum gleichen Zeitpunkt ändern, könnte bei der Aufnahme aller Profile ein Performance-Engpass auftreten.
 
 ## Anleitungsvideo {#video}
 
 Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Connector.
 
->[!VIDEO](https://video.tv.adobe.com/v/34301?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=de).

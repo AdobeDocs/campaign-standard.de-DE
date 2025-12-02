@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
@@ -95,7 +96,7 @@ Ihre Sprachkopien werden jetzt erstellt. Sie können Ihre Inhalte jetzt je nach 
 
    ![](assets/aem_acs_13.png)
 
-1. Füllen Sie die **[!UICONTROL Eigenschaften]** und **[!UICONTROL Audience]** Ihrer E-Mail aus und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Füllen Sie die **[!UICONTROL Eigenschaften]** und **[!UICONTROL Zielgruppe]** Ihrer E-Mail aus und klicken Sie auf **[!UICONTROL Erstellen]**.
 
 1. Stellen Sie unter **[!UICONTROL Eigenschaften bearbeiten]** sicher, dass Ihr Adobe Experience Manager-Konto in der Dropdown-Liste **[!UICONTROL Inhalt]** richtig eingerichtet ist.
 
@@ -129,4 +130,4 @@ Ihre Sprachkopien werden jetzt erstellt. Sie können Ihre Inhalte jetzt je nach 
    >
    >Sie können eine E-Mail in Adobe Campaign nicht versenden, wenn in ihr AEM-Inhalt verwendet wird, der nicht genehmigt wurde.
 
-Ihre Audience erhält Ihre E-Mail in der im jeweiligen **[!UICONTROL Profil]** eingestellten **[!UICONTROL bevorzugten Sprache]**. Weitere Informationen zum Bearbeiten von Profilen und bevorzugten Sprachen finden Sie auf dieser [Seite](../../audiences/using/editing-profiles.md).
+Ihre Zielgruppe erhält Ihre E-Mail in der im jeweiligen **[!UICONTROL Profil]** eingestellten **[!UICONTROL bevorzugten Sprache]**. Weitere Informationen zum Bearbeiten von Profilen und bevorzugten Sprachen finden Sie auf dieser [Seite](../../audiences/using/editing-profiles.md).

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
@@ -53,7 +54,7 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
 
 1. Geben Sie im Tab **[!UICONTROL Identifizierung]** an, auf welche Weise die Datensätze der Datenbank erkannt werden können:
 
-   * **[!UICONTROL Über Abstimmschlüssel]**. Wählen Sie die **[!UICONTROL Zu aktualisierende Dimension]** aus und definieren Sie die **[!UICONTROL Schlüssel, die das Auffinden der Datensätze ermöglichen]**. Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * **[!UICONTROL Über die Zielgruppendimension]**. Wählen Sie die **[!UICONTROL Zu aktualisierende Dimension]** aus und definieren Sie die **[!UICONTROL Schlüssel, die das Auffinden der Datensätze ermöglichen]**. Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources).
    * Verwenden Sie die Option **[!UICONTROL Über eine oder mehrere Relationen]**, wenn die eingehenden Daten einer existierenden Zielgruppendimension entsprechen. Wählen Sie die **[!UICONTROL Zu aktualisierende Dimension aus]**.
 
    Wenn eine Aktualisierung durchgeführt werden soll, ist die Verwendung von Abstimmschlüsseln zwingend erforderlich.

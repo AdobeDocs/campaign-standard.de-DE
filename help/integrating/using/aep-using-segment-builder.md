@@ -1,17 +1,18 @@
 ---
 title: Segment Builder verwenden
-description: Erfahren Sie, wie Sie mit Segment Builder Audiences erstellen können.
+description: Erfahren Sie, wie Sie mit Segment Builder Zielgruppen erstellen können.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 100%
@@ -24,13 +25,13 @@ ht-degree: 100%
 >
 >Der Audience Destinations-Dienst befindet sich derzeit in der Betaversion, die häufig ohne Vorankündigung aktualisiert werden kann. Kunden müssen auf Azure gehostet werden (derzeit nur für Nordamerika in der Betaversion), um auf diese Funktionen zugreifen zu können. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Zugriff haben möchten.
 
-Mit Segment Builder können Sie Audiences erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de) stammen.
+Mit Segment Builder können Sie Zielgruppen erstellen, indem Sie Regeln definieren, die auf Daten aus dem [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de) stammen.
 
 In diesem Abschnitt werden allgemeine Konzepte zum Erstellen eines Segments vorgestellt. Detaillierte Informationen zu Segment Builder finden Sie im [Segment Builder-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
 
 Die Benutzeroberfläche von Segment Builder sieht wie folgt aus:
 
-* Im linken Bereich finden Sie alle verfügbaren Attribute, Ereignisse und Audiences zum Erstellen des Segments. Ziehen Sie dazu die gewünschten Felder per Drag-and-Drop in den Segment Builder-Arbeitsbereich.
+* Im linken Bereich finden Sie alle verfügbaren Attribute, Ereignisse und Zielgruppen zum Erstellen des Segments. Ziehen Sie dazu die gewünschten Felder per Drag-and-Drop in den Segment Builder-Arbeitsbereich.
 * Der mittlere Bereich bietet einen Arbeitsbereich zum Erstellen des Segments, indem Regeln aus den verfügbaren Feldern definiert und kombiniert werden.
 * Die Kopfzeile und der rechte Bereich zeigen die Segmenteigenschaften (d. h. Name, Beschreibung und geschätzte qualifizierte Profile für das Segment) an.
 
@@ -40,7 +41,7 @@ Die Benutzeroberfläche von Segment Builder sieht wie folgt aus:
 
 Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
- Segment Builder sollte jetzt in Ihrem Arbeitsbereich angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, das letztendlich zur Erstellung Ihrer Audience dienen wird.
+ Segment Builder sollte jetzt in Ihrem Arbeitsbereich angezeigt werden. Damit können Sie ein Segment mithilfe von Daten aus Adobe Experience Platform erstellen, das letztendlich zur Erstellung Ihrer Zielgruppe dienen wird.
 
 1. Benennen Sie das Segment und geben Sie dann eine Beschreibung ein (optional).
 
@@ -64,7 +65,7 @@ Gehen Sie wie folgt vor, um ein Segment zu erstellen:
 
 ## Die richtigen Felder für ein Segment finden
 
-Im linken Bereich werden alle Attribute, Ereignisse und Audiences aufgelistet, die zum Erstellen von Regeln zur Verfügung stehen.
+Im linken Bereich werden alle Attribute, Ereignisse und Zielgruppen aufgelistet, die zum Erstellen von Regeln zur Verfügung stehen.
 
 Die aufgeführten Felder sind Attribute, die durch Ihr Unternehmen erfasst und über das [Experience-Datenmodell-System (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) zur Verfügung gestellt werden.
 
@@ -142,4 +143,4 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/aep_audiences_comparing_3.png)
 
-Die Regel ist jetzt konfiguriert und kann als Audience aktiviert werden.
+Die Regel ist jetzt konfiguriert und kann als Zielgruppe aktiviert werden.

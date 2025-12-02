@@ -1,15 +1,16 @@
 ---
 title: Segmentierung
-description: Mit der Segmentierung lassen sich von einer durch frühere Aktivitäten berechneten Population ausgehend ein oder mehrere Segmente erstellen.
+description: Mit der Segmentierung lassen sich von einer durch frühere Aktivitäten im Workflow berechneten Population ausgehend ein oder mehrere Segmente erstellen.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 100%
@@ -34,7 +35,7 @@ Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Akti
 
 ## Anwendungskontext {#context-of-use}
 
-Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppen-Aktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss etc.), sodass die Segmente auf der Basis der vorher bestimmten Standardpopulation erstellt werden können.
+Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppenbestimmungs-Aktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss etc.), sodass die Segmente auf der Basis der vorher bestimmten Standardpopulation erstellt werden können.
 
 **Verwandte Themen**
 

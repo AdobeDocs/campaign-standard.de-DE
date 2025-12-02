@@ -5,13 +5,14 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '965'
+ht-degree: 98%
 
 ---
 
@@ -37,13 +38,13 @@ Ein OAuth-Zugriffstoken ermöglicht es dem Integrations-Tool, sich über Web-API
 
 Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
->[!VIDEO](https://video.tv.adobe.com/v/34834?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
 ### Neue Anwendung registrieren   {#register-a-new-app}
 
-1. Melden Sie sich unter Ihrem Administrator-Login bei [portal.azure.com](https://portal.azure.com){target="_blank"} an.
+1. Melden Sie sich unter Ihrer Administratoranmeldung bei [portal.azure.com](https://portal.azure.com){target="_blank"} an.
 
 1. Wählen Sie im Menü links **[!UICONTROL Azure Active Directory]** und dann im angezeigten Untermenü **[!UICONTROL App-Registrierungen]** aus.
 
@@ -91,7 +92,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
 
 1. Wählen Sie das Dropdown-Menü aus, um **[!UICONTROL Anwender]** aufzurufen. Wählen Sie **[!UICONTROL Neu]** aus.
 
-1. Stellen Sie sicher, dass im Dropdown-Menü neben dem Anwendersymbol steht: **[!UICONTROL USER:APPLICATION USER]**.
+1. Stellen Sie sicher, dass in der Dropdown-Liste neben dem Benutzersymbol **[!UICONTROL BENUTZER:APPLICATION BENUTZER]** steht.
 
    Füllen Sie den Bildschirm für den neuen Anwender aus.  Empfohlene Parameter:
 
@@ -99,7 +100,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
    * **[!UICONTROL Anwendungs-ID]**: Kennung der Anwendung, die Sie in Azure AD registriert haben (das ist obligatorisch).
    * Sie können **[!UICONTROL URl der Anwendungs-ID]** und **[!UICONTROL Azure AD-Objektkennung]** leer lassen.
    * **[!UICONTROL Vollständiger Name]**: Adobe-API `<stage or prod>`
-   * **[!UICONTROL E-Mail]**: identisch mit **[!UICONTROL Benutzername]** (oder der E-Mail-Adresse der Administratorin oder des Administrators, falls gewünscht).
+   * **[!UICONTROL E-Mail]**: identisch mit **[!UICONTROL Benutzername]** (oder der E-Mail-Adresse des Administrators, falls gewünscht).
 
    Weiterführende Informationen zur Erstellung von Anwendern finden Sie in [diesem Abschnitt](https://docs.microsoft.com/de-de/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
@@ -120,7 +121,7 @@ Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de
 Gehen Sie wie folgt vor, um die Dynamics 365-App in die Campaign Standard-Umgebung zu integrieren:
 
 1. Navigieren Sie zu [Microsoft Business Apps](https://appsource.microsoft.com/de-de/marketplace/apps) und suchen Sie in der Suchleiste nach _Adobe Campaign Standard_ .
-Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/de/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"} gehen.
+Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/de/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"} navigieren.
 1. Befolgen Sie die Anweisungen zum Installieren der App für Ihre Dynamics 365-Instanz.
 1. Nach der Installation navigieren Sie zu Ihrer Dynamics 365-Instanz und melden Sie sich als Administrator an.
 1. Wählen Sie das Zahnradsymbol oben rechts und dann **[!UICONTROL Erweiterte Einstellungen]** aus. Wählen Sie im oberen Banner das Dropdown-Menü neben **[!UICONTROL Einstellungen]** und dann **[!UICONTROL Prozesse]** unter **[!UICONTROL Process Center]** aus.

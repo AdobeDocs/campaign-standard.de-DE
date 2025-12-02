@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 100%
@@ -24,7 +25,7 @@ ht-degree: 100%
 
 Eine **[!UICONTROL Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe Campaign-Datenbank zusammensetzt. Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für die Zielpopulation definieren. Diese Daten werden in Zusatzspalten gespeichert und können ausschließlich für den laufenden Workflow verwendet werden.
 
-Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
+Die Aktivität verwendet den Abfrage-Editor, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
 **Verwandte Themen:**
 
@@ -53,13 +54,13 @@ Die Aktivität verwendet das Abfragetool, dessen Funktionsweise in einem [gesond
 
    >[!NOTE]
    >
-   >Beachten Sie beim Targeting einer Audience, dass die Definition der Audience nicht referenziert wird, sondern in die Abfrage **kopiert** wird. Wenn Sie Änderungen an der Audience vornehmen, nachdem sie in einer Abfrage als Ziel ausgewählt wurde, stellen Sie sicher, dass Sie die Abfrage erneut konfigurieren, um die neue Definition zu berücksichtigen.
+   >Beachten Sie beim Targeting einer Zielgruppe, dass die Definition der Zielgruppe nicht referenziert wird, sondern in die Abfrage **kopiert** wird. Wenn Sie Änderungen an der Zielgruppe vornehmen, nachdem sie in einer Abfrage als Ziel ausgewählt wurde, stellen Sie sicher, dass Sie die Abfrage erneut konfigurieren, um die neue Definition zu berücksichtigen.
 
 1. Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für die Zielpopulation definieren. Diese Daten werden in Zusatzspalten gespeichert und können ausschließlich für den laufenden Workflow verwendet werden. Sie können insbesondere Daten aus Tabellen der Adobe Campaign-Datenbank hinzufügen, die mit der Zielgruppendimension der Abfrage in Relation stehen. Lesen Sie diesbezüglich auch den Abschnitt [Daten anreichern](#enriching-data).
 
    >[!NOTE]
    >
-   >Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Performance-Steigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
+   >Standardmäßig ist die Option **[!UICONTROL Duplikate löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Performance-Steigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Duplikate entstehen können.
 
 1. Auf der Registerkarte **[!UICONTROL Transition]** können Sie mit der Option **[!UICONTROL Ausgehende Transition erzeugen]** im Anschluss an eine Abfrageaktivität eine ausgehende Transition hinzufügen, selbst wenn keine Daten abgerufen werden.
 
@@ -121,7 +122,7 @@ Nach dem Hinzufügen von Zusatzdaten können Sie die zunächst von der Abfrage a
 
 >[!NOTE]
 >
->Standardmäßig ist die Option **[!UICONTROL Dubletten löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Performance-Steigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Dubletten entstehen können.
+>Standardmäßig ist die Option **[!UICONTROL Duplikate löschen (DISTINCT)]** in **[!UICONTROL Erweiterte Optionen]** des Tabs **[!UICONTROL Zusatzdaten]** der Abfrage aktiviert. Wenn die Aktivität **[!UICONTROL Abfrage]** viele Zusatzdaten enthält (mehr als 100), ist es empfehlenswert, diese Option zur Performance-Steigerung zu deaktivieren. Beachten Sie jedoch, dass durch die Deaktivierung dieser Option abhängig von den abgefragten Daten Duplikate entstehen können.
 
 In [diesem Abschnitt](../../automating/using/personalizing-email-with-additional-data.md) wird ein Anwendungsfall vorgestellt, wie eine E-Mail mit zusätzlichen Daten personalisiert werden kann.
 
@@ -196,7 +197,7 @@ Hinweis: Wenn Sie eine Sortierung auf Ihr Aggregat anwenden müssen, sollten Sie
 
 1. Bei Bedarf können Sie eine Sortierung für die Daten definieren.
 
-   Wenn Sie beispielsweise im **[!UICONTROL Parameter]**-Tab angegeben haben, dass drei Zeilen ausgegeben werden sollen, und Sie die drei neuesten Bestellungen abfragen möchten, können Sie eine Sortierung in absteigender Reihenfolge für das Datumsfeld („date“) der den Transaktionen entsprechenden Sammlung definieren.
+   Wenn Sie beispielsweise im **[!UICONTROL Parameter]**-Tab angegeben haben, dass drei Zeilen ausgegeben werden sollen, und Sie die drei neuesten Käufe abfragen möchten, können Sie eine Sortierung in absteigender Reihenfolge für das Datumsfeld („date“) der den Transaktionen entsprechenden Sammlung definieren.
 
 1. Lesen Sie diesbezüglich auch den Abschnitt [Hinzugefügte Daten sortieren](#sorting-additional-data).
 1. **[!UICONTROL Validieren]** Sie die Sammlungserstellung mithilfe der entsprechenden Schaltfläche.

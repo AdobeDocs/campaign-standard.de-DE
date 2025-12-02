@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%

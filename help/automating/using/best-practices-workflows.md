@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1258'
 ht-degree: 100%
@@ -60,7 +61,7 @@ Vor dem Starten eines Workflows überprüft [!DNL Campaign Standard], ob genüge
 ### Häufigkeit
 
 Ein Workflow kann automatisch maximal alle zehn Minuten ausgeführt werden.
-Das Ausführungsintervall der Aktivität kann nicht weniger als 10 Minuten betragen. Wenn das Ausführungsintervall den Standardwert (= 0) aufweist, wird nur die Ausführungsfrequenz berücksichtigt.
+Das Ausführungsintervall der Aktivität kann nicht weniger als 10 Minuten betragen. Wenn das Ausführungsintervall den Standardwert (= 0) aufweist, wird diese Option nicht berücksichtigt und der Workflow wird entsprechend der Ausführungsfrequenz ausgeführt.
 
 ### Ausgesetzte Workflows
 

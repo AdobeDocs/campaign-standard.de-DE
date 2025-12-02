@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
@@ -20,7 +21,7 @@ ht-degree: 100%
 
 Anhand dieses typischen Anwendungsbeispiels wird insbesondere die folgende Adobe Campaign-Funktion vorgestellt: Erstellung eines Workflows zum kanalübergreifenden Versand.
 
-Das Ziel besteht darin, aus den Empfängern der Datenbank eine Audience auszuwählen und diese in zwei gesonderte Gruppen zu unterteilen, um der ersten Gruppe eine E-Mail und der zweiten Gruppe eine SMS zukommen zu lassen.
+Das Ziel besteht darin, aus den Empfängern der Datenbank eine Zielgruppe auszuwählen und diese in zwei gesonderte Gruppen zu unterteilen, um der ersten Gruppe eine E-Mail und der zweiten Gruppe eine SMS zukommen zu lassen.
 
 ![](assets/wkf_segment_overview.png)
 
@@ -63,7 +64,7 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Zählung]**, um die geschätzte An
 
 ## Segmentierungsaktivität erstellen {#creating-segmentation-activity}
 
-Unterteilen Sie im nächsten Schritt Ihre mithilfe der Abfrageaktivität bestimmte Zielgruppe in zwei Segmente: das eine erhält eine E-Mail, das andere eine SMS.
+Unterteilen Sie im nächsten Schritt Ihre mithilfe der Abfrageaktivität bestimmte Population in zwei Segmente: das eine erhält eine E-Mail, das andere eine SMS.
 
 Verwenden Sie hierzu die Aktivität [Segmentierung](../../automating/using/segmentation.md), um die zuvor ermittelte Population in zwei Segmente zu unterteilen.
 
@@ -154,4 +155,4 @@ Durch Starten des Workflows wird die mithilfe der **[!UICONTROL Abfrageaktivitä
 
 Verwenden Sie zur Ausführung des Workflows die Schaltfläche **[!UICONTROL Start]** in der Aktionsleiste.
 
-Sie können Ihre Sendungen über das erweiterte Menü **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Marketing-Aktivitäten]** über das Adobe Campaign-Logo aufrufen. Klicken Sie auf den Versand und dann auf die Schaltfläche **[!UICONTROL Berichte]**, um auf die [Versandberichte](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports) zuzugreifen, wie z. B. die Versandzusammenfassung, die Öffnungsrate oder die Darstellung der E-Mail je nach Posteingang der Nachrichten der Empfängerinnen und Empfänger.
+Sie können Ihre Sendungen über das erweiterte Menü **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Marketing-Aktivitäten]** über das Adobe Campaign-Logo aufrufen. Klicken Sie auf den Versand und dann auf die Schaltfläche **[!UICONTROL Berichte]**, um auf die [Versandberichte](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports) zuzugreifen, wie z. B. die Versandzusammenfassung, die Öffnungsrate oder das E-Mail-Rendering je nach Posteingang der Nachrichten der Empfängerinnen und Empfänger.

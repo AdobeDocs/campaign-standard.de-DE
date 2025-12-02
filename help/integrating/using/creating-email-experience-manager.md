@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
@@ -74,7 +75,7 @@ So senden Sie Ihre E-Mail in Adobe Campaign Standard:
 
 1. Nach der Definition des Inhalts und der Versandparameter können Sie eine E-Mail basierend auf einer AEM-spezifischen E-Mail-Vorlage in Adobe Campaign Standard erstellen.
 
-+++ Erfahren Sie mehr über AEM-spezifische Vorlagen.
+   +++ Erfahren Sie mehr über AEM-spezifische Vorlagen.
 
    1. Wählen Sie im erweiterten Menü **[!UICONTROL Ressourcen]** die Option `>` **[!UICONTROL Vorlagen]** `>` **[!UICONTROL Versandvorlagen]** aus.
 
@@ -86,7 +87,7 @@ So senden Sie Ihre E-Mail in Adobe Campaign Standard:
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 

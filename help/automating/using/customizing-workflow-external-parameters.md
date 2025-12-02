@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 100%
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen aufgenommen und können zur Anpassung der Workflow-Aktivitäten verwendet werden.
 
-So kann mit ihnen beispielsweise definiert werden, welche Audience in der Aktivität **[!UICONTROL Audience lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu transferierenden Datei lautet. (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
+So kann mit ihnen beispielsweise definiert werden, welche Zielgruppe in der Aktivität **[!UICONTROL Zielgruppe lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu transferierenden Datei lautet. (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Verwendung von Ereignisvariablen {#using-events-variables}
 
@@ -71,7 +72,7 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
 
 Die im folgenden Abschnitt aufgelisteten Aktivitäten können mit Ereignisvariablen angepasst werden. Weiterführende Informationen zum Aufruf einer Variablen in einer Aktivität finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-Aktivität **[!UICONTROL Audience lesen]**: Hier können Sie die auszuwählende Audience auf der Basis von Ereignisvariablen definieren. Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/read-audience.md).
+Aktivität **[!UICONTROL Zielgruppe lesen]**: Hier können Sie die auszuwählende Zielgruppe auf der Basis von Ereignisvariablen definieren. Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 

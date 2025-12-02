@@ -5,12 +5,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
@@ -25,13 +26,13 @@ ht-degree: 100%
 >
 >**Push**- und **In-App**-Kanäle stehen noch nicht zur Personalisierung mit kontextuellen Daten aus Adobe Experience Platform zur Verfügung.
 
-Sobald Ihr Workflow mit einer [Adobe Experience Platform-Audience](../../integrating/using/aep-about-audience-destinations-service.md) konfiguriert wurde, können Sie Nachrichten mit Profilattributen personalisieren, die ausschließlich im Experience-Datenmodell (XDM) vorhanden sind.
+Sobald Ihr Workflow mit einer [Adobe Experience Platform-Zielgruppe](../../integrating/using/aep-about-audience-destinations-service.md) konfiguriert wurde, können Sie Nachrichten mit Profilattributen personalisieren, die ausschließlich im Experience-Datenmodell (XDM) vorhanden sind.
 
-Dazu müssen Sie die folgenden Attribute zur Aktivität **[!UICONTROL Audience lesen]** hinzufügen:
+Dazu müssen Sie die folgenden Attribute zur Aktivität **[!UICONTROL Zielgruppe lesen]** hinzufügen:
 
-1. Öffnen Sie die Aktivität **[!UICONTROL Audience lesen]**. Klicken Sie im Tab **[!UICONTROL Zusätzliche Daten]** auf die Schaltfläche **[!UICONTROL Element erstellen]**.
+1. Öffnen Sie die Aktivität **[!UICONTROL Zielgruppe lesen]**. Klicken Sie im Tab **[!UICONTROL Zusätzliche Daten]** auf die Schaltfläche **[!UICONTROL Element erstellen]**.
 
-   Beachten Sie, dass der Tab **[!UICONTROL Zusätzliche Daten]** erst verfügbar ist, nachdem eine Audience für Adobe Experience Platform ausgewählt wurde.
+   Beachten Sie, dass der Tab **[!UICONTROL Zusätzliche Daten]** erst verfügbar ist, nachdem eine Zielgruppe für Adobe Experience Platform ausgewählt wurde.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -51,7 +52,7 @@ Dazu müssen Sie die folgenden Attribute zur Aktivität **[!UICONTROL Audience l
 
    >[!NOTE]
    >
-   >Sie können in der Aktivität **[!UICONTROL Audience lesen]** maximal 20 XDM-Felder hinzufügen.
+   >Sie können in der Aktivität **[!UICONTROL Zielgruppe lesen]** maximal 20 XDM-Felder hinzufügen.
 
 1. Nachdem alle Felder hinzugefügt wurden, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]**, um die Änderungen zu speichern. Sie stehen nun zur Personalisierung Ihrer Sendungen zur Verfügung.
 
