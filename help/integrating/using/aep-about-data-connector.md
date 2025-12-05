@@ -82,6 +82,6 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Connector.
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/34301?quality=12&captions=ger)
 
 Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=de).
