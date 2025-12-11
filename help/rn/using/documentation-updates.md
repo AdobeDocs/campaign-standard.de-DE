@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7298'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Die Verwendung des SMTP-Testmodus wurde detailliert beschrieben. [Weitere Inform
 
 ## März 2022 {#doc-updates-march-2022}
 
-Es wurde ein Hinweis hinzugefügt, wonach das Senden von Testsendungen mit Profilersetzung den Protokollen der ausgewählten Profile Einträge hinzufügt. [Weitere Informationen](../../sending/using/testing-messages-using-target.md)
+Es wurde ein Hinweis eingefügt, wonach das Versenden von Testsendungen mit Profilersatz den Protokollen der ausgewählten Profile Einträge hinzufügt. [Weitere Informationen](../../sending/using/testing-messages-using-target.md)
 
 ## Version 22.1 – Februar 2022 {#release-22-1}
 
@@ -80,7 +80,7 @@ Verbesserter Mechanismus zur Wiederholung von Sendungen mit Inhalten, die von ei
 
 Die Zugriffsebene der Optionen, die den Audit steuern, wurde aktualisiert: frühere Optionen zum Aktivieren/Deaktivieren des [Audit-Protokolls](../../administration/using/audit.md) waren für [funktionale Administratoren](../../administration/using/users-management.md#functional-administrators) nicht zugänglich. Jetzt wurde die Zugriffsebene der Audits geändert, um funktionalen Administratoren die Kontrolle zu ermöglichen. [Weitere Informationen](../../administration/using/audit.md#enable-disable-audit)
 
-Das neue Dropdown-Menü **Vorgangsverlauf** wurde zum Nachrichten-Dashboard hinzugefügt. [Weitere Informationen](../../sending/using/monitoring-a-delivery.md)
+Das neue Dropdown-Menü **Auftragsverlauf** wurde zum Nachrichten-Dashboard hinzugefügt. [Weitere Informationen](../../sending/using/monitoring-a-delivery.md)
 
 **Sonstige Änderungen**
 
@@ -589,7 +589,7 @@ Das Automating-Benutzerhandbuch wurde mit Links zu verwandten Workflow-Aktivitä
 
 Der Abschnitt über die Indikatorberechnung für dynamische Berichte wurde aktualisiert – [Weitere Informationen](../../reporting/using/indicator-calculation.md)
 
-Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=de)
+Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Die Liste der Funktionen für Workflows wurde aktualisiert – [Weitere Informationen](../../automating/using/list-of-functions.md)
 
@@ -621,7 +621,7 @@ Der Abschnitt zur Dreamweaver-Integration wurde aktualisiert und verbessert – 
 
 Verbesserungen bei Push-Kanal-Berichten – [mehr dazu](../../reporting/using/push-notification-report.md)
 
-Integration von Adobe Launch für Mobile Apps – [mehr dazu &#x200B;](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
+Integration von Adobe Launch für Mobile Apps – [mehr dazu ](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
 
 Mobile In-App-Nachrichten – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
@@ -717,7 +717,7 @@ Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [Weitere Informa
 
 Verbesserung von In-App-Messaging (Betaversion) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
-Integration von Adobe Launch für Mobile Apps (Betaversion) – [mehr dazu &#x200B;](../../sending/using/managing-typologies.md)
+Integration von Adobe Launch für Mobile Apps (Betaversion) – [mehr dazu ](../../sending/using/managing-typologies.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
@@ -867,7 +867,7 @@ Die Aktivität **[!UICONTROL An-/Abmeldedienst]** wurde aktualisiert und unterst
 
 Eine schrittweise Anleitung zur Versandvorbereitung wurde hinzugefügt – [Weitere Informationen](../../sending/using/preparing-the-send.md)
 
-Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de) (PDF)
+Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)
 
 Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion wurde hinzugefügt – [Weitere Informationen](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -929,7 +929,7 @@ Details wurden zum nativen Package-Export hinzugefügt – [Weitere Informatione
 
 Definition externer Konten und Beispiele wurden aktualisiert – [Weitere Informationen](../../administration/using/external-accounts.md)
 
-Zahlreiche Screenshots wurden entsprechend den Änderungen in den Abfrageeditor-Kategorien aktualisiert.
+Zahlreiche Screenshots wurden entsprechend den Änderungen in den Abfrage-Editor-Kategorien aktualisiert.
 
 Der Abschnitt [Versandwarnung](../../sending/using/receiving-alerts-when-failures-happen.md) wurde verschoben und neu angeordnet.
 
@@ -1039,7 +1039,7 @@ Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with y
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [Weitere Informationen](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 

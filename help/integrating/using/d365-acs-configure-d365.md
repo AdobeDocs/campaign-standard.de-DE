@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ Ein OAuth-Zugriffstoken ermöglicht es dem Integrations-Tool, sich über Web-API
 
 Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
->[!VIDEO](https://video.tv.adobe.com/v/34834?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
 ### Neue Anwendung registrieren   {#register-a-new-app}
 
-1. Melden Sie sich unter Ihrer Administratoranmeldung bei [portal.azure.com](https://portal.azure.com){target="_blank"} an.
+1. Melden Sie sich unter Ihrem Administrator-Login bei [portal.azure.com](https://portal.azure.com){target="_blank"} an.
 
 1. Wählen Sie im Menü links **[!UICONTROL Azure Active Directory]** und dann im angezeigten Untermenü **[!UICONTROL App-Registrierungen]** aus.
 
@@ -92,7 +92,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
 
 1. Wählen Sie das Dropdown-Menü aus, um **[!UICONTROL Anwender]** aufzurufen. Wählen Sie **[!UICONTROL Neu]** aus.
 
-1. Stellen Sie sicher, dass in der Dropdown-Liste neben dem Benutzersymbol **[!UICONTROL BENUTZER:APPLICATION BENUTZER]** steht.
+1. Stellen Sie sicher, dass im Dropdown-Menü neben dem Anwendersymbol Folgendes steht: **[!UICONTROL USER:APPLICATION USER]**.
 
    Füllen Sie den Bildschirm für den neuen Anwender aus.  Empfohlene Parameter:
 
