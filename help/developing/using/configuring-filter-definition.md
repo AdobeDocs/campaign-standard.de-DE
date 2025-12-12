@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 # Filterdefinition konfigurieren{#configuring-filter-definition}
 
-Sie können im Tab **[!UICONTROL Filterdefinition]** erweiterte Filter erstellen, auf die Benutzer anschließend direkten Zugriff haben, wenn sie komplexe Abfragen wie beispielsweise die Definition einer Audience erstellen.
+Sie können im Tab **[!UICONTROL Filterdefinition]** erweiterte Filter erstellen, auf die Benutzer anschließend direkten Zugriff haben, wenn sie komplexe Abfragen wie beispielsweise die Definition einer Zielgruppe erstellen.
 
-Dieser Schritt ist nicht zwingend erforderlich, da dennoch Daten in Ihre Ressource geladen werden können und Sie darauf über Workflows, Audiences und REST-API zugreifen können.
+Dieser Schritt ist nicht zwingend erforderlich, da dennoch Daten in Ihre Ressource geladen werden können und Sie darauf über Workflows, Zielgruppen und REST-API zugreifen können.
 
 ![](assets/custom_resource_filter-definition.png)
 
-Diese Filter finden im Abfrageeditor in Form von vorkonfigurierten Regeln Verwendung. Durch sie können die Schritte zum Erhalt der gewünschten Konfiguration reduziert werden, was insbesondere für den Fall wiederholter Segmentierungen von Interesse ist.
+Diese Filter finden im Abfrage-Editor in Form von vorkonfigurierten Regeln Verwendung. Durch sie können die Schritte zum Erhalt der gewünschten Konfiguration reduziert werden, was insbesondere für den Fall wiederholter Segmentierungen von Interesse ist.
 
 Sie können zum Beispiel einen Filter definieren, mit dem Sie alle Transaktionen auswählen können, die innerhalb der letzten drei Monate einen bestimmten Wert überstiegen haben.
 
@@ -63,7 +63,7 @@ Erweitern Sie dazu die Ressource **[!UICONTROL Profile]**, definieren Sie einen 
 
    ![](assets/custom_resource_filter-definition_category.png)
 
-1. Passen Sie im **[!UICONTROL Parameter]**-Tab des Bildschirms zur Filterdefinition Beschreibung und Titel des Filters an, um den Benutzern den Betreff Ihres Filters zu verdeutlichen. Ebendiese Informationen werden im Abfrageeditor angezeigt.
+1. Passen Sie im **[!UICONTROL Parameter]**-Tab des Bildschirms zur Filterdefinition Beschreibung und Titel des Filters an, um den Benutzern den Betreff Ihres Filters zu verdeutlichen. Ebendiese Informationen werden im Abfrage-Editor angezeigt.
 
    ![](assets/custom_resource_filter-definition_parameters.png)
 
@@ -71,9 +71,9 @@ Erweitern Sie dazu die Ressource **[!UICONTROL Profile]**, definieren Sie einen 
 
 1. Speichern Sie Ihre Änderungen und veröffentlichen Sie die Ressourcen. Weiterführende Informationen finden Sie im Abschnitt [Datenbankstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
 
-Sobald die Erweiterung der **[!UICONTROL Profile]**-Ressource veröffentlicht wurde, ist der Filter für Benutzer in den Schnellzugriffen der [Abfrageeditor](../../automating/using/editing-queries.md)-Benutzeroberfläche sichtbar.
+Sobald die Erweiterung der **[!UICONTROL Profile]**-Ressource veröffentlicht wurde, ist der Filter für Benutzer in den Schnellzugriffen der [Abfrage-Editor](../../automating/using/editing-queries.md)-Benutzeroberfläche sichtbar.
 
-Bei der Erstellung einer E-Mail können Benutzer auf diese Weise einfach ihre Audience so definieren, dass die Nachricht an alle Kunden gesendet wird, die in den letzten drei Monaten einen gewissen Betrag ausgegeben haben.
+Bei der Erstellung einer E-Mail können Benutzer auf diese Weise einfach ihre Zielgruppe so definieren, dass die Nachricht an alle Kunden gesendet wird, die in den letzten drei Monaten einen gewissen Betrag ausgegeben haben.
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
