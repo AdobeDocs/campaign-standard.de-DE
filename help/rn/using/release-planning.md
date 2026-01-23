@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
+source-git-commit: a9137d1230bd4d975593cfcc3f9c5e2e985f603d
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen. Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
-## Version 25.2 – Version Sommer 2025 {#release-25-2-release}
+## Version 26.1 {#release-26.1}
 
 Weitere Informationen zu dieser Version werden den [Versionshinweisen](release-notes.md) hinzugefügt, sobald die Aktualisierungen der Staging-Umgebungen beginnen.
 
@@ -33,19 +33,19 @@ Weitere Informationen zu dieser Version werden den [Versionshinweisen](release-n
  <thead>
   <tr>
    <th> Umgebungen </th>
-   <th> Daten</th>
+   <th> Datum-Funktionen       </th>
    <!--th> General Availability </th-->
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Schritt </td>
-   <td>August </td>
+   <td>März </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Produktion </td>
-   <td>September </td>
+   <td>April </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
