@@ -135,6 +135,6 @@ Weiterführende Informationen zum Veröffentlichen von Landingpages finden Sie i
 
 In diesem Video wird gezeigt, wie man eine Landingpage erstellt und bearbeitet.
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35471?captions=ger&quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

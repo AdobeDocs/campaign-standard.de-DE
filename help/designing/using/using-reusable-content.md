@@ -145,7 +145,7 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 
 In diesen Videos wird gezeigt, wie man eine eigene Vorlage erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/37506?captions=ger&quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
 

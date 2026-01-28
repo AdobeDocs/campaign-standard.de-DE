@@ -82,6 +82,6 @@ mehr dazu:
 
 In diesem Video erhalten Sie einen Überblick über die Berichtsfunktionen von Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/38313?quality=12&captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

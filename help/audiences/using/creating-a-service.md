@@ -65,6 +65,6 @@ Nachdem ein Dienst erstellt wurde, können Sie damit beginnen, ihn zu bewerben.
 
 In diesem Video wird gezeigt, wie man einen Dienst erstellt und seine Abonnements verwaltet.
 
->[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30225?captions=ger&quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

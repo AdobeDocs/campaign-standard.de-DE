@@ -38,7 +38,7 @@ Ein OAuth-Zugriffstoken ermöglicht es dem Integrations-Tool, sich über Web-API
 
 Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/34834?captions=ger)
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 

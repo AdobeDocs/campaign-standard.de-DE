@@ -165,6 +165,6 @@ Beachten Sie bei Fragmenten Folgendes:
 
 In diesem Video erhalten Sie einen Überblick über Email Designer.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/330101?captions=ger&quality=12)
 
 In diesen [Videos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=de#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können

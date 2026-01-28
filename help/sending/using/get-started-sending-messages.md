@@ -97,6 +97,6 @@ mehr dazu:
 
 In diesem Video wird gezeigt, wie man eine Test-E-Mail sendet, einen E-Mail-Versand vorbereitet und dann in Campaign Standard ausführt.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/30088?captions=ger)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
