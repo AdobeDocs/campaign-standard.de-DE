@@ -119,7 +119,7 @@ Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsol
 
 ### Fragen an Experten
 
-Treten Sie der Campaign-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Treten Sie der Campaign-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=de)
 
 ### Erstellen Sie ein Ticket oder starten Sie einen Chat
 

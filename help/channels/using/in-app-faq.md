@@ -23,7 +23,7 @@ Sehen Sie sich die folgenden Ressourcen an:
 
 * [Video-Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=de)
 * [Blogpost](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=de)
 
 ## Welchen Zweck haben die Campaign-Erweiterungs-APIs setLinkageField und resetLinkageField? {#extensions-apis}
 
