@@ -43,7 +43,7 @@ Der für diese Aktivität spezifische Tab **[!UICONTROL Verarbeitete Daten]** er
 
   Mit der Aktivität **[!UICONTROL Inkrementelle Abfrage]** können Sie regelmäßig neue Logs in Dateien exportieren. Diese Funktion kann verwendet werden, wenn Sie beispielsweise Ihre Log-Daten in externen Berichterstattungs- oder Business Intelligence Tools verwenden möchten. Ein vollständiges Beispiel finden Sie im Abschnitt [Logs exportieren](../../automating/using/exporting-logs.md).
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Anwendungsfall: Inkrementelle Abfrage bezüglich Service-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
 
@@ -59,7 +59,7 @@ Der für diese Aktivität spezifische Tab **[!UICONTROL Verarbeitete Daten]** er
 1. Wählen Sie im Tab **[!UICONTROL Verarbeitete Daten]** den inkrementellen Modus, den Sie für die nächsten Ausführungen des Workflows verwenden möchten:
 
    * **[!UICONTROL Ergebnisse früherer Ausführungen ausschließen]**: Bei jeder neuen Ausführung werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen.
-   * **[!UICONTROL Datumsfeld verwenden]**: Bei den nächsten Ausführungen werden nur die Ergebnisse berücksichtigt, deren ausgewählte Datumsangaben größer oder gleich dem letzten Ausführungsdatum der Aktivität **[!UICONTROL Inkrementelle Abfrage]** ist. Im Tab **[!UICONTROL Eigenschaften]** können Sie jedes zur ausgewählten Ressource gehörige Datumsfeld auswählen. Dieser Modus weist eine bessere Performance auf, wenn große Ressourcen wie zum Beispiel Log-Daten abgerufen werden.
+   * **[!UICONTROL Datumsfeld verwenden]**: Bei den nächsten Ausführungen werden nur die Ergebnisse berücksichtigt, deren ausgewählte Datumsangaben größer oder gleich dem letzten Ausführungsdatum der Aktivität **[!UICONTROL Inkrementelle Abfrage]** ist. Im Tab **[!UICONTROL Eigenschaften]** können Sie jedes zur ausgewählten Ressource gehörige Datumsfeld auswählen. Dieser Modus weist eine bessere Performance auf, wenn große Ressourcen wie zum Beispiel Log-Daten abgefragt werden.
 
      In diesem Tab ist nach der ersten Ausführung des Workflows das Datum der jeweils letzten Ausführung zu sehen, welches wiederum für die nächste Ausführung herangezogen wird. Es wird automatisch bei jeder Ausführung des Workflows aktualisiert. Sie können bei Bedarf diesen Wert auch überschreiben, indem Sie einen neuen eingeben.
 
@@ -72,6 +72,6 @@ Der für diese Aktivität spezifische Tab **[!UICONTROL Verarbeitete Daten]** er
 1. Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für die Zielpopulation definieren. Diese Daten werden in Zusatzspalten gespeichert und können ausschließlich für den laufenden Workflow verwendet werden. Sie können insbesondere Daten aus Tabellen der Adobe Campaign-Datenbank hinzufügen, die mit der Zielgruppendimension der Abfrage in Relation stehen. Lesen Sie diesbezüglich auch den Abschnitt [Daten anreichern](../../automating/using/query.md#enriching-data).
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Daten anreichern  {#enriching-data}
+## Anreicherung von Daten {#enriching-data}
 
 Aus einer **[!UICONTROL Inkrementellen Abfrage hervorgehende Daten lassen sich auf die gleiche Weise anreichern wie Daten, die aus einer einfachen Abfrage stammen]**. Lesen Sie diesbezüglich auch den Abschnitt [Daten anreichern](../../automating/using/query.md#enriching-data).

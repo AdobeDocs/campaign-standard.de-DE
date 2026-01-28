@@ -103,7 +103,7 @@ Beim Entwerfen eines geplanten Workflows, der mehrere Aktivitäten umfasst, müs
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel  {#example}
+## Beispiel {#example}
 
 Unten stehende Abbildung zeigt eine Planung für einen Workflow, der für einen unbegrenzten Zeitraum alle zwei Wochen montags um 7 Uhr ausgeführt werden soll.
 

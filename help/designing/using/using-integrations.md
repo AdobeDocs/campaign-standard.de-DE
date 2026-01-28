@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Durch die Integration von Adobe Campaign Standard mit Dreamweaver kann E-Mail-In
 
 Diese Funktion wird im Detail im [Dreamweaver-Handbuch](https://helpx.adobe.com/de/dreamweaver/using/working-with-dreamweaver-and-campaign.html) beschrieben.
 
-![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [Mehr zu dieser Funktion erfahren Sie im Video.](#video).
 
 ## Inhalt in Adobe Experience Manager bearbeiten {#editing-content-in-experience-manager}
 
@@ -139,7 +139,7 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
    <td> Dynamische Inhalte nicht unterstützt<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Audience</strong><br /> </td> 
+   <td> <strong>Zielgruppe</strong><br /> </td> 
    <td> Marketing-Fachleute, die weiterhin die Flexibilität haben möchten, HTML-Komponenten in Kombination mit Drag-and-Drop-Funktionen zu verwenden<br /> </td> 
    <td> Marketer, die bereits Experience Manager verwenden und Standard-E-Mail-Vorlagen mit wenig Personalisierung verwenden möchten<br /> </td> 
    <td> Entwickler, die Code für E-Mail-Inhalte selbst schreiben möchten und eine direkte Integration mit Adobe Campaign wünschen<br /> </td> 
@@ -157,6 +157,6 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
 
 In diesem Video wird gezeigt, wie man Inhalte für Adobe Campaign Standard mit Dreamweaver erstellt und bearbeitet.
 
->[!VIDEO](https://video.tv.adobe.com/v/37503?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
 </tr>
 </table>
 
-## Push-Benachrichtigung erstellen {#create-push}
+## Erstellen einer Push-Benachrichtigung {#create-push}
 
 <table style="table-layout:fixed">
 <tr>

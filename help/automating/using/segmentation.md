@@ -37,7 +37,7 @@ Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Akti
 
 Die **[!UICONTROL Segmentierung]** ist im Allgemeinen hinter Zielgruppenbestimmungs-Aktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss etc.), sodass die Segmente auf der Basis der vorher bestimmten Standardpopulation erstellt werden können.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Anwendungsfall: Profile nach Altersklassen segmentieren](../../automating/using/segmentation-age-groups.md).
 

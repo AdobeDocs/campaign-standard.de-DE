@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: c4d6d420-1058-4ca7-bb39-717c56329e05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Das Datenmodell von Adobe Campaign Standard zeigt die native SQL-Struktur für e
 
 Dieser Abschnitt richtet sich an Campaign-Experten oder Entwickler.
 
-Für jede Ressource finden Sie auf den Unterseiten eine Tabelle, in der die SQL-Felder mit verfügbaren Eigenschaften aufgelistet werden, z. B. interner Name, Typ und Auflistungsdetails. Native Filter, die mit der Ressource verknüpft sind, werden ebenfalls aufgelistet. Jeder Filter verfügt über eine eigene Parameterliste.
+Für jede Ressource finden Sie auf den Unterseiten eine Tabelle, in der die SQL-Felder mit verfügbaren Eigenschaften aufgelistet werden, z. B. interner Name, Typ und Aufzählungsdetails. Native Filter, die mit der Ressource verknüpft sind, werden ebenfalls aufgelistet. Jeder Filter verfügt über eine eigene Parameterliste.
 
 >[!NOTE]
 >Das Campaign-Datenmodell kann nur von [Administratoren](../../administration/using/users-management.md#functional-administrators) geändert werden.

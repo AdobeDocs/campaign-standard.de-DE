@@ -1,5 +1,5 @@
 ---
-title: An-/Abmeldedienst
+title: Anmeldedienste
 description: Mithilfe der An-/Abmeldedienst-Aktivität lassen sich Profile gesammelt für Dienste an- bzw. von Diensten abmelden.
 audience: automating
 content-type: reference

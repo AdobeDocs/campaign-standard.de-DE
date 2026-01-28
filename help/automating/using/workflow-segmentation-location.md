@@ -41,11 +41,11 @@ Sie können Kunden eine E-Mail mit Angeboten in lokalen Geschäften schicken.
 1. Wählen Sie ein Segment aus und öffnen Sie danach eine Transition, um Personen in der ersten Stadt auszuwählen. In unserem Fall ist das Boston.
 1. Ziehen Sie **[!UICONTROL Standort]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Stadt]** mit dem Operator **[!UICONTROL Gleich]** und dem Wert **[!UICONTROL Boston]** aus.
 Hinweis: Um auch alle Personen auszuwählen, die &quot;boston&quot; eingegeben haben, deaktivieren Sie die Option &quot;Von Schreibweise abhängig&quot;.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 1. Wählen Sie in **[!UICONTROL Liste der ausgehenden Segmente]** die Option **[!UICONTROL Element hinzufügen]** und danach ![](assets/edit_darkgrey-24px.png) aus, um ein Segment mit Personen der zweiten Stadt zu erstellen. In unserem Beispiel ist das Chicago.
 1. Ziehen Sie **[!UICONTROL Standort]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Stadt]** mit dem Operator **[!UICONTROL Gleich]** aus und geben Sie als Wert **[!UICONTROL Boston]** ein.
 1. Um auch alle Personen auszuwählen, die &quot;chicago&quot; eingegeben haben, deaktivieren Sie die Option &quot;Von Schreibweise abhängig&quot;.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 ## E-Mail-Versand erstellen{#creating-an-email-delivery}
 
@@ -61,6 +61,6 @@ Hinweis: Um auch alle Personen auszuwählen, die &quot;boston&quot; eingegeben h
    Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ![](assets/wf-segmentation-location.png)

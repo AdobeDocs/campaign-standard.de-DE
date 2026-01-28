@@ -91,7 +91,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
 1. Melden Sie sich bei [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/) an.
 1. Erstellen Sie eine Mobile-App oder wählen Sie eine bestehende aus.
 1. Gehen Sie zur Seite **[!UICONTROL App-Einstellungen verwalten]**.
-1. Markieren Sie im Bereich **Visitor ID-Dienst** die Option **Enable** und wählen Sie Ihr Unternehmen aus der Dropdown-Liste aus. Wählen Sie **Speichern** aus.
+1. Markieren Sie im Bereich **Visitor ID-Dienst** die Option **Enable** und wählen Sie Ihr Unternehmen aus der Dropdown-Liste aus. Klicken Sie auf **Speichern**.
 
    >[!CAUTION]
    >

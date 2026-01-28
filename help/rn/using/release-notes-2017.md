@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4637'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Zusätzlich können Sie Ihre Kreativprozesse optimieren, indem Sie Dritten ermö
  </tbody> 
 </table>
 
-**Korrekturen**
+**Patches**
 
 _Plattform_
 
@@ -51,7 +51,7 @@ _Plattform_
 
 _E-Mails, SMS und Briefpost_
 
-* Fehlerkorrektur – eine Audience vom Typ Liste kann jetzt in einer Nachricht ausgewählt werden, ohne dass die Vorbereitung fehlschlägt.
+* Fehlerkorrektur – eine Zielgruppe vom Typ Liste kann jetzt in einer Nachricht ausgewählt werden, ohne dass die Vorbereitung fehlschlägt.
 * In der mehrsprachigen E-Mail-Versandfunktion wurden fehlende Sprachen hinzugefügt.
 * Die Im Versand-Dashboard dargestellte Inhalts-Miniaturansicht wird jetzt automatisch aktualisiert, wenn der Inhalt geändert und gespeichert wird.
 * Fehlerkorrektur – in Verbindung mit der Zeitzone tritt jetzt kein Fehler mehr auf und Sendungen können geöffnet werden.
@@ -81,7 +81,7 @@ _Workflows_
 * Fehlerkorrektur – Bei der Aktivität **[!UICONTROL Abstimmung]** tritt kein Fehler mehr auf.
 * Fehlerkorrektur – bei der Verwendung von Platzhaltern in der Aktivität **[!UICONTROL Dateiübertragung]** tritt kein Fehler mehr auf.
 
-_Profile und Audiences_
+_Profile und Zielgruppen_
 
 * Fehlerkorrektur – jetzt werden die Bedingungen von Abfragen immer berücksichtigt, sodass kein falsches Ergebnis mehr auftritt.
 * Fehlerkorrektur – auf Profile kann jetzt auch dann zugegriffen werden, wenn sie in der Zielgruppe einer Nachricht waren, die zwar vorbereitet, aber nie gesendet wurde und abgelaufen ist.
@@ -122,23 +122,23 @@ _Benutzerdefinierte Ressourcen_
  </tbody> 
 </table>
 
-**Korrekturen**
+**Patches**
 
 _Plattform_
 
-* Kunden, die keinen eindeutigen Schlüssel zur Identifizierung ihrer eigenen Datensätze verwenden, müssen in der Lage sein, eine Kennung von Adobe Campaign Standard abzurufen. Diese Kennung (**ACS ID**) kann einerseits exportiert, andererseits aber auch als Abstimmschlüssel bei der Datenaktualisierung verwendet werden. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+* Kunden, die keinen eindeutigen Schlüssel zur Identifizierung ihrer eigenen Datensätze verwenden, müssen in der Lage sein, eine Kennung von Adobe Campaign Standard abzurufen. Diese Kennung (**ACS ID**) kann einerseits exportiert, andererseits aber auch als Abstimmschlüssel bei der Datenaktualisierung verwendet werden. Weitere Informationen finden Sie im [entsprechenden Handbuch](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * Das FTP-Protokoll wird nicht weiterverwendet. Verwenden Sie stattdessen SFTP. Damit vorhandene Implementierungen nicht blockiert werden, funktionieren Konfigurationen auf FTP wie bisher, doch für neue Aktivitäten wird die Option nicht mehr angezeigt.
 
 _E-Mails, SMS und Briefpost_
 
-* Jetzt ist es möglich, neue Warnungsbedingungen für Benachrichtigungen zu Versandwarnungen zu erstellen. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
+* Jetzt ist es möglich, neue Warnungsbedingungen für Benachrichtigungen zu Versandwarnungen zu erstellen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Die Benachrichtigungen zu Versandwarnungen haben ein neues Design und das Versandwarnungs-Dashboard wurde verbessert.
 * Wenn jetzt ein externes Routing-Konto deaktiviert ist, wird in den betroffenen Sendungen (E-Mail, SMS und Push-Benachrichtigungen) ein Warnhinweis angezeigt. Gleichzeitig ist die Schaltfläche **Vorschau** verborgen.
 * Fehlerkorrektur – In der Vorschau von A/B-Tests zum E-Mail-Inhalt tritt kein Fehler mehr auf, wenn dynamischer Text in der Betreffzeile aktiviert ist.
 
 _Transaktionsnachrichten_
 
-* Jetzt ist es möglich den Zeitpunkt einer Folgenachricht festzulegen, z. B. drei Tage nach einer Transaktionsnachricht. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
+* Jetzt ist es möglich den Zeitpunkt einer Folgenachricht festzulegen, z. B. drei Tage nach einer Transaktionsnachricht. Weitere Informationen finden Sie im [entsprechenden Handbuch](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 * Jetzt ist es möglich, das Datum festzulegen, ab dem die mit einem Ereignis verknüpfte Transaktionsnachricht gesendet werden soll.
 * Fehlerkorrektur – Jetzt tritt kein SQL-Fehler mehr auf, wenn ein Workflow, der eine Folgenachricht enthält, ausgeführt wird, nachdem mit empfangenen und verarbeiteten Ereignissen verknüpfte Profile gelöscht werden.
 * Fehlerkorrektur – Mit einem Ereignis verknüpfte Profile können jetzt gelöscht werden.
@@ -147,7 +147,7 @@ _Transaktionsnachrichten_
 
 _Berichte_
 
-* Der **Klicks**-Bericht wurde verbessert. Außerdem ist es jetzt möglich, Klicks für jeden in einem Versand definierten bedingten Inhalt sowie für jeden wiederkehrenden Versand oder für Transaktionsnachrichten anzuzeigen. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
+* Der **Klicks**-Bericht wurde verbessert. Außerdem ist es jetzt möglich, Klicks für jeden in einem Versand definierten bedingten Inhalt sowie für jeden wiederkehrenden Versand oder für Transaktionsnachrichten anzuzeigen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Fehlerkorrektur – Mit der Quarantänemetrik können jetzt korrekte Daten abgerufen werden.
 * Ein neuer voreingestellter Zeitrahmen wurde zum Kalender-Widget hinzugefügt.
 * Die [Metriken für dynamische Berichte](../../reporting/using/indicator-calculation.md) und die [Kampagnen-KPIs](../../sending/using/confirming-the-send.md) (dargestellt im Dashboard gesendeter Nachrichten) wurden für größere Kohärenz angepasst.
@@ -162,9 +162,9 @@ _Integrationen_
 * eVars und Ereignisse werden jetzt bei der Integration von Analytics und Campaign unterstützt.
 * Wenn eine E-Mail mit dem Inhalt des stehengelassenen Warenkorbs gesendet wird, ist der Payload-Parameter für die aus dem Warenkorb entfernten Elemente jetzt optional.
 
-_Profile und Audiences_
+_Profile und Zielgruppen_
 
-* Adobe Campaign erstellt jetzt einen Bericht, in dem die Anzahl der aktiven Profile angegeben wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung. Lesen Sie für weiterführende Informationen das [entsprechende Handbuch](../../audiences/using/active-profiles.md).
+* Adobe Campaign erstellt jetzt einen Bericht, in dem die Anzahl der aktiven Profile angegeben wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung. Weitere Informationen finden Sie im [entsprechenden Handbuch](../../audiences/using/active-profiles.md).
 * Fehlerkorrektur – Profile können jetzt über die API &quot;Profile und Dienste&quot; einen Dienst abonnieren.
 
 ## Version 17.7 - Juli 2017 {#release-17-7---july-2017}
@@ -193,7 +193,7 @@ _Profile und Audiences_
   </tr> 
   <tr> 
    <td> Verschlüsselte Declared ID in Datenquellen<br /> </td> 
-   <td> Versand von E-Mail- und SMS-Triggern, ohne dass in Campaign ein Profil vorhanden sein muss, indem verschlüsselte Kontaktinformationen (E-Mail-Adresse oder Telefonnummer) als Declared ID verwendet werden. Verschlüsselte Declared IDs können von Adobe Campaign Standard dekodiert werden, weshalb jetzt neue vermarktbare Profile erstellt werden können, wenn Audiences mit zuvor unbekannten Kontakten von anderen Experience Cloud-Lösungen übermittelt werden.<br /> Ermöglicht das Ansprechen von Kunden und unbekannten potenziellen Kunden in Echtzeit mithilfe von E-Mail und SMS, um die Loyalität der bestehenden Kundenbasis zu stärken und neue Kunden zu gewinnen. Nutzen Sie Ihre Cookie-Daten aus erster Hand (von Adobe Audience Manager*) optimal, wenn potenzielle Kunden diese Einblicke in Adobe Campaign authentifizieren und nutzen. <br /> *Adobe Audience Manager ist erforderlich. Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Versand von E-Mail- und SMS-Triggern, ohne dass in Campaign ein Profil vorhanden sein muss, indem verschlüsselte Kontaktinformationen (E-Mail-Adresse oder Telefonnummer) als Declared ID verwendet werden. Verschlüsselte Declared IDs können von Adobe Campaign Standard dekodiert werden, weshalb jetzt neue vermarktbare Profile erstellt werden können, wenn Zielgruppen mit zuvor unbekannten Kontakten von anderen Experience Cloud-Lösungen übermittelt werden.<br /> Ermöglicht das Ansprechen von Kunden und unbekannten potenziellen Kunden in Echtzeit mithilfe von E-Mail und SMS, um die Treue der bestehenden Kundenbasis zu stärken und neue Kunden zu gewinnen. Nutzen Sie Ihre Cookie-Daten aus erster Hand (von Adobe Audience Manager*) optimal, wenn potenzielle Kunden diese Einblicke in Adobe Campaign authentifizieren und nutzen. <br /> *Adobe Audience Manager ist erforderlich. Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> KPI-Freigabe von Campaign für Analytics<br /> </td> 
@@ -206,7 +206,7 @@ _Profile und Audiences_
  </tbody> 
 </table>
 
-**Korrekturen**
+**Patches**
 
 _Allgemein_
 
@@ -241,7 +241,7 @@ _Workflows_
 * Workflow-Logs können jetzt gefiltert werden (Zeitraum und Textsuche). Weiterführende Informationen finden Sie im [entsprechenden Handbuch](../../automating/using/monitoring-workflow-execution.md).
 * Im Versand-Workflow ist jetzt eine Option verfügbar, mit der die Bestätigung vor dem Senden deaktiviert werden kann.
 * Fehlerkorrektur – Im Erstellungsassistenten eines wiederkehrenden Versands kann jetzt eine Outbound-Transition eingestellt werden.
-* Fehlerkorrektur – jetzt kann eine Workflow-Abfrageaktivität auf der Basis eines benutzerdefinierten Ressourcenfeldes mit einer Auflistung verwendet werden, die zahlreiche Werte aufweist.
+* Fehlerkorrektur – jetzt kann eine Workflow-Abfrageaktivität auf der Basis eines benutzerdefinierten Ressourcenfeldes mit einer Aufzählung verwendet werden, die zahlreiche Werte aufweist.
 
 ## Version 17.5 - Mai 2017 {#release-17-5---may-2017}
 
@@ -266,11 +266,11 @@ _Workflows_
  </tbody> 
 </table>
 
-**Korrekturen**
+**Patches**
 
 _Aktualisierung der Benutzeroberfläche_
 
-* In der Navigationsleiste wurde der Link **[!UICONTROL Planung]** entfernt und durch den Link **[!UICONTROL Programme &amp; Kampagnen]** ersetzt.
+* In der Navigationsleiste wurde der Link **[!UICONTROL Timeline]** entfernt und durch den Link **[!UICONTROL Programme &amp; Kampagnen]** ersetzt.
 
 _E-Mails und SMS-Nachrichten_
 
@@ -325,7 +325,7 @@ _Push-Benachrichtigungen_
  </tbody> 
 </table>
 
-**Korrekturen**
+**Patches**
 
 _Plattform_
 
@@ -353,17 +353,17 @@ _Landingpages_
 _Workflows_
 
 * Fehlerkorrektur – bei der Bearbeitung der Aktivitäten **[!UICONTROL Ende]** oder **[!UICONTROL Externes Signal]** tritt kein Anzeigefehler mehr auf (Fehler betraf nur Safari).
-* Die Fehlermeldung bei der Bearbeitung der Aktivität **[!UICONTROL Audience lesen]** mit einer fehlerhaften Audience wurde verbessert.
+* Die Fehlermeldung bei der Bearbeitung der Aktivität **[!UICONTROL Zielgruppe lesen]** mit einer fehlerhaften Zielgruppe wurde verbessert.
 * Fehlerkorrektur – jetzt entsteht kein SQL-Fehler mehr, wenn eine Abonnementaktivität ausgeführt wird.
 
 _Integrationen_
 
 * POI-Daten: Fehlerkorrektur – bei der Zählung von Standortabonnenten tritt kein Fehler mehr auf.
 
-_Audiences und Abfragen_
+_Zielgruppen und Abfragen_
 
-* Fehlerkorrektur – Summen- und Durchschnitts-Aggregate für eine Sammlung können jetzt im Abfrageeditor verwendet werden.
-* Fehlerkorrektur – der Abfrageeditor kann jetzt nach der Änderung der Filterressource erneut geladen werden.
+* Fehlerkorrektur – Summen- und Durchschnitts-Aggregate für eine Sammlung können jetzt im Abfrage-Editor verwendet werden.
+* Fehlerkorrektur – der Abfrage-Editor kann jetzt nach der Änderung der Filterressource erneut geladen werden.
 
 _Berichte_
 
@@ -423,7 +423,7 @@ _Push-Benachrichtigungen_
     </ul> Lesen Sie für weiterführende Informationen das <a href="../../automating/using/external-signal.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: neue Audience-lesen-Aktivität<br /> </td> 
+   <td> Workflows: neue Zielgruppe-lesen-Aktivität<br /> </td> 
    <td> Beginnen Sie Ihre Zielgruppenbestimmung mit einer bestehenden Audience, die Sie in einer einzigen Aktivität einfach auswählen und eingrenzen können.<br /> Lesen Sie für weiterführende Informationen das <a href="../../automating/using/read-audience.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -437,7 +437,7 @@ _Push-Benachrichtigungen_
  </tbody> 
 </table>
 
-**Korrekturen**
+**Patches**
 
 _Allgemein_
 
@@ -475,7 +475,7 @@ _Workflows_
    <td> Exportieren Sie Logs, wie zum Beispiel Versandlogs und Trackinglogs, um sie in Ihren eigenen Berichterstattungs- oder Business Intelligence Tools zu verarbeiten. Mithilfe von Workflows mit inkrementellen Abfragen können Sie automatisch regelmäßige Exporte neuer Logs durchführen.<br /> Zusätzlich zur Verfügbarkeit der Log-Ressourcen im Ressourcen-Picker wurden auch Verbesserungen an den Aktivitäten <a href="../../automating/using/incremental-query.md">Inkrementelle Abfrage</a> und <a href="../../automating/using/extract-file.md">Dateiextraktion</a> vorgenommen:<br /> 
     <ul> 
      <li> Mit der Option <span class="uicontrol">Inkrementelle Abfrage</span> können Sie neue oder aktualisierte Daten nun über ein Datumsfeld abrufen. Zuvor waren alle Ergebnisse früherer Ausführungen automatisch ausgeschlossen, selbst wenn sie seit der letzten Ausführung aktualisiert worden waren. </li> 
-     <li> Mit der Option <span class="uicontrol">Dateiextraktion</span> können jetzt Titel anstelle von Kennungen für Auflistungswerte exportiert werden. </li> 
+     <li> Mit der Option <span class="uicontrol">Dateiextraktion</span> können jetzt Titel anstelle von Kennungen für Aufzählungswerte exportiert werden. </li> 
     </ul> Diese Aktivitäten stehen Administratoren zur Verfügung, die Zugriff auf alle geografischen und Unternehmenseinheiten besitzen.<br /> Weiterführende Informationen zum Exportieren von Logs finden Sie im <a href="../../automating/using/exporting-logs.md">entsprechenden Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -500,7 +500,7 @@ _Workflows_
  </tbody> 
 </table>
 
-**Korrekturen**
+**Patches**
 
 _Allgemein_
 
@@ -531,5 +531,5 @@ _Workflows_
 _Integrationen_
 
 * Fehlerkorrektur – bei der Bereitstellung einer Ereignisauslösung in Adobe Campaign kommt es zu keinen Problemen mehr. Dieser Fehler trat auf, wenn die Metadaten &quot;Wahrscheinlichkeit eines erneuten Besuchs innerhalb von 30 Tagen&quot; zur Abbruchsauslösung in Adobe Experience Cloud hinzugefügt wurden.
-* Fehlerkorrektur – der technische Workflow löscht jetzt nicht mehr das Zieldimensionsfeld, wenn Audiences von People Core Service importiert werden. Darauf folgende Abfragen konnten keine importierten Audiences abrufen.
-* Fehlerkorrektur – durch die Aktivität **[!UICONTROL Audience-Speicherung]** eines Workflows wird kein Fehler mehr erzeugt, wenn die Option **[!UICONTROL In der Adobe Experience Cloud freigeben]** aktiviert ist.
+* Fehlerkorrektur – der technische Workflow löscht jetzt nicht mehr das Zieldimensionsfeld, wenn Zielgruppen von People Core Service importiert werden. Darauf folgende Abfragen konnten keine importierten Zielgruppen abrufen.
+* Fehlerkorrektur – durch die Aktivität **[!UICONTROL Zielgruppe speichern]** eines Workflows wird kein Fehler mehr erzeugt, wenn die Option **[!UICONTROL In der Adobe Experience Cloud freigeben]** aktiviert ist.

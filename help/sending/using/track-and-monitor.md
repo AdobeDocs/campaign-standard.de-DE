@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Sie haben auf die Senden-Schaltfläche geklickt? Lassen Sie uns sehen, was dann passiert. Nach dem Versand der Nachrichten ermöglicht es Ihnen Adobe Campaign die gesendeten Nachrichten zu verfolgen und festzustellen, wie Ihre Empfänger darauf reagieren. Dadurch können Sie den zukünftigen Versand verbessern und Ihre nächsten Kampagnen optimieren.
 
-## Sendungen überwachen {#monitoring-deliveries}
+## Überwachen von Sendungen {#monitoring-deliveries}
 
 Um Ihre Kampagnen steuern zu können, müssen Sie zunächst sichergehen, dass Ihre Nachricht bei Ihren Empfängern tatsächlich angekommen ist.
 
@@ -46,7 +46,7 @@ Weitere Informationen hierzu finden Sie im Abschnitt [Tracking-Nachrichten](../.
 
 Dynamische Berichte ermöglichen vollständig anpassbare und in Echtzeit aktualisierte Berichte zur Überwachung Ihrer Kampagnen. Mit Dimensionen, Metriken und Visualisierungen können Sie die Wirkung und den Erfolg Ihrer Kampagnen auf Empfänger messen.
 
-**Tipp**: Vordefinierte Berichte sind verfügbar, mit denen Sie Ihre Kampagnen überwachen können. Diese Berichte können auch angepasst werden, indem Sie einfach Metriken oder Dimensionen per Drag-and-Drop in den Bericht ziehen.
+**Tipp**: Native Berichte sind verfügbar, mit denen Sie Ihre Kampagnen überwachen können. Diese Berichte können auch angepasst werden, indem Sie einfach Metriken oder Dimensionen per Drag-and-Drop in den Bericht ziehen.
 
 Weitere Informationen hierzu finden Sie im [Reporting-Handbuch](../../reporting/using/about-dynamic-reports.md).
 

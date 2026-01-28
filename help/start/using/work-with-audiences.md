@@ -5,14 +5,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 
 ---
 
 
-# Arbeiten mit Profilen und Audiences
+# Arbeiten mit Profilen und Zielgruppen
 
 <table>
 <tr>
@@ -32,7 +32,7 @@ ht-degree: 100%
 <tr>
 <td>Kundenprofile</td>
 <td>Datenbank anreichern</td>
-<td>Audiences organisieren</td>
+<td>Zielgruppen organisieren</td>
 <td>Datenschutzverwaltung</td>
 </tr>
 </table>
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 Die Adobe Campaign-Profile stellen die Gesamtheit an in der Datenbank gespeicherten Kontakten dar. Jedes Profil entspricht einem Datensatz in der Datenbank, welcher alle nötigen Informationen zu seiner Qualifizierung, Verwendung in Zielgruppen und zum Tracking enthält. Bei einem Profil kann es sich also - je nach in der Organisation verwendeten Bezeichnungen - um Kunden, Interessenten, Newsletter-Abonnenten, Empfänger, Benutzer etc. handeln.
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * [Über Profile](../../audiences/using/about-profiles.md)
 * [Anzahl der aktiven Profile in Ihrem Unternehmen aufrufen](../../audiences/using/active-profiles.md)
@@ -62,7 +62,7 @@ Darüber hinaus können Sie Vorlagen für den Datenimport einrichten. Die Verwen
 
 * **Workflow-Vorlagen**: Hierbei handelt es sich um vorkonfigurierte Workflows, die Sie einmal entsprechend Ihren Anforderungen einrichten und jedes Mal wiederverwenden können, wenn Sie Daten importieren und die Datenbank aktualisieren möchten. Ein Beispiel für eine Workflow-Vorlage zum Importieren von Daten finden Sie in [diesem Abschnitt](../../automating/using/creating-import-workflow-templates.md).
 
-* **Vorlagen zum Datenimport**: Ebenso wie Workflow-Vorlagen sind auch dies Vorlagen, die auf Workflows basieren. Sie werden zum Hochladen von Dateien zur Aktualisierung der Datenbank eingerichtet. Nach der Konfiguration werden sie Benutzern mit einer vereinfachten Ansicht im Menü **[!UICONTROL Profile &amp; Audiences]** / **[!UICONTROL Importe]** zur Verfügung gestellt. Weiterführende Informationen zu Vorlagen zum Datenimport finden Sie im [entsprechenden Handbuch](../../automating/using/importing-data-with-import-templates.md).
+* **Vorlagen zum Datenimport**: Ebenso wie Workflow-Vorlagen sind auch dies Vorlagen, die auf Workflows basieren. Sie werden zum Hochladen von Dateien zur Aktualisierung der Datenbank eingerichtet. Nach der Konfiguration werden sie Benutzern mit einer vereinfachten Ansicht im Menü **[!UICONTROL Profile und Zielgruppen]** / **[!UICONTROL Importe]** zur Verfügung gestellt. Weiterführende Informationen zu Vorlagen zum Datenimport finden Sie im [entsprechenden Handbuch](../../automating/using/importing-data-with-import-templates.md).
 
 ### Erfassen von Daten über Landingpages {#collecting-data-from-landing-pages}
 
@@ -74,7 +74,7 @@ Landingpages sind Webformulare, die zur Datenerfassung und zur Erstellung oder A
 
 Weiterführende Informationen zu Landingpages finden Sie im [entsprechenden Handbuch](../../channels/using/getting-started-with-landing-pages.md).
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * xxxx
 * xxxx
@@ -88,7 +88,7 @@ Diese Kontakte sind dann in der Profilliste sichtbar und können für Marketing-
 >
 >Bitte beachten Sie, dass der Connector für Campaign Standard und Microsoft Dynamics 365 derzeit nur beschränkt verfügbar ist und einige Beschränkungen gelten. Diese werden in der Dokumentation beschrieben.
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * xxxx
 * xxxx
@@ -99,25 +99,25 @@ Mit Campaign Standard-APIs können Sie Prozesse zum Aktualisieren der Datenbank 
 
 >[!CAUTION]
 >
->Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Bevor Sie Profile in großen Mengen erstellen oder die Aktualisierung über API-Aufrufe durchführen, überprüfen Sie in Ihrer Lizenzvereinbarung etwaige Volumensbeschränkungen. Weitere Informationen hierzu finden Sie auf [dieser Seite](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * xxxx
 * xxxx
 
-## Audiences organisieren {#organizing-audiences}
+## Zielgruppen organisieren {#organizing-audiences}
 
 <img width="60px" alt="Bedingungen" src="assets/icon_audience.svg"/>
 
 Adobe Campaign vereint fortschrittliche Analyse- und Zielgruppenbestimmungsfunktionen, damit Sie relevante und effiziente Nachrichten versenden und mit Kunden effektiv interagieren können.
 
-Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences, die verfügbare Informationen, das Verhalten, die Sprache, die Einstellungen und den Marketing-Verlauf Ihrer Kontakte berücksichtigen, um Ihre unterschiedlichen Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern oder auf einer unbegrenzten Anzahl von Kriterien basierende Zielgruppen erstellen.
+Workflows und der Abfrage-Editor erlauben die Erstellung von Zielgruppen, die verfügbare Informationen, das Verhalten, die Sprache, die Einstellungen und den Marketing-Verlauf Ihrer Kontakte berücksichtigen, um Ihre unterschiedlichen Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern oder auf einer unbegrenzten Anzahl von Kriterien basierende Zielgruppen erstellen.
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * [Über Zielgruppen](../../audiences/using/about-audiences.md)
-* [Erstellen von Audiences](../../audiences/using/creating-audiences.md)
+* [Erstellen von Zielgruppen](../../audiences/using/creating-audiences.md)
 
 ## Datenschutzverwaltung {#privacy-management}
 
@@ -127,7 +127,7 @@ Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU),
 
 In [diesem Abschnitt](../../start/using/privacy.md) erfahren Sie mehr über die Werkzeuge und Funktionen, die Adobe Campaign Ihnen zur Verfügung stellt, um die Einhaltung der DSGVO zu gewährleisten.
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * xxxx
 * xxxx

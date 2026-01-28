@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
 source-git-commit: 5fef74296a4790102c75e609c270e52d5ead1d58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Folgende Objekte sind sichtbar:
 * Filter
 * Navigation
 * Komponenten
-* Batch-Vorgänge
+* Batch-Aufträge
 
 Sie können die Listenkonfiguration ändern:
 
@@ -45,7 +45,7 @@ Sie können die Liste filtern:
 
 * Sie können native Datenschemata, Webseiten, Filter und Navigationsobjekte ein- oder ausschließen.
 * Sie können Objekte nach ihrem Namen suchen.
-* Sie können Batch-Vorgänge nach Status, Startdatum und Enddatum filtern.
+* Sie können Batch-Aufträge nach Status, Startdatum und Enddatum filtern.
 
 Sie können die angezeigte Liste in einer Datei im TXT-Format mit durch Komma getrennten Werten herunterladen.
 

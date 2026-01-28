@@ -46,7 +46,7 @@ Das **Daten-Update** wird insbesondere im Anschluss an einen Dateiimport verwend
      Kreuzen Sie die Option **[!UICONTROL Ausgehende Transition für Zurückweisungen erzeugen]** an, wenn die importierten Daten bestimmte, bereits in der Datenbank vorhandene Datensätze enthalten, um Fehler zu vermeiden.
 
    * **[!UICONTROL Aktualisieren]** – aktualisiert Daten existierender Datensätze, fügt keine neuen Datensätze hinzu.
-   * **[!UICONTROL Löschen]** – löscht in der Datenbank existierende Daten.
+   * **[!UICONTROL Löschen]**: löscht Daten.
 
    >[!NOTE]
    >

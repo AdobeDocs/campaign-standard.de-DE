@@ -1,5 +1,5 @@
 ---
-title: Planung
+title: Timeline
 description: Hier erfahren Sie, wie Sie über die Benutzeroberfläche von Adobe Campaign Standard aktive Programme und ihren Inhalt visualisieren.
 audience: start
 content-type: reference
@@ -10,15 +10,15 @@ role: User
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
 ---
 
-# Planung{#timeline}
+# Timeline{#timeline}
 
-Die **[!UICONTROL Planung]** zeigt laufende Programme und ihren Inhalt in einer zeitlichen Übersicht an.
+Die **[!UICONTROL Timeline]** zeigt laufende Programme und ihren Inhalt in einer zeitlichen Übersicht an.
 
 Klicken Sie auf der Startseite auf die entsprechende Karte, um darauf zuzugreifen.
 
@@ -39,7 +39,7 @@ Klicken Sie auf den Pfeil rechts im Programmbalken, um seine untergeordneten Ele
 
 >[!NOTE]
 >
->Workflows haben keine zeitliche Dimension, sie werden daher nicht in der Planung abgebildet.
+>Workflows haben keine zeitliche Dimension, sie werden daher nicht in der Timeline abgebildet.
 
 Wenn die in einem Programm oder einer Kampagne enthaltenen Elemente angezeigt werden, wird der entsprechende Balken blau hinterlegt und der Pfeil rechts wechselt seine Ausrichtung. Klicken Sie auf den Pfeil, um die Unterelemente auszublenden.
 

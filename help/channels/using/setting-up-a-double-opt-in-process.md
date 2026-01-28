@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1234'
 ht-degree: 100%
 
@@ -28,8 +28,8 @@ Das Prinzip dahinter ist folgendes: Der Besucher füllt ein Formular auf einer O
 Gehen Sie dazu folgendermaßen vor:
 
 1. Erstellen und veröffentlichen Sie eine Landingpage, auf der sich Besucher registrieren und anmelden können. Diese Landingpage ist auf einer Website verfügbar. Besucher, die diese Landingpage ausfüllen und diese Informationen abschicken, werden in der Datenbank gespeichert, aber auf die Blockierungsliste gesetzt, damit sie keine Nachrichten vor der endgültigen Validierung erhalten (siehe [Verwaltung der Blockierungslisten in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
-1. Erstellen und senden Sie automatisch die Anmelde-E-Mail mit einem Bestätigungs-Link. Diese E-Mail wird an die Personen gesendet, die ihre Informationen auf der Landingpage abgeschickt haben. Die E-Mail basiert auf einer E-Mail-Vorlage, mit der ‘abgemeldete’ Profile gehandhabt werden können.
-1. Richten Sie eine Umleitung zu einer Bestätigungs-Landingpage ein. Diese abschließende Landingpage weist eine Bestätigungs-Schaltfläche auf, die die Besucher anklicken müssen. Sie können eine Willkommens-E-Mail erstellen, die nach Abschluss des Bestätigungsprozesses gesendet wird und beispielsweise ein spezielles Angebot für neue Empfänger enthält.
+1. Erstellen und senden Sie automatisch die Anmelde-E-Mail mit einem Bestätigungs-Link. Diese E-Mail wird an die Population gesendet, die ihre Informationen auf der Landingpage abgeschickt hat. Die E-Mail basiert auf einer E-Mail-Vorlage, mit der ‘abgemeldete’ Profile gehandhabt werden können.
+1. Richten Sie eine Umleitung zu einer Bestätigungs-Landingpage ein. Diese abschließende Landingpage weist eine Bestätigungs-Schaltfläche auf, die die Besucher anklicken müssen. Sie können eine Begrüßungs-E-Mail erstellen, die nach Abschluss des Bestätigungsprozesses gesendet wird und beispielsweise ein spezielles Angebot für neue Empfänger enthält.
 
 Diese Schritte müssen in Adobe Campaign in einer bestimmten Reihenfolge ausgeführt werden, damit alle Parameter ordnungsgemäß aktiviert werden.
 
@@ -47,7 +47,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
    ![](assets/optin_confirmlp_param.png)
 
-1. Wählen Sie in **[!UICONTROL Vorgang]** > **[!UICONTROL Zusatzdaten]** die Option **[!UICONTROL Element hinzufügen]** aus und geben Sie folgenden Kontextpfad ein:
+1. Wählen Sie in **[!UICONTROL Auftrag]** > **[!UICONTROL Zusatzdaten]** die Option **[!UICONTROL Element hinzufügen]** aus und geben Sie folgenden Kontextpfad ein:
 
    /context/profile/blackList
 
@@ -69,7 +69,7 @@ Um diese Landingpage zu erstellen und zu konfigurieren, gehen Sie folgendermaße
 
 ## Schritt 2: Bestätigungs-E-Mail erstellen          {#step-2--create-the-confirmation-email}
 
-Nachdem die Bestätigungs-Landingpage fertig ist, kann die Bestätigungs-E-Mail erstellt werden. Diese E-Mail wird automatisch jedem Besucher gesendet, der die Akquise-Landingpage bestätigt. Diese Bestätigung wird als Ereignis erachtet und die E-Mail gilt als Transaktionsnachricht, die mit einer bestimmten Typologieregel verknüpft ist, wodurch Abmeldungen gehandhabt werden können.
+Nachdem die Bestätigungs-Landingpage fertig ist, kann die Bestätigungs-E-Mail erstellt werden. Diese E-Mail wird automatisch jedem Besucher gesendet, der die Akquise-Landingpage bestätigt. Diese Bestätigung wird als Ereignis betrachtet und die E-Mail gilt als Transaktionsnachricht, die mit einer bestimmten Typologieregel verknüpft ist, wodurch Abmeldungen gehandhabt werden können.
 
 Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Führen Sie sie aus, bevor Sie die Akquise-Landingpage erstellen, da diese auf die E-Mail-Vorlage verweist.
 
@@ -89,7 +89,7 @@ Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/g
 
    Wenn Sie Dienste verwenden müssen, fügen Sie die Zielressource **[!UICONTROL Dienst]** hinzu und erstellen Sie ein Mapping über das Feld **[!UICONTROL serviceName]**. Weiterführende Informationen dazu finden Sie unter .
 
-1. Wählen Sie in der Dropdown-Liste für die **[!UICONTROL Zielgruppen-Anreicherung]** die Option **[!UICONTROL Profile]**.
+1. Wählen Sie in der Dropdown-Liste für die **[!UICONTROL Zielgruppenbestimmungs-Anreicherung]** die Option **[!UICONTROL Profile]**.
 1. Wählen Sie **[!UICONTROL Veröffentlichen]**, um das Ereignis zu veröffentlichen.
 
 Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die E-Mail-Vorlage erstellen. Diese Vorlage muss einen Link zur zuvor erstellten Landingpage **CONFIRMATION** aufweisen. Weiterführende Informationen dazu finden Sie im Abschnitt [Bestätigungsnachricht erstellen](#design-the-confirmation-message).
@@ -102,7 +102,7 @@ Erstellen Sie eine eigene [Typologie](../../sending/using/about-typology-rules.m
 1. Duplizieren Sie die Standardtypologie **[!UICONTROL Transaktionsnachricht zum Profil (mcTypologyProfile)]**.
 1. Bearbeiten Sie danach die neue Typologie und geben Sie den Titel **TYPOLOGY_PROFILE** ein.
 1. Entfernen Sie die Regel **Adresse auf Blockierungsliste**.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Diese Typologie kann jetzt mit der Bestätigungs-E-Mail verknüpft werden.
 

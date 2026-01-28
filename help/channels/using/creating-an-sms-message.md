@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Die Erstellung eines SMS-Versands ist der Erstellung einer üblichen E-Mail sehr
 
 Informationen zu erweiterten SMS-Parametern finden Sie im Abschnitt [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [Mehr zu dieser Funktion erfahren Sie im Video.](#video).
 
 Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefone senden zu können:
 
@@ -51,7 +51,7 @@ Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefo
    >
    >Achten Sie darauf, dass das ID-Feld kein Leerzeichen enthält, um Unstimmigkeiten zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
 
-1. Wählen Sie die zu kontaktierende Audience aus. Sie können eine bestehende Audience auswählen oder direkt eine Population erstellen, indem Sie Regeln definieren und kombinieren.
+1. Wählen Sie die zu kontaktierende Zielgruppe aus. Sie können eine bestehende Zielgruppe auswählen oder direkt eine Population erstellen, indem Sie Regeln definieren und kombinieren.
 
    ![](assets/sms_creation_3.png)
 
@@ -89,6 +89,6 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 
 In diesem Video wird gezeigt, wie man einen SMS-Versand erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30537/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

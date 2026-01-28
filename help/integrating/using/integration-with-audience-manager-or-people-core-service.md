@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Die Bereitstellung und Konfiguration von Audience Manager und People Core in Adobe Campaign erfolgt in zwei Schritten: [Zunächst wird ein Antrag an Adobe übermittelt](#submitting-request-to-adobe), dann [wird die Integration mit Adobe Campaign konfiguriert](#configuring-the-integration-in-adobe-campaign).
 
-## Anfrage an Adobe übermitteln      {#submitting-request-to-adobe}
+## Anfrage an Adobe übermitteln {#submitting-request-to-adobe}
 
 Durch die Integration von Audience Manager (AAM) oder People Core Service können Sie Audiences oder Segmente in Adobe Campaign importieren und exportieren.
 
@@ -68,7 +68,7 @@ Nach Übermittlung dieses Antrags wird dieser von Adobe bearbeitet. Sie werden e
 * [Schritt 3: Konfigurieren Sie den Campaign Tracking Server.](#step-3--configure-campaign-tracking-server)
 * [Schritt 4: Konfigurieren Sie den Visitor-ID-Dienst.](#step-4--configure-the-visitor-id-service)
 
-### Schritt 1: Konfigurieren bzw. überprüfen Sie die externen Konten in Adobe Campaign.   {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Schritt 1: Konfigurieren bzw. überprüfen Sie die externen Konten in Adobe Campaign. {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Zunächst müssen die externen Konten in Adobe Campaign konfiguriert bzw. überprüft werden. Diese Konten sollten von Adobe konfiguriert und die erforderlichen Informationen sollten Ihnen übermittelt worden sein.
 
@@ -106,7 +106,7 @@ So konfigurieren Sie die Datenquelle **[!UICONTROL Empfänger - Besucherkennung 
    ![](assets/integration_aam_3.png)
 
 1. Wir empfehlen, die Abstimmungskriterien in der Kategorie **[!UICONTROL Abstimmungsvorgang]** nicht zu ändern und immer die **[!UICONTROL Besucher-ID]** zu verwenden.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 
@@ -115,13 +115,13 @@ So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Datenquelle/Alias]** die Datenquelle aus, die der **[!UICONTROL DeclaredID]**-Datenquelle aus Audience Manager entspricht.
 1. Konfigurieren Sie Ihre Datenquelle, indem Sie den Wert für **[!UICONTROL Datenquelle/Alias]** und die **[!UICONTROL AAM Destination ID]** eingeben, die von Adobe bereitgestellt wurden.
 1. Konfigurieren Sie den **[!UICONTROL Abstimmungsvorgang]** entsprechend Ihren Anforderungen.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
 >Das Feld **[!UICONTROL AAM Destination ID]** muss nicht ausgefüllt werden, wenn Sie die freigegebene Datenquelle für die [Campaign-Triggers-Integration](../../integrating/using/configuring-triggers-in-experience-cloud.md) konfigurieren. Die **[!UICONTROL Priorität]** muss nur bei der Konfiguration der Triggers-Campaign-Integration definiert werden. Mit der Priorität wird angegeben, welche Datenquelle als Erste konfiguriert wird. Als Priorität kann jede beliebige Zahl, wie 1 oder 100, eingegeben werden. Je höher die Priorität ist, desto höher ist auch die Präferenz bei der Abstimmung.
 
-### Schritt 3: Konfigurieren Sie den Campaign Tracking Server.         {#step-3--configure-campaign-tracking-server}
+### Schritt 3: Konfigurieren Sie den Campaign Tracking Server.  {#step-3--configure-campaign-tracking-server}
 
 Für die Konfiguration der Integration mit People Core Service oder Audience Manager muss auch der Campaign Tracking Server konfiguriert werden.
 

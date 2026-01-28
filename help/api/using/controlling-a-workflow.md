@@ -31,7 +31,7 @@ Zum Steuern eines Workflows stehen vier Ausführungsbefehle zur Verfügung:
 * Starten
 * Aussetzen
 * Fortsetzen
-* Anhalten
+* Stoppen
 
 Weiterführende Informationen zu den Ausführungsbefehlen finden Sie in der [Campaign-Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=de).
 

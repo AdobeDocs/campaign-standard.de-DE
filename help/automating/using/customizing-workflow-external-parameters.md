@@ -55,7 +55,7 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
 
   Darüber hinaus können Sie die folgenden Funktionen verwenden, die in allen Aktivitäten zur Verfügung stehen, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen (siehe [diesen Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-  | Name | Beschreibung  | Syntax |
+  | Name | Beschreibung | Syntax |
   | ---------|----------|---------|
   | EndWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) endet. | EndWith(&lt;String>,&lt;String>) |
   | startWith | Gibt an, ob eine Zeichenfolge (1. Parameter) mit einer bestimmten Zeichenfolge (2. Parameter) beginnt. | startWith(&lt;String>,&lt;String>) |

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ Um zu überprüfen, ob das neu erstellte Feld korrekt konfiguriert ist, können 
    ![](assets/schema_extension_uc16.png)
 
 1. Führen Sie dieselben Schritte 11 bis 13 der Anleitung zur Profilerweiterung durch, um dieses Feld im Bildschirm **[!UICONTROL Testprofil]** hinzuzufügen.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Ihr neues Feld ist jetzt sowohl in den Profilen als auch in den Testprofilen verfügbar. Damit es korrekt konfiguriert wird, müssen Sie Ihre benutzerdefinierte Ressource veröffentlichen.
 
@@ -143,7 +143,7 @@ Zur Übernahme der Änderungen der Ressourcen und deren Verwendung muss die Date
 
 Ihr neues Ressourcenfeld kann jetzt verwendet und beispielsweise bei einem Versand ausgewählt werden.
 
-## Schritt 4: Profile mit einem Workflow aktualisieren und auswählen       {#step-4--update-and-target-profiles-with-a-workflow}
+## Schritt 4: Profile mit einem Workflow aktualisieren und auswählen {#step-4--update-and-target-profiles-with-a-workflow}
 
 Um Profile mit Daten aus dem neuen benutzerdefinierten Feld zu aktualisieren, können Sie mithilfe der Vorlage **[!UICONTROL Profilakquise]** eine Landingpage erstellen. Weiterführende Informationen zu Landingpages finden Sie auf dieser [Seite](../../channels/using/getting-started-with-landing-pages.md).
 
@@ -169,7 +169,7 @@ Zuerst muss eine Landingpage erstellt werden, über die das **Interessen**-Feld 
 Ihre Landingpage kann jetzt verwendet werden. Um die Profile zu aktualisieren, erstellen Sie einen Workflow, mit dem anschließend ein spezielles Angebot entsprechend den ausgewählten Interessen gesendet wird.
 
 1. Wählen Sie im Tab **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]** aus.
-1. Ziehen Sie die Aktivität **[!UICONTROL Abfrage]** in den Arbeitsbereich, um die entsprechenden Profile oder Audiences auszuwählen.
+1. Ziehen Sie die Aktivität **[!UICONTROL Abfrage]** in den Arbeitsbereich, um die entsprechenden Profile oder Zielgruppen auszuwählen.
 1. Ziehen Sie die Aktivität **[!UICONTROL E-Mail-Versand]** in den Arbeitsbereich, um die E-Mail zu konfigurieren, die einen Link zur Landingpage enthält. Wählen Sie **[!UICONTROL Ausgehende Transition mit der Population hinzufügen]** aus.
 
    ![](assets/schema_extension_uc3.png)
@@ -184,7 +184,7 @@ Ihre Landingpage kann jetzt verwendet werden. Um die Profile zu aktualisieren, e
 
    ![](assets/schema_extension_uc24.png)
 
-1. Wählen Sie **[!UICONTROL Speichern]** aus. Ihre E-Mail ist jetzt fertig und Sie können mit Ihrem Workflow fortfahren.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Ihre E-Mail ist jetzt fertig und Sie können mit Ihrem Workflow fortfahren.
 1. Fügen Sie die Aktivität **[!UICONTROL Warten]** hinzu, um Ihren Profilen etwas Zeit zum Ausfüllen des Formulars auf der Landingpage zu geben.
 1. Fügen Sie die Aktivität **[!UICONTROL Segmentierung]** hinzu, um die ausgehende Transition entsprechend den **Interessen** aufzuspalten.
 1. Erstellen Sie für jedes **Interesse** ein ausgehendes Segment.

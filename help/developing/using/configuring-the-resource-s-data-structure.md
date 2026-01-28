@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1850'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die 
 
    ![](assets/schema_extension_5.png)
 
-1. Aktivieren Sie die Option **[!UICONTROL Liste zulässiger Werte definieren]**, um die Werte zu definieren, die dem Benutzer vorgeschlagen werden sollen (Auflistungswerte).
+1. Aktivieren Sie die Option **[!UICONTROL Liste zulässiger Werte definieren]**, um die Werte zu definieren, die dem Benutzer vorgeschlagen werden sollen (Aufzählungswerte).
 
    Wählen Sie danach **[!UICONTROL Element erstellen]** aus und definieren Sie einen **[!UICONTROL Titel]** und einen **[!UICONTROL Wert]**. Fügen Sie so viele Werte wie nötig hinzu.
 
@@ -119,7 +119,7 @@ Die Definition von Indexen wird empfohlen, ist aber nicht zwingend erforderlich.
 
    ![](assets/schema_extension_27.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 Die erstellten Indexe werden in der Liste des Bereichs **[!UICONTROL Index]** angezeigt.
 
@@ -160,7 +160,7 @@ Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
    >
    >Nach der Erstellung kann ein Link nicht mehr umbenannt werden. Um einen Link umzubenennen, müssen Sie ihn zuerst löschen und dann wieder erstellen.
 
-1. Mit der Liste **[!UICONTROL Audience- und Zielgruppenkategorie]** können Sie diese Relation einer Kategorie zuordnen, wodurch sie im Abfrageeditor besser sichtbar wird.
+1. Mit der Liste **[!UICONTROL Zielgruppen- und Zielgruppenbestimmungskategorie]** können Sie diese Relation einer Kategorie zuordnen, wodurch sie im Abfrage-Editor besser sichtbar wird.
 1. Nötigenfalls können Sie im Bereich **[!UICONTROL Definition der Umkehrrelation]** den Titel und die Kennung der Ressource in der Zielressource anzeigen.
 1. Definieren Sie im Bereich **[!UICONTROL Verhalten beim Löschen/Duplizieren]** das Verhalten der durch die Relation referenzierten Datensätze.
 
@@ -171,7 +171,7 @@ Eine Relation beschreibt die Beziehung einer Tabelle zu anderen Tabellen.
 1. Im Bereich **[!UICONTROL Definition des Joins]** ist die Standardoption **[!UICONTROL Join über die Primärschlüssel erstellen]** ausgewählt, es stehen aber zwei Optionen zur Verfügung:
 
    * **[!UICONTROL Join über die Primärschlüssel erstellen]**: Mit dieser Join-Definition können Sie den Primärschlüssel der Profile mit dem Primärschlüssel der Käufe abstimmen.
-   * **[!UICONTROL Spezifische Join-Bedingungen definieren]**: Mit dieser Join-Definition können Sie manuell die Felder auswählen, mit denen der Join beider Ressourcen hergestellt wird. Bitte beachten Sie, dass bei falscher Konfiguration der Daten der Datensatz **Bestellung** nicht sichtbar ist.
+   * **[!UICONTROL Spezifische Join-Bedingungen definieren]**: Mit dieser Join-Definition können Sie manuell die Felder auswählen, mit denen der Join beider Ressourcen hergestellt wird. Bitte beachten Sie, dass bei falscher Konfiguration der Daten der Datensatz **Kauf** nicht sichtbar ist.
 
    ![](assets/schema_extension_17.png)
 
@@ -183,9 +183,9 @@ Die erstellten Relationen werden in der Liste des Bereichs **[!UICONTROL Relatio
 
 **Beispiel: Herstellung einer Relation zwischen einer erstellten Ressource und der &#39;Profile&#39;-Ressource**
 
-In diesem Beispiel möchten wir eine Relation zwischen der neuen Ressource **Bestellung** und der benutzerdefinierten Ressource **Profile** herstellen:
+In diesem Beispiel möchten wir eine Relation zwischen der neuen Ressource **Kauf** und der benutzerdefinierten Ressource **Profile** herstellen:
 
-1. Erstellen Sie Ihre neue Ressource **Bestellung**.
+1. Erstellen Sie Ihre neue Ressource **Kauf**.
 1. Um eine Relation mit der benutzerdefinierten Ressource **Profile** herzustellen, erweitern Sie den Bereich **[!UICONTROL Relationen]** im Tab **[!UICONTROL Datenstruktur]** und wählen Sie **[!UICONTROL Element erstellen]** aus.
 1. Wählen Sie die Zielressource aus, hier **[!UICONTROL Profile (profile)]**.
 1. Behalten Sie für unser Beispiel den ausgewählten Relationstyp **[!UICONTROL Einfache Relation mit Kardinalität 1]** bei.
@@ -196,14 +196,14 @@ In diesem Beispiel möchten wir eine Relation zwischen der neuen Ressource **Bes
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
-1. Bei Bedarf können Sie einen Detailbildschirm definieren, um **Bestellung** zu bearbeiten und ihn mit einem Profil zu verknüpfen.
+1. Bei Bedarf können Sie einen Detailbildschirm definieren, um **Kauf** zu bearbeiten und ihn mit einem Profil zu verknüpfen.
 
    Erweitern Sie den Bereich **[!UICONTROL Konfiguration des Detailbildschirms]** und aktivieren Sie die Option **[!UICONTROL Detailbildschirm definieren]**, um den Bildschirm entsprechend den Elementen der Ressource zu konfigurieren. Wenn Sie diese Option nicht aktivieren, steht für die Elemente der Ressource keine Detailansicht zur Verfügung.
 
 1. Wählen Sie **[!UICONTROL Element erstellen]** aus.
 1. Wählen Sie Ihre verknüpfte Ressource aus und danach **[!UICONTROL Hinzufügen]**.
 
-   Ihre neue Ressource ist daraufhin im erweiterten Menü durch die Auswahl von **[!UICONTROL Benutzerdefinierte Daten]** > **[!UICONTROL Bestellung]** verfügbar.
+   Ihre neue Ressource ist daraufhin im erweiterten Menü durch die Auswahl von **[!UICONTROL Benutzerdefinierte Daten]** > **[!UICONTROL Kauf]** verfügbar.
 
    ![](assets/custom_resource_link_to_profile_4.png)
 

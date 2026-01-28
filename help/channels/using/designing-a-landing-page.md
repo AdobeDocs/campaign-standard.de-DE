@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
 ht-degree: 100%
 
@@ -283,7 +283,7 @@ Die Textausrichtung kann mit einer der drei Schaltflächen in der Palette links 
 * **Zentrieren** - richtet den Text im markierten Block mittig aus (fügt style=&quot;text-align: center;&quot; in den HTML-Code ein).
 * **Rechtsbündig ausrichten** - richtet den Text am rechten Rand des markierten Blocks aus (fügt style=&quot;text-align: right;&quot; in den HTML-Code ein).
 
-Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Siehe [diesen Abschnitt](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
+Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Weitere Informationen finden Sie in [diesem Abschnitt](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
 ### Bilder in eine Landingpage einfügen  {#inserting-images-in-a-landing-page}
 
@@ -321,7 +321,7 @@ Die nächsten Schritte zur Definition von dynamischem Inhalt für Landingpages e
 >
 >Die rote Umrandung einer Variante eines Elements zeigt an, dass für diese noch kein Ausdruck definiert wurde.
 
-Sie haben die Möglichkeit, zwischen den verschiedenen dynamischen Inhalten eines Bausteins zu wechseln. Gehen Sie wie folgt vor:
+Sie haben die Möglichkeit, zwischen den verschiedenen dynamischen Inhalten eines Bausteins zu wechseln. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie einen Baustein aus.
 

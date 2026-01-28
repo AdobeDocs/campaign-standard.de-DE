@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1493'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Gehen Sie zur Konfiguration des Ereignisses folgendermaßen vor:
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Ereignisbasierte Transkations-Push-Benachrichtigung senden {#sending-event-based-transactional-push-notification}
+### Ereignisbasierte Transaktions-Push-Benachrichtigung senden {#sending-event-based-transactional-push-notification}
 
 Beispiel: Eine Fluglinie möchte ihre Mobile-App-Nutzer auffordern, sich zum Boarding zum entsprechenden Flugsteig zu begeben.
 
@@ -147,7 +147,7 @@ Um eine Transaktions-Push-Benachrichtigung an die Adobe Campaign-Profile zu send
    >
    >Für eine Anreicherung müssen Sie mindestens ein Feld hinzufügen. Sie müssen keine anderen Felder wie **Vorname** und **Nachname** erstellen, da Sie Personalisierungsfelder aus der Adobe Campaign-Datenbank verwenden können.
 
-1. Erstellen Sie eine Anreicherung, um das Ereignis mit der Ressource **[!UICONTROL Profil]** zu verknüpfen (siehe [Ereignisse anreichern](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) und wählen Sie diese Anreicherung als **[!UICONTROL Zielgruppen-Anreicherung]** aus.
+1. Erstellen Sie eine Anreicherung, um das Ereignis mit der Ressource **[!UICONTROL Profil]** zu verknüpfen (siehe [Ereignisse anreichern](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) und wählen Sie diese Anreicherung als **[!UICONTROL Zielgruppenbestimmungs-Anreicherung]** aus.
 
    >[!IMPORTANT]
    >

@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Gehen Sie dabei folgendermaßen vor:
 
 1. Geben Sie im Feld **[!UICONTROL Antworten]** die Antwort ein, die Sie Ihren Empfängern senden möchten.
 
-   Lassen Sie die Spalte **[!UICONTROL Antworten]** leer, wenn nur eine Aktion ausgeführt, aber keine Antwort gesendet werden soll. Dies ermöglicht beispielsweise das Entfernen einer Telefonnummer eines Benutzers aus der Quarantäne, wenn er ein anderes Schlüsselwort als &quot;STOPP&quot; sendet.
+   Lassen Sie die Spalte **[!UICONTROL Antworten]** leer, wenn nur eine Aktion ausgeführt, aber keine Antwort gesendet werden soll. Dies ermöglicht beispielsweise das Entfernen einer Telefonnummer eines Benutzers aus der Quarantäne, wenn er ein anderes Schlüsselwort als &quot;STOP&quot; sendet.
 
    ![](assets/sms_mo_3.png)
 

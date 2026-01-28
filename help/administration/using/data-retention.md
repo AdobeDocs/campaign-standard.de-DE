@@ -1,5 +1,5 @@
 ---
-title: Datenspeicherung
+title: Datenbeibehaltung
 description: Erfahren Sie mehr über die standardmäßigen Beibehaltungswerte für Standardtabellen
 audience: administration
 feature: Instance Settings
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Datenspeicherung{#data-retention}
+# Datenbeibehaltung{#data-retention}
 
 >[!NOTE]
 >

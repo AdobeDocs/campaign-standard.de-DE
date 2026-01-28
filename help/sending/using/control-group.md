@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1447'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Wählen Sie unter **[!UICONTROL Zielgruppenextraktion]** eine der folgenden Opti
 
 * **[!UICONTROL Zufällige Auswahl]**: Beim Vorbereiten des Versands extrahiert Adobe Campaign zufällig eine Anzahl von Profilen, die dem Prozentwert oder der Maximalzahl entsprechen, die Sie als [Größenbeschränkung](#size-limit) festlegen.
 
-  Wenn Sie den Schwellenwert im Abschnitt **[!UICONTROL Begrenzungen]** auf 10 setzen, besteht die Kontrollgruppe aus 10 %, die zufällig aus der Zielgruppe ausgewählt werden.<!--Change screenshot to match example)-->
+  Wenn Sie den Schwellenwert im Abschnitt **[!UICONTROL Begrenzungen]** auf 10 setzen, besteht die Kontrollgruppe aus 10 %, die zufällig aus der Zielpopulation ausgewählt werden.<!--Change screenshot to match example)-->
 
   ![](assets/control-group-random-sampling.png)
 
@@ -98,7 +98,7 @@ Unabhängig davon, ob Sie **[!UICONTROL Zufällige Auswahl]** oder **[!UICONTROL
 
 ## Eine bestimmte Population ausschließen {#excluding-specific-population}
 
-Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Gruppe mithilfe einer Abfrage aus der Zielgruppe auszuschließen.
+Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Gruppe mithilfe einer Abfrage aus der Zielpopulation auszuschließen.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -106,11 +106,11 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. Definieren Sie die Ausschlusskriterien mithilfe des [Abfrageeditors](../../automating/using/editing-queries.md). Sie können auch eine zuvor erstellte [Audience](../../audiences/using/about-audiences.md) auswählen.
+1. Definieren Sie die Ausschlusskriterien mithilfe des [Abfrage-Editors](../../automating/using/editing-queries.md). Sie können auch eine zuvor erstellte [Zielgruppe](../../audiences/using/about-audiences.md) auswählen.
 
    ![](assets/control-group-target-exclusion.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 Die Profile, die dem Ergebnis der Abfrage entsprechen, werden aus der Zielgruppe ausgeschlossen.
 
@@ -124,7 +124,7 @@ Im Folgenden finden Sie ein Beispiel für die Definition einer Kontrollgruppe mi
 1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich. Doppelklicken Sie auf die Aktivität und definieren Sie Ihre Zielgruppe. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
 1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Kanäle]** eine [E-Mail-Versandaktivität](../../automating/using/email-delivery.md) hinter das Hauptzielgruppensegment und bearbeiten Sie es.
-1. Klicken Sie im Versand-Dashboard auf den **[!UICONTROL Audience]**-Block.
+1. Klicken Sie im Versand-Dashboard auf den **[!UICONTROL Zielgruppe]**-Block.
 
 1. Wählen Sie den Tab **[!UICONTROL Kontrollgruppe]** aus.
 
@@ -137,7 +137,7 @@ Im Folgenden finden Sie ein Beispiel für die Definition einer Kontrollgruppe mi
 
 1. Legen Sie die Maximalgröße auf 100 fest. Die 100 ältesten Profile aus Ihrer Zielgruppe werden extrahiert.
 
-1. Definieren Sie im Bereich **[!UICONTROL Zielgruppenausschluss]** die Profile, die aus Ihrer Zielgruppe ausgeschlossen werden. Verwenden Sie dazu Kriterien Ihrer Wahl und den [Abfrageeditor](../../automating/using/editing-queries.md). Beispiel: &quot;Alter unter 20 Jahren&quot;.
+1. Definieren Sie im Bereich **[!UICONTROL Zielgruppenausschluss]** die Profile, die aus Ihrer Zielgruppe ausgeschlossen werden. Verwenden Sie dazu Kriterien Ihrer Wahl und den [Abfrage-Editor](../../automating/using/editing-queries.md). Beispiel: &quot;Alter unter 20 Jahren&quot;.
 
    ![](assets/control-group-target-exclusion-example.png)
 
@@ -151,7 +151,7 @@ Die Profile, die extrahiert wurden (die 100 ältesten Profile) und diejenigen, d
 
 Was können Sie nach dem Versand mit der Kontrollgruppe machen?
 
-Sie können die **Versandlogs** extrahieren, um zu vergleichen, wie sich die Kontrollgruppe, die die Nachricht nicht erhalten hat, im Vergleich zur tatsächlichen Zielgruppe verhalten hat. Sie können die Versandlogs auch zum **Erstellen einer anderen Zielgruppe** verwenden.
+Sie können die **Versandlogs** extrahieren, um zu vergleichen, wie sich die Kontrollgruppe, die die Nachricht nicht erhalten hat, im Vergleich zur tatsächlichen Zielgruppe verhalten hat. Sie können die Versandlogs auch zum **Erstellen einer anderen Zielgruppenbestimmung** verwenden.
 
 >[!IMPORTANT]
 >
@@ -184,13 +184,13 @@ Nach dem Versand können Sie die Versandlogs verwenden, um nach Profilen zu filt
 
    ![](assets/control-group-status-ignored.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 1. Ziehen Sie im Tab **[!UICONTROL Zielgruppe]** die Option **[!UICONTROL Art des Fehlschlagens]** per Drag-and-Drop in den Arbeitsbereich und wählen Sie als Filterbedingung **[!UICONTROL Kontrollgruppe]** aus.
 
    ![](assets/control-group-nature-of-failure.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
    ![](assets/control-group-delivery-target.png)
 
@@ -198,7 +198,7 @@ Anschließend können Sie die Protokolldaten beispielsweise mithilfe der Aktivit
 
 ### Zielgruppenbestimmung mithilfe der Kontrollgruppe {#targeting-control-group}
 
-Um eine Zielgruppe anhand der Profile zu bestimmen, die die Nachricht nicht erhalten haben, können Sie auch die Versandlogs verwenden. Gehen Sie wie folgt vor:
+Um eine Zielgruppenbestimmung anhand der Profile durchzuführen, die die Nachricht nicht erhalten haben, können Sie auch die Versandlogs verwenden. Gehen Sie wie folgt vor:
 
 1. Erstellen Sie einen Workflow. Die detaillierten Schritte zum Erstellen eines Workflows werden im Abschnitt [Workflow erstellen](../../automating/using/building-a-workflow.md) beschrieben.
 1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine erste [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich.
@@ -214,15 +214,15 @@ Um eine Zielgruppe anhand der Profile zu bestimmen, die die Nachricht nicht erha
 
    ![](assets/control-group-rule-delivery.png)
 
-1. Wählen Sie die von Ihnen gesendete E-Mail als Filterbedingung aus. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Wählen Sie die von Ihnen gesendete E-Mail als Filterbedingung aus. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
    ![](assets/control-group-email-sent.png)
 
-1. Ziehen Sie im Fenster **[!UICONTROL Regel hinzufügen]** **[!UICONTROL Status]** per Drag-and-Drop in den Arbeitsbereich und wählen Sie **[!UICONTROL Ignoriert]** als Filterbedingung aus. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Ziehen Sie im Fenster **[!UICONTROL Regel hinzufügen]** **[!UICONTROL Status]** per Drag-and-Drop in den Arbeitsbereich und wählen Sie **[!UICONTROL Ignoriert]** als Filterbedingung aus. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
    ![](assets/control-group-status-ignored.png)
 
-1. Ziehen Sie die Option **[!UICONTROL Art des Fehlschlagens]** per Drag-and-Drop in den Arbeitsbereich und wählen Sie als Filterbedingung **[!UICONTROL Kontrollgruppe]** aus. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Ziehen Sie die Option **[!UICONTROL Art des Fehlschlagens]** per Drag-and-Drop in den Arbeitsbereich und wählen Sie als Filterbedingung **[!UICONTROL Kontrollgruppe]** aus. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
    ![](assets/control-group-nature-of-failure.png)
 
@@ -230,7 +230,7 @@ Um eine Zielgruppe anhand der Profile zu bestimmen, die die Nachricht nicht erha
 
    ![](assets/control-group-delivery-logs-conditions.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 Sie können nun die Profile ansprechen, die Ihre erste Nachricht nicht erhalten haben, weil sie zur Kontrollgruppe gehörten, und ihnen eine weitere E-Mail senden.
 

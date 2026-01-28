@@ -29,7 +29,7 @@ Für diese Integration sind die folgenden Software-Versionen erforderlich:
 
 >[!CAUTION]
 >
->Diese Funktion ist im Lieferumfang des Produkts nicht verfügbar. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
+>Diese Funktion ist nicht im Produkt vorkonfiguriert. Die Implementierung erfordert die Einbindung von Adobe Consulting. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu erhalten.
 >
 
 ## Grundsätze

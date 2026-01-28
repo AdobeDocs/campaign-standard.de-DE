@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Wichtigste Schritte im Nachrichtenversand{#key-steps-to-send-a-message}
 
-In diesem Abschnitt erfahren Sie, wie Sie mit Adobe Campaign Standard Nachrichten personalisieren und gezielt an eine bestimmte Audience senden können.
+In diesem Abschnitt erfahren Sie, wie Sie mit Adobe Campaign Standard Nachrichten personalisieren und gezielt an eine bestimmte Zielgruppe senden können.
 
 Näheres dazu, wie Sie die einzelnen Kommunikationskanäle erstellen und konfigurieren, finden Sie in den folgenden Abschnitten:
 
@@ -41,9 +41,9 @@ Nachrichten können entweder über die Liste der Marketing-Aktivitäten oder üb
 
 ## Zielgruppe definieren
 
-Definieren Sie die Empfänger Ihrer Nachricht. Verwenden Sie dazu den [Abfrageeditor](../../automating/using/editing-queries.md) im linken Bereich, um die in Ihrer Datenbank enthaltenen Daten zu filtern und Regeln zur Bestimmung Ihrer Audience zu erstellen.
+Definieren Sie die Empfänger Ihrer Nachricht. Verwenden Sie dazu den [Abfrage-Editor](../../automating/using/editing-queries.md) im linken Bereich, um die in Ihrer Datenbank enthaltenen Daten zu filtern und Regeln zur Bestimmung Ihrer Zielgruppe zu erstellen.
 
-Es stehen verschiedene Audiences zur Verfügung:
+Es stehen verschiedene Zielgruppen zur Verfügung:
 
 * **[!UICONTROL Zielgruppe]** gibt die Hauptzielgruppe Ihrer E-Mail an,
 * **[!UICONTROL Testprofile]** sind die Profile, mit denen Sie Ihre E-Mail testen und validieren können (siehe [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)).

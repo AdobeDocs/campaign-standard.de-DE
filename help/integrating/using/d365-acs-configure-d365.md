@@ -38,7 +38,7 @@ Ein OAuth-Zugriffstoken ermöglicht es dem Integrations-Tool, sich über Web-API
 
 Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
->[!VIDEO](https://video.tv.adobe.com/v/34834?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
@@ -90,7 +90,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
 
 1. Wählen Sie das Zahnradsymbol oben rechts und dann **[!UICONTROL Erweiterte Einstellungen]** aus. Wählen Sie im oberen Banner neben **[!UICONTROL Einstellungen]** die Optionen **[!UICONTROL Sicherheit > Anwender]** aus.
 
-1. Wählen Sie das Dropdown-Menü aus, um **[!UICONTROL Anwender]** aufzurufen. Wählen Sie **[!UICONTROL Neu]** aus.
+1. Wählen Sie das Dropdown-Menü aus, um **[!UICONTROL Anwender]** aufzurufen. Klicken Sie auf **[!UICONTROL Neu]**.
 
 1. Stellen Sie sicher, dass im Dropdown-Menü neben dem Anwendersymbol Folgendes steht: **[!UICONTROL USER:APPLICATION USER]**.
 
@@ -134,7 +134,7 @@ Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/de/produ
 >
 >Sie können diese Prozesse zu einem beliebigen späteren Zeitpunkt im Bildschirm **[!UICONTROL Prozesse]** deaktivieren.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Konfigurieren von Adobe Developer für die Microsoft Dynamics 365-Integration](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration.
 * [Erste Schritte mit der Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.

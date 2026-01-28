@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1636'
 ht-degree: 100%
 
@@ -95,11 +95,11 @@ Weitere Informationen zum Erstellen von Datenschutzanfragen mittels Privacy Core
 
 >[!IMPORTANT]
 >
->Um eine Anfrage mit dem benutzerdefinierten Namespace-Typ zu senden, nutzen Sie die [JSON-Methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#json){target="_blank"} und fügen Sie die namespaceId zur Anfrage hinzu. Alternativ können Sie den [API-Aufruf](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=de#access-delete){target="_blank"} für die Anfrage verwenden.
+>Um eine Anfrage mit dem benutzerdefinierten Namespace-Typ zu senden, nutzen Sie die [JSON-Methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#json){target="_blank"} und fügen Sie die namespaceId zur Anfrage hinzu. Alternativ können Sie für die Anfrage den [API-Aufruf](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=de#access-delete){target="_blank"} verwenden.
 >
->Verwenden Sie nur die [Datenschutz-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#request-builder){target="_blank"}, um Anfragen mithilfe des standardmäßigen Namespace-Typs einzureichen.
+>Verwenden Sie die [Datenschutz-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#request-builder){target="_blank"} nur, um Anfragen mithilfe des standardmäßigen Namespace-Typs einzureichen.
 
-Jeder Privacy Core Service-Vorgang wird in mehrere Datenschutzanfragen in Campaign aufgeteilt, je nachdem, wie viele Namespaces verwendet werden, wobei eine Anfrage einem Namespace entspricht. Außerdem kann ein Vorgang in mehreren Instanzen ausgeführt werden. Daher werden für einen Vorgang mehrere Dateien erstellt. Wenn sich eine Anfrage beispielsweise auf zwei Namespaces bezieht und drei Instanzen betrifft, werden insgesamt sechs Dateien gesendet. Eine Datei pro Namespace und Instanz.
+Jeder Privacy Core Service-Auftrag wird in mehrere Datenschutzanfragen in Campaign aufgeteilt, je nachdem, wie viele Namespaces verwendet werden, wobei eine Anfrage einem Namespace entspricht. Außerdem kann ein Auftrag in mehreren Instanzen ausgeführt werden. Daher werden für einen Auftrag mehrere Dateien erstellt. Wenn sich eine Anfrage beispielsweise auf zwei Namespaces bezieht und drei Instanzen betrifft, werden insgesamt sechs Dateien gesendet. Eine Datei pro Namespace und Instanz.
 
 Der Dateiname setzt sich folgendermaßen zusammen: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`.
 
@@ -173,7 +173,7 @@ To change this mode, click **[!UICONTROL Edit properties]**, in the top right co
 
 Der **California Consumer Privacy Act** (CCPA) gibt in Kalifornien ansässigen Personen neue Rechte in Bezug auf ihre personenbezogenen Daten und verpflichtet bestimmte in Kalifornien tätige Unternehmen zur Einhaltung von Datenschutzvorschriften.
 
-Die Konfiguration und Verwendung von Zugriffs- und Löschanfragen sind für DSGVO (GDPR) und CCPA identisch. In diesem Abschnitt wird der Opt-out-Prozess für den Verkauf personenbezogener Daten vorgestellt, der speziell für CCPA gilt.
+Die Konfiguration und Verwendung von Zugriffs- und Löschanfragen sind für DSGVO (GDPR) und CCPA identisch. In diesem Abschnitt geht es um den Opt-out aus dem Verkauf von personenbezogenen Daten, der spezifisch für den CCPA ist.
 
 Zusätzlich zu den von Campaign bereitgestellten Tools für die [Einverständnisverwaltung](../../start/using/privacy-management.md#consent-management) können Sie verfolgen, ob ein Verbraucher dem Verkauf seiner personenbezogenen Daten widersprochen hat.
 
@@ -185,7 +185,7 @@ Wenn Benutzer über Ihr System entscheiden, dass sie den Verkauf ihrer personenb
 
 >[!IMPORTANT]
 >
->Es liegt in Ihrer Verantwortung als Datenverantwortlicher, die Anfrage der betroffenen Person entgegenzunehmen und die Datumsangaben der Anfrage für CCPA zu verfolgen. Als Technologieanbieter bieten wir nur eine Opt-out-Möglichkeit. Weitere Informationen zu Ihrer Rolle als Datenverantwortlicher finden Sie unter [Personenbezogene Daten und Personas](../../start/using/privacy.md#personal-data).
+>Es liegt in Ihrer Verantwortung als Datenverantwortlicher, die Anfrage der betroffenen Person zu erhalten und die Anfragedaten für CCPA zu verfolgen. Als Technologieanbieter bieten wir nur eine Opt-out-Möglichkeit. Weitere Informationen zu Ihrer Rolle als Datenverantwortlicher finden Sie unter [Personenbezogene Daten und Personas](../../start/using/privacy.md#personal-data).
 
 ### Voraussetzungen für benutzerdefinierte Tabellen {#ccpa-prerequisite}
 
@@ -227,7 +227,7 @@ Um die Werte auszufüllen, können mehrere Methoden verwendet werden:
 * Verwenden der Privacy-API von Campaign (siehe die [API-Dokumentation](../../api/using/managing-ccpa-opt-out.md))
 * Über einen Workflow zum Datenimport
 
-Sie sollten dann sicherstellen, dass Sie niemals personenbezogene Daten von Profilen, die dies abgewählt haben, an Dritte verkaufen.
+Stellen Sie sicher, dass Sie die personenbezogenen Daten in den Profilen von Benutzern, die sich für eine Opt-out-Regelung entschieden haben, niemals an Dritte verkaufen.
 
 1. Bearbeiten Sie auf der Campaign-Benutzeroberfläche ein Profil, um den Opt-out-Status zu ändern.
 

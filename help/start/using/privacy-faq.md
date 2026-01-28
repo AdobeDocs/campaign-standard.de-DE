@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ In den Fällen, in denen das Einverständnis für bestimmte Marketing-Aktivität
 
 Es kann sogar Fälle geben, in denen bestimmte Einverständniserklärungen aktualisiert werden müssen, damit die Daten in Zukunft weiterverwendet werden können.
 
-Anstatt diese zusätzlichen Anforderungen als Gefahr für die Werbewirtschaft zu erachten, könnten Marketing-Experten sie als echten Indikator für Markeninteraktion und -loyalität sowie Kundenzufriedenheit und Vertrauen nutzen.
+Anstatt diese zusätzlichen Anforderungen als Gefahr für die Werbewirtschaft zu erachten, könnten Marketing-Experten sie als echten Indikator für Markeninteraktion und -treue sowie Kundenzufriedenheit und Vertrauen nutzen.
 
 ## Einverständnisverwaltung {#manage-consent}
 

@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Nutzen Sie Planungsfunktionen in Campaign, um festzulegen, wann Ihre Nachrichten
 
 Verwenden Sie **Typologien**, um während der Vorbereitung zu überprüfen, ob Ihre Nachricht gültig ist und sie Ihre Qualitätskriterien durch Ermüdungs-, Kontroll- und Zielgruppenbestimmungsregeln erfüllt. So können Sie beispielsweise überprüfen, ob Ihre E-Mails immer einen Betreff enthalten, oder abgemeldete Profile von den Empfängern der Nachricht ausschließen.
 
-Mehr dazu:
+mehr dazu:
 
 * [Versandvorbereitung](../../sending/using/preparing-the-send.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
@@ -62,7 +62,7 @@ Sobald Ihre Nachricht fertig ist, können Sie den Versand bestätigen und auf Pr
 
 Außerdem können Sie Adobe Campaign so konfigurieren, dass von E­Mails, die von der Plattform per E-Mail-BCC gesendet werden, **eine Kopie beibehalten** wird. Insbesondere wenn Ihr Unternehmen aus Compliance-Gründen alle ausgehenden E-Mail-Nachrichten archivieren muss, können Sie diese Funktion aktivieren.
 
-Mehr dazu:
+mehr dazu:
 
 * [Versand bestätigen](../../sending/using/confirming-the-send.md)
 * [Nachrichten tracken](../../sending/using/tracking-messages.md)
@@ -79,7 +79,7 @@ Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich an die Empfän
 
 Campaign Standard bietet verschiedene **Zustellbarkeits-Tools**, mit denen Sie die Anzahl der erfolgreich zugestellten Nachrichten verbessern können: Berichte zum Versanddurchsatz, Optimierung des Sendezeitpunkts, Vorschau von Nachrichten, E-Mail-Rendering, Quarantäneverwaltung usw.
 
-Mehr dazu:
+mehr dazu:
 
 * [Über die Zustellbarkeit](../../sending/using/about-deliverability.md)
 * [Überwachen der Zustellbarkeit](../../sending/using/monitor-deliverability.md)
@@ -90,13 +90,13 @@ Mehr dazu:
 
 * [E-Mails für A/B-Test entwerfen](../../channels/using/designing-an-a-b-test-email.md)
 * [Erste Schritte mit Nachrichten](../../channels/using/key-steps-to-send-a-message.md)
-* [Best Practices beim Versand](../../sending/using/delivery-best-practices.md)
+* [Best Practices für den Versand](../../sending/using/delivery-best-practices.md)
 * [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
 
 ## Anleitungsvideo {#video}
 
 In diesem Video wird gezeigt, wie man eine Test-E-Mail sendet, einen E-Mail-Versand vorbereitet und dann in Campaign Standard ausführt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30088?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

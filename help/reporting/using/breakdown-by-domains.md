@@ -1,6 +1,6 @@
 ---
-title: Verteilung nach Domain
-description: Im vordefinierten Bericht über die Verteilung nach Domain erhalten Sie Performance-Daten Ihrer Sendungen aufgeschlüsselt nach der Domain Ihrer Kunden.
+title: Aufschlüsselung nach Domain
+description: Im vordefinierten Bericht über die Aufschlüsselung nach Domain erhalten Sie Performance-Daten Ihrer Sendungen aufgeschlüsselt nach der Domain Ihrer Kunden.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,7 +10,7 @@ role: Leader
 level: Intermediate
 exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
 ht-degree: 100%
 
@@ -37,4 +37,4 @@ Die zweite Tabelle **Trackingstatistiken** enthält die verfügbaren Daten bezü
 * **Klicken**: Die Anzahl der Klicks auf einen Inhalt in einem Versand.
 * **Abgemeldet**: Gesamtanzahl der Klicks auf den Abmelde-Link.
 * **Mirrorseite**: Die Anzahl der Klicks auf die Mirrorseite.
-* **Auf Blockierungsliste**: Zahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben – [mehr dazu](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Auf Blockierungsliste**: Zahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben – [Weitere Informationen](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Sie können auch eine Landingpage vom Typ **[!UICONTROL Blockierungsliste]** ein
 
 >[!NOTE]
 >
->Landingpages können auch verwendet werden, um die Anmeldung zu Diensten zu ermöglichen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
+>Landingpages können auch verwendet werden, um die Anmeldung zu Diensten zu ermöglichen. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
 1. Erstellen Sie eine **[!UICONTROL Profilakquise]**-Landingpage (siehe [diesen Abschnitt](../../channels/using/getting-started-with-landing-pages.md)).
 1. Fügen Sie zum Inhalt der Landingpage für jeden gewünschten Kanal ein Kontrollkästchen hinzu und verknüpfen Sie es dann mit dem entsprechenden Feld in der Campaign-Datenbank.

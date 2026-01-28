@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -23,12 +23,12 @@ Sie können E-Mails [in E-Mail-Designer](#without-existing-content) von Grund au
 
 1. Sie können die **E-Mail von Grund auf neu von einer leeren Arbeitsfläche** erstellen, indem Sie einfach Struktur- und Inhaltskomponenten hinzufügen und deren Inhalt personalisieren, um die E-Mail schnell zu senden. Die Stilelemente können Sie auch vollständig verwalten. Weitere Informationen finden Sie in der [Kurzanleitung](#from-scratch-email) oder in der [vollständigen Dokumentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Sie können eine E-Mail aus einer **vordefinierten Vorlage** erstellen. Hierzu wählen Sie die Vorlage aus und erstellen daraus Ihren neuen E-Mail-Inhalt. [Mehr dazu](#building-content-from-an-out-of-the-box-template)
+1. Sie können eine E-Mail aus einer **vordefinierten Vorlage** erstellen. Hierzu wählen Sie die Vorlage aus und erstellen daraus Ihren neuen E-Mail-Inhalt. [Weitere Informationen](#building-content-from-an-out-of-the-box-template)
 
 Sie können eine E-Mail auch [aus vorhandenem Inhalt erstellen](#with-existing-content):
 
-1. Hierzu **konvertieren Sie bestehenden HTML-Inhalt**, der extern oder im Legacy-Editor erstellt wurde. [Mehr dazu](#converting-an-html-content)
-1. Im Kompatibilitätsmodus können Sie **vorhandenen HTML-Inhalt sofort importieren**. [Mehr dazu](#compatibility-mode)
+1. Hierzu **konvertieren Sie bestehenden HTML-Inhalt**, der extern oder im Legacy-Editor erstellt wurde. [Weitere Informationen](#converting-an-html-content)
+1. Im Kompatibilitätsmodus können Sie **vorhandenen HTML-Inhalt sofort importieren**. [Weitere Informationen](#compatibility-mode)
 
 | Ohne Inhalt | Mit Inhalt |
 |---|---|
@@ -94,7 +94,7 @@ Sie können Ihrer E-Mail verschiedene Inhaltskomponenten wie Bild, Text und Scha
    1. Ziehen Sie aus **Inhaltskomponenten** die HTML-Komponente in eine Ihrer Strukturkomponenten.
    1. Klicken Sie auf **Quellcode anzeigen**.
    1. Geben Sie den gewünschten HTML-Inhalt ein.
-   1. Wählen Sie **Speichern** aus.
+   1. Klicken Sie auf **Speichern**.
 
   ![](assets/html-component-source-code.png)
 
@@ -110,7 +110,7 @@ Sie können das Design Ihrer E-Mail anpassen, beispielsweise den Abstand einer K
 1. Navigieren Sie rechts in der Palette zu **Abstand**.
 1. Klicken Sie auf das Sperrsymbol, um die Synchronisierung zwischen den Parametern oben und unten oder rechts und links aufzuheben.
 1. Passen Sie den **Abstand** nach Bedarf an.
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 ![](assets/padding-quick-start.png)
 

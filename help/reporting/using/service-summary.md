@@ -10,7 +10,7 @@ role: Leader
 level: Intermediate
 exl-id: b680b0c3-a65b-416f-8e28-46a9b494c754
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 # Service-Zusammenfassung{#service-summary}
 
 In der **[!UICONTROL Dienstzusammenfassung]** wird die Entwicklung von Anmeldungen und Abmeldungen für Ihren Dienst beschrieben.
-Auf diesen Bericht kann nur von Ihrer Dienstseite aus über das erweiterte Menü **[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Dienste]** zugegriffen werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../audiences/using/monitoring-subscriptions.md#service-reports).
+Auf diesen Bericht kann nur von Ihrer Dienstseite aus über das erweiterte Menü **[!UICONTROL Profile und Zielgruppen]** > **[!UICONTROL Dienste]** zugegriffen werden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 

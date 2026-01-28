@@ -9,7 +9,7 @@ role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
 ht-degree: 100%
 
@@ -61,17 +61,17 @@ Beachten Sie, dass Segmentcodes erfasst werden, sobald Sie den Segmentcode in de
 >[!NOTE]
 >Wenn die Eingangstransition des E-Mail-Versands leer ist, wird standardmäßig der Segmentcode von der vorherigen Transition hinzugefügt.
 
-Zunächst müssen Sie einen Workflow mit unterschiedlichen Zielgruppen erstellen. In unserem Beispiel möchten wir eine E-Mail senden, die je nach Alter unserer Zielgruppe personalisiert wird: ein Versand an 20 bis 30 Jahre alte Profile und ein anderer an Profile zwischen 30 und 40 Jahren.
+Zunächst müssen Sie einen Workflow mit unterschiedlichen Zielpopulationen erstellen. In unserem Beispiel möchten wir eine E-Mail senden, die je nach Alter unserer Zielgruppe personalisiert wird: ein Versand an 20 bis 30 Jahre alte Profile und ein anderer an Profile zwischen 30 und 40 Jahren.
 
 1. Erstellen Sie Ihren Workflow. Weiterführende Informationen zum Erstellen eines Workflows finden Sie auf dieser [Seite](../../automating/using/building-a-workflow.md).
 
 1. Fügen Sie die Aktivität **[!UICONTROL Abfrage]** hinzu, indem Sie sie aus der Palette in den Arbeitsbereich ziehen und dort ablegen.
 
-1. Wählen Sie Profile von 20 bis 40 Jahren aus, um sie später weiter zu segmentieren.
+1. Wählen Sie Profile von 20 bis 40 Jahren aus, um sie später weiter in Zielpopulationen zu segmentieren.
 
    ![](assets/report_segment_1.png)
 
-1. Fügen Sie die Aktivität **[!UICONTROL Segmentierung]** hinzu, um Ihre Abfrageergebnisse in zwei Zielgruppen zu unterteilen. Weiterführende Informationen zur Segmentierung finden Sie auf dieser [Seite](../../automating/using/segmentation.md).
+1. Fügen Sie die Aktivität **[!UICONTROL Segmentierung]** hinzu, um Ihre Abfrageergebnisse in zwei Zielopulationen zu unterteilen. Weiterführende Informationen zur Segmentierung finden Sie auf dieser [Seite](../../automating/using/segmentation.md).
 
 1. Doppelklicken Sie auf die Aktivität **[!UICONTROL Segmentierung]**, um sie zu konfigurieren. Bearbeiten Sie das erste Segment, indem Sie **[!UICONTROL Eigenschaften bearbeiten]** auswählen.
 
@@ -94,7 +94,7 @@ Zunächst müssen Sie einen Workflow mit unterschiedlichen Zielgruppen erstellen
 
    ![](assets/report_segment_3.png)
 
-1. Personalisieren Sie Ihre Sendungen entsprechend den unterschiedlichen Zielgruppen. Weiterführende Informationen zur Erstellung von E-Mails finden Sie auf dieser [Seite](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Personalisieren Sie Ihre Sendungen entsprechend den unterschiedlichen Zielpopulationen. Weiterführende Informationen zur Erstellung von E-Mails finden Sie auf dieser [Seite](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Speichern Sie den Workflow.
 
@@ -104,7 +104,7 @@ Sie können jetzt auf Ihre Berichte zugreifen, um Ihre Segment-Codes zu tracken.
 
 ## Schritt 3: Erstellen eines dynamischen Berichts, um die Segmente zu filtern {#step-3--create-a-dynamic-report-filter-segments}
 
-Nachdem Sie mit Ihrem Workflow Nachrichten versendet haben, können Sie die Berichte mithilfe Ihrer Segment-Codes von Ihrem Workflow aufschlüsseln.
+Nachdem Sie mit Ihrem Workflow Nachrichten versendet haben, können Sie die Berichte mithilfe Ihrer Segmentcodes von Ihrem Workflow aufschlüsseln.
 
 1. Wählen Sie im Tab **[!UICONTROL Berichte]** einen nativen Bericht oder die Schaltfläche **[!UICONTROL Neues Projekt erstellen]** aus, um einen neuen Bericht zu erstellen.
 
@@ -114,7 +114,7 @@ Nachdem Sie mit Ihrem Workflow Nachrichten versendet haben, können Sie die Beri
    ![](assets/report_segment_5.png)
 
 1. Ziehen Sie verschiedene Metriken in Ihre Tabelle, z. B. die Metriken **[!UICONTROL Öffnungen]** und **[!UICONTROL Klicks]**, um Ihre Daten zu filtern.
-1. Klicken Sie in der Kategorie **[!UICONTROL Dimensionen]** auf die Dimension **[!UICONTROL Profil]** und ziehen Sie dann die Dimension **[!UICONTROL Segmentcode]** in den Versand Ihres Workflows, um den Erfolg Ihres E-Mail-Versands aufgeschlüsselt nach Zielgruppen zu messen.
+1. Klicken Sie in der Kategorie **[!UICONTROL Dimensionen]** auf die Dimension **[!UICONTROL Profil]** und ziehen Sie dann die Dimension **[!UICONTROL Segmentcode]** in den Versand Ihres Workflows, um den Erfolg Ihres E-Mail-Versands aufgeschlüsselt nach Zielpopulationen zu messen.
 
    ![](assets/report_segment_6.png)
 

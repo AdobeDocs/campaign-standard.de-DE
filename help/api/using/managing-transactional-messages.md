@@ -37,7 +37,7 @@ Das Transaktionsereignis wird über eine POST-Anfrage mit der folgenden URL-Stru
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANISATION>**: Ihre persönliche Organisationskennung. Siehe [diesen Abschnitt](../../api/using/must-read.md).
+* **&lt;ORGANISATION>**: Ihre persönliche Organisationskennung. Weitere Informationen finden Sie in [diesem Abschnitt](../../api/using/must-read.md).
 
 * **&lt;transactionalAPI>**: die Endpunkte der Transaktionsnachrichten-API.
 
@@ -66,7 +66,7 @@ Sie müssen einen Zeichensatz hinzufügen, z. B. **utf-8**. Beachten Sie, dass d
 
 ### POST-Anfrage-Hauptteil
 
-Die Ereignisdaten sind im JSON-POST-Hauptteil enthalten. Die Ereignisstruktur hängt von der entsprechenden Definition ab. Die Schaltfläche &quot;API-Vorschau&quot; im Bildschirm &quot;Ressourcendefinition&quot; bietet ein Anfragebeispiel. Siehe [diesen Abschnitt](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+Die Ereignisdaten sind im JSON-POST-Hauptteil enthalten. Die Ereignisstruktur hängt von der entsprechenden Definition ab. Die Schaltfläche &quot;API-Vorschau&quot; im Bildschirm &quot;Ressourcendefinition&quot; bietet ein Anfragebeispiel. Weitere Informationen finden Sie in [diesem Abschnitt](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 Die folgenden optionalen Parameter können zum Ereignisinhalt hinzugefügt werden, um das Senden von mit dem Ereignis verknüpften Transaktionsnachrichten zu verwalten:
 

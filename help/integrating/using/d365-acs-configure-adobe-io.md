@@ -42,7 +42,7 @@ Bevor Sie die Einrichtungsschritte vor der Integration in diesem Artikel durchf�
 >
 >Die unten beschriebenen Schritte müssen von einem Administrator ausgeführt werden.
 
-### Konfiguration 
+### Konfiguration
 
 Sie müssen ein neues Adobe Developer-Projekt erstellen und es für die Integration konfigurieren.
 

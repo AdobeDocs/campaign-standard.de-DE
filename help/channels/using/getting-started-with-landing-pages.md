@@ -9,7 +9,7 @@ feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Im folgenden Abschnitt finden Sie die Einschränkungen, die Sie kennen sollten, 
 
 **Abstimmung**
 
-* Das Abstimmungsverhalten sieht folgendermaßen aus: Sobald eine Übereinstimmung gefunden wird, endet der Abstimmungsprozess. Dies bedeutet, dass die Abstimmung nur für einen Profildatensatz durchgeführt werden kann und nicht für mehrere Datensätze, falls Duplikate vorhanden sind.
+* Das Abstimmungsverhalten sieht folgendermaßen aus: Sobald eine Übereinstimmung gefunden wird, wird der Abstimmungsprozess gestoppt. Dies bedeutet, dass die Abstimmung nur für einen Profildatensatz durchgeführt werden kann und nicht für mehrere Datensätze, falls Duplikate vorhanden sind.
 
 Sie möchten beispielsweise die folgende Akquise-Landingpage an Ihre Profile senden, um Ihre Campaign-Datenbank mit den Mobiltelefonnummern der Profile zu aktualisieren.
 
@@ -135,6 +135,6 @@ Weiterführende Informationen zum Veröffentlichen von Landingpages finden Sie i
 
 In diesem Video wird gezeigt, wie man eine Landingpage erstellt und bearbeitet.
 
->[!VIDEO](https://video.tv.adobe.com/v/35471?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

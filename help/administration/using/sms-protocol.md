@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8640'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Beim Senden von Massen-SMS über einen SMS-Provider kommen drei verschiedene Art
 
 * **SMS MO (Mobile Originated)**: Eine SMS, die von einem Smartphone oder Tablet über den SMPP-Provider an Adobe Campaign gesendet wird.
 
-* **SMS SR (Status Report = Statusbericht) oder DR oder DLR (Delivery Receipt = Empfangsbestätigung)**: Eine vom Smartphone oder Tablet über den SMPP-Provider an Adobe Campaign gesendete Rückbestätigung, die angibt, dass die SMS erfolgreich empfangen wurde. Adobe Campaign erhält möglicherweise auch einen SR, der angibt, dass die Nachricht nicht zugestellt werden konnte, oft mit einer Fehlerbeschreibung.
+* **SMS SR (Status Report = Statusbericht) oder DR oder DLR (Delivery Receipt = Empfangsbestätigung)**: Eine vom Mobilgerät über den SMPP-Provider an Adobe Campaign gesendete Rückbestätigung, die angibt, dass die SMS erfolgreich empfangen wurde. Adobe Campaign erhält möglicherweise auch einen SR, der angibt, dass die Nachricht nicht zugestellt werden konnte, oft mit einer Fehlerbeschreibung.
 
 Sie müssen zwischen Quittungen (RESP PDU, Teil des SMPP-Protokolls) und SR unterscheiden: SR ist eine Art SMS, die über das Netzwerk gesendet wird, während eine Quittung nur bestätigt, dass eine Übertragung erfolgreich war.
 
@@ -698,9 +698,9 @@ Diese Einstellung erlaubt nur das Hinzufügen einer TLV-Option pro Nachricht.
 
 >[!NOTE]
 >
->Ab Version 21.1 ist es jetzt möglich, mehr als einen optionalen Parameter hinzuzufügen. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/sms-protocol.md#automatic-reply-tlv).
+>Ab Version 21.1 ist es jetzt möglich, mehr als einen optionalen Parameter hinzuzufügen. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/sms-protocol.md#automatic-reply-tlv).
 
-### Automatische Antwort auf MO         {#automatic-reply}
+### Automatische Antwort auf MO           {#automatic-reply}
 
 Mit dieser Funktion können Sie schnell einen Antworttext an ein MO senden und das Senden pro Kurzwahlnummer an die Blockierungsliste handhaben.
 
@@ -720,7 +720,7 @@ Alle Einträge in der Tabelle werden in der angegebenen Reihenfolge verarbeitet,
 
 ### Optionale Parameter für die automatische Antwort (TLV) {#automatic-reply-tlv}
 
-Ab Version 21.1 können Sie dem automatischen Antwort-MT optionale Parameter hinzufügen. Sie werden als optionale TLV-Parameter zur `SUBMIT_SM PDU` der Antwort hinzugefügt, wie in Abschnitt 5.3 der [SMPP-Spezifikation](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(Seite 131) beschrieben.
+Ab Version 21.1 können Sie dem automatischen Antwort-MT optionale Parameter hinzufügen. Sie werden als optionale TLV-Parameter zur `SUBMIT_SM PDU` der Antwort hinzugefügt, wie in Abschnitt 5.3 der [SMPP-Spezifikation](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)&#x200B;(Seite 131) beschrieben.
 
 Weitere Informationen zu optionalen Parametern finden Sie in diesem [Abschnitt](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 

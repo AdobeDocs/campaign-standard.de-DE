@@ -116,7 +116,7 @@ Wenn die Konfiguration korrekt ist, klicken Sie neben dem Workflow **[!UICONTROL
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-Nachdem die Ausführung gestartet wurde, sollten Sie in der Lage sein Ihre Konfiguration zu testen, indem Sie Einträge in Microsoft Dynamics 365 hinzufügen oder ändern und diese Änderungen in Adobe Campaign innerhalb weniger Minuten beobachten. Wenn Sie diesen Prozess zu irgendeinem Zeitpunkt anhalten müssen, drücken Sie einfach auf dieselbe Schaltfläche. [Mehr dazu](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+Nachdem die Ausführung gestartet wurde, sollten Sie in der Lage sein Ihre Konfiguration zu testen, indem Sie Einträge in Microsoft Dynamics 365 hinzufügen oder ändern und diese Änderungen in Adobe Campaign innerhalb weniger Minuten beobachten. Wenn Sie diesen Prozess zu irgendeinem Zeitpunkt anhalten müssen, drücken Sie einfach auf dieselbe Schaltfläche. [Weitere Informationen](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## Arbeitsbereich der Integrationsanwendung {#self-service-app-workspace}

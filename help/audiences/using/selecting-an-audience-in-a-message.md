@@ -1,5 +1,5 @@
 ---
-title: Audience in einer Nachricht auswählen
+title: Zielgruppe in einer Nachricht auswählen
 description: 'Hier erhalten Sie eine schrittweise Anleitung zur Auswahl von Audiences einer E-Mail: Hauptzielgruppe und Testprofile.'
 audience: audiences
 content-type: reference
@@ -10,44 +10,44 @@ role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
 ht-degree: 100%
 
 ---
 
-# Audience in einer Nachricht auswählen{#selecting-an-audience-in-a-message}
+# Zielgruppe in einer Nachricht auswählen{#selecting-an-audience-in-a-message}
 
-In Adobe Campaign können Audiences verschiedene Arten von Profilen enthalten.
+In Adobe Campaign können Zielgruppen verschiedene Arten von Profilen enthalten.
 
-Audiences können im Zuge der Nachrichtenerstellung im Assistenten oder im Nachhinein ausgehend vom Dashboard der Nachricht bestimmt werden.
+Zielgruppen können im Zuge der Nachrichtenerstellung im Assistenten oder im Nachhinein ausgehend vom Dashboard der Nachricht bestimmt werden.
 
 >[!NOTE]
 >
->Wenn die Audience innerhalb eines Workflows erstellt und mit Zusatzdaten angereichert wurde, können Sie diese Daten nicht zur Personalisierung eines Einzelversands verwenden. Diese Daten können nur über einen in einem Workflow ausgeführten Versand verwendet werden.
+>Wenn die Zielgruppe innerhalb eines Workflows erstellt und mit Zusatzdaten angereichert wurde, können Sie diese Daten nicht zur Personalisierung eines Einzelversands verwenden. Diese Daten können nur über einen in einem Workflow ausgeführten Versand verwendet werden.
 
-1. Gehen Sie im Dashboard einer Nachricht in die Audience-Kachel,
+1. Gehen Sie im Dashboard einer Nachricht in die Zielgruppe-Kachel,
 
    ![](assets/delivery_audience_definition_1.png)
 
-   um die gewünschten Profile auszuwählen. Der sich öffnende Bildschirm zeigt zwei Tabs, die die separate Definition der anzusprechenden Populationen ermöglichen:
+   um die gewünschten Profile auszuwählen. Der sich öffnende Bildschirm zeigt zwei Tabs, die die separate Definition der anzusprechenden Zielgruppen ermöglichen:
 
    * Zielgruppe
    * Testprofile
 
    ![](assets/delivery_audience_definition_2.png)
 
-1. Definieren Sie die **[!UICONTROL Hauptzielgruppe]** der E-Mail. Dies ist die tatsächliche Ziel-Audience der E-Mail.
+1. Definieren Sie die **[!UICONTROL Hauptzielgruppe]** der E-Mail. Dies ist die tatsächliche Ziel-Zielgruppe der E-Mail.
 
-   Die Zielgruppe wird auf der Registerkarte **[!UICONTROL Zielgruppe]** definiert und setzt sich aus identifizierten Profilen aus Ihrer Datenbank zusammen. Dies kann beispielsweise unter Verwendung des [Abfrageeditors](../../automating/using/editing-queries.md#creating-queries) geschehen.
+   Die Zielgruppe wird auf der Registerkarte **[!UICONTROL Zielgruppe]** definiert und setzt sich aus identifizierten Profilen aus Ihrer Datenbank zusammen. Dies kann beispielsweise unter Verwendung des [Abfrage-Editors](../../automating/using/editing-queries.md#creating-queries) geschehen.
 
    Wenn Sie sich im Zielgruppe-Tab befinden, zeigt die Palette der **[!UICONTROL Schnellzugriffe]** nur vordefinierte Filter und Audiences, die sich auf identifizierte Profile beziehen. Der **[!UICONTROL Explorer]**-Tab bietet Zugriff auf fortgeschrittene Konfigurationen.
 
-   Sie haben die Möglichkeit, zuvor erstellte Audiences wiederzuverwenden und zu kombinieren bzw. durch das Hinzufügen von Filtern weiter einzuschränken.
+   Sie haben die Möglichkeit, zuvor erstellte Zielgruppen wiederzuverwenden und zu kombinieren bzw. durch das Hinzufügen von Filtern weiter einzuschränken.
 
    >[!NOTE]
    >
-   >Beachten Sie beim Targeting einer Audience, dass die Definition der Audience nicht referenziert wird, sondern in die Abfrage **kopiert** wird. Wenn Sie Änderungen an der Audience vornehmen, nachdem sie in einer Abfrage als Ziel ausgewählt wurde, stellen Sie sicher, dass Sie die Abfrage erneut konfigurieren, um die neue Definition zu berücksichtigen.
+   >Beachten Sie beim Targeting einer Zielgruppe, dass die Definition der Zielgruppe nicht referenziert wird, sondern in die Abfrage **kopiert** wird. Wenn Sie Änderungen an der Zielgruppe vornehmen, nachdem sie in einer Abfrage als Ziel ausgewählt wurde, stellen Sie sicher, dass Sie die Abfrage erneut konfigurieren, um die neue Definition zu berücksichtigen.
 
 1. Definieren Sie die **[!UICONTROL Testprofile]**, die Sie für die E-Mail verwenden möchten. Die Testprofile erhalten Testsendungen, die Sie probeweise senden können, bevor Sie die endgültige E-Mail an die Hauptzielgruppe senden.
 

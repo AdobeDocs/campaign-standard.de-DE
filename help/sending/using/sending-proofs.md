@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
 ht-degree: 100%
 
@@ -24,13 +24,13 @@ Ein Testversand dient der Validierung einer Nachricht, bevor sie an die Hauptzie
 
 Es gibt zwei Typen von Testversandempfängern:
 
-* **Testprofile** ermöglichen es, zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenkriterien entsprechen.
+* **Testprofile** ermöglichen es, zusätzliche Empfänger anzusprechen, die nicht den definierten Targeting-Kriterien entsprechen.
 
-  Sie können Audiences hinzugefügt werden, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Empfang der Sendungen zu kontrollieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
+  Sie können Zielgruppen hinzugefügt werden, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Empfang der Sendungen zu kontrollieren. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
   >[!NOTE]
   >
-  >Um Testsendungen vornehmen zu können, muss die Audience Ihrer Nachricht mindestens ein Testprofil enthalten.
+  >Um Testsendungen vornehmen zu können, muss die Zielgruppe Ihrer Nachricht mindestens ein Testprofil enthalten.
 
 * **Ersatzprofile** ermöglichen es, sich selbst in die Position eines der angesprochenen Profile zu versetzen und eine genaue Darstellung der Nachricht zu erhalten, die das Profil empfangen wird. Weiterführende Informationen finden Sie unter [Testen von E-Mail-Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md).
 
@@ -43,7 +43,7 @@ Es gibt zwei Typen von Testversandempfängern:
 Gehen Sie wie folgt vor, um Testsendungen vorzunehmen:
 
 1. Vergewissern Sie sich, dass die Testversandempfänger konfiguriert worden sind:
-   * Die Audience Ihrer Nachricht muss **Testprofile** beinhalten.
+   * Die Zielgruppe Ihrer Nachricht muss **Testprofile** beinhalten.
    * Nach erfolgreicher Vorbereitung der Nachricht müssen **Ersatzprofile** hinzugefügt werden (siehe [diesen Abschnitt](../../sending/using/testing-messages-using-target.md)).
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Test senden]**.

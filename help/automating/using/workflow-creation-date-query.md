@@ -64,14 +64,14 @@ Das Ergebnis sollte folgendermaßen aussehen:
 
 ![](assets/day_creation_query.png)
 
-Wählen Sie **[!UICONTROL Bestätigen]** aus.
+Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 ### Profile abrufen, die im Versandmonat erstellt wurden{#retrieving-profiles-created-on-the-same-month}
 
 1. Wählen Sie im **[!UICONTROL Abfrageeditor]** die erste Abfrage aus und duplizieren Sie sie.
 1. Öffnen Sie das Duplikat.
 1. Ersetzen Sie in der Abfrage **[!UICONTROL Tag]** durch **[!UICONTROL Monat]**.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 ![](assets/month_rule.png)
 
@@ -97,7 +97,7 @@ Die endgültige Abfrage sieht folgendermaßen aus:
 1. Personalisieren Sie Ihre E-Mail mit Feldern und Links.
 Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 **Verwandte Themen:**
 

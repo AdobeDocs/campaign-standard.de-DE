@@ -1,5 +1,5 @@
 ---
-title: Personalisierte Inhalte erstellen
+title: Erstellen personalisierter Inhalte
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Um allgemeine Probleme bei der Zustellung Ihrer Nachrichten zu verhindern und da
 Sie können die Empfängerdaten verwenden, die in der Adobe Campaign-Datenbank gespeichert sind oder mithilfe von Tracking, Landingpages, Abonnements etc. erfasst wurden.
 Die Grundlagen der Personalisierung werden in [diesem Abschnitt](../../designing/using/personalization.md) dargestellt.
 
-Stellen Sie sicher, dass Ihr Nachrichteninhalt korrekt aufgebaut ist, um oft mit der Personalisierung in Verbindung stehende Probleme zu verhindern.
+Stellen Sie sicher, dass Ihr Nachrichteninhalt korrekt aufgebaut ist, um oft mit der Personalisierung in Verbindung stehende Fehler zu verhindern.
 
 Dynamische Inhalte können manuell hinzugefügt werden, um Ihren Empfängern entsprechend den im Ausdruckseditor definierten Bedingungen unterschiedliche Inhalte anzuzeigen. Wenn Sie dynamische Inhalte hinzufügen, müssen Sie immer eine Standardvariante für Empfänger angeben, die nicht die ausgewählten Bedingungen erfüllen.
 Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
@@ -40,7 +40,7 @@ Beachten Sie beim Erstellen Ihrer E-Mails die folgenden allgemeinen Best Practic
 
 * Halten Sie das Design einfach.
 
-* Denken Sie an Benutzer mit Smartphones und Tablets.
+* Denken Sie an Benutzer mit Mobilgeräten.
 
 * Vermeiden Sie vollständig bildbasierte E-Mails.
 
@@ -72,7 +72,7 @@ Bei der Analyse einer Nachricht wird standardmäßig von einer [Typologieregel](
 
 [In diesem Abschnitt](../../designing/using/personalization.md#adding-a-content-block) erfahren Sie, wie man einen Ausschluss-Link einfügt.
 
-### Größe der E-Mail  {#email-size}
+### Größe der E-Mail {#email-size}
 
 Um Performance- oder Zustellbarkeitsprobleme zu vermeiden, wird eine E-Mail mit einer maximalen Größe von **35 KB** empfohlen.
 
@@ -139,12 +139,12 @@ Manche E-Mail-Clients blockieren Bilder standardmäßig. Einstellungen können a
 
 Verwenden Sie responsive, in der Größe veränderbare Bilder. Beachten Sie, dass sich dies auf die Kosten auswirken kann, da die Erstellung länger dauert.
 
-### Verwenden absoluter Bildreferenzen
+### Verwenden absoluter Bildverweise
 
 Damit Empfänger auf die Bilder zugreifen können, müssen die in E-Mails und öffentlichen Ressourcen verwendeten Bilder, die mit Kampagnen verknüpft sind, auf einem extern zugänglichen Server gespeichert sein.
 
 ## Sehen Sie sich Ihre Nachricht in der Vorschau an {#preview-msg}
 
-Adobe empfiehlt eine Vorschau Ihrer Nachricht, um die Personalisierung zu überprüfen und festzustellen, wie Ihre Empfänger den Versand sehen werden.
+Adobe empfiehlt eine Vorschau Ihrer Nachricht, um die Personalisierung zu überprüfen und festzustellen, wie Ihre Empfängerinnen und Empfänger den Versand sehen werden.
 
-In Email Designer können Sie mit der Schaltfläche **[!UICONTROL Vorschau]** das Rendering der einzelnen Inhalte für einen Empfänger anzeigen. Die Personalisierungsfelder und bedingten Inhaltselemente werden durch die entsprechenden Informationen für das ausgewählte Profil ersetzt – [Weitere Informationen](../../sending/using/previewing-messages.md)
+In Email Designer können Sie mit der Schaltfläche **[!UICONTROL Vorschau]** das Rendering der einzelnen Inhalte für einen Empfänger anzeigen. Die Personalisierungsfelder und bedingten Inhaltselemente werden durch die entsprechenden Informationen für das ausgewählte Profil ersetzt.  [Weitere Informationen](../../sending/using/previewing-messages.md)

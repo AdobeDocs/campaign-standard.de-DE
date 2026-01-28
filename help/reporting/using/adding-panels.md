@@ -9,7 +9,7 @@ role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ In diesen Panels können Sie nach Bedarf Ihre Berichte erstellen. Sie können be
 
    ![](assets/dynamic_report_panel.png)
 
-Dann können Sie eine Freiformtabelle in Ihr Panel einfügen, um mit der Datensuche zu beginnen.
+Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
 ## Freiformtabelle hinzufügen            {#adding-a-freeform-table}
 

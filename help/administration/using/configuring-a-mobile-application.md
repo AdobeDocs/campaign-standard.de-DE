@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
 ht-degree: 100%
 
@@ -149,27 +149,29 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
 1. Im Abschnitt **[!UICONTROL Gerätespezifische Einstellungen]** im Dashboard einer Mobile App können Sie für jedes Gerät die Anwendungsdetails angeben.
 
-   * +++ Für iOS
+   * 
+     +++ Für iOS
 
      Geben Sie die folgenden Anwendungsdetails ein:
 
-      * **App-ID (iOS Bundle ID)**: In der [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} finden Sie weitere Informationen zur Bundle-ID.
+      * **App-ID (iOS Bundle ID)**: Siehe [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} für weitere Informationen zur Bundle-ID.
       * **Datei mit iOS-Zertifikat (P8)**: Ziehen Sie den .p8-Authentifizierungsschlüssel per Drag-and-Drop. Anweisungen zum Generieren der .p8-Authentifizierungsdatei finden Sie in Ihrem [Apple-Entwicklerkonto](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
-      * **Schlüssel-ID**: In der [Apple-Dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} finden Sie weitere Informationen zur Schlüssel-ID.
-      * **iOS-Team-ID**: In der [Apple-Dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} finden Sie weitere Informationen zur iOS-Team-ID.
+      * **Schlüssel-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} für weitere Informationen zur Schlüssel-ID.
+      * **iOS-Team-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} für weitere Informationen zur iOS-Team-ID.
 
         ![](assets/mobile_app_ios_config.png)
-+++
+     +++
 
-   * +++ Für Android
+   * 
+     +++ Für Android
 
      Geben Sie die folgenden Anwendungsdetails ein:
 
-      * **App-ID (Android-Paketname)**: In der [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} finden Sie weitere Informationen zum Paketnamen.
-      * **Android-Schlüssel-Datei (JSON)**: Ziehen Sie die JSON-Datei mit dem privaten Schlüssel per Drag-and-Drop. Anweisungen zum Generieren der .json-Datei mit privatem Schlüssel finden Sie in der [Entwicklerdokumentation für Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
+      * **App-ID (Android-Paketname)**: Siehe [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} für weitere Informationen zum Paketnamen.
+      * **Android-Schlüssel-Datei (JSON)**: Ziehen Sie die JSON-Datei mit dem privaten Schlüssel per Drag-and-Drop. Anweisungen zum Generieren der .json-Datei mit privatem Schlüssel finden Sie im Abschnitt [Entwicklerdokumentation für Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
-+++
+     +++
 
 1. Nach dem Hochladen Ihres Zertifikats werden Sie in einer Nachricht benachrichtigt, dass der Upload erfolgreich war. Außerdem wird das Ablaufdatum Ihres Zertifikats angezeigt.
 

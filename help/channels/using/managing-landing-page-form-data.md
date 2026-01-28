@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Gehen Sie dazu wie folgt vor:
 
 In den Abstimmparametern wird definiert, wie mit den von Besuchern in der Landingpage gemachten Angaben verfahren werden soll.
 
-Gehen Sie wie folgt vor:
+Gehen Sie dazu wie folgt vor:
 
 1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Vorgang]** auf.
 

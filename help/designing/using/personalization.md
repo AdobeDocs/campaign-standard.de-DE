@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2753'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachr
 
 ## Personalisierung für den Absender einrichten {#personalizing-the-sender}
 
-Um den Absendernamen, der im Kopf der gesendeten Nachrichten erscheint, zu definieren, gehen Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol). Weitere Informationen hierzu finden Sie unter [Definieren des Absenders einer E-Mail](../../designing/using/subject-line.md#email-sender).
+Um den Absendernamen, der im Header der gesendeten Nachrichten erscheint, zu definieren, gehen Sie auf der Startseite von Email Designer zum Tab **[!UICONTROL Eigenschaften]** (der Zugriff erfolgt über das Startseiten-Symbol). Weitere Informationen hierzu finden Sie unter [Definieren des Absenders einer E-Mail](../../designing/using/subject-line.md#email-sender).
 
 Sie können den Absendernamen ändern, indem Sie **Name des Absenders** auswählen. Geben Sie nun den gewünschten Absendernamen ein.
 
@@ -39,7 +39,7 @@ Sie haben die Möglichkeit, den Absendernamen je nach Zielgruppe zu personalisie
 
 ## URLs personalisieren {#personalizing-urls}
 
-Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht eine oder mehrere URLs zu personalisieren, indem Sie Personalisierungsfelder, Inhaltsbausteine oder dynamische Inhalte an diese anschließen. Gehen Sie wie folgt vor:
+Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht eine oder mehrere URLs zu personalisieren, indem Sie Personalisierungsfelder, Inhaltsbausteine oder dynamische Inhalte an diese anschließen. Gehen Sie dazu wie folgt vor:
 
 1. Fügen Sie eine externe URL ein und geben Sie deren Parameter an. Siehe [Link einfügen](../../designing/using/links.md#inserting-a-link).
 1. Wenn die Personalisierungsoptionen nicht angezeigt werden, verwenden Sie im Einstellungsfenster das Stiftsymbol neben der ausgewählten URL, um die Personalisierungsoptionen aufzurufen.
@@ -73,7 +73,7 @@ Um ein Personalisierungsfeld einzufügen, gehen Sie folgendermaßen vor:
 
    ![](assets/email_perso_field_2.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 Der Name des Felds erscheint daraufhin hervorgehoben im Editor.
 
@@ -103,7 +103,7 @@ So fügen Sie einen Inhaltsbaustein hinzu:
 
    ![](assets/email_content_block_2.png)
 
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Der Name des Bausteins erscheint daraufhin im Editor. Er ist gelb unterlegt. Er wird in der Personalisierungsphase automatisch an das Profil angepasst.
 
@@ -183,7 +183,7 @@ Lesen Sie diesbezüglich auch den Abschnitt [Zielgruppendimensionen und Ressourc
 
 ## Bildquellen personalisieren{#personalizing-an-image-source}
 
-Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht ein oder mehrere Bilder nach einem bestimmten Kriterium zu personalisieren oder Tracking zu verwenden, indem Sie Personalisierungsfelder, Inhaltsbausteine oder dynamische Inhalte in die Bildquelle einfügen. Gehen Sie wie folgt vor:
+Sie haben in Adobe Campaign die Möglichkeit, in Ihrer Nachricht ein oder mehrere Bilder nach einem bestimmten Kriterium zu personalisieren oder Tracking zu verwenden, indem Sie Personalisierungsfelder, Inhaltsbausteine oder dynamische Inhalte in die Bildquelle einfügen. Gehen Sie dazu wie folgt vor:
 
 1. Fügen Sie entweder ein neues Bild in Ihren Nachrichteninhalt ein oder wählen Sie ein bereits vorhandenes Bild aus.
 1. Aktivieren Sie in der Palette der Bildeigenschaften die Option **[!UICONTROL Personalisierung aktivieren]**.
@@ -380,7 +380,7 @@ Gehen Sie wie folgt vor:
 **Für die Zielgruppe 18 bis 27 Jahre:**
 
 1. Markieren Sie die anzupassende Strukturkomponente und fügen Sie einen dynamischen Inhalt hinzu.
-1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
+1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung für die Zielgruppenbestimmung. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
 1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der kontextuellen Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
 
    ![](assets/delivery_content_53.png)
@@ -394,7 +394,7 @@ Gehen Sie wie folgt vor:
 **Für die Zielgruppe über 27 Jahre:**
 
 1. Markieren Sie die anzupassende Strukturkomponente und fügen Sie einen dynamischen Inhalt hinzu.
-1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung entsprechend der Zielgruppe. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
+1. Öffnen Sie den Ausdruckseditor des nächsten dynamischen Inhalts und konfigurieren Sie die Bedingung für die Zielgruppenbestimmung. Lesen Sie diesbezüglich auch den Abschnitt [Illustrationen konfigurieren](#configuring-images).
 1. Wählen Sie in der Strukturkomponente an der gewünschten Position das **[!UICONTROL Personalisierungssymbol]** in der kontextuellen Symbolleiste und danach **[!UICONTROL Personalisierungsfeld einfügen]** aus.
 1. Markieren Sie in der sich öffnenden Liste das **[!UICONTROL Anrede]**-Feld.
 1. Gehen Sie analog vor, um das Feld **[!UICONTROL Nachname]** hinzuzufügen.
@@ -427,5 +427,5 @@ Die Illustration zeigt die im dynamischen Inhalt für diese Altersgruppe konfigu
 
 **Verwandte Themen:**
 
-* [Erstellen von Audiences](../../audiences/using/creating-audiences.md)
+* [Erstellen von Zielgruppen](../../audiences/using/creating-audiences.md)
 * [Versandvorbereitung](../../sending/using/preparing-the-send.md)

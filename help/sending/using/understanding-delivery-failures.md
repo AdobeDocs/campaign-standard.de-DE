@@ -108,7 +108,7 @@ Ein Versand kann sofort fehlschlagen (synchroner Fehler) oder zu einem späteren
 * **Synchroner Fehler**: Der vom Adobe Campaign-Server angesprochene Remote-Server hat sofort eine Fehlermeldung zurückgegeben. Die Nachricht kann nicht an den Server des Profils gesendet werden.
 * **Asynchroner Fehler**: Eine Bounce Message oder ein Statusbericht (SR) wird vom Remote-Server verzögert zurückgesendet. Asynchrone Fehler können bis zu eine Woche nach einem Versand auftreten.
 
-## Bounce-Message-Qualifizierung             {#bounce-mail-qualification}
+## Bounce-Message-Qualifizierung {#bounce-mail-qualification}
 
 Bei Fehlermeldungen zu synchronen Versandfehlern bestimmt der erweiterte MTA (Message Transfer Agent) von Adobe Campaign den Bounce-Typ und die Qualifizierung und sendet diese Informationen an Campaign zurück.
 

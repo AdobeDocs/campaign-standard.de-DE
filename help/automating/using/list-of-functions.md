@@ -26,7 +26,7 @@ Ziehen Sie das Element in den Workflow-Arbeitsbereich und geben Sie die gewünsc
 
 Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Funktionen zur Verfügung:
 
-* Datum-Funktionen
+* Datum-Funktionen       
 * Geomarketing
 * Numerische Funktionen
 * Sonstige Funktionen
@@ -38,7 +38,7 @@ Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Fu
 >
 >Es stehen zusätzliche Funktionen in allen Aktivitäten zur Verfügung, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md).
 
-## Datum {#dates}
+## Datum-Funktionen        {#dates}
 
 Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 
@@ -742,7 +742,7 @@ Die Darstellungsfunktionen dienen der Ordnung von Werten.
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
-   <td> Partitioniert das Ergebnis einer Abfrage<br /> </td> 
+   <td> Partitioniert das Ergebnis einer Abfrage in einer Tabelle<br /> </td> 
    <td> PartitionBy(&lt;Wert 1&gt;)<br /> </td> 
   </tr> 
   <tr> 

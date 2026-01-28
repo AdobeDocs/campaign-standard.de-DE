@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1306'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Konfiguration und Verwendung von Marken basieren auf den folgenden Grundprinzipi
 
 >[!IMPORTANT]
 >
->Marken können nicht vom Endnutzer erstellt oder geändert werden. Diese Aktionen müssen von einem technischen Adobe Campaign-Administrator vorgenommen werden. Bei Fragen wenden Sie sich an die Adobe-Kundenunterstützung.
+>Marken können von Endnutzenden nicht erstellt oder geändert werden. Diese Tätigkeiten müssen von technischen Adobe Campaign-Admins vorgenommen werden. Bei Fragen wenden Sie sich an die Adobe-Kundenunterstützung.
 >
 >Multibranding kann nicht in Verbindung mit Transaktionsnachrichten verwendet werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Transaktionsnachrichten und Branding](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
@@ -42,7 +42,7 @@ Eine neu erstellte Marke ist standardmäßig nur für Benutzer sichtbar, denen d
 
 Eine **Marke** wird durch die folgenden Eigenschaften definiert:
 
-* eine **Identität**, durch die Ihre Marke definiert und personalisiert wird. Dieser Bereich weist folgende Felder auf:
+* eine **Identität**, durch die Ihre Marke definiert und personalisiert wird. Dieser Abschnitt weist folgende Felder auf:
 
   ![](assets/branding_01.png)
 
@@ -51,7 +51,7 @@ Eine **Marke** wird durch die folgenden Eigenschaften definiert:
    * **URL** und **Titel** der Marken-Website
    * **Markenlogo**
 
-* **[!UICONTROL In Header-Parameter für ausgehende E-Mails]** kann der Inhalt für die Empfänger Ihrer Kampagnen personalisiert werden. Dieser Bereich weist folgende Felder auf:
+* **[!UICONTROL In Header-Parameter für ausgehende E-Mails]** kann der Inhalt für die Empfänger Ihrer Kampagnen personalisiert werden. Dieser Abschnitt weist folgende Felder auf:
 
   ![](assets/branding_04_header.png)
 
@@ -103,7 +103,7 @@ Sie können in Campaign neue Entitäten Ihrer Organisation hinzufügen oder eine
 
    * Produktions-URL: XXX.campaign.adobe.com
 
-1. **Versandvorlage erstellen**: Sobald die neue Marke verfügbar ist, sollten Sie mindestens eine neue leere Versandvorlage erstellen, die auf diese neue Marke verweist. [Mehr dazu](#linking-a-brand-to-a-template).
+1. **Versandvorlage erstellen**: Sobald die neue Marke verfügbar ist, sollten Sie mindestens eine neue leere Versandvorlage erstellen, die auf diese neue Marke verweist. [Weitere Informationen](#linking-a-brand-to-a-template).
 
 1. **Zustellbarkeitsrichtlinien prüfen**: Bevor Sie mit der Verwendung der neuen Domain beginnen, sollte die Strategie mit dem Adobe Zustellbarkeits-Team besprochen werden. Es hilft bei der Definition der Best Practices, wenn eine neue Affinität erstellt werden soll, um beispielsweise die IPs zwischen Domains aufzuteilen, bzw. wenn ein Hochlaufplan definiert werden soll. Weitere Informationen zu Best Practices für die Zustellbarkeit finden Sie [in diesem Abschnitt](../../sending/using/about-deliverability.md).
 
@@ -117,7 +117,7 @@ Um die für eine Marke definierten Parameter nutzen zu können, muss sie mit ein
 >
 >Weiterführende Informationen zur Erstellung von Vorlagen finden Sie im Abschnitt [Vorlagen erstellen](../../start/using/marketing-activity-templates.md).
 
-Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. Gehen Sie wie folgt vor:
+Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. Gehen Sie dazu wie folgt vor:
 
 1. Greifen Sie mithilfe der Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** auf die Eigenschaften Ihrer Vorlage zu.
 
@@ -178,7 +178,7 @@ Der Versandbeauftragte ist für die Erstellung der Versandvorlagen verantwortlic
 
    ![](assets/branding_10.png)
 
-   Die Versandvorlage lässt sich nun zur Erstellung von E-Mails verwenden, die an eine Audience gesendet werden.
+   Die Versandvorlage lässt sich nun zur Erstellung von E-Mails verwenden, die an eine Zielgruppe gesendet werden.
 
 #### Schritt 3: Neue Marke in einem Versand verwenden             {#use-the-new-brand-in-a-delivery}
 
@@ -192,6 +192,6 @@ Um eine mit einer Marke verknüpfte E-Mail zu erstellen, gehen Sie wie folgt vor
 
    ![](assets/branding_15.png)
 
-1. Ihre E-Mail ist bereits konfiguriert. Sie haben die Möglichkeit, die Informationen der E-Mail zu überprüfen, bevor Sie sie mithilfe von Testprofilen testen und anschließend an Ihre Audience senden.
+1. Ihre E-Mail ist bereits konfiguriert. Sie haben die Möglichkeit, die Informationen der E-Mail zu überprüfen, bevor Sie sie mithilfe von Testprofilen testen und anschließend an Ihre Zielgruppe senden.
 
    ![](assets/branding_16.png)

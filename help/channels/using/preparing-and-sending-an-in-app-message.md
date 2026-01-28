@@ -9,7 +9,7 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1315'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
    ![](assets/inapp_creating_3.png)
 
-1. Wählen Sie die Audience für Ihre In-App-Nachricht aus. Ihre Audience wird entsprechend der mit dem Versand verknüpften Mobile App vorab gefiltert.
+1. Wählen Sie die Zielgruppe für Ihre In-App-Nachricht aus. Ihre Zielgruppe wird entsprechend der mit dem Versand verknüpften Mobile App vorab gefiltert.
 
    Bitte beachten Sie, dass dieser Schritt bei der Option **[!UICONTROL In-App-Broadcast-Nachricht senden (inAppBroadcast)]** nicht nötig ist, da hier alle Benutzer einer Mobile App ausgewählt werden.
 
@@ -112,7 +112,7 @@ Die Erstellung einer einzelnen In-App-Nachricht in Adobe Campaign umfasst folgen
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
-Ihre In-App-Nachricht ist jetzt bereit für den Versand an Ihre ausgewählte Audience.
+Ihre In-App-Nachricht ist jetzt bereit für den Versand an Ihre ausgewählte Zielgruppe.
 
 **Verwandte Themen:**
 

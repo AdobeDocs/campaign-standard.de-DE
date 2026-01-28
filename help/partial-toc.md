@@ -4,7 +4,7 @@ title: Produktdokumentation zu Adobe Campaign Standard
 description: Produktdokumentation zu Campaign Standard durchsuchen
 topic: Premium
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '35'
 ht-degree: 100%
 
@@ -19,5 +19,5 @@ ht-degree: 100%
    + [Über Typologieregeln – Liste](sending/using/about-typology-rules.md#typology-rules)
    + [E-Mail-Kanal konfigurieren](administration/using/configuring-email-channel.md)
    + [Filterregeln](sending/using/filtering-rules.md)
-+ Start{#starting}
++ Wird gestartet{#starting}
    + [Über die Benutzeroberfläche](start/using/about-the-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: Anwendungsfälle für Smartphones und Tablets, die in Adobe Campaign Standard mit den Adobe Experience Platform SDKs unterstützt werden
+title: Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard mit den Adobe Experience Platform SDKs unterstützt werden
 description: Erfahren Sie, wie Sie Anwendungsfälle für Mobilgeräte unterstützen
 audience: channels
 feature: Instance Settings
@@ -7,15 +7,15 @@ role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
 ht-degree: 100%
 
 ---
 
-# Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard {#mobile-use-cases}
+# Unterstützte Anwendungsfälle für Mobilgeräte in Adobe Campaign Standard {#mobile-use-cases}
 
-Auf dieser Seite finden Sie die Liste aller Anwendungsfälle für Smartphones und Tablets, die in [!DNL Adobe Campaign Standard] unter Verwendung von [!DNL Adobe Experience Platform SDKs] unterstützt werden. Beachten Sie, dass zur Unterstützung dieser Anwendungsfälle die Installation und Konfiguration von [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform] und [!DNL Adobe Campaign Standard]erforderlich sind. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md).
+Auf dieser Seite finden Sie die Liste aller Anwendungsfälle für Mobilgeräte, die in [!DNL Adobe Campaign Standard] unter Verwendung von [!DNL Adobe Experience Platform SDKs] unterstützt werden. Beachten Sie, dass zur Unterstützung dieser Anwendungsfälle die Installation und Konfiguration von [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform] und [!DNL Adobe Campaign Standard]erforderlich sind. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard unterstützt die folgenden Anwendungsfälle:
 

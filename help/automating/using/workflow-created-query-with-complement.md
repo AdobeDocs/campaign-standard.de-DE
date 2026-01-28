@@ -31,7 +31,7 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 1. Doppelklicken Sie auf die Aktivität.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL Ist nicht leer]** aus.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 ![](assets/wf-complement-query.png)
 
@@ -43,8 +43,8 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 1. Ändern Sie die **[!UICONTROL Genauigkeit]** in **[!UICONTROL Jahr]** und wählen Sie **[!UICONTROL Dieses Jahr]** aus.
 1. Wählen Sie zweimal **[!UICONTROL Bestätigen]** aus.
 1. Aktivieren Sie in **[!UICONTROL Erweiterte Optionen]** die Option **[!UICONTROL Komplement erstellen]**, um ein Segment zu erstellen, mit dem die verbleibenden Empfänger ausgewählt werden.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ![](assets/wf-complement-segmentation.png)
 
@@ -63,7 +63,7 @@ Sie können Kunden folgende E-Mails senden: eine E-Mail an Kunden, die vor wenig
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
 1. Personalisieren Sie Ihre E-Mail mit Angeboten für den jeweiligen Versand.
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 

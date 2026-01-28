@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter [Versanddurchsatz](../../reporting/using/
 
 Sie können die angezeigten Werte konfigurieren, indem Sie den Parameter ändern.
 
-Es stehen weitere Berichte zur Verfügung, z. B. **[!UICONTROL Versandzusammenfassung]** oder **[!UICONTROL Fehler und Bounces]**. Weiterführende Informationen dazu finden Sie unter [Dynamische Berichte](../../reporting/using/about-dynamic-reports.md).
+Es stehen weitere Berichte zur Verfügung, z. B. **[!UICONTROL Versandzusammenfassung]** oder **[!UICONTROL Unzustellbare Nachrichten und Bounces]**. Weiterführende Informationen dazu finden Sie unter [Dynamische Berichte](../../reporting/using/about-dynamic-reports.md).
 
 ## Sendungen überwachen {#monitoring-deliveries}
 

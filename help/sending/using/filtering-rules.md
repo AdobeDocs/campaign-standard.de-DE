@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Die nachstehende Tabelle enthält Informationen zu vordefinierten Filterregeln s
 | ---------|----------|---------|
 | **[!UICONTROL Adresse nicht angegeben]** | Alle | Schließt die Zielpopulation ohne angegebene Adresse (E-Mail, Anschrift usw. je nach ausgewähltem Kanal) aus. |
 | **[!UICONTROL Adresse auf Blockierungsliste]** | Alle | Schließt Adressen aus, die sich auf der Blockierungsliste befinden. |
-| **[!UICONTROL Dublette]** | Alle | Schließt Duplikate anhand des Felds **[!UICONTROL Adresse]** der Zielpopulation aus. |
+| **[!UICONTROL Duplikat]** | Alle | Schließt Duplikate anhand des Felds **[!UICONTROL Adresse]** der Zielpopulation aus. |
 | **[!UICONTROL Mobile Apps ausschließen]** | Mobile App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen. |
 | **[!UICONTROL Mobile Apps für In-App ausschließen]** | In-App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen (In-App-Vorlage). |
 | **[!UICONTROL Mobile Apps für In-App-Broadcast-Versand ausschließen]** | In-App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen (In-App-Broadcast-Vorlage) |
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um eine Typologieregel zum Filtern zu erstellen:
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Ziehen Sie im **[!UICONTROL Explorer]**-Tab des Abfrageeditors den **[!UICONTROL Abonnent]**-Knoten per Drag-and-Drop in den Arbeitsbereich des Bildschirms.
+1. Ziehen Sie im **[!UICONTROL Explorer]**-Tab des Abfrage-Editors den **[!UICONTROL Abonnent]**-Knoten per Drag-and-Drop in den Arbeitsbereich des Bildschirms.
 
    ![](assets/typology_create-rule-subscriber.png)
 
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um eine Typologieregel zum Filtern zu erstellen:
 
 Wenn diese Regel in einer Nachricht verwendet wird, werden minderjährige Abonnenten automatisch ausgeschlossen.
 
-## Konfigurieren des Zielgruppen-Kontexts von Filterregeln {#configuring-filtering-rules-targeting-context}
+## Konfigurieren des Zielgruppenbestimmungs-Kontexts von Filterregeln {#configuring-filtering-rules-targeting-context}
 
 Mit Campaign Standard können Sie je nach den beabsichtigten Daten die **Targeting**- und **Filterdimensionen** konfigurieren.
 
@@ -98,7 +98,7 @@ Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht e
 
    ![](assets/typology_limit.png)
 
-1. Verwenden Sie den Abfrageeditor, um einen Filter zu definieren. Sie können die Regel beispielsweise nur auf Nachrichten anwenden, deren Titel mit einem bestimmten Wort beginnt oder deren Kennung bestimmte Buchstaben enthält.
+1. Verwenden Sie den Abfrage-Editor, um einen Filter zu definieren. Sie können die Regel beispielsweise nur auf Nachrichten anwenden, deren Titel mit einem bestimmten Wort beginnt oder deren Kennung bestimmte Buchstaben enthält.
 
    ![](assets/typology_limit-rule.png)
 

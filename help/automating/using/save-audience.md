@@ -78,7 +78,7 @@ Die **[!UICONTROL Zielgruppe-speichern]**-Aktivität wird in erster Linie verwen
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Beispiel  {#example}
+## Beispiel {#example}
 
 Das vorliegende Beispiel zeigt einen Workflow zur regelmäßigen Aktualisierung einer Zielgruppe, die aus einer Zielguppenbestimmung hervorgeht.
 

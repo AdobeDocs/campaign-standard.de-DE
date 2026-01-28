@@ -40,7 +40,7 @@ Die Aktivität verwendet den Abfrage-Editor, dessen Funktionsweise in einem [ges
 * Anreicherung von Daten beliebiger Adobe Campaign-Tabellen;
 * Export von Daten.
 
-## Konfiguration        {#configuration}
+## Konfiguration {#configuration}
 
 1. Ziehen Sie eine **[!UICONTROL Abfrage]** in den Workflow-Arbeitsbereich.
 1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png). Die Standardkonfiguration der Aktivität sieht die Suche nach Profilen vor.
@@ -104,7 +104,7 @@ Normalerweise werden die Zielgruppendimension und die Ressource festgelegt, um P
 
 Weitere Informationen hierzu finden Sie in diesem Anwendungsfall: [Von den Zielgruppendimensionen abweichende Ressourcen verwenden](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Daten anreichern {#enriching-data}
+## Anreicherung von Daten {#enriching-data}
 
 Mithilfe des Tabs **[!UICONTROL Zusatzdaten]** der Aktivitäten **[!UICONTROL Abfrage]**, **[!UICONTROL Inkrementelle Abfrage]** und **[!UICONTROL Anreicherung]** lassen sich die hervorgehenden Daten anreichern und an die Folgeaktivitäten des Workflows übermitteln, in denen sie weiterverwendet werden können. Insbesondere die folgenden Elemente lassen sich hinzufügen:
 

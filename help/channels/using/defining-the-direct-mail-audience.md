@@ -1,5 +1,5 @@
 ---
-title: Briefpost-Audience definieren
+title: Briefpost-Zielgruppe definieren
 description: Hier erfahren Sie, wie Sie die Zielgruppe für Ihren Briefpostversand definieren.
 audience: channels
 content-type: reference
@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
 
-# Briefpost-Audience definieren{#defining-the-direct-mail-audience}
+# Briefpost-Zielgruppe definieren{#defining-the-direct-mail-audience}
 
-Sie können die Audience entweder im Erstellungsassistenten oder durch Klicken in den Bereich **Audience** im Versand-Dashboard festlegen.
+Sie können die Zielgruppe entweder im Erstellungsassistenten oder durch Klicken in den Bereich **Zielgruppe** im Versand-Dashboard festlegen.
 
 ![](assets/direct_mail_15.png)
 

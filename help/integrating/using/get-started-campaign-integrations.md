@@ -28,7 +28,7 @@ Die Integration von Adobe Campaign mit verschiedenen Adobe Experience Cloud-Lös
 
 In Ihrer Arbeitsumgebung verfügen Sie unter Umständen über verschiedene Lösungen der Adobe Experience Cloud. Diese sind miteinander über Organisationen – auch Mandanten genannt – verbunden.
 
-Eine Organisation ist die Entität, mit der ein Administrator Gruppen und Benutzer konfigurieren und Anmeldungen in der Experience Cloud steuern kann. Eine Organisation ist wie eine Unternehmensanmeldung bei allen Produkten und Lösungen, die in der Experience Cloud enthalten sind. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. Weiterführende Informationen zur Verwaltung von Benutzern und Organisationen finden Sie im [Hilfeportal der Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de).
+Eine Organisation ist die Entität, mit der ein Administrator Gruppen und Benutzer konfigurieren und Anmeldungen in der Experience Cloud steuern kann. Eine Organisation ist wie eine Unternehmensanmeldung bei allen Produkten und Lösungen, die in der Experience Cloud enthalten sind. Normalerweise besitzt eine Organisation den Namen ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. Weiterführende Informationen zur Verwaltung von Benutzern und Organisationen finden Sie im [Hilfeportal der Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=de).
 
 Wenn Sie Datenflüsse von anderen Systemen mit Adobe Campaign integrieren möchten, beachten Sie unsere [API-Dokumentation](../../api/using/get-started-apis.md).
 

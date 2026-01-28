@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
 ht-degree: 100%
 
@@ -294,7 +294,7 @@ Das Feld **[!UICONTROL DATA_CODING]** dient in Adobe Campaign dazu, dem SMSC zu 
 
 >[!NOTE]
 >
->Die Entsprechung zwischen dem Wert des **DATA_CODING**-Felds und der tatsächlich verwendeten Kodierung ist standardisiert. Gewisse SMSC besitzen jedoch eine spezifische Entsprechung. In diesem Fall muss Ihr **Adobe Campaign**-Administrator diese deklarieren. Kontaktieren Sie für weiterführende Informationen Ihren Anbieter.
+>Die Entsprechung zwischen dem Wert des Felds **data_coding** und der tatsächlich verwendeten Kodierung ist standardisiert. Gewisse SMSC besitzen jedoch eine spezifische Entsprechung. In diesem Fall muss Ihr **Adobe Campaign**-Administrator diese deklarieren. Kontaktieren Sie für weiterführende Informationen Ihren Anbieter.
 
 Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt die **DATA_CODING**-Deklarierung. Durch Angabe von nur einer Kodierung in der Tabelle wird die Anwendung dieser Kodierung erzwungen.
 
@@ -315,7 +315,7 @@ Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt d
 
   ![](assets/sms_data_coding1.png)
 
-### Automatische Antwort auf MO  {#automatic-reply-sent-to-the-mo}
+### Automatische Antwort auf MO           {#automatic-reply-sent-to-the-mo}
 
 Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.
 
@@ -351,4 +351,4 @@ Aus dem Abschnitt **[!UICONTROL Senden]** einer SMS-Vorlage:
 
    * **[!UICONTROL Speicherung auf der SIM-Karte]**: Die Nachricht wird auf der SIM-Karte des Empfängergeräts gespeichert.
    * **[!UICONTROL Speicherung im Mobiltelefon]**: Die Nachricht wird im internen Speicher des Empfängergeräts gespeichert.
-   * **[!UICONTROL Flash]**: Die Nachricht wird auf dem Bildschirm des Empfängergeräts als Benachrichtigung angezeigt und verschwindet, ohne gespeichert zu werden.
+   * **[!UICONTROL Flash]**: Die Nachricht wird auf dem Mobilgerät des Empfängergeräts als Benachrichtigung angezeigt und verschwindet, ohne gespeichert zu werden.

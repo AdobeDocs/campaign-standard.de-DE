@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Definieren Sie ein Testprofil, das mit Ihrem Ereignis verknüpft wird. Auf diese
 
 Sie haben außerdem die Möglichkeit, ausgehend vom Menü **[!UICONTROL Testprofile]** ein neues Testprofil zu erstellen bzw. ein bereits existierendes zu verwenden. Gehen Sie dazu wie folgt vor:
 
-1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Testprofile]**.
+1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Profile und Zielgruppen]** > **[!UICONTROL Testprofile]**.
 1. Wählen Sie im Abschnitt **[!UICONTROL Ereignis]** das soeben erstellte Ereignis aus. Im vorliegenden Beispiel handelt es sich um &quot;Warenkorbabbruch (EVTcartAbandonment)&quot;.
 1. Geben Sie im Tab **[!UICONTROL Ereignisdaten]** im Texteditor die zu übermittelnden Daten im JSON-Format an.
 
@@ -54,7 +54,7 @@ Sie haben außerdem die Möglichkeit, ausgehend vom Menü **[!UICONTROL Testprof
 **Verwandte Themen:**
 
 * [Testprofile verwalten](../../audiences/using/managing-test-profiles.md)
-* [Audiences erstellen](../../audiences/using/creating-audiences.md)
+* [Zielgruppen erstellen](../../audiences/using/creating-audiences.md)
 
 ## Testversand durchführen {#sending-proof}
 

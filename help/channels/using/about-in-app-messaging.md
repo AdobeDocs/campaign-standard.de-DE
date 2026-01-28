@@ -9,7 +9,7 @@ feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Um In-App-Nachrichten mithilfe des Experience Platform SDK über Mobile Apps sen
 **Verwandte Inhalte:**
 
 * [In-App-Bericht](../../reporting/using/in-app-report.md)
-* [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
+* [Unterstützte Anwendungsfälle für Mobilgeräte in Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
 * [Handbuch zu Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Mobile Profilfelder mit personenbezogenen und sensiblen Daten verwenden {#handling-mobile-profile-fields-with-personal-and-sensitive-data}

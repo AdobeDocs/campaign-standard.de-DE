@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Sehen Sie sich die folgenden Ressourcen an:
 * [Video-Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=de)
 * [Produktdokumentation](../../channels/using/about-push-notifications.md)
 * Konfigurieren mithilfe der AEP-SDK-[Dokumentation](../../administration/using/configuring-a-mobile-application.md)
-* [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=de)
+* [Community-Seite](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Was muss ich tun, um in Campaign ein Push-Token zu erwerben? {#push-token-acquisition}
 

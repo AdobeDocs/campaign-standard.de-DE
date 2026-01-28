@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
 ht-degree: 100%
 
@@ -70,6 +70,6 @@ Das Profil wurde der Liste hinzugefügt.
 
 In diesem Video wird gezeigt, wie man Profile mit einem Workflow importiert.
 
->[!VIDEO](https://video.tv.adobe.com/v/30222?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

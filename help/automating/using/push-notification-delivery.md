@@ -39,7 +39,7 @@ Die Empfänger werden in vorangeschalteten Zielgruppenbestimmungsaktivitäten de
 
 Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparametern des Workflows ausgelöst. Sie können im Nachrichten-Dashboard auswählen, ob eine manuelle Bestätigung zum Nachrichtenversand erforderlich ist oder nicht (standardmäßig erforderlich). Sie können den Workflow entweder manuell starten oder eine Planung verwenden, um die Ausführung zu automatisieren.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Wiederkehrende Push-Benachrichtigung mithilfe von Workflows versenden](../../automating/using/recurring-push-notifications.md)
 

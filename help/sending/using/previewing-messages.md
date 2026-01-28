@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Bei **SMS**-Nachrichten können Sie mit Campaign Standard unter Verwendung von T
 
 Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer SMS-Nachricht anzuzeigen:
 
-1. Nachdem Sie die **[!UICONTROL Eigenschaften]** Ihrer SMS-Nachricht ausgefüllt und Ihre Audiences ausgewählt haben, können Sie Ihren Versand personalisieren. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/personalizing-sms-messages.md).
+1. Nachdem Sie die **[!UICONTROL Eigenschaften]** Ihrer SMS-Nachricht ausgefüllt und Ihre Zielgruppen ausgewählt haben, können Sie Ihren Versand personalisieren. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer
 
 Sie können nun je nach den ausgewählten Testprofilen die genaue Darstellung Ihrer Nachricht sehen.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Über SMS-Nachrichten](../../channels/using/about-sms-messages.md)
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
@@ -89,7 +89,7 @@ Bei **Push-Benachrichtigungen** können Sie mit Campaign Standard unter Verwendu
 
 Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer Push-Benachrichtigung anzuzeigen:
 
-1. Nachdem Sie die **[!UICONTROL Eigenschaften]** Ihrer Push-Benachrichtigung ausgefüllt und Ihre Audiences ausgewählt haben, können Sie Ihren Versand personalisieren. Weiterführende Informationen dazu finden Sie unter [Push-Benachrichtigung anpassen](../../channels/using/customizing-a-push-notification.md).
+1. Nachdem Sie die **[!UICONTROL Eigenschaften]** Ihrer Push-Benachrichtigung ausgefüllt und Ihre Zielgruppen ausgewählt haben, können Sie Ihren Versand personalisieren. Weiterführende Informationen dazu finden Sie unter [Push-Benachrichtigung anpassen](../../channels/using/customizing-a-push-notification.md).
 
 1. Nach der Personalisierung Ihrer Inhalte können Sie das Rendering Ihrer Push-Benachrichtigungen je nach Gerät und Betriebssystem im Vorschaufenster direkt überprüfen.
 
@@ -105,7 +105,7 @@ Sie können nun je nach ausgewähltem Testprofil die genaue Darstellung Ihrer Na
 
 ![](assets/push_preview_3.png)
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Über Push-Benachrichtigungen](../../channels/using/about-push-notifications.md)
 * [Push-Benachrichtigung vorbereiten und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
@@ -117,7 +117,7 @@ Bei **In-App-Nachrichten** können Sie mit Campaign Standard unter Verwendung vo
 
 Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer In-App-Nachricht anzuzeigen:
 
-1. Nachdem Sie die **[!UICONTROL Eigenschaften]** Ihrer In-App-Nachricht ausgefüllt, Ihre Audiences ausgewählt und Ihre **[!UICONTROL Triggers]** festgelegt haben, können Sie Ihren Versand personalisieren. Weiterführende Informationen dazu finden Sie unter [In-App-Nachricht anpassen](../../channels/using/customizing-an-in-app-message.md).
+1. Nachdem Sie die **[!UICONTROL Eigenschaften]** Ihrer In-App-Nachricht ausgefüllt, Ihre Zielgruppen ausgewählt und Ihre **[!UICONTROL Triggers]** festgelegt haben, können Sie Ihren Versand personalisieren. Weiterführende Informationen dazu finden Sie unter [In-App-Nachricht anpassen](../../channels/using/customizing-an-in-app-message.md).
 
 1. Nach der Personalisierung Ihrer Inhalte können Sie das Rendering Ihrer In-App-Nachricht je nach Gerät und Betriebssystem im Vorschaufenster direkt überprüfen.
 
@@ -133,7 +133,7 @@ Sie können nun je nach ausgewähltem Testprofil die genaue Darstellung Ihrer Na
 
 ![](assets/in_app_preview_3.png)
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Über In-App-Messaging](../../channels/using/about-in-app-messaging.md)
 * [In-App-Nachricht vorbereiten und senden](../../channels/using/preparing-and-sending-an-in-app-message.md)

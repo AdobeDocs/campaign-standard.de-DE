@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1252'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ Beachten Sie bei Fragmenten Folgendes:
 * Referrer-Meta-Tag wird in Email Designer nicht unterstützt.
 * Ersatzzeichenpaare, Zeichen, die nicht im Basic Multilingual Plane des Unicode-Zeichensatzes enthalten sind, können nicht in 2 Byte (16 Bit) gespeichert werden und müssen in 2 UTF-16-Zeichen kodiert werden. Zu diesen Zeichen gehören einige CJK-Ideogramme, die meisten Emojis und einige Sprachen.<br>Diese Zeichen können zu Inkompatibilitätsproblemen im dynamischen Text führen. Vor dem Senden Ihrer Nachrichten müssen Sie umfangreiche Tests durchführen.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [E-Mails erstellen](../../channels/using/creating-an-email.md)
 * [Landingpage erstellen](../../channels/using/designing-a-landing-page.md)
@@ -165,6 +165,6 @@ Beachten Sie bei Fragmenten Folgendes:
 
 In diesem Video erhalten Sie einen Überblick über Email Designer.
 
->[!VIDEO](https://video.tv.adobe.com/v/330101?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
 In diesen [Videos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=de#GettingStarted) erhalten Sie eine Anleitung zur Verwendung von Email Designer und dessen Funktionen. Insbesondere wird erläutert, wie neue E-Mails ohne Vorlage und solche mit Vorlage erstellt werden können

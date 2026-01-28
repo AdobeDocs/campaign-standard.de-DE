@@ -9,7 +9,7 @@ role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
 * [Berichte automatisch per E-Mail an Interessengruppen senden](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## Tabs      {#tabs}
+## Registerkarten      {#tabs}
 
 In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 

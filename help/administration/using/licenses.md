@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
 ht-degree: 100%
 
@@ -29,6 +29,6 @@ Ein Administrator muss die neue Vereinbarung innerhalb von 30 Tagen ab der Build
 
 ![](assets/license_3.png)
 
-Wenn die Vereinbarung nicht innerhalb dieser 30 Tage akzeptiert wurde, kann diese Instanz nicht mehr verwendet werden. Die Standardbenutzer sind dann nicht mehr in der Lage, auf die Funktionen von Adobe Campaign zuzugreifen, und sehen nur die folgende Mitteilung, bis ein funktionaler Administrator die Vereinbarung akzeptiert.
+Wenn die Vereinbarung nicht innerhalb dieser 30 Tage akzeptiert wurde, kann diese Instanz nicht mehr verwendet werden. Die Standardbenutzer sind dann nicht mehr in der Lage, auf die Funktionen von Adobe Campaign zuzugreifen, und sehen nur die folgende Meldung, bis ein funktionaler Administrator die Vereinbarung akzeptiert.
 
 ![](assets/license_4.png)

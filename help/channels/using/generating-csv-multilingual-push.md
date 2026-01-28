@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Wenn der Wert in einer dieser Spalte fehlt, tritt beim Hochladen der Datei ein F
 
 **Wenn Sie die Datei im Klartext generieren, trennen Sie jede Spalte durch &quot;,&quot;.**
 
-**Varianten stimmen nicht überein.** Wenn Sie einen Inhaltsbaustein und Ziel-Audiences mit unterschiedlichen Sprachen verwenden, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten. Andernfalls wird beim Versand ein Fehler ausgegeben.
+**Varianten stimmen nicht überein.** Wenn Sie einen Inhaltsbaustein und Ziel-Zielgruppen mit unterschiedlichen Sprachen verwenden, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten. Andernfalls wird beim Versand ein Fehler ausgegeben.
 
 ## Personalisierungsfelder in die CSV-Datei einfügen {#personalization-field-csv}
 

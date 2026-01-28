@@ -29,7 +29,7 @@ Die Aktivität **[!UICONTROL Zielgruppe lesen]** ermöglicht es Ihnen, eine vorh
 
 Die Aktivität **[!UICONTROL Zielgruppe lesen]** ist eine einfachere Version der **[!UICONTROL Abfrage]**-Aktivität und eignet sich für Fälle, in denen Sie nur eine bestehende Zielgruppe auswählen müssen.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Anwendungsfall: Vereinigung von zwei eingegrenzten Zielgruppen](../../automating/using/union-on-two-refined-audiences.md)
 * [Anwendungsfall: Eine Zielgruppe vom Typ &quot;Datei&quot; mit der Datenbank abstimmen](../../automating/using/reconcile-file-audience-with-database.md)

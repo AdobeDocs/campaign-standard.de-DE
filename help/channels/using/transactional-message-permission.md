@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 source-git-commit: 7247fe596494690ac0676196fbb72c6139aeb0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >
 >Diese Funktionen sind derzeit nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
 
-Derzeit können Benutzerinnen und Benutzer ohne die Sicherheitsgruppe „Administrator“ in Adobe Campaign Standard nicht auf Ereignisse zugreifen, sie erstellen oder veröffentlichen. Dies führt zu Problemen für Geschäftsanwenderinnen und -anwender, die Ereignisse konfigurieren und veröffentlichen müssen, aber nicht über Administratorrechte verfügen. Außerdem ist es nicht möglich, Transaktionsereignisse zu duplizieren.
+Derzeit können Benutzerinnen und Benutzer ohne die Sicherheitsgruppe „Administrator“ in Adobe Campaign Standard nicht auf Transaktionsereignisse zugreifen, sie erstellen oder veröffentlichen. Dies führt zu Problemen für Geschäftsanwenderinnen und -anwender, die Ereignisse konfigurieren und veröffentlichen müssen, aber nicht über Administratorrechte verfügen. Außerdem ist es nicht möglich, Transaktionsereignisse zu duplizieren.
 
 Die Zugriffskontrolle für Transaktionsnachrichten wurde folgendermaßen verbessert:
 

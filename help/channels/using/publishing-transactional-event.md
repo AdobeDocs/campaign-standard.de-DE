@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Bevor Sie das Ereignis verwenden können, müssen Sie eine Vorschau erstellen un
 
    >[!NOTE]
    >
-   >Damit das Ereignis den Versand der Transaktionsnachricht auslösen kann, muss die Transaktionsnachricht angepasst und veröffentlicht werden. Siehe die Abschnitte [Bearbeiten](../../channels/using/editing-transactional-message.md) und [Transaktionsnachrichten veröffentlichen](../../channels/using/publishing-transactional-message.md). Außerdem müssen Sie [dieses Aktivierungsereignis in Ihre Website integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+   >Damit das Ereignis den Versand der Transaktionsnachricht auslösen kann, muss die Transaktionsnachricht angepasst und veröffentlicht werden. Siehe die Abschnitte [Bearbeiten](../../channels/using/editing-transactional-message.md) und [Transaktionsnachrichten veröffentlichen](../../channels/using/publishing-transactional-message.md). Außerdem müssen Sie [dieses Trigger-Ereignis in Ihre Website integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 1. Sobald Adobe Campaign erste Ereignisse im Zusammenhang mit dieser Ereigniskonfiguration erhält, können Sie über den Link **[!UICONTROL Letzte Transaktionsereignisse]** im Abschnitt **[!UICONTROL Verlauf]** auf die neuesten Ereignisse zugreifen, die von Ihrem Drittanbieterdienst gesendet und von Adobe Campaign verarbeitet wurden.
 

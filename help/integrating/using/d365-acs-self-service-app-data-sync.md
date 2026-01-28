@@ -22,7 +22,7 @@ ht-degree: 100%
 Sie können Tabellen von Microsoft Dynamics 365 mit Campaign und Campaign-Marketing-Metriken mit Microsoft Dynamics 365 synchronisieren. Die Synchronisation wird durch drei dedizierte technische Workflows ausgeführt: **[!UICONTROL Microsoft Dynamics 365 zu Campaign]**, **[!UICONTROL Campaign zu Microsoft Dynamics 365]**, **[!UICONTROL Opt-in/Opt-out]**. [Weitere Informationen finden Sie in diesem Abschnitt.](../../integrating/using/d365-acs-self-service-app-workflows.md) 
 
 >[!IMPORTANT]
->Sie müssen den Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** anhalten und wieder starten, damit Ihre Änderungen berücksichtigt werden. [Mehr dazu](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>Sie müssen den Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** anhalten und wieder starten, damit Ihre Änderungen berücksichtigt werden. [Weitere Informationen](../../integrating/using/d365-acs-self-service-app-workflows.md)
 >
 
 ## Tabellen von Microsoft Dynamics 365 Campaign zuordnen
@@ -75,7 +75,7 @@ Die meisten anderen Eingaben auf der Seite hängen davon ab, welche Tabellen Sie
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL OK]**: Die Anwendung benötigt kurze Zeit, um die mit den ausgewählten Tabellen verknüpften Feldinformationen zu lesen.
 
-Anschließend können Sie mit der Mapping-Konfiguration fortfahren. [Mehr dazu](#new-mapping-settings)
+Anschließend können Sie mit der Mapping-Konfiguration fortfahren. [Weitere Informationen](#new-mapping-settings)
 
 >[!IMPORTANT]
 >

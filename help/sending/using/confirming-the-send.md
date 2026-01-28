@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Nachdem die Vorbereitung abgeschlossen ist, führen Sie die folgenden Schritte a
 
 >[!NOTE]
 >
->Wenn die Meldung geplant ist, wird sie gesendet, sobald die Sendezeit erreicht ist. Weiterführende Informationen zum Planen von Nachrichten finden Sie in [diesem Abschnitt](../../sending/using/about-scheduling-messages.md).
+>Wenn die Nachricht geplant ist, wird sie gesendet, sobald die Sendezeit erreicht ist. Weiterführende Informationen zum Planen von Nachrichten finden Sie in [diesem Abschnitt](../../sending/using/about-scheduling-messages.md).
 
 Wenn Sie einen wiederkehrenden Versand ohne Aggregat-Zeitraum verwenden, können Sie vor dem Senden der Nachrichten eine Bestätigung anfordern. Öffnen Sie dazu bei der Konfiguration Ihrer Nachricht im Versand-Dashboard die Kachel **[!UICONTROL Planung]** und aktivieren Sie die entsprechende Option.
 
@@ -143,7 +143,7 @@ Die folgenden Tabellen zeigen die Änderungen der KPIs und Versandlogstatus, die
 | Schritt im Versandprozess | KPI-Zusammenfassung | Versandlogstatus |
 |--- |--- |--- |
 | Nachricht wird erfolgreich von Campaign an den Enhanced MTA weitergeleitet | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz beginnt bei 0 %</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz beginnt bei 0 %</li></ul> | Ausstehend |
-| Hardbounces werden vom erweiterten MTA zurückgemeldet. | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
+| Hardbounces werden vom Enhanced MTA zurückgemeldet. | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
 | Softbounces werden vom erweiterten MTA zurückgemeldet. | <ul><li>Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend erhöht</li></ul> | Fehlgeschlagen |
 | Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, sind erfolgreich | <ul><li>**[!UICONTROL Zugestellt]**-Prozentsatz wird entsprechend erhöht</li><li>**[!UICONTROL Bounces + Fehler]**-Prozentsatz wird entsprechend verringert</li></ul> | Gesendet |
 | Weitere Zustellversuche von Nachrichten, bei denen ein Softbounce aufgetreten ist, schlagen fehl | <ul><li> Keine Änderung des **[!UICONTROL Zugestellt]**-Prozentsatzes </li><li> Keine Änderung des **[!UICONTROL Bounces + Fehler]**-Prozentsatzes </li></ul> | Fehlgeschlagen |

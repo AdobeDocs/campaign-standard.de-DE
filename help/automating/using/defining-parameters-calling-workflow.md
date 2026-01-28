@@ -22,7 +22,7 @@ In diesem Abschnitt wird beschrieben, wie Sie Parameter beim Aufruf eines Workfl
 
 Vor der Definition der Parameter müssen folgende Voraussetzungen gegeben sein:
 
-* Die Parameter wurden in der Aktivität **[!UICONTROL Externes Signal]** deklariert. Weiterführende Informationen finden Sie auf [dieser Seite](../../automating/using/declaring-parameters-external-signal.md).
+* Die Parameter wurden in der Aktivität **[!UICONTROL Externes Signal]** deklariert. Weitere Informationen finden Sie auf [dieser Seite](../../automating/using/declaring-parameters-external-signal.md).
 * Der Workflow, der die Signalaktivität enthält, wird ausgeführt.
 
 Gehen Sie zur Konfiguration der **[!UICONTROL Ende]**-Aktivität folgendermaßen vor:

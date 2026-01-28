@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1876'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 
 In diesen Videos wird gezeigt, wie man eine eigene Vorlage erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/37506?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
 

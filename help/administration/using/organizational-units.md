@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Alle Objekte und Benutzer der Plattform sind einer Organisationseinheit zugeordn
 
 >[!IMPORTANT]
 >
->Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]** zugeordnet werden. Es wird empfohlen, die Option **Zugriffsberechtigungs-Verwaltungsfelder** hinzuzufügen, bevor Sie Profile importieren. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../../administration/using/organizational-units.md#partitioning-profiles).
+>Ein Benutzer, der keiner Einheit zugeordnet wurde, kann keine Verbindung zu Adobe Campaign herstellen. Wenn Sie den Zugriff von Benutzern oder Benutzergruppen einschränken möchten, dürfen sie nicht der Einheit **[!UICONTROL Alle]** zugeordnet werden. Es wird empfohlen, die Option **Zugriffsberechtigungs-Verwaltungsfelder** hinzuzufügen, bevor Sie Profile importieren. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](../../administration/using/organizational-units.md#partitioning-profiles).
 >
 >Standardmäßig wird die Organisationseinheit **[!UICONTROL Alle (all)]** der Sicherheitsgruppe **[!UICONTROL Administratoren]** zugewiesen. Sie ist schreibgeschützt und kann nicht geändert werden.
 
@@ -108,7 +108,7 @@ Die Felder für die Organisationseinheiten sind in Ihren Profilen standardmäßi
 
    ![](assets/user_management_9.png)
 
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Aktualisieren Sie die Struktur durch eine erneute Veröffentlichung. Weitere Informationen zur Veröffentlichung finden Sie im Abschnitt [Datenstruktur aktualisieren](../../developing/using/updating-the-database-structure.md).
 
 Das Feld für Organisationseinheiten wird Ihren Profilen im Bereich **[!UICONTROL Zugriffsberechtigung]** hinzugefügt.

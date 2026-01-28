@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
 source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Was ist Zustellbarkeit{#about-deliverability}
 
-Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich den Posteingang Ihrer Empfänger erreichen und nicht als unzustellbar zurückgesendet bzw. als Spam gekennzeichnet werden. [Hier erfahren Sie, warum Lieferbarkeit wichtig ist](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=de#why-deliverability-matters).
+Die Zustellbarkeit misst, wie viele Ihrer Nachrichten erfolgreich den Posteingang Ihrer Empfänger erreichen und nicht als unzustellbar zurückgesendet bzw. als Spam gekennzeichnet werden. [Hier erfahren Sie, warum Zustellbarkeit wichtig ist](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=de#why-deliverability-matters).
 
 Genauer gesagt bezieht sich die E-Mail-Zustellbarkeit auf die Menge der Merkmale, die die Fähigkeit einer Nachricht bestimmen, über eine persönliche E-Mail-Adresse innerhalb kurzer Zeit und mit der erwarteten Qualität in Bezug auf Inhalt und Format ihr Ziel zu erreichen. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
@@ -63,7 +63,7 @@ Adobe Campaign bietet eine Reihe von Tools zur Verfolgung und Verbesserung der Z
 
 Befolgen Sie beim Konfigurieren, Entwerfen und Testen Ihrer Nachricht die in den folgenden Abschnitten aufgeführten Best Practices. Die Nutzung aller von Adobe Campaign bereitgestellten Funktionen hilft Ihnen, die Zustellbarkeit zu verbessern.
 
-* [Best Practices beim Versand](../../sending/using/delivery-best-practices.md)
+* [Best Practices für den Versand](../../sending/using/delivery-best-practices.md)
 * [Kontrollieren von E-Mail-Inhalten](../../sending/using/control-email-content.md)
 * [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
 * [Testversand durchführen](../../sending/using/sending-proofs.md)

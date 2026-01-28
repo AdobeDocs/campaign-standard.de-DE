@@ -89,7 +89,7 @@ Wenn Sie die Opt-out-Konfiguration **Bidirektional** oder **Unidirektional (Camp
 
 Ihre Campaign-SFTP-Datenspeicherung muss in den unten angegebenen Anwendungsbeispielen von der Integration genutzt werden.  Stellen Sie sicher, dass Ihr SFTP-Konto über ausreichende Speicherkapazität für diese Anwendungsfälle verfügt. Eine Überschreitung der lizenzierten SFTP-Speicherkapazität kann die funktionale Nutzung von Campaign, die Integration und/oder das SFTP-Konto erheblich beeinträchtigen.
 
-| Anwendungsbeispiel | Beschreibung  |
+| Anwendungsbeispiel | Beschreibung |
 |---|---|
 | Bidirektional und unidirektional (Campaign zu Microsoft Dynamics 365) | Bidirektionale und unidirektionale (Campaign zu Microsoft Dynamics 365) Opt-out-Datenflüsse nutzen die Campaign-SFTP-Datenspeicherung. Ein Campaign-Workflow exportiert inkrementelle Änderungen in den SFTP-Ordner. Von dort werden die Datensätze beim Integrationsvorgang aufgenommen und verarbeitet. |
 | Opt-out-Logs | Opt-out-Logs vom Connector sind bei der Fehlersuche in der Integration hilfreich. Opt-out-Logs können ein- und ausgeschaltet werden. |
@@ -123,7 +123,7 @@ Eine Ausnahme bilden die Datenflüsse beim bidirektionalen Opt-out und beim unid
 
 Wenn Sie sich in der Region EMEA oder APAC befinden, werden einige Ihrer Daten im Rahmen dieser Integration in den USA verarbeitet. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## Schutzmechanismen und Begrenzungen
+## Schutzmechanismen und Einschränkungen
 
 >[!IMPORTANT]
 >

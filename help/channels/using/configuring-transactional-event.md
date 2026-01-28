@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Nach Abschluss der Konfiguration muss das Ereignis veröffentlicht werden. Siehe
 Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 
 1. Klicken Sie auf das **Adobe**-Logo oben links im Bildschirm und anschließend auf **[!UICONTROL Marketing-Pläne]** > **[!UICONTROL Transaktionsnachrichten]** > **[!UICONTROL Ereigniskonfiguration]**.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Erstellen]**.
+1. Wählen Sie die **[!UICONTROL Erstellen]**-Schaltfläche aus.
 1. Geben Sie für das Ereignis einen **[!UICONTROL Titel]** und eine **[!UICONTROL ID]** ein. Das Feld **[!UICONTROL ID]** ist ein Pflichtfeld und sollte mit dem Präfix &quot;EVT&quot; beginnen. Bei Nichtverwendung des EVT-Präfixes in Ihrer Kennung wird dieses automatisch hinzugefügt, sobald Sie die Schaltfläche **[!UICONTROL Erstellen verwenden]**.
 
    ![](assets/message-center_1.png)
@@ -133,13 +133,13 @@ Weitere Informationen zum Erstellen und Veröffentlichen von Ressourcen finden S
 
    Sie können den Inhalt der Transaktionsnachricht auch über die Ressource **[!UICONTROL Dienst]** anreichern. Weiterführende Informationen zu Diensten finden Sie in[diesem Abschnitt](../../audiences/using/creating-a-service.md).
 
-1. Wenn Sie ein [profilbasiertes Ereignis](#profile-based-transactional-messages) erstellen oder bearbeiten, wählen Sie im Abschnitt **[!UICONTROL Zielgruppen-Anreicherung]** die Anreicherung aus, die beim Versand als Nachrichtenziel verwendet werden soll.
+1. Wenn Sie ein [profilbasiertes Ereignis](#profile-based-transactional-messages) erstellen oder bearbeiten, wählen Sie im Abschnitt **[!UICONTROL Zielgruppenbestimmungs-Anreicherung]** die Anreicherung aus, die beim Versand als Nachrichtenziel verwendet werden soll.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
    >[!NOTE]
    >
-   >Das Erstellen einer Anreicherung und das Auswählen einer Zielgruppen-Anreicherung basierend auf der **[!UICONTROL Profil]**-Ressource sind für profilbasierte Ereignis obligatorisch.
+   >Das Erstellen einer Anreicherung und das Auswählen einer Zielgruppenbestimmungs-Anreicherung basierend auf der **[!UICONTROL Profil]**-Ressource sind für profilbasierte Ereignis obligatorisch.
 
 Nach der Veröffentlichung des Ereignisses sowie der Nachricht lässt sich der Inhalt der Transaktionsnachricht über den Link anreichern.
 
@@ -201,7 +201,7 @@ Um eine profilbasierte Transaktionsnachricht zu senden, erstellen und konfigurie
 
 1. Wählen Sie bei der Erstellung der Ereigniskonfiguration die Zielgruppendimension **[!UICONTROL Profil-Ereignis]** (siehe [Ereignis erstellen](#creating-an-event)).
 1. Fügen Sie zum Ereignis Felder hinzu, damit Sie die Transaktionsnachricht personalisieren können (siehe [Ereignisattribute definieren](#defining-the-event-attributes)). Für eine Anreicherung müssen Sie mindestens ein Feld hinzufügen. Sie müssen keine anderen Felder wie **Vorname** und **Nachname** erstellen, da Sie Personalisierungsfelder aus der Adobe Campaign-Datenbank verwenden können.
-1. Erstellen Sie eine Anreicherung, um das Ereignis mit der Ressource **[!UICONTROL Profil]** zu verknüpfen (siehe [Ereignisse anreichern](#enriching-the-transactional-message-content)) und wählen Sie diese Anreicherung als **[!UICONTROL Zielgruppen-Anreicherung]** aus.
+1. Erstellen Sie eine Anreicherung, um das Ereignis mit der Ressource **[!UICONTROL Profil]** zu verknüpfen (siehe [Ereignisse anreichern](#enriching-the-transactional-message-content)) und wählen Sie diese Anreicherung als **[!UICONTROL Zielgruppenbestimmungs-Anreicherung]** aus.
 
    >[!IMPORTANT]
    >

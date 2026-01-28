@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Bei der Erstellung einer Ressource oder beim Hinzufügen neuer Felder zu einer existierenden Ressource können Sie festlegen, wie sie in der Benutzeroberfläche dargestellt werden sollen.
 
-Dieser Schritt ist nicht zwingend erforderlich, da dennoch Daten in Ihre Ressource geladen werden können und Sie darauf über Workflows, Audiences und REST-API zugreifen können.
+Dieser Schritt ist nicht zwingend erforderlich, da dennoch Daten in Ihre Ressource geladen werden können und Sie darauf über Workflows, Zielgruppen und REST-API zugreifen können.
 
 Im Tab **[!UICONTROL Bildschirmdefinition]** haben Sie folgende Möglichkeiten:
 

@@ -39,7 +39,7 @@ Nach dem Aufruf können externe Parameter definiert und in den Workflow-Ereignis
 
 Beachten Sie, dass die Aktivität **[!UICONTROL Externes Signal]** von mehreren Ereignissen ausgelöst werden kann. In diesem Fall wird das **[!UICONTROL externe Signal]** aktiviert, sobald einer der Ursprungs-Workflows oder API-Aufrufe ausgeführt wird. Dazu müssen nicht alle Ursprungs-Workflows abgeschlossen sein.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Anwendungsfall: Aktivität &quot;Externes Signal&quot; und Datenimport](../../automating/using/external-signal-data-import.md)
 * [Anwendungsfall: Aufruf eines Workflows über eine Datei mithilfe von Parametern, um eine Zielgruppe zu erstellen](../../automating/using/use-case-calling-workflow.md)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Vor der Veröffentlichung einer Landingpage müssen Sie Tests durchführen: Vali
 
 ## Landingpage testen         {#testing-the-landing-page-}
 
-Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie wie folgt vor:
+Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie dazu wie folgt vor:
 
 1. Verwenden Sie hierzu die Schaltfläche **[!UICONTROL Testen]** in der Aktionsleiste der Landingpage.
 1. Wenn auf der Landingpage Abonnements verarbeitet werden sollen, wählen Sie auf dem Testbildschirm ein Testprofil und einen Testdienst.
@@ -47,7 +47,7 @@ Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landin
 
 ## Gültigkeitsparameter einrichten         {#setting-up-validity-parameters}
 
-Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Performance vor der Veröffentlichung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Veröffentlichung der Landingpage automatisch aufgehoben. Gehen Sie wie folgt vor:
+Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Performance vor der Veröffentlichung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Veröffentlichung der Landingpage automatisch aufgehoben. Gehen Sie dazu wie folgt vor:
 
 1. Bearbeiten Sie die Landingpage-Eigenschaften über die Schaltfläche ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard.
 

@@ -33,7 +33,7 @@ Diese Aktivität verfügt über mehr erweiterte Anreicherungsfunktionen als die 
 
 Mit der Aktivität **[!UICONTROL Anreicherung]** können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen. Die Anreicherungsaktivität ermöglicht die Kombination von Daten aus mehreren Datensätzen oder die Erstellung von Relationen zu einer temporären Ressource.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Anwendungsfall: Profildaten mit in einer Datei enthaltenen Daten anreichern](../../automating/using/enriching-profile-data-file.md).
 * [Anwendungsfall: E-Mail mit erweiterten Feldern senden](../../automating/using/sending-email-enriched-fields.md)

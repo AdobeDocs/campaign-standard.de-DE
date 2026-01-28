@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Weiterführende Informationen zu Organisationseinheiten finden Sie auf dieser [S
 
 1. Erst dann erscheint die Eigenschaft im Status **[!UICONTROL Bereit zum Konfigurieren]** in Adobe Campaign und kann jetzt konfiguriert werden.
 
-## Ich möchte eine Eigenschaft für Smartphones und Tablets in Adobe Campaign konfigurieren. Muss ich warten, bis der technische Workflow zur Synchronisierung von Tags zwischen Adobe Experience Platform und Adobe Campaign beginnt?
+## Ich möchte eine Eigenschaft für Mobilgeräte in Adobe Campaign konfigurieren. Muss ich warten, bis der technische Workflow zur Synchronisierung von Tags zwischen Adobe Experience Platform und Adobe Campaign beginnt?
 
 Sie können den Workflow sofort ausführen:
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Versandvorbereitung{#preparing-the-send}
 
-In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Sobald die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am [geplanten Datum und zur geplanten Uhrzeit](../../sending/using/about-scheduling-messages.md) gesendet werden.
+In diesem Schritt werden die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Sobald die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am [geplanten Datum und zur geplanten Uhrzeit](../../sending/using/about-scheduling-messages.md) gesendet werden.
 
 1. Klicken Sie in der Aktionsleiste auf die Schaltfläche **Vorbereiten**, um die Vorbereitung zu starten.
 
@@ -43,13 +43,13 @@ In diesem Schritt werden die Zielgruppe berechnet und der Nachrichteninhalt für
 
    ![](assets/preparing_delivery_4.png)
 
-1. Das Fenster **[!UICONTROL Bereitstellung]** wird geöffnet. Korrigieren Sie etwaige Fehler und starten Sie die Vorbereitung erneut.
+1. Das Fenster **[!UICONTROL Bereitstellung]** wird geöffnet. Korrigieren Sie etwaige Fehler und starten Sie die Vorbereitung neu.
 
    Der letzte Logeintrag zeigt eventuelle Fehler und deren Anzahl an. Ein spezifisches Symbol verdeutlicht den Fehlertyp: Ein gelbes Symbol kennzeichnet beispielsweise einen nicht blockierenden Verarbeitungsfehler, während ein rotes Symbol einen Fehler bezeichnet, der den Versand der Nachrichten verhindert.
 
    ![](assets/preparing_delivery_3.png)
 
-1. Prüfen Sie das Vorbereitungsergebnis, bevor Sie den Versand der Nachrichten bestätigen. Wenn die Anzahl zu sendender Nachrichten nicht Ihrer Konfiguration entspricht, passen Sie die Zielgruppenbestimmung an (siehe [Audience in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)) und starten Sie die Vorbereitung erneut.
+1. Prüfen Sie das Vorbereitungsergebnis, bevor Sie den Versand der Nachrichten bestätigen. Wenn die Anzahl zu sendender Nachrichten nicht Ihrer Konfiguration entspricht, passen Sie die Zielpopulationsbestimmung an (siehe [Zielgruppe in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)) und starten Sie die Vorbereitung neu.
 
 Nach Abschluss der Vorbereitung ist die Nachricht versandbereit. Weiterführende Informationen dazu finden Sie im Abschnitt [Versand bestätigen](../../sending/using/confirming-the-send.md).
 

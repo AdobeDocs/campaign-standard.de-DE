@@ -1,5 +1,5 @@
 ---
-title: 'Beispiele für Abfragen '
+title: Beispiele für Abfragen
 description: In diesem Abschnitt wird der Anwendungsfall bei Verwendung einer Abfrageaktivität erläutert.
 audience: automating
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ---
 
-# Beispiele für Abfragen      {#query-samples}
+# Beispiele für Abfragen {#query-samples}
 
 In diesem Abschnitt wird der Anwendungsfall bei Verwendung einer **[!UICONTROL Abfrageaktivität]** erläutert. Weiterführende Informationen zur Verwendung einer **[!UICONTROL Abfrageaktivität]** finden Sie in [diesem Abschnitt](../../automating/using/query.md).
 

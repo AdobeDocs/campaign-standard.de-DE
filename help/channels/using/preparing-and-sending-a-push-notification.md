@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
 ht-degree: 100%
 
@@ -50,9 +50,9 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    Sie können die Push-Benachrichtigung mit einer Kampagne verknüpfen. Wählen Sie diese dazu aus den bereits existierenden Kampagnen aus.
 
-1. Im darauffolgenden Bildschirm besteht die Möglichkeit, eine Audience zu definieren (beispielsweise alle VIP-Kunden, die eine bestimmte Mobile App abonniert haben). Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
+1. Im darauffolgenden Bildschirm besteht die Möglichkeit, eine Zielgruppe zu definieren (beispielsweise alle VIP-Kunden, die eine bestimmte Mobile App abonniert haben). Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Zielgruppen](../../audiences/using/creating-audiences.md).
 
-   Ihre Audience wird automatisch auf der Basis der Mobile App gefiltert, die im vorherigen Schritt ausgewählt wurde.
+   Ihre Zielgruppe wird automatisch auf der Basis der Mobile App gefiltert, die im vorherigen Schritt ausgewählt wurde.
 
    ![](assets/push_notif_audience.png)
 
@@ -68,7 +68,7 @@ Die Erstellung einer Push-Benachrichtigung in Adobe Campaign umfasst folgende Et
 
    ![](assets/push_notif_content_2.png)
 
-1. Vor dem Versand der Benachrichtigung können Sie diese mit Testprofilen testen und überprüfen, wie die Benachrichtigung in der Inbox der Empfänger dargestellt wird. Wählen Sie in der Versandzusammenfassung **[!UICONTROL Audiences]** und danach den Tab **[!UICONTROL Testprofile]** aus.
+1. Vor dem Versand der Benachrichtigung können Sie diese mit Testprofilen testen und überprüfen, wie die Benachrichtigung in der Inbox der Empfänger dargestellt wird. Wählen Sie in der Versandzusammenfassung **[!UICONTROL Zielgruppen]** und danach den Tab **[!UICONTROL Testprofile]** aus.
 
    Weiterführende Informationen zum Senden von Testnachrichten finden Sie in [Testprofile](../../sending/using/sending-proofs.md).
 
@@ -87,7 +87,7 @@ Beachten Sie, dass die Personalisierungsdaten sich auf die Größe der Nachricht
 
 ## Benachrichtigung senden {#sending-the-notification}
 
-Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign gesendet werden, indem die Kriterien der Audience definiert werden. Beispielsweise besteht die unten ausgewählte Audience aus vier Mobile-App-Abonnenten.
+Push-Benachrichtigungen können an eine ausgewählte Zielgruppe in Adobe Campaign gesendet werden, indem die Kriterien der Zielgruppe definiert werden. Beispielsweise besteht die unten ausgewählte Zielgruppe aus vier Mobile-App-Abonnenten.
 
 1. Wählen Sie **[!UICONTROL Vorbereiten]** aus, um die Zielgruppe zu berechnen und die Benachrichtigungen zu erstellen.
 
@@ -99,7 +99,7 @@ Push-Benachrichtigungen können an eine ausgewählte Audience in Adobe Campaign 
 
 1. Im Tab **[!UICONTROL Ausschlusslogs]** befinden sich die Liste aller vom Versand an die Zielgruppe ausgeschlossenen Nachrichten sowie der Ausschlussgrund.
 
-   In unserem Beispiel sehen wir, dass einer unserer Mobile-App-Abonnenten ausgeschlossen wurde, weil seine Adresse auf der Blockierungsliste steht, und die anderen Abonnenten, weil ihr Profil eine Dublette war.
+   In unserem Beispiel sehen wir, dass einer unserer Mobile-App-Abonnenten ausgeschlossen wurde, weil seine Adresse auf der Blockierungsliste steht, und die anderen Abonnenten, weil ihr Profil ein Duplikat war.
 
    ![](assets/push_send_5.png)
 

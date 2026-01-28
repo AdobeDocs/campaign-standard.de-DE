@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -24,14 +24,14 @@ Briefpost ist ein Offline-Kanal, über den Sie eine für Briefpost-Dienstleister
 >
 >Hierbei handelt es sich um eine optionale Funktion. Prüfen Sie diesbezüglich Ihren Lizenzvertrag. Für die Verwendung von Briefpost ist die **[!UICONTROL Export]**-Rolle erforderlich. Kontaktieren Sie diesbezüglich Ihren Administrator.
 
-Über Online-Kanäle können Sie Nachrichten erstellen (E-Mail, SMS, Mobile-App-Versand etc.) und direkt über Adobe Campaign an Ihre Audience senden. Offline-Kanäle sind anders. Wenn Sie einen Briefpost-Versand vorbereiten, erzeugt Adobe Campaign eine Datei, die alle Zielgruppenprofile und die ausgewählte Kontaktinformationen enthält (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.
+Über Online-Kanäle können Sie Nachrichten erstellen (E-Mail, SMS, Mobile-App-Versand etc.) und direkt über Adobe Campaign an Ihre Zielgruppe senden. Offline-Kanäle sind anders. Wenn Sie einen Briefpost-Versand vorbereiten, erzeugt Adobe Campaign eine Datei, die alle Zielgruppenprofile und die ausgewählte Kontaktinformationen enthält (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.
 
 Im folgenden Abschnitt erfahren Sie, wie Sie einen einmaligen Briefpost-Versand erstellen. Sie können auch eine Briefpost-Aktivität in einen Workflow einbauen, um Kampagnen mit kombinierten Online- und Offline-Kanälen aufeinander abzustimmen. Weitere Informationen hierzu finden Sie im [Workflow](../../automating/using/get-started-workflows.md)-Handbuch.
 
 Gehen Sie in Adobe Campaign folgendermaßen vor:
 
 1. Versand erstellen
-1. Audience auswählen
+1. Zielgruppe auswählen
 1. Nachrichteninhalt konfigurieren
 1. Kontaktdatum festlegen
 1. Datei erstellen
@@ -44,7 +44,7 @@ Gehen Sie in Adobe Campaign folgendermaßen vor:
 
 ### Briefpost-Dienstleister {#direct-mail-providers}
 
-Erkundigen Sie sich zunächst bei Ihrem Briefpost-Dienstleister nach seinen Empfehlungen. Finden Sie heraus, welche Profilinformationen in der Extraktionsdatei enthalten sein müssen, damit der Anbieter die Nachrichten personalisieren und der Audience senden kann. Hierzu zählen beispielsweise der Vor- und Nachname, die Anschrift und ein Promotioncode. Diese Felder können Sie im Briefpost-Inhalt im Tab [Extraktion definieren](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) hinzufügen.
+Erkundigen Sie sich zunächst bei Ihrem Briefpost-Dienstleister nach seinen Empfehlungen. Finden Sie heraus, welche Profilinformationen in der Extraktionsdatei enthalten sein müssen, damit der Anbieter die Nachrichten personalisieren und der Zielgruppe senden kann. Hierzu zählen beispielsweise der Vor- und Nachname, die Anschrift und ein Promotioncode. Diese Felder können Sie im Briefpost-Inhalt im Tab [Extraktion definieren](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) hinzufügen.
 
 Achten Sie darauf, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist. Wenn diese Option aktiviert ist, wird das Profil zur Zielgruppe hinzugefügt. Ist sie das nicht, wird sie in der Vorbereitungsphase durch eine Typologieregel ausgeschlossen (siehe [Briefpost erstellen](../../channels/using/creating-the-direct-mail.md)). Vergessen Sie nicht, bei einem Profilimport dieses Feld zu aktualisieren.
 

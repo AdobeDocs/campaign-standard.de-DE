@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # A/B-Tests durchführen{#designing-an-a-b-test-email}
 
-Die A/B-Test-Funktion in Adobe Campaign ermöglicht es Ihnen, zwei bis drei Varianten einer E-Mail zu definieren. Jede Variante wird an einen bestimmten Anteil der Zielpopulation gesendet, um die Variante zu bestimmen, welche die besten Ergebnisse erzielt. Sobald die Gewinnervariante feststeht, wird sie an die verbleibende Zielpopulation gesendet.
+Die A/B-Test-Funktion in Adobe Campaign ermöglicht es Ihnen, zwei bis drei Varianten einer E-Mail zu definieren. Jede Variante wird an einen bestimmten Anteil der Zielpopulation gesendet, um die Variante zu bestimmen, welche die besten Ergebnisse erzielt. Wenn die Gewinnervariante feststeht, wird sie an die restliche Zielpopulation gesendet.
 
 Sie haben die Möglichkeit, Inhalt, Betreff oder Absender der E-Mail zu variieren.
 
@@ -44,12 +44,12 @@ Gehen Sie zur Erstellung eines A/B-Tests wie folgt vor:
    >
    >Vorlagen für Folgenachrichten und A/B-Tests werden standardmäßig verborgen. Aktivieren Sie die Option für A/B-Tests auf der linken Seite (seitliches Fenster **[!UICONTROL Filter]**), um sie anzuzeigen.
 
-1. Definieren Sie die allgemeinen Eigenschaften sowie die Ziel-Audience der E-Mail auf die gleiche Weise wie für eine Standard-E-Mail. Lesen Sie diesbezüglich auch den Abschnitt [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
+1. Definieren Sie die allgemeinen Eigenschaften sowie die Ziel-Zielgruppe der E-Mail auf die gleiche Weise wie für eine Standard-E-Mail. Lesen Sie diesbezüglich auch den Abschnitt [Erstellung von Zielgruppen](../../audiences/using/creating-audiences.md).
 1. Definieren Sie die A/B-Test-Parameter in der vierten Etappe des Erstellungsassistenten:
 
    * **[!UICONTROL Variantenanzahl]**: Sie haben die Wahl zwischen zwei oder drei Varianten. Wenn Sie drei Varianten wählen, lässt sich Ihre Entscheidung nach der Validierung dieser Etappe des Assistenten nicht mehr abändern.
    * **[!UICONTROL Gewinnerstrategie]**: Definieren Sie das Kriterium zur Auswahl der Gewinnervariante.
-   * **[!UICONTROL Verteilung der Zielgruppe]**: Legen Sie fest, zu welchem Anteil die Zielgruppe auf die verschiedenen Varianten verteilt werden soll. Der verbleibende Anteil erhält die Gewinnervariante, sobald diese feststeht. Dabei erfolgt die Auswahl aus den Profilen der Zielgruppe nach dem Zufallsprinzip.
+   * **[!UICONTROL Aufschlüsselung der Zielgruppe]**: Legen Sie fest, zu welchem Anteil die Zielgruppe auf die verschiedenen Varianten verteilt werden soll. Der verbleibende Anteil erhält die Gewinnervariante, sobald diese feststeht. Dabei erfolgt die Auswahl aus den Profilen der Zielgruppe nach dem Zufallsprinzip.
 
      >[!NOTE]
      >

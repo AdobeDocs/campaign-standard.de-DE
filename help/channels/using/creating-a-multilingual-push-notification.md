@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
 ht-degree: 100%
 
@@ -48,18 +48,18 @@ Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst d
 
    Bitte beachten Sie, dass in der Dropdown-Liste sowohl SDK V4- als auch Adobe Experience Platform SDK-Anwendungen enthalten sind.
 
-1. Ziehen Sie Abfragen in das Fenster **[!UICONTROL Audiences]**, um Ihre Audience anzupassen.
+1. Ziehen Sie Abfragen in das Fenster **[!UICONTROL Zielgruppen]**, um Ihre Zielgruppe anzupassen.
 
    Die hinzugefügten Abfragen hängen von der ausgewählten Vorlage ab: Wenn Sie die Vorlage **[!UICONTROL Mehrsprachige Push-Benachrichtigungen an Campaign-Profile senden]** auswählen, können Sie bekannte Empfänger Ihrer Mobile App abrufen. Wenn Sie jedoch die Vorlage **[!UICONTROL Mehrsprachige Push-Benachrichtigung an App-Abonnenten senden]** auswählen, können Sie alle angemeldeten Abonnenten einer bestimmten App abfragen.
    >[!NOTE]
    >
-   >Wenn Sie Audiences mit unterschiedlichen Sprachen auswählen, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten.
+   >Wenn Sie Zielgruppen mit unterschiedlichen Sprachen auswählen, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten.
 
    ![](assets/push_notif_audience.png)
 
 1. Ziehen Sie Ihre Datei in das Fenster **[!UICONTROL Inhaltsvarianten verwalten]** oder wählen Sie eine Datei auf Ihrem Computer aus.
 
-   Die Datei muss im UTF-8-Format kodiert sein und ein bestimmtes Layout aufweisen, das Sie sich durch Auswahl der Option **[!UICONTROL Download der Beispielsdatei]** ansehen können. Achten Sie außerdem auf die Verwendung der richtigen Syntax für die Sprachen. Weiterführende Informationen zum Dateiformat und zu den unterstützten Sprachen finden Sie auf dieser [Seite](../../channels/using/generating-csv-multilingual-push.md).
+   Die Datei muss im UTF-8-Format kodiert sein und ein bestimmtes Layout aufweisen, das Sie sich durch Auswahl der Option **[!UICONTROL Download der Beispielsdatei]** ansehen können. Achten Sie außerdem auf die Verwendung der richtigen Syntax für die Gebietsschemawerte. Weiterführende Informationen zum Dateiformat und zu den unterstützten Gebietsschemata finden Sie auf dieser [Seite](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 

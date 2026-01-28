@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Hier können Sie Benutzer einladen, auf die Anwendung zuzugreifen, und **Sicherh
 
 Mit Campaign Standard können Sie auch sicherheitsrelevante Informationen überwachen. Sie können Informationen zu den von Benutzern durchgeführten Datenexporten über den Bildschirm **[!UICONTROL Export-Audits]** abrufen und den Bildschirm **[!UICONTROL Lizenzen]** nutzen, um alle installierten Campaign-Lizenzen innerhalb Ihrer Organisation sowie verschiedene Informationen wie die Build-Nummer, die Versionsnummer und die Vertragsbedingungen zu überwachen.
 
-Mehr dazu:
+mehr dazu:
 
 * [Benutzerverwaltung](../../administration/using/users-management.md)
 * [Organisationseinheiten](../../administration/using/organizational-units.md)
@@ -74,7 +74,7 @@ Konfigurieren Sie verschiedene **E-Mail**-Parameter: Verarbeitungsregeln für Bo
 
 Richten Sie **Mobile Apps** ein, um In-App-Nachrichten und Push-Benachrichtigungen mit Adobe Experience Platform-SDKs senden zu können.
 
-Mehr dazu:
+mehr dazu:
 
 * [Über die Konfiguration von Kanälen](../../administration/using/about-channel-configuration.md)
 * [E-Mail-Kanal konfigurieren](../../administration/using/configuring-email-channel.md)
@@ -91,7 +91,7 @@ Richten Sie **externe Konten** ein, über die Adobe Campaign mit externen Server
 
 Definieren Sie eine oder mehrere **Marken** für Ihr Unternehmen und konfigurieren Sie bei wichtigen Systemaktivitäten den Versand von **Benachrichtigungen in Echtzeit** innerhalb der Anwendung.
 
-Mehr dazu:
+mehr dazu:
 
 * [Über Einstellungen in Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Externe Konten](../../administration/using/external-accounts.md)

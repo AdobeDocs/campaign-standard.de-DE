@@ -77,10 +77,10 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Benutzerrollen](../../administration/using/list-of-roles.md)
 * [Listen anpassen](../../start/using/customizing-lists.md)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 In diesem Video wird die Konfiguration von Listen gezeigt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30203/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

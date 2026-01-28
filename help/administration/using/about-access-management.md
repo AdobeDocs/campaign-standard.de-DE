@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Benutzer werden in der Admin Console verwaltet. Weitere Informationen finden Sie
 >
 >Nur Benutzer mit Administratorrechten haben Zugriff auf die Benutzerverwaltung.
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Organisationseinheiten](../../administration/using/organizational-units.md)
 * [Liste der Rollen](../../administration/using/list-of-roles.md)

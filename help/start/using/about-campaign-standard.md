@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '778'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Planen, koordinieren und organisieren Sie kanalübergreifende Kampagnen.
 
 Entwerfen und senden Sie Nachrichten über Online- und Offline-Kommunikationskanäle, einschließlich der Optimierung des E-Mail-Versands für mehrere Geräte durch Tests und responsive Designstrategien.
 
-**Nutzen Sie Campaign-Kommunikationskanäle**, um Ihre Marketing-Kampagnen am richtigen Ort bereitzustellen: E-Mail, SMS, Push-Benachrichtigung, In-App-Nachricht, Briefpost, Landingpages. Gewinnen Sie Zeit und bringen Sie Konsistenz in Ihrer Messaging-Strategie, indem Sie Vorlagen für alle Arten von Nachrichten (Transaktions-, wiederkehrende, mehrsprachige Nachrichten) erstellen. Führen Sie A/B-Tests durch und gewinnen Sie das Interesse Ihrer Audience mithilfe von Personalisierungs- und dynamischen Inhaltsfunktionen. [Erste Schritte mit Kommunikationskanälen](../../channels/using/get-started-communication-channels.md)
+**Nutzen Sie Campaign-Kommunikationskanäle**, um Ihre Marketing-Kampagnen am richtigen Ort bereitzustellen: E-Mail, SMS, Push-Benachrichtigung, In-App-Nachricht, Briefpost, Landingpages. Gewinnen Sie Zeit und bringen Sie Konsistenz in Ihrer Messaging-Strategie, indem Sie Vorlagen für alle Arten von Nachrichten (Transaktions-, wiederkehrende, mehrsprachige Nachrichten) erstellen. Führen Sie A/B-Tests durch und gewinnen Sie das Interesse Ihrer Zielgruppe mithilfe von Personalisierungs- und dynamischen Inhaltsfunktionen. [Erste Schritte mit Kommunikationskanälen](../../channels/using/get-started-communication-channels.md)
 
 **Verwenden Sie Campaign Email Designer**, um faszinierende, individuell zugeschnittene E-Mail-Nachrichten zu erstellen. Beginnen Sie von Grund auf neu oder nutzen Sie integrierte Inhaltsfragmente oder Vorlagen, um Ihre E-Mails im HTML-Format zu gestalten, das für ein responsives Design optimiert ist. [Erste Schritte mit dem Entwurf von E-Mail-Inhalten](../../designing/using/designing-content-in-adobe-campaign.md)
 

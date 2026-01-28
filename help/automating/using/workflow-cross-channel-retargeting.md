@@ -31,7 +31,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Doppelklicken Sie auf die Aktivität.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL E-Mail]** mit dem Operator **[!UICONTROL Ist nicht leer]** aus.
 1. Ziehen Sie in **[!UICONTROL Verknüpfungen]** das Element **[!UICONTROL Profile]** in den Arbeitsbereich und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 ![](assets/wf-complement-query.png)
 
@@ -47,7 +47,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
 1. Personalisieren Sie Ihre E-Mail je nach Ort mit spezifischen Angeboten. Weiterführende Informationen finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Nicht-Öffner in einer Abfrageaktivität auswählen{#targeting-non-openers-in-a-query-activity}
 
@@ -59,7 +59,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Versand]** die Option **[!UICONTROL Versand]** mit dem Operator **[!UICONTROL Ist gleich]** in den Arbeitsbereich und wählen Sie als Wert den Versand aus.
 1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Versand]** die Option **[!UICONTROL Typ]** in den Arbeitsbereich und aktivieren Sie als Wert **[!UICONTROL Öffnen]**.
 1. Wählen Sie als Operator zwischen den Regeln **[!UICONTROL Außer]** aus.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 ## SMS-Versand erstellen{#creating-a-sms-delivery}
 
@@ -72,7 +72,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
 1. Personalisieren Sie Ihre SMS je nach Ort mit spezifischen Angeboten. Weiterführende Informationen hierzu finden Sie im Abschnitt [SMS erstellen](../../channels/using/creating-an-sms-message.md).
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ![](assets/wf-retargeting-non-openers.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Fehler und Bounces
-description: Im vordefinierten Bericht über Fehler und Bounces erhalten Sie Informationen zu Fehlern, die während des Versands aufgetreten sind.
+title: Unzustellbare Nachrichten und Bounces
+description: Im vordefinierten Bericht über unzustellbare Nachrichten und Bounces erhalten Sie Informationen zu Fehlern, die während des Versands aufgetreten sind.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,15 +10,15 @@ role: Leader
 level: Intermediate
 exl-id: c527e890-2b49-4422-a866-e55a6468c54b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
 ht-degree: 100%
 
 ---
 
-# Fehler und Bounces{#non-deliverables-and-bounces}
+# Unzustellbare Nachrichten und Bounces{#non-deliverables-and-bounces}
 
-Der Bericht **[!UICONTROL Fehler und Bounces]** enthält Informationen zu allen beim Versand aufgetretenen Fehlern.
+Der Bericht **[!UICONTROL Unzustellbare Nachrichten und Bounces]** enthält Informationen zu allen beim Versand aufgetretenen Fehlern.
 
 ![](assets/delivery_reports_7.png)
 

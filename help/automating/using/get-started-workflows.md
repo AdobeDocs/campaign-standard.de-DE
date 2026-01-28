@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Workflow-Aktivitäten</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Anwendungsfälle</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Daten filtern</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Workflow-Aktivitäten</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Anwendungsfälle</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtern von Daten</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Daten importieren/exportieren</a></p></td></tr>
 </table>
 
@@ -47,19 +47,19 @@ Mit [Ausführungsaktivitäten](../../automating/using/about-execution-activities
 
 Schließlich können Sie mit [Daten-Management-Aktivitäten](../../automating/using/about-data-management-activities.md) die Daten aus Ihrer Datenbank bearbeiten.
 
-Mehr dazu:
+mehr dazu:
 
 * [Workflow erstellen](../../automating/using/building-a-workflow.md)
 * [Workflow ausführen](../../automating/using/about-workflow-execution.md)
 * [Best Practices bei Workflows](../../automating/using/best-practices-workflows.md)
 
-## Daten filtern {#filter-data}
+## Filtern von Daten {#filter-data}
 
 Verwenden Sie den **Abfrage-Editor**, um Daten aus Ihrer Datenbank zu filtern und eine Population zu erstellen, um Ihre Empfänger besser zu erreichen. Der Abfrage-Editor steht für verschiedene Aktionen in Campaign Standard zur Verfügung: Erstellen von Zielgruppen für Abfragetypen, Definieren von Versandzielen oder Populationen in Workflow-Aktivitäten.
 
 Der Abfrage-Editor enthält **vordefinierte Filter und Regeln** für eine schnelle und einfache Filterung. Sie können jedoch auch die **erweiterte Ausdrucksbearbeitung** verwenden. Auf diese Weise können Sie Bedingungen manuell eingeben und Funktionen verwenden, um eigene Regeln zu bilden.
 
-Mehr dazu:
+mehr dazu:
 
 * [Abfrageeditor](../../automating/using/editing-queries.md)
 * [Ausdrucksbearbeitung](../../automating/using/advanced-expression-editing.md)
@@ -79,7 +79,7 @@ Nutzen Sie [Packages](../../automating/using/managing-packages.md), um Ressource
 
 Schließlich können Sie mit dem [Listenexport](../../automating/using/exporting-lists.md) beliebige Listen aus Campaign Standard exportieren, z. B. die Liste der Testprofile, die Liste der E-Mail-Adressen in Quarantäne usw.
 
-Mehr dazu:
+mehr dazu:
 
 * [Datenimport und -export](../../automating/using/about-data-import-and-export.md)
 * [Anwendungsfall: Exportieren/Importieren benutzerdefinierter Ressourcen](../../automating/using/exporting-importing-custom-resources.md)

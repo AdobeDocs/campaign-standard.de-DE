@@ -48,7 +48,7 @@ Sie haben die Möglichkeit, beispielsweise jeden Dienstag allen Kunden eine E-Ma
 1. Ziehen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Profil]** die Option **[!UICONTROL E-Mail]** in den Arbeitsbereich.
 1. Wählen Sie als Operator **[!UICONTROL Ist nicht leer]** aus.
 1. Fügen Sie in **[!UICONTROL Schnellzugriffe]** > **[!UICONTROL Allgemein]** Profile hinzu und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 ![](assets/wf-complement-query.png)
 
@@ -62,7 +62,7 @@ Sie haben die Möglichkeit, beispielsweise jeden Dienstag allen Kunden eine E-Ma
 1. Um das Layout Ihrer E-Mail zu definieren, wählen Sie **[!UICONTROL Email Designer]** aus.
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
 1. Personalisieren Sie Ihre E-Mail mit Feldern und Links.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 

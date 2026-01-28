@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/marketing-activities.md#creating-a-marketing-activity), ausgehend von der [Adobe Campaign-Startseite](../../start/using/interface-description.md#home-page) oder in der [Liste der Marketing-Aktivitäten](../../start/using/marketing-activities.md#about-marketing-activities). In Workflows lassen sich ebenfalls E-Mails zum einmaligen oder zum wiederkehrenden Versand erstellen.
 
-![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](#video).
+![](assets/do-not-localize/how-to-video.png) [Mehr zu dieser Funktion erfahren Sie im Video.](#video).
 
 1. Erstellen Sie eine neue Marketing-Aktivität vom Typ E-Mail und wählen Sie die E-Mail-Vorlage aus, die Sie verwenden möchten.
 
@@ -104,6 +104,6 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
 In diesem Video wird gezeigt, wie man eine E-Mail erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30221?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

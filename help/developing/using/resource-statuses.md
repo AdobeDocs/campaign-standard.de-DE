@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 7290ebc5-8a58-4b7f-99bf-d942e37c944e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ Im Übersichtsbildschirm der **[!UICONTROL benutzerdefinierten Ressourcen]** wir
 
 **Veröffentlichungsstatus**
 
-* **Entwurf**: Die Ressource wurde neu erstellt oder zurückgesetzt. Sie muss veröffentlicht werden, um die Tabellen und Datenbankfelder sowie die entsprechenden APIs zu erzeugen. Eine zurückgesetzte Ressource wird im Zuge der Veröffentlichung automatisch deaktiviert.
-* **Initialisierung ausstehend**: Die Zurücksetzung erfolgt während der nächsten Veröffentlichung. Die Initialisierung erfolgt im Zuge der nächsten Veröffentlichung. Sowohl bei der Zurücksetzung als auch bei der Vorbereitung der Veröffentlichung werden mehrere Warnmeldungen angezeigt, um den Benutzer zu informieren, .
+* **Entwurf**: Die Ressource wurde neu erstellt oder zurückgesetzt. Sie muss veröffentlicht werden, um die Tabellen und Datenbankfelder sowie die entsprechenden APIs zu erzeugen. Eine zurückgesetzte Ressource wird im Zuge der Veröffentlichung automatisch inaktiv gemacht.
+* **Initialisierung ausstehend**: Die Zurücksetzung erfolgt während der nächsten Veröffentlichung. Die Initialisierung erfolgt im Zuge der nächsten Veröffentlichung. Sowohl bei der Zurücksetzung als auch bei der Vorbereitung der Veröffentlichung werden mehrere Warnmeldungen angezeigt, um den Benutzer zu informieren.
 
   Weiterführende Informationen zum Zurücksetzen finden Sie im Abschnitt [Ressource löschen](../../developing/using/deleting-a-resource.md).
 

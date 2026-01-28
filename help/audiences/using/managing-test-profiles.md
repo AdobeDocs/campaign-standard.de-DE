@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 ## Über Testprofile {#about-test-profiles}
 
-Testprofile ermöglichen es, zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenkriterien entsprechen. Sie werden Audiences hinzugefügt, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Erhalt der Sendungen zu kontrollieren.
+Testprofile ermöglichen es, zusätzliche Empfänger anzusprechen, die nicht den definierten Targeting-Kriterien entsprechen. Sie werden Zielgruppen hinzugefügt, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerliste aufzudecken oder den korrekten Erhalt der Sendungen zu kontrollieren.
 
-![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [Mehr zu dieser Funktion erfahren Sie im Video.](#video).
 
-Testprofile werden im erweiterten Menü **[!UICONTROL Profile &amp; Audiences > Testprofile]** verwaltet.
+Testprofile werden im erweiterten Menü **[!UICONTROL Profile und Zielgruppen > Testprofile]** verwaltet.
 
 Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktinformationen, die verschiedenen Zwecken dienen können:
 
@@ -40,11 +40,11 @@ Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktin
 
 ## Testprofile erstellen {#creating-test-profiles}
 
-1. Greifen Sie mithilfe des Adobe Campaign-Logos auf das erweiterte Menü **Profile &amp; Audiences > Testprofile** zu, um die Liste mit Testprofilen aufzurufen.
+1. Greifen Sie mithilfe des Adobe Campaign-Logos auf das erweiterte Menü **Profile und Zielgruppen > Testprofile** zu, um die Liste mit Testprofilen aufzurufen.
 
    ![](assets/test_profile_creation_1.png)
 
-1. Verwenden Sie in der Übersicht der **[!UICONTROL Testprofile]** die Schaltfläche **Erstellen**.
+1. Verwenden Sie im **[!UICONTROL Testprofile]**-Dashbord die Schaltfläche **Erstellen**.
 
    ![](assets/test_profile_creation_2.png)
 
@@ -76,12 +76,12 @@ Gehen Sie wie folgt vor, um ein bereits existierendes Testprofil zu bearbeiten b
 
    ![](assets/test_profile_edit.png)
 
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Speichern]**, falls Sie Änderungen vorgenommen haben. Andernfalls können Sie oben im Bildschirm den Namen des Testprofils anklicken und dann in der sich öffnenden Dropdown-Liste **[!UICONTROL Testprofile]** auswählen, um zur Übersicht der Testprofile zurückzukehren.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Speichern]**, falls Sie Änderungen vorgenommen haben. Andernfalls können Sie oben im Bildschirm den Namen des Testprofils anklicken und dann in der sich öffnenden Dropdown-Liste **[!UICONTROL Testprofile]** auswählen, um zum Testprofile-Dashbord zurückzukehren.
 
 ## Anleitungsvideo {#video}
 
 In diesem Video wird gezeigt, wie man ein Testprofil erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30205?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

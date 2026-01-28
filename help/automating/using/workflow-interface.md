@@ -158,10 +158,10 @@ Wählen Sie dabei die Aktivitäten aus, indem Sie rund um sie einen Kreis ziehen
 
 ![](assets/wkf_copypaste3.png)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 In diesem Video wird gezeigt, wie man einen Workflow erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30204?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

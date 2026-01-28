@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
 ht-degree: 100%
 
@@ -42,13 +42,13 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
    >
    >Achten Sie darauf, dass das ID-Feld kein Leerzeichen enthält, um Unstimmigkeiten zu vermeiden, z. B. bei der Integration mit Adobe Analytics.
 
-1. Definieren Sie die Audience, die in der Extraktionsdatei enthalten sein soll, sowie die Profile, die getestet und mit Fallen versehen werden sollen. Siehe [Briefpost-Audience definieren](../../channels/using/defining-the-direct-mail-audience.md).
+1. Definieren Sie die Zielgruppe, die in der Extraktionsdatei enthalten sein soll, sowie die Profile, die getestet und mit Fallen versehen werden sollen. Siehe [Briefpost-Zielgruppe definieren](../../channels/using/defining-the-direct-mail-audience.md).
 
    ![](assets/direct_mail_4.png)
 
    >[!NOTE]
    >
-   >Die Definition der Audience erfolgt ähnlich der Definition einer gewöhnlichen E-Mail-Audience. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
+   >Die Definition der Zielgruppe erfolgt ähnlich der Definition einer gewöhnlichen E-Mail-Zielgruppe. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Zielgruppen](../../audiences/using/creating-audiences.md).
 
 1. Bearbeiten Sie den Inhalt Ihrer Datei: die Spalten für jedes Profil, Dateistruktur, Kopf- und Fußzeile. Siehe [Briefpost-Inhalt definieren](../../channels/using/defining-the-direct-mail-content.md).
 
@@ -68,7 +68,7 @@ Die Erstellung eines Briefpost-Versands ist der Erstellung einer üblichen E-Mai
 
    ![](assets/direct_mail_19.png)
 
-1. Nachdem Sie den Versandinhalt, die Audience und das Kontaktdatum definiert haben, wählen Sie die Schaltfläche **[!UICONTROL Vorbereiten]** im Versand-Dashboard aus.
+1. Nachdem Sie den Versandinhalt, die Zielgruppe und das Kontaktdatum definiert haben, wählen Sie die Schaltfläche **[!UICONTROL Vorbereiten]** im Versand-Dashboard aus.
 
    ![](assets/direct_mail_16.png)
 

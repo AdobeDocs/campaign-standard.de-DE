@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Bei der Erstellung einer Marketing-Aktivität ist im ersten Schritt des Assisten
 
 Der Endbenutzer verfügt über eine vereinfachte Benutzeroberfläche. Zur Erstellung einer neuen Marketing-Aktivität wählt er den gewünschten, auf einer Vorlage basierenden Typ aus. Technische Konfigurationen können ignoriert werden. Dies wurde bereits vom funktionalen Administrator in der Vorlage vorkonfiguriert.
 
-Beispielsweise können Sie im Fall einer E-Mail-Vorlage den HTML-Inhalt, die Audience und andere Versandparameter automatisch ausfüllen lassen: den Zeitplan, die Testprofile, die allgemeinen Eigenschaften Ihrer Sendungen, die erweiterten Parameter etc. Dadurch sparen Sie Zeit bei der Erstellung einer neuen Aktivität.
+Beispielsweise können Sie im Fall einer E-Mail-Vorlage den HTML-Inhalt, die Zielgruppe und andere Versandparameter automatisch ausfüllen lassen: den Zeitplan, die Testprofile, die allgemeinen Eigenschaften Ihrer Sendungen, die erweiterten Parameter etc. Dadurch sparen Sie Zeit bei der Erstellung einer neuen Aktivität.
 
 ![](assets/template_1.png)
 
@@ -35,7 +35,7 @@ Für folgende Marketing-Aktivitäten stehen Vorlagen zur Verfügung:
 * Kampagnen
 * E-Mail-Versand
 * SMS-Versand
-* Push-Benachrichtigungen
+* Push-Benachrichtigungen 
 * Landingpages
 * Workflows
 * Dienste

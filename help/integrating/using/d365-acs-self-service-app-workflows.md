@@ -26,11 +26,11 @@ Für die Integrationsanwendung stehen drei Workflows zur Verfügung:
 
 **Microsoft Dynamics 365 zu Campaign**
 * Senden von *Kontakten* von Microsoft Dynamics 365 an Adobe Campaign.
-* *Benutzerdefinierte Entitäten*: Einbinden von benutzerdefinierten Tabellen aus Microsoft Dynamics 365 in Campaign. [Mehr dazu](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
+* *Benutzerdefinierte Entitäten*: Einbinden von benutzerdefinierten Tabellen aus Microsoft Dynamics 365 in Campaign. [Weitere Informationen](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
 * Dies wird auch als **Eingang** bezeichnet (und bezieht sich auf den Eingang von Daten von Microsoft Dynamics 365 in Adobe Campaign).
 
 **Campaign zu Microsoft Dynamics 365**
-* E-Mail-Marketing-Ereignisse von Adobe Campaign Standard werden an Dynamics 365 gesendet (E-Mail-Versand, Öffnung, Klick, Bounce). [Mehr dazu](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* E-Mail-Marketing-Ereignisse von Adobe Campaign Standard werden an Dynamics 365 gesendet (E-Mail-Versand, Öffnung, Klick, Bounce). [Weitere Informationen](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
 * Dies wird auch als **Ausgang** bezeichnet (und bezieht sich auf die Ausgabe von Daten von Adobe Campaign an Microsoft Dynamics 365).
 
 **Opt-in/Opt-out**

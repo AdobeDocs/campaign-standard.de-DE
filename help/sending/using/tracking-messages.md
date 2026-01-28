@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Tracking mit Adobe Campaign Standard bietet Ihnen Zugriff auf folgende Funktione
 <td>E-Mail-Tracking</td>
 <td>Push-Tracking</td>
 <td>Getrackte URLs</td>
-<td>Trackinglogs </td>
+<td>Trackinglogs         </td>
 <td>Tracking-Bericht</td>
 </tr>
 </table>

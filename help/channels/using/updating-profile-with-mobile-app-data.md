@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Zur Aktivierung von Push-Benachrichtigungen in Campaign Standard müssen mehrere
 
 ## Schritt 1: Erweitern der Profilressource für Push-Benachrichtigungen/Abonnements
 
-Um in der Profilressource PII-Daten eintragen oder aktualisieren zu können, müssen Sie die gewünschten Felder zunächst zur Profilressource hinzufügen. Gehen Sie wie folgt vor:
+Um in der Profilressource PII-Daten eintragen oder aktualisieren zu können, müssen Sie die gewünschten Felder zunächst zur Profilressource hinzufügen. Gehen Sie dazu wie folgt vor:
 
 * Ermitteln Sie, welche PII-Felder von der Mobile App übertragen werden.
 * Ermitteln Sie, welches Feld zur Verknüpfung der PII-Daten mit den Profildaten abgestimmt werden soll.

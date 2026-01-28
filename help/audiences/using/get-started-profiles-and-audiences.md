@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
 ht-degree: 100%
 
@@ -40,18 +40,18 @@ Mit **integrierten Kundenprofilen**, **benutzerdefinierten Segmenten** und **Kon
 
 In Adobe Campaign werden umfassende Kundenprofile in Echtzeit erstellt, wodurch Sie relevante und personalisierte Angebote entsprechend den Präferenzen Ihrer Kunden versenden können. Zusätzlich verfügt Adobe Campaign zur Definition von Audiences über erweiterte Funktionen zur Analyse, Datenverwaltung und Zielgruppenbestimmung.
 
-**Profile sind einzelne in der Datenbank gespeicherte Kontakte.** Jedes Profil entspricht einem Datensatz in der Datenbank, welcher alle nötigen Informationen zu seiner Qualifizierung, Verwendung in Zielgruppen und zum Tracking enthält: Adobe Campaign verfolgt alle von Online- und Offline-Kanälen ausgehenden Interaktionen und vereint sie zu einem gemeinsamen Profil.
+**Profile sind einzelne in der Datenbank gespeicherte Kontakte.** Jedes Profil entspricht einem Datensatz in der Datenbank, welcher alle nötigen Informationen zu seiner Qualifizierung, Verwendung in Zielgruppen und zum Tracking enthält: Adobe Campaign verfolgt alle von Online- und Offline-Kanälen ausgehenden Interaktionen und führt sie zu einem gemeinsamen Profil zusammen.
 
-**Audiences bestehen aus Listen mit Profilen, die nach einem oder mehreren Kriterien zusammengestellt werden.** Workflows und das grafische Abfragetool erlauben die Erstellung von Audiences entsprechend den verfügbaren Informationen, dem Verhalten und dem Marketing-Verlauf Ihrer Kontakte, um Ihre Marketing-Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern, Probe-Audiences oder auf einer unbegrenzten Anzahl an Kriterien basierende Zielgruppen erstellen.
+**Zielgruppen bestehen aus Listen mit Profilen, die nach einem oder mehreren Kriterien zusammengestellt werden.** Workflows und der Abfrage-Editor erlauben die Erstellung von Zielgruppen entsprechend den verfügbaren Informationen, dem Verhalten und dem Marketing-Verlauf Ihrer Kontakte, um Ihre Marketing-Kampagnen perfekt auf die angesprochenen Zielgruppen zuzuschneiden. Sie können beispielsweise angemeldete Profile filtern, Probe-Audiences oder auf einer unbegrenzten Anzahl an Kriterien basierende Zielgruppen erstellen.
 
-Mehr dazu:
+mehr dazu:
 
 * [Über Profile](../../audiences/using/about-profiles.md)
 * [Aktive Profile](../../audiences/using/active-profiles.md)
 * [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md)
 * [Anreicherung der Campaign-Datenbank](../../audiences/using/enriching-campaign-database.md)
 * [Über Zielgruppen](../../audiences/using/about-audiences.md)
-* [Audience in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Zielgruppe in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Hinzufügen einer Kontrollgruppe](../../sending/using/control-group.md)
 
 ## Einverständnis der Benutzer {#permission}
@@ -68,7 +68,7 @@ Durch die Bereitstellung von **Abmelde-Links** in Ihren Nachrichten können Prof
 >
 >Sie müssen die [Adobe Campaign-Nutzungsbedingungen](https://www.adobe.com/de/legal/terms/aup.html) beachten.
 
-Mehr dazu:
+mehr dazu:
 
 * [Über Abonnements](../../audiences/using/about-subscriptions.md)
 * [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
@@ -85,8 +85,8 @@ Datenschutz und Einverständniserklärung in Campaign und deren Verwaltung werde
 
 ## Zusätzliche Ressourcen
 
-* [Adobe Experience Platform-Audiences in Campaign aufnehmen](../../integrating/using/ingest-aep-data.md)
+* [Adobe Experience Platform-Zielgruppen in Campaign aufnehmen](../../integrating/using/ingest-aep-data.md)
 * [Microsoft Dynamics 365 verwenden](../../integrating/using/d365-acs-get-started.md)
-* [Für Adobe freigegebene Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Für Adobe freigegebene Zielgruppen](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows zum Importieren von Profilen verwenden](../../automating/using/creating-import-workflow-templates.md)
-* [Videos zu Profilen und Audiences](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=de)
+* [Videos zu Profilen und Zielgruppen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=de)

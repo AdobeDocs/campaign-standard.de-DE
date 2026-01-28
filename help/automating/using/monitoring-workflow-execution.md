@@ -39,7 +39,7 @@ In beiden Listen:
 * ermöglicht die Schaltfläche **[!UICONTROL Liste konfigurieren]** die Auswahl der anzuzeigenden Informationen, die Bestimmung der Spaltenreihenfolge sowie die Sortierung der Liste.
 * Mithilfe von Filtern können Sie Informationen schneller auffinden. Über das Suchfeld können Sie nach einem bestimmten Text in den Namen der Workflow-Aktivitäten (Beispiel: &quot;Abfrage&quot;) und Protokollen suchen.
 
-## Umgang mit Fehlern          {#error-management}
+## Umgang mit Fehlern {#error-management}
 
 Wenn ein Fehler auftritt, wird der Workflow ausgesetzt und die bei Fehlerauftritt ausgeführte Aktivität blinkt rot.
 
@@ -51,7 +51,7 @@ In diesem Fall wird die fehlerhafte Aufgabe abgebrochen. Dieser Modus ist insbes
 
 >[!NOTE]
 >
->Es besteht die Möglichkeit, diese Vorgehensweise innerhalb eines Workflows nur für bestimmte Aktivitäten zu konfigurieren. Wählen Sie hierzu die gewünschte Aktivität aus, öffnen Sie sie mithilfe der Schnellaktion ![](assets/edit_darkgrey-24px.png) und wählen Sie im Bereich **Ausführungsoptionen** den gewünschten Umgang mit Fehlern aus. Siehe [Ausführungsoptionen von Aktivitäten](../../automating/using/activity-properties.md).
+>Es besteht die Möglichkeit, diese Vorgehensweise individuell für jede Aktivität zu konfigurieren. Wählen Sie hierzu die gewünschte Aktivität aus, öffnen Sie sie mithilfe der Schnellaktion ![](assets/edit_darkgrey-24px.png) und wählen Sie im Bereich **Ausführungsoptionen** den gewünschten Umgang mit Fehlern aus. Siehe [Ausführungsoptionen von Aktivitäten](../../automating/using/activity-properties.md).
 
 In den [Eigenschaften des Workflows](../../automating/using/managing-execution-options.md) stehen zusätzliche Optionen zur Verwaltung von Fehlern zur Verfügung.
 

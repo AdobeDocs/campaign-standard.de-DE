@@ -9,7 +9,7 @@ role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Mit der **Drag &amp; Drop-Benutzeroberfläche** für die dynamische Berichterste
 
 **Verwalten Sie Ihre dynamischen Berichte** dank verschiedener Funktionen: Aktualisieren Sie die Daten in Echtzeit, drucken Sie Ihre Berichte oder exportieren Sie sie als CSV-Dateien. Sie können Ihre Berichte auch über einmalige oder wiederkehrende E-Mails für Campaign Standard-Benutzer freigeben.
 
-Mehr dazu:
+mehr dazu:
 
 * [Über dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 * [Benutzeroberfläche für die Berichterstellung](../../reporting/using/reporting-interface.md)
@@ -49,7 +49,7 @@ Campaign Standard verfügt über eine Reihe **vordefinierter dynamischer Bericht
 
 **Kombinieren Sie verschiedene Komponenten** (Dimensionen, Metriken und Segmente, Zeiträume), um eigene Berichte zu erstellen oder native Berichte zu personalisieren.
 
-Mehr dazu:
+mehr dazu:
 
 * [Liste von Komponenten](../../reporting/using/list-of-components.md)
 * [Indikatorberechnung](../../reporting/using/indicator-calculation.md)
@@ -65,7 +65,7 @@ Ziehen Sie **Visualisierungselemente** per Drag-and-Drop in den Arbeitsbereich, 
 
 Erstellen Sie Berichte anhand **benutzerdefinierter Profildaten**, die während der Ressourcenerweiterung des Profils erstellt wurden, und **Berichte anhand von Segmenten**, die in Zielgruppen-Workflows definiert wurden.
 
-Mehr dazu:
+mehr dazu:
 
 * [Panels hinzufügen](../../reporting/using/adding-panels.md)
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
@@ -78,10 +78,10 @@ Mehr dazu:
 * [Logs exportieren](../../automating/using/exporting-logs.md)
 * [Über die Integration von Campaign mit Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 In diesem Video erhalten Sie einen Überblick über die Berichtsfunktionen von Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/38313?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

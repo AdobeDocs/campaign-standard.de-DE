@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -70,6 +70,6 @@ Gehen Sie wie folgt vor, um eine Typologie mit einer Nachricht zu verknüpfen:
 
    ![](assets/typology_message.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
    Die ausgewählte Typologie ist jetzt mit der Nachricht verknüpft. Alle zugehörigen Typologieregeln werden ausgeführt, um die Gültigkeit der Nachricht zu überprüfen.

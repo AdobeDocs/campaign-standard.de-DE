@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Die wichtigsten Schritte zur Implementierung dieses Anwendungsfalls werden nachf
 
    ![](assets/message-center_usecase4.png)
 
-1. Wählen Sie dann im Bereich **[!UICONTROL Zielgruppen-Anreicherung]** die Anreicherung der Ressource **[!UICONTROL Profil]** aus, die beim Versand als Zielgruppe verwendet wird.
+1. Wählen Sie dann im Bereich **[!UICONTROL Zielgruppenbestimmungs-Anreicherung]** die Anreicherung der Ressource **[!UICONTROL Profil]** aus, die beim Versand als Zielgruppe verwendet wird.
 
    ![](assets/message-center_usecase5.png)
 

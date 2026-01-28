@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1419'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben ver�
 
 ### Schritt 2: Dienst erstellen und konfigurieren {#step-2--create-and-configure-the-service-1}
 
-1. Erstellen Sie ausgehend vom Adobe Campaign-Logo im erweiterten Menü **Profile &amp; Audiences** > **Dienste** einen Dienst.
+1. Erstellen Sie ausgehend vom Adobe Campaign-Logo im erweiterten Menü **Profile und Zielgruppen** > **Dienste** einen Dienst.
 1. Gehen Sie zum Bereich **[!UICONTROL Diensteigenschaften]**, auf den Sie über die Schaltfläche ![](assets/edit_darkgrey-24px.png) im Dienst-Dashboard zugreifen können.
 1. Füllen Sie das Feld **[!UICONTROL Diensttitel]** aus.
 
@@ -124,7 +124,7 @@ Wenn sich nun Profile für diesen Service anmelden, erhalten sie die von Ihnen d
 
 ## Bestätigungsnachricht über eine Landingpage konfigurieren {#configuring-confirmation-message-from-landing-page}
 
-Sie können auch auf einer Abonnement-Landingpage einen Verweis auf die Bestätigungsnachricht erstellen, indem Sie die Option **[!UICONTROL Absendung einer Nachricht auslösen]** im Bereich **[!UICONTROL Vorgang]** der Landingpage verwenden.
+Sie können auch auf einer Abonnement-Landingpage einen Verweis auf die Bestätigungsnachricht erstellen, indem Sie die Option **[!UICONTROL Absendung einer Nachricht auslösen]** im Bereich **[!UICONTROL Auftrag]** der Landingpage verwenden.
 
 Beim Verweisen auf die Bestätigungsnachricht über die Landingpage wird jedes Mal eine Nachricht gesendet, wenn auf der Landingpage die Sendefunktion aktiviert wird (auch wenn das Profil bereits ein Abonnement hat).
 
@@ -166,7 +166,7 @@ Die Schritte zum Erstellen der Transaktionsnachricht werden in diesem [Abschnitt
 
 ### Schritt 2: Dienst erstellen und konfigurieren {#step-2--create-and-configure-the-service-2}
 
-1. Erstellen Sie ausgehend vom Adobe Campaign-Logo im erweiterten Menü **[!UICONTROL Profile &amp; Audiences]** > **[!UICONTROL Dienste]** einen Dienst.
+1. Erstellen Sie ausgehend vom Adobe Campaign-Logo im erweiterten Menü **[!UICONTROL Profile und Zielgruppen]** > **[!UICONTROL Dienste]** einen Dienst.
 1. Gehen Sie zum Bereich **[!UICONTROL Diensteigenschaften]**, auf den Sie über die Schaltfläche ![](assets/edit_darkgrey-24px.png) im Dienst-Dashboard zugreifen können.
 1. Füllen Sie das Feld **[!UICONTROL Diensttitel]** aus. Dieser Titel wird in der Bestätigungsnachricht sowie in der Anmelde-Landingpage angezeigt.
 1. Wählen Sie **[!UICONTROL Bestätigen]** aus und speichern Sie den Dienst.
@@ -178,7 +178,7 @@ Erstellen Sie eine Abonnement-Landingpage, die schließlich auf Ihrer Website ve
 Gehen Sie wie folgt vor, um diese Landingpage zu erstellen und zu konfigurieren:
 
 1. Erstellen Sie auf der Basis der Vorlage [Abonnement](../../channels/using/getting-started-with-landing-pages.md) eine **[!UICONTROL neue Landingpage]**.
-1. Bearbeiten Sie die Eigenschaften der Landingpage. Wählen Sie im Bereich **[!UICONTROL Vorgang]** > **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Spezifischer Dienst]** aus und wählen Sie dann den soeben erstellten Dienst aus der Dropdown-Liste aus.
+1. Bearbeiten Sie die Eigenschaften der Landingpage. Wählen Sie im Bereich **[!UICONTROL Auftrag]** > **[!UICONTROL Spezifische Aktionen]** die Option **[!UICONTROL Spezifischer Dienst]** aus und wählen Sie dann den soeben erstellten Dienst aus der Dropdown-Liste aus.
 
    ![](assets/confirmation_lp-specific-service.png)
 

@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1606'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Die wichtigsten Schritte sind:
    >
    >Die Testsendungen werden von [!DNL Campaign Standard] als Standardlieferungen verarbeitet. Daher werden durch den Versand von Testsendungen mithilfe der Profilersetzung den Versand- und Trackinglogs der ausgewählten Profile Datensätze hinzugefügt.
 
-![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](#video).
+![](assets/do-not-localize/how-to-video.png) [Mehr zu dieser Funktion erfahren Sie im Video.](#video).
 
 ## Auswählen von Profilen und Ersatzadressen {#selecting-profiles}
 
@@ -51,7 +51,7 @@ Um Zielgruppenprofile zum Testen zu verwenden, müssen Sie diese zunächst ausw�
 
 ### Auswählen einzelner Profile {#selecting-individual-profiles}
 
-1. Vergewissern Sie sich im Nachrichten-Dashboard, dass die Nachrichtenvorbereitung erfolgreich war, und klicken Sie dann auf den **[!UICONTROL Audience]**-Bereich.
+1. Vergewissern Sie sich im Nachrichten-Dashboard, dass die Nachrichtenvorbereitung erfolgreich war, und klicken Sie dann auf den **[!UICONTROL Zielgruppe]**-Bereich.
 
    ![](assets/substitution_preparation.png)
 
@@ -97,27 +97,27 @@ Um Zielgruppenprofile zum Testen zu verwenden, müssen Sie diese zunächst ausw�
 >
 >Wenn Sie Änderungen an Ihrer Nachricht vornehmen, stellen Sie sicher, dass Sie die Nachrichtenvorbereitung erneut starten. Andernfalls werden die Änderungen im Testversand nicht übernommen.
 
-### Importieren von Profilen aus einer Audience {#importing-from-audience}
+### Importieren von Profilen aus einer Zielgruppe {#importing-from-audience}
 
-Campaign Standard ermöglicht den Import einer Audience mit Profilen, die Sie zum Testen verwenden können. So können Sie beispielsweise mehrere Nachrichten, die sich an verschiedene Profile richten, an eine einzige E-Mail-Adresse senden.
+Campaign Standard ermöglicht den Import einer Zielgruppe mit Profilen, die Sie zum Testen verwenden können. So können Sie beispielsweise mehrere Nachrichten, die sich an verschiedene Profile richten, an eine einzige E-Mail-Adresse senden.
 
-Wenn Ihre Audience bereits mit den Spalten „Adresse“ und „Präfix“ konfiguriert ist, können Sie diese Informationen auf dem Tab **[!UICONTROL Profilersetzungen]** auch importieren. Ein Beispiel für den Import einer Audience mit Ersatzadressen finden Sie in [diesem Abschnitt](#use-case).
+Wenn Ihre Zielgruppe bereits mit den Spalten „Adresse“ und „Präfix“ konfiguriert ist, können Sie diese Informationen auf dem Tab **[!UICONTROL Profilersetzungen]** auch importieren. Ein Beispiel für den Import einer Zielgruppe mit Ersatzadressen finden Sie in [diesem Abschnitt](#use-case).
 
 >[!NOTE]
 >
 >Beim Importieren einer Audience werden nur die Profile, die der Zielgruppe der Nachricht entsprechen, ausgewählt und zum Tab **[!UICONTROL Profilersetzungen]** hinzugefügt.
 
-Gehen Sie wie folgt vor, um Profile, die zum Testen einer Audience verwendet werden sollen, zu importieren:
+Gehen Sie wie folgt vor, um Profile, die zum Testen einer Zielgruppe verwendet werden sollen, zu importieren:
 
-1. Vergewissern Sie sich im Nachrichten-Dashboard, dass die Nachrichtenvorbereitung erfolgreich war, und klicken Sie dann auf den **[!UICONTROL Audience]**-Bereich.
+1. Vergewissern Sie sich im Nachrichten-Dashboard, dass die Nachrichtenvorbereitung erfolgreich war, und klicken Sie dann auf den **[!UICONTROL Zielgruppe]**-Bereich.
 
    ![](assets/substitution_preparation.png)
 
-1. Klicken Sie auf dem Tab **[!UICONTROL Profilersetzungen]** auf **[!UICONTROL Aus einer Audience importieren]**.
+1. Klicken Sie auf dem Tab **[!UICONTROL Profilersetzungen]** auf **[!UICONTROL Aus einer Zielgruppe importieren]**.
 
    ![](assets/substitution_audience_import.png)
 
-1. Wählen Sie die zu verwendende Audience aus und geben Sie dann die Ersatzadresse und das Präfix ein, die für die an die Audience gesendeten Testsendungen verwendet werden sollen.
+1. Wählen Sie die zu verwendende Zielgruppe aus und geben Sie dann die Ersatzadresse und das Präfix ein, die für die an die Zielgruppe gesendeten Testsendungen verwendet werden sollen.
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Gehen Sie wie folgt vor, um Profile, die zum Testen einer Audience verwendet wer
 
    ![](assets/substitution_audience_define.png)
 
-   Wenn die zu verwendenden Ersatzadressen und/oder Präfixe in Ihrer Audience bereits definiert wurden, wählen Sie die Option **[!UICONTROL Aus Audience]** und geben Sie dann die Spalte an, die zum Abrufen der Informationen verwendet werden soll.
+   Wenn die zu verwendenden Ersatzadressen und/oder Präfixe in Ihrer Zielgruppe bereits definiert wurden, wählen Sie die Option **[!UICONTROL Aus Zielgruppe]** und geben Sie dann die Spalte an, die zum Abrufen der Informationen verwendet werden soll.
 
    ![](assets/substitution_fromaudience.png)
 
@@ -135,7 +135,7 @@ Gehen Sie wie folgt vor, um Profile, die zum Testen einer Audience verwendet wer
 
 >[!NOTE]
 >
->Wenn Sie die gleiche Audience mit unterschiedlichen Ersatzadressen und/oder Präfixen erneut importieren, werden die Profile zusätzlich zu den Profilen aus dem vorherigen Import der Liste hinzugefügt.
+>Wenn Sie die gleiche Zielgruppe mit unterschiedlichen Ersatzadressen und/oder Präfixen erneut importieren, werden die Profile zusätzlich zu den Profilen aus dem vorherigen Import der Liste hinzugefügt.
 
 ## Anzeigen einer Vorschau der Nachricht mit Zielgruppenprofilen
 
@@ -173,31 +173,31 @@ In diesem Beispiel möchten wir einen personalisierten E-Mail-Newsletter an best
 
 Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
 
-1. Erstellen Sie die Audience, die zum Testen verwendet werden soll.
+1. Erstellen Sie die Zielgruppe, die zum Testen verwendet werden soll.
 1. Richten Sie einen Workflow ein, um Profile in die Zielgruppe aufzunehmen und den Newsletter zu senden.
 1. Konfigurieren Sie die Profilersetzungen der Nachricht.
 1. Zeigen Sie eine Vorschau der Nachricht mit Zielgruppenprofilen an.
 1. Führen Sie einen Testversand durch.
 
-### Schritt 1: Audience für Testzwecke erstellen
+### Schritt 1: Zielgruppe für Testzwecke erstellen
 
-1. Bereiten Sie die zu importierende Datei vor, um die Audience zu erstellen. In unserem Beispiel sollte sie die für den Testversand zu verwendende Ersatzadresse und ein Präfix enthalten, das der Betreffzeile des Testversands hinzugefügt wird.
+1. Bereiten Sie die zu importierende Datei vor, um die Zielgruppe zu erstellen. In unserem Beispiel sollte sie die für den Testversand zu verwendende Ersatzadresse und ein Präfix enthalten, das der Betreffzeile des Testversands hinzugefügt wird.
 
    In diesem Fall erhält die E-Mail-Adresse „oliver.vaughan@internal.com“ einen Testversand der Nachricht, die an das Profil mit der E-Mail-Adresse „john.doe@mail.com“ gesendet wird. Der Betreffzeile des Testversands wird das Präfix „JD“ hinzugefügt.
 
    ![](assets/substitution_uc1.png)
 
-1. Richten Sie den Workflow ein, um eine Audience aus der Datei zu erstellen. Fügen Sie dazu die folgenden Aktivitäten hinzu und konfigurieren Sie sie:
+1. Richten Sie den Workflow ein, um eine Zielgruppe aus der Datei zu erstellen. Fügen Sie dazu die folgenden Aktivitäten hinzu und konfigurieren Sie sie:
 
    * Aktivität **[!UICONTROL Datei laden]**: Importiert die CSV-Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/load-file.md)).
    * Aktivität **[!UICONTROL Abstimmung]**: Verknüpft Informationen aus der Datei mit Informationen aus der Datenbank. In diesem Beispiel verwenden wir die E-Mail-Adresse des Profils als Abstimmungsfeld (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/reconciliation.md)).
-   * Aktivität **[!UICONTROL Audience-Speicherung]**: Erstellt eine Audience basierend auf der importierten Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/save-audience.md)).
+   * Aktivität **[!UICONTROL Audience-Speicherung]**: Erstellt eine Zielgruppe basierend auf der importierten Datei (weitere Informationen zu dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/save-audience.md)).
 
    ![](assets/substitution_uc2.png)
 
-1. Führen Sie den Workflow aus und klicken Sie dann auf den Tab **[!UICONTROL Audiences]**, um zu überprüfen, ob die Audience mit den gewünschten Informationen erstellt wurde.
+1. Führen Sie den Workflow aus und klicken Sie dann auf den Tab **[!UICONTROL Zielgruppen]**, um zu überprüfen, ob die Zielgruppe mit den gewünschten Informationen erstellt wurde.
 
-   In diesem Beispiel besteht die Audience aus drei Profilen. Jedes der Profile ist mit einer Ersatz-E-Mail-Adresse verknüpft, die den Testversand erhalten wird, inklusive eines Präfixes, das im Betreff des Testversands verwendet wird.
+   In diesem Beispiel besteht die Zielgruppe aus drei Profilen. Jedes der Profile ist mit einer Ersatz-E-Mail-Adresse verknüpft, die den Testversand erhalten wird, inklusive eines Präfixes, das im Betreff des Testversands verwendet wird.
 
    ![](assets/substitution_uc3.png)
 
@@ -211,31 +211,31 @@ Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
 
 ### Schritt 3: Tab zur Profilersetzung der Nachricht konfigurieren
 
-1. Öffnen Sie die Aktivität **[!UICONTROL E-Mail-Versand]**. Klicken Sie im Nachrichten-Dashboard auf den Bereich **[!UICONTROL Audiences]**.
+1. Öffnen Sie die Aktivität **[!UICONTROL E-Mail-Versand]**. Klicken Sie im Nachrichten-Dashboard auf den Bereich **[!UICONTROL Zielgruppen]**.
 
    ![](assets/substitution_uc5.png)
 
-1. Wählen Sie den Tab **[!UICONTROL Profilersetzungen]** und klicken Sie dann auf **[!UICONTROL Aus einer Audience importieren]**.
+1. Wählen Sie den Tab **[!UICONTROL Profilersetzungen]** und klicken Sie dann auf **[!UICONTROL Aus einer Zielgruppe importieren]**.
 
    ![](assets/substitution_uc6.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Audience]** die aus der Datei erstellte Audience aus.
+1. Wählen Sie im Feld **[!UICONTROL Zielgruppe]** die aus der Datei erstellte Zielgruppe aus.
 
    ![](assets/substitution_uc7.png)
 
 1. Definieren Sie die Ersatzadresse und das Betreffpräfix, die beim Senden der Testsendungen verwendet werden sollen.
 
-   Wählen Sie dazu die Option **[!UICONTROL Aus Audience]** und dann die Spalte aus der Audience, die die Informationen enthält.
+   Wählen Sie dazu die Option **[!UICONTROL Aus Zielgruppe]** und dann die Spalte aus der Zielgruppe, die die Informationen enthält.
 
    ![](assets/substitution_uc8.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Importieren]**. Profile aus der Audience werden der Liste zusammen mit den zugehörigen Ersatzadressen und den Betreffpräfixen hinzugefügt.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Importieren]**. Profile aus der Zielgruppe werden der Liste zusammen mit den zugehörigen Ersatzadressen und den Betreffpräfixen hinzugefügt.
 
    ![](assets/substitution_uc9.png)
 
    >[!NOTE]
    >
-   >In unserem Beispiel richtet sich die Aktivität **[!UICONTROL Abfrage]** an alle Profile der Audience. Wenn eines der Profile nicht zur Zielgruppe der Nachricht gehörte, wäre es nicht zur Liste hinzugefügt worden.
+   >In unserem Beispiel richtet sich die Aktivität **[!UICONTROL Abfrage]** an alle Profile der Zielgruppe. Wenn eines der Profile nicht zur Zielgruppe der Nachricht gehörte, wäre es nicht zur Liste hinzugefügt worden.
 
 ### Schritt 4: Vorschau der Nachricht mit Zielgruppenprofilen anzeigen
 
@@ -271,6 +271,6 @@ Die Umsetzung des Anwendungsbeispiels gliedert sich in folgende Schritte:
 
 In diesem Video wird gezeigt, wie Sie Ihre E-Mail-Nachrichten mithilfe der Profilersetzung testen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/36450?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

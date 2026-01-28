@@ -10,13 +10,13 @@ role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
 ht-degree: 100%
 
 ---
 
-# Best Practices beim Versand {#delivery-best-practices}
+# Best Practices für den Versand {#delivery-best-practices}
 
 Lernen Sie Best Practices im Zusammenhang mit der Erstellung und Durchführung eines Versands mit Adobe Campaign kennen. Verwenden Sie die folgenden Links, um durch die Themen zu navigieren und Anleitungen zu finden.
 
@@ -34,7 +34,7 @@ Lernen Sie Best Practices im Zusammenhang mit der Erstellung und Durchführung e
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Festlegen der richtigen Audience](define-the-right-audience.md)** – Anwenden der richtigen Einstellungen
+**[Festlegen der richtigen Zielgruppe](define-the-right-audience.md)** – Anwenden der richtigen Einstellungen
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 

@@ -35,7 +35,7 @@ Deshalb ist es ratsam sicherzustellen, dass Deduplizierungen nur eine einzige ei
 
 ![](assets/dedup_bonnepratique.png)
 
-**Verwandte Themen**
+**Verwandte Themen** 
 
 * [Anwendungsfall: Duplikate vor einem Versand identifizieren](../../automating/using/identifying-duplicated-before-delivery.md)
 * [Anwendungsfall: Daten einer importierten Datei deduplizieren](../../automating/using/deduplicating-data-imported-file.md)

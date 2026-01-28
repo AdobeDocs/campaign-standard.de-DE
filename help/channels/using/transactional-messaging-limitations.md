@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Die Anzahl der veröffentlichten Transaktionsnachrichten kann erhebliche Auswirk
 
 Um eine optimale Performance zu gewährleisten, können Sie auch die Veröffentlichung nicht verwendeter Ereignisse aufheben oder diese löschen. Wenn Sie die Veröffentlichung eines Ereignisses aufheben oder dieses löschen, werden auch die Veröffentlichung der entsprechenden Transaktionsnachricht(en) sowie deren Versand- und Trackinglogs (falls vorhanden) aufgehoben oder gelöscht. Siehe [Veröffentlichung eines Ereignisses aufheben](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) und [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Personalisierung            {#personalization}
+## Personalisierung {#personalization}
 
 Die Möglichkeiten zur Personalisierung eines Nachrichteninhalts hängt vom Typ der Transaktionsnachricht ab. Unten finden Sie die Spezifikationen.
 

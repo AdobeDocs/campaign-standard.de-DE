@@ -5,7 +5,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 </tr>
 <tr>
 <td>Sendungen entwerfen</td>
-<td>Sendungen erstellen</td>
+<td>Erstellen von Sendungen</td>
 <td>Sendungen personalisieren und dynamisch gestalten</td>
 <td>Sendungen verfolgen und überwachen</td>
 <td>Berichte einrichten</td>
@@ -47,18 +47,18 @@ ht-degree: 100%
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * xxxx
 * xxxx
 
-## Sendungen erstellen
+## Erstellen von Sendungen
 
 <img width="60px" alt="Bedingungen" src="assets/icon_profile.svg"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * xxxx
 * xxxx
@@ -80,7 +80,7 @@ Personalisierte Nachrichten sind wichtig, wenn Sie relevante Inhalte versenden, 
 
 ![](assets/delivery_content_43.png)
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * E-Mail-Personalisierung anhand eines [Beispiels](../../designing/using/personalization.md#example-email-personalization) verstehen
 * [URLs personalisieren](../../designing/using/personalization.md#personalizing-urls)
@@ -101,7 +101,7 @@ Die Benutzeroberfläche für Kampagnenberichte vereinfacht die Erstellung von dy
 Mit Adobe Campaign können Sie jeden einzelnen Versand beobachten und verfolgen. Im Nachrichten-Dashboard werden spezielle Logs angezeigt, mit deren Hilfe Prozesse und Regeln verfolgt sowie mögliche Fehler und Warnhinweise erkannt werden können.
 
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * [Zugriff auf Berichte](../../reporting/using/about-dynamic-reports.md)
 * [Sendungen überwachen](../../sending/using/monitoring-a-delivery.md)
@@ -113,7 +113,7 @@ Mit Adobe Campaign können Sie jeden einzelnen Versand beobachten und verfolgen.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Mehr dazu**
+**Weitere Informationen**
 
 * xxxx
 * xxxx

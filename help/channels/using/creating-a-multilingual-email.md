@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -21,13 +21,13 @@ Sie können eine mehrsprachige E-Mail an Profile mit unterschiedlichen bevorzugt
 
 Überprüfen Sie zunächst, ob eine mehrsprachige E-Mail-Vorlage verfügbar ist. Ist dies nicht der Fall, erfahren Sie in [diesem Abschnitt](../../channels/using/multilingual-messages-template.md), wie Sie eine erstellen können.
 
-Die Audience besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist.
+Die Zielgruppe besteht aus Profilen, in denen die bevorzugte Sprache angegeben ist.
 
 1. Erstellen Sie eine neue E-Mail basierend auf einer [mehrsprachigen Vorlage](../../channels/using/multilingual-messages-template.md).
 
    ![](assets/multi_create1.png)
 
-1. Definieren Sie die allgemeinen Eigenschaften sowie die Ziel-Audience der E-Mail auf die gleiche Weise wie für eine Standard-E-Mail. Lesen Sie diesbezüglich auch den Abschnitt [Erstellung von Audiences](../../audiences/using/creating-audiences.md).
+1. Definieren Sie die allgemeinen Eigenschaften sowie die Ziel-Zielgruppe der E-Mail auf die gleiche Weise wie für eine Standard-E-Mail. Lesen Sie diesbezüglich auch den Abschnitt [Erstellung von Zielgruppen](../../audiences/using/creating-audiences.md).
 
 1. Definieren Sie die Optionen der Variante im vierten Schritt des Erstellungsassistenten. Wenn die [mehrsprachige Vorlage](../../channels/using/multilingual-messages-template.md) bereits alle gewünschten Parameter enthält, können Sie gleich auf die Schaltfläche **[!UICONTROL Erstellen]** klicken.
 

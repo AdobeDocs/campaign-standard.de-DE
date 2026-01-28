@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Das über das Adobe Campaign-Logo verfügbare Menü **[!UICONTROL Administratio
 
 Die von Adobe Campaign verwendeten Daten werden mithilfe verschiedener Ressourcen beschrieben. Es besteht die Möglichkeit der **Anreicherung des zur Verfügung gestellten Datenmodells** durch benutzerdefinierte Ressourcen.
 
-Native Ressourcen (wie Kampagnen, E-Mails oder Audiences) können nicht geändert werden. Sie können jedoch durch Hinzufügen neuer Felder erweitert werden.
+Native Ressourcen (wie Kampagnen, E-Mails oder Zielgruppen) können nicht geändert werden. Sie können jedoch durch Hinzufügen neuer Felder erweitert werden.
 
 Aus Ressourcenerweiterungen stammende Felder werden mit einem Präfix versehen. Auf diese Weise entstehen keine Konflikte mit nativen Anwendungsfeldern.
 

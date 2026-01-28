@@ -32,7 +32,7 @@ Adobe Experience Platform Data Connector ist für **Dateningenieure** gedacht, d
 
 Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen eines Daten-Mappings zwischen Campaign Standard und Adobe Experience Platform. Dies beginnt mit der Erstellung eines XDM-Schemas und eines Datensatzes.
 
-![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [Mehr zu dieser Funktion erfahren Sie im Video.](#video).
 
 >[!NOTE]
 >Sobald Adobe Experience Platform Data Connector konfiguriert und Daten erfolgreich in Adobe Experience Platform aufgenommen wurden, müssen Sie den Datensatz aktivieren, damit die Daten in das Echtzeit-Kundenprofil aufgenommen werden.
@@ -82,6 +82,6 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Connector.
 
->[!VIDEO](https://video.tv.adobe.com/v/34301?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=de).

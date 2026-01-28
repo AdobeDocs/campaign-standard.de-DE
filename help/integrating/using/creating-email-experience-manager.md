@@ -49,7 +49,7 @@ Standardmäßig stehen zwei vordefinierte Vorlagen zur Erstellung von E-Mail-Inh
 
 1. Öffnen Sie Ihren neuen E-Mail-Inhalt.
 
-1. Legen Sie in den **[!UICONTROL Seiteneigenschaften]** **[!UICONTROL Adobe Campaign]** als **[!UICONTROL Cloud Service-Konfiguration]** fest. Dies ermöglicht die Kommunikation zwischen Ihrem Inhalt und Ihrer Adobe Campaign-Instanz.
+1. Legen Sie in den **[!UICONTROL Seiteneigenschaften]****[!UICONTROL Adobe Campaign]** als **[!UICONTROL Cloud Service-Konfiguration]** fest. Dies ermöglicht die Kommunikation zwischen Ihrem Inhalt und Ihrer Adobe Campaign-Instanz.
 
    Sehen Sie sich für weiterführende Informationen das folgende Video an:
 

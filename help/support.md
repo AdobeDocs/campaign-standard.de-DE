@@ -1,6 +1,6 @@
 ---
 title: Hilfe- und Support-Optionen für Campaign Standard
-description: Benötigen Sie Unterstützung für Campaign Standard? Dann sind Sie hier genau richtig!
+description: Benötigen Sie Unterstützung für Campaign Standard? Hier sind Sie an der richtigen Stelle!
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Hilfe- und Support-Optionen für Campaign Standard {#help-support-options}
 
-Benötigen Sie Unterstützung für Campaign Standard? Dann sind Sie hier genau richtig!
+Benötigen Sie Unterstützung für Campaign Standard? Hier sind Sie an der richtigen Stelle!
 
 Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Online-Ressourcen und das Support-Portal. Sie können auch der Campaign-Community beitreten, die Experten fragen oder ein Ticket erstellen.
 
@@ -29,7 +29,7 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
     </tr>
 </table>
 
-## Allgemeine Probleme und Best Practices
+## Häufige Probleme und Best Practices
 
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
@@ -61,7 +61,7 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Zeitzonenverwaltung</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Empfangen von Benachrichtigungen bei Fehlern</a></li>
         <li><a href="designing/using/using-existing-content.md">Importieren oder Konvertieren von E-Mail-Inhalten</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Best Practices beim Versand</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Best Practices für den Versand</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -109,17 +109,17 @@ Sie können Ihre Sub-Domains und deren Zertifikate überwachen. Mehr dazu:
 
 * [Sub-Domain-Branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=de#subdomains-and-certificates)
 * [Einrichten einer neuen Sub-Domain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de#subdomains-and-certificates)
-* [Überwachung von SSL-Zertifikaten](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#subdomains-and-certificates)
+* [Überwachen von SSL-Zertifikaten](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#subdomains-and-certificates)
 
 ## Hilfe anfordern
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsole.adobe.com/overview). Das neue System erfordert für jede Benutzerin und jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie sich nicht mit Ihrer Adobe ID anmelden können, beantragen Sie den Zugang über die Experience League, und das Kundenunterstützungs-Team wird ihn so schnell wie möglich einrichten. [Mehr dazu](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsole.adobe.com/overview). Das neue System erfordert für jede Benutzerin und jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie sich nicht mit Ihrer Adobe ID anmelden können, beantragen Sie den Zugang über die Experience League, und das Kundenunterstützungs-Team wird ihn so schnell wie möglich einrichten. [Weitere Informationen](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Fragen an Experten
 
-Treten Sie der Campaign-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=de)
+Treten Sie der Campaign-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Erstellen Sie ein Ticket oder starten Sie einen Chat
 

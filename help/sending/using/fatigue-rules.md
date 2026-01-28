@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2483'
 ht-degree: 100%
 
@@ -215,7 +215,7 @@ In der Tabelle am unteren Seitenrand werden alle im ausgewählten Zeitraum durch
 >
 >Die angezeigten Daten beziehen sich kontextuell nicht auf das Programm, die Nachricht oder die Kampagne, von denen auf den Bericht zugegriffen wird. In diesem Bericht werden alle Ermüdungsregeln und Sendungen für alle Organisationseinheiten angezeigt. Dadurch erhalten Sie einen umfassenden Überblick über alle Sendungen und können analysieren, wie Ihre Kampagnen durch andere beeinflusst werden.
 
-## Beispiele        {#examples}
+## Beispiele {#examples}
 
 Es gibt viele Möglichkeiten zur Verwendung der Ermüdungsfunktion. Hier sind einige Beispiele:
 

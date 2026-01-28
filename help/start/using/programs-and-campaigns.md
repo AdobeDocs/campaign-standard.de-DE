@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe Campaign ermöglicht die Konzeption von Marketing-Kampagnen, innerhalb der
 
 Programme und Kampagnen erlauben die Zusammenfassung und übersichtliche Anzeige der ihnen zugeordneten Marketing-Aktivitäten.
 
-* Ein **Programm** kann weitere Programme, Kampagnen, Workflows oder Landingpages enthalten. Programme werden in der Planung angezeigt und helfen Ihnen, Ihre Marketing-Aktivitäten zu ordnen: Sie können sie getrennt nach Land, Marke, Einheit etc. anzeigen.
+* Ein **Programm** kann weitere Programme, Kampagnen, Workflows oder Landingpages enthalten. Programme werden in der Timeline angezeigt und helfen Ihnen, Ihre Marketing-Aktivitäten zu ordnen: Sie können sie getrennt nach Land, Marke, Einheit etc. anzeigen.
 * Mit einer **Kampagne** können Sie alle gewünschten Marketing-Aktivitäten in einer einzigen Einheit zusammenfassen. Eine Kampagne kann E-Mails, SMS, Push-Benachrichtigungen, Briefpost, Workflows und Landingpages enthalten.
 
 Zur optimalen Organisation Ihrer Marketing-Pläne empfiehlt Adobe die folgende Hierarchie: Programm > Unterprogramme > Kampagnen > Workflows > Sendungen.
@@ -33,7 +33,7 @@ Mithilfe von Berichten lässt sich der Erfolg von Programmen und Kampagnen messe
 
 **Verwandte Themen:**
 
-* [Planung](../../start/using/timeline.md)
+* [Timeline](../../start/using/timeline.md)
 * [Über dynamische Berichte](../../reporting/using/about-dynamic-reports.md)
 
 ## Programme erstellen {#creating-a-program}
@@ -64,7 +64,7 @@ Das Programm wird dann erstellt und angezeigt. Verwenden Sie die Schaltfläche *
 >
 >Programme können auch in der Liste der Marketing-Aktivitäten erstellt werden.
 
-## Kampagnen erstellen      {#creating-a-campaign}
+## Erstellen einer Kampagne {#creating-a-campaign}
 
 Zu Programmen und Unterprogrammen können Kampagnen hinzugefügt werden. Kampagnen können Marketing-Aktivitäten wie E-Mails, SMS, Push-Benachrichtigungen, Workflows und Landingpages enthalten.
 

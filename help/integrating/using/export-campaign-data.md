@@ -28,7 +28,7 @@ Nachdem der Workflow konfiguriert und Daten an Ihren Speicherort gesendet wurden
 
 Um Daten von Campaign Standard in Ihren S3- oder Azure-Blob-Speicher zu exportieren, müssen Sie einen Workflow erstellen, mit dem die zu exportierenden Daten bestimmt und an Ihren Speicherort gesendet werden.
 
-Fügen Sie dazu Folgendes hinzu und konfigurieren Sie:
+Hierzu müssen Sie Folgendes hinzufügen und konfigurieren:
 
 * Die Aktivität **[!UICONTROL Dateiextraktion]**, um die Zieldaten in eine CSV-Datei zu extrahieren. Weiterführende Informationen zur Konfiguration dieser Aktivität finden Sie in [diesem Abschnitt](../../automating/using/extract-file.md).
 

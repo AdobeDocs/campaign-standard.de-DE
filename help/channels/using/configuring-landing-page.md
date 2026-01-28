@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Versand einer Landingpage bestätigen {#confirm-a-landing-page-submission}
 
-Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie wie folgt vor:
+Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch einen Besucher ausgelöst werden soll. Gehen Sie dazu wie folgt vor:
 
 1. Bearbeiten Sie die Landingpage-Eigenschaften über das Symbol ![](assets/edit_darkgrey-24px.png) im Landingpage-Dashboard und rufen Sie die Parameter **[!UICONTROL Vorgang]** auf.
 
@@ -109,7 +109,7 @@ Nachdem Ihr externes Konto für Google reCAPTCHA V3 eingerichtet wurde, können 
 
    ![](assets/lp_parameters_google_temp.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
 Auf Ihrer Landingpage ist jetzt Google reCAPTCHA eingerichtet, was am unteren Seitenrand angezeigt wird.
 

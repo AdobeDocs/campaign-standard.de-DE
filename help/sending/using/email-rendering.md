@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ Die für das **E-Mail-Rendering** in Adobe Campaign verfügbaren Clients für Mo
 
 Nachdem Sie Ihren E-Mail-Versand erstellt und seinen Inhalt sowie die Zielpopulation definiert haben, folgen Sie den unten stehenden Schritten.
 
-1. Wählen Sie **Audience** aus, um den Tab **[!UICONTROL Testprofile]** zu öffnen.
+1. Wählen Sie **Zielgruppe** aus, um den Tab **[!UICONTROL Testprofile]** zu öffnen.
 
    ![](assets/email_rendering_05.png)
 
-1. Definieren Sie über den Abfrageeditor die Testprofile, die Sie verwenden möchten, einschließlich der Testprofile für das **E-Mail-Rendering**. Siehe [Über Testprofile](../../audiences/using/managing-test-profiles.md).
+1. Definieren Sie über den Abfrage-Editor die Testprofile, die Sie verwenden möchten, einschließlich der Testprofile für das **E-Mail-Rendering**. Siehe [Über Testprofile](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_rendering_06.png)
 
@@ -64,7 +64,7 @@ Der E-Mail-Rendering-Bericht wird angezeigt. Siehe [Beschreibung des E-Mail-Rend
 
 * [E-Mails erstellen](../../channels/using/creating-an-email.md)
 * [Testversand durchführen](../../sending/using/sending-proofs.md)
-* [Abfrageeditor](../../automating/using/editing-queries.md#about-query-editor)
+* [Abfrage-Editor](../../automating/using/editing-queries.md#about-query-editor)
 
 ## E-Mail-Rendering-Bericht {#email-rendering-report-description}
 
