@@ -149,7 +149,6 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
 
 1. Im Abschnitt **[!UICONTROL Gerätespezifische Einstellungen]** im Dashboard einer Mobile App können Sie für jedes Gerät die Anwendungsdetails angeben.
 
-   * 
      +++ Für iOS
 
      Geben Sie die folgenden Anwendungsdetails ein:
@@ -160,9 +159,9 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
       * **iOS-Team-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} für weitere Informationen zur iOS-Team-ID.
 
         ![](assets/mobile_app_ios_config.png)
+
      +++
 
-   * 
      +++ Für Android
 
      Geben Sie die folgenden Anwendungsdetails ein:
@@ -171,6 +170,7 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
       * **Android-Schlüssel-Datei (JSON)**: Ziehen Sie die JSON-Datei mit dem privaten Schlüssel per Drag-and-Drop. Anweisungen zum Generieren der .json-Datei mit privatem Schlüssel finden Sie im Abschnitt [Entwicklerdokumentation für Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
+
      +++
 
 1. Nach dem Hochladen Ihres Zertifikats werden Sie in einer Nachricht benachrichtigt, dass der Upload erfolgreich war. Außerdem wird das Ablaufdatum Ihres Zertifikats angezeigt.
