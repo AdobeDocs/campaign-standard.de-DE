@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation für Adobe Campaign Standard.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Campaign Standard – Dokumentation
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1754'
 ht-degree: 95%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 95%
 + Versionshinweise {#release-notes}
    + [Aktuelle Version](rn/using/release-notes.md)
    + Frühere Versionen {#previous-releases}
+      + [2025](rn/using/release-notes-2025.md)
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -41,7 +42,7 @@ ht-degree: 95%
       + [Programme und Kampagnen](start/using/programs-and-campaigns.md)
       + [Marketing-Aktivitäten](start/using/marketing-activities.md)
       + [Vorlagen für Marketing-Aktivitäten](start/using/marketing-activity-templates.md)
-      + [Planung](start/using/timeline.md)
+      + [Timeline](start/using/timeline.md)
    + Datenschutz {#privacy}
       + [Datenschutz und Einverständniserklärung](start/using/privacy.md)
       + [Datenschutzverwaltung](start/using/privacy-management.md)
@@ -80,13 +81,13 @@ ht-degree: 95%
       + [Nachrichten-Dashboards](channels/using/message-dashboard.md)
       + [Vorlagen für mehrsprachige Nachrichten](channels/using/multilingual-messages-template.md)
       + [Erste Schritte mit mobilen Kanälen](channels/using/mobile-guide.md)
-   + Best Practices beim Versand {#delivery-bestpractices}
+   + Best Practices für den Versand {#delivery-bestpractices}
       + [Best Practices erlernen](sending/using/delivery-best-practices.md)
       + [Optimieren des Versands](sending/using/optimize-delivery.md)
       + [Vorlagen verwenden](sending/using/use-templates.md)
       + [Erstellen personalisierter Inhalte](sending/using/design-and-personalize.md)
-      + [Festlegen der richtigen Zielgruppe](sending/using/define-the-right-audience.md)
-      + [Vor dem Senden prüfen](sending/using/check-before-sending.md)
+      + [Definieren der richtigen Zielgruppe](sending/using/define-the-right-audience.md)
+      + [Prüfen vor dem Senden](sending/using/check-before-sending.md)
       + [Tracken und überwachen](sending/using/track-and-monitor.md)
    + E-Mail-Nachrichten {#email-messages}
       + [Über E-Mails](channels/using/about-emails.md)
@@ -101,7 +102,7 @@ ht-degree: 95%
       + [Über die Inhaltserstellung für SMS und Push-Benachrichtigungen](channels/using/about-sms-and-push-content-design.md)
       + [Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen](channels/using/sms-and-push-content-editor-interface.md)
       + [Dynamische Texte definieren](channels/using/defining-dynamic-text.md)
-   + Push-Benachrichtigungen {#push-notifications}
+   + Push-Benachrichtigungen  {#push-notifications}
       + [Über Push-Benachrichtigungen](channels/using/about-push-notifications.md)
       + [Push-Benachrichtigung vorbereiten und senden](channels/using/preparing-and-sending-a-push-notification.md)
       + [Push-Benachrichtigung anpassen](channels/using/customizing-a-push-notification.md)
@@ -113,7 +114,7 @@ ht-degree: 95%
       + [In-App-Nachricht vorbereiten und senden](channels/using/preparing-and-sending-an-in-app-message.md)
       + [In-App-Nachricht anpassen](channels/using/customizing-an-in-app-message.md)
       + [Häufig gestellte Fragen zu In-App-Nachrichten](channels/using/in-app-faq.md)
-   + Direkt-Mail {#direct-mail}
+   + Briefpost {#direct-mail}
       + [Über Briefpost](channels/using/about-direct-mail.md)
       + [An den Absender zurücksenden](channels/using/return-to-sender.md)
       + [Briefpost erstellen](channels/using/creating-the-direct-mail.md)
@@ -216,7 +217,7 @@ ht-degree: 95%
       + [Öffnungen](reporting/using/opens.md)
       + [Bericht zu Push-Benachrichtigungen](reporting/using/push-notification-report.md)
       + [SMS-Bericht](reporting/using/sms-report.md)
-      + [Trackingindikatoren](reporting/using/tracking-indicators.md)
+      + [Tracking-Indikatoren](reporting/using/tracking-indicators.md)
       + [Abmeldungen](reporting/using/unsubscriptions.md)
       + [URLs und Clickstreams](reporting/using/urls-and-click-streams.md)
       + [Klicks](reporting/using/hot-clicks.md)
@@ -446,7 +447,7 @@ ht-degree: 95%
       + [Häufig gestellte Fragen zur Synchronisierung von Tags in Adobe Experience Platform](administration/using/syncwithlaunch-faq.md)
       + [Häufig gestellte Fragen zur Integration des Experience Platform SDK](administration/using/aep-faq.md)
       + [Konfigurieren von Tag-Regeln zur Unterstützung von Adobe Campaign Standard-Anwendungsfällen](administration/using/configuring-rules-launch.md)
-      + [Unterstützte Anwendungsfälle für Smartphones und Tablets in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+      + [Unterstützte Anwendungsfälle für Mobilgeräte in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migrieren Ihrer Mobile App vom SDK v4 zum Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
       + [Änderungen am Push-Benachrichtigungskanal](administration/using/push-technote.md)
    + Konfigurieren des SMS-Kanals {#configuring-sms}
