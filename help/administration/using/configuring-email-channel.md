@@ -328,7 +328,7 @@ Die Einstellungen **[!UICONTROL Weitere Zustellversuche]** im [Konfigurationsmen
 
 Die Anzahl weiterer Versuche kann global (kontaktieren Sie Ihren technischen Adobe-Administrator) oder einzeln für jeden Versand oder jede Versandvorlage geändert werden.
 
-Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im Abstand von mindestens einer Stunde vorgesehen. Danach und bis zum Ablauf der Versandfrist, die global im Abschnitt **[!UICONTROL Versandparameter]** des Menüs **[!UICONTROL Konfiguration]** oder im Abschnitt **[!UICONTROL Versandlaufzeit]** auf der Versandebene definiert ist, ist ein erneuter Versuch pro Tag programmiert (siehe den Abschnitt [Versandlaufzeit ](#legacy-delivery-duration) unten).
+Standardmäßig sind innerhalb der ersten 24 Stunden fünf erneute Versuche im Abstand von mindestens einer Stunde vorgesehen. Danach und bis zum Ablauf der Versandfrist, die global im Abschnitt **[!UICONTROL Versandparameter]** des Menüs **[!UICONTROL Konfiguration]** oder im Abschnitt **[!UICONTROL Versandlaufzeit]** auf der Versandebene definiert ist, ist ein erneuter Versuch pro Tag programmiert (siehe den Abschnitt [Versandlaufzeit &#x200B;](#legacy-delivery-duration) unten).
 
 ### Versandlaufzeit {#legacy-delivery-duration}
 
