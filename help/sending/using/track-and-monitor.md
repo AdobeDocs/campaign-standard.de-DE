@@ -3,14 +3,14 @@ title: Nachrichten tracken und überwachen
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Erfahren Sie, wie Sie mit Adobe Campaign im Anschluss an den Nachrichtenversand die gesendeten Nachrichten tracken und feststellen können, wie die Empfänger auf sie reagieren.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 

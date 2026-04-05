@@ -9,8 +9,8 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 100%
 
@@ -215,7 +215,8 @@ Um eine profilbasierte Transaktionsnachricht zu senden, erstellen und konfigurie
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-<!--### Transactional SMS messages {#transactional-sms}
+<!--
+### Transactional SMS messages {#transactional-sms}
 
 The steps to configure an  event to send an SMS transactional message are the same as for the email channel. The only differences are as follows:
 
@@ -223,7 +224,8 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * When previewing the event corresponding to an event-based transactional SMS, the REST API contains an attribute specifying the mobile phone instead of the email address.
 
-* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
+* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).
+-->
 
 ### Transaktions-Push-Benachrichtigung {#transactional-push-notifications}
 

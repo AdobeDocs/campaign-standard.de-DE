@@ -8,8 +8,8 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '1876'
 ht-degree: 100%
 
@@ -85,9 +85,11 @@ Diese Vorlage kann jetzt in jeder mit Email Designer erstellten E-Mail verwendet
 
 Bei der Bearbeitung einer E-Mail mit Email Designer können Sie den Inhalt dieser E-Mail direkt als Vorlage speichern.
 
-<!--[!CAUTION]
+<!--
+[!CAUTION]
 >
->You cannot save as template a structure containing personalization fields or dynamic content.-->
+>You cannot save as template a structure containing personalization fields or dynamic content.
+-->
 
 1. Wählen Sie in der Symbolleiste von Email Designer **[!UICONTROL Als Vorlage speichern]** aus.
 
@@ -145,7 +147,7 @@ Erstellen Sie dazu eine E-Mail und wählen Sie die soeben von Ihnen erstellte In
 
 In diesen Videos wird gezeigt, wie man eine eigene Vorlage erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/37506?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
 
@@ -281,7 +283,8 @@ Bei der Bearbeitung einer E-Mail mit Email Designer können Sie direkt einen Tei
 >[!NOTE]
 >Die [Mobile-Ansicht](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) ist nicht in Fragmenten verfügbar. Wenn Sie die Mobile-Ansicht einer E-Mail bearbeiten möchten, tun Sie das, bevor Sie Ihren Inhalt als Fragment speichern.
 
-<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
+<!--
+You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
@@ -295,7 +298,8 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
 1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
 1. Paste the HTML that you copied where appropriate.
-1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.
+-->
 
 ## Erstellen wiederverwendbarer Kopf- und Fußzeilen aus Fragmenten {#header-footer-fragments}
 

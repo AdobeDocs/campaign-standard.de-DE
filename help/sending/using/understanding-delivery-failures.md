@@ -8,8 +8,8 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 100%
 
@@ -98,8 +98,10 @@ Wenn Sie beispielsweise möchten, dass weitere Zustellversuche für einen Versan
 >
 >Nachdem eine Nachricht maximal 3,5 Tage lang in der Wiederholungswarteschlange war und nicht gesendet werden konnte, wird sie mit einer Zeitüberschreitung beendet. Ihr Status wird <!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Fehlgeschlagen]** geändert (in den [Versandlogs](../../sending/using/monitoring-a-delivery.md#delivery-logs)).
 
-<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--
+MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
+-->
 
 ## Synchrone und asynchrone Fehler     {#synchronous-and-asynchronous-errors}
 
@@ -120,7 +122,8 @@ Asynchrone Bounces werden weiterhin vom InMail-Prozess über die Regeln für **[
 
 Weitere Informationen zu Bounces und den verschiedenen Arten von Bounces finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#metrics-for-deliverability).
 
-<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+<!--
+MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
 Bounces can have the following qualification statuses:
 
@@ -130,7 +133,8 @@ Bounces can have the following qualification statuses:
 
 To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
-![](assets/qualification.png)-->
+![](assets/qualification.png)
+-->
 
 ## Zustellbarkeit von E-Mails durch die Anmeldung mit zweifacher Bestätigung optimieren {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 

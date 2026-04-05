@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 99%
+source-wordcount: '1376'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ In diesem Schritt kann sich der Benutzer bei der Datenerfassungs-UI anmelden, um
 
 1. Um Anwendungsfälle für Standorte in Campaign Standard zu unterstützen, installieren Sie die Erweiterung **[!UICONTROL Places]** in der Datenerfassungs-Benutzeroberfläche. Mehr dazu erfahren Sie auf [dieser Seite](https://developer.adobe.com/client-sdks/solution/places).
 
-1. Konfigurieren Sie in Adobe Campaign Standard die Eigenschaft für Mobilgeräte, die Sie in der Datenerfassungs-UI erstellt haben. Weitere Informationen finden Sie unter [Adobe Experience Platform Launch-App in Adobe Campaign einrichten &#x200B;](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Konfigurieren Sie in Adobe Campaign Standard die Eigenschaft für Mobilgeräte, die Sie in der Datenerfassungs-UI erstellt haben. Weitere Informationen finden Sie unter [Adobe Experience Platform Launch-App in Adobe Campaign einrichten ](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Fügen Sie die kanalspezifische Konfiguration für Ihre Mobile-App-Einrichtung hinzu.
 Weiterführende Informationen finden Sie unter [Kanalspezifische Anwendungskonfiguration in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
@@ -158,8 +158,8 @@ Ihre mobile App kann jetzt in Campaign für Push-Benachrichtigungen oder In-App-
    * **Schlüssel-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} für weitere Informationen zur Schlüssel-ID.
    * **iOS-Team-ID**: Siehe [Apple-Dokumentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} für weitere Informationen zur iOS-Team-ID.
 
-         ![](assets/mobile_app_ios_config.png)
-     +++
+     ![](assets/mobile_app_ios_config.png)
+   +++
 
    +++ Für Android
 

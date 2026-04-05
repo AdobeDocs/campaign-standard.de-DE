@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 100%
+source-wordcount: '1556'
+ht-degree: 99%
 
 ---
 
@@ -49,13 +49,15 @@ Das Standarddatenmodell von Adobe Campaign wird in diesem [Abschnitt](../../deve
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
-<!--### What is a customer? {#customer-definition}
+<!--
+### What is a customer? {#customer-definition}
 
 If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.
+-->
 
 ### Daten für Adobe Campaign {#data-for-campaign}
 
@@ -96,7 +98,7 @@ Die folgende Tabelle beschreibt diese Kennungen und ihren Zweck.
 | Anzeigename | Technischer Name | Beschreibung | Best Practices |
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>PKey ist der physische Primärschlüssel einer Adobe Campaign-Tabelle.</li><li>Diese Kennung ist in der Regel für eine bestimmte Adobe Campaign-Instanz eindeutig.</li><li>In Adobe Campaign Standard ist dieser Wert für den Endbenutzer nicht sichtbar (mit Ausnahme von URLs).</li></ul> | <ul><li>Über das [API-System](../../api/using/get-started-apis.md) ist es möglich, einen PKey-Wert abzurufen (bei dem es sich um einen generierten/Hash-Wert handelt, und nicht um den physischen Schlüssel).</li><li>Es wird nicht empfohlen, ihn für andere Zwecke zu verwenden, als Datensätze per API abzurufen, zu aktualisieren oder zu löschen.</li></ul> |
-| ID | name oder internalName | <ul><li>Diese Information ist eine eindeutige Kennung eines Datensatzes in einer Tabelle. Dieser Wert kann manuell aktualisiert werden.</li><li>Diese Kennung behält ihren Wert bei, wenn sie in einer anderen Instanz von Adobe Campaign bereitgestellt wird. Sie muss einen anderen Namen haben als der generierte Wert, der über ein Package exportiert werden kann.</li><li>Dies ist nicht der eigentliche Primärschlüssel der Tabelle.</li></ul> | <ul><li>Verwenden Sie keine Sonderzeichen wie Leerzeichen &quot; &quot;, Doppelpunkt &quot;:&quot; oder Bindestrich &quot;-&quot;.</li><li>Alle diese Zeichen würden durch einen Unterstrich (_) ersetzt werden. Beispielsweise würden &quot;abc-def&quot; und &quot;abc:def&quot; als &quot;abc_def&quot; gespeichert werden und sich gegenseitig überschreiben.</li></ul> |
+| ID | name oder internalName | <ul><li>Diese Information ist eine eindeutige Kennung eines Datensatzes in einer Tabelle. Dieser Wert kann manuell aktualisiert werden.</li><li>Diese Kennung behält ihren Wert bei, wenn sie in einer anderen Instanz von Adobe Campaign bereitgestellt wird. Sie muss einen anderen Namen haben als der generierte Wert, der über ein Package exportiert werden kann.</li><li>Dies ist nicht der eigentliche Primärschlüssel der Tabelle.</li></ul> | <ul><li>Verwenden Sie keine Sonderzeichen wie Leerzeichen &quot; &quot;, Doppelpunkt &quot;:&quot; oder Bindestrich &quot;-&quot;.</li><li>Alle diese Zeichen würden durch einen Unterstrich (_) ersetzt werden. Beispielsweise würden „abc-def“ und „abc:def&quot; als „abc_def“ gespeichert und einander überschreiben.</li></ul> |
 | Titel | label | <ul><li>Der Titel ist die Unternehmenskennung eines Objekts oder Datensatzes in Adobe Campaign.</li><li>Dieses Objekt erlaubt Leerzeichen und Sonderzeichen.</li><li>Der Titel garantiert nicht die Einzigartigkeit eines Datensatzes.</li></ul> | <ul><li>Es wird empfohlen, eine Struktur für die Objekttitel festzulegen.</li><li>Dies ist die benutzerfreundlichste Lösung, um einen Datensatz oder ein Objekt für einen Adobe Campaign-Benutzer zu identifizieren.</li></ul> |
 | ACS-ID | acsId | <ul><li>Es kann eine zusätzliche Kennung generiert werden: die [ACS-ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Da der PKey nicht in der Benutzeroberfläche von Adobe Campaign verwendet werden kann, ist dies eine Lösung, um einen eindeutigen Wert zu erhalten, der beim Einfügen eines Profildatensatzes generiert wird.</li><li>Der Wert kann nur dann automatisch generiert werden, wenn die Option in der Ressource aktiviert ist, bevor ein Datensatz in Adobe Campaign eingefügt wird.</li></ul> | <ul><li>Diese UUID kann als Abstimmschlüssel verwendet werden.</li><li>Eine automatisch generierte ACS-ID kann nicht als Referenz in einem Workflow oder in einer Package-Definition verwendet werden.</li><li>Dieser Wert ist spezifisch für eine Adobe Campaign-Instanz.</li></ul> |
 
@@ -104,11 +106,13 @@ Die folgende Tabelle beschreibt diese Kennungen und ihren Zweck.
 
 Jede in Adobe Campaign erstellte Ressource muss über mindestens einen eindeutigen [Identifizierungsschlüssel](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) verfügen.
 
-<!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
+<!--
+Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.-->
+When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.
+-->
 
 Beim Erstellen einer benutzerdefinierten Ressource stehen Ihnen zwei Optionen zur Verfügung:
 
@@ -127,9 +131,11 @@ Adobe Campaign fügt allen in einer Ressource definierten primären und internen
 * Fügen Sie jedoch nicht zu viele Indizes hinzu, da sie Speicherplatz in der Datenbank belegen. Zahlreiche Indizes können sich auch negativ auf die Performance auswirken.
 * Wählen Sie die zu definierenden Indizes sorgfältig aus.
 
-<!--For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
+<!--
+For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
 
-When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).
+-->
 
 ### Relationen {#links}
 
@@ -155,7 +161,7 @@ Befolgen Sie die nachstehenden Best Practices, um eine bessere Performance siche
 * Wenn einer oder mehrere der täglichen Prozesse fehlschlagen und sie am selben Tag noch ausgeführt werden müssen, stellen Sie sicher, dass beim Starten des manuellen Prozesses keine Konflikte auftreten, da dies die System-Performance beeinträchtigen könnte.
 * Stellen Sie sicher, dass keine der täglichen Kampagnen während des Importvorgangs oder bei der Ausführung eines manuellen Prozesses ausgeführt wird.
 * Verwenden Sie eine oder mehrere Referenztabellen, anstatt ein Feld in jeder Zeile zu duplizieren. Bei Verwendung von Schlüssel/Wert-Paaren ist es empfehlenswert, einen numerischen Schlüssel zu wählen.
-* Eine kurze Zeichenfolge ist weiterhin zulässig. Falls Referenztabellen bereits in einem externen System vorhanden sind, erleichtert die Wiederverwendung derselben die Datenintegration mit Adobe Campaign.
+* Eine kurze Zeichenfolge ist weiterhin zulässig. Falls Verweistabellen bereits in einem externen System vorhanden sind, erleichtert die Wiederverwendung derselben die Datenintegration mit Adobe Campaign.
 
 ### 1-zu-n-Beziehungen {#one-to-many-relationships}
 

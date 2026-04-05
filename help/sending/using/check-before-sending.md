@@ -3,13 +3,13 @@ title: Prüfen vor dem Senden
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Sobald Ihre Nachricht fertig ist, erfahren Sie, wie Sie alle Prüfungen vor dem Senden durchführen
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 96%
@@ -38,7 +38,7 @@ Zu diesem Zweck unterstützt Adobe Campaign das Rendering und stellt dessen Erge
 
 **Tipps**:
 
-* Sie können sich ansehen, wie Nachrichten je nach verwendetem Empfangsmedium (Smartphones und Tablets, Web-Clients etc.) beim Empfänger dargestellt werden.
+* Sie können sich ansehen, wie Nachrichten je nach verwendetem Empfangsmedium (Mobilgeräte, Web-Clients etc.) beim Empfänger dargestellt werden.
 
 * Fähigkeiten zum E-Mail-Rendering sind entscheidend, um festzustellen, ob Ihre E-Mail-Kampagnen erfolgreich durch die Filter der großen ISPs (Internet Service Provider) und Webmail-Dienste befördert werden. Diese Tools senden vorab eine Kopie einer E-Mail an ein Netzwerk von Test-Posteingängen, damit Sie sehen, wie eine Nachricht in diesen Diensten dargestellt wird. Manche dieser Tools bieten auch Berichte und Code-Korrektur-Möglichkeiten, mit denen Sie Fehler rasch erkennen und beheben und so die Zustellbarkeit verbessern können.
 
@@ -52,7 +52,7 @@ Weiterführende Informationen finden Sie [in diesem Abschnitt](../../sending/usi
 
 ## Einrichten von A/B-Test-Sendungen {#a-b-testing-deliveries}
 
-Wenn mehrere Versionen von Inhalten für den E-Mail-Versand vorhanden sind, können Sie mithilfe von A/B-Tests feststellen, welche Version die größte Auswirkung auf die Zielkontakte hat.
+Wenn mehrere Versionen von Inhalten für den E-Mail-Versand vorhanden sind, können Sie mithilfe von A/B-Tests feststellen, welche Version die größte Auswirkung auf die Zielpopulation hat.
 
 **Tipps**:
 

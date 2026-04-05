@@ -9,8 +9,8 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
 
@@ -22,9 +22,11 @@ Nach erfolgreicher Vorbereitung und Validierung Ihrer Nachrichten können Sie de
 
 Nur Benutzer mit der Benutzerrolle **[!UICONTROL Sendungen starten]** können den Versand bestätigen. Lesen Sie diesbezüglich auch den Abschnitt [Liste der Rollen](../../administration/using/list-of-roles.md).
 
-<!--Users without this role will see the following message: 
+<!--
+Users without this role will see the following message:
 
-![](assets/confirm_delivery_2.png)-->
+![](assets/confirm_delivery_2.png)
+-->
 
 ## Nachricht senden {#sending-message}
 

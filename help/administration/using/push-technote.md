@@ -6,10 +6,10 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1158'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -27,9 +27,9 @@ Um einen unterbrechungsfreien Dienst sicherzustellen, müssen Sie Ihre bei Adobe
 
 ## Google Android Firebase Cloud Messaging (FCM)-Dienst {#fcm-push-upgrade}
 
-### Was hat sich verändert? {#fcm-changes}
+### Was hat sich geändert? {#fcm-changes}
 
-Im Rahmen der kontinuierlichen Bemühungen von Google, seine Dienste zu verbessern, werden die veralteten FCM-APIs am **20. Juni 2024** eingestellt. Weitere Informationen zum HTTP-Protokoll von Firebase Cloud Messaging finden Sie in der [Google Firebase-Dokumentation](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Im Rahmen der kontinuierlichen Bemühungen von Google, seine Dienste zu verbessern, werden die veralteten FCM-APIs am **20. Juni 2024** eingestellt. Weitere Informationen zum Firebase Cloud Messaging-HTTP-Protokoll finden Sie in der [Dokumentation zu Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
 Ab [Version 24.1](../../rn/using/release-notes.md) unterstützt Adobe Campaign Standard die HTTP v1-APIs zum Senden von Android-Push-Benachrichtigungen.
 
@@ -39,19 +39,21 @@ Wenn Sie Adobe Campaign Standard bereits zum Senden von Push-Benachrichtigungen 
 
 Die Migration zu den neuesten APIs ist obligatorisch, um Dienstunterbrechungen zu vermeiden.
 
-<!--To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below
+<!--
+To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below
 
 * If any of your active push notification service uses the **HTTP (legacy)** API, your setup will be directly impacted by this change. You must review your current configurations and move to the newer APIs as described below.
 
-* If your setup exclusively uses the **HTTP v1** API for Android push notifications, then you are already in compliance and no further action will be required on your part.-->
+* If your setup exclusively uses the **HTTP v1** API for Android push notifications, then you are already in compliance and no further action will be required on your part.
+-->
 
-### Wie erfolgt die Aktualisierung? {#fcm-transition-procedure}
+### Wie wird die Aktualisierung durchgeführt? {#fcm-transition-procedure}
 
 #### Voraussetzungen {#fcm-transition-prerequisites}
 
 * Die Unterstützung des **HTTP v1-API**-Modus wurde in Version 24.1 hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Campaign Standard-Version](../../rn/using/release-notes.md) zu aktualisieren. 
 
-* Die JSON-Datei des Kontos des Firebase Admin SDK-Dienstes ist erforderlich, damit die Mobile App auf HTTP v1 verschoben wird. In der [Dokumentation zu Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} erfahren Sie, wie Sie diese Datei erhalten.
+* Die JSON-Datei des Kontos des Firebase Admin SDK-Dienstes ist erforderlich, damit die Mobile App auf HTTP v1 verschoben wird. Wie Sie diese Datei erhalten, erfahren Sie in der [Dokumentation zu Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 * Wenn Sie immer noch diese ältere Version des SDK verwenden, müssen Sie Ihre Implementierung mit dem Adobe Experience Platform SDK aktualisieren. In [diesem Artikel](sdkv4-migration.md) erfahren Sie, wie Sie zum Adobe Experience Platform SDK migrieren.
 
@@ -78,7 +80,7 @@ Befolgen Sie die folgenden Schritte, um Ihre Umgebung zu HTTP v1 zu migrieren:
 
    ![](assets/push_technote_3.png)
 
-1. Klicken Sie auf die Schaltfläche **Speichern**.
+1. Wählen Sie die Schaltfläche **Speichern** aus.
 
 >[!NOTE]
 >
@@ -87,7 +89,7 @@ Befolgen Sie die folgenden Schritte, um Ihre Umgebung zu HTTP v1 zu migrieren:
 
 ## Apple iOS-Push-Benachrichtigungsdienst (APNs) {#apns-push-upgrade}
 
-### Was hat sich verändert? {#ios-changes}
+### Was hat sich geändert? {#ios-changes}
 
 Wie von Apple empfohlen, sollten Sie Ihre Kommunikation mit dem Apple-Push-Benachrichtigungsdienst (APNs) mithilfe von Stateless-Authentifizierungs-Token sichern.
 
@@ -97,7 +99,7 @@ Token-basierte Authentifizierung bietet eine Möglichkeit der Stateless-Kommunik
 
 * Mit einem einzelnen Token können Sie Benachrichtigungen für alle Apps Ihres Unternehmens verteilen.
 
-Erfahren Sie mehr über Token-basierte Verbindungen zum APNs im [Apple-Entwickler-Handbuch](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Weitere Informationen über Token-basierte Verbindungen zu APNs finden Sie in der [Apple Developer-](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 Adobe Campaign Standard unterstützt sowohl Token-basierte als auch zertifikatbasierte Verbindungen. Wenn Ihre Implementierung auf einer zertifikatbasierten Verbindung basiert, empfiehlt Adobe dringend, sie durch eine Token-basierte Verbindung zu ersetzen.
 
@@ -105,22 +107,24 @@ Adobe Campaign Standard unterstützt sowohl Token-basierte als auch zertifikatba
 
 Wenn Ihre aktuelle Implementierung für die Verbindung mit dem APNs auf zertifikatbasierten Anfragen basiert, sind Sie betroffen. Die Migration zu einer Token-basierten Verbindung wird empfohlen.
 
-<!--To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below:
+<!--
+To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below:
 
 ![](assets/filter-services-ios.png)
 
 
 * If any of your active push notification service uses the **Certificate-based authentication** mode (.p12), your current implementations should be reviewed and moved to a **Token-based authentication** mode (.p8) as described below.
 
-* If your setup exclusively uses the **Token-based authentication** mode for iOS push notifications, then your implementation is already up-to-date and no further action will be required on your part.-->
+* If your setup exclusively uses the **Token-based authentication** mode for iOS push notifications, then your implementation is already up-to-date and no further action will be required on your part.
+-->
 
-### Wie erfolgt die Aktualisierung? {#ios-transition-procedure}
+### Wie wird die Aktualisierung durchgeführt? {#ios-transition-procedure}
 
 #### Voraussetzungen {#ios-transition-prerequisites}
 
 * Die Unterstützung des Modus **Token-basierte Authentifizierung** wurde in [Version 24.1](../../rn/using/release-notes.md) hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Campaign Standard-Version](../../rn/using/release-notes.md) zu aktualisieren. 
 
-* Sie benötigen einen Signierschlüssel für die APNs-Authentifizierungs-Token, um die Token zu erzeugen, die Ihr Server verwendet. Sie fordern diesen Schlüssel über Ihr Apple-Entwicklerkonto an, wie im [Apple-Entwickler-Handbuch](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} beschrieben.
+* Sie benötigen einen Signierschlüssel für die APNs-Authentifizierungs-Token, um die Token zu erzeugen, die Ihr Server verwendet. Sie fordern diesen Schlüssel von Ihrem Apple-Entwicklerkonto an, wie in der [Apple-Entwicklerdokumentation beschrieben](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 
 #### Migrationsverfahren {#ios-transition-steps}
@@ -151,14 +155,14 @@ Ihre iOS-Anwendung wird jetzt zum Token-basierten Authentifizierungsmodus migrie
 
 ## Häufig gestellte Fragen{#push-upgrade-faq}
 
-+++Kann dieselbe App-ID in der Staging- und Produktionsinstanz verwendet werden?
++++Können wir dieselbe App-ID in der Staging- und Produktionsinstanz beibehalten?
 
 Bei iOS-Mobile-Apps können Sie dieselbe App-ID, d. h. Ihre iOS-App-Paket-ID, sowohl für Staging- als auch für Produktionsumgebungen verwenden. Unter Android sollte die App-ID jedoch für jede Umgebung eindeutig sein. Daher wird vorgeschlagen, „stage“ an die in der Staging-Umgebung erstellte App-ID anzuhängen.
 
 +++
 
 
-+++Ist es möglich, nur die Android-App zu migrieren?
++++Können wir nur die Android-App migrieren?
 
 Nein, sowohl Android- als auch iOS-Apps müssen entsprechend den oben beschriebenen Schritten migriert werden.
 
@@ -170,13 +174,13 @@ Wir empfehlen, alle Ihre Push-bezogenen Anwendungsfälle funktionell zu validier
 
 +++
 
-+++Was kann getan werden, wenn beim Speichern der Mobile App der Fehler „Nicht autorisiert“ angezeigt wird?
++++Was ist zu tun, wenn beim Speichern der Mobile App der Fehler „Nicht autorisiert“ angezeigt wird?
 
 Hier scheint es sich um ein Berechtigungsproblem im Zusammenhang mit der Datenerfassung von Adobe Experience Platform zu handeln. Um es zu beheben, müssen Sie Berechtigungen „Mobil“ und „Mobile-App-Konfiguration“ in der Adobe Admin Console hinzufügen, wie im Abschnitt „Voraussetzungen“ dieses Artikels beschrieben.
 
 +++
 
-+++Sind Änderungen im Code der Mobile App erforderlich?
++++Sind Änderungen am Mobile-App-Code erforderlich?
 
 Nein, es sind nur konfigurationsbezogene Änderungen in Firebase und dem App-Entwicklerkonto erforderlich. Änderungen in der Mobile App auf Kundenseite sind nicht erforderlich.
 
@@ -190,23 +194,23 @@ Nein, nach dieser Migration muss das iOS-Zertifikat nicht jedes Jahr aktualisier
 
 +++Was passiert, wenn diese Migration nicht durchgeführt wird?
 
-Die Android-Push-Nachrichten schlagen dann nach dem 20. Juni 2024 gemäß der Benachrichtigung von Google fehl. [Weitere Informationen](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
+Die Android-Push-Nachrichten schlagen dann nach dem 20. Juni 2024 gemäß der Benachrichtigung von Google fehl. [Weitere Informationen](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}
 
 +++
 
-+++Können Kundinnen und Kunden nach Abschluss der FCMv1-Migration zu FCM zurückkehren?
++++Können Kunden nach Abschluss der FCMv1-Migration zurück zu FCM migrieren?
 
 Ja, Kundinnen und Kunden können bis zum 20. Juni 2024 zurück zu FCM migrieren. Danach ist die Migrationsoption nicht mehr verfügbar.
 
 +++
 
-+++ Wird die Migration der HTTP v1-API von der SDK V4-Mobile-App unterstützt?
++++Wird die HTTP v1-API-Migration in der Mobile App SDK v4 unterstützt?
 
 Nein, Kundinnen und Kunden müssen zunächst ihre Mobile App zum V5 SDK migrieren und dann mit der oben dargestellten Migration fortfahren. Sie müssen dies vorrangig tun, da sonst ihr Push-Dienst gemäß der Benachrichtigung von Google ab Juni 2024 fehlschlagen wird.
 
 +++
 
-+++Hat die Änderung auf der Staging-Instanz Auswirkungen auf die Produktionsinstanz?
++++Hat die Änderung in der Staging-Instanz Auswirkungen auf die Produktionsinstanz?
 
 Nein, Änderungen an der Staging-Mobile-App haben keine Auswirkungen auf die Produktionsinstanz.
 

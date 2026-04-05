@@ -3,14 +3,14 @@ title: Erstellen personalisierter Inhalte
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Erfahren Sie, wie Sie gängige Probleme bei der Gestaltung Ihres Nachrichteninhalts vermeiden, die die Ausführung des Versands behindern könnten. 
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
 

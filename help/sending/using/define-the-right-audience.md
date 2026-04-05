@@ -3,26 +3,26 @@ title: Definieren der richtigen Zielgruppe
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Wenn Sie Ihren Inhalt fertig haben, erfahren Sie, wie Sie sorgfältig definieren, wer Ihre Nachricht erhalten wird.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 96%
 
 ---
 
-# Festlegen der richtigen Audience {#define-the-right-audience}
+# Festlegen der richtigen Zielgruppe {#define-the-right-audience}
 
-Die Bestimmung der Zielgruppen ist besonders wichtig. Gehen Sie bei der Erstellung Ihrer Kontaktlisten sorgfältig vor, testen Sie Ihre E-Mails in den gängigsten E-Mail-Clients, Smartphones und Tablets und stellen Sie sicher, dass Ihre Verteilerlisten aktuell sind (und keine unbekannten oder veralteten Adressen enthalten). Sie können auch Testsendungen vornehmen, um einen vollständigen Validierungszyklus durchzuführen.
+Die Bestimmung der Zielpopulation ist besonders wichtig. Gehen Sie bei der Erstellung Ihrer Kontaktlisten sorgfältig vor, testen Sie Ihre E-Mails in den gängigsten E-Mail-Clients und auf den gängigsten Mobilgeräten und stellen Sie sicher, dass Ihre Verteilerlisten aktuell sind (und keine unbekannten oder veralteten Adressen enthalten). Sie können auch Testsendungen vornehmen, um einen vollständigen Validierungszyklus durchzuführen.
 
-Weiterführende Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../../audiences/using/selecting-an-audience-in-a-message.md).
+Weiterführende Informationen zu Zielpopulationen finden Sie in [diesem Abschnitt](../../audiences/using/selecting-an-audience-in-a-message.md).
 
-## Ansprechen der richtigen Audience {#target-the-right-audience}
+## Ansprechen der richtigen Zielgruppe {#target-the-right-audience}
 
 Wenn Ihr Inhalt fertiggestellt ist, müssen Sie sorgfältig auswählen, wer Ihre Nachricht erhalten soll.
 
@@ -38,13 +38,13 @@ Sie können auch ein benutzerdefiniertes Zielgruppen-Mapping erstellen und verwe
 
 ## Externe Daten {#external-data}
 
-Sie können Nachrichten an Empfänger senden, die in einer externen Datei anstatt in der Datenbank gespeichert sind. Zu diesem Zweck entwerfen Sie einen Workflow, der Daten aus einer Datei in Ihre Datenbank lädt und eine zugeordnete Audience erstellt. Weitere Informationen finden Sie [in diesem Anwendungsbeispiel](../../automating/using/use-case-calling-workflow.md). Siehe auch [Aufrufen eines Workflows mit Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Sie können Nachrichten an Empfangende senden, die in einer externen Datei anstatt in der Datenbank gespeichert sind. Zu diesem Zweck entwerfen Sie einen Workflow, der Daten aus einer Datei in Ihre Datenbank lädt und eine zugeordnete Zielgruppe erstellt. Weitere Informationen finden Sie [in diesem Anwendungsbeispiel](../../automating/using/use-case-calling-workflow.md). Siehe auch [Aufrufen eines Workflows mit Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Versand an Ihre Abonnenten {#send-to-subscribers}
 
 Um den Abonnenten eines Newsletters Nachrichten zu senden, können Sie die Abonnenten des jeweiligen Informationsdienstes direkt anschreiben. Weiterführende Informationen finden Sie [in diesem Abschnitt](../../audiences/using/about-subscriptions.md).
 
-**Tipp** – Sie können eine Listenzielgruppe erstellen, die mit Hilfe eines Workflows die Abonnenten Ihres Newsletters anspricht. Sie können diese Audience dann in einem Versand auswählen. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Listenzielgruppen](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Tipp** – Sie können eine Listenzielgruppe erstellen, die mit Hilfe eines Workflows die Abonnenten Ihres Newsletters anspricht. Sie können diese Zielgruppe dann in einem Versand auswählen. Weiterführende Informationen dazu finden Sie im Abschnitt [Erstellung von Listenzielgruppen](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Testsendungen, Testprofile und Kontrollgruppen {#proofs-test-control-groups}
 
@@ -53,7 +53,7 @@ Achten Sie darauf, geeignete Testversand-Empfänger auszuwählen, da diese die F
 
 Weiterführende Informationen zu Testprofilen finden Sie in [diesem Abschnitt](../../audiences/using/managing-test-profiles.md).
 
-Sie können jetzt [Kontrollgruppen](../../sending/using/control-group.md) verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Audience ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
+Sie können jetzt [Kontrollgruppen](../../sending/using/control-group.md) verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Zielgruppe ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
 
 ## Deduplizieren von Adressen {#deduplicate-addresses}
 

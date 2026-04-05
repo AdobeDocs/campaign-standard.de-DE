@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '2984'
-ht-degree: 100%
+source-wordcount: '2983'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Im E-Mail-Konfigurationsfenster können Sie die Parameter für den E-Mail-Kanal 
 
 * **Versandparameter**
 
-  Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts.
+  Adobe Campaign versendet Nachrichten ab dem Startdatum.
 
   Wenn eine Nachricht in einem Versand aufgrund eines temporären Fehlers oder eines Softbounce zurückgewiesen wird, versucht Campaign, diese Nachricht jeden Tag erneut zu senden. Verwenden Sie das Feld **[!UICONTROL Dauer des Nachrichtenversands]**, um den Zeitrahmen anzugeben, während dessen weitere Zustellversuche durchgeführt werden können.
 
@@ -93,11 +93,13 @@ Auf die **[!UICONTROL Regeln zum Umgang mit E-Mails]** können Administratoren �
 * Die Signierung zur E-Mail-Authentifizierung mit **DKIM (DomainKeys Identified Mail)** erfolgt für alle Nachrichten mit allen Domains. Die Signierung erfolgt nicht mit **Sender ID**, **DomainKeys** oder **S/MIME**.
 * MX-Regeln passen Ihren Durchsatz automatisch nach Domain an, basierend auf Ihrer eigenen historischen E-Mail-Reputation und dem Echtzeit-Feedback der Domains, in denen Sie E-Mails senden.
 
-<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+<!--
+Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
-* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
-### Bounce Messages {#bounce-mails}
+### Bounce-E-Mails {#bounce-mails}
 
 Asynchrone Bounces werden weiterhin mit dem inMail-Verfahren von Campaign durch die Regel **[!UICONTROL Bounce Messages]** qualifiziert.
 
@@ -109,7 +111,8 @@ In den Regeln sind die von Remote-Servern potenziell zurückgegebenen Strings en
 
 Weiterführende Informationen zur Qualifizierung von Bounce Messages finden Sie in diesem [Abschnitt](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+<!--
+Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Management of email domains {#managing-email-domains}
 
@@ -121,7 +124,8 @@ The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe 
 
 The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ## Liste der E-Mail-Eigenschaften  {#list-of-email-properties}
 
@@ -170,7 +174,7 @@ Die in Campaign eingerichtete Einstellung **Versandlaufzeit** (definiert im Bere
 Sie können das Format der zu sendenden E-Mails konfigurieren. Dabei stehen drei Optionen zur Verfügung:
 
 * **Empfängervorlieben berücksichtigen** (Standardmodus): Das Nachrichtenformat wird auf der Grundlage der im Empfängerprofil gespeicherten Daten definiert und standardmäßig im Feld **E-Mail-Format** (@emailFormat) gespeichert. Falls ein Empfänger Nachrichten in einem bestimmten Format erhalten möchte, werden sie in diesem Format gesendet. Ohne Angabe in diesem Feld wird eine Nachricht vom Typ „Multipart-Alternative“ gesendet, wie im Anschluss erläutert.
-* **E-Mail-Programm des Empfängers das beste Format wählen lassen (multipart-alternative)**: Die Meldung enthält sowohl das Text- als auch das HTML-Format. Welches Format beim Empfänger angezeigt wird, hängt von der Konfiguration des E-Mail-Programms des Empfängers ab (Multipart-Alternative).
+* **E-Mail-Programm des Empfängers das beste Format wählen lassen (multipart-alternative)**: Die Nachricht enthält sowohl das Text- als auch das HTML-Format. Welches Format beim Empfänger angezeigt wird, hängt von der Konfiguration des E-Mail-Programms des Empfängers ab (Multipart-Alternative).
 
   >[!IMPORTANT]
   >
@@ -207,7 +211,7 @@ Im Abschnitt **[!UICONTROL Gültigkeitszeitraum]** sind folgende Parameter verf�
 
   ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Versandlaufzeit]** / **[!UICONTROL Gültigkeitsgrenze für den Nachrichtenversand]**: Adobe Campaign versendet Nachrichten ab dem Datum des Versandstarts. In diesem Feld lässt sich die Dauer festlegen, während der Nachrichten gesendet werden können.
+* **[!UICONTROL Versandlaufzeit]** / **[!UICONTROL Gültigkeitsgrenze für den Nachrichtenversand]**: Adobe Campaign versendet Nachrichten ab dem Startdatum. In diesem Feld lässt sich die Dauer festlegen, während der Nachrichten gesendet werden können.
 
   >[!IMPORTANT]
   >
@@ -288,7 +292,7 @@ Im Abschnitt **[!UICONTROL SMTP]** sind folgende Parameter verfügbar:
 
 * **[!UICONTROL Zeichenkodierung]**: Aktivieren Sie die Option **[!UICONTROL Kodierung erzwingen]**, wenn Sie die Nachrichtenkodierung erzwingen möchten, und wählen Sie dann die gewünschte Kodierungsmethode aus.
 * **[!UICONTROL Bounce Messages]**: Bounce Messages werden standardmäßig in der Fehler-Inbox der Plattform empfangen (definiert unter **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail]** > **[!UICONTROL Konfiguration).]** Um eine bestimmte Fehleradresse für eine E-Mail zu definieren, geben Sie die jeweilige Adresse im Feld **[!UICONTROL Fehleradresse]** ein.
-* **[!UICONTROL Zusätzliche SMTP-Header]**: Mit dieser Option können Sie Ihren Nachrichten zusätzliche SMTP-Header hinzufügen. Das im Feld **[!UICONTROL Header]** eingegebene Script muss pro Zeile auf einen einzelnen Header (im Format **Name:Wert**) verweisen. Werte werden bei Bedarf automatisch verschlüsselt.
+* **[!UICONTROL Zusätzliche SMTP-Header]**: Mit dieser Option können Sie Ihren Nachrichten zusätzliche SMTP-Header hinzufügen. Das im Feld **[!UICONTROL Kopfzeilen]** eingegebene Script muss pro Zeile auf eine Kopfzeile in der Form &quot;**&quot;:value**. Werte werden bei Bedarf automatisch verschlüsselt.
 
   >[!IMPORTANT]
   >
@@ -336,13 +340,13 @@ Mit dem Parameter **[!UICONTROL Versandlaufzeit]** oder **[!UICONTROL Gültigkei
 
 Die Regeln **[!UICONTROL MX-Verwaltung]**, **[!UICONTROL Bounce-Mails]** und **[!UICONTROL Domain-Verwaltung]** können von Administratoren über das Menü **[!UICONTROL Administration > Kanäle > E-Mail > E-Mail-Verarbeitungsregeln]** aufgerufen und geändert werden. [Weitere Informationen](#email-processing-rules)
 
-### Qualifizierung von Bounce-Mails {#legacy-bounce-mail-qualification}
+### Bounce-Message-Qualifizierung {#legacy-bounce-mail-qualification}
 
 Um die unterschiedlichen Bounces und ihre jeweiligen Fehlertypen und -ursachen aufzulisten, klicken Sie auf das **Adobe**-Logo oben links und anschließend auf **[!UICONTROL Administration > Kanäle > Quarantänen > Nachrichtenqualifizierung]**.
 
-Folgende Qualifikationsstatus von Bounces treten auf:
+Folgende Qualifizierungsstatus von Bounces treten auf:
 
-* **[!UICONTROL Zu qualifizieren]**: Die Bounce Message konnte nicht qualifiziert werden. Die Qualifikation muss dem Zustellbarkeitsteam unterbreitet werden, um die korrekte Steuerung der Zustellbarkeit der Plattform zu gewährleisten. Nicht qualifizierte Bounce Messages werden nicht zur Anreicherung der E-Mail-Regeln herangezogen.
+* **[!UICONTROL Zu qualifizieren]**: Die Bounce Message konnte nicht qualifiziert werden. Die Qualifizierung muss dem Zustellbarkeitsteam unterbreitet werden, um die korrekte Steuerung der Zustellbarkeit der Plattform zu gewährleisten. Nicht qualifizierte Bounce Messages werden nicht zur Anreicherung der E-Mail-Regeln herangezogen.
 * **[!UICONTROL Beibehalten]**: Die Bounce Message wurde qualifiziert und wird vom Workflow **Zustellbarkeit** verwendet, um mit den existierenden E-Mail-Regeln verglichen zu werden und eventuell die Liste zu ergänzen.
 * **[!UICONTROL Ignorieren]**: Die Bounce Message wurde qualifiziert, wird jedoch nicht vom Workflow **Zustellbarkeit** verwendet. Sie wird somit nicht an die Client-Instanzen weitergeleitet.
 

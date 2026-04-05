@@ -3,14 +3,14 @@ title: Optimieren des Nachrichtenversands
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Erfahren Sie, wie Sie den vorgelagerten Versandprozess sichern und optimieren.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 100%
 

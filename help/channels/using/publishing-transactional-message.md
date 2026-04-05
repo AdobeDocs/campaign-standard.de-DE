@@ -9,8 +9,8 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 100%
 
@@ -38,7 +38,8 @@ Die nachstehende Tabelle zeigt den allgemeinen Veröffentlichungsprozess bei Tra
 * [Veröffentlichung einer Transaktionsnachricht aufheben](#unpublishing-a-transactional-message)
 * [Ereignisse veröffentlichen](../../channels/using/publishing-transactional-event.md)
 
-<!--## Testing a transactional message {#testing-a-transactional-message}
+<!--
+## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
 
@@ -84,7 +85,8 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
+-->
 
 ## Transaktionsnachricht veröffentlichen {#publishing-a-transactional-message}
 
@@ -153,7 +155,8 @@ Transaktionsnachrichten können jedoch nur unter gewissen Voraussetzungen gelös
 
 * **Transaktionsnachrichten aus einer nativen Ereignisvorlage (interne Transaktionsnachrichten)**: Wenn eine interne Transaktionsnachricht die einzige Transaktionsnachricht ist, die mit dem entsprechenden internen Ereignis verknüpft ist, kann sie nicht gelöscht werden. Sie müssen zuerst eine andere Transaktionsnachricht erstellen, indem Sie sie duplizieren oder das Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Transaktionsnachrichten-Vorlagen]** verwenden.
 
-<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
+<!--
+## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -245,4 +248,5 @@ In the retry process, the sending logs of the new execution delivery are not imm
 
 You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.
+-->

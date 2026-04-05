@@ -3,13 +3,13 @@ title: Verwenden von Versandvorlagen
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Versandvorlagen ermöglichen eine höhere Effizienz, indem sie vorgefertigte Szenarien für die meisten gängigen Aktivitätstypen bereitstellen.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 98%
