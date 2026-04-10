@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Produktdokumentation für Adobe Campaign Standard.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Campaign Standard – Dokumentation
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 95%
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
-      + [2021](rn/using/release-notes-2021.md)
-      + [2020](rn/using/release-notes-2020.md)
-      + [2019](rn/using/release-notes-2019.md)
-      + [2018](rn/using/release-notes-2018.md)
-      + [2017](rn/using/release-notes-2017.md)
+      + {hide-from-toc}[2021](rn/using/release-notes-2021.md)
+      + {hide-from-toc}[2020](rn/using/release-notes-2020.md)
+      + {hide-from-toc}[2019 &#x200B;](rn/using/release-notes-2019.md)
+      + {hide-from-toc}[2018 &#x200B;](rn/using/release-notes-2018.md)
+      + {hide-from-toc}[2017 &#x200B;](rn/using/release-notes-2017.md)
    + [Versionsplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
-   + [Problem mit Signaturen getrackter URLs](rn/using/tracked-urls.md)
-   + [Aktuelle Dokumentationsaktualisierungen](rn/using/documentation-updates.md)
+   + {hide-from-toc}[Problem mit Signaturen getrackter URLs](rn/using/tracked-urls.md)
+   + {hide-from-toc}[Aktuelle Dokumentationsaktualisierungen](rn/using/documentation-updates.md)
 + Erste Schritte {#getting-started}
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Kennenlernen der Benutzeroberfläche {#discovering-the-interface}
@@ -48,7 +48,7 @@ ht-degree: 95%
       + [Datenschutzverwaltung](start/using/privacy-management.md)
       + [Datenschutzanfragen](start/using/privacy-requests.md)
       + [Häufig gestellte Fragen zum Datenschutz](start/using/privacy-faq.md)
-   + [Hilfe- und Support-Optionen](support.md)
+   + {hide-from-toc}[Hilfe- und Support-Optionen](support.md)
 + Profile und Zielgruppen  {#profiles-and-audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audiences/using/get-started-profiles-and-audiences.md)
    + Profile verwalten {#managing-profiles}
@@ -437,7 +437,7 @@ ht-degree: 95%
    + Kanäle konfigurieren {#configuring-channels}
       + [Über die Konfiguration von Kanälen](administration/using/about-channel-configuration.md)
       + [E-Mail-Kanal konfigurieren](administration/using/configuring-email-channel.md)
-      + [Aktualisieren der Bounce-Qualifizierung nach einem ISP-Ausfall](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[Aktualisierung der Bounce-Qualifizierung nach einem ISP-Ausfall](administration/using/update-bounce-qualification.md)
       + [Mobile App konfigurieren](administration/using/configuring-a-mobile-application.md)
    + Mobile Kanäle konfigurieren {#configuring-mobile}
       + [Implementieren von Push-Tracking](administration/using/push-tracking.md)
