@@ -7,9 +7,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '5272'
 ht-degree: 99%
@@ -34,9 +33,9 @@ ht-degree: 99%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Audience ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
+  <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Zielgruppe ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
 </p>
-<p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=de">Anleitungsvideo</a>.
+<p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">Anleitungsvideo</a>.
 </p>
 </td> 
 </tr> 
@@ -83,7 +82,7 @@ ht-degree: 99%
 
 **Verbesserungen**
 
-* **Datenschutzverwaltung**: Das **CCPA-Opt-out**-Feld, das über die Campaign-Benutzeroberfläche und die API verfügbar war, wird jetzt auch über den Privacy Core Service unterstützt. In diesem Feld können Adobe Campaign-Benutzer verfolgen, ob ein Verbraucher sich vom Verkauf personenbezogener Informationen abgemeldet hat. [Mehr dazu](https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa)
+* **Datenschutzverwaltung**: Das **CCPA-Opt-out**-Feld, das über die Campaign-Benutzeroberfläche und die API verfügbar war, wird jetzt auch über den Privacy Core Service unterstützt. In diesem Feld können Adobe Campaign-Benutzer verfolgen, ob ein Verbraucher sich vom Verkauf personenbezogener Informationen abgemeldet hat. [Weitere Informationen](https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#ccpa)
 * **Verbesserungen bei der Workflow-Ausführung** (Beta): Im Rahmen einer globalen Initiative für Workflows wurden einige wichtige Verbesserungen entwickelt, um die Speicherverwaltung zu stabilisieren, die Latenz zu verringern und den von Workflows während der Ausführung verbrauchten Speicher zu optimieren. Diese Verbesserungen befinden sich derzeit in der Betaversion und stehen nur einer Reihe von Kunden zur Verfügung. Die allgemeine Verfügbarkeit ist für Anfang 2021 geplant.
 * Um die Sicherheit zu verbessern, verwendet Campaign jetzt einen **Signaturmechanismus** zum Verfolgen von Links in E-Mails.
 * Die Konfiguration mobiler Apps wurde durch **klarere Fehlermeldungen** beim Hochladen von iOS-Zertifikaten oder Android-Schlüsseln verbessert.
@@ -108,12 +107,12 @@ ht-degree: 99%
 
 **Sonstige Änderungen**
 
-* Es wurden Wiederholungsmechanismen für den Fall eines Fehlers beim Versuch hinzugefügt, eine Experience Platform-Audience mit der Aktivität **Audience lesen** zu importieren. (CAMP-43947, CAMP-43366)
+* Es wurden Wiederholungsmechanismen für den Fall eines Fehlers beim Versuch hinzugefügt, eine Experience Platform-Zielgruppe mit der Aktivität **Zielgruppe lesen** zu importieren. (CAMP-43947, CAMP-43366)
 * Organisationseinheiten werden jetzt automatisch auf die Organisationseinheit des Benutzers eingestellt, der das Profil oder die Entität erstellt. Organisationseinheiten können nicht mehr entfernt und leer gelassen werden.
 * Beim Veröffentlichen einer benutzerdefinierten Ressource wird jetzt nach der Vorbereitung ein Bestätigungs-Popup angezeigt.
 * Die Popup-Meldung, die angezeigt wird, wenn eine benutzerdefinierte Ressource fehlschlägt, wurde verbessert.
 * Der Ausdruckseditor in Workflows wurde verbessert, um Ausführungsfehler zu vermeiden.  Es stehen [neue Funktionen](../../automating/using/customizing-workflow-external-parameters.md) zur Verfügung: Sie können in allen Aktivitäten verwendet werden, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Zusätzlich wird jetzt im Ausdruckseditor eine QuickInfo mit der Funktionsbeschreibung angezeigt.
-* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
+* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
 * Die Protokolle, die beim Exportieren von Packages angezeigt werden, wurden im Fehlerfall spezifischer und detaillierter hinsichtlich der aufgetretenen Fehler gestaltet.
 * Nach dem Senden einer Nachricht können Sie jetzt die Liste der [getrackten URLs](../../sending/using/tracking-messages.md) durchsuchen, filtern und exportieren.
 * Die automatische [Synchronisation zwischen Launch und Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ist jetzt allgemein verfügbar und standardmäßig aktiviert.
@@ -127,14 +126,14 @@ ht-degree: 99%
 * Auf der Registerkarte **Liste der Ausführungen** einer Transaktionsnachricht wurde ein neuer Filter zum Versandstatus hinzugefügt, um die Fehlerbehebung zu verbessern.
 * Um die Performance zu verbessern und die Ausführungszeit zu optimieren, wurden unbenutzte Indizes entfernt, basierend auf den Nutzungsstatistiken von Tabellen, die in einer vorläufigen Analyse für mehr als 350 Kunden identifiziert wurden. Die betroffenen Tabellen sind: nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsempfänger, nmsseedmember, nmsservice, nmssubhistorcp, nmsaudience, xtkworkflow.
 
-**Korrekturen**
+**Patches**
 
 * Fehlerkorrektur – Ziel-Links können jetzt für Push-Benachrichtigungen oder In-App-Nachrichten verwendet werden, wenn Tracking aktiviert ist.
 * Fehlerkorrektur – Bei einem gebündelten Versand mit hoher Priorität wird diese jetzt in Transaktionsnachrichten berücksichtigt.
 * Fehlerkorrektur – Marken können jetzt Transaktions-E-Mails zugewiesen werden. Während des Veröffentlichungsschritts konnten mehrere Fehlermeldungen angezeigt werden. (CAMP-44988)
 * Fehlerkorrektur –Es können jetzt Informationen in Feldern in der Workflow-Benutzeroberfläche gespeichert werden, die numerische Werte erfordern. (CAMP-44025)
 * Fehlerkorrektur – Beim Verwenden einer **Testaktivität** in einem Workflow für Importvorlagen wird keine Fehlermeldung mehr angezeigt. (CAMP-42910)
-* Fehlerkorrektur – Es ist jetzt möglich, eine **Audience lesen**-Aktivität mit einem Auflistungstypfeld und in Verbindung mit den Aktivitäten **Vereinigung** und **Anreicherung** erfolgreich zu verwenden. (CAMP-42795)
+* Fehlerkorrektur – Es ist jetzt möglich, eine **Zielgruppe lesen**-Aktivität mit einem Auflistungstypfeld und in Verbindung mit den Aktivitäten **Vereinigung** und **Anreicherung** erfolgreich zu verwenden. (CAMP-42795)
 * Fehlerkorrektur – In dynamische Berichten können jetzt native Segmente zum Filtern von Daten in Berichten problemlos verwendet werden. (CAMP-42627)
 * Fehlerkorrektur – **Planungsaktivitäten** können jetzt auf 0 Uhr festlegt werden. (CAMP-42674)
 * Fehlerkorrektur – SMS-Nachrichten können jetzt ohne Unterbrechung gesendet werden, wenn die SMPP-Verbindung instabil ist. (CAMP-42789)
@@ -149,7 +148,7 @@ ht-degree: 99%
 * Fehlerkorrektur – Beim Zugriff auf ein Profil in einer Instanz, die mit benutzerdefinierten Ressourcen konfiguriert ist, die bestimmte Linkdefinitionen enthalten, wird kein leerer Bildschirm mehr angezeigt. (CAMP-41009)
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr in Workflows auf, wenn eine Aktivität vom Typ **Anreicherung** mit zwei Eingabeaktivitäten verwendet wird, bei denen beide Zielgruppenressourcen verknüpft sind. (CAMP-42133)
 * Fehlerkorrektur – Import-Workflows werden bei Verwendung der Aktivität **Dateiübertragung** nicht mehr wiederholt. (CAMP-43754)
-* Fehlerkorrektur – Dubletten werden beim Erstellen eines Profils mit exportierten Logs jetzt berücksichtigt. (CAMP-45031)
+* Fehlerkorrektur – Duplikate werden beim Erstellen eines Profils mit exportierten Logs jetzt berücksichtigt. (CAMP-45031)
 * Fehlerkorrektur – Berichte in Adobe Campaign und in PDF-Dateien exportierte Berichte weisen keine Diskrepanzen mehr auf. (CAMP-43010)
 * Fehlerkorrektur – Briefpostversand-Workflows funktionieren jetzt richtig, wenn bestehende Datenfelder in Funktionen verwendet werden. (CAMP-42737)
 * Fehlerkorrektur – Der Import von Packages mit Transaktionsereignissen und Transaktionsnachrichten-Vorlagen funktioniert jetzt richtig. Der Importvorgang wurde bei 5 % angehalten. (CAMP-42544)
@@ -170,7 +169,7 @@ ht-degree: 99%
 * Fehlerkorrektur – Die Verbindung zu einem externen Konto kann nicht mehr vor dessen Erstellung getestet werden. Die Schaltfläche **Verbindung testen** wird jetzt erst nach Erstellung des externen Kontos angezeigt.
 * Fehlerkorrektur – Nach dem Neustart des erweiterten MTA bei Instanzen mit Sharding-Konfiguration werden Nachrichten nicht mehr als ausstehend angezeigt.
 * Fehlerkorrektur – Die Anzahl der aktiven Profile stimmt jetzt mit der tatsächlichen Anzahl der ausgeführten Sendungen überein.
-* Fehlerkorrektur – Beim Suchen nach Ressourcen in einem Workflow im Abfrageeditor treten keine Latenzen mehr auf.
+* Fehlerkorrektur – Beim Suchen nach Ressourcen in einem Workflow im Abfrage-Editor treten keine Latenzen mehr auf.
 * Fehlerkorrektur – Bei der Auswahl der Option **Bei der Textsuche berücksichtigte Felder definieren** in einer benutzerdefinierten Ressource treten kein Fehler mehr auf. Wenn die Liste des Felds leer gelassen wurde, schlug die Veröffentlichung der benutzerdefinierten Ressource fehl.
 * Fehlerkorrektur – Beim Anzeigen der Übersicht über benutzerdefinierte Ressourcen mit einem großen Datenvolumen treten keine Performance-Probleme mehr auf.
 * Fehlerkorrektur – Es ist jetzt möglich, einen Versand mit Profilersetzungen zu importieren.
@@ -203,7 +202,7 @@ ht-degree: 99%
 <td> <p>Das thailändische Datenschutzgesetz (PDPA) ist ein neues Datenschutzgesetz, mit dem die Datenschutzanforderungen für Thailand harmonisiert und modernisiert werden. Diese Verordnung gilt für Adobe Campaign-Kunden, die Daten von Personen erfassen, die in diesem Land wohnhaft sind.</p>
 <p>Zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen usw.) werden daher weitere Funktionen bereitgestellt, mit deren Hilfe PDPA-konformes Verhalten sichergestellt werden kann:</p>
 <ul>
-<li>Recht auf Zugriff und Recht auf Löschung: Hierfür werden die Funktionen genutzt, die für die DSGVO und PPDA hinzugefügt wurden – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">mehr dazu</a> </li>
+<li>Recht auf Zugriff und Recht auf Löschung: Hierfür werden die Funktionen genutzt, die für die DSGVO und PPDA hinzugefügt wurden – <a href="https://helpx.adobe.com/content/help/de/campaign/kb/acs-privacy.html#righttoaccess">Weitere Informationen</a> </li>
 <li><p>Bei der Erstellung einer Datenschutzanfrage steht im Privacy Core Service nun eine Auswahl für die PDPA-Verordnung zur Verfügung. Diese Methode sollten Sie für Anfragen auf Datenzugriff bzw. -löschung verwenden. Die Campaign-API und -Schnittstelle für Zugriffs- und Löschanfragen wurde eingestellt.  Weitere Informationen dazu finden Sie im Artikel <a href="../../rn/using/deprecated-features.md">Eingestellte und entfernte Funktionen</a>.</p></li>
 </ul>
 <p>Weitere Informationen finden Sie in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=de">diesem Video</a>.</p>
@@ -235,14 +234,14 @@ ht-degree: 99%
 
 **Zusätzliche Funktionen** (ab 13. Juli)
 
-* **KI-gestützte Sendezeitoptimierung und Profilbewertung**: Sie können jetzt Design und Versand von Customer Journeys optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit Journey-KI kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen. [Mehr dazu](../../sending/using/predictive.md)
-* **Brasiliens neue Datenschutzverordnung**: Zusätzlich zu den bereits in Campaign verfügbaren Datenschutzfunktionen hilft Ihnen Adobe, LGPD-konformes Verhalten (LGPD: brasilianische Datenschutzverordnung Lei Geral de Proteção de Datos) sicherzustellen. Bei der Erstellung einer Datenschutzanfrage wurde dem Privacy Core Service die LGPD-Verordnung hinzugefügt. [Mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
+* **KI-gestützte Sendezeitoptimierung und Profilbewertung**: Sie können jetzt Design und Versand von Customer Journeys optimieren, um die Interaktionsvorlieben jedes Einzelnen vorherzusagen. Mit Journey-KI kann Adobe Campaign Öffnungsraten, optimale Sendezeiten und wahrscheinliche Abwanderungszahlen anhand historischer Interaktionsmetriken analysieren und vorhersagen. [Weitere Informationen](../../sending/using/predictive.md)
+* **Brasiliens neue Datenschutzverordnung**: Zusätzlich zu den bereits in Campaign verfügbaren Datenschutzfunktionen hilft Ihnen Adobe, LGPD-konformes Verhalten (LGPD: brasilianische Datenschutzverordnung Lei Geral de Proteção de Datos) sicherzustellen. Bei der Erstellung einer Datenschutzanfrage wurde dem Privacy Core Service die LGPD-Verordnung hinzugefügt. [Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/campaign-privacy-overview.html)
 
 **Verbesserungen**
 
 * Die Anzahl der Zeichen, die im Feld **Präfix** zum [Testen von Nachrichten mit Zielgruppenprofilen](../../sending/using/testing-messages-using-target.md) verwendet werden können, wurde von 32 auf 500 Zeichen erhöht.
 * Die maximale Anzahl von Echtzeit-Ereignissen, die in einer Instanz veröffentlicht werden können, wurde von 350 auf 2.000 erhöht. (CAMP-41608)
-* Die Synchronisation zwischen Adobe Launch und Campaign Standard wurde mithilfe des technischen Workflows syncWithLaunch verbessert. Dieser Workflow ermöglicht den automatischen Import aller Adobe Launch-Eigenschaften für Mobilgeräte in Adobe Campaign Standard. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../../administration/using/technical-workflows.md).
+* Die Synchronisation zwischen Adobe Launch und Campaign Standard wurde mithilfe des technischen Workflows syncWithLaunch verbessert. Dieser Workflow ermöglicht den automatischen Import aller Adobe Launch-Eigenschaften für Mobilgeräte in Adobe Campaign Standard. Weitere Informationen dazu finden Sie auf [dieser Seite](../../administration/using/technical-workflows.md).
 
   Sie müssen ein Ticket an die Adobe-Kundenunterstützung senden (entweder direkt oder über Ihren Adobe-Ansprechpartner), damit der technische Workflow syncWithLaunch in Ihrer Campaign-Instanz aktiviert wird. (CAMP-40082)
 
@@ -263,15 +262,15 @@ ht-degree: 99%
 * Checkboxes können in einer Landingpage jetzt zu Pflichtfeldern gemacht werden.
 * Beim Herunterladen der CSV-Datei eines dynamischen Berichts wurde das Limit von 200 Zeilen entfernt. Sie können jetzt jede Zeile Ihres Berichts einschließen. (CAMP-40810)
 * Die Sprache ES-US wurde der Liste nativer Sprachen für mehrsprachige E-Mails hinzugefügt. (CAMP-42279)
-* Dateien, die mit einer Dateiübertragungs-Aktivität heruntergeladen wurden, werden nun nach X Tagen gelöscht, wobei X durch das Feld **Verlauf in Tagen** unter dem Menü **Ausführung** in den Workflow-Eigenschaften bestimmt wird. [Mehr dazu](../../automating/using/managing-execution-options.md)
+* Dateien, die mit einer Dateiübertragungs-Aktivität heruntergeladen wurden, werden nun nach X Tagen gelöscht, wobei X durch das Feld **Verlauf in Tagen** unter dem Menü **Ausführung** in den Workflow-Eigenschaften bestimmt wird. [Weitere Informationen](../../automating/using/managing-execution-options.md)
 
 **Experience Platform-Integrationen**
 
-* Die Aktivierung von Adobe Experience Platform-Zielgruppen über die Aktivität **Zielgruppe lesen** wurde verbessert, um eine höhere Performance und Stabilität zu erzielen. Darüber hinaus wurden Workflow-Logs in Bezug auf Aktivierungsvorgänge klarer und detaillierter gestaltet, was eine einfachere Überwachung und Fehlerbehebung beim Lesen von Adobe Experience Platform-Audiences ermöglicht.
+* Die Aktivierung von Adobe Experience Platform-Zielgruppen über die Aktivität **Zielgruppe lesen** wurde verbessert, um eine höhere Performance und Stabilität zu erzielen. Darüber hinaus wurden Workflow-Logs in Bezug auf Aktivierungsaufträge klarer und detaillierter gestaltet, was eine einfachere Überwachung und Fehlerbehebung beim Lesen von Adobe Experience Platform-Zielgruppen ermöglicht.
 
 **Patches**
 
-* Während des Veröffentlichungsvorgangs einer benutzerdefinierten Ressource wird keine Geisterressource mehr erstellt.
+* Während des Veröffentlichungsauftrags einer benutzerdefinierten Ressource wird keine Geisterressource mehr erstellt.
 * Die Anzeige des Marketing-Verlaufs von Profilen wird nicht mehr verhindert, wenn die Profilressource mit einer benutzerdefinierten Ressource erweitert wird. (CAMP-41009)
 * Der Inhalt von nativen Landingpage-Vorlagen wird beim Öffnen des Editors nicht mehr in französischer Sprache angezeigt. (CAMP-41639)
 * In Push-Benachrichtigungen mit dynamischem Inhalt wird nicht mehr Anzeige von Emojis verhindert. (CAMP-40715)
@@ -284,13 +283,13 @@ ht-degree: 99%
 * Die Funktion &quot;charIndex&quot; funktioniert jetzt in einem Workflow mit einer **Ende**- oder **Dateiübertragungs**-Aktivität.
 * Jetzt tritt kein Fehler mehr in Workflows auf, wenn eine Aktivität vom Typ **Anreicherung** mit zwei Eingabeaktivitäten verwendet wurde, einschließlich Zielgruppenressourcen, die eine Relation zueinander aufweisen. (CAMP-42133)
 * Die Ausführung eines Workflows bei Verwendung unbekannter Funktionen ist jetzt möglich. (CAMP-41873)
-* Beim Erstellen von Zielgruppen mithilfe mehrerer Aktivitäten vom Typ **Zielgruppe speichern** mit komplementären ausgehenden Transitionen tritt jetzt kein Problem mehr auf. (CAMP-39992)
+* Fehlerkorrektur – Beim Erstellen von Zielgruppen mithilfe mehrerer Aktivitäten vom Typ **Zielgruppe speichern** mit komplementären ausgehenden Transitionen tritt jetzt kein Problem mehr auf. (CAMP-39992)
 * Bei der Verwendung von Personalisierung in Transaktions-E-Mails treten jetzt keine Datenabweichungen mehr auf. (CAMP-41842)
 * Beim Löschen von benutzerdefinierten Feldern in Sendungen mit Push-Benachrichtigungen tritt jetzt kein Problem mehr auf. (CAMP-37586)
 * Benutzer können jetzt Änderungen an Berichten vornehmen. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Mehr dazu](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
+![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
 ## Version 20.2 – April 2020 {#release-20-2---april-2020}
 
@@ -332,9 +331,9 @@ ht-degree: 99%
 
 **Verbesserungen**
 
-* Das Anwendererlebnis beim Transaktionsnachrichtenversand wurde verbessert; zudem wurde die Konsistenz der Benutzeroberfläche erhöht. [mehr dazu](../../channels/using/getting-started-with-transactional-msg.md)
+* Das Anwendererlebnis beim Transaktionsnachrichtenversand wurde verbessert; zudem wurde die Konsistenz der Benutzeroberfläche erhöht. [Weitere Informationen](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard ermöglicht es Ihnen jetzt, mithilfe zusätzlicher Daten aus Workflows Testsendungen an Testprofile vorzunehmen.
-* Schutzmaßnahmen für die externe API-Aktivität wurden aktualisiert. [Mehr dazu](../../automating/using/external-api.md)
+* Schutzmaßnahmen für die externe API-Aktivität wurden aktualisiert. [Weitere Informationen](../../automating/using/external-api.md)
 
 **Verbesserungen bei Email Designer**
 
@@ -349,7 +348,7 @@ ht-degree: 99%
 * Beim HTML-Einzug wird jetzt die Fußzeile von E-Mails in Microsoft Outlook nicht mehr nach links verschoben. (CAMP-40987)
 * Personalisierungsfelder, die ein in HTML definiertes Sammlungsattribut verwenden, werden jetzt beim Wechsel zum Nur-Text-Modus nicht mehr in den Nur-Text-Inhalt kopiert. (CAMP-40365)
 * Links können jetzt in ein ausgewähltes Textsegment eingefügt wurden. (CAMP-41406)
-* Beim Auswählen einer Zeitzone im Abfrageeditor wird jetzt das Datum geändert. (CAMP-38277)
+* Beim Auswählen einer Zeitzone im Abfrage-Editor wird jetzt das Datum geändert. (CAMP-38277)
 
 **Sonstige Änderungen**
 
@@ -366,11 +365,11 @@ ht-degree: 99%
 * Ein Adobe Experience Platform-Profil, das aus der Datenbank gelöscht worden war, kann jetzt problemlos importiert werden.
 * In Workflow-Protokollen wird jetzt für die Gesamtzahl der importierten Datensätze kein falsches Ergebnis mehr angezeigt.
 
-**Korrekturen**
+**Patches**
 
 * Bei der Workflow-Aktivität **Anreicherung** wird beim Hinzufügen von Leerzeichen im Feld **Alias** kein neues Zeilenelement mehr erstellt. (CAMP-39229)
 * Bei der Durchführung eines Testversands kann jetzt nicht mehr jedes beliebige Testprofil als Zielgruppe ausgewählt werden.
-* Nach der Aufhebung der Veröffentlichung und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Mehr dazu](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+* Nach der Aufhebung der Veröffentlichung und Löschung einer Ereigniskonfiguration tritt jetzt kein Fehler mehr auf. [Weitere Informationen](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Die Schaltfläche **Speichern** verschwindet jetzt nicht mehr, wenn Änderungen an Workflows vorgenommen werden.
 * Beim manuellen Löschen einer Datenschutzanfrage in Campaign können nach deren Verarbeitung die mit der Anfrage verknüpften Daten auch nach der Bereinigung gelöscht werden.
 * Beim Anzeigen einer Vorschau oder beim Senden von Nachrichten mit Sonderzeichen aus Adobe Experience Manager tritt jetzt kein Fehler mehr auf.
@@ -379,7 +378,7 @@ ht-degree: 99%
 
 ## Version 20.1.4 – Februar 2020 {#release-20-1-4---february-2020}
 
-* Beim Öffnen der Aktivität **Audience lesen** in vorhandenen Workflows tritt jetzt kein Problem mehr auf. (CAMP-41002)
+* Beim Öffnen der Aktivität **Zielgruppe lesen** in vorhandenen Workflows tritt jetzt kein Problem mehr auf. (CAMP-41002)
 
 ## Version 20.1.3 – Februar 2020 {#release-20-1-3---february-2020}
 
@@ -430,17 +429,17 @@ ht-degree: 99%
 
 **Verbesserungen**
 
-* Globale Verfügbarkeit des erweiterten MTA: Nachrichten (einschließlich Transaktionsnachrichten) werden jetzt vom erweiterten MTA von Adobe Campaign gesendet, der eine aktualisierte Versandinfrastruktur bereitstellt, die besseren Durchsatz sowie verbesserte Zustellbarkeit und Bounce-Handhabung ermöglicht – [mehr dazu](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html)
+* Globale Verfügbarkeit des erweiterten MTA: Nachrichten (einschließlich Transaktionsnachrichten) werden jetzt vom erweiterten MTA von Adobe Campaign gesendet, der eine aktualisierte Versandinfrastruktur bereitstellt, die besseren Durchsatz sowie verbesserte Zustellbarkeit und Bounce-Handhabung ermöglicht – [Weitere Informationen](https://helpx.adobe.com/de/campaign/kb/campaign-enhanced-mta.html)
 
 * Die Zeitzonenverwaltung wurde verbessert. Sie können jetzt eine [bestimmte Zeitzone](../../automating/using/building-a-workflow.md) für einen gesamten Workflow definieren. Die ausgewählte Zeitzone gilt für alle Aktivitäten des Workflows. Informationen zur Zeitzone, die für den Benutzer oder Server konfiguriert wurde, werden jetzt in der Benutzeroberfläche angezeigt (in Protokollen nach Auswahl einer Zeitzone). (CAMP-37672)
 
-* Campaign Standard-APIs ermöglichen es Ihnen jetzt, bei Verwendung großer Tabellen eine Paginierung durchzuführen, indem Sie den Parameter `_forcePagination=true` zu Ihrer Aufruf-URL hinzufügen – [mehr dazu](../../api/using/pagination.md)
+* Campaign Standard-APIs ermöglichen es Ihnen jetzt, bei Verwendung großer Tabellen eine Paginierung durchzuführen, indem Sie den Parameter `_forcePagination=true` zu Ihrer Aufruf-URL hinzufügen – [Weitere Informationen](../../api/using/pagination.md)
 
-* Die Versandlog-ID (eine eindeutige ID für jedes Protokoll) ist jetzt in den Ressourcen Versandlogs und in den Trackinglogs für alle Zielgruppendimensionen verfügbar. Dadurch können beispielsweise beim Export Versand- oder Trackinglogs identifiziert werden – [mehr dazu](../../automating/using/exporting-logs.md)
+* Die Versandlog-ID (eine eindeutige ID für jedes Protokoll) ist jetzt in den Ressourcen Versandlogs und in den Trackinglogs für alle Zielgruppendimensionen verfügbar. Dadurch können beispielsweise beim Export Versand- oder Trackinglogs identifiziert werden – [Weitere Informationen](../../automating/using/exporting-logs.md)
 
 **Verbesserungen bei Email Designer**
 
-* Fehlende Textanweisungen beim Erstellen einer Audience wurden hinzugefügt.
+* Fehlende Textanweisungen beim Erstellen einer Zielgruppe wurden hinzugefügt.
 * Beim Klicken auf die Schaltfläche **Inhalt ändern** im Assistenten des alten E-Mail-Editors tritt jetzt kein Problem mehr auf.
 * Die Header können jetzt mit dem Inhalt des Dienstzusammenfassungsberichts abgeglichen werden. (CAMP-38103)
 * Dynamische Inhaltsvarianten können jetzt gelöscht wurden, ohne dass die restliche Betreffzeile beeinträchtigt wird. (CAMP-40096)
@@ -461,7 +460,7 @@ ht-degree: 99%
 * [!DNL Adobe Creative SDK] wurde eingestellt. Es wird jetzt in Campaign Standard nicht mehr unterstützt. Näheres dazu finden Sie auf der Seite [Veraltete und bereits entfernte Funktionen](../../rn/using/deprecated-features.md).
 
 
-**Korrekturen**
+**Patches**
 
 * Beim Durchführen einer Datenschutzanfrage zum Löschen von Benutzerdaten werden Benutzerdaten jetzt auch in Ausschlusslogs gelöscht. (CAMP-39003)
 * Jetzt bestehen keine Zugriffsprobleme mehr, wenn die Textgröße in einem Container-Element geändert wird.
@@ -478,7 +477,7 @@ ht-degree: 99%
 * Bei benutzerdefinierten Ressourcen tritt jetzt kein Fehler mehr auf, sodass unter unterschiedlichen API-Endpunkten keine doppelten Einträge mehr angezeigt werden.
 * Landingpages sind jetzt nach dem Veröffentlichen verfügbar. (CAMP-38695)
 * Beim Anzeigen von Daten aus einer Schnittmengentransition aus zwei verschiedenen Ressourcen tritt jetzt kein Fehler mehr auf. (CAMP-38974)
-* Der Auflistungswert in einer Versandvorlage kann jetzt korrekt definiert werden. (CAMP-38388)
+* Der Aufzählungswert in einer Versandvorlage kann jetzt korrekt definiert werden. (CAMP-38388)
 * Bei E-Mail-Massensendungen tritt jetzt kein Fehler mehr auf, bei dem der Versandstatus als „Ausstehend“ und der Gesendet-Status als „Fertig“ angezeigt wurde. (CAMP-35355)
 * Die Absender-Domain wird in der dynamischen Berichterstellung jetzt korrekt angezeigt. (CAMP-33123)
 * Bei den Abmeldezahlen in der dynamischen Berichterstellung treten jetzt keine Unstimmigkeiten mehr auf. (CAMP-39949)

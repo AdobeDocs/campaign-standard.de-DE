@@ -10,9 +10,8 @@ role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 100%
 
@@ -82,6 +81,6 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 Dieses Video bietet einen Überblick über den Adobe Experience Platform Data Connector.
 
->[!VIDEO](https://video.tv.adobe.com/v/34301?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Weitere Videos zu Adobe Experience Platform Data Connector finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=de).
