@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 100%
 
@@ -157,6 +157,6 @@ Adobe Campaign bietet mehrere Möglichkeiten zur Erstellung von E-Mails. In der 
 
 In diesem Video wird gezeigt, wie man Inhalte für Adobe Campaign Standard mit Dreamweaver erstellt und bearbeitet.
 
->[!VIDEO](https://video.tv.adobe.com/v/37503?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).
