@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
-workflow-type: ht
-source-wordcount: '1261'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1260'
+ht-degree: 98%
 
 ---
 
@@ -28,9 +28,9 @@ Dies sind die wichtigsten Schritte zum Erstellen und Gestalten eines neuen E-Mai
 1. Personalisieren Sie Ihre E-Mail durch Hinzufügen von Personalisierungsfeldern, Links etc. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field), [Link einfügen](../../designing/using/links.md#inserting-a-link) und [Dynamische Inhalte in einer E-Mail definieren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Definieren Sie die Betreffzeile Ihrer E-Mail. Siehe [Betreffzeile einer E-Mail personalisieren](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Sehen Sie sich die E-Mail in der Vorschau an.
-1. Speichern Sie den Inhalt und fahren Sie mit der Nachricht fort, nachdem Sie eine Audience definiert und den Versandzeitpunkt festgelegt haben.
+1. Speichern Sie den Inhalt und fahren Sie mit der Nachricht fort, nachdem Sie eine Zielgruppe definiert und den Versandzeitpunkt festgelegt haben.
 
-Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v/330101/?autoplay=true&hidetitle=true&captions=ger) an.
+Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v/330101/?captions=ger&autoplay=true&hidetitle=true) an.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 1. Mehrere Strukturkomponenten bestehend aus einer oder mehreren Spalten sind verfügbar.
 
-   Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
+   Wählen Sie die Komponente **[!UICONTROL n:n Column]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -200,7 +200,7 @@ Die Karussell-Komponente ist nicht mit allen E-Mail-Programmen kompatibel. Wenn 
 **Verwandte Themen**:
 
 - [E-Mails erstellen](../../channels/using/creating-an-email.md)
-- [Audience in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Zielgruppe in einer Nachricht auswählen](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Versandplanung](../../sending/using/about-scheduling-messages.md)
 - [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md)
 - [E-Mail-Rendering](../../sending/using/email-rendering.md)
