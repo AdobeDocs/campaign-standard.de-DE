@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 87%
+workflow-type: ht
+source-wordcount: '1234'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 #### Voraussetzungen {#fcm-transition-prerequisites}
 
-* Die Unterstützung des **HTTP v1-API**-Modus wurde in Version 24.1 hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Campaign Standard-Version](../../rn/using/release-notes.md) zu aktualisieren. 
+* Die Unterstützung des **HTTP v1-API**-Modus wurde in Version 24.1 hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Campaign Standard-Version](../../rn/using/release-notes.md) zu aktualisieren.
 
 * Die JSON-Datei des Kontos des Firebase Admin SDK-Dienstes ist erforderlich, damit die Mobile App auf HTTP v1 verschoben wird. Wie Sie diese Datei erhalten, erfahren Sie in der [Dokumentation zu Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -70,7 +70,7 @@ Befolgen Sie die folgenden Schritte, um Ihre Umgebung zu HTTP v1 zu migrieren:
 
 1. Wählen Sie die spezifische Mobile App aus, für die das Zertifikat aktualisiert werden muss.
 
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL App-Anmeldeinformationen aktualisieren]**.
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Anmeldeinformationen der Anwendung aktualisieren]**.
 
    ![](assets/push_technote_5.png)
 
@@ -80,7 +80,7 @@ Befolgen Sie die folgenden Schritte, um Ihre Umgebung zu HTTP v1 zu migrieren:
 
    ![](assets/push_technote_3.png)
 
-1. Wählen Sie die Schaltfläche **Speichern** aus.
+1. Klicken Sie auf die Schaltfläche **Speichern**.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Token-basierte Authentifizierung bietet eine Möglichkeit der Stateless-Kommunik
 
 * Mit einem einzelnen Token können Sie Benachrichtigungen für alle Apps Ihres Unternehmens verteilen.
 
-Weitere Informationen über Token-basierte Verbindungen zu APNs finden Sie in der [Apple Developer-](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Weitere Informationen über Token-basierte Verbindungen zu APNs finden Sie in der [Apple Developer-Dokumentation](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 Adobe Campaign Standard unterstützt sowohl Token-basierte als auch zertifikatbasierte Verbindungen. Wenn Ihre Implementierung auf einer zertifikatbasierten Verbindung basiert, empfiehlt Adobe dringend, sie durch eine Token-basierte Verbindung zu ersetzen.
 
@@ -122,9 +122,9 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 #### Voraussetzungen {#ios-transition-prerequisites}
 
-* Die Unterstützung des Modus **Token-basierte Authentifizierung** wurde in [Version 24.1](../../rn/using/release-notes.md) hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Campaign Standard-Version](../../rn/using/release-notes.md) zu aktualisieren. 
+* Die Unterstützung des Modus **Token-basierte Authentifizierung** wurde in [Version 24.1](../../rn/using/release-notes.md) hinzugefügt. Wenn Ihre Umgebung auf einer älteren Version ausgeführt wird, besteht eine Voraussetzung für diese Änderung darin, Ihre Umgebung auf die [neueste Campaign Standard-Version](../../rn/using/release-notes.md) zu aktualisieren.
 
-* Sie benötigen einen Signierschlüssel für die APNs-Authentifizierungs-Token, um die Token zu erzeugen, die Ihr Server verwendet. Sie fordern diesen Schlüssel von Ihrem Apple-Entwicklerkonto an, wie in der [Apple-Entwicklerdokumentation beschrieben](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* Sie benötigen einen Signierschlüssel für die APNs-Authentifizierungs-Token, um die Token zu erzeugen, die Ihr Server verwendet. Sie fordern diesen Schlüssel von Ihrem Apple-Entwicklerkonto an, wie in der [Apple-Entwicklerdokumentation](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} beschrieben.
 
 
 #### Migrationsverfahren {#ios-transition-steps}
@@ -137,7 +137,7 @@ Gehen Sie wie folgt vor, um Ihre mobilen iOS-Apps zum Token-basierten Authentifi
 
 1. Wählen Sie die spezifische Mobile App aus, für die das Zertifikat aktualisiert werden muss.
 
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Anmeldeinformationen der Anwendung aktualisieren]**.
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL App-Anmeldeinformationen aktualisieren]**.
 
    ![](assets/push_technote_2.png)
 
@@ -155,7 +155,7 @@ Ihre iOS-Anwendung wird jetzt zum Token-basierten Authentifizierungsmodus migrie
 
 ## Häufig gestellte Fragen{#push-upgrade-faq}
 
-+++Können wir dieselbe App-ID in der Staging- und Produktionsinstanz beibehalten?
++++Können wir dieselbe appID in der Staging- und Produktionsinstanz beibehalten?
 
 Bei iOS-Mobile-Apps können Sie dieselbe App-ID, d. h. Ihre iOS-App-Paket-ID, sowohl für Staging- als auch für Produktionsumgebungen verwenden. Unter Android sollte die App-ID jedoch für jede Umgebung eindeutig sein. Daher wird vorgeschlagen, „stage“ an die in der Staging-Umgebung erstellte App-ID anzuhängen.
 
@@ -174,13 +174,13 @@ Wir empfehlen, alle Ihre Push-bezogenen Anwendungsfälle funktionell zu validier
 
 +++
 
-+++Was ist zu tun, wenn beim Speichern der Mobile App der Fehler „Nicht autorisiert“ angezeigt wird?
++++Was ist zu tun, wenn beim Speichern der App der Fehler „Nicht autorisiert“ angezeigt wird?
 
 Hier scheint es sich um ein Berechtigungsproblem im Zusammenhang mit der Datenerfassung von Adobe Experience Platform zu handeln. Um es zu beheben, müssen Sie Berechtigungen „Mobil“ und „Mobile-App-Konfiguration“ in der Adobe Admin Console hinzufügen, wie im Abschnitt „Voraussetzungen“ dieses Artikels beschrieben.
 
 +++
 
-+++Sind Änderungen am Mobile-App-Code erforderlich?
++++Sind Änderungen am App-Code erforderlich?
 
 Nein, es sind nur konfigurationsbezogene Änderungen in Firebase und dem App-Entwicklerkonto erforderlich. Änderungen in der Mobile App auf Kundenseite sind nicht erforderlich.
 
@@ -198,13 +198,13 @@ Die Android-Push-Nachrichten schlagen dann nach dem 20. Juni 2024 gemäß der Be
 
 +++
 
-+++Können Kunden nach Abschluss der FCMv1-Migration zurück zu FCM migrieren?
++++Können Kundinnen und Kunden nach Abschluss der FCMv1-Migration zurück zu FCM migrieren?
 
 Ja, Kundinnen und Kunden können bis zum 20. Juni 2024 zurück zu FCM migrieren. Danach ist die Migrationsoption nicht mehr verfügbar.
 
 +++
 
-+++Wird die HTTP v1-API-Migration in der Mobile App SDK v4 unterstützt?
++++Wird die HTTP v1-API-Migration in der SDK V4-App unterstützt?
 
 Nein, Kundinnen und Kunden müssen zunächst ihre Mobile App zum V5 SDK migrieren und dann mit der oben dargestellten Migration fortfahren. Sie müssen dies vorrangig tun, da sonst ihr Push-Dienst gemäß der Benachrichtigung von Google ab Juni 2024 fehlschlagen wird.
 

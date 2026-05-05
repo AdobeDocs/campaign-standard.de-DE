@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '788'
+workflow-type: ht
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -88,7 +88,7 @@ Zusätzlich zu den neuen Funktionen für das **Recht auf Zugriff** und das **Rec
 
 ### Einverständnisverwaltung {#consent-management}
 
-Einverständnis bedeutet die Zustimmung des Datensubjekts zur Verarbeitung seiner personenbezogenen Daten. Der Datenverantwortliche ist dafür zuständig, das erforderliche Einverständnis für diese Verarbeitung einzuholen. Adobe Campaign stellt zwar Funktionen bereit, die den Kunden bei der Verwaltung der Einverständniserklärungen unterstützen, Adobe ist jedoch nicht für das Einverständnis als solches verantwortlich. Kunden sollten ihre Rechtsabteilung zurate ziehen, um Prozesse und Verfahren für das Einholen des Einverständnisses auszuarbeiten.
+Eine Einwilligung bedeutet, dass die betroffene Person mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist. Die Einholung der erforderlichen Einwilligung für diese Verarbeitung liegt in der Verantwortung der oder des Datenverantwortlichen. Während Adobe Campaign möglicherweise einige Funktionen bereitstellt, um Kundinnen und Kunden bei der Verwaltung des Einverständnisses im Zusammenhang mit dem Service zu unterstützen, ist Adobe nicht für das Einverständnis verantwortlich. Kundinnen und Kunden sollten mit ihrer eigenen Rechtsabteilung zusammenarbeiten, um ihre eigenen Prozesse und Vorgehensweisen für die erforderliche Zustimmung zu bestimmen.
 
 Die Funktionen, die bei der Verwaltung bestimmter Aspekte des Einverständnisses helfen, waren bei Adobe Campaign schon immer von zentraler Bedeutung. Mithilfe des Abonnementverwaltungsprozesses können Kunden nachverfolgen, welche Empfänger sich für welche Arten von Abonnements angemeldet haben, ob Newsletter, tägliche oder wöchentliche Promotions oder andere Marketing-Programme.
 

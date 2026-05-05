@@ -8,13 +8,13 @@ role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '183'
+workflow-type: ht
+source-wordcount: '182'
 ht-degree: 100%
 
 ---
 
-# Testempfänger (nms:seedMember)
+# Testempfänger/in (nms:seedMember)
 
 ## Objektbeschreibung
 
@@ -23,12 +23,12 @@ ht-degree: 100%
                   <th>Name</th>
                   <th>Titel</th>
                   <th>Typ (Länge)</th>
-                  <th>Auflistungswerte</th>
+                  <th>Aufzählungswerte</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>Main resource ID</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -38,8 +38,8 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
-                  <td>Created</td>
+                  <td>Erstellt</td>
+                  <td>Erstellt</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -51,20 +51,20 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>desc</td>
-                  <td>Beschreibung </td>
+                  <td>Beschreibung</td>
                   <td>string (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>email</td>
-                  <td>Email</td>
+                  <td>E-Mail</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>Email rendering</td>
-                  <td>boolean </td>
+                  <td>E-Mail-Rendering</td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,7 +82,7 @@ ht-degree: 100%
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -147,14 +147,14 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>phone</td>
-                  <td>Phone</td>
+                  <td>Telefon</td>
                   <td>string (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>proof</td>
                   <td>Proof</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,7 +172,7 @@ ht-degree: 100%
                <tr>
                   <td>sampleData</td>
                   <td>Sample data</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -190,7 +190,7 @@ ht-degree: 100%
                <tr>
                   <td>targetData</td>
                   <td>Extension</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -208,7 +208,7 @@ ht-degree: 100%
                <tr>
                   <td>trap</td>
                   <td>Trap</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
             </table>
@@ -224,7 +224,7 @@ Nach Ereignistyp (byEventType)
         </tr>
         <tr>
         <td>eventType</td>
-        <td>string</td>
+        <td>Zeichenfolge</td>
         </tr>
     </table>
 
@@ -237,7 +237,7 @@ Nach Name oder Titel (byText)
         </tr>
         <tr>
         <td>text</td>
-        <td>string</td>
+        <td>Zeichenfolge</td>
         </tr>
     </table>
 
@@ -250,15 +250,15 @@ Nach Verwendung (byUsage)
         </tr>
         <tr>
         <td>trap</td>
-        <td>boolean</td>
+        <td>Boolesch</td>
         </tr>
         <tr>
         <td>emailRendering</td>
-        <td>boolean</td>
+        <td>Boolesch</td>
         </tr>
         <tr>
         <td>proof</td>
-        <td>boolean</td>
+        <td>Boolesch</td>
         </tr>
     </table>
 

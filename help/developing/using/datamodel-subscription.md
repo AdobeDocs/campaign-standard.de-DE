@@ -8,8 +8,8 @@ role: Developer
 level: Experienced
 exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '82'
+workflow-type: ht
+source-wordcount: '81'
 ht-degree: 100%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 100%
         <th>Name</th>
         <th>Titel</th>
         <th>Typ (Länge)</th>
-        <th>Auflistungswerte</th>
+        <th>Aufzählungswerte</th>
     </tr>
     <tr>
         <td>PKey</td>
         <td>Main resource ID</td>
-        <td>string </td>
+        <td>Zeichenfolge </td>
         <td> </td>
     </tr>
     <tr>
@@ -39,7 +39,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>email</td>
-        <td>Email</td>
+        <td>E-Mail</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
@@ -71,7 +71,7 @@ ht-degree: 100%
     <tr>
         <td>serverUrl</td>
         <td>ServerUrl</td>
-        <td>string </td>
+        <td>Zeichenfolge </td>
         <td> </td>
     </tr>
 </table>
@@ -87,7 +87,7 @@ Nach E-Mail (byEmail)
     </tr>
     <tr>
     <td>email</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -104,6 +104,6 @@ Nach Status oder Typ (byStatusOrType)
         </tr>
         <tr>
         <td>type</td>
-        <td>string</td>
+        <td>Zeichenfolge</td>
         </tr>
     </table>

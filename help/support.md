@@ -8,8 +8,8 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '492'
+workflow-type: ht
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -106,8 +106,8 @@ Das Control Panel ist direkt über Adobe Experience Cloud verfügbar. [Klicken S
 
 Sie können Ihre Sub-Domains und deren Zertifikate überwachen. Mehr dazu:
 
-* [Sub-Domain-Branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=de#subdomains-and-certificates)
-* [Einrichten einer neuen Sub-Domain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de#subdomains-and-certificates)
+* [Subdomain-Branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=de#subdomains-and-certificates)
+* [Einrichten einer neuen Subdomain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de#subdomains-and-certificates)
 * [Überwachen von SSL-Zertifikaten](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#subdomains-and-certificates)
 
 ## Hilfe anfordern

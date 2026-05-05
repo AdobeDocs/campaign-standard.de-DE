@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '697'
+workflow-type: ht
+source-wordcount: '849'
 ht-degree: 100%
 
 ---
@@ -98,7 +98,7 @@ Mit Adobe Campaign können Sie anhand einer Reihe von integrierten Echtzeitindik
 
 Weiterführende Informationen hierzu finden Sie in den folgenden Abschnitten:
 
-* [Zustellbarkeit überwachen](../../sending/using/monitor-deliverability.md)
+* [Monitoring der Zustellbarkeit](../../sending/using/monitor-deliverability.md)
   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Warnungen bei Zustellproblemen erhalten](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Dynamische Berichte](../../reporting/using/about-dynamic-reports.md)

@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '727'
+workflow-type: ht
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Bevor Sie mit dem Erstellen von Sendungen beginnen, können Sie mehrere Maßnahmen treffen, um den vorgelagerten Versandprozess zu optimieren.
 
-Im folgenden Abschnitt werden Best Practices und empfohlene Verfahren für die optimale Konfiguration von Adobe Campaign erläutert. Durch die Einhaltung dieser Empfehlungen vermeiden Sie mögliche Probleme später im Prozess.
+Im folgenden Abschnitt werden Best Practices und empfohlene Verfahren für die optimale Konfiguration von Adobe Campaign erläutert. Durch Befolgen dieser Verfahren werden Probleme minimiert, die in nachgelagerten Bereichen auftreten können.
 
 ## Performance der Plattform
 
@@ -74,7 +74,7 @@ Wenn Sie auf einer neuen Plattform erstmals E-Mails versenden, verwenden Sie mö
 
 ## Anmeldemöglichkeit mit doppelter Bestätigung (Double opt-in) {#double-opt-in}
 
-Um den Nachrichtenversand an ungültige Adressen zu vermeiden, unnütze Kommunikation zu minimieren und die Reputation des Absenders zu schützen, empfiehlt Adobe die doppelte Anmeldung zur Bestätigung eines Abonnements. Damit können Sie sicherstellen, dass sich eine Empfängerin bzw. ein Empfänger absichtlich angemeldet hat.
+Um das Senden von Nachrichten an ungültige Adressen zu vermeiden, unsachgemäße Kommunikation zu begrenzen und die Reputation des Absenders zu verbessern, empfiehlt Adobe die Implementierung eines Double-Opt-in-Mechanismus zur Bestätigung nach dem Abschluss eines Abonnements. Dadurch wird sichergestellt, dass ein Empfänger bzw. eine Empfängerin das Abonnement absichtlich abgeschlossen hat.
 
 Einzelheiten zur Implementierung dieses Mechanismus sind in [diesem Abschnitt](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) beschrieben.
 

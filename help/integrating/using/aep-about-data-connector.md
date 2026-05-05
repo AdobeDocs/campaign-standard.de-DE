@@ -11,8 +11,8 @@ level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '706'
+workflow-type: ht
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Die folgenden Abschnitte beschreiben die wichtigen Schritte zum Durchführen ein
 
 * Vordefiniertes Mapping ist nur für Felder verfügbar, die standardmäßig in Campaign Standard bereitgestellt werden. Für die Aufnahme aller benutzerdefinierten Felder und Ressourcen muss jeder Kunde sein eigenes Mapping definieren.
 
-* Adobe Experience Platform Connector sendet Profildaten in regelmäßigen Abständen über die Plattform. Die Intervalldauer beträgt 15 Minuten. Dieser Wert kann mit [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de) geändert werden.
+* Adobe Experience Platform Data Connector sendet Profildaten in regelmäßigen Abständen über die Plattform. Die Intervalldauer beträgt 15 Minuten.Dieser Wert kann mit [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de) geändert werden.
 
 * Der Dateningenieur kann das Mapping von Campaign zu Adobe Experience Platform veröffentlichen, ändern und anhalten.
 

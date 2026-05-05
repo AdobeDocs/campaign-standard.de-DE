@@ -4,21 +4,21 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: true
-description: Wenn Sie Ihren Inhalt fertig haben, erfahren Sie, wie Sie sorgfältig definieren, wer Ihre Nachricht erhalten wird.
+description: Wenn Ihr Inhalt bereit ist, müssen Sie sorgfältig festlegen, wer Ihre Nachricht erhalten soll.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
-# Festlegen der richtigen Zielgruppe {#define-the-right-audience}
+# Definieren der richtigen Zielgruppe {#define-the-right-audience}
 
-Die Bestimmung der Zielpopulation ist besonders wichtig. Gehen Sie bei der Erstellung Ihrer Kontaktlisten sorgfältig vor, testen Sie Ihre E-Mails in den gängigsten E-Mail-Clients und auf den gängigsten Mobilgeräten und stellen Sie sicher, dass Ihre Verteilerlisten aktuell sind (und keine unbekannten oder veralteten Adressen enthalten). Sie können auch Testsendungen vornehmen, um einen vollständigen Validierungszyklus durchzuführen.
+Die Bestimmung der Zielpopulation ist besonders wichtig. Gehen Sie bei der Erstellung Ihrer Listen sorgfältig vor, testen Sie Ihre E-Mails in den gängigsten E-Mail-Clients sowie auf den gängigsten Mobilgeräten und stellen Sie sicher, dass Ihre E-Mail-Listen aktuell sind (und keine unbekannten oder veralteten Adressen enthalten). Sie können auch Testsendungen vornehmen, um einen vollständigen Validierungszyklus durchzuführen.
 
 Weiterführende Informationen zu Zielpopulationen finden Sie in [diesem Abschnitt](../../audiences/using/selecting-an-audience-in-a-message.md).
 
@@ -26,7 +26,7 @@ Weiterführende Informationen zu Zielpopulationen finden Sie in [diesem Abschnit
 
 Wenn Ihr Inhalt fertiggestellt ist, müssen Sie sorgfältig auswählen, wer Ihre Nachricht erhalten soll.
 
-Um einen erfolgreichen Versand durchzuführen, müssen Sie möglichst relevanten personalisierten Inhalt an die richtigen Empfänger senden. Mit Adobe Campaign können Sie eine präzise Zielgruppe bestimmen, indem Sie die Empfänger nach Alter, Ort, Einkäufen, Klicks auf frühere Sendungen usw. auswählen. Sie können mit Adobe Campaign auch Testprofile und Kontrollgruppen definieren und Testsendungen durchführen, um sicherzustellen, dass Sie die richtige Zielgruppe erreichen.
+Um einen erfolgreichen Versand durchzuführen, müssen Sie möglichst relevanten personalisierten Inhalt an die richtigen Empfänger senden. Mit Adobe Campaign können Sie eine äußerst präzise Zielgruppe erstellen: Sie können die Empfängerinnen und Empfänger beispielsweise nach Alter, Ort, Kaufverhalten und Klicks auf Links in früheren Sendungen auswählen. Mit Adobe Campaign können Sie Testprofile, Kontrollgruppen und Testadressen definieren, um sicherzustellen, dass Ihre Zielgruppe korrekt ist.
 
 ## Zielgruppen-Mappings {#target-mappings}
 
@@ -38,7 +38,7 @@ Sie können auch ein benutzerdefiniertes Zielgruppen-Mapping erstellen und verwe
 
 ## Externe Daten {#external-data}
 
-Sie können Nachrichten an Empfangende senden, die in einer externen Datei anstatt in der Datenbank gespeichert sind. Zu diesem Zweck entwerfen Sie einen Workflow, der Daten aus einer Datei in Ihre Datenbank lädt und eine zugeordnete Zielgruppe erstellt. Weitere Informationen finden Sie [in diesem Anwendungsbeispiel](../../automating/using/use-case-calling-workflow.md). Siehe auch [Aufrufen eines Workflows mit Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Sie können Nachrichten an Empfangende senden, die in einer externen Datei anstatt in der Datenbank gespeichert sind. Zu diesem Zweck entwerfen Sie einen Workflow, der Daten aus einer Datei in Ihre Datenbank lädt und eine zugeordnete Zielgruppe erstellt.  Weitere Informationen finden Sie [in diesem Anwendungsbeispiel](../../automating/using/use-case-calling-workflow.md). Siehe auch [Aufrufen eines Workflows mit Parametern](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Versand an Ihre Abonnenten {#send-to-subscribers}
 

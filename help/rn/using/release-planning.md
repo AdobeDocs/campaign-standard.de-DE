@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '411'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-
 
 Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen. Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
-## Version 26.3 {#release-26-3-release}
+## Version 26.3 {#release-26-3-release}
 
 Weitere Informationen zu dieser Version werden den [Versionshinweisen](release-notes.md) hinzugefügt, sobald die Aktualisierungen der Staging-Umgebungen beginnen.
 
@@ -33,7 +33,7 @@ Weitere Informationen zu dieser Version werden den [Versionshinweisen](release-n
  <thead>
   <tr>
    <th> Umgebungen </th>
-   <th> Datum-Funktionen       </th>
+   <th> Datum</th>
    <!--
    <th> General Availability </th>
    -->

@@ -8,13 +8,13 @@ role: Developer
 level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '155'
+workflow-type: ht
+source-wordcount: '154'
 ht-degree: 100%
 
 ---
 
-# Besucher (nms:visitor)
+# Besucher/in (nms:visitor)
 
 ## Objektbeschreibung
 
@@ -23,12 +23,12 @@ ht-degree: 100%
         <th>Name</th>
         <th>Titel</th>
         <th>Typ (Länge)</th>
-        <th>Auflistungswerte</th>
+        <th>Aufzählungswerte</th>
     </tr>
     <tr>
         <td>PKey</td>
         <td>Main resource ID</td>
-        <td>string </td>
+        <td>Zeichenfolge </td>
         <td> </td>
     </tr>
     <tr>
@@ -38,8 +38,8 @@ ht-degree: 100%
         <td> </td>
     </tr>
     <tr>
-        <td>created</td>
-        <td>Created</td>
+        <td>Erstellt</td>
+        <td>Erstellt</td>
         <td>date </td>
         <td> </td>
     </tr>
@@ -51,7 +51,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>delivery (delivery)</td>
-        <td>Delivery</td>
+        <td>Versand</td>
         <td>link </td>
         <td> </td>
     </tr>
@@ -63,13 +63,13 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>desc</td>
-        <td>Beschreibung </td>
+        <td>Beschreibung</td>
         <td>string (512)</td>
         <td> </td>
     </tr>
     <tr>
         <td>email</td>
-        <td>Email</td>
+        <td>E-Mail</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
@@ -176,7 +176,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>title</td>
-        <td>Label</td>
+        <td>Titel</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
@@ -193,6 +193,6 @@ Nach Nachname, Vorname oder E-Mail (byText)</p>
         </tr>
         <tr>
         <td>text</td>
-        <td>string</td>
+        <td>Zeichenfolge</td>
         </tr>
     </table>

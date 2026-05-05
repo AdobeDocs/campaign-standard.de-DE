@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation für Adobe Campaign Standard.
 title: Campaign Standard – Handbuch
 breadcrumb-title: Campaign Standard – Dokumentation
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '1796'
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 94%
       + [2022](rn/using/release-notes-2022.md)
       + {hide-from-toc}[2021](rn/using/release-notes-2021.md)
       + {hide-from-toc}[2020](rn/using/release-notes-2020.md)
-      + {hide-from-toc}[2019 &#x200B;](rn/using/release-notes-2019.md)
-      + {hide-from-toc}[2018 &#x200B;](rn/using/release-notes-2018.md)
-      + {hide-from-toc}[2017 &#x200B;](rn/using/release-notes-2017.md)
+      + {hide-from-toc}[2019](rn/using/release-notes-2019.md)
+      + {hide-from-toc}[2018](rn/using/release-notes-2018.md)
+      + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [Versionsplanung](rn/using/release-planning.md)
    + [Eingestellte Funktionen](rn/using/deprecated-features.md)
-   + {hide-from-toc}[Problem mit Signaturen getrackter URLs](rn/using/tracked-urls.md)
+   + {hide-from-toc}[Problem mit der Signatur getrackter URLs](rn/using/tracked-urls.md)
    + {hide-from-toc}[Aktuelle Dokumentationsaktualisierungen](rn/using/documentation-updates.md)
 + Erste Schritte {#getting-started}
    + [Über Adobe Campaign Standard](start/using/about-campaign-standard.md)
@@ -49,7 +49,7 @@ ht-degree: 94%
       + [Datenschutzanfragen](start/using/privacy-requests.md)
       + [Häufig gestellte Fragen zum Datenschutz](start/using/privacy-faq.md)
    + {hide-from-toc}[Hilfe- und Support-Optionen](support.md)
-+ Profile und Zielgruppen  {#profiles-and-audiences}
++ Profile und Zielgruppen {#profiles-and-audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audiences/using/get-started-profiles-and-audiences.md)
    + Profile verwalten {#managing-profiles}
       + [Über Profile](audiences/using/about-profiles.md)
@@ -102,7 +102,7 @@ ht-degree: 94%
       + [Über die Inhaltserstellung für SMS und Push-Benachrichtigungen](channels/using/about-sms-and-push-content-design.md)
       + [Benutzeroberfläche des Inhaltseditors für SMS und Push-Benachrichtigungen](channels/using/sms-and-push-content-editor-interface.md)
       + [Dynamische Texte definieren](channels/using/defining-dynamic-text.md)
-   + Push-Benachrichtigungen  {#push-notifications}
+   + Push-Benachrichtigungen {#push-notifications}
       + [Über Push-Benachrichtigungen](channels/using/about-push-notifications.md)
       + [Push-Benachrichtigung vorbereiten und senden](channels/using/preparing-and-sending-a-push-notification.md)
       + [Push-Benachrichtigung anpassen](channels/using/customizing-a-push-notification.md)
@@ -147,7 +147,7 @@ ht-degree: 94%
    + [Campaign E-Mail-Designer](designing/using/designing-content-in-adobe-campaign.md)
    + [Erste Schritte mit E-Mail-Designer](designing/using/quick-start.md)
    + [Betreffzeile und Absender definieren](designing/using/subject-line.md)
-   + E-Mail-Inhalte erstellen{#building-email-content}
+   + Erstellen von E-Mail-Inhalten{#building-email-content}
       + [Erstellen neuer E-Mails](designing/using/designing-from-scratch.md)
       + [Vorhandenen Inhalt verwenden](designing/using/using-existing-content.md)
       + [Wiederverwendbaren Inhalt verwenden](designing/using/using-reusable-content.md)
@@ -230,17 +230,17 @@ ht-degree: 94%
       + [Erstellen eines Berichts auf der Basis von Workflow-Segmenten](reporting/using/creating-a-report-workflow-segment.md)
 + Integration mit anderen Lösungen {#integrating-with-adobe-cloud}
    + [Erste Schritte mit Campaign-Integrationen](integrating/using/get-started-campaign-integrations.md)
-   + Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
+   + Arbeiten mit Campaign und Experience Manager {#working-with-campaign-and-experience-manager}
       + [Über die Integration von Campaign mit Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Integration von Campaign mit Experience Manager konfigurieren](integrating/using/configure-experience-manager.md)
       + [E-Mail-Inhalt in Adobe Experience Manager erstellen](integrating/using/creating-email-experience-manager.md)
       + [Campaign-Formular in Adobe Experience Manager erstellen](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Mehrsprachige E-Mail mit Adobe Experience Manager-Integration erstellen](integrating/using/creating-multilingual-email-aem.md)
-   + Campaign und Target {#working-with-campaign-and-target}
+   + Verwenden von Campaign und Target {#working-with-campaign-and-target}
       + [Über die Integration von Campaign mit Target](integrating/using/about-campaign-target-integration.md)
       + [Integration von Campaign mit Target konfigurieren](integrating/using/configuring-the-campaign-target-integration.md)
       + [Dynamische Inhalte aus Target einfügen](integrating/using/adding-target-dynamic-content.md)
-   + Campaign und Analysen {#working-with-campaign-and-analytics}
+   + Campaign und Analytics {#working-with-campaign-and-analytics}
       + [Über die Integration von Campaign mit Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Integration von Campaign mit Analytics konfigurieren](integrating/using/configure-campaign-analytics-integration.md)
       + [Campaign-Dimensionen und -Metriken in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
@@ -254,13 +254,13 @@ ht-degree: 94%
       + [Über die Integration von Campaign-POI-Daten](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Integration von Campaign-POI-Daten konfigurieren](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Campaign-Nachrichten mit POI-Daten personalisieren](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign und Trigger {#working-with-campaign-and-triggers}
+   + Campaign und Triggers {#working-with-campaign-and-triggers}
       + [Über Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Triggers in Experience Cloud konfigurieren](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Triggers in Campaign verwenden](integrating/using/using-triggers-in-campaign.md)
       + [Testen Ihrer Trigger](integrating/using/testing-your-triggers.md)
       + [Anwendungsbeispiele zur Abbruchsauslösung](integrating/using/abandonment-triggers-use-cases.md)
-   + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+   + Campaign und Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Erste Schritte mit der Integration von Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Best Practices und Einschränkungen](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Microsoft Dynamics 365 konfigurieren](integrating/using/d365-acs-configure-d365.md)
@@ -382,7 +382,7 @@ ht-degree: 94%
          + [Profile in eine externe Datei exportieren](automating/using/exporting-profiles-in-file.md)
          + [Mehrere Abonnementstatus über eine Datei aktualisieren](automating/using/updating-subscriptions-from-file.md)
          + [Profile aus einer Datei für einen bestimmten Service anmelden](automating/using/subscribing-profiles-from-file.md)
-+ Entwickeln {#developing}
++ Entwicklung {#developing}
    + [Erste Schritte mit dem Campaign Standard-Datenmodell](developing/using/get-started-data-model.md)
    + Über benutzerdefinierte Ressourcen {#about-custom-resources}
       + [Konzepte von Datenmodellen](developing/using/data-model-concepts.md)
@@ -437,9 +437,9 @@ ht-degree: 94%
    + Kanäle konfigurieren {#configuring-channels}
       + [Über die Konfiguration von Kanälen](administration/using/about-channel-configuration.md)
       + [E-Mail-Kanal konfigurieren](administration/using/configuring-email-channel.md)
-      + {hide-from-toc}[Aktualisierung der Bounce-Qualifizierung nach einem ISP-Ausfall](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[Aktualisieren der Bounce-Qualifizierung nach einem ISP-Ausfall](administration/using/update-bounce-qualification.md)
       + [Mobile App konfigurieren](administration/using/configuring-a-mobile-application.md)
-   + Mobile Kanäle konfigurieren {#configuring-mobile}
+   + Konfigurieren von mobilen Kanälen {#configuring-mobile}
       + [Implementieren von Push-Tracking](administration/using/push-tracking.md)
       + [Bilder und Videos unter iOS hinzufügen](administration/using/image-push-notification.md)
       + [Payload-Struktur der Push-Benachrichtigungen verstehen](administration/using/push-payload.md)
@@ -484,7 +484,7 @@ ht-degree: 94%
       + [Profile abrufen](api/using/retrieving-profiles.md)
       + [Aktualisieren von Profilen](api/using/updating-profiles.md)
       + [Profile erstellen](api/using/creating-profiles-api.md)
-   + Services und Abonnements verwalten {#managing-services-and-subscriptiopns}
+   + Verwalten von Services und Abonnements {#managing-services-and-subscriptiopns}
       + [Erstellen eines Service](api/using/creating-a-service.md)
       + [Abrufen von Abonnements](api/using/retrieving-subscriptions.md)
       + [Abonnements ausführen](api/using/perform-subscriptions.md)
@@ -499,11 +499,11 @@ ht-degree: 94%
    + Workflows verwalten {#managing-workflows}
       + [Steuern eines Workflows](api/using/controlling-a-workflow.md)
       + [Auslösen einer Signalaktivität](api/using/triggering-a-signal-activity.md)
-   + Organisationseinheiten verwalten {#managing-organizational-units}
+   + Verwalten von Organisationseinheiten {#managing-organizational-units}
       + [Abrufen der Organisationseinheit eines Profils](api/using/retrieving-an-organizational-unit.md)
       + [Aktualisieren der Organisationseinheit eines Profils](api/using/updating-profile-organizational-unit.md)
       + [Attribute einer Organisationseinheit aktualisieren](api/using/updating-organizational-unit-attributes.md)
-   + Verwaltung geografischer Einheiten {#managing-geographical-units}
+   + Verwalten geografischer Einheiten {#managing-geographical-units}
       + [Abrufen der geografischen Einheit eines Profils](api/using/retrieving-a-geographical-unit.md)
       + [Aktualisieren der geografischen Einheit eines Profils](api/using/updating-a-geographical-unit.md)
       + [Attribute geografischer Einheiten aktualisieren](api/using/updating-geographical-unit-attributes.md)

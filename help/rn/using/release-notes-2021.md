@@ -10,8 +10,8 @@ level: Beginner
 hide: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '4695'
+workflow-type: ht
+source-wordcount: '4728'
 ht-degree: 100%
 
 ---
@@ -131,7 +131,7 @@ Im Folgenden finden Sie die in der neuesten Campaign Standard-Version enthaltene
 * Fehlerkorrektur – Das Speichern eines Workflows nach dessen Bearbeitung erfolgt nun zuverlässig und fehlerfrei. (CAMP-48695)
 * Fehlerkorrektur – Jetzt können benutzerdefinierte Ressourcen problemlos veröffentlicht werden, da das Datenschema eines Triggers nach dem Löschen des Triggers nicht mehr beibehalten wird. (CAMP-48523)
 * Fehlerkorrektur – Feedback-Schleifenanfragen werden jetzt berücksichtigt, da der InMail-Prozess die zu aktualisierenden Versandlogs jetzt zuverlässig abrufen kann. (CAMP-48705)
-* Fehlerkorrektur – Die Ausschlussoptionen in der Workflow-Aktivität **Ausschluss** können jetzt ordnungsgemäß definiert werden.(CAMP-48355)
+* Es wurde ein Problem behoben, durch das die Ausschlussoptionen in der Workflow-Aktivität **Ausschluss** nicht ordnungsgemäß festgelegt werden konnten.(CAMP-48355)
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr auf, wenn Anreicherungsaktivitäten in Workflows Anmeldungen zu oder Abmeldungen von einem Dienst beinhalten. Dieses Problem führte zum Absturz.
 * Fehlerkorrektur – Workflows können jetzt zuverlässig ausgeführt werden.
 * Fehlerkorrektur – Benutzer können jetzt native Sicherheitsgruppen in der Benutzeroberfläche umbenennen oder löschen.

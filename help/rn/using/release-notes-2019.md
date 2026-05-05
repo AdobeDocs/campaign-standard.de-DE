@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '7679'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '7898'
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ ht-degree: 99%
  </thead> 
  <tbody> 
   <tr> 
-   <td> Externe API-Aktivität (öffentliche Betaversion)<br /> </td> 
+   <td> Externe API-Aktivität (öffentliche Beta-Version)<br /> </td> 
    <td> <p>Zur umfassenderen Personalisierung ermöglicht die externe API-Aktivität, Daten aus externen Systemen über einen REST-API-Aufruf in einen Workflow zu übertragen. Bei den REST-Endpunkten kann es sich um ein Customer Management System, Adobe I/O Runtime oder einen REST-Endpunkt von Adobe Experience Cloud (z. B. Data Platform, Target, Analytics, Campaign) handeln.</p><p>Diese Funktion ist derzeit in einer öffentlichen Betaversion verfügbar.</p><p>Weiterführende Informationen finden Sie im <a href="../../automating/using/external-api.md">entsprechenden Handbuch</a> und in <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=de">diesem Video</a>.</p></td> 
   </tr> 
   <tr> 
@@ -187,7 +187,7 @@ ht-degree: 99%
 * Sie können nun die Breite und Höhe einer Inhaltskomponente für Social Media festlegen.
 * Fehlerkorrektur – Alter Quellcode von dynamischem Inhalt wird jetzt nach dem Löschen des entsprechenden Inhalts entfernt.
 * Fehlerkorrektur – Der Betreff einer E-Mail kann jetzt aktualisiert werden, nachdem er geändert wurde.
-* Fehlerkorrektur - Eine n:n-Spaltenstruktur kann jetzt ausgewählt werden, wenn sie im Arbeitsbereich abgelegt wird.
+* Fehlerkorrektur – Eine n:n-Spaltenstruktur kann jetzt ausgewählt werden, wenn sie im Arbeitsbereich abgelegt wird.
 * Fehlerkorrektur – Die Miniaturansicht einer Nachricht wird im E-Mail-Dashboard nicht mehr verschwommen angezeigt.
 * Fehlerkorrektur – Der Hintergrund für E-Mails, die in Outlook empfangen werden, wird jetzt korrekt angezeigt.
 * Fehlerkorrektur – Die Sortierung auf der Startseite von E-Mail-Designer funktioniert jetzt einwandfrei.
@@ -209,7 +209,7 @@ ht-degree: 99%
 **Sonstige Änderungen**
 
 * In der Benutzeroberfläche für Versandeigenschaften wurde ein Warnhinweis hinzugefügt. Er weist darauf hin, dass die Sendungen auf der Grundlage ihres Aggregat-Zeitraums vorbereitet werden und kein Zeitraum angegeben werden darf, wenn der Workflow mehrmals täglich aufgerufen werden soll. (CAMP-34393)
-* In Konfigurationsfenstern benutzerdefinierter Ressourcen wurde ein Warnhinweis hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder von benutzerdefinierten Ressourcen, Schlüsseln, Indizes und Links.
+* In Konfigurationsfenstern benutzerdefinierter Ressourcen wurde ein Warnhinweis hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder von benutzerdefinierten Ressourcen, Schlüsseln, Indizes und Links –
 * Wenn versucht wird, eine Transaktionsnachricht zu löschen, die von einer Landingpage als Bestätigungsnachricht verwendet wird, wird nun eine Nachricht angezeigt.
 * In Workflow-Protokollen wird jetzt ein Warnhinweis angezeigt, wenn eine Aktivität länger als 6 Stunden ausgeführt wird. Dies gilt nicht für Aktivitäten vom Typ Push-Benachrichtigung, Versand, Signal, Start, Ende, Verzweigung, Und-Verknüpfung, Planung und Warten.
 * In Workflow-Protokollen wird jetzt ein Warnhinweis angezeigt, wenn Sie die maximale Anzahl von gleichzeitig ausgeführten Workflows erreicht haben.
@@ -251,7 +251,7 @@ ht-degree: 99%
 * Fehlerkorrektur – Der E-Mail-Inhalt ist jetzt nicht mehr fehlerhaft, wenn der Betreff mehrere Zeilen lang ist.
 
 
-## Version 19.2.7 - Juli 2019   {#release-19-2-7---july-2019}
+## Version 19.2.7 - Juli 2019 {#release-19-2-7---july-2019}
 
 **Verbesserungen**
 
@@ -389,7 +389,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019   {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019 {#release-19-1-3---march-2019}
 
 **Verbesserungen bei Email Designer**
 
@@ -420,11 +420,11 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
    <td> <p>Bei Berichten für den Push-Kanal wurden mehrere Verbesserungen vorgenommen, damit die Benutzerinteraktion intuitiver gemessen werden kann. In dieser Version werden drei unterschiedliche Metriken für Push-Kanäle eingeführt: Impressions, Klicks, Öffnungen (App-Öffnungen). Damit können Benutzerinteraktion mit Push-Benachrichtigungen effizienter gemessen und analysiert werden. Gleichzeitig wurden auch die Definition und Implementierung dieser Metriken standardisiert. Darüber hinaus wurde der native Bericht zu Push-Benachrichtigungen durch visuelle Darstellungen und Metriken verbessert.</p><p> Weitere Informationen finden Sie im <a href="../../reporting/using/push-notification-report.md">entsprechenden Handbuch</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Launch-Integration für Mobile App<br /> </td> 
+   <td> Launch-Integration für App<br /> </td> 
    <td> <p>Diese Version beinhaltet die Integration von Adobe Campaign mit den allgemein verfügbaren Versionen von Android- und iOS-Erweiterungen für Adobe Campaign Standard in Adobe Experience Platform Launch und Mobile SDKs. Diese Erweiterungen unterstützen Push-Benachrichtigungen, In-App-Benachrichtigungen und Mobile-App-Profilaktualisierungen.</p><p> Weitere Informationen finden Sie im <a href="https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html">entsprechenden Handbuch</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Mobile In-App-Nachrichtenversand<br /> </td> 
+   <td>In-App-Nachrichtenversand<br /> </td> 
    <td> <p>Diese Version enthält die allgemein verfügbare Version der In-App-Kanal-Option in Campaign. Die wichtigsten neuen Funktionen gegenüber der Beta-Version sind dynamische Berichte für den In-App-Kanal und der sichere Handshake zwischen Mobile SDK und MCIAS (Experience Cloud In-App Messaging Service, der die In-App-Regeln zum SDK weiterleitet). Der sichere Handshake gewährleistet, dass die personenbezogenen Daten Ihrer Benutzer nicht in betrügerische Hände gelangen können. Außerdem können Sie damit Benutzerdaten auf einem gemeinsam genutzten Gerät schützen, da der Nachrichten-Cache jedes Mal geleert wird, wenn sich der Benutzer abmeldet.</p><p>Weiterführende Informationen finden Sie im <a href="../../channels/using/about-in-app-messaging.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=de">In-App-Tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -432,7 +432,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
    <td> <p>Die folgenden Workflow-Funktionen wurden hinzugefügt:</p> 
     <ul> 
      <li> Jetzt ist es möglich, Aktivitäten innerhalb eines Workflows oder in einen anderen Workflow in derselben Campaign-Instanz per Copy &amp; Paste zu verschieben. Auf diese Weise können Sie einfach einen ganzen Workflow oder einzelne Aktivitäten duplizieren, während Sie die ursprünglich definierten Einstellungen beibehalten. Lesen Sie für weiterführende Informationen das <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">entsprechende Handbuch</a>. (CAMP-20014) </li> 
-     <li> Bei der Verwendung der Aktivität <strong>Datei laden</strong> können Sie jetzt einen Zeitstempel zum Namen der Datei hinzufügen, die die zurückgewiesenen Datensätze enthält. Weitere Informationen finden Sie im <a href="../../automating/using/load-file.md#configuration">entsprechenden Handbuch</a>. </li> 
+     <li> Bei der Verwendung der Aktivität <strong>Datei laden</strong> können Sie jetzt einen Zeitstempel zum Namen der Datei hinzufügen, die die zurückgewiesenen Einträge enthält. Weitere Informationen finden Sie im <a href="../../automating/using/load-file.md#configuration">entsprechenden Handbuch</a>. </li> 
      <li> Bei den Aktivitäten <strong>Abfrage</strong> und <strong>Segmentierung</strong> kann jetzt eine ausgehende Transition erzeugt werden, wenn durch die Aktivitäten keine Daten abgerufen werden. </li> 
     </ul> </td> 
   </tr> 
@@ -509,7 +509,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt treten keine Abweichungen mehr zwischen den für einen In-App-Versand ausgewählten Profilen und den im Versand-Dashboard dargestellten Profilen auf. (CAMP-28722)
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr bei der Integration von Campaign mit Assets Core Service auf, sodass ein freigegebenes Asset in einer E-Mail ausgewählt werden kann.
 
-## Version 19.0 – Januar 2019   {#release-19-0---january-2019}
+## Version 19.0 – Januar 2019 {#release-19-0---january-2019}
 
 **Neue Funktionen**
 
@@ -541,8 +541,8 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
    <td> <p>Bei der Bearbeitung von E-Mail-Inhalten können Sie jetzt zu einer Mobile-Ansicht wechseln. Dort können Sie das responsive Design einer E-Mail anpassen, indem Sie alle Stiloptionen für die Anzeige auf Mobilgeräten einzeln bearbeiten, z. B. Spannen, Schriftgrad, Hintergrundfarbe usw.</p><p> Weitere Informationen finden Sie im <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">entsprechenden Handbuch</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Verbesserungen der Betaversion von In-App Messaging<br /> </td> 
-   <td> <p>Die Funktion In-App Messaging in der Betaversion wurde folgendermaßen verbessert:</p> 
+   <td> Verbesserungen beim In-App-Messaging in der Beta-Version<br /> </td> 
+   <td> <p>Die Funktion „In-App-Messaging“ in der Beta-Version wurde folgendermaßen verbessert:</p> 
     <ul> 
      <li> Der In-App-Kanal der Betaversion entspricht der DSGVO. </li> 
      <li> Integration mit Analytics-APIs, um Triggers-Dropdown-Listen mit Daten zu befüllen </li> 

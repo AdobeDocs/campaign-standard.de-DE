@@ -9,8 +9,8 @@ feature: Send Time Optimization
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '308'
+workflow-type: ht
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Unter **[!UICONTROL Planung]** können Sie Versandoptionen für E-Mails, SMS-Nac
 
   Sie können den Versand vorbereiten und bestätigen, die Nachrichten werden aber erst zum ausgewählten Zeitpunkt gesendet. Informationen zur Vorbereitung und Validierung des Versands finden Sie in den Abschnitten [Versandvorbereitung](../../sending/using/preparing-the-send.md) und [Versand bestätigen](../../sending/using/confirming-the-send.md).
 
-  Mithilfe der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** können Sie die für den Versand zu berücksichtigende Zeitzone anpassen. Wenn Sie beispielsweise im Feld **[!UICONTROL Start des Versands am]** 9:00 Uhr eingeben und in der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** Brüssel, Kopenhagen, Madrid, Paris (GMT+1) auswählen, erhalten alle Empfänger die Nachricht um 9:00 Uhr Pariser Zeit. Folglich erhält ein Empfänger in Moskau (GMT+3) die Nachricht um 11:00 Uhr Moskauer Zeit.
+  Mithilfe der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** können Sie die für den Versand zu berücksichtigende Zeitzone anpassen. Wenn Sie beispielsweise „9:00 Uhr“ im Feld **[!UICONTROL Start des Versands am]** eingeben und in der Dropdown-Liste **[!UICONTROL Zeitzone des Kontaktdatums]** die Option „Brüssel, Kopenhagen, Madrid, Paris (GMT+1)“ auswählen, erhalten alle Empfänger bzw. Empfängerinnen die Nachricht um 9:00 Uhr Pariser Zeit. Daher erhält ein Empfänger bzw. eine Empfängerin in der Zeitzone „Moskau (GMT+3)“ die Nachricht um 11:00 Uhr Moskauer Zeit.
 
   Aktivieren Sie die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]**, wenn Sie den tatsächlichen Versand der Nachrichten von einer manuellen Bestätigung abhängig machen möchten. Standardmäßig ist diese Option aktiviert.
 

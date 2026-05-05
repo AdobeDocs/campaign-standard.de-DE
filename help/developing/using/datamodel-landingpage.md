@@ -10,13 +10,13 @@ role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '1817'
+workflow-type: ht
+source-wordcount: '1819'
 ht-degree: 100%
 
 ---
 
-# Landingpage (nms:landingPage)
+# landingPage (nms:landingPage)
 
 ## Objektbeschreibung
 
@@ -25,12 +25,12 @@ ht-degree: 100%
          <th>Name</th>
          <th>Titel</th>
          <th>Typ (Länge)</th>
-         <th>Auflistungswerte</th>
+         <th>Aufzählungswerte</th>
       </tr>
       <tr>
          <td>PKey</td>
          <td>Main resource ID</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
@@ -48,7 +48,7 @@ ht-degree: 100%
       <tr>
          <td>allowNonIdentifiedTarget</td>
          <td>Authorize unidentified visitors</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
@@ -60,36 +60,36 @@ ht-degree: 100%
       <tr>
          <td>builtIn</td>
          <td>Built-in application object</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
          <td>cache</td>
          <td>Cache</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
          <td>campaign (campaignBase)</td>
-         <td>Campaign</td>
+         <td>Kampagne</td>
          <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>closedLog</td>
          <td>'Landing page closed' log</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
          <td>contextResourceType</td>
          <td>ContextResourceType</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
-         <td>created</td>
-         <td>Created</td>
+         <td>Erstellt</td>
+         <td>Erstellt</td>
          <td>date </td>
          <td> </td>
       </tr>
@@ -101,7 +101,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>cryptKey</td>
-         <td>AES encryption key</td>
+         <td>AES-Schlüssel</td>
          <td>string (64)</td>
          <td> </td>
       </tr>
@@ -167,7 +167,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>desc</td>
-         <td>Beschreibung </td>
+         <td>Beschreibung</td>
          <td>string (512)</td>
          <td> </td>
       </tr>
@@ -228,7 +228,7 @@ ht-degree: 100%
       <tr>
          <td>dynamicService</td>
          <td>Dynamic service</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
@@ -240,7 +240,7 @@ ht-degree: 100%
       <tr>
          <td>errorContextResourceType</td>
          <td>ErrorContextResourceType</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
@@ -264,7 +264,7 @@ ht-degree: 100%
       <tr>
          <td>identificationByUrlParam</td>
          <td>Identification by URL parameters</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
@@ -276,13 +276,13 @@ ht-degree: 100%
       <tr>
          <td>isExternal</td>
          <td>Is external resource</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
          <td>isTemplate</td>
          <td>Template</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
@@ -299,7 +299,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>label</td>
-         <td>Label</td>
+         <td>Titel</td>
          <td>string (128)</td>
          <td> </td>
       </tr>
@@ -339,7 +339,7 @@ ht-degree: 100%
       <tr>
          <td>messageAction</td>
          <td>Start sending message</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
@@ -369,7 +369,7 @@ ht-degree: 100%
       <tr>
          <td>prefill</td>
          <td>Preload visitor data</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
@@ -381,7 +381,7 @@ ht-degree: 100%
       <tr>
          <td>publicUrl</td>
          <td>Public URL</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
@@ -456,7 +456,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>targetResource</td>
-         <td>Targeting dimension</td>
+         <td>Zielgruppendimension</td>
          <td>string (255)</td>
          <td> </td>
       </tr>
@@ -469,7 +469,7 @@ ht-degree: 100%
       <tr>
          <td>testUrl</td>
          <td>Test URL</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
@@ -480,7 +480,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>timezone</td>
-         <td>Time zone</td>
+         <td>Zeitzone</td>
          <td>enumeration (string) (64)</td>
          <td>
             <ul>
@@ -613,19 +613,19 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>trackingEnabled</td>
-         <td>Log responses</td>
-         <td>boolean </td>
+         <td>Antworten protokollieren</td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
       <tr>
          <td>trackingUrlName</td>
          <td>Tracking URL name</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
          <td>type</td>
-         <td>Type</td>
+         <td>Typ</td>
          <td>enumeration (byte) </td>
          <td>
             <ul>
@@ -641,13 +641,13 @@ ht-degree: 100%
       <tr>
          <td>uuid</td>
          <td>Security ID</td>
-         <td>string </td>
+         <td>Zeichenfolge </td>
          <td> </td>
       </tr>
       <tr>
          <td>webTrackingEnabled</td>
          <td>Enable web tracking</td>
-         <td>boolean </td>
+         <td>Boolesch </td>
          <td> </td>
       </tr>
    </table>
@@ -676,7 +676,7 @@ Nach Name oder Titel (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -693,7 +693,7 @@ Nach Status (byState)
     </tr>
 </table>
 
-Nach Zielgruppen-Ressource (byTargetResource)
+Nach Zielgruppenbestimmungs-Ressource (byTargetResource)
 
 <table>
 <tr>
@@ -702,7 +702,7 @@ Nach Zielgruppen-Ressource (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>
 
@@ -715,7 +715,7 @@ Erweiterte Landingpages einschließen (withAdvanced)
     </tr>
     <tr>
     <td>advanced</td>
-    <td>boolean</td>
+    <td>Boolesch</td>
     </tr>
 </table>
 
@@ -728,7 +728,7 @@ Kontinuierliche Sendungen aus einer heterogenen Liste einschließen (withContinu
         </tr>
         <tr>
         <td>withContinuous</td>
-        <td>boolean</td>
+        <td>Boolesch</td>
         </tr>
     </table>
 
